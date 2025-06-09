@@ -140,4 +140,4 @@
     *   **Input:** Player party (names, levels, types, moves), PC box (names, levels, types, moves), upcoming challenge details (e.g., Gym Leader name, type focus, key Pokémon), current level cap.
     *   **Output:** Recommended 6-Pokémon team, reasoning for each selection (type advantage, coverage, synergy), and potential move adjustments or TMs to consider for the selected team members.
 
-*   **`Team Composition Advisor` (Low Priority - Idea):** Evaluate if this agent is still desired. If so, define it. If not, remove this note.
+- `Team Composition Advisor` (Medium Priority - Define): Define agent to suggest optimal 6-Pokémon team compositions for upcoming challenges (Gyms, routes) based on current party, PC box, level caps, and known type specialties.
