@@ -50,8 +50,8 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_map_name\":{\"type\":\"string\"},\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"},\"map_sprites_items_json\":{\"type\":\"string\",\"description\":\"JSON string of item objects from Map Sprites (name, position.x, position.y, reachable).\"}},\"required\":[\"current_map_name\",\"player_x\",\"player_y\",\"map_sprites_items_json\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"reminders\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"item_name\":{\"type\":\"string\"},\"item_x\":{\"type\":\"integer\"},\"item_y\":{\"type\":\"integer\"},\"distance_from_player\":{\"type\":\"number\"},\"general_direction\":{\"type\":\"string\"}},\"required\":[\"item_name\",\"item_x\",\"item_y\",\"distance_from_player\",\"general_direction\"]}},\"summary\":{\"type\":\"string\"}},\"required\":[\"reminders\",\"summary\"]}",
     "agent_can_run_code": false,
-    "usage_count": 1,
-    "last_used": "2025-06-09T08:19:52.323Z",
+    "usage_count": 2,
+    "last_used": "2025-06-09T23:32:13.129Z",
     "created_at": "2025-06-09T08:01:59.513Z"
   },
   "tm_learning_advisor_agent": {
