@@ -94,8 +94,8 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"},\"target_x\":{\"type\":\"integer\"},\"target_y\":{\"type\":\"integer\"},\"avoid_coordinates_json\":{\"type\":\"string\",\"description\":\"JSON string of coordinate objects to avoid, e.g., a string like '[{\\\"x\\\":10, \\\"y\\\":15}]'. Can be empty string or null.\"}},\"required\":[\"player_x\",\"player_y\",\"target_x\",\"target_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"suggested_moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"path_found\",\"suggested_moves\",\"reasoning\"]}",
     "agent_can_run_code": true,
-    "usage_count": 22,
-    "last_used": "2025-06-09T23:32:36.980Z",
+    "usage_count": 23,
+    "last_used": "2025-06-09T23:38:57.852Z",
     "created_at": "2025-06-09T19:24:41.853Z"
   }
 }
