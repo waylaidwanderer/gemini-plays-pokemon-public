@@ -1,7 +1,7 @@
 # Current Objectives
-*   **Primary Goal:** Reach Viridian City.
-*   **Secondary Goal:** Explore all remaining points of interest on Route 1 (5 reachable unseen tiles remaining).
-*   **Tertiary Goal:** Find any items or NPCs on Route 1.
+*   **Primary Goal:** Find the Viridian City Gym and PokeMart.
+*   **Secondary Goal:** Explore all unseen areas of Viridian City.
+*   **Tertiary Goal:** Find any items or important NPCs in Viridian City.
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
