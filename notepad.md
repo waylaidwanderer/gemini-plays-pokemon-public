@@ -164,3 +164,6 @@
 *   **System Warnings (Mixed Buttons):** I've been frequently receiving a 'System Warning: You tried to mix directional and action buttons in the same sequence.' This truncates my intended movement paths. I must be more careful to ensure `buttons_to_press` contains *only* directional buttons for multi-step movements. Interaction buttons (A, B) or 'tool' calls must be in separate turns.
 *   **Notepad Organization:** Added a 'Wild Encounters' sub-section under 'Battle Notes' for better clarity. Added an 'Inventory' sub-section under 'Viridian Forest Notes'.
 *   **Pathing Script:** Fixing the `run_code` pathing script using `pathing_script_analyzer_agent` remains a high-priority task for the next visit to a Pokémon Center or other safe, non-grinding location.
+
+    *   Defeated Wild Caterpie Lv4 (Turn 2126), got 30 EXP. SPARKY's HP: 35/39. Not poisoned. EXP: 1728/2197 for Lv13.
+    *   Defeated Wild Oddish Lv6 (Turn 2135), got 66 EXP. SPARKY's HP: 33/39. Not poisoned. EXP: 1794/2197 for Lv13.
