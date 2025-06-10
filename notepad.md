@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
 *   **Secondary Goal:** Navigate Viridian Forest to reach Pewter City.
-*   **Tertiary Goal:** Catch new Pokémon species encountered in Viridian Forest to progress the Pokédex.
+*   **Tertiary Goal:** Acquire Poké Balls from a Poké Mart.
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
@@ -21,6 +21,7 @@
 *   Follower Pokemon can block movement if approached from a non-facing direction, requiring an extra turn to step onto their tile.
 *   **Potion Usage:** SPARKY is now regularly healed at Pokemon Centers. Potion usage is for emergencies or extended field exploration without access to a Center.
 *   **Map Connections:** ALWAYS double-check the *direction* (North, South, East, West) and *destination* of a map connection in the Game State Information before committing to a route. A wrong turn can lead to significant detours (e.g., Route 22 instead of Route 2).
+*   **Trainer Battle Initiation (CRITICAL):** Battles are primarily triggered by entering a trainer's direct line of sight. Observe their facing direction and move onto a tile directly in front of them. Repeatedly pressing 'A' or trying to step on their tile when not in their LoS is ineffective. Dialogue loops can sometimes be broken with 'B' or by moving away.
 
 # Hard Mode Rules
 *   Battle Style: Set.
@@ -42,14 +43,9 @@
 *   **Agent Use for Ledges:** If manual pathing or `exploration_planner` struggles with complex verticality/blockages by ledges, consider using `map_analyzer_agent` to query for clear paths or alternative exits (e.g., 'Find a path from (X,Y) to (A,B) avoiding upward ledges').
 
 # Agent Development Pipeline
-
 ## Active Agents
-*   `exploration_planner`: Analyzes map XML and reachable unseen tiles for efficient exploration. Player must critically evaluate paths for ledge issues.
-*   `map_analyzer_agent`: Analyzes map XML to answer specific questions. (Needs testing - prioritize finding a use case or consider deletion if unused for too long).
-
-## Future Agent Ideas
-*   **Trainer Battle Strategist:** Input: current party, enemy trainer's visible Pokémon (if any), current battle state. Output: suggested moves, switch-ins. (Might be complex to define well with limited initial info).
-*   **Resource Management Agent:** Tracks Potion usage, PP, and advises when to return to a Pokémon Center or be cautious with resources.
+*   `exploration_planner`: Analyzes map XML and reachable unseen tiles for efficient exploration. Player must critically evaluate paths for ledge issues and provide the FULL list of reachable unseen tiles.
+*   `map_analyzer_agent`: Analyzes map XML to answer specific questions. (Testing: Use to determine if Youngster at (17,44) in Viridian Forest blocks progress or if there's a path around, or to find the north exit).
 
 # Map Discoveries
 *   **Pallet Town:** Reachable, undiscovered map connection south at (4,18) or (3,18).
@@ -61,17 +57,9 @@
 
 # Active Pathing Notes & Strategies
 *   **Ledge Bypass (General):** When faced with upward ledges, always look for a route *around* them. This usually involves moving significantly away from the ledge (laterally or downwards) to find a clear corridor or grass patch that allows ascent to a higher elevation *above* the problematic ledges. Then, navigate laterally above the ledges before descending.
-*   **Agent Usage for Complex Paths:** If manual pathing to an objective (unseen tile, warp, item) is blocked more than once, use the `exploration_planner` agent. Critically review agent paths for ledge issues before execution.
-*   **Map Analyzer Agent Reminder:** Evaluate the `map_analyzer_agent` for a specific, immediate use case. Proactively use `map_analyzer_agent` to confirm exits or locate key features before long travel sequences, especially when leaving a city or entering a complex new area. If it remains unused, consider deleting it to free up an agent slot.
+*   **Agent Usage for Complex Paths:** If manual pathing to an objective (unseen tile, warp, item) is blocked more than once, use the `exploration_planner` agent. Critically review agent paths for ledge issues before execution. Provide the COMPLETE list of reachable unseen tiles.
+*   **Map Analyzer Agent Usage:** Proactively use `map_analyzer_agent` for pathing queries or locating features if manual pathing becomes difficult or when entering complex new areas. Test its utility regarding the Youngster at (17,44) or finding the Viridian Forest North Exit.
 
 # Viridian Forest Notes
-*   (Track trainers, items, and path through here)
-
-# Lessons Learned
-*   **Trainer Battle Initiation (CRITICAL):** Battles are primarily triggered by entering a trainer's direct line of sight. Observe their facing direction and move onto a tile directly in front of them. Repeatedly pressing 'A' or trying to step on their tile when not in their LoS is ineffective.
-
-# Viridian Forest Notes
-*   Youngster at (17,44) - initial battle.
-
-# Active Pathing Notes & Strategies
-*   Proactively use `map_analyzer_agent` for pathing queries or locating features if manual pathing becomes difficult or when entering complex new areas. If it remains unused after a few more sessions, consider deleting it.
+*   Youngster at (17,44) - initial battle attempt resulted in a dialogue loop, escaped with 'B'. Need to determine if this trainer is mandatory or can be bypassed.
+*   (Track other trainers, items, and path through here)
