@@ -172,3 +172,6 @@
 
 # New Agent Ideas (Post-Reflection Turn 1882)
 *   `Boss_Battle_Recorder_Agent`: After a failed boss attempt, feed it battle log details and my strategy to analyze what went wrong or what the opponent did unexpectedly. (Consider for later)
+
+# EXP Tracking
+*   SPARKY gained 61 EXP from a wild Metapod Lv6 in Viridian Forest (Turn 1910). Current EXP should be 1728 (pre-battle) + 61 = 1789.
