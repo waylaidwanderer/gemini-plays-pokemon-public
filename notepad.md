@@ -99,3 +99,16 @@
 *   Break down long agent-generated paths (e.g., from `map_analyzer_agent` or `exploration_planner`) into shorter, verifiable segments (e.g., 5-10 steps, or to an intermediate landmark). Re-evaluate after each segment, especially in complex/maze-like areas.
 
 - Defeated Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. His Pokemon: Pinsir Lv8, Metapod Lv9. Got ¥90.
+
+# Pewter City Museum Notes
+*   Paid ¥50 to enter.
+*   **Museum 1F NPCs:**
+    *   Attendant at (10,5): Sells tickets.
+*   **Museum 2F NPCs:**
+    *   Scientist (ID 3) at (8,6): "We have a space exhibit now."
+    *   Brunette Girl (ID 4) at (12,6): "I want a PIKACHU! It's so cute! I asked my Daddy to catch me one!"
+    *   Hiker (ID 5) at (13,6): "I'd love to get that strong looking PIKACHU off you! Too bad it looks so attached. They've been hard to find lately!"
+    *   Youngster (ID 1) at (8,8): On the warp tile to 1F.
+    *   Gramps (ID 2) at (1,6): Not yet spoken to.
+*   Sign at (3,6) MUSEUM2F_MOON_STONE_SIGN is impassable.
+*   Sign at (12,3) MUSEUM2F_SPACE_SHUTTLE_SIGN.
