@@ -112,3 +112,6 @@
     *   Gramps (ID 2) at (1,6): Not yet spoken to.
 *   Sign at (3,6) MUSEUM2F_MOON_STONE_SIGN is impassable.
 *   Sign at (12,3) MUSEUM2F_SPACE_SHUTTLE_SIGN.
+
+*   Gramps (ID 2) at (1,6) on Museum 2F: Not yet spoken to. (Current target)
+*   All other NPCs on Museum 2F have been spoken to. All tiles on Museum 2F have been seen.
