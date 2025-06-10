@@ -115,3 +115,5 @@
 - Current party condition: CRITICAL (ZAPPY 15HP, LUNA 13HP, ECHO & SIR Paralyzed). Must reach Pokecenter ASAP.
 - Previous attempts to exit via eastern edge (X=38) failed. This exit likely functions differently or was misidentified.
 - New Strategy: Navigate to the known western exit warps at (15,36) or (16,36) which lead to Route 4 and the Pokecenter.
+
+*   **Current Location:** Route 4 (Before Mt. Moon) (ID: 15) at (19,7)
