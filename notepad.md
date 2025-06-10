@@ -100,3 +100,6 @@
 *   NPCs on `navigable: false` tiles are impassable physical obstacles, even if defeated or non-battling.
 *   Ledge tiles marked `navigable="true"` can be occupied (e.g., by jumping down onto them), but upward movement onto a ledge from below is prevented by game physics, even if the tile's `navigable` attribute is true. The game's movement denial takes precedence over the XML's `navigable` flag for directional traversal of ledges from below.
 - **Battle Mechanics Note:** Acid (Poison) was 'not very effective' against a wild Zubat (Poison/Flying) in Mt. Moon 1F (Turn 7143). This might indicate a type matchup change for Poison vs. Poison or Poison vs. Flying, or a display error. Standard Gen 1, Poison vs Poison is 1x, Poison vs Flying is 1x.
+
+# Agent Review TODO
+*   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use). Consider revision or deletion if not meeting needs.
