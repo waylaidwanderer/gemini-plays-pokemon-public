@@ -1,6 +1,6 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Locate the Pewter City Gym.
+*   **Secondary Goal:** Enter the Pewter City Gym.
 *   **Tertiary Goal:** Visit the Pewter City Mart to purchase Potions and Poké Balls.
 
 # Event Triggers & Key Interactions
