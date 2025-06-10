@@ -46,15 +46,13 @@
 *   **Level Caps:** Misty (Starmie Lv21 -> Cap 21), Lt. Surge (Raichu Lv28 -> Player Cap 24).
 
 # Agent Development Plan
-*   **`map_analyzer_agent` (Medium Priority - Define/Discard):**
-    *   **Purpose:** Parses map XML to identify key features (unseen areas, unvisited warps, dead ends) to aid exploration strategy.
-    *   **Action:** Define soon or explicitly discard this idea.
-
 *   **`item_finder_reminder_agent` (USE AS NEEDED):**
     *   **Status:** Defined. Works well.
 *   **`rom_hack_mechanics_lookup_agent` (Low Priority - Test):**
-    *   **Status:** Defined.
+    *   **Status:** Defined. Untested.
 *   **`team_composition_advisor_agent` (Low Priority - Test):**
+    *   **Status:** Defined. Untested.
+*   **`hm_advisor_agent` (Low Priority - Test):**
     *   **Status:** Defined. Untested.
 *   **Agent Usage Review (`battle_strategy_agent`, `encounter_optimizer_agent`, `level_up_move_advisor_agent`, `next_battle_action_advisor_agent`, `tm_learning_advisor_agent`):**
     *   **Status:** Defined.
