@@ -111,18 +111,7 @@
 # Agent Review TODO
 *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use). Consider revision or deletion if not meeting needs.
 
-# Mt. Moon 1F Exit Strategy (Eastern Edge, X=38)
+# Mt. Moon 1F Exit Strategy
 - Current party condition: CRITICAL (ZAPPY 15HP, LUNA 13HP, ECHO & SIR Paralyzed). Must reach Pokecenter ASAP.
-- Systematic test of Y-coordinates at X=38 by moving Right:
-  - (38,28) - Tried, Failed.
-  - (38,27) - Tried, Failed.
-  - (38,26) - Tried, Failed.
-  - (38,25) - Tried, Failed.
-  - (38,24) - Tried, Failed.
-  - (38,23) - Tried, Failed.
-  - (38,22) - Tried, Failed.
-  - (38,21) - Tried, Failed.
-  - (38,20) - Tried, Failed.
-  - (38,19) - Tried, Failed.
-  - (38,18) - Current attempt.
-  - Next to try: (38,17), then (38,16), etc., moving upwards.
+- Previous attempts to exit via eastern edge (X=38) failed. This exit likely functions differently or was misidentified.
+- New Strategy: Navigate to the known western exit warps at (15,36) or (16,36) which lead to Route 4 and the Pokecenter.
