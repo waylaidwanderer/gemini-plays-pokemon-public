@@ -3,12 +3,12 @@
 *   Pokedex: 10/151 (Target: Complete)
 
 # Current Team & Training Focus (Strategic Notes)
-*   BELLA (GLOOM Lv21): Core attacker, currently healthy.
-*   ZAPPY (PIKACHU Lv16): Healthy (47/47 HP).
-*   NINA (NIDORAN♀ Lv12): Keep for Ground/Poison typing. Double Kick is useful.
-*   ECHO (ZUBAT Lv11): Flying type coverage, currently healthy.
-*   LUNA (CLEFAIRY Lv11): Healthy (37/37 HP).
-*   SIR (PARAS Lv13) withdrawn and in party. WIGGLES (CATERPIE Lv4) deposited in PC Box 3.
+*   BELLA (GLOOM Lv21): Core attacker, currently healthy (66/66 HP).
+*   ZAPPY (PIKACHU Lv16): Critical HP (15/47 HP).
+*   NINA (NIDORAN♀ Lv12): Healthy (29/36 HP). Keep for Ground/Poison typing. Double Kick is useful.
+*   ECHO (ZUBAT Lv11): Paralyzed (27/30 HP). Flying type coverage.
+*   LUNA (CLEFAIRY Lv11): Critical HP (13/37 HP).
+*   SIR (PARAS Lv13): Paralyzed (30/34 HP).
 
 # Key Items & TMs (Strategic Notes)
 *   OLD ROD x1
@@ -20,12 +20,12 @@
 *   TOWN MAP x1
 
 # Current Location
-*   Mt. Moon 1F (ID: 59) at (38,16)
+*   **Current Location:** Route 4 (Before Mt. Moon) (ID: 15) at (19,7)
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
-*   **Secondary Goal:** Traverse Mt. Moon and reach Route 4 (East of Mt. Moon).
-*   **Tertiary Goal:** Successfully exit Mt. Moon 1F onto Route 4. Successfully exit Mt. Moon 1F onto Route 4.
+*   **Secondary Goal:** Heal the party at a Pokémon Center.
+*   **Tertiary Goal:** Reach Cerulean City.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
@@ -60,15 +60,15 @@
     *   **Status:** Defined. Works as expected.
 *   **Agent Usage Review (9/10 agents defined):**
     *   `hm_advisor_agent` deleted (0 uses).
-    *   **Action:** Reduce reliance on `dungeon_navigator_agent` (45 uses) and `next_battle_action_advisor_agent` (18 uses). Attempt manual navigation/battle decisions first.
+    *   **Action:** Reduce reliance on `dungeon_navigator_agent` (65 uses) and `next_battle_action_advisor_agent` (19 uses). Attempt manual navigation/battle decisions first.
     *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use) if not used more consistently soon.
 *   **`dungeon_navigator_agent` (USE WITH CAUTION):**
-    *   **Status:** Defined. High usage noted (55 uses). Agent does not account for game physics preventing upward ledge movement (confirmed again turn 7105 path to (19,6) which started with Up, Up to ledge (16,8)). Attempt more manual navigation. Review paths or use 'avoid_coordinates' when using. **Strategy Update:** When using `avoid_coordinates_json`, ensure it includes *all* known NPCs on `navigable: false` tiles in the relevant area to improve path viability.
+    *   **Status:** Defined. High usage noted (65 uses). Agent does not account for game physics preventing upward ledge movement. Attempt more manual navigation. Review paths or use 'avoid_coordinates' when using. **Strategy Update:** When using `avoid_coordinates_json`, ensure it includes *all* known NPCs on `navigable: false` tiles in the relevant area to improve path viability.
 
 # Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
 *   Explored parts of Route 3 and Mt. Moon 1F, B1F, B2F.
-*   Exited Mt. Moon (eastern exit) onto Route 4 (Before Mt. Moon).
+*   Exited Mt. Moon (western exit) onto Route 4 (Before Mt. Moon).
 *   Confirmed Route 3 (North) to Route 4 (Before Mt. Moon) (South) map connection forms a loop for Mt. Moon traversal purposes.
 *   Tested `rom_hack_mechanics_lookup_agent` and `team_composition_advisor_agent`.
 *   Deleted `hm_advisor_agent`.
@@ -82,11 +82,11 @@
 *   Youngster (ID 5) at (20,6) - Defeated (Blocks path from east on row 6).
 *   Youngster (ID 7) at (23,10) - Non-battling (repeated dialogue). His tile (23,10) is `navigable: false`, acting as a physical block, preventing eastward movement on row 10 from (22,10).
 *   Youngster (ID 8) at (25,7) - Defeated.
-*   Cool Trainer F (ID 9) at (34,11) - **UNDEFEATED**. Blocks path west on row 11.
+*   Cool Trainer F (ID 9) at (34,11) - Defeated.
 ## Mt. Moon 1F Trainers
 *   Bug Catcher (ID 6) at (8,25) - Defeated.
 *   Lass (Cool Trainer F, ID 5) at (17,24) - Defeated.
-*   Super Nerd (ID 4) at (25,32) - Defeated. (Blocked path to west on row 32, before defeat).
+*   Super Nerd (ID 4) at (25,32) - Defeated.
 *   Bug Catcher (ID 8) at (32,29) - Defeated.
 *   Lass (Cool Trainer F, ID 3) at (31,5) - Defeated.
 *   Youngster (ID 2) at (14,17) - Defeated.
@@ -97,10 +97,10 @@
 *   Super Nerd (Rocket ID 4) at (30,12) - Not a battle. Requests a Fossil.
 *   Rocket Grunt (ID 5) at (30,18) - Undefeated (was unreachable).
 ## Route 4 (Before Mt. Moon) Trainers
-*   Cool Trainer F (ID 1) - **UNENGAGEABLE / NOT DEFEATED.** Abandoned attempts to battle. (Player choice to avoid unnecessary battle and prevent looping on lower ledges).
+*   Cool Trainer F (ID 1) at (10,9) - **UNENGAGEABLE / NOT DEFEATED.** Abandoned attempts to battle. (Player choice to avoid unnecessary battle and prevent looping on lower ledges).
 
 # ARCHIVED LOGS (Summarized)
-*   **Mt. Moon Exploration:** Successfully navigated Mt. Moon and found eastern exit to Route 4. Noted complexity and segmented nature of B1F/B2F. Super Nerd wants a fossil.
+*   **Mt. Moon Exploration:** Successfully navigated Mt. Moon and found western exit to Route 4. Noted complexity and segmented nature of B1F/B2F. Super Nerd wants a fossil.
 *   **Route 4 (Before Mt. Moon) Navigation:** Initial attempts to navigate Route 4 eastward from Mt. Moon's exit were inefficient due to prematurely jumping down ledges, forcing a loop back via Route 3. The correct path requires staying on the upper tier after exiting Mt. Moon (eastern exit) and heading east.
 
 ## Navigation Rules & Insights
@@ -111,11 +111,6 @@
 # Agent Review TODO
 *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use). Consider revision or deletion if not meeting needs.
 
-# Mt. Moon 1F Exit Strategy
-- Current party condition: CRITICAL (ZAPPY 15HP, LUNA 13HP, ECHO & SIR Paralyzed). Must reach Pokecenter ASAP.
-- Previous attempts to exit via eastern edge (X=38) failed. This exit likely functions differently or was misidentified.
-- New Strategy: Navigate to the known western exit warps at (15,36) or (16,36) which lead to Route 4 and the Pokecenter.
-
-*   **Current Location:** Route 4 (Before Mt. Moon) (ID: 15) at (19,7)
-
-*   **Current Location:** Route 4 (Before Mt. Moon) (ID: 15) at (19,7)
+## Route 4 Navigation
+- Party is in critical condition (ZAPPY 15HP, LUNA 13HP, ECHO PAR, SIR PAR).
+- Current objective: Reach the Mt. Moon Pokecenter at (12,6) on this route to heal.
