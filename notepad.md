@@ -149,7 +149,7 @@
 *   **Viable Trainers (based on Leveling Advisor & Game State):**
     1.  Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) - **CONFIRMED NON-BATTLING (dialogue only).** Gave dialogue: "There aren't many serious POKéMON trainers here! They're all like BUG CATCHERs, but PEWTER GYM's BROCK is totally into it!"
     2.  Super Nerd (PEWTERCITY_SUPER_NERD1) at (28,18) - **CONFIRMED NON-BATTLING (dialogue only).** Dialogue: "Weren't those fossils from MT. MOON amazing?"
-    3.  Youngster (PEWTERCITY_YOUNGSTER) at (36,17) - Facing Down.
+    3.  Youngster (PEWTERCITY_YOUNGSTER) - Originally at (36,17). After dialogue ("Follow me!"), he moved player and himself to near the Gym entrance (player to (12,19), Youngster to (18,19)). Final dialogue: "If you have the right stuff, go take on BROCK!". **CONFIRMED NON-BATTLING (scripted event only).**
 *   **Questionable/Unreachable Trainers (from Advisor):**
     *   Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) - Previously non-battling. Re-check dialogue.
     *   Super Nerd (PEWTERCITY_SUPER_NERD2) at (27,26) - Game state and map XML confirm unreachable.
