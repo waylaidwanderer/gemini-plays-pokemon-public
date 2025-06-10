@@ -118,11 +118,10 @@
 
 **Battle Mechanics Update (Mt. Moon):** Confirmed Acid (Poison-type move) is 'not very effective' (0.5x) against wild Zubat (Poison/Flying). This indicates a ROM hack change where Poison attacks are resisted by either Poison-type or Flying-type Pokémon (or both, though less likely for 0.5x). Standard Gen 1: Poison vs Poison = 1x, Poison vs Flying = 1x.
 
-# Mt. Moon Exploration Update (Turn 7401)
-*   Mt. Moon 1F: The easternmost edge around columns 38-39 (e.g., near (38,29)) appears to be a solid wall with no direct exit to Route 4 (East) on this floor. This was confirmed by checking map XML and attempting to move east.
-*   The Youngster at (31,28) on 1F stating "This cave leads to CERULEAN CITY!" is likely a general hint for the Mt. Moon complex, not an indicator of an exit on 1F itself.
-*   Map data for Mt. Moon 1F shows no eastern map connections or unvisited warps leading east.
-*   **New Hypothesis:** The eastern exit to Route 4 (leading to Cerulean City) is likely located on Mt. Moon B1F or B2F. Plan is to descend to B1F via ladder at (26,16) and explore its eastern sections.
+# Mt. Moon Exploration Strategy (Revised Turn 7535)
+*   **Systematic Exploration:** The eastern exit to Cerulean City is likely on Mt. Moon B1F or B2F. Mt. Moon 1F serves as a hub with multiple warps leading to different, potentially isolated segments of the lower floors.
+*   **Current Focus:** Utilize the warp at (18,12) on Mt. Moon 1F to access a new section of B1F. Thoroughly explore this new segment of B1F and any connected areas of B2F before trying other 1F warps.
+*   Avoid assuming direct paths on 1F lead to the exit; prioritize descending to and exploring the lower levels systematically.
 
 # Critique Feedback & Action Items (Turn 7426)
 *   Test `item_use_advisor_agent` soon (e.g., with Moon Stone or Rare Candy).
