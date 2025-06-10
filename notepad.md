@@ -39,7 +39,7 @@
     1.  **Objective:** Obtain a Fossil (Dome or Helix). - COMPLETE (Helix Fossil obtained).
     2.  **Source:** Super Nerd (ID 1, sprite MTMOONB2F_SUPER_NERD) at (Mt. Moon B2F, 13,9) guarded the fossils. He was defeated in battle.
     3.  **Fossil Acquisition:** After defeating Super Nerd (ID 1), the Helix Fossil was picked up at (14,7).
-    4.  **Next Step:** Find the eastern Mt. Moon exit to Route 4. The Super Nerd (ID 4) at (30,12) might still be relevant if he blocks the path or has new dialogue after a fossil is obtained, but he is currently unreachable.
+    4.  **Next Step:** Find the eastern Mt. Moon exit to Route 4. Super Nerd (ID 4) at (30,12) is no longer considered relevant to fossil acquisition or path blocking for the eastern exit, as the fossil was obtained from Super Nerd (ID 1) and the path to the eastern section of B2F is via a different route.
 *   **Item Acquisition:** Key items like fossils, if pick-ups, will be visible item sprites on the map and listed in the `Map Sprites` section *after the trigger event*. Do not interact with empty ground tiles expecting items.
 
 ## Battle Strategy
