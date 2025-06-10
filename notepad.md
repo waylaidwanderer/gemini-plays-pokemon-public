@@ -21,8 +21,8 @@
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
-*   **Secondary Goal:** Return to Mt. Moon to find a Fossil.
-*   **Tertiary Goal:** Explore Route 4 for items and trainers.
+*   **Secondary Goal:** Explore Route 4 for items and trainers while heading to Cerulean City.
+*   **Tertiary Goal:** Return to Mt. Moon to find a Fossil (deferred).
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
@@ -63,19 +63,14 @@
     *   **Status:** Defined.
     *   **Purpose:** Quick lookup for ROM hack mechanics.
     *   **Notes:** Test its utility.
-*   **`Team Composition Advisor` (DISCARDED):** Idea discarded to focus development efforts. (Critique acknowledged)
+*   **`team_composition_advisor_agent` (Medium Priority - Test):**
+    *   **Status:** Defined. Untested.
+    *   **Purpose:** Advises on optimal team composition.
+    *   **Notes:** Test before next major battle (e.g., Misty).
 *   **Agent Usage Review (`battle_strategy_agent`, `encounter_optimizer_agent`, `level_up_move_advisor_agent`, `next_battle_action_advisor_agent`, `tm_learning_advisor_agent`):**
     *   **Status:** Defined.
     *   **Action:** Evaluate necessity of less-used agents. Consolidate or delete if not providing consistent value.
     *   **Note on `next_battle_action_advisor_agent`:** High usage. Reduce reliance.
-*   **`training_optimizer_agent` (High Priority - Define):**
-    *   **Status:** Idea solidified.
-    *   **Purpose:** Suggests training spots/opportunities for weaker Pokémon, and safe switch-in strategies.
-    *   **Input:** Party, PC, current location, known upcoming trainers/wild encounters (and their levels/types if known), current level cap.
-    *   **Output:** Recommendations for specific Pokémon to train, best training locations/routes, specific wild Pokémon to target, and potentially safe switch-in strategies for EXP gain. Should consider type advantages and EXP yield.
-    *   **Action:** Define this agent soon, especially before major battles if party levels are disparate or specific type training is needed. (Critique acknowledged)
-*   **`route_planner_agent` (DISCARDED):** Idea discarded for now. (Critique acknowledged)
-*   **`item_usage_advisor_agent` (DISCARDED):** Idea discarded for now. (Critique acknowledged)
 
 # Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
@@ -100,9 +95,9 @@
 *   Super Nerd (Rocket ID 4) at (30,12) - Not a battle. Requests a Fossil.
 *   Rocket Grunt (ID 5) at (30,18) - Undefeated (was unreachable from B2F access point (26,10)).
 ## Route 4 Trainers
-*   Cool Trainer F (ID 1) at (10,7) - Target for battle.
+*   Cool Trainer F (ID 1) at (19,8) - UNENGAGEABLE / NOT DEFEATED.
 
-# Mt. Moon Exploration Log
+# Mt. Moon Exploration Log (ARCHIVED - Route 4 Reached)
 ## Overall Objective
 *   Navigate Mt. Moon to reach Route 4 and eventually Cerulean City. Secondary objective: find a Fossil. (Route 4 reached, fossil pending).
 
@@ -126,28 +121,19 @@
 *   **Warp at (22,18) (from B1F (22,18)):** Leads back to Mt. Moon B1F (22,18).
 
 ## Navigation Issues & Learnings
-*   **Unintended Warps:** Multiple instances of unintentionally taking warps due to long movement sequences crossing warp tiles. (e.g., Turn 5915, Turn 6162, Turn 6684). Be more cautious and verify paths, especially from `dungeon_navigator_agent`.
+*   **Unintended Warps:** Multiple instances of unintentionally taking warps due to long movement sequences crossing warp tiles. Be more cautious and verify paths.
 *   **Pathing Inefficiency:** Some exploration paths were inefficient. Break down movements into smaller, verifiable segments.
-*   **Zappy's Status:** Zappy is no longer confused. Confusion wore off after wild Zubat battle (Turn 6174).
+*   **Zappy's Status:** Zappy is no longer confused. Confusion wore off after wild Zubat battle.
+*   Mt. Moon B1F and B2F are segmented. Accessing different areas often requires returning to Mt. Moon 1F and taking a different ladder down to an isolated B1F section, which then connects to a different B2F section.
 
 ## Agent Performance & Notes
 ### dungeon_navigator_agent
 - **Status:** Defined and in use.
-- **Performance:** Failed once (Turn 6273, script produced no output), then due to incorrect input type (Turn 6682). Worked correctly on subsequent uses. Needs monitoring. System prompt emphasizes correct JSON output.
-- **Note:** Consider if paths suggested by the agent cross unintended warps. The agent finds *a* path, not necessarily one that avoids all warps. Review paths carefully.
-
-## Post-Healing Exploration Strategy for Mt. Moon (Archived - On Route 4 now)
-*   Prioritize finding undiscovered warps on Mt. Moon B1F, as indicated by game state, to access new areas of B2F for fossil hunting, *after* the party is healed.
-
-## Reflection Insights (Turn 6590)
-*   Mt. Moon B1F and B2F are segmented. Accessing different areas often requires returning to Mt. Moon 1F and taking a different ladder down to an isolated B1F section, which then connects to a different B2F section.
-
-## Agent Development Plan Updates (Turn 6590)
-*   Under `battle_strategy_agent` and `encounter_optimizer_agent` notes: Add: "Review system prompts for clarity and relevance to ROM hack after next use."
+- **Performance:** Needs monitoring for pathing through unintended warps. Review paths carefully.
 
 # Route 4 Notes
 *   Exited Mt. Moon at (19,7) on Route 4.
-*   Cool Trainer F (ID 1) at (10,7) is a battle target.
+*   Cool Trainer F (ID 1) at (19,8) was unengageable after multiple attempts. Abandoned battle to proceed east.
 *   Map Connections: South to Route 3 (Navigable), East is Undiscovered (Not Navigable).
 *   Warps: Pokecenter at (12,6), Mt. Moon 1F entrance at (19,6).
 *   Signs: Pokecenter sign at (13,6), Mt. Moon sign at (18,8).
