@@ -84,3 +84,5 @@
 
 *   **Type Matchups (REINFORCED - CRITICAL ERROR):** THUNDERSHOCK is NOT VERY EFFECTIVE against Grass/Poison types (e.g., Oddish). This is a recurring mistake. QUICK ATTACK (Normal) is neutral and often a better choice for consistent damage in such cases. Must internalize type charts.
 *   **Proactive Healing & Poison Management (REINFORCED - CRITICAL ERROR):** Blacking out due to poison and accumulated damage from poor battle choices is unacceptable. If SPARKY is poisoned, prioritize healing (Antidote if available, Potion if HP is low, or retreat to a Pokémon Center) *before* further exploration or difficult battles. Do not rely on nearly fainting before healing. Use Potions more liberally outside of battle to maintain high HP.
+
+- Defeated Lass (Cool Trainer F, ID 5) at (3,42) in Viridian Forest. Her Pokemon: NIDORAN♀ Lv6, NIDORAN♂ Lv6. SPARKY was at 26/39 HP after the battle. Got ¥90.
