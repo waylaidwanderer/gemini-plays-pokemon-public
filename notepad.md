@@ -62,17 +62,16 @@
 *   Healed at Mt. Moon Pokecenter.
 *   Obtained Helix Fossil (Mt. Moon B2F from Super Nerd ID 1).
 *   Navigated Route 4 (Before Mt. Moon) to Route 3.
-*   Corrected understanding of Mt. Moon 1F segments: Central/Eastern 1F is isolated from Western 1F. Access to Western B1F (and thus the B1F(18,12) -> B2F fossil area warp) is via the 1F(18,12) or 1F(6,6) warps in Western 1F, which is not directly reachable from Central/Eastern 1F.
-*   Path to Cerulean (Route 4 East) - Attempt 4:
-1. Current B2F segment (accessed via B1F(14,28)) is a dead end for finding new B1F routes. All other B2F->B1F warps are unreachable from here.
-2. Plan:
-    a. Use current warp B2F(16,28) -> B1F(14,28).
-    b. On B1F, navigate from (14,28) to warp B1F(26,16).
-    c. Use warp B1F(26,16) -> 1F(26,16).
-    d. On 1F, navigate from (26,16) to warp 1F(35,17). (This warp is listed as reachable on 1F and leads to B1F entry 4).
-    e. Use warp 1F(35,17) -> B1F(26,10) (this is B1F entry 4).
-    f. The ladder at B1F(26,10) should lead to an isolated 1F area (1F entry 4).
-    g. In that isolated 1F area, find the 1F(26,10) ladder which is the MT_MOON_EXIT.
+
+# Path to Cerulean (Route 4 East) - Attempt 5:
+The key is reaching the B1F segment containing the ladder at (26,10), which leads to the isolated eastern 1F exit area.
+1.  Currently on B1F at (26,16) (arrived from 1F(26,16), which was 1F's warp #5, leading to B1F's warp #4, which is B1F(26,16)).
+2.  Use the warp at B1F(26,16) to return to 1F. This will land at 1F(26,16) (1F's warp #5).
+3.  On 1F, navigate from (26,16) to the warp at 1F(18,12).
+4.  The warp at 1F(18,12) (1F's warp #4) leads to B1F, entry_point 3.
+5.  B1F's 3rd warp in its list is the ladder at B1F(26,10). So, taking 1F(18,12) should lead directly to B1F(26,10).
+6.  The ladder at B1F(26,10) leads to an isolated 1F area (1F's warp #4).
+7.  In this isolated 1F area, find the ladder that serves as the MT_MOON_EXIT to Route 4 East.
 
 # Trainer Battle Intel
 ## Route 3
