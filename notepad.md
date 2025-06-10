@@ -24,7 +24,7 @@
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
-*   **Secondary Goal:** Navigate Route 4 (Before Mt. Moon) eastward to reach the path to Cerulean City.
+*   **Secondary Goal:** Navigate Route 3 westward to reach Pewter City.
 *   **Tertiary Goal:** Find a Fossil in Mt. Moon (deferred).
 
 # Gameplay Notes & Strategy
