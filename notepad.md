@@ -94,20 +94,7 @@
 *   Test battle_strategist_agent and leveling_training_advisor_agent before challenging Brock.
 
 # Pewter City Museum Notes (COMPLETED)
-*   Paid ¥50 to enter.
-*   **Museum 1F NPCs & Items:**
-    *   Attendant at (10,5): Sells tickets.
-    *   Old Man (Gambler sprite, ID 1) at (2,5): "That is one magnificent fossil!"
-    *   All tiles seen, all NPCs spoken to.
-*   **Museum 2F NPCs & Items:**
-    *   Scientist (ID 3) at (8,6): "We have a space exhibit now."
-    *   Brunette Girl (ID 4) at (12,6): "I want a PIKACHU! It's so cute! I asked my Daddy to catch me one!"
-    *   Hiker (ID 5) at (13,6): "I'd love to get that strong looking PIKACHU off you! Too bad it looks so attached. They've been hard to find lately!"
-    *   Youngster (ID 1) at (8,8): On the warp tile to 1F (no unique dialogue).
-    *   Gramps (ID 2) at (1,6): "July 20, 1969! The 1st lunar landing! I bought a color TV to watch it!"
-    *   Sign at (3,6) MUSEUM2F_MOON_STONE_SIGN is impassable.
-    *   Sign at (12,3) MUSEUM2F_SPACE_SHUTTLE_SIGN.
-    *   All tiles seen, all NPCs spoken to.
+*   Visited both floors, paid ¥50 entry. Spoke to all NPCs (Attendant, Old Man, Scientist, Brunette Girl, Hiker, Youngster, Gramps). Noted signs about Moon Stone and Space Shuttle. No items found. Area fully explored.
 
 # Viridian City Notes
 *   Youngster (no ID in map sprites, but observed) at (31,26) can block the path to the Mart if approaching from the east along row 26. Need to go around via row 27 if blocked.
