@@ -91,7 +91,3 @@
     *   Moves: THUNDERSHOCK (23 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP).
 *   **EXP Note:** SPARKY is at the level cap of 12. Further EXP gain is halted until Brock is defeated.
 *   **Critique Lesson (Turn 2626):** Consistently verify path navigability tile-by-tile in Map Memory for any planned route, especially longer ones. Break down manual pathing into shorter, verifiable segments (e.g., 3-5 steps). Prioritize fixing/using pathing agents. Confirm item prices and funds *before* shop visits. Re-evaluate shop menu interaction for quantity adjustments.
-
-*   **Wild Pokémon Battles (ROM Hack Change):** Wild Pokémon do not award money, only EXP (if not level capped). Money must be earned from trainers.
-
-*   **Wild Pokémon Battles (ROM Hack Change):** Wild Pokémon do not award money, only EXP (if not level capped). Money must be earned from trainers.
