@@ -124,3 +124,5 @@
 
 *   **`objective_validator_agent` Potential Use:** Consider using to validate tile navigability for a `navigation_goal_coordinate` *before* setting it, especially if targeting an NPC on a tile that might be `navigable: false` in map XML, even if the sprite is `reachable: yes`.
 *   **Agent Prompts:** Periodically review agent system prompts for clarity and to ensure they contain all necessary game-specific context if not passed via input (since agents are otherwise contextless).
+
+*   Super Nerd (ID 1) at (Route 3, 58,12) - Non-battling (dialogue: "Whew... I better take a rest... Groan... That tunnel from CERULEAN takes a lot out of you!").
