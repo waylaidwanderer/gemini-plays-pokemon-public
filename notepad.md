@@ -21,8 +21,8 @@
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 
 # Current Location & Navigation Plan
-*   **Current Location:** Mt. Moon 1F (ID: 59) at (6,6) - Just arrived from B1F, party critically injured.
-*   **Immediate Navigation Plan:** Step off warp at (6,6). Explore Mt. Moon 1F (northwestern section) to find a different ladder/warp leading to an unvisited segment of B1F or B2F, ultimately aiming for a path to the eastern side of Mt. Moon 1F and the exit to Route 4.
+*   **Current Location:** Mt. Moon 1F (ID: 59) at (17,8) - Party critically injured.
+*   **Immediate Navigation Plan:** Follow Phase 1 of 'Mt. Moon Navigation Strategy (Post-Critique - DETAILED EXIT PLAN)' to reach warp (26,16) on Mt. Moon 1F.
 
 # Current Goals (Revised Turn 8701 - POST-CRITIQUE)
 *   **Primary Goal:** Reach the Pokémon Center on Route 4 (Before Mt. Moon) to heal the party. (ABSOLUTE TOP PRIORITY)
