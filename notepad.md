@@ -117,6 +117,4 @@
 - **Warp Caution (Mt. Moon 1F):** Be extremely careful when pathing near the warp tile at (26,16) on Mt. Moon 1F to Mt. Moon B1F. Double-check paths to avoid accidental warping.
 
 # Agent Development & Usage (Updates)
-## Agent Brainstorming (Future Ideas if Slots Open)
-*   **Pathing Error Detector Agent:** Input: planned path (coordinate list), `map_xml_string`. Output: boolean (error_found), string (description, e.g., 'Path step X lands on unintended warp Y,Z'). Checks if any step lands on a known warp unless it's the final destination.
-*   **Level Cap Compliance Agent:** Input: party Pokémon list, current_level_cap. Output: List of Pokémon at/near cap, reminders about EXP gain.
+#
