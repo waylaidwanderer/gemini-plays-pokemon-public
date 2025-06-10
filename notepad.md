@@ -66,7 +66,7 @@
 *   **Route 22 (WEST of Viridian City):** Leads to the Pokemon League. THIS IS A DETOUR if aiming for Pewter City.
 
 # Viridian Forest Notes
-*   Youngster (ID 1, VIRIDIANFOREST_YOUNGSTER1) at (17,44): Encountered dialogue loop. Battle is likely mandatory as they block the path north.
+*   Youngster (ID 1, VIRIDIANFOREST_YOUNGSTER1) at (17,44): Confirmed non-battling NPC after direct interaction. Path north appears to be around this NPC via (16,44) or (18,44).
 *   Youngster (ID 10, VIRIDIANFOREST_YOUNGSTER6) at (28,41): Confirmed non-battling NPC. Dialogue: "You should carry extras!". Blocks direct westward movement along row 41.
 *   Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (28,20): **Defeated**.
 *   Items Collected:
