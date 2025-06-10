@@ -21,8 +21,8 @@
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 
 # Current Location & Navigation Plan
-*   **Current Location:** Route 3 (ID: 14) at (66,13) - Exploring grass for training/catches.
-*   **Immediate Navigation Plan:** Continue exploring grass patches on Route 3, then proceed east towards Mt. Moon's eastern entrance.
+*   **Current Location:** Mt. Moon 1F (ID: 59) at (16,34) - Navigating to Mt. Moon B1F.
+*   **Immediate Navigation Plan:** Take the ladder at (26,16) on Mt. Moon 1F to reach Mt. Moon B1F for training and progression towards Cerulean City.
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and obtain the Cascade Badge from Misty.
