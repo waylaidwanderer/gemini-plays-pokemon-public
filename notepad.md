@@ -143,17 +143,15 @@
 *   Blacked out and returned to Pewter City Pokemon Center. Money halved (¥392 -> ¥196).
 *   **Conclusion:** Current strategy with SPARKY alone at Lv12 is not viable. Need to level up SPARKY, find a new team member effective against Rock/Ground, or significantly revise the strategy. Will consult leveling advisor.
 
-# Leveling Plan for Brock (Post-Blackout 1)
+# Leveling Plan for Brock (Post-Blackout 1) - REVISED
 *   **Objective:** Level SPARKY from Lv12 to Lv14 (level cap).
-*   **Strategy:** Battle undefeated trainers in Pewter City for EXP.
-*   **Viable Trainers (based on Leveling Advisor & Game State):**
-    1.  Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) - **CONFIRMED NON-BATTLING (dialogue only).** Gave dialogue: "There aren't many serious POKéMON trainers here! They're all like BUG CATCHERs, but PEWTER GYM's BROCK is totally into it!"
-    2.  Super Nerd (PEWTERCITY_SUPER_NERD1) at (28,18) - **CONFIRMED NON-BATTLING (dialogue only).** Dialogue: "Weren't those fossils from MT. MOON amazing?"
-    3.  Youngster (PEWTERCITY_YOUNGSTER) - Originally at (36,17). After dialogue ("Follow me!"), he moved player and himself to near the Gym entrance (player to (12,19), Youngster to (18,19)). Final dialogue: "If you have the right stuff, go take on BROCK!". **CONFIRMED NON-BATTLING (scripted event only).**
-*   **Questionable/Unreachable Trainers (from Advisor):**
-    *   Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) - Previously non-battling. Re-check dialogue.
-    *   Super Nerd (PEWTERCITY_SUPER_NERD2) at (27,26) - Game state and map XML confirm unreachable.
-*   **Notes:** Explore unseen tiles in Pewter City while moving between trainers.
+*   **Strategy REVISED:** Grind wild Pokémon in Viridian Forest. Pewter City trainers were non-battling.
+*   **Pewter City Trainer Outcomes:**
+    1.  Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) - Confirmed non-battling (dialogue only).
+    2.  Super Nerd (PEWTERCITY_SUPER_NERD1) at (28,18) - Confirmed non-battling (dialogue only).
+    3.  Youngster (PEWTERCITY_YOUNGSTER) - Scripted event, moved player to Gym entrance, non-battling.
+    4.  Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) - Previously confirmed non-battling.
+*   **Conclusion:** No viable trainer EXP in Pewter City. Proceed to Viridian Forest for wild encounters.
 
 # Reflection & Agent Strategy Log (Turn 1830)
 *   **Key Reflection Points:**
