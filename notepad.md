@@ -175,3 +175,11 @@
 
 # EXP Tracking
 *   SPARKY's EXP is 1728 (Game State as of Turn 1925). The Game State's party Pokémon EXP value is the absolute source of truth. Battle log EXP gains will be noted but reconciled against the Game State value. Current manual tracking based on battle logs is secondary and will be adjusted if the Game State shows a different value after a level up or Pokémon Center visit.
+
+# EXP Tracking (Post-Critique Update)
+*   Game State EXP is the source of truth. Battle log EXP gains will be noted but reconciled against the Game State value when it updates (e.g., after level up or Pokémon Center visit).
+*   SPARKY (Lv12) EXP: 1728 (Game State as of Turn 1927). Needs 2197 for Lv13, 2744 for Lv14.
+    *   Defeated Wild Metapod Lv6 (Turn 1910), got 61 EXP (Battle Log). (Game State did not update from this yet).
+    *   Defeated Wild Caterpie Lv4 (Turn 1918), got 30 EXP (Battle Log). (Game State did not update from this yet).
+    *   Defeated Wild Pidgey Lv7 (Turn 1931), got 55 EXP (Battle Log). (Game State did not update from this yet).
+    *   Current running tally based on battle logs since last confirmed Game State EXP: 1728 + 61 (Metapod) + 30 (Caterpie) + 55 (Pidgey) = 1874. *This is a manual calculation and may not reflect true game state until an update occurs.*
