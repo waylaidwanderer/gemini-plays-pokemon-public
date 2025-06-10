@@ -134,3 +134,6 @@
         4.  **Super Nerd ID 4 (Rocket at 30,12):** Initially thought to be relevant, but the fossil was obtained from Super Nerd ID 1. Super Nerd ID 4 is no longer considered part of this objective.
 
 *   `next_battle_action_advisor_agent` (24 uses): REDUCE RELIANCE. Make more manual battle decisions, especially for common wild Pokémon or obvious scenarios (e.g., running with a critically injured party). **Act on this reminder consistently.**
+
+# Self-Correction & Critique Learnings
+- Path Planning: Meticulously examine map data (`map_xml_string`/annotated screen) *before* committing to movement. Identify clear, navigable corridors. Break down navigation into smaller, verifiable segments, especially in complex areas. If a path is blocked, backtrack to a known navigable area and re-evaluate the entire route, considering completely different approaches.
