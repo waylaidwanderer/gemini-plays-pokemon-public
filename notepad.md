@@ -134,3 +134,5 @@
     *   **Purpose:** Suggests training spots/opportunities for weaker Pokémon, and safe switch-in strategies.
     *   **Input:** Party, PC, current location, known upcoming trainers/wild encounters.
     *   **Output:** Recommendations for Pokémon to train, locations, and strategies.
+
+- **Action Item:** Prioritize testing `fossil_chooser_agent`, `rom_hack_mechanics_lookup_agent`, and `team_composition_advisor_agent` at their next relevant opportunities. Decide on defining or discarding `training_optimizer_agent` idea soon.
