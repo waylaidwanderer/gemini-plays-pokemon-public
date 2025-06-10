@@ -34,7 +34,7 @@
 # Hard Mode Rules
 *   Battle Style: Set.
 *   No items in battle.
-*   Level caps apply (Lt. Surge's cap is 24, Brock's Ace Onix is Lv14, so cap is 14).
+*   Level caps apply (current cap with 0 badges is 12; Brock's Ace Onix is Lv14, so the cap before fighting him will be 14 once that's the next objective; Lt. Surge's cap is 24).
 
 # Key Game Changes (ROM Hack)
 *   HMs: Forgettable, usable from menu, not storable in PC.
