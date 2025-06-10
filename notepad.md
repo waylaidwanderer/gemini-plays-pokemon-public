@@ -20,7 +20,7 @@
 *   TOWN MAP x1
 
 # Current Location
-* Route 3 (ID: 14) at (49,10)
+* Pewter Pokecenter (ID: 58) at (12,4)
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
