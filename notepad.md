@@ -117,3 +117,5 @@
 - New Strategy: Navigate to the known western exit warps at (15,36) or (16,36) which lead to Route 4 and the Pokecenter.
 
 *   **Current Location:** Route 4 (Before Mt. Moon) (ID: 15) at (19,7)
+
+*   **Current Location:** Route 4 (Before Mt. Moon) (ID: 15) at (19,7)
