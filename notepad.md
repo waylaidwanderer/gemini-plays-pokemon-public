@@ -56,8 +56,8 @@
 *   `leveling_training_advisor_agent`: Advises on optimal grinding spots, Pokemon to train, and EV training strategies based on current party, level cap, known areas/trainers, and game mode (e.g., Hard Mode restrictions). (Use when preparing for gym leaders or if general leveling is needed. Test this agent to assess its effectiveness.)
 *   `pokedex_completer_agent`: Suggests targets for Pokedex completion. (Defined - test effectiveness)
 *   `team_builder_agent`: Suggests ideal team compositions for major challenges. (Defined - test effectiveness)
-## Pathing Script (`run_code`) Behavior (**CRITICAL - DO NOT USE UNTIL FIXED - IMMEDIATE ACTION REQUIRED**)
-*   The `run_code` script for path generation is **FUNDAMENTALLY FLAWED** and **UNRELIABLE**.
+## Pathing Script (`run_code`) Behavior (**NEW SCRIPT UNDER DEVELOPMENT**)
+*   A new, basic A* pathing script is being developed using `run_code`. Its reliability is currently TBD (To Be Determined) and it has known limitations (e.g., only considers 'ground' tiles, no Pikachu awareness). Manual navigation or `map_analyzer_agent` queries are preferred for complex paths until this script is more robust.
     *   **NEW STRATEGY (MANDATORY):** **DO NOT USE THIS SCRIPT for any path longer than 1-2 easily verifiable steps.** Prioritize **MANUAL NAVIGATION**. If stuck, use `map_analyzer_agent` to query for paths.
     *   **CURRENT STRATEGY (PEWTER POKEMON CENTER):** Develop a new, basic pathing script using `run_code`. The old script is abandoned. Future iterations of this new script will aim to handle more tile types and Pikachu. The `pathing_script_analyzer_agent` may be used later to analyze/debug this new script if needed.
 
