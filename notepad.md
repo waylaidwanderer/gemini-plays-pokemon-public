@@ -90,3 +90,6 @@
 
 *   **Poison Management & Preparedness (CRITICAL REINFORCEMENT):** Encountering Oddish and getting SPARKY poisoned in Viridian Forest, then taking further damage while retreating, highlights critical vulnerabilities. 1. Always carry Antidotes when entering hazardous areas. 2. If poisoned, retreat to a Pokémon Center *immediately* and avoid further encounters (consider running if possible). Do not continue exploring or battling, even if HP is initially high. 3. Proactively purchase healing items and status cures. Operating with minimal supplies is too risky in Hard Mode.
 *   **Agent Pathing (map_analyzer_agent - REINFORCED):** Consistently break down long paths provided by `map_analyzer_agent` into very short, verifiable segments (e.g., 5-10 steps) from the outset, especially in mazes. Do not attempt to follow long sequences in one go, as they are prone to interruption and inefficiency.
+
+# Viridian City Notes
+*   Youngster (no ID in map sprites, but observed) at (31,26) can block the path to the Mart if approaching from the east along row 26. Need to go around via row 27 if blocked.
