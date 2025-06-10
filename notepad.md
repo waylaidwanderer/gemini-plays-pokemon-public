@@ -128,3 +128,7 @@
 
 *   `dungeon_navigator_agent` (91 uses): Drastically reduce reliance, especially for complex, multi-segment navigation or when targets are known to be in separate areas. Prioritize manual pathfinding or breaking navigation into smaller, verifiable segments. Be more critical of its output.
 *   **1x1 Warp Activation:** Be more consistent with 1x1 warp activation, especially considering Pikachu's position. Stepping off and then back on is the reliable method if unsure.
+
+# Gameplay Reminders (Post-Reflection Turn 8367)
+*   **Reachable Unseen Tiles List:** Always use the *current* list from the Game State Information for exploration planning. This list is dynamic and can change frequently.
+*   **Navigation Goal Coordinates:** Ensure `navigation_goal_coordinates` are always confirmed `navigable: true` in the map XML or are part of the current 'Reachable Unseen Tiles' list from Game State to avoid pathing errors.
