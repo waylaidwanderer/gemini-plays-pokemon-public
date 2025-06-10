@@ -62,7 +62,7 @@
 *   **Route 22 (WEST of Viridian City):** Leads to the Pokemon League. THIS IS A DETOUR if aiming for Pewter City.
 
 # Inventory & Finances
-*   POKé BALL x3
+*   POKé BALL x2
 *   REPEL x10
 *   Money: ¥96
 *   **Note:** Potions cost ¥200.
