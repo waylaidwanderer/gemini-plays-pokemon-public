@@ -145,13 +145,13 @@
 
 # Leveling Plan for Brock (Post-Blackout 1) - REVISED
 *   **Objective:** Level SPARKY from Lv12 to Lv14 (level cap).
-*   **Strategy REVISED:** Grind wild Pokémon in Viridian Forest. Pewter City trainers were non-battling.
-*   **Pewter City Trainer Outcomes:**
-    1.  Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) - Confirmed non-battling (dialogue only).
-    2.  Super Nerd (PEWTERCITY_SUPER_NERD1) at (28,18) - Confirmed non-battling (dialogue only).
-    3.  Youngster (PEWTERCITY_YOUNGSTER) - Scripted event, moved player to Gym entrance, non-battling.
-    4.  Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) - Previously confirmed non-battling.
-*   **Conclusion:** No viable trainer EXP in Pewter City. Proceed to Viridian Forest for wild encounters.
+*   **Strategy REVISED:** Grind wild Pokémon in Viridian Forest.
+*   **Pewter City Trainer Outcomes (ALL NON-BATTLING/SCRIPTED):
+    1.  Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) - Dialogue only.
+    2.  Super Nerd (PEWTERCITY_SUPER_NERD1) at (28,18) - Dialogue only.
+    3.  Youngster (PEWTERCITY_YOUNGSTER) at (36,17) - Scripted event, led to Gym, no battle.
+    4.  Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) - Dialogue only.
+*   **Conclusion:** No trainer EXP in Pewter City. Viridian Forest is the sole grinding spot for now.
 
 # Reflection & Agent Strategy Log (Turn 1830)
 *   **Key Reflection Points:**
