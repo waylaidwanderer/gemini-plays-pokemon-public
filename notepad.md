@@ -63,3 +63,20 @@
 # Viridian Forest Notes
 *   Youngster at (17,44) - initial battle attempt resulted in a dialogue loop, escaped with 'B'. Need to determine if this trainer is mandatory or can be bypassed.
 *   (Track other trainers, items, and path through here)
+
+# Battle Notes
+- Record insights for specific Pokémon/trainers, especially Hard Mode implications.
+
+# Pewter City Prep
+- Find out Brock's Ace level / level cap for Hard Mode.
+- Plan party composition/training for Brock.
+
+# Future Agent Ideas
+## Trainer Battle Strategist
+    - Input: Player party (levels, moves, HP), opponent's known/likely Pokémon.
+    - Output: Suggested lead, move order, switch strategies for Hard Mode (Set, no items).
+    - System Prompt Idea: Focus on type matchups, minimizing damage, Set mode tactics.
+## Resource Manager Agent
+    - Input: Party status (HP, PP), inventory.
+    - Output: Advice on out-of-battle healing/PP restoration, when to return to Poké Center.
+    - System Prompt Idea: Focus on resource conservation for Hard Mode, no in-battle items.
