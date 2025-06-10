@@ -94,3 +94,6 @@
 
 *   SPROUT (ODDISH): Lv6 (23/23 HP, no status). Current EXP: 179.
     *   Moves: TACKLE (35 PP), POISONPOWDER (35 PP).
+
+# Pewter City Navigation Notes
+*   The Pokecenter entrance warp is at (14,26) and its impassable sign is at (15,26). When exiting the Pokecenter (e.g., to (14,27) or (15,27)) and intending to move north, first move horizontally to at least column 16 (e.g., (16,27)) before proceeding north to avoid re-entering the warp or hitting the sign.
