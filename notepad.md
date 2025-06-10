@@ -174,7 +174,4 @@
 *   `Boss_Battle_Recorder_Agent`: After a failed boss attempt, feed it battle log details and my strategy to analyze what went wrong or what the opponent did unexpectedly. (Consider for later)
 
 # EXP Tracking
-*   SPARKY's EXP is 1728 (Game State, Turn 1914). Previous battle log (Turn 1910 vs Metapod Lv6) indicated +61 EXP, but Game State did not reflect this increase. Will monitor EXP gain carefully.
-
-# EXP Tracking (Post-Caterpie Turn 1920)
-* SPARKY defeated Caterpie Lv4, gained 30 EXP. Current total: 1728 (GS) + 30 = 1758 EXP. (Game state still shows 1728 in party list, discrepancy noted).
+*   SPARKY's EXP is 1728 (Game State as of Turn 1925). The Game State's party Pokémon EXP value is the absolute source of truth. Battle log EXP gains will be noted but reconciled against the Game State value. Current manual tracking based on battle logs is secondary and will be adjusted if the Game State shows a different value after a level up or Pokémon Center visit.
