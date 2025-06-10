@@ -92,5 +92,5 @@
 *   **EXP Note:** SPARKY is at the level cap of 12. Further EXP gain is halted until Brock is defeated.
 *   **Critique Lesson (Turn 2626):** Consistently verify path navigability tile-by-tile in Map Memory for any planned route, especially longer ones. Break down manual pathing into shorter, verifiable segments (e.g., 3-5 steps). Prioritize fixing/using pathing agents. Confirm item prices and funds *before* shop visits. Re-evaluate shop menu interaction for quantity adjustments.
 
-*   SPROUT (ODDISH): Lv6 (8/23 HP, no status). Current EXP: 179.
+*   SPROUT (ODDISH): Lv6 (23/23 HP, no status). Current EXP: 179.
     *   Moves: TACKLE (35 PP), POISONPOWDER (35 PP).
