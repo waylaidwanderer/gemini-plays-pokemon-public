@@ -62,8 +62,8 @@
     *   `hm_advisor_agent` deleted (0 uses).
     *   **Action:** Reduce reliance on `dungeon_navigator_agent` (65 uses) and `next_battle_action_advisor_agent` (19 uses). Attempt manual navigation/battle decisions first.
     *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use) if not used more consistently soon.
-*   **`dungeon_navigator_agent` (USE WITH CAUTION):**
-    *   **Status:** Defined. High usage noted (69 uses - per critique). Agent does not account for game physics preventing upward ledge movement. MUST attempt more manual navigation. Review paths or use 'avoid_coordinates' when using. **Strategy Update:** When using `avoid_coordinates_json`, ensure it includes *all* known NPCs on `navigable: false` tiles in the relevant area to improve path viability.
+*   **`dungeon_navigator_agent` (REDUCE RELIANCE):**
+    *   **Status:** Defined. Excessively high usage (69 uses). Agent has limitations (e.g., ledge physics). Prioritize manual navigation; use agent for initial complex path discovery in large, unseen areas only. Review paths or use 'avoid_coordinates' when using. **Strategy Update:** When using `avoid_coordinates_json`, ensure it includes *all* known NPCs on `navigable: false` tiles in the relevant area to improve path viability.
 
 ## Future Agent Ideas
 *   **Item Use Advisor Agent:** To advise on using consumable stat boosters, Rare Candies, or evolution stones. (Defined Turn 7383)
