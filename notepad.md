@@ -110,10 +110,5 @@
 *   **EXP at Level Cap:** Pokémon at cap (e.g., BELLA Lv21) gain NO EXP, despite message.
 *   Prioritize healing if party critical. Trust game state `reachable: no`.
 
-# Gameplay Notes & Strategy (Updates)
-## Navigation & Exploration (Updates)
-- **Dynamic Navigation Plan:** Update 'Immediate Navigation Plan' in notepad to reflect immediate tasks (e.g., winning current battle, correcting a warp mistake) before the larger segment goal.
-- **Warp Caution (Mt. Moon 1F):** Be extremely careful when pathing near the warp tile at (26,16) on Mt. Moon 1F to Mt. Moon B1F. Double-check paths to avoid accidental warping.
-
 # Agent Development & Usage (Updates)
 #
