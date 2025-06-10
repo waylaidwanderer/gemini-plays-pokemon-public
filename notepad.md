@@ -45,17 +45,16 @@
 *   **Strategy:** To bypass upward ledges, find a path AROUND. Move away from the ledges (laterally or downwards) to find a clear corridor or grass patch allowing ascent *above* the problematic ledges. Then, navigate laterally above and descend as needed. Verify ledge properties in map memory and visually inspect. Critically evaluate agent-provided paths for ledge issues.
 *   **Agent Use for Ledges:** If manual pathing or `exploration_planner` struggles with complex verticality/blockages by ledges, consider using `map_analyzer_agent` to query for clear paths or alternative exits (e.g., 'Find a path from (X,Y) to (A,B) avoiding upward ledges').
 
-# Agent Development & Pathing Strategy (**MAJOR OVERHAUL - POST-CRITIQUE**)
+# Agent Development & Pathing Strategy (**REVISED POST-CRITIQUE & BLACKOUT**)
 ## Active Agents
-*   `exploration_planner`: Analyzes map XML and reachable unseen tiles for efficient exploration. (Continue using, but break down long paths).
-*   `map_analyzer_agent`: Analyzes map XML to answer specific questions. (**CRITICAL: MUST USE MORE PROACTIVELY** for navigation issues, pathfinding queries if stuck, or understanding blockages, e.g., around (26,28) earlier.)
-*   `pathing_script_analyzer_agent`: Analyzes pathing scripts. (**CRITICAL PRIORITY:** Use this agent IMMEDIATELY on the current `run_code` pathing script to diagnose and fix its flaws. Do NOT use the `run_code` pathing script for anything beyond 1-2 steps until this analysis is complete and fixes are implemented.)
+*   `exploration_planner`: Analyzes map XML and reachable unseen tiles for efficient exploration. (Continue using, but break down long paths. Ensure Pikachu's health is stable before long explorations.)
+*   `map_analyzer_agent`: Analyzes map XML to answer specific questions. (Use proactively for navigation issues, pathfinding queries if stuck, or understanding blockages.)
+*   `pathing_script_analyzer_agent`: Analyzes pathing scripts. (**HIGHEST PRIORITY AFTER STABILIZING CURRENT SITUATION:** Use this agent to diagnose and fix the `run_code` pathing script. Do NOT use the `run_code` pathing script for anything beyond 1-2 manual steps until this analysis is complete and fixes are implemented.)
 ## Planned Agents
-*   `battle_strategist_agent`: To assist with Hard Mode boss fight planning. (**DECISION POINT:** Define this agent soon or explicitly remove it from the plan to keep focus.)
+*   `battle_strategist_agent`: To assist with Hard Mode boss fight planning. (Define after current critical issues are resolved and Viridian Forest is cleared, or if stuck on a major trainer.)
 ## Pathing Script (`run_code`) Behavior (**CRITICAL - DO NOT USE UNTIL FIXED**)
-*   The `run_code` script for path generation has shown **EXTREME UNRELIABILITY** and is considered **FUNDAMENTALLY FLAWED** in its current state (Turns 983, 990, 992, 993, 1006, 1007, 1009, 1010, 1017, 1024, 1025, 1026, and many others).
-    *   It frequently produces insufficient/incorrect move lists, gets blocked by simple obstacles (walls, Pikachu), misinterprets facing/position, or generates paths into impassable tiles. It seems to have issues with obstacle avoidance, Pikachu interaction, and facing direction management.
-    *   **NEW STRATEGY (MANDATORY):** **DO NOT USE THIS SCRIPT for any path longer than 1-2 easily verifiable steps.** Prioritize **MANUAL NAVIGATION**. If stuck, use `map_analyzer_agent` to query for paths. The `pathing_script_analyzer_agent` *must* be used to analyze and fix the script before any further attempts at complex automated pathing.
+*   The `run_code` script for path generation is **FUNDAMENTALLY FLAWED** and **UNRELIABLE**.
+    *   **NEW STRATEGY (MANDATORY):** **DO NOT USE THIS SCRIPT for any path longer than 1-2 easily verifiable steps.** Prioritize **MANUAL NAVIGATION**. If stuck, use `map_analyzer_agent` to query for paths. The `pathing_script_analyzer_agent` *must* be used to analyze and fix the script before any further attempts at complex automated pathing. All agent development is secondary to ensuring SPARKY's safety and fixing this script.
 
 # Map Discoveries
 *   **Pallet Town:** Reachable, undiscovered map connection south at (4,18) or (3,18).
