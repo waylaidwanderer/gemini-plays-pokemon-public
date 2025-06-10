@@ -110,3 +110,13 @@
 
 # Agent Review TODO
 *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use). Consider revision or deletion if not meeting needs.
+
+# Mt. Moon 1F Exit Strategy (Eastern Edge, X=38)
+- Current position: (38,25)
+- Systematically test Y-coordinates for exit by moving Right:
+  - Try (38,25) -> Right
+  - Try (38,24) -> Right
+  - Try (38,23) -> Right
+  - Try (38,22) -> Right
+  - Try (38,21) -> Right
+  - ... and so on, moving upwards from current Y=25 if previous attempts fail.
