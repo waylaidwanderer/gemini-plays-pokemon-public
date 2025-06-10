@@ -55,7 +55,7 @@
 *   'SOMEONE's PC' for Pokémon Storage. 'Gem's PC' for Item Storage.
 
 # Agent Development & Usage
-*   **Current Agents (10/10):** `level_up_move_advisor_agent`, `next_battle_action_advisor_agent`, `exploration_prioritizer_agent`, `tm_learning_advisor_agent`, `objective_validator_agent`, `dungeon_navigator_agent`, `team_composition_advisor_agent`, `item_use_advisor_agent`, `trainer_data_logger_agent`, `gym_leader_strategist_agent`.
+*   **Current Agents (10/10):** `level_up_move_advisor_agent`, `next_battle_action_advisor_agent`, `exploration_prioritizer_agent`, `tm_learning_advisor_agent`, `objective_validator_agent`, `dungeon_navigator_agent`, `item_use_advisor_agent`, `trainer_data_logger_agent`, `gym_leader_strategist_agent`, `escape_route_planner_agent`.
 *   **High Usage Agents to Monitor & Reduce Reliance:**
     *   `dungeon_navigator_agent` (106 uses): MASSIVELY REDUCE RELIANCE. Prioritize manual pathfinding for ALL short-to-medium paths. Break complex paths into small, verifiable segments. Always double-check agent output.
     *   `next_battle_action_advisor_agent` (24 uses): DRASTICALLY REDUCE RELIANCE. Make manual battle decisions for ALL common wild Pokémon and obvious scenarios (e.g., running with a critically injured party).
