@@ -148,3 +148,5 @@
 *   RUN FROM ALL WILD ENCOUNTERS.
 
 **Contingency:** If any segment of this path is blocked by an obstacle not in map memory (but visible on annotated screen), re-evaluate only the blocked segment and find a local detour. Prioritize annotated screen for immediate obstacles.
+
+- Route 4 (Before Mt. Moon): East map connection is Undiscovered and Navigable: No.
