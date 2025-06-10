@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Heal SPARKY (cure poison and restore HP/PP) at the Pewter City Pokémon Center.
-*   **Tertiary Goal:** Level up SPARKY to Lv14 (after being healed and resupplied).
+*   **Secondary Goal:** Level up SPARKY to Lv14.
+*   **Tertiary Goal:** Reach Pewter City to enable restocking on Potions.
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
