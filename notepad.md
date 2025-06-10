@@ -118,3 +118,7 @@
 # Gameplay Reminders (Post-Reflection Turn 8367)
 *   **Reachable Unseen Tiles List:** Always use the *current* list from the Game State Information for exploration planning. This list is dynamic and can change frequently.
 *   **Navigation Goal Coordinates:** Ensure `navigation_goal_coordinates` are always confirmed `navigable: true` in the map XML or are part of the current 'Reachable Unseen Tiles' list from Game State to avoid pathing errors.
+
+# Mt. Moon Navigation Strategy (Post-Critique)
+- **Mt. Moon 1F Goal:** Reach warp at (26,16) to access eastern B1F, then eastern 1F, then exit to Route 4.
+- **Pathing on 1F:** From (12,4), the path to (26,16) is long and requires navigating a large southern loop. Prioritize this route. Run from all encounters due to critical party health.
