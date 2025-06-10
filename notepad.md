@@ -131,3 +131,5 @@
 *   **Blocked Path Advisor Agent:** When a path is blocked, suggest alternative routes by analyzing nearby navigable tiles and potential detours around the obstacle.
 
 - Rocket Grunt (ID 3) at (Mt Moon B2F 16,23) - Defeated.
+
+*   Defeated trainers may sometimes remain as physical obstacles on their tile, even if their sprite data indicates `reachable: yes`. Their tile will remain `navigable: false` in map memory.
