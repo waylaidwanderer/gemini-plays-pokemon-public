@@ -33,9 +33,9 @@
 *   Dynamic scaling Gyms 4-6.
 *   EXP. All available early.
 
-# Route 1 - General Ledge Navigation Principles
-*   **Goal:** Access northern areas of Route 1 from the south (e.g., Pallet Town entrance).
-*   **Strategy:** Identify clear northward paths (e.g., ground corridors like X=7-9, X=10 from Y<=20, or eastern grass patches) to bypass major ledge systems (Y=24, Y=20). Once north of these, navigate laterally and descend ledges as needed. Always verify ledge properties in map memory.
+# General Ledge Navigation Principles
+*   **Problem:** Ledges block upward movement.
+*   **Strategy:** To bypass upward ledges, you MUST find a path AROUND them. This often means going significantly south/west/east of the ledges, then using clear ground corridors or specific patches (like grass if it allows passage) to ascend to a higher elevation. Once above the problematic ledges, navigate laterally and then descend ledges as needed to reach the target area. Always verify ledge properties in map memory and visually inspect the screen.
 
 # Agent Development Pipeline
 
