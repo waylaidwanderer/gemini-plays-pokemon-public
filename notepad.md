@@ -78,10 +78,10 @@
 *   SPARKY Lv12 vs Geodude Lv10 & Onix Lv14. Fainted to Geodude's Rock Throw. Geodude used Defense Curl. Money halved (¥392 -> ¥196).
 *   **Conclusion:** SPARKY alone at Lv12 is not viable. Needs to be Lv14, find a new team member, or revise strategy.
 
-# Current Pokémon Status (Turn 2417)
-*   SPARKY (PIKACHU): Lv12 (36/39 HP). EXP: 1728 (GameState). Just gained 71 EXP from Kakuna Lv7 (Turn 2416).
+# Current Pokémon Status (Turn 2419)
+*   SPARKY (PIKACHU): Lv12 (36/39 HP). EXP: 1728 (GameState). (Pending +71 EXP from Kakuna Lv7 on T2416, for a calculated total of 1799).
     *   Moves: THUNDERSHOCK (25 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP).
-*   Current calculated EXP with pending gain: 1728 + 71 = 1799.
+*   Calculated EXP (after pending gain): 1799.
 *   **EXP to Lv13 (2197 total):** 2197 - 1799 = 398 EXP needed.
 *   **EXP to Lv14 (2744 total):** 2744 - 1799 = 945 EXP needed.
 
