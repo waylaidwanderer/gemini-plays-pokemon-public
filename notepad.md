@@ -57,7 +57,7 @@
 ## Pathing Script (`run_code`) Behavior (**CRITICAL - DO NOT USE UNTIL FIXED - IMMEDIATE ACTION REQUIRED**)
 *   The `run_code` script for path generation is **FUNDAMENTALLY FLAWED** and **UNRELIABLE**.
     *   **NEW STRATEGY (MANDATORY):** **DO NOT USE THIS SCRIPT for any path longer than 1-2 easily verifiable steps.** Prioritize **MANUAL NAVIGATION**. If stuck, use `map_analyzer_agent` to query for paths.
-    *   **IMMEDIATE NEXT STEP (WHEN AT A POKEMON CENTER OR SAFE LOCATION):** Use the `pathing_script_analyzer_agent` to diagnose and begin fixing the `run_code` pathing script. This is the **HIGHEST PRIORITY** after ensuring SPARKY's immediate safety (e.g., healing if low HP) and reaching a stable location (like a Pokémon Center or the forest exit). All agent development is secondary to ensuring SPARKY's safety and fixing this script.
+    *   **IMMEDIATE NEXT STEP (WHEN AT A POKEMON CENTER OR SAFE LOCATION):** Use the `pathing_script_analyzer_agent` to diagnose and begin fixing the `run_code` pathing script. This is the **ABSOLUTE HIGHEST PRIORITY** and must be addressed at the very next opportunity when not actively grinding or in a dangerous area (e.g., next Pokémon Center visit). Continued deferral is unacceptable.
 
 # Map Discoveries
 *   **Pallet Town:** Reachable, undiscovered map connection south at (4,18) or (3,18).
