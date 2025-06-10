@@ -43,19 +43,17 @@
 *   **Strategy:** To bypass upward ledges, find a path AROUND. Move away from the ledges (laterally or downwards) to find a clear corridor or grass patch allowing ascent *above* the problematic ledges. Then, navigate laterally above and descend as needed. Verify ledge properties in map memory and visually inspect. Critically evaluate agent-provided paths for ledge issues.
 *   **Agent Use for Ledges:** If manual pathing or `exploration_planner` struggles with complex verticality/blockages by ledges, consider using `map_analyzer_agent` to query for clear paths or alternative exits (e.g., 'Find a path from (X,Y) to (A,B) avoiding upward ledges').
 
-# Agent Development & Pathing Notes
+# Agent Development & Pathing Strategy (**MAJOR OVERHAUL - POST-CRITIQUE**)
 ## Active Agents
-*   `exploration_planner`: Analyzes map XML and reachable unseen tiles for efficient exploration.
-    *   **Lesson Reinforced (Turn 961, 979, 982):** ALWAYS provide the *complete and exact* list of 'Reachable Unseen Tiles' from the Game State Information. Double-check input.
-*   `map_analyzer_agent`: Analyzes map XML to answer specific questions. (Use more actively for pathing issues when `run_code` script fails or for complex manual navigation planning. Could have helped around (26,28) blockage.)
-## Planned Agents (URGENT - DEFINE ASAP)
-*   `pathing_script_analyzer_agent`: To debug and optimize the `run_code` pathing script, or explain failures. (**CRITICAL PRIORITY** - Define ASAP due to persistent script failures.)
-*   `battle_strategist_agent`: To assist with Hard Mode boss fight planning.
-## Pathing Script (`run_code`) Behavior (**MAJOR & PERSISTENT ISSUE - CONSOLIDATED**)
-*   The `run_code` script for path generation has shown **EXTREME unreliability** (Turns 983, 990, 992, 993, 1006, 1007, 1009, 1010, 1017, 1024, 1025, 1026, and many others).
-    *   It frequently produces insufficient/incorrect move lists, gets blocked by simple obstacles (walls, Pikachu), misinterprets facing/position, or generates paths into impassable tiles.
-    *   **Current Strategy (REINFORCED):** AVOID using this script for long or complex paths. Prioritize **MANUAL NAVIGATION** or use the script **ONLY for very short, easily verifiable segments (1-5 steps)**. Break down `exploration_planner` paths into tiny chunks if attempting script use.
-    *   The `pathing_script_analyzer_agent` is crucial for addressing these deficiencies. Repeatedly re-running the script without understanding the failure is inefficient.
+*   `exploration_planner`: Analyzes map XML and reachable unseen tiles for efficient exploration. (Continue using, but break down long paths).
+*   `map_analyzer_agent`: Analyzes map XML to answer specific questions. (**CRITICAL: MUST USE MORE PROACTIVELY** for navigation issues, pathfinding queries if stuck, or understanding blockages, e.g., around (26,28) earlier.)
+*   `pathing_script_analyzer_agent`: Analyzes pathing scripts. (**CRITICAL PRIORITY:** Use this agent IMMEDIATELY on the current `run_code` pathing script to diagnose and fix its flaws. Do NOT use the `run_code` pathing script for anything beyond 1-2 steps until this analysis is complete and fixes are implemented.)
+## Planned Agents
+*   `battle_strategist_agent`: To assist with Hard Mode boss fight planning. (**DECISION POINT:** Define this agent soon or explicitly remove it from the plan to keep focus.)
+## Pathing Script (`run_code`) Behavior (**CRITICAL - DO NOT USE UNTIL FIXED**)
+*   The `run_code` script for path generation has shown **EXTREME UNRELIABILITY** and is considered **FUNDAMENTALLY FLAWED** in its current state (Turns 983, 990, 992, 993, 1006, 1007, 1009, 1010, 1017, 1024, 1025, 1026, and many others).
+    *   It frequently produces insufficient/incorrect move lists, gets blocked by simple obstacles (walls, Pikachu), misinterprets facing/position, or generates paths into impassable tiles. It seems to have issues with obstacle avoidance, Pikachu interaction, and facing direction management.
+    *   **NEW STRATEGY (MANDATORY):** **DO NOT USE THIS SCRIPT for any path longer than 1-2 easily verifiable steps.** Prioritize **MANUAL NAVIGATION**. If stuck, use `map_analyzer_agent` to query for paths. The `pathing_script_analyzer_agent` *must* be used to analyze and fix the script before any further attempts at complex automated pathing.
 
 # Map Discoveries
 *   **Pallet Town:** Reachable, undiscovered map connection south at (4,18) or (3,18).
@@ -66,14 +64,13 @@
 *   **Route 22 (WEST of Viridian City):** Leads to the Pokemon League. THIS IS A DETOUR if aiming for Pewter City.
 
 # Viridian Forest Notes
-*   Youngster (ID 1, VIRIDIANFOREST_YOUNGSTER1) at (17,44): Encountered dialogue loop. `map_analyzer_agent` (Turn 877) confirmed this trainer blocks the direct path north and cannot be bypassed. Battle is likely mandatory.
-*   Youngster (ID 10, VIRIDIANFOREST_YOUNGSTER6) at (28,41): Confirmed non-battling NPC. Dialogue: "You should carry extras!". Blocks direct westward movement along row 41. The tile (28,41) is non-navigable.
+*   Youngster (ID 1, VIRIDIANFOREST_YOUNGSTER1) at (17,44): Encountered dialogue loop. Battle is likely mandatory as they block the path north.
+*   Youngster (ID 10, VIRIDIANFOREST_YOUNGSTER6) at (28,41): Confirmed non-battling NPC. Dialogue: "You should carry extras!". Blocks direct westward movement along row 41.
 *   Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (28,20): **Defeated**.
 *   Items Collected:
     *   Potion at (26,12) - Collected (Turn 981).
 
 # Battle Notes
-*   Record insights for specific Pokémon/trainers, especially Hard Mode implications.
 *   SPARKY learned TAIL WHIP, replacing GROWL at Lv11 (Turn 1004).
 
 # Pewter City Prep
