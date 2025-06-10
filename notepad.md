@@ -161,10 +161,11 @@
 
 ### Current Grinding Session (Viridian Forest - For Brock) - EXP Tracking (Turn 2333)
 *   **EXP Goal:** SPARKY Lv12 -> Lv14 (Target Total EXP for Lv14: 2744)
-*   **Baseline EXP (GameState T2333 - current turn):** 1728. SPARKY's HP: 35/39. Not Poisoned.
-*   **EXP to Lv13 (2197 total):** 469 EXP needed.
-*   **EXP to Lv14 (2744 total):** 1016 EXP needed.
-*   **Battle Log (This Session - since Baseline EXP 1728):**
-    *   *(Session restarted due to EXP reset to baseline. Previous logged battles in this section are void.)*
+*   **Baseline EXP (GameState T2333):** 1728. SPARKY's HP: 35/39. Not Poisoned.
+*   **Current EXP (SPARKY Lv12):** 1783 (after Pidgey Lv7 on Turn 2343).
+*   **EXP to Lv13 (2197 total):** 414 EXP needed.
+*   **EXP to Lv14 (2744 total):** 961 EXP needed.
+*   **Battle Log (This Session - since Baseline EXP 1728):
+    *   Defeated Pidgey Lv7 at (3,10). Gained 55 EXP. SPARKY now 1783 EXP. HP 29/39 (Poisoned). (Turn 2343)
 
 (This new section should be placed logically, perhaps under '# Battle Notes' or as a new major heading for clarity. For now, appending will add it to the end, and I can reorganize later if needed. The key is to have the correct info available immediately.)
