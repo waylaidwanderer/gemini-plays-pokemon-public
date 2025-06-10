@@ -49,9 +49,7 @@
 *   **`map_analyzer_agent` (Medium Priority - Define/Discard):**
     *   **Purpose:** Parses map XML to identify key features (unseen areas, unvisited warps, dead ends) to aid exploration strategy.
     *   **Action:** Define soon or explicitly discard this idea.
-*   **`fossil_chooser_agent` (Low Priority - Test):**
-    *   **Status:** Defined. Untested.
-    *   **Purpose:** Advises on Dome/Helix fossil choice. Test when fossil choice is presented.
+
 *   **`item_finder_reminder_agent` (USE AS NEEDED):**
     *   **Status:** Defined. Works well.
 *   **`rom_hack_mechanics_lookup_agent` (Low Priority - Test):**
