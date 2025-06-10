@@ -114,3 +114,9 @@
 
 # Pewter City Mart Notes
 *   Youngster (PEWTERMART_YOUNGSTER) at (4,5): "A shady old man got me to buy this really weird fish POKéMON! It's totally weak and it cost ¥500!" (Likely referring to Magikarp).
+
+# Pewter City Gym Notes
+*   Gym Guide says Brock's lead is GEODUDE (Rock Throw), and he also has an ONIX (Bind).
+*   **CRITICAL: Electric attacks are HARMLESS to Brock's Ground-type POKéMON.**
+*   SPARKY's Thundershock and Thunder Wave will be useless. Must rely on Quick Attack and Tail Whip.
+*   Need to find Brock's Ace level for the level cap.
