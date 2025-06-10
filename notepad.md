@@ -4,11 +4,11 @@
 
 # Current Team & Training Focus (Strategic Notes)
 *   BELLA (GLOOM Lv21): Core attacker, currently healthy (66/66 HP).
-*   ZAPPY (PIKACHU Lv16): Critical HP (15/47 HP).
-*   NINA (NIDORAN♀ Lv12): Healthy (29/36 HP). Keep for Ground/Poison typing. Double Kick is useful.
-*   ECHO (ZUBAT Lv11): Paralyzed (27/30 HP). Flying type coverage.
-*   LUNA (CLEFAIRY Lv11): Critical HP (13/37 HP).
-*   SIR (PARAS Lv13): Paralyzed (30/34 HP).
+*   ZAPPY (PIKACHU Lv16): Healthy (47/47 HP).
+*   NINA (NIDORAN♀ Lv12): Healthy (36/36 HP). Keep for Ground/Poison typing. Double Kick is useful.
+*   ECHO (ZUBAT Lv11): Healthy (30/30 HP). Flying type coverage.
+*   LUNA (CLEFAIRY Lv11): Healthy (37/37 HP).
+*   SIR (PARAS Lv13): Healthy (34/34 HP).
 
 # Key Items & TMs (Strategic Notes)
 *   OLD ROD x1
@@ -20,12 +20,12 @@
 *   TOWN MAP x1
 
 # Current Location
-*   **Current Location:** Route 4 (Before Mt. Moon) (ID: 15) at (19,7)
+*   **Current Location:** Mt Moon (ID: 59) at (25,18)
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
-*   **Secondary Goal:** Heal the party at a Pokémon Center.
-*   **Tertiary Goal:** Reach Cerulean City.
+*   **Secondary Goal:** Navigate Mt. Moon 1F to find the eastern exit towards Cerulean City.
+*   **Tertiary Goal:** Catch any new interesting Pokémon in Mt. Moon if encountered.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
@@ -65,6 +65,10 @@
 *   **`dungeon_navigator_agent` (USE WITH CAUTION):**
     *   **Status:** Defined. High usage noted (65 uses). Agent does not account for game physics preventing upward ledge movement. Attempt more manual navigation. Review paths or use 'avoid_coordinates' when using. **Strategy Update:** When using `avoid_coordinates_json`, ensure it includes *all* known NPCs on `navigable: false` tiles in the relevant area to improve path viability.
 
+## Future Agent Ideas
+*   **Shop Inventory Agent:** To track items/TMs sold in Marts.
+*   **Item Use Advisor Agent:** To advise on using consumable stat boosters, Rare Candies, or evolution stones.
+
 # Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
 *   Explored parts of Route 3 and Mt. Moon 1F, B1F, B2F.
@@ -73,6 +77,7 @@
 *   Tested `rom_hack_mechanics_lookup_agent` and `team_composition_advisor_agent`.
 *   Deleted `hm_advisor_agent`.
 *   Deposited WIGGLES (Caterpie Lv4) into PC Box 3. Withdrew SIR (Paras Lv13) from PC Box 1.
+*   Healed party at Mt. Moon Pokecenter.
 
 # Trainer Battle Intel
 ## Route 3 Trainers
@@ -106,13 +111,8 @@
 ## Navigation Rules & Insights
 *   NPCs on `navigable: false` tiles are impassable physical obstacles, even if defeated or non-battling.
 *   Ledge tiles marked `navigable="true"` can be occupied (e.g., by jumping down onto them), but upward movement onto a ledge from below is prevented by game physics, even if the tile's `navigable` attribute is true. The game's movement denial takes precedence over the XML's `navigable` flag for directional traversal of ledges from below.
-- **Battle Mechanics Note:** Acid (Poison) was 'not very effective' against a wild Zubat (Poison/Flying) in Mt. Moon 1F (Turn 7143). This might indicate a type matchup change for Poison vs. Poison or Poison vs. Flying, or a display error. Standard Gen 1, Poison vs Poison is 1x, Poison vs Flying is 1x.
 
 # Agent Review TODO
 *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use). Consider revision or deletion if not meeting needs.
-
-## Route 4 Navigation
-- Party is in critical condition (ZAPPY 15HP, LUNA 13HP, ECHO PAR, SIR PAR).
-- Current objective: Reach the Mt. Moon Pokecenter at (12,6) on this route to heal.
 
 **Battle Mechanics Update (Mt. Moon):** Confirmed Acid (Poison-type move) is 'not very effective' (0.5x) against wild Zubat (Poison/Flying). This indicates a ROM hack change where Poison attacks are resisted by either Poison-type or Flying-type Pokémon (or both, though less likely for 0.5x). Standard Gen 1: Poison vs Poison = 1x, Poison vs Flying = 1x.
