@@ -133,3 +133,6 @@
 
 # Navigation Rules & Insights (NEW - Turn 8471)
 *   **Mt. Moon B2F Discrepancies:** Significant differences noted between map XML `navigable` status and actual on-screen impassable tiles, particularly in the southern and eastern-central segments. Rely more on annotated screen views for immediate pathing decisions, especially when map memory suggests a path that is visually blocked.
+
+# Navigation Rules & Insights (NEW - Turn 8471)
+*   **Mt. Moon B2F Discrepancies:** Significant differences noted between map XML `navigable` status and actual on-screen impassable tiles, particularly in the southern and eastern-central segments. Rely more on annotated screen views for immediate pathing decisions, especially when map memory suggests a path that is visually blocked.
