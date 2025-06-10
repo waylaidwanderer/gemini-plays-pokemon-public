@@ -87,3 +87,8 @@
 # ARCHIVED LOGS (Summarized)
 *   **Mt. Moon Exploration:** Successfully navigated Mt. Moon and found eastern exit to Route 4. Noted complexity and segmented nature of B1F/B2F. Super Nerd wants a fossil.
 *   **Route 4 (Before Mt. Moon) Navigation:** Initial attempts to navigate Route 4 eastward from Mt. Moon's exit were inefficient due to prematurely jumping down ledges, forcing a loop back via Route 3. The correct path requires staying on the upper tier after exiting Mt. Moon (eastern exit) and heading east. Current plan involves backtracking through Route 3, re-entering Mt. Moon from the west, traversing it to its eastern exit, then exploring eastward on the upper tier of Route 4.
+
+# PC Interaction Notes
+*   Pewter City PC is on the far right (east side) of the Pokecenter, interact from below (e.g., (14,5) to use PC at (14,4)).
+*   'SOMEONE's PC' is for Pokémon Storage.
+*   'Gem's PC' is for Item Storage.
