@@ -87,8 +87,8 @@
 *   **Conclusion:** SPARKY alone at Lv12 is not viable. Needs to be Lv14, find a new team member, or revise strategy.
 
 # Current Pokémon Status
-*   SPBARKY (PIKACHU): Lv12 (39/39 HP, no status). Current EXP: 1728. **AT LEVEL CAP (12) FOR 0 BADGES. CANNOT GAIN MORE EXP UNTIL 1ST BADGE IS EARNED.**
-    *   Moves: THUNDERSHOCK (30 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP).
+*   SPBARKY (PIKACHU): Lv12 (37/39 HP, no status). Current EXP: 1728. **AT LEVEL CAP (12) FOR 0 BADGES. CANNOT GAIN MORE EXP UNTIL 1ST BADGE IS EARNED.**
+    *   Moves: THUNDERSHOCK (30 PP), TAIL WHIP (30 PP), QUICK ATTACK (29 PP), THUNDER WAVE (20 PP).
 *   **EXP Note (Level Cap Confirmed):** SPARKY is at the level cap of 12. The game will *display* an EXP gain message for level-capped Pokémon (like SPARKY after the Caterpie battle, Turn 3032), but their actual EXP value *does not change*. This confirms the Hard Mode rule. SPROUT, not being capped, gains EXP normally.
 *   **Critique Lesson (Turn 2626):** Consistently verify path navigability tile-by-tile in Map Memory for any planned route, especially longer ones. Break down manual pathing into shorter, verifiable segments (e.g., 3-5 steps). Prioritize fixing/using pathing agents. Confirm item prices and funds *before* shop visits. Re-evaluate shop menu interaction for quantity adjustments.
 
