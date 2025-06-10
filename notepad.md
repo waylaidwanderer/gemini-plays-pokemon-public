@@ -63,7 +63,11 @@
 *   Obtained Helix Fossil (Mt. Moon B2F from Super Nerd ID 1).
 *   Navigated Route 4 (Before Mt. Moon) to Route 3.
 *   Corrected understanding of Mt. Moon 1F segments: Central/Eastern 1F is isolated from Western 1F. Access to Western B1F (and thus the B1F(18,12) -> B2F fossil area warp) is via the 1F(18,12) or 1F(6,6) warps in Western 1F, which is not directly reachable from Central/Eastern 1F.
-*   Corrected understanding of Cerulean Path: Path is via Central/Eastern 1F -> B1F (entry (26,16)) -> Explore B1F for ladder to NE B2F -> Ladder from NE B2F to isolated 1F Exit -> Route 4 East.
+*   Path to Cerulean (Route 4 East) - Attempt 3:
+1. The exit ladder is B1F (26,10) leading to isolated 1F. Game state confirms this ladder (warp to 1F entry 4) is `reachable: no` from the B1F segment accessed via 1F (entry 5) / B2F (entry 3).
+2. Current plan: B1F (14,28) -> B2F (entry point 3, arrives at B2F(16,28)).
+3. On B2F, navigate from (16,28) to either B2F(18,12) [to B1F entry 1] or B2F(22,18) [to B1F entry 2].
+4. Explore the new B1F segment to find the B1F(26,10) ladder.
 
 # Trainer Battle Intel
 ## Route 3
