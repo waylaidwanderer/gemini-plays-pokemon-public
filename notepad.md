@@ -66,3 +66,12 @@
 
 # Viridian Forest Notes
 *   (Track trainers, items, and path through here)
+
+# Lessons Learned
+*   **Trainer Battle Initiation (CRITICAL):** Battles are primarily triggered by entering a trainer's direct line of sight. Observe their facing direction and move onto a tile directly in front of them. Repeatedly pressing 'A' or trying to step on their tile when not in their LoS is ineffective.
+
+# Viridian Forest Notes
+*   Youngster at (17,44) - initial battle.
+
+# Active Pathing Notes & Strategies
+*   Proactively use `map_analyzer_agent` for pathing queries or locating features if manual pathing becomes difficult or when entering complex new areas. If it remains unused after a few more sessions, consider deleting it.
