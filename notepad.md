@@ -12,7 +12,7 @@
 
 # Key Items & TMs (Strategic Notes)
 *   OLD ROD x1
-*   POKé BALL x8
+*   POKé BALL x9
 *   TM34 (BIDE) x1 - Evaluate for team.
 *   HP UP x1 - Used on ZAPPY.
 *   RARE CANDY x1 - Save for strategic use.
