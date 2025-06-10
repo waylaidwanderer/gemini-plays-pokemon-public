@@ -102,7 +102,7 @@
 *   Rocket Grunt (ID 3) at (Mt Moon B2F, 16,23) - Defeated. ("Darn it all! My associates won't stand for this!")
 *   Rocket Grunt (ID unknown, likely not ID 5) at (Mt Moon B2F, approx. 28,18) - Defeated. Used Rattata Lv13, Zubat Lv13. (This was the misidentified one).
 *   Super Nerd (ID 4, sprite MTMOONB2F_ROCKET2) at (Mt Moon B2F, 30,12) - **UNDEFEATED. Guards fossils. Must be DEFEATED to obtain one.** Dialogue ("If you find a fossil, give it to me and scram!") is a pre-battle taunt.
-*   Rocket Grunt (ID 5, sprite MTMOONB2F_ROCKET3) at (Mt Moon B2F, 30,18) - **UNDEFEATED. Target for fossil acquisition.**
+*   Rocket Grunt (ID 5, sprite MTMOONB2F_ROCKET3) at (Mt Moon B2F, 30,18) - Non-battling / Dialogue Loop. Bypassed.
 ## Route 4 (Before Mt. Moon) Trainers
 *   Cool Trainer F (ID 1) at (Route 4 Before Mt. Moon, 10,9) - **UNENGAGEABLE / NOT DEFEATED.** (Player choice to avoid).
 
