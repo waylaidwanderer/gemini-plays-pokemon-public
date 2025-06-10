@@ -181,8 +181,7 @@
 *   SPARKY (Lv12) EXP: 1728 (Game State as of Turn 1927). Needs 2197 for Lv13, 2744 for Lv14.
     *   Defeated Wild Metapod Lv6 (Turn 1910), got 61 EXP (Battle Log). (Game State did not update from this yet).
     *   Defeated Wild Caterpie Lv4 (Turn 1918), got 30 EXP (Battle Log). (Game State did not update from this yet).
-    *   Defeated Wild Pidgey Lv7 (Turn 1931), got 55 EXP (Battle Log). (Game State did not update from this yet).
-    *   Current running tally based on battle logs since last confirmed Game State EXP: 1728 + 61 (Metapod) + 30 (Caterpie) + 55 (Pidgey) = 1874. *This is a manual calculation and may not reflect true game state until an update occurs.*
+- Game State EXP for SPARKY is 1728 (as of Turn 1945). Battle logs showed gains of +61 (Metapod, Turn 1910), +30 (Caterpie, Turn 1918), +55 (Pidgey, Turn 1931), +55 (Oddish, Turn 1945). These gains are not yet reflected in the Game State EXP. Will continue to monitor Game State EXP as the source of truth. Needs 1016 EXP for Lv14 (target: 2744).
 
 # New Agent Ideas (To Be Implemented/Tested)
 *   `HM_Usage_Advisor_Agent`: Advises on HM usage on current/previous maps. (Consider for later when HMs are acquired)
