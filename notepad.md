@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
 *   **Secondary Goal:** Heal SPARKY's poison status at a Pokémon Center.
-*   **Tertiary Goal:** Earn at least ¥104 from trainers to afford one Potion (current: ¥96, Potion: ¥200).
+*   **Tertiary Goal:** Catch a Pokémon effective against Brock (e.g., Oddish) in Viridian Forest.
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
