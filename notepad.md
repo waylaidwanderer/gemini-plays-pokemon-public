@@ -126,8 +126,6 @@
 
 # Future Agent Ideas (Brainstorming)
 
-*   **Objective Validator Agent:** Given a player-defined objective (e.g., 'Reach Super Nerd at X,Y'), it would check `map_xml_string` and game state to confirm if the target is currently `reachable: yes` or if its tile is `navigable: true`. Could help prevent pathing to currently impossible targets. Input: target description/coordinates. Output: validation (true/false), reason if false.
-
     *   **Mt. Moon Fossil Hunt (Completed):**
         1.  **Objective:** Obtain a Fossil (Dome or Helix). - COMPLETE (Helix Fossil obtained).
         2.  **Source:** Super Nerd (ID 1, sprite MTMOONB2F_SUPER_NERD) at (Mt. Moon B2F, 13,9) guarded the fossils. He was defeated in battle.
