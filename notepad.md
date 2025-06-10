@@ -115,3 +115,6 @@
 # Agent Usage & Development (Further Notes - Turn 8112)
 *   Prioritize manual navigation for simple paths; `dungeon_navigator_agent` (90 uses) often needs manual correction for Pikachu. Reduce reliance.
 *   Consider deleting underused agents (e.g., `item_finder_reminder_agent`, `rom_hack_mechanics_lookup_agent`) if slots are needed. Potential new agent idea: 'Exploration Prioritizer Agent' to rank unseen tiles/warps.
+
+## NPC Interaction Rules & Key Dialogue (NEW - Turn 8113)
+*   Some NPC dialogue that seems like a request or statement (e.g., Super Nerd's "If you find a fossil, give it to me and scram!") might actually be a pre-battle taunt if the NPC is an undefeated trainer blocking a path or objective. Always consider context and whether the NPC is a known trainer type.
