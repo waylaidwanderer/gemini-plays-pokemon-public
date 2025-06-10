@@ -122,3 +122,7 @@
 *   Need to find Brock's Ace level for the level cap.
 
 *   Defeated Cool Trainer M (PEWTERGYM_COOLTRAINER_M) at (4,7) in Pewter Gym. Money remained ¥212.
+
+# Pewter City Gym Battle Prep (Post Jr. Trainer)
+*   **CRITICAL:** SPARKY's HP will be low after the Jr. Trainer battle. Use a Potion to heal before challenging Brock to avoid a blackout.
+*   Test `battle_strategist_agent` for Brock's team (Geodude, Onix) after healing SPARKY.
