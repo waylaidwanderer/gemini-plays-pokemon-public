@@ -132,3 +132,5 @@
         2.  **Source:** Super Nerd (ID 1, sprite MTMOONB2F_SUPER_NERD) at (Mt. Moon B2F, 13,9) guarded the fossils. He was defeated in battle.
         3.  **Fossil Acquisition:** After defeating Super Nerd (ID 1), the Helix Fossil was picked up at (14,7).
         4.  **Super Nerd ID 4 (Rocket at 30,12):** Initially thought to be relevant, but the fossil was obtained from Super Nerd ID 1. Super Nerd ID 4 is no longer considered part of this objective.
+
+*   `next_battle_action_advisor_agent` (24 uses): REDUCE RELIANCE. Make more manual battle decisions, especially for common wild Pokémon or obvious scenarios (e.g., running with a critically injured party). **Act on this reminder consistently.**
