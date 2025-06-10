@@ -55,3 +55,8 @@
 # Critical Route Information
 *   **Route 2:** NORTH of Viridian City. Leads to Viridian Forest, then Pewter City (Brock).
 *   **Route 22:** WEST of Viridian City. Leads to the Pokemon League. THIS IS A DETOUR if aiming for Pewter City.
+
+# Active Pathing Notes & Strategies
+*   **Ledge Bypass (General):** When faced with upward ledges, always look for a route *around* them. This usually involves moving significantly away from the ledge (laterally or downwards) to find a clear corridor or grass patch that allows ascent to a higher elevation *above* the problematic ledges. Then, navigate laterally above the ledges before descending.
+*   **Agent Usage for Complex Paths:** If manual pathing to an objective (unseen tile, warp, item) is blocked more than once, use the `exploration_planner` agent. Critically review agent paths for ledge issues before execution.
+*   **Map Analyzer Agent Reminder:** Evaluate the `map_analyzer_agent` for a specific, immediate use case. If none is found soon, consider deleting it to free up an agent slot.
