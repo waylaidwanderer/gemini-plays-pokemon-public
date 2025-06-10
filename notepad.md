@@ -24,10 +24,10 @@
 *   **Current Location:** Mt. Moon 1F (ID: 59) at (17,8) - Party critically injured.
 *   **Immediate Navigation Plan:** Follow Phase 1 of 'Mt. Moon Navigation Strategy (Post-Critique - DETAILED EXIT PLAN)' to reach warp (26,16) on Mt. Moon 1F.
 
-# Current Goals (Revised Turn 8701 - POST-CRITIQUE)
-*   **Primary Goal:** Reach the Pokémon Center on Route 4 (Before Mt. Moon) to heal the party. (ABSOLUTE TOP PRIORITY)
-*   **Secondary Goal:** Exit Mt. Moon and reach Route 4.
-*   **Tertiary Goal:** Reach Cerulean City and train key team members (especially ZAPPY and BELLA) to Lv20-21 to challenge Gym Leader Misty (Ace Starmie Lv21, Player Cap 21).
+# Current Goals (Revised Turn 8771 - Party Healed)
+*   **Primary Goal:** Reach Cerulean City.
+*   **Secondary Goal:** Train key team members (ZAPPY, BELLA, NINA) on Route 4 to prepare for Gym Leader Misty (Ace Starmie Lv21, Player Cap 21).
+*   **Tertiary Goal:** Catch new Pokémon on Route 4 if any are available.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
