@@ -59,11 +59,12 @@
 *   **`team_composition_advisor_agent` (Low Priority - Tested):**
     *   **Status:** Defined. Works as expected.
 *   **Agent Usage Review (9/10 agents defined):**
-    *   `hm_advisor_agent` deleted (0 uses).
-    *   **Action:** Reduce reliance on `dungeon_navigator_agent` (65 uses) and `next_battle_action_advisor_agent` (19 uses). Attempt manual navigation/battle decisions first.
-    *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use) if not used more consistently soon.
-*   **`dungeon_navigator_agent` (REDUCE RELIANCE):**
-    *   **Status:** Defined. Excessively high usage (69 uses). Agent has limitations (e.g., ledge physics). Prioritize manual navigation; use agent for initial complex path discovery in large, unseen areas only. Review paths or use 'avoid_coordinates' when using. **Strategy Update:** When using `avoid_coordinates_json`, ensure it includes *all* known NPCs on `navigable: false` tiles in the relevant area to improve path viability.
+    *   `hm_advisor_agent` (0 uses) - Deleted.
+    *   `encounter_optimizer_agent` (1 use) - Deleted to make space for `item_use_advisor_agent`.
+    *   `dungeon_navigator_agent` (69 uses): Reduce reliance. Prioritize manual navigation.
+    *   `next_battle_action_advisor_agent` (19 uses): Reduce reliance. Attempt more manual battle decisions, especially for common wild Pokémon.
+    *   `battle_strategy_agent` (3 uses): Re-evaluate utility. Consider for Gym Leaders. If usage remains low, consider deletion.
+    *   **Agent Slot Management:** With 9/10 agents defined, be mindful of the limit. Consider deleting less useful agents if new ones are needed.
 
 ## Future Agent Ideas
 *   **Item Use Advisor Agent:** To advise on using consumable stat boosters, Rare Candies, or evolution stones. (Defined Turn 7383)
