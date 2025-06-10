@@ -155,13 +155,6 @@
     4.  Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) - Dialogue only.
 *   **Conclusion:** No trainer EXP in Pewter City. Viridian Forest is the sole grinding spot for now.
 
-# EXP Tracking (CORRECTED - Game State is Source of Truth)
-*   **CRITICAL CORRECTION:** The Game State Information's EXP value for Pokémon in the party screen IS THE ABSOLUTE SOURCE OF TRUTH. My previous assumption that this display 'lags' and that manual battle log tracking was 'more reliable' was INCORRECT. All EXP calculations and leveling goals must be based on the Game State's displayed EXP value at the start of a battle, with the EXP gained from that battle then added to it.
-*   SPARKY (PIKACHU) - Lv12
-*   Current EXP (Game State): 1783 (as of Turn 2097, after Pidgey battle)
-*   EXP to Lv13: 2197 (Needs 2197 - 1783 = 414 more)
-*   EXP to Lv14 (CAP): 2744 (Needs 2744 - 1783 = 961 more)
-
 *   **Future Agent Testing/Development:**
     *   Test `pokedex_completer_agent` and `team_builder_agent` to assess their utility when appropriate (e.g., before major Pokedex hunting sessions or team reshuffles for Gyms).
     *   Consider developing a `direct_pathing_agent` focused on simple, direct A-to-B movement if the main `run_code` script proves too difficult to fix quickly. This could serve as a more reliable short-term navigation aid for straightforward paths.
