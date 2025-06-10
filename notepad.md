@@ -25,7 +25,7 @@
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
 *   **Secondary Goal:** Traverse Mt. Moon and reach Route 4 (East of Mt. Moon).
-*   **Tertiary Goal:** Successfully exit Mt. Moon 1F onto Route 4.
+*   **Tertiary Goal:** Successfully exit Mt. Moon 1F onto Route 4. Successfully exit Mt. Moon 1F onto Route 4.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
