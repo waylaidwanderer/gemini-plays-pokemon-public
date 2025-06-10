@@ -112,15 +112,17 @@
 
 **Battle Mechanics Update (Mt. Moon):** Confirmed Acid (Poison-type move) is 'not very effective' (0.5x) against wild Zubat (Poison/Flying). This indicates a ROM hack change where Poison attacks are resisted by either Poison-type or Flying-type Pokémon (or both, though less likely for 0.5x). Standard Gen 1: Poison vs Poison = 1x, Poison vs Flying = 1x.
 
-# Mt. Moon Exploration Strategy (Revised Turn 7751)
-*   **Current Location:** Mt. Moon B2F at (26,11), in battle with wild Zubat Lv10.
-*   **Objective:** Secure a Fossil on B2F, defeat Team Rocket, then find the eastern exit ladder.
-*   **Immediate Plan:** 
-    1.  Defeat current wild Zubat.
-    2.  Address ZAPPY's confusion (currently 29/50 HP) immediately after battle.
-    3.  Prioritize finding and obtaining one of the two Fossils (Dome or Helix) on Mt. Moon B2F, likely guarded by another Team Rocket member. This is KEY to progressing past the Super Nerd at (30,12).
-    4.  If unable to find a fossil in the current B2F segment, use the warp at (26,10) to return to B1F and find an alternative route to other B2F areas.
-*   **Note:** The Super Nerd at (30,12) requires a fossil and will likely battle *after* one is chosen.
+# Mt. Moon Exploration Strategy (Revised Turn 7791)
+*   **Current Location:** Mt. Moon 1F at (30,8), in battle with wild Zubat Lv8. ZAPPY is at 26/50 HP.
+*   **Immediate Objective:** Defeat the wild Zubat, then navigate to the Mt. Moon Pokecenter via Route 4 to heal ZAPPY.
+*   **Post-Healing Plan:**
+    1.  Return to Mt. Moon B1F via Route 4 -> Mt. Moon 1F -> warp at (18,12) on 1F -> B1F (arriving at 26,10).
+    2.  From B1F (26,10), navigate to the warp at B1F (18,12).
+    3.  Take the warp at B1F (18,12) to Mt. Moon B2F (arriving at (28,25) in the Super Nerd's B2F segment).
+    4.  Thoroughly re-explore this B2F segment for fossils or clues, especially considering the Rocket Grunt at (30,18) who is blocked by the Super Nerd at (30,12) (who needs a fossil).
+    5.  If no fossils are found there, the primary target remains the B2F area accessible via the warp at B1F (14,28) (entry_point 3 for B2F), where a defeated Rocket Grunt mentioned fossils. The navigability of B1F (14,28) needs re-evaluation after healing.
+*   **Fossil Objective:** Secure a Fossil on B2F. The Super Nerd at (30,12) on B2F confirmed he needs a fossil.
+*   **Pathfinding Note:** Be extremely cautious with long paths from `dungeon_navigator_agent`, especially on maps with many warps. Manually verify initial segments or use `local_area_analyzer_agent` to check for unintended warps along the path.
 
 # Critique Feedback & Action Items (Turn 7426)
 *   Test `item_use_advisor_agent` soon (e.g., with Moon Stone or Rare Candy).
