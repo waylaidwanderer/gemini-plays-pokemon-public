@@ -49,12 +49,7 @@
 *   Pewter City PC is on the far right (east side) of the Pokecenter, interact from below (e.g., from (14,5) to use PC at (14,4)).
 *   'SOMEONE's PC' is for Pokémon Storage. This is where you withdraw/deposit Pokémon.
 *   'Gem's PC' is for Item Storage.
-*   **CRITICAL MISTAKE LOG:** Spent ~50 turns fumbling PC interactions in Pewter Pokecenter due to: 
-    1. Misidentifying the PC location (tried non-PC terminal, Link Receptionist).
-    2. Forgetting SIR was in Box 3 and repeatedly trying Box 1 (then later incorrectly assuming Box 3 again after depositing WIGGLES there).
-    3. Misunderstanding menu flow (e.g., accessing Item Storage via 'Gem's PC', getting stuck on 'WITHDRAW PKMN' screen).
-    4. Repeatedly pressing 'A' on static menu screens expecting a different outcome.
-    *Lesson: Slow down in menus, consult notepad for critical info (like PC box numbers, if accurately recorded!), and don't assume repeated actions on a non-responsive menu will work. If a box's contents don't match expectations, re-verify the box number or check other boxes methodically.*
+*   **CRITICAL MISTAKE LOG (Summarized):** Significant time lost at Pewter PC due to misidentifying PC, incorrect box assumptions for SIR, menu flow misunderstandings, and unproductive repeated inputs. Lesson: Slow down in menus, verify info, and be methodical.
 
 # Agent Development Plan
 *   **`item_finder_reminder_agent` (USE AS NEEDED):**
