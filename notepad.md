@@ -121,3 +121,6 @@
 # Gameplay Reminders (Post-Reflection Turn 8367)
 *   **Reachable Unseen Tiles List:** Always use the *current* list from the Game State Information for exploration planning. This list is dynamic and can change frequently.
 *   **Navigation Goal Coordinates:** Ensure `navigation_goal_coordinates` are always confirmed `navigable: true` in the map XML or are part of the current 'Reachable Unseen Tiles' list from Game State to avoid pathing errors.
+
+*   **`objective_validator_agent` Potential Use:** Consider using to validate tile navigability for a `navigation_goal_coordinate` *before* setting it, especially if targeting an NPC on a tile that might be `navigable: false` in map XML, even if the sprite is `reachable: yes`.
+*   **Agent Prompts:** Periodically review agent system prompts for clarity and to ensure they contain all necessary game-specific context if not passed via input (since agents are otherwise contextless).
