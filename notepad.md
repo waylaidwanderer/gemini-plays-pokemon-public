@@ -84,7 +84,14 @@
 *   Youngster (ID 8) at (25,7) - Defeated.
 *   Cool Trainer F (ID 9) at (34,11) - **UNDEFEATED**. Blocks path west on row 11.
 ## Mt. Moon 1F Trainers
-*   All encountered trainers defeated.
+*   Bug Catcher (ID 6) at (8,25) - Defeated.
+*   Lass (Cool Trainer F, ID 5) at (17,24) - Defeated.
+*   Super Nerd (ID 4) at (25,32) - Defeated. (Blocked path to west on row 32, before defeat).
+*   Bug Catcher (ID 8) at (32,29) - Defeated.
+*   Lass (Cool Trainer F, ID 3) at (31,5) - Defeated.
+*   Youngster (ID 2) at (14,17) - Defeated.
+*   Hiker (ID 1) at (6,8) - Defeated.
+*   Youngster (ID 7) at (31,28) - Non-battling (gives dialogue: "This cave leads to CERULEAN CITY!"). His tile (31,28) is effectively `navigable: false` due to NPC presence and blocks westward movement from (32,28).
 ## Mt. Moon B2F Trainers
 *   Rocket Grunt (ID 3) at (16,23) - Defeated.
 *   Super Nerd (Rocket ID 4) at (30,12) - Not a battle. Requests a Fossil.
