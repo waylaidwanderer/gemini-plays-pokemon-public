@@ -63,7 +63,7 @@
     *   **Action:** Reduce reliance on `dungeon_navigator_agent` (45 uses) and `next_battle_action_advisor_agent` (18 uses). Attempt manual navigation/battle decisions first.
     *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use) if not used more consistently soon.
 *   **`dungeon_navigator_agent` (USE WITH CAUTION):**
-    *   **Status:** Defined. High usage noted (47 uses). Agent does not account for game physics preventing upward ledge movement. Attempt more manual navigation. Review paths or use 'avoid_coordinates' when using.
+    *   **Status:** Defined. High usage noted (49 uses). Agent does not account for game physics preventing upward ledge movement. Attempt more manual navigation. Review paths or use 'avoid_coordinates' when using.
 
 # Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
