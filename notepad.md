@@ -19,25 +19,27 @@
 *   MOON STONE x1 - Potential use on LUNA (Clefairy) or NINA (Nidoran♀) after evolution to Nidorina for Nidoqueen.
 *   TOWN MAP x1
 
+# Current Location
+* Route 4 (Before Mt. Moon) (ID: 15) at (8,18)
+
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
-*   **Secondary Goal:** Explore Route 4 for items and trainers while heading to Cerulean City.
-*   **Tertiary Goal:** Return to Mt. Moon to find a Fossil (deferred).
+*   **Secondary Goal:** Navigate Mt. Moon to find the eastern exit to Route 4.
+*   **Tertiary Goal:** Find a Fossil in Mt. Moon (deferred).
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
-*   Mt. Moon is complex. Systematic exploration of floors and isolated sections is key.
 *   **CRITICAL:** Trust the **annotated screen** for immediate obstacles over map memory if there's a conflict. Repeatedly trying to move through impassable tiles shown on screen is inefficient.
-*   Cave exits, like the one from Mt. Moon 1F to Route 4, are typically ladders or specific warp tiles, not direct map edge transitions. (Confirmed, used exit at (16,36) on Mt. Moon 1F).
-*   Western entrance/exit of Mt. Moon 1F leads to Route 3.
+*   Cave exits, like the one from Mt. Moon 1F to Route 4, are typically ladders or specific warp tiles, not direct map edge transitions.
 *   When pathing is blocked, proactively use warp data from `Map Events` to transition between floors or access isolated sections. Consult map memory for alternative routes.
 *   The Super Nerd at Mt. Moon B2F (30,12) requests a fossil; he does not provide one. The fossils are likely guarded by another Rocket or found elsewhere in Mt. Moon.
-*   Prioritize reaching the next city over minor exploration within complex dungeons when primary goal is city progression. (Followed this by exiting Mt. Moon for Route 4).
+*   Prioritize reaching the next city over minor exploration within complex dungeons when primary goal is city progression.
+*   **Map Connection Anomaly:** The North connection from Route 3 (e.g., (58,1)) appears to lead to Route 4 (Before Mt. Moon) at (8,18) on its lowest tier, not directly into Mt. Moon 1F (Western side) as initially assumed. This creates a loop if trying to access upper Route 4 tiers or the western Mt. Moon entrance this way. This needs re-testing.
 
 ## Battle Strategy
 *   Improve precision in battle menu navigation.
 *   Be mindful of type matchups and PP conservation.
-*   **Risk Assessment:** Avoid switching in Pokémon with critically low HP against opponents that can KO them. Luna fainting was a result of poor risk assessment.
+*   **Risk Assessment:** Avoid switching in Pokémon with critically low HP against opponents that can KO them.
 *   Stun Spore (Normal-type status move) failed vs Zubat (Poison/Flying). Failure likely due to accuracy (75%) or a specific immunity Zubat might have, not Grass vs. Poison type interaction for the move itself.
 *   Acid (Poison) vs Zubat (Poison/Flying) is NVE (0.5x).
 *   **Self-Challenge:** Attempt more battles without consulting `next_battle_action_advisor_agent` to improve independent tactical decision-making.
@@ -52,6 +54,8 @@
 *   Defeated trainers might not always move. Check tile navigability.
 
 # Agent Development Plan
+*   **`map_analyzer_agent` (Low Priority - Define):**
+    *   **Purpose:** Parses map XML to identify key features (unseen areas, unvisited warps, dead ends) to aid exploration strategy.
 *   **`fossil_chooser_agent` (Medium Priority - Test):**
     *   **Status:** Defined. Untested.
     *   **Purpose:** Advises on Dome/Helix fossil choice.
@@ -71,69 +75,42 @@
     *   **Status:** Defined.
     *   **Action:** Evaluate necessity of less-used agents. Consolidate or delete if not providing consistent value.
     *   **Note on `next_battle_action_advisor_agent`:** High usage. Reduce reliance.
+*   **`dungeon_navigator_agent` (USE WITH CAUTION):**
+    *   **Status:** Defined and heavily used.
+    *   **Performance:** Paths can lead through unintended warps. Review paths carefully or use 'avoid_coordinates' feature.
 
 # Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
 *   Explored parts of Route 3 and Mt. Moon 1F, B1F, B2F.
-*   Collected various items in Mt. Moon 1F.
-*   Exited Mt. Moon onto Route 4.
+*   Exited Mt. Moon (eastern exit) onto Route 4 (Before Mt. Moon).
+*   Navigated some ledges on Route 4 (Before Mt. Moon).
+*   Used South map connection from Route 4 (Before Mt. Moon) (Y=18) to Route 3 (Y=1).
 
 # Trainer Battle Intel
 ## Route 3 Trainers
 *   All defeated.
 ## Mt. Moon 1F Trainers
-*   Super Nerd (ID 4) at (25,32) - Defeated.
-*   Lass (Cool Trainer F, ID 3) at (31,5) - Defeated.
-*   Youngster (ID 7) at (31,28) - Defeated.
-*   Youngster (ID 2) at (13,17) - Defeated.
-*   Hiker (ID 1) at (6,8) - Defeated.
-*   Bug Catcher (ID 6) at (8,25) - Defeated.
-*   Lass (Cool Trainer F, ID 5) at (17,24) - Defeated.
-*   Bug Catcher (ID 8) at (32,29) - Defeated.
+*   All encountered trainers defeated.
 ## Mt. Moon B2F Trainers
-*   Rocket Grunt (ID 3) at (16,23) - **Defeated**.
+*   Rocket Grunt (ID 3) at (16,23) - Defeated.
 *   Super Nerd (Rocket ID 4) at (30,12) - Not a battle. Requests a Fossil.
-*   Rocket Grunt (ID 5) at (30,18) - Undefeated (was unreachable from B2F access point (26,10)).
-## Route 4 Trainers
-*   Cool Trainer F (ID 1) at (19,8) - UNENGAGEABLE / NOT DEFEATED.
+*   Rocket Grunt (ID 5) at (30,18) - Undefeated (was unreachable).
+## Route 4 (Before Mt. Moon) Trainers
+*   Cool Trainer F (ID 1) - **UNENGAGEABLE / NOT DEFEATED.** Attempts to battle failed repeatedly; interaction seems bugged or requires specific conditions not met. Abandoned attempts to proceed.
 
-# Mt. Moon Exploration Log (ARCHIVED - Route 4 Reached)
-## Overall Objective
-*   Navigate Mt. Moon to reach Route 4 and eventually Cerulean City. Secondary objective: find a Fossil. (Route 4 reached, fossil pending).
+# ARCHIVED LOGS
+## Mt. Moon Exploration Log (ARCHIVED - Route 4 Reached)
+*   Exited Mt. Moon 1F (eastern exit at (16,36)) onto Route 4 (Before Mt. Moon) at (19,7).
+*   Mt. Moon is complex. Systematic exploration of floors and isolated sections is key.
+*   Cave exits are typically ladders or specific warp tiles.
+*   Western entrance/exit of Mt. Moon 1F (at (4,6)) leads to Route 3.
+*   Super Nerd at Mt. Moon B2F (30,12) requests a fossil.
+*   Unintended warps can occur with long movement sequences; be cautious.
+*   Mt. Moon B1F and B2F are segmented; accessing different areas often requires returning to 1F and using different ladders.
 
-## 1F Navigation
-*   **Warp at (6,6):** Leads to an isolated 4x4 elevated platform on Mt. Moon B1F. This is not the main B1F area accessible via other ladders like (18,12) or (26,16).
-*   **Warp at (18,12):** Leads to Mt. Moon B1F at (26,10).
-*   **Warp at (26,16):** Leads to Mt. Moon B1F at (26,16).
-*   **Exit to Route 4:** Located at (16,36) on Mt. Moon 1F. (Used)
-
-## B1F Navigation
-*   **Warp at (26,10) (from 1F (18,12)):** Leads back to Mt. Moon 1F (18,12).
-*   **Warp at (18,12):** Leads to Mt. Moon B2F (26,10).
-*   **Warp at (26,16) (from 1F (26,16)):** Leads back to Mt. Moon 1F (26,16).
-*   **Warp at (22,18):** Leads to Mt. Moon B2F (22,18).
-*   **Warp at (14,28):** Leads to Mt. Moon B2F (16,28).
-
-## B2F Navigation
-*   **Warp at (26,10) (from B1F (18,12)):** Leads back to Mt. Moon B1F (18,12).
-*   **Super Nerd (Rocket ID 4) at (30,12):** Requests a Fossil.
-*   **Warp at (16,28) (from B1F (14,28)):** Leads back to Mt. Moon B1F (14,28).
-*   **Warp at (22,18) (from B1F (22,18)):** Leads back to Mt. Moon B1F (22,18).
-
-## Navigation Issues & Learnings
-*   **Unintended Warps:** Multiple instances of unintentionally taking warps due to long movement sequences crossing warp tiles. Be more cautious and verify paths.
-*   **Pathing Inefficiency:** Some exploration paths were inefficient. Break down movements into smaller, verifiable segments.
-*   **Zappy's Status:** Zappy is no longer confused. Confusion wore off after wild Zubat battle.
-*   Mt. Moon B1F and B2F are segmented. Accessing different areas often requires returning to Mt. Moon 1F and taking a different ladder down to an isolated B1F section, which then connects to a different B2F section.
-
-## Agent Performance & Notes
-### dungeon_navigator_agent
-- **Status:** Defined and in use.
-- **Performance:** Needs monitoring for pathing through unintended warps. Review paths carefully.
-
-# Route 4 Notes
-*   Exited Mt. Moon at (19,7) on Route 4.
-*   Cool Trainer F (ID 1) at (19,8) was unengageable after multiple attempts. Abandoned battle to proceed east.
-*   Map Connections: South to Route 3 (Navigable), East is Undiscovered (Not Navigable).
-*   Warps: Pokecenter at (12,6), Mt. Moon 1F entrance at (19,6).
-*   Signs: Pokecenter sign at (13,6), Mt. Moon sign at (18,8).
+## Route 4 (Before Mt. Moon) Navigation Log (ARCHIVED - Reached Route 3 via South Connection)
+*   Exited Mt. Moon at (19,7) on Route 4 (Before Mt. Moon) [upper tier].
+*   Cool Trainer F was unengageable after multiple attempts.
+*   Navigated ledges downwards: Y=7/8/9 -> Y=10/11 -> Y=16 -> Y=17 -> Y=18.
+*   Path east from Y=18 blocked at (15,18) and (21,15 based on earlier view from higher Y).
+*   Path south from Y=18 (e.g., at (8,18) or (13,18)) leads to Route 3 (Y=1).
