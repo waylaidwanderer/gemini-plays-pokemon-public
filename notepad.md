@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Navigate Viridian Forest to reach Pewter City by exploring all remaining reachable unseen areas.
-*   **Tertiary Goal:** Defeat trainers encountered in Viridian Forest for experience and to clear paths.
+*   **Secondary Goal:** Navigate Viridian Forest to reach Pewter City by exploring all remaining reachable unseen areas and collecting items.
+*   **Tertiary Goal:** Defeat remaining trainers in Viridian Forest.
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
@@ -45,15 +45,16 @@
 # Agent Development Pipeline & Pathing Notes
 ## Active Agents
 *   `exploration_planner`: Analyzes map XML and reachable unseen tiles for efficient exploration.
-    *   **Lesson Reinforced (Turn 961, 979):** ALWAYS provide the *complete and exact* list of 'Reachable Unseen Tiles' from the Game State Information. Double-check input.
-*   `map_analyzer_agent`: Analyzes map XML to answer specific questions. (Testing: Use to determine if Youngster at (17,44) in Viridian Forest blocks progress or if there's a path around, or to find the north exit).
-## Planned Agents
-*   `battle_strategist_agent`: To assist with Hard Mode boss fight planning. (Define after current battle)
-*   `pathing_script_analyzer_agent`: To debug and optimize the `run_code` pathing script. (Define after current battle - HIGH PRIORITY)
-## Pathing Script (`run_code`) Behavior
-*   The `run_code` script for path generation has shown inconsistent behavior and unreliability (Turns 983, 990, 992, 993).
-    *   It sometimes produces insufficient move lists or leads to being blocked, possibly due to miscalculating current position, facing, Pikachu's location, or dynamic obstacles.
-    *   **Strategy Change:** Rely less on long, auto-generated paths from this script. Use for shorter, verifiable segments or navigate more manually between agent-provided waypoints. Prioritize fixing/replacing this script.
+    *   **Lesson Reinforced (Turn 961, 979, 982):** ALWAYS provide the *complete and exact* list of 'Reachable Unseen Tiles' from the Game State Information. Double-check input.
+*   `map_analyzer_agent`: Analyzes map XML to answer specific questions. (Testing: Use to determine if Youngster at (17,44) in Viridian Forest blocks progress or if there's a path around, or to find the north exit. **Note:** Should be used more actively for pathing issues when `run_code` script fails or for complex manual navigation planning.)
+## Planned Agents (URGENT - DEFINE SOON)
+*   `pathing_script_analyzer_agent`: To debug and optimize the `run_code` pathing script. (**CRITICAL PRIORITY** - Define ASAP due to persistent script failures.)
+*   `battle_strategist_agent`: To assist with Hard Mode boss fight planning.
+## Pathing Script (`run_code`) Behavior (**MAJOR ISSUE**)
+*   The `run_code` script for path generation has shown **EXTREME unreliability** (Turns 983, 990, 992, 993, 1006, 1007, 1009, 1010, 1017, 1024).
+    *   It frequently produces insufficient/incorrect move lists, gets blocked by simple obstacles/Pikachu, or misinterprets facing/position.
+    *   **Strategy Change (REINFORCED):** AVOID using this script for long or complex paths. Prioritize **MANUAL NAVIGATION** or use the script **ONLY for very short, easily verifiable segments (1-5 steps)**. Break down `exploration_planner` paths into tiny chunks if attempting script use.
+    *   The `pathing_script_analyzer_agent` is crucial for addressing these deficiencies.
 
 # Map Discoveries
 *   **Pallet Town:** Reachable, undiscovered map connection south at (4,18) or (3,18).
@@ -68,11 +69,11 @@
 *   Youngster (ID 10, VIRIDIANFOREST_YOUNGSTER6) at (28,41): Confirmed non-battling NPC. Dialogue: "You should carry extras!". Blocks direct westward movement along row 41. The tile (28,41) is non-navigable.
 *   Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (28,20): **Defeated**.
 *   Items Collected:
-    *   Potion at (26,12) - Collected.
+    *   Potion at (26,12) - Collected (Turn 981).
 
 # Battle Notes
 - Record insights for specific Pokémon/trainers, especially Hard Mode implications.
-- SPARKY learned TAIL WHIP, replacing GROWL at Lv11.
+- SPARKY learned TAIL WHIP, replacing GROWL at Lv11 (Turn 1004).
 
 # Pewter City Prep
 - Find out Brock's Ace level / level cap for Hard Mode.
