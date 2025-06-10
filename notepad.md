@@ -79,10 +79,10 @@
 *   **Conclusion:** SPARKY alone at Lv12 is not viable. Needs to be Lv14, find a new team member, or revise strategy.
 
 # Current Pokémon Status (Turn 2433)
-*   SPARKY (PIKACHU): Lv12 (36/39 HP). GameState EXP: 1757 (Turn 2456).
+*   SPARKY (PIKACHU): Lv12 (36/39 HP). GameState EXP: 1728 (Turn 2458).
     *   Moves: THUNDERSHOCK (20 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP).
-*   **EXP to Lv13 (needs 2197 total):** 2197 - 1757 = 440 EXP needed.
-*   **EXP to Lv14 (needs 2744 total):** 2744 - 1757 = 987 EXP needed.
+*   **EXP to Lv13 (needs 2197 total):** 2197 - 1728 = 469 EXP needed.
+*   **EXP to Lv14 (needs 2744 total):** 2744 - 1728 = 1016 EXP needed.
 
 *   **Refined Agent Usage Strategy (Post-Critique Turn 2408):**
     *   Utilize `direct_pathing_agent` more frequently for short, straightforward navigation to minimize manual input errors and 'mixed buttons' warnings.
