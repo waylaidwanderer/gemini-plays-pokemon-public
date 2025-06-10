@@ -108,3 +108,6 @@
 *   Break down long agent-generated paths (e.g., from `map_analyzer_agent` or `exploration_planner`) into shorter, verifiable segments (e.g., 5-10 steps, or to an intermediate landmark). Re-evaluate after each segment, especially in complex/maze-like areas.
 *   **Proactive Healing & Poison Management (REINFORCED - CRITICAL ERROR):** Blacking out due to poison and accumulated damage from poor battle choices is unacceptable. If SPARKY is poisoned, prioritize healing (Antidote if available, Potion if HP is low, or retreat to a Pokémon Center) *before* further exploration or difficult battles. Do not rely on nearly fainting before healing. Use Potions more liberally outside of battle to maintain high HP.
 *   **Type Matchups (REINFORCED - CRITICAL ERROR):** THUNDERSHOCK is NOT VERY EFFECTIVE against Grass/Poison types (e.g., Oddish). This is a recurring mistake. QUICK ATTACK (Normal) is neutral and often a better choice for consistent damage in such cases. Must internalize type charts.
+
+# Pewter City Notes
+*   Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) is non-battling. Dialogue: "It's rumored that CLEFAIRYs came from the moon! They appeared after MOON STONE fell on MT.MOON." She does not gatekeep the Gym.
