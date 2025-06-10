@@ -64,7 +64,7 @@
     *   `dungeon_navigator_agent` (69 uses): Reduce reliance. Prioritize manual navigation.
     *   `next_battle_action_advisor_agent` (19 uses): Reduce reliance. Attempt more manual battle decisions, especially for common wild Pokémon.
     *   `battle_strategy_agent` (3 uses): Re-evaluate utility. Consider for Gym Leaders. If usage remains low, consider deletion.
-    *   **Agent Slot Management:** With 9/10 agents defined, be mindful of the limit. Consider deleting less useful agents if new ones are needed.# Completed Objectives & Discoveries
+    *   **Agent Slot Management:** With 10/10 agents defined, be mindful of the limit. Consider deleting less useful agents if new ones are needed.# Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
 *   Explored parts of Route 3 and Mt. Moon 1F, B1F, B2F.
 *   Exited Mt. Moon (western exit) onto Route 4 (Before Mt. Moon).
