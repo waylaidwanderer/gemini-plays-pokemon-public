@@ -169,6 +169,6 @@
     *   Defeated Wild Oddish Lv6 (Turn 2135), got 66 EXP. SPARKY's HP: 33/39. Not poisoned. EXP: 1794/2197 for Lv13.
     *   Defeated Wild Pidgey Lv7 (Turn 2141), got 55 EXP. SPARKY's HP: 33/39. Not poisoned. THUNDERSHOCK 0 PP. EXP: 1783/2197 for Lv13.
 
-    *   Defeated Wild Weedle Lv4 (Turn 2150), gained 29 EXP. SPARKY's HP: 31/39. Not poisoned. (Current Game State EXP for SPARKY: 1728 / 2197 for Lv13).
+    *   Defeated Wild Weedle Lv4 (Turn 2151), gained 29 EXP. SPARKY's HP: 31/39. Not poisoned. (Game State EXP before battle: 1728. EXP after: 1757 / 2197 for Lv13).
 *   **Agent Management Timing:** Define, update, or test agents only when in a safe, non-time-sensitive location (e.g., Pokémon Center) to maximize efficiency and avoid interrupting active gameplay like grinding or battles. (Added under # General Strategy Notes)
 *   **Current EXP Status (Turn 2151) for Leveling Plan for Brock:** SPARKY (Lv12) has 1728 EXP (per Game State). Needs 469 EXP for Lv13 (2197 total), and 1016 EXP for Lv14 (2744 total).
