@@ -1,6 +1,6 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Navigate Viridian Forest to reach Pewter City by exploring all remaining reachable unseen areas and collecting items.
+*   **Secondary Goal:** Explore Viridian Forest to find items and the exit to Pewter City.
 *   **Tertiary Goal:** Explore Viridian Forest thoroughly to find items and the exit to Pewter City.
 
 # Event Triggers & Key Interactions
