@@ -126,3 +126,9 @@
 # Future Agent Ideas (Brainstorming)
 *   **Boulder Puzzle Helper Agent:** Could analyze `map_xml_string` to identify boulder positions, switches, and barriers, then suggest optimal push sequences for Strength puzzles. Input: target switch/barrier. Output: sequence of boulder pushes.
 *   **Objective Validator Agent:** Given a player-defined objective (e.g., 'Reach Super Nerd at X,Y'), it would check `map_xml_string` and game state to confirm if the target is currently `reachable: yes` or if its tile is `navigable: true`. Could help prevent pathing to currently impossible targets. Input: target description/coordinates. Output: validation (true/false), reason if false.
+
+    *   **Mt. Moon Fossil Hunt (Completed):**
+        1.  **Objective:** Obtain a Fossil (Dome or Helix). - COMPLETE (Helix Fossil obtained).
+        2.  **Source:** Super Nerd (ID 1, sprite MTMOONB2F_SUPER_NERD) at (Mt. Moon B2F, 13,9) guarded the fossils. He was defeated in battle.
+        3.  **Fossil Acquisition:** After defeating Super Nerd (ID 1), the Helix Fossil was picked up at (14,7).
+        4.  **Super Nerd ID 4 (Rocket at 30,12):** Initially thought to be relevant, but the fossil was obtained from Super Nerd ID 1. Super Nerd ID 4 is no longer considered part of this objective.
