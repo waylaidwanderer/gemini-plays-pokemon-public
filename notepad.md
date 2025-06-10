@@ -1,6 +1,6 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Catch a Pokémon effective against Brock (e.g., Oddish).
+*   **Secondary Goal:** Heal SPARKY's poison status at a Pokémon Center.
 *   **Tertiary Goal:** Earn at least ¥104 from trainers to afford one Potion (current: ¥96, Potion: ¥200).
 
 # Event Triggers & Key Interactions
