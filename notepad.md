@@ -8,7 +8,7 @@
 *   NINA (NIDORAN♀ Lv12): Keep for Ground/Poison typing. Double Kick is useful.
 *   ECHO (ZUBAT Lv11): Flying type coverage, currently healthy.
 *   LUNA (CLEFAIRY Lv11): Healthy (37/37 HP).
-*   (WIGGLES (CATERPIE Lv4) was in party, now deposited. SIR (PARAS Lv13) to be withdrawn.)
+*   SIR (PARAS Lv13) withdrawn and in party. WIGGLES (CATERPIE Lv4) deposited in PC Box 3.
 
 # Key Items & TMs (Strategic Notes)
 *   OLD ROD x1
