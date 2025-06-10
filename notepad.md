@@ -118,5 +118,3 @@
 *   NPCs on `navigable: false` tiles are impassable physical obstacles, even if defeated or non-battling.
 *   Ledge tiles marked `navigable="true"` can be occupied (e.g., by jumping down onto them), but upward movement onto a ledge from below is prevented by game physics, even if the tile's `navigable` attribute is true. The game's movement denial takes precedence over the XML's `navigable` flag for directional traversal of ledges from below.
 *   Defeated trainers may sometimes remain as physical obstacles on their tile; their tile will remain `navigable: false` in map memory.
-
-    *   `map_section_connectivity_analyzer_agent`: Analyzes `map_xml_string` to identify disconnected map sections and the warps/ladders connecting them. Useful for complex dungeons like Mt. Moon. (Consider if a slot opens or if `dungeon_navigator_agent` struggles with multi-segment paths).
