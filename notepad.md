@@ -119,34 +119,4 @@
 *   **Reachable Unseen Tiles List:** Always use the *current* list from the Game State Information for exploration planning. This list is dynamic and can change frequently.
 *   **Navigation Goal Coordinates:** Ensure `navigation_goal_coordinates` are always confirmed `navigable: true` in the map XML or are part of the current 'Reachable Unseen Tiles' list from Game State to avoid pathing errors.
 
-# Mt. Moon Navigation Strategy (Post-Critique - DETAILED EXIT PLAN)
-**Overall Goal:** Exit Mt. Moon to reach Route 4 Pokémon Center and heal critically injured party.
-**RUN FROM ALL WILD ENCOUNTERS.**
-
-**Phase 1: Mt. Moon 1F (Current Segment) to Target Warp (26,16) via Northern Loop**
-*   Current Location: (16,20) as of Turn 8729.
-*   Target Warp: (26,16) on Mt. Moon 1F (leads to B1F eastern segment, entry_point 4).
-*   Path from (16,20) to (26,16):
-    1.  (16,20) -> (16,16) (4 steps: Up x4).
-    2.  (16,16) -> (17,16) (1 step: Right).
-    3.  (17,16) -> (17,8)  (8 steps: Up x8).
-    4.  (17,8)  -> (31,8)  (14 steps: Right x14).
-    5.  (31,8)  -> (31,16) (8 steps: Down x8).
-    6.  (31,16) -> (26,16) (5 steps: Left x5). [Enter Warp]
-
-**Phase 2: Mt. Moon B1F (Eastern Segment) - REVISED**
-*   Arrived at Mt. Moon B1F (26,16) (from 1F warp at (26,16), entry_point 5).
-*   **Problem:** The planned target warp at B1F (26,10) is `reachable: no` according to game state. Phase 2 of original plan is invalid.
-*   **Revised Plan:** Return to Mt. Moon 1F via the warp at B1F (26,16).
-    1.  Step off current warp (26,16) B1F, then step back on to use it. This will return player to Mt. Moon 1F at (26,16).
-    2.  Re-evaluate exit strategy from Mt. Moon 1F (26,16).
-
-**Phase 3: Mt. Moon 1F (Eastern Segment - Current Location (26,16)) to Route 4 Exit**
-*   Current Location: (26,16) on Mt. Moon 1F (arrived from B1F warp at (26,16), which corresponds to Mt. Moon 1F warp entry_point 4).
-*   Target Warps (Exit to Route 4): (15,36) or (16,36) on Mt. Moon 1F.
-*   Path from (26,16) to (15,36) or (16,36): To be planned once off the current warp tile and after defining the escape agent. The immediate next step is to move off (26,16).
-*   RUN FROM ALL WILD ENCOUNTERS.
-
-**Contingency:** If any segment of this path is blocked by an obstacle not in map memory (but visible on annotated screen), re-evaluate only the blocked segment and find a local detour. Prioritize annotated screen for immediate obstacles.
-
 - Route 4 (Before Mt. Moon): East map connection is Undiscovered and Navigable: No.
