@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
 *   **Secondary Goal:** Level up SPARKY to Lv14.
-*   **Tertiary Goal:** Earn money to purchase Potions (cost ¥200 each).
+*   **Tertiary Goal:** Earn at least ¥64 more to afford one Potion (current: ¥136, Potion: ¥200).
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
@@ -25,9 +25,11 @@
 *   **Type Matchups (CRITICAL REMINDER):** Pay closer attention to type matchups. Electric-type moves (like THUNDERSHOCK) are NOT VERY EFFECTIVE against Grass/Poison types like Oddish.
 *   **Status Conditions (Poison - CRITICAL):** Poison is a serious threat in Hard Mode. If SPARKY gets poisoned, prioritize reaching a Pokémon Center or using an Antidote ASAP. **DO NOT CONTINUE TO BATTLE OR GRIND WHILE POISONED.** This was a critical error leading to blackouts.
 *   **System Warnings (Mixed Buttons):** Consistently receiving 'mixed buttons' warnings. Must ensure `buttons_to_press` contains *only* directional buttons for multi-step movements. Interaction buttons (A, B) or 'tool' calls must be in separate turns.
-*   **NPC Interaction (NEW - Post Critique Turn 2575):** Interact with NPCs (like Nurses or Clerks behind counters) from the adjacent navigable tile. Do not attempt to move onto the counter tile itself.
-*   **Map Verification (NEW - Post Critique Turn 2575):** Rigorously check Map Memory for tile navigability *before* initiating multi-step movements.
-*   **Financial Planning (NEW - Post Critique Turn 2575):** Ascertain item costs and ensure sufficient funds *before* committing to shopping trips.
+*   **NPC Interaction (REVISED - Post Critique Turn 2600):** Interact with NPCs from the *adjacent navigable tile*. Do not attempt to move onto counter tiles. Re-confirm facing direction.
+*   **Map Verification (CRITICAL - Post Critique Turn 2600):** Meticulously check Map Memory for tile navigability along the *entire* planned path before committing to movement, especially for multi-step sequences.
+*   **Financial Planning (CRITICAL - Post Critique Turn 2600):** Verify item costs and available funds *before* traveling to a shop.
+*   **Shop Menu Interaction (NEW - Post Critique Turn 2600):** When interacting with shop menus, explore interface options more thoroughly (e.g., trying directional inputs on quantity displays) to avoid inefficient single-item purchases.
+*   **Pathing Script Priority (CRITICAL - Post Critique Turn 2600):** Prioritize fixing the `run_code` pathing script using `pathing_script_analyzer_agent` at the *next* Pokémon Center visit. Do not defer.
 
 # Hard Mode Rules
 *   Battle Style: Set.
@@ -59,9 +61,8 @@
 
 # Inventory & Finances
 *   POKé BALL x3
-*   POTION x0
-*   ANTIDOTE x0
-*   Money: ¥196 (Potions cost ¥200 - need more money)
+*   REPEL x6
+*   Money: ¥136
 
 # Battle Notes
 *   **EXP Tracking (Simplified):** Record GameState EXP at start of battle + EXP gained from battle.
@@ -87,13 +88,3 @@
     *   Moves: THUNDERSHOCK (30 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP).
 *   **EXP to Lv13 (Target: 2197 total):** 469 EXP needed (2197 - 1728).
 *   **EXP to Lv14 (Target: 2744 total):** 1016 EXP needed (2744 - 1728).
-
-*   **Refined Agent Usage Strategy (Post-Critique Turn 2408):**
-    *   Utilize `direct_pathing_agent` more frequently for short, straightforward navigation to minimize manual input errors and 'mixed buttons' warnings.
-    *   Confirm and prioritize using `pathing_script_analyzer_agent` at the next Pokémon Center visit to fix the main `run_code` pathing script. (Missed opportunity during last visit - prioritize next time).
-    *   Actively re-evaluate and use other defined agents based on the current situation:
-        *   `exploration_planner` for new, complex areas.
-        *   `battle_strategist_agent` before major battles.
-        *   `item_finder_agent` when specifically searching for items.
-    *   Regularly assess the utility of all agents. If an agent is consistently unused or not providing value, consider deleting it to manage the 10-agent limit and maintain focus on effective tools.
-*   **Note on 'Mixed Buttons' Warnings with `direct_pathing_agent`:** Still receiving these warnings even when the agent's output is only directional buttons and executed in a separate turn. Will monitor and ensure `path_plan` is populated when executing agent-generated moves. The issue might be with how the system interprets the sequence, or a deeper misunderstanding on my part about turn structure for tool outputs.
