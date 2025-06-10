@@ -63,15 +63,13 @@
 *   Obtained Helix Fossil (Mt. Moon B2F from Super Nerd ID 1).
 *   Navigated Route 4 (Before Mt. Moon) to Route 3.
 
-# Path to Cerulean (Route 4 East) - Attempt 5:
-The key is reaching the B1F segment containing the ladder at (26,10), which leads to the isolated eastern 1F exit area.
-1.  Currently on B1F at (26,16) (arrived from 1F(26,16), which was 1F's warp #5, leading to B1F's warp #4, which is B1F(26,16)).
-2.  Use the warp at B1F(26,16) to return to 1F. This will land at 1F(26,16) (1F's warp #5).
-3.  On 1F, navigate from (26,16) to the warp at 1F(18,12).
-4.  The warp at 1F(18,12) (1F's warp #4) leads to B1F, entry_point 3.
-5.  B1F's 3rd warp in its list is the ladder at B1F(26,10). So, taking 1F(18,12) should lead directly to B1F(26,10).
-6.  The ladder at B1F(26,10) leads to an isolated 1F area (1F's warp #4).
-7.  In this isolated 1F area, find the ladder that serves as the MT_MOON_EXIT to Route 4 East.
+# Path to Cerulean (Route 4 East) - Attempt 6:
+The key is reaching the B2F segment with the undefeated Super Nerd (Rocket) (ID 4) at B2F(30,12), who likely guards the eastern exit.
+1.  Current location: Mt. Moon 1F (ID 59) at (18,12). This is a warp (1F warp #4) leading to B1F (entry point 3).
+2.  Use warp 1F(18,12) -> B1F(26,10). (B1F(26,10) is B1F's warp #3).
+3.  On B1F (ID 60), navigate from (26,10) to B1F(18,12). (B1F(18,12) is B1F's warp #2 and was 'reachable:yes' in prior game state, leading to B2F entry point 1).
+4.  Use warp B1F(18,12) -> B2F(18,12). (This is B2F's warp #1, in the fossil area).
+5.  On B2F (ID 61), navigate from (18,12) towards the area of the undefeated Super Nerd (Rocket) (ID 4) at B2F(30,12) and the other Rocket Grunt (ID 5) at B2F(30,18). This area should contain the exit to Route 4 East.
 
 # Trainer Battle Intel
 ## Route 3
