@@ -128,3 +128,9 @@
 
 ## Post-Healing Exploration Strategy for Mt. Moon
 *   Prioritize finding undiscovered warps on Mt. Moon B1F, as indicated by game state, to access new areas of B2F for fossil hunting, *after* the party is healed.
+
+*   **`training_optimizer_agent` (Low Priority - Idea):**
+    *   **Status:** Idea phase.
+    *   **Purpose:** Suggests training spots/opportunities for weaker Pokémon, and safe switch-in strategies.
+    *   **Input:** Party, PC, current location, known upcoming trainers/wild encounters.
+    *   **Output:** Recommendations for Pokémon to train, locations, and strategies.
