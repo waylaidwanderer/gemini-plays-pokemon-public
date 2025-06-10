@@ -56,7 +56,7 @@
     *   **Status:** Defined. Untested.
 *   **Agent Usage Review (`battle_strategy_agent`, `encounter_optimizer_agent`, `level_up_move_advisor_agent`, `next_battle_action_advisor_agent`, `tm_learning_advisor_agent`):**
     *   **Status:** Defined.
-    *   **Action:** Evaluate necessity of less-used agents. Consolidate or delete if not providing consistent value. Reduce reliance on `next_battle_action_advisor_agent`.
+    *   **Action:** ACTION REQUIRED: At 10/10 agent limit. Delete an unused/low-value agent (e.g., `hm_advisor_agent` - 0 uses) to free a slot. Then, evaluate other less-used agents (`next_battle_action_advisor_agent` - high use, review if still optimal). Reduce reliance on `next_battle_action_advisor_agent`.
 *   **`dungeon_navigator_agent` (USE WITH CAUTION):**
     *   **Status:** Defined. High usage noted. Attempt more manual navigation. Review paths or use 'avoid_coordinates' when using.
 
