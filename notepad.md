@@ -136,3 +136,16 @@
     *   **Output:** Recommendations for Pokémon to train, locations, and strategies.
 
 - **Action Item:** Prioritize testing `fossil_chooser_agent`, `rom_hack_mechanics_lookup_agent`, and `team_composition_advisor_agent` at their next relevant opportunities. Decide on defining or discarding `training_optimizer_agent` idea soon.
+
+# Reflection Insights (Turn 6590)
+## Navigation Learnings Update
+- Mt. Moon B1F and B2F are segmented. Accessing different areas often requires returning to Mt. Moon 1F and taking a different ladder down to an isolated B1F section, which then connects to a different B2F section.
+
+## Agent Development Plan Updates
+*   **`training_optimizer_agent` (Medium Priority - Define):**
+    *   **Status:** Idea solidified.
+    *   **Purpose:** Suggests training spots/opportunities for weaker Pokémon, and safe switch-in strategies.
+    *   **Input:** Party, PC, current location, known upcoming trainers/wild encounters (and their levels/types if known), current level cap.
+    *   **Output:** Recommendations for specific Pokémon to train, best training locations/routes, specific wild Pokémon to target, and potentially safe switch-in strategies for EXP gain. Should consider type advantages and EXP yield.
+    *   **Action:** Define this agent when a good training opportunity or need arises, e.g., before the next Gym Leader if party levels are disparate.
+*   Under `battle_strategy_agent` and `encounter_optimizer_agent` notes: Add: "Review system prompts for clarity and relevance to ROM hack after next use."
