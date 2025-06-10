@@ -117,3 +117,6 @@
 *   Path Planning: Meticulously examine map data (`map_xml_string`/annotated screen) *before* committing to movement. Identify clear, navigable corridors. Break down navigation into smaller, verifiable segments. If a path is blocked, backtrack to a known navigable area and re-evaluate the entire route, considering completely different approaches.
 *   Prioritize Healing: When party health is critical across multiple Pokémon, finding a Pokémon Center becomes the absolute top priority over other exploration or objectives, unless a very specific, short-term, high-value objective can be completed first.
 *   Trust Game State: Information like `reachable: no` for NPCs/warps should be treated as authoritative. Avoid wasting turns trying to interact with or path to targets marked as currently inaccessible.
+
+## EXP Gain & Level Caps
+*   Confirmed: Pokémon at the current level cap (e.g., BELLA Lv21 with cap 21) do *not* gain EXP, even if the game displays an EXP gain message. Their EXP value remains unchanged. This was observed after the Zubat battle on Mt. Moon 1F (Turn 8957).
