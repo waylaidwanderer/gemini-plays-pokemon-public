@@ -112,11 +112,17 @@
 *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use). Consider revision or deletion if not meeting needs.
 
 # Mt. Moon 1F Exit Strategy (Eastern Edge, X=38)
-- Current position: (38,25)
-- Systematically test Y-coordinates for exit by moving Right:
-  - Try (38,25) -> Right
-  - Try (38,24) -> Right
-  - Try (38,23) -> Right
-  - Try (38,22) -> Right
-  - Try (38,21) -> Right
-  - ... and so on, moving upwards from current Y=25 if previous attempts fail.
+- Current party condition: CRITICAL (ZAPPY 15HP, LUNA 13HP, ECHO & SIR Paralyzed). Must reach Pokecenter ASAP.
+- Systematic test of Y-coordinates at X=38 by moving Right:
+  - (38,28) - Tried, Failed.
+  - (38,27) - Tried, Failed.
+  - (38,26) - Tried, Failed.
+  - (38,25) - Tried, Failed.
+  - (38,24) - Tried, Failed.
+  - (38,23) - Tried, Failed.
+  - (38,22) - Tried, Failed.
+  - (38,21) - Tried, Failed.
+  - (38,20) - Tried, Failed.
+  - (38,19) - Tried, Failed.
+  - (38,18) - Current attempt.
+  - Next to try: (38,17), then (38,16), etc., moving upwards.
