@@ -176,3 +176,5 @@
     *   Defeated Wild Caterpie Lv4 (Turn 2159), gained 30 EXP. SPARKY's HP: 31/39. Not poisoned. (Game State EXP before battle: 1728. EXP after: 1758 / 2197 for Lv13).
 
 *   Current EXP Status (Turn 2159 - appended due to edit errors) for Leveling Plan for Brock: SPARKY (Lv12) has 1758 EXP (calculated: 1728 GameState EXP at start of last battle + 30 from Caterpie). Needs 439 EXP for Lv13 (2197 total), and 986 EXP for Lv14 (2744 total).
+
+*   Current EXP Status (Turn 2159 - appended due to edit errors) for Leveling Plan for Brock: SPARKY (Lv12) has 1758 EXP (calculated: 1728 GameState EXP at start of last battle + 30 from Caterpie). Needs 439 EXP for Lv13 (2197 total), and 986 EXP for Lv14 (2744 total).
