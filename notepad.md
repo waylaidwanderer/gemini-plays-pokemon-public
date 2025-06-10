@@ -126,3 +126,12 @@
 # Pewter City Gym Battle Prep (Post Jr. Trainer)
 *   **CRITICAL:** SPARKY's HP will be low after the Jr. Trainer battle. Use a Potion to heal before challenging Brock to avoid a blackout.
 *   Test `battle_strategist_agent` for Brock's team (Geodude, Onix) after healing SPARKY.
+
+# Brock Battle Strategy (from agent)
+*   **Overall:** Extremely challenging. Relies on spamming Tail Whip (3-6 times per Pokémon) to lower Defense significantly, then using Quick Attack (resisted). Electric moves are useless.
+*   **Geodude (Lv12, Rock Throw):** Use Tail Whip 3-6 times, then Quick Attack. Risk: Super-effective Rock Throw.
+*   **Onix (Lv14, Bind, Ace):** Use Tail Whip 4-6 times, then Quick Attack. Risk: High HP/Defense, Bind trapping damage, potential Screech or Rock Throw. Onix is 2 levels higher.
+*   **Contingencies:**
+    *   If HP critical vs Geodude before enough Tail Whips: May need to Quick Attack early, reducing Onix chances.
+    *   If Onix uses Bind and HP depletes fast: Stick to Tail Whip plan if possible.
+*   **Warnings:** Luck is a factor. Critical hits are a risk. Set mode means fainting is a loss.
