@@ -156,3 +156,5 @@
 
 # Reflection & Agent Strategy Log (Turn 1882 Addendum)
 *   **Agent Path Reliability:** `map_analyzer_agent` paths can sometimes be invalid due to obstacles not explicitly in tile data (e.g., signs on 'ground' tiles, NPCs). If an agent-provided path fails, re-query the agent from the current, corrected position. Consider map sprite and background object lists when evaluating short paths near such objects.
+
+    *   Defeated Wild Metapod Lv6 (Turn 1980), got 61 EXP.
