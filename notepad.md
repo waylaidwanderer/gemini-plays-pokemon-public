@@ -21,8 +21,8 @@
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 
 # Current Location & Navigation Plan
-*   **Current Location:** Mt. Moon B1F (ID: 60) at (26,16). Standing on warp to 1F.
-*   **Navigation Plan:** Follow 'Path to Cerulean (Route 4 East) - Attempt 5'. Current step: Use warp B1F(26,16) -> 1F(26,16). Then on 1F, navigate from (26,16) to the warp at 1F(18,12).
+*   **Current Location:** Mt. Moon 1F (ID: 59) at (18,12). Standing on warp to B1F (entry point 3).
+*   **Navigation Plan:** Follow 'Path to Cerulean (Route 4 East) - Attempt 6'. Current step: Use warp 1F(18,12) -> B1F(26,10).
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and obtain the Cascade Badge from Misty.
