@@ -130,3 +130,6 @@
 # Future Agent Ideas (Brainstorming)
 *   **Boulder Puzzle Helper Agent:** Could analyze `map_xml_string` to identify boulder positions, switches, and barriers, then suggest optimal push sequences for Strength puzzles. Input: target switch/barrier. Output: sequence of boulder pushes.
 *   **Objective Validator Agent:** Given a player-defined objective (e.g., 'Reach Super Nerd at X,Y'), it would check `map_xml_string` and game state to confirm if the target is currently `reachable: yes` or if its tile is `navigable: true`. Could help prevent pathing to currently impossible targets. Input: target description/coordinates. Output: validation (true/false), reason if false.
+
+# Navigation Rules & Insights (NEW - Turn 8471)
+*   **Mt. Moon B2F Discrepancies:** Significant differences noted between map XML `navigable` status and actual on-screen impassable tiles, particularly in the southern and eastern-central segments. Rely more on annotated screen views for immediate pathing decisions, especially when map memory suggests a path that is visually blocked.
