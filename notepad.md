@@ -76,7 +76,6 @@
 *   Confirmed Route 3 (North) to Route 4 (Before Mt. Moon) (South) map connection forms a loop.
 *   Deposited WIGGLES (Caterpie Lv4) into PC Box 3. Withdrew SIR (Paras Lv13) from PC Box 1.
 *   Healed party at Mt. Moon Pokecenter (most recently turn 7866).
-*   Warp at B1F (14,28) to B2F (fossil area) confirmed `reachable: yes` as of Turn 7801.
 
 # Trainer Battle Intel
 *Self-correction: Be more precise with Trainer IDs and locations when logging. Verify against Game State if unsure.*
