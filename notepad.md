@@ -51,3 +51,7 @@
 *   **Pallet Town:** There's a reachable, undiscovered map connection to the south at (4,18) or (3,18). Worth investigating later.
 
 # Future Agent Ideas
+
+# Critical Route Information
+*   **Route 2:** NORTH of Viridian City. Leads to Viridian Forest, then Pewter City (Brock).
+*   **Route 22:** WEST of Viridian City. Leads to the Pokemon League. THIS IS A DETOUR if aiming for Pewter City.
