@@ -114,3 +114,5 @@
 ## Route 4 Navigation
 - Party is in critical condition (ZAPPY 15HP, LUNA 13HP, ECHO PAR, SIR PAR).
 - Current objective: Reach the Mt. Moon Pokecenter at (12,6) on this route to heal.
+
+**Battle Mechanics Update (Mt. Moon):** Confirmed Acid (Poison-type move) is 'not very effective' (0.5x) against wild Zubat (Poison/Flying). This indicates a ROM hack change where Poison attacks are resisted by either Poison-type or Flying-type Pokémon (or both, though less likely for 0.5x). Standard Gen 1: Poison vs Poison = 1x, Poison vs Flying = 1x.
