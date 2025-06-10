@@ -188,3 +188,5 @@
 *   **EXP Note Cleanup:** The tertiary goal to clean up EXP notes is important for notepad clarity.
 
     *   Defeated Wild Weedle Lv4 (Turn 2206), gained 29 EXP. SPARKY's HP: 39/39. Not poisoned. (Game State EXP before battle: 1728. EXP after: 1757 / 2197 for Lv13).
+
+    *   Defeated Wild Pidgey Lv7 (Turn 2217), gained 55 EXP. SPARKY's HP: 38/39. Not poisoned. (Game State EXP before battle: 1728. Calculated EXP after this battle: 1812 / 2197 for Lv13).
