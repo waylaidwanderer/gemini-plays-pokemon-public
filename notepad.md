@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
 *   **Secondary Goal:** Catch a Pokémon effective against Brock (e.g., Oddish).
-*   **Tertiary Goal:** Earn at least ¥104 to afford one Potion (current: ¥96, Potion: ¥200).
+*   **Tertiary Goal:** Earn at least ¥104 from trainers to afford one Potion (current: ¥96, Potion: ¥200).
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
