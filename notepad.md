@@ -111,3 +111,6 @@
 
 # Pewter City Notes
 *   Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) is non-battling. Dialogue: "It's rumored that CLEFAIRYs came from the moon! They appeared after MOON STONE fell on MT.MOON." She does not gatekeep the Gym.
+
+# Pewter City Mart Notes
+*   Youngster (PEWTERMART_YOUNGSTER) at (4,5): "A shady old man got me to buy this really weird fish POKéMON! It's totally weak and it cost ¥500!" (Likely referring to Magikarp).
