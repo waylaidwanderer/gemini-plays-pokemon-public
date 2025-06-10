@@ -98,3 +98,7 @@
 
 ## Navigation Rules & Insights
 *   NPCs on `navigable: false` tiles are impassable physical obstacles, even if defeated or non-battling.
+
+## Navigation Rules & Insights (Updated)
+*   NPCs on `navigable: false` tiles are impassable physical obstacles, even if defeated or non-battling.
+*   Ledge tiles marked `navigable="true"` can be occupied (e.g., by jumping down onto them), but upward movement onto a ledge from below is prevented by game physics, even if the tile's `navigable` attribute is true. The game's movement denial takes precedence over the XML's `navigable` flag for directional traversal of ledges from below.
