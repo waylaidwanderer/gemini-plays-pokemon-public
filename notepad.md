@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Navigate Viridian Forest to reach Pewter City.
-*   **Tertiary Goal:** Acquire Poké Balls from a Poké Mart.
+*   **Secondary Goal:** Navigate Viridian Forest to reach Pewter City by exploring all remaining reachable unseen areas.
+*   **Tertiary Goal:** Defeat trainers encountered in Viridian Forest for experience and to clear paths.
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
@@ -61,7 +61,7 @@
 *   **Map Analyzer Agent Usage:** Proactively use `map_analyzer_agent` for pathing queries or locating features if manual pathing becomes difficult or when entering complex new areas. Test its utility regarding the Youngster at (17,44) or finding the Viridian Forest North Exit.
 
 # Viridian Forest Notes
-*   Youngster at (17,44) - initial battle attempt resulted in a dialogue loop, escaped with 'B'. Need to determine if this trainer is mandatory or can be bypassed.
+*   Youngster at (17,44): Encountered dialogue loop, escaped with 'B'. `map_analyzer_agent` (Turn 877) confirmed this trainer blocks the direct path north and cannot be bypassed. Battle is likely mandatory to proceed north in that section.
 *   (Track other trainers, items, and path through here)
 
 # Battle Notes
