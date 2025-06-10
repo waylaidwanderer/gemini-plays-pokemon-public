@@ -1,34 +1,31 @@
 # Pokédex & Badges
 *   Badges: Boulder Badge
-*   Pokédex Caught: CATERPIE, PIKACHU, NIDORAN♀, CLEFAIRY, ZUBAT, ODDISH, GLOOM, PARAS (8/151)
+*   Pokédex Target: Complete (Currently 8/151)
 
-# Current Team & Training
-*   BELLA (GLOOM): Lv21 (66/66 HP) | Moves: STUN SPORE (30/30 PP), ACID (30/30 PP), LEECH SEED (10/10 PP), ABSORB (17/25 PP)
-*   ZAPPY (PIKACHU): Lv16 (35/47 HP) | Moves: THUNDERSHOCK (27/30 PP), DOUBLE TEAM (15/15 PP), QUICK ATTACK (30/30 PP), THUNDER WAVE (20/20 PP)
-*   NINA (NIDORAN♀): Lv11 | HP: 34/34 | Moves: GROWL (40/40), TACKLE (35/35), POISON STING (35/35), BITE (25/25)
-*   WIGGLES (CATERPIE): Lv4 | HP: 18/18 | Moves: TACKLE (35/35), STRING SHOT (40/40)
-*   ECHO (ZUBAT): Lv11 | HP: 30/30 | Moves: LEECH LIFE (25/25), SUPERSONIC (20/20), GUST (35/35 PP)
-*   LUNA (CLEFAIRY): Lv11 (20/37 HP) | Moves: POUND (35/35 PP), GROWL (40/40 PP), WATER GUN (21/25 PP), MEGA PUNCH (20/20 PP)
-*   **Immediate Priority:** Heal party at Route 4 Pokecenter (once Mt. Moon is cleared).
+# Current Team & Training Focus
+*   BELLA (GLOOM): Lv21 - Core attacker.
+*   ZAPPY (PIKACHU): Lv16 - **NEEDS HEALING (14/47 HP)**.
+*   NINA (NIDORAN♀): Lv12 - Evolve into Nidorina/Nidoqueen. Learned Double Kick.
+*   WIGGLES (CATERPIE): Lv4 - Train for evolution.
+*   ECHO (ZUBAT): Lv11 - Good type coverage (Flying).
+*   LUNA (CLEFAIRY): Lv11 - **NEEDS HEALING (15/37 HP)**. Moon Stone available for evolution.
+*   **Immediate Priority:** Heal ZAPPY & LUNA at Route 4 Pokecenter.
 
-# Key Items & TMs
+# Key Items & TMs (Strategic Notes)
 *   OLD ROD x1
 *   POKé BALL x9
-*   TM34 (BIDE) x1
-*   TM12 (WATER GUN) x1 - Used on LUNA.
+*   TM34 (BIDE) x1 - Evaluate for team.
 *   HP UP x1 - Used on ZAPPY.
-*   TM01 (MEGA PUNCH) x1 - Used on LUNA.
+*   RARE CANDY x1 - Save for strategic use.
+*   MOON STONE x1 - Potential use on LUNA (Clefairy).
 *   TOWN MAP x1
-*   RARE CANDY x1
-*   MOON STONE x1
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
-**Secondary Goal:** Find a Fossil in Mt. Moon.
-*   **Tertiary Goal:** Heal party at Route 4 Pokecenter (once Mt. Moon is cleared).
+*   **Secondary Goal:** Exit Mt. Moon to heal Zappy and Luna at a Pokémon Center.
+*   **Tertiary Goal:** After healing, resume exploration of Mt. Moon to find a Fossil.
 
 # Gameplay Notes & Strategy
-
 ## Navigation & Exploration
 *   Mt. Moon is complex. Systematic exploration of floors and isolated sections is key.
 *   **CRITICAL:** Trust the **annotated screen** for immediate obstacles over map memory if there's a conflict. Repeatedly trying to move through impassable tiles shown on screen is inefficient.
@@ -59,20 +56,20 @@
     *   **Status:** Defined. Untested.
     *   **Purpose:** Advises on Dome/Helix fossil choice.
     *   **Notes:** Test when fossil choice is presented.
-*   **`item_finder_reminder_agent` (USE FREQUENTLY):**
+*   **`item_finder_reminder_agent` (USE AS NEEDED):**
     *   **Status:** Defined. Works well.
-    *   **Usage:** Actively use when entering new map areas.
-*   **Agent Usage Review (`level_cap_check_agent`, `type_matchup_quick_reference_agent`, `encounter_optimizer_agent`, `next_battle_action_advisor_agent`, `tm_learning_advisor_agent`):**
-    *   **Status:** Defined.
-    *   **Action:** Evaluate necessity of less-used agents. Consolidate or delete if not providing consistent value.
-    *   **Note on `next_battle_action_advisor_agent`:** High usage. Reduce reliance.
+    *   **Usage:** Use when entering new map areas if item collection is a priority.
 *   **`rom_hack_mechanics_lookup_agent` (Low Priority - Test):**
     *   **Status:** Defined.
     *   **Purpose:** Quick lookup for ROM hack mechanics.
     *   **Notes:** Test its utility.
-
-# Agent Definition Priorities
-- [Removed outdated plan for dungeon_navigator_agent as it's already defined and in use.]
+*   **`Team Composition Advisor` (Low Priority - Define/Discard):**
+    *   **Status:** Idea phase.
+    *   **Action:** Decide whether to define this agent or discard the idea to focus development efforts.
+*   **Agent Usage Review (`level_cap_check_agent`, `type_matchup_quick_reference_agent`, `encounter_optimizer_agent`, `next_battle_action_advisor_agent`, `tm_learning_advisor_agent`):**
+    *   **Status:** Defined.
+    *   **Action:** Evaluate necessity of less-used agents. Consolidate or delete if not providing consistent value.
+    *   **Note on `next_battle_action_advisor_agent`:** High usage. Reduce reliance.
 
 # Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
@@ -97,7 +94,6 @@
 *   Rocket Grunt (ID 5) at (30,18) - Undefeated (currently unreachable from player's B2F access point).
 
 # Mt. Moon Exploration Log
-
 ## Overall Objective
 *   Navigate Mt. Moon to reach Route 4 and eventually Cerulean City. Secondary objective: find a Fossil.
 
@@ -123,7 +119,7 @@
 ## Navigation Issues & Learnings
 *   **Unintended Warps:** Multiple instances of unintentionally taking warps due to long movement sequences crossing warp tiles. (e.g., Turn 5915, Turn 6162). Be more cautious and verify paths.
 *   **Pathing Inefficiency:** Some exploration paths were inefficient (e.g., Mt. Moon 1F towards exit; B2F west from (25,x) column). Break down movements into smaller, verifiable segments.
-*   **Prioritization:** Prioritize reaching the next city over minor exploration within complex dungeons when primary goal is city progression.
+*   **Prioritization:** Prioritize reaching the next city over minor exploration within complex dungeons when primary goal is city progression. This is especially true when party members are critically injured.
 *   **Zappy's Status:** Zappy is no longer confused after the battle with the wild Zubat (Turn 6146). Confusion wore off after wild Zubat battle (Turn 6174).
 
 ## Agent Performance & Notes
@@ -132,12 +128,4 @@
 - **Performance:** Failed once (Turn 6273, script produced no output), but worked correctly on subsequent uses (Turn 6274, Turn 6275). Needs monitoring. System prompt to be updated on Turn 6278 to emphasize correct JSON output from its Python script.
 
 ## Post-Healing Exploration Strategy for Mt. Moon
-*   Prioritize finding undiscovered warps on Mt. Moon B1F, as indicated by game state, to access new areas of B2F for fossil hunting.
-
-# Agent Development Plan
-*   **`Team Composition Advisor` (Low Priority - Idea):**
-    *   **Purpose:** Suggests optimal 6-Pokémon team compositions for upcoming challenges (Gyms, routes) based on current party, PC box, level caps, and known type specialties.
-    *   **Input:** Player party (names, levels, types, moves), PC box (names, levels, types, moves), upcoming challenge details (e.g., Gym Leader name, type focus, key Pokémon), current level cap.
-    *   **Output:** Recommended 6-Pokémon team, reasoning for each selection (type advantage, coverage, synergy), and potential move adjustments or TMs to consider for the selected team members.
-
-- `Team Composition Advisor` (Medium Priority - Define): Define agent to suggest optimal 6-Pokémon team compositions for upcoming challenges (Gyms, routes) based on current party, PC box, level caps, and known type specialties.
+*   Prioritize finding undiscovered warps on Mt. Moon B1F, as indicated by game state, to access new areas of B2F for fossil hunting, *after* the party is healed.
