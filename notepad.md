@@ -22,7 +22,7 @@
 
 # Current Location & Navigation Plan
 *   **Current Location:** Mt. Moon 1F (ID: 59) at (26,16). Standing on warp to B1F.
-*   **Navigation Plan:** Use current warp to B1F (26,16). Explore B1F from this entry point to find a ladder/warp to the northeastern section of B2F. From NE B2F, find the ladder to the isolated 1F exit to Route 4 (east of Mt. Moon).
+*   **Navigation Plan:** Use current warp to B1F (26,16). Explore B1F from this entry point to find a ladder/warp to the northeastern section of B2F. From B1F (after exploring the NE B2F area accessed from B1F (14,28) and returning to B1F (14,28)), find the ladder at B1F (26,10). This ladder should lead to the isolated section of Mt. Moon 1F and the exit to Route 4 (east of Mt. Moon).
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and obtain the Cascade Badge from Misty.
