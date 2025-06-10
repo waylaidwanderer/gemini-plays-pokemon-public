@@ -71,3 +71,5 @@
 # Pewter City Prep
 - Find out Brock's Ace level / level cap for Hard Mode.
 - Plan party composition/training for Brock.
+
+*   Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (28,20) in Viridian Forest.
