@@ -81,3 +81,6 @@
 *   Plan party composition/training for Brock.
 
 *   **Horizontal Ledge Movement (AI Critique):** The AI noted that assuming one can step horizontally onto a ledge from an adjacent ground tile at the same Y-level is generally a flawed assumption, even if specific map data shows `navigable="true"`. It's better to verify this on a case-by-case basis and be cautious about general ledge traversal rules.
+
+*   **Type Matchups (REINFORCED - CRITICAL ERROR):** THUNDERSHOCK is NOT VERY EFFECTIVE against Grass/Poison types (e.g., Oddish). This is a recurring mistake. QUICK ATTACK (Normal) is neutral and often a better choice for consistent damage in such cases. Must internalize type charts.
+*   **Proactive Healing & Poison Management (REINFORCED - CRITICAL ERROR):** Blacking out due to poison and accumulated damage from poor battle choices is unacceptable. If SPARKY is poisoned, prioritize healing (Antidote if available, Potion if HP is low, or retreat to a Pokémon Center) *before* further exploration or difficult battles. Do not rely on nearly fainting before healing. Use Potions more liberally outside of battle to maintain high HP.
