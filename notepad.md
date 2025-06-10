@@ -3,12 +3,12 @@
 *   Pokedex: 10/151 (Target: Complete)
 
 # Current Team & Training Focus (Strategic Notes)
-*   BELLA (GLOOM Lv21): (66/66 HP) | Moves: STUN SPORE (26 PP), ACID (21 PP), LEECH SEED (10 PP), ABSORB (18 PP)
-*   ZAPPY (PIKACHU Lv17): (18/50 HP) | Moves: THUNDERSHOCK (19 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
-*   NINA (NIDORAN♀ Lv12): (14/36 HP) | Moves: GROWL (40 PP), DOUBLE KICK (26 PP), POISON STING (35 PP), BITE (25 PP). Keep for Ground/Poison typing.
-*   ECHO (ZUBAT Lv11): (6/30 HP) | Moves: LEECH LIFE (25 PP), SUPERSONIC (20 PP), GUST (31 PP). Flying type coverage.
+*   BELLA (GLOOM Lv21): (66/66 HP) | Moves: STUN SPORE (30 PP), ACID (29 PP), LEECH SEED (10 PP), ABSORB (25 PP)
+*   ZAPPY (PIKACHU Lv17): (50/50 HP) | Moves: THUNDERSHOCK (30 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
+*   NINA (NIDORAN♀ Lv12): (36/36 HP) | Moves: GROWL (40 PP), DOUBLE KICK (30 PP), POISON STING (35 PP), BITE (25 PP). Keep for Ground/Poison typing.
+*   ECHO (ZUBAT Lv11): (30/30 HP) | Moves: LEECH LIFE (25 PP), SUPERSONIC (20 PP), GUST (35 PP). Flying type coverage.
 *   LUNA (CLEFAIRY Lv11): (37/37 HP) | Moves: POUND (35 PP), GROWL (40 PP), WATER GUN (25 PP), MEGA PUNCH (20 PP).
-*   SIR (PARAS Lv13): (24/34 HP) | Moves: STUN SPORE (30 PP), ABSORB (25 PP), LEECH LIFE (25 PP), POISONPOWDER (35 PP).
+*   SIR (PARAS Lv13): (34/34 HP) | Moves: STUN SPORE (30 PP), ABSORB (25 PP), LEECH LIFE (25 PP), POISONPOWDER (35 PP).
 
 # Key Items & TMs (Strategic Notes)
 *   OLD ROD x1
@@ -21,28 +21,29 @@
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 
 # Current Location & Navigation Plan
-*   **Current Location:** Mt. Moon 1F (ID: 59) at (17,8) - Party critically injured.
-*   **Immediate Navigation Plan:** Follow Phase 1 of 'Mt. Moon Navigation Strategy (Post-Critique - DETAILED EXIT PLAN)' to reach warp (26,16) on Mt. Moon 1F.
+*   **Current Location:** Route 3 (ID: 14) at (62,9) - Exploring grass for training/catches.
+*   **Immediate Navigation Plan:** Continue exploring grass patches on Route 3, then proceed east towards Mt. Moon's eastern entrance.
 
-# Current Goals (Revised Turn 8771 - Party Healed)
-*   **Primary Goal:** Reach Cerulean City.
-*   **Secondary Goal:** Train key team members (ZAPPY, BELLA, NINA) on Route 4 to prepare for Gym Leader Misty (Ace Starmie Lv21, Player Cap 21).
-*   **Tertiary Goal:** Catch new Pokémon on Route 4 if any are available.
+# Current Goals
+*   **Primary Goal:** Reach Cerulean City and obtain the Cascade Badge from Misty.
+*   **Secondary Goal:** Train key team members (ZAPPY, BELLA, NINA) on Route 3 and the eastern part of Mt. Moon to prepare for Gym Leader Misty (Ace Starmie Lv21, Player Cap 21).
+*   **Tertiary Goal:** Catch new Pokémon on Route 3 or within Mt. Moon if any are available and strategically beneficial.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
 *   **CRITICAL:** Trust the **annotated screen** for immediate obstacles over map memory if there's a conflict.
 *   The North map connection from Route 3 leads to the *lowest tier* of 'Route 4 (Before Mt. Moon)', forming a loop for upper Route 4/western Mt. Moon access.
 *   When on Route 4 (Before Mt. Moon) upper tiers, navigate eastward by descending ledges.
-*   **Path Planning in Notepad:** Actively use the notepad to *plan out* complex navigation paths *before* execution, not just for post-mortem analysis or general strategy. Break down long paths into smaller, verifiable segments in the notepad.
+*   **Path Planning in Notepad:** Actively use the notepad to *plan out* complex navigation paths *before* execution. Break down long paths into smaller, verifiable segments.
 *   **Multi-Tile Warps:** Be consistently aware of 2-step activation (onto tile, then into boundary/direction).
-*   **Item Acquisition:** Key items like fossils, if pick-ups, will be visible item sprites on the map and listed in the `Map Sprites` section *after the trigger event*. Do not interact with empty ground tiles expecting items.
+*   **Item Acquisition:** Key items like fossils, if pick-ups, will be visible item sprites on the map and listed in the `Map Sprites` section *after the trigger event*.
+*   **`navigation_goal_coordinates` Warnings:** Pay close attention to system warnings about `navigation_goal_coordinates` being non-navigable. Understand the distinction between NPC sprite `reachable: yes` status and underlying map tile `navigable: false` status. An NPC on a non-navigable tile cannot be pathfinding target for movement, even if the sprite itself is marked reachable (interaction might still be possible if adjacent and facing).
 
 ## Battle Strategy
 *   Improve precision in battle menu navigation.
 *   Be mindful of type matchups and PP conservation. Internalize ROM hack type changes.
-*   **Risk Assessment:** Avoid switching in Pokémon with critically low HP against opponents that can KO them. Prioritize running from battles when party HP is critical.
-*   **Healing Priority:** Prioritize reaching a Pokémon Center quickly if key Pokémon are critically injured.
+*   **Risk Assessment:** Avoid switching in Pokémon with critically low HP against opponents that can KO them. Prioritize running from battles when party HP is critical (unless training goals override).
+*   **Healing Priority:** Prioritize reaching a Pokémon Center quickly if key Pokémon are critically injured and no immediate training/objective outweighs this.
 
 ## ROM Hack Specifics
 *   **General Changes:** Old Rod (Viridian Mart), HMs forgettable/menu use, TMs repurchasable, Trade evos by level.
@@ -57,12 +58,18 @@
 # Agent Development & Usage
 *   **Current Agents (10/10):** `level_up_move_advisor_agent`, `next_battle_action_advisor_agent`, `exploration_prioritizer_agent`, `tm_learning_advisor_agent`, `objective_validator_agent`, `dungeon_navigator_agent`, `item_use_advisor_agent`, `trainer_data_logger_agent`, `gym_leader_strategist_agent`, `escape_route_planner_agent`.
 *   **High Usage Agents to Monitor & Reduce Reliance:**
-    *   `dungeon_navigator_agent` (106 uses): MASSIVELY REDUCE RELIANCE. Prioritize manual pathfinding for ALL short-to-medium paths. Break complex paths into small, verifiable segments. Always double-check agent output.
-    *   `next_battle_action_advisor_agent` (24 uses): DRASTICALLY REDUCE RELIANCE. Make manual battle decisions for ALL common wild Pokémon and obvious scenarios (e.g., running with a critically injured party).
-*   **Agent Slot Management:** 10/10 agents defined. Candidates for deletion if a slot is needed: `team_composition_advisor_agent`, `tm_learning_advisor_agent`, `item_use_advisor_agent` (due to low usage).
+    *   `dungeon_navigator_agent` (107 uses): MASSIVELY REDUCE RELIANCE. Prioritize manual pathfinding for ALL short-to-medium paths. Break complex paths into small, verifiable segments. Always double-check agent output.
+    *   `next_battle_action_advisor_agent` (24 uses): DRASTICALLY REDUCE RELIANCE. Make manual battle decisions for ALL common wild Pokémon and obvious scenarios.
+*   **Agent Slot Management:** 10/10 agents defined. Candidates for deletion if a slot is needed: `item_use_advisor_agent` (1 use), `tm_learning_advisor_agent` (2 uses). Periodically review if these are providing sufficient value.
 *   **`exploration_prioritizer_agent` Limitations:** Ensure its prompt correctly guides its Python code to prioritize `game_state_reachable_unseen_tiles_json` over map XML `navigable` status for those specific tiles.
+*   **`objective_validator_agent` Potential Use:** Consider using to validate tile navigability for a `navigation_goal_coordinate` *before* setting it, especially if targeting an NPC on a tile that might be `navigable: false` in map XML.
+*   **Agent Prompts:** Periodically review agent system prompts for clarity and to ensure they contain all necessary game-specific context if not passed via input (since agents are otherwise contextless).
 
 # Future Agent Ideas (Brainstorming)
+*   `map_analyzer_agent`: (Code-enabled) Parses `map_xml_string` to identify all grass tiles, ledges, chokepoints, etc., for exploration/training route planning.
+*   `npc_interaction_logger_agent`: Logs key NPC dialogue or items received into a structured format for notepad.
+*   `pokemon_catcher_advisor_agent`: Advises on catching wild Pokémon (if needed, ball type, strategy).
+*   `route_summary_agent`: (Code-enabled) Summarizes a route's key features (trainers, wild Pokémon if data available, connections) from `map_xml_string` and potentially notepad data.
 
 # Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
@@ -70,8 +77,9 @@
 *   Exited Mt. Moon (western exit) onto Route 4 (Before Mt. Moon).
 *   Confirmed Route 3 (North) to Route 4 (Before Mt. Moon) (South) map connection forms a loop.
 *   Deposited WIGGLES (Caterpie Lv4) into PC Box 3. Withdrew SIR (Paras Lv13) from PC Box 1.
-*   Healed party at Mt. Moon Pokecenter (most recently turn 7866).
+*   Healed party at Mt. Moon Pokecenter.
 *   Obtained Helix Fossil from Mt. Moon B2F after defeating Super Nerd (ID 1).
+*   Successfully navigated from Route 4 (Before Mt. Moon) to Route 3.
 
 # Trainer Battle Intel
 *Self-correction: Be more precise with Trainer IDs and locations when logging. Verify against Game State if unsure.*
@@ -99,23 +107,20 @@
 *   Super Nerd (ID 4, sprite MTMOONB2F_ROCKET2) at (Mt Moon B2F, 30,12) - UNDEFEATED / CURRENTLY UNREACHABLE. Dialogue ("If you find a fossil, give it to me and scram!") was a pre-battle taunt. May or may not be relevant now that a fossil is obtained.
 *   Rocket Grunt (ID 5, sprite MTMOONB2F_ROCKET3) at (Mt Moon B2F, 30,18) - Non-battling / Dialogue Loop. Bypassed.
 ## Route 4 (Before Mt. Moon) Trainers
-- Cool Trainer F (ID 1, sprite ROUTE4_COOLTRAINER_F1) on Route 4 (Before Mt. Moon) - Assumed non-battling or already defeated after multiple failed interaction attempts. No longer a target.
+*   Cool Trainer F (ID 1, sprite ROUTE4_COOLTRAINER_F1) on Route 4 (Before Mt. Moon) - Confirmed non-battling or already defeated after multiple failed interaction attempts. No longer a target.
 
 # Navigation Rules & Insights
-*   NPCs on `navigable: false` tiles are impassable physical obstacles, even if defeated or non-battling.
+*   NPCs on `navigable: false` tiles are impassable physical obstacles, even if defeated or non-battling. Their tile will remain `navigable: false` in map memory.
 *   Ledge tiles marked `navigable="true"` can be occupied (e.g., by jumping down onto them), but upward movement onto a ledge from below is prevented by game physics, even if the tile's `navigable` attribute is true. The game's movement denial takes precedence over the XML's `navigable` flag for directional traversal of ledges from below.
-*   Defeated trainers may sometimes remain as physical obstacles on their tile; their tile will remain `navigable: false` in map memory.
 *   Mt. Moon 1F: Tile (8,19) is impassable, blocking direct southward movement from (8,18).
-*   **Segmented Dungeons (CRITICAL - REINFORCED):** Complex dungeons like Mt. Moon are NOT single, continuous maps per floor. They are composed of *multiple, often isolated segments on the exact same floor level*. Access to these different segments is *exclusively* via specific warps (ladders, stairs, holes) from other floors or other segments of the same floor. It's impossible to walk from one isolated segment to another on the same floor without using a warp. Systematically explore each available warp from your current segment to discover connections to other segments or floors. Note the destination of each warp. If a warp leads to an already explored or unhelpful segment, return immediately and try a different warp. Do not assume all parts of a floor are interconnected or that all warps on a floor are reachable from any given point on that floor.
+*   **Segmented Dungeons (CRITICAL - REINFORCED):** Complex dungeons like Mt. Moon are NOT single, continuous maps per floor. They are composed of *multiple, often isolated segments on the exact same floor level*. Access to these different segments is *exclusively* via specific warps. Systematically explore each available warp from your current segment to discover connections to other segments or floors.
 *   **1x1 Warp Activation:** Be more consistent with 1x1 warp activation, especially considering Pikachu's position. Stepping off and then back on is the reliable method if unsure.
 
 # Self-Correction & Critique Learnings
-- Path Planning: Meticulously examine map data (`map_xml_string`/annotated screen) *before* committing to movement. Identify clear, navigable corridors. Break down navigation into smaller, verifiable segments, especially in complex areas. If a path is blocked, backtrack to a known navigable area and re-evaluate the entire route, considering completely different approaches.
-- Prioritize Healing: When party health is critical across multiple Pokémon, finding a Pokémon Center becomes the absolute top priority over other exploration or objectives.
-- Trust Game State: Information like `reachable: no` for NPCs/warps should be treated as authoritative. Avoid wasting turns trying to interact with or path to targets marked as currently inaccessible.
+*   Path Planning: Meticulously examine map data (`map_xml_string`/annotated screen) *before* committing to movement. Identify clear, navigable corridors. Break down navigation into smaller, verifiable segments. If a path is blocked, backtrack to a known navigable area and re-evaluate the entire route, considering completely different approaches.
+*   Prioritize Healing: When party health is critical across multiple Pokémon, finding a Pokémon Center becomes the absolute top priority over other exploration or objectives, unless a very specific, short-term, high-value objective can be completed first.
+*   Trust Game State: Information like `reachable: no` for NPCs/warps should be treated as authoritative. Avoid wasting turns trying to interact with or path to targets marked as currently inaccessible.
 
 # Gameplay Reminders (Post-Reflection Turn 8367)
 *   **Reachable Unseen Tiles List:** Always use the *current* list from the Game State Information for exploration planning. This list is dynamic and can change frequently.
 *   **Navigation Goal Coordinates:** Ensure `navigation_goal_coordinates` are always confirmed `navigable: true` in the map XML or are part of the current 'Reachable Unseen Tiles' list from Game State to avoid pathing errors.
-
-- Route 4 (Before Mt. Moon): East map connection is Undiscovered and Navigable: No.
