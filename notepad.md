@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
 *   **Secondary Goal:** Train SPROUT (Oddish) to an effective level for the Pewter City Gym.
-*   **Tertiary Goal:** Investigate if the Jr. Trainer♂ in Pewter Gym is rebattlable for training SPROUT.
+*   **Tertiary Goal:** Explore Route 2 for any useful items or trainers once SPROUT is sufficiently leveled.
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
