@@ -91,3 +91,4 @@
     *   Moves: THUNDERSHOCK (30 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP).
 *   **EXP to Lv13 (Target: 2197 total):** 469 EXP needed (2197 - 1728).
 *   **EXP to Lv14 (Target: 2744 total):** 1016 EXP needed (2744 - 1728).
+*   **Critique Lesson (Turn 2626):** Consistently verify path navigability tile-by-tile in Map Memory for any planned route, especially longer ones. Break down manual pathing into shorter, verifiable segments (e.g., 3-5 steps). Prioritize fixing/using pathing agents. Confirm item prices and funds *before* shop visits. Re-evaluate shop menu interaction for quantity adjustments.
