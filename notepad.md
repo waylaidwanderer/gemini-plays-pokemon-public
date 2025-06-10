@@ -31,11 +31,9 @@
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
-*   **CRITICAL:** Trust the **annotated screen** for immediate obstacles over map memory if there's a conflict.
 *   The North map connection from Route 3 leads to the *lowest tier* of 'Route 4 (Before Mt. Moon)', forming a loop for upper Route 4/western Mt. Moon access.
 *   When on Route 4 (Before Mt. Moon) upper tiers, navigate eastward by descending ledges.
 *   **Path Planning in Notepad:** Actively use the notepad to *plan out* complex navigation paths *before* execution, especially for multi-step movements in unfamiliar terrain. Break down long paths into smaller, verifiable segments. This must be consistently applied (ref: critique on Route 3 navigation turns 8879-8884).
-*   **Multi-Tile Warps:** Be consistently aware of 2-step activation (onto tile, then into boundary/direction).
 *   **Item Acquisition:** Key items like fossils, if pick-ups, will be visible item sprites on the map and listed in the `Map Sprites` section *after the trigger event*.
 *   **`navigation_goal_coordinates` Warnings:** Pay close attention to system warnings about `navigation_goal_coordinates` being non-navigable. Understand the distinction between NPC sprite `reachable: yes` status and underlying map tile `navigable: false` status. An NPC on a non-navigable tile cannot be pathfinding target for movement, even if the sprite itself is marked reachable (interaction might still be possible if adjacent and facing).
 
