@@ -87,14 +87,6 @@
 *   Defeated Lass (Cool Trainer F, ID 5) at (3,42) in Viridian Forest. Her Pokemon: NIDORAN♀ Lv6, NIDORAN♂ Lv6. SPARKY was at 26/39 HP after the battle. Got ¥90.
 *   Defeated Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. His Pokemon: Pinsir Lv8, Metapod Lv9. Got ¥90.
 *   Defeated Youngster (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (28,34) in Viridian Forest. His Pokemon: Weedle Lv6, Kakuna Lv6. SPARKY was at 39/39 HP. Got ¥90.
-## Wild Encounters (Viridian Forest - Grinding for Brock)
-    *   Defeated Wild Weedle Lv4 (Turn 2021), got 29 EXP. SPARKY's HP: 39/39. Not poisoned.
-    *   Defeated Wild Weedle Lv4 (Turn 2027), got 29 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
-    *   Defeated Wild Metapod Lv6 (Turn 2036), got 61 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
-    *   Defeated Wild Weedle Lv4 (Turn 2040), got 29 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
-    *   Defeated Wild Weedle Lv4 (Turn 2042), got 29 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
-    *   Defeated Wild Metapod Lv6 (Turn 2044), got 61 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
-    *   Defeated Wild Oddish Lv6 (Turn 2055), got 66 EXP. SPARKY's HP: 37/39. SPARKY was poisoned by POISONPOWDER. Used ANTIDOTE (Turn 2056).
 
 # Pewter City Prep
 *   Find out Brock's Ace level / level cap for Hard Mode. (Onix Lv14 is Ace, cap is 14)
