@@ -63,7 +63,6 @@
 *   **`exploration_prioritizer_agent` Limitations:** Ensure its prompt correctly guides its Python code to prioritize `game_state_reachable_unseen_tiles_json` over map XML `navigable` status for those specific tiles.
 
 # Future Agent Ideas (Brainstorming)
-*   **Escape Route Planner Agent:** (PRIORITY TO DEFINE AFTER PARTY IS HEALED) Given current map and party health, prioritizes finding the *absolute fastest* way to a known Pokémon Center, considering items like Escape Ropes/Dig if available. For dire situations.
 
 # Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
