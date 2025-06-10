@@ -100,6 +100,6 @@
 
 - Defeated Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. His Pokemon: Pinsir Lv8, Metapod Lv9. Got ¥90.
 
-# Agent Ideas for Later
-*   `inventory_manager_agent`: Helps manage inventory, suggests when to buy/use items based on money, goals, Hard Mode rules, and upcoming challenges.
-*   `hm_tracker_agent`: Tracks HM progression, which HMs are needed for which areas/obstacles, and which Pokemon can learn them.
+# Planned Agents (For Later Implementation)
+*   `inventory_manager_agent`: Helps manage inventory, suggests when to buy/use items based on money, goals, Hard Mode rules, and upcoming challenges. (To be defined later)
+*   `hm_tracker_agent`: Tracks HM progression, which HMs are needed for which areas/obstacles, and which Pokemon can learn them. (To be defined later)
