@@ -68,7 +68,7 @@
 *   **Note:** Potions cost ¥200.
 
 # Battle Notes
-*   **EXP Tracking (Simplified):** Record GameState EXP at start of battle + EXP gained from battle.
+*   **EXP Tracking (Precise):** Record GameState EXP *before* a battle and *after* a battle. If a Pokémon is level-capped, verify that its actual EXP value does not change, even if an EXP gain message is displayed.
 *   SPARKY learned TAIL WHIP, replacing GROWL at Lv11.
 *   Blackout: Defeated by Bug Catcher (ID 6, VIRIDIANFOREST_YOUNGSTER5) at (17,18) in Viridian Forest (Turn 1104).
 *   Defeated Lass (Cool Trainer F, ID 5) at (3,42) in Viridian Forest. (NIDORAN♀ Lv6, NIDORAN♂ Lv6). ¥90.
