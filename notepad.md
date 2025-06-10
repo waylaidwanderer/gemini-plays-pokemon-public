@@ -84,3 +84,12 @@
 *   **Note on recent gains (for leveling calculation):** +62 EXP (Pidgey T2393), +71 EXP (Kakuna T2399). Calculated total after these: 1861.
 *   **EXP to Lv13 (2197 total):** 2197 - 1861 = 336 EXP needed.
 *   **EXP to Lv14 (2744 total):** 2744 - 1861 = 883 EXP needed.
+
+*   **Refined Agent Usage Strategy (Post-Critique Turn 2408):**
+    *   Utilize `direct_pathing_agent` more frequently for short, straightforward navigation to minimize manual input errors and 'mixed buttons' warnings.
+    *   Confirm and prioritize using `pathing_script_analyzer_agent` at the next Pokémon Center visit to fix the main `run_code` pathing script.
+    *   Actively re-evaluate and use other defined agents based on the current situation:
+        *   `exploration_planner` for new, complex areas.
+        *   `battle_strategist_agent` before major battles.
+        *   `item_finder_agent` when specifically searching for items.
+    *   Regularly assess the utility of all agents. If an agent is consistently unused or not providing value, consider deleting it to manage the 10-agent limit and maintain focus on effective tools.
