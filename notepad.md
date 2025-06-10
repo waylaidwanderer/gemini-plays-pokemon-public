@@ -100,7 +100,7 @@
 *   Super Nerd (ID 4, sprite MTMOONB2F_ROCKET2) at (Mt Moon B2F, 30,12) - UNDEFEATED / CURRENTLY UNREACHABLE. Dialogue ("If you find a fossil, give it to me and scram!") was a pre-battle taunt. May or may not be relevant now that a fossil is obtained.
 *   Rocket Grunt (ID 5, sprite MTMOONB2F_ROCKET3) at (Mt Moon B2F, 30,18) - Non-battling / Dialogue Loop. Bypassed.
 ## Route 4 (Before Mt. Moon) Trainers
-- Cool Trainer F (ID 1, sprite ROUTE4_COOLTRAINER_F1) at (Route 4 Before Mt. Moon, 15,7) - **UNENGAGED / NOT DEFEATED.** (Currently at (15,7), facing Right. Avoiding to explore first).
+- Cool Trainer F (ID 1, sprite ROUTE4_COOLTRAINER_F1) at (Route 4 Before Mt. Moon, 15,8) - **UNENGAGED / NOT DEFEATED.** (Currently at (15,8), facing Up. Avoiding to explore first).
 
 # Navigation Rules & Insights
 *   NPCs on `navigable: false` tiles are impassable physical obstacles, even if defeated or non-battling.
