@@ -128,7 +128,3 @@
 *   Minimize over-reliance on `dungeon_navigator_agent`; improve manual pathfinding or use agent for initial complex paths then execute manually.
 *   Consider using `local_area_analyzer_agent` more proactively when stuck locally.
 *   Re-evaluate strategy if wild encounters significantly impede progress (consider running more often).
-
-# Future Agent Ideas (To Consider if Slots Open)
-*   **Pathing Obstacle Analyzer Agent:** Analyzes local blockages and suggests maneuvers.
-*   **Repel Usage Advisor Agent:** Advises on Repel use based on context.
