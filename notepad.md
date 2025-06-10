@@ -59,7 +59,7 @@
 ## Pathing Script (`run_code`) Behavior (**CRITICAL - DO NOT USE UNTIL FIXED - IMMEDIATE ACTION REQUIRED**)
 *   The `run_code` script for path generation is **FUNDAMENTALLY FLAWED** and **UNRELIABLE**.
     *   **NEW STRATEGY (MANDATORY):** **DO NOT USE THIS SCRIPT for any path longer than 1-2 easily verifiable steps.** Prioritize **MANUAL NAVIGATION**. If stuck, use `map_analyzer_agent` to query for paths.
-    *   **IMMEDIATE NEXT STEP (WHEN AT A POKEMON CENTER OR SAFE LOCATION):** Use the `pathing_script_analyzer_agent` to diagnose and begin fixing the `run_code` pathing script. This is the **ABSOLUTE HIGHEST PRIORITY** and must be addressed at the very next opportunity when not actively grinding or in a dangerous area (e.g., next Pokémon Center visit). Continued deferral is unacceptable.
+    *   **CURRENT STRATEGY (PEWTER POKEMON CENTER):** Develop a new, basic pathing script using `run_code`. The old script is abandoned. Future iterations of this new script will aim to handle more tile types and Pikachu. The `pathing_script_analyzer_agent` may be used later to analyze/debug this new script if needed.
 
 # Map Discoveries
 *   **Pallet Town:** Reachable, undiscovered map connection south at (4,18) or (3,18).
