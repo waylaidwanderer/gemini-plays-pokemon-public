@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
 *   **Secondary Goal:** Level up SPARKY to Lv14 to better challenge Brock.
-*   **Tertiary Goal:** Develop a viable battle strategy for Brock's Pokémon.
+*   **Tertiary Goal:** 
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
@@ -76,6 +76,10 @@
 *   Items Collected:
     *   Potion at (26,12) - Collected (Turn 981).
     *   Potion at (13,30) - Collected (Turn 1905).
+*   Inventory:
+    *   POKé BALL x3
+    *   POTION x2
+    *   ANTIDOTE x0 (Used one on Turn 2056 on SPARKY after Oddish battle)
 
 # Battle Notes
 *   SPARKY learned TAIL WHIP, replacing GROWL at Lv11 (Turn 1004).
@@ -83,6 +87,14 @@
 *   Defeated Lass (Cool Trainer F, ID 5) at (3,42) in Viridian Forest. Her Pokemon: NIDORAN♀ Lv6, NIDORAN♂ Lv6. SPARKY was at 26/39 HP after the battle. Got ¥90.
 *   Defeated Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. His Pokemon: Pinsir Lv8, Metapod Lv9. Got ¥90.
 *   Defeated Youngster (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (28,34) in Viridian Forest. His Pokemon: Weedle Lv6, Kakuna Lv6. SPARKY was at 39/39 HP. Got ¥90.
+## Wild Encounters (Viridian Forest - Grinding for Brock)
+    *   Defeated Wild Weedle Lv4 (Turn 2021), got 29 EXP. SPARKY's HP: 39/39. Not poisoned.
+    *   Defeated Wild Weedle Lv4 (Turn 2027), got 29 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
+    *   Defeated Wild Metapod Lv6 (Turn 2036), got 61 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
+    *   Defeated Wild Weedle Lv4 (Turn 2040), got 29 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
+    *   Defeated Wild Weedle Lv4 (Turn 2042), got 29 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
+    *   Defeated Wild Metapod Lv6 (Turn 2044), got 61 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
+    *   Defeated Wild Oddish Lv6 (Turn 2055), got 66 EXP. SPARKY's HP: 37/39. SPARKY was poisoned by POISONPOWDER. Used ANTIDOTE (Turn 2056).
 
 # Pewter City Prep
 *   Find out Brock's Ace level / level cap for Hard Mode. (Onix Lv14 is Ace, cap is 14)
@@ -145,33 +157,16 @@
 
 # EXP Tracking
 *   SPARKY (PIKACHU) - Lv12
-*   Current EXP: 1818 (after Metapod battle on Turn 2036; Needs 926 more for Lv14 cap)
-*   EXP to Lv13: 2197 (Needs 379 more)
-*   EXP to Lv14 (CAP): 2744 (Needs 926 more)
-
-    *   Defeated Wild Kakuna Lv7 (Turn 1988), got 71 EXP. SPARKY's HP: 28/39. Not poisoned.
-    *   Defeated Wild Pidgey Lv8 (Turn 1994), got 62 EXP.
-    *   Defeated Wild Weedle Lv4 (Turn 2021), got 29 EXP. SPARKY's HP: 39/39. Not poisoned.
-    *   Defeated Wild Weedle Lv4 (Turn 2027), got 29 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
-    *   Defeated Wild Metapod Lv6 (Turn 2036), got 61 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
+*   Current EXP: 1884 (after Oddish battle on Turn 2055; Needs 860 more for Lv14 cap)
+*   EXP to Lv13: 2197 (Needs 313 more)
+*   EXP to Lv14 (CAP): 2744 (Needs 860 more)
 
 *   **Future Agent Testing/Development:**
     *   Test `pokedex_completer_agent` and `team_builder_agent` to assess their utility when appropriate (e.g., before major Pokedex hunting sessions or team reshuffles for Gyms).
     *   Consider developing a `direct_pathing_agent` focused on simple, direct A-to-B movement if the main `run_code` script proves too difficult to fix quickly. This could serve as a more reliable short-term navigation aid for straightforward paths.
 
-# Reflection Notes (Turn 2039)
+# Reflection Notes (Turn 2039 - Updated Turn 2055)
 *   **EXP Tracking:** Game state EXP display for party Pokémon often lags behind actual EXP gained from battles. My manual tracking in the notepad based on battle log messages is more reliable.
-*   **System Warnings:** I've been frequently receiving a 'System Warning: You tried to mix directional and action buttons in the same sequence.' This truncates my intended movement paths. I must be more careful to ensure `buttons_to_press` contains *only* directional buttons for multi-step movements. Interaction buttons (A, B) or 'tool' calls must be in separate turns.
-*   **Notepad Organization:** Added a 'Wild Encounters' sub-section under 'Battle Notes' for better clarity.
+*   **System Warnings (Mixed Buttons):** I've been frequently receiving a 'System Warning: You tried to mix directional and action buttons in the same sequence.' This truncates my intended movement paths. I must be more careful to ensure `buttons_to_press` contains *only* directional buttons for multi-step movements. Interaction buttons (A, B) or 'tool' calls must be in separate turns.
+*   **Notepad Organization:** Added a 'Wild Encounters' sub-section under 'Battle Notes' for better clarity. Added an 'Inventory' sub-section under 'Viridian Forest Notes'.
 *   **Pathing Script:** Fixing the `run_code` pathing script using `pathing_script_analyzer_agent` remains a high-priority task for the next visit to a Pokémon Center or other safe, non-grinding location.
-
-# Battle Notes
-## Wild Encounters (Viridian Forest - Grinding for Brock)
-    *   Defeated Wild Weedle Lv4 (Turn 2021), got 29 EXP. SPARKY's HP: 39/39. Not poisoned.
-    *   Defeated Wild Weedle Lv4 (Turn 2027), got 29 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
-    *   Defeated Wild Metapod Lv6 (Turn 2036), got 61 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
-
-    *   Defeated Wild Oddish Lv6 (Turn 2047), got 66 EXP. SPARKY's HP: 37/39. SPARKY was poisoned.
-*   SPARKY (PIKACHU) - Lv12
-    *   Current EXP: 1884 (Needs 860 more for Lv14 cap)
-    *   EXP to Lv13: 2197 (Needs 313 more)
