@@ -47,14 +47,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommend_learning_tm\":{\"type\":\"boolean\"},\"recommended_pokemon_to_learn\":{\"type\":\"string\",\"nullable\":true},\"move_to_forget\":{\"type\":\"string\",\"nullable\":true,\"description\":\"Name of the move to replace IF recommend_learning_tm is true AND the Pokémon already has 4 moves. Null otherwise, or if the TM is simply added to an open slot.\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommend_learning_tm\",\"reasoning\"]}",
     "agent_can_run_code": false
   },
-  "fossil_chooser_agent": {
-    "agent_name": "fossil_chooser_agent",
-    "agent_description": "Advises on which fossil to pick (Dome/Helix) based on current party/Pokedex, strategic value (type coverage, rarity, evolution potential in Yellow Legacy).",
-    "agent_system_prompt": "You are a Fossil Chooser advisor for Pokémon Yellow Legacy. Given the two fossil choices (Dome Fossil for Kabuto - Rock/Water, Helix Fossil for Omanyte - Rock/Water), the player's current party (names, types, levels), and their Pokédex caught list, advise on which fossil to pick. Consider strategic value: type coverage for the current team and future challenges (e.g., upcoming Gym Leaders), rarity of the Pokémon or its types, and its potential evolution in Yellow Legacy (Kabutops and Omastar are both Rock/Water). Explain your reasoning clearly. Output should be the recommended fossil name (Dome Fossil or Helix Fossil) and the reasoning.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"name\",\"level\",\"type1\"]}},\"pokedex_caught_list\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"player_party\",\"pokedex_caught_list\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_fossil\":{\"type\":\"string\",\"enum\":[\"Dome Fossil\",\"Helix Fossil\"]},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_fossil\",\"reasoning\"]}",
-    "agent_can_run_code": false
-  },
   "rom_hack_mechanics_lookup_agent": {
     "agent_name": "rom_hack_mechanics_lookup_agent",
     "agent_description": "Provides quick lookup for Pokémon Yellow Legacy ROM hack specific mechanics (type chart changes, stat boosts, evolution changes, HM usage, level caps).",
