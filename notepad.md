@@ -159,18 +159,12 @@
 *   **Agent Usage - `pathing_script_analyzer_agent` (CRITICAL REITERATION):** Fixing the `run_code` pathing script via `pathing_script_analyzer_agent` remains a top non-combat priority. Deferring this further is detrimental.
 *   **EXP Note Cleanup:** The tertiary goal to clean up EXP notes is important for notepad clarity.
 
-### Current Grinding Session (Viridian Forest - For Brock) - EXP Tracking (Turn 2327)
+### Current Grinding Session (Viridian Forest - For Brock) - EXP Tracking (Turn 2333)
 *   **EXP Goal:** SPARKY Lv12 -> Lv14 (Target Total EXP for Lv14: 2744)
-*   **Baseline EXP (GameState T2206 - last reliable check):** 1728
-*   **Current Calculated EXP (Turn 2327):** 1902
-    *   Calculation: 1728 (Baseline) + 29 (Weedle T2238) + 29 (Weedle T2245) + 61 (Metapod T2257) + 55 (Oddish T2327) = 1902
-*   **EXP to Lv13 (2197 total):** 295 EXP needed.
-*   **EXP to Lv14 (2744 total):** 842 EXP needed.
-*   **Battle Log (This Session - since Baseline EXP 1728):
-    *   Defeated Wild Weedle Lv4 (Turn 2238), gained 29 EXP.
-    *   Defeated Wild Weedle Lv4 (Turn 2245), gained 29 EXP.
-    *   Defeated Wild Metapod Lv6 (Turn 2257), gained 61 EXP. SPARKY's HP: 38/39. Quick Attack PP: 1.
-    *   Defeated Wild Oddish Lv5 (Turn 2327), gained 55 EXP. SPARKY's HP: 37/39 (Poisoned!). Quick Attack PP: 27.
-*   **Note on EXP Tracking:** GameState party screen EXP (currently 1728) is the baseline. All EXP gained since that baseline is added manually. If the GameState EXP updates (e.g., after leveling up or checking party menu), that new value becomes the baseline. This section logs battles for the *current grinding session*.
+*   **Baseline EXP (GameState T2333 - current turn):** 1728. SPARKY's HP: 35/39. Not Poisoned.
+*   **EXP to Lv13 (2197 total):** 469 EXP needed.
+*   **EXP to Lv14 (2744 total):** 1016 EXP needed.
+*   **Battle Log (This Session - since Baseline EXP 1728):**
+    *   *(Session restarted due to EXP reset to baseline. Previous logged battles in this section are void.)*
 
 (This new section should be placed logically, perhaps under '# Battle Notes' or as a new major heading for clarity. For now, appending will add it to the end, and I can reorganize later if needed. The key is to have the correct info available immediately.)
