@@ -117,10 +117,10 @@
 
 **Battle Mechanics Update (Mt. Moon):** Confirmed Acid (Poison-type move) is 'not very effective' (0.5x) against wild Zubat (Poison/Flying). This indicates a ROM hack change where Poison attacks are resisted by either Poison-type or Flying-type Pokémon (or both, though less likely for 0.5x). Standard Gen 1: Poison vs Poison = 1x, Poison vs Flying = 1x.
 
-# Mt. Moon Exploration Strategy (Revised Turn 7535)
+# Mt. Moon Exploration Strategy (Revised Turn 7602)
 *   **Systematic Exploration:** The eastern exit to Cerulean City is likely on Mt. Moon B1F or B2F. Mt. Moon 1F serves as a hub with multiple warps leading to different, potentially isolated segments of the lower floors.
-*   **Current Focus:** Utilize the warp at (18,12) on Mt. Moon 1F to access a new section of B1F. Thoroughly explore this new segment of B1F and any connected areas of B2F before trying other 1F warps.
-*   Avoid assuming direct paths on 1F lead to the exit; prioritize descending to and exploring the lower levels systematically.
+*   **Current Focus:** The warp at (18,12) on Mt. Moon 1F leads to a self-contained, non-progressive B1F/B2F loop (Super Nerd fossil area). Avoid this warp for progression. Prioritize using the warp at (26,16) on Mt. Moon 1F to access a new, unexplored section of B1F.
+*   Explore other 1F warps systematically if (26,16) does not lead to the exit.
 
 # Critique Feedback & Action Items (Turn 7426)
 *   Test `item_use_advisor_agent` soon (e.g., with Moon Stone or Rare Candy).
