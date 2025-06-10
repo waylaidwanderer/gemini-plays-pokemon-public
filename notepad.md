@@ -143,21 +143,21 @@
     4.  Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) - Dialogue only.
 *   **Conclusion:** No trainer EXP in Pewter City. Viridian Forest is the sole grinding spot for now.
 
-# EXP Tracking (Post-Critique Update - SIMPLIFIED)
-*   Game State EXP is the source of truth for SPARKY's level and progress.
-*   SPARKY (Lv12) Game State EXP: 1728.
-*   Target Lv13 EXP: 2197 (needs 469 more from current Game State EXP).
-*   Target Lv14 EXP: 2744 (needs 1016 more from current Game State EXP).
-*   Battle log EXP gains are noted for reference but are not authoritative until reflected in Game State.
-    *   Defeated Wild Metapod Lv6 (Turn 1910), got 61 EXP (Battle Log).
-    *   Defeated Wild Caterpie Lv4 (Turn 1918), got 30 EXP (Battle Log).
-    *   Defeated Wild Pidgey Lv7 (Turn 1931), got 55 EXP (Battle Log).
-    *   Defeated Wild Oddish Lv5 (Turn 1948), got 55 EXP (Battle Log).
+# EXP Tracking
+*   SPARKY (PIKACHU) - Lv12
+*   Current EXP (Game State): 1728 (as of Turn 2003)
+*   EXP to Lv13: 2197 (Needs 469 more)
+*   EXP to Lv14 (CAP): 2744 (Needs 1016 more)
 
-# Reflection & Agent Strategy Log (Turn 1882 Addendum)
-*   **Agent Path Reliability:** `map_analyzer_agent` paths can sometimes be invalid due to obstacles not explicitly in tile data (e.g., signs on 'ground' tiles, NPCs). If an agent-provided path fails, re-query the agent from the current, corrected position. Consider map sprite and background object lists when evaluating short paths near such objects.
-
+# Recent Battle EXP Log (For Reference Only - Game State is Truth)
+    *   Defeated Wild Metapod Lv6 (Turn 1910), got 61 EXP.
+    *   Defeated Wild Caterpie Lv4 (Turn 1918), got 30 EXP.
+    *   Defeated Wild Pidgey Lv7 (Turn 1931), got 55 EXP.
+    *   Defeated Wild Oddish Lv5 (Turn 1948), got 55 EXP.
     *   Defeated Wild Metapod Lv6 (Turn 1980), got 61 EXP.
+    *   Defeated Wild Kakuna Lv7 (Turn 1988), got 71 EXP.
+    *   Defeated Wild Pidgey Lv8 (Turn 1994), got 62 EXP.
+    *   Defeated Wild Kakuna Lv7 (Turn 2002), got 71 EXP.
 
     *   Defeated Wild Kakuna Lv7 (Turn 1988), got 71 EXP (Battle Log). SPARKY's HP: 28/39. SPARKY not poisoned.
 
