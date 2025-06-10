@@ -72,6 +72,7 @@
 
 # Battle Notes
 *   SPARKY learned TAIL WHIP, replacing GROWL at Lv11 (Turn 1004).
+*   Defeated by Bug Catcher (ID: VIRIDIANFOREST_YOUNGSTER5) at (17,18) in Viridian Forest after its Caterpie and Metapod. SPARKY fainted due to poison and accumulated damage, resulting in a blackout. Returned to Viridian City Pokemon Center. (Turn 1104)
 
 # Pewter City Prep
 *   Find out Brock's Ace level / level cap for Hard Mode.
