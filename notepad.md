@@ -66,7 +66,7 @@
     *   **Status:** Defined. High usage noted (69 uses - per critique). Agent does not account for game physics preventing upward ledge movement. MUST attempt more manual navigation. Review paths or use 'avoid_coordinates' when using. **Strategy Update:** When using `avoid_coordinates_json`, ensure it includes *all* known NPCs on `navigable: false` tiles in the relevant area to improve path viability.
 
 ## Future Agent Ideas
-*   **Item Use Advisor Agent:** To advise on using consumable stat boosters, Rare Candies, or evolution stones. (Attempting definition Turn 7381+)
+*   **Item Use Advisor Agent:** To advise on using consumable stat boosters, Rare Candies, or evolution stones. (Defined Turn 7383)
 
 # Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
