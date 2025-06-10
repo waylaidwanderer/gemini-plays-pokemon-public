@@ -175,3 +175,6 @@
 
 # EXP Tracking
 *   SPARKY's EXP is 1728 (Game State, Turn 1914). Previous battle log (Turn 1910 vs Metapod Lv6) indicated +61 EXP, but Game State did not reflect this increase. Will monitor EXP gain carefully.
+
+# EXP Tracking (Post-Caterpie Turn 1920)
+* SPARKY defeated Caterpie Lv4, gained 30 EXP. Current total: 1728 (GS) + 30 = 1758 EXP. (Game state still shows 1728 in party list, discrepancy noted).
