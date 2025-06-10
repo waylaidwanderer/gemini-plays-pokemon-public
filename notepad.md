@@ -121,3 +121,6 @@
 
 # Warp Solutions & Discoveries
 *   **Route 2 North Gate Warp (4,12) to Viridian Forest North Gate (SOLVED - Turn 3001):** This warp is triggered by being on the warp tile (4,12) and pressing DOWN, moving towards the impassable tile (4,13). This works even if Pikachu is on the tile (4,11) above the warp. The standard 'move into gate' (upwards) fails when Pikachu occupies (4,11) due to (4,11) being 'ground' and causing a swap.
+
+# Battle Mechanics & Observations
+*   **Lead Pokémon Anomaly (ROM Hack):** Observed that even if a Pokémon is in the first party slot, the game may send out a different Pokémon (e.g., SPBARKY instead of SPROUT) at the start of a wild battle. Requires manual switching to intended lead. (Observed Turn 3020, Viridian Forest)
