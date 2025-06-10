@@ -120,3 +120,5 @@
 *   **CRITICAL: Electric attacks are HARMLESS to Brock's Ground-type POKéMON.**
 *   SPARKY's Thundershock and Thunder Wave will be useless. Must rely on Quick Attack and Tail Whip.
 *   Need to find Brock's Ace level for the level cap.
+
+*   Defeated Cool Trainer M (PEWTERGYM_COOLTRAINER_M) at (4,7) in Pewter Gym. Money remained ¥212.
