@@ -95,3 +95,7 @@
 # Future Agent Ideas (To be integrated into '# Agent Development & Pathing Strategy' later)
 - Consider creating a 'Move Learning Advisor' agent to suggest optimal moves to learn/forget based on current moveset, upcoming challenges, and available TMs/HMs.
 - Consider creating a 'Pikachu Interaction Optimizer' agent to specifically handle pathing when Pikachu is an obstacle or to predict its dialogue triggers that might force player movement.
+
+# Future Agent Ideas (To be integrated into '# Agent Development & Pathing Strategy' later)
+- Consider creating a 'Move Learning Advisor' agent to suggest optimal moves to learn/forget based on current moveset, upcoming challenges, and available TMs/HMs.
+- Consider creating a 'Pikachu Interaction Optimizer' agent to specifically handle pathing when Pikachu is an obstacle or to predict its dialogue triggers that might force player movement.
