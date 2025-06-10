@@ -48,3 +48,6 @@
 *   `city_navigator_agent`: For pathfinding within cities, prioritizing key locations like Pokecenters, PokeMarts, and Gyms.
 *   `item_finder_agent`: To scan map data for item balls and assist in pathing to them.
 *   `npc_interaction_planner_agent`: Helps plan moves to correctly position for NPC interaction (adjacent and facing).
+
+# Map Discoveries
+*   **Pallet Town:** There's a reachable, undiscovered map connection to the south at (4,18) or (3,18). Worth investigating later.
