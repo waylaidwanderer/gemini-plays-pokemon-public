@@ -52,17 +52,6 @@
 *   Pewter City PC: Far right (east side) of Pokecenter.
 *   'SOMEONE's PC' (Pokémon Storage), 'Gem's PC' (Item Storage).
 
-# Agent Development & Usage
-*   **Current Agents (10/10):** `level_up_move_advisor_agent`, `next_battle_action_advisor_agent`, `exploration_prioritizer_agent`, `tm_learning_advisor_agent`, `objective_validator_agent`, `dungeon_navigator_agent`, `item_use_advisor_agent`, `trainer_data_logger_agent`, `gym_leader_strategist_agent`, `escape_route_planner_agent`.
-*   **Reduce Reliance (Strict Enforcement):**
-    *   `dungeon_navigator_agent`: USE SPARINGLY. Manual pathfinding is the default. Only use for exceptionally complex, multi-segment paths where manual planning is genuinely difficult or error-prone.
-    *   `next_battle_action_advisor_agent`: MINIMAL USE. Limit to Gym Leader/Rival battles or exceptionally novel/complex trainer encounters. Make independent decisions for all wild battles and most trainer battles.
-*   **Evaluate Low-Usage Agents:** Continue to assess `item_use_advisor_agent` & `tm_learning_advisor_agent`. Delete if slot needed for a more impactful agent.
-*   **Agent Functionality & Prompts:**
-    *   `exploration_prioritizer_agent`: Review prompt to ensure it correctly prioritizes `game_state_reachable_unseen_tiles_json`.
-    *   `gym_leader_strategist_agent`: Utilize before Misty.
-    *   `objective_validator_agent`: Use to validate tile navigability for `navigation_goal_coordinate` before setting.
-
 # Completed Objectives & Discoveries
 *   Defeated Brock, Boulder Badge.
 *   Explored Route 3, Mt. Moon 1F/B1F/B2F segments.
