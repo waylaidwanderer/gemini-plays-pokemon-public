@@ -107,3 +107,6 @@ Previous attempts to find the B1F(22,18) warp or an exit from the current B1F/B2
 *   **1x1 Warps:** Step off and back on if activation is tricky (consider Pikachu).
 *   **EXP at Level Cap:** Pokémon at cap (e.g., BELLA Lv21) gain NO EXP, despite message.
 *   Prioritize healing if party critical. Trust game state `reachable: no`.
+
+# Key Learnings & Rules (Continued)
+*   AI Critique Learnings (Turn 9256): Be more methodical in navigating segmented dungeons. Rigorously cross-reference warp coordinates with destinations/entry points from Game State Info before committing to a path. Disengage from non-progressive NPC dialogue loops sooner. Use `exploration_prioritizer_agent` and `objective_validator_agent` more proactively when uncertain or validating targets.
