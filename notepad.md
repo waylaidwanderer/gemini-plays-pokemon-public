@@ -172,8 +172,6 @@
 *   **Agent Usage - `pathing_script_analyzer_agent` (CRITICAL REITERATION):** Fixing the `run_code` pathing script via `pathing_script_analyzer_agent` remains a top non-combat priority. Deferring this further is detrimental.
 *   **EXP Note Cleanup:** The tertiary goal to clean up EXP notes is important for notepad clarity.
 
-    *   Defeated Wild Weedle Lv4 (Turn 2245), gained 29 EXP. SPARKY's HP: 38/39. Not poisoned. (Game State EXP before battle: 1728. Current calculated EXP: 1757 / 2197 for Lv13).
-
 ### Current Grinding Session (Viridian Forest - For Brock) - EXP Tracking (Turn 2257)
 *   **EXP Goal:** SPARKY Lv12 -> Lv14 (Target Total EXP for Lv14: 2744)
 *   **Baseline EXP (GameState T2206 - last reliable check):** 1728
