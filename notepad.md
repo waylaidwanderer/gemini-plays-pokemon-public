@@ -166,3 +166,9 @@
 *   **New Agent Ideas (To Be Implemented/Tested):**
     *   `Pokedex_Completer_Agent`: Suggests targets for Pokedex completion. (Defined)
     *   `Team_Builder_Agent`: Suggests ideal team compositions for major challenges. (Defined)
+
+# Reflection & Agent Strategy Log (Turn 1882 Addendum)
+*   **Agent Path Reliability:** `map_analyzer_agent` paths can sometimes be invalid due to obstacles not explicitly in tile data (e.g., signs on 'ground' tiles, NPCs). If an agent-provided path fails, re-query the agent from the current, corrected position. Consider map sprite and background object lists when evaluating short paths near such objects.
+
+# New Agent Ideas (Post-Reflection Turn 1882)
+*   `Boss_Battle_Recorder_Agent`: After a failed boss attempt, feed it battle log details and my strategy to analyze what went wrong or what the opponent did unexpectedly. (Consider for later)
