@@ -43,7 +43,6 @@
 *   **Status:** System prompt updated to better handle ledges. It now instructs the agent to suggest alternative approaches if direct paths are blocked by upward ledges and to remind the player to validate ledge traversal. Player must still critically evaluate paths for ledge issues.
 
 # Future Agent Ideas (To Be Implemented or Discarded)
-*   `map_analyzer_agent`: General purpose agent to query map XML for information like specific building locations or unvisited warps. (Priority: Define next)
 *   `city_navigator_agent`: For pathfinding within cities, prioritizing key locations like Pokecenters, PokeMarts, and Gyms. (Lower priority)
 *   `item_finder_agent`: To scan map data for item balls and assist in pathing to them. (Lower priority)
 *   `npc_interaction_planner_agent`: Helps plan moves to correctly position for NPC interaction (adjacent and facing). (Lower priority)
