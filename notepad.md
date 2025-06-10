@@ -194,3 +194,18 @@
     *   Defeated Wild Weedle Lv4 (Turn 2238), gained 29 EXP. SPARKY's HP: 38/39. Not poisoned. (Game State EXP before battle: 1728. Current calculated EXP: 1757 / 2197 for Lv13).
 
     *   Defeated Wild Weedle Lv4 (Turn 2245), gained 29 EXP. SPARKY's HP: 38/39. Not poisoned. (Game State EXP before battle: 1728. Current calculated EXP: 1757 / 2197 for Lv13).
+
+### Current Grinding Session (Viridian Forest - For Brock) - EXP Tracking (Turn 2257)
+*   **EXP Goal:** SPARKY Lv12 -> Lv14 (Target Total EXP for Lv14: 2744)
+*   **Baseline EXP (GameState T2206 - last reliable check):** 1728
+*   **Current Calculated EXP (Turn 2257):** 1847
+    *   Calculation: 1728 (Baseline) + 29 (Weedle T2238) + 29 (Weedle T2245) + 61 (Metapod T2257) = 1847
+*   **EXP to Lv13 (2197 total):** 350 EXP needed.
+*   **EXP to Lv14 (2744 total):** 897 EXP needed.
+*   **Battle Log (This Session - since Baseline EXP 1728):
+    *   Defeated Wild Weedle Lv4 (Turn 2238), gained 29 EXP.
+    *   Defeated Wild Weedle Lv4 (Turn 2245), gained 29 EXP.
+    *   Defeated Wild Metapod Lv6 (Turn 2257), gained 61 EXP. SPARKY's HP: 38/39. Quick Attack PP: 1.
+*   **Note on EXP Tracking:** GameState party screen EXP (currently 1728) is the baseline. All EXP gained since that baseline is added manually. If the GameState EXP updates (e.g., after leveling up or checking party menu), that new value becomes the baseline. This section logs battles for the *current grinding session*.
+
+(This new section should be placed logically, perhaps under '# Battle Notes' or as a new major heading for clarity. For now, appending will add it to the end, and I can reorganize later if needed. The key is to have the correct info available immediately.)
