@@ -20,7 +20,7 @@
 *   TOWN MAP x1
 
 # Current Location
-*   **Current Location:** Mt Moon (ID: 59) at (25,18)
+*   **Current Location:** Mt Moon B1F (ID: 60) at (14,28)
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
