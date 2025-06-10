@@ -93,10 +93,8 @@
 *   Hiker (ID 1) at (6,8) - Defeated.
 *   Youngster (ID 7) at (31,28) - Non-battling (gives dialogue: "This cave leads to CERULEAN CITY!"). His tile (31,28) is `navigable: false` due to NPC presence. The exit to Cerulean City is likely adjacent to him, e.g., (32,28).
 ## Mt. Moon B2F Trainers
-*   Rocket Grunt (ID 3) at (16,23) - Defeated.
-*   Super Nerd (ID 4) at (30,12) - Not a battle. Requests a Fossil.
-*   Rocket Grunt (ID 5) at (30,18) - Undefeated (was unreachable).
-*   Rocket Grunt (ID 3, again, likely a different instance or respawn due to map layout - this one was at (16,23) after taking warp from B1F (14,28) to B2F (16,28) and moving to (16,24) to battle) - Defeated.
+*   Super Nerd (ID 4, sprite MTMOONB2F_ROCKET2) at (30,12) - Not a battle. Requests a Fossil. (Corrected entry)
+*   Rocket Grunt (ID 5, sprite MTMOONB2F_ROCKET3) at (30,18) - Undefeated (was unreachable).
 ## Route 4 (Before Mt. Moon) Trainers
 *   Cool Trainer F (ID 1) at (10,9) - **UNENGAGEABLE / NOT DEFEATED.** Abandoned attempts to battle. (Player choice to avoid unnecessary battle and prevent looping on lower ledges).
 
