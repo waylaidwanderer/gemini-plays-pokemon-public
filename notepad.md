@@ -63,7 +63,7 @@
     *   **Action:** Reduce reliance on `dungeon_navigator_agent` (45 uses) and `next_battle_action_advisor_agent` (18 uses). Attempt manual navigation/battle decisions first.
     *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use) if not used more consistently soon.
 *   **`dungeon_navigator_agent` (USE WITH CAUTION):**
-    *   **Status:** Defined. High usage noted (53 uses). Agent does not account for game physics preventing upward ledge movement. Attempt more manual navigation. Review paths or use 'avoid_coordinates' when using. **Strategy Update:** When using `avoid_coordinates_json`, ensure it includes *all* known NPCs on `navigable: false` tiles in the relevant area to improve path viability.
+    *   **Status:** Defined. High usage noted (54 uses). Agent does not account for game physics preventing upward ledge movement (confirmed again turn 7105 path to (19,6) which started with Up, Up to ledge (16,8)). Attempt more manual navigation. Review paths or use 'avoid_coordinates' when using. **Strategy Update:** When using `avoid_coordinates_json`, ensure it includes *all* known NPCs on `navigable: false` tiles in the relevant area to improve path viability.
 
 # Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
