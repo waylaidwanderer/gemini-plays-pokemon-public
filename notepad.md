@@ -58,7 +58,7 @@
     *   **Status:** Defined. Works as expected.
 *   **`team_composition_advisor_agent` (Low Priority - Tested):**
     *   **Status:** Defined. Works as expected.
-*   **Agent Usage Review (9/10 agents defined):**
+*   **Agent Usage Review (10/10 agents defined):**
     *   `hm_advisor_agent` (0 uses) - Deleted.
     *   `encounter_optimizer_agent` (1 use) - Deleted to make space for `item_use_advisor_agent`.
     *   `dungeon_navigator_agent` (69 uses): Reduce reliance. Prioritize manual navigation.
