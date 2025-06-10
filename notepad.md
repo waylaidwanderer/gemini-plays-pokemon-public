@@ -178,3 +178,11 @@
 *   Current EXP Status (Turn 2159 - appended due to edit errors) for Leveling Plan for Brock: SPARKY (Lv12) has 1758 EXP (calculated: 1728 GameState EXP at start of last battle + 30 from Caterpie). Needs 439 EXP for Lv13 (2197 total), and 986 EXP for Lv14 (2744 total).
 
 *   Current EXP Status (Turn 2159 - appended due to edit errors) for Leveling Plan for Brock: SPARKY (Lv12) has 1758 EXP (calculated: 1728 GameState EXP at start of last battle + 30 from Caterpie). Needs 439 EXP for Lv13 (2197 total), and 986 EXP for Lv14 (2744 total).
+
+# New Discoveries & Reminders (Post-Critique Turn 2198)
+*   **Thunder Wave Failure:** THUNDER WAVE failed against a Lv8 Pidgey in Viridian Forest (Turn 2187). This could indicate Pidgey line has a Ground subtype in this ROM hack, or a specific immunity. Needs further investigation if encountered again. Mark Pidgey as potentially immune to Electric status moves.
+*   **System Input Warnings:** Consistently receiving 'mixed buttons' and 'few steps moved' warnings. Must be extremely careful to only send directional inputs in multi-step sequences and ensure long enough movement sequences when grinding/exploring to avoid these. This is impacting efficiency.
+*   **Agent Usage - `direct_pathing_agent`:** Consider using the `direct_pathing_agent` for very simple, short-distance navigation if manual input continues to trigger warnings or if the main pathing script remains unusable.
+*   **Agent Usage - Testing Priority:** High priority to test newly defined/updated agents at the next safe opportunity: `pokedex_completer_agent`, `team_builder_agent`, `direct_pathing_agent`, `rom_hack_mechanic_investigator_agent`. Their utility is unknown until tested.
+*   **Agent Usage - `pathing_script_analyzer_agent` (CRITICAL REITERATION):** Fixing the `run_code` pathing script via `pathing_script_analyzer_agent` remains a top non-combat priority. Deferring this further is detrimental.
+*   **EXP Note Cleanup:** The tertiary goal to clean up EXP notes is important for notepad clarity.
