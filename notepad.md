@@ -106,7 +106,7 @@
 *   Hiker (ID 1) at (Mt Moon 1F, 6,8) - Defeated.
 *   Youngster (ID 7) at (Mt Moon 1F, 31,28) - Non-battling (gives dialogue: "This cave leads to CERULEAN CITY!").
 ## Mt. Moon B2F Trainers
-*   Super Nerd (ID 4, sprite MTMOONB2F_ROCKET2) at (Mt Moon B2F, 30,12) - Not a battle. Requests a Fossil. ("If you find a fossil, give it to me and scram!")
+*   Super Nerd (ID 4, sprite MTMOONB2F_ROCKET2) at (Mt Moon B2F, 30,12) - **POTENTIAL BATTLE**. Previously non-battling, but is a Rocket sprite blocking a path. Requests a Fossil. ("If you find a fossil, give it to me and scram!"). Re-test for battle trigger by attempting to walk onto his tile.
 *   Rocket Grunt (ID 5, sprite MTMOONB2F_ROCKET3) at (Mt Moon B2F, 30,18) - Undefeated (was unreachable, blocked by Super Nerd).
 *   Rocket Grunt (ID 3) at (Mt Moon B2F, 16,23) - Defeated. ("Darn it all! My associates won't stand for this!")
 ## Route 4 (Before Mt. Moon) Trainers
