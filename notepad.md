@@ -1,13 +1,14 @@
 # Current Objectives
-*   **Primary Goal:** Deliver OAK'S PARCEL to Professor Oak in Pallet Town.
-*   **Secondary Goal:** Find the Viridian City Gym.
-*   **Tertiary Goal:** Explore remaining unseen areas of Viridian City and its buildings.
+*   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
+*   **Secondary Goal:** Travel to Pewter City via Route 2 and Viridian Forest.
+*   **Tertiary Goal:** Catch new Pokémon species encountered on Route 2 and in Viridian Forest to progress the Pokédex.
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
 *   **Pikachu Following:** After the first rival battle, Oak mentions Pikachu dislikes Poké Balls. SPARKY will then follow.
-*   **Town Map:** Obtained by interacting with the map object on the table in Rival's House.
-*   **Oak's Parcel:** Obtained from the Viridian City PokeMart clerk.
+*   **Town Map:** Rival SPB mentioned he'd get one from his sister and tell her not to lend one to me. I should check Rival's house in Pallet Town for a Town Map.
+*   **Oak's Parcel:** Obtained from the Viridian City PokeMart clerk. Delivered to Professor Oak.
+*   **Pokédex:** Obtained from Professor Oak after delivering the parcel. Mission is to complete it.
 
 # Lessons Learned
 *   **Ledge Mechanics (CRITICAL - REVISED & REINFORCED):**
@@ -35,14 +36,15 @@
 
 # General Ledge Navigation Principles
 *   **Problem:** Ledges block upward movement.
-*   **Strategy:** To bypass upward ledges, you MUST find a path AROUND them. This often means going significantly south/west/east of the ledges, then using clear ground corridors or specific patches (like grass if it allows passage) to ascend to a higher elevation. Once above the problematic ledges, navigate laterally and then descend ledges as needed to reach the target area. Always verify ledge properties in map memory and visually inspect the screen.
+*   **Strategy:** To bypass upward ledges, you MUST find a path AROUND them. This often means going significantly south/west/east of the ledges, then using clear ground corridors or specific patches (like grass if it allows passage) to ascend to a higher elevation. Once above the problematic ledges, navigate laterally and then descend ledges as needed to reach the target area. Always verify ledge properties in map memory and visually inspect the screen. Critically evaluate agent-provided paths for ledge issues.
 
 # Agent Development Pipeline
 
-## Agent Update Status: `exploration_planner`
-*   **Status:** System prompt updated to better handle ledges. It now instructs the agent to suggest alternative approaches if direct paths are blocked by upward ledges and to remind the player to validate ledge traversal. Player must still critically evaluate paths for ledge issues.
+## Active Agents
+*   `exploration_planner`: Analyzes map XML and reachable unseen tiles for efficient exploration. Player must critically evaluate paths for ledge issues.
+*   `map_analyzer_agent`: Analyzes map XML to answer specific questions. (Untested)
 
-# Future Agent Ideas (To Be Implemented or Discarded)
-*   `city_navigator_agent`: For pathfinding within cities, prioritizing key locations like Pokecenters, PokeMarts, and Gyms. (Lower priority)
-*   `item_finder_agent`: To scan map data for item balls and assist in pathing to them. (Lower priority)
-*   `npc_interaction_planner_agent`: Helps plan moves to correctly position for NPC interaction (adjacent and facing). (Lower priority)
+# Future Agent Ideas (To Be Implemented or Discarded - Lower Priority)
+*   `city_navigator_agent`: For pathfinding within cities, prioritizing key locations like Pokecenters, PokeMarts, and Gyms.
+*   `item_finder_agent`: To scan map data for item balls and assist in pathing to them.
+*   `npc_interaction_planner_agent`: Helps plan moves to correctly position for NPC interaction (adjacent and facing).
