@@ -134,11 +134,12 @@
     5.  (31,8)  -> (31,16) (8 steps: Down x8).
     6.  (31,16) -> (26,16) (5 steps: Left x5). [Enter Warp]
 
-**Phase 2: Mt. Moon B1F (Eastern Segment) to Eastern 1F Segment**
-*   Arrive at Mt. Moon B1F (26,16) (from 1F warp at (26,16), entry_point 4).
-*   Target Warp: (26,10) on Mt. Moon B1F (leads to 1F eastern segment, entry_point 2).
-*   Path from B1F (26,16) to B1F (26,10):
-    1.  (26,16) -> (26,10) (6 steps: Up x6). [Enter Warp]
+**Phase 2: Mt. Moon B1F (Eastern Segment) - REVISED**
+*   Arrived at Mt. Moon B1F (26,16) (from 1F warp at (26,16), entry_point 5).
+*   **Problem:** The planned target warp at B1F (26,10) is `reachable: no` according to game state. Phase 2 of original plan is invalid.
+*   **Revised Plan:** Return to Mt. Moon 1F via the warp at B1F (26,16).
+    1.  Step off current warp (26,16) B1F, then step back on to use it. This will return player to Mt. Moon 1F at (26,16).
+    2.  Re-evaluate exit strategy from Mt. Moon 1F (26,16).
 
 **Phase 3: Mt. Moon 1F (Eastern Segment) to Route 4 Exit**
 *   Arrive at Mt. Moon 1F (from B1F warp at (26,10), entry_point 2 - specific arrival coordinates to be determined upon arrival).
