@@ -101,3 +101,12 @@
 *   **Pewter City Pokecenter Warp (CRITICAL - Turn 2800 Reflection):** The Pokecenter entrance warp is at (14,26). When exiting the Pokecenter to (14,27) or (15,27) and intending to move north, *always* move horizontally to at least column 16 (e.g., (16,27)) before proceeding north. This avoids accidentally re-entering the warp at (14,26) or hitting the impassable sign at (15,26).
 
 *   **`direct_pathing_agent` Issues (Pikachu on Target - CRITICAL):** The `direct_pathing_agent` (which does not use `run_code`) has repeatedly shown critical issues when Pikachu is on the target tile. It often *only turns the player* instead of executing the full two-step move (turn then step) required to step onto Pikachu's tile. It is unreliable for this specific scenario. Manual input with a one-action-per-turn approach is strongly preferred for such delicate maneuvers, or the agent needs significant overhaul. Do not rely on it for pathing to a tile occupied by Pikachu until fixed.
+
+# Lessons Learned (Post-Warp Loop Reflection - Turn 2929)
+*   **Tricky Warp Navigation (CRITICAL):** When a warp tile can act as both an entrance and an immediate exit (especially if follower Pokémon are involved or near the warp):
+    1.  Adopt a strict **one-action-per-turn** approach for the final warp entry steps.
+    2.  Example sequence: 
+        a. Move onto the warp tile, potentially facing away from the warp direction.
+        b. Next turn: Turn to face the warp direction (single directional press).
+        c. Next turn: Press the single directional button to enter the warp.
+    3.  **CRUCIAL:** Upon arrival in the new map, the *very next action* MUST be to move **one step away** from the arrival warp tile to prevent accidental re-entry if subsequent button presses from a previous multi-step plan were to be processed.
