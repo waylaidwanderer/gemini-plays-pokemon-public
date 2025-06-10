@@ -20,7 +20,7 @@
 *   TOWN MAP x1
 
 # Current Location
-*   Pewter City (ID: 2) at (19,23)
+*   Mt. Moon 1F (ID: 59) at (38,16)
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
