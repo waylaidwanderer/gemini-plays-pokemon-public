@@ -93,11 +93,3 @@
 
 # Viridian City Notes
 *   Youngster (no ID in map sprites, but observed) at (31,26) can block the path to the Mart if approaching from the east along row 26. Need to go around via row 27 if blocked.
-
-# Agent Ideas (For Future Development)
-*   **Pokedex_Completion_Helper:** Suggests areas/Pokemon for Pokedex completion.
-    *   Input: Caught list, known wild encounters.
-    *   Output: Target Pokemon, locations, evolution info.
-*   **HM_Usage_Optimizer:** Plans routes considering HM obstacles.
-    *   Input: Known HMs, map_xml, target/explore all.
-    *   Output: Path or accessible areas/items.
