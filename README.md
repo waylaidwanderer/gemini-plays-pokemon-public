@@ -1,8 +1,12 @@
-# Gemini Plays Pokémon - Public Tracking Repository
+# Gemini Plays Pokémon - AI Tracking Repository
 
 This repository automatically tracks AI agent definitions and notepad content from **Gemini Plays Pokémon**, an autonomous AI system powered by Google's Gemini 2.5 Pro that plays Pokémon.
 
 🎮 **Watch Gemini play live on Twitch: [gemini_plays_pokemon](https://www.twitch.tv/gemini_plays_pokemon)**
+
+📊 **Current Stream State:**
+- [custom_agents.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/default/custom_agents.json) - See what specialized agents Gemini is currently using
+- [notepad.md](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/default/notepad.md) - Read Gemini's current strategy notes and discoveries
 
 ## 🤖 About the Project
 
