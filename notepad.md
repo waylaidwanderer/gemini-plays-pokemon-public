@@ -154,3 +154,19 @@
     *   Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) - Previously non-battling. Re-check dialogue.
     *   Super Nerd (PEWTERCITY_SUPER_NERD2) at (27,26) - Game state and map XML confirm unreachable.
 *   **Notes:** Explore unseen tiles in Pewter City while moving between trainers.
+
+# Reflection & Agent Strategy Log (Turn 1830)
+*   **Key Reflection Points:**
+    *   Wasted significant time attempting to battle non-battling NPCs in Pewter City. Need to trust direct interaction results sooner.
+    *   Over-reliance on `leveling_training_advisor_agent` without cross-verification of its suggestions against my own findings was a mistake.
+    *   Fixing the `run_code` pathing script using `pathing_script_analyzer_agent` remains a high priority and has been neglected.
+    *   Should have considered grinding wild Pokémon in Viridian Forest sooner after the first Brock blackout.
+    *   Tertiary goals should be outcome-focused, not method-focused.
+*   **Agent Strategy Adjustments:**
+    *   **`leveling_training_advisor_agent`**: Needs prompt/schema update to use verified trainer data and be more cautious with 'unknown' battlability status.
+    *   Prioritize using `pathing_script_analyzer_agent` at the next safe opportunity (e.g., Pokémon Center).
+*   **New Agent Ideas:**
+    *   `Pokedex_Completer_Agent`: Suggests targets for Pokedex completion.
+    *   `HM_Usage_Optimizer_Agent`: Helps assign HMs optimally.
+    *   `Money_Management_Agent`: Tracks spending and suggests purchases.
+    *   `Team_Builder_Agent`: Suggests ideal team compositions for major challenges.
