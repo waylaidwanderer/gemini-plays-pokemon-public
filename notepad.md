@@ -160,3 +160,7 @@
     *   Defeated Wild Metapod Lv6 (Turn 1980), got 61 EXP.
 
     *   Defeated Wild Kakuna Lv7 (Turn 1988), got 71 EXP (Battle Log). SPARKY's HP: 28/39. SPARKY not poisoned.
+
+*   **Future Agent Testing/Development:**
+    *   Test `pokedex_completer_agent` and `team_builder_agent` to assess their utility when appropriate (e.g., before major Pokedex hunting sessions or team reshuffles for Gyms).
+    *   Consider developing a `direct_pathing_agent` focused on simple, direct A-to-B movement if the main `run_code` script proves too difficult to fix quickly. This could serve as a more reliable short-term navigation aid for straightforward paths.
