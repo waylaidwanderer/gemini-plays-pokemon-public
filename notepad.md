@@ -58,7 +58,7 @@
     *   **Status:** Defined. Works as expected.
 *   **`team_composition_advisor_agent` (Low Priority - Tested):**
     *   **Status:** Defined. Works as expected.
-*   **Agent Usage Review (8/10 agents):**
+*   **Agent Usage Review (9/10 agents defined):**
     *   `hm_advisor_agent` deleted (0 uses).
     *   **Action:** Reduce reliance on `dungeon_navigator_agent` (45 uses) and `next_battle_action_advisor_agent` (18 uses). Attempt manual navigation/battle decisions first.
     *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use) if not used more consistently soon.
