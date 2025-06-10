@@ -100,3 +100,5 @@
 
 # Pathing Script To-Do
 *   **CRITICAL:** Fix the `run_code` pathing script using `pathing_script_analyzer_agent` at the *next* Pokémon Center visit. Do not defer this again.
+
+*   **Pewter City Pokecenter Warp (CRITICAL - Turn 2800 Reflection):** The Pokecenter entrance warp is at (14,26). When exiting the Pokecenter to (14,27) or (15,27) and intending to move north, *always* move horizontally to at least column 16 (e.g., (16,27)) before proceeding north. This avoids accidentally re-entering the warp at (14,26) or hitting the impassable sign at (15,26).
