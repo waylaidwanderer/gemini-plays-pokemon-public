@@ -116,3 +116,6 @@
 
 # Battle Mechanics & Observations
 *   **Lead Pokémon Anomaly (ROM Hack):** Observed that even if a Pokémon is in the first party slot, the game may send out a different Pokémon (e.g., SPBARKY instead of SPROUT) at the start of a wild battle. Requires manual switching to intended lead. (Observed Turn 3020, Viridian Forest)
+
+# Map Obstacles & Trainer Behavior
+*   Youngster (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest, despite being defeated, continues to block the path south with dialogue "I'm looking for my stuff! Don't bother me!". This prevents access to the area directly south of him.
