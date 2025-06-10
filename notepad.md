@@ -141,9 +141,10 @@
     1.  Step off current warp (26,16) B1F, then step back on to use it. This will return player to Mt. Moon 1F at (26,16).
     2.  Re-evaluate exit strategy from Mt. Moon 1F (26,16).
 
-**Phase 3: Mt. Moon 1F (Eastern Segment) to Route 4 Exit**
-*   Arrive at Mt. Moon 1F (from B1F warp at (26,10), entry_point 2 - specific arrival coordinates to be determined upon arrival).
+**Phase 3: Mt. Moon 1F (Eastern Segment - Current Location (26,16)) to Route 4 Exit**
+*   Current Location: (26,16) on Mt. Moon 1F (arrived from B1F warp at (26,16), which corresponds to Mt. Moon 1F warp entry_point 4).
 *   Target Warps (Exit to Route 4): (15,36) or (16,36) on Mt. Moon 1F.
-*   Navigate from arrival point to (15,36) or (16,36) and exit Mt. Moon.
+*   Path from (26,16) to (15,36) or (16,36): To be planned once off the current warp tile and after defining the escape agent. The immediate next step is to move off (26,16).
+*   RUN FROM ALL WILD ENCOUNTERS.
 
 **Contingency:** If any segment of this path is blocked by an obstacle not in map memory (but visible on annotated screen), re-evaluate only the blocked segment and find a local detour. Prioritize annotated screen for immediate obstacles.
