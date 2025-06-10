@@ -42,10 +42,15 @@
         *   Current 1F warp target: (6,6) leading to B1F (entry_point 1).
         *   Hypothesized B1F warp target (leading to southern B2F): (22,18) on B1F (entry_point 5 to B2F).
     3.  Once on the correct B1F segment, locate and use the warp to the southern B2F area.
-    4.  Navigate to Rocket Grunt (ID 5) at (Mt. Moon B2F, 30,18) and defeat him. This should grant a choice of fossil (Dome or Helix).
-    5.  After obtaining a fossil, navigate to Super Nerd (ID 4) at (Mt. Moon B2F, 30,12) (accessible via 1F warp (18,12) -> B1F (26,10) -> B2F (26,10)) and give him the chosen fossil.
-    6.  This action should open the path to the eastern Mt. Moon exit.
-    7.  **Immediate Plan:** Use the warp at (Mt. Moon 1F, 6,6) to explore a new segment of Mt. Moon B1F.
+    4.  Navigate to Rocket Grunt (ID 5) at (Mt. Moon B2F, 28,18) and defeat him. (Completed - Turn 8032).
+    5.  **Revised Hypothesis:** Defeating Rocket Grunt (ID 5) does NOT directly grant fossils or make them appear. The next step is to reach the Super Nerd (ID 4) at (Mt. Moon B2F, 30,12) in the *other* segment of B2F. This Super Nerd previously requested a fossil. Either defeating Rocket ID 5 triggered a change with Super Nerd ID 4, or Super Nerd ID 4 is the source of the fossils/choice.
+    6.  **Path to Super Nerd (ID 4):**
+        a.  From current B2F segment (Rocket ID 5 area), use warp at (22,18) to reach Mt. Moon B1F (entry point 5, arriving at B1F 22,18).
+        b.  On Mt. Moon B1F, navigate from (22,18) to the warp at (26,10).
+        c.  Use warp at B1F (26,10) to reach Mt. Moon B2F (entry point 2, arriving at B2F 26,10 - Super Nerd area).
+        d.  Navigate to Super Nerd (ID 4) at (30,12) and interact.
+    7.  If Super Nerd provides a fossil, this should open the path to the eastern Mt. Moon exit.
+    8.  **Immediate Plan:** Navigate to warp at (22,18) on current B2F map to begin transit to Super Nerd (ID 4).
 *   **Item Acquisition:** Key items like fossils, if pick-ups, will be visible item sprites on the map and listed in the `Map Sprites` section. Do not interact with empty ground tiles expecting items. If an NPC interaction is required, it will be noted.
 
 ## Battle Strategy
