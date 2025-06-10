@@ -133,3 +133,6 @@
 - Rocket Grunt (ID 3) at (Mt Moon B2F 16,23) - Defeated.
 
 *   Defeated trainers may sometimes remain as physical obstacles on their tile, even if their sprite data indicates `reachable: yes`. Their tile will remain `navigable: false` in map memory.
+
+*   Prioritize testing `item_use_advisor_agent`.
+*   Scrutinize `dungeon_navigator_agent` paths, especially near warps, and verify segments manually.
