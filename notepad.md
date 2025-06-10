@@ -85,7 +85,7 @@
 *   Youngster (ID 3) at (15,5) - Defeated.
 *   Cool Trainer F (ID 4) at (17,10) - Defeated.
 *   Youngster (ID 5) at (20,6) - Defeated (Blocks path from east on row 6).
-*   Youngster (ID 7) at (23,10) - Assumed defeated or non-battling (repeated dialogue, no battle). Blocks path directly east on row 10.
+*   Youngster (ID 7) at (23,10) - Non-battling (repeated dialogue). His tile (23,10) is `navigable: false`, acting as a physical block, preventing eastward movement on row 10 from (22,10).
 *   Youngster (ID 8) at (25,7) - Defeated.
 *   Cool Trainer F (ID 9) at (34,11) - **UNDEFEATED**. Blocks path west on row 11.
 ## Mt. Moon 1F Trainers
