@@ -109,7 +109,7 @@
     *   Brunette Girl (ID 4) at (12,6): "I want a PIKACHU! It's so cute! I asked my Daddy to catch me one!"
     *   Hiker (ID 5) at (13,6): "I'd love to get that strong looking PIKACHU off you! Too bad it looks so attached. They've been hard to find lately!"
     *   Youngster (ID 1) at (8,8): On the warp tile to 1F.
-    *   Gramps (ID 2) at (1,6): Not yet spoken to.
+    *   Gramps (ID 2) at (1,6) on Museum 2F: Spoken to. Dialogue: "July 20, 1969! The 1st lunar landing! I bought a color TV to watch it!". All NPCs on Museum 2F now spoken to.
 *   Sign at (3,6) MUSEUM2F_MOON_STONE_SIGN is impassable.
 *   Sign at (12,3) MUSEUM2F_SPACE_SHUTTLE_SIGN.
 
