@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
 *   **Secondary Goal:** Level up SPARKY to Lv14.
-*   **Tertiary Goal:** Earn at least ¥64 more to afford one Potion (current: ¥136, Potion: ¥200).
+*   **Tertiary Goal:** Earn at least ¥104 to afford one Potion (current: ¥96, Potion: ¥200).
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
@@ -28,7 +28,7 @@
 *   **NPC Interaction (REVISED - Post Critique Turn 2600):** Interact with NPCs from the *adjacent navigable tile*. Do not attempt to move onto counter tiles. Re-confirm facing direction.
 *   **Map Verification (CRITICAL - Post Critique Turn 2600):** Meticulously check Map Memory for tile navigability along the *entire* planned path before committing to movement, especially for multi-step sequences.
 *   **Financial Planning (CRITICAL - Post Critique Turn 2600):** Verify item costs and available funds *before* traveling to a shop.
-*   **Shop Menu Interaction (NEW - Post Critique Turn 2600):** When interacting with shop menus, explore interface options more thoroughly (e.g., trying directional inputs on quantity displays) to avoid inefficient single-item purchases.
+*   **Shop Menu Interaction (REVISED - Post Critique Turn 2600):** When interacting with shop menus, explore interface options more thoroughly (e.g., trying directional inputs on quantity displays) to avoid inefficient single-item purchases.
 *   **Pathing Script Priority (CRITICAL - Post Critique Turn 2600):** Prioritize fixing the `run_code` pathing script using `pathing_script_analyzer_agent` at the *next* Pokémon Center visit. Do not defer.
 
 # Hard Mode Rules
@@ -50,19 +50,22 @@
 *   **Active Agents to Test/Utilize:** `exploration_planner`, `map_analyzer_agent`, `battle_strategist_agent`, `item_finder_agent`, `leveling_training_advisor_agent`, `pokedex_completer_agent`, `team_builder_agent`, `direct_pathing_agent`, `rom_hack_mechanic_investigator_agent`.
 *   **Pathing Script (`run_code`):** Fixing the `run_code` pathing script using `pathing_script_analyzer_agent` is a high-priority task for the next visit to a Pokémon Center. (Missed opportunity during last visit - prioritize next time).
 *   **Agent Management Timing:** Define, update, or test agents only when in a safe, non-time-sensitive location (e.g., Pokémon Center).
+*   **Future Agent Ideas:** Consider creating a 'Rebattlable Trainer Identifier' or 'Financial Planner' agent if future needs arise.
+*   **Agent Usage Reminder:** Be more proactive in using existing agents, especially `direct_pathing_agent` and `map_analyzer_agent` for navigation, `item_finder_agent` for exploration, and `battle_strategist_agent` for major battles.
 
 # Map Discoveries
 *   **Pallet Town:** Reachable, undiscovered map connection south at (4,18) or (3,18).
 *   **Viridian City:** The Old Man tutorial for catching Pokémon opens the path to Route 22 (West), NOT Route 2 (North).
 
 # Critical Route Information
-*   **Route 2 (NORTH of Viridian City):** Leads to Viridian Forest, then Pewter City (Brock). THIS IS THE CORRECT PATH.
+*   **Route 2 (NORTH of Viridian City):** Leads to Viridian Forest, then Pewter City (Brock). THIS IS THE CORRECT PATH for current objectives.
 *   **Route 22 (WEST of Viridian City):** Leads to the Pokemon League. THIS IS A DETOUR if aiming for Pewter City.
 
 # Inventory & Finances
 *   POKé BALL x3
-*   REPEL x6
-*   Money: ¥136
+*   REPEL x10
+*   Money: ¥96
+*   **Note:** Potions cost ¥200.
 
 # Battle Notes
 *   **EXP Tracking (Simplified):** Record GameState EXP at start of battle + EXP gained from battle.
