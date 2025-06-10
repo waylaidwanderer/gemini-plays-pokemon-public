@@ -57,7 +57,7 @@
 # Agent Development & Usage (Revised Turn 8054)
 *   **Current Agents (10/10):** `level_up_move_advisor_agent`, `next_battle_action_advisor_agent`, `exploration_prioritizer_agent`, `tm_learning_advisor_agent`, `rom_hack_mechanics_lookup_agent`, `dungeon_navigator_agent`, `team_composition_advisor_agent`, `item_use_advisor_agent`, `trainer_data_logger_agent`, `gym_leader_strategist_agent`.
 *   **High Usage Agents to Monitor & Reduce Reliance:**
-    *   `dungeon_navigator_agent` (91 uses): REDUCE RELIANCE. Prioritize manual navigation or segment/verify agent paths. Actively work on manual pathfinding.
+    *   `dungeon_navigator_agent` (94 uses): REDUCE RELIANCE. Prioritize manual navigation or segment/verify agent paths. Actively work on manual pathfinding.
     *   `next_battle_action_advisor_agent` (23 uses): Continue efforts for more manual battle decisions, especially for common wild Pokémon.
 *   **Agent Slot Management:** 10/10 agents defined. All slots are currently full.
 
