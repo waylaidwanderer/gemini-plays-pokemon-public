@@ -111,14 +111,6 @@
         c. Next turn: Press the single directional button to enter the warp.
     3.  **CRUCIAL:** Upon arrival in the new map, the *very next action* MUST be to move **one step away** from the arrival warp tile to prevent accidental re-entry if subsequent button presses from a previous multi-step plan were to be processed.
 
-# Current Warp Puzzle (Route 2 North Gate)
-*   Stuck in a loop at Route 2 (4,12) trying to enter Viridian Forest North Gate (warp leads 'up').
-*   Player on warp (4,12), Pikachu on (4,11). Both facing 'up' (towards warp direction).
-*   Pressing 'Up' (to move into boundary/Pikachu's tile) results in player and Pikachu swapping positions (Player to 4,11; Pikachu to 4,12). Warp does not trigger.
-*   Interacting with Pikachu ('A' button) had no effect.
-*   Tile (4,11) is 'ground (occupied by Pikachu)', not 'impassable'.
-*   Hypothesis: The standard 'move into boundary' for gatehouses is failing due to Pikachu occupying the target 'boundary' tile and causing a swap instead of warp activation. Need a new approach if the next attempt fails.
-
 # Warp Solutions & Discoveries
 *   **Route 2 North Gate Warp (4,12) to Viridian Forest North Gate (SOLVED - Turn 3001):** This warp is triggered by being on the warp tile (4,12) and pressing DOWN, moving towards the impassable tile (4,13). This works even if Pikachu is on the tile (4,11) above the warp. The standard 'move into gate' (upwards) fails when Pikachu occupies (4,11) due to (4,11) being 'ground' and causing a swap.
 
