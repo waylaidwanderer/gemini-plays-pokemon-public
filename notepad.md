@@ -132,3 +132,7 @@
 # Gameplay Reminders (Post-Reflection Turn 8367)
 *   **Reachable Unseen Tiles List:** Always use the *current* list from the Game State Information for exploration planning. This list is dynamic and can change frequently.
 *   **Navigation Goal Coordinates:** Ensure `navigation_goal_coordinates` are always confirmed `navigable: true` in the map XML or are part of the current 'Reachable Unseen Tiles' list from Game State to avoid pathing errors.
+
+# Future Agent Ideas (Brainstorming)
+*   **Boulder Puzzle Helper Agent:** Could analyze `map_xml_string` to identify boulder positions, switches, and barriers, then suggest optimal push sequences for Strength puzzles. Input: target switch/barrier. Output: sequence of boulder pushes.
+*   **Objective Validator Agent:** Given a player-defined objective (e.g., 'Reach Super Nerd at X,Y'), it would check `map_xml_string` and game state to confirm if the target is currently `reachable: yes` or if its tile is `navigable: true`. Could help prevent pathing to currently impossible targets. Input: target description/coordinates. Output: validation (true/false), reason if false.
