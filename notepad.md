@@ -157,7 +157,7 @@
 
 # EXP Tracking (CORRECTED - Game State is Source of Truth)
 *   SPARKY (PIKACHU) - Lv12
-*   Current EXP (Game State): 1783 (as of Turn 2090, after Pidgey battle)
+*   Current EXP (Game State): 1783 (as of Turn 2097, after Pidgey battle)
 *   EXP to Lv13: 2197 (Needs 2197 - 1783 = 414 more)
 *   EXP to Lv14 (CAP): 2744 (Needs 2744 - 1783 = 961 more)
 
