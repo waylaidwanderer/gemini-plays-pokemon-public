@@ -64,9 +64,7 @@
     *   `dungeon_navigator_agent` (69 uses): Reduce reliance. Prioritize manual navigation.
     *   `next_battle_action_advisor_agent` (19 uses): Reduce reliance. Attempt more manual battle decisions, especially for common wild Pokémon.
     *   `battle_strategy_agent` (3 uses): Re-evaluate utility. Consider for Gym Leaders. If usage remains low, consider deletion.
-    *   **Agent Slot Management:** With 9/10 agents defined, be mindful of the limit. Consider deleting less useful agents if new ones are needed.
-
-## Future Agent Ideas
+    *   **Agent Slot Management:** With 9/10 agents defined, be mindful of the limit. Consider deleting less useful agents if new ones are needed.## Future Agent Ideas
 *   **Item Use Advisor Agent:** To advise on using consumable stat boosters, Rare Candies, or evolution stones. (Defined Turn 7383)
 
 # Completed Objectives & Discoveries
