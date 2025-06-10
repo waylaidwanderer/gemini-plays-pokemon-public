@@ -156,6 +156,7 @@
 *   **Conclusion:** No trainer EXP in Pewter City. Viridian Forest is the sole grinding spot for now.
 
 # EXP Tracking (CORRECTED - Game State is Source of Truth)
+*   **CRITICAL CORRECTION:** The Game State Information's EXP value for Pokémon in the party screen IS THE ABSOLUTE SOURCE OF TRUTH. My previous assumption that this display 'lags' and that manual battle log tracking was 'more reliable' was INCORRECT. All EXP calculations and leveling goals must be based on the Game State's displayed EXP value at the start of a battle, with the EXP gained from that battle then added to it.
 *   SPARKY (PIKACHU) - Lv12
 *   Current EXP (Game State): 1783 (as of Turn 2097, after Pidgey battle)
 *   EXP to Lv13: 2197 (Needs 2197 - 1783 = 414 more)
@@ -170,10 +171,3 @@
 *   **System Warnings (Mixed Buttons):** I've been frequently receiving a 'System Warning: You tried to mix directional and action buttons in the same sequence.' This truncates my intended movement paths. I must be more careful to ensure `buttons_to_press` contains *only* directional buttons for multi-step movements. Interaction buttons (A, B) or 'tool' calls must be in separate turns.
 *   **Notepad Organization:** Added a 'Wild Encounters' sub-section under 'Battle Notes' for better clarity. Added an 'Inventory' sub-section under 'Viridian Forest Notes'.
 *   **Pathing Script:** Fixing the `run_code` pathing script using `pathing_script_analyzer_agent` remains a high-priority task for the next visit to a Pokémon Center or other safe, non-grinding location.
-
-# EXP Tracking (CORRECTED - Game State is Source of Truth)
-*   **CRITICAL CORRECTION:** The Game State Information's EXP value for Pokémon in the party screen IS THE ABSOLUTE SOURCE OF TRUTH. My previous assumption that this display 'lags' and that manual battle log tracking was 'more reliable' was INCORRECT. All EXP calculations and leveling goals must be based on the Game State's displayed EXP value at the start of a battle, with the EXP gained from that battle then added to it.
-*   SPARKY (PIKACHU) - Lv12
-*   Current EXP (Game State): 1783 (as of Turn 2090, after Pidgey battle)
-*   EXP to Lv13: 2197 (Needs 2197 - 1783 = 414 more)
-*   EXP to Lv14 (CAP): 2744 (Needs 2744 - 1783 = 961 more)
