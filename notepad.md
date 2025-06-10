@@ -17,7 +17,7 @@
 *   TM34 (BIDE) x1 - Evaluate for team.
 *   HP UP x1 - Used on ZAPPY.
 *   RARE CANDY x1 - Save for strategic use.
-*   MOON STONE x1 - Potential use on LUNA (Clefairy).
+*   MOON STONE x1 - Potential use on LUNA (Clefairy) or NINA (Nidoran♀) after evolution to Nidorina for Nidoqueen.
 *   TOWN MAP x1
 
 # Current Goals
