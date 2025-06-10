@@ -52,9 +52,10 @@
 *   `pathing_script_analyzer_agent`: Analyzes pathing scripts. (**HIGHEST PRIORITY AFTER STABILIZING CURRENT SITUATION:** Use this agent to diagnose and fix the `run_code` pathing script. Do NOT use the `run_code` pathing script for anything beyond 1-2 manual steps until this analysis is complete and fixes are implemented.)
 ## Planned Agents
 *   `battle_strategist_agent`: To assist with Hard Mode boss fight planning. (Define after current critical issues are resolved and Viridian Forest is cleared, or if stuck on a major trainer.)
-## Pathing Script (`run_code`) Behavior (**CRITICAL - DO NOT USE UNTIL FIXED**)
+## Pathing Script (`run_code`) Behavior (**CRITICAL - DO NOT USE UNTIL FIXED - IMMEDIATE ACTION REQUIRED**)
 *   The `run_code` script for path generation is **FUNDAMENTALLY FLAWED** and **UNRELIABLE**.
-    *   **NEW STRATEGY (MANDATORY):** **DO NOT USE THIS SCRIPT for any path longer than 1-2 easily verifiable steps.** Prioritize **MANUAL NAVIGATION**. If stuck, use `map_analyzer_agent` to query for paths. The `pathing_script_analyzer_agent` *must* be used to analyze and fix the script before any further attempts at complex automated pathing. All agent development is secondary to ensuring SPARKY's safety and fixing this script.
+    *   **NEW STRATEGY (MANDATORY):** **DO NOT USE THIS SCRIPT for any path longer than 1-2 easily verifiable steps.** Prioritize **MANUAL NAVIGATION**. If stuck, use `map_analyzer_agent` to query for paths.
+    *   **IMMEDIATE NEXT STEP AFTER REACHING VIRIDIAN FOREST SOUTH GATE:** Use the `pathing_script_analyzer_agent` to diagnose and begin fixing the `run_code` pathing script. This is the **HIGHEST PRIORITY** after ensuring immediate safety and access to a stable location (like the gatehouse). All agent development is secondary to ensuring SPARKY's safety and fixing this script.
 
 # Map Discoveries
 *   **Pallet Town:** Reachable, undiscovered map connection south at (4,18) or (3,18).
