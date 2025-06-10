@@ -80,6 +80,7 @@
 # Pewter City Prep
 *   Find out Brock's Ace level / level cap for Hard Mode.
 *   Plan party composition/training for Brock.
+*   Test battle_strategist_agent and leveling_training_advisor_agent before challenging Brock.
 
 *   **Horizontal Ledge Movement (AI Critique):** The AI noted that assuming one can step horizontally onto a ledge from an adjacent ground tile at the same Y-level is generally a flawed assumption, even if specific map data shows `navigable="true"`. It's better to verify this on a case-by-case basis and be cautious about general ledge traversal rules.
 
