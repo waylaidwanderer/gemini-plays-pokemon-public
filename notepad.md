@@ -39,9 +39,9 @@
     2.  **Source:** The Super Nerd (ID 4, sprite MTMOONB2F_ROCKET2) at (Mt. Moon B2F, 30,12) guards the fossils. He must be *defeated* in battle. His dialogue ("If you find a fossil, give it to me and scram!") is a pre-battle taunt.
     3.  **Understanding Mt. Moon B2F Segmentation:** Mt. Moon B2F has multiple disconnected segments. The warp at B1F (22,18) leads to B2F entry_point 5, which is ISOLATED from the Super Nerd (ID 4).
     4.  **Corrected Path to Super Nerd (ID 4) on Mt. Moon B2F:**
-        a.  From the current B2F segment (entry_point 5), navigate to the warp at B2F (22,18). Use this warp to return to Mt. Moon B1F, arriving at B1F (22,18).
-        b.  On Mt. Moon B1F, navigate from (22,18) to the *correct* warp at B1F (26,10).
-        c.  Use the warp at Mt. Moon B1F (22,18). This warp leads to Mt. Moon B2F (entry_point 2), which is the Super Nerd's area. (Note: The warp at B1F (26,10) leads to Mt. Moon 1F, not B2F).
+        a.  From the previous B2F segment (entry_point 5), I navigated to the warp at B2F (22,18) and used it to return to Mt. Moon B1F, arriving at B1F (22,18).
+        b.  On Mt. Moon B1F, I am currently at the warp at (22,18). This warp leads to Mt. Moon B2F (entry_point 2), which is the Super Nerd's area (he is at B2F (30,12)). The arrival point on B2F from this warp will be (26,10).
+        c.  (Correction) The warp at B1F (26,10) leads to Mt. Moon 1F and is *not* the target for reaching the Super Nerd. The current warp at B1F (22,18) is the correct one to use.
         d.  Upon arrival on Mt. Moon B2F (at coordinates (26,10)), navigate to the Super Nerd (ID 4) at (30,12).
         e.  Battle and defeat the Super Nerd.
         f.  After defeating him, two Fossils (Dome/Helix) should appear as item balls nearby. Select one.
