@@ -45,15 +45,14 @@
 *   **Strategy:** To bypass upward ledges, find a path AROUND. Move away from the ledges (laterally or downwards) to find a clear corridor or grass patch allowing ascent *above* the problematic ledges. Then, navigate laterally above and descend as needed. Verify ledge properties in map memory and visually inspect. Critically evaluate agent-provided paths for ledge issues.
 *   **Agent Use for Ledges:** If manual pathing or `exploration_planner` struggles with complex verticality/blockages by ledges, consider using `map_analyzer_agent` to query for clear paths or alternative exits (e.g., 'Find a path from (X,Y) to (A,B) avoiding upward ledges').
 
-# Agent Development & Pathing Strategy (**REVISED POST-CRITIQUE & BLACKOUT**)
+# Agent Development & Pathing Strategy (**REVISED POST-CRITIQUE & BLACKOUT - FURTHER REVISED**)
 ## Active Agents
-*   `exploration_planner`: Analyzes map XML and reachable unseen tiles for efficient exploration. (Continue using, but break down long paths. Ensure Pikachu's health is stable before long explorations.)
-*   `map_analyzer_agent`: Analyzes map XML to answer specific questions. (Use proactively for navigation issues, pathfinding queries if stuck, or understanding blockages. Consider using for finding shorter paths if manual pathing seems convoluted.)
-*   `pathing_script_analyzer_agent`: Analyzes pathing scripts.
-*   `battle_strategist_agent`: Assists with Hard Mode boss fight planning. (Use for upcoming tough trainers or Gym Leaders.)
-*   `item_finder_agent`: Searches map for items. (Use to find remaining items in an area.)
-## Planned Agents
-*   Leveling/Training Advisor Agent: To suggest optimal grinding spots or strategies given party, level cap, and known areas/trainers. (Consider defining later if needed for Hard Mode progression.)
+*   `exploration_planner`: Analyzes map XML and reachable unseen tiles for efficient exploration. (Continue using, but break down long paths. Ensure Pikachu's health is stable before long explorations. Be cautious about the length of paths requested or followed without intermediate verification, especially in maze-like environments. Request paths to closer, intermediate waypoints or only execute a very small number of initial steps from a long path before re-evaluating.)
+*   `map_analyzer_agent`: Analyzes map XML to answer specific questions. (Use proactively for navigation issues, pathfinding queries if stuck, or understanding blockages. Consider using for finding shorter paths if manual pathing seems convoluted. When using for complex routes, request paths to closer, intermediate waypoints or only execute a very small number of initial steps from a long path before re-evaluating.)
+*   `pathing_script_analyzer_agent`: Analyzes pathing scripts. (Use to diagnose and begin fixing the `run_code` pathing script when at a Pokemon Center or safe location.)
+*   `battle_strategist_agent`: Assists with Hard Mode boss fight planning. (Use for upcoming tough trainers or Gym Leaders. Test this agent to assess its effectiveness.)
+*   `item_finder_agent`: Searches map for items. (Use to find remaining items in an area. Test this agent to assess its effectiveness.)
+*   `leveling_training_advisor_agent`: Advises on optimal grinding spots, Pokemon to train, and EV training strategies based on current party, level cap, known areas/trainers, and game mode (e.g., Hard Mode restrictions). (Use when preparing for gym leaders or if general leveling is needed. Test this agent to assess its effectiveness.)
 ## Pathing Script (`run_code`) Behavior (**CRITICAL - DO NOT USE UNTIL FIXED - IMMEDIATE ACTION REQUIRED**)
 *   The `run_code` script for path generation is **FUNDAMENTALLY FLAWED** and **UNRELIABLE**.
     *   **NEW STRATEGY (MANDATORY):** **DO NOT USE THIS SCRIPT for any path longer than 1-2 easily verifiable steps.** Prioritize **MANUAL NAVIGATION**. If stuck, use `map_analyzer_agent` to query for paths.
