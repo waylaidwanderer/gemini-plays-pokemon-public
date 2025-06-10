@@ -157,8 +157,6 @@
 *   **Notepad Organization:** Added a 'Wild Encounters' sub-section under 'Battle Notes' for better clarity. Added an 'Inventory' sub-section under 'Viridian Forest Notes'.
 *   **Pathing Script:** Fixing the `run_code` pathing script using `pathing_script_analyzer_agent` remains a high-priority task for the next visit to a Pokémon Center or other safe, non-grinding location.
 
-    *   Defeated Wild Pidgey Lv7 (Turn 2141), got 55 EXP. SPARKY's HP: 33/39. Not poisoned. THUNDERSHOCK 0 PP. EXP: 1783/2197 for Lv13.
-
     *   Defeated Wild Weedle Lv4 (Turn 2151), gained 29 EXP. SPARKY's HP: 31/39. Not poisoned. (Game State EXP before battle: 1728. EXP after: 1757 / 2197 for Lv13).
 *   **Agent Management Timing:** Define, update, or test agents only when in a safe, non-time-sensitive location (e.g., Pokémon Center) to maximize efficiency and avoid interrupting active gameplay like grinding or battles. (Added under # General Strategy Notes)
 *   **Current EXP Status (Turn 2151) for Leveling Plan for Brock:** SPARKY (Lv12) has 1728 EXP (per Game State). Needs 469 EXP for Lv13 (2197 total), and 1016 EXP for Lv14 (2744 total).
