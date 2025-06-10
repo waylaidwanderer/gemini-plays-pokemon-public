@@ -42,10 +42,11 @@
         *   The warp at coordinates (22,18) on **Mt. Moon B1F** leads to **Mt. Moon B2F** at (22,18) (this is B2F's entry_point 2, being the 2nd warp in B2F's game state list). This segment contains Rocket Grunt (ID 5) at (30,18). The Super Nerd (ID 4) is at (30,12) on B2F. Need to navigate from (22,18) to (30,12) to check accessibility.
     4.  **Path to Super Nerd (ID 4) on Mt. Moon B2F:**
         a.  Currently on Mt. Moon B1F at (22,17), facing the warp at (22,18) which has Pikachu on it.
-        b.  Use the warp at Mt. Moon B1F (22,18). This leads to Mt. Moon B2F, arriving at (26,10).
-        c.  On Mt. Moon B2F, navigate from (26,10) to the Super Nerd (ID 4) at (30,12).
-        d.  Battle and defeat the Super Nerd.
-        e.  After defeating him, two Fossils (Dome/Helix) should appear as item balls nearby. Select one.
+        b.  Used the warp at Mt. Moon B1F (22,18). This correctly led to Mt. Moon B2F at (22,18) (B2F's entry_point 2), not (26,10) as previously hypothesized. The (26,10) warp on B2F leads *back* to B1F.
+        c.  On Mt. Moon B2F, navigated to Rocket Grunt (ID 5) at (30,18). Interaction with Rocket Grunt (ID 5) on turn 8315 resulted only in dialogue ('POKéMON lived here long before people came.') and did NOT trigger a battle or make Super Nerd (ID 4) reachable. Super Nerd (ID 4) at (30,12) remains `reachable: no`.
+        d.  **New Strategy:** Since Super Nerd (ID 4) is currently unreachable, the next step is to explore the 'Reachable Unseen Tiles' on Mt. Moon B2F, as the game state indicates 'One or more undiscovered warps on this map are still hidden by unseen tiles.' This exploration may reveal a path to the Super Nerd, the fossils, or the eastern exit.
+        e.  Once Super Nerd is reachable: Battle and defeat the Super Nerd.
+        f.  After defeating him, two Fossils (Dome/Helix) should appear as item balls nearby. Select one.
     5.  Obtaining a fossil will likely open the path to the eastern Mt. Moon exit (Route 4).
 *   **Item Acquisition:** Key items like fossils, if pick-ups, will be visible item sprites on the map and listed in the `Map Sprites` section *after the trigger event*. Do not interact with empty ground tiles expecting items.
 
