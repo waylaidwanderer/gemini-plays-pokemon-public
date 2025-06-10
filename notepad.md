@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Level up SPARKY to Lv14 to better challenge Brock.
-*   **Tertiary Goal:** 
+*   **Secondary Goal:** Heal SPARKY (cure poison and restore HP/PP) at the Pewter City Pokémon Center.
+*   **Tertiary Goal:** Level up SPARKY to Lv14 (after being healed and resupplied).
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
@@ -19,18 +19,17 @@
     *   To bypass upward ledges, you MUST find a path AROUND them. This often means going significantly south/west/east, then using specific ground corridors or grass patches to ascend, then moving horizontally above the problematic ledges before jumping down.
 *   The sign at (10,28) on Route 1 is IMPASSABLE and acts like a wall.
 *   Follower Pokemon can block movement if approached from a non-facing direction, requiring an extra turn to step onto their tile.
-*   **Potion Usage (REVISED):** SPARKY should be healed with Potions proactively outside of battle if HP is low and a Pokémon Center isn't immediately accessible, especially before engaging trainers or exploring deep into an area. Relying solely on Pokémon Centers for healing can lead to blackouts if unexpected battles occur or poison takes its toll.
-*   **Map Connections:** ALWAYS double-check the *direction* (North, South, East, West) and *destination* of a map connection in the Game State Information before committing to a route. A wrong turn can lead to significant detours (e.g., Route 22 instead of Route 2).
-*   **Trainer Battle Initiation (CRITICAL):** Battles are primarily triggered by entering a trainer's direct line of sight. Observe their facing direction and move onto a tile directly in front of them. Repeatedly pressing 'A' or trying to step on their tile when not in their LoS is ineffective. Dialogue loops can sometimes be broken with 'B' or by moving away. Non-battling NPCs may still have trainer sprites.
-*   **Exploration Planner Paths:** If the `exploration_planner` provides a very long or scattered path, consider breaking it into smaller, logical segments or re-running the planner after a short manual move to a new area. This can lead to more manageable and efficient exploration.
-*   **Type Matchups (CRITICAL REMINDER):** Pay closer attention to type matchups. Electric-type moves (like THUNDERSHOCK) are NOT VERY EFFECTIVE against Grass/Poison types like Oddish. This was a critical error leading to SPARKY taking unnecessary damage and getting poisoned.
-*   **Status Conditions (Poison):** Poison is a serious threat in Hard Mode, especially with no in-battle items. If SPARKY gets poisoned, prioritize reaching a Pokémon Center or using an Antidote (if available) ASAP. Do not continue to battle or explore extensively while poisoned, as the damage accumulates quickly and can lead to fainting.
-*   **Short-Range Pathing & Interaction:** Improve observation of immediate surroundings (NPCs, obstacles) to avoid wasted turns. Verify navigability and facing before committing to paths or interactions, especially in confined spaces.
+*   **Potion Usage (REVISED - ROM HACK CHANGE):** Potions in this ROM hack heal only 10 HP. SPARKY should be healed proactively outside of battle if HP is low and a Pokémon Center isn't immediately accessible, especially before engaging trainers or exploring deep into an area. 
+*   **Map Connections:** ALWAYS double-check the *direction* (North, South, East, West) and *destination* of a map connection in the Game State Information before committing to a route.
+*   **Trainer Battle Initiation (CRITICAL):** Battles are primarily triggered by entering a trainer's direct line of sight. Observe their facing direction and move onto a tile directly in front of them.
+*   **Type Matchups (CRITICAL REMINDER):** Pay closer attention to type matchups. Electric-type moves (like THUNDERSHOCK) are NOT VERY EFFECTIVE against Grass/Poison types like Oddish.
+*   **Status Conditions (Poison - CRITICAL):** Poison is a serious threat in Hard Mode. If SPARKY gets poisoned, prioritize reaching a Pokémon Center or using an Antidote ASAP. **DO NOT CONTINUE TO BATTLE OR GRIND WHILE POISONED.** This was a critical error leading to blackouts.
+*   **System Warnings (Mixed Buttons):** Consistently receiving 'mixed buttons' warnings. Must ensure `buttons_to_press` contains *only* directional buttons for multi-step movements. Interaction buttons (A, B) or 'tool' calls must be in separate turns.
 
 # Hard Mode Rules
 *   Battle Style: Set.
 *   No items in battle.
-*   Level caps apply (Lt. Surge's cap is 24).
+*   Level caps apply (Lt. Surge's cap is 24, Brock's Ace Onix is Lv14, so cap is 14).
 
 # Key Game Changes (ROM Hack)
 *   HMs: Forgettable, usable from menu, not storable in PC.
@@ -40,26 +39,12 @@
 *   Tougher boss fights.
 *   Dynamic scaling Gyms 4-6.
 *   EXP. All available early.
+*   Potions heal 10 HP (observed Turn 2353).
 
-# General Ledge Navigation Principles
-*   **Problem:** Ledges block upward movement.
-*   **Strategy:** To bypass upward ledges, find a path AROUND. Move away from the ledges (laterally or downwards) to find a clear corridor or grass patch allowing ascent *above* the problematic ledges. Then, navigate laterally above and descend as needed. Verify ledge properties in map memory and visually inspect. Critically evaluate agent-provided paths for ledge issues.
-*   **Agent Use for Ledges:** If manual pathing or `exploration_planner` struggles with complex verticality/blockages by ledges, consider using `map_analyzer_agent` to query for clear paths or alternative exits (e.g., 'Find a path from (X,Y) to (A,B) avoiding upward ledges').
-
-# Agent Development & Pathing Strategy (**REVISED POST-CRITIQUE & BLACKOUT - FURTHER REVISED**)
-## Active Agents
-*   `exploration_planner`: Analyzes map XML and reachable unseen tiles for efficient exploration. (Continue using, but break down long paths. Ensure Pikachu's health is stable before long explorations. Be cautious about the length of paths requested or followed without intermediate verification, especially in maze-like environments. Request paths to closer, intermediate waypoints or only execute a very small number of initial steps from a long path before re-evaluating.)
-*   `map_analyzer_agent`: Analyzes map XML to answer specific questions. (Use proactively for navigation issues, pathfinding queries if stuck, or understanding blockages. Consider using for finding shorter paths if manual pathing seems convoluted. When using for complex routes, request paths to closer, intermediate waypoints or only execute a very small number of initial steps from a long path before re-evaluating.)
-*   `pathing_script_analyzer_agent`: Analyzes pathing scripts. (Use to diagnose and begin fixing the `run_code` pathing script when at a Pokemon Center or safe location.)
-*   `battle_strategist_agent`: Assists with Hard Mode boss fight planning. (Use for upcoming tough trainers or Gym Leaders. Test this agent to assess its effectiveness.)
-*   `item_finder_agent`: Searches map for items. (Use to find remaining items in an area. Test this agent to assess its effectiveness.)
-*   `leveling_training_advisor_agent`: Advises on optimal grinding spots, Pokemon to train, and EV training strategies based on current party, level cap, known areas/trainers, and game mode (e.g., Hard Mode restrictions). (Use when preparing for gym leaders or if general leveling is needed. Test this agent to assess its effectiveness.)
-*   `pokedex_completer_agent`: Suggests targets for Pokedex completion. (Defined - test effectiveness)
-*   `team_builder_agent`: Suggests ideal team compositions for major challenges. (Defined - test effectiveness)
-## Pathing Script (`run_code`) Behavior (**NEW SCRIPT UNDER DEVELOPMENT**)
-*   A new, basic A* pathing script is being developed using `run_code`. Its reliability is currently TBD (To Be Determined) and it has known limitations (e.g., only considers 'ground' tiles, no Pikachu awareness). Manual navigation or `map_analyzer_agent` queries are preferred for complex paths until this script is more robust.
-    *   **NEW STRATEGY (MANDATORY):** **DO NOT USE THIS SCRIPT for any path longer than 1-2 easily verifiable steps.** Prioritize **MANUAL NAVIGATION**. If stuck, use `map_analyzer_agent` to query for paths.
-    *   **CURRENT STRATEGY (PEWTER POKEMON CENTER):** Develop a new, basic pathing script using `run_code`. The old script is abandoned. Future iterations of this new script will aim to handle more tile types and Pikachu. The `pathing_script_analyzer_agent` may be used later to analyze/debug this new script if needed.
+# Agent Development & Pathing Strategy
+*   **Active Agents to Test/Utilize:** `exploration_planner`, `map_analyzer_agent`, `battle_strategist_agent`, `item_finder_agent`, `leveling_training_advisor_agent`, `pokedex_completer_agent`, `team_builder_agent`, `direct_pathing_agent`, `rom_hack_mechanic_investigator_agent`.
+*   **Pathing Script (`run_code`):** Fixing the `run_code` pathing script using `pathing_script_analyzer_agent` is a high-priority task for the next visit to a Pokémon Center.
+*   **Agent Management Timing:** Define, update, or test agents only when in a safe, non-time-sensitive location (e.g., Pokémon Center).
 
 # Map Discoveries
 *   **Pallet Town:** Reachable, undiscovered map connection south at (4,18) or (3,18).
@@ -69,103 +54,32 @@
 *   **Route 2 (NORTH of Viridian City):** Leads to Viridian Forest, then Pewter City (Brock). THIS IS THE CORRECT PATH.
 *   **Route 22 (WEST of Viridian City):** Leads to the Pokemon League. THIS IS A DETOUR if aiming for Pewter City.
 
-# Viridian Forest Notes
-*   Youngster (ID 1, VIRIDIANFOREST_YOUNGSTER1) at (17,44): Confirmed non-battling NPC after direct interaction. Path north appears to be around this NPC via (16,44) or (18,44).
-*   Youngster (ID 10, VIRIDIANFOREST_YOUNGSTER6) at (28,41): Confirmed non-battling NPC. Dialogue: "You should carry extras!". Blocks direct westward movement along row 41.
-*   Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (28,20): **Defeated**.
-*   Items Collected:
-    *   Potion at (26,12) - Collected (Turn 981).
-    *   Potion at (13,30) - Collected (Turn 1905).
-*   Inventory:
-    *   POKé BALL x3
-    *   POTION x2
-    *   ANTIDOTE x0 (Used one on Turn 2056 on SPARKY after Oddish battle)
+# Inventory
+*   POKé BALL x3
+*   POTION x0 (Used last one on Turn 2353 on SPARKY)
+*   ANTIDOTE x0 (Used one on Turn 2056 on SPARKY after Oddish battle)
 
 # Battle Notes
-*   SPARKY learned TAIL WHIP, replacing GROWL at Lv11 (Turn 1004).
-*   Blackout: Defeated by Bug Catcher (ID 6, VIRIDIANFOREST_YOUNGSTER5) at (17,18) in Viridian Forest due to poison/damage. (Turn 1104)
-*   Defeated Lass (Cool Trainer F, ID 5) at (3,42) in Viridian Forest. Her Pokemon: NIDORAN♀ Lv6, NIDORAN♂ Lv6. SPARKY was at 26/39 HP after the battle. Got ¥90.
-*   Defeated Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. His Pokemon: Pinsir Lv8, Metapod Lv9. Got ¥90.
-*   Defeated Youngster (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (28,34) in Viridian Forest. His Pokemon: Weedle Lv6, Kakuna Lv6. SPARKY was at 39/39 HP. Got ¥90.
-
-# Pewter City Prep
-*   Find out Brock's Ace level / level cap for Hard Mode. (Onix Lv14 is Ace, cap is 14)
-*   Plan party composition/training for Brock.
-*   Test battle_strategist_agent and leveling_training_advisor_agent before challenging Brock.
-
-# Pewter City Museum Notes (COMPLETED)
-*   Visited both floors, paid ¥50 entry. Spoke to all NPCs (Attendant, Old Man, Scientist, Brunette Girl, Hiker, Youngster, Gramps). Noted signs about Moon Stone and Space Shuttle. No items found. Area fully explored.
-
-# Viridian City Notes
-*   Youngster (no ID in map sprites, but observed) at (31,26) can block the path to the Mart if approaching from the east along row 26. Need to go around via row 27 if blocked.
-
-# General Strategy Notes
-*   Break down long agent-generated paths (e.g., from `map_analyzer_agent` or `exploration_planner`) into shorter, verifiable segments (e.g., 5-10 steps, or to an intermediate landmark). Re-evaluate after each segment, especially in complex/maze-like areas.
-*   **Proactive Healing & Poison Management (REINFORCED - CRITICAL ERROR):** Blacking out due to poison and accumulated damage from poor battle choices is unacceptable. If SPARKY is poisoned, prioritize healing (Antidote if available, Potion if HP is low, or retreat to a Pokémon Center) *before* further exploration or difficult battles. Do not rely on nearly fainting before healing. Use Potions more liberally outside of battle to maintain high HP.
-*   **Type Matchups (REINFORCED - CRITICAL ERROR):** THUNDERSHOCK is NOT VERY EFFECTIVE against Grass/Poison types (e.g., Oddish). QUICK ATTACK (Normal) is neutral and often a better choice for consistent damage in such cases. Must internalize type charts.
-
-# Pewter City Notes
-*   Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) is non-battling. Dialogue: "It's rumored that CLEFAIRYs came from the moon! They appeared after MOON STONE fell on MT.MOON." She does not gatekeep the Gym.
-
-# Pewter City Mart Notes
-*   Youngster (PEWTERMART_YOUNGSTER) at (4,5): "A shady old man got me to buy this really weird fish POKéMON! It's totally weak and it cost ¥500!" (Likely referring to Magikarp).
+*   **EXP Tracking (Simplified):** Record GameState EXP at start of battle + EXP gained from battle.
+*   SPARKY learned TAIL WHIP, replacing GROWL at Lv11.
+*   Blackout: Defeated by Bug Catcher (ID 6, VIRIDIANFOREST_YOUNGSTER5) at (17,18) in Viridian Forest (Turn 1104).
+*   Defeated Lass (Cool Trainer F, ID 5) at (3,42) in Viridian Forest. (NIDORAN♀ Lv6, NIDORAN♂ Lv6). ¥90.
+*   Defeated Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. (Pinsir Lv8, Metapod Lv9). ¥90.
+*   Defeated Youngster (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (28,34) in Viridian Forest. (Weedle Lv6, Kakuna Lv6). ¥90.
+*   Defeated Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (28,20) in Viridian Forest.
+*   **Thunder Wave Inconsistency (Pidgey):** THUNDER WAVE failed against a Lv8 Pidgey (Turn 2187), but successfully paralyzed a Lv7 Pidgey (Turn 2343). The first failure might have been due to accuracy (a simple miss) rather than type immunity.
 
 # Pewter City Gym Notes
-*   Gym Guide says Brock's lead is GEODUDE (Rock Throw), and he also has an ONIX (Bind).
-*   **CRITICAL: Electric attacks are HARMLESS to Brock's Ground-type POKéMON.**
-*   SPARKY's Thundershock and Thunder Wave will be useless. Must rely on Quick Attack and Tail Whip.
-*   Brock's Ace (Onix) is Lv14. Level cap for Hard Mode is 14.
-*   Defeated JR.TRAINER♂ (Cool Trainer M sprite, ID 2, PEWTERGYM_COOLTRAINER_M) at (4,7) in Pewter Gym. Pokémon: Diglett Lv9, Sandshrew Lv9. Prize: ¥180. SPARKY healed to full HP (39/39) after battle.
+*   Gym Guide: Brock's lead GEODUDE (Rock Throw), also has ONIX (Bind). Electric attacks harmless.
+*   Brock's Ace (Onix) is Lv14. Level cap is 14.
+*   Defeated JR.TRAINER♂ (Cool Trainer M sprite, ID 2, PEWTERGYM_COOLTRAINER_M) at (4,7). (Diglett Lv9, Sandshrew Lv9). ¥180.
 
 # Brock Battle Attempt 1 (FAILURE - Blackout)
-*   Challenged Brock. SPARKY Lv12 vs Geodude Lv10 & Onix Lv14.
-*   Strategy: Multiple Tail Whips then Quick Attack.
-*   Outcome: SPARKY fainted to Geodude's Rock Throw after several turns. Geodude used Defense Curl multiple times, negating Tail Whips. Quick Attack did minimal damage even with -3 Defense. SPARKY's HP dropped too quickly.
-*   Blacked out and returned to Pewter City Pokemon Center. Money halved (¥392 -> ¥196).
-*   **Conclusion:** Current strategy with SPARKY alone at Lv12 is not viable. Need to level up SPARKY to Lv14, find a new team member effective against Rock/Ground, or significantly revise the strategy.
+*   SPARKY Lv12 vs Geodude Lv10 & Onix Lv14. Fainted to Geodude's Rock Throw. Geodude used Defense Curl. Money halved (¥392 -> ¥196).
+*   **Conclusion:** SPARKY alone at Lv12 is not viable. Needs to be Lv14, find a new team member, or revise strategy.
 
-# Leveling Plan for Brock (Post-Blackout 1) - REVISED
-*   **Objective:** Level SPARKY from Lv12 to Lv14 (level cap).
-*   **Strategy REVISED:** Grind wild Pokémon in Viridian Forest.
-*   **Pewter City Trainer Outcomes (ALL NON-BATTLING/SCRIPTED):
-    1.  Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) - Dialogue only.
-    2.  Super Nerd (PEWTERCITY_SUPER_NERD1) at (28,18) - Dialogue only.
-    3.  Youngster (PEWTERCITY_YOUNGSTER) at (36,17) - Scripted event, led to Gym, no battle.
-    4.  Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) - Dialogue only.
-*   **Conclusion:** No trainer EXP in Pewter City. Viridian Forest is the sole grinding spot for now.
-
-*   **Future Agent Testing/Development:**
-    *   Test `pokedex_completer_agent` and `team_builder_agent` to assess their utility when appropriate (e.g., before major Pokedex hunting sessions or team reshuffles for Gyms).
-    *   Consider developing a `direct_pathing_agent` focused on simple, direct A-to-B movement if the main `run_code` script proves too difficult to fix quickly. This could serve as a more reliable short-term navigation aid for straightforward paths.
-
-# Reflection Notes (Turn 2117 - EXP Note Corrected)
-*   **EXP Tracking (CRITICAL CORRECTION REINFORCED - Game State is Source of Truth):** The Game State Information's EXP value for Pokémon in the party screen IS THE ABSOLUTE SOURCE OF TRUTH. My previous assumption that this display 'lags' and that manual battle log tracking was 'more reliable' was INCORRECT. All EXP calculations and leveling goals must be based on the Game State's displayed EXP value at the start of a battle, with the EXP gained from that battle then added to it.
-*   **System Warnings (Mixed Buttons):** I've been frequently receiving a 'System Warning: You tried to mix directional and action buttons in the same sequence.' This truncates my intended movement paths. I must be more careful to ensure `buttons_to_press` contains *only* directional buttons for multi-step movements. Interaction buttons (A, B) or 'tool' calls must be in separate turns.
-*   **Notepad Organization:** Added a 'Wild Encounters' sub-section under 'Battle Notes' for better clarity. Added an 'Inventory' sub-section under 'Viridian Forest Notes'.
-*   **Pathing Script:** Fixing the `run_code` pathing script using `pathing_script_analyzer_agent` remains a high-priority task for the next visit to a Pokémon Center or other safe, non-grinding location.
-
-*   **Agent Management Timing:** Define, update, or test agents only when in a safe, non-time-sensitive location (e.g., Pokémon Center) to maximize efficiency and avoid interrupting active gameplay like grinding or battles. (Added under # General Strategy Notes)
-*   **Current EXP Status (Turn 2151) for Leveling Plan for Brock:** SPARKY (Lv12) has 1728 EXP (per Game State). Needs 469 EXP for Lv13 (2197 total), and 1016 EXP for Lv14 (2744 total).
-
-*   Current EXP Status (Turn 2217) for Leveling Plan for Brock: SPARKY (Lv12) has 1812 EXP (calculated: 1728 GameState EXP at start of Weedle battle T2206 + 29 from Weedle + 55 from Pidgey T2217). Needs 385 EXP for Lv13 (2197 total), and 932 EXP for Lv14 (2744 total).
-
-*   Current EXP Status (Turn 2217) for Leveling Plan for Brock: SPARKY (Lv12) has 1812 EXP (calculated: 1728 GameState EXP at start of Weedle battle T2206 + 29 from Weedle + 55 from Pidgey T2217). Needs 385 EXP for Lv13 (2197 total), and 932 EXP for Lv14 (2744 total).
-
-# New Discoveries & Reminders (Post-Critique Turn 2198)
-*   **Thunder Wave Inconsistency (Pidgey):** THUNDER WAVE failed against a Lv8 Pidgey (Turn 2187), but successfully paralyzed a Lv7 Pidgey (Turn 2343). This suggests either Pidgeys are not consistently immune (first was a miss/other mechanic), or there's a specific condition for immunity (e.g., level-based, specific variant). Needs more observation.
-*   **System Input Warnings:** Consistently receiving 'mixed buttons' and 'few steps moved' warnings. Must be extremely careful to only send directional inputs in multi-step sequences and ensure long enough movement sequences when grinding/exploring to avoid these. This is impacting efficiency.
-*   **Agent Usage - `direct_pathing_agent`:** Consider using the `direct_pathing_agent` for very simple, short-distance navigation if manual input continues to trigger warnings or if the main pathing script remains unusable.
-*   **Agent Usage - Testing Priority:** High priority to test newly defined/updated agents at the next safe opportunity: `pokedex_completer_agent`, `team_builder_agent`, `direct_pathing_agent`, `rom_hack_mechanic_investigator_agent`. Their utility is unknown until tested.
-*   **Agent Usage - `pathing_script_analyzer_agent` (CRITICAL REITERATION):** Fixing the `run_code` pathing script via `pathing_script_analyzer_agent` remains a top non-combat priority. Deferring this further is detrimental.
-*   **EXP Note Cleanup:** The tertiary goal to clean up EXP notes is important for notepad clarity.
-
-### Current Grinding Session (Viridian Forest - For Brock) - EXP Tracking (Turn 2333)
-*   **EXP Goal:** SPARKY Lv12 -> Lv14 (Target Total EXP for Lv14: 2744)
-*   **Baseline EXP (GameState T2333):** 1728. SPARKY's HP: 35/39. Not Poisoned.
-*   **Current EXP (SPARKY Lv12):** 1783 (after Pidgey Lv7 on Turn 2343).
+# Current Pokémon Status (Turn 2353)
+*   SPARKY (PIKACHU): Lv12 (39/39 HP, **PSN**). EXP: 1783 (GameState 1728 + 55 from Pidgey T2343).
+    *   Moves: THUNDERSHOCK (29 PP), TAIL WHIP (30 PP), QUICK ATTACK (27 PP), THUNDER WAVE (19 PP).
 *   **EXP to Lv13 (2197 total):** 414 EXP needed.
 *   **EXP to Lv14 (2744 total):** 961 EXP needed.
-*   **Battle Log (This Session - since Baseline EXP 1728):
-    *   Defeated Pidgey Lv7 at (3,10). Gained 55 EXP. SPARKY now 1783 EXP. HP 29/39 (Poisoned). (Turn 2343)
-
-(This new section should be placed logically, perhaps under '# Battle Notes' or as a new major heading for clarity. For now, appending will add it to the end, and I can reorganize later if needed. The key is to have the correct info available immediately.)
