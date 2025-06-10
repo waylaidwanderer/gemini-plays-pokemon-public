@@ -74,8 +74,8 @@
 
 *   Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (28,20) in Viridian Forest. **Defeated**.
 
-# Items to Collect (Viridian Forest)
-*   Poké Ball at (26,12) - Visible and reachable.
+# Items Collected (Viridian Forest)
+*   Potion at (26,12) - Collected.
 
 # Agent Usage Reflection (Turn 975)
 *   `exploration_planner` (Turn 961): Failed to provide a path because I supplied an *incomplete* list of 'Reachable Unseen Tiles'.
