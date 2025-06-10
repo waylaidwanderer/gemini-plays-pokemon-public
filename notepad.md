@@ -145,13 +145,14 @@
 
 # EXP Tracking
 *   SPARKY (PIKACHU) - Lv12
-*   Current EXP: 1757 (as of Turn 2021 after Weedle battle)
+*   Current EXP: 1757 (after Weedle battle on Turn 2027; Needs 987 more for Lv14 cap)
 *   EXP to Lv13: 2197 (Needs 440 more)
 *   EXP to Lv14 (CAP): 2744 (Needs 987 more)
 
-    *   Defeated Wild Kakuna Lv7 (Turn 1988), got 71 EXP (Battle Log). SPARKY's HP: 28/39. SPARKY not poisoned.
-    *   Defeated Wild Pidgey Lv8 (Turn 1994), got 62 EXP (Battle Log).
-    *   Defeated Wild Weedle Lv4 (Turn 2021), got 29 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
+    *   Defeated Wild Kakuna Lv7 (Turn 1988), got 71 EXP. SPARKY's HP: 28/39. Not poisoned.
+    *   Defeated Wild Pidgey Lv8 (Turn 1994), got 62 EXP.
+    *   Defeated Wild Weedle Lv4 (Turn 2021), got 29 EXP. SPARKY's HP: 39/39. Not poisoned.
+    *   Defeated Wild Weedle Lv4 (Turn 2027), got 29 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
 
 *   **Future Agent Testing/Development:**
     *   Test `pokedex_completer_agent` and `team_builder_agent` to assess their utility when appropriate (e.g., before major Pokedex hunting sessions or team reshuffles for Gyms).
