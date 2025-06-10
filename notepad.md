@@ -74,7 +74,7 @@
 *   Defeated Lass (Cool Trainer F, ID 5) at (3,42) in Viridian Forest. (NIDORAN♀ Lv6, NIDORAN♂ Lv6). ¥90.
 *   Defeated Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. (Pinsir Lv8, Metapod Lv9). ¥90.
 *   Defeated Youngster (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (31,34) in Viridian Forest. (Weedle Lv6, Kakuna Lv6). ¥90.
-*   Defeated Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (28,20) in Viridian Forest.
+*   Defeated Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (31,20) in Viridian Forest.
 *   **Thunder Wave Inconsistency (Pidgey):** THUNDER WAVE failed against a Lv8 Pidgey (Turn 2187), but successfully paralyzed a Lv7 Pidgey (Turn 2343). The first failure might have been due to accuracy (a simple miss) rather than type immunity.
 
 # Pewter City Gym Notes
