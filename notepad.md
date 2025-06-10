@@ -92,7 +92,7 @@
 ## Mt. Moon B2F Trainers
 *   Rocket Grunt (ID 3) at (Mt Moon B2F, 16,23) - Defeated. ("Darn it all! My associates won't stand for this!")
 *   Rocket Grunt (ID unknown) at (Mt Moon B2F, approx. 28,18) - Defeated. Used Rattata Lv13, Zubat Lv13.
-*   Super Nerd (ID 1, sprite MTMOONB2F_SUPER_NERD) at (Mt Moon B2F, 13,9) - Defeated. Pokémon: Grimer Lv12, Voltorb Lv12, Magnemite Lv12. Guarded fossils.
+*   Super Nerd (ID 1, sprite MTMOONB2F_SUPER_NERD) at (Mt Moon B2F, 13,9) - Defeated. Pokémon: GRIMER Lv12, VOLTORB Lv12, MAGNEMITE Lv12. Guarded fossils, took Dome Fossil after player took Helix Fossil.
 *   Super Nerd (ID 4, sprite MTMOONB2F_ROCKET2) at (Mt Moon B2F, 30,12) - **UNDEFEATED / CURRENTLY UNREACHABLE.** Dialogue ("If you find a fossil, give it to me and scram!") was a pre-battle taunt. May or may not be relevant now that a fossil is obtained.
 *   Rocket Grunt (ID 5, sprite MTMOONB2F_ROCKET3) at (Mt Moon B2F, 30,18) - Non-battling / Dialogue Loop. Bypassed.
 ## Route 4 (Before Mt. Moon) Trainers
