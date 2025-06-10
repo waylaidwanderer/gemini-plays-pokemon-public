@@ -112,12 +112,11 @@
 
 **Battle Mechanics Update (Mt. Moon):** Confirmed Acid (Poison-type move) is 'not very effective' (0.5x) against wild Zubat (Poison/Flying). This indicates a ROM hack change where Poison attacks are resisted by either Poison-type or Flying-type Pokémon (or both, though less likely for 0.5x). Standard Gen 1: Poison vs Poison = 1x, Poison vs Flying = 1x.
 
-# Mt. Moon Exploration Strategy (Revised Turn 7693)
-*   Current Location: Mt. Moon B1F at (28,20). Arrived in this eastern chamber via warp from 1F at (26,16).
-*   Objective: Find the eastern exit to Route 4 (leading to Cerulean City) or a warp to an unexplored section of Mt. Moon that might contain it.
-*   Immediate Plan: Currently exploring the eastern B1F chamber. This chamber seems isolated, with only warps back to 1F (26,16) and to a known B2F segment via B1F (14,28). No new paths or warps found in *this specific chamber* so far.
-*   Contingency: If no new exits are found in this chamber, return to Mt. Moon 1F via warp (26,16) and seek an alternative route to unexplored B1F/B2F sections.
-*   ZAPPY is currently confused.
+# Mt. Moon Exploration Strategy (Revised Turn 7716)
+*   Current Location: Mt. Moon 1F at (38,3). Attempt to exit east was blocked (impassable tiles, not a warp).
+*   Objective: Find the eastern exit to Route 4 (leading to Cerulean City).
+*   Immediate Plan: The eastern corridor on 1F is a dead end. Re-evaluating. Will explore other B1F segments accessed via warps on 1F. Target warp: (18,12) on 1F, leading to B1F (26,10). Then potentially 1F (6,6) leading to B1F (6,6).
+*   ZAPPY is still confused (33/50 HP).
 
 # Critique Feedback & Action Items (Turn 7426)
 *   Test `item_use_advisor_agent` soon (e.g., with Moon Stone or Rare Candy).
