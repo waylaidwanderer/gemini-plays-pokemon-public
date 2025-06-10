@@ -133,5 +133,6 @@
 *   Prioritize testing `item_use_advisor_agent`.
 *   Scrutinize `dungeon_navigator_agent` paths, especially near warps, and verify segments manually.
 
-*   **`training_regimen_planner_agent` (IDEA):**
+*   **`training_regimen_planner_agent` (IDEA - Low Priority):**
     *   **Purpose:** Given a list of Pokémon, their levels, target levels (e.g., for evolution or level caps), and potentially known efficient training spots or EXP yields, this agent would suggest an optimal training order and location focus. It could help balance team leveling and prepare for specific challenges more effectively. Consider if it should factor in EXP Share mechanics if EXP. All is active.
+    *   **Status:** Idea only. Re-evaluate utility vs. existing agents (e.g., `battle_strategy_agent`, `rom_hack_mechanics_lookup_agent`) after challenging Misty. Currently 10/10 agents defined.
