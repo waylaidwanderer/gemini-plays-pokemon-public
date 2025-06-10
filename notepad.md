@@ -37,7 +37,7 @@
 *   **Mt. Moon Fossil Hunt Plan (REVISED - Turn 8155 - MAJOR CORRECTIONS):**
     1.  **Objective:** Obtain a Fossil (Dome or Helix).
     2.  **Source:** The Super Nerd (ID 4, sprite MTMOONB2F_ROCKET2) at (Mt. Moon B2F, 30,12) guards the fossils. He must be *defeated* in battle. His dialogue ("If you find a fossil, give it to me and scram!") is a pre-battle taunt.
-    3.  **Understanding Mt. Moon B2F Segmentation:** Mt. Moon B2F has multiple disconnected segments. The warp at B1F (22,18) leads to B2F entry_point 5, which is ISOLATED from the Super Nerd (ID 4).
+    3.  **Understanding Mt. Moon B2F Segmentation:** Mt. Moon B2F has multiple disconnected segments. The warp at B1F (22,18) (where I am now) leads to B2F entry_point 2 (the Super Nerd's area), NOT entry_point 5. Entry point 5 was the isolated segment I was in previously.
     4.  **Corrected Path to Super Nerd (ID 4) on Mt. Moon B2F:**
         a.  From the previous B2F segment (entry_point 5), I navigated to the warp at B2F (22,18) and used it to return to Mt. Moon B1F, arriving at B1F (22,18).
         b.  On Mt. Moon B1F, I am currently at the warp at (22,18). This warp leads to Mt. Moon B2F (entry_point 2), which is the Super Nerd's area (he is at B2F (30,12)). The arrival point on B2F from this warp will be (26,10).
