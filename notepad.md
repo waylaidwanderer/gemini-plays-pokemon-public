@@ -39,7 +39,7 @@
     2.  **Source:** The Super Nerd (ID 4, sprite MTMOONB2F_ROCKET2) at (Mt. Moon B2F, 30,12) guards the fossils. He must be *defeated* in battle. His dialogue ("If you find a fossil, give it to me and scram!") is a pre-battle taunt.
     3.  **Understanding Mt. Moon B1F & B2F Warp Connections (CRITICAL):**
         *   The warp at coordinates (22,18) on **Mt. Moon B2F** (near the isolated Rocket Grunt ID 5) leads to **Mt. Moon B1F** at (22,18) (this is B1F's entry_point 5).
-        *   The warp at coordinates (22,18) on **Mt. Moon B1F** (the one I'm about to use) leads to **Mt. Moon B2F** at (26,10) (this is B2F's entry_point 2). This is the correct segment for the Super Nerd.
+        *   The warp at coordinates (22,18) on **Mt. Moon B1F** leads to **Mt. Moon B2F** at (22,18) (this is B2F's entry_point 2, being the 2nd warp in B2F's game state list). This segment contains Rocket Grunt (ID 5) at (30,18). The Super Nerd (ID 4) is at (30,12) on B2F. Need to navigate from (22,18) to (30,12) to check accessibility.
     4.  **Path to Super Nerd (ID 4) on Mt. Moon B2F:**
         a.  Currently on Mt. Moon B1F at (22,17), facing the warp at (22,18) which has Pikachu on it.
         b.  Use the warp at Mt. Moon B1F (22,18). This leads to Mt. Moon B2F, arriving at (26,10).
