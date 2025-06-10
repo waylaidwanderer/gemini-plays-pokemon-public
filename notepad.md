@@ -142,3 +142,15 @@
 *   Outcome: SPARKY fainted to Geodude's Rock Throw after several turns. Geodude used Defense Curl multiple times, negating Tail Whips. Quick Attack did minimal damage even with -3 Defense. SPARKY's HP dropped too quickly.
 *   Blacked out and returned to Pewter City Pokemon Center. Money halved (¥392 -> ¥196).
 *   **Conclusion:** Current strategy with SPARKY alone at Lv12 is not viable. Need to level up SPARKY, find a new team member effective against Rock/Ground, or significantly revise the strategy. Will consult leveling advisor.
+
+# Leveling Plan for Brock (Post-Blackout 1)
+*   **Objective:** Level SPARKY from Lv12 to Lv14 (level cap).
+*   **Strategy:** Battle undefeated trainers in Pewter City for EXP.
+*   **Viable Trainers (based on Leveling Advisor & Game State):**
+    1.  Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) - Facing Right.
+    2.  Super Nerd (PEWTERCITY_SUPER_NERD1) at (28,18) - Facing Down.
+    3.  Youngster (PEWTERCITY_YOUNGSTER) at (36,17) - Facing Down.
+*   **Questionable/Unreachable Trainers (from Advisor):**
+    *   Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) - Previously non-battling. Re-check dialogue.
+    *   Super Nerd (PEWTERCITY_SUPER_NERD2) at (27,26) - Game state and map XML confirm unreachable.
+*   **Notes:** Explore unseen tiles in Pewter City while moving between trainers.
