@@ -51,4 +51,3 @@
 *   **Pallet Town:** There's a reachable, undiscovered map connection to the south at (4,18) or (3,18). Worth investigating later.
 
 # Future Agent Ideas
-*   `item_finder_agent`: To scan map data for item balls and assist in pathing to them.
