@@ -21,8 +21,7 @@
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 
 # Current Location & Navigation Plan
-*   **Current Location:** Mt. Moon 1F (ID: 59) at (25,16).
-*   **Immediate Navigation Plan:** Navigate towards the Youngster at (31,28) on Mt. Moon 1F, who mentioned the path to Cerulean City. Aiming for adjacent navigable tile (30,28).
+*   **Current Location:** Mt. Moon B2F (ID: 61) at (22,23).
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and obtain the Cascade Badge from Misty.
