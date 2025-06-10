@@ -97,3 +97,9 @@
 
 # General Strategy Notes
 *   Break down long agent-generated paths (e.g., from `map_analyzer_agent` or `exploration_planner`) into shorter, verifiable segments (e.g., 5-10 steps, or to an intermediate landmark). Re-evaluate after each segment, especially in complex/maze-like areas.
+
+- Defeated Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. His Pokemon: Pinsir Lv8, Metapod Lv9. Got ¥90.
+
+# Agent Ideas for Later
+*   `inventory_manager_agent`: Helps manage inventory, suggests when to buy/use items based on money, goals, Hard Mode rules, and upcoming challenges.
+*   `hm_tracker_agent`: Tracks HM progression, which HMs are needed for which areas/obstacles, and which Pokemon can learn them.
