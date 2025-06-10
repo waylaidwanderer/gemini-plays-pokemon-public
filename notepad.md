@@ -120,3 +120,6 @@
 
 ## NPC Interaction Rules & Key Dialogue (NEW - Turn 8113)
 *   Some NPC dialogue that seems like a request or statement (e.g., Super Nerd's "If you find a fossil, give it to me and scram!") might actually be a pre-battle taunt if the NPC is an undefeated trainer blocking a path or objective. Always consider context and whether the NPC is a known trainer type.
+
+# Agent Development & Usage (Further Notes - Turn 8162)
+*   `exploration_prioritizer_agent` Limitations: The agent might fail to provide suggestions if 'Reachable Unseen Tiles' (from game state) are not marked `navigable="true"` in the map XML. Its Python script currently looks for `seen="false"` AND `navigable="true"`. Consider updating its prompt to instruct its code to also analyze tiles adjacent to `navigable="true"` tiles that are `seen="false"`, or to directly use the 'Reachable Unseen Tiles' list from game state if that's more reliable, especially in complex, segmented dungeons where XML `navigable` status might be misleading for overall reachability.
