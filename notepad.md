@@ -175,9 +175,9 @@
 
     *   Defeated Wild Caterpie Lv4 (Turn 2159), gained 30 EXP. SPARKY's HP: 31/39. Not poisoned. (Game State EXP before battle: 1728. EXP after: 1758 / 2197 for Lv13).
 
-*   Current EXP Status (Turn 2159 - appended due to edit errors) for Leveling Plan for Brock: SPARKY (Lv12) has 1758 EXP (calculated: 1728 GameState EXP at start of last battle + 30 from Caterpie). Needs 439 EXP for Lv13 (2197 total), and 986 EXP for Lv14 (2744 total).
+*   Current EXP Status (Turn 2217) for Leveling Plan for Brock: SPARKY (Lv12) has 1812 EXP (calculated: 1728 GameState EXP at start of Weedle battle T2206 + 29 from Weedle + 55 from Pidgey T2217). Needs 385 EXP for Lv13 (2197 total), and 932 EXP for Lv14 (2744 total).
 
-*   Current EXP Status (Turn 2159 - appended due to edit errors) for Leveling Plan for Brock: SPARKY (Lv12) has 1758 EXP (calculated: 1728 GameState EXP at start of last battle + 30 from Caterpie). Needs 439 EXP for Lv13 (2197 total), and 986 EXP for Lv14 (2744 total).
+*   Current EXP Status (Turn 2217) for Leveling Plan for Brock: SPARKY (Lv12) has 1812 EXP (calculated: 1728 GameState EXP at start of Weedle battle T2206 + 29 from Weedle + 55 from Pidgey T2217). Needs 385 EXP for Lv13 (2197 total), and 932 EXP for Lv14 (2744 total).
 
 # New Discoveries & Reminders (Post-Critique Turn 2198)
 *   **Thunder Wave Failure:** THUNDER WAVE failed against a Lv8 Pidgey in Viridian Forest (Turn 2187). This could indicate Pidgey line has a Ground subtype in this ROM hack, or a specific immunity. Needs further investigation if encountered again. Mark Pidgey as potentially immune to Electric status moves.
