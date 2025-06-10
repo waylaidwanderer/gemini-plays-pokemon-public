@@ -118,3 +118,6 @@
 *   NPCs on `navigable: false` tiles are impassable physical obstacles, even if defeated or non-battling.
 *   Ledge tiles marked `navigable="true"` can be occupied (e.g., by jumping down onto them), but upward movement onto a ledge from below is prevented by game physics, even if the tile's `navigable` attribute is true. The game's movement denial takes precedence over the XML's `navigable` flag for directional traversal of ledges from below.
 *   Defeated trainers may sometimes remain as physical obstacles on their tile; their tile will remain `navigable: false` in map memory.
+
+# Dungeon Navigation Insights (NEW)
+*   **Segmented Dungeons (CRITICAL):** Complex dungeons like Mt. Moon often have multiple disconnected segments on the *same floor*. Different warps/ladders are keys to these distinct areas. Systematically explore each warp from a given floor to discover all accessible sub-sections of other floors. Do not assume all parts of a lower floor are accessible from a single entry point.
