@@ -3,7 +3,7 @@
 *   Pokedex: 10/151 (Target: Complete)
 
 # Current Team & Training Focus (Strategic Notes)
-*   BELLA (GLOOM Lv21): (66/66 HP) | Moves: STUN SPORE (30 PP), ACID (22 PP), LEECH SEED (10 PP), ABSORB (22 PP)
+*   BELLA (GLOOM Lv21): (66/66 HP) | Moves: STUN SPORE (30 PP), ACID (22 PP), LEECH SEED (10 PP), ABSORB (21 PP)
 *   ZAPPY (PIKACHU Lv16): (39/47 HP) | Moves: THUNDERSHOCK (28 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
 *   NINA (NIDORAN♀ Lv12): Healthy (36/36 HP). Keep for Ground/Poison typing. Double Kick is useful.
 *   ECHO (ZUBAT Lv11): Healthy (30/30 HP). Flying type coverage.
