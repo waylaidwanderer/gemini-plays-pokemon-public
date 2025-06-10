@@ -135,3 +135,10 @@
     *   If HP critical vs Geodude before ~3 Tail Whips: May need to Quick Attack early, reducing Onix chances.
     *   If Onix uses Bind and HP depletes fast: Stick to Tail Whip plan if possible (aim for 4-6).
 *   **Warnings:** Luck is a factor. Critical hits are a risk. Set mode means fainting is a loss.
+
+# Brock Battle Attempt 1 (FAILURE - Blackout)
+*   Challenged Brock. SPARKY Lv12 vs Geodude Lv10 & Onix Lv14.
+*   Strategy: Multiple Tail Whips then Quick Attack.
+*   Outcome: SPARKY fainted to Geodude's Rock Throw after several turns. Geodude used Defense Curl multiple times, negating Tail Whips. Quick Attack did minimal damage even with -3 Defense. SPARKY's HP dropped too quickly.
+*   Blacked out and returned to Pewter City Pokemon Center. Money halved (¥392 -> ¥196).
+*   **Conclusion:** Current strategy with SPARKY alone at Lv12 is not viable. Need to level up SPARKY, find a new team member effective against Rock/Ground, or significantly revise the strategy. Will consult leveling advisor.
