@@ -157,7 +157,6 @@
 *   **Notepad Organization:** Added a 'Wild Encounters' sub-section under 'Battle Notes' for better clarity. Added an 'Inventory' sub-section under 'Viridian Forest Notes'.
 *   **Pathing Script:** Fixing the `run_code` pathing script using `pathing_script_analyzer_agent` remains a high-priority task for the next visit to a Pokémon Center or other safe, non-grinding location.
 
-    *   Defeated Wild Caterpie Lv4 (Turn 2126), got 30 EXP. SPARKY's HP: 35/39. Not poisoned. EXP: 1728/2197 for Lv13.
     *   Defeated Wild Oddish Lv6 (Turn 2135), got 66 EXP. SPARKY's HP: 33/39. Not poisoned. EXP: 1794/2197 for Lv13.
     *   Defeated Wild Pidgey Lv7 (Turn 2141), got 55 EXP. SPARKY's HP: 33/39. Not poisoned. THUNDERSHOCK 0 PP. EXP: 1783/2197 for Lv13.
 
