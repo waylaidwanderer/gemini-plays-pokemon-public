@@ -3,8 +3,8 @@
 *   Pokedex: 10/151 (Target: Complete)
 
 # Current Team & Training Focus (Strategic Notes)
-*   BELLA (GLOOM Lv21): (66/66 HP) | Moves: STUN SPORE (30 PP), ACID (22 PP), LEECH SEED (10 PP), ABSORB (17 PP)
-*   ZAPPY (PIKACHU Lv17): (25/50 HP) | Moves: THUNDERSHOCK (18 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
+*   BELLA (GLOOM Lv21): (66/66 HP) | Moves: STUN SPORE (30 PP), ACID (30 PP), LEECH SEED (10 PP), ABSORB (24 PP)
+*   ZAPPY (PIKACHU Lv17): (50/50 HP) | Moves: THUNDERSHOCK (30 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
 *   NINA (NIDORAN♀ Lv12): (36/36 HP) | Moves: GROWL (40 PP), DOUBLE KICK (30 PP), POISON STING (35 PP), BITE (25 PP). Keep for Ground/Poison typing.
 *   ECHO (ZUBAT Lv11): (30/30 HP) | Moves: LEECH LIFE (25 PP), SUPERSONIC (20 PP), GUST (35 PP). Flying type coverage.
 *   LUNA (CLEFAIRY Lv11): (37/37 HP) | Moves: POUND (35 PP), GROWL (40 PP), WATER GUN (25 PP), MEGA PUNCH (20 PP).
@@ -20,27 +20,32 @@
 *   TOWN MAP x1
 
 # Current Location
-*   **Current Location:** Route 4 (Before Mt. Moon) (ID: 15) at (19,8)
+*   **Current Location:** Mt Moon 1F (ID: 59) at (15,29)
 
-# Current Goals
+# Current Goals (Revised Turn 7843)
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
-*   **Secondary Goal:** Heal ZAPPY (PIKACHU) at the Mt. Moon Pokecenter.
-*   **Tertiary Goal:** After healing, secure one of the two Fossils (Dome or Helix) on Mt. Moon B2F by accessing the area via the warp at B1F (14,28).
+*   **Secondary Goal:** Secure one of the two Fossils (Dome or Helix) on Mt. Moon B2F.
+*   **Tertiary Goal:** After obtaining a fossil, give it to the Super Nerd on Mt. Moon B2F to open the path towards the eastern Mt. Moon exit.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
 *   **CRITICAL:** Trust the **annotated screen** for immediate obstacles over map memory if there's a conflict.
-*   The North map connection from Route 3 (e.g., (58,1)) leads to the *lowest tier* of 'Route 4 (Before Mt. Moon)' at (8,18), not into Mt. Moon 1F (Western side). This route is a loop if trying to access upper Route 4 tiers or the western Mt. Moon entrance for traversal.
+*   The North map connection from Route 3 leads to the *lowest tier* of 'Route 4 (Before Mt. Moon)', forming a loop for upper Route 4/western Mt. Moon access.
 *   When on Route 4 (Before Mt. Moon) upper tiers, navigate eastward by descending ledges.
 *   The Super Nerd at Mt. Moon B2F (30,12) requests a fossil; he does not provide one.
-*   **Path Validation:** Before committing to long movement sequences in complex/warp-heavy areas, manually verify initial steps against map XML/annotated screen to avoid unintended warps or blockages. Reduce reliance on `dungeon_navigator_agent` for all pathing; use it for initial discovery, then verify/segment or navigate manually.
+*   **Path Validation:** Manually verify initial steps of agent-generated paths in complex/warp-heavy areas to avoid unintended warps or blockages. Reduce reliance on `dungeon_navigator_agent` for all pathing.
 *   **Multi-Tile Warps:** Be consistently aware of 2-step activation (onto tile, then into boundary/direction).
+*   **Mt. Moon Fossil Hunt Plan (Post-Healing, Revised Turn 7843):**
+    1.  Navigate from Mt. Moon 1F to Mt. Moon B1F.
+    2.  The warp at B1F (14,28) leading to the fossil area of B2F is `reachable: yes`. Proceed to B1F (14,28) and take this warp.
+    3.  Secure a Fossil on B2F (likely near defeated Rocket Grunt at B2F (16,23)).
+    4.  Return the fossil to the Super Nerd at (30,12) on B2F (in the other B2F segment).
 
 ## Battle Strategy
 *   Improve precision in battle menu navigation.
 *   Be mindful of type matchups and PP conservation.
 *   **Risk Assessment:** Avoid switching in Pokémon with critically low HP against opponents that can KO them.
-*   **Healing Priority:** If a key Pokémon is critically injured, prioritize reaching a Pokémon Center quickly, potentially by running from non-essential wild encounters.
+*   **Healing Priority:** Prioritize reaching a Pokémon Center quickly if key Pokémon are critically injured. Consider running from non-essential wild encounters or using Repels if available.
 
 ## ROM Hack Specifics
 *   **General Changes:** Old Rod (Viridian Mart), HMs forgettable/menu use, TMs repurchasable, Trade evos by level.
@@ -49,48 +54,35 @@
 *   **Level Caps:** Misty (Starmie Lv21 -> Cap 21), Lt. Surge (Raichu Lv28 -> Player Cap 24).
 
 ## PC Interaction Notes
-*   Pewter City PC is on the far right (east side) of the Pokecenter, interact from below (e.g., from (14,5) to use PC at (14,4)).
-*   'SOMEONE's PC' is for Pokémon Storage. This is where you withdraw/deposit Pokémon.
-*   'Gem's PC' is for Item Storage.
-*   **CRITICAL MISTAKE LOG (Summarized):** Significant time lost at Pewter PC due to misidentifying PC, incorrect box assumptions for SIR, menu flow misunderstandings, and unproductive repeated inputs. Lesson: Slow down in menus, verify info, and be methodical.
+*   Pewter City PC is on the far right (east side) of the Pokecenter.
+*   'SOMEONE's PC' for Pokémon Storage. 'Gem's PC' for Item Storage.
 
-# Mt. Moon Exploration Strategy (Revised Turn 7826)
-*   **Immediate Objective:** Heal ZAPPY at the Mt. Moon Pokecenter.
-*   **Fossil Hunt Plan (Post-Healing):**
-    1.  Return to Mt. Moon B1F.
-    2.  The warp at B1F (14,28) leading to the fossil area of B2F is NOW CONFIRMED `reachable: yes` by Game State Info. This is the primary route to the fossils.
-    3.  Proceed to B1F (14,28) and take the warp to B2F to find the fossils near the previously defeated Rocket Grunt at B2F (16,23).
-    4.  Secure a Fossil on B2F.
-    5.  Return the fossil to the Super Nerd at (30,12) on B2F (in the other B2F segment).
-*   **Pathfinding Note:** REINFORCED - Be extremely cautious with `dungeon_navigator_agent` paths, especially on maps with warps. Manually verify against map XML or use `local_area_analyzer_agent` to check for unintended warps *before* committing to long movement sequences. Avoid repeating the error of taking an unintended warp.
-
-# Agent Development & Usage
-*   **`item_finder_reminder_agent` (USE AS NEEDED):** Status: Defined. Works well.
-*   **`rom_hack_mechanics_lookup_agent` (1 use):** Status: Defined. Low usage, evaluate if slot is better used.
-*   **`team_composition_advisor_agent` (1 use):** Status: Defined. Low usage, evaluate if slot is better used.
-*   **`item_use_advisor_agent` (1 use):** Status: Defined. Prioritize testing further (e.g., Moon Stone, Rare Candy).
-*   **`dungeon_navigator_agent` (82 uses):** High usage. Reduce reliance. Prioritize manual navigation or segment/verify agent paths.
-*   **`next_battle_action_advisor_agent` (20 uses):** High usage. Continue efforts for more manual battle decisions.
-*   **`battle_strategy_agent` (3 uses):** Re-evaluate utility. Consider for Gym Leaders. If usage remains low, consider deletion.
-*   **`training_regimen_planner_agent` (IDEA - Low Priority):** Purpose: Suggest optimal training order/locations. Status: Idea only. Would require deleting an existing agent. Re-evaluate utility vs. existing agents after challenging Misty.
+# Agent Development & Usage (Revised Turn 7843)
+*   **Current Agents (10/10):** `level_up_move_advisor_agent`, `next_battle_action_advisor_agent`, `item_finder_reminder_agent`, `tm_learning_advisor_agent`, `rom_hack_mechanics_lookup_agent`, `dungeon_navigator_agent`, `team_composition_advisor_agent`, `local_area_analyzer_agent`, `item_use_advisor_agent`, `trainer_data_logger_agent`.
+*   **High Usage Agents to Monitor:**
+    *   `dungeon_navigator_agent` (82 uses): REDUCE RELIANCE. Prioritize manual navigation or segment/verify agent paths, especially in warp-heavy areas.
+    *   `next_battle_action_advisor_agent` (20 uses): Continue efforts for more manual battle decisions, especially for common wild Pokémon.
+*   **Low Usage Agents (Evaluate Utility):**
+    *   `rom_hack_mechanics_lookup_agent` (1 use): Keep for now, useful for quick checks.
+    *   `team_composition_advisor_agent` (1 use): Plan to use before major fights. Keep.
+*   **Agent Ideas (For Future Consideration if Slot Opens):**
+    *   `training_regimen_planner_agent`: (Original idea) Suggest optimal training order/locations. Evaluate post-Misty.
+    *   `rare_candy_optimizer_agent`: Specialized version of `item_use_advisor_agent` for Rare Candies, considering caps, evolutions, pre-evo moves.
+    *   `gym_leader_strategist_agent`: Full battle plan for Gym Leaders (lead, switches, key moves).
+    *   `boulder_puzzle_solver_agent`: For complex boulder puzzles (highly situational).
 *   **Agent Slot Management:** 10/10 agents defined. Be mindful of the limit. Consider deleting less useful agents if new ones are needed.
+*   **Correction:** The `battle_strategy_agent` mentioned previously was a misremembered/hallucinated agent; it does not exist in the current defined list. Notepad corrected.
 
-# Critique Action Items (From Turn 7825 Feedback)
-*   Reduce reliance on `dungeon_navigator_agent`; improve manual pathfinding, segment/verify agent paths.
-*   Prioritize healing critical Pokémon quickly (e.g., run from battles if needed).
-*   Consistently apply knowledge of multi-tile warp activation.
-*   Thoroughly test `item_use_advisor_agent`.
-*   Action (create/discard) `training_regimen_planner_agent` idea post-Misty.
-*   Condense verbose notepad sections (e.g., Mt. Moon strategy).
-*   For Trainer Battle Intel, focus on defeat status/location, omit redundant `navigable: false` notes if XML is trusted.
+# Critique Action Items (From Turn 7825 Feedback - ARCHIVED)
+*   (This section is now archived as items were addressed or integrated into ongoing strategy.)
 
 # Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
 *   Explored parts of Route 3 and Mt. Moon 1F, B1F, B2F.
 *   Exited Mt. Moon (western exit) onto Route 4 (Before Mt. Moon).
-*   Confirmed Route 3 (North) to Route 4 (Before Mt. Moon) (South) map connection forms a loop for Mt. Moon traversal purposes.
+*   Confirmed Route 3 (North) to Route 4 (Before Mt. Moon) (South) map connection forms a loop.
 *   Deposited WIGGLES (Caterpie Lv4) into PC Box 3. Withdrew SIR (Paras Lv13) from PC Box 1.
-*   Healed party at Mt. Moon Pokecenter (multiple times).
+*   Healed party at Mt. Moon Pokecenter (multiple times, most recently turn 7835).
 *   Warp at B1F (14,28) to B2F (fossil area) confirmed `reachable: yes` as of Turn 7800.
 
 # Trainer Battle Intel
@@ -118,11 +110,7 @@
 ## Route 4 (Before Mt. Moon) Trainers
 *   Cool Trainer F (ID 1) at (Route 4 Before Mt. Moon, 10,9) - **UNENGAGEABLE / NOT DEFEATED.** (Player choice to avoid).
 
-# ARCHIVED LOGS (Summarized)
-*   **Mt. Moon Exploration:** Successfully navigated Mt. Moon and found western exit to Route 4. Noted complexity and segmented nature of B1F/B2F. Super Nerd wants a fossil.
-*   **Route 4 (Before Mt. Moon) Navigation:** Initial attempts to navigate Route 4 eastward from Mt. Moon's exit were inefficient due to prematurely jumping down ledges, forcing a loop back via Route 3. The correct path requires staying on the upper tier after exiting Mt. Moon (eastern exit) and heading east.
-
-## Navigation Rules & Insights
+# Navigation Rules & Insights
 *   NPCs on `navigable: false` tiles are impassable physical obstacles, even if defeated or non-battling.
 *   Ledge tiles marked `navigable="true"` can be occupied (e.g., by jumping down onto them), but upward movement onto a ledge from below is prevented by game physics, even if the tile's `navigable` attribute is true. The game's movement denial takes precedence over the XML's `navigable` flag for directional traversal of ledges from below.
 *   Defeated trainers may sometimes remain as physical obstacles on their tile; their tile will remain `navigable: false` in map memory.
