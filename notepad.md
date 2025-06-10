@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Explore Viridian Forest to find items and the exit to Pewter City.
-*   **Tertiary Goal:** Collect all readily accessible items within Viridian Forest.
+*   **Secondary Goal:** Locate the Pewter City Gym.
+*   **Tertiary Goal:** Visit the Pewter City Mart to purchase Potions and Poké Balls.
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
@@ -25,6 +25,7 @@
 *   **Exploration Planner Paths:** If the `exploration_planner` provides a very long or scattered path, consider breaking it into smaller, logical segments or re-running the planner after a short manual move to a new area. This can lead to more manageable and efficient exploration.
 *   **Type Matchups (CRITICAL REMINDER):** Pay closer attention to type matchups. Electric-type moves (like THUNDERSHOCK) are NOT VERY EFFECTIVE against Grass/Poison types like Oddish. This was a critical error leading to SPARKY taking unnecessary damage and getting poisoned.
 *   **Status Conditions (Poison):** Poison is a serious threat in Hard Mode, especially with no in-battle items. If SPARKY gets poisoned, prioritize reaching a Pokémon Center or using an Antidote (if available) ASAP. Do not continue to battle or explore extensively while poisoned, as the damage accumulates quickly and can lead to fainting.
+*   **Short-Range Pathing & Interaction:** Improve observation of immediate surroundings (NPCs, obstacles) to avoid wasted turns. Verify navigability and facing before committing to paths or interactions, especially in confined spaces.
 
 # Hard Mode Rules
 *   Battle Style: Set.
@@ -76,42 +77,34 @@
 # Battle Notes
 *   SPARKY learned TAIL WHIP, replacing GROWL at Lv11 (Turn 1004).
 *   Defeated by Bug Catcher (ID: VIRIDIANFOREST_YOUNGSTER5) at (17,18) in Viridian Forest after its Caterpie and Metapod. SPARKY fainted due to poison and accumulated damage, resulting in a blackout. Returned to Viridian City Pokemon Center. (Turn 1104)
+*   Defeated Lass (Cool Trainer F, ID 5) at (3,42) in Viridian Forest. Her Pokemon: NIDORAN♀ Lv6, NIDORAN♂ Lv6. SPARKY was at 26/39 HP after the battle. Got ¥90.
+*   Defeated Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. His Pokemon: Pinsir Lv8, Metapod Lv9. Got ¥90.
 
 # Pewter City Prep
 *   Find out Brock's Ace level / level cap for Hard Mode.
 *   Plan party composition/training for Brock.
 *   Test battle_strategist_agent and leveling_training_advisor_agent before challenging Brock.
 
-*   **Horizontal Ledge Movement (AI Critique):** The AI noted that assuming one can step horizontally onto a ledge from an adjacent ground tile at the same Y-level is generally a flawed assumption, even if specific map data shows `navigable="true"`. It's better to verify this on a case-by-case basis and be cautious about general ledge traversal rules.
-
-*   **Type Matchups (REINFORCED - CRITICAL ERROR):** THUNDERSHOCK is NOT VERY EFFECTIVE against Grass/Poison types (e.g., Oddish). This is a recurring mistake. QUICK ATTACK (Normal) is neutral and often a better choice for consistent damage in such cases. Must internalize type charts.
-*   **Proactive Healing & Poison Management (REINFORCED - CRITICAL ERROR):** Blacking out due to poison and accumulated damage from poor battle choices is unacceptable. If SPARKY is poisoned, prioritize healing (Antidote if available, Potion if HP is low, or retreat to a Pokémon Center) *before* further exploration or difficult battles. Do not rely on nearly fainting before healing. Use Potions more liberally outside of battle to maintain high HP.
-
-- Defeated Lass (Cool Trainer F, ID 5) at (3,42) in Viridian Forest. Her Pokemon: NIDORAN♀ Lv6, NIDORAN♂ Lv6. SPARKY was at 26/39 HP after the battle. Got ¥90.
-
-*   **Poison Management & Preparedness (CRITICAL REINFORCEMENT):** Encountering Oddish and getting SPARKY poisoned in Viridian Forest, then taking further damage while retreating, highlights critical vulnerabilities. 1. Always carry Antidotes when entering hazardous areas. 2. If poisoned, retreat to a Pokémon Center *immediately* and avoid further encounters (consider running if possible). Do not continue exploring or battling, even if HP is initially high. 3. Proactively purchase healing items and status cures. Operating with minimal supplies is too risky in Hard Mode.
-*   **Agent Pathing (map_analyzer_agent - REINFORCED):** Consistently break down long paths provided by `map_analyzer_agent` into very short, verifiable segments (e.g., 5-10 steps) from the outset, especially in mazes. Do not attempt to follow long sequences in one go, as they are prone to interruption and inefficiency.
+# Pewter City Museum Notes (COMPLETED)
+*   Paid ¥50 to enter.
+*   **Museum 1F NPCs & Items:**
+    *   Attendant at (10,5): Sells tickets.
+    *   Old Man (Gambler sprite, ID 1) at (2,5): "That is one magnificent fossil!"
+    *   All tiles seen, all NPCs spoken to.
+*   **Museum 2F NPCs & Items:**
+    *   Scientist (ID 3) at (8,6): "We have a space exhibit now."
+    *   Brunette Girl (ID 4) at (12,6): "I want a PIKACHU! It's so cute! I asked my Daddy to catch me one!"
+    *   Hiker (ID 5) at (13,6): "I'd love to get that strong looking PIKACHU off you! Too bad it looks so attached. They've been hard to find lately!"
+    *   Youngster (ID 1) at (8,8): On the warp tile to 1F (no unique dialogue).
+    *   Gramps (ID 2) at (1,6): "July 20, 1969! The 1st lunar landing! I bought a color TV to watch it!"
+    *   Sign at (3,6) MUSEUM2F_MOON_STONE_SIGN is impassable.
+    *   Sign at (12,3) MUSEUM2F_SPACE_SHUTTLE_SIGN.
+    *   All tiles seen, all NPCs spoken to.
 
 # Viridian City Notes
 *   Youngster (no ID in map sprites, but observed) at (31,26) can block the path to the Mart if approaching from the east along row 26. Need to go around via row 27 if blocked.
 
 # General Strategy Notes
 *   Break down long agent-generated paths (e.g., from `map_analyzer_agent` or `exploration_planner`) into shorter, verifiable segments (e.g., 5-10 steps, or to an intermediate landmark). Re-evaluate after each segment, especially in complex/maze-like areas.
-
-- Defeated Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. His Pokemon: Pinsir Lv8, Metapod Lv9. Got ¥90.
-
-# Pewter City Museum Notes
-*   Paid ¥50 to enter.
-*   **Museum 1F NPCs:**
-    *   Attendant at (10,5): Sells tickets.
-*   **Museum 2F NPCs:**
-    *   Scientist (ID 3) at (8,6): "We have a space exhibit now."
-    *   Brunette Girl (ID 4) at (12,6): "I want a PIKACHU! It's so cute! I asked my Daddy to catch me one!"
-    *   Hiker (ID 5) at (13,6): "I'd love to get that strong looking PIKACHU off you! Too bad it looks so attached. They've been hard to find lately!"
-    *   Youngster (ID 1) at (8,8): On the warp tile to 1F.
-    *   Gramps (ID 2) at (1,6) on Museum 2F: Spoken to. Dialogue: "July 20, 1969! The 1st lunar landing! I bought a color TV to watch it!". All NPCs on Museum 2F now spoken to.
-*   Sign at (3,6) MUSEUM2F_MOON_STONE_SIGN is impassable.
-*   Sign at (12,3) MUSEUM2F_SPACE_SHUTTLE_SIGN.
-
-*   Gramps (ID 2) at (1,6) on Museum 2F: Not yet spoken to. (Current target)
-*   All other NPCs on Museum 2F have been spoken to. All tiles on Museum 2F have been seen.
+*   **Proactive Healing & Poison Management (REINFORCED - CRITICAL ERROR):** Blacking out due to poison and accumulated damage from poor battle choices is unacceptable. If SPARKY is poisoned, prioritize healing (Antidote if available, Potion if HP is low, or retreat to a Pokémon Center) *before* further exploration or difficult battles. Do not rely on nearly fainting before healing. Use Potions more liberally outside of battle to maintain high HP.
+*   **Type Matchups (REINFORCED - CRITICAL ERROR):** THUNDERSHOCK is NOT VERY EFFECTIVE against Grass/Poison types (e.g., Oddish). This is a recurring mistake. QUICK ATTACK (Normal) is neutral and often a better choice for consistent damage in such cases. Must internalize type charts.
