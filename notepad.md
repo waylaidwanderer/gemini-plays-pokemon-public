@@ -1,7 +1,7 @@
 # Current Objectives
-*   **Primary Goal:** Find the Viridian City Gym and PokeMart.
-*   **Secondary Goal:** Explore all unseen areas of Viridian City.
-*   **Tertiary Goal:** Find any items or important NPCs in Viridian City.
+*   **Primary Goal:** Deliver OAK'S PARCEL to Professor Oak in Pallet Town.
+*   **Secondary Goal:** Find the Viridian City Gym.
+*   **Tertiary Goal:** Explore remaining unseen areas of Viridian City and its buildings.
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
