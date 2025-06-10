@@ -112,12 +112,11 @@
 
 **Battle Mechanics Update (Mt. Moon):** Confirmed Acid (Poison-type move) is 'not very effective' (0.5x) against wild Zubat (Poison/Flying). This indicates a ROM hack change where Poison attacks are resisted by either Poison-type or Flying-type Pokémon (or both, though less likely for 0.5x). Standard Gen 1: Poison vs Poison = 1x, Poison vs Flying = 1x.
 
-# Mt. Moon Exploration Strategy (Revised Turn 7635)
-*   **Systematic Exploration:** The eastern exit to Cerulean City is likely on Mt. Moon B1F or B2F. Mt. Moon 1F serves as a hub with multiple warps leading to different, potentially isolated segments of the lower floors.
-*   **Warp at (18,12) on 1F:** Leads to a self-contained B1F/B2F loop (Super Nerd fossil area). Avoid for progression.
-*   **Warp at (26,16) on 1F:** Successfully used to access a new section of B1F, which then led to the current B2F area via warp (14,28) on B1F.
-*   **Current Focus (Mt. Moon B2F):** Explore the current B2F section (accessed from B1F (26,16) -> B1F (14,28) -> B2F (16,28)) for the eastern exit or further connections. 
-*   **Obstacle Note:** The defeated Rocket Grunt (ID 3) at (16,23) on B2F is unexpectedly blocking the path westward from (17,23). Current exploration is focused eastward from this point.
+# Mt. Moon Exploration Strategy (Revised Turn 7677)
+*   **Current Location:** Mt. Moon B1F at (14,28), arrived via warp from B2F. This B1F segment is known (high visit count on warp at (14,28) leading to B2F).
+*   **Objective:** Find the eastern exit to Route 4 (leading to Cerulean City) or a warp to an unexplored section of Mt. Moon that might contain it.
+*   **Immediate Plan:** Explore the current B1F segment. Since it's a known junction, re-evaluate its layout. No reachable unseen tiles or unvisited warps are listed for this *segment* in map memory, but the game state says undiscovered warps exist on B1F overall.
+*   **Contingency:** If this segment is a dead end for eastern progression, the reachable warp at (26,16) on B1F (leading to Mt. Moon 1F) is the primary alternative to access other parts of the dungeon.
 
 # Critique Feedback & Action Items (Turn 7426)
 *   Test `item_use_advisor_agent` soon (e.g., with Moon Stone or Rare Candy).
