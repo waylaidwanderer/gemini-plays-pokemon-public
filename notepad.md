@@ -63,27 +63,19 @@
     *   **Status:** Defined.
     *   **Purpose:** Quick lookup for ROM hack mechanics.
     *   **Notes:** Test its utility.
-*   **`Team Composition Advisor` (Low Priority - Define/Discard):**
-    *   **Status:** Idea phase.
-    *   **Action:** Decide whether to define this agent or discard the idea to focus development efforts.
+*   **`Team Composition Advisor` (DISCARDED):** Idea discarded to focus development efforts. (Critique acknowledged)
 *   **Agent Usage Review (`battle_strategy_agent`, `encounter_optimizer_agent`, `level_up_move_advisor_agent`, `next_battle_action_advisor_agent`, `tm_learning_advisor_agent`):**
     *   **Status:** Defined.
     *   **Action:** Evaluate necessity of less-used agents. Consolidate or delete if not providing consistent value.
     *   **Note on `next_battle_action_advisor_agent`:** High usage. Reduce reliance.
-*   **`training_optimizer_agent` (Medium Priority - Define):**
+*   **`training_optimizer_agent` (High Priority - Define):**
     *   **Status:** Idea solidified.
     *   **Purpose:** Suggests training spots/opportunities for weaker Pokémon, and safe switch-in strategies.
     *   **Input:** Party, PC, current location, known upcoming trainers/wild encounters (and their levels/types if known), current level cap.
     *   **Output:** Recommendations for specific Pokémon to train, best training locations/routes, specific wild Pokémon to target, and potentially safe switch-in strategies for EXP gain. Should consider type advantages and EXP yield.
-    *   **Action:** Define this agent when a good training opportunity or need arises, e.g., before the next Gym Leader if party levels are disparate.
-*   **`route_planner_agent` (Low Priority - Idea):**
-    *   **Purpose:** Suggests a sequence of maps to traverse for multi-map journeys, considering connections and points of interest (Pokecenters, Marts). Does not do intra-map pathfinding.
-    *   **Input:** Start map, end map, list of known map connections, list of points of interest on relevant maps.
-    *   **Output:** Suggested sequence of maps.
-*   **`item_usage_advisor_agent` (Low Priority - Idea):**
-    *   **Purpose:** Advises on optimal timing or Pokémon recipient for consumable items like Rare Candy, Moon Stone, TMs (if single-use).
-    *   **Input:** Item details, current party, PC box, level caps, upcoming challenges.
-    *   **Output:** Recommendation on whether to use the item, who to use it on, and when.
+    *   **Action:** Define this agent soon, especially before major battles if party levels are disparate or specific type training is needed. (Critique acknowledged)
+*   **`route_planner_agent` (DISCARDED):** Idea discarded for now. (Critique acknowledged)
+*   **`item_usage_advisor_agent` (DISCARDED):** Idea discarded for now. (Critique acknowledged)
 
 # Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
