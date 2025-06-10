@@ -20,12 +20,12 @@
 *   TOWN MAP x1
 
 # Current Location
-*   Pewter Pokecenter (ID: 58) at (14,5)
+*   Pewter City (ID: 2) at (19,23)
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
 *   **Secondary Goal:** Traverse Mt. Moon and reach Route 4 (East of Mt. Moon).
-*   **Tertiary Goal:** Apply agent advice for team composition by swapping WIGGLES for SIR.
+*   **Tertiary Goal:**
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
@@ -51,10 +51,10 @@
 *   'Gem's PC' is for Item Storage.
 *   **CRITICAL MISTAKE LOG:** Spent ~50 turns fumbling PC interactions in Pewter Pokecenter due to: 
     1. Misidentifying the PC location (tried non-PC terminal, Link Receptionist).
-    2. Forgetting SIR was in Box 3 and repeatedly trying Box 1.
-    3. Misunderstanding menu flow (e.g., accessing Item Storage via 'Gem's PC').
+    2. Forgetting SIR was in Box 3 and repeatedly trying Box 1 (then later incorrectly assuming Box 3 again after depositing WIGGLES there).
+    3. Misunderstanding menu flow (e.g., accessing Item Storage via 'Gem's PC', getting stuck on 'WITHDRAW PKMN' screen).
     4. Repeatedly pressing 'A' on static menu screens expecting a different outcome.
-    *Lesson: Slow down in menus, consult notepad for critical info (like PC box numbers), and don't assume repeated actions on a non-responsive menu will work.* 
+    *Lesson: Slow down in menus, consult notepad for critical info (like PC box numbers, if accurately recorded!), and don't assume repeated actions on a non-responsive menu will work. If a box's contents don't match expectations, re-verify the box number or check other boxes methodically.*
 
 # Agent Development Plan
 *   **`item_finder_reminder_agent` (USE AS NEEDED):**
@@ -63,7 +63,7 @@
     *   **Status:** Defined. Works as expected.
 *   **`team_composition_advisor_agent` (Low Priority - Tested):**
     *   **Status:** Defined. Works as expected.
-*   **Agent Usage Review (9/10 agents):**
+*   **Agent Usage Review (8/10 agents):**
     *   `hm_advisor_agent` deleted (0 uses).
     *   **Action:** Reduce reliance on `dungeon_navigator_agent` (45 uses) and `next_battle_action_advisor_agent` (18 uses). Attempt manual navigation/battle decisions first.
     *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use) if not used more consistently soon.
@@ -77,7 +77,7 @@
 *   Confirmed Route 3 (North) to Route 4 (Before Mt. Moon) (South) map connection forms a loop for Mt. Moon traversal purposes.
 *   Tested `rom_hack_mechanics_lookup_agent` and `team_composition_advisor_agent`.
 *   Deleted `hm_advisor_agent`.
-*   Deposited WIGGLES (Caterpie Lv4) into PC.
+*   Deposited WIGGLES (Caterpie Lv4) into PC Box 3. Withdrew SIR (Paras Lv13) from PC Box 1.
 
 # Trainer Battle Intel
 ## Route 3 Trainers
@@ -100,30 +100,3 @@
 # ARCHIVED LOGS (Summarized)
 *   **Mt. Moon Exploration:** Successfully navigated Mt. Moon and found eastern exit to Route 4. Noted complexity and segmented nature of B1F/B2F. Super Nerd wants a fossil.
 *   **Route 4 (Before Mt. Moon) Navigation:** Initial attempts to navigate Route 4 eastward from Mt. Moon's exit were inefficient due to prematurely jumping down ledges, forcing a loop back via Route 3. The correct path requires staying on the upper tier after exiting Mt. Moon (eastern exit) and heading east.
-*   **PC Frustration (Pewter):** Spent many turns misidentifying the PC and then struggling with Box navigation. Correct PC is (14,4), interact from (14,5). SIR is in Box 3. 'SOMEONE's PC' for Pokémon, 'Gem's PC' for items. Massive time sink due to not consulting notes and misinterpreting menus.
-
-# Gameplay Notes & Strategy
-## PC Interaction Notes
-*   Pewter City PC is on the far right (east side) of the Pokecenter, interact from below (e.g., from (14,5) to use PC at (14,4)).
-*   'SOMEONE's PC' is for Pokémon Storage. This is where you withdraw/deposit Pokémon.
-*   'Gem's PC' is for Item Storage.
-*   **CRITICAL MISTAKE LOG:** Spent ~50 turns fumbling PC interactions in Pewter Pokecenter due to: 
-    1. Misidentifying the PC location (tried non-PC terminal, Link Receptionist).
-    2. Forgetting SIR was in Box 3 and repeatedly trying Box 1 (then later incorrectly assuming Box 3 again after depositing WIGGLES there).
-    3. Misunderstanding menu flow (e.g., accessing Item Storage via 'Gem's PC', getting stuck on 'WITHDRAW PKMN' screen).
-    4. Repeatedly pressing 'A' on static menu screens expecting a different outcome.
-    *Lesson: Slow down in menus, consult notepad for critical info (like PC box numbers, if accurately recorded!), and don't assume repeated actions on a non-responsive menu will work. If a box's contents don't match expectations, re-verify the box number or check other boxes methodically.*
-
-# Agent Development Plan
-*   **`item_finder_reminder_agent` (USE AS NEEDED):**
-    *   **Status:** Defined. Works well.
-*   **`rom_hack_mechanics_lookup_agent` (Low Priority - Tested):**
-    *   **Status:** Defined. Works as expected.
-*   **`team_composition_advisor_agent` (Low Priority - Tested):**
-    *   **Status:** Defined. Works as expected.
-*   **Agent Usage Review (8/10 agents):**
-    *   `hm_advisor_agent` deleted (0 uses).
-    *   **Action:** Reduce reliance on `dungeon_navigator_agent` (45 uses) and `next_battle_action_advisor_agent` (18 uses). Attempt manual navigation/battle decisions first.
-    *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use) if not used more consistently soon.
-*   **`dungeon_navigator_agent` (USE WITH CAUTION):**
-    *   **Status:** Defined. High usage noted. Attempt more manual navigation. Review paths or use 'avoid_coordinates' when using.
