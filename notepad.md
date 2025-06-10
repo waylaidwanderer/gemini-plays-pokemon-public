@@ -41,7 +41,7 @@
     4.  **Corrected Path to Super Nerd (ID 4) on Mt. Moon B2F:**
         a.  From the current B2F segment (entry_point 5), navigate to the warp at B2F (22,18). Use this warp to return to Mt. Moon B1F, arriving at B1F (22,18).
         b.  On Mt. Moon B1F, navigate from (22,18) to the *correct* warp at B1F (26,10).
-        c.  Use the warp at Mt. Moon B1F (26,10). This warp leads to Mt. Moon B2F (entry_point 2), which is the Super Nerd's area.
+        c.  Use the warp at Mt. Moon B1F (22,18). This warp leads to Mt. Moon B2F (entry_point 2), which is the Super Nerd's area. (Note: The warp at B1F (26,10) leads to Mt. Moon 1F, not B2F).
         d.  Upon arrival on Mt. Moon B2F (at coordinates (26,10)), navigate to the Super Nerd (ID 4) at (30,12).
         e.  Battle and defeat the Super Nerd.
         f.  After defeating him, two Fossils (Dome/Helix) should appear as item balls nearby. Select one.
