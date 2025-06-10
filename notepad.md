@@ -69,7 +69,8 @@ Previous attempts to find the B1F(22,18) warp or an exit from the current B1F/B2
 2.  Use warp B1F(26,10) -> 1F(18,12). (1F(18,12) is 1F's warp #4).
 3.  On 1F (ID 59), navigate from (18,12) to the warp at 1F(6,6). (1F(6,6) is 1F's warp #3).
 4.  Use warp 1F(6,6) -> B1F(6,6). (B1F(6,6) is B1F's warp #1). Arrived in new B1F segment. (Completed)
-5.  On this new B1F segment, explore to find the warp at B1F(22,18) (which is B1F warp #5 leading to B2F entry 2) or another path to Route 4 East.
+5.  On this new B1F segment, explore to find the warp at B1F(22,18) (which is B1F warp #5 leading to B2F entry 2) or another path to Route 4 East. (Completed - Arrived at Mt. Moon B2F (22,18) via this warp)
+6. On Mt. Moon B2F, explore to find the exit to Route 4 East, or a warp leading to a segment that contains such an exit. Prioritize reachable unseen tiles.
 
 # Trainer Battle Intel
 ## Route 3
