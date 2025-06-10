@@ -26,8 +26,8 @@
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and obtain the Cascade Badge from Misty.
-*   **Secondary Goal:** Find the correct path through Mt. Moon B1F (from entry point (26,16)) and B2F to reach Route 4 (east of Mt. Moon).
-*   **Tertiary Goal:** Train ZAPPY against wild Pokémon if strategically beneficial; avoid using NINA (12/36 HP) until healed.
+*   **Secondary Goal:** Reach the Mt. Moon exit leading to Route 4 East.
+*   **Tertiary Goal:** Heal NINA (NIDORAN♀) at the Cerulean City Pokémon Center.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
