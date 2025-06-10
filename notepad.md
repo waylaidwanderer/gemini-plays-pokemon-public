@@ -103,3 +103,6 @@
 
 # Agent Review TODO
 *   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use). Consider revision or deletion if not meeting needs.
+
+## Mt. Moon 1F Trainers
+*   Youngster (ID 7) at (31,28) - Non-battling (gives dialogue: "This cave leads to CERULEAN CITY!"). His tile (31,28) is effectively `navigable: false` due to NPC presence and blocks westward movement from (32,28).
