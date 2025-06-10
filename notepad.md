@@ -129,3 +129,5 @@
 *   Minimize over-reliance on `dungeon_navigator_agent`; improve manual pathfinding or use agent for initial complex paths then execute manually.
 *   Consider using `local_area_analyzer_agent` more proactively when stuck locally.
 *   Re-evaluate strategy if wild encounters significantly impede progress (consider running more often).
+
+*   **Path Validation:** Before committing to long movement sequences in complex areas, more carefully validate paths against known obstacles, map memory, and the annotated screen to avoid repeated blockages.
