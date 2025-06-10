@@ -186,3 +186,5 @@
 *   **Agent Usage - Testing Priority:** High priority to test newly defined/updated agents at the next safe opportunity: `pokedex_completer_agent`, `team_builder_agent`, `direct_pathing_agent`, `rom_hack_mechanic_investigator_agent`. Their utility is unknown until tested.
 *   **Agent Usage - `pathing_script_analyzer_agent` (CRITICAL REITERATION):** Fixing the `run_code` pathing script via `pathing_script_analyzer_agent` remains a top non-combat priority. Deferring this further is detrimental.
 *   **EXP Note Cleanup:** The tertiary goal to clean up EXP notes is important for notepad clarity.
+
+    *   Defeated Wild Weedle Lv4 (Turn 2206), gained 29 EXP. SPARKY's HP: 39/39. Not poisoned. (Game State EXP before battle: 1728. EXP after: 1757 / 2197 for Lv13).
