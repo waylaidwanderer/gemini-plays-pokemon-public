@@ -1,18 +1,18 @@
 # Pokédex & Badges
 *   Badges: Boulder Badge
-*   Pokedex: 9/151 (Target: Complete)
+*   Pokedex: 10/151 (Target: Complete)
 
 # Current Team & Training Focus (Strategic Notes)
 *   BELLA (GLOOM Lv21): Core attacker, currently healthy.
-*   ZAPPY (PIKACHU Lv16): Healthy (37/47 HP).
+*   ZAPPY (PIKACHU Lv16): Healthy (47/47 HP).
 *   NINA (NIDORAN♀ Lv12): Keep for Ground/Poison typing. Double Kick is useful.
-*   WIGGLES (CATERPIE Lv4): Long-term Butterfree potential.
+*   WIGGLES (CATERPIE Lv4): To be swapped for SIR (Paras Lv13).
 *   ECHO (ZUBAT Lv11): Flying type coverage, currently healthy.
 *   LUNA (CLEFAIRY Lv11): Healthy (37/37 HP).
 
 # Key Items & TMs (Strategic Notes)
 *   OLD ROD x1
-*   POKé BALL x8
+*   POKé BALL x5
 *   TM34 (BIDE) x1 - Evaluate for team.
 *   HP UP x1 - Used on ZAPPY.
 *   RARE CANDY x1 - Save for strategic use.
@@ -20,12 +20,12 @@
 *   TOWN MAP x1
 
 # Current Location
-* Pewter Pokecenter (ID: 58) at (12,4)
+*   Pewter Pokecenter (ID: 58) at (14,5)
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
 *   **Secondary Goal:** Traverse Mt. Moon and reach Route 4 (East of Mt. Moon).
-*   **Tertiary Goal:** Test rom_hack_mechanics_lookup_agent and team_composition_advisor_agent.
+*   **Tertiary Goal:** Consolidate custom agents by deleting unused ones to free up slots and review usage patterns of others.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
@@ -45,18 +45,21 @@
 *   **Stat Boosts:** Pikachu, Farfetch’d, Venomoth, Onix.
 *   **Level Caps:** Misty (Starmie Lv21 -> Cap 21), Lt. Surge (Raichu Lv28 -> Player Cap 24).
 
+## PC Interaction Notes
+*   Pewter City PC is on the far right (east side) of the Pokecenter, interact from below (e.g., (14,5) to use PC at (14,4)).
+*   'SOMEONE's PC' is for Pokémon Storage.
+*   'Gem's PC' is for Item Storage.
+
 # Agent Development Plan
 *   **`item_finder_reminder_agent` (USE AS NEEDED):**
     *   **Status:** Defined. Works well.
-*   **`rom_hack_mechanics_lookup_agent` (Low Priority - Test):**
-    *   **Status:** Defined. Untested.
-*   **`team_composition_advisor_agent` (Low Priority - Test):**
-    *   **Status:** Defined. Untested.
-*   **`hm_advisor_agent` (Low Priority - Test):**
-    *   **Status:** Defined. Untested.
-*   **Agent Usage Review (`battle_strategy_agent`, `encounter_optimizer_agent`, `level_up_move_advisor_agent`, `next_battle_action_advisor_agent`, `tm_learning_advisor_agent`):**
-    *   **Status:** Defined.
-    *   **Action:** ACTION REQUIRED: At 10/10 agent limit. Delete an unused/low-value agent (e.g., `hm_advisor_agent` - 0 uses) to free a slot. Then, evaluate other less-used agents (`next_battle_action_advisor_agent` - high use, review if still optimal). Reduce reliance on `next_battle_action_advisor_agent`.
+*   **`rom_hack_mechanics_lookup_agent` (Low Priority - Tested):**
+    *   **Status:** Defined. Works as expected.
+*   **`team_composition_advisor_agent` (Low Priority - Tested):**
+    *   **Status:** Defined. Works as expected, but user needs to implement advice more efficiently.
+*   **Agent Usage Review:**
+    *   **Status:** 9/10 agents. `hm_advisor_agent` deleted.
+    *   **Action:** Reduce reliance on `dungeon_navigator_agent` and `next_battle_action_advisor_agent`. Attempt manual navigation/battle decisions first.
 *   **`dungeon_navigator_agent` (USE WITH CAUTION):**
     *   **Status:** Defined. High usage noted. Attempt more manual navigation. Review paths or use 'avoid_coordinates' when using.
 
@@ -65,6 +68,8 @@
 *   Explored parts of Route 3 and Mt. Moon 1F, B1F, B2F.
 *   Exited Mt. Moon (eastern exit) onto Route 4 (Before Mt. Moon).
 *   Confirmed Route 3 (North) to Route 4 (Before Mt. Moon) (South) map connection forms a loop for Mt. Moon traversal purposes.
+*   Tested `rom_hack_mechanics_lookup_agent` and `team_composition_advisor_agent`.
+*   Deleted `hm_advisor_agent`.
 
 # Trainer Battle Intel
 ## Route 3 Trainers
@@ -87,8 +92,4 @@
 # ARCHIVED LOGS (Summarized)
 *   **Mt. Moon Exploration:** Successfully navigated Mt. Moon and found eastern exit to Route 4. Noted complexity and segmented nature of B1F/B2F. Super Nerd wants a fossil.
 *   **Route 4 (Before Mt. Moon) Navigation:** Initial attempts to navigate Route 4 eastward from Mt. Moon's exit were inefficient due to prematurely jumping down ledges, forcing a loop back via Route 3. The correct path requires staying on the upper tier after exiting Mt. Moon (eastern exit) and heading east. Current plan involves backtracking through Route 3, re-entering Mt. Moon from the west, traversing it to its eastern exit, then exploring eastward on the upper tier of Route 4.
-
-# PC Interaction Notes
-*   Pewter City PC is on the far right (east side) of the Pokecenter, interact from below (e.g., (14,5) to use PC at (14,4)).
-*   'SOMEONE's PC' is for Pokémon Storage.
-*   'Gem's PC' is for Item Storage.
+*   **PC Frustration (Pewter):** Spent many turns misidentifying the PC and then struggling with Box navigation. Correct PC is (14,4), interact from (14,5). SIR is in Box 3. 'SOMEONE's PC' for Pokémon, 'Gem's PC' for items.
