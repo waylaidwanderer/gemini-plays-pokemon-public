@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Enter the Pewter City Gym.
-*   **Tertiary Goal:** Visit the Pewter City Mart to purchase Potions and Poké Balls.
+*   **Secondary Goal:** Level up SPARKY to Lv14 to better challenge Brock.
+*   **Tertiary Goal:** Develop a viable battle strategy for Brock's Pokémon.
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
@@ -54,6 +54,8 @@
 *   `battle_strategist_agent`: Assists with Hard Mode boss fight planning. (Use for upcoming tough trainers or Gym Leaders. Test this agent to assess its effectiveness.)
 *   `item_finder_agent`: Searches map for items. (Use to find remaining items in an area. Test this agent to assess its effectiveness.)
 *   `leveling_training_advisor_agent`: Advises on optimal grinding spots, Pokemon to train, and EV training strategies based on current party, level cap, known areas/trainers, and game mode (e.g., Hard Mode restrictions). (Use when preparing for gym leaders or if general leveling is needed. Test this agent to assess its effectiveness.)
+*   `pokedex_completer_agent`: Suggests targets for Pokedex completion. (Defined - test effectiveness)
+*   `team_builder_agent`: Suggests ideal team compositions for major challenges. (Defined - test effectiveness)
 ## Pathing Script (`run_code`) Behavior (**CRITICAL - DO NOT USE UNTIL FIXED - IMMEDIATE ACTION REQUIRED**)
 *   The `run_code` script for path generation is **FUNDAMENTALLY FLAWED** and **UNRELIABLE**.
     *   **NEW STRATEGY (MANDATORY):** **DO NOT USE THIS SCRIPT for any path longer than 1-2 easily verifiable steps.** Prioritize **MANUAL NAVIGATION**. If stuck, use `map_analyzer_agent` to query for paths.
@@ -73,15 +75,17 @@
 *   Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (28,20): **Defeated**.
 *   Items Collected:
     *   Potion at (26,12) - Collected (Turn 981).
+    *   Potion at (13,30) - Collected (Turn 1905).
 
 # Battle Notes
 *   SPARKY learned TAIL WHIP, replacing GROWL at Lv11 (Turn 1004).
 *   Defeated by Bug Catcher (ID: VIRIDIANFOREST_YOUNGSTER5) at (17,18) in Viridian Forest after its Caterpie and Metapod. SPARKY fainted due to poison and accumulated damage, resulting in a blackout. Returned to Viridian City Pokemon Center. (Turn 1104)
 *   Defeated Lass (Cool Trainer F, ID 5) at (3,42) in Viridian Forest. Her Pokemon: NIDORAN♀ Lv6, NIDORAN♂ Lv6. SPARKY was at 26/39 HP after the battle. Got ¥90.
 *   Defeated Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. His Pokemon: Pinsir Lv8, Metapod Lv9. Got ¥90.
+*   Defeated Youngster (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (28,34) in Viridian Forest. His Pokemon: Weedle Lv6, Kakuna Lv6. SPARKY was at 39/39 HP. Got ¥90.
 
 # Pewter City Prep
-*   Find out Brock's Ace level / level cap for Hard Mode.
+*   Find out Brock's Ace level / level cap for Hard Mode. (Onix Lv14 is Ace, cap is 14)
 *   Plan party composition/training for Brock.
 *   Test battle_strategist_agent and leveling_training_advisor_agent before challenging Brock.
 
@@ -107,7 +111,7 @@
 # General Strategy Notes
 *   Break down long agent-generated paths (e.g., from `map_analyzer_agent` or `exploration_planner`) into shorter, verifiable segments (e.g., 5-10 steps, or to an intermediate landmark). Re-evaluate after each segment, especially in complex/maze-like areas.
 *   **Proactive Healing & Poison Management (REINFORCED - CRITICAL ERROR):** Blacking out due to poison and accumulated damage from poor battle choices is unacceptable. If SPARKY is poisoned, prioritize healing (Antidote if available, Potion if HP is low, or retreat to a Pokémon Center) *before* further exploration or difficult battles. Do not rely on nearly fainting before healing. Use Potions more liberally outside of battle to maintain high HP.
-*   **Type Matchups (REINFORCED - CRITICAL ERROR):** THUNDERSHOCK is NOT VERY EFFECTIVE against Grass/Poison types (e.g., Oddish). This is a recurring mistake. QUICK ATTACK (Normal) is neutral and often a better choice for consistent damage in such cases. Must internalize type charts.
+*   **Type Matchups (REINFORCED - CRITICAL ERROR):** THUNDERSHOCK is NOT VERY EFFECTIVE against Grass/Poison types (e.g., Oddish). QUICK ATTACK (Normal) is neutral and often a better choice for consistent damage in such cases. Must internalize type charts.
 
 # Pewter City Notes
 *   Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) is non-battling. Dialogue: "It's rumored that CLEFAIRYs came from the moon! They appeared after MOON STONE fell on MT.MOON." She does not gatekeep the Gym.
@@ -119,29 +123,15 @@
 *   Gym Guide says Brock's lead is GEODUDE (Rock Throw), and he also has an ONIX (Bind).
 *   **CRITICAL: Electric attacks are HARMLESS to Brock's Ground-type POKéMON.**
 *   SPARKY's Thundershock and Thunder Wave will be useless. Must rely on Quick Attack and Tail Whip.
-*   Need to find Brock's Ace level for the level cap.
-
+*   Brock's Ace (Onix) is Lv14. Level cap for Hard Mode is 14.
 *   Defeated JR.TRAINER♂ (Cool Trainer M sprite, ID 2, PEWTERGYM_COOLTRAINER_M) at (4,7) in Pewter Gym. Pokémon: Diglett Lv9, Sandshrew Lv9. Prize: ¥180. SPARKY healed to full HP (39/39) after battle.
-
-# Pewter City Gym Battle Prep (Post Jr. Trainer)
-*   **CRITICAL:** SPARKY's HP will be low after the Jr. Trainer battle. Use a Potion to heal before challenging Brock to avoid a blackout.
-*   Test `battle_strategist_agent` for Brock's team (Geodude, Onix) after healing SPARKY.
-
-# Brock Battle Strategy (from agent - Revised for Geodude Lv10 & HP Risk)
-*   **Overall:** Extremely challenging. Relies on spamming Tail Whip to lower Defense significantly, then using Quick Attack (resisted). Electric moves are useless.
-*   **Geodude (Lv10, Rock Throw):** Strategy: Aim for 3 Tail Whips (max 4 if SPARKY's HP is very good). Its lower level (10 vs. initial 12 assumption) makes it slightly less threatening, but Rock Throw is still dangerous. Switch to Quick Attack once defense is sufficiently lowered or HP is too risky for more Tail Whips.
-*   **Onix (Lv14, Bind, Ace):** Strategy: Use Tail Whip 4-6 times, then Quick Attack. Risk: High HP/Defense, Bind trapping damage, potential Screech or Rock Throw. Onix is 2 levels higher. (Current level cap assumed to be 14 based on Onix's level).
-*   **Contingencies:**
-    *   If HP critical vs Geodude before ~3 Tail Whips: May need to Quick Attack early, reducing Onix chances.
-    *   If Onix uses Bind and HP depletes fast: Stick to Tail Whip plan if possible (aim for 4-6).
-*   **Warnings:** Luck is a factor. Critical hits are a risk. Set mode means fainting is a loss.
 
 # Brock Battle Attempt 1 (FAILURE - Blackout)
 *   Challenged Brock. SPARKY Lv12 vs Geodude Lv10 & Onix Lv14.
 *   Strategy: Multiple Tail Whips then Quick Attack.
 *   Outcome: SPARKY fainted to Geodude's Rock Throw after several turns. Geodude used Defense Curl multiple times, negating Tail Whips. Quick Attack did minimal damage even with -3 Defense. SPARKY's HP dropped too quickly.
 *   Blacked out and returned to Pewter City Pokemon Center. Money halved (¥392 -> ¥196).
-*   **Conclusion:** Current strategy with SPARKY alone at Lv12 is not viable. Need to level up SPARKY, find a new team member effective against Rock/Ground, or significantly revise the strategy. Will consult leveling advisor.
+*   **Conclusion:** Current strategy with SPARKY alone at Lv12 is not viable. Need to level up SPARKY to Lv14, find a new team member effective against Rock/Ground, or significantly revise the strategy.
 
 # Leveling Plan for Brock (Post-Blackout 1) - REVISED
 *   **Objective:** Level SPARKY from Lv12 to Lv14 (level cap).
@@ -153,35 +143,16 @@
     4.  Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) - Dialogue only.
 *   **Conclusion:** No trainer EXP in Pewter City. Viridian Forest is the sole grinding spot for now.
 
-# Reflection & Agent Strategy Log (Turn 1830)
-*   **Key Reflection Points:**
-    *   Wasted significant time attempting to battle non-battling NPCs in Pewter City. Need to trust direct interaction results sooner.
-    *   Over-reliance on `leveling_training_advisor_agent` without cross-verification of its suggestions against my own findings was a mistake.
-    *   Fixing the `run_code` pathing script using `pathing_script_analyzer_agent` remains a high priority and has been neglected.
-    *   Should have considered grinding wild Pokémon in Viridian Forest sooner after the first Brock blackout.
-    *   Tertiary goals should be outcome-focused, not method-focused.
-*   **Agent Strategy Adjustments:**
-    *   **`leveling_training_advisor_agent`**: Needs prompt/schema update to use verified trainer data and be more cautious with 'unknown' battlability status.
-    *   Prioritize using `pathing_script_analyzer_agent` at the next safe opportunity (e.g., Pokémon Center).
-*   **New Agent Ideas (To Be Implemented/Tested):**
-    *   `Pokedex_Completer_Agent`: Suggests targets for Pokedex completion. (Defined)
-    *   `Team_Builder_Agent`: Suggests ideal team compositions for major challenges. (Defined)
+# EXP Tracking (Post-Critique Update - SIMPLIFIED)
+*   Game State EXP is the source of truth for SPARKY's level and progress.
+*   SPARKY (Lv12) Game State EXP: 1728.
+*   Target Lv13 EXP: 2197 (needs 469 more from current Game State EXP).
+*   Target Lv14 EXP: 2744 (needs 1016 more from current Game State EXP).
+*   Battle log EXP gains are noted for reference but are not authoritative until reflected in Game State.
+    *   Defeated Wild Metapod Lv6 (Turn 1910), got 61 EXP (Battle Log).
+    *   Defeated Wild Caterpie Lv4 (Turn 1918), got 30 EXP (Battle Log).
+    *   Defeated Wild Pidgey Lv7 (Turn 1931), got 55 EXP (Battle Log).
+    *   Defeated Wild Oddish Lv5 (Turn 1948), got 55 EXP (Battle Log).
 
 # Reflection & Agent Strategy Log (Turn 1882 Addendum)
 *   **Agent Path Reliability:** `map_analyzer_agent` paths can sometimes be invalid due to obstacles not explicitly in tile data (e.g., signs on 'ground' tiles, NPCs). If an agent-provided path fails, re-query the agent from the current, corrected position. Consider map sprite and background object lists when evaluating short paths near such objects.
-
-# New Agent Ideas (Post-Reflection Turn 1882)
-*   `Boss_Battle_Recorder_Agent`: After a failed boss attempt, feed it battle log details and my strategy to analyze what went wrong or what the opponent did unexpectedly. (Consider for later)
-
-# EXP Tracking
-*   SPARKY's EXP is 1728 (Game State as of Turn 1925). The Game State's party Pokémon EXP value is the absolute source of truth. Battle log EXP gains will be noted but reconciled against the Game State value. Current manual tracking based on battle logs is secondary and will be adjusted if the Game State shows a different value after a level up or Pokémon Center visit.
-
-# EXP Tracking (Post-Critique Update)
-*   Game State EXP is the source of truth. Battle log EXP gains will be noted but reconciled against the Game State value when it updates (e.g., after level up or Pokémon Center visit).
-*   SPARKY (Lv12) EXP: 1728 (Game State as of Turn 1927). Needs 2197 for Lv13, 2744 for Lv14.
-    *   Defeated Wild Metapod Lv6 (Turn 1910), got 61 EXP (Battle Log). (Game State did not update from this yet).
-    *   Defeated Wild Caterpie Lv4 (Turn 1918), got 30 EXP (Battle Log). (Game State did not update from this yet).
-- SPARKY (Lv12) Game State EXP: 1728. Target Lv14 EXP: 2744 (needs 1016 more). Battle log EXP is noted for reference but Game State is the source of truth.
-
-# New Agent Ideas (To Be Implemented/Tested)
-*   `HM_Usage_Advisor_Agent`: Advises on HM usage on current/previous maps. (Consider for later when HMs are acquired)
