@@ -112,10 +112,10 @@
 
 **Battle Mechanics Update (Mt. Moon):** Confirmed Acid (Poison-type move) is 'not very effective' (0.5x) against wild Zubat (Poison/Flying). This indicates a ROM hack change where Poison attacks are resisted by either Poison-type or Flying-type Pokémon (or both, though less likely for 0.5x). Standard Gen 1: Poison vs Poison = 1x, Poison vs Flying = 1x.
 
-# Mt. Moon Exploration Strategy (Revised Turn 7716)
-*   Current Location: Mt. Moon 1F at (38,3). Attempt to exit east was blocked (impassable tiles, not a warp).
-*   Objective: Find the eastern exit to Route 4 (leading to Cerulean City).
-*   Immediate Plan: The eastern corridor on 1F is a dead end. Re-evaluating. Will explore other B1F segments accessed via warps on 1F. Target warp: (18,12) on 1F, leading to B1F (26,10). Then potentially 1F (6,6) leading to B1F (6,6).
+# Mt. Moon Exploration Strategy (Revised Turn 7730)
+*   **Current Location:** Mt. Moon B2F at (30,11). Arrived via warp from B1F (26,10) which was accessed from 1F (18,12).
+*   **Objective:** Defeat Team Rocket, secure a Fossil, and find the ladder leading to the eastern exit of Mt. Moon.
+*   **Immediate Plan:** Currently facing Super Nerd (Rocket) at (30,12) who is blocking the path south and wants a fossil. Interact with him. If he doesn't battle or move, I'll need to find a way to get a fossil or find an alternative route, possibly involving the other Rocket at (30,18) or exploring other B2F paths like the one leading to the warp at (26,10) back to B1F (if this B2F area is a dead end for progression without a fossil).
 *   ZAPPY is still confused (33/50 HP).
 
 # Critique Feedback & Action Items (Turn 7426)
