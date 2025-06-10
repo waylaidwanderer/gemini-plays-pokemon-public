@@ -174,4 +174,4 @@
 *   `Boss_Battle_Recorder_Agent`: After a failed boss attempt, feed it battle log details and my strategy to analyze what went wrong or what the opponent did unexpectedly. (Consider for later)
 
 # EXP Tracking
-*   SPARKY gained 61 EXP from a wild Metapod Lv6 in Viridian Forest (Turn 1910). Current EXP should be 1728 (pre-battle) + 61 = 1789.
+*   SPARKY's EXP is 1728 (Game State, Turn 1914). Previous battle log (Turn 1910 vs Metapod Lv6) indicated +61 EXP, but Game State did not reflect this increase. Will monitor EXP gain carefully.
