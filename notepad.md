@@ -21,8 +21,8 @@
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 
 # Current Location & Navigation Plan
-*   **Current Location:** Mt. Moon 1F (ID: 59) at (26,16). Standing on warp to B1F.
-*   **Navigation Plan:** Use current warp to B1F (26,16). Explore B1F from this entry point to find a ladder/warp to the northeastern section of B2F. From B1F (after exploring the NE B2F area accessed from B1F (14,28) and returning to B1F (14,28)), find the ladder at B1F (26,10). This ladder should lead to the isolated section of Mt. Moon 1F and the exit to Route 4 (east of Mt. Moon).
+*   **Current Location:** Mt. Moon B1F (ID: 60) at (26,16). Standing on warp to 1F.
+*   **Navigation Plan:** Follow 'Path to Cerulean (Route 4 East) - Attempt 5'. Current step: Use warp B1F(26,16) -> 1F(26,16). Then on 1F, navigate from (26,16) to the warp at 1F(18,12).
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and obtain the Cascade Badge from Misty.
