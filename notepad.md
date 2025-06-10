@@ -112,10 +112,12 @@
 
 **Battle Mechanics Update (Mt. Moon):** Confirmed Acid (Poison-type move) is 'not very effective' (0.5x) against wild Zubat (Poison/Flying). This indicates a ROM hack change where Poison attacks are resisted by either Poison-type or Flying-type Pokémon (or both, though less likely for 0.5x). Standard Gen 1: Poison vs Poison = 1x, Poison vs Flying = 1x.
 
-# Mt. Moon Exploration Strategy (Revised Turn 7602)
+# Mt. Moon Exploration Strategy (Revised Turn 7635)
 *   **Systematic Exploration:** The eastern exit to Cerulean City is likely on Mt. Moon B1F or B2F. Mt. Moon 1F serves as a hub with multiple warps leading to different, potentially isolated segments of the lower floors.
-*   **Current Focus:** The warp at (18,12) on Mt. Moon 1F leads to a self-contained, non-progressive B1F/B2F loop (Super Nerd fossil area). Avoid this warp for progression. Prioritize using the warp at (26,16) on Mt. Moon 1F to access a new, unexplored section of B1F.
-*   Explore other 1F warps systematically if (26,16) does not lead to the exit.
+*   **Warp at (18,12) on 1F:** Leads to a self-contained B1F/B2F loop (Super Nerd fossil area). Avoid for progression.
+*   **Warp at (26,16) on 1F:** Successfully used to access a new section of B1F, which then led to the current B2F area via warp (14,28) on B1F.
+*   **Current Focus (Mt. Moon B2F):** Explore the current B2F section (accessed from B1F (26,16) -> B1F (14,28) -> B2F (16,28)) for the eastern exit or further connections. 
+*   **Obstacle Note:** The defeated Rocket Grunt (ID 3) at (16,23) on B2F is unexpectedly blocking the path westward from (17,23). Current exploration is focused eastward from this point.
 
 # Critique Feedback & Action Items (Turn 7426)
 *   Test `item_use_advisor_agent` soon (e.g., with Moon Stone or Rare Candy).
