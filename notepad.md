@@ -123,15 +123,16 @@
 **Overall Goal:** Exit Mt. Moon to reach Route 4 Pokémon Center and heal critically injured party.
 **RUN FROM ALL WILD ENCOUNTERS.**
 
-**Phase 1: Mt. Moon 1F (Current Western/Central Segment) to Eastern B1F Segment**
-*   Current Location: (15,20) as of Turn 8726.
+**Phase 1: Mt. Moon 1F (Current Segment) to Target Warp (26,16) via Northern Loop**
+*   Current Location: (16,20) as of Turn 8729.
 *   Target Warp: (26,16) on Mt. Moon 1F (leads to B1F eastern segment, entry_point 4).
-*   Path from (15,20) to (26,16):
-    1.  (15,20) -> (16,20) (1 step: Right).
-    2.  (16,20) -> (16,23) (3 steps: Down x3).
-    3.  (16,23) -> (22,23) (6 steps: Right x6).
-    4.  (22,23) -> (22,16) (7 steps: Up x7).
-    5.  (22,16) -> (26,16) (4 steps: Right x4). [Enter Warp]
+*   Path from (16,20) to (26,16):
+    1.  (16,20) -> (16,16) (4 steps: Up x4).
+    2.  (16,16) -> (17,16) (1 step: Right).
+    3.  (17,16) -> (17,8)  (8 steps: Up x8).
+    4.  (17,8)  -> (31,8)  (14 steps: Right x14).
+    5.  (31,8)  -> (31,16) (8 steps: Down x8).
+    6.  (31,16) -> (26,16) (5 steps: Left x5). [Enter Warp]
 
 **Phase 2: Mt. Moon B1F (Eastern Segment) to Eastern 1F Segment**
 *   Arrive at Mt. Moon B1F (26,16) (from 1F warp at (26,16), entry_point 4).
