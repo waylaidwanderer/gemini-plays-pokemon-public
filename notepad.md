@@ -50,7 +50,6 @@
 *   **Active Agents to Test/Utilize:** `exploration_planner`, `map_analyzer_agent`, `battle_strategist_agent`, `item_finder_agent`, `leveling_training_advisor_agent`, `pokedex_completer_agent`, `team_builder_agent`, `direct_pathing_agent`, `rom_hack_mechanic_investigator_agent`.
 *   **Pathing Script (`run_code`):** Fixing the `run_code` pathing script using `pathing_script_analyzer_agent` is a high-priority task for the next visit to a Pokémon Center. (Missed opportunity during last visit - prioritize next time).
 *   **Agent Management Timing:** Define, update, or test agents only when in a safe, non-time-sensitive location (e.g., Pokémon Center).
-*   **Future Agent Ideas:** Consider creating a 'Rebattlable Trainer Identifier' or 'Financial Planner' agent if future needs arise.
 *   **Agent Usage Reminder:** Be more proactive in using existing agents, especially `direct_pathing_agent` and `map_analyzer_agent` for navigation, `item_finder_agent` for exploration, and `battle_strategist_agent` for major battles.
 
 # Map Discoveries
