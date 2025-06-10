@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"},\"player_facing\":{\"type\":\"string\",\"enum\":[\"up\",\"down\",\"left\",\"right\"]},\"pikachu_x\":{\"type\":\"integer\"},\"pikachu_y\":{\"type\":\"integer\"},\"target_x\":{\"type\":\"integer\"},\"target_y\":{\"type\":\"integer\"}},\"required\":[\"player_x\",\"player_y\",\"player_facing\",\"pikachu_x\",\"pikachu_y\",\"target_x\",\"target_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_possible\":{\"type\":\"boolean\"},\"button_presses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"path_possible\",\"button_presses\"]}",
     "agent_can_run_code": false
+  },
+  "rom_hack_mechanic_investigator_agent": {
+    "agent_name": "rom_hack_mechanic_investigator_agent",
+    "agent_description": "Analyzes game state, notepad entries, and map XML to hypothesize about specific ROM hack mechanics (e.g., EXP calculation, rare spawns, dynamic scaling). Can run Python code.",
+    "agent_system_prompt": "You are a ROM Hack Mechanic Investigator for Pokemon Yellow Legacy. Your goal is to analyze provided information (game state snippets, notepad entries, map XML if relevant) to form hypotheses about specific game mechanics that might differ from vanilla Pokemon Yellow. Focus on observable patterns and data. Clearly state your hypothesis, list supporting evidence, and provide a confidence level. You can use your `run_code` tool to process numerical data or look for patterns.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"mechanic_query\":{\"type\":\"string\"},\"relevant_notepad_sections\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"specific_game_state_data\":{\"type\":\"object\"}},\"required\":[\"mechanic_query\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"hypothesis\":{\"type\":\"string\"},\"supporting_evidence\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"confidence_level\":{\"type\":\"string\",\"enum\":[\"low\",\"medium\",\"high\"]}},\"required\":[\"hypothesis\"]}",
+    "agent_can_run_code": true
   }
 }
