@@ -112,7 +112,7 @@
 *   NPCs on `navigable: false` tiles are impassable physical obstacles, even if defeated or non-battling.
 *   Ledge tiles marked `navigable="true"` can be occupied (e.g., by jumping down onto them), but upward movement onto a ledge from below is prevented by game physics, even if the tile's `navigable` attribute is true. The game's movement denial takes precedence over the XML's `navigable` flag for directional traversal of ledges from below.
 
-# Agent Review TODO
-*   Review utility of `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use). Consider revision or deletion if not meeting needs.
+# Agent Review TODO (Completed for now - Turn 7377)
+*   Reviewed `battle_strategy_agent` (3 uses) and `encounter_optimizer_agent` (1 use). Decision: Keep both for now. Will re-evaluate if usage remains low. `battle_strategy_agent` will be considered for the next Gym Leader. `encounter_optimizer_agent` will be used upon entering new major routes/dungeons.
 
 **Battle Mechanics Update (Mt. Moon):** Confirmed Acid (Poison-type move) is 'not very effective' (0.5x) against wild Zubat (Poison/Flying). This indicates a ROM hack change where Poison attacks are resisted by either Poison-type or Flying-type Pokémon (or both, though less likely for 0.5x). Standard Gen 1: Poison vs Poison = 1x, Poison vs Flying = 1x.
