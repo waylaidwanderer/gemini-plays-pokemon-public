@@ -73,3 +73,10 @@
 - Plan party composition/training for Brock.
 
 *   Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (28,20) in Viridian Forest. **Defeated**.
+
+# Items to Collect (Viridian Forest)
+*   Poké Ball at (26,12) - Visible and reachable.
+
+# Agent Usage Reflection (Turn 975)
+*   `exploration_planner` (Turn 961): Failed to provide a path because I supplied an *incomplete* list of 'Reachable Unseen Tiles'.
+    *   **Lesson Reinforced:** ALWAYS provide the *complete and exact* list of 'Reachable Unseen Tiles' from the Game State Information to this agent. Double-check the input before calling.
