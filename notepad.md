@@ -111,3 +111,7 @@
 
 # Dungeon Navigation Insights (NEW)
 *   **Segmented Dungeons (CRITICAL):** Complex dungeons like Mt. Moon often have multiple disconnected segments on the *same floor*. Different warps/ladders are keys to these distinct areas. Systematically explore each warp from a given floor to discover all accessible sub-sections of other floors. Do not assume all parts of a lower floor are accessible from a single entry point.
+
+# Agent Usage & Development (Further Notes - Turn 8112)
+*   Prioritize manual navigation for simple paths; `dungeon_navigator_agent` (90 uses) often needs manual correction for Pikachu. Reduce reliance.
+*   Consider deleting underused agents (e.g., `item_finder_reminder_agent`, `rom_hack_mechanics_lookup_agent`) if slots are needed. Potential new agent idea: 'Exploration Prioritizer Agent' to rank unseen tiles/warps.
