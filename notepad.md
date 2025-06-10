@@ -148,7 +148,7 @@
 *   **Strategy:** Battle undefeated trainers in Pewter City for EXP.
 *   **Viable Trainers (based on Leveling Advisor & Game State):**
     1.  Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) - **CONFIRMED NON-BATTLING (dialogue only).** Gave dialogue: "There aren't many serious POKéMON trainers here! They're all like BUG CATCHERs, but PEWTER GYM's BROCK is totally into it!"
-    2.  Super Nerd (PEWTERCITY_SUPER_NERD1) at (28,18) - Confirmed non-battling after interaction. Gave dialogue about museum fossils.
+    2.  Super Nerd (PEWTERCITY_SUPER_NERD1) at (28,18) - **CONFIRMED NON-BATTLING (dialogue only).** Dialogue: "Weren't those fossils from MT. MOON amazing?"
     3.  Youngster (PEWTERCITY_YOUNGSTER) at (36,17) - Facing Down.
 *   **Questionable/Unreachable Trainers (from Advisor):**
     *   Cool Trainer F (PEWTERCITY_COOLTRAINER_F) at (9,16) - Previously non-battling. Re-check dialogue.
