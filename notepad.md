@@ -4,7 +4,7 @@
 
 # Current Team & Training Focus (Strategic Notes)
 *   BELLA (GLOOM Lv21): Core attacker, currently healthy (66/66 HP).
-*   ZAPPY (PIKACHU Lv16): Healthy (47/47 HP).
+*   ZAPPY (PIKACHU Lv16): (42/47 HP).
 *   NINA (NIDORAN♀ Lv12): Healthy (36/36 HP). Keep for Ground/Poison typing. Double Kick is useful.
 *   ECHO (ZUBAT Lv11): Healthy (30/30 HP). Flying type coverage.
 *   LUNA (CLEFAIRY Lv11): Healthy (37/37 HP).
