@@ -157,9 +157,9 @@
 
 # EXP Tracking
 *   SPARKY (PIKACHU) - Lv12
-*   Current EXP: 1884 (after Oddish battle on Turn 2055; Needs 860 more for Lv14 cap)
-*   EXP to Lv13: 2197 (Needs 313 more)
-*   EXP to Lv14 (CAP): 2744 (Needs 860 more)
+*   Current EXP: 1955 (after Kakuna battle on Turn 2066; Needs 789 more for Lv14 cap)
+*   EXP to Lv13: 2197 (Needs 242 more)
+*   EXP to Lv14 (CAP): 2744 (Needs 789 more)
 
 *   **Future Agent Testing/Development:**
     *   Test `pokedex_completer_agent` and `team_builder_agent` to assess their utility when appropriate (e.g., before major Pokedex hunting sessions or team reshuffles for Gyms).
