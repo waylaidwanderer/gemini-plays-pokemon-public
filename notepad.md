@@ -170,3 +170,8 @@
     *   Defeated Wild Weedle Lv4 (Turn 2021), got 29 EXP. SPARKY's HP: 39/39. Not poisoned.
     *   Defeated Wild Weedle Lv4 (Turn 2027), got 29 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
     *   Defeated Wild Metapod Lv6 (Turn 2036), got 61 EXP. SPARKY's HP: 39/39. SPARKY not poisoned.
+
+    *   Defeated Wild Oddish Lv6 (Turn 2047), got 66 EXP. SPARKY's HP: 37/39. SPARKY was poisoned.
+*   SPARKY (PIKACHU) - Lv12
+    *   Current EXP: 1884 (Needs 860 more for Lv14 cap)
+    *   EXP to Lv13: 2197 (Needs 313 more)
