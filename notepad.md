@@ -119,6 +119,29 @@
 *   **Reachable Unseen Tiles List:** Always use the *current* list from the Game State Information for exploration planning. This list is dynamic and can change frequently.
 *   **Navigation Goal Coordinates:** Ensure `navigation_goal_coordinates` are always confirmed `navigable: true` in the map XML or are part of the current 'Reachable Unseen Tiles' list from Game State to avoid pathing errors.
 
-# Mt. Moon Navigation Strategy (Post-Critique)
-- **Mt. Moon 1F Goal:** Reach warp at (26,16) to access eastern B1F, then eastern 1F, then exit to Route 4.
-- **Pathing on 1F:** From (12,4), the path to (26,16) is long and requires navigating a large southern loop. Prioritize this route. Run from all encounters due to critical party health.
+# Mt. Moon Navigation Strategy (Post-Critique - DETAILED EXIT PLAN)
+**Overall Goal:** Exit Mt. Moon to reach Route 4 Pokémon Center and heal critically injured party.
+**RUN FROM ALL WILD ENCOUNTERS.**
+
+**Phase 1: Mt. Moon 1F (Current Western/Central Segment) to Eastern B1F Segment**
+*   Current Location: (15,20) as of Turn 8726.
+*   Target Warp: (26,16) on Mt. Moon 1F (leads to B1F eastern segment, entry_point 4).
+*   Path from (15,20) to (26,16):
+    1.  (15,20) -> (16,20) (1 step: Right).
+    2.  (16,20) -> (16,23) (3 steps: Down x3).
+    3.  (16,23) -> (22,23) (6 steps: Right x6).
+    4.  (22,23) -> (22,16) (7 steps: Up x7).
+    5.  (22,16) -> (26,16) (4 steps: Right x4). [Enter Warp]
+
+**Phase 2: Mt. Moon B1F (Eastern Segment) to Eastern 1F Segment**
+*   Arrive at Mt. Moon B1F (26,16) (from 1F warp at (26,16), entry_point 4).
+*   Target Warp: (26,10) on Mt. Moon B1F (leads to 1F eastern segment, entry_point 2).
+*   Path from B1F (26,16) to B1F (26,10):
+    1.  (26,16) -> (26,10) (6 steps: Up x6). [Enter Warp]
+
+**Phase 3: Mt. Moon 1F (Eastern Segment) to Route 4 Exit**
+*   Arrive at Mt. Moon 1F (from B1F warp at (26,10), entry_point 2 - specific arrival coordinates to be determined upon arrival).
+*   Target Warps (Exit to Route 4): (15,36) or (16,36) on Mt. Moon 1F.
+*   Navigate from arrival point to (15,36) or (16,36) and exit Mt. Moon.
+
+**Contingency:** If any segment of this path is blocked by an obstacle not in map memory (but visible on annotated screen), re-evaluate only the blocked segment and find a local detour. Prioritize annotated screen for immediate obstacles.
