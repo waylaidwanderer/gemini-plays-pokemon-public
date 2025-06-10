@@ -100,3 +100,6 @@
 # ARCHIVED LOGS (Summarized)
 *   **Mt. Moon Exploration:** Successfully navigated Mt. Moon and found eastern exit to Route 4. Noted complexity and segmented nature of B1F/B2F. Super Nerd wants a fossil.
 *   **Route 4 (Before Mt. Moon) Navigation:** Initial attempts to navigate Route 4 eastward from Mt. Moon's exit were inefficient due to prematurely jumping down ledges, forcing a loop back via Route 3. The correct path requires staying on the upper tier after exiting Mt. Moon (eastern exit) and heading east.
+
+## Navigation Rules & Insights
+*   NPCs on `navigable: false` tiles are impassable physical obstacles, even if defeated or non-battling.
