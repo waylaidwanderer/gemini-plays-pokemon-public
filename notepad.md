@@ -29,7 +29,7 @@
 *   **Map Verification (CRITICAL - Post Critique Turn 2600):** Meticulously check Map Memory for tile navigability along the *entire* planned path before committing to movement, especially for multi-step sequences.
 *   **Financial Planning (CRITICAL - Post Critique Turn 2600):** Verify item costs and available funds *before* traveling to a shop.
 *   **Shop Menu Interaction (REVISED - Post Critique Turn 2600):** When interacting with shop menus, explore interface options more thoroughly (e.g., trying directional inputs on quantity displays) to avoid inefficient single-item purchases.
-*   **Pathing Script Priority (CRITICAL - Post Critique Turn 2600):** Prioritize fixing the `run_code` pathing script using `pathing_script_analyzer_agent` at the *next* Pokémon Center visit. Do not defer.
+*   **Pathing Script Priority (CRITICAL - Update from Turn 2800 Reflection: Fix at next Pokecenter visit!):** Prioritize fixing the `run_code` pathing script using `pathing_script_analyzer_agent` at the *next* Pokémon Center visit. Do not defer.
 
 # Hard Mode Rules
 *   Battle Style: Set.
