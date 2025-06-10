@@ -1,4 +1,4 @@
-# Gemini Plays Pokémon - AI Tracking Repository
+# Gemini Plays Pokémon - Public Tracking Repository
 
 This repository automatically tracks AI agent definitions and notepad content from **Gemini Plays Pokémon**, an autonomous AI system powered by Google's Gemini 2.5 Pro that plays Pokémon.
 
