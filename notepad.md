@@ -42,10 +42,18 @@
 *   **Strategy:** To bypass upward ledges, find a path AROUND. Move away from the ledges (laterally or downwards) to find a clear corridor or grass patch allowing ascent *above* the problematic ledges. Then, navigate laterally above and descend as needed. Verify ledge properties in map memory and visually inspect. Critically evaluate agent-provided paths for ledge issues.
 *   **Agent Use for Ledges:** If manual pathing or `exploration_planner` struggles with complex verticality/blockages by ledges, consider using `map_analyzer_agent` to query for clear paths or alternative exits (e.g., 'Find a path from (X,Y) to (A,B) avoiding upward ledges').
 
-# Agent Development Pipeline
+# Agent Development Pipeline & Pathing Notes
 ## Active Agents
-*   `exploration_planner`: Analyzes map XML and reachable unseen tiles for efficient exploration. Player must critically evaluate paths for ledge issues and provide the FULL list of reachable unseen tiles.
+*   `exploration_planner`: Analyzes map XML and reachable unseen tiles for efficient exploration.
+    *   **Lesson Reinforced (Turn 961, 979):** ALWAYS provide the *complete and exact* list of 'Reachable Unseen Tiles' from the Game State Information. Double-check input.
 *   `map_analyzer_agent`: Analyzes map XML to answer specific questions. (Testing: Use to determine if Youngster at (17,44) in Viridian Forest blocks progress or if there's a path around, or to find the north exit).
+## Planned Agents
+*   `battle_strategist_agent`: To assist with Hard Mode boss fight planning. (Define after current battle)
+*   `pathing_script_analyzer_agent`: To debug and optimize the `run_code` pathing script. (Define after current battle - HIGH PRIORITY)
+## Pathing Script (`run_code`) Behavior
+*   The `run_code` script for path generation has shown inconsistent behavior and unreliability (Turns 983, 990, 992, 993).
+    *   It sometimes produces insufficient move lists or leads to being blocked, possibly due to miscalculating current position, facing, Pikachu's location, or dynamic obstacles.
+    *   **Strategy Change:** Rely less on long, auto-generated paths from this script. Use for shorter, verifiable segments or navigate more manually between agent-provided waypoints. Prioritize fixing/replacing this script.
 
 # Map Discoveries
 *   **Pallet Town:** Reachable, undiscovered map connection south at (4,18) or (3,18).
@@ -55,35 +63,17 @@
 *   **Route 2 (NORTH of Viridian City):** Leads to Viridian Forest, then Pewter City (Brock). THIS IS THE CORRECT PATH.
 *   **Route 22 (WEST of Viridian City):** Leads to the Pokemon League. THIS IS A DETOUR if aiming for Pewter City.
 
-# Active Pathing Notes & Strategies
-*   **Ledge Bypass (General):** When faced with upward ledges, always look for a route *around* them. This usually involves moving significantly away from the ledge (laterally or downwards) to find a clear corridor or grass patch that allows ascent to a higher elevation *above* the problematic ledges. Then, navigate laterally above the ledges before descending.
-*   **Agent Usage for Complex Paths:** If manual pathing to an objective (unseen tile, warp, item) is blocked more than once, use the `exploration_planner` agent. Critically review agent paths for ledge issues before execution. Provide the COMPLETE list of reachable unseen tiles.
-*   **Map Analyzer Agent Usage:** Proactively use `map_analyzer_agent` for pathing queries or locating features if manual pathing becomes difficult or when entering complex new areas.
-
 # Viridian Forest Notes
-*   Youngster (ID 1, VIRIDIANFOREST_YOUNGSTER1) at (17,44): Encountered dialogue loop, escaped with 'B'. `map_analyzer_agent` (Turn 877) confirmed this trainer blocks the direct path north and cannot be bypassed. Battle is likely mandatory to proceed north in that section.
+*   Youngster (ID 1, VIRIDIANFOREST_YOUNGSTER1) at (17,44): Encountered dialogue loop. `map_analyzer_agent` (Turn 877) confirmed this trainer blocks the direct path north and cannot be bypassed. Battle is likely mandatory.
 *   Youngster (ID 10, VIRIDIANFOREST_YOUNGSTER6) at (28,41): Confirmed non-battling NPC. Dialogue: "You should carry extras!". Blocks direct westward movement along row 41. The tile (28,41) is non-navigable.
-*   (Track other trainers, items, and path through here)
+*   Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (28,20): **Defeated**.
+*   Items Collected:
+    *   Potion at (26,12) - Collected.
 
 # Battle Notes
 - Record insights for specific Pokémon/trainers, especially Hard Mode implications.
+- SPARKY learned TAIL WHIP, replacing GROWL at Lv11.
 
 # Pewter City Prep
 - Find out Brock's Ace level / level cap for Hard Mode.
 - Plan party composition/training for Brock.
-
-*   Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (28,20) in Viridian Forest. **Defeated**.
-
-# Items Collected (Viridian Forest)
-*   Potion at (26,12) - Collected.
-
-# Agent Usage Reflection (Turn 975)
-*   `exploration_planner` (Turn 961): Failed to provide a path because I supplied an *incomplete* list of 'Reachable Unseen Tiles'.
-    *   **Lesson Reinforced:** ALWAYS provide the *complete and exact* list of 'Reachable Unseen Tiles' from the Game State Information to this agent. Double-check the input before calling.
-
-# Pathing Script (`run_code`) Behavior Notes
-*   The `run_code` script for path generation has shown inconsistent behavior:
-    *   Turn 983: Produced only 2 moves, which was insufficient.
-    *   Turn 990: Resulted in being blocked, indicating a possible miscalculation of current position, facing, or Pikachu's location relative to path segments.
-    *   Turn 992 (after Turn 990's block): Corrected script call with accurate current state still led to a short move sequence (4 moves) before being interrupted by a battle (Turn 993).
-    *   The script needs careful review, especially regarding how it handles the player's facing direction, Pikachu's position (especially when the player steps on Pikachu's tile), and transitions between waypoints in a longer exploration plan. The `pathing_script_analyzer_agent` (to be created) should help address this.
