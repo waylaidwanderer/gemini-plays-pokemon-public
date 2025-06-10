@@ -1,6 +1,6 @@
 # Pokédex & Badges
 *   Badges: Boulder Badge
-*   Pokédex Target: Complete (Currently 8/151)
+*   Pokedex: 8/151 (Target: Complete)
 
 # Current Team & Training Focus
 *   BELLA (GLOOM): Lv21 - Core attacker.
