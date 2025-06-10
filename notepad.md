@@ -120,3 +120,5 @@
 
 ## EXP Gain & Level Caps
 *   Confirmed: Pokémon at the current level cap (e.g., BELLA Lv21 with cap 21) do *not* gain EXP, even if the game displays an EXP gain message. Their EXP value remains unchanged. This was observed after the Zubat battle on Mt. Moon 1F (Turn 8957).
+
+- Rocket Grunt (ID 3) at (Mt Moon B2F 16,23) - Defeated.
