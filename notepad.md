@@ -4,11 +4,11 @@
 
 # Current Team & Training Focus (Strategic Notes)
 *   BELLA (GLOOM Lv21): (66/66 HP) | Moves: STUN SPORE (30 PP), ACID (22 PP), LEECH SEED (10 PP), ABSORB (21 PP)
-*   ZAPPY (PIKACHU Lv16): (39/47 HP) | Moves: THUNDERSHOCK (28 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
-*   NINA (NIDORAN♀ Lv12): Healthy (36/36 HP). Keep for Ground/Poison typing. Double Kick is useful.
-*   ECHO (ZUBAT Lv11): Healthy (30/30 HP). Flying type coverage.
-*   LUNA (CLEFAIRY Lv11): Healthy (37/37 HP).
-*   SIR (PARAS Lv13): Healthy (34/34 HP).
+*   ZAPPY (PIKACHU Lv16): (37/47 HP) | Moves: THUNDERSHOCK (27 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
+*   NINA (NIDORAN♀ Lv12): (36/36 HP) | Moves: GROWL (40 PP), DOUBLE KICK (30 PP), POISON STING (35 PP), BITE (25 PP). Keep for Ground/Poison typing.
+*   ECHO (ZUBAT Lv11): (30/30 HP) | Moves: LEECH LIFE (25 PP), SUPERSONIC (20 PP), GUST (35 PP). Flying type coverage.
+*   LUNA (CLEFAIRY Lv11): (37/37 HP) | Moves: POUND (35 PP), GROWL (40 PP), WATER GUN (25 PP), MEGA PUNCH (20 PP).
+*   SIR (PARAS Lv13): (34/34 HP) | Moves: STUN SPORE (30 PP), ABSORB (25 PP), LEECH LIFE (25 PP), POISONPOWDER (35 PP).
 
 # Key Items & TMs (Strategic Notes)
 *   OLD ROD x1
