@@ -2,14 +2,14 @@
 *   Badges: Boulder Badge
 *   Pokedex: 8/151 (Target: Complete)
 
-# Current Team & Training Focus
+# Current Team & Training Notes
 *   BELLA (GLOOM): Lv21 - Core attacker.
-*   ZAPPY (PIKACHU): Lv16 - **NEEDS HEALING (14/47 HP)**.
-*   NINA (NIDORAN♀): Lv12 - Evolve into Nidorina/Nidoqueen. Learned Double Kick.
-*   WIGGLES (CATERPIE): Lv4 - Train for evolution.
-*   ECHO (ZUBAT): Lv11 - Good type coverage (Flying).
-*   LUNA (CLEFAIRY): Lv11 - **NEEDS HEALING (15/37 HP)**. Moon Stone available for evolution.
-*   **Immediate Priority:** Heal ZAPPY & LUNA at Route 4 Pokecenter.
+*   ZAPPY (PIKACHU): Lv16 - **NEEDS HEALING (14/47 HP)**. Keep for Electric STAB.
+*   NINA (NIDORAN♀): Lv12 - Evolve for Ground/Poison typing. Double Kick is useful.
+*   WIGGLES (CATERPIE): Lv4 - Long-term Butterfree potential.
+*   ECHO (ZUBAT): Lv11 - Flying type coverage.
+*   LUNA (CLEFAIRY): Lv11 - **NEEDS HEALING (15/37 HP)**. Consider evolving with Moon Stone for better stats.
+*   **Immediate Healing Priority:** ZAPPY & LUNA at Route 4 Pokecenter.
 
 # Key Items & TMs (Strategic Notes)
 *   OLD ROD x1
