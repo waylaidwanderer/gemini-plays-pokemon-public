@@ -160,8 +160,6 @@
 *   **Agent Management Timing:** Define, update, or test agents only when in a safe, non-time-sensitive location (e.g., Pokémon Center) to maximize efficiency and avoid interrupting active gameplay like grinding or battles. (Added under # General Strategy Notes)
 *   **Current EXP Status (Turn 2151) for Leveling Plan for Brock:** SPARKY (Lv12) has 1728 EXP (per Game State). Needs 469 EXP for Lv13 (2197 total), and 1016 EXP for Lv14 (2744 total).
 
-    *   Defeated Wild Caterpie Lv4 (Turn 2159), gained 30 EXP. SPARKY's HP: 31/39. Not poisoned. (Game State EXP before battle: 1728. EXP after: 1758 / 2197 for Lv13).
-
 *   Current EXP Status (Turn 2217) for Leveling Plan for Brock: SPARKY (Lv12) has 1812 EXP (calculated: 1728 GameState EXP at start of Weedle battle T2206 + 29 from Weedle + 55 from Pidgey T2217). Needs 385 EXP for Lv13 (2197 total), and 932 EXP for Lv14 (2744 total).
 
 *   Current EXP Status (Turn 2217) for Leveling Plan for Brock: SPARKY (Lv12) has 1812 EXP (calculated: 1728 GameState EXP at start of Weedle battle T2206 + 29 from Weedle + 55 from Pidgey T2217). Needs 385 EXP for Lv13 (2197 total), and 932 EXP for Lv14 (2744 total).
