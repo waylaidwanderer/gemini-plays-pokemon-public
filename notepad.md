@@ -137,3 +137,7 @@
 
 # Self-Correction & Critique Learnings
 - Path Planning: Meticulously examine map data (`map_xml_string`/annotated screen) *before* committing to movement. Identify clear, navigable corridors. Break down navigation into smaller, verifiable segments, especially in complex areas. If a path is blocked, backtrack to a known navigable area and re-evaluate the entire route, considering completely different approaches.
+
+# Notepad & Planning Usage (Critique Reflection - Turn 8601)
+*   **Path Planning in Notepad:** Actively use the notepad to *plan out* complex navigation paths *before* execution, not just for post-mortem analysis or general strategy. Break down long paths into smaller, verifiable segments in the notepad.
+*   **Acting on Self-Correction:** Consistently review and *act upon* self-correction notes and critique feedback. The gap between identifying an issue (e.g., agent over-reliance) and changing behavior needs to be closed.
