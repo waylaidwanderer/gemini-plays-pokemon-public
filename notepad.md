@@ -83,7 +83,7 @@
 
 # Battle Notes
 *   SPARKY learned TAIL WHIP, replacing GROWL at Lv11 (Turn 1004).
-*   Defeated by Bug Catcher (ID: VIRIDIANFOREST_YOUNGSTER5) at (17,18) in Viridian Forest after its Caterpie and Metapod. SPARKY fainted due to poison and accumulated damage, resulting in a blackout. Returned to Viridian City Pokemon Center. (Turn 1104)
+*   Blackout: Defeated by Bug Catcher (ID 6, VIRIDIANFOREST_YOUNGSTER5) at (17,18) in Viridian Forest due to poison/damage. (Turn 1104)
 *   Defeated Lass (Cool Trainer F, ID 5) at (3,42) in Viridian Forest. Her Pokemon: NIDORAN♀ Lv6, NIDORAN♂ Lv6. SPARKY was at 26/39 HP after the battle. Got ¥90.
 *   Defeated Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. His Pokemon: Pinsir Lv8, Metapod Lv9. Got ¥90.
 *   Defeated Youngster (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (28,34) in Viridian Forest. His Pokemon: Weedle Lv6, Kakuna Lv6. SPARKY was at 39/39 HP. Got ¥90.
