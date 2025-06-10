@@ -126,9 +126,6 @@
 
 *   **Path Validation:** Before committing to long movement sequences in complex areas, more carefully validate paths against known obstacles, map memory, and the annotated screen to avoid repeated blockages.
 
-*   **Map Segment Analyzer Agent:** To analyze sections of a map (e.g., B1F West vs. B1F East) to identify if they are isolated or connected, based on wall structures and known warps.
-*   **Blocked Path Advisor Agent:** When a path is blocked, suggest alternative routes by analyzing nearby navigable tiles and potential detours around the obstacle.
-
 - Rocket Grunt (ID 3) at (Mt Moon B2F 16,23) - Defeated.
 
 *   Defeated trainers may sometimes remain as physical obstacles on their tile, even if their sprite data indicates `reachable: yes`. Their tile will remain `navigable: false` in map memory.
