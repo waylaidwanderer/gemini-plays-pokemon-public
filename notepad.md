@@ -80,7 +80,7 @@
 *   Super Nerd (Rocket ID 4) at (30,12) - Not a battle. Requests a Fossil.
 *   Rocket Grunt (ID 5) at (30,18) - Undefeated (was unreachable).
 ## Route 4 (Before Mt. Moon) Trainers
-*   Cool Trainer F (ID 1) - **UNENGAGEABLE / NOT DEFEATED.** Abandoned attempts to battle.
+*   Cool Trainer F (ID 1) - **UNENGAGEABLE / NOT DEFEATED.** Abandoned attempts to battle. (Player choice to avoid unnecessary battle and prevent looping on lower ledges).
 
 # ARCHIVED LOGS (Summarized)
 *   **Mt. Moon Exploration:** Successfully navigated Mt. Moon and found eastern exit to Route 4. Noted complexity and segmented nature of B1F/B2F. Super Nerd wants a fossil.
