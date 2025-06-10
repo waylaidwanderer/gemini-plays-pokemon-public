@@ -172,8 +172,6 @@
 *   **Agent Usage - `pathing_script_analyzer_agent` (CRITICAL REITERATION):** Fixing the `run_code` pathing script via `pathing_script_analyzer_agent` remains a top non-combat priority. Deferring this further is detrimental.
 *   **EXP Note Cleanup:** The tertiary goal to clean up EXP notes is important for notepad clarity.
 
-    *   Defeated Wild Pidgey Lv7 (Turn 2217), gained 55 EXP. SPARKY's HP: 38/39. Not poisoned. (Game State EXP before battle: 1728. Calculated EXP after this battle: 1812 / 2197 for Lv13).
-
     *   Defeated Wild Weedle Lv4 (Turn 2238), gained 29 EXP. SPARKY's HP: 38/39. Not poisoned. (Game State EXP before battle: 1728. Current calculated EXP: 1757 / 2197 for Lv13).
 
     *   Defeated Wild Weedle Lv4 (Turn 2245), gained 29 EXP. SPARKY's HP: 38/39. Not poisoned. (Game State EXP before battle: 1728. Current calculated EXP: 1757 / 2197 for Lv13).
