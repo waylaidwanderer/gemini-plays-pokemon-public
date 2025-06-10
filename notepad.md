@@ -147,7 +147,7 @@
 *   **Objective:** Level SPARKY from Lv12 to Lv14 (level cap).
 *   **Strategy:** Battle undefeated trainers in Pewter City for EXP.
 *   **Viable Trainers (based on Leveling Advisor & Game State):**
-    1.  Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) - Facing Right.
+    1.  Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) - Confirmed non-battling after interaction. Gave dialogue: "There aren't many serious POKéMON trainers here! They're all like BUG CATCHERs, but PEWTER GYM's BROCK is totally into it!"
     2.  Super Nerd (PEWTERCITY_SUPER_NERD1) at (28,18) - Facing Down.
     3.  Youngster (PEWTERCITY_YOUNGSTER) at (36,17) - Facing Down.
 *   **Questionable/Unreachable Trainers (from Advisor):**
