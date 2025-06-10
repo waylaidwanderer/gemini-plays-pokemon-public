@@ -65,11 +65,10 @@
 *   **`objective_validator_agent` Potential Use:** Consider using to validate tile navigability for a `navigation_goal_coordinate` *before* setting it, especially if targeting an NPC on a tile that might be `navigable: false` in map XML.
 *   **Agent Prompts:** Periodically review agent system prompts for clarity and to ensure they contain all necessary game-specific context if not passed via input (since agents are otherwise contextless).
 
-# Future Agent Ideas (Brainstorming)
-*   `map_analyzer_agent`: (Code-enabled) Parses `map_xml_string` to identify all grass tiles, ledges, chokepoints, etc., for exploration/training route planning.
-*   `npc_interaction_logger_agent`: Logs key NPC dialogue or items received into a structured format for notepad.
-*   `pokemon_catcher_advisor_agent`: Advises on catching wild Pokémon (if needed, ball type, strategy).
-*   `route_summary_agent`: (Code-enabled) Summarizes a route's key features (trainers, wild Pokémon if data available, connections) from `map_xml_string` and potentially notepad data.
+# Agent Development & Usage Notes (Post-Critique Turn 8900)
+*   **Gym Leader Strategist:** Utilize `gym_leader_strategist_agent` before challenging Misty to evaluate its effectiveness.
+*   **Reduce Reliance:** Actively work to reduce reliance on `dungeon_navigator_agent` (current uses: 107) and `next_battle_action_advisor_agent` (current uses: 24). Make manual decisions where possible.
+*   **Evaluate Low-Usage Agents:** Critically assess the value of `item_use_advisor_agent` (current uses: 1) and `tm_learning_advisor_agent` (current uses: 2). Delete if not providing significant benefit to free up agent slots if new agents are to be defined.
 
 # Completed Objectives & Discoveries
 *   Defeated Brock, obtained Boulder Badge.
