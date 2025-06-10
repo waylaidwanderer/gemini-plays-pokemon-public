@@ -25,7 +25,7 @@
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and prepare to challenge Gym Leader Misty.
 *   **Secondary Goal:** Navigate Route 3 westward to reach Pewter City.
-*   **Tertiary Goal:** CRITICALLY update notepad: Correct Route 3 trainer intel and secondary goal.
+*   **Tertiary Goal:** Test rom_hack_mechanics_lookup_agent and team_composition_advisor_agent.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
