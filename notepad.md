@@ -163,8 +163,6 @@
 *   **Agent Strategy Adjustments:**
     *   **`leveling_training_advisor_agent`**: Needs prompt/schema update to use verified trainer data and be more cautious with 'unknown' battlability status.
     *   Prioritize using `pathing_script_analyzer_agent` at the next safe opportunity (e.g., Pokémon Center).
-*   **New Agent Ideas:**
-    *   `Pokedex_Completer_Agent`: Suggests targets for Pokedex completion.
-    *   `HM_Usage_Optimizer_Agent`: Helps assign HMs optimally.
-    *   `Money_Management_Agent`: Tracks spending and suggests purchases.
-    *   `Team_Builder_Agent`: Suggests ideal team compositions for major challenges.
+*   **New Agent Ideas (To Be Implemented/Tested):**
+    *   `Pokedex_Completer_Agent`: Suggests targets for Pokedex completion. (Defined)
+    *   `Team_Builder_Agent`: Suggests ideal team compositions for major challenges. (Defined)
