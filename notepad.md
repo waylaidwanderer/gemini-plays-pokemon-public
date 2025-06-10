@@ -25,7 +25,7 @@
 # Current Goals (Revised Turn 8051)
 *   **Primary Goal:** Reach Cerulean City and train key team members (especially ZAPPY and BELLA) to Lv20-21 to challenge Gym Leader Misty (Ace Starmie Lv21, Player Cap 21).
 *   **Secondary Goal:** Defeat Rocket Grunt (ID 5) at (30,18) on Mt. Moon B2F and select a fossil.
-*   **Tertiary Goal:** After obtaining a fossil, give it to the Super Nerd (ID 4) at (30,12) on Mt. Moon B2F to open the path towards the eastern Mt. Moon exit.
+Tertiary Goal: Exit Mt. Moon and reach Route 4 after obtaining a fossil.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
