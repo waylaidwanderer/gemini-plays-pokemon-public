@@ -3,9 +3,9 @@
 *   Pokedex: 10/151 (Target: Complete)
 
 # Current Team & Training Focus (Strategic Notes)
-*   BELLA (GLOOM Lv21): (63/66 HP) | Moves: STUN SPORE (30 PP), ACID (26 PP), LEECH SEED (10 PP), ABSORB (25 PP)
-*   ZAPPY (PIKACHU Lv17): (44/50 HP) | Moves: THUNDERSHOCK (29 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
-*   NINA (NIDORAN♀ Lv12): (36/36 HP) | Moves: GROWL (40 PP), DOUBLE KICK (30 PP), POISON STING (35 PP), BITE (25 PP). Keep for Ground/Poison typing.
+*   BELLA (GLOOM Lv21): (56/66 HP) | Moves: STUN SPORE (30 PP), ACID (26 PP), LEECH SEED (10 PP), ABSORB (25 PP)
+*   ZAPPY (PIKACHU Lv17): (31/50 HP) | Moves: THUNDERSHOCK (25 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
+*   NINA (NIDORAN♀ Lv12): (12/36 HP) | Moves: GROWL (40 PP), DOUBLE KICK (25 PP), POISON STING (35 PP), BITE (25 PP). Keep for Ground/Poison typing. Critically low HP, avoid battle.
 *   ECHO (ZUBAT Lv11): (30/30 HP) | Moves: LEECH LIFE (25 PP), SUPERSONIC (20 PP), GUST (35 PP). Flying type coverage.
 *   LUNA (CLEFAIRY Lv11): (37/37 HP) | Moves: POUND (35 PP), GROWL (40 PP), WATER GUN (25 PP), MEGA PUNCH (20 PP).
 *   SIR (PARAS Lv13): (34/34 HP) | Moves: STUN SPORE (30 PP), ABSORB (25 PP), LEECH LIFE (25 PP), POISONPOWDER (35 PP).
@@ -21,12 +21,13 @@
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 
 # Current Location & Navigation Plan
-*   **Current Location:** Mt. Moon B2F (ID: 61) at (22,23). This segment is a dead-end for reaching Cerulean. Backtracking to B1F via warp at (16,28).
+*   **Current Location:** Mt. Moon 1F (ID: 59) at (26,16). Standing on warp to B1F.
+*   **Navigation Plan:** Use current warp to B1F (26,16). Explore B1F from this entry point to find a ladder/warp to the northeastern section of B2F. From NE B2F, find the ladder to the isolated 1F exit to Route 4 (east of Mt. Moon).
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and obtain the Cascade Badge from Misty.
-*   **Secondary Goal:** Train key team members (ZAPPY, NINA) on Route 3 and Mt. Moon to prepare for Gym Leader Misty (Ace Starmie Lv21, Player Cap 21).
-*   **Tertiary Goal:** Catch new Pokémon on Route 3 or Mt. Moon if strategically beneficial.
+*   **Secondary Goal:** Find the correct path through Mt. Moon B1F (from entry point (26,16)) and B2F to reach Route 4 (east of Mt. Moon).
+*   **Tertiary Goal:** Train ZAPPY against wild Pokémon if strategically beneficial; avoid using NINA (12/36 HP) until healed.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
@@ -61,6 +62,8 @@
 *   Healed at Mt. Moon Pokecenter.
 *   Obtained Helix Fossil (Mt. Moon B2F from Super Nerd ID 1).
 *   Navigated Route 4 (Before Mt. Moon) to Route 3.
+*   Corrected understanding of Mt. Moon 1F segments: Central/Eastern 1F is isolated from Western 1F. Access to Western B1F (and thus the B1F(18,12) -> B2F fossil area warp) is via the 1F(18,12) or 1F(6,6) warps in Western 1F, which is not directly reachable from Central/Eastern 1F.
+*   Corrected understanding of Cerulean Path: Path is via Central/Eastern 1F -> B1F (entry (26,16)) -> Explore B1F for ladder to NE B2F -> Ladder from NE B2F to isolated 1F Exit -> Route 4 East.
 
 # Trainer Battle Intel
 ## Route 3
@@ -98,6 +101,3 @@
 *   **1x1 Warps:** Step off and back on if activation is tricky (consider Pikachu).
 *   **EXP at Level Cap:** Pokémon at cap (e.g., BELLA Lv21) gain NO EXP, despite message.
 *   Prioritize healing if party critical. Trust game state `reachable: no`.
-
-# Agent Development & Usage (Updates)
-#
