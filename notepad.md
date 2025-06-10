@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
 *   **Secondary Goal:** Navigate Viridian Forest to reach Pewter City by exploring all remaining reachable unseen areas and collecting items.
-*   **Tertiary Goal:** Defeat remaining trainers in Viridian Forest.
+*   **Tertiary Goal:** Explore remaining reachable unseen tiles in Viridian City, then resume navigation of Viridian Forest to find the exit to Pewter City.
 
 # Event Triggers & Key Interactions
 *   **Rival Battle 1 (Oak's Lab):** Triggered by attempting to leave the lab after receiving Pikachu and Oak's speech.
