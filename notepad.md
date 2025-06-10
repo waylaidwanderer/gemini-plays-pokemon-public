@@ -78,7 +78,7 @@
 ## Route 3 Trainers
 *   Youngster (ID 2) at (11,7) - Defeated.
 *   Youngster (ID 3) at (15,5) - Defeated.
-*   Cool Trainer F (ID 4) at (17,10) - Defeated.
+*   Cool Trainer F (ID 4) at (17,10) - Defeated. Tile (17,10) is `navigable: false`, acting as a physical block, preventing eastward movement on row 10 from (16,10).
 *   Youngster (ID 5) at (20,6) - Defeated (Blocks path from east on row 6).
 *   Youngster (ID 7) at (23,10) - Non-battling (repeated dialogue). His tile (23,10) is `navigable: false`, acting as a physical block, preventing eastward movement on row 10 from (22,10).
 *   Youngster (ID 8) at (25,7) - Defeated.
