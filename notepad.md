@@ -80,3 +80,10 @@
 # Agent Usage Reflection (Turn 975)
 *   `exploration_planner` (Turn 961): Failed to provide a path because I supplied an *incomplete* list of 'Reachable Unseen Tiles'.
     *   **Lesson Reinforced:** ALWAYS provide the *complete and exact* list of 'Reachable Unseen Tiles' from the Game State Information to this agent. Double-check the input before calling.
+
+# Pathing Script (`run_code`) Behavior Notes
+*   The `run_code` script for path generation has shown inconsistent behavior:
+    *   Turn 983: Produced only 2 moves, which was insufficient.
+    *   Turn 990: Resulted in being blocked, indicating a possible miscalculation of current position, facing, or Pikachu's location relative to path segments.
+    *   Turn 992 (after Turn 990's block): Corrected script call with accurate current state still led to a short move sequence (4 moves) before being interrupted by a battle (Turn 993).
+    *   The script needs careful review, especially regarding how it handles the player's facing direction, Pikachu's position (especially when the player steps on Pikachu's tile), and transitions between waypoints in a longer exploration plan. The `pathing_script_analyzer_agent` (to be created) should help address this.
