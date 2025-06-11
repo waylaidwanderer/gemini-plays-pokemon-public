@@ -92,7 +92,7 @@
 *   **EXP Note (Level Cap Confirmed):** SPARKY is at the level cap of 12. The game will *display* an EXP gain message for level-capped Pokémon (like SPARKY after the Caterpie battle, Turn 3032), but their actual EXP value *does not change*. This confirms the Hard Mode rule. SPROUT, not being capped, gains EXP normally.
 *   **Critique Lesson (Turn 2626):** Consistently verify path navigability tile-by-tile in Map Memory for any planned route, especially longer ones. Break down manual pathing into shorter, verifiable segments (e.g., 3-5 steps). Prioritize fixing/using pathing agents. Confirm item prices and funds *before* shop visits. Re-evaluate shop menu interaction for quantity adjustments.
 
-*   SPROUT (ODDISH): Lv6 (9/23 HP, no status). Current EXP: 234.
+*   SPROUT (ODDISH): Lv6 (9/23 HP - CRITICALLY LOW, no status). Current EXP: 234.
     *   Moves: TACKLE (35 PP), POISONPOWDER (35 PP).
 
 # Pewter City Navigation Notes
