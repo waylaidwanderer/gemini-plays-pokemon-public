@@ -146,3 +146,5 @@
 
 # Cerulean Bike Shop Notes
 *   Bike Shop Clerk at (7,3) offers a BICYCLE for ¥1,000,000.
+
+- Cerulean City: The tree at (20,29) (burgled house entrance) requires HM01 Cut.
