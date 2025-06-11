@@ -111,4 +111,4 @@
 *   JR.TRAINER♂ (Cool Trainer M) in Gym (Diglett Lv9, Sandshrew Lv9): Defeated (Turn 4004), ¥180.
 *   Gym Leader Brock (Geodude Lv10, Onix Lv14): Lost (Turn 4016).
 *   Cool Trainer M (ID 2) at (18,26): Non-battling (Confirmed Turn 5093).
-*   Super Nerd (ID 4, PEWTERCITY_SUPER_NERD2) at (25,26): Target for funds (Observed Turn 5098).
+*   Super Nerd (ID 4, PEWTERCITY_SUPER_NERD2) at (23,26) facing Left: Target for funds (Map Sprites data Turn 5102). (My previous note about (25,26) was incorrect; NPC is at (23,26). Tile (25,26) showed `navigable: false` in screen annotation, conflicting with XML `navigable: true` status, causing confusion).
