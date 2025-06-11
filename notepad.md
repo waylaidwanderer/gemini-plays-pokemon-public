@@ -146,4 +146,4 @@ Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obta
 - Swimmer (ID CERULEANGYM_SWIMMER) at (Cerulean Gym 9,8) - Defeated. Pokémon: Horsea Lv16, Shellder Lv16.
 
 ## Cerulean Gym Mechanics
-*   Specific narrow water sections appear to act as bridges, potentially allowing crossing even if the water tile itself is marked non-navigable (e.g. from (10,4) to (8,4) over water tile (9,4)). This needs confirmation.
+*   Cerulean Gym Navigation: Crossing water horizontally from (10,4) to (8,4) over (9,4) failed (blocked). Hypothesis: Player might be able to jump over a single water tile if moving *vertically* between two ground tiles (e.g., from (7,2) to (7,4) over water tile (7,3)).
