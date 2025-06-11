@@ -95,8 +95,6 @@
     
     *   `advanced_pathfinder_agent` / `direct_pathing_agent`: **Verify existence and delete** if found and unused.
 
-*   `pikachu_aware_move_translator_agent`: **Define** (Medium Priority). Input: Player position, facing, Pikachu position, intended next coordinate. Output: Exact button presses needed, accounting for the double-press turn mechanic if moving onto Pikachu's tile from a non-facing direction.
-
 # Route 2 Encounters
 *   Encountered wild Vulpix (Lv7) in grass patch on Route 2 (west side at (2,7)). Plan: Paralyze with THUNDER WAVE (SPBARKY), weaken with THUNDERSHOCK (SPBARKY), then attempt to catch with POKé BALL. Vulpix is a new Pokédex entry. **Successfully caught Vulpix, named FLAREE.**
 
