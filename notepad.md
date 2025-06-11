@@ -124,7 +124,7 @@
 - **Navigation Strategy:** When pathing tools fail or in urgent situations, use simple, robust manual navigation with short, verifiable movement sequences. Focus on reaching known safe points or exits.
 - **Agent Management:** Defer all agent development, definition, and testing to safe, non-time-sensitive locations (e.g., Pokémon Center).
 - **Notepad Efficiency:** Consolidate administrative tasks. Be concise. Action or remove old ideas (e.g., `move_validator_agent`, `direct_pathing_agent` status). Re-evaluate necessity of low-usage agents.
-- **Current Turn Count:** 3227. Be mindful of turn count accuracy.
+- **Current Turn Count:** 3251. Be mindful of turn count accuracy.
 
 # Repel Mechanics (New Hypothesis - Turn 3247)
 *   Repel may require the lead Pokémon's level to be **strictly greater** than the wild Pokémon's level to be effective. 
