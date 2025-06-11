@@ -49,7 +49,7 @@
 
 # Agent Development & Pathing Strategy
 *   **Active Agents to Test/Utilize:** `exploration_planner`, `map_analyzer_agent`, `battle_strategist_agent`, `item_finder_agent`, `leveling_training_advisor_agent`, `pokedex_completer_agent`, `team_builder_agent`, `direct_pathing_agent`, `financial_planner_agent`.
-*   **Pathing Script (`run_code`):** Fixing the `run_code` pathing script using `pathing_script_analyzer_agent` is a high-priority task for the next visit to a Pokémon Center. (Missed opportunity during last visit - prioritize next time).
+*   **Pathing Script (`run_code` - URGENT):** Fixing the `run_code` pathing script using `pathing_script_analyzer_agent` is an **URGENT HIGH-PRIORITY** task. Must be addressed at the *very next safe opportunity* (e.g., Pokémon Center, or even a quiet spot if extended debugging is not needed). Do not defer. Current navigation difficulties are heavily impacted by its failure.
 *   **Agent Management Timing:** Define, update, or test agents only when in a safe, non-time-sensitive location (e.g., Pokémon Center).
 *   **Agent Usage Reminder:** Be more proactive in using existing agents, especially `direct_pathing_agent` and `map_analyzer_agent` for navigation, `item_finder_agent` for exploration, and `battle_strategist_agent` for major battles.
 
