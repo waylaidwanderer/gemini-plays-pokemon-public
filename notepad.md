@@ -190,3 +190,5 @@
 - Youngster (ROUTE24_YOUNGSTER1) (ID 5) at (ROUTE_24 12,26) - Defeated.
 
 *   **PIDGEY (Route 24 Lass vs ZAPPY Lv18):** Confirmed faster. Uses Sand-Attack repeatedly. (Observed Turn 10350+)
+
+- Lass (ROUTE24_COOLTRAINER_F1) (ID 4) at (ROUTE_24 11,23) - Defeated. Pokémon: PIDGEY Lv16, NIDORAN♀ Lv16.
