@@ -209,3 +209,7 @@
 # Viridian Forest Notes
 *   Youngster (ID 1, VIRIDIANFOREST_YOUNGSTER1) at (17,44) is not a battlable trainer, only provides dialogue ('I came here with some friends! They're out for POKéMON fights!'). This occurred after approaching him from (17,45) and pressing 'A' on Turn 3471. Does not initiate battle on sight or after dialogue completion.
 *   Youngster (ID 10, VIRIDIANFOREST_YOUNGSTER6) at (28,41) is not a battlable trainer, only provides dialogue ('You should carry extras!'). This occurred after approaching him from (28,42) and pressing 'A' on Turn 3483. Does not initiate battle on sight or after dialogue completion.
+
+# New Agent Ideas (for when slots open)
+*   **Route Progress Analyzer Agent:** Takes `map_xml_string` and current position to analyze progress on linear routes, identifying remaining trainers/items based on known data or notes.
+*   **Risk Assessor Agent:** Inputs: party status, current location (e.g., Viridian Forest, known wild Pokémon levels), distance to Pokémon Center. Output: risk level (low, medium, high) of proceeding vs. retreating.
