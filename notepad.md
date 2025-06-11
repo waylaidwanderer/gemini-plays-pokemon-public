@@ -132,3 +132,5 @@
 - Tile (27,18) in Viridian Forest (Trainer Tips sign) is impassable when trying to move Down from (27,17) (confirmed Turn 4542).
 
 - Tile (25,17) in Viridian Forest is impassable (confirmed Turn 4544, blocked westward movement from (26,17)).
+
+- Tile (29,21) in Viridian Forest is impassable (confirmed Turn 4546, blocked eastward movement from (28,21)).
