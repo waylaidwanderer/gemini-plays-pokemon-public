@@ -1,10 +1,10 @@
 # Pokédex & Badges
-*   Badges: Boulder Badge
+*   Badges: Boulder Badge, Cascade Badge
 *   Pokedex: 10/151 (Target: Complete)
 
 # Current Team & Training Focus (Strategic Notes)
-*   BELLA (GLOOM Lv21): (62/66 HP) | Moves: STUN SPORE (28 PP), ACID (29 PP), LEECH SEED (10 PP), ABSORB (21 PP)
-*   ZAPPY (PIKACHU Lv18): (42/53 HP) | Moves: THUNDERSHOCK (30 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP) - Needs leveling to Lv21 for Misty.
+*   BELLA (GLOOM Lv21): (60/66 HP) | Moves: STUN SPORE (27 PP), ACID (29 PP), LEECH SEED (10 PP), ABSORB (16 PP)
+*   ZAPPY (PIKACHU Lv18): (0/53 HP) | Moves: THUNDERSHOCK (26 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (29 PP), THUNDER WAVE (19 PP) - Needs healing.
 *   NINA (NIDORAN♀ Lv12): (36/36 HP) | Moves: GROWL (40 PP), DOUBLE KICK (30 PP), POISON STING (35 PP), BITE (25 PP).
 *   ECHO (ZUBAT Lv12): (32/32 HP) | Moves: LEECH LIFE (25 PP), SUPERSONIC (20 PP), GUST (35 PP), BITE (25 PP).
 *   LUNA (CLEFAIRY Lv11): (37/37 HP) | Moves: POUND (35 PP), GROWL (40 PP), WATER GUN (25 PP), MEGA PUNCH (20 PP).
@@ -14,19 +14,20 @@
 *   OLD ROD x1
 *   POKé BALL x5
 *   TM34 (BIDE) x1 - Evaluate for team.
+*   TM11 (BUBBLEBEAM) x1 - Received from Misty.
 *   HP UP x1 - Used on ZAPPY.
 *   RARE CANDY x1 - Save for strategic use.
 *   MOON STONE x1 - Potential use on LUNA (Clefairy) or NINA (Nidoran♀) after evolution to Nidorina for Nidoqueen.
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 
 # Current Location & Navigation Plan
-*   **Current Location:** Cerulean Gym (ID 65) at (6,4). In battle with Cool Trainer F.
-*   **Navigation Plan:** Defeat Cool Trainer F, then Misty.
+*   **Current Location:** Cerulean Gym (ID 65) at (6,3).
+*   **Navigation Plan:** Exit Cerulean Gym, heal at Pokémon Center, then explore routes towards Vermilion City.
 
 # Current Goals
-*   **Primary Goal:** Obtain the Cascade Badge from Misty in Cerulean City.
-*   **Secondary Goal:** Defeat all trainers in Cerulean Gym and reach Misty. Level ZAPPY to Lv21.
-*   **Tertiary Goal:** Catch new Pokémon in areas around Cerulean City after obtaining the Cascade Badge.
+*   **Primary Goal:** Obtain the Thunder Badge from Lt. Surge in Vermilion City.
+*   **Secondary Goal:** Reach Vermilion City and prepare for Lt. Surge (level cap 24).
+*   **Tertiary Goal:** Catch new Pokémon in areas around Cerulean City and on the way to Vermilion.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
@@ -47,7 +48,7 @@
 *   **General:** Old Rod (Viridian Mart), HMs forgettable/menu use, TMs repurchasable, Trade evos by level.
 *   **Type Matchups (CRITICAL):** Ghost (Special) SE vs Psychic. Bug no longer SE vs Poison. Grass 0.25x vs Poison/Flying. Poison NVE vs Zubat. Bug SE vs Poison (likely 2x, so 4x vs Grass/Poison like Gloom).
 *   **Stat Boosts:** Pikachu, Farfetch’d, Venomoth, Onix.
-*   **Level Caps:** Misty (Starmie Lv21 -> Cap 21), Lt. Surge (Raichu Lv28 -> Player Cap 24).
+*   **Level Caps:** Brock (Onix Lv12 -> Cap 12), Misty (Starmie Lv21 -> Cap 21), Lt. Surge (Raichu Lv28 -> Player Cap 24).
 
 ## PC Interaction Notes
 *   Pewter City PC: Far right (east side) of Pokecenter.
@@ -65,6 +66,8 @@
 *   Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obtained the Helix Fossil. Exited Mt. Moon B1F (28,4) via warp #8 to Route 4 (After Mt. Moon) at (25,6).
 *   Arrived in Cerulean City.
 *   Defeated Swimmer (ID CERULEANGYM_SWIMMER) in Cerulean Gym.
+*   Defeated Cool Trainer F (ID CERULEANGYM_COOLTRAINER_F) in Cerulean Gym.
+*   Defeated Misty, Cascade Badge obtained. Received TM11 BUBBLEBEAM.
 
 # Trainer Battle Intel
 ## Route 3
@@ -95,7 +98,8 @@
 *   Cool Trainer F (ID 1, ROUTE4_COOLTRAINER_F1) - Non-battling/defeated. (Numerous attempts failed).
 ## Cerulean Gym
 *   Swimmer (ID CERULEANGYM_SWIMMER) at (Cerulean Gym 9,8) - Defeated. Pokémon: Horsea Lv16, Shellder Lv16.
-*   Cool Trainer F (ID 2, CERULEANGYM_COOLTRAINER_F) at (5,4) - Currently battling. Known Pokémon: SEEL Lv19.
+*   Cool Trainer F (ID 2, CERULEANGYM_COOLTRAINER_F) at (Cerulean Gym 5,4) - Defeated. Pokémon: SEEL Lv19.
+*   Misty (ID 1, CERULEANGYM_MISTY) at (Cerulean Gym 5,3) - Defeated. Pokémon: Psyduck Lv19, Goldeen Lv18, Starmie Lv21.
 
 # Key Learnings & Rules
 ## Navigation & Map Mechanics
@@ -107,7 +111,7 @@
 *   Trust game state `reachable: no` for warp/object accessibility.
 
 ## Battle & EXP Mechanics
-*   **EXP at Level Cap:** Pokémon at cap (e.g., BELLA Lv21) gain NO EXP, despite message.
+*   **EXP at Level Cap:** Pokémon at cap (e.g., BELLA Lv21) gain NO EXP, despite message. BELLA's EXP was 6458 before Psyduck and 6458 after Psyduck, confirming no gain from Psyduck or Starmie.
 *   Prioritize healing if party critical (outside of strategic sacrifices).
 
 ## Type Matchup Discoveries
@@ -122,32 +126,7 @@
 # Cerulean Gym Mechanics
 *   **Final Conclusion:** All direct water crossings in the central pool are impossible. Path to trainers involves navigating the perimeter ground tiles only. Water tiles marked `navigable: false` are truly impassable. Reaching trainers on platforms requires navigating the outer ground walkways and then specific connecting ground tiles onto those platforms.
 
-# Cerulean Gym Strategy (vs Misty - Cap Lv21)
-*   **Team & Prep:**
-    *   CRITICAL: Level ZAPPY (PIKACHU) to Lv21. Currently Lv18.
-    *   Ensure ZAPPY and BELLA (GLOOM) are at full health with sufficient PP.
-    *   Other party members (NINA, ECHO, LUNA, SIR) are underleveled; use as pivots if necessary.
-*   **Lead Pokémon:** BELLA vs Staryu (Lv18). Use STUN SPORE, then ABSORB. Switch to ZAPPY if Staryu uses Harden excessively or BELLA is at risk.
-*   **Matchups:**
-    *   vs Staryu (Lv18 Water): BELLA (Stun Spore, Absorb).
-    *   vs Goldeen (Lv18 Water): ZAPPY (Thundershock). BELLA is weak to Peck; switch if BELLA faces it.
-    *   vs Starmie (Lv21 Water/Psychic, knows Psychic moves): ZAPPY. Use THUNDER WAVE first, then THUNDERSHOCK. BELLA is very weak to Psychic.
-*   **General Tips:**
-    *   Misty has 3 Pokémon. Lead and ace have Psychic moves.
-    *   Utilize status moves (Stun Spore, Thunder Wave) for speed control.
-    *   Plan switches carefully due to 'Set' battle style.
-    *   Conserve ZAPPY's Thundershock PP for Starmie if possible.
-
-- Cool Trainer F (ID CERULEANGYM_COOLTRAINER_F) at (Cerulean Gym 5,4) - Defeated. Pokémon: SEEL Lv19.
-
-## Gameplay Notes & Strategy (Updates from Critique)
-### Battle Strategy
-*   **Confirm Full Defeat:** Always ensure a trainer has no more Pokémon before assuming victory and moving on. Some trainers may have more Pokémon than initially apparent.
-
 # Battle Notes vs Misty (Cerulean Gym)
-*   Misty's first Pokémon: Psyduck Lv19 (Defeated by BELLA).
-*   BELLA (Lv21, at level cap) supposedly gained 325 EXP from Psyduck, but her actual EXP (6458) did not change, confirming level-capped Pokémon gain no EXP despite the message.
-*   Misty's second Pokémon: Goldeen Lv18 (Defeated by ZAPPY).
-*   ZAPPY (Lv18) gained 211 EXP from Goldeen. Current EXP: 6313.
-
-*   Misty's third Pokémon: Starmie Lv21. ZAPPY (Lv18) used Quick Attack, then fainted to Starmie's Bubblebeam. Starmie's HP is ~90%.
+*   Misty's first Pokémon: Psyduck Lv19 (Defeated by BELLA). BELLA (Lv21, at level cap) supposedly gained 325 EXP from Psyduck, but her actual EXP (6458) did not change.
+*   Misty's second Pokémon: Goldeen Lv18 (Defeated by ZAPPY). ZAPPY (Lv18) gained 211 EXP from Goldeen. Current EXP: 6313.
+*   Misty's third Pokémon: Starmie Lv21. ZAPPY (Lv18) used Quick Attack, then fainted to Starmie's Bubblebeam. Starmie's HP was ~90%. BELLA (Lv21) defeated Starmie with Absorb after Starmie was paralyzed by Stun Spore. BELLA's EXP (6458) did not change.
