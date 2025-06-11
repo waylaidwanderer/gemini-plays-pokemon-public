@@ -186,3 +186,5 @@
 
 # Trainer Battle Intel (Route 24)
 - Youngster (ROUTE24_YOUNGSTER1) (ID 5) at (ROUTE_24 12,26) - Defeated.
+
+*   **PIDGEY (Route 24 Lass vs ZAPPY Lv18):** Confirmed faster. Uses Sand-Attack repeatedly. (Observed Turn 10350+)
