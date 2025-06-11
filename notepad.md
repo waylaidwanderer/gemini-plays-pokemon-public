@@ -253,3 +253,6 @@
 *   **Agent-Assisted Pathing (Backup):** If manual pathfinding continues to be problematic, consider using `map_analyzer_agent` to explicitly request a path to the desired destination (e.g., 'Find path to Viridian Forest North Exit').
 
 *   **Notepad Efficiency (Critique Takeaway):** Aim for more concise notes. Summarize repeated failures instead of logging each instance. Ensure plans are based on verified map data. Consolidate related notes for better readability.
+
+# Critical Game Mechanics & Misunderstandings (Turn 3601+)
+*   **`navigable="false"` is Absolute (CRITICAL LESSON):** If a tile's XML entry shows `navigable="false"`, it is IMPASSABLE by the player, regardless of the tile type (e.g., grass, ground) or the status of any NPC on it (e.g., defeated trainer). This was my error with Youngster (ID 4) at (3,19) in Viridian Forest; his tile being `navigable="false"` makes the tile itself a blocker, not the NPC per se. I must always trust the `navigable` attribute as the definitive source of truth for player movement. This understanding is crucial for all future path planning.
