@@ -139,3 +139,5 @@
 *   Melanie (Girl, ID 1) at (4,2) - Non-battling. Dialogue: 'I take care of injured POKéMON. I nursed this BULBASAUR back to health. It needs a good trainer to take care of it now.'
 *   Bulbasaur (ID 2) at (5,2) - Non-battling. Dialogue: 'Bubba! Zoar!'. Was not offered despite Melanie's dialogue, possibly due to full party and no PC prompt triggered.
 *   This house does not appear to be a direct path to Vermilion City based on initial exploration.
+
+- Oddish (ID 3) at (2,5) in Melanie's House: Dialogue 'ODDISH: Orddissh!' - Interacted.
