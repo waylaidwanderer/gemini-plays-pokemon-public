@@ -194,14 +194,14 @@
 - Lass (ROUTE24_COOLTRAINER_F1) (ID 4) at (ROUTE_24 11,23) - Defeated. Pokémon: PIDGEY Lv16, NIDORAN♀ Lv16.
 
 # Future Agent Ideas
-- Wild Encounter Strategist: Advise on fight/run/catch based on party, Pokédex, goals, level caps. Suggest lead for escape/capture.
-- Level Cap Progress Tracker: Track party levels against caps, calculate EXP needed for next cap.
-- Item/TM Use Prioritizer: Holistic review of inventory and party for optimal long-term item/TM allocation.
+*   (No outstanding unimplemented agent ideas currently)
 
 # Lessons Learned from Critiques & Gameplay
 - Resource Management: Protracted battles against single Pokémon (e.g., Pidgey on R24) can severely deplete party resources. Re-evaluate strategy if a battle drags on and consider retreating to heal sooner, especially in a gauntlet.
 - Accuracy Debuffs (e.g., Sand-Attack): Stacked accuracy debuffs are extremely detrimental. Consider switching out debuffed Pokémon sooner, even if it means taking a hit on a fresh Pokémon. Moves with <100% base accuracy become highly unreliable.
 - Critical Agent Evaluation: While agents provide valuable advice, critically evaluate their recommendations, especially if they rely on unconfirmed assumptions (e.g., speed tiers) or if following their advice repeatedly leads to unfavorable situations (e.g., due to persistent debuffs not fully accounted for by the agent's initial assessment).
+- Pathing Near Warps: When pathing near sensitive warps, ensure the movement plan explicitly moves *past* the warp tile if not intending to use it, or detours significantly. Avoid landing on a warp tile if the next intended move is in the warp's activation direction.
+- **Impassable Trainer Tiles:** Tiles occupied by defeated trainers that are marked `navigable: false` in the map XML are still impassable. The NPC's defeated status does not override the tile's inherent impassability. Always find a path around such tiles.
 
 # Route 24 - Nugget Bridge Notes (Update)
 * Nugget Bridge Challenge completed. Received Nugget as prize.
@@ -210,17 +210,9 @@
 ## Financials
 * Current Money: ¥8112 (as of Turn 10498)
 
-# Future Agent Ideas (Additions)
-- Pathfinding Agent for Complex Maps: Takes map_xml, player_pos, target_coords (unseen tile/warp), and game_state_sprites. Outputs button sequence, considering Pikachu.
-
 # Agent Development & Usage (Updates)
 *   Consider enhancing `exploration_prioritizer_agent` and `objective_validator_agent` to provide high-level pathing hints (e.g., 'approach from west', 'requires upper platform access') if a clear route is discernible, possibly using their `run_code` capability for deeper analysis.
-
-# Lessons Learned from Critiques & Gameplay (Additions)
-- Pathing Near Warps: When pathing near sensitive warps, ensure the movement plan explicitly moves *past* the warp tile if not intending to use it, or detours significantly. Avoid landing on a warp tile if the next intended move is in the warp's activation direction. (Previous note about Turn 10498 and Melanie's House warp was incorrect; no such warp occurred then. Accidental warps have mostly been into Cerulean Gym from (31,20).)
-
-# Agent Development & Usage (Updates)
-*   `cerulean_pathfinder_agent` (Turn 10508): First use provided a flawed path, attempting to move into the Gym Sign obstacle at (28,22) in Cerulean City. Needs review/debugging if future paths also fail to consider basic obstacles.
+*   `cerulean_pathfinder_agent` (Turn 10508): First use provided a flawed path, attempting to move into the Gym Sign obstacle at (28,22) in Cerulean City. Needs review/debugging if future paths also fail to consider basic obstacles. The agent's system prompt has been updated to explicitly state that `navigable="false"` tiles are impassable.
 
 # Cerulean City Navigation Notes (Additions)
 - Officer Jenny (CERULEANCITY_GUARD2) at (28,13) blocks westward movement along Y=13. Pathing must go around (e.g., via Y=14 walkway).
