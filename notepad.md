@@ -111,4 +111,13 @@
 *   JR.TRAINER♂ (Cool Trainer M) in Gym (Diglett Lv9, Sandshrew Lv9): Defeated (Turn 4004), ¥180.
 *   Gym Leader Brock (Geodude Lv10, Onix Lv14): Lost (Turn 4016).
 *   Cool Trainer M (ID 2) at (18,26): Non-battling (Confirmed Turn 5093).
-*   Super Nerd (ID 4, PEWTERCITY_SUPER_NERD2) at (23,26) facing Left: Target for funds (Map Sprites data Turn 5102). (My previous note about (25,26) was incorrect; NPC is at (23,26). Tile (25,26) showed `navigable: false` in screen annotation, conflicting with XML `navigable: true` status, causing confusion).
+*   Super Nerd (ID 4, PEWTERCITY_SUPER_NERD2) at (24,26) facing Left: Target for funds (Map Sprites data Turn 5103). Interaction spot will be (25,26).
+
+# Hindsight & Lessons Learned
+*   Screen annotations for tile navigability can sometimes conflict with the underlying XML map data (e.g., tile (25,26) in Pewter City on Turn 5102 showed 'navigable: false' in annotation but was 'navigable: true' in XML). Always prioritize XML data as the source of truth for tile properties.
+*   Viridian Forest Navigation: Avoid planning overly long paths without intermediate checks. Use `move_validator_agent` more proactively for complex paths or break them into smaller, verifiable segments (5-10 steps). Prioritize exploring closer alternatives before committing to extensive backtracking.
+*   Pewter Pokecenter Navigation: Always verify tile navigability (`navigable="true"` in XML) for target interaction spots, especially around NPCs or counters. The tile (4,4) where Pikachu often stands is navigable, contrary to a previous incorrect note; the correct Nurse interaction spot is (4,5). The persistent collision error when moving from (3,4) to (4,4) citing an object at (5,4) needs further investigation if it recurs, but alternative pathing can bypass it.
+*   Risk Management: Engaging in multiple risky battles with a critically low HP Pokémon (like FLAREE in Viridian Forest) should be avoided unless the potential reward (e.g., crucial EXP for a level-up before a boss) outweighs the risk of fainting and blacking out. Prioritize healing when a key party member is vulnerable.
+*   Agent Usage & Updates: Act on planned agent definitions and prompt updates promptly (e.g., at PC visits or after critical tasks like healing) to continuously improve decision-making tools. Consistently use `map_analyzer_agent` for queries like tile navigability before attempting complex interactions.
+*   Notepad Precision: Ensure `old_text` for `replace` actions is exact and refers to the most recent version of the text in the notepad to prevent update failures.
+*   NPC Location Verification: Consistently verify NPC locations using `Map Sprites` data before planning paths or interactions. My misidentification of Super Nerd ID 4's location across multiple turns (5095-5102) was due to not checking the latest `Map Sprites` data each turn.
