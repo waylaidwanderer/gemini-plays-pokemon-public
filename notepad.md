@@ -207,3 +207,6 @@
 
 # Agent Usage & NPC Behavior (Turn 3407 - Viridian City)
 *   `npc_interaction_planner_agent` (called on turn 3406) provided a plan for Youngster (ID 1) based on his position at (13,22). However, the Youngster moved to (12,19) by turn 3407, rendering the agent's plan outdated. This highlights the need to re-verify NPC positions before acting on agent plans if significant time or movement has occurred.
+
+# NPC Behavior Update (Turn 3409 - Viridian City)
+*   Youngster (ID 1) continues to move frequently. Was at (12,21), now at (9,19). This erratic movement makes targeting him for a battle challenging and requires constant re-planning of approach.
