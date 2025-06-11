@@ -59,3 +59,7 @@
 
 # Notepad Strategy
 *   Use `append` for new info. Use `overwrite` for full cleanups when feasible and content is prepared.
+
+# Pathing & Agent Notes (Post-Turn 4707)
+*   `map_analyzer_agent` provided another flawed path from (16,33) towards (2,1) in Viridian Forest (Turn 4706 path execution failed at (19,36) to (20,36) due to impassable tile). Agent paths need careful validation or execution in smaller, verifiable segments. Consider using `move_validator_agent` for agent-generated paths if complex.
+*   **Reminder:** Change party order to lead with FLAREE (Lv7) to maximize EXP gain towards secondary goal, especially in Viridian Forest or before anticipated battles. Do this at the next safe opportunity (e.g., menu access before moving to a new area).
