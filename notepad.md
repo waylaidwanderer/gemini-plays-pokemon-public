@@ -53,3 +53,7 @@
 3.  Explore the new route for trainers and items.
 4.  Train SPROUT and earn money for Potions.
 5.  Re-evaluate readiness for Brock's Gym.
+
+# Pewter City Navigation Anomalies (Turn 3855)
+*   **Unexpected Movement Jump:** During the execution of the `map_analyzer_agent`'s path on turn 3854, the 'Screens During Movement' log showed an unexplained jump from (20,22) to (22,23) when the intended move was to (20,23). This resulted in landing at (22,24) instead of the agent's target (20,23).
+*   **XML vs. Screen Discrepancy:** The `map_xml_string` for Pewter City listed tile (13,13) as 'impassable' and `navigable="false"`. However, the 'Screens During Movement' log for turn 3854 clearly showed the player sprite on (13,13) and the tile visually appearing as navigable ground. This suggests an inaccuracy in the provided XML for that specific tile.
