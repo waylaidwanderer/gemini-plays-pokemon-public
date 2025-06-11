@@ -119,7 +119,7 @@
 
 # Agent Development & Usage
 *   **Path Validator Agent:** Defined. Should be used for testing path segments, especially in complex areas or before long movements.
-*   **Gym Puzzle Solver Agent:** Definition and calls failed repeatedly. If attempted again, schema needs major simplification. For code-enabled agents, prompts must be very clear on JSON input/output for the script.
+*   **Gym Puzzle Solver Agent:** Deleted due to repeated definition/call failures. Replaced by more specialized agents.
 
 *   **General Agent Usage:** When an agent definition or call fails multiple times, abandon that specific agent or approach for the immediate future and attempt to solve the problem manually or with a different, simpler tool to maintain momentum.
 
