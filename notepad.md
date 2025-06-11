@@ -170,3 +170,7 @@
 
 # Post-Battle Map Marker Reminders (Viridian Forest)
 *   Mark Youngster (ID 1) at (17,44) as a blocker (❗/💁).
+
+# Party Update & Goal Completion (Turn 4696)
+*   SPROUT (ODDISH) reached Lv12 (33/37 HP, EXP: 973). Moves: TACKLE (30 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP). This is the current level cap (0 badges).
+*   **Secondary Goal Update:** Training SPROUT to current level cap (Lv12) is COMPLETE.
