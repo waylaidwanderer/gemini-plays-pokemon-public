@@ -60,3 +60,9 @@
 
 # Critical Pathing Learnings (Turn 3860)
 *   **`move_validator_agent` Path Retention:** The game may retain and attempt to execute the *full* path validated by `move_validator_agent`, even if only a partial button sequence is provided in the `buttons_to_press` for a turn. This can lead to unintended movements, warps, or blocks if the full path isn't re-evaluated after partial execution or if the game state changes. Ensure that if a validated path is interrupted, any subsequent movement re-validates from the new current position or uses only the *remaining correct segment* if absolutely certain of the game state and path validity. Best practice is to re-validate or use very short, certain segments if a long path is broken.
+
+# Youngster Gym Escort Event Conclusion (Turn 3865)
+*   The Youngster NPC (ID 5), who previously acted as a Gym Guide and then escorted me to the Gym, finished his dialogue after forcibly moving me to (12,19) in front of the Pewter Gym.
+*   His final dialogue was "If you have the right stuff, go take on BROCK!".
+*   The Youngster (ID 5) is now located at (18,19) according to the game state, blocking the direct path east along row 19.
+*   My strategy to explore the eastern map connection for funds and EXP remains the priority, as I am unprepared for Brock.
