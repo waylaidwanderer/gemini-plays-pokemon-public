@@ -215,7 +215,7 @@
 * Current Money: ¥8472 (as of Turn 10553)
 
 # Agent Development & Usage (Updates)
-*   Consider enhancing `exploration_prioritizer_agent` and `objective_validator_agent` to provide high-level pathing hints (e.g., 'approach from west', 'requires upper platform access') if a clear route is discernible, possibly using their `run_code` capability for deeper analysis.
+
 *   `cerulean_pathfinder_agent` (Turn 10508): First use provided a flawed path, attempting to move into the Gym Sign obstacle at (28,22) in Cerulean City. Needs review/debugging if future paths also fail to consider basic obstacles. The agent's system prompt has been updated to explicitly state that `navigable="false"` tiles are impassable.
 
 # Cerulean City Navigation Notes (Additions)
