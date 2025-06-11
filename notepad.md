@@ -74,5 +74,5 @@
 *   **Current Position:** (28,19) facing Up. Super Nerd at (28,18) blocks forward movement.
 
 # Map Changes & Pathing Issues (Turn 3929)
-*   **Unexpected Tile Change:** Tile (34,20) in Pewter City changed from 'ground' to 'impassable' while I was at (33,20), aborting my movement. This blocked my planned path along row 20 to the east.
-*   **Current Position:** (33,20) facing Right. Pikachu at (32,20).
+*   **Position Mismatch & Tile Change:** My movement was aborted. Game state shows I am at (29,19) facing Right, not (33,20). Tile (34,20) in Pewter City changed from 'ground' to 'impassable', blocking eastward travel along row 20 beyond X=33.
+*   **Current Position:** (29,19) facing Right. Pikachu at (28,19).
