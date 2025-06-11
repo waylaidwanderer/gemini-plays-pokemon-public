@@ -161,3 +161,14 @@
     - Continue with plan to use `pathing_script_analyzer_agent` on A* script.
 - **NPC Movement:** Be more cautious about assuming NPC positions are static, as Youngster (ID 6) moved and intercepted me.
 - Defeated Youngster (ID 6, VIRIDIANFOREST_YOUNGSTER5) at (15,18) in Viridian Forest (Caterpie Lv6, Metapod Lv6). Gained ¥60. Current money: ¥156. (SPARKY level capped, gained 0 actual EXP).
+
+# Reflection Insights (Turn 3347)
+*   **Viridian Forest NPC Watch:** Youngster (ID 10) is at (28,41) facing right. My current path along column 27 should avoid him. Youngster (ID 1) at (17,44) is facing down, so passing through (17,44) should be safe.
+*   **New Agent Ideas:**
+    *   `move_validator_agent`: Takes a path and `map_xml_string`, verifies each step against map data (navigability, tile types, NPC locations if provided) and outputs path validity or first invalid step. Useful for debugging pathing agents/scripts.
+    *   `NPC_interaction_planner_agent`: Given NPC ID, location, facing, and player's location/facing, suggests optimal tile and button presses for dialogue.
+    *   `repel_effectiveness_predictor_agent`: Given lead Pokémon level and map, consults known wild Pokémon levels for that map, predicts Repel effectiveness and against which level ranges. (Could be a `run_code` script too).
+*   **Pending Agent Tasks (Pokémon Center):**
+    *   Use `pathing_script_analyzer_agent` on the A* script / `advanced_pathfinder_agent` logic.
+    *   Evaluate utility of low-usage agents (`battle_strategist_agent`, `item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `financial_planner_agent`). Refine or delete.
+    *   Decide on defining `move_validator_agent` (from above) or remove the note.
