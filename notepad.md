@@ -146,4 +146,6 @@
 
 # Battle Notes vs Misty (Cerulean Gym)
 *   Misty's first Pokémon: Psyduck Lv19 (Defeated by BELLA).
-*   BELLA (Lv21, at level cap) supposedly gained 325 EXP from Psyduck. Current EXP: 6458. (To be verified if actual EXP changed).
+*   BELLA (Lv21, at level cap) supposedly gained 325 EXP from Psyduck, but her actual EXP (6458) did not change, confirming level-capped Pokémon gain no EXP despite the message.
+*   Misty's second Pokémon: Goldeen Lv18 (Defeated by ZAPPY).
+*   ZAPPY (Lv18) gained 211 EXP from Goldeen. Current EXP: 6313.
