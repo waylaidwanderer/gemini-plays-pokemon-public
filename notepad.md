@@ -111,3 +111,6 @@ Previous attempts to find the B1F(22,18) warp or an exit from the current B1F/B2
 
 # Key Learnings & Rules (Continued)
 *   AI Critique Learnings (Turn 9256): Be more methodical in navigating segmented dungeons. Rigorously cross-reference warp coordinates with destinations/entry points from Game State Info before committing to a path. Disengage from non-progressive NPC dialogue loops sooner. Use `exploration_prioritizer_agent` and `objective_validator_agent` more proactively when uncertain or validating targets.
+
+# Agent Performance Notes
+*   `dungeon_navigator_agent` has proven highly unreliable in complex, multi-level areas like Mt. Moon B2F, consistently generating invalid paths. Prioritize manual exploration or very short, verifiable agent paths in such areas.
