@@ -126,3 +126,19 @@ Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obta
 
 # Route 4 Navigation Notes
 *   Encountered an impassable barrier at X=63 (extending from Y=10 to Y=15). Bypassed it by taking a northern path along Y=9, starting from (62,9) eastward.
+
+# Cerulean Gym Strategy (vs Misty - Cap Lv21)
+*   **Team & Prep:**
+    *   CRITICAL: Level ZAPPY (PIKACHU) to Lv21. Currently Lv18.
+    *   Ensure ZAPPY and BELLA (GLOOM) are at full health with sufficient PP.
+    *   Other party members (NINA, ECHO, LUNA, SIR) are underleveled; use as pivots if necessary.
+*   **Lead Pokémon:** BELLA vs Staryu (Lv18). Use STUN SPORE, then ABSORB. Switch to ZAPPY if Staryu uses Harden excessively or BELLA is at risk.
+*   **Matchups:**
+    *   vs Staryu (Lv18 Water): BELLA (Stun Spore, Absorb).
+    *   vs Goldeen (Lv18 Water): ZAPPY (Thundershock). BELLA is weak to Peck; switch if BELLA faces it.
+    *   vs Starmie (Lv21 Water/Psychic, knows Psychic moves): ZAPPY. Use THUNDER WAVE first, then THUNDERSHOCK. BELLA is very weak to Psychic.
+*   **General Tips:**
+    *   Misty has 3 Pokémon. Lead and ace have Psychic moves.
+    *   Utilize status moves (Stun Spore, Thunder Wave) for speed control.
+    *   Plan switches carefully due to 'Set' battle style.
+    *   Conserve ZAPPY's Thundershock PP for Starmie if possible.
