@@ -60,3 +60,6 @@
 *   **Viridian Forest (Current):** Blocked at (6,2) (impassable) when trying to move Left from (7,2). Current position (7,2) facing Left. Pikachu at (8,2). Revising path to exit at (2,1) by first heading south.
 
 *   **Immediate Post-Healing Priority:** Define/update high-priority agents (scripted_event_tracker, route_progress_analyzer, map_analyzer, exploration_planner) before leaving Pokecenter or starting new major tasks.
+
+# Pewter Pokecenter Navigation Notes
+*   Persistent collision error when moving from (3,4) to (4,4) (Pikachu's tile), citing an object at (5,4) (Cool Trainer F). This occurs even if Cool Trainer F is stunned. The object at (5,4) is not on the direct path of (3,4) -> (4,4). This suggests a complex interaction or collision detection issue.
