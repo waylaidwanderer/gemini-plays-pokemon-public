@@ -60,3 +60,6 @@
 *   `boulder_puzzle_solver_agent`: Assists with boulder puzzles. (Consider defining or discarding)
 
 *   **Map Tile Change (Pewter City, Turn 3956):** Tile (35,23) changed from 'ground' to 'impassable' while moving.
+
+# Recent Events & Learnings (Continued)
+*   **Youngster Gym Escort Event (Recurring - Turn 3961):** Youngster NPC (ID 5) intercepted me again near the eastern side of Pewter City while I was at (38,19). He repeated his dialogue ("You're a trainer right? BROCK's looking for new challengers! Follow me!" then "If you have the right stuff, go take on BROCK!") and forcibly moved me, this time to (30,19) facing Left. His final position after this event is listed as (36,17) in the game state. This recurring event is a major impediment to exiting east and requires a more robust circumvention strategy. The trigger seems to be proximity to him when he is in his 'guide' mode near the eastern part of the city.
