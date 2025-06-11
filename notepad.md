@@ -178,3 +178,5 @@
 *   **Bug vs. Poison/Flying (Beedrill vs Echo):** Enemy BEEDRILL's Pin Missile (Bug-type) was 'not very effective' against ECHO (Poison/Flying, Lv12). This implies Bug is NVE vs. Poison, or NVE vs. Flying, or both. Given Bug is normally NVE vs. Flying, this reinforces the hypothesis that **Bug is NVE vs. Poison** in this ROM hack. (Route 24, Turn 10224)
 
 - Nugget Bridge Bug Catcher 1 at (ROUTE_24 11,31) - Defeated. Pokémon: BUTTERFREE Lv13, BEEDRILL Lv13.
+
+- Lass (Nugget Bridge Cool Trainer F) (ID 6) at (ROUTE_24 11,29) - Defeated. Pokémon: JIGGLYPUFF Lv15, ODDISH Lv15.
