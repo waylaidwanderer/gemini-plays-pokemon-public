@@ -161,3 +161,6 @@
 
 # Cerulean City Item/Trainer Bug (29,27) & (30,27)
 - The Poké Ball item at (29,27) is unobtainable due to Cool Trainer F (ID 7) at (30,27) being in a persistent dialogue loop (e.g., 'ELECTRODE is loafing around...'). Abandoning this item for now. Will try again later if I pass by and remember.
+
+# Exploration Agent Suggestions
+* Exploration Prioritizer Agent (Turn 10172): Suggested exploring unseen tile cluster near (31,13) in Cerulean City (Priority 5).
