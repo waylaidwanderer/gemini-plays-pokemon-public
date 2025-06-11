@@ -106,3 +106,9 @@
 
 *   `pikachu_aware_move_translator_agent`: **Define** (Medium Priority). Input: Player position, facing, Pikachu position, intended next coordinate. Output: Exact button presses needed, accounting for the double-press turn mechanic if moving onto Pikachu's tile from a non-facing direction.
 *   `move_validator_agent` prompt (under Existing Agent Updates): **CRITICAL UPDATE** - Instruct agent to explicitly cross-verify its simulated path against both `navigable` AND `type` attributes in the `map_xml_string` for *every step*. If it finds a discrepancy (e.g., simulation is fine but XML says tile is `impassable` or `navigable=\"false\"`), it MUST report `is_valid: false` and cite the XML as the reason. This might help catch issues like the (23,24) impassable tile it missed previously.
+
+# Route 2 Encounters
+*   Encountered wild Vulpix (Lv7) in grass patch on Route 2 (west side at (2,7)). Plan: Paralyze with THUNDER WAVE (SPBARKY), weaken with THUNDERSHOCK (SPBARKY), then attempt to catch with POKé BALL. Vulpix is a new Pokédex entry. **Successfully caught Vulpix, named FLAREE.**
+
+# Pokedex Status
+*   Caught: 3/151 (PIKACHU, ODDISH, VULPIX)
