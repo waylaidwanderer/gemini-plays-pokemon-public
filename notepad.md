@@ -27,7 +27,7 @@
 # Current Goals
 *   **Primary Goal:** Obtain the Thunder Badge from Lt. Surge in Vermilion City.
 *   **Secondary Goal:** Reach Vermilion City and prepare for Lt. Surge (level cap 24).
-*   **Tertiary Goal:** Explore Cerulean City for a path south or a new route.
+*   **Tertiary Goal:** Find and assist Bill on Route 25.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
