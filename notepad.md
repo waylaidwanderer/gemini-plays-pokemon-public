@@ -148,3 +148,7 @@
 - SPROUT (Lv11) has critical HP (14/35). Must prioritize healing at a Pokémon Center after this battle. Avoid using SPROUT in combat until healed.
 - Current funds (¥156) are critically low. Need to find a way to earn money for Potions and Poké Balls soon.
 - Map markers for defeated trainers and impassable tiles must be placed immediately after discovery/event.
+
+# Pathing & Agent Notes (Turn 4634)
+*   The `map_analyzer_agent` path to Viridian Pokecenter (from (5,29) to (24,26)) was either flawed or my button sequence generation was incomplete (22 presses vs. ~26 required). Ended up at (22,26) blocked. Tile (23,26) is impassable, which the agent should have avoided. Re-emphasizes the need for `move_validator_agent` even for agent paths, or more robust agent logic.
+*   CRITICAL REINFORCEMENT: Ensure full button sequences for validated paths are provided in a single turn. Partial execution is problematic.
