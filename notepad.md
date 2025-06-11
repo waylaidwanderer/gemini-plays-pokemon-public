@@ -106,7 +106,7 @@
 
 - **Pokémon Center Agent Tasks:** Define `advanced_pathfinder_agent`. Use `pathing_script_analyzer_agent` on the existing `run_code` A* script.
 
-*   **A* Pathing Script (`run_code`) Failures (Pre-Turn 3171):** The A* pathing script, intended for use with `run_code`, had several failures before turn 3171 (e.g., Turn 3097 suggesting a move into an impassable tile). This script's logic requires investigation and fixing using `pathing_script_analyzer_agent`. The `advanced_pathfinder_agent` was never actually defined; references to it were meant for this A* script.
+*   **A* Pathing Script (`run_code`) Failures (Pre-Turn 3171):** The A* pathing script, intended for use with `run_code`, had several failures before turn 3171 (e.g., Turn 3097 suggesting a move into an impassable tile). This script's logic requires investigation and fixing using `pathing_script_analyzer_agent`. (Note: Previous references to an `advanced_pathfinder_agent` were a misnomer for this A* `run_code` script; no such agent was ever formally defined.)
 
 # System Interactions & Warnings
 *   **Mixed Button Warning (Turn 3201, likely delayed from Turn 3197/3196):** Received a system warning: "You tried to mix directional and action buttons in the same sequence. To prevent unintended outcomes, your input was modified to only include the first X buttons." Need to ensure button sequences are either all directional or single action/tool calls.
