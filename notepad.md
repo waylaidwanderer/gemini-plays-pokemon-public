@@ -231,28 +231,18 @@
     *   Current funds: ¥156. Potions cost ¥200. Need at least ¥44 more for one Potion.
     *   Investigate money-making opportunities after healing (e.g., re-battlable trainers if they exist in this ROM hack, or un-fought trainers).
 
-# Navigation Strategy & Best Practices
-*   **Path Planning (CRITICAL):** Break down all navigation into very short, verifiable segments (e.g., 3-5 tiles or a single clear corridor section). Before committing to *any* movement segment, however short, I must meticulously consult the map memory (XML) and verify the `navigable="true"` status and `type` of *every single tile* in the intended path. I cannot assume corridors are clear. Focus on identifying and utilizing continuous, verified open corridors, rather than simply aiming for distant coordinates across complex terrain.
+# Navigation Strategy & Best Practices (Consolidated)
+*   **Meticulous Tile-by-Tile Verification (ABSOLUTE PRIORITY):** Before committing to *any* movement segment, however short (ideally 3-5 tiles, or a single clear corridor), I MUST meticulously consult the map memory (XML) and verify the `navigable="true"` status and `type` of *every single tile* in the intended path. I cannot assume corridors are clear or visually estimate. The XML is the sole source of truth.
+*   **Focus on Continuous Open Corridors:** Path planning must prioritize identifying and utilizing continuous, verified open corridors based on XML data, rather than aiming for distant coordinates across complex or unverified terrain.
+*   **Map Marker Usage (IMMEDIATE & CONSISTENT):** I MUST consistently mark defeated trainers (☠️), confirmed dead ends/impassable tiles (🚫), frequently used warps (🚪), and key navigational turns/points (📍) on the map *immediately* after discovery, use, or identification. This is essential for long-term spatial understanding and avoiding re-exploring fruitless paths. Failure to do so is a major inefficiency.
 *   **Repel Usage:** Ensure Repel is active when navigating dense areas if the intent is to avoid encounters, especially when lead Pokémon are level-capped or not being used for training. (Currently have 0 Repels).
-*   **Map Marker Usage (IMMEDIATE & CONSISTENT):** I MUST consistently mark defeated trainers (☠️), confirmed dead ends (🚫), frequently used warps (🚪), and key navigational turns/points (📍) on the map *immediately* after discovery or use. This is essential for long-term spatial understanding and avoiding re-exploring fruitless paths. Failure to do so is a major inefficiency.
-*   **Repel Usage:** Ensure Repel is active when navigating dense areas if the intent is to avoid encounters, especially when lead Pokémon are level-capped or not being used for training.
-*   **Map Marker Usage:** Consistently mark defeated trainers, confirmed dead ends, and frequently used warps on the map to aid in long-term spatial understanding and avoid re-exploring fruitless paths.
-*   **Repel Usage:** Ensure Repel is active when navigating dense areas if the intent is to avoid encounters, especially when lead Pokémon are level-capped or not being used for training.
-*   **Map Marker Usage:** Consistently mark defeated trainers, confirmed dead ends, and frequently used warps on the map to aid in long-term spatial understanding and avoid re-exploring fruitless paths.
+*   **Agent-Assisted Pathing (Backup):** If manual pathfinding continues to be problematic after adhering to the above, consider using `map_analyzer_agent` to explicitly request a path to the desired destination (e.g., 'Find path to Viridian Forest North Exit').
+*   **`exploration_planner` Misuse:** This agent is strictly for 'Reachable Unseen Tiles'. It cannot generate paths to known, seen tiles. Using it otherwise is a misapplication.
+*   **Pikachu Interaction:** When planning paths, if a direct path avoiding Pikachu's tile can be identified with careful planning, it is more efficient than stepping onto his tile and immediately changing direction.
 
-# Reflection & Strategy Adjustments (Turn 3558+)
-*   **Viridian Forest Navigation (CRITICAL INEFFICIENCY):** My navigation in Viridian Forest has been highly inefficient, characterized by attempting long, unverified paths leading to repeated encounters with impassable tiles and significant backtracking (e.g., turns 3512-3540). I MUST be more disciplined in planning very short, verifiable path segments (3-5 tiles), meticulously consulting map memory before each segment. This is a top priority for improvement.
-
-# Critique Takeaways & Action Plan (Turn 3575+)
-- **Viridian Forest Navigation (CRITICAL INEFFICIENCY - REPEATED FAILURES):** My navigation in Viridian Forest continues to be extremely inefficient. I am still making overly ambitious, unverified pathing attempts that lead to predictable encounters with impassable tiles and significant backtracking. I MUST adhere to the following with absolute discipline:
-    - **Meticulous Tile-by-Tile Verification:** Before committing to *any* movement segment, however short, I must meticulously consult the map memory (XML) and verify the `navigable="true"` status and `type` of *every single tile* in the intended path. I cannot assume corridors are clear.
-    - **Focus on Continuous Open Corridors:** My path planning must prioritize identifying and utilizing continuous, verified open corridors, rather than simply aiming for distant coordinates across complex terrain.
-    - **Shorter, Verifiable Segments (REINFORCED):** I must consistently break down all navigation into very short, verifiable segments (e.g., 3-5 tiles or a single clear corridor section). This is not optional.
-- This self-correction needs to be added to 'Reflection & Strategy Adjustments (Turn 3558+)' and 'Navigation Strategy & Best Practices' for consolidation.
-
-*   **Agent-Assisted Pathing (Backup):** If manual pathfinding continues to be problematic, consider using `map_analyzer_agent` to explicitly request a path to the desired destination (e.g., 'Find path to Viridian Forest North Exit').
-
-*   **Notepad Efficiency (Critique Takeaway):** Aim for more concise notes. Summarize repeated failures instead of logging each instance. Ensure plans are based on verified map data. Consolidate related notes for better readability.
+# Reflection & Strategy Adjustments (Ongoing)
+*   **Viridian Forest Navigation (CRITICAL INEFFICIENCY - REPEATED FAILURES):** My navigation in Viridian Forest has been extremely inefficient due to overly ambitious, unverified pathing attempts. I MUST adhere to the 'Navigation Strategy & Best Practices' with absolute discipline. This is not optional.
+*   **Notepad Efficiency:** Aim for more concise notes. Summarize repeated failures instead of logging each instance once a corrective strategy is noted. Ensure plans are based on verified map data. Consolidate related notes for better readability.
 
 # Critical Game Mechanics & Misunderstandings (Turn 3601+)
 *   **`navigable="false"` is Absolute (CRITICAL LESSON):** If a tile's XML entry shows `navigable="false"`, it is IMPASSABLE by the player, regardless of the tile type (e.g., grass, ground) or the status of any NPC on it (e.g., defeated trainer). This was my error with Youngster (ID 4) at (3,19) in Viridian Forest; his tile being `navigable="false"` makes the tile itself a blocker, not the NPC per se. I must always trust the `navigable` attribute as the definitive source of truth for player movement. This understanding is crucial for all future path planning.
