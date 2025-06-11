@@ -101,3 +101,6 @@
 
 # Potential Money Sources
 *   Investigate Youngster NPC on Route 1 (approx. (6,27)) for a potential unought battle to earn money.
+
+# Party Updates (Turn 4476)
+- SPROUT (ODDISH): Lv10 (24/33 HP, EXP: 667) | Moves: TACKLE (25 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP) (Post-Kakuna battle. Note: Review and consolidate SPROUT entries if duplicates exist.)
