@@ -75,3 +75,5 @@
 *   The Youngster (ID 5) scripted escort event to the Gym is a major recurring obstacle, triggering multiple times when attempting to path east.
 *   Map tiles have changed dynamically, requiring path adjustments (e.g., X=27 opening up, (34,20), (35,23) becoming impassable).
 *   Key Learning: Proactive use of `map_analyzer_agent` for complex paths and strict adherence to full, validated path execution are essential.
+
+*   **Agent Path Verification (CRITICAL LESSON):** `map_analyzer_agent` (and potentially other pathing agents) may occasionally generate paths containing non-navigable tiles. ALWAYS validate agent-provided paths with `move_validator_agent` before execution. If `map_analyzer_agent` is used, explicitly instruct it to ensure all path segments consist of `navigable="true"` tiles from the map XML. The validator correctly identified that a path from (12,19) to (14,26) via (12,15) included a step to the non-navigable tile (13,15).
