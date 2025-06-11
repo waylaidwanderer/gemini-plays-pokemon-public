@@ -93,14 +93,12 @@
 *   Explored northern section of Route 2 (south of Pewter City connection). No trainers found in this area. Funds remain at ¥156.
 *   Explored southern section of Route 2 (north of Viridian City connection, up to VF North Gate). No trainers found in this area either.
 
-# Current Plan of Action (Turn 5056)
-1.  **Immediate Goal:** Reach Pewter City using `exploration_planner_agent` to ensure efficient navigation past known obstacles on Route 2.
-2.  **Pewter City Actions:** 
-    *   Systematically explore Pewter City for unbattled trainers to earn money (¥156 is critically low).
-    *   Prioritize areas not yet thoroughly explored (e.g., eastern residential areas, any accessible buildings not yet checked).
-    *   Keep FLAREE (6HP) benched and safe. SPARKY or SPROUT (both Lv12 cap) will lead.
-3.  **Contingency:** If no trainers are found in Pewter City, re-evaluate options for earning money. This might involve checking if any items can be sold, or if there's an alternative route with trainers accessible from Pewter City (e.g., the eastern connection if reachable).
-4.  **Long-term:** Once sufficient funds are acquired for healing/items, and FLAREE is no longer at critical risk, reassess readiness for challenging Brock.
+# Current Plan of Action (Turn 5157)
+1.  **Immediate Goal:** Explore the eastern map connection from Pewter City to find trainers or other resources for funds.
+2.  **Rationale:** All known trainers in Pewter City are non-battling. Funds are critically low (¥156), and FLAREE (6HP) needs healing.
+3.  **Party Management:** Keep FLAREE benched. SPARKY or SPROUT (both Lv12 cap) will lead to maximize escape chance from wild encounters if not training.
+4.  **Contingency:** If the eastern route yields no funds, re-evaluate options. This might include selling items (Poké Ball is the only one, not ideal), or exploring other accessible routes if any exist and were missed.
+5.  **Long-term:** After securing funds and healing FLAREE, reassess readiness for challenging Brock.
 
 # Pewter City Navigation Notes (Continued)
 *   Column X=22 has several impassable segments: (22,22), (22,25), (22,26), (22,27). This blocks east-west travel through rows 22, 25, 26, 27 at this column.
