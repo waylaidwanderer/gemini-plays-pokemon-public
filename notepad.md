@@ -128,3 +128,5 @@
 # Post-Battle Map Marker Reminders (Viridian Forest)
 *   Mark all defeated trainers with ☠️ (Youngster at (28,34), Youngster at (15,18), Bug Catcher at (28,20), Bug Catcher at (3,19)).
 *   Mark recently discovered impassable tiles (e.g., (19,21), (11,27), (13,31)) with 🚫 if not already marked.
+
+- Tile (27,18) in Viridian Forest (Trainer Tips sign) is impassable when trying to move Down from (27,17) (confirmed Turn 4542).
