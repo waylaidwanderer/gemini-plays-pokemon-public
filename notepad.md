@@ -228,6 +228,7 @@
 # Battle Discoveries & Type Matchups (Ongoing)
 *   **Stun Spore vs. Mankey (Fighting):** BELLA's Stun Spore (Grass-type status) failed against a Lv18 Mankey (Fighting) on Route 24 (Cool Trainer M). Message: "It didn't affect Enemy MANKEY!". This could indicate an immunity for Mankey, a specific type interaction in this ROM hack, or a miss (though the message suggests more than a miss). (Route 24, Turn 10534)
 
-# Nugget Bridge Notes (Completion)
+# Nugget Bridge Notes (Completion & Rocket Encounter)
 * All 5 trainers on Nugget Bridge (Route 24) defeated.
-* Received NUGGET as a prize from Cool Trainer M (ID 1) at (12,16).
+* Received NUGGET as a prize from Cool Trainer M (ID 1, ROUTE24_COOLTRAINER_M1) at (12,16).
+* After receiving the NUGGET, the same NPC (Cool Trainer M, ID 1) revealed himself to be a Team Rocket member and attempted to recruit Gem. Dialogue sequence followed, culminating in a battle.
