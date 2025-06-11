@@ -253,7 +253,7 @@
 *   SIR (PARAS Lv13): (34/34 HP, EXP: 2484) | Moves: STUN SPORE (30 PP), ABSORB (25 PP), LEECH LIFE (25 PP), POISONPOWDER (35 PP)
 
 # Immediate Tasks
-*   Heal SIR (Paras) at Cerulean Pokecenter (critical HP: 3/34).
+*   Reach Bill's house on Route 25.
 
 # Item Usage Notes
 *   Escape Ropes may be restricted in certain areas or by event flags (e.g., Oak's message 'This isn't the time to use that!' on Route 24 after Nugget Bridge).
