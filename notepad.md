@@ -54,3 +54,5 @@
 *   Caught: 3/151 (PIKACHU, ODDISH, VULPIX)
 
 *   **Viridian Forest (Current):** Blocked at (19,21) (impassable) when trying to move South from (19,20). Tile (20,20) also confirmed impassable from previous observation.
+
+*   **Viridian Forest (Current):** Blocked at (11,20) (impassable) when trying to move Left from (12,20).
