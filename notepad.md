@@ -109,3 +109,5 @@
 *   Tile (9,27) is impassable (confirmed Turn 4485, blocked southward movement from (9,26)).
 
 *   Tile (11,27) is impassable (confirmed Turn 4487, blocked southward movement from (11,26)).
+
+*   Tile (13,31) is impassable (confirmed Turn 4489, blocked southward movement from (13,30)).
