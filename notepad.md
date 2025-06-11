@@ -17,7 +17,7 @@
 *   TM11 (BUBBLEBEAM) x1 - Received from Misty.
 *   HP UP x1 - Used on ZAPPY.
 *   RARE CANDY x0 - Used on NINA.
-*   MOON STONE x1 - Save for NINA (Nidorina -> Nidoqueen around Lv16-22 to get Body Slam at Lv23).
+*   MOON STONE x1 - Save for NINA (Nidoran♀ evolves to Nidorina at Lv16. Nidorina evolves to Nidoqueen via Moon Stone. Nidoqueen learns Body Slam at Lv23. Consider evolution timing carefully).
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 *   REPEL x50 - Purchased from Cerulean Mart.
 *   ESCAPE ROPE x2 - Purchased from Cerulean Mart.
