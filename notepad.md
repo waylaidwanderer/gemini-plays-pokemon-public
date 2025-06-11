@@ -26,7 +26,7 @@
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and obtain the Cascade Badge from Misty.
-*   **Secondary Goal:** Reach the Mt. Moon exit leading to Route 4 East.
+*   **Secondary Goal:** Defeat Jessie & James (Team Rocket) in Mt. Moon B2F.
 *   **Tertiary Goal:** Heal NINA (NIDORAN♀) at the Cerulean City Pokémon Center.
 
 # Gameplay Notes & Strategy
