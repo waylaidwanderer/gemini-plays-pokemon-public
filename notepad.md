@@ -73,9 +73,9 @@
 *   **Notepad Precision:** Ensure `old_text` for `replace` actions is exact and refers to the most recent version of the text in the notepad to prevent update failures.
 
 # Agent Brainstorming & Review (Post-Turn 4944 Reflection)
-*   **New Agent Ideas:**
-    *   `notepad_query_agent`: Searches notepad for specific info.
-    *   `battle_strategy_advisor_agent`: Suggests moves in battle based on type matchups, PP, HP, etc.
-*   **Agent Prompt Review Needed:**
+*   **New Agent Ideas (To Define/Discard):**
+    *   `notepad_query_agent`: Searches notepad for specific info. (Action: Define or Discard)
+    *   `battle_strategy_advisor_agent`: Suggests moves in battle based on type matchups, PP, HP, etc. (Action: Define or Discard)
+*   **Existing Agent Review (Action: Review/Update Prompt or Delete):**
     *   `leveling_training_advisor_agent`: Review prompt for Hard Mode relevance (trainer battlability caution, wild grinding focus).
     *   `team_builder_agent`: Review prompt for Hard Mode relevance (no items, set mode, level caps).
