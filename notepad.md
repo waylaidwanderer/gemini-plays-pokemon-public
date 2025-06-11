@@ -204,3 +204,6 @@
 # Strategic Shift (Turn 3431 - Viridian City)
 *   **Abandoning Youngster (ID 1) Pursuit:** After numerous failed attempts (Turns 3406-3430) due to the NPC's constant movement, I am abandoning efforts to battle Youngster (ID 1) in Viridian City. This pursuit has proven highly inefficient and is stalling progress on acquiring funds.
 *   **New Financial Strategy:** Will now head north to Route 2 to find other trainers and earn money for Potions. Current funds: ¥156. Need at least ¥44 more for one Potion.
+
+# Viridian Forest Notes
+*   Youngster (ID 1, VIRIDIANFOREST_YOUNGSTER1) at (17,44) is not a battlable trainer, only provides dialogue ('I came here with some friends! They're out for POKéMON fights!'). This occurred after approaching him from (17,45) and pressing 'A' on Turn 3471. Does not initiate battle on sight or after dialogue completion.
