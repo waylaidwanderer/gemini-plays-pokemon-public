@@ -5,7 +5,7 @@
 
 # Game Mechanics & Strategy
 *   **Ledge Mechanics:** One-way (downwards only). Cannot move UP onto a ledge from a lower Y.
-*   **Movement Mechanic:** 1st press TURNS if not facing, 2nd press MOVES. (Pikachu rule is separate).
+*   **Movement Mechanic:** 1st press TURNS if not facing, 2nd press MOVES. **Pikachu Movement:** Pikachu does not block movement. If not facing Pikachu and attempting to move onto Pikachu's tile, the first directional input *towards* Pikachu causes the player to turn and face Pikachu. A *second* directional input towards Pikachu is then required to step onto Pikachu's tile. This applies only when moving *into* Pikachu's current tile; normal movement applies otherwise. If already facing Pikachu, one press moves onto the tile.
 *   **Level Cap:** 0 badges = Lv12. EXP gain stops at cap. Wild battles give no money.
 *   **Data Trust:** Game State Information is absolute truth.
 *   **Pathing:** Validate agent paths with `move_validator_agent` or use short, verifiable segments.
