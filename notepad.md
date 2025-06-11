@@ -92,7 +92,7 @@
 *   Investigate Youngster NPC on Route 1 (approx. (6,27)) for a potential unought battle to earn money.
 
 # Party Updates (Turn 4476)
-- SPROUT (ODDISH): Lv11 (23/35 HP, EXP: 767) | Moves: TACKLE (19 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
+- SPROUT (ODDISH): Lv11 (22/35 HP, EXP: 797) | Moves: TACKLE (17 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
 
 # Viridian Forest Navigation Notes
 *   Tile (9,27) is impassable (confirmed Turn 4485, blocked southward movement from (9,26)).
