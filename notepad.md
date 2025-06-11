@@ -4,7 +4,7 @@
 *   **Tertiary Goal:** Locate a functional Pokémon Center PC to perform critical agent management tasks.
 
 # Current Tactical Plan
-1.  **Current:** SPROUT is healed (30/30 HP). Plan to return to Route 2 for training, or investigate Route 1 for potential trainer battle to earn money.
+1.  **Current:** SPROUT has moderate HP. Prioritize heading to Route 1 to battle the Youngster for funds.
 2.  **Next:** If SPROUT's HP becomes critically low (e.g., below 10 HP or unable to withstand another likely hit), return to Pewter City Pokémon Center to heal.
 3.  **Contingency:** During training, if SPROUT is at risk of fainting, switch to SPBARKY or FLAREE to finish the battle or run. Prioritize SPROUT's EXP gain but be more cautious about type disadvantages and low HP situations, especially against Fire-types like Vulpix.
 
