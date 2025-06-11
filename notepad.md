@@ -148,7 +148,7 @@
 - Badge House Man (Cerulean Badge House, (6,4)) - Non-battling. Offers badge descriptions.
 
 # Current Location & Strategy Focus
-*   **Current Location:** Cerulean City (ID 3) at (18,17).
+*   **Current Location:** Cerulean City (ID 3) at (18,18).
 *   **Strategy Focus:** Prioritize exploring 'Reachable Unseen Tiles' as per Game State Information to find exits, particularly towards Route 24 (North) or the burgled house area for Route 5 (South).
 
 # World Knowledge Graph (WKG) Notes
