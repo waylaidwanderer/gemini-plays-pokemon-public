@@ -123,7 +123,7 @@
 
 # Game Mechanics & Discoveries
 ## Battle & EXP Mechanics
-*   **EXP at Level Cap:** Pokémon at cap (e.g., BELLA Lv21) gain NO EXP, despite message. BELLA's EXP was 6458 before Psyduck and 6458 after Psyduck, confirming no gain from Psyduck or Starmie.
+*   **EXP at Level Cap:** Pokémon at cap (e.g., BELLA Lv24, current cap 24) gain NO EXP, despite message. BELLA's EXP was 6458 before Psyduck and 6458 after Psyduck (when at Lv21 cap), confirming no gain from Psyduck or Starmie. BELLA is currently Lv24 and at the Lt. Surge cap (24), so will not gain EXP.
 *   Prioritize healing if party critical (outside of strategic sacrifices).
 
 # Agent Development & Usage
