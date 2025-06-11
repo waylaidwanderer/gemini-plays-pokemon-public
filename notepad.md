@@ -60,7 +60,7 @@
 *   **Financial Planning (DEFERRED):** Re-assess funds and purchase Potions if affordable.
 
 # Current Pokémon Status
-*   SPROUT (ODDISH): Lv9 (30/30 HP, EXP: 490) | Moves: TACKLE (35 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
+*   SPROUT (ODDISH): Lv9 (18/30 HP, EXP: 530) | Moves: TACKLE (32 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
 *   SPBARKY (PIKACHU): Lv12 (38/39 HP, EXP: 1728). **AT LEVEL CAP (12).** ACCURACY Lowered. Moves: THUNDERSHOCK (28 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
 *   FLAREE (VULPIX): Lv7 (24/24 HP, EXP: 343) | Moves: EMBER (25 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP)
 
