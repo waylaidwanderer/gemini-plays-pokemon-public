@@ -9,7 +9,7 @@
 3.  **Contingency:** If further pathing issues arise, use `map_analyzer_agent` proactively to find routes to key intermediate points or the final exit.
 
 # Key Learnings & Game Mechanics
-*   **Youngster Gym Escort Event (Recurring):** Youngster NPC (ID 5, usually at (36,17)) has a scripted event that triggers when approached in the eastern part of Pewter City (e.g., around (38,19)). He escorts the player to the Pewter Gym entrance (12,19). His final position after the escort can vary (e.g., (36,17) or (18,19) temporarily), but the game state seems to revert him to (36,17) eventually. This event is a major impediment and requires careful pathing or finding his trigger zone to avoid.
+*   **Youngster Gym Escort Event (Recurring & CRITICAL):** Youngster NPC (ID 5, usually at (36,17)) has a scripted event that triggers *precisely at or immediately adjacent to (38,19)* when approached from the west/south-west in eastern Pewter City. He escorts the player to the Pewter Gym entrance (12,19). His final position after the escort can vary (e.g., (36,17) or (18,19) temporarily), but the game state seems to revert him to (36,17) eventually. This event is a major impediment and requires pathing to strictly avoid (38,19) and its immediate vicinity, in addition to his resting spot at (36,17).
 *   **Path Execution (CRITICAL):** When a multi-step path is validated (e.g., by `move_validator_agent` or derived from `map_analyzer_agent`), the *entire* sequence of button presses for that path segment MUST be provided in a single turn. Partial execution leads to desynchronization and movement failures.
 *   **Map Tile Changes:** Some map tiles in Pewter City have changed type during gameplay.
     *   Previously: (27,15)-(27,18) changed to ground.
