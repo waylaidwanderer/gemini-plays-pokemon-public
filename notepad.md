@@ -111,10 +111,13 @@
 *   Poison-type moves are Not Very Effective (NVE) against opposing Poison-type Pokémon (observed: Acid vs Ekans).
 
 # Agent Development & Usage
-*   **Path Validator Agent:** Defined. Should be used for testing path segments, especially in complex areas or before long movements.
-*   **Gym Puzzle Solver Agent:** Deleted due to repeated definition/call failures. Replaced by more specialized agents.
-
-*   **General Agent Usage:** When an agent definition or call fails multiple times, abandon that specific agent or approach for the immediate future and attempt to solve the problem manually or with a different, simpler tool to maintain momentum.
+## Path Validator Agent
+*   Defined. Should be used for testing path segments, especially in complex areas or before long movements. Need to test its functionality.
+## Evolution Advisor Agent
+*   Defined. Will be used for evolution decisions (e.g. Moon Stone on NINA/LUNA). Need to test its functionality.
+## General Agent Usage Notes
+*   When an agent definition or call fails multiple times, abandon that specific agent or approach for the immediate future and attempt to solve the problem manually or with a different, simpler tool to maintain momentum.
+*   The Gym Puzzle Solver Agent was deleted due to repeated failures and hitting the agent limit.
 
 # Cerulean Gym Mechanics
 *   **Final Conclusion:** All direct water crossings in the central pool are impossible. Path to trainers involves navigating the perimeter ground tiles only. Water tiles marked `navigable: false` are truly impassable. Reaching trainers on platforms requires navigating the outer ground walkways and then specific connecting ground tiles onto those platforms.
