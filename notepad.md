@@ -180,3 +180,6 @@
 *   TM45 (THUNDER WAVE) x1 - Found on Route 24 at (11,6).
 
 *   Received FLAREE (CHARMANDER Lv13) from Cool Trainer M (ID 9, ROUTE24_COOLTRAINER_M4) at (Route 24 7,6). Sent to PC.
+
+## Next Battle Action Advisor Agent Notes
+- The `next_battle_action_advisor_agent` can occasionally provide suboptimal or incorrect advice (e.g., suggesting Leech Seed on an already seeded Pokémon on Turn 10866). Always critically evaluate its suggestions, especially in complex or multi-turn scenarios.
