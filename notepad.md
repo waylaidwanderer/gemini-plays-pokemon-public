@@ -130,3 +130,6 @@
 *   Repel may require the lead Pokémon's level to be **strictly greater** than the wild Pokémon's level to be effective. 
     *   Observation: Encountered Lv7 Kakuna (Turn 3218) and Lv7 Pidgey (Turn 3239) while SPROUT (Lv7) was leading and Repel was active. Repel failed in both instances.
     *   Previous assumption: Repel worked if lead level was equal to or greater. This seems incorrect for this ROM hack.
+
+# Agent Performance Notes (Turn 3248)
+*   `exploration_planner` agent: Confirmed it cannot generate a path to a specific, known, *seen* tile. Its purpose is strictly for 'Reachable Unseen Tiles'.
