@@ -107,3 +107,5 @@
 
 # Viridian Forest Navigation Notes
 *   Tile (9,27) is impassable (confirmed Turn 4485, blocked southward movement from (9,26)).
+
+*   Tile (11,27) is impassable (confirmed Turn 4487, blocked southward movement from (11,26)).
