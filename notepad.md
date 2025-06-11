@@ -183,3 +183,9 @@
 - **Financial Planning (Pokémon Center Task):** Current funds ¥156. Potions cost ¥200. Plan for money acquisition after healing SPROUT.
 - **Navigation:** Be more careful with manual path planning. Verify against map memory. The `move_validator_agent` should help in the future.
 - **Repel Usage:** Maintain active Repel when SPROUT is critically injured in dangerous areas.
+
+# Viridian Forest South Gate (Turn 3353)
+*   Successfully exited Viridian Forest. Currently in Viridian Forest South Gate at (6,2).
+*   SPROUT HP: 8/25 (CRITICAL). Healing at Pokémon Center is top priority.
+*   Repel active, SPARKY (Lv12) leading.
+*   Goal: Exit South Gate to Route 2, then head to Viridian City Pokémon Center.
