@@ -150,3 +150,23 @@ Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obta
 *   The 'reachable' status of Misty (5,3) and Cool Trainer F (3,4) implies a standard ground-based path exists, likely involving navigating the perimeter or specific connecting ground tiles.
 *   Reachable unseen tiles (1,6) and (2,6) on the western side remain to be explored once a path to that side is found.
 *   Current Plan: Explore access to western platforms by navigating south along the eastern walkway, then attempting to cross west along the southern edge of the gym.
+
+# Trainer Battle Intel
+## Cerulean Gym
+- Cool Trainer F (ID 2, CERULEANGYM_COOLTRAINER_F) at (5,4) - Currently battling. Known Pokémon: SEEL Lv19.
+
+# Cerulean Gym Strategy (vs Misty - Cap Lv21)
+*   Cool Trainer F (before Misty) has a SEEL Lv19. (Potentially other Pokémon too).
+
+# Battle Strategy
+*   Confirm trainer is fully defeated (all Pokémon) before assuming victory.
+
+# Notepad Management
+*   Update notepad decisively after hypotheses are disproven to avoid re-testing flawed ideas.
+
+# Agent Usage Notes
+*   Use `path_validator_agent` to test short, critical path segments in complex areas.
+*   When defining agents, simplify schemas if definition fails repeatedly. Test new agents with simple inputs.
+
+# Cerulean Gym Mechanics
+*   Final conclusion: All direct water crossings in the central pool are impossible. Path to trainers involves navigating the perimeter ground tiles only. Water tiles marked `navigable: false` are truly impassable.
