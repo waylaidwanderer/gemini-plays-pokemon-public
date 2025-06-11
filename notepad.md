@@ -134,3 +134,7 @@
 - Tile (25,17) in Viridian Forest is impassable (confirmed Turn 4544, blocked westward movement from (26,17)).
 
 - Tile (29,21) in Viridian Forest is impassable (confirmed Turn 4546, blocked eastward movement from (28,21)).
+
+# Game Mechanics & Strategy Updates (Post-Critique Turn 4551)
+*   **CRITICAL MOVEMENT MECHANIC:** Standard movement: 1st press TURNS if not facing direction, 2nd press MOVES. (Pikachu rule is separate). Must correct path planning accordingly.
+*   **NOTEPAD STRATEGY:** `replace` action is unreliable. Default to `append` for new info. Use `overwrite` for full cleanups when feasible. Defer complex edits.
