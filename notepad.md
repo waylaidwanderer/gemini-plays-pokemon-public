@@ -129,4 +129,4 @@
 *   **Youngster Gym Escort Event (Continued - Turn 5270):** Triggered at (38,20) when attempting to move east along row 20. This suggests the trigger zone for (38,19) may be larger or (38,20) is an additional trigger point. Need to be extremely cautious on rows 17-20 in the eastern part of the city. Consider (38,20) a new trigger to track.
 
 # Pewter City Navigation & Events (Continued)
-*   **Youngster Gym Escort Event (Continued - Turn 5290):** Map Sprites show Youngster (ID 5) has moved to (18,19). This is a new position to be aware of when pathing. His previous location was (36,17). This makes southern routes from the Gym area much riskier.
+*   **Youngster Gym Escort Event (Continued - Turn 5291):** Map Sprites show Youngster (ID 5) is at (36,17). My previous note about him being at (18,19) was incorrect; always trust Map Sprites. This means he is in his usual eastern position.
