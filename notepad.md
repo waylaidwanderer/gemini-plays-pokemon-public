@@ -139,3 +139,7 @@
     *   Conserve ZAPPY's Thundershock PP for Starmie if possible.
 
 - Cool Trainer F (ID CERULEANGYM_COOLTRAINER_F) at (Cerulean Gym 5,4) - Defeated. Pokémon: SEEL Lv19.
+
+## Gameplay Notes & Strategy (Updates from Critique)
+### Battle Strategy
+*   **Confirm Full Defeat:** Always ensure a trainer has no more Pokémon before assuming victory and moving on. Some trainers may have more Pokémon than initially apparent.
