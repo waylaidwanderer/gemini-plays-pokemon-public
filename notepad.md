@@ -18,7 +18,7 @@
 *   SPROUT (ODDISH): Lv12 (33/37 HP, EXP: 973) | Moves: TACKLE (30 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP) (Level Cap Reached)
 
 # Post-Viridian Forest Plan Notes
-*   Immediately reorder party to lead with FLAREE after current battle/task.
+*   Party reordered to lead with FLAREE (Complete).
 *   Solidify plan for acquiring funds on Route 2/Pewter City: identify specific trainers to battle or item sale strategy.
 
 # Key Journey Events & Map Discoveries
