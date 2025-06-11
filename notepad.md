@@ -122,3 +122,6 @@
 
 # Map Obstacles & Trainer Behavior
 *   Youngster (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest, despite being defeated, continues to block the path south with dialogue "I'm looking for my stuff! Don't bother me!". This prevents access to the area directly south of him.
+
+# Training Strategy Notes
+- **SPROUT Training (CRITICAL - Post Critique Turn 3125):** SPROUT's HP is critically low. When training, prioritize its survival. Have SPROUT participate for one turn (e.g., PoisonPowder or one attack if safe) then **immediately switch to SPARKY** to secure the KO and EXP. Fainting SPROUT negates the training effort and wastes resources.
