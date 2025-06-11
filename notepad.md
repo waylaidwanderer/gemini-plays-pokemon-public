@@ -69,3 +69,10 @@
 # Pewter Pokecenter Navigation Notes
 *   Persistent collision error when moving from (3,4) to (4,4) (Pikachu's tile), citing an object at (5,4) (Cool Trainer F). This occurs even if Cool Trainer F is stunned. The object at (5,4) is not on the direct path of (3,4) -> (4,4). This suggests a complex interaction or collision detection issue.
 *   Tile (4,4) (Pikachu's usual spot near Nurse) is `navigable="false"`. Nurse interaction spot is (4,5).
+
+# Hindsight & Lessons Learned
+*   **Viridian Forest Navigation:** Avoid planning overly long paths without intermediate checks. Use `move_validator_agent` more proactively for complex paths or break them into smaller, verifiable segments (5-10 steps). Prioritize exploring closer alternatives before committing to extensive backtracking.
+*   **Pewter Pokecenter Navigation:** Always verify tile navigability (`navigable="true"` in XML) for target interaction spots, especially around NPCs or counters. The tile (4,4) where Pikachu often stands is navigable, contrary to a previous incorrect note; the correct Nurse interaction spot is (4,5). The persistent collision error when moving from (3,4) to (4,4) citing an object at (5,4) needs further investigation if it recurs, but alternative pathing can bypass it.
+*   **Risk Management:** Engaging in multiple risky battles with a critically low HP Pokémon (like FLAREE in Viridian Forest) should be avoided unless the potential reward (e.g., crucial EXP for a level-up before a boss) outweighs the risk of fainting and blacking out. Prioritize healing when a key party member is vulnerable.
+*   **Agent Usage & Updates:** Act on planned agent definitions and prompt updates promptly (e.g., at PC visits or after critical tasks like healing) to continuously improve decision-making tools. Consistently use `map_analyzer_agent` for queries like tile navigability before attempting complex interactions.
+*   **Notepad Precision:** Ensure `old_text` for `replace` actions is exact and refers to the most recent version of the text in the notepad to prevent update failures.
