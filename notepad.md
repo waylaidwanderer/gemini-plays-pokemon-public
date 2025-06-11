@@ -179,3 +179,6 @@
 - Stun Spore (Grass-type status) failed against Slowpoke (Water/Psychic) on Route 25. This is the third observed failure against a non-Grass type, previously failing against Mankey (Fighting) and Ekans (Poison).
 
 - 'Fully paralyzed' status: Observed Wigglytuff take no damage one turn when 'fully paralyzed' was announced (Turn 10939), but damage was applied on subsequent Thundershock (Turn 10940). This interaction needs more observation. 'Fully paralyzed' prevents movement, not necessarily damage.
+
+# Tactical Lessons & Reminders
+*   **Critically Low HP Pokémon:** ZAPPY is at 9/55 HP. Switching ZAPPY in earlier with 25/55 HP against an unacted Ekans was a risky move. Prioritize healing ZAPPY at the next available opportunity (Pokecenter, or if Bill offers healing). Avoid switching critically low HP Pokémon into battle unless absolutely necessary or for a strategic sacrifice.
