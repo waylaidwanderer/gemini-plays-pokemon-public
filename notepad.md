@@ -191,6 +191,7 @@
 *   Party Health: ZAPPY (21/53 HP) and ECHO (14/34 HP) are low. Proceeding with caution and strategic switching.
 
 # Trainer Battle Intel (Route 24)
+- Cool Trainer M (ROUTE24_COOLTRAINER_M2) (ID 2) at (ROUTE_24 6,21) - Defeated. Pokémon: DIGLETT Lv15, PSYDUCK Lv15.
 - Youngster (ROUTE24_YOUNGSTER1) (ID 5) at (ROUTE_24 12,26) - Defeated.
 
 *   **PIDGEY (Route 24 Lass vs ZAPPY Lv18):** Confirmed faster. Uses Sand-Attack repeatedly. (Observed Turn 10350+)
