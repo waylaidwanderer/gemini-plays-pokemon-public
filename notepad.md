@@ -102,3 +102,5 @@
 
 # Battle Mechanics & Observations
 *   SPROUT's POISONPOWDER (Lv7 Oddish) failed against a wild Lv4 WEEDLE in Viridian Forest. (Turn 3143)
+
+- **Pokémon Center Agent Tasks:** Define `advanced_pathfinder_agent`. Use `pathing_script_analyzer_agent` on the existing `run_code` A* script.
