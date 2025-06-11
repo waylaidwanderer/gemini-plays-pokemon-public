@@ -104,3 +104,5 @@
 *   SPROUT's POISONPOWDER (Lv7 Oddish) failed against a wild Lv4 WEEDLE in Viridian Forest. (Turn 3143)
 
 - **Pokémon Center Agent Tasks:** Define `advanced_pathfinder_agent`. Use `pathing_script_analyzer_agent` on the existing `run_code` A* script.
+
+*   **`advanced_pathfinder_agent` Failure (Turn 3171):** The newly defined `advanced_pathfinder_agent` failed on its first attempt to generate a path from (7,26) in Viridian Forest. The first suggested move was 'Down' into tile (7,27), which is impassable. This requires investigation and potentially a fix if the agent is to be reliable.
