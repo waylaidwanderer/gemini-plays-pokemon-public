@@ -71,3 +71,11 @@
 *   **Risk Management:** Engaging in multiple risky battles with a critically low HP Pokémon (like FLAREE in Viridian Forest) should be avoided unless the potential reward (e.g., crucial EXP for a level-up before a boss) outweighs the risk of fainting and blacking out. Prioritize healing when a key party member is vulnerable.
 *   **Agent Usage & Updates:** Act on planned agent definitions and prompt updates promptly (e.g., at PC visits or after critical tasks like healing) to continuously improve decision-making tools. Consistently use `map_analyzer_agent` for queries like tile navigability before attempting complex interactions.
 *   **Notepad Precision:** Ensure `old_text` for `replace` actions is exact and refers to the most recent version of the text in the notepad to prevent update failures.
+
+# Agent Brainstorming & Review (Post-Turn 4944 Reflection)
+*   **New Agent Ideas:**
+    *   `notepad_query_agent`: Searches notepad for specific info.
+    *   `battle_strategy_advisor_agent`: Suggests moves in battle based on type matchups, PP, HP, etc.
+*   **Agent Prompt Review Needed:**
+    *   `leveling_training_advisor_agent`: Review prompt for Hard Mode relevance (trainer battlability caution, wild grinding focus).
+    *   `team_builder_agent`: Review prompt for Hard Mode relevance (no items, set mode, level caps).
