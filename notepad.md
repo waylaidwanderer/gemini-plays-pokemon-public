@@ -174,8 +174,6 @@
 - Critical Agent Evaluation: While agents provide valuable advice, critically evaluate their recommendations, especially if they rely on unconfirmed assumptions (e.g., speed tiers) or if following their advice repeatedly leads to unfavorable situations (e.g., due to persistent debuffs not fully accounted for by the agent's initial assessment).
 - Pathing Near Warps: When pathing near sensitive warps, ensure the movement plan explicitly moves *past* the warp tile if not intending to use it, or detours significantly. Avoid landing on a warp tile if the next intended move is in the warp's activation direction.
 
-*   Received FLAREE (CHARMANDER Lv13) from Cool Trainer M (ID 9, ROUTE24_COOLTRAINER_M4) at (Route 24 7,6). Sent to PC.
-
 ## Next Battle Action Advisor Agent Notes
 - The `next_battle_action_advisor_agent` can occasionally provide suboptimal or incorrect advice (e.g., suggesting Leech Seed on an already seeded Pokémon on Turn 10866). Always critically evaluate its suggestions, especially in complex or multi-turn scenarios.
 - Stun Spore (Grass-type status) failed against Slowpoke (Water/Psychic) on Route 25. This is the third observed failure against a non-Grass type, previously failing against Mankey (Fighting) and Ekans (Poison).
