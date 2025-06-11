@@ -126,3 +126,5 @@
 *   Tile (35,23) changed from ground to impassable during movement on Turn 5112. This occurred while pathing towards Super Nerd (ID 3) but was not on the direct path.
 
 *   Tile (35,22) changed from ground to impassable during movement on Turn 5115. This occurred while pathing towards Super Nerd (ID 3) but was not on the direct path.
+
+*   Tile (35,21) changed from ground to impassable during movement on Turn 5117. This occurred while pathing towards Super Nerd (ID 3) but was not on the direct path.
