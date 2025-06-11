@@ -56,3 +56,5 @@
 *   **Viridian Forest (Current):** Blocked at (19,21) (impassable) when trying to move South from (19,20). Tile (20,20) also confirmed impassable from previous observation.
 
 *   **Viridian Forest (Current):** Blocked at (11,20) (impassable) when trying to move Left from (12,20).
+
+*   **Viridian Forest (Current):** Blocked at (6,2) (impassable) when trying to move Left from (7,2). Current position (7,2) facing Left. Pikachu at (8,2). Revising path to exit at (2,1) by first heading south.
