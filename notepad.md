@@ -76,3 +76,6 @@
 # Map Changes & Pathing Issues (Turn 3929)
 *   **Position Mismatch & Tile Change:** My movement was aborted. Game state shows I am at (29,19) facing Right, not (33,20). Tile (34,20) in Pewter City changed from 'ground' to 'impassable', blocking eastward travel along row 20 beyond X=33.
 *   **Current Position:** (29,19) facing Right. Pikachu at (28,19).
+
+# Map Changes & Pathing Issues (Turn 3933)
+*   **Tile Changes & Movement Abort:** Movement aborted. Player at (30,17) facing Right. Pikachu at (29,17). Tiles changed: (35,15) ground -> impassable; (35,16) ground -> impassable; (35,20) impassable -> ground; (35,21) ground -> impassable. This significantly alters paths around X=35.
