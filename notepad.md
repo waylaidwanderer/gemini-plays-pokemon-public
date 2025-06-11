@@ -1,6 +1,6 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Earn funds for Potions/Poké Balls and gain EXP for FLAREE.
+*   **Secondary Goal:** Gain EXP for FLAREE in Viridian Forest. Earn funds for Potions/Poké Balls on Route 2 / in Pewter City.
 *   **Tertiary Goal:** Reach Pewter City.
 
 # Key Learnings & Game Mechanics
