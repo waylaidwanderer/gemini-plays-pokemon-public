@@ -144,3 +144,6 @@ Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obta
     *   Conserve ZAPPY's Thundershock PP for Starmie if possible.
 
 - Swimmer (ID CERULEANGYM_SWIMMER) at (Cerulean Gym 9,8) - Defeated. Pokémon: Horsea Lv16, Shellder Lv16.
+
+## Cerulean Gym Mechanics
+*   Can cross single-tile water gaps between two ground tiles (e.g., (10,5) to (8,5) over (9,5) water).
