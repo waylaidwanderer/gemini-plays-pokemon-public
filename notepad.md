@@ -3,12 +3,12 @@
 *   Pokedex: 10/151 (Target: Complete)
 
 # Current Team
-*   BELLA (GLOOM Lv21): (60/66 HP) | Moves: STUN SPORE (27 PP), ACID (29 PP), LEECH SEED (10 PP), ABSORB (16 PP)
+*   BELLA (GLOOM Lv21): (66/66 HP) | Moves: STUN SPORE (30 PP), ACID (30 PP), LEECH SEED (10 PP), ABSORB (25 PP)
 *   ZAPPY (PIKACHU Lv18): (53/53 HP) | Moves: THUNDERSHOCK (30 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
-*   NINA (NIDORAN♀ Lv12): (36/36 HP) | Moves: GROWL (40 PP), DOUBLE KICK (30 PP), POISON STING (35 PP), BITE (25 PP).
-*   ECHO (ZUBAT Lv12): (32/32 HP) | Moves: LEECH LIFE (25 PP), SUPERSONIC (20 PP), GUST (35 PP), BITE (25 PP).
-*   LUNA (CLEFAIRY Lv11): (37/37 HP) | Moves: POUND (35 PP), GROWL (40 PP), WATER GUN (25 PP), MEGA PUNCH (20 PP).
-*   SIR (PARAS Lv13): (34/34 HP) | Moves: STUN SPORE (30 PP), ABSORB (25 PP), LEECH LIFE (25 PP), POISONPOWDER (35 PP).
+*   NINA (NIDORAN♀ Lv13): (38/38 HP) | Moves: GROWL (40 PP), DOUBLE KICK (30 PP), POISON STING (35 PP), BITE (25 PP)
+*   ECHO (ZUBAT Lv12): (32/32 HP) | Moves: LEECH LIFE (25 PP), SUPERSONIC (20 PP), GUST (35 PP), BITE (25 PP)
+*   LUNA (CLEFAIRY Lv11): (37/37 HP) | Moves: POUND (35 PP), GROWL (40 PP), WATER GUN (25 PP), MEGA PUNCH (20 PP)
+*   SIR (PARAS Lv13): (34/34 HP) | Moves: STUN SPORE (30 PP), ABSORB (25 PP), LEECH LIFE (25 PP), POISONPOWDER (35 PP)
 
 # Key Items & TMs (Strategic Notes)
 *   OLD ROD x1
@@ -16,13 +16,13 @@
 *   TM34 (BIDE) x1 - Evaluate for team.
 *   TM11 (BUBBLEBEAM) x1 - Received from Misty.
 *   HP UP x1 - Used on ZAPPY.
-*   RARE CANDY x1 - Save for strategic use.
-*   MOON STONE x1 - Potential use on LUNA (Clefairy) or NINA (Nidoran♀) after evolution to Nidorina for Nidoqueen.
+*   RARE CANDY x0 - Used on NINA.
+*   MOON STONE x1 - Save for NINA (Nidorina -> Nidoqueen around Lv16-22 to get Body Slam at Lv23).
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
+*   REPEL x50 - Purchased from Cerulean Mart.
+*   ESCAPE ROPE x2 - Purchased from Cerulean Mart.
 
-# Current Location, Goals & Navigation Plan
-
-# Current Goals
+# Current Goals & Navigation Plan
 *   **Primary Goal:** Obtain the Thunder Badge from Lt. Surge in Vermilion City.
 *   **Secondary Goal:** Reach Vermilion City and prepare for Lt. Surge (level cap 24).
 *   **Tertiary Goal:** Find and assist Bill on Route 25.
@@ -34,7 +34,7 @@
 *   **Segmented Dungeons:** Complex dungeons (e.g., Mt. Moon) have isolated segments per floor, accessed via specific warps. Systematically explore warps.
 *   **1x1 Warps:** Step off and back on if activation is tricky.
 *   Trust game state `reachable: no` for warp/object accessibility.
-*   **Item Pickup:** Items are picked up by facing them and pressing 'A', not by walking onto their tile.
+*   **Item Pickup:** Items are picked up by facing them and pressing 'A' *when the screen is clear*, not by walking onto their tile.
 
 ## Battle Strategy
 *   Precise battle menu navigation. Mind type matchups & PP. Internalize ROM hack type changes.
@@ -67,6 +67,9 @@
 *   Defeated Swimmer (ID CERULEANGYM_SWIMMER) in Cerulean Gym.
 *   Defeated Cool Trainer F (ID CERULEANGYM_COOLTRAINER_F) in Cerulean Gym.
 *   Defeated Misty, Cascade Badge obtained. Received TM11 BUBBLEBEAM.
+*   Defeated BLUE (ID CERULEANCITY_RIVAL) at (Cerulean City 21,7). Pokémon: SPEAROW Lv18, RATTATA Lv15, BELLSPROUT Lv15, EEVEE Lv19.
+*   Purchased 50 Repels and 2 Escape Ropes from Cerulean Mart. Current money: ¥7307.
+*   Used Rare Candy on NINA, leveled to Lv13.
 
 # Trainer Battle Intel
 ## Route 3
@@ -100,7 +103,7 @@
 *   Cool Trainer F (ID 2, CERULEANGYM_COOLTRAINER_F) at (Cerulean Gym 5,4) - Defeated. Pokémon: SEEL Lv19.
 *   Misty (ID 1, CERULEANGYM_MISTY) at (Cerulean Gym 5,3) - Defeated. Pokémon: Psyduck Lv19, Goldeen Lv18, Starmie Lv21.
 ## Cerulean City
-*   Cool Trainer F (ID 7, CERULEANCITY_COOLTRAINER_F1) at (Cerulean City 30,27) - Seems to be in a dialogue loop about her Electrode being disobedient (e.g., 'ELECTRODE, SWIFT! No! That's wrong! Training POKéMON is difficult! Your POKéMON's obedience depends on your abilities as a trainer!'). Battle did not properly initiate despite multiple interaction attempts. She is currently blocking the path to the item at (29,27).
+*   Cool Trainer F (ID 7, CERULEANCITY_COOLTRAINER_F1) at (Cerulean City 30,27) - Persistent dialogue loop about her Electrode being disobedient (e.g., 'ELECTRODE, SWIFT! No! That's wrong!'). Battle does not initiate. She blocks the path to the item at (29,27). Abandoned item for now.
 *   BLUE (ID CERULEANCITY_RIVAL) at (Cerulean City 21,7) - Defeated. Pokémon: SPEAROW Lv18, RATTATA Lv15, BELLSPROUT Lv15, EEVEE Lv19.
 
 # Game Mechanics & Discoveries
@@ -157,8 +160,4 @@
 *   Moving North from (11,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9861)
 
 # Cerulean City Item/Trainer Bug (29,27) & (30,27)
-- The Poké Ball item at (29,27) is currently unobtainable. Attempting to interact with it (or even just being near it at (29,28) and pressing A when the screen is clear) repeatedly triggers dialogue from Cool Trainer F (ID 7) at (30,27), e.g., 'ELECTRODE is loafing around...'. She is in a persistent dialogue loop and does not initiate a battle. Abandoning this item for now due to being stuck in a loop and receiving critical warnings. Will try again later if I pass by and remember.
-
-# Inventory & Money Update (Post-Cerulean Mart Shopping)
-*   Current Money: ¥7307
-*   Added to Inventory: REPEL x50, ESCAPE ROPE x2.
+- The Poké Ball item at (29,27) is unobtainable due to Cool Trainer F (ID 7) at (30,27) being in a persistent dialogue loop (e.g., 'ELECTRODE is loafing around...'). Abandoning this item for now. Will try again later if I pass by and remember.
