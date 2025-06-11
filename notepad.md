@@ -89,3 +89,7 @@
 4.  **This Turn (3823):** Update tactical plan in notepad with failed deletions.
 5.  **Next Turn (3824):** Mark impassable tile (32,13) in Pewter City with 🚫. (Tile (27,24) is already marked).
 6.  **Subsequent Turns:** Path to an interaction spot for Super Nerd at (27,26) (e.g., (26,26) facing Right, (28,26) facing Left, (27,25) facing Down, or (27,27) facing Up). Goal: battle for money.
+
+## Pathing Failures & Strategy Shift (Turn 3831)
+*   `move_validator_agent` confirmed path to (27,25) to interact with Super Nerd at (27,26) failed due to tile (31,25) being impassable. Marked (31,25) as 🚫.
+*   Given repeated failures to find a path to the Super Nerd at (27,26) and no other apparent trainers in Pewter City, shifting strategy to explore the eastern 'Reachable Undiscovered Map Connection' from (40,18), (40,19), (40,17), or (40,20). This supports the secondary goal of acquiring funds.
