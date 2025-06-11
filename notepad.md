@@ -256,3 +256,6 @@
 
 # Trainer Battle Intel (Route 24 - Additions)
 *   Cool Trainer M (ROUTE24_COOLTRAINER_M2) (ID 2) at (ROUTE_24 6,21) - Potentially undefeated. In the western grass patch. Avoided for now due to SIR's low HP.
+
+# Item Usage Notes
+*   Escape Ropes may be restricted in certain areas or by event flags (e.g., Oak's message 'This isn't the time to use that!' on Route 24 after Nugget Bridge).
