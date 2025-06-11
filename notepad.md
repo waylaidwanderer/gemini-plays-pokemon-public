@@ -48,3 +48,10 @@
 
 # Archived Learnings & Notes (Condensed)
 *   Older battle logs, detailed early game event triggers, specific NPC dialogue not immediately relevant, detailed A* script failure logs (to be addressed by `pathing_script_analyzer_agent`). Repel Mechanics: Lead Pokémon level must be *strictly greater* than wild Pokémon level for Repel to be effective. `exploration_planner` Misuse: Agent is strictly for 'Reachable Unseen Tiles', not for paths to known, seen tiles. System Warnings: Avoid mixing directional and action buttons.
+
+# Post-Critique Learnings & Adjustments (Turn 3800)
+*   **`move_validator_agent` Usage (CRITICAL - NON-NEGOTIABLE):** MUST use `move_validator_agent` for *every single* multi-step path planned. No exceptions. This is to prevent further wasted turns from hitting impassable tiles, signs, or ledges incorrectly.
+*   **`exploration_planner_agent` Contingency:** If `exploration_planner_agent` returns an empty path when reachable unseen tiles exist (as in Turn 3777), I must manually plan the exploration of those tiles using short, validated segments.
+*   **Financial Priority (Reiteration):** Finding and defeating trainers for money (current: ¥156) remains a top priority for Potions and supplies.
+*   **Agent Management (Pokémon Center):** The plan to review, improve, or delete underused agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`), resolve `direct_pathing_agent` status, and address 'New Agent Ideas' at the next Pokémon Center visit is still active and crucial.
+*   **Map Knowledge Update:** `move_validator_agent` confirmed tile (32,13) in Pewter City is impassable (Turn 3800). This blocks direct southward travel from (32,3) beyond (32,12).
