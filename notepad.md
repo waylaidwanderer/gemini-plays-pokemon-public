@@ -195,8 +195,9 @@
     *   Define `move_validator_agent` (High priority given recent pathing issues).
     *   Use `pathing_script_analyzer_agent` on the A* script and `advanced_pathfinder_agent` logic to diagnose failures.
     *   Formally mark `advanced_pathfinder_agent` for deletion or major overhaul; cease current usage.
-    *   Evaluate utility of low-usage agents: `battle_strategist_agent`, `item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `financial_planner_agent`. Refine system prompts or delete if not providing value.
-    *   Decide on defining `NPC_interaction_planner_agent` and `repel_effectiveness_predictor_agent` (or `run_code` script for Repel).
+    *   Evaluated low-usage agents. Deleted `battle_strategist_agent`. Others seem fine for now.
+    *   `NPC_interaction_planner_agent` defined. Consider creating `run_code` script for Repel effectiveness later.
+    *   Test `npc_interaction_planner_agent` on Cool Trainer M (5,4).
 *   **Financial Planning:**
     *   Current funds: ¥156. Potions cost ¥200. Need at least ¥44 more for one Potion.
     *   Investigate money-making opportunities after healing (e.g., re-battlable trainers if they exist in this ROM hack, or un-fought trainers).
