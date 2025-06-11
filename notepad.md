@@ -210,3 +210,6 @@
 
 # NPC Behavior Update (Turn 3409 - Viridian City)
 *   Youngster (ID 1) continues to move frequently. Was at (12,21), now at (9,19). This erratic movement makes targeting him for a battle challenging and requires constant re-planning of approach.
+
+# NPC Behavior Update (Turn 3411 - Viridian City)
+*   Youngster (ID 1) has moved again, now to (16,20) facing right. My current position is (13,20) facing up.
