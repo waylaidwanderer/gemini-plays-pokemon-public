@@ -186,3 +186,6 @@
 # Trainer Battle Intel
 ## Route 25
 *   Cool Trainer F (Lass, ID 6) at (38,5) - Battle initiated after dialogue "My friend has a cute POKéMON. I'm so jealous!". Sent out ODDISH Lv16.
+
+# Tactical Lessons & Reminders
+*   ZAPPY's HP at 9/55 is critically low. Prioritize healing ZAPPY at the very next opportunity (e.g., if Bill offers healing, or by returning to a Pokecenter if Bill's house is not immediately accessible or provides no healing).
