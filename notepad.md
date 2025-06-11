@@ -33,17 +33,19 @@
 *   **`exploration_planner_agent` Limitation:** Failed to path to known exit when no unseen tiles (Turn 4698). Prompt needs update for direct pathing scenarios.
 *   **Youngster Gym Escort Event (Pewter City):** Youngster NPC (ID 5, usually at (36,17)) triggers escort at/near (38,19) from west/south-west. Avoid trigger zone.
 
-# Agent Management Plan (Next PC Visit)
-*   **High Priority Agents to Define/Update:**
-    *   `scripted_event_tracker_agent`: Define.
-    *   `route_progress_analyzer_agent`: Define.
-    *   `battle_log_analyzer_agent`: Define (New Idea: Parses battle text into structured summary).
-    *   `notepad_query_agent`: Define (New Idea: Searches notepad for specific info).
-    *   `map_analyzer_agent`: Critical prompt update (enforce `navigable="true"`, warp handling, check markers/NPCs).
-    *   `exploration_planner_agent`: Prompt update (direct pathing if no unseen tiles & target provided).
-*   **Medium Priority Agents to Review/Update/Delete:**
-    *   Low-usage agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`): Review prompts for Hard Mode relevance or delete.
-*   Consolidate all agent idea notes from other sections here.
+# Agent Management (Pewter Pokecenter - Turn 4933)
+*   **High Priority Agents Defined/Updated:**
+    *   `scripted_event_tracker_agent`: Defined.
+    *   `route_progress_analyzer_agent`: Defined.
+    *   `battle_log_analyzer_agent`: Defined.
+    *   `map_analyzer_agent`: Prompt updated (enforced `navigable="true"`, warp handling, check markers/NPCs).
+    *   `exploration_planner_agent`: Prompt updated (direct pathing if no unseen tiles & target provided).
+*   **Agents Deleted to Make Space:**
+    *   `item_finder_agent`
+    *   `pokedex_completer_agent`
+*   **Remaining Agent Ideas/TODOs:**
+    *   `notepad_query_agent`: Define (New Idea: Searches notepad for specific info). (Need to delete another agent first)
+    *   Review prompts for `team_builder_agent` and `leveling_training_advisor_agent` for Hard Mode relevance or delete them if space is needed.
 
 # Inventory & Finances
 *   POKé BALL x1
