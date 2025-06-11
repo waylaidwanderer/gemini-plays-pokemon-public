@@ -116,3 +116,7 @@ Previous attempts to find the B1F(22,18) warp or an exit from the current B1F/B2
 *   `dungeon_navigator_agent` has proven highly unreliable in complex, multi-level areas like Mt. Moon B2F, consistently generating invalid paths. Prioritize manual exploration or very short, verifiable agent paths in such areas.
 
 *   Poison-type moves are Not Very Effective (NVE) against opposing Poison-type Pokémon (observed: Acid vs Ekans).
+
+# AI Critique Learnings & Game Mechanics
+*   Turn Count Mismatch: System noted a turn count mismatch at turn 9326 (reported 9325, actual 9326). Current turn is 9327 (at time of critique). Must be vigilant with `validation_checks` turn number.
+*   Path Validator Agent: Created `path_validator_agent` (Turn 9325) to verify navigation paths, especially in complex areas where `dungeon_navigator_agent` proved unreliable (e.g., Mt. Moon B2F).
