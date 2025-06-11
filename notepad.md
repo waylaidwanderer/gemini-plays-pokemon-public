@@ -15,7 +15,11 @@
 # Party Updates (Latest - Post Turn 4734 Kakuna Battle)
 *   SPROUT (ODDISH): Lv12 (33/37 HP, EXP: 973) | Moves: TACKLE (30 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP) (Level Cap Reached)
 *   SPBARKY (PIKACHU): Lv12 (39/39 HP, EXP: 1728) | Moves: THUNDERSHOCK (30 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP) (Level Cap Reached)
-*   FLAREE (VULPIX): Lv7 (12/24 HP, EXP: 438) | Moves: EMBER (21 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP)
+*   FLAREE (VULPIX): Lv7 (12/24 HP, EXP: 473) | Moves: EMBER (20 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP)
+
+# Post-Viridian Forest Plan Notes
+*   Immediately reorder party to lead with FLAREE after current battle/task.
+*   Solidify plan for acquiring funds on Route 2/Pewter City: identify specific trainers to battle or item sale strategy.
 
 # Key Journey Events & Map Discoveries
 *   **Viridian Forest Training (Current):** SPROUT reached Lv12 cap. FLAREE gaining EXP from wild battles. Navigating towards northern exit.
