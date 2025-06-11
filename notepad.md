@@ -116,3 +116,5 @@
 
 # System Interactions & Warnings
 *   **Mixed Button Warning (Turn 3201, likely delayed from Turn 3197/3196):** Received a system warning: "You tried to mix directional and action buttons in the same sequence. To prevent unintended outcomes, your input was modified to only include the first X buttons." Need to ensure button sequences are either all directional or single action/tool calls.
+
+*   **New Agent Idea (`move_validator_agent`):** Define an agent that takes a planned path (list of coordinates or button presses) and the `map_xml_string`. It would verify each step against map data (navigability, tile types like ledges/impassable) and output whether the path is valid or identify the first invalid step. This would be invaluable for debugging pathing agents like `advanced_pathfinder_agent` and the A* script.
