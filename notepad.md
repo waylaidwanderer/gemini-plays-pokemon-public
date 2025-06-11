@@ -32,18 +32,6 @@
 *   Current Money: ¥8922 (as of Turn 10600), ¥8472 (as of Turn 10553)
 
 ## Navigation & Exploration
-*   NPCs on `navigable: false` tiles are physical obstacles; their tile remains non-navigable.
-*   Ledges: Upward movement onto a ledge from below is prevented, even if `navigable="true"`.
-*   **Segmented Dungeons:** Complex dungeons (e.g., Mt. Moon) have isolated segments per floor, accessed via specific warps. Systematically explore warps.
-*   **1x1 Warps:** Step off and back on if activation is tricky.
-*   Trust game state `reachable: no` for warp/object accessibility.
-*   **Item Pickup:** Items are picked up by facing them and pressing 'A' *when the screen is clear*, not by walking onto their tile.
-*   **Impassable Defeated Trainer Tiles:** Tiles occupied by defeated trainers that are marked `navigable: false` in the map XML remain impassable. The trainer's defeated status does not override the tile's inherent impassability. Always find a path around such tiles.
-*   **Cerulean City Navigation Notes:**
-    *   Officer Jenny (CERULEANCITY_GUARD2) at (28,13) blocks westward movement along Y=13. Pathing must go around (e.g., via Y=14 walkway).
-    *   Rocket Grunt (CERULEANCITY_ROCKET, ID 2) at (31,9) blocks the path behind the burgled house (east side of city). His tile is `navigable: false`.
-*   **Escape Rope Restriction:** Escape Ropes may be restricted in certain areas or by event flags (e.g., Oak's message 'This isn't the time to use that!' on Route 24 after Nugget Bridge).
-
 ## Battle Strategy
 *   Precise battle menu navigation. Mind type matchups & PP. Internalize ROM hack type changes.
 *   **Risk Assessment:** Avoid switching low HP Pokémon against KOs. Run if party critical (unless training overrides).
