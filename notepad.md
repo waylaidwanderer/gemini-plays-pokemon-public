@@ -99,3 +99,6 @@
     *   SPARKY Lv12 vs Geodude Lv10 & Onix Lv14. Fainted to Geodude's Rock Throw. Money halved (¥392 -> ¥196).
     *   Conclusion: SPARKY alone at Lv12 not viable. Needs Lv14, new team member, or revised strategy.
 *   **Critique Lesson (Turn 2626 - Archived):** Consistently verify path navigability tile-by-tile in Map Memory for any planned route, especially longer ones. Break down manual pathing into shorter, verifiable segments (e.g., 3-5 steps). Prioritize fixing/using pathing agents. Confirm item prices and funds *before* shop visits. Re-evaluate shop menu interaction for quantity adjustments.
+
+# Battle Mechanics & Observations
+*   SPROUT's POISONPOWDER (Lv7 Oddish) failed against a wild Lv4 WEEDLE in Viridian Forest. (Turn 3143)
