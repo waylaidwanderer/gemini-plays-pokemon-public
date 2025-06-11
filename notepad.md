@@ -16,6 +16,7 @@
     *   (35,15-16,21-23) changed to impassable.
     *   Turn 3978: (27,17) and (27,18) changed from impassable to ground.
     *   Turn 3983: (34,20) changed from ground to impassable.
+    *   Turn 3987: (35,20) changed from impassable to ground; (35,21), (35,22), (35,23) changed from ground to impassable.
     *   The triggers for these changes are unknown. Must be observant of conditions before changes.
 *   **Ledge Mechanics:** Confirmed one-way movement (downwards only). Cannot move UP onto a ledge tile from a tile with a higher Y-coordinate (e.g., blocked from (29,31) to (29,30)).
 *   **NPC Blockers:** Youngster (ID 5) at (36,17) makes his tile non-navigable. Super Nerd (ID 3) at (28,18) makes his tile non-navigable.
