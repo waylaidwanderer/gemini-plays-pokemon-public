@@ -137,3 +137,5 @@
     *   Utilize status moves (Stun Spore, Thunder Wave) for speed control.
     *   Plan switches carefully due to 'Set' battle style.
     *   Conserve ZAPPY's Thundershock PP for Starmie if possible.
+
+- Cool Trainer F (ID CERULEANGYM_COOLTRAINER_F) at (Cerulean Gym 5,4) - Defeated. Pokémon: SEEL Lv19.
