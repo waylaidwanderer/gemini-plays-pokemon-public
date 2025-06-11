@@ -106,3 +106,4 @@
 - **Pokémon Center Agent Tasks:** Define `advanced_pathfinder_agent`. Use `pathing_script_analyzer_agent` on the existing `run_code` A* script.
 
 *   **`advanced_pathfinder_agent` Failure (Turn 3171 & 3172):** The newly defined `advanced_pathfinder_agent` failed on its first two attempts (from (7,26) in Viridian Forest). Both times it suggested moving 'Down' into tile (7,27), which is impassable. This agent is currently unreliable and requires investigation/fixing.
+*   **`advanced_pathfinder_agent` Failure (Turn 3177):** The agent, called from (3,26) to target (17,48), generated a 125-step path. The path failed after 5 successful steps when the player was at (5,23) facing Up, attempting to move to (5,22), which is an impassable tile. This is the third consecutive failure of this agent, indicating severe issues with its pathing logic or map interpretation.
