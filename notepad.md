@@ -120,7 +120,7 @@
 # Agent Development & Usage
 *   **Path Validator Agent:** Could have been beneficial for testing path segments in Cerulean Gym instead of relying on the more complex and failing `gym_puzzle_solver_agent`.
 *   **Gym Puzzle Solver Agent:** Definition and calls failed repeatedly. If attempted again, schema needs major simplification. For code-enabled agents, prompts must be very clear on JSON input/output for the script.
-*   **Map Pattern Analyzer Agent Idea:** Consider defining this agent to analyze map XML for specific patterns using Python code, or discard the idea.
+
 *   **General Agent Usage:** When an agent definition or call fails multiple times, abandon that specific agent or approach for the immediate future and attempt to solve the problem manually or with a different, simpler tool to maintain momentum.
 
 # Cerulean Gym Mechanics
