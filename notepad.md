@@ -227,3 +227,7 @@
 
 # Battle Discoveries & Type Matchups (Ongoing)
 *   **Stun Spore vs. Ekans (Poison):** BELLA's Stun Spore (Grass-type status) failed against a Lv15 Ekans (Poison) on Route 24 (Team Rocket Grunt). Message: "It didn't affect Enemy EKANS!". This is the second time a Grass-type status move failed with this message (first was Mankey), strongly suggesting Poison-types may be immune to Grass-type status moves in this ROM hack. (Route 24, Turn 10560)
+
+# EXP Tracking (Post-Nugget Bridge Rocket)
+* BELLA (Lv23) gained 85 EXP, now at 9517 EXP.
+* ZAPPY (Lv18) gained 85 EXP, now at 6705 EXP.
