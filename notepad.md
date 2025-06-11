@@ -260,3 +260,7 @@
 
 # Cerulean City Navigation Notes (Additions)
 - Rocket Grunt (CERULEANCITY_ROCKET, ID 2) at (31,9) blocks the path behind the burgled house (east side of city). His tile is `navigable: false`.
+
+## Gameplay Notes & Strategy (Update)
+### Navigation & Exploration
+*   **Impassable Defeated Trainer Tiles:** Tiles occupied by defeated trainers that are marked `navigable: false` in the map XML remain impassable. The trainer's defeated status does not override the tile's inherent impassability. Always find a path around such tiles.
