@@ -93,3 +93,6 @@
 ## Pathing Failures & Strategy Shift (Turn 3831)
 *   `move_validator_agent` confirmed path to (27,25) to interact with Super Nerd at (27,26) failed due to tile (31,25) being impassable. Marked (31,25) as 🚫.
 *   Given repeated failures to find a path to the Super Nerd at (27,26) and no other apparent trainers in Pewter City, shifting strategy to explore the eastern 'Reachable Undiscovered Map Connection' from (40,18), (40,19), (40,17), or (40,20). This supports the secondary goal of acquiring funds.
+
+## Path Execution Learning (Turn 3837)
+*   **Full Sequence Execution:** When a multi-step path is validated (e.g., by `move_validator_agent`), I *must* provide the *entire* sequence of button presses in the `buttons_to_press` array for that turn. Providing only a partial sequence led to being blocked, as the game likely attempted an unintended continuation based on the last input direction after the provided sequence ended. My current position is (35,17) after executing only the first 8 of 16 validated presses. The Youngster at (36,17) blocked an implicit 'Right' continuation. Resuming path to (40,18).
