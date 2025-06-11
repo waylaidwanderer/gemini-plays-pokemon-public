@@ -3,10 +3,10 @@
 *   Pokedex: 10/151 (Target: Complete)
 
 # Current Team & Training Focus (Strategic Notes)
-*   BELLA (GLOOM Lv21): (56/66 HP) | Moves: STUN SPORE (30 PP), ACID (26 PP), LEECH SEED (10 PP), ABSORB (25 PP)
-*   ZAPPY (PIKACHU Lv17): (31/50 HP) | Moves: THUNDERSHOCK (25 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
-*   NINA (NIDORAN♀ Lv12): (12/36 HP) | Moves: GROWL (40 PP), DOUBLE KICK (25 PP), POISON STING (35 PP), BITE (25 PP). Keep for Ground/Poison typing. Critically low HP, avoid battle.
-*   ECHO (ZUBAT Lv11): (30/30 HP) | Moves: LEECH LIFE (25 PP), SUPERSONIC (20 PP), GUST (35 PP). Flying type coverage.
+*   BELLA (GLOOM Lv21): (62/66 HP) | Moves: STUN SPORE (28 PP), ACID (29 PP), LEECH SEED (10 PP), ABSORB (21 PP)
+*   ZAPPY (PIKACHU Lv18): (42/53 HP) | Moves: THUNDERSHOCK (30 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP) - Needs leveling to Lv21 for Misty.
+*   NINA (NIDORAN♀ Lv12): (36/36 HP) | Moves: GROWL (40 PP), DOUBLE KICK (30 PP), POISON STING (35 PP), BITE (25 PP).
+*   ECHO (ZUBAT Lv12): (32/32 HP) | Moves: LEECH LIFE (25 PP), SUPERSONIC (20 PP), GUST (35 PP), BITE (25 PP).
 *   LUNA (CLEFAIRY Lv11): (37/37 HP) | Moves: POUND (35 PP), GROWL (40 PP), WATER GUN (25 PP), MEGA PUNCH (20 PP).
 *   SIR (PARAS Lv13): (34/34 HP) | Moves: STUN SPORE (30 PP), ABSORB (25 PP), LEECH LIFE (25 PP), POISONPOWDER (35 PP).
 
@@ -17,31 +17,31 @@
 *   HP UP x1 - Used on ZAPPY.
 *   RARE CANDY x1 - Save for strategic use.
 *   MOON STONE x1 - Potential use on LUNA (Clefairy) or NINA (Nidoran♀) after evolution to Nidorina for Nidoqueen.
-*   TOWN MAP x1
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 
 # Current Location & Navigation Plan
-*   **Current Location:** Cerulean City (ID 3) at (13,19). Arrived from Route 4 (After Mt. Moon) (East map connection).
-*   **Navigation Plan:** Locate and enter the Cerulean City Pokémon Center to heal the party.
+*   **Current Location:** Cerulean Gym (ID 65) at (6,4). In battle with Cool Trainer F.
+*   **Navigation Plan:** Defeat Cool Trainer F, then Misty.
 
 # Current Goals
-*   **Primary Goal:** Reach Cerulean City and obtain the Cascade Badge from Misty.
-*   **Secondary Goal:** Defeat Jessie & James (Team Rocket) in Mt. Moon B2F. (Completed)
-*   **Tertiary Goal:** Heal NINA (NIDORAN♀) at the Cerulean City Pokémon Center.
+*   **Primary Goal:** Obtain the Cascade Badge from Misty in Cerulean City.
+*   **Secondary Goal:** Defeat all trainers in Cerulean Gym and reach Misty. Level ZAPPY to Lv21.
+*   **Tertiary Goal:** Catch new Pokémon in areas around Cerulean City after obtaining the Cascade Badge.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
-*   North map connection from Route 3 leads to 'Route 4 (Before Mt. Moon)' lower tier (loop).
-*   Route 4 (Before Mt. Moon) upper tiers: navigate eastward by descending ledges.
-*   **Path Planning:** Manually plan complex paths in segments. Review screen/map memory.
-*   **Item Acquisition:** Pick-up items are visible sprites in `Map Sprites` after trigger.
-*   **NPC Interaction:** Max 3-4 attempts for mobile NPCs; assume non-battling/defeated if no engagement.
-*   **Notepad Management:** Consolidate updates during planning phases.
+*   NPCs on `navigable: false` tiles are physical obstacles; their tile remains non-navigable.
+*   Ledges: Upward movement onto a ledge from below is prevented, even if `navigable="true"`.
+*   **Segmented Dungeons:** Complex dungeons (e.g., Mt. Moon) have isolated segments per floor, accessed via specific warps. Systematically explore warps.
+*   **1x1 Warps:** Step off and back on if activation is tricky.
+*   Trust game state `reachable: no` for warp/object accessibility.
 
 ## Battle Strategy
 *   Precise battle menu navigation. Mind type matchups & PP. Internalize ROM hack type changes.
 *   **Risk Assessment:** Avoid switching low HP Pokémon against KOs. Run if party critical (unless training overrides).
 *   **Healing Priority:** Pokémon Center if key Pokémon critically injured & no immediate objective outweighs.
+*   **Multi-Pokémon Trainers:** Confirm trainer is fully defeated (all Pokémon) before assuming victory and moving on.
+*   **Map Markers:** Mark defeated trainers *immediately* after the battle concludes and dialogue is cleared.
 
 ## ROM Hack Specifics
 *   **General:** Old Rod (Viridian Mart), HMs forgettable/menu use, TMs repurchasable, Trade evos by level.
@@ -62,8 +62,9 @@
 *   Healed at Mt. Moon Pokecenter.
 *   Obtained Helix Fossil (Mt. Moon B2F from Super Nerd ID 1).
 *   Navigated Route 4 (Before Mt. Moon) to Route 3.
-
-Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obtained the Helix Fossil. Exited Mt. Moon B1F (28,4) via warp #8 to Route 4 (After Mt. Moon) at (25,6).
+*   Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obtained the Helix Fossil. Exited Mt. Moon B1F (28,4) via warp #8 to Route 4 (After Mt. Moon) at (25,6).
+*   Arrived in Cerulean City.
+*   Defeated Swimmer (ID CERULEANGYM_SWIMMER) in Cerulean Gym.
 
 # Trainer Battle Intel
 ## Route 3
@@ -92,15 +93,17 @@ Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obta
 *   Rocket Grunt (ID 5, MTMOONB2F_ROCKET3) (30,18) - Non-battling / Dialogue Loop. Bypassed.
 ## Route 4 (Before Mt. Moon)
 *   Cool Trainer F (ID 1, ROUTE4_COOLTRAINER_F1) - Non-battling/defeated. (Numerous attempts failed).
+## Cerulean Gym
+*   Swimmer (ID CERULEANGYM_SWIMMER) at (Cerulean Gym 9,8) - Defeated. Pokémon: Horsea Lv16, Shellder Lv16.
+*   Cool Trainer F (ID 2, CERULEANGYM_COOLTRAINER_F) at (5,4) - Currently battling. Known Pokémon: SEEL Lv19.
 
 # Key Learnings & Rules
-
 ## Navigation & Map Mechanics
 *   NPCs on `navigable: false` tiles are physical obstacles; their tile remains non-navigable.
 *   Ledges: Upward movement onto a ledge from below is prevented, even if `navigable="true"`.
 *   Mt. Moon 1F: (8,19) is impassable, blocking south from (8,18).
 *   **Segmented Dungeons:** Complex dungeons (e.g., Mt. Moon) have isolated segments per floor, accessed via specific warps. Systematically explore warps.
-*   **1x1 Warps:** Step off and back on if activation is tricky (consider Pikachu).
+*   **1x1 Warps:** Step off and back on if activation is tricky.
 *   Trust game state `reachable: no` for warp/object accessibility.
 
 ## Battle & EXP Mechanics
@@ -110,22 +113,14 @@ Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obta
 ## Type Matchup Discoveries
 *   Poison-type moves are Not Very Effective (NVE) against opposing Poison-type Pokémon (observed: Acid vs Ekans).
 
-# Key Learnings & Rules (Continued)
-*   AI Critique Learnings (Turn 9256): Be more methodical in navigating segmented dungeons. Rigorously cross-reference warp coordinates with destinations/entry points from Game State Info before committing to a path. Disengage from non-progressive NPC dialogue loops sooner. Use `exploration_prioritizer_agent` and `objective_validator_agent` more proactively when uncertain or validating targets.
+# Agent Development & Usage
+*   **Path Validator Agent:** Could have been beneficial for testing path segments in Cerulean Gym instead of relying on the more complex and failing `gym_puzzle_solver_agent`.
+*   **Gym Puzzle Solver Agent:** Definition and calls failed repeatedly. If attempted again, schema needs major simplification. For code-enabled agents, prompts must be very clear on JSON input/output for the script.
+*   **Map Pattern Analyzer Agent Idea:** Consider defining this agent to analyze map XML for specific patterns using Python code, or discard the idea.
+*   **General Agent Usage:** When an agent definition or call fails multiple times, abandon that specific agent or approach for the immediate future and attempt to solve the problem manually or with a different, simpler tool to maintain momentum.
 
-# Agent Performance Notes
-*   `dungeon_navigator_agent` has proven highly unreliable in complex, multi-level areas like Mt. Moon B2F, consistently generating invalid paths. Prioritize manual exploration or very short, verifiable agent paths in such areas.
-
-# AI Critique Learnings & Game Mechanics
-
-## System Interaction Notes
-*   Turn Count Mismatch: System noted a turn count mismatch at turn 9326 (reported 9325, actual 9326). Current turn is 9327 (at time of critique). Must be vigilant with `validation_checks` turn number.
-
-## Agent Development & Usage
-*   Path Validator Agent: Created `path_validator_agent` (Turn 9325, then again at Turn 9361) to verify navigation paths, especially in complex areas where `dungeon_navigator_agent` proved unreliable (e.g., Mt. Moon B2F).
-
-# Route 4 Navigation Notes
-*   Encountered an impassable barrier at X=63 (extending from Y=10 to Y=15). Bypassed it by taking a northern path along Y=9, starting from (62,9) eastward.
+# Cerulean Gym Mechanics
+*   **Final Conclusion:** All direct water crossings in the central pool are impossible. Path to trainers involves navigating the perimeter ground tiles only. Water tiles marked `navigable: false` are truly impassable. Reaching trainers on platforms requires navigating the outer ground walkways and then specific connecting ground tiles onto those platforms.
 
 # Cerulean Gym Strategy (vs Misty - Cap Lv21)
 *   **Team & Prep:**
@@ -142,31 +137,3 @@ Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obta
     *   Utilize status moves (Stun Spore, Thunder Wave) for speed control.
     *   Plan switches carefully due to 'Set' battle style.
     *   Conserve ZAPPY's Thundershock PP for Starmie if possible.
-
-- Swimmer (ID CERULEANGYM_SWIMMER) at (Cerulean Gym 9,8) - Defeated. Pokémon: Horsea Lv16, Shellder Lv16.
-
-## Cerulean Gym Mechanics
-*   Cerulean Gym Navigation: All attempts to cross water tiles in the center of the gym (e.g., (9,5), (9,4), (7,3), (9,6)) have failed. These tiles are impassable. Direct water crossings are NOT the solution for navigating this gym.
-*   The 'reachable' status of Misty (5,3) and Cool Trainer F (3,4) implies a standard ground-based path exists, likely involving navigating the perimeter or specific connecting ground tiles.
-*   Reachable unseen tiles (1,6) and (2,6) on the western side remain to be explored once a path to that side is found.
-*   Current Plan: Explore access to western platforms by navigating south along the eastern walkway, then attempting to cross west along the southern edge of the gym.
-
-# Trainer Battle Intel
-## Cerulean Gym
-- Cool Trainer F (ID 2, CERULEANGYM_COOLTRAINER_F) at (5,4) - Currently battling. Known Pokémon: SEEL Lv19.
-
-# Cerulean Gym Strategy (vs Misty - Cap Lv21)
-*   Cool Trainer F (before Misty) has a SEEL Lv19. (Potentially other Pokémon too).
-
-# Battle Strategy
-*   Confirm trainer is fully defeated (all Pokémon) before assuming victory.
-
-# Notepad Management
-*   Update notepad decisively after hypotheses are disproven to avoid re-testing flawed ideas.
-
-# Agent Usage Notes
-*   Use `path_validator_agent` to test short, critical path segments in complex areas.
-*   When defining agents, simplify schemas if definition fails repeatedly. Test new agents with simple inputs.
-
-# Cerulean Gym Mechanics
-*   Final conclusion: All direct water crossings in the central pool are impossible. Path to trainers involves navigating the perimeter ground tiles only. Water tiles marked `navigable: false` are truly impassable.
