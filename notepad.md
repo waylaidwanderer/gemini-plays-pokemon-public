@@ -164,3 +164,6 @@
 
 # Exploration Agent Suggestions
 * Exploration Prioritizer Agent (Turn 10172): Suggested exploring unseen tile cluster near (31,13) in Cerulean City (Priority 5).
+
+# Tool Usage Discoveries
+*   `manage_world_knowledge` `add_node`: Requires a self-generated unique string for the `id` field in the payload, contrary to initial assumption that it was auto-generated if omitted. Example: `{"id": "my_unique_node_id", ...}`.
