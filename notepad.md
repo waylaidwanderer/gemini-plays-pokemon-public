@@ -148,4 +148,4 @@
 *   SPROUT HP: 8/25 (CRITICAL). Healing at Pokémon Center is top priority.
 *   Repel active, SPARKY (Lv12) leading.
 *   Obstacle: Youngster (ID 6, VIRIDIANFOREST_YOUNGSTER5) at (14,18) blocks direct southward path. This is the trainer I previously blacked out to (noted as Bug Catcher in error, ID 6 is correct).
-*   New Path Segment: (14,17) -> (15,17) -> (15,18) -> (15,19) -> (15,20) -> (15,21) -> (14,21) -> ... -> (14,30) then towards South Gate (17,48).
+*   Corrected Path Segment (Turn 3321): (14,17) -> (15,17) -> (15,18) -> (15,19) -> (15,20) -> (16,20) -> (17,20). From (17,20), plan to head south towards South Gate (17,48). The previous plan involving (15,21) was incorrect as (15,21) is impassable.
