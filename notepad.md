@@ -14,8 +14,8 @@
 *   **Active Agents to Test/Utilize:** `exploration_planner`, `map_analyzer_agent`, `battle_strategist_agent`, `item_finder_agent`, `leveling_training_advisor_agent`, `pokedex_completer_agent`, `team_builder_agent`, `direct_pathing_agent`, `financial_planner_agent`.
 
 # Current Pokémon Status
-*   SPROUT (ODDISH): Lv7 (11/25 HP, no status). Current EXP: 248. (Stats: Attack 13, Defense 13, Speed 10, Special 15).
-    *   Moves: TACKLE (23 PP), POISONPOWDER (34 PP).
+*   SPROUT (ODDISH): Lv7 (8/25 HP - CRITICALLY LOW, EXP: 262). (Stats: Attack 13, Defense 13, Speed 10, Special 15).
+    *   Moves: TACKLE (23 PP), POISONPOWDER (33 PP).
 *   SPBARKY (PIKACHU): Lv12 (37/39 HP, no status). Current EXP: 1728. **AT LEVEL CAP (12) FOR 0 BADGES. CANNOT GAIN MORE EXP UNTIL 1ST BADGE IS EARNED. (Game may display EXP gain message, but actual EXP value remains unchanged).**
     *   Moves: THUNDERSHOCK (29 PP), TAIL WHIP (30 PP), QUICK ATTACK (29 PP), THUNDER WAVE (20 PP).
 
