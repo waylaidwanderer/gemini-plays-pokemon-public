@@ -217,3 +217,8 @@
 *   **move_validator_agent (defined Turn 3404):** Takes a path and `map_xml_string`, verifies each step against map data (navigability, tile types, NPC locations if provided) and outputs path validity or first invalid step.
 
 *   **`direct_pathing_agent` (Active Agent - Needs Review):** This defined agent has persistent critical issues (e.g., failing with Pikachu on target tile, incorrect turn+move logic). It requires significant fixing or should be considered for deletion at the next agent management opportunity to free up a slot, especially if a more reliable pathing solution (like a fixed A* `run_code` script) becomes available.
+
+# Navigation Strategy & Best Practices
+*   **Path Planning:** Break down navigation into shorter, verifiable segments (e.g., 5-10 steps), especially in complex areas like Viridian Forest. Verify path navigability frequently using map memory before committing to long movements.
+*   **Repel Usage:** Ensure Repel is active when navigating dense areas if the intent is to avoid encounters, especially when lead Pokémon are level-capped or not being used for training.
+*   **Map Marker Usage:** Consistently mark defeated trainers, confirmed dead ends, and frequently used warps on the map to aid in long-term spatial understanding and avoid re-exploring fruitless paths.
