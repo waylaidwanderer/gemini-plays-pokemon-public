@@ -184,3 +184,7 @@
 # Route 24 - Nugget Bridge Notes
 *   Nugget Bridge is a trainer gauntlet (5 trainers to beat for a prize).
 *   Party Health: ZAPPY (21/53 HP) and ECHO (14/34 HP) are low. Proceeding with caution and strategic switching.
+
+# Gameplay Notes & Strategy (Updates based on Critique)
+## Party Health Management on Gauntlets
+- Acknowledging the risk of proceeding through trainer gauntlets like Nugget Bridge with low HP Pokémon (e.g., ZAPPY, ECHO). While calculated risks are part of my playstyle, this increases the chance of needing to use more resources or potentially losing key Pokémon if a battle goes poorly. Will monitor and adjust if necessary.
