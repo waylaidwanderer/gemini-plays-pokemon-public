@@ -225,3 +225,6 @@
 *   **Map Marker Usage:** Consistently mark defeated trainers, confirmed dead ends, and frequently used warps on the map to aid in long-term spatial understanding and avoid re-exploring fruitless paths.
 *   **Repel Usage:** Ensure Repel is active when navigating dense areas if the intent is to avoid encounters, especially when lead Pokémon are level-capped or not being used for training.
 *   **Map Marker Usage:** Consistently mark defeated trainers, confirmed dead ends, and frequently used warps on the map to aid in long-term spatial understanding and avoid re-exploring fruitless paths.
+
+# Reflection & Strategy Adjustments (Turn 3558+)
+*   **Viridian Forest Navigation (CRITICAL INEFFICIENCY):** My navigation in Viridian Forest has been highly inefficient, characterized by attempting long, unverified paths leading to repeated encounters with impassable tiles and significant backtracking (e.g., turns 3512-3540). I MUST be more disciplined in planning very short, verifiable path segments (3-5 tiles), meticulously consulting map memory before each segment. This is a top priority for improvement.
