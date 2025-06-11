@@ -167,3 +167,6 @@
 *   `full_notepad_organizer_agent`: Takes entire notepad string as input, outputs a reorganized string based on predefined sections/rules. To be used with `overwrite` for major cleanups. (High Priority)
 *   `dynamic_blocker_pathing_agent`: Specialized agent for pathing around dynamic NPC blockers and their trigger zones, potentially a refinement of `scripted_event_tracker_agent`. (Medium Priority)
 *   `hm_usage_advisor_agent`: Once HMs are obtained, an agent to suggest optimal HM usage (e.g., "Cut tree at X,Y to access area Z") considering they are used from the menu. (Medium Priority)
+
+# Post-Battle Map Marker Reminders (Viridian Forest)
+*   Mark Youngster (ID 1) at (17,44) as a blocker (❗/💁).
