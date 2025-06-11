@@ -28,14 +28,14 @@
 - After Lance: 65
 
 ## Tile Types Discovered
-- 
+-
 
 ## General Notes & Discoveries
-- 
+-
 
 ## Defeated Trainers
 -
 
 ## Current Goals & Plans
-- Primary: Start the game and obtain my first Pokémon.
+- Primary: Obtain my first Pokémon.
 - Secondary: Explore Pallet Town.
