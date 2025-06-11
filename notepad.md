@@ -11,7 +11,12 @@
 # Key Learnings & Game Mechanics
 *   **Youngster Gym Escort Event (Recurring):** Youngster NPC (ID 5, usually at (36,17)) has a scripted event that triggers when approached in the eastern part of Pewter City (e.g., around (38,19)). He escorts the player to the Pewter Gym entrance (12,19). His final position after the escort can vary (e.g., (36,17) or (18,19) temporarily), but the game state seems to revert him to (36,17) eventually. This event is a major impediment and requires careful pathing or finding his trigger zone to avoid.
 *   **Path Execution (CRITICAL):** When a multi-step path is validated (e.g., by `move_validator_agent` or derived from `map_analyzer_agent`), the *entire* sequence of button presses for that path segment MUST be provided in a single turn. Partial execution leads to desynchronization and movement failures.
-*   **Map Tile Changes:** Some map tiles in Pewter City have changed type during gameplay. Previously: (27,15)-(27,18) changed to ground; (34,20), (35,15-16,21-23) to impassable. Most recently (Turn 3978): (27,17) and (27,18) changed from impassable to ground. The triggers are unknown. Must be observant of conditions before changes.
+*   **Map Tile Changes:** Some map tiles in Pewter City have changed type during gameplay.
+    *   Previously: (27,15)-(27,18) changed to ground.
+    *   (35,15-16,21-23) changed to impassable.
+    *   Turn 3978: (27,17) and (27,18) changed from impassable to ground.
+    *   Turn 3983: (34,20) changed from ground to impassable.
+    *   The triggers for these changes are unknown. Must be observant of conditions before changes.
 *   **Ledge Mechanics:** Confirmed one-way movement (downwards only). Cannot move UP onto a ledge tile from a tile with a higher Y-coordinate (e.g., blocked from (29,31) to (29,30)).
 *   **NPC Blockers:** Youngster (ID 5) at (36,17) makes his tile non-navigable. Super Nerd (ID 3) at (28,18) makes his tile non-navigable.
 *   **Data Trust:** Game State Information (positions, NPC locations, tile navigability in XML) is the absolute source of truth, overriding visual interpretations, especially during or after complex movements or unexpected events.
