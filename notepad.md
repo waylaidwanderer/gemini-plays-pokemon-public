@@ -111,7 +111,7 @@
 *   JR.TRAINER♂ (Cool Trainer M) in Gym (Diglett Lv9, Sandshrew Lv9): Defeated (Turn 4004), ¥180.
 *   Gym Leader Brock (Geodude Lv10, Onix Lv14): Lost (Turn 4016).
 *   Cool Trainer M (ID 2) at (18,26): Non-battling (Confirmed Turn 5093).
-*   Super Nerd (ID 4, PEWTERCITY_SUPER_NERD2) at (24,26) facing Left: Target for funds (Map Sprites data Turn 5103). Interaction spot will be (25,26).
+*   Super Nerd (ID 4, PEWTERCITY_SUPER_NERD2) at (24,26) facing Right: Non-battling. Dialogue: "That's right! It's hard work!" (Confirmed Turn 5107). No funds gained.
 
 # Hindsight & Lessons Learned
 *   Screen annotations for tile navigability can sometimes conflict with the underlying XML map data (e.g., tile (25,26) in Pewter City on Turn 5102 showed 'navigable: false' in annotation but was 'navigable: true' in XML). Always prioritize XML data as the source of truth for tile properties.
