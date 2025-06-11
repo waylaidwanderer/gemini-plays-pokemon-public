@@ -12,7 +12,7 @@
 
 # Key Items & TMs (Strategic Notes)
 *   OLD ROD x1
-*   POKé BALL x5
+*   POKé BALL x4
 *   TM34 (BIDE) x1 - Evaluate for team.
 *   TM11 (BUBBLEBEAM) x1 - Received from Misty.
 *   HP UP x1 - Used on ZAPPY.
