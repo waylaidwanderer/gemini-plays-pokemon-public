@@ -174,3 +174,6 @@
 # Party Update & Goal Completion (Turn 4696)
 *   SPROUT (ODDISH) reached Lv12 (33/37 HP, EXP: 973). Moves: TACKLE (30 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP). This is the current level cap (0 badges).
 *   **Secondary Goal Update:** Training SPROUT to current level cap (Lv12) is COMPLETE.
+
+# Agent Notes (Turn 4698)
+*   `exploration_planner_agent` returned an empty path when trying to navigate to a specific coordinate (Viridian Forest North Exit) with no 'Reachable Unseen Tiles' present. This suggests the agent's logic might prioritize unseen tiles exclusively, or fails to generate a direct path to a known coordinate if no unseen tiles exist. Prompt needs review for this use case.
