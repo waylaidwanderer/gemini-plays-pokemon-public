@@ -101,7 +101,7 @@
 *   Cool Trainer F (ID 2, CERULEANGYM_COOLTRAINER_F) at (Cerulean Gym 5,4) - Defeated. Pokémon: SEEL Lv19.
 *   Misty (ID 1, CERULEANGYM_MISTY) at (Cerulean Gym 5,3) - Defeated. Pokémon: Psyduck Lv19, Goldeen Lv18, Starmie Lv21.
 
-# Key Learnings & Rules
+# Game Mechanics & Discoveries
 ## Navigation & Map Mechanics
 *   NPCs on `navigable: false` tiles are physical obstacles; their tile remains non-navigable.
 *   Ledges: Upward movement onto a ledge from below is prevented, even if `navigable="true"`.
