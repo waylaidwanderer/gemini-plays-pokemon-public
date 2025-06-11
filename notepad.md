@@ -124,3 +124,6 @@
 # Pewter City Navigation & Events (Continued)
 *   **Dynamic Tile Changes (Continued):**
     *   Turn 5262: Tile (27,15) changed from impassable to ground.
+
+# Pewter City Navigation & Events (Continued)
+*   **Youngster Gym Escort Event (Continued - Turn 5270):** Triggered at (38,20) when attempting to move east along row 20. This suggests the trigger zone for (38,19) may be larger or (38,20) is an additional trigger point. Need to be extremely cautious on rows 17-20 in the eastern part of the city. Consider (38,20) a new trigger to track.
