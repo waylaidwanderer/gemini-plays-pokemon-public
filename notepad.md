@@ -3,25 +3,51 @@
 *   **Secondary Goal:** Acquire sufficient funds (¥) for Potions and train SPROUT (Oddish) to an effective level for the Gym battle by exploring the route east of Pewter City.
 *   **Tertiary Goal:** Systematically explore all 'Reachable Unseen Tiles' in new areas and investigate 'Reachable Undiscovered Map Connections' as they become available.
 
-# Current Strategic Focus & Key Learnings
-*   **Immediate Priority:** Successfully navigate out of Pewter City via the eastern map connection to explore the new route for resources. This is critical as current funds (¥156) and SPROUT's level (Lv7) are insufficient for Brock.
-*   **Resource Gathering:** On any new route, prioritize battling trainers for money and EXP for SPROUT.
-*   **Gym Preparation:** Re-evaluate readiness for Brock after SPROUT is leveled and funds are secured.
-*   **Youngster Gym Escort Event (Recurring):** Youngster NPC (ID 5) has repeatedly initiated dialogue and forcibly moved the player to the Pewter Gym entrance. His final dialogue is "If you have the right stuff, go take on BROCK!". His position after this event varies (e.g., (18,19) then (36,17)). A robust strategy is needed to bypass his trigger zones or known locations when attempting to exit east.
-*   **Path Execution & Discrepancies:** Errors in translating coordinate paths to button presses or misinterpreting current position can lead to 'unexpected jumps' or perceived XML vs. Screen discrepancies. Trust Game State and XML data as absolute truth over visual interpretations.
-*   **Tile Traversal & Movement Rules:**
-    *   **Ledges:** Confirmed one-way movement. Cannot move UP onto a ledge tile from a tile with a higher Y-coordinate. Example: Blocked from moving Up from (29,31) to ledge at (29,30) in Pewter City.
-*   **Map Tile Changes:** Some map tiles in Pewter City have changed from 'impassable' to 'ground' (e.g., (27,15)-(27,18)) or vice-versa (e.g., (34,20), (35,15)-(35,16), (35,21), (35,22)) during gameplay. The triggers for these changes are unknown and require careful observation.
+# Current Tactical Plan (Focus: Exiting Pewter City East)
+1.  **Immediate:** Execute validated path to (20,22) to bypass western Pewter City blockages.
+2.  **Next:** From (20,22), plan and validate a path to the eastern map connection at (40,18).
+3.  **Contingency:** If further pathing issues arise, use `map_analyzer_agent` proactively to find routes to key intermediate points or the final exit.
+
+# Key Learnings & Game Mechanics
+*   **Youngster Gym Escort Event (Recurring):** Youngster NPC (ID 5, usually at (36,17)) has a scripted event that triggers when approached in the eastern part of Pewter City (e.g., around (38,19)). He escorts the player to the Pewter Gym entrance (12,19). His final position after the escort can vary (e.g., (36,17) or (18,19) temporarily), but the game state seems to revert him to (36,17) eventually. This event is a major impediment and requires careful pathing or finding his trigger zone to avoid.
+*   **Path Execution (CRITICAL):** When a multi-step path is validated (e.g., by `move_validator_agent` or derived from `map_analyzer_agent`), the *entire* sequence of button presses for that path segment MUST be provided in a single turn. Partial execution leads to desynchronization and movement failures.
+*   **Map Tile Changes:** Some map tiles in Pewter City have changed type during gameplay (e.g., (27,15)-(27,18) to ground; (34,20), (35,15-16,21-23) to impassable). The triggers are unknown. Must be observant of conditions before changes.
+*   **Ledge Mechanics:** Confirmed one-way movement (downwards only). Cannot move UP onto a ledge tile from a tile with a higher Y-coordinate (e.g., blocked from (29,31) to (29,30)).
+*   **NPC Blockers:** Youngster (ID 5) at (36,17) makes his tile non-navigable. Super Nerd (ID 3) at (28,18) makes his tile non-navigable.
+*   **Data Trust:** Game State Information (positions, NPC locations, tile navigability in XML) is the absolute source of truth, overriding visual interpretations, especially during or after complex movements or unexpected events.
+
+# Navigation Strategy & Best Practices (MUST ADHERE)
+*   **Proactive Agent Use:** For complex routes or finding paths between known points (especially after 1-2 manual attempts fail), use `map_analyzer_agent` *before* extensive manual trial-and-error. Trust its output but carefully translate coordinates to button presses.
+*   **Segmented & Validated Paths:** Break down long paths (especially agent-provided ones) into shorter, manageable segments (e.g., 5-10 tiles or to key turns). Validate *each segment* with `move_validator_agent` before execution. Execute the *full button sequence* for each validated segment in one turn.
+*   **Meticulous Tile Verification:** Before *any* movement, consult map memory (XML) and verify `navigable="true"` and `type` of target tiles. `navigable="false"` is absolute.
+*   **NPC Circumvention:** For recurring blockers like Youngster (ID 5), use `map_analyzer_agent` to plot routes that definitively bypass known locations or (if identifiable) trigger zones.
+*   **Map Marker Usage (IMMEDIATE & CONSISTENT):**
+    *   🚫: Confirmed dead ends, impassable tiles/areas, NPC-blocked tiles.
+    *   📍: Key navigational turns/points.
+    *   🚪: Used warps (mark both entry and arrival, note destination).
+    *   ☠️: Defeated trainers (name, location).
+    *   ❗/💁: Event-triggering NPCs or significant static blockers (note ID, behavior).
+    *   🚧: Ledges (note direction).
+    *   Update NPC location markers based on *latest* Game State Information.
+*   **Pikachu Interaction:** Account for turning mechanic if moving onto Pikachu's tile from a non-facing direction.
 
 # Pokémon Center Tasks (Next Visit)
 *   **Heal Pokémon.**
 *   **Agent Management (CRITICAL):
     *   **Verify Active Agent List:** Confirm the actual list of currently active custom agents via PC. Previous attempts to delete `advanced_pathfinder_agent` and `direct_pathing_agent` failed as they were not found.
-    *   **Low-Usage Agent Review & Update:** Re-evaluate `item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`. Improve their system prompts to include full game context (Pokemon Yellow Legacy Hard Mode rules, level caps, etc.) or delete to free slots.
-    *   **Update `npc_interaction_planner_agent` prompt:** Instruct it to provide a path to the interaction spot if possible, or clarify its limitations.
-    *   **Update `map_analyzer_agent` prompt:** Emphasize providing paths as sequences of navigable coordinates and suggest breaking very long paths into segments.
-    *   **Investigate `exploration_planner_agent`:** Review its prompt for robustness, especially concerning ledges, and check its Python code if possible, given its previous failure. If unfixable, delete.
-    *   **Address 'Agent Ideas Brainstorm':** Make decisions on defining new agents (requires deletion if at limit) or explicitly discard these ideas. Prioritize `scripted_event_tracker_agent` and `route_progress_analyzer_agent` if slots become available.
+    *   **Action 'Agent Ideas Brainstorm':** Decide to define or discard each idea.
+        *   `scripted_event_tracker_agent`: Define if slot available (High Priority).
+        *   `route_progress_analyzer_agent`: Define if slot available (High Priority).
+        *   `pewter_city_escape_planner_agent`: Define if slot available (Medium Priority).
+        *   `map_tile_change_correlator_agent`: Consider defining or discard (Low Priority).
+        *   `boulder_puzzle_solver_agent`: Discard for now.
+        *   `risk_assessor_agent`: Discard for now.
+    *   **Agent Updates/Deletions:**
+        *   `map_analyzer_agent` prompt: Emphasize navigable coordinates, segmented paths.
+        *   `npc_interaction_planner_agent` prompt: Instruct to provide path to interaction spot.
+        *   `exploration_planner_agent`: Investigate prompt/code for ledges; fix or delete.
+        *   Low-Usage Agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`): Update prompts with full game context (Hard Mode, level caps) or delete.
+        *   `pathing_script_analyzer_agent`: Delete (not relevant to current playstyle).
 *   **Financial Planning:** Re-assess funds and purchase Potions if affordable.
 
 # Current Pokémon Status
@@ -33,33 +59,11 @@
 *   Money: ¥156
 
 # Hard Mode Rules & ROM Hack Changes (Summary)
-*   Battle Style: Set. No items in battle. Level caps apply (current 0 badges: 12. Brock's Ace Onix Lv14 -> cap before Brock: 14).
+*   Battle Style: Set. No items in battle. Level caps apply (current 0 badges: 12).
 *   HMs: Forgettable, menu use, not PC storable. All 151 obtainable. Trade evos by level. Smarter AI. Tougher bosses. EXP. All early.
 
-# Navigation Strategy & Best Practices (CRITICAL - MUST ADHERE)
-*   **Meticulous Tile-by-Tile Verification (ABSOLUTE PRIORITY):** Before *any* movement segment, consult map memory (XML) and verify `navigable="true"` and `type` of *every single tile*. **XML is sole truth for player movement, overriding visual cues or screen logs.** Trust Game State and XML data as absolute truth over visual interpretations during movement.
-*   **Short, Verifiable Segments:** Path segments MUST be short (3-5 tiles max or single clear areas), especially in dense/unfamiliar locations. Each chunk 100% confirmed navigable from XML *before* execution. Break down longer paths.
-*   **Use `move_validator_agent` (CRITICAL):** Before executing *any* planned path segment longer than a single step, use `move_validator_agent` to confirm path validity against the map XML. This is essential to prevent wasted turns.
-*   **Re-validate After Interruptions:** If a validated path fails or is interrupted, DO NOT assume the remainder is valid. Re-validate from the new position or break the remaining path into smaller, individually validated segments.
-*   **Proactive `map_analyzer_agent` Use:** For complex routes or finding paths between known points (especially after a few manual attempts with short segments fail), use `map_analyzer_agent` instead of repeated failed self-plotted paths. Carefully translate its coordinate paths to button presses, possibly validating in chunks.
-*   **Navigable `navigation_goal_coordinates`:** Ensure `navigation_goal_coordinates` always target a navigable tile, not an NPC or impassable tile.
-*   **Map Marker Usage (IMMEDIATE & ABSOLUTE):** *Immediately* mark confirmed dead ends/impassable tiles (🚫), key navigational turns/points (📍), important warps (🚪, with destination), defeated trainers (☠️), and event-triggering/blocking NPCs (❗ or ℹ️) after discovery/use. Ensure NPC location markers are updated based on the *latest* Game State Information.
-*   **Pikachu Interaction:** Account for turning mechanic if moving onto Pikachu's tile from a non-facing direction.
-*   **`navigable="false"` is Absolute:** If XML shows `navigable="false"`, it is IMPASSABLE by player. Trust this attribute explicitly.
-*   **Full Path Execution:** When a multi-step path is validated, provide the *entire* sequence of button presses in the `buttons_to_press` array for that turn. Partial execution leads to path desynchronization and wasted turns.
-
-# Recent Events (Pewter City - Pathing Focus)
-*   **Current Location:** (28,19) facing Up. Pikachu at (28,20). Super Nerd (ID 3) at (28,18) blocks path North.
-*   **Pathing Challenges:** Multiple pathing attempts within Pewter City (to Super Nerd at (27,26) and eastern exit) failed due to unexpected impassable tiles and NPC blockers. Known impassable tiles include: (27,24), (32,13), (30,24), (31,25), (18,22), (14,22), (23,18), (12,22), (18,15), (23,24), (23,17), (19,20), (19,19), (26,18), (35,26) (ground but impassable), (19,21) (wall), (34,20), (35,15), (35,16), (35,21), (35,22).
-*   **NPC Blockers:** Youngster (ID 5) at (36,17) blocks row 17. Super Nerd (ID 3) at (28,18) blocks row 18 and is on an impassable tile.
-
-# Agent Ideas Brainstorm (To Action at PC)
-*   `route_progress_analyzer_agent`: Analyzes a new route for key features. (Consider defining)
-*   `risk_assessor_agent`: Evaluates risk of major battles. (Consider defining)
-*   `scripted_event_tracker_agent`: Attempts to predict/analyze scripted NPC events. System Prompt Idea: "You are a Scripted Event Tracker. Input: player map/pos, description of unexpected NPC interaction/movement. Analyze this and `map_xml_string`. Output JSON: likely trigger (tile, LoS), NPC ID/name, event sequence summary, implications (new blocks, unlocks), recurrence. Output Schema: `{"type":"object","properties":{"event_name":{"type":"string"},"trigger_description":{"type":"string"},"npc_involved_id":{"type":"integer","nullable":true},"npc_involved_name":{"type":"string","nullable":true},"event_sequence_summary":{"type":"string"},"implications":{"type":"string"},"is_recurring_event":{"type":"boolean"}},"required":["event_name","trigger_description","event_sequence_summary","implications","is_recurring_event"]}` (Consider defining)
-*   `boulder_puzzle_solver_agent`: Assists with boulder puzzles. (Consider defining or discarding)
-
-*   **Map Tile Change (Pewter City, Turn 3956):** Tile (35,23) changed from 'ground' to 'impassable' while moving.
-
-# Recent Events & Learnings (Continued)
-*   **Youngster Gym Escort Event (Recurring - Turn 3961):** Youngster NPC (ID 5) intercepted me again near the eastern side of Pewter City while I was at (38,19). He repeated his dialogue ("You're a trainer right? BROCK's looking for new challengers! Follow me!" then "If you have the right stuff, go take on BROCK!") and forcibly moved me, this time to (30,19) facing Left. His final position after the latest escort was (12,19) (Gym entrance). The game state now lists only one Youngster (ID 5) at (36,17). It appears the 'escorting' Youngster despawns or his position reverts to (36,17) after the event. This recurring event is a major impediment to exiting east and requires a more robust circumvention strategy. The trigger seems to be proximity to him when he is in his 'guide' mode near the eastern part of the city.
+# Pewter City Navigation Saga (Summary)
+*   Numerous attempts to exit east manually were blocked by previously unknown impassable tiles (e.g., X=19 wall, Y=22 wall, various individual tiles like (32,13), (30,24), (31,25), (35,26), (26,18)) and NPC blockers (Super Nerd at (28,18), Youngster at (36,17)).
+*   The Youngster (ID 5) scripted escort event to the Gym is a major recurring obstacle, triggering multiple times when attempting to path east.
+*   Map tiles have changed dynamically, requiring path adjustments (e.g., X=27 opening up, (34,20), (35,23) becoming impassable).
+*   Key Learning: Proactive use of `map_analyzer_agent` for complex paths and strict adherence to full, validated path execution are essential.
