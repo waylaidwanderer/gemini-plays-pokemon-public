@@ -147,10 +147,6 @@
 
 - Badge House Man (Cerulean Badge House, (6,4)) - Non-battling. Offers badge descriptions.
 
-# Current Location & Strategy Focus
-*   **Current Location:** Cerulean City (ID 3) at (29,28).
-*   **Strategy Focus:** Pick up item at (29,27), then explore the northern/eastern parts of Cerulean City to find Route 24 and a path towards Vermilion City.
-
 # Archived Hypotheses & Learnings
 ## Cerulean City Bridge (Route 24 Exit) - Failed Hypotheses (Archived)
 *   Moving North *from* each tile (9,8) through (19,8) does not trigger a map transition.
