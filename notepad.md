@@ -106,3 +106,9 @@
 - Cool Trainer M (ID 2) at (18,26) in Pewter City is non-battling. (Confirmed Turn 5093).
 
 - Super Nerd (ID 4, PEWTERCITY_SUPER_NERD2) is located at (25,26) in Pewter City, currently facing Right. He blocks movement onto his tile. (Observed Turn 5098)
+
+# Pewter City Trainers
+*   JR.TRAINER♂ (Cool Trainer M) in Gym (Diglett Lv9, Sandshrew Lv9): Defeated (Turn 4004), ¥180.
+*   Gym Leader Brock (Geodude Lv10, Onix Lv14): Lost (Turn 4016).
+*   Cool Trainer M (ID 2) at (18,26): Non-battling (Confirmed Turn 5093).
+*   Super Nerd (ID 4, PEWTERCITY_SUPER_NERD2) at (25,26): Target for funds (Observed Turn 5098).
