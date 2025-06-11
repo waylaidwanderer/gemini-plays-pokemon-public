@@ -82,7 +82,9 @@
         *   Output: `risk_level`, `mitigation_suggestions`.
 *   Tasks for next Pokémon Center visit remain: Review low-usage agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`), consider defining new ones if slots are available.
 
-## Current Tactical Plan
-1.  Delete `advanced_pathfinder_agent` and `direct_pathing_agent` (this turn).
-2.  Mark impassable tiles (27,24) and (32,13) (this turn).
-3.  Re-plan path to Super Nerd at (27,26). Viable interaction spots: (26,26) facing Right, (28,26) facing Left, or (27,27) facing Up.
+## Current Tactical Plan (One action per turn)
+1.  **This Turn (3820):** Update tactical plan in notepad.
+2.  **Next Turn (3821):** Delete `advanced_pathfinder_agent`.
+3.  **Turn After (3822):** Delete `direct_pathing_agent`.
+4.  **Following Turn (3823):** Mark impassable tile (32,13) in Pewter City with 🚫. (Tile (27,24) is already marked).
+5.  **Subsequent Turns:** Path to and interact with Super Nerd at (27,26). Viable interaction spots: (26,26) facing Right, (28,26) facing Left, or (27,27) facing Up. Goal: battle for money.
