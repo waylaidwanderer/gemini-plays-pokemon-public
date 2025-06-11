@@ -148,7 +148,7 @@
 
 # Pewter City Dynamic Tile Changes (Consolidated)
 *   Column 35: (35,23) ground -> impassable (Turn 5112). (35,22) ground -> impassable (Turn 5115). (35,21) ground -> impassable (Turn 5117). (35,16) ground -> impassable (Turn 5123). (35,15) ground -> impassable (Turn 5126).
-*   Column 34/35 Row 20: (34,20) ground -> impassable (Turn 5120, Turn 5183), (35,20) impassable -> ground (Turn 5120, Turn 5183).
+*   Column 34/35 Row 20: (34,20) ground -> impassable (Turn 5120, Turn 5183, Turn 5213), (35,20) impassable -> ground (Turn 5120, Turn 5183).
 *   Column 27: (27,15) impassable -> ground (Turn 5129). (27,16) impassable -> ground (Turn 5129, Turn 5182). (27,17) impassable -> ground (Turn 5129, Turn 5182). (27,18) impassable -> ground (Turn 5129, Turn 5182).
 
 # Hindsight & Lessons Learned
