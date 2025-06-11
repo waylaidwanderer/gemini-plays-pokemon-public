@@ -93,12 +93,13 @@
 *   Explored northern section of Route 2 (south of Pewter City connection). No trainers found in this area. Funds remain at ¥156.
 *   Explored southern section of Route 2 (north of Viridian City connection, up to VF North Gate). No trainers found in this area either.
 
-# Current Plan of Action (Turn 5158)
-1.  **Immediate Goal:** Explore the eastern map connection from Pewter City (target: (40,20)) to find trainers or other resources for funds.
-2.  **Rationale:** All known trainers in Pewter City are non-battling. Funds are critically low (¥156), and FLAREE (6HP) needs healing.
-3.  **Party Management:** Keep FLAREE benched. SPARKY or SPROUT (both Lv12 cap) will lead to maximize escape chance from wild encounters if not training.
-4.  **Contingency:** If the eastern route yields no funds, re-evaluate options. This might include selling items (Poké Ball is the only one, not ideal), or exploring other accessible routes if any exist and were missed (e.g., south of Pallet Town).
-5.  **Long-term:** After securing funds and healing FLAREE, reassess readiness for challenging Brock.
+# Current Plan of Action (Turn 5204)
+1.  **Immediate Goal:** Safely navigate to the eastern exit of Pewter City (target: (40,19) or (40,20)) to find trainers/resources for funds.
+2.  **Critical Step:** Utilize the `scripted_event_tracker_agent` to plan a path that explicitly avoids the Youngster (ID 5, last seen at (18,19)) Gym escort event trigger zone.
+3.  **Rationale:** All known trainers in Pewter City are non-battling. Funds are critically low (¥156), and FLAREE (6HP) needs healing. Brock cannot be challenged.
+4.  **Party Management:** Keep FLAREE benched. SPARKY or SPROUT (both Lv12 cap) will lead.
+5.  **Contingency:** If the eastern route yields no funds, re-evaluate other map connections or item sales.
+6.  **Long-term:** After securing funds and healing FLAREE, reassess readiness for challenging Brock.
 
 # Pewter City Navigation Notes (Continued)
 *   Column X=22 has several impassable segments: (22,22), (22,25), (22,26), (22,27). This blocks east-west travel through rows 22, 25, 26, 27 at this column.
