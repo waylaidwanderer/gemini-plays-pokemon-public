@@ -130,3 +130,5 @@
 *   Mark recently discovered impassable tiles (e.g., (19,21), (11,27), (13,31)) with 🚫 if not already marked.
 
 - Tile (27,18) in Viridian Forest (Trainer Tips sign) is impassable when trying to move Down from (27,17) (confirmed Turn 4542).
+
+- Tile (25,17) in Viridian Forest is impassable (confirmed Turn 4544, blocked westward movement from (26,17)).
