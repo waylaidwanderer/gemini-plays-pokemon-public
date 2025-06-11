@@ -25,7 +25,7 @@
 
 # Inventory & Finances
 *   POKé BALL x2
-*   REPEL x10
+*   REPEL x9
 *   Money: ¥96
 *   **Note:** Potions cost ¥200.
 
