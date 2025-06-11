@@ -211,11 +211,25 @@
 *   Youngster (ID 10, VIRIDIANFOREST_YOUNGSTER6) at (28,41) is not a battlable trainer, only provides dialogue ('You should carry extras!'). This occurred after approaching him from (28,42) and pressing 'A' on Turn 3483. Does not initiate battle on sight or after dialogue completion.
 
 # New Agent Ideas (Currently at 10/10 agent limit - requires deletion of existing agent or discarding ideas)
-*   **Agent Management Note:** At the next safe opportunity (e.g., Pokémon Center), I will review these new agent ideas. For each, I will decide whether to pursue defining it (which would require deleting an existing, less useful agent to free up a slot) or to discard the idea if it's no longer deemed necessary or high-priority. Agent ideas should not remain in limbo.
-*   **Route Progress Analyzer Agent Idea:** Takes `map_xml_string` and current position to analyze progress on linear routes, identifying remaining trainers/items based on known data or notes.
-*   **Risk Assessor Agent Idea:** Inputs: party status, current location (e.g., Viridian Forest, known wild Pokémon levels), distance to Pokémon Center. Output: risk level (low, medium, high) of proceeding vs. retreating.
 
-*   **`direct_pathing_agent` (Needs Investigation):** My notes refer to this agent and its issues (Pikachu on target, turn+move logic). However, it's not currently listed among my 10 defined agents. At the next Pokémon Center: verify if this agent was deleted, never properly defined, or if I'm confusing it with the A* `run_code` script. If it doesn't exist, remove these notes.
+# New Agent Ideas (Currently at 10/10 agent limit - requires deletion of existing agent or discarding ideas)
+*   **Agent Management Note (CRITICAL DECISIONS NEEDED):** At the next safe opportunity (e.g., Pokémon Center), I MUST review new agent ideas and existing low-usage agents. For each new idea, I will decide to EITHER define it (requiring deletion of an existing agent) OR formally discard the idea. For low-usage agents, I will decide to EITHER refine their purpose/prompts for active use OR delete them. Agent ideas and underperforming agents cannot remain in limbo indefinitely, especially with the 10-agent limit.
+*   **Route Progress Analyzer Agent Idea:** (Consider for definition if slot opens) Takes `map_xml_string` and current position to analyze progress on linear routes, identifying remaining trainers/items based on known data or notes.
+*   **Risk Assessor Agent Idea:** (Consider for definition if slot opens) Inputs: party status, current location (e.g., Viridian Forest, known wild Pokémon levels), distance to Pokémon Center. Output: risk level (low, medium, high) of proceeding vs. retreating.
+
+# Pokémon Center Tasks
+*   **Agent Management (Priority):
+    *   Define `move_validator_agent` (High priority given recent pathing issues).
+    *   Use `pathing_script_analyzer_agent` on the A* script and `advanced_pathfinder_agent` logic to diagnose failures.
+    *   Formally mark `advanced_pathfinder_agent` for deletion or major overhaul; cease current usage.
+    *   Evaluated low-usage agents. Deleted `battle_strategist_agent`. Others need decisive re-evaluation: `item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`, `financial_planner_agent`. Improve, use, or delete.
+    *   `NPC_interaction_planner_agent` defined. Consider creating `run_code` script for Repel effectiveness later.
+    *   Test `npc_interaction_planner_agent` on Cool Trainer M (5,4).
+    *   **Resolve `direct_pathing_agent` Status:** Verify if this agent was deleted, never properly defined, or if I'm confusing it with the A* `run_code` script. If it doesn't exist, remove notes about it. If it does, analyze and decide on its future (fix/delete).
+    *   **Address 'New Agent Ideas':** Make decisions on defining (requires deletion of existing agent) or discarding these ideas.
+*   **Financial Planning:**
+    *   Current funds: ¥156. Potions cost ¥200. Need at least ¥44 more for one Potion.
+    *   Investigate money-making opportunities after healing (e.g., re-battlable trainers if they exist in this ROM hack, or un-fought trainers).
 
 # Navigation Strategy & Best Practices
 *   **Path Planning (CRITICAL):** Break down all navigation into very short, verifiable segments (e.g., 3-5 tiles or a single clear corridor section). Before committing to *any* movement segment, however short, I must meticulously consult the map memory (XML) and verify the `navigable="true"` status and `type` of *every single tile* in the intended path. I cannot assume corridors are clear. Focus on identifying and utilizing continuous, verified open corridors, rather than simply aiming for distant coordinates across complex terrain.
