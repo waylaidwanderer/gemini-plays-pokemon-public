@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
 *   **Secondary Goal:** Exit Viridian Forest to the north and reach Pewter City.
-*   **Tertiary Goal:** Re-evaluate low-usage agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`) at next safe opportunity and consider deletion to free up an agent slot.
+*   **Tertiary Goal:** At the next safe opportunity (e.g., Pokémon Center): decisively re-evaluate low-usage agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`, `financial_planner_agent`) for improvement, active use, or deletion. Concurrently, address 'New Agent Ideas' by either defining them (requiring deletion of an existing agent) or formally discarding the ideas. Resolve the status of the noted `direct_pathing_agent`.
 *   **Viridian Forest Note:** All easily accessible trainers in Viridian Forest appear to be either defeated or non-battling. Focus is now on exiting the forest.
 
 # Agent Performance & Development
