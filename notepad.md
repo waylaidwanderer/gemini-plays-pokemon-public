@@ -113,3 +113,6 @@
     *   Turn 3177: From (3,26) to target (17,48), generated a 125-step path. Failed after 5 successful steps when at (5,23) facing Up, attempting to move to (5,22) (impassable).
     *   Turn 3185: From (13,30) to (17,48), path failed after 2 steps. At (12,30) facing Left, system reported blocked move Left, but agent's next planned move was 'Up' to (12,29) (navigable).
     *   Conclusion: Agent is highly unreliable, possibly due to map interpretation errors or issues with path execution logic. Needs urgent investigation/fixing or replacement. Prioritize testing `pathing_script_analyzer_agent` on its underlying script.
+
+# System Interactions & Warnings
+*   **Mixed Button Warning (Turn 3201, likely delayed from Turn 3197/3196):** Received a system warning: "You tried to mix directional and action buttons in the same sequence. To prevent unintended outcomes, your input was modified to only include the first X buttons." Need to ensure button sequences are either all directional or single action/tool calls.
