@@ -160,3 +160,4 @@
     - Define `move_validator_agent` or remove the note.
     - Continue with plan to use `pathing_script_analyzer_agent` on A* script.
 - **NPC Movement:** Be more cautious about assuming NPC positions are static, as Youngster (ID 6) moved and intercepted me.
+- Defeated Youngster (ID 6, VIRIDIANFOREST_YOUNGSTER5) at (15,18) in Viridian Forest (Caterpie Lv6, Metapod Lv6). Gained ¥60. Current money: ¥156. (SPARKY level capped, gained 0 actual EXP).
