@@ -92,8 +92,8 @@
 *   **EXP Note (Level Cap Confirmed):** SPARKY is at the level cap of 12. The game will *display* an EXP gain message for level-capped Pokémon (like SPARKY after the Caterpie battle, Turn 3032), but their actual EXP value *does not change*. This confirms the Hard Mode rule. SPROUT, not being capped, gains EXP normally.
 *   **Critique Lesson (Turn 2626):** Consistently verify path navigability tile-by-tile in Map Memory for any planned route, especially longer ones. Break down manual pathing into shorter, verifiable segments (e.g., 3-5 steps). Prioritize fixing/using pathing agents. Confirm item prices and funds *before* shop visits. Re-evaluate shop menu interaction for quantity adjustments.
 
-*   SPROUT (ODDISH): Lv6 (9/23 HP - CRITICALLY LOW, no status). Current EXP: 234.
-    *   Moves: TACKLE (35 PP), POISONPOWDER (35 PP).
+*   SPROUT (ODDISH): Lv7 (11/25 HP, no status). Current EXP: 248. (Stats: Attack 13, Defense 13, Speed 10, Special 15).
+    *   Moves: TACKLE (23 PP), POISONPOWDER (34 PP).
 
 # Pewter City Navigation Notes
 *   The Pokecenter entrance warp is at (14,26) and its impassable sign is at (15,26). When exiting the Pokecenter (e.g., to (14,27) or (15,27)) and intending to move north, first move horizontally to at least column 16 (e.g., (16,27)) before proceeding north to avoid re-entering the warp or hitting the sign.
