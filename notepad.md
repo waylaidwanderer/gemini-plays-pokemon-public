@@ -120,3 +120,7 @@
 *   **Goal Revisions (Reflected in current JSON output):**
     *   Secondary Goal: Acquire sufficient funds to heal FLAREE and purchase essential supplies.
     *   Tertiary Goal: Gain EXP for non-capped Pokémon and find useful items on Route 3.
+
+# Pewter City Navigation & Events (Continued)
+*   **Dynamic Tile Changes (Continued):**
+    *   Turn 5262: Tile (27,15) changed from impassable to ground.
