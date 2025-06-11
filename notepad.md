@@ -218,3 +218,6 @@
 
 # Lessons Learned from Critiques & Gameplay (Additions)
 - Pathing Near Warps: When pathing near sensitive warps, ensure the movement plan explicitly moves *past* the warp tile if not intending to use it, or detours significantly. Avoid landing on a warp tile if the next intended move is in the warp's activation direction. (Previous note about Turn 10498 and Melanie's House warp was incorrect; no such warp occurred then. Accidental warps have mostly been into Cerulean Gym from (31,20).)
+
+# Agent Development & Usage (Updates)
+*   `cerulean_pathfinder_agent` (Turn 10508): First use provided a flawed path, attempting to move into the Gym Sign obstacle at (28,22) in Cerulean City. Needs review/debugging if future paths also fail to consider basic obstacles.
