@@ -145,17 +145,23 @@
 
 - Cerulean City: The tree at (20,29) (burgled house entrance) requires HM01 Cut.
 
-## Cerulean City Bridge (Route 24 Exit) - Failed Hypotheses
+- Badge House Man (Cerulean Badge House, (6,4)) - Non-battling. Offers badge descriptions.
+
+# Current Location & Strategy Focus
+*   **Current Location:** Cerulean City (ID 3) at (18,17).
+*   **Strategy Focus:** Prioritize exploring 'Reachable Unseen Tiles' as per Game State Information to find exits, particularly towards Route 24 (North) or the burgled house area for Route 5 (South).
+
+# World Knowledge Graph (WKG) Notes
+*   **Best Practice:** Always provide unique string IDs (e.g., 'map_id_node_name_x_y') for nodes and edges when using `manage_world_knowledge` with 'add_node' or 'add_edge'. The system requires an 'id' field in the payload for these operations, and it is not auto-generated if omitted, leading to errors.
+
+# Archived Hypotheses & Learnings
+## Cerulean City Bridge (Route 24 Exit) - Failed Hypotheses (Archived)
 *   Moving North *from* each tile (9,8) through (19,8) does not trigger a map transition.
 *   Moving North *onto* each tile (13,8) through (19,8) from their corresponding Y=9 tiles does not trigger a map transition.
 *   Stepping *onto* each tile (10,8) through (19,8) by moving eastward along Y=8 does not trigger a map transition.
-
-- Stepping *onto* each tile (18,8) through (9,8) by moving westward along Y=8 does not trigger a map transition.
-
-- Moving North from (10,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9858)
-- Moving North from (11,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9861)
-
-- Badge House Man (Cerulean Badge House, (6,4)) - Non-battling. Offers badge descriptions.
+*   Stepping *onto* each tile (18,8) through (9,8) by moving westward along Y=8 does not trigger a map transition.
+*   Moving North from (10,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9858)
+*   Moving North from (11,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9861)
 
 # Current Location & Navigation Plan
 *   **Current Location:** Cerulean City (ID 3) at (10,13).
