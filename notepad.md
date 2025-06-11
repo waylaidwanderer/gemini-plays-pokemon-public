@@ -63,7 +63,7 @@
 *   **Immediate Post-Healing Priority (Complete - Turn 4934):** Defined/updated high-priority agents (scripted_event_tracker, route_progress_analyzer, map_analyzer, exploration_planner) before leaving Pokecenter.
 
 # Pewter Pokecenter Navigation Notes
-*   Persistent collision error reported when attempting to move from (3,4) to (4,4) (Pikachu's tile), citing an object at (5,4) (Cool Trainer F), even if Cool Trainer F is stunned. This occurs despite (5,4) not being on the direct path. NPCs generally block movement onto the tile they occupy. Tile (4,4) (where Pikachu often is) is `navigable="false"` according to map XML. The correct Nurse interaction spot is (4,5).
+*   The tile (4,4) where Pikachu often stands is navigable. The correct Nurse interaction spot is (4,5). A previous note incorrectly stated (4,4) was `navigable="false"`. The persistent collision error previously reported when moving from (3,4) to (4,4) (citing an object at (5,4)) needs further investigation if it recurs, but alternative pathing can bypass it.
 
 # Hindsight & Lessons Learned
 *   **Viridian Forest Navigation:** Avoid planning overly long paths without intermediate checks. Use `move_validator_agent` more proactively for complex paths or break them into smaller, verifiable segments (5-10 steps). Prioritize exploring closer alternatives before committing to extensive backtracking.
