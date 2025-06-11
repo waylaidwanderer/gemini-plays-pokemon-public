@@ -3,11 +3,15 @@
 *   **Secondary Goal:** Acquire sufficient funds (¥) for Potions and train SPROUT (Oddish) to an effective level for the Gym battle by exploring the route east of Pewter City.
 *   **Tertiary Goal:** Systematically explore all 'Reachable Unseen Tiles' in new areas and investigate 'Reachable Undiscovered Map Connections' as they become available.
 
-# Current Strategic Focus
+# Current Strategic Focus & Key Learnings
 *   **Immediate Priority:** Successfully navigate out of Pewter City via the eastern map connection to explore the new route for resources. This is critical as current funds (¥156) and SPROUT's level (Lv7) are insufficient for Brock.
 *   **Resource Gathering:** On any new route, prioritize battling trainers for money and EXP for SPROUT.
 *   **Gym Preparation:** Re-evaluate readiness for Brock after SPROUT is leveled and funds are secured.
-*   **Continuous Learning:** Mark obstacles, learn from pathing failures, and adapt strategies. Utilize `map_analyzer_agent` for complex paths after a few manual attempts fail, especially within Pewter City. Break down agent-provided paths into shorter, validated segments if necessary.
+*   **Youngster Gym Escort Event (Recurring):** Youngster NPC (ID 5) has repeatedly initiated dialogue and forcibly moved the player to the Pewter Gym entrance. His final dialogue is "If you have the right stuff, go take on BROCK!". His position after this event varies (e.g., (18,19) then (36,17)). A robust strategy is needed to bypass his trigger zones or known locations when attempting to exit east.
+*   **Path Execution & Discrepancies:** Errors in translating coordinate paths to button presses or misinterpreting current position can lead to 'unexpected jumps' or perceived XML vs. Screen discrepancies. Trust Game State and XML data as absolute truth over visual interpretations.
+*   **Tile Traversal & Movement Rules:**
+    *   **Ledges:** Confirmed one-way movement. Cannot move UP onto a ledge tile from a tile with a higher Y-coordinate. Example: Blocked from moving Up from (29,31) to ledge at (29,30) in Pewter City.
+*   **Map Tile Changes:** Some map tiles in Pewter City have changed from 'impassable' to 'ground' (e.g., (27,15)-(27,18)) or vice-versa (e.g., (34,20), (35,15)-(35,16), (35,21), (35,22)) during gameplay. The triggers for these changes are unknown and require careful observation.
 
 # Pokémon Center Tasks (Next Visit)
 *   **Heal Pokémon.**
@@ -39,17 +43,10 @@
 *   **Re-validate After Interruptions:** If a validated path fails or is interrupted, DO NOT assume the remainder is valid. Re-validate from the new position or break the remaining path into smaller, individually validated segments.
 *   **Proactive `map_analyzer_agent` Use:** For complex routes or finding paths between known points (especially after a few manual attempts with short segments fail), use `map_analyzer_agent` instead of repeated failed self-plotted paths. Carefully translate its coordinate paths to button presses, possibly validating in chunks.
 *   **Navigable `navigation_goal_coordinates`:** Ensure `navigation_goal_coordinates` always target a navigable tile, not an NPC or impassable tile.
-*   **Map Marker Usage (IMMEDIATE & ABSOLUTE):** *Immediately* mark confirmed dead ends/impassable tiles (🚫), key navigational turns/points (📍), important warps (🚪, with destination), defeated trainers (☠️), and event-triggering/blocking NPCs (❗ or ℹ️) after discovery/use. Essential for spatial understanding. Ensure NPC location markers are updated based on the *latest* Game State Information.
+*   **Map Marker Usage (IMMEDIATE & ABSOLUTE):** *Immediately* mark confirmed dead ends/impassable tiles (🚫), key navigational turns/points (📍), important warps (🚪, with destination), defeated trainers (☠️), and event-triggering/blocking NPCs (❗ or ℹ️) after discovery/use. Ensure NPC location markers are updated based on the *latest* Game State Information.
 *   **Pikachu Interaction:** Account for turning mechanic if moving onto Pikachu's tile from a non-facing direction.
 *   **`navigable="false"` is Absolute:** If XML shows `navigable="false"`, it is IMPASSABLE by player. Trust this attribute explicitly.
 *   **Full Path Execution:** When a multi-step path is validated, provide the *entire* sequence of button presses in the `buttons_to_press` array for that turn. Partial execution leads to path desynchronization and wasted turns.
-
-# Key Learnings (Consolidated)
-*   **Youngster Gym Escort Event (Recurring):** Youngster NPC (ID 5) has repeatedly initiated dialogue and forcibly moved the player to the Pewter Gym entrance. His final dialogue is "If you have the right stuff, go take on BROCK!". His position after this event varies (e.g., (18,19) then (36,17)). Need a strategy to bypass his trigger zones or known locations if trying to exit east.
-*   **Path Execution & Discrepancies:** Errors in translating coordinate paths to button presses or misinterpreting current position can lead to 'unexpected jumps' or perceived XML vs. Screen discrepancies. Trust Game State and XML as truth.
-*   **Tile Traversal & Movement Rules:**
-    *   **Ledges:** Confirmed one-way movement. Cannot move UP onto a ledge tile from a tile with a higher Y-coordinate. Example: Blocked from moving Up from (29,31) to ledge at (29,30) in Pewter City.
-*   **Map Tile Changes:** Some map tiles in Pewter City have changed from 'impassable' to 'ground' (e.g., (27,15)-(27,18)) or vice-versa (e.g., (34,20), (35,15)-(35,16), (35,21), (35,22)) during gameplay. The triggers for these changes are unknown. These changes significantly impact pathing.
 
 # Recent Events (Pewter City - Pathing Focus)
 *   **Current Location:** (28,19) facing Up. Pikachu at (28,20). Super Nerd (ID 3) at (28,18) blocks path North.
