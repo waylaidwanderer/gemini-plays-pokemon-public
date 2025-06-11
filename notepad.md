@@ -104,3 +104,5 @@
 *   Column X=22 has several impassable segments: (22,22), (22,25), (22,26), (22,27). This blocks east-west travel through rows 22, 25, 26, 27 at this column.
 
 - Cool Trainer M (ID 2) at (18,26) in Pewter City is non-battling. (Confirmed Turn 5093).
+
+- Super Nerd (ID 4, PEWTERCITY_SUPER_NERD2) is located at (25,26) in Pewter City, currently facing Right. He blocks movement onto his tile. (Observed Turn 5098)
