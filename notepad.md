@@ -21,8 +21,8 @@
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 
 # Current Location & Navigation Plan
-*   **Current Location:** Cerulean City (ID 3) at (10,10).
-*   **Navigation Plan:** Explore the northern/eastern parts of Cerulean City to find Route 24 and a path towards Vermilion City.
+*   **Current Location:** Cerulean City (ID 3) at (29,28).
+*   **Navigation Plan:** Pick up item at (29,27), then explore the northern/eastern parts of Cerulean City to find Route 24 and a path towards Vermilion City.
 
 # Current Goals
 *   **Primary Goal:** Obtain the Thunder Badge from Lt. Surge in Vermilion City.
@@ -36,6 +36,7 @@
 *   **Segmented Dungeons:** Complex dungeons (e.g., Mt. Moon) have isolated segments per floor, accessed via specific warps. Systematically explore warps.
 *   **1x1 Warps:** Step off and back on if activation is tricky.
 *   Trust game state `reachable: no` for warp/object accessibility.
+*   **Item Pickup:** Items are picked up by facing them and pressing 'A', not by walking onto their tile.
 
 ## Battle Strategy
 *   Precise battle menu navigation. Mind type matchups & PP. Internalize ROM hack type changes.
@@ -100,6 +101,9 @@
 *   Swimmer (ID CERULEANGYM_SWIMMER) at (Cerulean Gym 9,8) - Defeated. Pokémon: Horsea Lv16, Shellder Lv16.
 *   Cool Trainer F (ID 2, CERULEANGYM_COOLTRAINER_F) at (Cerulean Gym 5,4) - Defeated. Pokémon: SEEL Lv19.
 *   Misty (ID 1, CERULEANGYM_MISTY) at (Cerulean Gym 5,3) - Defeated. Pokémon: Psyduck Lv19, Goldeen Lv18, Starmie Lv21.
+## Cerulean City
+*   Cool Trainer F (ID 7, CERULEANCITY_COOLTRAINER_F1) at (Cerulean City 30,27) - Seems to be in a dialogue loop about her Electrode being disobedient (e.g., 'ELECTRODE, SWIFT! No! That's wrong! Training POKéMON is difficult! Your POKéMON's obedience depends on your abilities as a trainer!'). Battle did not properly initiate despite multiple interaction attempts. She is currently blocking the path to the item at (29,27).
+*   BLUE (ID CERULEANCITY_RIVAL) at (Cerulean City 21,7) - Defeated. Pokémon: SPEAROW Lv18, RATTATA Lv15, BELLSPROUT Lv15, EEVEE Lv19.
 
 # Game Mechanics & Discoveries
 
@@ -111,8 +115,6 @@
 *   Poison-type moves are Not Very Effective (NVE) against opposing Poison-type Pokémon (observed: Acid vs Ekans).
 
 # Agent Development & Usage
-## Path Validator Agent
-*   Defined. Should be used for testing path segments, especially in complex areas or before long movements. Need to test its functionality.
 ## Evolution Advisor Agent
 *   Defined. Will be used for evolution decisions (e.g. Moon Stone on NINA/LUNA). Need to test its functionality.
 ## General Agent Usage Notes
@@ -148,8 +150,8 @@
 - Badge House Man (Cerulean Badge House, (6,4)) - Non-battling. Offers badge descriptions.
 
 # Current Location & Strategy Focus
-*   **Current Location:** Cerulean Pokecenter (ID 64) at (4,8).
-*   **Strategy Focus:** Heal Pokémon, then exit and proceed north to Route 24 to find Bill.
+*   **Current Location:** Cerulean City (ID 3) at (29,28).
+*   **Strategy Focus:** Pick up item at (29,27), then explore the northern/eastern parts of Cerulean City to find Route 24 and a path towards Vermilion City.
 
 # Archived Hypotheses & Learnings
 ## Cerulean City Bridge (Route 24 Exit) - Failed Hypotheses (Archived)
@@ -159,13 +161,3 @@
 *   Stepping *onto* each tile (18,8) through (9,8) by moving westward along Y=8 does not trigger a map transition.
 *   Moving North from (10,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9858)
 *   Moving North from (11,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9861)
-
-- BLUE (ID CERULEANCITY_RIVAL) at (Cerulean City 21,7) - Defeated. Pokémon: SPEAROW Lv18, RATTATA Lv15, BELLSPROUT Lv15, EEVEE Lv19.
-
-- BLUE (ID CERULEANCITY_RIVAL) at (Cerulean City 21,7) - Defeated. Pokémon: SPEAROW Lv18, RATTATA Lv15, BELLSPROUT Lv15, EEVEE Lv19.
-
-# Battle Notes vs Cool Trainer F (Cerulean City, ID 7, (30,27))
-- Opponent's first Pokémon: ELECTRODE. Dialogue: "OK! ELECTRODE! Use SONICBOOM! Please ELECTRODE, pay attention!" - suggests disobedience/confusion.
-
-# Battle Notes vs Cool Trainer F (Cerulean City, ID 7, (30,27))
-- Trainer seems to be in a dialogue loop about her Electrode being disobedient ('ELECTRODE, SWIFT! No! That's wrong! Training POKéMON is difficult! Your POKéMON's obedience depends on your abilities as a trainer!'). Battle did not properly initiate despite multiple interaction attempts. She is currently blocking the path to the item at (29,27).
