@@ -85,5 +85,6 @@
 *   Turn Number Correction: Turn 4951 was actually 4952.
 *   Menu Navigation: Investigate issues with Pokémon switching menu sequence. The game seems to process only one button press at a time if it changes the menu state, leading to errors if multiple are queued. Be more methodical with single button presses in complex menus.
 
-# Route 2 Exploration (Turn 5031)
+# Route 2 Exploration (Turn 5047)
 *   Explored northern section of Route 2 (south of Pewter City connection). No trainers found in this area. Funds remain at ¥156.
+*   Explored southern section of Route 2 (north of Viridian City connection, up to VF North Gate). No trainers found in this area either.
