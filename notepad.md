@@ -101,13 +101,21 @@ Previous attempts to find the B1F(22,18) warp or an exit from the current B1F/B2
 *   Cool Trainer F (ID 1, ROUTE4_COOLTRAINER_F1) - Non-battling/defeated. (Numerous attempts failed).
 
 # Key Learnings & Rules
+
+## Navigation & Map Mechanics
 *   NPCs on `navigable: false` tiles are physical obstacles; their tile remains non-navigable.
 *   Ledges: Upward movement onto a ledge from below is prevented, even if `navigable="true"`.
 *   Mt. Moon 1F: (8,19) is impassable, blocking south from (8,18).
 *   **Segmented Dungeons:** Complex dungeons (e.g., Mt. Moon) have isolated segments per floor, accessed via specific warps. Systematically explore warps.
 *   **1x1 Warps:** Step off and back on if activation is tricky (consider Pikachu).
+*   Trust game state `reachable: no` for warp/object accessibility.
+
+## Battle & EXP Mechanics
 *   **EXP at Level Cap:** Pokémon at cap (e.g., BELLA Lv21) gain NO EXP, despite message.
-*   Prioritize healing if party critical. Trust game state `reachable: no`.
+*   Prioritize healing if party critical (outside of strategic sacrifices).
+
+## Type Matchup Discoveries
+*   Poison-type moves are Not Very Effective (NVE) against opposing Poison-type Pokémon (observed: Acid vs Ekans).
 
 # Key Learnings & Rules (Continued)
 *   AI Critique Learnings (Turn 9256): Be more methodical in navigating segmented dungeons. Rigorously cross-reference warp coordinates with destinations/entry points from Game State Info before committing to a path. Disengage from non-progressive NPC dialogue loops sooner. Use `exploration_prioritizer_agent` and `objective_validator_agent` more proactively when uncertain or validating targets.
