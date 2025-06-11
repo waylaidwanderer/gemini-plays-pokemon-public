@@ -176,3 +176,5 @@
 
 # Immediate Tasks
 *   Reach Bill's house on Route 25.
+
+*   TM45 (THUNDER WAVE) x1 - Found on Route 24 at (11,6).
