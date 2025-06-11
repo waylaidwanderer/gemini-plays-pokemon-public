@@ -158,3 +158,12 @@
 
 # SPROUT EXP Update (Turn 4685)
 - SPROUT (Lv11) EXP: 891 -> 952 (gained 61 from Metapod Lv6).
+
+# Viridian Forest Training Log (Turn 4687+)
+- Currently training SPROUT (Lv11) in Viridian Forest.
+
+# New Agent Ideas (Post-Reflection Turn 4687)
+*   `battle_outcome_predictor_agent`: Predicts battle turn outcomes (damage, KO chance, status) based on known Pokémon data, moves, types, and HP. Would aid in optimal fight/switch decisions in Hard Mode. (High Priority)
+*   `full_notepad_organizer_agent`: Takes entire notepad string as input, outputs a reorganized string based on predefined sections/rules. To be used with `overwrite` for major cleanups. (High Priority)
+*   `dynamic_blocker_pathing_agent`: Specialized agent for pathing around dynamic NPC blockers and their trigger zones, potentially a refinement of `scripted_event_tracker_agent`. (Medium Priority)
+*   `hm_usage_advisor_agent`: Once HMs are obtained, an agent to suggest optimal HM usage (e.g., "Cut tree at X,Y to access area Z") considering they are used from the menu. (Medium Priority)
