@@ -235,3 +235,6 @@
 # EXP Tracking (Post-Nugget Bridge Rocket)
 * BELLA (Lv23) gained 85 EXP, now at 9517 EXP.
 * ZAPPY (Lv18) gained 85 EXP, now at 6705 EXP.
+
+# Battle Discoveries & Type Matchups (Ongoing)
+*   **Electric vs. Poison/Flying (Zubat):** Electric-type moves (e.g., Thundershock) are NEUTRAL against Poison/Flying types like Zubat. While Electric is Super Effective against Flying, it is not resisted nor super effective against Poison. The net effect is neutral. (Correction from previous assumption, Turn 10602)
