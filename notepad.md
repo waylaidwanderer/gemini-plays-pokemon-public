@@ -208,7 +208,7 @@
 
 # Gameplay Notes & Strategy (Update)
 ## Financials
-* Current Money: ¥8112 (as of Turn 10498)
+* Current Money: ¥8472 (as of Turn 10553)
 
 # Agent Development & Usage (Updates)
 *   Consider enhancing `exploration_prioritizer_agent` and `objective_validator_agent` to provide high-level pathing hints (e.g., 'approach from west', 'requires upper platform access') if a clear route is discernible, possibly using their `run_code` capability for deeper analysis.
