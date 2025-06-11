@@ -134,3 +134,8 @@
 # Cerulean Gym Navigation Correction
 *   The tile (6,5) directly south of the platform where I fought Misty (e.g. from (6,4)) is WATER and impassable.
 *   **Corrected Exit Path from (6,4) facing Down:** Right (to 7,4), Right (to 8,4), Down (to 8,5), Down (to 8,6), Left (to 7,6), Left (to 6,6), then Down x8 (to 6,7 -> 6,8 -> 6,9 -> 6,10 -> 6,11 -> 6,12 -> 6,13 -> 6,14). Then Down again to use the warp at (6,14).
+
+# Cerulean Melanies House Notes
+*   Melanie (Girl, ID 1) at (4,2) - Non-battling. Dialogue: 'I take care of injured POKéMON. I nursed this BULBASAUR back to health. It needs a good trainer to take care of it now.'
+*   Bulbasaur (ID 2) at (5,2) - Non-battling. Dialogue: 'Bubba! Zoar!'. Was not offered despite Melanie's dialogue, possibly due to full party and no PC prompt triggered.
+*   This house does not appear to be a direct path to Vermilion City based on initial exploration.
