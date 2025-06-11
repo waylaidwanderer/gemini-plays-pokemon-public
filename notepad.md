@@ -60,3 +60,6 @@
 
 # Archived Learnings & Notes (Condensed)
 *   Older battle logs, detailed early game event triggers, specific NPC dialogue not immediately relevant. Repel Mechanics: Lead Pokémon level must be *strictly greater* than wild Pokémon level. `exploration_planner` Misuse: Agent is strictly for 'Reachable Unseen Tiles', not for paths to known, seen tiles.
+
+# Tile Traversal & Movement Rules
+*   **Ledges:** Confirmed one-way movement. Cannot move UP onto a ledge tile from a tile with a higher Y-coordinate. Example: Blocked from moving Up from (29,31) to ledge at (29,30) in Pewter City (Turn 3894).
