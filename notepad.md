@@ -218,7 +218,9 @@
 *   **`direct_pathing_agent` (Needs Investigation):** My notes refer to this agent and its issues (Pikachu on target, turn+move logic). However, it's not currently listed among my 10 defined agents. At the next Pokémon Center: verify if this agent was deleted, never properly defined, or if I'm confusing it with the A* `run_code` script. If it doesn't exist, remove these notes.
 
 # Navigation Strategy & Best Practices
-*   **Path Planning:** Break down navigation into shorter, verifiable segments (e.g., 5-10 steps), especially in complex areas like Viridian Forest. Verify path navigability frequently using map memory before committing to long movements.
+*   **Path Planning:** Break down navigation into shorter, verifiable segments (e.g., 3-5 tiles or 5-10 steps), especially in complex areas like Viridian Forest. Verify path navigability frequently using map memory before committing to long movements.
+*   **Repel Usage:** Ensure Repel is active when navigating dense areas if the intent is to avoid encounters, especially when lead Pokémon are level-capped or not being used for training.
+*   **Map Marker Usage:** Consistently mark defeated trainers, confirmed dead ends, and frequently used warps on the map to aid in long-term spatial understanding and avoid re-exploring fruitless paths.
 *   **Repel Usage:** Ensure Repel is active when navigating dense areas if the intent is to avoid encounters, especially when lead Pokémon are level-capped or not being used for training.
 *   **Map Marker Usage:** Consistently mark defeated trainers, confirmed dead ends, and frequently used warps on the map to aid in long-term spatial understanding and avoid re-exploring fruitless paths.
 *   **Repel Usage:** Ensure Repel is active when navigating dense areas if the intent is to avoid encounters, especially when lead Pokémon are level-capped or not being used for training.
