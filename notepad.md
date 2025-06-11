@@ -159,3 +159,5 @@
 *   Stepping *onto* each tile (18,8) through (9,8) by moving westward along Y=8 does not trigger a map transition.
 *   Moving North from (10,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9858)
 *   Moving North from (11,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9861)
+
+- BLUE (ID CERULEANCITY_RIVAL) at (Cerulean City 21,7) - Defeated. Pokémon: SPEAROW Lv18, RATTATA Lv15, BELLSPROUT Lv15, EEVEE Lv19.
