@@ -224,3 +224,6 @@
 * All 5 trainers on Nugget Bridge (Route 24) defeated.
 * Received NUGGET as a prize from Cool Trainer M (ID 1, ROUTE24_COOLTRAINER_M1) at (12,16).
 * After receiving the NUGGET, the same NPC (Cool Trainer M, ID 1) revealed himself to be a Team Rocket member and attempted to recruit Gem. Dialogue sequence followed, culminating in a battle.
+
+# Battle Discoveries & Type Matchups (Ongoing)
+*   **Stun Spore vs. Ekans (Poison):** BELLA's Stun Spore (Grass-type status) failed against a Lv15 Ekans (Poison) on Route 24 (Team Rocket Grunt). Message: "It didn't affect Enemy EKANS!". This is the second time a Grass-type status move failed with this message (first was Mankey), strongly suggesting Poison-types may be immune to Grass-type status moves in this ROM hack. (Route 24, Turn 10560)
