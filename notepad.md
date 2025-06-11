@@ -21,8 +21,8 @@
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 
 # Current Location & Navigation Plan
-*   **Current Location:** Cerulean Gym (ID 65) at (6,3).
-*   **Navigation Plan:** Exit Cerulean Gym, heal at Pokémon Center, then explore routes towards Vermilion City.
+*   **Current Location:** Cerulean Badge House (ID 230).
+*   **Navigation Plan:** Explore Cerulean City to find a path towards Vermilion City (likely north via Route 24).
 
 # Current Goals
 *   **Primary Goal:** Obtain the Thunder Badge from Lt. Surge in Vermilion City.
