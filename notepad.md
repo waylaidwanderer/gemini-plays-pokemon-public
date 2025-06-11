@@ -105,14 +105,7 @@
 
 - **Pokémon Center Agent Tasks:** Define `advanced_pathfinder_agent`. Use `pathing_script_analyzer_agent` on the existing `run_code` A* script.
 
-*   **`advanced_pathfinder_agent` Failure (Turn 3171 & 3172):** The newly defined `advanced_pathfinder_agent` failed on its first two attempts (from (7,26) in Viridian Forest). Both times it suggested moving 'Down' into tile (7,27), which is impassable. This agent is currently unreliable and requires investigation/fixing.
-*   **`advanced_pathfinder_agent` Failure (Turn 3177):** The agent, called from (3,26) to target (17,48), generated a 125-step path. The path failed after 5 successful steps when the player was at (5,23) facing Up, attempting to move to (5,22), which is an impassable tile. This is the third consecutive failure of this agent, indicating severe issues with its pathing logic or map interpretation.
-
-*   **`advanced_pathfinder_agent` Failures (Turns 3171, 3172, 3177, 3185):** This agent has consistently failed.
-    *   Turns 3171 & 3172: From (7,26) in Viridian Forest, suggested moving 'Down' into impassable tile (7,27).
-    *   Turn 3177: From (3,26) to target (17,48), generated a 125-step path. Failed after 5 successful steps when at (5,23) facing Up, attempting to move to (5,22) (impassable).
-    *   Turn 3185: From (13,30) to (17,48), path failed after 2 steps. At (12,30) facing Left, system reported blocked move Left, but agent's next planned move was 'Up' to (12,29) (navigable).
-    *   Conclusion: Agent is highly unreliable, possibly due to map interpretation errors or issues with path execution logic. Needs urgent investigation/fixing or replacement. Prioritize testing `pathing_script_analyzer_agent` on its underlying script.
+*   **A* Pathing Script (`run_code`) Failures (Pre-Turn 3171):** The A* pathing script, intended for use with `run_code`, had several failures before turn 3171 (e.g., Turn 3097 suggesting a move into an impassable tile). This script's logic requires investigation and fixing using `pathing_script_analyzer_agent`. The `advanced_pathfinder_agent` was never actually defined; references to it were meant for this A* script.
 
 # System Interactions & Warnings
 *   **Mixed Button Warning (Turn 3201, likely delayed from Turn 3197/3196):** Received a system warning: "You tried to mix directional and action buttons in the same sequence. To prevent unintended outcomes, your input was modified to only include the first X buttons." Need to ensure button sequences are either all directional or single action/tool calls.
