@@ -172,3 +172,6 @@
     *   Use `pathing_script_analyzer_agent` on the A* script / `advanced_pathfinder_agent` logic.
     *   Evaluate utility of low-usage agents (`battle_strategist_agent`, `item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `financial_planner_agent`). Refine or delete.
     *   Decide on defining `move_validator_agent` (from above) or remove the note.
+
+# NPC Behavior Update (Turn 3349)
+*   Youngster (ID 1) at (17,44) in Viridian Forest turned from facing Down to facing Left, blocking my intended path. This highlights that NPC facing direction can change, and they can become obstacles.
