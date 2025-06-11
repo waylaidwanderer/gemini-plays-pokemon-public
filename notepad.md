@@ -146,11 +146,7 @@ Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obta
 - Swimmer (ID CERULEANGYM_SWIMMER) at (Cerulean Gym 9,8) - Defeated. Pokémon: Horsea Lv16, Shellder Lv16.
 
 ## Cerulean Gym Mechanics
-*   Cerulean Gym Navigation: All attempted single-tile water crossings have failed. This includes:
-    *   Horizontal jump from (10,5) to (8,5) over water (9,5) - Blocked.
-    *   Hypothesized horizontal bridge from (10,4) to (8,4) over water (9,4) - Blocked.
-    *   Hypothesized vertical jump from (7,2) to (7,4) over water (7,3) - Blocked.
-    *   Hypothesized bridge from (10,6) to (8,6) over water (9,6) - Blocked.
-*   Despite these failures, Misty (5,3) and Cool Trainer F (3,4) are still marked as 'reachable' by the game state.
-*   Reachable unseen tiles (1,6) and (2,6) on the western side remain to be explored.
-*   Current Plan: Explore access to western platforms from the southern edge of the gym.
+*   Cerulean Gym Navigation: All attempts to cross water tiles in the center of the gym (e.g., (9,5), (9,4), (7,3), (9,6)) have failed. These tiles are impassable. Direct water crossings are NOT the solution for navigating this gym.
+*   The 'reachable' status of Misty (5,3) and Cool Trainer F (3,4) implies a standard ground-based path exists, likely involving navigating the perimeter or specific connecting ground tiles.
+*   Reachable unseen tiles (1,6) and (2,6) on the western side remain to be explored once a path to that side is found.
+*   Current Plan: Explore access to western platforms by navigating south along the eastern walkway, then attempting to cross west along the southern edge of the gym.
