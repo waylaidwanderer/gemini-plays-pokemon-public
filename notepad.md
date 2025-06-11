@@ -182,3 +182,11 @@
 
 # Tactical Lessons & Reminders
 *   **Critically Low HP Pokémon:** ZAPPY is at 9/55 HP. Switching ZAPPY in earlier with 25/55 HP against an unacted Ekans was a risky move. Prioritize healing ZAPPY at the next available opportunity (Pokecenter, or if Bill offers healing). Avoid switching critically low HP Pokémon into battle unless absolutely necessary or for a strategic sacrifice.
+
+# Trainer Battle Intel
+## Route 25
+*   Cool Trainer F (Lass, ID 6) at (38,5) - Battle initiated after dialogue "My friend has a cute POKéMON. I'm so jealous!". Sent out ODDISH Lv16.
+
+# Potential Future Agents
+*   Multi-Map Route Planner: For pathfinding across multiple maps using World Knowledge Graph.
+*   Team Composition Advisor: For optimizing party for major battles/gyms.
