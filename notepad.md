@@ -180,3 +180,7 @@
 - Nugget Bridge Bug Catcher 1 at (ROUTE_24 11,31) - Defeated. Pokémon: BUTTERFREE Lv13, BEEDRILL Lv13.
 
 - Lass (Nugget Bridge Cool Trainer F) (ID 6) at (ROUTE_24 11,29) - Defeated. Pokémon: JIGGLYPUFF Lv15, ODDISH Lv15.
+
+# Route 24 - Nugget Bridge Notes
+*   Nugget Bridge is a trainer gauntlet (5 trainers to beat for a prize).
+*   Party Health: ZAPPY (21/53 HP) and ECHO (14/34 HP) are low. Proceeding with caution and strategic switching.
