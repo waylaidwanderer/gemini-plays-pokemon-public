@@ -3,12 +3,10 @@
 *   **Secondary Goal:** Acquire sufficient funds (¥) for Potions and train SPROUT (Oddish) to an effective level for the Gym battle by exploring Route 2 (south of Pewter City).
 *   **Tertiary Goal:** Systematically explore all 'Reachable Unseen Tiles' in new areas and investigate 'Reachable Undiscovered Map Connections' as they become available.
 
-# Current Tactical Plan (Focus: Vulpix Encounter on Route 2)
-1.  **Immediate:** Confirm SPBARKY as active Pokémon.
-2.  **Next:** Use THUNDER WAVE to paralyze Vulpix.
-3.  **Then:** Use THUNDERSHOCK to weaken Vulpix.
-4.  **Finally:** Attempt to catch Vulpix with a POKé BALL.
-5.  **Contingency:** If Vulpix faints SPBARKY, switch to SPROUT and attempt to catch, or run if SPROUT is at risk.
+# Current Tactical Plan
+1.  **Immediate:** Heal SPROUT (and rest of party) at Pewter City Pokémon Center.
+2.  **Next:** Resume training SPROUT on Route 2 by battling wild Pokémon.
+3.  **Contingency:** If SPROUT is at risk of fainting during training, switch to SPBARKY or FLAREE to finish the battle or run. Prioritize SPROUT's EXP gain but not at the cost of fainting.
 
 # Key Learnings & Game Mechanics
 *   **Youngster Gym Escort Event (Recurring & CRITICAL):** Youngster NPC (ID 5, usually at (36,17)) has a scripted event that triggers *precisely at or immediately adjacent to (38,19)* when approached from the west/south-west in eastern Pewter City. He escorts the player to the Pewter Gym entrance (12,19). His final position after the escort can vary (e.g., (36,17) or (18,19) temporarily), but the game state seems to revert him to (36,17) eventually. This event is a major impediment and requires pathing to strictly avoid (38,19) and its immediate vicinity, in addition to his resting spot at (36,17).
