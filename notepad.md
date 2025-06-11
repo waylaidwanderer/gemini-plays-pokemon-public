@@ -119,12 +119,21 @@
 
 *   **New Agent Idea (`move_validator_agent`):** Define an agent that takes a planned path (list of coordinates or button presses) and the `map_xml_string`. It would verify each step against map data (navigability, tile types like ledges/impassable) and output whether the path is valid or identify the first invalid step. This would be invaluable for debugging pathing agents like `advanced_pathfinder_agent` and the A* script.
 
-# Critique Takeaways & Action Plan (Turn 3227)
-- **Absolute Priority:** Heal critically injured Pokémon (SPROUT 8/25 HP) at a Pokémon Center immediately. All other activities (complex navigation, agent testing/fixing, non-essential notepad updates) are secondary until this is achieved.
-- **Navigation Strategy:** When pathing tools fail or in urgent situations, use simple, robust manual navigation with short, verifiable movement sequences. Focus on reaching known safe points or exits.
-- **Agent Management:** Defer all agent development, definition, and testing to safe, non-time-sensitive locations (e.g., Pokémon Center).
-- **Notepad Efficiency:** Consolidate administrative tasks. Be concise. Action or remove old ideas (e.g., `move_validator_agent`, `direct_pathing_agent` status). Re-evaluate necessity of low-usage agents.
-- **Current Turn Count:** 3254. Be mindful of turn count accuracy.
+# Critique Takeaways & Action Plan (Turn 3275)
+- **Absolute Priority:** Heal SPROUT (8/25 HP) at a Pokémon Center. All other activities are secondary.
+- **Navigation Strategy (Viridian Forest Escape):** Use simple, direct manual navigation with short, verifiable segments towards the South Gate. Avoid complex detours or agent experimentation until SPROUT is healed.
+- **Agent Management:**
+    - Defer all agent development, definition, and testing (especially `advanced_pathfinder_agent` and `pathing_script_analyzer_agent`) to safe, non-time-sensitive locations (e.g., Pokémon Center).
+    - Cease using `advanced_pathfinder_agent` for critical navigation until fixed.
+    - Log issues with `direct_pathing_agent` for fixing or deletion later.
+    - Action `move_validator_agent` idea (define or discard) when safe.
+    - Review utility of low-usage agents when safe.
+- **Notepad Efficiency:**
+    - Consolidate administrative tasks and be concise.
+    - Summarize repeated agent failures instead of logging each instance.
+- **Key Learnings:**
+    - Repel Hypothesis (Confirmed by critique): Lead Pokémon's level must be *strictly greater* than wild Pokémon's level for Repel to be effective in this ROM hack.
+- **Current Turn Count:** 3275. Be mindful of turn count accuracy.
 
 # Repel Mechanics (New Hypothesis - Turn 3247)
 *   Repel may require the lead Pokémon's level to be **strictly greater** than the wild Pokémon's level to be effective. 
