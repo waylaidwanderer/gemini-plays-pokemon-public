@@ -243,14 +243,13 @@
 *   Badges: Boulder Badge, Cascade Badge
 *   Pokedex: 11/151 (Target: Complete)
 
-# Current Team (Update - SKYLER caught, will go to PC)
+# Current Team
 *   BELLA (GLOOM Lv23): (57/75 HP, EXP: 9517) | Moves: STUN SPORE (28 PP), ACID (28 PP), LEECH SEED (8 PP), ABSORB (25 PP)
 *   ZAPPY (PIKACHU Lv18): (53/53 HP, EXP: 6705) | Moves: THUNDERSHOCK (29 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (19 PP)
 *   NINA (NIDORAN♀ Lv13): (38/38 HP, EXP: 1322) | Moves: GROWL (40 PP), DOUBLE KICK (30 PP), POISON STING (35 PP), BITE (25 PP)
 *   ECHO (ZUBAT Lv13): (34/34 HP, EXP: 2220) | Moves: LEECH LIFE (25 PP), SUPERSONIC (20 PP), GUST (35 PP), BITE (25 PP)
 *   LUNA (CLEFAIRY Lv11): (37/37 HP, EXP: 1268) | Moves: POUND (35 PP), GROWL (40 PP), WATER GUN (25 PP), MEGA PUNCH (20 PP)
 *   SIR (PARAS Lv13): (3/34 HP, EXP: 2484) | Moves: STUN SPORE (29 PP), ABSORB (25 PP), LEECH LIFE (25 PP), POISONPOWDER (35 PP)
-*   SKYLER (PIDGEY Lv12): (Caught, will be sent to PC)
 
 # Immediate Tasks
 *   Heal SIR (Paras) at Cerulean Pokecenter (critical HP: 3/34).
