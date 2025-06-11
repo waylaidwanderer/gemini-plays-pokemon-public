@@ -105,3 +105,26 @@
 *   Perform a full review and cleanup of the notepad. Consolidate duplicated entries (especially for party Pokémon and agent ideas). Reorganize sections for better clarity and remove obsolete information. The 'replace' function for notepad_edit is unreliable without being able to see the full notepad, so a full overwrite or careful sectional replacement will be needed.
 
 - Tile (19,21) in Viridian Forest is impassable (confirmed Turn 4525, blocked southward movement from (19,20)).
+
+# Notepad Maintenance Plan (Post-Reflection)
+*   Consolidate SPROUT's party entry to reflect only the latest status, removing older/duplicate entries.
+*   Verify and remove any remaining duplicated 'Agent Ideas Brainstorm' sections.
+*   Merge fragmented chronological sections (e.g., 'Route 2 Encounters', 'Pewter City Navigation Saga') into a more coherent 'Journey Log' or 'Key Events' section.
+*   Refine the 'Party Updates' section to only note significant changes (level-ups, new moves, KOs) rather than full repeated status.
+*   Ensure 'Viridian Forest Navigation Notes' about impassable tiles are concise and perhaps integrated into a general 'Map Discoveries/Obstacles' section.
+*   Prioritize agent management notes (updates, deletions, new definitions) for when a functional PC is found.
+
+# New Agent Ideas (Post-Reflection)
+*   `battle_outcome_predictor_agent`: Predicts battle turn outcomes (damage, KO chance, status) based on known Pokémon data, moves, types, and HP. Would aid in optimal fight/switch decisions in Hard Mode. (High Priority)
+*   `npc_blocker_pathing_agent`: Specialized agent for pathing around dynamic NPC blockers and their trigger zones, potentially a refinement of `scripted_event_tracker_agent`. (Medium Priority)
+
+# Agent Prompt Review Checklist (Post-Reflection)
+*   For all existing and future agents, especially those with `agent_can_run_code: true`:
+    *   Verify prompt clearly instructs how to use `map_xml_string` if relevant (and not to expect it as direct input if auto-provided to `run_code`).
+    *   Ensure prompt includes necessary game context: Pokémon Yellow Legacy, Hard Mode rules, current progression (badges, level cap), if crucial for the agent's task.
+    *   Check for strict `navigable="true"` enforcement in pathing agents.
+    *   Ensure pathing agents can handle or suggest breaking down long paths into segments.
+
+# Post-Battle Map Marker Reminders (Viridian Forest)
+*   Mark all defeated trainers with ☠️ (Youngster at (28,34), Youngster at (15,18), Bug Catcher at (28,20), Bug Catcher at (3,19)).
+*   Mark recently discovered impassable tiles (e.g., (19,21), (11,27), (13,31)) with 🚫 if not already marked.
