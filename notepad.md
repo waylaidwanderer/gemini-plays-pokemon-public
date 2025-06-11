@@ -102,3 +102,6 @@
     *   Low-Usage Agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`): **Update prompts** with full game context (Hard Mode, level caps, current progression, specific ROM hack changes if known) or **delete** if still not useful after prompt improvements.
     *   `pathing_script_analyzer_agent`: **Delete** (confirmed not relevant).
     *   `advanced_pathfinder_agent` / `direct_pathing_agent`: **Verify existence and delete** if found and unused.
+
+*   `pikachu_aware_move_translator_agent`: **Define** (Medium Priority). Input: Player position, facing, Pikachu position, intended next coordinate. Output: Exact button presses needed, accounting for the double-press turn mechanic if moving onto Pikachu's tile from a non-facing direction.
+*   `move_validator_agent` prompt (under Existing Agent Updates): **CRITICAL UPDATE** - Instruct agent to explicitly cross-verify its simulated path against both `navigable` AND `type` attributes in the `map_xml_string` for *every step*. If it finds a discrepancy (e.g., simulation is fine but XML says tile is `impassable` or `navigable=\"false\"`), it MUST report `is_valid: false` and cite the XML as the reason. This might help catch issues like the (23,24) impassable tile it missed previously.
