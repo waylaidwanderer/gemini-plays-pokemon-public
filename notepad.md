@@ -144,3 +144,8 @@
 *   Bike Shop Clerk at (7,3) offers a BICYCLE for ¥1,000,000.
 
 - Cerulean City: The tree at (20,29) (burgled house entrance) requires HM01 Cut.
+
+## Cerulean City Bridge (Route 24 Exit) - Failed Hypotheses
+*   Moving North *from* each tile (9,8) through (19,8) does not trigger a map transition.
+*   Moving North *onto* each tile (13,8) through (19,8) from their corresponding Y=9 tiles does not trigger a map transition.
+*   Stepping *onto* each tile (10,8) through (19,8) by moving eastward along Y=8 does not trigger a map transition.
