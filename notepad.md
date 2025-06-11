@@ -222,3 +222,6 @@
 
 # NPC Behavior Update (Turn 3418 - Viridian City)
 *   Youngster (ID 1) moved from (10,22) to (11,23) facing right. This NPC is proving very difficult to pin down for a battle.
+
+# NPC Behavior Update (Turn 3420 - Viridian City)
+*   Youngster (ID 1) has moved *again*, now to (9,20) facing up. He was previously at (10,23). This is becoming a real chase.
