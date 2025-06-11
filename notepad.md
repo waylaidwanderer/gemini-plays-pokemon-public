@@ -225,7 +225,7 @@
     *   Evaluated low-usage agents. Deleted `battle_strategist_agent`. Others need decisive re-evaluation: `item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`, `financial_planner_agent`. Improve, use, or delete.
     *   `NPC_interaction_planner_agent` defined. Consider creating `run_code` script for Repel effectiveness later.
     *   Test `npc_interaction_planner_agent` on Cool Trainer M (5,4).
-    *   **Resolve `direct_pathing_agent` Status:** Verify if this agent was deleted, never properly defined, or if I'm confusing it with the A* `run_code` script. If it doesn't exist, remove notes about it. If it does, analyze and decide on its future (fix/delete).
+    *   **Resolve `direct_pathing_agent` Status (CRITICAL):** Verify if this agent was deleted, never properly defined, or if I'm confusing it with the A* `run_code` script. My notes refer to this agent and its issues (Pikachu on target, turn+move logic), but it's not currently listed among my 10 defined agents. At the next Pokémon Center: investigate this thoroughly. If it doesn't exist or was a misremembered name for the A* script, remove these notes. If it *was* a distinct agent that got deleted or was faulty, document this clearly.
     *   **Address 'New Agent Ideas':** Make decisions on defining (requires deletion of existing agent) or discarding these ideas.
 *   **Financial Planning:**
     *   Current funds: ¥156. Potions cost ¥200. Need at least ¥44 more for one Potion.
