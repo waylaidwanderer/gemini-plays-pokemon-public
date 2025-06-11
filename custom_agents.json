@@ -23,14 +23,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommend_learning_tm\":{\"type\":\"boolean\"},\"recommended_pokemon_to_learn\":{\"type\":\"string\",\"nullable\":true},\"move_to_forget\":{\"type\":\"string\",\"nullable\":true,\"description\":\"Name of the move to replace IF recommend_learning_tm is true AND the Pokémon already has 4 moves. Null otherwise, or if the TM is simply added to an open slot.\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommend_learning_tm\",\"reasoning\"]}",
     "agent_can_run_code": false
   },
-  "trainer_data_logger_agent": {
-    "agent_name": "trainer_data_logger_agent",
-    "agent_description": "Logs defeated trainer data (name, map, coordinates, Pokémon) into a formatted string for easy notepad insertion.",
-    "agent_system_prompt": "You are a Trainer Data Logger. You will receive the trainer's name, the map name, their coordinates (x, y), and a list of Pokémon they used (if known, with name, level, type1, type2). Your task is to output a single string, formatted for easy appending to a notepad under a 'Trainer Battle Intel' section. The format should be: '- [Trainer Name] (ID [Trainer ID], if available, otherwise omit ID part) at ([Map Name] X,Y) - Defeated. Pokémon: [Comma-separated list of Pokémon names with levels, e.g., POKEMON1 LvXX, POKEMON2 LvYY].' If Pokémon list is empty/unknown, omit the 'Pokémon:' part. Ensure the map name and coordinates are included correctly.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"trainer_name\":{\"type\":\"string\"},\"trainer_id\":{\"type\":\"string\",\"nullable\":true,\"description\":\"Sprite ID of the trainer, if known.\"},\"map_name\":{\"type\":\"string\"},\"coordinate_x\":{\"type\":\"integer\"},\"coordinate_y\":{\"type\":\"integer\"},\"defeated_pokemon_list\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"}},\"required\":[\"name\",\"level\"]},\"nullable\":true,\"description\":\"List of Pokémon the trainer used. Null or empty if unknown.\"}},\"required\":[\"trainer_name\",\"map_name\",\"coordinate_x\",\"coordinate_y\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"formatted_log_entry\":{\"type\":\"string\"}},\"required\":[\"formatted_log_entry\"]}",
-    "agent_can_run_code": false
-  },
   "exploration_prioritizer_agent": {
     "agent_name": "exploration_prioritizer_agent",
     "agent_description": "Analyzes the current map (`map_xml_string`) to prioritize exploration targets. Considers reachable unseen tiles, reachable unvisited warps, and reachable undiscovered map connections. Outputs a ranked list of suggestions. (Can run Python code)",
