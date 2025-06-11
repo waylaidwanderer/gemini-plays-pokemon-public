@@ -202,3 +202,19 @@
 - Resource Management: Protracted battles against single Pokémon (e.g., Pidgey on R24) can severely deplete party resources. Re-evaluate strategy if a battle drags on and consider retreating to heal sooner, especially in a gauntlet.
 - Accuracy Debuffs (e.g., Sand-Attack): Stacked accuracy debuffs are extremely detrimental. Consider switching out debuffed Pokémon sooner, even if it means taking a hit on a fresh Pokémon. Moves with <100% base accuracy become highly unreliable.
 - Critical Agent Evaluation: While agents provide valuable advice, critically evaluate their recommendations, especially if they rely on unconfirmed assumptions (e.g., speed tiers) or if following their advice repeatedly leads to unfavorable situations (e.g., due to persistent debuffs not fully accounted for by the agent's initial assessment).
+
+# Route 24 - Nugget Bridge Notes (Update)
+* Nugget Bridge Challenge completed. Received Nugget as prize.
+
+# Gameplay Notes & Strategy (Update)
+## Financials
+* Current Money: ¥8112 (as of Turn 10498)
+
+# Future Agent Ideas (Additions)
+- Pathfinding Agent for Complex Maps: Takes map_xml, player_pos, target_coords (unseen tile/warp), and game_state_sprites. Outputs button sequence, considering Pikachu.
+
+# Agent Development & Usage (Updates)
+*   Consider enhancing `exploration_prioritizer_agent` and `objective_validator_agent` to provide high-level pathing hints (e.g., 'approach from west', 'requires upper platform access') if a clear route is discernible, possibly using their `run_code` capability for deeper analysis.
+
+# Lessons Learned from Critiques & Gameplay (Additions)
+- Pathing Near Warps: When pathing near sensitive warps, ensure the movement plan explicitly moves *past* the warp tile in the same sequence if not intending to use it. Short plans can lead to unintended warps if the last step lands on one (e.g., Turn 10498 accidental warp to Melanie's House).
