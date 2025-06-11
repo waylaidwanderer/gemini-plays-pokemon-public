@@ -103,3 +103,6 @@
 
 # Pewter City Navigation Saga (Continued)
 *   Turn 4192: Attempt to move Down from (14,32) to (14,33) in Pewter City was blocked as tile (14,33) is impassable. Required re-routing to reach southern exit.
+
+# Potential Money Sources
+*   Investigate Youngster NPC on Route 1 (approx. (6,27)) for a potential unought battle to earn money.
