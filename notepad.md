@@ -45,7 +45,12 @@
 
 ## ROM Hack Specifics
 *   **General:** Old Rod (Viridian Mart), HMs forgettable/menu use, TMs repurchasable, Trade evos by level.
-*   **Type Matchups (CRITICAL - Needs Ongoing Verification):** Ghost (Special) SE vs Psychic. Bug no longer SE vs Poison (Hypothesis - needs verification). Grass 0.25x vs Poison/Flying. Poison NVE vs Zubat. (Removed speculative 'Bug SE vs Poison' pending verification).
+*   **Type Matchups (CRITICAL - Needs Ongoing Verification):**
+  - Ghost (Special) SE vs Psychic.
+  - Poison SE vs Bug (Observed: BELLA's Acid (Poison) SE vs Lv13 Butterfree (Bug/Flying) on Route 24).
+  - Bug NVE vs Poison (Strongly hypothesized: Beedrill's Pin Missile (Bug) NVE vs ECHO (Poison/Flying) on Route 24).
+  - Grass 0.25x vs Poison/Flying.
+  - Poison NVE vs Poison (Observed: Acid vs Ekans, and likely applies to Zubat which is Poison/Flying).
 *   **Stat Boosts:** Pikachu, Farfetch’d, Venomoth, Onix.
 *   **Level Caps:** Brock (Onix Lv12 -> Cap 12), Misty (Starmie Lv21 -> Cap 21), Lt. Surge (Raichu Lv28 -> Player Cap 24).
 
