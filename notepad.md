@@ -163,3 +163,6 @@
 - BLUE (ID CERULEANCITY_RIVAL) at (Cerulean City 21,7) - Defeated. Pokémon: SPEAROW Lv18, RATTATA Lv15, BELLSPROUT Lv15, EEVEE Lv19.
 
 - BLUE (ID CERULEANCITY_RIVAL) at (Cerulean City 21,7) - Defeated. Pokémon: SPEAROW Lv18, RATTATA Lv15, BELLSPROUT Lv15, EEVEE Lv19.
+
+# Battle Notes vs Cool Trainer F (Cerulean City, ID 7, (30,27))
+- Opponent's first Pokémon: ELECTRODE. Dialogue: "OK! ELECTRODE! Use SONICBOOM! Please ELECTRODE, pay attention!" - suggests disobedience/confusion.
