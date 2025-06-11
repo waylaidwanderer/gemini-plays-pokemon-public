@@ -1,65 +1,50 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Gain EXP for FLAREE in Viridian Forest. Earn funds for Potions/Poké Balls on Route 2 / in Pewter City.
+*   **Secondary Goal:** Gain EXP for FLAREE. Earn funds for Potions/Poké Balls (target: Route 2 / Pewter City).
 *   **Tertiary Goal:** Reach Pewter City.
 
-# Key Learnings & Game Mechanics
-*   **Youngster Gym Escort Event (Pewter City):** Youngster NPC (ID 5, usually at (36,17)) triggers escort at/near (38,19) from west/south-west. Avoid trigger zone.
-*   **Path Execution:** Full validated button sequences for path segments MUST be provided in one turn.
-*   **Map Tile Changes (Pewter City):** Various tiles changed type. Triggers unknown.
+# Game Mechanics & Strategy
 *   **Ledge Mechanics:** One-way (downwards only). Cannot move UP onto a ledge from a lower Y.
-*   **NPC Blockers (Pewter City):** Youngster (ID 5) at (36,17), Super Nerd (ID 3) at (28,18) make their tiles non-navigable.
-*   **Data Trust:** Game State Information is absolute truth.
 *   **Movement Mechanic:** 1st press TURNS if not facing, 2nd press MOVES. (Pikachu rule is separate).
-*   **Blocked Movement Message:** Refers to tile player *ends up facing* after a move/turn.
 *   **Level Cap:** 0 badges = Lv12. EXP gain stops at cap. Wild battles give no money.
-
-# Navigation Strategy & Best Practices
-*   **Proactive Agent Use:** Use `map_analyzer_agent` for complex routes.
-*   **Segmented & Validated Paths:** Break long paths, validate with `move_validator_agent`, execute full segment.
-*   **Meticulous Tile Verification:** Check `navigable="true"` and `type` in XML.
+*   **Data Trust:** Game State Information is absolute truth.
+*   **Pathing:** Validate agent paths with `move_validator_agent` or use short, verifiable segments.
 *   **Map Marker Usage:** 🚫 (dead ends/impassable), 📍 (nav points), 🚪 (used warps), ☠️ (defeated trainers), ❗/💁 (event NPCs/blockers), 🚧 (ledges).
+*   **Battle Strategy:** Use `select_battle_option` tool for main battle menu. Remember to switch Pokémon for EXP distribution (e.g., lead with lower level Pokémon like FLAREE).
 
-# Pokémon Center Tasks (DEFERRED until functional PC found)
-*   **Agent Management (CRITICAL - ON HOLD):**
-    *   Verify Active Agent List.
-    *   **Define/Update/Delete Agents (DECIDE & IMPLEMENT/DISCARD - ON HOLD):**
-        *   `scripted_event_tracker_agent`: **Define** (High Priority).
-        *   `route_progress_analyzer_agent`: **Define** (High Priority).
-        *   `map_tile_change_correlator_agent`: **Define if possible** (Medium Priority).
-        *   `battle_outcome_predictor_agent`: **Define** (High Priority).
-        *   `full_notepad_organizer_agent`: **Define** (High Priority).
-        *   `dynamic_blocker_pathing_agent`: **Define** (Medium Priority).
-        *   `hm_usage_advisor_agent`: **Define** (Medium Priority, for later).
-        *   `map_analyzer_agent` prompt: **CRITICAL UPDATE** - Emphasize `navigable="true"`, segmented paths.
-        *   `npc_interaction_planner_agent` prompt: Update for path to interaction spot.
-        *   `exploration_planner_agent` prompt: Update for strict navigability, ledge handling, direct pathing to known coords if no unseen.
-        *   Low-Usage Agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`): **Update prompts** or **delete**.
-        *   `advanced_pathfinder_agent` / `direct_pathing_agent`: Verify existence and delete if found/unused. Remove references from notepad if confirmed non-existent.
-
-# Inventory & Finances
-*   POKé BALL x1
-*   Money: ¥156
-
-# Pokedex Status
-*   Caught: 3/151 (PIKACHU, ODDISH, VULPIX)
-
-# Party Updates (Latest)
-*   SPROUT (ODDISH): Lv12 (33/37 HP, EXP: 973) | Moves: TACKLE, POISONPOWDER, LEECH SEED (Level Cap Reached)
-*   SPBARKY (PIKACHU): Lv12 (39/39 HP, EXP: 1728) | Moves: THUNDERSHOCK, TAIL WHIP, QUICK ATTACK, THUNDER WAVE (Level Cap Reached)
+# Party Updates (Latest - Post Turn 4734 Kakuna Battle)
+*   SPROUT (ODDISH): Lv12 (33/37 HP, EXP: 973) | Moves: TACKLE (30 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP) (Level Cap Reached)
+*   SPBARKY (PIKACHU): Lv12 (39/39 HP, EXP: 1728) | Moves: THUNDERSHOCK (30 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP) (Level Cap Reached)
 *   FLAREE (VULPIX): Lv7 (15/24 HP, EXP: 411) | Moves: EMBER (22 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP)
 
 # Key Journey Events & Map Discoveries
+*   **Viridian Forest Training (Current):** SPROUT reached Lv12 cap. FLAREE gaining EXP from wild battles. Navigating towards northern exit.
 *   **Pewter City Navigation:** Repeatedly blocked by Youngster escort event and dynamic tile changes. Learned to use `map_analyzer_agent` and validate paths. Pewter PC non-functional.
 *   **Route 2:** Caught FLAREE (Vulpix). Navigated ledges.
-*   **Viridian Forest:** Trained SPROUT to Lv12. Defeated Bug Catchers & Youngsters. Encountered several non-battling NPC blockers. Noted impassable tiles: (9,27), (11,27), (13,31), (19,21), (25,17), (27,18 sign), (28,45), (29,21), (15,47), (17,33 sign), (16,32).
+*   **Viridian Forest (Previous):** Trained SPROUT to Lv12. Defeated Bug Catchers & Youngsters. Encountered several non-battling NPC blockers. Noted impassable tiles: (9,27), (11,27), (13,31), (19,21), (25,17), (27,18 sign), (28,45), (29,21), (15,47), (17,33 sign), (16,32), (20,36), Youngster (ID1) at (17,44) is a blocker.
 *   **Viridian City Pokecenter Navigation:** Multiple attempts to reach Pokecenter due to ledges and impassable walls. Eventually succeeded.
-*   **Pathing Issues:** `map_analyzer_agent` path to Viridian Pokecenter was flawed or incompletely executed. `exploration_planner_agent` failed to path to known exit (Turn 4698).
-*   **Current Location:** Viridian Forest (16,33), blocked trying to move to (16,32 - impassable).
 
-# Notepad Strategy
-*   Use `append` for new info. Use `overwrite` for full cleanups when feasible and content is prepared.
+# Agent & Pathing Notes
+*   **`map_analyzer_agent` Issues:** Provided flawed paths multiple times (e.g., Turn 4706 to Viridian Pokecenter, Turn 4707 in Viridian Forest to (20,36), Turn 4707 path to (2,1)). Paths need strict validation (use `move_validator_agent`) or execution in smaller, verifiable segments. Prompt needs update (navigability, warps).
+*   **`exploration_planner_agent` Limitation:** Failed to path to known exit when no unseen tiles (Turn 4698). Prompt needs update for direct pathing scenarios.
+*   **Youngster Gym Escort Event (Pewter City):** Youngster NPC (ID 5, usually at (36,17)) triggers escort at/near (38,19) from west/south-west. Avoid trigger zone.
 
-# Pathing & Agent Notes (Post-Turn 4707)
-*   `map_analyzer_agent` provided another flawed path from (16,33) towards (2,1) in Viridian Forest (Turn 4706 path execution failed at (19,36) to (20,36) due to impassable tile). Agent paths need careful validation or execution in smaller, verifiable segments. Consider using `move_validator_agent` for agent-generated paths if complex.
-*   **Reminder:** Change party order to lead with FLAREE (Lv7) to maximize EXP gain towards secondary goal, especially in Viridian Forest or before anticipated battles. Do this at the next safe opportunity (e.g., menu access before moving to a new area).
+# Agent Management Plan (Next PC Visit)
+*   **High Priority Agents to Define/Update:**
+    *   `scripted_event_tracker_agent`: Define.
+    *   `route_progress_analyzer_agent`: Define.
+    *   `battle_log_analyzer_agent`: Define (New Idea: Parses battle text into structured summary).
+    *   `notepad_query_agent`: Define (New Idea: Searches notepad for specific info).
+    *   `map_analyzer_agent`: Critical prompt update (enforce `navigable="true"`, warp handling, check markers/NPCs).
+    *   `exploration_planner_agent`: Prompt update (direct pathing if no unseen tiles & target provided).
+*   **Medium Priority Agents to Review/Update/Delete:**
+    *   Low-usage agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`): Review prompts for Hard Mode relevance or delete.
+    *   `hm_usage_advisor_agent`: Define (for later game).
+*   Consolidate all agent idea notes from other sections here.
+
+# Inventory & Finances
+*   POKé BALL x1
+*   Money: ¥156 (Critically Low)
+
+# Pokedex Status
+*   Caught: 3/151 (PIKACHU, ODDISH, VULPIX)
