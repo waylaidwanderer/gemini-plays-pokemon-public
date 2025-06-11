@@ -201,3 +201,6 @@
 *   **Financial Planning:**
     *   Current funds: ¥156. Potions cost ¥200. Need at least ¥44 more for one Potion.
     *   Investigate money-making opportunities after healing (e.g., re-battlable trainers if they exist in this ROM hack, or un-fought trainers).
+
+# Agent Management Update (Turn 3404 - Viridian City)
+*   Successfully defined `move_validator_agent`. This brings the total active agents to 10 (the maximum allowed).
