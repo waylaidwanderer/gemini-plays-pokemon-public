@@ -72,3 +72,7 @@
 *   **Path Execution Failure (Turn 3925):** Attempted a 29-step validated path from (22,17) to (40,18). Provided only 11 buttons (`["Down","Down","Down","Right","Right","Right","Right","Right","Right","Up","Up"]`). Expected to reach (27,18) facing Up. However, game state after execution was (28,19) facing Up, with movement blocked trying to go Up from there (blocked by Super Nerd at (28,18)).
 *   **Analysis:** The screen log showed player moved from (22,19) Right 6 times to (28,19), then turned Up. This means my button list effectively became D,D,D, R(turn), R,R,R,R,R,R (6 moves), U(turn). This was 11 buttons. The key learning is that there was a mismatch between my intended path segmentation and what the game executed, or how I counted the button presses in my list versus the validated path's structure. The rule about providing the *entire* validated path's button sequence in one turn is critical and was violated.
 *   **Current Position:** (28,19) facing Up. Super Nerd at (28,18) blocks forward movement.
+
+# Map Changes & Pathing Issues (Turn 3929)
+*   **Unexpected Tile Change:** Tile (34,20) in Pewter City changed from 'ground' to 'impassable' while I was at (33,20), aborting my movement. This blocked my planned path along row 20 to the east.
+*   **Current Position:** (33,20) facing Right. Pikachu at (32,20).
