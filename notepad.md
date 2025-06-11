@@ -228,3 +228,10 @@
 
 # Reflection & Strategy Adjustments (Turn 3558+)
 *   **Viridian Forest Navigation (CRITICAL INEFFICIENCY):** My navigation in Viridian Forest has been highly inefficient, characterized by attempting long, unverified paths leading to repeated encounters with impassable tiles and significant backtracking (e.g., turns 3512-3540). I MUST be more disciplined in planning very short, verifiable path segments (3-5 tiles), meticulously consulting map memory before each segment. This is a top priority for improvement.
+
+# Critique Takeaways & Action Plan (Turn 3575+)
+- **Viridian Forest Navigation (CRITICAL INEFFICIENCY - REPEATED FAILURES):** My navigation in Viridian Forest continues to be extremely inefficient. I am still making overly ambitious, unverified pathing attempts that lead to predictable encounters with impassable tiles and significant backtracking. I MUST adhere to the following with absolute discipline:
+    - **Meticulous Tile-by-Tile Verification:** Before committing to *any* movement segment, however short, I must meticulously consult the map memory (XML) and verify the `navigable="true"` status and `type` of *every single tile* in the intended path. I cannot assume corridors are clear.
+    - **Focus on Continuous Open Corridors:** My path planning must prioritize identifying and utilizing continuous, verified open corridors, rather than simply aiming for distant coordinates across complex terrain.
+    - **Shorter, Verifiable Segments (REINFORCED):** I must consistently break down all navigation into very short, verifiable segments (e.g., 3-5 tiles or a single clear corridor section). This is not optional.
+- This self-correction needs to be added to 'Reflection & Strategy Adjustments (Turn 3558+)' and 'Navigation Strategy & Best Practices' for consolidation.
