@@ -143,3 +143,8 @@
 *   Tile (28,45) in Viridian Forest is impassable (blocked downward movement from (28,44)).
 *   **Blocked Movement Message Interpretation:** Game warnings about being 'blocked' when moving seem to refer to the *next* tile in the direction the player *ends up facing* after a move/turn, not necessarily the tile targeted if a turn was the first part of the input.
 *   **New Agent Idea:** `full_notepad_organizer_agent` - Takes entire notepad string as input, outputs a reorganized string based on predefined sections/rules. To be used with `overwrite` for major cleanups.
+
+# Tactical Notes (Post-Critique Turn 4601)
+- SPROUT (Lv11) has critical HP (14/35). Must prioritize healing at a Pokémon Center after this battle. Avoid using SPROUT in combat until healed.
+- Current funds (¥156) are critically low. Need to find a way to earn money for Potions and Poké Balls soon.
+- Map markers for defeated trainers and impassable tiles must be placed immediately after discovery/event.
