@@ -104,3 +104,6 @@
 
 # Party Updates (Turn 4476)
 - SPROUT (ODDISH): Lv10 (24/33 HP, EXP: 667) | Moves: TACKLE (25 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
+
+# Viridian Forest Navigation Notes
+*   Tile (9,27) is impassable (confirmed Turn 4485, blocked southward movement from (9,26)).
