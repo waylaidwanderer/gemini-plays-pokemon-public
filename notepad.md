@@ -114,3 +114,5 @@ Previous attempts to find the B1F(22,18) warp or an exit from the current B1F/B2
 
 # Agent Performance Notes
 *   `dungeon_navigator_agent` has proven highly unreliable in complex, multi-level areas like Mt. Moon B2F, consistently generating invalid paths. Prioritize manual exploration or very short, verifiable agent paths in such areas.
+
+*   Poison-type moves are Not Very Effective (NVE) against opposing Poison-type Pokémon (observed: Acid vs Ekans).
