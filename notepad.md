@@ -235,3 +235,5 @@
     - **Focus on Continuous Open Corridors:** My path planning must prioritize identifying and utilizing continuous, verified open corridors, rather than simply aiming for distant coordinates across complex terrain.
     - **Shorter, Verifiable Segments (REINFORCED):** I must consistently break down all navigation into very short, verifiable segments (e.g., 3-5 tiles or a single clear corridor section). This is not optional.
 - This self-correction needs to be added to 'Reflection & Strategy Adjustments (Turn 3558+)' and 'Navigation Strategy & Best Practices' for consolidation.
+
+*   **Agent-Assisted Pathing (Backup):** If manual pathfinding continues to be problematic, consider using `map_analyzer_agent` to explicitly request a path to the desired destination (e.g., 'Find path to Viridian Forest North Exit').
