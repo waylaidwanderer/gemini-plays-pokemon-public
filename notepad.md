@@ -79,3 +79,8 @@
 *   **Existing Agent Review (Action: Review/Update Prompt or Delete):**
     *   `leveling_training_advisor_agent`: Review prompt for Hard Mode relevance (trainer battlability caution, wild grinding focus).
     *   `team_builder_agent`: Review prompt for Hard Mode relevance (no items, set mode, level caps).
+
+# Party & Gameplay Notes (Post-Turn 4994)
+*   Current Party Order: SPARKY (lead), FLAREE, SPROUT.
+*   Turn Number Correction: Turn 4951 was actually 4952.
+*   Menu Navigation: Investigate issues with Pokémon switching menu sequence. The game seems to process only one button press at a time if it changes the menu state, leading to errors if multiple are queued. Be more methodical with single button presses in complex menus.
