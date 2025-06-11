@@ -65,18 +65,20 @@
 # Pewter Pokecenter Navigation Notes
 *   The tile (4,4) where Pikachu often stands is navigable. The correct Nurse interaction spot is (4,5). A previous note incorrectly stated (4,4) was `navigable="false"`. The persistent collision error previously reported when moving from (3,4) to (4,4) (citing an object at (5,4)) needs further investigation if it recurs, but alternative pathing can bypass it.
 
-# Hindsight & Lessons Learned
-*   **Viridian Forest Navigation:** Avoid planning overly long paths without intermediate checks. Use `move_validator_agent` more proactively for complex paths or break them into smaller, verifiable segments (5-10 steps). Prioritize exploring closer alternatives before committing to extensive backtracking.
-*   **Pewter Pokecenter Navigation:** Always verify tile navigability (`navigable="true"` in XML) for target interaction spots, especially around NPCs or counters. The tile (4,4) where Pikachu often stands is navigable, contrary to a previous incorrect note; the correct Nurse interaction spot is (4,5). The persistent collision error when moving from (3,4) to (4,4) citing an object at (5,4) needs further investigation if it recurs, but alternative pathing can bypass it.
-*   **Risk Management:** Engaging in multiple risky battles with a critically low HP Pokémon (like FLAREE in Viridian Forest) should be avoided unless the potential reward (e.g., crucial EXP for a level-up before a boss) outweighs the risk of fainting and blacking out. Prioritize healing when a key party member is vulnerable.
-*   **Agent Usage & Updates:** Act on planned agent definitions and prompt updates promptly (e.g., at PC visits or after critical tasks like healing) to continuously improve decision-making tools. Consistently use `map_analyzer_agent` for queries like tile navigability before attempting complex interactions.
-*   **Notepad Precision:** Ensure `old_text` for `replace` actions is exact and refers to the most recent version of the text in the notepad to prevent update failures.
-
-# Agent Brainstorming & Review (Turn 5049)
-*   **New Agent Ideas:**
-    *   `battle_strategy_advisor_agent`: Suggests moves in battle based on type matchups, PP, HP, etc. (Action: Define. Consider deleting `team_builder_agent` for space if needed.)
-*   **Existing Agent Review:**
-    *   `team_builder_agent`: Review prompt for Hard Mode relevance (no items, set mode, level caps). (Action: Review/Update Prompt or Delete if space needed for `battle_strategy_advisor_agent`)
+# Hindsight & Lessons Learned (Consolidated)
+*   **Data Integrity:** Prioritize XML map data over screen annotations for tile properties (navigability, type).
+*   **NPCs & Interaction:**
+    *   Verify NPC locations using `Map Sprites` data *each turn* before pathing or interacting.
+    *   Use `npc_interaction_planner_agent` proactively in complex/unfamiliar areas or when encountering interaction issues.
+*   **Pathing & Navigation:**
+    *   For long/complex paths (e.g., Viridian Forest), use `move_validator_agent` or break into smaller, verifiable segments (5-10 steps).
+    *   Prioritize exploring closer alternatives before extensive backtracking.
+*   **Agent Strategy:**
+    *   Act on planned agent definitions/updates promptly (e.g., at PC visits).
+    *   Proactively use query agents like `map_analyzer_agent` to confirm tile properties before committing to movement, especially if screen annotations conflict with XML.
+    *   Trust agent pathing logic more; refine prompts if outputs are consistently problematic rather than frequently overriding manually.
+*   **Risk Management:** Avoid multiple risky battles with critically low HP Pokémon unless reward outweighs risk of blackout. Prioritize healing vulnerable key party members.
+*   **Notepad Edits:** Ensure `old_text` for "replace" actions is exact and matches the *most recent* notepad version.
 *   **Agents Defined/Deleted:**
     *   `notepad_query_agent` (Defined Turn 5004)
     *   `leveling_training_advisor_agent` (Deleted Turn 5003)
