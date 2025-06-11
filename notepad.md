@@ -141,3 +141,5 @@
 *   This house does not appear to be a direct path to Vermilion City based on initial exploration.
 
 - Oddish (ID 3) at (2,5) in Melanie's House: Dialogue 'ODDISH: Orddissh!' - Interacted.
+
+- Sandshrew (ID 4) at (6,4) in Melanie's House: Dialogue 'SANDSHREW: Pikii!' - Interacted.
