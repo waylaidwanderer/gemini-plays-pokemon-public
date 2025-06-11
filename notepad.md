@@ -138,3 +138,8 @@
 # Game Mechanics & Strategy Updates (Post-Critique Turn 4551)
 *   **CRITICAL MOVEMENT MECHANIC:** Standard movement: 1st press TURNS if not facing direction, 2nd press MOVES. (Pikachu rule is separate). Must correct path planning accordingly.
 *   **NOTEPAD STRATEGY:** `replace` action is unreliable. Default to `append` for new info. Use `overwrite` for full cleanups when feasible. Defer complex edits.
+
+# Post-Reflection Notes (Turn 4584)
+*   Tile (28,45) in Viridian Forest is impassable (blocked downward movement from (28,44)).
+*   **Blocked Movement Message Interpretation:** Game warnings about being 'blocked' when moving seem to refer to the *next* tile in the direction the player *ends up facing* after a move/turn, not necessarily the tile targeted if a turn was the first part of the input.
+*   **New Agent Idea:** `full_notepad_organizer_agent` - Takes entire notepad string as input, outputs a reorganized string based on predefined sections/rules. To be used with `overwrite` for major cleanups.
