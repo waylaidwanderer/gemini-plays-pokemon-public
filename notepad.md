@@ -114,7 +114,7 @@
 
 # Agent Development & Usage
 ## Evolution Advisor Agent
-*   Defined. Will be used for evolution decisions (e.g. Moon Stone on NINA/LUNA). Need to test its functionality.
+*   Defined. Will be used for evolution decisions (e.g. Moon Stone on NINA/LUNA).
 ## General Agent Usage Notes
 *   When an agent definition or call fails multiple times, abandon that specific agent or approach for the immediate future and attempt to solve the problem manually or with a different, simpler tool to maintain momentum.
 *   The Gym Puzzle Solver Agent was deleted due to repeated failures and hitting the agent limit.
