@@ -47,7 +47,7 @@
 # Party Updates (Latest)
 *   SPROUT (ODDISH): Lv12 (33/37 HP, EXP: 973) | Moves: TACKLE, POISONPOWDER, LEECH SEED (Level Cap Reached)
 *   SPBARKY (PIKACHU): Lv12 (39/39 HP, EXP: 1728) | Moves: THUNDERSHOCK, TAIL WHIP, QUICK ATTACK, THUNDER WAVE (Level Cap Reached)
-*   FLAREE (VULPIX): Lv7 (21/24 HP, EXP: 376) | Moves: EMBER, TAIL WHIP, QUICK ATTACK
+*   FLAREE (VULPIX): Lv7 (15/24 HP, EXP: 411) | Moves: EMBER (22 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP)
 
 # Key Journey Events & Map Discoveries
 *   **Pewter City Navigation:** Repeatedly blocked by Youngster escort event and dynamic tile changes. Learned to use `map_analyzer_agent` and validate paths. Pewter PC non-functional.
