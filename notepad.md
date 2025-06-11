@@ -186,7 +186,3 @@
 # Trainer Battle Intel
 ## Route 25
 *   Cool Trainer F (Lass, ID 6) at (38,5) - Battle initiated after dialogue "My friend has a cute POKéMON. I'm so jealous!". Sent out ODDISH Lv16.
-
-# Potential Future Agents
-*   Multi-Map Route Planner: For pathfinding across multiple maps using World Knowledge Graph.
-*   Team Composition Advisor: For optimizing party for major battles/gyms.
