@@ -155,3 +155,6 @@
 
 # Pathing Notes (Turn 4636)
 *   Currently at (22,24) in Viridian City, facing right. Pikachu at (22,25). Blocked trying to move Right to (23,24) as it's impassable (Pokecenter wall). SPROUT HP is 14/35. Still aiming for Pokecenter at (24,26).
+
+# SPROUT EXP Update (Turn 4685)
+- SPROUT (Lv11) EXP: 891 -> 952 (gained 61 from Metapod Lv6).
