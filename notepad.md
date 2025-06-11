@@ -126,3 +126,5 @@ Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obta
 
 # Route 4 Navigation Notes
 *   Encountered an impassable barrier at X=63 (extending from Y=10 to Y=15). Bypassed it by taking a northern path along Y=9, starting from (62,9) eastward.
+
+- Jessie & James at (Mt Moon B2F 4,4) - Defeated. Pokémon: EKANS (Level Unknown), MEOWTH (Level Unknown), KOFFING (Level Unknown).
