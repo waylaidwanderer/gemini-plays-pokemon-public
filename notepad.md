@@ -183,3 +183,4 @@
 
 ## Next Battle Action Advisor Agent Notes
 - The `next_battle_action_advisor_agent` can occasionally provide suboptimal or incorrect advice (e.g., suggesting Leech Seed on an already seeded Pokémon on Turn 10866). Always critically evaluate its suggestions, especially in complex or multi-turn scenarios.
+- Stun Spore (Grass-type status) failed against Slowpoke (Water/Psychic) on Route 25. This is the third observed failure against a non-Grass type, previously failing against Mankey (Fighting) and Ekans (Poison).
