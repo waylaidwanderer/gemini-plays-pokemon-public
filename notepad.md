@@ -110,6 +110,12 @@
 ## Cerulean City
 *   Cool Trainer F (ID 7, CERULEANCITY_COOLTRAINER_F1) at (Cerulean City 30,27) - Persistent dialogue loop about her Electrode being disobedient (e.g., 'ELECTRODE, SWIFT! No! That's wrong!'). Battle does not initiate. She blocks the path to the item at (29,27). Abandoned item for now.
 *   BLUE (ID CERULEANCITY_RIVAL) at (Cerulean City 21,7) - Defeated. Pokémon: SPEAROW Lv18, RATTATA Lv15, BELLSPROUT Lv15, EEVEE Lv19.
+## Route 24
+*   Nugget Bridge is a trainer gauntlet (5 trainers to beat for a prize).
+*   Bug Catcher (ROUTE24_BUG_CATCHER1) (ID unknown, likely 7 based on order) at (ROUTE_24 12,32) - Defeated. Pokémon: BUTTERFREE Lv13, BEEDRILL Lv13.
+*   Lass (ROUTE24_COOLTRAINER_F2) (ID 6) at (ROUTE_24 11,29) - Defeated. Pokémon: JIGGLYPUFF Lv15, ODDISH Lv15.
+*   Youngster (ROUTE24_YOUNGSTER1) (ID 5) at (ROUTE_24 12,26) - Defeated.
+*   Cool Trainer F (ROUTE24_COOLTRAINER_F1) (ID 4) at (ROUTE_24 11,23) - Currently battling. (Opponent: PIDGEY Lv16 - Confirmed faster than ZAPPY Lv18, uses Sand-Attack repeatedly. Pidgey's Attack currently -3. LUNA fainted.)
 
 # Game Mechanics & Discoveries
 
