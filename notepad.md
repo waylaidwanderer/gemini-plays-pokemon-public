@@ -20,9 +20,7 @@
 *   MOON STONE x1 - Potential use on LUNA (Clefairy) or NINA (Nidoran♀) after evolution to Nidorina for Nidoqueen.
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 
-# Current Location & Navigation Plan
-*   **Current Location:** Cerulean City (ID 3) at (29,28).
-*   **Navigation Plan:** Pick up item at (29,27), then explore the northern/eastern parts of Cerulean City to find Route 24 and a path towards Vermilion City.
+# Current Location, Goals & Navigation Plan
 
 # Current Goals
 *   **Primary Goal:** Obtain the Thunder Badge from Lt. Surge in Vermilion City.
