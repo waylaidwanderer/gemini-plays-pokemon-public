@@ -102,13 +102,6 @@
 *   Misty (ID 1, CERULEANGYM_MISTY) at (Cerulean Gym 5,3) - Defeated. Pokémon: Psyduck Lv19, Goldeen Lv18, Starmie Lv21.
 
 # Game Mechanics & Discoveries
-## Navigation & Map Mechanics
-*   NPCs on `navigable: false` tiles are physical obstacles; their tile remains non-navigable.
-*   Ledges: Upward movement onto a ledge from below is prevented, even if `navigable="true"`.
-*   Mt. Moon 1F: (8,19) is impassable, blocking south from (8,18).
-*   **Segmented Dungeons:** Complex dungeons (e.g., Mt. Moon) have isolated segments per floor, accessed via specific warps. Systematically explore warps.
-*   **1x1 Warps:** Step off and back on if activation is tricky.
-*   Trust game state `reachable: no` for warp/object accessibility.
 
 ## Battle & EXP Mechanics
 *   **EXP at Level Cap:** Pokémon at cap (e.g., BELLA Lv21) gain NO EXP, despite message. BELLA's EXP was 6458 before Psyduck and 6458 after Psyduck, confirming no gain from Psyduck or Starmie.
