@@ -155,10 +155,10 @@
 *   NPC Interaction: Consistently verify NPC locations using `Map Sprites` data *before* planning paths. Use `npc_interaction_planner_agent` proactively, especially in unfamiliar or complex areas like Pewter City, to avoid repeated blockages and wasted turns from misjudging interaction tiles or NPC positions.
 *   Agent Usage: Be more proactive in using query agents like `map_analyzer_agent` to confirm tile properties (e.g., navigability, presence of blocking objects) before committing to movement, especially if screen annotations seem to conflict with expectations or XML data.
 
-# Agent Brainstorming & Review (Post-Turn 5149)
+# Agent Brainstorming & Review (Turn 5207)
 *   **New Agent Ideas:**
-    *   `battle_strategy_advisor_agent`: (PRIORITY - Define Next) Suggests moves in battle based on type matchups, PP, HP, etc.
     *   `rom_hack_mechanics_discoverer_agent`: Hypothesizes game mechanics from observed anomalies.
     *   `potion_purchase_optimizer_agent`: Optimizes healing item purchases based on funds and needs.
+    *   `battle_strategy_advisor_agent`: Suggests moves in battle based on type matchups, PP, HP, etc. (LOWER PRIORITY - Define after funds secured and party healed).
 *   **Existing Agent Review:**
     *   `team_builder_agent`: Prompt needs more emphasis on Hard Mode rules (no items, set mode, level caps).
