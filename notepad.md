@@ -58,3 +58,5 @@
 *   `risk_assessor_agent`: Evaluates risk of major battles. (Consider defining)
 *   `scripted_event_tracker_agent`: Attempts to predict/analyze scripted NPC events. System Prompt Idea: "You are a Scripted Event Tracker. Input: player map/pos, description of unexpected NPC interaction/movement. Analyze this and `map_xml_string`. Output JSON: likely trigger (tile, LoS), NPC ID/name, event sequence summary, implications (new blocks, unlocks), recurrence. Output Schema: `{"type":"object","properties":{"event_name":{"type":"string"},"trigger_description":{"type":"string"},"npc_involved_id":{"type":"integer","nullable":true},"npc_involved_name":{"type":"string","nullable":true},"event_sequence_summary":{"type":"string"},"implications":{"type":"string"},"is_recurring_event":{"type":"boolean"}},"required":["event_name","trigger_description","event_sequence_summary","implications","is_recurring_event"]}` (Consider defining)
 *   `boulder_puzzle_solver_agent`: Assists with boulder puzzles. (Consider defining or discarding)
+
+*   **Map Tile Change (Pewter City, Turn 3956):** Tile (35,23) changed from 'ground' to 'impassable' while moving.
