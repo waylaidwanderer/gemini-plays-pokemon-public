@@ -93,11 +93,11 @@
 *   Explored northern section of Route 2 (south of Pewter City connection). No trainers found in this area. Funds remain at ¥156.
 *   Explored southern section of Route 2 (north of Viridian City connection, up to VF North Gate). No trainers found in this area either.
 
-# Current Plan of Action (Turn 5157)
-1.  **Immediate Goal:** Explore the eastern map connection from Pewter City to find trainers or other resources for funds.
+# Current Plan of Action (Turn 5158)
+1.  **Immediate Goal:** Explore the eastern map connection from Pewter City (target: (40,20)) to find trainers or other resources for funds.
 2.  **Rationale:** All known trainers in Pewter City are non-battling. Funds are critically low (¥156), and FLAREE (6HP) needs healing.
 3.  **Party Management:** Keep FLAREE benched. SPARKY or SPROUT (both Lv12 cap) will lead to maximize escape chance from wild encounters if not training.
-4.  **Contingency:** If the eastern route yields no funds, re-evaluate options. This might include selling items (Poké Ball is the only one, not ideal), or exploring other accessible routes if any exist and were missed.
+4.  **Contingency:** If the eastern route yields no funds, re-evaluate options. This might include selling items (Poké Ball is the only one, not ideal), or exploring other accessible routes if any exist and were missed (e.g., south of Pallet Town).
 5.  **Long-term:** After securing funds and healing FLAREE, reassess readiness for challenging Brock.
 
 # Pewter City Navigation Notes (Continued)
