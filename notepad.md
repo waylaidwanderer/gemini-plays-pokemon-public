@@ -79,3 +79,6 @@
 
 # Map Changes & Pathing Issues (Turn 3933)
 *   **Tile Changes & Movement Abort:** Movement aborted. Player at (30,17) facing Right. Pikachu at (29,17). Tiles changed: (35,15) ground -> impassable; (35,16) ground -> impassable; (35,20) impassable -> ground; (35,21) ground -> impassable. This significantly alters paths around X=35.
+
+# Map Changes & Pathing Issues (Turn 3936)
+*   **Tile Change & Movement Abort:** Movement aborted. Player at (35,18) facing Down. Pikachu at (35,17). Tile (35,22) changed: ground -> impassable.
