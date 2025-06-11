@@ -103,3 +103,10 @@
 *   Youngster (ID 5) is now located at (28,18) facing Right.
 *   Game state also lists Super Nerd (ID 3, non-battling) at (28,18). Focusing on Youngster as the active event.
 *   Tile (28,18) is marked `navigable="false"` in map XML. Will interact from an adjacent tile.
+
+## Pewter City Gym Escort Event (Turn 3841-3843)
+*   Youngster (ID 5), previously Gym Guide, after dialogue at (38,19) saying "BROCK's looking for new challengers! Follow me!", forced player movement from (38,19) to (30,19).
+*   Youngster (ID 5) then moved player from (30,19) to (12,19) in front of the Pewter Gym.
+*   Youngster (ID 5) finished dialogue with "If you have the right stuff, go take on BROCK!".
+*   Youngster (ID 5) is now located at (18,19) facing Right (as per game state on Turn 3843).
+*   This event effectively guided the player to the Gym but did not involve a battle.
