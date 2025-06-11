@@ -222,7 +222,7 @@
     *   Define `move_validator_agent` (High priority given recent pathing issues).
     *   Use `pathing_script_analyzer_agent` on the A* script and `advanced_pathfinder_agent` logic to diagnose failures.
     *   Formally mark `advanced_pathfinder_agent` for deletion or major overhaul; cease current usage.
-    *   Evaluated low-usage agents. Deleted `battle_strategist_agent`. Others need decisive re-evaluation: `item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`, `financial_planner_agent`. Improve, use, or delete.
+    *   Evaluated low-usage agents. Deleted `battle_strategist_agent` and `financial_planner_agent`. The remaining low-usage agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`) need decisive re-evaluation: Improve their prompts/utility for active use, or delete them to free up agent slots.
     *   `NPC_interaction_planner_agent` defined. Consider creating `run_code` script for Repel effectiveness later.
     *   Test `npc_interaction_planner_agent` on Cool Trainer M (5,4).
     *   **Resolve `direct_pathing_agent` Status (CRITICAL):** Verify if this agent was deleted, never properly defined, or if I'm confusing it with the A* `run_code` script. My notes refer to this agent and its issues (Pikachu on target, turn+move logic), but it's not currently listed among my 10 defined agents. At the next Pokémon Center: investigate this thoroughly. If it doesn't exist or was a misremembered name for the A* script, remove these notes. If it *was* a distinct agent that got deleted or was faulty, document this clearly.
