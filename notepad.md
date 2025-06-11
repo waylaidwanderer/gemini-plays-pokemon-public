@@ -103,3 +103,5 @@
 
 # Notepad Maintenance Task (Deferred until functional PC)
 *   Perform a full review and cleanup of the notepad. Consolidate duplicated entries (especially for party Pokémon and agent ideas). Reorganize sections for better clarity and remove obsolete information. The 'replace' function for notepad_edit is unreliable without being able to see the full notepad, so a full overwrite or careful sectional replacement will be needed.
+
+- Tile (19,21) in Viridian Forest is impassable (confirmed Turn 4525, blocked southward movement from (19,20)).
