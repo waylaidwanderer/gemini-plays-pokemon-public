@@ -130,3 +130,7 @@
 *   Misty's first Pokémon: Psyduck Lv19 (Defeated by BELLA). BELLA (Lv21, at level cap) supposedly gained 325 EXP from Psyduck, but her actual EXP (6458) did not change.
 *   Misty's second Pokémon: Goldeen Lv18 (Defeated by ZAPPY). ZAPPY (Lv18) gained 211 EXP from Goldeen. Current EXP: 6313.
 *   Misty's third Pokémon: Starmie Lv21. ZAPPY (Lv18) used Quick Attack, then fainted to Starmie's Bubblebeam. Starmie's HP was ~90%. BELLA (Lv21) defeated Starmie with Absorb after Starmie was paralyzed by Stun Spore. BELLA's EXP (6458) did not change.
+
+# Cerulean Gym Navigation Correction
+*   The tile (6,5) directly south of the platform where I fought Misty (e.g. from (6,4)) is WATER and impassable.
+*   **Corrected Exit Path from (6,4) facing Down:** Right (to 7,4), Right (to 8,4), Down (to 8,5), Down (to 8,6), Left (to 7,6), Left (to 6,6), then Down x8 (to 6,7 -> 6,8 -> 6,9 -> 6,10 -> 6,11 -> 6,12 -> 6,13 -> 6,14). Then Down again to use the warp at (6,14).
