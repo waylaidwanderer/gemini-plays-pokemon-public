@@ -211,10 +211,9 @@
 *   Youngster (ID 10, VIRIDIANFOREST_YOUNGSTER6) at (28,41) is not a battlable trainer, only provides dialogue ('You should carry extras!'). This occurred after approaching him from (28,42) and pressing 'A' on Turn 3483. Does not initiate battle on sight or after dialogue completion.
 
 # New Agent Ideas (Currently at 10/10 agent limit - requires deletion of existing agent or discarding ideas)
-*   **Route Progress Analyzer Agent:** Takes `map_xml_string` and current position to analyze progress on linear routes, identifying remaining trainers/items based on known data or notes.
-*   **Risk Assessor Agent:** Inputs: party status, current location (e.g., Viridian Forest, known wild Pokémon levels), distance to Pokémon Center. Output: risk level (low, medium, high) of proceeding vs. retreating.
-*   **NPC_interaction_planner_agent (defined Turn 3368):** Given NPC ID, location, facing, and player's location/facing, suggests optimal tile and button presses for dialogue.
-*   **move_validator_agent (defined Turn 3404):** Takes a path and `map_xml_string`, verifies each step against map data (navigability, tile types, NPC locations if provided) and outputs path validity or first invalid step.
+*   **Agent Management Note:** At the next safe opportunity (e.g., Pokémon Center), I will review these new agent ideas. For each, I will decide whether to pursue defining it (which would require deleting an existing, less useful agent to free up a slot) or to discard the idea if it's no longer deemed necessary or high-priority. Agent ideas should not remain in limbo.
+*   **Route Progress Analyzer Agent Idea:** Takes `map_xml_string` and current position to analyze progress on linear routes, identifying remaining trainers/items based on known data or notes.
+*   **Risk Assessor Agent Idea:** Inputs: party status, current location (e.g., Viridian Forest, known wild Pokémon levels), distance to Pokémon Center. Output: risk level (low, medium, high) of proceeding vs. retreating.
 
 *   **`direct_pathing_agent` (Needs Investigation):** My notes refer to this agent and its issues (Pikachu on target, turn+move logic). However, it's not currently listed among my 10 defined agents. At the next Pokémon Center: verify if this agent was deleted, never properly defined, or if I'm confusing it with the A* `run_code` script. If it doesn't exist, remove these notes.
 
