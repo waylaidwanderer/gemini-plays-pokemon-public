@@ -90,3 +90,33 @@
 *   **Agent Strategy:** Act on planned agent definitions/updates promptly. Proactively use query agents. Trust agent pathing logic more; refine prompts if outputs are problematic.
 *   **Risk Management:** Avoid multiple risky battles with critically low HP Pokémon. Prioritize healing.
 *   **Notepad Edits:** Ensure `old_text` for "replace" actions is exact.
+
+# Reflection & Action Plan (Turn 5253)
+*   **Agent Decisions:**
+    *   Define `potion_purchase_optimizer_agent` (next priority action).
+    *   Keep `rom_hack_mechanics_discoverer_agent` as a low-priority idea.
+    *   Keep `battle_strategy_advisor_agent` as a low-priority idea (for after funds/healing).
+    *   `team_builder_agent` prompt reviewed, seems adequate for Hard Mode considerations for now.
+*   **Agent Usage Reminders:**
+    *   Use `route_progress_analyzer_agent` upon reaching Route 3.
+    *   Use `battle_log_analyzer_agent` after the next significant trainer battle.
+    *   Use `move_validator_agent` for complex/risky pathing segments, especially in areas with dynamic elements or known events.
+    *   Be more diligent with `scripted_event_tracker_agent` around Youngster (ID 5) in Pewter City; consider more frequent checks or wider detours if warned.
+*   **Map Marker Tasks (Pewter City, Map ID 2 unless specified):**
+    *   **Add ❗ (Event Trigger/Obstacle):**
+        *   (36,17) - Youngster (ID 5) Escort Trigger
+        *   (35,17) - Youngster (ID 5) Escort Trigger
+        *   (30,19) - Youngster (ID 5) Escort Trigger
+        *   (34,19) - Youngster (ID 5) Escort Trigger
+        *   (36,18) - Youngster (ID 5) Escort Trigger
+        *   (34,20) - Police Notice Sign (Dynamic Obstacle)
+    *   **Add ☠️ (Defeated Trainer):**
+        *   PEWTER_GYM (Map ID 3), (4,7) - JR.TRAINER♂ (Cool Trainer M)
+    *   **Delete Redundant 🚫 Markers (where tile type is already 'impassable' in XML and marker adds no new info):**
+        *   (32,13), (18,15), (23,18), (19,20), (12,22), (14,22), (23,24), (31,25), (13,26), (15,26), (20,30), (30,24), (31,28), (19,19), (26,18), (35,26), (23,17)
+*   **Strategic Notes:**
+    *   Prioritize avoiding Youngster (ID 5) escort event. Current strategy: use southern route (row 21) to head east in Pewter City.
+    *   Clear dialogue prompts fully before attempting multi-step movements.
+*   **Goal Revisions (Reflected in current JSON output):**
+    *   Secondary Goal: Acquire sufficient funds to heal FLAREE and purchase essential supplies.
+    *   Tertiary Goal: Gain EXP for non-capped Pokémon and find useful items on Route 3.
