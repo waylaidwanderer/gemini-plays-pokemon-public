@@ -151,3 +151,6 @@
 *   Stepping *onto* each tile (10,8) through (19,8) by moving eastward along Y=8 does not trigger a map transition.
 
 - Stepping *onto* each tile (18,8) through (9,8) by moving westward along Y=8 does not trigger a map transition.
+
+- Moving North from (10,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9858)
+- Moving North from (11,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9861)
