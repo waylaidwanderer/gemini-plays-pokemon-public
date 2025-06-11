@@ -142,3 +142,10 @@
 
 # Agent Performance Notes (Turn 3248)
 *   `exploration_planner` agent: Confirmed it cannot generate a path to a specific, known, *seen* tile. Its purpose is strictly for 'Reachable Unseen Tiles'.
+
+# Viridian Forest Navigation Update (Turn 3320)
+*   Current Position: (14,17), facing Down. Pikachu at (14,16).
+*   SPROUT HP: 8/25 (CRITICAL). Healing at Pokémon Center is top priority.
+*   Repel active, SPARKY (Lv12) leading.
+*   Obstacle: Youngster (ID 6, VIRIDIANFOREST_YOUNGSTER5) at (14,18) blocks direct southward path. This is the trainer I previously blacked out to (noted as Bug Catcher in error, ID 6 is correct).
+*   New Path Segment: (14,17) -> (15,17) -> (15,18) -> (15,19) -> (15,20) -> (15,21) -> (14,21) -> ... -> (14,30) then towards South Gate (17,48).
