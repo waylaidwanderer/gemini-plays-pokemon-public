@@ -62,5 +62,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"reachable_unseen_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"description\":\"A coordinate string like '(X, Y)'\"}},\"target_coordinate\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"description\":\"Optional specific target coordinate if direct pathing is needed.\"}},\"required\":[]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"exploration_path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"exploration_path\"]}",
     "agent_can_run_code": true
+  },
+  "notepad_query_agent": {
+    "agent_name": "notepad_query_agent",
+    "agent_description": "Queries the player's notepad (provided as input) for specific information using keywords or natural language questions. Useful for recalling details about items, locations, NPCs, or past events recorded in the notepad.",
+    "agent_system_prompt": "You are a Notepad Query Agent. Your task is to search the provided `notepad_content` (string) to answer the `query` (string). Your answer should be based *only* on the information found within the `notepad_content`. If the information is not present, state that clearly. Your output must be a JSON object conforming to the schema: `{\"type\":\"object\",\"properties\":{\"answer\":{\"type\":\"string\",\"description\":\"The answer to the query based on notepad content, or a statement that the information was not found.\"}},\"required\":[\"answer\"]}`. Be concise and directly address the query.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"notepad_content\":{\"type\":\"string\",\"description\":\"The full text content of the player's notepad.\"},\"query\":{\"type\":\"string\",\"description\":\"The specific question or keywords to search for in the notepad.\"}},\"required\":[\"notepad_content\",\"query\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"answer\":{\"type\":\"string\",\"description\":\"The answer to the query based on notepad content, or a statement that the information was not found.\"}},\"required\":[\"answer\"]}",
+    "agent_can_run_code": false
   }
 }
