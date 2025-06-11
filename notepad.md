@@ -1,7 +1,8 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** IMMEDIATE PRIORITY: Heal SPROUT (8/25 HP) at Viridian City Pokémon Center. All other actions are secondary until SPROUT is safe.
-*   **Tertiary Goal:** Safely defeat Youngster (ID 6) at (14,18) in Viridian Forest for money and additional EXP, but only after SPROUT is at a safer HP/level and a clear path to an adjacent tile is identified.
+*   **Secondary Goal:** Exit Viridian Forest to the north and reach Pewter City.
+*   **Tertiary Goal:** Re-evaluate low-usage agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`) at next safe opportunity and consider deletion to free up an agent slot.
+*   **Viridian Forest Note:** All easily accessible trainers in Viridian Forest appear to be either defeated or non-battling. Focus is now on exiting the forest.
 
 # Agent Performance & Development
 *   **A* Pathing Script (`run_code` - Long-Term High Priority):** Fixing the A* pathing script (intended for `run_code`, which failed on Turn 3097 by suggesting a move into an impassable tile) is a long-term high priority for complex navigation. Use `pathing_script_analyzer_agent` at a safe opportunity (e.g., Pokémon Center). The `move_validator_agent` can be used for immediate verification of shorter paths.
