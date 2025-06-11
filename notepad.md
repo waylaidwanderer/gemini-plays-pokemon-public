@@ -99,3 +99,6 @@
     *   Keep FLAREE (6HP) benched and safe. SPARKY or SPROUT (both Lv12 cap) will lead.
 3.  **Contingency:** If no trainers are found in Pewter City, re-evaluate options for earning money. This might involve checking if any items can be sold, or if there's an alternative route with trainers accessible from Pewter City (e.g., the eastern connection if reachable).
 4.  **Long-term:** Once sufficient funds are acquired for healing/items, and FLAREE is no longer at critical risk, reassess readiness for challenging Brock.
+
+# Pewter City Navigation Notes (Continued)
+*   Column X=22 has several impassable segments: (22,22), (22,25), (22,26), (22,27). This blocks east-west travel through rows 22, 25, 26, 27 at this column.
