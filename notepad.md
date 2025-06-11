@@ -135,3 +135,5 @@
 *   Tile (35,16) changed from ground to impassable during movement on Turn 5123.
 
 *   Tile (35,15) changed from ground to impassable during movement on Turn 5126.
+
+*   Tiles (27,15), (27,16), (27,17), and (27,18) changed from impassable to ground during movement on Turn 5129.
