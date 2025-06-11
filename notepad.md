@@ -138,3 +138,23 @@
 *   Tile (35,15) changed from ground to impassable during movement on Turn 5126.
 
 *   Tiles (27,15), (27,16), (27,17), and (27,18) changed from impassable to ground during movement on Turn 5129.
+
+# Pewter City Navigation Notes (Continued)
+*   Police Notice Sign at (34,20) is an impassable obstacle on a ground tile.
+
+# Pewter City Dynamic Tile Changes (Consolidated)
+*   Column 35: (35,23) ground -> impassable (Turn 5112). (35,22) ground -> impassable (Turn 5115). (35,21) ground -> impassable (Turn 5117). (35,16) ground -> impassable (Turn 5123). (35,15) ground -> impassable (Turn 5126).
+*   Column 34/35 Row 20: (34,20) ground -> impassable, (35,20) impassable -> ground (Turn 5120).
+*   Column 27: (27,15), (27,16), (27,17), (27,18) all impassable -> ground (Turn 5129).
+
+# Hindsight & Lessons Learned
+*   NPC Interaction: Consistently verify NPC locations using `Map Sprites` data *before* planning paths. Use `npc_interaction_planner_agent` proactively, especially in unfamiliar or complex areas like Pewter City, to avoid repeated blockages and wasted turns from misjudging interaction tiles or NPC positions.
+*   Agent Usage: Be more proactive in using query agents like `map_analyzer_agent` to confirm tile properties (e.g., navigability, presence of blocking objects) before committing to movement, especially if screen annotations seem to conflict with expectations or XML data.
+
+# Agent Brainstorming & Review (Post-Turn 5149)
+*   **New Agent Ideas:**
+    *   `battle_strategy_advisor_agent`: (PRIORITY - Define Next) Suggests moves in battle based on type matchups, PP, HP, etc.
+    *   `rom_hack_mechanics_discoverer_agent`: Hypothesizes game mechanics from observed anomalies.
+    *   `potion_purchase_optimizer_agent`: Optimizes healing item purchases based on funds and needs.
+*   **Existing Agent Review:**
+    *   `team_builder_agent`: Prompt needs more emphasis on Hard Mode rules (no items, set mode, level caps).
