@@ -142,3 +142,5 @@ Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obta
     *   Utilize status moves (Stun Spore, Thunder Wave) for speed control.
     *   Plan switches carefully due to 'Set' battle style.
     *   Conserve ZAPPY's Thundershock PP for Starmie if possible.
+
+- Swimmer (ID CERULEANGYM_SWIMMER) at (Cerulean Gym 9,8) - Defeated. Pokémon: Horsea Lv16, Shellder Lv16.
