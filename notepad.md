@@ -125,3 +125,8 @@
 - **Agent Management:** Defer all agent development, definition, and testing to safe, non-time-sensitive locations (e.g., Pokémon Center).
 - **Notepad Efficiency:** Consolidate administrative tasks. Be concise. Action or remove old ideas (e.g., `move_validator_agent`, `direct_pathing_agent` status). Re-evaluate necessity of low-usage agents.
 - **Current Turn Count:** 3227. Be mindful of turn count accuracy.
+
+# Repel Mechanics (New Hypothesis - Turn 3247)
+*   Repel may require the lead Pokémon's level to be **strictly greater** than the wild Pokémon's level to be effective. 
+    *   Observation: Encountered Lv7 Kakuna (Turn 3218) and Lv7 Pidgey (Turn 3239) while SPROUT (Lv7) was leading and Repel was active. Repel failed in both instances.
+    *   Previous assumption: Repel worked if lead level was equal to or greater. This seems incorrect for this ROM hack.
