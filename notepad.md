@@ -2,7 +2,7 @@
 *   Badges: Boulder Badge, Cascade Badge
 *   Pokedex: 10/151 (Target: Complete)
 
-# Current Team & Training Focus (Strategic Notes)
+# Current Team
 *   BELLA (GLOOM Lv21): (60/66 HP) | Moves: STUN SPORE (27 PP), ACID (29 PP), LEECH SEED (10 PP), ABSORB (16 PP)
 *   ZAPPY (PIKACHU Lv18): (53/53 HP) | Moves: THUNDERSHOCK (30 PP), DOUBLE TEAM (15 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
 *   NINA (NIDORAN♀ Lv12): (36/36 HP) | Moves: GROWL (40 PP), DOUBLE KICK (30 PP), POISON STING (35 PP), BITE (25 PP).
