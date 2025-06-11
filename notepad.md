@@ -27,18 +27,36 @@
 - After Agatha: 62
 - After Lance: 65
 
-## Tile Types Discovered
--
+## Current Goals & Plans
+- **Primary:** Obtain my first Pokémon.
+- **Secondary:** Explore Pallet Town to find Professor Oak's Lab.
+- **Tertiary:** Identify and interact with all characters in Pallet Town.
 
-## General Notes & Discoveries
--
+## Tile Types Discovered
+- (To be populated as new types are encountered and understood)
 
 ## Defeated Trainers
--
+- (Format: [Trainer Name] - [Map Name] at (X,Y))
 
-## Current Goals & Plans
-- Primary: Obtain my first Pokémon.
-- Secondary: Explore Pallet Town.
+## Item Locations & Key Objects
+- Player's House Second Floor: PC at (1,2).
 
-## Players House Second Floor
-- PC is at (1,2).
+## General Notes & Discoveries
+- 
+
+## Strategy Notes & Lessons Learned
+- **World Knowledge Graph (WKG):** 
+    - `add_node` operation: Payload should NOT include an `id` field; it is auto-generated.
+    - Record transitions (map changes) immediately.
+- **Map Markers:** 
+    - Mark used warps on both entry and exit tiles immediately.
+    - Mark defeated trainers.
+    - Mark strategic points and dead ends.
+- **Agent Ideas:**
+    - Route planning agent using WKG (future).
+    - Pokémon matchup analyzer (future).
+- **Reflection (Turn 50):** Repeatedly failed `manage_world_knowledge` due to incorrect payload for `add_node`. Must read tool docs carefully. Need to start using map markers and update notepad more proactively.
+
+## Pallet Town Exploration Notes
+- Player's House 1F: Stairs to 2F at (8,2).
+- Player's House 2F: Stairs to 1F at (8,2).
