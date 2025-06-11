@@ -39,3 +39,6 @@
 ## Current Goals & Plans
 - Primary: Obtain my first Pokémon.
 - Secondary: Explore Pallet Town.
+
+## Players House Second Floor
+- PC is at (1,2).
