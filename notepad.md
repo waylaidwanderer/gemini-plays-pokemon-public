@@ -17,7 +17,7 @@
 *   SPROUT (ODDISH): Lv7 (8/25 HP - CRITICALLY LOW, EXP: 262). (Stats: Attack 13, Defense 13, Speed 10, Special 15).
     *   Moves: TACKLE (23 PP), POISONPOWDER (33 PP).
 *   SPBARKY (PIKACHU): Lv12 (37/39 HP, no status). Current EXP: 1728. **AT LEVEL CAP (12) FOR 0 BADGES. CANNOT GAIN MORE EXP UNTIL 1ST BADGE IS EARNED. (Game may display EXP gain message, but actual EXP value remains unchanged).**
-    *   Moves: THUNDERSHOCK (29 PP), TAIL WHIP (30 PP), QUICK ATTACK (29 PP), THUNDER WAVE (20 PP).
+    *   Moves: THUNDERSHOCK (28 PP), TAIL WHIP (30 PP), QUICK ATTACK (29 PP), THUNDER WAVE (20 PP).
 
 # Training Strategy Notes
 *   **SPROUT Training (CRITICAL):** SPROUT's HP is often low. When training, prioritize its survival. Have SPROUT participate for one turn (e.g., PoisonPowder or one attack if safe) then **immediately switch to SPARKY** to secure the KO and EXP. Fainting SPROUT negates the training effort and wastes resources.
