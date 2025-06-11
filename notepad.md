@@ -164,3 +164,7 @@
 
 # Cerulean City Item/Trainer Bug (29,27) & (30,27)
 - The Poké Ball item at (29,27) is currently unobtainable. Attempting to interact with it (or even just being near it at (29,28) and pressing A when the screen is clear) repeatedly triggers dialogue from Cool Trainer F (ID 7) at (30,27), e.g., 'ELECTRODE is loafing around...'. She is in a persistent dialogue loop and does not initiate a battle. Abandoning this item for now due to being stuck in a loop and receiving critical warnings. Will try again later if I pass by and remember.
+
+# Inventory & Money Update (Post-Cerulean Mart Shopping)
+*   Current Money: ¥7307
+*   Added to Inventory: REPEL x50, ESCAPE ROPE x2.
