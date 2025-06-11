@@ -217,4 +217,4 @@
 *   Consider enhancing `exploration_prioritizer_agent` and `objective_validator_agent` to provide high-level pathing hints (e.g., 'approach from west', 'requires upper platform access') if a clear route is discernible, possibly using their `run_code` capability for deeper analysis.
 
 # Lessons Learned from Critiques & Gameplay (Additions)
-- Pathing Near Warps: When pathing near sensitive warps, ensure the movement plan explicitly moves *past* the warp tile in the same sequence if not intending to use it. Short plans can lead to unintended warps if the last step lands on one (e.g., Turn 10498 accidental warp to Melanie's House).
+- Pathing Near Warps: When pathing near sensitive warps, ensure the movement plan explicitly moves *past* the warp tile if not intending to use it, or detours significantly. Avoid landing on a warp tile if the next intended move is in the warp's activation direction. (Previous note about Turn 10498 and Melanie's House warp was incorrect; no such warp occurred then. Accidental warps have mostly been into Cerulean Gym from (31,20).)
