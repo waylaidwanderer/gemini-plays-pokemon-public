@@ -49,7 +49,7 @@
 
 # Inventory & Finances
 *   POKé BALL x1
-*   Money: ¥156 (Critically Low) (Critically Low)
+*   Money: ¥156 (Critically Low)
 
 # Pokedex Status
 *   Caught: 3/151 (PIKACHU, ODDISH, VULPIX)
