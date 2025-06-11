@@ -83,8 +83,8 @@
 # Map Changes & Pathing Issues (Turn 3936)
 *   **Tile Change & Movement Abort:** Movement aborted. Player at (35,18) facing Down. Pikachu at (35,17). Tile (35,22) changed: ground -> impassable.
 
-# Youngster NPC Update (Turn 3942)
-*   The Youngster NPC (ID 5) who previously escorted me to the Gym is now located at (18,19) according to the game state, effectively blocking eastward travel along row 19 from my current position. This necessitates a new pathing strategy to reach the eastern part of the city.
-*   The previous marker for Youngster (ID 5) at (36,17) should be considered outdated if he is indeed now at (18,19). The game state only lists one Youngster (ID 5) at (18,19).
-*   My marker for (18,19) as '🚫 Impassable (Youngster ID 5)' is correct based on current map sprites.
+# Youngster NPC Update (Corrected Turn 3943)
+*   The Youngster NPC (ID 5), who has repeatedly escorted me to the Gym, is currently located at (36,17) according to the game state (map sprite list). This position blocks eastward travel along row 17.
+*   My previous note indicating Youngster (ID 5) was at (18,19) after the latest escort event (based on visual observation and game state from turn 3942) is now outdated. The marker at (18,19) related to him will be deleted.
+*   The existing marker for Youngster (ID 5) at (36,17) correctly identifies him as blocking row 17.
 *   Reaffirming strategy: Use `map_analyzer_agent` for complex pathing within Pewter City from current position to a known navigable point beyond obstacles.
