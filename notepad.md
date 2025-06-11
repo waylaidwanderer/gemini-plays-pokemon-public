@@ -39,25 +39,25 @@
     *   Update NPC location markers based on *latest* Game State Information.
 *   **Pikachu Interaction:** Account for turning mechanic if moving onto Pikachu's tile from a non-facing direction.
 
-# Pokémon Center Tasks (Next Visit)
-*   **Heal Pokémon.**
-*   **Agent Management (CRITICAL):
+# Pokémon Center Tasks (DEFERRED until functional PC found)
+*   **Heal Pokémon (DONE).**
+*   **Agent Management (CRITICAL - ON HOLD):
     *   **Verify Active Agent List:** Confirm the actual list of currently active custom agents via PC. Previous attempts to delete `advanced_pathfinder_agent` and `direct_pathing_agent` failed as they were not found.
-    *   **Action 'Agent Ideas Brainstorm' (DECIDE & IMPLEMENT/DISCARD):**
+    *   **Action 'Agent Ideas Brainstorm' (DECIDE & IMPLEMENT/DISCARD - ON HOLD):**
         *   `scripted_event_tracker_agent`: **Define** (High Priority). Tracks proximity to known scripted event trigger zones.
         *   `route_progress_analyzer_agent`: **Define** (High Priority). Tracks route completion, unbattled trainers (if data available).
         *   `pewter_city_escape_planner_agent`: **Discard for now**. A well-instructed `map_analyzer_agent` should suffice.
         *   `map_tile_change_correlator_agent`: **Define if possible** (Medium Priority). Attempts to find patterns in dynamic tile changes.
         *   `boulder_puzzle_solver_agent`: Discard for now.
         *   `risk_assessor_agent`: Discard for now.
-    *   **Agent Updates/Deletions (IMPLEMENT):**
+    *   **Agent Updates/Deletions (IMPLEMENT - ON HOLD):**
         *   `map_analyzer_agent` prompt: **CRITICAL UPDATE** - Emphasize *MUST* check `navigable="true"` for *every* tile in path from `map_xml_string`. Paths with non-navigable tiles are unacceptable. Suggest generating long paths in segments.
         *   `npc_interaction_planner_agent` prompt: Update to provide path to interaction spot, not just the spot.
         *   `exploration_planner_agent`: Update prompt for strict navigability (`navigable="true"` for all tiles) and better ledge handling.
         *   Low-Usage Agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`): **Update prompts** with full game context (Hard Mode, level caps, current progression) or **delete** if still not useful.
         *   `pathing_script_analyzer_agent`: **Delete** (confirmed not relevant).
         *   `advanced_pathfinder_agent` / `direct_pathing_agent`: **Verify existence and delete** if found and unused.
-*   **Financial Planning:** Re-assess funds and purchase Potions if affordable.
+*   **Financial Planning (DEFERRED):** Re-assess funds and purchase Potions if affordable.
 
 # Current Pokémon Status
 *   SPROUT (ODDISH): Lv7 (25/25 HP, EXP: 262). Moves: TACKLE, POISONPOWDER.
