@@ -224,3 +224,6 @@
 
 # Cerulean City Navigation Notes (Additions)
 - Officer Jenny (CERULEANCITY_GUARD2) at (28,13) blocks westward movement along Y=13. Pathing must go around (e.g., via Y=14 walkway).
+
+# Battle Discoveries & Type Matchups (Ongoing)
+*   **Stun Spore vs. Mankey (Fighting):** BELLA's Stun Spore (Grass-type status) failed against a Lv18 Mankey (Fighting) on Route 24 (Cool Trainer M). Message: "It didn't affect Enemy MANKEY!". This could indicate an immunity for Mankey, a specific type interaction in this ROM hack, or a miss (though the message suggests more than a miss). (Route 24, Turn 10534)
