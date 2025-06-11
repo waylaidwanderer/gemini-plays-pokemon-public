@@ -154,3 +154,5 @@
 
 - Moving North from (10,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9858)
 - Moving North from (11,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9861)
+
+- Badge House Man (Cerulean Badge House, (6,4)) - Non-battling. Offers badge descriptions.
