@@ -221,3 +221,6 @@
 
 # Agent Development & Usage (Updates)
 *   `cerulean_pathfinder_agent` (Turn 10508): First use provided a flawed path, attempting to move into the Gym Sign obstacle at (28,22) in Cerulean City. Needs review/debugging if future paths also fail to consider basic obstacles.
+
+# Cerulean City Navigation Notes (Additions)
+- Officer Jenny (CERULEANCITY_GUARD2) at (28,13) blocks westward movement along Y=13. Pathing must go around (e.g., via Y=14 walkway).
