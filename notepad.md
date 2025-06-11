@@ -228,3 +228,6 @@
 
 # NPC Behavior Update (Turn 3422 - Viridian City)
 *   Youngster (ID 1) moved from (11,20) to (12,23) facing down. This chase continues.
+
+# NPC Behavior Update (Turn 3423 - Viridian City)
+*   Youngster (ID 1) moved from (12,23) to (10,21) facing up. He is now directly to my left.
