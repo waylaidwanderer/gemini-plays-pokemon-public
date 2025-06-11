@@ -90,3 +90,15 @@
 
 # Route 2 Encounters
 *   Encountered wild Vulpix (Lv7) in grass patch on Route 2 (west side). Plan: Paralyze with THUNDER WAVE (SPBARKY), weaken with THUNDERSHOCK (SPBARKY), then attempt to catch with POKé BALL. Vulpix is a new Pokédex entry.
+
+# Agent Ideas Brainstorm (From Mandatory Reflection - Deferred until functional PC)
+*   `scripted_event_tracker_agent`: **Define** (High Priority). Tracks proximity to known scripted event trigger zones (e.g., Youngster escort in Pewter City (38,19)). Input: Player position, known trigger zones. Output: Warning if approaching trigger, suggested safe alternative path segments.
+*   `route_progress_analyzer_agent`: **Define** (High Priority). Tracks route completion, unbattled trainers (if data available from game state/notes), and items yet to be collected on a route. Input: Current route ID, player notes on defeated trainers/collected items. Output: Summary of route progress, list of remaining objectives on route.
+*   `map_tile_change_correlator_agent`: **Define if possible** (Medium Priority). Attempts to find patterns or triggers for dynamic tile changes (e.g., in Pewter City). Input: History of tile changes (coordinates, previous state, new state, player actions before change). Output: Potential correlations or hypotheses about triggers.
+*   **Existing Agent Updates (Deferred until functional PC):**
+    *   `map_analyzer_agent` prompt: **CRITICAL UPDATE** - Emphasize *MUST* check `navigable="true"` for *every* tile in path from `map_xml_string`. Paths with non-navigable tiles are unacceptable. Suggest generating long paths in segments. Incorporate explicit avoidance of known NPC trigger zones.
+    *   `npc_interaction_planner_agent` prompt: Update to provide path to interaction spot, not just the spot itself. Consider NPC movement patterns if data becomes available.
+    *   `exploration_planner_agent` prompt: Update for strict navigability (`navigable="true"` for all tiles) and better ledge handling (no upward ledge movement). Ensure it prioritizes unseen tiles that lead to undiscovered map connections or unvisited warps.
+    *   Low-Usage Agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`): **Update prompts** with full game context (Hard Mode, level caps, current progression, specific ROM hack changes if known) or **delete** if still not useful after prompt improvements.
+    *   `pathing_script_analyzer_agent`: **Delete** (confirmed not relevant).
+    *   `advanced_pathfinder_agent` / `direct_pathing_agent`: **Verify existence and delete** if found and unused.
