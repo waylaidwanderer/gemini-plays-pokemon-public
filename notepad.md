@@ -63,3 +63,5 @@
 
 # Pewter Pokecenter Navigation Notes
 *   Persistent collision error when moving from (3,4) to (4,4) (Pikachu's tile), citing an object at (5,4) (Cool Trainer F). This occurs even if Cool Trainer F is stunned. The object at (5,4) is not on the direct path of (3,4) -> (4,4). This suggests a complex interaction or collision detection issue.
+
+*   NPCs generally block movement onto the tile they occupy, making it impassable. This is separate from the earlier noted collision issue with Cool Trainer F at (5,4) affecting movement from (3,4) to (4,4).
