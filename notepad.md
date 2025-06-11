@@ -13,7 +13,7 @@
 *   **Battle Strategy:** Use `select_battle_option` tool for main battle menu. Remember to switch Pokémon for EXP distribution (e.g., lead with lower level Pokémon like FLAREE).
 
 # Party Updates (Viridian Forest - Turn 4818)
-*   FLAREE (VULPIX): Lv8 (6/26 HP, EXP: 704) | Moves: EMBER (12 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP) - Critically low HP. Must be kept safe/healed before training. Prioritize earning money for healing.
+*   FLAREE (VULPIX): Lv8 (6/26 HP, EXP: 704) | Moves: EMBER (12 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP) - Critically low HP. Training is too risky. Must be kept benched and safe until healed. Prioritize earning money for healing.
 *   SPBARKY (PIKACHU): Lv12 (38/39 HP, EXP: 1728) | Moves: THUNDERSHOCK (29 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP) (Level Cap Reached)
 *   SPROUT (ODDISH): Lv12 (33/37 HP, EXP: 973) | Moves: TACKLE (30 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP) (Level Cap Reached)
 
