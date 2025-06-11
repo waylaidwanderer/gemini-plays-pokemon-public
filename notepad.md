@@ -63,7 +63,6 @@
 *   Obtained Helix Fossil (Mt. Moon B2F from Super Nerd ID 1).
 *   Navigated Route 4 (Before Mt. Moon) to Route 3.
 
-# Mt. Moon Navigation Summary (Completed)
 Successfully navigated Mt. Moon, defeated Team Rocket (Jessie & James), and obtained the Helix Fossil. Exited Mt. Moon B1F (28,4) via warp #8 to Route 4 (After Mt. Moon) at (25,6).
 
 # Trainer Battle Intel
