@@ -161,3 +161,6 @@
 *   Stepping *onto* each tile (18,8) through (9,8) by moving westward along Y=8 does not trigger a map transition.
 *   Moving North from (10,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9858)
 *   Moving North from (11,8) when already on the tile and facing North (two-step) does not trigger a map transition. (Tested Turn #9861)
+
+# Cerulean City Item/Trainer Bug (29,27) & (30,27)
+- The Poké Ball item at (29,27) is currently unobtainable. Attempting to interact with it (or even just being near it at (29,28) and pressing A when the screen is clear) repeatedly triggers dialogue from Cool Trainer F (ID 7) at (30,27), e.g., 'ELECTRODE is loafing around...'. She is in a persistent dialogue loop and does not initiate a battle. Abandoning this item for now due to being stuck in a loop and receiving critical warnings. Will try again later if I pass by and remember.
