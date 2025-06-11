@@ -148,8 +148,8 @@
 - Badge House Man (Cerulean Badge House, (6,4)) - Non-battling. Offers badge descriptions.
 
 # Current Location & Strategy Focus
-*   **Current Location:** Cerulean City (ID 3) at (18,18).
-*   **Strategy Focus:** Prioritize exploring 'Reachable Unseen Tiles' as per Game State Information to find exits, particularly towards Route 24 (North) or the burgled house area for Route 5 (South).
+*   **Current Location:** Cerulean Pokecenter (ID 64) at (4,8).
+*   **Strategy Focus:** Heal Pokémon, then exit and proceed north to Route 24 to find Bill.
 
 # Archived Hypotheses & Learnings
 ## Cerulean City Bridge (Route 24 Exit) - Failed Hypotheses (Archived)
