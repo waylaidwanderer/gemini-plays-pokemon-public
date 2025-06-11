@@ -133,4 +133,4 @@ Previous attempts to find the B1F(22,18) warp or an exit from the current B1F/B2
 ## Agent Development & Usage
 *   Path Validator Agent: Created `path_validator_agent` (Turn 9325, then again at Turn 9361) to verify navigation paths, especially in complex areas where `dungeon_navigator_agent` proved unreliable (e.g., Mt. Moon B2F).
 
-- Jessie & James at (Mt Moon B2F 4,4) - Defeated. Pokémon: EKANS Lv0, MEOWTH Lv0, KOFFING Lv0.
+- Jessie & James at (Mt Moon B2F 4,4) - Defeated. Pokémon: EKANS Lv??, MEOWTH Lv??, KOFFING Lv?? (Levels unknown/incorrectly logged).
