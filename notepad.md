@@ -210,8 +210,10 @@
 *   Youngster (ID 1, VIRIDIANFOREST_YOUNGSTER1) at (17,44) is not a battlable trainer, only provides dialogue ('I came here with some friends! They're out for POKéMON fights!'). This occurred after approaching him from (17,45) and pressing 'A' on Turn 3471. Does not initiate battle on sight or after dialogue completion.
 *   Youngster (ID 10, VIRIDIANFOREST_YOUNGSTER6) at (28,41) is not a battlable trainer, only provides dialogue ('You should carry extras!'). This occurred after approaching him from (28,42) and pressing 'A' on Turn 3483. Does not initiate battle on sight or after dialogue completion.
 
-# New Agent Ideas (for when slots open)
+# New Agent Ideas (Currently at 10/10 agent limit - requires deletion of existing agent or discarding ideas)
 *   **Route Progress Analyzer Agent:** Takes `map_xml_string` and current position to analyze progress on linear routes, identifying remaining trainers/items based on known data or notes.
 *   **Risk Assessor Agent:** Inputs: party status, current location (e.g., Viridian Forest, known wild Pokémon levels), distance to Pokémon Center. Output: risk level (low, medium, high) of proceeding vs. retreating.
+*   **NPC_interaction_planner_agent (defined Turn 3368):** Given NPC ID, location, facing, and player's location/facing, suggests optimal tile and button presses for dialogue.
+*   **move_validator_agent (defined Turn 3404):** Takes a path and `map_xml_string`, verifies each step against map data (navigability, tile types, NPC locations if provided) and outputs path validity or first invalid step.
 
 *   **`direct_pathing_agent` (Active Agent - Needs Review):** This defined agent has persistent critical issues (e.g., failing with Pikachu on target tile, incorrect turn+move logic). It requires significant fixing or should be considered for deletion at the next agent management opportunity to free up a slot, especially if a more reliable pathing solution (like a fixed A* `run_code` script) becomes available.
