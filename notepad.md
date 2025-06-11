@@ -257,3 +257,6 @@
 
 # Item Usage Notes
 *   Escape Ropes may be restricted in certain areas or by event flags (e.g., Oak's message 'This isn't the time to use that!' on Route 24 after Nugget Bridge).
+
+# Cerulean City Navigation Notes (Additions)
+- Rocket Grunt (CERULEANCITY_ROCKET, ID 2) at (31,9) blocks the path behind the burgled house (east side of city). His tile is `navigable: false`.
