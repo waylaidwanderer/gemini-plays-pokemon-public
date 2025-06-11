@@ -152,3 +152,6 @@
 # Pathing & Agent Notes (Turn 4634)
 *   The `map_analyzer_agent` path to Viridian Pokecenter (from (5,29) to (24,26)) was either flawed or my button sequence generation was incomplete (22 presses vs. ~26 required). Ended up at (22,26) blocked. Tile (23,26) is impassable, which the agent should have avoided. Re-emphasizes the need for `move_validator_agent` even for agent paths, or more robust agent logic.
 *   CRITICAL REINFORCEMENT: Ensure full button sequences for validated paths are provided in a single turn. Partial execution is problematic.
+
+# Pathing Notes (Turn 4636)
+*   Currently at (22,24) in Viridian City, facing right. Pikachu at (22,25). Blocked trying to move Right to (23,24) as it's impassable (Pokecenter wall). SPROUT HP is 14/35. Still aiming for Pokecenter at (24,26).
