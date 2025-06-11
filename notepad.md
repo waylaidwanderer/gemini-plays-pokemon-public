@@ -1,6 +1,6 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Train SPROUT (Oddish) to a safer level (e.g., Lv 8-10) in Viridian Forest grass by having it lead battles, prioritizing its safety due to low HP.
+*   **Secondary Goal:** Heal SPROUT (currently 8/25 HP) at a Pokémon Center. Then, train SPROUT to a safer level (e.g., Lv 10-12) if possible before challenging Brock.
 *   **Tertiary Goal:** Safely defeat Youngster (ID 6) at (14,18) in Viridian Forest for money and additional EXP, but only after SPROUT is at a safer HP/level and a clear path to an adjacent tile is identified.
 
 # Agent Performance & Development
