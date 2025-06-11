@@ -4,9 +4,9 @@
 *   **Tertiary Goal:** Locate a functional Pokémon Center PC to perform critical agent management tasks.
 
 # Current Tactical Plan
-1.  **Immediate:** Navigate to and use the Pewter City Pokémon Center to heal SPROUT (critically low HP) and the rest of the party.
-2.  **Next:** Resume training SPROUT on Route 2 by battling wild Pokémon.
-3.  **Contingency:** During training, if SPROUT is at risk of fainting, switch to SPBARKY or FLAREE to finish the battle or run. Prioritize SPROUT's EXP gain but be more cautious about type disadvantages and low HP situations.
+1.  **Current:** Continue training SPROUT (Oddish) on Route 2 by battling wild Pokémon. SPROUT's HP is currently 19/28.
+2.  **Next:** If SPROUT's HP becomes critically low (e.g., below 10 HP or unable to withstand another likely hit), return to Pewter City Pokémon Center to heal.
+3.  **Contingency:** During training, if SPROUT is at risk of fainting, switch to SPBARKY or FLAREE to finish the battle or run. Prioritize SPROUT's EXP gain but be more cautious about type disadvantages and low HP situations, especially against Fire-types like Vulpix.
 
 # Key Learnings & Game Mechanics
 *   **Youngster Gym Escort Event (Recurring & CRITICAL):** Youngster NPC (ID 5, usually at (36,17)) has a scripted event that triggers *precisely at or immediately adjacent to (38,19)* when approached from the west/south-west in eastern Pewter City. He escorts the player to the Pewter Gym entrance (12,19). His final position after the escort can vary (e.g., (36,17) or (18,19) temporarily), but the game state seems to revert him to (36,17) eventually. This event is a major impediment and requires pathing to strictly avoid (38,19) and its immediate vicinity, in addition to his resting spot at (36,17).
