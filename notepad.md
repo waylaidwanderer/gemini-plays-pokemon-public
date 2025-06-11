@@ -168,3 +168,6 @@
 
 # Pewter City Navigation Notes (Continued)
 *   Turn 5241: `scripted_event_tracker_agent` warned at (31,20) that player is close (Chebyshev distance 1) to trigger 'Youngster_Escort_Pewter' at (30,19) with radius 2. Message: "One more step could trigger it. No direct bypass found, proceed with caution."
+
+# Pewter City Navigation Notes (Continued)
+*   Turn 5246-5247: Youngster (ID 5) escort event triggered at (36,18). After dialogue ("If you have the right stuff, go take on BROCK!"), player was moved from (36,18) to (12,19) in front of the Pewter City Gym. This derails immediate plans for the eastern exit.
