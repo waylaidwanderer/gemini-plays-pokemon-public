@@ -100,7 +100,10 @@
 
 *   **Pewter City Pokecenter Warp (CRITICAL - Turn 2800 Reflection):** The Pokecenter entrance warp is at (14,26). When exiting the Pokecenter to (14,27) or (15,27) and intending to move north, *always* move horizontally to at least column 16 (e.g., (16,27)) before proceeding north. This avoids accidentally re-entering the warp at (14,26) or hitting the impassable sign at (15,26).
 
-*   **`direct_pathing_agent` Issues (Pikachu on Target - CRITICAL):** The `direct_pathing_agent` (which does not use `run_code`) has repeatedly shown critical issues when Pikachu is on the target tile. It often *only turns the player* instead of executing the full two-step move (turn then step) required to step onto Pikachu's tile. It is unreliable for this specific scenario. Manual input with a one-action-per-turn approach is strongly preferred for such delicate maneuvers, or the agent needs significant overhaul. Do not rely on it for pathing to a tile occupied by Pikachu until fixed.
+*   **`direct_pathing_agent` Issues (Pikachu on Target & Turn Sequences - CRITICAL):** The `direct_pathing_agent` (which does not use `run_code`) has repeatedly shown critical issues. 
+    *   When Pikachu is on the target tile, it often *only turns the player* instead of executing the full two-step move (turn then step) required to step onto Pikachu's tile. 
+    *   It also frequently fails to correctly generate paths involving an initial turn followed by a move (e.g., player facing Up, target is Right, agent might only output 'Right' for the turn, not 'Right', 'Right' for turn then move). 
+    *   It is unreliable for these scenarios. Manual input with a one-action-per-turn approach or manual correction of its output (e.g., adding the second 'Right' for a turn-then-move) is strongly preferred for such maneuvers. Do not rely on it for complex pathing or pathing to a tile occupied by Pikachu until fixed or its behavior is fully understood and compensated for.
 
 # Lessons Learned (Post-Warp Loop Reflection - Turn 2929)
 *   **Tricky Warp Navigation (CRITICAL):** When a warp tile can act as both an entrance and an immediate exit (especially if follower Pokémon are involved or near the warp):
