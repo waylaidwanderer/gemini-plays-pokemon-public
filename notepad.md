@@ -1,257 +1,52 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Exit Viridian Forest to the north and reach Pewter City.
-*   **Tertiary Goal:** At the next safe opportunity (e.g., Pokémon Center): decisively re-evaluate low-usage agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`, `financial_planner_agent`) for improvement, active use, or deletion. Concurrently, address 'New Agent Ideas' by either defining them (requiring deletion of an existing agent) or formally discarding the ideas. Resolve the status of the noted `direct_pathing_agent`.
-*   **Viridian Forest Note:** All easily accessible trainers in Viridian Forest appear to be either defeated or non-battling. Focus is now on exiting the forest.
+*   **Secondary Goal:** Prepare for and defeat Brock in the Pewter City Gym.
+*   **Tertiary Goal:** Explore Pewter City to find resources (money, items), information, investigate 'Reachable Unseen Tiles', and the 'Reachable Undiscovered Map Connection' to the East.
 
-# Agent Performance & Development
-*   **A* Pathing Script (`run_code` - Long-Term High Priority):** Fixing the A* pathing script (intended for `run_code`, which failed on Turn 3097 by suggesting a move into an impassable tile) is a long-term high priority for complex navigation. Use `pathing_script_analyzer_agent` at a safe opportunity (e.g., Pokémon Center). The `move_validator_agent` can be used for immediate verification of shorter paths.
-*   **`direct_pathing_agent` Issues (CRITICAL):** This agent (which does not use `run_code`) has repeatedly shown critical issues:
-    *   When Pikachu is on the target tile, it often *only turns the player* instead of executing the full two-step move (turn then step) required.
-    *   It frequently fails to correctly generate paths involving an initial turn followed by a move (e.g., player facing Up, target is Right, agent might only output 'Right' for the turn, not 'Right', 'Right' for turn then move).
-    *   It is unreliable for these scenarios. Manual input or a fixed/new agent is preferred.
-*   **Agent Management Timing:** Define, update, or test agents only when in a safe, non-time-sensitive location (e.g., Pokémon Center).
-*   **Agent Usage Reminder:** Be more proactive in using existing agents, especially for navigation, item finding, and battle strategy.
-*   **Active Agents to Test/Utilize:** `exploration_planner`, `map_analyzer_agent`, `battle_strategist_agent`, `item_finder_agent`, `leveling_training_advisor_agent`, `pokedex_completer_agent`, `team_builder_agent`, `direct_pathing_agent`, `financial_planner_agent`.
+# Pewter City Strategy
+*   **Financial Priority:** Current funds are very low (¥156). Need to prioritize defeating trainers in Pewter City for money to afford Potions (¥200 each) and other supplies.
+*   **Oddish Training for Brock (CRITICAL):** ODDISH (Lv7) needs significant training and ideally a Grass-type damaging move to be effective against Brock's Geodude (Lv10) and Onix (Lv14). Relying on Tackle or PoisonPowder will be ineffective. Investigate Oddish's upcoming level-up moves or consider if other Pokémon might be needed.
+*   **Exploration:** Thoroughly explore Pewter City, interact with NPCs, check buildings for items/information, and clear all 'Reachable Unseen Tiles'. Investigate the eastern map connection.
+*   **Map Markers:** Consistently use map markers for defeated trainers, used warps, and key locations within Pewter City as they are discovered.
+
+# Pokémon Center Tasks (Next Visit)
+*   **Agent Management (Priority):
+    *   Use `pathing_script_analyzer_agent` on the A* script and `advanced_pathfinder_agent` logic to diagnose failures.
+    *   Formally mark `advanced_pathfinder_agent` for deletion or major overhaul; cease current usage.
+    *   **Resolve `direct_pathing_agent` Status (CRITICAL):** Verify if this agent was deleted, never properly defined, or if I'm confusing it with the A* `run_code` script. If it doesn't exist or was a misremembered name for the A* script, remove these notes. If it *was* a distinct agent that got deleted or was faulty, document this clearly.
+    *   **Low-Usage Agent Review (CRITICAL DECISIONS NEEDED):** Decisively re-evaluate `item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`. Improve their prompts/utility for active use, or delete them to free up agent slots (currently at 10/10 limit).
+    *   **Address 'New Agent Ideas':** Make decisions on defining (requires deletion of existing agent) or discarding 'Route Progress Analyzer Agent' and 'Risk Assessor Agent' ideas.
+    *   Test `move_validator_agent` and `npc_interaction_planner_agent` further.
+*   **Financial Planning:** Re-assess funds and purchase Potions if affordable.
 
 # Current Pokémon Status
-*   SPROUT (ODDISH): Lv7 (8/25 HP - CRITICALLY LOW, EXP: 262). (Stats: Attack 13, Defense 13, Speed 10, Special 15).
-    *   Moves: TACKLE (23 PP), POISONPOWDER (33 PP).
-*   SPBARKY (PIKACHU): Lv12 (37/39 HP, no status). Current EXP: 1728. **AT LEVEL CAP (12) FOR 0 BADGES. CANNOT GAIN MORE EXP UNTIL 1ST BADGE IS EARNED. (Game may display EXP gain message, but actual EXP value remains unchanged).**
-    *   Moves: THUNDERSHOCK (28 PP), TAIL WHIP (30 PP), QUICK ATTACK (29 PP), THUNDER WAVE (20 PP).
-
-# Training Strategy Notes
-*   **SPROUT Training (CRITICAL):** SPROUT's HP is often low. When training, prioritize its survival. Have SPROUT participate for one turn (e.g., PoisonPowder or one attack if safe) then **immediately switch to SPARKY** to secure the KO and EXP. Fainting SPROUT negates the training effort and wastes resources.
-*   **Financial Priority:** Current funds are very low (¥96). Need to prioritize defeating trainers for money to afford Potions (¥200 each) and other supplies.
+*   SPROUT (ODDISH): Lv7 (25/25 HP, EXP: 262). (Stats: Attack 13, Defense 13, Speed 10, Special 15).
+    *   Moves: TACKLE (34 PP), POISONPOWDER (34 PP).
+*   SPBARKY (PIKACHU): Lv12 (39/39 HP, no status). Current EXP: 1728. **AT LEVEL CAP (12) FOR 0 BADGES. CANNOT GAIN MORE EXP UNTIL 1ST BADGE IS EARNED.**
+    *   Moves: THUNDERSHOCK (30 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP).
 
 # Inventory & Finances
 *   POKé BALL x2
-*   REPEL x0
-*   Money: ¥96
-*   **Note:** Potions cost ¥200.
+*   Money: ¥156 (Potions cost ¥200)
 
-# Hard Mode Rules
-*   Battle Style: Set.
-*   No items in battle.
-*   Level caps apply (current cap with 0 badges is 12. Brock's Ace Onix is Lv14; the cap before fighting him will be 14. Lt. Surge's cap is 24).
-
-# Key Game Changes (ROM Hack)
-*   HMs: Forgettable, usable from menu, not storable in PC.
-*   All 151 Pokémon obtainable.
-*   Trade evos by level.
-*   Smarter AI, anti-sweep.
-*   Tougher boss fights.
-*   Dynamic scaling Gyms 4-6.
-*   EXP. All available early.
-*   Potions heal 10 HP.
-*   Wild Pokémon battles do not award money, only EXP (if not level capped).
-
-# Map Discoveries & Navigation
-*   **Pallet Town:** Reachable, undiscovered map connection south at (4,18) or (3,18).
-*   **Viridian City Old Man:** Tutorial for catching Pokémon opens path to Route 22 (West).
-*   **Critical Route Information:**
-    *   Route 2 (NORTH of Viridian City): Leads to Viridian Forest, then Pewter City (Brock).
-    *   Route 22 (WEST of Viridian City): Leads to the Pokemon League.
-*   **Pewter City Pokecenter Warp:** Entrance at (14,26). When exiting to (14,27) or (15,27) and moving north, move to column 16+ first.
-*   **Tricky Warp Navigation (CRITICAL):** For warps that can be re-entered immediately: one-action-per-turn for entry (move on, turn, enter). Upon arrival, *immediately* move one step away from arrival warp.
-*   **Route 2 North Gate Warp (4,12) to Viridian Forest North Gate (SOLVED):** Triggered by being on (4,12) and pressing DOWN.
-*   **Map Obstacles & Trainer Behavior:**
-    *   Youngster (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest, despite being defeated, blocks the path south with dialogue.
-
-# Battle Mechanics & Observations
-*   **EXP Tracking (Precise):** Record GameState EXP *before* and *after* a battle. If a Pokémon is level-capped, verify that its actual EXP value does not change, even if an EXP gain message is displayed.
-*   **Lead Pokémon Anomaly (ROM Hack):** Game may send out a different Pokémon than the one in the first party slot at the start of a wild battle. Requires manual switching.
-
-# Pewter City Gym Notes
-*   Gym Guide: Brock's lead GEODUDE (Rock Throw), also has ONIX (Bind). Electric attacks harmless.
-*   Brock's Ace (Onix) is Lv14. Level cap is 14 for this fight.
-*   Defeated JR.TRAINER♂ (Cool Trainer M sprite, ID 2, PEWTERGYM_COOLTRAINER_M) at (4,7). (Diglett Lv9, Sandshrew Lv9). ¥180.
-
-# Archived Learnings & Battle History
-*   **Event Triggers & Key Interactions (Early Game):**
-    *   Rival Battle 1 (Oak's Lab): Triggered by attempting to leave lab after Pikachu.
-    *   Pikachu Following: After first rival battle.
-    *   Town Map: Rival SPB mentioned his sister has one.
-    *   Oak's Parcel: From Viridian PokeMart clerk. Delivered to Oak.
-    *   Pokédex: From Oak after parcel delivery.
-*   **Lessons Learned (Early Game):**
-    *   Ledge Mechanics: One-way down. Cannot move up or sideways onto them from lower Y.
-    *   Route 1 Sign (10,28): Impassable.
-    *   Follower Pokemon block if approached non-facing.
-    *   Potion Usage (ROM Hack): Heal 10 HP.
-    *   Map Connections: Double-check direction/destination.
-    *   Trainer Battle Initiation: Line of sight.
-    *   Type Matchups: Electric not very effective vs. Grass/Poison.
-    *   Status Conditions (Poison): Prioritize healing.
-    *   System Warnings (Mixed Buttons): Avoid.
-    *   NPC Interaction: Adjacent navigable tile.
-    *   Map Verification: Check navigability for entire path.
-    *   Financial Planning: Verify costs/funds before travel.
-    *   Shop Menu Interaction: Explore quantity options.
-*   **Battle Notes (Archive):**
-    *   SPARKY learned TAIL WHIP, replacing GROWL at Lv11.
-    *   Blackout: Defeated by Bug Catcher (ID 6, VIRIDIANFOREST_YOUNGSTER5) at (17,18) in Viridian Forest (Turn 1104).
-    *   Defeated Lass (Cool Trainer F, ID 5) at (3,42) in Viridian Forest. (NIDORAN♀ Lv6, NIDORAN♂ Lv6). ¥90.
-    *   Defeated Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. (Pinsir Lv8, Metapod Lv9). ¥90.
-    *   Defeated Youngster (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (31,34) in Viridian Forest. (Weedle Lv6, Kakuna Lv6). ¥90.
-    *   Defeated Bug Catcher (ID 3, VIRIDIANFOREST_YOUNGSTER3) at (31,20) in Viridian Forest.
-    *   Thunder Wave Inconsistency (Pidgey): Failed vs Lv8, worked vs Lv7. Likely accuracy.
-*   **Brock Battle Attempt 1 (FAILURE - Blackout):**
-    *   SPARKY Lv12 vs Geodude Lv10 & Onix Lv14. Fainted to Geodude's Rock Throw. Money halved (¥392 -> ¥196).
-    *   Conclusion: SPARKY alone at Lv12 not viable. Needs Lv14, new team member, or revised strategy.
-*   **Critique Lesson (Turn 2626 - Archived):** Consistently verify path navigability tile-by-tile in Map Memory for any planned route, especially longer ones. Break down manual pathing into shorter, verifiable segments (e.g., 3-5 steps). Prioritize fixing/using pathing agents. Confirm item prices and funds *before* shop visits. Re-evaluate shop menu interaction for quantity adjustments.
-
-# Battle Mechanics & Observations
-*   SPROUT's POISONPOWDER (Lv7 Oddish) failed against a wild Lv4 WEEDLE in Viridian Forest. (Turn 3143)
-
-- **Pokémon Center Agent Tasks:** Define `advanced_pathfinder_agent`. Use `pathing_script_analyzer_agent` on the existing `run_code` A* script.
-
-*   **A* Pathing Script (`run_code`) Failures (Pre-Turn 3171):** The A* pathing script, intended for use with `run_code`, had several failures before turn 3171 (e.g., Turn 3097 suggesting a move into an impassable tile). This script's logic requires investigation and fixing using `pathing_script_analyzer_agent`. (Note: Previous references to an `advanced_pathfinder_agent` were a misnomer for this A* `run_code` script; no such agent was ever formally defined.)
-
-# System Interactions & Warnings
-*   **Mixed Button Warning (Turn 3201, likely delayed from Turn 3197/3196):** Received a system warning: "You tried to mix directional and action buttons in the same sequence. To prevent unintended outcomes, your input was modified to only include the first X buttons." Need to ensure button sequences are either all directional or single action/tool calls.
-
-*   **New Agent Idea (`move_validator_agent`):** Define an agent that takes a planned path (list of coordinates or button presses) and the `map_xml_string`. It would verify each step against map data (navigability, tile types like ledges/impassable) and output whether the path is valid or identify the first invalid step. This would be invaluable for debugging pathing agents like `advanced_pathfinder_agent` and the A* script.
-
-# Critique Takeaways & Action Plan (Turn 3275)
-- **Absolute Priority:** Heal SPROUT (8/25 HP) at a Pokémon Center. All other activities are secondary.
-- **Navigation Strategy (Viridian Forest Escape):** Use simple, direct manual navigation with short, verifiable segments towards the South Gate. Avoid complex detours or agent experimentation until SPROUT is healed.
-- **Agent Management:**
-    - Defer all agent development, definition, and testing (especially `advanced_pathfinder_agent` and `pathing_script_analyzer_agent`) to safe, non-time-sensitive locations (e.g., Pokémon Center).
-    - Cease using `advanced_pathfinder_agent` for critical navigation until fixed.
-    - Log issues with `direct_pathing_agent` for fixing or deletion later.
-    - Action `move_validator_agent` idea (define or discard) when safe.
-    - Review utility of low-usage agents when safe.
-- **Notepad Efficiency:**
-    - Consolidate administrative tasks and be concise.
-    - Summarize repeated agent failures instead of logging each instance.
-- **Key Learnings:**
-    - Repel Hypothesis (Confirmed by critique): Lead Pokémon's level must be *strictly greater* than wild Pokémon's level for Repel to be effective in this ROM hack.
-- **Current Turn Count:** 3275. Be mindful of turn count accuracy.
-
-# Repel Mechanics (New Hypothesis - Turn 3247)
-*   Repel may require the lead Pokémon's level to be **strictly greater** than the wild Pokémon's level to be effective. 
-    *   Observation: Encountered Lv7 Kakuna (Turn 3218) and Lv7 Pidgey (Turn 3239) while SPROUT (Lv7) was leading and Repel was active. Repel failed in both instances.
-    *   Previous assumption: Repel worked if lead level was equal to or greater. This seems incorrect for this ROM hack.
-
-# Agent Performance Notes
-*   `exploration_planner` agent (Turn 3248): Confirmed it cannot generate a path to a specific, known, *seen* tile. Its purpose is strictly for 'Reachable Unseen Tiles'. Continued consideration for use when no unseen tiles exist is a misapplication of its purpose.
-
-# Viridian Forest Navigation Update (Turn 3320)
-*   Current Position: (14,17), facing Down. Pikachu at (14,16).
-*   SPROUT HP: 8/25 (CRITICAL). Healing at Pokémon Center is top priority.
-*   Repel active, SPARKY (Lv12) leading.
-*   Obstacle: Youngster (ID 6, VIRIDIANFOREST_YOUNGSTER5) at (14,18) blocks direct southward path. This is the trainer I previously blacked out to (noted as Bug Catcher in error, ID 6 is correct).
-*   Corrected Path Segment (Turn 3321): (14,17) -> (15,17) -> (15,18) -> (15,19) -> (15,20) -> (16,20) -> (17,20). From (17,20), plan to head south towards South Gate (17,48). The previous plan involving (15,21) was incorrect as (15,21) is impassable.
-
-# Critique Takeaways & Goal Adjustments (Turn 3326)
-- **Goal Hierarchy Adjustment:**
-    - Primary Goal: Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-    - Secondary Goal: IMMEDIATE PRIORITY: Heal SPROUT (8/25 HP) at Viridian City Pokémon Center. All other actions are secondary until SPROUT is safe.
-    - Tertiary Goal: After SPROUT is healed and if funds are low, defeat Youngster (ID 6) in Viridian Forest to acquire money for Potions.
-- **Agent Management (Pokémon Center Tasks):**
-    - Evaluate utility of low-usage agents (`battle_strategist_agent`, `item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `financial_planner_agent`). Refine or delete as needed.
-    - Define `move_validator_agent` or remove the note.
-    - Continue with plan to use `pathing_script_analyzer_agent` on A* script.
-- **NPC Movement:** Be more cautious about assuming NPC positions are static, as Youngster (ID 6) moved and intercepted me.
-- Defeated Youngster (ID 6, VIRIDIANFOREST_YOUNGSTER5) at (15,18) in Viridian Forest (Caterpie Lv6, Metapod Lv6). Gained ¥60. Current money: ¥156. (SPARKY level capped, gained 0 actual EXP).
-
-# Reflection Insights (Turn 3347)
-*   **Viridian Forest NPC Watch:** Youngster (ID 10) is at (28,41) facing right. My current path along column 27 should avoid him. Youngster (ID 1) at (17,44) is facing down, so passing through (17,44) should be safe.
-*   **New Agent Ideas:**
-    *   `move_validator_agent`: Takes a path and `map_xml_string`, verifies each step against map data (navigability, tile types, NPC locations if provided) and outputs path validity or first invalid step. Useful for debugging pathing agents/scripts.
-    *   `NPC_interaction_planner_agent`: Given NPC ID, location, facing, and player's location/facing, suggests optimal tile and button presses for dialogue.
-
-*   **Pending Agent Tasks (Pokémon Center):**
-    *   Use `pathing_script_analyzer_agent` on the A* script / `advanced_pathfinder_agent` logic.
-    *   Evaluate utility of low-usage agents (`battle_strategist_agent`, `item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `financial_planner_agent`). Refine or delete.
-    *   Decide on defining `move_validator_agent` (from above) or remove the note.
-
-# NPC Behavior Update (Turn 3349)
-*   Youngster (ID 1) at (17,44) in Viridian Forest turned from facing Down to facing Left, blocking my intended path. This highlights that NPC facing direction can change, and they can become obstacles.
-
-# Critique Takeaways & Action Plan (Turn 3350)
-- **Agent Development (Pokémon Center Task):**
-    - Prioritize defining `move_validator_agent`.
-    - Cease using `advanced_pathfinder_agent` until it can be reliably fixed or replaced. Add to list of agents to analyze/delete.
-- **Financial Planning (Pokémon Center Task):** Current funds ¥156. Potions cost ¥200. Plan for money acquisition after healing SPROUT.
-- **Navigation:** Be more careful with manual path planning. Verify against map memory. The `move_validator_agent` should help in the future.
-- **Repel Usage:** Maintain active Repel when SPROUT is critically injured in dangerous areas.
-
-# Viridian Forest South Gate (Turn 3353)
-*   Successfully exited Viridian Forest. Currently in Viridian Forest South Gate at (6,2).
-*   SPROUT HP: 8/25 (CRITICAL). Healing at Pokémon Center is top priority.
-*   Repel active, SPARKY (Lv12) leading.
-*   Goal: Exit South Gate to Route 2, then head to Viridian City Pokémon Center.
-
-# Pokémon Center Tasks (Viridian City - Turn 3368)
-*   **Agent Management (Priority):**
-    *   Define `move_validator_agent` (High priority given recent pathing issues).
-    *   Use `pathing_script_analyzer_agent` on the A* script and `advanced_pathfinder_agent` logic to diagnose failures.
-    *   Formally mark `advanced_pathfinder_agent` for deletion or major overhaul; cease current usage.
-    *   Evaluated low-usage agents. Deleted `battle_strategist_agent`. Others seem fine for now.
-    *   `NPC_interaction_planner_agent` defined. Consider creating `run_code` script for Repel effectiveness later.
-    *   Test `npc_interaction_planner_agent` on Cool Trainer M (5,4).
-*   **Financial Planning:**
-    *   Current funds: ¥156. Potions cost ¥200. Need at least ¥44 more for one Potion.
-    *   Investigate money-making opportunities after healing (e.g., re-battlable trainers if they exist in this ROM hack, or un-fought trainers).
-
-# Agent Management Update (Turn 3404 - Viridian City)
-*   Successfully defined `move_validator_agent`. This brings the total active agents to 10 (the maximum allowed).
-
-# NPC Behavior Summary (Turns 3407-3424 - Viridian City)
-*   Youngster (ID 1) has been extremely mobile, frequently changing positions (e.g., (12,19), (9,19), (16,20), (13,20), (10,22), (11,23), (9,20), (12,23), (10,21), (10,18)) between turns 3407 and 3424. This has made interaction attempts consistently fail, rendering reactive pursuit highly inefficient. An `npc_interaction_planner_agent` call on turn 3406 was quickly outdated. An 'A' press on turn 3415 failed due to NPC movement.
-
-# Strategic Shift (Turn 3431 - Viridian City)
-*   **Abandoning Youngster (ID 1) Pursuit:** After numerous failed attempts (Turns 3406-3430) due to the NPC's constant movement, I am abandoning efforts to battle Youngster (ID 1) in Viridian City. This pursuit has proven highly inefficient and is stalling progress on acquiring funds.
-*   **New Financial Strategy:** Will now head north to Route 2 to find other trainers and earn money for Potions. Current funds: ¥156. Need at least ¥44 more for one Potion.
-
-# Viridian Forest Notes
-*   Youngster (ID 1, VIRIDIANFOREST_YOUNGSTER1) at (17,44) is not a battlable trainer, only provides dialogue ('I came here with some friends! They're out for POKéMON fights!'). This occurred after approaching him from (17,45) and pressing 'A' on Turn 3471. Does not initiate battle on sight or after dialogue completion.
-*   Youngster (ID 10, VIRIDIANFOREST_YOUNGSTER6) at (28,41) is not a battlable trainer, only provides dialogue ('You should carry extras!'). This occurred after approaching him from (28,42) and pressing 'A' on Turn 3483. Does not initiate battle on sight or after dialogue completion.
-
-# New Agent Ideas (Currently at 10/10 agent limit - requires deletion of existing agent or discarding ideas)
-
-# New Agent Ideas (Currently at 10/10 agent limit - requires deletion of existing agent or discarding ideas)
-*   **Agent Management Note (CRITICAL DECISIONS NEEDED):** At the next safe opportunity (e.g., Pokémon Center), I MUST review new agent ideas and existing low-usage agents. For each new idea, I will decide to EITHER define it (requiring deletion of an existing agent) OR formally discard the idea. For low-usage agents, I will decide to EITHER refine their purpose/prompts for active use OR delete them. Agent ideas and underperforming agents cannot remain in limbo indefinitely, especially with the 10-agent limit.
-*   **Route Progress Analyzer Agent Idea:** (Consider for definition if slot opens) Takes `map_xml_string` and current position to analyze progress on linear routes, identifying remaining trainers/items based on known data or notes.
-*   **Risk Assessor Agent Idea:** (Consider for definition if slot opens) Inputs: party status, current location (e.g., Viridian Forest, known wild Pokémon levels), distance to Pokémon Center. Output: risk level (low, medium, high) of proceeding vs. retreating.
-
-# Pokémon Center Tasks
-*   **Agent Management (Priority):
-    *   Define `move_validator_agent` (High priority given recent pathing issues).
-    *   Use `pathing_script_analyzer_agent` on the A* script and `advanced_pathfinder_agent` logic to diagnose failures.
-    *   Formally mark `advanced_pathfinder_agent` for deletion or major overhaul; cease current usage.
-    *   Evaluated low-usage agents. `battle_strategist_agent` and `financial_planner_agent` were deleted (as of Turn 3665). The remaining low-usage agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`) still need decisive re-evaluation: Improve their prompts/utility for active use, or delete them to free up agent slots.
-    *   `NPC_interaction_planner_agent` defined. Consider creating `run_code` script for Repel effectiveness later.
-    *   Test `npc_interaction_planner_agent` on Cool Trainer M (5,4).
-    *   **Resolve `direct_pathing_agent` Status (CRITICAL):** Verify if this agent was deleted, never properly defined, or if I'm confusing it with the A* `run_code` script. My notes refer to this agent and its issues (Pikachu on target, turn+move logic), but it's not currently listed among my 10 defined agents. At the next Pokémon Center: investigate this thoroughly. If it doesn't exist or was a misremembered name for the A* script, remove these notes. If it *was* a distinct agent that got deleted or was faulty, document this clearly.
-    *   **Address 'New Agent Ideas':** Make decisions on defining (requires deletion of existing agent) or discarding these ideas.
-*   **Financial Planning:**
-    *   Current funds: ¥156. Potions cost ¥200. Need at least ¥44 more for one Potion.
-    *   Investigate money-making opportunities after healing (e.g., re-battlable trainers if they exist in this ROM hack, or un-fought trainers).
+# Hard Mode Rules & ROM Hack Changes (Summary)
+*   Battle Style: Set. No items in battle. Level caps apply (current cap 0 badges: 12. Brock's Ace Onix Lv14 -> cap before Brock: 14).
+*   HMs: Forgettable, menu use, not PC storable. All 151 obtainable. Trade evos by level. Smarter AI. Tougher bosses. EXP. All early. Potions heal 10HP. Wild battles: no money, only EXP (if not capped).
 
 # Navigation Strategy & Best Practices (CRITICAL - MUST ADHERE)
-*   **Meticulous Tile-by-Tile Verification (ABSOLUTE PRIORITY):** Before committing to *any* movement segment, however short (ideally 3-5 tiles, or a single clear corridor/small area), I MUST meticulously consult the map memory (XML) and verify the `navigable="true"` status and `type` of *every single tile* in the intended path. I cannot assume corridors are clear or visually estimate. The XML is the sole source of truth for player movement.
-*   **Extremely Short, Verifiable Segments:** Until navigation proficiency significantly improves, all path segments MUST be broken down into extremely short, verifiable chunks (e.g., 3-5 tiles maximum, or movement within a single, obviously clear small area). Each chunk must be 100% confirmed navigable from the XML data *before* execution.
-*   **Focus on Continuous Open Corridors:** Path planning must prioritize identifying and utilizing continuous, verified open corridors based on XML data, rather than aiming for distant coordinates across complex or unverified terrain.
-*   **Map Marker Usage (IMMEDIATE & ABSOLUTE):** I MUST consistently and *immediately* mark confirmed dead ends/impassable tiles (🚫), key navigational turns/points (📍), and frequently used/important warps (🚪) on the map after discovery, use, or identification. This is essential for long-term spatial understanding and avoiding re-exploring fruitless paths. Failure to do so is a major inefficiency.
-*   **Repel Usage & Acquisition:** Ensure Repel is active when navigating dense areas if the intent is to avoid encounters, especially when lead Pokémon are level-capped or not being used for training. (Currently have 0 Repels - acquiring these should be a financial priority once out of the forest).
-*   **Agent-Assisted Pathing (Backup):** If manual pathfinding continues to be problematic after adhering to the above, consider using `map_analyzer_agent` to explicitly request a path to the desired destination (e.g., 'Find path to Viridian Forest North Exit'). However, I must then be meticulous in following the agent's path in short, verifiable steps.
-*   **`exploration_planner` Misuse:** This agent is strictly for 'Reachable Unseen Tiles'. It cannot generate paths to known, seen tiles. Using it otherwise is a misapplication.
-*   **Pikachu Interaction:** When planning paths, if a direct path avoiding Pikachu's tile can be identified with careful planning, it is more efficient than stepping onto his tile and immediately changing direction.
+*   **Meticulous Tile-by-Tile Verification (ABSOLUTE PRIORITY):** Before *any* movement segment, consult map memory (XML) and verify `navigable="true"` and `type` of *every single tile*. XML is sole truth for player movement.
+*   **Extremely Short, Verifiable Segments:** Path segments MUST be 3-5 tiles max, or single clear small areas. Each chunk 100% confirmed navigable from XML *before* execution.
+*   **Focus on Continuous Open Corridors:** Prioritize verified open corridors based on XML, not distant coordinates across unverified terrain.
+*   **Map Marker Usage (IMMEDIATE & ABSOLUTE):** *Immediately* mark confirmed dead ends (🚫), key navigational turns/points (📍), and important warps (🚪) after discovery/use. Essential for spatial understanding.
+*   **Pikachu Interaction:** If a direct path avoiding Pikachu's tile can be identified, it's more efficient than stepping onto his tile and immediately changing direction.
+*   **`navigable="false"` is Absolute (CRITICAL LESSON):** If XML shows `navigable="false"`, it is IMPASSABLE by player, regardless of tile type or NPC status. Trust `navigable` attribute.
 
-# Reflection & Strategy Adjustments (Ongoing)
-*   **Viridian Forest Navigation (CRITICAL INEFFICIENCY - REPEATED FAILURES):** My navigation in Viridian Forest has been extremely inefficient due to overly ambitious, unverified pathing attempts. I MUST adhere to the 'Navigation Strategy & Best Practices' with absolute discipline. This is not optional.
-*   **Notepad Efficiency:** Aim for more concise notes. Summarize repeated failures instead of logging each instance once a corrective strategy is noted. Ensure plans are based on verified map data. Consolidate related notes for better readability.
+# Recent Events & Observations
+*   **Viridian Forest Navigation (Pre-Pewter):** Multiple wild encounters (Pidgey, Oddish, Rattata) while navigating Viridian Forest and Route 2. Successfully ran from all. Sand-Attack spam from Pidgey made ODDISH's accuracy very low in one battle.
+*   **Agent Deletions (Turn 3665):** `battle_strategist_agent` and `financial_planner_agent` were deleted.
 
-# Critical Game Mechanics & Misunderstandings (Turn 3601+)
-*   **`navigable="false"` is Absolute (CRITICAL LESSON):** If a tile's XML entry shows `navigable="false"`, it is IMPASSABLE by the player, regardless of the tile type (e.g., grass, ground) or the status of any NPC on it (e.g., defeated trainer). This was my error with Youngster (ID 4) at (3,19) in Viridian Forest; his tile being `navigable="false"` makes the tile itself a blocker, not the NPC per se. I must always trust the `navigable` attribute as the definitive source of truth for player movement. This understanding is crucial for all future path planning.
-
-## Viridian Forest - Wild Encounters (Turn 3672-3682)
-- Encountered wild PIDGEY Lv7 at (3,23) while attempting to move from (8,23) to (2,23). Player position at encounter was (3,23).
-- Switched SPARKY (Lv12, capped) for ODDISH (Lv7).
-- Enemy PIDGEY used SAND-ATTACK three times, severely lowering ODDISH's accuracy.
-- ODDISH's POISONPOWDER (34 PP) missed.
-- ODDISH's TACKLE (34 PP) landed once, but did not KO the PIDGEY.
-- Successfully ran from the battle due to extreme accuracy debuffs making continued fighting inefficient. ODDISH took no damage.
+# Archived Learnings & Notes (For Brevity - Refer to older full notes if needed)
+*   Older battle logs, detailed early game event triggers, specific NPC dialogue not immediately relevant to current objectives, detailed A* script failure logs (to be addressed by `pathing_script_analyzer_agent`).
+*   Repel Mechanics: Lead Pokémon level must be *strictly greater* than wild Pokémon level for Repel to be effective in this ROM hack.
+*   `exploration_planner` Misuse: Agent is strictly for 'Reachable Unseen Tiles', not for paths to known, seen tiles.
+*   System Warnings: Avoid mixing directional and action buttons.
