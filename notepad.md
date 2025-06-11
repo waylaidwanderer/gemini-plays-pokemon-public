@@ -43,7 +43,6 @@
     *   `exploration_planner_agent`: Prompt update (direct pathing if no unseen tiles & target provided).
 *   **Medium Priority Agents to Review/Update/Delete:**
     *   Low-usage agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`): Review prompts for Hard Mode relevance or delete.
-    *   `hm_usage_advisor_agent`: Define (for later game).
 *   Consolidate all agent idea notes from other sections here.
 
 # Inventory & Finances
