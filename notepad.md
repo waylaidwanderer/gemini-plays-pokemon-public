@@ -149,3 +149,5 @@
 *   BELLA (Lv21, at level cap) supposedly gained 325 EXP from Psyduck, but her actual EXP (6458) did not change, confirming level-capped Pokémon gain no EXP despite the message.
 *   Misty's second Pokémon: Goldeen Lv18 (Defeated by ZAPPY).
 *   ZAPPY (Lv18) gained 211 EXP from Goldeen. Current EXP: 6313.
+
+*   Misty's third Pokémon: Starmie Lv21. ZAPPY (Lv18) used Quick Attack, then fainted to Starmie's Bubblebeam. Starmie's HP is ~90%.
