@@ -207,3 +207,4 @@
 
 # Viridian Forest Notes
 *   Youngster (ID 1, VIRIDIANFOREST_YOUNGSTER1) at (17,44) is not a battlable trainer, only provides dialogue ('I came here with some friends! They're out for POKéMON fights!'). This occurred after approaching him from (17,45) and pressing 'A' on Turn 3471. Does not initiate battle on sight or after dialogue completion.
+*   Youngster (ID 10, VIRIDIANFOREST_YOUNGSTER6) at (28,41) is not a battlable trainer, only provides dialogue ('You should carry extras!'). This occurred after approaching him from (28,42) and pressing 'A' on Turn 3483. Does not initiate battle on sight or after dialogue completion.
