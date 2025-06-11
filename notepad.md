@@ -149,3 +149,5 @@
 *   Moving North *from* each tile (9,8) through (19,8) does not trigger a map transition.
 *   Moving North *onto* each tile (13,8) through (19,8) from their corresponding Y=9 tiles does not trigger a map transition.
 *   Stepping *onto* each tile (10,8) through (19,8) by moving eastward along Y=8 does not trigger a map transition.
+
+- Stepping *onto* each tile (18,8) through (9,8) by moving westward along Y=8 does not trigger a map transition.
