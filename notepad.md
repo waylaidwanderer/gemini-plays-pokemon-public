@@ -160,7 +160,7 @@
 *   **New Agent Ideas:**
     *   `move_validator_agent`: Takes a path and `map_xml_string`, verifies each step against map data (navigability, tile types, NPC locations if provided) and outputs path validity or first invalid step. Useful for debugging pathing agents/scripts.
     *   `NPC_interaction_planner_agent`: Given NPC ID, location, facing, and player's location/facing, suggests optimal tile and button presses for dialogue.
-    *   `repel_effectiveness_predictor_agent`: Given lead Pokémon level and map, consults known wild Pokémon levels for that map, predicts Repel effectiveness and against which level ranges. (Could be a `run_code` script too).
+
 *   **Pending Agent Tasks (Pokémon Center):**
     *   Use `pathing_script_analyzer_agent` on the A* script / `advanced_pathfinder_agent` logic.
     *   Evaluate utility of low-usage agents (`battle_strategist_agent`, `item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `financial_planner_agent`). Refine or delete.
