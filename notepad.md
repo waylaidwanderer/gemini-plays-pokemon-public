@@ -204,3 +204,6 @@
 
 # Agent Management Update (Turn 3404 - Viridian City)
 *   Successfully defined `move_validator_agent`. This brings the total active agents to 10 (the maximum allowed).
+
+# Agent Usage & NPC Behavior (Turn 3407 - Viridian City)
+*   `npc_interaction_planner_agent` (called on turn 3406) provided a plan for Youngster (ID 1) based on his position at (13,22). However, the Youngster moved to (12,19) by turn 3407, rendering the agent's plan outdated. This highlights the need to re-verify NPC positions before acting on agent plans if significant time or movement has occurred.
