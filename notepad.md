@@ -121,3 +121,6 @@
 *   Agent Usage & Updates: Act on planned agent definitions and prompt updates promptly (e.g., at PC visits or after critical tasks like healing) to continuously improve decision-making tools. Consistently use `map_analyzer_agent` for queries like tile navigability before attempting complex interactions.
 *   Notepad Precision: Ensure `old_text` for `replace` actions is exact and refers to the most recent version of the text in the notepad to prevent update failures.
 *   NPC Location Verification: Consistently verify NPC locations using `Map Sprites` data before planning paths or interactions. My misidentification of Super Nerd ID 4's location across multiple turns (5095-5102) was due to not checking the latest `Map Sprites` data each turn.
+
+# Pewter City Dynamic Tile Changes
+*   Tile (35,23) changed from ground to impassable during movement on Turn 5112. This occurred while pathing towards Super Nerd (ID 3) but was not on the direct path.
