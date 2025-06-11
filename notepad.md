@@ -21,8 +21,8 @@
 *   HELIX FOSSIL x1 - Obtained from Mt. Moon B2F.
 
 # Current Location & Navigation Plan
-*   **Current Location:** Route 4 (After Mt. Moon) (ID 15) at (25,7). Arrived from Mt. Moon B1F (28,4) (entry point 3 for Mt. Moon B1F warp #8).
-*   **Navigation Plan:** Explore Route 4 (After Mt. Moon) eastward to reach Cerulean City.
+*   **Current Location:** Cerulean City (ID 3) at (13,19). Arrived from Route 4 (After Mt. Moon) (East map connection).
+*   **Navigation Plan:** Locate and enter the Cerulean City Pokémon Center to heal the party.
 
 # Current Goals
 *   **Primary Goal:** Reach Cerulean City and obtain the Cascade Badge from Misty.
