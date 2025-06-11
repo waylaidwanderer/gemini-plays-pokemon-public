@@ -214,4 +214,4 @@
 *   **Route Progress Analyzer Agent:** Takes `map_xml_string` and current position to analyze progress on linear routes, identifying remaining trainers/items based on known data or notes.
 *   **Risk Assessor Agent:** Inputs: party status, current location (e.g., Viridian Forest, known wild Pokémon levels), distance to Pokémon Center. Output: risk level (low, medium, high) of proceeding vs. retreating.
 
-*   **`direct_pathing_agent` (Future Action):** Given its persistent critical issues, this agent requires significant fixing or should be considered for deletion at the next agent management opportunity to free up a slot, especially if a more reliable pathing solution (like a fixed A* script) becomes available.
+*   **`direct_pathing_agent` (Active Agent - Needs Review):** This defined agent has persistent critical issues (e.g., failing with Pikachu on target tile, incorrect turn+move logic). It requires significant fixing or should be considered for deletion at the next agent management opportunity to free up a slot, especially if a more reliable pathing solution (like a fixed A* `run_code` script) becomes available.
