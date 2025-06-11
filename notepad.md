@@ -179,7 +179,3 @@
 - Stun Spore (Grass-type status) failed against Slowpoke (Water/Psychic) on Route 25. This is the third observed failure against a non-Grass type, previously failing against Mankey (Fighting) and Ekans (Poison).
 
 - 'Fully paralyzed' status: Observed Wigglytuff take no damage one turn when 'fully paralyzed' was announced (Turn 10939), but damage was applied on subsequent Thundershock (Turn 10940). This interaction needs more observation. 'Fully paralyzed' prevents movement, not necessarily damage.
-
-# Future Agent Ideas
-*   **Multi-Map Route Planner:** An agent that can take a starting map/coordinates and a target map/coordinates (potentially far away) and use the World Knowledge Graph to plot an optimal sequence of map transitions and paths within maps. This would be complex and require good WKG data.
-*   **Team Composition Advisor:** An agent that, given current party and PC Pokémon, upcoming major battles (Gyms, Rival), and known level caps, advises on team composition, potential training targets, and strategic Pokémon to retrieve from/deposit to the PC. This would need access to Pokémon stats, movepools, and evolution lines (potentially via a knowledge base or API if the game doesn't provide it directly).
