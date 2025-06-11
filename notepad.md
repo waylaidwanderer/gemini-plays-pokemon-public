@@ -189,3 +189,6 @@
 
 # Tactical Lessons & Reminders
 *   ZAPPY's HP at 9/55 is critically low. Prioritize healing ZAPPY at the very next opportunity (e.g., if Bill offers healing, or by returning to a Pokecenter if Bill's house is not immediately accessible or provides no healing).
+
+## Route 25
+*   Cool Trainer F (Lass, ID 6) at (38,5) - Defeated. Dialogue: "My friend has a cute POKéMON. I'm so jealous!". Pokémon: ODDISH Lv16, PIDGEY Lv16, ODDISH Lv16.
