@@ -200,3 +200,7 @@
 
 # NPC Behavior Summary (Turns 3407-3424 - Viridian City)
 *   Youngster (ID 1) has been extremely mobile, frequently changing positions (e.g., (12,19), (9,19), (16,20), (13,20), (10,22), (11,23), (9,20), (12,23), (10,21), (10,18)) between turns 3407 and 3424. This has made interaction attempts consistently fail, rendering reactive pursuit highly inefficient. An `npc_interaction_planner_agent` call on turn 3406 was quickly outdated. An 'A' press on turn 3415 failed due to NPC movement.
+
+# Strategic Shift (Turn 3431 - Viridian City)
+*   **Abandoning Youngster (ID 1) Pursuit:** After numerous failed attempts (Turns 3406-3430) due to the NPC's constant movement, I am abandoning efforts to battle Youngster (ID 1) in Viridian City. This pursuit has proven highly inefficient and is stalling progress on acquiring funds.
+*   **New Financial Strategy:** Will now head north to Route 2 to find other trainers and earn money for Potions. Current funds: ¥156. Need at least ¥44 more for one Potion.
