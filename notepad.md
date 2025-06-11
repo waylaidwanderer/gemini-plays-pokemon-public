@@ -4,7 +4,7 @@
 *   **Tertiary Goal:** Safely defeat Youngster (ID 6) at (14,18) in Viridian Forest for money and additional EXP, but only after SPROUT is at a safer HP/level and a clear path to an adjacent tile is identified.
 
 # Agent Performance & Development
-*   **Pathing Script (`run_code` - URGENT HIGH PRIORITY):** Fixing the `run_code` A* pathing script (which failed on Turn 3097 by suggesting a move into an impassable tile) is critical. Use `pathing_script_analyzer_agent` at the *very next safe opportunity* (e.g., Pokémon Center). Current navigation difficulties are heavily impacted by its failure.
+*   **A* Pathing Script (`run_code` - Long-Term High Priority):** Fixing the A* pathing script (intended for `run_code`, which failed on Turn 3097 by suggesting a move into an impassable tile) is a long-term high priority for complex navigation. Use `pathing_script_analyzer_agent` at a safe opportunity (e.g., Pokémon Center). The `move_validator_agent` can be used for immediate verification of shorter paths.
 *   **`direct_pathing_agent` Issues (CRITICAL):** This agent (which does not use `run_code`) has repeatedly shown critical issues:
     *   When Pikachu is on the target tile, it often *only turns the player* instead of executing the full two-step move (turn then step) required.
     *   It frequently fails to correctly generate paths involving an initial turn followed by a move (e.g., player facing Up, target is Right, agent might only output 'Right' for the turn, not 'Right', 'Right' for turn then move).
