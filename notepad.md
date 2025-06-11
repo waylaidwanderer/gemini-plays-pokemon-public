@@ -112,3 +112,6 @@
 
 # Pokedex Status
 *   Caught: 3/151 (PIKACHU, ODDISH, VULPIX)
+
+# Pewter City Navigation Saga (Continued)
+*   Turn 4192: Attempt to move Down from (14,32) to (14,33) in Pewter City was blocked as tile (14,33) is impassable. Required re-routing to reach southern exit.
