@@ -114,17 +114,20 @@
 *   Super Nerd (ID 4, PEWTERCITY_SUPER_NERD2) at (24,26) facing Right: Non-battling. Dialogue: "That's right! It's hard work!" (Confirmed Turn 5107). No funds gained.
 *   Super Nerd (ID 3, PEWTERCITY_SUPER_NERD1) at (28,18) facing Up: Non-battling. Dialogue: "Weren't those fossils from MT. MOON amazing?" (Confirmed Turn 5134). No funds gained.
 
-# Hindsight & Lessons Learned
-*   Screen annotations for tile navigability can sometimes conflict with the underlying XML map data (e.g., tile (25,26) in Pewter City on Turn 5102 showed 'navigable: false' in annotation but was 'navigable: true' in XML). Always prioritize XML data as the source of truth for tile properties.
-*   Viridian Forest Navigation: Avoid planning overly long paths without intermediate checks. Use `move_validator_agent` more proactively for complex paths or break them into smaller, verifiable segments (5-10 steps). Prioritize exploring closer alternatives before committing to extensive backtracking.
-*   Pewter Pokecenter Navigation: Always verify tile navigability (`navigable="true"` in XML) for target interaction spots, especially around NPCs or counters. The tile (4,4) where Pikachu often stands is navigable, contrary to a previous incorrect note; the correct Nurse interaction spot is (4,5). The persistent collision error when moving from (3,4) to (4,4) citing an object at (5,4) needs further investigation if it recurs, but alternative pathing can bypass it.
-*   Risk Management: Engaging in multiple risky battles with a critically low HP Pokémon (like FLAREE in Viridian Forest) should be avoided unless the potential reward (e.g., crucial EXP for a level-up before a boss) outweighs the risk of fainting and blacking out. Prioritize healing when a key party member is vulnerable.
-*   Agent Usage & Updates: Act on planned agent definitions and prompt updates promptly (e.g., at PC visits or after critical tasks like healing) to continuously improve decision-making tools. Consistently use `map_analyzer_agent` for queries like tile navigability before attempting complex interactions.
-*   Notepad Precision: Ensure `old_text` for `replace` actions is exact and refers to the most recent version of the text in the notepad to prevent update failures.
-*   NPC Location Verification: Consistently verify NPC locations using `Map Sprites` data before planning paths or interactions. My misidentification of Super Nerd ID 4's location across multiple turns (5095-5102) was due to not checking the latest `Map Sprites` data each turn.
-
-# Pewter City Dynamic Tile Changes
-*   Tile (35,23) changed from ground to impassable during movement on Turn 5112. This occurred while pathing towards Super Nerd (ID 3) but was not on the direct path.
+# Hindsight & Lessons Learned (Consolidated)
+*   **Data Integrity:** Prioritize XML map data over screen annotations for tile properties (navigability, type).
+*   **NPCs & Interaction:**
+    *   Verify NPC locations using `Map Sprites` data *each turn* before pathing or interacting.
+    *   Use `npc_interaction_planner_agent` proactively in complex/unfamiliar areas or when encountering interaction issues.
+*   **Pathing & Navigation:**
+    *   For long/complex paths (e.g., Viridian Forest), use `move_validator_agent` or break into smaller, verifiable segments (5-10 steps).
+    *   Prioritize exploring closer alternatives before extensive backtracking.
+*   **Agent Strategy:**
+    *   Act on planned agent definitions/updates promptly (e.g., at PC visits).
+    *   Proactively use query agents like `map_analyzer_agent` to confirm tile properties before committing to movement, especially if screen annotations conflict with XML.
+    *   Trust agent pathing logic more; refine prompts if outputs are consistently problematic rather than frequently overriding manually.
+*   **Risk Management:** Avoid multiple risky battles with critically low HP Pokémon unless reward outweighs risk of blackout. Prioritize healing vulnerable key party members.
+*   **Notepad Edits:** Ensure `old_text` for "replace" actions is exact and matches the *most recent* notepad version.
 
 *   Tile (35,22) changed from ground to impassable during movement on Turn 5115. This occurred while pathing towards Super Nerd (ID 3) but was not on the direct path.
 
