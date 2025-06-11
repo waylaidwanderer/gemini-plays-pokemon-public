@@ -165,3 +165,6 @@
 
 # Hindsight & Lessons Learned (Continued)
 *   `stun_npc` Tool Ineffectiveness (Scripted Events): Using `stun_npc` on Youngster (ID 5) in Pewter City (Turn 5222) did NOT prevent his scripted escort event from triggering when entering the known trigger zone (e.g., (34,19) on Turn 5223). The tool reported him as 'already stopped,' but the event still occurred. This suggests that the `stun_npc` tool may not be effective against all types of scripted NPC behaviors, particularly those that forcefully move the player or initiate dialogue based on proximity triggers rather than just NPC movement.
+
+# Pewter City Navigation Notes (Continued)
+*   Turn 5241: `scripted_event_tracker_agent` warned at (31,20) that player is close (Chebyshev distance 1) to trigger 'Youngster_Escort_Pewter' at (30,19) with radius 2. Message: "One more step could trigger it. No direct bypass found, proceed with caution."
