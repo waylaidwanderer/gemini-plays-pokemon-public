@@ -72,13 +72,13 @@
 *   **Agent Usage & Updates:** Act on planned agent definitions and prompt updates promptly (e.g., at PC visits or after critical tasks like healing) to continuously improve decision-making tools. Consistently use `map_analyzer_agent` for queries like tile navigability before attempting complex interactions.
 *   **Notepad Precision:** Ensure `old_text` for `replace` actions is exact and refers to the most recent version of the text in the notepad to prevent update failures.
 
-# Agent Brainstorming & Review (Post-Turn 4944 Reflection)
-*   **New Agent Ideas (To Define/Discard):**
-    *   `notepad_query_agent`: Searches notepad for specific info. (Action: Define or Discard)
+# Agent Brainstorming & Review (Turn 5002)
+*   **New Agent Ideas:**
+    *   `notepad_query_agent`: Searches notepad for specific info. (Action: Define. Delete `leveling_training_advisor_agent` for space.)
     *   `battle_strategy_advisor_agent`: Suggests moves in battle based on type matchups, PP, HP, etc. (Action: Define or Discard)
-*   **Existing Agent Review (Action: Review/Update Prompt or Delete):**
-    *   `leveling_training_advisor_agent`: Review prompt for Hard Mode relevance (trainer battlability caution, wild grinding focus).
-    *   `team_builder_agent`: Review prompt for Hard Mode relevance (no items, set mode, level caps).
+*   **Existing Agent Review:**
+    *   `leveling_training_advisor_agent`: (Action: Delete to make space for `notepad_query_agent`)
+    *   `team_builder_agent`: Review prompt for Hard Mode relevance (no items, set mode, level caps). (Action: Review/Update Prompt or Delete)
 
 # Party & Gameplay Notes (Post-Turn 4994)
 *   Current Party Order: SPARKY (lead), FLAREE, SPROUT.
