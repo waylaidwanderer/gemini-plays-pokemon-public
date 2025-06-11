@@ -31,7 +31,7 @@
 # Agent & Pathing Notes
 *   **`map_analyzer_agent` Issues:** Provided flawed paths multiple times (e.g., Turn 4706 to Viridian Pokecenter, Turn 4707 in Viridian Forest to (20,36), Turn 4707 path to (2,1)). Paths need strict validation (use `move_validator_agent`) or execution in smaller, verifiable segments. Prompt needs update (navigability, warps).
 *   **`exploration_planner_agent` Limitation:** Failed to path to known exit when no unseen tiles (Turn 4698). Prompt needs update for direct pathing scenarios.
-*   **Youngster Gym Escort Event (Pewter City):** Youngster NPC (ID 5, usually at (36,17)) triggers escort at/near (38,19) from west/south-west. Avoid trigger zone.
+*   **Youngster Gym Escort Event (Pewter City):** Youngster NPC (ID 5), found near eastern side of city (e.g. (36,17)), triggers an escort to the Gym entrance at (12,19). Dialogue after escort: "If you have the right stuff, go take on BROCK!". This NPC does not battle for funds. The trigger zone was previously noted near (38,19) but also occurred from interaction at (35,17). (Confirmed Turn 5144).
 
 # Agent Management (Pewter Pokecenter - Turn 4933)
 *   **High Priority Agents Defined/Updated:**
