@@ -216,3 +216,6 @@
 
 # NPC Behavior & Interaction (Turn 3415 - Viridian City)
 *   Attempted to interact with Youngster (ID 1) at (14,18) from (14,19) facing up by pressing 'A'. Interaction failed (no text). Youngster moved to (13,20) facing down. This NPC's frequent movement makes targeting for battle difficult.
+
+# NPC Behavior Update (Turn 3417 - Viridian City)
+*   Youngster (ID 1) continues to move frequently. Was at (11,19), now at (10,22) facing left. Targeting for battle remains difficult due to constant repositioning.
