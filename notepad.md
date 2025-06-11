@@ -46,7 +46,7 @@
     - Poison SE vs Bug (CONFIRMED: BELLA's Acid (Poison) SE vs Lv13 Butterfree (Bug/Flying) on Route 24).
     - Bug NVE vs Poison (CONFIRMED: Beedrill's Pin Missile (Bug) NVE vs ECHO (Poison/Flying) on Route 24).
     - Grass 0.25x vs Poison/Flying (Observed).
-    - Poison NVE vs Poison (Observed: Acid vs Ekans, and likely applies to Zubat which is Poison/Flying).
+    - Poison NVE vs Poison (CONFIRMED: Acid vs Ekans, and likely applies to Zubat which is Poison/Flying).
     - Stun Spore (Grass-type status) failed against Mankey (Fighting) and Ekans (Poison), suggesting type-based immunities to Grass status moves.
     - Electric-type moves (e.g., Thundershock) are NEUTRAL against Poison/Flying types like Zubat.
 *   **Stat Boosts:** Pikachu, Farfetch’d, Venomoth, Onix.
