@@ -64,3 +64,6 @@
 *   Older battle logs, detailed early game event triggers, specific NPC dialogue not immediately relevant.
 *   Repel Mechanics: Lead Pokémon level must be *strictly greater* than wild Pokémon level.
 *   `exploration_planner` Misuse: Agent is strictly for 'Reachable Unseen Tiles', not for paths to known, seen tiles.
+
+# Significant Map Changes (Pewter City)
+*   **Turn 3921:** Tiles (27,15), (27,16), (27,17), and (27,18) changed from 'impassable' to 'ground'. This occurred while I was at (22,17) after attempting a path suggested by `map_analyzer_agent`. The cause is unknown but this opens up a new vertical path east of the Mart.
