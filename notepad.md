@@ -251,3 +251,5 @@
 - This self-correction needs to be added to 'Reflection & Strategy Adjustments (Turn 3558+)' and 'Navigation Strategy & Best Practices' for consolidation.
 
 *   **Agent-Assisted Pathing (Backup):** If manual pathfinding continues to be problematic, consider using `map_analyzer_agent` to explicitly request a path to the desired destination (e.g., 'Find path to Viridian Forest North Exit').
+
+*   **Notepad Efficiency (Critique Takeaway):** Aim for more concise notes. Summarize repeated failures instead of logging each instance. Ensure plans are based on verified map data. Consolidate related notes for better readability.
