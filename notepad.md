@@ -205,32 +205,5 @@
 # Agent Management Update (Turn 3404 - Viridian City)
 *   Successfully defined `move_validator_agent`. This brings the total active agents to 10 (the maximum allowed).
 
-# Agent Usage & NPC Behavior (Turn 3407 - Viridian City)
-*   `npc_interaction_planner_agent` (called on turn 3406) provided a plan for Youngster (ID 1) based on his position at (13,22). However, the Youngster moved to (12,19) by turn 3407, rendering the agent's plan outdated. This highlights the need to re-verify NPC positions before acting on agent plans if significant time or movement has occurred.
-
-# NPC Behavior Update (Turn 3409 - Viridian City)
-*   Youngster (ID 1) continues to move frequently. Was at (12,21), now at (9,19). This erratic movement makes targeting him for a battle challenging and requires constant re-planning of approach.
-
-# NPC Behavior Update (Turn 3411 - Viridian City)
-*   Youngster (ID 1) has moved again, now to (16,20) facing right. My current position is (13,20) facing up.
-
-# NPC Behavior & Interaction (Turn 3415 - Viridian City)
-*   Attempted to interact with Youngster (ID 1) at (14,18) from (14,19) facing up by pressing 'A'. Interaction failed (no text). Youngster moved to (13,20) facing down. This NPC's frequent movement makes targeting for battle difficult.
-
-# NPC Behavior Update (Turn 3417 - Viridian City)
-*   Youngster (ID 1) continues to move frequently. Was at (11,19), now at (10,22) facing left. Targeting for battle remains difficult due to constant repositioning.
-
-# NPC Behavior Update (Turn 3418 - Viridian City)
-*   Youngster (ID 1) moved from (10,22) to (11,23) facing right. This NPC is proving very difficult to pin down for a battle.
-
-# NPC Behavior Update (Turn 3420 - Viridian City)
-*   Youngster (ID 1) has moved *again*, now to (9,20) facing up. He was previously at (10,23). This is becoming a real chase.
-
-# NPC Behavior Update (Turn 3422 - Viridian City)
-*   Youngster (ID 1) moved from (11,20) to (12,23) facing down. This chase continues.
-
-# NPC Behavior Update (Turn 3423 - Viridian City)
-*   Youngster (ID 1) moved from (12,23) to (10,21) facing up. He is now directly to my left.
-
-# NPC Behavior Update (Turn 3424 - Viridian City)
-*   Youngster (ID 1) moved from (10,21) to (10,18) facing up.
+# NPC Behavior Summary (Turns 3407-3424 - Viridian City)
+*   Youngster (ID 1) has been extremely mobile, frequently changing positions (e.g., (12,19), (9,19), (16,20), (13,20), (10,22), (11,23), (9,20), (12,23), (10,21), (10,18)) between turns 3407 and 3424. This has made interaction attempts consistently fail, rendering reactive pursuit highly inefficient. An `npc_interaction_planner_agent` call on turn 3406 was quickly outdated. An 'A' press on turn 3415 failed due to NPC movement.
