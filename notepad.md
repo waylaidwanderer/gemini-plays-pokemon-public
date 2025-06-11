@@ -177,3 +177,8 @@
 
 # Agent Notes (Turn 4698)
 *   `exploration_planner_agent` returned an empty path when trying to navigate to a specific coordinate (Viridian Forest North Exit) with no 'Reachable Unseen Tiles' present. This suggests the agent's logic might prioritize unseen tiles exclusively, or fails to generate a direct path to a known coordinate if no unseen tiles exist. Prompt needs review for this use case.
+
+# Notepad & Agent Management (For next PC Session)
+*   Consolidate all 'Agent Ideas Brainstorm' and 'New Agent Ideas' sections. Decide whether to define these agents, update existing ones, or discard the ideas.
+*   Verify existence of `advanced_pathfinder_agent` / `direct_pathing_agent` and delete if found and unused. Consider deleting other low-usage agents after prompt review.
+*   Perform full notepad review and cleanup using `overwrite` if feasible, or sectional replacement.
