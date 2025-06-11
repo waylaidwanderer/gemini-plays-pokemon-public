@@ -143,3 +143,6 @@
 - Oddish (ID 3) at (2,5) in Melanie's House: Dialogue 'ODDISH: Orddissh!' - Interacted.
 
 - Sandshrew (ID 4) at (6,4) in Melanie's House: Dialogue 'SANDSHREW: Pikii!' - Interacted.
+
+# Cerulean Bike Shop Notes
+*   Bike Shop Clerk at (7,3) offers a BICYCLE for ¥1,000,000.
