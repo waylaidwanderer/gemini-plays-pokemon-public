@@ -167,3 +167,6 @@
 
 # Tool Usage Discoveries
 *   `manage_world_knowledge` `add_node`: Requires a self-generated unique string for the `id` field in the payload, contrary to initial assumption that it was auto-generated if omitted. Example: `{"id": "my_unique_node_id", ...}`.
+
+## Battle Discoveries & Type Matchups (Ongoing)
+*   **Poison vs. Bug/Flying (Butterfree):** BELLA's Acid (Poison) was super effective against a Lv13 Butterfree (Bug/Flying). This strongly suggests Poison-type moves are super effective against Bug-type Pokémon in this ROM hack. Needs further verification with pure Bug types and pure Flying types if possible. (Route 24, Turn 10206)
