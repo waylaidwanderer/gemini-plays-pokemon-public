@@ -27,7 +27,7 @@
 # Current Goals
 *   **Primary Goal:** Obtain the Thunder Badge from Lt. Surge in Vermilion City.
 *   **Secondary Goal:** Reach Vermilion City and prepare for Lt. Surge (level cap 24).
-*   **Tertiary Goal:** Catch new Pokémon in areas around Cerulean City and on the way to Vermilion.
+*   **Tertiary Goal:** Explore Cerulean City for a path south or a new route.
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
