@@ -62,11 +62,12 @@
 *   **Financial Planning (DEFERRED):** Re-assess funds and purchase Potions if affordable.
 
 # Current Pokémon Status
-*   SPROUT (ODDISH): Lv7 (25/25 HP, EXP: 262). Moves: TACKLE, POISONPOWDER.
 *   SPBARKY (PIKACHU): Lv12 (39/39 HP, EXP: 1728). **AT LEVEL CAP (12).** Moves: THUNDERSHOCK, TAIL WHIP, QUICK ATTACK, THUNDER WAVE.
+*   SPROUT (ODDISH): Lv7 (25/25 HP, EXP: 262). Moves: TACKLE, POISONPOWDER.
+*   FLAREE (VULPIX): Lv7 (3/24 HP, EXP: 343). Moves: EMBER, TAIL WHIP, QUICK ATTACK.
 
 # Inventory & Finances
-*   POKé BALL x2
+*   POKé BALL x1
 *   Money: ¥156
 
 # Hard Mode Rules & ROM Hack Changes (Summary)
