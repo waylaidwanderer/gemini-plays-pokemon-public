@@ -143,3 +143,7 @@
 ## Gameplay Notes & Strategy (Updates from Critique)
 ### Battle Strategy
 *   **Confirm Full Defeat:** Always ensure a trainer has no more Pokémon before assuming victory and moving on. Some trainers may have more Pokémon than initially apparent.
+
+# Battle Notes vs Misty (Cerulean Gym)
+*   Misty's first Pokémon: Psyduck Lv19 (Defeated by BELLA).
+*   BELLA (Lv21, at level cap) supposedly gained 325 EXP from Psyduck. Current EXP: 6458. (To be verified if actual EXP changed).
