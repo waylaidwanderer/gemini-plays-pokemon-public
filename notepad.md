@@ -192,3 +192,13 @@
 *   **PIDGEY (Route 24 Lass vs ZAPPY Lv18):** Confirmed faster. Uses Sand-Attack repeatedly. (Observed Turn 10350+)
 
 - Lass (ROUTE24_COOLTRAINER_F1) (ID 4) at (ROUTE_24 11,23) - Defeated. Pokémon: PIDGEY Lv16, NIDORAN♀ Lv16.
+
+# Future Agent Ideas
+- Wild Encounter Strategist: Advise on fight/run/catch based on party, Pokédex, goals, level caps. Suggest lead for escape/capture.
+- Level Cap Progress Tracker: Track party levels against caps, calculate EXP needed for next cap.
+- Item/TM Use Prioritizer: Holistic review of inventory and party for optimal long-term item/TM allocation.
+
+# Lessons Learned from Critiques & Gameplay
+- Resource Management: Protracted battles against single Pokémon (e.g., Pidgey on R24) can severely deplete party resources. Re-evaluate strategy if a battle drags on and consider retreating to heal sooner, especially in a gauntlet.
+- Accuracy Debuffs (e.g., Sand-Attack): Stacked accuracy debuffs are extremely detrimental. Consider switching out debuffed Pokémon sooner, even if it means taking a hit on a fresh Pokémon. Moves with <100% base accuracy become highly unreliable.
+- Critical Agent Evaluation: While agents provide valuable advice, critically evaluate their recommendations, especially if they rely on unconfirmed assumptions (e.g., speed tiers) or if following their advice repeatedly leads to unfavorable situations (e.g., due to persistent debuffs not fully accounted for by the agent's initial assessment).
