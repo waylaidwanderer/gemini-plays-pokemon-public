@@ -22,10 +22,14 @@
 *   REPEL x50 - Purchased from Cerulean Mart.
 *   ESCAPE ROPE x2 - Purchased from Cerulean Mart.
 
-# Current Goals & Navigation Plan
+# Current Goals
 *   **Primary Goal:** Obtain the Thunder Badge from Lt. Surge in Vermilion City.
 *   **Secondary Goal:** Reach Vermilion City and prepare for Lt. Surge (level cap 24).
 *   **Tertiary Goal:** Find and assist Bill on Route 25.
+
+# Gameplay Notes & Strategy (Update)
+## Financials
+* Current Money: ¥8922 (as of Turn 10600)
 
 # Gameplay Notes & Strategy
 ## Navigation & Exploration
