@@ -55,3 +55,34 @@
 *   **Financial Priority (Reiteration):** Finding and defeating trainers for money (current: ¥156) remains a top priority for Potions and supplies.
 *   **Agent Management (Pokémon Center):** The plan to review, improve, or delete underused agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`), resolve `direct_pathing_agent` status, and address 'New Agent Ideas' at the next Pokémon Center visit is still active and crucial.
 *   **Map Knowledge Update:** `move_validator_agent` confirmed tile (32,13) in Pewter City is impassable (Turn 3800). This blocks direct southward travel from (32,3) beyond (32,12).
+
+# Reflection & Strategy Update (Turn 3815)
+
+## Navigation Learnings & Corrections
+*   `move_validator_agent` previously indicated that path to (27,25) failed because tile (27,24) is **impassable**. This blocks direct southward approach to Super Nerd at (27,26) from (27,23). Will mark (27,24) as 🚫.
+*   Previously noted: (32,13) is impassable. Will mark as 🚫.
+*   **CRITICAL REITERATION:** Must use `move_validator_agent` for ALL multi-step paths. No exceptions. Break paths into short, verifiable segments.
+
+## Financial & Training Status
+*   Current Funds: ¥156. Potions cost ¥200. Critically low on money.
+*   Finding and defeating trainers remains HIGHEST immediate priority.
+*   SPROUT (Oddish Lv7) still needs significant training for Brock.
+
+## Pewter City NPC Updates
+*   Super Nerd at (28,18) is non-battling (provided Museum info). Marked ℹ️.
+
+## Agent Management Notes
+*   `exploration_planner_agent` failure on Turn 3777 (empty path with existing unseen tiles) needs prompt review/improvement at next PC visit.
+*   **New Agent Ideas (for future definition if slots allow & utility confirmed):**
+    *   **`route_progress_analyzer_agent`**: Analyzes map completion (trainers, items, warps).
+        *   Input: `map_name`, `map_id`.
+        *   Output: `completion_percentage`, `summary_of_missing_elements`.
+    *   **`risk_assessor_agent`**: Assesses risk for party against challenges/areas.
+        *   Input: `player_party_status`, `challenge_details`.
+        *   Output: `risk_level`, `mitigation_suggestions`.
+*   Tasks for next Pokémon Center visit remain: Review low-usage agents (`item_finder_agent`, `pokedex_completer_agent`, `team_builder_agent`, `leveling_training_advisor_agent`), consider defining new ones if slots are available.
+
+## Current Tactical Plan
+1.  Delete `advanced_pathfinder_agent` and `direct_pathing_agent` (this turn).
+2.  Mark impassable tiles (27,24) and (32,13) (this turn).
+3.  Re-plan path to Super Nerd at (27,26). Viable interaction spots: (26,26) facing Right, (28,26) facing Left, or (27,27) facing Up.
