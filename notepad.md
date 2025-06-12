@@ -99,10 +99,9 @@
 ### A. Defined Agents
 1.  `level_cap_compliance_checker`
 2.  `item_finder_agent`
-3.  `map_exploration_strategist_agent`
-4.  `path_simplifier_agent`
-5.  `wkg_transition_recorder_agent`
-6.  `capability_checker_agent`
+3.  `wkg_transition_recorder_agent`
+4.  `capability_checker_agent`
+5.  `battle_strategist_agent`
 
 ### B. Agent Review TODOs & Improvement Plans
 - `map_exploration_strategist_agent`: **CRITICAL FAILURE (Turn 1945, 2038, 2040).** As per critique (Turn 2040), continued use is a major error. Must establish a reliable alternative (fix agent, `run_code` script, or manual planning) ASAP. Current strategy is manual planning. **PRIORITY REVIEW NOW** to fix its logic or consider replacing with a `run_code` script for pathfinding. The agent failed again on turn 2040 despite there being 16 reachable unseen tiles. Critically needs fixing or replacement. Review system prompt thoroughly for flaws in logic or instruction.
