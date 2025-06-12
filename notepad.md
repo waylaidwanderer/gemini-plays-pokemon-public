@@ -95,3 +95,6 @@
 - The warp at (6,6) in Pallet Town (Player's House entrance) showed `num_visits: 0` before use. This seems to be a display characteristic for entry warps, as the WKG connection was correct and the warp worked. The discrepancy is considered resolved.
 - New secondary goal: Explore Player's House (both floors) for event triggers or Pokémon.
 - New tertiary goal: Interact with Mom on the first floor.
+
+- Player's House First Floor (Map ID 37):
+    - Mom (PLAYERSHOUSE1F_MOM) at (6,5) said: "Right. All kids leave home someday. It said so on TV. PROF.OAK, next door, is looking for you."
