@@ -109,4 +109,4 @@
 - Ticket to main exhibit costs ¥50. Cannot afford with ¥33. Declined entry.
 - Exploring alternative paths and the unvisited warp at (8,8).
 
-- Museum 1F: Unexpected movement from (10,5) to (10,6) (player facing down) after closing 'Come again!' dialogue from ticket seller (at (11,5)) on turn 1741. Player was at (10,5) facing up prior to dialogue. Possible pushback mechanic after repeated interaction or from specific tile.
+- Museum 1F: After closing dialogue with the ticket seller (at (11,5)), player character is sometimes repositioned (e.g., from (10,5) to (10,6)). This is likely standard post-dialogue character repositioning, not a special 'pushback mechanic' or unique property of tile (10,5). Repeatedly triggered dialogue with ticket seller (turns 1735-1752+) due to not moving away from interaction zone after declining. Need to ensure moving clear of the counter area to avoid re-triggering.
