@@ -104,3 +104,5 @@
 - Viridian Nickname House (Map 44): Attempted to interact with Little Girl at (2,8) while I was at (3,8) facing left, but interaction failed as she had moved from (2,8) to (2,6). (Turn 640)
 
 - Balding Guy - Viridian Nickname House (6,4) - 'Coming up with nicknames is fun, but hard. Simple names are the easiest to remember.'
+
+- Viridian Nickname House (Map 44): Pathfinder agent's path (Up, Up, Left, Left, Left, Down) from (6,5) to (3,4) failed. First 'Up' from (6,5) to (6,4) was blocked. (6,4) is occupied by Balding Guy. Hypothesis: Cannot move onto a tile occupied by a stationary NPC. (Attempt 1 of this hypothesis).
