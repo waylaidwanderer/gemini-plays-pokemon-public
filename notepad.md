@@ -7,15 +7,15 @@
 *   **Current Location:** (17,19) in Pewter City.
 *   **Immediate Goal:** Reach Pewter Pokecenter at (14,26) to heal FLAREE (6/26 HP). See 'Pewter Pokecenter Access' plan below.
 *   **Youngster (ID 5) Status:** Currently at (36,17). He triggers an escort event if approached in eastern Pewter City (e.g., from (37,19), (38,19), (30,19)), moving player to (12,19).
-*   **Post-Healing Plan for Route 3 (East Pewter Exit at (40,19) - Revised Turn 5597)**:
-    *   Current position: (35,30) facing Up. Pikachu at (35,31).
-    *   Blockage Update: `move_validator_agent` confirmed tile (35,26) is impassable, blocking northward movement on X=35 beyond (35,27). Previous plan to reach (35,19) or (35,18) via X=35 is invalid.
-    *   The X=36 column is impassable from Y=21 down to Y=32.
-    *   **New Plan (EXTREMELY HIGH RISK of Youngster escort):**
-        1.  From (35,30), move North to (35,27). (3 steps Up)
-        2.  From (35,27), move East to (40,27). Path: (35,27)->(36,27)->(37,27)->(38,27)->(39,27)->(40,27).
-        3.  This path passes very close to Youngster (ID 5) at (36,17) and is highly likely to trigger an escort.
-        4.  From (40,27), move North to (40,19) (Route 3 exit).
+*   **Post-Healing Plan for Route 3 (East Pewter Exit at (40,19) - Revised Turn 5599)**:
+    *   Current position: (35,27) facing Up. Pikachu at (35,28).
+    *   Blockage Update: Tile (36,27) is impassable (visually confirmed from screen), blocking eastward movement from (35,27). The previous plan to move east from (35,27) is invalid. Attempt #1 to move east from Y=27 failed.
+    *   The X=36 column is impassable from Y=21 down to Y=32, and also at Y=27-Y=30 (house structures).
+    *   **New Plan (Still HIGH RISK of Youngster escort for eastern leg):**
+        1.  From (35,27), move West to (34,27). (2 button presses: Turn L, Move L)
+        2.  From (34,27), move North to (34,19). (8 steps Up)
+        3.  From (34,19), move East to (40,19) (Route 3 exit). Path: (34,19)->(35,19)->(36,19)...->(40,19).
+        4.  This eastern leg passes (36,19), which is very close to Youngster (36,17) and likely a trigger zone.
         5.  If escorted, will need to re-evaluate from Gym entrance (12,19).
 *   **Known Pathing Obstacles in Western/Central Pewter (near Pokecenter/Gym):**
     *   (19,19) - Impassable (blocks eastward movement from Gym area pocket).
