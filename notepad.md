@@ -49,12 +49,12 @@
 
 - Wild ODDISH Lv5 defeated in Viridian Forest (approx (19,38)). FLAREE used Ember (crit, super effective). Enemy used PoisonPowder, FLAREE poisoned. Message: SPBARKY gained 27 EXP (no change, still 1728, capped). FLAREE gained 27 EXP (781 -> 808).
 
-# Current Manual Path (Viridian Forest North Exit)
-*   Reason: Previous agent paths failed (led to sign, LLM error, or based on flawed assumptions like pathing through (19,32) which is blocked). Current location (19,33) is blocked upwards. Pathing agents are unreliable in this area. Adopting decisive manual pathing to exit quickly.
-*   Objective: Reach (9,30) via a 15-step westward and northward path to access the NW quadrant leading to the exit.
-*   Planned Presses (16 total: 2 for Pikachu interaction, 14 for subsequent moves): ['Left', 'Left', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Up', 'Up']
-*   Destination: (9,30)
-*   FLAREE HP projection: Start 17/28 -> End 14/28.
+# Current Manual Path (Viridian Forest North Exit) - Attempt 2
+*   Reason: Previous manual path from (19,33) was interrupted at (10,33) due to blockage at (10,32). FLAREE HP at 14/28 (poisoned). Previous path goal of (9,30) is still valid starting point for this segment.
+*   Objective: Reach (7,29) via a 7-step path, continuing towards the NW quadrant and forest exit.
+*   Planned Presses (7 total): ['Left', 'Up', 'Up', 'Up', 'Left', 'Left', 'Up']
+*   Destination: (7,29)
+*   FLAREE HP projection: Start 14/28 -> End 13/28.
 
 # Pathing Agent Failures (Viridian Forest)
 *   `map_analyzer_agent` (Path to North Exit from (22,41)) - Attempt 1: Path led to impassable sign at (25,41). Attempt 2 (Turn 6443): Agent LLM error, no path provided.
