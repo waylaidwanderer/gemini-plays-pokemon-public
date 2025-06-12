@@ -70,7 +70,7 @@
 
 ### Agent Review TODOs:
 - `map_exploration_strategist_agent`: Review prompt/code due to frequent failures. Default to manual pathing if unreliable. **Decision: Review prompt after exploring Nidoran House, before seeking Gym.**
-- `item_finder_agent`: Review prompt for better city building identification. Review utility - may delete if not serving purpose. **Decision: Will review prompt and utility after current exploration phase. If still unreliable, will delete.**
+- `item_finder_agent`: Review prompt for better city building identification. Review utility - may delete if not serving purpose. **Decision: Review prompt and utility after exploring Nidoran House. If still unreliable, will delete.**
 
 ### General TODOs:
 - Systematically mark used warps (both ends) with 🚪 emoji, noting destination map and coordinates/entry point, using WKG for reference. **(Active)**
