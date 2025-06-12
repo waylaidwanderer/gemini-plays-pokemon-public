@@ -42,7 +42,9 @@
 - **water**: Requires Surf.
 - **grass**: Wild encounters.
 - **ledge**: Jump down only.
-- **NPC Blocking**: Cannot move onto a tile occupied by a stationary NPC if it's the first step of a path from pathfinder. (Hypothesis - Attempt 1, Turn 649, Balding Guy in Nickname House). If an NPC is directly adjacent in the path and player isn't facing them, first press turns, second *may* move if NPC is not a hard blocker.
+- **NPC Blocking**:
+  - Cannot move onto a tile occupied by a stationary NPC if it's the first step of a path from pathfinder. (Hypothesis - Attempt 1, Turn 649, Balding Guy in Nickname House (6,4) from (6,5) facing Up - pathfinder failed to account for this).
+  - Cannot move directly onto a tile occupied by a stationary NPC by pressing in their direction when adjacent and facing them. (Confirmed for Balding Guy in Nickname House at (6,4) - 2 attempts, Turns 648-649. Confirmed for Girl in Viridian City at (18,10) - 2 attempts, Turns 666-667, after facing her in T665).
 - **Pikachu Movement**: If Pikachu is adjacent in movement direction & player not facing him, 2 presses needed (1st turns, 2nd moves). Normal otherwise.
 - **PC Interaction**: Stand below, face up, press A.
 
