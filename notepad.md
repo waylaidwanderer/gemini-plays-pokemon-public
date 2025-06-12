@@ -112,7 +112,8 @@
 - `capability_checker_agent`: Untested. Seek opportunity to test or reassess necessity.
 
 ### C. Agent Development Ideas
-- None critical at this time. Focus on improving existing agents.
+- Battle Strategist Agent: Input current/enemy Pokémon details, output suggested battle action (attack, switch, move). Could be very useful for Hard Mode strategy.
+- Focus on improving existing agents.
 
 ## V. Lessons Learned & Strategic Refinements
 
