@@ -43,3 +43,8 @@
 
 # EXP Tracking & Observations
 *   Wild Pokémon battles yield EXP for uncapped Pokémon. Pokémon at the level cap (e.g., SPBARKY at Lv12 with 0 badges) will show an EXP gain message but their actual EXP value will not change.
+
+# Agent Ideas (from reflection turn 5974)
+*   **Level Cap Advisor Agent**: Input: current badges. Output: current level cap, next level cap, and whose ace Pokémon determines the next cap. (No `run_code` needed).
+*   **EXP Farming Spot Suggester Agent**: Input: Pokémon to train, current level, target level, known good EXP spots. Output: Suggested locations and potential wild Pokémon. (Might benefit from `run_code`).
+*   **PP Management Agent**: Input: Current party PP, upcoming battles/route length. Output: Suggestions on PP conservation, when to consider returning to a Pokecenter. (Would need `run_code`).
