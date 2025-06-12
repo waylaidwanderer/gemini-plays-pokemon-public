@@ -107,3 +107,8 @@
 ## Viridian Mart (Turn 734+)
 - Received OAK'S PARCEL from the clerk at (1,6). New objective: Deliver to Prof. Oak in Pallet Town.
 - Clerk at (1,6) gave OAK'S PARCEL.
+
+## Viridian Mart (Turns 734+)
+- Received OAK'S PARCEL from the clerk at (1,6). New objective: Deliver to Prof. Oak in Pallet Town.
+- Clerk at (1,6) gave OAK'S PARCEL.
+- Attempted to buy Poké Balls from clerk at (1,6) three times after receiving parcel (Turns 741, 743, 744). Each time, clerk repeated 'Okay! Say hi to PROF.OAK for me!' and did not open shop. Hypothesis: Shop is locked until OAK'S PARCEL is delivered.
