@@ -120,3 +120,5 @@
 - Entered Pewter Nidoran House (ID 55) from Pewter City (ID 2) via warp at (30,14) in Pewter City, arriving at (3,8) in Nidoran House (EP4). WKG updated.
 - Current plan: Explore this house, interact with NPCs (Little Boy at (4,6), Nidoran M at (5,6)).
 - Reminder: Prioritize reviewing `map_exploration_strategist_agent` and `item_finder_agent` prompts soon.
+
+- Traded Pokémon (outsiders) grow fast but might ignore unskilled trainers. BADGEs help ensure they obey. (Learned in Pewter Nidoran House)
