@@ -41,3 +41,6 @@
 
 # Encounter Issues & Stalled Progress (Route 3 - Turn 6908)
 *   **Cool Trainer F (ID 4) at (17,10) on Route 3:** Encountered dialogue loop ("Quit staring if you don't want to fight!"). Pressing 'A' multiple times (at least 4 attempts across turns 6905-6908) did not initiate battle. Current hypothesis: interaction is bugged, trainer might have already been defeated (unlikely, as this is a new area section after a ledge jump and no marker exists), or a different trigger is needed. Abandoning interaction for now to explore other parts of Route 3.
+
+# Encounter Issues & Stalled Progress (Route 3 - Turn 6939)
+*   **Youngster (ID 2) at (11,7) on Route 3:** Encountered dialogue loop ('than those found in the forest!'). Pressing 'A' (6 times: turns 6932-6936, 6938) and 'B' (1 time: turn 6937) did not initiate battle or clear dialogue. Total 7 failed attempts. Abandoning interaction to proceed with other trainers/exploration. Will mark on map.
