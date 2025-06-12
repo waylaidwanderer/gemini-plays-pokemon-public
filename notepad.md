@@ -162,3 +162,11 @@
 - Be more cautious with HP management, especially before trainer battles. Avoid optional trainers if party is weak. (Learned from Viridian Forest blackout Turn 1137).
 - Carefully plan routes in cities to avoid re-entering buildings after exiting them, especially Pokecenters. (Learned from Viridian City loop Turns 1140-1152).
 - My understanding of Poison vs Flying type matchup was flawed (Turn 1177). Gust (Flying) was super effective on SPROUT (Grass/Poison). This means Flying > Grass and/or Flying > Poison. Need to verify full type chart.
+
+## Hypothesized Type Matchups (To Be Verified)
+- Flying > Grass (Likely based on Gust vs SPROUT, Turn 1177)
+- Flying > Poison (Likely based on Gust vs SPROUT, Turn 1177)
+
+## Type Matchup Discoveries (Verified)
+- Ghost > Psychic.
+- Poison > Bug; Bug !> Poison.
