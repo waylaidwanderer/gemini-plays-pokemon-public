@@ -99,3 +99,5 @@
 
 - **Route 1 (Map ID 12):**
     - Youngster at (6,26) is not a trainer. Gave player x1 Potion and mentioned Poké Marts sell Poké Balls. (Interacted at turn 397)
+
+- SPARKY (Pikachu) defeated a wild Pidgey (Lv4) on Route 1 at (13,23). SPARKY gained 31 EXP (222 -> 253).
