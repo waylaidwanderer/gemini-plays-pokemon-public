@@ -1,7 +1,7 @@
-# Current Plan - Route 22 & Pewter City
-*   **Objective:** Fully explore Route 22 for any remaining items/trainers. Then, proceed to Pewter City to challenge Brock.
-*   **Reason:** Acquired ¥280 from SPB (total ¥436). Need to clear current route before progressing. Primary goal is Boulder Badge.
-*   **Status:** On Route 22 at (30,5). Rival SPB defeated. Exploring unseen tiles.
+# Current Plan - Route 22 & Viridian City
+*   **Objective:** Fully explore Route 22 (northern grass strip). Then, return to Viridian City and proceed north to Route 2 towards Pewter City.
+*   **Reason:** Route 22 is almost clear. Primary goal is Boulder Badge in Pewter.
+*   **Status:** On Route 22 at (31,9). Navigating northern grass strip to clear remaining unseen tiles.
 
 # Lessons Learned & Game Mechanics
 *   **Pewter Youngster Escort (Route 3 Blocker):** Youngster (ID 5, trigger near (36,17) in Pewter) blocks Route 3. Avoid this area for now.
