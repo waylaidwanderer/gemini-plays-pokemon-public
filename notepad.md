@@ -86,3 +86,6 @@
 
 ## Future Agent Ideas
 - **Strategic Advisor Agent:** Analyzes upcoming challenges (e.g., Gym Leaders), suggests team compositions/strategies based on known data. Requires code execution.
+
+- Oak's Lab (Event State):
+    - Professor Oak at (2,9) confirmed: Poison > Bug; Bug !> Poison.
