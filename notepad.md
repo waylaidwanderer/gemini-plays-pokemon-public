@@ -51,3 +51,6 @@
     3.  Move to (24,6).
     4.  Explore (25,6).
     5.  Then, proceed east on Route 3 towards Mt. Moon.
+
+# Route 3 Navigation Lessons (Turn 7077)
+*   **Defeated Trainers Impassable:** Confirmed after multiple attempts (movement, stun tool) that defeated trainers (e.g., LASS at (21,5), Youngster at (20,6) on Route 3) act as impassable obstacles, even if their tile is 'ground'. This contradicts initial assumptions about 'ground (occupied by...)' tiles being traversable.
