@@ -63,7 +63,7 @@
 *   **Add ☠️ (Defeated Trainer):**
     *   PEWTER_GYM (Map ID 3), (4,7) - JR.TRAINER♂ (Cool Trainer M)
 *   **Delete Redundant 🚫 Markers (where tile type is already 'impassable' or NPC presence is clear in XML and marker adds no new strategic info):**
-    *   (32,13), (18,15), (23,18), (19,20), (12,22), (14,22), (23,24), (31,25), (13,26), (15,26), (20,30), (30,24), (31,28), (19,19), (26,18), (35,26), (23,17), (18,22), (28,18) (Super Nerd tile).
+    *   (32,13), (18,15), (23,18), (19,20), (12,22), (14,22), (23,24), (31,25), (13,26), (15,26), (20,30), (30,24), (19,19), (26,18), (35,26), (23,17), (18,22), (28,18) (Super Nerd tile).
 
 # Hindsight & Lessons Learned (Critique Incorporated)
 *   **Youngster Event (Pewter City):** My avoidance strategies have been consistently ineffective. Future attempts MUST use a route significantly further south (e.g., row 26/27) and employ `scripted_event_tracker_agent` for *every single step* in the eastern half of the city (X > 25). My mental model of his trigger zones is flawed.
