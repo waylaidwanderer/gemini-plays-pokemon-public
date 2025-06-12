@@ -82,3 +82,17 @@
 - Blacked out fighting Bug Catcher (VIRIDIANFOREST_YOUNGSTER3) in Viridian Forest. Returned to Viridian City Pokecenter.
 - Money reduced to ¥617 (was ¥1235).
 - Party fully healed. Will attempt Viridian Forest again.
+
+## Reflection Insights (Turn 1231)
+### New Agent Ideas:
+- `wild_encounter_evaluator_agent`: Input: player party, wild Pokémon, goals. Output: Fight/Run/Catch decision.
+- `map_exploration_strategist_agent`: Input: map XML, player loc, WKG, unseen tiles/warps. Output: Path to high-priority exploration targets.
+
+### Agent Updates Noted:
+- `trainer_battle_strategist`: Add known custom type matchups (Ghost > Psychic, Poison > Bug, Bug !> Poison) to system prompt.
+- `item_finder_agent`: Broaden prompt to include finding items in routes/forests, not just town buildings.
+
+### Lessons Learned (Post-Reflection Turn 1231):
+- HP Management: Losing SPROUT to a wild Pidgey (Turn 1177) was avoidable. Prioritize running or safer switches when HP is low or type matchup is very unfavorable, especially with limited party members.
+- Pathing Precision: Route 2 navigation issues (Turns 1160-1165) due to not checking ledges highlight need for meticulous path review in Map Memory before long moves.
+- Notepad `old_text`: Continued precision needed for `replace` actions to avoid tool failures.
