@@ -166,3 +166,7 @@
 # Pewter City Gym Navigation (Turn 6778 - Attempt 2 for this segment)
 *   Attempt to move Up from (18,23) to (18,22) blocked by impassable building tile (Pokecenter roof), similar to block at (17,22).
 *   Revised path to Pewter Gym (17,18) from (18,23): (18,23) -> Right to (19,23) -> Up to (19,18) -> Left twice to (17,18).
+
+# Pewter City Gym Navigation (Turn 6781 - Attempt 3 for this segment, 4th for general area)
+*   Attempt to move Up from (19,23) to (19,22) blocked by impassable building tile (Pokecenter roof), similar to blocks at (17,22) and (18,22).
+*   Revised path to Pewter Gym (17,18) from (19,23): (19,23) -> Right to (22,23) -> Up to (22,18) -> Left to (17,18).
