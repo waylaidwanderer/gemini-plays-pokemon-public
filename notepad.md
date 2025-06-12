@@ -89,3 +89,6 @@
 
 - Oak's Lab (Event State):
     - Professor Oak at (2,9) confirmed: Poison > Bug; Bug !> Poison.
+
+- Oak's Lab (Event State):
+    - Attempted to interact with event Poké Ball at (2,11) by standing on it and pressing A (facing Down). No text appeared. Hypothesis: Interaction may require being adjacent to the Poké Ball and facing it, or another NPC interaction is needed first.
