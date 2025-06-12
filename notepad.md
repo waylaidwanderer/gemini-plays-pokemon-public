@@ -101,3 +101,13 @@
 
 ## General TODOs (Updated Turn 1592)
 - Systematically mark used warps (both ends) with 🚪 emoji, noting destination map and coordinates/entry point.
+
+## Strategic Imperatives (Post-Turn 1600 Critique)
+- **Financial Situation**: Critically low on money (¥33). Prioritize earning Pokedollars.
+- **Team Training**: SPROUT (Lv7) and PIP (Lv7) need significant training before challenging Brock. SPARKY is at cap (Lv12) and less effective vs Rock/Ground.
+- **Agent Review & Development**:
+    - `map_exploration_strategist_agent`: Review prompt/code due to frequent failures. Default to manual pathing if unreliable.
+    - `item_finder_agent`: Review prompt for better city building identification.
+    - `WKG Transition Recorder Agent`: Prioritize implementation for consistent WKG updates.
+    - `trainer_battle_strategist` & `wild_encounter_evaluator_agent`: Re-evaluate utility and prompts for current needs.
+- **Information Gathering**: Actively seek info on Brock's Pokémon types/weaknesses if not yet confirmed.
