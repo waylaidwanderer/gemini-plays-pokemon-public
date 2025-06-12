@@ -100,3 +100,8 @@
 - Review "Specific Tile Discoveries (Viridian Forest)" and map markers for redundancy with XML data when out of battle.
 - Be more cautious with HP management. Consider more direct routes to objectives when party HP is critically low. Avoid unnecessary wild encounters if possible.
 - Potential improvements for `trainer_battle_strategist`: Enhance system prompt for Hard Mode awareness (enemy unlimited PP, stalling tactics) and encourage verification of type matchups (possibly via its `run_code` if enabled, or by prompting it to state its assumptions).
+
+## Turn 1137 Update
+- Blacked out fighting Bug Catcher (VIRIDIANFOREST_YOUNGSTER3) in Viridian Forest. Returned to Viridian City Pokecenter.
+- Money reduced to ¥617 (was ¥1235).
+- Party fully healed. Will attempt Viridian Forest again.
