@@ -81,3 +81,15 @@
 ## Reflection Notes (Turn 207)
 *   Revisit custom agent creation soon. Currently, ideas are noted but no agents created.
 *   Lesson Learned: Recognize and break out of failed interaction loops much sooner. If an NPC interaction doesn't progress after 2-3 attempts with slightly varied approaches (e.g., clearing dialogue, re-interacting), a different trigger is likely needed (e.g., talking to a different NPC, trying to leave the area, interacting with an object).
+
+## Oak's Lab Notes (Current Map: ID 40)
+*   Player at (1,6). Pikachu at (1,5).
+*   Professor Oak at (6,3). Gave Pikachu and Pokédex. Dialogue now "Go to the next town."
+*   Two Scientists:
+    *   OAKSLAB_SCIENTIST1 at (3,11), facing right.
+    *   OAKSLAB_SCIENTIST2 at (9,11), facing right.
+*   Two Pokédexes on tables:
+    *   OAKSLAB_POKEDEX1 at (3,2).
+    *   OAKSLAB_POKEDEX2 at (4,2).
+*   Reachable Unseen Tiles: (1,11), (2,12), (4,12), (5,12), (7,12), (8,12), (10,12).
+*   Goal: Explore all unseen tiles. Starting with (1,11).
