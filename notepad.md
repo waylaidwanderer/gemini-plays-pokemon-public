@@ -53,7 +53,9 @@
     - **Interaction Strategy:** Avoid repeating interactions with objects/NPCs that result in loops (e.g., Oak's Lab Poké Ball, BLAZe) without first exploring all other options.
 
 ## Tile Types Discovered
-- (To be populated as new types are encountered and understood)
+- **ground**: Walkable tile.
+- **impassable**: Walls, objects, bookcases, etc. Cannot be entered or traversed.
+- **warp**: Tile that initiates a map transition. Rules for activation vary (e.g., step-on for 1x1, step-on then move into boundary for 2x1).
 
 ## Type Matchup Discoveries
 - Ghost-type is super effective against Psychic-types. (Source: Oak's Lab Scientist 1 at (3,11) & Scientist 2 at (9,11))
