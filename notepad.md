@@ -136,3 +136,7 @@
 # Viridian Forest Navigation Update (Turn 6748)
 *   Segment 3 ((2,15) -> (2,1)) is complete. Arrived at Viridian Forest North Exit warp (2,1).
 *   Next step: Use warp to enter Viridian Forest North Gate.
+
+# Viridian Forest North Gate Arrival (Turn 6751)
+*   Arrived in Viridian Forest North Gate (map 47) at (5,8) from Viridian Forest.
+*   Next step: Navigate north through this gatehouse to exit to Route 2 North. Target warp is (5,1) or (6,1).
