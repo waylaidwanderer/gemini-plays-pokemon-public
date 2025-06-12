@@ -72,3 +72,8 @@
 *   `battle_strategist_agent`: Input opponent's team, my team, level cap. Output optimal move sequence or switch strategy for Hard Mode (Set mode, no items).
 *   `route_planner_agent`: Input target destination (map_id, coordinates), current location. Output optimal path using WKG and map XML for multi-map journeys.
 *   `rom_hack_mechanic_analyzer_agent`: For deducing rules of complex new mechanics based on repeated observations.
+
+## Oak's Lab - Rival Battle Trigger Issues
+*   Interacting with Pixel at (8,5) multiple times (approx. 5 attempts from turn ~200 to ~204) after he says "Heh, my POKéMON looks a lot stronger." only repeats his dialogue or results in a clear screen without starting the battle.
+*   Pressing 'A' when his dialogue is on screen, or when the screen is clear after his dialogue, has not triggered the battle.
+*   Hypothesis: Need to interact with Prof. Oak at (6,3) or attempt to leave the lab via (6,12) to progress.
