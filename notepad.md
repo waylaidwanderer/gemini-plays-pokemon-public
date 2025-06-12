@@ -150,3 +150,7 @@
 
 # Route 2 North Navigation Complete (Turn 6757)
 *   Reached the northern edge of Route 2 at (10,1), ready to transition to Pewter City.
+
+# Pewter City Arrival (Turn 6759)
+*   Arrived in Pewter City (map 2) at (20,36) from Route 2 North.
+*   Next objective: Locate Pewter City Gym.
