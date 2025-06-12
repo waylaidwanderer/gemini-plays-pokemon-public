@@ -73,4 +73,4 @@
 
 # Pewter City Navigation (Update Turn 5431)
 *   Player at (34,21) was blocked by sign at (34,20). Event tracker warned of proximity to Youngster trigger at (34,19). 
-*   Attempting path along Y=19: (33,18) -> (33,19) -> (34,19) [TRIGGER] -> (35,19) -> (36,19) -> (37,19). Will re-evaluate from (37,19) or if Youngster event triggers.
+*   Navigated to (35,19). Stepping on (34,19) and (35,19) did NOT trigger the Youngster escort despite agent warnings and (34,19) being a marked trigger. Youngster currently at (36,17). Next planned step (36,19). Will use event tracker. Path to Route 3: (35,19) -> (36,19) -> (37,19) -> (38,19) -> (39,19) -> (40,19).
