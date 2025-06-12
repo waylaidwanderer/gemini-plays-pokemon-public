@@ -99,3 +99,8 @@
 - Oak's Lab (Event State):
     - Scientist (Oak's Aide, visually at (3,11) but listed as OAKSLAB_SCIENTIST1 at (3,11) in default game state) at (3,11) spoke when I tried to interact with event Poké Ball from (1,11): "I study POKéMON as PROF.OAK's AIDE. We recently finished a paper proving a rumor false. As thought, the rare ghost-type is super effective to psychic-types."
     - Attempted interactions with event Poké Ball at (2,11) from multiple adjacent tiles and while standing on it have failed. It's likely not directly interactable or requires another trigger.
+
+- Oak's Lab (Event State):
+    - Scientist (Oak's Aide, visually at (3,11)) at (3,11) is in an interaction loop, repeating Ghost > Psychic dialogue. Interacting with BLAZe at (3,11) also triggers this.
+    - Event Poké Ball at (2,11) is unresponsive to interaction from adjacent tiles or while standing on it.
+    - Next target: Professor Oak (visually at (2,9)).
