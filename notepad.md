@@ -30,3 +30,6 @@
 
 ## Discovered Tile Types:
 *   `unknown` - Tile not visually confirmed (seen="false")
+
+## Rival Name:
+*   Pixel
