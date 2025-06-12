@@ -113,3 +113,5 @@
 ## Future Agent Ideas (Post-Reflection Turn 461)
 - **Pathfinding Agent:** To help navigate complex areas with obstacles like ledges, taking start/end coordinates and map data as input, outputting a move sequence.
 - **Exploration Prioritizer Agent:** To analyze `Reachable Unseen Tiles` and `Reachable Undiscovered Map Connections` to suggest optimal exploration targets.
+
+- SPARKY (Pikachu) defeated a wild Pidgey (Lv3) on Route 1 at (14,25). SPARKY gained 23 EXP (330 -> 353) and grew to Lv7!
