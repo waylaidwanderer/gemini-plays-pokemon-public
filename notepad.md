@@ -31,11 +31,11 @@
 # Map Marker Legend
 💥 (Event Trigger), 🎯 (Key Nav Point), ❗ (Risky Zone/Obstacle), 💁 (Event NPCs), ☠️ (Defeated Trainer), 🏛️ (Key Building/Gym), 📍 (Path Start/Interesting Point), 🧱 (Impassable Obstacle), 🚪 (Used Warp), ℹ️ (Info NPC), 🌱 (Cuttable Tree)
 
-# Party Status (Turn 5921)
-*   **SPBARKY (PIKACHU):** Lv12 (39/39 HP, 1728 EXP - CAPPED) | Moves: THUNDERSHOCK (30 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (19 PP)
-*   **FLAREE (VULPIX):** Lv8 (21/26 HP, 718 EXP) | Moves: EMBER (23 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP)
-*   **ODDISH (ODDISH):** Lv12 (37/37 HP, 973 EXP - CAPPED) | Moves: TACKLE (35 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
-*   **BIRBY (PIDGEY):** Lv7 (24/24 HP, 236 EXP) | Moves: GUST (35 PP), SAND-ATTACK (15 PP)
+# Party Status (Turn 6061)
+*   **SPBARKY (PIKACHU):** Lv12 (39/39 HP, EXP: 1728 - CAPPED) | Moves: THUNDERSHOCK (25 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
+*   **FLAREE (VULPIX):** Lv8 (26/26 HP, EXP: 718) | Moves: EMBER (25 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP)
+*   **ODDISH (ODDISH):** Lv12 (37/37 HP, EXP: 973 - CAPPED) | Moves: TACKLE (35 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
+*   **BIRBY (PIDGEY):** Lv7 (24/24 HP, EXP: 236) | Moves: GUST (35 PP), SAND-ATTACK (15 PP)
 
 # World Knowledge Graph (WKG) Management
 *   Verify current location and that a map transition has *just occurred* before adding edges. Nodes for known exits can be added pre-transition. Use consistent tags.
