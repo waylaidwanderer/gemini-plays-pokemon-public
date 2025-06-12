@@ -101,3 +101,4 @@
 - Girl - Viridian City (18,10) - "Oh Grandpa! Don't be so mean! He hasn't had his coffee yet." (referring to Old Man at (19,10)).
 
 - Old Man - Viridian City (19,10) - Blocks path north, says "You can't go through here! This is private property!". Interaction pushed player back one tile. (Attempt 1)
+- Viridian Nickname House (Map 44): Attempted to interact with Little Girl at (2,8) while I was at (3,8) facing left, but interaction failed as she had moved from (2,8) to (2,6). (Turn 640)
