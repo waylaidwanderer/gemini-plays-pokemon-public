@@ -74,7 +74,6 @@
     - Scientist 1 at (3,11) provides type matchup info (Ghost > Psychic).
 
 ## Future Agent Ideas
-- **Pathfinding Agent:** Takes map XML, start/end coordinates, outputs optimal path. Requires code execution.
 - **Strategic Advisor Agent:** Analyzes upcoming challenges (e.g., Gym Leaders), suggests team compositions/strategies based on known data. Requires code execution.
 
 - Poison-type is super effective against Bug-types. Bug-type is no longer super effective against Poison-types. (Source: Oak's Lab Girl at (2,9))
@@ -95,9 +94,3 @@
 - The warp at (6,6) in Pallet Town (Player's House entrance) showed `num_visits: 0` before use. This seems to be a display characteristic for entry warps, as the WKG connection was correct and the warp worked. The discrepancy is considered resolved.
 - New secondary goal: Explore Player's House (both floors) for event triggers or Pokémon.
 - New tertiary goal: Interact with Mom on the first floor.
-
-- Player's House First Floor (Map ID 37):
-    - Mom (PLAYERSHOUSE1F_MOM) at (6,5) said: "Right. All kids leave home someday. It said so on TV. PROF.OAK, next door, is looking for you."
-
-- Player's House First Floor (Map ID 37):
-    - Mom (PLAYERSHOUSE1F_MOM) at (6,5) said: "Right. All kids leave home someday. It said so on TV. PROF.OAK, next door, is looking for you."
