@@ -107,11 +107,12 @@
 
 ## Route 1 Notes:
 *   (Map ID: 12)
-*   Wild Encounters: Pidgey (Lv3 noted so far).
+*   Wild Encounters: Pidgey (Lv3, Lv4 noted so far).
 *   Trainers:
-    *   Youngster at (6,25) initially facing up, then seen facing down, then up again.
-*   Items:
+    *   Youngster (Sprite ID 4) observed at (6,25), (6,26), (6,27), facing various directions. Potential battle.
+*   Items: None found yet.
 *   Signs:
-    *   Sign at (10,28) - text: '4'. Meaning unclear yet.
+    *   Sign at (10,28) reads: 'ROUTE 1 PALLET TOWN - VIRIDIAN CITY'.
+*   Navigation Lessons: Jumping down ledges (e.g., from Y=23 to Y=25, Y=27 to Y=29) before fully exploring areas above them led to inefficient backtracking via Pallet Town. Need to scout paths more thoroughly, especially around one-way obstacles like ledges, to avoid self-imposed loops.
 
 *   New Agent Idea: Level Cap Compliance Agent (Input: party, badge count. Output: Pokémon at/near cap, warnings).
