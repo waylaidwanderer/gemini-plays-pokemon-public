@@ -69,7 +69,7 @@
 -   **Pokédex Completion Strategist**: Suggests where to hunt for new Pokémon. (Idea retained, low priority)
 
 ### Agent Review TODOs:
-- `map_exploration_strategist_agent`: Review prompt/code due to frequent failures. Default to manual pathing if unreliable. **Decision: Will review prompt after current exploration phase in Pewter.**
+- `map_exploration_strategist_agent`: Review prompt/code due to frequent failures. Default to manual pathing if unreliable. **Decision: Review prompt after exploring Nidoran House, before seeking Gym.**
 - `item_finder_agent`: Review prompt for better city building identification. Review utility - may delete if not serving purpose. **Decision: Will review prompt and utility after current exploration phase. If still unreliable, will delete.**
 
 ### General TODOs:
@@ -112,7 +112,7 @@
 - Museum 1F: After closing dialogue with the ticket seller (at (11,5)), player character is sometimes repositioned (e.g., from (10,5) to (10,6)). This is likely standard post-dialogue character repositioning, not a special 'pushback mechanic' or unique property of tile (10,5). Repeatedly triggered dialogue with ticket seller (turns 1735-1752+) due to not moving away from interaction zone after declining. Need to ensure moving clear of the counter area to avoid re-triggering.
 
 ## Museum 1F - Abandoned West Wing Exploration (Turn 1771)
-- After 7+ failed attempts (Turns ~1735-1770) to navigate past the ticket seller at (11,5) and the tricky tile (10,5) to reach the unvisited warp at (8,8) in Museum 1F due to insufficient funds (¥33 vs ¥50 ticket), I've decided to abandon exploring that section for now.
+- After a prolonged loop (approx. turns 1733-1770, over 30 turns) trying to navigate past the ticket seller at (11,5) and the tricky tile (10,5) to reach the unvisited warp at (8,8) in Museum 1F due to insufficient funds (¥33 vs ¥50 ticket), I've decided to abandon exploring that section for now.
 - Exited Museum 1F via the (11,8) warp, arriving back in Pewter City at (15,8).
 - Will re-evaluate museum exploration once I have more money or a clearer path. Current focus is exploring Pewter City itself.
 
