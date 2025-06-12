@@ -1,6 +1,6 @@
 # Current Navigation Plan (Viridian City)
 *   **Objective:** Reach the northern exit of Viridian City at (19,1) to access Route 2.
-*   **Status:** Currently at (7,5) in Viridian City. Following `map_analyzer_agent` path to (19,1). Next segment: (7,5) to (7,17).
+*   **Status:** Currently at (7,17) in Viridian City. Following `map_analyzer_agent` path towards (19,1). Next major turn is at (17,18) to head north.
 
 # Lessons Learned & Game Mechanics
 *   **Pewter Youngster Escort (Route 3 Blocker):** Youngster (ID 5, trigger near (36,17) in Pewter) blocks Route 3. Avoid this area for now.
