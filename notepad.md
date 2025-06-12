@@ -40,7 +40,7 @@
     *   `battle_log_analyzer_agent`: After next significant trainer battle.
     *   `move_validator_agent`: For complex pathing once more comfortable.
     *   `npc_interaction_planner_agent`: For any crucial NPC interactions.
-*   **Agent Ideas (Low Priority / Review):** `rom_hack_mechanics_discoverer_agent`, `battle_strategy_advisor_agent`. `team_builder_agent` prompt seems okay for now.
+*   **Agent Ideas (Low Priority / Review):** `team_builder_agent` prompt seems okay for now. (Discarded `rom_hack_mechanics_discoverer_agent` and `battle_strategy_advisor_agent` as per critique to avoid stale notes).
 *   **Past Agent Actions:** `notepad_query_agent` defined. Several agents defined/deleted for space previously.
 
 # Inventory & Finances
