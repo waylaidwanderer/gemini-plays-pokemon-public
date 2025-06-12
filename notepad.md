@@ -58,8 +58,9 @@
 
 # Current Navigation Plan (Updated Turn 6628)
 *   **Current Situation:** Viridian Pokecenter (4,4), facing Up. Pikachu at (4,5).
-*   **Immediate Goal (Path Segment 0):** Exit Pokecenter to Viridian City. Warp at (4,8).
-    *   Path from (4,4): Down to (4,5) (Pikachu's tile, turns to face Down). Then Down to (4,6), Down to (4,7), Down to (4,8) (on warp). Next turn: press Down to activate warp.
+*   **Current Location & Status (Turn 6634):** Viridian City (24,27), facing Down. Pikachu at (24,26). Exited Pokecenter.
+*   **Path Segment 1 (Viridian City):** From current location (24,27), move to (19,1) (Route 2 North Exit).
+    *   Sub-segment 1a: Move from (24,27) to (24,23).
 *   **Path Segment 1 (Viridian City - After Exiting Pokecenter):** From Pokecenter exit (around (24,27)), move to (24,1), then to (19,1) (Route 2 North Exit).
 *   **Path Segment 2 (Route 2 South):** Navigate Route 2 South to Viridian Forest South Gate (warp at (4,44)).
 *   **Path Segment 3 (Viridian Forest):** Navigate Viridian Forest from South Entrance (17,48) to North Exit (warp at (2,1) or (3,1)).
