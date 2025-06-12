@@ -74,7 +74,7 @@
 *   **Strategy Steps (New Conclusion - Turn 6085):**
     1.  (Done) Be on the lower path (Y=15 or Y=16). Currently at (17,15).
     2.  Travel EAST along the lower path from (17,15) to (30,15). (Current action)
-    3.  Move North from (30,15) to (30,13) (ground), then further north to (30,6) (ground, where rival SPB was).
+    3. (Corrected) Move Right from (30,15) to (31,15). Then, move North from (31,15) up to (31,13) (ground), then further North to (31,6) (ground). Finally, move Left from (31,6) to (30,6) (ground, where rival SPB was).
     4.  Move West from (30,6) along the upper path (Y=5 or Y=6) to approximately X=17 (e.g., (17,6) or (17,5)).
     5.  From (17,5/6), move south to (17,8), which is a LEDGE.
     6.  Jump down the ledge at (17,8) to land at (17,9) (grass).
