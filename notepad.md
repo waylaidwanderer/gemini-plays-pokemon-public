@@ -93,3 +93,11 @@
     1. Decide to implement (create a `define_agent` plan) OR
     2. Decide to discard (remove from notepad).
 - Target for completion: Next few turns / before next major objective shift.
+
+## Agent Idea Review (Turn 1592)
+- **Capability Checker Agent**: Decision: Implement.
+- **Pokédex Completion Strategist**: Decision: Keep for later consideration.
+- **WKG Transition Recorder Agent**: Decision: Implement.
+
+## General TODOs (Updated Turn 1592)
+- Systematically mark used warps (both ends) with 🚪 emoji, noting destination map and coordinates/entry point.
