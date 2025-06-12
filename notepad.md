@@ -65,7 +65,7 @@
 5.  **Path Simplifier Agent** (`path_simplifier_agent`): Converts path coordinates to move instructions. (Defined Turn 1334)
 
 ### Agent Ideas (To Consider):
-- `wild_encounter_evaluator_agent`: Input: player party, wild Pokémon, goals. Output: Fight/Run/Catch decision.
+- `wild_encounter_evaluator_agent`: Evaluates wild encounters for Fight/Run/Catch decision. (Defined Turn 1352)
 
 ### General TODOs:
 - Decide on `wild_encounter_evaluator_agent` (define or discard).
