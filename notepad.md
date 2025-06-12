@@ -1,7 +1,3 @@
-# Current Navigation Plan
-*   **Objective:** Reach Viridian Forest North Exit at (2,1) or (3,1).
-*   **Status:** Pathing through Viridian Forest. Currently in a wild battle.
-
 # Lessons Learned & Game Mechanics
 *   **Pewter Youngster Escort (Route 3 Blocker):** Youngster (ID 5, trigger near (36,17) in Pewter) blocks Route 3. Avoid this area for now.
 *   **Accurate Self-Location:** Always verify current position against Game State Information.
