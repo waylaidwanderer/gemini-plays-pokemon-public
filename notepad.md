@@ -53,9 +53,7 @@
 ### Active/Available Agents:
 1.  **Level Cap Compliance Agent** (`level_cap_compliance_checker`): Defined. Checks Pokémon levels against current cap.
 2.  **Item Finder Agent** (`item_finder_agent`): Defined. Locates items/buildings in towns. Value re-evaluation needed for current tasks (forest exploration).
-
-### Future Agent Ideas:
-1.  **Viridian Forest Navigator**: To be defined. Helps navigate Viridian Forest by suggesting paths to unseen areas, items, or exits.
+3.  **Viridian Forest Navigator** (`viridian_forest_navigator`): Defined. Analyzes Viridian Forest map data to suggest navigation paths. (Consider using for current forest exploration).
 
 ## Lessons Learned & Strategy Refinements
 -   **Trust Game State**: GSI is absolute truth for dynamic data (NPCs, items, map connections reachability).
