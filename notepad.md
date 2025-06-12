@@ -91,3 +91,5 @@
 - **Battle Analyst Agent:** Parses battle logs (if obtainable) to identify opponent patterns, suggest counter-strategies, or evaluate move effectiveness.
 
 - Little Girl - Viridian School House (5,6) - Confirmed Pokémon evolve by training, no trade needed.
+
+- Cooltrainer F - Viridian School House (5,2) - Advised to read blackboard.
