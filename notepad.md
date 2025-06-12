@@ -151,3 +151,10 @@ Path:
 
 ## WKG Correction (Turn 840)
 - The Viridian Mart exit warp (map 42, (4,8)) leads to Viridian City (map 1) at (30,21), just outside the Mart entrance at (30,20), not the School House. WKG edge `d45d75fc-d23a-44b5-9fd3-6de507470521` updated accordingly.
+
+## AI Critique & Strategy Update (Turn 850 - Route 22)
+- **Route 22 Detour**: Confirmed Route 22 is a detour. Priority is to return to Viridian City and unblock the north path via the Old Man (needs coffee).
+- **Old Man Interaction**: Must interact with Old Man at (19,10) in Viridian City. This is critical for accessing Route 2 and Viridian Forest.
+- **Pathing Error**: My movement Left from (36,9) on Route 22 to (35,9) was blocked; (35,9) is impassable. Previous path plan for Route 22 exploration was flawed.
+- **Agent Idea Follow-up**: Reminder to define the 'Level Cap Compliance Agent' after addressing the Old Man in Viridian City. Current focus is critical path progression.
+- **Goal Adjustment**: Secondary goal updated to reflect need to unblock Viridian City North path.
