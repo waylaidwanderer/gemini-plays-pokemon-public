@@ -92,3 +92,5 @@
 - Item at (2,32) - GSI says 'reachable'. Movement blocked (2 attempts). Hypothesis: Needs 'A' interaction. (Marked 🚧, will change to 🅰️ if hypothesis is correct after testing).
 
 - Defeated Bug Catcher (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (31,34) in Viridian Forest. (Turn 1105)
+
+- SPARKY is no longer poisoned as of Turn 1106 (confirmed via GSI).
