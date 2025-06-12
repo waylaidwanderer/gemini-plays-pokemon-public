@@ -146,3 +146,5 @@
 - **Hypothesis (Turn 1934):** Pressing 'B' might close the stuck dialogue box.
 - **Action (Turn 1935):** Pressing 'B'.
 - **Plan (Post-Turn 1935):** If 'B' clears dialogue, will attempt to move away (e.g., Right to (11,22)) to reset interaction. If 'B' fails, will consider this trainer interaction bugged, mark trainer at (10,23) with 🚫, and shift focus to exploring reachable unseen tiles or finding another trainer in Viridian City.
+
+- DV Checking: Hold START, then press A on STATS in Pokémon menu. (Learned from VIRIDIANCITY_YOUNGSTER2)
