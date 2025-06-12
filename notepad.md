@@ -55,3 +55,8 @@
 *   **Youngster Event Predictor Agent:** Input: player_pos, player_facing, youngster_pos, youngster_facing, recent_player_path, map_xml. Output: trigger_likelihood (low/medium/high), reasoning, suggested safe_tile to move to next if likelihood is high.
 *   **Path Refinement Agent:** Input: A high-level path (sequence of a few key coordinates from `exploration_planner_agent` or manual plan), current player pos/facing, Pikachu pos. Output: Detailed button presses for that segment, considering Pikachu turning rules, and basic obstacle avoidance for 1-2 steps using map_xml.
 *   **Money Management/Shopping Agent:** Input: Current money, shopping list (potions, pokeballs), item prices, party status (for potion needs). Output: Optimal purchase plan.
+
+# Agent Ideas (Post-Reflection - Turn 5560)
+*   **Youngster Event Predictor Agent:** Input: player_pos, player_facing, youngster_pos, youngster_facing, recent_player_path, map_xml. Output: trigger_likelihood (low/medium/high), reasoning, suggested safe_tile to move to next if likelihood is high.
+*   **Path Refinement Agent:** Input: A high-level path (sequence of a few key coordinates from `exploration_planner_agent` or manual plan), current player pos/facing, Pikachu pos. Output: Detailed button presses for that segment, considering Pikachu turning rules, and basic obstacle avoidance for 1-2 steps using map_xml.
+*   **Money Management/Shopping Agent:** Input: Current money, shopping list (potions, pokeballs), item prices, party status (for potion needs). Output: Optimal purchase plan.
