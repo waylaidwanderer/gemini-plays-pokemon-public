@@ -103,3 +103,7 @@
 - `objective_evaluator_agent`: Reviews current goals and progress to suggest if a pivot or exploratory phase is warranted when stuck.
 
 - **exploration_prioritizer_agent / item_finder_agent (T718 Monitoring Note):** Continue to monitor these agents. If they consistently fail to produce valid JSON, provide unhelpful/generic suggestions, or exhibit flawed reasoning (e.g., about visited status of warps or WKG data), their prompts may need further refinement or they might be too unreliable for consistent use.
+
+## Viridian Mart (Turn 734+)
+- Received OAK'S PARCEL from the clerk at (1,6). New objective: Deliver to Prof. Oak in Pallet Town.
+- Clerk at (1,6) gave OAK'S PARCEL.
