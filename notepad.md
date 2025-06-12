@@ -83,8 +83,4 @@
     8.  Explore east from (17,10) to clear unseen tiles around (23,10)-(26,10).
 *   **Current Action:** Navigate from (31,15) on Route 22 to the eastern exit at (40,7) to enter Viridian City. Start by moving Right to (38,15).
 
-# Agent Ideas (Notepad - Turn 6077)
-*   Specialized Exploration Agent: Could analyze map XML and `reachable_unseen_tiles` to identify isolated sections or complex ledge navigation requirements, providing more nuanced pathing advice than the current `exploration_planner_agent` for very tricky maps.
-*   Moveset Advisor Agent: Could suggest optimal moves to learn/forget for Pokémon based on current party, upcoming challenges (Gyms, E4), and type coverage needs.
-
 *   **`map_analyzer_agent` Failure (Turn 6114):** Provided a path segment (32,8) -> (31,8) on Route 22 that was blocked by the game (ledge or impassable). Required manual rerouting.
