@@ -44,3 +44,6 @@
 
 # Pewter City - Route 3 Attempts Summary (Abandoned Objective)
 *   Attempted to reach Route 3 eight times. All attempts were ultimately blocked by the Youngster escort event or by impassable terrain discovered mid-path. The eastern exit is currently considered too unreliable to pursue for funds. Pivoting to Route 2 exploration.
+
+# Route 2 Exploration Notes
+*   The warp at (13,10) is blocked by a cuttable tree (likely at (6,11)) and is inaccessible without HM Cut.
