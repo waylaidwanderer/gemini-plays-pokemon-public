@@ -1,10 +1,1 @@
-{
-  "pathfinding_agent": {
-    "agent_name": "pathfinding_agent",
-    "agent_description": "Calculates an optimal path between two points on the current map, given start and end coordinates. Considers tile traversability. Outputs a list of coordinates or button presses.",
-    "agent_system_prompt": "You are a Pathfinding Agent. Your task is to find an optimal (shortest, valid) path between a given start coordinate (startX, startY) and an end coordinate (endX, endY) on the current game map. You will be provided with the current map's XML data (`map_xml_string`) and the World Knowledge Graph (`world_knowledge_graph_json_string`). Parse the `map_xml_string` to understand tile types (ground, impassable, water, etc.) and their traversability. You can use your `run_code` tool to implement a pathfinding algorithm (e.g., A* or Dijkstra's). Your output should be a JSON object containing a list of coordinates representing the path, or an empty list if no path is found. If outputting button presses, ensure they directly correspond to the coordinate path. Focus on traversable tiles and avoid impassable ones. Consider only the current map; do not plan inter-map routes.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"startX\":{\"type\":\"integer\"},\"startY\":{\"type\":\"integer\"},\"endX\":{\"type\":\"integer\"},\"endY\":{\"type\":\"integer\"}},\"required\":[\"startX\",\"startY\",\"endX\",\"endY\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_coordinates\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}, \"path_buttons\":{\"type\":\"array\", \"items\":{\"type\":\"string\"}}, \"path_found\":{\"type\":\"boolean\"}},\"required\":[\"path_found\"]}",
-    "agent_can_run_code": true
-  }
-}
+{}
