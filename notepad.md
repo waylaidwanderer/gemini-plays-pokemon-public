@@ -68,20 +68,19 @@
     3.  From around (17,15), move north into the *western* grass strip (e.g., to (17,10) or (17,11)).
     4.  Explore west and east from this entry point to clear all unseen tiles on Y=10.
 
-# Current Plan - Route 22 Exploration (Turn 6083 - Revised Corrected Strategy)
+# Current Plan - Route 22 Exploration (Turn 6084 - Revised Corrected Strategy II)
 *   **Objective:** Reach all 14 unseen tiles on Y=10 (located in western/central northern grass strip).
 *   **Current Position:** (17,15) on lower path.
-*   **Strategy Steps:**
-    1.  (Done) Jumped down from isolated eastern grass patch (X=31-34, Y=9-12) to the lower path (Y=15).
-    2.  (Done) Traveled west along lower path (Y=15) to (17,15).
-    3.  Travel EAST along lower path (Y=15) from (17,15) to (30,15). (Current action)
-    4.  Move North from (30,15) to (30,13) (ground), then further north to (30,6) (ground, where rival SPB was).
-    5.  Move West from (30,6) along the upper path (Y=5 or Y=6) to approximately X=17 (e.g., (17,6) or (17,5)).
-    6.  From (17,5/6), move south to (17,8), which is a LEDGE.
-    7.  Jump down the ledge at (17,8) to land at (17,9) (grass).
-    8.  From (17,9) grass, move to (17,10) grass.
-    9.  Explore west from (17,10) to clear unseen tiles around (3,10)-(12,10).
-    10. Explore east from (17,10) to clear unseen tiles around (23,10)-(26,10).
+*   **Strategy Steps (New Conclusion - Turn 6084):**
+    1.  (Done) Be on the lower path (Y=15 or Y=16). Currently at (17,15).
+    2.  Travel EAST along the lower path from (17,15) to (30,15). (Current action)
+    3.  Move North from (30,15) to (30,13) (ground), then further north to (30,6) (ground, where rival SPB was).
+    4.  Move West from (30,6) along the upper path (Y=5 or Y=6) to approximately X=17 (e.g., (17,6) or (17,5)).
+    5.  From (17,5/6), move south to (17,8), which is a LEDGE.
+    6.  Jump down the ledge at (17,8) to land at (17,9) (grass).
+    7.  From (17,9) grass, move to (17,10) grass (seen tile, but access point to unseen areas).
+    8.  Explore west from (17,10) to clear unseen tiles around (3,10)-(12,10).
+    9.  Explore east from (17,10) to clear unseen tiles around (23,10)-(26,10).
 
 # Agent Ideas (Notepad - Turn 6077)
 *   Specialized Exploration Agent: Could analyze map XML and `reachable_unseen_tiles` to identify isolated sections or complex ledge navigation requirements, providing more nuanced pathing advice than the current `exploration_planner_agent` for very tricky maps.
