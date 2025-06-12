@@ -85,3 +85,7 @@
 5. Proceed north on Route 2 to reach Pewter City.
 6. Once in Pewter City, locate the Gym to challenge Brock.
    - Potential Challenges: Trainers in Viridian Forest, wild Pokémon encounters, navigating the forest layout.
+
+## Lessons Learned (Post-Reflection Turn 1385)
+- Warp Navigation: Be extremely careful with facing direction and multi-step warps (like exit mats or gatehouse transitions) to avoid accidental re-entry. Confirm tile types and warp mechanics before moving.
+- Agent Usage: When stuck with local navigation (e.g., finding a path around ledges or through a confusing area), utilize the `map_exploration_strategist_agent` to find optimal paths to unseen tiles or known warps.
