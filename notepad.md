@@ -104,3 +104,5 @@
 - **Input Schema Summary**: player_party (name, level, hp, types, moves), enemy_trainer_name, enemy_party (name, level, types, known_moves), level_cap.
 - **Output Schema Summary**: lead_pokemon_suggestion, battle_plan (player_pkmn, enemy_pkmn, action_recommendation, reasoning), confidence_score, warnings.
 - **Can Run Code**: True
+
+- Viridian Forest Navigator agent failed again (Turn 1009). Its path from (33,2) to (12,13) was blocked because it tried to route through (16,2), which is known impassable. This is the 4th major failure. Agent is unreliable for this map and seems to ignore known impassable tiles from map_xml_string. Will rely on manual exploration.
