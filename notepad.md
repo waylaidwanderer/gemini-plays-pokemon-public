@@ -51,6 +51,7 @@
 
 ## Type Matchup Discoveries
 - Ghost-type is super effective against Psychic-types (Source: Oak's Lab Scientist 1).
+- Poison-type is super effective against Bug-types. Bug-type is no longer super effective against Poison-types. (Source: Oak's Lab Girl at (2,9)).
 
 ## Defeated Trainers
 - (Format: [Trainer Name] - [Map Name] at (X,Y))
