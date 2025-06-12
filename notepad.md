@@ -87,10 +87,9 @@
 
 # Route 22 - Revised Strategy VII (Turn 6130)
 *   **Correction:** Unseen tiles are on Y=6 (tiles (3,6) to (12,6)).
-*   **Objective:** Reach unseen tiles on Y=6 via (12,10).
-*   **Path from (6,11):** 
-    1.  Move Right from (6,11) to (12,11).
-    2.  Move Up from (12,11) to (12,10) (ground access point, marked with ⬆️).
-    3.  Move Up from (12,10) to (12,6).
-    4.  Explore west from (12,6) to (3,6) to clear all unseen tiles on Y=6.
+*   **Objective:** Reach unseen tiles on Y=6 (tiles (3,6) to (7,6)).
+*   **Path from (12,7) (Turn 6135):**
+    1.  Movement to (12,6) was blocked as it's impassable.
+    2.  New Plan (Turn 6136): Navigate from current position (12,7) to the unvisited warp at (9,6).
+    3.  Use warp at (9,6) to access Y=6 strip. Explore west from warp destination (or nearest access point on Y=6) to (3,6) to clear all unseen tiles on Y=6.
 *   **After Y=6 exploration:** Proceed to Viridian City -> Route 2 -> Pewter City. Deprioritize further Route 22 exploration.
