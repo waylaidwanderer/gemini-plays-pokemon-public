@@ -104,3 +104,12 @@
     *   **Agent Usage:** Must actively use defined agents (e.g., `battle_strategist_agent` for next trainer).
     *   **Efficiency:** Improve micro-navigation and balance thorough exploration with forward momentum.
     *   **Trust Game Data:** Trust `Reachable Unseen Tiles` list more.
+
+## Route 1 Notes:
+*   (Map ID: 12)
+*   Wild Encounters: Pidgey (Lv3 noted so far).
+*   Trainers:
+    *   Youngster at (6,25) initially facing up, then seen facing down, then up again.
+*   Items:
+*   Signs:
+    *   Sign at (10,28) - text: '4'. Meaning unclear yet.
