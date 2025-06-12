@@ -55,3 +55,5 @@
 *   **Party Training Prioritizer:** Suggests which Pokémon needs training most urgently based on goals and level caps.
 
 - Confirmed again (Turn 6236): SPBARKY (Lv12, capped) showed 'gained 14 EXP. Points!' after CATERPIE fainted, but its actual EXP (1728) did not change. FLAREE (Lv8 -> Lv9) gained 14 EXP correctly (718 -> 732).
+
+- Confirmed again (Turn 6236): SPBARKY (Lv12, capped) showed 'gained 14 EXP. Points!' after CATERPIE fainted, but its actual EXP (1728) did not change. FLAREE (Lv8 -> Lv9) gained 14 EXP correctly (718 -> 732).
