@@ -89,8 +89,7 @@
 - Adopt a scientific mindset: form hypotheses, test systematically, document failures (with attempt counts), and avoid repeating unsuccessful strategies.
 
 ## Planned Agents (New Ideas - T718)
-- `experiment_tracker_agent`: Helps manage hypotheses, planned tests, and outcomes for systematic documentation.
-- `objective_evaluator_agent`: Reviews current goals and progress to suggest if a pivot or exploratory phase is warranted when stuck.
+(None currently - focusing on existing agent performance or removal.)
 
 - **exploration_prioritizer_agent / item_finder_agent (T718 Monitoring Note):** Continue to monitor these agents. If they consistently fail to produce valid JSON, provide unhelpful/generic suggestions, or exhibit flawed reasoning (e.g., about visited status of warps or WKG data), their prompts may need further refinement or they might be too unreliable for consistent use.
 
