@@ -14,16 +14,19 @@
 *   **EXP Cap Mechanics:** Pokémon at level cap do not gain EXP, even if message appears. Verified with SPBARKY.
 *   **Poison Damage:** Outside battle, poisoned Pokémon lose 1 HP every 4 steps.
 
-# Agent Usage Plan & Review Notes
-*   **`map_analyzer_agent`:** Primary tool for map queries and pathfinding. Review output, validate paths in segments.
-*   **`move_validator_agent`:** Use for complex/risky path segments. (Note: Has had system errors).
-*   **`exploration_planner_agent`:** Prompt updated to better handle ledges. Use for generating multi-step exploration paths for unseen tiles or specific targets. Still needs cautious use.
-*   **`scripted_event_tracker_agent`:** Use cautiously when approaching known event trigger zones.
-*   **`pp_management_agent`:** Newly defined. Utilize before long routes or major battles to assess PP status and get conservation advice.
-*   **`team_builder_agent`:** Use for major battles (Gyms, Rival, E4) to get team composition advice.
-*   **`battle_log_analyzer_agent`:** Use after complex battles to get a structured summary of events.
-*   **`notepad_query_agent`:** Use to recall specific information from this notepad.
-*   Ensure agents with `agent_can_run_code: true` are NOT fed `map_xml_string` or `world_knowledge_graph_json_string` as direct inputs.
+# Agent Usage Plan & Review Notes (Turn 6049 Update)
+*   **`map_analyzer_agent` (Many Uses):** Primary tool for map queries. Generally reliable. Continue using for path validation and map feature identification.
+*   **`move_validator_agent` (Low Usage - System Errors):** Intended for complex path validation. Has had system errors. Use sparingly and with caution.
+*   **`exploration_planner_agent` (Multiple Uses - Updated Prompt):** Generates exploration paths. Prompt updated (Turn 6031) to better handle ledges, but still requires cautious use and manual verification of paths involving ledges, as it has previously provided invalid paths.
+*   **`scripted_event_tracker_agent` (Low Usage):** Tracks proximity to known scripted events. Use when approaching areas with known or suspected event triggers.
+*   **`pp_management_agent` (1 Use - Defined Turn 6031):** Advises on PP conservation. Utilize before long routes, dungeons, or major battles.
+*   **`team_builder_agent` (1 Use):** Suggests team compositions for major battles. Use for Gyms, Rival, E4.
+*   **`battle_log_analyzer_agent` (1 Use):** Parses battle text into a structured summary. Use after significant or complex battles for review.
+*   **`notepad_query_agent` (3 Uses):** Queries notepad content. Useful for recalling specific recorded details.
+*   **`npc_interaction_planner_agent` (0 Uses - Defined Turn 6025):** Plans NPC interactions. Consider using for tricky NPC approaches.
+*   **`battle_advisor_agent` (0 Uses - Defined Turn 6025):** Provides in-battle advice. Consider for tough fights.
+*   **Agent Limit:** Be mindful of the 10-agent limit. Plan definitions/deletions proactively.
+*   **Input Data:** Ensure agents with `agent_can_run_code: true` are NOT fed `map_xml_string` or `world_knowledge_graph_json_string` as direct inputs.
 
 # Map Marker Legend
 💥 (Event Trigger), 🎯 (Key Nav Point), ❗ (Risky Zone/Obstacle), 💁 (Event NPCs), ☠️ (Defeated Trainer), 🏛️ (Key Building/Gym), 📍 (Path Start/Interesting Point), 🧱 (Impassable Obstacle), 🚪 (Used Warp), ℹ️ (Info NPC), 🌱 (Cuttable Tree)
