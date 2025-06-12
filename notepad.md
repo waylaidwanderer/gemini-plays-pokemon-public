@@ -105,3 +105,5 @@
 
 ## Pokémon Updates (Turn 1420)
 - SPARKY (PIKACHU) Lv11: Learned TAIL WHIP, forgot GROWL.
+
+- Investigate `map_exploration_strategist_agent` failure (Turn 1424). Check prompt, code, map complexity.
