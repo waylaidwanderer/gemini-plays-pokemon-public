@@ -69,3 +69,10 @@
 *   **Map Awareness (PEWTER CITY IS A MAZE):** Must improve fundamental map awareness and recall of impassable tiles (esp. (19,19-21), (18,18), (5,22), (17,22), (34,20)) to avoid repeating failed paths.
 *   **Strategic Shifts:** When an approach repeatedly fails, make more radical strategic shifts. The current 'Far West-South-East Detour Mk2' is an example of this.
 *   **Reflection Adherence:** Ensure all reflection questions are thoroughly addressed during mandatory reflection turns.
+
+# Pewter City Pathing Update (Post Attempt #6g Failure)
+*   **Attempt #6g (Far West-South-East Detour from (18,21) Mk3):** FAILED.
+    *   Reached (5,21) successfully.
+    *   Planned eastward movement along Y=21 from (5,21) to (34,21) is blocked by impassable tile (19,21).
+    *   Further investigation (based on map memory and screen) confirms Y=22 row from X=5 to X=18 is also impassable, meaning no southward movement is possible from the western Y=21 corridor to connect to the southern part of the planned detour.
+*   **Next Strategy (Attempt #7):** Use `map_analyzer_agent` to find a path from current location (5,21) to the Route 3 exit at (40,19).
