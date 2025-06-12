@@ -15,11 +15,14 @@
 *   **Poison Damage:** Outside battle, poisoned Pokémon lose 1 HP every 4 steps.
 
 # Agent Usage Plan & Review Notes
-*   **`map_analyzer_agent`:** Primary tool for pathfinding. Review output, validate paths in segments.
+*   **`map_analyzer_agent`:** Primary tool for map queries and pathfinding. Review output, validate paths in segments.
 *   **`move_validator_agent`:** Use for complex/risky path segments. (Note: Has had system errors).
-*   **`exploration_planner_agent`:** Prompt updated. Still needs cautious use, especially regarding paths involving ledges.
-*   **`scripted_event_tracker_agent`:** Use cautiously, effectiveness against Pewter Youngster event was limited.
-*   **`pp_management_agent`:** To be defined. Use before long routes or major battles.
+*   **`exploration_planner_agent`:** Prompt updated to better handle ledges. Use for generating multi-step exploration paths for unseen tiles or specific targets. Still needs cautious use.
+*   **`scripted_event_tracker_agent`:** Use cautiously when approaching known event trigger zones.
+*   **`pp_management_agent`:** Newly defined. Utilize before long routes or major battles to assess PP status and get conservation advice.
+*   **`team_builder_agent`:** Use for major battles (Gyms, Rival, E4) to get team composition advice.
+*   **`battle_log_analyzer_agent`:** Use after complex battles to get a structured summary of events.
+*   **`notepad_query_agent`:** Use to recall specific information from this notepad.
 *   Ensure agents with `agent_can_run_code: true` are NOT fed `map_xml_string` or `world_knowledge_graph_json_string` as direct inputs.
 
 # Map Marker Legend
