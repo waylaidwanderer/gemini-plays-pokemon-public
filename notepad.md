@@ -134,3 +134,8 @@
 - Warning: Electric attacks are harmless to Brock's Ground-type Pokémon (bad for Pikachu).
 
 - Game State Data: Treat `reachable: no` for warps/connections as absolute truth. Do not attempt to access until status changes.
+
+## Post-Pewter Gym Blackout (Turn 1901)
+- Blacked out fighting Jr. Trainer (Cooltrainer M) in Pewter Gym. Returned to Viridian City Pokémon Center.
+- Money halved to ¥16. Pokémon were healed.
+- Current plan: Defeat available trainers in Viridian City for money and EXP before returning to Pewter City. First target: VIRIDIANCITY_YOUNGSTER1 at (14,21).
