@@ -89,3 +89,9 @@
 ## Lessons Learned (Post-Reflection Turn 1385)
 - Warp Navigation: Be extremely careful with facing direction and multi-step warps (like exit mats or gatehouse transitions) to avoid accidental re-entry. Confirm tile types and warp mechanics before moving.
 - Agent Usage: When stuck with local navigation (e.g., finding a path around ledges or through a confusing area), utilize the `map_exploration_strategist_agent` to find optimal paths to unseen tiles or known warps.
+
+## Lessons Learned (Post-Critique Turn 1405)
+- Navigation Issues: I've had significant issues with multi-step warps (e.g., Pokémon Center exits) and pathfinding in Viridian Forest/Route 2. I need to be more careful verifying paths against map memory and understanding warp mechanics (facing, second step into boundary).
+- Avoid Intentional Fainting: Using fainting as a transport/healing method is suboptimal. Focus on careful navigation and resource management.
+- Agent Usage - Map Exploration: Adhere to using `map_exploration_strategist_agent` when stuck with local navigation. Investigate reasons for its recent failures (prompt, code, map complexity).
+- Behavioral Guidelines: Internalized new guidelines re: scientific mindset, documentation, calculated risks, and efficiency.
