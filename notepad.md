@@ -7,131 +7,78 @@
 *   **Current Level Cap:** 12 (0 badges)
 
 ## Hard Mode Rules (Player-Only Restrictions):
-*   **Battle Style:** Set mode (no switching after knocking out an opponent).
-*   **No items allowed in battle** — no healing, status cures, or stat boosts.
-*   **Level caps:** Your Pokémon cannot exceed the level cap for your current progress.
+*   **Battle Style:** Set mode.
+*   **No items in battle.**
+*   **Level caps apply.**
 
 ## Level Cap Table:
 *   0 badges: **12**
 *   1 badge: **21**
-*   2 badges: **24**
-*   3 badges: **35**
-*   4 badges: **43**
-*   5 badges: **50**
-*   6 badges: **53**
-*   7 badges: **55**
-*   8 badges: **65**
+*   (etc.)
 
 ## Gameplay & Balance Changes (Noted from Prompt):
-*   HMs can be forgotten, used from the menu, cannot be stored in PC.
+*   HMs: forgettable, menu use, no PC storage.
 *   All 151 Pokémon obtainable.
-*   Trade evolutions by level.
-*   Smarter Trainer AI, anti-sweep.
-*   Tougher Boss fights.
+*   Trade evos by level.
+*   Smarter AI, anti-sweep.
+*   Tougher Bosses.
 *   Dynamic scaling Gyms 4–6.
-*   EXP. All obtainable without special requirements.
+*   EXP. All obtainable.
 
 ## Current Objectives & Plans (HOW to achieve goals):
-*   **Complete Intro:** Finish naming rival Pixel.
-*   **Get First Pokémon:** Likely involves interacting with Prof. Oak, possibly by trying to leave Pallet Town towards Route 1.
-*   **Explore Pallet Town:** Visit all houses, talk to NPCs (once).
-*   **Meet Professor Oak:** Go to his lab.
+*   **Reach Viridian City:** Move North from current position (12,1) on Route 1.
+*   **Explore Viridian City:**
+    *   Locate Pokémon Center, PokéMart, Gym.
+    *   Talk to NPCs (once each).
+    *   Heal SPARKY if needed.
+    *   Stock up on Poké Balls if possible.
+*   **Prepare for Pewter City Gym:**
+    *   Assess Gym type and plan team accordingly (once known).
+    *   Train Pokémon towards level cap if necessary.
 
 ## Lessons Learned / Hypotheses / Game Mechanics:
-*   **Menu Navigation (Naming Screen):**
-    *   Be extremely precise with directional inputs for cursor movement.
-    *   Verify the selected letter *before* pressing 'A'.
-    *   The keyboard sometimes seems to reset to uppercase or shift cursor unexpectedly. Pay close attention.
-    *   Backspace is 'B'. Start confirms name.
-*   **Poison:** Outside battle, poisoned Pokémon lose 1 HP every 4 steps. (From prompt)
-*   **Pikachu Movement:** Can walk through Pikachu. If adjacent and not facing, 1st press turns, 2nd moves.
+*   **Menu Navigation (Naming Screen):** Precise inputs needed. Verify letter before 'A'. 'B' is backspace.
+*   **Poison:** Outside battle, -1 HP every 4 steps.
+*   **Pikachu Movement:** Can walk through. Adjacent & not facing: 1st press turns, 2nd moves.
 *   **Ledge Traversal:** One 'Down' press from above moves to Y+2.
-*   **Warp Types:**
-    *   1x1 (doors, ladders) are instant. Move off and on to re-warp.
-    *   Larger warps (2x1, 1x2 like exit mats) need 2 steps: onto warp, then into boundary/direction.
+*   **Warp Types:** 1x1 instant (move off/on to re-warp). Larger warps (2x1, 1x2) need 2 steps (onto warp, then into boundary).
+*   **Critical Game Mechanic:** ALWAYS press 'A' to clear dialogue/text BEFORE other inputs.
+*   **Ghost vs. Psychic:** Ghost-type moves are SUPER EFFECTIVE against Psychic. (Learned from OAKSLAB_SCIENTIST1).
+*   **Trust Game Data:** Trust `Reachable Unseen Tiles` list.
+*   **WKG Diligence:** Record inter-map transitions *immediately*.
+*   **Navigation Inefficiency (Route 1 Ledges):** Jumping ledges without full scouting above led to backtracking. More thorough path assessment needed. (Turn ~330-380)
+*   **Failed Interaction Loops:** If an NPC/object interaction yields no progress after 2-3 varied attempts, a different trigger is likely needed. Don't repeat failed interactions. (Turn 207, reiterated for Youngster Route 1 ~350s)
+*   **Coordinate Misreads:** Double-check current coordinates from game state before planning movement to avoid errors like the one with the Route 1 Youngster. (Turn 359)
 
 ## Discovered Tile Types & Properties:
-*   `ground`: Walkable tile.
-*   `impassable`: Walls, counters, rocks, buildings, etc. Cannot be entered.
+*   `ground`: Walkable.
+*   `impassable`: Walls, counters, etc. Not enterable.
+*   `grass`: Wild encounters.
+*   `ledge`: Jump down (Y+2), not up.
 
 ## Defeated Trainers:
 *   (Map - Coordinates - Trainer Name)
+    *   OAK'S LAB (ID 40) - (6,12) - Rival Pixel (initial battle)
 
-## Custom Agent Considerations:
-*   I will actively look for opportunities to deploy the defined agents (`battle_strategist_agent`, `route_planner_agent`, `rom_hack_mechanic_analyzer_agent`) to test their efficacy and integrate them into my gameplay loop.
+## Pokémon Log:
+*   SPARKY (Pikachu): Lv6, 253 EXP. (Current cap 12). Last EXP gain: +31 vs Wild Pidgey Lv4 (Route 1, (11,8), Turn 406).
+
+## Custom Agent Notes & Usage:
+*   `battle_strategist_agent`: Defined. Use for significant trainer battles.
+*   `route_planner_agent`: Defined. Consider for complex multi-map or obstacle-heavy navigation.
+*   `rom_hack_mechanic_analyzer_agent`: Defined. Use for deducing new mechanics.
+*   `level_cap_compliance_agent`: Defined. Used on Turn 407, all okay.
+*   `wild_encounter_evaluator_agent`: To be defined this turn. Purpose: Decide fight/run/catch for wild encounters based on party, map, goals.
 
 ## World Knowledge Graph Notes:
 *   Record inter-map transitions (map boundary, warps) IMMEDIATELY using `manage_world_knowledge`.
+*   Node for Route 1 North Exit (to Viridian) created (ID: ffa853b2-f57b-4a03-8de3-83250b175651 at (12,0)).
 
-## Pallet Town NPCs & Interactions:
-*   **Daisy (Rival's House @ 3,4):** Told me Pixel is looking for me and went to Prof. Oak's Lab. She blocks movement on her tile.
-
-*   **Critical Game Mechanic:** ALWAYS press 'A' to clear any on-screen dialogue or text BEFORE attempting any other input (movement, interaction, menu). Failure to do so will result in the input being ignored or only clearing the text.
-
-## Custom Agent Notes:
-*   `battle_strategist_agent` defined. Will use for next significant trainer battle.
-*   `route_planner_agent` defined.
-*   `rom_hack_mechanic_analyzer_agent` defined.
-
-## Oak's Lab - Rival Battle (Resolved)
-*   The rival battle with Pixel was triggered by attempting to leave Oak's Lab via the exit at (6,12) after receiving Pikachu.
-*   Pixel was defeated.
-*   Professor Oak then gave me the Pokédex.
-
-## Reflection Notes (Turn 207)
-*   Revisit custom agent creation soon. Currently, ideas are noted but no agents created.
-*   Lesson Learned: Recognize and break out of failed interaction loops much sooner. If an NPC interaction doesn't progress after 2-3 attempts with slightly varied approaches (e.g., clearing dialogue, re-interacting), a different trigger is likely needed (e.g., talking to a different NPC, trying to leave the area, interacting with an object).
-
-## Oak's Lab Notes (Current Map: ID 40)
-*   Player at (1,6). Pikachu at (1,5).
-*   Professor Oak at (6,3). Gave Pikachu and Pokédex. Dialogue now "Go to the next town."
-*   Two Scientists:
-    *   OAKSLAB_SCIENTIST1 at (3,11), facing right.
-    *   OAKSLAB_SCIENTIST2 at (9,11), facing right.
-*   Two Pokédexes on tables:
-    *   OAKSLAB_POKEDEX1 at (3,2).
-    *   OAKSLAB_POKEDEX2 at (4,2).
-
-## Type Matchup Changes (Learned):
-*   Ghost-type moves are SUPER EFFECTIVE against Psychic-type Pokémon. (Learned from OAKSLAB_SCIENTIST1 at (3,11) on Turn 264)
-
-## Pallet Town Exploration Notes (Corrected after Feedback):
-*   Initially, there was a discrepancy noted: `Reachable Unseen Tiles` listed X=20 tiles as reachable, while visual assessment suggested an impassable boundary. These tiles were eventually explored, confirming their reachability. Lesson Learned: Trust `Reachable Unseen Tiles` data more consistently, even if initial visual assessment differs.
-
-## Feedback & Learnings (Turn 300)
-*   Received feedback. Key takeaways:
-    *   **WKG Diligence:** Must record inter-map transitions *immediately*. Missed Pallet->Route 1. Added nodes now, will add edge next turn.
-    *   **Agent Usage:** Must actively use defined agents (e.g., `battle_strategist_agent` for next trainer).
-    *   **Efficiency:** Improve micro-navigation and balance thorough exploration with forward momentum.
-    *   **Trust Game Data:** Trust `Reachable Unseen Tiles` list more.
-
-## Route 1 Notes:
-*   (Map ID: 12)
-*   Wild Encounters: Pidgey (Lv3, Lv4 noted so far).
-*   Trainers:
-    *   Youngster (Sprite ID 4) observed at (6,25), (6,26), (6,27), facing various directions. Potential battle.
-*   Items: None found yet.
-*   Signs:
-    *   Sign at (10,28) reads: 'ROUTE 1 PALLET TOWN - VIRIDIAN CITY'.
-*   Navigation Lessons: Jumping down ledges (e.g., from Y=23 to Y=25, Y=27 to Y=29) before fully exploring areas above them led to inefficient backtracking via Pallet Town. Need to scout paths more thoroughly, especially around one-way obstacles like ledges, to avoid self-imposed loops.
-
-## Custom Agent Prioritization (Post-Feedback Turn 330):
-*   Actively prioritize using `battle_strategist_agent` for significant trainer battles (e.g., Youngster on Route 1 if engaged).
-*   Consider using `route_planner_agent` if pathfinding continues to be challenging or inefficient.
-*   Will define the 'Level Cap Compliance Agent' this turn.
-
-## Route 1 - Youngster Battle Attempts
-*   Abandoned attempts to battle Youngster on Route 1 after 6+ documented failures from various adjacent tiles and LoS positions. Current approach is not working. Will prioritize exploration or moving to Viridian City.
-
-## Lessons Learned / Hypotheses / Game Mechanics (Continued):
-*   **Flawed Position Assumption (Turn 359):** Misread current position as (7,28) instead of (7,27), leading to incorrect path planning for engaging the Youngster. Must double-check coordinates against game state before finalizing movement.
-
-## Route 1 Exploration Strategy (Post-Feedback Turn 360):
-*   Current objective: Explore 15 reachable unseen tiles on Route 1, primarily on Y=16,17,18.
-*   Systematic Plan: Path involves reaching Y=23 strip (e.g., via (13,25) -> (13,23)), then navigating west to (6,23), then Down to (6,20) (which is ground and above other ledges). From (6,20), move Up to (6,19) and then (6,18) to uncover unseen areas.
-
-## Custom Agent Prioritization (Post-Feedback Turn 360):
-*   Will actively use `level_cap_compliance_agent` after this Route 1 exploration phase or next significant Pokémon acquisition/level-up to test its efficacy.
-
-## Battle Log (Route 1):
-*   Defeated Wild PIDGEY (Lv4) at (11,8). SPARKY gained 31 EXP (now 253 EXP). (Turn 406)
+## Current Area Notes:
+*   **Route 1 (ID 12):**
+    *   Player at (12,1), facing Up. North exit to Viridian City.
+    *   Pikachu at (12,2).
+    *   Wild Encounters: Pidgey (Lv3, Lv4), Rattata.
+    *   Trainers: Youngster (Sprite ID 1) at (6,27), Youngster (Sprite ID 2) at (15,14). (Neither battled yet).
+    *   Sign at (10,28): 'ROUTE 1 PALLET TOWN - VIRIDIAN CITY'.
+    *   All reachable unseen tiles explored.
