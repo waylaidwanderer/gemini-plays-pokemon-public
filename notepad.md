@@ -133,7 +133,7 @@
 
 ### B. Failed Hypotheses Log (Selected)
 - VIRIDIANCITY_YOUNGSTER1 (ID 1) at various Viridian locations: Attempted battle ~20+ times (Turns ~1920-1943) using A, B, Stun, Unstun, Menu, Movement. Result: Stuck dialogue loop. Conclusion: Interaction bugged or requires unknown condition. Marked 🚫.
-- Pathfinding on Route 22: `pathfinding_agent` (before prompt update) suggested going from (34,14) to (33,14) (Turn 2243, 2246), which is going *up* a ledge. Failed hypothesis: agent correctly handles ledges. Number of failed attempts with this agent path: 2.
+- Pathfinding on Route 22: `pathfinding_agent` (before prompt update for ledges) suggested going from (34,14) to (33,14) (Turn 2243, 2246), which is going *up* a ledge. Failed hypothesis: agent correctly handles ledges. Number of failed attempts with this agent path: 2. Agent also failed again (Turn 2270, 2272) by suggesting moving left from (34,14) to (33,14) over a ledge. Number of failed attempts with this agent path: 2 more.
 
 ## VI. Historical Log & Major Milestones (CONCISE)
 - **Startup:** Pallet Town, got SPARKY (Pikachu). Delivered Oak's Parcel, got Pokédex.
