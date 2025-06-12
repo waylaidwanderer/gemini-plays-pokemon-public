@@ -4,7 +4,7 @@
 *   **Tertiary Goal:** Reach Route 3 (East Pewter Exit at (40,19)) to battle trainers for funds.
 
 # Pewter City Navigation Challenge: The Youngster (ID 5)
-*   **Youngster's Current Position (Game State is TRUTH):** (18,19). This is a NEW position, much closer to the Gym/west side of town than his previous (36,17) spot.
+*   **Youngster's Current Position (Game State is TRUTH):** (36,17). (Game state for turn 5514 showed (18,19); current turn 5515 game state confirms (36,17)). The main trigger zones are in eastern Pewter when he is at (36,17).
 *   **Escort Event Dynamics:** Still complex. His new position at (18,19) likely means his trigger zones have shifted significantly. The old triggers around (36,17) might still be active if he moves back there, but the immediate threat is his current location.
 *   **Known Trigger/Drop-off Points (Markers are reminders):** (38,19) (triggered from (37,19) when Y. was at (36,17)), (30,19) (drop-off & trigger). These may behave differently with Y. at (18,19). Marked zones around (36,17) are less relevant *while he is at (18,19)*.
 *   **Current Strategy for Route 3 (Accounting for Youngster at (18,19))**:
