@@ -41,7 +41,7 @@
 
 # Route/Area Specific Notes
 *   **Pewter City - Route 3:** Attempts abandoned due to Youngster escort event.
-*   **Route 2 (North of Viridian Forest - Future):** After Viridian Forest, this area will have cuttable trees requiring HM Cut.
+*   **Route 2 (Section North of Viridian Forest - Future Access):** The section of Route 2 accessible *after* passing through Viridian Forest (from south to north) will have cuttable trees requiring HM Cut.
 *   **Route 22 Summary:** This route presented significant navigational challenges due to ledges and isolated grass patches. Multiple strategies were attempted. All reachable unseen tiles eventually explored or confirmed inaccessible. Key lessons: ledges are strictly one-way; isolated areas require careful pathfinding, often via different map entry points; agent-provided paths for complex terrain must be rigorously verified.
 *   **Viridian City Obstacles:** Blocked east by impassable tile at (8,15). Blocked east by cuttable tree at (15,5). Blocked south (detour attempt) by impassable tile at (13,6).
 *   **Route 22 Gate:** Guard at (7,3) confirms BOULDERBADGE needed to pass west. Area fully explored.
