@@ -99,3 +99,8 @@
 - **Input Schema Summary**: player_party (name, level, hp, types, moves), enemy_trainer_name, enemy_party (name, level, types, known_moves), level_cap.
 - **Output Schema Summary**: lead_pokemon_suggestion, battle_plan (player_pkmn, enemy_pkmn, action_recommendation, reasoning), confidence_score, warnings.
 - **Can Run Code**: True
+### `trainer_battle_strategist`
+- **Description**: Analyzes an enemy trainer's Pokémon team and the player's party to suggest optimal battle strategies, including lead Pokémon, move choices, and potential switches, considering type matchups, known moves, and Hard Mode rules (no items, set mode).
+- **Input Schema Summary**: player_party (name, level, hp, types, moves), enemy_trainer_name, enemy_party (name, level, types, known_moves), level_cap.
+- **Output Schema Summary**: lead_pokemon_suggestion, battle_plan (player_pkmn, enemy_pkmn, action_recommendation, reasoning), confidence_score, warnings.
+- **Can Run Code**: True
