@@ -8,7 +8,7 @@
 3. PIP (PIDGEY): Lv8 (11/25 HP, EXP: 372) | Moves: GUST (22 PP), SAND-ATTACK (15 PP)
 
 ### B. Financial Status
-- Money: ¥16 (CRITICALLY LOW!)
+- Money: ¥296
 
 ### C. Current Location & Immediate Objective
 - Location: Viridian City (ID: 1), at (28,19) facing Up.
