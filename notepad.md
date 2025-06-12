@@ -89,3 +89,9 @@
 ## Pallet Town Exploration (Post-Oak's Lab Attempt 1)
 - Interacted with PALLETTOWN_SIGN at (8,10): "PALLET TOWN - Shades of your journey await!". No event triggered.
 - Next step: Investigate the warp at (6,6) (Player's House entrance). Game state lists it as `num_visits: 0`, which is inconsistent with WKG. This is a priority.
+
+## Player's House Exploration (Turn 191)
+- Entered Player's House. No immediate Pokémon event triggered.
+- The warp at (6,6) in Pallet Town (Player's House entrance) showed `num_visits: 0` before use. This seems to be a display characteristic for entry warps, as the WKG connection was correct and the warp worked. The discrepancy is considered resolved.
+- New secondary goal: Explore Player's House (both floors) for event triggers or Pokémon.
+- New tertiary goal: Interact with Mom on the first floor.
