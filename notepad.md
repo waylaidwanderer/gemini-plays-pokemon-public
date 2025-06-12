@@ -16,7 +16,7 @@
 
 # Agent Usage Plan & Review Notes (Turn 6057 Update)
 *   **`map_analyzer_agent` (Many Uses):** Primary tool for map queries. Generally reliable. Continue using for path validation and map feature identification.
-*   **`move_validator_agent` (Low Usage - System Errors):** Intended for complex path validation. Has had system errors. Use sparingly and with caution.
+*   **`move_validator_agent` (Agent List: 137 uses - System Errors):** Intended for complex path validation. Has had system errors. High usage despite errors is a concern; use sparingly and with extreme caution, verifying its outputs.
 *   **`exploration_planner_agent` (Multiple Uses - Updated Prompt):** Generates exploration paths. Prompt updated (Turn 6031) to better handle ledges, but still requires cautious use and manual verification of paths involving ledges, as it has previously provided invalid paths. (Reliability Note: Repeatedly struggled with optimal pathing on Route 22, especially around ledges and isolated grass patches, even after prompt updates. Use with extreme caution for complex navigation; manual planning or `map_analyzer_agent` for segments might be better.)
 *   **`scripted_event_tracker_agent` (Low Usage):** Tracks proximity to known scripted events. Use when approaching areas with known or suspected event triggers.
 *   **`pp_management_agent` (1 Use - Defined Turn 6031):** Advises on PP conservation. Utilize before long routes, dungeons, or major battles.
