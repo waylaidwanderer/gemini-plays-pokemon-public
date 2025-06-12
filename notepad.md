@@ -4,14 +4,12 @@
 *   **Tertiary Goal:** Reach Route 3 (East Pewter Exit at (40,19)) to battle trainers for funds.
 
 # Pewter City Strategy & Current Plan
-*   **Current Location:** (5,21) in Pewter City, facing Down. Pikachu at (5,20).
+*   **Current Location:** (17,20) in Pewter City, facing Down. Pikachu at (17,19).
 *   **Immediate Goal:** Reach Route 3.
 *   **Current Route 3 Strategy (Attempt #6f - Gym Reset from (18,21) & Far West-South-East Detour Mk2):**
-    1.  Current location (18,21), facing Right. Pikachu at (17,21). Blocked east by impassable (19,21). North of (18,19) is impassable (18,18). Stuck in western pocket (X=17-18, Y=19-21) AGAIN.
-    2.  Immediate Plan: Use Gym warp at (17,18) to escape.
-        a.  Move Left from (18,21) to (17,21).
-        b.  Move North from (17,21) to (17,18) (Gym Warp).
-    3.  After exiting Gym (will land at (17,19)):
+    1.  Previous step involved being stuck in western pocket (X=17-18, Y=19-21) at (18,21). Used Gym warp at (17,18) to escape, and exited Gym. Player is now at (17,20) just south of the Gym exit point (17,19).
+    2.  Immediate Plan: Move North from (17,20) to (17,19).
+    3.  Then, from (17,19) (Gym Exit Point):
         a.  Move West from (17,19) to (5,19).
         b.  Move South from (5,19) to (5,21). (Tile (5,22) is known impassable, this is an intended stop).
         c.  Move East from (5,21) to (34,21). (Will verify (35,21) if (34,21) is reached successfully).
@@ -24,20 +22,26 @@
         j.  Move North from (40,32) to (40,19) (Route 3 exit).
     4.  This detour aims to bypass all previously encountered X=19, Y=22, and X=36 blockades systematically. Will pay close attention to screen and map XML for each step, and use `move_validator_agent` for tricky short segments if unsure.
 
-*   **Known Pathing Obstacles in Pewter City:**
-    *   (34,20) - Impassable building facade. (Marked 🧱)
-    *   (36,27) - Impassable. (Marked 🧱)
-    *   (35,26) - Impassable.
-    *   X=36 column is largely impassable from Y=21 down to Y=32 (house structures).
-    *   Western 'pocket' near Gym (X=5-18, Y=19-21) requires Gym warp to escape if entered from east/south of it. This pocket includes impassable tiles at (19,19)-(19,21), (18,18), (17,22), (5,22).
-    *   Pokecenter entrance is at (14,26), entered by moving Up from (14,27).
+# Known Pathing Obstacles in Pewter City
+*   (19,21) & (19,19) - Impassable (blocks eastward movement from Gym area pocket).
+*   (18,18) - Impassable (N. Wall of W. Pocket - To be Marked 🧱).
+*   (5,22) - Impassable (blocks southward movement from (5,21) - Marked 🧱).
+*   (17,22) - Impassable (blocks southward movement from (17,21) - Marked 🧱).
+*   (34,20) - Impassable building facade (Marked 🧱).
+*   (36,27) - Impassable.
+*   (35,26) - Impassable.
+*   X=36 column is largely impassable from Y=21 down to Y=32 (house structures).
 
 # Agent Usage Plan
-*   **`scripted_event_tracker_agent`:** MUST use for any eastern path segments near Y=19 (e.g., from (33,19) towards (40,19)) to assess risk from Youngster (36,17).
-*   **`move_validator_agent`:** Use for short, complex, or risky manual pathing segments if unsure, especially after an agent path is provided or if screen details are ambiguous.
+*   **`scripted_event_tracker_agent`:** Use for any eastern path segments near Y=19 (e.g., from (33,19) towards (40,19)) to assess risk from Youngster (36,17) if detours fail and direct approach is reconsidered.
+*   **`move_validator_agent`:** Use for short, complex, or risky manual pathing segments if unsure, especially after an agent path is provided or if screen details are ambiguous. CRITICAL for Pewter City.
 *   **`map_analyzer_agent`:** Use for finding paths in complex areas if manual attempts fail. Critically review its output.
 *   **`money_management_agent`:** Use once sufficient funds are acquired to plan purchases.
 *   **`route_progress_analyzer_agent` / `battle_log_analyzer_agent`:** Keep in mind for Route 3 / after battles.
+
+# Dormant Agent Ideas
+*   Youngster Event Predictor Agent: Could try to model Youngster's patrol and predict escort trigger zones more dynamically.
+*   Path Refinement Agent: Could take a path from `map_analyzer_agent` and refine it based on stricter criteria or recent screen observations.
 
 # Game Mechanics & Strategy Notes
 *   **Ledge Mechanics:** One-way (downwards only).
@@ -51,12 +55,12 @@
 *   FLAREE (VULPIX): Lv8 (26/26 HP)
 *   ODDISH (ODDISH): Lv12 (37/37 HP) (Capped)
 
-# Hindsight & Lessons Learned (Post-Critique Turn 5650)
+# Hindsight & Lessons Learned (Post-Critique Turn 5650 & 5662)
 *   **Notepad `replace` failures:** Using `overwrite` for major cleanups is more reliable than trying to find exact `old_text` for `replace` after many micro-updates.
 *   **Screen Check Imperative:** ALWAYS check tiles immediately adjacent (especially in direction of planned movement) on screen *before* committing to multi-step moves. Don't rely solely on map memory or agent paths without visual confirmation of the very next step if possible.
-*   **Agent Output Review:** Critically review agent-provided paths against screen and map XML. Agents can make mistakes (e.g., `map_analyzer_agent` suggesting path through impassable tiles on turn 5563).
-*   **Youngster Avoidance:** Eastern Pewter is a minefield. High-risk paths near him should be treated with extreme caution and use `scripted_event_tracker_agent`. Intentional escort trigger can be a valid strategy if planned.
+*   **Agent Output Review:** Critically review agent-provided paths against screen and map XML. Agents can make mistakes.
+*   **Youngster Avoidance/Strategy:** Eastern Pewter is a minefield. High-risk paths near him should be treated with extreme caution and use `scripted_event_tracker_agent`. Intentional escort trigger can be a valid strategy if planned for the correct drop-off.
 *   **Pikachu & Warps:** Be mindful of Pikachu's position near warps; accidental turns can lead to re-entering warps.
-*   **Map Awareness:** Must improve fundamental map awareness and recall of impassable tiles to avoid repeating failed paths, especially in known 'pocket' areas like western Pewter City.
-*   **Strategic Shifts:** When an approach repeatedly fails, make more radical strategic shifts rather than minor variations on the failed path.
-*   **Dormant Agent Ideas:** Removed 'Youngster Event Predictor Agent' and 'Path Refinement Agent' to maintain focus. Will reconsider if a need arises and agent slots are available.
+*   **Map Awareness (PEWTER CITY IS A MAZE):** Must improve fundamental map awareness and recall of impassable tiles (esp. (19,19-21), (18,18), (5,22), (17,22), (34,20)) to avoid repeating failed paths.
+*   **Strategic Shifts:** When an approach repeatedly fails, make more radical strategic shifts. The current 'Far West-South-East Detour Mk2' is an example of this.
+*   **Reflection Adherence:** Ensure all reflection questions are thoroughly addressed during mandatory reflection turns.
