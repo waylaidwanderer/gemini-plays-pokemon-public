@@ -76,3 +76,12 @@
 - Notepad `old_text`: Precision is critical for `replace` actions.
 - Viridian Forest Navigation: Avoid trying to brute-force through dense tree lines. Systematically explore `Reachable Unseen Tiles` or loop around obstacles on a larger scale.
 - Item Pickups: Some items require 'A' interaction, not just walking over.
+
+## Strategic Plan: Journey to Pewter City
+1. Exit Viridian City to the north, entering Route 2.
+2. On Route 2, find the entrance to Viridian Forest (likely via a gatehouse warp).
+3. Navigate Viridian Forest, aiming for its northern exit.
+4. Exit Viridian Forest through its northern gatehouse, arriving back on Route 2 (northern section).
+5. Proceed north on Route 2 to reach Pewter City.
+6. Once in Pewter City, locate the Gym to challenge Brock.
+   - Potential Challenges: Trainers in Viridian Forest, wild Pokémon encounters, navigating the forest layout.
