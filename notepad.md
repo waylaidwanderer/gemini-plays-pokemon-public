@@ -171,11 +171,7 @@
 *   Attempt to move Up from (19,23) to (19,22) blocked by impassable building tile (Pokecenter roof), similar to blocks at (17,22) and (18,22).
 *   Revised path to Pewter Gym (17,18) from (19,23): (19,23) -> Right to (22,23) -> Up to (22,18) -> Left to (17,18).
 
-# Pewter City Gym Navigation (Turn 6790 - Attempt 10 for Gym approach)
-*   Current position (19,18), facing Down. Pikachu at (19,17). Impassable shoes at (19,19) blocked last attempt.
-*   Revised path to (17,19) then Up to (17,18):
-    1.  (19,18) -> Right to (20,18).
-    2.  (20,18) -> Down 3 times to (20,21).
-    3.  (20,21) -> Left 3 times to (17,21).
-    4.  (17,21) -> Up 2 times to (17,19).
-    5.  (17,19) -> Up to (17,18) (Gym Warp).
+# Pewter City Gym Navigation (Turn 6792 - Attempt 10 FAILED, resorting to agent)
+*   Started at (19,18). Moved Right to (20,18), then Down 3 times to (20,21). Currently at (20,21) facing Left. Pikachu at (20,20).
+*   Attempt to move Left from (20,21) to (19,21) as part of path to (17,21) FAILED. Tile (19,21) is impassable (shoes decoration).
+*   Resorting to `map_analyzer_agent` to find a path from current position (20,21) to (17,19). Goal is then to move Up from (17,19) to (17,18) (Gym Warp).
