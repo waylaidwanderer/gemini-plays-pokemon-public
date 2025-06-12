@@ -1,52 +1,45 @@
-# Current Plan - Viridian Forest Exploration
-*   **Objective:** Explore Viridian Forest for trainers to acquire funds and EXP.
-*   **Reason:** Accidentally re-entered Viridian Forest while attempting to explore Route 2. This area still offers opportunities for progress.
-*   **Status:** Just defeated a wild Caterpie. Continuing south from (2,12).
+# Current Plan - Viridian City
+*   **Objective:** Heal party at Pokémon Center. Acquire funds. Purchase supplies.
+*   **Reason:** FLAREE is injured. Critically low on funds (¥156). No items.
+*   **Status:** Arrived in Viridian City at (23,8). Pokémon Center is at (24,26).
 
-# Lessons Learned - Pewter Navigation & Strategy
-*   **Youngster Escort Event (Route 3 Blocker):** The Youngster (ID 5, trigger near (36,17)) is a major recurring obstacle, frequently resetting progress towards the east exit. After 8 failed attempts, Route 3 is considered temporarily inaccessible. I MUST AVOID REPEATING THIS FAILED STRATEGY.
-*   **Accurate Self-Location:** CRITICAL. I have repeatedly misidentified my current position, leading to flawed pathing and WKG errors. Must always verify against Game State Information.
-*   **Adaptability:** Must abandon objectives that prove consistently unachievable after a few (e.g., 3-4) attempts. Do not persist with failing strategies.
-*   **Map Awareness:** Continuously reinforce mental model of the current map, especially locations of known persistent obstacles and dynamic event triggers.
-*   **Path Validation:** While `move_validator_agent` is useful, over-reliance on it for simple paths is inefficient. For complex paths from `map_analyzer_agent`, validate in segments.
-
-# Known Pathing Obstacles in Pewter City
-*   (19,19), (19,21), (18,18), (5,22), (17,22), (13,17), (13,16) - Impassable tiles.
-*   Cool Trainer F at (9,16) blocks passage on Y=16 unless approached correctly.
-*   Gym Sign at (12,18) - Impassable background object.
-*   Police Notice Sign at (34,20) - Impassable building facade.
-
-# Agent Usage Plan & Review Notes
-*   **`map_analyzer_agent`:** Primary tool for pathfinding. Review its output and validate paths in segments.
-*   **`move_validator_agent`:** Use for genuinely complex, risky, or unclear path segments. Note: Has had system errors.
-*   **`exploration_planner_agent`:** Currently unreliable. Avoid or review its prompt for improvements before further use.
-*   **`scripted_event_tracker_agent`:** High usage, but effectiveness against Youngster event is questionable. Need to better integrate warnings or review agent logic.
-*   Ensure agents with `agent_can_run_code: true` are NOT fed `map_xml_string` or `world_knowledge_graph_json_string` as direct inputs.
-
-# Game Mechanics & Strategy Notes
+# Lessons Learned & Game Mechanics
+*   **Pewter Youngster Escort (Route 3 Blocker):** Youngster (ID 5, trigger near (36,17) in Pewter) blocks Route 3. Avoid this area for now.
+*   **Accurate Self-Location:** Always verify current position against Game State Information.
+*   **Adaptability:** Abandon consistently unachievable objectives (e.g., after 3-4 failed attempts).
+*   **Map Awareness:** Reinforce mental model of current map, obstacles, and event triggers.
 *   **Ledge Mechanics:** One-way (downwards only).
 *   **Movement:** 1st press TURNS *and* MOVES. Pikachu: 1st press turns, 2nd moves if moving *into* his tile and not facing him.
 *   **Level Cap:** 0 badges = Lv12.
-*   **Map Marker Legend:** 💥 (Event Trigger), 🎯 (Key Nav Point), ❗ (Risky Zone/Obstacle), 💁 (Event NPCs), ☠️ (Defeated), 🏛️ (Building), 📍 (Path Start), 🧱 (Impassable), 🚪 (Used Warp), ℹ️ (Info NPC).
+*   **EXP Cap Mechanics:** Pokémon at level cap do not gain EXP, even if message appears. Verified with SPBARKY.
+*   **Poison Damage:** Outside battle, poisoned Pokémon lose 1 HP every 4 steps.
 
-# Party Status
-*   SPBARKY (PIKACHU): Lv12 (39/39 HP, EXP: 1728) (Capped) | Moves: THUNDERSHOCK (30 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (19 PP)
-*   FLAREE (VULPIX): Lv8 (21/26 HP, EXP: 718) | Moves: EMBER (23 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP)
-*   ODDISH (ODDISH): Lv12 (37/37 HP, EXP: 973) (Capped) | Moves: TACKLE (35 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
-*   BIRBY (PIDGEY): Lv7 (24/24 HP, EXP: 236) | Moves: GUST (35 PP), SAND-ATTACK (15 PP)
+# Agent Usage Plan & Review Notes
+*   **`map_analyzer_agent`:** Primary tool for pathfinding. Review output, validate paths in segments.
+*   **`move_validator_agent`:** Use for complex/risky path segments. (Note: Has had system errors).
+*   **`exploration_planner_agent`:** Currently unreliable. Review prompt for improvements (e.g., focus on smaller segments, provide more goal context) before further use.
+*   **`scripted_event_tracker_agent`:** Use cautiously, effectiveness against Pewter Youngster event was limited.
+*   **`route_progress_analyzer_agent`:** Use for routes to identify remaining trainers/items (e.g., Route 2).
+*   **`money_management_agent`:** Use when shopping with funds.
+*   Ensure agents with `agent_can_run_code: true` are NOT fed `map_xml_string` or `world_knowledge_graph_json_string` as direct inputs.
+
+# Map Marker Legend
+💥 (Event Trigger), 🎯 (Key Nav Point), ❗ (Risky Zone/Obstacle), 💁 (Event NPCs), ☠️ (Defeated Trainer), 🏛️ (Key Building/Gym), 📍 (Path Start/Interesting Point), 🧱 (Impassable Obstacle), 🚪 (Used Warp), ℹ️ (Info NPC), 🌱 (Cuttable Tree)
+
+# Party Status (Turn 5921)
+*   **SPBARKY (PIKACHU):** Lv12 (39/39 HP, 1728 EXP - CAPPED) | Moves: THUNDERSHOCK (30 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (19 PP)
+*   **FLAREE (VULPIX):** Lv8 (21/26 HP, 718 EXP) | Moves: EMBER (23 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP)
+*   **ODDISH (ODDISH):** Lv12 (37/37 HP, 973 EXP - CAPPED) | Moves: TACKLE (35 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
+*   **BIRBY (PIDGEY):** Lv7 (24/24 HP, 236 EXP) | Moves: GUST (35 PP), SAND-ATTACK (15 PP)
 
 # World Knowledge Graph (WKG) Management
-*   Verify current location and that a map transition has *just occurred* before adding edges. Nodes for known exits can be added pre-transition.
+*   Verify current location and that a map transition has *just occurred* before adding edges. Nodes for known exits can be added pre-transition. Use consistent tags.
 
-# Pewter City - Route 3 Attempts Summary (Abandoned Objective)
-*   Attempted to reach Route 3 eight times. All attempts were ultimately blocked by the Youngster escort event or by impassable terrain discovered mid-path. The eastern exit is currently considered too unreliable to pursue for funds. Pivoting to Route 2 exploration.
+# Route/Area Specific Notes
+*   **Pewter City - Route 3:** Attempts abandoned due to Youngster escort event.
+*   **Route 2:**
+    *   Southern part does not directly connect north to Pewter City. Must go via Viridian City.
+    *   The northern part of Route 2 (towards Pewter City) has areas blocked by cuttable trees. One is noted near a warp at (13,10) on that map segment (tree likely at (6,11)). Another is at (13,53) on the overall Route 2 map. HM Cut will be required to explore these areas fully and potentially find more trainers/items.
 
-# Route 2 Exploration Notes
-*   The warp at (13,10) is blocked by a cuttable tree (likely at (6,11)) and is inaccessible without HM Cut.
-
-# EXP Tracking & Observations (Post-Critique)
-*   **Flaree (Vulpix):** After defeating wild Caterpie (Lv4) in Viridian Forest (Turn 5820), Flaree gained 14 EXP. Old EXP: 718. New EXP: 732. Still Lv8.
-*   **SPBARKY (Pikachu):** Game displayed 'SPBARKY gained 14 EXP. Points!' after Caterpie battle (Turn 5820). However, SPBARKY is Lv12 (current cap: 12). Verified EXP value before (1728) and after (1728) the battle; no actual EXP was gained, confirming the rule.
-
-# Route 2 Exploration Notes
-*   The warp at (13,10) is blocked by a cuttable tree (likely at (6,11)) and is inaccessible without HM Cut. Accessing the northern part of Route 2 towards Pewter City will likely require HM Cut for the tree at (13,53) or another cuttable tree that blocks the path.
+# EXP Tracking & Observations
+*   Wild Pokémon battles yield EXP for uncapped Pokémon. Pokémon at the level cap (e.g., SPBARKY at Lv12 with 0 badges) will show an EXP gain message but their actual EXP value will not change.
