@@ -84,7 +84,7 @@
     - BLAZe has an EEVEE Lv5 (encountered in first battle).
 
 ## Future Agent Ideas
-- **Battle Outcome Predictor:** An agent that could take current battle state (Pokémon HP, stats, known moves, opponent's Pokémon type/level/estimated HP) and predict damage ranges, KO probabilities, and suggest optimal moves. Could be very helpful for Hard Mode where resource management is key.
+(None currently planned)
 
 - **Oak's Lab (Map ID 40) - Post-Starter Events:**
     - Battled BLAZe in Oak's Lab. BLAZe has an EEVEE (Lv5).
