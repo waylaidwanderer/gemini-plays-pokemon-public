@@ -136,9 +136,6 @@
 - **Stuck Interaction:** VIRIDIANCITY_YOUNGSTER1 (ID 1) dialogue loop (Turns ~1920-1943).
 - **Misunderstood NPC:** VIRIDIANCITY_YOUNGSTER2 (ID 3) - informational (DV speech), not a battler (Turns ~1966-2000).
 
-### Agent Review Update (Turn 2007)
-- `path_simplifier_agent`: Failed again (Turn 2006). Outputted jumbled instructions and incorrect total button presses. Manual path breakdown and button press calculation was necessary. **PRIORITY REVIEW NOW** to fix its logic or consider replacing with a `run_code` script for path simplification.
-
 ### NPC Interaction Updates (Turn 2019)
 - **VIRIDIANCITY_YOUNGSTER2 (ID 3, (29,22) area):** Confirmed informational NPC. Explained DVs. Not a battler. Marked interaction as concluded.
 - **VIRIDIANCITY_GAMBLER1 (ID 2, (31,9)):** Interaction attempt (Turn 2017-2019). Repeated dialogue ('I wonder who the LEADER is?') after two 'A' presses. Conclusion: Likely non-battling or bugged. Abandoning as a battle target. Marked 🚫.
