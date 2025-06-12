@@ -58,7 +58,7 @@
 *   (Map - Coordinates - Trainer Name)
 
 ## Custom Agent Considerations:
-*   Currently, no custom agents will be defined. I will reconsider creating specialized agents if a clear, complex, or repetitive task arises during gameplay that would significantly benefit from one.
+*   I will actively look for opportunities to deploy the defined agents (`battle_strategist_agent`, `route_planner_agent`, `rom_hack_mechanic_analyzer_agent`) to test their efficacy and integrate them into my gameplay loop.
 
 ## World Knowledge Graph Notes:
 *   Record inter-map transitions (map boundary, warps) IMMEDIATELY using `manage_world_knowledge`.
