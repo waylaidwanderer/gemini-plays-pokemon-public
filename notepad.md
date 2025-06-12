@@ -103,3 +103,8 @@
 - Delivered OAK'S PARCEL to Professor Oak.
 - Received POKéDEX from Professor Oak.
 - New objective: Complete the Pokédex for Professor Oak (long-term task).
+
+## Ledge Mechanics Clarification (Turn 798)
+- Ledges can only be jumped *down*. They cannot be climbed *up*.
+- If you are on a ground tile (X, Y_current) and an adjacent tile (e.g., (X, Y_current-1) for 'Up') is a 'ledge' type tile that would represent the higher elevation of that ledge, you cannot move onto it from the lower ground.
+- To jump down a ledge: You must be on the higher ground adjacent to the ledge tile. For example, if (X, Y_Ledge) is the ledge tile and (X, Y_Ledge+1) is the ground below it, you'd typically be on ground at (X, Y_Ledge-1), move Down onto (X, Y_Ledge), and the game would then move you to (X, Y_Ledge+1).
