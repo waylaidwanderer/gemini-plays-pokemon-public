@@ -1,5 +1,5 @@
 # Current Plan - Viridian Forest Exploration
-*   **Objective:** Explore Viridian Forest for trainers and items to acquire funds and EXP.
+*   **Objective:** Explore Viridian Forest for trainers to acquire funds and EXP.
 *   **Reason:** Accidentally re-entered Viridian Forest while attempting to explore Route 2. This area still offers opportunities for progress.
 *   **Status:** Just defeated a wild Caterpie. Continuing south from (2,12).
 
@@ -25,7 +25,7 @@
 
 # Game Mechanics & Strategy Notes
 *   **Ledge Mechanics:** One-way (downwards only).
-*   **Movement:** 1st press TURNS if not facing, 2nd press MOVES. Pikachu: 1st press turns, 2nd moves if moving *into* his tile and not facing him.
+*   **Movement:** 1st press TURNS *and* MOVES. Pikachu: 1st press turns, 2nd moves if moving *into* his tile and not facing him.
 *   **Level Cap:** 0 badges = Lv12.
 *   **Map Marker Legend:** 💥 (Event Trigger), 🎯 (Key Nav Point), ❗ (Risky Zone/Obstacle), 💁 (Event NPCs), ☠️ (Defeated), 🏛️ (Building), 📍 (Path Start), 🧱 (Impassable), 🚪 (Used Warp), ℹ️ (Info NPC).
 
