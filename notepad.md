@@ -107,3 +107,6 @@
 - SPARKY (PIKACHU) Lv11: Learned TAIL WHIP, forgot GROWL.
 
 - Investigate `map_exploration_strategist_agent` failure (Turn 1424). Check prompt, code, map complexity.
+
+## Pokémon Updates (Turn 1481)
+- SPARKY (PIKACHU) Lv12: Reached level cap (0 badges).
