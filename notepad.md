@@ -75,7 +75,7 @@
 *   **New Approach:**
     1.  Exit Route 22 to Viridian City via an upper path exit (e.g., (40,7) on Route 22). Path from (37,15): [(37, 15), (36, 15), (35, 15), (34, 15), (34, 14), (34, 13), (35, 13), (36, 13), (36, 12), (36, 11), (36, 10), (36, 9), (36, 8), (37, 8), (37, 7), (38, 7), (39, 7), (40, 7)]. Current action: Move from (34,15) to (40,7).
     2.  In Viridian City, immediately re-enter Route 22, aiming to arrive on Route 22's upper path (e.g., at (40,7) or similar).
-    3.  On Route 22's upper path, travel west to approx. X=17 (e.g., (17,6) or (17,5)).
+    3.  Follow validated path from (37,7) to (17,6): (37, 7) -> (37, 8) -> (36, 8) -> (36, 9) -> (36, 10) -> (36, 11) -> (36, 12) -> (36, 13) -> (35, 13) -> (34, 13) -> (33, 13) -> (32, 13) -> (32, 12) -> (32, 11) -> (32, 10) -> (32, 9) -> (32, 8) -> (31, 8) -> (31, 7) -> (31, 6) -> (30, 6) -> (29, 6) -> (28, 6) -> (27, 6) -> (26, 6) -> (25, 6) -> (24, 6) -> (23, 6) -> (22, 6) -> (21, 6) -> (20, 6) -> (19, 6) -> (18, 6) -> (17, 6).
     4.  From (17,5/6), move south to (17,8) (ledge).
     5.  Jump down the ledge at (17,8) to land at (17,9) (grass).
     6.  From (17,9) grass, move to (17,10) grass.
