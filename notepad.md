@@ -32,12 +32,6 @@
 # Map Marker Legend
 💥 (Event Trigger), 🎯 (Key Nav Point), ❗ (Risky Zone/Obstacle), 💁 (Event NPCs), ☠️ (Defeated Trainer), 🏛️ (Key Building/Gym), 📍 (Path Start/Interesting Point), 🧱 (Impassable Obstacle), 🚪 (Used Warp), ℹ️ (Info NPC), 🌱 (Cuttable Tree), ⬆️ (Access Point), 🚧 (Ledge - Down only)
 
-# Party Status (Turn 6371)
-*   SPBARKY (PIKACHU): Lv12 (39/39 HP, EXP: 1728 - CAPPED)
-*   FLAREE (VULPIX): Lv9 (21/28 HP, PSN, EXP: 808)
-*   ODDISH (ODDISH): Lv12 (37/37 HP, EXP: 973 - CAPPED)
-*   BIRBY (PIDGEY): Lv7 (18/24 HP, EXP: 263)
-
 # World Knowledge Graph (WKG) Management
 *   Verify map transition *just occurred* before adding edges. Nodes for known exits can be added pre-transition. Use consistent tags.
 
