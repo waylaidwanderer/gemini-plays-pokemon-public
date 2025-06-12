@@ -47,4 +47,4 @@
 *   Wild Pokémon battles yield EXP for uncapped Pokémon. Pokémon at the level cap (e.g., SPBARKY at Lv12 with 0 badges) will show an EXP gain message but their actual EXP value will not change.
 
 # Agent Reliability Notes
-*   **`exploration_planner_agent`**: Currently unreliable for paths involving ledges. Agent-provided paths with ledges should be carefully verified or avoided.
+*   **`exploration_planner_agent`**: Prompt updated (Turn 6033) to better handle ledges, but still requires cautious use and verification of paths involving ledges. Has previously given paths that were blocked by ledges or impassable terrain.
