@@ -29,8 +29,8 @@
 
 ## Current Goals & Plans
 - **Primary:** Obtain my first Pokémon.
-- **Secondary:** Re-visit Player's House to check for new events or dialogue from Mom.
-- **Tertiary:** If Player's House yields no new leads, re-evaluate exploration of Pallet Town, prioritizing reachable unseen tiles.
+- **Secondary:** Trigger the starter Pokémon event by attempting to leave Pallet Town to the North (towards Route 1).
+- **Tertiary:** If attempting to leave town does not trigger the event, systematically explore all `Reachable Unseen Tiles` in Pallet Town.
 
 ## Strategy Notes & Lessons Learned
 - **World Knowledge Graph (WKG):**
