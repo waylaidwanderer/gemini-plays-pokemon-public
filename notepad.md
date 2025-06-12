@@ -1,13 +1,15 @@
 # Pokémon Yellow Legacy - Hard Mode Notes (Gem's Log)
 
-## Current Status
-- Location: Viridian Forest (Map ID 51) at (19,45).
+## Current Status & Goals
 - Badges: 0
 - Level Cap: 12 (Next Gym: Brock, Ace Lv12)
-- Money: ¥1175
+- Primary Goal: Defeat Brock, the Pewter City Gym Leader.
+- Secondary Goal: Travel to Pewter City.
+- Tertiary Goal: Explore Viridian Forest for items, experience, and new Pokémon.
 
 ## Active Pokémon Party
 1. SPARKY (PIKACHU): Lv8 (25/28 HP, EXP: 530/800 to Lv9) | Moves: THUNDERSHOCK, GROWL, QUICK ATTACK, THUNDER WAVE
+2. (Newly caught Oddish - will nickname SPROUT): Lv6
 
 ## Game Mechanics & Rules Summary
 - Battle Style: Set. No items in battle. Level caps apply.
@@ -15,7 +17,7 @@
 - All 151 Pokémon obtainable. Trade evos by level.
 - Smarter AI, tougher bosses.
 - EXP. All obtainable without special requirements.
-- Poison: 1 HP lost per 4 steps outside battle.
+- Poison: 1 HP lost per 4 steps outside battle. SPARKY is currently poisoned.
 - STAT Experience: Significant stat boosts from battling/leveling.
 - Enemy Trainer PP: Unlimited.
 - PC Log Off: Saves game.
@@ -28,7 +30,7 @@
 ## Discovered Tile Types & Movement Rules
 - **ground**: Walkable.
 - **impassable**: Walls, objects, etc. Not traversable.
-- **warp**: Map transition. Activation varies (instant 1x1, or 2-step for larger like exit mats/gatehouses).
+- **warp**: Map transition. Activation varies (instant 1x1, or 2-step for larger like exit mats/gatehouses). Specific warps can be impassable tiles themselves (e.g. Viridian Forest South Gate north warp at (5,1)).
 - **water**: Requires Surf.
 - **grass**: Wild encounters.
 - **ledge**: Jump down only. Cannot move 'up' onto a ledge tile from lower ground. To jump down, be on higher ground adjacent to the ledge, move onto the ledge tile.
@@ -45,25 +47,35 @@
 - Youngster (Route 1, (16,14)): Explained STAT Experience.
 - Girl (Viridian School, (4,6)): CUT is Bug HM.
 - Girl (Viridian School, (5,6)): Pokémon evolve by training.
-- Old Man (Viridian City, now (20,14)): Path to Route 2 unblocked after coffee. Gave catching tutorial (failed catch, mentioned START+A on STATS for growth potential).
+- Old Man (Viridian City, now (20,14)): Path to Route 2 unblocked after coffee. Gave catching tutorial (failed catch, mentioned START+A on STATS for growth potential). No longer blocks path.
 - Viridian Mart Clerk: Sells Poké Balls after Oak's Parcel delivery.
-- Youngster (Viridian Forest, (17,44)): Dialogue 'They're out for POKéMON fights!'. Does not battle on 'A' interaction or by walking onto tile. (Attempted interaction 3 times - dialogue only).
+- Youngster (Viridian Forest, (17,44)): Dialogue 'They're out for POKéMON fights!'. Does not battle on 'A' interaction or by walking onto tile. (Attempted interaction 3 times - dialogue only). Marked with 💬.
+
+## Current Area Focus: Viridian Forest (Map ID 51)
+- Objective: Find items (Antidotes, Potions), battle trainers for EXP, catch new Pokémon, and locate the North exit to Route 2.
+- SPARKY is poisoned; need to be mindful of HP or find an Antidote.
+- Consider pathing carefully due to maze-like structure.
 
 ## Agent Strategy & Ideas
 ### Active/Available Agents:
-1.  **Level Cap Compliance Agent** (`level_cap_compliance_checker`): Defined. Checks Pokémon levels against current cap. Should test soon.
-2.  **Item Finder Agent** (`item_finder_agent`): Defined. Locates items/buildings. Value needs re-evaluation for current tasks.
+1.  **Level Cap Compliance Agent** (`level_cap_compliance_checker`): Defined. Checks Pokémon levels against current cap.
+2.  **Item Finder Agent** (`item_finder_agent`): Defined. Locates items/buildings in towns. Value re-evaluation needed for current tasks (forest exploration).
 
 ### Future Agent Ideas:
-1.  **Viridian Forest Navigator**: Helps navigate Viridian Forest. (Consider defining soon if forest proves complex).
+1.  **Viridian Forest Navigator**: To be defined. Helps navigate Viridian Forest by suggesting paths to unseen areas, items, or exits.
 
-### Discontinued Agents:
--   `route_pathfinder`: Consistently failed.
--   `exploration_prioritizer_agent`: Often gave unhelpful suggestions.
-
-### General Agent Notes:
--   Ensure system prompts are robust and include all necessary game context.
--   Input schemas should not include auto-provided variables like `map_xml_string` for code-enabled agents.
+## Lessons Learned & Strategy Refinements
+-   **Trust Game State**: GSI is absolute truth for dynamic data (NPCs, items, map connections reachability).
+-   **Pathing**: Double-check tile types (especially ledges) before committing to a path. NPCs can block movement. Repeatedly trying to move onto a blocking NPC or through a dialogue loop is inefficient.
+-   **Critical Path**: Prioritize objectives that unblock main progression.
+-   **Efficiency**: Plan longer movement sequences. Avoid repeated interactions if the first attempt yields no new info. Record failed interaction attempts.
+-   **Hypothesis Testing**: Form hypotheses, test systematically, document failures and attempt counts.
+-   **Route 22**: Was a detour. Path to Pewter is North from Viridian City via Route 2 / Viridian Forest. (Old Man unblocked).
+-   **Mart Exit (Viridian)**: Exits to (30,21) outside Mart. WKG/Marker updated.
+-   **Route 1 Ledge Navigation**: Cannot move 'up' onto a ledge from lower ground.
+-   **Viridian Forest Gate Warp**: The warp at (5,1) in the South Gate was impassable from (5,2). Used (6,1) successfully. (5,1) might be an exit-only from the forest side or require a different approach.
+-   **NPC Interaction**: If an NPC dialogue repeats and no battle/event occurs, do not re-interact. Mark and move on. (e.g., Viridian Forest Youngster ID 1). (Failed interaction attempts: 3).
+-   **Pathing to Trainer Tips Sign (Viridian Forest (19,46))**: Multiple attempts (Turns 900-905) due to misjudging obstacles and Pikachu's position. Need more careful short-range pathing.
 
 ## World Knowledge Graph (WKG) Best Practices
 - Record inter-map transitions (map boundary, warps) immediately using `manage_world_knowledge`.
@@ -74,21 +86,3 @@
 ## Map Marker Best Practices
 - Mark defeated trainers (☠️), used warps (🚪), key info NPCs (💡/💬), signs (ℹ️), obstacles (🚧), items given by NPCs (🎁).
 - Use distinct emojis and concise labels. Delete redundant markers.
-
-## Lessons Learned & Strategy Refinements
--   **Trust Game State**: GSI is absolute truth for dynamic data (NPCs, items, map connections reachability).
--   **Pathing**: Double-check tile types (especially ledges) before committing to a path. NPCs can block movement. Repeatedly trying to move onto a blocking NPC or through a dialogue loop is inefficient.
--   **Critical Path**: Prioritize objectives that unblock main progression.
--   **Efficiency**: Plan longer movement sequences. Avoid repeated interactions if the first attempt yields no new info. Record failed interaction attempts.
--   **Hypothesis Testing**: Form hypotheses, test systematically, document failures and attempt counts.
--   **Route 22**: Was a detour. Path to Pewter is North from Viridian City via Route 2 / Viridian Forest.
--   **Mart Exit (Viridian)**: Exits to (30,21) outside Mart, not School House. WKG/Marker updated.
--   **Route 1 Ledge Navigation**: Multiple failed attempts to navigate ledges before finding correct paths. Improved understanding: cannot move 'up' onto a ledge from lower ground.
--   **Viridian Forest Gate Warp**: The warp at (5,1) in the South Gate was impassable. Used (6,1) successfully.
--   **NPC Interaction**: If an NPC dialogue repeats and no battle/event occurs, do not re-interact. Mark and move on.
-
-## Current Exploration Plan (Viridian Forest)
-- Systematically explore unseen tiles.
-- Look for items (especially Antidotes, Potions), battle trainers for EXP, and find the North exit.
-- Consider catching a new Pokémon (e.g., Caterpie, Weedle, Mankey if available).
-- Monitor SPARKY's level (currently Lv8, cap 12).
