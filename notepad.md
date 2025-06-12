@@ -85,11 +85,6 @@
 - **route_pathfinder (Turn 477):** Failed with error "Agent LLM resp missing content (Iter 1)" when trying to path from (14,21) to (17,14) on Route 1. Needs further testing on simpler paths.
 - **exploration_prioritizer_agent (Turn 534):** Suggested exploring the Pokémon Center warp (24,26) in Viridian City immediately after exiting it. Unhelpful. Prompt needs refinement.
 
-## Future Agent Ideas
-- **Party Optimizer Agent:** Analyzes Pokémon party, upcoming challenges (gyms, routes), and suggests training locations, moveset changes, or potential team compositions.
-- **Inventory Manager Agent:** Tracks inventory, suggests items to buy/sell based on current needs, money, and game progression.
-- **Battle Analyst Agent:** Parses battle logs (if obtainable) to identify opponent patterns, suggest counter-strategies, or evaluate move effectiveness.
-
 - Little Girl - Viridian School House (5,6) - Confirmed Pokémon evolve by training, no trade needed.
 
 - Cooltrainer F - Viridian School House (5,2) - Advised to read blackboard.
