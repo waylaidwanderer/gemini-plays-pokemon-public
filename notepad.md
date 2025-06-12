@@ -95,3 +95,8 @@
 - Defeated Bug Catcher (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (31,34) in Viridian Forest. (Turn 1105)
 
 - SPARKY is no longer poisoned as of Turn 1106 (confirmed via GSI).
+
+## Reflection Insights (Turn 1129)
+- Review "Specific Tile Discoveries (Viridian Forest)" and map markers for redundancy with XML data when out of battle.
+- Be more cautious with HP management. Consider more direct routes to objectives when party HP is critically low. Avoid unnecessary wild encounters if possible.
+- Potential improvements for `trainer_battle_strategist`: Enhance system prompt for Hard Mode awareness (enemy unlimited PP, stalling tactics) and encourage verification of type matchups (possibly via its `run_code` if enabled, or by prompting it to state its assumptions).
