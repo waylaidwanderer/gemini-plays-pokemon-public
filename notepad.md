@@ -23,7 +23,7 @@
 *   **`battle_log_analyzer_agent` (1 Use):** Parses battle text. Use after significant battles.
 *   **`notepad_query_agent` (3 Uses):** Queries notepad content.
 *   **`npc_interaction_planner_agent` (12 Uses):** Plans NPC interactions. (Usage count corrected as per critique).
-*   **`battle_advisor_agent` (0 Uses - Defined Turn 6025):** Provides in-battle advice.
+*   **`battle_advisor_agent` (0 Uses - Defined Turn 6025):** Provides in-battle advice. **Decision: Plan to delete.**
 *   **Agent Limit:** 10 agents. Plan definitions/deletions proactively.
 *   **Input Data:** Ensure agents with `agent_can_run_code: true` are NOT fed `map_xml_string` or `world_knowledge_graph_json_string` as direct inputs.
 
