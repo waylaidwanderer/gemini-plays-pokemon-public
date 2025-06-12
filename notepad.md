@@ -92,3 +92,6 @@
 
 - Oak's Lab (Event State):
     - Attempted to interact with event Poké Ball at (2,11) by standing on it and pressing A (facing Down). No text appeared. Hypothesis: Interaction may require being adjacent to the Poké Ball and facing it, or another NPC interaction is needed first.
+
+- Oak's Lab (Event State):
+    - Attempted to move Up from (2,11) to (2,10) (adjacent to event Poké Ball, Girl at (2,10) on screen) but was blocked. New plan: move to (1,11) (left of Poké Ball), then face Right and interact.
