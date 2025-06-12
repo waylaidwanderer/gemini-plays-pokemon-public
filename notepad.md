@@ -143,3 +143,5 @@
 ### NPC Interaction Updates (Turn 2019)
 - **VIRIDIANCITY_YOUNGSTER2 (ID 3, (29,22) area):** Confirmed informational NPC. Explained DVs. Not a battler. Marked interaction as concluded.
 - **VIRIDIANCITY_GAMBLER1 (ID 2, (31,9)):** Interaction attempt (Turn 2017-2019). Repeated dialogue ('I wonder who the LEADER is?') after two 'A' presses. Conclusion: Likely non-battling or bugged. Abandoning as a battle target. Marked 🚫.
+
+- Be more diligent about marking used warps (🚪), especially for complex buildings or less obvious transitions. (Added to III.E during reflection on Turn 2054)
