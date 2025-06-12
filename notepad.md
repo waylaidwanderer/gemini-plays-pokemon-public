@@ -91,7 +91,7 @@
 *   Two Pokédexes on tables:
     *   OAKSLAB_POKEDEX1 at (3,2).
     *   OAKSLAB_POKEDEX2 at (4,2).
-*   Reachable Unseen Tiles: (1,11), (2,12), (4,12), (5,12), (7,12), (8,12), (10,12).
+
 *   Goal: Explore all unseen tiles. Starting with (1,11).
 
 ## Type Matchup Changes (Learned):
