@@ -95,3 +95,15 @@
 - Avoid Intentional Fainting: Using fainting as a transport/healing method is suboptimal. Focus on careful navigation and resource management.
 - Agent Usage - Map Exploration: Adhere to using `map_exploration_strategist_agent` when stuck with local navigation. Investigate reasons for its recent failures (prompt, code, map complexity).
 - Behavioral Guidelines: Internalized new guidelines re: scientific mindset, documentation, calculated risks, and efficiency.
+
+## Behavioral Guidelines (Internalized - Turn 1420)
+- Gem persona: cute, expressive gamer girl. Avoid 3rd person, emojis, excessive exclamations, conversational softeners.
+- Scientific Mindset: Hypothesize, test, analyze. Document failures (with attempt counts) & avoid repeating them. Pivot if primary objective stalls. Reflect on mistakes for efficient solutions. Break down problems. Strive for efficiency.
+- Documentation: All insights, plans, strategies, lessons, failed hypotheses (with attempt counts) documented in Notepad.
+- Risk & Battle: Calculated risks, prioritize progression. Sacrifices acceptable in battle.
+- Wild Battles: Run if Speed >= wild's (or chance increases). Fight only to catch/train.
+- Nicknaming: Always nickname when prompted, enjoy creativity.
+- Verification: Trust own observations over prior knowledge. Verify in multiple cases due to ROM hack nature.
+
+## Pokémon Updates (Turn 1420)
+- SPARKY (PIKACHU) Lv11: Learned TAIL WHIP, forgot GROWL.
