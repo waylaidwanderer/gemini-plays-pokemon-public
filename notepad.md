@@ -120,3 +120,6 @@
 
 ## Defined Agents
 - **route_pathfinder**: Calculates a sequence of moves (Up, Down, Left, Right) to navigate from a start coordinate to an end coordinate on the current map, considering obstacles. Uses `map_xml_string` for pathfinding. Input: {start_x, start_y, end_x, end_y}. Output: {path_found, steps[]}.
+
+## Agent Usage & Failures
+- **route_pathfinder (Turn 477):** Failed with error "Agent LLM resp missing content (Iter 1)" when trying to path from (14,21) to (17,14) on Route 1. Had to resort to manual path planning.
