@@ -96,3 +96,6 @@
 - HP Management: Losing SPROUT to a wild Pidgey (Turn 1177) was avoidable. Prioritize running or safer switches when HP is low or type matchup is very unfavorable, especially with limited party members.
 - Pathing Precision: Route 2 navigation issues (Turns 1160-1165) due to not checking ledges highlight need for meticulous path review in Map Memory before long moves.
 - Notepad `old_text`: Continued precision needed for `replace` actions to avoid tool failures.
+
+## TODO / Future Actions
+- Perform full notepad cleanup (remove redundant 'Lessons Learned' blocks) when at a PC/safe spot. Repeated `replace` attempts failed.
