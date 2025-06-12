@@ -55,7 +55,7 @@
 *   Segment 1 (Completed): (7,32) to (7,40) - 8 presses: ['Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down']. FLAREE HP: 14/28 -> 12/28.
 *   Segment 2 (Interrupted, Resuming): (7,40) to (14,41). Original 8 presses: ['Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right'].
     *   Sub-segment 2a (Completed): (7,40) to (11,41) - 5 presses: ['Down', 'Right', 'Right', 'Right', 'Right']. FLAREE HP: 12/28 -> 11/28 (Interrupted by Caterpie battle at (11,41)).
-    *   Sub-segment 2b (Current): (11,41) to (14,41) - Remaining 3 presses: ['Right', 'Right', 'Right']. FLAREE HP projection: Start 11/28 -> End 11/28.
+    *   Sub-segment 2b (Current): (11,41) to (14,41) - Remaining 3 presses: ['Right', 'Right', 'Right']. FLAREE HP projection: Start 11/28 -> End 11/28 (no poison damage for 3 steps).
 
 # Pathing Agent Failures (Viridian Forest)
 *   `map_analyzer_agent` (Path to North Exit from (22,41)) - Attempt 1: Path led to impassable sign at (25,41). Attempt 2 (Turn 6443): Agent LLM error, no path provided.
