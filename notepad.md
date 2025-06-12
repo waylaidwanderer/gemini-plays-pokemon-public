@@ -64,4 +64,4 @@
 *   Record inter-map transitions (map boundary, warps) IMMEDIATELY using `manage_world_knowledge`.
 
 ## Pallet Town NPCs & Interactions:
-*   **Daisy (Rival's House):** Told me Pixel is looking for me and went to Prof. Oak's Lab.
+*   **Daisy (Rival's House @ 3,4):** Told me Pixel is looking for me and went to Prof. Oak's Lab. She blocks movement on her tile.
