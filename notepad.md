@@ -106,7 +106,7 @@
 
 ### B. Agent Review TODOs & Improvement Plans
 - `map_exploration_strategist_agent`: **CRITICAL FAILURE (Turn 1945, 2038).** As per critique (Turn 2040), continued use is a major error. Must establish a reliable alternative (fix agent, `run_code` script, or manual planning) ASAP. Current strategy is manual planning.
-- `path_simplifier_agent`: **PRIORITY REVIEW.** Failed Turn 1946. Needs prompt review for reliability, especially Pikachu logic.
+- `path_simplifier_agent`: **PRIORITY REVIEW.** Failed Turn 1946 and Turn 2006 (jumbled instructions, incorrect button presses). Logic, especially Pikachu handling, is unreliable. Consider replacement with a `run_code` script or commit to manual path breakdown.
 - `item_finder_agent`: Review prompt for better building ID. Assess utility; consider deletion if not consistently valuable.
 - `wkg_transition_recorder_agent`: Monitor multi-step output. Ensure logic for existing vs. new nodes is robust.
 - `capability_checker_agent`: Untested. Seek opportunity to test or reassess necessity.
