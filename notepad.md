@@ -107,3 +107,6 @@
 
 - Oak's Lab (Event State):
     - Professor Oak (visually at (2,9), sprite OAKSLAB_GIRL) is in an interaction loop, repeating type matchup dialogue (Poison > Bug, Bug !> Poison).
+
+- Oak's Lab (Event State):
+    - Exiting and re-entering Oak's Lab did NOT reset the event state. Professor Oak remains in a dialogue loop.
