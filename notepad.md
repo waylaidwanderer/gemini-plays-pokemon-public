@@ -5,10 +5,6 @@
 2. SPROUT (ODDISH): Lv7 (25/25 HP, EXP: 245) | Moves: TACKLE (35 PP), POISONPOWDER (35 PP)
 3. PIP (PIDGEY): Lv7 (23/23 HP, EXP: 236) | Moves: GUST (35 PP), SAND-ATTACK (15 PP)
 
-## Game State
-- Badges: 0
-- Current Level Cap: 12 (Next: 21 after 1st badge)
-
 ## Current Financial Status & Needs
 - Money: ¥33 (Critically Low!)
 - Needs: Earn Pokedollars for Potions, Poké Balls, other essentials.
