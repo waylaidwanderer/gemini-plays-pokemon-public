@@ -29,7 +29,4 @@
 *   Pixel
 
 ## Discovered Tile Types:
-*   `unknown` - Tile not visually confirmed (seen="false")
-
-## Rival Name:
-*   Pixel
+*   (No specific tile types discovered and their properties confirmed yet)
