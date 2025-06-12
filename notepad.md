@@ -6,10 +6,15 @@
 # Pewter City Strategy & Current Plan
 *   **Current Location:** (17,20) in Pewter City, facing Down. Pikachu at (17,19).
 *   **Immediate Goal:** Reach Route 3.
-*   **Current Route 3 Strategy (Attempt #6f - Gym Reset from (18,21) & Far West-South-East Detour Mk2):**
-    1.  Previous step involved being stuck in western pocket (X=17-18, Y=19-21) at (18,21). Used Gym warp at (17,18) to escape, and exited Gym. Player is now at (17,20) just south of the Gym exit point (17,19).
-    2.  Immediate Plan: Move North from (17,20) to (17,19).
-    3.  Then, from (17,19) (Gym Exit Point):
+*   **Current Route 3 Strategy (Attempt #6g - Far West-South-East Detour from (18,21) Mk3):**
+    1.  Player is at (18,21) facing right, Pikachu at (17,21). Previous strategy "Attempt #6f" assumed starting at (17,20) after Gym exit, which was incorrect. This is a revised attempt.
+    2.  Immediate Plan (Executing this turn):
+        a. From (18,21) (facing right), turn Left, move Left (onto Pikachu at (17,21)).
+        b. From (17,21), move Up to (17,20), then Up to (17,19).
+        c. From (17,19) (facing up), turn Left, move Left to (16,19).
+        d. Continue Left from (16,19) to (5,19).
+        e. From (5,19) (facing left), turn Down, move Down to (5,20), then Down to (5,21). (Target for this turn's movement sequence)
+    3.  Next, from (5,21) (expected to be facing down):
         a.  Move West from (17,19) to (5,19).
         b.  Move South from (5,19) to (5,21). (Tile (5,22) is known impassable, this is an intended stop).
         c.  Move East from (5,21) to (34,21). (Will verify (35,21) if (34,21) is reached successfully).
