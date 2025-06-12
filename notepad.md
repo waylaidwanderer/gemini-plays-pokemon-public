@@ -56,3 +56,6 @@
 # Contingency Planning (Post-Critique)
 *   If Attempt #8 to reach Route 3 fails, I MUST abandon the Route 3 tertiary goal. Alternative actions: 1) Find other ways to get funds (e.g., re-explore Route 2 for missed trainers/items). 2) Assess if current team is strong enough to challenge Brock directly. 3) Explore south from Pewter City more thoroughly.
 *   If `exploration_planner_agent` fails again, its system prompt needs review for potential improvements or the agent might be deleted.
+
+# Pewter City - Route 3 Attempts Summary
+*   Attempted to reach Route 3 eight times. All attempts were ultimately blocked by the Youngster escort event or by impassable terrain discovered mid-path. The eastern exit is currently considered too unreliable to pursue for funds. Pivoting to Route 2 exploration.
