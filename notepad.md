@@ -113,3 +113,5 @@
 *   Items:
 *   Signs:
     *   Sign at (10,28) - text: '4'. Meaning unclear yet.
+
+*   New Agent Idea: Level Cap Compliance Agent (Input: party, badge count. Output: Pokémon at/near cap, warnings).
