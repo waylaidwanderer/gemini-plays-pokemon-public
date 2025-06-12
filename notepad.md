@@ -1,6 +1,6 @@
-# Current Navigation Plan (Route 2 - South)
-*   **Objective:** Reach Viridian Forest South Gate warp at (4,44).
-*   **Status:** Currently at (10,48) on Route 2. Navigating around ledges.
+# Current Navigation Plan (Viridian Forest)
+*   **Objective:** Reach Viridian Forest North Exit at (2,1) or (3,1).
+*   **Status:** Currently in battle in Viridian Forest. Pathing along western side.
 
 # Lessons Learned & Game Mechanics
 *   **Pewter Youngster Escort (Route 3 Blocker):** Youngster (ID 5, trigger near (36,17) in Pewter) blocks Route 3. Avoid this area for now.
