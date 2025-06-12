@@ -12,7 +12,7 @@
 
 ### C. Current Location & Immediate Objective
 - Location: Viridian City (ID: 1), at (28,19) facing Up.
-- Immediate Objective: Explore reachable unseen tiles in Viridian City, starting with (7,12). Re-evaluate strategy for earning money.
+- Immediate Objective: Head to Route 22 to find trainers for money and EXP.
 
 ### D. Training Priorities
 - SPROUT (ODDISH): Lv7 -> Needs significant training for Brock (Rock/Ground).
