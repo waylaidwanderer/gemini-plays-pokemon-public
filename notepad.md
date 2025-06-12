@@ -57,7 +57,7 @@
 *   (Map - Coordinates - Trainer Name)
 
 ## Custom Agent Considerations:
-*   Ideas for future agents (pathfinding, team analysis, puzzle solving) are noted. Will decide on creation/implementation after initial game progression and when a clear need arises.
+*   Currently, no custom agents will be defined. I will reconsider creating specialized agents if a clear, complex, or repetitive task arises during gameplay that would significantly benefit from one.
 
 ## World Knowledge Graph Notes:
 *   Record inter-map transitions (map boundary, warps) IMMEDIATELY using `manage_world_knowledge`.
