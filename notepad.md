@@ -132,3 +132,7 @@
 *   Segment 1 ((7,8) -> (7,22)) is complete.
 *   Segment 2 ((7,23) -> (2,15)) is complete. Arrived at (2,15).
 *   Starting Segment 3: (2,15) -> (2,14) -> (2,13) -> (2,12) -> (2,11) -> (2,10) -> (2,9) -> (2,8) -> (2,7) -> (2,6) -> (2,5) -> (2,4) -> (2,3) -> (2,2) -> (2,1). (14 steps from current position)
+
+# Viridian Forest Navigation Update (Turn 6748)
+*   Segment 3 ((2,15) -> (2,1)) is complete. Arrived at Viridian Forest North Exit warp (2,1).
+*   Next step: Use warp to enter Viridian Forest North Gate.
