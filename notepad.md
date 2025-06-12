@@ -34,6 +34,8 @@
   - PSN: HP drop, persists. Cure: ANTIDOTE.
   - FRZ: Immobile, persists. Cure: ICE HEAL.
   - PAR: Misfire chance, persists. Cure: PARLYZ HEAL.
+- Wild Battle Escapes: Chance depends on lead Pokémon's Speed vs. wild Pokémon's. Equal/greater Speed = 1st try escape. Lower Speed = chance increases with attempts. Lead with fast Pokémon to maximize.
+- Pokémon Nicknaming: Always nickname a Pokémon when prompted after catching it.
 
 ## Discovered Tile Types & Movement Rules
 - **ground**: Walkable.
