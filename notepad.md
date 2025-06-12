@@ -6,17 +6,13 @@
 # Pewter City Strategy & Current Plan
 *   **Current Location:** (34,21) in Pewter City, facing Up. Pikachu at (34,22).
 *   **Immediate Goal:** Reach Route 3. Current plan is Attempt #5 for a northern/north-western approach after healing.
-*   **Current Route 3 Strategy (Attempt #5 leading to #6 via Intentional Escort - Corrected Start Pos):**
-    1.  Current Position (Turn 5617 start): (32,19) facing Left. Pikachu at (33,19).
-    2.  `scripted_event_tracker_agent` (Turn 5615, when player was at (33,19)) confirmed moving east to (34,19) triggers Youngster escort (Youngster at (36,17)).
-    3.  **Action for Turn 5617 (after notepad edit):** Move from (32,19) to (33,19) (Pikachu's tile), then to (34,19) to trigger escort. Expected drop-off: (12,19) near Gym.
-    4.  **Contingency Plan (Attempt #6 - Southern Detour from Gym Entrance if Escorted):
-        a.  From (12,19), move Left to (11,19).
-        b.  From (11,19), move South to (11,21). (Path: (11,19)->(11,20)->(11,21))
-        c.  From (11,21), move East to (20,21). (Path: (11,21)...(20,21))
-        d.  From (20,21), move South to (20,27). (Path: (20,21)...(20,27))
-        e.  From (20,27), move East to (40,27). (Path: (20,27)...(40,27))
-        f.  From (40,27), move North to (40,19) (Route 3 Exit).
+*   **Current Route 3 Strategy (Attempt #6 - Southern Detour via Intentional Escort - Actual Drop-off):**
+    1.  Youngster escort triggered as planned, but actual drop-off point is (30,19) facing Left (Pikachu at (31,19)), not (12,19).
+    2.  **Revised Southern Detour Plan (Attempt #6 from (30,19)):
+        a.  From (30,19), move South to (30,27). (Path: (30,19)...(30,27) - 8 steps down after turning).
+        b.  From (30,27), move East to (40,27). (Path: (30,27)...(40,27) - 10 steps right after turning).
+        c.  From (40,27), move North to (40,19) (Route 3 Exit). (Path: (40,27)...(40,19) - 8 steps up after turning).
+    3.  This route avoids the Youngster's primary patrol area and known trigger zones for most of its length.
 *   **Known Pathing Obstacles in Pewter City:**
     *   (34,20) - Impassable building facade.
     *   (36,27) - Impassable.
