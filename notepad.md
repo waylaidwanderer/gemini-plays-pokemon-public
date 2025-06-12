@@ -1,25 +1,43 @@
-# Pokémon Yellow Legacy - Hard Mode Notes (Gem's Log)
+# Gem's Log: Pokémon Yellow Legacy - Hard Mode
 
-## Active Pokémon Party
+## I. Current Status & Active Plans
+
+### A. Pokémon Party
 1. SPARKY (PIKACHU): Lv12 (38/38 HP, EXP: 1728) | Moves: THUNDERSHOCK (22 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (18 PP) - AT LEVEL CAP (0 Badges)
-2. SPROUT (ODDISH): Lv7 (25/25 HP, EXP: 245) | Moves: TACKLE (35 PP), POISONPOWDER (35 PP)
-3. PIP (PIDGEY): Lv7 (23/23 HP, EXP: 236) | Moves: GUST (35 PP), SAND-ATTACK (15 PP)
+2. SPROUT (ODDISH): Lv7 (25/25 HP, EXP: 296) | Moves: TACKLE (35 PP), POISONPOWDER (35 PP)
+3. PIP (PIDGEY): Lv7 (23/23 HP, EXP: 287) | Moves: GUST (35 PP), SAND-ATTACK (15 PP)
 
-## Current Financial Status & Needs
-- Money: ¥33 (Critically Low!)
-- Needs: Earn Pokedollars for Potions, Poké Balls, other essentials.
+### B. Financial Status
+- Money: ¥16 (CRITICALLY LOW!)
 
-## Training Priorities
+### C. Current Location & Immediate Objective
+- Location: Viridian City (ID: 1), at (28,19) facing Up.
+- Immediate Objective: Unstun Youngster2. Move to (27,19). Then, target VIRIDIANCITY_GAMBLER1 at (31,9) for battle to earn money & EXP. If Gambler is problematic, explore 19 reachable unseen tiles.
+
+### D. Training Priorities
 - SPROUT (ODDISH): Lv7 -> Needs significant training for Brock (Rock/Ground).
 - PIP (PIDGEY): Lv7 -> Needs training.
 - SPARKY (PIKACHU): At cap, less effective vs Brock.
 
-## Game Mechanics & Rules Summary
-- Battle Style: Set. No items in battle. Level caps apply.
+### E. Active Goals (for planning reference)
+- **Primary Goal:** Defeat Brock and earn the Boulder Badge.
+- **Secondary Goal:** Earn money and EXP by defeating available and willing trainers in Viridian City.
+- **Tertiary Goal:** Explore reachable unseen tiles in Viridian City.
+
+## II. Game Mechanics & Rules
+
+### A. Hard Mode Rules
+- Battle Style: Set.
+- No items allowed in battle.
+- Level caps: Pokémon cannot exceed cap for current badge count. (0 badges=12, 1=21, 2=24, 3=35, 4=43, 5=50, 6=53, 7=55, 8=65).
+
+### B. General Game Changes (Pokémon Yellow Legacy)
 - HMs: Forgettable, menu-use, not PC-storable. CUT is Bug-type.
 - All 151 Pokémon obtainable. Trade evos by level.
 - Smarter AI, tougher bosses, unlimited enemy PP.
 - EXP. All obtainable without special requirements.
+
+### C. Discovered Mechanics
 - Poison: 1 HP lost per 4 steps outside battle.
 - STAT Experience: Significant stat boosts from battling/leveling.
 - PC Log Off: Saves game.
@@ -27,120 +45,93 @@
 - Status Conditions: SLP (AWAKENING), BRN (BURN HEAL), PSN (ANTIDOTE), FRZ (ICE HEAL), PAR (PARLYZ HEAL).
 - Wild Battle Escapes: Speed-dependent. If lead Pokémon's Speed >= wild's, escape is guaranteed. Otherwise, chance increases with attempts.
 - Pokémon Nicknaming: Always do it when prompted.
-- DV Checking: Hold START, then press A on STATS in Pokémon menu.
+- DV Checking: Hold START, then press A on STATS in Pokémon menu. (Learned from VIRIDIANCITY_YOUNGSTER2, Turn 1972)
 
-## Discovered Tile Types & Movement Rules
+## III. World Knowledge & Exploration
+
+### A. Discovered Tile Types & Movement Rules
 - **ground**: Walkable.
 - **impassable**: Walls, objects, etc. Not traversable.
 - **warp**: Map transition. Activation varies (instant 1x1, or 2-step for larger like exit mats/gatehouses).
 - **water**: Requires Surf.
 - **grass**: Wild encounters.
 - **ledge**: Jump down only.
-- **NPC Interaction & Blocking**: Dialogue loops cannot be broken by re-interacting. NPCs can block paths.
+- **cuttable**: Tree, requires CUT.
+- **NPC Interaction & Blocking**: Dialogue loops cannot be broken by re-interacting. NPCs can block paths. Treat non-battling/informational NPCs as such after their dialogue.
 - **Pikachu Movement**: If Pikachu is adjacent in movement direction & player not facing him, 2 presses needed (1st turns, 2nd moves). Normal otherwise.
 - **PC Interaction**: Stand below, face up, press A.
 - **Item Interaction**: Some items require 'A' interaction.
 
-## Type Matchup Discoveries (Verified)
+### B. Verified Type Matchups
 - Ghost > Psychic.
 - Poison > Bug; Bug !> Poison.
 
-## Defeated Trainers
+### C. Defeated Trainers
 - Bug Catcher (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (31,34) in Viridian Forest. (Marker ☠️ set)
 - Cooltrainer F (ID 5, LASS) at (3,42) in Viridian Forest. (Marker ☠️ set)
 - Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest (battle triggered at (2,19)). (Marker ☠️ set)
 
-## Agent Management & TODOs
-### Defined Agents:
-1.  **Level Cap Compliance Agent** (`level_cap_compliance_checker`)
-2.  **Item Finder Agent** (`item_finder_agent`)
-3.  **Map Exploration Strategist** (`map_exploration_strategist_agent`)
-4.  **Path Simplifier Agent** (`path_simplifier_agent`)
-5.  **WKG Transition Recorder Agent** (`wkg_transition_recorder_agent`)
+### D. Important NPC Information & Key Dialogue
+- Viridian Old Man (ID 5, now at (20,14)): Taught catching, unblocked path N. (Marker ✅ set)
+- Viridian Girl (ID 4, (18,10)): Grandpa needs coffee. (Marker 💬 set)
+- Pewter Gym Guide: Brock's Lead: GEODUDE (Offense, Rock Throw). Other: ONIX (Defense, BIND). Electric harmless vs Ground.
+- Pewter Nidoran House Man: Traded Pokémon grow fast but might ignore unskilled trainers; BADGEs help.
+- VIRIDIANCITY_YOUNGSTER2 (ID 3, (28,18)): Non-battling. Explained DVs. (Interaction concluded Turn 2000+)
 
-### Agent Development - Prioritized:
-1.  **Capability Checker Agent**: Implement next. (Input: HMs, badges, obstacle. Output: Can pass?)
+### E. Map Marker Legend & Strategy
+- ☠️: Defeated Trainer
+- 🚪: Used Warp (Note destination map/coords/EP)
+- 🚫: Bugged/Blocked/Problematic Interaction (Note reason, e.g., Youngster1 Dialogue Loop at (10,23))
+- ℹ️: Important Info/Sign
+- 💬: Key NPC Dialogue Snippet
+- ✅: Event Complete/Path Unblocked
+- 🏛️: Gym Entrance (Note status, e.g. Unreachable)
+- 🏠: Key Building Entrance
+- 🏥: Pokécenter Entrance
 
-### Agent Development - Future Consideration:
--   **Pokédex Completion Strategist**: Suggests where to hunt for new Pokémon. (Idea retained, low priority)
+### F. World Knowledge Graph (WKG) Strategy
+- Use `wkg_transition_recorder_agent` for all inter-map transitions.
+- Record nodes and edges immediately after map_id changes.
+- Capture node IDs from `add_node` calls to streamline edge creation if doing manually.
 
-### Agent Review TODOs (PRIORITY TASKS):
-- `map_exploration_strategist_agent`: **PRIORITY REVIEW NOW.** Review system prompt and internal logic due to continued failures (e.g., Turn 1945). Focus on pathfinding reliability, target prioritization, and ensure A* logic (if used by agent or my manual `run_code`) is robust (e.g., use Turn 1902 A* version as a base, correctly handle ledges, object detection). If still unreliable, will rely on manual pathing.
-- `path_simplifier_agent`: **PRIORITY REVIEW NOW.** Review system prompt and logic due to failure in Turn 1946. Reliability is critical for efficient movement.
-- `item_finder_agent`: Review system prompt for better city building identification. Assess overall utility; consider deletion if not consistently valuable.
-- `wkg_transition_recorder_agent`: **Crucial Workflow Note:** This agent outputs a *list* of `manage_world_knowledge` tool calls. I *must* execute all subsequent calls it generates to ensure WKG integrity. Past failures were due to not processing its full multi-step output. Monitor closely for any further failures in its output generation. If it fails, investigate logic/schema adherence.
-- `capability_checker_agent`: Identify an opportunity to test this agent or reassess its necessity.
-- Pokédex Completion Strategist idea: **Discarded for now.** Focus on core progression and reliability of existing agents.
+## IV. Agent Management
 
-### General TODOs:
-- Systematically mark used warps (both ends) with 🚪 emoji, noting destination map and coordinates/entry point, using WKG for reference. **(Active)**
-- Actively seek info on Brock's Pokémon types/weaknesses. **(Active)**
-- Be more proactive in using map markers for key NPC info (ℹ️) or strategic points. **(Active)**
-- Prioritize earning money (currently ¥33) and training SPROUT (Lv7) & PIP (Lv7) once Pewter City is further explored. **(High Priority)**
-- Develop a concrete training plan for SPROUT and PIP for Brock. **(High Priority)**
+### A. Defined Agents
+1.  `level_cap_compliance_checker`
+2.  `item_finder_agent`
+3.  `map_exploration_strategist_agent`
+4.  `path_simplifier_agent`
+5.  `wkg_transition_recorder_agent`
+6.  `capability_checker_agent`
 
-## Lessons Learned & Strategy Refinements
-- HP Management: Prioritize healing or safer actions when HP is low.
-- Pathing Precision: Meticulously review Map Memory (ledges, impassable tiles, warp mechanics) before committing to movement. **Verify current map_id and position from Game State frequently, especially after warps, to avoid hallucinations.**
-- Notepad `old_text`: Precision is critical for `replace`.
-- Warp Navigation: Be careful with facing direction and multi-step warps. Confirm tile types and warp mechanics. If an NPC is on a warp tile, try the other tile of a 2-wide warp or path around.
-- Agent Usage: If an agent is unreliable, default to manual planning. Consider agents for specialized 'thinking' tasks or to automate repetitive WKG updates.
-- WKG Workflow: Use the `wkg_transition_recorder_agent` for all inter-map transitions. Capture node IDs from `add_node` calls to streamline edge creation if doing manually.
-- Nicknaming UI: Pay closer attention to avoid errors.
-- Failed Hypotheses: Document attempts and number of failures. E.g., Exiting Pewter Mart - numerous failed attempts due to mislocating self or NPC blocking specific warp tiles. Successfully exited Pewter Mart by careful verification of map state, NPC positions, and adaptive pathing.
+### B. Agent Review TODOs & Improvement Plans
+- `map_exploration_strategist_agent`: **PRIORITY REVIEW.** Failed Turn 1945. Needs prompt review for pathfinding reliability (A* logic, obstacle handling).
+- `path_simplifier_agent`: **PRIORITY REVIEW.** Failed Turn 1946. Needs prompt review for reliability, especially Pikachu logic.
+- `item_finder_agent`: Review prompt for better building ID. Assess utility; consider deletion if not consistently valuable.
+- `wkg_transition_recorder_agent`: Monitor multi-step output. Ensure logic for existing vs. new nodes is robust.
+- `capability_checker_agent`: Untested. Seek opportunity to test or reassess necessity.
 
-## Pewter City Exploration & Brock Prep Plan (Current Focus)
-- **Immediate (Post-Museum):** Systematically explore all reachable unseen areas of Pewter City. Interact with ALL NPCs to find trainers to battle for money and EXP. Mark defeated trainers.
-- **Training Strategy:** 
-    - Prioritize SPROUT (Oddish) and PIP (Pidgey).
-    - Identify trainers in Pewter City or on Route 2 (south of Pewter, if accessible and suitable) for EXP.
-    - If wild Pokémon are the only option, target Pokémon SPROUT has an advantage against (e.g., Geodude if found, though unlikely before Brock). PIP can handle Bug/Grass types if any are present.
-    - Aim for Lv10-12 for both SPROUT and PIP initially, then reassess based on Brock's known team.
-- **Financial Strategy:**
-    - Defeat every available trainer in Pewter City and nearby accessible routes.
-    - Current funds: ¥33 (CRITICALLY LOW). Need at least ¥500-¥1000 for Potions and more Poké Balls.
-- **Information Gathering (Brock):**
-    - Ask NPCs in Pewter City about Brock, his Pokémon types (likely Rock/Ground), and any known weaknesses.
-    - Check the Pewter Gym for any posted information or trainers who might give hints.
-- **Item Acquisition:** Look for any free items or TMs in Pewter City that could aid against Rock/Ground types.
+### C. Agent Development Ideas
+- None critical at this time. Focus on improving existing agents.
 
-## Museum 1F Notes
-- Entered from Pewter City (15,8) to Museum 1F (11,8).
-- Ticket to main exhibit costs ¥50. Cannot afford with ¥33. Declined entry.
-- Exploring alternative paths and the unvisited warp at (8,8).
+## V. Lessons Learned & Strategic Refinements
 
-- Museum 1F: After closing dialogue with the ticket seller (at (11,5)), player character is sometimes repositioned (e.g., from (10,5) to (10,6)). This is likely standard post-dialogue character repositioning, not a special 'pushback mechanic' or unique property of tile (10,5). Repeatedly triggered dialogue with ticket seller (turns 1735-1752+) due to not moving away from interaction zone after declining. Need to ensure moving clear of the counter area to avoid re-triggering.
+### A. Key Learnings from Mistakes
+- **NPC Interaction Threshold:** If an NPC interaction fails after 2-3 distinct, well-reasoned attempts, assume they are non-battling, already defeated, or require a different game state, then MOVE ON. Do not get stuck in dialogue/interaction loops (e.g., Youngster1, Youngster2).
+- **Pathing Precision:** Meticulously review Map Memory before committing to movement. Verify current map_id/position from Game State frequently.
+- **Agent Reliability:** If an agent is unreliable, default to manual planning or `run_code` scripts. Review/fix failing agent prompts ASAP.
+- **Flexibility:** Be willing to change secondary/tertiary goals if current approach is stalled. Don't fixate.
 
-## Museum 1F - Abandoned West Wing Exploration (Turn 1771)
-- After a prolonged loop (approx. turns 1733-1770, over 30 turns) trying to navigate past the ticket seller at (11,5) and the tricky tile (10,5) to reach the unvisited warp at (8,8) in Museum 1F due to insufficient funds (¥33 vs ¥50 ticket), I've decided to abandon exploring that section for now.
-- Exited Museum 1F via the (11,8) warp, arriving back in Pewter City at (15,8).
-- Will re-evaluate museum exploration once I have more money or a clearer path. Current focus is exploring Pewter City itself.
+### B. Failed Hypotheses Log (Selected)
+- VIRIDIANCITY_YOUNGSTER1 (ID 1) at (10,23) / (15,18) etc.: Attempted battle ~20+ times (Turns ~1920-1943) using A, B, Stun, Unstun, Menu, Movement. Result: Stuck dialogue loop. Conclusion: Interaction bugged or requires unknown condition. Marked 🚫.
+- VIRIDIANCITY_YOUNGSTER2 (ID 3) at (28,18) etc.: Attempted battle ~10+ times (Turns ~1966-2000) after he gave DV info. Result: Repeated DV dialogue. Conclusion: Informational NPC, non-battling. Interaction concluded.
 
-## Pewter Nidoran House (Turn 1796)
-- Entered Pewter Nidoran House (ID 55) from Pewter City (ID 2) via warp at (30,14) in Pewter City, arriving at (3,8) in Nidoran House (EP4). WKG updated.
-- Current plan: Explore this house, interact with NPCs (Little Boy at (4,6), Nidoran M at (5,6)).
-- Reminder: Prioritize reviewing `map_exploration_strategist_agent` and `item_finder_agent` prompts soon.
-
-- Traded Pokémon (outsiders) grow fast but might ignore unskilled trainers. BADGEs help ensure they obey. (Learned in Pewter Nidoran House)
-
-- Cooltrainer M at (18,26) in Pewter City mentioned Brock is 'totally into it!' (non-battling NPC).
-
-## Pewter Gym Intel (from Gym Guide)
-- Brock's Lead: GEODUDE (Offense-driven, can throw rocks with high accuracy).
-- Brock's Other: ONIX (All-defense, watch out for its BIND attack).
-- Warning: Electric attacks are harmless to Brock's Ground-type Pokémon (bad for Pikachu).
-
-- Game State Data: Treat `reachable: no` for warps/connections as absolute truth. Do not attempt to access until status changes.
-
-## Post-Pewter Gym Blackout (Turn 1901)
-- Blacked out fighting Jr. Trainer (Cooltrainer M) in Pewter Gym. Returned to Viridian City Pokémon Center.
-- Money halved to ¥16. Pokémon were healed.
-- Current plan: Defeat available trainers in Viridian City for money and EXP before returning to Pewter City. First target: VIRIDIANCITY_YOUNGSTER1 at (14,21).
-
-## Viridian City - Youngster Battle Attempts (VIRIDIANCITY_YOUNGSTER1) - Continued (Turn 1934-1935)
-- **State at Turn 1934:** Still stuck in dialogue loop ("use POKéMON any-time, anywhere!") at (10,22). Attempt to move Right (Turn 1933) failed due to dialogue on screen.
-- **Hypothesis (Turn 1934):** Pressing 'B' might close the stuck dialogue box.
-- **Action (Turn 1935):** Pressing 'B'.
-- **Plan (Post-Turn 1935):** If 'B' clears dialogue, will attempt to move away (e.g., Right to (11,22)) to reset interaction. If 'B' fails, will consider this trainer interaction bugged, mark trainer at (10,23) with 🚫, and shift focus to exploring reachable unseen tiles or finding another trainer in Viridian City.
-
-- DV Checking: Hold START, then press A on STATS in Pokémon menu. (Learned from VIRIDIANCITY_YOUNGSTER2)
+## VI. Historical Log & Major Milestones (CONCISE)
+- Started in Pallet Town, got SPARKY (Pikachu).
+- Delivered Oak's Parcel, got Pokédex.
+- Traversed Route 1, Viridian Forest (caught SPROUT (Oddish), PIP (Pidgey)).
+- Explored Pewter City, Museum (couldn't afford ticket), Nidoran House, Mart.
+- Gathered intel on Brock in Pewter Gym.
+- **Blackout:** Lost to Jr. Trainer in Pewter Gym (Turn 1901). Returned to Viridian Pokecenter. Money halved to ¥16.
+- **Stuck Interaction:** VIRIDIANCITY_YOUNGSTER1 (ID 1) dialogue loop (Turns ~1920-1943).
+- **Misunderstood NPC:** VIRIDIANCITY_YOUNGSTER2 (ID 3) - informational (DV speech), not a battler (Turns ~1966-2000).
