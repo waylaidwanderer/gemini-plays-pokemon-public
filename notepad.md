@@ -29,8 +29,8 @@
 
 ## Current Goals & Plans
 - **Primary:** Obtain my first Pokémon.
-- **Secondary:** Interact with NPCs in Oak's Lab to find the trigger for the starter Pokémon event.
-- **Tertiary:** Interact with the Pokédexes if NPC interactions don't yield results.
+- **Secondary:** Leave Oak's Lab to potentially trigger an event for obtaining a Pokémon.
+- **Tertiary:** Re-explore Pallet Town if leaving Oak's Lab yields no immediate event.
 
 ## Strategy Notes & Lessons Learned
 - **World Knowledge Graph (WKG):**
