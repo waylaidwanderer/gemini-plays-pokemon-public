@@ -6,18 +6,24 @@
 # Pewter City Strategy & Current Plan
 *   **Current Location:** (34,21) in Pewter City, facing Up. Pikachu at (34,22).
 *   **Immediate Goal:** Reach Route 3. Current plan is Attempt #5 for a northern/north-western approach after healing.
-*   **Current Route 3 Strategy (Attempt #6d - Gym Reset & Far West-South-East Detour - Revised at (5,21))**:
-    1.  Original plan to go South from (5,19) to (5,32) was blocked at (5,21) because (5,22) is impassable.
-    2.  Current location (5,21) facing Down.
-    3.  New path segment: Move East from (5,21) to (34,21) (since (35,21) is impassable based on prior exploration).
-    4.  Move South from (34,21) to (34,32).
-    5.  Move East from (34,32) to (35,32).
-    6.  Move North from (35,32) to (35,30).
-    7.  Move East from (35,30) to (37,30).
-    8.  Move South from (37,30) to (37,32).
-    9.  Move East from (37,32) to (40,32).
-    10. Move North from (40,32) to (40,19) (Route 3 exit).
-    11. This detour aims to bypass all previously encountered X=19, Y=22, and X=36 blockades systematically.
+*   **Current Route 3 Strategy (Attempt #6e - Gym Reset & Far West-South-East Detour - Revised at (18,21))**:
+    1.  Movement east from (18,21) blocked by impassable (19,21). Movement north from (18,19) blocked by impassable (18,18). Stuck in western pocket (X=17-18, Y=19-21).
+    2.  Current location (18,21) facing Right.
+    3.  Plan:
+        a.  Move West from (18,21) to (17,21) (Pikachu's tile).
+        b.  Move North from (17,21) to (17,18) (Gym Warp).
+        c.  Enter Gym, then immediately exit. Land at (17,19) in Pewter City.
+        d.  From (17,19), navigate West to (5,19).
+        e.  From (5,19), South to (5,21). (Note: (5,22) is impassable, so this is a stopping point on X=5).
+        f.  From (5,21), East to (34,21).
+        g.  From (34,21), South to (34,32).
+        h.  From (34,32), East to (35,32).
+        i.  From (35,32), North to (35,30).
+        j.  From (35,30), East to (37,30).
+        k.  From (37,30), South to (37,32).
+        l.  From (37,32), East to (40,32).
+        m.  From (40,32), North to (40,19) (Route 3 exit).
+    4.  This is another long detour, aiming to escape the current pocket and then bypass all previously encountered X=19, Y=22, and X=36 blockades systematically.
 *   **Known Pathing Obstacles in Pewter City:**
     *   (34,20) - Impassable building facade.
     *   (36,27) - Impassable.
