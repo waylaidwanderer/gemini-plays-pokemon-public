@@ -14,7 +14,7 @@
 *   **Poison Damage:** Outside battle, poisoned Pokémon lose 1 HP every 4 steps.
 *   **Notepad `replace` Action:** The `old_text` argument MUST be an *exact* character-for-character match of the text to be replaced. Use error message suggestions or copy directly from the notepad.
 
-# Agent Usage Plan & Review Notes (Turn 6349 Update)
+# Agent Usage Plan & Review Notes (Turn 6351 Update)
 *   **`map_analyzer_agent`:** Primary tool for map queries. Generally reliable but can give very long paths. Use for path validation and map feature identification, but always verify its output.
 *   **`move_validator_agent`:** (DELETED) Proven unreliable. Decision: Stopped using.
 *   **`specialized_exploration_agent`:** Intended for complex exploration planning. Evaluate its effectiveness when a suitable complex area is encountered.
