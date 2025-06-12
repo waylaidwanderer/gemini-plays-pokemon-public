@@ -144,3 +144,8 @@
 ## Type Matchup Discoveries (Verified)
 - Ghost > Psychic.
 - Poison > Bug; Bug !> Poison.
+
+## Lessons Learned & Strategy Refinements (Post-Blackout & Reflection Turn 1180)
+- Be more cautious with HP management, especially before trainer battles. Avoid optional trainers if party is weak. (Learned from Viridian Forest blackout Turn 1137).
+- Carefully plan routes in cities to avoid re-entering buildings after exiting them, especially Pokecenters. (Learned from Viridian City loop Turns 1140-1152).
+- My understanding of Poison vs Flying type matchup was flawed (Turn 1177). Gust (Flying) was super effective on SPROUT (Grass/Poison). This means Flying > Grass and/or Flying > Poison. Need to verify full type chart.
