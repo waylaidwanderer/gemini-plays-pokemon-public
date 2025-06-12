@@ -93,10 +93,19 @@
 - (Summary of guidelines internalized)
 
 ## Pewter City Exploration & Brock Prep Plan (Current Focus)
-- **Immediate:** Explore all reachable unseen areas of Pewter City. Interact with all NPCs. Identify potential training spots and money-making opportunities.
-- **Mid-Term:** Train SPROUT and PIP to a suitable level for Brock (target ~Lv10-12 initially, reassess based on Brock's team).
-- **Financial:** Earn enough money for Potions and Poké Balls (current: ¥33 - critically low).
-- **Information Gathering:** Find out Brock's Pokémon types and levels. Check if any new items or TMs are available that could help.
+- **Immediate (Post-Museum):** Systematically explore all reachable unseen areas of Pewter City. Interact with ALL NPCs to find trainers to battle for money and EXP. Mark defeated trainers.
+- **Training Strategy:** 
+    - Prioritize SPROUT (Oddish) and PIP (Pidgey).
+    - Identify trainers in Pewter City or on Route 2 (south of Pewter, if accessible and suitable) for EXP.
+    - If wild Pokémon are the only option, target Pokémon SPROUT has an advantage against (e.g., Geodude if found, though unlikely before Brock). PIP can handle Bug/Grass types if any are present.
+    - Aim for Lv10-12 for both SPROUT and PIP initially, then reassess based on Brock's known team.
+- **Financial Strategy:**
+    - Defeat every available trainer in Pewter City and nearby accessible routes.
+    - Current funds: ¥33 (CRITICALLY LOW). Need at least ¥500-¥1000 for Potions and more Poké Balls.
+- **Information Gathering (Brock):**
+    - Ask NPCs in Pewter City about Brock, his Pokémon types (likely Rock/Ground), and any known weaknesses.
+    - Check the Pewter Gym for any posted information or trainers who might give hints.
+- **Item Acquisition:** Look for any free items or TMs in Pewter City that could aid against Rock/Ground types.
 
 ## Museum 1F Notes
 - Entered from Pewter City (15,8) to Museum 1F (11,8).
