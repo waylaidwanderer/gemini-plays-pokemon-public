@@ -29,8 +29,8 @@
 
 ## Current Goals & Plans
 - **Primary:** Obtain my first Pokémon.
-- **Secondary:** Leave Oak's Lab to potentially trigger an event for obtaining a Pokémon.
-- **Tertiary:** Re-explore Pallet Town if leaving Oak's Lab yields no immediate event.
+- **Secondary:** Go to Oak's Lab as Professor Oak is looking for me.
+- **Tertiary:** Re-evaluate exploration of Player's House 2F after visiting Oak.
 
 ## Strategy Notes & Lessons Learned
 - **World Knowledge Graph (WKG):**
