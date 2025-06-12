@@ -85,12 +85,12 @@
 
 *   **`map_analyzer_agent` Failure (Turn 6114):** Provided a path segment (32,8) -> (31,8) on Route 22 that was blocked by the game (ledge or impassable). Required manual rerouting.
 
-# Route 22 - Revised Strategy V (Turn 6127)
-*   **Correction:** Unseen tiles are on Y=6 (tiles (3,6) to (12,6)), not Y=10.
-*   **Objective:** Reach (6,6) and explore the Y=6 strip for unseen tiles.
-*   **Path from (7,11):** 
-    1.  Move Left from (7,11) to (6,11).
-    2.  Move Up from (6,11) to (6,6).
-    3.  Explore west from (6,6) to (3,6).
-    4.  Explore east from (6,6) to (12,6).
+# Route 22 - Revised Strategy VI (Turn 6129)
+*   **Correction:** Unseen tiles are on Y=6 (tiles (3,6) to (12,6)).
+*   **Objective:** Reach (6,6) and explore the Y=6 strip for unseen tiles via (12,10).
+*   **Path from (6,11):** 
+    1.  Move Right from (6,11) to (12,11).
+    2.  Move Up from (12,11) to (12,10) (ground access point).
+    3.  Move Up from (12,10) to (12,6).
+    4.  Explore west from (12,6) to (3,6) to clear all unseen tiles on Y=6.
 *   **After Y=6 exploration:** Proceed to Viridian City -> Route 2 -> Pewter City. Deprioritize further Route 22 exploration.
