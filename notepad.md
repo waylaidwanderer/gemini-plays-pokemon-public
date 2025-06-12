@@ -57,3 +57,18 @@
 
 # EXP Tracking Summary
 *   Wild Pokémon battles yield EXP for uncapped Pokémon. Capped Pokémon show EXP gain message but value doesn't change.
+
+## Pewter City - Route 3 Access Correction (Turn 6841)
+
+**CRITICAL MISUNDERSTANDING CORRECTED (Thanks AI Observer!):**
+- The Cool Trainer F at (9,16) blocking the path north in Pewter City is **NOT** the way to Route 3 that leads to Mt. Moon.
+- Access to Route 3 (East of Pewter City) is **blocked by the Youngster (ID 5) escort event**. This event occurs near (36,17) and **MUST BE RESOLVED** to proceed east.
+- My previous attempts to reach the eastern exit by complex pathing were flawed because I was trying to *avoid* this prerequisite event instead of triggering and completing it.
+
+**Failed Pathing Attempt #11 (Pewter East Exit - Pre-Youngster Event Resolution):**
+- From (9,17) -> Down to (9,21) -> Right to (20,21) -> Up to (20,19) -> Right towards (40,19).
+- Reached (18,21) facing Right, but the next step to (19,21) was blocked by impassable shoes decoration (Turn 6840). This path was also based on the flawed assumption of bypassing the Youngster event.
+
+**New Plan (Post-Critique):**
+1.  **Resolve Youngster Escort Event:** Navigate to the Youngster (ID 5, likely near (36,17)) and interact to trigger/complete the event. This is the **immediate priority** to unlock Route 3.
+2.  Use `local_pathfinder_agent` to navigate to an interaction spot near the Youngster (e.g., (36,18) to interact with him at (36,17)) due to persistent manual pathfinding issues.
