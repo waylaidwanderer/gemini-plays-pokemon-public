@@ -127,3 +127,5 @@
 - **STAT Experience:** Pokémon gain increased stats from EXP that enemy trainers' Pokémon don't have. Training a Pokémon from a low level (e.g., Lv5 to Lv50) can result in stats comparable to a much higher level opponent (e.g., Lv60).
 
 - SPARKY (Pikachu) defeated a wild Spearow (Lv5) on Route 1 at (17,10). SPARKY gained 41 EXP (401 -> 442).
+
+- Enemy trainers are not limited by Power Points (PP) for their moves, unlike the player's Pokémon.
