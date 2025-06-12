@@ -52,9 +52,7 @@
     - Mark used warps on both entry and exit tiles immediately.
     - Mark defeated trainers.
     - Mark strategic points and dead ends.
-- **Agent Ideas:**
-    - Route planning agent using WKG (future).
-    - Pokémon matchup analyzer (future).
+
 - **Reflection (Turn 50):** Repeatedly failed `manage_world_knowledge` due to incorrect payload for `add_node`. Must read tool docs carefully. Need to start using map markers and update notepad more proactively.
 
 ## Pallet Town Exploration Notes
