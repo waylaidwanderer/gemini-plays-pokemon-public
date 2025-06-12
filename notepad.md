@@ -51,7 +51,8 @@
     *   Larger warps (2x1, 1x2 like exit mats) need 2 steps: onto warp, then into boundary/direction.
 
 ## Discovered Tile Types & Properties:
-*   (Record observed tile behaviors here as they are confirmed)
+*   `ground`: Walkable tile.
+*   `impassable`: Walls, counters, rocks, buildings, etc. Cannot be entered.
 
 ## Defeated Trainers:
 *   (Map - Coordinates - Trainer Name)
