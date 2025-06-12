@@ -68,10 +68,10 @@
 
 *   **Critical Game Mechanic:** ALWAYS press 'A' to clear any on-screen dialogue or text BEFORE attempting any other input (movement, interaction, menu). Failure to do so will result in the input being ignored or only clearing the text.
 
-## Potential Custom Agent Ideas (From Reflection Turn 156):
-*   `battle_strategist_agent`: Input opponent's team, my team, level cap. Output optimal move sequence or switch strategy for Hard Mode (Set mode, no items).
-*   `route_planner_agent`: Input target destination (map_id, coordinates), current location. Output optimal path using WKG and map XML for multi-map journeys.
-*   `rom_hack_mechanic_analyzer_agent`: For deducing rules of complex new mechanics based on repeated observations.
+## Custom Agent Notes:
+*   `battle_strategist_agent` defined. Will use for next significant trainer battle.
+*   `route_planner_agent` defined.
+*   `rom_hack_mechanic_analyzer_agent` defined.
 
 ## Oak's Lab - Rival Battle Trigger Issues
 *   Interacting with Pixel at (8,5) multiple times (approx. 5 attempts from turn ~200 to ~204) after he says "Heh, my POKéMON looks a lot stronger." only repeats his dialogue or results in a clear screen without starting the battle.
