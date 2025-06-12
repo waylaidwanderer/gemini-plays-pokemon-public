@@ -20,11 +20,19 @@
 *   Verify map transition *just occurred* before adding edges. Nodes for known exits can be added pre-transition. Use consistent tags.
 *   Ensure `destination_entry_point` in edges is accurate.
 
-# Current Objectives & Plans (Route 3 - Turn 6857)
+# Current Objectives & Plans (Route 3 - Turn 6932)
 *   **Primary Goal:** Progress towards the next Gym Badge (Misty in Cerulean City).
+    *   **Method:** Navigate east through Route 3, then Mt. Moon, then Route 4 to reach Cerulean City. Defeat trainers and overcome obstacles along the way.
 *   **Secondary Goal:** Explore Route 3 and proceed towards Mt. Moon.
+    *   **Method:** Systematically defeat all trainers on Route 3. Explore all reachable paths and clear unseen tiles. Enter Mt. Moon from the eastern end of Route 3.
 *   **Tertiary Goal:** Train Pokémon towards the new level cap of 21.
-*   **Immediate Action:** Continue battle with Bug Catcher on Route 3.
+    *   **Method:** Prioritize using Pokémon that are not yet at Lv21 in trainer battles. Engage wild Pokémon if specific party members need targeted EXP and are not at risk of fainting.
+*   **Immediate Action Plan for Route 3:**
+    1.  Currently about to battle Youngster (ID 2) at (11,7).
+    2.  After this battle, proceed east to Youngster (ID 3) at (15,5).
+    3.  Then, to Youngster (ID 5) at (20,6).
+    4.  Explore the grass patches for wild encounters if needed for training, or to find new Pokémon.
+    5.  Continue east, clearing all reachable unseen tiles, towards the Mt. Moon entrance.
 
 # EXP Tracking Summary (Post-Brock)
 *   SPBARKY (Pikachu, Lv12): 1728 EXP (No change from Brock fight, was capped).
