@@ -3,10 +3,10 @@
 *   **Secondary Goal:** Acquire sufficient funds to purchase essential supplies. (Current Money: ¥156)
 *   **Tertiary Goal:** Explore Route 2 (south of Pewter City) for trainers/items to acquire funds.
 
-# Current Plan - Route 2 Exploration
-*   **Objective:** Navigate from current position (18,24) to the south exit of Pewter City (aiming for (19,36)) to reach Route 2.
-*   **Reason:** Acquire funds and EXP by exploring Route 2, as Route 3 is currently inaccessible due to the recurring Youngster escort event (8 failed attempts to reach Route 3).
-*   **Status:** Following path from `map_analyzer_agent` (provided turn 5778).
+# Current Plan - Viridian Forest Exploration
+*   **Objective:** Explore Viridian Forest for trainers and items to acquire funds and EXP.
+*   **Reason:** Accidentally re-entered Viridian Forest while attempting to explore Route 2. This area still offers opportunities for progress.
+*   **Status:** Just defeated a wild Caterpie. Continuing south from (2,12).
 
 # Lessons Learned - Pewter Navigation & Strategy
 *   **Youngster Escort Event (Route 3 Blocker):** The Youngster (ID 5, trigger near (36,17)) is a major recurring obstacle, frequently resetting progress towards the east exit. After 8 failed attempts, Route 3 is considered temporarily inaccessible. I MUST AVOID REPEATING THIS FAILED STRATEGY.
