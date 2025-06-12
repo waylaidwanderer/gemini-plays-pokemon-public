@@ -13,7 +13,7 @@
 *   **EXP Cap Mechanics:** Pokémon at level cap do not gain EXP, even if message appears. Verified with SPBARKY.
 *   **Poison Damage:** Outside battle, poisoned Pokémon lose 1 HP every 4 steps.
 
-# Agent Usage Plan & Review Notes (Turn 6211 Update)
+# Agent Usage Plan & Review Notes (Turn 6331 Update)
 *   **`map_analyzer_agent` (Many Uses):** Primary tool for map queries. Generally reliable but has failed (e.g., Route 22, Turn 6114; Route 22, Turn 6120). Prompt updated (Turn 6128) to be stricter about ledges. Continue using for path validation and map feature identification, but always verify its output.
 *   **`move_validator_agent` (137 Uses - System Errors):** Intended for complex path validation. Has had numerous system errors and proven unreliable. **DO NOT USE THIS AGENT.** Continued high usage despite these issues was a critical error in judgment. **Decision: Stop using. Plan to delete/rework.**
 *   **`specialized_exploration_agent` (0 Uses - Defined Turn 6128):** Intended for complex exploration planning. Evaluate its effectiveness when a suitable complex area is encountered.
