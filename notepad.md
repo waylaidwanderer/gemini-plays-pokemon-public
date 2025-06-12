@@ -49,10 +49,10 @@
 
 - Wild ODDISH Lv5 defeated in Viridian Forest (approx (19,38)). FLAREE used Ember (crit, super effective). Enemy used PoisonPowder, FLAREE poisoned. Message: SPBARKY gained 27 EXP (no change, still 1728, capped). FLAREE gained 27 EXP (781 -> 808).
 
-# Current Manual Path (Viridian Forest North Exit) - Attempt 2
-*   Reason: Previous manual path from (19,33) was interrupted at (10,33) due to blockage at (10,32). FLAREE HP at 14/28 (poisoned). Previous path goal of (9,30) is still valid starting point for this segment.
-*   Objective: Reach (7,29) via a 7-step path, continuing towards the NW quadrant and forest exit.
-*   Planned Presses (7 total): ['Left', 'Up', 'Up', 'Up', 'Left', 'Left', 'Up']
+# Current Manual Path (Viridian Forest North Exit) - Attempt 3
+*   Reason: Attempt 2 path from (10,33) was interrupted by wild battle at (9,31). Path continued, but (9,30) (next step in old plan) is confirmed impassable from map data. FLAREE HP at 14/28 (poisoned).
+*   Objective: Reach (7,29) via a 4-step path, continuing towards the NW quadrant and forest exit.
+*   Planned Presses (4 total): ['Left', 'Left', 'Up', 'Up']
 *   Destination: (7,29)
 *   FLAREE HP projection: Start 14/28 -> End 13/28.
 
