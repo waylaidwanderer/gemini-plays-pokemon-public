@@ -3,18 +3,20 @@
 *   **Secondary Goal:** Acquire sufficient funds to heal FLAREE (6/26 HP) and purchase essential supplies. Money: ¥156.
 *   **Tertiary Goal:** Reach Route 3 (East Pewter Exit at (40,19)) to battle trainers for funds.
 
-# Pewter City Navigation Challenge: The Youngster (ID 5)
-*   **Youngster's Current Position (Game State is TRUTH):** (36,17). He seems to patrol this area.
-*   **Escort Event Dynamics:** The Youngster at (36,17) triggers an escort event if approached in eastern Pewter City (e.g., from (37,19) or (38,19)), moving the player to (12,19) in front of the Gym. (30,19) is also a known trigger/drop-off point.
-*   **New Strategy for Route 3 (Far North Route):** The western part of Pewter City around (17,19)-(18,21) is a dead-end pocket, escaped via Gym warp. The previous southern route attempts are abandoned.
-    1.  **Current Location:** (17,19) in Pewter City.
-    2.  **Path to Route 3 (40,19):
-        *   North from (17,19) to (17,14).
-        *   East from (17,14) to (28,14) (path clear until (29,14) is impassable building).
-        *   South from (28,14) to (28,19).
-        *   East from (28,19) to (40,19) (Route 3 exit).
-    3.  This route should keep me north of the Youngster (36,17) until the final eastern approach on Y=19.
-    4.  Use `scripted_event_tracker_agent` for the final eastern segment if Youngster is still at (36,17).
+# Pewter City Strategy & Current Plan
+*   **Current Location:** (14,21) in Pewter City.
+*   **Immediate Goal:** Reach Pewter Pokecenter at (14,26) to heal FLAREE (6/26 HP).
+*   **Youngster (ID 5) Status:** Currently at (36,17). He triggers an escort event if approached in eastern Pewter City (e.g., from (37,19), (38,19), (30,19)), moving player to (12,19).
+*   **Post-Healing Plan for Route 3 (East Pewter Exit at (40,19))**:
+    1.  Exit Pokecenter to (14,25).
+    2.  Explore eastward path from (14,25) along Y=25/26/27 or explore southern paths (e.g., via Y=31/32) to reach eastern Pewter.
+    3.  The path needs to circumvent the Youngster at (36,17). A potential route could be: (14,25) -> E to (X,25) -> S to (X,Y_south) -> E to (Z_east, Y_south) -> N to (Z_east, 19) -> E to (40,19).
+    4.  Use `scripted_event_tracker_agent` for path segments in eastern Pewter (X > 25) or near Youngster's coordinates.
+*   **Known Pathing Obstacles in Western/Central Pewter (near Pokecenter/Gym):**
+    *   (19,19) - Impassable (blocks eastward movement from Gym area pocket).
+    *   (17,18) - Gym Warp (accidentally entered trying to go North from (17,19)).
+    *   (17,17) through (17,15) - Impassable (blocks northward movement from (17,19)).
+    *   (12,22), (13,22), (14,22), (15,22) - Impassable (blocks southward movement in X=12-15 range at Y=21).
 
 # Game Mechanics & Strategy Notes
 *   **Ledge Mechanics:** One-way (downwards only).
