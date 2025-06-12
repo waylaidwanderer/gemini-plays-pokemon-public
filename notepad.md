@@ -12,7 +12,7 @@
 
 ### C. Current Location & Immediate Objective
 - Location: Viridian City (ID: 1), at (28,19) facing Up.
-- Immediate Objective: Head to Route 22 to find trainers for money and EXP.
+- Immediate Objective: Battle wild Mankey on Route 22, then explore Route 22 for trainers/money/EXP.
 
 ### D. Training Priorities
 - SPROUT (ODDISH): Lv7 -> Needs significant training for Brock (Rock/Ground).
