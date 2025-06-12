@@ -139,3 +139,9 @@
 - Blacked out fighting Jr. Trainer (Cooltrainer M) in Pewter Gym. Returned to Viridian City Pokémon Center.
 - Money halved to ¥16. Pokémon were healed.
 - Current plan: Defeat available trainers in Viridian City for money and EXP before returning to Pewter City. First target: VIRIDIANCITY_YOUNGSTER1 at (14,21).
+
+## Viridian City - Youngster Battle Attempts (VIRIDIANCITY_YOUNGSTER1) - Continued (Turn 1934-1935)
+- **State at Turn 1934:** Still stuck in dialogue loop ("use POKéMON any-time, anywhere!") at (10,22). Attempt to move Right (Turn 1933) failed due to dialogue on screen.
+- **Hypothesis (Turn 1934):** Pressing 'B' might close the stuck dialogue box.
+- **Action (Turn 1935):** Pressing 'B'.
+- **Plan (Post-Turn 1935):** If 'B' clears dialogue, will attempt to move away (e.g., Right to (11,22)) to reset interaction. If 'B' fails, will consider this trainer interaction bugged, mark trainer at (10,23) with 🚫, and shift focus to exploring reachable unseen tiles or finding another trainer in Viridian City.
