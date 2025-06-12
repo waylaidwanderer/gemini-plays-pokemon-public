@@ -23,7 +23,7 @@
     *   Behavior: Triggers an escort to the Gym entrance. Proximity, facing, and movement vector likely play a role. Event triggered when moving from (37,19) to (38,19) while Youngster was at (36,17).
     *   Marked potential trigger zones (worth caution): (36,17), (35,17), (30,19), (34,19), (36,18), (38,19), (38,20). (30,19) is also a drop-off point.
 *   **Strategy to reach Route 3:**
-    1.  Navigate from current position (12,19) to (30,19). This western part of Pewter is tricky with impassable tiles. Will use `exploration_planner_agent` for this segment.
+    1.  Agent path to (30,19) failed (blocked at (33,20) trying to move Right). Current: (33,20) facing Right. New manual path to (30,19): (33,20) -> Up to (33,19) -> Left to (30,19).
     2.  From (30,19) [POTENTIAL TRIGGER], attempt northern route: (30,19) -> (30,16) -> (35,16).
     3.  From (35,16), proceed east along Y=16 to (40,16), then south to Route 3 exit at (40,19).
     4.  Use `scripted_event_tracker_agent` when navigating the eastern part of the city (X > 25), especially near known trigger zones and the Youngster at (36,17).
