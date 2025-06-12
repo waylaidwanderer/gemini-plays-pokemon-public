@@ -116,3 +116,8 @@
 *   Navigation Lessons: Jumping down ledges (e.g., from Y=23 to Y=25, Y=27 to Y=29) before fully exploring areas above them led to inefficient backtracking via Pallet Town. Need to scout paths more thoroughly, especially around one-way obstacles like ledges, to avoid self-imposed loops.
 
 *   New Agent Idea: Level Cap Compliance Agent (Input: party, badge count. Output: Pokémon at/near cap, warnings).
+
+## Custom Agent Prioritization (Post-Feedback Turn 330):
+*   Actively prioritize using `battle_strategist_agent` for significant trainer battles (e.g., Youngster on Route 1 if engaged).
+*   Consider using `route_planner_agent` if pathfinding continues to be challenging or inefficient.
+*   Will define the 'Level Cap Compliance Agent' this turn.
