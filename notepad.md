@@ -132,3 +132,6 @@
 
 - Oak's Lab (Event State):
     - Re-interacted with default Poké Ball at (8,4) after BLAZe's dialogue. Still says "BALL. There's a POKéMON inside!". Sprite facing for BLAZe (5,4) changed to Up, and Poké Ball (8,4) changed to Left. This Poké Ball is likely BLAZe's.
+
+- Oak's Lab (Default State):
+    - Checked Professor Oak's default location (5,8). He is not present. The lab appears to be in its default configuration (no event NPCs visible on screen at event locations).
