@@ -100,3 +100,16 @@
 - Wild Battles: Run if Speed >= wild's (or chance increases). Fight only to catch/train.
 - Nicknaming: Always nickname when prompted, enjoy creativity.
 - Verification: Trust own observations over prior knowledge. Verify in multiple cases due to ROM hack nature.
+
+## Pewter Mart Exit Strategy (Post-Critique Turn 1651)
+- **CRITICAL:** Verify `map_id` and `player_position` from Game State *every turn* before planning.
+- Current plan: If on a warp tile, face correct direction and activate. If not, path to an unoccupied warp tile, prioritizing (5,8) if (4,8) is blocked or problematic.
+- Document all failed exit attempts with specific reasons if identifiable.
+
+## Lessons Learned & Strategy Refinements (Updates)
+- Pewter Mart Exit Loop: MAJOR issue. Numerous failed attempts (conservatively 20+ turns) due to misreading location, NPC blocking, and flawed pathing. Must break this loop by careful verification and adaptive pathing.
+
+## General TODOs (Additions)
+- Review and revise prompts for `map_exploration_strategist_agent` and `item_finder_agent` based on critique of frequent failures.
+- Implement `Capability Checker Agent` after reaching Pewter City and stabilizing.
+- Prioritize earning money (currently ¥33) and training SPROUT (Lv7) & PIP (Lv7) once in Pewter City.
