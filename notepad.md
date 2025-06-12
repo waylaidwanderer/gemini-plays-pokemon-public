@@ -129,3 +129,6 @@
 - Oak's Lab (Event State):
     - BLAZe (OAKSLAB_RIVAL) at default location (5,4) said: "Yo Gem! Gramps isn't around! I ran here 'cos he said he had a POKéMON for me."
     - This interaction supports the hypothesis that event progression requires interacting with objects/NPCs at their default map locations.
+
+- Oak's Lab (Event State):
+    - Re-interacted with default Poké Ball at (8,4) after BLAZe's dialogue. Still says "BALL. There's a POKéMON inside!". Sprite facing for BLAZe (5,4) changed to Up, and Poké Ball (8,4) changed to Left. This Poké Ball is likely BLAZe's.
