@@ -53,3 +53,9 @@
 *   Accidentally re-initiated dialogue with Youngster (ID 2) at (11,7) on Route 3 (8th failed attempt). Confirmed dialogue loop persists ('than those found in the forest!').
 *   **Decision:** Will not attempt interaction with Youngster (ID 2) again. Unseen tiles (26,5), (26,6) that require passing him are now considered inaccessible via this western plateau path.
 *   Focus shifts to exploring eastern Route 3 and reaching Mt. Moon via alternative paths, bypassing this NPC.
+
+# Route 3 - Current Understanding (Turn 7117)
+*   **Segmentation:** Route 3 is heavily segmented by impassable columns (e.g., X=10, X=18, X=24) and ledges, making east-west travel complex.
+*   **Impassable Trainers:** Confirmed that defeated trainers (e.g., LASS at (21,5), Youngster at (20,6)) and NPCs involved in unbreakable dialogue loops (e.g., Youngster (ID 2) at (11,7)) act as impassable obstacles, blocking paths even if their tile is 'ground'.
+*   **'Reachable Unseen Tiles' Discrepancy:** The game lists tiles like (26,4-6) and column 29 as 'reachable'. However, all known paths to these eastern areas appear to be blocked by the aforementioned impassable NPCs or impassable map columns. These tiles are considered practically inaccessible for now.
+*   **Current Strategy:** Focus on exploring genuinely accessible segments. If an area is blocked by a known problematic NPC, it will be bypassed. The priority is to find a clear path towards Mt. Moon.
