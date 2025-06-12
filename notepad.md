@@ -14,10 +14,10 @@
 *   **EXP Cap Mechanics:** Pokémon at level cap do not gain EXP, even if message appears. Verified with SPBARKY.
 *   **Poison Damage:** Outside battle, poisoned Pokémon lose 1 HP every 4 steps.
 
-# Agent Usage Plan & Review Notes (Turn 6049 Update)
+# Agent Usage Plan & Review Notes (Turn 6051 Update)
 *   **`map_analyzer_agent` (Many Uses):** Primary tool for map queries. Generally reliable. Continue using for path validation and map feature identification.
 *   **`move_validator_agent` (Low Usage - System Errors):** Intended for complex path validation. Has had system errors. Use sparingly and with caution.
-*   **`exploration_planner_agent` (Multiple Uses - Updated Prompt):** Generates exploration paths. Prompt updated (Turn 6031) to better handle ledges, but still requires cautious use and manual verification of paths involving ledges, as it has previously provided invalid paths.
+*   **`exploration_planner_agent` (Multiple Uses - Updated Prompt):** Generates exploration paths. Prompt updated (Turn 6031) to better handle ledges, but still requires cautious use and manual verification of paths involving ledges, as it has previously provided invalid paths. (Reliability Note: Repeatedly struggled with optimal pathing on Route 22, especially around ledges and isolated grass patches, even after prompt updates. Use with extreme caution for complex navigation; manual planning or `map_analyzer_agent` for segments might be better.)
 *   **`scripted_event_tracker_agent` (Low Usage):** Tracks proximity to known scripted events. Use when approaching areas with known or suspected event triggers.
 *   **`pp_management_agent` (1 Use - Defined Turn 6031):** Advises on PP conservation. Utilize before long routes, dungeons, or major battles.
 *   **`team_builder_agent` (1 Use):** Suggests team compositions for major battles. Use for Gyms, Rival, E4.
@@ -25,6 +25,8 @@
 *   **`notepad_query_agent` (3 Uses):** Queries notepad content. Useful for recalling specific recorded details.
 *   **`npc_interaction_planner_agent` (0 Uses - Defined Turn 6025):** Plans NPC interactions. Consider using for tricky NPC approaches.
 *   **`battle_advisor_agent` (0 Uses - Defined Turn 6025):** Provides in-battle advice. Consider for tough fights.
+*   **Agent Limit:** Be mindful of the 10-agent limit. Plan definitions/deletions proactively. (Lesson: Repeatedly hit limit due to poor planning turns 6025-6029, 6031.)
+*   **Input Data:** Ensure agents with `agent_can_run_code: true` are NOT fed `map_xml_string` or `world_knowledge_graph_json_string` as direct inputs.
 *   **Agent Limit:** Be mindful of the 10-agent limit. Plan definitions/deletions proactively.
 *   **Input Data:** Ensure agents with `agent_can_run_code: true` are NOT fed `map_xml_string` or `world_knowledge_graph_json_string` as direct inputs.
 
