@@ -18,7 +18,7 @@
 *   **`move_validator_agent` (137 Uses - System Errors):** Intended for complex path validation. Has had numerous system errors and proven unreliable. **DO NOT USE THIS AGENT.** Continued high usage despite these issues was a critical error in judgment.
 *   **`specialized_exploration_agent` (0 Uses - Defined Turn 6128):** Intended for complex exploration planning. Evaluate its effectiveness when a suitable complex area is encountered.
 *   **`scripted_event_tracker_agent` (Low Usage):** Tracks proximity to known scripted events. Use when approaching areas with known or suspected event triggers.
-*   **`pp_management_agent` (1 Use - Failed Turn 6173):** Advises on PP conservation. Failed its only use. Manually assess PP or use with extreme caution.
+*   **`pp_management_agent` (1 Use - Failed Turn 6173):** Advises on PP conservation. Failed its only use. Rely on manual PP assessment for now. Avoid using this agent until its reliability can be re-evaluated under different circumstances.
 *   **`team_builder_agent` (1 Use):** Suggests team compositions for major battles. Use for Gyms, Rival, E4.
 *   **`battle_log_analyzer_agent` (1 Use):** Parses battle text. Use after significant battles.
 *   **`notepad_query_agent` (3 Uses):** Queries notepad content.
