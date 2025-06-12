@@ -74,14 +74,14 @@
 *   Record inter-map transitions (map boundary, warps) IMMEDIATELY using `manage_world_knowledge`.
 *   Node for Route 1 North Exit (to Viridian) created (ID: ffa853b2-f57b-4a03-8de3-83250b175651 at (12,0)).
 
-## Current Area Notes:
+## Past Area Notes:
 *   **Route 1 (ID 12):**
-    *   Player at (12,1), facing Up. North exit to Viridian City.
-    *   Pikachu at (12,2).
+    *   Exited at (12,1), facing Up. North exit to Viridian City.
+    *   Pikachu was at (12,2).
     *   Wild Encounters: Pidgey (Lv3, Lv4), Rattata.
     *   Trainers: Youngster (Sprite ID 1) at (6,27), Youngster (Sprite ID 2) at (15,14). (Neither battled yet).
     *   Sign at (10,28): 'ROUTE 1 PALLET TOWN - VIRIDIAN CITY'.
-    *   All reachable unseen tiles explored.
+    *   All reachable unseen tiles explored before leaving.
 
 ## Current Area Notes:
 *   **Viridian City (ID: 1):**
