@@ -61,3 +61,9 @@
 *   `map_analyzer_agent` (Path to North Exit from (22,41)) - Attempt 1: Path led to impassable sign at (25,41). Attempt 2 (Turn 6443): Agent LLM error, no path provided.
 *   `specialized_exploration_agent` (Path to North Exit from (22,41)) - Attempt 1 (Turn 6442): Agent stated it could not plan as 'reachable_unseen_tiles' was empty, despite map having unseen tiles.
 *   **Current Strategy:** Manual pathing in short segments towards North Exit.
+
+# Agent Ideas & Update Notes (Reflection Turn 6493)
+*   New Agent Idea: 'Path Segmenter Agent' - To break down long agent paths into manageable, poison-aware segments.
+*   New Agent Idea: 'Emergency Exit Planner Agent' - Finds absolute closest map exit, prioritizing step count for critical HP situations.
+*   `map_analyzer_agent` Update Idea: Add penalty for path length if party member is critical/statused, or offer multiple path types (shortest, safest).
+*   `specialized_exploration_agent` Update Idea: Allow planning to any unseen tile, not just those in 'reachable_unseen_tiles', if a path exists.
