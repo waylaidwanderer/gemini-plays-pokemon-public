@@ -68,9 +68,15 @@
     3.  From around (17,15), move north into the *western* grass strip (e.g., to (17,10) or (17,11)).
     4.  Explore west and east from this entry point to clear all unseen tiles on Y=10.
 
-# Current Plan - Route 22 Exploration (Turn 6077)
-*   **Objective:** Reach all 14 unseen tiles on Y=10. Currently at (34,11) in the northern grass strip.
-*   **Strategy:** Move west along the northern grass strip (Y=11 or Y=10) to clear the unseen tiles. First target is the cluster from X=23 to X=26 on Y=10, then the cluster from X=3 to X=12 on Y=10.
+# Current Plan - Route 22 Exploration (Turn 6078 - Corrected Strategy)
+*   **Objective:** Reach all 14 unseen tiles on Y=10 (located in western/central northern grass strip).
+*   **Current Position:** (34,11) in isolated eastern grass patch.
+*   **Strategy Steps:**
+    1.  Jump down from current isolated eastern grass patch (X=31-34, Y=9-12) to the lower path (Y=15). (Current action)
+    2.  Travel west along lower path (Y=15) to approx. (17,15).
+    3.  Move north from approx. (17,15) into the main western grass strip (e.g., to (17,10) or (17,11)).
+    4.  Explore west to clear unseen tiles around (3,10)-(12,10).
+    5.  Explore east from entry point to clear unseen tiles around (23,10)-(26,10).
 
 # Agent Ideas (Notepad - Turn 6077)
 *   Specialized Exploration Agent: Could analyze map XML and `reachable_unseen_tiles` to identify isolated sections or complex ledge navigation requirements, providing more nuanced pathing advice than the current `exploration_planner_agent` for very tricky maps.
