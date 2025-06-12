@@ -135,3 +135,16 @@ Path:
 ## Reflection (Turn 821)
 - **New Agent Idea**: Level Cap Compliance Agent - Input: badge count, Pokémon levels. Output: compliance status, next cap, Pokémon at cap.
 - **Map Marker Deletion**: Deleted redundant marker at Viridian City (20,9) regarding path blockage, as Old Man at (19,10) is the actual blocker and already marked.
+
+## Viridian City Navigation to Mart (Attempt 1 - Turn 822/823)
+- Path: From (22,31) -> Left to (21,31), then Up x10 to (21,21), then Right x9 to (30,21), then Up x1 to (30,20).
+- Outcome: FAILED at Turn 823. Player at (21,29) was blocked trying to move Up to (21,28) due to it being a ledge.
+
+## Viridian City Navigation to Mart (Attempt 2 - Turn 823)
+- Current Position: (21,29)
+- Path:
+  1. From (21,29) -> (20,29): Move Left x1.
+  2. From (20,29) -> (20,28): Move Up x1.
+  3. From (20,28) -> (20,21): Move Up x7.
+  4. From (20,21) -> (30,21): Move Right x10.
+  5. From (30,21) -> (30,20): Move Up x1 (Poké Mart).
