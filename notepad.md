@@ -135,3 +135,6 @@
 - **Blackout:** Lost to Jr. Trainer in Pewter Gym (Turn 1901). Returned to Viridian Pokecenter. Money halved to ¥16.
 - **Stuck Interaction:** VIRIDIANCITY_YOUNGSTER1 (ID 1) dialogue loop (Turns ~1920-1943).
 - **Misunderstood NPC:** VIRIDIANCITY_YOUNGSTER2 (ID 3) - informational (DV speech), not a battler (Turns ~1966-2000).
+
+### Agent Review Update (Turn 2007)
+- `path_simplifier_agent`: Failed again (Turn 2006). Outputted jumbled instructions and incorrect total button presses. Manual path breakdown and button press calculation was necessary. **PRIORITY REVIEW NOW** to fix its logic or consider replacing with a `run_code` script for path simplification.
