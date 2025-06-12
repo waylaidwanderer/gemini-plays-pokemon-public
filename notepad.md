@@ -63,6 +63,6 @@
 
 ## Pallet Town Exploration Notes (Continued)
 - Player's House Entrance/Exit (Warp): (6,6) on Pallet Town map.
-- PALLETTOWN_GIRL NPC located at (2,10).
+- PALLETTOWN_GIRL NPC located at (3,11).
 - PALLETTOWN_PLAYERSHOUSE_SIGN at (4,6).
 - PALLETTOWN_SIGN at (8,10).
