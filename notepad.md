@@ -86,15 +86,15 @@
 -   **NPCs**: Can block paths unexpectedly. Be prepared to reroute or use `stun_npc` if essential.
 -   **Efficiency**: Avoid excessive time in optional areas if main goals are pending (e.g., Nickname House). Plan longer movement sequences instead of single steps for exploration.
 
-## Healing Attempts at Viridian Pokécenter (Turns 690-700)
-- Attempted to heal SPARKY multiple times (at least 5 distinct interaction sequences) by standing at (4,3) or (4,4) and interacting with Nurse Joy at (4,2).
-- Failures involved dialogue disappearing, being pushed back, or no healing occurring.
-- Current hypothesis: The interaction sequence from (4,3) or (4,4) is ineffective. A new approach is needed, or I should temporarily abandon healing here.
+## Healing Attempts at Viridian Pokécenter (Turns 688-711)
+- Multiple attempts (at least 5 distinct interaction sequences across these turns) to heal SPARKY by standing at (4,3) or (4,4) and interacting with Nurse Joy at (4,2) were unsuccessful.
+- Failures included dialogue disappearing, being pushed back by game mechanics, or no healing occurring despite dialogue prompts.
+- Hypothesis: The interaction sequence from (4,3) or (4,4) for healing at this Pokécenter is ineffective or I am missing a condition. Avoid repeating these specific attempts.
 
-## Healing Attempts at Viridian Pokécenter (Turns 690-700)
-- Attempted to heal SPARKY multiple times (at least 5 distinct interaction sequences) by standing at (4,3) or (4,4) and interacting with Nurse Joy at (4,2).
-- Failures involved dialogue disappearing, being pushed back, or no healing occurring.
-- Current hypothesis: The interaction sequence from (4,3) or (4,4) is ineffective. A new approach is needed, or I should temporarily abandon healing here.
+## Healing Attempts at Viridian Pokécenter (Turns 688-711)
+- Multiple attempts (at least 5 distinct interaction sequences across these turns) to heal SPARKY by standing at (4,3) or (4,4) and interacting with Nurse Joy at (4,2) were unsuccessful.
+- Failures included dialogue disappearing, being pushed back by game mechanics, or no healing occurring despite dialogue prompts.
+- Hypothesis: The interaction sequence from (4,3) or (4,4) for healing at this Pokécenter is ineffective or I am missing a condition. Avoid repeating these specific attempts.
 
 - Adopt a scientific mindset: form hypotheses, test systematically, document failures (with attempt counts), and avoid repeating unsuccessful strategies.
 
