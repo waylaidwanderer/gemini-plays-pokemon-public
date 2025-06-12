@@ -131,3 +131,7 @@ Path:
 2. From (15,15) -> (15,5): Move Up x10. (This will pass Youngster at (15,14) and clear the Y=14 ledge line. Tile (15,6) is ground, (15,5) is ground).
 3. From (15,5) -> (12,5): Move Left x3.
 4. From (12,5) -> (12,1): Move Up x4.
+
+## Reflection (Turn 821)
+- **New Agent Idea**: Level Cap Compliance Agent - Input: badge count, Pokémon levels. Output: compliance status, next cap, Pokémon at cap.
+- **Map Marker Deletion**: Deleted redundant marker at Viridian City (20,9) regarding path blockage, as Old Man at (19,10) is the actual blocker and already marked.
