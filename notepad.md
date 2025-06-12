@@ -56,3 +56,8 @@
     *   Actual presses before battle: 16 presses, reaching (19,41).
 *   **Remaining Path from Full Plan (after current battle):** Start from (19,41), 114 presses remaining. First 7 presses of remaining path: ['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right'] to reach (26,41), then continue with 'Up' sequence.
 *   **Strategy:** Break down remaining 114 presses into shorter segments, especially while FLAREE is poisoned. Prioritize healing FLAREE if a Pokecenter becomes accessible or an Antidote is found.
+
+# Pathing Agent Failures (Viridian Forest)
+*   `map_analyzer_agent` (Path to North Exit from (22,41)) - Attempt 1: Path led to impassable sign at (25,41). Attempt 2 (Turn 6443): Agent LLM error, no path provided.
+*   `specialized_exploration_agent` (Path to North Exit from (22,41)) - Attempt 1 (Turn 6442): Agent stated it could not plan as 'reachable_unseen_tiles' was empty, despite map having unseen tiles.
+*   **Current Strategy:** Manual pathing in short segments towards North Exit.
