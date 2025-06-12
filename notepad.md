@@ -30,3 +30,6 @@
 *   SPBARKY (Pikachu, Lv12): 1728 EXP (No change from Brock fight, was capped).
 *   ODDISH (Oddish, Lv12): 973 EXP (Gained 277 EXP from Onix, but was capped for Geodude EXP).
 *   Lesson: EXP gain messages can be misleading if Pokémon was capped at the start of battle, even if a badge raises the cap mid-battle. Actual EXP is applied later or not at all for the capped portion.
+
+# Encounter Issues & Stalled Progress (Route 3 - Turn 6908)
+*   **Cool Trainer F (ID 4) at (17,10) on Route 3:** Encountered dialogue loop ("Quit staring if you don't want to fight!"). Pressing 'A' multiple times (at least 4 attempts across turns 6905-6908) did not initiate battle. Current hypothesis: interaction is bugged, trainer might have already been defeated (unlikely, as this is a new area section after a ledge jump and no marker exists), or a different trigger is needed. Abandoning interaction for now to explore other parts of Route 3.
