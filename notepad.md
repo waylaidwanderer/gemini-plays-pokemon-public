@@ -110,3 +110,7 @@
 
 - Oak's Lab (Event State):
     - Exiting and re-entering Oak's Lab did NOT reset the event state. Professor Oak remains in a dialogue loop.
+
+- Oak's Lab (Event State):
+    - Scientist (Oak's Aide, visually at (3,11)) at (3,11) is in an interaction loop, repeating Ghost > Psychic dialogue. Interacting with BLAZe at (3,11) also triggers this.
+    - New Hypothesis: Event progression might require interacting with NPCs/objects at their *default* map locations (e.g., BLAZe at (5,4), Poké Ball at (8,4)) rather than their visual event locations.
