@@ -26,7 +26,7 @@
 *   EXP. All obtainable.
 
 ## Current Objectives & Plans (HOW to achieve goals):
-*   **Arrived in Viridian City!** Current position (22,36).
+*   **Arrived in Viridian City!** Current position (22,31).
 *   **Explore Viridian City:**
     *   Locate Pokémon Center, PokéMart, Gym.
     *   Talk to NPCs (once each).
