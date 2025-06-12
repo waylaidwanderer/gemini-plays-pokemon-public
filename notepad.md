@@ -158,3 +158,7 @@
 # Pewter City Navigation Update (Turn 6762)
 *   Attempt to move Up from (20,31) to (20,30) blocked by sign (PEWTERCITY_TRAINER_TIPS).
 *   Revised path to Pokecenter (14,26): (20,31) -> Left to (19,31) -> Up to (19,26) -> Left to (14,26).
+
+# Pewter City Gym Navigation (Turn 6776)
+*   Attempt to move Up from (17,23) to (17,22) blocked by impassable building tile (Pokecenter roof). This was attempt #1 for this specific segment.
+*   Revised path to Pewter Gym (17,18) from (17,23): (17,23) -> Right to (18,23) -> Up to (18,18) -> Left to (17,18).
