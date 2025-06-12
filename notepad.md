@@ -75,3 +75,11 @@
     2.  Move Up from (22,27) to (22,17) (to get past the school building area).
     3.  Move Left from (22,17) to (19,17).
     4.  Move Up from (19,17) to (19,1) (Route 2 North Exit).
+
+# Route 2 Navigation Update (Turn 6670)
+*   Attempt to move Up from (9,63) was blocked by ledge at (9,62).
+*   **Revised Path Segment 2 (Route 2 South):**
+    1.  From (9,63), move Left to (8,63).
+    2.  Move Up from (8,63) to (8,45).
+    3.  Move Left from (8,45) to (4,45).
+    4.  Move Up from (4,45) to (4,44) (Viridian Forest South Gate warp).
