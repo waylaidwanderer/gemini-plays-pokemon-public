@@ -67,3 +67,8 @@
 *   **Daisy (Rival's House @ 3,4):** Told me Pixel is looking for me and went to Prof. Oak's Lab. She blocks movement on her tile.
 
 *   **Critical Game Mechanic:** ALWAYS press 'A' to clear any on-screen dialogue or text BEFORE attempting any other input (movement, interaction, menu). Failure to do so will result in the input being ignored or only clearing the text.
+
+## Potential Custom Agent Ideas (From Reflection Turn 156):
+*   `battle_strategist_agent`: Input opponent's team, my team, level cap. Output optimal move sequence or switch strategy for Hard Mode (Set mode, no items).
+*   `route_planner_agent`: Input target destination (map_id, coordinates), current location. Output optimal path using WKG and map XML for multi-map journeys.
+*   `rom_hack_mechanic_analyzer_agent`: For deducing rules of complex new mechanics based on repeated observations.
