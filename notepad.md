@@ -85,10 +85,10 @@
 
 *   **`map_analyzer_agent` Failure (Turn 6114):** Provided a path segment (32,8) -> (31,8) on Route 22 that was blocked by the game (ledge or impassable). Required manual rerouting.
 
-# Route 22 - Exit Strategy (Turn 6166)
+# Route 22 - Exit Strategy (Turn 6168)
 *   **Objective:** Exit Route 22 to Viridian City, then proceed to Pewter City. (All reachable unseen tiles on Route 22 explored as per game state.)
-*   **Path from current position (3,7) on Route 22 to (40,7) exit:**
-    1.  Move Down from (3,7) to (3,15). Path: (3,7) -> (3,8) -> (3,9) -> (3,10 is ledge, auto-jumps to 3,11) -> (3,11) -> (3,12) -> (3,13) -> (3,14 is ledge, auto-jumps to 3,15). (6 Down presses total)
+*   **Path from current position (3,15) on Route 22 to (40,7) exit:**
+    1.  (Done) Move Down from (3,7) to (3,15).
     2.  Move Right from (3,15) to (34,15). (31 Right presses)
     3.  Follow path from (34,15) to (40,7): (34,15) -> (34,14) -> (34,13) -> (35,13) -> (36,13) -> (36,12) -> (36,11) -> (36,10) -> (36,9) -> (36,8) -> (37,8) -> (37,7) -> (38,7) -> (39,7) -> (40,7). (14 button presses)
 *   **After exiting:** Proceed north via Route 2 towards Pewter City.
