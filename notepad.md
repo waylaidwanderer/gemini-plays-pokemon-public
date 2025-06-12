@@ -6,20 +6,23 @@
 # Pewter City Strategy & Current Plan
 *   **Current Location:** (5,21) in Pewter City, facing Down. Pikachu at (5,20).
 *   **Immediate Goal:** Reach Route 3.
-*   **Current Route 3 Strategy (Attempt #6e - Gym Reset & Far West-South-East Detour - Revised at (18,21))**:
-    1.  Movement east from (18,21) blocked by impassable (19,21). Movement north from (18,19) blocked by impassable (18,18). Stuck in western pocket (X=17-18, Y=19-21).
-    2.  Current location (5,21) facing Down, after Gym warp reset and pathing to (5,19) then (5,21).
-    3.  Original plan to go South from (5,19) to (5,32) was blocked at (5,21) because (5,22) is impassable.
-    4.  Plan:
-        a.  Move East from (5,21) to (34,21).
-        b.  Move South from (34,21) to (34,32).
-        c.  Move East from (34,32) to (35,32).
-        d.  Move North from (35,32) to (35,30).
-        e.  Move East from (35,30) to (37,30).
-        f.  Move South from (37,30) to (37,32).
-        g.  Move East from (37,32) to (40,32).
-        h.  Move North from (40,32) to (40,19) (Route 3 exit).
-    5.  This is another long detour, aiming to escape the current pocket and then bypass all previously encountered X=19, Y=22, and X=36 blockades systematically.
+*   **Current Route 3 Strategy (Attempt #6f - Gym Reset from (18,21) & Far West-South-East Detour Mk2):**
+    1.  Current location (18,21), facing Right. Pikachu at (17,21). Blocked east by impassable (19,21). North of (18,19) is impassable (18,18). Stuck in western pocket (X=17-18, Y=19-21) AGAIN.
+    2.  Immediate Plan: Use Gym warp at (17,18) to escape.
+        a.  Move Left from (18,21) to (17,21).
+        b.  Move North from (17,21) to (17,18) (Gym Warp).
+    3.  After exiting Gym (will land at (17,19)):
+        a.  Move West from (17,19) to (5,19).
+        b.  Move South from (5,19) to (5,21). (Tile (5,22) is known impassable, this is an intended stop).
+        c.  Move East from (5,21) to (34,21). (Will verify (35,21) if (34,21) is reached successfully).
+        d.  Move South from (34,21) to (34,32).
+        e.  Move East from (34,32) to (35,32).
+        f.  Move North from (35,32) to (35,30).
+        g.  Move East from (35,30) to (37,30).
+        h.  Move South from (37,30) to (37,32).
+        i.  Move East from (37,32) to (40,32).
+        j.  Move North from (40,32) to (40,19) (Route 3 exit).
+    4.  This detour aims to bypass all previously encountered X=19, Y=22, and X=36 blockades systematically. Will pay close attention to screen and map XML for each step, and use `move_validator_agent` for tricky short segments if unsure.
 
 *   **Known Pathing Obstacles in Pewter City:**
     *   (34,20) - Impassable building facade. (Marked 🧱)
