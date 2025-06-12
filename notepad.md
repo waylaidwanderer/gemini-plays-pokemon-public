@@ -125,3 +125,7 @@
 
 ## Future Agent Ideas
 - **Battle Strategy Agent:** Could be defined to analyze upcoming significant battles (e.g., Rival, Gym Leaders). Input would include player's party, known opponent Pokémon/levels, and current level cap. Output could suggest optimal move choices, switch strategies, or identify key threats/weaknesses. Would likely require `run_code` capability for type matchup calculations and strategic analysis based on Hard Mode rules.
+
+- Oak's Lab (Event State):
+    - BLAZe (OAKSLAB_RIVAL) at default location (5,4) said: "Yo Gem! Gramps isn't around! I ran here 'cos he said he had a POKéMON for me."
+    - This interaction supports the hypothesis that event progression requires interacting with objects/NPCs at their default map locations.
