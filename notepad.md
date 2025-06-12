@@ -65,14 +65,12 @@
 
 ## Agent Development & Performance
 ### Defined Agents:
-1.  **route_pathfinder**: Calculates move sequence. Input: {start_x, start_y, end_x, end_y}. Output: {path_found, steps[]}. (Code-enabled)
-2.  **exploration_prioritizer_agent**: Suggests exploration target. Input: {player_x, player_y, current_objectives}. Output: {prioritized_target_type, target_coordinates, reasoning}. (Code-enabled)
+1.  **route_pathfinder**: Calculates move sequence. Input: {start_x, start_y, end_x, end_y}. Output: {path_found, steps[]}. (Code-enabled, Updated Prompt T667)
+2.  **exploration_prioritizer_agent**: Suggests exploration target. Input: {player_x, player_y, current_map_id, current_objectives, last_warp_details (optional)}. Output: {prioritized_target_type, target_coordinates, reasoning}. (Code-enabled, Updated Prompt T667)
+3.  **item_finder_agent**: Locates items/buildings or suggests paths. Input: {target_description, player_x, player_y}. Output: {target_found, target_coordinates, exploration_suggestion, reasoning}. (Code-enabled, Defined T667)
 
 ### Planned Agents:
--   `item_finder_agent`: Locates items/buildings or suggests paths to them.
--   `npc_interaction_strategist_agent`: Analyzes NPCs for interaction strategies.
--   `team_builder_agent`: Suggests team comps for challenges.
--   `level_grinding_optimizer_agent`: Identifies optimal training spots.
+(None currently)
 
 ### Agent Failures & Notes:
 -   **route_pathfinder**:
