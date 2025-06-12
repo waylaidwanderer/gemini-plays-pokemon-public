@@ -29,7 +29,7 @@
 
 ## Current Goals & Plans
 - **Primary:** Obtain my first Pokémon.
-- **Secondary:** Interact with BLAZe or Professor Oak.
+- **Secondary:** Reset the event state in Oak's Lab by exiting and re-entering.
 - **Tertiary:** Re-evaluate exploration of Player's House 2F after visiting Oak.
 
 ## Strategy Notes & Lessons Learned
