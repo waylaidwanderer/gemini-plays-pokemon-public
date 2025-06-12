@@ -98,3 +98,6 @@
 
 - Player's House First Floor (Map ID 37):
     - Mom (PLAYERSHOUSE1F_MOM) at (6,5) said: "Right. All kids leave home someday. It said so on TV. PROF.OAK, next door, is looking for you."
+
+- Player's House First Floor (Map ID 37):
+    - Mom (PLAYERSHOUSE1F_MOM) at (6,5) said: "Right. All kids leave home someday. It said so on TV. PROF.OAK, next door, is looking for you."
