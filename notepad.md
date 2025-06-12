@@ -29,7 +29,7 @@
 
 ## Current Goals & Plans
 - **Primary:** Obtain my first Pokémon.
-- **Secondary:** Interact with the event Poké Ball at (2,11) in Oak's Lab.
+- **Secondary:** Interact with BLAZe or Professor Oak.
 - **Tertiary:** Re-evaluate exploration of Player's House 2F after visiting Oak.
 
 ## Strategy Notes & Lessons Learned
@@ -95,3 +95,7 @@
 
 - Oak's Lab (Event State):
     - Attempted to move Up from (2,11) to (2,10) (adjacent to event Poké Ball, Girl at (2,10) on screen) but was blocked. New plan: move to (1,11) (left of Poké Ball), then face Right and interact.
+
+- Oak's Lab (Event State):
+    - Scientist (Oak's Aide, visually at (3,11) but listed as OAKSLAB_SCIENTIST1 at (3,11) in default game state) at (3,11) spoke when I tried to interact with event Poké Ball from (1,11): "I study POKéMON as PROF.OAK's AIDE. We recently finished a paper proving a rumor false. As thought, the rare ghost-type is super effective to psychic-types."
+    - Attempted interactions with event Poké Ball at (2,11) from multiple adjacent tiles and while standing on it have failed. It's likely not directly interactable or requires another trigger.
