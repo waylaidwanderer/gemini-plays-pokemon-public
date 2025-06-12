@@ -55,6 +55,7 @@
 ## Defeated Trainers
 - Bug Catcher (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (31,34) in Viridian Forest. (Turn 1105)
 - Cooltrainer F (ID 5, LASS) at (3,42) in Viridian Forest. (Turn 1310)
+- Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest (battle triggered at (2,19)). (Turn 1481)
 
 ## Agent Management & TODOs
 ### Defined Agents:
