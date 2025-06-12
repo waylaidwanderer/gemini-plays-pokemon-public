@@ -73,7 +73,7 @@
 *   **Objective:** Reach unseen tiles on Y=10 (western grass strip).
 *   **Current Position:** (31,15) on Route 22.
 *   **New Approach:**
-    1.  Exit Route 22 to Viridian City via an upper path exit (e.g., (40,7) on Route 22). Path from (37,15): [(37, 15), (36, 15), (35, 15), (34, 15), (34, 14), (34, 13), (35, 13), (36, 13), (36, 12), (36, 11), (36, 10), (36, 9), (36, 8), (37, 8), (37, 7), (38, 7), (39, 7), (40, 7)]. Current action: Move from (37,15) to (34,15).
+    1.  Exit Route 22 to Viridian City via an upper path exit (e.g., (40,7) on Route 22). Path from (37,15): [(37, 15), (36, 15), (35, 15), (34, 15), (34, 14), (34, 13), (35, 13), (36, 13), (36, 12), (36, 11), (36, 10), (36, 9), (36, 8), (37, 8), (37, 7), (38, 7), (39, 7), (40, 7)]. Current action: Move from (34,15) to (40,7).
     2.  In Viridian City, immediately re-enter Route 22, aiming to arrive on Route 22's upper path (e.g., at (40,7) or similar).
     3.  On Route 22's upper path, travel west to approx. X=17 (e.g., (17,6) or (17,5)).
     4.  From (17,5/6), move south to (17,8) (ledge).
