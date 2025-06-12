@@ -26,7 +26,7 @@
 *   EXP. All obtainable.
 
 ## Current Objectives & Plans (HOW to achieve goals):
-*   **Reach Viridian City:** Move North from current position (12,1) on Route 1.
+*   **Arrived in Viridian City!** Current position (22,36).
 *   **Explore Viridian City:**
     *   Locate Pokémon Center, PokéMart, Gym.
     *   Talk to NPCs (once each).
