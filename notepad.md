@@ -128,7 +128,7 @@
 # Viridian Forest Navigation Update (Turn 6713 - Agent Path Segment 2)
 *   `map_analyzer_agent` provided a new path from (17,2) to (2,1). Following this path.
 
-# Viridian Forest Navigation Update (Turn 6735 - Segmented Path)
-*   Segment 1 ((7,8) -> (7,22)) is complete (overshot to (7,23)).
-*   Starting Segment 2: (7,23) -> (6,23) -> (5,23) -> (4,23) -> (3,23) -> (2,23) -> (2,22) -> (2,21) -> (2,20) -> (2,19) -> (2,18) -> (2,17) -> (2,16) -> (2,15). (14 steps from current position)
-*   Segment 3 (13 steps): (2,15) -> (2,1)
+# Viridian Forest Navigation Update (Turn 6740 - Segmented Path)
+*   Segment 1 ((7,8) -> (7,22)) is complete.
+*   Segment 2 ((7,23) -> (2,15)) is complete. Arrived at (2,15).
+*   Starting Segment 3: (2,15) -> (2,14) -> (2,13) -> (2,12) -> (2,11) -> (2,10) -> (2,9) -> (2,8) -> (2,7) -> (2,6) -> (2,5) -> (2,4) -> (2,3) -> (2,2) -> (2,1). (14 steps from current position)
