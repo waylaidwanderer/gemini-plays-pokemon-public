@@ -167,3 +167,5 @@
 - **Route 22 Training (Turns 2250+):**
     - **Turn 2261:** PIP defeated wild SPEAROW Lv6 (EXP 396). SPARKY (lead) gained no EXP (capped).
     - **Turn 2274:** PIP defeated wild Mankey Lv5 (grew to Lv9, EXP 422). SPARKY (lead) gained no EXP (capped).
+
+    - **Turn 2274:** PIP defeated wild Mankey Lv5 (grew to Lv9, EXP 422). SPARKY (lead) gained no EXP (capped).
