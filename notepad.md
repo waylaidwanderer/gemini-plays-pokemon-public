@@ -8,7 +8,7 @@
 *   **Escort Event Dynamics:** Still complex. His new position at (18,19) likely means his trigger zones have shifted significantly. The old triggers around (36,17) might still be active if he moves back there, but the immediate threat is his current location.
 *   **Known Trigger/Drop-off Points (Markers are reminders):** (38,19) (triggered from (37,19) when Y. was at (36,17)), (30,19) (drop-off & trigger). These may behave differently with Y. at (18,19). Marked zones around (36,17) are less relevant *while he is at (18,19)*.
 *   **Current Strategy for Route 3 (Accounting for Youngster at (36,17))**:
-    1.  **Far South Route Attempt:** Reached (22,23) after agent path attempt. Current plan: from (22,23) -> South to (22,27) -> East along Y=27 to (40,27) -> North to Route 3 exit at (40,19). This path is far south of the Youngster at (36,17).
+    1.  **Far South Route Attempt:** Reached (22,23), then (22,24). Southward movement from (22,24) blocked by impassable (22,25). New plan: from (22,24) -> Left to (21,24) -> South to (21,27) -> East along Y=27 to (40,27) -> North to Route 3 exit at (40,19). This path is far south of the Youngster at (36,17).
     2.  **Far North Route (Fallback):** If south fails, try Y=10-14, east, then south. This path would be north of his new (18,19) position.
     3.  Meticulously check map XML for impassable tiles for any new planned path. Use `move_validator_agent` for short, complex segments.
     4.  Use `scripted_event_tracker_agent` to vet *path segments* (3-5 steps) when approaching X=18 or moving east, always using Youngster's *current coordinates* ((18,19) with radius 3 for now).
