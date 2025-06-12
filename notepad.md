@@ -82,3 +82,10 @@
     *   Trainers: Youngster (Sprite ID 1) at (6,27), Youngster (Sprite ID 2) at (15,14). (Neither battled yet).
     *   Sign at (10,28): 'ROUTE 1 PALLET TOWN - VIRIDIAN CITY'.
     *   All reachable unseen tiles explored.
+
+## Current Area Notes:
+*   **Viridian City (ID: 1):**
+    *   Player at (22,36), facing Up. Arrived from Route 1 South.
+    *   Pikachu at (22,37).
+    *   Reachable Unseen Tiles: (21,31), (22,31).
+    *   Immediate plan: Explore north towards (22,31).
