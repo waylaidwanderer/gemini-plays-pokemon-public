@@ -48,3 +48,8 @@
 
 # Route 3 Navigation Lessons (Turn 7077)
 *   **Defeated Trainers Impassable:** Confirmed after multiple attempts (movement, stun tool) that defeated trainers (e.g., LASS at (21,5), Youngster at (20,6) on Route 3) act as impassable obstacles, even if their tile is 'ground'. This contradicts initial assumptions about 'ground (occupied by...)' tiles being traversable.
+
+# Route 3 - Youngster (ID 2) Re-evaluation (Turn 7110)
+*   Accidentally re-initiated dialogue with Youngster (ID 2) at (11,7) on Route 3 (8th failed attempt). Confirmed dialogue loop persists ('than those found in the forest!').
+*   **Decision:** Will not attempt interaction with Youngster (ID 2) again. Unseen tiles (26,5), (26,6) that require passing him are now considered inaccessible via this western plateau path.
+*   Focus shifts to exploring eastern Route 3 and reaching Mt. Moon via alternative paths, bypassing this NPC.
