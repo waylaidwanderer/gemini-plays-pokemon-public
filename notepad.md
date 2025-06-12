@@ -6,13 +6,17 @@
 # Pewter City Strategy & Current Plan
 *   **Current Location:** (34,21) in Pewter City, facing Up. Pikachu at (34,22).
 *   **Immediate Goal:** Reach Route 3. Current plan is Attempt #5 for a northern/north-western approach after healing.
-*   **Revised Route 3 Plan (Attempt #5 via North-West, HIGH RISK for eastern leg):**
-    1.  Blockage at (34,20) (impassable building facade) prevents reaching (34,19) directly from the south of it along X=34.
-    2.  From current (34,21), move West to (33,21).
-    3.  Move North from (33,21) to (33,19). (Tiles (33,20) and (33,19) appear as 'ground').
-    4.  From (33,19), move East to (40,19) (Route 3 exit). Path: (33,19) -> (34,19) -> (35,19) -> (36,19) ... -> (40,19).
-    5.  This eastern leg passes (36,19), which is very close to Youngster (ID 5) at (36,17) and is a HIGHLY LIKELY escort trigger zone. Use `scripted_event_tracker_agent` before attempting this segment.
-    6.  If escorted, will need to re-evaluate from Gym entrance (12,19).
+*   **Current Route 3 Strategy (Attempt #5 leading to #6 via Intentional Escort - Corrected Start Pos):**
+    1.  Current Position (Turn 5617 start): (32,19) facing Left. Pikachu at (33,19).
+    2.  `scripted_event_tracker_agent` (Turn 5615, when player was at (33,19)) confirmed moving east to (34,19) triggers Youngster escort (Youngster at (36,17)).
+    3.  **Action for Turn 5617 (after notepad edit):** Move from (32,19) to (33,19) (Pikachu's tile), then to (34,19) to trigger escort. Expected drop-off: (12,19) near Gym.
+    4.  **Contingency Plan (Attempt #6 - Southern Detour from Gym Entrance if Escorted):
+        a.  From (12,19), move Left to (11,19).
+        b.  From (11,19), move South to (11,21). (Path: (11,19)->(11,20)->(11,21))
+        c.  From (11,21), move East to (20,21). (Path: (11,21)...(20,21))
+        d.  From (20,21), move South to (20,27). (Path: (20,21)...(20,27))
+        e.  From (20,27), move East to (40,27). (Path: (20,27)...(40,27))
+        f.  From (40,27), move North to (40,19) (Route 3 Exit).
 *   **Known Pathing Obstacles in Pewter City:**
     *   (34,20) - Impassable building facade.
     *   (36,27) - Impassable.
