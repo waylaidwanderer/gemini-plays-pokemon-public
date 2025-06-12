@@ -145,3 +145,7 @@
 - **VIRIDIANCITY_GAMBLER1 (ID 2, (31,9)):** Interaction attempt (Turn 2017-2019). Repeated dialogue ('I wonder who the LEADER is?') after two 'A' presses. Conclusion: Likely non-battling or bugged. Abandoning as a battle target. Marked 🚫.
 
 - Be more diligent about marking used warps (🚪), especially for complex buildings or less obvious transitions. (Added to III.E during reflection on Turn 2054)
+
+### EXP Mechanics Update (Turn 2063 - Route 22)
+- EXP. All seems to be active. After defeating a wild Mankey (Lv4) with PIP, SPARKY (Lv12, at cap) also received an 'gained EXP' message (21 EXP). PIP (Lv7) gained 21 EXP (287 -> 308).
+- **Hypothesis:** Pokémon at the level cap will still display an EXP gain message, but their actual EXP value will not change. Need to verify SPARKY's EXP value (should remain 1728) next time I check party stats to confirm this Hard Mode rule.
