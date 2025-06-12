@@ -115,3 +115,8 @@
 - After 7+ failed attempts (Turns ~1735-1770) to navigate past the ticket seller at (11,5) and the tricky tile (10,5) to reach the unvisited warp at (8,8) in Museum 1F due to insufficient funds (¥33 vs ¥50 ticket), I've decided to abandon exploring that section for now.
 - Exited Museum 1F via the (11,8) warp, arriving back in Pewter City at (15,8).
 - Will re-evaluate museum exploration once I have more money or a clearer path. Current focus is exploring Pewter City itself.
+
+## Pewter Nidoran House (Turn 1796)
+- Entered Pewter Nidoran House (ID 55) from Pewter City (ID 2) via warp at (30,14) in Pewter City, arriving at (3,8) in Nidoran House (EP4). WKG updated.
+- Current plan: Explore this house, interact with NPCs (Little Boy at (4,6), Nidoran M at (5,6)).
+- Reminder: Prioritize reviewing `map_exploration_strategist_agent` and `item_finder_agent` prompts soon.
