@@ -85,7 +85,8 @@
 
 ## Current Area Notes:
 *   **Viridian City (ID: 1):**
-    *   Player at (22,36), facing Up. Arrived from Route 1 South.
-    *   Pikachu at (22,37).
-    *   Reachable Unseen Tiles: (21,31), (22,31).
-    *   Immediate plan: Explore north towards (22,31).
+    *   Player at (22,31), facing Up. 
+    *   Pikachu at (22,32).
+    *   Reachable Unseen Tiles: (18,26), (19,26), (20,26), (21,26), (22,26), (23,26), (24,26), (25,26), (26,26), (27,26), (17,27), (28,27), (17,28), (28,28), (17,29), (28,29), (17,30), (28,30), (17,31), (28,31) - (list from game state).
+    *   Sign at (22,30) nearby.
+    *   Immediate plan: Interact with sign at (22,30), then locate Pokémon Center.
