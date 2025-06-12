@@ -29,7 +29,7 @@
 
 ## Current Goals & Plans
 - **Primary:** Obtain my first Pokémon.
-- **Secondary:** Go to Oak's Lab as Professor Oak is looking for me.
+- **Secondary:** Interact with the event Poké Ball at (2,11) in Oak's Lab.
 - **Tertiary:** Re-evaluate exploration of Player's House 2F after visiting Oak.
 
 ## Strategy Notes & Lessons Learned
