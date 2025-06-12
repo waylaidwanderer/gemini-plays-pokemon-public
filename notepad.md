@@ -21,7 +21,7 @@
 
 ### E. Active Goals (for planning reference)
 - **Primary Goal:** Defeat Brock and earn the Boulder Badge.
-- **Secondary Goal:** Earn money and EXP by defeating available and willing trainers in Viridian City.
+- **Secondary Goal:** Find a way to earn money to prepare for Brock.
 - **Tertiary Goal:** Explore reachable unseen tiles in Viridian City.
 
 ## II. Game Mechanics & Rules
