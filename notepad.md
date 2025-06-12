@@ -87,3 +87,9 @@
 - Wild Battles: Run if Speed >= wild's (or chance increases). Fight only to catch/train.
 - Nicknaming: Always nickname when prompted, enjoy creativity.
 - Verification: Trust own observations over prior knowledge. Verify in multiple cases due to ROM hack nature.
+
+## Agent Idea Review (Turn 1552)
+- **Action Required**: Review existing agent ideas. For each:
+    1. Decide to implement (create a `define_agent` plan) OR
+    2. Decide to discard (remove from notepad).
+- Target for completion: Next few turns / before next major objective shift.
