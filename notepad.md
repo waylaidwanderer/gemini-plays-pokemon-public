@@ -29,8 +29,8 @@
 
 ## Current Goals & Plans
 - **Primary:** Obtain my first Pokémon.
-- **Secondary:** Interact with BLAZe at (3,11) in Oak's Lab (event state).
-- **Tertiary:** Re-evaluate exploration of Player's House 2F after visiting Oak.
+- **Secondary:** Re-visit Player's House to check for new events or dialogue from Mom.
+- **Tertiary:** If Player's House yields no new leads, re-evaluate exploration of Pallet Town, prioritizing reachable unseen tiles.
 
 ## Strategy Notes & Lessons Learned
 - **World Knowledge Graph (WKG):**
