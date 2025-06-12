@@ -111,3 +111,5 @@
 - Entered from Pewter City (15,8) to Museum 1F (11,8).
 - Ticket to main exhibit costs ¥50. Cannot afford with ¥33. Declined entry.
 - Exploring alternative paths and the unvisited warp at (8,8).
+
+- Museum 1F: Unexpected movement from (10,5) to (10,6) (player facing down) after closing 'Come again!' dialogue from ticket seller (at (11,5)) on turn 1741. Player was at (10,5) facing up prior to dialogue. Possible pushback mechanic after repeated interaction or from specific tile.
