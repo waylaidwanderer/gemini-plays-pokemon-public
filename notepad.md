@@ -89,3 +89,5 @@
 - **route_pathfinder (Turn 477):** Failed with error "Agent LLM resp missing content (Iter 1)" when trying to path from (14,21) to (17,14) on Route 1. Needs further testing on simpler paths.
 
 ## Future Agent Ideas
+
+- **CUT is a Bug-type HM move** (Learned from Brunette Girl in Viridian School House).
