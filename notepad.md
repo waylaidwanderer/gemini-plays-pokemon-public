@@ -95,3 +95,5 @@
 - **PSN (Poison):** Health steadily drops. Lingers after battles. Cure: ANTIDOTE.
 - **FRZ (Freeze):** Pokémon becomes totally immobile. Stays frozen after battles. Cure: ICE HEAL.
 - **PAR (Paralyze):** Pokémon moves might misfire. Stays paralyzed after battles. Cure: PARLYZ HEAL.
+
+- **exploration_prioritizer_agent (Turn 621):** Suggested exploring the Pokémon Center warp (24,26) in Viridian City again, immediately after exiting it. Still unhelpful. (Attempt 2 of this type of failure).
