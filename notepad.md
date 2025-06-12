@@ -49,3 +49,7 @@
 
 # EXP Tracking & Observations
 *   Wild Pokémon battles yield EXP for uncapped Pokémon. Capped Pokémon show EXP gain message but value doesn't change.
+
+# Agent Ideas (For Future Consideration)
+*   **Training Spot Advisor:** Analyzes wild Pokémon data in an area to suggest optimal training spots.
+*   **Party Training Prioritizer:** Suggests which Pokémon needs training most urgently based on goals and level caps.
