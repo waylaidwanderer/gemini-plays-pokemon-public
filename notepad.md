@@ -49,3 +49,6 @@
 
 # EXP Tracking & Observations
 *   Wild Pokémon battles yield EXP for uncapped Pokémon. Capped Pokémon show EXP gain message but value doesn't change.
+
+# Agent Ideas (Post-Reflection Turn 6285)
+*   **Pokedex Completion Advisor:** An agent to analyze Pokedex completion and suggest next catch targets based on obtainable Pokemon in current/next areas.
