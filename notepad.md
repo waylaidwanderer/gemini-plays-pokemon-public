@@ -114,3 +114,9 @@
 # Viridian Forest Navigation Update (Turn 6692 - Segment A of new strategy FAILED)
 *   Attempt to move South from (18,33) as part of Segment A was blocked at (18,41) because tile (18,42) is impassable.
 *   This is the 4th major strategy attempt for this general area. Resorting to `map_analyzer_agent` to find a path from (18,41) to (2,1).
+
+# Reflection & Agent To-Do (Turn 6701)
+*   **Agent Testing Priority:** Systematically test `training_spot_advisor`, `path_segmenter_agent`, `emergency_exit_planner_agent`, `hm_usage_advisor_agent` soon.
+*   **Low-Usage Agent Evaluation:** Evaluate `team_builder_agent` and `battle_log_analyzer_agent` for utility or design refinement.
+*   **Map Marker Reminders:** Mark defeated trainers (e.g., Pewter Gym) and key used warps (e.g., Viridian Forest exits) more consistently.
+*   **Hindsight Learning:** Utilize `map_analyzer_agent` earlier for complex navigation after 1-2 failed manual strategies. Be extra cautious with warp tile mechanics post-transition.
