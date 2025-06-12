@@ -21,7 +21,7 @@
 
 ### E. Active Goals (for planning reference)
 - **Primary Goal:** Defeat Brock and earn the Boulder Badge.
-- **Secondary Goal:** Find a way to earn money to prepare for Brock.
+- **Secondary Goal:** Train SPROUT and PIP on Route 22 to prepare for Brock, and earn money.
 - **Tertiary Goal:** Explore reachable unseen tiles in Viridian City.
 
 ## II. Game Mechanics & Rules
@@ -70,6 +70,7 @@
 - Bug Catcher (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (31,34) in Viridian Forest. (Marker ☠️ set)
 - Cooltrainer F (ID 5, LASS) at (3,42) in Viridian Forest. (Marker ☠️ set)
 - Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest (battle triggered at (2,19)). (Marker ☠️ set)
+- Rival BLAZe (Route 22, (30,5)) - Defeated SPEAROW Lv9, EEVEE Lv8. Earned ¥280. (Marker ☠️ set)
 
 ### D. Important NPC Information & Key Dialogue
 - Viridian Old Man (ID 5, now at (20,14)): Taught catching, unblocked path N. (Marker ✅ set)
