@@ -101,3 +101,7 @@
     - Youngster at (6,26) is not a trainer. Gave player x1 Potion and mentioned Poké Marts sell Poké Balls. (Interacted at turn 397)
 
 - SPARKY (Pikachu) defeated a wild Pidgey (Lv4) on Route 1 at (13,23). SPARKY gained 31 EXP (222 -> 253).
+
+## Future Agent Ideas (Post-Reflection Turn 410)
+- Pathfinding Agent: Takes start/end coordinates, outputs button presses, handles Pikachu's 2-press rule near player.
+- Exploration Prioritizer Agent: Analyzes unseen tiles, undiscovered map connections, and unvisited warps to suggest next exploration target.
