@@ -143,3 +143,7 @@
 
 # Viridian Forest North Gate Navigation (Turn 6753)
 *   Attempt to move Up from (5,2) to (5,1) was blocked; tile (5,1) is impassable from the south despite being listed as a warp. Will try warp at (6,1) instead.
+
+# Route 2 North Arrival (Turn 6755)
+*   Arrived on Route 2 North (map 13) at (4,11) from Viridian Forest North Gate (map 47) warp at (6,1).
+*   Path Segment 4: Navigate Route 2 North to Pewter City entrance (map edge at (9,1) or (10,1)).
