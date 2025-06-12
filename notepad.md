@@ -107,3 +107,5 @@
 - Exploration Prioritizer Agent: Analyzes unseen tiles, undiscovered map connections, and unvisited warps to suggest next exploration target.
 
 - SPARKY (Pikachu) defeated a wild Pidgey (Lv2) on Route 1 at (16,23). SPARKY gained 15 EXP (253 -> 268).
+
+- SPARKY (Pikachu) defeated a wild Rattata (Lv2) on Route 1 at (14,26). SPARKY gained 16 EXP (268 -> 284).
