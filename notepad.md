@@ -90,3 +90,5 @@
 - (16,9) impassable (blocked westward from (17,9)).
 - (26,8) impassable (agent path failed).
 - Item at (2,32) - GSI says 'reachable'. Movement blocked (2 attempts). Hypothesis: Needs 'A' interaction. (Marked 🚧, will change to 🅰️ if hypothesis is correct after testing).
+
+- Defeated Bug Catcher (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (31,34) in Viridian Forest. (Turn 1105)
