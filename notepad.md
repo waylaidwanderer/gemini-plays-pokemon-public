@@ -91,3 +91,8 @@
 - Attempted to heal SPARKY multiple times (at least 5 distinct interaction sequences) by standing at (4,3) or (4,4) and interacting with Nurse Joy at (4,2).
 - Failures involved dialogue disappearing, being pushed back, or no healing occurring.
 - Current hypothesis: The interaction sequence from (4,3) or (4,4) is ineffective. A new approach is needed, or I should temporarily abandon healing here.
+
+## Healing Attempts at Viridian Pokécenter (Turns 690-700)
+- Attempted to heal SPARKY multiple times (at least 5 distinct interaction sequences) by standing at (4,3) or (4,4) and interacting with Nurse Joy at (4,2).
+- Failures involved dialogue disappearing, being pushed back, or no healing occurring.
+- Current hypothesis: The interaction sequence from (4,3) or (4,4) is ineffective. A new approach is needed, or I should temporarily abandon healing here.
