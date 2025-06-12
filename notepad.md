@@ -107,3 +107,5 @@
 - SPARKY (Pikachu) defeated a wild Rattata (Lv2) on Route 1 at (14,26). SPARKY gained 16 EXP (268 -> 284).
 
 - SPARKY (Pikachu) defeated a wild Pidgey (Lv3) on Route 1 at (13,25). SPARKY gained 23 EXP (284 -> 307).
+
+- SPARKY (Pikachu) defeated a wild Pidgey (Lv3) on Route 1 at (15,23). SPARKY gained 23 EXP (307 -> 330).
