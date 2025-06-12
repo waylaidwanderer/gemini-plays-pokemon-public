@@ -83,3 +83,6 @@
 *   **Attempt #7a (Manual Pathing to (6,19)):** Succeeded. Player at (7,19).
 *   **Attempt #7a (Manual Pathing to (19,19) from (7,19)):** FAILED. Blocked by impassable (19,19).
 *   **Attempt #7b (Manual Pathing to (19,17)):** Plan: From (7,19) facing Right: Up (turn), Up (to 7,18), Up (to 7,17), Right (turn), Right x11 (to 18,17), Right (to 19,17). Will validate.
+
+*   **Attempt #7b (Manual Pathing to (19,17) from (7,19)):** FAILED. Blocked by Cool Trainer F (ID 1) at (9,16) when trying to move from (8,16) to (9,16). Player at (8,16).
+*   **Attempt #7c (Manual Pathing to (19,17) - Segment 1 to (12,17)):** Plan: From (8,16) facing Right: Down (to 8,17), Right (turn), Right x4 (to 12,17). Will validate.
