@@ -102,10 +102,6 @@
 
 - SPARKY (Pikachu) defeated a wild Pidgey (Lv4) on Route 1 at (13,23). SPARKY gained 31 EXP (222 -> 253).
 
-## Future Agent Ideas (Post-Reflection Turn 410)
-- Pathfinding Agent: Takes start/end coordinates, outputs button presses, handles Pikachu's 2-press rule near player.
-- Exploration Prioritizer Agent: Analyzes unseen tiles, undiscovered map connections, and unvisited warps to suggest next exploration target.
-
 - SPARKY (Pikachu) defeated a wild Pidgey (Lv2) on Route 1 at (16,23). SPARKY gained 15 EXP (253 -> 268).
 
 - SPARKY (Pikachu) defeated a wild Rattata (Lv2) on Route 1 at (14,26). SPARKY gained 16 EXP (268 -> 284).
