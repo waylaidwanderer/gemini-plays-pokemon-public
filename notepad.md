@@ -41,16 +41,10 @@
 *   **Pewter City East Exits:** Confirmed that all tested eastern edge tiles in Pewter City ((40,17), (40,18), (40,19), (40,20)) lead to the *lower path* of Route 3. The upper path is not accessible via these specific exits.
 *   **Current Strategy for Upper Path Access:** Intra-map navigation on Route 3 is the primary method to access different elevations. Avoid assuming inter-map travel is needed unless all intra-map options are exhausted.
 
-# Route 3 - Upper Plateau & Unseen Tiles (Turn 7065)
-*   **Target:** Explore remaining unseen tiles on Route 3's upper plateau, specifically (25,5) and (25,6).
-*   **Access:** Successfully reached the upper plateau by navigating from the lower path: (11,9) -> (12,9) -> (12,8) -> (12,7).
-*   **Current Status:** At (20,5) in battle with LASS (Cool Trainer F, ID 6) at (21,5). Defeating her is required to access the path further east towards (25,5) and (25,6).
-*   **Next Steps Post-Battle:**
-    1.  Move to (24,5) (past defeated LASS).
-    2.  Explore (25,5).
-    3.  Move to (24,6).
-    4.  Explore (25,6).
-    5.  Then, proceed east on Route 3 towards Mt. Moon.
+# Route 3 Exploration Update (Turn 7082)
+*   **Current Focus:** Exploring eastern Route 3. Currently at (20,10) in dialogue with Youngster (ID 7) at (21,10).
+*   **Unseen Tiles (26,5), (26,6):** Still listed as reachable. However, defeated trainers LASS (ID 6 at 21,5) and Youngster (ID 5 at 20,6) block direct access on the upper plateau (Y=5, Y=6).
+*   **Revised Strategy for Unseen Tiles:** After dealing with Youngster (ID 7), will attempt to find an alternative path to the upper plateau (Y=5, Y=6) to access (26,5) and (26,6). If no clear path is found due to NPC blockages, will prioritize reaching Mt. Moon.
 
 # Route 3 Navigation Lessons (Turn 7077)
 *   **Defeated Trainers Impassable:** Confirmed after multiple attempts (movement, stun tool) that defeated trainers (e.g., LASS at (21,5), Youngster at (20,6) on Route 3) act as impassable obstacles, even if their tile is 'ground'. This contradicts initial assumptions about 'ground (occupied by...)' tiles being traversable.
