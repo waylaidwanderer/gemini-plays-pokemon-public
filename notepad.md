@@ -93,3 +93,6 @@
     *   OAKSLAB_POKEDEX2 at (4,2).
 *   Reachable Unseen Tiles: (1,11), (2,12), (4,12), (5,12), (7,12), (8,12), (10,12).
 *   Goal: Explore all unseen tiles. Starting with (1,11).
+
+## Type Matchup Changes (Learned):
+*   Ghost-type moves are SUPER EFFECTIVE against Psychic-type Pokémon. (Learned from OAKSLAB_SCIENTIST1 at (3,11) on Turn 264)
