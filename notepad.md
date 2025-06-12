@@ -66,3 +66,6 @@
 - PALLETTOWN_GIRL NPC located at (3,11).
 - PALLETTOWN_PLAYERSHOUSE_SIGN at (4,6).
 - PALLETTOWN_SIGN at (8,10).
+
+- Professor Oak's Lab entrance (Warp): (14,6) on Pallet Town map.
+- PALLETTOWN_RIVALSHOUSE_SIGN at (12,6).
