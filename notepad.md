@@ -14,20 +14,22 @@
 *   **Poison Damage:** Outside battle, poisoned Pokémon lose 1 HP every 4 steps.
 *   **Notepad `replace` Action:** The `old_text` argument MUST be an *exact* character-for-character match of the text to be replaced. Use error message suggestions or copy directly from the notepad.
 
-# Agent Usage Plan & Review Notes (Turn 6371 Update)
-*   **`map_analyzer_agent`:** Primary tool for map queries. Generally reliable but can give very long paths. Use for path validation and map feature identification, but always verify its output.
-*   **`move_validator_agent`:** (DELETED) Proven unreliable. Decision: Stopped using.
-*   **`specialized_exploration_agent`:** Intended for complex exploration planning. Evaluate its effectiveness when a suitable complex area is encountered.
-*   **`scripted_event_tracker_agent`:** Tracks proximity to known scripted events. Use when approaching areas with known or suspected event triggers.
-*   **`pp_management_agent`:** Failed its only use. Rely on manual PP assessment for now. Avoid using this agent until its reliability can be re-evaluated.
-*   **`team_builder_agent`:** Suggests team compositions for major battles. Use for Gyms, Rival, E4.
-*   **`battle_log_analyzer_agent`:** Parses battle text. Use after significant battles.
-*   **`notepad_query_agent`:** Queries notepad content.
-*   **`npc_interaction_planner_agent`:** Plans NPC interactions. (Usage count corrected to 12).
-*   **`battle_advisor_agent`:** (DELETED or never properly defined) Plan to ensure it's not taking an agent slot.
-*   **`training_spot_advisor`:** Defined. Consider using for Viridian Forest.
-*   **Agent Limit:** 9 agents currently defined. Plan definitions/deletions proactively.
-*   **Input Data:** Ensure agents with `agent_can_run_code: true` are NOT fed `map_xml_string` or `world_knowledge_graph_json_string` as direct inputs.
+# Agent Usage Plan & Review Notes (Turn 6545 Update)
+*   **Defined Agents (8/10):**
+    *   `map_analyzer_agent`: Primary for map queries. *Critique: Can give long paths/error; prompt updated Turn 6545.*
+    *   `scripted_event_tracker_agent`: For known event triggers.
+    *   `team_builder_agent`: For major battle team comp.
+    *   `battle_log_analyzer_agent`: Parses battle text.
+    *   `notepad_query_agent`: Queries notepad.
+    *   `npc_interaction_planner_agent`: Plans NPC interactions.
+    *   `training_spot_advisor`: (Untested) Suggests training spots. *To Do: Test soon.*
+    *   `path_segmenter_agent`: (Untested) Breaks long paths.
+    *   `emergency_exit_planner_agent`: (Untested) Finds closest exits.
+*   **Deleted Agents:** `move_validator_agent`, `pp_management_agent`, `specialized_exploration_agent`.
+*   **Key Reminders:**
+    *   Verify `map_analyzer_agent` output.
+    *   Agents with `agent_can_run_code: true` automatically get `map_xml_string` & `world_knowledge_graph_json_string`; do not pass as input.
+*   **Future Agent Ideas:** `HM_usage_advisor_agent` (for Cut/Surf locations).
 
 # Map Marker Legend
 💥 (Event Trigger), 🎯 (Key Nav Point), ❗ (Risky Zone/Obstacle), 💁 (Event NPCs), ☠️ (Defeated Trainer), 🏛️ (Key Building/Gym), 📍 (Path Start/Interesting Point), 🧱 (Impassable Obstacle), 🚪 (Used Warp), ℹ️ (Info NPC), 🌱 (Cuttable Tree), ⬆️ (Access Point), 🚧 (Ledge - Down only)
