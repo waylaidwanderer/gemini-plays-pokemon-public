@@ -8,13 +8,10 @@
 ## Active Pokémon Party
 1. SPARKY (PIKACHU): Lv7 (26/26 HP, EXP: 442/512 to Lv8) | Moves: THUNDERSHOCK, GROWL, QUICK ATTACK
 
-## Current Objectives & Plans
+## Current Objectives
 - **Primary:** Defeat Brock, the Pewter City Gym Leader.
-  - *Plan:* Locate Pewter City (likely north of Viridian, through Viridian Forest). Train SPARKY towards Lv12 cap. Acquire more Pokémon once Poké Balls are obtained.
 - **Secondary:** Acquire Poké Balls from Viridian City's Poké Mart.
-  - *Plan:* Systematically explore Viridian City, prioritizing unvisited warps and unseen areas that might house the Poké Mart.
-- **Tertiary:** Explore Viridian City for other items, information, and trainers.
-  - *Plan:* Interact with reachable NPCs and objects. Battle available trainers if encountered (none so far in Viridian).
+- **Tertiary:** Explore Viridian City for other items and information.
 
 ## Game Mechanics & Rules Summary
 - Battle Style: Set. No items in battle.
