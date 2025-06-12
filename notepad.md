@@ -77,3 +77,5 @@
 - **Strategic Advisor Agent:** Analyzes upcoming challenges (e.g., Gym Leaders), suggests team compositions/strategies based on known data. Requires code execution.
 
 - Poison-type is super effective against Bug-types. Bug-type is no longer super effective against Poison-types. (Source: Oak's Lab Girl at (2,9))
+
+- Scientist 2 at (9,11) repeated Scientist 1's dialogue (Ghost > Psychic).
