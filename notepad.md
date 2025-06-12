@@ -73,4 +73,4 @@
 
 # Pewter City Navigation (Update Turn 5431)
 *   Player at (34,21) was blocked by sign at (34,20). Event tracker warned of proximity to Youngster trigger at (34,19). 
-*   New plan: Move Down to (34,22) (Pikachu's tile, requires 2 Down presses due to facing Up). Then Left to (33,22), then Up to (33,19). Will use `scripted_event_tracker_agent` before moving from (33,19) towards (34,19) due to known trigger at (34,19).
+*   Attempting path along Y=19: (33,18) -> (33,19) -> (34,19) [TRIGGER] -> (35,19) -> (36,19) -> (37,19). Will re-evaluate from (37,19) or if Youngster event triggers.
