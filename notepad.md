@@ -154,3 +154,7 @@
 # Pewter City Arrival (Turn 6759)
 *   Arrived in Pewter City (map 2) at (20,36) from Route 2 North.
 *   Next objective: Locate Pewter City Gym.
+
+# Pewter City Navigation Update (Turn 6762)
+*   Attempt to move Up from (20,31) to (20,30) blocked by sign (PEWTERCITY_TRAINER_TIPS).
+*   Revised path to Pokecenter (14,26): (20,31) -> Left to (19,31) -> Up to (19,26) -> Left to (14,26).
