@@ -73,12 +73,10 @@
 *   `route_planner_agent` defined.
 *   `rom_hack_mechanic_analyzer_agent` defined.
 
-## Oak's Lab - Rival Battle Trigger Issues
-*   Interacting with Pixel at (8,5) multiple times (approx. 5 attempts from turn ~200 to ~204) after he says "Heh, my POKéMON looks a lot stronger." only repeats his dialogue or results in a clear screen without starting the battle.
-*   Pressing 'A' when his dialogue is on screen, or when the screen is clear after his dialogue, has not triggered the battle.
-*   Hypothesis: Need to interact with Prof. Oak at (6,3) or attempt to leave the lab via (6,12) to progress.
-*   Interacting with Prof. Oak at (6,3) (1 attempt on turn 208) only repeated his dialogue to go to the next town. Failed to trigger battle.
-*   New Hypothesis: Attempting to leave the lab via (6,12) will trigger the rival battle with Pixel.
+## Oak's Lab - Rival Battle (Resolved)
+*   The rival battle with Pixel was triggered by attempting to leave Oak's Lab via the exit at (6,12) after receiving Pikachu.
+*   Pixel was defeated.
+*   Professor Oak then gave me the Pokédex.
 
 ## Reflection Notes (Turn 207)
 *   Revisit custom agent creation soon. Currently, ideas are noted but no agents created.
