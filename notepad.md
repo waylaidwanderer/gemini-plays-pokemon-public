@@ -50,4 +50,4 @@
 
 # EXP Tracking & Observations (Post-Critique)
 *   **Flaree (Vulpix):** After defeating wild Caterpie (Lv4) in Viridian Forest (Turn 5820), Flaree gained 14 EXP. Old EXP: 718. New EXP: 732. Still Lv8.
-*   **SPBARKY (Pikachu):** Game displayed 'SPBARKY gained 14 EXP. Points!' after same battle. However, SPBARKY is Lv12 (current cap: 12) and its EXP should not change. Will verify by checking EXP value before/after next battle if SPBARKY participates or is in party when EXP is awarded.
+*   **SPBARKY (Pikachu):** Game displayed 'SPBARKY gained 14 EXP. Points!' after Caterpie battle (Turn 5820). However, SPBARKY is Lv12 (current cap: 12). Verified EXP value before (1728) and after (1728) the battle; no actual EXP was gained, confirming the rule.
