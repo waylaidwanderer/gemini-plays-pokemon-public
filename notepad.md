@@ -25,7 +25,6 @@
 *   **Key Reminders:**
     *   Verify `map_analyzer_agent` output.
     *   Agents with `agent_can_run_code: true` automatically get `map_xml_string` & `world_knowledge_graph_json_string`; do not pass as input.
-*   **Future Agent Ideas:** `HM_usage_advisor_agent` (for Cut/Surf locations).
 
 # Map Marker Legend
 💥 (Event Trigger), 🎯 (Key Nav Point), ❗ (Risky Zone/Obstacle), 💁 (Event NPCs), ☠️ (Defeated Trainer), 🏛️ (Key Building/Gym), 📍 (Path Start/Interesting Point), 🧱 (Impassable Obstacle), 🚪 (Used Warp), ℹ️ (Info NPC), 🌱 (Cuttable Tree), ⬆️ (Access Point), 🚧 (Ledge - Down only)
