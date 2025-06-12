@@ -114,3 +114,6 @@
 
 ## Agent Ideas (Review & Action)
 - Review existing agent ideas ('HM Usage Advisor', 'Pokédex Completion Strategist', 'Shop Analyzer'). Decide to implement or discard to reduce clutter. (Turn 1500)
+
+## Agent Ideas (Review & Action)
+- Review existing agent ideas ('HM Usage Advisor', 'Pokédex Completion Strategist', 'Shop Analyzer'). Decide to implement or discard to reduce clutter. (Turn 1507)
