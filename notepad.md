@@ -93,3 +93,6 @@
     - Player received ¥175 for winning.
     - Professor Oak confirmed SPARKY dislikes Poké Balls and will follow the player outside.
     - Player can talk to SPARKY to check its mood.
+
+## Pathing Lessons & Observations
+- **Pikachu on Warp Tiles:** If Pikachu is standing on a warp tile, and I need to move onto that tile (e.g., to pass through or if it's on my direct path), I must be extremely careful. If I am not facing Pikachu, the first directional press towards Pikachu will only turn me. The second press will move me onto the tile. If that tile is a warp, I will warp. This means I need to plan routes around Pikachu if he's on a critical warp tile I don't want to use, or if the warp is my destination, account for the two-press interaction if not facing him. Repeatedly entering Oak's Lab from Pallet Town was due to this; Pikachu was on (13,12) which is the Lab warp, and my path from (13,13) involved stepping onto (13,12).
