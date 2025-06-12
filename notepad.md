@@ -51,3 +51,7 @@
 *   **Simplify Pathing:** When a direct path is clear, avoid over-validating. Execute longer movement sequences.
 *   **Map Awareness:** Continuously reinforce mental model of the current map, especially locations of known persistent obstacles. Be aware of dynamic obstacles like NPCs and scripted events.
 *   **Youngster Escort:** This event is a major impediment. If triggered, pathing needs to restart from the Gym entrance. Need a strategy to avoid or mitigate this event if possible. (Current thought: try to stay south of Y=17 when approaching the far east of Pewter City).
+
+# Contingency Planning (Post-Critique)
+*   If Attempt #8 to reach Route 3 fails, I MUST abandon the Route 3 tertiary goal. Alternative actions: 1) Find other ways to get funds (e.g., re-explore Route 2 for missed trainers/items). 2) Assess if current team is strong enough to challenge Brock directly. 3) Explore south from Pewter City more thoroughly.
+*   If `exploration_planner_agent` fails again, its system prompt needs review for potential improvements or the agent might be deleted.
