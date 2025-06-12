@@ -108,3 +108,17 @@
 - Ledges can only be jumped *down*. They cannot be climbed *up*.
 - If you are on a ground tile (X, Y_current) and an adjacent tile (e.g., (X, Y_current-1) for 'Up') is a 'ledge' type tile that would represent the higher elevation of that ledge, you cannot move onto it from the lower ground.
 - To jump down a ledge: You must be on the higher ground adjacent to the ledge tile. For example, if (X, Y_Ledge) is the ledge tile and (X, Y_Ledge+1) is the ground below it, you'd typically be on ground at (X, Y_Ledge-1), move Down onto (X, Y_Ledge), and the game would then move you to (X, Y_Ledge+1).
+
+## Agent & Strategy Updates (Turn 800 - Post-Critique)
+- **`route_pathfinder` Agent:** Will stop using this agent due to consistent failures. Manual pathing or a new/fixed agent is needed for complex routes.
+- **`exploration_prioritizer_agent`:** Will also avoid using this agent for now due to its history of unhelpful suggestions.
+- **Game State Information (GSI):** GSI is the absolute source of truth for dynamic data like NPC locations. Will prioritize GSI over notepad memory for such info.
+- **Notepad for Navigation:** Will make a better effort to use the notepad for planning detailed multi-step navigation paths, especially in complex areas like Route 1.
+
+## Route 1 Navigation Plan (Attempt 3 - From (6,15) - Turn 800)
+Objective: Reach Viridian City North Entrance (12,1).
+Path:
+1. From (6,15) -> (13,15): Move Right x7.
+2. From (13,15) -> (13,5): Move Up x10 (passes north of ledge at (13,6)).
+3. From (13,5) -> (12,5): Move Left x1.
+4. From (12,5) -> (12,1): Move Up x4.
