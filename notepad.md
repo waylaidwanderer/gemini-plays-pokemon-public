@@ -1,8 +1,3 @@
-# Current Objectives
-*   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
-*   **Secondary Goal:** Acquire sufficient funds to purchase essential supplies. (Current Money: ¥156)
-*   **Tertiary Goal:** Explore Viridian Forest for trainers/items to acquire funds.
-
 # Current Plan - Viridian Forest Exploration
 *   **Objective:** Explore Viridian Forest for trainers and items to acquire funds and EXP.
 *   **Reason:** Accidentally re-entered Viridian Forest while attempting to explore Route 2. This area still offers opportunities for progress.
