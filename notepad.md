@@ -68,9 +68,12 @@
 ### Agent Development - Future Consideration:
 -   **Pokédex Completion Strategist**: Suggests where to hunt for new Pokémon. (Idea retained, low priority)
 
-### Agent Review TODOs:
-- `map_exploration_strategist_agent`: Review prompt/code due to frequent failures. Default to manual pathing if unreliable. **Decision: Review prompt after exploring Nidoran House, before seeking Gym.**
-- `item_finder_agent`: Review prompt for better city building identification. Review utility - may delete if not serving purpose. **Decision: Review prompt and utility after exploring Nidoran House. If still unreliable, will delete.**
+### Agent Review TODOs (Immediately after Pewter Gym):
+- `map_exploration_strategist_agent`: Review system prompt and internal logic due to past failures. Focus on pathfinding reliability and target prioritization. If still unreliable, will rely on manual pathing.
+- `item_finder_agent`: Review system prompt for better city building identification. Assess overall utility; consider deletion if not consistently valuable.
+- `wkg_transition_recorder_agent`: **Crucial Workflow Note:** This agent outputs a *list* of `manage_world_knowledge` tool calls. I *must* execute all subsequent calls it generates to ensure WKG integrity. Past failures were due to not processing its full multi-step output. Monitor closely for any further failures in its output generation. If it fails, investigate logic/schema adherence.
+- `capability_checker_agent`: Identify an opportunity to test this agent or reassess its necessity.
+- Consider implementing or discarding the 'Pokédex Completion Strategist' idea.
 
 ### General TODOs:
 - Systematically mark used warps (both ends) with 🚪 emoji, noting destination map and coordinates/entry point, using WKG for reference. **(Active)**
