@@ -97,3 +97,5 @@
 - **PAR (Paralyze):** Pokémon moves might misfire. Stays paralyzed after battles. Cure: PARLYZ HEAL.
 
 - **exploration_prioritizer_agent (Turn 621):** Suggested exploring the Pokémon Center warp (24,26) in Viridian City again, immediately after exiting it. Still unhelpful. (Attempt 2 of this type of failure).
+
+- Girl - Viridian City (18,10) - "Oh Grandpa! Don't be so mean! He hasn't had his coffee yet." (referring to Old Man at (19,10)).
