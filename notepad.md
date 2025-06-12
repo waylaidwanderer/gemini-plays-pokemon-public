@@ -62,3 +62,6 @@
 
 ## World Knowledge Graph Notes:
 *   Record inter-map transitions (map boundary, warps) IMMEDIATELY using `manage_world_knowledge`.
+
+## Pallet Town NPCs & Interactions:
+*   **Daisy (Rival's House):** Told me Pixel is looking for me and went to Prof. Oak's Lab.
