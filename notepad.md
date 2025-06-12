@@ -68,10 +68,10 @@
     3.  From around (17,15), move north into the *western* grass strip (e.g., to (17,10) or (17,11)).
     4.  Explore west and east from this entry point to clear all unseen tiles on Y=10.
 
-# Current Plan - Route 22 Exploration (Turn 6084 - Revised Corrected Strategy II)
+# Current Plan - Route 22 Exploration (Turn 6085 - Revised Corrected Strategy III)
 *   **Objective:** Reach all 14 unseen tiles on Y=10 (located in western/central northern grass strip).
 *   **Current Position:** (17,15) on lower path.
-*   **Strategy Steps (New Conclusion - Turn 6084):**
+*   **Strategy Steps (New Conclusion - Turn 6085):**
     1.  (Done) Be on the lower path (Y=15 or Y=16). Currently at (17,15).
     2.  Travel EAST along the lower path from (17,15) to (30,15). (Current action)
     3.  Move North from (30,15) to (30,13) (ground), then further north to (30,6) (ground, where rival SPB was).
