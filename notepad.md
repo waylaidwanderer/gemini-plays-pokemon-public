@@ -110,9 +110,11 @@
 7.  `exploration_helper_agent` (Defined Turn 2226)
 
 ### B. Agent Performance Notes & Improvement Plans
-- **`pathfinding_agent`:** Prompt updated (Turn 2261) to handle ledges correctly. Monitor performance.
-- **`wkg_transition_recorder_agent`:** Prompt updated (Turn 2261) for better node handling/naming. Monitor performance, especially for existing nodes and `map_edge`.
+- **`pathfinding_agent`:** Prompt updated (Turn 2261) to handle ledges correctly. Monitor performance. Previous failures with ledges (e.g., Turn 2243, 2246, 2270, 2272) caused significant delays.
+- **`wkg_transition_recorder_agent`:** Prompt updated (Turn 2261). Still needs significant improvement to query WKG for existing nodes by coordinates and use actual IDs to avoid manual multi-step edge creation. Critical for streamlining WKG updates.
 - **`exploration_helper_agent`:** Untested. *PRIORITY TO USE* for Route 22 unseen tiles.
+- **`capability_checker_agent`:** Untested. Seek opportunity to test.
+- **`item_finder_agent`:** Last used 9 hours ago. Review prompt and utility for relevance.
 - **`capability_checker_agent`:** Untested. Seek opportunity to test.
 - **`item_finder_agent`:** Untested. Prompt could be refined for building types.
 - **`battle_strategist_agent`:** Untested.
