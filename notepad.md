@@ -120,3 +120,7 @@
 *   **Low-Usage Agent Evaluation:** Evaluate `team_builder_agent` and `battle_log_analyzer_agent` for utility or design refinement.
 *   **Map Marker Reminders:** Mark defeated trainers (e.g., Pewter Gym) and key used warps (e.g., Viridian Forest exits) more consistently.
 *   **Hindsight Learning:** Utilize `map_analyzer_agent` earlier for complex navigation after 1-2 failed manual strategies. Be extra cautious with warp tile mechanics post-transition.
+
+# Viridian Forest Navigation Update (Turn 6712 - Agent Path Segment Failed)
+*   Attempt to move Up from (17,2) to (17,1) as part of agent path was blocked; tile (17,1) is impassable.
+*   Resorting to `map_analyzer_agent` to find a path from (17,2) to (2,1).
