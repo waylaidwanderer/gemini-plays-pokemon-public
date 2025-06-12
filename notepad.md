@@ -89,3 +89,5 @@
 - **Party Optimizer Agent:** Analyzes Pokémon party, upcoming challenges (gyms, routes), and suggests training locations, moveset changes, or potential team compositions.
 - **Inventory Manager Agent:** Tracks inventory, suggests items to buy/sell based on current needs, money, and game progression.
 - **Battle Analyst Agent:** Parses battle logs (if obtainable) to identify opponent patterns, suggest counter-strategies, or evaluate move effectiveness.
+
+- Little Girl - Viridian School House (5,6) - Confirmed Pokémon evolve by training, no trade needed.
