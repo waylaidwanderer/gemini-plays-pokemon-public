@@ -129,3 +129,5 @@
 - Brock's Lead: GEODUDE (Offense-driven, can throw rocks with high accuracy).
 - Brock's Other: ONIX (All-defense, watch out for its BIND attack).
 - Warning: Electric attacks are harmless to Brock's Ground-type Pokémon (bad for Pikachu).
+
+- Game State Data: Treat `reachable: no` for warps/connections as absolute truth. Do not attempt to access until status changes.
