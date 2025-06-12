@@ -55,7 +55,7 @@
 ### Defined Agents:
 1.  **Level Cap Compliance Agent** (`level_cap_compliance_checker`): Checks Pokémon levels against current cap.
 2.  **Item Finder Agent** (`item_finder_agent`): Locates items/buildings in towns. Limited use in current forest environment.
-3.  **Viridian Forest Navigator** (`viridian_forest_navigator`): **UNRELIABLE for Viridian Forest.** Has provided multiple flawed paths. Avoid using for this map. (Failures: Turn 979 - path to (26,8) impassable; Turn 959 - path to (12,28) actually led to (21,28); Turn 1009 - path from (33,2) to (12,13) blocked by known impassable (16,2)).
+3.  **Viridian Forest Navigator** (`viridian_forest_navigator`): DELETED due to consistent unreliability in Viridian Forest.
 4.  **Trainer Battle Strategist** (`trainer_battle_strategist`): Analyzes teams for battle strategy.
 
 ### New Agent Ideas (To Be Defined Later):
