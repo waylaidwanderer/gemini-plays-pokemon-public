@@ -148,4 +148,4 @@
 
 ### EXP Mechanics Update (Turn 2063 - Route 22)
 - EXP. All seems to be active. After defeating a wild Mankey (Lv4) with PIP, SPARKY (Lv12, at cap) also received an 'gained EXP' message (21 EXP). PIP (Lv7) gained 21 EXP (287 -> 308).
-- **Hypothesis:** Pokémon at the level cap will still display an EXP gain message, but their actual EXP value will not change. Need to verify SPARKY's EXP value (should remain 1728) next time I check party stats to confirm this Hard Mode rule.
+- **CONFIRMED:** Pokémon at the level cap (SPARKY, Lv12) will display an EXP gain message (e.g., +21 EXP from Mankey, +16 EXP from Nidoran♀), but their actual EXP value does NOT change (remains 1728). This Hard Mode rule is verified.
