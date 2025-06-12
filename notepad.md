@@ -12,7 +12,7 @@
 
 ### C. Current Location & Immediate Objective
 - Location: Viridian City (ID: 1), at (28,19) facing Up.
-- Immediate Objective: Unstun Youngster2. Move to (27,19). Then, target VIRIDIANCITY_GAMBLER1 at (31,9) for battle to earn money & EXP. If Gambler is problematic, explore 19 reachable unseen tiles.
+- Immediate Objective: Explore reachable unseen tiles in Viridian City, starting with (7,12). Re-evaluate strategy for earning money.
 
 ### D. Training Priorities
 - SPROUT (ODDISH): Lv7 -> Needs significant training for Brock (Rock/Ground).
