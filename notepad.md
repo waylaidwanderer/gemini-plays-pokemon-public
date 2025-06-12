@@ -33,7 +33,7 @@
 
 # Agent Management & Usage Plan
 *   **Agents to Define:**
-    *   `potion_purchase_optimizer_agent`: Define next turn. (Priority action from critique)
+    *   `potion_purchase_optimizer_agent`: Defined.
 *   **Agents to Use Proactively:**
     *   `scripted_event_tracker_agent`: For *every step* in eastern Pewter City near Youngster zones.
     *   `route_progress_analyzer_agent`: Upon reaching Route 3.
