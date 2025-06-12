@@ -91,3 +91,5 @@
 - New Agent Idea: 'Trainer Battle Strategist' - could analyze enemy teams and suggest matchups/moves for complex fights. Requires careful schema and prompt design.
 
 - Viridian Forest: Agent `viridian_forest_navigator` path to (26,8) failed. Tile (26,8) is impassable. This is the second flawed path from this agent. (Turn 979).
+
+- Viridian Forest: Tile (16,9) confirmed impassable (blocked westward movement from (17,9)).
