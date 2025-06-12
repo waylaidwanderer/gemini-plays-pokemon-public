@@ -15,16 +15,18 @@
 *   FLAREE (VULPIX): Lv8 (6/26 HP) - Critically low HP. Must be healed.
 *   SPROUT (ODDISH): Lv12 (33/37 HP) (Level Cap Reached)
 
-# Pewter City Navigation Challenge: Reaching Route 3 (East Exit) - REVISED
+# Pewter City Navigation Challenge: Reaching Route 3 (East Exit)
 *   **Current Location:** (12,19), facing Right. Pikachu at (11,19).
-*   **CRITICAL UPDATE:** Youngster (ID 5) has moved to (18,19) as per Game State Information (Turn 5490). This invalidates all previous strategies based on him being at (36,17).
-*   **OBSOLETE - Youngster (ID 5) Escort Event (Old info based on (36,17)):**
-    *   ~~NPC Location: (36,17)~~
-    *   ~~Behavior: Triggers an escort to the Gym entrance. Proximity, facing, and movement vector likely play a role. Event triggered when moving from (37,19) to (38,19) while Youngster was at (36,17).~~
-    *   ~~Marked potential trigger zones (OBSOLETE): (36,17), (35,17), (30,19), (34,19), (36,18), (38,19), (38,20).~~
-*   **New Strategy (Youngster at (18,19)):** Must navigate north of the Youngster before heading east.
-    *   Current plan: From (12,19), move to (12,17). Then proceed east along Y=17.
-    *   Use `scripted_event_tracker_agent` frequently, defining the event trigger based on the Youngster's *current* coordinates (18,19) with a suitable radius (e.g., r=3).
+*   **Youngster (ID 5) Position:** Game State confirms Youngster is at (36,17). Previous critique about him being at (18,19) was incorrect.
+*   **Youngster (ID 5) Escort Event (Info based on (36,17)):**
+    *   NPC Location: (36,17).
+    *   Behavior: Triggers an escort to the Gym entrance. Proximity, facing, and movement vector likely play a role. Event triggered when moving from (37,19) to (38,19) while Youngster was at (36,17).
+    *   Marked potential trigger zones (worth caution): (36,17), (35,17), (30,19), (34,19), (36,18), (38,19), (38,20). (30,19) is also a drop-off point.
+*   **Strategy to reach Route 3:**
+    1.  Navigate from current position (12,19) to (30,19). This western part of Pewter is tricky with impassable tiles. Will use `exploration_planner_agent` for this segment.
+    2.  From (30,19) [POTENTIAL TRIGGER], attempt northern route: (30,19) -> (30,16) -> (35,16).
+    3.  From (35,16), proceed east along Y=16 to (40,16), then south to Route 3 exit at (40,19).
+    4.  Use `scripted_event_tracker_agent` when navigating the eastern part of the city (X > 25), especially near known trigger zones and the Youngster at (36,17).
 
 # Agent Usage Plan
 *   **`scripted_event_tracker_agent`:** Use for *every step* when near Youngster (ID 5) at (18,19). Input his current sprite coordinates as the main trigger point with a radius (e.g., r=3).
