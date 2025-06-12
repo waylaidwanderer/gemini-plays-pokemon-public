@@ -71,3 +71,5 @@
 ## Rival's House Notes
 - Spoke to Daisy at (3,4). She said BLAZe is at Grandpa's lab.
 - Obtained Town Map from (4,4).
+
+- Professor Oak's Lab entrance (Warp): (13,12) on Pallet Town map. Leads to Oak's Lab (map_id 40) at (5,12) or (6,12).
