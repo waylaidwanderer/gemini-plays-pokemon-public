@@ -80,3 +80,8 @@
 - Poison-type is super effective against Bug-types. Bug-type is no longer super effective against Poison-types. (Source: Oak's Lab Girl at (2,9))
 
 - Scientist 2 at (9,11) repeated Scientist 1's dialogue (Ghost > Psychic).
+
+## Oak's Lab Exhaustion (Turn 178)
+- Interacted with OAKSLAB_POKEDEX2 at (4,2): "It's encyclopedia-like, but the pages are blank!". Same as POKEDEX1.
+- All interactable objects in Oak's Lab have now been checked (Rival, Poké Ball, 3 NPCs, 2 Pokédexes) without obtaining a Pokémon. 
+- Hypothesis: The trigger for obtaining a starter Pokémon is not a direct interaction with a static object in Oak's Lab as it currently is. It may require leaving the lab, Professor Oak returning, or another event occurring in Pallet Town.
