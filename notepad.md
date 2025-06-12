@@ -85,3 +85,7 @@
 - Interacted with OAKSLAB_POKEDEX2 at (4,2): "It's encyclopedia-like, but the pages are blank!". Same as POKEDEX1.
 - All interactable objects in Oak's Lab have now been checked (Rival, Poké Ball, 3 NPCs, 2 Pokédexes) without obtaining a Pokémon. 
 - Hypothesis: The trigger for obtaining a starter Pokémon is not a direct interaction with a static object in Oak's Lab as it currently is. It may require leaving the lab, Professor Oak returning, or another event occurring in Pallet Town.
+
+## Pallet Town Exploration (Post-Oak's Lab Attempt 1)
+- Interacted with PALLETTOWN_SIGN at (8,10): "PALLET TOWN - Shades of your journey await!". No event triggered.
+- Next step: Investigate the warp at (6,6) (Player's House entrance). Game state lists it as `num_visits: 0`, which is inconsistent with WKG. This is a priority.
