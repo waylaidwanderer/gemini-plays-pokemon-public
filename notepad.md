@@ -7,11 +7,15 @@
 *   **Current Location:** (17,19) in Pewter City.
 *   **Immediate Goal:** Reach Pewter Pokecenter at (14,26) to heal FLAREE (6/26 HP). See 'Pewter Pokecenter Access' plan below.
 *   **Youngster (ID 5) Status:** Currently at (36,17). He triggers an escort event if approached in eastern Pewter City (e.g., from (37,19), (38,19), (30,19)), moving player to (12,19).
-*   **Post-Healing Plan for Route 3 (East Pewter Exit at (40,19))**:
-    1.  Exit Pokecenter to (14,27).
-    2.  Explore eastward path from (14,27) along Y=27 or explore southern paths (e.g., via Y=31/32) to reach eastern Pewter.
-    3.  The path needs to circumvent the Youngster at (36,17).
-    4.  Use `scripted_event_tracker_agent` for path segments in eastern Pewter (X > 25) or near Youngster's coordinates.
+*   **Post-Healing Plan for Route 3 (East Pewter Exit at (40,19) - Revised Turn 5596)**:
+    *   Current position: (35,30) facing Up. Pikachu at (35,31).
+    *   Blockage Update: Tile (35,18) confirmed impassable by `move_validator_agent` despite XML indicating 'ground'. This blocks previous northern approach via Y=18.
+    *   The X=36 column is impassable from Y=21 down to Y=32.
+    *   **Current Plan (HIGH RISK of Youngster escort):**
+        1.  From (35,30), move North to (35,19). (11 steps Up)
+        2.  From (35,19), move East to (40,19) (Route 3 exit). Path: (35,19)->(36,19)->(37,19)->(38,19)->(39,19)->(40,19).
+        3.  This path directly crosses (36,19), which is adjacent to Youngster (36,17) and likely a trigger zone.
+        4.  Consider using `scripted_event_tracker_agent` for the segment from (35,19) eastward if this direct approach fails or to pre-check.
 *   **Known Pathing Obstacles in Western/Central Pewter (near Pokecenter/Gym):**
     *   (19,19) - Impassable (blocks eastward movement from Gym area pocket).
     *   (17,18) - Gym Warp.
