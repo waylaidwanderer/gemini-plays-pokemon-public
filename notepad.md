@@ -30,7 +30,7 @@
 # Map Marker Legend
 💥 (Event Trigger), 🎯 (Key Nav Point), ❗ (Risky Zone/Obstacle), 💁 (Event NPCs), ☠️ (Defeated Trainer), 🏛️ (Key Building/Gym), 📍 (Path Start/Interesting Point), 🧱 (Impassable Obstacle), 🚪 (Used Warp), ℹ️ (Info NPC), 🌱 (Cuttable Tree), ⬆️ (Access Point), 🚧 (Ledge - Down only)
 
-# Party Status (Turn 6257)
+# Party Status (Turn 6259)
 *   SPBARKY (PIKACHU): Lv12 (39/39 HP, EXP: 1728 - CAPPED)
 *   FLAREE (VULPIX): Lv9 (28/28 HP, EXP: 767)
 *   ODDISH (ODDISH): Lv12 (37/37 HP, EXP: 973 - CAPPED)
