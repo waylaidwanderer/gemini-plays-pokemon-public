@@ -49,13 +49,13 @@
 
 - Wild ODDISH Lv5 defeated in Viridian Forest (approx (19,38)). FLAREE used Ember (crit, super effective). Enemy used PoisonPowder, FLAREE poisoned. Message: SPBARKY gained 27 EXP (no change, still 1728, capped). FLAREE gained 27 EXP (781 -> 808).
 
-# Current Agent Path (map_analyzer_agent to Viridian Forest North Exit from (7,32)) - Attempt 6
-*   Reason: Previous manual pathing and agent attempts failed or were inefficient. FLAREE HP critical (12/28, poisoned). Agent provided a 146-step path.
-*   Strategy: Following agent path in segments.
-*   Full Path (from agent): (7,32) -> ... -> (2,1) [146 steps total]
-*   Segment 1 (Completed): (7,32) to (7,40) - 8 presses. FLAREE HP: 14/28 -> 12/28.
-*   Segment 2 (Current): (7,40) to (14,41) - 8 presses: ['Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right']
-*   FLAREE HP projection for Segment 2: Start 12/28 -> End 10/28.
+# Current Agent Path (Viridian Forest North Exit) - Attempt 6 (map_analyzer_agent)
+*   Reason: Manual pathing attempts failed or were inefficient. FLAREE HP at 14/28 (poisoned) and needs to exit forest urgently. Resorting to agent for a full path, will execute in segments.
+*   Full Path (146 presses from (7,32) to (2,1)) - See previous notepad entries for full list if needed.
+*   Segment 1 (Completed): (7,32) to (7,40) - 8 presses: ['Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down']. FLAREE HP: 14/28 -> 12/28.
+*   Segment 2 (Interrupted, Resuming): (7,40) to (14,41). Original 8 presses: ['Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right'].
+    *   Sub-segment 2a (Completed): (7,40) to (11,41) - 5 presses: ['Down', 'Right', 'Right', 'Right', 'Right']. FLAREE HP: 12/28 -> 11/28 (Interrupted by Caterpie battle at (11,41)).
+    *   Sub-segment 2b (Current): (11,41) to (14,41) - Remaining 3 presses: ['Right', 'Right', 'Right']. FLAREE HP projection: Start 11/28 -> End 11/28.
 
 # Pathing Agent Failures (Viridian Forest)
 *   `map_analyzer_agent` (Path to North Exit from (22,41)) - Attempt 1: Path led to impassable sign at (25,41). Attempt 2 (Turn 6443): Agent LLM error, no path provided.
