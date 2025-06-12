@@ -1,11 +1,11 @@
 # Pokémon Yellow Legacy - Hard Mode Notes
 
 ## Current Status & Immediate Objectives
-- Location: Viridian City (Map ID 1) at (22,31).
-- Immediate Objective: Navigate to Pokémon Center at (24,26) to heal and save. Then find Poké Mart.
+- Location: Viridian School House (Map ID 43) at (5,7).
+- Immediate Objective: Interact with Little Girl at (5,6). Then, explore other interactables (Cooltrainer F, Notebook, Blackboard). Then, exit and find Poké Mart in Viridian City.
 
 ## Pokémon Party Status
-1. SPARKY (PIKACHU): Lv7 (23/26 HP, EXP: 442/512 to Lv8) | Moves: THUNDERSHOCK (20/30 PP), GROWL (40/40 PP), QUICK ATTACK (30/30 PP)
+1. SPARKY (PIKACHU): Lv7 (26/26 HP, EXP: 442/512 to Lv8) | Moves: THUNDERSHOCK (30/30 PP), GROWL (40/40 PP), QUICK ATTACK (30/30 PP)
 
 ## Game Mechanics & Rules
 - Battle Style: Set
@@ -18,8 +18,10 @@
 - Dynamic scaling for Gyms 4-6.
 - EXP. All obtainable without special requirements.
 - Poisoned Pokémon lose 1 HP every 4 steps outside battle.
-- **STAT Experience:** Pokémon gain increased stats from EXP that enemy trainers' Pokémon don't have. Training a Pokémon from a low level (e.g., Lv5 to Lv50) can result in stats comparable to a much higher level opponent (e.g., Lv60).
-- Enemy trainers are not limited by Power Points (PP) for their moves, unlike the player's Pokémon.
+- **STAT Experience:** Pokémon gain increased stats from EXP that enemy trainers' Pokémon don't have. Training a Pokémon from a low level (e.g., Lv5 to Lv50) can result in stats comparable to a much higher level opponent (e.g., Lv60). (Learned from Youngster on Route 1 (16,14))
+- Enemy trainers are not limited by Power Points (PP) for their moves, unlike the player's Pokémon. (Learned from sign in Viridian City (22,30))
+- PC Log Off: Selecting "LOG OFF" from the main PC menu (after selecting your name) saves the game.
+- CUT is a Bug-type HM move. (Learned from Brunette Girl in Viridian School House (4,6))
 
 ## Level Caps
 - 0 badges: 12
@@ -30,27 +32,26 @@
 - 5 badges: 50
 - 6 badges: 53
 - 7 badges: 55
-- 8 badges: 57
-- After Lorelei: 58
-- After Bruno: 59
-- After Agatha: 62
-- After Lance: 65
+- 8 badges: 57 (Original game has 60 for E4. This is 57, then 58, 59, 62, 65. Need to confirm in-game if these are correct for this hack)
 
 ## Current Goals & Plans
 - **Primary:** Defeat Brock, the Pewter City Gym Leader.
+  - *Plan:* Find way to Pewter City (likely north of Viridian City, through Viridian Forest). Train SPARKY.
 - **Secondary:** Acquire Poké Balls from Viridian City's Poké Mart.
-- **Tertiary:** Continue training SPARKY towards level 8-9.
+  - *Plan:* Systematically explore Viridian City buildings until Poké Mart is found.
+- **Tertiary:** Explore the Viridian School House for any items or information. (Current)
+  - *Plan:* Interact with all NPCs and objects in the School House.
 
 ## Strategy Notes & Lessons Learned
-- **World Knowledge Graph (WKG):** Record transitions (map changes) immediately. `add_node` payload should NOT include an `id`. Use descriptive names and tags for nodes. Ensure `destination_entry_point` is accurate for warp edges. Correct mistakes in WKG promptly.
-- **Map Markers:** Mark used warps (entry/exit), defeated trainers, strategic points, interaction loops, dead ends, and static info signs. Use distinct emojis for clarity.
-- **Interaction Strategy:** Avoid repeating interactions with objects/NPCs in confirmed loops without a new trigger. If an NPC or object is unresponsive or in a loop after 2-3 attempts, move on. Mark loops clearly. Pay close attention to adjacency and facing requirements for interaction.
-- **Default vs. Event Locations:** During events, interactions might be required at default sprite locations, not visual event locations, or vice-versa. Test both if stuck.
-- **Notepad `replace` Action:** Must use the exact current text from the notepad for `old_text`. Game suggestions for `old_text` can be outdated. Copy-paste is safest. Verify notepad state before replacing.
-- **Event Triggers:** Prioritize common Pokémon game event triggers (e.g., attempting to leave the starting town, Mom's dialogue) when other interactions fail or lead to loops.
-- **Path Planning:** Consult Map Memory carefully to identify obstacles (fences, impassable tiles). Plan routes to avoid known blockages. For simple maps, manual pathing is often faster than relying on agents that might fail. Be careful with assumptions about tile passability.
-- **NPC Movement:** NPCs can move and block paths. Be prepared to reroute.
+- **World Knowledge Graph (WKG):** Record transitions (map changes) immediately. `add_node` payload should NOT include an `id`. Use descriptive names and tags for nodes. Ensure `destination_entry_point` is accurate for warp edges. Double-check `map_id` for nodes. Add edges promptly after nodes.
+- **Map Markers:** Mark used warps (entry/exit), defeated trainers/info NPCs, strategic points, interaction loops, dead ends, and static info signs. Use distinct emojis for clarity.
+- **Interaction Strategy:** Avoid repeating interactions with objects/NPCs in confirmed loops without a new trigger. If an NPC or object is unresponsive or in a loop after 1-2 attempts, move on. Mark loops clearly. Pay close attention to adjacency and facing requirements for interaction.
+- **Event Triggers:** Prioritize common Pokémon game event triggers when other interactions fail or lead to loops.
+- **Path Planning:** Consult Map Memory carefully to identify obstacles. For simple maps, manual pathing is often faster than relying on agents that might fail. Be careful with assumptions about tile passability and NPC blocking.
+- **NPC Movement:** NPCs can move and block paths. Be prepared to reroute. Stun if necessary for interaction.
 - **Warp Mechanics:** 1x1 warps are usually instant. 2x1 or 1x2 warps (like exit mats) require moving onto the warp then into the boundary/direction of warp.
+- **Pikachu on Warp Tiles:** If Pikachu is on a warp tile I need to use/pass, and I'm not facing him, it takes two presses in his direction to move onto the tile (first turns, second moves). This can trigger unintended warps.
+- **PC Interaction:** To interact with a PC, stand BELOW it (e.g., if PC is at (X,Y), stand at (X, Y+1)), face UP, and press A.
 
 ## Tile Types Discovered
 - **ground**: Walkable tile.
@@ -64,30 +65,27 @@
 - Ghost-type > Psychic-type.
 - Poison-type > Bug-type; Bug-type !> Poison-type.
 
-## Defeated Trainers
-(Format: [Trainer Name] - [Map Name] at (X,Y))
+## Defeated Trainers / Info NPCs
+(Format: [NPC Name/Type] - [Map Name] at (X,Y) - Info/Item)
+- Youngster - Route 1 (6,26) - Gave Potion.
+- Youngster - Route 1 (16,14) - Explained STAT Experience.
+- Brunette Girl - Viridian School House (4,6) - CUT is Bug-type HM; SLAM type unknown.
 
 ## Key Discoveries & Event Chronology
-- **Player's House Second Floor (Map ID 38):** PC at (1,2).
-- **Pallet Town (Map ID 0) - Initial Exploration:** Signs, Rival's House, Oak's Lab entrances identified.
-- **Rival's House (Map ID 39):** Daisy dialogue, obtained Town Map.
-- **Player's House First Floor (Map ID 37):** Mom dialogue triggered Oak's Lab event.
-- **Oak's Lab (Map ID 40) - Pre-Starter:** Scientist/Girl dialogue (type matchups).
-- **Pallet Town (Map ID 0) - Starter Event Trigger:** Attempting to enter Route 1 grass triggered Oak.
-- **Oak's Lab (Map ID 40) - Starter Pokémon Event:** Received PIKACHU (SPARKY). Battled BLAZe (EEVEE Lv5). SPARKY to Lv6, learned QUICK ATTACK. Oak explained Pikachu's behavior.
-- **Route 1 (Map ID 12):** Youngster at (6,26) gave Potion. Sign at (10,28). Youngster at (16,14) explained STAT Experience.
-- **Wild Battles (Route 1):** Multiple Pidgey, Rattata. SPARKY reached Lv7. Defeated Spearow Lv5 (SPARKY EXP to 442).
-- **Viridian City (Map ID 1):** Arrived from Route 1. Sign at (22,30) explained enemy trainers are not limited by PP.
-
-## Pathing Lessons & Observations
-- **Pikachu on Warp Tiles:** If Pikachu is on a warp tile I need to use/pass, and I'm not facing him, it takes two presses in his direction to move onto the tile (first turns, second moves). This can trigger unintended warps.
+- Pallet Town: Got Town Map from Daisy. Got PIKACHU from Oak. Battled BLAZe (won).
+- Route 1: Got Potion. Learned about STAT Experience. Trained SPARKY to Lv7.
+- Viridian City: Arrived. Learned enemy trainers have unlimited PP. Healed & Saved at Pokémon Center.
+- Viridian School House: Entered. Learned CUT is Bug-type HM.
 
 ## Defined Agents
 - **route_pathfinder**: Calculates a sequence of moves (Up, Down, Left, Right) to navigate from a start coordinate to an end coordinate on the current map. Input: {start_x, start_y, end_x, end_y}. Output: {path_found, steps[]}. (Code-enabled)
+- **exploration_prioritizer_agent**: Analyzes current map data to suggest the most strategically valuable exploration target. Input: {player_x, player_y, current_objectives}. Output: {prioritized_target_type, target_coordinates, reasoning}. (Code-enabled)
 
 ## Agent Usage & Failures
 - **route_pathfinder (Turn 477):** Failed with error "Agent LLM resp missing content (Iter 1)" when trying to path from (14,21) to (17,14) on Route 1. Needs further testing on simpler paths.
+- **exploration_prioritizer_agent (Turn 534):** Suggested exploring the Pokémon Center warp (24,26) in Viridian City immediately after exiting it. Unhelpful. Prompt needs refinement.
 
 ## Future Agent Ideas
-
-- **CUT is a Bug-type HM move** (Learned from Brunette Girl in Viridian School House).
+- **Party Optimizer Agent:** Analyzes Pokémon party, upcoming challenges (gyms, routes), and suggests training locations, moveset changes, or potential team compositions.
+- **Inventory Manager Agent:** Tracks inventory, suggests items to buy/sell based on current needs, money, and game progression.
+- **Battle Analyst Agent:** Parses battle logs (if obtainable) to identify opponent patterns, suggest counter-strategies, or evaluate move effectiveness.
