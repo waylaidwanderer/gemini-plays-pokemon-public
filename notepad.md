@@ -6,13 +6,16 @@
 # Pewter City Strategy & Current Plan
 *   **Current Location:** (34,21) in Pewter City, facing Up. Pikachu at (34,22).
 *   **Immediate Goal:** Reach Route 3. Current plan is Attempt #5 for a northern/north-western approach after healing.
-*   **Current Route 3 Strategy (Attempt #6 - Southern Detour via Intentional Escort - Actual Drop-off):**
-    1.  Youngster escort triggered as planned, but actual drop-off point is (30,19) facing Left (Pikachu at (31,19)), not (12,19).
-    2.  **Revised Southern Detour Plan (Attempt #6 from (30,19)):
-        a.  From (30,19), move South to (30,27). (Path: (30,19)...(30,27) - 8 steps down after turning).
-        b.  From (30,27), move East to (40,27). (Path: (30,27)...(40,27) - 10 steps right after turning).
-        c.  From (40,27), move North to (40,19) (Route 3 Exit). (Path: (40,27)...(40,19) - 8 steps up after turning).
-    3.  This route avoids the Youngster's primary patrol area and known trigger zones for most of its length.
+*   **Current Route 3 Strategy (Attempt #6 - Southern Detour from Gym Drop-off (12,19) - Confirmed):**
+    1.  Youngster escort completed, player dropped at (12,19) facing Right. Pikachu at (11,19). Youngster (ID 5) now at (18,19).
+    2.  **Path to Route 3 (40,19):
+        a.  From (12,19), move Left to (11,19) (Pikachu's tile). (2 button presses: Turn L, Move L)
+        b.  From (11,19), move South to (11,21). (Path: (11,19)->(11,20)->(11,21) - 2 steps down after turning).
+        c.  From (11,21), move East to (20,21). (Path: (11,21)...(20,21) - 9 steps right after turning).
+        d.  From (20,21), move South to (20,27). (Path: (20,21)...(20,27) - 6 steps down after turning).
+        e.  From (20,27), move East to (40,27). (Path: (20,27)...(40,27) - 20 steps right after turning).
+        f.  From (40,27), move North to (40,19) (Route 3 Exit). (Path: (40,27)...(40,19) - 8 steps up after turning).
+    3.  This route should keep me south of the Youngster's new position at (18,19).
 *   **Known Pathing Obstacles in Pewter City:**
     *   (34,20) - Impassable building facade.
     *   (36,27) - Impassable.
