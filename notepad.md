@@ -93,3 +93,8 @@
     2.  New Plan (Turn 6136): Navigate from current position (12,7) to the unvisited warp at (9,6).
     3.  Use warp at (9,6) to access Y=6 strip. Explore west from warp destination (or nearest access point on Y=6) to (3,6) to clear all unseen tiles on Y=6.
 *   **After Y=6 exploration:** Proceed to Viridian City -> Route 2 -> Pewter City. Deprioritize further Route 22 exploration.
+
+# Route 22 Gate Exploration (Turn 6138)
+*   Arrived in 'Route 22 Gate' (Map ID 193) at (5,8) via the warp at (9,6) on Route 22.
+*   **Objective:** Explore the 10 reachable unseen tiles on Y=3 of this new map.
+*   **After exploration:** Determine next steps. This might be an exit to another part of Route 22 or back to Viridian City.
