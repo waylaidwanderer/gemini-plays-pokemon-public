@@ -135,3 +135,7 @@
 
 - Oak's Lab (Default State):
     - Checked Professor Oak's default location (5,8). He is not present. The lab appears to be in its default configuration (no event NPCs visible on screen at event locations).
+
+- Oak's Lab (Default State):
+    - Default Poké Ball at (8,4) still says "There's a POKéMON inside!" after BLAZe's dialogue loop. Likely BLAZe's Pokémon.
+    - Professor Oak not at default location (5,8). Lab appears to be in default visual configuration.
