@@ -1,12 +1,5 @@
 # Pokémon Yellow Legacy - Hard Mode Notes (Gem's Log)
 
-## Current Status & Goals
-- Badges: 0
-- Level Cap: 12 (Next Gym: Brock, Ace Lv12)
-- Primary Goal: Defeat Brock, the Pewter City Gym Leader.
-- Secondary Goal: Travel to Pewter City.
-- Tertiary Goal: Explore Viridian Forest for items, experience, and new Pokémon.
-
 ## Active Pokémon Party
 1. SPARKY (PIKACHU): Lv8 (25/28 HP, EXP: 530/800 to Lv9) | Moves: THUNDERSHOCK, GROWL, QUICK ATTACK, THUNDER WAVE
 2. (Newly caught Oddish - will nickname SPROUT): Lv6
