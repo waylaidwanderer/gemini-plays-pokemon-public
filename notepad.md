@@ -116,3 +116,12 @@
 - Oak's Lab (Event State):
     - Scientist (Oak's Aide, visually at (3,11)) at (3,11) is in an interaction loop, repeating Ghost > Psychic dialogue. Interacting with BLAZe at (3,11) also triggers this.
     - New Hypothesis: Event progression might require interacting with NPCs/objects at their *default* map locations (e.g., BLAZe at (5,4), Poké Ball at (8,4)) rather than their visual event locations.
+
+## Reflection (Turn 256)
+- **Oak's Lab Event Summary:** Interactions with visual event sprites (Oak at (2,9), Scientist at (3,11), event Poké Ball at (2,11)) resulted in dialogue loops or no response. Exiting and re-entering Oak's Lab did not reset the event state. Successfully interacted with the *default* Poké Ball (Item ID 2) at (8,4), which triggered the dialogue "BALL. There's a POKéMON inside!". This strongly supports the hypothesis that event progression requires interacting with objects/NPCs at their standard, non-event map positions as listed in the `Map Sprites` data.
+- **Agent Usage Reflection:** The `pathfinding_agent` should have been utilized for navigating the complex and obstacle-laden interior of Oak's Lab, especially when attempting to reach the default Poké Ball location. Future complex indoor navigation will prioritize its use to prevent wasted turns from being blocked.
+- **Hypothesis Generation & Event Mechanics:** When encountering event-altered environments where initial interactions with visually apparent event sprites fail or loop, the hypothesis to test interactions with *default* NPC/object locations (as per `Map Sprites` list) should be formed and tested more rapidly. Spending excessive turns on unresponsive or looping event elements is inefficient.
+- **Loop Avoidance Strategy:** Must maintain stricter discipline in avoiding re-interaction with NPCs or objects that have been confirmed to be in dialogue or interaction loops. Mark them and move on to other hypotheses or targets.
+
+## Future Agent Ideas
+- **Battle Strategy Agent:** Could be defined to analyze upcoming significant battles (e.g., Rival, Gym Leaders). Input would include player's party, known opponent Pokémon/levels, and current level cap. Output could suggest optimal move choices, switch strategies, or identify key threats/weaknesses. Would likely require `run_code` capability for type matchup calculations and strategic analysis based on Hard Mode rules.
