@@ -97,3 +97,10 @@
 
 ## Pallet Town Exploration Notes (Turn 291):
 *   The 'Reachable Unseen Tiles' list includes tiles at X=20 (e.g., (20,3) to (20,8)). However, visual observation and map memory suggest X=20 is an impassable boundary. These tiles are likely not actually reachable by normal movement.
+
+## Feedback & Learnings (Turn 300)
+*   Received feedback. Key takeaways:
+    *   **WKG Diligence:** Must record inter-map transitions *immediately*. Missed Pallet->Route 1. Added nodes now, will add edge next turn.
+    *   **Agent Usage:** Must actively use defined agents (e.g., `battle_strategist_agent` for next trainer).
+    *   **Efficiency:** Improve micro-navigation and balance thorough exploration with forward momentum.
+    *   **Trust Game Data:** Trust `Reachable Unseen Tiles` list more.
