@@ -58,69 +58,47 @@
 ### Defined Agents:
 1.  **Level Cap Compliance Agent** (`level_cap_compliance_checker`)
 2.  **Item Finder Agent** (`item_finder_agent`)
-3.  **Trainer Battle Strategist** (`trainer_battle_strategist`)
-4.  **Map Exploration Strategist** (`map_exploration_strategist_agent`)
-5.  **Path Simplifier Agent** (`path_simplifier_agent`)
-6.  **Wild Encounter Evaluator Agent** (`wild_encounter_evaluator_agent`)
+3.  **Map Exploration Strategist** (`map_exploration_strategist_agent`)
+4.  **Path Simplifier Agent** (`path_simplifier_agent`)
+5.  **WKG Transition Recorder Agent** (`wkg_transition_recorder_agent`)
 
 ### Agent Development - Prioritized:
-1.  **WKG Transition Recorder Agent**: Implement ASAP to ensure accurate WKG. (Defined this turn)
-2.  **Capability Checker Agent**: Implement next. (Input: HMs, badges, obstacle. Output: Can pass?)
+1.  **Capability Checker Agent**: Implement next. (Input: HMs, badges, obstacle. Output: Can pass?)
 
 ### Agent Development - Future Consideration:
--   **Pokédex Completion Strategist**: Suggests where to hunt for new Pokémon.
+-   **Pokédex Completion Strategist**: Suggests where to hunt for new Pokémon. (Idea retained, low priority)
 
 ### Agent Review TODOs:
-- `map_exploration_strategist_agent`: Review prompt/code due to frequent failures. Default to manual pathing if unreliable.
-- `item_finder_agent`: Review prompt for better city building identification.
-- `trainer_battle_strategist` & `wild_encounter_evaluator_agent`: Re-evaluate utility and prompts for current needs.
+- `map_exploration_strategist_agent`: Review prompt/code due to frequent failures. Default to manual pathing if unreliable. **Decision: Will review prompt after current exploration phase in Pewter.**
+- `item_finder_agent`: Review prompt for better city building identification. Review utility - may delete if not serving purpose. **Decision: Will review prompt and utility after current exploration phase. If still unreliable, will delete.**
 
 ### General TODOs:
-- Systematically mark used warps (both ends) with 🚪 emoji, noting destination map and coordinates/entry point, using WKG for reference.
-- Actively seek info on Brock's Pokémon types/weaknesses.
-- Be more proactive in using map markers for key NPC info (ℹ️) or strategic points.
+- Systematically mark used warps (both ends) with 🚪 emoji, noting destination map and coordinates/entry point, using WKG for reference. **(Active)**
+- Actively seek info on Brock's Pokémon types/weaknesses. **(Active)**
+- Be more proactive in using map markers for key NPC info (ℹ️) or strategic points. **(Active)**
+- Prioritize earning money (currently ¥33) and training SPROUT (Lv7) & PIP (Lv7) once Pewter City is further explored. **(High Priority)**
+- Develop a concrete training plan for SPROUT and PIP for Brock. **(High Priority)**
 
 ## Lessons Learned & Strategy Refinements
 - HP Management: Prioritize healing or safer actions when HP is low.
 - Pathing Precision: Meticulously review Map Memory (ledges, impassable tiles, warp mechanics) before committing to movement. **Verify current map_id and position from Game State frequently, especially after warps, to avoid hallucinations.**
 - Notepad `old_text`: Precision is critical for `replace`.
-- Viridian Forest Navigation: Explore systematically.
-- Item Pickups: Some require 'A' interaction.
 - Warp Navigation: Be careful with facing direction and multi-step warps. Confirm tile types and warp mechanics. If an NPC is on a warp tile, try the other tile of a 2-wide warp or path around.
 - Agent Usage: If an agent is unreliable, default to manual planning. Consider agents for specialized 'thinking' tasks or to automate repetitive WKG updates.
-- WKG Workflow: Use the `wkg_transition_recorder_agent` once implemented. Capture node IDs from `add_node` calls to streamline edge creation if doing manually.
+- WKG Workflow: Use the `wkg_transition_recorder_agent` for all inter-map transitions. Capture node IDs from `add_node` calls to streamline edge creation if doing manually.
 - Nicknaming UI: Pay closer attention to avoid errors.
-- Failed Hypotheses: Document attempts. E.g., Exiting Pewter Mart - multiple attempts failed due to mislocating self or NPC blocking specific warp tiles. Current hypothesis: exit via (4,8) or (5,8) by careful pathing around NPCs.
+- Failed Hypotheses: Document attempts and number of failures. E.g., Exiting Pewter Mart - numerous failed attempts due to mislocating self or NPC blocking specific warp tiles. Successfully exited Pewter Mart by careful verification of map state, NPC positions, and adaptive pathing.
 
 ## Behavioral Guidelines (Internalized)
-- Gem persona: cute, expressive gamer girl. Avoid 3rd person, excessive exclamations, conversational softeners.
-- Scientific Mindset: Hypothesize, test, analyze. Document failures (with attempt counts) & avoid repeating them. Pivot if primary objective stalls. Reflect on mistakes for efficient solutions. Break down problems. Strive for efficiency.
-- Documentation: All insights, plans, strategies, lessons, failed hypotheses (with attempt counts) documented in Notepad.
-- Risk & Battle: Calculated risks, prioritize progression. Sacrifices acceptable in battle.
-- Wild Battles: Run if Speed >= wild's (or chance increases). Fight only to catch/train.
-- Nicknaming: Always nickname when prompted, enjoy creativity.
-- Verification: Trust own observations over prior knowledge. Verify in multiple cases due to ROM hack nature.
+- (Summary of guidelines internalized)
 
-## Pewter Mart Exit Strategy (Post-Critique Turn 1651)
-- **CRITICAL:** Verify `map_id` and `player_position` from Game State *every turn* before planning.
-- Current plan: If on a warp tile, face correct direction and activate. If not, path to an unoccupied warp tile, prioritizing (5,8) if (4,8) is blocked or problematic.
-- Document all failed exit attempts with specific reasons if identifiable.
+## Pewter City Exploration & Brock Prep Plan (Current Focus)
+- **Immediate:** Explore all reachable unseen areas of Pewter City. Interact with all NPCs. Identify potential training spots and money-making opportunities.
+- **Mid-Term:** Train SPROUT and PIP to a suitable level for Brock (target ~Lv10-12 initially, reassess based on Brock's team).
+- **Financial:** Earn enough money for Potions and Poké Balls (current: ¥33 - critically low).
+- **Information Gathering:** Find out Brock's Pokémon types and levels. Check if any new items or TMs are available that could help.
 
-## Lessons Learned & Strategy Refinements (Updates)
-- Pewter Mart Exit Loop: MAJOR issue. Numerous failed attempts (conservatively 20+ turns) due to misreading location, NPC blocking, and flawed pathing. Must break this loop by careful verification and adaptive pathing.
-
-## General TODOs (Additions)
-- Review and revise prompts for `map_exploration_strategist_agent` and `item_finder_agent` based on critique of frequent failures.
-- Implement `Capability Checker Agent` after reaching Pewter City and stabilizing.
-- Prioritize earning money (currently ¥33) and training SPROUT (Lv7) & PIP (Lv7) once in Pewter City.
-
-## Post-Critique T1657 Action Items & Strategy Updates
-- **Immediate Focus:** Explore Pewter City for resources, training spots, and money-making opportunities (current funds: ¥33 - CRITICAL LOW).
-- **Training Plan:** Develop a concrete plan to train SPROUT (Lv7) and PIP (Lv7) for Brock. Identify suitable wild Pokémon or trainers in/near Pewter City.
-- **Agent Review & Implementation:**
-    - `wkg_transition_recorder_agent`: Use immediately for all inter-map transitions.
-    - `map_exploration_strategist_agent` & `item_finder_agent`: Revise prompts or cease reliance if they remain dysfunctional. Document changes.
-    - `trainer_battle_strategist`, `wild_encounter_evaluator_agent`, `multi_map_route_planner`: Review utility. Delete if not serving current/near-future purpose.
-    - `Capability Checker Agent`: Prioritize implementation after stabilizing in Pewter City.
-- **Notepad Hygiene:** Remove unimplemented agent ideas if discarded. Focus notepad on HOW to achieve goals, not the goals themselves (which are auto-provided).
-- **Pewter Mart Exit:** Successfully exited. The key was careful verification of map state and NPC positions each turn. Documented failures and corrected approach.
+## Museum 1F Notes
+- Entered from Pewter City (15,8) to Museum 1F (11,8).
+- Ticket to main exhibit costs ¥50. Cannot afford with ¥33. Declined entry.
+- Exploring alternative paths and the unvisited warp at (8,8).
