@@ -6,5 +6,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"steps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"path_found\",\"steps\"]}",
     "agent_can_run_code": true
+  },
+  "exploration_prioritizer_agent": {
+    "agent_name": "exploration_prioritizer_agent",
+    "agent_description": "Analyzes current map data (Reachable Unseen Tiles, Undiscovered Connections, Unvisited Warps) to suggest the most strategically valuable exploration target.",
+    "agent_system_prompt": "You are an Exploration Prioritizer Agent. Your goal is to suggest the most strategically valuable exploration target on the current game map. You will use your `run_code` tool to access and parse `map_xml_string` (which includes map markers, warp info, and tile types) and `world_knowledge_graph_json_string`. Your input will provide player coordinates. Analyze the `map_xml_string` for: 1. Reachable Unseen Tiles (from Game State, but verify with XML), 2. Reachable Unvisited Warps (from Game State, check XML for coordinates). Also consider Reachable Undiscovered Map Connections if provided in game state (though primarily focus on-map elements reachable from current position). Consider proximity to the player, clustering of unseen areas, and potential for progression (e.g., warps leading to new map IDs are high priority if other info lacking). Output your suggestion as a JSON object conforming to the output schema. If multiple good options exist, pick one that seems most likely to lead to new areas or objectives. If no clear priority, suggest exploring the nearest cluster of unseen tiles. If all relevant areas seem explored based on available data, your output should indicate 'none' for target type.",
+    "agent_input_schema": "{\"type\":\"object\", \"properties\": {\"player_x\":{\"type\":\"integer\"}, \"player_y\":{\"type\":\"integer\"}}, \"required\": [\"player_x\", \"player_y\"]}",
+    "agent_output_schema": "{\"type\":\"object\", \"properties\": {\"prioritized_target_type\":{\"type\":\"string\", \"enum\":[\"unseen_tile\", \"undiscovered_connection\", \"unvisited_warp\", \"none\"]}, \"target_coordinates\":{\"type\":\"object\", \"properties\":{\"x\":{\"type\":\"integer\"}, \"y\":{\"type\":\"integer\"}}, \"additionalProperties\": false, \"required\":[]}, \"reasoning\":{\"type\":\"string\"}}, \"required\": [\"prioritized_target_type\"]}",
+    "agent_can_run_code": true
   }
 }
