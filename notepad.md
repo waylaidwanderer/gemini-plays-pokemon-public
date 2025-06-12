@@ -95,8 +95,8 @@
 ## Type Matchup Changes (Learned):
 *   Ghost-type moves are SUPER EFFECTIVE against Psychic-type Pokémon. (Learned from OAKSLAB_SCIENTIST1 at (3,11) on Turn 264)
 
-## Pallet Town Exploration Notes (Turn 291):
-*   The 'Reachable Unseen Tiles' list includes tiles at X=20 (e.g., (20,3) to (20,8)). However, visual observation and map memory suggest X=20 is an impassable boundary. These tiles are likely not actually reachable by normal movement.
+## Pallet Town Exploration Notes (Corrected after Feedback):
+*   Initially, there was a discrepancy noted: `Reachable Unseen Tiles` listed X=20 tiles as reachable, while visual assessment suggested an impassable boundary. These tiles were eventually explored, confirming their reachability. Lesson Learned: Trust `Reachable Unseen Tiles` data more consistently, even if initial visual assessment differs.
 
 ## Feedback & Learnings (Turn 300)
 *   Received feedback. Key takeaways:
