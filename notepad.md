@@ -140,3 +140,6 @@
 # Viridian Forest North Gate Arrival (Turn 6751)
 *   Arrived in Viridian Forest North Gate (map 47) at (5,8) from Viridian Forest.
 *   Next step: Navigate north through this gatehouse to exit to Route 2 North. Target warp is (5,1) or (6,1).
+
+# Viridian Forest North Gate Navigation (Turn 6753)
+*   Attempt to move Up from (5,2) to (5,1) was blocked; tile (5,1) is impassable from the south despite being listed as a warp. Will try warp at (6,1) instead.
