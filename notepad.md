@@ -7,8 +7,8 @@
 *   **Youngster's Current Position (Game State is TRUTH):** (36,17). (Game state for turn 5514 showed (18,19); current turn 5515 game state confirms (36,17)). The main trigger zones are in eastern Pewter when he is at (36,17).
 *   **Escort Event Dynamics:** Still complex. His new position at (18,19) likely means his trigger zones have shifted significantly. The old triggers around (36,17) might still be active if he moves back there, but the immediate threat is his current location.
 *   **Known Trigger/Drop-off Points (Markers are reminders):** (38,19) (triggered from (37,19) when Y. was at (36,17)), (30,19) (drop-off & trigger). These may behave differently with Y. at (18,19). Marked zones around (36,17) are less relevant *while he is at (18,19)*.
-*   **Current Strategy for Route 3 (Accounting for Youngster at (18,19))**:
-    1.  **Far South Route Attempt (Still Viable):** Navigate from current position (Gym drop-off, (12,19)) to Y=27 (e.g., (12,27)). Then head east along Y=27 to X=40, then north to Route 3 exit at (40,19). This path is south of the Youngster's new (18,19) position.
+*   **Current Strategy for Route 3 (Accounting for Youngster at (36,17))**:
+    1.  **Far South Route Attempt:** From current (12,19), use `exploration_planner_agent` to reach (20,22) (to bypass western obstacles). Then manually path south to (20,27), then east along Y=27 to (40,27), then north to Route 3 exit at (40,19). This path is far south of the Youngster at (36,17).
     2.  **Far North Route (Fallback):** If south fails, try Y=10-14, east, then south. This path would be north of his new (18,19) position.
     3.  Meticulously check map XML for impassable tiles for any new planned path. Use `move_validator_agent` for short, complex segments.
     4.  Use `scripted_event_tracker_agent` to vet *path segments* (3-5 steps) when approaching X=18 or moving east, always using Youngster's *current coordinates* ((18,19) with radius 3 for now).
