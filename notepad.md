@@ -104,3 +104,6 @@
     - Scientist (Oak's Aide, visually at (3,11)) at (3,11) is in an interaction loop, repeating Ghost > Psychic dialogue. Interacting with BLAZe at (3,11) also triggers this.
     - Event Poké Ball at (2,11) is unresponsive to interaction from adjacent tiles or while standing on it.
     - Next target: Professor Oak (visually at (2,9)).
+
+- Oak's Lab (Event State):
+    - Professor Oak (visually at (2,9), sprite OAKSLAB_GIRL) is in an interaction loop, repeating type matchup dialogue (Poison > Bug, Bug !> Poison).
