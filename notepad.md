@@ -54,3 +54,12 @@
 
 # Route 22 Navigation Strategy (Turn 6040)
 *   Current approach to clear remaining unseen tiles (all on Y=10) involves a long detour: travel east along the lower path (Y=15) to (34,15), then north to (34,11) to access the northern grass strip, then west along the northern grass strip to reach the unseen tile clusters.
+
+# Route 22 Navigation - Lessons & Failed Attempts (Turn 6074)
+*   **Objective:** Reach 14 unseen tiles on Y=10.
+*   **Current Strategy (Reconfirmed from Turn 6040):** Travel east on lower path (Y=15) to (34,15), then north to (34,11) in grass, then west along northern grass strip.
+*   **Failed Attempts/Hypotheses:**
+    1.  **Direct Westward Travel in Eastern Isolated Grass Patch (X=31-34, Y=9-12):** Attempted multiple times (at least 3-4 distinct attempts, e.g., turns 6030, 6032, 6043, 6045, 6064) to move west from (31,11) or (31,10). Consistently blocked by impassable tiles at X=30 on rows Y=10 and Y=11. This patch is confirmed isolated from the main western grass strip.
+    2.  **Direct Upward Movement from Lower Path (Y=15) to Northern Grass (Y=10):** Attempted to move directly north from various points on the Y=15 path (e.g., around (3,15) on turn 6037, (23,15) on turn 6027). Consistently blocked by the Y=14 ledge line. Confirmed ledges are one-way (downwards only).
+    3.  **Navigation within Eastern Isolated Grass Patch to find alternate exit:** Explored the eastern grass patch (X=31-34, Y=9-12) extensively (e.g., turns 6045-6057, 6064-6071). Confirmed only exit is south via ledge jumps. No westward path exists within this patch.
+*   **Conclusion:** The long detour strategy (east on Y=15, north to Y=11, then west on Y=10/Y=11) remains the only viable approach to reach all unseen tiles. The current step is moving from (3,15) to (34,15).
