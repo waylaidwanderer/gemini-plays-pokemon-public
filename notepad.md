@@ -94,3 +94,7 @@
 
 ## Future Agent Ideas
 (No specific agent ideas at this moment. Focus on core gameplay and reliable manual strategies first.)
+
+- **Oak's Lab (Map ID 40) - Starter Pokémon Event:**
+    - BLAZe snatched the first offered Pokémon (the one at (8,4)).
+    - Professor Oak then gave me a PIKACHU (ID 201, displayed as '����������' in party screen) at (6,4). Player was moved to (6,4) automatically.
