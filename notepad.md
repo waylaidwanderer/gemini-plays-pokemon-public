@@ -59,8 +59,7 @@
 4.  **Trainer Battle Strategist** (`trainer_battle_strategist`): Analyzes teams for battle strategy.
 
 ### New Agent Ideas (To Be Defined Later):
--   **Pokedex Completion Tracker Agent:** Suggests catchable Pokémon in current/nearby areas based on a self-built knowledge base of locations.
--   **Route Planner Agent (Multi-Map):** Uses World Knowledge Graph to plan optimal routes between maps, considering obstacles/requirements.
+- None currently.
 
 ## Lessons Learned & Strategy Refinements
 -   **Trust Game State**: GSI is absolute truth for dynamic data (NPCs, items, map connections reachability).
