@@ -1,38 +1,34 @@
 # Pokémon Yellow Legacy - Hard Mode Notes (Gem's Log)
 
 ## Current Status
-- Location: Viridian City (Map ID 1) at (18,11).
+- Location: Route 2 (Map ID 13) at (8,62).
 - Badges: 0
 - Level Cap: 12
+- Money: ¥1175
 
 ## Active Pokémon Party
-1. SPARKY (PIKACHU): Lv7 (26/26 HP, EXP: 442/512 to Lv8) | Moves: THUNDERSHOCK, GROWL, QUICK ATTACK
+1. SPARKY (PIKACHU): Lv8 (25/28 HP, EXP: 530/800 to Lv9) | Moves: THUNDERSHOCK, GROWL, QUICK ATTACK, THUNDER WAVE
 
 ## Current Objectives
 - **Primary:** Defeat Brock, the Pewter City Gym Leader.
-- **Secondary:** Acquire Poké Balls from Viridian City's Poké Mart.
-- **Tertiary:** Explore Viridian City for other items and information.
+- **Secondary:** Travel to Pewter City.
+- **Tertiary:** Explore Viridian Forest for items and Pokémon.
 
 ## Game Mechanics & Rules Summary
-- Battle Style: Set. No items in battle.
+- Battle Style: Set. No items in battle. Level caps apply.
 - HMs: Forgettable, menu-use, not PC-storable.
 - All 151 Pokémon obtainable. Trade evos by level.
-- Smarter AI, tougher bosses, dynamic gym scaling (4-6).
+- Smarter AI, tougher bosses.
 - EXP. All obtainable without special requirements.
 - Poison: 1 HP lost per 4 steps outside battle.
-- STAT Experience: Significant stat boosts from battling/leveling, enemies don't get this. (Source: Youngster, Route 1)
-- Enemy Trainer PP: Unlimited. (Source: Sign, Viridian City)
+- STAT Experience: Significant stat boosts from battling/leveling.
+- Enemy Trainer PP: Unlimited.
 - PC Log Off: Saves game.
-- CUT: Bug-type HM. (Source: Girl, Viridian School House)
-- Evolution: By training, no trading needed. (Source: Little Girl, Viridian School House)
-- Status Conditions (from School Blackboard):
-  - SLP: No attack, persists. Cure: AWAKENING.
-  - BRN: Power down, damage, persists. Cure: BURN HEAL.
-  - PSN: HP drop, persists. Cure: ANTIDOTE.
-  - FRZ: Immobile, persists. Cure: ICE HEAL.
-  - PAR: Misfire chance, persists. Cure: PARLYZ HEAL.
-- Wild Battle Escapes: Chance depends on lead Pokémon's Speed vs. wild Pokémon's. Equal/greater Speed = 1st try escape. Lower Speed = chance increases with attempts. Lead with fast Pokémon to maximize.
-- Pokémon Nicknaming: Always nickname a Pokémon when prompted after catching it.
+- CUT: Bug-type HM.
+- Evolution: By training.
+- Status Conditions: SLP (AWAKENING), BRN (BURN HEAL), PSN (ANTIDOTE), FRZ (ICE HEAL), PAR (PARLYZ HEAL).
+- Wild Battle Escapes: Speed-dependent.
+- Pokémon Nicknaming: Always do it.
 
 ## Discovered Tile Types & Movement Rules
 - **ground**: Walkable.
@@ -40,10 +36,8 @@
 - **warp**: Map transition. Activation varies (instant 1x1, or 2-step for larger).
 - **water**: Requires Surf.
 - **grass**: Wild encounters.
-- **ledge**: Jump down only.
-- **NPC Blocking**:
-  - Cannot move onto a tile occupied by a stationary NPC if it's the first step of a path from pathfinder. (Hypothesis - Attempt 1, Turn 649, Balding Guy in Nickname House (6,4) from (6,5) facing Up - pathfinder failed to account for this).
-  - Cannot move directly onto a tile occupied by a stationary NPC by pressing in their direction when adjacent and facing them. (Confirmed for Balding Guy in Nickname House at (6,4) - 2 attempts, Turns 648-649. Confirmed for Girl in Viridian City at (18,10) - 2 attempts, Turns 666-667, after facing her in T665).
+- **ledge**: Jump down only. Cannot move 'up' onto a ledge tile from lower ground. To jump down, be on higher ground adjacent to the ledge, move onto the ledge tile.
+- **NPC Blocking**: NPCs can block paths. Player cannot move onto a tile occupied by a stationary NPC if it's the first step of a path from pathfinder or by pressing in their direction when adjacent and facing them.
 - **Pikachu Movement**: If Pikachu is adjacent in movement direction & player not facing him, 2 presses needed (1st turns, 2nd moves). Normal otherwise.
 - **PC Interaction**: Stand below, face up, press A.
 
@@ -51,110 +45,43 @@
 - Ghost > Psychic.
 - Poison > Bug; Bug !> Poison.
 
-## Key NPCs & Trainers Log
-(Format: [Name/Type] - [Map] (X,Y) - Outcome/Info)
-- Youngster - Route 1 (6,26) - Gave Potion.
-- Youngster - Route 1 (16,14) - Explained STAT Experience.
-- Girl (Brunette) - Viridian School (4,6) - CUT is Bug HM.
-- Girl (Little) - Viridian School (5,6) - Pokémon evolve by training.
-- Cooltrainer F - Viridian School (5,2) - Advised reading blackboard.
-- Girl - Viridian City (18,10) - "Grandpa needs coffee." (Re: Old Man at (19,10)).
-- Old Man - Viridian City (19,10) - Blocks path N. "Private property!" Pushed player back. (Attempt 1 to pass).
-- Balding Guy - Viridian Nickname House (6,4) - Nickname advice.
+## Key NPCs & Info Log (Condensed)
+- Youngster (Route 1, (6,27)): Gave Potion.
+- Youngster (Route 1, (16,14)): Explained STAT Experience.
+- Girl (Viridian School, (4,6)): CUT is Bug HM.
+- Girl (Viridian School, (5,6)): Pokémon evolve by training.
+- Old Man (Viridian City, now (20,14)): Path to Route 2 unblocked after coffee. Gave catching tutorial.
+- Viridian Mart Clerk: Sells Poké Balls after Oak's Parcel delivery.
 
-## Agent Development & Performance
-### Defined Agents:
-1.  **route_pathfinder**: Calculates move sequence. Input: {start_x, start_y, end_x, end_y}. Output: {path_found, steps[]}. (Code-enabled, Updated Prompt T667)
-2.  **exploration_prioritizer_agent**: Suggests exploration target. Input: {player_x, player_y, current_map_id, current_objectives, last_warp_details (optional)}. Output: {prioritized_target_type, target_coordinates, reasoning}. (Code-enabled, Updated Prompt T667)
-3.  **item_finder_agent**: Locates items/buildings or suggests paths. Input: {target_description, player_x, player_y}. Output: {target_found, target_coordinates, exploration_suggestion, reasoning}. (Code-enabled, Defined T667)
+## Agent Strategy & Ideas
+### Active Agent Ideas:
+1.  **Level Cap Compliance Agent**: Checks Pokémon levels against current cap. (To be defined this turn)
+2.  **Viridian Forest Navigator**: Helps navigate Viridian Forest. (Future idea)
+3.  **Obstacle Aware Path Planner**: Simpler pathfinder aware of temporary obstacles. (Future idea)
 
-### Planned Agents:
-(None currently)
+### Discontinued Agents:
+-   `route_pathfinder`: Consistently failed.
+-   `exploration_prioritizer_agent`: Often gave unhelpful suggestions.
 
-### Agent Failures & Notes:
--   **route_pathfinder**:
-    -   Turn 477 (Route 1): Failed (Agent LLM resp missing content).
-    -   Turn 649 (Nickname House): Path (Up, Up, Left, Left, Left, Down) from (6,5) to (3,4) failed. First 'Up' to (6,4) blocked by Balding Guy. Prompt needs to consider NPCs as obstacles.
-    -   Turn 787 (Route 1): Failed (Agent LLM resp missing content) when trying to path from (11,29) to (12,1). Agent appears unreliable for complex pathing or has intermittent issues.
--   **exploration_prioritizer_agent**:
-    -   Turn 534 (Viridian): Suggested Pokécenter after exiting. Unhelpful.
-    -   Turn 621 (Viridian): Suggested Pokécenter again after exiting. Unhelpful. Prompt needs significant refinement to avoid recently used/explored locations.
+### General Agent Notes:
+-   Ensure system prompts are robust and include all necessary game context.
+-   Input schemas should not include auto-provided variables like `map_xml_string` for code-enabled agents.
+
+## World Knowledge Graph (WKG) Best Practices
+- Record inter-map transitions (map boundary, warps) immediately using `manage_world_knowledge`.
+- Use descriptive names and tags for nodes.
+- Include exact coordinates and connection types.
+- Note `destination_entry_point` for warps when known.
+
+## Map Marker Best Practices
+- Mark defeated trainers (☠️), used warps (🚪), key info NPCs (💡), signs (ℹ️), obstacles (🚧), items given by NPCs (🎁).
+- Use distinct emojis and concise labels. Delete redundant markers.
 
 ## Lessons Learned & Strategy Refinements
--   **WKG**: Record transitions immediately. Use descriptive names/tags. Verify entry points.
--   **Map Markers**: Mark used warps, defeated/info NPCs, key points, obstacles, static signs. Use distinct emojis.
--   **Interaction**: Avoid repeated interactions if first attempt yields no new info/progress. Mark loops.
--   **NPCs**: Can block paths unexpectedly. Be prepared to reroute or use `stun_npc` if essential.
--   **Efficiency**: Avoid excessive time in optional areas if main goals are pending (e.g., Nickname House). Plan longer movement sequences instead of single steps for exploration.
-
-- Adopt a scientific mindset: form hypotheses, test systematically, document failures (with attempt counts), and avoid repeating unsuccessful strategies.
-
-## Planned Agents (New Ideas - T718)
-(None currently - focusing on existing agent performance or removal.)
-
-- **exploration_prioritizer_agent / item_finder_agent (T718 Monitoring Note):** Continue to monitor these agents. If they consistently fail to produce valid JSON, provide unhelpful/generic suggestions, or exhibit flawed reasoning (e.g., about visited status of warps or WKG data), their prompts may need further refinement or they might be too unreliable for consistent use.
-
-## Viridian Mart (Turns 734+)
-- Received OAK'S PARCEL from the clerk at (1,6). New objective: Deliver to Prof. Oak in Pallet Town.
-- Clerk at (1,6) gave OAK'S PARCEL.
-- Attempted to buy Poké Balls from clerk at (1,6) three times after receiving parcel (Turns 741, 743, 744). Each time, clerk repeated 'Okay! Say hi to PROF.OAK for me!' and did not open shop. Hypothesis: Shop is locked until OAK'S PARCEL is delivered.
-
-## Oak's Lab (Post-Parcel Delivery - Turn 775)
-- Delivered OAK'S PARCEL to Professor Oak.
-- Received POKéDEX from Professor Oak.
-- New objective: Complete the Pokédex for Professor Oak (long-term task).
-
-## Ledge Mechanics Clarification (Turn 798)
-- Ledges can only be jumped *down*. They cannot be climbed *up*.
-- If you are on a ground tile (X, Y_current) and an adjacent tile (e.g., (X, Y_current-1) for 'Up') is a 'ledge' type tile that would represent the higher elevation of that ledge, you cannot move onto it from the lower ground.
-- To jump down a ledge: You must be on the higher ground adjacent to the ledge tile. For example, if (X, Y_Ledge) is the ledge tile and (X, Y_Ledge+1) is the ground below it, you'd typically be on ground at (X, Y_Ledge-1), move Down onto (X, Y_Ledge), and the game would then move you to (X, Y_Ledge+1).
-
-## Agent & Strategy Updates (Turn 800 - Post-Critique)
-- **`route_pathfinder` Agent:** Will stop using this agent due to consistent failures. Manual pathing or a new/fixed agent is needed for complex routes.
-- **`exploration_prioritizer_agent`:** Will also avoid using this agent for now due to its history of unhelpful suggestions.
-- **Game State Information (GSI):** GSI is the absolute source of truth for dynamic data like NPC locations. Will prioritize GSI over notepad memory for such info.
-- **Notepad for Navigation:** Will make a better effort to use the notepad for planning detailed multi-step navigation paths, especially in complex areas like Route 1.
-
-## Route 1 Navigation Plan (Attempt 3 - From (6,15) - Turn 800) - FAILED
-Objective: Reach Viridian City North Entrance (12,1).
-Path:
-1. From (6,15) -> (13,15): Move Right x7. (SUCCESSFUL, reached (13,15) at Turn 803)
-2. From (13,15) -> (13,5): Move Up x10 (passes north of ledge at (13,6)). (FAILED at Turn 803: (13,14) is an impassable ledge directly above (13,15), blocking upward movement. Plan was flawed.)
-3. From (13,5) -> (12,5): Move Left x1.
-4. From (12,5) -> (12,1): Move Up x4.
-
-## Route 1 Navigation Plan (Attempt 4 - From (13,15) - Turn 803)
-Objective: Reach Viridian City North Entrance (12,1).
-Current Position: (13,15)
-Path:
-1. From (13,15) -> (15,15): Move Right x2. (Target: (15,15))
-2. From (15,15) -> (15,5): Move Up x10. (This will pass Youngster at (15,14) and clear the Y=14 ledge line. Tile (15,6) is ground, (15,5) is ground).
-3. From (15,5) -> (12,5): Move Left x3.
-4. From (12,5) -> (12,1): Move Up x4.
-
-## Reflection (Turn 821)
-- **New Agent Idea**: Level Cap Compliance Agent - Input: badge count, Pokémon levels. Output: compliance status, next cap, Pokémon at cap.
-- **Map Marker Deletion**: Deleted redundant marker at Viridian City (20,9) regarding path blockage, as Old Man at (19,10) is the actual blocker and already marked.
-
-## Viridian City Navigation to Mart (Attempt 1 - Turn 822/823)
-- Path: From (22,31) -> Left to (21,31), then Up x10 to (21,21), then Right x9 to (30,21), then Up x1 to (30,20).
-- Outcome: FAILED at Turn 823. Player at (21,29) was blocked trying to move Up to (21,28) due to it being a ledge.
-
-## Viridian City Navigation to Mart (Attempt 2 - Turn 823)
-- Current Position: (21,29)
-- Path:
-  1. From (21,29) -> (20,29): Move Left x1.
-  2. From (20,29) -> (20,28): Move Up x1.
-  3. From (20,28) -> (20,21): Move Up x7.
-  4. From (20,21) -> (30,21): Move Right x10.
-  5. From (30,21) -> (30,20): Move Up x1 (Poké Mart).
-
-## WKG Correction (Turn 840)
-- The Viridian Mart exit warp (map 42, (4,8)) leads to Viridian City (map 1) at (30,21), just outside the Mart entrance at (30,20), not the School House. WKG edge `d45d75fc-d23a-44b5-9fd3-6de507470521` updated accordingly.
-
-## AI Critique & Strategy Update (Turn 850 - Route 22)
-- **Route 22 Detour**: Confirmed Route 22 is a detour. Priority is to return to Viridian City and unblock the north path via the Old Man (needs coffee).
-- **Old Man Interaction**: Must interact with Old Man at (19,10) in Viridian City. This is critical for accessing Route 2 and Viridian Forest.
-- **Pathing Error**: My movement Left from (36,9) on Route 22 to (35,9) was blocked; (35,9) is impassable. Previous path plan for Route 22 exploration was flawed.
-- **Agent Idea Follow-up**: Reminder to define the 'Level Cap Compliance Agent' after addressing the Old Man in Viridian City. Current focus is critical path progression.
-- **Goal Adjustment**: Secondary goal updated to reflect need to unblock Viridian City North path.
+-   **Trust Game State**: GSI is absolute truth for dynamic data (NPCs, items).
+-   **Pathing**: Double-check tile types (especially ledges) before committing to a path. NPCs can block movement. My pathing on Route 2 around the sign and ledges needs more care.
+-   **Critical Path**: Prioritize objectives that unblock main progression (e.g., Old Man in Viridian) before extensive detours like Route 22.
+-   **Efficiency**: Plan longer movement sequences. Avoid repeated interactions if the first attempt yields no new info.
+-   **Hypothesis Testing**: Form hypotheses, test systematically, document failures and attempt counts.
+-   **Route 22**: Was a detour. Path to Pewter is North from Viridian City via Route 2 / Viridian Forest.
+-   **Mart Exit (Viridian)**: Exits to (30,21) outside Mart, not School House.
