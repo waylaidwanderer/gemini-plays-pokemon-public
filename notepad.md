@@ -82,7 +82,7 @@
 
 - Viridian Forest: Tile (6,33) confirmed impassable (blocked westward movement from (7,33)).
 
-- Viridian Forest: Item Poké Ball at (2,32) appears to block movement despite GSI saying 'reachable'. Failed to move onto tile 2 times (Turns 948, 949). Hypothesis: May require 'A' button interaction, similar to item at (26,12). Needs testing if I return to that area.
+- Viridian Forest: Item Poké Ball at (2,32) appears to block movement despite GSI saying 'reachable'. Failed to move onto tile 2 times (Turns 948, 949). Hypothesis: May require 'A' button interaction, similar to item at (26,12). Needs testing if I return to that area. Hypothesis: May require 'A' button interaction, similar to item at (26,12). Needs testing if I return to that area.
 
 - Viridian Forest: Item Poké Ball at (26,12) blocked movement. SUCCESS: Interacting with 'A' (Turn 977) picked up Potion. Tile is now clear. This confirms some items need 'A' interaction, not just walking over.
 
