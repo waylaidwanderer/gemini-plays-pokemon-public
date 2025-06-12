@@ -49,13 +49,12 @@
 
 - Wild ODDISH Lv5 defeated in Viridian Forest (approx (19,38)). FLAREE used Ember (crit, super effective). Enemy used PoisonPowder, FLAREE poisoned. Message: SPBARKY gained 27 EXP (no change, still 1728, capped). FLAREE gained 27 EXP (781 -> 808).
 
-# Current Agent Path (map_analyzer_agent to Viridian Forest North Exit)
-*   Full Path (130 presses) from (12,33) to (2,1) or (3,1) is recorded for reference.
-*   **Current Segment Interruption:** Battle started at (19,41) during planned path from (12,33).
-    *   Intended segment: (12,33) -> (26,42) using 23 presses.
-    *   Actual presses before battle: 16 presses, reaching (19,41).
-*   **Remaining Path from Full Plan (after current battle):** Start from (19,41), 114 presses remaining. First 7 presses of remaining path: ['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right'] to reach (26,41), then continue with 'Up' sequence.
-*   **Strategy:** Break down remaining 114 presses into shorter segments, especially while FLAREE is poisoned. Prioritize healing FLAREE if a Pokecenter becomes accessible or an Antidote is found.
+# Current Manual Path (Viridian Forest North Exit)
+*   Reason: Previous agent paths failed (led to sign, LLM error, or based on flawed assumptions like pathing through (19,32) which is blocked). Current location (19,33) is blocked upwards. Pathing agents are unreliable in this area. Adopting decisive manual pathing to exit quickly.
+*   Objective: Reach (9,30) via a 15-step westward and northward path to access the NW quadrant leading to the exit.
+*   Planned Presses (16 total: 2 for Pikachu interaction, 14 for subsequent moves): ['Left', 'Left', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Up', 'Up']
+*   Destination: (9,30)
+*   FLAREE HP projection: Start 17/28 -> End 14/28.
 
 # Pathing Agent Failures (Viridian Forest)
 *   `map_analyzer_agent` (Path to North Exit from (22,41)) - Attempt 1: Path led to impassable sign at (25,41). Attempt 2 (Turn 6443): Agent LLM error, no path provided.
