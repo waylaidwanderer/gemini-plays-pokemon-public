@@ -17,10 +17,9 @@
 # Agent Usage Plan & Review Notes
 *   **`map_analyzer_agent`:** Primary tool for pathfinding. Review output, validate paths in segments.
 *   **`move_validator_agent`:** Use for complex/risky path segments. (Note: Has had system errors).
-*   **`exploration_planner_agent`:** Currently unreliable. Review prompt for improvements (e.g., focus on smaller segments, provide more goal context) before further use.
+*   **`exploration_planner_agent`:** Prompt updated. Still needs cautious use, especially regarding paths involving ledges.
 *   **`scripted_event_tracker_agent`:** Use cautiously, effectiveness against Pewter Youngster event was limited.
-*   **`route_progress_analyzer_agent`:** Use for routes to identify remaining trainers/items (e.g., Route 2).
-*   **`money_management_agent`:** Use when shopping with funds.
+*   **`pp_management_agent`:** To be defined. Use before long routes or major battles.
 *   Ensure agents with `agent_can_run_code: true` are NOT fed `map_xml_string` or `world_knowledge_graph_json_string` as direct inputs.
 
 # Map Marker Legend
