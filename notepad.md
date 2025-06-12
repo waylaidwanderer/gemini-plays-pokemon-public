@@ -122,3 +122,5 @@
 - Reminder: Prioritize reviewing `map_exploration_strategist_agent` and `item_finder_agent` prompts soon.
 
 - Traded Pokémon (outsiders) grow fast but might ignore unskilled trainers. BADGEs help ensure they obey. (Learned in Pewter Nidoran House)
+
+- Cooltrainer M at (18,26) in Pewter City mentioned Brock is 'totally into it!' (non-battling NPC).
