@@ -123,3 +123,6 @@
 
 ## Agent Usage & Failures
 - **route_pathfinder (Turn 477):** Failed with error "Agent LLM resp missing content (Iter 1)" when trying to path from (14,21) to (17,14) on Route 1. Had to resort to manual path planning.
+
+## Game Mechanics & Rules (Additions)
+- **STAT Experience:** Pokémon gain increased stats from EXP that enemy trainers' Pokémon don't have. Training a Pokémon from a low level (e.g., Lv5 to Lv50) can result in stats comparable to a much higher level opponent (e.g., Lv60).
