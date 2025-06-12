@@ -85,7 +85,7 @@
 
 *   **`map_analyzer_agent` Failure (Turn 6114):** Provided a path segment (32,8) -> (31,8) on Route 22 that was blocked by the game (ledge or impassable). Required manual rerouting.
 
-# Route 22 - Final Exploration & Exit Strategy (Turn 6157)
+# Route 22 - Final Exploration & Exit Strategy (Turn 6158)
 *   **Objective:** Explore remaining unseen tiles on Y=6 at (3,6) and (4,6).
 *   **Path from current position (9,7) on Route 22:**
     1.  Move Left from (9,7) to (3,7).
