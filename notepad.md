@@ -75,3 +75,5 @@
 ## Future Agent Ideas
 - **Pathfinding Agent:** Takes map XML, start/end coordinates, outputs optimal path. Requires code execution.
 - **Strategic Advisor Agent:** Analyzes upcoming challenges (e.g., Gym Leaders), suggests team compositions/strategies based on known data. Requires code execution.
+
+- Poison-type is super effective against Bug-types. Bug-type is no longer super effective against Poison-types. (Source: Oak's Lab Girl at (2,9))
