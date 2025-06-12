@@ -116,7 +116,7 @@
 *   This is the 4th major strategy attempt for this general area. Resorting to `map_analyzer_agent` to find a path from (18,41) to (2,1).
 
 # Reflection & Agent To-Do (Turn 6701)
-*   **Agent Testing Priority:** Systematically test `training_spot_advisor`, `path_segmenter_agent`, `emergency_exit_planner_agent`, `hm_usage_advisor_agent` soon.
+*   **Agent Testing Priority:** Systematically test `training_spot_advisor` and `emergency_exit_planner_agent` when suitable situations arise. `path_segmenter_agent` was successfully tested. `hm_usage_advisor_agent` is not testable yet (no HMs).
 *   **Low-Usage Agent Evaluation:** Evaluate `team_builder_agent` and `battle_log_analyzer_agent` for utility or design refinement.
 *   **Map Marker Reminders:** Mark defeated trainers (e.g., Pewter Gym) and key used warps (e.g., Viridian Forest exits) more consistently.
 *   **Hindsight Learning:** Utilize `map_analyzer_agent` earlier for complex navigation after 1-2 failed manual strategies. Be extra cautious with warp tile mechanics post-transition.
