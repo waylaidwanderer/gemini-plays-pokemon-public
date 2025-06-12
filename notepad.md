@@ -111,3 +111,6 @@
 
 ## Pokémon Updates (Turn 1481)
 - SPARKY (PIKACHU) Lv12: Reached level cap (0 badges).
+
+## Agent Ideas (Review & Action)
+- Review existing agent ideas ('HM Usage Advisor', 'Pokédex Completion Strategist', 'Shop Analyzer'). Decide to implement or discard to reduce clutter. (Turn 1500)
