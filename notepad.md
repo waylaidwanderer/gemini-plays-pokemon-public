@@ -68,19 +68,20 @@
     3.  From around (17,15), move north into the *western* grass strip (e.g., to (17,10) or (17,11)).
     4.  Explore west and east from this entry point to clear all unseen tiles on Y=10.
 
-# Current Plan - Route 22 Exploration (Turn 6085 - Revised Corrected Strategy III)
-*   **Objective:** Reach all 14 unseen tiles on Y=10 (located in western/central northern grass strip).
-*   **Current Position:** (17,15) on lower path.
-*   **Strategy Steps (New Conclusion - Turn 6085):**
-    1.  (Done) Be on the lower path (Y=15 or Y=16). Currently at (17,15).
-    2.  Travel EAST along the lower path from (17,15) to (30,15). (Current action)
-    3. (Corrected) Move Right from (30,15) to (31,15). Then, move North from (31,15) up to (31,13) (ground), then further North to (31,6) (ground). Finally, move Left from (31,6) to (30,6) (ground, where rival SPB was).
-    4.  Move West from (30,6) along the upper path (Y=5 or Y=6) to approximately X=17 (e.g., (17,6) or (17,5)).
-    5.  From (17,5/6), move south to (17,8), which is a LEDGE.
-    6.  Jump down the ledge at (17,8) to land at (17,9) (grass).
-    7.  From (17,9) grass, move to (17,10) grass (seen tile, but access point to unseen areas).
-    8.  Explore west from (17,10) to clear unseen tiles around (3,10)-(12,10).
-    9.  Explore east from (17,10) to clear unseen tiles around (23,10)-(26,10).
+# Route 22 - Revised Strategy IV (Turn 6092)
+*   **Problem:** Cannot directly access upper path (Y=5/6) from lower path (Y=15/16) on Route 22 due to Y=14 ledges. Previous "Corrected Strategy III" was flawed.
+*   **Objective:** Reach unseen tiles on Y=10 (western grass strip).
+*   **Current Position:** (31,15) on Route 22.
+*   **New Approach:**
+    1.  Exit Route 22 to Viridian City via an upper path exit (e.g., (40,7) on Route 22). Path: (31,15) -> Right to (38,15) -> Up to (38,7) -> Right to (40,7) -> Right to exit.
+    2.  In Viridian City, immediately re-enter Route 22, aiming to arrive on Route 22's upper path (e.g., at (40,7) or similar).
+    3.  On Route 22's upper path, travel west to approx. X=17 (e.g., (17,6) or (17,5)).
+    4.  From (17,5/6), move south to (17,8) (ledge).
+    5.  Jump down the ledge at (17,8) to land at (17,9) (grass).
+    6.  From (17,9) grass, move to (17,10) grass.
+    7.  Explore west from (17,10) to clear unseen tiles around (3,10)-(12,10).
+    8.  Explore east from (17,10) to clear unseen tiles around (23,10)-(26,10).
+*   **Current Action:** Navigate from (31,15) on Route 22 to the eastern exit at (40,7) to enter Viridian City. Start by moving Right to (38,15).
 
 # Agent Ideas (Notepad - Turn 6077)
 *   Specialized Exploration Agent: Could analyze map XML and `reachable_unseen_tiles` to identify isolated sections or complex ledge navigation requirements, providing more nuanced pathing advice than the current `exploration_planner_agent` for very tricky maps.
