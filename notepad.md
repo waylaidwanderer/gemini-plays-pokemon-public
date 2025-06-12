@@ -7,15 +7,16 @@
 *   **Current Location:** (17,19) in Pewter City.
 *   **Immediate Goal:** Reach Pewter Pokecenter at (14,26) to heal FLAREE (6/26 HP). See 'Pewter Pokecenter Access' plan below.
 *   **Youngster (ID 5) Status:** Currently at (36,17). He triggers an escort event if approached in eastern Pewter City (e.g., from (37,19), (38,19), (30,19)), moving player to (12,19).
-*   **Post-Healing Plan for Route 3 (East Pewter Exit at (40,19) - Revised Turn 5596)**:
+*   **Post-Healing Plan for Route 3 (East Pewter Exit at (40,19) - Revised Turn 5597)**:
     *   Current position: (35,30) facing Up. Pikachu at (35,31).
-    *   Blockage Update: Tile (35,18) confirmed impassable by `move_validator_agent` despite XML indicating 'ground'. This blocks previous northern approach via Y=18.
+    *   Blockage Update: `move_validator_agent` confirmed tile (35,26) is impassable, blocking northward movement on X=35 beyond (35,27). Previous plan to reach (35,19) or (35,18) via X=35 is invalid.
     *   The X=36 column is impassable from Y=21 down to Y=32.
-    *   **Current Plan (HIGH RISK of Youngster escort):**
-        1.  From (35,30), move North to (35,19). (11 steps Up)
-        2.  From (35,19), move East to (40,19) (Route 3 exit). Path: (35,19)->(36,19)->(37,19)->(38,19)->(39,19)->(40,19).
-        3.  This path directly crosses (36,19), which is adjacent to Youngster (36,17) and likely a trigger zone.
-        4.  Consider using `scripted_event_tracker_agent` for the segment from (35,19) eastward if this direct approach fails or to pre-check.
+    *   **New Plan (EXTREMELY HIGH RISK of Youngster escort):**
+        1.  From (35,30), move North to (35,27). (3 steps Up)
+        2.  From (35,27), move East to (40,27). Path: (35,27)->(36,27)->(37,27)->(38,27)->(39,27)->(40,27).
+        3.  This path passes very close to Youngster (ID 5) at (36,17) and is highly likely to trigger an escort.
+        4.  From (40,27), move North to (40,19) (Route 3 exit).
+        5.  If escorted, will need to re-evaluate from Gym entrance (12,19).
 *   **Known Pathing Obstacles in Western/Central Pewter (near Pokecenter/Gym):**
     *   (19,19) - Impassable (blocks eastward movement from Gym area pocket).
     *   (17,18) - Gym Warp.
