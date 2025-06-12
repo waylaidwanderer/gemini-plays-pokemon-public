@@ -23,7 +23,7 @@
     *   Behavior: Triggers an escort to the Gym entrance. This is not solely based on stepping on fixed map tiles. Proximity to Youngster, his facing, and player's movement vector likely play a role. The event most recently triggered when moving from (37,19) to (38,19) while Youngster was at (36,17).
     *   Marked potential trigger zones (still worth caution): (36,17), (35,17), (30,19), (34,19), (36,18), (38,19), (38,20). (30,19) is also a drop-off point.
     *   Strategy: For any movement in eastern Pewter City (approx. X > 25), use `scripted_event_tracker_agent` with Youngster's *current coordinates* from Game State as the primary trigger to monitor.
-*   **Western Pewter Obstacles & Route 3 Plan:** Current: (33,20) facing Down. Path to (34,19) [TRIGGER]: (33,20) -> Up to (33,19) -> Right to (34,19). From (34,19) [TRIGGER], plan to proceed east to (40,19). Youngster at (36,17). Will use event tracker from (34,19).
+*   **Pewter City East Navigation (Route 3):** Current: (35,19) facing Right. Pikachu at (34,19). Youngster at (36,17). Plan: Proceed east along Y=19 to (40,19). Next step (36,19). Will use `scripted_event_tracker_agent` *before each step* in this eastern section due to Youngster's proximity and unpredictable escort trigger.
 
 # Agent Usage Plan
 *   **`scripted_event_tracker_agent`:** Use for *every step* in eastern Pewter City (X > 25), inputting Youngster's current sprite coordinates as the main trigger point with a radius (e.g., r=2 or r=3).
