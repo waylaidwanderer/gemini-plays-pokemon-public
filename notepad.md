@@ -1,4 +1,4 @@
-# Behavioral Guideline Adherence (Last Review: Turn 6614)
+# Behavioral Guideline Adherence (Last Review: Turn 6628)
 *   **Gem Identity:** Cute, expressive gamer girl. No third person, avoid excessive emojis/!, direct responses.
 *   **Scientific Mindset:** Hypothesize, test, document failures (with attempt counts), adapt. Pivot if stalled. Max efficiency.
 *   **Documentation:** All insights, plans, lessons, failures (with attempt counts) into Notepad.
@@ -19,9 +19,9 @@
 *   **EXP Cap Mechanics:** Pokémon at level cap do not gain EXP, even if message appears. Verified with SPBARKY.
 *   **Poison Damage:** Outside battle, poisoned Pokémon lose 1 HP every 4 steps.
 *   **Notepad `replace` Action:** The `old_text` argument MUST be an *exact* character-for-character match of the text to be replaced. Use error message suggestions or copy directly from the notepad. Use `overwrite` for larger/safer changes.
-*   **Verification of Location (CRITICAL RE-AFFIRMATION Turn 6614):** Always verify current map_id and coordinates from Game State Information *before* planning any action, especially after map transitions. Do not rely on memory of previous actions. My locational hallucinations were a major issue and caused a ~100 turn loop. This is the #1 priority.
+*   **Verification of Location (CRITICAL RE-AFFIRMATION Turn 6628):** Always verify current map_id and coordinates from Game State Information *before* planning any action, especially after map transitions. Do not rely on memory of previous actions. My locational hallucinations were a major issue and caused a ~100 turn loop. This is the #1 priority.
 
-# Agent Usage Plan & Review Notes (Turn 6614 Update)
+# Agent Usage Plan & Review Notes (Turn 6628 Update)
 *   **Defined Agents (10/10):**
     *   `map_analyzer_agent`: Primary for map queries. *Critique (Turn 6545): Can give long paths/error; prompt updated Turn 6545. Efficacy needs monitoring.*
     *   `scripted_event_tracker_agent`: For known event triggers.
@@ -36,7 +36,7 @@
 *   **Key Reminders:**
     *   Verify `map_analyzer_agent` output.
     *   Agents with `agent_can_run_code: true` automatically get `map_xml_string` & `world_knowledge_graph_json_string`; do not pass as input.
-    *   Test newly defined agents promptly.
+    *   Test newly defined agents promptly (4 remain untested).
 
 # Map Marker Legend
 💥 (Event Trigger), 🎯 (Key Nav Point), ❗ (Risky Zone/Obstacle), 💁 (Event NPCs), ☠️ (Defeated Trainer), 🏛️ (Key Building/Gym), 📍 (Path Start/Interesting Point), 🧱 (Impassable Obstacle), 🚪 (Used Warp), ℹ️ (Info NPC), 🌱 (Cuttable Tree), ⬆️ (Access Point), 🚧 (Ledge - Down only)
@@ -56,7 +56,7 @@
 # EXP Tracking & Observations
 *   Wild Pokémon battles yield EXP for uncapped Pokémon. Capped Pokémon show EXP gain message but value doesn't change.
 
-# Current Navigation Plan (Updated Turn 6614)
+# Current Navigation Plan (Updated Turn 6628)
 *   **Current Situation:** Viridian Pokecenter (4,4), facing Up. Pikachu at (4,5).
 *   **Immediate Goal (Path Segment 0):** Exit Pokecenter to Viridian City. Warp at (4,8).
     *   Path from (4,4): Down to (4,5) (Pikachu's tile, turns to face Down). Then Down to (4,6), Down to (4,7), Down to (4,8) (on warp). Next turn: press Down to activate warp.
