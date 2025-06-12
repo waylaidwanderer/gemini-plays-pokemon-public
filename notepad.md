@@ -36,7 +36,7 @@
 
 # Party Status
 *   SPBARKY (PIKACHU): Lv12 (39/39 HP) (Capped)
-*   FLAREE (VULPIX): Lv8 (26/26 HP)
+*   FLAREE (VULPIX): Lv8 (26/26 HP, EXP: 732)
 *   ODDISH (ODDISH): Lv12 (37/37 HP) (Capped)
 
 # World Knowledge Graph (WKG) Management
