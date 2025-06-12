@@ -40,57 +40,49 @@
     - Mark used warps on both entry and exit tiles immediately.
     - Mark defeated trainers.
     - Mark strategic points, interaction loops, and dead ends.
+    - Mark interacted signs/objects that provide static info.
 - **Reflection (Turn 50):** Repeatedly failed `manage_world_knowledge` due to incorrect payload for `add_node`. Must read tool docs carefully. Need to start using map markers and update notepad more proactively.
 - **Reflection (Turn 153):**
     - Misidentified Rival's House as Oak's Lab, costing turns. Pay closer attention to map data and dialogue.
     - Repetitive interactions with non-progressing objects/NPCs (Oak's Lab Poké Ball, BLAZe) are inefficient. Switch strategies faster.
     - Systematically explore all interaction points before repeating failed attempts.
+- **Reflection (Turn 205):**
+    - **Navigation:** Pallet Town navigation was inefficient due to not carefully checking map memory for obstacles (fences, signs). This cost multiple turns (e.g., reaching Player's House, Oak's Lab). Plan paths more carefully or use the `pathfinding_agent`.
+    - **Tool Usage:** Ensure exactness with `old_text` for `notepad_edit`'s "replace" action.
+    - **Agent Usage:** Could have used `pathfinding_agent` for recent tricky navigation in Pallet Town.
+    - **Interaction Strategy:** Avoid repeating interactions with objects/NPCs that result in loops (e.g., Oak's Lab Poké Ball, BLAZe) without first exploring all other options.
 
 ## Tile Types Discovered
 - (To be populated as new types are encountered and understood)
 
 ## Type Matchup Discoveries
-- Ghost-type is super effective against Psychic-types (Source: Oak's Lab Scientist 1).
-- Poison-type is super effective against Bug-types. Bug-type is no longer super effective against Poison-types. (Source: Oak's Lab Girl at (2,9)).
+- Ghost-type is super effective against Psychic-types. (Source: Oak's Lab Scientist 1 at (3,11) & Scientist 2 at (9,11))
+- Poison-type is super effective against Bug-types. Bug-type is no longer super effective against Poison-types. (Source: Oak's Lab Girl at (2,10))
 
 ## Defeated Trainers
 - (Format: [Trainer Name] - [Map Name] at (X,Y))
 
-## Key Discoveries & Item Locations
-- Player's House Second Floor: PC at (1,2).
-- Pallet Town:
-    - PALLETTOWN_GIRL NPC at (3,11).
-    - PALLETTOWN_PLAYERSHOUSE_SIGN at (4,6).
-    - PALLETTOWN_SIGN at (8,10).
-    - Rival's House entrance (Warp): (14,6).
-    - PALLETTOWN_RIVALSHOUSE_SIGN at (12,6).
-    - Oak's Lab entrance (Warp): (13,12). Leads to Oak's Lab (map_id 40) at (5,12) or (6,12).
-- Rival's House:
+## Key Discoveries & Event Chronology
+- **Player's House Second Floor (Map ID 38):** PC at (1,2).
+- **Pallet Town (Map ID 0):**
+    - PALLETTOWN_PLAYERSHOUSE_SIGN at (4,6) interacted: "PLAYER's HOUSE".
+    - PALLETTOWN_SIGN at (8,10) interacted: "PALLET TOWN - Shades of your journey await!".
+    - Rival's House entrance (Warp): (14,6). Leads to Rival's House (Map ID 39).
+    - Oak's Lab entrance (Warp): (13,12). Leads to Oak's Lab (Map ID 40).
+- **Rival's House (Map ID 39):**
     - Spoke to Daisy at (3,4). She said BLAZe is at Grandpa's lab.
     - Obtained Town Map from Rival's House at (4,4) after talking to Daisy.
-- Oak's Lab:
-    - Poké Ball at (8,4) results in an interaction loop ("That's a POKé BALL. There's a POKéMON inside!"). Not a starter.
-    - BLAZe at (5,4) results in an interaction loop ("Yo Gem! Gramps isn't around!...").
-    - Scientist 1 at (3,11) provides type matchup info (Ghost > Psychic).
+- **Oak's Lab (Map ID 40):**
+    - Poké Ball at (8,4) results in an interaction loop ("That's a POKé BALL..."). Not a starter.
+    - BLAZe (OAKSLAB_RIVAL) at (5,4) results in an interaction loop ("Yo Gem! Gramps isn't around!...).
+    - Scientist 1 (OAKSLAB_SCIENTIST1) at (3,11): Ghost > Psychic.
+    - Girl (OAKSLAB_GIRL) at (2,10): Poison > Bug; Bug !> Poison.
+    - Scientist 2 (OAKSLAB_SCIENTIST2) at (9,11): Repeated Ghost > Psychic.
+    - Pokédexes at (3,2) & (4,2) (OAKSLAB_POKEDEX1, OAKSLAB_POKEDEX2): "pages are blank!".
+    - Conclusion: Starter Pokémon trigger is not a static object/NPC interaction in the lab's initial state.
+- **Player's House First Floor (Map ID 37):**
+    - Mom (PLAYERSHOUSE1F_MOM) at (6,5) said: "Right. All kids leave home someday. It said so on TV. PROF.OAK, next door, is looking for you." This is the current lead.
+- **Warp Visit Counts:** `num_visits: 0` for an entry warp in Game State seems to be a display characteristic and doesn't mean it's truly unvisited if WKG indicates prior use.
 
 ## Future Agent Ideas
 - **Strategic Advisor Agent:** Analyzes upcoming challenges (e.g., Gym Leaders), suggests team compositions/strategies based on known data. Requires code execution.
-
-- Poison-type is super effective against Bug-types. Bug-type is no longer super effective against Poison-types. (Source: Oak's Lab Girl at (2,9))
-
-- Scientist 2 at (9,11) repeated Scientist 1's dialogue (Ghost > Psychic).
-
-## Oak's Lab Exhaustion (Turn 178)
-- Interacted with OAKSLAB_POKEDEX2 at (4,2): "It's encyclopedia-like, but the pages are blank!". Same as POKEDEX1.
-- All interactable objects in Oak's Lab have now been checked (Rival, Poké Ball, 3 NPCs, 2 Pokédexes) without obtaining a Pokémon. 
-- Hypothesis: The trigger for obtaining a starter Pokémon is not a direct interaction with a static object in Oak's Lab as it currently is. It may require leaving the lab, Professor Oak returning, or another event occurring in Pallet Town.
-
-## Pallet Town Exploration (Post-Oak's Lab Attempt 1)
-- Interacted with PALLETTOWN_SIGN at (8,10): "PALLET TOWN - Shades of your journey await!". No event triggered.
-- Next step: Investigate the warp at (6,6) (Player's House entrance). Game state lists it as `num_visits: 0`, which is inconsistent with WKG. This is a priority.
-
-## Player's House Exploration (Turn 191)
-- Entered Player's House. No immediate Pokémon event triggered.
-- The warp at (6,6) in Pallet Town (Player's House entrance) showed `num_visits: 0` before use. This seems to be a display characteristic for entry warps, as the WKG connection was correct and the warp worked. The discrepancy is considered resolved.
-- New secondary goal: Explore Player's House (both floors) for event triggers or Pokémon.
-- New tertiary goal: Interact with Mom on the first floor.
