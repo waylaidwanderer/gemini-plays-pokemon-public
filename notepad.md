@@ -50,11 +50,12 @@
 - Wild ODDISH Lv5 defeated in Viridian Forest (approx (19,38)). FLAREE used Ember (crit, super effective). Enemy used PoisonPowder, FLAREE poisoned. Message: SPBARKY gained 27 EXP (no change, still 1728, capped). FLAREE gained 27 EXP (781 -> 808).
 
 # Current Agent Path (map_analyzer_agent to Viridian Forest North Exit from (7,32)) - Attempt 6
-*   Reason: Previous manual pathing and agent attempts failed or were inefficient. FLAREE HP critical (14/28, poisoned). Agent provided a 146-step path.
-*   Strategy: Follow agent path in segments. First segment is 8 steps to (7,40).
-*   Full Path (from agent): (7,32) -> (7,33) -> (7,34) -> (7,35) -> (7,36) -> (7,37) -> (7,38) -> (7,39) -> (7,40) ... [rest of 146 steps]
-*   Current Segment Presses (8 total): ['Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down']
-*   FLAREE HP projection for segment: Start 14/28 -> End 12/28.
+*   Reason: Previous manual pathing and agent attempts failed or were inefficient. FLAREE HP critical (12/28, poisoned). Agent provided a 146-step path.
+*   Strategy: Following agent path in segments.
+*   Full Path (from agent): (7,32) -> ... -> (2,1) [146 steps total]
+*   Segment 1 (Completed): (7,32) to (7,40) - 8 presses. FLAREE HP: 14/28 -> 12/28.
+*   Segment 2 (Current): (7,40) to (14,41) - 8 presses: ['Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right']
+*   FLAREE HP projection for Segment 2: Start 12/28 -> End 10/28.
 
 # Pathing Agent Failures (Viridian Forest)
 *   `map_analyzer_agent` (Path to North Exit from (22,41)) - Attempt 1: Path led to impassable sign at (25,41). Attempt 2 (Turn 6443): Agent LLM error, no path provided.
