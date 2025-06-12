@@ -1,7 +1,7 @@
-# Current Plan - Route 22
-*   **Objective:** Defeat Rival SPB. Explore Route 22 for trainers/items. Acquire funds.
-*   **Reason:** Need funds for supplies. Need EXP for non-capped Pokemon. Progress towards Pewter City.
-*   **Status:** On Route 22 at (30,5). Rival SPB is at (30,6). Battle imminent.
+# Current Plan - Route 22 & Pewter City
+*   **Objective:** Fully explore Route 22 for any remaining items/trainers. Then, proceed to Pewter City to challenge Brock.
+*   **Reason:** Acquired ¥280 from SPB (total ¥436). Need to clear current route before progressing. Primary goal is Boulder Badge.
+*   **Status:** On Route 22 at (30,5). Rival SPB defeated. Exploring unseen tiles.
 
 # Lessons Learned & Game Mechanics
 *   **Pewter Youngster Escort (Route 3 Blocker):** Youngster (ID 5, trigger near (36,17) in Pewter) blocks Route 3. Avoid this area for now.
