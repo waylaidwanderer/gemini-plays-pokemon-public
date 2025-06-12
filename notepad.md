@@ -6,14 +6,21 @@
 # Pewter City Strategy & Current Plan
 *   **Current Location:** (34,21) in Pewter City, facing Up. Pikachu at (34,22).
 *   **Immediate Goal:** Reach Route 3. Current plan is Attempt #5 for a northern/north-western approach after healing.
-*   **Current Route 3 Strategy (Attempt #6c - Gym Warp Reset & Re-evaluate):**
-    1.  Attempt #6b failed: (18,18) is impassable (screen confirmed), blocking the Y=18 bypass from X=18. Current position (18,19) facing Up. Pikachu at (18,20).
-    2.  This area (X=17-18, Y=19-21) is a pocket. East is blocked by impassable (19,19)-(19,22). North from (18,19) is blocked by (18,18).
+*   **Current Route 3 Strategy (Attempt #6d - Gym Reset & Far West-South-East Detour):**
+    1.  Attempt #6c failed: Path south along X=17 from (17,21) is blocked by impassable (17,22). Current position (17,21).
+    2.  The area (X=5-18, Y=19-21) is a confirmed pocket. Only exit is Gym warp (17,18).
     3.  Plan:
-        a.  Move West from (18,19) to (17,19).
-        b.  Move North from (17,19) to (17,18) (Gym Warp).
-        c.  Exit Gym (will land at (17,19) in Pewter City).
-        d.  From (17,19), attempt a new path to Route 3. A potential path is south along X=17 to Y=27, then east to X=20 (to bypass the impassable X=19 wall at Y=19-22), then continue east and north: (17,19) -> (17,27) -> (20,27) -> (40,27) -> (40,19).
+        a.  From current (17,21), move North to (17,18) (Gym Warp).
+        b.  Enter Gym, then immediately exit. Land at (17,19) in Pewter City.
+        c.  From (17,19), navigate: West to (5,19).
+        d.  From (5,19), South to (5,32).
+        e.  From (5,32), East to (35,32).
+        f.  From (35,32), North to (35,30).
+        g.  From (35,30), East to (37,30).
+        h.  From (37,30), South to (37,32).
+        i.  From (37,32), East to (40,32).
+        j.  From (40,32), North to (40,19) (Route 3 exit).
+    4.  This is a long detour but aims to bypass all previously encountered X=19, Y=22, and X=36 blockades systematically.
 *   **Known Pathing Obstacles in Pewter City:**
     *   (34,20) - Impassable building facade.
     *   (36,27) - Impassable.
