@@ -87,7 +87,7 @@
 - **Warp Visit Counts:** `num_visits: 0` for an entry warp in Game State seems to be a display characteristic and doesn't mean it's truly unvisited if WKG indicates prior use.
 
 ## Future Agent Ideas
-- **Strategic Advisor Agent:** Analyzes upcoming challenges (e.g., Gym Leaders), suggests team compositions/strategies based on known data. Requires code execution.
+(No specific ideas at the moment)
 
 - Oak's Lab (Event State):
     - Professor Oak at (2,9) confirmed: Poison > Bug; Bug !> Poison.
