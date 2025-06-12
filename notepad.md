@@ -59,7 +59,7 @@
 4.  **Trainer Battle Strategist** (`trainer_battle_strategist`): Analyzes teams for battle strategy.
 
 ### New Agent Ideas (To Be Defined Later):
-- None currently.
+- EXP Tracker / Grinding Spot Agent: To identify good training locations and track EXP gains. (Idea: Turn 1077)
 
 ## Lessons Learned & Strategy Refinements
 -   **Trust Game State**: GSI is absolute truth for dynamic data (NPCs, items, map connections reachability).
