@@ -121,6 +121,4 @@
 *   Will define the 'Level Cap Compliance Agent' this turn.
 
 ## Route 1 - Youngster Battle Attempts
-*   Failed to initiate battle with Youngster at (6,25) by approaching from (6,27) or (6,26) (directly below him) 4 times. He was facing up or down. Movement was blocked. Will try approaching from an adjacent side tile.
-
-*   Failed to battle Youngster on Route 1 (Sprite ID 1) from (6,25) by moving to (6,26) (Youngster at 6,27 facing down). Movement blocked. This is the 5th overall failed attempt to position for battle by moving to an adjacent tile or into LoS.
+*   Abandoned attempts to battle Youngster on Route 1 after 6+ documented failures from various adjacent tiles and LoS positions. Current approach is not working. Will prioritize exploration or moving to Viridian City.
