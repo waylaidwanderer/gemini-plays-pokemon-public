@@ -67,3 +67,11 @@
 *   **Path Segment 3 (Viridian Forest):** Navigate Viridian Forest from South Entrance (17,48) to North Exit (warp at (2,1) or (3,1)).
 *   **Path Segment 4 (Route 2 North):** Navigate Route 2 North to Pewter City entrance (map edge at (9,1)).
 *   **Objective:** Reach Pewter City to challenge Brock for the Boulder Badge.
+
+# Viridian City Navigation Update (Turn 6665)
+*   Attempt to move Up from (23,27) blocked; tile (23,26) is impassable (Pokecenter wall).
+*   **Revised Path Segment 1 (Viridian City):**
+    1.  From (23,27), move Left to (22,27).
+    2.  Move Up from (22,27) to (22,17) (to get past the school building area).
+    3.  Move Left from (22,17) to (19,17).
+    4.  Move Up from (19,17) to (19,1) (Route 2 North Exit).
