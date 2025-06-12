@@ -60,6 +60,7 @@
 
 ### New Agent Ideas (To Be Defined Later):
 - EXP Tracker / Grinding Spot Agent: To identify good training locations and track EXP gains. (Idea: Turn 1077)
+- Path Simplifier Agent: Takes a list of path coordinates and converts it into a sequence of "Move X direction Y times" for easier `buttons_to_press` generation. (Idea: Turn 1129)
 
 ## Lessons Learned & Strategy Refinements
 -   **Trust Game State**: GSI is absolute truth for dynamic data (NPCs, items, map connections reachability).
