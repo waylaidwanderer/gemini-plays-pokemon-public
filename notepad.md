@@ -103,3 +103,5 @@
 - Define or discard `wild_encounter_evaluator_agent` and `map_exploration_strategist_agent` ideas.
 - Implement updates for `trainer_battle_strategist` (custom types, Hard Mode) and `item_finder_agent` (broader scope).
 - Test `pokedex_completion_tracker` or decide on deletion/redesign.
+
+- Money is now ¥353 after blacking out (Turn 1333).
