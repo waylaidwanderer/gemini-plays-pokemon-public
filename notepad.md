@@ -89,9 +89,6 @@
 - Nicknaming UI: Pay closer attention to avoid errors.
 - Failed Hypotheses: Document attempts and number of failures. E.g., Exiting Pewter Mart - numerous failed attempts due to mislocating self or NPC blocking specific warp tiles. Successfully exited Pewter Mart by careful verification of map state, NPC positions, and adaptive pathing.
 
-## Behavioral Guidelines (Internalized)
-- (Summary of guidelines internalized)
-
 ## Pewter City Exploration & Brock Prep Plan (Current Focus)
 - **Immediate (Post-Museum):** Systematically explore all reachable unseen areas of Pewter City. Interact with ALL NPCs to find trainers to battle for money and EXP. Mark defeated trainers.
 - **Training Strategy:** 
