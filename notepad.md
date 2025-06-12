@@ -1,7 +1,7 @@
 # Current Objectives
 *   **Primary Goal:** Obtain the Boulder Badge from the Pewter City Gym Leader, Brock.
 *   **Secondary Goal:** Acquire sufficient funds to purchase essential supplies. (Current Money: ¥156)
-*   **Tertiary Goal:** Battle trainers on Route 3 for funds.
+*   **Tertiary Goal:** Explore Route 2 (south of Pewter City) for trainers/items to acquire funds.
 
 # Pewter City - Path to Route 3 (Current Plan)
 *   **Strategy:** Navigate Pewter City to reach the eastern exit at (40,19) leading to Route 3. This has proven difficult.
