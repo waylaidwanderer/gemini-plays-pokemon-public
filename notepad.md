@@ -28,9 +28,9 @@
 - After Lance: 65
 
 ## Current Goals & Plans
-- **Primary:** Obtain my first Pokémon.
-- **Secondary:** Receive a starter Pokémon from Professor Oak.
-- **Tertiary:** Follow Professor Oak's instructions.
+- **Primary:** Defeat Brock, the Pewter City Gym Leader.
+- **Secondary:** Prepare for the Pewter City Gym battle (train Pikachu, potentially catch more Pokémon).
+- **Tertiary:** Explore Pallet Town and Route 1 for items, trainers, and Pokémon.
 
 ## Strategy Notes & Lessons Learned
 - **World Knowledge Graph (WKG):** Record transitions (map changes) immediately. `add_node` payload should NOT include an `id`. Use descriptive names and tags for nodes. Ensure `destination_entry_point` is accurate for warp edges.
