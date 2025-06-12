@@ -56,10 +56,8 @@
 ## Defeated Trainers:
 *   (Map - Coordinates - Trainer Name)
 
-## Potential Custom Agents Ideas:
-*   Pathfinding agent for known maps.
-*   Team composition analyzer (type matchups).
-*   Puzzle solver (e.g., boulder puzzles).
+## Custom Agent Considerations:
+*   Ideas for future agents (pathfinding, team analysis, puzzle solving) are noted. Will decide on creation/implementation after initial game progression and when a clear need arises.
 
 ## World Knowledge Graph Notes:
 *   Record inter-map transitions (map boundary, warps) IMMEDIATELY using `manage_world_knowledge`.
