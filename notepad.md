@@ -53,3 +53,7 @@
 *   **Youngster (ID 2) at (11,7) on Route 3:** Dialogue loop ('than those found in the forest!'). 7 failed attempts (turns 6932-6936, 6938, 6940). Marked with ❗. **Status: Abandoned.**
 *   **Youngster (ID 3) at (15,5) on Route 3:** Dialogue loop ('when your box is full!'). 6 failed attempts (turns 6946-6948, 6950-6951, 6952). Marked with ❗. **Status: Abandoned.**
 *   **Youngster (ID 5) / BUG CATCHER at (20,6) on Route 3:** Battle Won. Post-battle dialogue loop ('If a POKéMON BOX...') for 10+ turns (6973-6987). Marked as defeated (☠️). **Status: Battle Won, dialogue loop problematic.**
+
+# Route 3 Navigation Update (Turn 7042)
+*   **Pewter City East Exits:** Confirmed that all tested eastern edge tiles in Pewter City ((40,17), (40,18), (40,19), (40,20)) lead to the *lower path* of Route 3. The upper path is not accessible via these specific exits. Previous WKG conflict for (40,19) resolved; it leads to Route 3 (2,11).
+*   **Current Strategy:** Explore the current lower path of Route 3, as there are reachable unseen tiles. Will re-evaluate access to the upper path later if necessary.
