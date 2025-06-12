@@ -84,7 +84,7 @@
 
 - Viridian Forest: Item Poké Ball at (2,32) appears to block movement despite GSI saying 'reachable'. Failed to move onto tile 2 times. (Turns 948, 949).
 
-- Viridian Forest: Item Poké Ball at (26,12) also appears to block movement despite GSI saying 'reachable'. Failed to move onto tile 1 time. (Turn 974). This is the second such item.
+- Viridian Forest: Item Poké Ball at (26,12) blocked movement. SUCCESS: Interacting with 'A' (Turn 977) picked up Potion. Tile is now clear. This confirms some items need 'A' interaction, not just walking over.
 
 ## Reflection Insights (Turn 975)
 - Item Interaction Hypothesis: If GSI says an item tile is 'reachable' but movement is blocked, I might be missing a specific interaction method (e.g., pressing 'A' on the tile, specific facing) rather than the item itself being an impassable barrier. Need to test this if direct movement fails again on an agent-suggested path over an item.
