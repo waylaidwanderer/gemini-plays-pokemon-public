@@ -55,3 +55,5 @@
 *   `map_analyzer_agent` (Path to North Exit from (22,41)) - Attempt 1: Path led to impassable sign at (25,41). Attempt 2 (Turn 6443): Agent LLM error, no path provided.
 *   `specialized_exploration_agent` (Path to North Exit from (22,41)) - Attempt 1 (Turn 6442): Agent stated it could not plan as 'reachable_unseen_tiles' was empty, despite map having unseen tiles.
 *   **Current Strategy:** Manual pathing in short segments towards North Exit.
+
+*   **CRITICAL (Turn 6545):** Always verify current map_id and coordinates from Game State Information *before* planning any action, especially after map transitions. Do not rely on memory of previous actions. My locational hallucinations were a major issue.
