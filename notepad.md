@@ -132,3 +132,6 @@
 
 ## Custom Agent Prioritization (Post-Feedback Turn 360):
 *   Will actively use `level_cap_compliance_agent` after this Route 1 exploration phase or next significant Pokémon acquisition/level-up to test its efficacy.
+
+## Battle Log (Route 1):
+*   Defeated Wild PIDGEY (Lv4) at (11,8). SPARKY gained 31 EXP (now 253 EXP). (Turn 406)
