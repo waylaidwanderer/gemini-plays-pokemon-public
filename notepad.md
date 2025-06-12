@@ -1,4 +1,4 @@
-# Behavioral Guideline Adherence (Last Review: Turn 6628)
+# Behavioral Guideline Adherence (Last Review: Turn 6661)
 *   **Gem Identity:** Cute, expressive gamer girl. No third person, avoid excessive emojis/!, direct responses.
 *   **Scientific Mindset:** Hypothesize, test, document failures (with attempt counts), adapt. Pivot if stalled. Max efficiency.
 *   **Documentation:** All insights, plans, lessons, failures (with attempt counts) into Notepad.
@@ -9,7 +9,7 @@
 *   **Integration:** These are internalized, not for <think> tag or verbalization.
 
 # Lessons Learned & Game Mechanics
-*   **Pewter Youngster Escort (Route 3 Blocker):** Youngster (ID 5, trigger near (36,17) in Pewter) blocks Route 3. Avoid this area for now.
+*   **Pewter Youngster Escort (Route 3 Blocker):** Youngster (ID 5, trigger near (36,17) in Pewter) blocks Route 3. Avoid this area for now. Marker set at (36,17) map 2: 💥 "Youngster Escort Event Trigger".
 *   **Accurate Self-Location:** Always verify current position against Game State Information. CRITICAL. My recent ~100 turn loop was due to failing this.
 *   **Adaptability:** Abandon consistently unachievable objectives. If progress stalls despite trying and documenting various hypotheses (3-4 attempts), pivot to a new goal or strategy.
 *   **Map Awareness:** Reinforce mental model of current map, obstacles, and event triggers. Critically evaluate agent-provided paths against map memory.
@@ -20,32 +20,34 @@
 *   **Poison Damage:** Outside battle, poisoned Pokémon lose 1 HP every 4 steps.
 *   **Notepad `replace` Action:** The `old_text` argument MUST be an *exact* character-for-character match of the text to be replaced. Use error message suggestions or copy directly from the notepad. Use `overwrite` for larger/safer changes.
 *   **Verification of Location (CRITICAL RE-AFFIRMATION Turn 6628):** Always verify current map_id and coordinates from Game State Information *before* planning any action, especially after map transitions. Do not rely on memory of previous actions. My locational hallucinations were a major issue and caused a ~100 turn loop. This is the #1 priority.
+*   **Viridian Pokecenter Exit Trap (CRITICAL - Turn 6661):** Upon exiting Viridian Pokecenter (map 41) to Viridian City (map 1), I arrive at (24,27) facing Down. Pikachu is at (24,26). The tile (24,26) IS THE WARP TILE back into the Pokecenter. To avoid re-entering, I MUST sidestep (e.g., Left to (23,27) or Right to (25,27)) *before* attempting to move North. My repeated failures (turns 6636, 6640, 6644, 6648, 6653, 6656, 6659) were due to moving North onto (24,26) immediately after exiting.
 
-# Agent Usage Plan & Review Notes (Turn 6628 Update)
+# Agent Usage Plan & Review Notes (Turn 6661 Update)
 *   **Defined Agents (10/10):**
-    *   `map_analyzer_agent`: Primary for map queries. *Critique (Turn 6545): Can give long paths/error; prompt updated Turn 6545. Efficacy needs monitoring.*
+    *   `map_analyzer_agent`: Primary for map queries. *Critique (Turn 6545): Can give long paths/error; prompt updated Turn 6545. Efficacy needs monitoring. AI Observer (Turn 6661) noted potential over-reliance; will be mindful.*
     *   `scripted_event_tracker_agent`: For known event triggers.
-    *   `team_builder_agent`: For major battle team comp.
-    *   `battle_log_analyzer_agent`: Parses battle text.
+    *   `team_builder_agent`: For major battle team comp. *AI Observer (Turn 6661) noted low usage; will evaluate if design needs refinement or if it's for specific situations.*
+    *   `battle_log_analyzer_agent`: Parses battle text. *AI Observer (Turn 6661) noted low usage; will evaluate if design needs refinement or if it's for specific situations.*
     *   `notepad_query_agent`: Queries notepad.
     *   `npc_interaction_planner_agent`: Plans NPC interactions.
-    *   `training_spot_advisor`: (Untested) Suggests training spots. *To Do: Test soon.*
-    *   `path_segmenter_agent`: (Defined Turn 6546, Untested) Breaks long paths. *To Do: Test soon.*
-    *   `emergency_exit_planner_agent`: (Defined Turn 6570, Untested) Finds closest exits. *To Do: Test soon.*
-    *   `hm_usage_advisor_agent`: (Defined Turn 6571, Untested) Advises on HM usage. *To Do: Test soon.*
+    *   `training_spot_advisor`: (Untested) Suggests training spots. *To Do: Test soon. AI Observer (Turn 6661) flagged as untested.*
+    *   `path_segmenter_agent`: (Defined Turn 6546, Untested) Breaks long paths. *To Do: Test soon. AI Observer (Turn 6661) flagged as untested.*
+    *   `emergency_exit_planner_agent`: (Defined Turn 6570, Untested) Finds closest exits. *To Do: Test soon. AI Observer (Turn 6661) flagged as untested.*
+    *   `hm_usage_advisor_agent`: (Defined Turn 6571, Untested) Advises on HM usage. *To Do: Test soon. AI Observer (Turn 6661) flagged as untested.*
 *   **Key Reminders:**
     *   Verify `map_analyzer_agent` output.
     *   Agents with `agent_can_run_code: true` automatically get `map_xml_string` & `world_knowledge_graph_json_string`; do not pass as input.
-    *   Test newly defined agents promptly (4 remain untested).
+    *   Test newly defined agents promptly.
 
 # Map Marker Legend
 💥 (Event Trigger), 🎯 (Key Nav Point), ❗ (Risky Zone/Obstacle), 💁 (Event NPCs), ☠️ (Defeated Trainer), 🏛️ (Key Building/Gym), 📍 (Path Start/Interesting Point), 🧱 (Impassable Obstacle), 🚪 (Used Warp), ℹ️ (Info NPC), 🌱 (Cuttable Tree), ⬆️ (Access Point), 🚧 (Ledge - Down only)
 
 # World Knowledge Graph (WKG) Management
 *   Verify map transition *just occurred* before adding edges. Nodes for known exits can be added pre-transition. Use consistent tags.
+*   Edge for Viridian Pokecenter (map 41) exit at (4,8) to Viridian City (map 1) entrance at (24,26) (dest_entry_point 1) added successfully (ID: 309e3589-b438-49e9-adee-b2253f9b6c8f).
 
 # Route/Area Specific Notes
-*   **Pewter City - Route 3:** Attempts abandoned due to Youngster escort event. Mark Youngster's trigger spot.
+*   **Pewter City - Route 3:** Attempts abandoned due to Youngster escort event. Mark Youngster's trigger spot (DONE).
 *   **Route 2 (Section North of Viridian Forest - Future Access):** The section of Route 2 accessible *after* passing through Viridian Forest (from south to north) will have cuttable trees requiring HM Cut.
 *   **Route 22 Summary:** This route presented significant navigational challenges due to ledges and isolated grass patches. All reachable unseen tiles eventually explored or confirmed inaccessible. Key lessons: ledges are strictly one-way; isolated areas require careful pathfinding; agent-provided paths for complex terrain must be rigorously verified.
 *   **Route 22 Gate:** Guard at (7,3) confirms BOULDERBADGE needed to pass west. Area fully explored. Mark Guard.
@@ -56,9 +58,11 @@
 # EXP Tracking & Observations
 *   Wild Pokémon battles yield EXP for uncapped Pokémon. Capped Pokémon show EXP gain message but value doesn't change.
 
-# Current Navigation Plan (Updated Turn 6649)
-*   **Current Location & Status (Turn 6649):** Viridian Pokecenter (4,8), on warp tile, facing Down. Pikachu at (4,7). About to exit.
-*   **Path Segment 1 (Viridian City - RESUME AFTER EXIT):** From Pokecenter exit in Viridian City (approx. (24,27)), move to (24,1), then to (19,1) (Route 2 North Exit).
+# Current Navigation Plan (Updated Turn 6661)
+*   **Current Location & Status (Turn 6661):** Viridian Pokecenter (4,8) (map 41), on warp tile, facing Down. Pikachu at (4,7).
+*   **Immediate Action:** Exit Pokecenter.
+*   **Path Segment 0 (Viridian City - IMMEDIATE POST-EXIT):** Upon arriving at (24,27) in Viridian City (map 1), Pikachu will be at (24,26). The tile (24,26) IS THE WARP BACK IN. **CRITICAL: Move Left to (23,27) or Right to (25,27) to avoid re-entering.**
+*   **Path Segment 1 (Viridian City):** After sidestepping, move to (24,1) (or adjusted if sidestepped, e.g., (23,1) then (24,1)), then to (19,1) (Route 2 North Exit).
 *   **Path Segment 2 (Route 2 South):** Navigate Route 2 South to Viridian Forest South Gate (warp at (4,44)).
 *   **Path Segment 3 (Viridian Forest):** Navigate Viridian Forest from South Entrance (17,48) to North Exit (warp at (2,1) or (3,1)).
 *   **Path Segment 4 (Route 2 North):** Navigate Route 2 North to Pewter City entrance (map edge at (9,1)).
