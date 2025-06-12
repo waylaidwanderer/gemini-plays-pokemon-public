@@ -83,3 +83,11 @@
     2.  Move Up from (8,63) to (8,45).
     3.  Move Left from (8,45) to (4,45).
     4.  Move Up from (4,45) to (4,44) (Viridian Forest South Gate warp).
+
+# Route 2 Navigation Update (Turn 6672)
+*   Attempt to move Up from (8,58) was blocked by impassable tile at (8,57).
+*   **Revised Path Segment 2 (Route 2 South - Attempt 3):**
+    1.  From (8,58), move Left to (7,58).
+    2.  Move Up from (7,58) to (7,45).
+    3.  Move Left from (7,45) to (4,45).
+    4.  Move Up from (4,45) to (4,44) (Viridian Forest South Gate warp).
