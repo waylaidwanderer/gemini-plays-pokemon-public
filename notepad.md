@@ -85,14 +85,13 @@
 
 *   **`map_analyzer_agent` Failure (Turn 6114):** Provided a path segment (32,8) -> (31,8) on Route 22 that was blocked by the game (ledge or impassable). Required manual rerouting.
 
-# Route 22 - Revised Strategy VII (Turn 6130)
-*   **Correction:** Unseen tiles are on Y=6 (tiles (3,6) to (12,6)).
-*   **Objective:** Reach unseen tiles on Y=6 (tiles (3,6) to (7,6)).
-*   **Path from (12,7) (Turn 6135):**
-    1.  Movement to (12,6) was blocked as it's impassable.
-    2.  New Plan (Turn 6136): Navigate from current position (12,7) to the unvisited warp at (9,6).
-    3.  Use warp at (9,6) to access Y=6 strip. Explore west from warp destination (or nearest access point on Y=6) to (3,6) to clear all unseen tiles on Y=6.
-*   **After Y=6 exploration:** Proceed to Viridian City -> Route 2 -> Pewter City. Deprioritize further Route 22 exploration.
+# Route 22 - Final Exploration & Exit Strategy (Turn 6148)
+*   **Objective:** Explore remaining unseen tiles on Y=6 at (3,6) and (4,6).
+*   **Path from current position (9,7) on Route 22:**
+    1.  Move Left from (9,7) to (3,7).
+    2.  Move Up from (3,7) to (3,6).
+    3.  Move Right from (3,6) to (4,6) to clear final unseen tile.
+*   **After Y=6 exploration:** Exit Route 22 via the eastern connection (40,7) to Viridian City. Then proceed north via Route 2 towards Pewter City.
 
 # Route 22 Gate Exploration (Turn 6138)
 *   Arrived in 'Route 22 Gate' (Map ID 193) at (5,8) via the warp at (9,6) on Route 22.
