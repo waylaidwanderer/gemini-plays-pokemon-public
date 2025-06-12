@@ -24,8 +24,8 @@
     *   Marked potential trigger zones (worth caution): (36,17), (35,17), (30,19), (34,19), (36,18), (38,19), (38,20). (30,19) is also a drop-off point.
 *   **Strategy to reach Route 3:**
     1.  Agent path to (30,19) failed. Current: (29,18) facing Left. New manual path to (30,19): (29,18) -> Right to (30,18) (Pikachu's tile) -> Up to (30,19).
-    2.  Reached (30,16), then (34,16). Agent warned about (30,19) trigger if moving South from (30,16). Tile (35,16) is impassable. New plan for northern route: from (34,16) -> Down to (34,19) [TRIGGER].
-    3.  From (35,16), proceed east along Y=16 to (40,16), then south to Route 3 exit at (40,19).
+    2.  Reached (30,16), then (34,16). Agent warned about (30,19) trigger if moving South from (30,16). Tile (35,16) is impassable. Reached (34,19) [TRIGGER].
+    3.  Plan to move east from (34,19) along Y=19 to (40,19) (Route 3 exit). Will use `scripted_event_tracker_agent` from (34,19) before moving east.
     4.  Use `scripted_event_tracker_agent` when navigating the eastern part of the city (X > 25), especially near known trigger zones and the Youngster at (36,17).
 
 # Agent Usage Plan
