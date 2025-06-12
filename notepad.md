@@ -89,4 +89,3 @@
 - **route_pathfinder (Turn 477):** Failed with error "Agent LLM resp missing content (Iter 1)" when trying to path from (14,21) to (17,14) on Route 1. Needs further testing on simpler paths.
 
 ## Future Agent Ideas
-- **Exploration Prioritizer Agent:** To analyze `Reachable Unseen Tiles`, `Reachable Undiscovered Map Connections`, and `Reachable Unvisited Warps` to suggest optimal exploration targets. (To be defined this turn - 513)
