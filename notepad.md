@@ -122,3 +122,13 @@
 
 ## Route 1 - Youngster Battle Attempts
 *   Abandoned attempts to battle Youngster on Route 1 after 6+ documented failures from various adjacent tiles and LoS positions. Current approach is not working. Will prioritize exploration or moving to Viridian City.
+
+## Lessons Learned / Hypotheses / Game Mechanics (Continued):
+*   **Flawed Position Assumption (Turn 359):** Misread current position as (7,28) instead of (7,27), leading to incorrect path planning for engaging the Youngster. Must double-check coordinates against game state before finalizing movement.
+
+## Route 1 Exploration Strategy (Post-Feedback Turn 360):
+*   Current objective: Explore 15 reachable unseen tiles on Route 1, primarily on Y=16,17,18.
+*   Systematic Plan: Path involves reaching Y=23 strip (e.g., via (13,25) -> (13,23)), then navigating west to (6,23), then Down to (6,20) (which is ground and above other ledges). From (6,20), move Up to (6,19) and then (6,18) to uncover unseen areas.
+
+## Custom Agent Prioritization (Post-Feedback Turn 360):
+*   Will actively use `level_cap_compliance_agent` after this Route 1 exploration phase or next significant Pokémon acquisition/level-up to test its efficacy.
