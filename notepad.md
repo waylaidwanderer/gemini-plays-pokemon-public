@@ -48,3 +48,6 @@
 
 # Agent Reliability Notes
 *   **`exploration_planner_agent`**: Prompt updated (Turn 6033) to better handle ledges, but still requires cautious use and verification of paths involving ledges. Has previously given paths that were blocked by ledges or impassable terrain.
+
+# Route 22 Navigation Strategy (Turn 6040)
+*   Current approach to clear remaining unseen tiles (all on Y=10) involves a long detour: travel east along the lower path (Y=15) to (34,15), then north to (34,11) to access the northern grass strip, then west along the northern grass strip to reach the unseen tile clusters.
