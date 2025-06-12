@@ -60,3 +60,9 @@
 ## Pallet Town Exploration Notes
 - Player's House 1F: Stairs to 2F at (8,2).
 - Player's House 2F: Stairs to 1F at (8,2).
+
+## Pallet Town Exploration Notes (Continued)
+- Player's House Entrance/Exit (Warp): (6,6) on Pallet Town map.
+- PALLETTOWN_GIRL NPC located at (2,10).
+- PALLETTOWN_PLAYERSHOUSE_SIGN at (4,6).
+- PALLETTOWN_SIGN at (8,10).
