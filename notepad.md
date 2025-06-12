@@ -60,3 +60,13 @@
 *   **Youngster Event Predictor Agent:** Input: player_pos, player_facing, youngster_pos, youngster_facing, recent_player_path, map_xml. Output: trigger_likelihood (low/medium/high), reasoning, suggested safe_tile to move to next if likelihood is high.
 *   **Path Refinement Agent:** Input: A high-level path (sequence of a few key coordinates from `exploration_planner_agent` or manual plan), current player pos/facing, Pikachu pos. Output: Detailed button presses for that segment, considering Pikachu turning rules, and basic obstacle avoidance for 1-2 steps using map_xml.
 *   **Money Management/Shopping Agent:** Input: Current money, shopping list (potions, pokeballs), item prices, party status (for potion needs). Output: Optimal purchase plan.
+
+# Pewter Pokecenter Access (Revised Plan - Turn 5564)
+*   Currently stuck in a pocket (X=5-18, Y=19-21) near the Gym. The Y=22 wall blocks southward movement in this X-range.
+*   Plan to reach Pokecenter (14,26) by entering from (14,27):
+    1.  Enter Gym warp at (17,18) to escape current pocket.
+    2.  Exit Gym (will arrive at (17,19) in Pewter City).
+    3.  Navigate from (17,19) to (20,19) (east, past X=19 wall).
+    4.  Navigate from (20,19) to (20,27) (south, past Y=22 wall).
+    5.  Navigate from (20,27) to (14,27) (west).
+    6.  Move Up from (14,27) into Pokecenter warp at (14,26).
