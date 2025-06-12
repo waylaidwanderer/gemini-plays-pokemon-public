@@ -139,3 +139,6 @@
 - Oak's Lab (Default State):
     - Default Poké Ball at (8,4) still says "There's a POKéMON inside!" after BLAZe's dialogue loop. Likely BLAZe's Pokémon.
     - Professor Oak not at default location (5,8). Lab appears to be in default visual configuration.
+
+- Pallet Town (After exiting Oak's Lab):
+    - Exiting Oak's Lab did not immediately trigger Professor Oak's appearance or any other event in Pallet Town. Hypothesis to revisit Player's House for further clues.
