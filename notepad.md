@@ -23,7 +23,7 @@
     *   Behavior: Triggers an escort to the Gym entrance. This is not solely based on stepping on fixed map tiles. Proximity to Youngster, his facing, and player's movement vector likely play a role. The event most recently triggered when moving from (37,19) to (38,19) while Youngster was at (36,17).
     *   Marked potential trigger zones (still worth caution): (36,17), (35,17), (30,19), (34,19), (36,18), (38,19), (38,20). (30,19) is also a drop-off point.
     *   Strategy: For any movement in eastern Pewter City (approx. X > 25), use `scripted_event_tracker_agent` with Youngster's *current coordinates* from Game State as the primary trigger to monitor.
-*   **Western Pewter Obstacles:** Blocked repeatedly trying to move east from ~X=12 to X=30. Impassable tiles exist around X=19 (Y=19-22) and X=18 Y=22. Careful pathing required.
+*   **Western Pewter Obstacles:** Blocked repeatedly trying to move east. Using `exploration_planner_agent` to navigate from (17,21) to (30,19). Impassable tiles exist around X=19 (Y=19-22) and X=18 Y=22.
 *   **Current Route 3 Plan (Northern Attempt):** From (30,19) -> (30,16) -> (35,16), then east along Y=16 to (40,16), then south to Route 3 exit at (40,19).
 
 # Agent Usage Plan
