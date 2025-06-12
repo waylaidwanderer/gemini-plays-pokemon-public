@@ -77,3 +77,7 @@
 *   Interacting with Pixel at (8,5) multiple times (approx. 5 attempts from turn ~200 to ~204) after he says "Heh, my POKéMON looks a lot stronger." only repeats his dialogue or results in a clear screen without starting the battle.
 *   Pressing 'A' when his dialogue is on screen, or when the screen is clear after his dialogue, has not triggered the battle.
 *   Hypothesis: Need to interact with Prof. Oak at (6,3) or attempt to leave the lab via (6,12) to progress.
+
+## Reflection Notes (Turn 207)
+*   Revisit custom agent creation soon. Currently, ideas are noted but no agents created.
+*   Lesson Learned: Recognize and break out of failed interaction loops much sooner. If an NPC interaction doesn't progress after 2-3 attempts with slightly varied approaches (e.g., clearing dialogue, re-interacting), a different trigger is likely needed (e.g., talking to a different NPC, trying to leave the area, interacting with an object).
