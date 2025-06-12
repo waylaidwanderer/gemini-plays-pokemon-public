@@ -63,30 +63,7 @@
 - Path Simplifier Agent: Takes a list of path coordinates and converts it into a sequence of "Move X direction Y times" for easier `buttons_to_press` generation. (Idea: Turn 1129)
 
 ## Lessons Learned & Strategy Refinements
--   **Trust Game State**: GSI is absolute truth for dynamic data (NPCs, items, map connections reachability).
--   **Pathing**: Double-check tile types (especially ledges and known impassables) before committing to a path. NPCs can block movement. Repeatedly trying to move onto a blocking NPC or through a dialogue loop is inefficient. Record failed interaction attempts.
--   **Item Interaction**: Some items require 'A' button interaction (Confirmed: Potion at (26,12)). Hypothesis: Item at (2,32) may also require 'A' button. (Test deferred due to SPARKY's HP).
--   **Critical Path**: Prioritize objectives that unblock main progression (e.g., forest exit).
--   **Efficiency**: Plan longer movement sequences. Avoid repeated interactions if the first attempt yields no new info. Record failed interaction attempts.
--   **Hypothesis Testing**: Form hypotheses, test systematically, document failures and attempt counts.
--   **Route 22**: Was a detour. Path to Pewter is North from Viridian City via Route 2 / Viridian Forest.
--   **Healing**: Be proactive with healing, especially with poison. Don't wait until critical HP if Potions are available and the situation allows.
--   **Agent Reliability**: Be critical of agent outputs, especially if an agent has a history of failures. Verify paths against map memory or use manual navigation as a backup.
 
-## World Knowledge Graph (WKG) Best Practices
-- Record inter-map transitions (map boundary, warps) immediately using `manage_world_knowledge`.
-- Use descriptive names and tags for nodes.
-- Include exact coordinates and connection types.
-- Note `destination_entry_point` for warps when known.
-
-## Map Marker Best Practices
-- Mark defeated trainers (☠️), used warps (🚪), key info NPCs (💡/💬), signs (ℹ️), obstacles (🚧), items given by NPCs (🎁), items requiring 'A' interaction (🅰️).
-- Use distinct emojis and concise labels. Delete redundant markers (e.g., if XML already clearly states impassable).
-
-## Specific Tile Discoveries (Viridian Forest)
-- (16,32) impassable (blocked upward from (16,33)).
-- (6,33) impassable (blocked westward from (7,33)).
-- (31,6) impassable (blocked westward from (32,6)).
 - (32,35) impassable (blocked southward from (32,34)).
 - (16,9) impassable (blocked westward from (17,9)).
 - (26,8) impassable (agent path failed).
