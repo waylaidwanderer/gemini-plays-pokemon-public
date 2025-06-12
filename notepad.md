@@ -86,3 +86,5 @@
 ## Map Marker Best Practices
 - Mark defeated trainers (☠️), used warps (🚪), key info NPCs (💡/💬), signs (ℹ️), obstacles (🚧), items given by NPCs (🎁).
 - Use distinct emojis and concise labels. Delete redundant markers.
+
+- Viridian Forest: Tile (16,32) confirmed impassable (blocked upward movement from (16,33)).
