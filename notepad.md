@@ -1,8 +1,8 @@
 # Pokémon Yellow Legacy - Hard Mode Notes (Gem's Log)
 
 ## Active Pokémon Party
-1. SPARKY (PIKACHU): Lv10 (14/33 HP, PSN, EXP: 1227) | Moves: THUNDERSHOCK (14 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
-2. SPROUT (ODDISH): Lv7 (0/25 HP, EXP: 245, FNT) | Moves: TACKLE (35 PP), POISONPOWDER (34 PP)
+1. SPARKY (PIKACHU): Lv10 (33/33 HP, EXP: 1227) | Moves: THUNDERSHOCK (30 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
+2. SPROUT (ODDISH): Lv7 (25/25 HP, EXP: 245) | Moves: TACKLE (35 PP), POISONPOWDER (35 PP)
 
 ## Game Mechanics & Rules Summary
 - Battle Style: Set. No items in battle. Level caps apply (Current: 12 for 0 badges).
