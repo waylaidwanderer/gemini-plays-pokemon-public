@@ -150,4 +150,4 @@
     - VIRIDIANCITY_GAMBLER1 (ID 2): Non-battling/bugged (Turn ~2017-2019).
 - **Route 22 Initial Exploration:** Defeated Rival BLAZe (Turn ~2159). Navigational difficulties accessing western/upper grass due to ledges and map entry points (Turns ~2205-2225).
 
-- **Turn 2274:** PIP defeated wild Mankey Lv5. SPARKY was lead, EXP message appeared but SPARKY's EXP (1728) did not change due to level cap.
+- **Turn 2274:** PIP defeated wild Mankey Lv5 (grew to Lv9, EXP 422). SPARKY was lead, EXP message appeared but SPARKY's EXP (1728) did not change due to level cap.
