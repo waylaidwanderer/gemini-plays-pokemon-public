@@ -105,7 +105,7 @@
 6.  `capability_checker_agent`
 
 ### B. Agent Review TODOs & Improvement Plans
-- `map_exploration_strategist_agent`: **PRIORITY REVIEW.** Failed Turn 1945. Needs prompt review for pathfinding reliability (A* logic, obstacle handling).
+- `map_exploration_strategist_agent`: **URGENT PRIORITY REVIEW.** Failed Turn 1945 and again Turn 2038 (returned 'exploration_target_type: none' despite 16 reachable unseen tiles being available in Game State Information). Pathfinding and target identification logic are critically unreliable. Consider immediate replacement with a robust `run_code` script for exploration planning if not fixable.
 - `path_simplifier_agent`: **PRIORITY REVIEW.** Failed Turn 1946. Needs prompt review for reliability, especially Pikachu logic.
 - `item_finder_agent`: Review prompt for better building ID. Assess utility; consider deletion if not consistently valuable.
 - `wkg_transition_recorder_agent`: Monitor multi-step output. Ensure logic for existing vs. new nodes is robust.
