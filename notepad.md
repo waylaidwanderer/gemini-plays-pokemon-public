@@ -44,3 +44,6 @@
 
 # Encounter Issues & Stalled Progress (Route 3 - Turn 6939)
 *   **Youngster (ID 2) at (11,7) on Route 3:** Encountered dialogue loop ('than those found in the forest!'). Pressing 'A' (6 times: turns 6932-6936, 6938) and 'B' (1 time: turn 6937) did not initiate battle or clear dialogue. Total 7 failed attempts. Abandoning interaction to proceed with other trainers/exploration. Will mark on map.
+
+# Encounter Issues & Stalled Progress (Route 3 - Turn 6951)
+*   Youngster (ID 3) at (15,5) on Route 3: Encountered dialogue loop ('when your box is full!'). Pressing 'A' (turns 6946-6948, 6950) and 'B' (turn 6949) did not initiate battle or reliably clear dialogue. Total 5 failed attempts to resolve. Abandoning interaction.
