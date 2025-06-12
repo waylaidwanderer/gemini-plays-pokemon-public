@@ -1,7 +1,7 @@
 # Current Plan - Route 22 & Viridian City
-*   **Objective:** Fully explore Route 22 (northern grass strip). Then, return to Viridian City and proceed north to Route 2 towards Pewter City.
-*   **Reason:** Route 22 is almost clear. Primary goal is Boulder Badge in Pewter.
-*   **Status:** On Route 22 at (31,9). Navigating northern grass strip to clear remaining unseen tiles.
+*   **Objective:** Fully explore Route 22 by reaching all unseen tiles. Then, return to Viridian City and proceed north via Route 2 towards Pewter City.
+*   **Reason:** Completing exploration of Route 22 before moving to next major area. Primary goal is Boulder Badge in Pewter.
+*   **Status:** On Route 22 at (3,15). Navigating lower path east to find access to northern grass strip for remaining unseen tiles. Encountered navigational challenges with ledges and isolated grass patches.
 
 # Lessons Learned & Game Mechanics
 *   **Pewter Youngster Escort (Route 3 Blocker):** Youngster (ID 5, trigger near (36,17) in Pewter) blocks Route 3. Avoid this area for now.
