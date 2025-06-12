@@ -3,9 +3,10 @@
 *   **Secondary Goal:** Acquire sufficient funds to purchase essential supplies. (Current Money: ¥156)
 *   **Tertiary Goal:** Explore Route 2 (south of Pewter City) for trainers/items to acquire funds.
 
-# Pewter City - Path to Route 3 (Current Plan)
-*   **Strategy:** Navigate Pewter City to reach the eastern exit at (40,19) leading to Route 3. This has proven difficult.
-*   **Attempt #8 (Current):** Following path from `map_analyzer_agent` (provided turn 5761) from (12,16) to Route 3 exit (40,19).
+# Current Plan - Route 2 Exploration
+*   **Objective:** Navigate from current position (12,19) to the south exit of Pewter City (aiming for (19,36)) to reach Route 2.
+*   **Reason:** Acquire funds and EXP by exploring Route 2, as Route 3 is currently inaccessible due to the recurring Youngster escort event (8 failed attempts to reach Route 3).
+*   **Status:** Will request path from `map_analyzer_agent`.
 
 # Lessons Learned - Pewter Navigation Summary
 *   Pewter City navigation is complex, with multiple failed attempts (7 prior attempts) to find a clear path to Route 3 due to blockades (e.g., (19,19), (19,21), (13,17), NPC at (9,16), Gym Sign at (12,18), impassable (13,16)) and the recurring Youngster escort event.
