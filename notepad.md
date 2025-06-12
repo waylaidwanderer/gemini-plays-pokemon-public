@@ -4,14 +4,17 @@
 *   **Tertiary Goal:** Reach Route 3 (East Pewter Exit at (40,19)) to battle trainers for funds.
 
 # Pewter City Navigation Challenge: The Youngster (ID 5)
-*   **Youngster's Current Position (Game State is TRUTH):** (36,17). (Game state for turn 5514 showed (18,19); current turn 5515 game state confirms (36,17)). The main trigger zones are in eastern Pewter when he is at (36,17).
-*   **Escort Event Dynamics:** Still complex. His new position at (18,19) likely means his trigger zones have shifted significantly. The old triggers around (36,17) might still be active if he moves back there, but the immediate threat is his current location.
-*   **Known Trigger/Drop-off Points (Markers are reminders):** (38,19) (triggered from (37,19) when Y. was at (36,17)), (30,19) (drop-off & trigger). These may behave differently with Y. at (18,19). Marked zones around (36,17) are less relevant *while he is at (18,19)*.
-*   **Current Strategy for Route 3 (Accounting for Youngster at (36,17))**:
-    1.  **Far South Route Attempt (Further Revised):** Reached (22,31) facing Up (Pikachu at (21,31)). Previous plan to reach (21,31) then go north is still mostly valid. Current plan: from (22,31) -> Left to (21,31) (Pikachu's tile) -> North to (21,19) -> East along Y=19 to (40,19) (Route 3 exit). This path is very far south of Youngster at (36,17) initially, but will approach eastern trigger zones near Y=19.
-    2.  **Far North Route (Fallback):** If south fails, try Y=10-14, east, then south. This path would be north of his new (18,19) position.
-    3.  Meticulously check map XML for impassable tiles for any new planned path. Use `move_validator_agent` for short, complex segments.
-    4.  Use `scripted_event_tracker_agent` to vet *path segments* (3-5 steps) when approaching X=18 or moving east, always using Youngster's *current coordinates* ((18,19) with radius 3 for now).
+*   **Youngster's Current Position (Game State is TRUTH):** (36,17). He seems to patrol this area.
+*   **Escort Event Dynamics:** The Youngster at (36,17) triggers an escort event if approached in eastern Pewter City (e.g., from (37,19) or (38,19)), moving the player to (12,19) in front of the Gym. (30,19) is also a known trigger/drop-off point.
+*   **New Strategy for Route 3 (Far North Route):** The western part of Pewter City around (17,19)-(18,21) is a dead-end pocket, escaped via Gym warp. The previous southern route attempts are abandoned.
+    1.  **Current Location:** (17,19) in Pewter City.
+    2.  **Path to Route 3 (40,19):
+        *   North from (17,19) to (17,14).
+        *   East from (17,14) to (28,14) (path clear until (29,14) is impassable building).
+        *   South from (28,14) to (28,19).
+        *   East from (28,19) to (40,19) (Route 3 exit).
+    3.  This route should keep me north of the Youngster (36,17) until the final eastern approach on Y=19.
+    4.  Use `scripted_event_tracker_agent` for the final eastern segment if Youngster is still at (36,17).
 
 # Game Mechanics & Strategy Notes
 *   **Ledge Mechanics:** One-way (downwards only).
