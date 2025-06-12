@@ -115,10 +115,19 @@
 - **Game State Information (GSI):** GSI is the absolute source of truth for dynamic data like NPC locations. Will prioritize GSI over notepad memory for such info.
 - **Notepad for Navigation:** Will make a better effort to use the notepad for planning detailed multi-step navigation paths, especially in complex areas like Route 1.
 
-## Route 1 Navigation Plan (Attempt 3 - From (6,15) - Turn 800)
+## Route 1 Navigation Plan (Attempt 3 - From (6,15) - Turn 800) - FAILED
 Objective: Reach Viridian City North Entrance (12,1).
 Path:
-1. From (6,15) -> (13,15): Move Right x7.
-2. From (13,15) -> (13,5): Move Up x10 (passes north of ledge at (13,6)).
+1. From (6,15) -> (13,15): Move Right x7. (SUCCESSFUL, reached (13,15) at Turn 803)
+2. From (13,15) -> (13,5): Move Up x10 (passes north of ledge at (13,6)). (FAILED at Turn 803: (13,14) is an impassable ledge directly above (13,15), blocking upward movement. Plan was flawed.)
 3. From (13,5) -> (12,5): Move Left x1.
+4. From (12,5) -> (12,1): Move Up x4.
+
+## Route 1 Navigation Plan (Attempt 4 - From (13,15) - Turn 803)
+Objective: Reach Viridian City North Entrance (12,1).
+Current Position: (13,15)
+Path:
+1. From (13,15) -> (15,15): Move Right x2. (Target: (15,15))
+2. From (15,15) -> (15,5): Move Up x10. (This will pass Youngster at (15,14) and clear the Y=14 ledge line. Tile (15,6) is ground, (15,5) is ground).
+3. From (15,5) -> (12,5): Move Left x3.
 4. From (12,5) -> (12,1): Move Up x4.
