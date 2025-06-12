@@ -93,3 +93,10 @@
 - Little Girl - Viridian School House (5,6) - Confirmed Pokémon evolve by training, no trade needed.
 
 - Cooltrainer F - Viridian School House (5,2) - Advised to read blackboard.
+
+## Blackboard Status Info (Viridian School House)
+- **SLP (Sleep):** Pokémon can't attack. Stays asleep after battles. Cure: AWAKENING.
+- **BRN (Burn):** Reduces power, causes ongoing damage. Stays burnt after battles. Cure: BURN HEAL.
+- **PSN (Poison):** Health steadily drops. Lingers after battles. Cure: ANTIDOTE.
+- **FRZ (Freeze):** Pokémon becomes totally immobile. Stays frozen after battles. Cure: ICE HEAL.
+- **PAR (Paralyze):** Pokémon moves might misfire. Stays paralyzed after battles. Cure: PARLYZ HEAL.
