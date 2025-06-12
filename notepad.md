@@ -142,3 +142,9 @@
 
 - Pallet Town (After exiting Oak's Lab):
     - Exiting Oak's Lab did not immediately trigger Professor Oak's appearance or any other event in Pallet Town. Hypothesis to revisit Player's House for further clues.
+
+- Oak's Lab (Default State):
+    - Professor Oak is not listed in Map Sprites (not at default location (5,8)).
+    - Poké Ball at (8,4) still says "There's a POKéMON inside!" after BLAZe interactions; likely BLAZe's Pokémon.
+    - Visual event state (with Oak at (2,9)) seems to have concluded or its triggers are not being met by interacting with default sprite locations anymore.
+    - New Hypothesis: Leaving Oak's Lab again may trigger Professor Oak's appearance in Pallet Town or an event at Player's House.
