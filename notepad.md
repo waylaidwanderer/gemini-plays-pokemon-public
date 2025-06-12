@@ -145,3 +145,10 @@
 ### EXP Mechanics Update (Turn 2063 - Route 22)
 - EXP. All seems to be active. After defeating a wild Mankey (Lv4) with PIP, SPARKY (Lv12, at cap) also received an 'gained EXP' message (21 EXP). PIP (Lv7) gained 21 EXP (287 -> 308).
 - **CONFIRMED:** Pokémon at the level cap (SPARKY, Lv12) will display an EXP gain message (e.g., +21 EXP from Mankey, +16 EXP from Nidoran♀), but their actual EXP value does NOT change (remains 1728). This Hard Mode rule is verified.
+
+## VI. WKG Agent Notes (Turn 2209)
+- `wkg_transition_recorder_agent` continues to struggle with `map_edge` transitions when nodes might already exist. It attempts to use placeholder names as IDs in `add_edge` payloads instead of retrieving/confirming actual node IDs. Requires careful manual oversight and often manual `add_edge` calls with correct IDs until its logic for querying existing nodes is improved in its system prompt.
+
+## VII. New Agent Ideas (Turn 2209)
+- **Pathfinding Agent:** Uses `run_code` with `map_xml_string` and `world_knowledge_graph_json_string` to calculate optimal paths between two points (intra-map or inter-map).
+- **Exploration Helper Agent:** Uses `run_code` to identify efficient routes to visit all reachable unseen tiles or unvisited warps on the current map.
