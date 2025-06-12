@@ -90,3 +90,5 @@
 - Viridian Forest: Tile (16,32) confirmed impassable (blocked upward movement from (16,33)).
 
 - Viridian Forest: Tile (6,33) confirmed impassable (blocked westward movement from (7,33)).
+
+- Viridian Forest: Item Poké Ball at (2,32) appears to block movement despite GSI saying 'reachable'. Failed to move onto tile 2 times. (Turns 948, 949).
