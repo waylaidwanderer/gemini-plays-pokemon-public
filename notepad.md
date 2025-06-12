@@ -75,6 +75,7 @@
 -   **route_pathfinder**:
     -   Turn 477 (Route 1): Failed (Agent LLM resp missing content).
     -   Turn 649 (Nickname House): Path (Up, Up, Left, Left, Left, Down) from (6,5) to (3,4) failed. First 'Up' to (6,4) blocked by Balding Guy. Prompt needs to consider NPCs as obstacles.
+    -   Turn 787 (Route 1): Failed (Agent LLM resp missing content) when trying to path from (11,29) to (12,1). Agent appears unreliable for complex pathing or has intermittent issues.
 -   **exploration_prioritizer_agent**:
     -   Turn 534 (Viridian): Suggested Pokécenter after exiting. Unhelpful.
     -   Turn 621 (Viridian): Suggested Pokécenter again after exiting. Unhelpful. Prompt needs significant refinement to avoid recently used/explored locations.
