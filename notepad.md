@@ -148,3 +148,6 @@ Path:
   3. From (20,28) -> (20,21): Move Up x7.
   4. From (20,21) -> (30,21): Move Right x10.
   5. From (30,21) -> (30,20): Move Up x1 (Poké Mart).
+
+## WKG Correction (Turn 840)
+- The Viridian Mart exit warp (map 42, (4,8)) leads to Viridian City (map 1) at (30,21), just outside the Mart entrance at (30,20), not the School House. WKG edge `d45d75fc-d23a-44b5-9fd3-6de507470521` updated accordingly.
