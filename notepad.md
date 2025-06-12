@@ -124,3 +124,8 @@
 - Traded Pokémon (outsiders) grow fast but might ignore unskilled trainers. BADGEs help ensure they obey. (Learned in Pewter Nidoran House)
 
 - Cooltrainer M at (18,26) in Pewter City mentioned Brock is 'totally into it!' (non-battling NPC).
+
+## Pewter Gym Intel (from Gym Guide)
+- Brock's Lead: GEODUDE (Offense-driven, can throw rocks with high accuracy).
+- Brock's Other: ONIX (All-defense, watch out for its BIND attack).
+- Warning: Electric attacks are harmless to Brock's Ground-type Pokémon (bad for Pikachu).
