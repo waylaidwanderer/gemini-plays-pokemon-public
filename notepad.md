@@ -108,3 +108,5 @@
 - Viridian Forest Navigator agent failed again (Turn 1009). Its path from (33,2) to (12,13) was blocked because it tried to route through (16,2), which is known impassable. This is the 4th major failure. Agent is unreliable for this map and seems to ignore known impassable tiles from map_xml_string. Will rely on manual exploration.
 
 - Viridian Forest: Tile (31,6) confirmed impassable (blocked westward movement from (32,6) on Turn 1012). My path to item at (2,32) was flawed. Changing plan to explore southern unseen tiles near (32,12).
+
+- Viridian Forest: Tile (32,35) confirmed impassable (blocked southward movement from (32,34) on Turn 1018). My path to (32,37) was flawed. Changing plan to battle Youngster (ID 2) at (31,34) as SPARKY's HP is critical.
