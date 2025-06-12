@@ -68,12 +68,13 @@
 ### Agent Development - Future Consideration:
 -   **Pokédex Completion Strategist**: Suggests where to hunt for new Pokémon. (Idea retained, low priority)
 
-### Agent Review TODOs (Immediately after Pewter Gym):
-- `map_exploration_strategist_agent`: Review system prompt and internal logic due to past failures. Focus on pathfinding reliability and target prioritization. If still unreliable, will rely on manual pathing.
+### Agent Review TODOs (PRIORITY TASKS):
+- `map_exploration_strategist_agent`: **PRIORITY REVIEW NOW.** Review system prompt and internal logic due to continued failures (e.g., Turn 1945). Focus on pathfinding reliability, target prioritization, and ensure A* logic (if used by agent or my manual `run_code`) is robust (e.g., use Turn 1902 A* version as a base, correctly handle ledges, object detection). If still unreliable, will rely on manual pathing.
+- `path_simplifier_agent`: **PRIORITY REVIEW NOW.** Review system prompt and logic due to failure in Turn 1946. Reliability is critical for efficient movement.
 - `item_finder_agent`: Review system prompt for better city building identification. Assess overall utility; consider deletion if not consistently valuable.
 - `wkg_transition_recorder_agent`: **Crucial Workflow Note:** This agent outputs a *list* of `manage_world_knowledge` tool calls. I *must* execute all subsequent calls it generates to ensure WKG integrity. Past failures were due to not processing its full multi-step output. Monitor closely for any further failures in its output generation. If it fails, investigate logic/schema adherence.
 - `capability_checker_agent`: Identify an opportunity to test this agent or reassess its necessity.
-- Consider implementing or discarding the 'Pokédex Completion Strategist' idea.
+- Pokédex Completion Strategist idea: **Discarded for now.** Focus on core progression and reliability of existing agents.
 
 ### General TODOs:
 - Systematically mark used warps (both ends) with 🚪 emoji, noting destination map and coordinates/entry point, using WKG for reference. **(Active)**
