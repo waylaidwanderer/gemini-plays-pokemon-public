@@ -113,3 +113,14 @@
 - Review and revise prompts for `map_exploration_strategist_agent` and `item_finder_agent` based on critique of frequent failures.
 - Implement `Capability Checker Agent` after reaching Pewter City and stabilizing.
 - Prioritize earning money (currently ¥33) and training SPROUT (Lv7) & PIP (Lv7) once in Pewter City.
+
+## Post-Critique T1657 Action Items & Strategy Updates
+- **Immediate Focus:** Explore Pewter City for resources, training spots, and money-making opportunities (current funds: ¥33 - CRITICAL LOW).
+- **Training Plan:** Develop a concrete plan to train SPROUT (Lv7) and PIP (Lv7) for Brock. Identify suitable wild Pokémon or trainers in/near Pewter City.
+- **Agent Review & Implementation:**
+    - `wkg_transition_recorder_agent`: Use immediately for all inter-map transitions.
+    - `map_exploration_strategist_agent` & `item_finder_agent`: Revise prompts or cease reliance if they remain dysfunctional. Document changes.
+    - `trainer_battle_strategist`, `wild_encounter_evaluator_agent`, `multi_map_route_planner`: Review utility. Delete if not serving current/near-future purpose.
+    - `Capability Checker Agent`: Prioritize implementation after stabilizing in Pewter City.
+- **Notepad Hygiene:** Remove unimplemented agent ideas if discarded. Focus notepad on HOW to achieve goals, not the goals themselves (which are auto-provided).
+- **Pewter Mart Exit:** Successfully exited. The key was careful verification of map state and NPC positions each turn. Documented failures and corrected approach.
