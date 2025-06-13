@@ -27,9 +27,9 @@
 
 ## Current Objectives & Plans (HOW to achieve goals):
 *   **Primary:** Obtain the Boulder Badge from Pewter City Gym.
-*   **Secondary:** Stock up on Poké Balls at the PokéMart in Viridian City.
+*   **Secondary:** Find the trigger in Viridian City that opens the northern path to Pewter City.
 *   **Tertiary (Long-term):** Complete the Pokédex for Professor Oak.
-*   **Immediate Plan:** Explore Viridian City, locate the PokéMart, and purchase Poké Balls. Then, plan route to Pewter City.
+*   **Immediate Plan:** Thoroughly explore Viridian City's main area, interacting with NPCs to find the event/person that unblocks the path north to Route 2/Viridian Forest. Then, plan route to Pewter City.
 *   **Prepare for Pewter City Gym:** Assess Gym type and plan team accordingly (once known). Train Pokémon towards level cap if necessary.
 
 ## Pokémon Party & Log:
