@@ -29,7 +29,7 @@
 *   **Primary:** Obtain the Boulder Badge from Pewter City Gym.
 *   **Secondary:** Stock up on Poké Balls at the PokéMart in Viridian City.
 *   **Tertiary (Long-term):** Complete the Pokédex for Professor Oak.
-*   **Immediate Plan:** Exit Oak's Lab, travel through Pallet Town and Route 1 to Viridian City. Go to the Mart.
+*   **Immediate Plan:** Explore Viridian City, locate the PokéMart, and purchase Poké Balls. Then, plan route to Pewter City.
 *   **Prepare for Pewter City Gym:** Assess Gym type and plan team accordingly (once known). Train Pokémon towards level cap if necessary.
 
 ## Pokémon Party & Log:
@@ -48,8 +48,6 @@
 *   **Critical Game Mechanic:** ALWAYS press 'A' to clear dialogue/text BEFORE other inputs.
 *   **Ghost vs. Psychic:** Ghost-type moves are SUPER EFFECTIVE against Psychic. (Learned from OAKSLAB_SCIENTIST1).
 *   **Trust Game Data:** Trust `Reachable Unseen Tiles` list.
-*   **WKG Diligence:** Record inter-map transitions *immediately*.
-*   **Navigation Inefficiency (Route 1 Ledges):** Jumping ledges without full scouting above led to backtracking. More thorough path assessment needed. (Turn ~330-380)
 *   **Failed Interaction Loops:** If an NPC/object interaction yields no progress after 2-3 varied attempts, a different trigger is likely needed. Don't repeat failed interactions. (Turn 207, reiterated for Youngster Route 1 ~350s)
 *   **Coordinate Misreads:** Double-check current coordinates from game state before planning movement to avoid errors like the one with the Route 1 Youngster. (Turn 359)
 
@@ -65,25 +63,24 @@
 
 ## Custom Agent Notes & Usage:
 *   `battle_strategist_agent`: Defined. Use for significant trainer battles.
-*   `route_planner_agent`: Defined. Consider for complex multi-map or obstacle-heavy navigation.
+*   `route_planner_agent`: Defined. **Observation (Turn 542):** Failed to find a path on Route 1 (a fully explored map) for intra-map routing with ledges. **Contingency:** Treat this agent as highly unreliable for complex intra-map pathfinding with obstacles like ledges. Prioritize manual pathfinding for such situations until agent reliability can be confirmed/improved.
 *   `rom_hack_mechanic_analyzer_agent`: Defined. Use for deducing new mechanics.
 *   `level_cap_compliance_agent`: Defined. Used on Turn 407, all okay.
 *   `wild_encounter_evaluator_agent`: Defined. Purpose: Decide fight/run/catch for wild encounters based on party, map, goals. (Use at next wild encounter).
 *   `npc_dialogue_analyzer_agent`: Defined. Purpose: Analyze NPC dialogue for clues.
 
 ## World Knowledge Graph Notes:
-*   Record inter-map transitions (map boundary, warps) IMMEDIATELY using `manage_world_knowledge`.
-*   Node for Route 1 North Exit (to Viridian) created (ID: ffa853b2-f57b-4a03-8de3-83250b175651 at (12,0)).
-*   Ensure to add nodes/edges for Viridian City to Route 1 South, Viridian Pokemon Center, Viridian Mart, and Route 1 South to Pallet Town North.
+*   **Critical:** Record inter-map transitions (map boundary, warps) IMMEDIATELY using `manage_world_knowledge` upon map_id change. Do not defer.
 
 ## Past Area Notes:
-*   **Route 1 (ID 12):** Exited at (12,1) (to Viridian) and (12,36) (to Pallet). Wild: Pidgey, Rattata. Trainers: Youngster (Sprite ID 1) at (6,27), Youngster (Sprite ID 2) at (18,14) - Non-battling (gave STAT EXP tip) or already defeated.. Sign at (10,28).
+*   **Route 1 (ID 12):** Exited at (12,1) (to Viridian) and (12,36) (to Pallet). Wild: Pidgey, Rattata, Spearow. Trainers: Youngster (Sprite ID 1) at (6,27) - Non-battling (gave STAT EXP tip) or already defeated. Youngster (Sprite ID 2) at (18,14) - Gave STAT EXP tip. Sign at (10,28).
 *   **Viridian City Pokémon Center (ID: 41):** Arrived (4,8). SPARKY healed (Turn 438).
 *   **Viridian City Mart (ID: 42):** Arrived (4,8). Received OAK'S PARCEL from shopkeeper (scripted event moved player to (3,6)).
-
-## Current Area Notes:
-*   **Oaks Lab (ID: 40):** Player at (6,4). Task: Deliver OAK'S PARCEL to Prof. Oak at (6,3) (Completed). Received Pokédex and mission to complete it.
+*   **Oaks Lab (ID: 40):** Delivered OAK'S PARCEL to Prof. Oak at (6,3). Received Pokédex and mission to complete it.
 
 ## Route 1 Navigation Strategy (Post-Critique & Agent Failure)
-*   The `route_planner_agent` failed to find a path on Route 1 (Turn 542), despite the map being fully explored. This suggests potential limitations with the agent for complex intra-map routing with obstacles like ledges.
-*   Revised strategy for Route 1 (from south, e.g., (15,29)) to reach northern exit: Head west to find gaps in ledges (e.g., around (9,28)) rather than making wide eastern detours. Ledges are impassable from below; always look for lateral openings.
+*   The `route_planner_agent` failed to find a path on Route 1 (Turn 542). This suggests limitations with the agent for complex intra-map routing with obstacles like ledges.
+*   Revised strategy for Route 1 (from south, e.g., (15,29)) to reach northern exit: Head west to find gaps in ledges (e.g., around (9,28)) rather than making wide eastern detours. Ledges are impassable from below; always look for lateral openings. Manual pathing was successful.
+
+## Current Area Notes:
+*   **Viridian City (ID: 1):** Arrived from Route 1 at (22,36). Secondary Goal: Buy Poké Balls at PokéMart (30,20). Many reachable unseen tiles to explore.
