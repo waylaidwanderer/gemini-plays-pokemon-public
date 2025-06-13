@@ -110,3 +110,5 @@
 *   **Pokédex Evaluation:** Contact PROF.OAK via PC to get your POKéDEX evaluated (Sign in Viridian Forest at (27,18)).
 
 *   **POTION x1:** Found in Viridian Forest at (26,12) (Turn 1366).
+
+*   Viridian Forest (ID 51) - (14,12) - Wild WEEDLE (Lv4) - Ran successfully (Turn 1494). SPARKY HP: 4 (poisoned).
