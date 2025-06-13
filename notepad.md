@@ -3,7 +3,7 @@
 *   **Rival Name:** Pixel
 *   **Current Badges:** 0 (Game State is Source of Truth)
 *   **Current Level Cap:** 12 (0 badges - Game State is Source of Truth)
-*   **Pokédex:** 8/151
+*   **Pokédex:** 8/151 (Need 2 more unique for HM Flash)
 *   **Money:** ¥506
 
 ## Hard Mode Rules (Player-Only Restrictions):
@@ -29,16 +29,16 @@
 *   **HM05 FLASH Acquisition:** Catch 2 more unique Pokémon species (total 10 in Pokédex). Then, travel to Route 2 (North of Viridian City, through Viridian Forest) to find Professor Oak's Aide who gives HM05 FLASH. Explore Route 22 for potential new catches.
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
 
-## Pokémon Party & Log (Current as of Turn 1831):
-*   **GOTTSAMER (METAPOD):** Lv7 (17/25 HP, EXP: 412). ATK 10, DEF 11, SPD 11, SPC 9. TACKLE (35 PP), STRING SHOT (40 PP), HARDEN (30 PP)
+## Pokémon Party & Log (Current as of Turn 1870):
+*   **GOTTSAMER (METAPOD):** Lv7 (17/25 HP, EXP: 412). TACKLE (35 PP), STRING SHOT (40 PP), HARDEN (30 PP)
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP)
 *   **NIGHTSHADE (ODDISH):** Lv8 (25/28 HP, EXP: 397). TACKLE (35 PP), POISONPOWDER (35 PP), LEECH SEED (9 PP)
 *   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 462). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (29 PP)
-*   **SPARKY (PIKACHU):** Lv8 (25/27 HP, EXP: 594). THUNDERSHOCK (30 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (18 PP)
-*   **FURYFIST (MANKEY):** Lv4 (17/17 HP, EXP: 64). SCRATCH (35 PP), LEER (30 PP)
+*   **SPARKY (PIKACHU):** Lv8 (25/27 HP, EXP: 594). THUNDERSHOCK (29 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (18 PP)
+*   **FURYFIST (MANKEY):** Lv4 (0/17 HP, FNT, EXP: 64). SCRATCH (34 PP), LEER (30 PP)
 
 ## Items Obtained:
-*   **POKé BALL x4** (Used one on Nidoran♂)
+*   **POKé BALL x4**
 *   **OAK'S PARCEL:** Delivered to Prof. Oak.
 *   **POKéDEX:** Received from Prof. Oak.
 
@@ -50,6 +50,7 @@
 
 ## Lessons Learned / Game Mechanics:
 *   **Battle Menu Navigation (2x2 Layout):** FIGHT (top-left), PKMN (top-right), ITEM (bottom-left), RUN (bottom-right). Navigate with appropriate directional inputs. Pay close attention to screen text for current cursor position.
+*   **Party List Selection:** Pressing 'A' on a Pokémon in the 'Choose a POKéMON' list *selects* it and brings up its sub-menu (SWITCH, STATS, CANCEL). Pay close attention to screen text to confirm sub-menu vs. main list.
 *   Menu Navigation (Naming Screen): Precise inputs needed. Verify letter before 'A'. 'B' is backspace. 'START' confirms name.
 *   Poison: Outside battle, -1 HP every 4 steps.
 *   Pikachu Movement: Can walk through. Adjacent & not facing: 1st press turns, 2nd moves.
@@ -77,18 +78,18 @@
 *   PEWTER_GYM (ID 4) - (3,1) - Gym Leader Brock
 *   PEWTER_GYM (ID 4) - (3,4) - Jr. Trainer M
 
-## Agent Definitions & Usage Log (9 Active Agents):
+## Agent Management (9 Active Agents):
 *   **`battle_strategist_agent`**: Defined.
 *   **`route_planner_agent`**: Defined.
-*   **`level_cap_compliance_agent`**: Defined. **Note:** Use more frequently after level-ups/before bosses, especially now that cap is 12. Ensure `num_badges` input reflects Game State.
-*   **`wild_encounter_evaluator_agent`**: Defined.
-*   **`npc_dialogue_analyzer_agent`**: Defined. Low usage. Re-evaluate utility or if its purpose is being met by other means.
+*   **`level_cap_compliance_agent`**: Defined. **Note:** Use more frequently after level-ups/before bosses. Ensure `num_badges` input reflects Game State.
+*   **`wild_encounter_evaluator_agent`**: Defined. Exercise judgment when its suggestions conflict with primary/secondary goals.
+*   **`npc_dialogue_analyzer_agent`**: Defined. Low usage. Re-evaluate utility or system prompt to improve effectiveness, or consider deletion.
 *   **`optimal_training_spot_agent`**: Defined.
 *   **`item_reminder_agent`**: Defined.
 *   **`map_analyzer_agent`**: Defined.
-*   **`team_composition_advisor_agent`**: Defined. **Note:** Test before next major gym battle. Prioritize if gym battle is anticipated soon.
-*   **Agent Review Note:** Periodically review all agents. 
-    *   Define `pokedex_progress_agent` or remove the idea.
+*   **`team_composition_advisor_agent`**: Defined. **Note:** Test before next major gym battle.
+*   **Agent Development Plan:**
+    *   Define `pokedex_progress_agent` to track Pokédex completion and suggest new catch locations, or discard the idea.
     *   Review system prompts for all code-enabled agents (`route_planner_agent`, `optimal_training_spot_agent`, `map_analyzer_agent`, `team_composition_advisor_agent`) to ensure they instruct agent to leverage auto-provided variables and do not define them in input schemas.
 
 ## World Knowledge Graph Notes:
@@ -96,19 +97,8 @@
 
 ## Area Notes:
 ### Route 22 (ID 33) - Current Area
-*   **Objective:** Catch 2 more unique Pokémon. Explore.
-*   **Current Location:** (34,10) (Nicknaming Nidoran♂)
+*   **Objective:** Catch 2 more unique Pokémon for HM Flash.
+*   **Current Location:** In battle (previously at (33,10))
 *   **Items:** None found.
 *   **Encounters:** FURYFIST (MANKEY) (Lv4, caught). SPIKE (NIDORAN♂) (Lv3, caught).
 *   **Pokédex Evaluation:** Contact PROF.OAK via PC (Sign in Viridian Forest).
-
-## Battle & Menu Mechanics Notes (Post-Critique T1861):
-*   **Party List Selection:** Pressing 'A' on a Pokémon in the 'Choose a POKéMON' list *selects* it and brings up its sub-menu (SWITCH, STATS, CANCEL). Pay close attention to screen text to confirm sub-menu vs. main list.
-
-## Agent Development & Review Notes (Post-Critique T1861):
-*   **`pokedex_progress_agent`**: Define this agent to track Pokédex completion towards goals (like HM Flash) or decide to discard the idea.
-*   **`team_composition_advisor_agent`**: Prioritize testing this agent before the next major gym battle.
-*   **`npc_dialogue_analyzer_agent`**: Re-evaluate utility. If not providing value, consider revising its prompt or deleting it.
-
-## Pokémon Party HP Update (Post-Critique T1861):
-*   FURYFIST (MANKEY): Lv4 (6/17 HP, EXP: 64) - Updated HP based on current Game State.
