@@ -119,3 +119,6 @@
 ## Agent Ideas (Post-Reflection Turn 831):
 *   **Optimal Training Spot Agent:** Input: current party levels, current level cap, (optional) known encounter data for routes. Output: Suggested routes/areas for efficient EXP gain for specific Pokémon under the cap, considering type matchups if possible.
 *   **HM Obstacle Identifier Agent:** Input: current map_id, player coordinates, list of HMs owned. Output: List of nearby obstacles (cuttable trees, water, boulders) on the current map and the HM needed to clear them. Could help quickly assess if I can pass new types of barriers.
+
+## Current Inventory:
+*   POKé BALL x9
