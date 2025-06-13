@@ -104,3 +104,9 @@
 
 ## Viridian Forest NPC Notes (Turn 2205+)
 *   Youngster 6 (VIRIDIANFOREST_YOUNGSTER6) at (28,41) gave a tip: "I ran out of POKé BALLs to catch POKéMON with! You should carry extras!". Did not initiate a battle.
+
+## Viridian City Exploration Notes (Turn 2324+)
+*   Attempted to reach Old Man (VIRIDIANCITY_GAMBLER1) at (31,9) after exploring all unseen tiles.
+*   Realized I was forced down the Y=10 ledge line (from (33,9) to (33,11)) after interacting with the locked Gym at (33,8).
+*   This makes the Old Man at (31,9) and the area north of the Y=10 ledge inaccessible from the southern part of Viridian City without leaving and re-entering.
+*   Viridian City exploration is considered complete for now. Proceeding to Pewter City.
