@@ -32,7 +32,7 @@
 *   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12) by battling trainers in Viridian Forest and on Route 2. Prioritize type advantages. Scout for Rock-type counters if needed.
 
 ## Pokémon Party & Log (Current as of Turn 1232):
-*   **GOTTSAMER (CATERPIE):** Lv4 (15/18 HP, EXP: 118). TACKLE (29 PP), STRING SHOT (40 PP).
+*   **GOTTSAMER (CATERPIE):** Lv5 (17/20 HP, EXP: 132). TACKLE (29 PP), STRING SHOT (40 PP).
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP).
 *   **NIGHTSHADE (ODDISH):** Lv6 (23/23 HP, EXP: 179). TACKLE (35 PP), POISONPOWDER (35 PP).
 *   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 410). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (30 PP).
