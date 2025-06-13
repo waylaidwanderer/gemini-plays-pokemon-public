@@ -102,3 +102,11 @@
 *   **Items:** None found.
 *   **Encounters:** FURYFIST (MANKEY) (Lv4, caught). SPIKE (NIDORAN♂) (Lv3, caught).
 *   **Pokédex Evaluation:** Contact PROF.OAK via PC (Sign in Viridian Forest).
+
+## AI Feedback & Action Plan (Turn 1891):
+*   **Battle Tactics:** Acknowledged that QUICK ATTACK's effectiveness after SPARKY's ATTACK was lowered by GROWL was misjudged. Will consider stat changes more carefully. THUNDERSHOCK is likely better against NIDORAN♀.
+*   **Goal Refinement (Post-NIDORAN♀ catch):** If NIDORAN♀ is caught (bringing Pokédex to 9/10), the tertiary goal will shift from 'Explore all Reachable Unseen Tiles on Route 22' to 'Proceed to Route 2 via Viridian Forest, seeking the final unique Pokémon encounter en route to obtain HM05 FLASH.'
+*   **Agent Development:**
+    *   **`pokedex_progress_agent`**: Will make a firm decision (define or discard) after the current battle/exploration phase on Route 22.
+    *   **Agent System Prompts**: Will prioritize reviewing system prompts for code-enabled agents after the current battle/exploration phase on Route 22.
+*   **Poké Ball Management:** Will be mindful of the 4 Poké Balls remaining.
