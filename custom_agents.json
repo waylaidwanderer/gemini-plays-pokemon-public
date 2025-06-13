@@ -31,14 +31,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_action\":{\"type\":\"string\",\"enum\":[\"FIGHT\",\"RUN\",\"CATCH\"]},\"reasoning\":{\"type\":\"string\"},\"is_new_dex_entry\":{\"type\":\"boolean\",\"nullable\":true,\"description\":\"True if CATCH is recommended and it's a new Pokédex entry.\"}},\"required\":[\"recommended_action\",\"reasoning\"]}",
     "agent_can_run_code": false
   },
-  "npc_dialogue_analyzer_agent": {
-    "agent_name": "npc_dialogue_analyzer_agent",
-    "agent_description": "Analyzes NPC dialogue and current game state to identify potential clues, hidden meanings, or tasks implied by the dialogue. Helps with story progression and finding triggers.",
-    "agent_system_prompt": "You are an NPC Dialogue Analyzer for Pokémon Yellow Legacy. Your task is to interpret NPC dialogue for actionable intelligence relevant to game progression in this specific ROM hack. Given the dialogue text, player's current primary/secondary goals, current map_id, relevant inventory items (especially Key Items), and known obstacles (e.g., 'Route X blocked by Snorlax', 'Gym Y door locked'), analyze the dialogue for: 1. Direct tasks or quests. 2. Hints to overcome specific known obstacles. 3. Clues about the location or use of Key Items. 4. Information that might suggest a change in goal priority or reveal a new path forward. 5. Lore or world-building details that might be subtly important. Explain your reasoning clearly. Output must conform to the provided schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"dialogue_text\":{\"type\":\"string\"},\"current_player_primary_goal\":{\"type\":\"string\"},\"current_player_secondary_goal\":{\"type\":\"string\"},\"current_map_id\":{\"type\":\"string\"},\"relevant_inventory_items\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"known_obstacles\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"dialogue_text\",\"current_player_primary_goal\",\"current_map_id\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"key_takeaways\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"suggested_next_actions_based_on_dialogue\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"confidence_in_interpretation\":{\"type\":\"number\",\"minimum\":0,\"maximum\":1}},\"required\":[\"key_takeaways\",\"suggested_next_actions_based_on_dialogue\",\"confidence_in_interpretation\"]}",
-    "agent_can_run_code": false
-  },
   "optimal_training_spot_agent": {
     "agent_name": "optimal_training_spot_agent",
     "agent_description": "Suggests routes/areas for efficient EXP gain for specific Pokémon under the current level cap, considering type matchups if possible. Can run Python code.",
