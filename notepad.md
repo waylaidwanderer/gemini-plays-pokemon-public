@@ -110,4 +110,6 @@
 
 *   **Battle Menu Confusion (T1671-T1674):** Got stuck in a loop trying to select ITEM from the main battle menu. Realized the game put me back in the 'Choose a POKéMON' screen after a 'X is already out!' message. Pressing B from 'Choose a POKéMON' screen should return to the main battle menu.
 
+*   **Battle Menu Confusion (T1671-T1674):** Got stuck in a loop trying to select ITEM from the main battle menu. Realized the game put me back in the 'Choose a POKéMON' screen after a 'X is already out!' message. Pressing B from 'Choose a POKéMON' screen should return to the main battle menu.
+
 *   **Battle Menu Confusion (T1671-T1672):** Got stuck in a loop trying to select ITEM from the main battle menu. Realized the game put me back in the 'Choose a POKéMON' screen after a 'X is already out!' message. Pressing B from 'Choose a POKéMON' screen should return to the main battle menu.
