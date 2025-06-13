@@ -33,7 +33,7 @@
 *   **Agent Testing:** After healing the party, test the `map_analyzer_agent` in Viridian City or on Route 2.
 
 ## Pokémon Party & Log (Current as of Turn 1542):
-*   **GOTTSAMER (METAPOD):** Lv7 (12/25 HP, EXP: 412). ATK 10, DEF 11, SPD 11, SPC 9. TACKLE (14 PP), STRING SHOT (40 PP), HARDEN (30 PP).
+*   **GOTTSAMER (METAPOD):** Lv7 (0/25 HP, FNT, EXP: 412). ATK 10, DEF 11, SPD 11, SPC 9. TACKLE (14 PP), STRING SHOT (40 PP), HARDEN (30 PP).
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP).
 *   **NIGHTSHADE (ODDISH):** Lv8 (12/28 HP, EXP: 397). TACKLE (22 PP), POISONPOWDER (33 PP), LEECH SEED (9 PP).
 *   **AEGIS (KAKUNA):** Lv7 (9/24 HP, EXP: 462). POISON STING (25 PP), STRING SHOT (40 PP), HARDEN (30 PP).
