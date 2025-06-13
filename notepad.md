@@ -6,7 +6,7 @@
 *   **Current Badges:** 0
 *   **Current Level Cap:** 12 (0 badges)
 *   **Pokédex:** 5/151
-*   **Money:** ¥632
+*   **Money:** ¥316
 
 ## Hard Mode Rules (Player-Only Restrictions):
 *   **Battle Style:** Set mode.
@@ -28,11 +28,10 @@
 *   EXP. All obtainable.
 
 ## Current Objectives & Plans (HOW to achieve goals):
-*   **Heal Critically Injured Party (COMPLETE):** Party was healed after blacking out in Viridian Forest and returning to Viridian City Pokémon Center.
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
-*   **Pewter Gym Preparation (Paused):** Upon reaching Pewter City (after healing), identify Gym type, Leader's Pokémon/levels. Train team to cap (12), prioritizing type advantages.
+*   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12), prioritizing type advantages. Scout for Rock-type counters if needed.
 
-## Pokémon Party & Log (Current as of Turn 1190):
+## Pokémon Party & Log (Current as of Turn 1200):
 *   **GOTTSAMER (CATERPIE):** Lv4 (18/18 HP, EXP: 118). TACKLE (35 PP), STRING SHOT (40 PP).
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP).
 *   **NIGHTSHADE (ODDISH):** Lv6 (23/23 HP, EXP: 179). TACKLE (35 PP), POISONPOWDER (35 PP).
@@ -48,14 +47,13 @@
 *   `ground`: Walkable.
 *   `impassable`: Walls, counters, etc. Not enterable.
 *   `grass`: Wild encounters.
-*   `ledge`: Jump down (Y+2), not up.
+*   `ledge`: Jump down (Y+2 from above the ledge tile), not up. Impassable from below (when player is at Y+1 relative to ledge tile at Y).
 
 ## Lessons Learned / Game Mechanics:
 *   **Menu Navigation (Naming Screen):** Precise inputs needed. Verify letter before 'A'. 'B' is backspace.
 *   **Poison:** Outside battle, -1 HP every 4 steps.
 *   **Pikachu Movement:** Can walk through. Adjacent & not facing: 1st press turns, 2nd moves.
-*   **Ledge Traversal:** One 'Down' press from above moves to Y+2.
-*   **Warp Types:** 1x1 instant (move off/on to re-warp). Larger warps (2x1, 1x2) need 2 steps (onto warp, then into boundary).
+*   **Warp Types:** 1x1 instant (move off/on to re-warp). Larger warps (2x1, 1x2, e.g. building entrances) may need 2 steps (onto warp, then into boundary/direction of warp).
 *   **Critical Game Mechanic:** ALWAYS press 'A' to clear dialogue/text BEFORE other inputs.
 *   **Ghost vs. Psychic:** Ghost-type moves are SUPER EFFECTIVE against Psychic.
 *   **Trust Game Data:** Trust `Reachable Unseen Tiles` list. Game State is source of truth for levels, etc.
@@ -66,33 +64,39 @@
 *   **Pokémon Switching Menu (Corrected T1068-T1085):** Selecting a Pokémon in the party list opens its action sub-menu (STATS, SWITCH, CANCEL). To switch: select 'SWITCH', then select the Pokémon to swap with from the party list. Press 'A' on target, then 'A' on 'SWITCH', then navigate to other Pokémon and 'A' to confirm.
 
 ## Active Hypotheses / Things to Test:
-*   Can the `route_planner_agent` be improved for intra-map pathing with better prompting?
+*   Can the `route_planner_agent` be improved for intra-map pathing with better prompting for ledge awareness?
 *   Are there specific conditions to trigger battles with certain NPCs who initially only offer dialogue (e.g., Youngster in Viridian Forest)?
+*   Test `optimal_training_spot_agent` once in Viridian Forest or a suitable training area.
 
 ## Defeated Trainers:
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
 *   Viridian Forest (ID 51) - (3,42) - Lass (Cool Trainer F sprite)
+*   Viridian Forest (ID 51) - (28,20) - Youngster (Bug Catcher sprite)
 
 ## Agent Definitions & Usage Log:
-*   **`battle_strategist_agent`**: Defined. Use for significant trainer battles. (Called T1109 vs Bug Catcher's Metapod).
-*   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. System prompt needs refinement for limitations.
+*   **`battle_strategist_agent`**: Defined. Use for significant trainer battles. (Called T1109, T1113).
+*   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. System prompt needs refinement for limitations. (Called T1198 for Route 2).
 *   **`rom_hack_mechanic_analyzer_agent`**: Defined. Use for deducing new mechanics.
 *   **`level_cap_compliance_agent`**: Defined. Used T407 (all okay).
-*   **`wild_encounter_evaluator_agent`**: Defined. Used T929, T1012, T1031, T1037, T1063, T1065, T1067, T1069, T1088 (PIDGEY - RUN), T1090 (PIDGEY - RUN), T1092 (PIDGEY - RUN).
+*   **`wild_encounter_evaluator_agent`**: Defined. Used T929, T1012, T1031, T1037, T1063, T1065, T1067, T1069, T1088, T1090, T1092.
 *   **`npc_dialogue_analyzer_agent`**: Defined. Low usage, consider more frequent application.
 *   **`pokedex_tracker_agent`**: Defined. Untested.
 *   **`optimal_training_spot_agent`**: Defined. Untested.
 *   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items. Untested.
-*   **`hm_obstacle_identifier_agent`**: DELETED (Turn 1086, unused).
 
 ## World Knowledge Graph Notes:
 *   **Critical:** Record inter-map transitions IMMEDIATELY using `manage_world_knowledge` upon map_id change.
 
 ## Area Notes:
-### Viridian Forest (ID 51) - Current Area
-*   **Objective:** Retreat south to Viridian City Pokémon Center for healing.
-*   **Key NPCs:** Youngster (17,44) - non-battling so far (marked). Lass (3,42) - defeated (marked). Youngster (31,34) - unencountered. Youngster (28,41) - unencountered. Youngster (31,20) - unencountered.
+### Route 2 (ID 13) - Current Area
+*   **Objective:** Navigate to Viridian Forest South Gate warp at (4,44).
+*   **Current Location:** (5,52).
+*   **Items:** Poké Ball at (14,55) - unreachable. Poké Ball at (14,46) - unreachable.
+*   **Encounters:** None yet on this visit.
+
+### Viridian Forest (ID 51) - Previously Explored
+*   **Objective:** Retreat south to Viridian City Pokémon Center for healing (COMPLETED).
+*   **Key NPCs:** Youngster (17,44) - non-battling. Lass (3,42) - defeated. Youngster (31,34) - unencountered. Youngster (28,41) - unencountered. Youngster (31,20) - unencountered. Youngster (28,20) - defeated.
 *   **Items:** Poké Ball found (2,32). Poké Ball at (13,30) - unreachable (noted from map sprites).
 *   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran), Pidgey (Lv7, ran).
 *   **Encounter Log (Turn 1088-1094):** At (26,24), encountered Lv7 PIDGEY. AEGIS led. Failed to run twice; AEGIS took 2 GUST hits (HP to 2/24). Successfully ran on 3rd attempt.
-*   **Current Location:** (26,24). Immediate plan: Switch GOTTSAMER to lead, then navigate to south exit warp at (17,48).
