@@ -5,14 +5,14 @@
 ### A. Pokémon Party (Turn 2261)
 1. SPARKY (PIKACHU): Lv12 (38/38 HP, EXP: 1728 - GAINED 0) | Moves: THUNDERSHOCK (30 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP) - AT LEVEL CAP (0 Badges)
 2. SPROUT (ODDISH): Lv8 (27/27 HP, EXP: 374) | Moves: TACKLE (35 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
-3. PIP (PIDGEY): Lv9 (0/27 HP, EXP: 446) | Moves: GUST (27 PP), SAND-ATTACK (15 PP) - FAINTED
+3. PIP (PIDGEY): Lv9 (17/27 HP, EXP: 446) | Moves: GUST (27 PP), SAND-ATTACK (15 PP)
 
 ### B. Financial Status
 - Money: ¥296
 
-### C. Current Location & Immediate Objective (Turn 2299)
+### C. Current Location & Immediate Objective (Turn 2300)
 - Location: Route 22 (ID: 33), at (32,12).
-- Immediate Objective: Travel to Viridian City Pokémon Center to heal PIP.
+- Immediate Objective: Explore unseen tiles on Route 22 and train SPROUT and PIP.
 
 ### D. Training Priorities
 - SPROUT (ODDISH): Lv8 -> Needs significant training for Brock (Rock/Ground). Grass moves super effective. **PRIORITY**
