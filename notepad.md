@@ -93,3 +93,5 @@
 *   **Viridian Forest NPC Notes (Turn 2205+):** Youngster 6 (VIRIDIANFOREST_YOUNGSTER6) at (28,41) gave Poké Ball tip, no battle.
 
 *   Viridian Forest (ID 51) - (3,19) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER4)
+
+*   **Viridian Forest North Gate NPC Notes (Turn 2467-2468):** Super Nerd (VIRIDIANFORESTNORTHGATE_SUPER_NERD) at (4,3) gave a tip about Pokémon in forests/caves, no battle. Gramps (VIRIDIANFORESTNORTHGATE_GRAMPS) at (3,6) gave a tip about Cut, no battle.
