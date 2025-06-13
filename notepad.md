@@ -43,7 +43,7 @@
     5.  Re-challenge Brock. If battle is difficult, consult `team_composition_advisor_agent` and `battle_strategist_agent`.
 *   **Travel to Pewter City (Secondary):** Achieved via steps for primary goal.
 *   **Train in Viridian Forest (Tertiary):** Focus on FURYFIST and NADEL. Catch new Pokémon if encountered and not yet in Pokédex. Use `wild_encounter_evaluator_agent` for fight/run/catch decisions.
-*   **Item Collection (Current Tactical):** Reach item at (13,30) in Viridian Forest by moving North from (13,44).
+*   **Item Collection (Current Tactical):** Reach item at (13,30) in Viridian Forest by following the BFS path starting from (13,41) (initial segment: 11 steps Right to (24,41)).
 
 ## Lessons Learned, Game Mechanics & Insights
 *   **Tile Types:** `ground`, `impassable`, `grass`, `ledge` (jump Y+2, impassable from Y+1 below), `cuttable`.
