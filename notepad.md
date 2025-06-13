@@ -26,10 +26,9 @@
 *   EXP. All obtainable.
 
 ## Current Objectives & Plans (HOW to achieve goals):
-*   **To Obtain the Boulder Badge:** First, travel to Pewter City. This involves navigating Route 2, then Viridian Forest, then the northern part of Route 2 to reach Pewter City.
-*   **To Travel to Pewter City:** Navigate Route 2 (south section) -> Viridian Forest South Gate -> Viridian Forest -> Viridian Forest North Gate -> Route 2 (north section) -> Pewter City.
-*   **To Complete the Pokédex:** Catch new Pokémon species as opportunities arise. Pay attention to NPC hints about Pokémon locations.
-*   **Prepare for Pewter City Gym:** Once in Pewter City, assess Gym type and Leader's Pokémon. Train SPARKY and any new team members towards the level cap (currently 12) if necessary, focusing on type advantages.
+*   **Path to Pewter City for Boulder Badge:** Navigate Route 2 (south section) to the Viridian Forest South Gate warp at (4,44). Traverse Viridian Forest, exploring to find its North Gate. Continue on Route 2 (north section) from there to reach Pewter City.
+*   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas (grass, water, etc.). Pay close attention to NPC dialogue for hints about Pokémon locations or special encounter conditions.
+*   **Pewter Gym Preparation:** Upon reaching Pewter City, identify the Gym's type specialty and the Gym Leader's Pokémon lineup and levels. Train SPARKY and any other acquired Pokémon up to the current level cap (12), prioritizing type advantages against the expected Gym opponents.
 
 ## Pokémon Party & Log:
 *   **SPARKY (Pikachu):** Lv7, 419 EXP (Current cap 12). THUNDERSHOCK PP: 22/30. Currently 5/25 HP and POISONED (Turn 777). Last healed at Viridian Pokémon Center (Turn 438).
