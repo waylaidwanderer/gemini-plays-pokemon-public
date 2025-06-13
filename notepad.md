@@ -97,3 +97,9 @@
 
 ## Pokémon Log (Updates)
 *   SPARKY (Pikachu): Healed at Viridian Pokémon Center (Turn 438). All HP/PP restored.
+
+## Viridian City Mart (ID: 42)
+*   Current position (3,6) after scripted event.
+*   Received OAK'S PARCEL from the shopkeeper!
+*   Task: Deliver OAK'S PARCEL to Prof. Oak in Pallet Town.
+*   Immediate plan: Buy Poké Balls.
