@@ -123,3 +123,5 @@
 *   **GOSSAMER (Caterpie):** Lv4. Caught in Viridian Forest (Turn 931). Added to party.
 
  (Used 0 on Caterpie - still 9 after catch!)
+
+*   **AEGIS (Kakuna):** Lv7 (24/24 HP), 343 EXP (Current cap 12). POISON STING PP: 35/35, STRING SHOT PP: 40/40, HARDEN PP: 30/30. Caught in Viridian Forest (Turn 1014).
