@@ -6,7 +6,7 @@
 *   **Current Badges:** 0
 *   **Current Level Cap:** 12 (0 badges)
 *   **Pokédex:** 5/151
-*   **Money:** ¥316
+*   **Money:** ¥376
 
 ## Hard Mode Rules (Player-Only Restrictions):
 *   **Battle Style:** Set mode.
@@ -31,12 +31,12 @@
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
 *   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12) by battling trainers in Viridian Forest and on Route 2. Prioritize type advantages. Scout for Rock-type counters if needed.
 
-## Pokémon Party & Log (Current as of Turn 1232):
-*   **GOTTSAMER (CATERPIE):** Lv5 (17/20 HP, EXP: 132). TACKLE (29 PP), STRING SHOT (40 PP).
+## Pokémon Party & Log (Current as of Turn 1292):
+*   **GOTTSAMER (CATERPIE):** Lv6 (11/22 HP, EXP: 232). TACKLE (22 PP), STRING SHOT (40 PP).
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP).
 *   **NIGHTSHADE (ODDISH):** Lv6 (23/23 HP, EXP: 179). TACKLE (35 PP), POISONPOWDER (35 PP).
 *   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 410). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (30 PP).
-*   **SPARKY (PIKACHU):** Lv8 (14/27 HP, EXP: 513). THUNDERSHOCK (26 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP).
+*   **SPARKY (PIKACHU):** Lv8 (12/27 HP, EXP: 580). THUNDERSHOCK (24 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP).
 
 ## Items Obtained:
 *   **POKé BALL x7**
@@ -62,35 +62,34 @@
 *   **DV Checking Tip:** Hold START while pressing A on a Pokémon's STATS screen to check DVs. (Old Man Viridian, T707).
 *   **Notepad `replace` Action:** `old_text` must be an *exact* match. If `replace` fails repeatedly, consider `overwrite` for the section or entire notepad.
 *   **Pokémon Switching Menu (Corrected T1068-T1085):** Selecting a Pokémon in the party list opens its action sub-menu (STATS, SWITCH, CANCEL). To switch: select 'SWITCH', then select the Pokémon to swap with from the party list. Press 'A' on target, then 'A' on 'SWITCH', then navigate to other Pokémon and 'A' to confirm.
-*   **Battle Efficiency:** Avoid prolonged battles with highly defensive Pokémon (e.g., Harden-spamming Metapod) if they offer low EXP for the time/PP invested. Balance agent recommendations (like `wild_encounter_evaluator_agent`) with own judgment on resource cost and battle efficiency. (Critique T1231)
+*   **Battle Efficiency (Critique T1231 & T1260):** Avoid prolonged battles with highly defensive Pokémon (e.g., Harden-spamming Metapod) or very low-level Pokémon if they offer low EXP for the time/PP invested. Balance agent recommendations (like `wild_encounter_evaluator_agent`) with own judgment on resource cost and battle efficiency. Prioritize trainer battles for EXP.
 
 ## Active Hypotheses / Things to Test:
-*   Is the `route_planner_agent`'s current performance for intra-map pathing sufficient, or does its system prompt need refinement for complex obstacles like ledges? Evaluate after more uses.
+*   Is the `route_planner_agent`'s current performance for intra-map pathing sufficient, or does its system prompt need refinement for complex obstacles like ledges? Evaluate after more uses. (Critique T1260 - still relevant)
 *   Are there specific conditions to trigger battles with certain NPCs who initially only offer dialogue (e.g., Youngster in Viridian Forest at (17,44))?
-*   Test `optimal_training_spot_agent` ASAP in Viridian Forest to find better training areas. (Critique T1231)
+*   Test `optimal_training_spot_agent` ASAP in Viridian Forest to find better training areas. (Critique T1231 & T1260 - Action this!)
 *   Increase usage of `npc_dialogue_analyzer_agent` with new NPC dialogue, especially trainers. (Critique T1231)
 *   Test `item_reminder_agent` when near known uncollected items. (Critique T1231)
+*   Test `map_analyzer_agent` in Viridian Forest. (Critique T1260 - Action this!)
 
 ## Defeated Trainers:
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
 *   Viridian Forest (ID 51) - (3,42) - Lass (Cool Trainer F sprite)
 *   Viridian Forest (ID 51) - (28,20) - Youngster (Bug Catcher sprite)
+*   Viridian Forest (ID 51) - (28,34) - Bug Catcher (Youngster sprite)
 
 ## Agent Definitions & Usage Log:
 *   **`battle_strategist_agent`**: Defined. Use for significant trainer battles. (Called T1109, T1113).
-*   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. System prompt needs refinement for limitations. (Called T1198 for Route 2, T1211 for VF South Gate, T1213 for VF).
+*   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. System prompt needs refinement for limitations. (Called T1198 for Route 2, T1211 for VF South Gate, T1213 for VF, T1225 for VF, T1233 for VF, T1254 for VF). (Critique T1260 - Be cautious with ledges).
 *   **`rom_hack_mechanic_analyzer_agent`**: Defined. Use for deducing new mechanics.
 *   **`level_cap_compliance_agent`**: Defined. Used T407 (all okay).
-*   **`wild_encounter_evaluator_agent`**: Defined. Used T929, T1012, T1031, T1037, T1063, T1065, T1067, T1069, T1088, T1090, T1092, T1219, T1223. Note: While useful, balance its EXP recommendations with battle efficiency and resource cost (Critique T1231).
+*   **`wild_encounter_evaluator_agent`**: Defined. Used T929, T1012, T1031, T1037, T1063, T1065, T1067, T1069, T1088, T1090, T1092, T1219, T1223, T1226 (ran), T1234 (ran), T1236 (fight), T1258 (fight). Note: While useful, balance its EXP recommendations with battle efficiency and resource cost (Critique T1231 & T1260).
 *   **`npc_dialogue_analyzer_agent`**: Defined. Low usage, consider more frequent application.
 *   **`pokedex_tracker_agent`**: Defined. Untested.
-*   **`optimal_training_spot_agent`**: Defined. Untested.
+*   **`optimal_training_spot_agent`**: Defined. Untested. (Critique T1260 - Test ASAP!)
 *   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items. Untested.
-
-## New Agent Ideas to Consider Defining:
-*   `map_analyzer_agent`: Analyze current map for optimal training spots, items, unencountered trainers, and general strategic points of interest.
-*   `long_term_planner_agent`: Assist with high-level strategic planning for overall game progression, considering major milestones like badges, HMs, and key items.
-*   `rom_hack_change_tracker_agent`: Systematically log and recall observed differences from the base Pokémon Yellow game (e.g., altered mechanics, item locations, NPC dialogue variations, type matchup changes).
+*   **`map_analyzer_agent`**: Defined (T1261). Untested. (Critique T1260 - Test ASAP!)
+*   **`rom_hack_change_tracker_agent`**: Defined (T1291). Untested.
 
 ## World Knowledge Graph Notes:
 *   **Critical:** Record inter-map transitions IMMEDIATELY using `manage_world_knowledge` upon map_id change.
@@ -98,11 +97,11 @@
 ## Area Notes:
 ### Viridian Forest (ID 51) - Current Area
 *   **Objective:** Navigate through Viridian Forest, battle trainers for EXP, and reach the north exit.
-*   **Current Location:** (23,41).
-*   **Key NPCs (Unencountered Trainers):** Youngster (31,34), Youngster (31,20), Youngster (28,41).
-*   **Key NPCs (Non-Battling):** Youngster (17,44).
+*   **Current Location:** (27,34).
+*   **Key NPCs (Unencountered Trainers):** Youngster (31,20).
+*   **Key NPCs (Non-Battling):** Youngster (17,44), Youngster (28,41) - Tip: Carry extra Poké Balls.
 *   **Items:** Poké Ball at (13,30) - unreachable (noted from map sprites).
-*   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran), Pidgey (Lv7, ran), Metapod (Lv6, ran), Weedle (Lv4, fought).
+*   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran), Pidgey (Lv7, ran), Metapod (Lv6, ran), Weedle (Lv4, fought - T1245), Bug Catcher (Youngster sprite at (28,34)) with Lv6 CATERPIE, Lv6 WEEDLE, Lv6 CATERPIE (defeated T1290).
 
 ### Route 2 (ID 13) - Previously Explored
 *   **Objective:** Navigated to Viridian Forest South Gate warp.
