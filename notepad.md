@@ -84,11 +84,11 @@
     *   All reachable unseen tiles explored before leaving.
 
 ## Current Area Notes:
-*   **Viridian City (ID: 1):**
-    *   Player at (36,27), facing Right.
-    *   Pikachu at (35,27).
-    *   Immediate plan: Find the PokéMart, Gym, and interact with NPCs to find a way north to Pewter City. Rely on live Game State for Reachable Unseen Tiles.
-    *   Note: Path north to Route 2 (Pewter City) is currently 'Undiscovered' and 'Reachable: No'. Must find trigger.
+*   **Viridian City (Exterior) (ID: 1):**
+    *   Last position before entering Mart: (30,20), facing Up.
+    *   Pikachu was at (30,21).
+    *   Plan when returning to exterior: Find Gym and the NPC/event to open path north to Pewter City. Deliver OAK'S PARCEL first.
+    *   Current location: Viridian City Mart (ID: 42).
 
 ## Viridian City Pokémon Center (ID: 41)
 *   Arrived at (4,8). Current position (4,4).
