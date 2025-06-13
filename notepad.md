@@ -179,5 +179,3 @@
 - **Notepad Maintenance (Critique Turn 2551):** This `overwrite` action addresses the need for consolidation. Will continue to aim for accurate `replace` actions or use `overwrite` for major refactors.
 - **Agent `item_finder_agent` (Turn 2551):** Definition needs review for redundant player_x/y input.
 - **Agent `capability_checker_agent` (Turn 2551):** Must test this agent soon or delete it.
-
-- Party Auto-Switching: The game may automatically switch the lead Pokémon at the start of a wild battle. Observed on Route 22 when SPROUT (lead) was switched for SPARKY (second in party) against wild NIDORAN♂ Lv3 (Turn 2575, game auto-switched) and NIDORAN♀ Lv3 (Turn 2577, game auto-switched).
