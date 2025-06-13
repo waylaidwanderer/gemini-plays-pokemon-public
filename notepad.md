@@ -73,10 +73,10 @@
 *   **Critical:** Record inter-map transitions (map boundary, warps) IMMEDIATELY using `manage_world_knowledge` upon map_id change. Do not defer.
 
 ## Past Area Notes:
-*   **Route 1 (ID 12):** Exited at (12,1) (to Viridian) and (12,36) (to Pallet). Wild: Pidgey, Rattata, Spearow. Trainers: Youngster (Sprite ID 1) at (6,27) - Non-battling (gave STAT EXP tip) or already defeated. Youngster (Sprite ID 2) at (18,14) - Gave STAT EXP tip. Sign at (10,28).
-*   **Viridian City Pokémon Center (ID: 41):** Arrived (4,8). SPARKY healed (Turn 438).
-*   **Viridian City Mart (ID: 42):** Arrived (4,8). Received OAK'S PARCEL from shopkeeper (scripted event moved player to (3,6)).
-*   **Oaks Lab (ID: 40):** Delivered OAK'S PARCEL to Prof. Oak at (6,3). Received Pokédex and mission to complete it.
+*   **Route 1 (ID 12):** Connects Pallet Town (S) and Viridian City (N). Wild: Pidgey, Rattata, Spearow. Youngster (6,27) & Youngster (18,14) gave STAT EXP tips. Sign at (10,28).
+*   **Viridian City Pokémon Center (ID: 41):** Used for healing.
+*   **Viridian City Mart (ID: 42):** Obtained OAK'S PARCEL. Bought Poké Balls.
+*   **Oaks Lab (ID: 40):** Delivered OAK'S PARCEL. Received Pokédex & mission.
 
 ## Route 1 Navigation Strategy (Post-Critique & Agent Failure)
 *   The `route_planner_agent` failed to find a path on Route 1 (Turn 542). This suggests limitations with the agent for complex intra-map routing with obstacles like ledges.
