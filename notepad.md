@@ -121,8 +121,8 @@
 - **General:** Ensure prompts for code-enabled agents clarify use of `run_code` for `map_xml_string` / `world_knowledge_graph_json_string`.
 
 ### C. Agent Development Ideas
-- **Training Spot Suggester Agent:** Input: target Pokémon, current location, desired level. Output: suggested map/grass/trainers, considering types & enemy levels.
-- **Shop Inventory Agent:** Input: city/mart name. Output: items sold & prices. (Requires discovery).
+- **Training Spot Suggester Agent:** Input: target Pokémon, current location, desired level. Output: suggested map/grass/trainers, considering types & enemy levels. (Low priority - fix existing agents first).
+- **Shop Inventory Agent:** Input: city/mart name. Output: items sold & prices. (Requires discovery, low priority - fix existing agents first).
 
 ## V. Lessons Learned & Strategic Refinements
 
