@@ -210,3 +210,5 @@
     - Ledge at Route 22 (34,8)
     - Sign at Route 22 (8,12)
     - Ledge at Route 22 (6,10)
+
+- Turn 2473: SPROUT (Lv9) defeated wild NIDORAN♂ Lv4 on Route 22. SPROUT EXP +17 (to 453). SPROUT HP now 20/29. TACKLE PP now 22/35. LEECH SEED PP 7/10. SPARKY (lead, capped Lv12) gained +17 EXP (visual only, actual EXP 1728 unchanged).
