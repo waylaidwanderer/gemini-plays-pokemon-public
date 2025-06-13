@@ -173,3 +173,5 @@
 - Discovered (34,8) on Route 22 is a ledge when approached from (34,9) (below).
 
 - **Turn 2393:** SPROUT defeated wild MANKEY Lv4 (EXP +21 to 407). SPROUT HP now 20/27. SPARKY (lead, capped Lv12) gained no actual EXP (EXP message: +21 EXP, but actual EXP 1728 unchanged).
+
+- **Turn 2408:** SPROUT defeated wild NIDORAN♂ Lv4 (grew to Lv9, EXP +17 to 424). SPROUT HP now 19/29. SPARKY (lead, capped Lv12) gained no actual EXP (EXP message: +17 EXP, but actual EXP 1728 unchanged).
