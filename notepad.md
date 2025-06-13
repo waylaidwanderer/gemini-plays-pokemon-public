@@ -137,6 +137,11 @@
 - `exploration_helper_agent` for Route 22 unseen tiles from (32,12) (Turn 2303): Path led to seen areas/ledges, not target unseen tiles. Attempts: 1.
 - `pathfinding_agent` for Route 22 to (12,8) from (32,12) (Turn 2305): Invalid ledge jump from (32,8) to (31,8). Attempts: 1.
 - `pathfinding_agent` for Route 22 to (12,8) from (32,8) (Turn 2306): Invalid ledge jump from (32,8) to (31,8). Attempts: 1.
+- `pathfinding_agent` for Route 22 to (12,8) from (32,8) (Turn 2307): Invalid ledge jump from (32,8) to (31,8). Attempts: 1.
+
+### C. Key Learnings from Mistakes (Extended - Turn 2416)
+- **Route 22 Ledge Navigation:** Initial reliance on agents for Route 22 was a mistake. Manual exploration, careful map study, and immediate documentation of ledge behavior are crucial for complex terrain. Avoided by: Switching to manual nav sooner.
+- **Notepad `old_text`:** Double-check `old_text` for `replace` actions to avoid failed edits. Use game suggestions carefully or copy directly from notepad if unsure.
 
 ### D. Manual Navigation Plans (When Agents Fail)
 - **Route 22 (Current):** All navigation on Route 22 will be manual, focusing on systematically exploring reachable unseen tiles (e.g., western cluster starting with (13,7)). This is due to repeated `pathfinding_agent` and `exploration_helper_agent` failures with ledges.
