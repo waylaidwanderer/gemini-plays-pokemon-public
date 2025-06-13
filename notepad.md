@@ -83,7 +83,7 @@
 *   Revised strategy for Route 1 (from south, e.g., (15,29)) to reach northern exit: Head west to find gaps in ledges (e.g., around (9,28)) rather than making wide eastern detours. Ledges are impassable from below; always look for lateral openings. Manual pathing was successful.
 
 ## Current Area Notes:
-*   **Viridian City (ID: 1):** Arrived from Route 1 at (22,36). Secondary Goal: Buy Poké Balls at PokéMart (30,20). Many reachable unseen tiles to explore.
+*   **Viridian City (ID: 1):** Arrived from Route 1 at (22,36). The path north to Pewter City is currently blocked. Need to find an NPC or event in Viridian City to open this path. Many reachable unseen tiles still to explore, particularly in the main city area.
 
 ## Viridian School House (ID: 43)
 *   Blackboard at (4,1) teaches about Sleep (SLP) status and that the item AWAKENING can be used to wake them up. (Learned at Turn 654).
