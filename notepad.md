@@ -100,3 +100,8 @@
 *   **Battle Flexibility:** When a Pokémon's HP becomes critical, reassess the current battle plan (even if agent-generated) and consider defensive switches or alternative moves to prioritize survivability, especially under Hard Mode rules.
 
 *   **Pewter City NPC Notes:** Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) says Brock is a serious trainer, unlike Bug Catchers. (Non-battling)
+
+## Current Major Unresolved Issues (as of Turn 2562)
+*   **No Boulder Badge:** Game State consistently shows 'None' for badges after the battle with Brock. This means the level cap is still 12. Must re-investigate and likely re-challenge Brock.
+*   **Pewter City Pokémon Center Entry Saga:** Repeated attempts (at least 12 noted via system warnings and my own count of ~5 distinct failed hypotheses from T2530-T2539) to enter the Pewter Pokémon Center at (19,23)/(19,24) have failed. The exact warp mechanic for this 2x1 mat is not understood.
+*   **Potion on Fainted Pokémon:** Confirmed Potions do not revive fainted Pokémon (attempted on NIGHTSHADE in Pewter Mart, T2561). Need Revives or Pokémon Center access.
