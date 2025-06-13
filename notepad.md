@@ -10,7 +10,7 @@
 ### B. Financial Status
 - Money: ¥296
 
-### C. Current Location & Immediate Objective (Turn 2313)
+### C. Current Location & Immediate Objective (Turn 2335)
 - Location: Route 22 (ID: 33), at (7,7).
 - Immediate Objective: Navigate to eastern grass patch on Route 22 (target: (31,9)) for training. Path: D_x6 (to (14,13)), R_x17 (to (31,13)), U_x4 (to (31,9)).
 
