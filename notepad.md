@@ -83,7 +83,6 @@
 *   Viridian Forest (ID 51) - (28,20) - Youngster (Bug Catcher sprite, VIRIDIANFOREST_YOUNGSTER3)
 *   Viridian Forest (ID 51) - (28,34) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER2)
 *   Viridian Forest (ID 51) - (14,18) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER5)
-*   Pewter Gym (ID 3) - (3,4) - Jr. Trainer M (DIGLETT Lv9, SANDSHREW Lv9)
 
 ## Agent Management (9 Active Agents)
 *   **`battle_strategist_agent`**: Analyzes battle data for optimal moves/switches.
