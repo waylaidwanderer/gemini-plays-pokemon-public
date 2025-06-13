@@ -121,3 +121,8 @@
 *   **Agent Usage:** Will try to use `npc_dialogue_analyzer_agent` and `team_composition_advisor_agent` more appropriately or decide on their future.
 *   **Pokédex Evaluation Correction:** Corrected notepad based on AI feedback (not via PC).
 *   **WKG:** Will continue to manage diligently.
+
+## Reflection Insights (Turn 1974):
+*   **Battle Risk Assessment:** Letting SPARKY drop to 1HP vs RATTATA was very risky. Consider switching or using items (if allowed) more proactively in similar situations. Prioritize Pokémon health when possible, even if it means a slightly longer battle.
+*   **Pathing Precision:** Multiple pathing attempts on Route 2 (South) were blocked by impassable tiles visible on screen. Analyze the screen more carefully before committing to multi-step paths, or use `run_code` to parse `map_xml_string` for pathfinding if unsure, especially in unfamiliar or complex areas.
+*   **Agent Usage Reminder:** Use `map_analyzer_agent` more consistently when entering new routes or areas to get strategic insights early on.
