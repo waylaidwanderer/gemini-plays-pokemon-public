@@ -42,8 +42,8 @@
     4.  Re-challenge Jr. Trainer M in Pewter Gym.
     5.  Re-challenge Brock. If battle is difficult, consult `team_composition_advisor_agent` and `battle_strategist_agent`.
 *   **Travel to Pewter City (Secondary):** Achieved via steps for primary goal.
-*   **Train in Viridian Forest (Tertiary):** Focus on FURYFIST and NADEL. Catch new Pokémon if encountered and not yet in Pokédex. Use `wild_encounter_evaluator_agent` for fight/run/catch decisions.
-*   **Item Collection (Deferred - (13,30) Viridian Forest):** BFS path (118 steps) deemed tactically unsound for a single item given current training priorities. Will re-evaluate if a shorter path is found or item becomes critical.
+*   **Resource Acquisition & FURYFIST Revival (Tertiary):** Revive and train FURYFIST for Brock. Acquire more Poké Balls (currently 1). Explore remaining unseen areas in Viridian Forest.
+*   **Item Collection & Unseen Area Exploration (Viridian Forest - (13,30) and nearby):** Actively pursuing item at (13,30) and exploring reachable unseen tiles in this area (e.g., (13,25-28)). This is important for potential Poké Ball acquisition.
 
 ## Lessons Learned, Game Mechanics & Insights
 *   **Tile Types:** `ground`, `impassable`, `grass`, `ledge` (jump Y+2, impassable from Y+1 below), `cuttable`.
@@ -72,6 +72,11 @@
 *   **Agent Path Verification (T2341, T2380):** MUST manually verify `route_planner_agent` paths against map memory/XML *before* execution, especially for complex routes or near known obstacles. Consider using `map_analyzer_agent` for local alternatives if long paths fail.
 *   **Battle Strategy vs. Progression (T2341, T2380):** Prioritize progression over marginal EXP gains from wild battles, especially when Pokémon are very low level. Run from battles more readily if not specifically training or catching.
 *   **Map Markers (T2341, T2380):** Be consistent in marking ALL significant map features (used warps, key NPCs, obstacles, items obtained, key signs, etc.) that aid future navigation or recall. Example: Mark sign at (19,46) in Viridian Forest.
+*   **EXP Update (Turn 2803):** NADEL (Lv4 WEEDLE) grew to Lv5 (HP: 20/20, ATK: 9, DEF: 9, SPD: 7, SPC: 7) after defeating a wild WEEDLE. GOTTSAMER (Lv9 METAPOD) also gained 14 EXP from this battle.
+*   **Battle Anomaly (Turn 2787-2789):** Wild WEEDLE battle with SPARKY active ended inconclusively (no EXP gain after 'Up' input registered post-battle).
+*   **System Warning (Turn 2788, T2806):** Received reminders to make longer movement sequences.
+*   **EXP Update (Turn 2820, Wild Lv6 METAPOD):** NADEL (Lv5 WEEDLE) gained 30 EXP, grew to Lv5 (HP: 20/20, ATK: 9, DEF: 9, SPD: 7, SPC: 7). GOTTSAMER (Lv9 METAPOD) gained 30 EXP.
+*   **Type Matchup Anomaly (Turn 2816, 2817, 2820):** Game displayed POISON STING (Poison) as "super effective" against wild METAPOD (Bug/Poison). Standard typing is NVE. This might be a ROM hack change or display error. Continue to observe.
 
 ## Defeated Trainers Log
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
