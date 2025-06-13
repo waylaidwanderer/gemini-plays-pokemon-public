@@ -151,48 +151,20 @@
     - VIRIDIANCITY_YOUNGSTER2 (ID 3): Informational (DV speech), not a battler (Turns ~1966-2000).
     - VIRIDIANCITY_GAMBLER1 (ID 2): Non-battling/bugged (Turn ~2017-2019).
 - **Route 22 Initial Exploration:** Defeated Rival BLAZe (Turn ~2159). Navigational difficulties accessing western/upper grass due to ledges and map entry points (Turns ~2205-2225).
-
-- **VI. Historical Log & Major Milestones (CONCISE)**
-- **Startup:** Pallet Town, got SPARKY (Pikachu). Delivered Oak's Parcel, got Pokédex.
-- **Early Routes & Forest:** Traversed Route 1. Viridian Forest (caught SPROUT (Oddish), PIP (Pidgey)), defeated Bug Catchers.
-- **Pewter City Exploration:**
-    - Visited Museum (couldn't afford ticket ¥50).
-    - Nidoran House (learned about traded Pokémon & badges).
-    - Mart.
-    - Gathered intel on Brock in Pewter Gym (Geodude, Onix; Electric ineffective).
-- **Blackout:** Lost to Jr. Trainer in Pewter Gym (Turn 1901). Returned to Viridian Pokecenter.
-- **Viridian City NPC Issues:**
-    - VIRIDIANCITY_YOUNGSTER1 (ID 1): Bugged dialogue loop (Turns ~1920-1943).
-    - VIRIDIANCITY_YOUNGSTER2 (ID 3): Informational (DV speech), not a battler (Turns ~1966-2000).
-    - VIRIDIANCITY_GAMBLER1 (ID 2): Non-battling/bugged (Turn ~2017-2019).
-- **Route 22 Initial Exploration:** Defeated Rival BLAZe (Turn ~2159). Navigational difficulties accessing western/upper grass due to ledges and map entry points (Turns ~2205-2225).
 - **Route 22 Training (Turns 2250+):**
     - **Turn 2261:** PIP defeated wild SPEAROW Lv6 (EXP 396). SPARKY (lead) gained no EXP (capped).
     - **Turn 2274:** PIP defeated wild Mankey Lv5 (grew to Lv9, EXP 422). SPARKY (lead) gained no EXP (capped).
 
-    - **Turn 2274:** PIP defeated wild Mankey Lv5 (grew to Lv9, EXP 422). SPARKY (lead) gained no EXP (capped).
+## VII. Critique Review & Action Plan (Turn 2310)
 
-## VII. Critique Review & Action Plan (Turn 2281)
+- **Route 22 Ledge Navigation & Agent Usage:** Will cease using `pathfinding_agent` and `exploration_helper_agent` for Route 22 due to repeated failures with ledges. Will rely on manual navigation for this map until agent prompts are fixed. Manual navigation plans for problematic areas will be documented in section V.A.
+- **Agent: `wkg_transition_recorder_agent`:** High priority to refine prompt to query WKG for existing nodes by coordinates and use their actual IDs to streamline edge creation.
+- **Agent: `capability_checker_agent` & `item_finder_agent`:** Will seek opportunities to test/review these agents.
+- **Notepad - Failed Hypotheses:** Continue documenting, ensuring attempt counts are included.
+- **Notepad - Immediate Objective:** Consolidate updates to reflect more stable, multi-turn objectives.
+- **Notepad - Duplication:** Redundant 'Historical Log' and 'Critique Review' sections removed (this entry reflects the cleanup).
+- **Notepad - Agent Development Ideas:** Retained for now (Section IV.C), but fixing existing agents is a higher priority.
 
-- **Route 22 Ledge Navigation:** Misunderstood how ledges segment Route 22, leading to multiple failed attempts (approx. 5-7 distinct pathing attempts across turns ~2205-2219 and ~2248-2252) to access the western/upper area from the eastern/lower section after jumping down. Ledges are one-way; different map entry points are often needed.
-- **Agent: `wkg_transition_recorder_agent`:** Still requires manual intervention for node IDs. Prompt needs update to query WKG for existing nodes by coordinates and use their actual IDs or clearly differentiate payloads for new vs. existing nodes.
-- **Agent: `exploration_helper_agent`:** Will prioritize using this for Route 22 unseen tiles.
-- **Notepad - Failed Hypotheses:** Will ensure all significant failed strategies include attempt counts.
-- **Agent: `item_finder_agent`:** Last used 9 hours ago. Will review prompt and utility for relevance soon.
-- **Agent Development Ideas:** 'Training Spot Suggester' and 'Shop Inventory Agent' ideas retained for now.
-- **SPROUT Training Priority:** Will focus on getting SPROUT into favorable matchups for EXP.
+- **Agent Failure (Turn 2303):** `exploration_helper_agent` (for Route 22 unseen tiles from (32,12)) provided a path: (32,11)->(32,10)->(32,9)->(32,8)->(31,8)->(33,8)->(34,8)->(34,7)->(33,7)->(32,7)->(31,7). None of these coordinates are in the list of 13 reachable unseen tiles. The agent's path seems to explore already seen areas or ledges, not the actual unseen tiles located in the western part of the map. Number of failed attempts with this agent: 1.
 
-## VII. Critique Review & Action Plan (Turn 2281)
-
-- **Route 22 Ledge Navigation:** Misunderstood how ledges segment Route 22, leading to multiple failed attempts (approx. 5-7 distinct pathing attempts across turns ~2205-2219 and ~2248-2252) to access the western/upper area from the eastern/lower section after jumping down. Ledges are one-way; different map entry points are often needed for full access. Will be more mindful of this for future navigation.
-- **Agent: `wkg_transition_recorder_agent`:** Despite prompt updates (Turn 2261), the agent still requires manual intervention for node IDs when adding edges. The prompt needs further refinement to enable it to query the WKG for existing nodes by coordinates and use their actual IDs, or to more clearly differentiate payloads for new versus existing nodes. This is critical for streamlining WKG updates.
-- **Agent: `exploration_helper_agent`:** Will prioritize using this for Route 22 unseen tiles as per critique suggestion.
-- **Notepad - Failed Hypotheses:** Will ensure all significant failed strategies include attempt counts and are documented thoroughly to prevent repeating unproductive strategies.
-- **Agent: `item_finder_agent`:** Last used 9 hours ago. Will review prompt and utility for relevance soon.
-- **Agent Development Ideas:** 'Training Spot Suggester' and 'Shop Inventory Agent' ideas retained for now. Will consider implementing or discarding them based on evolving needs.
-- **SPROUT Training Priority:** Will focus on getting SPROUT into favorable matchups for EXP gain, given its importance for the Brock battle.
-- **Agent Testing:** Will actively seek opportunities to test unused agents like `capability_checker_agent`.
-
-- **Agent Failure (Turn 2303):** `exploration_helper_agent` (for Route 22 unseen tiles from (32,12)) provided a path: (32,11)->(32,10)->(32,9)->(32,8)->(31,8)->(33,8)->(34,8)->(34,7)->(33,7)->(32,7)->(31,7). None of these coordinates are in the list of 13 reachable unseen tiles. The agent's path seems to explore already seen areas or ledges, not the actual unseen tiles located in the western part of the map. Number of failed attempts with this agent: 1. Will use `pathfinding_agent` instead.
-
-- **Agent Failure (Turn 2305):** `pathfinding_agent` (path to (12,8) from (32,12) on Route 22) suggested moving Left from (32,8) [ground] to (31,8) [ledge] described as 'jumping down ledge'. This move is invalid as you cannot jump down onto a ledge tile from an adjacent ground tile at the same or higher elevation. Movement was blocked. Path needs recalculation from (32,8). Number of failed attempts with this agent path segment: 1.
+- **Agent Failure (Turn 2305 & 2306):** `pathfinding_agent` (path to (12,8) from (32,12) on Route 22, then from (32,8)) suggested moving Left from (32,8) [ground] to (31,8) [ledge] described as 'jumping down ledge'. This move is invalid as you cannot jump down onto a ledge tile from an adjacent ground tile at the same or higher elevation. Movement was blocked. Path needs recalculation. Number of failed attempts with this agent path segment: 2.
