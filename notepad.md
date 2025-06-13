@@ -298,3 +298,6 @@
 - **`capability_checker_agent`**: Untested. Seek opportunity to test or delete if not useful.
 - **`item_finder_agent`**: Review prompt for player_x/y input redundancy, given `agent_can_run_code` and access to `map_xml_string`. Also review utility and consider revising its definition.
 - **`wkg_transition_recorder_agent`**: Prioritize prompt refinement to query WKG for existing nodes and use actual IDs.
+
+(Appended to Section X. Post-Brock Task List - Turn 2522)
+- Review notepad Section I.E. and remove/archive old/redundant tertiary goal definitions after confirming the latest appended one is active.
