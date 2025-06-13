@@ -26,15 +26,15 @@
 *   EXP. All obtainable.
 
 ## Current Objectives & Plans (HOW to achieve goals):
-*   **Arrived in Viridian City!** Current position (22,31).
-*   **Explore Viridian City:**
-    *   Locate Pokémon Center, PokéMart, Gym.
-    *   Talk to NPCs (once each).
-    *   Heal SPARKY if needed.
-    *   Stock up on Poké Balls if possible.
-*   **Prepare for Pewter City Gym:**
-    *   Assess Gym type and plan team accordingly (once known).
-    *   Train Pokémon towards level cap if necessary.
+*   **Deliver OAK'S PARCEL to Prof. Oak in Pallet Town (Oaks Lab).** Current position (6,4) in Oaks Lab, Oak at (6,3).
+*   **After parcel delivery:** Return to Viridian City. Stock up on Poké Balls. Find Gym. Find way to Pewter City.
+*   **Prepare for Pewter City Gym:** Assess Gym type and plan team accordingly (once known). Train Pokémon towards level cap if necessary.
+
+## Pokémon Party & Log:
+*   **SPARKY (Pikachu):** Lv6, 268 EXP (Current cap 12). THUNDERSHOCK PP: 29/30. Healed at Viridian Pokémon Center (Turn 438).
+
+## Items Obtained:
+*   **OAK'S PARCEL:** Received from Viridian Mart shopkeeper. Target: Prof. Oak.
 
 ## Lessons Learned / Hypotheses / Game Mechanics:
 *   **Menu Navigation (Naming Screen):** Precise inputs needed. Verify letter before 'A'. 'B' is backspace.
@@ -58,10 +58,7 @@
 
 ## Defeated Trainers:
 *   (Map - Coordinates - Trainer Name)
-    *   OAK'S LAB (ID 40) - (6,12) - Rival Pixel (initial battle)
-
-## Pokémon Log:
-*   SPARKY (Pikachu): Lv6, 268 EXP (Current cap 12). Last EXP gain: +15 vs Wild Pidgey Lv2 (Route 1, (12,33), Turn 500). THUNDERSHOCK PP: 29/30.
+    *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
 
 ## Custom Agent Notes & Usage:
 *   `battle_strategist_agent`: Defined. Use for significant trainer battles.
@@ -69,39 +66,17 @@
 *   `rom_hack_mechanic_analyzer_agent`: Defined. Use for deducing new mechanics.
 *   `level_cap_compliance_agent`: Defined. Used on Turn 407, all okay.
 *   `wild_encounter_evaluator_agent`: Defined. Purpose: Decide fight/run/catch for wild encounters based on party, map, goals. (Use at next wild encounter).
+*   `npc_dialogue_analyzer_agent`: Defined. Purpose: Analyze NPC dialogue for clues.
 
 ## World Knowledge Graph Notes:
 *   Record inter-map transitions (map boundary, warps) IMMEDIATELY using `manage_world_knowledge`.
 *   Node for Route 1 North Exit (to Viridian) created (ID: ffa853b2-f57b-4a03-8de3-83250b175651 at (12,0)).
+*   Ensure to add nodes/edges for Viridian City to Route 1 South, Viridian Pokemon Center, Viridian Mart, and Route 1 South to Pallet Town North.
 
 ## Past Area Notes:
-*   **Route 1 (ID 12):**
-    *   Exited at (12,1), facing Up. North exit to Viridian City.
-    *   Pikachu was at (12,2).
-    *   Wild Encounters: Pidgey (Lv3, Lv4), Rattata.
-    *   Trainers: Youngster (Sprite ID 1) at (6,27), Youngster (Sprite ID 2) at (15,14). (Neither battled yet).
-    *   Sign at (10,28): 'ROUTE 1 PALLET TOWN - VIRIDIAN CITY'.
-    *   All reachable unseen tiles explored before leaving.
+*   **Route 1 (ID 12):** Exited at (12,1) (to Viridian) and (12,36) (to Pallet). Wild: Pidgey, Rattata. Trainers: Youngster (Sprite ID 1) at (6,27), Youngster (Sprite ID 2) at (15,14) (unfought). Sign at (10,28).
+*   **Viridian City Pokémon Center (ID: 41):** Arrived (4,8). SPARKY healed (Turn 438).
+*   **Viridian City Mart (ID: 42):** Arrived (4,8). Received OAK'S PARCEL from shopkeeper (scripted event moved player to (3,6)).
 
 ## Current Area Notes:
-*   **Viridian City (Exterior) (ID: 1):**
-    *   Last position before entering Mart: (30,20), facing Up.
-    *   Pikachu was at (30,21).
-    *   Plan when returning to exterior: Find Gym and the NPC/event to open path north to Pewter City. Deliver OAK'S PARCEL first.
-    *   Current location: Viridian City Mart (ID: 42).
-
-## Viridian City Pokémon Center (ID: 41)
-*   Arrived at (4,8). Current position (4,4).
-*   SPARKY healed (Turn 438)! All HP/PP restored.
-*   Next: Explore remaining unseen tiles in Poké Center, then exit and find PokéMart in Viridian City.
-
-## Pokémon Log (Updates)
-*   SPARKY (Pikachu): Healed at Viridian Pokémon Center (Turn 438). All HP/PP restored.
-
-## Viridian City Mart (ID: 42)
-*   Current position (3,6) after scripted event.
-*   Received OAK'S PARCEL from the shopkeeper!
-*   Task: Deliver OAK'S PARCEL to Prof. Oak in Pallet Town.
-*   Immediate plan: Buy Poké Balls.
-
-*   SPARKY (Pikachu): Lv6, 268 EXP (+15 vs Wild Pidgey Lv2, Route 1 (12,33), Turn 500). THUNDERSHOCK PP: 29/30.
+*   **Oaks Lab (ID: 40):** Player at (6,4). Task: Deliver OAK'S PARCEL to Prof. Oak at (6,3).
