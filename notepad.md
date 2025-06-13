@@ -112,3 +112,5 @@
 *   **Agent Ideas (To Consider):
     *   `HM_Compatibility_Agent`: Input: Roster, owned HMs. Output: Compatibility list.
     *   `Evolution_Predictor_Agent`: Input: Pokémon, level. Output: Evolution details.
+
+*   **Interaction Failure Log (Turn 1615):** Attempted to interact with VIRIDIANCITY_YOUNGSTER2 at (29,27) facing (30,27) on Turn 1614. No dialogue. NPC had moved to (28,24) by Turn 1615. (Attempt 1 to interact with this NPC).
