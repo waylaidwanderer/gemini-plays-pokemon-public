@@ -51,7 +51,10 @@
 *   **Coordinate Checks:** Verify current coordinates before planning movement.
 *   **DV Checking:** Hold START while pressing A on STATS screen.
 *   **Notepad `replace`:** `old_text` must be *exact*. `overwrite` for major changes.
-*   **Pokémon Switching Menu:** Select Pokémon -> 'SWITCH' -> select swap target.
+*   **Pokémon Switching Menu (Battle):** Two main methods:
+    1.  **From Party List (when PKMN option selected from main battle menu):** Navigate to the Pokémon you want to switch IN -> Press 'A' to open its sub-menu -> 'SWITCH' should be highlighted -> Press 'A' to confirm. (This is if the selected Pokémon is not already in battle).
+    2.  **From Active Pokémon's Sub-Menu (after selecting PKMN, then selecting the active Pokémon):** 'SWITCH' option -> Press 'A'. This will then take you to the party list to choose which Pokémon to switch IN. Select the desired Pokémon -> Press 'A'.
+    (Corrected from T2703 reflection after RATTATA battle menu confusion).
 *   **Pathing Precision:** Analyze map memory/screen carefully, especially near ledges/complex terrain. Trust map memory for tile types.
 *   **Pokédex Evaluation:** Professor Oak or aides evaluate in person (not via PC, corrected from Viridian Forest sign).
 *   **Battle Risk Assessment:** Balance "less cautious" guideline with resource conservation.
