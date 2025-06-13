@@ -41,13 +41,13 @@
     *   **Contingency:** If Viridian City yields no new leads after thorough exploration, re-evaluate progression (check Pallet Town/Route 1 for new dialogue/events).
     *   **NPC Interaction Strategy:** Interact with any unencountered NPCs or re-interact with previously met NPCs to check for new dialogue due to increased Pokédex count.
 
-## Pokémon Party & Status (As of Turn 2157)
-*   **GOTTSAMER (METAPOD):** Lv7 (25/25 HP, EXP: 490). TACKLE, STRING SHOT, HARDEN
-*   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING, STRING SHOT
-*   **NIGHTSHADE (ODDISH):** Lv8 (28/28 HP, EXP: 397). TACKLE, POISONPOWDER, LEECH SEED
-*   **AEGIS (KAKUNA):** Lv7 (15/24 HP, EXP: 489). POISON STING, STRING SHOT, HARDEN
-*   **SPARKY (PIKACHU):** Lv8 (27/27 HP, EXP: 645). THUNDERSHOCK, GROWL, QUICK ATTACK, THUNDER WAVE
-*   **FURYFIST (MANKEY):** Lv4 (0/17 HP, EXP: 64). SCRATCH, LEER
+## Pokémon Party & Status (As of Turn 2197)
+*   **GOTTSAMER (METAPOD):** Lv8 (18/27 HP, PSN, EXP: 523). TACKLE (31 PP), STRING SHOT (40 PP), HARDEN (30 PP)
+*   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP)
+*   **NIGHTSHADE (ODDISH):** Lv8 (22/28 HP, EXP: 397). TACKLE (32 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
+*   **AEGIS (KAKUNA):** Lv7 (15/24 HP, EXP: 489). POISON STING (30 PP), STRING SHOT (40 PP), HARDEN (30 PP)
+*   **SPARKY (PIKACHU):** Lv8 (27/27 HP, EXP: 645). THUNDERSHOCK (29 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
+*   **FURYFIST (MANKEY):** Lv4 (0/17 HP, EXP: 64). SCRATCH (25 PP), LEER (30 PP)
 
 ## Inventory & Key Items
 *   **POKé BALL x2**
