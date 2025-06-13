@@ -118,10 +118,6 @@
 *   Secondary goal 'Find the trigger in Viridian City that opens the northern path to Pewter City' is now considered complete as the path is open.
 *   New secondary goal: Travel to Pewter City.
 
-## Current Inventory:
-*   POKé BALL x9
-
 *   **GOSSAMER (Caterpie):** Lv4. Caught in Viridian Forest (Turn 931). Added to party.
 
-## Current Inventory:
-*   POKé BALL x9 (Used 0 on Caterpie - still 9 after catch!)
+ (Used 0 on Caterpie - still 9 after catch!)
