@@ -37,8 +37,8 @@
 ## Current Objectives & Tactical Plans (HOW to achieve goals)
 *   **Viridian Forest Navigation & Exploration (Turn 2390+):**
     *   **Objective:** Navigate Viridian Forest to reach the north exit leading to Route 2 (North), ultimately heading to Pewter City.
-    *   **Sub-objectives:** Systematically explore the remaining 'Reachable Unseen Tiles' ((7,23), (8,23), (9,23)). Battle any un-fought trainers encountered en route. 
-    *   **Current Focus:** Continue manual pathing towards (7,23). If `route_planner_agent` is used again in this forest, visually verify the first few steps of its path.
+    *   **Sub-objectives:** Systematically explore the remaining 'Reachable Unseen Tiles' (e.g., (2,20), (2,21), (2,22), (2,23), (2,24), (2,25), (13,25), (2,26), (13,26), (13,27), (13,28) based on current game state). Battle any un-fought trainers encountered en route. 
+    *   **Current Focus:** Continue manual pathing towards the nearest reachable unseen tile. If `route_planner_agent` is used again in this forest, visually verify the first few steps of its path.
     *   **Contingency:** If manual pathing becomes too complex or blocked, use `map_analyzer_agent` to identify local points of interest or alternative short paths.
 
 ## Lessons Learned, Game Mechanics & Insights
