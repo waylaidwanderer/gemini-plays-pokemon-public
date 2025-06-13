@@ -95,3 +95,5 @@
 *   Viridian Forest (ID 51) - (3,19) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER4)
 
 *   **Viridian Forest North Gate NPC Notes (Turn 2467-2468):** Super Nerd (VIRIDIANFORESTNORTHGATE_SUPER_NERD) at (4,3) gave a tip about Pokémon in forests/caves, no battle. Gramps (VIRIDIANFORESTNORTHGATE_GRAMPS) at (3,6) gave a tip about Cut, no battle.
+
+*   **Battle Flexibility:** When a Pokémon's HP becomes critical, reassess the current battle plan (even if agent-generated) and consider defensive switches or alternative moves to prioritize survivability, especially under Hard Mode rules.
