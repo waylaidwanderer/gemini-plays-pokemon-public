@@ -35,6 +35,16 @@
 *   EXP. All obtainable without special requirements.
 
 ## Current Objectives & Tactical Plans (HOW to achieve goals)
+*   **Boulder Badge Acquisition (Primary):**
+    1.  Heal FURYFIST with Potion.
+    2.  Navigate through Viridian Forest South Gate to Viridian Forest.
+    3.  Train party members (especially FURYFIST, NADEL) in Viridian Forest, aiming for levels closer to the cap (12) before Brock. Prioritize type advantages (Fighting vs. Rock).
+    4.  Navigate through Viridian Forest North Gate to Route 2 (North).
+    5.  Proceed to Pewter City.
+    6.  Re-challenge Jr. Trainer M in Pewter Gym.
+    7.  Re-challenge Brock. If battle is difficult, consult `team_composition_advisor_agent` and `battle_strategist_agent`.
+*   **Travel to Pewter City (Secondary):** Achieved via steps for primary goal.
+*   **Train in Viridian Forest (Tertiary):** Focus on FURYFIST and NADEL. Catch new Pokémon if encountered and not yet in Pokédex. Use `wild_encounter_evaluator_agent` for fight/run/catch decisions.
 
 ## Lessons Learned, Game Mechanics & Insights
 *   **Tile Types:** `ground`, `impassable`, `grass`, `ledge` (jump Y+2, impassable from Y+1 below), `cuttable`.
