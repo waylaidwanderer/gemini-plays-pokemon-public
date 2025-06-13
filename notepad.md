@@ -105,9 +105,6 @@
 
 *   Lass at (3,42) mentioned running into an ODDISH in Viridian Forest. (Turn 777).
 *   Reminder: Check signs in Viridian Forest when exploration resumes (e.g., sign at (19,46)).
-
-## Turn 787 Update:
-*   **Event:** Blacked out in Viridian Forest after SPARKY fainted from poison. Returned to Viridian City Pokémon Center.
 *   **SPARKY (Pikachu):** Healed to full HP (25/25). PP restored.
 *   **Money:** Decreased to ¥632 due to blackout.
 *   **Secondary Goal Update:** Changed from 'Heal SPARKY' to 'Find the trigger in Viridian City that opens the northern path to Pewter City.'
