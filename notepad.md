@@ -109,3 +109,9 @@
 *   Reminder: Check signs in Viridian Forest when exploration resumes (e.g., sign at (19,46)).
 
 *   Agent Idea: Create an agent to identify optimal training spots based on party levels, level cap, and known wild Pokémon in an area.
+
+## Turn 787 Update:
+*   **Event:** Blacked out in Viridian Forest after SPARKY fainted from poison. Returned to Viridian City Pokémon Center.
+*   **SPARKY (Pikachu):** Healed to full HP (25/25). PP restored.
+*   **Money:** Decreased to ¥632 due to blackout.
+*   **Secondary Goal Update:** Changed from 'Heal SPARKY' to 'Find the trigger in Viridian City that opens the northern path to Pewter City.'
