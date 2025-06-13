@@ -74,15 +74,15 @@
 *   Viridian Forest (ID 51) - (3,42) - Lass (Cool Trainer F sprite)
 
 ## Agent Definitions & Usage Log:
-*   **`battle_strategist_agent`**: Defined. Use for significant trainer battles.
+*   **`battle_strategist_agent`**: Defined. Use for significant trainer battles. (Called T1109 vs Bug Catcher's Metapod).
 *   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. System prompt needs refinement for limitations.
 *   **`rom_hack_mechanic_analyzer_agent`**: Defined. Use for deducing new mechanics.
 *   **`level_cap_compliance_agent`**: Defined. Used T407 (all okay).
-*   **`wild_encounter_evaluator_agent`**: Defined. Used T929, T1012, T1031, T1037, T1063, T1065, T1067, T1069, T1088 (PIDGEY - RUN).
+*   **`wild_encounter_evaluator_agent`**: Defined. Used T929, T1012, T1031, T1037, T1063, T1065, T1067, T1069, T1088 (PIDGEY - RUN), T1090 (PIDGEY - RUN), T1092 (PIDGEY - RUN).
 *   **`npc_dialogue_analyzer_agent`**: Defined. Low usage, consider more frequent application.
 *   **`pokedex_tracker_agent`**: Defined. Untested.
 *   **`optimal_training_spot_agent`**: Defined. Untested.
-*   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items. Tested implicitly when map sprites are checked.
+*   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items. Untested.
 *   **`hm_obstacle_identifier_agent`**: DELETED (Turn 1086, unused).
 
 ## World Knowledge Graph Notes:
