@@ -162,3 +162,5 @@
 - **Agent Strategy:** Prioritizing `wkg_transition_recorder_agent` prompt fix. Will test `capability_checker_agent` and review `item_finder_agent`. Agent dev ideas remain low priority.
 
 - **ledge**: Jump down only. One-way traversal. Confirmed (6,10) on Route 22 is a ledge when approached from (6,11) (below).
+
+- **Turn 2359:** SPROUT defeated wild NIDORAN♂ Lv3 (EXP +12 to 386). SPARKY (lead, capped) gained no actual EXP.
