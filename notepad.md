@@ -29,10 +29,10 @@
 
 ## Current Objectives & Plans (HOW to achieve goals):
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
-*   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12) by battling trainers in Viridian Forest and on Route 2. Prioritize type advantages. Scout for Rock-type counters if needed.
-*   **Agent Testing:** After healing the party, test the `map_analyzer_agent` in Viridian City or on Route 2.
+*   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12) by battling trainers on Route 2 (North) and Diglett's Cave if accessible/appropriate. Prioritize type advantages.
+*   **Agent Testing Plan:** After healing the party in Viridian City, systematically test `map_analyzer_agent`, `item_reminder_agent`, and `optimal_training_spot_agent` in Viridian City or on Route 2.
 
-## Pokémon Party & Log (Current as of Turn 1558):
+## Pokémon Party & Log (Current as of Turn 1591):
 *   **GOTTSAMER (METAPOD):** Lv7 (0/25 HP, FNT, EXP: 412). ATK 10, DEF 11, SPD 11, SPC 9. TACKLE (14 PP), STRING SHOT (40 PP), HARDEN (30 PP).
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP).
 *   **NIGHTSHADE (ODDISH):** Lv8 (12/28 HP, EXP: 397). TACKLE (22 PP), POISONPOWDER (33 PP), LEECH SEED (9 PP).
@@ -59,13 +59,14 @@
 *   **Ghost vs. Psychic:** Ghost-type moves are SUPER EFFECTIVE against Psychic.
 *   **Trust Game Data:** Trust `Reachable Unseen Tiles` list. Game State is source of truth for levels, etc.
 *   **Failed Interaction Loops:** If an NPC/object interaction yields no progress after 2-3 varied attempts, a different trigger is likely needed. (Youngster Route 1 ~T350s, Viridian Forest Youngster T739-743).
-*   **Coordinate Misreads:** Double-check current coordinates from game state before planning movement.
+*   **Coordinate Misreads:** Double-check current coordinates from game state before planning movement. (Corrected T1581).
 *   **DV Checking Tip:** Hold START while pressing A on a Pokémon's STATS screen to check DVs. (Old Man Viridian, T707).
 *   **Notepad `replace` Action:** `old_text` must be an *exact* match. If `replace` fails repeatedly, consider `overwrite` for the section or entire notepad.
 *   **Pokémon Switching Menu (Corrected T1068-T1085):** Selecting a Pokémon in the party list opens its action sub-menu (STATS, SWITCH, CANCEL). To switch: select 'SWITCH', then select the Pokémon to swap with from the party list. Press 'A' on target, then 'A' on 'SWITCH', then navigate to other Pokémon and 'A' to confirm.
 *   **Battle Efficiency (Critique T1231 & T1260):** Avoid prolonged battles with highly defensive Pokémon (e.g., Harden-spamming Metapod) or very low-level Pokémon if they offer low EXP for the time/PP invested. Balance agent recommendations (like `wild_encounter_evaluator_agent`) with own judgment on resource cost and battle efficiency. Prioritize trainer battles for EXP.
 *   **Cautious Pathing Under Duress (Critique T1535 & T1540):** When a Pokémon is critically injured and poisoned, pathing decisions must prioritize avoiding all optional engagements, even if it means a slightly longer route. The risk of being forced into a battle outweighs the minor time save of a more direct, but dangerous, path. (Failed to avoid VIRIDIANFOREST_YOUNGSTER5 at (14,18) on Turn 1519).
-*   **Escape Mechanics (Learned T1553-T1555):** Escape chance depends on your lead Pokémon's Speed vs. wild Pokémon's Speed. If your Speed is >= wild's, escape is guaranteed on first try. If lower, chance increases with each attempt. If escape is critical, lead with fastest available Pokémon that can survive a hit.
+*   **Escape Mechanics (Learned T1553-1555, T1573-1579):** Escape chance depends on lead Pokémon's Speed vs. wild's Speed. If Speed >= wild's, escape is guaranteed. If lower, chance increases with attempts. If escape is critical, lead with fastest available Pokémon that can survive a hit.
+*   **WKG Tool Usage:** Multi-step tool chains requiring output from a previous tool in the *same turn* (e.g., `tools_results.0.node_id`) are not supported. Break these into sequential, single operations per turn. (Learned T1584-1588).
 
 ## Defeated Trainers:
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
@@ -74,43 +75,31 @@
 *   Viridian Forest (ID 51) - (28,34) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER2)
 *   Viridian Forest (ID 51) - (14,18) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER5) - Defeated Lv6 CATERPIE & Lv6 METAPOD.
 
-## Agent Definitions & Usage Log (8 Active Agents):
-*   **`battle_strategist_agent`**: Defined. Use for significant trainer battles. (Called T1109, T1113, T1520, T1522, T1538).
-*   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. System prompt needs refinement for limitations. (Called T1198, T1211, T1213, T1225, T1233, T1254, T1542). Investigate and potentially re-define if the agent is to be relied upon.
-*   **`level_cap_compliance_agent`**: Defined. Used T407 (all okay).
-*   **`wild_encounter_evaluator_agent`**: Defined. Used T929, T1012, T1031, T1037, T1063, T1065, T1067, T1069, T1088, T1090, T1092, T1219, T1223, T1226, T1234, T1236, T1258, T1487, T1536, T1553. Note: Balance its EXP recommendations with battle efficiency and resource cost.
-*   **`npc_dialogue_analyzer_agent`**: Defined. Low usage. Review its system prompt or purpose if not proving useful; consider deletion.
-*   **`optimal_training_spot_agent`**: Defined. Untested.
-*   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items. Untested.
-*   **`map_analyzer_agent`**: Defined (T1261). Untested. **Plan:** Test after healing party in Viridian City.
-
 ## Agent Definitions & Usage Log (9 Active Agents):
-*   **`battle_strategist_agent`**: Defined. Use for significant trainer battles. (Called T1109, T1113, T1520, T1522, T1538).
-*   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. System prompt needs refinement for limitations. (Called T1198, T1211, T1213, T1225, T1233, T1254, T1542). Investigate and potentially re-define if the agent is to be relied upon.
-*   **`level_cap_compliance_agent`**: Defined. Used T407 (all okay). **Critique T1560:** Use more frequently after level-ups.
-*   **`wild_encounter_evaluator_agent`**: Defined. Used T929, T1012, T1031, T1037, T1063, T1065, T1067, T1069, T1088, T1090, T1092, T1219, T1223, T1226, T1234, T1236, T1258, T1487, T1536, T1553, T1558. Note: Balance its EXP recommendations with battle efficiency and resource cost.
-*   **`npc_dialogue_analyzer_agent`**: Defined. Low usage. Review its system prompt or purpose if not proving useful; consider deletion.
+*   **`battle_strategist_agent`**: Defined. Use for significant trainer battles.
+*   **`route_planner_agent`**: Defined. Observation (T542): Failed intra-map on Route 1. System prompt needs refinement for limitations. (Used frequently for Viridian Forest exit T1582).
+*   **`level_cap_compliance_agent`**: Defined. Used T407. **Note:** Use more frequently after level-ups/before bosses.
+*   **`wild_encounter_evaluator_agent`**: Defined. Used frequently. Note: Balance its EXP recommendations with battle efficiency and resource cost.
+*   **`npc_dialogue_analyzer_agent`**: Defined. Low usage. **Note:** Evaluate utility further; consider deletion if not useful.
 *   **`optimal_training_spot_agent`**: Defined. Untested.
 *   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items. Untested.
 *   **`map_analyzer_agent`**: Defined (T1261). Untested. **Plan:** Test after healing party in Viridian City.
 *   **`team_composition_advisor_agent`**: Defined (T1561). Recommends team for major battles.
+*   **Agent Review Note:** Periodically review all agents for relevance and potential improvements.
 
 ## World Knowledge Graph Notes:
 *   **Critical:** Record inter-map transitions IMMEDIATELY using `manage_world_knowledge` upon map_id change.
 
 ## Area Notes:
-### Viridian Forest (ID 51) - Current Area
-*   **Objective:** Navigate through Viridian Forest, battle trainers for EXP, and reach the north exit (changed to south exit due to party health).
-*   **Current Location:** (19,10) (In battle with wild Oddish).
-*   **Key NPCs (Unencountered Trainers):** Youngster (31,20) - Not currently reachable. Youngster (3,19) - Not currently reachable.
-*   **Key NPCs (Non-Battling):** Youngster (17,44), Youngster (28,41) - Tip: Carry extra Poké Balls.
-*   **Items:** Poké Ball at (13,30) - unreachable (noted from map sprites).
-*   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran), Pidgey (Lv7, ran), Metapod (Lv6, ran), Weedle (Lv4, fought - T1245), Bug Catcher (Youngster sprite at (28,34)) with Lv6 CATERPIE, Lv6 WEEDLE, Lv6 CATERPIE (defeated T1290). Wild WEEDLE (Lv4) - Ran (Turn 1494). Wild PIDGEY (Lv8) - Ran (Turn 1555) after GOTTSAMER fainted.
-*   **Critical Hits:** Critical hits ignore the target's positive defensive stat changes (e.g., from Harden) and the attacker's negative offensive stat changes.
-*   **Pokédex Evaluation:** Contact PROF.OAK via PC to get your POKéDEX evaluated (Sign in Viridian Forest at (27,18)).
-*   **POTION x1:** Found in Viridian Forest at (26,12) (Turn 1366).
-
-### Route 2 (ID 13) - Previously Explored
-*   **Objective:** Navigated to Viridian Forest South Gate warp.
+### Route 2 (ID 13) - Current Area
+*   **Objective:** Reach Viridian City to heal party.
+*   **Current Location:** (4,61) (Turn 1591).
 *   **Items:** Poké Ball at (14,55) - unreachable. Poké Ball at (14,46) - unreachable.
-*   **Encounters:** Vulpix (Lv5, ran).
+*   **Encounters:** Vulpix (Lv5, ran T700). PIDGEY (Lv8, ran T1572). PIDGEY (Lv7, ran T1580).
+
+### Viridian Forest (ID 51) - Previously Explored
+*   **Objective:** Exited south to heal party.
+*   **Key NPCs (Non-Battling):** Youngster (17,44), Youngster (28,41) - Tip: Carry extra Poké Balls.
+*   **Items:** Poké Ball at (13,30) - unreachable. POTION x1 at (26,12) (Turn 1366) - Used.
+*   **Encounters:** ODDISH (Lv6, ran T1564).
+*   **Pokédex Evaluation:** Contact PROF.OAK via PC to get your POKéDEX evaluated (Sign in Viridian Forest at (27,18)).
