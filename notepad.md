@@ -6,7 +6,7 @@
 *   **Current Badges:** 0 (Game State is Source of Truth)
 *   **Current Level Cap:** 12 (0 badges - Game State is Source of Truth)
 *   **Pokédex:** 10/151 (HM05 FLASH requirement met!)
-*   **Money:** ¥506
+*   **Money:** ¥506 (Game State is Source of Truth)
 
 ## Core Game Rules & Mechanics (Notepad Quick Reference)
 ### Hard Mode Rules (Player-Only Restrictions):
@@ -37,23 +37,9 @@
 ## Current Objectives & Tactical Plans (HOW to achieve goals)
 *   **Viridian City Exploration (Post-Healing, 10 Pokédex Entries):**
     *   **Objective:** Systematically explore Viridian City for new leads (NPCs, interactions, items like EXP. All), prioritizing Reachable Unseen Tiles.
-    *   **Current Focus (Turn 2281+):** Systematically explore all 'Reachable Unseen Tiles' in Viridian City using `map_analyzer_agent` and `route_planner_agent` for efficiency. Reminders from critique: Test `pokedex_completion_strategist_agent`. Review agent input schemas for code-enabled agents (ensure no redundant passing of auto-provided variables). Consider `npc_dialogue_analyzer_agent` utility and potential deletion.
+    *   **Current Focus (Turn 2311+):** Systematically explore all 'Reachable Unseen Tiles' in Viridian City using `map_analyzer_agent` and `route_planner_agent` for efficiency. Prioritize testing unused agents (`pokedex_completion_strategist_agent`, `team_composition_advisor_agent`). Review agent input schemas for code-enabled agents (ensure no redundant passing of auto-provided variables).
     *   **Contingency:** If Viridian City yields no new leads after thorough exploration, re-evaluate progression (check Pallet Town/Route 1 for new dialogue/events).
-    *   **NPC Interaction Strategy:** Interact with any unencountered NPCs or re-interact with previously met NPCs to check for new dialogue due to increased Pokédex count.
-
-## Pokémon Party & Status (As of Turn 2199)
-*   **GOTTSAMER (METAPOD):** Lv8 (1/27 HP, PSN, EXP: 523). TACKLE (31 PP), STRING SHOT (40 PP), HARDEN (30 PP)
-*   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP)
-*   **NIGHTSHADE (ODDISH):** Lv9 (24/30 HP, EXP: 430). TACKLE (32 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
-*   **AEGIS (KAKUNA):** Lv7 (15/24 HP, EXP: 489). POISON STING (30 PP), STRING SHOT (40 PP), HARDEN (30 PP)
-*   **SPARKY (PIKACHU):** Lv8 (27/27 HP, EXP: 645). THUNDERSHOCK (29 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP)
-*   **FURYFIST (MANKEY):** Lv4 (0/17 HP, EXP: 64). SCRATCH (25 PP), LEER (30 PP)
-
-## Inventory & Key Items
-*   **POKé BALL x2**
-*   **OAK'S PARCEL:** Delivered.
-*   **POKéDEX:** Received.
-*   **HM05 FLASH:** Not yet obtained. (Pokédex requirement of 10 unique Pokémon to receive it has been met - item must still be acquired from NPC/event.)
+    *   **NPC Interaction Strategy:** Interact with any unencountered NPCs or re-interact with previously met NPCs to check for new dialogue due to increased Pokédex count. Use `stun_npc` tool more promptly for excessively mobile NPCs.
 
 ## Lessons Learned, Game Mechanics & Insights
 *   **Tile Types:** `ground`, `impassable`, `grass`, `ledge` (jump Y+2, impassable from Y+1 below), `cuttable`.
@@ -76,6 +62,7 @@
 *   **Battle Risk Assessment:** Balance "less cautious" guideline with resource conservation (e.g., SPARKY at 1HP vs RATTATA T1974 was very risky).
 *   **WKG Tool Usage:** Single `manage_world_knowledge` call per operation. Record transitions IMMEDIATELY.
 *   **Agent Usage Reflection (T2026):** Could have used `map_analyzer_agent` and `route_planner_agent` more during recent Viridian City navigation.
+*   **NPC Stun Usage (T2311):** When an NPC is excessively mobile and hindering interaction, the `stun_npc` tool should be considered and utilized much sooner to prevent wasted turns (e.g., VIRIDIANCITY_YOUNGSTER2, ~14 turns of chase).
 
 ## Defeated Trainers Log
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
@@ -89,12 +76,12 @@
 *   **`route_planner_agent`**: Calculates paths. (Code-enabled)
 *   **`level_cap_compliance_agent`**: Checks party vs. level cap.
 *   **`wild_encounter_evaluator_agent`**: Advises on wild encounters (FIGHT, RUN, CATCH).
-*   **`npc_dialogue_analyzer_agent`**: Interprets NPC dialogue for clues. (Low usage, review pending).
 *   **`optimal_training_spot_agent`**: Suggests training areas. (Code-enabled)
 *   **`item_reminder_agent`**: Reminds about nearby uncollected items.
 *   **`map_analyzer_agent`**: Identifies strategic points on current map. (Code-enabled)
 *   **`team_composition_advisor_agent`**: Recommends teams for major battles. (Code-enabled)
-*   **Agent Development Plan:** Review system prompts for code-enabled agents after obtaining HM Flash to ensure optimal use of auto-provided variables. Created `pokedex_completion_strategist_agent`. Deleted `npc_dialogue_analyzer_agent` (low usage). Will consider creating `HM Usage Advisor` later if a slot is needed and HMs become relevant.
+*   **`pokedex_completion_strategist_agent`**: Suggests areas for Pokédex completion. (Code-enabled)
+*   **Agent Development Plan (T2311):** Prioritize testing `pokedex_completion_strategist_agent` and `team_composition_advisor_agent`. Review system prompts and input schemas for ALL code-enabled agents to ensure they correctly access auto-provided variables (`map_xml_string`, `world_knowledge_graph_json_string`) from their environment and are not expecting them as direct input parameters if currently designed that way. Consider creating `HM Usage Advisor` later if a slot is needed and HMs become relevant.
 
 ## Archived Plans & Hypotheses
 ### Route 2 (South) - HM Flash Aide Search (Turns ~1988-2002)
