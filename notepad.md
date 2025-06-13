@@ -63,7 +63,7 @@
 
 ## Custom Agent Notes & Usage:
 *   `battle_strategist_agent`: Defined. Use for significant trainer battles.
-*   `route_planner_agent`: Defined. **Observation (Turn 542):** Failed to find a path on Route 1 (a fully explored map) for intra-map routing with ledges. **Contingency:** Treat this agent as highly unreliable for complex intra-map pathfinding with obstacles like ledges. Prioritize manual pathfinding for such situations until agent reliability can be confirmed/improved.
+*   `route_planner_agent`: Defined. **Observation (Turn 542):** Failed to find a path on Route 1 (a fully explored map) for intra-map routing with ledges. **Contingency:** Treat this agent as highly unreliable for complex intra-map pathfinding with obstacles like ledges. Prioritize manual pathfinding for such situations. **Future Consideration:** If failures persist, consider defining a simpler pathing agent or refining input specificity for this one.
 *   `rom_hack_mechanic_analyzer_agent`: Defined. Use for deducing new mechanics.
 *   `level_cap_compliance_agent`: Defined. Used on Turn 407, all okay.
 *   `wild_encounter_evaluator_agent`: Defined. Purpose: Decide fight/run/catch for wild encounters based on party, map, goals. (Use at next wild encounter).
