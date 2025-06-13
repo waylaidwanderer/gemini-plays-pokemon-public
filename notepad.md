@@ -31,7 +31,7 @@
 *   **Pewter Gym Preparation:** Upon reaching Pewter City, identify the Gym's type specialty and the Gym Leader's Pokémon lineup and levels. Train SPARKY and any other acquired Pokémon up to the current level cap (12), prioritizing type advantages against the expected Gym opponents.
 
 ## Pokémon Party & Log:
-*   **SPARKY (Pikachu):** Lv7, 419 EXP (Current cap 12). THUNDERSHOCK PP: 22/30. Currently 5/25 HP and POISONED (Turn 777). Last healed at Viridian Pokémon Center (Turn 438).
+*   **SPARKY (Pikachu):** Lv7, 466 EXP (Current cap 12). THUNDERSHOCK PP: 29/30. Last healed at Viridian Pokémon Center (Turn 787).
 
 ## Items Obtained:
 *   **OAK'S PARCEL:** Received from Viridian Mart shopkeeper. Delivered to Prof. Oak (Turn 524).
