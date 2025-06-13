@@ -5,7 +5,7 @@
 *   **Rival Name:** Pixel
 *   **Current Badges:** 0
 *   **Current Level Cap:** 12 (0 badges)
-*   **Pokédex:** 3/151
+*   **Pokédex:** 4/151
 
 ## Hard Mode Rules (Player-Only Restrictions):
 *   **Battle Style:** Set mode.
