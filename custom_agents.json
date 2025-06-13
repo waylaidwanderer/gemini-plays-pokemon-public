@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"num_badges\":{\"type\":\"integer\"},\"player_pokemon_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"}},\"required\":[\"name\",\"level\"]}},\"primary_goal\":{\"type\":\"string\"},\"secondary_goal\":{\"type\":\"string\"},\"tertiary_goal\":{\"type\":\"string\",\"nullable\":true},\"known_hms\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_map_id\":{\"type\":\"string\"}},\"required\":[\"num_badges\",\"player_pokemon_party\",\"primary_goal\",\"secondary_goal\",\"known_hms\",\"current_map_id\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggestions\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"suggestion_text\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"suggestion_text\",\"reasoning\"]}},\"confidence_score\":{\"type\":\"number\",\"minimum\":0,\"maximum\":1}},\"required\":[\"suggestions\",\"confidence_score\"]}",
     "agent_can_run_code": true
-  },
-  "pathfinding_agent": {
-    "agent_name": "pathfinding_agent",
-    "agent_description": "Calculates the shortest path between two points on the current map, avoiding obstacles. (Can run Python code)",
-    "agent_system_prompt": "You are a pathfinding expert for a tile-based game. Your task is to find the shortest path from a starting coordinate to a target coordinate on the current map. You MUST use your `run_code` tool to execute a pathfinding algorithm (like A* or Breadth-First Search) on the provided `map_xml_string`. Your algorithm must account for 'impassable' tiles and treat map sprites (NPCs) as temporary impassable obstacles. Your output must be a sequence of directional inputs (Up, Down, Left, Right) that constitute the path. If no path exists, state that clearly. The output must conform to the provided schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"},\"map_sprites\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"position\"]}}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\",\"map_sprites\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}}},\"required\":[\"path_found\",\"path\"]}",
-    "agent_can_run_code": true
   }
 }
