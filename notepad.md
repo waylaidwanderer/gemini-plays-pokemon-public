@@ -85,7 +85,7 @@
 
 ## Current Area Notes:
 *   **Viridian City (ID: 1):**
-    *   Player at (22,31), facing Up. 
+    *   Player at (24,27), facing Down. (After exiting Poké Center)
     *   Pikachu at (22,32).
     *   Reachable Unseen Tiles: (18,26), (19,26), (20,26), (21,26), (22,26), (23,26), (24,26), (25,26), (26,26), (27,26), (17,27), (28,27), (17,28), (28,28), (17,29), (28,29), (17,30), (28,30), (17,31), (28,31) - (list from game state).
     *   Sign at (22,30) nearby.
