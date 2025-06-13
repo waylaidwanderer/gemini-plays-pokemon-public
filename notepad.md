@@ -116,3 +116,15 @@
 *   **Notepad Management:** `overwrite` is good for major refactors. Careful with Nicknaming screen inputs; 'Start' to confirm.
 *   **Pokédex Evaluation Correction:** Confirmed Professor Oak or aides evaluate in person, not via PC.
 *   **WKG:** Manage diligently. Deleted redundant node `4c2a58ce-ef8d-4448-9c82-8051f83a4946`.
+
+## Route 2 (South) - HM Flash Aide Search (Continued - Turn 1998)
+*   **Hypothesis: Aide is accessible via warp to Viridian Forest South Gate at (4,44) - Attempt 1 (Pathing North from Route 2 South):**
+    *   Path north along X=8: Failed (Turn 1995, blocked at (8,58) by impassable (8,57)).
+    *   Path north along X=9: Failed (Turn 1996, blocked at (9,58) by impassable (9,57)).
+    *   Path north along X=10: Failed (Turn 1997, blocked at (10,58) by impassable (10,57)).
+    *   Path north along X=11: Failed (Turn 1998, blocked at (11,58) by impassable (11,57)).
+*   **Conclusion (Turn 1998):** The warp to Viridian Forest South Gate at (4,44) is NOT reachable from the southern segment of Route 2. All western paths north are blocked by impassable trees at Y=57 (for X=7 to X=12) or by ledges at Y=48 (for X=1 to X=6) that prevent northward travel. The 'reachable:yes' flag for the warp is likely misleading for this isolated map segment.
+*   **New Plan (Turn 1998):** HM Flash Aide search on Route 2 (South) is stalled. Pivoting strategy.
+    *   Primary Goal: Heal Pokémon at Viridian City Pokémon Center.
+    *   Secondary Goal: Systematically re-explore Viridian City for new leads (NPCs, interactions, items like EXP. All) now that 10 Pokémon are caught.
+    *   Tertiary Goal: If Viridian City yields nothing, re-evaluate progression (check Pallet Town/Route 1 for new dialogue/events).
