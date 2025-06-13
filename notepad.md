@@ -89,3 +89,5 @@
 *   Blackboard at (4,1) teaches about Sleep (SLP) status and that the item AWAKENING can be used to wake them up. (Learned at Turn 654).
 *   Cool Trainer F at (5,2) is a non-battling NPC; she advised reading the blackboard carefully. (Interaction at Turn 657).
 *   This area appears fully explored. Exiting.
+
+*   **DV Checking Tip:** Hold START while pressing A on a Pokémon's STATS screen to check its growth potential (DVs). (Learned from Old Man in Viridian City, Turn 707).
