@@ -273,3 +273,12 @@
 
 (Appended under Section I.E. Active Goals (for planning reference) - Turn 2521)
 - **Tertiary Goal (Updated):** Now that PIP is healed (27/27 HP), train PIP when SPROUT needs a break or if a suitable opportunity arises. (Original tertiary goal regarding Route 22 exploration to be reviewed/deleted later).
+
+## X. Post-Brock Task List (To be reviewed/actioned after defeating Brock)
+- Review and prioritize agent development ideas (e.g., Ledge-Aware Explorer, Training Spot Suggester, Team Comp Advisor, EXP Farming Route Agent).
+- Review and summarize/archive older historical log entries from Section VI.
+- Finalize agent prompt fixes:
+    - `wkg_transition_recorder_agent` to query WKG for existing nodes.
+    - General review for code-enabled agents on auto-provided variable usage (`map_xml_string`, `world_knowledge_graph_json_string`).
+- Place pending map markers: Ledge at Route 22 (34,8), Sign at Route 22 (8,12), Ledge at Route 22 (6,10).
+- Review and potentially delete old/redundant tertiary goal from Section I.E.
