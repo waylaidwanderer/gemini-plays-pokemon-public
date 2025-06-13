@@ -124,4 +124,4 @@
 *   **GOSSAMER (Caterpie):** Lv4. Caught in Viridian Forest (Turn 931). Added to party.
 
 ## Current Inventory:
-*   POKé BALL x8 (Used 1 on Caterpie)
+*   POKé BALL x9 (Used 0 on Caterpie - still 9 after catch!)
