@@ -32,8 +32,8 @@
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
 *   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12), prioritizing type advantages.
 
-## Pokémon Party & Log (Current as of Turn 1065):
-*   **SPARKY (PIKACHU):** Lv7 (6/25 HP, EXP: 466). THUNDERSHOCK (29 PP), GROWL (40 PP), QUICK ATTACK (27 PP).
+## Pokémon Party & Log (Current as of Turn 1067):
+*   **SPARKY (PIKACHU):** Lv7 (5/25 HP, EXP: 466). THUNDERSHOCK (29 PP), GROWL (40 PP), QUICK ATTACK (27 PP).
 *   **NADEL (WEEDLE):** Lv4 (7/18 HP, EXP: 64). POISON STING (32 PP), STRING SHOT (40 PP). (Caught Viridian Forest, T870).
 *   **NIGHTSHADE (ODDISH):** Lv6 (12/23 HP, EXP: 179). TACKLE (35 PP), POISONPOWDER (35 PP). (Caught Viridian Forest, T922).
 *   **GOTTSAMER (CATERPIE):** Lv4 (18/18 HP, EXP: 64). TACKLE (35 PP), STRING SHOT (40 PP). (Caught Viridian Forest, T931).
@@ -77,7 +77,7 @@
 *   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. **(T1038 Update):** System prompt needs refinement for limitations.
 *   **`rom_hack_mechanic_analyzer_agent`**: Defined. Use for deducing new mechanics.
 *   **`level_cap_compliance_agent`**: Defined. Used T407 (all okay).
-*   **`wild_encounter_evaluator_agent`**: Defined. Used T929 (Caterpie - CATCH), T1012 (Kakuna - CATCH), T1031 (Pidgeotto - RUN), T1037 (Kakuna - FIGHT), T1063 (Oddish - RUN).
+*   **`wild_encounter_evaluator_agent`**: Defined. Used T929 (Caterpie - CATCH), T1012 (Kakuna - CATCH), T1031 (Pidgeotto - RUN), T1037 (Kakuna - FIGHT), T1063 (Oddish - RUN), T1065 (Oddish - RUN).
 *   **`npc_dialogue_analyzer_agent`**: Defined. Low usage, consider more frequent application.
 *   **`pokedex_tracker_agent`**: Defined. Untested.
 *   **`hm_obstacle_identifier_agent`**: Defined. Untested.
@@ -95,5 +95,5 @@
 *   **Items:** Poké Ball found (2,32). Poké Ball at (13,30) - unreachable (noted from map sprites).
 *   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran).
 *   **Pathing Issues:** Difficulty navigating around Youngster at (17,44) and impassable tile (17,43). Impassable tree at (22,40).
-*   **Current Location:** (26,31). Navigation goal (26,31) reached. New navigation goal: explore unseen tile at (26,26).
+*   **Current Location:** (26,26). Navigation goal (26,26) reached. New navigation goal: explore unseen tile at (26,21).
 *   **Poison Damage Anomaly:** NADEL lost 5HP in 5 steps (T1053-T1058), not 1HP/4steps. SPARKY lost 1HP in 5 steps (T1058-T1062). Further observation needed.
