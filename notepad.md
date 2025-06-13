@@ -36,14 +36,14 @@
 
 ## Current Objectives & Tactical Plans (HOW to achieve goals)
 *   **Boulder Badge Acquisition (Primary):**
-    1.  Explore Viridian Forest: collect items (e.g., item at (13,30)), battle trainers, and train party members (especially NADEL, but manage HP) aiming for levels closer to the cap (12) before Brock. Prioritize type advantages (Fighting vs. Rock). Catch new Pokémon if encountered and not yet in Pokédex (conserve Poké Balls).
+    1.  Explore Viridian Forest: collect item at (13,30) (priority for Poké Balls), battle trainers, and train party members (especially NADEL - HP 6/20, manage carefully), aiming for levels closer to the cap (12) before Brock. Prioritize type advantages (Fighting vs. Rock). Catch new Pokémon if encountered and not yet in Pokédex (conserve Poké Balls).
     2.  Navigate through Viridian Forest North Gate to Route 2 (North).
     3.  Proceed to Pewter City.
-    4.  Re-challenge Jr. Trainer M in Pewter Gym.
-    5.  Re-challenge Brock. If battle is difficult, consult `team_composition_advisor_agent` and `battle_strategist_agent`.
+    4.  Heal party (especially NADEL) and revive FURYFIST at Pewter Pokémon Center.
+    5.  Re-challenge Jr. Trainer M in Pewter Gym.
+    6.  Re-challenge Brock. If battle is difficult, consult `team_composition_advisor_agent` and `battle_strategist_agent`.
 *   **Travel to Pewter City (Secondary):** Achieved via steps for primary goal.
-*   **Resource Acquisition & FURYFIST Revival (Tertiary):** Acquire more Poké Balls (currently 1, item at (13,30) is a priority). Explore remaining unseen areas in Viridian Forest. Revive FURYFIST at the next opportunity (Pewter City Pokémon Center).
-*   **Item Collection & Unseen Area Exploration (Viridian Forest - (13,30) and nearby (13,25-28)):** Actively pursuing item at (13,30) and exploring reachable unseen tiles in this area. This is important for potential Poké Ball acquisition and map completion.
+*   **Resource Acquisition & FURYFIST Revival (Tertiary):** Acquire more Poké Balls (item at (13,30) is top priority). Explore remaining unseen areas in Viridian Forest (current focus: (13,25-28)). Revive FURYFIST at the next opportunity (Pewter City Pokémon Center).
 
 ## Lessons Learned, Game Mechanics & Insights
 *   **Tile Types:** `ground`, `impassable`, `grass`, `ledge` (jump Y+2, impassable from Y+1 below), `cuttable`.
@@ -54,41 +54,41 @@
 *   **Pikachu Movement:** Can walk through. Adjacent & not facing: 1st press turns, 2nd moves.
 *   **Warp Types:** 1x1 instant (move off/on to re-warp). Larger warps (2x1, 1x2) may need 2 steps (onto warp, then into boundary/direction).
 *   **Dialogue Clearing:** ALWAYS press 'A' to clear dialogue/text BEFORE other inputs.
-*   **Type Matchups:** Ghost super effective vs. Psychic.
+*   **Type Matchups (Observed ROM Hack Changes/Anomalies):**
+    *   Ghost super effective vs. Psychic (Confirmed by Oak's Aide).
+    *   **POISON STING (Poison) displaying as "super effective" against METAPOD (Bug/Poison) and KAKUNA (Bug/Poison).** This has occurred multiple times (e.g., T2816, T2817, T2820 with NADEL vs Metapod). Standard typing is NVE. Continue to observe and document.
 *   **Game Data Trust:** Game State Information is truth (badges, level caps, 'reachable'). Visual interpretation can be flawed.
 *   **Interaction Loops:** If NPC/object interaction yields no progress after 2-3 attempts, different trigger needed.
-*   **Coordinate Checks:** Verify current coordinates before planning movement.
+*   **Coordinate Checks:** Verify current coordinates before planning movement. Be mindful of turn count mismatches.
 *   **DV Checking:** Hold START while pressing A on STATS screen.
-*   **Notepad `replace`:** `old_text` must be *exact*. `overwrite` for major changes.
-*   **Pokémon Switching Menu (Battle):**
-    1.  **To Switch OUT Active Pokémon:** From main battle menu, select 'PKMN'. The active Pokémon's sub-menu appears (or select active Pokémon if party list shows first). 'SWITCH' is usually the default. Press 'A'. This takes you to the party list to select the Pokémon to switch IN. Select desired Pokémon, press 'A'.
-    2.  **To Switch IN a Benched Pokémon (if active Pokémon is *not* being switched out, e.g. after a faint):** From main battle menu, select 'PKMN'. Navigate to desired Pokémon in party list. Press 'A' to open its sub-menu. 'SWITCH' should be highlighted. Press 'A' to confirm.
-*   **Pathing Precision:** Analyze map memory/screen carefully, especially near ledges/complex terrain. Trust map memory for tile types. Be aware of impassable blocks.
-*   **Pokédex Evaluation:** Professor Oak or aides evaluate in person (not via PC, corrected from Viridian Forest sign).
-*   **Battle Risk Assessment:** Balance "less cautious" guideline with resource conservation.
+*   **Notepad `replace` vs `overwrite`:** `old_text` for `replace` must be *exact*. Use `overwrite` for major changes or multiple small edits to ensure accuracy and avoid tool call limits.
+*   **Pokémon Switching Menu (Battle):** Clear understanding of sub-menu navigation for switching.
+*   **Pathing Precision & Map Memory:** Analyze map memory/XML carefully, especially near ledges/complex terrain. Trust map memory for tile types. Be aware of impassable blocks (e.g., trees at Y=40 in Viridian Forest between X=10-15). Re-route proactively when obstacles are identified.
+*   **Pokédex Evaluation:** Professor Oak or aides evaluate in person (not via PC).
+*   **Battle Risk Assessment:** Balance progression with resource conservation. NADEL's low HP (6/20) is a current concern; avoid unnecessary risks with her until healed.
 *   **WKG Tool Usage:** Single `manage_world_knowledge` call per operation. Record transitions IMMEDIATELY.
-*   **NPC Stun Usage (T2311, T2341):** When an NPC is excessively mobile and hindering interaction, the `stun_npc` tool should be considered and utilized much sooner.
-*   **Agent Path Verification (T2341, T2380):** MUST manually verify `route_planner_agent` paths against map memory/XML *before* execution, especially for complex routes or near known obstacles. Consider using `map_analyzer_agent` for local alternatives if long paths fail.
-*   **Battle Strategy vs. Progression (T2341, T2380):** Prioritize progression over marginal EXP gains from wild battles, especially when Pokémon are very low level. Run from battles more readily if not specifically training or catching.
-*   **Map Markers (T2341, T2380):** Be consistent in marking ALL significant map features (used warps, key NPCs, obstacles, items obtained, key signs, etc.) that aid future navigation or recall. Example: Mark sign at (19,46) in Viridian Forest.
-*   **EXP Update (Turn 2803):** NADEL (Lv4 WEEDLE) grew to Lv5 (HP: 20/20, ATK: 9, DEF: 9, SPD: 7, SPC: 7) after defeating a wild WEEDLE. GOTTSAMER (Lv9 METAPOD) also gained 14 EXP from this battle.
+*   **NPC Stun Usage:** Consider using `stun_npc` sooner for mobile NPCs hindering interaction or pathing.
+*   **Agent Path Verification:** MUST manually verify `route_planner_agent` paths against map memory/XML *before* execution. Consider `map_analyzer_agent` for local alternatives if long paths fail.
+*   **Battle Strategy vs. Progression:** Prioritize progression over marginal EXP gains from wild battles, especially when Pokémon are very low level or resources are scarce. Run from battles more readily if not specifically training or catching.
+*   **Map Markers:** Be consistent in marking ALL significant map features (used warps, key NPCs, obstacles, items obtained, key signs, defeated trainers that block paths) that aid future navigation or recall.
+*   **EXP Updates (Summarized Recent):**
+    *   (T2803) NADEL (Lv4 WEEDLE) -> Lv5 (HP: 20/20). GOTTSAMER (Lv9 METAPOD) gained 14 EXP.
+    *   (T2820, Wild Lv6 METAPOD) NADEL (Lv5 WEEDLE) gained 30 EXP (HP: 20/20 -> 17/20). GOTTSAMER (Lv9 METAPOD) gained 30 EXP.
+    *   (T2849, Wild Lv4 WEEDLE) NADEL (Lv5 WEEDLE) gained 14 EXP (HP: 6/20). GOTTSAMER (Lv9 METAPOD) gained 14 EXP.
 *   **Battle Anomaly (Turn 2787-2789):** Wild WEEDLE battle with SPARKY active ended inconclusively (no EXP gain after 'Up' input registered post-battle).
-*   **System Warning (Turn 2788, T2806, T2821):** Received reminders to make longer movement sequences.
-*   **EXP Update (Turn 2820, Wild Lv6 METAPOD):** NADEL (Lv5 WEEDLE) gained 30 EXP (HP: 20/20 -> 17/20 after battle). GOTTSAMER (Lv9 METAPOD) gained 30 EXP.
-*   **Type Matchup Anomaly (Turn 2816, 2817, 2820):** Game displayed POISON STING (Poison) as "super effective" against wild METAPOD (Bug/Poison). Standard typing is NVE. This might be a ROM hack change or display error. Continue to observe.
-*   **EXP Update (Turn 2849, Wild Lv4 WEEDLE):** NADEL (Lv5 WEEDLE) gained 14 EXP (HP: 6/20). GOTTSAMER (Lv9 METAPOD) gained 14 EXP (HP: 16/29).
+*   **System Warnings:** Received reminders about making longer movement sequences and turn count mismatches. Be diligent.
 
 ## Defeated Trainers Log
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
-*   Viridian Forest (ID 51) - (3,42) - Lass (Cool Trainer F sprite, VIRIDIANFOREST_COOLTRAINER_F)
+*   Viridian Forest (ID 51) - (3,42) - Lass (Cool Trainer F sprite, VIRIDIANFOREST_COOLTRAINER_F) - *Note: Blocks path west from (4,42) even after defeat.*
 *   Viridian Forest (ID 51) - (28,20) - Youngster (Bug Catcher sprite, VIRIDIANFOREST_YOUNGSTER3)
 *   Viridian Forest (ID 51) - (28,34) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER2)
 *   Viridian Forest (ID 51) - (14,18) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER5)
 *   Viridian Forest (ID 51) - (3,19) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER4)
 
 ## Agent Management (9 Active Agents)
-*   **`battle_strategist_agent`**: Analyzes battle data for optimal moves/switches.
-*   **`route_planner_agent`**: Calculates paths. (Code-enabled)
+*   **`battle_strategist_agent`**: Analyzes battle data for optimal moves/switches. (Task: Review system prompt for survivability focus in Hard Mode).
+*   **`route_planner_agent`**: Calculates paths. (Code-enabled) (Task: Review system prompt to emphasize handling obstacles and impassable areas, potentially suggesting alternative start/end points or segmented paths if a full path is not found).
 *   **`level_cap_compliance_agent`**: Checks party vs. level cap.
 *   **`wild_encounter_evaluator_agent`**: Advises on wild encounters (FIGHT, RUN, CATCH). (Review logic for EXP vs. progression).
 *   **`optimal_training_spot_agent`**: Suggests training areas. (Code-enabled)
@@ -96,27 +96,27 @@
 *   **`map_analyzer_agent`**: Identifies strategic points on current map. (Code-enabled)
 *   **`team_composition_advisor_agent`**: Recommends teams for major battles. (Code-enabled) (Test before Brock).
 *   **`pokedex_completion_strategist_agent`**: Suggests areas for Pokédex completion. (Code-enabled) (System prompt updated T2807. Monitor effectiveness).
-    *   **Agent Development Plan (Updated T2851):**
-    1.  **COMPLETED (T2442):** Input schemas for ALL code-enabled agents reviewed.
-    2.  **High Priority:** Review `pokedex_completion_strategist_agent` (failed T2324, system prompt updated T2807). Decide whether to debug, remove, or update notepad entry based on feasibility and future performance.
-    3.  **High Priority (Pewter City):** Test `team_composition_advisor_agent` before challenging Brock.
-    4.  Review `wild_encounter_evaluator_agent` logic for balancing EXP gain vs. progression speed.
-    5.  Review `route_planner_agent` system prompt to emphasize its experimental nature for complex paths and how it should handle obstacles.
-    6.  Review and potentially update the `battle_strategist_agent`'s system prompt to better consider Pokémon survivability under Hard Mode rules.
+    *   **Agent Development Plan (Focus Areas):**
+    1.  Monitor effectiveness of `pokedex_completion_strategist_agent` after system prompt update.
+    2.  Test `team_composition_advisor_agent` before challenging Brock.
+    3.  Review `wild_encounter_evaluator_agent` logic for balancing EXP gain vs. progression speed.
+    4.  Review and potentially update the `battle_strategist_agent`'s system prompt to better consider Pokémon survivability under Hard Mode rules.
+    5.  Review `route_planner_agent` system prompt for improved obstacle handling.
+    6.  Consider using `progression_advisor_agent` soon.
     7.  Note: Max 10 agents. Periodically review if all are providing value.
 
 ## Archived Plans & Hypotheses (Summarized)
 *   **Route 2 (South) - HM Flash Aide Search (Turns ~1988-2002):** Pathing attempts to warp at (4,44) from southern Route 2 failed due to map layout (trees/ledges). Pivoted to Viridian City exploration.
 *   **Viridian City Exploration (Turns ~2004-2324):** Explored southern part. Path to northern unseen tiles blocked by Y=10 ledge. Old Man (Gambler1) at (31,9) became inaccessible after being forced down Y=10 ledge post-Gym interaction (T2325). Gym locked. Exploration of Viridian City deemed complete for now.
-*   **Viridian Forest NPC Notes (Turn 2205+):** Youngster 6 (VIRIDIANFOREST_YOUNGSTER6) at (28,41) gave Poké Ball tip, no battle. (Re-interacted T2806, same tip).
+*   **Viridian Forest NPC Notes (Turn 2205+, T2806):** Youngster 6 (VIRIDIANFOREST_YOUNGSTER6) at (28,41) gave Poké Ball tip, no battle.
 *   **Viridian Forest North Gate NPC Notes (Turn 2467-2468):** Super Nerd (VIRIDIANFORESTNORTHGATE_SUPER_NERD) at (4,3) gave a tip about Pokémon in forests/caves, no battle. Gramps (VIRIDIANFORESTNORTHGATE_GRAMPS) at (3,6) gave a tip about Cut, no battle.
-*   **Battle Flexibility:** When a Pokémon's HP becomes critical, reassess the current battle plan (even if agent-generated) and consider defensive switches or alternative moves to prioritize survivability, especially under Hard Mode rules.
-*   **Pewter City NPC Notes:** Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) says Brock is a serious trainer, unlike Bug Catchers. (Non-battling)
+*   **Battle Flexibility:** When a Pokémon's HP becomes critical, reassess battle plan for survivability.
+*   **Pewter City NPC Notes:** Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) says Brock is a serious trainer. (Non-battling)
 
-## Current Major Unresolved Issues (as of Turn 2562)
-*   **No Boulder Badge:** Game State consistently shows 'None' for badges after the battle with Brock. This means the level cap is still 12. Must re-investigate and likely re-challenge Brock.
-*   **Pewter City Pokémon Center Entry Saga:** Repeated attempts (at least 12 noted via system warnings and my own count of ~5 distinct failed hypotheses from T2530-T2539, plus multiple attempts T2540-T2545, and then the final attempts before blacking out in T2546-T2548) to enter the Pewter Pokémon Center at (19,23)/(19,24) have failed. The exact warp mechanic for this 2x1 mat is not understood. Should have abandoned this approach much sooner and prioritized other healing methods or objectives.
-*   **Potion on Fainted Pokémon:** Confirmed Potions do not revive fainted Pokémon (attempted on NIGHTSHADE in Pewter Mart, T2561). Need Revives or Pokémon Center access.
+## Current Major Unresolved Issues (as of Turn 2562, some addressed)
+*   **No Boulder Badge:** Game State consistently shows 'None' for badges after the battle with Brock. This means the level cap is still 12. Must re-investigate and likely re-challenge Brock. (Still current)
+*   **Pewter City Pokémon Center Entry Saga:** Resolved by blacking out and respawning in Viridian.
+*   **Potion on Fainted Pokémon:** Confirmed Potions do not revive fainted Pokémon.
 
 ## Post-Blackout Update (Turn 2641 - Viridian City)
 *   Blacked out after NADEL fainted to Jr. Trainer M's SANDSHREW in Pewter Gym. All 6 Pokémon fainted.
@@ -126,6 +126,6 @@
 *   Critical Priority: Heal party, travel back to Pewter City, re-challenge Brock for Boulder Badge.
 *   Jr. Trainer M in Pewter Gym (who defeated me, causing blackout) is NOT defeated.
 
-## Non-Battling NPC Interactions Log
+## Non-Battling NPC Interactions Log (Key Ones)
 *   Viridian Forest (ID 51) - (17,44) - Youngster (VIRIDIANFOREST_YOUNGSTER1) - Dialogue: "I came here with some friends! They're out for POKéMON fights!" - No battle.
-*   Viridian Forest (ID 51) - (28,41) - Youngster (VIRIDIANFOREST_YOUNGSTER6) - Dialogue: "I ran out of POKé BALLs to catch POKéMON with! You should carry extras!" - No battle (Confirmed T2806).
+*   Viridian Forest (ID 51) - (28,41) - Youngster (VIRIDIANFOREST_YOUNGSTER6) - Dialogue: "I ran out of POKé BALLs to catch POKéMON with! You should carry extras!" - No battle (Confirmed T2806, T2822).
