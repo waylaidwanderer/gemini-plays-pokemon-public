@@ -119,4 +119,4 @@
 *   New secondary goal: Travel to Pewter City.
 
 ## Current Inventory:
-*   POKé BALL x8
+*   POKé BALL x9
