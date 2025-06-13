@@ -87,17 +87,22 @@
 *   **`optimal_training_spot_agent`**: Defined. Untested.
 *   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items. Untested.
 
+## New Agent Ideas to Consider Defining:
+*   `map_analyzer_agent`: Analyze current map for optimal training spots, items, unencountered trainers, and general strategic points of interest.
+*   `long_term_planner_agent`: Assist with high-level strategic planning for overall game progression, considering major milestones like badges, HMs, and key items.
+*   `rom_hack_change_tracker_agent`: Systematically log and recall observed differences from the base Pokémon Yellow game (e.g., altered mechanics, item locations, NPC dialogue variations, type matchup changes).
+
 ## World Knowledge Graph Notes:
 *   **Critical:** Record inter-map transitions IMMEDIATELY using `manage_world_knowledge` upon map_id change.
 
 ## Area Notes:
 ### Viridian Forest (ID 51) - Current Area
 *   **Objective:** Navigate through Viridian Forest, battle trainers for EXP, and reach the north exit.
-*   **Current Location:** (12,42).
+*   **Current Location:** (23,41).
 *   **Key NPCs (Unencountered Trainers):** Youngster (31,34), Youngster (31,20), Youngster (28,41).
 *   **Key NPCs (Non-Battling):** Youngster (17,44).
 *   **Items:** Poké Ball at (13,30) - unreachable (noted from map sprites).
-*   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran), Pidgey (Lv7, ran), Metapod (Lv6, ran).
+*   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran), Pidgey (Lv7, ran), Metapod (Lv6, ran), Weedle (Lv4, fought).
 
 ### Route 2 (ID 13) - Previously Explored
 *   **Objective:** Navigated to Viridian Forest South Gate warp.
