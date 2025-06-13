@@ -301,3 +301,7 @@
 
 (Appended to Section X. Post-Brock Task List - Turn 2522)
 - Review notepad Section I.E. and remove/archive old/redundant tertiary goal definitions after confirming the latest appended one is active.
+
+(Appended under Section I.A. Pokémon Party - Turn 2551)
+- PIP (PIDGEY): Lv9 (21/27 HP, EXP: 523) | Moves: GUST (18 PP), SAND-ATTACK (15 PP)
+- Note: SPARKY gained +12 EXP (visual only, actual EXP 1728 unchanged) from NIDORAN♀ Lv3 battle.
