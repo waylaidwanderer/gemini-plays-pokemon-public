@@ -110,7 +110,7 @@
 *   Reminder: Check signs in Viridian Forest when exploration resumes (e.g., sign at (19,46)).
 *   **SPARKY (Pikachu):** Healed to full HP (25/25). PP restored.
 *   **Money:** Decreased to ¥632 due to blackout.
-*   **Secondary Goal Update:** Changed from 'Heal SPARKY' to 'Find the trigger in Viridian City that opens the northern path to Pewter City.'
+*   **Secondary Goal Update:** After blacking out and returning to Viridian Forest, the immediate goal is to navigate through it to find the north exit. Healing will be addressed later.
 
 ## Viridian City Update (Turn 795):
 *   The old man previously blocking the path north to Route 2 at (20,5) is gone.
