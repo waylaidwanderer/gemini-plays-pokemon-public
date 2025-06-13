@@ -1,22 +1,16 @@
 # Gem's Pokémon Yellow Legacy - Hard Mode Playthrough
 
-## Current Plan: Viridian Forest - Attempt 2 (Revised)
-- **Objective:** Successfully navigate Viridian Forest to reach Pewter City.
-- **Strategy:** 
-  1. Lead with SPARKY (fastest Pokémon) to ensure high chance of escaping wild encounters.
-  2. Follow the pre-calculated path precisely to avoid getting lost or hitting dead ends.
-  3. If escape fails more than once, immediately switch to a Pokémon with a type advantage to end the fight quickly. Do not repeat the mistake of trying to run endlessly.
-  4. Proactively use `battle_strategist_agent` for any trainer battles or difficult wild encounters to avoid repeating the Pidgey disaster.
+## Current Objective: Navigate Viridian Forest
+- **Goal:** Reach the northern exit to get to Pewter City.
+- **Challenge:** Repeatedly getting stuck in navigation loops in the southern part of the forest.
+- **Hypothesis (Attempt #1):** A custom-built pathfinding agent will provide a reliable route, preventing further wasted turns.
 
 ## Party Status
-- All members healthy after the blackout.
+- All members at full health.
 
-## Lessons from the Blackout (Viridian Forest Wipeout)
-- **Catastrophic Failure:** A series of poor decisions led to a full party wipe against a single Lv8 Pidgey.
-- **Failed Tactic (Running):** Attempting to run 3+ times while taking damage was a severe strategic error. **Lesson:** If running fails twice, switch tactics. 
-- **Menuing Errors:** Repeatedly failed to navigate the battle menu correctly, wasting critical turns. **Lesson:** Slow down and confirm inputs under pressure.
-- **Misjudged Threat:** Incorrectly assumed Pidgey's Gust was a physical attack, making Harden useless. **Lesson:** Do not assume move types; be prepared for both physical and special attacks. Gust is Special.
-- **Agent Misuse:** Failed to use `battle_strategist_agent` proactively. **Lesson:** Use agents to inform strategy from the start, not as a last resort.
+## Lessons Learned
+- **Viridian Forest Blackout:** A previous party wipe was caused by poor battle tactics (failed run attempts, misjudging move types) and slow menuing. If running fails twice, I must switch to battling.
+- **Navigation Failures:** I tend to rush and misread the map, leading to getting stuck against impassable tiles. I must slow down and trust the map data, or use my new pathfinding agent.
 
 ## Defeated Trainers Log
 - OAK'S LAB - Rival Pixel
