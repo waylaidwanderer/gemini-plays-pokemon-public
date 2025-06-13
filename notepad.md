@@ -29,12 +29,12 @@
 *   **HM05 FLASH Acquisition:** Catch 2 more unique Pokémon species (total 10 in Pokédex). Then, travel to Route 2 (North of Viridian City, through Viridian Forest) to find Professor Oak's Aide who gives HM05 FLASH. Explore Route 22 for potential new catches.
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
 
-## Pokémon Party & Log (Current as of Turn 1870):
-*   **GOTTSAMER (METAPOD):** Lv7 (17/25 HP, EXP: 412). TACKLE (35 PP), STRING SHOT (40 PP), HARDEN (30 PP)
+## Pokémon Party & Log (Current as of Turn 1874):
+*   **GOTTSAMER (METAPOD):** Lv7 (17/25 HP, EXP: 433). TACKLE (35 PP), STRING SHOT (40 PP), HARDEN (30 PP)
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP)
 *   **NIGHTSHADE (ODDISH):** Lv8 (25/28 HP, EXP: 397). TACKLE (35 PP), POISONPOWDER (35 PP), LEECH SEED (9 PP)
 *   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 462). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (29 PP)
-*   **SPARKY (PIKACHU):** Lv8 (25/27 HP, EXP: 594). THUNDERSHOCK (29 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (18 PP)
+*   **SPARKY (PIKACHU):** Lv8 (25/27 HP, EXP: 615). THUNDERSHOCK (28 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (18 PP)
 *   **FURYFIST (MANKEY):** Lv4 (0/17 HP, FNT, EXP: 64). SCRATCH (34 PP), LEER (30 PP)
 
 ## Items Obtained:
