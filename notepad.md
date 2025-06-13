@@ -108,3 +108,7 @@
 *   **HM Usage Advisor:** (Idea)
 *   **Pokédex Progress Agent:** (Idea - consider defining)
 *   **Shopping List Agent:** (Idea)
+
+## Agent Development & Review (Post-Reflection T1818):
+*   **New Agent Idea:** Define `pokedex_progress_agent` soon. This agent could help identify missing Pokémon in the current area by taking current map, caught list, and potentially known encounter data as input.
+*   **Agent Prompts Review:** Review system prompts for all code-enabled agents (`route_planner_agent`, `optimal_training_spot_agent`, `map_analyzer_agent`, `team_composition_advisor_agent`) before next use to ensure they clearly instruct the agent to leverage auto-provided variables like `map_xml_string` and `world_knowledge_graph_json_string`.
