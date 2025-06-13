@@ -154,12 +154,15 @@
 ## VII. Task List (Active & Pending)
 
 ### A. Pre-Brock Tasks (High Priority)
-- **Agent Prompt Fixes (Ongoing, but critical parts might be Post-Brock if too complex now):**
-    - `pathfinding_agent` & `exploration_helper_agent` for ledges. *Current Plan: Continue manual navigation on Route 22. Re-evaluate agent fix priority if Brock proves too difficult or if significant ledge navigation is required for other pre-Brock objectives.*
-    - `wkg_transition_recorder_agent` to query WKG for existing nodes.
-    - General review for code-enabled agents on auto-provided variable usage (`map_xml_string`, `world_knowledge_graph_json_string`).
-- **Map Markers:**
-    - Place Ledge marker at Route 22 (6,10). (Action for Turn 2574)
+- **Agent Definition Updates (Immediate):**
+    - `wkg_transition_recorder_agent`: Update prompt (see IV.B).
+    - `item_finder_agent`: Update input schema (see IV.B).
+- **Agent Prompt Fixes (Ongoing/Deferred):**
+    - `pathfinding_agent` & `exploration_helper_agent` for ledges (see IV.B).
+    - General review for code-enabled agents on auto-provided variable usage.
+- **Map Markers (This Turn):**
+    - Place Route 22 (9,6) Warp marker: 🚪 "Used - To Route 22 Gate (5,8) EP:1"
+    - Place Route 22 (8,12) Sign marker: ℹ️ "Sign: ROUTE22_POKEMON_LEAGUE_SIGN"
 
 ### B. Post-Brock Task List (To be reviewed/actioned after defeating Brock)
 - Review and prioritize agent development ideas (from IV.C).
