@@ -11,8 +11,8 @@
 - Money: ¥296
 
 ### C. Current Location & Immediate Objective (Turn 2313)
-- Location: Route 22 (ID: 33), at (5,11).
-- Immediate Objective: Navigate to unseen tile (12,8) via (12,11) and (12,10). Path: R_x8, U_x3. This path utilizes the ground tile at (12,10) to bypass northern ledges.
+- Location: Route 22 (ID: 33), at (12,7).
+- Immediate Objective: Navigate to unseen tile (7,6). Path: L_x5, U_x1. This will explore the westernmost cluster of unseen tiles.
 
 ### D. Training Priorities
 - SPROUT (ODDISH): Lv8 -> Needs significant training for Brock (Rock/Ground). Grass moves super effective. **PRIORITY**
