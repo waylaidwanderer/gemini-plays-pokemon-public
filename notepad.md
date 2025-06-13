@@ -32,8 +32,8 @@
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
 *   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12), prioritizing type advantages.
 
-## Pokémon Party & Log (Current as of Turn 1055):
-*   **SPARKY (PIKACHU):** Lv7 (8/25 HP, EXP: 466). THUNDERSHOCK (29 PP), GROWL (40 PP), QUICK ATTACK (27 PP).
+## Pokémon Party & Log (Current as of Turn 1061):
+*   **SPARKY (PIKACHU):** Lv7 (7/25 HP, EXP: 466). THUNDERSHOCK (29 PP), GROWL (40 PP), QUICK ATTACK (27 PP).
 *   **NADEL (WEEDLE):** Lv4 (7/18 HP, EXP: 64). POISON STING (32 PP), STRING SHOT (40 PP). (Caught Viridian Forest, T870).
 *   **NIGHTSHADE (ODDISH):** Lv6 (12/23 HP, EXP: 179). TACKLE (35 PP), POISONPOWDER (35 PP). (Caught Viridian Forest, T922).
 *   **GOTTSAMER (CATERPIE):** Lv4 (18/18 HP, EXP: 64). TACKLE (35 PP), STRING SHOT (40 PP). (Caught Viridian Forest, T931).
@@ -91,14 +91,8 @@
 ## Area Notes:
 ### Viridian Forest (ID 51) - Current Area
 *   **Objective:** Find North Gate to Route 2 (North).
-*   **Key NPCs:** Youngster (17,44) - non-battling so far. Lass (3,42) - defeated.
-*   **Items:** Poké Ball found (2,32).
+*   **Key NPCs:** Youngster (17,44) - non-battling so far. Lass (3,42) - defeated. Youngster (31,34) - unencountered. Youngster (28,41) - unencountered.
+*   **Items:** Poké Ball found (2,32). Poké Ball at (13,30) - unreachable (noted from map sprites).
 *   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran).
 *   **Pathing Issues:** Difficulty navigating around Youngster at (17,44) and impassable tile (17,43). Impassable tree at (22,40).
-*   **Current Location (Pre-Battle):** (23,41). Exploring towards unseen tiles in NE (e.g., (26,36)).
-
-### Past Areas (Summary)
-*   **Pallet Town (ID 0, etc.):** Started, got Pikachu.
-*   **Route 1 (ID 12):** Traversed.
-*   **Viridian City (ID 1, etc.):** Got Parcel, Pokédex. Path North to Route 2 opened (T795).
-*   **Route 2 (South) (ID 13) / Viridian Forest South Gate (ID 50):** Entry point to Viridian Forest.
+*   **Current Location:** (26,36). Navigation goal (26,36) reached. New navigation goal: explore unseen tiles around (26,31).
