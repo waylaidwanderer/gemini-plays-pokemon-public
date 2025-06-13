@@ -28,16 +28,16 @@
 *   EXP. All obtainable.
 
 ## Current Objectives & Plans (HOW to achieve goals):
-*   **Heal Critically Injured Party:** Retreat from Viridian Forest to Viridian City Pokémon Center. Switch GOTTSAMER to lead for the journey south.
+*   **Heal Critically Injured Party (COMPLETE):** Party was healed after blacking out in Viridian Forest and returning to Viridian City Pokémon Center.
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
 *   **Pewter Gym Preparation (Paused):** Upon reaching Pewter City (after healing), identify Gym type, Leader's Pokémon/levels. Train team to cap (12), prioritizing type advantages.
 
-## Pokémon Party & Log (Current as of Turn 1094):
-*   **AEGIS (KAKUNA):** Lv7 (2/24 HP, EXP: 343). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (30 PP).
-*   **NADEL (WEEDLE):** Lv4 (7/18 HP, EXP: 64). POISON STING (32 PP), STRING SHOT (40 PP).
-*   **NIGHTSHADE (ODDISH):** Lv6 (12/23 HP, EXP: 179). TACKLE (35 PP), POISONPOWDER (35 PP).
-*   **GOTTSAMER (CATERPIE):** Lv4 (18/18 HP, EXP: 64). TACKLE (35 PP), STRING SHOT (40 PP).
-*   **SPARKY (PIKACHU):** Lv7 (5/25 HP, PSN, EXP: 466). THUNDERSHOCK (29 PP), GROWL (40 PP), QUICK ATTACK (27 PP).
+## Pokémon Party & Log (Current as of Turn 1190):
+*   **GOTTSAMER (CATERPIE):** Lv4 (18/18 HP, EXP: 118). TACKLE (35 PP), STRING SHOT (40 PP).
+*   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP).
+*   **NIGHTSHADE (ODDISH):** Lv6 (23/23 HP, EXP: 179). TACKLE (35 PP), POISONPOWDER (35 PP).
+*   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 410). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (30 PP).
+*   **SPARKY (PIKACHU):** Lv7 (25/25 HP, EXP: 466). THUNDERSHOCK (30 PP), GROWL (40 PP), QUICK ATTACK (30 PP).
 
 ## Items Obtained:
 *   **POKé BALL x7**
