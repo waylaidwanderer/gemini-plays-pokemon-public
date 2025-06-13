@@ -1,9 +1,9 @@
 ## Game Info
 *   **Player Name:** Gem
 *   **Rival Name:** Pixel
-*   **Current Badges:** 1 (Boulder Badge)
-*   **Current Level Cap:** 21 (1 badge)
-*   **Pokédex:** 7/151
+*   **Current Badges:** 0 (Game State is Source of Truth)
+*   **Current Level Cap:** 12 (0 badges - Game State is Source of Truth)
+*   **Pokédex:** 7/151 (Nidoran♂ will make it 8 if caught)
 *   **Money:** ¥506
 
 ## Hard Mode Rules (Player-Only Restrictions):
@@ -27,11 +27,11 @@
 
 ## Current Objectives & Plans (HOW to achieve goals):
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
-*   **HM05 FLASH Acquisition:** Catch 2 more unique Pokémon species (total 10 in Pokédex). Then, travel to Route 2 (North of Viridian City, through Viridian Forest) to find Professor Oak's Aide who gives HM05 FLASH. Explore Route 22 for potential new catches.
-*   **Agent Testing Plan:** After healing the party in Viridian City, systematically test `map_analyzer_agent`, `item_reminder_agent`, and `optimal_training_spot_agent` in Viridian City or on Route 2. (Partially completed)
+*   **HM05 FLASH Acquisition:** Catch Nidoran♂ (current battle), then 1 more unique Pokémon species (total 10 in Pokédex). Then, travel to Route 2 (North of Viridian City, through Viridian Forest) to find Professor Oak's Aide who gives HM05 FLASH. Explore Route 22 for potential new catches.
+*   **Agent Testing Plan:** Test `team_composition_advisor_agent` before next major gym battle. Consider defining `pokedex_progress_agent` or removing the idea from notepad.
 
-## Pokémon Party & Log (Current as of Turn 1734):
-*   **GOTTSAMER (METAPOD):** Lv7 (23/25 HP, EXP: 412). ATK 10, DEF 11, SPD 11, SPC 9. TACKLE (35 PP), STRING SHOT (40 PP), HARDEN (30 PP)
+## Pokémon Party & Log (Current as of Turn 1770):
+*   **GOTTSAMER (METAPOD):** Lv7 (17/25 HP, EXP: 412). ATK 10, DEF 11, SPD 11, SPC 9. TACKLE (35 PP), STRING SHOT (40 PP), HARDEN (30 PP)
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP)
 *   **NIGHTSHADE (ODDISH):** Lv8 (28/28 HP, EXP: 397). TACKLE (35 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
 *   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 462). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (30 PP)
@@ -50,75 +50,61 @@
 *   `ledge`: Jump down (Y+2 from above the ledge tile), not up. Impassable from below (when player is at Y+1 relative to ledge tile at Y).
 
 ## Lessons Learned / Game Mechanics:
+*   **Battle Menu Navigation (2x2 Layout):** FIGHT (top-left), PKMN (top-right), ITEM (bottom-left), RUN (bottom-right). Navigate with appropriate directional inputs. Pay close attention to screen text for current cursor position.
 *   Menu Navigation (Naming Screen): Precise inputs needed. Verify letter before 'A'. 'B' is backspace. 'START' confirms name.
 *   Poison: Outside battle, -1 HP every 4 steps.
 *   Pikachu Movement: Can walk through. Adjacent & not facing: 1st press turns, 2nd moves.
 *   Warp Types: 1x1 instant (move off/on to re-warp). Larger warps (2x1, 1x2, e.g. building entrances) may need 2 steps (onto warp, then into boundary/direction of warp).
 *   Critical Game Mechanic: ALWAYS press 'A' to clear dialogue/text BEFORE other inputs.
 *   Ghost vs. Psychic: Ghost-type moves are SUPER EFFECTIVE against Psychic.
-*   Trust Game Data: Trust `Reachable Unseen Tiles` list. Game State is source of truth for levels, etc.
-*   Failed Interaction Loops: If an NPC/object interaction yields no progress after 2-3 varied attempts, a different trigger is likely needed. (Youngster Route 1 ~T350s, Viridian Forest Youngster T739-743).
-*   Coordinate Misreads: Double-check current coordinates from game state before planning movement. (Corrected T1581).
-*   DV Checking Tip: Hold START while pressing A on a Pokémon's STATS screen to check DVs. (Old Man Viridian, T707).
-*   Notepad `replace` Action: `old_text` must be an *exact* match. If `replace` fails repeatedly, consider `overwrite` for the section or entire notepad. (Still relevant!)
-*   Pokémon Switching Menu (Corrected T1068-T1085): Selecting a Pokémon in the party list opens its action sub-menu (STATS, SWITCH, CANCEL). To switch: select 'SWITCH', then select the Pokémon to swap with from the party list. Press 'A' on target, then 'A' on 'SWITCH', then navigate to other Pokémon and 'A' to confirm.
-*   Battle Efficiency (Critique T1231 & T1260): Avoid prolonged battles with highly defensive Pokémon (e.g., Harden-spamming Metapod) or very low-level Pokémon if they offer low EXP for the time/PP invested. Balance agent recommendations (like `wild_encounter_evaluator_agent`) with own judgment on resource cost and battle efficiency. Prioritize trainer battles for EXP.
-*   Cautious Pathing Under Duress (Critique T1535 & T1540): When a Pokémon is critically injured and poisoned, pathing decisions must prioritize avoiding all optional engagements, even if it means a slightly longer route. The risk of being forced into a battle outweighs the minor time save of a more direct, but dangerous, path. (Failed to avoid VIRIDIANFOREST_YOUNGSTER5 at (14,18) on Turn 1519).
-*   Escape Mechanics (Learned T1553-T1555, T1573-T1579): Escape chance depends on lead Pokémon's Speed vs. wild's Speed. If Speed >= wild's, escape is guaranteed. If lower, chance increases with attempts. If escape is critical, lead with fastest available Pokémon that can survive a hit.
-*   WKG Tool Usage: Multi-step tool chains requiring output from a previous tool in the *same turn* (e.g., `tools_results.0.node_id`) are not supported. Break these into sequential, single operations per turn. (Learned T1584-T1588).
-*   Battle Menu Confusion (Critique T1709): If manual menu navigation fails repeatedly, use `select_battle_option` tool sooner.
+*   **Trust Game Data:** Game State Information is the *absolute* source of truth (e.g., for badge count, level caps). Do not question it.
+*   Failed Interaction Loops: If an NPC/object interaction yields no progress after 2-3 varied attempts, a different trigger is likely needed.
+*   Coordinate Misreads: Double-check current coordinates from game state before planning movement.
+*   DV Checking Tip: Hold START while pressing A on a Pokémon's STATS screen to check DVs.
+*   Notepad `replace` Action: `old_text` must be an *exact* match.
+*   Pokémon Switching Menu: Selecting a Pokémon in the party list opens its action sub-menu. To switch: select 'SWITCH', then select the Pokémon to swap with.
+*   Battle Efficiency: Avoid prolonged battles with low EXP yield. Balance agent recommendations with resource cost.
+*   Cautious Pathing Under Duress: Prioritize avoiding optional engagements when Pokémon are injured/poisoned.
+*   Escape Mechanics: Speed-dependent. Lead with fastest Pokémon if escape is critical.
+*   WKG Tool Usage: No multi-step tool chains in one turn.
+*   Battle Menu Tool: If manual navigation fails, use `select_battle_option` tool for main menu.
 
 ## Defeated Trainers:
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
 *   Viridian Forest (ID 51) - (3,42) - Lass (Cool Trainer F sprite)
 *   Viridian Forest (ID 51) - (28,20) - Youngster (Bug Catcher sprite, VIRIDIANFOREST_YOUNGSTER3)
 *   Viridian Forest (ID 51) - (28,34) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER2)
-*   Viridian Forest (ID 51) - (14,18) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER5) - Defeated Lv6 CATERPIE & Lv6 METAPOD.
+*   Viridian Forest (ID 51) - (14,18) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER5)
+*   PEWTER_GYM (ID 4) - (3,1) - Gym Leader Brock
+*   PEWTER_GYM (ID 4) - (3,4) - Jr. Trainer M
 
 ## Agent Definitions & Usage Log (9 Active Agents):
-*   **`battle_strategist_agent`**: Defined. Use for significant trainer battles.
-*   **`route_planner_agent`**: Defined. Observation (T542): Failed intra-map on Route 1. System prompt needs refinement for limitations. (Used frequently for Viridian Forest exit T1582).
-*   **`level_cap_compliance_agent`**: Defined. Used T407. **Note:** Use more frequently after level-ups/before bosses.
-*   **`wild_encounter_evaluator_agent`**: Defined. Used frequently (Mankey T1648, T1697). Note: Balance its EXP recommendations with battle efficiency and resource cost.
-*   **`npc_dialogue_analyzer_agent`**: Defined. Low usage. **Note:** Evaluate utility further; consider deletion if not useful.
-*   **`optimal_training_spot_agent`**: Defined. Tested T1610.
-*   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items. Tested T1610.
-*   **`map_analyzer_agent`**: Defined (T1261). Tested T1610.
-*   **`team_composition_advisor_agent`**: Defined (T1561). Recommends team for major battles. (Critique T1709: Consider testing).
-*   **Agent Review Note:** Periodically review all agents for relevance and potential improvements.
+*   **`battle_strategist_agent`**: Defined.
+*   **`route_planner_agent`**: Defined.
+*   **`level_cap_compliance_agent`**: Defined. **Note:** Use more frequently after level-ups/before bosses, especially now that cap is 12.
+*   **`wild_encounter_evaluator_agent`**: Defined.
+*   **`npc_dialogue_analyzer_agent`**: Defined. Low usage. Re-evaluate utility.
+*   **`optimal_training_spot_agent`**: Defined.
+*   **`item_reminder_agent`**: Defined.
+*   **`map_analyzer_agent`**: Defined.
+*   **`team_composition_advisor_agent`**: Defined. **Note:** Test before next major gym battle.
+*   **Agent Review Note:** Periodically review all agents. Consider defining `pokedex_progress_agent` or removing the idea.
 
 ## World Knowledge Graph Notes:
-*   **Critical:** Record inter-map transitions IMMEDIATELY using `manage_world_knowledge` upon map_id change. (Done for Viridian <-> Route 22, T1636-1637).
+*   **Critical:** Record inter-map transitions IMMEDIATELY.
 
 ## Area Notes:
 ### Route 22 (ID 33) - Current Area
-*   **Objective:** Catch new Pokémon. Explore.
-*   **Current Location:** (31,10) (Turn 1734, after catching Mankey).
+*   **Objective:** Catch Nidoran♂, then 1 more unique Pokémon. Explore.
+*   **Current Location:** (34,10) (In battle with Nidoran♂)
 *   **Items:** None found.
-*   **Encounters:** FURYFIST (MANKEY) (Lv4, caught T1697).
-*   **Pokédex Evaluation:** Contact PROF.OAK via PC to get your POKéDEX evaluated (Sign in Viridian Forest at (27,18)).
+*   **Encounters:** FURYFIST (MANKEY) (Lv4, caught). NIDORAN♂ (Lv3, current battle).
+*   **Pokédex Evaluation:** Contact PROF.OAK via PC (Sign in Viridian Forest).
 
-### Viridian Forest (ID 51) - Previously Explored
-*   **Objective:** Exited south to heal party.
-*   **Key NPCs (Non-Battling):** Youngster (17,44), Youngster (28,41) - Tip: Carry extra Poké Balls.
-*   **Items:** Poké Ball at (13,30) - unreachable. POTION x1 at (26,12) (Turn 1366) - Used.
-*   **Encounters:** ODDISH (Lv6, ran T1564).
-
-### Viridian City (ID 1) - Previously Explored
-*   **Objective:** Heal party, explore.
-*   **Items:** None found.
-
-## Interaction Attempts & NPC Behavior
-*   **VIRIDIANCITY_YOUNGSTER2 (Viridian City):** Multiple failed interaction attempts (approx. 3 between T1614-T1619). NPC kept moving or did not respond. Abandoned attempts.
-*   **VIRIDIANCITY_YOUNGSTER1 (Viridian City):** Attempted interaction at (15,20) (T1632). NPC moved to (13,20) as 'A' was pressed (1st fail). Attempted interaction again when NPC was at (13,20) (T1633), NPC moved to (11,19) as 'A' was pressed (2nd fail). Abandoned attempts.
-
-## Battle Menu Confusion (T1671-T1674):
-*   Got stuck in a loop trying to select ITEM from the main battle menu. Realized the game put me back in the 'Choose a POKéMON' screen after a 'X is already out!' message. Pressing B from 'Choose a POKéMON' screen should return to the main battle menu.
+## Game State Discrepancies (RESOLVED):
+*   Notepad previously incorrectly stated 1 badge. Game State shows 0 badges, which is the source of truth. Level cap is 12.
 
 ## New Agent Ideas (From Reflection T1715):
-*   **HM Usage Advisor:** An agent that, given a list of HMs the player possesses and the current map/area, could suggest optimal HM usage for exploration (e.g., "Cut tree at X,Y to access new area," "Surf across water at A,B to reach item").
-*   **Pokédex Progress Agent:** Could take my current caught list and a list of known encounters per route (if I build that data) and tell me what % of Pokémon on a given route I've caught, or which specific ones are missing.
-*   **Shopping List Agent:** Given a list of items I want to buy (e.g., Poké Balls, Potions) and my current money, it could tell me if I can afford them or how many I can buy.
-
-## Game State Discrepancies:
-*   Game State Information consistently reports '0 badges' even after obtaining the Boulder Badge. My notepad correctly reflects 1 badge, and I will operate under this assumption for level caps etc.
+*   **HM Usage Advisor:** (Idea)
+*   **Pokédex Progress Agent:** (Idea - consider defining)
+*   **Shopping List Agent:** (Idea)
