@@ -105,4 +105,7 @@
 *   **Pokédex Evaluation:** Contact PROF.OAK via PC to get your POKéDEX evaluated (Sign in Viridian Forest at (27,18)).
 
 ## Interaction Attempts & NPC Behavior
-*   **VIRIDIANCITY_YOUNGSTER1 (T1632):** Attempted interaction at (15,20). NPC moved to (13,20) as 'A' was pressed. (1st fail with this specific Youngster).
+*   **VIRIDIANCITY_YOUNGSTER2 (Viridian City):** Multiple failed interaction attempts (approx. 3 between T1614-T1619). NPC kept moving or did not respond. Abandoned attempts.
+*   **VIRIDIANCITY_YOUNGSTER1 (Viridian City):** Attempted interaction at (15,20) (T1632). NPC moved to (13,20) as 'A' was pressed (1st fail). Attempted interaction again when NPC was at (13,20) (T1633), NPC moved to (11,19) as 'A' was pressed (2nd fail). Abandoned attempts.
+
+*   **Battle Menu Confusion (T1671-T1672):** Got stuck in a loop trying to select ITEM from the main battle menu. Realized the game put me back in the 'Choose a POKéMON' screen after a 'X is already out!' message. Pressing B from 'Choose a POKéMON' screen should return to the main battle menu.
