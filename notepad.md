@@ -99,3 +99,6 @@
 *   This is a gatehouse leading to Viridian Forest.
 *   Need to explore north to find the exit into the forest.
 *   NPCs: Girl at (9,5), Little Girl at (3,6).
+
+## Viridian Forest Notes
+*   Youngster (ID 1) at (17,44) with dialogue "I came here with some friends! They're out for POKéMON fights!" did not initiate a battle after 4+ 'A' presses (Turns 739-743). Conclusion: Likely already defeated or non-battling NPC. Moving on.
