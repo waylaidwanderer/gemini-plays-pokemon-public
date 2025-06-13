@@ -110,3 +110,19 @@
 *   Realized I was forced down the Y=10 ledge line (from (33,9) to (33,11)) after interacting with the locked Gym at (33,8).
 *   This makes the Old Man at (31,9) and the area north of the Y=10 ledge inaccessible from the southern part of Viridian City without leaving and re-entering.
 *   Viridian City exploration is considered complete for now. Proceeding to Pewter City.
+
+## Critique & Action Plan (Turn 2341)
+*   **NPC Interaction:** Use `stun_npc` much sooner for highly mobile NPCs to avoid wasted turns (re: VIRIDIANCITY_YOUNGSTER2).
+*   **Agent Path Verification:** MUST manually verify `route_planner_agent` paths against map memory/XML *before* execution, especially for complex routes or near known obstacles (e.g., cuttable trees).
+*   **Battle Strategy vs. Progression:** Prioritize progression over marginal EXP gains from wild battles, especially when Pokémon are very low level (re: current NIDORAN♀ battle for Lv4 FURYFIST). Run from battles more readily if not specifically training or catching.
+*   **Agent Review & Development (High Priority):**
+    *   **`pokedex_completion_strategist_agent`:** Failed on first use (T2324). Requires immediate review/debugging.
+    *   **`route_planner_agent`:** Failures (e.g., T2312 tree) indicate need for improved environmental data parsing or stricter manual output verification.
+    *   **`wild_encounter_evaluator_agent`:** Review logic for balancing EXP gain vs. progression speed.
+    *   **`team_composition_advisor_agent`:** Test before Brock.
+    *   **Input Schemas (Code-Enabled Agents):** Execute plan to review all code-enabled agents to ensure correct use of auto-provided variables (`map_xml_string`, `world_knowledge_graph_json_string`) and not expecting them as direct inputs.
+*   **Notepad Improvements:**
+    *   **Conciseness:** Summarize archived plans/hypotheses more briefly (e.g., 'Route 2 South pathing attempts failed due to X').
+    *   **Proactive Planning:** Document alternative approaches and contingency plans *before* attempting a primary strategy (e.g., manually checking for obstacles if `route_planner_agent` is used for a tricky area).
+    *   **Map Markers:** Be consistent in marking ALL significant map features (used warps, key NPCs, obstacles, items obtained, etc.) that aid future navigation or recall.
+*   **WKG Management:** Ensure `destination_entry_point` for warps and `is_one_way: true` for ledges are accurately recorded. Use descriptive tags.
