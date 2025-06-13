@@ -37,7 +37,7 @@
 ## Current Objectives & Tactical Plans (HOW to achieve goals)
 *   **Viridian City Exploration (Post-Healing, 10 Pokédex Entries):**
     *   **Objective:** Systematically explore Viridian City for new leads (NPCs, interactions, items like EXP. All), prioritizing Reachable Unseen Tiles.
-    *   **Current Focus (Turn 2026+):** Exploring southeastern unseen tiles: (33,32), (34,32), (35,32), (36,32). Currently at (33,31), planning to move to (33,32).
+    *   **Current Focus (Turn 2281+):** Systematically explore all 'Reachable Unseen Tiles' in Viridian City using `map_analyzer_agent` and `route_planner_agent` for efficiency. Reminders from critique: Test `pokedex_completion_strategist_agent`. Review agent input schemas for code-enabled agents (ensure no redundant passing of auto-provided variables). Consider `npc_dialogue_analyzer_agent` utility and potential deletion.
     *   **Contingency:** If Viridian City yields no new leads after thorough exploration, re-evaluate progression (check Pallet Town/Route 1 for new dialogue/events).
     *   **NPC Interaction Strategy:** Interact with any unencountered NPCs or re-interact with previously met NPCs to check for new dialogue due to increased Pokédex count.
 
