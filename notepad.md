@@ -104,3 +104,6 @@
 *   Youngster (ID 1) at (17,44) with dialogue "I came here with some friends! They're out for POKéMON fights!" did not initiate a battle after 4+ 'A' presses (Turns 739-743). Conclusion: Likely already defeated or non-battling NPC. Moving on.
 
     *   Viridian Forest (ID 51) - (3,42) - Lass (Cool Trainer F sprite, battled with NIDORAN♀ Lv6, NIDORAN♂ Lv6)
+
+*   Lass at (3,42) mentioned running into an ODDISH in Viridian Forest. (Turn 777).
+*   Reminder: Check signs in Viridian Forest when exploration resumes (e.g., sign at (19,46)).
