@@ -94,3 +94,8 @@
 
 ## Route 2 Notes:
 *   Sign at (6,66) reads: 'ROUTE 2 VIRIDIAN CITY - PEWTER CITY'. (Turn 718)
+## Viridian Forest South Gate (ID: 50)
+*   Arrived from Route 2 (South Warp at (4,44) on Route 2, arriving at (5,8) here).
+*   This is a gatehouse leading to Viridian Forest.
+*   Need to explore north to find the exit into the forest.
+*   NPCs: Girl at (9,5), Little Girl at (3,6).
