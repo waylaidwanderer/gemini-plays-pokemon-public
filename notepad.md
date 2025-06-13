@@ -10,7 +10,7 @@
 ### B. Financial Status
 - Money: ¥296
 
-### C. Current Location & Immediate Objective (Turn 2298)
+### C. Current Location & Immediate Objective (Turn 2299)
 - Location: Route 22 (ID: 33), at (32,12).
 - Immediate Objective: Travel to Viridian City Pokémon Center to heal PIP.
 
