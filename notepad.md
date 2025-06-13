@@ -119,6 +119,8 @@
 ### C. Agent Development Ideas
 - **Training Spot Suggester Agent:** Input: target Pokémon, current location, desired level. Output: suggested map/grass/trainers, considering types & enemy levels. (Low priority - fix existing agents first).
 - **Shop Inventory Agent:** Input: city/mart name. Output: items sold & prices. (Requires discovery, low priority - fix existing agents first).
+- **Team Composition Advisor Agent:** Input: opponent's known/likely team, my current party. Output: suggested team members, move priorities, potential weaknesses. (Medium priority).
+- **EXP Farming Route Agent:** Input: target Pokémon, desired level. Output: optimal routes/areas with suitable wild Pokémon/trainers, factoring type matchups and EXP yield. (Medium priority).
 
 ## V. Lessons Learned & Strategic Refinements
 
