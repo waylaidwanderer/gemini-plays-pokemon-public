@@ -78,14 +78,15 @@
 *   **`map_analyzer_agent`**: Identifies strategic points on current map. (Code-enabled)
 *   **`team_composition_advisor_agent`**: Recommends teams for major battles. (Code-enabled) (Test before Brock).
 *   **`pokedex_completion_strategist_agent`**: Suggests areas for Pokédex completion. (Code-enabled) (Failed T2324, requires review/debugging).
-    *   **Agent Development Plan (Updated T2442):**
-    1.  **COMPLETED (T2442):** Input schemas for ALL code-enabled agents (`route_planner_agent`, `optimal_training_spot_agent`, `map_analyzer_agent`, `team_composition_advisor_agent`, `pokedex_completion_strategist_agent`) reviewed. They correctly access auto-provided variables (`map_xml_string`, `world_knowledge_graph_json_string`) from their environment and are not expecting them as direct input parameters.
-    2.  Review `pokedex_completion_strategist_agent` (failed T2324); if debugging is not feasible soon, consider deleting to free up an agent slot.
-    3.  Test `team_composition_advisor_agent` before Brock.
+    *   **Agent Development Plan (Updated T2522):**
+    1.  **COMPLETED (T2442):** Input schemas for ALL code-enabled agents reviewed.
+    2.  **High Priority:** Review `pokedex_completion_strategist_agent` (failed T2324). Decide whether to debug, remove, or update notepad entry based on feasibility.
+    3.  **High Priority (Pewter City):** Test `team_composition_advisor_agent` before challenging Brock.
     4.  Review `wild_encounter_evaluator_agent` logic for balancing EXP gain vs. progression speed.
     5.  Review `route_planner_agent` system prompt to emphasize its experimental nature for complex paths.
-    6.  Review and potentially update the `battle_strategist_agent`'s system prompt to better consider Pokémon survivability under Hard Mode rules (no items in battle, Set mode), especially for prolonged strategies or when active Pokémon HP becomes critical.
-    7.  Consider creating `Progression Advisor Agent` or `HM Usage Advisor` later if a slot is needed and current agents are stable.
+    6.  Review and potentially update the `battle_strategist_agent`'s system prompt to better consider Pokémon survivability under Hard Mode rules.
+    7.  **New Task:** Test `progression_advisor_agent` (created T2510) soon to evaluate its effectiveness.
+    8.  Note: Max 10 agents. Periodically review if all are providing value.
 
 ## Archived Plans & Hypotheses (Summarized)
 *   **Route 2 (South) - HM Flash Aide Search (Turns ~1988-2002):** Pathing attempts to warp at (4,44) from southern Route 2 failed due to map layout (trees/ledges). Pivoted to Viridian City exploration.
