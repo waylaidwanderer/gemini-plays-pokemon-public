@@ -195,6 +195,6 @@
 
 ## IX. Critique Review & Action Plan (Turn 2460)
 - **PIP's HP:** Tertiary goal updated to healing PIP before further training. Will use a Potion after this battle.
-- **Agent Development Ideas (IV.C):** Added note: 'Decision on these agent ideas to be made post-Brock. Focus on current objectives.'
+- **Agent Development Ideas (IV.C):** Added note: 'Add to Post-Brock Task List: Review and prioritize agent development ideas (Ledge-Aware Explorer, Training Spot Suggester, Team Comp Advisor, EXP Farming Route Agent). Focus on current objectives until then.'
 - **Historical Log Length (VI):** Added note: 'Review and summarize/archive older historical log entries post-Brock.'
 - **Agent Prompts & Auto-Provided Variables (IV.B):** Added note to review prompts for code-enabled agents for clarity on `map_xml_string` and `world_knowledge_graph_json_string` usage.
