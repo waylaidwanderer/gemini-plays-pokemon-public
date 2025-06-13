@@ -103,3 +103,12 @@
 *   **Items:** Poké Ball at (13,30) - unreachable. POTION x1 at (26,12) (Turn 1366) - Used.
 *   **Encounters:** ODDISH (Lv6, ran T1564).
 *   **Pokédex Evaluation:** Contact PROF.OAK via PC to get your POKéDEX evaluated (Sign in Viridian Forest at (27,18)).
+
+## Notepad Updates (Turn 1611):
+*   **Game Info Update:** Badges: 1 (Boulder Badge), Level Cap: 21.
+*   **Defeated Trainers (Pewter Gym):
+    *   Pewter Gym (ID 19) - (3,4) - Jr. Trainer M - Defeated Lv9 DIGLETT & Lv9 SANDSHREW.
+    *   Pewter Gym (ID 19) - (3,1) - Gym Leader Brock - Defeated Lv10 GEODUDE & Lv12 ONIX. (Earned BOULDERBADGE)
+*   **Agent Ideas (To Consider):
+    *   `HM_Compatibility_Agent`: Input: Roster, owned HMs. Output: Compatibility list.
+    *   `Evolution_Predictor_Agent`: Input: Pokémon, level. Output: Evolution details.
