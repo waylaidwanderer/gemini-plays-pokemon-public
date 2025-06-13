@@ -68,7 +68,7 @@
 *   `route_planner_agent`: Defined. Consider for complex multi-map or obstacle-heavy navigation.
 *   `rom_hack_mechanic_analyzer_agent`: Defined. Use for deducing new mechanics.
 *   `level_cap_compliance_agent`: Defined. Used on Turn 407, all okay.
-*   `wild_encounter_evaluator_agent`: To be defined this turn. Purpose: Decide fight/run/catch for wild encounters based on party, map, goals.
+*   `wild_encounter_evaluator_agent`: Defined. Purpose: Decide fight/run/catch for wild encounters based on party, map, goals. (Use at next wild encounter).
 
 ## World Knowledge Graph Notes:
 *   Record inter-map transitions (map boundary, warps) IMMEDIATELY using `manage_world_knowledge`.
