@@ -10,9 +10,9 @@
 ### B. Financial Status
 - Money: ¥296
 
-### C. Current Location & Immediate Objective (Turn 2261)
-- Location: Route 22 (ID: 33), at (32,12) in battle.
-- Immediate Objective: Defeat wild SPEAROW, then continue training SPROUT (priority) and PIP on Route 22 and explore unseen tiles.
+### C. Current Location & Immediate Objective (Turn 2297)
+- Location: Route 22 (ID: 33), at (32,12).
+- Immediate Objective: Travel to Viridian City Pokémon Center to heal PIP.
 
 ### D. Training Priorities
 - SPROUT (ODDISH): Lv8 -> Needs significant training for Brock (Rock/Ground). Grass moves super effective. **PRIORITY**
