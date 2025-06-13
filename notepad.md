@@ -11,8 +11,8 @@
 - Money: ¥296
 
 ### C. Current Location & Immediate Objective (Turn 2365)
-- Location: Route 22 (ID: 33), at (22,15).
-- Immediate Objective: Navigate to eastern grass patch on Route 22 (target: (34,12)) for training. Path from (22,15): R_x1 (turn), R_x12 (to (34,15)), U_x3 (to (34,12)). Discovered western grass patch is inaccessible from current position due to jumping down ledge at (22,14).
+- Location: Route 22 (ID: 33), at (34,9) (Turn 2371).
+- Immediate Objective: Train SPROUT and PIP in the eastern grass patch of Route 22.
 
 ### D. Training Priorities
 - SPROUT (ODDISH): Lv8 -> Needs significant training for Brock (Rock/Ground). Grass moves super effective. **PRIORITY**
