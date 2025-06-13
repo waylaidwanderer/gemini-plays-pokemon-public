@@ -1,22 +1,22 @@
 # Gem's Pokémon Yellow Legacy - Hard Mode Playthrough
 
-## Current Situation: Critical Battle in Viridian Forest
-- **Objective:** Win the current battle against the Lv8 Pidgey to continue escaping the forest.
-- **Tactic:** Switch from the critically injured NIGHTSHADE (5/30 HP) to the healthy AEGIS (24/24 HP). Use AEGIS's super-effective POISON STING to defeat the Pidgey.
-- **Escape Route:** Resume following the pre-calculated path to the northern exit (warp at (2,1)) immediately after the battle. RUN FROM ALL future wild encounters.
+## Current Plan: Viridian Forest - Attempt 2
+- **Objective:** Successfully navigate Viridian Forest to reach Pewter City.
+- **Strategy:** 
+  1. Lead with a Pokémon that can reliably escape battles (check speeds).
+  2. RUN from all non-essential wild encounters to conserve HP and PP.
+  3. If escape fails more than once, immediately switch to a Pokémon with a type advantage to end the fight quickly.
+  4. Proactively use `battle_strategist_agent` for any trainer battles or difficult wild encounters.
 
 ## Party Status
-- **Fainted (4):** FURYFIST, GOTTSAMER, NADEL, SPARKY.
-- **Critical (1):** NIGHTSHADE (5/30 HP).
-- **Healthy (1):** AEGIS (24/24 HP).
+- **All members healthy** after blacking out.
 
-## Battle Notes & Lessons
-- **Pidgey (Lv8):** Knows Gust (Super effective vs. Oddish) and Sand-Attack.
-- **Failed Tactic (Running):** Attempted to run from the Pidgey 3 times, resulting in NIGHTSHADE taking critical damage. Must adapt strategy faster when an approach repeatedly fails.
-- **Menuing Error:** Repeatedly navigated to the ITEM menu instead of the PKMN menu. This is a critical execution failure that must be corrected.
-- **Agent Misuse:** Failed to use `battle_strategist_agent` proactively after the first failed escape attempt. This was a major strategic blunder.
-- **Type Anomaly (Poison vs. Bug/Poison):** POISON STING is super effective against Bug/Poison types.
-- **Poison Damage:** Outside battle, poisoned Pokémon lose 1 HP every 4 steps.
+## Lessons from the Blackout (Viridian Forest Wipeout)
+- **Catastrophic Failure:** A series of poor decisions led to a full party wipe against a single Lv8 Pidgey.
+- **Failed Tactic (Running):** Attempting to run 3+ times while taking damage was a severe strategic error. **Lesson:** If running fails twice, switch tactics.
+- **Menuing Errors:** Repeatedly failed to navigate the battle menu correctly, wasting critical turns. **Lesson:** Slow down and confirm inputs under pressure.
+- **Misjudged Threat:** Incorrectly assumed Pidgey's Gust was a physical attack, making Harden useless. **Lesson:** Do not assume move types; be prepared for both physical and special attacks.
+- **Agent Misuse:** Failed to use `battle_strategist_agent` proactively. **Lesson:** Use agents to inform strategy from the start, not as a last resort.
 
 ## Defeated Trainers Log
 - OAK'S LAB - Rival Pixel
