@@ -270,3 +270,6 @@
 (Appended under Section IV.B. Agent Performance Notes & Improvement Plans)
 - **`capability_checker_agent`**: Untested. Seek opportunity to test or reconsider its necessity.
 - **`item_finder_agent`**: Review prompt for player_x/y input redundancy, given `agent_can_run_code` and access to `map_xml_string`. Also review utility.
+
+(Appended under Section I.E. Active Goals (for planning reference) - Turn 2521)
+- **Tertiary Goal (Updated):** Now that PIP is healed (27/27 HP), train PIP when SPROUT needs a break or if a suitable opportunity arises. (Original tertiary goal regarding Route 22 exploration to be reviewed/deleted later).
