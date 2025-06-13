@@ -103,3 +103,6 @@
 *   **Items:** Poké Ball at (13,30) - unreachable. POTION x1 at (26,12) (Turn 1366) - Used.
 *   **Encounters:** ODDISH (Lv6, ran T1564).
 *   **Pokédex Evaluation:** Contact PROF.OAK via PC to get your POKéDEX evaluated (Sign in Viridian Forest at (27,18)).
+
+## Interaction Attempts & NPC Behavior
+*   **VIRIDIANCITY_YOUNGSTER1 (T1632):** Attempted interaction at (15,20). NPC moved to (13,20) as 'A' was pressed. (1st fail with this specific Youngster).
