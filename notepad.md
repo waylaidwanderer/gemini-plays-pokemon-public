@@ -171,3 +171,6 @@
 
 ### D. Manual Navigation Plans (When Agents Fail)
 - **Route 22 (Current):** Due to repeated `pathfinding_agent` and `exploration_helper_agent` failures with ledges, all navigation on Route 22 will be manual until agent prompts are confirmed fixed for this terrain. Focus on systematically exploring reachable unseen tiles.
+
+### D. Manual Navigation Plans (When Agents Fail)
+- **Route 22 (Current):** Due to repeated `pathfinding_agent` and `exploration_helper_agent` failures with ledges, all navigation on Route 22 will be manual until agent prompts are confirmed fixed for this terrain. Focus on systematically exploring reachable unseen tiles.
