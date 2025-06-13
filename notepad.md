@@ -90,3 +90,8 @@
     *   Reachable Unseen Tiles: (18,26), (19,26), (20,26), (21,26), (22,26), (23,26), (24,26), (25,26), (26,26), (27,26), (17,27), (28,27), (17,28), (28,28), (17,29), (28,29), (17,30), (28,30), (17,31), (28,31) - (list from game state).
     *   Sign at (22,30) nearby.
     *   Immediate plan: Interact with sign at (22,30), then locate Pokémon Center.
+
+## Viridian City Pokémon Center (ID: 41)
+*   Arrived at (4,8).
+*   Located Pokémon Center! Priority: Heal SPARKY, then explore this area.
+*   Next, find PokéMart in Viridian City.
