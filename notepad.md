@@ -110,11 +110,12 @@
 7.  `exploration_helper_agent` (Defined Turn 2226)
 
 ### B. Agent Performance Notes & Improvement Plans
-- **`pathfinding_agent` & `exploration_helper_agent`:** Critically failing on Route 22 (ledges). Do NOT use for this map until prompts are fixed. Documented failures: Turn 2303 (exploration_helper), Turns 2305, 2306 (pathfinding).
-- **`wkg_transition_recorder_agent`:** Prompt needs refinement to query WKG for existing nodes and use actual IDs. (High Priority)
+- **`pathfinding_agent` & `exploration_helper_agent`:** Critically failing on Route 22 (ledges). Do NOT use for this map until prompts are fixed. Prompts need significant update to handle ledges. Documented failures: Turn 2303 (exploration_helper), Turns 2305, 2306, 2307 (pathfinding).
+- **`wkg_transition_recorder_agent`:** Prompt needs refinement to query WKG for existing nodes and use actual IDs, rather than just outputting placeholders. (High Priority)
 - **`capability_checker_agent`:** Untested. Seek opportunity to test.
 - **`item_finder_agent`:** Review prompt and utility.
-- **General:** Ensure prompts for code-enabled agents clarify use of `run_code` for `map_xml_string` / `world_knowledge_graph_json_string`.
+- **`battle_strategist_agent`:** Consider using more actively in challenging battles.
+- **General:** Ensure prompts for code-enabled agents clarify use of `run_code` for auto-provided variables (`map_xml_string`, `world_knowledge_graph_json_string`) and how to parse/utilize them effectively.
 
 ### C. Agent Development Ideas
 - **Training Spot Suggester Agent:** Input: target Pokémon, current location, desired level. Output: suggested map/grass/trainers, considering types & enemy levels. (Low priority - fix existing agents first).
