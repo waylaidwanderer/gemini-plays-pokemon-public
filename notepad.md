@@ -31,8 +31,8 @@
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
 *   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12) by battling trainers in Viridian Forest and on Route 2. Prioritize type advantages. Scout for Rock-type counters if needed.
 
-## Pokémon Party & Log (Current as of Turn 1501):
-*   **GOTTSAMER (CATERPIE):** Lv6 (22/22 HP, EXP: 300). TACKLE (21 PP), STRING SHOT (40 PP).
+## Pokémon Party & Log (Current as of Turn 1520):
+*   **GOTTSAMER (CATERPIE):** Lv7 (11/24 HP, EXP: 367). ATK 10, DEF 11, SPD 11, SPC 9. TACKLE (14 PP), STRING SHOT (40 PP).
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP).
 *   **NIGHTSHADE (ODDISH):** Lv8 (10/28 HP, EXP: 352). TACKLE (24 PP), POISONPOWDER (34 PP), LEECH SEED (10 PP).
 *   **AEGIS (KAKUNA):** Lv7 (9/24 HP, EXP: 462). POISON STING (25 PP), STRING SHOT (40 PP), HARDEN (30 PP).
@@ -76,6 +76,7 @@
 *   Viridian Forest (ID 51) - (3,42) - Lass (Cool Trainer F sprite)
 *   Viridian Forest (ID 51) - (28,20) - Youngster (Bug Catcher sprite)
 *   Viridian Forest (ID 51) - (28,34) - Bug Catcher (Youngster sprite)
+*   Viridian Forest (ID 51) - (14,18) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER5) - Defeated Lv6 CATERPIE. Now facing Lv6 METAPOD.
 
 ## Agent Definitions & Usage Log (8 Active Agents):
 *   **`battle_strategist_agent`**: Defined. Use for significant trainer battles. (Called T1109, T1113).
@@ -94,7 +95,7 @@
 ## Area Notes:
 ### Viridian Forest (ID 51) - Current Area
 *   **Objective:** Navigate through Viridian Forest, battle trainers for EXP, and reach the north exit.
-*   **Current Location:** (27,34).
+*   **Current Location:** (15,18) (In battle).
 *   **Key NPCs (Unencountered Trainers):** Youngster (31,20).
 *   **Key NPCs (Non-Battling):** Youngster (17,44), Youngster (28,41) - Tip: Carry extra Poké Balls.
 *   **Items:** Poké Ball at (13,30) - unreachable (noted from map sprites).
