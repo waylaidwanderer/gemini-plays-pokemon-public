@@ -35,11 +35,11 @@
 *   EXP. All obtainable without special requirements.
 
 ## Current Objectives & Tactical Plans (HOW to achieve goals)
-*   **Viridian City Exploration (Post-Healing, 10 Pokédex Entries):**
-    *   **Objective:** Systematically explore Viridian City for new leads (NPCs, interactions, items like EXP. All), prioritizing Reachable Unseen Tiles.
-    *   **Current Focus (Turn 2311+):** Systematically explore all 'Reachable Unseen Tiles' in Viridian City using `map_analyzer_agent` and `route_planner_agent` for efficiency. Prioritize testing unused agents (`pokedex_completion_strategist_agent`, `team_composition_advisor_agent`). Review agent input schemas for code-enabled agents (ensure no redundant passing of auto-provided variables).
-    *   **Contingency:** If Viridian City yields no new leads after thorough exploration, re-evaluate progression (check Pallet Town/Route 1 for new dialogue/events).
-    *   **NPC Interaction Strategy:** Interact with any unencountered NPCs or re-interact with previously met NPCs to check for new dialogue due to increased Pokédex count. Use `stun_npc` tool more promptly for excessively mobile NPCs.
+*   **Viridian Forest Navigation & Exploration (Turn 2390+):**
+    *   **Objective:** Navigate Viridian Forest to reach the north exit leading to Route 2 (North), ultimately heading to Pewter City.
+    *   **Sub-objectives:** Systematically explore the remaining 'Reachable Unseen Tiles' ((7,23), (8,23), (9,23)). Battle any un-fought trainers encountered en route. 
+    *   **Current Focus:** Continue manual pathing towards (7,23). If `route_planner_agent` is used again in this forest, visually verify the first few steps of its path.
+    *   **Contingency:** If manual pathing becomes too complex or blocked, use `map_analyzer_agent` to identify local points of interest or alternative short paths.
 
 ## Lessons Learned, Game Mechanics & Insights
 *   **Tile Types:** `ground`, `impassable`, `grass`, `ledge` (jump Y+2, impassable from Y+1 below), `cuttable`.
@@ -57,16 +57,18 @@
 *   **DV Checking:** Hold START while pressing A on STATS screen.
 *   **Notepad `replace`:** `old_text` must be *exact*. `overwrite` for major changes.
 *   **Pokémon Switching Menu:** Select Pokémon -> 'SWITCH' -> select swap target.
-*   **Pathing Precision:** Analyze map memory/screen carefully, especially near ledges/complex terrain. Trust map memory for tile types. Multiple failed pathing attempts on Route 2 South (Turns 1940s, 1980s, 1990s) and Viridian City (Turns 2004-2012) due to misreading impassable tiles.
+*   **Pathing Precision:** Analyze map memory/screen carefully, especially near ledges/complex terrain. Trust map memory for tile types.
 *   **Pokédex Evaluation:** Professor Oak or aides evaluate in person (not via PC, corrected from Viridian Forest sign).
-*   **Battle Risk Assessment:** Balance "less cautious" guideline with resource conservation (e.g., SPARKY at 1HP vs RATTATA T1974 was very risky).
+*   **Battle Risk Assessment:** Balance "less cautious" guideline with resource conservation.
 *   **WKG Tool Usage:** Single `manage_world_knowledge` call per operation. Record transitions IMMEDIATELY.
-*   **Agent Usage Reflection (T2026):** Could have used `map_analyzer_agent` and `route_planner_agent` more during recent Viridian City navigation.
-*   **NPC Stun Usage (T2311):** When an NPC is excessively mobile and hindering interaction, the `stun_npc` tool should be considered and utilized much sooner to prevent wasted turns (e.g., VIRIDIANCITY_YOUNGSTER2, ~14 turns of chase).
+*   **NPC Stun Usage (T2311, T2341):** When an NPC is excessively mobile and hindering interaction, the `stun_npc` tool should be considered and utilized much sooner.
+*   **Agent Path Verification (T2341, T2380):** MUST manually verify `route_planner_agent` paths against map memory/XML *before* execution, especially for complex routes or near known obstacles. Consider using `map_analyzer_agent` for local alternatives if long paths fail.
+*   **Battle Strategy vs. Progression (T2341, T2380):** Prioritize progression over marginal EXP gains from wild battles, especially when Pokémon are very low level. Run from battles more readily if not specifically training or catching.
+*   **Map Markers (T2341, T2380):** Be consistent in marking ALL significant map features (used warps, key NPCs, obstacles, items obtained, key signs, etc.) that aid future navigation or recall. Example: Mark sign at (19,46) in Viridian Forest.
 
 ## Defeated Trainers Log
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
-*   Viridian Forest (ID 51) - (3,42) - Lass (Cool Trainer F sprite)
+*   Viridian Forest (ID 51) - (3,42) - Lass (Cool Trainer F sprite, VIRIDIANFOREST_COOLTRAINER_F)
 *   Viridian Forest (ID 51) - (28,20) - Youngster (Bug Catcher sprite, VIRIDIANFOREST_YOUNGSTER3)
 *   Viridian Forest (ID 51) - (28,34) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER2)
 *   Viridian Forest (ID 51) - (14,18) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER5)
@@ -75,54 +77,21 @@
 *   **`battle_strategist_agent`**: Analyzes battle data for optimal moves/switches.
 *   **`route_planner_agent`**: Calculates paths. (Code-enabled)
 *   **`level_cap_compliance_agent`**: Checks party vs. level cap.
-*   **`wild_encounter_evaluator_agent`**: Advises on wild encounters (FIGHT, RUN, CATCH).
+*   **`wild_encounter_evaluator_agent`**: Advises on wild encounters (FIGHT, RUN, CATCH). (Review logic for EXP vs. progression).
 *   **`optimal_training_spot_agent`**: Suggests training areas. (Code-enabled)
 *   **`item_reminder_agent`**: Reminds about nearby uncollected items.
 *   **`map_analyzer_agent`**: Identifies strategic points on current map. (Code-enabled)
-*   **`team_composition_advisor_agent`**: Recommends teams for major battles. (Code-enabled)
-*   **`pokedex_completion_strategist_agent`**: Suggests areas for Pokédex completion. (Code-enabled)
-*   **Agent Development Plan (T2311):** Prioritize testing `pokedex_completion_strategist_agent` and `team_composition_advisor_agent`. Review system prompts and input schemas for ALL code-enabled agents to ensure they correctly access auto-provided variables (`map_xml_string`, `world_knowledge_graph_json_string`) from their environment and are not expecting them as direct input parameters if currently designed that way. Consider creating `HM Usage Advisor` later if a slot is needed and HMs become relevant.
+*   **`team_composition_advisor_agent`**: Recommends teams for major battles. (Code-enabled) (Test before Brock).
+*   **`pokedex_completion_strategist_agent`**: Suggests areas for Pokédex completion. (Code-enabled) (Failed T2324, requires review/debugging).
+*   **Agent Development Plan (T2390):**
+    1.  **High Priority:** Systematically review input schemas for ALL code-enabled agents (`route_planner_agent`, `optimal_training_spot_agent`, `map_analyzer_agent`, `team_composition_advisor_agent`, `pokedex_completion_strategist_agent`) to ensure they correctly access auto-provided variables (`map_xml_string`, `world_knowledge_graph_json_string`) from their environment and are not expecting them as direct input parameters.
+    2.  Prioritize testing/debugging `pokedex_completion_strategist_agent` (failed T2324).
+    3.  Test `team_composition_advisor_agent` before Brock.
+    4.  Review `wild_encounter_evaluator_agent` logic for balancing EXP gain vs. progression speed.
+    5.  Review `route_planner_agent` system prompt to emphasize its experimental nature for complex paths.
+    6.  Consider creating `Progression Advisor Agent` or `HM Usage Advisor` later if a slot is needed and current agents are stable.
 
-## Archived Plans & Hypotheses
-### Route 2 (South) - HM Flash Aide Search (Turns ~1988-2002)
-*   **Initial Hypothesis:** Aide for HM05 FLASH accessible via warp to Viridian Forest South Gate at (4,44) on Route 2 (South). (10 Pokédex entries met).
-*   **Pathing Attempts from Route 2 South to (4,44) warp:**
-    *   North along X=8: Failed (T1995, blocked at (8,58) by impassable (8,57)).
-    *   North along X=9: Failed (T1996, blocked at (9,58) by impassable (9,57)).
-    *   North along X=10: Failed (T1997, blocked at (10,58) by impassable (10,57)).
-    *   North along X=11: Failed (T1998, blocked at (11,58) by impassable (11,57)).
-*   **Conclusion (T1998):** Warp to Viridian Forest South Gate at (4,44) NOT reachable from southern segment of Route 2. Paths blocked by trees (Y=57) or ledges (Y=48). 'Reachable:yes' flag for warp likely misleading for this isolated map segment. HM Flash Aide search on Route 2 (South) stalled.
-*   **Pivoted Strategy (T1998):** Heal Pokémon (completed T2022), then re-explore Viridian City.
-
-### Viridian City Exploration - Pathing to Northern Unseen Tiles (Turn 2024)
-*   **Attempt:** Pathing north from (27,17) towards (27,6) to explore unseen tiles (e.g., (26,3-6)).
-*   **Outcome:** Realized path blocked by Y=10 ledge line, preventing northward travel from southern part of city to that specific cluster. 'Reachable' status likely requires different approach (e.g., different entry point to Viridian City, or a path not yet found).
-
-*   **Entered Route 2 (South) (T2069):** Arrived at (9,72) from Viridian City (19,1). Goal: Reach warp at (4,44) to Viridian Forest South Gate.
-
-- **Wild Battle (Viridian Forest, (19,37), T2133):** Defeated wild METAPOD. FURYFIST fainted. SPARKY EXP: 615 -> 645 (+30). GOTTSAMER EXP: 433 -> 463 (+30).
-
-## Viridian Forest NPC Notes (Turn 2205+)
-*   Youngster 6 (VIRIDIANFOREST_YOUNGSTER6) at (28,41) gave a tip: "I ran out of POKé BALLs to catch POKéMON with! You should carry extras!". Did not initiate a battle.
-
-## Viridian City Exploration Notes (Turn 2324+)
-*   Attempted to reach Old Man (VIRIDIANCITY_GAMBLER1) at (31,9) after exploring all unseen tiles.
-*   Realized I was forced down the Y=10 ledge line (from (33,9) to (33,11)) after interacting with the locked Gym at (33,8).
-*   This makes the Old Man at (31,9) and the area north of the Y=10 ledge inaccessible from the southern part of Viridian City without leaving and re-entering.
-*   Viridian City exploration is considered complete for now. Proceeding to Pewter City.
-
-## Critique & Action Plan (Turn 2341)
-*   **NPC Interaction:** Use `stun_npc` much sooner for highly mobile NPCs to avoid wasted turns (re: VIRIDIANCITY_YOUNGSTER2).
-*   **Agent Path Verification:** MUST manually verify `route_planner_agent` paths against map memory/XML *before* execution, especially for complex routes or near known obstacles (e.g., cuttable trees).
-*   **Battle Strategy vs. Progression:** Prioritize progression over marginal EXP gains from wild battles, especially when Pokémon are very low level (re: current NIDORAN♀ battle for Lv4 FURYFIST). Run from battles more readily if not specifically training or catching.
-*   **Agent Review & Development (High Priority):**
-    *   **`pokedex_completion_strategist_agent`:** Failed on first use (T2324). Requires immediate review/debugging.
-    *   **`route_planner_agent`:** Failures (e.g., T2312 tree) indicate need for improved environmental data parsing or stricter manual output verification.
-    *   **`wild_encounter_evaluator_agent`:** Review logic for balancing EXP gain vs. progression speed.
-    *   **`team_composition_advisor_agent`:** Test before Brock.
-    *   **Input Schemas (Code-Enabled Agents):** Execute plan to review all code-enabled agents to ensure correct use of auto-provided variables (`map_xml_string`, `world_knowledge_graph_json_string`) and not expecting them as direct inputs.
-*   **Notepad Improvements:**
-    *   **Conciseness:** Summarize archived plans/hypotheses more briefly (e.g., 'Route 2 South pathing attempts failed due to X').
-    *   **Proactive Planning:** Document alternative approaches and contingency plans *before* attempting a primary strategy (e.g., manually checking for obstacles if `route_planner_agent` is used for a tricky area).
-    *   **Map Markers:** Be consistent in marking ALL significant map features (used warps, key NPCs, obstacles, items obtained, etc.) that aid future navigation or recall.
-*   **WKG Management:** Ensure `destination_entry_point` for warps and `is_one_way: true` for ledges are accurately recorded. Use descriptive tags.
+## Archived Plans & Hypotheses (Summarized)
+*   **Route 2 (South) - HM Flash Aide Search (Turns ~1988-2002):** Pathing attempts to warp at (4,44) from southern Route 2 failed due to map layout (trees/ledges). Pivoted to Viridian City exploration.
+*   **Viridian City Exploration (Turns ~2004-2324):** Explored southern part. Path to northern unseen tiles blocked by Y=10 ledge. Old Man (Gambler1) at (31,9) became inaccessible after being forced down Y=10 ledge post-Gym interaction (T2325). Gym locked. Exploration of Viridian City deemed complete for now.
+*   **Viridian Forest NPC Notes (Turn 2205+):** Youngster 6 (VIRIDIANFOREST_YOUNGSTER6) at (28,41) gave Poké Ball tip, no battle.
