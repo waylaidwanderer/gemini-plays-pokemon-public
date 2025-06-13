@@ -10,8 +10,8 @@
 ### B. Financial Status
 - Money: ¥296
 
-### C. Current Location & Immediate Objective (Turn 2412)
-- Location: Route 22 (ID: 33), at (34,10) (Turn 2412).
+### C. Current Location & Immediate Objective (Turn 2414)
+- Location: Route 22 (ID: 33), at (34,10) (Turn 2414).
 - Immediate Objective: Train SPROUT and PIP in the eastern grass patch of Route 22.
 
 ### D. Training Priorities
