@@ -266,3 +266,7 @@
 ### E. Data Management & Logging
 - **Battle Logs:** Summarize training progress (e.g., levels gained, key moves learned) rather than logging every individual EXP gain, especially for capped Pokémon, to keep notepad concise.
 - **PP/HP/EXP Tracking:** Rely on Game State Information as the absolute source of truth for Pokémon stats (HP, EXP, PP). Notepad entries are for reference/planning but can have discrepancies.
+
+(Appended under Section IV.B. Agent Performance Notes & Improvement Plans)
+- **`capability_checker_agent`**: Untested. Seek opportunity to test or reconsider its necessity.
+- **`item_finder_agent`**: Review prompt for player_x/y input redundancy, given `agent_can_run_code` and access to `map_xml_string`. Also review utility.
