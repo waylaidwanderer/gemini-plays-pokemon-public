@@ -26,15 +26,18 @@
 *   EXP. All obtainable.
 
 ## Current Objectives & Plans (HOW to achieve goals):
-*   **Deliver OAK'S PARCEL to Prof. Oak in Pallet Town (Oaks Lab).** Current position (6,4) in Oaks Lab, Oak at (6,3).
-*   **After parcel delivery:** Return to Viridian City. Stock up on Poké Balls. Find Gym. Find way to Pewter City.
+*   **Primary:** Obtain the Boulder Badge from Pewter City Gym.
+*   **Secondary:** Stock up on Poké Balls at the PokéMart in Viridian City.
+*   **Tertiary (Long-term):** Complete the Pokédex for Professor Oak.
+*   **Immediate Plan:** Exit Oak's Lab, travel through Pallet Town and Route 1 to Viridian City. Go to the Mart.
 *   **Prepare for Pewter City Gym:** Assess Gym type and plan team accordingly (once known). Train Pokémon towards level cap if necessary.
 
 ## Pokémon Party & Log:
 *   **SPARKY (Pikachu):** Lv6, 268 EXP (Current cap 12). THUNDERSHOCK PP: 29/30. Healed at Viridian Pokémon Center (Turn 438).
 
 ## Items Obtained:
-*   **OAK'S PARCEL:** Received from Viridian Mart shopkeeper. Target: Prof. Oak.
+*   **OAK'S PARCEL:** Received from Viridian Mart shopkeeper. Delivered to Prof. Oak (Turn 524).
+*   **POKéDEX:** Received from Prof. Oak (Turn 529).
 
 ## Lessons Learned / Hypotheses / Game Mechanics:
 *   **Menu Navigation (Naming Screen):** Precise inputs needed. Verify letter before 'A'. 'B' is backspace.
@@ -79,4 +82,4 @@
 *   **Viridian City Mart (ID: 42):** Arrived (4,8). Received OAK'S PARCEL from shopkeeper (scripted event moved player to (3,6)).
 
 ## Current Area Notes:
-*   **Oaks Lab (ID: 40):** Player at (6,4). Task: Deliver OAK'S PARCEL to Prof. Oak at (6,3).
+*   **Oaks Lab (ID: 40):** Player at (6,4). Task: Deliver OAK'S PARCEL to Prof. Oak at (6,3) (Completed). Received Pokédex and mission to complete it.
