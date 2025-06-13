@@ -3,7 +3,7 @@
 *   **Rival Name:** Pixel
 *   **Current Badges:** 0 (Game State is Source of Truth)
 *   **Current Level Cap:** 12 (0 badges - Game State is Source of Truth)
-*   **Pokédex:** 9/151 (Need 1 more unique for HM Flash)
+*   **Pokédex:** 10/151 (HM05 FLASH requirement met!)
 *   **Money:** ¥506
 
 ## Hard Mode Rules (Player-Only Restrictions):
@@ -26,20 +26,20 @@
 *   EXP. All obtainable.
 
 ## Current Objectives & Plans (HOW to achieve goals):
-*   **HM05 FLASH Acquisition:** Catch 1 more unique Pokémon species (total 10 in Pokédex). Then, find Professor Oak's Aide on Route 2 (likely southern part or via Viridian Forest if accessible) to get HM05 FLASH.
-*   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas, prioritizing routes leading to current objectives.
-*   **Current Focus:** Explore grass on Route 2 (South) for a new Pokémon. If unsuccessful, re-evaluate access to Viridian Forest.
+*   **HM05 FLASH Acquisition:** Requirement of 10 unique Pokémon met. Now, systematically search the accessible southern part of Route 2 for Professor Oak's Aide. Re-check the sign at (6,66). The northern warp at (4,44) to Viridian Forest South Gate is likely inaccessible from south due to ledges.
+*   **Pokédex Completion Strategy:** Continue catching new species when opportunities arise.
+*   **Healing:** Heal SPARKY (1HP) and revive FURYFIST (fainted) at the next Pokémon Center.
 
-## Pokémon Party & Log (Current as of Turn 1944):
+## Pokémon Party & Log (Current as of Turn 1982):
 *   **GOTTSAMER (METAPOD):** Lv7 (17/25 HP, EXP: 433). TACKLE (35 PP), STRING SHOT (40 PP), HARDEN (30 PP)
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP)
 *   **NIGHTSHADE (ODDISH):** Lv8 (25/28 HP, EXP: 397). TACKLE (35 PP), POISONPOWDER (35 PP), LEECH SEED (9 PP)
 *   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 462). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (29 PP)
-*   **SPARKY (PIKACHU):** Lv8 (23/27 HP, EXP: 615). THUNDERSHOCK (27 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (17 PP)
+*   **SPARKY (PIKACHU):** Lv8 (1/27 HP, EXP: 615). THUNDERSHOCK (26 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (16 PP)
 *   **FURYFIST (MANKEY):** Lv4 (0/17 HP, FNT, EXP: 64). SCRATCH (34 PP), LEER (30 PP)
 
 ## Items Obtained:
-*   **POKé BALL x3**
+*   **POKé BALL x2**
 *   **OAK'S PARCEL:** Delivered to Prof. Oak.
 *   **POKéDEX:** Received from Prof. Oak.
 
@@ -50,28 +50,29 @@
 *   `ledge`: Jump down (Y+2 from above the ledge tile), not up. Impassable from below (when player is at Y+1 relative to ledge tile at Y).
 
 ## Lessons Learned / Game Mechanics:
-*   **Battle Menu Navigation (2x2 Layout):** FIGHT (top-left), PKMN (top-right), ITEM (bottom-left), RUN (bottom-right).
-*   **Party List Selection:** 'A' on Pokémon opens sub-menu (SWITCH, STATS, CANCEL).
-*   Menu Navigation (Naming Screen): Precise inputs. 'B' is backspace. 'START' or 'END' confirms.
+*   **Battle Menu Navigation (2x2 Layout):** FIGHT (top-left), PKMN (top-right), ITEM (bottom-left), RUN (bottom-right). Navigate with appropriate directional inputs. Pay close attention to screen text for current cursor position.
+*   **Party List Selection:** Pressing 'A' on a Pokémon in the 'Choose a POKéMON' list *selects* it and brings up its sub-menu (SWITCH, STATS, CANCEL). Pay close attention to screen text to confirm sub-menu vs. main list.
+*   **Menu Navigation (Naming Screen):** Precise inputs needed. Verify letter before 'A'. 'B' is backspace. 'START' confirms name (manually navigating to END is not required).
+*   **Nicknaming Efficiency:** Plan directional inputs for nicknames to reduce turns. A single sequence of directional inputs followed by 'A' is more efficient than multiple single-direction + 'A' turns.
 *   Poison: Outside battle, -1 HP every 4 steps.
 *   Pikachu Movement: Can walk through. Adjacent & not facing: 1st press turns, 2nd moves.
-*   Warp Types: 1x1 instant. Larger warps (2x1, 1x2) may need 2 steps.
+*   Warp Types: 1x1 instant (move off/on to re-warp). Larger warps (2x1, 1x2, e.g. building entrances) may need 2 steps (onto warp, then into boundary/direction of warp).
 *   Critical Game Mechanic: ALWAYS press 'A' to clear dialogue/text BEFORE other inputs.
-*   Ghost vs. Psychic: Ghost-type moves SUPER EFFECTIVE against Psychic.
-*   **Trust Game Data:** Game State Information is ABSOLUTE TRUTH (e.g., badges, level caps). Corrected notepad error regarding Brock/badges.
-*   Failed Interaction Loops: If NPC/object interaction yields no progress after 2-3 attempts, different trigger needed.
-*   Coordinate Misreads: Double-check current coordinates.
-*   DV Checking Tip: Hold START while pressing A on STATS screen.
-*   Notepad `replace` Action: `old_text` must be *exact*. `overwrite` used for major corrections.
-*   Pokémon Switching Menu: Select Pokémon -> 'SWITCH' -> select swap target.
-*   Battle Efficiency: Avoid low EXP battles. Balance agent recommendations with resources.
-*   Cautious Pathing: Prioritize avoiding optional fights when injured/poisoned.
-*   Escape Mechanics: Speed-dependent. Lead with fastest if critical.
-*   WKG Tool Usage: No multi-step tool chains in one turn.
-*   Battle Menu Tool: Use `select_battle_option` if manual nav fails.
-*   Stat Drops: Account for stat changes in move choice.
-*   Goal Prioritization: Re-evaluate tertiary goals if primary/secondary advanceable.
-*   Ledge Navigation: Impassable from below (Y+1 of ledge). The 'reachable:yes' flag for warps on the same map might not fully account for this if player is on the 'wrong' side of a series of ledges.
+*   Ghost vs. Psychic: Ghost-type moves are SUPER EFFECTIVE against Psychic.
+*   **Trust Game Data:** Game State Information is the *absolute* source of truth (e.g., for badge count, level caps). Do not question it.
+*   Failed Interaction Loops: If an NPC/object interaction yields no progress after 2-3 varied attempts, a different trigger is likely needed.
+*   Coordinate Misreads: Double-check current coordinates from game state before planning movement.
+*   DV Checking Tip: Hold START while pressing A on a Pokémon's STATS screen to check DVs.
+*   Notepad `replace` Action: `old_text` must be an *exact* match. `overwrite` is safer for large changes.
+*   Pokémon Switching Menu: Selecting a Pokémon in the party list opens its action sub-menu. To switch: select 'SWITCH', then select the Pokémon to swap with. Pay close attention to cursor position on screen.
+*   Battle Efficiency: Avoid prolonged battles with low EXP yield. Balance agent recommendations with resource cost.
+*   Cautious Pathing Under Duress: Prioritize avoiding optional engagements when Pokémon are injured/poisoned.
+*   Escape Mechanics: Speed-dependent. Lead with fastest Pokémon if escape is critical.
+*   WKG Tool Usage: No multi-step tool chains in one turn. Single `manage_world_knowledge` call per operation.
+*   Battle Menu Tool: If manual navigation fails, use `select_battle_option` tool for main menu.
+*   Ledge Navigation: Impassable from below (Y+1 of ledge). The 'reachable:yes' flag for warps on the *same map* might not fully account for this if player is on the 'wrong' side of a series of ledges.
+*   **Pathing Precision:** Analyze map memory and screen carefully before committing to multi-step paths, especially near ledges or complex terrain. (Failed attempts on Route 2 South, Turns 1940-1943, 1947).
+*   **Battle Risk Assessment (RATTATA T1974):** Letting SPARKY drop to 1HP was very risky. Consider switching or using items (if allowed) more proactively. Prioritize Pokémon health when possible.
 
 ## Defeated Trainers:
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
@@ -83,46 +84,38 @@
 ## Agent Management (9 Active Agents):
 *   **`battle_strategist_agent`**: Defined.
 *   **`route_planner_agent`**: Defined.
-*   **`level_cap_compliance_agent`**: Defined. Use frequently. Input `num_badges` from Game State.
-*   **`wild_encounter_evaluator_agent`**: Defined. Use judgment.
-*   **`npc_dialogue_analyzer_agent`**: Defined. Low usage. Will review system prompt or delete after next town/milestone.
+*   **`level_cap_compliance_agent`**: Defined. **Note:** Use more frequently after level-ups/before bosses. Ensure `num_badges` input reflects Game State.
+*   **`wild_encounter_evaluator_agent`**: Defined. Exercise judgment when its suggestions conflict with primary/secondary goals.
+*   **`npc_dialogue_analyzer_agent`**: Defined. Low usage. Re-evaluate utility or system prompt to improve effectiveness, or consider deletion after obtaining HM Flash.
 *   **`optimal_training_spot_agent`**: Defined.
 *   **`item_reminder_agent`**: Defined.
-*   **`map_analyzer_agent`**: Defined.
-*   **`team_composition_advisor_agent`**: Defined. Test before next major battle.
-*   **Agent Development Plan (Revised T1944):**
+*   **`map_analyzer_agent`**: Defined. Use more consistently when entering new areas.
+*   **`team_composition_advisor_agent`**: Defined. **Note:** Test before next major gym battle.
+*   **Agent Development Plan (Revised T1982):**
     *   `pokedex_progress_agent`: Idea discarded to keep agent slot free.
-    *   **Action Item:** Review system prompts for all code-enabled agents (`route_planner_agent`, `optimal_training_spot_agent`, `map_analyzer_agent`, `team_composition_advisor_agent`) after the current exploration of Route 2 (South) or reaching Viridian Forest, to ensure optimal configuration (leveraging auto-provided variables, not defining them in input schemas).
+    *   Review system prompts for all code-enabled agents (`route_planner_agent`, `optimal_training_spot_agent`, `map_analyzer_agent`, `team_composition_advisor_agent`) after obtaining HM Flash, to ensure optimal configuration (leveraging auto-provided variables, not defining them in input schemas).
 
 ## World Knowledge Graph Notes:
 *   **Critical:** Record inter-map transitions IMMEDIATELY.
+*   **Cleanup:** Redundant node `4c2a58ce-ef8d-4448-9c82-8051f83a4946` (Route 2 South Entrance) needs deletion. `cab3db02-4a0b-4da0-9faa-8d6af20bfe21` is the correct linked node.
 
 ## Area Notes:
 ### Route 2 (ID 13) - Current Area
-*   **Objective:** Catch 1 more unique Pokémon for HM Flash. Proceed to Viridian Forest if possible, then find Oak's Aide for HM05 FLASH.
-*   **Current Location:** (5,51) - Grass (South Part)
-*   **Items:** Two Poké Balls visible on map (14,55) and (14,46) but listed as `reachable: no` (likely on inaccessible eastern ledge path).
-*   **Encounters:** None yet on this map part.
-*   **Pokédex Evaluation:** Professor Oak or his aides evaluate the Pokédex in person. (Corrected from PC evaluation note).
-*   **Navigation:** Western path seems blocked by ledges at Y=48 if trying to go north to warp (4,44) from south of these ledges. Warp (4,44) to Viridian Forest South Gate is `reachable:yes` in game state, but this might be misleading due to one-way ledges.
+*   **Objective:** Find Professor Oak's Aide for HM05 FLASH (10 Pokédex entries met!).
+*   **Current Location:** (7,51) - Grass (South Part)
+*   **Items:** Two Poké Balls visible on map (14,55) and (14,46) but listed as `reachable: no` (on inaccessible eastern ledge path).
+*   **Encounters:** SKITTER (RATTATA) (Lv8, caught). Requirement for Flash met.
+*   **Pokédex Evaluation:** Professor Oak or his aides evaluate the Pokédex in person (Corrected from PC evaluation note).
+*   **Navigation:** Western path to Viridian Forest South Gate warp (4,44) is blocked by ledges at Y=48 if approaching from south of these ledges. The Aide must be in the accessible southern part of Route 2. Re-check sign at (6,66).
 
 ### Route 22 (ID 33)
 *   **Encounters:** FURYFIST (MANKEY) (Lv4, caught). SPIKE (NIDORAN♂) (Lv3, caught, sent to PC). BELLADONNA (NIDORAN♀) (Lv4, caught, sent to PC).
 
-## AI Feedback & Action Plan (Turn 1923 & 1937 addressed):
-*   **Battle Tactics:** Acknowledged stat change impact. THUNDERSHOCK better vs NIDORAN♀ after Growl.
-*   **Goal Refinement:** Tertiary goal is exploration for encounters on current route segment.
-*   **Agent Development:** Addressed `pokedex_progress_agent` (discarded). Scheduled review of other agent prompts.
-*   **Poké Ball Management:** 3 Poké Balls remaining. Be cautious.
-*   **Notepad Management:** Using `overwrite` for major refactors. Careful with Nicknaming screen.
-*   **Nicknaming Screen:** Acknowledged inefficiency. Will plan inputs more carefully.
-*   **Multi-step Movement:** Will continue to plan reasonably long paths but be ready for interruptions.
-*   **Deferred Tasks:** Addressed agent development plan deferrals.
-*   **Agent Usage:** Will try to use `npc_dialogue_analyzer_agent` and `team_composition_advisor_agent` more appropriately or decide on their future.
-*   **Pokédex Evaluation Correction:** Corrected notepad based on AI feedback (not via PC).
-*   **WKG:** Will continue to manage diligently.
-
-## Reflection Insights (Turn 1974):
-*   **Battle Risk Assessment:** Letting SPARKY drop to 1HP vs RATTATA was very risky. Consider switching or using items (if allowed) more proactively in similar situations. Prioritize Pokémon health when possible, even if it means a slightly longer battle.
-*   **Pathing Precision:** Multiple pathing attempts on Route 2 (South) were blocked by impassable tiles visible on screen. Analyze the screen more carefully before committing to multi-step paths, or use `run_code` to parse `map_xml_string` for pathfinding if unsure, especially in unfamiliar or complex areas.
-*   **Agent Usage Reminder:** Use `map_analyzer_agent` more consistently when entering new routes or areas to get strategic insights early on.
+## Reflection Insights (Turn 1982):
+*   **Battle Risk Assessment (RATTATA T1974):** Letting SPARKY drop to 1HP was very risky. Prioritize Pokémon health.
+*   **Pathing Precision (Route 2 South, T1940-1947):** Multiple pathing attempts blocked by impassable tiles/ledges. Analyze screen and map memory more carefully.
+*   **Agent Usage Reminder:** Use `map_analyzer_agent` more consistently when entering new routes or areas.
+*   **Notepad Management:** `overwrite` is good for major refactors. Careful with Nicknaming screen inputs.
+*   **Nicknaming Efficiency:** Plan inputs for nicknames more carefully to reduce turns. Use 'Start' to confirm, not manual navigation to 'END'.
+*   **Pokédex Evaluation Correction:** Corrected notepad (not via PC).
+*   **WKG:** Manage diligently. Delete redundant nodes when found.
