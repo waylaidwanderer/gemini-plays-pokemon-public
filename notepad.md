@@ -32,12 +32,12 @@
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
 *   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12), prioritizing type advantages.
 
-## Pokémon Party & Log (Current as of Turn 1067):
-*   **SPARKY (PIKACHU):** Lv7 (5/25 HP, EXP: 466). THUNDERSHOCK (29 PP), GROWL (40 PP), QUICK ATTACK (27 PP).
-*   **NADEL (WEEDLE):** Lv4 (7/18 HP, EXP: 64). POISON STING (32 PP), STRING SHOT (40 PP). (Caught Viridian Forest, T870).
-*   **NIGHTSHADE (ODDISH):** Lv6 (12/23 HP, EXP: 179). TACKLE (35 PP), POISONPOWDER (35 PP). (Caught Viridian Forest, T922).
-*   **GOTTSAMER (CATERPIE):** Lv4 (18/18 HP, EXP: 64). TACKLE (35 PP), STRING SHOT (40 PP). (Caught Viridian Forest, T931).
-*   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 343). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (30 PP). (Caught Viridian Forest, T1014).
+## Pokémon Party & Log (Current as of Turn 1086):
+*   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 343). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (30 PP).
+*   **NADEL (WEEDLE):** Lv4 (7/18 HP, EXP: 64). POISON STING (32 PP), STRING SHOT (40 PP).
+*   **NIGHTSHADE (ODDISH):** Lv6 (12/23 HP, EXP: 179). TACKLE (35 PP), POISONPOWDER (35 PP).
+*   **GOTTSAMER (CATERPIE):** Lv4 (18/18 HP, EXP: 64). TACKLE (35 PP), STRING SHOT (40 PP).
+*   **SPARKY (PIKACHU):** Lv7 (5/25 HP, PSN, EXP: 466). THUNDERSHOCK (29 PP), GROWL (40 PP), QUICK ATTACK (27 PP).
 
 ## Items Obtained:
 *   **POKé BALL x7**
@@ -58,11 +58,12 @@
 *   **Warp Types:** 1x1 instant (move off/on to re-warp). Larger warps (2x1, 1x2) need 2 steps (onto warp, then into boundary).
 *   **Critical Game Mechanic:** ALWAYS press 'A' to clear dialogue/text BEFORE other inputs.
 *   **Ghost vs. Psychic:** Ghost-type moves are SUPER EFFECTIVE against Psychic.
-*   **Trust Game Data:** Trust `Reachable Unseen Tiles` list.
+*   **Trust Game Data:** Trust `Reachable Unseen Tiles` list. Game State is source of truth for levels, etc.
 *   **Failed Interaction Loops:** If an NPC/object interaction yields no progress after 2-3 varied attempts, a different trigger is likely needed. (Youngster Route 1 ~T350s, Viridian Forest Youngster T739-743).
 *   **Coordinate Misreads:** Double-check current coordinates from game state before planning movement.
 *   **DV Checking Tip:** Hold START while pressing A on a Pokémon's STATS screen to check DVs. (Old Man Viridian, T707).
-*   **Notepad `replace` Action:** `old_text` must be an *exact* match. Multiple failures (T996-1026) due to slight mismatches. If `replace` fails repeatedly, consider `overwrite` for the section or entire notepad.
+*   **Notepad `replace` Action:** `old_text` must be an *exact* match. If `replace` fails repeatedly, consider `overwrite` for the section or entire notepad.
+*   **Pokémon Switching Menu:** Selecting a Pokémon in the party list opens its action sub-menu (STATS, SWITCH, CANCEL). To switch, select 'SWITCH', then select the Pokémon to swap with from the party list. (Corrected T1068-T1085).
 
 ## Active Hypotheses / Things to Test:
 *   Can the `route_planner_agent` be improved for intra-map pathing with better prompting?
@@ -74,16 +75,14 @@
 
 ## Agent Definitions & Usage Log:
 *   **`battle_strategist_agent`**: Defined. Use for significant trainer battles.
-*   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. **(T1038 Update):** System prompt needs refinement for limitations.
+*   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. System prompt needs refinement for limitations.
 *   **`rom_hack_mechanic_analyzer_agent`**: Defined. Use for deducing new mechanics.
 *   **`level_cap_compliance_agent`**: Defined. Used T407 (all okay).
-*   **`wild_encounter_evaluator_agent`**: Defined. Used T929 (Caterpie - CATCH), T1012 (Kakuna - CATCH), T1031 (Pidgeotto - RUN), T1037 (Kakuna - FIGHT), T1063 (Oddish - RUN), T1065 (Oddish - RUN).
+*   **`wild_encounter_evaluator_agent`**: Defined. Used T929 (Caterpie - CATCH), T1012 (Kakuna - CATCH), T1031 (Pidgeotto - RUN), T1037 (Kakuna - FIGHT), T1063 (Oddish - RUN), T1065 (Oddish - RUN), T1067 (Caterpie - RUN), T1069 (Oddish - RUN).
 *   **`npc_dialogue_analyzer_agent`**: Defined. Low usage, consider more frequent application.
 *   **`pokedex_tracker_agent`**: Defined. Untested.
-*   **`hm_obstacle_identifier_agent`**: Defined. Untested.
 *   **`optimal_training_spot_agent`**: Defined. Untested.
-*   **(T1038 New) `exploration_optimizer_agent`**: To be defined. Suggests next exploration target.
-*   **(T1038 New) `item_reminder_agent`**: To be defined. Reminds about nearby uncollected items.
+*   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items.
 
 ## World Knowledge Graph Notes:
 *   **Critical:** Record inter-map transitions IMMEDIATELY using `manage_world_knowledge` upon map_id change.
@@ -95,5 +94,4 @@
 *   **Items:** Poké Ball found (2,32). Poké Ball at (13,30) - unreachable (noted from map sprites).
 *   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran).
 *   **Pathing Issues:** Difficulty navigating around Youngster at (17,44) and impassable tile (17,43). Impassable tree at (22,40).
-*   **Current Location:** (26,26). Navigation goal (26,26) reached. New navigation goal: explore unseen tile at (26,21).
-*   **Poison Damage Anomaly:** NADEL lost 5HP in 5 steps (T1053-T1058), not 1HP/4steps. SPARKY lost 1HP in 5 steps (T1058-T1062). Further observation needed.
+*   **Current Location:** (26,26). Navigation goal (26,21).
