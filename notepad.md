@@ -107,3 +107,5 @@
 *   **Objective:** Navigated to Viridian Forest South Gate warp.
 *   **Items:** Poké Ball at (14,55) - unreachable. Poké Ball at (14,46) - unreachable.
 *   **Encounters:** Vulpix (Lv5, ran).
+
+*   **Critical Hits:** Critical hits ignore the target's positive defensive stat changes (e.g., from Harden) and the attacker's negative offensive stat changes.
