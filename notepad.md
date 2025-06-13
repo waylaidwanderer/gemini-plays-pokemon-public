@@ -5,8 +5,8 @@
 *   **Rival Name:** Pixel
 *   **Current Badges:** 0 (Game State is Source of Truth)
 *   **Current Level Cap:** 12 (0 badges - Game State is Source of Truth)
-*   **Pokédex:** 10/151 (HM05 FLASH requirement met!)
-*   **Money:** ¥506 (Game State is Source of Truth)
+*   **Pokédex:** 11/151 (HM05 FLASH requirement met!)
+*   **Money:** ¥198 (Game State is Source of Truth)
 
 ## Core Game Rules & Mechanics (Notepad Quick Reference)
 ### Hard Mode Rules (Player-Only Restrictions):
@@ -36,14 +36,14 @@
 
 ## Current Objectives & Tactical Plans (HOW to achieve goals)
 *   **Boulder Badge Acquisition (Primary):**
-    1.  Explore Viridian Forest: collect items (e.g., item at (13,30)), battle trainers, and train party members (especially FURYFIST, NADEL) aiming for levels closer to the cap (12) before Brock. Prioritize type advantages (Fighting vs. Rock). Catch new Pokémon if encountered and not yet in Pokédex. Use `wild_encounter_evaluator_agent` for fight/run/catch decisions.
+    1.  Explore Viridian Forest: collect items (e.g., item at (13,30)), battle trainers, and train party members (especially NADEL, but manage HP) aiming for levels closer to the cap (12) before Brock. Prioritize type advantages (Fighting vs. Rock). Catch new Pokémon if encountered and not yet in Pokédex (conserve Poké Balls).
     2.  Navigate through Viridian Forest North Gate to Route 2 (North).
     3.  Proceed to Pewter City.
     4.  Re-challenge Jr. Trainer M in Pewter Gym.
     5.  Re-challenge Brock. If battle is difficult, consult `team_composition_advisor_agent` and `battle_strategist_agent`.
 *   **Travel to Pewter City (Secondary):** Achieved via steps for primary goal.
-*   **Resource Acquisition & FURYFIST Revival (Tertiary):** Revive and train FURYFIST for Brock. Acquire more Poké Balls (currently 1). Explore remaining unseen areas in Viridian Forest.
-*   **Item Collection & Unseen Area Exploration (Viridian Forest - (13,30) and nearby):** Actively pursuing item at (13,30) and exploring reachable unseen tiles in this area (e.g., (13,25-28)). This is important for potential Poké Ball acquisition.
+*   **Resource Acquisition & FURYFIST Revival (Tertiary):** Acquire more Poké Balls (currently 1, item at (13,30) is a priority). Explore remaining unseen areas in Viridian Forest. Revive FURYFIST at the next opportunity (Pewter City Pokémon Center).
+*   **Item Collection & Unseen Area Exploration (Viridian Forest - (13,30) and nearby (13,25-28)):** Actively pursuing item at (13,30) and exploring reachable unseen tiles in this area. This is important for potential Poké Ball acquisition and map completion.
 
 ## Lessons Learned, Game Mechanics & Insights
 *   **Tile Types:** `ground`, `impassable`, `grass`, `ledge` (jump Y+2, impassable from Y+1 below), `cuttable`.
@@ -63,8 +63,7 @@
 *   **Pokémon Switching Menu (Battle):**
     1.  **To Switch OUT Active Pokémon:** From main battle menu, select 'PKMN'. The active Pokémon's sub-menu appears (or select active Pokémon if party list shows first). 'SWITCH' is usually the default. Press 'A'. This takes you to the party list to select the Pokémon to switch IN. Select desired Pokémon, press 'A'.
     2.  **To Switch IN a Benched Pokémon (if active Pokémon is *not* being switched out, e.g. after a faint):** From main battle menu, select 'PKMN'. Navigate to desired Pokémon in party list. Press 'A' to open its sub-menu. 'SWITCH' should be highlighted. Press 'A' to confirm.
-    (Clarified after RATTATA battle menu confusion T2660-T2690 & T2703 reflection).
-*   **Pathing Precision:** Analyze map memory/screen carefully, especially near ledges/complex terrain. Trust map memory for tile types.
+*   **Pathing Precision:** Analyze map memory/screen carefully, especially near ledges/complex terrain. Trust map memory for tile types. Be aware of impassable blocks.
 *   **Pokédex Evaluation:** Professor Oak or aides evaluate in person (not via PC, corrected from Viridian Forest sign).
 *   **Battle Risk Assessment:** Balance "less cautious" guideline with resource conservation.
 *   **WKG Tool Usage:** Single `manage_world_knowledge` call per operation. Record transitions IMMEDIATELY.
@@ -74,9 +73,10 @@
 *   **Map Markers (T2341, T2380):** Be consistent in marking ALL significant map features (used warps, key NPCs, obstacles, items obtained, key signs, etc.) that aid future navigation or recall. Example: Mark sign at (19,46) in Viridian Forest.
 *   **EXP Update (Turn 2803):** NADEL (Lv4 WEEDLE) grew to Lv5 (HP: 20/20, ATK: 9, DEF: 9, SPD: 7, SPC: 7) after defeating a wild WEEDLE. GOTTSAMER (Lv9 METAPOD) also gained 14 EXP from this battle.
 *   **Battle Anomaly (Turn 2787-2789):** Wild WEEDLE battle with SPARKY active ended inconclusively (no EXP gain after 'Up' input registered post-battle).
-*   **System Warning (Turn 2788, T2806):** Received reminders to make longer movement sequences.
-*   **EXP Update (Turn 2820, Wild Lv6 METAPOD):** NADEL (Lv5 WEEDLE) gained 30 EXP, grew to Lv5 (HP: 20/20, ATK: 9, DEF: 9, SPD: 7, SPC: 7). GOTTSAMER (Lv9 METAPOD) gained 30 EXP.
+*   **System Warning (Turn 2788, T2806, T2821):** Received reminders to make longer movement sequences.
+*   **EXP Update (Turn 2820, Wild Lv6 METAPOD):** NADEL (Lv5 WEEDLE) gained 30 EXP (HP: 20/20 -> 17/20 after battle). GOTTSAMER (Lv9 METAPOD) gained 30 EXP.
 *   **Type Matchup Anomaly (Turn 2816, 2817, 2820):** Game displayed POISON STING (Poison) as "super effective" against wild METAPOD (Bug/Poison). Standard typing is NVE. This might be a ROM hack change or display error. Continue to observe.
+*   **EXP Update (Turn 2849, Wild Lv4 WEEDLE):** NADEL (Lv5 WEEDLE) gained 14 EXP (HP: 6/20). GOTTSAMER (Lv9 METAPOD) gained 14 EXP (HP: 16/29).
 
 ## Defeated Trainers Log
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
@@ -84,6 +84,7 @@
 *   Viridian Forest (ID 51) - (28,20) - Youngster (Bug Catcher sprite, VIRIDIANFOREST_YOUNGSTER3)
 *   Viridian Forest (ID 51) - (28,34) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER2)
 *   Viridian Forest (ID 51) - (14,18) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER5)
+*   Viridian Forest (ID 51) - (3,19) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER4)
 
 ## Agent Management (9 Active Agents)
 *   **`battle_strategist_agent`**: Analyzes battle data for optimal moves/switches.
@@ -94,28 +95,22 @@
 *   **`item_reminder_agent`**: Reminds about nearby uncollected items.
 *   **`map_analyzer_agent`**: Identifies strategic points on current map. (Code-enabled)
 *   **`team_composition_advisor_agent`**: Recommends teams for major battles. (Code-enabled) (Test before Brock).
-*   **`pokedex_completion_strategist_agent`**: Suggests areas for Pokédex completion. (Code-enabled) (Failed T2324, requires review/debugging).
-    *   **Agent Development Plan (Updated T2522):**
+*   **`pokedex_completion_strategist_agent`**: Suggests areas for Pokédex completion. (Code-enabled) (System prompt updated T2807. Monitor effectiveness).
+    *   **Agent Development Plan (Updated T2851):**
     1.  **COMPLETED (T2442):** Input schemas for ALL code-enabled agents reviewed.
-    2.  **High Priority:** Review `pokedex_completion_strategist_agent` (failed T2324). Decide whether to debug, remove, or update notepad entry based on feasibility.
+    2.  **High Priority:** Review `pokedex_completion_strategist_agent` (failed T2324, system prompt updated T2807). Decide whether to debug, remove, or update notepad entry based on feasibility and future performance.
     3.  **High Priority (Pewter City):** Test `team_composition_advisor_agent` before challenging Brock.
     4.  Review `wild_encounter_evaluator_agent` logic for balancing EXP gain vs. progression speed.
-    5.  Review `route_planner_agent` system prompt to emphasize its experimental nature for complex paths.
+    5.  Review `route_planner_agent` system prompt to emphasize its experimental nature for complex paths and how it should handle obstacles.
     6.  Review and potentially update the `battle_strategist_agent`'s system prompt to better consider Pokémon survivability under Hard Mode rules.
-    7.  **New Task:** Test `progression_advisor_agent` (created T2510) soon to evaluate its effectiveness.
-    8.  Note: Max 10 agents. Periodically review if all are providing value.
+    7.  Note: Max 10 agents. Periodically review if all are providing value.
 
 ## Archived Plans & Hypotheses (Summarized)
 *   **Route 2 (South) - HM Flash Aide Search (Turns ~1988-2002):** Pathing attempts to warp at (4,44) from southern Route 2 failed due to map layout (trees/ledges). Pivoted to Viridian City exploration.
 *   **Viridian City Exploration (Turns ~2004-2324):** Explored southern part. Path to northern unseen tiles blocked by Y=10 ledge. Old Man (Gambler1) at (31,9) became inaccessible after being forced down Y=10 ledge post-Gym interaction (T2325). Gym locked. Exploration of Viridian City deemed complete for now.
-*   **Viridian Forest NPC Notes (Turn 2205+):** Youngster 6 (VIRIDIANFOREST_YOUNGSTER6) at (28,41) gave Poké Ball tip, no battle.
-
-*   Viridian Forest (ID 51) - (3,19) - Bug Catcher (Youngster sprite, VIRIDIANFOREST_YOUNGSTER4)
-
+*   **Viridian Forest NPC Notes (Turn 2205+):** Youngster 6 (VIRIDIANFOREST_YOUNGSTER6) at (28,41) gave Poké Ball tip, no battle. (Re-interacted T2806, same tip).
 *   **Viridian Forest North Gate NPC Notes (Turn 2467-2468):** Super Nerd (VIRIDIANFORESTNORTHGATE_SUPER_NERD) at (4,3) gave a tip about Pokémon in forests/caves, no battle. Gramps (VIRIDIANFORESTNORTHGATE_GRAMPS) at (3,6) gave a tip about Cut, no battle.
-
 *   **Battle Flexibility:** When a Pokémon's HP becomes critical, reassess the current battle plan (even if agent-generated) and consider defensive switches or alternative moves to prioritize survivability, especially under Hard Mode rules.
-
 *   **Pewter City NPC Notes:** Cool Trainer M (PEWTERCITY_COOLTRAINER_M) at (18,26) says Brock is a serious trainer, unlike Bug Catchers. (Non-battling)
 
 ## Current Major Unresolved Issues (as of Turn 2562)
@@ -133,7 +128,4 @@
 
 ## Non-Battling NPC Interactions Log
 *   Viridian Forest (ID 51) - (17,44) - Youngster (VIRIDIANFOREST_YOUNGSTER1) - Dialogue: "I came here with some friends! They're out for POKéMON fights!" - No battle.
-
-*   **Encounter Notes (Turn 2787-2789):** Wild WEEDLE battle with SPARKY active (T2787) ended inconclusively without EXP gain when an Up input was registered post-battle. Subsequently encountered another wild Lv4 WEEDLE (T2789) while moving towards Youngster at (28,41). System warning received to make longer movement sequences (T2788).
-
-*   **Viridian Forest NPC Notes (Turn 2806):** Youngster (VIRIDIANFOREST_YOUNGSTER6) at (28,41) gave a tip: "I ran out of POKé BALLs to catch POKéMON with! You should carry extras!" - No battle.
+*   Viridian Forest (ID 51) - (28,41) - Youngster (VIRIDIANFOREST_YOUNGSTER6) - Dialogue: "I ran out of POKé BALLs to catch POKéMON with! You should carry extras!" - No battle (Confirmed T2806).
