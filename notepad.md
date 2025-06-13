@@ -66,11 +66,10 @@
 
 ## Active Hypotheses / Things to Test:
 *   Is the `route_planner_agent`'s current performance for intra-map pathing sufficient, or does its system prompt need refinement for complex obstacles like ledges? Evaluate after more uses. (Critique T1260 - still relevant)
-*   Are there specific conditions to trigger battles with certain NPCs who initially only offer dialogue (e.g., Youngster in Viridian Forest at (17,44))?
-*   Test `optimal_training_spot_agent` ASAP in Viridian Forest to find better training areas. (Critique T1231 & T1260 - Action this!)
+*   Test `optimal_training_spot_agent` in a safe area (e.g., near a Pokémon Center) to find better training areas once party is healed. (Critique T1231 & T1260 - Action this!)
 *   Increase usage of `npc_dialogue_analyzer_agent` with new NPC dialogue, especially trainers. (Critique T1231)
 *   Test `item_reminder_agent` when near known uncollected items. (Critique T1231)
-*   Test `map_analyzer_agent` in Viridian Forest. (Critique T1260 - Action this!)
+*   Test `map_analyzer_agent` in new areas or when objectives change. (Critique T1260 - Action this!)
 
 ## Defeated Trainers:
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
@@ -78,18 +77,16 @@
 *   Viridian Forest (ID 51) - (28,20) - Youngster (Bug Catcher sprite)
 *   Viridian Forest (ID 51) - (28,34) - Bug Catcher (Youngster sprite)
 
-## Agent Definitions & Usage Log:
+## Agent Definitions & Usage Log (8 Active Agents):
 *   **`battle_strategist_agent`**: Defined. Use for significant trainer battles. (Called T1109, T1113).
 *   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. System prompt needs refinement for limitations. (Called T1198 for Route 2, T1211 for VF South Gate, T1213 for VF, T1225 for VF, T1233 for VF, T1254 for VF). (Critique T1260 - Be cautious with ledges).
-*   **`rom_hack_mechanic_analyzer_agent`**: Defined. Use for deducing new mechanics.
 *   **`level_cap_compliance_agent`**: Defined. Used T407 (all okay).
 *   **`wild_encounter_evaluator_agent`**: Defined. Used T929, T1012, T1031, T1037, T1063, T1065, T1067, T1069, T1088, T1090, T1092, T1219, T1223, T1226 (ran), T1234 (ran), T1236 (fight), T1258 (fight). Note: While useful, balance its EXP recommendations with battle efficiency and resource cost (Critique T1231 & T1260).
 *   **`npc_dialogue_analyzer_agent`**: Defined. Low usage, consider more frequent application.
-*   **`pokedex_tracker_agent`**: Defined. Untested.
 *   **`optimal_training_spot_agent`**: Defined. Untested. (Critique T1260 - Test ASAP!)
 *   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items. Untested.
 *   **`map_analyzer_agent`**: Defined (T1261). Untested. (Critique T1260 - Test ASAP!)
-*   **`rom_hack_change_tracker_agent`**: Defined (T1291). Untested.
+*Note: `pokedex_tracker_agent` was deleted. `rom_hack_mechanic_analyzer_agent` and `rom_hack_change_tracker_agent` were not found in available tools and assumed inactive.*
 
 ## World Knowledge Graph Notes:
 *   **Critical:** Record inter-map transitions IMMEDIATELY using `manage_world_knowledge` upon map_id change.
