@@ -175,3 +175,10 @@
 - **Turn 2393:** SPROUT defeated wild MANKEY Lv4 (EXP +21 to 407). SPROUT HP now 20/27. SPARKY (lead, capped Lv12) gained no actual EXP (EXP message: +21 EXP, but actual EXP 1728 unchanged).
 
 - **Turn 2408:** SPROUT defeated wild NIDORAN♂ Lv4 (grew to Lv9, EXP +17 to 424). SPROUT HP now 19/29. SPARKY (lead, capped Lv12) gained no actual EXP (EXP message: +17 EXP, but actual EXP 1728 unchanged).
+
+## VIII. Reflection Notes (Turn 2416)
+- **Agent Development Ideas Update:** Added 'Team Composition Advisor Agent' (medium priority) and 'EXP Farming Route Agent' (medium priority) to IV.C.
+- **Agent Usage Note:** Consider using `battle_strategist_agent` more actively for challenging fights (added to IV.B).
+- **Agent Prompt Reinforcement:** Reinforced notes in IV.B regarding prompt updates for `pathfinding_agent`, `exploration_helper_agent`, `wkg_transition_recorder_agent`, and the general review for code-enabled agents' auto-provided variables.
+- **New Map Markers:** Ledge at Route 22 (34,8) and Sign at Route 22 (8,12) will be marked.
+- **Lessons Learned Update:** Added notes to V.A about Route 22 ledge navigation strategy and being careful with notepad `old_text` for `replace` actions.
