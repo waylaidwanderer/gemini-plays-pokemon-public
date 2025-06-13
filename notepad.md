@@ -28,12 +28,12 @@
 *   EXP. All obtainable.
 
 ## Current Objectives & Plans (HOW to achieve goals):
-*   **Path to Pewter City for Boulder Badge:** Navigate Viridian Forest, exploring to find its North Gate. Continue on Route 2 (north section) from there to reach Pewter City.
+*   **Heal Critically Injured Party:** Retreat from Viridian Forest to Viridian City Pokémon Center. Switch GOTTSAMER to lead for the journey south.
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
-*   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12), prioritizing type advantages.
+*   **Pewter Gym Preparation (Paused):** Upon reaching Pewter City (after healing), identify Gym type, Leader's Pokémon/levels. Train team to cap (12), prioritizing type advantages.
 
-## Pokémon Party & Log (Current as of Turn 1086):
-*   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 343). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (30 PP).
+## Pokémon Party & Log (Current as of Turn 1094):
+*   **AEGIS (KAKUNA):** Lv7 (2/24 HP, EXP: 343). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (30 PP).
 *   **NADEL (WEEDLE):** Lv4 (7/18 HP, EXP: 64). POISON STING (32 PP), STRING SHOT (40 PP).
 *   **NIGHTSHADE (ODDISH):** Lv6 (12/23 HP, EXP: 179). TACKLE (35 PP), POISONPOWDER (35 PP).
 *   **GOTTSAMER (CATERPIE):** Lv4 (18/18 HP, EXP: 64). TACKLE (35 PP), STRING SHOT (40 PP).
@@ -63,7 +63,7 @@
 *   **Coordinate Misreads:** Double-check current coordinates from game state before planning movement.
 *   **DV Checking Tip:** Hold START while pressing A on a Pokémon's STATS screen to check DVs. (Old Man Viridian, T707).
 *   **Notepad `replace` Action:** `old_text` must be an *exact* match. If `replace` fails repeatedly, consider `overwrite` for the section or entire notepad.
-*   **Pokémon Switching Menu:** Selecting a Pokémon in the party list opens its action sub-menu (STATS, SWITCH, CANCEL). To switch, select 'SWITCH', then select the Pokémon to swap with from the party list. (Corrected T1068-T1085).
+*   **Pokémon Switching Menu (Corrected T1068-T1085):** Selecting a Pokémon in the party list opens its action sub-menu (STATS, SWITCH, CANCEL). To switch: select 'SWITCH', then select the Pokémon to swap with from the party list. Press 'A' on target, then 'A' on 'SWITCH', then navigate to other Pokémon and 'A' to confirm.
 
 ## Active Hypotheses / Things to Test:
 *   Can the `route_planner_agent` be improved for intra-map pathing with better prompting?
@@ -78,20 +78,21 @@
 *   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. System prompt needs refinement for limitations.
 *   **`rom_hack_mechanic_analyzer_agent`**: Defined. Use for deducing new mechanics.
 *   **`level_cap_compliance_agent`**: Defined. Used T407 (all okay).
-*   **`wild_encounter_evaluator_agent`**: Defined. Used T929 (Caterpie - CATCH), T1012 (Kakuna - CATCH), T1031 (Pidgeotto - RUN), T1037 (Kakuna - FIGHT), T1063 (Oddish - RUN), T1065 (Oddish - RUN), T1067 (Caterpie - RUN), T1069 (Oddish - RUN).
+*   **`wild_encounter_evaluator_agent`**: Defined. Used T929, T1012, T1031, T1037, T1063, T1065, T1067, T1069, T1088 (PIDGEY - RUN).
 *   **`npc_dialogue_analyzer_agent`**: Defined. Low usage, consider more frequent application.
 *   **`pokedex_tracker_agent`**: Defined. Untested.
 *   **`optimal_training_spot_agent`**: Defined. Untested.
-*   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items.
+*   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items. Tested implicitly when map sprites are checked.
+*   **`hm_obstacle_identifier_agent`**: DELETED (Turn 1086, unused).
 
 ## World Knowledge Graph Notes:
 *   **Critical:** Record inter-map transitions IMMEDIATELY using `manage_world_knowledge` upon map_id change.
 
 ## Area Notes:
 ### Viridian Forest (ID 51) - Current Area
-*   **Objective:** Find North Gate to Route 2 (North).
-*   **Key NPCs:** Youngster (17,44) - non-battling so far. Lass (3,42) - defeated. Youngster (31,34) - unencountered. Youngster (28,41) - unencountered.
+*   **Objective:** Retreat south to Viridian City Pokémon Center for healing.
+*   **Key NPCs:** Youngster (17,44) - non-battling so far (marked). Lass (3,42) - defeated (marked). Youngster (31,34) - unencountered. Youngster (28,41) - unencountered. Youngster (31,20) - unencountered.
 *   **Items:** Poké Ball found (2,32). Poké Ball at (13,30) - unreachable (noted from map sprites).
-*   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran).
-*   **Pathing Issues:** Difficulty navigating around Youngster at (17,44) and impassable tile (17,43). Impassable tree at (22,40).
-*   **Current Location:** (26,26). Navigation goal (26,21).
+*   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran), Pidgey (Lv7, ran).
+*   **Encounter Log (Turn 1088-1094):** At (26,24), encountered Lv7 PIDGEY. AEGIS led. Failed to run twice; AEGIS took 2 GUST hits (HP to 2/24). Successfully ran on 3rd attempt.
+*   **Current Location:** (26,24). Immediate plan: Switch GOTTSAMER to lead, then navigate to south exit warp at (17,48).
