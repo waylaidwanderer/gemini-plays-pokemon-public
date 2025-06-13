@@ -103,3 +103,5 @@
 *   Received OAK'S PARCEL from the shopkeeper!
 *   Task: Deliver OAK'S PARCEL to Prof. Oak in Pallet Town.
 *   Immediate plan: Buy Poké Balls.
+
+*   SPARKY (Pikachu): Lv6, 268 EXP (+15 vs Wild Pidgey Lv2, Route 1 (12,33), Turn 500). THUNDERSHOCK PP: 29/30.
