@@ -1,5 +1,3 @@
-# Pokémon Yellow Legacy - Hard Mode Notes - Gem
-
 ## Game Info
 *   **Player Name:** Gem
 *   **Rival Name:** Pixel
@@ -29,19 +27,19 @@
 
 ## Current Objectives & Plans (HOW to achieve goals):
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
-*   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12) by battling trainers on Route 2 (North) and Diglett's Cave if accessible/appropriate. Prioritize type advantages.
+*   **HM05 FLASH Acquisition:** Catch 2 more unique Pokémon species (total 10 in Pokédex). Then, travel to Route 2 (North of Viridian City, through Viridian Forest) to find Professor Oak's Aide who gives HM05 FLASH. Explore Route 22 for potential new catches.
 *   **Agent Testing Plan:** After healing the party in Viridian City, systematically test `map_analyzer_agent`, `item_reminder_agent`, and `optimal_training_spot_agent` in Viridian City or on Route 2. (Partially completed)
 
-## Pokémon Party & Log (Current as of Turn 1714):
+## Pokémon Party & Log (Current as of Turn 1734):
 *   **GOTTSAMER (METAPOD):** Lv7 (23/25 HP, EXP: 412). ATK 10, DEF 11, SPD 11, SPC 9. TACKLE (35 PP), STRING SHOT (40 PP), HARDEN (30 PP)
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP)
 *   **NIGHTSHADE (ODDISH):** Lv8 (28/28 HP, EXP: 397). TACKLE (35 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
 *   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 462). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (30 PP)
 *   **SPARKY (PIKACHU):** Lv8 (27/27 HP, EXP: 594). THUNDERSHOCK (30 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (19 PP)
-*   **FURYFIST (MANKEY):** Lv4 (New catch, will be sent to PC).
+*   **FURYFIST (MANKEY):** Lv4 (17/17 HP, EXP: 64). SCRATCH (35 PP), LEER (30 PP)
 
 ## Items Obtained:
-*   **POKé BALL x6**
+*   **POKé BALL x5**
 *   **OAK'S PARCEL:** Delivered to Prof. Oak (Turn 524).
 *   **POKéDEX:** Received from Prof. Oak (Turn 529).
 
@@ -66,9 +64,9 @@
 *   Pokémon Switching Menu (Corrected T1068-T1085): Selecting a Pokémon in the party list opens its action sub-menu (STATS, SWITCH, CANCEL). To switch: select 'SWITCH', then select the Pokémon to swap with from the party list. Press 'A' on target, then 'A' on 'SWITCH', then navigate to other Pokémon and 'A' to confirm.
 *   Battle Efficiency (Critique T1231 & T1260): Avoid prolonged battles with highly defensive Pokémon (e.g., Harden-spamming Metapod) or very low-level Pokémon if they offer low EXP for the time/PP invested. Balance agent recommendations (like `wild_encounter_evaluator_agent`) with own judgment on resource cost and battle efficiency. Prioritize trainer battles for EXP.
 *   Cautious Pathing Under Duress (Critique T1535 & T1540): When a Pokémon is critically injured and poisoned, pathing decisions must prioritize avoiding all optional engagements, even if it means a slightly longer route. The risk of being forced into a battle outweighs the minor time save of a more direct, but dangerous, path. (Failed to avoid VIRIDIANFOREST_YOUNGSTER5 at (14,18) on Turn 1519).
-*   Escape Mechanics (Learned T1553-1555, T1573-1579): Escape chance depends on lead Pokémon's Speed vs. wild's Speed. If Speed >= wild's, escape is guaranteed. If lower, chance increases with attempts. If escape is critical, lead with fastest available Pokémon that can survive a hit.
-*   WKG Tool Usage: Multi-step tool chains requiring output from a previous tool in the *same turn* (e.g., `tools_results.0.node_id`) are not supported. Break these into sequential, single operations per turn. (Learned T1584-1588).
-*   Battle Menu Navigation (Critique T1709): If manual menu navigation fails repeatedly, use `select_battle_option` tool sooner.
+*   Escape Mechanics (Learned T1553-T1555, T1573-T1579): Escape chance depends on lead Pokémon's Speed vs. wild's Speed. If Speed >= wild's, escape is guaranteed. If lower, chance increases with attempts. If escape is critical, lead with fastest available Pokémon that can survive a hit.
+*   WKG Tool Usage: Multi-step tool chains requiring output from a previous tool in the *same turn* (e.g., `tools_results.0.node_id`) are not supported. Break these into sequential, single operations per turn. (Learned T1584-T1588).
+*   Battle Menu Confusion (Critique T1709): If manual menu navigation fails repeatedly, use `select_battle_option` tool sooner.
 
 ## Defeated Trainers:
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
@@ -81,7 +79,7 @@
 *   **`battle_strategist_agent`**: Defined. Use for significant trainer battles.
 *   **`route_planner_agent`**: Defined. Observation (T542): Failed intra-map on Route 1. System prompt needs refinement for limitations. (Used frequently for Viridian Forest exit T1582).
 *   **`level_cap_compliance_agent`**: Defined. Used T407. **Note:** Use more frequently after level-ups/before bosses.
-*   **`wild_encounter_evaluator_agent`**: Defined. Used frequently (Mankey T1648). Note: Balance its EXP recommendations with battle efficiency and resource cost.
+*   **`wild_encounter_evaluator_agent`**: Defined. Used frequently (Mankey T1648, T1697). Note: Balance its EXP recommendations with battle efficiency and resource cost.
 *   **`npc_dialogue_analyzer_agent`**: Defined. Low usage. **Note:** Evaluate utility further; consider deletion if not useful.
 *   **`optimal_training_spot_agent`**: Defined. Tested T1610.
 *   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items. Tested T1610.
@@ -95,7 +93,7 @@
 ## Area Notes:
 ### Route 22 (ID 33) - Current Area
 *   **Objective:** Catch new Pokémon. Explore.
-*   **Current Location:** (31,10) (Turn 1714, in battle nicknaming Mankey).
+*   **Current Location:** (31,10) (Turn 1734, after catching Mankey).
 *   **Items:** None found.
 *   **Encounters:** FURYFIST (MANKEY) (Lv4, caught T1697).
 *   **Pokédex Evaluation:** Contact PROF.OAK via PC to get your POKéDEX evaluated (Sign in Viridian Forest at (27,18)).
