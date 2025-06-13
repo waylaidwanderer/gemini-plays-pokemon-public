@@ -112,6 +112,4 @@
 *   Game state still confirms **NO BADGES HELD**. Level cap remains 12.
 *   Money reduced to ¥198.
 *   Critical Priority: Heal party, travel back to Pewter City, re-challenge Brock for Boulder Badge.
-*   Jr. Trainer M in Pewter Gym (who defeated me) is NOT defeated.
-
 *   Jr. Trainer M in Pewter Gym (who defeated me, causing blackout) is NOT defeated.
