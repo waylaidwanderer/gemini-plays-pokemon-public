@@ -19,12 +19,7 @@
 - PIP (PIDGEY): Lv9 -> Needs training.
 - SPARKY (PIKACHU): At cap, less effective vs Brock.
 
-### E. Active Goals (for planning reference - Turn 2574)
-- **Primary Goal:** Defeat Brock and earn the Boulder Badge.
-- **Secondary Goal:** Train SPROUT and PIP on Route 22 to prepare for Brock.
-- **Tertiary Goal (Current Reflection Cycle):** Systematically review and action all pending notepad tasks (consolidation, agent prompt fixes, map markers) and improve notepad management practices.
-- **Tertiary Goal (Gameplay - Post-Reflection):** Earn money for Potions and Poké Balls while training.
-- *Archived Tertiary Goal (Route 22 exploration): To be reviewed/deleted later, as Route 22 exploration is largely complete for now.*
+<!-- Goals section removed as per system guidance. Goals are tracked in the response structure. -->
 
 ## II. Game Mechanics & Rules
 
