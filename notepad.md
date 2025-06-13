@@ -42,7 +42,7 @@
     *   **NPC Interaction Strategy:** Interact with any unencountered NPCs or re-interact with previously met NPCs to check for new dialogue due to increased Pokédex count.
 
 ## Pokémon Party & Status (As of Turn 2199)
-*   **GOTTSAMER (METAPOD):** Lv8 (14/27 HP, PSN, EXP: 523). TACKLE (31 PP), STRING SHOT (40 PP), HARDEN (30 PP)
+*   **GOTTSAMER (METAPOD):** Lv8 (13/27 HP, PSN, EXP: 523). TACKLE (31 PP), STRING SHOT (40 PP), HARDEN (30 PP)
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP)
 *   **NIGHTSHADE (ODDISH):** Lv9 (24/30 HP, EXP: 430). TACKLE (32 PP), POISONPOWDER (35 PP), LEECH SEED (10 PP)
 *   **AEGIS (KAKUNA):** Lv7 (15/24 HP, EXP: 489). POISON STING (30 PP), STRING SHOT (40 PP), HARDEN (30 PP)
