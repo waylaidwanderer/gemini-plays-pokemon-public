@@ -94,7 +94,7 @@
 *   **`item_reminder_agent`**: Reminds about nearby uncollected items.
 *   **`map_analyzer_agent`**: Identifies strategic points on current map. (Code-enabled)
 *   **`team_composition_advisor_agent`**: Recommends teams for major battles. (Code-enabled)
-*   **Agent Development Plan:** Review system prompts for code-enabled agents after obtaining HM Flash to ensure optimal use of auto-provided variables. Consider `Pokédex Completion Strategist` or `HM Usage Advisor` if a slot is needed and `npc_dialogue_analyzer_agent` is deleted.
+*   **Agent Development Plan:** Review system prompts for code-enabled agents after obtaining HM Flash to ensure optimal use of auto-provided variables. Created `pokedex_completion_strategist_agent`. Deleted `npc_dialogue_analyzer_agent` (low usage). Will consider creating `HM Usage Advisor` later if a slot is needed and HMs become relevant.
 
 ## Archived Plans & Hypotheses
 ### Route 2 (South) - HM Flash Aide Search (Turns ~1988-2002)
