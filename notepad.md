@@ -305,3 +305,7 @@
 (Appended under Section I.A. Pokémon Party - Turn 2551)
 - PIP (PIDGEY): Lv9 (21/27 HP, EXP: 523) | Moves: GUST (18 PP), SAND-ATTACK (15 PP)
 - Note: SPARKY gained +12 EXP (visual only, actual EXP 1728 unchanged) from NIDORAN♀ Lv3 battle.
+
+## XII. Notepad Maintenance Tasks (Critique Turn 2551)
+- Consolidate duplicated sections (e.g., 'Post-Brock Task List', 'Pre-Brock Agent Review & Fixes') into single, coherent sections.
+- Prioritize finding a reliable method to view full notepad content to enable accurate `replace` actions (e.g., if a 'read_notepad' tool becomes available or by careful manual reconstruction if necessary).
