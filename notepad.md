@@ -10,7 +10,7 @@
 ### B. Financial Status
 - Money: ¥296
 
-### C. Current Location & Immediate Objective (Turn 2301)
+### C. Current Location & Immediate Objective (Turn 2302)
 - Location: Route 22 (ID: 33), at (32,12).
 - Immediate Objective: Explore unseen tiles on Route 22 and train SPROUT and PIP.
 
