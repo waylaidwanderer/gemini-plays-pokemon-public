@@ -105,3 +105,11 @@
 *   **No Boulder Badge:** Game State consistently shows 'None' for badges after the battle with Brock. This means the level cap is still 12. Must re-investigate and likely re-challenge Brock.
 *   **Pewter City Pokémon Center Entry Saga:** Repeated attempts (at least 12 noted via system warnings and my own count of ~5 distinct failed hypotheses from T2530-T2539) to enter the Pewter Pokémon Center at (19,23)/(19,24) have failed. The exact warp mechanic for this 2x1 mat is not understood.
 *   **Potion on Fainted Pokémon:** Confirmed Potions do not revive fainted Pokémon (attempted on NIGHTSHADE in Pewter Mart, T2561). Need Revives or Pokémon Center access.
+
+## Post-Blackout Update (Turn 2641 - Viridian City)
+*   Blacked out after NADEL fainted to Jr. Trainer M's SANDSHREW in Pewter Gym. All 6 Pokémon fainted.
+*   Respawned at Viridian City Pokémon Center (24,27).
+*   Game state still confirms **NO BADGES HELD**. Level cap remains 12.
+*   Money reduced to ¥198.
+*   Critical Priority: Heal party, travel back to Pewter City, re-challenge Brock for Boulder Badge.
+*   Jr. Trainer M in Pewter Gym (who defeated me) is NOT defeated.
