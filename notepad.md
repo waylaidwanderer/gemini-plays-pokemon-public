@@ -80,7 +80,7 @@
 *   **`pokedex_completion_strategist_agent`**: Suggests areas for Pokédex completion. (Code-enabled) (Failed T2324, requires review/debugging).
     *   **Agent Development Plan (Updated T2442):**
     1.  **COMPLETED (T2442):** Input schemas for ALL code-enabled agents (`route_planner_agent`, `optimal_training_spot_agent`, `map_analyzer_agent`, `team_composition_advisor_agent`, `pokedex_completion_strategist_agent`) reviewed. They correctly access auto-provided variables (`map_xml_string`, `world_knowledge_graph_json_string`) from their environment and are not expecting them as direct input parameters.
-    2.  Prioritize testing/debugging `pokedex_completion_strategist_agent` (failed T2324).
+    2.  Review `pokedex_completion_strategist_agent` (failed T2324); if debugging is not feasible soon, consider deleting to free up an agent slot.
     3.  Test `team_composition_advisor_agent` before Brock.
     4.  Review `wild_encounter_evaluator_agent` logic for balancing EXP gain vs. progression speed.
     5.  Review `route_planner_agent` system prompt to emphasize its experimental nature for complex paths.
