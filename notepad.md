@@ -31,12 +31,12 @@
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
 *   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12) by battling trainers in Viridian Forest and on Route 2. Prioritize type advantages. Scout for Rock-type counters if needed.
 
-## Pokémon Party & Log (Current as of Turn 1441):
+## Pokémon Party & Log (Current as of Turn 1479):
 *   **GOTTSAMER (CATERPIE):** Lv6 (22/22 HP, EXP: 300). TACKLE (21 PP), STRING SHOT (40 PP).
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP).
-*   **NIGHTSHADE (ODDISH):** Lv8 (10/28 HP, EXP: 352). TACKLE (24 PP), POISONPOWDER (34 PP), LEECH SEED (10 PP).
-*   **AEGIS (KAKUNA):** Lv7 (9/24 HP, EXP: 462). POISON STING (25 PP), STRING SHOT (40 PP), HARDEN (30 PP).
-*   **SPARKY (PIKACHU):** Lv8 (10/27 HP, EXP: 594). THUNDERSHOCK (23 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP).
+*   **NIGHTSHADE (ODDISH):** Lv8 (10/28 HP, EXP: 352, POISONED - check). TACKLE (24 PP), POISONPOWDER (34 PP), LEECH SEED (10 PP).
+*   **AEGIS (KAKUNA):** Lv7 (9/24 HP, EXP: 462, POISONED - check). POISON STING (25 PP), STRING SHOT (40 PP), HARDEN (30 PP).
+*   **SPARKY (PIKACHU):** Lv8 (8/27 HP, EXP: 594, POISONED). THUNDERSHOCK (23 PP), GROWL (40 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP).
 
 ## Items Obtained:
 *   **POKé BALL x7**
