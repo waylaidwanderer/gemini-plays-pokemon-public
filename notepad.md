@@ -77,7 +77,7 @@
 *   Ensure to add nodes/edges for Viridian City to Route 1 South, Viridian Pokemon Center, Viridian Mart, and Route 1 South to Pallet Town North.
 
 ## Past Area Notes:
-*   **Route 1 (ID 12):** Exited at (12,1) (to Viridian) and (12,36) (to Pallet). Wild: Pidgey, Rattata. Trainers: Youngster (Sprite ID 1) at (6,27), Youngster (Sprite ID 2) at (15,14) (unfought). Sign at (10,28).
+*   **Route 1 (ID 12):** Exited at (12,1) (to Viridian) and (12,36) (to Pallet). Wild: Pidgey, Rattata. Trainers: Youngster (Sprite ID 1) at (6,27), Youngster (Sprite ID 2) at (18,14) - Non-battling (gave STAT EXP tip) or already defeated.. Sign at (10,28).
 *   **Viridian City Pokémon Center (ID: 41):** Arrived (4,8). SPARKY healed (Turn 438).
 *   **Viridian City Mart (ID: 42):** Arrived (4,8). Received OAK'S PARCEL from shopkeeper (scripted event moved player to (3,6)).
 
