@@ -55,14 +55,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"target_suggestions\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"suggested_location\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\",\"reasoning\",\"suggested_location\"]}},\"general_advice\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"target_suggestions\"]}",
     "agent_can_run_code": false
   },
-  "hm_obstacle_identifier_agent": {
-    "agent_name": "hm_obstacle_identifier_agent",
-    "agent_description": "Identifies nearby HM-removable obstacles (Cut, Strength, Surf) on the current map and the HM needed. Input: list of HMs owned. (Can run Python code)",
-    "agent_system_prompt": "You are an HM Obstacle Identifier for Pokémon Yellow Legacy. Given a list of HMs the player possesses, analyze the `map_xml_string` (from which you can derive current map_id and player coordinates) to identify any HM-removable obstacles (cuttable trees, boulders needing Strength, surfable water) within a reasonable proximity (e.g., visible screen or a few steps beyond). Output a list of these obstacles, their coordinates, and the HM required. If no such obstacles are nearby or the player lacks the necessary HM, state that. Your output must conform to the provided schema. `world_knowledge_graph_json_string` is available for context but primarily focus on `map_xml_string`.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"owned_hms\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"owned_hms\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"identified_obstacles\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"obstacle_type\":{\"type\":\"string\",\"enum\":[\"cuttable_tree\",\"strength_boulder\",\"surfable_water\"]},\"coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"hm_required\":{\"type\":\"string\"},\"can_clear\":{\"type\":\"boolean\",\"description\":\"True if player owns the required HM\"}},\"required\":[\"obstacle_type\",\"coordinates\",\"hm_required\",\"can_clear\"]}},\"summary_message\":{\"type\":\"string\"}},\"required\":[\"identified_obstacles\",\"summary_message\"]}",
-    "agent_can_run_code": true
-  },
   "optimal_training_spot_agent": {
     "agent_name": "optimal_training_spot_agent",
     "agent_description": "Suggests routes/areas for efficient EXP gain for specific Pokémon under the current level cap, considering type matchups if possible. Can run Python code.",
