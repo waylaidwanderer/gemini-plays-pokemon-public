@@ -119,3 +119,6 @@
 *   **HM Usage Advisor:** An agent that, given a list of HMs the player possesses and the current map/area, could suggest optimal HM usage for exploration (e.g., "Cut tree at X,Y to access new area," "Surf across water at A,B to reach item").
 *   **Pokédex Progress Agent:** Could take my current caught list and a list of known encounters per route (if I build that data) and tell me what % of Pokémon on a given route I've caught, or which specific ones are missing.
 *   **Shopping List Agent:** Given a list of items I want to buy (e.g., Poké Balls, Potions) and my current money, it could tell me if I can afford them or how many I can buy.
+
+## Game State Discrepancies:
+*   Game State Information consistently reports '0 badges' even after obtaining the Boulder Badge. My notepad correctly reflects 1 badge, and I will operate under this assumption for level caps etc.
