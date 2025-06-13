@@ -126,3 +126,6 @@
 *   Money reduced to ¥198.
 *   Critical Priority: Heal party, travel back to Pewter City, re-challenge Brock for Boulder Badge.
 *   Jr. Trainer M in Pewter Gym (who defeated me, causing blackout) is NOT defeated.
+
+## Non-Battling NPC Interactions Log
+*   Viridian Forest (ID 51) - (17,44) - Youngster (VIRIDIANFOREST_YOUNGSTER1) - Dialogue: "I came here with some friends! They're out for POKéMON fights!" - No battle.
