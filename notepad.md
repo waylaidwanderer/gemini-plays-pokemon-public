@@ -1,47 +1,30 @@
-# Gem's Pokémon Yellow Legacy Hard Mode Playthrough Notes
+# Gem's Pokémon Yellow Legacy - Hard Mode Playthrough
 
-## Game Information
-*   **Player Name:** Gem
-*   **Rival Name:** Pixel
-*   **Current Badges:** 0
-*   **Current Level Cap:** 12
-*   **Pokédex:** 11/151
-*   **Money:** ¥198
+## Strategic Imperative: SURVIVAL
+My party is on the verge of collapse. Three Pokémon are fainted, and SPARKY is poisoned with low HP. My previous strategy of exploring and item hunting was a catastrophic failure in risk management.
 
-## Core Game Rules (Hard Mode)
-*   Battle Style: Set
-*   No items in battle.
-*   Level caps: 0 badges (12), 1 (21), 2 (24), 3 (35), 4 (43), 5 (50), 6 (53), 7 (55), 8 (65).
+**IMMEDIATE PLAN:**
+1.  **Lead with a Healthy Pokémon:** Switch a healthy Pokémon (NIGHTSHADE or AEGIS) to the front of the party to absorb wild encounters.
+2.  **Escape Viridian Forest:** Follow the 125-step path provided by the pathfinding script to the northern exit (warp at (2,1)). This is the only guaranteed safe route.
+3.  **RUN FROM EVERYTHING:** Do not engage in any wild battles. Escape is the only priority.
+4.  **Heal in Pewter City:** Proceed directly to the Pewter City Pokémon Center and restore the party.
 
-## Current Objectives & Strategy
+## Core Objectives (Post-Recovery)
 *   **Primary Goal:** Earn the Boulder Badge from Brock.
-*   **Secondary Goal:** Exit Viridian Forest and heal the party in Pewter City.
-*   **Tertiary Goal:** Train the party to the level cap (12).
-*   **Current Strategy:** The party is critically injured (two fainted, one at critical HP). The absolute priority is to navigate north out of Viridian Forest to reach the Pewter City Pokémon Center. I will **run from all wild encounters** to conserve HP. After healing, I will assess my team's readiness for Brock, potentially using the `team_composition_advisor_agent` for strategy.
+*   **Secondary Goal:** Train the party to the level cap (12).
+*   **Tertiary Goal:** Re-evaluate team composition and strategy for Brock using advisor agents.
 
-## Key Lessons & Mechanics
-*   **Risk Management:** I must prioritize party survival over minor exploration or item collection when resources are low. Reckless risks led to fainted Pokémon.
-*   **Navigation:** I must analyze map data more carefully to avoid getting stuck on impassable terrain. Failed pathing in the forest maze has wasted significant time.
-*   **Agent Usage:** Agent recommendations are advice, not commands. I need to use my own judgment based on the overall strategic situation. I will start using the `progression_advisor_agent` and `team_composition_advisor_agent` for high-level planning.
-*   **Type Anomaly (Poison vs. Bug/Poison):** Observed POISON STING as "super effective" against METAPOD/KAKUNA multiple times. This is a ROM hack change to monitor.
+## Key Lessons & Game Mechanics
+*   **Risk Management Failure:** I have repeatedly engaged in unnecessary, high-risk battles with a critically wounded party. This must stop. Survival > minor gains.
+*   **Navigational Failure:** My manual, trial-and-error navigation in the forest maze was inefficient and dangerous. I must proactively use the `run_code` pathfinding tool for complex areas.
+*   **Type Anomaly (Poison vs. Bug/Poison):** POISON STING has been observed as "super effective" against Bug/Poison types (METAPOD/KAKUNA). This is a confirmed ROM hack change.
 *   **Poison Damage:** Outside battle, poisoned Pokémon lose 1 HP every 4 steps.
 
-## Recent Battle Log (Condensed)
-*   (T2820) Wild METAPOD Lv6: NADEL +30 EXP, GOTTSAMER +30 EXP.
-*   (T2849) Wild WEEDLE Lv4: NADEL +14 EXP, GOTTSAMER +14 EXP.
-*   (T2871) Wild KAKUNA Lv7: SPARKY +71 EXP, **GOTTSAMER fainted** (poisoned).
-*   (T2877) Wild WEEDLE Lv4: NADEL +14 EXP, GOTTSAMER +14 EXP.
+## Party Status
+*   **3 Fainted:** FURYFIST, GOTTSAMER, NADEL.
+*   **1 Poisoned:** SPARKY (16/32 HP).
+*   **2 Healthy:** NIGHTSHADE (30/30 HP), AEGIS (24/24 HP).
 
 ## Defeated Trainers Log
 *   OAK'S LAB - Rival Pixel
-*   Viridian Forest - Lass (3,42)
-*   Viridian Forest - Youngster (28,20)
-*   Viridian Forest - Youngster (28,34)
-*   Viridian Forest - Bug Catcher (14,18)
-*   Viridian Forest - Bug Catcher (3,19)
-
-## Agent Management
-*   My previous agent usage has been suboptimal. I will now integrate agents more effectively into my strategic planning.
-*   **`wild_encounter_evaluator_agent`**: Use its advice cautiously, weighing it against the current party status and strategic needs.
-*   **`progression_advisor_agent`**: Will use this after escaping the forest to help plan the next major steps.
-*   **`team_composition_advisor_agent`**: Will use this to prepare for the Brock fight after healing the party.
+*   Viridian Forest: Lass (3,42), Youngster (28,20), Youngster (28,34), Bug Catcher (14,18), Bug Catcher (3,19).
