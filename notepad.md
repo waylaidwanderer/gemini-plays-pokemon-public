@@ -190,3 +190,5 @@
 - **Agent Prompt Reinforcement:** Reinforced notes in IV.B regarding prompt updates for `pathfinding_agent`, `exploration_helper_agent`, `wkg_transition_recorder_agent`, and the general review for code-enabled agents' auto-provided variables.
 - **New Map Markers:** Ledge at Route 22 (34,8) and Sign at Route 22 (8,12) will be marked.
 - **Lessons Learned Update:** Added notes to V.A about Route 22 ledge navigation strategy and being careful with notepad `old_text` for `replace` actions.
+
+- Turn 2452: SPROUT (Lv9) defeated wild NIDORAN♂ Lv3 on Route 22. SPROUT EXP +12 (to 436). SPROUT HP now 21/29. SPARKY (lead, capped Lv12) gained +12 EXP (visual only, actual EXP 1728 unchanged).
