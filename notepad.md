@@ -198,3 +198,15 @@
 - **Agent Development Ideas (IV.C):** Added note: 'Add to Post-Brock Task List: Review and prioritize agent development ideas (Ledge-Aware Explorer, Training Spot Suggester, Team Comp Advisor, EXP Farming Route Agent). Focus on current objectives until then.'
 - **Historical Log Length (VI):** Added note: 'Add to Post-Brock Task List: Review and summarize/archive older historical log entries. Focus on current objectives until then.'
 - **Agent Prompts & Auto-Provided Variables (IV.B):** Added note to review prompts for code-enabled agents for clarity on `map_xml_string` and `world_knowledge_graph_json_string` usage.
+
+## IX. Post-Brock Tasks (Consolidated from Reflection Turn 2470)
+- Review and prioritize agent development ideas (Ledge-Aware Explorer, Training Spot Suggester, Team Comp Advisor, EXP Farming Route Agent).
+- Review and summarize/archive older historical log entries.
+- Prioritize agent prompt fixes:
+    - `pathfinding_agent` & `exploration_helper_agent` for ledges.
+    - `wkg_transition_recorder_agent` to query WKG for existing nodes.
+    - General review for code-enabled agents on auto-provided variable usage (`map_xml_string`, `world_knowledge_graph_json_string`).
+- Place pending map markers:
+    - Ledge at Route 22 (34,8)
+    - Sign at Route 22 (8,12)
+    - Ledge at Route 22 (6,10)
