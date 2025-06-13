@@ -114,3 +114,5 @@
 *   **Outcome:** Realized path blocked by Y=10 ledge line, preventing northward travel from southern part of city to that specific cluster. 'Reachable' status likely requires different approach (e.g., different entry point to Viridian City, or a path not yet found).
 
 *   **Entered Route 2 (South) (T2069):** Arrived at (9,72) from Viridian City (19,1). Goal: Reach warp at (4,44) to Viridian Forest South Gate.
+
+- **Wild Battle (Viridian Forest, (19,37), T2133):** Defeated wild METAPOD. FURYFIST fainted. SPARKY EXP: 615 -> 645 (+30). GOTTSAMER EXP: 433 -> 463 (+30).
