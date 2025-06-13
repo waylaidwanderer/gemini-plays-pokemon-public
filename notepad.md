@@ -53,7 +53,7 @@
 *   **POKé BALL x2**
 *   **OAK'S PARCEL:** Delivered.
 *   **POKéDEX:** Received.
-*   **HM05 FLASH:** Not yet obtained. (Requirement: 10 unique Pokémon in Pokédex - Met!)
+*   **HM05 FLASH:** Not yet obtained. (Pokédex requirement of 10 unique Pokémon to receive it has been met - item must still be acquired from NPC/event.)
 
 ## Lessons Learned, Game Mechanics & Insights
 *   **Tile Types:** `ground`, `impassable`, `grass`, `ledge` (jump Y+2, impassable from Y+1 below), `cuttable`.
