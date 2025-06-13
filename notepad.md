@@ -61,7 +61,7 @@
     *   OAK'S LAB (ID 40) - (6,12) - Rival Pixel (initial battle)
 
 ## Pokémon Log:
-*   SPARKY (Pikachu): Lv6, 253 EXP. (Current cap 12). Last EXP gain: +31 vs Wild Pidgey Lv4 (Route 1, (11,8), Turn 406).
+*   SPARKY (Pikachu): Lv6, 268 EXP (Current cap 12). Last EXP gain: +15 vs Wild Pidgey Lv2 (Route 1, (12,33), Turn 500). THUNDERSHOCK PP: 29/30.
 
 ## Custom Agent Notes & Usage:
 *   `battle_strategist_agent`: Defined. Use for significant trainer battles.
