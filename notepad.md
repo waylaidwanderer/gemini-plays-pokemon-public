@@ -91,3 +91,6 @@
 *   This area appears fully explored. Exiting.
 
 *   **DV Checking Tip:** Hold START while pressing A on a Pokémon's STATS screen to check its growth potential (DVs). (Learned from Old Man in Viridian City, Turn 707).
+
+## Route 2 Notes:
+*   Sign at (6,66) reads: 'ROUTE 2 VIRIDIAN CITY - PEWTER CITY'. (Turn 718)
