@@ -111,3 +111,5 @@
 *   **Critical Hits:** Critical hits ignore the target's positive defensive stat changes (e.g., from Harden) and the attacker's negative offensive stat changes.
 
 *   **Pokédex Evaluation:** Contact PROF.OAK via PC to get your POKéDEX evaluated (Sign in Viridian Forest at (27,18)).
+
+*   **POTION x1:** Found in Viridian Forest at (26,12) (Turn 1366).
