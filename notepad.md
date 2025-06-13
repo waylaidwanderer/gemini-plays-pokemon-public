@@ -101,3 +101,14 @@
 *   **Items:** None found.
 *   **Encounters:** FURYFIST (MANKEY) (Lv4, caught). SPIKE (NIDORAN♂) (Lv3, caught).
 *   **Pokédex Evaluation:** Contact PROF.OAK via PC (Sign in Viridian Forest).
+
+## Battle & Menu Mechanics Notes (Post-Critique T1861):
+*   **Party List Selection:** Pressing 'A' on a Pokémon in the 'Choose a POKéMON' list *selects* it and brings up its sub-menu (SWITCH, STATS, CANCEL). Pay close attention to screen text to confirm sub-menu vs. main list.
+
+## Agent Development & Review Notes (Post-Critique T1861):
+*   **`pokedex_progress_agent`**: Define this agent to track Pokédex completion towards goals (like HM Flash) or decide to discard the idea.
+*   **`team_composition_advisor_agent`**: Prioritize testing this agent before the next major gym battle.
+*   **`npc_dialogue_analyzer_agent`**: Re-evaluate utility. If not providing value, consider revising its prompt or deleting it.
+
+## Pokémon Party HP Update (Post-Critique T1861):
+*   FURYFIST (MANKEY): Lv4 (6/17 HP, EXP: 64) - Updated HP based on current Game State.
