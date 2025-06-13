@@ -261,3 +261,8 @@
 - **Pathfinding & Exploration Agents for Ledges:** `pathfinding_agent` & `exploration_helper_agent` are critically failing on Route 22 due to ledges.
     - **Decision Point:** Either prioritize fixing their prompts (or creating a 'Ledge-Aware Explorer Agent') *before* attempting Brock, or formally decide to rely on manual navigation/`run_code` for ledge-heavy areas until post-Brock.
     - Current Plan: Continue manual navigation on Route 22. Re-evaluate agent fix priority if Brock proves too difficult or if significant ledge navigation is required for other pre-Brock objectives.
+
+(Appended under Section II. Game Mechanics & Rules)
+### E. Data Management & Logging
+- **Battle Logs:** Summarize training progress (e.g., levels gained, key moves learned) rather than logging every individual EXP gain, especially for capped Pokémon, to keep notepad concise.
+- **PP/HP/EXP Tracking:** Rely on Game State Information as the absolute source of truth for Pokémon stats (HP, EXP, PP). Notepad entries are for reference/planning but can have discrepancies.
