@@ -112,3 +112,5 @@
 ### Viridian City Exploration - Pathing to Northern Unseen Tiles (Turn 2024)
 *   **Attempt:** Pathing north from (27,17) towards (27,6) to explore unseen tiles (e.g., (26,3-6)).
 *   **Outcome:** Realized path blocked by Y=10 ledge line, preventing northward travel from southern part of city to that specific cluster. 'Reachable' status likely requires different approach (e.g., different entry point to Viridian City, or a path not yet found).
+
+*   **Entered Route 2 (South) (T2069):** Arrived at (9,72) from Viridian City (19,1). Goal: Reach warp at (4,44) to Viridian Forest South Gate.
