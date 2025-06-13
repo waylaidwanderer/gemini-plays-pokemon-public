@@ -41,14 +41,13 @@
     *   **Contingency:** If Viridian City yields no new leads after thorough exploration, re-evaluate progression (check Pallet Town/Route 1 for new dialogue/events).
     *   **NPC Interaction Strategy:** Interact with any unencountered NPCs or re-interact with previously met NPCs to check for new dialogue due to increased Pokédex count.
 
-## Pokémon Party & Status (As of Turn 2026)
-*   **GOTTSAMER (METAPOD):** Lv7 (25/25 HP, EXP: 433). TACKLE, STRING SHOT, HARDEN
+## Pokémon Party & Status (As of Turn 2157)
+*   **GOTTSAMER (METAPOD):** Lv7 (25/25 HP, EXP: 490). TACKLE, STRING SHOT, HARDEN
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING, STRING SHOT
 *   **NIGHTSHADE (ODDISH):** Lv8 (28/28 HP, EXP: 397). TACKLE, POISONPOWDER, LEECH SEED
-*   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 462). POISON STING, STRING SHOT, HARDEN
-*   **SPARKY (PIKACHU):** Lv8 (27/27 HP, EXP: 615). THUNDERSHOCK, GROWL, QUICK ATTACK, THUNDER WAVE
-*   **FURYFIST (MANKEY):** Lv4 (17/17 HP, EXP: 64). SCRATCH, LEER
-*   **Team Healed:** Party fully healed at Viridian Pokémon Center (Turn 2022).
+*   **AEGIS (KAKUNA):** Lv7 (15/24 HP, EXP: 489). POISON STING, STRING SHOT, HARDEN
+*   **SPARKY (PIKACHU):** Lv8 (27/27 HP, EXP: 645). THUNDERSHOCK, GROWL, QUICK ATTACK, THUNDER WAVE
+*   **FURYFIST (MANKEY):** Lv4 (0/17 HP, EXP: 64). SCRATCH, LEER
 
 ## Inventory & Key Items
 *   **POKé BALL x2**
