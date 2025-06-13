@@ -168,3 +168,6 @@
 ## VIII. Reflection Notes (Turn 2365)
 - **Agent Development Ideas Update:** Added 'Ledge-Aware Explorer Agent' (Medium Priority).
 - **Agent Prompt Review Task:** Noted to review prompts for `item_finder_agent`, `wkg_transition_recorder_agent`, `pathfinding_agent`, `exploration_helper_agent` to ensure clarity on auto-provided variables (`map_xml_string`, `world_knowledge_graph_json_string`) for their `run_code` tool.
+
+## VIII. Reflection Notes (Turn 2371)
+- Discovered (34,8) on Route 22 is a ledge when approached from (34,9) (below).
