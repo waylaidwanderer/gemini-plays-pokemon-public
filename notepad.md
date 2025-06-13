@@ -66,10 +66,10 @@
 
 ## Active Hypotheses / Things to Test:
 *   Is the `route_planner_agent`'s current performance for intra-map pathing sufficient, or does its system prompt need refinement for complex obstacles like ledges? Evaluate after more uses. (Critique T1260 - still relevant)
-*   Test `optimal_training_spot_agent` in a safe area (e.g., near a Pokémon Center) to find better training areas once party is healed. (Critique T1231 & T1260 - Action this!)
-*   Increase usage of `npc_dialogue_analyzer_agent` with new NPC dialogue, especially trainers. (Critique T1231)
-*   Test `item_reminder_agent` when near known uncollected items. (Critique T1231)
-*   Test `map_analyzer_agent` in new areas or when objectives change. (Critique T1260 - Action this!)
+*   Test `optimal_training_spot_agent` in a safe area (e.g., near a Pokémon Center) to find better training areas once party is healed.
+*   Increase usage of `npc_dialogue_analyzer_agent` with new NPC dialogue, especially trainers.
+*   Test `item_reminder_agent` when near known uncollected items.
+*   Test `map_analyzer_agent` in new areas or when objectives change. Prioritize testing this agent after healing party and exiting Viridian Forest.
 
 ## Defeated Trainers:
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
