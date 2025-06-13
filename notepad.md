@@ -115,3 +115,9 @@
 *   **SPARKY (Pikachu):** Healed to full HP (25/25). PP restored.
 *   **Money:** Decreased to ¥632 due to blackout.
 *   **Secondary Goal Update:** Changed from 'Heal SPARKY' to 'Find the trigger in Viridian City that opens the northern path to Pewter City.'
+
+## Viridian City Update (Turn 795):
+*   The old man previously blocking the path north to Route 2 at (20,5) is gone.
+*   The path to Route 2 is now clear.
+*   Secondary goal 'Find the trigger in Viridian City that opens the northern path to Pewter City' is now considered complete as the path is open.
+*   New secondary goal: Travel to Pewter City.
