@@ -107,3 +107,5 @@
 
 *   Lass at (3,42) mentioned running into an ODDISH in Viridian Forest. (Turn 777).
 *   Reminder: Check signs in Viridian Forest when exploration resumes (e.g., sign at (19,46)).
+
+*   Agent Idea: Create an agent to identify optimal training spots based on party levels, level cap, and known wild Pokémon in an area.
