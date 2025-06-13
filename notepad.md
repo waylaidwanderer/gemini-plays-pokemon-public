@@ -12,7 +12,7 @@
 
 ### C. Current Location & Immediate Objective (Turn 2313)
 - Location: Route 22 (ID: 33), at (7,7).
-- Immediate Objective: Navigate to unvisited warp at (9,6). Path: R_x2, U_x1. All unseen tiles explored or confirmed unreachable.
+- Immediate Objective: Navigate to eastern grass patch on Route 22 (target: (31,9)) for training. Path: D_x6 (to (14,13)), R_x17 (to (31,13)), U_x4 (to (31,9)).
 
 ### D. Training Priorities
 - SPROUT (ODDISH): Lv8 -> Needs significant training for Brock (Rock/Ground). Grass moves super effective. **PRIORITY**
