@@ -33,7 +33,7 @@
 *   **Prepare for Pewter City Gym:** Assess Gym type and plan team accordingly (once known). Train Pokémon towards level cap if necessary.
 
 ## Pokémon Party & Log:
-*   **SPARKY (Pikachu):** Lv6, 268 EXP (Current cap 12). THUNDERSHOCK PP: 29/30. Healed at Viridian Pokémon Center (Turn 438).
+*   **SPARKY (Pikachu):** Lv7, 419 EXP (Current cap 12). THUNDERSHOCK PP: 22/30. Currently 5/25 HP and POISONED (Turn 777). Last healed at Viridian Pokémon Center (Turn 438).
 
 ## Items Obtained:
 *   **OAK'S PARCEL:** Received from Viridian Mart shopkeeper. Delivered to Prof. Oak (Turn 524).
