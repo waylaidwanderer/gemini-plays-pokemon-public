@@ -22,7 +22,7 @@
 ### E. Active Goals (for planning reference)
 - **Primary Goal:** Defeat Brock and earn the Boulder Badge.
 - **Secondary Goal:** Train SPROUT and PIP on Route 22 to prepare for Brock, and earn money.
-- **Tertiary Goal:** Explore all 12 reachable unseen tiles on Route 22.
+- **Tertiary Goal:** Incrementally train PIP (PIDGEY) on Route 22 when opportunities arise without compromising SPROUT's training. (Route 22 exploration complete).
 
 ## II. Game Mechanics & Rules
 
