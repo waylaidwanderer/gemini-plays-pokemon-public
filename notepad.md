@@ -10,9 +10,9 @@
 ### B. Financial Status
 - Money: ¥296
 
-### C. Current Location & Immediate Objective (Turn 2303)
-- Location: Route 22 (ID: 33), at (32,12).
-- Immediate Objective: Navigate to the western cluster of unseen tiles on Route 22 (target: (12,8)) and train SPROUT and PIP.
+### C. Current Location & Immediate Objective (Turn 2312)
+- Location: Route 22 (ID: 33), at (18,6).
+- Immediate Objective: Manually explore western Route 22 (targeting unseen tile (13,7) first) and train SPROUT/PIP. Will avoid using navigation agents on this map due to ledge issues.
 
 ### D. Training Priorities
 - SPROUT (ODDISH): Lv8 -> Needs significant training for Brock (Rock/Ground). Grass moves super effective. **PRIORITY**
