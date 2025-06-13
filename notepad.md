@@ -84,8 +84,16 @@
 *   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items. Untested.
 *   **`map_analyzer_agent`**: Defined (T1261). Untested. **Plan:** Test after healing party in Viridian City.
 
-## Agent Ideas (To Define Later):
-*   **Team Composition Advisor:** For specific boss fights (e.g., Pewter Gym Team Builder). Analyzes roster, suggests Pokémon to train/catch for type advantages against a specific Gym Leader/Boss.
+## Agent Definitions & Usage Log (9 Active Agents):
+*   **`battle_strategist_agent`**: Defined. Use for significant trainer battles. (Called T1109, T1113, T1520, T1522, T1538).
+*   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. System prompt needs refinement for limitations. (Called T1198, T1211, T1213, T1225, T1233, T1254, T1542). Investigate and potentially re-define if the agent is to be relied upon.
+*   **`level_cap_compliance_agent`**: Defined. Used T407 (all okay). **Critique T1560:** Use more frequently after level-ups.
+*   **`wild_encounter_evaluator_agent`**: Defined. Used T929, T1012, T1031, T1037, T1063, T1065, T1067, T1069, T1088, T1090, T1092, T1219, T1223, T1226, T1234, T1236, T1258, T1487, T1536, T1553, T1558. Note: Balance its EXP recommendations with battle efficiency and resource cost.
+*   **`npc_dialogue_analyzer_agent`**: Defined. Low usage. Review its system prompt or purpose if not proving useful; consider deletion.
+*   **`optimal_training_spot_agent`**: Defined. Untested.
+*   **`item_reminder_agent`**: Defined. Reminds about nearby uncollected items. Untested.
+*   **`map_analyzer_agent`**: Defined (T1261). Untested. **Plan:** Test after healing party in Viridian City.
+*   **`team_composition_advisor_agent`**: Defined (T1561). Recommends team for major battles.
 
 ## World Knowledge Graph Notes:
 *   **Critical:** Record inter-map transitions IMMEDIATELY using `manage_world_knowledge` upon map_id change.
