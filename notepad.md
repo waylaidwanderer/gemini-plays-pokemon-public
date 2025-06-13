@@ -15,3 +15,9 @@
 ## Defeated Trainers Log
 - OAK'S LAB - Rival Pixel
 - Viridian Forest: Lass (3,42), Youngster (28,20), Youngster (28,34), Bug Catcher (14,18), Bug Catcher (3,19).
+
+## Viridian Forest Navigation Debrief
+- **Problem:** Got stuck in loops due to poor map reading.
+- **Flawed Solution (Attempt #1-3):** Tried to create a `pathfinding_agent`. This failed due to schema errors and then produced a faulty path, wasting many turns.
+- **Successful Solution (Attempt #4):** Wrote and executed a manual BFS pathfinding script via `run_code`, which provided a correct route.
+- **Lesson:** Don't over-engineer solutions. Simple observation is often faster and more reliable than complex automation. For future simple mazes, I will rely on manual navigation first.
