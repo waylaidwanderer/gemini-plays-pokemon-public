@@ -220,3 +220,8 @@
     - `wkg_transition_recorder_agent` to query WKG for existing nodes.
     - General review for code-enabled agents on auto-provided variable usage (`map_xml_string`, `world_knowledge_graph_json_string`).
 - Place pending map markers: Ledge at Route 22 (34,8), Sign at Route 22 (8,12), Ledge at Route 22 (6,10).
+
+## XI. Pre-Brock Agent Review & Fixes (High Priority)
+- **Pathfinding & Exploration Agents for Ledges:** `pathfinding_agent` & `exploration_helper_agent` are critically failing on Route 22 due to ledges.
+    - **Decision Point:** Either prioritize fixing their prompts (or creating a 'Ledge-Aware Explorer Agent') *before* attempting Brock, or formally decide to rely on manual navigation/`run_code` for ledge-heavy areas until post-Brock.
+    - Current Plan: Continue manual navigation on Route 22. Re-evaluate agent fix priority if Brock proves too difficult or if significant ledge navigation is required for other pre-Brock objectives.
