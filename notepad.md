@@ -116,3 +116,8 @@
 
 ## Battle Menu Confusion (T1671-T1674):
 *   Got stuck in a loop trying to select ITEM from the main battle menu. Realized the game put me back in the 'Choose a POKéMON' screen after a 'X is already out!' message. Pressing B from 'Choose a POKéMON' screen should return to the main battle menu.
+
+## New Agent Ideas (From Reflection T1715):
+*   **HM Usage Advisor:** An agent that, given a list of HMs the player possesses and the current map/area, could suggest optimal HM usage for exploration (e.g., "Cut tree at X,Y to access new area," "Surf across water at A,B to reach item").
+*   **Pokédex Progress Agent:** Could take my current caught list and a list of known encounters per route (if I build that data) and tell me what % of Pokémon on a given route I've caught, or which specific ones are missing.
+*   **Shopping List Agent:** Given a list of items I want to buy (e.g., Poké Balls, Potions) and my current money, it could tell me if I can afford them or how many I can buy.
