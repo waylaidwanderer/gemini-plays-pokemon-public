@@ -106,7 +106,7 @@
 1.  `level_cap_compliance_checker`
 2.  `item_finder_agent`
 3.  `wkg_transition_recorder_agent`
-4.  `capability_checker_agent`
+
 5.  `battle_strategist_agent`
 6.  `pathfinding_agent`
 7.  `exploration_helper_agent`
