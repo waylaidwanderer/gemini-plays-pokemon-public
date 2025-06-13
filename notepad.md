@@ -40,7 +40,7 @@
 ## Items Obtained:
 *   **OAK'S PARCEL:** Received from Viridian Mart shopkeeper. Delivered to Prof. Oak (Turn 524).
 *   **POKéDEX:** Received from Prof. Oak (Turn 529).
-*   **POKé BALL x8:** Bought 7 from Viridian Mart (Turn 575), Found 1 in Viridian Forest (Turn 926). Used 1 to catch GOSSAMER (Turn 931).
+*   **POKé BALL x7:** Bought 7 from Viridian Mart (Turn 575), Found 1 in Viridian Forest (Turn 926). Used 1 on GOTTSAMER (Turn 931), Used 1 on AEGIS (Turn 1014).
 
 ## Lessons Learned / Hypotheses / Game Mechanics:
 *   **Menu Navigation (Naming Screen):** Precise inputs needed. Verify letter before 'A'. 'B' is backspace.
