@@ -29,10 +29,10 @@
 
 ## Current Objectives & Plans (HOW to achieve goals):
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
-*   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12), prioritizing type advantages. Scout for Rock-type counters if needed.
+*   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12) by battling trainers in Viridian Forest and on Route 2. Prioritize type advantages. Scout for Rock-type counters if needed.
 
-## Pokémon Party & Log (Current as of Turn 1200):
-*   **GOTTSAMER (CATERPIE):** Lv4 (18/18 HP, EXP: 118). TACKLE (35 PP), STRING SHOT (40 PP).
+## Pokémon Party & Log (Current as of Turn 1232):
+*   **GOTTSAMER (CATERPIE):** Lv4 (15/18 HP, EXP: 118). TACKLE (29 PP), STRING SHOT (40 PP).
 *   **NADEL (WEEDLE):** Lv4 (18/18 HP, EXP: 118). POISON STING (35 PP), STRING SHOT (40 PP).
 *   **NIGHTSHADE (ODDISH):** Lv6 (23/23 HP, EXP: 179). TACKLE (35 PP), POISONPOWDER (35 PP).
 *   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 410). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (30 PP).
@@ -62,11 +62,14 @@
 *   **DV Checking Tip:** Hold START while pressing A on a Pokémon's STATS screen to check DVs. (Old Man Viridian, T707).
 *   **Notepad `replace` Action:** `old_text` must be an *exact* match. If `replace` fails repeatedly, consider `overwrite` for the section or entire notepad.
 *   **Pokémon Switching Menu (Corrected T1068-T1085):** Selecting a Pokémon in the party list opens its action sub-menu (STATS, SWITCH, CANCEL). To switch: select 'SWITCH', then select the Pokémon to swap with from the party list. Press 'A' on target, then 'A' on 'SWITCH', then navigate to other Pokémon and 'A' to confirm.
+*   **Battle Efficiency:** Avoid prolonged battles with highly defensive Pokémon (e.g., Harden-spamming Metapod) if they offer low EXP for the time/PP invested. Balance agent recommendations (like `wild_encounter_evaluator_agent`) with own judgment on resource cost and battle efficiency. (Critique T1231)
 
 ## Active Hypotheses / Things to Test:
-*   Can the `route_planner_agent` be improved for intra-map pathing with better prompting for ledge awareness?
-*   Are there specific conditions to trigger battles with certain NPCs who initially only offer dialogue (e.g., Youngster in Viridian Forest)?
-*   Test `optimal_training_spot_agent` once in Viridian Forest or a suitable training area.
+*   Is the `route_planner_agent`'s current performance for intra-map pathing sufficient, or does its system prompt need refinement for complex obstacles like ledges? Evaluate after more uses.
+*   Are there specific conditions to trigger battles with certain NPCs who initially only offer dialogue (e.g., Youngster in Viridian Forest at (17,44))?
+*   Test `optimal_training_spot_agent` ASAP in Viridian Forest to find better training areas. (Critique T1231)
+*   Increase usage of `npc_dialogue_analyzer_agent` with new NPC dialogue, especially trainers. (Critique T1231)
+*   Test `item_reminder_agent` when near known uncollected items. (Critique T1231)
 
 ## Defeated Trainers:
 *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
@@ -75,10 +78,10 @@
 
 ## Agent Definitions & Usage Log:
 *   **`battle_strategist_agent`**: Defined. Use for significant trainer battles. (Called T1109, T1113).
-*   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. System prompt needs refinement for limitations. (Called T1198 for Route 2).
+*   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. System prompt needs refinement for limitations. (Called T1198 for Route 2, T1211 for VF South Gate, T1213 for VF).
 *   **`rom_hack_mechanic_analyzer_agent`**: Defined. Use for deducing new mechanics.
 *   **`level_cap_compliance_agent`**: Defined. Used T407 (all okay).
-*   **`wild_encounter_evaluator_agent`**: Defined. Used T929, T1012, T1031, T1037, T1063, T1065, T1067, T1069, T1088, T1090, T1092.
+*   **`wild_encounter_evaluator_agent`**: Defined. Used T929, T1012, T1031, T1037, T1063, T1065, T1067, T1069, T1088, T1090, T1092, T1219, T1223. Note: While useful, balance its EXP recommendations with battle efficiency and resource cost (Critique T1231).
 *   **`npc_dialogue_analyzer_agent`**: Defined. Low usage, consider more frequent application.
 *   **`pokedex_tracker_agent`**: Defined. Untested.
 *   **`optimal_training_spot_agent`**: Defined. Untested.
@@ -88,15 +91,15 @@
 *   **Critical:** Record inter-map transitions IMMEDIATELY using `manage_world_knowledge` upon map_id change.
 
 ## Area Notes:
-### Route 2 (ID 13) - Current Area
-*   **Objective:** Navigate to Viridian Forest South Gate warp at (4,44).
-*   **Current Location:** (5,52).
-*   **Items:** Poké Ball at (14,55) - unreachable. Poké Ball at (14,46) - unreachable.
-*   **Encounters:** None yet on this visit.
+### Viridian Forest (ID 51) - Current Area
+*   **Objective:** Navigate through Viridian Forest, battle trainers for EXP, and reach the north exit.
+*   **Current Location:** (12,42).
+*   **Key NPCs (Unencountered Trainers):** Youngster (31,34), Youngster (31,20), Youngster (28,41).
+*   **Key NPCs (Non-Battling):** Youngster (17,44).
+*   **Items:** Poké Ball at (13,30) - unreachable (noted from map sprites).
+*   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran), Pidgey (Lv7, ran), Metapod (Lv6, ran).
 
-### Viridian Forest (ID 51) - Previously Explored
-*   **Objective:** Retreat south to Viridian City Pokémon Center for healing (COMPLETED).
-*   **Key NPCs:** Youngster (17,44) - non-battling. Lass (3,42) - defeated. Youngster (31,34) - unencountered. Youngster (28,41) - unencountered. Youngster (31,20) - unencountered. Youngster (28,20) - defeated.
-*   **Items:** Poké Ball found (2,32). Poké Ball at (13,30) - unreachable (noted from map sprites).
-*   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran), Pidgey (Lv7, ran).
-*   **Encounter Log (Turn 1088-1094):** At (26,24), encountered Lv7 PIDGEY. AEGIS led. Failed to run twice; AEGIS took 2 GUST hits (HP to 2/24). Successfully ran on 3rd attempt.
+### Route 2 (ID 13) - Previously Explored
+*   **Objective:** Navigated to Viridian Forest South Gate warp.
+*   **Items:** Poké Ball at (14,55) - unreachable. Poké Ball at (14,46) - unreachable.
+*   **Encounters:** Vulpix (Lv5, ran).
