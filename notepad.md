@@ -84,3 +84,8 @@
 
 ## Current Area Notes:
 *   **Viridian City (ID: 1):** Arrived from Route 1 at (22,36). Secondary Goal: Buy Poké Balls at PokéMart (30,20). Many reachable unseen tiles to explore.
+
+## Viridian School House (ID: 43)
+*   Blackboard at (4,1) teaches about Sleep (SLP) status and that the item AWAKENING can be used to wake them up. (Learned at Turn 654).
+*   Cool Trainer F at (5,2) is a non-battling NPC; she advised reading the blackboard carefully. (Interaction at Turn 657).
+*   This area appears fully explored. Exiting.
