@@ -32,12 +32,12 @@
 *   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
 *   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12), prioritizing type advantages.
 
-## Pokémon Party & Log (Current as of Turn 1038):
-*   **SPARKY (PIKACHU):** Lv7 (9/25 HP, EXP: 466). THUNDERSHOCK, GROWL, QUICK ATTACK.
-*   **NADEL (WEEDLE):** Lv4 (12/18 HP, EXP: 64). POISON STING, STRING SHOT. (Caught Viridian Forest, T870).
-*   **NIGHTSHADE (ODDISH):** Lv6 (12/23 HP, EXP: 179). TACKLE, POISONPOWDER. (Caught Viridian Forest, T922).
-*   **GOTTSAMER (CATERPIE):** Lv4 (18/18 HP, EXP: 64). TACKLE, STRING SHOT. (Caught Viridian Forest, T931).
-*   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 343). POISON STING, STRING SHOT, HARDEN. (Caught Viridian Forest, T1014).
+## Pokémon Party & Log (Current as of Turn 1055):
+*   **SPARKY (PIKACHU):** Lv7 (8/25 HP, EXP: 466). THUNDERSHOCK (29 PP), GROWL (40 PP), QUICK ATTACK (27 PP).
+*   **NADEL (WEEDLE):** Lv4 (7/18 HP, EXP: 64). POISON STING (32 PP), STRING SHOT (40 PP). (Caught Viridian Forest, T870).
+*   **NIGHTSHADE (ODDISH):** Lv6 (12/23 HP, EXP: 179). TACKLE (35 PP), POISONPOWDER (35 PP). (Caught Viridian Forest, T922).
+*   **GOTTSAMER (CATERPIE):** Lv4 (18/18 HP, EXP: 64). TACKLE (35 PP), STRING SHOT (40 PP). (Caught Viridian Forest, T931).
+*   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 343). POISON STING (35 PP), STRING SHOT (40 PP), HARDEN (30 PP). (Caught Viridian Forest, T1014).
 
 ## Items Obtained:
 *   **POKé BALL x7**
