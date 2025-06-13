@@ -117,12 +117,11 @@
 - **`pathfinding_agent` & `exploration_helper_agent`:** Prompts need significant update to handle ledges correctly. *Current Plan: Defer major fix, continue manual navigation in ledge-heavy areas like Route 22. Re-evaluate agent fix priority if Brock proves too difficult or if significant ledge navigation is required for other pre-Brock objectives.*
 - **General for code-enabled agents**: Prompts must clarify use of `run_code` for auto-provided variables (`map_xml_string`, `world_knowledge_graph_json_string`) and how to parse/utilize them effectively.
 
-### C. Agent Development Ideas (To be reviewed/actioned post-Brock or if current agents are unfixable pre-Brock)
-- **Ledge-Aware Explorer Agent:** Specialized agent for navigating ledge-heavy areas. (Medium Priority)
-- **Training Spot Suggester Agent:** Input: target Pokémon, current location, desired level. Output: suggested map/grass/trainers. (Low Priority)
-- **Shop Inventory Agent:** Input: city/mart name. Output: items sold & prices. (Low Priority)
-- **Team Composition Advisor Agent:** Input: opponent's team, my party. Output: suggested team/moves. (Medium Priority)
-- **EXP Farming Route Agent:** Input: target Pokémon, desired level. Output: optimal routes/areas. (Medium Priority)
+### C. Future Agent Considerations (To be defined when strategically beneficial)
+- **Ledge-Aware Explorer Agent:** Specialized for navigating ledge-heavy areas.
+- **Training Spot Suggester Agent:** Input: target Pokémon, current location, desired level. Output: suggested map/grass/trainers.
+- **Shop Inventory Agent:** Input: city/mart name. Output: items sold & prices.
+- **EXP Farming Route Agent:** Input: target Pokémon, desired level. Output: optimal routes/areas.
 
 ## V. Lessons Learned & Strategic Refinements
 
