@@ -115,3 +115,6 @@
 *   **Entered Route 2 (South) (T2069):** Arrived at (9,72) from Viridian City (19,1). Goal: Reach warp at (4,44) to Viridian Forest South Gate.
 
 - **Wild Battle (Viridian Forest, (19,37), T2133):** Defeated wild METAPOD. FURYFIST fainted. SPARKY EXP: 615 -> 645 (+30). GOTTSAMER EXP: 433 -> 463 (+30).
+
+## Viridian Forest NPC Notes (Turn 2205+)
+*   Youngster 6 (VIRIDIANFOREST_YOUNGSTER6) at (28,41) gave a tip: "I ran out of POKé BALLs to catch POKéMON with! You should carry extras!". Did not initiate a battle.
