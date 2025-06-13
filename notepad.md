@@ -111,11 +111,10 @@
 6.  `pathfinding_agent`
 7.  `exploration_helper_agent`
 
-### B. Agent Performance Notes & Improvement Plans
-- **`pathfinding_agent` & `exploration_helper_agent`:** Critically failing on Route 22 (ledges). Do NOT use for this map. Prompts need significant update to handle ledges. Documented failures: Turn 2303 (exploration_helper), Turns 2305-2307 (pathfinding).
-- **`wkg_transition_recorder_agent`:** High priority to fix prompt to ensure it queries WKG for existing nodes before suggesting new node creation (to prevent duplicate nodes) and use actual IDs.
-- **`item_finder_agent`:** Review definition to remove redundant `player_x`, `player_y` input, as agent can derive location from `map_xml_string` via its `run_code` capability. Review overall utility.
-- **`capability_checker_agent`**: Untested. Seek opportunity to test or delete if not useful.
+### B. Active Agent Improvement Tasks (High Priority)
+- **`wkg_transition_recorder_agent`:** Update prompt to *mandate* querying WKG for existing nodes using `run_code` with `world_knowledge_graph_json_string` before suggesting new node creation. (Top Priority)
+- **`item_finder_agent`:** Remove redundant `player_x`, `player_y` from `agent_input_schema` as agent can derive location from `map_xml_string`. (High Priority)
+- **`pathfinding_agent` & `exploration_helper_agent`:** Prompts need significant update to handle ledges correctly. *Current Plan: Defer major fix, continue manual navigation in ledge-heavy areas like Route 22. Re-evaluate agent fix priority if Brock proves too difficult or if significant ledge navigation is required for other pre-Brock objectives.*
 - **General for code-enabled agents**: Prompts must clarify use of `run_code` for auto-provided variables (`map_xml_string`, `world_knowledge_graph_json_string`) and how to parse/utilize them effectively.
 
 ### C. Agent Development Ideas (To be reviewed/actioned post-Brock or if current agents are unfixable pre-Brock)
