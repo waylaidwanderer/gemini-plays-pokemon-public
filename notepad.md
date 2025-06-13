@@ -248,3 +248,11 @@
 ### E. Data Management & Logging
 - **Battle Logs:** Summarize training progress (e.g., levels gained, key moves learned) rather than logging every individual EXP gain, especially for capped Pokémon, to keep notepad concise.
 - **PP/HP/EXP Tracking:** Rely on Game State Information as the absolute source of truth for Pokémon stats (HP, EXP, PP). Notepad entries are for reference/planning but can have discrepancies.
+
+## X. Post-Brock Task List (To be reviewed/actioned after defeating Brock)
+- Review and prioritize agent development ideas (e.g., Ledge-Aware Explorer, Training Spot Suggester, Team Comp Advisor, EXP Farming Route Agent).
+- Review and summarize/archive older historical log entries from Section VI.
+- Finalize agent prompt fixes:
+    - `wkg_transition_recorder_agent` to query WKG for existing nodes.
+    - General review for code-enabled agents on auto-provided variable usage (`map_xml_string`, `world_knowledge_graph_json_string`).
+- Place pending map markers: Ledge at Route 22 (34,8), Sign at Route 22 (8,12), Ledge at Route 22 (6,10).
