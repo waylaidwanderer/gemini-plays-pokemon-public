@@ -194,3 +194,5 @@
 - **Agent Testing:** Will actively seek opportunities to test unused agents like `capability_checker_agent`.
 
 - **Agent Failure (Turn 2303):** `exploration_helper_agent` (for Route 22 unseen tiles from (32,12)) provided a path: (32,11)->(32,10)->(32,9)->(32,8)->(31,8)->(33,8)->(34,8)->(34,7)->(33,7)->(32,7)->(31,7). None of these coordinates are in the list of 13 reachable unseen tiles. The agent's path seems to explore already seen areas or ledges, not the actual unseen tiles located in the western part of the map. Number of failed attempts with this agent: 1. Will use `pathfinding_agent` instead.
+
+- **Agent Failure (Turn 2305):** `pathfinding_agent` (path to (12,8) from (32,12) on Route 22) suggested moving Left from (32,8) [ground] to (31,8) [ledge] described as 'jumping down ledge'. This move is invalid as you cannot jump down onto a ledge tile from an adjacent ground tile at the same or higher elevation. Movement was blocked. Path needs recalculation from (32,8). Number of failed attempts with this agent path segment: 1.
