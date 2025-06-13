@@ -29,7 +29,7 @@
 *   **Primary:** Obtain the Boulder Badge from Pewter City Gym.
 *   **Secondary:** Find the trigger in Viridian City that opens the northern path to Pewter City.
 *   **Tertiary (Long-term):** Complete the Pokédex for Professor Oak.
-*   **Immediate Plan:** Thoroughly explore Viridian City's main area, interacting with NPCs to find the event/person that unblocks the path north to Route 2/Viridian Forest. Then, plan route to Pewter City.
+*   **Immediate Plan:** Explore Viridian Forest South Gate to find the northern exit into Viridian Forest proper. Navigate Viridian Forest, utilizing `wild_encounter_evaluator_agent` for encounters and potentially `pokedex_tracker_agent` for capture targets. Reach Pewter City.
 *   **Prepare for Pewter City Gym:** Assess Gym type and plan team accordingly (once known). Train Pokémon towards level cap if necessary.
 
 ## Pokémon Party & Log:
