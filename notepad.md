@@ -309,3 +309,8 @@
 ## XII. Notepad Maintenance Tasks (Critique Turn 2551)
 - Consolidate duplicated sections (e.g., 'Post-Brock Task List', 'Pre-Brock Agent Review & Fixes') into single, coherent sections.
 - Prioritize finding a reliable method to view full notepad content to enable accurate `replace` actions (e.g., if a 'read_notepad' tool becomes available or by careful manual reconstruction if necessary).
+
+(Appended under Section IV.B. Agent Performance Notes & Improvement Plans - Turn 2551)
+- **`item_finder_agent`**: Review definition to remove redundant `player_x`, `player_y` input, as agent can derive location from `map_xml_string` via its `run_code` capability.
+- **`capability_checker_agent`**: Must test this agent soon to determine its actual utility or delete it to free up an agent slot.
+- **`wkg_transition_recorder_agent`**: High priority to fix prompt to ensure it queries WKG for existing nodes before suggesting new node creation, to prevent duplicate nodes.
