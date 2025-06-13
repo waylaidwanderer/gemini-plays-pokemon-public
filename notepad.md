@@ -168,6 +168,8 @@
 - **Route 22 Navigation:** Ceased use of `pathfinding_agent` & `exploration_helper_agent` for Route 22. Using manual navigation. Plan documented in V.D.
 - **Notepad Discipline:** Overhauled notepad (Turn 2313) to remove duplications, consolidate objectives, and update agent notes per critique.
 - **Agent Strategy:** Prioritizing `wkg_transition_recorder_agent` prompt fix. Will test `capability_checker_agent` and review `item_finder_agent`. Agent dev ideas remain low priority.
+- **`capability_checker_agent`**: Untested. Seek opportunity to test or reconsider its necessity.
+- **`item_finder_agent`**: Review prompt for player_x/y input redundancy, given `agent_can_run_code` and access to `map_xml_string`.
 
 - **ledge**: Jump down only. One-way traversal. Confirmed (6,10) on Route 22 is a ledge when approached from (6,11) (below).
 
