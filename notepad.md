@@ -103,7 +103,7 @@
 
 ## Current Major Unresolved Issues (as of Turn 2562)
 *   **No Boulder Badge:** Game State consistently shows 'None' for badges after the battle with Brock. This means the level cap is still 12. Must re-investigate and likely re-challenge Brock.
-*   **Pewter City Pokémon Center Entry Saga:** Repeated attempts (at least 12 noted via system warnings and my own count of ~5 distinct failed hypotheses from T2530-T2539) to enter the Pewter Pokémon Center at (19,23)/(19,24) have failed. The exact warp mechanic for this 2x1 mat is not understood.
+*   **Pewter City Pokémon Center Entry Saga:** Repeated attempts (at least 12 noted via system warnings and my own count of ~5 distinct failed hypotheses from T2530-T2539, plus multiple attempts T2540-T2545, and then the final attempts before blacking out in T2546-T2548) to enter the Pewter Pokémon Center at (19,23)/(19,24) have failed. The exact warp mechanic for this 2x1 mat is not understood. Should have abandoned this approach much sooner and prioritized other healing methods or objectives.
 *   **Potion on Fainted Pokémon:** Confirmed Potions do not revive fainted Pokémon (attempted on NIGHTSHADE in Pewter Mart, T2561). Need Revives or Pokémon Center access.
 
 ## Post-Blackout Update (Turn 2641 - Viridian City)
