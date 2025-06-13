@@ -192,3 +192,9 @@
 - **Lessons Learned Update:** Added notes to V.A about Route 22 ledge navigation strategy and being careful with notepad `old_text` for `replace` actions.
 
 - Turn 2452: SPROUT (Lv9) defeated wild NIDORAN♂ Lv3 on Route 22. SPROUT EXP +12 (to 436). SPROUT HP now 21/29. SPARKY (lead, capped Lv12) gained +12 EXP (visual only, actual EXP 1728 unchanged).
+
+## IX. Critique Review & Action Plan (Turn 2460)
+- **PIP's HP:** Tertiary goal updated to healing PIP before further training. Will use a Potion after this battle.
+- **Agent Development Ideas (IV.C):** Added note: 'Decision on these agent ideas to be made post-Brock. Focus on current objectives.'
+- **Historical Log Length (VI):** Added note: 'Review and summarize/archive older historical log entries post-Brock.'
+- **Agent Prompts & Auto-Provided Variables (IV.B):** Added note to review prompts for code-enabled agents for clarity on `map_xml_string` and `world_knowledge_graph_json_string` usage.
