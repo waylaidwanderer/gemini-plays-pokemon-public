@@ -130,3 +130,5 @@
 *   Viridian Forest (ID 51) - (17,44) - Youngster (VIRIDIANFOREST_YOUNGSTER1) - Dialogue: "I came here with some friends! They're out for POKéMON fights!" - No battle.
 
 *   **Encounter Notes (Turn 2787-2789):** Wild WEEDLE battle with SPARKY active (T2787) ended inconclusively without EXP gain when an Up input was registered post-battle. Subsequently encountered another wild Lv4 WEEDLE (T2789) while moving towards Youngster at (28,41). System warning received to make longer movement sequences (T2788).
+
+*   **Viridian Forest NPC Notes (Turn 2806):** Youngster (VIRIDIANFOREST_YOUNGSTER6) at (28,41) gave a tip: "I ran out of POKé BALLs to catch POKéMON with! You should carry extras!" - No battle.
