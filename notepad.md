@@ -5,7 +5,8 @@
 *   **Rival Name:** Pixel
 *   **Current Badges:** 0
 *   **Current Level Cap:** 12 (0 badges)
-*   **Pokédex:** 4/151
+*   **Pokédex:** 5/151
+*   **Money:** ¥632
 
 ## Hard Mode Rules (Player-Only Restrictions):
 *   **Battle Style:** Set mode.
@@ -27,32 +28,21 @@
 *   EXP. All obtainable.
 
 ## Current Objectives & Plans (HOW to achieve goals):
-*   **Path to Pewter City for Boulder Badge:** Navigate Route 2 (south section) to the Viridian Forest South Gate warp at (4,44). Traverse Viridian Forest, exploring to find its North Gate. Continue on Route 2 (north section) from there to reach Pewter City.
-*   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas (grass, water, etc.). Pay close attention to NPC dialogue for hints about Pokémon locations or special encounter conditions.
-*   **Pewter Gym Preparation:** Upon reaching Pewter City, identify the Gym's type specialty and the Gym Leader's Pokémon lineup and levels. Train SPARKY and any other acquired Pokémon up to the current level cap (12), prioritizing type advantages against the expected Gym opponents.
+*   **Path to Pewter City for Boulder Badge:** Navigate Viridian Forest, exploring to find its North Gate. Continue on Route 2 (north section) from there to reach Pewter City.
+*   **Pokédex Completion Strategy:** Actively seek out and attempt to catch new Pokémon species in all encounter areas. Pay close attention to NPC dialogue for hints.
+*   **Pewter Gym Preparation:** Upon reaching Pewter City, identify Gym type, Leader's Pokémon/levels. Train team to cap (12), prioritizing type advantages.
 
-## Pokémon Party & Log:
-*   **SPARKY (Pikachu):** Lv7 (18/25 HP), 466 EXP (Current cap 12). THUNDERSHOCK PP: 29/30, GROWL PP: 40/40, QUICK ATTACK PP: 27/30.
-*   **NADEL (Weedle):** Lv4 (12/18 HP), 64 EXP (Current cap 12). POISON STING PP: 35/35, STRING SHOT PP: 40/40. Caught in Viridian Forest (Turn 870).
-*   **NIGHTSHADE (Oddish):** Lv6 (12/23 HP), 179 EXP (Current cap 12). TACKLE PP: 35/35, POISONPOWDER PP: 35/35. Caught in Viridian Forest (Turn 922).
-*   **GOTTSAMER (Caterpie):** Lv4 (18/18 HP), 64 EXP (Current cap 12). TACKLE PP: 35/35, STRING SHOT PP: 40/40. Caught in Viridian Forest (Turn 931).
+## Pokémon Party & Log (Current as of Turn 1038):
+*   **SPARKY (PIKACHU):** Lv7 (9/25 HP, EXP: 466). THUNDERSHOCK, GROWL, QUICK ATTACK.
+*   **NADEL (WEEDLE):** Lv4 (12/18 HP, EXP: 64). POISON STING, STRING SHOT. (Caught Viridian Forest, T870).
+*   **NIGHTSHADE (ODDISH):** Lv6 (12/23 HP, EXP: 179). TACKLE, POISONPOWDER. (Caught Viridian Forest, T922).
+*   **GOTTSAMER (CATERPIE):** Lv4 (18/18 HP, EXP: 64). TACKLE, STRING SHOT. (Caught Viridian Forest, T931).
+*   **AEGIS (KAKUNA):** Lv7 (24/24 HP, EXP: 343). POISON STING, STRING SHOT, HARDEN. (Caught Viridian Forest, T1014).
 
 ## Items Obtained:
-*   **OAK'S PARCEL:** Received from Viridian Mart shopkeeper. Delivered to Prof. Oak (Turn 524).
+*   **POKé BALL x7**
+*   **OAK'S PARCEL:** Delivered to Prof. Oak (Turn 524).
 *   **POKéDEX:** Received from Prof. Oak (Turn 529).
-*   **POKé BALL x7:** Bought 7 from Viridian Mart (Turn 575), Found 1 in Viridian Forest (Turn 926). Used 1 on GOTTSAMER (Turn 931), Used 1 on AEGIS (Turn 1014).
-
-## Lessons Learned / Hypotheses / Game Mechanics:
-*   **Menu Navigation (Naming Screen):** Precise inputs needed. Verify letter before 'A'. 'B' is backspace.
-*   **Poison:** Outside battle, -1 HP every 4 steps.
-*   **Pikachu Movement:** Can walk through. Adjacent & not facing: 1st press turns, 2nd moves.
-*   **Ledge Traversal:** One 'Down' press from above moves to Y+2.
-*   **Warp Types:** 1x1 instant (move off/on to re-warp). Larger warps (2x1, 1x2) need 2 steps (onto warp, then into boundary).
-*   **Critical Game Mechanic:** ALWAYS press 'A' to clear dialogue/text BEFORE other inputs.
-*   **Ghost vs. Psychic:** Ghost-type moves are SUPER EFFECTIVE against Psychic. (Learned from OAKSLAB_SCIENTIST1).
-*   **Trust Game Data:** Trust `Reachable Unseen Tiles` list.
-*   **Failed Interaction Loops:** If an NPC/object interaction yields no progress after 2-3 varied attempts, a different trigger is likely needed. Don't repeat failed interactions. (Turn 207, reiterated for Youngster Route 1 ~350s)
-*   **Coordinate Misreads:** Double-check current coordinates from game state before planning movement to avoid errors like the one with the Route 1 Youngster. (Turn 359)
 
 ## Discovered Tile Types & Properties:
 *   `ground`: Walkable.
@@ -60,70 +50,55 @@
 *   `grass`: Wild encounters.
 *   `ledge`: Jump down (Y+2), not up.
 
-## Defeated Trainers:
-*   (Map - Coordinates - Trainer Name)
-    *   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
+## Lessons Learned / Game Mechanics:
+*   **Menu Navigation (Naming Screen):** Precise inputs needed. Verify letter before 'A'. 'B' is backspace.
+*   **Poison:** Outside battle, -1 HP every 4 steps.
+*   **Pikachu Movement:** Can walk through. Adjacent & not facing: 1st press turns, 2nd moves.
+*   **Ledge Traversal:** One 'Down' press from above moves to Y+2.
+*   **Warp Types:** 1x1 instant (move off/on to re-warp). Larger warps (2x1, 1x2) need 2 steps (onto warp, then into boundary).
+*   **Critical Game Mechanic:** ALWAYS press 'A' to clear dialogue/text BEFORE other inputs.
+*   **Ghost vs. Psychic:** Ghost-type moves are SUPER EFFECTIVE against Psychic.
+*   **Trust Game Data:** Trust `Reachable Unseen Tiles` list.
+*   **Failed Interaction Loops:** If an NPC/object interaction yields no progress after 2-3 varied attempts, a different trigger is likely needed. (Youngster Route 1 ~T350s, Viridian Forest Youngster T739-743).
+*   **Coordinate Misreads:** Double-check current coordinates from game state before planning movement.
+*   **DV Checking Tip:** Hold START while pressing A on a Pokémon's STATS screen to check DVs. (Old Man Viridian, T707).
+*   **Notepad `replace` Action:** `old_text` must be an *exact* match. Multiple failures (T996-1026) due to slight mismatches. If `replace` fails repeatedly, consider `overwrite` for the section or entire notepad.
 
-## Custom Agent Notes & Usage:
-*   `battle_strategist_agent`: Defined. Use for significant trainer battles.
-*   `route_planner_agent`: Defined. **Observation (Turn 542):** Failed to find a path on Route 1 (a fully explored map) for intra-map routing with ledges. **Contingency:** Treat this agent as highly unreliable for complex intra-map pathfinding with obstacles like ledges. Prioritize manual pathfinding for such situations. **Future Consideration:** If failures persist, consider defining a simpler pathing agent or refining input specificity for this one.
-*   `rom_hack_mechanic_analyzer_agent`: Defined. Use for deducing new mechanics.
-*   `level_cap_compliance_agent`: Defined. Used on Turn 407, all okay.
-*   `wild_encounter_evaluator_agent`: Defined. Purpose: Decide fight/run/catch for wild encounters based on party, map, goals. (Use at next wild encounter).
-*   `npc_dialogue_analyzer_agent`: Defined. Purpose: Analyze NPC dialogue for clues.
+## Active Hypotheses / Things to Test:
+*   Can the `route_planner_agent` be improved for intra-map pathing with better prompting?
+*   Are there specific conditions to trigger battles with certain NPCs who initially only offer dialogue (e.g., Youngster in Viridian Forest)?
+
+## Defeated Trainers:
+*   OAK'S LAB (ID 40) - (6,6) - Rival Pixel (initial battle)
+*   Viridian Forest (ID 51) - (3,42) - Lass (Cool Trainer F sprite)
+
+## Agent Definitions & Usage Log:
+*   **`battle_strategist_agent`**: Defined. Use for significant trainer battles.
+*   **`route_planner_agent`**: Defined. **Observation (T542):** Failed intra-map on Route 1. **(T1038 Update):** System prompt needs refinement for limitations.
+*   **`rom_hack_mechanic_analyzer_agent`**: Defined. Use for deducing new mechanics.
+*   **`level_cap_compliance_agent`**: Defined. Used T407 (all okay).
+*   **`wild_encounter_evaluator_agent`**: Defined. Used T929 (Caterpie - CATCH), T1012 (Kakuna - CATCH), T1031 (Pidgeotto - RUN), T1037 (Kakuna - FIGHT).
+*   **`npc_dialogue_analyzer_agent`**: Defined. Low usage, consider more frequent application.
+*   **`pokedex_tracker_agent`**: Defined. Untested.
+*   **`hm_obstacle_identifier_agent`**: Defined. Untested.
+*   **`optimal_training_spot_agent`**: Defined. Untested.
+*   **(T1038 New) `exploration_optimizer_agent`**: To be defined. Suggests next exploration target.
+*   **(T1038 New) `item_reminder_agent`**: To be defined. Reminds about nearby uncollected items.
 
 ## World Knowledge Graph Notes:
-*   **Critical:** Record inter-map transitions (map boundary, warps) IMMEDIATELY using `manage_world_knowledge` upon map_id change. Do not defer.
+*   **Critical:** Record inter-map transitions IMMEDIATELY using `manage_world_knowledge` upon map_id change.
 
-## Past Area Notes:
-*   **Route 1 (ID 12):** Connects Pallet Town (S) and Viridian City (N). Wild: Pidgey, Rattata, Spearow. Youngster (6,27) & Youngster (18,14) gave STAT EXP tips. Sign at (10,28).
-*   **Viridian City Pokémon Center (ID: 41):** Used for healing.
-*   **Viridian City Mart (ID: 42):** Obtained OAK'S PARCEL. Bought Poké Balls.
-*   **Oaks Lab (ID: 40):** Delivered OAK'S PARCEL. Received Pokédex & mission.
+## Area Notes:
+### Viridian Forest (ID 51) - Current Area
+*   **Objective:** Find North Gate to Route 2 (North).
+*   **Key NPCs:** Youngster (17,44) - non-battling so far. Lass (3,42) - defeated.
+*   **Items:** Poké Ball found (2,32).
+*   **Encounters:** Weedle, Caterpie, Kakuna, Oddish, Pidgeotto (Lv9, ran).
+*   **Pathing Issues:** Difficulty navigating around Youngster at (17,44) and impassable tile (17,43). Impassable tree at (22,40).
+*   **Current Location (Pre-Battle):** (23,41). Exploring towards unseen tiles in NE (e.g., (26,36)).
 
-## Route 1 Navigation Strategy (Post-Critique & Agent Failure)
-*   The `route_planner_agent` failed to find a path on Route 1 (Turn 542). This suggests limitations with the agent for complex intra-map routing with obstacles like ledges.
-*   Revised strategy for Route 1 (from south, e.g., (15,29)) to reach northern exit: Head west to find gaps in ledges (e.g., around (9,28)) rather than making wide eastern detours. Ledges are impassable from below; always look for lateral openings. Manual pathing was successful.
-
-## Current Area Notes:
-*   **Viridian City (ID: 1):** Arrived from Route 1 at (22,36). The path north to Pewter City is currently blocked. Need to find an NPC or event in Viridian City to open this path. Many reachable unseen tiles still to explore, particularly in the main city area.
-
-## Viridian School House (ID: 43)
-*   Blackboard at (4,1) teaches about Sleep (SLP) status and that the item AWAKENING can be used to wake them up. (Learned at Turn 654).
-*   Cool Trainer F at (5,2) is a non-battling NPC; she advised reading the blackboard carefully. (Interaction at Turn 657).
-*   This area appears fully explored. Exiting.
-
-*   **DV Checking Tip:** Hold START while pressing A on a Pokémon's STATS screen to check its growth potential (DVs). (Learned from Old Man in Viridian City, Turn 707).
-
-## Route 2 Notes:
-*   Sign at (6,66) reads: 'ROUTE 2 VIRIDIAN CITY - PEWTER CITY'. (Turn 718)
-## Viridian Forest South Gate (ID: 50)
-*   Arrived from Route 2 (South Warp at (4,44) on Route 2, arriving at (5,8) here).
-*   This is a gatehouse leading to Viridian Forest.
-*   Need to explore north to find the exit into the forest.
-*   NPCs: Girl at (9,5), Little Girl at (3,6).
-
-## Viridian Forest Notes
-*   Youngster (ID 1) at (17,44) with dialogue "I came here with some friends! They're out for POKéMON fights!" did not initiate a battle after 4+ 'A' presses (Turns 739-743). Conclusion: Likely already defeated or non-battling NPC. Moving on.
-
-    *   Viridian Forest (ID 51) - (3,42) - Lass (Cool Trainer F sprite, battled with NIDORAN♀ Lv6, NIDORAN♂ Lv6)
-
-*   Lass at (3,42) mentioned running into an ODDISH in Viridian Forest. (Turn 777).
-*   Reminder: Check signs in Viridian Forest when exploration resumes (e.g., sign at (19,46)).
-*   **SPARKY (Pikachu):** Healed to full HP (25/25). PP restored.
-*   **Money:** Decreased to ¥632 due to blackout.
-*   **Secondary Goal Update:** After blacking out and returning to Viridian Forest, the immediate goal is to navigate through it to find the north exit. Healing will be addressed later.
-
-## Viridian City Update (Turn 795):
-*   The old man previously blocking the path north to Route 2 at (20,5) is gone.
-*   The path to Route 2 is now clear.
-*   Secondary goal 'Find the trigger in Viridian City that opens the northern path to Pewter City' is now considered complete as the path is open.
-*   New secondary goal: Travel to Pewter City.
-
-*   **GOSSAMER (Caterpie):** Lv4. Caught in Viridian Forest (Turn 931). Added to party.
-
- (Used 0 on Caterpie - still 9 after catch!)
-
-*   **AEGIS (Kakuna):** Lv7 (24/24 HP), 343 EXP (Current cap 12). POISON STING PP: 35/35, STRING SHOT PP: 40/40, HARDEN PP: 30/30. Caught in Viridian Forest (Turn 1014).
-
-*   **AEGIS (Kakuna):** Lv7 (24/24 HP), 343 EXP (Current cap 12). POISON STING PP: 35/35, STRING SHOT PP: 40/40, HARDEN PP: 30/30. Caught in Viridian Forest (Turn 1014).
+### Past Areas (Summary)
+*   **Pallet Town (ID 0, etc.):** Started, got Pikachu.
+*   **Route 1 (ID 12):** Traversed.
+*   **Viridian City (ID 1, etc.):** Got Parcel, Pokédex. Path North to Route 2 opened (T795).
+*   **Route 2 (South) (ID 13) / Viridian Forest South Gate (ID 50):** Entry point to Viridian Forest.
