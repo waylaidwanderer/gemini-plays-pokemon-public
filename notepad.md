@@ -6,7 +6,7 @@
 *   **Current Badges:** 0
 *   **Current Level Cap:** 12 (0 badges)
 *   **Pokédex:** 5/151
-*   **Money:** ¥376
+*   **Money:** ¥446
 
 ## Hard Mode Rules (Player-Only Restrictions):
 *   **Battle Style:** Set mode.
