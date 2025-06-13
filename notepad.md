@@ -1,8 +1,8 @@
 ## Game Info
 *   **Player Name:** Gem
 *   **Rival Name:** Pixel
-*   **Current Badges:** 0
-*   **Current Level Cap:** 12 (0 badges)
+*   **Current Badges:** 1 (Boulder Badge)
+*   **Current Level Cap:** 21 (1 badge)
 *   **Pokédex:** 7/151
 *   **Money:** ¥506
 
