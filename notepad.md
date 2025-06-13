@@ -83,3 +83,7 @@
 
 ## Current Area Notes:
 *   **Oaks Lab (ID: 40):** Player at (6,4). Task: Deliver OAK'S PARCEL to Prof. Oak at (6,3) (Completed). Received Pokédex and mission to complete it.
+
+## Route 1 Navigation Strategy (Post-Critique & Agent Failure)
+*   The `route_planner_agent` failed to find a path on Route 1 (Turn 542), despite the map being fully explored. This suggests potential limitations with the agent for complex intra-map routing with obstacles like ledges.
+*   Revised strategy for Route 1 (from south, e.g., (15,29)) to reach northern exit: Head west to find gaps in ledges (e.g., around (9,28)) rather than making wide eastern detours. Ledges are impassable from below; always look for lateral openings.
