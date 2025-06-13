@@ -92,9 +92,9 @@
     *   Immediate plan: Interact with sign at (22,30), then locate Pokémon Center.
 
 ## Viridian City Pokémon Center (ID: 41)
-*   Arrived at (4,8).
-*   Located Pokémon Center! Priority: Heal SPARKY, then explore this area.
-*   Next, find PokéMart in Viridian City.
+*   Arrived at (4,8). Current position (4,4).
+*   SPARKY healed (Turn 438)! All HP/PP restored.
+*   Next: Explore remaining unseen tiles in Poké Center, then exit and find PokéMart in Viridian City.
 
 ## Pokémon Log (Updates)
 *   SPARKY (Pikachu): Healed at Viridian Pokémon Center (Turn 438). All HP/PP restored.
