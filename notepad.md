@@ -1,6 +1,10 @@
 # Gem's Strategic Plan & Learnings
 
 ## Current Plan
+1. Party is in critical condition. Priority is to reach Pewter City to heal.
+2. Acquire the item at (13, 30) as it is on the way.
+3. Navigate Viridian Forest as safely as possible, avoiding all optional trainers and grass patches if possible.
+4. Use pathfinding agents to minimize risk and avoid getting lost.
 
 ## Lessons & Failed Hypotheses Log
 *   **Route 22 Training:** The main grassy area is inaccessible from the south/east. It requires jumping down ledges from an area blocked by the Pokémon League guard. (Failed >10 attempts to access). **Resolution: Abandoned. Training must be integrated with progression on the main path.**
