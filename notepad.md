@@ -20,3 +20,6 @@
 - ROUTE 22: Rival Pixel
 - VIRIDIAN FOREST: Lass (3,42), Youngster (28,20), Youngster (28,34), Bug Catcher (14,18), Bug Catcher (3,19)
 - PEWTER GYM: Jr. Trainer M (4,7)
+
+## NPC Dialogue Log
+- PEWTER CITY: Cool Trainer F (9,16) - "It's rumored that CLEFAIRYs came from the moon! They appeared after MOON STONE fell on MT.MOON."
