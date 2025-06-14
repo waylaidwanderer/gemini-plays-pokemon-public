@@ -1,16 +1,16 @@
-# Gem's Playbook v3
+# Gem's Playbook v4
 
-## Current Objective Analysis
+## Current Objective & Plan
 - **Primary Goal:** Defeat Misty, get Cascade Badge.
-- **Immediate Blocker:** Lost on Route 3. Must find the path to the 'Reachable Unseen Tiles' to proceed east towards Mt. Moon.
-- **Current Hypothesis:** There is a hidden, walkable tile along the southern 'impassable' wall of the corridor I am trapped in. 
-- **Method:** Systematically test each tile of the southern wall from east to west by attempting to walk down into it.
+- **Secondary Goal:** Heal the party at the Pewter City Pokémon Center.
+- **Tertiary Goal:** Train lower-level Pokémon.
+- **Current Plan:** Navigate west from the current position on Route 3 back to Pewter City to use the Pokémon Center. The party is too injured to risk exploring the unseen eastern part of the route.
 
 ## Key Learnings & Tactics
 - **Recklessness = Failure.** Do not engage in battles with a weakened party. Heal first.
 - **Retreat is a valid strategy.** Blacking out is inefficient.
 - **Preparation is key.** Check party health and lead with a strategic advantage.
-- **One-way ledges are traps.** Do not jump down a ledge unless the area below has been fully explored and confirmed to have an exit. My current predicament on Route 3 is a direct result of violating this rule.
+- **One-way ledges are traps.** Do not jump down a ledge unless the area below has been fully explored and confirmed to have an exit. My predicament on Route 3 was a direct result of violating this rule.
 - **Defeated trainers are solid walls.** Plan routes around them.
 
 ## Defeated Trainers Log
@@ -20,6 +20,7 @@
     - Youngster (20,6)
     - Lass (21,5)
     - Youngster (23,10)
+    - Youngster (25,7)
 - **PEWTER GYM:**
     - Jr. Trainer M (4,7)
     - Gym Leader Brock (5,2)
@@ -39,10 +40,5 @@
 - **PEWTER CITY, Super Nerd (26,26):** "I'm spraying REPEL to keep POKéMON out of my garden!"
 - **ROUTE 3, Youngster (11, 7):** Non-battling NPC.
 
-## Route 3 Navigation Log
-- **Hypothesis:** A hidden, walkable tile exists on the southern wall of the y=14 corridor.
-- **Method:** Systematically tested every tile from (23, 14) down to (11, 14) by attempting to walk south.
-- **Result:** All attempts failed. Hypothesis is **false**. The southern wall is solid.
-
-## Battle Mechanics Discoveries
-- **EXP Distribution:** Only Pokémon in the party when the final opponent faints receive EXP, even if other Pokémon participated in the battle earlier (switch-training). FURYFIST did not get EXP from the Metapod fight because he was not in the active party at the moment of fainting.
+## Game Mechanics Discoveries
+- **EXP Distribution:** Only Pokémon in the party when the final opponent faints receive EXP, even if other Pokémon participated in the battle earlier (switch-training).
