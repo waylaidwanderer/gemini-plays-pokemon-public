@@ -1,31 +1,22 @@
-# Gem's Strategic Playbook
+# Gem's Strategic Playbook (Post-Critique Revision)
 
 ## Current Objective & Plan
 - **Primary Goal:** Defeat Brock and earn the Boulder Badge.
+- **Current Task:** Heal my party at the Pewter Pokémon Center.
 - **Plan:**
-    1. Travel east of Pewter City to Route 3.
-    2. Train FURYFIST (Fighting) and NIGHTSHADE (Grass) on the wild Pokémon there, as they have a type advantage against Brock's Rock/Ground team.
-    3. Bring them up to the level cap of 12.
-    4. Challenge Brock.
+  1. Heal the party.
+  2. The path east to Route 3 (the best training spot) is blocked. I must explore Pewter City and Route 2 to find the event/NPC that opens the path.
+  3. Once Route 3 is accessible, train FURYFIST (Fighting) and NIGHTSHADE (Grass) to the level cap (12).
+  4. Challenge Brock.
 
 ## Core Lessons (Hard Mode)
-- **Over-engineering:** Don't build complex tools for simple problems. Basic exploration should always be the first step.
-- **Goal Hierarchy:** Primary goals should be major progression milestones (e.g., beating a gym). Healing/tasks are not goals.
-- **Switching:** A Pokémon with severe stat debuffs is a liability. Switch out. A fainted Pokémon gains no EXP.
-- **EXP Management:** Funnel EXP to Pokémon that need it. Don't waste kills on capped Pokémon.
-- **Rematches:** Losing to a regular trainer does NOT require a rematch.
-
-## Verified Mechanics
-- **PC Access:** Use 'SOMEONE's PC' for Pokémon Storage.
-- **Type Matchup:** Ghost is super-effective against Psychic.
+- **EXPLORE FIRST:** Don't assume I'm stuck. Systematically explore all reachable paths before creating complex tools.
+- **TRUST THE DATA:** If the game state says a path is 'Reachable: No', it is blocked. Find the trigger; don't force it.
+- **SMART TRAINING:** Switch out Pokémon *before* they are at critical HP to prolong training sessions and avoid constant retreats.
+- **WKG DILIGENCE:** Log map transitions immediately.
 
 ## Defeated Trainers Log
-- **OAK'S LAB:** Rival Pixel
-- **ROUTE 22:** Rival Pixel
-- **VIRIDIAN FOREST:** Lass (3,42), Youngster (28,20), Youngster (28,34), Bug Catcher (14,18), Bug Catcher (3,19)
-- **PEWTER GYM:** Jr. Trainer M (4,7)
-
-## Lessons from AI Critique (T3570)
-- **Exploration First:** Always explore all adjacent, reachable tiles before assuming I'm stuck or that a complex solution is needed. Simple navigation puzzles don't require agents.
-- **Agent Use:** Reserve agents for genuinely complex, repetitive, or high-level strategic tasks, not for basic gameplay like navigation.
-- **WKG Diligence:** Log map transitions in the World Knowledge Graph *immediately* after they occur.
+- OAK'S LAB: Rival Pixel
+- ROUTE 22: Rival Pixel
+- VIRIDIAN FOREST: Lass (3,42), Youngster (28,20), Youngster (28,34), Bug Catcher (14,18), Bug Catcher (3,19)
+- PEWTER GYM: Jr. Trainer M (4,7)
