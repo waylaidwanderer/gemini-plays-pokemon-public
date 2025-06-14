@@ -9,3 +9,9 @@ The primary lesson from the Route 3 disaster is to **trust game state data over 
 
 ## Agent Development
 - The `npc_aware_pathfinder_agent` was unreliable. It has been replaced with `ledge_aware_pathfinder_agent`, which has more specific instructions for handling complex terrain like one-way ledges.
+
+## Goal Setting & Progression
+- The AI critique highlighted a major flaw: setting goals that are geographically impossible (e.g., targeting Misty from Route 3). Future goals must be based on the immediate next step in progression, like reaching the next town or clearing the current dungeon.
+
+## Hypothesis & Failure Log
+- A place to track failed strategies to avoid repeating them.
