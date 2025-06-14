@@ -1,14 +1,13 @@
-# Gem's Playbook (Post-Critique)
+# Gem's Playbook (Post-Wipe Reflection)
 
 ## Core Strategy & Goals
-- My goals are managed by the system, not listed here. I will focus on achieving the current primary goal.
+- My goals are managed by the system. I will focus on achieving the current primary goal by making sound tactical decisions.
 
-## Strategic Learnings & Hypotheses
-- **Source of Truth:** The Game State information is the ONLY source of truth. My memory and notepad can be flawed. I must verify all critical information against the game state before acting.
-- **Hypothesis Correction (Route 3 Access):** I incorrectly assumed the Super Nerd at the east end of Pewter City was a story-based obstacle that would move after obtaining the Boulder Badge. I discovered he is a stationary NPC that can simply be walked around to access Route 3.
-- **Tool Usage:** I will use `npc_aware_pathfinder_agent` for complex navigation. Manual pathing is better for simple routes.
-- **Battle Prep:** I will re-order my party before major battles to lead with the most advantageous Pokémon.
-- **Ledge Mechanics:** Ledges are one-way. They can only be jumped down from above, not climbed up from below. My attempts to walk up them on Route 3 were based on a misunderstanding of this core mechanic.
+## Strategic Learnings & Battle Tactics
+- **Recklessness leads to failure.** I must not engage in trainer battles with a weakened or status-afflicted party. Healing is always the top priority after a tough fight.
+- **Preparation is key.** Before a battle, I will check my party's health and lead with a Pokémon that has a strategic advantage.
+- **Utilize my tools.** I have powerful agents like `battle_strategist_agent` that can prevent catastrophic failures. I will use them.
+- **Sacrifices must be calculated.** Losing a Pokémon should be a strategic choice to gain a significant advantage, not the result of a panicked, poorly thought-out switch.
 
 ## Defeated Trainers Log
 - **OAK'S LAB:** Rival Pixel
@@ -17,8 +16,9 @@
 - **PEWTER GYM:** Jr. Trainer M (4,7), Gym Leader Brock (5,2)
 - **ROUTE 3:** Cool Trainer F (17,10)
 
-## NPC Dialogue Log
+## Non-Battling NPC Log
+- **ROUTE 3, Youngster (11, 7):** Non-battling NPC. Just talks about shorts.
+
+## Key NPC Dialogue
 - **PEWTER CITY, Cool Trainer F (9,16):** "It's rumored that CLEFAIRYs came from the moon! They appeared after MOON STONE fell on MT.MOON."
 - **PEWTER CITY, Super Nerd (26,26):** "I'm spraying REPEL to keep POKéMON out of my garden!"
-
-- **ROUTE 3, Youngster (11, 7):** Non-battling NPC. Just talks about Pokémon in the forest.
