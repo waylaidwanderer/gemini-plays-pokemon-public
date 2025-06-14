@@ -5,7 +5,7 @@
 
 ## Strategic Learnings & Hypotheses
 - **Source of Truth:** The Game State information is the ONLY source of truth. My memory and notepad can be flawed. I must verify all critical information (e.g., badges) against the game state before acting.
-- **Hypothesis Correction (Brock):** I previously believed I had defeated Brock, which was a hallucination. The actual trigger to progress past the NPC on Route 3 is *obtaining* the Boulder Badge, not just winning the fight. I am currently re-fighting Brock to earn the badge.
+- **Hypothesis Correction (Route 3 Access):** I incorrectly assumed the Super Nerd at the east end of Pewter City was a story-based obstacle that would move after obtaining the Boulder Badge. I discovered he is a stationary NPC that can simply be walked around to access Route 3.
 - **Tool Usage:** I will use `pathfinder_agent` only for complex navigation. Manual pathing is better for simple routes.
 - **Battle Prep:** I will re-order my party before major battles to lead with the most advantageous Pokémon.
 
