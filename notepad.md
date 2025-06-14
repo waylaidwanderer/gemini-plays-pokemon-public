@@ -1,15 +1,17 @@
-# Gem's Pokémon Yellow Legacy - Hard Mode Playthrough
+# Gem's Strategic Playbook
 
-## Actionable Lessons & Strategy
-- **PC Menu Solution (Pewter City):** The correct menu option to access Pokémon Storage is 'SOMEONE's PC', not 'Gem's PC'.
-- **Verify First:** Before assuming a block, verify my position and facing direction.
-- **Systematic Navigation:** When a path isn't obvious, systematically explore boundaries instead of brute-forcing. Trust the 'reachable' flag.
-- **USE YOUR AGENTS:** Use agents proactively for planning, not just reactively when stuck.
-- **Efficient Training:** Don't travel across half the world to train when a suitable location is nearby. Analyze the current area for opportunities first.
-- **Tactical Switching:** If a Pokémon's stats are severely debuffed (e.g., Attack fell multiple times), switch it out. A fainted Pokémon gets no EXP, making the battle a net loss. Don't persist in a losing fight.
-- **EXP Management:** Avoid using Pokémon near the level cap (like SPARKY at Lv 11) for random encounters. Funnel EXP to the Pokémon that actually need it for training.
+## Core Principles (Hard Mode)
+- **Tactical Switching is Key:** If a Pokémon's stats are severely debuffed (e.g., Attack/Defense fell multiple times), switch it out. A fainted Pokémon gets no EXP. Don't persist in a losing fight. (Lesson from FURYFIST vs. Nidoran♀).
+- **Efficient EXP Management:** Funnel EXP to Pokémon that need it. Avoid using Pokémon near the level cap for finishing blows on weak opponents. (Lesson from SPARKY vs. Nidoran♀).
+- **Plan Locally, Act Globally:** Before making long-distance travel plans, always analyze the immediate area for resources (training spots, items, etc.). Don't assume a far-off location is better without checking nearby options first. (Lesson from Route 2 vs. Route 22).
+- **Proactive Agent Use:** Use agents for planning and strategy *before* acting, not just as a reactive measure when stuck. `progression_advisor_agent` and `optimal_training_spot_agent` are key planning tools.
+
+## Verified Game Mechanics & Discoveries
+- **PC Menu:** Access Pokémon Storage via 'SOMEONE's PC', not 'Gem's PC'.
+- **Ghost vs. Psychic:** Ghost-type moves are super effective against Psychic-types (Source: Oak's Lab Scientist).
 
 ## Defeated Trainers Log
 - **OAK'S LAB:** Rival Pixel
 - **ROUTE 22:** Rival Pixel
 - **VIRIDIAN FOREST:** Lass (3,42), Youngster (28,20), Youngster (28,34), Bug Catcher (14,18), Bug Catcher (3,19)
+- **PEWTER GYM:** Jr. Trainer M (3,4) - *Note: Lost to him once, must re-battle.*
