@@ -21,3 +21,6 @@
 - **Objective:** Train NIGHTSHADE, FURYFIST, and SPIKE to Lv. 12.
   - FURYFIST needs to learn Low Kick at Lv. 9.
   - SPIKE needs to learn Double Kick at Lv. 12.
+
+## World Knowledge Graph Tasks
+- Add edge between Pewter City (Node ID needed) and Pewter Pokecenter (Node ID needed).
