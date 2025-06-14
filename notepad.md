@@ -15,3 +15,8 @@ The primary lesson from the Route 3 disaster is to **trust game state data over 
 
 ## Hypothesis & Failure Log
 - A place to track failed strategies to avoid repeating them.
+
+## Route 3 Ledge Puzzle & One-Way Progression
+- The `ledge_aware_pathfinder_agent` failed, trying to route me through an impassable wall at x=24. This confirms I am on a one-way path after jumping down a ledge earlier.
+- I cannot retreat to Pewter City. The only way forward is east, towards Mt. Moon, despite having fainted Pokémon. This is a high-risk situation.
+- Lesson: Ledges can create points of no return. Always check the map thoroughly before committing.
