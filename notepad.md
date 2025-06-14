@@ -9,9 +9,9 @@
 ## 2. Key Learnings & Mechanics
 *   **Poison Damage:** 1 HP per 4 steps outside of battle.
 *   **BITE Move:** Normal-type.
-*   **Defeated Trainers:** They are solid obstacles.
-*   **Location Verification:** Trust Game State, not memory.
-*   **Route 3 Navigation:** This route is a maze of ledges and one-way paths. Do not assume a path exists without visual confirmation or using a pathfinding agent. Got lost for ~20 turns in the SE corner.
+*   **Defeated Trainers:** They are NOT solid obstacles. They can be walked past. My previous assumption was a major hallucination that cost me over 75 turns.
+*   **Location Verification:** Trust Game State Information (e.g., 'Reachable: Yes') over personal assumptions or even agent outputs. If the game says a path exists, it does.
+*   **Building Entrances:** Standard building entrances are warps triggered by walking INTO the impassable door tile.
 
 ## 3. World Clues & Objectives
 *   Team Rocket is at **Mt. Moon**.
@@ -23,10 +23,7 @@
     *   **Test:** Navigate to the eastern exit of Route 3.
 
 ## 5. Immediate Tasks
-*   Find the Pokémon Center at Mt. Moon to heal the party.
+*   Heal the party at the Pewter City Pokémon Center.
 
 ## 6. Major Blunders & Resets
-*   **Route 3 Maze Failure (Turn ~4300):** Got completely lost in the SE corner after jumping down ledges. This area is a one-way navigational trap. The only solution is to retreat west to the route entrance and take the correct northern path. Do not attempt to find an exit east or north from the southern section. Avoid the lower ledges entirely.
-
-## Major Blunders & Resets
-*   **Route 3 Trapped (Turn ~4366):** After defeating several trainers on the upper path of Route 3, I am now trapped. The defeated trainers at (20, 6) and (15, 5) act as impassable objects, blocking the way back west to Pewter City. The pathfinding agent confirmed there is no way back. **Conclusion:** The upper path of Route 3 is a one-way trip eastward. New plan is to proceed east towards Mt. Moon and hope for a Pokémon Center there.
+*   **Route 3 Hallucination (Turns ~4366-4440):** I incorrectly concluded that defeated trainers were impassable obstacles, trapping me on the eastern side of Route 3. This was a complete hallucination, as the Game State consistently indicated the path to Pewter City was reachable. This led to a ~75 turn loop of failed exploration and near party-wipe. **Lesson:** Always trust the game's ground truth data over personal assumptions. Defeated trainers do not block the path.
