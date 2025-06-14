@@ -1,8 +1,7 @@
 # Game Mechanics & Lessons
 
 ## Navigation
-- **Misinterpretation of Obstacle (Mt. Moon B2F):** My repeated failures to pass the Rocket Grunt at (16, 23) led me to incorrectly conclude that defeated trainers are impassable. The critique suggests this is a hallucination. The blockage is likely an invisible wall on an *adjacent* tile, not the sprite itself. I must return to B2F after healing and systematically test all tiles around the grunt to find the correct path forward.
-
+- **Corrected Hypothesis (Mt. Moon B2F Obstacle):** My repeated failures (3 attempts) to pass the Rocket Grunt at (16, 23) were due to a flawed exploration method. I was trying to walk *through* his sprite. The critique suggests the blockage is an invisible wall on an *adjacent* tile. **New Plan:** After healing, I must return to B2F and systematically test *all* tiles surrounding the grunt (left, right, above, below) to find the correct path. I will not assume a path is a dead end until all adjacent tiles are tested.
 ## Agent Development & Tactics
 - **Pathfinder Agent Correction:** The update to the `master_pathfinder_agent` was based on the flawed assumption about defeated trainers. This change must be reverted. The agent should NOT treat defeated trainers as obstacles until this mechanic is proven with certainty.
 - Battle tactics need to be more proactive. I will not wait until a Pokémon's HP is critical before using priority moves like Quick Attack.
