@@ -62,5 +62,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_type\":{\"type\":\"string\"},\"keywords\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"pokemon_type\",\"keywords\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_nicknames\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"suggested_nicknames\"]}",
     "agent_can_run_code": false
+  },
+  "pre_adventure_checker_agent": {
+    "agent_name": "pre_adventure_checker_agent",
+    "agent_description": "Checks the player's party for low HP, low PP, or status conditions and recommends visiting a Pokémon Center if necessary before starting a new objective.",
+    "agent_system_prompt": "You are a Pre-Adventure Checker. Your purpose is to analyze the player's party and advise if they are ready for a new task (like training, exploring a dungeon, or a gym battle). Input: {\"player_party\": [{\"name\": string, \"hp_current\": integer, \"hp_max\": integer, \"status\": string_or_null, \"moves\": [{\"pp_current\": integer, \"pp_max\": integer}]}]}. Output Schema: {\"type\":\"object\",\"properties\":{\"recommend_pokecenter\":{\"type\":\"boolean\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommend_pokecenter\", \"reasoning\"]}. Logic: Check each Pokémon. Set `recommend_pokecenter` to true if any Pokémon has a status condition (not null), if HP is below 80% for any Pokémon, or if any move's PP is below 50%. Provide a clear `reasoning` message explaining why a visit is recommended (e.g., 'THISTLE has Paralysis.', 'SPROUT has low HP.'). If all checks pass, set to false and provide a positive reasoning message.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"hp_current\":{\"type\":\"integer\"},\"hp_max\":{\"type\":\"integer\"},\"status\":{\"type\":[\"string\",\"null\"]},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"pp_current\":{\"type\":\"integer\"},\"pp_max\":{\"type\":\"integer\"}},\"required\":[\"pp_current\",\"pp_max\"]}}},\"required\":[\"name\",\"hp_current\",\"hp_max\",\"status\",\"moves\"]}}},\"required\":[\"player_party\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommend_pokecenter\":{\"type\":\"boolean\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommend_pokecenter\",\"reasoning\"]}",
+    "agent_can_run_code": false
   }
 }
