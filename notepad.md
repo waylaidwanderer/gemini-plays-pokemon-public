@@ -38,3 +38,8 @@
 - **PEWTER CITY, Cool Trainer F (9,16):** "It's rumored that CLEFAIRYs came from the moon! They appeared after MOON STONE fell on MT.MOON."
 - **PEWTER CITY, Super Nerd (26,26):** "I'm spraying REPEL to keep POKéMON out of my garden!"
 - **ROUTE 3, Youngster (11, 7):** Non-battling NPC.
+
+## Route 3 Navigation Log
+- **Hypothesis:** A hidden, walkable tile exists on the southern wall of the y=14 corridor.
+- **Method:** Systematically tested every tile from (23, 14) down to (11, 14) by attempting to walk south.
+- **Result:** All attempts failed. Hypothesis is **false**. The southern wall is solid.
