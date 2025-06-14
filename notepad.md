@@ -24,3 +24,8 @@
 - **ROUTE 22:** Rival Pixel
 - **VIRIDIAN FOREST:** Lass (3,42), Youngster (28,20), Youngster (28,34), Bug Catcher (14,18), Bug Catcher (3,19)
 - **PEWTER GYM:** Jr. Trainer M (4,7)
+
+## Lessons from AI Critique (T3570)
+- **Exploration First:** Always explore all adjacent, reachable tiles before assuming I'm stuck or that a complex solution is needed. Simple navigation puzzles don't require agents.
+- **Agent Use:** Reserve agents for genuinely complex, repetitive, or high-level strategic tasks, not for basic gameplay like navigation.
+- **WKG Diligence:** Log map transitions in the World Knowledge Graph *immediately* after they occur.
