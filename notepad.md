@@ -15,3 +15,6 @@
 
 ## Type Matchup Discoveries
 - Electric-type moves (Thundershock) are 'not very effective' against Paras (Bug/Grass). This suggests a change in the type chart.
+
+## Long-Term Strategy
+- Stock up on healing items like Paralyze Heals and Potions at the next Poké Mart to avoid long retreats from dungeons.
