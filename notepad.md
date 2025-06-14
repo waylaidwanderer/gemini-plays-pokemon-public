@@ -18,3 +18,5 @@
 *   **`pathfinding_agent`:** Use PROACTIVELY for any non-trivial navigation.
 *   **`battle_strategist_agent`:** Use PROACTIVELY at the start of any non-trivial battle.
 *   **`pre_adventure_checker_agent`:** Use before leaving ANY town with a Pokémon Center to ensure party readiness. This is a critical step to avoid repeating the current low-health crisis.
+
+*   **Pathfinding Agent Failure (Viridian Forest):** The agent provided an invalid path from (17, 6) to the exit, suggesting movement through impassable tiles starting at (16, 6). The agent's map data appears flawed. **Resolution: Discarded agent's path and am proceeding with manual navigation.**
