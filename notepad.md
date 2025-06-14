@@ -17,8 +17,7 @@ This entire section serves as a critical reminder of a major failure cascade. Th
 ## Goal Setting & Progression
 - The AI critique highlighted a major flaw: setting goals that are geographically impossible (e.g., targeting Misty from Route 3). Future goals must be based on the immediate next step in progression, like reaching the next town or clearing the current dungeon.
 
-## Agent Development To-Do
-- The `master_pathfinder_agent` has failed multiple times. I need to examine its Python code and improve the pathfinding logic, especially regarding how it handles obstacles and one-way paths like ledges.
-
-## Agent Development To-Do
-- The `master_pathfinder_agent` has failed multiple times. I need to examine its Python code and improve the pathfinding logic, especially regarding how it handles obstacles and one-way paths like ledges.
+## Agent Development & Battle Tactics
+- The `master_pathfinder_agent` has consistently failed and is unreliable. I will stop using it until I can debug its code. Manual navigation is the current standard procedure.
+- Battle tactics need to be more proactive. I will not wait until a Pokémon's HP is critical before using priority moves like Quick Attack. 
+- If running from a wild battle fails more than twice, it is more efficient to defeat the opponent.
