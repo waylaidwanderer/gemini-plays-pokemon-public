@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"trainer_name\":{\"type\":\"string\"},\"map_id\":{\"type\":\"string\"},\"opponent_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"}},\"required\":[\"name\",\"level\"]}}},\"required\":[\"trainer_name\",\"map_id\",\"opponent_pokemon\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"formatted_log_entry\":{\"type\":\"string\",\"description\":\"A markdown-formatted string ready to be appended to a notepad.\"}},\"required\":[\"formatted_log_entry\"]}",
     "agent_can_run_code": false
+  },
+  "fossil_advisor_agent": {
+    "agent_name": "fossil_advisor_agent",
+    "agent_description": "Provides advice on which of the two Mt. Moon fossils (Dome or Helix) is a better choice by analyzing the Pokémon they become.",
+    "agent_system_prompt": "You are a Pokémon Fossil Advisor. Your task is to analyze the two fossils found in Mt. Moon: the Dome Fossil and the Helix Fossil. The Dome Fossil becomes Kabuto (Rock/Water) and the Helix Fossil becomes Omanyte (Rock/Water). Provide a concise recommendation on which to choose. Your analysis should consider their typing, potential final evolution stats (Kabutops vs. Omastar), and general usefulness for the rest of a Pokémon Yellow Legacy Hard Mode playthrough. Your output must conform to the provided schema.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party_info\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"name\",\"type1\"]}},\"description\":\"Optional: Information about the player's current party to help tailor the advice.\"},\"required\":[]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_fossil\":{\"type\":\"string\",\"enum\":[\"Dome Fossil\",\"Helix Fossil\"]},\"reasoning\":{\"type\":\"string\",\"description\":\"A detailed explanation for the recommendation, comparing Kabuto/Kabutops and Omanyte/Omastar.\"},\"alternative_view\":{\"type\":\"string\",\"description\":\"A brief counter-argument or reason why someone might choose the other fossil.\"}},\"required\":[\"recommended_fossil\",\"reasoning\",\"alternative_view\"]}",
+    "agent_can_run_code": false
   }
 }
