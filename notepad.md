@@ -18,3 +18,5 @@
 *   Team Rocket is at **Mt. Moon**.
 *   The eastern route out of Pewter was blocked. I need to check if my Boulder Badge changes this.
 *   Moon Stones come from **Mt. Moon**.
+
+*   **Game Mechanics Correction:** Poison damage outside of battle is 1 HP per 4 steps, not per step. My flawed assumption led to the unnecessary (and failed) rush to the Pewter City Pokémon Center.
