@@ -8,7 +8,7 @@
 - **Verify First:** Before assuming a block, verify my position and facing direction.
 - **Systematic Navigation:** When a path isn't obvious, systematically explore boundaries instead of brute-forcing. Trust the 'reachable' flag.
 - **USE YOUR AGENTS:** Use agents proactively for planning, not just reactively when stuck.
-- **PC Menu Loop Failure (Pewter City):** Stuck for ~100 turns. Initial hypothesis of 'being deliberate' by repeatedly pressing 'A' failed. New Hypothesis (Attempt #1): After selecting 'Gem's PC', a submenu appears. Pressing 'A' again defaults to 'Item Storage'. The new plan is to press 'A' once to clear the confirmation, then 'Down' on the next turn to select the second option (hypothesized to be Pokémon Storage).
+- **PC Menu Loop Failure (Pewter City):** Stuck for ~100+ turns. **Hypothesis #1 (Repeated 'A' presses):** Failed. **Hypothesis #2 (Press 'Down' after confirmation):** Failed. Pressing 'Down' did not visually change the menu. **New Hypothesis (Attempt #3):** The 'Down' input from the previous turn was registered internally, but the screen did not update. The invisible cursor is now on the 'Pokémon Storage' option. Pressing 'A' this turn should select it.
 
 ## Defeated Trainers Log
 - **OAK'S LAB:** Rival Pixel
