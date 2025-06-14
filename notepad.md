@@ -1,18 +1,10 @@
-# Gem's New Strategy (Post-Critique)
+# Mt. Moon Exploration
 
-## 1. Core Principles
-*   **Manual Navigation First:** Abandon pathfinding agents on complex maps like Route 3. Explore systematically: follow a path to its conclusion (dead end or transition), then backtrack to the last junction and try the next path. Trust my own eyes and the map data.
-*   **Master the UI:** Actions require **selection (D-Pad) AND confirmation (A button)**. No more fumbling in menus.
-*   **Proactive Strategy:** Use `type_chart_lookup_agent` *before* entering new areas or challenging strong trainers. Don't wait until I'm already in a bad matchup.
-*   **Trust the Game State:** The `Reachable Unseen Tiles` list is the source of truth. If it says there's a path, a path exists. My assumptions are secondary.
-
-## 2. Active Hypothesis & Plan
-*   **Hypothesis:** The entrance to Mt. Moon is at the far eastern end of Route 3, past the small Pokémon Center building.
-*   **Immediate Plan:**
-    1.  Win this wild Mankey battle efficiently.
-    2.  Systematically explore the area east and north of the Route 3 Pokémon Center building.
-    3.  Find the exit to Mt. Moon.
-
-## Mt. Moon Pokémon Strategy
+## 1. Pokémon Strategy
 *   **Zubat (Poison/Flying):** Weak to Electric, Ice, Psychic, Rock. SPARKY is the best counter with Thundershock.
-*   **Geodude (Rock/Ground):** Weak to Water, Grass, Fighting, Bug. Immune to Electric. THISTLE (Double Kick) and SPROUT (Leech Seed/Tackle) are the best counters.
+*   **Geodude (Rock/Ground):** 4x weak to Grass/Water. 2x weak to Fighting/Bug. Immune to Electric. SPROUT (Leech Seed) and THISTLE (Double Kick) are the best counters.
+
+## 2. Current Plan
+*   Systematically explore Mt. Moon, floor by floor.
+*   Prioritize exploring all paths on the current floor before taking a ladder to the next.
+*   Find the exit to Route 4 (east side).
