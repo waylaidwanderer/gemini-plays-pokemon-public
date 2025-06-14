@@ -2,17 +2,17 @@
 
 ## I. Current Status & Active Plans
 
-### A. Pokémon Party (Turn 2678)
+### A. Pokémon Party (Turn 2707)
 1. SPROUT (ODDISH): Lv10 (23/32 HP, EXP: 674) | Moves: TACKLE (3 PP), POISONPOWDER (35 PP), LEECH SEED (5 PP)
-2. PIP (PIDGEY): Lv9 (21/27 HP, EXP: 523) | Moves: GUST (15 PP), SAND-ATTACK (15 PP)
+2. PIP (PIDGEY): Lv10 (23/29 HP, EXP: 575) | Moves: GUST (14 PP), SAND-ATTACK (15 PP)
 3. SPARKY (PIKACHU): Lv12 (38/38 HP, EXP: 1728) | Moves: THUNDERSHOCK (28 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP) - AT LEVEL CAP (0 Badges).
 
 ### B. Financial Status
 - Money: ¥296
 
 ### C. Current Location & Immediate Objective
-- Location: Route 22 (ID: 33), at (33,12) (Turn 2678).
-- Immediate Objective: Train SPROUT and PIP in the eastern grass patch of Route 22.
+- Location: Route 22 (ID: 33), at (34,9) (Turn 2707).
+- Immediate Objective: Train SPROUT in the eastern grass patch of Route 22.
 
 ## II. Game Mechanics & Rules
 
@@ -78,6 +78,6 @@
 - **Task Management:** Completed tasks must be removed from the notepad immediately to maintain an accurate to-do list.
 
 ## VI. Task List (Current)
-- **(Active) Training:** Level SPROUT to 12 and PIP to 10 on Route 22.
+- **(Active) Training:** Level SPROUT to 12 on Route 22.
 - **(Deferred) Agent Prompt Fixes:** Address ledge-handling for navigation agents when necessary.
 - **(Future) Agent Definition:** Define `training_hotspot_tracker` and `shop_inventory_agent` when strategically beneficial.
