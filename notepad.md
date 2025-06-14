@@ -2,8 +2,8 @@
 
 ## I. Current Status & Active Plans
 
-### A. Pokémon Party (Turn 2781)
-1. SPROUT (ODDISH): Lv10 (29/32 HP, EXP: 707) | Moves: TACKLE (1 PP), POISONPOWDER (35 PP), LEECH SEED (2 PP)
+### A. Pokémon Party (Turn 2791)
+1. SPROUT (ODDISH): Lv10 (31/32 HP, EXP: 707) | Moves: TACKLE (1 PP), POISONPOWDER (34 PP), LEECH SEED (0 PP)
 2. PIP (PIDGEY): Lv10 (23/29 HP, EXP: 575) | Moves: GUST (14 PP), SAND-ATTACK (15 PP)
 3. SPARKY (PIKACHU): Lv12 (38/38 HP, EXP: 1728) | Moves: THUNDERSHOCK (28 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP) - AT LEVEL CAP.
 
@@ -22,12 +22,12 @@
 - Level caps: 0 badges=12, 1=21, etc.
 
 ### B. Resource Management
-- SPROUT's TACKLE (1 PP) is reserved *exclusively* for the Brock battle. Wild encounters must be handled with LEECH SEED or by running.
-- Conserve PP on all low-count moves.
+- SPROUT's TACKLE (1 PP) is reserved *exclusively* for the Brock battle. Wild encounters must be handled with status moves or by running.
+- A turn in battle is only consumed by selecting FIGHT, PKMN, ITEM, or RUN. Navigating menus does not pass a turn.
 
-### C. Untested Assumptions
-- **Assumption 1:** The eastern grass patch on Route 22 is the optimal training spot. (Could be inefficient).
-- **Assumption 2:** SPROUT will learn a damaging Grass-type move upon leveling up. (Learnsets are custom; cannot be relied upon).
+### C. Active Hypothesis Testing
+- **Hypothesis 1:** The eastern grass patch on Route 22 is the optimal training spot. (To be tested with `training_hotspot_tracker_agent` after this battle).
+- **Hypothesis 2:** SPROUT will learn a damaging Grass-type move upon leveling up. (Learnsets are custom; cannot be relied upon. Will observe upon level up).
 
 ## III. World Knowledge
 
