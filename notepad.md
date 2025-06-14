@@ -43,3 +43,6 @@
 - **Hypothesis:** A hidden, walkable tile exists on the southern wall of the y=14 corridor.
 - **Method:** Systematically tested every tile from (23, 14) down to (11, 14) by attempting to walk south.
 - **Result:** All attempts failed. Hypothesis is **false**. The southern wall is solid.
+
+## Battle Mechanics Discoveries
+- **EXP Distribution:** Only Pokémon in the party when the final opponent faints receive EXP, even if other Pokémon participated in the battle earlier (switch-training). FURYFIST did not get EXP from the Metapod fight because he was not in the active party at the moment of fainting.
