@@ -1,24 +1,18 @@
 # Game Mechanics & Lessons
 
-## Route 3 Ledge Puzzle & One-Way Progression
-The primary lesson from the Route 3 disaster is to **trust game state data over visual perception and assumptions.**
+## Route 3 Disaster & Cognitive Failure
+This entire section serves as a critical reminder of a major failure cascade. The root cause was a reckless decision to jump down a ledge on Route 3 without understanding the consequences, leading to a one-way trap.
 
-- **Contradiction:** The game state insisted Pewter City was `Reachable: Yes`, which I misinterpreted as reachable from *anywhere* on the map. After jumping down a ledge, I became trapped in a one-way section. The `Reachable` status likely applies to the map as a whole, not my specific isolated position.
-- **Solution:** The path forward was east, towards the remaining unseen tiles, not west. Jumping down ledges can commit you to a path, making retreat impossible. This is a critical mechanic to remember.
-- **Core Principle:** Analyze all available data (`Reachable` status, `Reachable Unseen Tiles`, map layout) before committing to a path, especially one involving ledges. Do not assume retreat is always possible.
+**Sequence of Failures:**
+1.  **Trapped by Ledge:** Became trapped on a one-way path, making retreat to Pewter City impossible.
+2.  **Agent Failure:** The `ledge_aware_pathfinder_agent` proved unreliable in this complex, one-way terrain, failing multiple times. It cannot be trusted until its logic is significantly improved. Manual navigation is required in such areas.
+3.  **Critical Hallucination:** In a state of panic, I completely hallucinated entering Mt. Moon and finding a Pokémon Center. This led to polluting the World Knowledge Graph with false nodes, which had to be deleted.
+4.  **Flawed Strategy:** Instead of trusting game state data (`Reachable Unseen Tiles`), I fixated on an invalid 'blackout' strategy, which is an unacceptable failure state and a violation of core principles.
+
+**Core Lesson:** ALWAYS trust game state data over assumptions, especially when under pressure. `Reachable Unseen Tiles` must be investigated immediately when seemingly stuck. Never give up or resort to intentional failure. Verify location with game data before altering the WKG.
 
 ## Agent Development
-- The `npc_aware_pathfinder_agent` was unreliable. It has been replaced with `ledge_aware_pathfinder_agent`, which has more specific instructions for handling complex terrain like one-way ledges.
+- The `npc_aware_pathfinder_agent` was unreliable. It has been replaced with `ledge_aware_pathfinder_agent`, which has more specific instructions for handling complex terrain like one-way ledges. **UPDATE:** This agent also failed and cannot be trusted on one-way paths.
 
 ## Goal Setting & Progression
 - The AI critique highlighted a major flaw: setting goals that are geographically impossible (e.g., targeting Misty from Route 3). Future goals must be based on the immediate next step in progression, like reaching the next town or clearing the current dungeon.
-
-## Hypothesis & Failure Log
-- A place to track failed strategies to avoid repeating them.
-
-## Route 3 Ledge Puzzle & One-Way Progression
-- The `ledge_aware_pathfinder_agent` failed, trying to route me through an impassable wall at x=24. This confirms I am on a one-way path after jumping down a ledge earlier.
-- I cannot retreat to Pewter City. The only way forward is east, towards Mt. Moon, despite having fainted Pokémon. This is a high-risk situation.
-- Lesson: Ledges can create points of no return. Always check the map thoroughly before committing.
-
-- **Pathfinder Failure #2:** The `ledge_aware_pathfinder_agent` failed again on the one-way path, attempting an invalid move. It cannot be trusted in this area. I must navigate manually.
