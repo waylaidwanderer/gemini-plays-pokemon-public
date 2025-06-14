@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}},\"error_message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": true
-  },
-  "pokedex_completion_agent": {
-    "agent_name": "pokedex_completion_agent",
-    "agent_description": "Analyzes the player's caught Pokémon list and known encounter data to suggest where to find new, uncaught Pokémon.",
-    "agent_system_prompt": "You are a Pokédex Completion Advisor for Pokémon Yellow Legacy. Your goal is to help the player complete their Pokédex. Analyze the provided list of caught Pokémon and, using your knowledge of the Pokémon games and any provided encounter data (from `world_knowledge_graph_json_string` if you can parse it), suggest 1-3 specific Pokémon that the player has not yet caught and the likely locations (e.g., 'Route X', 'Mt. Moon') where they can be found. Prioritize Pokémon that are accessible in the player's current or upcoming areas. Your output must conform to the provided schema. You have access to `run_code` to analyze world data.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokedex_caught_list\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_map_id\":{\"type\":\"string\"}},\"required\":[\"pokedex_caught_list\", \"current_map_id\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggestions\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"suggested_location\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\",\"suggested_location\"]}}},\"required\":[\"suggestions\"]}",
-    "agent_can_run_code": true
   }
 }
