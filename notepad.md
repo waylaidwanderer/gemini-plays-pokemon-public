@@ -1,34 +1,15 @@
 # Gem's Strategic Plan & Learnings
 
-## Operational Rules (CRITICAL)
-1.  **Crisis Protocol:** When the party is in a critical state (e.g., multiple Pokémon with low HP, no healing items), the Primary Goal of reaching a safe location (like a Pokémon Center) is ABSOLUTE. No deviations for training, item collection, or optional battles are permitted.
-2.  **Systematic Navigation:** In complex mazes like Viridian Forest, abandon random wandering. Adopt a systematic maze-solving algorithm (e.g., wall-following) to guarantee an exit and prevent looping.
-
 ## Current Plan
-1.  Escape Viridian Forest using the 'left-hand rule' wall-following method.
-2.  Proceed directly to the Pewter City Pokémon Center to heal.
-3.  Do not deviate for any reason until the party is healed.
+1. Fully explore the Pewter Museum of Science, investigating the space exhibit and searching for the Old Amber.
+2. Once the museum is clear, challenge Brock at the Pewter City Gym.
 
-## Key Learnings
-*   **Navigational Discipline:** Aimless wandering in mazes leads to resource depletion and crisis. A systematic approach is required. (Learned after getting lost for >50 turns).
-*   **Strategic Discipline:** Adhere to the Crisis Protocol. Risking a critically injured party for low-value objectives (like EXP from a wild Kakuna) is an unacceptable error.
-*   **Agent Reliability:** The `pathfinding_agent` is unreliable in complex, enclosed maps like Viridian Forest. Do not use it for intra-maze navigation here. Manual, systematic methods are superior.
-
-*   **Agent Redundancy & Consolidation:** The `maze_solver_agent` is redundant with the `pathfinding_agent`. I should not create new agents for similar tasks. **Action Item:** Delete `maze_solver_agent` and consolidate its functionality into `pathfinding_agent` if needed.
-*   **Tool Utilization:** I need to remember to use the agents I've already created, like the `pre_adventure_checker_agent`, in their intended scenarios. Forgetting to use my own tools is a major oversight.
+## Key Learnings & Reflections
+*   **Tool Discipline is Critical:** I have repeatedly failed to use my own custom agents (`pathfinding_agent`, `exploration_helper_agent`) to solve problems they were designed for, leading to inefficient navigation and getting stuck. I must integrate these tools into my regular workflow.
+*   **Agent Limitations:** My `pathfinding_agent` is flawed and incorrectly treats Pikachu as an impassable obstacle. I need to be aware of this and rely on manual pathing or update the agent when it fails.
+*   **Systematic Navigation:** When faced with complex layouts or obstacles, I must avoid getting fixated on a single blocked path and instead systematically find alternative routes. Aimless wandering or repetitive failed attempts are unacceptable.
+*   **Unverified Assumptions:** I must be cautious about my assumptions. I am assuming the Old Amber is in the museum, but it could be elsewhere. I need to be ready to pivot if my current search proves fruitless.
 
 ### World Clues
 *   A Gentleman in the Pewter City Pokémon Center mentioned that **Team Rocket is at Mt. Moon**.
-
-## Reflection Learnings (Turn 3508)
-*   **Tool Discipline:** I failed to use my `pre_adventure_checker_agent` before entering Viridian Forest, which was a major oversight. I must remember to leverage the tools I create.
-*   **Navigation:** My basic map-reading skills need improvement to avoid simple navigational errors. Over-reliance on pathfinding agents for short-distance travel is inefficient.
-*   **Unverified Assumptions:** I am assuming the Old Amber is in the museum. I've confirmed the Old Man NPC at (2,5) doesn't give it. I will now check the fossil exhibits directly.
-
-## Critique Learnings (Turn 3541)
-*   **Navigational Failure:** My navigation in the museum was poor. I got stuck in a loop trying to pass an NPC instead of finding an alternate route. I need to be better at basic pathfinding and not get fixated on a single blocked path.
-*   **Agent Neglect:** I completely forgot to use my custom agents (`pathfinding_agent`, `exploration_helper_agent`). This is a major strategic failure. I must integrate them into my workflow to solve problems more efficiently.
-*   **Agent Maintenance:** I have an uncompleted task to delete the `maze_solver_agent`. I must perform these maintenance actions promptly.
-
-## Agent Learnings (Turn 3560)
-* The `pathfinding_agent` is flawed. It incorrectly treats Pikachu as an impassable obstacle, causing it to fail in situations where a path is available. I must rely on manual pathing when Pikachu is near a potential route.
+*   The eastern route out of Pewter is blocked due to Team Rocket's activities at Mt. Moon.
