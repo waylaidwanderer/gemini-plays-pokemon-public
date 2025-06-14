@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}},\"error_message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": true
-  },
-  "exploration_pathfinder_agent": {
-    "agent_name": "exploration_pathfinder_agent",
-    "agent_description": "Calculates an efficient path to visit a list of reachable unseen tiles on the current map. Can run Python code.",
-    "agent_system_prompt": "You are an Exploration Pathfinder expert for a tile-based RPG. Your goal is to find an efficient path from a starting coordinate to visit a list of target coordinates (unseen tiles). You will be given the map layout as an XML string in the `map_xml_string` variable. You must use your `run_code` tool to execute a Python script that parses this XML and implements a pathfinding algorithm (like a modified A* or a solution to the Traveling Salesperson Problem for multiple points) to find an efficient route. The path should be returned as a sequence of button presses ('Up', 'Down', 'Left', 'Right'). The script must avoid impassable tiles and NPCs. If no path is possible, return an empty list.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"target_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"start_x\",\"start_y\",\"target_tiles\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}},\"error_message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"button_sequence\"]}",
-    "agent_can_run_code": true
   }
 }
