@@ -2,14 +2,13 @@
 
 ## Core Strategy & Goals
 - **Primary Goal:** Defeat Brock and earn the Boulder Badge.
-- **Secondary Goal:** Heal the party at the Pewter City Pokémon Center.
-- **Tertiary Goal:** Acquire more Poké Balls at the next opportunity.
+- **Secondary Goal:** Train the party for the Pewter Gym battle.
+- **Tertiary Goal:** Catch a new Pokémon species for the Pokédex.
 
-## Key Learnings & Tactics
-- **Progression Trigger:** Defeating the Gym Leader is the most likely way to open new routes. Test this before exploring other, less likely hypotheses.
-- **Efficient Training:** Switch out Pokémon before they are at critical HP to prolong training sessions. After this healing trip, I will continue training on Route 2.
-- **Tool Usage:** Use the `pathfinder_agent` for complex navigation. Use the `progression_advisor_agent` when feeling stuck.
-- **Situational Awareness:** Do not attempt to use overworld tools like notepad_edit or redefine agents during a battle.
+## Strategic Learnings & Hypotheses
+- **Progression Trigger Hypothesis:** Defeating Brock is the trigger to open the path to Route 3. This is my current operating theory after failing to find any other trigger in Pewter City.
+- **Efficient Training:** I must switch out Pokémon when their HP is low, not critical. This will prolong training sessions and prevent forced retreats. My training area is Route 2.
+- **Tool Usage:** I will use the `pathfinder_agent` for all non-trivial navigation. I will use the `progression_advisor_agent` when I am unsure of my next steps.
 
 ## Defeated Trainers Log
 - **OAK'S LAB:** Rival Pixel
