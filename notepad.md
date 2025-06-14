@@ -14,4 +14,4 @@
 - **OAK'S LAB:** Rival Pixel
 - **ROUTE 22:** Rival Pixel
 - **VIRIDIAN FOREST:** Lass (3,42), Youngster (28,20), Youngster (28,34), Bug Catcher (14,18), Bug Catcher (3,19)
-- **PEWTER GYM:** Jr. Trainer M (3,4) - *Note: Lost to him once, must re-battle.*
+- **PEWTER GYM:** Jr. Trainer M (3,4) - *Note: Lost to him once. Lesson learned: Rematches with regular trainers are NOT required after losing.*
