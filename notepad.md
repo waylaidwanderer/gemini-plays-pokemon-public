@@ -23,3 +23,6 @@
 ## Key NPC Dialogue
 - **PEWTER CITY, Cool Trainer F (9,16):** "It's rumored that CLEFAIRYs came from the moon! They appeared after MOON STONE fell on MT.MOON."
 - **PEWTER CITY, Super Nerd (26,26):** "I'm spraying REPEL to keep POKéMON out of my garden!"
+
+## Mechanics & Rules Discovered
+- Defeated trainers act as solid obstacles and cannot be walked through.
