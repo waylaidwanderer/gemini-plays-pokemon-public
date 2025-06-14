@@ -12,3 +12,7 @@
     1.  Win this wild Mankey battle efficiently.
     2.  Systematically explore the area east and north of the Route 3 Pokémon Center building.
     3.  Find the exit to Mt. Moon.
+
+## Mt. Moon Pokémon Strategy
+*   **Zubat (Poison/Flying):** Weak to Electric, Ice, Psychic, Rock. SPARKY is the best counter with Thundershock.
+*   **Geodude (Rock/Ground):** Weak to Water, Grass, Fighting, Bug. Immune to Electric. THISTLE (Double Kick) and SPROUT (Leech Seed/Tackle) are the best counters.
