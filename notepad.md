@@ -27,3 +27,6 @@
 
 ## 6. Major Blunders & Resets
 *   **Route 3 Maze Failure (Turn ~4300):** Got completely lost in the SE corner after jumping down ledges. This area is a one-way navigational trap. The only solution is to retreat west to the route entrance and take the correct northern path. Do not attempt to find an exit east or north from the southern section. Avoid the lower ledges entirely.
+
+## Major Blunders & Resets
+*   **Route 3 Trapped (Turn ~4366):** After defeating several trainers on the upper path of Route 3, I am now trapped. The defeated trainers at (20, 6) and (15, 5) act as impassable objects, blocking the way back west to Pewter City. The pathfinding agent confirmed there is no way back. **Conclusion:** The upper path of Route 3 is a one-way trip eastward. New plan is to proceed east towards Mt. Moon and hope for a Pokémon Center there.
