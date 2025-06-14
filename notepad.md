@@ -16,3 +16,6 @@
 
 *   **Agent Redundancy:** The `maze_solver_agent` is redundant with the `pathfinding_agent`. Instead of creating new agents for similar tasks, I should refine and improve existing ones. Future task: consolidate these two agents.
 *   **Tool Utilization:** I need to remember to use the agents I've already created, like the `pre_adventure_checker_agent`, in their intended scenarios. Forgetting to use my own tools is a major oversight.
+
+### World Clues
+*   A Gentleman in the Pewter City Pokémon Center mentioned that **Team Rocket is at Mt. Moon**.
