@@ -16,7 +16,7 @@
 
 ## Assumptions to Test
 - The entrance to Mt. Moon is at the far east end of Route 3.
-- The Cool Trainer F at (34, 11) is an un-battled trainer.
+- The Cool Trainer F at (34, 11) is a non-battling NPC who gives a tip about Route 4.
 - Defeated trainers who block paths remain as obstacles permanently (This seems confirmed, but I will keep an eye on it).
 
 ## Defeated Trainers Log
