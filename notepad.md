@@ -1,42 +1,22 @@
-# Gem's Log: Pokémon Yellow Legacy - Hard Mode
+# Gem's Gameplay Log
 
-## I. Current Status & Active Plans
+## Party Status
+*   **SPROUT** (Oddish, Lv10): My main attacker for Brock. Needs to reach Lv12.
+*   **PIP** (Pidgey, Lv10): Backup, good for Sand-Attack utility.
+*   **SPARKY** (Pikachu, Lv12): At level cap. Strong, but will be on standby for now.
 
-### A. Pokémon Party (Turn 2791)
-1. SPROUT (ODDISH): Lv10 (31/32 HP, EXP: 707) | Moves: TACKLE (1 PP), POISONPOWDER (34 PP), LEECH SEED (0 PP)
-2. PIP (PIDGEY): Lv10 (23/29 HP, EXP: 575) | Moves: GUST (14 PP), SAND-ATTACK (15 PP)
-3. SPARKY (PIKACHU): Lv12 (38/38 HP, EXP: 1728) | Moves: THUNDERSHOCK (28 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP) - AT LEVEL CAP.
+## Current Goals
+1.  **[Primary]** Defeat Brock in Pewter City.
+2.  **[Secondary]** Train SPROUT to the level cap (12).
+3.  **[Tertiary]** Explore any remaining unseen areas I come across.
 
-### B. Financial Status
-- Money: ¥296
+## Strategic Notes & Hypotheses
+*   **Brock Strategy:** Rely on SPROUT. Its typing should be advantageous against Rock types. *Crucial dependency: SPROUT learning a Grass-type damaging move.*
+*   **Training Plan:** Currently heading to Route 22 to grind levels for SPROUT and PIP.
+*   **Hard Mode Rules:** Set mode, no items in battle, level caps are strict.
+*   **Pathing Issues:** Encountered several blockages in Viridian City. Need to be more careful planning routes and observing the map memory.
 
-### C. Current Location & Immediate Objective
-- Location: Route 22 (ID: 33), in battle.
-- Immediate Objective: Train SPROUT to Lv12.
-
-## II. Strategic Notes & Mechanics
-
-### A. Hard Mode Rules
-- Battle Style: Set.
-- No items in battle.
-- Level caps: 0 badges=12, 1=21, etc.
-
-### B. Resource Management
-- SPROUT's TACKLE (1 PP) is reserved *exclusively* for the Brock battle. Wild encounters must be handled with status moves or by running.
-- A turn in battle is only consumed by selecting FIGHT, PKMN, ITEM, or RUN. Navigating menus does not pass a turn.
-
-### C. Strategic Questions to Investigate
-- **Hypothesis 1:** The eastern grass patch on Route 22 is the optimal training spot. (To be tested with `training_hotspot_tracker_agent` after this battle).
-- **Hypothesis 2:** SPROUT will learn a damaging Grass-type move upon leveling up. (Learnsets are custom; cannot be relied upon. Will observe upon level up).
-
-## III. World Knowledge
-
-### A. Defeated Trainers
-- Bug Catcher (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (31,34) in Viridian Forest.
-- Cooltrainer F (ID 5, LASS) at (3,42) in Viridian Forest.
-- Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest.
-- Rival BLAZe (Route 22, (30,5)) - Defeated SPEAROW Lv9, EEVEE Lv8.
-
-### B. Verified Type Matchups
-- Ghost > Psychic.
-- Poison > Bug; Bug !> Poison.
+## Key Discoveries
+*   **Defeated Trainers:** Bug Catcher (Viridian Forest, (31,34)), Cooltrainer F (Viridian Forest, (3,42)), Bug Catcher (Viridian Forest, (3,19)), Rival BLAZe (Route 22, (30,5)).
+*   **NPCs:** Old Man who blocked Route 2 is gone. Girl at (18,10) needs coffee for her grandpa. Gambler at (31,9) has repetitive dialogue.
+*   **Verified Mechanics:** Ghost > Psychic, Poison > Bug.
