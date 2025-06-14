@@ -8,3 +8,5 @@
 *   Systematically explore Mt. Moon, floor by floor.
 *   Prioritize exploring all paths on the current floor before taking a ladder to the next.
 *   Find the exit to Route 4 (east side).
+
+*   **Unreachable Item:** The Poké Ball at (3, 21) is blocked by an invisible barrier. Failed to approach from (4, 21) and (3, 22) multiple times. Abandoning for now.
