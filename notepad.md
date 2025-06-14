@@ -9,7 +9,7 @@
 ## 2. Key Learnings & Mechanics
 *   **Poison Damage:** 1 HP per 4 steps outside of battle.
 *   **BITE Move:** Normal-type.
-*   **Defeated Trainers:** They are NOT solid obstacles. They can be walked past. My previous assumption was a major hallucination that cost me over 75 turns.
+*   **Defeated Trainers (Updated):** The rule for whether defeated trainers are obstacles is complex. Some can be walked past, while others (like the Cool Trainer F at (17, 10) on Route 3) still block movement. I must evaluate each case individually instead of relying on a single general rule.
 *   **Location Verification:** Trust Game State Information (e.g., 'Reachable: Yes') over personal assumptions or even agent outputs. If the game says a path exists, it does.
 *   **Building Entrances:** Standard building entrances are warps triggered by walking INTO the impassable door tile.
 
