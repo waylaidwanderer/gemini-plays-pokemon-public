@@ -20,3 +20,8 @@
 *   Team Rocket is at **Mt. Moon** (source: Gentleman in Pewter PC).
 *   The eastern route out of Pewter is blocked because of Team Rocket at Mt. Moon (source: Police Notice).
 *   Moon Stones come from **Mt. Moon** (source: Museum Exhibit).
+
+## Courtyard Conundrum
+*   **Failed Attempts:** 7. Navigating out of the gym courtyard has failed repeatedly.
+*   **Failed Hypothesis:** Re-entering the gym is not possible from this position.
+*   **New Hypothesis (Attempt 8):** The solution is to walk south, directly through Pikachu, to reach the other side of the courtyard.
