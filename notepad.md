@@ -13,3 +13,5 @@
 *   A Gentleman in the Pewter City Pokémon Center mentioned that **Team Rocket is at Mt. Moon**.
 *   The eastern route out of Pewter is blocked due to Team Rocket's activities at Mt. Moon.
 *   The Moon Stone exhibit mentioned the stone comes from **Mt. Moon**.
+
+*   **Agent Strategy Update:** The `battle_strategist_agent` is fundamentally flawed and unreliable. I will no longer use it until I can perform a major overhaul. I am creating a new `type_chart_lookup_agent` to provide accurate, data-only type matchup information.
