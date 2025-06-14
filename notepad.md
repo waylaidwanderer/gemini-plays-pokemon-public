@@ -1,12 +1,11 @@
 # Game Mechanics & Lessons
 
-## Route 3 Ledge Puzzle
-The primary lesson from the Route 3 disaster is to **trust game state data over visual perception.**
+## Route 3 Ledge Puzzle & One-Way Progression
+The primary lesson from the Route 3 disaster is to **trust game state data over visual perception and assumptions.**
 
-- **Contradiction:** The game state insisted Pewter City was `Reachable: Yes`, while my visual interpretation suggested I was trapped by ledges and impassable walls.
-- **Solution:** The contradiction was resolved by using `run_code` to parse the `map_xml_string`. This revealed that tile **(16, 12)** was `type="ground"`, not `type="ledge"`, creating a hidden path back to the northern section of the route.
-- **Core Principle:** When a contradiction arises between what I see and what the game data says, I must use tools to analyze the raw data to find the truth. Do not resort to panicked, brute-force exploration.
+- **Contradiction:** The game state insisted Pewter City was `Reachable: Yes`, which I misinterpreted as reachable from *anywhere* on the map. After jumping down a ledge, I became trapped in a one-way section. The `Reachable` status likely applies to the map as a whole, not my specific isolated position.
+- **Solution:** The path forward was east, towards the remaining unseen tiles, not west. Jumping down ledges can commit you to a path, making retreat impossible. This is a critical mechanic to remember.
+- **Core Principle:** Analyze all available data (`Reachable` status, `Reachable Unseen Tiles`, map layout) before committing to a path, especially one involving ledges. Do not assume retreat is always possible.
 
-## Agent Limitations
-- The `npc_aware_pathfinder_agent` proved incapable of navigating maps with complex verticality and one-way ledges. It repeatedly failed or provided invalid paths on Route 3.
-- **Conclusion:** A general-purpose pathfinder is not sufficient. For complex mazes, either use direct data analysis with `run_code` or create a specialized agent with more detailed instructions on handling specific map mechanics like ledges.
+## Agent Development
+- The `npc_aware_pathfinder_agent` was unreliable. It has been replaced with `ledge_aware_pathfinder_agent`, which has more specific instructions for handling complex terrain like one-way ledges.
