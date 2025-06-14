@@ -2,12 +2,9 @@
 
 ## Current Objective & Plan
 - **Primary Goal:** Defeat Brock and earn the Boulder Badge.
-- **Current Task:** Heal my party at the Pewter Pokémon Center.
+- **Current Task:** Train FURYFIST and NIGHTSHADE to the level cap (12) on Route 2.
 - **Plan:**
-  1. Heal the party.
-  2. Hypothesis: Defeating Brock is the trigger to open Route 3. Plan: Train FURYFIST and NIGHTSHADE to the level cap (12) on Route 2, then challenge Brock.
-  3. Once Route 3 is accessible, train FURYFIST (Fighting) and NIGHTSHADE (Grass) to the level cap (12).
-  4. Challenge Brock.
+  1. Hypothesis: Defeating Brock is the trigger to open Route 3. Plan: Train FURYFIST and NIGHTSHADE to the level cap (12) on Route 2, then challenge Brock.
 
 ## Core Lessons (Hard Mode)
 - **EXPLORE FIRST:** Don't assume I'm stuck. Systematically explore all reachable paths before creating complex tools.
@@ -23,3 +20,4 @@
 
 ## NPC Dialogue Log
 - PEWTER CITY: Cool Trainer F (9,16) - "It's rumored that CLEFAIRYs came from the moon! They appeared after MOON STONE fell on MT.MOON."
+- PEWTER CITY: Super Nerd (26,26) - "I'm spraying REPEL to keep POKéMON out of my garden!"
