@@ -12,7 +12,7 @@
 - **Map Awareness:** I need to be more careful when exploring areas with one-way paths like ledges to avoid getting trapped in cul-de-sacs.
 
 ## Agent Development
-- **`npc_aware_pathfinder_agent`:** This agent is buggy and unreliable. I need to update its system prompt with more explicit instructions for obstacle detection, as previously planned.
+- **`npc_aware_pathfinder_agent`:** Updated the agent's system prompt with more robust obstacle detection logic. It should now correctly identify impassable tiles, ledges, NPCs, and defeated trainers. I'll need to test it to confirm the fix.
 
 ## Key Learnings & Game Mechanics
 - **Poison:** Seems to wear off after a Pokémon's HP drops to a very low threshold outside of battle. This needs more testing to confirm the exact trigger.
