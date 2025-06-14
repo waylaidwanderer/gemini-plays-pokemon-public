@@ -3,7 +3,7 @@
 ## Navigation
 - **Mt. Moon B2F Obstacle Solved:** The defeated Rocket Grunt at (16, 23) acts as an impassable obstacle. The path forward is not through or immediately adjacent, but by looping around the entire central rock structure to the right.
 ## Agent Development & Tactics
-- **Pathfinder Agent Correction:** The update to the `master_pathfinder_agent` was based on the flawed assumption about defeated trainers. This change must be reverted. The agent should NOT treat defeated trainers as obstacles until this mechanic is proven with certainty.
+- **Confirmed Obstacle Mechanic:** Defeated trainers act as impassable obstacles. The Rocket Grunt at (16, 23) on Mt. Moon B2F confirms this. My pathfinding logic and general navigation must account for this.
 - Battle tactics need to be more proactive. I will not wait until a Pokémon's HP is critical before using priority moves like Quick Attack.
 
 ## Battle Notes
