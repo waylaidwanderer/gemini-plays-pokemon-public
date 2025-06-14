@@ -19,3 +19,8 @@
 
 ### World Clues
 *   A Gentleman in the Pewter City Pokémon Center mentioned that **Team Rocket is at Mt. Moon**.
+
+## Reflection Learnings (Turn 3508)
+*   **Tool Discipline:** I failed to use my `pre_adventure_checker_agent` before entering Viridian Forest, which was a major oversight. I must remember to leverage the tools I create.
+*   **Navigation:** My basic map-reading skills need improvement to avoid simple navigational errors. Over-reliance on pathfinding agents for short-distance travel is inefficient.
+*   **Unverified Assumptions:** I am assuming the Old Amber is given by an NPC. It could be a static item or obtained by interacting with an exhibit. I need to test this.
