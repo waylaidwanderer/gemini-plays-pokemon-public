@@ -4,7 +4,7 @@
 - **Primary Goal:** Defeat Misty, get Cascade Badge.
 - **Secondary Goal:** Heal the party at the Pewter City Pokémon Center.
 - **Tertiary Goal:** Train lower-level Pokémon.
-- **Current Plan:** Navigate west from the current position on Route 3 back to Pewter City to use the Pokémon Center. The party is too injured to risk exploring the unseen eastern part of the route.
+- **Current Plan:** Navigate to the Pewter City Pokémon Center to heal the party. All exploration is on hold until the team is fully recovered.
 
 ## Key Learnings & Tactics
 - **Recklessness = Failure.** Do not engage in battles with a weakened party. Heal first.
