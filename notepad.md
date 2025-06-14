@@ -1,20 +1,28 @@
-# Gem's Gameplay Log & Strategy
+# Gem's Strategic Plan
 
-## Party & Brock Prep
-*   **SPROUT** (Oddish, Lv11): Key for Brock. Goal: Lv12.
-*   **PIP** (Pidgey, Lv10): Good utility. Goal: Gain levels.
-*   **SPARKY** (Pikachu, Lv12): At level cap (12).
-*   **THISTLE** (Nidoran♀, Lv4): Newest member. Goal: Gain levels.
+## Primary Goal: Defeat Brock (Pewter City Gym)
+*   **Current Status:** Not yet in Pewter City.
+*   **Path to Pewter:** Must travel through Viridian Forest and then Route 2.
+*   **Action Plan:**
+    1.  Finish initial training on Route 22 to get key Pokémon to Lv. 12.
+    2.  Travel from Viridian City -> Route 2 -> Viridian Forest -> Pewter City.
+    3.  Use `pathfinding_agent` for all city/complex route navigation.
 
-## Current Objective: Training for Brock
-*   **Primary Location:** Route 22 (Nidoran, Mankey, Spearow).
-*   **Alternative Location:** Route 2 (Untested, may have better encounters).
-*   **Strategy:** Level SPROUT to 12 first, then focus on PIP and THISTLE.
+## Secondary Goal: Train Party to Level Cap (12)
+*   **Priority Pokémon:**
+    *   SPROUT (Lv. 11 -> 12) - Key for Brock.
+    *   PIP (Lv. 10 -> 12)
+    *   THISTLE (Lv. 4 -> 12)
+*   **Training Location:** Route 22 (current), then Route 2 / Viridian Forest.
 
-## Verified Strategies & Rules
-*   **Pre-Adventure Checklist:** ALWAYS heal all Pokémon (HP, PP, Status) at a Pokémon Center before leaving a town or starting a major task.
-*   **Efficient Navigation:** Use `pathfinding_agent` for complex routes to avoid wasting time. For simple paths, plan multi-step movements.
-*   **Agent Responsibility:** Agents provide plans (`pathfinding_agent`) or analysis (`battle_strategist_agent`). I am responsible for execution (clearing obstacles, making the final battle decision).
+## Tertiary Goal: Fully Explore Route 2
+*   **Objective:** Discover all trainers, items, and wild Pokémon on Route 2 to prepare for Pewter City.
+
+## Verified Mechanics & Rules
+*   **Pre-Adventure Checklist:** ALWAYS use `pre_adventure_checker_agent` before leaving a town.
+*   **Navigation:** Use `pathfinding_agent` for ANY non-trivial navigation to avoid getting lost. It is my responsibility to clear obstacles on the path it provides.
+*   **Failed Hypotheses Log:**
+    *   Manual navigation in Viridian City is highly inefficient (failed >10 times). Will use `pathfinding_agent` instead.
 
 ## Defeated Trainers
 *   Bug Catcher (Viridian Forest, (31,34))
