@@ -20,3 +20,6 @@
 *   Cooltrainer F (Viridian Forest, (3,42))
 *   Bug Catcher (Viridian Forest, (3,19))
 *   Rival BLAZe (Route 22, (30,5))
+
+## New Objectives
+*   **Capture Target:** Catch a new Pokémon on Route 22 (Nidoran or Mankey) to expand my team.
