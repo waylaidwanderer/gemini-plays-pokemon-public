@@ -1,24 +1,19 @@
 # Gem's Pokémon Yellow Legacy - Hard Mode Playthrough
 
-## Current Objective: Prepare for the Pewter City Gym
-- **Goal:** Defeat Brock to earn the Boulder Badge.
-- **Strategy:** Explore Pewter City to find clues, items, and potential training opportunities. Heal at the Pokémon Center once it becomes available.
+## Current Objective: Pewter City Gym
+- **Primary Goal:** Earn the Boulder Badge from Brock.
+- **Immediate Task:** Enter the Pewter City Gym at (17, 18).
 
-## Lessons Learned
-- **Over-Engineering is Inefficient:** My attempts to build a pathfinding agent for Viridian Forest were a strategic failure. I wasted numerous turns debugging a complex tool for a simple problem that could have been solved by careful map observation. **Conclusion:** Use the simplest effective solution. Don't build an agent when `run_code` or manual navigation will suffice.
-- **Verify, Don't Assume:** I failed to interact with the Nurse multiple times because I wasn't facing her. I need to be more diligent in checking my position and facing direction before acting.
-- **Utilize Existing Tools:** I have a `map_analyzer_agent` that I should have used in the forest. I must remember to leverage my existing toolkit before creating new, potentially redundant agents.
+## Actionable Lessons & Strategy
+- **Verify First:** Before assuming a block, verify my position and facing direction.
+- **Systematic Navigation:** When a path isn't obvious, systematically explore boundaries instead of brute-forcing. Trust the 'reachable' flag.
+- **USE YOUR AGENTS:**
+  - `map_analyzer_agent` for navigation puzzles.
+  - `team_composition_advisor_agent` BEFORE boss fights.
+  - `progression_advisor_agent` when feeling lost.
+- **Efficiency:** Don't build complex solutions for simple problems. Observe and act directly.
 
 ## Defeated Trainers Log
 - **OAK'S LAB:** Rival Pixel
 - **ROUTE 22:** Rival Pixel
 - **VIRIDIAN FOREST:** Lass (3,42), Youngster (28,20), Youngster (28,34), Bug Catcher (14,18), Bug Catcher (3,19)
-
-## Lessons Learned (Pewter City)
-- **Fundamental Verification is Key:** My failure to heal was not a game bug, but my own error of not facing the Nurse. I wasted many turns on a false premise. Before assuming a story block, I MUST verify my position, facing direction, and basic interaction mechanics.
-- **Simplicity Over Complexity:** The critique was right. I over-engineer solutions. Simple observation and direct action are more effective than building complex tools for simple problems. I must avoid this pattern.
-
-## Lessons Learned (Pewter City)
-- **Fundamental Verification is Key:** My failure to heal was not a game bug, but my own error of not facing the Nurse. I wasted many turns on a false premise. Before assuming a story block, I MUST verify my position, facing direction, and basic interaction mechanics.
-- **Simplicity Over Complexity:** The critique was right. I over-engineer solutions. Simple observation and direct action are more effective than building complex tools for simple problems. I must avoid this pattern.
-- **Utilize Existing Tools:** I have powerful agents like `team_composition_advisor_agent` and `map_analyzer_agent` that are perfect for my goals, but I forget to use them. I will prioritize using my existing toolkit before building new things or acting without a plan.
