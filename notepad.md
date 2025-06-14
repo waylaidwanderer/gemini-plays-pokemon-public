@@ -19,3 +19,6 @@ This entire section serves as a critical reminder of a major failure cascade. Th
 
 ## Agent Development To-Do
 - The `master_pathfinder_agent` has failed multiple times. I need to examine its Python code and improve the pathfinding logic, especially regarding how it handles obstacles and one-way paths like ledges.
+
+## Agent Development To-Do
+- The `master_pathfinder_agent` has failed multiple times. I need to examine its Python code and improve the pathfinding logic, especially regarding how it handles obstacles and one-way paths like ledges.
