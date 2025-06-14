@@ -1,23 +1,18 @@
-# Game Mechanics & Lessons
+# Game Mechanics & Learnings
 
-## Navigation
+## Navigation & Exploration
 - **Mt. Moon B2F Obstacle Solved:** The defeated Rocket Grunt at (16, 23) acts as an impassable obstacle. The path forward is not through or immediately adjacent, but by looping around the entire central rock structure to the right.
-## Agent Development & Tactics
-- **Confirmed Obstacle Mechanic:** Defeated trainers act as impassable obstacles. The Rocket Grunt at (16, 23) on Mt. Moon B2F confirms this. My pathfinding logic and general navigation must account for this.
-- Battle tactics need to be more proactive. I will not wait until a Pokémon's HP is critical before using priority moves like Quick Attack.
+- **Defeated Trainers as Obstacles:** Confirmed that defeated trainers act as impassable obstacles. This must be accounted for in all navigation.
 
-## Battle Notes
-- If running from a wild battle fails more than twice, it is more efficient to defeat the opponent (e.g., failed to run from Geodude 3 times in Mt. Moon).
-
-## Battle Tactics & Analysis
-- **Miscalculation vs. Paras (Mt. Moon B1F):** I underestimated the damage from a Lv. 11 Paras's Absorb. Switching in FURYFIST (Lv. 8) was too risky; it was brought to critical HP in a single turn. A bulkier Pokémon or a faster switch strategy is needed for weakening wild encounters.
-- **Inefficient Menu Navigation:** My menuing to switch Pokémon against the Paras was clumsy and slow. I need to be more precise with my button presses (e.g., Down vs. Right) to avoid wasted turns.
+## Battle Strategy & Learnings
+- **Proactive Tactics:** Don't wait until HP is critical to use priority moves like Quick Attack.
+- **Run Efficiency:** If running from a wild battle fails more than twice, it is more efficient to defeat the opponent.
+- **Risk Assessment (Paras, Mt. Moon B1F):** Underestimated damage from a Lv. 11 Paras's Absorb. Switching in a low-level, non-resistant Pokémon is too risky for weakening wild encounters.
+- **Menu Navigation:** Need to be more precise with button presses during battle to avoid wasted turns. Use of the `menu_navigator_agent` is recommended.
+- **Party Order (Mt. Moon):** To make wild encounters more efficient, I will place ECHO (Zubat) at the front of my party to counter the frequent Paras.
 
 ## Type Matchup Discoveries
-- Electric-type moves (Thundershock) are 'not very effective' against Paras (Bug/Grass). This suggests a change in the type chart.
+- **Electric vs. Bug/Grass:** Electric-type moves (Thundershock) are 'not very effective' against Paras.
 
-## Long-Term Strategy
+## Long-Term Goals
 - Stock up on healing items like Paralyze Heals and Potions at the next Poké Mart to avoid long retreats from dungeons.
-
-## Tactical Adjustments (Post-AI Observer Feedback)
-- **Party Order:** To make wild encounters in Mt. Moon more efficient, I will place ECHO (Zubat) at the front of my party. This will prevent wasting a turn switching out SPARKY every time I encounter a Paras.
