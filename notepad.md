@@ -24,3 +24,8 @@
 *   **Tool Discipline:** I failed to use my `pre_adventure_checker_agent` before entering Viridian Forest, which was a major oversight. I must remember to leverage the tools I create.
 *   **Navigation:** My basic map-reading skills need improvement to avoid simple navigational errors. Over-reliance on pathfinding agents for short-distance travel is inefficient.
 *   **Unverified Assumptions:** I am assuming the Old Amber is in the museum. I've confirmed the Old Man NPC at (2,5) doesn't give it. I will now check the fossil exhibits directly.
+
+## Critique Learnings (Turn 3541)
+*   **Navigational Failure:** My navigation in the museum was poor. I got stuck in a loop trying to pass an NPC instead of finding an alternate route. I need to be better at basic pathfinding and not get fixated on a single blocked path.
+*   **Agent Neglect:** I completely forgot to use my custom agents (`pathfinding_agent`, `exploration_helper_agent`). This is a major strategic failure. I must integrate them into my workflow to solve problems more efficiently.
+*   **Agent Maintenance:** I have an uncompleted task to delete the `maze_solver_agent`. I must perform these maintenance actions promptly.
