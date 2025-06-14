@@ -28,3 +28,9 @@
 - **VIRIDIAN FOREST:** All trainers defeated.
 - **ROUTE 22:** Rival Pixel
 - **OAK'S LAB:** Rival Pixel
+
+## Critique & Improvement (Turn 4501)
+- **Pathfinding is a critical weakness.** I get lost in simple maps and waste too much time in loops. Must improve map interpretation.
+- **Stop relying on broken tools.** The `npc_aware_pathfinder_agent` is buggy and should not be used until it's fixed. Relying on it is counterproductive.
+- **Plan routes before moving.** I need to trace a full, viable path and account for all obstacles *before* I start pressing buttons. Panic-moving leads to mistakes.
+- **Stay methodical when blocked.** Instead of trying random directions, I need to pause, re-analyze the map calmly, and find the correct solution.
