@@ -26,3 +26,7 @@
 - **VIRIDIAN FOREST:** All trainers defeated.
 - **ROUTE 22:** Rival Pixel
 - **OAK'S LAB:** Rival Pixel
+
+## Post-Mortem: Route 3 Disaster
+- **Critical Failure:** I completely misinterpreted the map and game data, assuming I was trapped when the exit to Pewter City was always reachable. This led to a cascade of errors, including a prolonged and unnecessary wild battle that crippled my team, and the eventual fainting of two Pokémon.
+- **Key Lesson:** I MUST trust the Game State Information (especially `Reachable` status) over my own assumptions. Panic and flawed hypotheses are my worst enemies. From now on, data dictates strategy.
