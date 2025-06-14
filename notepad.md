@@ -18,3 +18,6 @@
 
 ## Long-Term Strategy
 - Stock up on healing items like Paralyze Heals and Potions at the next Poké Mart to avoid long retreats from dungeons.
+
+## Tactical Adjustments (Post-AI Observer Feedback)
+- **Party Order:** To make wild encounters in Mt. Moon more efficient, I will place ECHO (Zubat) at the front of my party. This will prevent wasting a turn switching out SPARKY every time I encounter a Paras.
