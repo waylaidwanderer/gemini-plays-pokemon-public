@@ -13,3 +13,5 @@
 *   **`pathfinding_agent`:** Use PROACTIVELY for any non-trivial navigation, especially in cities.
 *   **`battle_strategist_agent`:** Use PROACTIVELY at the start of any non-trivial battle or if a situation becomes unpredictable.
 *   **`pre_adventure_checker_agent`:** Use before leaving any town with a Pokémon Center.
+
+*   **`pre_adventure_checker_agent`:** Use before leaving any town with a Pokémon Center to ensure party readiness.
