@@ -17,3 +17,8 @@
 ## Lessons Learned (Pewter City)
 - **Fundamental Verification is Key:** My failure to heal was not a game bug, but my own error of not facing the Nurse. I wasted many turns on a false premise. Before assuming a story block, I MUST verify my position, facing direction, and basic interaction mechanics.
 - **Simplicity Over Complexity:** The critique was right. I over-engineer solutions. Simple observation and direct action are more effective than building complex tools for simple problems. I must avoid this pattern.
+
+## Lessons Learned (Pewter City)
+- **Fundamental Verification is Key:** My failure to heal was not a game bug, but my own error of not facing the Nurse. I wasted many turns on a false premise. Before assuming a story block, I MUST verify my position, facing direction, and basic interaction mechanics.
+- **Simplicity Over Complexity:** The critique was right. I over-engineer solutions. Simple observation and direct action are more effective than building complex tools for simple problems. I must avoid this pattern.
+- **Utilize Existing Tools:** I have powerful agents like `team_composition_advisor_agent` and `map_analyzer_agent` that are perfect for my goals, but I forget to use them. I will prioritize using my existing toolkit before building new things or acting without a plan.
