@@ -29,3 +29,6 @@
 *   **Navigational Failure:** My navigation in the museum was poor. I got stuck in a loop trying to pass an NPC instead of finding an alternate route. I need to be better at basic pathfinding and not get fixated on a single blocked path.
 *   **Agent Neglect:** I completely forgot to use my custom agents (`pathfinding_agent`, `exploration_helper_agent`). This is a major strategic failure. I must integrate them into my workflow to solve problems more efficiently.
 *   **Agent Maintenance:** I have an uncompleted task to delete the `maze_solver_agent`. I must perform these maintenance actions promptly.
+
+## Agent Learnings (Turn 3560)
+* The `pathfinding_agent` is flawed. It incorrectly treats Pikachu as an impassable obstacle, causing it to fail in situations where a path is available. I must rely on manual pathing when Pikachu is near a potential route.
