@@ -25,3 +25,6 @@
 - **VIRIDIAN FOREST:** All trainers defeated.
 - **ROUTE 22:** Rival Pixel
 - **OAK'S LAB:** Rival Pixel
+
+- The Super Nerd at (58, 12) is also a non-battling NPC. 
+- **New Mechanic?** Poison seems to have worn off my Pokémon after their HP dropped very low outside of battle. Need to confirm if this is consistent.
