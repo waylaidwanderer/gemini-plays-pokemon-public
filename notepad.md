@@ -24,3 +24,8 @@
 
 ## World Knowledge Graph Tasks
 - Add edge between Pewter City (Node ID needed) and Pewter Pokecenter (Node ID needed).
+
+## Assumptions & Hypotheses to Test
+- **Current Hypothesis:** Selecting 'SOMEONE's PC' is the correct way to access the Pokémon Storage System. ('Gem's PC' repeatedly leads to Item Storage).
+- **Assumption:** The PC menu is not bugged and has a logical solution.
+- **Assumption:** There is no other method to manage Pokémon besides the PC.
