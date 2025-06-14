@@ -20,3 +20,5 @@
 ## NPC Dialogue Log
 - **PEWTER CITY, Cool Trainer F (9,16):** "It's rumored that CLEFAIRYs came from the moon! They appeared after MOON STONE fell on MT.MOON."
 - **PEWTER CITY, Super Nerd (26,26):** "I'm spraying REPEL to keep POKéMON out of my garden!"
+
+- **ROUTE 3, Youngster (11, 7):** Non-battling NPC. Just talks about Pokémon in the forest.
