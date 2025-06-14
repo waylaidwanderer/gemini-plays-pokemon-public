@@ -28,4 +28,3 @@
 - Defeated trainers act as solid obstacles and cannot be walked through.
 
 # High Priority Tasks
-- Update WKG for Pewter City Pokémon Center warp (add nodes and edge).
