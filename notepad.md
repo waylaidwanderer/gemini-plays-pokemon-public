@@ -1,24 +1,20 @@
 # Gem's Gameplay Log & Strategy
 
-## Party Assessment
-*   **SPROUT** (Oddish, Lv11): Almost at level cap. Key for Brock due to type advantage.
-*   **PIP** (Pidgey, Lv10): Good utility. GUST is proving useful.
-*   **SPARKY** (Pikachu, Lv12): At level cap (12). On standby for now.
-*   **THISTLE** (Nidoran♀, Lv4): Newest team member! Needs training.
+## Party & Brock Prep
+*   **SPROUT** (Oddish, Lv11): Key for Brock. Goal: Lv12.
+*   **PIP** (Pidgey, Lv10): Good utility. Goal: Gain levels.
+*   **SPARKY** (Pikachu, Lv12): At level cap (12).
+*   **THISTLE** (Nidoran♀, Lv4): Newest member. Goal: Gain levels.
 
-## Current Plans & Hypotheses
-*   **Training on Route 22:**
-    *   **Hypothesis:** The wild Pokémon on Route 22 (Nidoran, Mankey, Spearow) provide good EXP for SPROUT and PIP.
-    *   **Plan:** Continue battling wild Pokémon here until SPROUT reaches the level cap (12). Also, get some levels for PIP and THISTLE.
-*   **Brock Preparation:**
-    *   **Hypothesis:** A high-level SPROUT with its Grass/Poison typing will be super effective against Brock's Rock/Ground Pokémon.
-    *   **Plan:** Once SPROUT is level 12, I will proceed to Pewter City to challenge the gym.
+## Current Objective: Training for Brock
+*   **Primary Location:** Route 22 (Nidoran, Mankey, Spearow).
+*   **Alternative Location:** Route 2 (Untested, may have better encounters).
+*   **Strategy:** Level SPROUT to 12 first, then focus on PIP and THISTLE.
 
-## Lessons Learned & New Rules
-*   **Pre-Departure Checklist:** ALWAYS check Pokémon HP and PP at a Pokémon Center before leaving a town. (Failed this once, wasted significant time).
-*   **Navigation:** Viridian City's layout is tricky. I must trace paths on the map before moving to avoid hitting obstacles. (Failed this multiple times).
-*   **Agent-Player Responsibility:** The `pathfinding_agent` provides valid paths, but it's my responsibility to clear obstacles on that path (e.g., using HM Cut). The agent is a planner, not an executor.
-*   **Battle Efficiency:** Stop fumbling with menu controls. If a tool fails (like `select_battle_option`), switch to manual inputs immediately. Don't waste turns on repeated failed tool calls. (Failed this multiple times).
+## Verified Strategies & Rules
+*   **Pre-Adventure Checklist:** ALWAYS heal all Pokémon (HP, PP, Status) at a Pokémon Center before leaving a town or starting a major task.
+*   **Efficient Navigation:** Use `pathfinding_agent` for complex routes to avoid wasting time. For simple paths, plan multi-step movements.
+*   **Agent Responsibility:** Agents provide plans (`pathfinding_agent`) or analysis (`battle_strategist_agent`). I am responsible for execution (clearing obstacles, making the final battle decision).
 
 ## Defeated Trainers
 *   Bug Catcher (Viridian Forest, (31,34))
