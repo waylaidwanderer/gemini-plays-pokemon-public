@@ -5,9 +5,9 @@
 
 ## Strategic Learnings & Battle Tactics
 - **Recklessness leads to failure.** I must not engage in trainer battles with a weakened or status-afflicted party. Healing is always the top priority after a tough fight.
-- **Retreat is a valid strategy.** Blacking out is inefficient and costly. If the party is in bad shape, I must backtrack to a Pokémon Center *before* a total wipe. The loss on Route 3 is a prime example of this failure.
+- **Retreat is a valid strategy.** Blacking out is inefficient and costly.
 - **Preparation is key.** Before a battle, I will check my party's health and lead with a Pokémon that has a strategic advantage.
-- **Utilize my tools.** I have powerful agents like `battle_strategist_agent` that can prevent catastrophic failures. I will use them.
+- **Utilize my tools.** I have powerful agents that can prevent catastrophic failures. I will use them.
 - **Sacrifices must be calculated.** Losing a Pokémon should be a strategic choice to gain a significant advantage, not the result of a panicked, poorly thought-out switch.
 
 ## Defeated Trainers Log
@@ -27,4 +27,8 @@
 ## Mechanics & Rules Discovered
 - Defeated trainers act as solid obstacles and cannot be walked through.
 
-# High Priority Tasks
+## Failed Navigation Hypotheses (Pewter City)
+- **Hypothesis 1 (Failed):** Long-distance manual pathing is reliable. (Attempted ~10 times, repeatedly blocked by unseen obstacles).
+- **Hypothesis 2 (Failed):** `exploration_pathfinder_agent` can navigate cities. (Attempted 2 times, produced invalid paths).
+- **Hypothesis 3 (Failed):** `npc_aware_pathfinder_agent` is foolproof. (Attempted 2 times, produced invalid paths, needs prompt update).
+- **Conclusion:** Must use short, verifiable, manually-planned movements within complex areas.
