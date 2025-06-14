@@ -12,7 +12,7 @@
 - **Map Awareness:** I need to be more careful when exploring areas with one-way paths like ledges to avoid getting trapped in cul-de-sacs.
 
 ## Agent Development
-- **`npc_aware_pathfinder_agent` (FAILED HYPOTHESIS):** The agent is still unreliable. It generated an invalid path on Route 3 (Turn 4719), attempting to move through an impassable tile at (18, 7). It cannot be trusted for navigation. New Hypothesis (Manual Path): The correct path forward from (17,7) seems to be Up -> Up -> Right to bypass the rock formation.
+- **`npc_aware_pathfinder_agent` (FAILED HYPOTHESIS):** The agent is still unreliable. It generated an invalid path on Route 3 (Turn 4719), attempting to move through an impassable tile at (18, 7). It cannot be trusted for navigation. The agent failed a third time, generating a completely invalid path (T4726). It is unusable. My manual navigation attempts have all failed. The game state insists a path east is reachable, but I am visually blocked by a rock wall at (24, 13). New Hypothesis: This rock wall is not actually impassable. I will attempt to walk through it.
 
 ## Key Learnings & Game Mechanics
 - **Poison:** Seems to wear off after a Pokémon's HP drops to a very low threshold outside of battle. This needs more testing to confirm the exact trigger.
