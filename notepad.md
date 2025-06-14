@@ -17,7 +17,7 @@
 ## Lessons Learned & New Rules
 *   **Pre-Departure Checklist:** ALWAYS check Pokémon HP and PP at a Pokémon Center before leaving a town. (Failed this once, wasted significant time).
 *   **Navigation:** Viridian City's layout is tricky. I must trace paths on the map before moving to avoid hitting obstacles. (Failed this multiple times).
-*   **Agent Unreliability:** The `pathfinding_agent` is not perfect. It led me into a `cuttable` tree. I MUST manually verify any path an agent suggests against the map XML data. Do not trust agents blindly. (Failed this once).
+*   **Agent-Player Responsibility:** The `pathfinding_agent` provides valid paths, but it's my responsibility to clear obstacles on that path (e.g., using HM Cut). The agent is a planner, not an executor.
 *   **Battle Efficiency:** Stop fumbling with menu controls. If a tool fails (like `select_battle_option`), switch to manual inputs immediately. Don't waste turns on repeated failed tool calls. (Failed this multiple times).
 
 ## Defeated Trainers
