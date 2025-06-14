@@ -19,3 +19,5 @@
 *   **Manual Navigation in Viridian City:** Highly inefficient. Resulted in getting lost repeatedly. (Failed >15 attempts). **Resolution: Use `pathfinding_agent` for all city navigation.**
 *   **Battle of Attrition (PIP vs. Pidgey):** Attempting to win with PIP despite multiple accuracy debuffs was a poor, high-risk choice that nearly resulted in a faint. (Failed >5 attack attempts). **Resolution: Switch to a reliable counter immediately when a fight goes south. Do not be stubborn.**
 *   **Getting Stuck in Menus:** I have wasted significant time stuck in the nickname menu. This is an execution failure. **Resolution: Be more careful and deliberate with button inputs.**
+
+*   **Viridian Forest Youngster (17, 44):** This NPC is non-hostile and blocks a dead-end path. I interacted with him 3 times with no battle initiated. The correct path is to the east and then north.
