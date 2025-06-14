@@ -2,13 +2,14 @@
 
 ## Core Strategy & Goals
 - **Primary Goal:** Defeat Brock and earn the Boulder Badge.
-- **Secondary Goal:** Train FURYFIST and NIGHTSHADE to the level cap (12).
-- **Current Task:** Grind for experience on Route 2.
+- **Secondary Goal:** Heal the party at the Pewter City Pokémon Center.
+- **Tertiary Goal:** Acquire more Poké Balls at the next opportunity.
 
 ## Key Learnings & Tactics
 - **Progression Trigger:** Defeating the Gym Leader is the most likely way to open new routes. Test this before exploring other, less likely hypotheses.
-- **Efficient Training:** Switch out Pokémon before they are at critical HP to prolong training sessions.
+- **Efficient Training:** Switch out Pokémon before they are at critical HP to prolong training sessions. After this healing trip, I will continue training on Route 2.
 - **Tool Usage:** Use the `pathfinder_agent` for complex navigation. Use the `progression_advisor_agent` when feeling stuck.
+- **Situational Awareness:** Do not attempt to use overworld tools like notepad_edit or redefine agents during a battle.
 
 ## Defeated Trainers Log
 - **OAK'S LAB:** Rival Pixel
