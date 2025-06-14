@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"menu_text\":{\"type\":\"string\",\"description\":\"The full text of the menu as it appears on screen, including the '→' cursor indicator.\"},\"target_item\":{\"type\":\"string\",\"description\":\"The name of the menu item to navigate to and select.\"}},\"required\":[\"menu_text\",\"target_item\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\",\"A\",\"B\"]}},\"error_message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": false
+  },
+  "npc_aware_pathfinder_agent": {
+    "agent_name": "npc_aware_pathfinder_agent",
+    "agent_description": "Calculates the shortest walkable path between two points on the current map, actively avoiding impassable tiles and stationary NPCs listed in map_sprites. Can run Python code.",
+    "agent_system_prompt": "You are a pathfinding expert for a tile-based RPG. Your task is to find the shortest walkable path from a start to a target coordinate on the current map. You will be given the map's layout as an XML string in the `map_xml_string` variable and a list of map sprites. You must use your `run_code` tool to execute a Python script that parses this data, implements the A* search algorithm (or similar), and finds the optimal path. The path should only traverse walkable tiles ('ground', 'grass', etc.) and must treat tiles occupied by NPCs (from the map_sprites input) as impassable. Your final output must be a JSON object containing a list of button presses ('Up', 'Down', 'Left', 'Right'). If no path is possible, return an empty list.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"},\"map_sprites\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"position\"]}}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\",\"map_sprites\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}},\"error_message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"button_sequence\"]}",
+    "agent_can_run_code": true
   }
 }
