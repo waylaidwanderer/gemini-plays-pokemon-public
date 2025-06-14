@@ -12,7 +12,7 @@ This entire section serves as a critical reminder of a major failure cascade. Th
 **Core Lesson:** ALWAYS trust game state data over assumptions, especially when under pressure. `Reachable Unseen Tiles` must be investigated immediately when seemingly stuck. Never give up or resort to intentional failure. Verify location with game data before altering the WKG.
 
 ## Agent Development
-- The `npc_aware_pathfinder_agent` was unreliable. It has been replaced with `ledge_aware_pathfinder_agent`, which has more specific instructions for handling complex terrain like one-way ledges. **UPDATE:** This agent also failed and cannot be trusted on one-way paths.
+- The `master_pathfinder_agent` was created to replace the unreliable `ledge_aware_pathfinder_agent`. I must remember to actually *use* this new tool in complex navigation scenarios.
 
 ## Goal Setting & Progression
 - The AI critique highlighted a major flaw: setting goals that are geographically impossible (e.g., targeting Misty from Route 3). Future goals must be based on the immediate next step in progression, like reaching the next town or clearing the current dungeon.
