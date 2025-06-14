@@ -19,3 +19,9 @@
 ## 4. Active Hypotheses
 *   **Hypothesis:** The path forward to Cerulean City is through Mt. Moon, which is at the end of Route 3.
     *   **Test:** Clear Route 3 and see if it leads to the Mt. Moon entrance.
+
+## 5. Failed Hypotheses & Corrected Assumptions
+*   **Unreachable Trainer (Route 3):** The Youngster at (23, 10) is in a separate, inaccessible area. Wasted ~5 turns attempting to reach him. **Correction:** Must analyze map layout more carefully before committing to a path.
+
+## 1. Tactical Protocols (Updated)
+*   **Agent Management:** Maintain a maximum of 9 active agents to leave one slot open for creating new, specialized agents as needed. Regularly review and delete less useful agents.
