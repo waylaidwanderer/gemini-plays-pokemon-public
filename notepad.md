@@ -25,7 +25,7 @@
 - SPROUT's TACKLE (1 PP) is reserved *exclusively* for the Brock battle. Wild encounters must be handled with status moves or by running.
 - A turn in battle is only consumed by selecting FIGHT, PKMN, ITEM, or RUN. Navigating menus does not pass a turn.
 
-### C. Active Hypothesis Testing
+### C. Strategic Questions to Investigate
 - **Hypothesis 1:** The eastern grass patch on Route 22 is the optimal training spot. (To be tested with `training_hotspot_tracker_agent` after this battle).
 - **Hypothesis 2:** SPROUT will learn a damaging Grass-type move upon leveling up. (Learnsets are custom; cannot be relied upon. Will observe upon level up).
 
