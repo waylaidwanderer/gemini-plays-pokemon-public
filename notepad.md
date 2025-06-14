@@ -15,3 +15,7 @@
 
 ## Reminders
 - Stock up on healing items like Paralyze Heals and Potions at the next Poké Mart.
+
+## Battle Lessons
+- **Trainers Have Multiple Pokémon:** Do not assume a battle is over after defeating one opponent. Wait for the victory message and prize money.
+- **Type Matchup Correction:** Electric-type moves are 'not very effective' against Grass/Poison types like Oddish and Bellsprout. This is a critical distinction for this hack.
