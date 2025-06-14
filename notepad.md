@@ -1,25 +1,22 @@
 # Gem's Strategic Plan & Learnings
 
-## 1. Current Objective
-- **Primary Goal:** Defeat Brock and earn the Boulder Badge.
-- **Secondary Goal:** Fully heal the party at the Pewter Pokémon Center.
+## 1. Current Objective & Plan
+- **Objective:** Defeat Brock and earn the Boulder Badge.
+- **Plan:** Use SPROUT's type advantage. Be wary of Onix's Bide. If Bide is used, switch to a different Pokémon to absorb the damage.
 
-## 2. Party Status & Training Goals
-*   **SPARKY (PIKACHU):** Lvl 12 (CAPPED)
-*   **SPROUT (ODDISH):** Lvl 12 (CAPPED)
-*   **PIP (PIDGEY):** Lvl 10
-*   **KITSUNE (VULPIX):** Lvl 7 (Priority Training Target)
-*   **THISTLE (NIDORAN♀):** Lvl 4 (Priority Training Target)
+## 2. Party Training Plan
+*   **Next Training Focus:** KITSUNE (Vulpix) and THISTLE (Nidoran♀) need levels. Find a good training spot after this gym battle.
+*   **Level Cap:** Current cap is 12. Next cap will be 21 after earning the Boulder Badge. SPARKY and SPROUT are capped.
 
 ## 3. Key Learnings & Strategy
-*   **Heal Before Major Fights:** Always fully heal at a Pokémon Center before any major challenge (Gym Leaders, Rivals, etc.). Going in injured is a recipe for disaster.
-*   **Tool-First Navigation:** Use the `pathfinding_agent` for all non-trivial movement to avoid getting stuck and improve efficiency.
-*   **Test Assumptions Quickly:** Don't waste time on unverified hypotheses. Test them, and if they fail, document and pivot. (e.g., Old Amber search in museum).
+*   **Tool-Use Discipline:** Don't blindly trust agents like pathfinder when they repeatedly fail. Use observation and logic first.
+*   **Recognize Scripted Events:** If a path is illogically blocked, it's likely a story gate. Don't brute-force it; explore other options.
+*   **Check Type Matchups:** Always double-check immunities before attacking (e.g., Electric vs. Ground).
 
 ## 4. World Clues
-*   Team Rocket is at **Mt. Moon** (source: Gentleman in Pewter PC).
-*   The eastern route out of Pewter is blocked because of Team Rocket at Mt. Moon (source: Police Notice).
-*   Moon Stones come from **Mt. Moon** (source: Museum Exhibit).
+*   Team Rocket is at **Mt. Moon**.
+*   The eastern route out of Pewter is blocked because of Team Rocket at Mt. Moon.
+*   Moon Stones come from **Mt. Moon**.
 
 ## Courtyard Conundrum - SOLVED!
-*   **Solution:** After 8 failed attempts to navigate out of the enclosed courtyard, the correct method was to walk directly south through Pikachu. This confirms the special movement rule and that I am never truly stuck.
+*   **Solution:** After 8 failed attempts, the correct method was to walk directly south through Pikachu. This confirms the special movement rule and that I am never truly stuck.
