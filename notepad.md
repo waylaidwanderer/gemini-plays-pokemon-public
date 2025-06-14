@@ -2,8 +2,8 @@
 
 ## I. Current Status & Active Plans
 
-### A. Pokémon Party (Turn 2707)
-1. SPROUT (ODDISH): Lv10 (23/32 HP, EXP: 674) | Moves: TACKLE (3 PP), POISONPOWDER (35 PP), LEECH SEED (5 PP)
+### A. Pokémon Party (Turn 2730)
+1. SPROUT (ODDISH): Lv10 (27/32 HP, EXP: 674) | Moves: TACKLE (1 PP), POISONPOWDER (35 PP), LEECH SEED (4 PP)
 2. PIP (PIDGEY): Lv10 (23/29 HP, EXP: 575) | Moves: GUST (14 PP), SAND-ATTACK (15 PP)
 3. SPARKY (PIKACHU): Lv12 (38/38 HP, EXP: 1728) | Moves: THUNDERSHOCK (28 PP), TAIL WHIP (30 PP), QUICK ATTACK (30 PP), THUNDER WAVE (20 PP) - AT LEVEL CAP (0 Badges).
 
@@ -11,15 +11,15 @@
 - Money: ¥296
 
 ### C. Current Location & Immediate Objective
-- Location: Route 22 (ID: 33), at (34,9) (Turn 2707).
-- Immediate Objective: Train SPROUT in the eastern grass patch of Route 22.
+- Location: Route 22 (ID: 33), in battle.
+- Immediate Objective: Train SPROUT to Lv12 in the eastern grass patch of Route 22.
 
 ## II. Game Mechanics & Rules
 
 ### A. Hard Mode Rules
 - Battle Style: Set.
 - No items allowed in battle.
-- Level caps: Pokémon cannot exceed cap for current badge count. (0 badges=12, 1=21, 2=24, 3=35, 4=43, 5=50, 6=53, 7=55, 8=65). EXP gain messages for capped Pokémon are visual only.
+- Level caps: 0 badges=12, 1=21, 2=24, 3=35, 4=43, 5=50, 6=53, 7=55, 8=65.
 
 ### B. General Game Changes (Pokémon Yellow Legacy)
 - HMs: Forgettable, menu-use, not PC-storable. CUT is Bug-type.
@@ -39,45 +39,17 @@
 ## III. World Knowledge & Exploration
 
 ### A. Defeated Trainers
-- Bug Catcher (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (31,34) in Viridian Forest. (Marker ☠️ set)
-- Cooltrainer F (ID 5, LASS) at (3,42) in Viridian Forest. (Marker ☠️ set)
-- Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest. (Marker ☠️ set)
-- Rival BLAZe (Route 22, (30,5)) - Defeated SPEAROW Lv9, EEVEE Lv8. Earned ¥280. (Marker ☠️ set)
+- Bug Catcher (ID 2, VIRIDIANFOREST_YOUNGSTER2) at (31,34) in Viridian Forest.
+- Cooltrainer F (ID 5, LASS) at (3,42) in Viridian Forest.
+- Bug Catcher (ID 4, VIRIDIANFOREST_YOUNGSTER4) at (3,19) in Viridian Forest.
+- Rival BLAZe (Route 22, (30,5)) - Defeated SPEAROW Lv9, EEVEE Lv8. Earned ¥280.
 
 ### B. Verified Type Matchups
 - Ghost > Psychic.
 - Poison > Bug; Bug !> Poison.
 
-### C. NPC Interaction Log & Key Dialogue
-- **Viridian Old Man (ID 5, (20,14) Viridian):** Taught catching, unblocked path N. (Marker ✅ set)
-- **Pewter Gym Guide (Pewter Gym):** Brock's Lead: GEODUDE (Offense, Rock Throw). Other: ONIX (Defense, BIND). Electric harmless vs Ground.
-- **Pewter Nidoran House Man (Pewter Nidoran House):** Traded Pokémon grow fast but might ignore unskilled trainers; BADGEs help.
-- **VIRIDIANCITY_YOUNGSTER2 (ID 3, (28,18) Viridian):** Non-battling. Explained DVs.
+## IV. Lessons Learned & Strategic Refinements
 
-## IV. Agent Management
-
-### A. Defined Agents (Updated Turn 2678)
-1.  `level_cap_compliance_checker`
-2.  `item_finder_agent`
-3.  `wkg_transition_recorder_agent`
-4.  `battle_strategist_agent`
-5.  `pathfinding_agent`
-6.  `exploration_helper_agent`
-
-### B. Agent Improvement Tasks
-- **(Deferred) `pathfinding_agent` & `exploration_helper_agent`:** Prompts need significant update to handle ledges correctly. Deferring fix until more complex navigation is required.
-
-### C. Future Agent Ideas (To Be Actioned)
-- **`training_hotspot_tracker`:** To suggest optimal training locations based on discoveries.
-- **`shop_inventory_agent`:** To log and recall items sold in different Poké Marts.
-
-## V. Lessons Learned & Strategic Refinements
-
-- **Notepad `replace` Action:** Requires absolute precision for `old_text`. If an edit fails repeatedly, using `overwrite` for a larger section is more efficient than multiple failed `replace` attempts.
-- **Party Order:** The Pokémon in the first slot of the party is always the one to enter battle first. This is not an 'auto-switch' mechanic.
-- **Task Management:** Completed tasks must be removed from the notepad immediately to maintain an accurate to-do list.
-
-## VI. Task List (Current)
-- **(Active) Training:** Level SPROUT to 12 on Route 22.
-- **(Deferred) Agent Prompt Fixes:** Address ledge-handling for navigation agents when necessary.
-- **(Future) Agent Definition:** Define `training_hotspot_tracker` and `shop_inventory_agent` when strategically beneficial.
+- **Resource Management:** Must conserve low-PP moves (like SPROUT's TACKLE) for critical battles (i.e., Gym Leaders). Use sustainable moves like LEECH SEED for training against wild Pokémon.
+- **Strategy Assumptions:** Do not base strategies on unconfirmed events, such as expecting a Pokémon to learn a specific move upon leveling up. Plan with the resources I currently have.
+- **Notepad Focus:** Keep the task list clean and focused on immediate, actionable objectives. Avoid cluttering it with deferred or vague future plans.
