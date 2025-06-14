@@ -63,14 +63,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\",\"A\",\"B\"]}},\"error_message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": false
   },
-  "crisis_advisor_agent": {
-    "agent_name": "crisis_advisor_agent",
-    "agent_description": "Assesses party health, status, and location to recommend a high-level strategic action (e.g., RETREAT, PROCEED WITH CAUTION).",
-    "agent_system_prompt": "You are a Crisis Advisor for Pokémon Yellow Legacy Hard Mode. Your goal is to provide a high-level strategic recommendation based on the player's current situation. Analyze the player's party (HP, status conditions), current map ID, and any other relevant context. Your output must be one of three actions: 'RETREAT TO SAFETY' (if party is critical and a known safe location is reachable), 'PROCEED WITH EXTREME CAUTION' (if the party is moderately injured or in a dangerous, unknown area), or 'SAFE TO EXPLORE/PROCEED' (if the party is healthy and in a relatively safe area). Provide a brief justification for your recommendation. Adhere to the output schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"current_hp\":{\"type\":\"integer\"},\"max_hp\":{\"type\":\"integer\"},\"status\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"name\",\"level\",\"current_hp\",\"max_hp\"]}},\"current_map_id\":{\"type\":\"string\"},\"known_safe_locations\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"e.g., ['Pewter City Pokemon Center']\"}},\"required\":[\"player_pokemon_party\",\"current_map_id\",\"known_safe_locations\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_action\":{\"type\":\"string\",\"enum\":[\"RETREAT TO SAFETY\",\"PROCEED WITH EXTREME CAUTION\",\"SAFE TO EXPLORE/PROCEED\"]},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_action\",\"justification\"]}",
-    "agent_can_run_code": false
-  },
   "master_pathfinder_agent": {
     "agent_name": "master_pathfinder_agent",
     "agent_description": "Calculates the shortest walkable path from a start to an end coordinate, handling all known obstacles including one-way ledges and spinners. Uses Python code to perform A* search. (Can run Python code)",
