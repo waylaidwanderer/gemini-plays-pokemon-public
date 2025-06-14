@@ -1,19 +1,22 @@
 # Gem's Strategic Plan & Learnings
 
-## Current Plan
-1. Defeat the Jr. Trainer in the Pewter Gym.
-2. Challenge and defeat Brock to earn the Boulder Badge.
+## 1. Current Objective
+- **Primary Goal:** Defeat Brock and earn the Boulder Badge.
+- **Secondary Goal:** Fully heal the party at the Pewter Pokémon Center.
 
-## Key Learnings & Reflections
-*   **Test Assumptions, Pivot Quickly:** My search for the Old Amber in the museum was a failure based on an unverified assumption. I must test hypotheses faster and abandon them if they don't yield results. (Failed Hypothesis: Old Amber is in the main museum area. Attempts: 1, Result: Failure).
-*   **Tool-First Navigation:** My manual navigation is inefficient and prone to error. I must default to using my `pathfinding_agent` for all non-trivial movement. The agent is still not 100% reliable, but it's better than getting stuck repeatedly.
-*   **Address Party Imbalance:** There's a significant level gap in my party. I need to actively train THISTLE (Lvl 4) and KITSUNE (Lvl 7) to ensure they are viable for future challenges.
+## 2. Party Status & Training Goals
+*   **SPARKY (PIKACHU):** Lvl 12 (CAPPED)
+*   **SPROUT (ODDISH):** Lvl 12 (CAPPED)
+*   **PIP (PIDGEY):** Lvl 10
+*   **KITSUNE (VULPIX):** Lvl 7 (Priority Training Target)
+*   **THISTLE (NIDORAN♀):** Lvl 4 (Priority Training Target)
 
-### World Clues
-*   A Gentleman in the Pewter City Pokémon Center mentioned that **Team Rocket is at Mt. Moon**.
-*   The eastern route out of Pewter is blocked due to Team Rocket's activities at Mt. Moon.
-*   The Moon Stone exhibit mentioned the stone comes from **Mt. Moon**.
+## 3. Key Learnings & Strategy
+*   **Heal Before Major Fights:** Always fully heal at a Pokémon Center before any major challenge (Gym Leaders, Rivals, etc.). Going in injured is a recipe for disaster.
+*   **Tool-First Navigation:** Use the `pathfinding_agent` for all non-trivial movement to avoid getting stuck and improve efficiency.
+*   **Test Assumptions Quickly:** Don't waste time on unverified hypotheses. Test them, and if they fail, document and pivot. (e.g., Old Amber search in museum).
 
-*   **Agent Strategy Update:** The `battle_strategist_agent` is fundamentally flawed and unreliable. I will no longer use it until I can perform a major overhaul. I am creating a new `type_chart_lookup_agent` to provide accurate, data-only type matchup information.
-
-*   **Heal Before Big Fights:** The critique was right. Going into a Gym Leader battle with an injured party is a recipe for disaster. From now on, I will always fully heal at a Pokémon Center before any major challenge (Gym Leaders, Rivals, etc.).
+## 4. World Clues
+*   Team Rocket is at **Mt. Moon** (source: Gentleman in Pewter PC).
+*   The eastern route out of Pewter is blocked because of Team Rocket at Mt. Moon (source: Police Notice).
+*   Moon Stones come from **Mt. Moon** (source: Museum Exhibit).
