@@ -1,28 +1,21 @@
 # Gem's Strategic Plan
 
 ## Primary Goal: Defeat Brock (Pewter City Gym)
-*   **Current Status:** Not yet in Pewter City.
-*   **Path to Pewter:** Must travel through Viridian Forest and then Route 2.
-*   **Action Plan:**
-    1.  Finish initial training on Route 22 to get key Pokémon to Lv. 12.
-    2.  Travel from Viridian City -> Route 2 -> Viridian Forest -> Pewter City.
-    3.  Use `pathfinding_agent` for all city/complex route navigation.
+*   **Path:** Viridian City -> Route 2 -> Viridian Forest -> Pewter City.
 
 ## Secondary Goal: Train Party to Level Cap (12)
-*   **Priority Pokémon:**
-    *   SPROUT (Lv. 11 -> 12) - Key for Brock.
-    *   PIP (Lv. 10 -> 12)
-    *   THISTLE (Lv. 4 -> 12)
-*   **Training Location:** Route 22 (current), then Route 2 / Viridian Forest.
+*   **Priority Pokémon:** SPROUT (Lv. 11), PIP (Lv. 10), THISTLE (Lv. 4).
+*   **Training Location:** Route 2 & Viridian Forest (opportunistic).
 
-## Tertiary Goal: Fully Explore Route 2
-*   **Objective:** Discover all trainers, items, and wild Pokémon on Route 2 to prepare for Pewter City.
+## Agent Usage Protocols
+*   **`pathfinding_agent`:** Use PROACTIVELY for any non-trivial navigation (especially in cities) to avoid getting lost. It is my responsibility to clear obstacles on the path it provides.
+*   **`battle_strategist_agent`:** Use IMMEDIATELY if a battle becomes difficult or unpredictable.
+*   **`pre_adventure_checker_agent`:** ALWAYS use before leaving a town to ensure party readiness.
 
-## Verified Mechanics & Rules
-*   **Pre-Adventure Checklist:** ALWAYS use `pre_adventure_checker_agent` before leaving a town.
-*   **Navigation:** Use `pathfinding_agent` for ANY non-trivial navigation to avoid getting lost. It is my responsibility to clear obstacles on the path it provides.
-*   **Failed Hypotheses Log:**
-    *   Manual navigation in Viridian City is highly inefficient (failed >10 times). Will use `pathfinding_agent` instead.
+## Failed Hypotheses Log
+*   **Manual Navigation in Viridian City:** Highly inefficient. Resulted in getting lost and multiple loops. (Failed >15 times). **Resolution: Use `pathfinding_agent`**.
+*   **Route 22 Training Area:** Assumed the main grassy area was accessible from the south. It is blocked by ledges. (Failed >5 attempts to access). **Resolution: Abandoned Route 22, proceeding on main quest path.**
+*   **Battle of Attrition (PIP vs. Pidgey):** Attempted to win with PIP despite severe accuracy debuffs. Resulted in near-faint and wasted turns. (Failed >3 attack attempts). **Resolution: Switch to a reliable counter (SPARKY) immediately when a fight goes south.**
 
 ## Defeated Trainers
 *   Bug Catcher (Viridian Forest, (31,34))
