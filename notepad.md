@@ -17,3 +17,10 @@
 - **OAK'S LAB:** Rival Pixel
 - **ROUTE 22:** Rival Pixel
 - **VIRIDIAN FOREST:** Lass (3,42), Youngster (28,20), Youngster (28,34), Bug Catcher (14,18), Bug Catcher (3,19)
+
+## Training Plan (Pre-Brock)
+- **Location:** Route 22
+- **Team:** NIGHTSHADE, FURYFIST, SPIKE, SPARKY
+- **Objective:** Train NIGHTSHADE, FURYFIST, and SPIKE to Lv. 12.
+  - FURYFIST needs to learn Low Kick at Lv. 9.
+  - SPIKE needs to learn Double Kick at Lv. 12.
