@@ -25,3 +25,6 @@
 
 ## 1. Tactical Protocols (Updated)
 *   **Agent Management:** Maintain a maximum of 9 active agents to leave one slot open for creating new, specialized agents as needed. Regularly review and delete less useful agents.
+
+## 6. Immediate Tasks
+*   Find the Pokémon Center at Mt. Moon to heal the party.
