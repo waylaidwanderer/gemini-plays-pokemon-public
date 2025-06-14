@@ -8,7 +8,7 @@
 ## Strategic Learnings & Hypotheses
 - **Progression Trigger Hypothesis:** Defeating Brock is the trigger to open the path to Route 3. This is my current operating theory after failing to find any other trigger in Pewter City.
 - **Efficient Training:** I must switch out Pokémon when their HP is low, not critical. This will prolong training sessions and prevent forced retreats. My training area is Route 2.
-- **Tool Usage:** I will use the `pathfinder_agent` for all non-trivial navigation. I will use the `progression_advisor_agent` when I am unsure of my next steps.
+- **Tool Usage:** I will use the `pathfinder_agent` for complex navigation. I will use my strategic agents like `team_composition_advisor_agent` before major battles.
 
 ## Defeated Trainers Log
 - **OAK'S LAB:** Rival Pixel
