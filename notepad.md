@@ -15,7 +15,7 @@
 - **ROUTE 22:** Rival Pixel
 - **VIRIDIAN FOREST:** Lass (3,42), Youngster (28,20), Youngster (28,34), Bug Catcher (14,18), Bug Catcher (3,19)
 - **PEWTER GYM:** Jr. Trainer M (4,7), Gym Leader Brock (5,2)
-- **ROUTE 3:** Cool Trainer F (17,10), Bug Catcher (11, 7). Youngster (15,6) - UNDEFEATED.
+- **ROUTE 3:** Cool Trainer F (17,10), Bug Catcher (11, 7). Youngster (15,6)
 
 ## Non-Battling NPC Log
 - **ROUTE 3, Youngster (11, 7):** Non-battling NPC. Just talks about shorts.
