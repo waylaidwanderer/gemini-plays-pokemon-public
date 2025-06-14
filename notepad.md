@@ -1,5 +1,8 @@
 # Game Mechanics & Lessons
 
+## Navigation
+- **Defeated trainer sprites are NOT impassable obstacles.** I can walk through them. Confirmed after being blocked by Rocket Grunt in Mt. Moon B2F, which was a misunderstanding.
+
 ## Agent Development & Tactics
 - **Hypothesis:** The `master_pathfinder_agent` needs debugging to handle complex cave layouts. I will test it again in a controlled environment before relying on it for critical navigation.
 - Battle tactics need to be more proactive. I will not wait until a Pokémon's HP is critical before using priority moves like Quick Attack.
