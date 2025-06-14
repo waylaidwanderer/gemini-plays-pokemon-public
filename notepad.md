@@ -5,7 +5,7 @@
 - **Current Task:** Heal my party at the Pewter Pokémon Center.
 - **Plan:**
   1. Heal the party.
-  2. The path east to Route 3 (the best training spot) is blocked. I must explore Pewter City and Route 2 to find the event/NPC that opens the path.
+  2. Hypothesis: Defeating Brock is the trigger to open Route 3. Plan: Train FURYFIST and NIGHTSHADE to the level cap (12) on Route 2, then challenge Brock.
   3. Once Route 3 is accessible, train FURYFIST (Fighting) and NIGHTSHADE (Grass) to the level cap (12).
   4. Challenge Brock.
 
