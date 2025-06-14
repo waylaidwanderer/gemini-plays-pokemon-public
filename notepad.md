@@ -1,17 +1,21 @@
 # Gem's Strategic Playbook
 
-## Core Principles (Hard Mode)
-- **Tactical Switching is Key:** If a Pokémon's stats are severely debuffed (e.g., Attack/Defense fell multiple times), switch it out. A fainted Pokémon gets no EXP. Don't persist in a losing fight. (Lesson from FURYFIST vs. Nidoran♀).
-- **Efficient EXP Management:** Funnel EXP to Pokémon that need it. Avoid using Pokémon near the level cap for finishing blows on weak opponents. (Lesson from SPARKY vs. Nidoran♀).
-- **Plan Locally, Act Globally:** Before making long-distance travel plans, always analyze the immediate area for resources (training spots, items, etc.). Don't assume a far-off location is better without checking nearby options first. (Lesson from Route 2 vs. Route 22).
-- **Proactive Agent Use:** Use agents for planning and strategy *before* acting, not just as a reactive measure when stuck. `progression_advisor_agent` and `optimal_training_spot_agent` are key planning tools.
+## Current Objective
+- **Hypothesis:** I am trapped in the courtyard north of the Pewter City Pokémon Center. I need a pathfinding algorithm to find the exit.
+- **Plan:** Create and use a `pathfinder_agent` to find a route from (15, 21) to the Pokémon Center entrance at (14, 26).
 
-## Verified Game Mechanics & Discoveries
-- **PC Menu:** Access Pokémon Storage via 'SOMEONE's PC', not 'Gem's PC'.
-- **Ghost vs. Psychic:** Ghost-type moves are super effective against Psychic-types (Source: Oak's Lab Scientist).
+## Core Lessons (Hard Mode)
+- **Switching:** A Pokémon with severe stat debuffs is a liability. Switch out. A fainted Pokémon gains no EXP.
+- **EXP Management:** Funnel EXP to Pokémon that need it. Don't waste kills on capped Pokémon.
+- **Rematches:** Losing to a regular trainer does NOT require a rematch. It's a waste of resources if unprepared.
+- **Proactive Agent Use:** Use agents for planning *before* major battles, not just reacting to problems.
+
+## Verified Mechanics
+- **PC Access:** Use 'SOMEONE's PC' for Pokémon Storage.
+- **Type Matchup:** Ghost is super-effective against Psychic.
 
 ## Defeated Trainers Log
 - **OAK'S LAB:** Rival Pixel
 - **ROUTE 22:** Rival Pixel
 - **VIRIDIAN FOREST:** Lass (3,42), Youngster (28,20), Youngster (28,34), Bug Catcher (14,18), Bug Catcher (3,19)
-- **PEWTER GYM:** Jr. Trainer M (3,4) - *Note: Lost to him once. Lesson learned: Rematches with regular trainers are NOT required after losing.*
+- **PEWTER GYM:** Jr. Trainer M (4,7) - Defeated.
