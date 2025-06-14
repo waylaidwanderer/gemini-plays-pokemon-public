@@ -55,14 +55,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"best_spot_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[]},\"reasoning\":{\"type\":\"string\"},\"alternative_spots\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"},\"notes\":{\"type\":\"string\"}}}}},\"required\":[\"reasoning\"]}",
     "agent_can_run_code": true
   },
-  "nickname_suggester_agent": {
-    "agent_name": "nickname_suggester_agent",
-    "agent_description": "Suggests creative, single-word nicknames for a Pokémon based on its type and descriptive keywords.",
-    "agent_system_prompt": "You are a creative Nickname Suggester. Your goal is to provide a list of unique, single-word nicknames for a Pokémon. Input: {\"pokemon_type\": string, \"keywords\": [string, string, ...]}. Output Schema: {\"type\":\"object\",\"properties\":{\"suggested_nicknames\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"suggested_nicknames\"]}. The nicknames should be clever, surprising, and avoid generic cute names. They should reflect the Pokémon's type, appearance, or the provided keywords.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_type\":{\"type\":\"string\"},\"keywords\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"pokemon_type\",\"keywords\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_nicknames\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"suggested_nicknames\"]}",
-    "agent_can_run_code": false
-  },
   "pre_adventure_checker_agent": {
     "agent_name": "pre_adventure_checker_agent",
     "agent_description": "Checks the player's party for low HP, low PP, or status conditions and recommends visiting a Pokémon Center if necessary before starting a new objective.",
