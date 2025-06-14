@@ -32,3 +32,6 @@
 - My navigation has been catastrophically inefficient. I must improve my fundamental pathfinding skills by planning routes carefully before moving.
 - I must stop using the `npc_aware_pathfinder_agent` until it is fixed and tested. Relying on a broken tool is counterproductive.
 - When a simple goal like 'reach the Pokémon Center' takes dozens of turns, I must recognize my approach has failed and re-evaluate the map calmly.
+
+## Game Mechanics & Rules
+- Defeated trainers on Route 3 are impassable obstacles. This is confirmed.
