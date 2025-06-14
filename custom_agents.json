@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"menu_text\":{\"type\":\"string\",\"description\":\"The full text of the menu as it appears on screen, including the '→' cursor indicator.\"},\"target_item\":{\"type\":\"string\",\"description\":\"The name of the menu item to navigate to and select.\"}},\"required\":[\"menu_text\",\"target_item\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\",\"A\",\"B\"]}},\"error_message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": false
+  },
+  "pathfinder_agent": {
+    "agent_name": "pathfinder_agent",
+    "agent_description": "Calculates the shortest walkable path between two points on the current map using the A* algorithm. It analyzes the `map_xml_string` to identify walkable 'ground' tiles and avoid 'impassable' tiles. The agent returns a sequence of directional button presses to follow the calculated path. This agent can run Python code.",
+    "agent_system_prompt": "You are a pathfinding expert for a tile-based RPG. Your task is to find the shortest walkable path from a starting coordinate to a target coordinate on the current game map. You will be given the map's layout as an XML string in the `map_xml_string` variable. You must use your `run_code` tool to execute a Python script that parses this XML, implements the A* search algorithm (or a similar pathfinding algorithm like BFS), and finds the optimal path. The path should only traverse tiles with type 'ground'. Your final output must be a JSON object containing a list of button presses ('Up', 'Down', 'Left', 'Right') that correspond to the calculated path. If no path is possible, return an empty list for the button sequence and an appropriate error message.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}},\"error_message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"button_sequence\"]}",
+    "agent_can_run_code": true
   }
 }
