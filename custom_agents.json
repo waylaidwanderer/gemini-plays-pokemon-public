@@ -62,5 +62,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}},\"error_message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": true
+  },
+  "trainer_team_logger_agent": {
+    "agent_name": "trainer_team_logger_agent",
+    "agent_description": "Logs the details of a defeated trainer's Pokémon team (name, level, moves) to a structured format for future reference.",
+    "agent_system_prompt": "You are a data logger for Pokémon trainer battles. Your sole purpose is to receive information about a defeated trainer's Pokémon team and format it into a structured, markdown-ready string. Do not analyze, strategize, or offer advice. Simply record the data as provided, conforming to the output schema.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"trainer_name\":{\"type\":\"string\"},\"map_id\":{\"type\":\"string\"},\"opponent_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"}},\"required\":[\"name\",\"level\"]}}},\"required\":[\"trainer_name\",\"map_id\",\"opponent_pokemon\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"formatted_log_entry\":{\"type\":\"string\",\"description\":\"A markdown-formatted string ready to be appended to a notepad.\"}},\"required\":[\"formatted_log_entry\"]}",
+    "agent_can_run_code": false
   }
 }
