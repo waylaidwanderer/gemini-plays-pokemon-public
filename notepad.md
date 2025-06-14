@@ -13,7 +13,6 @@
 
 ## Agent Development
 - **`npc_aware_pathfinder_agent`:** This agent is buggy and unreliable. I need to update its system prompt with more explicit instructions for obstacle detection, as previously planned.
-- **New Agent Idea:** Consider creating a 'crisis assessment' agent to recommend high-level actions (Retreat, Proceed, Explore) based on party status and location.
 
 ## Key Learnings & Game Mechanics
 - **Poison:** Seems to wear off after a Pokémon's HP drops to a very low threshold outside of battle. This needs more testing to confirm the exact trigger.
