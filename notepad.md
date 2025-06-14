@@ -24,3 +24,9 @@
 
 ## 5. Immediate Tasks
 *   Fully explore Route 3 to find the entrance to Mt. Moon.
+
+## 6. Strategy Refinements (Post-Critique)
+*   **Agent Usage:** The `pathfinding_agent` is unreliable on complex maps with ledges. Do not use it for navigation in these areas. I need to be more self-reliant.
+*   **Exploration Method:** When the game state shows `Reachable Unseen Tiles`, a path forward EXISTS. I must explore systematically and not assume I'm trapped.
+*   **Tool Utilization:** I have a `type_chart_lookup_agent` that I haven't been using. I should use it to strategize for trainer battles to conserve resources.
+*   **Learning Integration:** I need to actively apply the lessons recorded in this notepad to my gameplay, not just document failures.
