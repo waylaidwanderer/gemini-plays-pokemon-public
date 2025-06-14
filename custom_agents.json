@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"hp_current\":{\"type\":\"integer\"},\"hp_max\":{\"type\":\"integer\"},\"status\":{\"type\":[\"string\",\"null\"]},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"pp_current\":{\"type\":\"integer\"},\"pp_max\":{\"type\":\"integer\"}},\"required\":[\"pp_current\",\"pp_max\"]}}},\"required\":[\"name\",\"hp_current\",\"hp_max\",\"status\",\"moves\"]}}},\"required\":[\"player_party\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommend_pokecenter\":{\"type\":\"boolean\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommend_pokecenter\",\"reasoning\"]}",
     "agent_can_run_code": false
+  },
+  "route_exploration_agent": {
+    "agent_name": "route_exploration_agent",
+    "agent_description": "Analyzes a route map to generate an efficient exploration plan, including the optimal order to battle trainers, collect items, and search grass patches to minimize backtracking.",
+    "agent_system_prompt": "You are a Route Exploration Agent. Your goal is to create an efficient, step-by-step plan to fully explore a given route map. You have access to `map_xml_string` and `world_knowledge_graph_json_string` via your `run_code` tool. Your plan should minimize backtracking by creating an optimal path that visits all trainers (from Map Sprites), items (from Map Sprites), and covers all grass patches. Output Schema: {\"type\":\"object\",\"properties\":{\"exploration_plan\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"exploration_plan\",\"reasoning\"]}. The plan should be a sequence of actions, e.g., ['1. Head north to coordinates (X,Y) to battle Trainer A.', '2. After the battle, pick up the item at (X,Y).', '3. Proceed east and walk through the grass patch to find wild Pokemon.', '4. Finally, head to the route exit at (X,Y).']. Your reasoning should justify the path's efficiency.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"exploration_plan\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"exploration_plan\",\"reasoning\"]}",
+    "agent_can_run_code": true
   }
 }
