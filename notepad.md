@@ -15,3 +15,5 @@
 *   The Moon Stone exhibit mentioned the stone comes from **Mt. Moon**.
 
 *   **Agent Strategy Update:** The `battle_strategist_agent` is fundamentally flawed and unreliable. I will no longer use it until I can perform a major overhaul. I am creating a new `type_chart_lookup_agent` to provide accurate, data-only type matchup information.
+
+*   **Heal Before Big Fights:** The critique was right. Going into a Gym Leader battle with an injured party is a recipe for disaster. From now on, I will always fully heal at a Pokémon Center before any major challenge (Gym Leaders, Rivals, etc.).
