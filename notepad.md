@@ -26,4 +26,4 @@
 *   Find the Pokémon Center at Mt. Moon to heal the party.
 
 ## 6. Major Blunders & Resets
-*   **Route 3 Maze Failure (Turn ~4300):** Got completely lost in the SE corner after jumping down ledges. Wasted ~50 turns and critically injured the party. Concluded that this area is a trap and the main path is elsewhere. **Strategy:** Executing a strategic blackout to reset at Pewter City and attempt the route again, avoiding the lower ledges.
+*   **Route 3 Maze Failure (Turn ~4300):** Got completely lost in the SE corner after jumping down ledges. This area is a one-way navigational trap. The only solution is to retreat west to the route entrance and take the correct northern path. Do not attempt to find an exit east or north from the southern section. Avoid the lower ledges entirely.
