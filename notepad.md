@@ -1,12 +1,14 @@
-# Mt. Moon Exploration
+# Pokémon Yellow Legacy Notes
 
-## 1. Pokémon Strategy
-*   **Zubat (Poison/Flying):** Weak to Electric, Ice, Psychic, Rock. SPARKY is the best counter with Thundershock.
-*   **Geodude (Rock/Ground):** 4x weak to Grass/Water. 2x weak to Fighting/Bug. Immune to Electric. SPROUT (Leech Seed) and THISTLE (Double Kick) are the best counters.
+## 1. Game Mechanics
+*   **Poison:** Poisoned Pokémon lose 1 HP every four steps outside of battle.
 
-## 2. Current Plan
-*   Systematically explore Mt. Moon, floor by floor.
-*   Prioritize exploring all paths on the current floor before taking a ladder to the next.
-*   Find the exit to Route 4 (east side).
+## 2. Mt. Moon Exploration
+*   **Goal:** Traverse Mt. Moon to reach Route 4 and then Cerulean City.
+*   **Current Plan:** PARCH fainted from poison. Retreating from Mt. Moon B1F to the Pokémon Center on Route 4 to heal the party before proceeding.
+*   **Team Rocket:** A Youngster on 1F confirmed Team Rocket is in Mt. Moon. Be on alert.
 
-*   **Unreachable Item:** Path to the Poké Ball at (3, 21) is currently blocked by terrain. Failed to approach from (4, 21) and (3, 22) multiple times. Will re-evaluate the path later.
+## 3. Pokémon Strategy
+*   **Zubat (Poison/Flying):** Weak to Electric, Ice, Psychic, Rock. SPARKY is a good counter.
+*   **Geodude (Rock/Ground):** 4x weak to Grass/Water. SPROUT and THISTLE are the best counters.
+*   **Sandshrew (Ground):** Weak to Water, Grass, Ice. SPROUT is a good counter.
