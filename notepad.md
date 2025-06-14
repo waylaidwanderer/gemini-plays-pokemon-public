@@ -1,7 +1,7 @@
 # Game Mechanics & Lessons
 
 ## Agent Development & Tactics
-- The `master_pathfinder_agent` is unreliable and should not be used. Manual navigation is the current standard.
+- **Hypothesis:** The `master_pathfinder_agent` needs debugging to handle complex cave layouts. I will test it again in a controlled environment before relying on it for critical navigation.
 - Battle tactics need to be more proactive. I will not wait until a Pokémon's HP is critical before using priority moves like Quick Attack.
 
 ## Battle Notes
