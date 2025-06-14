@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"exploration_plan\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"exploration_plan\",\"reasoning\"]}",
     "agent_can_run_code": true
+  },
+  "maze_solver_agent": {
+    "agent_name": "maze_solver_agent",
+    "agent_description": "Calculates a path from the player's current position to a specified exit coordinate on the current map, using the map_xml_string to navigate complex mazes. Avoids simple pitfalls of wall-following algorithms. (Can run Python code)",
+    "agent_system_prompt": "You are a Maze Solver Agent. Your purpose is to find a path from the player's current location to a specified target coordinate within the same map, especially in complex, maze-like environments like forests or caves. Input: {\"target_x\": integer, \"target_y\": integer}. You will use your `run_code` tool to access and parse `map_xml_string`. Your primary algorithm should be A* or a similar pathfinding algorithm. Output schema: `{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\", \"properties\": {\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}, \"required\":[\"x\",\"y\"]}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"path_found\"]}`. Your path must only include traversable tiles ('ground', 'grass', etc.) and avoid 'impassable' tiles or tiles with blocking objects. Find the player's start coordinates from the `<Player/>` tag in the XML.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"target_x\":{\"type\":\"integer\"},\"target_y\":{\"type\":\"integer\"}},\"required\":[\"target_x\",\"target_y\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\", \"properties\": {\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}, \"required\":[\"x\",\"y\"]}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"path_found\"]}",
+    "agent_can_run_code": true
   }
 }
