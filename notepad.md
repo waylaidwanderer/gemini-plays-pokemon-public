@@ -1,22 +1,21 @@
 # Gem's Strategic Plan & Learnings
 
+## Operational Rules (CRITICAL)
+1.  **Crisis Protocol:** When the party is in a critical state (e.g., multiple Pokémon with low HP, no healing items), the Primary Goal of reaching a safe location (like a Pokémon Center) is ABSOLUTE. No deviations for training, item collection, or optional battles are permitted.
+2.  **Risk Assessment:** Before deviating from a primary travel plan for an opportunistic goal (like training), I must use the `risk_assessor_agent` to get an objective analysis. High-risk actions are forbidden when the party is not fully prepared.
+
 ## Current Plan
-1.  My party is in CRITICAL condition. My ONLY priority is to reach the Pewter City Pokémon Center to heal.
-2.  I will use Repels to avoid wild encounters.
-3.  I will use the `pathfinding_agent` to plot the most direct route to the forest exit and follow it precisely.
-4.  The side-quest for the item at (13, 30) is ABANDONED as it is too risky.
+1.  Flee the current battle with the Kakuna immediately.
+2.  Navigate manually out of Viridian Forest to the exit at (2,1). The `pathfinding_agent` is unreliable here.
+3.  Proceed directly to the Pewter City Pokémon Center to heal.
 
 ## Lessons & Failed Hypotheses Log
+*   **Pathfinding Agent Failure (Viridian Forest):** The agent provided an invalid path from (17, 6) and (17, 8), suggesting movement through impassable trees. The agent's map data or logic is flawed for this area. **Resolution: The agent cannot be trusted for complex maze navigation. Manual navigation is required.** (Logged after 2 failed attempts).
+*   **Strategic Discipline Failure:** I abandoned my critical primary goal (escape and heal) to pursue a low-value tertiary goal (training KITSUNE on a Kakuna) while my party was near-faint. This was an unacceptable risk. **Resolution: Adhere to Operational Rules.**
 *   **PoisonPowder vs. Metapod:** My assumption that Metapod is part Poison-type was incorrect. In Gen 1, it is a pure Bug-type. PoisonPowder's failure was due to its 75% accuracy, not type immunity. (Corrected after critique).
 *   **Route 22 Training:** The main grassy area is inaccessible from the south/east. It requires jumping down ledges from an area blocked by the Pokémon League guard. (Failed >10 attempts to access). **Resolution: Abandoned. Training must be integrated with progression on the main path.**
-*   **Manual Navigation in Viridian City:** Highly inefficient. Resulted in getting lost repeatedly. (Failed >15 attempts). **Resolution: Use `pathfinding_agent` for all city navigation.**
-*   **Battle of Attrition (PIP vs. Pidgey):** Attempting to win with PIP despite multiple accuracy debuffs was a poor, high-risk choice that nearly resulted in a faint. (Failed >5 attack attempts). **Resolution: Switch to a reliable counter immediately when a fight goes south. Do not be stubborn.**
-*   **Getting Stuck in Menus:** I have wasted significant time stuck in the nickname menu. This is an execution failure. **Resolution: Be more careful and deliberate with button inputs.**
-*   **Viridian Forest Youngster (17, 44):** This NPC is non-hostile and blocks a dead-end path. I interacted with him 3 times with no battle initiated. The correct path is to the east and then north.
 
 ## Agent Usage Protocols
-*   **`pathfinding_agent`:** Use PROACTIVELY for any non-trivial navigation.
-*   **`battle_strategist_agent`:** Use PROACTIVELY at the start of any non-trivial battle.
+*   **`risk_assessor_agent`:** Use before undertaking any non-essential action when the party is not at 100% readiness.
 *   **`pre_adventure_checker_agent`:** Use before leaving ANY town with a Pokémon Center to ensure party readiness. This is a critical step to avoid repeating the current low-health crisis.
-
-*   **Pathfinding Agent Failure (Viridian Forest):** The agent provided an invalid path from (17, 6) to the exit, suggesting movement through impassable tiles starting at (16, 6). The agent's map data appears flawed. **Resolution: Discarded agent's path and am proceeding with manual navigation.**
+*   **`battle_strategist_agent`:** Use PROACTIVELY at the start of any non-trivial battle.
