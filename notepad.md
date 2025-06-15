@@ -11,8 +11,8 @@
 *   **Battle Tactics:** Ground-types might be immune to the poison status effect.
 
 ## 2. Current Exploration Plan
-*   **Objective:** Retreat to the Pokémon Center on Route 4 to heal SPROUT and PARCH.
-*   **Path:** Follow the agent-generated path to the Mt. Moon exit at (15, 36).
+*   **Objective:** Find the exit of Mt. Moon to reach Cerulean City.
+*   **Path:** Explore the lower levels of Mt. Moon, defeat trainers, and find the correct ladder out.
 
 ## 3. Pokémon Battle Intel
 *   **Zubat (Poison/Flying):** Weak to Electric, Ice, Psychic, Rock.
