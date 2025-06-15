@@ -23,6 +23,6 @@
 - **LESSON 3:** The battle-warp at (29, 9) on Mt. Moon B2F is completely unreliable. After defeating the Zubat, I was not teleported. This is NOT a viable strategy for progression and must be avoided.
 
 # Agent & Tool Notes
-- My old `map_analyzer_agent` was fundamentally broken and has been deleted. Do not trust its logic.
+
 - The new `pathfinding_agent` is designed for simple, reliable pathfinding on the current map.
 - The `healing_spot_finder_agent` has proven reliable for multi-map pathfinding to Pokémon Centers.
