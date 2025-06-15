@@ -36,3 +36,9 @@
 ## 5. Agent Status & Improvement Plans
 *   **`pathfinding_agent`:** The agent has been updated to better handle impassable targets and elevation changes via 'steps' tiles. Will monitor its performance.
 *   **`puzzle_solver_agent`:** This agent exists. I should remember to use it for environmental puzzles like the fossil choice if I get stuck again.
+
+## 6. Fossil Choice Analysis (Mt. Moon)
+*   **Agent Recommendation:** Helix Fossil (Omanyte).
+*   **Reasoning:** Omastar's high Special stat is used for both Special Attack and Special Defense in Gen 1, making it a powerful and durable choice.
+*   **Dome Fossil (Kabuto):** Becomes Kabutops, a fast physical attacker.
+*   **Helix Fossil (Omanyte):** Becomes Omastar, a slow special tank.
