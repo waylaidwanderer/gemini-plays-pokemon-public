@@ -10,8 +10,8 @@
 5.  **Backtrack and Repeat:** After completing one path, backtrack to the last junction and explore the next branching path. This prevents getting lost in loops.
 
 # Agent Status & Improvement Plan
-- **`dungeon_path_analyzer_agent`:** This agent is useful for one thing: identifying the coordinates of Points of Interest (trainers, items, warps). Its navigation descriptions are unreliable and should be ignored.
-- **`pathfinder_agent`:** This agent is a complete failure. After 3 attempts at refining its system prompt, it still cannot generate a valid path and consistently tries to walk into walls. It is unusable for navigation until it undergoes a major overhaul. I will rely on manual pathfinding.
+- **`dungeon_path_analyzer_agent`:** This agent is effective at identifying the coordinates of POIs. It should be used for reconnaissance, not pathing.
+- **`pathfinder_agent`:** This agent is non-functional and has been abandoned after four failed attempts at fixing it. All navigation will be done manually and systematically.
 
 # Battle Learnings
 - **Type Matchups:**
