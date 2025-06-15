@@ -5,7 +5,7 @@
 *   **Agent Pathing:** Pathfinding agents need to target tiles *adjacent* to NPCs, not the NPCs themselves. Exploration agent paths can be flawed; if a path is invalid, the agent needs refinement.
 *   **NPC Interaction:** Repeatedly talking to an NPC that gives the same dialogue line is pointless. It likely means they have already been defeated or served their purpose.
 *   **Battle Tactics:** Ground-types might be immune to the poison status effect. If a move's accuracy is low, switch to a more reliable one.
-*   **WKG Management:** Execute all tool calls from an agent's multi-step plan sequentially.
+*   **WKG Management:** Batch all tool calls from an agent's multi-step plan into a single turn for efficiency.
 
 ## 2. Mt. Moon Exploration Strategy
 *   **Objective:** Find the two fossils and the exit to Cerulean City.
