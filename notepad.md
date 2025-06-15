@@ -23,3 +23,6 @@
     *   The entire eastern section of Mt. Moon B2F.
 *   **Confirmed Fact:** The warp at (15, 36) is the ENTRANCE from Route 4, not the exit to Cerulean City.
 *   **Main Path:** The main path forward is on the first floor, leading to the Super Nerd.
+
+## Agent Development Log
+*   `exploration_helper_agent` is critically flawed. Despite multiple refinements, it consistently fails to identify reachable unseen tiles that are present in the game state. Abandoning use of this agent for now. Will need to rebuild from scratch later.
