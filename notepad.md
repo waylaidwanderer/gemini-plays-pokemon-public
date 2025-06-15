@@ -23,6 +23,3 @@
 # Dungeon Mechanics
 - **Defeated Trainers:** Defeated trainers in Mt. Moon and on Route 3 act as impassable obstacles.
 - **Trap Ladder:** The ladder at (26, 16) on 1F is a one-way trap that leads back to 1F. Do not use.
-
-# Agent Improvement Plan
-- **`dungeon_path_analyzer_agent`:** This agent is fundamentally broken for navigation. Its system prompt needs a complete overhaul to force it to run a proper pathfinding script (like A* or BFS) that correctly parses all obstacles from the `map_xml_string`. Until it's fixed, it is **only for identifying POI coordinates**.
