@@ -20,7 +20,12 @@
 
 ## 4. Mt. Moon Exploration Notes
 *   **Main Objective:** Solve the fossil puzzle guarded by the Super Nerd at (25, 32).
-*   **Fossil Puzzle Solution:** After defeating the Super Nerd, interacting with one of the fossils (Dome at (21,29) or Helix at (25,29)) will trigger a final battle. Winning this battle is required to open the path to the exit.
+*   **Fossil Puzzle Solution (Updated):**
+    *   Initial hypothesis: Defeat Super Nerd, then interact with a fossil to trigger a battle.
+    *   Attempt 1 (Failed): Stood on Helix Fossil tile (25, 29) and pressed A.
+    *   Attempt 2 (Failed): Spoke to defeated Super Nerd again.
+    *   Attempt 3 (Failed): Stood below Helix Fossil (25, 30) and pressed A.
+    *   Current Hypothesis (Attempt 4): Must interact with the Dome Fossil at (21, 29) instead. Moving to (21, 30) to test.
 *   **Confirmed Dead Ends:**
     *   The western corridor on Mt. Moon B1F at (14, 12).
     *   The entire eastern section of Mt. Moon B2F.
