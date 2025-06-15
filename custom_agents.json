@@ -75,7 +75,7 @@
     "agent_name": "unseen_tile_finder_agent",
     "agent_description": "Identifies the coordinates of all reachable unseen tiles on the current map. Does not generate a path.",
     "agent_system_prompt": "You are an Unseen Tile Finder Agent. Your only function is to identify all reachable unseen tiles on the current map. You MUST use your `run_code` tool to perform this analysis. Your output must be a list of coordinates for every tile that is both `seen=\"false\"` and confirmed to be reachable via a pathfinding check (e.g., BFS) from the player's current position. Adhere strictly to the game's traversal rules (walkable tiles, impassable objects, ledges, elevation). If no such tiles exist, return an empty list.",
-    "agent_input_schema": "{}",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{}}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"reachable_unseen_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"reachable_unseen_tiles\"]}",
     "agent_can_run_code": true
   }
