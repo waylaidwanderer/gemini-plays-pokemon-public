@@ -20,3 +20,6 @@
 
 # Agent Refinement To-Do
 - `master_pathfinder_agent` needs to be improved. It fails in complex dungeons like Mt. Moon. Investigate its pathing logic when time permits.
+
+# WKG To-Do
+- Investigate how to properly log one-way, variable-source warps like Escape Rope in the World Knowledge Graph.
