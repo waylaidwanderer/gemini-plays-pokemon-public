@@ -18,7 +18,7 @@
 
 # Lessons & Future Plans
 - **Navigation Strategy:** Manual navigation is highly inefficient. My attempts to create a single, complex pathfinding agent have failed due to issues with parsing the map XML.
-- **New Strategy (Attempt #1):**
+- **New Strategy (Adopted):**
   1. Use `run_code` to parse the `map_xml_string` into a simple 0/1 grid string (0=walkable, 1=unwalkable).
   2. Create a new, simpler `grid_pathfinder_agent` that takes this pre-processed grid string as input to find the shortest path.
 - **Potential Future Agents:**
