@@ -1,9 +1,9 @@
 # Gem's Gameplay Log & Strategies
 
 ## 1. Current Objectives
-- **Primary:** Choose a fossil on Mt. Moon 1F to open the path to the exit.
-- **Secondary:** Navigate back to Mt. Moon 1F.
-- **Tertiary:** Heal KITSUNE's paralysis at the next opportunity.
+- **Primary:** Exit Mt. Moon and reach Cerulean City.
+- **Secondary:** Choose a fossil to reveal the exit ladder.
+- **Tertiary:** Heal KITSUNE's paralysis in Cerulean City.
 
 ## 2. Game Mechanics & Lessons Learned
 *   **Source of Truth:** The `Map Sprites` list is the definitive source for interactable items.
