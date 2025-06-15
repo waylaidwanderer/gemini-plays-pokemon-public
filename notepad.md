@@ -50,3 +50,5 @@
     *   **New Hypothesis:** Must talk to the Super Nerd again after defeating him.
 
 *   Attempt 4: Stood directly on the Helix Fossil tile at (26, 30) and pressed 'A'. This also failed to trigger an event.
+
+*   Attempt 9: Final attempt to talk to the Super Nerd from (25, 31) failed. Concluding I am missing a prerequisite. Abandoning this puzzle for now to explore other routes.
