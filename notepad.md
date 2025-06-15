@@ -1,8 +1,8 @@
 # Mt. Moon Navigation Notes
 
 ## Current Strategy
-- **Objective:** Defeat the Youngster at (13, 17) on the elevated platform.
-- **Rationale:** This trainer guards the entrance to the large, unexplored western maze, which contains the only remaining reachable ladder on this floor. My previous attempts to find a path on the lower levels were a complete failure. Accessing and clearing this maze is the only logical path forward.
+- **Objective:** Fully explore the western maze area of Mt. Moon 1F.
+- **Hypothesis (Attempt 1):** The entrance to this maze is the corridor leading west from (13, 23). The Youngster at (13, 17) is not blocking the entrance as previously thought; he must be reached from the other side of the central rock formation. The path forward is likely through this maze.
 
 # Battle Learnings
 
