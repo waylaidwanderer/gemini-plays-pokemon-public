@@ -1,14 +1,17 @@
-# Pokémon Yellow Legacy Notes
+# Gem's Gameplay Log & Strategies
 
-## 1. Game Mechanics
-*   **Poison:** Poisoned Pokémon lose 1 HP every four steps outside of battle.
+## 1. Game Mechanics & Lessons Learned
+*   **Poison Damage:** Poisoned Pokémon lose 1 HP every four steps outside of battle. This can cause fainting.
+*   **Battle Tactics:** Adapt quickly. If a move repeatedly fails (e.g., due to accuracy drops after 2 attempts), switch to a guaranteed-hit move or a different Pokémon. Don't stick to a failing strategy.
+*   **WKG Management:** Execute all tool calls from an agent's multi-step plan sequentially and efficiently to avoid errors and save time.
 
-## 2. Mt. Moon Exploration
-*   **Goal:** Traverse Mt. Moon to reach Route 4 and then Cerulean City.
-*   **Current Plan:** PARCH fainted from poison. Retreating from Mt. Moon B1F to the Pokémon Center on Route 4 to heal the party before proceeding.
-*   **Team Rocket:** A Youngster on 1F confirmed Team Rocket is in Mt. Moon. Be on alert.
+## 2. Current Plan: Mt. Moon
+*   **Objective:** Defeat Team Rocket and find the exit to Route 4.
+*   **Status:** Currently battling a Team Rocket Grunt on B2F. My party is fully healed.
+*   **Team Rocket Presence:** Confirmed on 1F and B2F. They seem to be looking for fossils.
 
-## 3. Pokémon Strategy
+## 3. Pokémon Battle Notes
 *   **Zubat (Poison/Flying):** Weak to Electric, Ice, Psychic, Rock. SPARKY is a good counter.
 *   **Geodude (Rock/Ground):** 4x weak to Grass/Water. SPROUT and THISTLE are the best counters.
-*   **Sandshrew (Ground):** Weak to Water, Grass, Ice. SPROUT is a good counter.
+*   **Sandshrew (Ground):** Weak to Water, Grass, Ice. SPROUT and THISTLE are good counters.
+*   **Paras (Bug/Grass):** 4x weak to Fire/Flying. KITSUNE and PIP are excellent counters.
