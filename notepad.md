@@ -26,3 +26,7 @@
   - Rocket Grunt (30, 8)
 
 - **Confusion:** This status effect DOES wear off after a battle ends.
+
+# Lessons Learned
+- My manual navigation in Mt. Moon has been inefficient, leading to wasted turns. I must plan routes more carefully by checking the map data before moving.
+- My attempt to create a `pathfinder_agent` failed twice. The prompt was not specific enough. I deleted it. For now, careful manual pathing is better than a faulty agent.
