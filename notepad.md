@@ -30,3 +30,5 @@
 # Lessons Learned
 - My manual navigation in Mt. Moon has been inefficient, leading to wasted turns. I must plan routes more carefully by checking the map data before moving.
 - My attempt to create a `pathfinder_agent` failed twice. The prompt was not specific enough. I deleted it. For now, careful manual pathing is better than a faulty agent.
+
+- **Pathfinder Agent Failure (Final):** After five increasingly specific refinement attempts, the `pathfinder_agent` remains unable to produce the shortest path. It is fundamentally broken. I am abandoning it and reverting to careful manual navigation.
