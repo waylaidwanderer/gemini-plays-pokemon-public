@@ -7,14 +7,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"target_found\":{\"type\":\"boolean\"},\"target_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[]},\"exploration_suggestion\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"target_found\"]}",
     "agent_can_run_code": true
   },
-  "level_cap_compliance_checker": {
-    "agent_name": "level_cap_compliance_checker",
-    "agent_description": "Checks if Pokémon are at or over level cap based on badge count. Provides next cap.",
-    "agent_system_prompt": "You are a Level Cap Compliance Checker. Based on the number of badges the player has (input: `num_badges`) and a list of their Pokémon with their current levels (input: `pokemon_party` as an array of objects like `[{\"name\": \"SPARKY\", \"level\": 8}]`), determine which Pokémon, if any, are at the current level cap. Also, state what the current level cap is and what the next level cap will be after the next badge is earned. The level caps are: 0 badges=12, 1=21, 2=24, 3=35, 4=43, 5=50, 6=53, 7=55, 8=65. Output in the specified JSON schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"num_badges\":{\"type\":\"integer\"},\"pokemon_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"}},\"required\":[\"name\",\"level\"]}}},\"required\":[\"num_badges\",\"pokemon_party\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"current_level_cap\":{\"type\":\"integer\"},\"next_level_cap\":{\"type\":\"integer\"},\"at_cap_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"over_cap_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_level_cap\",\"next_level_cap\",\"at_cap_pokemon\",\"over_cap_pokemon\"]}",
-    "agent_can_run_code": false
-  },
   "wkg_transition_recorder_agent": {
     "agent_name": "wkg_transition_recorder_agent",
     "agent_description": "Takes details of a map transition (source/destination map_ids, coordinates, type) and generates `manage_world_knowledge` tool payloads to add/update nodes and edges in the WKG. Checks WKG for existing nodes before creating new ones. (Can run Python code) (Can run Python code)",
