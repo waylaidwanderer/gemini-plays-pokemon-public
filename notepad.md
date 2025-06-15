@@ -27,3 +27,8 @@
 - **`pathfinder_agent` failure (T6640):** The agent failed to generate a path on Mt. Moon B1F. The error indicated an invalid JSON response during the code generation step. I will monitor for further failures and refine the agent if the problem persists.
 
 - **`pathfinder_agent` failure (T6680):** Agent failed to path around `elevated_ground` on Mt. Moon B2F, treating it as a passable tile from below. This is a critical navigation flaw.
+
+# AI Critique Learnings (T6691)
+- My agents (`pathfinder_agent`, `dungeon_path_analyzer_agent`) have critical flaws in understanding map verticality (`elevated_ground`, `steps`) and warp reachability. I MUST prioritize refining their prompts before further use.
+- My exploration strategy has been inefficient. I need to stop chasing every unseen tile and instead use a high-level map analysis to identify key paths and junctions, avoiding obvious dead ends.
+- New Hypothesis: The steps at `(29,8)` lead to an isolated platform. The main western plateau is likely accessed via another set of steps, possibly at `(27,16)`. I will investigate this next.
