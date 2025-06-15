@@ -32,3 +32,11 @@
 *   **Strategy:** Log agent issues here and refine them in a safe area (like a Pokémon Center) to maintain exploration momentum.
 
 *   `pathfinding_agent`: Failed 3 times in a row to find a simple path. It is currently too unreliable to use. Will need a more significant logic overhaul later.
+
+## 6. Mt. Moon Fossil Puzzle Failures
+*   Hypothesis 1: Interacting from adjacent tile. Result: Failed.
+*   Hypothesis 2: Walking onto tile triggers event. Result: Failed.
+*   Hypothesis 3: Talking to Pikachu on tile. Result: Failed.
+*   Hypothesis 4: Talking to Super Nerd post-battle. Result: Failed.
+*   Hypothesis 5: Walking onto tile after defeating Nerd. Result: Failed.
+*   Hypothesis 6: Pressing 'A' while standing on tile. Result: Failed (left fossil).
