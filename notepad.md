@@ -34,3 +34,8 @@
 - New Hypothesis: The steps at `(29,8)` lead to an isolated platform. The main western plateau is likely accessed via another set of steps, possibly at `(27,16)`. I will investigate this next.
 
 - **`dungeon_path_analyzer_agent` failure (T6708):** The agent failed to respect elevation on Mt. Moon B2F. It generated paths from an elevated platform to ground-level points of interest, treating the entire map as a single plane. This is a critical navigation flaw similar to the `pathfinder_agent`'s issue.
+
+# AI Critique Learnings (T6721)
+- My navigation agents (`pathfinder_agent`, `dungeon_path_analyzer_agent`) are fundamentally broken on maps with verticality (`elevated_ground`, `steps`). I must stop using them for navigation in these areas and rely on careful manual exploration.
+- My manual navigation has been inefficient. I need to explore one path to its conclusion (dead end) before backtracking to the last junction.
+- I am in the correct area (western plateau of B2F) to find the Super Nerd. The path forward is here.
