@@ -16,8 +16,9 @@
     *   **Paras (Bug/Grass):** 4x weak to Fire/Flying.
 
 ## 3. Mt. Moon Exploration Notes
-*   **Objective:** Find the two fossils and the exit to Cerulean City.
+*   **Objective:** Find the two fossils and the exit to Cerulean City, which is past the Super Nerd on 1F.
 *   **Confirmed Dead Ends:**
-    *   The path behind the Super Nerd at (25, 32) on Mt. Moon 1F.
     *   The western corridor on Mt. Moon B1F at (14, 12).
+    *   The entire eastern section of Mt. Moon B2F.
+*   **Navigation Correction:** The warp at (15, 36) is the ENTRANCE from Route 4, not the exit to Cerulean City. The main path forward is on the first floor.
 *   **Confirmed Mechanic:** It's possible to move between 'ground' and 'elevated_ground' tiles if one of the tiles is a warp.
