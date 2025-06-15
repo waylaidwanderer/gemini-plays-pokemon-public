@@ -7,10 +7,10 @@
 *   **Battle Tactics:** Ground-types might be immune to the poison status effect. If a move's accuracy is low, switch to a more reliable one.
 *   **WKG Management:** Execute all tool calls from an agent's multi-step plan sequentially.
 
-## 2. Current Objective: Emergency Retreat!
-*   **Priority:** Get to the Pokémon Center on Route 4 to heal the party.
-*   **Path:** Backtrack through Mt. Moon 1F -> B1F -> Exit to Route 4.
-*   **To-Do After Healing:** Return to Mt. Moon 1F, get past the Super Nerd at (25, 32), mark him as defeated, and find the fossils.
+## 2. Mt. Moon Exploration Strategy
+*   **Objective:** Find the two fossils and the exit to Cerulean City.
+*   **Method:** Systematically explore all floors of Mt. Moon, using my exploration and pathfinding agents to navigate efficiently. Defeat all trainers encountered to clear paths and gain EXP.
+*   **Hypothesis (Failed):** The fossils are NOT located behind the Super Nerd at (25, 32) on Mt. Moon 1F. This area is a dead end. The fossils must be elsewhere.
 
 ## 3. Pokémon Battle Intel
 *   **Zubat (Poison/Flying):** Weak to Electric, Ice, Psychic, Rock.
