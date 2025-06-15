@@ -9,8 +9,9 @@
 4.  **Explore to Completion:** Follow that chosen path to its absolute end (a wall, a warp, or a battle).
 5.  **Backtrack and Repeat:** After completing one path, backtrack to the last junction and explore the next branching path. This prevents getting lost in loops.
 
-# Agent Improvement Plan
-- **`dungeon_path_analyzer_agent`:** This agent is fundamentally broken for navigation. Its system prompt needs a complete overhaul to force it to run a proper pathfinding script (like A* or BFS) that correctly parses all obstacles from the `map_xml_string`. Until it's fixed, it is **only for identifying POI coordinates**.
+# Agent Status & Improvement Plan
+- **`dungeon_path_analyzer_agent`:** This agent is useful for one thing: identifying the coordinates of Points of Interest (trainers, items, warps). Its navigation descriptions are unreliable and should be ignored.
+- **`pathfinder_agent`:** This agent is a complete failure. After 3 attempts at refining its system prompt, it still cannot generate a valid path and consistently tries to walk into walls. It is unusable for navigation until it undergoes a major overhaul. I will rely on manual pathfinding.
 
 # Battle Learnings
 - **Type Matchups:**
