@@ -28,10 +28,11 @@
 *   The entrance/exit to Route 4 is at (15, 36).
 
 ### Mt. Moon B1F (ID: 60)
-*   The entire floor seems to be a large U-shaped series of corridors and dead-end platforms, used for connecting different parts of 1F and B2F.
+*   This floor contains several ladders connecting to 1F and B2F, but does not appear to contain the main exit from the cave. It's a series of connecting corridors.
 
 ### Mt. Moon B2F (ID: 61)
 *   This floor contains several Team Rocket members and some items, but does not appear to contain the main exit from the cave.
 
 ## 5. Agent Status & Improvement Plans
-*   **`pathfinding_agent`:** Still has issues with `steps` tiles. Needs further refinement to explicitly handle elevation changes. The current implementation is unreliable in complex vertical terrain.
+*   **`pathfinding_agent`:** The agent has been updated to better handle impassable targets and elevation changes via 'steps' tiles. Will monitor its performance.
+*   **`puzzle_solver_agent`:** This agent exists. I should remember to use it for environmental puzzles like the fossil choice if I get stuck again.
