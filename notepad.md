@@ -17,6 +17,7 @@
   - Grass is 4x effective vs. Rock/Ground (Geodude).
   - Electric is NOT very effective vs. Bug/Grass (Paras).
   - Electric is NOT very effective vs. Grass/Poison (Oddish, Bellsprout).
+  - Defensive immunities aren't everything. Geodude's Poison immunity is less valuable against Ekans (who uses Normal moves) than Oddish's 4x super-effective Grass attack.
 - **Risk Management:** Do not switch in low-level, non-resistant Pokémon to weaken wild encounters.
 
 # Dungeon Mechanics
