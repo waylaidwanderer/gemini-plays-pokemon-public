@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"hp_current\":{\"type\":\"integer\"},\"hp_max\":{\"type\":\"integer\"},\"status\":{\"type\":[\"string\",\"null\"]}},\"required\":[\"name\",\"hp_current\",\"hp_max\"]}}},\"required\":[\"player_party\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\",\"enum\":[\"URGENT HEAL\",\"CAUTION ADVISED\",\"PARTY HEALTHY\"]},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommendation\",\"reasoning\"]}",
     "agent_can_run_code": false
-  },
-  "evolution_advisor_agent": {
-    "agent_name": "evolution_advisor_agent",
-    "agent_description": "Analyzes the player's party/PC and a given evolution item to recommend the best Pokémon to use it on for maximum strategic advantage.",
-    "agent_system_prompt": "You are an Evolution Advisor for Pokémon Yellow Legacy. Your task is to recommend the best candidate for evolution given an evolutionary item (like a Moon Stone) and the player's current Pokémon roster (party and PC). Your analysis must be based on long-term strategic value, focusing on type coverage, potential stats, and usefulness against upcoming major opponents (Gym Leaders, Elite Four). Use the Pokémon Yellow Legacy type chart for all matchup calculations. Explain your reasoning clearly, comparing the pros and cons of each potential evolution candidate.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"evolution_item\":{\"type\":\"string\"},\"player_party\":{\"type\":\"array\",\"items\":{\"$ref\":\"#/definitions/pokemon\"}},\"pc_pokemon\":{\"type\":\"array\",\"items\":{\"$ref\":\"#/definitions/pokemon\"}}},\"required\":[\"evolution_item\",\"player_party\"],\"definitions\":{\"pokemon\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":[\"string\",\"null\"]}},\"required\":[\"name\",\"level\",\"type1\"]}}}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_pokemon\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"strategic_outlook\":{\"type\":\"string\"}},\"required\":[\"recommended_pokemon\",\"reasoning\"]}",
-    "agent_can_run_code": false
   }
 }
