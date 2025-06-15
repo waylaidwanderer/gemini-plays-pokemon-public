@@ -23,13 +23,18 @@
     *   Sandshrew (Ground): Weak to Water, Grass, Ice. Immune to Poison status.
     *   Paras (Bug/Grass): 4x weak to Fire/Flying.
 
-## 5. Mt. Moon Exploration Notes
-*   **Main Objective:** Find the exit to Cerulean City.
-*   **Fossil Puzzle (Stalled):** The path forward is past the Super Nerd, not through the fossils. Giving up on the puzzle for now.
-*   **Confirmed Dead Ends:**
-    *   Western corridor on Mt. Moon B1F at (14, 12).
-    *   Entire eastern section of Mt. Moon B2F.
-    *   Eastern corridor on Mt. Moon 1F (ladder at (38, 34) is a fake-out).
+## 5. Mt. Moon Notes
+### Mt. Moon 1F (ID: 59)
+*   The main path to the exit is in the northwest corner, past the Super Nerd at (25, 32).
+*   The ladder at (38, 34) in the eastern corridor is a dead end.
+*   The ladder at (18, 12) leads to an isolated, dead-end platform on B1F.
 
-## 6. Agent Improvement Plan
-*   **`pathfinding_agent` Improvement Plan:** The agent is unreliable. My priority is to refine its Python script to: 1. Correctly identify impassable target tiles and path to an adjacent traversable tile instead. 2. Better handle complex terrain, especially ledges and elevation changes, to generate more accurate paths. I will test these changes in a safe area before relying on the agent in critical situations.
+### Mt. Moon B1F (ID: 60)
+*   The western corridor accessed from the ladder at (14, 28) is a dead end.
+*   The southern corridor accessed from the ladder at (6, 6) is a dead end.
+
+### Mt. Moon B2F (ID: 61)
+*   The entire eastern section of this floor is a dead end. The path forward is back up the ladder at (16, 28).
+
+## 6. Agent Status
+*   **`pathfinding_agent`:** Updated with improved logic for handling impassable targets and complex terrain. Monitoring for performance.
