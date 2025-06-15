@@ -48,3 +48,5 @@
     *   Attempt 1: Interacting with the left fossil (Dome) at (24, 30) did not trigger an event.
     *   Attempt 2: Interacting with the right fossil (Helix) at (26, 30) did not trigger an event.
     *   **New Hypothesis:** Must talk to the Super Nerd again after defeating him.
+
+*   Attempt 4: Stood directly on the Helix Fossil tile at (26, 30) and pressed 'A'. This also failed to trigger an event.
