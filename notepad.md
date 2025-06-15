@@ -42,3 +42,9 @@
 *   **Reasoning:** Omastar's high Special stat is used for both Special Attack and Special Defense in Gen 1, making it a powerful and durable choice.
 *   **Dome Fossil (Kabuto):** Becomes Kabutops, a fast physical attacker.
 *   **Helix Fossil (Omanyte):** Becomes Omastar, a slow special tank.
+
+## 7. Puzzle Attempts & Failures
+*   **Mt. Moon Fossil Puzzle:**
+    *   Attempt 1: Interacting with the left fossil (Dome) at (24, 30) did not trigger an event.
+    *   Attempt 2: Interacting with the right fossil (Helix) at (26, 30) did not trigger an event.
+    *   **New Hypothesis:** Must talk to the Super Nerd again after defeating him.
