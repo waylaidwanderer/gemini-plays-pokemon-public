@@ -25,4 +25,4 @@
   - Rocket Grunt (16, 23)
   - Rocket Grunt (30, 8)
 
-- **Confusion:** This status effect does NOT wear off after a battle ends. A Pokémon will remain confused until healed at a Pokémon Center or by other means.
+- **Confusion:** This status effect DOES wear off after a battle ends.
