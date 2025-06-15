@@ -1,25 +1,23 @@
-# Mt. Moon Navigation Notes
+# Agent Improvement Plan
+- **`dungeon_path_analyzer_agent`:** This agent is unreliable because it suggests paths through walls. It needs a major overhaul to implement a proper pathfinding algorithm (like A* or BFS) that correctly parses the `map_xml_string` for all obstacles (impassable tiles, objects, ledges). I will refine its system prompt to enforce this.
+- **`master_pathfinder_agent`:** This agent has been identified as fundamentally unreliable in complex dungeons. It has been deleted to prevent accidental use.
 
-## Current Strategy
-- **Objective:** Fully explore the western maze area of Mt. Moon 1F.
-- **Hypothesis (Attempt 1):** The entrance to this maze is the corridor leading west from (13, 23). The Youngster at (13, 17) is not blocking the entrance as previously thought; he must be reached from the other side of the central rock formation. The path forward is likely through this maze.
+# Mt. Moon Navigation Strategy
+- **Current Objective:** Find the correct ladder on Mt. Moon 1F that leads to the next floor.
+- **Method:**
+  1. Use my own map-reading skills for all short-term, tile-by-tile movement.
+  2. Use the *improved* `dungeon_path_analyzer_agent` ONLY for high-level planning to identify all reachable points of interest (warps, trainers, items) from a major junction.
+  3. Select ONE identified path/POI and explore it systematically until its conclusion (dead end, warp, or trainer battle).
+  4. Do not switch goals erratically. Fully explore one branch before starting another.
 
 # Battle Learnings
-
 - **Type Matchups:**
   - Electric is NOT very effective vs. Bug/Grass (Paras).
   - Electric is NOT very effective vs. Grass/Poison (Oddish, Bellsprout).
 - **Risk Management:** Do not switch in low-level, non-resistant Pokémon to weaken wild encounters. It's too risky.
 
-# Agent Reliability
-
-- **`master_pathfinder_agent`:** This agent is **UNRELIABLE** in Mt. Moon. It has failed multiple times by routing through impassable walls and up ledges. Do not use for long-distance navigation on this map.
-
-# Dungeon Mechanics Update
-- **Defeated Trainers:** The defeated Rocket Grunt on Mt. Moon B2F at (16, 23) *is* an impassable obstacle, similar to trainers on Route 3.
-
-# Agent Refinement To-Do
-- `master_pathfinder_agent` needs to be improved. It fails in complex dungeons like Mt. Moon. Investigate its pathing logic when time permits.
+# Dungeon Mechanics
+- **Defeated Trainers:** Defeated trainers in Mt. Moon and on Route 3 act as impassable obstacles.
 
 # WKG To-Do
 - Investigate how to properly log one-way, variable-source warps like Escape Rope in the World Knowledge Graph.
