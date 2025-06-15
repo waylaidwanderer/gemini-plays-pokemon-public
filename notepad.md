@@ -1,9 +1,8 @@
 # Gem's Gameplay Log & Strategies
 
-## 1. Agent Development Log
-*   **`exploration_helper_agent`:** DELETED. This agent was critically flawed and consistently failed to identify reachable unseen tiles despite multiple refinements.
-*   **`unseen_tile_finder_agent`:** DELETED. This replacement agent also failed to identify reachable unseen tiles, confirming a deep logic flaw in my approach to exploration agents. 
-*   **Current Strategy:** Abandoning automated exploration agents for now. Proceeding with manual exploration of Mt. Moon, using the reliable `pathfinding_agent` for navigation between known points.
+## 1. Agent Improvement Notes
+*   `wkg_transition_recorder_agent`: This agent is inefficient, requiring multiple turns per transition. It needs to be refined to check for existing nodes and consolidate tool calls into a single turn if possible.
+*   WKG Node Naming: Use more descriptive names for nodes, e.g., 'Mt. Moon B1F Ladder (to 1F)' instead of 'Node: 60 (6,6) to 59 (6,6)'.
 
 ## 2. Game Mechanics & Lessons Learned
 *   **Poison Damage:** Poisoned Pokémon lose 1 HP every four steps.
