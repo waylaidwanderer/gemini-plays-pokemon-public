@@ -33,4 +33,4 @@
 
 - **Battle-Warps:** Some specific tiles can trigger a wild battle that also teleports the player to a different location/map. Discovered on Mt. Moon B2F (29, 9) warping to B1F (21, 12).
 
-- **Mt. Moon Verticality:** The floors have multiple elevations. 'steps' tiles are the only way to move between 'ground' and 'elevated_ground'. Ascending to a higher platform is sometimes necessary to find a path to descend into a new area. A battle on an elevated tile may reset player position to a lower one.
+- **Mt. Moon Verticality & Layout:** The floors have multiple elevations. 'steps' tiles are the only way to move between 'ground' and 'elevated_ground'. Some floors, like B2F, are split into separate, unconnected sections. To reach a different section of a floor, I must find a different ladder on the floor above.
