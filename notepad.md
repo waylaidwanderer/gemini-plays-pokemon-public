@@ -18,7 +18,7 @@
 
 # Lessons & Future Plans
 - **Navigation Strategy:** Manual navigation is highly inefficient. My attempts to create a single, complex pathfinding agent have failed due to issues with parsing the map XML.
-- **New Strategy (Final):** The agent-based approach to pathfinding has failed repeatedly, even with simplified inputs. The new strategy is to bypass agents for this task entirely. I will write and execute a Python script using the `run_code` tool to perform a Breadth-First Search (BFS) directly on the map data. This gives me full control over the pathfinding logic.
+- **Pathfinding Failure (Definitive):** All attempts at automated pathfinding, both via agents and direct `run_code` scripts, have failed to produce optimal paths. They are unreliable. I am abandoning all automated pathfinding and will proceed with meticulous, segment-by-segment manual navigation.
 - **Potential Future Agents:**
   - `pc_organizer_agent`: To help manage Pokémon storage for optimal team building.
   - `fossil_revival_advisor`: To help choose which fossil to revive later.
