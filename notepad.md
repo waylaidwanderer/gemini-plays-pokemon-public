@@ -40,3 +40,5 @@
 *   Hypothesis 4: Talking to Super Nerd post-battle. Result: Failed.
 *   Hypothesis 5: Walking onto tile after defeating Nerd. Result: Failed.
 *   Hypothesis 6: Pressing 'A' while standing on tile. Result: Failed (left fossil).
+
+*   **Fossil Puzzle Update:** All 8 attempted hypotheses for obtaining a fossil have failed. The puzzle seems unsolvable with current knowledge. I am abandoning this objective for now to focus on finding the exit to Cerulean City.
