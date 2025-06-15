@@ -6,11 +6,12 @@
 *   **WKG Management:** Execute all tool calls from an agent's multi-step plan sequentially.
 *   **NPC Sprites:** Defeated trainer sprites can sometimes temporarily block paths.
 *   **Risk Management:** Avoid exploring deep into new, dangerous areas with a significantly injured party. Prioritize healing.
-*   **Agent Pathing:** When an agent-generated path is blocked, find a local detour to rejoin the path or re-run the agent. Do not discard the entire plan.
+*   **Item Interaction:** Items are objects on the map. I cannot walk on them. I must interact with them from an adjacent tile.
+*   **Agent Pathing:** I must trust my `exploration_helper_agent`. When a path is blocked, I should find a local detour to rejoin the path, not discard the entire plan.
 
-## 2. Current Objective
-*   **Current Task:** Explore Mt. Moon 1F to find the exit to Route 4.
-*   **Method:** Use the `exploration_helper_agent` to generate an efficient path to visit all unseen tiles, then follow it.
+## 2. Current Exploration Plan
+*   **Location:** Mt. Moon 1F
+*   **Method:** Follow the agent-generated path. If blocked, find a local detour. The goal is to explore all unseen tiles, which will lead to items, trainers, and the exit.
 
 ## 3. Pokémon Battle Intel
 *   **Zubat (Poison/Flying):** Weak to Electric, Ice, Psychic, Rock. (SPARKY)
