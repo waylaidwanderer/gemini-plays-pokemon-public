@@ -22,3 +22,6 @@
 
 ## Agent Development
 - **`battle_switch_agent` Created:** To address inefficiency in battle menu navigation, I've created an agent to automate the process of switching Pokémon. This will prevent me from getting stuck in menus and wasting turns.
+
+## Agent Development
+- **`battle_switch_agent` Created:** To address inefficiency in battle menu navigation, I've created an agent to automate the process of switching Pokémon. This will prevent me from getting stuck in menus and wasting turns.
