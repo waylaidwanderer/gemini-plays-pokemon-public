@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"hp_current\":{\"type\":\"integer\"},\"hp_max\":{\"type\":\"integer\"},\"status\":{\"type\":[\"string\",\"null\"]}},\"required\":[\"name\",\"hp_current\",\"hp_max\"]}}},\"required\":[\"player_party\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\",\"enum\":[\"URGENT HEAL\",\"CAUTION ADVISED\",\"PARTY HEALTHY\"]},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommendation\",\"reasoning\"]}",
     "agent_can_run_code": false
+  },
+  "fossil_selection_advisor": {
+    "agent_name": "fossil_selection_advisor",
+    "agent_description": "Analyzes the player's party/PC to recommend which fossil (Dome or Helix) offers better long-term strategic value and type coverage.",
+    "agent_system_prompt": "You are a Fossil Selection Advisor. Your task is to recommend which fossil the player should choose in Mt. Moon: the Dome Fossil (Kabuto, Rock/Water) or the Helix Fossil (Omanyte, Rock/Water). You will be given the player's current party and PC Pokémon. Your analysis should focus on which choice provides better type coverage and long-term strategic benefit for the team. Consider the types of major opponents likely to be faced in the future (e.g., Electric, Grass, Psychic gyms). The fossils have identical typing, so your advice should be based on their differing base stats and potential movepools if known, or general team composition needs.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"$ref\":\"#/definitions/pokemon\"}},\"pc_pokemon\":{\"type\":\"array\",\"items\":{\"$ref\":\"#/definitions/pokemon\"}}},\"required\":[\"player_party\"],\"definitions\":{\"pokemon\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":[\"string\",\"null\"]}},\"required\":[\"name\",\"level\",\"type1\"]}}}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_fossil\":{\"type\":\"string\",\"enum\":[\"DOME\",\"HELIX\"]},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_fossil\",\"reasoning\"]}",
+    "agent_can_run_code": false
   }
 }
