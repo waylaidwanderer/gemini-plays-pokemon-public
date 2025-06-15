@@ -1,9 +1,8 @@
 # Mt. Moon Navigation Notes
 
-## Strategy & Hypotheses
-- **Current Strategy:** Systematic exploration of the western corridors of 1F. My previous attempts at random exploration and trying to force an exit have failed. The path forward is likely through an unexplored area.
-- **Hypothesis (Active):** The main path forward is through the northwest section of the cave, likely leading to the ladder at (18, 12).
-- **Hypothesis (Disproven):** The eastern corridors do not lead to the main exit; they are a dead end with items.
+## Current Strategy
+- **Objective:** Defeat the Youngster at (13, 17) on the elevated platform.
+- **Rationale:** This trainer guards the entrance to the large, unexplored western maze, which contains the only remaining reachable ladder on this floor. My previous attempts to find a path on the lower levels were a complete failure. Accessing and clearing this maze is the only logical path forward.
 
 # Battle Learnings
 
@@ -14,7 +13,7 @@
 
 # Agent Reliability
 
-- **`master_pathfinder_agent`:** This agent is **UNRELIABLE** in Mt. Moon. It has failed multiple times (5+) by routing through impassable walls and up ledges. **Do not use for long-distance navigation on this map.** Manual navigation is required.
+- **`master_pathfinder_agent`:** This agent is **UNRELIABLE** in Mt. Moon. It has failed multiple times by routing through impassable walls and up ledges. Do not use for long-distance navigation on this map.
 
 # Dungeon Mechanics Update
-- **Defeated Trainers:** The defeated Rocket Grunt on Mt. Moon B2F at (16, 23) *is* an impassable obstacle, similar to trainers on Route 3. My previous hypothesis that he could be walked through was incorrect.
+- **Defeated Trainers:** The defeated Rocket Grunt on Mt. Moon B2F at (16, 23) *is* an impassable obstacle, similar to trainers on Route 3.
