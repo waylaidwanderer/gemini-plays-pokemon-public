@@ -15,8 +15,8 @@
     *   Sandshrew (Ground): Weak to Water, Grass, Ice. Immune to Poison status.
     *   Paras (Bug/Grass): 4x weak to Fire/Flying.
 
-## 3. Puzzle Solutions & Mechanics
-*   **Mt. Moon 1F Fossil Area:** This is a confirmed dead end. The Super Nerd at (25, 32) blocks the path, and there is no way to make him move.
+### Mt. Moon 1F (ID: 59)
+*   **Fossil Area:** After defeating the Super Nerd at (25, 32), the path remains blocked. The southern ladder system from this area is a dead end for progression.
 
 ## 4. Area Notes
 ### Mt. Moon B2F (ID: 61)
