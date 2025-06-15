@@ -13,7 +13,7 @@
 - **Mt. Moon 1F:**
   - The ladder at (26, 16) is a one-way trap to a dead-end area on B1F.
   - The ladder at (6, 6) is a dead end.
-  - The ladder at (18, 12) is the main path forward.
+  - The ladder at (18, 12) is a dead-end trap.
 
 # Lessons & Future Plans
 - **Navigation Strategy (Definitive):** My attempts at automated pathfinding, both via agents and direct `run_code` scripts, have definitively failed after numerous attempts. My fundamental approach to prompting/creating these tools was flawed. I am abandoning all automated pathfinding and will proceed with meticulous, segment-by-segment manual navigation. I must be extremely careful to avoid repeating my past navigational errors.
