@@ -30,3 +30,5 @@
 
 ## 5. Pending Agent Refinements
 *   **Strategy:** Log agent issues here and refine them in a safe area (like a Pokémon Center) to maintain exploration momentum.
+
+*   `pathfinding_agent`: Failed 3 times in a row to find a simple path. It is currently too unreliable to use. Will need a more significant logic overhaul later.
