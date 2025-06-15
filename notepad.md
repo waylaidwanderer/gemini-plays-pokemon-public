@@ -19,3 +19,5 @@
 *   **Geodude (Rock/Ground):** 4x weak to Grass/Water.
 *   **Sandshrew (Ground):** Weak to Water, Grass, Ice. Immune to Poison status.
 *   **Paras (Bug/Grass):** 4x weak to Fire/Flying.
+
+*   **Agent Pathing:** Exploration agent paths can be flawed. If a path includes an impassable tile, the agent must be refined immediately. Manually find a local detour to rejoin the valid part of the path.
