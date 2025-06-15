@@ -14,3 +14,16 @@
 - **Dialogue:** A single 'A' press advances to the next dialogue box. 'B' can dismiss dialogue.
 - **Defeated Trainers:** Some defeated trainers act as impassable obstacles.
 - **Elevation Rule (Corrected):** Direct movement between adjacent 'ground' and 'elevated_ground' tiles is IMPOSSIBLE. Elevation change is only possible via 'steps' tiles.
+
+# Defeated Trainers Log
+- **Mt. Moon 1F:**
+  - Bug Catcher (8, 24)
+  - Lass (17, 25)
+  - Super Nerd (25, 30)
+  - Lass (31, 7)
+  - Youngster (14, 17)
+  - Youngster (31, 28)
+  - Hiker (6, 7)
+- **Mt. Moon B2F:**
+  - Rocket Grunt (16, 23)
+  - Rocket Grunt (30, 8)
