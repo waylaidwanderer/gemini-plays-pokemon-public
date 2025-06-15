@@ -18,9 +18,7 @@
 
 # Lessons & Future Plans
 - **Navigation Strategy:** Manual navigation is highly inefficient. My attempts to create a single, complex pathfinding agent have failed due to issues with parsing the map XML.
-- **New Strategy (Adopted):**
-  1. Use `run_code` to parse the `map_xml_string` into a simple 0/1 grid string (0=walkable, 1=unwalkable).
-  2. Create a new, simpler `grid_pathfinder_agent` that takes this pre-processed grid string as input to find the shortest path.
+- **New Strategy (Final):** The agent-based approach to pathfinding has failed repeatedly, even with simplified inputs. The new strategy is to bypass agents for this task entirely. I will write and execute a Python script using the `run_code` tool to perform a Breadth-First Search (BFS) directly on the map data. This gives me full control over the pathfinding logic.
 - **Potential Future Agents:**
   - `pc_organizer_agent`: To help manage Pokémon storage for optimal team building.
   - `fossil_revival_advisor`: To help choose which fossil to revive later.
