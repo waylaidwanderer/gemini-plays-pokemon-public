@@ -13,7 +13,7 @@
 # Game Mechanics
 - **Dialogue:** A single 'A' press advances to the next dialogue box. 'B' can dismiss dialogue.
 - **Defeated Trainers:** Some defeated trainers act as impassable obstacles.
-- **Elevation Rule (Corrected):** Direct movement between adjacent 'ground' and 'elevated_ground' tiles is IMPOSSIBLE. Elevation change is only possible via 'steps' tiles.
+- **Elevation Rule (Final Correction):** It IS possible to move between adjacent 'ground' and 'elevated_ground' tiles. This seems to be the primary way to change elevation in this dungeon.
 
 # Defeated Trainers Log
 - **Mt. Moon 1F:**
