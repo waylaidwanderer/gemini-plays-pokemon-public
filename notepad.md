@@ -6,7 +6,7 @@
 - **Current Objective:** Find the correct ladder on Mt. Moon 1F that leads to the next floor.
 - **Method:**
   1. Use my own map-reading skills for all short-term, tile-by-tile movement.
-  2. Use the *improved* `dungeon_path_analyzer_agent` ONLY for high-level planning to identify all reachable points of interest (warps, trainers, items) from a major junction.
+  2. - The `dungeon_path_analyzer_agent` is unreliable for path generation. Use it ONLY to identify the coordinates of points of interest (trainers, items, warps), then use manual map-reading to navigate.
   3. Select ONE identified path/POI and explore it systematically until its conclusion (dead end, warp, or trainer battle).
   4. Do not switch goals erratically. Fully explore one branch before starting another.
 
