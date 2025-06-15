@@ -16,7 +16,7 @@
     *   Paras (Bug/Grass): 4x weak to Fire/Flying.
 
 ## 3. Puzzle Solutions & Mechanics
-*   **Mt. Moon Fossil Puzzle (SOLVED):** After defeating the Super Nerd at (25, 32), stand on the tile between the two fossils at (25, 30) and interact with one. After confirming the choice, the Super Nerd disappears, revealing the exit ladder at (25, 32).
+*   **Mt. Moon Fossil Puzzle (IN PROGRESS):** After defeating the Super Nerd at (25, 32) and choosing a fossil, the fossils disappear but the Nerd remains, blocking the path south. Current hypothesis: leaving and re-entering the area may trigger the next step.
 
 ## 4. Fossil Choice Analysis (Mt. Moon)
 *   **Agent Recommendation:** Helix Fossil (Omanyte).
