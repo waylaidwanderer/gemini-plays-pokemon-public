@@ -22,7 +22,8 @@
     *   **Attempted Solutions:**
         1.  Defeating him in battle. (Failed - He remained)
         2.  Interacting with him after battle. (Failed - He gave dialogue but remained)
-    *   **New Hypothesis (Attempt #3):** Leaving the map area and returning might reset the NPC and clear the path. Plan: Go to B1F via ladder at (26, 16) and immediately return.
+            3.  Leaving the map area and returning. (Failed - He remained)
+    *   **New Hypothesis (Attempt #4):** The trigger might be interacting with the tile where the fossils were located (25, 30), even though they are now gone.
 
 ## 4. Fossil Choice Analysis (Mt. Moon)
 *   **Agent Recommendation:** Helix Fossil (Omanyte).
