@@ -4,7 +4,7 @@
 - Electric is NOT very effective vs. Bug/Grass (Paras), or Grass/Poison (Oddish, Bellsprout).
 
 # Dungeon Notes & Traps
-- **Mt. Moon 1F:** The ladder at (26, 16) is a one-way trap leading back to 1F.
+- **Mt. Moon 1F:** The ladder at (26, 16) is a one-way trap leading to a small, isolated dead-end area on B1F.
 - **Mt. Moon B1F:** The ladder at (18, 12) appears to be a one-way path up from B2F.
 
 # Game Mechanics
