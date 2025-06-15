@@ -30,3 +30,5 @@
 *   The ladder at (38, 34) in the eastern corridor is a dead end.
 *   The ladder at (18, 12) leads to an isolated, dead-end platform on B1F.
 *   The entrance/exit to Route 4 is at (15, 36).
+
+*   The ladder at (18, 12) leads to an isolated, dead-end platform on B1F.
