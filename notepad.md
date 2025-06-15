@@ -3,7 +3,7 @@
 ## Navigation & Exploration
 - **Mt. Moon Layout:** The southern ladder system on B1F/B2F is an isolated dead-end loop. It does not connect to the main path or the fossil trainer area. The correct path must be found by exploring the main section of Mt. Moon 1F.
 - **Defeated Trainers as Obstacles:** Confirmed that defeated trainers act as impassable obstacles. This must be accounted for in all navigation.
-- **Agent Reliance:** Manual navigation in complex, maze-like areas is highly inefficient. I must rely on `master_pathfinder_agent` and `exploration_planner_agent` to avoid getting lost and wasting time.
+- **Agent Reliance:** In large, unexplored mazes, systematic manual exploration (like the 'left-hand rule') is superior to pathfinding agents, which are unreliable without complete map data.
 
 ## Battle Strategy
 - **Proactive Tactics:** Don't wait until HP is critical to use priority moves like Quick Attack.
