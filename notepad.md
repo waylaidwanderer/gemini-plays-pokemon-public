@@ -30,3 +30,5 @@
 
 # Lessons & Future Plans
 - **Navigation Strategy (Revised):** My initial attempts at automated pathfinding failed, but abandoning the approach is the wrong lesson. The failure was in my agent design and prompting. I will commit to iteratively refining my navigation and pathfinding agents until they are reliable tools. Manual navigation will be a fallback, not the primary strategy.
+
+- **Battle-Warps:** Some specific tiles can trigger a wild battle that also teleports the player to a different location/map. Discovered on Mt. Moon B2F (29, 9) warping to B1F (21, 12).
