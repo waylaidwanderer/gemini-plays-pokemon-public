@@ -22,6 +22,3 @@
 ## Lessons from Mt. Moon
 *   The 'Cool Trainer F' at (17, 24) is non-hostile.
 *   A full retreat from a dungeon is a massive time loss.
-
-## Agent Ideas
-*   **Party Health Checker:** An agent that analyzes party health, current location (depth in dungeon), and remaining objectives to recommend whether to retreat or press on. More context-aware than the `pre_adventure_checker_agent`.
