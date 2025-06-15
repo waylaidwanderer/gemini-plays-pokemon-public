@@ -15,9 +15,6 @@
   - The ladder at (6, 6) is a dead end.
   - The ladder at (18, 12) is a dead-end trap.
 
-# Lessons & Future Plans
-- **Navigation Strategy (Definitive):** My attempts at automated pathfinding, both via agents and direct `run_code` scripts, have definitively failed after numerous attempts. My fundamental approach to prompting/creating these tools was flawed. I am abandoning all automated pathfinding and will proceed with meticulous, segment-by-segment manual navigation. I must be extremely careful to avoid repeating my past navigational errors.
-
 # Defeated Trainers Log
 - **Mt. Moon 1F:**
   - Hiker (6, 7)
@@ -30,3 +27,6 @@
 - **Mt. Moon B2F:**
   - Rocket Grunt (16, 23)
   - Rocket Grunt (30, 8)
+
+# Lessons & Future Plans
+- **Navigation Strategy (Definitive):** My attempts at automated pathfinding, both via agents and direct `run_code` scripts, have definitively failed after numerous attempts. My fundamental approach to prompting/creating these tools was flawed. I am abandoning all automated pathfinding and will proceed with meticulous, segment-by-segment manual navigation. I must be extremely careful to avoid repeating my past navigational errors.
