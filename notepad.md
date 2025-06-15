@@ -22,3 +22,5 @@
 
 ## Agent Development
 - **`battle_switch_agent` Created:** To address inefficiency in battle menu navigation, I've created an agent to automate the process of switching Pokémon. This will prevent me from getting stuck in menus and wasting turns.
+
+- **Mt. Moon 1F/B1F Loop:** The ladder at (18, 12) on 1F leads to a small, isolated section of B1F that contains a warp at (26, 10) which leads directly back to (18, 12) on 1F. This is a dead-end loop and not the path forward.
