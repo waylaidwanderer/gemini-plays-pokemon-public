@@ -43,14 +43,6 @@
 *   **Dome Fossil (Kabuto):** Becomes Kabutops, a fast physical attacker.
 *   **Helix Fossil (Omanyte):** Becomes Omastar, a slow special tank.
 
-## 7. Puzzle Attempts & Failures
-*   **Mt. Moon Fossil Puzzle:**
-    *   Attempt 1: Interacting with the left fossil (Dome) at (24, 30) did not trigger an event.
-    *   Attempt 2: Interacting with the right fossil (Helix) at (26, 30) did not trigger an event.
-    *   **New Hypothesis:** Must talk to the Super Nerd again after defeating him.
-
-*   Attempt 4: Stood directly on the Helix Fossil tile at (26, 30) and pressed 'A'. This also failed to trigger an event.
-
-*   Attempt 9: Final attempt to talk to the Super Nerd from (25, 31) failed. The AI observer has indicated that abandoning this mandatory puzzle is a strategic error. The failure must be in my method of interaction. My new hypothesis is that I must interact with the Super Nerd and advance through ALL of his dialogue, not just the initial post-battle text.
-
-* **Dialogue Advancement:** Some key events, like the fossil choice, are triggered by advancing through ALL of an NPC's dialogue, not just the initial text box. Always press 'A' multiple times to ensure a conversation is truly over.
+## 7. Puzzle Solutions & Mechanics
+*   **Mt. Moon Fossil Puzzle (SOLVED):** After defeating the Super Nerd at (25, 32), stand on the tile *between* the two fossils at (25, 30). Face the desired fossil and press 'A' to trigger a confirmation dialogue. Pressing 'A' again will select the fossil.
+*   **Dialogue Advancement:** Some key events, like the fossil choice, are triggered by advancing through ALL of an NPC's dialogue, not just the initial text box. Always press 'A' multiple times to ensure a conversation is truly over.
