@@ -19,3 +19,6 @@
 ## Battle Lessons
 - **Trainers Have Multiple Pokémon:** Do not assume a battle is over after defeating one opponent. Wait for the victory message and prize money.
 - **Type Matchup Correction:** Electric-type moves are 'not very effective' against Grass/Poison types like Oddish and Bellsprout. This is a critical distinction for this hack.
+
+## Agent Development
+- **`battle_switch_agent` Created:** To address inefficiency in battle menu navigation, I've created an agent to automate the process of switching Pokémon. This will prevent me from getting stuck in menus and wasting turns.
