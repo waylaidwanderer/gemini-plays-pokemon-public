@@ -23,7 +23,8 @@
         1.  Defeating him in battle. (Failed - He remained)
         2.  Interacting with him after battle. (Failed - He gave dialogue but remained)
             3.  Leaving the map area and returning. (Failed - He remained)
-    *   **New Hypothesis (Attempt #4):** The trigger might be interacting with the tile where the fossils were located (25, 30), even though they are now gone.
+            4.  Interacting with the tile where the fossils were located (25, 30). (Failed - No interaction occurred)
+    *   **Conclusion:** All direct interaction attempts have failed. The Super Nerd remains, blocking the path. I am currently stuck and need to re-evaluate the entire puzzle or find an alternate route. Using `progression_blocker_agent` for analysis.
 
 ## 4. Fossil Choice Analysis (Mt. Moon)
 *   **Agent Recommendation:** Helix Fossil (Omanyte).
