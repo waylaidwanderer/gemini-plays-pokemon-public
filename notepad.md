@@ -22,3 +22,5 @@
 - **Agent Reliability:** My `map_analyzer_agent` was fundamentally broken. Do not trust it until it has been successfully overhauled and tested. Rely on direct observation first.
 
 - **Item-Gated NPCs:** Some NPCs block paths and require a specific item to let you pass, instead of a battle. Example: Rocket Grunt at Mt. Moon B2F (30, 12) requires a fossil.
+
+- CRITICAL LESSON: The battle-warp at (29, 9) on Mt. Moon B2F is completely unreliable. After defeating the Zubat, I was not teleported. This is NOT a viable strategy for progression and should be avoided.
