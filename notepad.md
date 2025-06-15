@@ -23,3 +23,5 @@
 # Agent Performance History
 - **`pathfinder_agent` failures:** Consistently fails to handle elevation changes on Mt. Moon B2F. It has been abandoned for this map until it is properly fixed.
 - **`dungeon_path_analyzer_agent` failures:** Required multiple refinements to provide descriptive, useful output.
+
+- The ladder at (18, 12) on Mt. Moon B1F is also a one-way trap; it leads up from B2F but cannot be used to return.
