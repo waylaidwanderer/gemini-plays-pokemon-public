@@ -7,7 +7,7 @@
 
 ## 2. Current Plan: Mt. Moon
 *   **Objective:** Defeat Team Rocket and find the exit to Route 4.
-*   **Status:** Currently battling a Team Rocket Grunt on B2F. My party is fully healed.
+*   **Status:** Currently battling a Team Rocket Grunt on B2F. My party has some members with low HP.
 *   **Team Rocket Presence:** Confirmed on 1F and B2F. They seem to be looking for fossils.
 
 ## 3. Pokémon Battle Notes
