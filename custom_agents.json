@@ -70,5 +70,13 @@
     "agent_input_schema": "{}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"blockers_found\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"blocker_name\":{\"type\":\"string\"},\"blocker_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"suggested_action\":{\"type\":\"string\"}},\"required\":[\"blocker_name\",\"blocker_coordinates\",\"suggested_action\"]}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"blockers_found\",\"reasoning\"]}",
     "agent_can_run_code": true
+  },
+  "dungeon_navigator_agent": {
+    "agent_name": "dungeon_navigator_agent",
+    "agent_description": "Analyzes a dungeon map (cave, forest, building) to find the most likely exit for progression. It considers unexplored warps and map connections, using NPC dialogue hints to prioritize.",
+    "agent_system_prompt": "You are a Dungeon Navigator Agent. Your goal is to identify the most probable exit from a complex map (like a cave or large building) that leads to story progression. You will use your `run_code` tool to parse `map_xml_string` and `world_knowledge_graph_json_string`. Input will include optional NPC dialogue hints. Output Schema: {\"type\":\"object\",\"properties\":{\"suggested_exit_type\":{\"type\":\"string\",\"enum\":[\"warp\",\"map_edge\"]},\"suggested_exit_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"suggested_exit_type\",\"suggested_exit_coordinates\",\"reasoning\"]}. Logic: 1. Parse all warps and map connections from the map data. 2. Cross-reference with the WKG to see which connections have been explored. 3. Prioritize reachable, unvisited warps/connections. 4. If NPC dialogue hints are provided (e.g., 'Cerulean City is through the cave to the east'), use this to weigh the priority of exits. 5. Suggest the most promising exit and provide reasoning based on exploration status and any available hints.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"npc_dialogue_hints\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_exit_type\":{\"type\":\"string\",\"enum\":[\"warp\",\"map_edge\"]},\"suggested_exit_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"suggested_exit_type\",\"suggested_exit_coordinates\",\"reasoning\"]}",
+    "agent_can_run_code": true
   }
 }
