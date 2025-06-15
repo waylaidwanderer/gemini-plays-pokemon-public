@@ -1,23 +1,19 @@
 # Gem's Gameplay Log & Strategies
 
 ## 1. Game Mechanics & Lessons Learned
-*   **Poison Damage:** Poisoned Pokémon lose 1 HP every four steps outside of battle.
+*   **Poison Damage:** Poisoned Pokémon lose 1 HP every four steps. KITSUNE fainted from this! Must be more vigilant about checking party status after battles with poison-capable Pokémon.
+*   **Agent Pathing:** Pathfinding agents need to target tiles *adjacent* to NPCs, not the NPCs themselves. Exploration agent paths can be flawed; if a path is invalid, the agent needs refinement.
+*   **NPC Interaction:** Repeatedly talking to an NPC that gives the same dialogue line is pointless. It likely means they have already been defeated or served their purpose.
+*   **Battle Tactics:** Ground-types might be immune to the poison status effect. If a move's accuracy is low, switch to a more reliable one.
 *   **WKG Management:** Execute all tool calls from an agent's multi-step plan sequentially.
-*   **NPC Sprites:** Defeated trainer sprites can sometimes temporarily block paths. Non-hostile trainers exist.
-*   **Risk Management:** Avoid exploring deep into new, dangerous areas with an injured party. Prioritize healing.
-*   **Item Interaction:** Items are map objects. Interact from an adjacent tile.
-*   **Agent Pathing:** Trust agent-generated paths. If blocked, find a local detour to rejoin the path. Be precise with agent destination coordinates.
-*   **Battle Tactics:** If a move's accuracy is severely lowered (e.g., by Sand-Attack), switch to a higher-accuracy move like Tackle instead of repeatedly trying a failing move.
-*   **Battle Tactics:** Ground-types might be immune to the poison status effect.
 
-## 2. Current Exploration Plan
-*   **Objective:** Find the exit of Mt. Moon to reach Cerulean City.
-*   **Path:** Explore the lower levels of Mt. Moon, defeat trainers, and find the correct ladder out.
+## 2. Current Objective: Emergency Retreat!
+*   **Priority:** Get to the Pokémon Center on Route 4 to heal the party.
+*   **Path:** Backtrack through Mt. Moon 1F -> B1F -> Exit to Route 4.
+*   **To-Do After Healing:** Return to Mt. Moon 1F, get past the Super Nerd at (25, 32), mark him as defeated, and find the fossils.
 
 ## 3. Pokémon Battle Intel
 *   **Zubat (Poison/Flying):** Weak to Electric, Ice, Psychic, Rock.
 *   **Geodude (Rock/Ground):** 4x weak to Grass/Water.
 *   **Sandshrew (Ground):** Weak to Water, Grass, Ice. Immune to Poison status.
 *   **Paras (Bug/Grass):** 4x weak to Fire/Flying.
-
-*   **Agent Pathing:** Exploration agent paths can be flawed. If a path includes an impassable tile, the agent must be refined immediately. Manually find a local detour to rejoin the valid part of the path.
