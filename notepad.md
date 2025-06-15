@@ -1,20 +1,21 @@
-# Game Mechanics & Learnings
+# Mt. Moon Navigation Notes
 
-## Navigation & Exploration
-- **Mt. Moon Layout:** The western section of 1F appears to be isolated. The path forward is likely eastward from the entrance. The ladder at (18, 12) on 1F leads to a dead-end loop on B1F.
-- **Defeated Trainers as Obstacles:** Confirmed that defeated trainers act as impassable obstacles and must be navigated around.
+## Layout & Obstacles
+- **1F Layout:** The first floor is a large, looping area. The direct path south from the central corridors is blocked by impassable ledges (`elevated_ground`).
+- **Dead Ends:** The ladder at (18, 12) on 1F leads to a small, isolated, dead-end platform on B1F.
+- **Impassable Trainers:** All defeated trainers encountered so far act as solid walls and must be navigated around.
 
-## Battle Strategy
-- **Status Effects:** Do not continue exploring with major status effects like confusion. Prioritize healing.
-- **Trainer Teams:** Be prepared for trainers to have more than two Pokémon.
-- **Proactive Tactics:** Don't wait until HP is critical to use priority moves like Quick Attack.
-- **Risk Assessment:** Underestimated damage from a Lv. 11 Paras's Absorb. Switching in a low-level, non-resistant Pokémon is too risky for weakening wild encounters.
+## Strategy & Hypotheses
+- **Current Strategy:** Systematic exploration of all reachable unseen tiles. The path forward is likely through an unexplored area, not a forced exit.
+- **Hypothesis (Active):** The main path forward is through the eastern corridors of 1F, likely leading to the ladder at (26, 16).
 
-## Type Matchup Discoveries
-- **Electric vs. Bug/Grass:** Electric-type moves (Thundershock) are 'not very effective' against Paras.
-- **Electric vs. Grass/Poison:** Electric-type moves are 'not very effective' against Grass/Poison types like Oddish and Bellsprout.
+# Battle Learnings
 
-## Reminders
-- Stock up on healing items like Paralyze Heals and Potions at the next Poké Mart.
+- **Type Matchups:**
+  - Electric is NOT very effective vs. Bug/Grass (Paras).
+  - Electric is NOT very effective vs. Grass/Poison (Oddish, Bellsprout).
+- **Risk Management:** Do not switch in low-level, non-resistant Pokémon to weaken wild encounters. It's too risky.
 
-- **Pathfinder Failure:** The master_pathfinder_agent has repeatedly failed (4+ times) to generate a valid path on Mt. Moon 1F, often trying to route through impassable walls or up ledges. It is unreliable for this map. I will navigate manually for now.
+# Agent Reliability
+
+- **`master_pathfinder_agent`:** This agent is **UNRELIABLE** in Mt. Moon. It has failed multiple times (5+) by routing through impassable walls, up ledges, and getting stuck in loops. **Do not use for navigation on this map.** Manual navigation is required.
