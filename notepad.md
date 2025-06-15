@@ -16,15 +16,7 @@
     *   Paras (Bug/Grass): 4x weak to Fire/Flying.
 
 ## 3. Puzzle Solutions & Mechanics
-*   **Mt. Moon Fossil Puzzle:**
-    *   **Status:** Blocked
-    *   **Problem:** Super Nerd at (25, 32) is blocking the presumed exit ladder.
-    *   **Attempted Solutions:**
-        1.  Defeating him in battle. (Failed - He remained)
-        2.  Interacting with him after battle. (Failed - He gave dialogue but remained)
-            3.  Leaving the map area and returning. (Failed - He remained)
-            4.  Interacting with the tile where the fossils were located (25, 30). (Failed - No interaction occurred)
-    *   **Conclusion:** All direct interaction attempts have failed. The Super Nerd remains, blocking the path. I am currently stuck and need to re-evaluate the entire puzzle or find an alternate route. Using `progression_blocker_agent` for analysis.
+*   **Mt. Moon Fossil Area (1F):** This area is a dead end after choosing a fossil. The Super Nerd at (25, 32) remains and blocks the path. This is not the correct way forward.
 
 ## 4. Fossil Choice Analysis (Mt. Moon)
 *   **Agent Recommendation:** Helix Fossil (Omanyte).
