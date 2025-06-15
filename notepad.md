@@ -17,3 +17,5 @@
 *   **Geodude (Rock/Ground):** 4x weak to Grass/Water.
 *   **Sandshrew (Ground):** Weak to Water, Grass, Ice. Immune to Poison status.
 *   **Paras (Bug/Grass):** 4x weak to Fire/Flying.
+
+*   **Hypothesis Failed:** The fossils are NOT located behind the Super Nerd at (25, 32) on Mt. Moon 1F. This area is a dead end. Must explore other parts of the mountain.
