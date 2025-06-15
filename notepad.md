@@ -16,19 +16,8 @@
     *   Paras (Bug/Grass): 4x weak to Fire/Flying.
 
 ## 3. Puzzle Solutions & Mechanics
-*   **Mt. Moon Fossil Area (1F):** This area is a dead end after choosing a fossil. The Super Nerd at (25, 32) remains and blocks the path. This is not the correct way forward.
+*   **Mt. Moon 1F Fossil Area:** This is a confirmed dead end. The Super Nerd at (25, 32) blocks the path, and there is no way to make him move.
 
-## 4. Fossil Choice Analysis (Mt. Moon)
-*   **Agent Recommendation:** Helix Fossil (Omanyte).
-*   **Reasoning:** Omastar's high Special stat is used for both Special Attack and Special Defense in Gen 1, making it a powerful and durable choice.
-*   **Dome Fossil (Kabuto):** Becomes Kabutops, a fast physical attacker.
-*   **Helix Fossil (Omanyte):** Becomes Omastar, a slow special tank.
-
-## 5. Area Notes
-### Mt. Moon 1F (ID: 59)
-*   The main path to the exit is via the ladder at (25, 32), which appears after solving the fossil puzzle.
-*   The ladder at (38, 34) in the eastern corridor is a dead end.
-*   The ladder at (18, 12) leads to an isolated, dead-end platform on B1F.
-*   The entrance/exit to Route 4 is at (15, 36).
-
-*   The ladder at (18, 12) leads to an isolated, dead-end platform on B1F.
+## 4. Area Notes
+### Mt. Moon B2F (ID: 61)
+*   Defeated trainers, like the Rocket Grunt at (16, 23), remain as impassable obstacles.
