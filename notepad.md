@@ -24,6 +24,3 @@
 - **Mt. Moon B2F:**
   - Rocket Grunt (16, 23)
   - Rocket Grunt (30, 8)
-
-# Agent Notes
-- **Pathfinder Agent:** Unreliable. Failed 5 times to find a simple path on Mt. Moon 1F. Do not use. Will navigate manually.
