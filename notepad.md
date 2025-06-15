@@ -17,10 +17,12 @@
 
 ## 3. Puzzle Solutions & Mechanics
 *   **Mt. Moon Fossil Puzzle:**
-    *   **Status:** In Progress
-    *   **Events so far:** Chose a fossil (Helix). Defeated the Super Nerd at (25, 32).
-    *   **Problem:** The Super Nerd is still blocking the tile at (25, 32), which is the presumed location of the exit ladder.
-    *   **Hypothesis:** Need to trigger an event to make him move. Maybe re-interacting with him, or leaving and re-entering the map.
+    *   **Status:** Blocked
+    *   **Problem:** Super Nerd at (25, 32) is blocking the presumed exit ladder.
+    *   **Attempted Solutions:**
+        1.  Defeating him in battle. (Failed - He remained)
+        2.  Interacting with him after battle. (Failed - He gave dialogue but remained)
+    *   **New Hypothesis (Attempt #3):** Leaving the map area and returning might reset the NPC and clear the path. Plan: Go to B1F via ladder at (26, 16) and immediately return.
 
 ## 4. Fossil Choice Analysis (Mt. Moon)
 *   **Agent Recommendation:** Helix Fossil (Omanyte).
