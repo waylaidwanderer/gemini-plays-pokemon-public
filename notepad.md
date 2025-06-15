@@ -27,3 +27,6 @@
     *   The entire eastern section of Mt. Moon B2F.
 *   **Confirmed Fact:** The warp at (15, 36) on 1F is the ENTRANCE from Route 4, not the exit to Cerulean City.
 *   **Main Path Hypothesis:** The main path forward is on the first floor, leading past the Super Nerd. This needs to be investigated after exploring other floors.
+
+## 5. Pending Agent Refinements
+*   **Strategy:** Log agent issues here and refine them in a safe area (like a Pokémon Center) to maintain exploration momentum.
