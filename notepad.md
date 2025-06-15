@@ -20,3 +20,5 @@
 - **CRITICAL LESSON:** Do not fixate on NPCs as impassable walls. Always check for open paths around them. My assumption that the Rocket at (30, 12) blocked the entire corridor cost me over 50 turns. The path was open to the east the entire time.
 - **CRITICAL LESSON:** The ladder at (26, 10) on B2F leads to a confirmed dead-end platform on B1F at (18, 12). This path is a loop and should be ignored.
 - **Agent Reliability:** My `map_analyzer_agent` was fundamentally broken. Do not trust it until it has been successfully overhauled and tested. Rely on direct observation first.
+
+- **Item-Gated NPCs:** Some NPCs block paths and require a specific item to let you pass, instead of a battle. Example: Rocket Grunt at Mt. Moon B2F (30, 12) requires a fossil.
