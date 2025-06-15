@@ -1,19 +1,16 @@
-# Agent Improvement Plan
-- **Core Priority:** Agent refinement is a top priority. I must immediately use `define_agent` to fix flaws, especially regarding navigation on maps with verticality (`elevated_ground`, `steps`).
-
 # Battle Notes
 - Electric is ineffective vs. Ground (Geodude, Sandshrew).
 - Grass is 4x effective vs. Rock/Ground (Geodude).
 - Electric is NOT very effective vs. Bug/Grass (Paras), or Grass/Poison (Oddish, Bellsprout).
 
 # Dungeon Notes & Traps
-- **Mt. Moon 1F:** The ladder at (26, 16) leads to a different part of 1F. It's a tricky path, but not an inescapable trap.
-- **Mt. Moon B1F:** The ladder at (18, 12) leads up from B2F. I must explore other routes to progress downwards.
+- **Mt. Moon 1F:** The ladder at (26, 16) is a one-way trap leading back to 1F.
+- **Mt. Moon B1F:** The ladder at (18, 12) appears to be a one-way path up from B2F.
 
 # Game Mechanics
 - **Dialogue:** A single 'A' press advances to the next dialogue box. 'B' can dismiss dialogue.
 - **Defeated Trainers:** Some defeated trainers act as impassable obstacles.
-- **Elevation Rule (Final Correction 3):** Direct movement between adjacent 'ground' and 'elevated_ground' tiles is IMPOSSIBLE in any direction. They are on different planes. Elevation change is ONLY possible via 'steps' tiles.
+- **Elevation Rule (FINAL):** `ground` and `elevated_ground` tiles are on completely separate planes. Movement between them is IMPOSSIBLE unless a `steps` tile connects them.
 
 # Defeated Trainers Log
 - **Mt. Moon 1F:**
