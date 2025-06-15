@@ -13,7 +13,7 @@
 # Game Mechanics
 - **Dialogue:** A single 'A' press advances to the next dialogue box. 'B' can dismiss dialogue.
 - **Defeated Trainers:** Some defeated trainers act as impassable obstacles.
-- **Elevation Rule (Final Correction 2):** Movement between 'ground' and 'elevated_ground' is complex. Horizontal movement between them is possible. Vertical movement is restricted: you can only step DOWN from 'elevated_ground' to 'ground'. All other vertical moves between these types are blocked, unless a 'steps' tile is used.
+- **Elevation Rule (Final Correction 3):** Direct movement between adjacent 'ground' and 'elevated_ground' tiles is IMPOSSIBLE in any direction. They are on different planes. Elevation change is ONLY possible via 'steps' tiles.
 
 # Defeated Trainers Log
 - **Mt. Moon 1F:**
