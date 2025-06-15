@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}},\"error_message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": true
-  },
-  "fossil_advisor_agent": {
-    "agent_name": "fossil_advisor_agent",
-    "agent_description": "Analyzes the two available fossils (Dome and Helix) and the player's current Pokémon roster to recommend which fossil to choose for long-term team synergy.",
-    "agent_system_prompt": "You are a Fossil Advisor for Pokémon Yellow Legacy. Your task is to help the player choose between the Dome Fossil (Kabuto) and the Helix Fossil (Omanyte). You will be given the player's current party and PC Pokémon. Analyze the types (Rock/Water for both), potential final evolution stats, and movepools of Kabutops and Omastar. Compare their strengths and weaknesses against the player's current roster and known upcoming challenges (e.g., future Gym Leaders). Provide a primary recommendation with strong reasoning, but also present a case for the alternative choice. Your output must conform to the provided schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon_roster\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"name\",\"level\",\"type1\"]}}},\"required\":[\"player_pokemon_roster\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"primary_recommendation\":{\"type\":\"string\",\"enum\":[\"Dome Fossil (Kabuto)\",\"Helix Fossil (Omanyte)\"]},\"reasoning\":{\"type\":\"string\"},\"alternative_choice_reasoning\":{\"type\":\"string\"},\"long_term_outlook\":{\"type\":\"string\"}},\"required\":[\"primary_recommendation\",\"reasoning\",\"alternative_choice_reasoning\",\"long_term_outlook\"]}",
-    "agent_can_run_code": false
   }
 }
