@@ -16,3 +16,5 @@
 
 ## Reminders
 - Stock up on healing items like Paralyze Heals and Potions at the next Poké Mart.
+
+- **Pathfinder Failure:** The master_pathfinder_agent has repeatedly failed (4+ times) to generate a valid path on Mt. Moon 1F, often trying to route through impassable walls or up ledges. It is unreliable for this map. I will navigate manually for now.
