@@ -54,5 +54,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party_pokemon_names\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"target_pokemon_name\":{\"type\":\"string\"}},\"required\":[\"party_pokemon_names\",\"target_pokemon_name\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\",\"A\",\"B\"]}}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": false
+  },
+  "party_manager_agent": {
+    "agent_name": "party_manager_agent",
+    "agent_description": "Analyzes the player's party and a desired outcome to generate the button sequence needed to reorder the Pokémon in the menu. Useful for moving injured Pokémon to the back or setting up a specific lead.",
+    "agent_system_prompt": "You are a Pokémon Party Manager. Your task is to analyze the provided party list (an array of Pokémon names) and a desired party order or condition. Your output must be a JSON object containing a 'button_sequence' which is an array of strings representing the exact button presses required to achieve the new order. The process starts from the Pokémon list screen. To move a Pokémon, you must: 1. Navigate the cursor to the Pokémon to be moved. 2. Press 'A' to select it (this 'holds' the Pokémon). 3. Navigate the cursor to the target slot where you want to place the Pokémon. 4. Press 'A' again to release it. Repeat this process for all necessary swaps. The sequence should be as efficient as possible. If the party is already in the desired order, the sequence should be empty. The input will provide the starting order and a description of the desired end state.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_party_order\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"desired_condition\":{\"type\":\"string\",\"description\":\"A natural language description of the desired party order, e.g., 'Move CRAG to the last position' or 'Put NIGHTSHADE in the first position'.\"}},\"required\":[\"current_party_order\",\"desired_condition\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\",\"A\",\"B\"]}},\"explanation\":{\"type\":\"string\"}},\"required\":[\"button_sequence\",\"explanation\"]}",
+    "agent_can_run_code": false
   }
 }
