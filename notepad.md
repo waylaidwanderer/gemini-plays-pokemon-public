@@ -29,4 +29,4 @@
   - Rocket Grunt (30, 8)
 
 # Lessons & Future Plans
-- **Navigation Strategy (Definitive):** My attempts at automated pathfinding, both via agents and direct `run_code` scripts, have definitively failed after numerous attempts. My fundamental approach to prompting/creating these tools was flawed. I am abandoning all automated pathfinding and will proceed with meticulous, segment-by-segment manual navigation. I must be extremely careful to avoid repeating my past navigational errors.
+- **Navigation Strategy (Revised):** My initial attempts at automated pathfinding failed, but abandoning the approach is the wrong lesson. The failure was in my agent design and prompting. I will commit to iteratively refining my navigation and pathfinding agents until they are reliable tools. Manual navigation will be a fallback, not the primary strategy.
