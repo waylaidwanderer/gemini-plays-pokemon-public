@@ -55,14 +55,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\",\"A\",\"B\"]}},\"error_message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": false
   },
-  "master_pathfinder_agent": {
-    "agent_name": "master_pathfinder_agent",
-    "agent_description": "Calculates the shortest walkable path from a start to an end coordinate. WARNING: This agent has proven UNRELIABLE in complex, multi-level dungeons like Mt. Moon. Use with extreme caution.",
-    "agent_system_prompt": "You are a pathfinding expert. Your only job is to generate a Python script to find the shortest path using A* search. You have access to `run_code` and `map_xml_string`. The script's final output MUST be a `print()` statement of a valid JSON object that conforms to your output schema. **Your Python script must be extremely strict and correctly identify all obstacles from the XML:**\n1.  **Impassable Tile Types:** `impassable`, `water`, `cuttable`, `boulder_barrier`, etc.\n2.  **Objects:** All `<Object>` tags are walls, except for `id-name='Pikachu'`.\n3.  **Ledges:** A ledge is ONLY traversable DOWNWARDS. From your current tile (x, y), you can move to a ledge at (x, y+1). This move will place you at (x, y+2). A ledge tile is an IMPASSABLE WALL from all other directions (approaching from below, left, or right).\n4.  **Elevation:** Moving from `ground` UP to `elevated_ground` is impossible. Treat `elevated_ground` as a one-way wall that can only be entered from another `elevated_ground` tile or via `steps`.\nYour final agent output must be the JSON produced by your script. If no path is found, `button_sequence` must be an empty list.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}},\"error_message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"button_sequence\"]}",
-    "agent_can_run_code": true
-  },
   "battle_switch_agent": {
     "agent_name": "battle_switch_agent",
     "agent_description": "Calculates the button presses needed to switch to a specific Pokémon during a battle. Takes the current party list and the target Pokémon's name as input.",
