@@ -1,23 +1,25 @@
-# Agent Improvement Plan
-- **`dungeon_path_analyzer_agent`:** This agent is unreliable because it suggests paths through walls. It needs a major overhaul to implement a proper pathfinding algorithm (like A* or BFS) that correctly parses the `map_xml_string` for all obstacles (impassable tiles, objects, ledges). I will refine its system prompt to enforce this.
-- **`master_pathfinder_agent`:** This agent has been identified as fundamentally unreliable in complex dungeons. It has been deleted to prevent accidental use.
+# Mt. Moon Exploration Plan
 
-# Mt. Moon Navigation Strategy
-- **Current Objective:** Find the correct ladder on Mt. Moon 1F that leads to the next floor.
-- **Method:**
-  1. Use my own map-reading skills for all short-term, tile-by-tile movement.
-  2. - The `dungeon_path_analyzer_agent` is unreliable for path generation. Use it ONLY to identify the coordinates of points of interest (trainers, items, warps), then use manual map-reading to navigate.
-  3. Select ONE identified path/POI and explore it systematically until its conclusion (dead end, warp, or trainer battle).
-  4. Do not switch goals erratically. Fully explore one branch before starting another.
+**Core Strategy:** No more chaotic wandering. I will explore Mt. Moon systematically using manual map-reading for all navigation.
+
+**Methodology:**
+1.  **Identify POIs:** Use the `dungeon_path_analyzer_agent` ONLY to get the coordinates of Points of Interest (trainers, items, warps).
+2.  **DO NOT TRUST AGENT PATHING:** The agent's path descriptions are unreliable and must be ignored.
+3.  **Systematic Clearing:** Pick a single, visually verifiable path from my current location towards a POI.
+4.  **Explore to Completion:** Follow that chosen path to its absolute end (a wall, a warp, or a battle).
+5.  **Backtrack and Repeat:** After completing one path, backtrack to the last junction and explore the next branching path. This prevents getting lost in loops.
+
+# Agent Improvement Plan
+- **`dungeon_path_analyzer_agent`:** This agent is fundamentally broken for navigation. Its system prompt needs a complete overhaul to force it to run a proper pathfinding script (like A* or BFS) that correctly parses all obstacles from the `map_xml_string`. Until it's fixed, it is **only for identifying POI coordinates**.
 
 # Battle Learnings
 - **Type Matchups:**
+  - Electric is ineffective vs. Ground (Geodude, Sandshrew).
+  - Grass is 4x effective vs. Rock/Ground (Geodude).
   - Electric is NOT very effective vs. Bug/Grass (Paras).
   - Electric is NOT very effective vs. Grass/Poison (Oddish, Bellsprout).
-- **Risk Management:** Do not switch in low-level, non-resistant Pokémon to weaken wild encounters. It's too risky.
+- **Risk Management:** Do not switch in low-level, non-resistant Pokémon to weaken wild encounters.
 
 # Dungeon Mechanics
 - **Defeated Trainers:** Defeated trainers in Mt. Moon and on Route 3 act as impassable obstacles.
-
-# WKG To-Do
-- Investigate how to properly log one-way, variable-source warps like Escape Rope in the World Knowledge Graph.
+- **Trap Ladder:** The ladder at (26, 16) on 1F is a one-way trap that leads back to 1F. Do not use.
