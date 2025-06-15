@@ -21,3 +21,5 @@
 ## 4. Area Notes
 ### Mt. Moon B2F (ID: 61)
 *   Defeated trainers, like the Rocket Grunt at (16, 23), remain as impassable obstacles.
+
+*   **Pathfinding Agent Failure:** The `pathfinding_agent` has repeatedly failed on Mt. Moon B2F, stating no path exists on `elevated_ground` even when a clear manual path is visible. It cannot be trusted for this map's layout. Manual navigation is required.
