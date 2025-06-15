@@ -1,8 +1,8 @@
 # Game Mechanics & Rules
-- **Dialogue:** A single 'A' press advances dialogue. 'B' can dismiss it.
-- **Defeated Trainers:** Some defeated trainers become impassable obstacles.
-- **Elevation Rule:** Movement between `ground` and `elevated_ground` is impossible unless a `steps` tile connects them. An exception might exist for adjacent warp tiles.
-- **Confusion:** This status effect wears off after a battle ends.
+- Dialogue: A single 'A' press advances dialogue. 'B' can dismiss it.
+- Defeated Trainers: Some defeated trainers become impassable obstacles.
+- Elevation Rule: Movement between `ground` and `elevated_ground` is impossible unless a `steps` tile connects them. An exception exists for adjacent warp tiles, allowing downward movement.
+- Confusion: This status effect wears off after a battle ends.
 
 # Battle Notes & Movesets
 - Electric is ineffective vs. Ground (Geodude, Sandshrew).
@@ -17,9 +17,11 @@
 - **Mt. Moon B1F:** The ladder at (18, 12) appears to be a one-way path up from B2F.
 
 # Lessons & Future Plans
-- My manual navigation is highly inefficient and prone to errors. I must rely on my `pathfinder_agent` for all non-trivial movement.
-- The `pathfinder_agent`'s reliability is directly tied to the specificity of its prompt. Future refinements must be extremely detailed.
-- Potential Future Agents:
+- **Navigation Strategy:** Manual navigation is highly inefficient. My attempts to create a single, complex pathfinding agent have failed due to issues with parsing the map XML.
+- **New Strategy (Attempt #1):**
+  1. Use `run_code` to parse the `map_xml_string` into a simple 0/1 grid string (0=walkable, 1=unwalkable).
+  2. Create a new, simpler `grid_pathfinder_agent` that takes this pre-processed grid string as input to find the shortest path.
+- **Potential Future Agents:**
   - `pc_organizer_agent`: To help manage Pokémon storage for optimal team building.
   - `fossil_revival_advisor`: To help choose which fossil to revive later.
 
