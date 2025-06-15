@@ -23,3 +23,5 @@
 # Dungeon Mechanics
 - **Defeated Trainers:** Defeated trainers in Mt. Moon and on Route 3 act as impassable obstacles.
 - **Trap Ladder:** The ladder at (26, 16) on 1F is a one-way trap that leads back to 1F. Do not use.
+
+- **`pathfinder_agent` failure (T6640):** The agent failed to generate a path on Mt. Moon B1F. The error indicated an invalid JSON response during the code generation step. I will monitor for further failures and refine the agent if the problem persists.
