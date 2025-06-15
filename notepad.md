@@ -17,4 +17,4 @@
 - **`master_pathfinder_agent`:** This agent is **UNRELIABLE** in Mt. Moon. It has failed multiple times (5+) by routing through impassable walls and up ledges. **Do not use for long-distance navigation on this map.** Manual navigation is required.
 
 # Dungeon Mechanics Update
-- **Defeated Trainers:** Unlike on Route 3, the defeated Rocket Grunt on Mt. Moon B2F at (16, 23) was *not* an impassable obstacle. I was able to walk right through his tile. This is a critical difference for dungeon navigation!
+- **Defeated Trainers:** The defeated Rocket Grunt on Mt. Moon B2F at (16, 23) *is* an impassable obstacle, similar to trainers on Route 3. My previous hypothesis that he could be walked through was incorrect.
