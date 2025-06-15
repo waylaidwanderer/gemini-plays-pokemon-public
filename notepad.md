@@ -1,17 +1,15 @@
 # Mt. Moon Exploration Plan
 
-**Core Strategy:** No more chaotic wandering. I will explore Mt. Moon systematically using manual map-reading for all navigation.
+**Core Strategy:** A system update has improved agent reliability. I will now use the `pathfinder_agent` for all navigation.
 
 **Methodology:**
-1.  **Identify POIs:** Use the `dungeon_path_analyzer_agent` ONLY to get the coordinates of Points of Interest (trainers, items, warps).
-2.  **DO NOT TRUST AGENT PATHING:** The agent's path descriptions are unreliable and must be ignored.
-3.  **Systematic Clearing:** Pick a single, visually verifiable path from my current location towards a POI.
-4.  **Explore to Completion:** Follow that chosen path to its absolute end (a wall, a warp, or a battle).
-5.  **Backtrack and Repeat:** After completing one path, backtrack to the last junction and explore the next branching path. This prevents getting lost in loops.
+1.  **Identify POIs:** Use the `dungeon_path_analyzer_agent` to get the coordinates of Points of Interest (trainers, items, warps).
+2.  **Generate Path:** Use the `pathfinder_agent` to generate a precise path to the desired POI.
+3.  **Execute Path:** Follow the agent's path exactly.
 
 # Agent Status & Improvement Plan
-- **`dungeon_path_analyzer_agent`:** This agent is effective at identifying the coordinates of POIs. It should be used for reconnaissance, not pathing.
-- **`pathfinder_agent`:** This agent is non-functional and has been abandoned after four failed attempts at fixing it. All navigation will be done manually and systematically.
+- **`pathfinder_agent`:** Now considered the primary tool for navigation due to system updates.
+- **`dungeon_path_analyzer_agent`:** Remains useful for identifying POI coordinates to provide to the pathfinder.
 
 # Battle Learnings
 - **Type Matchups:**
