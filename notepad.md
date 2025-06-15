@@ -13,4 +13,4 @@
 # Game Mechanics
 - **Dialogue:** A single 'A' press advances to the next dialogue box. 'B' can dismiss dialogue.
 - **Defeated Trainers:** Some defeated trainers act as impassable obstacles.
-- **Elevation Rule:** Direct movement between adjacent 'ground' and 'elevated_ground' tiles is possible. This is a key navigation mechanic.
+- **Elevation Rule (Corrected):** Direct movement between adjacent 'ground' and 'elevated_ground' tiles is IMPOSSIBLE. Elevation change is only possible via 'steps' tiles.
