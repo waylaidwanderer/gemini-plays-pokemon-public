@@ -18,7 +18,7 @@
   - Lass (17, 25)
   - Super Nerd (25, 30)
   - Lass (31, 7)
-  - Youngster (14, 17)
+  - Youngster (13, 17)
   - Youngster (31, 28)
   - Hiker (6, 7)
 - **Mt. Moon B2F:**
