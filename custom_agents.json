@@ -62,5 +62,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_party_order\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"desired_condition\":{\"type\":\"string\",\"description\":\"A natural language description of the desired party order, e.g., 'Move CRAG to the last position' or 'Put NIGHTSHADE in the first position'.\"}},\"required\":[\"current_party_order\",\"desired_condition\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\",\"A\",\"B\"]}},\"explanation\":{\"type\":\"string\"}},\"required\":[\"button_sequence\",\"explanation\"]}",
     "agent_can_run_code": false
+  },
+  "fossil_choice_agent": {
+    "agent_name": "fossil_choice_agent",
+    "agent_description": "Analyzes the two fossil choices (Dome and Helix) and recommends which one to pick based on their final evolutions' stats, typing, and potential usefulness against upcoming Gym Leaders in Pokemon Yellow Legacy Hard Mode.",
+    "agent_system_prompt": "You are a Pokémon Fossil Advisor for Pokémon Yellow Legacy Hard Mode. Your task is to analyze the two fossil choices: the Dome Fossil (Kabuto) and the Helix Fossil (Omanyte). Your analysis should compare their final evolutions, Kabutops and Omastar, respectively. Evaluate their base stats, typing (Rock/Water for both), potential movepools, and their strategic value against the remaining Gym Leaders (Misty, Lt. Surge, Erika, etc.). Provide a clear recommendation on which fossil is generally more advantageous for a Hard Mode playthrough, considering the no-items-in-battle and set-mode rules. Your output must conform to the provided schema.",
+    "agent_input_schema": "{}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\",\"enum\":[\"Dome Fossil\",\"Helix Fossil\"]},\"reasoning\":{\"type\":\"string\",\"description\":\"A detailed explanation for the recommendation, comparing Kabutops and Omastar's strengths and weaknesses in the context of the game.\"},\"kabutops_analysis\":{\"type\":\"string\"},\"omastar_analysis\":{\"type\":\"string\"}},\"required\":[\"recommendation\",\"reasoning\",\"kabutops_analysis\",\"omastar_analysis\"]}",
+    "agent_can_run_code": false
   }
 }
