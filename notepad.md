@@ -19,9 +19,3 @@
 *   **Geodude (Rock/Ground):** 4x weak to Grass/Water.
 *   **Sandshrew (Ground):** Weak to Water, Grass, Ice. Immune to Poison status.
 *   **Paras (Bug/Grass):** 4x weak to Fire/Flying.
-
-*   **Agent Efficiency:** Execute the full sequence of tool calls from an agent's plan in a single turn to be more efficient.
-*   **Warp Mechanics Hypothesis:** If a warp doesn't trigger on entry, try stepping off the tile and then stepping back on. This seems to work for some stubborn warps.
-
-*   **Agent Efficiency:** Execute the full sequence of tool calls from an agent's plan in a single turn to be more efficient.
-*   **Warp Mechanics Hypothesis:** If a warp doesn't trigger on entry, try stepping off the tile and then stepping back on. This seems to work for some stubborn warps.
