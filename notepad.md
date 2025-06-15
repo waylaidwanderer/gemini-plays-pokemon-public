@@ -44,5 +44,5 @@
 *   **Helix Fossil (Omanyte):** Becomes Omastar, a slow special tank.
 
 ## 7. Puzzle Solutions & Mechanics
-*   **Mt. Moon Fossil Puzzle (SOLVED):** After defeating the Super Nerd at (25, 32), stand on the tile *between* the two fossils at (25, 30). Face the desired fossil and press 'A' to trigger a confirmation dialogue. Pressing 'A' again will select the fossil.
+*   **Mt. Moon Fossil Puzzle (IN PROGRESS):** After defeating the Super Nerd at (25, 32) and choosing a fossil, the fossils disappear but the Nerd remains, blocking the path. Current hypothesis: leaving and re-entering the area may trigger the next step.
 *   **Dialogue Advancement:** Some key events, like the fossil choice, are triggered by advancing through ALL of an NPC's dialogue, not just the initial text box. Always press 'A' multiple times to ensure a conversation is truly over.
