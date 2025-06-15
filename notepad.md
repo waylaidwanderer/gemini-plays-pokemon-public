@@ -1,36 +1,17 @@
-# Mt. Moon Exploration Plan
-
-**Core Strategy:** A system update has improved agent reliability. I will now use the `pathfinder_agent` for all navigation.
-
-**Methodology:**
-1.  **Identify POIs:** Use the `dungeon_path_analyzer_agent` to get the coordinates of Points of Interest (trainers, items, warps).
-2.  **Generate Path:** Use the `pathfinder_agent` to generate a precise path to the desired POI.
-3.  **Execute Path:** Follow the agent's path exactly.
-
-# Agent Status & Improvement Plan
-- **`pathfinder_agent`:** Now considered the primary tool for navigation due to system updates.
-- **`dungeon_path_analyzer_agent`:** Remains useful for identifying POI coordinates to provide to the pathfinder.
+# Agent Improvement Plan
+- **Core Priority:** Agent refinement is a top priority. I must immediately use `define_agent` to fix flaws, especially regarding navigation on maps with verticality (`elevated_ground`, `steps`).
 
 # Battle Learnings
-- **Type Matchups:**
-  - Electric is ineffective vs. Ground (Geodude, Sandshrew).
-  - Grass is 4x effective vs. Rock/Ground (Geodude).
-  - Electric is NOT very effective vs. Bug/Grass (Paras).
-  - Electric is NOT very effective vs. Grass/Poison (Oddish, Bellsprout).
-  - Defensive immunities aren't everything. Geodude's Poison immunity is less valuable against Ekans (who uses Normal moves) than Oddish's 4x super-effective Grass attack.
-- **Risk Management:** Do not switch in low-level, non-resistant Pokémon to weaken wild encounters.
-
-# Dungeon Mechanics
-- **Defeated Trainers:** Defeated trainers in Mt. Moon and on Route 3 act as impassable obstacles.
-- **Trap Ladder:** The ladder at (26, 16) on 1F is a one-way trap that leads back to 1F. Do not use.
-
-- **`pathfinder_agent` failure (T6640):** The agent failed to generate a path on Mt. Moon B1F. The error indicated an invalid JSON response during the code generation step. I will monitor for further failures and refine the agent if the problem persists.
-
-- **`pathfinder_agent` failure (T6680):** Agent failed to path around `elevated_ground` on Mt. Moon B2F, treating it as a passable tile from below. This is a critical navigation flaw.
+- Electric is ineffective vs. Ground (Geodude, Sandshrew).
+- Grass is 4x effective vs. Rock/Ground (Geodude).
+- Electric is NOT very effective vs. Bug/Grass (Paras), or Grass/Poison (Oddish, Bellsprout).
+- Defensive immunities aren't everything; type coverage of offensive moves is key.
 
 # Gameplay Mechanics & Rules
-- **Dialogue Advancement:** Pressing 'A' repeatedly on a static dialogue screen re-initiates the conversation, creating a loop. A single 'A' press is required to advance to the next dialogue box or event.
+- **Dialogue Advancement:** A single 'A' press advances to the next dialogue box. Repeatedly pressing 'A' on static text re-initiates the conversation.
+- **Defeated Trainers:** Defeated trainers in Mt. Moon act as impassable obstacles.
+- **Trap Ladder:** The ladder at (26, 16) on 1F is a one-way trap.
 
-# Agent Improvement Plan
-- **Core Priority:** Agent refinement is now a top priority. Documenting failures is not enough; I must immediately use `define_agent` to fix flaws in their system prompts, especially regarding navigation on maps with verticality (`elevated_ground`, `steps`).
-- **`pathfinder_agent` & `dungeon_path_analyzer_agent`:** Both agents are currently unreliable on maps with elevation changes. I will refine their prompts to correctly parse these tile types before relying on them again in such environments.
+# Agent Performance History
+- **`pathfinder_agent` failures:** Failed to generate path on B1F (T6640), failed to path around `elevated_ground` on B2F (T6680).
+- **`dungeon_path_analyzer_agent` failure:** Failed to respect elevation on B2F (T6708).
