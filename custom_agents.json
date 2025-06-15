@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}},\"error_message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": true
-  },
-  "soft_lock_detector_agent": {
-    "agent_name": "soft_lock_detector_agent",
-    "agent_description": "Analyzes the current map state (player position, reachable tiles, warps) and inventory to determine if the player is in a soft-locked state. A soft-lock is defined as a situation with no reachable unseen tiles, no reachable unvisited warps, and no Escape Rope in the inventory.",
-    "agent_system_prompt": "You are a Soft-Lock Detector for Pokémon Yellow Legacy. Your task is to determine if the player is in a soft-locked position. A soft-lock occurs when the player cannot make any progress. Analyze the provided inputs: `map_xml_string`, `player_x`, `player_y`, `reachable_unseen_tiles_count`, `reachable_unvisited_warps_count`, and `has_escape_rope`. A soft-lock is confirmed if `reachable_unseen_tiles_count` is 0, `reachable_unvisited_warps_count` is 0, AND `has_escape_rope` is false. Your output must conform to the provided schema, indicating if a soft-lock is detected and recommending a course of action.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"},\"reachable_unseen_tiles_count\":{\"type\":\"integer\"},\"reachable_unvisited_warps_count\":{\"type\":\"integer\"},\"has_escape_rope\":{\"type\":\"boolean\"}},\"required\":[\"player_x\",\"player_y\",\"reachable_unseen_tiles_count\",\"reachable_unvisited_warps_count\",\"has_escape_rope\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"is_soft_locked\":{\"type\":\"boolean\"},\"recommendation\":{\"type\":\"string\"}},\"required\":[\"is_soft_locked\",\"recommendation\"]}",
-    "agent_can_run_code": true
   }
 }
