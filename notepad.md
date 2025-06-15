@@ -1,7 +1,9 @@
 # Gem's Gameplay Log & Strategies
 
 ## 1. Agent Development Log
-*   `exploration_helper_agent` is critically flawed. Despite multiple refinements, it consistently fails to identify reachable unseen tiles that are present in the game state. Abandoning use of this agent and deleting it. Will build a simpler `unseen_tile_finder_agent`.
+*   **`exploration_helper_agent`:** DELETED. This agent was critically flawed and consistently failed to identify reachable unseen tiles despite multiple refinements.
+*   **`unseen_tile_finder_agent`:** DELETED. This replacement agent also failed to identify reachable unseen tiles, confirming a deep logic flaw in my approach to exploration agents. 
+*   **Current Strategy:** Abandoning automated exploration agents for now. Proceeding with manual exploration of Mt. Moon, using the reliable `pathfinding_agent` for navigation between known points.
 
 ## 2. Game Mechanics & Lessons Learned
 *   **Poison Damage:** Poisoned Pokémon lose 1 HP every four steps.
