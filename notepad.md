@@ -32,4 +32,4 @@
     *   Eastern corridor on Mt. Moon 1F (ladder at (38, 34) is a fake-out).
 
 ## 6. Agent Improvement Plan
-*   **`pathfinding_agent`:** This agent is unreliable. Instead of just retrying, I will actively work on refining its system prompt and Python code to make it more robust. This is a high priority.
+*   **`pathfinding_agent` Improvement Plan:** The agent is unreliable. My priority is to refine its Python script to: 1. Correctly identify impassable target tiles and path to an adjacent traversable tile instead. 2. Better handle complex terrain, especially ledges and elevation changes, to generate more accurate paths. I will test these changes in a safe area before relying on the agent in critical situations.
