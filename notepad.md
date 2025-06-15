@@ -18,3 +18,5 @@
 ## 3. Mt. Moon Exploration Notes
 *   **Objective:** Find the two fossils and the exit to Cerulean City.
 *   **Failed Hypothesis:** The fossils are NOT located behind the Super Nerd at (25, 32) on Mt. Moon 1F. That path is a dead end.
+
+*   **Traversal Mechanic:** I can step up from a 'ground' tile to an adjacent 'elevated_ground' tile, even without 'steps'. This seems to be a special case for certain warp tiles.
