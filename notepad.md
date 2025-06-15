@@ -17,3 +17,5 @@
 # Game Mechanics
 - **Dialogue:** A single 'A' press advances to the next dialogue box. 'B' can dismiss dialogue.
 - **Defeated Trainers:** Some defeated trainers act as impassable obstacles.
+
+- **Elevation Rule:** Discovered that direct movement between adjacent 'ground' and 'elevated_ground' tiles is possible. This was the key to escaping the Mt. Moon B1F 'trap'.
