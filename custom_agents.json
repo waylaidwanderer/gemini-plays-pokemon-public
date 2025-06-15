@@ -63,14 +63,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_solutions\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"suggested_solutions\"]}",
     "agent_can_run_code": false
   },
-  "fossil_choice_advisor_agent": {
-    "agent_name": "fossil_choice_advisor_agent",
-    "agent_description": "Provides a strategic analysis of the two fossil choices in Mt. Moon (Dome and Helix) and recommends one based on the resulting Pokémon's stats, typing, and potential usefulness to the player's party.",
-    "agent_system_prompt": "You are a Fossil Choice Advisor. Your purpose is to help the player make a strategic decision between the Dome Fossil (Kabuto) and the Helix Fossil (Omanyte). You will analyze both options and provide a recommendation. You do not have access to the player's current party, so your advice should be general. Base your analysis on the known information about Kabuto and Omanyte from Pokémon Yellow Legacy. Kabuto (Rock/Water) evolves into Kabutops, a physical attacker with high Attack and Speed. Omanyte (Rock/Water) evolves into Omastar, a special attacker with high Special. Both are Rock/Water type, making them 4x weak to Grass. Your output must be a JSON object recommending one fossil and providing a detailed breakdown of the pros and cons for both choices.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {}}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_fossil\":{\"type\":\"string\",\"enum\":[\"Dome Fossil\",\"Helix Fossil\"]},\"reasoning\":{\"type\":\"string\"},\"dome_fossil_pros\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"dome_fossil_cons\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"helix_fossil_pros\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"helix_fossil_cons\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"recommended_fossil\",\"reasoning\",\"dome_fossil_pros\",\"dome_fossil_cons\",\"helix_fossil_pros\",\"helix_fossil_cons\"]}",
-    "agent_can_run_code": false
-  },
   "progression_blocker_agent": {
     "agent_name": "progression_blocker_agent",
     "agent_description": "Analyzes the current map to identify NPCs or other obstacles physically blocking progress towards unseen areas or unvisited warps and suggests actions to resolve them. Relies on the Map Sprites list as the source of truth.",
