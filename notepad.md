@@ -31,3 +31,7 @@
 
 ## 5. Agent Ideas
 *   **NPC Movement Analyzer:** An agent that could take a series of NPC coordinates over several turns to predict their movement pattern. This could be useful for intercepting moving trainers or avoiding obstacles.
+
+## 6. Lessons from Critiques
+*   **Abandon Bugged Objectives:** If an objective or interaction is clearly bugged (e.g., phantom encounters, unbreakable loops), disengage immediately and move to a different area. Do not waste time trying to force a resolution.
+*   **Prioritize Progression:** Do not get hyper-fixated on non-essential optional goals, especially if they become time-consuming or problematic. The primary goal of progressing the story should always take precedence.
