@@ -39,14 +39,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\",\"A\",\"B\"]}}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": false
   },
-  "world_knowledge_manager_agent": {
-    "agent_name": "world_knowledge_manager_agent",
-    "agent_description": "Automates adding the SOURCE node to the World Knowledge Graph after a map transition. Does NOT add destination node or edges.",
-    "agent_system_prompt": "You are a World Knowledge Manager. Your only job is to create a single `manage_world_knowledge` tool call to add the SOURCE node after a map transition. You will receive previous and current map details. Your output must be a single `manage_world_knowledge` tool call inside a `tool_calls` array. The call must have `action: \"add_node\"` and a payload for the source node. Example: `{\"tool_calls\":[{\"tool_name\":\"manage_world_knowledge\",\"tool_args\":[{\"name\":\"action\",\"value\":\"add_node\"},{\"name\":\"payload\",\"value\":\"{\\\"map_id\\\":\\\"PREVIOUS_MAP_ID\\\",\\\"name\\\":\\\"Connection from (X, Y)\\\",\\\"coordinates\\\":{\\\"x\\\":PREVIOUS_X,\\\"y\\\":PREVIOUS_Y},\\\"type\\\":\\\"CONNECTION_TYPE\\\",\\\"tags\\\":[\\\"CONNECTION_TYPE\\\"]}\"}]}]}`. You ONLY output the source node call. Do not add the destination node or any edges.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"previous_map_id\":{\"type\":\"string\"},\"current_map_id\":{\"type\":\"string\"},\"previous_x\":{\"type\":\"integer\"},\"previous_y\":{\"type\":\"integer\"},\"current_x\":{\"type\":\"integer\"},\"current_y\":{\"type\":\"integer\"},\"connection_type\":{\"type\":\"string\",\"enum\":[\"warp\",\"map_edge\"]},\"is_one_way\":{\"type\":\"boolean\"}},\"required\":[\"previous_map_id\",\"current_map_id\",\"previous_x\",\"previous_y\",\"current_x\",\"current_y\",\"connection_type\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"tool_calls\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"tool_name\":{\"type\":\"string\",\"enum\":[\"manage_world_knowledge\"]},\"tool_args\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"value\":{\"type\":\"string\"}},\"required\":[\"name\",\"value\"]}}},\"required\":[\"tool_name\",\"tool_args\"]}}},\"required\":[\"tool_calls\"]}",
-    "agent_can_run_code": false
-  },
   "geodude_battle_agent": {
     "agent_name": "geodude_battle_agent",
     "agent_description": "Automates battles with wild Geodude or Sandshrew. Switches to ODDISH and uses ABSORB. Requires full party data and the active Pokémon's name to select moves correctly.",
