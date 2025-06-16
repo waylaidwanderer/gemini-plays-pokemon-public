@@ -8,39 +8,42 @@
 *   **Level Cap EXP:** Pokémon at the level cap will show an EXP gain message, but their actual EXP value does not increase. This is a visual bug.
 
 ## 2. Battle Intel
-*   **Type Weaknesses (Verified):
+*   **Type Weaknesses (Verified):**
     *   Zubat (Poison/Flying): Weak to Electric, Ice, Psychic, Rock.
     *   Geodude (Rock/Ground): 4x weak to Grass/Water. Immune to Electric.
     *   Sandshrew (Ground): Weak to Water, Grass, Ice. Immune to Electric & Poison status.
     *   Paras (Bug/Grass): 4x weak to Fire/Flying.
-*   **Team Rocket @ Mt. Moon B2F**
+*   **Team Rocket @ Mt. Moon B2F:**
     *   Jessie & James's Team: Ekans (Lv 15), Meowth (Lv 16), Koffing (Lv 15).
     *   Triggered at (4,5) when trying to reach the steps at (4,6).
+*   **Rival BLAZe @ Cerulean City (North):**
+    *   Challenged at (21, 7) after finding the burgled house.
 
-## 3. Navigation Strategy
-*   **Pre-Move Path Check:** Before moving, visually trace the intended path on the map to ensure it is clear of obstacles.
-*   **Ledge Mazes:** When stuck in complex areas with many ledges, use the `ledge_maze_navigator_agent` to find the optimal path to the nearest unseen tile.
-
-## 4. Cerulean Gym - Post-Mortem & New Strategy
+## 3. Cerulean City Gym Strategy
 *   **Failed Attempt 1:** Blacked out against Misty.
-*   **Critical Mistake:** Sent SPROUT (Oddish, Grass/Poison) against Misty's Starmie (Water/Psychic). Starmie's Psychic moves are super-effective against SPROUT.
 *   **Key Intel:** Misty's ace is a Lv 21 Starmie (Water/Psychic). It is very fast and has powerful Psychic attacks (Confusion) and Water attacks (Bubblebeam).
+*   **Critical Mistake:** SPROUT (Oddish, Grass/Poison) is weak to Starmie's Psychic moves.
 *   **New Strategy:**
-    1.  My current party is not strong enough or well-suited to defeat Starmie.
-    2.  I need to find a better counter. The routes north of Cerulean City might have suitable Grass-type Pokémon that are not also Poison-type.
-    3.  Alternatively, I need to grind levels for my existing team, especially SPARKY, to ensure he can out-speed and one-shot Starmie.
+    1.  The current party is not suited to defeat Starmie.
+    2.  After dealing with the situation on the north bridge, explore the routes north of Cerulean City for a suitable counter (e.g., a non-Poison Grass-type or a strong Bug-type).
+    3.  Alternatively, grind levels for SPARKY to ensure he can out-speed and defeat Starmie with Electric attacks.
     4.  Do NOT re-challenge the gym until the team is properly prepared.
 
-## 5. Agent Development Notes
-*   **`party_health_assessor` (Refined):** The logic has been updated to give higher weight to the health of key strategic Pokémon.
-*   **`pathfinder_agent`:** A reliable agent for checking if a manually plotted path is valid. Use this before committing to long, complex movements. Its paths do not account for moving NPCs.
+## 4. Current Objectives & Navigation
+*   **Primary Objective:** Defeat Rival BLAZe on the north bridge.
+*   **Next Objective:** Explore the routes north of Cerulean City.
+*   **Progression Blockers:**
+    *   A Rocket is inside the burgled house at (31, 9). He may need to be dealt with after the rival battle.
 
-## 6. Non-Battling NPCs
-*   Cerulean City Cool Trainer F at (30, 27)
-*   Cerulean City Cool Trainer M at (32, 21)
-*   Cerulean Mart Cool Trainer M at (4, 6) (gives advice)
+## 5. Agent Development & Usage Notes
+*   **`party_health_assessor` (Refined):** Logic updated to prioritize health of key strategic Pokémon.
+*   **`pathfinder_agent`:** Reliable for checking path validity. Does not account for moving NPCs.
+*   **`ledge_maze_navigator_agent`:** Use when stuck in complex ledge areas.
+*   **`battle_action_advisor` (New):** Designed to give real-time advice during battles.
 
-## 7. Current Strategy: Cerulean City
-*   **Objective:** Find the 'burgled house' in the northeast to unblock the path north.
-*   **Key Hint:** There is a 'narrow, hidden passage'.
-*   **Plan:** Systematically explore the alleys and gaps in the northern section of the city to find this passage. I will rely on my `pathfinder_agent` for all navigation to avoid getting lost.
+## 6. Misc. Discoveries
+*   **Non-Battling NPCs:**
+    *   Cerulean City Cool Trainer F at (30, 27)
+    *   Cerulean City Cool Trainer M at (32, 21)
+    *   Cerulean Mart Cool Trainer M at (4, 6) (gives advice)
+*   **Sleeping Electrode:** An object that looks like a Poké Ball at (29, 27) is described as a sleeping Electrode. Interaction currently does nothing.
