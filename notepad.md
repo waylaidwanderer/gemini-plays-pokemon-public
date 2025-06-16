@@ -54,3 +54,5 @@
 
 ## 8. Pokémon-Specific Notes & Discoveries
 *   **PARCH (Sandshrew):** Verified to be a NORMAL type in this ROM hack, not Ground. This completely changes its matchups and resistances.
+
+*   **Jr. Trainer @ Route 24 (6, 21):** Battling his team, which includes a Lv 15 Diglett and a Lv 15 Psyduck.
