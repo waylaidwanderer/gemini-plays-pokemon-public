@@ -23,5 +23,5 @@
 ## Mt. Moon B2F - Team Rocket Encounter
 *   Jessie & James battle.
 *   Jessie's Team: Ekans (Lv 15), Meowth (Lv 16).
-*   James's Team: Unknown (likely Koffing).
+*   James's Team: Koffing (Lv 15).
 *   Triggered at (4,5) when trying to reach the steps at (4,6).
