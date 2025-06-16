@@ -36,3 +36,5 @@
 - **LESSON 14:** Prioritize direct game state information and personal observation over external guides or preconceived notions. The Super Nerd at Mt. Moon 1F (25, 32) was a non-battling NPC, despite my assumption he was a mandatory fight.
 
 - **LESSON 15:** The elevated platform in the eastern part of Mt. Moon B2F, accessed via the steps at (29,8), is a confirmed dead end. The path forward is not there.
+
+- **LESSON 15:** The elevated platform in the eastern part of Mt. Moon B2F, accessed via the steps at (29,8), is a confirmed dead end. The path forward is not there.
