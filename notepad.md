@@ -28,7 +28,7 @@
 - **LESSON 9:** My navigation in Mt. Moon has been extremely inefficient due to a failure to understand and respect elevation changes. I must mentally check agent paths for invalid elevation transitions before moving.
 - **LESSON 10:** My World Knowledge Graph management is a critical weakness. I must be diligent in adding nodes AND edges for every single map transition to maintain data integrity.
 - **LESSON 11:** I have been fixating on incorrect hypotheses for too long. I need to abandon failing strategies much faster and be more flexible in my approach.
-- **LESSON 12:** The ladder at B1F(26,10) leads UP to 1F. The ladder at B1F(18,12) leads DOWN to the B2F eastern dead-end loop. Do not use the B1F(18,12) ladder.
+- **LESSON 12 (CORRECTED):** The ladder at Mt. Moon B1F (18, 12) is the CORRECT path down to the main area of B2F. My previous note was factually incorrect and caused significant delays.
 - **LESSON 13:** The `pathfinding_agent` is only reliable if its prompt is extremely specific. It must be explicitly told to treat all `<Object>` tags (except Pikachu) as walls and to respect elevation rules (`ground` vs `elevated_ground` requires `steps`).
 - **LESSON 14:** Prioritize direct game state information and personal observation over external guides or preconceived notions.
 - **LESSON 15:** The elevated platform in the eastern part of Mt. Moon B2F, accessed via the steps at (29,8), is a confirmed dead end.
