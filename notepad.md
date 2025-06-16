@@ -46,3 +46,5 @@
 *   **Cerulean City Cool Trainer M @ (32, 21)**
 *   **Cerulean Mart Cool Trainer M @ (4, 6)** (gives advice)
 *   **Route 24 Cool Trainer M @ (7, 6)** (taunts about Charmander)
+
+*   **Route 25 Hiker @ (14, 8):** Non-battling. Only provides a tip about a shortcut to Cerulean City.
