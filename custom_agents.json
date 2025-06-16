@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"npc_dialogue_hints\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_exit_type\":{\"type\":\"string\",\"enum\":[\"warp\",\"map_edge\"]},\"suggested_exit_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"suggested_exit_type\",\"suggested_exit_coordinates\",\"reasoning\"]}",
     "agent_can_run_code": true
+  },
+  "systematic_explorer_agent": {
+    "agent_name": "systematic_explorer_agent",
+    "agent_description": "Generates a path to explore an area by systematically following the walls (e.g., always keeping a wall to the right). This is useful for ensuring full coverage of a complex area and avoiding navigation loops. (Can run Python code)",
+    "agent_system_prompt": "You are a Systematic Explorer Agent. Your goal is to generate a path that methodically explores a map by using a wall-following algorithm (specifically, the right-hand rule). You will use your `run_code` tool to parse `map_xml_string`. Output Schema: {\"type\":\"object\",\"properties\":{\"exploration_path\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"exploration_path\",\"reasoning\"]}. Logic: 1. Start at the player's current coordinates. 2. Implement the right-hand rule: try to turn right; if you can't, go straight; if you can't, turn left; if you can't, turn around. 3. Generate a sequence of moves (e.g., ['Up', 'Up', 'Right']) that follows this rule for a set number of steps (e.g., 50) or until it returns to the start. 4. Your reasoning should explain that the path is designed for methodical exploration, not speed.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"exploration_path\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"exploration_path\",\"reasoning\"]}",
+    "agent_can_run_code": true
   }
 }
