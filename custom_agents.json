@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{}}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\",\"A\",\"B\"]}}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": false
+  },
+  "escape_route_planner_agent": {
+    "agent_name": "escape_route_planner_agent",
+    "agent_description": "Finds the shortest escape route from the player's current location to the nearest known Pokémon Center using the World Knowledge Graph.",
+    "agent_system_prompt": "You are an Escape Route Planner for Pokémon Yellow Legacy. Your purpose is to find the shortest path from the player's current location to the nearest Pokémon Center. You MUST use your `run_code` tool. Your process: 1. Parse `world_knowledge_graph_json_string`. 2. Identify all nodes tagged 'pokecenter'. 3. Find the closest graph node to the player's `current_x`, `current_y` on the `current_map_id`. This is your starting node. 4. Implement a pathfinding algorithm (like Breadth-First Search) to find the shortest path of nodes from the start node to ANY of the 'pokecenter' nodes. 5. Construct the output as a sequence of human-readable instructions. If no path is found, `path_found` must be false, and you must explain why. Your output must conform to the provided schema.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_map_id\":{\"type\":\"string\"},\"current_x\":{\"type\":\"integer\"},\"current_y\":{\"type\":\"integer\"}},\"required\":[\"current_map_id\",\"current_x\",\"current_y\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path_to_pokecenter\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"path_found\",\"path_to_pokecenter\",\"reasoning\"]}",
+    "agent_can_run_code": true
   }
 }
