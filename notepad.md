@@ -1,25 +1,22 @@
 # Game & Battle Mechanics
-- **Defeated Trainers:** Act as impassable obstacles.
-- **Confusion:** Wears off after battle.
-- **Move Selection:** The in-battle move list is a vertical menu navigated with **Up/Down ONLY**.
+- Defeated Trainers are impassable obstacles.
+- Confusion wears off after battle.
+- In-battle move list is a vertical menu (Up/Down only).
 
 # Battle Notes
 - Grass is 4x effective vs. Rock/Ground (Geodude).
+- SPARKY's THUNDERSHOCK is out of PP.
 
 # Agent & Tool Notes
-- **world_knowledge_manager_agent:** Agent has been updated to correctly add nodes after a map transition. It does not add edges, which must be done manually after the node IDs are generated.
-- **geodude_battle_agent:** Fully reliable for Geodude/Sandshrew encounters.
-- **battle_escape_agent:** Works perfectly. Use to flee non-essential wild battles.
-- **dungeon_pathfinder_agent:** **UNRELIABLE** on complex maps like Mt. Moon B2F. It has provided multiple incorrect paths. Do not use on this map.
+- **world_knowledge_manager_agent:** Unreliable. Redefined to ONLY add the source node. Destination node and edge must be added manually.
+- **geodude_battle_agent:** Reliable for Geodude/Sandshrew encounters.
+- **battle_escape_agent:** Reliable for fleeing.
+- **dungeon_pathfinder_agent:** Unreliable on complex maps (Mt. Moon B2F), but may work on simpler ones (Mt. Moon B1F).
 
 # Mt. Moon Navigation
-- **Goal:** Find the Super Nerd with the fossils to exit to Route 4.
-- The path forward is on the main ground level, not the isolated side platforms.
+- **Goal:** Find Super Nerd with fossils to exit to Route 4.
+- The western ladder system on 1F leads to a large, looping dead-end area. The main path is in the eastern section of the cave.
 
 # Strategic Principles
-- **Principle 1: Don't Trust Faulty Tools.** If an agent or tool repeatedly fails, abandon it and switch to a manual, systematic approach.
-- **Principle 2: Explore Systematically.** Clear main paths before exploring side areas. The simplest path is often correct.
-- **Principle 3: Adapt Quickly.** Do not fixate on incorrect hypotheses or repeat failed actions.
-
-# PP Management
-- SPARKY is out of THUNDERSHOCK PP. Must use THUNDERPUNCH in battle.
+- Adapt quickly; don't repeat failed actions or trust faulty tools.
+- Explore systematically. The simplest path is often correct.
