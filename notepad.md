@@ -32,3 +32,6 @@
 ## 5. Lessons from Critiques
 *   **Abandon Failing Objectives:** If an objective (especially an optional one) is clearly bugged or proves unproductive after a few well-documented attempts, disengage immediately. Do not waste time in loops. The primary goal of progression is paramount.
 *   **Systematic Navigation:** When navigating complex dungeons, avoid trying to force shortcuts. Adopt a methodical exploration pattern (like wall-following) to prevent getting lost in loops.
+
+## Custom Agent Log (Update)
+*   **systematic_explorer_agent Failure (Mt. Moon B1F):** Attempted to use the agent to explore B1F. The generated path was invalid, attempting to move into an impassable wall at (19, 26) from (19, 27). The agent's traversal logic is flawed and cannot be trusted in this dungeon. Will proceed with manual exploration.
