@@ -10,7 +10,7 @@
 - Flying is 4x effective vs. Bug/Grass (Paras).
 
 # Agent & Tool Notes
-- The `pathfinding_agent` is currently unreliable and must be refined before use. (LESSON 13)
+- **LESSON 13 (REVISED):** The `pathfinding_agent` was unreliable because its initial logic failed to account for two critical obstacle types: 1) impassable `<Object>` tags (NPCs, items) and 2) elevation changes (`ground` vs. `elevated_ground` without `steps`). The prompt was refined to explicitly treat all objects (except Pikachu) as walls and to respect elevation rules, making it reliable for navigation.
 - The `healing_spot_finder_agent` is reliable for multi-map pathfinding to Pokémon Centers.
 - The `battle_switch_agent` is reliable for calculating switch sequences.
 - The `exploration_planner_agent` has proven unreliable and needs refinement before use.
