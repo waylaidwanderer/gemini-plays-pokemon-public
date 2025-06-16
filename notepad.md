@@ -29,3 +29,5 @@
 
 # Evolution Plans
 - **SPIKE (Nidoran♂):** Evolve at Lv. 16 for early power spike (Nidoking). Misses Thrash, but has great TM potential.
+
+- LESSON 4: If a path quickly seems to be a dead end, backtrack immediately and check for alternative entrances on the previous map. Some paths are intentionally misleading loops.
