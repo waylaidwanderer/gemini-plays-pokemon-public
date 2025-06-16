@@ -47,3 +47,10 @@
     *   Cerulean City Cool Trainer M at (32, 21)
     *   Cerulean Mart Cool Trainer M at (4, 6) (gives advice)
 *   **Sleeping Electrode:** An object that looks like a Poké Ball at (29, 27) is described as a sleeping Electrode. Interaction currently does nothing.
+
+## 6. Cerulean City Navigation (Hypothesis Log)
+*   **Hypothesis 1:** Pathfind directly to the Rocket. **Result:** FAILED. Blocked by buildings and cuttable trees.
+*   **Hypothesis 2:** Use the hidden passage behind the houses. **Result:** FAILED. It's a dead end and doesn't lead to the burgled house area.
+*   **Hypothesis 3:** Interacting with the sleeping Electrode at (29, 27) is a story trigger. **Result:** FAILED (2 attempts). Electrode just snoozes.
+*   **Current Realization:** The northern bridge area seems to be a one-way trip down to the southern city area via ledges. It's impossible to walk back up directly.
+*   **New Hypothesis (4):** The path forward is to exit west to Route 4 and find a path that loops around to the northern routes (Route 24/25).
