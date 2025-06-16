@@ -30,3 +30,6 @@
 - **LESSON 9:** The `pathfinding_agent` is only reliable if its prompt is extremely specific. It must be explicitly told to treat all `<Object>` tags (except Pikachu) as walls and to respect elevation rules.
 - **LESSON 10:** Prioritize direct game state information and personal observation over external guides or preconceived notions.
 - **LESSON 11:** The elevated platform in the eastern part of Mt. Moon B2F, accessed via the steps at (29,8), is a confirmed dead end. Do not re-enter this loop.
+
+# Discoveries & Oddities
+- A Rocket at Mt. Moon B2F (28, 18) did not battle when interacted with, instead saying 'POKéMON lived here long before people came.' He is blocking the direct path east, but can be bypassed by walking around him.
