@@ -17,6 +17,7 @@
 # Agent & Tool Notes
 - **world_knowledge_manager_agent:** Agent is currently non-functional. **TOP PRIORITY:** Debug and fix this agent to ensure the World Knowledge Graph is kept up-to-date automatically.
 - **geodude_battle_agent:** Automates battles with wild Geodude or Sandshrew. Switches to NIGHTSHADE and uses ABSORB. Logic is now fully corrected for active Pokémon and vertical move selection.
+- **dungeon_pathfinder_agent:** This agent is reliable for single-map navigation and should be used to avoid manual navigation errors in complex areas.
 - **Principle 4: Trust Your Markers.** Avoid re-interacting with NPCs or re-exploring areas already marked as complete or non-essential.
 
 # Mt. Moon Navigation - CORRECTED
