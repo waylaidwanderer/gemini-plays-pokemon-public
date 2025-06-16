@@ -26,3 +26,7 @@
 *   **Systematic Navigation:** When navigating complex dungeons, adopt a methodical exploration pattern (like wall-following) to prevent getting lost. Avoid forcing shortcuts.
 *   **Map Awareness:** Before setting a navigation goal in a complex, multi-level area, carefully trace the path on the map to confirm it's a contiguous, reachable area. Do not make assumptions about connectivity between isolated sections.
 *   **Commit to Exploration:** When arriving in a new, unexplored map area, explore it thoroughly before backtracking.
+
+## 5. Navigation Strategy
+*   **Dungeon Navigation:** When in complex dungeons like Mt. Moon, I will adopt a systematic wall-following approach (e.g., always keeping the wall to my left) to ensure all paths are explored and I don't get lost in loops.
+*   **Verified Blockers:** The Rocket Grunt at Mt. Moon B2F (16, 23) remains an impassable obstacle even after being defeated.
