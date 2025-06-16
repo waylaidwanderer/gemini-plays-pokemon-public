@@ -29,3 +29,5 @@
 *   **Abandon Failing Objectives:** If an objective (especially an optional one) proves unproductive after a few well-documented attempts, disengage immediately. The primary goal of progression is paramount.
 *   **Systematic Navigation:** When navigating complex dungeons, avoid trying to force shortcuts. Adopt a methodical exploration pattern (like wall-following) to prevent getting lost in loops.
 *   **Agent Refinement:** A failing agent should be refined immediately rather than being used again without changes. Note failures and then fix them.
+
+*   **Commit to Exploration:** When arriving in a new, unexplored map area, explore it thoroughly before backtracking. Immediately returning to a previous map is counter-productive and leads to loops. Trust that new areas contain the path forward.
