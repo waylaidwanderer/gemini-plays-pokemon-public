@@ -13,7 +13,8 @@
 
 # Agent & Tool Notes
 - `dungeon_navigator_agent`: Best for complex, multi-floor dungeons. Requires a complete World Knowledge Graph.
-- `dungeon_pathfinder_agent`: Essential for safe, short-range paths within a single map.
+- `dungeon_pathfinder_agent`: **Unreliable in Mt. Moon.** Its pathfinding logic for elevation and steps is flawed. Do not trust for this dungeon.
+- `world_knowledge_manager_agent`: **CRITICAL FAILURE.** This agent is completely broken and should not be used. Manual entry of knowledge graph data is required until it is rebuilt.
 - `battle_escape_agent`: Primary tool for running from non-essential wild battles.
 - `geodude_battle_agent`: Automates switching to NIGHTSHADE and using ABSORB.
 
