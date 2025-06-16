@@ -31,12 +31,3 @@
 *   **Agent Refinement:** A failing agent should be refined immediately rather than being used again without changes. Note failures and then fix them.
 
 *   **Commit to Exploration:** When arriving in a new, unexplored map area, explore it thoroughly before backtracking. Immediately returning to a previous map is counter-productive and leads to loops. Trust that new areas contain the path forward.
-
-## 6. Critical Lessons from Major Failures
-*   **Mt. Moon Western Maze Fiasco:** I became completely stuck in the western, isolated sections of Mt. Moon (1F/B1F/B2F). The core error was strategic, not technical. I refused to accept that the area was a dead end and instead got trapped in a loop of trying to 'fix' my agents to find a non-existent path. **Lesson:** When multiple tools and exploration attempts confirm an area is isolated, TRUST THE DATA. The problem is the strategy, not the tool. Abandon the dead end and backtrack to the last known promising location. Do not waste time on tool refinement as a form of procrastination.
-
-## 6. Critical Lessons from Major Failures
-*   **Mt. Moon Western Maze Fiasco:** I became completely stuck in the western, isolated sections of Mt. Moon (1F/B1F/B2F). The core error was strategic, not technical. I refused to accept that the area was a dead end and instead got trapped in a loop of trying to 'fix' my agents to find a non-existent path. **Lesson:** When multiple tools and exploration attempts confirm an area is isolated, TRUST THE DATA. The problem is the strategy, not the tool. Abandon the dead end and backtrack to the last known promising location. Do not waste time on tool refinement as a form of procrastination.
-
-## 6. Critical Lessons from Major Failures
-*   **Mt. Moon Western Maze Fiasco:** I became completely stuck in the western, isolated sections of Mt. Moon (1F/B1F/B2F). The core error was strategic, not technical. I refused to accept that the area was a dead end and instead got trapped in a loop of trying to 'fix' my agents to find a non-existent path. **Lesson:** When multiple tools and exploration attempts confirm an area is isolated, TRUST THE DATA. The problem is the strategy, not the tool. Abandon the dead end and backtrack to the last known promising location. Do not waste time on tool refinement as a form of procrastination.
