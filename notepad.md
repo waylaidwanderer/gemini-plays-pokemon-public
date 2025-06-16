@@ -7,10 +7,11 @@
 - **Lesson from Mt. Moon:** Panicked navigation leads to repeated dead ends and wasted resources. Must be more systematic, trust my own notes (e.g., 'main path is east'), and carefully check the map for impassable terrain like elevated ground before moving.
 
 # Battle Notes
-- SPARKY's THUNDERSHOCK is out of PP.
+- No current battle notes.
 
 # Agent & Tool Notes
-- **world_knowledge_manager_agent:** Unreliable. Redefined to ONLY add the source node. Destination node and edge must be added manually.
+- **PRIORITY TASK:** Refine `pathfinding_agent`. It's unreliable even on simple maps.
+- **PRIORITY TASK:** Refine `world_knowledge_manager_agent`. It should be able to handle adding both nodes and the edge in a single, reliable operation.
 - **geodude_battle_agent:** Reliable for Geodude/Sandshrew encounters.
 - **battle_escape_agent:** Reliable for fleeing.
 - **dungeon_pathfinder_agent:** Unreliable on complex maps (Mt. Moon B2F), but may work on simpler ones (Mt. Moon B1F).
