@@ -30,3 +30,9 @@
 ## 5. Navigation Strategy
 *   **Dungeon Navigation:** When in complex dungeons like Mt. Moon, I will adopt a systematic wall-following approach (e.g., always keeping the wall to my left) to ensure all paths are explored and I don't get lost in loops.
 *   **Verified Blockers:** The Rocket Grunt at Mt. Moon B2F (16, 23) remains an impassable obstacle even after being defeated.
+
+## 6. Lessons from Critique (Turn 7891)
+*   **Commit to a Strategy:** I must either follow my `dungeon_navigator_agent`'s path *exactly* or use a manual wall-following method. No more ineffective hybrid approaches.
+*   **Pre-Move Path Check:** Before moving, I will trace the next 5-10 steps on the map to ensure the path is clear and avoid walking into obvious obstacles.
+*   **Trust My Tools:** If an agent provides a path, I must follow it. If it's flawed, I must refine the agent, not revert to failed manual navigation.
+*   **Avoid Minor Loops:** I will not get stuck in small, explored areas when the `Reachable Unseen Tiles` list shows large unexplored areas are accessible.
