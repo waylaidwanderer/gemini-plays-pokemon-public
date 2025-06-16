@@ -16,7 +16,8 @@
 
 # Agent & Tool Notes
 - **world_knowledge_manager_agent:** Agent is currently non-functional. **TOP PRIORITY:** Debug and fix this agent to ensure the World Knowledge Graph is kept up-to-date automatically.
-- **geodude_battle_agent:** Automates battles with wild Geodude. Switches to NIGHTSHADE and uses ABSORB. Logic has been corrected for vertical move selection.
+- **geodude_battle_agent:** Automates battles with wild Geodude or Sandshrew. Switches to NIGHTSHADE and uses ABSORB. Logic is now fully corrected for active Pokémon and vertical move selection.
+- **Principle 4: Trust Your Markers.** Avoid re-interacting with NPCs or re-exploring areas already marked as complete or non-essential.
 
 # Mt. Moon Navigation - CORRECTED
 - **Goal:** Find the Super Nerd with the fossils to exit to Route 4.
