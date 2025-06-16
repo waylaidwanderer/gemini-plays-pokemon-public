@@ -24,3 +24,9 @@
 *   **Systematic Exploration:** When exploring manually, adopt a methodical pattern (e.g., wall-following) to ensure complete coverage and avoid loops.
 *   **Agent Usage:** Agent outputs must be critically evaluated against the game state. If an agent proves unreliable, it must be refined or abandoned. Do not blindly trust a faulty tool.
 *   **Verified Blockers:** The Rocket Grunt at Mt. Moon B2F (16, 23) is an impassable obstacle even after being defeated. Not all defeated trainers are blockers.
+
+## 4. To-Do & Reminders
+*   Log the warp connection for Melanie's House in Cerulean City (14, 16). The agent call failed.
+
+## 5. Navigation Strategy (Updates)
+*   **NPC Blockers:** If a moving NPC repeatedly blocks a critical path, use the `stun_npc` tool to freeze them instead of wasting turns trying to maneuver around them.
