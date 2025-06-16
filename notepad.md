@@ -42,3 +42,8 @@
 
 ## 7. Current Walkthrough Hint
 *   The path north of Cerulean City is blocked by a police officer. To remove him, I must resolve the situation at the 'burgled house' in the northeast of the city.
+
+## 8. Strategic Correction (Cerulean City)
+*   **My Navigation Failure:** My manual navigation and over-reliance on a flawed `pathfinder_agent` led me to incorrectly conclude the city was physically split. This was wrong.
+*   **Source of Truth:** The `Reachable Unseen Tiles` list from the game state is the ultimate truth. If it says a path exists, one does, even if my agent fails to find it.
+*   **New Strategy:** I must return to my original lead: the 'burgled house' in the northeast. I will systematically explore the northern part of the city on foot to find the 'narrow, hidden passage' mentioned in the hint, instead of relying on single, long-distance pathfinding queries.
