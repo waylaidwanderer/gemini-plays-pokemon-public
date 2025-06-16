@@ -22,7 +22,15 @@
 *   **Ledge Mazes:** When stuck in complex areas with many ledges, use the `ledge_maze_navigator_agent` to find the optimal path to the nearest unseen tile.
 *   **Agent Usage:** Rely on agents for complex navigation (dungeons, ledges) to save time and avoid manual errors. Disengage from unproductive tasks (like chasing non-essential NPCs) quickly.
 
-## 4. Current Objective: Conquer Cerulean Gym
-*   **Primary Goal:** Defeat Misty and earn the Cascade Badge.
-*   **Strategy:** Systematically defeat each gym trainer, using SPARKY's THUNDERPUNCH for a type advantage against Water Pokémon. After clearing the trainers, challenge Misty.
-*   **Immediate Goal:** Defeat the first Swimmer to clear the path.
+## 4. Cerulean Gym - Post-Mortem & New Strategy
+*   **Failed Attempt 1:** Blacked out against Misty.
+*   **Critical Mistake:** Sent SPROUT (Oddish, Grass/Poison) against Misty's Starmie (Water/Psychic). Starmie's Psychic moves are 4x super-effective against SPROUT. This was a fatal error.
+*   **Key Intel:** Misty's ace is a Lv 21 Starmie (Water/Psychic). It is very fast and has powerful Psychic attacks (Confusion) and Water attacks (Bubblebeam).
+*   **New Strategy:**
+    1.  My current party is not strong enough or well-suited to defeat Starmie.
+    2.  I need to find a better counter. The routes north of Cerulean City might have suitable Grass-type Pokémon that are not also Poison-type.
+    3.  Alternatively, I need to grind levels for my existing team, especially SPARKY, to ensure he can out-speed and one-shot Starmie.
+    4.  Do NOT re-challenge the gym until the team is properly prepared.
+
+## 5. Agent Development Notes
+*   **`party_health_assessor`:** The logic is flawed. It rated my party 'HEALTHY' when my key counter (SPARKY) was at 50% HP. The agent needs to be updated to weigh strategically important Pokémon more heavily.
