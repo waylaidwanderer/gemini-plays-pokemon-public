@@ -18,10 +18,8 @@
     *   Paras (Bug/Grass): 4x weak to Fire/Flying.
 
 ## 3. Agent Development & Known Issues
-*   **pathfinding_agent:** Catastrophically broken. Multiple attempts to fix it have failed, producing missing content or invalid JSON errors. It cannot be trusted for navigation in its current state. Requires a full teardown and rebuild. (Failed 4 times as of turn 7748).
-*   **systematic_explorer_agent:** Traversal logic is flawed in Mt. Moon and cannot be trusted. It has failed by generating paths into impassable walls. (Failed 1 time as of turn 7661).
 *   **npc_movement_predictor_agent:** Created to predict movement of mobile NPCs. Status: Untested.
-*   **wkg_transition_recorder_agent:** Functional, but needs to be paired with a WKG query to prevent adding duplicate edges.
+*   **wkg_transition_recorder_agent:** Functional, but needs a WKG query to prevent adding duplicate edges. I should prioritize refining this.
 
 ## 4. Lessons from Critiques
 *   **Abandon Failing Tools & Objectives:** If a tool (like an agent) or an objective proves unproductive after a few documented attempts, disengage immediately. Do not get stuck in a debugging or failure loop. Pivot to a manual backup plan or a different objective.
