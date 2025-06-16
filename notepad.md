@@ -2,8 +2,7 @@
 
 ## 1. Game Mechanics & Lessons Learned
 *   **Source of Truth:** The `Map Sprites` list is the definitive source for interactable items.
-*   **NPC Interaction:** Repeatedly talking to an NPC with static dialogue is a waste of time.
-*   **Dialogue Advancement:** Some key events are triggered by advancing through ALL of an NPC's dialogue.
+*   **NPC Interaction:** Repeatedly talking to an NPC with static dialogue is a waste of time. Some key events are triggered by advancing through ALL of an NPC's dialogue.
 *   **Poison Damage:** Poisoned Pokémon lose 1 HP every four steps.
 *   **Warp Mechanics:** It's possible to move between 'ground' and 'elevated_ground' tiles if one of the tiles is a warp.
 *   **Mobile NPCs:** For evasive NPCs that move around, use the `stun_npc` tool to freeze them in place before attempting to interact or battle. Chasing them is inefficient.
@@ -24,13 +23,12 @@
 *   Defeated trainers, like the Rocket Grunt at (16, 23), remain as impassable obstacles.
 
 ### Route 4 (ID: 15)
-*   The Cool Trainer F is extremely mobile and difficult to engage in battle by simply chasing her.
+*   The Cool Trainer F is extremely mobile and difficult to engage. Attempting to battle her near (7, 6) or (8, 5) can trigger a bugged phantom encounter.
 
-## 4. Agent Notes
+## 4. Custom Agent Log
 *   **Pathfinding Agent Failure:** The `pathfinding_agent` is unreliable in complex, multi-level dungeons like Mt. Moon. Its pathing logic does not handle verticality (multiple floors) well and can lead to inefficient routes or loops. Manual navigation or the `dungeon_navigator_agent` should be used instead in these areas.
-
-## 5. My Custom Agents
 *   **npc_movement_predictor_agent:** Created to predict the movement patterns of mobile NPCs, helping to intercept them for battles or interactions.
 
-## 6. Lessons from Critiques
+## 5. Lessons from Critiques
 *   **Abandon Failing Objectives:** If an objective (especially an optional one) is clearly bugged or proves unproductive after a few well-documented attempts, disengage immediately. Do not waste time in loops. The primary goal of progression is paramount.
+*   **Systematic Navigation:** When navigating complex dungeons, avoid trying to force shortcuts. Adopt a methodical exploration pattern (like wall-following) to prevent getting lost in loops.
