@@ -26,3 +26,6 @@
 
 - The new `pathfinding_agent` is designed for simple, reliable pathfinding on the current map.
 - The `healing_spot_finder_agent` has proven reliable for multi-map pathfinding to Pokémon Centers.
+
+# Evolution Plans
+- **SPIKE (Nidoran♂):** Evolve at Lv. 16 for early power spike (Nidoking). Misses Thrash, but has great TM potential.
