@@ -33,11 +33,5 @@
 - **LESSON 10:** My World Knowledge Graph management is a critical weakness. I must be diligent in adding nodes AND edges for every single map transition to maintain data integrity. The new `world_knowledge_manager_agent` should help with this.
 - **LESSON 11:** I have been fixating on incorrect hypotheses for too long. I need to abandon failing strategies much faster and be more flexible in my approach.
 
-# Mt. Moon Navigation Log
-- **Ladder at B1F (18, 12):** This ladder is proving difficult. Failed attempts to activate:
-  - `Down` button: 3 times (blocked).
-  - `A` button: 1 time (no effect).
-- **New Hypothesis:** The warp might be triggered by moving into the impassable boundary *above* the ladder (pressing 'Up'). Testing this next.
-
 # Mt. Moon Navigation Log (Corrected)
 - **LESSON 12:** The ladder at B1F(26,10) leads UP to 1F. The ladder at B1F(18,12) leads DOWN to B2F(26,10). Taking the B2F(26,10) ladder back up results in an immediate, one-way warp back to B1F(18,12). The entire eastern section of B2F is a confirmed dead-end loop. Do not enter again.
