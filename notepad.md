@@ -47,3 +47,7 @@
 
 ## 7. Major Corrections & Lessons Learned
 *   **WKG Tool Workflow:** To add a new connection, I must: 1. Check if nodes exist. 2. Create missing nodes and get their IDs. 3. Create the edge using the final IDs. Do not try to do it all at once with placeholders.
+
+### Unique Battle Mechanics Observed
+*   **Mankey @ Nugget Bridge:** A Lv 18 Mankey's Low Kick move caused my Pokémon to flinch, preventing my move. This happened twice in a row. This might be a property of the move, the Pokémon, or a specific trainer's Pokémon.
+*   **Stun Spore Failure:** My SPROUT's Stun Spore failed against the same Mankey with the message "It didn't affect Enemy MANKEY!". This suggests a possible immunity to powder moves for either Mankey's species or Fighting-types in this ROM hack.
