@@ -31,5 +31,5 @@
 - **LESSON 10:** My World Knowledge Graph management is a critical weakness. I must be diligent in adding nodes AND edges for every single map transition to maintain data integrity. The `world_knowledge_manager_agent` should help with this.
 - **LESSON 11:** I have been fixating on incorrect hypotheses for too long. I need to abandon failing strategies much faster and be more flexible in my approach.
 - **LESSON 12:** The ladder at B1F(26,10) leads UP to 1F. The ladder at B1F(18,12) leads DOWN to B2F(26,10). Taking the B2F(26,10) ladder back up results in an immediate, one-way warp back to B1F(18,12). The entire eastern section of B2F is a confirmed dead-end loop. Do not enter again.
-- **LESSON 13:** The `pathfinding_agent` has become unreliable, failing repeatedly. I must switch to manual path planning until I can successfully refine it. Do not rely on it.
+- **LESSON 13:** The `pathfinding_agent` is critically flawed and unreliable, likely ignoring elevation changes. I must refine it immediately to restore efficient navigation. Manual pathing is a temporary, inefficient workaround.
 - **LESSON 14:** Prioritize direct game state information and personal observation over external guides or preconceived notions. The Super Nerd at Mt. Moon 1F (25, 32) was a non-battling NPC, despite my assumption he was a mandatory fight.
