@@ -15,9 +15,8 @@
 - **SPIKE (Nidoran♂):** Evolve at Lv. 16 for an early power spike with Nidoking.
 
 # Agent & Tool Notes
-- **dungeon_pathfinder_agent:** Unreliable in Mt. Moon due to flawed elevation/step logic. Do not trust for this dungeon.
-- **world_knowledge_manager_agent:** CRITICAL FAILURE. This agent is completely broken and must not be used.
-- **geodude_battle_agent:** Automates switching to NIGHTSHADE and using ABSORB. Logic has been corrected for vertical move selection.
+- **world_knowledge_manager_agent:** Agent is currently non-functional. **TOP PRIORITY:** Debug and fix this agent to ensure the World Knowledge Graph is kept up-to-date automatically.
+- **geodude_battle_agent:** Automates battles with wild Geodude. Switches to NIGHTSHADE and uses ABSORB. Logic has been corrected for vertical move selection.
 
 # Mt. Moon Navigation - CORRECTED
 - **Goal:** Find the Super Nerd with the fossils to exit to Route 4.
