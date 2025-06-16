@@ -22,7 +22,7 @@
 *   **Ledge Mazes:** When stuck in complex areas with many ledges, use the `ledge_maze_navigator_agent` to find the optimal path to the nearest unseen tile.
 *   **Agent Usage:** Rely on agents for complex navigation (dungeons, ledges) to save time and avoid manual errors. Disengage from unproductive tasks (like chasing non-essential NPCs) quickly.
 
-## 4. Current Exploration Plan: Cerulean City & Beyond
-*   **Primary Objective:** Find a way to access the Cerulean Gym.
-*   **Current Hypothesis:** The northern exit of Cerulean City is the key to progression. This path is expected to lead to a rival battle and subsequently unlock the path to the Gym.
-*   **Immediate Goal:** Explore the northern route out of Cerulean City.
+## 4. Current Objective: Conquer Cerulean Gym
+*   **Primary Goal:** Defeat Misty and earn the Cascade Badge.
+*   **Strategy:** Systematically defeat each gym trainer, using SPARKY's THUNDERPUNCH for a type advantage against Water Pokémon. After clearing the trainers, challenge Misty.
+*   **Immediate Goal:** Defeat the first Swimmer to clear the path.
