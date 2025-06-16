@@ -20,11 +20,9 @@
 ## 3. Navigation Strategy
 *   **Pre-Move Path Check:** Before moving, visually trace the intended path on the map to ensure it is clear of obstacles.
 *   **Ledge Mazes:** When stuck in complex areas with many ledges, use the `ledge_maze_navigator_agent` to find the optimal path to the nearest unseen tile.
-*   **NPC Blockers:** If a moving NPC repeatedly blocks a critical path, use the `stun_npc` tool to freeze them instead of wasting turns trying to maneuver around them.
-*   **Agent Usage:** Rely on agents for complex navigation (dungeons, ledges) to save time and avoid manual errors.
+*   **Agent Usage:** Rely on agents for complex navigation (dungeons, ledges) to save time and avoid manual errors. Disengage from unproductive tasks (like chasing non-essential NPCs) quickly.
 
-## 4. Current Exploration Plan: Cerulean City
-*   Explore the western part of the city, starting with the house at (6, 22).
-*   Investigate the house at (5, 13) to see if it's truly inaccessible.
-*   Check the northern exit of the city to confirm why it's blocked.
-*   Talk to all wandering Super Nerds.
+## 4. Current Exploration Plan: Cerulean City & Beyond
+*   **Primary Objective:** Find a way to access the Cerulean Gym.
+*   **Current Hypothesis:** The northern exit of Cerulean City is the key to progression. This path is expected to lead to a rival battle and subsequently unlock the path to the Gym.
+*   **Immediate Goal:** Explore the northern route out of Cerulean City.
