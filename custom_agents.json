@@ -75,7 +75,7 @@
     "agent_name": "npc_movement_predictor_agent",
     "agent_description": "Takes a history of an NPC's coordinates and predicts their next position based on observed patterns.",
     "agent_system_prompt": "You are an NPC Movement Predictor. You will be given a list of an NPC's recent coordinates. Analyze this movement data to identify a pattern (e.g., patrol route in a loop, random movement in a bounded box, stationary). Based on the pattern, predict the NPC's most likely coordinates for the next turn. Provide your prediction along with a confidence level and your reasoning.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"coordinate_history\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}}}, \"required\": [\"coordinate_history\"]}",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"coordinate_history\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"coordinate_history\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"predicted_x\":{\"type\":\"integer\"},\"predicted_y\":{\"type\":\"integer\"},\"confidence\":{\"type\":\"string\",\"enum\":[\"High\",\"Medium\",\"Low\"]},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"predicted_x\",\"predicted_y\",\"confidence\"]}",
     "agent_can_run_code": false
   }
