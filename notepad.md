@@ -40,3 +40,6 @@
 # Post-Critique Strategy Updates (T8281)
 - **LESSON 8:** Defeated trainers can become impassable obstacles, completely blocking paths. I must always look for a way *around* them, not through them. The Rocket at (16, 23) on Mt. Moon B2F is a prime example.
 - **AGENT REFINEMENT:** The `exploration_planner_agent` has failed multiple times. I need to investigate its prompt and logic to improve its reliability before relying on it again.
+
+# Post-Critique Strategy Updates (T8341)
+- **LESSON 9:** In complex, maze-like areas like Mt. Moon, I must use the `pathfinding_agent` proactively to plan routes instead of relying on manual navigation. This will prevent wasted turns from hitting obstacles.
