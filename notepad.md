@@ -43,3 +43,6 @@
 
 # Critical Lessons Learned
 - **LESSON 14:** Direct observation trumps external advice. Defeated trainers in this ROM hack are impassable walls. The pathfinding agent was correct to treat them as such.
+
+# Critical Lessons Learned
+- **LESSON 14:** Direct observation trumps external advice. Defeated trainers in this ROM hack are impassable walls. The pathfinding agent was correct to treat them as such.
