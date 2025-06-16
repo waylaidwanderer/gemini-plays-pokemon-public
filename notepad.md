@@ -48,3 +48,6 @@
 *   **Route 24 Cool Trainer M @ (7, 6)** (taunts about Charmander)
 
 *   **Route 25 Hiker @ (14, 8):** Non-battling. Only provides a tip about a shortcut to Cerulean City.
+
+*   **Route 25 Cool Trainer F @ (19, 9):** Non-battling. Dialogue: 'Hi! My boyfriend is cool!'
+*   **Trainer Interaction Rule:** If an NPC with a trainer sprite only provides dialogue on the first interaction, assume they are a non-battler and do not interact again.
