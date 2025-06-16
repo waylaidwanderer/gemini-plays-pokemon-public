@@ -34,3 +34,5 @@
 
 ## 5. Agent Development Notes
 *   **`party_health_assessor`:** The logic is flawed. It rated my party 'HEALTHY' when my key counter (SPARKY) was at 50% HP. The agent needs to be updated to weigh strategically important Pokémon more heavily.
+
+*   `targeted_pathfinder_agent`: This agent has failed three times in a row in Cerulean City (Turns 8533, 8534, 8536). Its logic for handling ledges and impassable tiles is fundamentally broken. Do not use until it can be significantly overhauled. Will navigate manually for now.
