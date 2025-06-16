@@ -63,3 +63,8 @@
 ## Gameplay Feedback & Lessons
 *   **Agent Usage:** Must use `battle_action_advisor` and `battle_navigator_agent` in tandem for every battle to improve efficiency. Refine agents immediately if they fail.
 *   **NPC Interaction:** Do not attempt to walk onto NPC tiles. Interact from an adjacent tile.
+
+## Gameplay Feedback & Lessons (Cont.)
+*   **Agent Usage:** Must use `battle_action_advisor` and `battle_navigator_agent` in tandem for every battle to improve efficiency. Refine agents immediately if they fail.
+*   **NPC Interaction:** Do not attempt to walk onto NPC tiles. Interact from an adjacent tile.
+*   **Move Categories:** Corrected my assumption about Gust. In Gen 1, move categories are based on type. Flying-type moves like Gust are Physical, so their damage IS affected by moves like Growl.
