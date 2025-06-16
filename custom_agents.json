@@ -63,14 +63,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_found\",\"path\"]}",
     "agent_can_run_code": true
   },
-  "battle_escape_agent": {
-    "agent_name": "battle_escape_agent",
-    "agent_description": "Calculates the button presses needed to select the 'RUN' option from the main battle menu, preventing manual errors.",
-    "agent_system_prompt": "You are a battle assistant for Pokémon. Your task is to analyze the battle menu text, which includes the cursor '→', and determine the exact button presses to move the cursor to 'RUN' and select it with 'A'. The menu layout is always 'FIGHT', 'PKMN' on the top row, and 'ITEM', 'RUN' on the bottom row. The cursor moves with 'Right' and 'Down'. It does not wrap. Your output must be a JSON object with a 'button_sequence' key. Choose the most efficient sequence.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"battle_menu_text\":{\"type\":\"string\",\"description\":\"The full text of the battle menu, including the '→' cursor.\"}},\"required\":[\"battle_menu_text\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\",\"A\",\"B\"]}}},\"required\":[\"button_sequence\"]}",
-    "agent_can_run_code": false
-  },
   "geodude_battle_agent": {
     "agent_name": "geodude_battle_agent",
     "agent_description": "Automates the entire battle sequence for common wild Geodude encounters. It will switch to the optimal counter (NIGHTSHADE) and use the best move (ABSORB).",
