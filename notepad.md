@@ -13,15 +13,14 @@
     *   Geodude (Rock/Ground): 4x weak to Grass/Water. Immune to Electric.
     *   Sandshrew (Ground): Weak to Water, Grass, Ice. Immune to Electric & Poison status.
     *   Paras (Bug/Grass): 4x weak to Fire/Flying.
+*   **Team Rocket @ Mt. Moon B2F**
+    *   Jessie's Team: Ekans (Lv 15), Meowth (Lv 16).
+    *   James's Team: Koffing (Lv 15).
+    *   Triggered at (4,5) when trying to reach the steps at (4,6).
 
-## 3. Navigation & Exploration Strategy
-*   **Agent Usage:** Agent outputs must be critically evaluated against the game state. If an agent proves unreliable, it must be refined or abandoned. Do not blindly trust a faulty tool.
+## 3. Navigation Strategy
+*   **Pre-Move Path Check:** Before moving, visually trace the intended path on the map to ensure it is clear of obstacles. Do not assume a path exists.
+*   **Ledge Mazes:** When stuck in complex areas with many ledges, use the `ledge_maze_navigator_agent` to find the optimal path to the nearest unseen tile. Don't waste time with manual trial-and-error.
 *   **Systematic Exploration:** When exploring manually, adopt a methodical pattern (e.g., wall-following) to ensure complete coverage and avoid loops.
-*   **Pre-Move Path Check:** Before moving, visually trace the intended path on the map to ensure it is clear of obstacles.
+*   **Agent Usage:** Agent outputs must be critically evaluated against the game state. If an agent proves unreliable, it must be refined or abandoned. Do not blindly trust a faulty tool.
 *   **Verified Blockers:** The Rocket Grunt at Mt. Moon B2F (16, 23) is an impassable obstacle even after being defeated. Not all defeated trainers are blockers.
-
-## Mt. Moon B2F - Team Rocket Encounter
-*   Jessie & James battle.
-*   Jessie's Team: Ekans (Lv 15), Meowth (Lv 16).
-*   James's Team: Koffing (Lv 15).
-*   Triggered at (4,5) when trying to reach the steps at (4,6).
