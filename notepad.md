@@ -32,8 +32,7 @@
     4.  Do NOT re-challenge the gym until the team is properly prepared.
 
 ## 5. Agent Development Notes
-*   **`party_health_assessor`:** The logic is flawed. It rated my party 'HEALTHY' when my key counter (SPARKY) was at 50% HP. The agent needs to be updated to weigh strategically important Pokémon more heavily.
-*   **`targeted_pathfinder_agent` (DECOMMISSIONED):** This agent has failed repeatedly and is fundamentally broken. It cannot correctly identify impassable tiles or handle ledge mechanics. **DO NOT USE** until it is completely rewritten from scratch. (Failures: Turns 8533, 8534, 8536, 8565, 8570, 8572, 8574).
+*   **`party_health_assessor` (Needs Refinement):** The logic is flawed. It rated my party 'HEALTHY' when my key counter (SPARKY) was at 50% HP. **Action Plan:** I will redefine this agent to give higher weight to the health of key strategic Pokémon (e.g., gym counters) and consider a Pokémon below 75% HP as a 'caution' trigger.
 *   **`path_validator_agent`:** A reliable agent for checking if a manually plotted path is valid. Use this before committing to long, complex movements.
 
 ## 6. Non-Battling NPCs
