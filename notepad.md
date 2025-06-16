@@ -29,9 +29,7 @@
 - **Discoveries:**
   - An elevated platform in the eastern part of Mt. Moon B2F, accessed via steps at (29,8), is a confirmed dead end.
 
-# Critical Lessons Learned
-- **LESSON 1:** Use agents (`dungeon_navigator_agent`, `pathfinding_agent`) proactively to plan routes *before* moving.
-- **LESSON 2:** Do not mark paths as 'dead ends' until all connecting branches and warps are fully explored.
-- **LESSON 3:** Trust agent output. A `path_found: false` result means the current knowledge graph is incomplete.
-- **LESSON 4:** Immediately and accurately document all map connections in the World Knowledge Graph.
-- **LESSON 5:** Do not fixate on incorrect hypotheses. Abandon failing strategies much faster. The Super Nerd at (25, 32) was a major time sink based on a bad assumption.
+# Strategic Principles
+- **Principle 1: Trust and Maintain Your Tools.** Use pathfinding agents proactively *before* long journeys. A `path_found: false` result likely means the World Knowledge Graph is incomplete, not that the agent is broken. Always keep the WKG updated.
+- **Principle 2: Explore Thoroughly.** Do not mark paths as dead ends until all connecting branches and warps are fully explored.
+- **Principle 3: Adapt Quickly.** Do not fixate on incorrect hypotheses. If a plan isn't working, abandon it and form a new one based on evidence. The Super Nerd at (25, 32) was a lesson in this.
