@@ -24,4 +24,3 @@
 *   **Agent Usage:** Agent outputs must be critically evaluated against the game state. If an agent proves unreliable, it must be refined or abandoned.
 
 ## 4. To-Do & Reminders
-*   Log the warp connection for Melanie's House in Cerulean City (14, 16). The agent call failed before.
