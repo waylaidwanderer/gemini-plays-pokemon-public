@@ -15,8 +15,7 @@
     *   Paras (Bug/Grass): 4x weak to Fire/Flying.
 
 ## 3. Navigation & Exploration Strategy
-*   **Trust Your Tools:** If an agent provides a path, follow it *exactly*. Do not deviate or attempt manual shortcuts. My manual navigation in complex areas has repeatedly failed.
+*   **Agent Usage:** Agent outputs must be critically evaluated against the game state. If an agent proves unreliable, it must be refined or abandoned. Do not blindly trust a faulty tool.
 *   **Systematic Exploration:** When exploring manually, adopt a methodical pattern (e.g., wall-following) to ensure complete coverage and avoid loops.
-*   **Pre-Move Path Check:** Before moving, trace the next 5-10 steps on the map to ensure the path is clear and avoid walking into obvious obstacles.
+*   **Pre-Move Path Check:** Before moving, visually trace the intended path on the map to ensure it is clear of obstacles.
 *   **Verified Blockers:** The Rocket Grunt at Mt. Moon B2F (16, 23) is an impassable obstacle even after being defeated. Not all defeated trainers are blockers.
-*   **Mobile NPCs:** For evasive NPCs, use `stun_npc` to freeze them before interaction.
