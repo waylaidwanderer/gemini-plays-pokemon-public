@@ -36,3 +36,7 @@
 # Post-Critique Strategy Updates
 - **LESSON 6:** Do not attempt to train low-level Pokémon in high-risk areas like Mt. Moon. This is inefficient and dangerous. Use the `optimal_training_spot_agent` to find safe and effective training locations before dedicating time to training.
 - **LESSON 7:** When a specific action or approach fails repeatedly (e.g., using a warp), do not get stuck in a loop. Test alternative hypotheses and directions immediately. Rigid problem-solving is a waste of time.
+
+# Post-Critique Strategy Updates (T8281)
+- **LESSON 8:** Defeated trainers can become impassable obstacles, completely blocking paths. I must always look for a way *around* them, not through them. The Rocket at (16, 23) on Mt. Moon B2F is a prime example.
+- **AGENT REFINEMENT:** The `exploration_planner_agent` has failed multiple times. I need to investigate its prompt and logic to improve its reliability before relying on it again.
