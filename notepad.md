@@ -40,3 +40,6 @@
 # Discoveries & Oddities
 - **Battle-Warps:** A tile at Mt. Moon B2F (29, 9) can trigger a wild battle that also warps the player to B1F (21, 12). This is unreliable.
 - **Item-Gated NPCs:** Some NPCs block paths and require a specific item to pass. Ex: Rocket at Mt. Moon B2F (30, 12) requires a fossil.
+
+# Critical Lessons Learned
+- **LESSON 14:** Direct observation trumps external advice. Defeated trainers in this ROM hack are impassable walls. The pathfinding agent was correct to treat them as such.
