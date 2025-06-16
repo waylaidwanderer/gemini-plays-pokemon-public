@@ -56,3 +56,10 @@
 *   **PARCH (Sandshrew):** Verified to be a NORMAL type in this ROM hack, not Ground. This completely changes its matchups and resistances.
 
 *   **Jr. Trainer @ Route 24 (6, 21):** Battling his team, which includes a Lv 15 Diglett and a Lv 15 Psyduck.
+
+## Route 24 Notes
+*   Cool Trainer M at (7, 6) is a non-battling NPC who taunts the player about their Charmander.
+
+## Gameplay Feedback & Lessons
+*   **Agent Usage:** Must use `battle_action_advisor` and `battle_navigator_agent` in tandem for every battle to improve efficiency. Refine agents immediately if they fail.
+*   **NPC Interaction:** Do not attempt to walk onto NPC tiles. Interact from an adjacent tile.
