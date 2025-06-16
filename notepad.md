@@ -12,26 +12,25 @@
 - **SPIKE (Nidoran♂):** Evolve at Lv. 16 for an early power spike with Nidoking.
 
 # Agent & Tool Notes
-- The `dungeon_navigator_agent` is preferred for complex, multi-floor dungeons. It requires a complete World Knowledge Graph.
-- The `dungeon_pathfinder_agent` is essential for creating safe, short-range paths within a single map.
-- The `battle_escape_agent` is my primary tool for running from non-essential wild battles.
+- `dungeon_navigator_agent`: Best for complex, multi-floor dungeons. Requires a complete World Knowledge Graph.
+- `dungeon_pathfinder_agent`: Essential for safe, short-range paths within a single map.
+- `battle_escape_agent`: Primary tool for running from non-essential wild battles.
+- `geodude_battle_agent`: Automates switching to NIGHTSHADE and using ABSORB.
 
-# Mt. Moon Navigation
+# Mt. Moon Navigation - CORRECTED
 - **Goal:** Find the Super Nerd with the fossils to exit to Route 4.
-- **Ladders:**
-  - (18, 12) on 1F: Leads to the main B1F/B2F areas. Requires stepping on (18, 11) then back on the ladder to activate.
-  - (6, 6) on 1F: Leads to the northwest section of B1F. This is my current exploration target.
-  - (26, 16) on 1F: A trap ladder leading to a small, isolated loop on B1F.
+- **Ladders Systems:** There are two distinct, unconnected ladder systems.
+  - **Eastern System (Main Path to Dead End):**
+    - 1F (18, 12) <-> B1F (26, 10). This ladder on B1F requires stepping on (18,11) and back to activate.
+    - B1F (18, 12) <-> B2F (26, 10). **The ladder on B2F at (26, 10) is a ONE-WAY trip UP to B1F.** This area is a dead end.
+  - **Western System (Path to Fossils):**
+    - 1F (6, 6) <-> B1F (6, 6). Leads to the northwest section of B1F.
+    - From B1F (NW section), another ladder leads to the western part of B2F, which is the correct path forward.
 - **Key NPCs & Obstacles:**
-  - Super Nerd at (25, 32) on 1F is a **non-battling NPC**. The path to him is a dead end for progression.
-  - Rocket at (30, 12) on B2F blocks a path and mentions fossils, but can be bypassed.
-  - A non-battling Rocket is at (28, 18) on B2F.
-- **Discoveries:**
-  - An elevated platform in the eastern part of Mt. Moon B2F, accessed via steps at (29,8), is a confirmed dead end.
+  - Super Nerd at (25, 32) on 1F is a **non-battling NPC** and a dead end.
+  - Rocket at (30, 12) on B2F blocks a side path in the eastern dead-end section. He is not on the main progression path.
 
 # Strategic Principles
-- **Principle 1: Trust and Maintain Your Tools.** Use pathfinding agents proactively *before* long journeys. A `path_found: false` result likely means the World Knowledge Graph is incomplete, not that the agent is broken. Always keep the WKG updated.
+- **Principle 1: Trust and Maintain Your Tools.** A `path_found: false` result likely means the World Knowledge Graph is incomplete or the path is truly blocked.
 - **Principle 2: Explore Thoroughly.** Do not mark paths as dead ends until all connecting branches and warps are fully explored.
-- **Principle 3: Adapt Quickly.** Do not fixate on incorrect hypotheses. If a plan isn't working, abandon it and form a new one based on evidence. The Super Nerd at (25, 32) was a lesson in this.
-
-- The `geodude_battle_agent` automates switching to NIGHTSHADE and using ABSORB.
+- **Principle 3: Adapt Quickly.** Do not fixate on incorrect hypotheses. The eastern part of B2F was a lesson in this.
