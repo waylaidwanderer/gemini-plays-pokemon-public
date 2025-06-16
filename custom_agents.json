@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"name\",\"level\",\"type1\"]}},\"current_map_id\":{\"type\":\"string\"}},\"required\":[\"player_pokemon_party\",\"current_map_id\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_lead_pokemon_index\":{\"type\":\"integer\",\"description\":\"0-indexed position of the recommended leading Pokémon in the player's party array.\"},\"reasoning\":{\"type\":\"string\",\"description\":\"A brief explanation for why this Pokémon is the best lead for the specified map.\"}},\"required\":[\"suggested_lead_pokemon_index\",\"reasoning\"]}",
     "agent_can_run_code": false
+  },
+  "dungeon_pathfinder_agent": {
+    "agent_name": "dungeon_pathfinder_agent",
+    "agent_description": "A specialized pathfinding agent for dungeons. It automatically considers all common dungeon tile types (ground, elevated_ground, steps, ladders, etc.) to find a traversable path.",
+    "agent_system_prompt": "You are a dungeon pathfinding expert for Pokémon Yellow Legacy. Your sole purpose is to find a guaranteed, fully traversable path from a start coordinate to a target coordinate within a single dungeon map. You MUST use your `run_code` tool to implement an A* pathfinding algorithm on the provided `map_xml_string`. Your path MUST be 100% accurate. Your logic must treat any tile with type 'impassable' or any tile containing an `<Object>` child element (except for an object with `id-name=\"Pikachu\"`) as an uncrossable wall. Your path can traverse any of the following tile types: 'ground', 'elevated_ground', 'steps', 'ladder_up', 'ladder_down', 'hole'. If no path is found, the sequence must be empty and `path_found` must be false. Do not guess; if you cannot find a valid path that adheres to ALL of these rules, you must return `path_found: false`.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"target_x\":{\"type\":\"integer\"},\"target_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"target_x\",\"target_y\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_found\",\"path\"]}",
+    "agent_can_run_code": true
   }
 }
