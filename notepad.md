@@ -1,6 +1,5 @@
 # Game Mechanics & Rules
 - **Battle-Warps:** Specific tiles can trigger a wild battle that also teleports the player. Location: Mt. Moon B2F (29, 9) -> B1F (21, 12). HIGHLY UNRELIABLE.
-
 - **Confusion:** Wears off after battle.
 - **Defeated Trainers:** Some become impassable obstacles.
 - **Elevation Rule:** Movement between `ground` and `elevated_ground` requires a `steps` tile.
@@ -11,12 +10,13 @@
 - Grass is 4x effective vs. Rock/Ground (Geodude).
 - Electric is NOT very effective vs. Bug/Grass (Paras) or Grass/Poison (Oddish, Bellsprout).
 
-# Area Notes & Navigation
-- **Mt. Moon:** Contains multiple, non-connected sections on its lower floors, accessible only via specific ladders on 1F. Some ladders are intentionally misleading and lead to dead-end loops.
-
-# Defeated Trainers Log
-- **Mt. Moon 1F:** Hiker (6, 7), Youngster (8, 23), Lass (17, 25), Super Nerd (25, 30), Lass (31, 7), Youngster (13, 17), Youngster (31, 28), Bug Catcher (32, 27)
-- **Mt. Moon B2F:** Rocket Grunt (16, 23), Rocket Grunt (30, 8)
+# Area-Specific Notes & Discoveries
+## Mt. Moon
+- **Layout:** Contains multiple, non-connected sections on its lower floors, accessible only via specific ladders on 1F. Some ladders are intentionally misleading and lead to dead-end loops.
+- **Defeated Trainers (1F):** Hiker (6, 7), Youngster (8, 23), Lass (17, 25), Super Nerd (25, 30), Lass (31, 7), Youngster (13, 17), Youngster (31, 28), Bug Catcher (32, 27)
+- **Defeated Trainers (B2F):** Rocket Grunt (16, 23), Rocket Grunt (30, 8)
+- **Obstacles:** A Rocket at Mt. Moon B2F (30, 12) requires a fossil to pass.
+- **Traps:** Battle-warp at (29, 9) on B2F is unreliable.
 
 # Critical Lessons Learned
 - **LESSON 1:** Do not fixate on NPCs as impassable walls. Always check for open paths around them. My assumption that the Rocket at (30, 12) blocked the entire corridor cost me over 50 turns.
