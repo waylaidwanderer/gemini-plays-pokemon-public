@@ -35,3 +35,5 @@
 - **Principle 1: Trust and Maintain Your Tools.** A `path_found: false` result likely means the World Knowledge Graph is incomplete or the path is truly blocked.
 - **Principle 2: Explore Thoroughly.** Do not mark paths as dead ends until all connecting branches and warps are fully explored.
 - **Principle 3: Adapt Quickly.** Do not fixate on incorrect hypotheses. The eastern part of B2F was a lesson in this.
+
+- **B1F Western Platform:** This area is a winding maze of elevated platforms with numerous dead ends. Careful, systematic exploration is required. The path often requires moving up and around impassable walls.
