@@ -23,7 +23,7 @@
 
 ## 4. Cerulean Gym - Post-Mortem & New Strategy
 *   **Failed Attempt 1:** Blacked out against Misty.
-*   **Critical Mistake:** Sent SPROUT (Oddish, Grass/Poison) against Misty's Starmie (Water/Psychic). Starmie's Psychic moves are 4x super-effective against SPROUT. This was a fatal error.
+*   **Critical Mistake:** Sent SPROUT (Oddish, Grass/Poison) against Misty's Starmie (Water/Psychic). Starmie's Psychic moves are super-effective against SPROUT.
 *   **Key Intel:** Misty's ace is a Lv 21 Starmie (Water/Psychic). It is very fast and has powerful Psychic attacks (Confusion) and Water attacks (Bubblebeam).
 *   **New Strategy:**
     1.  My current party is not strong enough or well-suited to defeat Starmie.
@@ -32,18 +32,15 @@
     4.  Do NOT re-challenge the gym until the team is properly prepared.
 
 ## 5. Agent Development Notes
-*   **`party_health_assessor` (Needs Refinement):** The logic is flawed. It rated my party 'HEALTHY' when my key counter (SPARKY) was at 50% HP. **Action Plan:** I will redefine this agent to give higher weight to the health of key strategic Pokémon (e.g., gym counters) and consider a Pokémon below 75% HP as a 'caution' trigger.
-*   **`path_validator_agent`:** A reliable agent for checking if a manually plotted path is valid. Use this before committing to long, complex movements.
+*   **`party_health_assessor` (Refined):** The logic has been updated to give higher weight to the health of key strategic Pokémon.
+*   **`pathfinder_agent`:** A reliable agent for checking if a manually plotted path is valid. Use this before committing to long, complex movements. Its paths do not account for moving NPCs.
 
 ## 6. Non-Battling NPCs
 *   Cerulean City Cool Trainer F at (30, 27)
 *   Cerulean City Cool Trainer M at (32, 21)
 *   Cerulean Mart Cool Trainer M at (4, 6) (gives advice)
 
-## 7. Current Walkthrough Hint
-*   The path north of Cerulean City is blocked by a police officer. To remove him, I must resolve the situation at the 'burgled house' in the northeast of the city.
-
-## 8. Strategic Correction (Cerulean City)
-*   **My Navigation Failure:** My manual navigation and over-reliance on a flawed `pathfinder_agent` led me to incorrectly conclude the city was physically split. This was wrong.
-*   **Source of Truth:** The `Reachable Unseen Tiles` list from the game state is the ultimate truth. If it says a path exists, one does, even if my agent fails to find it.
-*   **New Strategy:** I must return to my original lead: the 'burgled house' in the northeast. I will systematically explore the northern part of the city on foot to find the 'narrow, hidden passage' mentioned in the hint, instead of relying on single, long-distance pathfinding queries.
+## 7. Current Strategy: Cerulean City
+*   **Objective:** Find the 'burgled house' in the northeast to unblock the path north.
+*   **Key Hint:** There is a 'narrow, hidden passage'.
+*   **Plan:** Systematically explore the alleys and gaps in the northern section of the city to find this passage. I will rely on my `pathfinder_agent` for all navigation to avoid getting lost.
