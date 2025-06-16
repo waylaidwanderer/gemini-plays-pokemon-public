@@ -20,7 +20,6 @@
 ## 3. Navigation Strategy
 *   **Pre-Move Path Check:** Before moving, visually trace the intended path on the map to ensure it is clear of obstacles.
 *   **Ledge Mazes:** When stuck in complex areas with many ledges, use the `ledge_maze_navigator_agent` to find the optimal path to the nearest unseen tile.
-*   **Agent Usage:** Rely on agents for complex navigation (dungeons, ledges) to save time and avoid manual errors. Disengage from unproductive tasks (like chasing non-essential NPCs) quickly.
 
 ## 4. Cerulean Gym - Post-Mortem & New Strategy
 *   **Failed Attempt 1:** Blacked out against Misty.
@@ -34,12 +33,13 @@
 
 ## 5. Agent Development Notes
 *   **`party_health_assessor`:** The logic is flawed. It rated my party 'HEALTHY' when my key counter (SPARKY) was at 50% HP. The agent needs to be updated to weigh strategically important Pokémon more heavily.
-
-*   `targeted_pathfinder_agent`: This agent has failed three times in a row in Cerulean City (Turns 8533, 8534, 8536). Its logic for handling ledges and impassable tiles is fundamentally broken. Do not use until it can be significantly overhauled. Will navigate manually for now.
+*   **`targeted_pathfinder_agent` (DECOMMISSIONED):** This agent has failed repeatedly and is fundamentally broken. It cannot correctly identify impassable tiles or handle ledge mechanics. **DO NOT USE** until it is completely rewritten from scratch. (Failures: Turns 8533, 8534, 8536, 8565, 8570, 8572, 8574).
+*   **`path_validator_agent`:** A reliable agent for checking if a manually plotted path is valid. Use this before committing to long, complex movements.
 
 ## 6. Non-Battling NPCs
-*   Cerulean City Cool Trainer F at (30, 27) - Non-battling.
-*   Cerulean City Cool Trainer M at (32, 21) - Non-battling.
-*   Cerulean Mart Cool Trainer M at (4, 6) - Non-battling, gives advice.
+*   Cerulean City Cool Trainer F at (30, 27)
+*   Cerulean City Cool Trainer M at (32, 21)
+*   Cerulean Mart Cool Trainer M at (4, 6) (gives advice)
 
-*   `targeted_pathfinder_agent` (ATTEMPT 4, TURN 8565): The agent failed again with an invalid JSON response. It is completely unreliable and must not be used for navigation until it is fully rewritten. Switching to manual navigation.
+## 7. Current Walkthrough Hint
+*   The path north of Cerulean City is blocked by a police officer. To remove him, I must resolve the situation at the 'burgled house' in the northeast of the city.
