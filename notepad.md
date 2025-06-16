@@ -20,7 +20,7 @@
 
 # Critical Lessons Learned
 - **LESSON 1:** Do not fixate on NPCs as impassable walls. Always check for open paths around them. My assumption that the Rocket at (30, 12) blocked the entire corridor cost me over 50 turns.
-- **LESSON 2:** The ladder at (18, 12) on Mt. Moon 1F leads to a confirmed dead-end loop on the lower floors and MUST be ignored.
+- **LESSON 2 (Corrected):** Do not mark paths as 'dead ends' until all branches from that path are fully explored. My incorrect assumption about the ladder at (18, 12) on Mt. Moon 1F caused a massive, unnecessary backtrack.
 - **LESSON 3:** The battle-warp at (29, 9) on Mt. Moon B2F is completely unreliable and must be avoided as a progression strategy.
 - **LESSON 4:** If a path quickly seems to be a dead end, backtrack immediately and check for alternative entrances on the previous map. Some paths are intentionally misleading loops.
 - **LESSON 5:** Trust the `pathfinding_agent`. A `path_found: false` result is not a tool failure; it is definitive proof that the target is unreachable from the current location.
