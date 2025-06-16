@@ -33,3 +33,5 @@
 - **Principle 1: Trust and Maintain Your Tools.** Use pathfinding agents proactively *before* long journeys. A `path_found: false` result likely means the World Knowledge Graph is incomplete, not that the agent is broken. Always keep the WKG updated.
 - **Principle 2: Explore Thoroughly.** Do not mark paths as dead ends until all connecting branches and warps are fully explored.
 - **Principle 3: Adapt Quickly.** Do not fixate on incorrect hypotheses. If a plan isn't working, abandon it and form a new one based on evidence. The Super Nerd at (25, 32) was a lesson in this.
+
+- The `geodude_battle_agent` automates switching to NIGHTSHADE and using ABSORB.
