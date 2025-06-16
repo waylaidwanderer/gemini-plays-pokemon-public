@@ -51,3 +51,6 @@
 ### Unique Battle Mechanics Observed
 *   **Mankey @ Nugget Bridge:** A Lv 18 Mankey's Low Kick move caused my Pokémon to flinch, preventing my move. This happened twice in a row. This might be a property of the move, the Pokémon, or a specific trainer's Pokémon.
 *   **Stun Spore Failure:** My SPROUT's Stun Spore failed against the same Mankey with the message "It didn't affect Enemy MANKEY!". This suggests a possible immunity to powder moves for either Mankey's species or Fighting-types in this ROM hack.
+
+## 8. Pokémon-Specific Notes & Discoveries
+*   **PARCH (Sandshrew):** Verified to be a NORMAL type in this ROM hack, not Ground. This completely changes its matchups and resistances.
