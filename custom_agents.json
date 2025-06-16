@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"path\",\"reasoning\"]}",
     "agent_can_run_code": true
+  },
+  "unseen_tile_navigator_agent": {
+    "agent_name": "unseen_tile_navigator_agent",
+    "agent_description": "Analyzes a complex map to find a path to the nearest reachable unseen tile. Uses a Breadth-First Search algorithm.",
+    "agent_system_prompt": "You are an Unseen Tile Navigator Agent. Your purpose is to find the shortest path from the player's current position to the nearest explorable area (a seen, walkable tile adjacent to an unseen tile). You will use your `run_code` tool to generate and execute Python scripts that parse `map_xml_string` and perform pathfinding.\n\n**Logic for Python Script:**\n1.  **Import necessary libraries**: `xml.etree.ElementTree as ET` and `collections.deque`.\n2.  **Parse `map_xml_string`**: Use `ET.fromstring(map_xml_string)` to create an XML tree.\n3.  **Extract Map Data**: Create a grid representation of the map. Iterate through each `<Tile>` to find:\n    a. Player's start coordinates (from the `<Player/>` tag).\n    b. A set of all walkable tile coordinates. Walkable tiles include `ground`, `elevated_ground`, `steps`, `grass`, `ladder_up`, `ladder_down`, `teleport`, `hole`. Treat `ledge` as walkable only from above. `unknown` tiles are NOT walkable themselves.\n    c. A set of impassable wall coordinates. This includes tiles with `type=\"impassable\"` and any tile with an `<Object>` child element (except for objects with `id-name=\"Pikachu\"`).\n    d. **CRITICAL:** A set of target coordinates. A target is a *seen, walkable tile* that is *adjacent* to any `seen=\"false\"` tile. Your script must iterate through all unseen tiles and add their adjacent, seen, walkable neighbors to the target set.\n4.  **Pathfinding (BFS)**: Implement a Breadth-First Search (BFS) algorithm to find the shortest path from the player's start coordinate to any of the target coordinates.\n5.  **Output**: The script should print the path as a list of coordinate dictionaries. If no path is found, print an empty list.",
+    "agent_input_schema": "{}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"path\",\"reasoning\"]}",
+    "agent_can_run_code": true
   }
 }
