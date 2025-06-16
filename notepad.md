@@ -53,3 +53,7 @@
 *   **Hypothesis 3:** Interacting with the sleeping Electrode at (29, 27) is a story trigger. **Result:** FAILED (2 attempts). Electrode just snoozes.
 *   **Current Realization:** The northern bridge area seems to be a one-way trip down to the southern city area via ledges. It's impossible to walk back up directly.
 *   **New Hypothesis (4):** The path forward is to exit west to Route 4 and find a path that loops around to the northern routes (Route 24/25).
+
+## 7. Major Corrections & Lessons Learned
+*   **Route 4 is a one-way path EAST to Cerulean City**, not a loop-around route. My hypothesis was incorrect.
+*   **WKG Tool Workflow:** To add a new connection, I must: 1. Check if nodes exist. 2. Create missing nodes and get their IDs. 3. Create the edge using the final IDs. Do not try to do it all at once with placeholders.
