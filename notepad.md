@@ -22,3 +22,5 @@
 - Explore systematically. The simplest path is often correct.
 
 - **Mt. Moon B2F:** The northern elevated platform accessible from the western ladder system is a dead end.
+
+- **New Principle:** When party resources (especially PP on key moves) are critically low, the top priority becomes a strategic retreat to heal. Do not push deeper into a dangerous area in a weakened state.
