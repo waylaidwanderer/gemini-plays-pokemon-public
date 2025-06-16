@@ -38,7 +38,6 @@
 ## 5. Agent Development & Usage Notes
 *   **`party_health_assessor` (Refined):** Logic updated to prioritize health of key strategic Pokémon.
 *   **`pathfinder_agent`:** Reliable for checking path validity. Does not account for moving NPCs.
-*   **`ledge_maze_navigator_agent`:** Use when stuck in complex ledge areas.
 *   **`battle_action_advisor` (New):** Designed to give real-time advice during battles.
 
 ## 6. Misc. Discoveries
