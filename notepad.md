@@ -21,7 +21,7 @@
 # Critical Lessons Learned
 - **LESSON 1:** In complex dungeons, use agents (`dungeon_navigator_agent`, `pathfinding_agent`) proactively to plan routes *before* moving, not just reactively after getting lost.
 - **LESSON 2:** Do not mark paths as 'dead ends' until all connecting branches and warps are fully explored.
-- **LESSON 3:** Defeated trainers can become impassable obstacles, completely blocking paths (e.g., Rocket at Mt. Moon B2F (16, 23)).
+- **LESSON 3 (CORRECTED):** I previously thought defeated trainers became obstacles, but this was a misunderstanding. The path was blocked by the environment itself, not the trainer sprite. Trainer sprites are not physical barriers after defeat.
 - **LESSON 4:** Trust agent output. A `path_found: false` result is definitive proof that a target is unreachable from the current location and indicates the map is sectioned off.
 - **LESSON 5:** Avoid training low-level Pokémon in high-risk areas. Use the `optimal_training_spot_agent` for efficiency.
 - **LESSON 6:** Immediately and accurately document all map connections in the World Knowledge Graph. A single missing edge can invalidate pathfinding.
