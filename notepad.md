@@ -30,3 +30,6 @@
 
 # Evolution Plans
 - **SPIKE (Nidoran♂):** Evolve at Lv. 16 for an early power spike with Nidoking. This misses out on Thrash, but provides great TM potential.
+
+- **LESSON 10:** In complex dungeons, use the `pathfinding_agent` proactively to plan routes *before* moving, not just reactively after getting lost.
+- **LESSON 11:** Do not assume NPCs are impassable walls. Always check for open paths around them before concluding a route is blocked.
