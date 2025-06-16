@@ -31,3 +31,5 @@
 *   **Agent Refinement:** A failing agent should be refined immediately rather than being used again without changes. Note failures and then fix them.
 
 *   **Commit to Exploration:** When arriving in a new, unexplored map area, explore it thoroughly before backtracking. Immediately returning to a previous map is counter-productive and leads to loops. Trust that new areas contain the path forward.
+
+*   **Pathfinding Agent (Attempt 2):** Agent is fundamentally broken. It has failed multiple times with different errors (missing content, invalid JSON). It cannot be trusted for navigation in its current state. Will require a complete deletion and re-creation with a more robust prompt and error handling logic. Manual navigation is required for complex areas until it is fixed.
