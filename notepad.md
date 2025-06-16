@@ -9,6 +9,15 @@
 - Electric is NOT very effective vs. Bug/Grass (Paras) or Grass/Poison (Oddish, Bellsprout).
 - Flying is 4x effective vs. Bug/Grass (Paras).
 
+# Agent & Tool Notes
+- The `pathfinding_agent` is currently unreliable and must be refined before use. (LESSON 13)
+- The `healing_spot_finder_agent` is reliable for multi-map pathfinding to Pokémon Centers.
+- The `battle_switch_agent` is reliable for calculating switch sequences.
+- The `exploration_planner_agent` has proven unreliable and needs refinement before use.
+
+# Evolution Plans
+- **SPIKE (Nidoran♂):** Evolve at Lv. 16 for an early power spike with Nidoking. This misses out on Thrash, but provides great TM potential.
+
 # Critical Lessons Learned
 - **LESSON 1:** In complex, multi-level dungeons like Mt. Moon, use the `pathfinding_agent` proactively to plan routes *before* moving, not just reactively after getting lost. Always double-check agent output for logical errors (like ignoring elevation) before committing.
 - **LESSON 2:** Do not assume NPCs are impassable walls. Always check for open paths around them before concluding a route is blocked (e.g., Rocket at Mt. Moon B2F (30, 12)).
@@ -18,26 +27,9 @@
 - **LESSON 6:** Avoid training low-level Pokémon in high-risk areas. Use the `optimal_training_spot_agent` for efficiency.
 - **LESSON 7:** If a specific action fails repeatedly (e.g., using a warp), test alternative hypotheses immediately. Do not get stuck in a loop.
 - **LESSON 8:** Immediately and accurately document all map connections in the World Knowledge Graph. A single missing edge can invalidate pathfinding.
-
-# Agent & Tool Notes
-- The `pathfinding_agent` is reliable for on-map navigation but must be given clear instructions regarding elevation. Its prompt needs refinement.
-- The `healing_spot_finder_agent` is reliable for multi-map pathfinding to Pokémon Centers.
-- The `battle_switch_agent` is reliable for calculating switch sequences.
-- The `exploration_planner_agent` has proven unreliable and needs refinement before use.
-
-# Evolution Plans
-- **SPIKE (Nidoran♂):** Evolve at Lv. 16 for an early power spike with Nidoking. This misses out on Thrash, but provides great TM potential.
-
-# Critical Lessons from AI Critique (T8433)
 - **LESSON 9:** My navigation in Mt. Moon has been extremely inefficient due to a failure to understand and respect elevation changes. I must mentally check agent paths for invalid elevation transitions before moving.
-- **LESSON 10:** My World Knowledge Graph management is a critical weakness. I must be diligent in adding nodes AND edges for every single map transition to maintain data integrity. The new `world_knowledge_manager_agent` should help with this.
+- **LESSON 10:** My World Knowledge Graph management is a critical weakness. I must be diligent in adding nodes AND edges for every single map transition to maintain data integrity. The `world_knowledge_manager_agent` should help with this.
 - **LESSON 11:** I have been fixating on incorrect hypotheses for too long. I need to abandon failing strategies much faster and be more flexible in my approach.
-
-# Mt. Moon Navigation Log (Corrected)
 - **LESSON 12:** The ladder at B1F(26,10) leads UP to 1F. The ladder at B1F(18,12) leads DOWN to B2F(26,10). Taking the B2F(26,10) ladder back up results in an immediate, one-way warp back to B1F(18,12). The entire eastern section of B2F is a confirmed dead-end loop. Do not enter again.
-
-# Critical Lessons Learned (Continued)
 - **LESSON 13:** The `pathfinding_agent` has become unreliable, failing repeatedly. I must switch to manual path planning until I can successfully refine it. Do not rely on it.
-
-# Critical Lessons Learned (Continued)
-- LESSON 14: Prioritize direct game state information and personal observation over external guides or preconceived notions. The Super Nerd at Mt. Moon 1F (25, 32) was a non-battling NPC, despite my assumption he was a mandatory fight.
+- **LESSON 14:** Prioritize direct game state information and personal observation over external guides or preconceived notions. The Super Nerd at Mt. Moon 1F (25, 32) was a non-battling NPC, despite my assumption he was a mandatory fight.
