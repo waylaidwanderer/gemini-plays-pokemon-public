@@ -38,3 +38,6 @@
 
 # Critical Lessons Learned (Continued)
 - **LESSON 13:** The `pathfinding_agent` has become unreliable, failing repeatedly. I must switch to manual path planning until I can successfully refine it. Do not rely on it.
+
+# Critical Lessons Learned (Continued)
+- LESSON 14: Prioritize direct game state information and personal observation over external guides or preconceived notions. The Super Nerd at Mt. Moon 1F (25, 32) was a non-battling NPC, despite my assumption he was a mandatory fight.
