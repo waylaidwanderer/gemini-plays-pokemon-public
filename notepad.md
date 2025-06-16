@@ -20,3 +20,6 @@
 - **Principle 1: Don't Trust Faulty Tools.** If an agent or tool repeatedly fails, abandon it and switch to a manual, systematic approach.
 - **Principle 2: Explore Systematically.** Clear main paths before exploring side areas. The simplest path is often correct.
 - **Principle 3: Adapt Quickly.** Do not fixate on incorrect hypotheses or repeat failed actions.
+
+# PP Management
+- SPARKY is out of THUNDERSHOCK PP. Must use THUNDERPUNCH in battle.
