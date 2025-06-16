@@ -20,3 +20,5 @@
 # Strategic Principles
 - Adapt quickly; don't repeat failed actions or trust faulty tools.
 - Explore systematically. The simplest path is often correct.
+
+- **Mt. Moon B2F:** The northern elevated platform accessible from the western ladder system is a dead end.
