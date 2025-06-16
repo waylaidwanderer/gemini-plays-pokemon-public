@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"npc_dialogue_hints\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_exit_type\":{\"type\":\"string\",\"enum\":[\"warp\",\"map_edge\"]},\"suggested_exit_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"suggested_exit_type\",\"suggested_exit_coordinates\",\"reasoning\"]}",
     "agent_can_run_code": true
+  },
+  "systematic_explorer_agent": {
+    "agent_name": "systematic_explorer_agent",
+    "agent_description": "Generates a path to explore an area by systematically exploring all reachable tiles. This is useful for ensuring full coverage of a complex area and avoiding getting lost.",
+    "agent_system_prompt": "You are a Systematic Explorer Agent. Your goal is to generate a path that methodically explores all reachable tiles from a starting point using a Depth-First Search (DFS) traversal. You MUST use your `run_code` tool to execute a Python script that parses `map_xml_string`, builds a graph of all traversable tiles, and performs the DFS to generate the path. **Crucially, your algorithm must handle dead ends by backtracking to the last junction and exploring an alternative path.** Do not use a simple wall-following rule. The output should be a sequence of moves ('Up', 'Down', 'Left', 'Right') that covers a significant portion of the explorable area. Your reasoning should explain that the path is designed for methodical exploration, not speed.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"exploration_path\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"exploration_path\",\"reasoning\"]}",
+    "agent_can_run_code": true
   }
 }
