@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"traversable_tile_types\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"start_x\",\"start_y\",\"traversable_tile_types\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"exploration_path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"path_found\",\"exploration_path\"]}",
     "agent_can_run_code": true
-  },
-  "wild_battle_assessor_agent": {
-    "agent_name": "wild_battle_assessor_agent",
-    "agent_description": "Analyzes a wild encounter and recommends an action (FIGHT, RUN, SWITCH) based on type matchups, party health, and current goals.",
-    "agent_system_prompt": "You are a Wild Battle Assessor for Pokémon Yellow Legacy Hard Mode. Your goal is to provide a quick, strategic recommendation for wild encounters. Analyze the wild Pokémon, the player's lead Pokémon, and the overall party status. Recommend one of three actions: FIGHT (if it's an easy win or good for training), RUN (if the matchup is bad, the party is weak, or the player wants to conserve resources), or SWITCH (if another Pokémon in the party has a significant advantage). Provide a brief justification for your choice. Your output must conform to the provided schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"wild_pokemon_name\":{\"type\":\"string\"},\"wild_pokemon_level\":{\"type\":\"integer\"},\"lead_pokemon_name\":{\"type\":\"string\"},\"lead_pokemon_hp_percentage\":{\"type\":\"number\"},\"player_pokemon_party_summary\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"name\",\"level\",\"type1\"]}}},\"required\":[\"wild_pokemon_name\",\"wild_pokemon_level\",\"lead_pokemon_name\",\"lead_pokemon_hp_percentage\",\"player_pokemon_party_summary\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_action\":{\"type\":\"string\",\"enum\":[\"FIGHT\",\"RUN\",\"SWITCH\"]},\"reasoning\":{\"type\":\"string\"},\"switch_target_name\":{\"type\":\"string\",\"nullable\":true,\"description\":\"Name of the Pokémon to switch to, if action is SWITCH.\"}},\"required\":[\"recommended_action\",\"reasoning\"]}",
-    "agent_can_run_code": false
   }
 }
