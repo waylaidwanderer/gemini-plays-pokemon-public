@@ -34,11 +34,9 @@
 - **LESSON 9:** The `pathfinding_agent` is only reliable if its prompt is extremely specific about obstacle rules.
 - **LESSON 10:** Prioritize direct game state information over external guides.
 - **LESSON 11:** The elevated platform in the eastern part of Mt. Moon B2F, accessed via the steps at (29,8), is a confirmed dead end.
+- **LESSON 12:** Be more methodical in exploration. Use pathfinding agents proactively to plan forward routes, not just reactively to backtrack from dead ends.
+- **LESSON 13:** Anticipate recurring manual tasks (like running from battles) and create automation agents *before* they become a point of failure and inefficiency.
 
 # Discoveries & Oddities
 - **Battle-Warps:** A tile at Mt. Moon B2F (29, 9) can trigger a wild battle that also warps the player to B1F (21, 12). This is unreliable.
 - **Item-Gated NPCs:** Some NPCs block paths and require a specific item to pass. Ex: Rocket at Mt. Moon B2F (30, 12) requires a fossil.
-
-# Lessons from Turn 9060 Critique
-- **LESSON 12:** Be more methodical in exploration. Use pathfinding agents proactively to plan forward routes, not just reactively to backtrack from dead ends.
-- **LESSON 13:** Anticipate recurring manual tasks (like running from battles) and create automation agents *before* they become a point of failure and inefficiency.
