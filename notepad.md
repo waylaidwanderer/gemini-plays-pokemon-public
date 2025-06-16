@@ -41,3 +41,5 @@
 *   Cerulean City Cool Trainer F at (30, 27) - Non-battling.
 *   Cerulean City Cool Trainer M at (32, 21) - Non-battling.
 *   Cerulean Mart Cool Trainer M at (4, 6) - Non-battling, gives advice.
+
+*   `targeted_pathfinder_agent` (ATTEMPT 4, TURN 8565): The agent failed again with an invalid JSON response. It is completely unreliable and must not be used for navigation until it is fully rewritten. Switching to manual navigation.
