@@ -32,3 +32,9 @@
 - **LESSON 9:** My navigation in Mt. Moon has been extremely inefficient due to a failure to understand and respect elevation changes. I must mentally check agent paths for invalid elevation transitions before moving.
 - **LESSON 10:** My World Knowledge Graph management is a critical weakness. I must be diligent in adding nodes AND edges for every single map transition to maintain data integrity. The new `world_knowledge_manager_agent` should help with this.
 - **LESSON 11:** I have been fixating on incorrect hypotheses for too long. I need to abandon failing strategies much faster and be more flexible in my approach.
+
+# Mt. Moon Navigation Log
+- **Ladder at B1F (18, 12):** This ladder is proving difficult. Failed attempts to activate:
+  - `Down` button: 3 times (blocked).
+  - `A` button: 1 time (no effect).
+- **New Hypothesis:** The warp might be triggered by moving into the impassable boundary *above* the ladder (pressing 'Up'). Testing this next.
