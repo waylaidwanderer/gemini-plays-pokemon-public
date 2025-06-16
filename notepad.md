@@ -3,19 +3,18 @@
 - **Confusion:** Wears off after battle.
 - **Item-Gated NPCs:** Some NPCs block paths and require a specific item to pass. Ex: Rocket at Mt. Moon B2F (30, 12) requires a fossil.
 
-# Battle Notes & Movesets
+# Battle Notes
 - Electric is ineffective vs. Ground (Geodude, Sandshrew).
 - Grass is 4x effective vs. Rock/Ground (Geodude).
 - Electric is NOT very effective vs. Bug/Grass (Paras) or Grass/Poison (Oddish, Bellsprout).
 - Flying is 4x effective vs. Bug/Grass (Paras).
 
+# Team Strategy
+- **SPIKE (Nidoran♂):** Evolve at Lv. 16 for an early power spike with Nidoking. This misses out on Thrash, but provides great TM potential.
+
 # Agent & Tool Notes
 - The `healing_spot_finder_agent` is reliable for multi-map pathfinding to Pokémon Centers.
 - The `battle_switch_agent` is reliable for calculating switch sequences.
-- The `exploration_planner_agent` has proven unreliable and needs refinement before use.
-
-# Evolution Plans
-- **SPIKE (Nidoran♂):** Evolve at Lv. 16 for an early power spike with Nidoking. This misses out on Thrash, but provides great TM potential.
 
 # Critical Lessons Learned
 - **LESSON 1:** In complex, multi-level dungeons like Mt. Moon, use the `pathfinding_agent` proactively to plan routes *before* moving, not just reactively after getting lost.
