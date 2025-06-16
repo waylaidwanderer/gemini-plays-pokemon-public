@@ -35,3 +35,6 @@
 
 # Mt. Moon Navigation Log (Corrected)
 - **LESSON 12:** The ladder at B1F(26,10) leads UP to 1F. The ladder at B1F(18,12) leads DOWN to B2F(26,10). Taking the B2F(26,10) ladder back up results in an immediate, one-way warp back to B1F(18,12). The entire eastern section of B2F is a confirmed dead-end loop. Do not enter again.
+
+# Critical Lessons Learned (Continued)
+- **LESSON 13:** The `pathfinding_agent` has become unreliable, failing repeatedly. I must switch to manual path planning until I can successfully refine it. Do not rely on it.
