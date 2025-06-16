@@ -55,14 +55,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\",\"enum\":[\"URGENT HEAL\",\"CAUTION ADVISED\",\"PARTY HEALTHY\"]},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommendation\",\"reasoning\"]}",
     "agent_can_run_code": false
   },
-  "puzzle_solver_agent": {
-    "agent_name": "puzzle_solver_agent",
-    "agent_description": "Analyzes a described puzzle and its environment to suggest potential solutions or hypotheses to test.",
-    "agent_system_prompt": "You are a Puzzle Solver Agent. Your purpose is to analyze a textual description of a puzzle, including the environment, available items, and NPC dialogue, and then generate a list of concrete, testable hypotheses or solutions. You should think logically and creatively, considering out-of-the-box solutions. Your output should be a JSON object containing a list of suggestions.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"puzzle_description\":{\"type\":\"string\"},\"environment_details\":{\"type\":\"string\"},\"available_items\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"relevant_dialogue\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"puzzle_description\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_solutions\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"suggested_solutions\"]}",
-    "agent_can_run_code": false
-  },
   "progression_blocker_agent": {
     "agent_name": "progression_blocker_agent",
     "agent_description": "Analyzes the current map to identify NPCs or other obstacles physically blocking progress towards unseen areas or unvisited warps and suggests actions to resolve them. Relies on the Map Sprites list as the source of truth.true",
