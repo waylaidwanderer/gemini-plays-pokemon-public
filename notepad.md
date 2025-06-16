@@ -1,17 +1,15 @@
 # Gem's Gameplay Log & Strategies
 
 ## 1. Game Mechanics & Rules
-*   **Source of Truth:** The `Map Sprites` list is the definitive source for interactable items.
 *   **NPC Interaction Rule:** If an NPC with a trainer sprite only provides dialogue on the first interaction, assume they are a non-battler. Mark them and move on.
 *   **Poison Damage:** Poisoned Pokémon lose 1 HP every four steps.
-*   **Warp Mechanics:** It's possible to move between 'ground' and 'elevated_ground' tiles if one of the tiles is a warp.
 *   **Level Cap EXP:** Pokémon at the level cap will show an EXP gain message, but their actual EXP value does not increase. This is a visual bug.
 *   **Move Categories:** In Gen 1, move categories are based on type. Flying-type moves like Gust are Physical, so their damage IS affected by moves like Growl.
 
 ## 2. Battle Intel & Movesets
 *   **Rival BLAZe @ Cerulean City (North):** Challenged at (21, 7) after finding the burgled house.
-*   **Team Rocket @ Mt. Moon B2F:** Jessie & James's Team: Ekans (Lv 15), Meowth (Lv 16), Koffing (Lv 15). Triggered at (4,5) when trying to reach the steps at (4,6).
-*   **Mankey @ Nugget Bridge:** A Lv 18 Mankey's Low Kick move can cause flinching. Its Stun Spore failed, suggesting a possible immunity to powder moves for Fighting-types.
+*   **Team Rocket @ Mt. Moon B2F:** Jessie & James's Team: Ekans (Lv 15), Meowth (Lv 16), Koffing (Lv 15).
+*   **Mankey @ Nugget Bridge:** A Lv 18 Mankey's Low Kick move can cause flinching.
 
 ### Verified Type Weaknesses
 *   **Zubat (Poison/Flying):** Weak to Electric, Ice, Psychic, Rock.
@@ -23,7 +21,7 @@
 ### Cerulean City Gym - Misty
 *   **Status:** Failed Attempt 1 (Blacked out).
 *   **Key Intel:** Misty's ace is a Lv 21 Starmie (Water/Psychic). It is very fast and has powerful Psychic attacks (Confusion) and Water attacks (Bubblebeam).
-*   **New Strategy:** Explore north of Cerulean City for a suitable counter (e.g., a non-Poison Grass-type or a strong Bug-type) or grind levels for SPARKY.
+*   **New Strategy:** Explore north of Cerulean City for a suitable counter or grind levels for SPARKY.
 
 ## 4. Navigation & Exploration
 *   **Route 4:** Confirmed one-way path EAST to Cerulean City.
@@ -31,10 +29,10 @@
 
 ## 5. Agent Development
 *   **`battle_navigator_agent`:** Updated with more robust logic for menu navigation.
-*   **`battle_action_advisor`:** Updated to correctly identify and handle disabled moves. Use in tandem with navigator for every battle action.
+*   **`battle_action_advisor`:** Updated to correctly identify and handle disabled moves.
 
 ## 6. Pokémon-Specific Notes
-*   **PARCH (Sandshrew):** Verified to be a NORMAL type in this ROM hack, not Ground. This completely changes its matchups.
+*   **PARCH (Sandshrew):** Verified to be a NORMAL type in this ROM hack, not Ground.
 
 ## 7. Defeated Trainers
 *   **Route 24:** Jr. Trainer @ (6, 21), Lass @ (11, 23), Youngster @ (12, 26), Bug Catcher @ (12, 32).
