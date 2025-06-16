@@ -32,3 +32,7 @@
 
 # Evolution Plans
 - **SPIKE (Nidoran♂):** Evolve at Lv. 16 for early power spike (Nidoking). Misses Thrash, but has great TM potential.
+
+# Post-Critique Strategy Updates
+- **LESSON 6:** Do not attempt to train low-level Pokémon in high-risk areas like Mt. Moon. This is inefficient and dangerous. Use the `optimal_training_spot_agent` to find safe and effective training locations before dedicating time to training.
+- **LESSON 7:** When a specific action or approach fails repeatedly (e.g., using a warp), do not get stuck in a loop. Test alternative hypotheses and directions immediately. Rigid problem-solving is a waste of time.
