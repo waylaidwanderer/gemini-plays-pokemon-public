@@ -19,3 +19,9 @@
 *   **Systematic Exploration:** When exploring manually, adopt a methodical pattern (e.g., wall-following) to ensure complete coverage and avoid loops.
 *   **Pre-Move Path Check:** Before moving, visually trace the intended path on the map to ensure it is clear of obstacles.
 *   **Verified Blockers:** The Rocket Grunt at Mt. Moon B2F (16, 23) is an impassable obstacle even after being defeated. Not all defeated trainers are blockers.
+
+## Mt. Moon B2F - Team Rocket Encounter
+*   Jessie & James battle.
+*   Jessie's Team: Ekans (Lv 15), Meowth (Lv 16).
+*   James's Team: Unknown (likely Koffing).
+*   Triggered at (4,5) when trying to reach the steps at (4,6).
