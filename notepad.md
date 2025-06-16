@@ -1,45 +1,32 @@
 # Game Mechanics & Rules
-- **Battle-Warps:** Specific tiles can trigger a wild battle that also teleports the player. Location: Mt. Moon B2F (29, 9) -> B1F (21, 12). HIGHLY UNRELIABLE.
+- **Battle-Warps:** A tile at Mt. Moon B2F (29, 9) can trigger a wild battle that also warps the player to B1F (21, 12). This is unreliable.
 - **Confusion:** Wears off after battle.
-- **Defeated Trainers:** Some become impassable obstacles.
+- **Defeated Trainers:** Some become impassable obstacles, blocking paths permanently.
 - **Elevation Rule:** Movement between `ground` and `elevated_ground` requires a `steps` tile.
-- **Item-Gated NPCs:** Some NPCs block paths and require a specific item to let you pass. Ex: Rocket at Mt. Moon B2F (30, 12) requires a fossil.
+- **Item-Gated NPCs:** Some NPCs block paths and require a specific item to pass. Ex: Rocket at Mt. Moon B2F (30, 12) requires a fossil.
 
 # Battle Notes & Movesets
 - Electric is ineffective vs. Ground (Geodude, Sandshrew).
 - Grass is 4x effective vs. Rock/Ground (Geodude).
 - Electric is NOT very effective vs. Bug/Grass (Paras) or Grass/Poison (Oddish, Bellsprout).
-
-# Area-Specific Notes & Discoveries
-## Mt. Moon
-- **Layout:** Contains multiple, non-connected sections on its lower floors, accessible only via specific ladders on 1F. Some ladders are intentionally misleading and lead to dead-end loops.
-- **Defeated Trainers (1F):** Hiker (6, 7), Youngster (8, 23), Lass (17, 25), Super Nerd (25, 30), Lass (31, 7), Youngster (13, 17), Youngster (31, 28), Bug Catcher (32, 27)
-- **Defeated Trainers (B2F):** Rocket Grunt (16, 23), Rocket Grunt (30, 8)
-- **Obstacles:** A Rocket Grunt at (30, 12) on Mt. Moon B2F blocks the path and demands a fossil. This is an item gate, not a battle.
-- **Traps:** Battle-warp at (29, 9) on B2F is unreliable.
+- Flying is 4x effective vs. Bug/Grass (Paras).
 
 # Critical Lessons Learned
-- **LESSON 1:** Do not fixate on NPCs as impassable walls. Always check for open paths around them. My assumption that the Rocket at (30, 12) blocked the entire corridor cost me over 50 turns.
-- **LESSON 2 (Corrected):** Do not mark paths as 'dead ends' until all branches from that path are fully explored. My incorrect assumption about the ladder at (18, 12) on Mt. Moon 1F caused a massive, unnecessary backtrack.
-- **LESSON 3:** The battle-warp at (29, 9) on Mt. Moon B2F is completely unreliable and must be avoided as a progression strategy.
-- **LESSON 4:** If a path quickly seems to be a dead end, backtrack immediately and check for alternative entrances on the previous map. Some paths are intentionally misleading loops.
-- **LESSON 5:** Trust the `pathfinding_agent`. A `path_found: false` result is not a tool failure; it is definitive proof that the target is unreachable from the current location.
+- **LESSON 1:** Do not fixate on NPCs as impassable walls. Always check for open paths around them. (e.g., Rocket at Mt. Moon B2F (30, 12)).
+- **LESSON 2:** Do not mark paths as 'dead ends' until all connecting branches are fully explored.
+- **LESSON 3:** The battle-warp at Mt. Moon B2F (29, 9) is unreliable and should not be used for progression.
+- **LESSON 4:** Some paths in dungeons are intentionally misleading loops. If a path seems to be a dead end quickly, backtrack and check for alternative entrances on the previous map.
+- **LESSON 5:** Trust the `pathfinding_agent`. A `path_found: false` result is definitive proof that the target is unreachable from the current location and indicates the map is sectioned off.
+- **LESSON 6:** Avoid training low-level Pokémon in high-risk areas. Use the `optimal_training_spot_agent` for efficiency.
+- **LESSON 7:** If a specific action fails repeatedly (e.g., using a warp), test alternative hypotheses immediately. Do not get stuck in a loop.
+- **LESSON 8:** Defeated trainers can become impassable obstacles, completely blocking paths (e.g., Rocket at Mt. Moon B2F (16, 23)).
+- **LESSON 9:** In complex, maze-like areas, use the `pathfinding_agent` proactively to plan routes instead of relying on manual navigation to prevent wasted turns.
 
 # Agent & Tool Notes
-- The `pathfinding_agent` is reliable for on-map navigation.
+- The `pathfinding_agent` is reliable for on-map navigation and diagnosing isolated map sections.
 - The `healing_spot_finder_agent` is reliable for multi-map pathfinding to Pokémon Centers.
-- The `battle_switch_agent` is reliable, but its logic needs to be verified with new menu layouts.
+- The `battle_switch_agent` is reliable for calculating switch sequences.
+- The `exploration_planner_agent` has proven unreliable and needs refinement before use.
 
 # Evolution Plans
-- **SPIKE (Nidoran♂):** Evolve at Lv. 16 for early power spike (Nidoking). Misses Thrash, but has great TM potential.
-
-# Post-Critique Strategy Updates
-- **LESSON 6:** Do not attempt to train low-level Pokémon in high-risk areas like Mt. Moon. This is inefficient and dangerous. Use the `optimal_training_spot_agent` to find safe and effective training locations before dedicating time to training.
-- **LESSON 7:** When a specific action or approach fails repeatedly (e.g., using a warp), do not get stuck in a loop. Test alternative hypotheses and directions immediately. Rigid problem-solving is a waste of time.
-
-# Post-Critique Strategy Updates (T8281)
-- **LESSON 8:** Defeated trainers can become impassable obstacles, completely blocking paths. I must always look for a way *around* them, not through them. The Rocket at (16, 23) on Mt. Moon B2F is a prime example.
-- **AGENT REFINEMENT:** The `exploration_planner_agent` has failed multiple times. I need to investigate its prompt and logic to improve its reliability before relying on it again.
-
-# Post-Critique Strategy Updates (T8341)
-- **LESSON 9:** In complex, maze-like areas like Mt. Moon, I must use the `pathfinding_agent` proactively to plan routes instead of relying on manual navigation. This will prevent wasted turns from hitting obstacles.
+- **SPIKE (Nidoran♂):** Evolve at Lv. 16 for an early power spike with Nidoking. This misses out on Thrash, but provides great TM potential.
