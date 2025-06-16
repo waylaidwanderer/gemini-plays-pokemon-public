@@ -32,3 +32,5 @@
 
 # Evolution Plans
 - **SPIKE (Nidoran♂):** Evolve at Lv. 16 for early power spike (Nidoking). Misses Thrash, but has great TM potential.
+
+- **Boundary-Triggered Warps (Complex):** Some ladders, like the one at Mt. Moon B2F (16, 28), are non-functional via normal interaction. They require a specific movement pattern (e.g., moving onto an adjacent tile and then back onto the warp tile) to activate.
