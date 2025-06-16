@@ -6,7 +6,8 @@
 *   **Poison Damage:** Poisoned Pokémon lose 1 HP every four steps.
 *   **Warp Mechanics:** It's possible to move between 'ground' and 'elevated_ground' tiles if one of the tiles is a warp.
 *   **Mobile NPCs:** For evasive NPCs, use `stun_npc` to freeze them before interaction.
-*   **Defeated Trainers as Obstacles:** This is not a universal rule and must be verified case-by-case. The Rocket Grunt on Mt. Moon B2F at (16, 23) is a blocker, but others are not.
+*   **Defeated Trainers as Obstacles:** This is not a universal rule. The Rocket Grunt on Mt. Moon B2F at (16, 23) is a blocker, but others are not.
+*   **Level Cap EXP:** Pokémon at the level cap will show an EXP gain message, but their actual EXP value does not increase. This is a visual bug.
 
 ## 2. Battle & Pokémon Intel
 *   **Battle Tactics:** Ground-types appear immune to poison status. Avoid low-accuracy moves.
@@ -16,16 +17,13 @@
     *   Sandshrew (Ground): Weak to Water, Grass, Ice. Immune to Poison status.
     *   Paras (Bug/Grass): 4x weak to Fire/Flying.
 
-## 3. Area Notes
-### Route 4 (ID: 15)
-*   The Cool Trainer F near (7, 6) or (8, 5) can trigger a bugged phantom encounter.
+## 3. Agent Development & Known Issues
+*   **pathfinding_agent:** Catastrophically broken. Multiple attempts to fix it have failed, producing missing content or invalid JSON errors. It cannot be trusted for navigation in its current state. Requires a full teardown and rebuild. (Failed 4 times as of turn 7748).
+*   **systematic_explorer_agent:** Traversal logic is flawed in Mt. Moon and cannot be trusted. It has failed by generating paths into impassable walls. (Failed 1 time as of turn 7661).
+*   **npc_movement_predictor_agent:** Created to predict movement of mobile NPCs. Status: Untested.
+*   **wkg_transition_recorder_agent:** Functional, but needs to be paired with a WKG query to prevent adding duplicate edges.
 
-## 4. Custom Agent Log
-*   **Pathfinding Agent:** Catastrophically broken. Multiple attempts to fix it by redefining it have failed, producing missing content or invalid JSON errors. It cannot be trusted for navigation in its current state. Manual navigation is required for complex areas until it is completely redesigned from scratch with a more robust prompt.
-*   **systematic_explorer_agent:** Its traversal logic is flawed in Mt. Moon and cannot be trusted. It has failed by generating paths into impassable walls.
-*   **npc_movement_predictor_agent:** Created to predict movement of mobile NPCs.
-
-## 5. Lessons from Critiques
+## 4. Lessons from Critiques
 *   **Abandon Failing Tools & Objectives:** If a tool (like an agent) or an objective proves unproductive after a few documented attempts, disengage immediately. Do not get stuck in a debugging or failure loop. Pivot to a manual backup plan or a different objective.
 *   **Systematic Navigation:** When navigating complex dungeons, adopt a methodical exploration pattern (like wall-following) to prevent getting lost. Avoid forcing shortcuts.
 *   **Map Awareness:** Before setting a navigation goal in a complex, multi-level area, carefully trace the path on the map to confirm it's a contiguous, reachable area. Do not make assumptions about connectivity between isolated sections.
