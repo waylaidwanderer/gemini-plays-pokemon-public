@@ -15,7 +15,7 @@
 - **Layout:** Contains multiple, non-connected sections on its lower floors, accessible only via specific ladders on 1F. Some ladders are intentionally misleading and lead to dead-end loops.
 - **Defeated Trainers (1F):** Hiker (6, 7), Youngster (8, 23), Lass (17, 25), Super Nerd (25, 30), Lass (31, 7), Youngster (13, 17), Youngster (31, 28), Bug Catcher (32, 27)
 - **Defeated Trainers (B2F):** Rocket Grunt (16, 23), Rocket Grunt (30, 8)
-- **Obstacles:** A Rocket Grunt at (30, 12) on Mt. Moon B2F blocks the path and must be defeated.
+- **Obstacles:** A Rocket Grunt at (30, 12) on Mt. Moon B2F blocks the path and demands a fossil. This is an item gate, not a battle.
 - **Traps:** Battle-warp at (29, 9) on B2F is unreliable.
 
 # Critical Lessons Learned
