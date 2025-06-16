@@ -1,6 +1,6 @@
 # Game Mechanics & Rules
 - **Battle-Warps:** Specific tiles can trigger a wild battle that also teleports the player. Location: Mt. Moon B2F (29, 9) -> B1F (21, 12). HIGHLY UNRELIABLE.
-- **Boundary-Triggered Warps:** Some warps (like ladders) require moving into an adjacent impassable tile to activate. The first button press turns to face the boundary, the second triggers the warp.
+
 - **Confusion:** Wears off after battle.
 - **Defeated Trainers:** Some become impassable obstacles.
 - **Elevation Rule:** Movement between `ground` and `elevated_ground` requires a `steps` tile.
@@ -32,5 +32,3 @@
 
 # Evolution Plans
 - **SPIKE (Nidoran♂):** Evolve at Lv. 16 for early power spike (Nidoking). Misses Thrash, but has great TM potential.
-
-- **Boundary-Triggered Warps:** Some warps (like ladders) require moving into an adjacent impassable tile to activate. The first button press turns to face the boundary, the second triggers the warp.
