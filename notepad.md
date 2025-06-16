@@ -7,7 +7,7 @@
 - Grass is 4x effective vs. Rock/Ground (Geodude).
 
 # Agent & Tool Notes
-- **world_knowledge_manager_agent:** Logic refactored to be simpler. Needs testing at the next map transition.
+- **world_knowledge_manager_agent:** Agent is currently non-functional. **TOP PRIORITY:** Debug and fix this agent to ensure the World Knowledge Graph is kept up-to-date automatically.
 - **geodude_battle_agent:** Fully reliable for Geodude/Sandshrew encounters.
 - **battle_escape_agent:** Works perfectly. Use to flee non-essential wild battles.
 - **dungeon_pathfinder_agent:** **UNRELIABLE** on complex maps like Mt. Moon B2F. It has provided multiple incorrect paths. Do not use on this map.
