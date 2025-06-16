@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"traversable_tile_types\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"start_x\",\"start_y\",\"traversable_tile_types\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"exploration_path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"message\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"path_found\",\"exploration_path\"]}",
     "agent_can_run_code": true
+  },
+  "world_knowledge_manager_agent": {
+    "agent_name": "world_knowledge_manager_agent",
+    "agent_description": "Automates adding nodes and edges to the World Knowledge Graph after a map transition.",
+    "agent_system_prompt": "You are a World Knowledge Manager. Your task is to analyze the previous map_id, current map_id, previous coordinates, and current coordinates to create the necessary nodes and edges for the World Knowledge Graph. You must generate the correct `manage_world_knowledge` tool calls to add two nodes (one for the source, one for the destination) and one edge connecting them. The output must be a valid JSON array of tool calls.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"previous_map_id\":{\"type\":\"string\"},\"current_map_id\":{\"type\":\"string\"},\"previous_x\":{\"type\":\"integer\"},\"previous_y\":{\"type\":\"integer\"},\"current_x\":{\"type\":\"integer\"},\"current_y\":{\"type\":\"integer\"},\"connection_type\":{\"type\":\"string\",\"enum\":[\"warp\",\"map_edge\"]}},\"required\":[\"previous_map_id\",\"current_map_id\",\"previous_x\",\"previous_y\",\"current_x\",\"current_y\",\"connection_type\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"tool_calls\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"tool_name\":{\"type\":\"string\",\"enum\":[\"manage_world_knowledge\"]},\"tool_args\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"value\":{\"type\":\"string\"}},\"required\":[\"name\",\"value\"]}}},\"required\":[\"tool_name\",\"tool_args\"]}}},\"required\":[\"tool_calls\"]}",
+    "agent_can_run_code": false
   }
 }
