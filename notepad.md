@@ -34,3 +34,5 @@
 - **LESSON 12:** The ladder at B1F(26,10) leads UP to 1F. The ladder at B1F(18,12) leads DOWN to B2F(26,10). Taking the B2F(26,10) ladder back up results in an immediate, one-way warp back to B1F(18,12). The entire eastern section of B2F is a confirmed dead-end loop. Do not enter again.
 - **LESSON 13 (REVISED):** The `pathfinding_agent` was unreliable because its initial logic failed to account for two critical obstacle types: 1) impassable `<Object>` tags (NPCs, items) and 2) elevation changes (`ground` vs. `elevated_ground` without `steps`). The prompt was refined to explicitly treat all objects (except Pikachu) as walls and to respect elevation rules, making it reliable for navigation.
 - **LESSON 14:** Prioritize direct game state information and personal observation over external guides or preconceived notions. The Super Nerd at Mt. Moon 1F (25, 32) was a non-battling NPC, despite my assumption he was a mandatory fight.
+
+- **LESSON 15:** The elevated platform in the eastern part of Mt. Moon B2F, accessed via the steps at (29,8), is a confirmed dead end. The path forward is not there.
