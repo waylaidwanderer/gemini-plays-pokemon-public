@@ -29,9 +29,8 @@
 ## 4. Agent Notes
 *   **Pathfinding Agent Failure:** The `pathfinding_agent` is unreliable in complex, multi-level dungeons like Mt. Moon. Its pathing logic does not handle verticality (multiple floors) well and can lead to inefficient routes or loops. Manual navigation or the `dungeon_navigator_agent` should be used instead in these areas.
 
-## 5. Agent Ideas
-*   **NPC Movement Analyzer:** An agent that could take a series of NPC coordinates over several turns to predict their movement pattern. This could be useful for intercepting moving trainers or avoiding obstacles.
+## 5. My Custom Agents
+*   **npc_movement_predictor_agent:** Created to predict the movement patterns of mobile NPCs, helping to intercept them for battles or interactions.
 
 ## 6. Lessons from Critiques
-*   **Abandon Bugged Objectives:** If an objective or interaction is clearly bugged (e.g., phantom encounters, unbreakable loops), disengage immediately and move to a different area. Do not waste time trying to force a resolution.
-*   **Prioritize Progression:** Do not get hyper-fixated on non-essential optional goals, especially if they become time-consuming or problematic. The primary goal of progressing the story should always take precedence.
+*   **Abandon Failing Objectives:** If an objective (especially an optional one) is clearly bugged or proves unproductive after a few well-documented attempts, disengage immediately. Do not waste time in loops. The primary goal of progression is paramount.
