@@ -31,4 +31,4 @@
 *   **NPC Movement Analyzer:** An agent that could take a series of NPC coordinates over several turns to predict their movement pattern. This could be useful for intercepting moving trainers or avoiding obstacles.
 
 ## NPC Movement Tracking
-*   **Cool Trainer F (Route 4):** (10, 6), (9, 7), (12, 7), (13, 8), (14, 7), (12, 6), (7, 10), (5, 9), (9, 7), (6, 7), (5, 5), (6, 7)
+*   **Cool Trainer F (Route 4):** (10, 6), (9, 7), (12, 7), (13, 8), (14, 7), (12, 6), (7, 10), (5, 9), (9, 7), (6, 7), (5, 5), (6, 7), (6, 5)
