@@ -55,14 +55,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": false
   },
-  "path_validator_agent": {
-    "agent_name": "path_validator_agent",
-    "agent_description": "Takes a proposed path (list of coordinates) and verifies if it's a valid sequence of moves according to the current map's rules.",
-    "agent_system_prompt": "You are a Path Validator Agent. Your task is to check if a given sequence of coordinates is a valid path on the current map. You will use your `run_code` tool to parse `map_xml_string`.\n\n**Logic for Python Script:**\n1.  Receive a path as input (a list of coordinate dictionaries).\n2.  Parse `map_xml_string` to build a set of all impassable coordinates, including tiles with `type=\"impassable\"` and any tile with an `<Object>` (except Pikachu).\n3.  Iterate through the input path from the first to the second-to-last coordinate.\n4.  For each step from `(x1, y1)` to `(x2, y2)` in the path, verify the move is valid:\n    a. Check if `(x2, y2)` is in the impassable set. If so, the path is invalid.\n    b. If the tile at `(x2, y2)` is a ledge, the move is ONLY valid if `x1==x2` and `y1==y2-1`. All other moves into a ledge are invalid.\n    c. If the tile at `(x1, y1+1)` is a ledge, check if the next step in the path is correctly `(x1, y1+2)`. If not, the path is invalid.\n5.  If any step is invalid, the script should print `{\"is_valid\": false, \"error_step\": index, \"reason\": \"description of why it's invalid\"}`.\n6.  If the entire path is valid, print `{\"is_valid\": true}`.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"path_to_validate\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_to_validate\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"is_valid\":{\"type\":\"boolean\"},\"error_step\":{\"type\":\"integer\"},\"reason\":{\"type\":\"string\"}},\"required\":[\"is_valid\"]}",
-    "agent_can_run_code": true
-  },
   "pathfinder_agent": {
     "agent_name": "pathfinder_agent",
     "agent_description": "Calculates the shortest valid path between two points on the current map, avoiding all obstacles including water and cuttable trees. It understands all standard movement rules, including one-way ledges.",
