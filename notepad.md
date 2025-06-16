@@ -6,7 +6,7 @@
 - **Level Cap EXP:** Pokémon at the level cap will show an EXP gain message, but their actual EXP value does not increase. This is a visual bug.
 - **Move Categories:** In Gen 1, move categories are based on type. Flying-type moves like Gust are Physical, so their damage IS affected by moves like Growl.
 - **ROM Hack Type Changes:**
-    - Sandshrew is a NORMAL type, not Ground.
+    - Sandshrew is a GROUND type, not Normal. (Confirmed during battle with Youngster on Route 25).
 
 ## 2. Battle Intel & Movesets
 - **Mankey (Route 22):** Low Kick can cause flinching.
