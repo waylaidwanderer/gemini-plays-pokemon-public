@@ -37,6 +37,4 @@
 
 - **LESSON 15:** The elevated platform in the eastern part of Mt. Moon B2F, accessed via the steps at (29,8), is a confirmed dead end. The path forward is not there.
 
-- **LESSON 15:** The elevated platform in the eastern part of Mt. Moon B2F, accessed via the steps at (29,8), is a confirmed dead end. The path forward is not there.
-
 - **LESSON 16:** I ignored my own explicit warning in Lesson 12 and re-entered the eastern dead-end loop of Mt. Moon B2F. I must review my notes for a specific area *before* entering it to avoid repeating such a colossal waste of time.
