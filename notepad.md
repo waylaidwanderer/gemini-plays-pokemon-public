@@ -1,6 +1,8 @@
 # Current Strategy & Tool Status
 - **Navigation in High-Encounter Areas:** Adopt a short-segment navigation strategy. Instead of plotting long routes, I will plan movements to the next immediate landmark or junction to minimize disruption from wild battles.
-- **`pathfinding_agent` Status:** Reinstated. **Lesson Learned:** The agent correctly finds the shortest path of *traversable tiles*. My previous assumption that it was 'broken' was incorrect. It is my responsibility to manually plan routes around dynamic obstacles like NPCs, which the agent cannot see. The agent is a tool for pathing, not for dynamic obstacle avoidance.
+- **`pathfinding_agent` Status:** FAILED. The agent provided a path that goes directly through an NPC at (18, 26) in Pewter City, despite its prompt instructing it to treat NPCs as impassable walls. This is the second major failure. I am refining its prompt to be more explicit about handling objects. If it fails again, I will have to consider a more robust solution.
+- **`wkg_payload_generator_agent`:** Untested. The Route 2 -> Pewter City connection was already in the WKG. Will test at the next *new* map transition.
+- **`pathfinding_agent`:** Refined prompt. Must re-test immediately on Pewter City map.
 - **`world_knowledge_manager_agent` Status:** Deleted. The agent was non-functional and overly complex. Reverting to manual WKG updates using the simpler `wkg_payload_generator_agent`.
 
 # Agent Development Pipeline
