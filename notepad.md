@@ -1,13 +1,12 @@
 # Current Strategy & Tool Status
 - **Navigation in High-Encounter Areas:** Adopt a short-segment navigation strategy. Instead of plotting long routes, I will plan movements to the next immediate landmark or junction to minimize disruption from wild battles.
-- **`pathfinding_agent` Status:** FAILED. The agent provided a path that goes directly through an NPC at (18, 26) in Pewter City, despite its prompt instructing it to treat NPCs as impassable walls. This is the second major failure. I am refining its prompt to be more explicit about handling objects. If it fails again, I will have to consider a more robust solution.
-- **`wkg_payload_generator_agent`:** Untested. The Route 2 -> Pewter City connection was already in the WKG. Will test at the next *new* map transition.
-- **`pathfinding_agent`:** Refined prompt. Must re-test immediately on Pewter City map.
-- **`world_knowledge_manager_agent` Status:** Deleted. The agent was non-functional and overly complex. Reverting to manual WKG updates using the simpler `wkg_payload_generator_agent`.
+- **`pathfinding_agent` Status:** FAILED TWICE. The agent provided paths that went directly through NPCs. I have refined its prompt to be more explicit about treating objects as impassable walls. **MUST re-test immediately on the Pewter City map.**
+- **`wkg_payload_generator_agent` Status:** Untested. The Route 2 -> Pewter City connection was already in the WKG. Will test at the next *new* map transition.
 
 # Agent Development Pipeline
-- **PRIORITY:** `wkg_payload_generator_agent` needs to be tested at the next map transition.
-- **Idea:** `maze_solver_agent` that uses a simple wall-following algorithm for complex mazes like this forest.
+- **PRIORITY:** `pathfinding_agent` must be re-tested after prompt refinement.
+- **PRIORITY:** `wkg_payload_generator_agent` needs to be tested at the next new map transition.
+- **New Agent:** `maze_solver_agent` defined. This agent uses a left-hand-rule wall-following algorithm for navigating complex mazes.
 
 # Strategic Principles & Lessons Learned
 - **Two-Strikes Rule:** If an interaction or path fails twice with no new information, abandon the approach and re-evaluate. Do not get stuck in loops.
@@ -24,7 +23,6 @@
 # Campaign Archive
 - **Mt. Moon Navigation:** The main path was in the eastern section of 1F, looping around the central structures. The western ladder system on 1F led to a large, looping dead-end area.
 - **Route 4 Ledge Trap:** The lower part of Route 4 is a one-way path of ledges leading back to Route 3. The correct path to Cerulean is on the upper plateau.
-
 - **Wild Pokémon Movesets:** Assumption that all wild Pokémon of the same species share the same moveset is unverified. I need to track the moves of different level encounters to confirm or deny this.
 
 # Tool Reliability Notes
@@ -32,5 +30,6 @@
 - **`wkg_payload_generator_agent`:** Untested. Must test at the next new map transition.
 
 # To-Do & Testing
-- **`wkg_payload_generator_agent`:** Untested. Must test at the next *new* map transition (VF Gate to Rte 2 was already known).
+- **`pathfinding_agent`:** Must re-test immediately in Pewter City.
+- **`wkg_payload_generator_agent`:** Untested. Must test at the next *new* map transition.
 - **Level Cap Status:** SPARKY is at the cap (21). NIGHTSHADE is close (20). Avoid using them in battle unless necessary.
