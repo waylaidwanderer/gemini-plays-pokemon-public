@@ -1,6 +1,6 @@
 # Current Strategy & Tool Status
 - **Navigation in High-Encounter Areas:** Adopt a short-segment navigation strategy. Instead of plotting long routes, I will plan movements to the next immediate landmark or junction to minimize disruption from wild battles.
-- **`pathfinding_agent` Status:** FAILED TWICE. The agent provided paths that went directly through NPCs. I have refined its prompt to be more explicit about treating objects as impassable walls. **MUST re-test immediately on the Pewter City map.**
+- **`pathfinding_agent` Status:** SUCCESS! After refining the prompt to be more explicit about treating ALL objects (except Pikachu) as impassable walls, the agent successfully navigated around the NPC in Pewter City. This confirms the refinement was effective. The tool is now considered reliable for intra-map pathfinding.
 - **`wkg_payload_generator_agent` Status:** Untested. The Route 2 -> Pewter City connection was already in the WKG. Will test at the next *new* map transition.
 
 # Agent Development Pipeline
