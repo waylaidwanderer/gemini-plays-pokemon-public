@@ -1,33 +1,30 @@
 # Strategic Principles
-- Trust The Game State: The game state data (especially `reachable` flags) is the ultimate source of truth. A path always exists to a reachable tile.
-- Systematic Navigation: When agents or long paths fail, use methodical, short, verifiable movements.
+- Trust The Game State: The game state data (especially `reachable` flags) is the ultimate source of truth.
+- Systematic Navigation: Use agents for complex paths; use short, verifiable moves for simple repositions.
 - NPCs are Walls: NPCs are impassable obstacles.
 - Two-Strikes Rule: If a path or interaction fails twice, re-evaluate assumptions before trying a third time.
 
 # Game Mechanics & Battle Intel
-- **Type Matchups:**
+- **Type Matchups (Verified):**
     - Grass is 4x effective vs. Rock/Ground (e.g., Geodude).
-    - Electric-type moves are not very effective against Electric-type Pokémon (e.g., Pikachu vs. Voltorb).
+    - Electric-type moves are 'not very effective' against Electric-type Pokémon (e.g., Pikachu vs. Voltorb).
+    - Electric-type moves (THUNDERPUNCH) are 'not very effective' against Paras (Bug/Grass).
 - **Status Effects:**
     - Confusion wears off after battle.
-    - Poison-type Pokémon appear to be immune to being poisoned (Verified: 1, Paras's Poison Powder failed on Zubat).
+    - Poison-type Pokémon appear to be immune to being poisoned.
 - **EXP Share:** Only Pokémon in the party when the final opponent faints receive EXP.
+- **Level Cap EXP Gain:** Confirmed that Pokémon at the level cap do not gain EXP, even if the message appears.
+
+# Battle Strategy Insights
+- **Paralysis Strategy:** When a lead Pokémon is paralyzed, its Speed is severely reduced. Attempting to run is highly likely to fail and wastes turns. It is more efficient to fight immediately. (Insight from AI critique, T11016)
 
 # Campaign Log & Hypotheses
 - **Hypothesis:** Wild Pokémon of the same species may have different movesets. (Status: Unverified)
 
-# Navigation Insights & Failures
-- **Mt. Moon B2F West Platform:** I was stuck at (18, 18) for dozens of turns, repeatedly failing to navigate. I wrongly assumed I could move through walls and made multiple invalid path plans. Lesson learned: When stuck, stop and analyze the map carefully. Use short, verifiable moves instead of long, error-prone ones.
-- **BFS Pathfinding Failure:** My `run_code` attempt at a BFS pathfinder failed because the code did not correctly parse the map's traversable areas and account for isolated platforms.
-
-# Agent Development
+# Agent Development & Testing
 - **`maze_solver_agent`:** Deleted. Fundamentally broken.
 - **`fossil_choice_advisor_agent`:** Verified as reliable.
-- **`pikachu_path_adjuster_agent`:** Created to handle Pikachu's movement. Must be tested on simple paths first.
-- **`unseen_tile_navigator_agent`:** Created to find paths to the nearest unseen tile, aiding systematic exploration.
-
-- **Type Matchups (New Finding):** Electric-type moves (THUNDERPUNCH) are 'not very effective' against Paras (Bug/Grass). This suggests a change in the type chart.
-
-- **Level Cap EXP Gain:** Confirmed that even if the 'gained EXP' message appears, Pokémon at the level cap do not actually gain any experience points. (Verified with SPARKY at Lv. 21 after defeating a wild Clefairy).
-
-- **Battle Strategy Insight:** When lead Pokémon is paralyzed, its Speed is reduced, making it very unlikely to escape from battle. It is more efficient to fight immediately rather than wasting turns attempting to run.
+- **`unseen_tile_navigator_agent`:** Verified as reliable for pathfinding to unseen tiles.
+- **`battle_strategist_agent`:** Verified as reliable for single-opponent battles.
+- **`battle_switch_agent`:** Verified as reliable.
+- **`pikachu_path_adjuster_agent`:** Created to handle Pikachu's movement. **Status: Untested.** Must be tested on a simple path soon.
