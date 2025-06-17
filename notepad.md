@@ -24,3 +24,5 @@
 - **Wild Pokémon Movesets (Hypothesis):** The assumption that all wild Pokémon of the same species share the same moveset is unverified. I need to track moves from different encounters to confirm.
 
 - **`select_battle_option`:** Unreliable. Failed multiple times. Manual inputs are more consistent.
+
+- `wkg_payload_generator_agent`: Partially successful test. It generated a valid JSON structure, but it was a list of two actions (`add_node`, `add_edge`). The `manage_world_knowledge` tool only accepts a single action payload. The agent needs refinement to generate only one action at a time. It remains benched for now.
