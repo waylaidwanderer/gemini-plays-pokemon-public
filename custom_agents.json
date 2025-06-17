@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}}},\"required\":[\"path_found\",\"path\"]}",
     "agent_can_run_code": true
+  },
+  "wkg_payload_generator_agent": {
+    "agent_name": "wkg_payload_generator_agent",
+    "agent_description": "Generates the JSON payload for a single `manage_world_knowledge` call (either 'add_node' or 'add_edge').",
+    "agent_system_prompt": "You are a World Knowledge Graph assistant. Your task is to generate ONLY the JSON payload string for a single `manage_world_knowledge` tool call. You will be given the action type ('add_node' or 'add_edge') and the necessary data. You MUST use your `run_code` tool. Your Python code will construct the appropriate dictionary for the payload and print it as a JSON string. Your final output must ONLY be the raw JSON string from the `run_code` tool, without any surrounding text or formatting. For 'add_edge' actions, you will be given the source and destination node IDs directly.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\",\"enum\":[\"add_node\",\"add_edge\"]},\"data\":{\"type\":\"object\"}},\"required\":[\"action\",\"data\"]}",
+    "agent_output_schema": "{\"type\":\"string\",\"description\":\"A JSON string representing the payload for the manage_world_knowledge tool.\"}",
+    "agent_can_run_code": true
   }
 }
