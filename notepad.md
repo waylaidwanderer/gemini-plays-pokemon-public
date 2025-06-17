@@ -29,3 +29,6 @@
 - **`battle_switch_agent`:** Verified as reliable.
 - **`pathfinder_agent`:** Created to find paths to specific coordinates. **Status: Functional but requires refinement for complex obstacles.**
 - **`pikachu_path_adjuster_agent`:** Created to handle Pikachu's movement. **Status: Verified as reliable.**
+
+# Agent Ideas
+- An agent to suggest optimal party compositions from the PC based on upcoming challenges.
