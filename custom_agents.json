@@ -23,14 +23,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_lead\":{\"type\":\"string\"},\"battle_order\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"},\"potential_risks\":{\"type\":\"string\"}},\"required\":[\"suggested_lead\",\"battle_order\",\"reasoning\"]}",
     "agent_can_run_code": false
   },
-  "party_health_assessor": {
-    "agent_name": "party_health_assessor",
-    "agent_description": "Analyzes the player's party to determine its overall health status (HP, status conditions, fainted members) and advises on the urgency of visiting a Pokémon Center. Considers strategic importance.",
-    "agent_system_prompt": "You are a Party Health Assessor. Your job is to analyze the player's party and provide a clear, concise assessment of its overall health. You must consider HP percentages, active status conditions (Poison, Sleep, etc.), and the number of fainted Pokémon. Your output should be a single strategic recommendation and a brief justification.\n\n**Input:** `player_party` (an array of Pokémon objects), `strategic_pokemon_names` (an array of strings for key Pokémon).\n\n**Logic:**\n1.  **Urgent:** Recommend 'URGENT HEAL' if:\n    *   Any Pokémon listed in `strategic_pokemon_names` is below 50% HP or has a status condition.\n    *   Two or more Pokémon are fainted.\n    *   Three or more Pokémon are below 50% HP.\n2.  **Caution:** Recommend 'CAUTION ADVISED' if:\n    *   Any Pokémon listed in `strategic_pokemon_names` is below 75% HP.\n    *   One Pokémon is fainted.\n    *   Any single Pokémon is below 30% HP.\n    *   Two Pokémon are below 50% HP.\n    *   Any Pokémon has a persistent status condition like Poison.\n3.  **Healthy:** Recommend 'PARTY HEALTHY' if none of the above conditions are met.\n\nProvide a clear `reasoning` string explaining your choice.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"hp_current\":{\"type\":\"integer\"},\"hp_max\":{\"type\":\"integer\"},\"status\":{\"type\":[\"string\",\"null\"]}},\"required\":[\"name\",\"hp_current\",\"hp_max\"]}}, \"strategic_pokemon_names\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}},\"required\":[\"player_party\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\",\"enum\":[\"URGENT HEAL\",\"CAUTION ADVISED\",\"PARTY HEALTHY\"]},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommendation\",\"reasoning\"]}",
-    "agent_can_run_code": false
-  },
   "battle_navigator_agent": {
     "agent_name": "battle_navigator_agent",
     "agent_description": "Generates the precise button presses to navigate battle menus for actions like using a move or switching Pokémon.",
