@@ -1,6 +1,8 @@
 # Gem's Gameplay Journal
 
 ## I. Strategic Principles
+- **Verify Location First:** ALWAYS confirm `map_id` and `coordinates` from the Game State before forming any plan. No exceptions.
+- **Mandatory Agent Use:** For all Gyms and major boss battles, using `gym_gauntlet_planner_agent` and `team_composition_advisor_agent` is non-negotiable.
 - **Trust The Game State:** The provided game state data (`map_id`, `reachable` flags) is the ultimate source of truth. Always verify location before making a plan.
 - **Systematic Navigation:** Use agents for complex paths; use short, verifiable moves for simple repositions. Cross-reference agent output with game state.
 - **NPCs are Walls:** Treat all non-player sprites (except Pikachu) as impassable obstacles.
