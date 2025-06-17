@@ -41,4 +41,4 @@
 - `item_finder_agent`: Updated to find named NPCs.
 
 ### Party & Training Notes
-- **PIP (Pidgey):** Leveled to 19 and learned WING ATTACK. Evolution was triggered but then stopped, possibly due to a ROM hack mechanic changing evolution levels.
+- **PIP (Pidgey):** Leveled to 19 and learned WING ATTACK. Its evolution was triggered, but I accidentally cancelled it. I need to remember that pressing 'B' during evolution stops it.
