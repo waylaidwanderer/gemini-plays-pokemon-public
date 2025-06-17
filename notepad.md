@@ -40,8 +40,6 @@
 
 ## 5. Untested Hypotheses & Plans
 
-- **NEW AGENT IDEA:** `progression_advisor_agent`. Input: badges, location. Output: Suggests the next logical major objective (e.g., next city/gym) to prevent getting fixated on incorrect paths.
-
 - **Underground Path Item Hint:** A girl in the southern exit room mentioned that people often lose things in the tunnel. This could be a clue for a hidden item.
 
 - **Poison Fainting:** A Sailor in Vermilion Pokecenter confirmed that a poisoned Pokémon can faint from taking damage while walking outside of battle.
