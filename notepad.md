@@ -29,3 +29,5 @@
 - **Type Matchups (New Finding):** Electric-type moves (THUNDERPUNCH) are 'not very effective' against Paras (Bug/Grass). This suggests a change in the type chart.
 
 - **Level Cap EXP Gain:** Confirmed that even if the 'gained EXP' message appears, Pokémon at the level cap do not actually gain any experience points. (Verified with SPARKY at Lv. 21 after defeating a wild Clefairy).
+
+- **Battle Strategy Insight:** When lead Pokémon is paralyzed, its Speed is reduced, making it very unlikely to escape from battle. It is more efficient to fight immediately rather than wasting turns attempting to run.
