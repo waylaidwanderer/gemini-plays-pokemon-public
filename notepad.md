@@ -45,3 +45,5 @@
 - **NEW AGENT IDEA:** `progression_advisor_agent`. Input: badges, location. Output: Suggests the next logical major objective (e.g., next city/gym) to prevent getting fixated on incorrect paths.
 
 - **Underground Path Item Hint:** A girl in the southern exit room mentioned that people often lose things in the tunnel. This could be a clue for a hidden item.
+
+- **NEW AGENT IDEA:** `route_summary_agent`. Input: route ID. Output: Summary of trainers, connections, and special notes for a given route, using WKG and notepad data. Useful for planning long journeys.
