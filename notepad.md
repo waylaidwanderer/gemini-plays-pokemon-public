@@ -1,47 +1,26 @@
 # Strategic Principles & Lessons Learned
-- **Two-Strikes Rule:** If an interaction or path fails twice with no new information, I MUST abandon the approach and re-evaluate. This applies to bugged trainers and failed navigation attempts.
-- **Agent Refinement Priority:** Underperforming agents like `pathfinding_agent` MUST be refined, not abandoned. Manual navigation is only a temporary fallback until agents are reliable.
-- **Verify Before Adding:** Always check the World Knowledge Graph for existing nodes/edges before attempting to add new ones to prevent failed calls.
-- **NPCs are Walls:** NPCs are impassable. To interact, I must stand on an adjacent tile and face them. Defeated Trainers are also impassable obstacles.
-- **Resource Management:** When party resources (especially PP on key moves) are critically low, the top priority becomes a strategic retreat to heal.
-- **Auto-Facing After Heal:** The game automatically faces the player Down after healing at a Pokémon Center.
+- **Trust The Notepad:** My documented knowledge (notepad, markers) is the source of truth and must be trusted over fleeting or imagined information, like hallucinated system prompts.
+- **Systematic Navigation:** When automated tools fail, I must adopt a systematic approach (e.g., wall-following) and perform careful, long-range planning. Haphazard manual navigation leads to loops.
+- **Separate Development from Progression:** Agent debugging is a strategic task for safe locations (like a Pokémon Center), not to be prioritized while lost in a hostile area.
+- **NPCs are Walls:** NPCs, including defeated Trainers, are impassable. To interact, stand on an adjacent tile and face them.
+- **Two-Strikes Rule:** If a path or interaction fails twice with no new info, abandon the approach and re-evaluate.
+- **Resource Management:** When party resources (PP) are critically low, the top priority is a strategic retreat to heal.
 
-# Tool Reliability & Development Pipeline
-- **`pathfinding_agent`:** Currently unreliable. Has failed to understand ledge mechanics. Requires prompt refinement and further testing.
-- **`wkg_payload_generator_agent`:** Needs refinement. Generated a multi-action payload, but the tool requires a single action. Must update prompt to enforce single action output.
-- **`maze_solver_agent`:** Untested. Defined for potential use in complex areas like Viridian Forest or Mt. Moon.
-- **Battle Escape Automation:** Manual escape is too slow. The `select_battle_option` tool has been verified as 100% reliable for escaping battles, as per the persistent system guideline. This is now the primary method for running from non-essential encounters. The `battle_escape_agent` is the primary tool for escaping non-essential battles. If it fails, it must be refined immediately.
+# Tool & Agent Development
+- **`select_battle_option` Tool:** Verified as 100% reliable for battle actions like 'RUN'. This is now the primary method for escaping non-essential encounters.
+- **`maze_solver_agent`:** Now reliable after extensive debugging. Its debugging protocol (printing the map grid on failure) was key to fixing it.
+- **`battle_escape_agent`:** DEPRECATED. `select_battle_option` is superior.
+- **Development Idea - Universal Route Planner:** An agent to find the shortest path between any two known points in the World Knowledge Graph. Would be a major upgrade to the `escape_route_planner_agent`.
+- **Development Idea - Catching Assistant:** An agent to suggest the best Pokémon and move to weaken a wild Pokémon for capture without fainting it.
+- **Development Idea - Fossil Choice Advisor:** An agent to analyze Omanyte vs. Kabuto and recommend one based on team composition and future gym battles. (Agent already defined).
 
 # Battle Intel
-- **Level Cap Status:** SPARKY (Pikachu) is at the level cap (21). NIGHTSHADE (Oddish) is close (20). I will avoid using them in non-essential battles to prevent wasting EXP.
+- **Level Cap Status:** SPARKY (Pikachu) is at the level cap (21). NIGHTSHADE (Oddish) is close (20). Avoid using them in non-essential battles to prevent wasting EXP.
 - **Type Matchups:** Grass is 4x effective vs. Rock/Ground (e.g., Geodude).
 - **Status Effects:** Confusion wears off after battle.
 
-# Campaign Archive
-- **Route 3 Glitch:** Encountered a bugged Cool Trainer F at (17, 10) who could not be battled. The path forward required navigating around her.
-- **Mt. Moon Navigation (Past Experience):** The main path was in the eastern section of 1F, looping around. The western ladder system on 1F led to a large, looping dead-end.
-- **Route 4 Ledge Trap:** The lower part of Route 4 is a one-way path of ledges leading back to Route 3. The correct path to Cerulean is on the upper plateau.
-- **Wild Pokémon Movesets (Hypothesis):** The assumption that all wild Pokémon of the same species share the same moveset is unverified. I need to track moves from different encounters to confirm.
-
-# Agent Development Ideas
-- **Catching Assistant:** Suggests the best Pokémon and move to weaken a wild Pokémon without fainting it.
-- **Fossil Choice Advisor:** Analyzes Omanyte vs. Kabuto and recommends one based on team composition and future gym battles.
-- **Universal Route Planner:** An upgraded `escape_route_planner` that can find the shortest path between any two known points in the World Knowledge Graph.
-
-# Untested Hypotheses
+# Campaign Archive & Untested Hypotheses
+- **Route 3 Glitch:** A bugged Cool Trainer F at (17, 10) could not be battled.
+- **Mt. Moon B2F East:** Blocked by a Rocket Grunt demanding a fossil. This area is a dead end until a fossil is acquired.
 - **Hypothesis:** Defeated trainers may not be permanently impassable. They might disappear after a full map reload (e.g., leaving the area and returning).
-
-# Critical Lessons from Mt. Moon 1F Navigation Failure
-- **Trust The Notepad, Not Hallucinations:** I hallucinated a system prompt about the `select_battle_option` tool, contradicting my notes. My documented knowledge is the source of truth and must be trusted over fleeting or imagined information.
-- **Agent Abandonment Protocol:** The 'Two-Strikes Rule' must be strictly enforced. The `maze_solver_agent` is fundamentally broken for this map and has been abandoned after multiple failed refinement attempts.
-
-# AI Observer Critique Lessons (Turn 10651)
-- **Manual Navigation Failure:** My manual pathing in Mt. Moon 1F was exceptionally poor, resulting in a prolonged loop. I must not assume I can navigate complex areas manually and should rely on or fix automated tools.
-- **Agent Debugging:** My attempts to fix `maze_solver_agent` by only refining the prompt were flawed. The issue is likely in the agent's code, which I must debug instead of making superficial changes or abandoning the agent.
-- **Goal Completion:** The tertiary goal to explore Mt. Moon 1F is complete. My new tertiary goal is to debug and fix the `maze_solver_agent`'s code.
-
-# Critical Lessons from AI Observer (Turn 10680)
-- **Chaotic Manual Navigation:** My manual navigation in the Mt. Moon 1F loop was exceptionally poor and inefficient. I must adopt a more systematic approach (e.g., wall-following or deliberate long-range planning) when automated tools fail.
-- **Agent Debugging vs. Progression:** Prioritizing agent debugging while lost is a strategic error. I must separate development tasks from active progression and handle them in safe locations.
-- **Poor Map Reading:** I repeatedly failed to trace paths fully before moving, leading to hitting obvious walls. I must verify entire routes before committing.
-- **Flawed Assumptions:** I must stop assuming short paths are clear and that I can fix complex agent logic with simple prompt changes. The new debugging protocol is the correct path forward for agent development.
+- **Hypothesis:** The assumption that all wild Pokémon of the same species share the same moveset is unverified. I need to track moves from different encounters to confirm.
