@@ -18,7 +18,7 @@
 - **Hypothesis:** Wild Pokémon of the same species may have different movesets. (Status: Unverified)
 
 # Agent Development
-- **`maze_solver_agent`:** Currently unreliable due to issues with Pikachu pathing. Avoid use until fixed.
+- **`maze_solver_agent`:** Fixing this agent is my top priority. It fails to correctly implement the Pikachu movement rule. I need to refine its prompt to be more explicit about the required Python logic.
 - **`fossil_choice_advisor_agent`:** Verified as reliable.
 - **Ideas:**
     - Universal Route Planner: Agent to find the shortest path between any two known points.
