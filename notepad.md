@@ -24,3 +24,5 @@
 - **Mt. Moon B2F East:** Blocked by a Rocket Grunt demanding a fossil. This area is a dead end until a fossil is acquired.
 - **Hypothesis:** Defeated trainers may not be permanently impassable. They might disappear after a full map reload (e.g., leaving the area and returning).
 - **Hypothesis:** The assumption that all wild Pokémon of the same species share the same moveset is unverified. I need to track moves from different encounters to confirm.
+
+- **New Discovery:** Electric-type moves are not very effective against Electric-type Pokémon.
