@@ -39,5 +39,5 @@
 - `party_manager_agent`: Created for party composition suggestions.
 - `item_finder_agent`: Updated to find named NPCs.
 
-### My Party Notes
-- **PIP (Pidgey):** Leveled to 19, learned WING ATTACK. Attempted to evolve but stopped, likely due to ROM hack mechanics.
+### Party & Training Notes
+- **PIP (Pidgey):** Leveled to 19 and learned WING ATTACK. Evolution was triggered but then stopped, possibly due to a ROM hack mechanic changing evolution levels.
