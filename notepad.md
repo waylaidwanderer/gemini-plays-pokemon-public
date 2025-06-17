@@ -37,10 +37,7 @@
 - **Saffron City Access:** The gatehouse guard is thirsty. I probably need to find him a drink to pass.
 
 ## 6. Agent Development Log
-- **Pathfinder Agent Overhaul:** The agent's pathing logic fails consistently on complex indoor maps (Fan Club, S.S. Anne). The issue seems to be its inability to correctly identify walkable paths around furniture and internal walls. Plan: A major system prompt rewrite is required. The new prompt will give the agent's Python script explicit, step-by-step instructions for building its impassable tile set, including handling objects, defeated trainers, and special cases like Pikachu. This should fix the core logic flaw.
+- **Pathfinder Agent Overhaul:** The agent's pathing logic fails consistently on complex indoor maps (Fan Club, S.S. Anne). The issue is its inability to correctly identify walkable paths around furniture and internal walls. A major system prompt rewrite has been implemented to give the agent's Python script explicit, step-by-step instructions for building its impassable tile set and handling pathing failures gracefully by suggesting manual routes. *This needs to be continually tested.*
 
-## 7. The Fan Club Paradox (SOLVED)
-- **Resolution:** The 'reachable' data was correct. The pathing agents were fundamentally flawed for this map layout, creating the illusion of an invisible wall. After numerous failed attempts, a careful manual path around the southern edge of the room successfully navigated to the west side. The Chairman provided the BIKE VOUCHER after listening to his story.
-
-## 8. Training Goals
+## 7. Training Goals
 - **Post S.S. Anne:** PARCH (Lv 12) and THISTLE (Lv 16) are significantly under-leveled. A dedicated training session is needed to bring them up to par with the rest of the team.
