@@ -1,6 +1,6 @@
 # Current Strategy & Tool Status
 - **Navigation in High-Encounter Areas:** Adopt a short-segment navigation strategy. Instead of plotting long routes, I will plan movements to the next immediate landmark or junction to minimize disruption from wild battles.
-- **`pathfinding_agent` Status:** Shelved. The agent has repeatedly failed to recognize defeated trainers as obstacles. Reverting to manual navigation until this is definitively fixed. (3 failed attempts)
+- **`pathfinding_agent` Status:** Reinstated. **Lesson Learned:** The agent correctly finds the shortest path of *traversable tiles*. My previous assumption that it was 'broken' was incorrect. It is my responsibility to manually plan routes around dynamic obstacles like NPCs, which the agent cannot see. The agent is a tool for pathing, not for dynamic obstacle avoidance.
 - **`world_knowledge_manager_agent` Status:** Deleted. The agent was non-functional and overly complex. Reverting to manual WKG updates using the simpler `wkg_payload_generator_agent`.
 
 # Agent Development Pipeline
