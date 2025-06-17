@@ -10,13 +10,18 @@
 ### ROM Hack Discoveries
 - **Sandshrew Typing:** Sandshrew is a GROUND type, not Normal. (Confirmed vs. Youngster on Route 25).
 
-## 2. Battle Intel
+## 2. Lessons Learned
+- **Defeated Trainers are Impassable:** Defeated trainer sprites act as solid walls. Always plan routes *around* them, not through them. (Learned on Nugget Bridge)
+- **Monitor Party Status:** Always check for poison and other status effects after battles to avoid unnecessary fainting and forced retreats. (Learned on Route 25)
+- **Methodical Exploration:** When entering a new, complex area, check the map for all possible entrances/exits from the previous area to avoid taking a dead-end path. (Learned on Route 24/25)
+
+## 3. Battle Intel
 ### Gym Leaders
 - **Pewter City Gym - Brock (DEFEATED):** Geodude (Lv 12), Onix (Lv 14).
 - **Cerulean City Gym - Misty:** Psyduck (Lv 18), Goldeen (Lv 18), Starmie (Lv 21).
   - **Status:** Failed Attempt 1 (Blacked out).
   - **Intel:** Starmie (Water/Psychic) is fast and powerful, uses Bubblebeam & Confusion. A major threat.
-  - **Strategy:** Requires a strong counter. SPARKY (Electric) is a good option but needs levels. Party composition needs re-evaluation.
+  - **Strategy:** Starmie (Water/Psychic) is the main threat. SPARKY (Pikachu) is the best counter with its Electric typing. SPROUT (Oddish) is also a good option with its Grass typing and resistance to Water. The rest of the team should be able to handle her Psyduck and Goldeen. My level cap is 21, so I need to train my key Pokémon close to that. Will use Party Manager Agent to confirm optimal lineup before the battle.
 
 ### Rival BLAZe
 - **@ Oak's Lab:** Eevee (Lv 5).
@@ -27,18 +32,18 @@
 - **Team Rocket (Jessie & James) @ Mt. Moon:** Ekans (Lv 15), Meowth (Lv 16), Koffing (Lv 15).
 - **Super Nerd @ Mt. Moon:** Grimer (Lv 12), Voltorb (Lv 12), Magnemite (Lv 12), Clefairy (Lv 12).
 
-## 3. Navigation & Exploration
+## 4. Navigation & Exploration
 - **Route 4:** Confirmed one-way path EAST to Cerulean City.
 - **Route 25:**
-  - Northern maze area is inaccessible from the south. Likely a shortcut from Bill's area.
+  - Route has two distinct paths (north/south) from Route 24. The southern path is a dead end. The northern path leads to Bill.
   - Item at (23, 3) is currently unreachable.
 - **Cerulean City:** Sleeping Electrode at (29, 27) currently does nothing.
 
-## 4. Defeated Trainers Log
-- **Route 24:** Jr. Trainer @ (6, 21), Lass @ (11, 23), Youngster @ (12, 26), Youngster @ (12, 32), Rocket Grunt @ (12, 16).
-- **Route 25:** Hiker @ (9, 5), Lass @ (19, 9), Hiker @ (24, 10), Youngster @ (33, 4), Lass @ (38, 5), Youngster @ (19, 6), Youngster @ (15,4).
+## 5. Defeated Trainers Log
+- **Route 24:** Jr. Trainer @ (6, 21), Lass @ (11, 23), Youngster @ (12, 26), Youngster @ (12, 32), Rocket Grunt @ (12, 16), Cool Trainer F @ (11, 29).
+- **Route 25:** Hiker @ (9, 5), Lass @ (19, 9), Hiker @ (24, 10), Youngster @ (33, 4), Lass @ (38, 5), Youngster @ (19, 6), Youngster @ (15, 4).
 
-## 5. Agent Development Log
+## 6. Agent Development Log
 - **`battle_navigator_agent`:** Updated to consolidate button presses.
 - **`exp_tracker_agent`:** Created to monitor EXP/level cap.
 - **`party_manager_agent`:** Created to suggest optimal party compositions.
