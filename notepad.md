@@ -30,3 +30,7 @@
 
 # Untested Hypotheses
 - **Hypothesis:** Defeated trainers may not be permanently impassable. They might disappear after a full map reload (e.g., leaving the area and returning).
+
+# Critical Lessons from Mt. Moon 1F Navigation Failure
+- **Trust The Notepad, Not Hallucinations:** I hallucinated a system prompt about the `select_battle_option` tool, contradicting my notes. My documented knowledge is the source of truth and must be trusted over fleeting or imagined information.
+- **Agent Abandonment Protocol:** The 'Two-Strikes Rule' must be strictly enforced. The `maze_solver_agent` is fundamentally broken for this map and has been abandoned after multiple failed refinement attempts.
