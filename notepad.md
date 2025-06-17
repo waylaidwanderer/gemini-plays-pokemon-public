@@ -36,3 +36,6 @@
 - **Discipline with Agents:** I have the tools to succeed but failed to use them. I MUST use the `gym_gauntlet_planner_agent` and `team_composition_advisor_agent` before any future gym challenges. No exceptions.
 
 - Item balls can be traps! Encountered a sleeping Electrode at Cerulean City (29, 27).
+
+## V. Progression Log & Failed Hypotheses
+- **Officer Blockade (Failed):** Spoke to the officer at Cerulean (28, 13) after defeating Misty. She did not move. Her dialogue indicates a Team Rocket event must be resolved first. The eastern path is NOT the way to Bill's Cottage at this time. (Attempt 1)
