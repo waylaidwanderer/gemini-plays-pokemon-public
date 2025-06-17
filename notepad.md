@@ -37,7 +37,6 @@
 - `exp_tracker_agent`: Created to monitor EXP/level cap.
 - `party_manager_agent`: Created for party composition suggestions.
 - `item_finder_agent`: Updated to find named NPCs.
-- **NEW:** `wkg_updater_agent` created to automate WKG updates.
 
 ## 5. Untested Hypotheses & Plans
 
