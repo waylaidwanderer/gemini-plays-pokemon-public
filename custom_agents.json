@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\",\"enum\":[\"add_node\",\"add_edge\"]},\"data\":{\"type\":\"object\"}},\"required\":[\"action\",\"data\"]}",
     "agent_output_schema": "{\"type\":\"string\",\"description\":\"A JSON string representing the payload for the manage_world_knowledge tool.\"}",
     "agent_can_run_code": true
+  },
+  "maze_solver_agent": {
+    "agent_name": "maze_solver_agent",
+    "agent_description": "Solves simple, single-level mazes by using a wall-following algorithm (left-hand rule). Ideal for environments like Viridian Forest. It requires code execution to parse the map XML.",
+    "agent_system_prompt": "You are a maze-solving agent for a tile-based game. Your task is to find a path from a starting coordinate to an ending coordinate within a complex, single-level maze using the 'left-hand rule' wall-following algorithm. You MUST use your `run_code` tool to execute this logic. Your Python code will parse the `map_xml_string` to build a grid. Treat tiles with type 'impassable' or tiles containing an '<Object>' (unless it's '<Player />' or has id-name 'Pikachu') as walls. The left-hand rule is as follows: always keep a wall on your left. To implement this, from your current direction of travel, first try to turn left. If that path is clear, take it. If not, try to go straight. If that is also blocked, try to turn right. If that is blocked, you must turn around (180 degrees) as a last resort. Your output must be a JSON object containing the full sequence of moves ('Up', 'Down', 'Left', 'Right') to reach the destination. If the destination is unreachable, the 'path' array should be empty and 'path_found' should be false.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}}},\"required\":[\"path_found\",\"path\"]}",
+    "agent_can_run_code": true
   }
 }
