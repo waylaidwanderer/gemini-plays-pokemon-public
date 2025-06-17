@@ -44,3 +44,5 @@
 - **Plan:** Explore all remaining unseen areas of Cerulean City, then find the southern exit to Route 5 and proceed to Vermilion City.
 - **Agent Dev Note:** Deleting `exp_tracker_agent` to make space for a new `wkg_updater_agent` to streamline map data management.
 - **To-Do:** Mark the Fishing Guru at (3, 2) in the Trashed House (map 62) with a '💡' marker and label "Told me about stolen DIG TM".
+
+- **Agent Idea:** `progression_blocker_analyzer` - would analyze current goals and map state to hypothesize what is blocking progress and suggest actions to test.
