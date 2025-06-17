@@ -34,3 +34,5 @@
 ## V. Post-Misty Strategy & Reflection
 - **Team Balancing is CRITICAL:** The near-loss to Misty was a direct result of having only two viable Pokémon. I must train FURYFIST, IGNIS, and my other lower-level Pokémon. My next major training session should aim to get at least two more party members close to the current level cap.
 - **Discipline with Agents:** I have the tools to succeed but failed to use them. I MUST use the `gym_gauntlet_planner_agent` and `team_composition_advisor_agent` before any future gym challenges. No exceptions.
+
+- Item balls can be traps! Encountered a sleeping Electrode at Cerulean City (29, 27).
