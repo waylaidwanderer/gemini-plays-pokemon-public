@@ -29,3 +29,7 @@
 
 # Agent Development Status
 - `pathfinding_agent` failed a second time to avoid a defeated trainer obstacle (T10143). Reverting to manual navigation for Route 3. Debugging is now a lower priority.
+
+# Agent & Navigation Strategy Update (Post-Critique)
+- **`pathfinding_agent` Status:** Shelved. The agent has repeatedly failed to recognize defeated trainers as obstacles. Reverting to manual navigation until this is definitively fixed.
+- **Navigation in High-Encounter Areas:** Adopt a short-segment navigation strategy. Instead of plotting long routes, I will plan movements to the next immediate landmark or junction to minimize disruption from wild battles.
