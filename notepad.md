@@ -43,5 +43,6 @@
 ### Party & Training Notes
 - **PIP (Pidgey):** Leveled to 19 and learned WING ATTACK. Its evolution was triggered, but I accidentally cancelled it. I need to remember that pressing 'B' during evolution stops it.
 
+- **HM Usage (CUT):** The ability to use CUT is granted by the Cascade Badge. It is not used from a menu. To use it, stand in front of a cuttable tree and interact with it directly by pressing 'A'.
+
 ## 6. Untested Hypotheses
-- **HM Usage:** The game description says HMs can be used from the menu without teaching. My attempt to use CUT from the Pokémon's context menu failed. Next hypothesis: it's used directly from the main start menu, or by interacting with the object, or must be taught from the item menu.
