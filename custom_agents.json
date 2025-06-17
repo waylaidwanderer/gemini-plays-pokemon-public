@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"exp_to_next_level\":{\"type\":\"integer\"}},\"required\":[\"name\",\"level\",\"exp_to_next_level\"]}},\"level_cap\":{\"type\":\"integer\"}},\"required\":[\"player_party\",\"level_cap\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"nearing_levelup\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"at_level_cap\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"training_summary\":{\"type\":\"string\"}},\"required\":[\"nearing_levelup\",\"at_level_cap\",\"training_summary\"]}",
     "agent_can_run_code": false
-  },
-  "menu_navigator_agent": {
-    "agent_name": "menu_navigator_agent",
-    "agent_description": "Generates the precise button presses to navigate complex, non-standard game menus.",
-    "agent_system_prompt": "You are a Menu Navigator Agent. Your task is to generate the correct sequence of button presses to select a specific option from a complex, multi-level menu. You will be given a description of the menu's layout, the cursor's starting position, and the name of the target option. Your output must be a single JSON object containing a `button_sequence` array. The sequence must account for all necessary directional presses and 'A' presses to navigate and confirm selections. You must handle nested menus and confirmation dialogs.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"menu_layout\":{\"type\":\"string\",\"description\":\"A textual description of the menu's structure, options, and any sub-menus.\"},\"cursor_position\":{\"type\":\"string\",\"description\":\"The name of the option the cursor is currently on.\"},\"target_option\":{\"type\":\"string\",\"description\":\"The name of the final option to be selected.\"}},\"required\":[\"menu_layout\",\"cursor_position\",\"target_option\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"button_sequence\"]}",
-    "agent_can_run_code": false
   }
 }
