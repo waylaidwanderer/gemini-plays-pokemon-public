@@ -9,7 +9,7 @@
 # Tool & Agent Development
 - **`select_battle_option` Tool:** Verified as 100% reliable for battle actions like 'RUN'. This is now the primary method for escaping non-essential encounters.
 - **`maze_solver_agent`:** Now reliable after extensive debugging. Its debugging protocol (printing the map grid on failure) was key to fixing it.
-- **`battle_escape_agent`:** DEPRECATED. `select_battle_option` is superior.
+- **`battle_escape_agent`:** Deleted. `select_battle_option` is the superior tool for escaping.
 - **Development Idea - Universal Route Planner:** An agent to find the shortest path between any two known points in the World Knowledge Graph. Would be a major upgrade to the `escape_route_planner_agent`.
 - **Development Idea - Catching Assistant:** An agent to suggest the best Pokémon and move to weaken a wild Pokémon for capture without fainting it.
 - **Development Idea - Fossil Choice Advisor:** An agent to analyze Omanyte vs. Kabuto and recommend one based on team composition and future gym battles. (Agent already defined).
