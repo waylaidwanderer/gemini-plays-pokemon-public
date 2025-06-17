@@ -44,3 +44,6 @@
 
 ## 8. Item & TM Usage Plan
 - **TM08 (Body Slam):** Teach to THISTLE, replacing Tackle. This is a significant physical attack upgrade.
+
+## S.S. Anne Notes
+- **Waiter (2F, (4,5)):** Does not provide healing. Just gives flavor text about the ship.
