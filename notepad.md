@@ -33,3 +33,6 @@
 - **`pathfinding_agent`:** Must re-test immediately in Pewter City.
 - **`wkg_payload_generator_agent`:** Untested. Must test at the next *new* map transition.
 - **Level Cap Status:** SPARKY is at the cap (21). NIGHTSHADE is close (20). Avoid using them in battle unless necessary.
+
+# Tool Reliability Notes
+- **`pathfinding_agent` Failure #2:** The agent failed again on Route 3, this time trying to route me up a ledge from below. The prompt needs to be even more explicit about ledge impassability. Refining it again.
