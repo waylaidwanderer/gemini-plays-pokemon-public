@@ -38,3 +38,6 @@
 - `exp_tracker_agent`: Created to monitor EXP/level cap.
 - `party_manager_agent`: Created for party composition suggestions.
 - `item_finder_agent`: Updated to find named NPCs.
+
+### My Party Notes
+- **PIP (Pidgey):** Leveled to 19, learned WING ATTACK. Attempted to evolve but stopped, likely due to ROM hack mechanics.
