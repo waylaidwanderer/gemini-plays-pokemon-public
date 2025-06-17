@@ -49,3 +49,6 @@
 
 ## 6. Agent Ideas
 - `progression_blocker_analyzer`: An agent to analyze the current state and goals when I'm stuck, hypothesizing potential blockers and suggesting actions to test them. This should help me avoid getting fixated on a single failed strategy.
+
+## 6. Agent Ideas
+- `progression_blocker_analyzer`: An agent to analyze the current state and goals when I'm stuck, hypothesizing potential blockers and suggesting actions to test them. This should help me avoid getting fixated on a single failed strategy.
