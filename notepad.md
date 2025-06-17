@@ -30,7 +30,7 @@
 
 ## 3. Key NPCs & Events
 - **Bill & S.S. Ticket:** After fixing his teleporter experiment on Route 25, Bill gave me the S.S. Ticket. This is for the S.S. Anne in Vermilion City.
-- **Cerulean City Team Rocket Plot:** A Rocket stole a TM for DIG from a Fishing Guru in the house at (28, 12). I am currently battling this Rocket.
+- **Cerulean City Team Rocket Plot:** A Rocket stole a TM for DIG from a Fishing Guru in the house at (28, 12). I defeated the Rocket and recovered TM28 (DIG).
 
 ## 4. Agent Development Log
 - `battle_navigator_agent`: Updated for better consolidation & to fix switch confirmation logic.
@@ -40,15 +40,8 @@
 - **NEW:** `wkg_updater_agent` created to automate WKG updates.
 
 ## 5. Untested Hypotheses & Plans
-- **SUCCESS:** Defeated the Rocket at (31, 9) and recovered the stolen TM28 (DIG)! This is the key to opening the path south to Route 5.
-- **Plan:** Explore all remaining unseen areas of Cerulean City, then find the southern exit to Route 5 and proceed to Vermilion City.
 - **Agent Dev Note:** Deleting `exp_tracker_agent` to make space for a new `wkg_updater_agent` to streamline map data management.
 - **To-Do:** Mark the Fishing Guru at (3, 2) in the Trashed House (map 62) with a '💡' marker and label "Told me about stolen DIG TM".
-
-- **Agent Idea:** `progression_blocker_analyzer` - would analyze current goals and map state to hypothesize what is blocking progress and suggest actions to test.
-
-## 6. Agent Ideas
-- `progression_blocker_analyzer`: An agent to analyze the current state and goals when I'm stuck, hypothesizing potential blockers and suggesting actions to test them. This should help me avoid getting fixated on a single failed strategy.
 
 ## 6. Agent Ideas
 - `progression_blocker_analyzer`: An agent to analyze the current state and goals when I'm stuck, hypothesizing potential blockers and suggesting actions to test them. This should help me avoid getting fixated on a single failed strategy.
