@@ -21,3 +21,5 @@
 - **Disengage from Failing Strategies:** If an interaction or path fails more than twice, abandon the approach and re-evaluate. Do not get stuck in loops (e.g., the Cool Trainer incident).
 - **Trust Agents, Question Assumptions:** My `pathfinding_agent` was correct; my map awareness was flawed. The default assumption must be that the agent is right. I will question my own understanding before declaring a tool 'broken'.
 - **Verify Before Modifying:** Always check the World Knowledge Graph for existing nodes/edges before attempting to add new ones to prevent failed calls.
+
+- **Agent Status:** `world_knowledge_manager_agent` is non-functional. Reverting to manual WKG updates until it can be properly debugged. (3 failed attempts)
