@@ -28,3 +28,7 @@
 - **`pokedex_gap_analyzer_agent`:** Tested and verified. Correctly identified Water/Psychic/Ghost type gaps.
 - **`battle_strategist_agent` & `battle_switch_agent`:** Verified as reliable.
 - **`gym_gauntlet_planner_agent`:** Newly created. Must be used to plan the rest of the Cerulean Gym, especially the battle with Misty.
+
+## V. Post-Misty Strategy & Reflection
+- **Team Balancing is CRITICAL:** The near-loss to Misty was a direct result of having only two viable Pokémon. I must train FURYFIST, IGNIS, and my other lower-level Pokémon. My next major training session should aim to get at least two more party members close to the current level cap.
+- **Discipline with Agents:** I have the tools to succeed but failed to use them. I MUST use the `gym_gauntlet_planner_agent` and `team_composition_advisor_agent` before any future gym challenges. No exceptions.
