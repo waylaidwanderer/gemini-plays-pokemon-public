@@ -12,6 +12,7 @@
 - **Defeated Trainers are Impassable:** Always plan routes *around* them. (Learned on Nugget Bridge).
 - **Systematic Exploration:** When a path is blocked or a menu option fails, test all other possibilities methodically before assuming a dead end or repeating the failed action. (Learned from Route 25 & PC menu loops).
 - **NPC Roles:** Do not assume an NPC is a standard trainer. Some may be for trades or other events. (Learned from Cool Trainer F on Route 25).
+- **Bypassing NPCs:** Some NPCs blocking paths can be walked around instead of interacted with. (Learned with Cool Trainer F on Route 25).
 
 ## 3. Battle Intel
 ### Gym Leaders
@@ -25,12 +26,15 @@
 - **@ Route 22:** Pidgeotto (Lv 9), Rattata (Lv 8), Eevee (Lv 10).
 - **@ Cerulean City (North):** Pidgeotto (Lv 18), Raticate (Lv 17), Kadabra (Lv 16), Vaporeon (Lv 20).
 
+### Wild Pokémon Intel
+- **Route 24 Venonat (Lv 16):** Knows DISABLE, SUPERSONIC, TACKLE.
+
 ## 4. Key NPCs & Events
 - **Route 25 Trade:** Cool Trainer F at (38, 5) wants to trade a CLEFAIRY, but she can be bypassed by walking around her to the south.
-- **Cerulean City Blockage:** A police officer blocks the path to a 'burgled house'. Hypothesis: Helping Bill on Route 25 will resolve this.
+- **Cerulean City Blockage:** Officer Jenny at (28, 13) blocks the path to the burgled house's backyard. Helping Bill did not resolve this. A Rocket Grunt is visible in the backyard, but is currently unreachable.
 
 ## 5. Agent Development Log
-- `battle_navigator_agent`: Updated for better consolidation.
+- `battle_navigator_agent`: Updated for better consolidation & to fix switch confirmation logic.
 - `exp_tracker_agent`: Created to monitor EXP/level cap.
 - `party_manager_agent`: Created for party composition suggestions.
 - `item_finder_agent`: Updated to find named NPCs.
