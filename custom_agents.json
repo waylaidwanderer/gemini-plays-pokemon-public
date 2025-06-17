@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"path\",\"reasoning\"]}",
     "agent_can_run_code": true
-  },
-  "wkg_updater_agent": {
-    "agent_name": "wkg_updater_agent",
-    "agent_description": "Automates updating the World Knowledge Graph after a map transition by creating nodes and edges for warps or map boundaries.",
-    "agent_system_prompt": "You are a World Knowledge Graph Updater Agent. Your purpose is to generate the JSON *payloads* for the `manage_world_knowledge` tool calls required to log a new map transition. You will be given details about the transition (map IDs, coordinates, type). You MUST generate a JSON object containing three keys: `source_node_payload`, `destination_node_payload`, and `edge_payload`. The values for these keys will be the stringified JSON payloads for the `add_node` and `add_edge` operations. Generate descriptive names for each node based on its map ID and coordinates. If the connection_type is 'warp', include the `destination_entry_point` in the edge payload if provided. The final output must be a single JSON object that strictly adheres to the provided output schema. Do not output anything other than the JSON object.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"old_map_id\":{\"type\":\"string\"},\"new_map_id\":{\"type\":\"string\"},\"source_x\":{\"type\":\"integer\"},\"source_y\":{\"type\":\"integer\"},\"destination_x\":{\"type\":\"integer\"},\"destination_y\":{\"type\":\"integer\"},\"connection_type\":{\"type\":\"string\",\"enum\":[\"warp\",\"map_edge\"]},\"is_one_way\":{\"type\":\"boolean\"},\"destination_entry_point\":{\"type\":\"integer\"}},\"required\":[\"old_map_id\",\"new_map_id\",\"source_x\",\"source_y\",\"destination_x\",\"destination_y\",\"connection_type\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"source_node_payload\":{\"type\":\"string\"},\"destination_node_payload\":{\"type\":\"string\"},\"edge_payload\":{\"type\":\"string\"}},\"required\":[\"source_node_payload\",\"destination_node_payload\",\"edge_payload\"]}",
-    "agent_can_run_code": false
   }
 }
