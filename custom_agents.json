@@ -39,14 +39,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\",\"A\",\"B\"]}}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": false
   },
-  "battle_escape_agent": {
-    "agent_name": "battle_escape_agent",
-    "agent_description": "Calculates the button presses needed to select the 'RUN' option in a battle.",
-    "agent_system_prompt": "You are a battle assistant for Pokémon Yellow. Your task is to determine the button sequence to select the 'RUN' option from the main battle menu. The cursor always starts on 'FIGHT'. The options are arranged in a 2x2 grid: FIGHT (top-left), PKMN (top-right), ITEM (bottom-left), RUN (bottom-right). Your output must be a JSON object containing a single key, 'button_sequence', which is an array of strings representing the exact button presses required.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{}}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\",\"A\",\"B\"]}}},\"required\":[\"button_sequence\"]}",
-    "agent_can_run_code": false
-  },
   "escape_route_planner_agent": {
     "agent_name": "escape_route_planner_agent",
     "agent_description": "Finds the shortest escape route from the player's current location to the nearest known Pokémon Center using the World Knowledge Graph.",
