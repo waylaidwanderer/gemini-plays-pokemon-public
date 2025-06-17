@@ -21,7 +21,7 @@
 - **BFS Pathfinding Failure:** My `run_code` attempt at a BFS pathfinder failed because the code did not correctly parse the map's traversable areas and account for isolated platforms.
 
 # Agent Development
-- **`maze_solver_agent`:** Benched. Fundamentally broken.
+- **`maze_solver_agent`:** Deleted. Fundamentally broken.
 - **`fossil_choice_advisor_agent`:** Verified as reliable.
 - **`pikachu_path_adjuster_agent`:** Created to handle Pikachu's movement. Must be tested on simple paths first.
 - **`unseen_tile_navigator_agent`:** Created to find paths to the nearest unseen tile, aiding systematic exploration.
