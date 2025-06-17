@@ -63,14 +63,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"path\",\"reasoning\"]}",
     "agent_can_run_code": true
   },
-  "progression_advisor_agent": {
-    "agent_name": "progression_advisor_agent",
-    "agent_description": "Analyzes current progress (location, badges, key items) to suggest the next logical major objective in the game, preventing getting stuck on incorrect paths.",
-    "agent_system_prompt": "You are a Pokémon Yellow Legacy Progression Advisor. Your role is to act as a high-level guide. Given the player's current map, number of badges, and key items, you must determine the most logical next major objective. Your output should be a concise suggestion. For example: 'Proceed to Vermilion City to challenge the Gym' or 'Explore Rock Tunnel to reach Lavender Town'. Your reasoning should be based on standard Pokémon game progression (e.g., cities are typically visited in a certain order, key items unlock new areas). Do not suggest specific paths, only the high-level goal.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_map_id\":{\"type\":\"string\"},\"badges_obtained\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"key_items\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_map_id\",\"badges_obtained\",\"key_items\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggestion\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"suggestion\",\"reasoning\"]}",
-    "agent_can_run_code": false
-  },
   "tm_management_agent": {
     "agent_name": "tm_management_agent",
     "agent_description": "Analyzes my party and TM inventory to suggest optimal TM usage. It checks compatibility, Pokémon types, and existing movesets to recommend which Pokémon should learn which TM.",
