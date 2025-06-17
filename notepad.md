@@ -37,7 +37,7 @@
 - **Saffron City Access:** The gatehouse guard is thirsty. I probably need to find him a drink to pass.
 
 ## 6. Agent Development Log
-- **Pathfinder/Map Explorer Agents:** These agents are fundamentally flawed. They repeatedly fail to navigate simple maps (Vermilion City, Fan Club) by attempting to path through water or getting blocked by what appear to be invisible barriers. They require a complete overhaul. Refinements to prompts have been ineffective.
+- **Pathfinder Agent Overhaul:** The agent's pathing logic fails consistently on complex indoor maps (Fan Club, S.S. Anne). The issue seems to be its inability to correctly identify walkable paths around furniture and internal walls. Plan: A major system prompt rewrite is required. The new prompt will give the agent's Python script explicit, step-by-step instructions for building its impassable tile set, including handling objects, defeated trainers, and special cases like Pikachu. This should fix the core logic flaw.
 
 ## 7. The Fan Club Paradox (SOLVED)
 - **Resolution:** The 'reachable' data was correct. The pathing agents were fundamentally flawed for this map layout, creating the illusion of an invisible wall. After numerous failed attempts, a careful manual path around the southern edge of the room successfully navigated to the west side. The Chairman provided the BIKE VOUCHER after listening to his story.
