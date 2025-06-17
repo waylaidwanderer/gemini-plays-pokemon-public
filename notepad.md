@@ -41,3 +41,5 @@
 
 ## 5. Untested Hypotheses & Plans
 - **Agent Dev Note:** Deleting `exp_tracker_agent` to make space for a new `wkg_updater_agent` to streamline map data management.
+
+- **NEW AGENT IDEA:** `progression_advisor_agent`. Input: badges, location. Output: Suggests the next logical major objective (e.g., next city/gym) to prevent getting fixated on incorrect paths.
