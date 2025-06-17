@@ -16,20 +16,15 @@
 - **EXP Share:** Only Pokémon in the party when the final opponent faints receive EXP.
 - **Level Cap EXP Gain:** Pokémon at the level cap do not gain EXP, even if the message appears.
 
-# Current Hypotheses
+# Active Hypotheses
 - **Hypothesis 1:** Melanie won't give me the Bulbasaur yet. The dialogue is stuck in a loop even with a free party slot. Maybe another event, like the one on the northern bridge, must be completed first. (Status: Blocked)
-- **Hypothesis 2:** The path to the Cerulean Gym is blocked until I complete an event on a bridge to the north. (Status: Unverified, from AI hint)
+- **Hypothesis 2:** The path to the Cerulean Gym is blocked until I complete the event at Bill's Cottage. (Status: Verified by AI hint)
 - **Hypothesis 3:** Wild Pokémon of the same species may have different movesets. (Status: Unverified)
 
-# Agent Development & Testing
-- **`pathfinder_agent`:** Refined to treat all `<Object>` tags (except Pikachu) as impassable walls. This should improve its accuracy in cluttered areas. (Status: Refined, needs testing)
-- **`building_identifier_agent`:** Newly created to find key buildings in cities. (Status: Untested)
-- **`unseen_tile_navigator_agent`:** Verified as reliable.
+# Agent Log & Development
+- **`unseen_tile_navigator_agent` & `pathfinder_agent`:** Refined to treat all `<Object>` tags (except Pikachu) as impassable walls and to correctly handle ledge traversal. (Status: Refined, needs testing on Pikachu rule)
+- **`building_identifier_agent`:** Untested.
 - **`battle_strategist_agent`:** Verified as reliable.
 - **`battle_switch_agent`:** Verified as reliable.
 - **`pikachu_path_adjuster_agent`:** Verified as reliable.
-
-# Agent Ideas
-- `pokedex_gap_analyzer_agent`: Could analyze my current roster and suggest high-value Pokémon to catch in a new area to improve type coverage.
-
-- `pokedex_gap_analyzer_agent`: Newly created. MUST test after completing Nugget Bridge to evaluate effectiveness.
+- **`pokedex_gap_analyzer_agent`:** Newly created. MUST test at next wild encounter.
