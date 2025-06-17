@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"exp_to_next_level\":{\"type\":\"integer\"}},\"required\":[\"name\",\"level\",\"exp_to_next_level\"]}},\"level_cap\":{\"type\":\"integer\"}},\"required\":[\"player_party\",\"level_cap\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"nearing_levelup\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"at_level_cap\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"training_summary\":{\"type\":\"string\"}},\"required\":[\"nearing_levelup\",\"at_level_cap\",\"training_summary\"]}",
     "agent_can_run_code": false
+  },
+  "map_explorer_agent": {
+    "agent_name": "map_explorer_agent",
+    "agent_description": "Generates an efficient path to visit all reachable unseen tiles on the current map.",
+    "agent_system_prompt": "You are a Map Explorer Agent. Your task is to find a path that covers all reachable, unseen tiles on the current map. You will use your `run_code` tool to parse `map_xml_string`.\n\nLogic for Python Script:\n1. Parse `map_xml_string` to build a grid and identify all impassable coordinates and all unseen tile coordinates.\n2. Use a pathfinding algorithm (like Breadth-First Search) starting from the player's current position.\n3. The goal of the search is not a single target, but to create a path that visits a tile *adjacent* to every reachable unseen tile.\n4. Your algorithm should prioritize visiting the largest clusters of unseen tiles first.\n5. The final path should be an ordered list of coordinates representing the most efficient route to reveal all unseen areas.\n6. If there are no reachable unseen tiles, your path should be an empty list and your reasoning should state that the map is fully explored.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"path\",\"reasoning\"]}",
+    "agent_can_run_code": true
   }
 }
