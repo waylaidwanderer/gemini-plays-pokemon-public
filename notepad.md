@@ -31,4 +31,3 @@
 - **`pikachu_path_adjuster_agent`:** Created to handle Pikachu's movement. **Status: Verified as reliable.**
 
 # Agent Ideas
-- An agent to suggest optimal party compositions from the PC based on upcoming challenges.
