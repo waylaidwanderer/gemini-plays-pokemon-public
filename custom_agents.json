@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"},\"target_x\":{\"type\":\"integer\"},\"target_y\":{\"type\":\"integer\"}},\"required\":[\"player_x\",\"player_y\",\"target_x\",\"target_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reason\":{\"type\":\"string\"}},\"required\":[\"path_found\",\"path\",\"reason\"]}",
     "agent_can_run_code": true
+  },
+  "building_identifier_agent": {
+    "agent_name": "building_identifier_agent",
+    "agent_description": "Analyzes the map XML to identify key buildings like Pokémon Centers or Marts based on visual cues (e.g., signs) or structural layouts.",
+    "agent_system_prompt": "You are a Building Identifier for Pokémon Yellow Legacy. Your task is to analyze the `map_xml_string` to find specific types of buildings. You MUST use your `run_code` tool to parse the XML. Your Python code should search for specific visual cues. For a Pokémon Center, look for an object with a name containing 'P C' or 'PC'. For a Poké Mart, look for an object with a name containing 'MART'. If no sign object is found, analyze the building's structure for common patterns. Output the coordinates of the entrance warp tile for each identified building type. If a building type is not found, its coordinate list should be empty.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"identified_buildings\":{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": { \"building_type\": {\"type\": \"string\", \"enum\": [\"POKEMON_CENTER\", \"POKEMART\", \"GYM\"]}, \"entrance_x\": {\"type\": \"integer\"}, \"entrance_y\": {\"type\": \"integer\"}}, \"required\": [\"building_type\", \"entrance_x\", \"entrance_y\"]}}},\"required\":[\"identified_buildings\"]}",
+    "agent_can_run_code": true
   }
 }
