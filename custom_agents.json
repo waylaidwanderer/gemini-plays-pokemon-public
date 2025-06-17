@@ -62,5 +62,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"name\",\"level\",\"type1\"]}}},\"required\":[\"player_pokemon_party\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\",\"enum\":[\"Dome Fossil (Kabuto)\",\"Helix Fossil (Omanyte)\"]},\"reasoning\":{\"type\":\"string\",\"description\":\"Detailed explanation for the recommendation, including pros and cons of both choices.\"},\"confidence_score\":{\"type\":\"number\",\"minimum\":0,\"maximum\":1}},\"required\":[\"recommendation\",\"reasoning\",\"confidence_score\"]}",
     "agent_can_run_code": false
+  },
+  "pikachu_path_adjuster_agent": {
+    "agent_name": "pikachu_path_adjuster_agent",
+    "agent_description": "Takes a path and modifies it to account for Pikachu's special movement rules, inserting extra button presses where needed. Requires code execution.",
+    "agent_system_prompt": "You are a path adjustment specialist for Pokémon Yellow. Your task is to take a pre-computed path (a sequence of directional strings) and modify it to correctly account for Pikachu's unique movement mechanics. You will be given the player's current facing direction, Pikachu's coordinates, and the planned path. You MUST use your `run_code` tool to perform this logic. Your Python code will iterate through the planned path step-by-step. For each step, it must determine if the move is towards Pikachu's tile. If it is, and the player's current facing direction is NOT aligned with the move, you must insert an extra identical directional command BEFORE the planned move in the output path. After each move (or turn-then-move), you must update the player's simulated facing direction for the next step in the iteration. The output must be a JSON object containing the modified path sequence.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_facing\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]},\"pikachu_x\":{\"type\":\"integer\"},\"pikachu_y\":{\"type\":\"integer\"},\"planned_path\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}}},\"required\":[\"player_facing\",\"pikachu_x\",\"pikachu_y\",\"planned_path\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"adjusted_path\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"enum\":[\"Up\",\"Down\",\"Left\",\"Right\"]}}},\"required\":[\"adjusted_path\"]}",
+    "agent_can_run_code": true
   }
 }
