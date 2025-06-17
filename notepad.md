@@ -17,9 +17,12 @@
 # Campaign Archive
 - **Mt. Moon Navigation:** The main path was in the eastern section of 1F, looping around the central structures. The western ladder system on 1F led to a large, looping dead-end area.
 
-# Critical Lessons from AI Critique (T10110)
-- **Disengage from Failing Strategies:** If an interaction or path fails more than twice, abandon the approach and re-evaluate. Do not get stuck in loops (e.g., the Cool Trainer incident).
-- **Trust Agents, Question Assumptions:** My `pathfinding_agent` was correct; my map awareness was flawed. The default assumption must be that the agent is right. I will question my own understanding before declaring a tool 'broken'.
+# Strategic Principles & Lessons Learned
+- **Two-Strikes Rule:** If an interaction or path fails twice with no new information, abandon the approach and re-evaluate. Do not get stuck in loops.
+- **Trust Agents, Question Assumptions:** My first assumption should be that the agent is right and my map awareness is flawed. Question my own understanding before declaring a tool 'broken'.
 - **Verify Before Modifying:** Always check the World Knowledge Graph for existing nodes/edges before attempting to add new ones to prevent failed calls.
+- **Interaction Rule:** NPCs are impassable walls. To interact, I must stand on an *adjacent* tile and face them. Do not try to walk onto their tile. Defeated Trainers are impassable obstacles.
+- **Agent Development:** Refinement shouldn't halt all progress. Make one attempt to fix a failing agent. If it still fails, revert to a manual approach and log the fix as a lower-priority task.
+- **Resource Management:** When party resources (especially PP on key moves) are critically low, the top priority becomes a strategic retreat to heal.
 
 - **Agent Status:** `world_knowledge_manager_agent` is non-functional. Reverting to manual WKG updates until it can be properly debugged. (3 failed attempts)
