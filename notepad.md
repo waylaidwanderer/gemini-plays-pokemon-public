@@ -5,8 +5,9 @@
 - **Poison Damage:** Poisoned Pokémon lose 1 HP every four steps.
 - **Level Cap EXP:** Pokémon at the level cap will show an EXP gain message, but their actual EXP value does not increase. This is a visual bug.
 - **Move Categories:** In Gen 1, move categories are based on type. Flying-type moves like Gust are Physical, so their damage IS affected by moves like Growl.
-- **ROM Hack Type Changes:**
-    - Sandshrew is a GROUND type, not Normal. (Confirmed during battle with Youngster on Route 25).
+
+### ROM Hack Discoveries
+- **Sandshrew Typing:** Sandshrew is a GROUND type, not Normal. (Confirmed during battle with Youngster on Route 25).
 
 ## 2. Battle Intel & Movesets
 - **Mankey (Route 22):** Low Kick can cause flinching.
@@ -38,15 +39,11 @@
 
 ## 7. Defeated Trainers
 - **Route 24:** Jr. Trainer @ (6, 21), Lass @ (11, 23), Youngster @ (12, 26), Bug Catcher @ (12, 32), Rocket Grunt @ (12, 16).
-- **Route 25:** Hiker @ (9, 5), Lass @ (19, 9), Hiker @ (24, 10).
+- **Route 25:** Hiker @ (9, 5), Lass @ (19, 9), Hiker @ (24, 10), Youngster @ (33, 4).
 
-## 8. Non-Battling NPCs
-- **Cerulean City:** Cool Trainer F @ (30, 27), Cool Trainer M @ (32, 21).
-- **Cerulean Mart:** Cool Trainer M @ (4, 6) (gives advice).
-- **Route 24:** Cool Trainer M @ (7, 6) (gives Charmander).
-- **Route 25:** Hiker @ (14, 8), Cool Trainer F @ (19, 9).
+## 8. Agent Development Log
+### `battle_navigator_agent`
+- **Status:** Updated. Prompt revised to consolidate button presses into a single sequence for efficiency.
 
-## 9. Agent Development Log
-- **`battle_action_advisor`:** Updated to correctly identify and handle disabled moves.
-- **`battle_navigator_agent`:** Needs review for reliability in complex sequences.
-- **Idea:** An `exp_tracker_agent` could be useful for monitoring level caps and training progress.
+### `exp_tracker_agent`
+- **Status:** Idea stage. Purpose is to monitor party Pokémon EXP relative to the current level cap to optimize training.
