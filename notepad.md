@@ -25,4 +25,6 @@
 
 - **Wild Pokémon Movesets:** Assumption that all wild Pokémon of the same species share the same moveset is unverified. I need to track the moves of different level encounters to confirm or deny this.
 
-- `select_battle_option` tool is unreliable (failed 3 times when it should have worked). Avoid using it. Manual inputs for running are more consistent.
+# Tool Reliability Notes
+- **`select_battle_option`:** Unreliable. Failed 3 times when it should have worked. Avoid using it. Manual inputs for running are more consistent.
+- **`wkg_payload_generator_agent`:** Untested. Must test at the next new map transition.
