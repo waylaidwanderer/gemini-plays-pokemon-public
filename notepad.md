@@ -10,7 +10,7 @@
 - **`pathfinding_agent`:** Currently unreliable. Has failed to understand ledge mechanics. Requires prompt refinement and further testing.
 - **`wkg_payload_generator_agent`:** Needs refinement. Generated a multi-action payload, but the tool requires a single action. Must update prompt to enforce single action output.
 - **`maze_solver_agent`:** Untested. Defined for potential use in complex areas like Viridian Forest or Mt. Moon.
-- **`select_battle_option`:** Unreliable. Has failed multiple times. Manual inputs are more consistent.
+- **Battle Escape Automation:** Manual escape is too slow. The `select_battle_option` tool is unreliable and should NOT be used. The `battle_escape_agent` is the primary tool for escaping non-essential battles. If it fails, it must be refined immediately.
 
 # Battle Intel
 - **Level Cap Status:** SPARKY (Pikachu) is at the level cap (21). NIGHTSHADE (Oddish) is close (20). I will avoid using them in non-essential battles to prevent wasting EXP.
