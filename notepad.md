@@ -25,3 +25,5 @@
 - **`fossil_choice_advisor_agent`:** Verified as reliable.
 - **`pikachu_path_adjuster_agent`:** Created to handle Pikachu's movement. Must be tested on simple paths first.
 - **`unseen_tile_navigator_agent`:** Created to find paths to the nearest unseen tile, aiding systematic exploration.
+
+- **Type Matchups (New Finding):** Electric-type moves (THUNDERPUNCH) are 'not very effective' against Paras (Bug/Grass). This suggests a change in the type chart.
