@@ -38,4 +38,4 @@
 - **Underground Path Item:** Girl mentioned people lose things in the tunnel. Could be a hidden item.
 - **Poison Fainting:** Confirmed by Sailor that poison can cause fainting outside battle.
 
-- **Agent Failure (Turn 10672):** Both `pathfinder_agent` and `map_explorer_agent` generated paths that included impassable water tiles. I have updated their prompts to be more strict about avoiding water.
+- **Agent Failures (Turns 10672-10673):** Pathfinder and Map Explorer agents initially failed by routing through water; prompts were updated. Map Explorer then failed with a schema error, which was also corrected. Agent refinement is key!
