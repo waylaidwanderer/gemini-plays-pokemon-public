@@ -30,5 +30,5 @@
 - **`wkg_payload_generator_agent`:** Untested. Must test at the next new map transition.
 
 # To-Do & Testing
-- **`wkg_payload_generator_agent`:** Untested. Must test at the next new map transition.
+- **`wkg_payload_generator_agent`:** Untested. Must test at the next *new* map transition (VF Gate to Rte 2 was already known).
 - **Level Cap Status:** SPARKY is at the cap (21). NIGHTSHADE is close (20). Avoid using them in battle unless necessary.
