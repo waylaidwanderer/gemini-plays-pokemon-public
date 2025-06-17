@@ -47,3 +47,5 @@
 - **Underground Path Item Hint:** A girl in the southern exit room mentioned that people often lose things in the tunnel. This could be a clue for a hidden item.
 
 - **Agent Dev Plan:** Create `route_summary_agent` after reaching Vermilion City. Input: route ID. Output: Summary of trainers, connections, and special notes for a given route, using WKG and notepad data. Useful for planning long journeys.
+
+- **Poison Fainting:** A Sailor in Vermilion Pokecenter confirmed that a poisoned Pokémon can faint from taking damage while walking outside of battle.
