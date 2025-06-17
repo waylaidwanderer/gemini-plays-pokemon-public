@@ -63,14 +63,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_lead\":{\"type\":\"string\"},\"party_change_suggestions\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"deposit\":{\"type\":\"string\"},\"withdraw\":{\"type\":\"string\"}}}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"suggested_lead\",\"reasoning\"]}",
     "agent_can_run_code": false
   },
-  "exp_tracker_agent": {
-    "agent_name": "exp_tracker_agent",
-    "agent_description": "Analyzes the party's EXP and levels against the current level cap to identify which Pokémon are close to leveling up or hitting the cap.",
-    "agent_system_prompt": "You are an EXP Tracker Agent. Your task is to analyze the player's party and the current level cap to provide a concise report on their training status. You will be given the player's party and the level cap. Your output should identify Pokémon that are close to leveling up (within 100 EXP) and any Pokémon that have reached the level cap.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"exp_to_next_level\":{\"type\":\"integer\"}},\"required\":[\"name\",\"level\",\"exp_to_next_level\"]}},\"level_cap\":{\"type\":\"integer\"}},\"required\":[\"player_party\",\"level_cap\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"nearing_levelup\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"at_level_cap\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"training_summary\":{\"type\":\"string\"}},\"required\":[\"nearing_levelup\",\"at_level_cap\",\"training_summary\"]}",
-    "agent_can_run_code": false
-  },
   "map_explorer_agent": {
     "agent_name": "map_explorer_agent",
     "agent_description": "Generates an efficient path to visit all reachable unseen tiles on the current map.",
