@@ -43,5 +43,3 @@
 - **Underground Path Item Hint:** A girl in the southern exit room mentioned that people often lose things in the tunnel. This could be a clue for a hidden item.
 
 - **Poison Fainting:** A Sailor in Vermilion Pokecenter confirmed that a poisoned Pokémon can faint from taking damage while walking outside of battle.
-
-- **TM Management Agent Idea:** An agent that analyzes my party and inventory to suggest optimal TM usage. It would check compatibility, Pokémon types, and existing movesets to recommend which Pokémon should learn which TM.
