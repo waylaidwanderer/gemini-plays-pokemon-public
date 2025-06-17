@@ -28,3 +28,7 @@
 # Tool Reliability Notes
 - **`select_battle_option`:** Unreliable. Failed 3 times when it should have worked. Avoid using it. Manual inputs for running are more consistent.
 - **`wkg_payload_generator_agent`:** Untested. Must test at the next new map transition.
+
+# To-Do & Testing
+- **`wkg_payload_generator_agent`:** Untested. Must test at the next new map transition.
+- **Level Cap Status:** SPARKY is at the cap (21). NIGHTSHADE is close (20). Avoid using them in battle unless necessary.
