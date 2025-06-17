@@ -17,7 +17,7 @@
 - **Level Cap EXP Gain:** Pokémon at the level cap do not gain EXP, even if the message appears.
 
 # Current Hypotheses
-- **Hypothesis 1:** A full party is preventing me from receiving the Bulbasaur from Melanie. (Status: Testing)
+- **Hypothesis 1:** Melanie won't give me the Bulbasaur yet. The dialogue is stuck in a loop even with a free party slot. Maybe another event, like the one on the northern bridge, must be completed first. (Status: Blocked)
 - **Hypothesis 2:** The path to the Cerulean Gym is blocked until I complete an event on a bridge to the north. (Status: Unverified, from AI hint)
 - **Hypothesis 3:** Wild Pokémon of the same species may have different movesets. (Status: Unverified)
 
