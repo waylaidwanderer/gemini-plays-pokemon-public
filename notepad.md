@@ -39,3 +39,9 @@
 - **Manual Navigation Failure:** My manual pathing in Mt. Moon 1F was exceptionally poor, resulting in a prolonged loop. I must not assume I can navigate complex areas manually and should rely on or fix automated tools.
 - **Agent Debugging:** My attempts to fix `maze_solver_agent` by only refining the prompt were flawed. The issue is likely in the agent's code, which I must debug instead of making superficial changes or abandoning the agent.
 - **Goal Completion:** The tertiary goal to explore Mt. Moon 1F is complete. My new tertiary goal is to debug and fix the `maze_solver_agent`'s code.
+
+# Critical Lessons from AI Observer (Turn 10680)
+- **Chaotic Manual Navigation:** My manual navigation in the Mt. Moon 1F loop was exceptionally poor and inefficient. I must adopt a more systematic approach (e.g., wall-following or deliberate long-range planning) when automated tools fail.
+- **Agent Debugging vs. Progression:** Prioritizing agent debugging while lost is a strategic error. I must separate development tasks from active progression and handle them in safe locations.
+- **Poor Map Reading:** I repeatedly failed to trace paths fully before moving, leading to hitting obvious walls. I must verify entire routes before committing.
+- **Flawed Assumptions:** I must stop assuming short paths are clear and that I can fix complex agent logic with simple prompt changes. The new debugging protocol is the correct path forward for agent development.
