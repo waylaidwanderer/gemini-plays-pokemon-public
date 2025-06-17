@@ -31,7 +31,7 @@
 
 ## 4. Key NPCs & Events
 - **Route 25 Trade:** Cool Trainer F at (38, 5) wants to trade a CLEFAIRY, but she can be bypassed by walking around her to the south.
-- **Cerulean City Blockage:** Officer Jenny at (28, 13) blocks the path to the burgled house's backyard. Helping Bill did not resolve this. A Rocket Grunt is visible in the backyard, but is currently unreachable.
+S.S. Ticket Acquired: Bill gave me the S.S. Ticket for the S.S. Anne in Vermilion City. Hypothesis: This ticket will allow me to get past the officer blocking the south exit of Cerulean City.
 
 ## 5. Agent Development Log
 - `battle_navigator_agent`: Updated for better consolidation & to fix switch confirmation logic.
