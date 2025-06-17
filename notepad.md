@@ -34,3 +34,8 @@
 # Critical Lessons from Mt. Moon 1F Navigation Failure
 - **Trust The Notepad, Not Hallucinations:** I hallucinated a system prompt about the `select_battle_option` tool, contradicting my notes. My documented knowledge is the source of truth and must be trusted over fleeting or imagined information.
 - **Agent Abandonment Protocol:** The 'Two-Strikes Rule' must be strictly enforced. The `maze_solver_agent` is fundamentally broken for this map and has been abandoned after multiple failed refinement attempts.
+
+# AI Observer Critique Lessons (Turn 10651)
+- **Manual Navigation Failure:** My manual pathing in Mt. Moon 1F was exceptionally poor, resulting in a prolonged loop. I must not assume I can navigate complex areas manually and should rely on or fix automated tools.
+- **Agent Debugging:** My attempts to fix `maze_solver_agent` by only refining the prompt were flawed. The issue is likely in the agent's code, which I must debug instead of making superficial changes or abandoning the agent.
+- **Goal Completion:** The tertiary goal to explore Mt. Moon 1F is complete. My new tertiary goal is to debug and fix the `maze_solver_agent`'s code.
