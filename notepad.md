@@ -31,7 +31,7 @@
 
 ## 4. Key NPCs & Events
 - **Route 25 Trade:** Cool Trainer F at (38, 5) wants to trade a CLEFAIRY, but she can be bypassed by walking around her to the south.
-S.S. Ticket Acquired: Bill gave me the S.S. Ticket for the S.S. Anne in Vermilion City. Hypothesis: This ticket will allow me to get past the officer blocking the south exit of Cerulean City.
+S.S. Ticket Acquired: Bill gave me the S.S. Ticket for the S.S. Anne in Vermilion City. My hypothesis that this would move the officer blocking the path behind the burgled house was incorrect. The ticket's purpose is likely for an event within Vermilion City itself.
 
 ## 5. Agent Development Log
 - `battle_navigator_agent`: Updated for better consolidation & to fix switch confirmation logic.
