@@ -36,4 +36,3 @@
 ## 5. Untested Hypotheses & Plans
 - **Underground Path Item:** Girl mentioned people lose things in the tunnel. Could be a hidden item.
 - **Poison Fainting:** Confirmed by Sailor that poison can cause fainting outside battle.
-- **New Agent Idea:** An agent to parse and remember key NPC dialogue hints about items or locations.
