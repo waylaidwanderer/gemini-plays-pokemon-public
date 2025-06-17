@@ -41,3 +41,6 @@
 
 ## 7. The Fan Club Paradox (SOLVED)
 - **Resolution:** The 'reachable' data was correct. The pathing agents were fundamentally flawed for this map layout, creating the illusion of an invisible wall. After numerous failed attempts, a careful manual path around the southern edge of the room successfully navigated to the west side. The Chairman provided the BIKE VOUCHER after listening to his story.
+
+## 8. Training Goals
+- **Post S.S. Anne:** PARCH (Lv 12) and THISTLE (Lv 16) are significantly under-leveled. A dedicated training session is needed to bring them up to par with the rest of the team.
