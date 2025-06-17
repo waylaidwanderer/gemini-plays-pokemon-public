@@ -35,3 +35,11 @@
 ## 5. Untested Hypotheses & Plans
 - **Underground Path Item:** Girl mentioned people lose things in the tunnel. Could be a hidden item.
 - **Saffron City Access:** The gatehouse guard is thirsty. I probably need to find him a drink to pass.
+
+## 6. Agent Development Log
+- **Pathfinder/Map Explorer Agents:** These agents are fundamentally flawed. They repeatedly fail to navigate simple maps (Vermilion City, Fan Club) by attempting to path through water or getting blocked by what appear to be invisible barriers. They require a complete overhaul. Refinements to prompts have been ineffective.
+
+## 7. The Fan Club Paradox
+- **Problem:** Game state insists tiles on the west side of the Fan Club are 'reachable', but all manual and agent-based attempts to cross the room have failed over ~20 turns. This suggests an invisible barrier or a non-obvious trigger is required to proceed.
+- **Hypothesis 1 (Failed):** Path exists around the southern edge of the furniture. (Attempted ~5 times, failed).
+- **Hypothesis 2 (New):** Interacting with my own Pikachu is the trigger to unblock the path.
