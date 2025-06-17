@@ -40,6 +40,7 @@
 - **NEW:** `wkg_updater_agent` created to automate WKG updates.
 
 ## 5. Untested Hypotheses & Plans
-- **Hypothesis:** The S.S. Ticket's purpose is to grant access to an event on the S.S. Anne in Vermilion City, which will be the next step in my progression. The path south from Cerulean must be opened by defeating the Rocket.
-- **Plan:** After this battle, I need to find the path south to Route 5.
+- **SUCCESS:** Defeated the Rocket at (31, 9) and recovered the stolen TM28 (DIG)! This is the key to opening the path south to Route 5.
+- **Plan:** Explore all remaining unseen areas of Cerulean City, then find the southern exit to Route 5 and proceed to Vermilion City.
+- **Agent Dev Note:** Deleting `exp_tracker_agent` to make space for a new `wkg_updater_agent` to streamline map data management.
 - **To-Do:** Mark the Fishing Guru at (3, 2) in the Trashed House (map 62) with a '💡' marker and label "Told me about stolen DIG TM".
