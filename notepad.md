@@ -1,28 +1,25 @@
-# Strategic Principles & Lessons Learned
-- **Trust The Notepad:** My documented knowledge (notepad, markers) is the source of truth and must be trusted over fleeting or imagined information, like hallucinated system prompts.
-- **Systematic Navigation:** When automated tools fail, I must adopt a systematic approach (e.g., wall-following) and perform careful, long-range planning. Haphazard manual navigation leads to loops.
-- **Separate Development from Progression:** Agent debugging is a strategic task for safe locations (like a Pokémon Center), not to be prioritized while lost in a hostile area.
-- **NPCs are Walls:** NPCs, including defeated Trainers, are impassable. To interact, stand on an adjacent tile and face them.
-- **Two-Strikes Rule:** If a path or interaction fails twice with no new info, abandon the approach and re-evaluate.
-- **Resource Management:** When party resources (PP) are critically low, the top priority is a strategic retreat to heal.
+# Strategic Principles
+- Trust The Notepad: My documented knowledge is the source of truth.
+- Systematic Navigation: Use wall-following or planned routes when agents fail.
+- NPCs are Walls: NPCs are impassable obstacles.
+- Two-Strikes Rule: If a path or interaction fails twice, re-evaluate.
+- Resource Management: Strategic retreat to heal is a top priority when PP is critical.
 
-# Tool & Agent Development
-- **`select_battle_option` Tool:** Verified as 100% reliable for battle actions like 'RUN'. This is now the primary method for escaping non-essential encounters.
-- **`maze_solver_agent`:** Now reliable after extensive debugging. Its debugging protocol (printing the map grid on failure) was key to fixing it.
-- **`battle_escape_agent`:** Deleted. `select_battle_option` is the superior tool for escaping.
-- **Development Idea - Universal Route Planner:** An agent to find the shortest path between any two known points in the World Knowledge Graph. Would be a major upgrade to the `escape_route_planner_agent`.
-- **Development Idea - Catching Assistant:** An agent to suggest the best Pokémon and move to weaken a wild Pokémon for capture without fainting it.
-- **Development Idea - Fossil Choice Advisor:** An agent to analyze Omanyte vs. Kabuto and recommend one based on team composition and future gym battles. (Agent already defined).
-
-# Battle Intel
-- **Level Cap Status:** SPARKY (Pikachu) is at the level cap (21). NIGHTSHADE (Oddish) is close (20). Avoid using them in non-essential battles to prevent wasting EXP.
-- **Type Matchups:** Grass is 4x effective vs. Rock/Ground (e.g., Geodude).
+# Game Mechanics & Battle Intel
+- **Type Matchups:**
+    - Grass is 4x effective vs. Rock/Ground (e.g., Geodude).
+    - Electric-type moves are not very effective against Electric-type Pokémon (e.g., Pikachu vs. Voltorb).
 - **Status Effects:** Confusion wears off after battle.
+- **EXP Share:** Only Pokémon in the party when the final opponent faints receive EXP.
 
-# Campaign Archive & Untested Hypotheses
-- **Route 3 Glitch:** A bugged Cool Trainer F at (17, 10) could not be battled.
-- **Mt. Moon B2F East:** Blocked by a Rocket Grunt demanding a fossil. This area is a dead end until a fossil is acquired.
-- **Hypothesis:** Defeated trainers may not be permanently impassable. They might disappear after a full map reload (e.g., leaving the area and returning).
-- **Hypothesis:** The assumption that all wild Pokémon of the same species share the same moveset is unverified. I need to track moves from different encounters to confirm.
+# Campaign Log & Hypotheses
+- **Mt. Moon B2F East:** Blocked by a Rocket Grunt at (30, 12). Path is now clear after obtaining a fossil.
+- **Hypothesis:** Defeated trainers may not be permanently impassable. (Status: Unverified)
+- **Hypothesis:** Wild Pokémon of the same species may have different movesets. (Status: Unverified)
 
-- **New Discovery:** Electric-type moves are not very effective against Electric-type Pokémon.
+# Agent Development
+- **`maze_solver_agent`:** Currently unreliable due to issues with Pikachu pathing. Avoid use until fixed.
+- **`fossil_choice_advisor_agent`:** Verified as reliable.
+- **Ideas:**
+    - Universal Route Planner: Agent to find the shortest path between any two known points.
+    - Catching Assistant: Agent to help weaken wild Pokémon for capture.
