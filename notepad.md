@@ -41,3 +41,6 @@
 
 ## 7. Training Goals
 - **Post S.S. Anne:** PARCH (Lv 12) and THISTLE (Lv 16) are significantly under-leveled. A dedicated training session is needed to bring them up to par with the rest of the team.
+
+## 8. Item & TM Usage Plan
+- **TM08 (Body Slam):** Teach to THISTLE, replacing Tackle. This is a significant physical attack upgrade.
