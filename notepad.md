@@ -22,3 +22,11 @@
 - **Mt. Moon Navigation (Past Experience):** The main path was in the eastern section of 1F, looping around. The western ladder system on 1F led to a large, looping dead-end.
 - **Route 4 Ledge Trap:** The lower part of Route 4 is a one-way path of ledges leading back to Route 3. The correct path to Cerulean is on the upper plateau.
 - **Wild Pokémon Movesets (Hypothesis):** The assumption that all wild Pokémon of the same species share the same moveset is unverified. I need to track moves from different encounters to confirm.
+
+# Agent Development Ideas
+- **Catching Assistant:** Suggests the best Pokémon and move to weaken a wild Pokémon without fainting it.
+- **Fossil Choice Advisor:** Analyzes Omanyte vs. Kabuto and recommends one based on team composition and future gym battles.
+- **Universal Route Planner:** An upgraded `escape_route_planner` that can find the shortest path between any two known points in the World Knowledge Graph.
+
+# Untested Hypotheses
+- **Hypothesis:** Defeated trainers may not be permanently impassable. They might disappear after a full map reload (e.g., leaving the area and returning).
