@@ -26,3 +26,6 @@
 - **Resource Management:** When party resources (especially PP on key moves) are critically low, the top priority becomes a strategic retreat to heal.
 
 - **Agent Status:** `world_knowledge_manager_agent` is non-functional. Reverting to manual WKG updates until it can be properly debugged. (3 failed attempts)
+
+# Agent Development Status
+- `pathfinding_agent` failed a second time to avoid a defeated trainer obstacle (T10143). Reverting to manual navigation for Route 3. Debugging is now a lower priority.
