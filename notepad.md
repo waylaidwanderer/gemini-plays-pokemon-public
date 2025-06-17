@@ -17,9 +17,10 @@
 ## 3. Battle Intel
 ### Gym Leaders
 - **Brock (Pewter City - DEFEATED):** Geodude (Lv 12), Onix (Lv 14).
-- **Misty (Cerulean City):** Psyduck (Lv 18), Goldeen (Lv 18), Starmie (Lv 21).
-  - **Intel:** Starmie (Water/Psychic) is fast and hits hard with Bubblebeam & Confusion. It's the primary threat.
-  - **Strategy:** Lead with SPARKY (Pikachu) for a strong Electric advantage. SPROUT (Oddish) is a solid backup with Grass typing to resist Water moves. The level cap is 21.
+- **Misty (Cerulean City - DEFEATED):** Psyduck (Lv 18), Goldeen (Lv 18), Starmie (Lv 21).
+  - **Intel:** Starmie (Water/Psychic) is very fast. Paralysis was key to victory.
+
+- **CUT Unlocked:** After getting the Cascade Badge, I can now use the move CUT to chop down small bushes outside of battle.
 
 ### Rival BLAZe
 - **@ Oak's Lab:** Eevee (Lv 5).
