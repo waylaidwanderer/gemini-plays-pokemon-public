@@ -12,14 +12,13 @@
     - **Post-Battle Status Cure:** Non-volatile status conditions are cured after trainer battles.
     - **PC System:** 'SOMEONE's PC' is for Pokémon Storage; 'Gem's PC' is for Item Storage.
     - **HM Usage (CUT):** Granted by the Cascade Badge. To use, stand in front of a cuttable tree and press 'A'. It is not used from a menu.
+- **PIP (Pidgey) Evolution:** Pressing 'B' during evolution stops it. I need to be careful not to do this again.
 
-## 3. Battle Intel
+## 2. Battle Intel
 ### Gym Leaders
 - **Brock (Pewter City - DEFEATED):** Geodude (Lv 12), Onix (Lv 14).
 - **Misty (Cerulean City - DEFEATED):** Psyduck (Lv 18), Goldeen (Lv 18), Starmie (Lv 21).
   - **Intel:** Starmie (Water/Psychic) is very fast. Paralysis was key to victory.
-
-- **CUT Unlocked:** After getting the Cascade Badge, I can now use the move CUT to chop down small bushes outside of battle.
 
 ### Rival BLAZe
 - **@ Oak's Lab:** Eevee (Lv 5).
@@ -29,19 +28,18 @@
 ### Wild Pokémon Intel
 - **Route 24 Venonat (Lv 16):** Knows DISABLE, SUPERSONIC, TACKLE.
 
-## 4. Key NPCs & Events
-- **Route 25 Trade:** Cool Trainer F at (38, 5) wants to trade a CLEFAIRY, but she can be bypassed by walking around her to the south.
-S.S. Ticket Acquired: Bill gave me the S.S. Ticket for the S.S. Anne in Vermilion City. My hypothesis that this would move the officer blocking the path behind the burgled house was incorrect. The ticket's purpose is likely for an event within Vermilion City itself.
+## 3. Key NPCs & Events
+- **Bill & S.S. Ticket:** After fixing his teleporter experiment on Route 25, Bill gave me the S.S. Ticket. This is for the S.S. Anne in Vermilion City.
+- **Cerulean City Team Rocket Plot:** A Rocket stole a TM for DIG from a Fishing Guru in the house at (28, 12). I am currently battling this Rocket.
 
-## 5. Agent Development Log
+## 4. Agent Development Log
 - `battle_navigator_agent`: Updated for better consolidation & to fix switch confirmation logic.
 - `exp_tracker_agent`: Created to monitor EXP/level cap.
 - `party_manager_agent`: Created for party composition suggestions.
 - `item_finder_agent`: Updated to find named NPCs.
+- **NEW:** `wkg_updater_agent` created to automate WKG updates.
 
-### Party & Training Notes
-- **PIP (Pidgey):** Leveled to 19 and learned WING ATTACK. Its evolution was triggered, but I accidentally cancelled it. I need to remember that pressing 'B' during evolution stops it.
-
-- **HM Usage (CUT):** The ability to use CUT is granted by the Cascade Badge. It is not used from a menu. To use it, stand in front of a cuttable tree and interact with it directly by pressing 'A'.
-
-## 6. Untested Hypotheses
+## 5. Untested Hypotheses & Plans
+- **Hypothesis:** The S.S. Ticket's purpose is to grant access to an event on the S.S. Anne in Vermilion City, which will be the next step in my progression. The path south from Cerulean must be opened by defeating the Rocket.
+- **Plan:** After this battle, I need to find the path south to Route 5.
+- **To-Do:** Mark the Fishing Guru at (3, 2) in the Trashed House (map 62) with a '💡' marker and label "Told me about stolen DIG TM".
