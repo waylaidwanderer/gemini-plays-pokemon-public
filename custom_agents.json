@@ -55,14 +55,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path_to_pokecenter\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"path_found\",\"path_to_pokecenter\",\"reasoning\"]}",
     "agent_can_run_code": true
   },
-  "wkg_payload_generator_agent": {
-    "agent_name": "wkg_payload_generator_agent",
-    "agent_description": "Generates the JSON payload for a single `manage_world_knowledge` call (either 'add_node' or 'add_edge').",
-    "agent_system_prompt": "You are a World Knowledge Graph assistant. Your task is to generate ONLY the JSON payload string for a single `manage_world_knowledge` tool call. You will be given the action type ('add_node' or 'add_edge') and the necessary data. You MUST use your `run_code` tool. Your Python code will construct the appropriate dictionary for the payload and print it as a JSON string. Your final output must ONLY be the raw JSON string from the `run_code` tool, without any surrounding text or formatting. For 'add_edge' actions, you will be given the source and destination node IDs directly.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\",\"enum\":[\"add_node\",\"add_edge\"]},\"data\":{\"type\":\"object\"}},\"required\":[\"action\",\"data\"]}",
-    "agent_output_schema": "{\"type\":\"string\",\"description\":\"A JSON string representing the payload for the manage_world_knowledge tool.\"}",
-    "agent_can_run_code": true
-  },
   "maze_solver_agent": {
     "agent_name": "maze_solver_agent",
     "agent_description": "Finds the shortest path in a single-level maze using a robust pathfinding algorithm like BFS. Ideal for complex environments. Requires code execution to parse the map XML.",
