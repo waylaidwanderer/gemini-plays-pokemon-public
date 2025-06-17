@@ -54,5 +54,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{}}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hypothesis_description\":{\"type\":\"string\"},\"action_suggestion\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"hypothesis_description\",\"action_suggestion\",\"reasoning\"]}}}}",
     "agent_can_run_code": true
+  },
+  "heal_priority_agent": {
+    "agent_name": "heal_priority_agent",
+    "agent_description": "Analyzes the party's status (HP, status conditions) and the nearest Pokémon Center location (from the World Knowledge Graph) to determine if healing is a critical priority.",
+    "agent_system_prompt": "You are a Heal Priority Agent. Your task is to assess the player's party and location to determine the urgency of visiting a Pokémon Center. You will be given the player's party data and will use your `run_code` tool to access the `world_knowledge_graph_json_string`. Your output should be a JSON object with a `healing_priority` (low, medium, high, critical) and a `reasoning` string. \n\nLogic:\n1. Analyze party HP. If any Pokémon is below 30% HP, priority is at least 'high'. If multiple are, it's 'critical'.\n2. Check for status conditions like poison or paralysis on key Pokémon. This increases priority.\n3. Use `run_code` to parse `world_knowledge_graph_json_string` and find the path to the nearest node tagged 'pokecenter'.\n4. If a Pokémon Center is very far away (many map transitions), the priority to heal might be lower than if one is nearby, as the risk of travel might be too high. Weigh the party's condition against the travel distance.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"current_hp\":{\"type\":\"integer\"},\"max_hp\":{\"type\":\"integer\"},\"status\":{\"type\":\"string\"}},\"required\":[\"name\",\"current_hp\",\"max_hp\"]}}},\"required\":[\"player_party\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"healing_priority\":{\"type\":\"string\",\"enum\":[\"low\",\"medium\",\"high\",\"critical\"]},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"healing_priority\",\"reasoning\"]}",
+    "agent_can_run_code": true
   }
 }
