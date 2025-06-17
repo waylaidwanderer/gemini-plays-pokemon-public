@@ -27,5 +27,5 @@
 - **`unseen_tile_navigator_agent`:** Verified as reliable.
 - **`battle_strategist_agent`:** Verified as reliable.
 - **`battle_switch_agent`:** Verified as reliable.
-- **`pathfinder_agent`:** Created to find paths to specific coordinates. **Status: Refined after initial failure, needs re-testing.**
-- **`pikachu_path_adjuster_agent`:** Created to handle Pikachu's movement. **Status: Untested.** Must be tested on a simple path soon.
+- **`pathfinder_agent`:** Created to find paths to specific coordinates. **Status: Functional but requires refinement for complex obstacles.**
+- **`pikachu_path_adjuster_agent`:** Created to handle Pikachu's movement. **Status: Verified as reliable.**
