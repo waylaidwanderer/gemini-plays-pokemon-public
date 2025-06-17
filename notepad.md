@@ -47,3 +47,5 @@
 
 ### `exp_tracker_agent`
 - **Status:** Idea stage. Purpose is to monitor party Pokémon EXP relative to the current level cap to optimize training.
+
+- **Post-Battle Status Cure:** Non-volatile status conditions (like Poison) are automatically cured after a trainer battle concludes. (Confirmed after Lass battle on Route 25).
