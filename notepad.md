@@ -31,3 +31,5 @@
 
 # Agent Ideas
 - `pokedex_gap_analyzer_agent`: Could analyze my current roster and suggest high-value Pokémon to catch in a new area to improve type coverage.
+
+- `pokedex_gap_analyzer_agent`: Newly created. MUST test after completing Nugget Bridge to evaluate effectiveness.
