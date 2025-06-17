@@ -42,4 +42,4 @@
 ## 7. The Fan Club Paradox
 - **Problem:** Game state insists tiles on the west side of the Fan Club are 'reachable', but all manual and agent-based attempts to cross the room have failed over ~20 turns. This suggests an invisible barrier or a non-obvious trigger is required to proceed.
 - **Hypothesis 1 (Failed):** Path exists around the southern edge of the furniture. (Attempted ~5 times, failed).
-- **Hypothesis 2 (New):** Interacting with my own Pikachu is the trigger to unblock the path.
+- **Hypothesis 2 (Failed):** Interacting with my own Pikachu is the trigger to unblock the path. (Attempted once, failed). All internal solutions have been exhausted. The 'reachable' unseen tiles are functionally unreachable. The only remaining logical action is to exit the building.
