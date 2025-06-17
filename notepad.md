@@ -26,7 +26,7 @@
 - **@ Cerulean City (North):** Pidgeotto (Lv 18), Raticate (Lv 17), Kadabra (Lv 16), Vaporeon (Lv 20).
 
 ## 4. Key NPCs & Events
-- **Route 25 Trade:** Cool Trainer F at (38, 5) wants to trade a CLEFAIRY. This is required to pass.
+- **Route 25 Trade:** Cool Trainer F at (38, 5) wants to trade a CLEFAIRY, but she can be bypassed by walking around her to the south.
 - **Cerulean City Blockage:** A police officer blocks the path to a 'burgled house'. Hypothesis: Helping Bill on Route 25 will resolve this.
 
 ## 5. Agent Development Log
