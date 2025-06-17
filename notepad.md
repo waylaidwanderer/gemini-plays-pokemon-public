@@ -1,33 +1,33 @@
 # Strategic Principles
-- Trust The Game State: The game state data (especially `reachable` flags) is the ultimate source of truth.
+- Trust The Game State: The game state data (`reachable` flags, etc.) is the ultimate source of truth.
 - Systematic Navigation: Use agents for complex paths; use short, verifiable moves for simple repositions.
-- NPCs are Walls: NPCs are impassable obstacles.
+- NPCs are Walls: Treat all non-player sprites (except Pikachu) as impassable obstacles.
 - Two-Strikes Rule: If a path or interaction fails twice, re-evaluate assumptions before trying a third time.
+- Mark Defeated Trainers: Immediately mark any defeated trainer with a '☠️' emoji to avoid re-engaging.
 
 # Game Mechanics & Battle Intel
 - **Type Matchups (Verified):**
     - Grass is 4x effective vs. Rock/Ground (e.g., Geodude).
-    - Electric-type moves are 'not very effective' against Electric-type Pokémon (e.g., Pikachu vs. Voltorb).
-    - Electric-type moves (THUNDERPUNCH) are 'not very effective' against Paras (Bug/Grass).
+    - Electric-type moves are 'not very effective' against Electric-type Pokémon.
+    - Electric-type moves are 'not very effective' against Paras (Bug/Grass).
 - **Status Effects:**
     - Confusion wears off after battle.
-    - Poison-type Pokémon appear to be immune to being poisoned.
+    - Poison-type Pokémon are immune to being poisoned.
 - **EXP Share:** Only Pokémon in the party when the final opponent faints receive EXP.
-- **Level Cap EXP Gain:** Confirmed that Pokémon at the level cap do not gain EXP, even if the message appears.
+- **Level Cap EXP Gain:** Pokémon at the level cap do not gain EXP, even if the message appears.
 
-# Battle Strategy Insights
-- **Paralysis Strategy:** When a lead Pokémon is paralyzed, its Speed is severely reduced. Attempting to run is highly likely to fail and wastes turns. It is more efficient to fight immediately. (Insight from AI critique, T11016)
-
-# Campaign Log & Hypotheses
-- **Hypothesis:** Wild Pokémon of the same species may have different movesets. (Status: Unverified)
+# Current Hypotheses
+- **Hypothesis 1:** A full party is preventing me from receiving the Bulbasaur from Melanie. (Status: Testing)
+- **Hypothesis 2:** The path to the Cerulean Gym is blocked until I complete an event on a bridge to the north. (Status: Unverified, from AI hint)
+- **Hypothesis 3:** Wild Pokémon of the same species may have different movesets. (Status: Unverified)
 
 # Agent Development & Testing
-- **`maze_solver_agent`:** Deleted. Fundamentally broken.
-- **`fossil_choice_advisor_agent`:** Deleted. Single-use agent no longer needed.
+- **`pathfinder_agent`:** Refined to treat all `<Object>` tags (except Pikachu) as impassable walls. This should improve its accuracy in cluttered areas. (Status: Refined, needs testing)
+- **`building_identifier_agent`:** Newly created to find key buildings in cities. (Status: Untested)
 - **`unseen_tile_navigator_agent`:** Verified as reliable.
 - **`battle_strategist_agent`:** Verified as reliable.
 - **`battle_switch_agent`:** Verified as reliable.
-- **`pathfinder_agent`:** Created to find paths to specific coordinates. **Status: Functional but requires refinement for complex obstacles.**
-- **`pikachu_path_adjuster_agent`:** Created to handle Pikachu's movement. **Status: Verified as reliable.**
+- **`pikachu_path_adjuster_agent`:** Verified as reliable.
 
 # Agent Ideas
+- `pokedex_gap_analyzer_agent`: Could analyze my current roster and suggest high-value Pokémon to catch in a new area to improve type coverage.
