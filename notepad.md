@@ -42,3 +42,6 @@
 
 ### Party & Training Notes
 - **PIP (Pidgey):** Leveled to 19 and learned WING ATTACK. Its evolution was triggered, but I accidentally cancelled it. I need to remember that pressing 'B' during evolution stops it.
+
+## 6. Untested Hypotheses
+- **HM Usage:** The game description says HMs can be used from the menu without teaching. My attempt to use CUT from the Pokémon's context menu failed. Next hypothesis: it's used directly from the main start menu, or by interacting with the object, or must be taught from the item menu.
