@@ -16,3 +16,8 @@
 
 # Campaign Archive
 - **Mt. Moon Navigation:** The main path was in the eastern section of 1F, looping around the central structures. The western ladder system on 1F led to a large, looping dead-end area.
+
+# Critical Lessons from AI Critique (T10110)
+- **Disengage from Failing Strategies:** If an interaction or path fails more than twice, abandon the approach and re-evaluate. Do not get stuck in loops (e.g., the Cool Trainer incident).
+- **Trust Agents, Question Assumptions:** My `pathfinding_agent` was correct; my map awareness was flawed. The default assumption must be that the agent is right. I will question my own understanding before declaring a tool 'broken'.
+- **Verify Before Modifying:** Always check the World Knowledge Graph for existing nodes/edges before attempting to add new ones to prevent failed calls.
