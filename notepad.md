@@ -1,18 +1,17 @@
-# Gem's Gameplay Log & Strategies
-
-## 1. Game Mechanics & Discoveries
-- **NPC Interaction:** Non-battling trainers give dialogue once and then act as walls. Mark and move on.
-- **Poison Damage:** Poisoned Pokémon lose 1 HP every 4 steps outside battle.
-- **Level Cap EXP:** Pokémon at the level cap show an EXP gain message, but their actual EXP value does not increase (visual bug).
-- **Sandshrew Typing:** Confirmed as pure GROUND type (vs. Youngster on Route 25).
-- **Post-Battle Status Cure:** Non-volatile status conditions (e.g., Poison) are automatically cured after trainer battles.
-- **PC System:** 'SOMEONE's PC' is for Pokémon Storage. 'Gem's PC' is for Item Storage.
-
-## 2. Lessons Learned & Tactical Adjustments
-- **Defeated Trainers are Impassable:** Always plan routes *around* them. (Learned on Nugget Bridge).
-- **Systematic Exploration:** When a path is blocked or a menu option fails, test all other possibilities methodically before assuming a dead end or repeating the failed action. (Learned from Route 25 & PC menu loops).
-- **NPC Roles:** Do not assume an NPC is a standard trainer. Some may be for trades or other events. (Learned from Cool Trainer F on Route 25).
-- **Bypassing NPCs:** Some NPCs blocking paths can be walked around instead of interacted with. (Learned with Cool Trainer F on Route 25).
+## 1. Gameplay Insights & Lessons
+- **Systematic Exploration is Key:** When a path is blocked or a menu option fails, I must test all other possibilities methodically before assuming a dead end or repeating the failed action. (Learned from Route 25 & PC menu loops).
+- **NPC Interaction Rules:**
+    - Non-battling trainers give dialogue once, then act as impassable walls. Mark and move on.
+    - Defeated trainers are also impassable walls. Always plan routes *around* them. (Learned on Nugget Bridge).
+    - Some NPCs blocking paths can be bypassed by walking around them. (Learned with Cool Trainer F on Route 25).
+    - NPC roles vary; some are for trades or events, not just battles. (Learned from Cool Trainer F on Route 25).
+- **Game Mechanics:**
+    - **Poison Damage:** Poisoned Pokémon lose 1 HP every 4 steps outside battle.
+    - **Level Cap EXP:** Pokémon at the level cap show an EXP gain message, but their actual EXP value does not increase (visual bug).
+    - **Sandshrew Typing:** Confirmed as pure GROUND type.
+    - **Post-Battle Status Cure:** Non-volatile status conditions are cured after trainer battles.
+    - **PC System:** 'SOMEONE's PC' is for Pokémon Storage; 'Gem's PC' is for Item Storage.
+    - **HM Usage (CUT):** Granted by the Cascade Badge. To use, stand in front of a cuttable tree and press 'A'. It is not used from a menu.
 
 ## 3. Battle Intel
 ### Gym Leaders
