@@ -41,7 +41,7 @@
 
 ## 5. Defeated Trainers Log
 - **Route 24:** Jr. Trainer @ (6, 21), Lass @ (11, 23), Youngster @ (12, 26), Youngster @ (12, 32), Rocket Grunt @ (12, 16), Cool Trainer F @ (11, 29).
-- **Route 25:** Hiker @ (9, 5), Lass @ (19, 9), Hiker @ (24, 10), Youngster @ (33, 4), Lass @ (38, 5), Youngster @ (19, 6), Youngster @ (15, 4).
+- **Route 25:** Hiker @ (9, 5), Lass @ (19, 9), Hiker @ (24, 10), Youngster @ (33, 4), Cool Trainer F @ (38, 5), Youngster @ (19, 6), Youngster @ (15, 4).
 
 ## 6. Agent Development Log
 - **`battle_navigator_agent`:** Updated to consolidate button presses.
