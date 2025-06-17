@@ -37,3 +37,5 @@
 ## 5. Untested Hypotheses & Plans
 - **Underground Path Item:** Girl mentioned people lose things in the tunnel. Could be a hidden item.
 - **Poison Fainting:** Confirmed by Sailor that poison can cause fainting outside battle.
+
+- **Agent Failure (Turn 10672):** Both `pathfinder_agent` and `map_explorer_agent` generated paths that included impassable water tiles. I have updated their prompts to be more strict about avoiding water.
