@@ -63,14 +63,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reason\":{\"type\":\"string\"}},\"required\":[\"path_found\",\"path\",\"reason\"]}",
     "agent_can_run_code": true
   },
-  "pokedex_gap_analyzer_agent": {
-    "agent_name": "pokedex_gap_analyzer_agent",
-    "agent_description": "Analyzes player's roster and available wild Pokémon to suggest high-value catches for improving team type coverage against upcoming threats.",
-    "agent_system_prompt": "You are a Pokémon Roster Analyst. Your goal is to help the player build a more balanced team by identifying gaps in their type coverage. You will be given the player's full roster (party and PC Pokémon) and a list of wild Pokémon available in the current area. Your analysis should: 1. Identify types that are under-represented or missing from the player's roster. 2. Compare the available wild Pokémon against these gaps. 3. Recommend specific Pokémon to catch that would provide the most strategic value, explaining the reasoning (e.g., 'Catching a Geodude would provide a Rock-type, which is strong against Flying-types and gives you a good counter for the upcoming Gym'). 4. Output must conform to the provided schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon_roster\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"name\",\"type1\"]}},\"available_wild_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"player_pokemon_roster\",\"available_wild_pokemon\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"type_gaps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"recommended_catches\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\",\"reasoning\"]}}},\"required\":[\"type_gaps\",\"recommended_catches\"]}",
-    "agent_can_run_code": true
-  },
   "gym_gauntlet_planner_agent": {
     "agent_name": "gym_gauntlet_planner_agent",
     "agent_description": "Suggests an optimal party order and strategy for clearing an entire Pokémon Gym, considering all trainers and the final leader.",
