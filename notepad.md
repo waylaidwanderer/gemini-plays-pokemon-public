@@ -23,8 +23,9 @@
 
 # Agent Development & Testing
 - **`maze_solver_agent`:** Deleted. Fundamentally broken.
-- **`fossil_choice_advisor_agent`:** Verified as reliable.
-- **`unseen_tile_navigator_agent`:** Verified as reliable for pathfinding to unseen tiles.
-- **`battle_strategist_agent`:** Verified as reliable for single-opponent battles.
+- **`fossil_choice_advisor_agent`:** Deleted. Single-use agent no longer needed.
+- **`unseen_tile_navigator_agent`:** Verified as reliable.
+- **`battle_strategist_agent`:** Verified as reliable.
 - **`battle_switch_agent`:** Verified as reliable.
+- **`pathfinder_agent`:** Created to find paths to specific coordinates. **Status: Refined after initial failure, needs re-testing.**
 - **`pikachu_path_adjuster_agent`:** Created to handle Pikachu's movement. **Status: Untested.** Must be tested on a simple path soon.
