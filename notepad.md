@@ -5,6 +5,7 @@
 - **PIP (Pidgeotto):** Flying Attacker. Good speed and decent damage.
 - **PARCH (Sandshrew):** Ground Type. Currently under-leveled.
 - **LUMIN (Clefairy):** Normal Type. Currently under-leveled, candidate for PC storage.
+- **SHELLSHOCK (Squirtle):** Water Type. Newly acquired gift Pokémon.
 
 ## 2. Gameplay Insights & Lessons
 - **Systematic Exploration:** Verify location names (`map_id`) after warping *before* documenting or exploring. Avoid assumptions.
@@ -30,7 +31,7 @@
 ## 4. Key NPCs & Events
 - **Bill (Route 25):** Gave S.S. Ticket after being cured.
 - **Cerulean Rocket:** Stole TM28 (DIG), was defeated.
-- **Officer Jenny (Vermilion City):** Offers a gift Squirtle. Party must have a free slot.
+- **Officer Jenny (Vermilion City):** Gave a gift Squirtle.
 - **Pidgey House Kid (Vermilion City):** Sending a letter to Saffron, mentions Team Rocket problems there.
 
 ## 5. Untested Hypotheses & Plans
