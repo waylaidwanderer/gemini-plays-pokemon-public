@@ -43,3 +43,7 @@
 - **CRITICAL LESSON:** Be more careful with tool calls. Double-check arguments to avoid repeated failures.
 - **Assumption:** Diglett's Cave is the best place to train. I should verify this by exploring the rest of Route 11.
 - **Assumption:** EXP is shared between the battling Pokémon and the lead Pokémon. I need to confirm this mechanic.
+
+# 8. Critique & Course Correction (Turn 12101)
+- **AI Feedback:** Received critique for poor risk management regarding PARCH's critical health (9 HP) and underutilizing agents. The assumption that a Pokémon Center is at the cave exit is unverified.
+- **Decision:** Acknowledged risk. Backtracking to Vermilion is guaranteed safety but highly inefficient. The rest of the party is healthy. Proceeding forward cautiously to find the cave exit is a calculated risk for a significant time-save. PARCH will NOT be used in battle until healed. Will prioritize using explorer_agent for navigation.
