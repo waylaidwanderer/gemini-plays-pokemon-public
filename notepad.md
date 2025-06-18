@@ -46,11 +46,8 @@
 - Defeated Lass at (11, 23) on Route 24 (Nugget Bridge).
 
 ## Route 24 Stagnation & New Plan
-- **H4: Defeat Trainer at (6, 21):** My hypothesis that defeating the trainer at (6, 21) was necessary to progress has failed. He is unresponsive to interaction, just like the Rocket Grunt. (Failed: Attempt 1)
-- **H5: Battle Rocket Grunt:** My hypothesis that the Rocket Grunt at (12, 16) must be battled has also failed. Interacting with him results in a dialogue loop with no battle trigger. (Failed: Multiple attempts)
-- **New Strategy:** Both remaining trainers on Route 24 are unresponsive. I am pivoting to pure exploration. My new priorities are:
-    1. Investigate the item ball at (11, 6).
-    2. Explore the eastern path leading to the undiscovered map connection.
+- **Route 24 Blockers (Failed Hypothesis):** The remaining trainers on Route 24, including the Rocket Grunt, are unresponsive and non-battling. They are not the key to progression.
+- **New Strategy:** My new priorities are to investigate the item ball at (11, 6) and explore the eastern path leading to the undiscovered map connection.
 
 ## VII. New Exploration Protocol (Post-Critique)
 - **Recon First:** Upon entering a new route with trainers, I will immediately use the `trainer_recon_agent` to identify all threats before exploring.
