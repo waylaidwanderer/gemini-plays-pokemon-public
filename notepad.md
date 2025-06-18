@@ -48,3 +48,6 @@
 # 8. Item & TM Usage Plan
 - **TM44 (Rest):** Plan to teach to PARCH, replacing POISON STING.
 - **TM08 (Body Slam):** Plan to teach to THISTLE, replacing Tackle.
+
+# 9. Future Agent Ideas
+- **Progression Blocker Agent:** An agent to analyze key items, map data, and NPC dialogue to identify specific requirements for overcoming story-based obstacles (e.g., the thirsty Saffron guard).
