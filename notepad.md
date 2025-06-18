@@ -8,7 +8,7 @@
 - **LUMIN (Clefairy):** Normal Type. In PC.
 
 # 2. Agent Development Log
-- **NOTE:** I am underutilizing my agents. I must make better use of `heal_priority_agent` before exploring with injured Pokémon and `party_manager_agent` to select leads for new areas.
+- **NOTE:** I am underutilizing my agents and ignoring game state information. I must trust the `Reachable Unseen Tiles` list and use my `heal_priority_agent` *before* exploring new areas with injured Pokémon to improve my risk management.
 
 # 3. Current Objective: Heal Party & Train for Vermilion Gym
 - **Goal:** Defeat Lt. Surge and earn the Thunder Badge.
