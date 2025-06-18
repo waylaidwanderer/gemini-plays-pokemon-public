@@ -32,3 +32,5 @@
 - **(FAILURE LOG): Hallucination:** I completely misidentified my location (thought I was in Vermilion City while on Route 11). I must verify my position with game state data before acting.
 - **(RISK ASSESSMENT):** I must use my `heal_priority_agent` *before* entering new, dangerous areas. I failed to do this before entering Route 11, resulting in a near party wipe.
 - **(TOOL USAGE):** Trust agents (pathfinder, explorer) to find paths when I am stuck. Use `select_battle_option` for main battle menu choices.
+
+- **(FAILURE LOG): Agent Logic:** My `explorer_agent` has repeatedly failed (6+ attempts) to generate valid paths in Diglett's Cave, incorrectly identifying my area as a dead end instead of finding paths to other disconnected, explorable zones. This indicates a severe flaw in its initial design and stuck-solving logic.
