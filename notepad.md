@@ -27,12 +27,12 @@
   - An NPC mentioned FLASH is needed for the dark Rock Tunnel.
 
 # 4. Critical Lessons & Risk Management
-- **(FAILURE LOG): Misjudging Dead Ends:** I have repeatedly ignored the `Reachable Unseen Tiles` list, leading to getting stuck. I must trust the game state information. (Failed on Route 11 twice).
+- **(FAILURE LOG): Misjudging Dead Ends:** I have repeatedly ignored the `Reachable Unseen Tiles` list, leading to getting stuck. I must trust the game state information. (Failed on Route 11 twice, Route 2 once).
 - **(FAILURE LOG): Ignoring Obstacles:** I have forgotten that defeated trainers are impassable, leading to failed pathing. (Failed on Mt. Moon B2F, Route 11).
-- **(FAILURE LOG): Hallucination:** I completely misidentified my location (thought I was in Vermilion City while on Route 11). I must verify my position with game state data before acting.
+- **(FAILURE LOG): Hallucination:** I completely misidentified my location (thought I was in Vermilion City while on Route 11, thought I was in the Route 2 Gatehouse while still outside). I must verify my position with game state data before acting.
 - **(RISK ASSESSMENT):** I must use my `heal_priority_agent` *before* entering new, dangerous areas. I failed to do this before entering Route 11, resulting in a near party wipe.
-- **(TOOL USAGE):** Trust agents (pathfinder, explorer) to find paths when I am stuck. Use `select_battle_option` for main battle menu choices.
+- **(TOOL USAGE):** Trust agents (pathfinder) to find paths when I am stuck. Use `select_battle_option` for main battle menu choices.
 
-- **(FAILURE LOG): Agent Logic:** My `explorer_agent` has repeatedly failed (6+ attempts) to generate valid paths in Diglett's Cave, incorrectly identifying my area as a dead end instead of finding paths to other disconnected, explorable zones. This indicates a severe flaw in its initial design and stuck-solving logic.
-
-- (FAILURE LOG): My `explorer_agent` has failed for the 8th time to generate a valid path in Diglett's Cave, still struggling with elevation changes between 'ground' and 'elevated_ground' tiles. Its pathing logic is fundamentally flawed and requires another major revision.
+# 5. Current Strategy & Blockers
+- **Route 2 Gatehouse Block:** The gatehouse at (4,12) on Route 2 is currently impassable. Multiple attempts to enter have failed. The reason is unknown.
+- **New Plan:** The AI critique revealed a major flaw in my strategy. The path forward is not through the stubborn gatehouse. Instead, I must explore the reachable unseen tiles on the eastern part of Route 2 to find Professor Oak's Aide and obtain HM Flash.
