@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"current_hp\":{\"type\":\"integer\"},\"max_hp\":{\"type\":\"integer\"},\"status_condition\":{\"type\":\"string\",\"nullable\":true},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"current_pp\":{\"type\":\"integer\"},\"max_pp\":{\"type\":\"integer\"}},\"required\":[\"name\",\"current_pp\",\"max_pp\"]}}},\"required\":[\"name\",\"level\",\"current_hp\",\"max_hp\",\"moves\"]}}},\"required\":[\"player_pokemon_party\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\",\"enum\":[\"Retreat\",\"Continue\"]},\"confidence_score\":{\"type\":\"number\",\"minimum\":0,\"maximum\":1},\"reasoning\":{\"type\":\"string\",\"description\":\"A brief explanation for the recommendation, highlighting key factors like low HP, depleted PP on crucial moves, or widespread status effects.\"}},\"required\":[\"recommendation\",\"confidence_score\",\"reasoning\"]}",
     "agent_can_run_code": false
+  },
+  "sanity_checker_agent": {
+    "agent_name": "sanity_checker_agent",
+    "agent_description": "Compares my stated location in validation_checks against the GameStatus to detect hallucinations.",
+    "agent_system_prompt": "You are a sanity checker. You will be given the player's stated map ID and coordinates. Your sole job is to compare this to the `GameStatus.Location.Map` ID and `GameStatus.Player.Position` from the game state. If they match, output `is_sane: true`. If they do not match, output `is_sane: false` and provide the correct location in the `reason` field. Your output must conform to the provided schema.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"stated_map_id\":{\"type\":\"integer\"},\"stated_x\":{\"type\":\"integer\"},\"stated_y\":{\"type\":\"integer\"}},\"required\":[\"stated_map_id\",\"stated_x\",\"stated_y\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"is_sane\":{\"type\":\"boolean\"},\"reason\":{\"type\":\"string\"}},\"required\":[\"is_sane\",\"reason\"]}",
+    "agent_can_run_code": false
   }
 }
