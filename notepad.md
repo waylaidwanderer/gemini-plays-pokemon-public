@@ -39,6 +39,8 @@
 
 # 6. Type Matchup Discoveries
 - **Magnemite:** Resists Flying-type moves. Hypothesis: It has a Steel type in this ROM hack.
+- **Ground-types:** Appear to be immune to Paralysis from moves like Stun Spore.
+- **Poison vs. Ground:** Poison-type moves (like Acid) are not very effective against Ground-types.
 
 # 7. Critical Lessons & Unverified Assumptions
 - **CRITICAL LESSON:** I must read screen text verbatim and not let my expectations create hallucinations.
@@ -54,5 +56,3 @@
 - **Lead with Speed:** When exploring areas with high encounter rates (like caves), lead with a fast Pokémon like SPARKY to ensure a higher chance of escaping from unwanted wild battles on the first try. This conserves HP, PP, and turns.
 
 - **Level Cap EXP:** Confirmed that SPARKY (Lv 24, cap for 2 badges is 24) showed 'gained 279 EXP' after defeating the Route 11 Youngster's Ekans, but the EXP value did not actually change. This confirms the fake EXP gain mechanic.
-
-- **Idea for new agent:** `battle_strategist_agent` to suggest optimal moves in battle.
