@@ -7,7 +7,15 @@
 - **SHELLSHOCK (Squirtle):** Water Type. Gift Pokémon, in PC.
 - **LUMIN (Clefairy):** Normal Type. In PC.
 
-# 2. Gameplay Insights & Lessons
+# 2. S.S. Anne - Current Objective
+- **Primary Goal:** Find the Captain on an upper deck to get HM CUT.
+- **Secondary Goal:** Find the stairs leading to the upper decks.
+- **Key Discoveries:**
+    - **HM STRENGTH:** A Super Nerd on B1F (Room entered from (24,4)) mentioned his Machoke has STRENGTH to move big rocks. This is likely the HM.
+    - **Waiter (2F, (4,5)):** Does not provide healing. I need to find the correct rest spot.
+    - **Rival:** A battle with BLAZe is expected before reaching the Captain.
+
+# 3. General Gameplay Insights
 - **Systematic Exploration:** Verify location names (`map_id`) after warping *before* documenting.
 - **NPC Interaction:** Non-battling/defeated trainers are impassable walls. Some event NPCs offer gifts.
 - **Game Mechanics:**
@@ -16,12 +24,6 @@
     - Non-volatile status conditions are cured after trainer battles.
     - PC System: 'SOMEONE's PC' is for Pokémon, 'Gem's PC' is for Items.
     - HM CUT: Used by pressing 'A' on a tree, not from a menu.
-
-# 3. S.S. Anne Notes
-- **Objective:** Find the Captain on an upper deck to get HM CUT.
-- **STRENGTH HM:** A Super Nerd on B1F (Room at (24,4)) mentioned his Machoke has STRENGTH to move big rocks. This is likely the HM.
-- **Waiter (2F, (4,5)):** Does not provide healing.
-- **Rival:** A battle with BLAZe is expected before reaching the Captain.
 
 # 4. Battle Intel
 ## Gym Leaders
