@@ -34,3 +34,5 @@
 - **(TOOL USAGE):** Trust agents (pathfinder, exploration) to find paths when I am stuck.
 
 - **Type Discoveries (NEW):** Ground-type moves are not very effective against Bug-type Pokémon (e.g., PARCH's DIG vs. Caterpie).
+
+- **(FAILURE LOG): Tactical Rigidity in Battle:** I persisted with PARCH's DIG attack against a Dugtrio despite multiple accuracy drops from Sand-Attack, resulting in a prolonged and inefficient battle. I also failed to use my `battle_switch_advisor_agent`, which was designed for this exact scenario. **Lesson:** When a strategy is clearly failing due to stat changes, I must adapt quickly by switching Pokémon or using a different approach. I must also remember to utilize the custom agents I've built.
