@@ -34,3 +34,5 @@
 
 # 6. Type Matchup Discoveries
 - **Magnemite:** Resists Flying-type moves. Hypothesis: It has a Steel type in this ROM hack.
+
+- **CRITICAL LESSON:** I must read screen text verbatim and not let my expectations create hallucinations. I completely misinterpreted an empty trash can message as solving the gym puzzle. Verify all game feedback before acting.
