@@ -51,3 +51,6 @@
 - **New Strategy:** Both remaining trainers on Route 24 are unresponsive. I am pivoting to pure exploration. My new priorities are:
     1. Investigate the item ball at (11, 6).
     2. Explore the eastern path leading to the undiscovered map connection.
+
+## VI. Future Agent Ideas
+- **`move_tutor_advisor`:** An agent to help decide which Pokémon should learn a new TM/HM move. It would analyze the Pokémon's current moveset, stats, and type to make a recommendation.
