@@ -1,12 +1,10 @@
 # Gem's Strategic Journal
 
 ## I. Core Principles & Lessons Learned
-- **The `GameStatus` is the only source of truth.** All actions must be based on confirmed map data, not assumptions or memory. Verify map changes *before* documenting.
-- **Trust but Verify Agents:** Trust agent *logic* but adapt the *execution* of their plans into reliable, sequential steps.
-- **Systematic Exploration (Contextual):** Prioritize exploring reachable unseen tiles *when stuck*, not when the main path is clear.
-- **Mark Everything:** Diligently mark defeated trainers, used warps, and key locations.
-- **Strategic Prioritization:** After a major story event unlocks the main path, pursue it immediately.
-- **Execution Over Complexity:** Abandon multi-input commands. Break down actions into simple, single-button presses per turn.
+- **Progression over Perfection:** The main goal is to move forward. Don't get bogged down by optional side content or dead ends. If a path requires an item I don't have (like Cut), note it and move on.
+- **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it with one or two actions, and if it fails, immediately pivot to a new hypothesis. Do not repeat failed actions.
+- **Systematic Exploration (When Stuck):** If the main path is unclear, use agents like `unseen_tile_navigator_agent` to explore methodically rather than wandering randomly.
+- **Mark Everything:** Diligently mark defeated trainers, used warps, key items, and especially one-way paths or traps (like the Cerulean ledge).
 
 ## II. Game Mechanics & Battle Intel
 - **Type Matchups (Verified):**
@@ -19,14 +17,15 @@
 - **EXP Distribution:**
     - Pokémon at the level cap do not gain EXP.
     - All non-fainted party members share EXP.
+- **Field Moves:**
+    - DIG can be used to escape caves and some areas to the entrance of the last-used Pokémon Center.
 
-## III. Agent Development Log
+## III. Agent Log
+- **`pathfinder_agent`:** Highly unreliable for complex maps with ledges. Has been refined multiple times. Must be tested on simple paths before being trusted for critical navigation.
 - **`battle_menu_navigator`:** Created. For efficient battle menu navigation.
 - **`unseen_tile_navigator_agent`:** Reliable for overworld navigation when stuck.
-- **`pathfinder_agent`:** Refined to ensure output stability. Must be re-verified on next use.
 - **`move_tutor_advisor`:** Created. Ready for use when a new TM is acquired.
+- **`multi_map_route_planner_agent`**: Created. For planning routes across multiple maps.
 
-- **Pathfinder Agent Caution:** The `pathfinder_agent` can be unreliable with complex routes involving ledges. Always manually double-check long or circuitous paths it suggests.
-
-## Cerulean City Navigation Debrief
-- **Lesson Learned:** The eastern path out of Cerulean City is a dead end that requires Cut. The correct path for story progression is south, through the burgled house at (28, 12).
+## IV. Route & City Debriefs
+- **Cerulean City:** The path east out of Cerulean City is a dead end that requires Cut. The correct path for story progression is south, through the burgled house at (28, 12).
