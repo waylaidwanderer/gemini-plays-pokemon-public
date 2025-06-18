@@ -17,6 +17,13 @@
     1.  **Adjacency:** Is the second switch always adjacent to the first? I need to test checking a non-adjacent can after finding the first switch.
     2.  **Randomness:** Is the placement truly random, or is there a pattern? (e.g., switches never appear in the same place twice).
 
+# **Gym Puzzle Attempt Log**
+- **Attempt 1:** Found first switch at (10, 12). Failed second switch at (8, 12). **PUZZLE RESET.**
+- **Attempt 2:** Failed first switch at (6, 12). **PUZZLE RESET.**
+- **Attempt 3:** Failed first switch at (4, 12). **PUZZLE RESET.**
+- **Attempt 4:** Failed first switch at (2, 12). **PUZZLE RESET.**
+- **Attempt 5 (Current):** Failed first switch at (2, 10). **PUZZLE RESET.**
+
 # 4. Completed Milestones
 - **Brock (DEFEATED):** Geodude (Lv 12), Onix (Lv 14).
 - **Misty (DEFEATED):** Psyduck (Lv 19), Goldeen (Lv 18), Starmie (Lv 21).
