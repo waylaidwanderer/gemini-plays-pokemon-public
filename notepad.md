@@ -21,7 +21,7 @@
     - DIG can be used to escape caves and some areas to the entrance of the last-used Pokémon Center, but **cannot be used in cities**.
 
 ## III. Agent Log
-- **`pathfinder_agent` (CRITICAL LESSON):** The agent is not inherently flawed, but its effectiveness is highly dependent on the complexity of the map. In areas with many ledges and segregated paths like southern Cerulean City, it has repeatedly failed by providing paths into one-way traps. **MANDATE: For complex, multi-turn paths in maze-like areas, do not trust the agent's output blindly. Either break the navigation into smaller, verifiable segments or switch to careful manual navigation.**
+- **`pathfinder_agent` (CRITICAL FAILURE):** The agent is demonstrably UNRELIABLE for complex paths in southern Cerulean City. It has now led me into a marked one-way trap TWICE. **MANDATE: DO NOT use the agent for multi-turn navigation in this area. Proceed with careful, manual navigation, breaking the journey into small, verifiable steps. The agent is on probation for this map.**
 - **`battle_menu_navigator`:** Created. For efficient battle menu navigation.
 - **`unseen_tile_navigator_agent`:** Reliable for overworld navigation when stuck.
 - **`move_tutor_advisor`:** Created. Ready for use when a new TM is acquired.
