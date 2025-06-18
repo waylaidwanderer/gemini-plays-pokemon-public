@@ -53,3 +53,5 @@
 - **New Agent Idea:** Create a 'Hypothesis Tracker Agent' that periodically reviews the 'Untested Hypotheses & Plans' section of the notepad and reminds me of things I planned to investigate but haven't yet. This could prevent me from forgetting long-term leads.
 
 - **HM STRENGTH:** A Super Nerd on the S.S. Anne (B1F Room, (11,14)) mentioned his Machoke has enough STRENGTH to move big rocks. This is likely an HM I need to find for boulder puzzles.
+
+- **Pathfinder Agent Failure (S.S. Anne B1F Room):** Agent pathing failed to account for a defeated trainer NPC at (3, 14) as an impassable obstacle. Needs further refinement to its impassable tile logic.
