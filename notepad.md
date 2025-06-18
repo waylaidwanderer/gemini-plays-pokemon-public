@@ -1,6 +1,6 @@
 # 1. Party Composition & Strategy
 - **SPARKY (Pikachu):** Electric Sweeper. Fast, good for paralysis support. THUNDERPUNCH has 0 PP.
-- **SPROUT (Oddish):** Grass/Poison Utility. Good for status effects. Currently paralyzed.
+- **SPROUT (Gloom):** Grass/Poison Utility. Good for status effects. Evolved from Oddish.
 - **THISTLE (Nidoran♀):** Physical Attacker. Fainted.
 - **PIP (Pidgeotto):** Flying Attacker. Fainted.
 - **PARCH (Sandshrew):** Ground Type Wall. Fainted.
@@ -15,8 +15,9 @@
 - **Brock (DEFEATED):** Geodude (Lv 12), Onix (Lv 14).
 - **Misty (DEFEATED):** Psyduck (Lv 19), Goldeen (Lv 18), Starmie (Lv 21).
 - **Rival BLAZe (@ Cerulean City):** Pidgeotto (Lv 18), Raticate (Lv 17), Kadabra (Lv 16), Vaporeon (Lv 20).
+- **Rival BLAZe (@ S.S. Anne):** Krabby (Lv 19), Raticate (Lv 20), Weepinbell (Lv 22), Sandshrew (Lv 21), Eevee (Lv 24).
 - **S.S. Anne:**
-    - Defeated all trainers on the ship (except rival).
+    - Defeated all trainers on the ship.
     - Solved the kitchen 'odd ball' puzzle (was a GREAT BALL).
     - Triggered the event to make the sailor blocking the Captain's quarters move.
     - Located the stairs to the Captain's Quarters.
