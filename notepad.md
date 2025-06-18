@@ -49,3 +49,5 @@
 - **Waiter (2F, (4,5)):** Does not provide healing. Just gives flavor text about the ship.
 
 - **Pathfinder Agent Failure (S.S. Anne 1F):** Agent failed to find a path from (32, 9) to (37, 9), incorrectly claiming the target was unwalkable. This confirms severe pathing issues on this map, requiring manual navigation.
+
+- **New Agent Idea:** Create a 'Hypothesis Tracker Agent' that periodically reviews the 'Untested Hypotheses & Plans' section of the notepad and reminds me of things I planned to investigate but haven't yet. This could prevent me from forgetting long-term leads.
