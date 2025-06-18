@@ -29,3 +29,5 @@
 
 ## IV. Route & City Debriefs
 - **Cerulean City:** The path east out of Cerulean City is a dead end that requires Cut. The correct path for story progression is south, through the burgled house at (28, 12).
+
+- **`pathfinder_agent` (Update):** Still fundamentally unreliable on maps with ledges. It consistently suggests one-way paths that lead to traps. Do not use for Cerulean City navigation until it can be properly fixed.
