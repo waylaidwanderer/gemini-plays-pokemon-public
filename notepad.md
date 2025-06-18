@@ -56,3 +56,5 @@
 - **Lead with Speed:** When exploring areas with high encounter rates (like caves), lead with a fast Pokémon like SPARKY to ensure a higher chance of escaping from unwanted wild battles on the first try. This conserves HP, PP, and turns.
 
 - **Level Cap EXP:** Confirmed that SPARKY (Lv 24, cap for 2 badges is 24) showed 'gained 279 EXP' after defeating the Route 11 Youngster's Ekans, but the EXP value did not actually change. This confirms the fake EXP gain mechanic.
+
+- **Battle Efficiency:** AI critique noted my inefficient battle menu navigation (taking multiple turns for one action) and failure to adapt to input truncation. I need to be more deliberate and try to combine menu navigation and selection into single, shorter command chains.
