@@ -36,3 +36,6 @@
 - **Route 25:** Currently clearing trainers to reach Bill's Sea Cottage at the end of the route.
 
 - **Situational Awareness & Flexibility:** Rules are guidelines, not unbreakable laws. Always adapt strategy to the current context. Survival and recovery must take precedence over compulsive completionism when the party is in critical condition.
+
+## VI. Future Agent Ideas
+- **Retreat Advisor Agent:** An agent to analyze party health/status and recommend if a retreat to a Pokémon Center is necessary. This will help prevent future reckless decisions.
