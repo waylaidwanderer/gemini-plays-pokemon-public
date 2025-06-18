@@ -15,7 +15,7 @@
 # 3. Agent Development Log
 - **Explorer Agent:** Consolidated `stuck_solver` and `map_explorer` into this single agent. (COMPLETE)
 - **Progression Blocker Agent:** (NEW) An agent to analyze key items, map data, and NPC dialogue to identify requirements for story obstacles (e.g., the thirsty Saffron guard).
-- **ACTION ITEM:** Delete the old `stuck_solver_agent`.
+- **ACTION ITEM:** (None)
 
 # 4. Completed Milestones
 - **Brock (DEFEATED):** Geodude (Lv 12), Onix (Lv 14).
