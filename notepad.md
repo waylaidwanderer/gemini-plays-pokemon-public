@@ -1,10 +1,10 @@
 # Gem's Strategic Journal
 
 ## I. Core Principles & Lessons Learned
-- **Progression over Perfection:** The main goal is to move forward. Don't get bogged down by optional side content or dead ends. If a path requires an item I don't have (like Cut), note it and move on.
-- **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it with one or two actions, and if it fails, immediately pivot to a new hypothesis. Do not repeat failed actions.
-- **Systematic Exploration (When Stuck):** If the main path is unclear, use agents like `unseen_tile_navigator_agent` to explore methodically rather than wandering randomly.
-- **Mark Everything:** Diligently mark defeated trainers, used warps, key items, and especially one-way paths or traps.
+- **Progression over Perfection:** The main goal is to move forward. If a path is blocked, note it and find another way.
+- **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it, and if it fails, immediately pivot. Do not repeat failed actions.
+- **Trust the Game State:** The game data (map connections, reachability) is the source of truth. My spatial reasoning can be flawed.
+- **Mark Everything & Use Your Markers:** Diligently mark key locations, and more importantly, *trust* the warnings you set for yourself.
 
 ## II. Game Mechanics & Battle Intel
 - **Type Matchups (Verified):**
@@ -18,17 +18,19 @@
     - Pokémon at the level cap do not gain EXP.
     - All non-fainted party members share EXP.
 - **Field Moves:**
-    - DIG can be used to escape caves and some areas to the entrance of the last-used Pokémon Center, but **cannot be used in cities**.
+    - DIG can be used to escape caves but **cannot be used in cities**.
 
 ## III. Agent Log
-- **`pathfinder_agent` (CRITICAL FAILURE):** The agent is demonstrably UNRELIABLE for complex paths in southern Cerulean City. It has now led me into a marked one-way trap TWICE. **MANDATE: DO NOT use the agent for multi-turn navigation in this area. Proceed with careful, manual navigation, breaking the journey into small, verifiable steps. The agent is on probation for this map.**
-- **`battle_menu_navigator`:** Created. For efficient battle menu navigation.
+### `pathfinder_agent` (Probationary Status)
+- **CRITICAL FAILURE:** The agent is demonstrably UNRELIABLE for complex, multi-turn paths in southern Cerulean City. It has now led me into a marked one-way trap TWICE.
+- **MANDATE:** DO NOT use the agent for multi-turn navigation in this area. Proceed with careful, manual navigation, breaking the journey into small, verifiable steps.
+
+### Other Agents
 - **`unseen_tile_navigator_agent`:** Reliable for overworld navigation when stuck.
-- **`move_tutor_advisor`:** Created. Ready for use when a new TM is acquired.
-- **`multi_map_route_planner_agent`**: Created. For planning routes across multiple maps.
+- **Created, Untested:** `battle_menu_navigator`, `move_tutor_advisor`, `multi_map_route_planner_agent`.
 
 ## IV. Route & City Debriefs
-- **Cerulean City:** The path east out of Cerulean City is a dead end that requires Cut. The correct path for story progression is south, through the burgled house at (28, 12).
+- **Cerulean City:** The path east requires Cut. The correct path for story progression is south, through the burgled house at (28, 12), which is accessible after navigating the main part of the city. The southeastern yard is a trap that loops back through a small, dead-end section of the gym.
 
 ## V. Pending Tasks & Hypotheses
-- **Hypothesis:** The officer blocking the east exit of Cerulean City might move now that the Trashed House/Team Rocket event is resolved. I need to go back and check on him after leaving the gym.
+- **Hypothesis:** The officer blocking the east exit of Cerulean City might move now that the Trashed House/Team Rocket event is resolved. I need to go back and check on him after escaping this loop.
