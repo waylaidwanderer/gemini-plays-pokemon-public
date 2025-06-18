@@ -26,9 +26,9 @@
 
 ## IV. Agent Development Log & To-Do
 - **`battle_menu_navigator`:** Created and refined. Crucial for efficient battle menu navigation.
-- **`unseen_tile_navigator_agent` & `pathfinder_agent`:** Proven reliable for overworld navigation. Use strategically.
+- **`unseen_tile_navigator_agent`:** Proven reliable for overworld navigation. Use strategically.
+- **`pathfinder_agent`:** Undergoing refinement to ensure output stability. Must be re-verified.
 - **`move_tutor_advisor`:** Created. Ready for use when a new TM is acquired.
-- **To-Do:** Create the 'Retreat Advisor Agent' to help with strategic decisions about when to return to a Pokémon Center. This will prevent reckless decisions.
 
 ## V. Progression Summary
 - **Badges:** Boulder Badge (Brock), Cascade Badge (Misty).
