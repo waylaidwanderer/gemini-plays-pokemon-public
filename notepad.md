@@ -41,3 +41,5 @@
 ## V. Current Tasks & Plans
 - Get to Vermilion City to get HM01 Cut.
 - Current path: Route 6 -> Vermilion City.
+
+    - Psychic is super-effective vs. Poison (Venonat's Confusion vs. Zubat).
