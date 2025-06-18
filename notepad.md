@@ -18,7 +18,7 @@
     - Pokémon at the level cap do not gain EXP.
     - All non-fainted party members share EXP.
 - **Field Moves:**
-    - DIG can be used to escape caves and some areas to the entrance of the last-used Pokémon Center.
+    - DIG can be used to escape caves and some areas to the entrance of the last-used Pokémon Center, but **cannot be used in cities**.
 
 ## III. Agent Log
 - **`pathfinder_agent`:** Highly unreliable for complex maps with ledges. Has been refined multiple times. Must be tested on simple paths before being trusted for critical navigation.
