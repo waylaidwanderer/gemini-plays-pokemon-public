@@ -21,9 +21,12 @@
     - DIG can be used to escape caves but **cannot be used in cities**.
 
 ## III. Agent Log
-- **`pathfinder_agent` (Status: Reliable):** Returns the shortest path to a single coordinate. A `path_found: false` response is a critical and accurate indicator that the target is in an unreachable map segment.
-- **`unseen_tile_navigator_agent` (Status: Reliable):** Calculates the shortest path to the nearest 'Reachable Unseen Tile'. Essential for systematically exploring new areas.
-- **Untested Agents:** `battle_menu_navigator`, `multi_map_route_planner_agent`.
+### Reliable Agents
+- **`pathfinder_agent`:** Returns the shortest path to a single coordinate. A `path_found: false` response is a critical and accurate indicator that the target is in an unreachable map segment.
+- **`unseen_tile_navigator_agent`:** Calculates the shortest path to the nearest 'Reachable Unseen Tile'. Essential for systematically exploring new areas.
+- **`battle_menu_navigator`:** Calculates the precise button sequence to navigate battle menus. (Used 5 times, seems reliable).
+### Untested Agents
+- **`multi_map_route_planner_agent`**
 
 ## IV. Route & City Debriefs
 ### Cerulean City
