@@ -43,3 +43,5 @@
 - Defeated Youngster (Bug Catcher sprite) at (12, 32) on Route 24 (Nugget Bridge).
 
 - **Route 24 Mechanic:** Defeated trainers on Nugget Bridge act as impassable obstacles and must be navigated around.
+
+- Defeated Lass at (11, 23) on Route 24 (Nugget Bridge).
