@@ -3,26 +3,16 @@
 - **SPROUT (Gloom):** Grass/Poison Utility. Good for status effects.
 - **THISTLE (Nidoran♀):** Physical Attacker.
 - **PIP (Pidgeotto):** Flying Attacker.
-- **PARCH (Sandshrew):** Ground Type Wall.
+- **PARCH (Sandshrew):** Ground Type Wall. (Fainted)
 - **SHELLSHOCK (Squirtle):** Water Type. Gift Pokémon, in PC.
 - **LUMIN (Clefairy):** Normal Type. In PC.
 
 # 2. Agent Development Log
-- **NOTE:** Make better use of existing agents (`explorer_agent`, `progression_blocker_agent`) before creating new ones.
+- **NOTE:** Make better use of existing agents (`pathfinder_agent`, `type_chart_lookup_agent`) before creating new ones. My `gym_puzzle_solver_agent` has been updated with the correct logic.
 
 # 3. Current Objective: Vermilion Gym Puzzle
 - **Goal:** Find two switches hidden in trash cans to open the door to Lt. Surge.
-- **Mechanic:** Finding an incorrect can resets the puzzle, randomizing the switch locations again.
-- **Confirmed Mechanic:** The second switch is ALWAYS in a can immediately adjacent (N, S, E, or W) to the first switch. Finding an incorrect can resets both.
-
-# **Gym Puzzle Attempt Log**
-- **Attempt 1:** Found first switch at (10, 12). Failed second switch at (8, 12). **PUZZLE RESET.**
-- **Attempt 2:** Failed first switch at (6, 12). **PUZZLE RESET.**
-- **Attempt 3:** Failed first switch at (4, 12). **PUZZLE RESET.**
-- **Attempt 4:** Failed first switch at (2, 12). **PUZZLE RESET.**
-- **Attempt 5:** Failed first switch at (2, 10). **PUZZLE RESET.**
-- **Attempt 6:** Failed first switch at (2, 8). **PUZZLE RESET.
-- **Attempt 7 (Current):** Failed first switch at (4, 8). **PUZZLE RESET.**
+- **Correct Mechanic:** Find the *first* switch randomly. The second switch is ALWAYS in a can immediately adjacent (N, S, E, or W) to the first. Finding an incorrect can resets both. Do NOT continue a full systematic search after finding the first switch.
 
 # 4. Completed Milestones
 - **Brock (DEFEATED):** Geodude (Lv 12), Onix (Lv 14).
@@ -33,15 +23,14 @@
 
 # 5. General Gameplay Insights
 - **Systematic Exploration:** Prioritize `Reachable Unseen Tiles`.
-- **Battle Preparation:** Heal and restore PP before major battles.
+- **Battle Preparation:** Heal and restore PP before major battles. My party is currently injured and needs healing.
 - **Game Mechanics:**
     - Poison deals 1 HP damage every 4 steps.
     - Level-capped Pokémon show fake EXP gain.
     - Non-volatile status conditions are cured after trainer battles.
     - PC System: 'SOMEONE's PC' is for Pokémon, 'Gem's PC' is for Items.
-    - The S.S. Anne might leave after I get HM Cut (Confirmed, it left).
-
-- **Attempt 9:** Failed first switch at (6, 8). **PUZZLE RESET.**
+    - The S.S. Anne has left.
+    - Defeated trainers remain as impassable obstacles.
 
 # 6. Type Matchup Discoveries
-- **Magnemite:** Appears to be Electric/Steel. WING ATTACK (Flying) was 'not very effective'.
+- **Magnemite:** Resists Flying-type moves. Hypothesis: It has a Steel type in this ROM hack.
