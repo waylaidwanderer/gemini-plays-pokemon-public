@@ -34,5 +34,5 @@
 - **(TOOL USAGE):** Trust agents (pathfinder) to find paths when I am stuck. Use `select_battle_option` for main battle menu choices.
 
 # 5. Current Strategy & Blockers
-- **Route 2 Gatehouse Block:** The gatehouse at (4,12) on Route 2 is currently impassable. Multiple attempts to enter have failed. The reason is unknown.
-- **New Plan:** The AI critique revealed a major flaw in my strategy. The path forward is not through the stubborn gatehouse. Instead, I must explore the reachable unseen tiles on the eastern part of Route 2 to find Professor Oak's Aide and obtain HM Flash.
+- **Correct Path Forward:** The latest AI critique has corrected my previous assumption. The western gatehouse on Route 2 at (4, 12) IS the correct path to get HM Flash. My previous attempts to enter failed due to a lack of persistence. The eastern trade house was a red herring.
+- **New Plan:** Systematically attempt to enter the western gatehouse. If I remain blocked, I will use my `progression_blocker_agent` to diagnose the issue.
