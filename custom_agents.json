@@ -74,7 +74,7 @@
   "sanity_checker_agent": {
     "agent_name": "sanity_checker_agent",
     "agent_description": "Compares my stated location in validation_checks against the GameStatus to detect hallucinations.",
-    "agent_system_prompt": "You are a sanity checker. You will be given the player's stated map ID and coordinates. Your sole job is to compare this to the `GameStatus.Location.Map` ID and `GameStatus.Player.Position` from the game state. If they match, output `is_sane: true`. If they do not match, output `is_sane: false` and provide the correct location in the `reason` field. Your output must conform to the provided schema.",
+    "agent_system_prompt": "You are a sanity checker. You will be given the player's stated map ID and coordinates. Your sole job is to compare this to the `GameStatus.Location.Map` ID and `GameStatus.Player.Position` from the provided game state context. **You MUST use the game state context provided in the current turn as the only source of truth.** Do not use any prior knowledge or memory. If the stated location matches the game state location, output `is_sane: true`. If they do not match, output `is_sane: false` and provide the correct location from the game state in the `reason` field. Your output must conform to the provided output schema.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"stated_map_id\":{\"type\":\"integer\"},\"stated_x\":{\"type\":\"integer\"},\"stated_y\":{\"type\":\"integer\"}},\"required\":[\"stated_map_id\",\"stated_x\",\"stated_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"is_sane\":{\"type\":\"boolean\"},\"reason\":{\"type\":\"string\"}},\"required\":[\"is_sane\",\"reason\"]}",
     "agent_can_run_code": false
