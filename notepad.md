@@ -8,9 +8,17 @@
 
 ## II. Game Mechanics & Battle Intel
 - **Type Matchups (Verified):**
-    - Grass is 4x effective vs. Rock/Ground.
-    - Electric is not very effective vs. Electric or Bug/Grass (Paras).
-    - Ice is super-effective vs. Grass.
+    - **Fire:**
+        - Super-effective (2x) vs. Bug/Poison (Venonat).
+    - **Grass:**
+        - Super-effective (4x) vs. Rock/Ground.
+    - **Ice:**
+        - Super-effective (2x) vs. Grass.
+    - **Psychic:**
+        - Super-effective (2x) vs. Poison (Zubat).
+    - **Electric:**
+        - Not very effective (0.5x) vs. Electric.
+        - Not very effective (0.5x) vs. Bug/Grass (Paras).
 - **Status Effects:**
     - Confusion wears off after battle.
     - Poison-types are immune to poison.
@@ -41,5 +49,3 @@
 ## V. Current Tasks & Plans
 - Get to Vermilion City to get HM01 Cut.
 - Current path: Route 6 -> Vermilion City.
-
-    - Psychic is super-effective vs. Poison (Venonat's Confusion vs. Zubat).
