@@ -59,4 +59,4 @@
 
 - **Battle Efficiency:** AI critique noted my inefficient battle menu navigation (taking multiple turns for one action) and failure to adapt to input truncation. I need to be more deliberate and try to combine menu navigation and selection into single, shorter command chains.
 
-- **EXP Sharing:** EXP is shared among all Pokémon that participated in the battle against a single opponent's Pokémon, even if they were just switched in and out. Level-capped Pokémon still show the message but gain no actual EXP.
+- **EXP Sharing:** Confirmed that EXP is shared among all Pokémon that participated in the battle against a single opponent's Pokémon, even if they were just switched in and out. Level-capped Pokémon still show the message but gain no actual EXP.
