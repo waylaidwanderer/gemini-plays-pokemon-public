@@ -36,3 +36,7 @@
 # 5. Current Strategy & Blockers
 - **Correct Path Forward:** The latest AI critique has corrected my previous assumption. The western gatehouse on Route 2 at (4, 12) IS the correct path to get HM Flash. My previous attempts to enter failed due to a lack of persistence. The eastern trade house was a red herring.
 - **New Plan:** Systematically attempt to enter the western gatehouse. If I remain blocked, I will use my `progression_blocker_agent` to diagnose the issue.
+
+# 6. Untested Assumptions
+- The trigger for the western gatehouse on Route 2 is located in the unseen southern area of this route.
+- The items at (14, 55) and (14, 46) might be reachable from the southern part of the route.
