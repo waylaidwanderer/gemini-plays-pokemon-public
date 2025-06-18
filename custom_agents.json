@@ -23,14 +23,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path_to_pokecenter\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"path_found\",\"path_to_pokecenter\",\"reasoning\"]}",
     "agent_can_run_code": true
   },
-  "trainer_recon_agent": {
-    "agent_name": "trainer_recon_agent",
-    "agent_description": "Analyzes the current map's sprites and map markers to identify all undefeated trainers.",
-    "agent_system_prompt": "You are a recon specialist. Your task is to analyze the `map_xml_string` and the list of map sprites provided in the input. Your goal is to identify all trainers on the current map that have not been marked as defeated. You will be given a list of map markers. Any trainer sprite at a coordinate that has a '☠️' marker is considered defeated. All other trainers are considered undefeated. You must output a list of undefeated trainers with their coordinates and sprite names. You must use your `run_code` tool to parse the map XML and perform the analysis.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"map_sprites\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"},\"sprite_type\":{\"type\":\"string\"},\"name\":{\"type\":\"string\"},\"position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"id\",\"sprite_type\",\"name\",\"position\"]}},\"map_markers\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"},\"emoji\":{\"type\":\"string\"}},\"required\":[\"x\",\"y\",\"emoji\"]}}},\"required\":[\"map_sprites\",\"map_markers\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"undefeated_trainers\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"name\",\"x\",\"y\"]}}},\"required\":[\"undefeated_trainers\"]}",
-    "agent_can_run_code": true
-  },
   "pikachu_path_adjuster_agent": {
     "agent_name": "pikachu_path_adjuster_agent",
     "agent_description": "Takes a path and modifies it to account for Pikachu's special movement rules, inserting extra button presses where needed. Requires code execution.",
