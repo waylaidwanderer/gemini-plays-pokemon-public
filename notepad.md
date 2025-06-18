@@ -8,7 +8,6 @@
 - **LUMIN (Clefairy):** Normal Type. In PC.
 
 # 2. Agent Development Log
-- **ACTION ITEM:** Consolidate `team_builder_agent` and `party_manager_agent` into a single, more robust `team_strategist_agent`.
 - **NOTE:** Make better use of existing agents (`explorer_agent`, `progression_blocker_agent`) before creating new ones.
 
 # 3. Completed Milestones
