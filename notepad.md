@@ -42,3 +42,6 @@
     - The S.S. Anne might leave after I get HM Cut (Confirmed, it left).
 
 - **Attempt 9:** Failed first switch at (6, 8). **PUZZLE RESET.**
+
+# 6. Type Matchup Discoveries
+- **Magnemite:** Appears to be Electric/Steel. WING ATTACK (Flying) was 'not very effective'.
