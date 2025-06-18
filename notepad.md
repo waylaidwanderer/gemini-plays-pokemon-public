@@ -8,7 +8,7 @@
 - **LUMIN (Clefairy):** Normal Type. In PC.
 
 # 2. Current Objectives
-- **Primary Goal:** Defeat BLAZe to get HM CUT from the Captain.
+
 - **Secondary Goal:** Find a way past the thirsty Saffron City guard.
 - **Tertiary Goal:** Teach TM08 (Body Slam) to THISTLE.
 
