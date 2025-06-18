@@ -30,4 +30,4 @@
 ## IV. Route & City Debriefs
 - **Cerulean City:** The path east out of Cerulean City is a dead end that requires Cut. The correct path for story progression is south, through the burgled house at (28, 12).
 
-`pathfinder_agent` (Final Verdict): The agent is fundamentally broken for ledge-based navigation in Cerulean City. All further attempts to use it here are counter-productive. **Strategy Mandate: Commit to careful, methodical manual navigation for the remainder of this area.** Abandoned after 145 failed uses.
+`pathfinder_agent` (Lesson Learned): The agent's failures in Cerulean City were due to my own misinterpretation of the map's complex layout, not a flaw in the agent itself. The water tiles and segregated areas created paths that seemed illogical to me but were technically correct. **Mandate: Trust agent pathing but verify by checking the map for non-obvious obstacles or routes before execution. Use manual navigation to supplement, not replace, the agent when paths seem complex.**
