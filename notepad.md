@@ -42,3 +42,6 @@
 
 ## VII. Agent Development To-Do
 - Create the 'Retreat Advisor Agent' to help with strategic decisions about when to return to a Pokémon Center.
+
+## World Knowledge Graph To-Do
+- Add edge between 'Bill's Sea Cottage Entrance (Exterior)' (map_id 36) and 'Bill's Sea Cottage Exit/Arrival (Interior)' (map_id 88).
