@@ -30,7 +30,7 @@
 ## IV. Route & City Debriefs
 - **Cerulean City:** The path east out of Cerulean City is a dead end that requires Cut. The correct path for story progression is south, through the burgled house at (28, 12).
 
-`pathfinder_agent` (Lesson Learned): The agent's failures in Cerulean City were due to my own misinterpretation of the map's complex layout, not a flaw in the agent itself. The water tiles and segregated areas created paths that seemed illogical to me but were technically correct. **Mandate: Trust agent pathing but verify by checking the map for non-obvious obstacles or routes before execution. Use manual navigation to supplement, not replace, the agent when paths seem complex.**
+`pathfinder_agent` (CRITICAL LESSON): The agent is UNRELIABLE for complex paths in Cerulean City. It has twice led me into a one-way ledge trap (at 35,21) that I had already marked. MANDATE: DO NOT TRUST complex, multi-turn paths from this agent in Cerulean. Use it ONLY for short, simple, line-of-sight paths. For longer routes, plot intermediate, safe waypoints and verify them manually against the map and markers before proceeding.
 
 ## V. Pending Tasks & Hypotheses
 - **Hypothesis:** The officer blocking the east exit of Cerulean City might move now that the Trashed House/Team Rocket event is resolved. I need to go back and check on him after leaving the gym.
