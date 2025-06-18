@@ -1,47 +1,32 @@
 # 1. Party Composition & Strategy
-- **SPARKY (Pikachu):** Electric Sweeper. Fast, good for paralysis support.
-- **SPROUT (Gloom):** Grass/Poison Utility. Good for status effects.
-- **THISTLE (Nidoran♀):** Physical Attacker.
-- **PIP (Pidgeotto):** Flying Attacker.
-- **PARCH (Sandshrew):** Ground Type Wall. Critically injured (14 HP) and needs healing.
-- **SHELLSHOCK (Squirtle):** Water Type. Gift Pokémon, in PC.
-- **LUMIN (Clefairy):** Normal Type. In PC.
+- **SPARKY (Pikachu):** Electric Sweeper. Fast, good for paralysis support. Level-capped at 24.
+- **SPROUT (Gloom):** Grass/Poison Utility. Good for status effects like Leech Seed and Stun Spore.
+- **THISTLE (Nidoran♀):** Physical Attacker. Currently under-leveled.
+- **PIP (Pidgeotto):** Flying Attacker. Currently fainted.
+- **PARCH (Sandshrew):** Ground Type. Good counter for Electric types, but critically injured and under-leveled.
 
-# 2. Agent Development Log
-- **NOTE:** I am underutilizing my agents and ignoring game state information. I must trust the `Reachable Unseen Tiles` list and use my `heal_priority_agent` *before* exploring new areas with injured Pokémon to improve my risk management.
-
-# 3. Current Objective: Heal Party & Train for Vermilion Gym
-- **Goal:** Defeat Lt. Surge and earn the Thunder Badge.
-- **Strategy:** Finish exploring Route 11 for EXP, then return to a Pokémon Center to heal. Then, challenge Lt. Surge.
-
-# 4. Trainer Battle Logs
-- **Brock (DEFEATED):** Geodude (Lv 12), Onix (Lv 14).
-- **Misty (DEFEATED):** Psyduck (Lv 19), Goldeen (Lv 18), Starmie (Lv 21).
-- **Rival BLAZe (@ Cerulean City):** Pidgeotto (Lv 18), Raticate (Lv 17), Kadabra (Lv 16), Vaporeon (Lv 20).
-- **Rival BLAZe (@ S.S. Anne):** Krabby (Lv 19), Raticate (Lv 20), Weepinbell (Lv 22), Sandshrew (Lv 21), Eevee (Lv 24).
-- **S.S. Anne:** All trainers defeated, kitchen puzzle solved, Captain event triggered, HM01 CUT obtained.
-- **Vermilion Gym Puzzle:** Solved.
-- **Diglett's Cave:** Traversed from Route 11 entrance to Route 2 exit.
-
-# 5. Game Mechanics & Insights
-- Poison deals 1 HP damage every 4 steps.
-- Level-capped Pokémon show a fake EXP gain message, but their EXP value does not actually change.
-- Non-volatile status conditions are cured after trainer battles.
-- PC System: 'SOMEONE's PC' is for Pokémon, 'Gem's PC' is for Items.
-- The S.S. Anne has left.
-- Defeated trainers remain as impassable obstacles.
-- Diglett's Cave connects the Vermilion City area (via Route 11) to the Pewter City area (via Route 2).
-- An NPC in the Diglett's Cave exit house (Route 2 side) mentioned Rock Tunnel is dark and needs the move FLASH to light it up.
+# 2. Game Mechanics & Insights
 - **EXP Sharing:** EXP is shared among all Pokémon that participated in the battle against a single opponent's Pokémon, even if they were just switched in and out.
+- **Poison Damage:** Deals 1 HP damage every 4 steps outside of battle.
+- **Level Cap:** Pokémon at the level cap show a fake EXP gain message, but their EXP value does not actually change.
+- **Status Cure:** Non-volatile status conditions are cured after trainer battles.
+- **PC System:** 'SOMEONE's PC' is for Pokémon, 'Gem's PC' is for Items.
+- **Defeated Trainers:** Remain as impassable obstacles after battle.
+- **Diglett's Cave:** Connects Route 11 (Vermilion area) to Route 2 (Pewter area).
+- **FLASH:** An NPC in the Diglett's Cave exit house mentioned FLASH is needed for the dark Rock Tunnel.
 
-# 6. Type Matchup Discoveries
+# 3. Type Matchup Discoveries
 - **Magnemite:** Resists Flying-type moves. Hypothesis: It has a Steel type in this ROM hack.
 - **Ground-types:** Appear to be immune to Paralysis from moves like Stun Spore.
 - **Poison vs. Ground:** Poison-type moves (like Acid) are not very effective against Ground-types.
 
-# 7. Critical Lessons & Unverified Assumptions
-- **CRITICAL LESSON (Risk Management):** Avoid exploring with critically injured Pokémon or making reckless gambles in battle, like relying on a confused Pokémon with low HP.
-- **CRITICAL LESSON (Reading):** I must read screen text verbatim and not let my expectations create hallucinations.
-- **CRITICAL LESSON (Tool Usage):** Double-check arguments and notepad content to avoid repeated failures and duplicate entries.
-- **CRITICAL LESSON (Battle Efficiency):** I need to be more deliberate and use the `select_battle_option` tool for main battle menu choices to improve efficiency and reliability.
-- **Assumption:** The only way forward is through the eastern part of Route 11.
+# 4. Critical Lessons & Risk Management
+- **(FAILURE LOG):** I have repeatedly misjudged areas as dead ends, ignoring the `Reachable Unseen Tiles` list. I must trust the game state information over my own intuition. (Failed on Route 11 twice).
+- **(FAILURE LOG):** I have repeatedly forgotten that defeated trainers are impassable, leading to failed pathing. (Failed on Mt. Moon B2F, Route 11).
+- **(RISK ASSESSMENT):** I must use my `heal_priority_agent` *before* entering new areas to make informed decisions, not after my party is already crippled.
+- **(BATTLE STRATEGY):** Avoid reckless gambles in battle, like relying on a confused Pokémon or keeping a sleeping Pokémon in against a strong attacker. Sacrificing a Pokémon for a free switch can be a valid and necessary strategy.
+- **(TOOL USAGE):** Use `select_battle_option` for main battle menu choices to improve reliability. Trust agents to find paths when I am stuck.
+
+# 5. Current Objective: Heal Party & Defeat Lt. Surge
+- **Primary Goal:** Defeat Lt. Surge and earn the Thunder Badge.
+- **Immediate Priority:** Finish exploring Route 11 Gatehouse, then immediately return to Vermilion City to heal the party.
