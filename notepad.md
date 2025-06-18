@@ -20,7 +20,8 @@
 - **Attempt 2:** Failed first switch at (6, 12). **PUZZLE RESET.**
 - **Attempt 3:** Failed first switch at (4, 12). **PUZZLE RESET.**
 - **Attempt 4:** Failed first switch at (2, 12). **PUZZLE RESET.**
-- **Attempt 5 (Current):** Failed first switch at (2, 10). **PUZZLE RESET.**
+- **Attempt 5:** Failed first switch at (2, 10). **PUZZLE RESET.**
+- **Attempt 6 (Current):** Failed first switch at (2, 8). **PUZZLE RESET.**
 
 # 4. Completed Milestones
 - **Brock (DEFEATED):** Geodude (Lv 12), Onix (Lv 14).
