@@ -13,9 +13,7 @@
 # 3. Current Objective: Vermilion Gym Puzzle
 - **Goal:** Find two switches hidden in trash cans to open the door to Lt. Surge.
 - **Mechanic:** Finding an incorrect can resets the puzzle, randomizing the switch locations again.
-- **Hypotheses to Test:**
-    1.  **Adjacency:** Is the second switch always adjacent to the first? I need to test checking a non-adjacent can after finding the first switch.
-    2.  **Randomness:** Is the placement truly random, or is there a pattern? (e.g., switches never appear in the same place twice).
+- **Confirmed Mechanic:** The second switch is ALWAYS in a can immediately adjacent (N, S, E, or W) to the first switch. Finding an incorrect can resets both.
 
 # **Gym Puzzle Attempt Log**
 - **Attempt 1:** Found first switch at (10, 12). Failed second switch at (8, 12). **PUZZLE RESET.**
