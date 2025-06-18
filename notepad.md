@@ -45,3 +45,10 @@
 - **Route 24 Mechanic:** Defeated trainers on Nugget Bridge act as impassable obstacles and must be navigated around.
 
 - Defeated Lass at (11, 23) on Route 24 (Nugget Bridge).
+
+## Route 24 Stagnation & New Plan
+- **H4: Defeat Trainer at (6, 21):** My hypothesis that defeating the trainer at (6, 21) was necessary to progress has failed. He is unresponsive to interaction, just like the Rocket Grunt. (Failed: Attempt 1)
+- **H5: Battle Rocket Grunt:** My hypothesis that the Rocket Grunt at (12, 16) must be battled has also failed. Interacting with him results in a dialogue loop with no battle trigger. (Failed: Multiple attempts)
+- **New Strategy:** Both remaining trainers on Route 24 are unresponsive. I am pivoting to pure exploration. My new priorities are:
+    1. Investigate the item ball at (11, 6).
+    2. Explore the eastern path leading to the undiscovered map connection.
