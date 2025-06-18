@@ -36,3 +36,7 @@
 - **Cerulean City:** Defeated rival Pixel. Discovered the path to Bill's house is north.
 - **Nugget Bridge (Route 24):** All trainers defeated. Received a Charmander (IGNIS).
 - **Route 25:** Cleared trainers and helped Bill at his Sea Cottage, obtaining the S.S. TICKET.
+
+## VI. Future Agent Ideas
+- **Training Priority Agent:** Analyzes PC box and upcoming gyms to suggest which Pokémon to train next.
+- **Route Encounter Analyst:** Predicts wild encounters on a route and suggests an optimal lead Pokémon for catching or training.
