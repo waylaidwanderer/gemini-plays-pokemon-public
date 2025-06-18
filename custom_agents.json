@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"can_cut\":{\"type\":\"boolean\"}},\"required\":[\"can_cut\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}}}",
     "agent_can_run_code": true
+  },
+  "exp_tracker_agent": {
+    "agent_name": "exp_tracker_agent",
+    "agent_description": "Calculates the number of battles needed for a Pokémon to reach a target level, based on its current EXP, level, and the EXP yield of a specific opponent.",
+    "agent_system_prompt": "You are an EXP Tracker Agent. Your task is to calculate the number of battles required for a Pokémon to reach a target level. You will be given the Pokémon's current level, current total EXP, target level, the EXP yield of the opponent to be farmed, and the Pokémon's leveling group. You must use your `run_code` tool to perform the calculation.\n\n**Leveling Rate Formulas (Total EXP for Level L):**\n- **Medium Slow:** (6/5) * L^3 - 15 * L^2 + 100 * L - 140\n- **Medium Fast:** L^3\n- **Fast:** (4 * L^3) / 5\n- **Slow:** (5 * L^3) / 4\n\n**Logic for Python Script:**\n1.  Receive `pokemon_name`, `current_level`, `current_exp_total`, `target_level`, `opponent_exp_yield`, and `leveling_group` as input.\n2.  Define functions for each of the four leveling rate formulas.\n3.  Based on the `leveling_group` input, select the correct formula to calculate the total EXP needed for the `target_level` (`exp_for_target_level`).\n4.  Calculate the remaining EXP needed: `exp_needed = exp_for_target_level - current_exp_total`.\n5.  Calculate the number of battles: `battles_needed = ceil(exp_needed / opponent_exp_yield)`. Use `math.ceil` to ensure you round up, as a partial battle doesn't count.\n6.  Print the result for `battles_needed` and a `reasoning` string explaining the calculation.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"current_level\":{\"type\":\"integer\"},\"current_exp_total\":{\"type\":\"integer\"},\"target_level\":{\"type\":\"integer\"},\"opponent_exp_yield\":{\"type\":\"integer\"},\"leveling_group\":{\"type\":\"string\",\"enum\":[\"Medium Slow\",\"Medium Fast\",\"Fast\",\"Slow\"]}},\"required\":[\"pokemon_name\",\"current_level\",\"current_exp_total\",\"target_level\",\"opponent_exp_yield\",\"leveling_group\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"battles_needed\":{\"type\":\"integer\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"battles_needed\",\"reasoning\"]}",
+    "agent_can_run_code": true
   }
 }
