@@ -3,17 +3,17 @@
 - **SPROUT (Gloom):** Grass/Poison Utility. Good for status effects.
 - **THISTLE (Nidoran♀):** Physical Attacker.
 - **PIP (Pidgeotto):** Flying Attacker.
-- **PARCH (Sandshrew):** Ground Type Wall. Key for Lt. Surge, but currently very weak (Lv. 14, 9 HP) and needs focused training.
+- **PARCH (Sandshrew):** Ground Type Wall. Critically injured (9 HP) and needs healing.
 - **SHELLSHOCK (Squirtle):** Water Type. Gift Pokémon, in PC.
 - **LUMIN (Clefairy):** Normal Type. In PC.
 
 # 2. Agent Development Log
-- **NOTE:** I am underutilizing my agents. I must make better use of `party_manager_agent` and `team_builder_agent` for strategic planning, and `explorer_agent` for navigation.
+- **NOTE:** I am underutilizing my agents. I must make better use of `heal_priority_agent` and be more proactive in designing robust agents like `explorer_agent` from the start.
 
-# 3. Current Objective: Train for Vermilion Gym
+# 3. Current Objective: Heal Party & Train for Vermilion Gym
 - **Goal:** Defeat Lt. Surge and earn the Thunder Badge.
-- **Current Location:** Diglett's Cave, lower level.
-- **Strategy:** Level up PARCH and the rest of the team by battling wild Diglett/Dugtrio.
+- **Current Location:** Route 2 (south section).
+- **Strategy:** Navigate to Pewter City to heal the party, especially PARCH. Then, return to the Vermilion area to train.
 
 # 4. Completed Milestones
 - **Brock (DEFEATED):** Geodude (Lv 12), Onix (Lv 14).
@@ -22,6 +22,7 @@
 - **Rival BLAZe (@ S.S. Anne):** Krabby (Lv 19), Raticate (Lv 20), Weepinbell (Lv 22), Sandshrew (Lv 21), Eevee (Lv 24).
 - **S.S. Anne:** All trainers defeated, kitchen puzzle solved, Captain event triggered, HM01 CUT obtained.
 - **Vermilion Gym Puzzle:** Solved.
+- **Diglett's Cave:** Traversed from Route 11 entrance to Route 2 exit.
 
 # 5. General Gameplay Insights
 - **Systematic Exploration:** Prioritize `Reachable Unseen Tiles`.
@@ -33,19 +34,18 @@
     - PC System: 'SOMEONE's PC' is for Pokémon, 'Gem's PC' is for Items.
     - The S.S. Anne has left.
     - Defeated trainers remain as impassable obstacles.
-    - An NPC in Diglett's Cave claims it connects to Viridian City.
+    - Diglett's Cave connects the Vermilion City area (via Route 11) to the Pewter City area (via Route 2).
+    - An NPC in the Diglett's Cave exit house (Route 2 side) mentioned Rock Tunnel is dark and needs the move FLASH to light it up.
 
 # 6. Type Matchup Discoveries
 - **Magnemite:** Resists Flying-type moves. Hypothesis: It has a Steel type in this ROM hack.
 
 # 7. Critical Lessons & Unverified Assumptions
-- **CRITICAL LESSON:** I must read screen text verbatim and not let my expectations create hallucinations. I completely misinterpreted an empty trash can message as solving the gym puzzle. Verify all game feedback before acting.
+- **CRITICAL LESSON:** I must read screen text verbatim and not let my expectations create hallucinations.
 - **CRITICAL LESSON:** Be more careful with tool calls. Double-check arguments to avoid repeated failures.
-- **Assumption:** Diglett's Cave is the best place to train. I should verify this by exploring the rest of Route 11.
+- **CRITICAL LESSON:** Manage risk better. Avoid exploring with critically injured Pokémon.
 - **Assumption:** EXP is shared between the battling Pokémon and the lead Pokémon. I need to confirm this mechanic.
 
-# 8. Critique & Course Correction (Turn 12101)
-- **AI Feedback:** Received critique for poor risk management regarding PARCH's critical health (9 HP) and underutilizing agents. The assumption that a Pokémon Center is at the cave exit is unverified.
-- **Decision:** Acknowledged risk. Backtracking to Vermilion is guaranteed safety but highly inefficient. The rest of the party is healthy. Proceeding forward cautiously to find the cave exit is a calculated risk for a significant time-save. PARCH will NOT be used in battle until healed. Will prioritize using explorer_agent for navigation.
-
-- An NPC in the Diglett's Cave exit house (Route 2 side) mentioned Rock Tunnel is dark and needs the move FLASH to light it up.
+# 8. Critique & Course Correction (Turn 12121)
+- **AI Feedback:** Received critique for poor risk management regarding PARCH's critical health and underutilizing agents.
+- **Decision:** Acknowledged risk. Healing the party is the top priority. I will navigate to Pewter City via the Viridian Forest gatehouse. PARCH will NOT be used in battle until healed. Will prioritize using agents correctly from the start.
