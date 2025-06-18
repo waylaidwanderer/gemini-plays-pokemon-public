@@ -1,7 +1,8 @@
 # Gem's Strategic Journal
 
 ## I. Core Principles & Lessons Learned
-- **Strategic Prioritization:** After a major story event unlocks the main path, pursue it immediately. Don't get sidetracked by minor, optional exploration.
+- **Trust the GameStatus:** My location is defined by the `GameStatus`, not my assumptions. I must verify map changes before documenting them.
+- **Strategic Prioritization:** After a major story event unlocks the main path, pursue it immediately. Don't get sidetracked by minor, optional exploration unless truly stuck.
 - **Execution Over Complexity:** Abandon multi-input commands. Break down actions into simple, single-button presses per turn.
 - **Effective Training Protocol:** 'Bait-and-switch' is the correct method for training weaker Pokémon.
 - **Trust but Verify Agents:** Trust agent *logic* but adapt the *execution* of their plans into reliable, sequential steps.
@@ -22,12 +23,12 @@
 
 ## III. Active Objectives
 - **Primary Objective:** Get the S.S. Ticket from Bill to access the S.S. Anne in Vermilion City and challenge Lt. Surge for the Thunder Badge.
-- **Immediate Objective:** Now that Bill has been helped, return to Cerulean City and investigate the robbed house previously blocked by a police officer. This is the path south to Vermilion.
+- **Secondary Objective:** Traverse the Underground Path to reach Route 6.
 
-## IV. Agent Development Log & To-Do
+## IV. Agent Development Log
 - **`battle_menu_navigator`:** Created and refined. Crucial for efficient battle menu navigation.
-- **`unseen_tile_navigator_agent`:** Proven reliable for overworld navigation. Use strategically.
-- **`pathfinder_agent`:** Undergoing refinement to ensure output stability. Must be re-verified.
+- **`unseen_tile_navigator_agent`:** Proven reliable for overworld navigation. Use strategically when stuck.
+- **`pathfinder_agent`:** Refined to ensure output stability. Must be re-verified on next use.
 - **`move_tutor_advisor`:** Created. Ready for use when a new TM is acquired.
 
 ## V. Progression Summary
@@ -36,7 +37,3 @@
 - **Cerulean City:** Defeated rival Pixel. Discovered the path to Bill's house is north.
 - **Nugget Bridge (Route 24):** All trainers defeated. Received a Charmander (IGNIS).
 - **Route 25:** Cleared trainers and helped Bill at his Sea Cottage, obtaining the S.S. TICKET.
-
-## VI. Future Agent Ideas
-- **Training Priority Agent:** Analyzes PC box and upcoming gyms to suggest which Pokémon to train next.
-- **Route Encounter Analyst:** Predicts wild encounters on a route and suggests an optimal lead Pokémon for catching or training.
