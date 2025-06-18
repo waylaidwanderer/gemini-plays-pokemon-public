@@ -39,3 +39,6 @@
 
 ## VI. Future Agent Ideas
 - **Retreat Advisor Agent:** An agent to analyze party health/status and recommend if a retreat to a Pokémon Center is necessary. This will help prevent future reckless decisions.
+
+## VII. Agent Development To-Do
+- Create the 'Retreat Advisor Agent' to help with strategic decisions about when to return to a Pokémon Center.
