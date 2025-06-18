@@ -40,3 +40,5 @@
     - Non-volatile status conditions are cured after trainer battles.
     - PC System: 'SOMEONE's PC' is for Pokémon, 'Gem's PC' is for Items.
     - The S.S. Anne might leave after I get HM Cut (Confirmed, it left).
+
+- **Attempt 9:** Failed first switch at (6, 8). **PUZZLE RESET.**
