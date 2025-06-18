@@ -62,5 +62,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"first_switch_found_at\":{\"type\":[\"object\", \"null\"],\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"previously_checked_coordinates\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}}}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"search_plan\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"puzzle_phase\":{\"type\":\"string\",\"enum\":[\"find_first_switch\",\"find_second_switch\"]},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"search_plan\",\"puzzle_phase\",\"reasoning\"]}",
     "agent_can_run_code": true
+  },
+  "exploration_agent": {
+    "agent_name": "exploration_agent",
+    "agent_description": "Generates an efficient path to explore all reachable unseen tiles on the current map.",
+    "agent_system_prompt": "You are an Exploration Agent. Your task is to generate an efficient path to visit all `Reachable Unseen Tiles` on the current map. You will use your `run_code` tool to parse `map_xml_string` to get the player's current position and the list of unseen tiles. Your goal is to find a path that minimizes total travel distance, visiting a tile adjacent to each unseen tile. You can use a heuristic like the nearest neighbor algorithm. Your output should be a single, continuous path as a list of coordinates. Logic: 1. Parse `map_xml_string` to get the player's start coordinates and a list of all unseen tile coordinates. 2. For each unseen tile, find its adjacent walkable neighbors. These neighbors are your targets. 3. Starting from the player's position, find the path to the nearest target. 4. From that target, find the path to the next-nearest unvisited target, and so on, until all unseen tiles have an adjacent tile in the path. 5. Combine these segments into one continuous path. Print this path as a list of coordinates.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}}}",
+    "agent_can_run_code": true
   }
 }
