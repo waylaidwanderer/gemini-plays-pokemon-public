@@ -27,3 +27,6 @@
 - **`move_tutor_advisor`:** Created. Ready for use when a new TM is acquired.
 
 - **Pathfinder Agent Caution:** The `pathfinder_agent` can be unreliable with complex routes involving ledges. Always manually double-check long or circuitous paths it suggests.
+
+## Cerulean City Navigation Debrief
+- **Lesson Learned:** The eastern path out of Cerulean City is a dead end that requires Cut. The correct path for story progression is south, through the burgled house at (28, 12).
