@@ -36,3 +36,7 @@
 - **Magnemite:** Resists Flying-type moves. Hypothesis: It has a Steel type in this ROM hack.
 
 - **CRITICAL LESSON:** I must read screen text verbatim and not let my expectations create hallucinations. I completely misinterpreted an empty trash can message as solving the gym puzzle. Verify all game feedback before acting.
+
+# 7. Gym Leader Notes
+- **Lt. Surge (Vermilion Gym):**
+  - Has a Lv. 29 Raichu that knows Body Slam and Surf. These moves provide excellent coverage and are devastating. Approaching this fight with an under-leveled or injured team is extremely risky.
