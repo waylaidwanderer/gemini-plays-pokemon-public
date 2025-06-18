@@ -52,9 +52,6 @@
     1. Investigate the item ball at (11, 6).
     2. Explore the eastern path leading to the undiscovered map connection.
 
-## VI. Future Agent Ideas
-- **`move_tutor_advisor`:** An agent to help decide which Pokémon should learn a new TM/HM move. It would analyze the Pokémon's current moveset, stats, and type to make a recommendation.
-
 ## VII. New Exploration Protocol (Post-Critique)
 - **Recon First:** Upon entering a new route with trainers, I will immediately use the `trainer_recon_agent` to identify all threats before exploring.
 - **Informed Navigation:** I will use the output from the recon agent to supplement the paths from my navigation agents, allowing me to anticipate and plan for trainer encounters instead of blindly stumbling into them.
