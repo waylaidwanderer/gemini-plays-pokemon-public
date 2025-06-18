@@ -47,3 +47,5 @@
 # 8. Critique & Course Correction (Turn 12101)
 - **AI Feedback:** Received critique for poor risk management regarding PARCH's critical health (9 HP) and underutilizing agents. The assumption that a Pokémon Center is at the cave exit is unverified.
 - **Decision:** Acknowledged risk. Backtracking to Vermilion is guaranteed safety but highly inefficient. The rest of the party is healthy. Proceeding forward cautiously to find the cave exit is a calculated risk for a significant time-save. PARCH will NOT be used in battle until healed. Will prioritize using explorer_agent for navigation.
+
+- An NPC in the Diglett's Cave exit house (Route 2 side) mentioned Rock Tunnel is dark and needs the move FLASH to light it up.
