@@ -43,5 +43,5 @@
 - **CRITICAL LESSON (Risk Management):** Avoid exploring with critically injured Pokémon or making reckless gambles in battle, like relying on a confused Pokémon with low HP.
 - **CRITICAL LESSON (Reading):** I must read screen text verbatim and not let my expectations create hallucinations.
 - **CRITICAL LESSON (Tool Usage):** Double-check arguments and notepad content to avoid repeated failures and duplicate entries.
-- **CRITICAL LESSON (Battle Efficiency):** I need to be more deliberate and try to combine menu navigation and selection into single, shorter command chains.
+- **CRITICAL LESSON (Battle Efficiency):** I need to be more deliberate and use the `select_battle_option` tool for main battle menu choices to improve efficiency and reliability.
 - **Assumption:** The only way forward is through the eastern part of Route 11.
