@@ -49,3 +49,6 @@
 # 8. Critique & Course Correction (Turn 12121)
 - **AI Feedback:** Received critique for poor risk management regarding PARCH's critical health and underutilizing agents.
 - **Decision:** Acknowledged risk. Healing the party is the top priority. I will navigate to Pewter City via the Viridian Forest gatehouse. PARCH will NOT be used in battle until healed. Will prioritize using agents correctly from the start.
+
+# 9. Tactical Lessons
+- **Lead with Speed:** When exploring areas with high encounter rates (like caves), lead with a fast Pokémon like SPARKY to ensure a higher chance of escaping from unwanted wild battles on the first try. This conserves HP, PP, and turns.
