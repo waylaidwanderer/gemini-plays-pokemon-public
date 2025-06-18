@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_map_id\":{\"type\":\"string\"},\"target_map_id\":{\"type\":\"string\"}},\"required\":[\"start_map_id\",\"target_map_id\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"map_route\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reason\":{\"type\":\"string\"}},\"required\":[\"path_found\",\"map_route\",\"reason\"]}",
     "agent_can_run_code": true
-  },
-  "move_tutor_advisor": {
-    "agent_name": "move_tutor_advisor",
-    "agent_description": "Analyzes a new TM and the player's party to recommend the best Pokémon to learn the move. Considers type, stats, and existing moveset.",
-    "agent_system_prompt": "You are a Pokémon Move Tutor Advisor. Your task is to analyze a newly acquired TM, evaluate the player's current party Pokémon, and provide a recommendation for which Pokémon, if any, should learn the move. Your analysis should consider the move's power, type, and utility, as well as each Pokémon's type (for STAB bonus), stats (e.g., Attack vs. Special), and current moveset to avoid redundancy. If multiple Pokémon are good candidates, explain the pros and cons for each. If no Pokémon is a good fit, state that and explain why. Your output must conform to the provided schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"tm_move_name\":{\"type\":\"string\"},\"tm_move_type\":{\"type\":\"string\"},\"tm_move_power\":{\"type\":\"integer\"},\"tm_move_category\":{\"type\":\"string\",\"enum\":[\"Physical\",\"Special\",\"Status\"]},\"player_pokemon_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true},\"attack_stat\":{\"type\":\"integer\"},\"special_stat\":{\"type\":\"integer\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"name\",\"level\",\"type1\",\"attack_stat\",\"special_stat\",\"moves\"]}}},\"required\":[\"tm_move_name\",\"tm_move_type\",\"tm_move_power\",\"tm_move_category\",\"player_pokemon_party\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"best_candidate_pokemon_name\":{\"type\":\"string\",\"nullable\":true},\"reasoning\":{\"type\":\"string\"},\"alternative_candidates\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{ \"pokemon_name\":{\"type\":\"string\"},\"pros\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"cons\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"pokemon_name\",\"pros\",\"cons\"]}}},\"required\":[\"reasoning\"]}",
-    "agent_can_run_code": false
   }
 }
