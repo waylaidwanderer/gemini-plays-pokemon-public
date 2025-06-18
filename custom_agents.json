@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"current_hp\":{\"type\":\"integer\"},\"max_hp\":{\"type\":\"integer\"},\"status_condition\":{\"type\":\"string\",\"nullable\":true},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"current_pp\":{\"type\":\"integer\"},\"max_pp\":{\"type\":\"integer\"}},\"required\":[\"name\",\"current_pp\",\"max_pp\"]}}},\"required\":[\"name\",\"level\",\"current_hp\",\"max_hp\",\"moves\"]}}},\"required\":[\"player_pokemon_party\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\",\"enum\":[\"Retreat\",\"Continue\"]},\"confidence_score\":{\"type\":\"number\",\"minimum\":0,\"maximum\":1},\"reasoning\":{\"type\":\"string\",\"description\":\"A brief explanation for the recommendation, highlighting key factors like low HP, depleted PP on crucial moves, or widespread status effects.\"}},\"required\":[\"recommendation\",\"confidence_score\",\"reasoning\"]}",
     "agent_can_run_code": false
+  },
+  "multi_map_route_planner_agent": {
+    "agent_name": "multi_map_route_planner_agent",
+    "agent_description": "Analyzes the World Knowledge Graph to find the optimal sequence of maps to traverse between a start and end point. Does not provide step-by-step navigation.",
+    "agent_system_prompt": "You are a master route planner. Your task is to analyze the `world_knowledge_graph_json_string` to find the shortest sequence of maps connecting a starting map to a target map. You MUST use your `run_code` tool. Your Python code will treat the World Knowledge Graph as a graph where maps are nodes and connections (edges) are links. Implement a Breadth-First Search (BFS) to find the shortest path of map IDs. Your output should be a JSON object containing the sequence of map IDs to traverse. If no path exists, `path_found` must be false.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_map_id\":{\"type\":\"string\"},\"target_map_id\":{\"type\":\"string\"}},\"required\":[\"start_map_id\",\"target_map_id\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"map_route\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reason\":{\"type\":\"string\"}},\"required\":[\"path_found\",\"map_route\",\"reason\"]}",
+    "agent_can_run_code": true
   }
 }
