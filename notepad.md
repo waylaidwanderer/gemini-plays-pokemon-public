@@ -12,14 +12,13 @@
 - **Secondary Goal:** Find the stairs to the Captain's quarters.
 - **Key Discoveries:**
     - **Kitchen Puzzle Solved:** The 'odd ball in the trash' hint from the cook at (6,13) referred to a GREAT BALL found in the trash can at (14,10), not a switch. The kitchen is a dead end.
-- **Key Discoveries:**
-    - The stairs to the upper decks are NOT on the B1F. They are likely accessible via a switch in the kitchen.
+    - The stairs to the upper decks are NOT on the B1F.
     - Some cooks are path-blockers, not trainers (e.g., Cook at (2,13)).
     - HM STRENGTH: A Super Nerd on B1F mentioned his Machoke has STRENGTH. This is likely the HM.
     - Rival: A battle with BLAZe is expected before reaching the Captain.
 
 # 3. Key Hints & NPC Dialogue
-- **S.S. Anne Kitchen:** A cook at (6,13) said: "I saw an odd ball in the trash." This is a hint for a hidden switch/item.
+- **S.S. Anne Kitchen:** A cook at (6,13) said: "I saw an odd ball in the trash." This was a hint for a GREAT BALL.
 
 # 4. Item & TM Usage
 - **TM44 (Rest):** Taught to PARCH, replacing POISON STING. (COMPLETE)
