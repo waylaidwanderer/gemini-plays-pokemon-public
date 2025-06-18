@@ -34,3 +34,6 @@
 
 ## V. Pending Tasks & Hypotheses
 - **Hypothesis:** The officer blocking the east exit of Cerulean City might move now that the Trashed House/Team Rocket event is resolved. I need to go back and check on him after escaping this loop.
+
+## VI. Traps & One-Way Paths
+- **Cerulean City Ledge Trap:** Jumping down the ledges at (23, 18) and (24, 18) traps you in the western segment of the city. To escape, you must exit the city (e.g., north to Route 24) and re-enter.
