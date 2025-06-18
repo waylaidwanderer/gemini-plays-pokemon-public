@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"all_player_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":[\"string\",\"null\"]}}}},\"opponent_team\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":[\"string\",\"null\"]}}}}},\"required\":[\"all_player_pokemon\",\"opponent_team\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_team\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"suggested_team\",\"reasoning\"]}",
     "agent_can_run_code": false
-  },
-  "hypothesis_tracker_agent": {
-    "agent_name": "hypothesis_tracker_agent",
-    "agent_description": "Parses the notepad to identify untested hypotheses and reminds the user of them.",
-    "agent_system_prompt": "You are a Hypothesis Tracker Agent. You will be given the full text of the user's notepad as input. Your task is to parse the 'Untested Hypotheses & Plans' section. Identify any hypotheses that do not have an associated note indicating they have been tested or resolved. List these outstanding hypotheses in your output. If there are no untested hypotheses, state that.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"notepad_content\":{\"type\":\"string\"}},\"required\":[\"notepad_content\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"untested_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"untested_hypotheses\"]}",
-    "agent_can_run_code": false
   }
 }
