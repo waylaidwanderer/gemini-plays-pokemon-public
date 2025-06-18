@@ -21,9 +21,9 @@
     - DIG can be used to escape caves but **cannot be used in cities**.
 
 ## III. Agent Log
-### `pathfinder_agent` (Probationary Status)
-- **CRITICAL FAILURE:** The agent is demonstrably UNRELIABLE for complex, multi-turn paths in southern Cerulean City. It has now led me into a marked one-way trap TWICE.
-- **MANDATE:** DO NOT use the agent for multi-turn navigation in this area. Proceed with careful, manual navigation, breaking the journey into small, verifiable steps.
+### `pathfinder_agent` (Status: Reliable)
+- **LESSON LEARNED:** The agent's `path_found: false` responses in Cerulean City were correct. They accurately indicated that my target was in an isolated map segment unreachable from my position. This is not an agent failure, but critical map information.
+- **MANDATE:** Trust agent pathfinding results. If a path is not found, re-evaluate the map for alternative routes (warps, other map connections) instead of assuming the agent is wrong.
 
 ### Other Agents
 - **`unseen_tile_navigator_agent`:** Reliable for overworld navigation when stuck.
