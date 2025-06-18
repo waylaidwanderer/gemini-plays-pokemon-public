@@ -9,7 +9,9 @@
 
 # 2. S.S. Anne - Current Objective
 - **Primary Goal:** Find the Captain to get HM CUT.
-- **Secondary Goal:** Find the switch hidden in a trash can in the kitchen.
+- **Secondary Goal:** Find the stairs to the Captain's quarters.
+- **Key Discoveries:**
+    - **Kitchen Puzzle Solved:** The 'odd ball in the trash' hint from the cook at (6,13) referred to a GREAT BALL found in the trash can at (14,10), not a switch. The kitchen is a dead end.
 - **Key Discoveries:**
     - The stairs to the upper decks are NOT on the B1F. They are likely accessible via a switch in the kitchen.
     - Some cooks are path-blockers, not trainers (e.g., Cook at (2,13)).
