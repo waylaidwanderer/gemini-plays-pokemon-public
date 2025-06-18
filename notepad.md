@@ -26,7 +26,15 @@
 - **Untested Agents:** `battle_menu_navigator`, `multi_map_route_planner_agent`.
 
 ## IV. Route & City Debriefs
-- **Cerulean City:** The path east (Route 9) is blocked by an officer post-Rocket event. The correct path for story progression is south, through the burgled house at (28, 12), which leads to Route 5.
+### Cerulean City
+- The path east (Route 9) is blocked by an officer post-Rocket event.
+- The path south is through the burgled house at (28, 12), which leads to Route 5. This house contains a Rocket Grunt and a hole in the wall.
+- **Ledge Trap:** Jumping down the ledges at (23, 18) and (24, 18) traps you in the western segment of the city. To escape, you must exit the city (e.g., north to Route 24) and re-enter.
+- **Yard/Gym Trap:** The yard at (31,21) has a one-way entrance into the back of the Cerulean Gym. There is no exit from this part of the gym other than back into the yard, creating a loop.
 
-## V. Traps & One-Way Paths
-- **Cerulean City Ledge Trap:** Jumping down the ledges at (23, 18) and (24, 18) traps you in the western segment of the city. To escape, you must exit the city (e.g., north to Route 24) and re-enter.
+### Underground Path (Route 5 to 6)
+- An NPC mentioned that people often lose things in the Underground Path. This could be a hint for a hidden item.
+
+## V. Current Tasks & Plans
+- Get to Vermilion City to get HM01 Cut.
+- Current path: Route 6 -> Vermilion City.
