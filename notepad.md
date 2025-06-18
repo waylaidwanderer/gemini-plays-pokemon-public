@@ -25,3 +25,5 @@
 - **`unseen_tile_navigator_agent`:** Reliable for overworld navigation when stuck.
 - **`pathfinder_agent`:** Refined to ensure output stability. Must be re-verified on next use.
 - **`move_tutor_advisor`:** Created. Ready for use when a new TM is acquired.
+
+- **Pathfinder Agent Caution:** The `pathfinder_agent` can be unreliable with complex routes involving ledges. Always manually double-check long or circuitous paths it suggests.
