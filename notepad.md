@@ -34,3 +34,5 @@
 - **Cerulean City:** Defeated rival Pixel. Discovered the path to Bill's house is north, not east through the police blockade.
 - **Nugget Bridge (Route 24):** All trainers defeated. Received a Charmander (IGNIS).
 - **Route 25:** Currently clearing trainers to reach Bill's Sea Cottage at the end of the route.
+
+- **Situational Awareness & Flexibility:** Rules are guidelines, not unbreakable laws. Always adapt strategy to the current context. Survival and recovery must take precedence over compulsive completionism when the party is in critical condition.
