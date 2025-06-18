@@ -26,7 +26,3 @@
 - **(RISK ASSESSMENT):** I must use my `heal_priority_agent` *before* entering new areas to make informed decisions, not after my party is already crippled.
 - **(BATTLE STRATEGY):** Avoid reckless gambles in battle, like relying on a confused Pokémon or keeping a sleeping Pokémon in against a strong attacker. Sacrificing a Pokémon for a free switch can be a valid and necessary strategy.
 - **(TOOL USAGE):** Use `select_battle_option` for main battle menu choices to improve reliability. Trust agents to find paths when I am stuck.
-
-# 5. Current Objective: Heal Party & Defeat Lt. Surge
-- **Primary Goal:** Defeat Lt. Surge and earn the Thunder Badge.
-- **Immediate Priority:** Finish exploring Route 11 Gatehouse, then immediately return to Vermilion City to heal the party.
