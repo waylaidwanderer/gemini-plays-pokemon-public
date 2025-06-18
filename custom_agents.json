@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_map_id\":{\"type\":\"string\"},\"target_map_id\":{\"type\":\"string\"}},\"required\":[\"start_map_id\",\"target_map_id\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"map_route\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reason\":{\"type\":\"string\"}},\"required\":[\"path_found\",\"map_route\",\"reason\"]}",
     "agent_can_run_code": true
+  },
+  "map_segmentation_agent": {
+    "agent_name": "map_segmentation_agent",
+    "agent_description": "Analyzes the current map's XML to identify all distinct, isolated, and traversable areas (segments). Helps to understand which parts of the map are connected and which are segregated by impassable barriers like ledges or buildings.",
+    "agent_system_prompt": "You are a cartography expert specializing in topological analysis of game maps. Your task is to analyze the provided `map_xml_string` to identify and report all distinct, non-overlapping, traversable segments of the map. A segment is a set of tiles that can all be reached from one another without passing through an impassable barrier. You MUST use your `run_code` tool to perform this analysis. Your Python code should implement a graph traversal algorithm (like Breadth-First Search or Depth-First Search) on the map grid. Start a traversal from an unvisited, walkable tile, find all reachable tiles to form one segment, mark them as visited, and repeat until all walkable tiles on the map have been assigned to a segment. Your output must be a JSON object detailing each segment, including the number of tiles in it and a list of all warps and map connections contained within that segment. This will help the user understand if they are in an isolated area.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"number_of_segments\":{\"type\":\"integer\"},\"segments\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"segment_id\":{\"type\":\"integer\"},\"tile_count\":{\"type\":\"integer\"},\"contained_warps\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"contained_map_connections\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"segment_id\",\"tile_count\",\"contained_warps\",\"contained_map_connections\"]}}},\"required\":[\"number_of_segments\",\"segments\"]}",
+    "agent_can_run_code": true
   }
 }
