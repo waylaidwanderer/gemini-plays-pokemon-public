@@ -53,3 +53,8 @@
 # 8. Training Goals
 - **S.S. Anne:** Defeat all trainers.
 - **Post S.S. Anne:** PARCH (Lv 12) and THISTLE (Lv 16) need training.
+
+# 9. Reflection Log (Turn 11407)
+- **Agent Dev Idea:** Create `Progression Blocker Agent` to analyze story obstacles.
+- **Agent Dev Idea:** Consolidate `stuck_solver_agent` and `map_explorer_agent` into a single, more robust exploration agent.
+- **Personal Improvement:** Must be more consistent with marking defeated trainers with '☠️' emoji immediately after battle.
