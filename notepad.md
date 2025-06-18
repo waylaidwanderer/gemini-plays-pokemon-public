@@ -9,19 +9,21 @@
 
 # 2. S.S. Anne - Current Objective
 - **Primary Goal:** Find the Captain to get HM CUT.
-- **Current Location:** S.S. Anne Kitchen (Map 100).
+- **Secondary Goal:** Find the switch hidden in a trash can in the kitchen.
 - **Key Discoveries:**
-    - The stairs to the upper decks are NOT on the B1F.
-    - A hint suggested the stairs are in the ship's Kitchen. I have now found the kitchen.
+    - The stairs to the upper decks are NOT on the B1F. They are likely accessible via a switch in the kitchen.
     - Some cooks are path-blockers, not trainers (e.g., Cook at (2,13)).
     - HM STRENGTH: A Super Nerd on B1F mentioned his Machoke has STRENGTH. This is likely the HM.
     - Rival: A battle with BLAZe is expected before reaching the Captain.
 
-# 3. Item & TM Usage
+# 3. Key Hints & NPC Dialogue
+- **S.S. Anne Kitchen:** A cook at (6,13) said: "I saw an odd ball in the trash." This is a hint for a hidden switch/item.
+
+# 4. Item & TM Usage
 - **TM44 (Rest):** Taught to PARCH, replacing POISON STING. (COMPLETE)
 - **TM08 (Body Slam):** Plan to teach to THISTLE, replacing Tackle.
 
-# 4. General Gameplay Insights
+# 5. General Gameplay Insights
 - **Systematic Exploration:** Clear areas methodically. Don't assume a floor is the correct path until stairs are found.
 - **NPC Interaction:** Non-battling/defeated trainers are impassable walls. Some event NPCs offer gifts or block paths.
 - **Game Mechanics:**
@@ -33,18 +35,20 @@
 - **Unverified Assumptions:**
     - The S.S. Anne might leave after I get HM Cut. I should be efficient.
 
-# 5. Battle Intel
+# 6. Battle Intel
 ## Gym Leaders
 - **Brock (DEFEATED):** Geodude (Lv 12), Onix (Lv 14).
 - **Misty (DEFEATED):** Psyduck (Lv 19), Goldeen (Lv 18), Starmie (Lv 21).
 ## Rival BLAZe
 - **@ Cerulean City:** Pidgeotto (Lv 18), Raticate (Lv 17), Kadabra (Lv 16), Vaporeon (Lv 20).
 
-# 6. Agent Development Log
+# 7. Agent Development Log
 - **Pathfinder Agent Overhaul:** The agent's system prompt has been rewritten to explicitly treat ALL objects (including defeated trainers) as impassable, with Pikachu as the only exception. This seems to be working well.
+- **Consolidation Idea:** Consider merging the `stuck_solver_agent` and `map_explorer_agent` into a single, more robust exploration agent.
 - **Future Agent Ideas:**
     - **Progression Blocker Agent:** To analyze key items, map data, and NPC dialogue to identify requirements for story obstacles (e.g., the thirsty Saffron guard).
     - **Trainer Battle Predictor:** To simulate battles against known trainer teams, suggesting optimal leads and switch strategies.
 
-# 7. Training Goals
+# 8. Training Goals
+- **S.S. Anne:** Defeat all trainers.
 - **Post S.S. Anne:** PARCH (Lv 12) and THISTLE (Lv 16) need training.
