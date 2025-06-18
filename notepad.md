@@ -34,3 +34,5 @@
 - **(TOOL USAGE):** Trust agents (pathfinder, explorer) to find paths when I am stuck. Use `select_battle_option` for main battle menu choices.
 
 - **(FAILURE LOG): Agent Logic:** My `explorer_agent` has repeatedly failed (6+ attempts) to generate valid paths in Diglett's Cave, incorrectly identifying my area as a dead end instead of finding paths to other disconnected, explorable zones. This indicates a severe flaw in its initial design and stuck-solving logic.
+
+- (FAILURE LOG): My `explorer_agent` has failed for the 8th time to generate a valid path in Diglett's Cave, still struggling with elevation changes between 'ground' and 'elevated_ground' tiles. Its pathing logic is fundamentally flawed and requires another major revision.
