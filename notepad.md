@@ -32,3 +32,5 @@
 - **(FAILURE LOG): Hallucination:** I have misidentified my location multiple times. I must verify my position with game state data before acting.
 - **(RISK ASSESSMENT):** Use `heal_priority_agent` *before* entering new, dangerous areas. I failed to do this before entering Route 11, resulting in a near party wipe.
 - **(TOOL USAGE):** Trust agents (pathfinder, exploration) to find paths when I am stuck.
+
+- **Type Discoveries (NEW):** Ground-type moves are not very effective against Bug-type Pokémon (e.g., PARCH's DIG vs. Caterpie).
