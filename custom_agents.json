@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"current_hp\":{\"type\":\"integer\"},\"max_hp\":{\"type\":\"integer\"},\"status_condition\":{\"type\":\"string\",\"nullable\":true},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"current_pp\":{\"type\":\"integer\"},\"max_pp\":{\"type\":\"integer\"}},\"required\":[\"name\",\"current_pp\",\"max_pp\"]}}},\"required\":[\"name\",\"level\",\"current_hp\",\"max_hp\",\"moves\"]}}},\"required\":[\"player_pokemon_party\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\",\"enum\":[\"Retreat\",\"Continue\"]},\"confidence_score\":{\"type\":\"number\",\"minimum\":0,\"maximum\":1},\"reasoning\":{\"type\":\"string\",\"description\":\"A brief explanation for the recommendation, highlighting key factors like low HP, depleted PP on crucial moves, or widespread status effects.\"}},\"required\":[\"recommendation\",\"confidence_score\",\"reasoning\"]}",
     "agent_can_run_code": false
+  },
+  "location_verifier_agent": {
+    "agent_name": "location_verifier_agent",
+    "agent_description": "A simple bot to verify my current location against the game state to prevent hallucinations.",
+    "agent_system_prompt": "You are a location verification bot. Your ONLY function is to compare a `stated_location` JSON string from your input with the player's location from the `GameStatus` object in your context. 1. INPUT: You receive a JSON string: '{\"map_id\": INT, \"x\": INT, \"y\": INT}'. 2. CONTEXT: You will have a `GameStatus` object available. 3. CHECK: If `GameStatus` or `GameStatus.Location` is missing, output `{\"is_sane\": false, \"reason\": \"GameStatus context is missing.\"}`. 4. COMPARE: Compare `input.map_id` with `GameStatus.Location.Map`, `input.x` with `GameStatus.Player.Position.X`, and `input.y` with `GameStatus.Player.Position.Y`. 5. OUTPUT: If ALL match: `{\"is_sane\": true, \"reason\": \"Stated location matches GameStatus.\"}`. If ANY mismatch: `{\"is_sane\": false, \"reason\": \"Mismatch found. Stated: [map, x, y]. Actual: [map, x, y].\"}`. Your output must be this exact JSON format. Do not deviate.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"stated_location_json\":{\"type\":\"string\"}},\"required\":[\"stated_location_json\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"is_sane\":{\"type\":\"boolean\"},\"reason\":{\"type\":\"string\"}},\"required\":[\"is_sane\",\"reason\"]}",
+    "agent_can_run_code": false
   }
 }
