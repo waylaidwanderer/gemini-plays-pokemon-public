@@ -43,3 +43,6 @@
 - **EXP Gain:** A Pokémon only gains EXP if it is on the field when the opponent faints. Switching out a Pokémon before the final turn means it gets no EXP. The 'REST and switch' grinding strategy is invalid.
 - **Two-Turn Moves (Dig, Fly, etc.):** Pokémon are invulnerable during the first turn of these moves (e.g., while underground or in the air). Attacking them during this phase will always result in a miss. The correct strategy is to wait for them to reappear or use a non-attacking move.
 - **Agent Usage:** I must remember to use my custom agents, especially `battle_switch_advisor_agent`, in difficult or critical battle situations.
+
+# 6. Major Strategic Blunders & Corrections
+- **(FAILURE LOG): Inefficient Status Recovery:** I wasted a significant number of turns waiting for PARCH's 'Sleep' status to wear off inside Diglett's Cave. **Correction:** Curing status conditions at a Pokémon Center is always the most efficient method and should be the immediate priority when a key party member is incapacitated.
