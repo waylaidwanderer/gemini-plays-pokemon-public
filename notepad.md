@@ -61,3 +61,7 @@
 - The building at (28,4) to (32,8) visually resembles a Pokémon Center but does not have a functional warp at its apparent entrance (29,7). It is likely a decoy.
 
 ## VI. Agent Ideas
+
+## VII. Item Log
+- **TMs Found:**
+  - TM08 (BODYSLAM): S.S. Anne 1F Rooms, from the cabin entered at (12,9) on the main deck.
