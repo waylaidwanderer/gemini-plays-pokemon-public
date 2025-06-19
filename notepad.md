@@ -52,3 +52,7 @@
 # 7. Procedural Reminders & Self-Correction
 - **(CHECKLIST):** Before starting a new major action (like training or entering a dungeon), check the status of all party members first. (Corrective action for the PARCH 'Sleep' incident).
 - **(NAVIGATION):** For simple, small, fully-explored rooms (like a Pokémon Center), navigate manually. Do not use the pathfinder agent for trivial movements, as it can lead to targeting errors. (Corrective action for the Nurse interaction failure).
+
+# 8. Core Battle Mechanics (Refined)
+- **Sleep Status:** A sleeping Pokémon CANNOT perform any actions, including the second turn of a move like DIG if they are put to sleep while underground. The sleep counter only decreases if 'FIGHT' is selected.
+- **Semi-Invulnerable Moves (Dig/Fly):** Pokémon are invulnerable to most attacks during the first turn. Moves like Hypnosis will still fail against a Pokémon that is already asleep, regardless of their invulnerability state.
