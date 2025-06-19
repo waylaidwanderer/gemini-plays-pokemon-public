@@ -1,58 +1,48 @@
 # 1. Party & Level Caps
 - **Current Cap (2 badges):** 24
 - SPARKY (Pikachu): Lv24 (Capped)
-- SPROUT (Gloom): Lv23
-- PIP (Pidgeotto): Lv22
+- SPROUT (Gloom): Lv24
+- PIP (Pidgeotto): Lv24
 - THISTLE (Nidoran♀): Lv16
-- PARCH (Sandshrew): Lv15
+- PARCH (Sandshrew): Lv21
 
-# 2. Battle Strategy & Type Matchups
-- **Lt. Surge's Raichu (Lv 29):** Knows Body Slam (Normal) and Surf (Water). PARCH (Sandshrew) is the best counter but is under-leveled and weak to Surf.
-- **Type Discoveries:**
+# 2. Game Mechanics & World Insights
+- **Level Cap:** Fake EXP gain message at cap; EXP value doesn't change.
+- **PC System:** 'SOMEONE's PC' (Pokémon) vs 'Gem's PC' (Items).
+- **Navigation:**
+  - Defeated trainers remain as impassable obstacles.
+  - Diglett's Cave connects Route 11 (Vermilion) to Route 2 (Pewter).
+  - Cuttable trees respawn after changing maps.
+- **HM Flash:** An Aide of Prof. Oak on Route 2 gives it if you have caught 10 different Pokémon.
+- **HM Cut:** Received from the Captain of the S.S. Anne.
+- **Status Effects:**
+  - Non-volatile status (e.g., sleep, paralysis) is cured after trainer battles.
+  - Poison deals 1 HP/4 steps outside of battle.
+
+# 3. Core Battle Mechanics (Learned Lessons)
+- **EXP Sharing:** EXP is shared among all Pokémon who participated in the battle for each faint. (Discovered on Route 11).
+- **Type Matchups:**
   - Magnemite resists Flying (likely part Steel).
   - Ground-types are immune to paralysis from moves like Stun Spore.
   - Poison moves are not very effective against Ground-types.
+  - Ground-type moves are not very effective against Bug-type Pokémon (e.g., PARCH's DIG vs. Caterpie).
+- **Move Mechanics:**
+  - **Two-Turn Moves (Dig, Fly, etc.):** Pokémon are invulnerable during the first turn. Attacking them during this phase will always result in a miss.
+  - **Sleep Status:** A sleeping Pokémon CANNOT perform any actions. If put to sleep while underground, it cannot complete the second turn of a move like DIG. The sleep counter only decreases if 'FIGHT' is selected. Hypnosis fails against an already sleeping Pokémon.
 - **General Tactics:**
   - Sacrificing a Pokémon for a free switch is a valid hard-mode tactic.
-
-# 3. Game Mechanics & World Insights
-- **Level Cap:** Fake EXP gain message at cap; EXP value doesn't change.
-- **EXP Sharing:** EXP is shared among all battle participants for each faint.
-- **Status Effects:** Non-volatile status cured after trainer battles. Poison deals 1 HP/4 steps.
-- **PC System:** 'SOMEONE's PC' (Pokémon) vs 'Gem's PC' (Items).
-- **Navigation & Key Items:**
-  - Defeated trainers remain as impassable obstacles.
-  - Diglett's Cave connects Route 11 (Vermilion) to Route 2 (Pewter).
-  - **HM Flash:** Needed for Rock Tunnel. An Aide of Prof. Oak gives it to you if you have caught 10 different Pokémon. The Aide is in the southern gatehouse on Route 2.
-  - **HM Cut:** Received from the Captain of the S.S. Anne.
+  - **(Sustainable Training):** Use REST proactively to heal, then switch to another Pokémon to finish the fight.
 
 # 4. Critical Lessons & Risk Management
-- **(FAILURE LOG): Misjudging Dead Ends:** I have repeatedly ignored the `Reachable Unseen Tiles` list, leading to getting stuck. I must trust the game state information. (Failed on Route 11 twice, Route 2 once).
-- **(FAILURE LOG): Ignoring Obstacles:** I have forgotten that defeated trainers are impassable, leading to failed pathing. (Failed on Mt. Moon B2F, Route 11).
-- **(FAILURE LOG): Hallucination:** I have misidentified my location multiple times. I must verify my position with game state data before acting.
-- **(RISK ASSESSMENT):** Use `heal_priority_agent` *before* entering new, dangerous areas. I failed to do this before entering Route 11, resulting in a near party wipe.
-- **(TOOL USAGE):** Trust agents (pathfinder, exploration) to find paths when I am stuck.
+- **(FAILURE LOG): Misjudging Dead Ends:** Repeatedly ignored `Reachable Unseen Tiles`, getting stuck. Must trust game state information. (Failed on Route 11 x2, Route 2 x1).
+- **(FAILURE LOG): Ignoring Obstacles:** Forgotten that defeated trainers are impassable. (Failed on Mt. Moon B2F, Route 11).
+- **(FAILURE LOG): Hallucination:** Misidentified my location multiple times. Must verify position with game state data.
+- **(FAILURE LOG): Tactical Rigidity:** Persisted with a failing strategy (DIG vs. Sand-Attack). Must adapt quickly and use agents.
+- **(FAILURE LOG): Inefficient Status Recovery:** Wasted turns waiting for Sleep to wear off. Pokémon Centers are the most efficient cure.
+- **(RISK ASSESSMENT):** Use `heal_priority_agent` *before* entering new, dangerous areas.
+- **(RISK ASSESSMENT):** Lt. Surge's Raichu might know an Electric-type move. Don't assume its moveset is fully known.
+- **(TOOL USAGE):** Trust agents (pathfinder, exploration) to find paths when stuck. Use `battle_switch_advisor_agent` in critical battles.
 
-- **Type Discoveries (NEW):** Ground-type moves are not very effective against Bug-type Pokémon (e.g., PARCH's DIG vs. Caterpie).
-
-- **(FAILURE LOG): Tactical Rigidity in Battle:** I persisted with PARCH's DIG attack against a Dugtrio despite multiple accuracy drops from Sand-Attack, resulting in a prolonged and inefficient battle. I also failed to use my `battle_switch_advisor_agent`, which was designed for this exact scenario. **Lesson:** When a strategy is clearly failing due to stat changes, I must adapt quickly by switching Pokémon or using a different approach. I must also remember to utilize the custom agents I've built.
-
-- **(RISK ASSESSMENT):** Lt. Surge's Raichu might know an Electric-type move in addition to Body Slam and Surf. I should not assume its moveset is fully known and prepare accordingly.
-
-# 5. Core Battle Mechanics (Learned Lessons)
-- **EXP Gain:** A Pokémon only gains EXP if it is on the field when the opponent faints. Switching out a Pokémon before the final turn means it gets no EXP. The 'REST and switch' grinding strategy is invalid.
-- **Two-Turn Moves (Dig, Fly, etc.):** Pokémon are invulnerable during the first turn of these moves (e.g., while underground or in the air). Attacking them during this phase will always result in a miss. The correct strategy is to wait for them to reappear or use a non-attacking move.
-- **Agent Usage:** I must remember to use my custom agents, especially `battle_switch_advisor_agent`, in difficult or critical battle situations.
-
-# 6. Major Strategic Blunders & Corrections
-- **(FAILURE LOG): Inefficient Status Recovery:** I wasted a significant number of turns waiting for PARCH's 'Sleep' status to wear off inside Diglett's Cave. **Correction:** Curing status conditions at a Pokémon Center is always the most efficient method and should be the immediate priority when a key party member is incapacitated.
-
-- **Navigation & Key Items (UPDATE):** Cuttable trees respawn after changing maps. (Confirmed in Vermilion City after returning from Route 11).
-
-# 7. Procedural Reminders & Self-Correction
-- **(CHECKLIST):** Before starting a new major action (like training or entering a dungeon), check the status of all party members first. (Corrective action for the PARCH 'Sleep' incident).
-- **(NAVIGATION):** For simple, small, fully-explored rooms (like a Pokémon Center), navigate manually. Do not use the pathfinder agent for trivial movements, as it can lead to targeting errors. (Corrective action for the Nurse interaction failure).
-
-# 8. Core Battle Mechanics (Refined)
-- **Sleep Status:** A sleeping Pokémon CANNOT perform any actions, including the second turn of a move like DIG if they are put to sleep while underground. The sleep counter only decreases if 'FIGHT' is selected.
-- **Semi-Invulnerable Moves (Dig/Fly):** Pokémon are invulnerable to most attacks during the first turn. Moves like Hypnosis will still fail against a Pokémon that is already asleep, regardless of their invulnerability state.
+# 5. Procedural Reminders & Self-Correction
+- **(CHECKLIST):** Before starting a new major action (like training or entering a dungeon), check the status of all party members first.
+- **(NAVIGATION):** For simple, small, fully-explored rooms (like a Pokémon Center), navigate manually. Do not overuse the pathfinder agent.
