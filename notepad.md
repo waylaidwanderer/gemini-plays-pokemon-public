@@ -51,3 +51,5 @@
 ## V. Current Tasks & Plans
 - Get to Vermilion City to get HM01 Cut.
 - Current path: Route 6 -> Vermilion City.
+
+- **Reminder:** Before adding nodes/edges to the World Knowledge Graph, always check if they already exist to avoid errors.
