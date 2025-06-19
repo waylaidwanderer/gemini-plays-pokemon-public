@@ -59,3 +59,6 @@
 
 ### Vermilion City
 - The building at (28,4) to (32,8) visually resembles a Pokémon Center but does not have a functional warp at its apparent entrance (29,7). It is likely a decoy.
+
+## VI. Agent Ideas
+- `ship_explorer_agent`: An agent to systematically explore large, multi-room areas like the S.S. Anne. It would identify all unvisited cabins/warps and plot an optimal route to clear the entire floor.
