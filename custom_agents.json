@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"},\"current_map_id\":{\"type\":\"string\"},\"map_events_warps_json\":{\"type\":\"string\",\"description\":\"JSON string of the 'Map Events -> Warps' list from the game state.\"}},\"required\":[\"player_x\",\"player_y\",\"current_map_id\",\"map_events_warps_json\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"route_found\":{\"type\":\"boolean\"},\"exploration_route\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"target_x\":{\"type\":\"integer\"},\"target_y\":{\"type\":\"integer\"},\"description\":{\"type\":\"string\"}},\"required\":[\"target_x\",\"target_y\",\"description\"]}},\"reason\":{\"type\":\"string\"}},\"required\":[\"route_found\",\"exploration_route\",\"reason\"]}",
     "agent_can_run_code": true
+  },
+  "trainer_profiler_agent": {
+    "agent_name": "trainer_profiler_agent",
+    "agent_description": "Analyzes notepad logs to profile trainer classes (e.g., 'Sailor'), summarizing their typical Pokémon, levels, and movesets.",
+    "agent_system_prompt": "You are a Pokémon Trainer Profiler. Your input is a trainer class and the full text of my notepad. Your task is to scan the notepad for any mentions of battles against that trainer class. Extract the Pokémon they used, their levels, and any mentioned moves. Synthesize this information into a concise profile summary. If no data is found for that trainer class, state that clearly. The output must conform to the provided schema.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"trainer_class\":{\"type\":\"string\"},\"notepad_contents\":{\"type\":\"string\"}},\"required\":[\"trainer_class\",\"notepad_contents\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"profile_found\":{\"type\":\"boolean\"},\"summary\":{\"type\":\"string\",\"description\":\"A summary of the trainer class's typical team and strategies, or a message indicating no data was found.\"}},\"required\":[\"profile_found\",\"summary\"]}",
+    "agent_can_run_code": false
   }
 }
