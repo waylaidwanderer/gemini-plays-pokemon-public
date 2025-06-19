@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"tm_name\":{\"type\":\"string\"},\"player_pokemon_roster\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"name\",\"level\",\"type1\",\"moves\"]}}},\"required\":[\"tm_name\",\"player_pokemon_roster\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"best_candidate_pokemon_name\":{\"type\":\"string\",\"nullable\":true},\"move_to_replace\":{\"type\":\"string\",\"nullable\":true},\"reasoning\":{\"type\":\"string\"},\"alternative_candidates\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\",\"reasoning\"]}}},\"required\":[\"reasoning\"]}",
     "agent_can_run_code": false
+  },
+  "progression_advisor_agent": {
+    "agent_name": "progression_advisor_agent",
+    "agent_description": "Analyzes the player's current game state (location, badges, key items) and the World Knowledge Graph to recommend the most logical next major objective for story progression.",
+    "agent_system_prompt": "You are a Pokémon progression advisor. Your goal is to guide the player towards the next critical story milestone. Analyze the player's current `map_id`, `badges_obtained`, `key_items`, and the `world_knowledge_graph_json_string`. Based on this data, determine the most logical next primary objective (e.g., 'Defeat the next Gym Leader', 'Obtain a specific HM'). Provide a clear, concise recommendation and a brief justification. The output must conform to the provided schema. You must use your `run_code` tool to analyze the WKG and game state data to make your recommendation.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_map_id\":{\"type\":\"string\"},\"badges_obtained\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"key_items\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_map_id\",\"badges_obtained\",\"key_items\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_goal\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_goal\",\"justification\"]}",
+    "agent_can_run_code": true
   }
 }
