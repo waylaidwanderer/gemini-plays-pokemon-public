@@ -51,3 +51,12 @@
   - GOOD ROD: Received from Fishing Guru's brother in Vermilion City (map_id: 163, (3,5)).
 
 - **Dead End Definition:** An area is considered a 'dead end' if there is only one reachable exit (a single warp/warp group or map connection). My previous assumption was incorrect.
+
+## VI. Operation: Rematch Revenge (vs. Rival Pixel)
+- **Source:** `team_composition_advisor_agent`
+- **Recommended Team:** SPARKY (Lv24), CRAG (Lv23), NIGHTSHADE (Lv22), ECHO (Lv23), Diglett (Lv23), PULSAR (Lv23).
+- **Immediate Actions:**
+  1. Travel to Diglett's Cave.
+  2. Catch a Diglett.
+  3. Train CRAG, ECHO, and the new Diglett to Lv. 23.
+- **Strategy:** Lead with SPARKY vs. Pidgeotto. Use Diglett as a hard counter for Jolteon. CRAG walls Pidgeotto/Raticate. Evolved ECHO (Golbat) handles Kadabra.
