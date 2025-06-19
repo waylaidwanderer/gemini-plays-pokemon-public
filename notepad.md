@@ -55,3 +55,5 @@
   - TM08 (BODYSLAM): Found in cabin (map_id: 102, (13,16)).
 - **Key Items Found:**
   - GOOD ROD: Received from Fishing Guru's brother in Vermilion City (map_id: 163, (3,5)).
+
+- **Hypothesis:** Stun Spore may not work on Poison-type Pokémon in this ROM hack. Need to test this on another Poison-type to verify if it's a mechanic or just a miss.
