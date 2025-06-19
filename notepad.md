@@ -64,4 +64,4 @@
 
 ## VII. Item Log
 - **TMs Found:**
-  - TM08 (BODYSLAM): S.S. Anne 1F Rooms, from the cabin entered at (12,9) on the main deck.
+  - TM08 (BODYSLAM): Found in a cabin on map 'SS Anne 1F Rooms' (ID 102), entered via the warp at (12,9) on map 'SS Anne 1F' (ID 95).
