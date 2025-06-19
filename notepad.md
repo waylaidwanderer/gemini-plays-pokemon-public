@@ -10,6 +10,11 @@
 - **Strategic Triage:** For simple, non-recurring tasks, manual execution is more efficient than prolonged, in-the-moment agent debugging. Note the failure and refine the agent later.
 
 ## II. Game Mechanics & Battle Intel
+- **Level Caps:**
+    - 0 badges: 12
+    - 1 badge: 21
+    - 2 badges: 24
+    - 3 badges: 35
 - **Type Matchups (Verified):**
     - Bug: Not very effective (0.5x) vs. Fire.
     - Electric: Not very effective (0.5x) vs. Electric, Bug/Grass.
@@ -28,8 +33,8 @@
 ## III. Agent Log & Action Plan
 | Agent Name                     | Status     | Action Item                                                                 |
 |--------------------------------|------------|-----------------------------------------------------------------------------|
-| `pathfinder_agent`             | 🟡 Needs Refinement | **Refine prompt NOW** to handle impassable targets better.                  |
-| `gym_puzzle_solver_agent`      | 🆕 To Be Created | **Create NOW** to solve the Vermilion Gym puzzle systematically.              |
+| `pathfinder_agent`             | 🟡 Needs Refinement | **Refine prompt NOW** to handle impassable targets by pathing to an adjacent traversable tile.                  |
+| `gym_puzzle_solver_agent`      | ✅ Reliable | Use for systematic puzzle solving.                             |
 | `unseen_tile_navigator_agent`  | ✅ Reliable | Use for systematic exploration of unseen tiles.                             |
 | `battle_menu_navigator`        | ✅ Reliable | Use for all complex menu navigation in battles.                               |
 | `tm_tutor_agent`               | ✅ Reliable | Use for TM/HM decisions.                                                    |
@@ -43,8 +48,8 @@
 - **Operation: Thunder Badge**
     - **Objective:** Defeat Lt. Surge and earn the Thunder Badge.
     - **Obstacle:** The gym has an electric barrier puzzle that must be solved by finding two switches hidden in trash cans.
-    - **Status:** Puzzle-solving in progress.
-    - **Intel:** Lt. Surge uses a single, extremely powerful Pokémon that knows a strong Water-type move, making Ground-types a risky counter.
+    - **Status:** Puzzle-solving in progress. Party is injured, retreating to heal.
+    - **Intel:** Lt. Surge uses a single, extremely powerful Pokémon that knows a strong Water-type move. The level cap is 24.
 
 ## V. Completed Operations
 - **Operation: Sea Sick for Cut**
