@@ -58,7 +58,7 @@
 - **Game Mechanic Note:** An NPC on the S.S. Anne B1F mentioned that the move STRENGTH can be used to move big rocks.
 
 ### Vermilion City
-- The building at (28,4) to (32,8) visually resembles a Pokémon Center but does not have a functional warp at its apparent entrance (29,7). It is likely a decoy.
+- The building at (10,14) is the Pokémon Fan Club.
 
 ## VI. Agent Ideas
 
