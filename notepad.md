@@ -29,6 +29,7 @@
     - All non-fainted party members share EXP.
 - **Field Moves & Navigation:**
     - DIG can be used to escape caves but **cannot be used in cities**.
+    - STRENGTH can be used to move big rocks (NPC hint).
     - **Unseen Tile Navigation:** To explore an unseen tile, you must navigate to a *traversable adjacent tile*, not the unseen tile itself. The `unseen_tile_navigator_agent` handles this automatically.
 - **Tool Limitations:**
     - `stun_npc` cannot be used on Pikachu (ID 15) or the player (ID 0).
@@ -36,11 +37,12 @@
 ## III. Agent Log
 ### Reliable Agents
 - **`pathfinder_agent`:** Returns the shortest path to a single coordinate. A `path_found: false` response is a critical and accurate indicator that the target is in an unreachable map segment.
-- **`unseen_tile_navigator_agent`:** Calculates the shortest path to the nearest 'Reachable Unseen Tile'. Essential for systematically exploring new areas.
+- **`unseen_tile_navigator_agent`:** Calculates the shortest path to the nearest 'Reachable Unseen Tile'. Essential for systematically exploring new areas, but should be used strategically, not for clearing non-essential side rooms.
 - **`battle_menu_navigator`:** Calculates the precise button sequence to navigate battle menus. (Used 5 times, seems reliable).
 ### Untested Agents
 - **`multi_map_route_planner_agent`**
-- **`tm_tutor_agent`**: Need to find a good TM to test this with soon.
+- **`tm_tutor_agent`**
+- **`ship_explorer_agent`**
 
 ## IV. Route & City Debriefs
 ### Cerulean City
@@ -53,10 +55,9 @@
 - An NPC mentioned that people often lose things in the Underground Path. This could be a hint for a hidden item.
 
 ## V. Current Tasks & Plans
-- **Primary Objective:** Explore the S.S. Anne to find the Captain and get HM01 (Cut).
-- **Method:** Use the `ship_explorer_agent` to systematically clear all floors and cabins.
-- **Secondary Objective:** Defeat all trainers on the S.S. Anne for EXP and to clear paths.
-- **Game Mechanic Note:** An NPC on the S.S. Anne B1F mentioned that the move STRENGTH can be used to move big rocks.
+- **Primary Objective:** Find the Captain on the S.S. Anne to get HM01 (Cut).
+- **Method:** The critical path is to find the stairs on the main decks to ascend. I will likely encounter my rival, Pixel, before reaching the Captain's quarters. The `ship_explorer_agent` may be useful for finding the most direct route.
+- **Secondary Objective:** Defeat all trainers on the S.S. Anne that block the critical path.
 
 ### Vermilion City
 - The building at (10,14) is the Pokémon Fan Club.
