@@ -62,3 +62,8 @@
   2. Catch a Diglett.
   3. Train CRAG, ECHO, and the new Diglett to Lv. 23.
 - **Strategy:** Lead with SPARKY vs. Pidgeotto. Use Diglett as a hard counter for Jolteon. CRAG walls Pidgeotto/Raticate. Evolved ECHO (Golbat) handles Kadabra.
+
+- **Menu Navigation Insights (from `menu_master_agent` failure):**
+  - Agents require explicit context (e.g., `current_menu_context`) to function correctly. They do not implicitly know the player's state.
+  - Party sub-menu cursors can have different default positions. The switch Pokémon sub-menu [STATS, SWITCH, CANCEL] defaults to 'STATS', not 'SWITCH'. This must be accounted for in navigation logic.
+  - **Strategic Triage:** For simple, non-recurring menu tasks, manual execution is more efficient than prolonged, in-the-moment agent debugging. Note the failure and refine the agent later.
