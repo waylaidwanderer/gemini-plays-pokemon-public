@@ -53,3 +53,6 @@
 - Current path: Route 6 -> Vermilion City.
 
 - **Reminder:** Before adding nodes/edges to the World Knowledge Graph, always check if they already exist to avoid errors.
+
+## VI. Navigation Rules & Corrections
+- **Unseen Tile Navigation:** To explore an unseen tile, you must navigate to a *traversable adjacent tile*, not the unseen tile itself. The `unseen_tile_navigator_agent` handles this automatically.
