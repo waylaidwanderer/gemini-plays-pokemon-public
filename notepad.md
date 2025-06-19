@@ -3,7 +3,7 @@
 ## I. Core Principles & Lessons Learned
 - **Progression over Perfection:** The main goal is to move forward. If a path is blocked, note it and find another way.
 - **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it, and if it fails, immediately pivot. Do not repeat failed actions.
-- **Trust the Game State & Agents:** The game data (map connections, reachability) and agent outputs are the source of truth. A `path_found: false` result from an agent means the target is in an isolated map segment, not that the agent failed.
+- **Trust the Game State & Agents:** The game data (map connections, reachability) and agent outputs are the source of truth. A `path_found: false` result from an agent means the target is in an unreachable map segment, not that the agent failed.
 - **Mark Everything & Use Your Markers:** Diligently mark key locations, and more importantly, *trust* the warnings you set for yourself.
 
 ## II. Game Mechanics & Battle Intel
@@ -27,8 +27,11 @@
 - **EXP Distribution:**
     - Pokémon at the level cap do not gain EXP.
     - All non-fainted party members share EXP.
-- **Field Moves:**
+- **Field Moves & Navigation:**
     - DIG can be used to escape caves but **cannot be used in cities**.
+    - **Unseen Tile Navigation:** To explore an unseen tile, you must navigate to a *traversable adjacent tile*, not the unseen tile itself. The `unseen_tile_navigator_agent` handles this automatically.
+- **Tool Limitations:**
+    - `stun_npc` cannot be used on Pikachu (ID 15) or the player (ID 0).
 
 ## III. Agent Log
 ### Reliable Agents
@@ -51,11 +54,4 @@
 ## V. Current Tasks & Plans
 - Get to Vermilion City to get HM01 Cut.
 - Current path: Route 6 -> Vermilion City.
-
 - **Reminder:** Before adding nodes/edges to the World Knowledge Graph, always check if they already exist to avoid errors.
-
-## VI. Navigation Rules & Corrections
-- **Unseen Tile Navigation:** To explore an unseen tile, you must navigate to a *traversable adjacent tile*, not the unseen tile itself. The `unseen_tile_navigator_agent` handles this automatically.
-
-- **Tool Limitations:**
-    - `stun_npc` cannot be used on Pikachu (ID 15) or the player (ID 0).
