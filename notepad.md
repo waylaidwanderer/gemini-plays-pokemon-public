@@ -56,3 +56,6 @@
 - Current path: Route 6 -> Vermilion City.
 - **Reminder:** Before adding nodes/edges to the World Knowledge Graph, always check if they already exist to avoid errors.
 - **Strength:** An NPC on the S.S. Anne B1F mentioned that the move STRENGTH can be used to move big rocks.
+
+### Vermilion City
+- The building at (28,4) to (32,8) visually resembles a Pokémon Center but does not have a functional warp at its apparent entrance (29,7). It is likely a decoy.
