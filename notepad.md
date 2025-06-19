@@ -28,7 +28,7 @@
     - `unseen_tile_navigator_agent`: Calculates the shortest path to the nearest 'Reachable Unseen Tile'.
     - `battle_menu_navigator`: Calculates the precise button sequence to navigate battle menus.
 - **Unreliable Agents:**
-    - `ship_explorer_agent`: Currently provides simplistic, unhelpful routes. Needs a major prompt overhaul to analyze the entire ship layout and prioritize ascending paths.
+    - `ship_explorer_agent`: Refined with a more strategic prompt to analyze the full S.S. Anne layout from the WKG and prioritize ascending paths. Remains untested.
 - **Untested Agents:**
     - `multi_map_route_planner_agent`
     - `tm_tutor_agent`: Need to remember to test this soon.
