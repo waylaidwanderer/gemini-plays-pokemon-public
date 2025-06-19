@@ -65,5 +65,3 @@
 ## VII. Item Log
 - **TMs Found:**
   - TM08 (BODYSLAM): Found in cabin (map_id: 102, (13,16)), accessed from S.S. Anne 1F (map_id: 95, (12,9)).
-
-- **Trainer Profiler:** Input a trainer class (e.g., 'Sailor') to get a summary of previously fought trainers of that class, including their Pokémon and potential movesets, based on my notepad logs.
