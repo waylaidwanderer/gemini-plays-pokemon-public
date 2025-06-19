@@ -8,6 +8,11 @@
 
 ## II. Game Mechanics & Battle Intel
 - **Type Matchups (Verified):**
+    - **Bug:**
+        - Not very effective (0.5x) vs. Fire (Charmander).
+    - **Electric:**
+        - Not very effective (0.5x) vs. Electric.
+        - Not very effective (0.5x) vs. Bug/Grass (Paras).
     - **Fire:**
         - Super-effective (2x) vs. Bug/Poison (Venonat).
     - **Grass:**
@@ -16,9 +21,6 @@
         - Super-effective (2x) vs. Grass.
     - **Psychic:**
         - Super-effective (2x) vs. Poison (Zubat).
-    - **Electric:**
-        - Not very effective (0.5x) vs. Electric.
-        - Not very effective (0.5x) vs. Bug/Grass (Paras).
 - **Status Effects:**
     - Confusion wears off after battle.
     - Poison-types are immune to poison.
