@@ -40,6 +40,7 @@
 - **`battle_menu_navigator`:** Calculates the precise button sequence to navigate battle menus. (Used 5 times, seems reliable).
 ### Untested Agents
 - **`multi_map_route_planner_agent`**
+- **`tm_tutor_agent`**: Need to find a good TM to test this with soon.
 
 ## IV. Route & City Debriefs
 ### Cerulean City
@@ -60,10 +61,8 @@
 ### Vermilion City
 - The building at (10,14) is the Pokémon Fan Club.
 
-## VI. Agent Ideas
-
-## VII. Item Log
+## VI. Item Log
 - **TMs Found:**
   - TM08 (BODYSLAM): Found in cabin (map_id: 102, (13,16)), accessed from S.S. Anne 1F (map_id: 95, (12,9)).
-
-- `tm_tutor_agent`: An agent to advise on which Pokémon should learn a specific TM, considering their current moveset, stats, and potential future utility.
+- **Key Items Found:**
+  - GOOD ROD: Received from Fishing Guru's brother in Vermilion City (map_id: 163, (3,5)).
