@@ -64,4 +64,4 @@
 
 ## VII. Item Log
 - **TMs Found:**
-  - TM08 (BODYSLAM): Found in a cabin on map 'SS Anne 1F Rooms' (ID 102), entered via the warp at (12,9) on map 'SS Anne 1F' (ID 95).
+  - TM08 (BODYSLAM): Found in cabin (map_id: 102, (13,16)), accessed from S.S. Anne 1F (map_id: 95, (12,9)).
