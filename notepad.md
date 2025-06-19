@@ -55,3 +55,5 @@
 - Get to Vermilion City to get HM01 Cut.
 - Current path: Route 6 -> Vermilion City.
 - **Reminder:** Before adding nodes/edges to the World Knowledge Graph, always check if they already exist to avoid errors.
+
+- **Strength:** An NPC on the S.S. Anne B1F mentioned that the move STRENGTH can be used to move big rocks.
