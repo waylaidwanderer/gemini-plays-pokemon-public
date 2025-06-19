@@ -52,10 +52,10 @@
 - An NPC mentioned that people often lose things in the Underground Path. This could be a hint for a hidden item.
 
 ## V. Current Tasks & Plans
-- Get to Vermilion City to get HM01 Cut.
-- Current path: Route 6 -> Vermilion City.
-- **Reminder:** Before adding nodes/edges to the World Knowledge Graph, always check if they already exist to avoid errors.
-- **Strength:** An NPC on the S.S. Anne B1F mentioned that the move STRENGTH can be used to move big rocks.
+- **Primary Objective:** Explore the S.S. Anne to find the Captain and get HM01 (Cut).
+- **Method:** Use the `ship_explorer_agent` to systematically clear all floors and cabins.
+- **Secondary Objective:** Defeat all trainers on the S.S. Anne for EXP and to clear paths.
+- **Game Mechanic Note:** An NPC on the S.S. Anne B1F mentioned that the move STRENGTH can be used to move big rocks.
 
 ### Vermilion City
 - The building at (28,4) to (32,8) visually resembles a Pokémon Center but does not have a functional warp at its apparent entrance (29,7). It is likely a decoy.
