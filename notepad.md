@@ -38,15 +38,16 @@
 | `progression_advisor_agent`    | ❓ Untested | Use when unsure about the next major story objective.                         |
 | `rival_battle_strategist_agent`| ❓ Untested | **Use after training.** Formulate a plan for the Pixel rematch.               |
 
-## IV. Operation: Rematch Revenge (vs. Rival Pixel)
-- **Status:** Team is healed. Next step is training.
+## IV. Operation: Sea Sick for Cut
+- **Objective:** Obtain HM01 (Cut) from the S.S. Anne Captain. The Vermilion Gym is inaccessible without it.
+- **Obstacle:** Rival Pixel is blocking the path to the Captain's quarters on the S.S. Anne. He must be defeated.
+- **Status:** Team is healed. Ready to board the S.S. Anne and begin training/exploration.
 - **Training Plan:**
-    - **Location:** Route 11 & Diglett's Cave entrance.
-    - **Target Level:** 24 for all active party members.
-    - **Strategy:** Use `pokemon_training_advisor_agent` to determine the most efficient matchups and training order for each Pokémon.
-- **Battle Plan (vs. Pixel):**
+    - **Location:** Trainers aboard the S.S. Anne will be the primary source of EXP.
+    - **Target Level:** 24 for all active party members before facing Pixel.
+- **Battle Plan (vs. Pixel on S.S. Anne):**
     - **Team:** SPARKY (Lv24), CRAG (Lv24), NIGHTSHADE (Lv24), ECHO (Lv24), SUBTERRA (Lv24), PULSAR (Lv24).
-    - **Strategy:** Lead with SPARKY vs. Pidgeotto. Use SUBTERRA as a hard counter for Jolteon. CRAG walls Pidgeotto/Raticate. Evolved ECHO (Golbat) handles Kadabra. Refine this with `rival_battle_strategist_agent` after training.
+    - **Strategy:** Lead with SPARKY vs. Pidgeotto. Use SUBTERRA as a hard counter for Jolteon. CRAG walls Pidgeotto/Raticate. Evolved ECHO (Golbat) handles Kadabra. This plan will be refined with `rival_battle_strategist_agent` after training is complete.
 
 ## V. Discoveries & Points of Interest
 - **Underground Path (Route 5 to 6):** An NPC mentioned that people often lose things here. Could be a hint for a hidden item.
