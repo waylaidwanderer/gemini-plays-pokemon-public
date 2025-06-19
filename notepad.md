@@ -67,3 +67,5 @@
 
 ## VII. System Mechanics & Quirks
 - **Input Restriction:** The system does NOT allow mixing directional buttons (Up, Down, Left, Right) and action buttons (A, B) in the same `buttons_to_press` array for a single turn. Battle menu navigation must be done one *type* of button press per turn (e.g., all directional presses in one turn, all action presses in another).
+
+- **Respawning Obstacles:** Cuttable trees respawn after changing maps (e.g., entering/leaving a building).
