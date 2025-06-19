@@ -69,3 +69,6 @@
   - GOOD ROD: Received from Fishing Guru's brother in Vermilion City (map_id: 163, (3,5)).
 
 - **S.S. Anne Departure:** A Super Nerd on the bow warned that the ship will be departing soon. This adds urgency to finding the Captain.
+
+## VII. Event Triggers & Progression Logic
+- **Movement-Based Triggers:** Some key events, like the rival battle on the S.S. Anne bow, are triggered by moving to a specific area, not by talking to NPCs. Wasting time on non-essential dialogue is inefficient.
