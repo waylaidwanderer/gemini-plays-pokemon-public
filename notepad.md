@@ -43,3 +43,5 @@
   - TM08 (BODYSLAM): Found in cabin (map_id: 102, (13,16)).
 - **Key Items Found:**
   - GOOD ROD: Received from Fishing Guru's brother in Vermilion City (map_id: 163, (3,5)).
+
+- **S.S. Anne Intel:** The Captain is sick and pale. This is likely why he's in his cabin and needs help.
