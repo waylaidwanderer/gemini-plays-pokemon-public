@@ -65,3 +65,5 @@
 ## VII. Item Log
 - **TMs Found:**
   - TM08 (BODYSLAM): Found in cabin (map_id: 102, (13,16)), accessed from S.S. Anne 1F (map_id: 95, (12,9)).
+
+- `tm_tutor_agent`: An agent to advise on which Pokémon should learn a specific TM, considering their current moveset, stats, and potential future utility.
