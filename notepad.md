@@ -1,6 +1,7 @@
 # Gem's Strategic Journal
 
 ## I. Core Principles & Lessons Learned
+- **Triage & Prioritize:** Critical needs (like healing a near-fainted party) ALWAYS come before routine admin.
 - **Progression over Perfection:** The critical path is key. Don't get bogged down if the main objective is elsewhere.
 - **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it, and if it fails, immediately pivot. Do not repeat failed actions.
 - **Trust the Game State & Agents:** The game data and agent outputs are the source of truth.
@@ -27,25 +28,25 @@
 ## III. Agent Log & Action Plan
 | Agent Name                     | Status     | Action Item                                                                 |
 |--------------------------------|------------|-----------------------------------------------------------------------------|
-| `pathfinder_agent`             | ✅ Reliable | Use for direct navigation to a known coordinate.                              |
+| `pathfinder_agent`             | ✅ Reliable | Use for complex navigation. Avoid for simple, straight-line paths.          |
 | `unseen_tile_navigator_agent`  | ✅ Reliable | Use for systematic exploration of unseen tiles.                             |
 | `battle_menu_navigator`        | ✅ Reliable | Use for all complex menu navigation in battles.                               |
 | `tm_tutor_agent`               | ✅ Reliable | Use for TM/HM decisions.                                                    |
-| `pokemon_training_advisor_agent`| ✅ Reliable | Use to find optimal training spots before major battles.                       |
+| `pokemon_training_advisor_agent`| ❓ Untested | **Use IMMEDIATELY.** Formulate training plan for Route 11.                   |
 | `ship_explorer_agent`          | ❓ Untested | Test when I return to the S.S. Anne to find the Captain.                      |
 | `multi_map_route_planner_agent`| ❓ Untested | Test when planning a multi-map journey.                                     |
 | `progression_advisor_agent`    | ❓ Untested | Use when unsure about the next major story objective.                         |
 | `rival_battle_strategist_agent`| ❓ Untested | **Use after training.** Formulate a plan for the Pixel rematch.               |
-| `pokemon_training_advisor_agent`| ❓ Untested | Use to find optimal training spots before major battles.                       |
 
-## IV. Current Objective: Operation Rematch Revenge (vs. Rival Pixel)
-- **Primary Goal:** Heal my party at the Vermilion City Pokémon Center.
-- **Secondary Goal:** Defeat Rival Pixel on the S.S. Anne to obtain HM01 (Cut).
-- **Tertiary Goal:** Explore the eastern part of Route 11 after healing.
-- **Status:** Team acquired. Immediate priority is healing, then training the team to Lv. 23-24.
-- **Strategy:**
-    - **Team:** SPARKY (Lv24), CRAG (Lv23), NIGHTSHADE (Lv22), ECHO (Lv23), SUBTERRA (Lv23), PULSAR (Lv23).
-    - **Plan:** Lead with SPARKY vs. Pidgeotto. Use SUBTERRA as a hard counter for Jolteon. CRAG walls Pidgeotto/Raticate. Evolved ECHO (Golbat) handles Kadabra.
+## IV. Operation: Rematch Revenge (vs. Rival Pixel)
+- **Status:** Team is healed. Next step is training.
+- **Training Plan:**
+    - **Location:** Route 11 & Diglett's Cave entrance.
+    - **Target Level:** 24 for all active party members.
+    - **Strategy:** Use `pokemon_training_advisor_agent` to determine the most efficient matchups and training order for each Pokémon.
+- **Battle Plan (vs. Pixel):**
+    - **Team:** SPARKY (Lv24), CRAG (Lv24), NIGHTSHADE (Lv24), ECHO (Lv24), SUBTERRA (Lv24), PULSAR (Lv24).
+    - **Strategy:** Lead with SPARKY vs. Pidgeotto. Use SUBTERRA as a hard counter for Jolteon. CRAG walls Pidgeotto/Raticate. Evolved ECHO (Golbat) handles Kadabra. Refine this with `rival_battle_strategist_agent` after training.
 
 ## V. Discoveries & Points of Interest
 - **Underground Path (Route 5 to 6):** An NPC mentioned that people often lose things here. Could be a hint for a hidden item.
