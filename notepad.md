@@ -51,3 +51,5 @@
   - TM08 (BODYSLAM): Found in cabin (map_id: 102, (13,16)).
 - **Key Items Found:**
   - GOOD ROD: Received from Fishing Guru's brother in Vermilion City (map_id: 163, (3,5)).
+
+- **HM Usage:** A fainted Pokémon can still use field moves like CUT (Hint from Scientist in Route 2 Trade House).
