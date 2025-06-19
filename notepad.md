@@ -28,9 +28,11 @@
 | `pathfinder_agent`             | ✅ Reliable | Use for direct navigation to a known coordinate.                              |
 | `unseen_tile_navigator_agent`  | ✅ Reliable | Use for systematic exploration of unseen tiles.                             |
 | `battle_menu_navigator`        | ✅ Reliable | Use for all complex menu navigation in battles.                               |
-| `ship_explorer_agent`          | ❓ Untested | **IMMEDIATE PRIORITY:** Test after this battle to find the Captain.         |
-| `tm_tutor_agent`               | ❓ Untested | **IMMEDIATE PRIORITY:** Use after this battle to decide who learns TM08.    |
+| `tm_tutor_agent`               | ✅ Reliable | Use for TM/HM decisions.                                                    |
+| `ship_explorer_agent`          | ❓ Untested | Test when I return to the S.S. Anne to find the Captain.                      |
 | `multi_map_route_planner_agent`| ❓ Untested | Test when planning a multi-map journey.                                     |
+| `progression_advisor_agent`    | ❓ Untested | Use when unsure about the next major story objective.                         |
+| `menu_master_agent`            | ❓ Untested | **IMMEDIATE PRIORITY:** Use for all non-battle menu navigation (PC, items). |
 
 ## IV. Progression Log & Current Plans
 - **S.S. Anne Strategy:**
