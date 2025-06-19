@@ -47,14 +47,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"map_route\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reason\":{\"type\":\"string\"}},\"required\":[\"path_found\",\"map_route\",\"reason\"]}",
     "agent_can_run_code": true
   },
-  "type_matchup_advisor_agent": {
-    "agent_name": "type_matchup_advisor_agent",
-    "agent_description": "Provides detailed type matchup analysis for a given Pokémon's type(s), including weaknesses, resistances, and immunities based on verified in-game interactions.",
-    "agent_system_prompt": "You are a Pokémon Professor specializing in type matchups for the Pokémon Yellow Legacy ROM hack. Your knowledge is based *only* on the provided list of verified matchups. Analyze the input Pokémon type(s) and return a structured list of weaknesses (takes 2x or 4x damage), resistances (takes 0.5x or 0.25x damage), and immunities (takes 0x damage). If a matchup is not in your verified list, explicitly state that it is 'Unknown'. Do not guess or assume matchups from other Pokémon games. Your goal is to build an accurate type chart based *only* on what has been observed in this specific game. Verified Matchups: Grass is 4x vs Rock/Ground. Electric is 0.5x vs Electric. Electric is 0.5x vs Bug/Grass. Ice is 2x vs Grass. Poison-type is immune to Poison status. Ghost moves are 2x vs Psychic.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"pokemon_name\",\"type1\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"weaknesses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"resistances\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"immunities\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"unknown_matchups\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"summary\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\",\"weaknesses\",\"resistances\",\"immunities\",\"unknown_matchups\",\"summary\"]}",
-    "agent_can_run_code": false
-  },
   "ship_explorer_agent": {
     "agent_name": "ship_explorer_agent",
     "agent_description": "Analyzes a complex, multi-floor location (like the S.S. Anne) to generate an optimal route visiting all unvisited cabins and important areas.",
