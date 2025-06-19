@@ -31,7 +31,7 @@
 | `unseen_tile_navigator_agent`  | ✅ Reliable | Use for systematic exploration of unseen tiles.                             |
 | `battle_menu_navigator`        | ✅ Reliable | Use for all complex menu navigation in battles.                               |
 | `tm_tutor_agent`               | ✅ Reliable | Use for TM/HM decisions.                                                    |
-| `menu_master_agent`            | ⚠️ Flawed   | **Refine Later.** Needs better context handling and sub-menu logic.           |
+| `pokemon_training_advisor_agent`| ✅ Reliable | Use to find optimal training spots before major battles.                       |
 | `ship_explorer_agent`          | ❓ Untested | Test when I return to the S.S. Anne to find the Captain.                      |
 | `multi_map_route_planner_agent`| ❓ Untested | Test when planning a multi-map journey.                                     |
 | `progression_advisor_agent`    | ❓ Untested | Use when unsure about the next major story objective.                         |
