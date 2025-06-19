@@ -1,11 +1,12 @@
 # Gem's Strategic Journal
 
 ## I. Core Principles & Lessons Learned
-- **Progression over Perfection:** Prioritize main thoroughfares and staircases. The critical path is key.
+- **Progression over Perfection:** The critical path is key. Don't get bogged down in side rooms if the main objective is elsewhere.
 - **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it, and if it fails, immediately pivot. Do not repeat failed actions.
 - **Trust the Game State & Agents:** The game data and agent outputs are the source of truth.
 - **Mark Everything & Use Your Markers:** Diligently mark key locations and trust the warnings you set for yourself.
 - **Event Triggers:** Key events (like the rival battle) are mandatory progression gates and must be prioritized.
+- **Strategic Triage:** For simple, non-recurring tasks, manual execution is more efficient than prolonged, in-the-moment agent debugging. Note the failure and refine the agent later.
 
 ## II. Game Mechanics & Battle Intel
 - **Type Matchups (Verified):**
@@ -20,7 +21,7 @@
 - **Field Moves & Navigation:**
     - DIG can be used to escape caves but **cannot be used in cities**.
     - STRENGTH can be used to move big rocks (NPC hint).
-    - **Unseen Tile Navigation:** To explore an unseen tile, you must navigate to a *traversable adjacent tile*, not the unseen tile itself. The `unseen_tile_navigator_agent` handles this automatically.
+    - **Dead End Definition:** An area is a 'dead end' ONLY if there is one reachable exit path (a single warp/warp group or map connection). An area with two or more exits is a thoroughfare.
 
 ## III. Agent Log & Action Plan
 | Agent Name                     | Status     | Action Item                                                                 |
@@ -32,17 +33,16 @@
 | `ship_explorer_agent`          | ❓ Untested | Test when I return to the S.S. Anne to find the Captain.                      |
 | `multi_map_route_planner_agent`| ❓ Untested | Test when planning a multi-map journey.                                     |
 | `progression_advisor_agent`    | ❓ Untested | Use when unsure about the next major story objective.                         |
-| `menu_master_agent`            | ❓ Untested | **IMMEDIATE PRIORITY:** Use for all non-battle menu navigation (PC, items). |
+| `menu_master_agent`            | ⚠️ Flawed   | **Refine Later.** Needs better context handling and sub-menu logic.           |
+| `rival_battle_strategist_agent`| ❓ Untested | **Use after training.** Formulate a plan for the Pixel rematch.               |
 
 ## IV. Progression Log & Current Plans
-- **S.S. Anne Strategy:**
-  - **Priority 1: Defeat Rival Pixel.** This battle is a mandatory event blocking access to the Captain.
-  - **Priority 2: Find the Captain.** He is sick and in his cabin. Obtaining HM01 (Cut) from him is the main objective.
-  - The ship is departing soon, adding urgency.
-- **Current Battle Plan (vs. Rival Pixel):**
-  - **Opponent:** Raticate (Lv20)
-  - **Active Pokémon:** Sparky (Lv24)
-  - **Strategy:** Use THUNDERPUNCH for maximum damage.
+- **Operation: Rematch Revenge (vs. Rival Pixel)**
+  - **Objective:** Defeat Rival Pixel on the S.S. Anne to get to the Captain and obtain HM01 (Cut).
+  - **Urgency:** The ship is departing soon.
+  - **Recommended Team:** SPARKY (Lv24), CRAG (Lv23), NIGHTSHADE (Lv22), ECHO (Lv23), a new Diglett (Lv23), PULSAR (Lv23).
+  - **Current Status:** Team acquired. Immediate priority is healing the party, then training CRAG, ECHO, and SUBTERRA to Lv. 23.
+  - **Strategy:** Lead with SPARKY vs. Pidgeotto. Use Diglett as a hard counter for Jolteon. CRAG walls Pidgeotto/Raticate. Evolved ECHO (Golbat) handles Kadabra.
 - **Underground Path (Route 5 to 6):** An NPC mentioned that people often lose things here. Could be a hint for a hidden item.
 - **Vermilion City:** The building at (10,14) is the Pokémon Fan Club.
 
@@ -51,19 +51,3 @@
   - TM08 (BODYSLAM): Found in cabin (map_id: 102, (13,16)).
 - **Key Items Found:**
   - GOOD ROD: Received from Fishing Guru's brother in Vermilion City (map_id: 163, (3,5)).
-
-- **Dead End Definition:** An area is considered a 'dead end' if there is only one reachable exit path (a single warp/warp group or map connection). An area with two or more exits is a thoroughfare. My previous assumption was incorrect.
-
-## VI. Operation: Rematch Revenge (vs. Rival Pixel)
-- **Source:** `team_composition_advisor_agent`
-- **Recommended Team:** SPARKY (Lv24), CRAG (Lv23), NIGHTSHADE (Lv22), ECHO (Lv23), Diglett (Lv23), PULSAR (Lv23).
-- **Immediate Actions:**
-  1. Travel to Diglett's Cave.
-  2. Catch a Diglett.
-  3. Train CRAG, ECHO, and the new Diglett to Lv. 23.
-- **Strategy:** Lead with SPARKY vs. Pidgeotto. Use Diglett as a hard counter for Jolteon. CRAG walls Pidgeotto/Raticate. Evolved ECHO (Golbat) handles Kadabra.
-
-- **Menu Navigation Insights (from `menu_master_agent` failure):**
-  - Agents require explicit context (e.g., `current_menu_context`) to function correctly. They do not implicitly know the player's state.
-  - Party sub-menu cursors can have different default positions. The switch Pokémon sub-menu [STATS, SWITCH, CANCEL] defaults to 'STATS', not 'SWITCH'. This must be accounted for in navigation logic.
-  - **Strategic Triage:** For simple, non-recurring menu tasks, manual execution is more efficient than prolonged, in-the-moment agent debugging. Note the failure and refine the agent later.
