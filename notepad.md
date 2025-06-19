@@ -56,3 +56,6 @@
 
 ## VI. Navigation Rules & Corrections
 - **Unseen Tile Navigation:** To explore an unseen tile, you must navigate to a *traversable adjacent tile*, not the unseen tile itself. The `unseen_tile_navigator_agent` handles this automatically.
+
+- **Tool Limitations:**
+    - `stun_npc` cannot be used on Pikachu (ID 15) or the player (ID 0).
