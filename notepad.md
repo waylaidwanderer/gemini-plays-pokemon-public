@@ -52,7 +52,7 @@
 - **Key Items Found:**
   - GOOD ROD: Received from Fishing Guru's brother in Vermilion City (map_id: 163, (3,5)).
 
-- **Dead End Definition:** An area is considered a 'dead end' if there is only one reachable exit (a single warp/warp group or map connection). My previous assumption was incorrect.
+- **Dead End Definition:** An area is considered a 'dead end' if there is only one reachable exit path (a single warp/warp group or map connection). An area with two or more exits is a thoroughfare. My previous assumption was incorrect.
 
 ## VI. Operation: Rematch Revenge (vs. Rival Pixel)
 - **Source:** `team_composition_advisor_agent`
