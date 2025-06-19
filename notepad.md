@@ -4,7 +4,7 @@
 - SPROUT (Gloom): Lv24
 - PIP (Pidgeotto): Lv24
 - THISTLE (Nidoran♀): Lv16
-- PARCH (Sandshrew): Lv21
+- PARCH (Sandslash): Lv22
 
 # 2. Game Mechanics & World Insights
 - **Level Cap:** Fake EXP gain message at cap; EXP value doesn't change.
@@ -13,6 +13,8 @@
   - Defeated trainers remain as impassable obstacles.
   - Diglett's Cave connects Route 11 (Vermilion) to Route 2 (Pewter).
   - Cuttable trees respawn after changing maps.
+  - **WKG Node IDs:**
+    - Vermilion City East Entrance (from Route 11): 2c1fc924-efe9-4559-8c7a-902cf94ef665
 - **HM Flash:** An Aide of Prof. Oak on Route 2 gives it if you have caught 10 different Pokémon.
 - **HM Cut:** Received from the Captain of the S.S. Anne.
 - **Status Effects:**
@@ -46,6 +48,3 @@
 # 5. Procedural Reminders & Self-Correction
 - **(CHECKLIST):** Before starting a new major action (like training or entering a dungeon), check the status of all party members first.
 - **(NAVIGATION):** For simple, small, fully-explored rooms (like a Pokémon Center), navigate manually. Do not overuse the pathfinder agent.
-
-# 6. World Knowledge Graph Node IDs
-- Vermilion City East Entrance (from Route 11): 2c1fc924-efe9-4559-8c7a-902cf94ef665
