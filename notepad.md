@@ -67,3 +67,5 @@
   - TM08 (BODYSLAM): Found in cabin (map_id: 102, (13,16)), accessed from S.S. Anne 1F (map_id: 95, (12,9)).
 - **Key Items Found:**
   - GOOD ROD: Received from Fishing Guru's brother in Vermilion City (map_id: 163, (3,5)).
+
+- **S.S. Anne Departure:** A Super Nerd on the bow warned that the ship will be departing soon. This adds urgency to finding the Captain.
