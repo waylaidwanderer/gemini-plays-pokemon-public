@@ -36,7 +36,7 @@
 | `ship_explorer_agent`          | ❓ Untested | Test when I return to the S.S. Anne to find the Captain.                      |
 | `multi_map_route_planner_agent`| ❓ Untested | Test when planning a multi-map journey.                                     |
 | `progression_advisor_agent`    | ❓ Untested | Use when unsure about the next major story objective.                         |
-| `rival_battle_strategist_agent`| ❓ Untested | **Use after training.** Formulate a plan for the Pixel rematch.               |
+| `rival_battle_strategist_agent`| ❓ Untested | **Create & use BEFORE next rival battle.** Proactive planning is more effective. |
 
 ## IV. Operation: Sea Sick for Cut
 - **Objective:** Obtain HM01 (Cut) from the S.S. Anne Captain. The Vermilion Gym is inaccessible without it.
