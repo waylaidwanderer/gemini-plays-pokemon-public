@@ -46,3 +46,5 @@
 
 # 6. Major Strategic Blunders & Corrections
 - **(FAILURE LOG): Inefficient Status Recovery:** I wasted a significant number of turns waiting for PARCH's 'Sleep' status to wear off inside Diglett's Cave. **Correction:** Curing status conditions at a Pokémon Center is always the most efficient method and should be the immediate priority when a key party member is incapacitated.
+
+- **Navigation & Key Items (UPDATE):** Cuttable trees respawn after changing maps. (Confirmed in Vermilion City after returning from Route 11).
