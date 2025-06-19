@@ -48,3 +48,7 @@
 - **(FAILURE LOG): Inefficient Status Recovery:** I wasted a significant number of turns waiting for PARCH's 'Sleep' status to wear off inside Diglett's Cave. **Correction:** Curing status conditions at a Pokémon Center is always the most efficient method and should be the immediate priority when a key party member is incapacitated.
 
 - **Navigation & Key Items (UPDATE):** Cuttable trees respawn after changing maps. (Confirmed in Vermilion City after returning from Route 11).
+
+# 7. Procedural Reminders & Self-Correction
+- **(CHECKLIST):** Before starting a new major action (like training or entering a dungeon), check the status of all party members first. (Corrective action for the PARCH 'Sleep' incident).
+- **(NAVIGATION):** For simple, small, fully-explored rooms (like a Pokémon Center), navigate manually. Do not use the pathfinder agent for trivial movements, as it can lead to targeting errors. (Corrective action for the Nurse interaction failure).
