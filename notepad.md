@@ -22,7 +22,7 @@
 - **Field Moves & Navigation:**
     - DIG can be used to escape caves but **cannot be used in cities**.
     - STRENGTH can be used to move big rocks (NPC hint).
-    - CUT can be used by a fainted Pokémon (NPC hint).
+    - CUT: Interacting with a cuttable tree prompts the use of the move. Using the HM from the item bag is only a shortcut to the teaching menu.
     - **Dead End Definition:** An area is a 'dead end' ONLY if there is one reachable exit path. An area with two or more exits is a thoroughfare.
 
 ## III. Agent Log & Action Plan
