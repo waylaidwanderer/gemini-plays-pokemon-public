@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"pokemon_name\",\"type1\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"weaknesses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"resistances\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"immunities\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"unknown_matchups\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"summary\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\",\"weaknesses\",\"resistances\",\"immunities\",\"unknown_matchups\",\"summary\"]}",
     "agent_can_run_code": false
-  },
-  "pokedex_completeness_checker": {
-    "agent_name": "pokedex_completeness_checker",
-    "agent_description": "Analyzes the player's caught Pokémon list against a list of known wild encounters for a specific map and reports which species are still missing.",
-    "agent_system_prompt": "You are a Pokédex assistant. Your task is to compare two lists of Pokémon names: the player's 'caught_pokemon' list and the 'known_encounters' for a specific map. You must identify and list only the Pokémon that appear in 'known_encounters' but are NOT in 'caught_pokemon'. Your output must be a JSON object containing a list of the names of the missing Pokémon.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"caught_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"known_encounters\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"caught_pokemon\",\"known_encounters\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"missing_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"missing_pokemon\"]}",
-    "agent_can_run_code": false
   }
 }
