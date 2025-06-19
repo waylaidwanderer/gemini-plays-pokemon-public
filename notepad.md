@@ -58,3 +58,6 @@
   - GOOD ROD: Received from Fishing Guru's brother in Vermilion City (map_id: 163, (3,5)).
 
 - **Hypothesis:** Stun Spore may not work on Poison-type Pokémon in this ROM hack. Need to test this on another Poison-type to verify if it's a mechanic or just a miss.
+
+## VI. System Mechanics & Quirks
+- **Input Restriction:** The system does NOT allow mixing directional buttons (Up, Down, Left, Right) and action buttons (A, B) in the same `buttons_to_press` array for a single turn. This contradicts AI critiques about 'batching commands.' The system warning is the source of truth. Battle menu navigation must be done one *type* of button press per turn (e.g., all directional presses in one turn, all action presses in another).
