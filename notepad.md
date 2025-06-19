@@ -69,3 +69,5 @@
 - **Input Restriction:** The system does NOT allow mixing directional buttons (Up, Down, Left, Right) and action buttons (A, B) in the same `buttons_to_press` array for a single turn. Battle menu navigation must be done one *type* of button press per turn (e.g., all directional presses in one turn, all action presses in another).
 
 - **Respawning Obstacles:** Cuttable trees respawn after changing maps (e.g., entering/leaving a building).
+
+- **Pathfinder Agent Post-Mortem:** The agent was correct all along. My repeated attempts to path to a tile *behind* an impassable obstacle (the respawned tree) were the source of the 'path not found' errors. This was a critical user error, not a tool failure. Lesson: Always verify the target tile is reachable *before* pathing, and trust the agent's negative results as valid information about the game state.
