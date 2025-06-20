@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v7.0)
+# Gem's Strategic Journal (v7.1)
 
 ## I. Core Principles & Lessons Learned
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
@@ -28,20 +28,20 @@
 ## III. AI Observer Critiques & Action Plan
 - **Critique (Turn 15661):** Wasted time trying to fix navigation agents on Route 6 instead of prioritizing the main quest.
 - **Critique (Turn 15780):** Repeatedly providing incorrect data to agents, wasting time. Mindset of abandoning tools instead of refining them is a major strategic flaw.
+- **Critique (Turn 15930):** Reactive exploration; assuming maps are clear without checking 'Reachable Unseen Tiles'. Unused `battle_move_advisor_agent`. Redundant notepad entries.
 - **Action Plan:**
     1. **IMMEDIATE:** Prioritize accurate data entry for all agent calls. Trust the Game State information as the absolute source of truth.
     2. **IMMEDIATE:** Complete the full exploration of Route 11, defeating all trainers and identifying the eastern blockage.
     3. **IMMEDIATE:** After Route 11 is clear, proceed with the Primary Goal: Obtain HM05 (Flash).
+    4. **NEW:** Test `battle_move_advisor_agent` in the next suitable wild encounter.
 
 ## IV. Current Actionable Objectives (REVISED)
 - **Primary Goal:** Obtain HM05 (Flash). **Plan:** After clearing Route 11, enter Diglett's Cave. Traverse the cave to reach the isolated southern part of Route 2 where the aide with Flash is located.
 - **Secondary Goal:** Acquire a drink for the Saffron City guard. **Plan:** Investigate the Celadon Dept. Store for a drink item (long-term objective).
-- **Tertiary Goal:** Investigate the Machop in Vermilion City. **Plan:** Revisit the Machop after acquiring more badges or completing major story events.
+- **Tertiary Goal:** Fully explore all routes accessible from my current location. **Plan:** Systematically clear each route of trainers, items, and unseen tiles before moving on.
 
 ## V. Key Discoveries & Navigational Lessons
 - **CRITICAL NAVIGATION LESSON:** Route 2 is segmented. The Diglett's Cave exit at (13, 11) leads to a small, isolated northern section. Do not use Diglett's Cave as a shortcut to Viridian Forest.
-- **TMs Found:** TM08 (BODYSLAM), TM24 (THUNDERBOLT).
-- **Key Items Found:** GOOD ROD, HM01 (CUT).
 - **Lt. Surge's Raichu (Lv. 29):** Knows Body Slam and Surf.
 - **Recurring Obstacles:** The tree at (16, 19) in Vermilion City respawns.
 
