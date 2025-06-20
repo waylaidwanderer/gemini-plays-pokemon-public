@@ -70,3 +70,5 @@
 - **Rock Tunnel Progression:** Assumed to be the only path forward. The thirsty guard on Route 5 might be passable another way.
 - **Vermilion Machop:** Assumed to be flavor text, but could be a side quest trigger.
 - **Thirsty Guard Item:** Assumed to be from Celadon City, but could be available elsewhere sooner.
+
+- **Map Connectivity:** Shortcuts like Diglett's Cave might not lead to the expected section of a map. Always verify connectivity with the World Knowledge Graph or by exploring before committing to a long route.
