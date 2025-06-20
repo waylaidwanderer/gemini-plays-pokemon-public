@@ -3,7 +3,7 @@
 ## I. Core Principles & Lessons Learned
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
 - **Progression over Perfection:** The critical path is key. Don't get bogged down if the main objective is elsewhere.
-- **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it, and if it fails, immediately pivot. Do not repeat failed actions.
+- **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it, and if it fails, immediately pivot. Do not repeat failed actions. My failure on the Eevee puzzle (wasting dozens of turns) is a key example. If 2-3 distinct hypotheses fail, abandon the objective.
 - **Consult WKG & Agents for Route Planning:** Before any multi-map journey, use the `multi_map_route_planner_agent` and consult the WKG to verify connectivity. Do not assume 'shortcuts' work as expected.
 - **Trust Agent Output:** When an agent (especially `pathfinder_agent`) reports "no path found," trust it. Re-evaluate my understanding of the map instead of repeating the failed request.
 - **Mark Everything & Use Your Markers:** Diligently mark key locations and trust the warnings you set for yourself.
@@ -38,9 +38,8 @@
 | `progression_advisor_agent`    | ✅ Reliable           | **Use proactively** when entering new areas to confirm objectives.          |
 | `multi_map_route_planner_agent`| ✅ Reliable           | Logic for non-contiguous maps now refined. Monitor for new edge cases.      |
 | `rival_battle_strategist_agent`| ✅ Reliable           | **Use BEFORE next rival battle.** Proactive planning is more effective.      |
-| `hm_mule_finder_agent`         | ❓ Untested           | **Test before next HM use** to validate its recommendations.                |
-| `evolution_advisor_agent`      | ✅ Reliable           | **Test soon** to help plan long-term party development.                     |
-| `pokemon_training_advisor_agent`| ❓ Untested           | **Test before next major battle** to formulate training plans.                |
+| `evolution_advisor_agent`      | ❓ Untested           | **Test soon** to help plan long-term party development.                     |
+| `training_hotspot_agent`| ❓ Untested           | **Test before next major battle** to formulate training plans.                |
 
 ## IV. Current Actionable Objectives
 - **Objective:** Acquire HM05 (Flash). **Plan:** Travel through Diglett's Cave (accessible from Route 11, east of Vermilion City). The cave exits to the southern, previously inaccessible part of Route 2. The aide's house is located there, likely requiring Cut.
@@ -57,6 +56,3 @@
 ## VI. Open Questions & Assumptions to Test
 - **EXP. All Mechanics:** The EXP distribution seems inconsistent. It might not be a true 'All'. **Hypothesis:** Only the active Pokémon and the Pokémon that started the battle get EXP. **Test:** Need to observe a battle from start to finish and check the EXP of all six party members.
 - **Route 11 East Blockage:** I assume a Snorlax blocks the path east, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
-
-## VII. Future Agent Ideas
-- `training_hotspot_agent`: An advanced version of the training advisor that could analyze my party's types and levels against all known wild encounter data to recommend the absolute most efficient grinding location on the world map.
