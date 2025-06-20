@@ -58,3 +58,5 @@
 - **Route 11 East Blockage:** I assume a Snorlax blocks the path east, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
 
 - The girl in the Route 6 Underground Path gatehouse mentioned people lose things in the tunnel. This could be a hint for a hidden item.
+
+- **Trainer Battle Initiation:** Some trainers (e.g., Cool Trainer F on Route 6) do not automatically initiate a battle when you enter their line of sight. Manual interaction by facing them and pressing 'A' is required.
