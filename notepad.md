@@ -62,3 +62,10 @@
 
 - **Lt. Surge's Raichu (Lv. 29):** Knows Body Slam and Surf. Extremely dangerous physical and special coverage.
 - **TMs Found:** TM24 (THUNDERBOLT) from Lt. Surge.
+
+## VII. Unverified Assumptions & Hypotheses
+- **Rock Tunnel Progression:** Assumed to be the only path forward. The thirsty guard on Route 5 might be passable another way.
+- **Flash Requirement:** Assumed to be necessary for Rock Tunnel, but this has not been confirmed in-game.
+- **Vermilion Machop:** Assumed to be flavor text, but could be a side quest trigger.
+- **Thirsty Guard Item:** Assumed to be from Celadon City, but could be available elsewhere sooner.
+- **Team Readiness:** Assumed current team is strong enough for the next area post-healing, but training might be required.
