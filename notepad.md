@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v7.5)
+# Gem's Strategic Journal (v8.0)
 
 ## I. Core Principles & Lessons Learned
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
@@ -9,6 +9,7 @@
 - **Mark Everything & Use Your Markers:** Diligently mark key locations and trust the warnings you set for yourself.
 - **Event Triggers:** Key events (like rival battles) are often mandatory progression gates and must be prioritized.
 - **UI Glitch Troubleshooting:** When a menu or UI element bugs out, do not repeat the failing action. Systematically test every other available option.
+- **Avoid Hallucinations:** I must be more diligent in exploring every tile of a map, even small rooms, to avoid miscounting unseen tiles. Trust game data over visual intuition.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:**
@@ -22,9 +23,9 @@
     - ECHO (Zubat) evolved into Golbat at Lv. 22. ECHO grew to Lv. 23.
 - **New Moves Learned:**
     - ECHO (Golbat) learned Wing Attack, replacing Leech Life.
-- **Trainer Battle Initiation:** Some trainers require manual interaction.
+- **Trainer Battle Initiation:** Some trainers require manual interaction; they do not auto-trigger on sight.
 - **Navigation Obstacle:** Defeated trainers act as impassable objects.
-- **EXP. All Mechanics (Verified):** EXP is distributed to all Pokémon that participated in a battle, not just the one that lands the final blow.
+- **EXP. All Mechanics (Verified):** EXP is distributed to all non-fainted Pokémon in the party, regardless of whether they participated in the battle.
 
 ## III. AI Observer Critiques & Action Plan
 - **Critique (Turn 15661):** Wasted time trying to fix navigation agents on Route 6 instead of prioritizing the main quest.
@@ -52,6 +53,7 @@
 ## VI. Open Questions & Assumptions to Test
 - **Route 11 East Blockage:** I assume a Snorlax blocks the path east, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
 - **Underground Path Item Hint:** A girl in the Route 6 gatehouse said people lose things in the N-S tunnel (ID 119). **Hypothesis:** There is a hidden item there. **Test:** Re-explore the Underground Path and search for hidden items.
+- **Aide's Location:** Is the aide with Flash in this Route 2 house, or is it the one on Route 11 who requires 30 Pokémon caught?
 
 ## VII. Agent Development Log
 - **Healing Advisor Agent (Defined):** Created to combat reckless low-HP play by providing data-driven healing recommendations. It analyzes party health, finds the nearest Pokémon Center via the WKG, and assesses the risk of the travel path.
