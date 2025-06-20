@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v8.4)
+# Gem's Strategic Journal (v8.5)
 
 ## I. Core Principles & Lessons Learned
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
@@ -21,10 +21,12 @@
 - **HM Usage:** A fainted POKéMON can still use field moves like CUT.
 - **Type Matchups (Verified):**
     - Flying: Super-effective (2x) vs. Ground.
+- **Move Compatibility (CRITICAL DISCOVERY):** Pokémon move compatibility in this ROM hack differs from standard games. **SUBTERRA (Diglett) cannot learn HM05 Flash**, despite what standard knowledge would suggest. PULSAR (Magnemite) was able to learn it. I must always trust the in-game 'ABLE'/'NOT ABLE' feedback over any external knowledge or agent suggestion.
 - **Pokémon Evolutions:**
     - ECHO (Zubat) evolved into Golbat at Lv. 22. ECHO grew to Lv. 23.
 - **New Moves Learned:**
     - ECHO (Golbat) learned Wing Attack, replacing Leech Life.
+    - PULSAR (Magnemite) learned Flash, replacing Tackle.
 - **Trainer Battle Initiation:** Some trainers require manual interaction; they do not auto-trigger on sight.
 - **Navigation Obstacle:** Defeated trainers act as impassable objects.
 - **EXP. All Mechanics (Verified):** EXP is distributed to all non-fainted Pokémon in the party, regardless of whether they participated in the battle.
@@ -38,12 +40,12 @@
 - **Critique (Turn 16381):** Over-trusting a faulty `pathfinder_agent` before making it robust. The agent's unreliability is my biggest strategic weakness.
 - **Action Plan:**
     1. **IMMEDIATE:** Prioritize accurate data entry for all agent calls. Trust the Game State information as the absolute source of truth.
-    2. **IMMEDIATE:** Test the `trainer_hunter_agent` at the next suitable opportunity to ensure its utility.
+    2. **IMMEDIATE:** Test the `trainer_hunter_agent` and `healing_advisor_agent` at the next suitable opportunity to ensure their utility.
     3. **IMMEDIATE:** Use `multi_map_route_planner_agent` for long journeys, starting with the trip to Rock Tunnel.
 
 ## IV. Current Actionable Objectives (REVISED)
 - **Primary Goal:** Navigate through Rock Tunnel to reach the next town.
-- **Secondary Goal:** Teach HM05 (Flash) to a suitable Pokémon (SUBTERRA).
+- **Secondary Goal:** Teach HM05 (Flash) to a suitable Pokémon. (COMPLETED)
 - **Tertiary Goal:** Acquire a drink for the Saffron City guard.
 
 ## V. Key Discoveries & Navigational Lessons
@@ -55,11 +57,9 @@
 
 ## VI. Open Questions & Assumptions to Test
 - **Underground Path Item Hint (DEBUNKED):** A girl in the Route 6 gatehouse mentioned a lost item. This has been fully investigated and was a dead end.
-- **Route 11 East Blockage:** I assume a Snorlax blocks the path east, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
+- **Route 11 East Blockage (Assumption):** I assume a Snorlax blocks the path east of the Route 11 gatehouse, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
 
 ## VII. Agent Development Log
-- **Healing Advisor Agent (Defined):** Created to combat reckless low-HP play by providing data-driven healing recommendations.
+- **Healing Advisor Agent (Defined):** Created to combat reckless low-HP play by providing data-driven healing recommendations. Untested.
 - **Pathfinder Agent (Refined T16374):** Added mandatory path validation and connectivity checks to its system prompt to prevent it from generating invalid paths (e.g., up ledges).
-- **Move Tutor Advisor Agent (Defined T16376):** Created to recommend the best Pokémon to teach a given TM or HM to. Successfully used to identify SUBTERRA as the ideal candidate for FLASH.
-
-- **Route 11 East Blockage (Assumption):** I assume a Snorlax blocks the path east of the Route 11 gatehouse, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
+- **Move Tutor Advisor Agent (Refined T16473):** Initially provided incorrect advice based on standard game knowledge. Its prompt has been updated to prioritize in-game `ABLE`/`NOT ABLE` data to prevent future failures. The agent's initial failure led to the discovery of unique move compatibilities in this ROM hack.
