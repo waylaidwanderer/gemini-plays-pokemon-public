@@ -4,7 +4,7 @@
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
 - **Progression over Perfection:** The critical path is key. Don't get bogged down if the main objective is elsewhere.
 - **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it, and if it fails, immediately pivot. Do not repeat failed actions.
-- **Trust, but Verify Agent Output:** Agents operate on the current game state. If an agent reports a path is blocked by a removable obstacle (like a Cut-able tree), the correct action is to path *to* the obstacle, remove it, and then re-calculate the path to the final destination. The agent isn't wrong; the map state needs to be changed by me first.
+- **Agents vs. Player Abilities:** Agents operate on the current game state. If an agent reports a path is blocked by a removable obstacle (like a Cut-able tree), the correct action is to path *to* the obstacle, use my own ability to remove it, and *then* re-calculate the path to the final destination. An agent's "failure" in this context is a correct assessment of the map *as it is*, not a sign of being stuck.
 - **Mark Everything & Use Your Markers:** Diligently mark key locations and trust the warnings you set for yourself.
 - **Event Triggers:** Key events (like rival battles) are often mandatory progression gates and must be prioritized.
 
