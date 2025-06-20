@@ -51,3 +51,5 @@
 - **EXP. All Mechanics:** The EXP distribution seems inconsistent. **Hypothesis:** Only specific Pokémon in the party get EXP. **Test:** Use the new `exp_tracker_agent` after the next battle to analyze distribution.
 - **Route 11 East Blockage:** I assume a Snorlax blocks the path east, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
 - **Underground Path Item Hint:** A girl in the Route 6 gatehouse said people lose things in the N-S tunnel (ID 119). **Hypothesis:** There is a hidden item there. **Test:** Re-explore the Underground Path and search for hidden items.
+
+- **EXP. All Mechanics (Verified):** EXP is distributed to all Pokémon that participated in a battle, not just the one that lands the final blow. This was confirmed after the Gambler battle on Route 11.
