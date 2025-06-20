@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v7.1)
+# Gem's Strategic Journal (v7.2)
 
 ## I. Core Principles & Lessons Learned
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
@@ -29,11 +29,13 @@
 - **Critique (Turn 15661):** Wasted time trying to fix navigation agents on Route 6 instead of prioritizing the main quest.
 - **Critique (Turn 15780):** Repeatedly providing incorrect data to agents, wasting time. Mindset of abandoning tools instead of refining them is a major strategic flaw.
 - **Critique (Turn 15930):** Reactive exploration; assuming maps are clear without checking 'Reachable Unseen Tiles'. Unused `battle_move_advisor_agent`. Redundant notepad entries.
+- **Critique (Turn 15982):** Reckless battle tactics, refusing to switch a confused SPARKY. Engaging new trainers with a critically wounded party. Poor risk assessment.
 - **Action Plan:**
     1. **IMMEDIATE:** Prioritize accurate data entry for all agent calls. Trust the Game State information as the absolute source of truth.
-    2. **IMMEDIATE:** Complete the full exploration of Route 11, defeating all trainers and identifying the eastern blockage.
-    3. **IMMEDIATE:** After Route 11 is clear, proceed with the Primary Goal: Obtain HM05 (Flash).
-    4. **NEW:** Test `battle_move_advisor_agent` in the next suitable wild encounter.
+    2. **IMMEDIATE:** After the current battle, **retreat to Vermilion City to heal.** No further exploration or trainer battles until the party is stable.
+    3. **POST-HEALING:** Complete the full exploration of Route 11, defeating all trainers and identifying the eastern blockage.
+    4. **POST-HEALING:** Proceed with the Primary Goal: Obtain HM05 (Flash).
+    5. **NEW:** Test `battle_move_advisor_agent` and `exp_tracker_agent` in the next suitable wild encounter.
 
 ## IV. Current Actionable Objectives (REVISED)
 - **Primary Goal:** Obtain HM05 (Flash). **Plan:** After clearing Route 11, enter Diglett's Cave. Traverse the cave to reach the isolated southern part of Route 2 where the aide with Flash is located.
@@ -46,6 +48,6 @@
 - **Recurring Obstacles:** The tree at (16, 19) in Vermilion City respawns.
 
 ## VI. Open Questions & Assumptions to Test
-- **EXP. All Mechanics:** The EXP distribution seems inconsistent. **Hypothesis:** Only the active Pokémon and the Pokémon that started the battle get EXP. **Test:** Need to observe a battle from start to finish and check the EXP of all six party members.
+- **EXP. All Mechanics:** The EXP distribution seems inconsistent. **Hypothesis:** Only specific Pokémon in the party get EXP. **Test:** Use the new `exp_tracker_agent` after the next battle to analyze distribution.
 - **Route 11 East Blockage:** I assume a Snorlax blocks the path east, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
-- **Underground Path Item:** The girl in the Route 6 gatehouse mentioned people lose things in the tunnel. This could be a hint for a hidden item. I need to re-explore the Underground Path N-S map (ID 119) and check for hidden items.
+- **Underground Path Item Hint:** A girl in the Route 6 gatehouse said people lose things in the N-S tunnel (ID 119). **Hypothesis:** There is a hidden item there. **Test:** Re-explore the Underground Path and search for hidden items.
