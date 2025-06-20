@@ -50,3 +50,8 @@
 - **Key Items Found:** GOOD ROD, HM01 (CUT).
 - **Lt. Surge's Raichu (Lv. 29):** Knows Body Slam and Surf.
 - **Recurring Obstacles:** The tree at (16, 19) in Vermilion City respawns.
+
+## VI. Open Questions & Assumptions to Test
+- **EXP. All Mechanics:** The EXP distribution seems inconsistent. It might not be a true 'All'. **Hypothesis:** Only the active Pokémon and the Pokémon that started the battle get EXP. **Test:** Need to observe a battle from start to finish and check the EXP of all six party members.
+- **Route 11 East Blockage:** I assume a Snorlax blocks the path east, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
+- **Agent Idea:** `hm_mule_finder_agent` - could analyze my roster and suggest optimal temporary HM distribution for passing specific overworld obstacles.
