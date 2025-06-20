@@ -55,6 +55,7 @@
 ## VII. Future Agent Ideas
 
 ## VIII. Agent Development Log
+- **Healing Advisor Agent (Defined):** Created to combat reckless low-HP play by providing data-driven healing recommendations. It analyzes party health, finds the nearest Pokémon Center via the WKG, and assesses the risk of the travel path.
 - **Healing Advisor Agent (Idea v2):** An agent to combat reckless low-HP play.
   - **Input:** Player's full party data (HP, status), current `map_id`.
   - **Function:**
