@@ -49,5 +49,3 @@
 - **EXP. All Mechanics:** The EXP distribution seems inconsistent. **Hypothesis:** Only the active Pokémon and the Pokémon that started the battle get EXP. **Test:** Need to observe a battle from start to finish and check the EXP of all six party members.
 - **Route 11 East Blockage:** I assume a Snorlax blocks the path east, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
 - **Underground Path Item:** The girl in the Route 6 gatehouse mentioned people lose things in the tunnel. This could be a hint for a hidden item. I need to re-explore the Underground Path N-S map (ID 119) and check for hidden items.
-
-- **Underground Path Item Hint:** A girl in the Route 6 gatehouse mentioned people lose things in the tunnel. This could be a hint for a hidden item. I need to re-explore the Underground Path N-S map (ID 119) and check for hidden items.
