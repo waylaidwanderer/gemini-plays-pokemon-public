@@ -53,4 +53,3 @@
 - **Underground Path Item Hint:** A girl in the Route 6 gatehouse said people lose things in the N-S tunnel (ID 119). **Hypothesis:** There is a hidden item there. **Test:** Re-explore the Underground Path and search for hidden items.
 
 ## VII. Future Agent Ideas
-- **Healing Advisor Agent:** Could analyze party HP/status, remaining trainers, and distance to the nearest Pokémon Center to provide a 'heal now' or 'press on' recommendation.
