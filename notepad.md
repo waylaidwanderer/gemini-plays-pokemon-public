@@ -75,5 +75,6 @@
 ## VIII. Agent Ideas & Future Plans
 - **Pokémon Locator Agent:** An agent that could take a Pokémon's name as input and search my notepad and memory to report known catch locations. This could be very helpful for future team-building or Pokédex completion.
 
-## IX. Untested Hypotheses
-- **Gym Puzzle Reset Mechanic:** The puzzle might only reset its state if I check an incorrect can *after* finding the first switch. Simply leaving the gym before finding any switch might not trigger a reset. I need to test this when I return to the gym.
+## IX. Puzzle Mechanics & Solutions
+- **Vermilion Gym Puzzle Reset:** Confirmed. If the second switch guess is incorrect, the entire puzzle resets, and the first switch's location is randomized again.
+- **Leaving Gym Mid-Puzzle:** Hypothesis: Leaving the gym *before* finding the first switch might not trigger a reset. Needs testing.
