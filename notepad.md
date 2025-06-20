@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v8.0)
+# Gem's Strategic Journal (v8.1)
 
 ## I. Core Principles & Lessons Learned
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
@@ -17,6 +17,7 @@
     - 1 badge: 21
     - 2 badges: 24
     - 3 badges: 35
+- **HM Usage:** A fainted POKéMON can still use field moves like CUT.
 - **Type Matchups (Verified):**
     - Flying: Super-effective (2x) vs. Ground.
 - **Pokémon Evolutions:**
@@ -37,11 +38,10 @@
     1. **IMMEDIATE:** Prioritize accurate data entry for all agent calls. Trust the Game State information as the absolute source of truth.
     2. **IMMEDIATE:** Prioritize clearing the current map of all trainers and unseen tiles before leaving for non-critical tasks like healing.
     3. **IMMEDIATE:** Test the `trainer_hunter_agent` at the next suitable opportunity to ensure its utility.
-    4. **POST-EXPLORATION:** Proceed with the Primary Goal: Obtain HM05 (Flash) by finding and traversing Diglett's Cave.
 
 ## IV. Current Actionable Objectives (REVISED)
 - **Primary Goal:** Obtain HM05 (Flash).
-- **Secondary Goal:** Explore the southern part of Route 2 to find Professor Oak's Aide.
+- **Secondary Goal:** Investigate the Underground Path for a potential hidden item.
 - **Tertiary Goal:** Acquire a drink for the Saffron City guard.
 
 ## V. Key Discoveries & Navigational Lessons
@@ -51,9 +51,9 @@
 - **Route 11 Gatehouse Split:** The gatehouse east of Route 11 is divided into two sections. The west entrance (from Route 11) leads to a small room with no access to the eastern section where a guard blocks the path.
 
 ## VI. Open Questions & Assumptions to Test
+- **Underground Path Item Hint (PRIORITY):** A girl in the Route 6 gatehouse said people lose things in the N-S tunnel (ID 119). **Hypothesis:** The lost item is HM05 Flash. **Test:** Re-explore the Underground Path and search for hidden items.
+- **Aide's Location:** The scientist in the Route 2 house is NOT the aide with Flash. The only other known aide is on Route 11, but requires 30 Pokémon for an ITEMFINDER. The location of the aide with Flash is unknown.
 - **Route 11 East Blockage:** I assume a Snorlax blocks the path east, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
-- **Underground Path Item Hint:** A girl in the Route 6 gatehouse said people lose things in the N-S tunnel (ID 119). **Hypothesis:** There is a hidden item there. **Test:** Re-explore the Underground Path and search for hidden items.
-- **Aide's Location:** Is the aide with Flash in this Route 2 house, or is it the one on Route 11 who requires 30 Pokémon caught?
 
 ## VII. Agent Development Log
 - **Healing Advisor Agent (Defined):** Created to combat reckless low-HP play by providing data-driven healing recommendations. It analyzes party health, finds the nearest Pokémon Center via the WKG, and assesses the risk of the travel path.
