@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v8.1)
+# Gem's Strategic Journal (v8.2)
 
 ## I. Core Principles & Lessons Learned
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
@@ -10,6 +10,7 @@
 - **Event Triggers:** Key events (like rival battles) are often mandatory progression gates and must be prioritized.
 - **UI Glitch Troubleshooting:** When a menu or UI element bugs out, do not repeat the failing action. Systematically test every other available option.
 - **Avoid Hallucinations:** I must be more diligent in exploring every tile of a map, even small rooms, to avoid miscounting unseen tiles. Trust game data over visual intuition.
+- **WKG Management:** To improve efficiency, I will add all related nodes and edges for a new map connection in a single turn whenever possible. The system requires adding nodes and getting their IDs before creating an edge, so this may still take multiple turns. I will add nodes first, then the edge on the next available turn.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:**
@@ -51,8 +52,7 @@
 - **Route 11 Gatehouse Split:** The gatehouse east of Route 11 is divided into two sections. The west entrance (from Route 11) leads to a small room with no access to the eastern section where a guard blocks the path.
 
 ## VI. Open Questions & Assumptions to Test
-- **Underground Path Item Hint (PRIORITY):** A girl in the Route 6 gatehouse said people lose things in the N-S tunnel (ID 119). **Hypothesis:** The lost item is HM05 Flash. **Test:** Re-explore the Underground Path and search for hidden items.
-- **Aide's Location:** The scientist in the Route 2 house is NOT the aide with Flash. The only other known aide is on Route 11, but requires 30 Pokémon for an ITEMFINDER. The location of the aide with Flash is unknown.
+- **Underground Path Item Hint (DEBUNKED):** A girl in the Route 6 gatehouse mentioned a lost item. **Hypothesis:** The lost item was HM05 Flash. **Result:** This was incorrect. HM05 Flash was obtained from Prof. Oak's Aide on Route 2. The lost item in the Underground Path is still unknown and a low priority.
 - **Route 11 East Blockage:** I assume a Snorlax blocks the path east, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
 
 ## VII. Agent Development Log
