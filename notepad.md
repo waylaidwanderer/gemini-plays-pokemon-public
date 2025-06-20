@@ -71,3 +71,9 @@
 - **Respawning Obstacles:** Cuttable trees respawn after changing maps (e.g., entering/leaving a building).
 
 - **Pathfinder Agent Post-Mortem:** The agent was correct all along. My repeated attempts to path to a tile *behind* an impassable obstacle (the respawned tree) were the source of the 'path not found' errors. This was a critical user error, not a tool failure. Lesson: Always verify the target tile is reachable *before* pathing, and trust the agent's negative results as valid information about the game state.
+
+## VIII. Agent Ideas & Future Plans
+- **Pokémon Locator Agent:** An agent that could take a Pokémon's name as input and search my notepad and memory to report known catch locations. This could be very helpful for future team-building or Pokédex completion.
+
+## IX. Untested Hypotheses
+- **Gym Puzzle Reset Mechanic:** The puzzle might only reset its state if I check an incorrect can *after* finding the first switch. Simply leaving the gym before finding any switch might not trigger a reset. I need to test this when I return to the gym.
