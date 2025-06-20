@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v4.2)
+# Gem's Strategic Journal (v5.0)
 
 ## I. Core Principles & Lessons Learned
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
@@ -8,11 +8,6 @@
 - **Trust Agent Output:** When an agent (especially `pathfinder_agent`) reports "no path found," trust it. Re-evaluate my understanding of the map instead of repeating the failed request.
 - **Mark Everything & Use Your Markers:** Diligently mark key locations and trust the warnings you set for yourself.
 - **Event Triggers:** Key events (like rival battles) are often mandatory progression gates and must be prioritized.
-- **Battle Strategy (REFINED):**
-    - Against wild Pokémon faster than my lead, if the first attempt to run fails, it is more efficient to fight with the most powerful super-effective move.
-    - Always identify and prioritize using the most powerful super-effective moves to end battles quickly (e.g., Wing Attack vs. Ground-types).
-- **Navigation (REFINED):**
-    - **Verify map connectivity with the World Knowledge Graph** before assuming a "shortcut" (like Diglett's Cave) leads to the desired destination. Map segments can be isolated.
 - **UI Glitch Troubleshooting:** When a menu or UI element bugs out, do not repeat the failing action. Systematically test every other available option on the screen to escape the loop. This was a hard lesson learned at the Cerulean PC.
 
 ## II. Game Mechanics & Battle Intel
@@ -27,27 +22,23 @@
     - ECHO (Zubat) evolved into Golbat at Lv. 22.
 - **New Moves Learned:**
     - ECHO (Golbat) learned Wing Attack, replacing Leech Life.
+- **Trainer Battle Initiation:** Some trainers (e.g., Cool Trainer F on Route 6) do not automatically initiate a battle when you enter their line of sight. Manual interaction by facing them and pressing 'A' is required.
+- **Navigation Obstacle:** Defeated trainers act as impassable objects and must be navigated around.
 
-## III. Agent Log & Action Plan
-| Agent Name                     | Status                | Action Item                                                                 |
-|--------------------------------|-----------------------|-----------------------------------------------------------------------------|
-| `pathfinder_agent`             | ✅ Reliable           | Use for single-map navigation.                                              |
-| `unseen_tile_navigator_agent`  | ✅ Reliable           | Use for systematic exploration of unseen tiles.                             |
-| `battle_menu_navigator`        | ✅ Reliable           | Use for all complex menu navigation in battles.                             |
-| `tm_tutor_agent`               | ✅ Reliable           | Use for TM/HM decisions.                                                    |
-| `progression_advisor_agent`    | ✅ Reliable           | **Use proactively** when entering new areas to confirm objectives.          |
-| `multi_map_route_planner_agent`| ✅ Reliable           | Logic for non-contiguous maps now refined. Monitor for new edge cases.      |
-| `rival_battle_strategist_agent`| ✅ Reliable           | **Use BEFORE next rival battle.** Proactive planning is more effective.      |
-| `evolution_advisor_agent`      | ❓ Untested           | **Test soon** to help plan long-term party development.                     |
-| `training_hotspot_agent`| ❓ Untested           | **Test before next major battle** to formulate training plans.                |
+## III. AI Observer Critiques & Action Plan
+- **Critique (Turn 15571):** Inefficient menu navigation (one button per turn) and illogical goal hierarchy (Rock Tunnel before Flash).
+- **Action Plan:**
+    1. **IMMEDIATE:** Start chaining button presses in menus for efficiency. Use the `battle_menu_navigator` agent for complex sequences.
+    2. **IMMEDIATE:** Correct goal order to: 1. Get Flash, 2. Reach Vermilion, 3. Go through Diglett's Cave.
+    3. **SOON:** Test unused agents (`evolution_advisor_agent`, `training_hotspot_agent`).
 
-## IV. Current Actionable Objectives
-- **Objective:** Acquire HM05 (Flash). **Plan:** Travel through Diglett's Cave (accessible from Route 11, east of Vermilion City). The cave exits to the southern, previously inaccessible part of Route 2. The aide's house is located there, likely requiring Cut.
-- **Objective:** Acquire a drink for the Saffron City guard. **Plan:** Investigate the Celadon Dept. Store for a drink item.
-- **Objective:** Investigate the Machop in Vermilion City who is building something. **Plan:** Revisit the Machop after acquiring more badges or completing major story events.
+## IV. Current Actionable Objectives (REVISED)
+- **Primary Goal:** Obtain HM05 (Flash). **Plan:** Travel south through Route 6 to Vermilion City. Go east to Route 11 and enter Diglett's Cave. Traverse the cave to reach the isolated southern part of Route 2 where the aide with Flash is located.
+- **Secondary Goal:** Acquire a drink for the Saffron City guard. **Plan:** Investigate the Celadon Dept. Store for a drink item (long-term objective).
+- **Tertiary Goal:** Investigate the Machop in Vermilion City. **Plan:** Revisit the Machop after acquiring more badges or completing major story events.
 
 ## V. Key Discoveries & Navigational Lessons
-- **CRITICAL NAVIGATION LESSON:** Route 2 is segmented. The Diglett's Cave exit at (13, 11) leads to a small, isolated northern section with no exits other than the warp back into the cave house. The main path from Pewter City to Viridian Forest is on a separate, unreachable part of this map. Do not use Diglett's Cave as a shortcut to Viridian Forest.
+- **CRITICAL NAVIGATION LESSON:** Route 2 is segmented. The Diglett's Cave exit at (13, 11) leads to a small, isolated northern section with no exits other than the warp back into the cave house. Do not use Diglett's Cave as a shortcut to Viridian Forest.
 - **TMs Found:** TM08 (BODYSLAM), TM24 (THUNDERBOLT).
 - **Key Items Found:** GOOD ROD, HM01 (CUT).
 - **Lt. Surge's Raichu (Lv. 29):** Knows Body Slam and Surf.
@@ -56,9 +47,4 @@
 ## VI. Open Questions & Assumptions to Test
 - **EXP. All Mechanics:** The EXP distribution seems inconsistent. It might not be a true 'All'. **Hypothesis:** Only the active Pokémon and the Pokémon that started the battle get EXP. **Test:** Need to observe a battle from start to finish and check the EXP of all six party members.
 - **Route 11 East Blockage:** I assume a Snorlax blocks the path east, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
-
-- The girl in the Route 6 Underground Path gatehouse mentioned people lose things in the tunnel. This could be a hint for a hidden item.
-
-- **Trainer Battle Initiation:** Some trainers (e.g., Cool Trainer F on Route 6) do not automatically initiate a battle when you enter their line of sight. Manual interaction by facing them and pressing 'A' is required.
-
-- **Navigation Obstacle:** Defeated trainers act as impassable objects and must be navigated around.
+- **Underground Path Item:** The girl in the Route 6 gatehouse mentioned people lose things in the tunnel. This could be a hint for a hidden item. I need to re-explore the Underground Path N-S map (ID 119) and check for hidden items.
