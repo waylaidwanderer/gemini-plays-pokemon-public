@@ -53,3 +53,12 @@
 - **Underground Path Item Hint:** A girl in the Route 6 gatehouse said people lose things in the N-S tunnel (ID 119). **Hypothesis:** There is a hidden item there. **Test:** Re-explore the Underground Path and search for hidden items.
 
 ## VII. Future Agent Ideas
+
+## VIII. Agent Development Log
+- **Healing Advisor Agent (Idea v2):** An agent to combat reckless low-HP play.
+  - **Input:** Player's full party data (HP, status), current `map_id`.
+  - **Function:**
+    1. Use WKG to find the path to the nearest Pokémon Center.
+    2. Analyze the path for grass tiles and potential trainer encounters (by checking map sprites against defeated markers).
+    3. Calculate risk based on party health vs. potential encounters.
+    4. **Output:** A recommendation ("HEAL IMMEDIATELY" or "SAFE TO PROCEED") and the calculated path to the Pokémon Center.
