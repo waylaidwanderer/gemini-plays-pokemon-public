@@ -43,7 +43,7 @@
 | `pokemon_training_advisor_agent`| ❓ Untested           | **Test before next major battle** to formulate training plans.                |
 
 ## IV. Current Actionable Objectives
-- **Objective:** Acquire HM05 (Flash). **Plan:** Travel from Pewter City, south through Viridian Forest, to the southern part of Route 2. Use Cut on the tree to access the aide's house.
+- **Objective:** Acquire HM05 (Flash). **Plan:** Travel through Diglett's Cave (accessible from Route 11, east of Vermilion City). The cave exits to the southern, previously inaccessible part of Route 2. The aide's house is located there, likely requiring Cut.
 - **Objective:** Acquire a drink for the Saffron City guard. **Plan:** Investigate the Celadon Dept. Store for a drink item.
 - **Objective:** Investigate the Machop in Vermilion City who is building something. **Plan:** Revisit the Machop after acquiring more badges or completing major story events.
 
