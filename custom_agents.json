@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"command\":{\"type\":\"string\",\"enum\":[\"deposit\",\"withdraw\"]},\"target_pokemon_name\":{\"type\":\"string\"},\"party_pokemon_list\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"pc_box_pokemon_list\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"command\",\"target_pokemon_name\",\"party_pokemon_list\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"button_sequence\"]}",
     "agent_can_run_code": false
+  },
+  "battle_move_advisor_agent": {
+    "agent_name": "battle_move_advisor_agent",
+    "agent_description": "Recommends the optimal move to use in a battle based on type matchups for Pokémon Yellow Legacy (Gen 1).",
+    "agent_system_prompt": "You are a Pokémon Battle Move Advisor for Pokémon Yellow Legacy (Gen 1). Your task is to analyze the opponent's Pokémon type(s) and the user's active Pokémon's available moves to recommend the single best move to use. Your analysis MUST be based on Gen 1 type effectiveness rules. Provide a primary recommendation and a brief justification. If no move is super-effective, recommend the strongest neutral STAB (Same Type Attack Bonus) move. If multiple moves are equally effective, prioritize the one with higher base power. Your output must conform to the provided schema.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"opponent_type1\":{\"type\":\"string\"},\"opponent_type2\":{\"type\":\"string\",\"nullable\":true},\"active_pokemon_moves\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"type\":{\"type\":\"string\"},\"power\":{\"type\":\"integer\"}},\"required\":[\"name\",\"type\",\"power\"]}},\"active_pokemon_type1\":{\"type\":\"string\"},\"active_pokemon_type2\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"opponent_type1\",\"active_pokemon_moves\",\"active_pokemon_type1\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_move\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"},\"effectiveness\":{\"type\":\"string\",\"enum\":[\"Super-effective (4x)\",\"Super-effective (2x)\",\"Neutral\",\"Not very effective (0.5x)\",\"Not very effective (0.25x)\",\"No effect (0x)\"]}},\"required\":[\"recommended_move\",\"justification\",\"effectiveness\"]}",
+    "agent_can_run_code": false
   }
 }
