@@ -39,14 +39,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"map_route\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reason\":{\"type\":\"string\"}},\"required\":[\"path_found\",\"map_route\",\"reason\"]}",
     "agent_can_run_code": true
   },
-  "tm_tutor_agent": {
-    "agent_name": "tm_tutor_agent",
-    "agent_description": "Advises on which Pokémon should learn a specific TM, considering their current moveset, stats, and potential future utility, based on the player's full roster.",
-    "agent_system_prompt": "You are a Pokémon TM Advisor for Pokémon Yellow Legacy. Your task is to analyze a specific TM and the player's entire Pokémon roster (party and PC) to recommend the best candidate for learning the move. Consider the Pokémon's type, stats (if known, otherwise infer from species), current moveset, and potential strategic role. Explain your reasoning clearly, weighing the pros and cons of replacing an existing move. If no Pokémon is a good candidate, state that and explain why. Your output must conform to the provided schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"tm_name\":{\"type\":\"string\"},\"player_pokemon_roster\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"name\",\"level\",\"type1\",\"moves\"]}}},\"required\":[\"tm_name\",\"player_pokemon_roster\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"best_candidate_pokemon_name\":{\"type\":\"string\",\"nullable\":true},\"move_to_replace\":{\"type\":\"string\",\"nullable\":true},\"reasoning\":{\"type\":\"string\"},\"alternative_candidates\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\",\"reasoning\"]}}},\"required\":[\"reasoning\"]}",
-    "agent_can_run_code": false
-  },
   "progression_advisor_agent": {
     "agent_name": "progression_advisor_agent",
     "agent_description": "Analyzes the player's current game state (location, badges, key items) and the World Knowledge Graph to recommend the most logical next major objective for story progression.",
