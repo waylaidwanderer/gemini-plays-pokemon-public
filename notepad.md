@@ -53,3 +53,5 @@
 - **Underground Path Item Hint:** A girl in the Route 6 gatehouse said people lose things in the N-S tunnel (ID 119). **Hypothesis:** There is a hidden item there. **Test:** Re-explore the Underground Path and search for hidden items.
 
 - **EXP. All Mechanics (Verified):** EXP is distributed to all Pokémon that participated in a battle, not just the one that lands the final blow. This was confirmed after the Gambler battle on Route 11.
+
+- **Route 11 Gatehouse Split:** The gatehouse east of Route 11 is divided into two sections. The west entrance (from Route 11) leads to a small room with no access to the eastern section where a guard blocks the path.
