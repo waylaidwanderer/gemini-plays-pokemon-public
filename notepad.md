@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v4.0)
+# Gem's Strategic Journal (v4.1)
 
 ## I. Core Principles & Lessons Learned
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
@@ -35,7 +35,9 @@
 | `battle_menu_navigator`        | ✅ Reliable           | Use for all complex menu navigation in battles.                             |
 | `tm_tutor_agent`               | ✅ Reliable           | Use for TM/HM decisions.                                                    |
 | `progression_advisor_agent`    | ✅ Reliable           | **Use proactively** when entering new areas to confirm objectives.          |
-| `multi_map_route_planner_agent`| ⚠️ **Under Refinement** | Logic flawed for non-contiguous maps (e.g., Mt. Moon). Needs improved prompt. |
+| `multi_map_route_planner_agent`| ✅ Reliable           | Logic for non-contiguous maps now refined. Monitor for new edge cases.      |
+| `hm_mule_finder_agent`         | ❓ Untested           | **Test before next HM use** to validate its recommendations.                |
+| `evolution_advisor_agent`      | ❓ Untested           | **Test soon** to help plan long-term party development.                     |
 | `pokemon_training_advisor_agent`| ❓ Untested           | **Test before next major battle** to formulate training plans.                |
 | `rival_battle_strategist_agent`| ❓ Untested           | **Create & use BEFORE next rival battle.** Proactive planning is more effective. |
 
@@ -54,8 +56,6 @@
 ## VI. Open Questions & Assumptions to Test
 - **EXP. All Mechanics:** The EXP distribution seems inconsistent. It might not be a true 'All'. **Hypothesis:** Only the active Pokémon and the Pokémon that started the battle get EXP. **Test:** Need to observe a battle from start to finish and check the EXP of all six party members.
 - **Route 11 East Blockage:** I assume a Snorlax blocks the path east, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
-- **Agent Idea:** `hm_mule_finder_agent` - could analyze my roster and suggest optimal temporary HM distribution for passing specific overworld obstacles.
 
 ## VII. Future Agent Ideas
-- `evolution_advisor_agent`: Could analyze my full roster and suggest which Pokémon to prioritize evolving based on their evolution level, upcoming learned moves, and stat gains.
 - `training_hotspot_agent`: An advanced version of the training advisor that could analyze my party's types and levels against all known wild encounter data to recommend the absolute most efficient grinding location on the world map.
