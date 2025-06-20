@@ -63,14 +63,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"battle_plan\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"turn\":{\"type\":\"integer\"},\"player_pokemon\":{\"type\":\"string\"},\"opponent_pokemon\":{\"type\":\"string\"},\"action\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"turn\",\"player_pokemon\",\"opponent_pokemon\",\"action\",\"justification\"]}},\"summary\":{\"type\":\"string\"}},\"required\":[\"battle_plan\",\"summary\"]}",
     "agent_can_run_code": false
   },
-  "pokemon_locator_agent": {
-    "agent_name": "pokemon_locator_agent",
-    "agent_description": "Searches the notepad for mentions of a specific Pokémon to find potential catch locations.",
-    "agent_system_prompt": "You are a Pokémon Location Specialist. Your task is to analyze the user's provided notepad content to find any mention of a specific Pokémon's catch location. You will receive the Pokémon's name and the full text of the notepad. Your output must identify the map or route where the Pokémon was mentioned as being catchable. If no location is found, you must state that. Your output must conform to the provided schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"notepad_content\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\",\"notepad_content\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"location_found\":{\"type\":\"boolean\"},\"map_id_or_route\":{\"type\":\"string\",\"nullable\":true},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"location_found\",\"reasoning\"]}",
-    "agent_can_run_code": false
-  },
   "pokemon_training_advisor_agent": {
     "agent_name": "pokemon_training_advisor_agent",
     "agent_description": "Recommends the best locations and strategies for training Pokémon to reach the level cap, considering party composition and known wild encounters.",
