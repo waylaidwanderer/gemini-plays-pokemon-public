@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v8.2)
+# Gem's Strategic Journal (v8.3)
 
 ## I. Core Principles & Lessons Learned
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
