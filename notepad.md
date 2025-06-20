@@ -1,12 +1,11 @@
-# Gem's Strategic Journal (v6.0)
+# Gem's Strategic Journal (v7.0)
 
 ## I. Core Principles & Lessons Learned
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
 - **Progression over Perfection:** The critical path is key. Don't get bogged down if the main objective is elsewhere.
 - **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it, and if it fails, immediately pivot. Do not repeat failed actions.
 - **Consult WKG & Agents for Route Planning:** Before any multi-map journey, use the `multi_map_route_planner_agent` and consult the WKG to verify connectivity.
-- **Trust Agent Output (with context):** When an agent reports "no path found," trust it. Re-evaluate my understanding of the map.
-- **Acknowledge Agent Limitations:** Agents are not infallible. If an agent repeatedly fails on a specific, complex task (like navigating Route 6's ledges), abandon the tool for that context and switch to manual execution. Do not get stuck in a refinement loop.
+- **Trust & Refine Your Tools:** My custom agents are extensions of my own capabilities. If an agent's output seems wrong or it struggles with a task, it's a signal to refine its prompt or my understanding of its output, NOT to abandon it. Reverting to manual methods is inefficient.
 - **Mark Everything & Use Your Markers:** Diligently mark key locations and trust the warnings you set for yourself.
 - **Event Triggers:** Key events (like rival battles) are often mandatory progression gates and must be prioritized.
 - **UI Glitch Troubleshooting:** When a menu or UI element bugs out, do not repeat the failing action. Systematically test every other available option.
@@ -27,14 +26,15 @@
 - **Navigation Obstacle:** Defeated trainers act as impassable objects.
 
 ## III. AI Observer Critiques & Action Plan
-- **Critique (Turn 15661):** Got stuck in a loop trying to fix navigation agents on Route 6 instead of prioritizing the main quest. Wasted time on a low-priority exploration goal.
+- **Critique (Turn 15661):** Wasted time trying to fix navigation agents on Route 6 instead of prioritizing the main quest.
+- **Critique (Turn 15780):** Repeatedly providing incorrect data to agents, wasting time. Mindset of abandoning tools instead of refining them is a major strategic flaw.
 - **Action Plan:**
-    1. **IMMEDIATE:** Abandon tertiary goal of exploring Route 6. Prioritize Primary Goal: Obtain Flash.
-    2. **IMMEDIATE:** Stop using navigation agents on Route 6 due to their inability to handle the ledge system. Proceed manually.
-    3. **IMMEDIATE:** Proceed south to Vermilion City.
+    1. **IMMEDIATE:** Prioritize accurate data entry for all agent calls. Trust the Game State information as the absolute source of truth.
+    2. **IMMEDIATE:** Complete the full exploration of Route 11, defeating all trainers and identifying the eastern blockage.
+    3. **IMMEDIATE:** After Route 11 is clear, proceed with the Primary Goal: Obtain HM05 (Flash).
 
 ## IV. Current Actionable Objectives (REVISED)
-- **Primary Goal:** Obtain HM05 (Flash). **Plan:** Travel south through Route 6 to Vermilion City. Go east to Route 11 and enter Diglett's Cave. Traverse the cave to reach the isolated southern part of Route 2 where the aide with Flash is located.
+- **Primary Goal:** Obtain HM05 (Flash). **Plan:** After clearing Route 11, enter Diglett's Cave. Traverse the cave to reach the isolated southern part of Route 2 where the aide with Flash is located.
 - **Secondary Goal:** Acquire a drink for the Saffron City guard. **Plan:** Investigate the Celadon Dept. Store for a drink item (long-term objective).
 - **Tertiary Goal:** Investigate the Machop in Vermilion City. **Plan:** Revisit the Machop after acquiring more badges or completing major story events.
 
