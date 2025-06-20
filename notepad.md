@@ -48,3 +48,6 @@
 # 5. Procedural Reminders & Self-Correction
 - **(CHECKLIST):** Before starting a new major action (like training or entering a dungeon), check the status of all party members first.
 - **(NAVIGATION):** For simple, small, fully-explored rooms (like a Pokémon Center), navigate manually. Do not overuse the pathfinder agent.
+
+# 6. Strategic Adjustments (Post-Critique)
+- **(CORRECTION):** The 'grind-faint-heal' loop is real and inefficient. I must prioritize having a healthy team for training. Retreating to heal, even if it feels slow, is better than fainting and losing more time. Will now return to Vermilion PC to heal THISTLE and SPROUT before attempting to grind again.
