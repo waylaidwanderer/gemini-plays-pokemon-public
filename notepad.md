@@ -59,3 +59,6 @@
 - **TMs Found:** TM08 (BODYSLAM) in S.S. Anne cabin.
 - **Key Items Found:** GOOD ROD from Fishing Guru's brother.
 - **Hypothesis:** Stun Spore may not work on Poison-type Pokémon. (Need to test again).
+
+- **Lt. Surge's Raichu (Lv. 29):** Knows Body Slam and Surf. Extremely dangerous physical and special coverage.
+- **TMs Found:** TM24 (THUNDERBOLT) from Lt. Surge.
