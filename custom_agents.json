@@ -63,14 +63,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"battle_plan\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"turn\":{\"type\":\"integer\"},\"player_pokemon\":{\"type\":\"string\"},\"opponent_pokemon\":{\"type\":\"string\"},\"action\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"turn\",\"player_pokemon\",\"opponent_pokemon\",\"action\",\"justification\"]}},\"summary\":{\"type\":\"string\"}},\"required\":[\"battle_plan\",\"summary\"]}",
     "agent_can_run_code": false
   },
-  "pokemon_training_advisor_agent": {
-    "agent_name": "pokemon_training_advisor_agent",
-    "agent_description": "Recommends the best locations and strategies for training Pokémon to reach the level cap, considering party composition and known wild encounters.",
-    "agent_system_prompt": "You are a Pokémon Training Advisor for Pokémon Yellow Legacy Hard Mode. Your goal is to provide the most efficient training plan for the player's party. Analyze the player's current Pokémon party (levels, types), the current level cap, and the provided JSON string of known wild Pokémon encounters on various maps. Recommend the best map/route for training each Pokémon in the party, explaining why (e.g., type advantage, EXP yield). If a Pokémon is close to evolving, mention it. Your output must conform to the provided schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"}},\"required\":[\"name\",\"level\"]}},\"level_cap\":{\"type\":\"integer\"},\"known_wild_pokemon_encounters_by_map\":{\"type\":\"string\",\"description\":\"JSON string detailing wild encounters, like '{\\\"ROUTE_11\\\": [\\\"SPEAROW\\\"]}'\"}},\"required\":[\"player_party\",\"level_cap\",\"known_wild_pokemon_encounters_by_map\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"training_plan\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"recommended_location\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\",\"recommended_location\",\"reasoning\"]}},\"overall_summary\":{\"type\":\"string\"}},\"required\":[\"training_plan\",\"overall_summary\"]}",
-    "agent_can_run_code": true
-  },
   "hm_mule_finder_agent": {
     "agent_name": "hm_mule_finder_agent",
     "agent_description": "Analyzes my full Pokémon roster (party and PC) to recommend the best temporary 'mule' for a given HM, prioritizing Pokémon that are easily replaceable or would not be negatively impacted by learning the move.",
