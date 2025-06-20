@@ -39,7 +39,6 @@
 | Agent Name                     | Status     | Action Item                                                                 |
 |--------------------------------|------------|-----------------------------------------------------------------------------|
 | `pathfinder_agent`             | ✅ Reliable | Confirmed reliable. My previous issues were user error, not agent failure.  |
-| `gym_puzzle_solver_agent`      | ✅ Reliable | Use for systematic puzzle solving.                                          |
 | `unseen_tile_navigator_agent`  | ✅ Reliable | Use for systematic exploration of unseen tiles.                             |
 | `battle_menu_navigator`        | ✅ Reliable | Use for all complex menu navigation in battles.                               |
 | `tm_tutor_agent`               | ✅ Reliable | Use for TM/HM decisions.                                                    |
@@ -47,6 +46,7 @@
 | `multi_map_route_planner_agent`| ❓ Untested | Test when planning a multi-map journey.                                     |
 | `progression_advisor_agent`    | ❓ Untested | Use when unsure about the next major story objective.                         |
 | `rival_battle_strategist_agent`| ❓ Untested | **Create & use BEFORE next rival battle.** Proactive planning is more effective. |
+| `pokemon_locator_agent`        | ❓ Untested | Newly created. Test when needed.                                            |
 
 ## V. Current & Completed Operations
 - **Operation: Thunder Badge (In Progress)**
@@ -59,6 +59,3 @@
 - **TMs Found:** TM08 (BODYSLAM) in S.S. Anne cabin.
 - **Key Items Found:** GOOD ROD from Fishing Guru's brother.
 - **Hypothesis:** Stun Spore may not work on Poison-type Pokémon. (Need to test again).
-
-## VII. Agent Ideas & Future Plans
-- **Pokémon Locator Agent:** An agent that could take a Pokémon's name as input and search my notepad and memory to report known catch locations. This could be very helpful for future team-building or Pokédex completion.
