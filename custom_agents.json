@@ -55,14 +55,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_goal\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_goal\",\"justification\"]}",
     "agent_can_run_code": true
   },
-  "rival_battle_strategist_agent": {
-    "agent_name": "rival_battle_strategist_agent",
-    "agent_description": "Generates a detailed, turn-by-turn battle plan for defeating a known rival, including lead Pokémon, switches, and move selections.",
-    "agent_system_prompt": "You are a master Pokémon Battle Strategist for Pokémon Yellow Legacy Hard Mode. Your task is to create a detailed, optimal, turn-by-turn battle plan. You will be given the player's team and the rival's known team. Your output must be a sequence of battle actions. For each turn, specify the player's Pokémon, the opponent's Pokémon, the recommended action (e.g., 'Use MOVE', 'Switch to POKEMON'), and a brief justification. Account for Hard Mode rules: 'Set' style (no free switch), no items, and level caps. Prioritize safe switches and exploiting type advantages. The plan should be a clear sequence of steps to victory.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_team\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"name\",\"level\",\"type1\",\"moves\"]}},\"rival_team\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"name\",\"level\",\"type1\"]}}},\"required\":[\"player_team\",\"rival_team\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"battle_plan\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"turn\":{\"type\":\"integer\"},\"player_pokemon\":{\"type\":\"string\"},\"opponent_pokemon\":{\"type\":\"string\"},\"action\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"turn\",\"player_pokemon\",\"opponent_pokemon\",\"action\",\"justification\"]}},\"summary\":{\"type\":\"string\"}},\"required\":[\"battle_plan\",\"summary\"]}",
-    "agent_can_run_code": false
-  },
   "hm_mule_finder_agent": {
     "agent_name": "hm_mule_finder_agent",
     "agent_description": "Analyzes my full Pokémon roster (party and PC) to recommend the best temporary 'mule' for a given HM, prioritizing Pokémon that are easily replaceable or would not be negatively impacted by learning the move.",
