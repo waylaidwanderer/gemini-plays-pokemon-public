@@ -27,6 +27,8 @@
     - DIG can be used to escape caves but **cannot be used in cities**.
     - STRENGTH can be used to move big rocks (NPC hint).
     - CUT: Interacting with a cuttable tree prompts the use of the move. The HM item in the bag is a shortcut, not a direct activation.
+- **Battle Tactics:**
+    - **Running from Battle:** If the first attempt to run from a wild Pokémon fails (likely due to lower Speed), it is more efficient to fight rather than repeatedly attempting to flee and taking damage.
 - **Respawning Obstacles:** Cuttable trees respawn after changing maps (e.g., entering/leaving a building).
 
 ## III. Puzzle Mechanics & Solutions
@@ -44,13 +46,13 @@
 | `tm_tutor_agent`               | ✅ Reliable | Use for TM/HM decisions.                                                    |
 | `pokemon_training_advisor_agent`| ❓ Untested | Use before major battles to formulate training plans.                       |
 | `multi_map_route_planner_agent`| ❓ Untested | Test when planning a multi-map journey.                                     |
-| `progression_advisor_agent`    | ❓ Untested | Use when unsure about the next major story objective.                         |
+| `progression_advisor_agent`    | ❓ Untested | Use after getting Flash to confirm next steps.                              |
 | `rival_battle_strategist_agent`| ❓ Untested | **Create & use BEFORE next rival battle.** Proactive planning is more effective. |
 | `pokemon_locator_agent`        | ❓ Untested | Newly created. Test when needed.                                            |
 
 ## V. Current & Completed Operations
-- **Operation: Thunder Badge (In Progress)**
-    - **Objective:** Defeat Lt. Surge and earn the Thunder Badge.
+- **Operation: Thunder Badge (Complete)**
+    - **Result:** Success. Defeated Lt. Surge and earned the Thunder Badge.
 - **Operation: Sea Sick for Cut (Complete)**
     - **Result:** Success. Defeated Rival Pixel and obtained HM01 from the Captain.
 
@@ -58,14 +60,13 @@
 - **Underground Path (Route 5 to 6):** An NPC mentioned that people often lose things here. Could be a hint for a hidden item.
 - **TMs Found:** TM08 (BODYSLAM) in S.S. Anne cabin.
 - **Key Items Found:** GOOD ROD from Fishing Guru's brother.
-- **Hypothesis:** Stun Spore may not work on Poison-type Pokémon. (Need to test again).
-
-- **Lt. Surge's Raichu (Lv. 29):** Knows Body Slam and Surf. Extremely dangerous physical and special coverage.
 - **TMs Found:** TM24 (THUNDERBOLT) from Lt. Surge.
+- **Lt. Surge's Raichu (Lv. 29):** Knows Body Slam and Surf. Extremely dangerous physical and special coverage.
 
 ## VII. Unverified Assumptions & Hypotheses
+- **Flash Requirement:** Assumed to be necessary for Rock Tunnel, but this has not been confirmed in-game. The AI walkthrough supports this.
+- **Aide with Flash location:** Assumed to be on Route 2 in an area accessible with Cut.
+- **Pokémon caught for Flash:** I assume my 20 caught Pokémon are sufficient to receive HM05.
 - **Rock Tunnel Progression:** Assumed to be the only path forward. The thirsty guard on Route 5 might be passable another way.
-- **Flash Requirement:** Assumed to be necessary for Rock Tunnel, but this has not been confirmed in-game.
 - **Vermilion Machop:** Assumed to be flavor text, but could be a side quest trigger.
 - **Thirsty Guard Item:** Assumed to be from Celadon City, but could be available elsewhere sooner.
-- **Team Readiness:** Assumed current team is strong enough for the next area post-healing, but training might be required.
