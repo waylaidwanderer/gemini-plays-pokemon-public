@@ -47,14 +47,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_goal\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_goal\",\"justification\"]}",
     "agent_can_run_code": true
   },
-  "evolution_advisor_agent": {
-    "agent_name": "evolution_advisor_agent",
-    "agent_description": "Analyzes my full Pokémon roster to suggest which Pokémon to prioritize evolving based on their evolution level, upcoming learned moves, and stat gains.",
-    "agent_system_prompt": "You are a Pokémon Evolution Advisor for Pokémon Yellow Legacy. Analyze the player's full roster (party and PC). For each unevolved Pokémon, determine its next evolution level and the moves it would learn upon evolving or at levels shortly after. Recommend which Pokémon to prioritize for evolution based on a combination of factors: how close it is to evolving, the strategic value of its evolved form, and the power of the moves it will learn. Your output must conform to the provided schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon_roster\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"}},\"required\":[\"name\",\"level\"]}}},\"required\":[\"player_pokemon_roster\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"evolution_recommendations\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"priority\":{\"type\":\"string\",\"enum\":[\"High\",\"Medium\",\"Low\"]},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\",\"priority\",\"reasoning\"]}}},\"required\":[\"evolution_recommendations\"]}",
-    "agent_can_run_code": false
-  },
   "rival_battle_strategist_agent": {
     "agent_name": "rival_battle_strategist_agent",
     "agent_description": "Analyzes the rival's likely Pokémon team based on past encounters and game progression. Recommends a counter-strategy, including lead Pokémon, key matchups, and potential move-sets to watch out for.",
