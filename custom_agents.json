@@ -55,14 +55,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_goal\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_goal\",\"justification\"]}",
     "agent_can_run_code": true
   },
-  "hm_mule_finder_agent": {
-    "agent_name": "hm_mule_finder_agent",
-    "agent_description": "Analyzes my full Pokémon roster (party and PC) to recommend the best temporary 'mule' for a given HM, prioritizing Pokémon that are easily replaceable or would not be negatively impacted by learning the move.",
-    "agent_system_prompt": "You are an HM Logistics Advisor for Pokémon Yellow Legacy. Your task is to analyze the player's *entire* Pokémon roster and a specific HM. Recommend the best Pokémon to learn this HM *temporarily* for passing an obstacle. Your primary consideration should be minimizing disruption to the main team. Prioritize Pokémon that are low-level, easily re-catchable, have weak movesets, or are otherwise not critical to the player's current strategy. If a main party member must learn the move, explain the strategic trade-offs of replacing one of their existing moves. Your output must conform to the provided schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"hm_name\":{\"type\":\"string\"},\"player_pokemon_roster\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"name\",\"level\",\"moves\"]}}},\"required\":[\"hm_name\",\"player_pokemon_roster\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"best_candidate_pokemon_name\":{\"type\":\"string\"},\"move_to_replace\":{\"type\":\"string\",\"nullable\":true},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"best_candidate_pokemon_name\",\"reasoning\"]}",
-    "agent_can_run_code": false
-  },
   "evolution_advisor_agent": {
     "agent_name": "evolution_advisor_agent",
     "agent_description": "Analyzes my full Pokémon roster to suggest which Pokémon to prioritize evolving based on their evolution level, upcoming learned moves, and stat gains.",
