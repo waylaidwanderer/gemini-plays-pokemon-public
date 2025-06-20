@@ -39,9 +39,9 @@
     4. **POST-EXPLORATION:** Proceed with the Primary Goal: Obtain HM05 (Flash) by finding and traversing Diglett's Cave.
 
 ## IV. Current Actionable Objectives (REVISED)
-- **Primary Goal:** Obtain HM05 (Flash). **Plan:** Find Professor Oak's aide in the building south of Diglett's Cave on Route 2.
-- **Secondary Goal:** Acquire a drink for the Saffron City guard. **Plan:** Investigate the Celadon Dept. Store for a drink item (long-term objective).
-- **Tertiary Goal:** Fully explore all routes accessible from my current location. **Plan:** Systematically clear each route of trainers, items, and unseen tiles before moving on.
+- **Primary Goal:** Obtain HM05 (Flash).
+- **Secondary Goal:** Explore the southern part of Route 2 to find Professor Oak's Aide.
+- **Tertiary Goal:** Acquire a drink for the Saffron City guard.
 
 ## V. Key Discoveries & Navigational Lessons
 - **CRITICAL NAVIGATION LESSON:** Route 2 is segmented. The Diglett's Cave exit at (13, 11) leads to a small, isolated northern section. Do not use Diglett's Cave as a shortcut to Viridian Forest.
