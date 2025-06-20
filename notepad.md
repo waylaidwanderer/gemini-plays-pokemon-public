@@ -35,7 +35,7 @@
 | `battle_menu_navigator`        | ✅ Reliable           | Use for all complex menu navigation in battles.                             |
 | `tm_tutor_agent`               | ✅ Reliable           | Use for TM/HM decisions.                                                    |
 | `progression_advisor_agent`    | ✅ Reliable           | **Use proactively** when entering new areas to confirm objectives.          |
-| `multi_map_route_planner_agent`| ⚠️ **High Priority Test** | **Use BEFORE next multi-map journey** to prevent navigational errors.         |
+| `multi_map_route_planner_agent`| ❌ **Flawed - Requires Refinement** | Cannot handle routes requiring traversal of intermediate maps (e.g., Mt. Moon). |
 | `pokemon_training_advisor_agent`| ❓ Untested           | **Test before next major battle** to formulate training plans.                |
 | `rival_battle_strategist_agent`| ❓ Untested           | **Create & use BEFORE next rival battle.** Proactive planning is more effective. |
 
