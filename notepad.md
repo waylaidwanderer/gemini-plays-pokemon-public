@@ -61,3 +61,5 @@
 - **Healing Advisor Agent (Defined):** Created to combat reckless low-HP play by providing data-driven healing recommendations.
 - **Pathfinder Agent (Refined T16374):** Added mandatory path validation and connectivity checks to its system prompt to prevent it from generating invalid paths (e.g., up ledges).
 - **Move Tutor Advisor Agent (Defined T16376):** Created to recommend the best Pokémon to teach a given TM or HM to. Successfully used to identify SUBTERRA as the ideal candidate for FLASH.
+
+- **Route 11 East Blockage (Assumption):** I assume a Snorlax blocks the path east of the Route 11 gatehouse, but I haven't confirmed this visually. I need to explore eastward to identify the actual obstacle.
