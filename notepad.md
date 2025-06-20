@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v4.1)
+# Gem's Strategic Journal (v4.2)
 
 ## I. Core Principles & Lessons Learned
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
@@ -13,6 +13,7 @@
     - Always identify and prioritize using the most powerful super-effective moves to end battles quickly (e.g., Wing Attack vs. Ground-types).
 - **Navigation (REFINED):**
     - **Verify map connectivity with the World Knowledge Graph** before assuming a "shortcut" (like Diglett's Cave) leads to the desired destination. Map segments can be isolated.
+- **UI Glitch Troubleshooting:** When a menu or UI element bugs out, do not repeat the failing action. Systematically test every other available option on the screen to escape the loop. This was a hard lesson learned at the Cerulean PC.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:**
@@ -36,10 +37,10 @@
 | `tm_tutor_agent`               | ✅ Reliable           | Use for TM/HM decisions.                                                    |
 | `progression_advisor_agent`    | ✅ Reliable           | **Use proactively** when entering new areas to confirm objectives.          |
 | `multi_map_route_planner_agent`| ✅ Reliable           | Logic for non-contiguous maps now refined. Monitor for new edge cases.      |
+| `rival_battle_strategist_agent`| ✅ Reliable           | **Use BEFORE next rival battle.** Proactive planning is more effective.      |
 | `hm_mule_finder_agent`         | ❓ Untested           | **Test before next HM use** to validate its recommendations.                |
-| `evolution_advisor_agent`      | ❓ Untested           | **Test soon** to help plan long-term party development.                     |
+| `evolution_advisor_agent`      | ✅ Reliable           | **Test soon** to help plan long-term party development.                     |
 | `pokemon_training_advisor_agent`| ❓ Untested           | **Test before next major battle** to formulate training plans.                |
-| `rival_battle_strategist_agent`| ❓ Untested           | **Create & use BEFORE next rival battle.** Proactive planning is more effective. |
 
 ## IV. Current Actionable Objectives
 - **Objective:** Acquire HM05 (Flash). **Plan:** Travel from Pewter City, south through Viridian Forest, to the southern part of Route 2. Use Cut on the tree to access the aide's house.
