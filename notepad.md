@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v7.3)
+# Gem's Strategic Journal (v7.4)
 
 ## I. Core Principles & Lessons Learned
 - **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
@@ -35,10 +35,10 @@
     1. **IMMEDIATE:** Prioritize accurate data entry for all agent calls. Trust the Game State information as the absolute source of truth.
     2. **IMMEDIATE:** Prioritize clearing the current map of all trainers and unseen tiles before leaving for non-critical tasks like healing.
     3. **POST-EXPLORATION:** Proceed with the Primary Goal: Obtain HM05 (Flash) by finding and traversing Diglett's Cave.
-    4. **NEW:** Test `battle_move_advisor_agent` and `trainer_hunter_agent` at the next suitable opportunity.
+    4. **NEW:** Test `trainer_hunter_agent` at the next suitable opportunity.
 
 ## IV. Current Actionable Objectives (REVISED)
-- **Primary Goal:** Obtain HM05 (Flash). **Plan:** Fully explore Route 11 to find the entrance to Diglett's Cave. Traverse the cave to reach the isolated southern part of Route 2 where the aide with Flash is located.
+- **Primary Goal:** Obtain HM05 (Flash). **Plan:** Explore the southern part of Route 2 to find the building containing Professor Oak's aide.
 - **Secondary Goal:** Acquire a drink for the Saffron City guard. **Plan:** Investigate the Celadon Dept. Store for a drink item (long-term objective).
 - **Tertiary Goal:** Fully explore all routes accessible from my current location. **Plan:** Systematically clear each route of trainers, items, and unseen tiles before moving on.
 
@@ -53,14 +53,14 @@
 - **Underground Path Item Hint:** A girl in the Route 6 gatehouse said people lose things in the N-S tunnel (ID 119). **Hypothesis:** There is a hidden item there. **Test:** Re-explore the Underground Path and search for hidden items.
 
 ## VII. Future Agent Ideas
-
-## VIII. Agent Development Log
-- **Healing Advisor Agent (Defined):** Created to combat reckless low-HP play by providing data-driven healing recommendations. It analyzes party health, finds the nearest Pokémon Center via the WKG, and assesses the risk of the travel path.
-- **Unseen Tile Navigator Agent (Deleted):** This agent was made redundant by the more efficient `cluster_explorer_agent`. Deleted to make room for the `healing_advisor_agent`.
 - **Healing Advisor Agent (Idea v2):** An agent to combat reckless low-HP play.
   - **Input:** Player's full party data (HP, status), current `map_id`.
   - **Function:**
     1. Use WKG to find the path to the nearest Pokémon Center.
     2. Analyze the path for grass tiles and potential trainer encounters (by checking map sprites against defeated markers).
     3. Calculate risk based on party health vs. potential encounters.
-    4. **Output:** A recommendation ("HEAL IMMEDIATELY" or "SAFE TO PROCEED") and the calculated path to the Pokémon Center.
+    4. **Output:** A recommendation ("HEAL IMMEDIATELY" or "SAFE_TO_PROCEED") and the calculated path to the Pokémon Center.
+
+## VIII. Agent Development Log
+- **Healing Advisor Agent (Defined):** Created to combat reckless low-HP play by providing data-driven healing recommendations. It analyzes party health, finds the nearest Pokémon Center via the WKG, and assesses the risk of the travel path.
+- **Unseen Tile Navigator Agent (Deleted):** This agent was made redundant by the more efficient `cluster_explorer_agent`. Deleted to make room for the `healing_advisor_agent`.
