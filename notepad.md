@@ -1,13 +1,12 @@
 # Gem's Strategic Journal
 
 ## I. Core Principles & Lessons Learned
-- **Triage & Prioritize:** Critical needs (like healing a near-fainted party) ALWAYS come before routine admin.
+- **Triage & Prioritize:** Critical needs (like healing) ALWAYS come before routine admin.
 - **Progression over Perfection:** The critical path is key. Don't get bogged down if the main objective is elsewhere.
 - **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it, and if it fails, immediately pivot. Do not repeat failed actions.
-- **Trust the Game State & Agents:** The game data and agent outputs are the source of truth.
+- **Trust, but Verify Agent Output:** Agents operate on the current game state. If an agent reports a path is blocked by a removable obstacle (like a Cut-able tree), the correct action is to path *to* the obstacle, remove it, and then re-calculate the path to the final destination. The agent isn't wrong; the map state needs to be changed by me first.
 - **Mark Everything & Use Your Markers:** Diligently mark key locations and trust the warnings you set for yourself.
 - **Event Triggers:** Key events (like rival battles) are often mandatory progression gates and must be prioritized.
-- **Strategic Triage:** For simple, non-recurring tasks, manual execution is more efficient than prolonged, in-the-moment agent debugging. Note the failure and refine the agent later.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:**
@@ -27,54 +26,39 @@
 - **Field Moves & Navigation:**
     - DIG can be used to escape caves but **cannot be used in cities**.
     - STRENGTH can be used to move big rocks (NPC hint).
-    - CUT: Interacting with a cuttable tree prompts the use of the move. The HM item in the bag is a shortcut to the Pokémon selection screen, not a direct activation.
-- **Dead End Definition:** An area is a 'dead end' ONLY if there is one reachable exit path. An area with two or more exits is a thoroughfare.
+    - CUT: Interacting with a cuttable tree prompts the use of the move. The HM item in the bag is a shortcut, not a direct activation.
+- **Respawning Obstacles:** Cuttable trees respawn after changing maps (e.g., entering/leaving a building).
 
-## III. Agent Log & Action Plan
+## III. Puzzle Mechanics & Solutions
+- **Vermilion Gym Puzzle:**
+    - The goal is to find two switches hidden in trash cans.
+    - After finding the first switch, the second is **always in an adjacent can** (Up, Down, Left, or Right).
+    - **CRITICAL:** If you check a non-adjacent can OR the wrong adjacent can after finding the first switch, the **entire puzzle resets**, and the location of the first switch is randomized again.
+
+## IV. Agent Log & Action Plan
 | Agent Name                     | Status     | Action Item                                                                 |
 |--------------------------------|------------|-----------------------------------------------------------------------------|
-| `pathfinder_agent`             | ✅ Reliable | Confirmed reliable. Agent correctly identified an unreachable target. My previous assumption was incorrect. |
-| `gym_puzzle_solver_agent`      | ✅ Reliable | Use for systematic puzzle solving.                             |
+| `pathfinder_agent`             | ✅ Reliable | Confirmed reliable. My previous issues were user error, not agent failure.  |
+| `gym_puzzle_solver_agent`      | ✅ Reliable | Use for systematic puzzle solving.                                          |
 | `unseen_tile_navigator_agent`  | ✅ Reliable | Use for systematic exploration of unseen tiles.                             |
 | `battle_menu_navigator`        | ✅ Reliable | Use for all complex menu navigation in battles.                               |
 | `tm_tutor_agent`               | ✅ Reliable | Use for TM/HM decisions.                                                    |
 | `pokemon_training_advisor_agent`| ❓ Untested | Use before major battles to formulate training plans.                       |
-| `ship_explorer_agent`          | ❓ Untested | Test if I ever need to explore a large, multi-floor area again.             |
 | `multi_map_route_planner_agent`| ❓ Untested | Test when planning a multi-map journey.                                     |
 | `progression_advisor_agent`    | ❓ Untested | Use when unsure about the next major story objective.                         |
 | `rival_battle_strategist_agent`| ❓ Untested | **Create & use BEFORE next rival battle.** Proactive planning is more effective. |
 
-## IV. Current Operation
-- **Operation: Thunder Badge**
+## V. Current & Completed Operations
+- **Operation: Thunder Badge (In Progress)**
     - **Objective:** Defeat Lt. Surge and earn the Thunder Badge.
-    - **Obstacle:** The gym has an electric barrier puzzle that must be solved by finding two switches hidden in trash cans.
-    - **Status:** Puzzle-solving in progress. Party is injured, retreating to heal.
-    - **Intel:** Lt. Surge uses a single, extremely powerful Pokémon that knows a strong Water-type move. The level cap is 24.
-
-## V. Completed Operations
-- **Operation: Sea Sick for Cut**
-    - **Objective:** Obtain HM01 (Cut) from the S.S. Anne Captain.
+- **Operation: Sea Sick for Cut (Complete)**
     - **Result:** Success. Defeated Rival Pixel and obtained HM01 from the Captain.
 
 ## VI. Discoveries & Points of Interest
 - **Underground Path (Route 5 to 6):** An NPC mentioned that people often lose things here. Could be a hint for a hidden item.
-- **Vermilion City:** The building at (10,14) is the Pokémon Fan Club.
-- **TMs Found:**
-  - TM08 (BODYSLAM): Found in cabin (map_id: 102, (13,16)).
-- **Key Items Found:**
-  - GOOD ROD: Received from Fishing Guru's brother in Vermilion City (map_id: 163, (3,5)).
-- **Hypothesis:** Stun Spore may not work on Poison-type Pokémon in this ROM hack. Need to test this on another Poison-type to verify if it's a mechanic or just a miss.
+- **TMs Found:** TM08 (BODYSLAM) in S.S. Anne cabin.
+- **Key Items Found:** GOOD ROD from Fishing Guru's brother.
+- **Hypothesis:** Stun Spore may not work on Poison-type Pokémon. (Need to test again).
 
-## VII. System Mechanics & Quirks
-- **Input Restriction:** The system does NOT allow mixing directional buttons (Up, Down, Left, Right) and action buttons (A, B) in the same `buttons_to_press` array for a single turn. Battle menu navigation must be done one *type* of button press per turn (e.g., all directional presses in one turn, all action presses in another).
-
-- **Respawning Obstacles:** Cuttable trees respawn after changing maps (e.g., entering/leaving a building).
-
-- **Pathfinder Agent Post-Mortem:** The agent was correct all along. My repeated attempts to path to a tile *behind* an impassable obstacle (the respawned tree) were the source of the 'path not found' errors. This was a critical user error, not a tool failure. Lesson: Always verify the target tile is reachable *before* pathing, and trust the agent's negative results as valid information about the game state.
-
-## VIII. Agent Ideas & Future Plans
+## VII. Agent Ideas & Future Plans
 - **Pokémon Locator Agent:** An agent that could take a Pokémon's name as input and search my notepad and memory to report known catch locations. This could be very helpful for future team-building or Pokédex completion.
-
-## IX. Puzzle Mechanics & Solutions
-- **Vermilion Gym Puzzle Reset:** Confirmed. If the second switch guess is incorrect, the entire puzzle resets, and the first switch's location is randomized again.
-- **Leaving Gym Mid-Puzzle:** Hypothesis: Leaving the gym *before* finding the first switch might not trigger a reset. Needs testing.
