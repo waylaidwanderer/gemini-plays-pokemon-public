@@ -62,3 +62,5 @@
 - **TMs Found:** TM08 (BODYSLAM), TM24 (THUNDERBOLT).
 - **Key Items Found:** GOOD ROD, HM01 (CUT).
 - **Lt. Surge's Raichu (Lv. 29):** Knows Body Slam and Surf.
+
+- **CRITICAL NAVIGATION LESSON:** Route 2 is segmented. The Diglett's Cave exit at (13, 11) leads to a small, isolated section with no exits other than the warp back into the cave house. The main path from Pewter City to Viridian Forest is on a separate, unreachable part of this map. Do not use Diglett's Cave as a shortcut to Viridian Forest.
