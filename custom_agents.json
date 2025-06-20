@@ -55,14 +55,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_move\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"},\"effectiveness\":{\"type\":\"string\",\"enum\":[\"Super-effective (4x)\",\"Super-effective (2x)\",\"Neutral\",\"Not very effective (0.5x)\",\"Not very effective (0.25x)\",\"No effect (0x)\"]}},\"required\":[\"recommended_move\",\"justification\",\"effectiveness\"]}",
     "agent_can_run_code": false
   },
-  "exp_tracker_agent": {
-    "agent_name": "exp_tracker_agent",
-    "agent_description": "Analyzes party EXP before and after a battle to determine how EXP is distributed, helping to test hypotheses about the EXP. All item.",
-    "agent_system_prompt": "You are an EXP analysis agent. Your task is to compare two lists of Pokémon party data (before and after a battle) and determine the exact EXP gained by each Pokémon. Your output must clearly list each Pokémon and their individual EXP gain. Also, provide a summary of the findings, specifically noting which Pokémon gained EXP (e.g., 'Only the active Pokémon gained EXP', 'All non-fainted Pokémon gained EXP', etc.).",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party_before_battle\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"exp\":{\"type\":\"integer\"}},\"required\":[\"name\",\"exp\"]}},\"party_after_battle\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"exp\":{\"type\":\"integer\"}},\"required\":[\"name\",\"exp\"]}}},\"required\":[\"party_before_battle\",\"party_after_battle\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"exp_gains\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"exp_gained\":{\"type\":\"integer\"}},\"required\":[\"pokemon_name\",\"exp_gained\"]}},\"summary\":{\"type\":\"string\"}},\"required\":[\"exp_gains\",\"summary\"]}",
-    "agent_can_run_code": false
-  },
   "trainer_hunter_agent": {
     "agent_name": "trainer_hunter_agent",
     "agent_description": "Identifies un-battled trainers on the current map by comparing the NPC list with map markers. Provides a list of coordinates for trainers that do not have a 'defeated' marker.",
