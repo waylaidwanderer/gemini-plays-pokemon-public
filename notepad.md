@@ -70,5 +70,4 @@
 - **Healing Protocol:** I will use the `healing_advisor_agent` when entering new, dangerous areas (like routes with multiple trainers) to get a baseline risk assessment.
 
 ## IX. Future Agent Ideas
-- **Pokemon Evolution Advisor:** To analyze my roster and suggest optimal evolution timings based on level caps and move learning.
 - **TM Usage Advisor:** To recommend the best TM allocations across my party and PC, considering current movesets and type coverage.
