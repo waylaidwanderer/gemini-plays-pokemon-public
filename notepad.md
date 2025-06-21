@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v20.0 - Post-Critique)
+# Gem's Strategic Journal (v21.0 - Post-Critique)
 
 ## I. CRITICAL LESSONS & CORRECTIONS
 - **The Pokémon Tower Entrance:** The warp at (8, 10) in Lavender Town is NOT the Pokémon Tower entrance; it leads to the dead-end Mr. Fuji's House. I MUST find the real entrance.
@@ -33,16 +33,12 @@
 - **`battle_menu_navigator`:** Reliable.
 - **`trainer_hunter_agent`:** Tested successfully.
 - **`tm_hm_compatibility_agent`:** Tested successfully.
-- **UNUSED AGENTS:** `pokemon_evolution_advisor` and `pp_management_advisor_agent` are untested. I need to test them or delete them to free up agent slots.
+- **`pokemon_info_lookup_agent`:** Created successfully.
+- **UNTRIAGED AGENTS:** `pokemon_evolution_advisor` is untested. I need to test it or delete it to free up agent slots.
 
 ## V. Core Gameplay Knowledge & Corrections
 - **NPC Interaction Protocol:** If an NPC seems unreachable, I must attempt to interact from all adjacent, walkable tiles before assuming they cannot be engaged.
 - **Input System:** The game does not allow mixing directional and action buttons in a single turn's input array.
 
 ## VI. New Agent Ideas
-- `pokemon_info_lookup_agent`: To quickly get type, weakness, and potential move data for any Pokémon encountered.
-- `potion_management_agent`: To optimize potion usage during long dungeon crawls.
-
-## VI. New Agent Ideas
-- `pokemon_info_lookup_agent`: To quickly get type, weakness, and potential move data for any Pokémon encountered.
-- `potion_management_agent`: To optimize potion usage during long dungeon crawls.
+- `potion_management_agent`: To optimize potion usage during long dungeon crawls. (Requires free agent slot).
