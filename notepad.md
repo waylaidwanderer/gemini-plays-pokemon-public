@@ -36,4 +36,3 @@
 - **`catch_advisor_agent`:** Awaiting first test case.
 
 ## V. Agent Ideas
-- **Boulder Puzzle Solver:** An agent that can analyze boulder positions and map layouts to provide step-by-step solutions for Strength puzzles.
