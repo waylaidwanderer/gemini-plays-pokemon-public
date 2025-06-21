@@ -55,14 +55,6 @@
     "agent_output_schema": "{\"type\":\"object\", \"properties\": {\"trainer_found\": {\"type\": \"boolean\"}, \"trainer_name\": {\"type\": \"string\"}, \"trainer_coordinates\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}}, \"path_to_trainer\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}}}}}",
     "agent_can_run_code": true
   },
-  "progression_advisor_agent": {
-    "agent_name": "progression_advisor_agent",
-    "agent_description": "Analyzes current progress (badges, key items, location) and the World Knowledge Graph to recommend the next logical major objective (e.g., 'Head to Celadon City for the 4th Gym').",
-    "agent_system_prompt": "You are a Pokémon Progression Advisor for Pokémon Yellow Legacy. Your task is to provide high-level strategic guidance. Analyze the player's current badges, key items, current `map_id`, and the `world_knowledge_graph_json_string`. Based on this data, determine the most logical next major objective, such as which city to visit next or which Gym to challenge. Your output should be a clear, concise recommendation. You MUST use your `run_code` tool to analyze the WKG to find unexplored routes leading from the player's current location or previously visited cities. Consider standard Pokémon game progression logic (e.g., linear route progression unless a key item like Surf or Fly opens up new paths). The goal is to prevent the player from getting lost or stuck. Your output must conform to the schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"badges_obtained\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"key_items\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_map_id\":{\"type\":\"string\"}},\"required\":[\"badges_obtained\",\"key_items\",\"current_map_id\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_next_objective\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"suggested_destination_map_id\":{\"type\":\"string\"}},\"required\":[\"recommended_next_objective\",\"reasoning\",\"suggested_destination_map_id\"]}",
-    "agent_can_run_code": true
-  },
   "tm_hm_compatibility_agent": {
     "agent_name": "tm_hm_compatibility_agent",
     "agent_description": "Analyzes a given TM or HM and the player's full roster to identify all compatible Pokémon.",
