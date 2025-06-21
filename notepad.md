@@ -39,4 +39,3 @@
 - **`catch_advisor_agent`:** Awaiting first test case.
 
 ## V. Agent Ideas
-- **Progression Advisor:** An agent that analyzes my current badges, key items, and the World Knowledge Graph to suggest the next logical major objective or map to visit. This could help prevent getting lost or sequence-breaking by providing a high-level strategic direction.
