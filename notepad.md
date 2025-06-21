@@ -68,6 +68,3 @@
 - **Proactive Testing Mandate:** After defining or significantly refining an agent, I MUST devise a simple, non-critical test case to validate its functionality before relying on it for progression-critical tasks.
 - **New Route Protocol (Validated):** Upon entering a new route with trainers, I will use the `trainer_hunter_agent` to get a complete list of targets to enable strategic planning. (Successfully deployed on Route 9, identified 4 unbeaten trainers).
 - **Healing Protocol:** I will use the `healing_advisor_agent` when entering new, dangerous areas (like routes with multiple trainers) to get a baseline risk assessment.
-
-## IX. Future Agent Ideas
-- **TM Usage Advisor:** To recommend the best TM allocations across my party and PC, considering current movesets and type coverage.
