@@ -28,7 +28,7 @@
 4.  **Validate, then Deploy:** Only use the refined agent for critical tasks after it passes a simple validation test.
 
 ### Agent Status & Refinement Plan
-- **`route_navigator_agent`:** **UNRELIABLE.** The agent's logic for pathing to impassable targets is still flawed, especially regarding adjacent tiles. It must be considered a critical point of failure and requires a fundamental rewrite or deletion if it cannot be fixed soon.
+- **`route_navigator_agent`:** Reliable, but requires valid, reachable target coordinates. A 'path not found' error indicates an invalid target.
 - **`battle_move_advisor_agent`:** Reliable.
 - **`battle_menu_navigator`:** Reliable.
 - **`trainer_hunter_agent`:** Tested successfully.
