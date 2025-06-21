@@ -56,7 +56,8 @@
     - SUBTERRA: Wait for Lv. 31 (Slash).
     - PULSAR: Wait for Lv. 35 (Swift).
     - CRAG: Evolve at Lv. 25.
-- **Test Case 2:** `trainer_hunter_agent` - **FAILED**
-  - **Result:** Agent hallucinated a Hiker at (4, 35) when no trainers were present on the map.
-  - **Key Takeaways:** The agent is critically flawed and invents data. It needs a more robust prompt to handle cases with no trainers.
-- **Test Case 3:** `tm_usage_advisor_agent` - Use with current TMs and party.
+- **Test Case 2 (`trainer_hunter_agent`): COMPLETE**
+  - **Result:** Agent correctly returned `trainer_found: false` when no trainers were present. The fix to prevent hallucinations was successful.
+  - **Key Takeaways:** The agent is now reliable for identifying the presence or absence of trainers.
+- **Test Case 3 (`tm_usage_advisor_agent`): ON HOLD**
+  - **Reason:** Agent requires Pokémon stats (Attack, Defense, etc.) which are not available in the current game state information. Cannot be tested until this data is accessible.
