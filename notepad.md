@@ -38,5 +38,3 @@
 - **`pokemon_evolution_advisor`:** Tested successfully.
 - **`tm_usage_advisor_agent`:** Awaiting stat data for testing.
 - **`catch_advisor_agent`:** Awaiting first test case.
-
-## V. Agent Ideas
