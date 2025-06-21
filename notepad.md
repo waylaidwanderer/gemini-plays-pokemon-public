@@ -1,9 +1,10 @@
-# Gem's Strategic Journal (v21.0 - Post-Critique)
+# Gem's Strategic Journal (v22.0 - Post-Critique)
 
 ## I. CRITICAL LESSONS & CORRECTIONS
 - **The Pokémon Tower Entrance:** The warp at (8, 10) in Lavender Town is NOT the Pokémon Tower entrance; it leads to the dead-end Mr. Fuji's House. I MUST find the real entrance.
 - **Verify, Don't Assume:** My locational hallucinations were a critical failure. I MUST verify my `map_id` and coordinates from the Game State before every action. Trusting memory is unreliable.
 - **Dead End Definition:** An area is NOT a dead end if there are `Reachable Unseen Tiles`. I must clear them before moving on.
+- **Navigable Warps:** I must pay close attention to the `reachable: yes` property in the Game State Information when assessing navigable warps to avoid hallucinations.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
@@ -34,11 +35,8 @@
 - **`trainer_hunter_agent`:** Tested successfully.
 - **`tm_hm_compatibility_agent`:** Tested successfully.
 - **`pokemon_info_lookup_agent`:** Created successfully.
-- **UNTRIAGED AGENTS:** `pokemon_evolution_advisor` is untested. I need to test it or delete it to free up agent slots.
+- **`pokemon_evolution_advisor`:** Currently under review.
 
 ## V. Core Gameplay Knowledge & Corrections
 - **NPC Interaction Protocol:** If an NPC seems unreachable, I must attempt to interact from all adjacent, walkable tiles before assuming they cannot be engaged.
 - **Input System:** The game does not allow mixing directional and action buttons in a single turn's input array.
-
-## VI. New Agent Ideas
-- `potion_management_agent`: To optimize potion usage during long dungeon crawls. (Requires free agent slot).
