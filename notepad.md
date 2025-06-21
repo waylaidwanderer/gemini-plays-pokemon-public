@@ -39,3 +39,6 @@
 - **CRITICAL TYPE MATCHUP CORRECTION:** Ground-type moves ARE super-effective (2x) against Rock/Ground dual-types like Geodude.
 - **NPC Interaction Protocol:** If an NPC seems unreachable, I must attempt to interact from all adjacent, walkable tiles before assuming they cannot be engaged.
 - **Input System:** The game does not allow mixing directional and action buttons in a single turn's input array.
+
+## VI. Agent & Tool Backlog
+- **Agent Review:** The `tm_hm_compatibility_agent` and `pokemon_evolution_advisor` agents are unused. I need to test them in a relevant situation soon or delete them to free up agent slots.
