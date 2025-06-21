@@ -41,3 +41,6 @@
 
 ## V. Future Agent Ideas
 - **EXP Gain Tracker/Leveling Planner:** Could track EXP gains and suggest efficient leveling paths to reach the cap for multiple Pokémon, avoiding over-leveling.
+
+- **TM/HM Compatibility Agent:** Given a TM/HM and my roster, it would identify all compatible Pokémon.
+- **Item Usage Advisor:** Analyzes my inventory and team to suggest optimal item uses, like which TM to teach to which Pokémon.
