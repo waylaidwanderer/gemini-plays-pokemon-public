@@ -40,7 +40,7 @@
 - **`pokemon_evolution_advisor`:** Tested successfully.
 
 ## V. Future Agent Ideas & Cleanup
-- **PP Management Advisor:** An agent to suggest moves based on conserving PP. **Decision:** Implement this after `route_navigator_agent` is fixed, or remove this note if it proves unnecessary.
+
 - **Agent Review:** Test and integrate unused agents (`progression_advisor_agent`, `tm_hm_compatibility_agent`, `pokemon_evolution_advisor`) or delete them.
 
 ## VI. Core Gameplay Knowledge & Corrections
