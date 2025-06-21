@@ -32,9 +32,7 @@
 4.  **Validate, then Deploy:** Only use the refined agent for critical tasks after it passes a simple validation test.
 
 ### Agent Status & Refinement Plan
-- **`route_navigator_agent`:** **CRITICAL FAILURE - MUST FIX.** The agent has a fundamental pathfinding flaw. It is not correctly identifying basic impassable walls, leading to invalid paths.
-    - **Problem:** The agent's BFS logic is not correctly building the grid of impassable tiles from the map XML.
-    - **Plan (v3):** Overhaul the system prompt. The new instructions will force the agent's Python code to follow a strict, step-by-step process: 1. Parse XML and build a complete grid. 2. Explicitly iterate through ALL tiles and child elements (Objects, etc.) to build a comprehensive set of impassable coordinates. 3. ONLY THEN run the BFS on this validated grid. This takes absolute priority over all other features like HM or elevation handling.
+- **`route_navigator_agent`:** **CRITICAL FAILURE - UNUSABLE.** Agent v3 is still fundamentally broken. Its core pathfinding logic fails to identify basic impassable walls and generates invalid paths. It cannot be trusted for navigation. All further attempts to refine this agent are on hold. Manual navigation is required until a new agent strategy can be developed.
 - **`battle_move_advisor_agent`:** Fixed a critical flaw in its Gen 1 type chart knowledge (incorrectly had Ground immune to Flying). It is now reliable.
 - **`battle_menu_navigator`:** Fixed a flawed assumption about the move menu layout (it's a vertical list, not a 2x2 grid). It is now reliable for move selection.
 - **`trainer_hunter_agent`:** Rebuilt and tested successfully.
