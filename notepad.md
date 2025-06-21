@@ -52,3 +52,7 @@
 - **(NAVIGATION):** For simple, small, fully-explored rooms (like a Pokémon Center), navigate manually. Do not overuse the pathfinder agent.
 
   - Fighting-type moves are not very effective against Poison-type Pokémon (e.g., THISTLE's DOUBLE KICK vs. Ekans).
+
+# 7. Agent Ideas
+- **Snorlax Interaction Agent:** Takes inventory and notepad contents to hypothesize how to wake up Snorlax. Checks for key items like 'POKE FLUTE' or related NPC dialogue.
+- **HM Requirement Forecaster:** Analyzes map XML for obstacles (water, trees, boulders) to predict necessary HMs for upcoming areas, aiding in party planning.
