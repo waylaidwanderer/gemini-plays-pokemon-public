@@ -24,10 +24,11 @@
 - **Item Discovery:** MOON STONE on Route 2 (south section).
 
 ## IV. Agent & Tool Strategy
-### Agent Refinement Protocol (MANDATORY)
-1.  **Isolate:** After defining or refining an agent, test it in a simple, non-critical, controlled scenario.
-2.  **Validate:** The test case must have a known, verifiable correct outcome.
-3.  **Deploy:** Only once an agent passes isolated validation should it be used for critical tasks in unknown environments.
+### Agent Refinement Protocol (MANDATORY - v2)
+1.  **Hypothesize & Isolate:** Form a specific, small hypothesis for what is failing (e.g., "agent fails at ledges"). Test this in a controlled, simple scenario first, not a complex live one.
+2.  **Iterate Small:** Make small, incremental changes to the prompt. Avoid large, complex rewrites.
+3.  **Manual Unstick:** If an agent is stuck in a logic loop, take 1-2 manual steps to change the game state (e.g., reveal a new tile). This provides new input that can break the loop. Progress over perfection.
+4.  **Validate, then Deploy:** Only use the refined agent for critical tasks after it passes a simple validation test.
 
 ### Agent Status & Refinement Plan
 - **`route_navigator_agent`:** **TOP PRIORITY REFINEMENT.** The agent currently fails to account for HMs.
