@@ -4,6 +4,7 @@
   - `battle_switch_advisor_agent` MUST be used before every non-forced switch in battle.
   - `training_hotspot_advisor` MUST be used to find efficient grinding spots, not just defaulting to the nearest grass patch.
 - **(RULE #3) Trust Game State Data:** The Game State Information (especially `Reachable Unseen Tiles` and map connection data) is the absolute source of truth. Do not hallucinate or misread it.
+- **(RULE #4) Mandatory Location Check:** Before ANY action (tool call, movement), I MUST verify my current map_id and coordinates against the Game State. No exceptions.
 
 # 2. Party & Level Caps
 - **Current Cap (2 badges):** 24
