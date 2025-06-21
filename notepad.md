@@ -50,3 +50,5 @@
 # 6. Procedural Reminders & Self-Correction
 - **(CHECKLIST):** Before starting a new major action (like training or entering a dungeon), check the status of all party members first.
 - **(NAVIGATION):** For simple, small, fully-explored rooms (like a Pokémon Center), navigate manually. Do not overuse the pathfinder agent.
+
+  - Fighting-type moves are not very effective against Poison-type Pokémon (e.g., THISTLE's DOUBLE KICK vs. Ekans).
