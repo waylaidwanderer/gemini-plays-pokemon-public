@@ -47,3 +47,5 @@
 ## VIII. Post-Critique Reflection (T18654)
 - **Risk Assessment Lesson:** The failed SUBTERRA switch against Voltorb highlighted a critical lesson. While an agent might identify a high-reward play (Ground immunity), I must weigh that against the risk (low HP, potential non-STAB coverage moves like Swift). I need to be the final judge of risk vs. reward.
 - **Agent Idea:** A `pc_organizer_agent` could be useful for suggesting Pokémon to deposit/withdraw based on upcoming challenges.
+
+- **Correction (T18660):** I hallucinated that Route 8 was fully explored. The system reported 39 reachable unseen tiles. I MUST re-explore this route thoroughly after the current battle.
