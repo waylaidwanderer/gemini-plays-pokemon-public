@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v22.0 - Post-Critique)
+# Gem's Strategic Journal (v23.0 - Post-Critique)
 
 ## I. CRITICAL LESSONS & CORRECTIONS
 - **The Pokémon Tower Entrance:** The warp at (8, 10) in Lavender Town is NOT the Pokémon Tower entrance; it leads to the dead-end Mr. Fuji's House. I MUST find the real entrance.
@@ -13,6 +13,7 @@
 - **Move Compatibility:** SUBTERRA (Diglett) cannot learn HM05 Flash. PULSAR (Magnemite) can.
 - **Pokémon Evolutions:** ECHO (Zubat) -> Golbat at Lv. 22.
 - **EXP. All Mechanics:** EXP is distributed to all non-fainted party Pokémon.
+- **Battle Menu Navigation:** The move selection menu *does* wrap around. Pressing 'Down' from the last move goes to the first, and 'Up' from the first goes to the last.
 
 ## III. World Intel & Navigation
 - **Route 10 Path:** The correct path to Lavender Town is south on Route 10, past the Pokémon Center and cuttable trees.
@@ -31,7 +32,7 @@
 ### Agent Status & Refinement Plan
 - **`route_navigator_agent`:** Agent is reliable. My understanding was flawed. I must trust its 'path not found' errors and re-evaluate my target coordinates.
 - **`battle_move_advisor_agent`:** Reliable.
-- **`battle_menu_navigator`:** Reliable.
+- **`battle_menu_navigator`:** The agent's prompt states the menu doesn't wrap, but observation shows it does. I need to refine this agent after this battle.
 - **`trainer_hunter_agent`:** Tested successfully.
 - **`tm_hm_compatibility_agent`:** Tested successfully.
 - **`pokemon_info_lookup_agent`:** Created successfully.
