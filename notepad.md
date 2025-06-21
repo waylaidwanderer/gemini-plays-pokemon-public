@@ -11,8 +11,8 @@
 - SPARKY (Pikachu): Lv24 (Capped)
 - SPROUT (Gloom): Lv24
 - PIP (Pidgeotto): Lv24
-- THISTLE (Nidoran♀): Lv16
-- PARCH (Sandslash): Lv22
+- THISTLE (Nidorina): Lv17
+- PARCH (Sandslash): Lv24
 
 # 3. Game Mechanics & World Insights
 - **Level Cap:** Fake EXP gain message at cap; EXP value doesn't change.
@@ -34,6 +34,7 @@
   - Ground-types are immune to paralysis from moves like Stun Spore.
   - Poison moves are not very effective against Ground-types.
   - Ground-type moves are not very effective against Bug-type Pokémon (e.g., PARCH's DIG vs. Caterpie).
+  - Fighting-type moves are not very effective against Poison-type Pokémon (e.g., THISTLE's DOUBLE KICK vs. Ekans).
 - **Move Mechanics:**
   - **Two-Turn Moves (Dig, Fly, etc.):** Pokémon are invulnerable during the first turn. Attacking them during this phase will always result in a miss.
   - **Sleep Status:** A sleeping Pokémon CANNOT perform any actions. If put to sleep while underground, it cannot complete the second turn of a move like DIG. The sleep counter only decreases if 'FIGHT' is selected. Hypnosis fails against an already sleeping Pokémon.
@@ -42,16 +43,12 @@
   - **Adaptive Tactics:** When an opponent uses accuracy-lowering moves (e.g., Sand-Attack), persisting with low-accuracy attacks is inefficient. Switch to moves that can't miss or have higher base accuracy.
 
 # 5. Critical Failure Log
-- **(FAILURE LOG - Tactical):** Persisted with a failing strategy (DIG vs. Sand-Attack). Must adapt quickly.
+- **(FAILURE LOG - Tactical):** Persisted with a failing strategy (Double Kick vs. Sand-Attack). Must adapt quickly. (Route 11)
 - **(FAILURE LOG - Tactical):** Careless switch (THISTLE vs. Drowzee) led to a faint due to ignoring a 4x Psychic weakness. This initiated the 'grind-faint-heal' loop. (Route 11).
 - **(FAILURE LOG - Navigation):** Misjudged dead ends by ignoring `Reachable Unseen Tiles` and map exits. (Route 11 x2, Route 2 x1).
 - **(FAILURE LOG - Navigation):** Forgotten that defeated trainers are impassable obstacles. (Mt. Moon B2F, Route 11).
-- **(FAILURE LOG - Data):** Hallucinated unseen tiles and location multiple times. Must verify with game state data.
+- **(FAILURE LOG - Data):** Hallucinated location. Believed I was in Route 11 Gatehouse when still on Route 11. Must verify with game state data.
 
 # 6. Procedural Reminders & Self-Correction
 - **(CHECKLIST):** Before starting a new major action (like training or entering a dungeon), check the status of all party members first.
 - **(NAVIGATION):** For simple, small, fully-explored rooms (like a Pokémon Center), navigate manually. Do not overuse the pathfinder agent.
-
-  - Fighting-type moves are not very effective against Poison-type Pokémon (e.g., THISTLE's DOUBLE KICK vs. Ekans).
-
-# 7. Agent Ideas
