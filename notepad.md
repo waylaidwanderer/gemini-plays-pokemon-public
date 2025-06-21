@@ -41,3 +41,7 @@
 ## V. Old/Incorrect Notes (for reference)
 - ~~`battle_move_advisor_agent` fixed to handle 4x weakness~~ (This was based on my own misunderstanding).
 - ~~Trust the `route_navigator_agent`~~ (The agent has a confirmed flaw with elevation and must be fixed before being trusted).
+
+## VI. Core Gameplay Knowledge & Corrections
+- **CRITICAL TYPE MATCHUP CORRECTION:** Ground-type moves ARE super-effective (2x) against Rock/Ground dual-types like Geodude. My assumption that the Ground typing offered resistance was incorrect and led to CRAG fainting. I must verify type matchups before switching.
+- **NPC Interaction Protocol:** If an NPC seems unreachable, I must attempt to interact from all adjacent, walkable tiles before assuming they cannot be engaged. A single failed attempt is not conclusive.
