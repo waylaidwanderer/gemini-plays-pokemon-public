@@ -43,3 +43,7 @@
 ## VII. Current Action Plans & Hypotheses
 - **Hypothesis:** The guard in the Route 8 Gatehouse is blocking the way to Saffron City. I may need an item to pass, similar to the other thirsty guards.
 - **Plan:** 1. Explore the two unseen tiles on the west side of the gatehouse. 2. Approach and interact with the guard. 3. If blocked, search for an item (likely in Celadon City) to give him.
+
+## VIII. Post-Critique Reflection (T18654)
+- **Risk Assessment Lesson:** The failed SUBTERRA switch against Voltorb highlighted a critical lesson. While an agent might identify a high-reward play (Ground immunity), I must weigh that against the risk (low HP, potential non-STAB coverage moves like Swift). I need to be the final judge of risk vs. reward.
+- **Agent Idea:** A `pc_organizer_agent` could be useful for suggesting Pokémon to deposit/withdraw based on upcoming challenges.
