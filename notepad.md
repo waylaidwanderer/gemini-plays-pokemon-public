@@ -33,12 +33,12 @@
 4.  **Validate, then Deploy:** Only use the refined agent for critical tasks after it passes a simple validation test.
 
 ### Agent Status & Refinement Plan
-- **`route_navigator_agent`:** **REFINEMENT COMPLETE (v6).** The agent's logic for pathing to impassable targets has been further refined. It should now correctly find a path to a tile directly adjacent to the target. This requires more testing to confirm full reliability.
+- **`route_navigator_agent`:** **RELIABILITY CONFIRMED.** Passed multiple tests for pathing to both traversable and adjacent-to-impassable targets.
 - **`battle_move_advisor_agent`:** Reliable.
 - **`battle_menu_navigator`:** Reliable.
 - **`trainer_hunter_agent`:** Tested successfully.
 - **`pokemon_evolution_advisor`:** Untested. Should be used or deleted.
-- **`pp_management_advisor_agent`:** **NEW.** Created for PP conservation in dungeons. Untested.
+- **`pp_management_advisor_agent`:** Untested.
 - **`tm_hm_compatibility_agent`:** Untested. Should be used or deleted.
 
 ## V. Future Agent Ideas & Cleanup
