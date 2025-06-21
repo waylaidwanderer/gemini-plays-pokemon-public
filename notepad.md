@@ -40,5 +40,3 @@
 - **`catch_advisor_agent`:** Awaiting first test case.
 
 ## V. Agent Ideas
-
-- **HM Management Agent:** Could analyze my full roster and available HMs to recommend optimal assignments without compromising battle effectiveness.
