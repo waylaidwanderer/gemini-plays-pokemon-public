@@ -48,3 +48,5 @@
 ## VI. Old/Incorrect Notes (for reference)
 - ~~`battle_move_advisor_agent` fixed to handle 4x weakness~~ (This was based on my own misunderstanding).
 - ~~Trust the `route_navigator_agent`~~ (The agent has a confirmed flaw with elevation and must be fixed before being trusted).
+
+- **`battle_menu_navigator`:** The agent's logic is sound, but the game system often fails to process its full button sequence at once. I must execute its recommended sequences one button press at a time to avoid errors.
