@@ -61,3 +61,6 @@
   - **Key Takeaways:** The agent is now reliable for identifying the presence or absence of trainers.
 - **Test Case 3 (`tm_usage_advisor_agent`): ON HOLD**
   - **Reason:** Agent requires Pokémon stats (Attack, Defense, etc.) which are not available in the current game state information. Cannot be tested until this data is accessible.
+
+## VI. Agent Ideas
+- **Catch Advisor Agent:** Given current Pokédex and wild encounters on a map, suggest which Pokémon are new and provide a strategy for catching them (e.g., status moves, best Poké Ball).
