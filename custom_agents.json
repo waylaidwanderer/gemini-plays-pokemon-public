@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"evolutions\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"evolves_to\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"}},\"required\":[\"evolves_to\",\"level\"]}},\"strategic_recommendation\":{\"type\":\"string\"}},\"required\":[\"evolutions\",\"strategic_recommendation\"]}",
     "agent_can_run_code": false
-  },
-  "list_menu_navigator_agent": {
-    "agent_name": "list_menu_navigator_agent",
-    "agent_description": "Calculates the most efficient button sequence to select an item from a list-based menu (e.g., inventory, PC items, PC Pokémon). Accounts for cursor wrapping.",
-    "agent_system_prompt": "You are a master of menu navigation in Pokémon Yellow. Your task is to find the most efficient button sequence to select a target item from a vertical list. You will be given the full list of items, the name of the target item, and the starting cursor position (index). **CRITICAL: You must determine if it's faster to scroll DOWN or to scroll UP, assuming the list wraps around (pressing UP from the first item goes to the last, and DOWN from the last goes to the first).** Calculate the number of 'Down' presses required and the number of 'Up' presses required. Choose the shorter path. Your output must be a single, complete JSON object containing the button sequence.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"list_items\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"target_item_name\":{\"type\":\"string\"},\"cursor_start_index\":{\"type\":\"integer\"}},\"required\":[\"list_items\",\"target_item_name\",\"cursor_start_index\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"button_sequence\"]}",
-    "agent_can_run_code": false
   }
 }
