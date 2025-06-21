@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"move_name\":{\"type\":\"string\"},\"player_pokemon_roster\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"}},\"required\":[\"name\"]}}},\"required\":[\"move_name\",\"player_pokemon_roster\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"compatible_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"compatible_pokemon\"]}",
     "agent_can_run_code": false
+  },
+  "pokemon_evolution_advisor": {
+    "agent_name": "pokemon_evolution_advisor",
+    "agent_description": "Provides the evolution level for a given Pokémon and suggests if evolving it early or late is beneficial for move learning in Pokémon Yellow Legacy.",
+    "agent_system_prompt": "You are a Pokémon Evolution Advisor for Pokémon Yellow Legacy. Given a Pokémon's name, you must provide its evolution level(s). Additionally, provide a strategic recommendation on whether it's better to evolve it immediately at that level or delay evolution to learn specific moves that might be missed upon evolving. Your knowledge should be based on Gen 1 mechanics, but be aware that this is a ROM hack and some details might differ. Base your recommendations on maximizing the Pokémon's battle potential through its moveset.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"evolutions\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"evolves_to\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"}},\"required\":[\"evolves_to\",\"level\"]}},\"strategic_recommendation\":{\"type\":\"string\"}},\"required\":[\"evolutions\",\"strategic_recommendation\"]}",
+    "agent_can_run_code": false
   }
 }
