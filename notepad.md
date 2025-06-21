@@ -44,3 +44,6 @@
 
 ## VI. Gameplay Protocols (MANDATORY)
 - **Post-Transition Verification Protocol:** Every single time the `map_id` changes, I MUST pause and confirm my new map and coordinates from the Game State Information before taking any other action, especially before modifying the World Knowledge Graph.
+
+## V. Future Agent Ideas
+- **`switch_advisor_agent`:** An agent that recommends the best Pokémon to switch to mid-battle, considering type matchups for the entire party against the current opponent.
