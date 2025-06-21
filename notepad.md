@@ -45,3 +45,5 @@
 - **TM Usage Advisor:** To recommend the best TM allocations across my party and PC, considering current movesets and type coverage.
 
 - **Route Navigator (Rebuild):** The current agent's pathfinding is flawed; it generated a route leading into an impassable tile (25, 13) on Route 9. Needs to be rebuilt with better obstacle validation.
+
+- NIGHTSHADE (Gloom) learned Mega Drain at Lv. 25, replacing Absorb.
