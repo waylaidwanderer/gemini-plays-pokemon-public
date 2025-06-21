@@ -1,9 +1,10 @@
-# Gem's Strategic Journal (v12.0)
+# Gem's Strategic Journal (v14.0)
 
 ## I. Core Principles & Lessons Learned
-- **Progression Over Perfection:** A working-but-imperfect tool is better than no progress.
+- **Refine, Don't Discard:** An underperforming tool needs to be fixed, not abandoned. A working-but-imperfect tool is better than no progress.
 - **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it, and if it fails, immediately pivot. Do not repeat failed actions.
-- **Trust, but REFINE:** Trust agent outputs as a starting point, but ALWAYS verify their performance. An underperforming agent is a signal to refine it, not abandon it.
+- **Trust, but REFINE:** Trust agent outputs as a starting point, but ALWAYS verify their performance.
+- **Trust the Game State:** If `Reachable Unseen Tiles` is not empty, that is the path. Do not declare a dead end prematurely.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
@@ -15,6 +16,7 @@
 - **EXP. All Mechanics (Verified):** EXP is distributed to all non-fainted party Pokémon.
 
 ## III. World Intel & Navigation
+- **CRITICAL NAVIGATION LESSON:** The correct path to Lavender Town is south on Route 10, past the Pokémon Center and cuttable trees. My backtracking into Rock Tunnel was a major error based on a flawed assumption.
 - **CRITICAL NAVIGATION LESSON:** Route 2 is segmented. The Diglett's Cave exit at (13, 11) leads to a small, isolated northern section.
 - **Lt. Surge's Raichu (Lv. 29):** Knows Body Slam and Surf.
 - **Recurring Obstacles:** Trees in Vermilion City (16,19) and Route 2 (16,23) respawn.
@@ -28,7 +30,8 @@
 3.  **Deploy:** Only once an agent passes isolated validation should it be used for critical tasks in unknown environments.
 
 ### Agent Status & Refinement Plan
-- **`route_navigator_agent`:** **HIGH PRIORITY REFINEMENT.** The agent currently fails to account for HMs like CUT. Plan: Update the agent's system prompt to instruct it to identify HM-removable obstacles (like 'cuttable' tiles) and incorporate the `use_hm` action into its pathfinding logic if the player possesses the required HM.
+- **`route_navigator_agent`:** **TOP PRIORITY REFINEMENT.** The agent currently fails to account for HMs.
+    - **Plan:** Update the agent's system prompt. The new instructions will require the agent's Python code to identify HM-removable obstacles (e.g., `<Tile type="cuttable">`). If such an obstacle blocks the only path, the agent should not report `path_found: false`. Instead, it should find a path *to the tile adjacent to the obstacle* and include a new field in its JSON output, `required_hm_actions`, listing the HM needed and the coordinates of the obstacle. This will allow me to manually use the HM and then recall the agent to find the path from the new position.
 - **`battle_move_advisor_agent`:** Fixed to handle 4x weakness.
 - **`trainer_hunter_agent`:** Rebuilt and tested successfully.
 - **`pokemon_evolution_advisor`:** Tested successfully.
@@ -36,3 +39,4 @@
 - **`catch_advisor_agent`:** Awaiting first test case.
 
 ## V. Agent Ideas
+- **Progression Advisor:** An agent that analyzes my current badges, key items, and the World Knowledge Graph to suggest the next logical major objective or map to visit. This could help prevent getting lost or sequence-breaking by providing a high-level strategic direction.
