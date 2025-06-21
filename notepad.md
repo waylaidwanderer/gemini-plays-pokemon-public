@@ -6,6 +6,7 @@
   - `hm_requirement_forecaster` should be used when entering new major areas to plan ahead.
 - **(RULE #3) Trust Game State Data:** The Game State Information (especially `Reachable Unseen Tiles` and map connection data) is the absolute source of truth. Do not hallucinate or misread it.
 - **(RULE #4) Mandatory Location Check:** Before ANY action (tool call, movement), I MUST verify my current map_id and coordinates against the Game State. No exceptions.
+- **(RULE #5) Verify WKG Before Writing:** Always check for existing nodes/edges before adding new ones to the World Knowledge Graph to avoid failed tool calls.
 
 # 2. Party & Level Caps
 - **Current Cap (2 badges):** 24
@@ -42,10 +43,10 @@
   - **Leech Seed:** High accuracy (90%), but not guaranteed to hit.
 - **General Tactics:**
   - Sacrificing a Pokémon for a free switch is a valid hard-mode tactic.
-  - **Adaptive Tactics:** When an opponent uses accuracy-lowering moves (e.g., Sand-Attack), persisting with low-accuracy attacks is inefficient. Switch to moves that can't miss or have higher base accuracy.
+  - **(NEW LESSON) Adaptive Tactics:** When an opponent uses accuracy-lowering moves (e.g., Sand-Attack), persisting with low-accuracy attacks is inefficient. Switch to moves that can't miss, status moves with higher accuracy, or switch Pokémon entirely.
 
 # 5. Critical Failure Log
-- **(FAILURE LOG - Tactical):** Persisted with a failing strategy (Double Kick vs. Sand-Attack). Must adapt quickly. (Route 11, attempt #1, #2).
+- **(FAILURE LOG - Tactical):** Persisted with a failing strategy (Double Kick vs. Sand-Attack). Must adapt quickly. (Route 11, attempt #1, #2, #3). **REPEATED MISTAKE.**
 - **(FAILURE LOG - Tactical):** Careless switch (THISTLE vs. Drowzee) led to a faint due to ignoring a 4x Psychic weakness. This initiated the 'grind-faint-heal' loop. (Route 11).
 - **(FAILURE LOG - Navigation):** Misjudged dead ends by ignoring `Reachable Unseen Tiles` and map exits. (Route 11 x2, Route 2 x1).
 - **(FAILURE LOG - Navigation):** Forgotten that defeated trainers are impassable obstacles. (Mt. Moon B2F, Route 11).
@@ -58,5 +59,9 @@
 - **(NAVIGATION):** For simple, small, fully-explored rooms (like a Pokémon Center), navigate manually. Do not overuse the pathfinder agent.
 - **(WKG):** Check for existing nodes/edges before adding new ones to the World Knowledge Graph.
 
-# 7. Agent Ideas
-- **HM Requirement Forecaster:** Analyzes map XML for obstacles (water, trees, boulders) to predict necessary HMs for upcoming areas, aiding in party planning. (IMPLEMENTED)
+# 7. Agent Ideas (Implemented)
+- **HM Requirement Forecaster:** Predicts necessary HMs for upcoming areas.
+- **Battle Switch Advisor:** Recommends optimal in-battle switches.
+- **Training Hotspot Advisor:** Suggests efficient grinding locations for specific Pokémon.
+- **Grind Session Manager:** Calculates how many battles can be sustained before healing.
+- **Progression Blocker Agent:** Hypothesizes solutions for story-based obstacles.
