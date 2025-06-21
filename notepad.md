@@ -38,3 +38,6 @@
 - **`pokemon_evolution_advisor`:** Tested successfully.
 - **`tm_usage_advisor_agent`:** Awaiting stat data for testing.
 - **`catch_advisor_agent`:** Awaiting first test case.
+
+## V. Future Agent Ideas
+- **EXP Gain Tracker/Leveling Planner:** Could track EXP gains and suggest efficient leveling paths to reach the cap for multiple Pokémon, avoiding over-leveling.
