@@ -33,15 +33,17 @@
 4.  **Validate, then Deploy:** Only use the refined agent for critical tasks after it passes a simple validation test.
 
 ### Agent Status & Refinement Plan
-- **`route_navigator_agent`:** **PRIORITY REFINEMENT.** The agent has pathfinding flaws. Current hypothesis: It misinterprets impassable walls or elevation rules. **Plan:** My secondary goal is to fix this agent. I will create a simple, controlled test case (e.g., a small room with a single wall) to isolate and fix the logic flaw as soon as possible. I will not abandon this tool.
+- **`route_navigator_agent`:** **REFINEMENT COMPLETE (v5).** The agent's logic for pathing to impassable targets is now more robust. It correctly finds adjacent, traversable tiles. Further testing is required to confirm full reliability.
 - **`battle_move_advisor_agent`:** Reliable.
-- **`battle_menu_navigator`:** Reliable. I must execute its full button sequences.
+- **`battle_menu_navigator`:** Reliable.
 - **`trainer_hunter_agent`:** Tested successfully.
-- **`pokemon_evolution_advisor`:** Tested successfully.
+- **`pokemon_evolution_advisor`:** Untested. Should be used or deleted.
+- **`pp_management_advisor_agent`:** **NEW.** Created for PP conservation in dungeons. Untested.
+- **`tm_hm_compatibility_agent`:** Untested. Should be used or deleted.
 
 ## V. Future Agent Ideas & Cleanup
 
-- **Agent Review:** Test and integrate unused agents (`progression_advisor_agent`, `tm_hm_compatibility_agent`, `pokemon_evolution_advisor`) or delete them.
+- **Item Advisor Agent:** An agent to suggest optimal TM/HM/item usage from inventory. Could be useful for managing my large TM collection.
 
 ## VI. Core Gameplay Knowledge & Corrections
 - **CRITICAL TYPE MATCHUP CORRECTION:** Ground-type moves ARE super-effective (2x) against Rock/Ground dual-types like Geodude. My assumption that the Ground typing offered resistance was incorrect and led to CRAG fainting. I must verify type matchups before switching.
