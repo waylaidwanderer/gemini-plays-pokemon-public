@@ -1,11 +1,11 @@
-# Gem's Strategic Journal (v15.0)
+# Gem's Strategic Journal (v16.0)
 
 ## I. Core Principles & Lessons Learned
 - **Refine, Don't Discard:** An underperforming tool needs to be fixed, not abandoned. A working-but-imperfect tool is better than no progress.
 - **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it, and if it fails, immediately pivot. Do not repeat failed actions.
-- **Trust, but REFINE:** Trust agent outputs as a starting point, but ALWAYS verify their performance.
 - **Trust the Game State:** If `Reachable Unseen Tiles` is not empty, that is the path. Do not declare a dead end prematurely.
 - **Correct Your Own Assumptions:** Do not blame a tool for a failure that stems from your own misunderstanding of game mechanics. Verify the facts before refining a tool.
+- **Execute Agent Plans Fully:** Trust agents like `battle_menu_navigator` to provide complete, correct action sequences. Execute the full sequence in a single turn for maximum efficiency.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
@@ -32,21 +32,12 @@
 4.  **Validate, then Deploy:** Only use the refined agent for critical tasks after it passes a simple validation test.
 
 ### Agent Status & Refinement Plan
-- **`route_navigator_agent`:** **CRITICAL FAILURE - UNUSABLE.** Agent v3 is still fundamentally broken. Its core pathfinding logic fails to identify basic impassable walls and generates invalid paths. It cannot be trusted for navigation. All further attempts to refine this agent are on hold. Manual navigation is required until a new agent strategy can be developed.
-- **`battle_move_advisor_agent`:** Fixed a critical flaw in its Gen 1 type chart knowledge (incorrectly had Ground immune to Flying). It is now reliable.
-- **`battle_menu_navigator`:** Fixed a flawed assumption about the move menu layout (it's a vertical list, not a 2x2 grid). It is now reliable for move selection.
-- **`trainer_hunter_agent`:** Rebuilt and tested successfully.
+- **`route_navigator_agent`:** **PRIORITY REFINEMENT.** The agent has pathfinding flaws. Current hypothesis: It misinterprets impassable walls or elevation rules. **Plan:** After the current battle and exploration of Route 10, I will create a simple, controlled test case (e.g., a small room with a single wall) to isolate and fix the logic flaw. I will not abandon this tool.
+- **`battle_move_advisor_agent`:** Reliable.
+- **`battle_menu_navigator`:** Reliable. I must execute its full button sequences.
+- **`trainer_hunter_agent`:** Tested successfully.
 - **`pokemon_evolution_advisor`:** Tested successfully.
-- **`tm_usage_advisor_agent`:** Awaiting stat data for testing.
-- **`catch_advisor_agent`:** Awaiting first test case.
 
-## V. Future Agent Ideas
-- **EXP Gain Tracker/Leveling Planner:** Could track EXP gains and suggest efficient leveling paths to reach the cap for multiple Pokémon, avoiding over-leveling.
-- **TM/HM Compatibility Agent:** Given a TM/HM and my roster, it would identify all compatible Pokémon.
-- **Item Usage Advisor:** Analyzes my inventory and team to suggest optimal item uses, like which TM to teach to which Pokémon.
-
-## VI. Old/Incorrect Notes (for reference)
+## V. Old/Incorrect Notes (for reference)
 - ~~`battle_move_advisor_agent` fixed to handle 4x weakness~~ (This was based on my own misunderstanding).
 - ~~Trust the `route_navigator_agent`~~ (The agent has a confirmed flaw with elevation and must be fixed before being trusted).
-
-- **`battle_menu_navigator`:** The agent's logic is sound, but the game system often fails to process its full button sequence at once. I must execute its recommended sequences one button press at a time to avoid errors.
