@@ -51,3 +51,5 @@
 ## VII. Old/Incorrect Notes (for reference)
 - ~~`battle_move_advisor_agent` fixed to handle 4x weakness~~ (This was based on my own misunderstanding).
 - ~~Trust the `route_navigator_agent`~~ (The agent has a confirmed flaw with elevation and must be fixed before being trusted).
+
+- **Item Advisor Agent:** An agent to suggest optimal TM/HM/item usage from inventory. **Decision:** Implement after other priorities are handled.
