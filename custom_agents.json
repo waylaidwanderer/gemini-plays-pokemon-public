@@ -75,7 +75,7 @@
     "agent_name": "hm_requirement_forecaster",
     "agent_description": "Analyzes map XML for obstacles (water, trees, boulders) to predict necessary HMs for upcoming areas, aiding in party planning.",
     "agent_system_prompt": "You are an HM Requirement Forecaster. Your task is to analyze the `map_xml_string` to identify potential obstacles that require HMs (Cut, Surf, Strength, Flash) to pass. You will use your `run_code` tool to parse the XML. Your output should be a JSON object listing the HMs that are likely required for the current map and reasoning based on tile types. Logic: 1. Parse `map_xml_string`. 2. Scan all tiles. If you find `cuttable` tiles, 'Cut' is needed. If you find `water` tiles, 'Surf' is needed. If you find `<Boulder>` objects, 'Strength' is needed. For 'Flash', you must infer its need from context, such as being in a 'cave' map type that is mostly unseen, or if NPC dialogue mentions darkness. 3. Formulate a list of required HMs and provide a clear `reasoning` string for each.",
-    "agent_input_schema": "{}",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {}}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"required_hms\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hm\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"hm\",\"reasoning\"]}}}}",
     "agent_can_run_code": true
   }
