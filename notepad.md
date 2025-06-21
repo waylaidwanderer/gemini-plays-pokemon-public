@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v16.0)
+# Gem's Strategic Journal (v17.0)
 
 ## I. Core Principles & Lessons Learned
 - **Refine, Don't Discard:** An underperforming tool needs to be fixed, not abandoned. A working-but-imperfect tool is better than no progress.
@@ -23,6 +23,7 @@
 - **Recurring Obstacles:** Trees in Vermilion City (16,19) and Route 2 (16,23) respawn.
 - **Route 11 Gatehouse Split:** West entrance leads to a small room with no access to the eastern section.
 - **Item Discovery:** MOON STONE on Route 2 (south section).
+- **Lavender Town Intel:** A girl in the Pokémon Center saw Team Rocket kill a Cubone's mother.
 
 ## IV. Agent & Tool Strategy
 ### Agent Refinement Protocol (MANDATORY - v2)
@@ -32,22 +33,21 @@
 4.  **Validate, then Deploy:** Only use the refined agent for critical tasks after it passes a simple validation test.
 
 ### Agent Status & Refinement Plan
-- **`route_navigator_agent`:** **PRIORITY REFINEMENT.** The agent has pathfinding flaws. Current hypothesis: It misinterprets impassable walls or elevation rules. **Plan:** After the current battle and exploration of Route 10, I will create a simple, controlled test case (e.g., a small room with a single wall) to isolate and fix the logic flaw. I will not abandon this tool.
+- **`route_navigator_agent`:** **PRIORITY REFINEMENT.** The agent has pathfinding flaws. Current hypothesis: It misinterprets impassable walls or elevation rules. **Plan:** My secondary goal is to fix this agent. I will create a simple, controlled test case (e.g., a small room with a single wall) to isolate and fix the logic flaw as soon as possible. I will not abandon this tool.
 - **`battle_move_advisor_agent`:** Reliable.
 - **`battle_menu_navigator`:** Reliable. I must execute its full button sequences.
 - **`trainer_hunter_agent`:** Tested successfully.
 - **`pokemon_evolution_advisor`:** Tested successfully.
 
-## V. Old/Incorrect Notes (for reference)
-- ~~`battle_move_advisor_agent` fixed to handle 4x weakness~~ (This was based on my own misunderstanding).
-- ~~Trust the `route_navigator_agent`~~ (The agent has a confirmed flaw with elevation and must be fixed before being trusted).
+## V. Future Agent Ideas & Cleanup
+- **PP Management Advisor:** An agent to suggest moves based on conserving PP. **Decision:** Implement this after `route_navigator_agent` is fixed, or remove this note if it proves unnecessary.
+- **Agent Review:** Test and integrate unused agents (`progression_advisor_agent`, `tm_hm_compatibility_agent`, `pokemon_evolution_advisor`) or delete them.
 
 ## VI. Core Gameplay Knowledge & Corrections
 - **CRITICAL TYPE MATCHUP CORRECTION:** Ground-type moves ARE super-effective (2x) against Rock/Ground dual-types like Geodude. My assumption that the Ground typing offered resistance was incorrect and led to CRAG fainting. I must verify type matchups before switching.
 - **NPC Interaction Protocol:** If an NPC seems unreachable, I must attempt to interact from all adjacent, walkable tiles before assuming they cannot be engaged. A single failed attempt is not conclusive.
-
-## VI. Gameplay Mechanics & System Limitations
 - **Input System:** The game does not allow mixing directional (Up, Down, Left, Right) and action (A, B) buttons in a single turn's input array. This must be accounted for in battle menu navigation.
 
-## VII. Future Agent Ideas
-- **PP Management Advisor:** An agent to suggest moves based on conserving PP for more powerful attacks, especially useful in long dungeons or against weaker opponents.
+## VII. Old/Incorrect Notes (for reference)
+- ~~`battle_move_advisor_agent` fixed to handle 4x weakness~~ (This was based on my own misunderstanding).
+- ~~Trust the `route_navigator_agent`~~ (The agent has a confirmed flaw with elevation and must be fixed before being trusted).
