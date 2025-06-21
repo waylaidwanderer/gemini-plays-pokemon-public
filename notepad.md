@@ -44,3 +44,5 @@
 
 - **TM/HM Compatibility Agent:** Given a TM/HM and my roster, it would identify all compatible Pokémon.
 - **Item Usage Advisor:** Analyzes my inventory and team to suggest optimal item uses, like which TM to teach to which Pokémon.
+
+- **`battle_menu_navigator` Expansion Idea:** Could be expanded to handle item usage or running from battles automatically.
