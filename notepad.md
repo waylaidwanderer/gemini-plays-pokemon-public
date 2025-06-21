@@ -48,3 +48,7 @@
 - **`battle_menu_navigator` Expansion Idea:** Could be expanded to handle item usage or running from battles automatically.
 
 - **`battle_menu_navigator` Expansion Idea:** Could be expanded to handle item usage or running from battles automatically.
+
+- **`battle_move_advisor_agent`:** Fixed a critical flaw in its Gen 1 type chart knowledge (incorrectly had Ground immune to Flying). It is now reliable.
+- **`battle_menu_navigator`:** Fixed a flawed assumption about the move menu layout (it's a vertical list, not a 2x2 grid). It is now reliable for move selection.
+- **Trust the `route_navigator_agent`:** My manual override of the agent's path led me to a dead end. The agent's global view is more reliable than my intuition. I must trust its pathing, even if it seems to backtrack.
