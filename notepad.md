@@ -1,9 +1,9 @@
-# Gem's Strategic Journal (v11.0)
+# Gem's Strategic Journal (v12.0)
 
 ## I. Core Principles & Lessons Learned
 - **Progression Over Perfection:** A working-but-imperfect tool is better than no progress.
 - **Hypothesize, Test, Pivot:** When stuck, form a hypothesis, test it, and if it fails, immediately pivot. Do not repeat failed actions.
-- **Trust, but VERIFY:** Trust agent outputs as a starting point, but ALWAYS verify their performance and conclusions against the game state. Do not blindly follow a tool that has proven unreliable.
+- **Trust, but REFINE:** Trust agent outputs as a starting point, but ALWAYS verify their performance. An underperforming agent is a signal to refine it, not abandon it.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
@@ -22,24 +22,18 @@
 - **Item Discovery:** MOON STONE on Route 2 (south section).
 
 ## IV. Agent & Tool Strategy
-### Agent Testing Protocol (MANDATORY)
+### Agent Refinement Protocol (MANDATORY)
 1.  **Isolate:** After defining or refining an agent, test it in a simple, non-critical, controlled scenario.
 2.  **Validate:** The test case must have a known, verifiable correct outcome.
 3.  **Deploy:** Only once an agent passes isolated validation should it be used for critical tasks in unknown environments.
 
-### Agent Status
+### Agent Status & Refinement Plan
+- **`route_navigator_agent`:** **HIGH PRIORITY REFINEMENT.** The agent currently fails to account for HMs like CUT. Plan: Update the agent's system prompt to instruct it to identify HM-removable obstacles (like 'cuttable' tiles) and incorporate the `use_hm` action into its pathfinding logic if the player possesses the required HM.
 - **`battle_move_advisor_agent`:** Fixed to handle 4x weakness.
 - **`trainer_hunter_agent`:** Rebuilt and tested successfully.
 - **`pokemon_evolution_advisor`:** Tested successfully.
-- **`tm_usage_advisor_agent`:** On hold, requires stat data.
+- **`tm_usage_advisor_agent`:** Awaiting stat data for testing.
 - **`catch_advisor_agent`:** Awaiting first test case.
 
-## V. Agent Debugging Log
-- **`route_navigator_agent` (Rock Tunnel 1F & B1F):** Agent repeatedly failed to find paths to reachable targets, despite system validation confirming paths exist. Hypothesized issue with XML parsing or obstacle handling. **STATUS: OFFICIALLY BENCHED.** This agent is too unreliable for critical navigation. Do not use until completely rebuilt and rigorously tested per the new protocol. Manual exploration is now the primary method.
-
-## VI. Agent Ideas
-- **Catch Advisor Agent:** Given current Pokédex and wild encounters on a map, suggest which Pokémon are new and provide a strategy for catching them. (Implemented, needs testing)
-
+## V. Agent Ideas
 - **Boulder Puzzle Solver:** An agent that can analyze boulder positions and map layouts to provide step-by-step solutions for Strength puzzles.
-
-## VII. To-Do List
