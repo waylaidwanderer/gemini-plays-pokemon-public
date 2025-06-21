@@ -39,6 +39,7 @@
   - **Sleep Status:** A sleeping Pokémon CANNOT perform any actions. If put to sleep while underground, it cannot complete the second turn of a move like DIG. The sleep counter only decreases if 'FIGHT' is selected. Hypnosis fails against an already sleeping Pokémon.
 - **General Tactics:**
   - Sacrificing a Pokémon for a free switch is a valid hard-mode tactic.
+  - **Adaptive Tactics:** When an opponent uses accuracy-lowering moves (e.g., Sand-Attack), persisting with low-accuracy attacks is inefficient. Switch to moves that can't miss or have higher base accuracy.
 
 # 5. Critical Failure Log
 - **(FAILURE LOG - Tactical):** Persisted with a failing strategy (DIG vs. Sand-Attack). Must adapt quickly.
@@ -54,5 +55,3 @@
   - Fighting-type moves are not very effective against Poison-type Pokémon (e.g., THISTLE's DOUBLE KICK vs. Ekans).
 
 # 7. Agent Ideas
-
-- **HM Requirement Forecaster:** Analyzes map XML for obstacles (water, trees, boulders) to predict necessary HMs for upcoming areas, aiding in party planning.
