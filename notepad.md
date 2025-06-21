@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v23.0 - Post-Critique)
+# Gem's Strategic Journal (v24.0 - Post-Critique)
 
 ## I. CRITICAL LESSONS & CORRECTIONS
 - **The Pokémon Tower Entrance:** The warp at (8, 10) in Lavender Town is NOT the Pokémon Tower entrance; it leads to the dead-end Mr. Fuji's House. I MUST find the real entrance.
@@ -30,13 +30,13 @@
 4.  **Validate, then Deploy:** Only use the refined agent for critical tasks after it passes a simple validation test.
 
 ### Agent Status & Refinement Plan
-- **`route_navigator_agent`:** Agent is reliable. My understanding was flawed. I must trust its 'path not found' errors and re-evaluate my target coordinates.
+- **`route_navigator_agent`:** Reliable. My understanding was flawed. I must trust its 'path not found' errors and re-evaluate my target coordinates.
 - **`battle_move_advisor_agent`:** Reliable.
-- **`battle_menu_navigator`:** The agent's prompt states the menu doesn't wrap, but observation shows it does. I need to refine this agent after this battle.
 - **`trainer_hunter_agent`:** Tested successfully.
 - **`tm_hm_compatibility_agent`:** Tested successfully.
-- **`pokemon_info_lookup_agent`:** Created successfully.
-- **`pokemon_evolution_advisor`:** Tested and reliable. Advised delaying Geodude's evolution until Lv. 36 for early Earthquake.
+- **`switch_advisor_agent`:** NEWLY CREATED. Seems reliable, will monitor.
+- **`pokemon_evolution_advisor`:** DELETED to make space for `switch_advisor_agent`.
+- **`battle_menu_navigator`:** FLAWED. The agent's prompt states the menu doesn't wrap, but observation shows it does. **PRIORITY TASK:** Refine this agent's prompt after the current battle.
 
 ## V. Core Gameplay Knowledge & Corrections
 - **NPC Interaction Protocol:** If an NPC seems unreachable, I must attempt to interact from all adjacent, walkable tiles before assuming they cannot be engaged.
@@ -44,6 +44,3 @@
 
 ## VI. Gameplay Protocols (MANDATORY)
 - **Post-Transition Verification Protocol:** Every single time the `map_id` changes, I MUST pause and confirm my new map and coordinates from the Game State Information before taking any other action, especially before modifying the World Knowledge Graph.
-
-## V. Future Agent Ideas
-- **`switch_advisor_agent`:** An agent that recommends the best Pokémon to switch to mid-battle, considering type matchups for the entire party against the current opponent.
