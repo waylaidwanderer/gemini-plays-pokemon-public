@@ -39,3 +39,5 @@
 
 ## VI. Agent Ideas
 - **Catch Advisor Agent:** Given current Pokédex and wild encounters on a map, suggest which Pokémon are new and provide a strategy for catching them. (Implemented, needs testing)
+
+- **Boulder Puzzle Solver:** An agent that can analyze boulder positions and map layouts to provide step-by-step solutions for Strength puzzles.
