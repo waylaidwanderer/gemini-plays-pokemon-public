@@ -45,3 +45,9 @@
 ## VI. Core Gameplay Knowledge & Corrections
 - **CRITICAL TYPE MATCHUP CORRECTION:** Ground-type moves ARE super-effective (2x) against Rock/Ground dual-types like Geodude. My assumption that the Ground typing offered resistance was incorrect and led to CRAG fainting. I must verify type matchups before switching.
 - **NPC Interaction Protocol:** If an NPC seems unreachable, I must attempt to interact from all adjacent, walkable tiles before assuming they cannot be engaged. A single failed attempt is not conclusive.
+
+## VI. Gameplay Mechanics & System Limitations
+- **Input System:** The game does not allow mixing directional (Up, Down, Left, Right) and action (A, B) buttons in a single turn's input array. This must be accounted for in battle menu navigation.
+
+## VII. Future Agent Ideas
+- **PP Management Advisor:** An agent to suggest moves based on conserving PP for more powerful attacks, especially useful in long dungeons or against weaker opponents.
