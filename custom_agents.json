@@ -63,14 +63,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_next_objective\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"suggested_destination_map_id\":{\"type\":\"string\"}},\"required\":[\"recommended_next_objective\",\"reasoning\",\"suggested_destination_map_id\"]}",
     "agent_can_run_code": true
   },
-  "hm_management_agent": {
-    "agent_name": "hm_management_agent",
-    "agent_description": "Analyzes the full roster and available HMs to recommend optimal assignments without compromising battle effectiveness.",
-    "agent_system_prompt": "You are an HM Management Advisor for Pokémon Yellow Legacy. Your task is to analyze the player's full Pokémon roster (party and PC) and their available HMs. Your goal is to recommend the best Pokémon to learn each HM, considering factors like: 1) Minimizing the impact on the battle effectiveness of key Pokémon. 2) Prioritizing Pokémon that are not core battle team members ('HM slaves'). 3) Identifying Pokémon who can learn multiple HMs to conserve party slots. 4) The strategic value of each HM at the current stage of the game. Your output must be a clear recommendation for each HM, explaining the reasoning behind your choice.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon_roster\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type1\":{\"type\":\"string\"},\"type2\":{\"type\":\"string\",\"nullable\":true},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"name\",\"level\",\"type1\",\"moves\"]}},\"available_hms\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"player_pokemon_roster\",\"available_hms\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"hm_assignments\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hm_name\":{\"type\":\"string\"},\"recommended_pokemon\":{\"type\":\"string\"},\"move_to_replace\":{\"type\":\"string\",\"nullable\":true},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"hm_name\",\"recommended_pokemon\",\"reasoning\"]}}},\"required\":[\"hm_assignments\"]}",
-    "agent_can_run_code": false
-  },
   "tm_hm_compatibility_agent": {
     "agent_name": "tm_hm_compatibility_agent",
     "agent_description": "Analyzes a given TM or HM and the player's full roster to identify all compatible Pokémon.",
