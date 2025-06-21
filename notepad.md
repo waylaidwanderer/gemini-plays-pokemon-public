@@ -1,12 +1,9 @@
 # 1. Strategic Imperatives & Rules (MANDATORY)
-- **(RULE #1) Break the 'Grind-Faint-Heal' Loop:** Retreating to a Pokémon Center to heal an injured team is MORE EFFICIENT than risking a faint and being forced to retreat. Prioritize team health for sustainable training.
-- **(RULE #2) Proactive Agent Use:** Use strategic agents *before* taking critical actions, not after a mistake.
-  - `battle_switch_advisor_agent` MUST be used before every non-forced switch in battle.
-  - `training_hotspot_advisor` MUST be used to find efficient grinding spots, not just defaulting to the nearest grass patch.
-  - `hm_requirement_forecaster` should be used when entering new major areas to plan ahead.
-- **(RULE #3) Trust Game State Data:** The Game State Information (especially `Reachable Unseen Tiles` and map connection data) is the absolute source of truth. Do not hallucinate or misread it.
-- **(RULE #4) Mandatory Location Check:** Before ANY action (tool call, movement), I MUST verify my current map_id and coordinates against the Game State. No exceptions.
-- **(RULE #5) Verify WKG Before Writing:** Always check for existing nodes/edges before adding new ones to the World Knowledge Graph to avoid failed tool calls.
+- **(RULE #1) Retreat > Faint:** Retreating to heal is more efficient than fainting. Prioritize team health.
+- **(RULE #2) Proactive Agent Use:** Use agents *before* critical actions (battle switches, training spot selection, new area entry).
+- **(RULE #3) Trust Game State:** The Game State data (`Reachable Unseen Tiles`, map connections) is absolute truth.
+- **(RULE #4) Mandatory Location Check:** Always verify current map_id and coordinates before any action.
+- **(RULE #5) Verify WKG Before Writing:** Check for existing nodes/edges before adding new ones to avoid errors.
 
 # 2. Party & Level Caps
 - **Current Cap (2 badges):** 24
@@ -23,45 +20,46 @@
   - Defeated trainers remain as impassable obstacles.
   - Diglett's Cave connects Route 11 (Vermilion) to Route 2 (Pewter).
   - Cuttable trees respawn after changing maps.
-- **HM Flash:** An Aide of Prof. Oak on Route 2 gives it if you have caught 10 different Pokémon.
-- **HM Cut:** Received from the Captain of the S.S. Anne.
+- **HMs:**
+  - **Flash:** Aide on Route 2 gives it for 10 caught Pokémon.
+  - **Cut:** Received from S.S. Anne Captain.
 - **Status Effects:**
-  - Non-volatile status (e.g., sleep, paralysis) is cured after trainer battles.
-  - Poison deals 1 HP/4 steps outside of battle.
+  - Non-volatile status cured after trainer battles.
+  - Poison deals 1 HP/4 steps outside battle.
 
 # 4. Core Battle Mechanics (Learned Lessons)
-- **EXP Sharing:** EXP is shared among all Pokémon who participated in the battle for each faint. (Discovered on Route 11).
-- **Type Matchups:**
+- **EXP Sharing:** Shared among all participants for each faint.
+- **Type Matchups (Verified):
   - Magnemite resists Flying (likely part Steel).
-  - Ground-types are immune to paralysis from moves like Stun Spore.
-  - Poison moves are not very effective against Ground-types.
-  - Ground-type moves are not very effective against Bug-type Pokémon (e.g., PARCH's DIG vs. Caterpie).
-  - Fighting-type moves are not very effective against Poison-type Pokémon (e.g., THISTLE's DOUBLE KICK vs. Ekans).
-- **Move Mechanics:**
-  - **Two-Turn Moves (Dig, Fly, etc.):** Pokémon are invulnerable during the first turn. Attacking them during this phase will always result in a miss.
-  - **Sleep Status:** A sleeping Pokémon CANNOT perform any actions. If put to sleep while underground, it cannot complete the second turn of a move like DIG. The sleep counter only decreases if 'FIGHT' is selected. Hypnosis fails against an already sleeping Pokémon.
-  - **Leech Seed:** High accuracy (90%), but not guaranteed to hit.
-- **General Tactics:**
-  - Sacrificing a Pokémon for a free switch is a valid hard-mode tactic.
-  - **(NEW LESSON) Adaptive Tactics:** When an opponent uses accuracy-lowering moves (e.g., Sand-Attack), persisting with low-accuracy attacks is inefficient. Switch to moves that can't miss, status moves with higher accuracy, or switch Pokémon entirely.
+  - Ground is immune to paralysis (e.g., Stun Spore).
+  - Poison is not very effective vs. Ground.
+  - Ground is not very effective vs. Bug.
+  - Fighting is not very effective vs. Poison.
+- **Move Mechanics (Verified):
+  - **Two-Turn Moves (Dig, Fly):** Invulnerable during the first turn.
+  - **Sleep Status:** Prevents all actions. Counter only decreases if 'FIGHT' is selected. Hypnosis fails on sleeping targets.
+  - **Leech Seed:** High accuracy (90%), but not guaranteed.
+- **General Tactics (Verified):
+  - Sacrificial switches are a valid hard-mode tactic.
+  - **Adaptive Tactics:** Against accuracy-lowering moves (Sand-Attack), switch to high-accuracy/can't-miss moves or switch Pokémon.
 
-# 5. Critical Failure Log
-- **(FAILURE LOG - Tactical):** Persisted with a failing strategy (Double Kick vs. Sand-Attack). Must adapt quickly. (Route 11, attempt #1, #2, #3). **REPEATED MISTAKE.**
-- **(FAILURE LOG - Tactical):** Careless switch (THISTLE vs. Drowzee) led to a faint due to ignoring a 4x Psychic weakness. This initiated the 'grind-faint-heal' loop. (Route 11).
-- **(FAILURE LOG - Navigation):** Misjudged dead ends by ignoring `Reachable Unseen Tiles` and map exits. (Route 11 x2, Route 2 x1).
-- **(FAILURE LOG - Navigation):** Forgotten that defeated trainers are impassable obstacles. (Mt. Moon B2F, Route 11).
-- **(FAILURE LOG - Data):** Hallucinated location. Believed I was in Route 11 Gatehouse when still on Route 11. Must verify with game state data.
-- **(FAILURE LOG - Procedural):** Failed to use `battle_switch_advisor_agent` before switching against Dugtrio, violating my own rule. Must maintain discipline. (Diglett's Cave).
-- **(FAILURE LOG - Knowledge):** Incorrectly assumed SPROUT had a Grass-type damaging move. Must verify party movesets before battle. (Diglett's Cave).
+# 5. Critical Failure Log (To Be Avoided)
+- **(Tactical Failure):** Persisted with failing strategy (Double Kick vs. Sand-Attack on Route 11). **MUST ADAPT QUICKER.**
+- **(Tactical Failure):** Ignored 4x Psychic weakness (THISTLE vs. Drowzee), leading to a faint and inefficient 'grind-faint-heal' loop on Route 11.
+- **(Navigation Failure):** Misjudged dead ends by ignoring `Reachable Unseen Tiles` and map exits (Route 11, Route 2).
+- **(Navigation Failure):** Forgotten that defeated trainers are impassable (Mt. Moon B2F, Route 11).
+- **(Data Failure):** Hallucinated location (believed I was in Route 11 Gatehouse when still on Route 11). **MUST VERIFY WITH GAME STATE.**
+- **(Procedural Failure):** Violated own rule by not using `battle_switch_advisor_agent` (vs. Dugtrio in Diglett's Cave).
+- **(Knowledge Failure):** Incorrectly assumed SPROUT had a Grass-type damaging move. **MUST VERIFY MOVESETS.**
 
 # 6. Procedural Reminders & Self-Correction
-- **(CHECKLIST):** Before starting a new major action (like training or entering a dungeon), check the status of all party members first.
-- **(NAVIGATION):** For simple, small, fully-explored rooms (like a Pokémon Center), navigate manually. Do not overuse the pathfinder agent.
-- **(WKG):** Check for existing nodes/edges before adding new ones to the World Knowledge Graph.
+- **(CHECKLIST):** Before major actions, check party status.
+- **(NAVIGATION):** Navigate small, explored rooms manually. Don't overuse pathfinder.
+- **(WKG):** Always check for existing nodes/edges before adding new ones.
 
 # 7. Agent Ideas (Implemented)
-- **HM Requirement Forecaster:** Predicts necessary HMs for upcoming areas.
-- **Battle Switch Advisor:** Recommends optimal in-battle switches.
-- **Training Hotspot Advisor:** Suggests efficient grinding locations for specific Pokémon.
-- **Grind Session Manager:** Calculates how many battles can be sustained before healing.
-- **Progression Blocker Agent:** Hypothesizes solutions for story-based obstacles.
+- HM Requirement Forecaster
+- Battle Switch Advisor
+- Training Hotspot Advisor
+- Grind Session Manager
+- Progression Blocker Agent
