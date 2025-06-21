@@ -41,3 +41,6 @@
 - **Catch Advisor Agent:** Given current Pokédex and wild encounters on a map, suggest which Pokémon are new and provide a strategy for catching them. (Implemented, needs testing)
 
 - **Boulder Puzzle Solver:** An agent that can analyze boulder positions and map layouts to provide step-by-step solutions for Strength puzzles.
+
+## VII. To-Do List
+- **WKG Task:** Add edge between new B1F ladder node and node `669bea17-4013-4022-9f0a-b337ea7dfa08` (1F ladder).
