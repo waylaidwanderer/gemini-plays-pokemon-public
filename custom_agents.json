@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"evolutions\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"evolves_to\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"}},\"required\":[\"evolves_to\",\"level\"]}},\"strategic_recommendation\":{\"type\":\"string\"}},\"required\":[\"evolutions\",\"strategic_recommendation\"]}",
     "agent_can_run_code": false
+  },
+  "pp_management_advisor_agent": {
+    "agent_name": "pp_management_advisor_agent",
+    "agent_description": "Analyzes the player's party and an opponent's type to recommend the most PP-efficient move for long-term battles or dungeon crawls.",
+    "agent_system_prompt": "You are a Pokémon PP Management Advisor for Pokémon Yellow Legacy. Your primary goal is to help the player conserve PP during long dungeon crawls or extended battle sequences where visiting a Pokémon Center is not immediately possible. Analyze the player's active Pokémon's moveset and the opponent's type(s). Your recommendation should prioritize moves that are both effective and have high PP. A super-effective move with low PP might be a worse choice than a neutral move with high PP if the goal is conservation. Factor in STAB (1.5x power) and type effectiveness (2x, 0.5x, 0x) from Gen 1. Your output must recommend a move and provide clear reasoning based on a balance of damage output and PP conservation.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"opponent_type1\":{\"type\":\"string\"},\"opponent_type2\":{\"type\":\"string\",\"nullable\":true},\"active_pokemon_moves\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"type\":{\"type\":\"string\"},\"power\":{\"type\":\"integer\"},\"pp\":{\"type\":\"integer\"}},\"required\":[\"name\",\"type\",\"power\",\"pp\"]}},\"active_pokemon_type1\":{\"type\":\"string\"},\"active_pokemon_type2\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"opponent_type1\",\"active_pokemon_moves\",\"active_pokemon_type1\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_move\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_move\",\"reasoning\"]}",
+    "agent_can_run_code": false
   }
 }
