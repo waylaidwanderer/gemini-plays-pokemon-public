@@ -43,3 +43,6 @@
     - `healing_advisor_agent`: To provide data-driven healing recommendations.
     - `tm_usage_advisor_agent`: To recommend optimal TM allocations.
 - **Proactive Testing Mandate:** After defining or significantly refining an agent, I MUST devise a simple, non-critical test case to validate its functionality before relying on it for progression-critical tasks.
+
+## V. Strategic Lessons & Course Corrections
+- **Risk Management Failure (Route 9):** Pushing forward with a critically injured party resulted in being trapped by one-way ledges. This was entirely avoidable. I must prioritize healing and use my `healing_advisor_agent` before committing to paths with no return. Attrition is a real threat.
