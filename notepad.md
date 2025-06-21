@@ -20,6 +20,7 @@
 - **New Moves Learned:**
     - ECHO (Golbat) learned Wing Attack, replacing Leech Life.
     - PULSAR (Magnemite) learned Flash, replacing Tackle.
+    - NIGHTSHADE (Gloom) learned Mega Drain at Lv. 25, replacing Absorb.
 - **Trainer Battle Initiation:** Some trainers require manual interaction.
 - **Navigation Obstacle:** Defeated trainers act as impassable objects.
 - **EXP. All Mechanics (Verified):** EXP is distributed to all non-fainted party Pokémon.
@@ -34,14 +35,11 @@
 - **Route 11 East Blockage (Assumption):** I assume a Snorlax blocks the path east of the Route 11 gatehouse, but I haven't confirmed this visually.
 
 ## IV. Agent & Tool Strategy
-- **Consolidated Navigation:** Deleted `pathfinder_agent` and `cluster_explorer_agent`. Replaced with a single `route_navigator_agent` to be the sole source of truth for pathfinding.
+- **Navigation Agent (Rebuilt):** The `route_navigator_agent` has been rebuilt to be the sole source of truth for pathfinding. It now requires testing on a simple, non-critical task.
 - **Battle Advisor (FIXED):** The `battle_move_advisor_agent`'s prompt has been updated to correctly calculate multiplicative damage for dual-type Pokémon (e.g., 4x weakness).
-- **Evolution Advisor (Defined):** Created `pokemon_evolution_advisor` to analyze the roster and suggest optimal evolution timings based on level caps and move learning. Untested.
-- **Healing Advisor (Defined):** Created `healing_advisor_agent` to provide data-driven healing recommendations. Untested.
+- **Trainer Hunter Agent (Rebuilt):** The unreliable `trainer_hunter_agent` has been deleted and rebuilt with a more robust prompt. Requires testing.
+- **New Agents (Defined & Untested):**
+    - `pokemon_evolution_advisor`: To suggest optimal evolution timings.
+    - `healing_advisor_agent`: To provide data-driven healing recommendations.
+    - `tm_usage_advisor_agent`: To recommend optimal TM allocations.
 - **Proactive Testing Mandate:** After defining or significantly refining an agent, I MUST devise a simple, non-critical test case to validate its functionality before relying on it for progression-critical tasks.
-
-## V. Future Agent Development
-- **Trainer Hunter Agent (Rebuild):** The original was unreliable. Plan to build a new one with a robust prompt that forces it to correctly parse sprite types and cross-reference with '☠️' markers from the map XML.
-- **TM Usage Advisor:** To recommend the best TM allocations across my party and PC, considering current movesets and type coverage.
-
-- NIGHTSHADE (Gloom) learned Mega Drain at Lv. 25, replacing Absorb.
