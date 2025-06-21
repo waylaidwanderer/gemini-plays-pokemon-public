@@ -39,14 +39,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\",\"enum\":[\"HEAL_IMMEDIATELY\",\"SAFE_TO_PROCEED\"]},\"risk_level\":{\"type\":\"number\",\"minimum\":0,\"maximum\":1},\"reasoning\":{\"type\":\"string\"},\"path_to_pokecenter\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"map_id\":{\"type\":\"string\"},\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"map_id\",\"x\",\"y\"]}}},\"required\":[\"recommendation\",\"risk_level\",\"reasoning\"]}",
     "agent_can_run_code": true
   },
-  "pokemon_evolution_advisor": {
-    "agent_name": "pokemon_evolution_advisor",
-    "agent_description": "Analyzes the player's full roster to recommend optimal evolution timings, considering level caps and move learning.",
-    "agent_system_prompt": "You are a Pokémon Evolution Advisor for Pokémon Yellow Legacy Hard Mode. Your goal is to analyze the player's full Pokémon roster (party and PC) and recommend optimal evolution strategies. Consider the level cap, moves learned at specific levels pre- and post-evolution, and the immediate strategic benefit of evolving. For stone evolutions, weigh the benefit of immediate power against potentially missing out on powerful level-up moves. Your output must conform to the provided schema, suggesting which Pokémon to evolve, when, and why.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon_roster\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"evolution_method\":{\"type\":\"string\",\"enum\":[\"level\",\"item\"]},\"evolution_level\":{\"type\":\"integer\",\"nullable\":true},\"evolution_item\":{\"type\":\"string\",\"nullable\":true},\"pre_evolution_moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"post_evolution_moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"name\",\"level\",\"evolution_method\"]}},\"current_level_cap\":{\"type\":\"integer\"}},\"required\":[\"player_pokemon_roster\",\"current_level_cap\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"evolution_recommendations\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"evolve_now\":{\"type\":\"boolean\"},\"recommended_evolution_level_or_timing\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"pokemon_name\",\"evolve_now\",\"reasoning\"]}}},\"required\":[\"evolution_recommendations\"]}",
-    "agent_can_run_code": false
-  },
   "route_navigator_agent": {
     "agent_name": "route_navigator_agent",
     "agent_description": "A consolidated navigation agent that finds the shortest path to a target coordinate or explores unseen areas. It can now identify and path to HM obstacles.",
