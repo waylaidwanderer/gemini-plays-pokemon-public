@@ -40,3 +40,6 @@
 ## V. Core Gameplay Knowledge & Corrections
 - **NPC Interaction Protocol:** If an NPC seems unreachable, I must attempt to interact from all adjacent, walkable tiles before assuming they cannot be engaged.
 - **Input System:** The game does not allow mixing directional and action buttons in a single turn's input array.
+
+## VI. Gameplay Protocols (MANDATORY)
+- **Post-Transition Verification Protocol:** Every single time the `map_id` changes, I MUST pause and confirm my new map and coordinates from the Game State Information before taking any other action, especially before modifying the World Knowledge Graph.
