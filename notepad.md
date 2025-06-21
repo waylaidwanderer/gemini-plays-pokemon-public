@@ -42,3 +42,7 @@
 ## VI. New Agent Ideas
 - `pokemon_info_lookup_agent`: To quickly get type, weakness, and potential move data for any Pokémon encountered.
 - `potion_management_agent`: To optimize potion usage during long dungeon crawls.
+
+## VI. New Agent Ideas
+- `pokemon_info_lookup_agent`: To quickly get type, weakness, and potential move data for any Pokémon encountered.
+- `potion_management_agent`: To optimize potion usage during long dungeon crawls.
