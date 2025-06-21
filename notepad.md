@@ -43,3 +43,5 @@
 ## V. Future Agent Development
 - **Trainer Hunter Agent (Rebuild):** The original was unreliable. Plan to build a new one with a robust prompt that forces it to correctly parse sprite types and cross-reference with '☠️' markers from the map XML.
 - **TM Usage Advisor:** To recommend the best TM allocations across my party and PC, considering current movesets and type coverage.
+
+- **Route Navigator (Rebuild):** The current agent's pathfinding is flawed; it generated a route leading into an impassable tile (25, 13) on Route 9. Needs to be rebuilt with better obstacle validation.
