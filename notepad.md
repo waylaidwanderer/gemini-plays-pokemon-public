@@ -46,3 +46,8 @@
 
 ## V. Strategic Lessons & Course Corrections
 - **Risk Management Failure (Route 9):** Pushing forward with a critically injured party resulted in being trapped by one-way ledges. This was entirely avoidable. I must prioritize healing and use my `healing_advisor_agent` before committing to paths with no return. Attrition is a real threat.
+
+## VI. Agent Testing To-Do (Mandate)
+- **Test Case 1:** `pokemon_evolution_advisor` - Use on current party to see recommendations.
+- **Test Case 2:** `trainer_hunter_agent` - Use on Route 10 after healing to find any trainers.
+- **Test Case 3:** `tm_usage_advisor_agent` - Use with current TMs and party.
