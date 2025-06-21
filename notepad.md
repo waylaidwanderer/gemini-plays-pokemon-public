@@ -41,6 +41,3 @@
 
 ## V. Future Agent Ideas
 - **EXP Gain Tracker/Leveling Planner:** Could track EXP gains and suggest efficient leveling paths to reach the cap for multiple Pokémon, avoiding over-leveling.
-
-## V. Future Agent Ideas
-- **EXP Gain Tracker/Leveling Planner:** Could track EXP gains and suggest efficient leveling paths to reach the cap for multiple Pokémon, avoiding over-leveling.
