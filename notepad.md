@@ -54,3 +54,18 @@
 - **Reminder:** Unstun Super Nerd (sprite ID 2) on Celadon Mart 4F before leaving.
 
 - **4F Clerk Interaction:** Clerk at (6, 8) is not a standard vendor. Interaction from directly in front at (6,6) and (5,6) yields generic text. The Super Nerd's hint about the POKé DOLL suggests an item is sold here. Will test interacting from different adjacent tiles.
+
+## VI. Disproven Hypotheses & Failed Strategies
+- **Celadon 4F POKé DOLL Clerk:**
+    - Hypothesis: The clerk at (6, 8) sells the POKé DOLL and is reachable.
+    - Attempts:
+        - Interaction from (6, 6) failed (Turn 19183).
+        - Interaction from (5, 6) failed (Turn 19184).
+        - Interaction from (7, 6) failed (Turn 19187).
+        - Pathfinding to adjacent tile (7, 8) failed; area is physically separated (Turn 19191).
+    - Conclusion: The area behind the counter is inaccessible from the main floor. The clerk cannot be interacted with directly.
+- **Celadon Elevator to 4F Secret Area:**
+    - Hypothesis: Using the elevator to go to 4F will lead to the inaccessible area behind the counter.
+    - Attempts:
+        - Took elevator to 4F (Turn 19200).
+    - Conclusion: This returned me to the standard 4F elevator arrival point at (2, 3). Hypothesis disproven.
