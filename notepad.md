@@ -4,7 +4,7 @@
 - **Trust the Data, Not Frustration:** Game State Information (reachable tiles, warps) is the source of truth. My own feeling of being "stuck" or a situation appearing to be a "dead end" is likely a hallucination if the data contradicts it. I must trust the data.
 - **Agent Protocol:**
     - **Pathfinding Agent Unreliability:** All pathfinding agents (`maze_navigator_agent`, `spinner_maze_navigator_agent`) are fundamentally unreliable for the Rocket Hideout's spinner mazes (B2F, B3F, etc.). They consistently fail to account for spinner mechanics. Manual, systematic exploration is required for these specific puzzles.
-    - **`battle_menu_navigator` Flaw:** This agent incorrectly assumes the party menu cursor starts on the first Pokémon. The cursor actually starts on the currently active Pokémon. Manual navigation is required until this is fixed.
+    - **`battle_menu_navigator` Flaw (Corrected):** This agent previously assumed the move menu was a 2x2 grid. This has been corrected to reflect the actual vertical list layout. It also incorrectly assumes the party menu cursor starts on the first Pokémon; it actually starts on the active Pokémon. Manual navigation of the party menu is still required.
 - **Interaction Protocol:** If an interaction (battle, dialogue) doesn't trigger as expected, do not repeat the same input. Immediately try a different input (e.g., 'B' to cancel) or a different approach (e.g., interacting from an adjacent tile).
 - **WKG Protocol:** After adding a transition's nodes, my immediate next action is to add the connecting edge.
 - **Proactive NPC Management:** Use `stun_npc` on moving NPCs to prevent them from blocking paths.
