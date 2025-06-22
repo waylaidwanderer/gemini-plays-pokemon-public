@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v36.0 - Post-Critique Refactor)
+# Gem's Strategic Journal (v37.0 - Post-Reflection Refactor)
 
 ## I. Core Principles & Lessons Learned
 - **Post-Transition Protocol (MANDATORY):** After ANY map change, my IMMEDIATE FIRST ACTION is to check the Game State Information for my new `map_id` and coordinates. I MUST do this BEFORE taking any other action (moving, interacting, WKG logging). This is non-negotiable.
@@ -14,6 +14,7 @@
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Usage:** A fainted POKéMON can use field moves like CUT.
 - **EXP. All:** Distributes EXP to all non-fainted party members.
+- **HYPER BEAM:** Huge damage, but requires a recharge turn unless the opponent faints. The recharge happens during the opponent's switch-in.
 
 ## III. World Intel & Navigation
 ### Celadon City
@@ -30,7 +31,7 @@
 ## IV. Action Plans & Hypotheses
 ### Current Objectives
 - **Primary Goal:** Obtain the Silph Scope.
-- **Secondary Goal:** Investigate the Celadon Game Corner.
+- **Secondary Goal:** Find the LIFT KEY.
 - **Tertiary Goal:** Gain access to Saffron City.
 
 ### Hypotheses
@@ -45,15 +46,5 @@
 - **Celadon Elevator to 4F Secret Area:** The elevator does not provide access to the inaccessible area behind the 4F counter. (Failed Turns 19200-19205).
 - **Celadon Mansion Side Area Loop:** The western side of the mansion contains a warp loop between floors 1F, 2F, and 3F. The actual exit is a separate warp on 1F at (5, 1) leading back to Celadon City at (26, 4). (Failed Turns 19448-19452).
 - **PC Menu Fumbling:** Incorrectly assumed 'Gem's PC' was for Pokémon storage instead of 'BILL's PC', leading to a ~40 turn loop. (Failed Turns 19506-19550). **Lesson:** READ THE SCREEN.
-
-## VII. Completed Objectives
-- **Objective:** Fully explore Celadon City. **(Completed Turn 19495)**
-- **Technical Debt:** Fix `route_navigator_agent`. **(Completed Turn 19499)**
-
-- **HYPER BEAM:** Huge damage, but requires a recharge turn unless the opponent faints. The recharge happens during the opponent's switch-in.
-
 - **Celadon Game Corner Gym Guide:** The Gym Guide at (9, 15) is not a secret switch. He only provides info about the Celadon Gym Leader, Erika. (Failed Turn 19595)
-
 - **Celadon Game Corner Suspicious NPCs:** Both the Gym Guide at (9, 15) and the Middle-Aged Woman at (9, 12) were flagged by my `hideout_scanner_agent` for facing walls but were red herrings. This NPC-based logic is unreliable here. (Failed Turns 19595-19602)
-
-- Test the `progression_advisor_agent` at the next opportunity to validate its effectiveness.
