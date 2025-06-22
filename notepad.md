@@ -42,3 +42,5 @@
 - **`spinner_maze_solver` Agent:** This agent is fundamentally incapable of solving the Rocket Hideout spinner mazes (B2F & B3F). It repeatedly generated invalid paths. The agent has been permanently deleted. Lesson: Recognize tool limitations faster and pivot to manual, systematic exploration for this type of puzzle.
 - **`maze_navigator_agent` (v2 - Refined):** While reliable for non-spinner mazes, this agent has now proven unreliable for spinner mazes (B3F & B2F). It has twice generated paths that were interrupted by spinner mechanics. Lesson: This agent should not be used for spinner mazes. Manual, step-by-step navigation is required for these puzzles.
 - **Rocket Grunt Battle (21, 13 on B2F):** Repeatedly trying to initiate this battle has failed. This interaction is either bugged or requires a specific trigger I have not yet found. I will not attempt this again until other avenues are exhausted.
+
+- **`spinner_maze_navigator_agent` (v3 - Refined):** This agent remains unreliable for the Rocket Hideout B2F spinner maze. It generated a path that led into a loop. Manual navigation is required for these specific puzzles.
