@@ -52,3 +52,6 @@
 ## VII. Team Improvements & Battle Strategy Lessons
 - **Lesson: Moveset Verification (CRITICAL):** Do not assume a Pokémon has a type advantage without a corresponding STAB move. I switched in SUBTERRA (Ground-type) against Arbok (Poison-type) without confirming it knew any Ground moves, turning an easy win into a near-disaster. **Action:** Review all party Pokémon movesets at the next opportunity. Find the TM for Dig for SUBTERRA.
 - **Lesson: Battle Menu Efficiency:** My one-button-per-turn menu navigation is extremely inefficient and wastes turns. **Action:** Refine the `battle_menu_navigator` agent to output a complete button sequence array and use it in a single turn. Stop manual, multi-turn menu navigation.
+
+- **Agent Idea:** Create a 'Battle Status and Tactic Advisor' to counter tricky status moves like Substitute and Glare.
+- **Agent Refinement Note:** Experiment with `battle_menu_navigator` output. Try having it return a single string of button characters (e.g., 'R,A,D,D,A,A') to see if that allows for single-turn execution.
