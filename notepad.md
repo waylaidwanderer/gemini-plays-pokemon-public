@@ -72,3 +72,4 @@
 
 ## VII. Technical Debt & Cleanup
 - **WKG - Celadon Dept. Store Escalators:** The nodes and edges for the escalators are incorrect or incomplete. Need to revisit, delete the bad entries, and re-add them systematically (add node, get ID, add next node, get ID, add edge).
+- **`exploration_agent` (Suboptimal):** Fails to find paths to all reachable unseen tiles in a single run, requiring multiple calls. Needs to be refined for comprehensive, one-shot pathing.
