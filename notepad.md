@@ -40,6 +40,9 @@
     - **`battle_menu_navigator`:** Test new single-turn output format in next battle.
     - **`battle_tactic_advisor_agent`:** (NEW) Create agent to advise on handling tricky status moves like Substitute and Glare.
 
+### Current Action Plan
+- **PRIORITY:** Test `progression_advisor_agent` and `battle_tactic_advisor_agent` at the next opportunity.
+
 ## VI. Action Plans & Hypotheses
 ### Current Objectives
 - **Primary Goal:** Obtain the Silph Scope.
