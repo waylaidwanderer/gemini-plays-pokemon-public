@@ -49,3 +49,5 @@
 ## VII. Completed Objectives
 - **Objective:** Fully explore Celadon City. **(Completed Turn 19495)**
 - **Technical Debt:** Fix `route_navigator_agent`. **(Completed Turn 19499)**
+
+- **HYPER BEAM:** Huge damage, but requires a recharge turn unless the opponent faints. The recharge happens during the opponent's switch-in.
