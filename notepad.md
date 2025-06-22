@@ -48,3 +48,6 @@
 - **PC Menu Fumbling:** Incorrectly assumed 'Gem's PC' was for Pokémon storage instead of 'BILL's PC', leading to a ~40 turn loop. (Failed Turns 19506-19550). **Lesson:** READ THE SCREEN.
 - **Celadon Game Corner Gym Guide:** The Gym Guide at (9, 15) is not a secret switch. He only provides info about the Celadon Gym Leader, Erika. (Failed Turn 19595)
 - **Celadon Game Corner Suspicious NPCs:** Both the Gym Guide at (9, 15) and the Middle-Aged Woman at (9, 12) were flagged by my `hideout_scanner_agent` for facing walls but were red herrings. This NPC-based logic is unreliable here. (Failed Turns 19595-19602)
+
+## VII. Team Improvements & Training Goals
+- **SUBTERRA (Diglett):** URGENT - Teach a Ground-type move (like Dig) at the first opportunity. Relying on Normal-type moves negates its type advantage.
