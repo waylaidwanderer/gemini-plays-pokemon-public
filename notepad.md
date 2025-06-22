@@ -51,3 +51,5 @@
 - **Technical Debt:** Fix `route_navigator_agent`. **(Completed Turn 19499)**
 
 - **HYPER BEAM:** Huge damage, but requires a recharge turn unless the opponent faints. The recharge happens during the opponent's switch-in.
+
+- **Celadon Game Corner Gym Guide:** The Gym Guide at (9, 15) is not a secret switch. He only provides info about the Celadon Gym Leader, Erika. (Failed Turn 19595)
