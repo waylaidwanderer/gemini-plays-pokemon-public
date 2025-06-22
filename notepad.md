@@ -44,4 +44,3 @@
 - **Rocket Grunt Battle (21, 13):** Repeatedly pressing 'A' does not initiate the battle. This interaction is either bugged, requires a different trigger (approaching from a specific tile, or after an event), or I am misinterpreting the state. I will not attempt this again until other avenues are exhausted.
 
 ## VI. Future Agent Ideas
-- **Item Usage Advisor:** An agent that takes my inventory and Pokémon stats to recommend the optimal use of stat-boosting items like HP UP for long-term benefit.
