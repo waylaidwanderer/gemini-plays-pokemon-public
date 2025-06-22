@@ -47,14 +47,6 @@
     "agent_output_schema": "{\"type\":\"object\", \"properties\": {\"trainer_found\": {\"type\": \"boolean\"}, \"trainer_name\": {\"type\": \"string\"}, \"trainer_coordinates\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}}, \"path_to_trainer\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}}}}}",
     "agent_can_run_code": true
   },
-  "tm_hm_compatibility_agent": {
-    "agent_name": "tm_hm_compatibility_agent",
-    "agent_description": "Analyzes a given TM or HM and the player's full roster to identify all compatible Pokémon.",
-    "agent_system_prompt": "You are a Pokémon TM/HM Compatibility Advisor. Your task is to take a specific TM or HM name and the player's full Pokémon roster as input. You must then output a list of all Pokémon from the roster that are able to learn the specified move. Your knowledge base for compatibility should be based on Pokémon Yellow (Gen 1). Your output must conform to the provided schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"move_name\":{\"type\":\"string\"},\"player_pokemon_roster\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"}},\"required\":[\"name\"]}}},\"required\":[\"move_name\",\"player_pokemon_roster\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"compatible_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"compatible_pokemon\"]}",
-    "agent_can_run_code": false
-  },
   "switch_advisor_agent": {
     "agent_name": "switch_advisor_agent",
     "agent_description": "Recommends the best Pokémon to switch to mid-battle, considering type matchups, current HP, and status for the entire party against the current opponent.",
