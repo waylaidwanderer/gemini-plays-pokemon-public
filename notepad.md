@@ -47,3 +47,5 @@
     2. Heal the entire party at the Celadon City Pokémon Center.
     3. Find a drink for the thirsty guards, likely at the Celadon Department Store.
 - **Hypothesis:** The western exit of Route 7 leads to Celadon City.
+
+- **Celadon City Intel:** A Gentleman in the Pokémon Center mentioned that a POKé FLUTE can awaken sleeping POKéMON.
