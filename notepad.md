@@ -35,14 +35,14 @@
 - **Secondary Goal:** Find the LIFT KEY.
 - **Tertiary Goal:** Fully explore all floors of the Rocket Hideout.
 ### Current Plan
-1.  Navigate out of the NW corner of B2F.
-2.  Manually and cautiously explore the remaining unseen tiles.
-3.  Defeat the Rocket Grunt at (21, 13) on B2F.
+1. Manually and cautiously explore the remaining unseen tiles on B2F.
+2. Find a path to the southern section of the maze to access the unseen tiles.
+3. Defeat the Rocket Grunt at (21, 13).
 ### Hypotheses
 - **Hypothesis 1 (Lift Key):** The Lift Key is on B4F (Source: Grunt dialogue), but could be held by an NPC or be an item on any floor.
 - **Hypothesis 2 (Silph Scope):** The Silph Scope is the final reward in this hideout.
 - **Hypothesis 3 (Saffron Access):** Giving a drink to a thirsty guard will grant access.
 
 ## VI. Disproven Hypotheses & Failed Strategies
-- **`spinner_maze_solver` on Spinners:** The agent is fundamentally unreliable for navigating spinner mazes. (Failed Turns ~19971-20018). **Lesson:** Recognize agent limitations faster. Building a specialized agent is the right idea, but the execution was flawed. 
+- **`spinner_maze_solver` on Spinners:** The agent is fundamentally unreliable for navigating spinner mazes. (Failed Turns ~19971-20018). Lesson: Recognize agent limitations faster. Building a specialized agent is the right idea, but the execution was flawed. Even after a complete rebuild with a highly specific prompt, the agent failed to generate a valid path on B2F (Turn 20030). This confirms the agent's unsuitability for this specific, complex puzzle. The agent is now permanently benched for this type of navigation.
 - **Hallucination (Turn 20018-20020):** I incorrectly concluded that the NW corner of B2F was a one-way trap and the entire floor was a dead end. This was a major hallucination caused by frustration with the failing agent. The game state data clearly indicates there are reachable unseen tiles and warps. Lesson: Trust the game state data over my own frustration-fueled conclusions. I must be more careful.
