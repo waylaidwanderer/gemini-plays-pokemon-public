@@ -1,10 +1,11 @@
-# Gem's Strategic Journal (v29.0 - Post-Critique)
+# Gem's Strategic Journal (v30.0 - Post-Critique & Reflection)
 
 ## I. CRITICAL LESSONS & CORRECTIONS
 - **Agent Trust Protocol:** I MUST treat agent output, especially negative results like 'path not found', as valuable data that may invalidate my own assumptions. An agent reporting no path doesn't mean it's broken; it means I might be wrong about the destination or route. I will re-evaluate my premise first.
 - **Risk Management Protocol:** Major strategic maintenance (agent refinement, notepad overhauls) MUST be performed in safe locations like Pokémon Centers, NOT in hostile territory with a weakened party. Safety first!
 - **WKG Protocol:** After adding nodes for a new transition, my VERY NEXT action MUST be to add the connecting edge.
 - **Dead End Definition:** An area is NOT a dead end if there are `Reachable Unseen Tiles`. I must clear them before moving on.
+- **Proactive NPC Management:** Moving NPCs can block paths. It's more efficient to use `stun_npc` proactively rather than repeatedly recalculating paths.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
@@ -18,6 +19,7 @@
 - **Lavender Town Intel:** A girl in the Pokémon Center saw Team Rocket kill a Cubone's mother.
 - **Celadon City Intel:** A Gentleman in the Pokémon Center mentioned that a POKé FLUTE can awaken sleeping POKéMON.
 - **CRITICAL WARP MECHANIC:** The warp from Mr. Fuji's House is ONE-WAY. It exits to (8, 11) in Lavender Town, not back to the entrance at (4, 14).
+- **Celadon Dept. Store:** Vending machines on the roof sell Fresh Water, Soda Pop, and Lemonade.
 
 ## IV. Agent & Tool Strategy
 ### Agent Refinement Protocol (MANDATORY)
@@ -26,11 +28,14 @@
 3.  **Manual Unstick:** If an agent is stuck, take 1-2 manual steps to change the game state. Progress over perfection.
 4.  **Validate, then Deploy:** Only use the refined agent for critical tasks after it passes a simple validation test.
 
+### Agent Syntax
+- **Empty Input Schema:** The correct syntax for an agent with no inputs is `{"type": "object", "properties": {}}`. Using `null` or `"{}"` will cause errors.
+
 ### Agent Status & Refinement Plan
-- **`route_navigator_agent`:** REFINED (T18811). Added reinforced ledge traversal logic to prompt. Will monitor.
-- **`battle_menu_navigator`:** REFINED (T18811). Corrected prompt to specify party list does not wrap. Will test.
-- **`inventory_manager_agent`:** Created (T18811). Will use to optimize inventory before major dungeons or city visits.
-- **`exploration_agent`:** Created (T18990). Refined multiple times to fix syntax errors. It now correctly generates paths to tiles *adjacent* to unseen tiles. Will use to explore the department store.
+- **`route_navigator_agent`:** REFINED (T18811). Working well.
+- **`battle_menu_navigator`:** REFINED (T18811). Working well.
+- **`inventory_manager_agent`:** Created (T18811). Gave a faulty tip about a 'thirsty girl' on the Dept. Store roof, which was invalidated. Will monitor its future performance.
+- **`exploration_agent`:** REFINED (multiple turns). Now correctly generates paths to tiles *adjacent* to unseen tiles. It is my primary tool for systematic exploration.
 
 ## V. Core Gameplay Knowledge & Corrections
 - **NPC Interaction Protocol:** If an NPC seems unreachable, I must attempt to interact from all adjacent, walkable tiles before assuming they cannot be engaged.
@@ -41,7 +46,7 @@
 
 ## VII. Current Action Plans & Hypotheses
 - **IMMEDIATE GOALS:**
-    1. Find the Celadon Department Store.
-    2. Find and purchase a drink for the thirsty guards.
-    3. Explore the Celadon Mansion for clues or items related to Team Rocket/Silph Scope.
-- **Hypothesis:** The Department Store will sell a drink that can be given to the guards.
+    1. Fully explore all floors of the Celadon Department Store.
+    2. Give one of the purchased drinks to a thirsty guard to gain access to Saffron City.
+- **Hypothesis 1 (Confirmed):** The Department Store sells drinks.
+- **Hypothesis 2 (Invalidated):** A 'thirsty girl' on the roof of the Dept. Store trades a TM for a Fresh Water. This was tested on both NPCs and is false.
