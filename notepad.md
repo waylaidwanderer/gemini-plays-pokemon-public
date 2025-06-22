@@ -52,3 +52,5 @@
 
 - **Item Hint:** A Super Nerd on 4F is buying a POKé DOLL for COPYCAT in Cerulean City. This might be a key item for a trade or quest.
 - **Reminder:** Unstun Super Nerd (sprite ID 2) on Celadon Mart 4F before leaving.
+
+- **4F Clerk Interaction:** Clerk at (6, 8) is not a standard vendor. Interaction from directly in front at (6,6) and (5,6) yields generic text. The Super Nerd's hint about the POKé DOLL suggests an item is sold here. Will test interacting from different adjacent tiles.
