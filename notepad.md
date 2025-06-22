@@ -53,3 +53,5 @@
 - **HYPER BEAM:** Huge damage, but requires a recharge turn unless the opponent faints. The recharge happens during the opponent's switch-in.
 
 - **Celadon Game Corner Gym Guide:** The Gym Guide at (9, 15) is not a secret switch. He only provides info about the Celadon Gym Leader, Erika. (Failed Turn 19595)
+
+- **Celadon Game Corner Suspicious NPCs:** Both the Gym Guide at (9, 15) and the Middle-Aged Woman at (9, 12) were flagged by my `hideout_scanner_agent` for facing walls but were red herrings. This NPC-based logic is unreliable here. (Failed Turns 19595-19602)
