@@ -51,4 +51,4 @@
 - **Hypothesis 1 (Confirmed):** The Department Store sells drinks.
 - **Hypothesis 2 (Invalidated):** A 'thirsty girl' on the roof of the Dept. Store trades a TM for a Fresh Water. This was tested on both NPCs and is false.
 
-- **Celadon Mart 3F Intel:** A Gameboy Kid at (8, 3) mentioned his friend will trade a Kangaskhan for a Graveler. This is a classic trade evolution hint.
+- **Celadon Mart 3F Intel:** A Gameboy Kid at (8, 3) mentioned his friend will trade a Kangaskhan for a Graveler. His friend at (9,3) confirmed he loves and collects Graveler. This is a classic trade evolution hint.
