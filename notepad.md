@@ -47,3 +47,6 @@
 - **WKG - Celadon Dept. Store Escalators:** The nodes and edges for the escalators are incorrect or incomplete. Need to revisit, delete the bad entries, and re-add them systematically.
 - **`route_navigator_agent` (CRITICAL):** Fundamentally flawed. Fails in complex indoor areas and gives bizarre paths. Requires a complete logic overhaul.
 - **`exploration_agent` (Suboptimal):** Fails to find paths to all reachable unseen tiles in a single run, requiring multiple calls. Needs to be refined for comprehensive, one-shot pathing.
+
+## VII. Agent Ideas
+- **Progression Advisor Agent:** To analyze badges, level cap, party, and known locations to suggest the next logical major objective (e.g., next gym). This would help with long-term strategic planning.
