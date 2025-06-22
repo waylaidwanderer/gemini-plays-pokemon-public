@@ -70,5 +70,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"}},\"required\":[\"name\"]}},\"hm_to_check\":{\"type\":\"string\",\"enum\":[\"Cut\",\"Flash\",\"Fly\",\"Surf\",\"Strength\"]}},\"required\":[\"player_party_pokemon\",\"hm_to_check\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"compatible_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"compatible_pokemon\",\"reasoning\"]}",
     "agent_can_run_code": false
+  },
+  "trade_tracker_agent": {
+    "agent_name": "trade_tracker_agent",
+    "agent_description": "Logs and retrieves information about in-game trade opportunities. It records the NPC, their location, the Pokémon they want, and the Pokémon they offer.",
+    "agent_system_prompt": "You are a Trade Tracker for Pokémon Yellow Legacy. Your purpose is to maintain a persistent log of all trade opportunities discovered by the player. When the user provides details of a new trade, you will add it to your knowledge base. When the user asks about trades, you will retrieve and display the relevant information. Your output must conform to the provided schema.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\",\"enum\":[\"log_trade\",\"query_trades\"]},\"trade_details\":{\"type\":\"object\",\"properties\":{\"npc_name\":{\"type\":\"string\"},\"map_id\":{\"type\":\"string\"},\"coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"pokemon_wanted\":{\"type\":\"string\"},\"pokemon_offered\":{\"type\":\"string\"}},\"required\":[\"npc_name\",\"map_id\",\"coordinates\",\"pokemon_wanted\",\"pokemon_offered\"]},\"query\":{\"type\":\"string\"}},\"required\":[\"action\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"status\":{\"type\":\"string\"},\"trades\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"npc_name\":{\"type\":\"string\"},\"map_id\":{\"type\":\"string\"},\"coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"pokemon_wanted\":{\"type\":\"string\"},\"pokemon_offered\":{\"type\":\"string\"}},\"required\":[\"npc_name\",\"map_id\",\"coordinates\",\"pokemon_wanted\",\"pokemon_offered\"]}}},\"required\":[\"status\"]}",
+    "agent_can_run_code": false
   }
 }
