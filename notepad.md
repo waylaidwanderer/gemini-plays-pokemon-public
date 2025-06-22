@@ -52,5 +52,3 @@
 
 - **Hypothesis 1 (Celadon/Silph Scope):** The Silph Scope is likely in a Team Rocket-controlled area within Celadon City, possibly the Game Corner.
 - **Hypothesis 2 (Saffron Access):** Giving a drink (Fresh Water, Soda Pop, or Lemonade) to a thirsty guard will grant access. I will test Fresh Water first.
-
-- **Reminder:** Unstun Girl (sprite ID 4) on Celadon Mart 2F before leaving.
