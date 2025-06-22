@@ -42,7 +42,7 @@
 
 ## VII. Current Action Plans & Hypotheses
 - **IMMEDIATE GOALS:**
-    1. Explore Celadon Mansion for clues or items.
-    2. Find the Celadon Department Store.
-    3. Find a drink for the thirsty guards.
+    1. Find the Celadon Department Store.
+    2. Find and purchase a drink for the thirsty guards.
+    3. Explore the Celadon Mansion for clues or items related to Team Rocket/Silph Scope.
 - **Hypothesis:** The Department Store will sell a drink that can be given to the guards.
