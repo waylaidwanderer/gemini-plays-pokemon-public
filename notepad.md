@@ -51,3 +51,5 @@
 - **Hypothesis 2 (Saffron Access):** Giving a drink (Fresh Water, Soda Pop, or Lemonade) to a thirsty guard will grant access. I will test Fresh Water first.
 
 - **Reminder:** Unstun Super Nerd (sprite ID 2) on Celadon Mart 4F before leaving.
+
+- **Item Hint:** A Super Nerd on 4F is buying a POKé DOLL for COPYCAT in Cerulean City. This might be a key item for a trade or quest.
