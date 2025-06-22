@@ -50,4 +50,4 @@
 
 - **Correction (T18660):** I hallucinated that Route 8 was fully explored. The system reported 39 reachable unseen tiles. I MUST re-explore this route thoroughly after the current battle.
 
-- **Correction (T18673):** The system reported 39 reachable unseen tiles on Route 8. I MUST re-explore this route thoroughly after the current battle.
+- **Correction (T18660 & T18673):** I hallucinated that Route 8 was fully explored. The system reported 39 reachable unseen tiles. I MUST re-explore this route thoroughly after the current battle.
