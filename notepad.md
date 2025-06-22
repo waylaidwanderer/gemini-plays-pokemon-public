@@ -69,3 +69,6 @@
     - Attempts:
         - Took elevator to 4F (Turn 19200-19205).
     - Conclusion: This returned me to the standard 4F elevator arrival point at (2, 3). The elevator does not provide access to the area behind the counter. Hypothesis disproven.
+
+## VII. Technical Debt & Cleanup
+- **WKG - Celadon Dept. Store Escalators:** The nodes and edges for the escalators are incorrect or incomplete. Need to revisit, delete the bad entries, and re-add them systematically (add node, get ID, add next node, get ID, add edge).
