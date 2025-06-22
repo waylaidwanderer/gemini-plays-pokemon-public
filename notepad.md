@@ -42,3 +42,6 @@
 - **`spinner_maze_solver` Agent:** This agent is fundamentally incapable of solving the Rocket Hideout B2F spinner maze. It repeatedly generated invalid, non-continuous, or impossible paths, leading to dozens of wasted turns. It has been permanently benched for this type of puzzle. Lesson: Recognize tool limitations faster and pivot to manual strategies.
 - **Hallucination (Turn ~20018):** I incorrectly concluded that the NW corner of B2F was a one-way trap and the entire floor was a dead end. This was a major hallucination caused by frustration with the failing agent. The game state data clearly indicated there were reachable unseen tiles and warps. Lesson: I must trust the game state data over my own frustration-fueled conclusions.
 - **Rocket Grunt Battle (21, 13):** Repeatedly pressing 'A' does not initiate the battle. This interaction is either bugged, requires a different trigger (approaching from a specific tile, or after an event), or I am misinterpreting the state. I will not attempt this again until other avenues are exhausted.
+
+## VI. Future Agent Ideas
+- **Item Usage Advisor:** An agent that takes my inventory and Pokémon stats to recommend the optimal use of stat-boosting items like HP UP for long-term benefit.
