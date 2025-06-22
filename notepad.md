@@ -1,10 +1,10 @@
-# Gem's Strategic Journal (v28.0 - Post-Reflection)
+# Gem's Strategic Journal (v29.0 - Post-Critique)
 
 ## I. CRITICAL LESSONS & CORRECTIONS
+- **Agent Trust Protocol:** I MUST treat agent output, especially negative results like 'path not found', as valuable data that may invalidate my own assumptions. An agent reporting no path doesn't mean it's broken; it means I might be wrong about the destination or route. I will re-evaluate my premise first.
+- **Risk Management Protocol:** Major strategic maintenance (agent refinement, notepad overhauls) MUST be performed in safe locations like Pokémon Centers, NOT in hostile territory with a weakened party. Safety first!
 - **WKG Protocol:** After adding nodes for a new transition, my VERY NEXT action MUST be to add the connecting edge.
-- **Verify, Don't Assume:** I must verify my `map_id` and coordinates from the Game State before every action.
 - **Dead End Definition:** An area is NOT a dead end if there are `Reachable Unseen Tiles`. I must clear them before moving on.
-- **Agent Limitations:** Agents are not infallible. The `route_navigator_agent` has shown issues with ledge traversal. I must treat its output as a strong suggestion and be prepared to manually adjust my path.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
@@ -16,6 +16,7 @@
 - **Route 2 Segmentation:** Diglett's Cave exit at (13, 11) leads to a small, isolated northern section.
 - **Lt. Surge's Raichu (Lv. 29):** Knows Body Slam and Surf.
 - **Lavender Town Intel:** A girl in the Pokémon Center saw Team Rocket kill a Cubone's mother.
+- **Celadon City Intel:** A Gentleman in the Pokémon Center mentioned that a POKé FLUTE can awaken sleeping POKéMON.
 - **CRITICAL WARP MECHANIC:** The warp from Mr. Fuji's House is ONE-WAY. It exits to (8, 11) in Lavender Town, not back to the entrance at (4, 14).
 
 ## IV. Agent & Tool Strategy
@@ -29,8 +30,6 @@
 - **`route_navigator_agent`:** REFINED (T18811). Added reinforced ledge traversal logic to prompt. Will monitor.
 - **`battle_menu_navigator`:** REFINED (T18811). Corrected prompt to specify party list does not wrap. Will test.
 - **`pc_organizer_agent`:** Created. Will test at the next opportunity.
-
-### New Agent Implementation Plan
 - **`inventory_manager_agent`:** Created (T18811). Will use to optimize inventory before major dungeons or city visits.
 - **`pokedex_completionist_agent`:** Created (T18811). Will use to guide catching efforts in new areas to efficiently complete the Pokédex.
 
@@ -43,9 +42,7 @@
 
 ## VII. Current Action Plans & Hypotheses
 - **IMMEDIATE GOALS:**
-    1. Navigate Route 7 to find Celadon City.
-    2. Heal the entire party at the Celadon City Pokémon Center.
-    3. Find a drink for the thirsty guards, likely at the Celadon Department Store.
-- **Hypothesis:** The western exit of Route 7 leads to Celadon City.
-
-- **Celadon City Intel:** A Gentleman in the Pokémon Center mentioned that a POKé FLUTE can awaken sleeping POKéMON.
+    1. Explore Celadon Mansion for clues or items.
+    2. Find the Celadon Department Store.
+    3. Find a drink for the thirsty guards.
+- **Hypothesis:** The Department Store will sell a drink that can be given to the guards.
