@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v38.0 - Post-Critique Refactor)
+# Gem's Strategic Journal (v39.0 - Post-Critique Refactor)
 
 ## I. Core Principles & Lessons Learned
 - **Post-Transition Protocol (MANDATORY):** After ANY map change, my IMMEDIATE FIRST ACTION is to check the Game State Information for my new `map_id` and coordinates. I MUST do this BEFORE taking any other action (moving, interacting, WKG logging). This is non-negotiable.
@@ -28,20 +28,31 @@
 - **Route 2:** Diglett's Cave exit leads to an isolated northern section.
 - **Route 10:** Path to Lavender Town is south, past the Pokémon Center and Rock Tunnel.
 
-## IV. Action Plans & Hypotheses
+## IV. Pre-Mission Checklist & Protocols
+- **Agent Verification:** Before major dungeons, test critical agents (especially `route_navigator_agent`) in a controlled environment.
+- **Team Readiness:** Verify party movesets for type coverage and synergy.
+- **Goal Validation:** Ensure primary/secondary goals are based on solid information, not assumptions.
+- **Contingency Planning:** If a primary tool (like `route_navigator_agent`) proves unreliable, revert to manual pathing or other methods. Do not get stuck in a trust-fail loop.
+
+## V. Agent Development & Testing Pipeline
+- **Active Agent Queue:**
+    - **`progression_advisor_agent`:** Needs testing to determine value.
+    - **`battle_menu_navigator`:** Test new single-turn output format in next battle.
+    - **`battle_tactic_advisor_agent`:** (NEW) Create agent to advise on handling tricky status moves like Substitute and Glare.
+
+## VI. Action Plans & Hypotheses
 ### Current Objectives
 - **Primary Goal:** Obtain the Silph Scope.
 - **Secondary Goal:** Find the LIFT KEY.
 - **Tertiary Goal:** Gain access to Saffron City.
-
 ### Hypotheses
 - **Hypothesis 1 (Silph Scope):** The Silph Scope is in a Team Rocket-controlled area, accessed via the Celadon Game Corner. **Plan:** Investigate the Game Corner. Look for secret switches or posters that might reveal a hideout.
 - **Hypothesis 2 (Saffron Access):** Giving a drink to a thirsty guard will grant access. **Plan:** Test Fresh Water on a guard at the next opportunity.
 
-## V. Technical Debt & Cleanup Plan
+## VII. Technical Debt & Cleanup Plan
 - Test the new `progression_advisor_agent` at the next opportunity to validate its effectiveness.
 
-## VI. Disproven Hypotheses & Failed Strategies
+## VIII. Disproven Hypotheses & Failed Strategies
 - **Celadon 4F POKé DOLL Clerk:** The clerk at (6, 8) is inaccessible from the main floor. The area behind the counter is a separate, unreachable section. (Failed Turns 19183-19191).
 - **Celadon Elevator to 4F Secret Area:** The elevator does not provide access to the inaccessible area behind the 4F counter. (Failed Turns 19200-19205).
 - **Celadon Mansion Side Area Loop:** The western side of the mansion contains a warp loop between floors 1F, 2F, and 3F. The actual exit is a separate warp on 1F at (5, 1) leading back to Celadon City at (26, 4). (Failed Turns 19448-19452).
@@ -49,9 +60,6 @@
 - **Celadon Game Corner Gym Guide:** The Gym Guide at (9, 15) is not a secret switch. He only provides info about the Celadon Gym Leader, Erika. (Failed Turn 19595)
 - **Celadon Game Corner Suspicious NPCs:** Both the Gym Guide at (9, 15) and the Middle-Aged Woman at (9, 12) were flagged by my `hideout_scanner_agent` for facing walls but were red herrings. This NPC-based logic is unreliable here. (Failed Turns 19595-19602)
 
-## VII. Team Improvements & Battle Strategy Lessons
+## IX. Team Improvements & Battle Strategy Lessons
 - **Lesson: Moveset Verification (CRITICAL):** Do not assume a Pokémon has a type advantage without a corresponding STAB move. I switched in SUBTERRA (Ground-type) against Arbok (Poison-type) without confirming it knew any Ground moves, turning an easy win into a near-disaster. **Action:** Review all party Pokémon movesets at the next opportunity. Find the TM for Dig for SUBTERRA.
 - **Lesson: Battle Menu Efficiency:** My one-button-per-turn menu navigation is extremely inefficient and wastes turns. **Action:** Refine the `battle_menu_navigator` agent to output a complete button sequence array and use it in a single turn. Stop manual, multi-turn menu navigation.
-
-- **Agent Idea:** Create a 'Battle Status and Tactic Advisor' to counter tricky status moves like Substitute and Glare.
-- **Agent Refinement Note:** Experiment with `battle_menu_navigator` output. Try having it return a single string of button characters (e.g., 'R,A,D,D,A,A') to see if that allows for single-turn execution.
