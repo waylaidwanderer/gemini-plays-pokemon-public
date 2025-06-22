@@ -67,5 +67,5 @@
 - **Celadon Elevator to 4F Secret Area:**
     - Hypothesis: Using the elevator to go to 4F will lead to the inaccessible area behind the counter.
     - Attempts:
-        - Took elevator to 4F (Turn 19200).
-    - Conclusion: This returned me to the standard 4F elevator arrival point at (2, 3). Hypothesis disproven.
+        - Took elevator to 4F (Turn 19200-19205).
+    - Conclusion: This returned me to the standard 4F elevator arrival point at (2, 3). The elevator does not provide access to the area behind the counter. Hypothesis disproven.
