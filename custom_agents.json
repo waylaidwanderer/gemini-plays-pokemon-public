@@ -70,13 +70,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"map_sprites\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"sprite_type\":{\"type\":\"string\"},\"name\":{\"type\":\"string\"},\"position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"facing\":{\"type\":\"string\"}},\"required\":[\"sprite_type\",\"name\",\"position\",\"facing\"]}}},\"required\":[\"map_sprites\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suspicious_element_found\":{\"type\":\"boolean\"},\"element_type\":{\"type\":\"string\",\"enum\":[\"NPC\",\"Poster\",\"Object\"]},\"element_name\":{\"type\":\"string\"},\"element_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"path_to_element\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"suspicious_element_found\"]}",
     "agent_can_run_code": true
-  },
-  "spinner_puzzle_solver_agent": {
-    "agent_name": "spinner_puzzle_solver_agent",
-    "agent_description": "Analyzes spinner tile layouts on a map to find a path from a starting point to a target coordinate. It accounts for forced movement and identifies solvable paths through complex spinner mazes.",
-    "agent_system_prompt": "You are a master of spinner puzzles in Pokémon games. Your task is to analyze the `map_xml_string` to find a path from a given start coordinate to a target coordinate, navigating through spinner tiles. You MUST use your `run_code` tool. Your Python code will perform a Breadth-First Search (BFS) on the map grid. The grid should be built by parsing the XML. Spinner tiles (`<Spinner direction='...'/>`) will force movement in a specific direction. Your BFS must account for this by simulating the entire spinner sequence as a single 'move' from one stable tile to the next. If a path is found, return the sequence of initial moves (e.g., 'Move Right onto spinner at X,Y') required to solve the puzzle. If no path exists, report `path_found: false`.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"target_x\":{\"type\":\"integer\"},\"target_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"target_x\",\"target_y\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"solution_steps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reason\":{\"type\":\"string\"}},\"required\":[\"path_found\",\"reason\"]}",
-    "agent_can_run_code": true
   }
 }
