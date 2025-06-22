@@ -55,14 +55,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"should_switch\":{\"type\":\"boolean\"},\"recommended_pokemon_name\":{\"type\":\"string\",\"nullable\":true},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"should_switch\",\"reasoning\"]}",
     "agent_can_run_code": false
   },
-  "hm_advisor_agent": {
-    "agent_name": "hm_advisor_agent",
-    "agent_description": "Checks which Pokémon in the player's current party can learn a given HM.",
-    "agent_system_prompt": "You are an HM Advisor for Pokémon Yellow Legacy. Your task is to take a list of Pokémon in the player's party and a specific HM. You must determine which of the Pokémon in the party are capable of learning that HM based on standard Gen 1 learnsets. Your output must be a simple list of the names of the Pokémon that can learn the specified HM. Output must conform to the provided schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"}},\"required\":[\"name\"]}},\"hm_to_check\":{\"type\":\"string\",\"enum\":[\"Cut\",\"Flash\",\"Fly\",\"Surf\",\"Strength\"]}},\"required\":[\"player_party_pokemon\",\"hm_to_check\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"compatible_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"compatible_pokemon\",\"reasoning\"]}",
-    "agent_can_run_code": false
-  },
   "trade_tracker_agent": {
     "agent_name": "trade_tracker_agent",
     "agent_description": "Logs and retrieves information about in-game trade opportunities. It records the NPC, their location, the Pokémon they want, and the Pokémon they offer.",
