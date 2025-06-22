@@ -44,3 +44,5 @@
 - **Rocket Grunt Battle (21, 13):** Repeatedly pressing 'A' does not initiate the battle. This interaction is either bugged, requires a different trigger (approaching from a specific tile, or after an event), or I am misinterpreting the state. I will not attempt this again until other avenues are exhausted.
 
 ## VI. Future Agent Ideas
+
+- **`spinner_maze_solver` Agent (Refined):** The refined agent is also unreliable. It failed again on Rocket Hideout B3F by generating a path into an impassable wall. The agent has been permanently deleted. Lesson: Do not rely on this agent for complex spinner mazes; manual, systematic exploration is necessary.
