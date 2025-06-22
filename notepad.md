@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v37.0 - Post-Reflection Refactor)
+# Gem's Strategic Journal (v38.0 - Post-Critique Refactor)
 
 ## I. Core Principles & Lessons Learned
 - **Post-Transition Protocol (MANDATORY):** After ANY map change, my IMMEDIATE FIRST ACTION is to check the Game State Information for my new `map_id` and coordinates. I MUST do this BEFORE taking any other action (moving, interacting, WKG logging). This is non-negotiable.
@@ -49,5 +49,6 @@
 - **Celadon Game Corner Gym Guide:** The Gym Guide at (9, 15) is not a secret switch. He only provides info about the Celadon Gym Leader, Erika. (Failed Turn 19595)
 - **Celadon Game Corner Suspicious NPCs:** Both the Gym Guide at (9, 15) and the Middle-Aged Woman at (9, 12) were flagged by my `hideout_scanner_agent` for facing walls but were red herrings. This NPC-based logic is unreliable here. (Failed Turns 19595-19602)
 
-## VII. Team Improvements & Training Goals
-- **SUBTERRA (Diglett):** URGENT - Teach a Ground-type move (like Dig) at the first opportunity. Relying on Normal-type moves negates its type advantage.
+## VII. Team Improvements & Battle Strategy Lessons
+- **Lesson: Moveset Verification (CRITICAL):** Do not assume a Pokémon has a type advantage without a corresponding STAB move. I switched in SUBTERRA (Ground-type) against Arbok (Poison-type) without confirming it knew any Ground moves, turning an easy win into a near-disaster. **Action:** Review all party Pokémon movesets at the next opportunity. Find the TM for Dig for SUBTERRA.
+- **Lesson: Battle Menu Efficiency:** My one-button-per-turn menu navigation is extremely inefficient and wastes turns. **Action:** Refine the `battle_menu_navigator` agent to output a complete button sequence array and use it in a single turn. Stop manual, multi-turn menu navigation.
