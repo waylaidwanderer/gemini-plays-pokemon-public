@@ -1,13 +1,11 @@
-# Gem's Strategic Journal (v42.2 - The Hallucination Debrief)
+# Gem's Strategic Journal (v43 - Post-Critique Reboot)
 
 ## I. Core Principles & Lessons Learned
-- **Agent Trust Protocol:** Agents are tools, not infallible guides. A 'path not found' result is a signal to re-evaluate the premise. Persistently failing agents, especially on specialized puzzles like spinner mazes, MUST be benched immediately in favor of careful manual navigation.
-- **Agent-First Workflow:** Prioritize agents for complex tasks, but recognize their limitations. Do not try to force a general-purpose agent to solve a hyper-specialized problem.
+- **Trust the Data, Not Frustration:** Game State Information (reachable tiles, warps) is the source of truth. My own feeling of being "stuck" or a situation appearing to be a "dead end" is likely a hallucination if the data contradicts it. I must trust the data.
+- **Agent Protocol:** An agent that fails the same specific task 2-3 times consecutively is unreliable for that task. It must be benched immediately in favor of a different strategy, usually careful manual execution. Do not fall into a sunk-cost fallacy of endlessly refining a broken tool.
+- **Interaction Protocol:** If an interaction (battle, dialogue) doesn't trigger as expected, do not repeat the same input. Immediately try a different input (e.g., 'B' to cancel) or a different approach (e.g., interacting from an adjacent tile).
 - **WKG Protocol:** After adding a transition's nodes, my immediate next action is to add the connecting edge.
-- **Dead End Definition:** An area is NOT a dead end if `Reachable Unseen Tiles` or reachable warps/connections exist. A dead end is confirmed only when all paths, warps, and unseen tiles have been exhausted. 
 - **Proactive NPC Management:** Use `stun_npc` on moving NPCs to prevent them from blocking paths.
-- **Interaction Protocol:** Attempt interaction from all adjacent, walkable tiles before assuming an NPC is unreachable. If stuck in a dialogue loop, try pressing 'B' to cancel.
-- **Exploration Protocol:** Systematically clear sections of a map. `Reachable Unseen Tiles` count must be zero before a map is considered fully explored.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
@@ -26,23 +24,21 @@
 - **Lavender Town:** Pokémon Tower is impassable without the Silph Scope.
 - **Route 10:** Path to Lavender Town is south, past the Pokémon Center and Rock Tunnel.
 
-## IV. Agent Development & Future Ideas
-- **`spinner_maze_solver`:** (BENCHED for spinner mazes). The agent has repeatedly failed to navigate complex spinner puzzles. Manual navigation is required for these areas.
-
-## V. Action Plans & Hypotheses
+## IV. Action Plans & Hypotheses
 ### Current Objectives
 - **Primary Goal:** Obtain the Silph Scope.
 - **Secondary Goal:** Find the LIFT KEY.
 - **Tertiary Goal:** Fully explore all floors of the Rocket Hideout.
 ### Current Plan
-1. Manually and cautiously explore the remaining unseen tiles on B2F.
-2. Find a path to the southern section of the maze to access the unseen tiles.
-3. Defeat the Rocket Grunt at (21, 13).
+1.  Manually and cautiously explore the remaining unseen tiles on Rocket Hideout B2F.
+2.  Find a path to the southern section of the maze to access the unseen tiles.
+3.  Re-attempt to battle the Rocket Grunt at (21, 13) after exploring more, in case an event flag is required.
 ### Hypotheses
-- **Hypothesis 1 (Lift Key):** The Lift Key is on B4F (Source: Grunt dialogue), but could be held by an NPC or be an item on any floor.
+- **Hypothesis 1 (Lift Key):** The Lift Key is on B4F (Source: Grunt dialogue), but could be held by an NPC or be an item on any floor. Finding it is necessary to proceed.
 - **Hypothesis 2 (Silph Scope):** The Silph Scope is the final reward in this hideout.
-- **Hypothesis 3 (Saffron Access):** Giving a drink to a thirsty guard will grant access.
+- **Hypothesis 3 (Saffron Access):** Giving a drink from the Celadon vending machines to a thirsty guard will grant access to Saffron City.
 
-## VI. Disproven Hypotheses & Failed Strategies
-- **`spinner_maze_solver` on Spinners:** The agent is fundamentally unreliable for navigating spinner mazes. (Failed Turns ~19971-20018). Lesson: Recognize agent limitations faster. Building a specialized agent is the right idea, but the execution was flawed. Even after a complete rebuild with a highly specific prompt, the agent failed to generate a valid path on B2F (Turn 20030). This confirms the agent's unsuitability for this specific, complex puzzle. The agent is now permanently benched for this type of navigation.
-- **Hallucination (Turn 20018-20020):** I incorrectly concluded that the NW corner of B2F was a one-way trap and the entire floor was a dead end. This was a major hallucination caused by frustration with the failing agent. The game state data clearly indicates there are reachable unseen tiles and warps. Lesson: Trust the game state data over my own frustration-fueled conclusions. I must be more careful.
+## V. Disproven Hypotheses & Failed Strategies
+- **`spinner_maze_solver` Agent:** This agent is fundamentally incapable of solving the Rocket Hideout B2F spinner maze. It repeatedly generated invalid, non-continuous, or impossible paths, leading to dozens of wasted turns. It has been permanently benched for this type of puzzle. Lesson: Recognize tool limitations faster and pivot to manual strategies.
+- **Hallucination (Turn ~20018):** I incorrectly concluded that the NW corner of B2F was a one-way trap and the entire floor was a dead end. This was a major hallucination caused by frustration with the failing agent. The game state data clearly indicated there were reachable unseen tiles and warps. Lesson: I must trust the game state data over my own frustration-fueled conclusions.
+- **Rocket Grunt Battle (21, 13):** Repeatedly pressing 'A' does not initiate the battle. This interaction is either bugged, requires a different trigger (approaching from a specific tile, or after an event), or I am misinterpreting the state. I will not attempt this again until other avenues are exhausted.
