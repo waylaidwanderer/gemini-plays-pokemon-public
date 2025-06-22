@@ -45,11 +45,10 @@
 ## V. Current Action Plans & Hypotheses
 - **Primary Goal:** Obtain the Silph Scope.
 - **Secondary Goal:** Gain access to Saffron City.
-- **Tertiary Goal:** Acquire a beverage for the thirsty Saffron City guard.
+- **Tertiary Goal:** Acquire a POKé DOLL for the COPYCAT quest.
 
 - **Hypothesis 1 (Celadon/Silph Scope):** The Silph Scope is likely in a Team Rocket-controlled area within Celadon City, possibly the Game Corner.
 - **Hypothesis 2 (Saffron Access):** Giving a drink (Fresh Water, Soda Pop, or Lemonade) to a thirsty guard will grant access. I will test Fresh Water first.
 
-- **Reminder:** Unstun Super Nerd (sprite ID 2) on Celadon Mart 4F before leaving.
-
 - **Item Hint:** A Super Nerd on 4F is buying a POKé DOLL for COPYCAT in Cerulean City. This might be a key item for a trade or quest.
+- **Reminder:** Unstun Super Nerd (sprite ID 2) on Celadon Mart 4F before leaving.
