@@ -29,7 +29,7 @@
 ## IV. Action Plans & Hypotheses
 ### Current Objectives
 - **Primary Goal:** Obtain the Silph Scope.
-- **Secondary Goal:** Find the LIFT KEY.
+- **Secondary Goal:** Use the LIFT KEY.
 - **Tertiary Goal:** Fully explore all floors of the Rocket Hideout.
 ### Current Plan
 1.  Manually and cautiously explore the remaining unseen tiles on Rocket Hideout B3F.
