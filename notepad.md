@@ -29,9 +29,8 @@
 ### Agent Status & Refinement Plan
 - **`route_navigator_agent`:** REFINED (T18811). Added reinforced ledge traversal logic to prompt. Will monitor.
 - **`battle_menu_navigator`:** REFINED (T18811). Corrected prompt to specify party list does not wrap. Will test.
-- **`pc_organizer_agent`:** Created. Will test at the next opportunity.
 - **`inventory_manager_agent`:** Created (T18811). Will use to optimize inventory before major dungeons or city visits.
-- **`pokedex_completionist_agent`:** Created (T18811). Will use to guide catching efforts in new areas to efficiently complete the Pokédex.
+- **`exploration_agent`:** Created (T18990). Refined multiple times to fix syntax errors. It now correctly generates paths to tiles *adjacent* to unseen tiles. Will use to explore the department store.
 
 ## V. Core Gameplay Knowledge & Corrections
 - **NPC Interaction Protocol:** If an NPC seems unreachable, I must attempt to interact from all adjacent, walkable tiles before assuming they cannot be engaged.
