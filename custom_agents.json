@@ -47,14 +47,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"should_switch\":{\"type\":\"boolean\"},\"recommended_pokemon_name\":{\"type\":\"string\",\"nullable\":true},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"should_switch\",\"reasoning\"]}",
     "agent_can_run_code": false
   },
-  "progression_advisor_agent": {
-    "agent_name": "progression_advisor_agent",
-    "agent_description": "Analyzes the current game state (badges, location, key items) and world knowledge to suggest the next most logical major objective or area to explore for story progression.",
-    "agent_system_prompt": "You are a Pokémon Yellow Legacy Progression Advisor. Your goal is to analyze the player's current progress and suggest the next logical step to advance the main story. Your analysis should consider: 1. Badges obtained: What areas or HMs are now accessible? 2. Current Location: What nearby objectives are available? 3. Key Items: Does the player have items like the Silph Scope or a key that unlocks a new area? 4. World Knowledge Graph: Use the `world_knowledge_graph_json_string` to understand connectivity and identify unexplored major paths. 5. Known Blockers: Are there known obstacles (like thirsty guards or the need for a specific HM) that the player can now overcome? Your output should be a clear, concise recommendation for the next primary objective, including the target location and the reasoning based on the available data. You MUST use your `run_code` tool to analyze the World Knowledge Graph.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"badges_obtained\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_map_id\":{\"type\":\"string\"},\"key_items\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"badges_obtained\",\"current_map_id\",\"key_items\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_objective\":{\"type\":\"string\"},\"target_location_map_id\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_objective\",\"target_location_map_id\",\"reasoning\"]}",
-    "agent_can_run_code": true
-  },
   "battle_tactic_advisor_agent": {
     "agent_name": "battle_tactic_advisor_agent",
     "agent_description": "Advises on battle tactics against opponents with tricky moves like Substitute, Glare, or stat-buffing moves. Recommends whether to attack, switch, or use a specific counter-move.",
