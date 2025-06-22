@@ -41,3 +41,7 @@
     1. Heal the entire party at the nearest Pokémon Center. My primary hypothesis is that the unvisited warp at (14, 4) on Route 8 might lead to a shortcut or a new PC.
     2. Systematically explore the 37 remaining reachable unseen tiles on Route 8.
 - **Hypothesis:** The guard in the Route 8 Gatehouse is blocking the way to Saffron City. I may need an item to pass.
+
+## VIII. Future Agent Ideas (Post-Critique)
+- **Inventory Manager Agent:** Could analyze my inventory and suggest items to buy, sell, or use based on my current location, goals, and money. It could help prevent running out of essentials like Poké Balls or Potions before a big dungeon.
+- **Pokedex Completionist Agent:** Could analyze my current Pokedex and wild encounter data from my notepad to suggest which Pokémon to prioritize catching in a new area to fill out the Pokedex efficiently.
