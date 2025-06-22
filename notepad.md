@@ -1,7 +1,7 @@
 # Gem's Strategic Journal (v34.0 - Post-Critique)
 
 ## I. Core Principles & Lessons Learned
-- **Post-Transition Protocol:** After ANY map change, I MUST first confirm my new `map_id` and coordinates from Game State Information before taking any other action. This prevents WKG errors.
+- **Post-Transition Protocol (MANDATORY):** After ANY map change, my IMMEDIATE FIRST ACTION is to check the Game State Information for my new `map_id` and coordinates. I MUST do this BEFORE taking any other action (moving, interacting, WKG logging). This is non-negotiable.
 - **Agent Trust Protocol:** Trust agent output, especially negative results. A 'path not found' result likely means my premise is wrong, not the agent. Re-evaluate my assumptions first.
 - **Risk Management:** Perform major maintenance (agent refinement, etc.) in safe zones like Pokémon Centers.
 - **WKG Protocol:** After adding a transition's nodes, my immediate next action is to add the connecting edge.
