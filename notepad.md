@@ -11,9 +11,5 @@
 
 ## Current Plan
 
-- Get through the intro and start the game.
-
-## Current Plan
-
 - Get my first Pokémon from Professor Elm.
-- His lab is likely the large building in the west of New Bark Town.
+- His lab is the large building in the west of New Bark Town.
