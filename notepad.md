@@ -41,3 +41,5 @@
 - I should create a `training_advisor_agent` to help optimize leveling my team for major battles. It could suggest the best training spots based on my party, the level cap, and known wild encounters.
 - I incorrectly assumed HMs were used from the Pokémon menu. The new hypothesis is that they are used from the ITEM menu.
 - I am assuming Snorlax on Route 16 requires the Poké Flute, but this is unverified in this ROM hack.
+
+- **HM Usage Update:** Using an HM from the ITEM menu first prompts to teach the move. Hypothesis: Selecting 'NO' will then allow field usage.
