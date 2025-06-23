@@ -30,11 +30,15 @@
 - **Primary Goal:** Defeat the boss of the Rocket Hideout.
 - **Secondary Goal:** Find the hideout's boss.
 - **Tertiary Goal:** Acquire the Silph Scope.
-### Current Plan (v2)
-1. Navigate from B1F entrance at (22, 3) to the warp leading to B2F at (24, 3).
-2. On B2F, navigate to the elevator warp at (25, 20). This requires solving the spinner maze. My current hypothesis is that the spinner at (26, 9) leads to the correct path.
-3. Use the Lift Key in the elevator to access B4F.
-4. Explore B4F to find and confront the boss.
+### Current Plan (v3)
+1. The southern section of B1F (accessed from the stairs at (22, 23) on B2F) is a dead end. The grunt at (19, 19) did not have the Silph Scope.
+2. **Objective:** Find the LIFT KEY. My hypothesis is that the Rocket Grunt at (16, 26) on B1F has it.
+3. **Path:**
+    a. Return to B2F via the warp at (22, 25) on B1F.
+    b. On B2F, find the path that leads to the stairs that go down to the western part of B1F where the target grunt is.
+    c. Defeat the grunt at (16, 26) and obtain the LIFT KEY.
+    d. Proceed to the elevator on B2F at (25, 20) and use the key to access B4F.
+    e. Explore B4F to find and confront the boss.
 
 ### Hypotheses
 - **Hypothesis 1 (Silph Scope):** The Silph Scope is the final reward in this hideout, likely held by the boss.
