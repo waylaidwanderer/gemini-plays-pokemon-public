@@ -47,3 +47,5 @@
 
 ### Future Agent Ideas
 - An EXP tracking agent to calculate the number of battles needed to reach the next level for a specific Pokémon in a specific area. This could help optimize training sessions.
+
+- **WKG `destination_entry_point` Rule:** The `destination_entry_point` for an edge MUST correspond to the 1-indexed `entry_point` of the arrival warp on the destination map, as listed in the Game State Information. ALWAYS verify this before creating an edge.
