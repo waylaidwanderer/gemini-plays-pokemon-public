@@ -92,3 +92,5 @@ My `spinner_maze_solver_agent` is failing on this floor because several spinner 
 - (12, 21)
 - (10, 25)
 - (15, 26)
+
+- **Future Goal:** Consolidate the `battle_strategy_agent` and `battle_menu_navigator` into a single, more efficient agent.
