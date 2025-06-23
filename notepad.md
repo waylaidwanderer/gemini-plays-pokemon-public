@@ -77,8 +77,10 @@ My `spinner_maze_solver_agent` was unable to find a path because several spinner
 
 ### Spinner Maze Mapping (B2F)
 My `spinner_maze_solver_agent` is failing on this floor because several spinner tiles are missing their `end-coordinate` data. I will manually step on them to map their destinations.
+**Mapped Spinners (B2F):**
+- (18, 11) -> (3, 10) [Mapped!]
+
 **Problematic Spinners (B2F):**
-- (3, 10)
 - (9, 12)
 - (15, 13)
 - (17, 14)
