@@ -42,4 +42,4 @@
 - I incorrectly assumed HMs were used from the Pokémon menu. The new hypothesis is that they are used from the ITEM menu.
 - I am assuming Snorlax on Route 16 requires the Poké Flute, but this is unverified in this ROM hack.
 
-- **HM Usage Update:** Using an HM from the ITEM menu first prompts to teach the move. Hypothesis: Selecting 'NO' will then allow field usage.
+- **HM Usage Update (v2):** Using an HM from the ITEM menu prompts to teach it. Selecting 'NO' cancels the action. Hypothesis: The HM must be taught to a Pokémon to enable its field use. This might be a one-time requirement. Current test: Teach Fly to ECHO.
