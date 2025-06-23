@@ -1,17 +1,18 @@
-# Gem's Strategic Journal (v89 - WKG Protocol Update)
+# Gem's Strategic Journal (v90 - WKG Protocol Update)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on. An NPC blocking a path that doesn't battle is a hard wall.
-- **WKG & Marker Protocol (v12):**
+- **WKG & Marker Protocol (v13):**
     - After any map transition, immediately add nodes/edge to WKG. Mark the arrival warp with a single, descriptive marker (e.g., 'Used - Arrival from 1F').
     - **WKG Data Integrity Protocol:** Before adding any node or edge, ALWAYS query the WKG first to prevent duplicate entries. ALWAYS verify the `destination_entry_point` from the Game State Information of the arrival turn to ensure data accuracy.
+    - **WKG `destination_entry_point` Rule:** The `destination_entry_point` for an edge MUST correspond to the 1-indexed `entry_point` of the arrival warp on the destination map, as listed in the Game State Information. ALWAYS verify this before creating an edge.
     - **`define_map_marker` Tool Rule:** The `map_id` argument requires a numeric string (e.g., "4"), not the map's name string (e.g., "LAVENDER_TOWN").
 - **Agent Usage:** Use `team_composition_advisor_agent` *before* all major battles. Use `stealth_pathfinder_agent` for all non-trivial navigation to avoid accidental trainer battles.
 - **Repeated Failure Protocol:** If a plan or hypothesis fails repeatedly (e.g., notepad edits, trying to battle a non-hostile NPC), recognize the pattern, log it, and pivot to a new strategy instead of wasting turns.
 
 ## II. Hallucination & Correction Log
-- **MAJOR (T22612-T22613): Lavender Pokecenter Pathing Hallucination.** Attempted to pathfind in Lavender Town while still inside the Pokémon Center (map_id 141). Blocked by an impassable tile. **Lesson:** ALWAYS verify `map_id` and `current_position` from Game State Info *after* any action intended to change maps, especially after using 'path'.
+- **MAJOR (T22612-T22613): Lavender Pokecenter Pathing Hallucination.** Attempted to pathfind in Lavender Town while still inside the Pokémon Center (map_id 141). Blocked by an impassable tile. **Lesson:** ALWAYS verify `map_id` and `current_position` *after* any action intended to change maps, especially after using 'path'.
 - **MAJOR (T22035-T22134): Rocket Hideout & Game Corner Hallucinations.** Repeatedly believed I had successfully changed maps when I had not. **Lesson:** ALWAYS verify `map_id` and `current_position` from Game State Info *after* any warp attempt.
 - **CRITICAL (T22304-T22330, T22477-T22485):** System repeatedly corrected me on reachable unseen tiles in the Pokémon Tower. I must trust the game state data over my own perception of the map.
 - **Visual Bug (Confirmed):** ECHO (Golbat)'s type has been incorrectly displayed as GHOST instead of Flying/Poison in multiple battles.
@@ -47,7 +48,4 @@
 - **`team_composition_advisor_agent` (OPERATIONAL):** Provided the crucial new strategy for the Pokémon Tower. Must be used before all future major encounters.
 
 ### Future Agent Ideas
-
-- **WKG `destination_entry_point` Rule:** The `destination_entry_point` for an edge MUST correspond to the 1-indexed `entry_point` of the arrival warp on the destination map, as listed in the Game State Information. ALWAYS verify this before creating an edge.
-
 - **Shopping List Agent:** An agent that takes a list of desired items (TMs, healing items, etc.), my current money, and a list of known shop inventories. It would output what I can afford, the total cost, and the best location(s) to purchase everything.
