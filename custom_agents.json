@@ -38,5 +38,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"mode\":{\"type\":\"string\",\"enum\":[\"find_path\",\"plan_route\"]},\"start_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"target_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"target_map_id\":{\"type\":\"string\"}},\"required\":[\"mode\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"map_route\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reason\":{\"type\":\"string\"}},\"required\":[\"path_found\"]}",
     "agent_can_run_code": true
+  },
+  "map_analyzer_agent": {
+    "agent_name": "map_analyzer_agent",
+    "agent_description": "Analyzes the current map XML to identify and locate specified points of interest, such as trainers, items, or specific tile types.",
+    "agent_system_prompt": "You are a Map Analyzer. Your task is to parse the `map_xml_string` to find specific points of interest. You will be given a target type ('trainer', 'item', 'tile'). Based on the target, you must use your `run_code` tool to parse the XML and extract the names and coordinates of all matching elements. For 'trainer', find all non-player, non-Pikachu `<Object>` tags. For 'item', find all `<Object>` tags with an `id-name` that suggests it's an item (e.g., 'Pokeball'). For 'tile', find all `<Tile>` tags with a matching `type` attribute. Your output must be a JSON object containing a list of all found points of interest.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"target_type\":{\"type\":\"string\",\"enum\":[\"trainer\",\"item\",\"tile\"]},\"tile_type_name\":{\"type\":\"string\"}},\"required\":[\"target_type\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"points_of_interest\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"name\",\"coordinates\"]}}},\"required\":[\"points_of_interest\"]}",
+    "agent_can_run_code": true
   }
 }
