@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v81 - Post-Hideout & Reflection)
+# Gem's Strategic Journal (v82 - Mid-Battle Reflection)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
@@ -23,11 +23,10 @@
 ## IV. Action Plans & Hypotheses
 ### Current Objectives
 - **Primary Goal:** Use the Silph Scope to clear the Pokémon Tower.
-- **Secondary Goal:** Heal the party at a Pokémon Center.
-### Current Plan (v28 - Lavender Town Prep)
-1.  Heal party at Celadon Pokémon Center.
-2.  Fly to Lavender Town.
-3.  Ascend and clear the Pokémon Tower.
+- **Secondary Goal:** Defeat Rival Pixel.
+### Current Plan (v29 - Pokémon Tower Ascent)
+1.  Defeat Rival Pixel on 2F.
+2.  Ascend and clear the Pokémon Tower.
 ### Future Plans & Hypotheses
 - **Team Composition:** I must use my `team_composition_advisor_agent` *before* major battles.
 - **Hypothesis 1 (Snorlax):** The Snorlax on Route 16 requires the Poké Flute to be moved.
@@ -41,17 +40,14 @@
 - **Spinner Maze Mapping (B2F & B3F):** All spinners on these floors have been manually mapped and solved.
 
 ## VI. Agent Status & Refinement Log
-- **Agent Refinement (High Priority):**
-    - **Plan:** Create a new, robust `pathfinder_agent`. This agent will replace the deleted `navigator_agent` and the specialized `spinner_maze_solver_agent`. 
-    - **`pathfinder_agent` Requirements:**
+- **`battle_advisor_agent` (OPERATIONAL - REFINED):** Successfully refined the agent to handle statefulness by adding a `previous_player_action` input. It no longer recommends switching immediately after a switch-in and provides excellent tactical advice. It is now a primary tool for all battles.
+- **`pathfinder_agent` (PLANNED):** Plan remains to create a new, robust `pathfinder_agent`. This agent will replace the deleted `navigator_agent` and the specialized `spinner_maze_solver_agent`. 
+    - **Requirements:**
         1. Parse `map_xml_string` to build a graph of all tiles.
         2. Identify traversable nodes (`ground`, `grass`, `spinner_*`, etc.).
         3. Treat all `<Object>` elements as impassable walls (except for `id-name` 'Pikachu').
         4. Handle spinners by creating directed edges to their `end-coordinate`.
         5. Implement A* or BFS to find the shortest path between two coordinates.
         6. Output a list of coordinates for the `path` button.
-- **`battle_advisor_agent` (DECOMMISSIONED PENDING REBUILD):** Inconsistent logic, but showed promise. Awaiting a full rebuild with more robust logic.
-- **`team_composition_advisor_agent` (UNDERUTILIZED):** Must be used before major battles.
+- **`team_composition_advisor_agent` (UNDERUTILIZED):** Must be used before major battles. Acknowledged miss on the current Rival battle.
 - **`spinner_maze_solver_agent` (STABLE - TO BE CONSOLIDATED):** Logic will be the basis for the new `pathfinder_agent`.
-
-- **WKG Correction (T22146):** Updated Celadon Pokémon Center exterior node coordinates from (42, 10) to (42, 11) to reflect the actual arrival point.
