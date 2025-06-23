@@ -36,3 +36,8 @@
 - **Giovanni Battle Attempt 1 (FAILED):** My team was completely unprepared for his Kangaskhan. My `battle_strategy_agent` provided critically flawed advice based on hallucinated type-effectiveness data (Poison vs. Rock), leading to multiple fainted Pokémon and an eventual team wipe. The plan to use Echo and Nightshade was a failure.
 - **Rocket Grunt Battle (21, 13 on B2F):** Repeatedly trying to initiate this battle has failed. This interaction is either bugged or requires a specific trigger I have not yet found. This path is on hold.
 - **Lift Key Location:** The Lift Key was not held by a specific grunt. I discovered I already possessed it.
+
+## VI. Reflection (Turn 20940)
+- I should create a `training_advisor_agent` to help optimize leveling my team for major battles. It could suggest the best training spots based on my party, the level cap, and known wild encounters.
+- I incorrectly assumed HMs were used from the Pokémon menu. The new hypothesis is that they are used from the ITEM menu.
+- I am assuming Snorlax on Route 16 requires the Poké Flute, but this is unverified in this ROM hack.
