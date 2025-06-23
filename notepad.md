@@ -74,3 +74,19 @@ My `spinner_maze_solver_agent` was unable to find a path because several spinner
 **Corrected Intel:**
 - (18, 17) is a `spinner_stop` tile, not a spinner.
 - (17, 12), (11, 12), and (15, 14) are also `spinner_stop` tiles, not spinners. My diagnostic script was flawed.
+
+### Spinner Maze Mapping (B2F)
+My `spinner_maze_solver_agent` is failing on this floor because several spinner tiles are missing their `end-coordinate` data. I will manually step on them to map their destinations.
+**Problematic Spinners (B2F):**
+- (3, 10)
+- (9, 12)
+- (15, 13)
+- (17, 14)
+- (15, 16)
+- (10, 17)
+- (16, 19)
+- (3, 20)
+- (7, 21)
+- (12, 21)
+- (10, 25)
+- (15, 26)
