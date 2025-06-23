@@ -48,4 +48,4 @@
 
 - **Defeat Mechanic (Rocket Hideout):** Losing a battle to a trainer in the hideout does not send you back to the Pokémon Center. You remain in place after the battle.
 
-- `navigator_agent` (REFINED AGAIN): The agent failed to account for `cuttable` tiles, generating an invalid path that tried to walk through a tree at (36, 33). I am refining the prompt to explicitly treat `cuttable` tiles as impassable.
+- `navigator_agent` (REFINED AGAIN): The agent failed to account for `cuttable` tiles, and is now failing by treating NPCs as impassable walls that block entire regions. I am refining the prompt to clarify that it should path *around* non-traversable objects.
