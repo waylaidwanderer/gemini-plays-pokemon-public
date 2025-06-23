@@ -49,3 +49,5 @@
 ### Future Agent Ideas
 
 - **WKG `destination_entry_point` Rule:** The `destination_entry_point` for an edge MUST correspond to the 1-indexed `entry_point` of the arrival warp on the destination map, as listed in the Game State Information. ALWAYS verify this before creating an edge.
+
+- **Shopping List Agent:** An agent that takes a list of desired items (TMs, healing items, etc.), my current money, and a list of known shop inventories. It would output what I can afford, the total cost, and the best location(s) to purchase everything.
