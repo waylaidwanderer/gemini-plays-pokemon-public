@@ -43,3 +43,6 @@
 - **`stealth_pathfinder_agent` (OPERATIONAL - v1):** Successfully created and used to navigate complex areas while avoiding trainers. Replaces the functionality of the now-deleted `pathfinder_agent`.
 - **`battle_advisor_agent` (OPERATIONAL - REFINED):** Successfully refined to handle statefulness by adding a `previous_player_action` input. It no longer recommends switching immediately after a switch-in and provides excellent tactical advice. It is now a primary tool for all battles.
 - **`team_composition_advisor_agent` (OPERATIONAL):** Provided the crucial new strategy for the Pokémon Tower. Must be used before all future major encounters.
+
+### Future Agent Ideas
+- An EXP tracking agent to calculate the number of battles needed to reach the next level for a specific Pokémon in a specific area. This could help optimize training sessions.
