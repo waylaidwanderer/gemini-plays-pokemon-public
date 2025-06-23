@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v65 - Post-Critique)
+# Gem's Strategic Journal (v66 - Post-Critique)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data (`reachable_unseen_tiles_count`, `navigable_warps`, etc.) contradicts it. I must trust the data over my feelings, especially when navigating.
@@ -21,17 +21,19 @@
 
 ## III. World Intel & Navigation
 - **Rocket Hideout B2F & B3F:** These floors are spinner mazes. Standard navigation is ineffective. The `spinner_maze_solver_agent` is the required tool for these areas.
+- **LIFT KEY Location:** The Rocket Grunt at B3F (11, 23) drops the LIFT KEY after a dialogue about the Silph Scope. He does not battle.
 
 ## IV. Action Plans & Hypotheses
 ### Current Objectives
 - **Primary Goal:** Clear the Rocket Hideout and defeat Giovanni.
 - **Secondary Goal:** Obtain the Silph Scope.
 
-### Current Plan (v14 - Rocket Hideout Infiltration)
-1.  Navigate the Rocket Hideout mazes using the `spinner_maze_solver_agent`.
-2.  Find the LIFT KEY to operate the elevator.
-3.  Reach Giovanni's location on B4F and defeat him.
-4.  Acquire the Silph Scope.
+### Current Plan (v15 - Confront Giovanni)
+1.  Obtained the LIFT KEY from the Rocket Grunt at B3F (11, 23).
+2.  Navigate to the Rocket Hideout Elevator.
+3.  Use the elevator to reach B4F.
+4.  Confront and defeat Giovanni.
+5.  Acquire the Silph Scope.
 
 ### Hypotheses
 - **Hypothesis 1 (Silph Scope):** The Silph Scope is the final reward in this hideout, held by Giovanni. (On Hold)
@@ -40,7 +42,7 @@
 ## V. Disproven Hypotheses & Failed Strategies
 - **Giovanni Battle Attempt 1 (FAILED):** My team was unprepared. My `battle_strategy_agent` provided critically flawed advice based on hallucinated type-effectiveness data.
 - **Rocket Grunt Interactions:** Repeatedly trying to initiate battles with non-battling grunts has failed. These paths are on hold.
-- **Incorrect Pathfinding on B3F:** The warp at (20, 19) leads to an isolated dead-end room on B4F, not the main area with Giovanni. The warp at (26, 7) leads back to B2F. The path forward is likely gated by the Rocket Grunt at (11, 23).
+- **Incorrect Pathfinding on B3F:** The warp at (20, 19) leads to an isolated dead-end room on B4F, not the main area with Giovanni. The warp at (26, 7) leads back to B2F.
 - **Route 7 Training (FAILED ATTEMPT 1):** The wild Pokémon on Route 7 (level 20+) are too strong for my level 9 FURYFIST.
 - **Route 8 Navigation (FAILED ATTEMPT 1):** I incorrectly assumed Route 8 was a dead end due to fences, ignoring game state data. This was a critical failure in observation and resulted in wasted turns. I must trust the data.
 - **Thirsty Guards Hypothesis (FAILED):** The guard in the Route 8 Gatehouse is inaccessible from the west, making it impossible to give him the FRESH WATER. This path to Saffron City is blocked for now.
