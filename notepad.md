@@ -10,7 +10,7 @@
 - 
 
 ## Current Plan
-- Get through the intro sequence.
+- Intro sequence complete.
 - Choose my starter Pokémon.
 - Name my rival.
 - Explore New Bark Town.
