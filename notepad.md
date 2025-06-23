@@ -50,7 +50,6 @@
 - **Future Goal:** Continue to test and refine the `navigator_agent` and `battle_menu_navigator` to ensure they are reliable across all map types and situations.
 
 ## VII. Completed Intel
-- **Celadon Diner Tip:** An NPC at (2, 5) in the Celadon Diner revealed there is a secret basement under the Game Corner. This led to finding the poster switch.
-- **Lift Key Location:** Discovered I already possessed the Lift Key.
+
 - **Defeat Mechanic (Rocket Hideout):** Losing a battle to a trainer in the hideout does not send you back to the Pokémon Center. You remain in place after the battle.
 - **Celadon Gym Bug:** Two trainers, a Cool Trainer at (3, 12) and a Beauty at (8, 11), are stuck in a dialogue loop and cannot be battled, blocking their respective paths.
