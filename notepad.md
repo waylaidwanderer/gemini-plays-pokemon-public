@@ -65,6 +65,6 @@ My `spinner_maze_solver_agent` cannot find a path because several spinner tiles 
 - (17, 12)
 - (15, 14)
 - (19, 16) -> (19, 16) [Useless Loop]
-- (18, 17)
+- (18, 17) [Error in script, this is a spinner_stop]
 - (16, 23) -> (16, 23) [Useless Loop]
 - (13, 21) -> (19, 16) [Mapped!]
