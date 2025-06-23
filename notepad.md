@@ -1,46 +1,38 @@
-# Gem's Strategic Journal (v51 - Pre-Giovanni)
+# Gem's Strategic Journal (v52 - Post-Giovanni Wipe)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information is the source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. I must trust the data.
-- **Check Key Items:** After significant events or acquiring items, always check the Key Items pocket in the inventory. I wasted significant time searching for the LIFT KEY when I already had it.
 - **Agent Protocol:**
-    - `battle_menu_navigator` (Refined): This agent's understanding of the battle menu has been corrected. It now knows the move menu is a vertical list and that the party menu cursor starts on the *active* Pokémon.
-    - `map_explorer_agent`: A new agent to identify all items and undefeated trainers on a map. Needs refinement to correctly ignore defeated trainers on *other* maps.
-- **Interaction Protocol:** If an interaction (battle, dialogue) doesn't trigger as expected, do not repeat the same input. Immediately try a different input or a different approach.
-- **WKG Protocol:** After adding a transition's nodes, my immediate next action is to add the connecting edge. I must verify my `map_id` *before* calling the tool.
-- **Proactive NPC Management:** Be mindful of moving NPCs that can block paths.
+    - **Agent Failure Log:** My `battle_strategy_agent` has been proven unreliable due to flawed type-effectiveness data. My own observations about type matchups were also hallucinations. The agent has been updated to rely *only* on explicit in-game text for type effectiveness. I MUST test its outputs before fully trusting them.
+    - `battle_menu_navigator` (Refinement Needed): This agent incorrectly assumes menus wrap around. I need to fix its system prompt.
+    - `team_composition_advisor_agent`: I failed to use this agent before my first Giovanni attempt, which led to a team wipe. I will now use it to build my team.
+- **Interaction Protocol:** If an interaction doesn't trigger as expected, do not repeat the same input. Immediately try a different input or a different approach.
+- **WKG & Marker Protocol:** After any map transition, I must immediately add the nodes/edge to the WKG and mark both sides of the warp as 'Used'.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Usage:** A fainted POKéMON can use field moves like CUT.
 - **EXP. All:** Distributes EXP to all non-fainted party members.
-- **HYPER BEAM:** Huge damage, but requires a recharge turn unless the opponent faints.
 
 ## III. World Intel & Navigation
 ### Celadon City
-- A POKé FLUTE awakens sleeping POKéMON.
-- **Celadon Dept. Store:** Rooftop vending machines sell drinks.
-- **Celadon Game Corner:** Team Rocket front. Entrance at (34, 20). Secret hideout entrance behind a poster at (18, 5).
-
-### Other Locations
-- **Lavender Town:** Pokémon Tower is impassable without the Silph Scope.
-- **Route 10:** Path to Lavender Town is south, past the Pokémon Center and Rock Tunnel.
+- **Celadon Game Corner:** Team Rocket front. Secret hideout entrance behind a poster at (18, 5).
 
 ## IV. Action Plans & Hypotheses
 ### Current Objectives
 - **Primary Goal:** Defeat the boss of the Rocket Hideout.
-- **Secondary Goal:** Acquire the Silph Scope.
+- **Secondary Goal:** Assemble and train a viable team for Giovanni.
 
-### Current Plan (v5)
-1. **Objective:** Confront the boss, Giovanni, on B4F.
-2. **Path:** Navigate the final corridor on B4F to reach Giovanni at (26, 4).
-3. **Action:** Initiate battle and defeat him to acquire the Silph Scope.
+### Current Plan (v6 - Rematch Prep)
+1. **Team Assembly:** Use the `team_composition_advisor_agent` to determine the optimal team from my full roster.
+2. **Team Management:** Go to the PC and withdraw/deposit Pokémon as per the agent's recommendation.
+3. **Training:** Level up the new team members to be competitive against Giovanni's Lv. 29 Onix and Lv. 31 Kangaskhan, respecting the Lv. 35 cap.
+4. **Rematch:** Return to the Rocket Hideout and defeat Giovanni.
 
 ### Hypotheses
 - **Hypothesis 1 (Silph Scope):** The Silph Scope is the final reward in this hideout, held by Giovanni.
-- **Hypothesis 2 (Saffron Access):** Giving a drink from the Celadon vending machines to a thirsty guard at one of the Saffron City gatehouses will grant access.
 
 ## V. Disproven Hypotheses & Failed Strategies
+- **Giovanni Battle Attempt 1 (FAILED):** My team was completely unprepared for his Kangaskhan. My `battle_strategy_agent` provided critically flawed advice based on hallucinated type-effectiveness data (Poison vs. Rock), leading to multiple fainted Pokémon and an eventual team wipe. The plan to use Echo and Nightshade was a failure.
 - **Rocket Grunt Battle (21, 13 on B2F):** Repeatedly trying to initiate this battle has failed. This interaction is either bugged or requires a specific trigger I have not yet found. This path is on hold.
 - **Lift Key Location:** The Lift Key was not held by a specific grunt. I discovered I already possessed it.
-- **B4F Items:** The `map_explorer_agent` confirmed there are no more item balls on this floor.
