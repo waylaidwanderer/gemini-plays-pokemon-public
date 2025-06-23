@@ -60,3 +60,5 @@
 - **`define_map_marker` Tool Rule:** The `map_id` argument requires a numeric string (e.g., "4"), not the map's name string (e.g., "LAVENDER_TOWN"). I keep forgetting this.
 
 - **Hallucination (T22477):** Believed Pokémon Tower 3F was mostly explored with only 2 unseen tiles. System corrected me that there were actually 5 (now 6). This reveals a significant unexplored area in the northeast I must now investigate.
+
+- **`team_composition_advisor_agent` (USED):** The agent provided a crucial new strategy for the Pokémon Tower, highlighting the need to train specific counters. I am now pivoting to follow this plan.
