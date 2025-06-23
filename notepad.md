@@ -22,14 +22,14 @@
 
 ## IV. Action Plans & Hypotheses
 ### Current Objectives
-- **Primary Goal:** Obtain the Rainbow Badge from the Celadon City Gym.
-- **Secondary Goal:** Assemble and train a viable team for the gym.
-- **Tertiary Goal:** Explore any remaining unvisited locations in Celadon City.
+- **Primary Goal:** Clear the Rocket Hideout and defeat Giovanni.
+- **Secondary Goal:** Obtain the Silph Scope.
+- **Tertiary Goal:** Level up my team to prepare for Giovanni.
 
-### Current Plan (v10 - Gym Challenge)
-1.  **Refine Agent:** Fix the `navigator_agent`'s pathing logic.
-2.  **Scout:** Use `gym_scout_agent` once inside the gym to identify all trainers.
-3.  **Conquer:** Defeat all trainers and Gym Leader Erika.
+### Current Plan (v11 - Giovanni Rematch Prep)
+1.  **Assemble Team:** Form a new team specifically to counter Giovanni's Pokémon.
+2.  **Train:** Level up the new team members on Route 7.
+3.  **Rematch:** Challenge Giovanni again with the prepared team.
 
 ### Hypotheses
 - **Hypothesis 1 (Silph Scope):** The Silph Scope is the final reward in this hideout, held by Giovanni. (On Hold)
