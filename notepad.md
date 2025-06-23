@@ -55,7 +55,6 @@
 - **`spinner_maze_solver_agent` (STABLE - REFINED):** Specialized pathfinder for spinner mazes. Requires complete map data to function correctly; will fail if spinners are missing `end-coordinate` data. Was successfully refined to treat NPCs as impassable.
 - **`navigator_agent` (STABLE - REFINED):** A general pathfinder. Had a history of critical logic failures. Was successfully refined on turn 21603 with a more robust BFS implementation and now correctly navigates open routes with obstacles. Requires continued monitoring in new environments.
 - **`battle_menu_navigator` (UNDER REFINEMENT):** Provided an incorrect button sequence for menu navigation. Prompt has been updated for clarity.
-- **Future Goal:** Consolidate the `battle_strategy_agent` and `battle_menu_navigator` into a single, more efficient agent.
 
 ## VII. Completed Intel
 - **Defeat Mechanic (Rocket Hideout):** Losing a battle to a trainer in the hideout does not send you back to the Pokémon Center. You remain in place after the battle.
