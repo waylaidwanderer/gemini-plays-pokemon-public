@@ -52,3 +52,5 @@
 - **Lift Key Location:** Discovered I already possessed the Lift Key.
 - **Erroneous Marker Deleted:** Deleted a false 'Rocket defeated' marker at (12, 23) on map 201 that was causing strategic confusion.
 - **Defeat Mechanic (Rocket Hideout):** Losing a battle to a trainer in the hideout does not send you back to the Pokémon Center. You remain in place after the battle.
+
+- **Celadon Gym Bug:** Two trainers, a Cool Trainer at (3, 12) and a Beauty at (8, 11), are stuck in a dialogue loop and cannot be battled, blocking their respective paths.
