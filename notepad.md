@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v59 - Agent Log Consolidation)
+# Gem's Strategic Journal (v60 - Agent Log Consolidation)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information is the source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. I must trust the data, especially the `map_id` and `reachable` status of warps/NPCs.
@@ -22,9 +22,9 @@
 - **Secondary Goal:** Assemble and train a viable team for the gym.
 - **Tertiary Goal:** Explore any remaining unvisited locations in Celadon City.
 
-### Current Plan (v9 - Gym Challenge)
-1.  **Scout:** Use `gym_scout_agent` to identify all trainers in the Celadon Gym.
-2.  **Navigate:** Use the `navigator_agent` to travel to the Celadon Gym entrance at (13, 28).
+### Current Plan (v10 - Gym Challenge)
+1.  **Refine Agent:** Fix the `navigator_agent`'s pathing logic.
+2.  **Scout:** Use `gym_scout_agent` once inside the gym to identify all trainers.
 3.  **Conquer:** Defeat all trainers and Gym Leader Erika.
 
 ### Hypotheses
@@ -39,12 +39,14 @@
 ## VI. Agent Development Log
 - **`battle_strategy_agent` (REFINED):** Updated to require confirmed type-effectiveness data to prevent hallucinations.
 - **`spinner_maze_solver_agent` (REFINED & VERIFIED):** A specialized agent for solving spinner tile mazes. Proven to be the correct and necessary tool for navigating the Rocket Hideout mazes after multiple successful path calculations.
-- **`navigator_agent` (REFINED - v4):** This is a consolidated agent for general pathfinding and exploration. Its development has had several failures:
-    - **Initial Flaw:** Could not navigate spinner mazes.
-    - **Refinement 1 (FAILED):** Failed to account for `cuttable` tiles.
-    - **Refinement 2 (FAILED):** Treated NPCs as impassable walls, blocking entire regions.
-    - **Refinement 3 (FAILED):** Failed to account for ledges being impassable from below/sides.
-    - **Current Status (VERIFIED):** The latest version correctly handles all known pathing rules (impassable tiles, cuttable trees, objects, and ledges) and has successfully plotted a valid course.
+- **`navigator_agent` (v5 - Undergoing Refinement):** This is a consolidated agent for general pathfinding and exploration. Its development has had several documented failures:
+    - **v1 Flaw:** Could not navigate spinner mazes.
+    - **v2 Flaw:** Failed to treat `cuttable` tiles as obstacles.
+    - **v3 Flaw:** Incorrectly treated all NPCs as impassable region blockers instead of single-tile obstacles to path around.
+    - **v4 Flaw:** Failed to account for ledges being impassable from below/sides.
+    - **v5 Flaw (Current):** Generated a path through an `impassable` tile in the Celadon Gym, indicating a core logic failure in graph creation.
+    - **Current Status (UNRELIABLE):** The agent is undergoing significant refinement to improve its pathing logic. It cannot be trusted for complex navigation until verified.
+- **`gym_scout_agent` (REFINED):** Corrected a schema error where the input was undefined. It now correctly takes an empty object as input.
 
 ## VII. Completed Intel
 - **Celadon Diner Tip:** An NPC at (2, 5) in the Celadon Diner revealed there is a secret basement under the Game Corner. This led to finding the poster switch.
