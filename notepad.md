@@ -51,3 +51,8 @@
         6. Output a list of coordinates for the `path` button.
 - **`team_composition_advisor_agent` (UNDERUTILIZED):** Must be used before major battles. Acknowledged miss on the current Rival battle.
 - **`spinner_maze_solver_agent` (STABLE - TO BE CONSOLIDATED):** Logic will be the basis for the new `pathfinder_agent`.
+
+## VII. AI Feedback & Action Items (T22291)
+- **Agent Creation:** I MUST create the `pathfinder_agent` after this rival battle. Continued use of ad-hoc `run_code` scripts is inefficient.
+- **Agent Usage:** I failed to use the `team_composition_advisor_agent` before this battle. I must use it for all future major encounters.
+- **Map Markers:** I have been inconsistent. I need to go back and mark Giovanni's defeat location in the Rocket Hideout and mark Pixel's defeat here in the Pokémon Tower immediately after this battle.
