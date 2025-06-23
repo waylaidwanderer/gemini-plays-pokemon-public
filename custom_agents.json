@@ -46,5 +46,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_start_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"unseen_tiles_coordinates\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"player_start_coordinates\",\"unseen_tiles_coordinates\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_found\",\"path\"]}",
     "agent_can_run_code": true
+  },
+  "single_map_pathfinder_agent": {
+    "agent_name": "single_map_pathfinder_agent",
+    "agent_description": "Calculates the shortest path between two points on the current map, avoiding impassable tiles and objects.",
+    "agent_system_prompt": "You are a pathfinding expert for Pokémon Yellow Legacy. Your task is to find the shortest path from a starting coordinate to a target coordinate on the current map. You MUST use your `run_code` tool. Your Python code will parse the `map_xml_string` to build a graph representation of the map. Nodes are traversable tile coordinates (type 'ground', 'grass', etc.). Edges connect adjacent traversable tiles. All objects (NPCs, signs, etc.) must be treated as impassable. You must implement a Breadth-First Search (BFS) algorithm to find the shortest path. Your output must be the sequence of coordinates representing the path.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"target_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"start_coordinates\",\"target_coordinates\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_found\",\"path\"]}",
+    "agent_can_run_code": true
   }
 }
