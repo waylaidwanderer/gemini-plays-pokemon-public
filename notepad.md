@@ -12,7 +12,7 @@
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Usage:** A fainted POKéMON can use field moves like CUT.
-- **EXP. All:** Distributes EXP to all non-fainted party members.
+- **EXP. All:** Distributes EXP to all non-fainted party members who participated in the battle (including those who were switched out). Pokémon at the level cap will show an EXP gain message but will not actually gain EXP.
 
 ## III. World Intel & Navigation
 ### Celadon City
