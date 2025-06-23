@@ -45,7 +45,7 @@
 - **`spinner_maze_solver_agent` (STABLE & VERIFIED):** Specialized and proven effective for spinner mazes.
 - **`navigator_agent` (UNRELIABLE - Under Refinement):** A general pathfinder. Has a history of critical logic failures, including improper handling of `cuttable` tiles, NPC obstacles, ledges, and `impassable` tiles. Requires further refinement and verification before it can be trusted.
 - **`gym_scout_agent` (STABLE):** Refined to correct a schema error.
-- **Future Goal:** Consolidate navigation agents (`navigator`, `spinner_maze_solver`, `multi_map_planner`) into a single, more robust agent. Merge `gym_scout` into a broader `map_analyzer`.
+- **Future Goal:** Continue to test and refine the consolidated `navigator_agent` and `map_analyzer_agent` to ensure they are reliable across all map types and situations.
 
 ## VII. Completed Intel
 - **Celadon Diner Tip:** An NPC at (2, 5) in the Celadon Diner revealed there is a secret basement under the Game Corner. This led to finding the poster switch.
