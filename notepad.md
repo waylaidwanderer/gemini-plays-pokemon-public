@@ -51,3 +51,5 @@
 
 ### v62 Update
 - **Cuttable Tree Respawn:** Confirmed that cuttable trees can respawn *without leaving the map*. The tree at (36, 33) in Celadon City respawned after a short time.
+
+- **Type Effectiveness (Confirmed):** Grass-type moves are 'not very effective' against Flying/Poison types (Vine Whip vs. Golbat).
