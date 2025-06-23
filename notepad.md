@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v82 - Mid-Battle Reflection)
+# Gem's Strategic Journal (v83 - Battle Cleanup)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
@@ -11,6 +11,7 @@
 
 ## II. Hallucination & Correction Log
 - **MAJOR (T22035-T22134): Rocket Hideout & Game Corner Hallucinations.** Repeatedly believed I had successfully changed maps (B4F -> B2F, Game Corner -> Celadon) when I had not. This led to creating incorrect WKG nodes and map markers. **Lesson:** ALWAYS verify `map_id` and `current_position` from Game State Info *after* any warp attempt.
+- **CRITICAL (T22304):** System repeatedly warns of 14 reachable unseen tiles on Pokemon Tower 2F. I have been hallucinating that the floor is fully explored. I MUST explore this floor completely immediately after defeating Pixel.
 
 ## III. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
@@ -18,7 +19,7 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap will not gain actual EXP.
 - **Type Effectiveness (Confirmed):**
     - Poison-type moves are 'not very effective' against Flying/Poison types (Acid vs. Golbat).
-- **Visual Bug:** During the Giovanni battle, my Golbat ECHO's type was displayed as GHOST instead of Flying/Poison.
+- **Visual Bug (Confirmed):** ECHO (Golbat)'s type has been incorrectly displayed as GHOST instead of Flying/Poison in multiple battles (vs. Giovanni, vs. Pixel).
 
 ## IV. Action Plans & Hypotheses
 ### Current Objectives
@@ -52,9 +53,7 @@
 - **`team_composition_advisor_agent` (UNDERUTILIZED):** Must be used before major battles. Acknowledged miss on the current Rival battle.
 - **`spinner_maze_solver_agent` (STABLE - TO BE CONSOLIDATED):** Logic will be the basis for the new `pathfinder_agent`.
 
-## VII. AI Feedback & Action Items (T22291)
+## VII. AI Feedback & Action Items (T22291 & T22320)
 - **Agent Creation:** I MUST create the `pathfinder_agent` after this rival battle. Continued use of ad-hoc `run_code` scripts is inefficient.
 - **Agent Usage:** I failed to use the `team_composition_advisor_agent` before this battle. I must use it for all future major encounters.
 - **Map Markers:** I have been inconsistent. I need to go back and mark Giovanni's defeat location in the Rocket Hideout and mark Pixel's defeat here in the Pokémon Tower immediately after this battle.
-
-- **CRITICAL HALLUCINATION (T22304):** System warned of 14 reachable unseen tiles on Pokemon Tower 2F. I MUST explore this floor completely immediately after defeating Pixel.
