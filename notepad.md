@@ -66,4 +66,4 @@ My `spinner_maze_solver_agent` cannot find a path because several spinner tiles 
 - (15, 14)
 - (19, 16)
 - (18, 17)
-- (16, 23)
+- (16, 23) -> (16, 23) [Useless Loop]
