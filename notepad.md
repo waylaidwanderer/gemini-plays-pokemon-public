@@ -14,7 +14,7 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members who participated in the battle. Pokémon at the level cap will show an EXP gain message but will not actually gain EXP.
 - **Cuttable Tree Respawn:** Confirmed that cuttable trees can respawn *without leaving the map*. The tree at (36, 33) in Celadon City respawned after a short time.
 - **Type Effectiveness (Confirmed):
-    - Grass-type moves are 'not very effective' against Flying/Poison types (Vine Whip vs. Golbat).
+    
     - Poison-type moves are 'not very effective' against Flying/Poison types (Acid vs. Golbat).
 
 ## III. World Intel & Navigation
