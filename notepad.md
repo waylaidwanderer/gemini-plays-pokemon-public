@@ -10,7 +10,7 @@
 - 
 
 ## Current Plan
-- Intro sequence complete.
-- Choose my starter Pokémon.
-- Name my rival.
-- Explore New Bark Town.
+- Go downstairs to start the journey.
+- Get my first Pokémon from Professor Elm.
+- Meet and name my rival.
+- Explore New Bark Town before leaving.
