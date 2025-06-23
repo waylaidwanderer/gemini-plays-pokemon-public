@@ -1,15 +1,16 @@
-# Gem's Strategic Journal (v66 - Post-Critique)
+# Gem's Strategic Journal (v67 - Post-Critique)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data (`reachable_unseen_tiles_count`, `navigable_warps`, etc.) contradicts it. I must trust the data over my feelings, especially when navigating.
 - **Agent Protocol:**
-    - **Agent Failure Log:** My `navigator_agent` has failed due to flawed logic (ignoring fences/ledges on Route 8). My `battle_menu_navigator` has provided incorrect directions. I must refine and test agents thoroughly, especially after creation. The navigator agent was refined on turn 21603 and is now functional for open routes.
-    - **Agent Consolidation (NEW):** Redundant agents are inefficient. I will consolidate agents with overlapping functionality into single, more versatile tools. My first target is merging the `battle_strategy_agent` and `battle_menu_navigator`.
+    - **Agent Failure Log:** My `navigator_agent` has failed due to flawed logic (ignoring fences/ledges on Route 8). My `battle_menu_navigator` has provided incorrect directions. My `spinner_maze_solver_agent` has failed due to incomplete map data and incorrect assumptions about object impassability. I must refine and test agents thoroughly, especially after creation.
+    - **Agent Consolidation:** Redundant agents are inefficient. I will consolidate agents with overlapping functionality into single, more versatile tools. My first target is merging the `battle_strategy_agent` and `battle_menu_navigator`.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on.
-- **WKG & Marker Protocol (v2 - REVISED):**
+- **WKG & Marker Protocol (v3 - CRITICAL UPDATE):**
     - After any map transition, I must immediately add the nodes/edge to the WKG and mark both sides of the warp as 'Used'.
-    - **Check-Then-Add Policy:** Before adding any new node or edge, I MUST query the WKG (using `run_code`) to ensure the element doesn't already exist. This will prevent data duplication and wasted actions.
-    - I must follow the two-step process: add source node, then add destination node, retrieve IDs, then add the edge.
+    - **Check-Then-Add Policy:** Before adding any new node or edge, I MUST query the WKG (using `run_code`) to ensure the element doesn't already exist.
+    - **Correct ID Protocol:** I MUST follow a strict three-step process: 1. `add_node` for the source, retrieve its ID from the success message. 2. `add_node` for the destination, retrieve its ID. 3. `add_edge` using the *correct, retrieved IDs*. Hardcoding UUIDs is a critical failure.
+    - **Consistent Map IDs:** I MUST use numerical map IDs (e.g., `200`) in all WKG operations, not string names (e.g., "ROCKET_HIDEOUT_B2F").
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
@@ -20,20 +21,22 @@
     - Poison-type moves are 'not very effective' against Flying/Poison types (Acid vs. Golbat).
 
 ## III. World Intel & Navigation
-- **Rocket Hideout B2F & B3F:** These floors are spinner mazes. Standard navigation is ineffective. The `spinner_maze_solver_agent` is the required tool for these areas.
+- **Rocket Hideout B2F & B3F:** These floors are spinner mazes. Standard navigation is ineffective. The `spinner_maze_solver_agent` is the required tool for these areas, but requires complete `end-coordinate` data to function.
 - **LIFT KEY Location:** The Rocket Grunt at B3F (11, 23) drops the LIFT KEY after a dialogue about the Silph Scope. He does not battle.
 
 ## IV. Action Plans & Hypotheses
 ### Current Objectives
 - **Primary Goal:** Clear the Rocket Hideout and defeat Giovanni.
 - **Secondary Goal:** Obtain the Silph Scope.
+- **Tertiary Goal:** Manually map all unmapped spinners on Rocket Hideout B2F.
 
-### Current Plan (v15 - Confront Giovanni)
-1.  Obtained the LIFT KEY from the Rocket Grunt at B3F (11, 23).
-2.  Navigate to the Rocket Hideout Elevator.
-3.  Use the elevator to reach B4F.
-4.  Confront and defeat Giovanni.
-5.  Acquire the Silph Scope.
+### Current Plan (v16 - B2F Maze Mapping)
+1.  Navigate B2F to find and step on all unmapped spinners.
+2.  Record their destinations in the notepad.
+3.  Once all spinners are mapped, use the `spinner_maze_solver_agent` to navigate to the elevator at (25, 20).
+4.  Use the elevator to reach B4F.
+5.  Confront and defeat Giovanni.
+6.  Acquire the Silph Scope.
 
 ### Hypotheses
 - **Hypothesis 1 (Silph Scope):** The Silph Scope is the final reward in this hideout, held by Giovanni. (On Hold)
@@ -49,7 +52,7 @@
 
 ## VI. Agent Status & Refinement Log
 - **`battle_strategy_agent` (STABLE):** Refined to require confirmed type-effectiveness data to prevent hallucinations.
-- **`spinner_maze_solver_agent` (STABLE & VERIFIED):** Specialized and proven effective for spinner mazes.
+- **`spinner_maze_solver_agent` (STABLE - REFINED):** Specialized pathfinder for spinner mazes. Requires complete map data to function correctly; will fail if spinners are missing `end-coordinate` data. Was successfully refined to treat NPCs as impassable.
 - **`navigator_agent` (STABLE - REFINED):** A general pathfinder. Had a history of critical logic failures. Was successfully refined on turn 21603 with a more robust BFS implementation and now correctly navigates open routes with obstacles. Requires continued monitoring in new environments.
 - **`battle_menu_navigator` (UNDER REFINEMENT):** Provided an incorrect button sequence for menu navigation. Prompt has been updated for clarity.
 - **Future Goal:** Consolidate the `battle_strategy_agent` and `battle_menu_navigator` into a single, more efficient agent.
@@ -94,5 +97,3 @@ My `spinner_maze_solver_agent` is failing on this floor because several spinner 
 - (7, 21)
 - (10, 25)
 - (15, 26)
-
-- **Future Goal:** Consolidate the `battle_strategy_agent` and `battle_menu_navigator` into a single, more efficient agent.
