@@ -4,7 +4,7 @@
 - **Trust the Data, Not Frustration:** Game State Information is the source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. I must trust the data.
 - **Agent Protocol:**
     - **Agent Failure Log:** My `battle_strategy_agent` has been proven unreliable due to flawed type-effectiveness data. My own observations about type matchups were also hallucinations. The agent has been updated to rely *only* on explicit in-game text for type effectiveness. I MUST test its outputs before fully trusting them.
-    - `battle_menu_navigator` (Refinement Needed): This agent incorrectly assumes menus wrap around. I need to fix its system prompt.
+    - `battle_menu_navigator` (Verified): The agent's prompt correctly states that menus do not wrap around. My previous assessment of it being flawed was incorrect.
     - `team_composition_advisor_agent`: I failed to use this agent before my first Giovanni attempt, which led to a team wipe. I will now use it to build my team.
 - **Interaction Protocol:** If an interaction doesn't trigger as expected, do not repeat the same input. Immediately try a different input or a different approach.
 - **WKG & Marker Protocol:** After any map transition, I must immediately add the nodes/edge to the WKG and mark both sides of the warp as 'Used'.
