@@ -46,5 +46,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"target_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"start_coordinates\",\"target_coordinates\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}}}",
     "agent_can_run_code": true
+  },
+  "map_explorer_agent": {
+    "agent_name": "map_explorer_agent",
+    "agent_description": "Scans the current map for all points of interest, including undefeated trainers and item balls. Provides a comprehensive list of their coordinates and types to guide exploration.",
+    "agent_system_prompt": "You are a Map Explorer. Your task is to analyze the `map_xml_string` and the provided `map_sprites` list to create a comprehensive list of all points of interest on the current map. You MUST use your `run_code` tool to execute this logic. Your Python code will: 1. Parse the `map_xml_string` to get the player's current position and a list of all defeated trainer markers ('☠️'). 2. Iterate through the `map_sprites` list provided in your input. 3. Identify all 'Item Ball' sprites and record their coordinates. 4. For each sprite that is a trainer type, check if their coordinates match any defeated trainer marker coordinates from the XML. 5. If a trainer has no corresponding '☠️' marker, they are considered undefeated. Record their name and coordinates. 6. Compile these findings into a single list of points of interest. If no items or undefeated trainers are found, you must return an empty list. Output the result according to the schema.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"map_sprites\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"sprite_type\":{\"type\":\"string\"},\"position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}}}}}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"points_of_interest\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"type\":{\"type\":\"string\",\"enum\":[\"item\",\"trainer\"]},\"name\":{\"type\":\"string\"},\"coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"required\":[\"type\",\"name\",\"coordinates\"]}}}}",
+    "agent_can_run_code": true
   }
 }
