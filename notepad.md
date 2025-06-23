@@ -98,3 +98,6 @@ My `spinner_maze_solver_agent` is failing on this floor because several spinner 
 - (7, 21)
 - (10, 25)
 - (15, 26)
+
+## Agent Consolidation Plan
+- **Future Goal:** Consolidate `team_composition_advisor_agent`, `battle_strategy_agent`, and `battle_menu_navigator` into a single, comprehensive `battle_master_agent`.
