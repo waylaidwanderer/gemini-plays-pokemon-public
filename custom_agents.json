@@ -38,5 +38,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"target_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"start_coordinates\",\"target_coordinates\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}}}",
     "agent_can_run_code": true
+  },
+  "exploration_agent": {
+    "agent_name": "exploration_agent",
+    "agent_description": "Calculates the most efficient path to explore all reachable unseen tiles on the current map. It helps ensure no area is missed.",
+    "agent_system_prompt": "You are an expert exploration cartographer. Your task is to analyze the provided `map_xml_string` and a list of target coordinates (reachable unseen tiles) to find the most efficient path that visits all of them. You MUST use your `run_code` tool. Your Python code will parse the map XML to build a graph of all traversable tiles. Then, it will implement an algorithm (like a multi-destination shortest path, e.g., finding the shortest path to the nearest unseen tile, then recalculating from there) to generate an ordered sequence of coordinates. The path should start from the player's current position. Your output must be a JSON object containing the calculated path as a list of coordinate objects.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_start_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"unseen_tiles_coordinates\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"player_start_coordinates\",\"unseen_tiles_coordinates\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_found\",\"path\"]}",
+    "agent_can_run_code": true
   }
 }
