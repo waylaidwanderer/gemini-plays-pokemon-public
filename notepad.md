@@ -45,7 +45,7 @@
 ## VI. Agent Status & Refinement Log
 - **`battle_strategy_agent` (STABLE):** Refined to require confirmed type-effectiveness data to prevent hallucinations.
 - **`spinner_maze_solver_agent` (STABLE & VERIFIED):** Specialized and proven effective for spinner mazes.
-- **`navigator_agent` (STABLE - REFINED):** A general pathfinder. Had a history of critical logic failures. Was successfully refined on turn 21609 with a more robust BFS implementation and now correctly navigates open routes with obstacles. Requires continued monitoring in new environments.
+- **`navigator_agent` (STABLE - REFINED):** A general pathfinder. Had a history of critical logic failures. Was successfully refined on turn 21603 with a more robust BFS implementation and now correctly navigates open routes with obstacles. Requires continued monitoring in new environments.
 - **`battle_menu_navigator` (UNDER REFINEMENT):** Provided an incorrect button sequence for menu navigation. Prompt has been updated for clarity.
 - **Future Goal:** Continue to test and refine the `navigator_agent` and `battle_menu_navigator` to ensure they are reliable across all map types and situations.
 
