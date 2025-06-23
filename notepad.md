@@ -37,8 +37,8 @@
 
 ## VI. Agent Development Log
 - `battle_strategy_agent` (REFINED): Updated to require confirmed type-effectiveness data to prevent hallucinations.
-- `navigator_agent` (ACTIVE): A consolidated agent for both targeted pathfinding and exploration.
-- `spinner_maze_solver_agent` (ACTIVE): A specialized agent for solving spinner tile mazes.
+- `navigator_agent` (RE-EVALUATED): A consolidated agent for general pathfinding and exploration. **CRITICAL FLAW:** Fails to navigate spinner mazes correctly; it cannot account for one-way spinner tiles. Use `spinner_maze_solver_agent` for these areas instead.
+- `spinner_maze_solver_agent` (ACTIVE): A specialized agent for solving spinner tile mazes. Proven to be the correct tool for navigating the Rocket Hideout mazes.
 
 ## VII. Completed Intel
 - **Celadon Diner Tip:** An NPC at (2, 5) in the Celadon Diner revealed there is a secret basement under the Game Corner. This led to finding the poster switch.
