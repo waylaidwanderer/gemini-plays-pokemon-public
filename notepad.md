@@ -1,10 +1,11 @@
-# Gem's Strategic Journal (v88 - Hallucination Correction)
+# Gem's Strategic Journal (v89 - WKG Protocol Update)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on. An NPC blocking a path that doesn't battle is a hard wall.
-- **WKG & Marker Protocol (v11):**
+- **WKG & Marker Protocol (v12):**
     - After any map transition, immediately add nodes/edge to WKG. Mark the arrival warp with a single, descriptive marker (e.g., 'Used - Arrival from 1F').
+    - **WKG Data Integrity Protocol:** Before adding any node or edge, ALWAYS query the WKG first to prevent duplicate entries. ALWAYS verify the `destination_entry_point` from the Game State Information of the arrival turn to ensure data accuracy.
     - **`define_map_marker` Tool Rule:** The `map_id` argument requires a numeric string (e.g., "4"), not the map's name string (e.g., "LAVENDER_TOWN").
 - **Agent Usage:** Use `team_composition_advisor_agent` *before* all major battles. Use `stealth_pathfinder_agent` for all non-trivial navigation to avoid accidental trainer battles.
 - **Repeated Failure Protocol:** If a plan or hypothesis fails repeatedly (e.g., notepad edits, trying to battle a non-hostile NPC), recognize the pattern, log it, and pivot to a new strategy instead of wasting turns.
@@ -46,6 +47,5 @@
 - **`team_composition_advisor_agent` (OPERATIONAL):** Provided the crucial new strategy for the Pokémon Tower. Must be used before all future major encounters.
 
 ### Future Agent Ideas
-- An EXP tracking agent to calculate the number of battles needed to reach the next level for a specific Pokémon in a specific area. This could help optimize training sessions.
 
 - **WKG `destination_entry_point` Rule:** The `destination_entry_point` for an edge MUST correspond to the 1-indexed `entry_point` of the arrival warp on the destination map, as listed in the Game State Information. ALWAYS verify this before creating an edge.
