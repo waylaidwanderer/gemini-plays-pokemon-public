@@ -8,7 +8,7 @@
     - `map_explorer_agent`: A new agent to identify all items and undefeated trainers on a map. Needs refinement to correctly ignore defeated trainers on *other* maps.
 - **Interaction Protocol:** If an interaction (battle, dialogue) doesn't trigger as expected, do not repeat the same input. Immediately try a different input or a different approach.
 - **WKG Protocol:** After adding a transition's nodes, my immediate next action is to add the connecting edge. I must verify my `map_id` *before* calling the tool.
-- **Proactive NPC Management:** Use `stun_npc` on moving NPCs to prevent them from blocking paths.
+- **Proactive NPC Management:** Be mindful of moving NPCs that can block paths.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
