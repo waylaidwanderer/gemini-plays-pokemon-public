@@ -91,6 +91,7 @@ My `spinner_maze_solver_agent` is failing on this floor because several spinner 
 - (9, 20) -> (15, 16) [Mapped!]
 - (17, 17) -> (17, 14) [Mapped!]
 - (14, 11) -> (15, 13) [Mapped!]
+- (6, 15) -> (10, 17) [Mapped!]
 
 **Problematic Spinners (B2F):**
 - (3, 20)
