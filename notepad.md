@@ -59,17 +59,18 @@
 - **Celadon Gym Bug:** Two trainers, a Cool Trainer at (3, 12) and a Beauty at (8, 11), are stuck in a dialogue loop and cannot be battled, blocking their respective paths.
 
 ### Spinner Maze Mapping (B3F)
-My `spinner_maze_solver_agent` cannot find a path because several spinner tiles are missing their `end-coordinate` data. I must manually step on each of these to map their destinations.
+My `spinner_maze_solver_agent` was unable to find a path because several spinner tiles were missing their `end-coordinate` data. I have now manually stepped on all of them to map their destinations.
 **Problematic Spinners:**
-- (11, 12)
-- (15, 14)
+- None. All spinners mapped.
 
 **Mapped Spinners:**
+- (11, 14) -> (15, 14) [Mapped!]
+- (13, 12) -> (11, 12) [Mapped!]
 - (17, 14) -> (17, 12) [Mapped!]
 - (19, 16) -> (19, 16) [Useless Loop - Mapped!]
 - (16, 23) -> (16, 23) [Useless Loop - Mapped!]
 - (13, 21) -> (19, 16) [Mapped!]
 
 **Corrected Intel:**
-- (18, 17) is a `spinner_stop` tile, not a spinner. My diagnostic script was flawed.
-- (17, 12) is also a `spinner_stop` tile, the destination of the spinner at (17, 14).
+- (18, 17) is a `spinner_stop` tile, not a spinner.
+- (17, 12), (11, 12), and (15, 14) are also `spinner_stop` tiles, not spinners. My diagnostic script was flawed.
