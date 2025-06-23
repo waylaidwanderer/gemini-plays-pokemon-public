@@ -3,7 +3,7 @@
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data (`reachable_unseen_tiles_count`, `navigable_warps`, etc.) contradicts it. I must trust the data over my feelings, especially when navigating.
 - **Agent Protocol:**
-    - **Agent Failure Log:** My `navigator_agent` has failed due to flawed logic (ignoring fences/ledges on Route 8). My `battle_menu_navigator` has provided incorrect directions. I must refine and test agents thoroughly, especially after creation. The navigator agent was refined on turn 21609 and is now functional for open routes.
+    - **Agent Failure Log:** My `navigator_agent` has failed due to flawed logic (ignoring fences/ledges on Route 8). My `battle_menu_navigator` has provided incorrect directions. I must refine and test agents thoroughly, especially after creation. The navigator agent was refined on turn 21603 and is now functional for open routes.
     - **Agent Consolidation:** Redundant agents are inefficient. I will consolidate agents with overlapping functionality into single, more versatile tools.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on.
 - **WKG & Marker Protocol:** After any map transition, I must immediately add the nodes/edge to the WKG and mark both sides of the warp as 'Used'. I must check the WKG before adding new edges to avoid duplicates and not create entries based on hallucinations. I must follow the two-step process: add source node, then add destination node, retrieve IDs, then add the edge.
