@@ -52,3 +52,6 @@
 - **Agent Usage:** I failed to use the `team_composition_advisor_agent` before my last Rival battle. I must use it for all future major encounters.
 - **Map Markers:** I have been inconsistent. I need to maintain my protocol of marking both sides of a transition immediately.
 - **WKG Scripting:** My WKG check script is buggy. I need to fix it before adding new connections.
+
+### Agent Development Plan
+- **New Agent: `stealth_pathfinder_agent`**: My current `pathfinder_agent` is flawed as it doesn't account for trainer line of sight. I will create a new agent that takes start/end coordinates, the map XML, and a list of trainer coordinates with their facing directions. The agent's code will need to calculate the line of sight for each trainer (a straight line of tiles in the direction they are facing) and treat those tiles as impassable walls in its pathfinding algorithm. This will allow for true stealth navigation.
