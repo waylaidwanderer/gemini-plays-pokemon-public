@@ -56,3 +56,5 @@
 - **Agent Creation:** I MUST create the `pathfinder_agent` after this rival battle. Continued use of ad-hoc `run_code` scripts is inefficient.
 - **Agent Usage:** I failed to use the `team_composition_advisor_agent` before this battle. I must use it for all future major encounters.
 - **Map Markers:** I have been inconsistent. I need to go back and mark Giovanni's defeat location in the Rocket Hideout and mark Pixel's defeat here in the Pokémon Tower immediately after this battle.
+
+- **CRITICAL HALLUCINATION (T22304):** System warned of 14 reachable unseen tiles on Pokemon Tower 2F. I MUST explore this floor completely immediately after defeating Pixel.
