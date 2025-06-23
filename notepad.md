@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v60 - Agent Log Consolidation)
+# Gem's Strategic Journal (v61 - Agent Log Consolidation)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information is the source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. I must trust the data, especially the `map_id` and `reachable` status of warps/NPCs.
@@ -36,17 +36,12 @@
 - **Rocket Grunt Interactions:** Repeatedly trying to initiate battles with non-battling grunts has failed. These paths are on hold.
 - **Incorrect Pathfinding on B3F:** The warp at (20, 19) leads to an isolated dead-end room on B4F, not the main area with Giovanni. The warp at (26, 7) leads back to B2F. The path forward is likely gated by the Rocket Grunt at (11, 23).
 
-## VI. Agent Development Log
-- **`battle_strategy_agent` (REFINED):** Updated to require confirmed type-effectiveness data to prevent hallucinations.
-- **`spinner_maze_solver_agent` (REFINED & VERIFIED):** A specialized agent for solving spinner tile mazes. Proven to be the correct and necessary tool for navigating the Rocket Hideout mazes after multiple successful path calculations.
-- **`navigator_agent` (v5 - Undergoing Refinement):** This is a consolidated agent for general pathfinding and exploration. Its development has had several documented failures:
-    - **v1 Flaw:** Could not navigate spinner mazes.
-    - **v2 Flaw:** Failed to treat `cuttable` tiles as obstacles.
-    - **v3 Flaw:** Incorrectly treated all NPCs as impassable region blockers instead of single-tile obstacles to path around.
-    - **v4 Flaw:** Failed to account for ledges being impassable from below/sides.
-    - **v5 Flaw (Current):** Generated a path through an `impassable` tile in the Celadon Gym, indicating a core logic failure in graph creation.
-    - **Current Status (UNRELIABLE):** The agent is undergoing significant refinement to improve its pathing logic. It cannot be trusted for complex navigation until verified.
-- **`gym_scout_agent` (REFINED):** Corrected a schema error where the input was undefined. It now correctly takes an empty object as input.
+## VI. Agent Status & Refinement Log
+- **`battle_strategy_agent` (STABLE):** Refined to require confirmed type-effectiveness data to prevent hallucinations.
+- **`spinner_maze_solver_agent` (STABLE & VERIFIED):** Specialized and proven effective for spinner mazes.
+- **`navigator_agent` (UNRELIABLE - Under Refinement):** A general pathfinder. Has a history of critical logic failures, including improper handling of `cuttable` tiles, NPC obstacles, ledges, and `impassable` tiles. Requires further refinement and verification before it can be trusted.
+- **`gym_scout_agent` (STABLE):** Refined to correct a schema error.
+- **Future Goal:** Consolidate navigation agents (`navigator`, `spinner_maze_solver`, `multi_map_planner`) into a single, more robust agent. Merge `gym_scout` into a broader `map_analyzer`.
 
 ## VII. Completed Intel
 - **Celadon Diner Tip:** An NPC at (2, 5) in the Celadon Diner revealed there is a secret basement under the Game Corner. This led to finding the poster switch.
