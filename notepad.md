@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v85 - Agent & WKG Maintenance)
+# Gem's Strategic Journal (v86 - Agent Cleanup)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
@@ -48,7 +48,7 @@
 - **`team_composition_advisor_agent` (UNDERUTILIZED):** Must be used before major battles. Acknowledged miss on the Rival battle.
 
 ## VII. AI Feedback & Action Items (T22291, T22320, T22380)
-- **Agent Consolidation:** `spinner_maze_solver_agent` is now redundant and will be deleted.
+- **Agent Consolidation:** `spinner_maze_solver_agent` is now redundant and has been deleted.
 - **Agent Usage:** I failed to use the `team_composition_advisor_agent` before my last Rival battle. I must use it for all future major encounters.
 - **Map Markers:** I have been inconsistent. I need to maintain my protocol of marking both sides of a transition immediately.
 - **WKG Scripting:** My WKG check script is buggy. I need to fix it before adding new connections.
