@@ -42,7 +42,7 @@
 - **Rival Pixel Defeated:** Defeated Pixel on Pokémon Tower 2F.
 
 ## VI. Agent Status & Refinement Log
-- **`pathfinder_agent` (OPERATIONAL - v1):** Successfully created and used to navigate Pokemon Tower 3F. This agent replaces the functionality of the now-deleted `spinner_maze_solver_agent`.
+- **`pathfinder_agent` (DELETED):** Functionality consolidated into `stealth_pathfinder_agent`.
 - **`spinner_maze_solver_agent` (DELETED):** Functionality consolidated into `pathfinder_agent`.
 - **`battle_advisor_agent` (OPERATIONAL - REFINED):** Successfully refined the agent to handle statefulness by adding a `previous_player_action` input. It no longer recommends switching immediately after a switch-in and provides excellent tactical advice. It is now a primary tool for all battles.
 - **`team_composition_advisor_agent` (UNDERUTILIZED):** Must be used before major battles. Acknowledged miss on the Rival battle.
