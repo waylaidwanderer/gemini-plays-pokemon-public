@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v61 - Agent Log Consolidation)
+# Gem's Strategic Journal (v62 - Post-Battle Reorganization)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information is the source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. I must trust the data, especially the `map_id` and `reachable` status of warps/NPCs.
@@ -12,6 +12,10 @@
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Field Use (v2 - Confirmed):** HMs MUST be taught to a compatible Pokémon to enable their field use. Attempting to use an HM from the ITEM menu will prompt you to teach it. Selecting 'NO' cancels the action.
 - **EXP. All:** Distributes EXP to all non-fainted party members who participated in the battle. Pokémon at the level cap will show an EXP gain message but will not actually gain EXP.
+- **Cuttable Tree Respawn:** Confirmed that cuttable trees can respawn *without leaving the map*. The tree at (36, 33) in Celadon City respawned after a short time.
+- **Type Effectiveness (Confirmed):
+    - Grass-type moves are 'not very effective' against Flying/Poison types (Vine Whip vs. Golbat).
+    - Poison-type moves are 'not very effective' against Flying/Poison types (Acid vs. Golbat).
 
 ## III. World Intel & Navigation
 - **Rocket Hideout B2F & B3F:** These floors are spinner mazes. Standard navigation is ineffective. The `spinner_maze_solver_agent` is the required tool for these areas.
@@ -48,8 +52,3 @@
 - **Lift Key Location:** Discovered I already possessed the Lift Key.
 - **Erroneous Marker Deleted:** Deleted a false 'Rocket defeated' marker at (12, 23) on map 201 that was causing strategic confusion.
 - **Defeat Mechanic (Rocket Hideout):** Losing a battle to a trainer in the hideout does not send you back to the Pokémon Center. You remain in place after the battle.
-
-### v62 Update
-- **Cuttable Tree Respawn:** Confirmed that cuttable trees can respawn *without leaving the map*. The tree at (36, 33) in Celadon City respawned after a short time.
-
-- **Type Effectiveness (Confirmed):** Grass-type moves are 'not very effective' against Flying/Poison types (Vine Whip vs. Golbat).
