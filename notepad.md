@@ -1,13 +1,13 @@
-# Gem's Strategic Journal (v53 - HM Mechanics Update)
+# Gem's Strategic Journal (v55 - Post-Critique Cleanup)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information is the source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. I must trust the data.
 - **Agent Protocol:**
-    - **Agent Failure Log:** My `battle_strategy_agent` has been proven unreliable due to flawed type-effectiveness data. My own observations about type matchups were also hallucinations. The agent has been updated to rely *only* on explicit in-game text for type effectiveness. I MUST test its outputs before fully trusting them.
+    - **Agent Failure Log:** My `battle_strategy_agent` has been proven unreliable due to flawed type-effectiveness data. My `single_map_pathfinder_agent` has also failed, providing a path to an unreachable location. I must refine and test agents thoroughly.
     - `battle_menu_navigator` (Verified): The agent's prompt correctly states that menus do not wrap around. My previous assessment of it being flawed was incorrect.
     - `team_composition_advisor_agent`: I failed to use this agent before my first Giovanni attempt, which led to a team wipe. I will now use it to build my team.
 - **Interaction Protocol:** If an interaction doesn't trigger as expected, do not repeat the same input. Immediately try a different input or a different approach.
-- **WKG & Marker Protocol:** After any map transition, I must immediately add the nodes/edge to the WKG and mark both sides of the warp as 'Used'.
+- **WKG & Marker Protocol:** After any map transition, I must immediately add the nodes/edge to the WKG and mark both sides of the warp as 'Used'. I must check the WKG before adding new edges to avoid duplicates.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
@@ -16,7 +16,6 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members who participated in the battle (including those who were switched out). Pokémon at the level cap will show an EXP gain message but will not actually gain EXP.
 
 ## III. World Intel & Navigation
-### Celadon City
 - **Celadon Game Corner:** Team Rocket front. Secret hideout entrance behind a poster at (18, 5).
 
 ## IV. Action Plans & Hypotheses
@@ -40,10 +39,5 @@
 - **Lift Key Location:** The Lift Key was not held by a specific grunt. I discovered I already possessed it.
 - **HM Usage (v1 - DISPROVEN):** The initial hypothesis that HMs could be used directly from the ITEM menu without being taught was incorrect. Selecting 'NO' to teaching the move simply cancels the action. The move must be taught.
 
-## VI. Reflection (Turn 20940)
-- I should create a `training_advisor_agent` to help optimize leveling my team for major battles. It could suggest the best training spots based on my party, the level cap, and known wild encounters.
-
-## VII. Agent Development Log
-- **`training_advisor_agent` (Created T20991):** Designed to recommend optimal training locations based on party composition, level caps, and known wild encounters. This will help streamline the grinding process for major battles.
-
-- **Celadon Diner Tip:** An NPC at (2, 5) revealed there is a secret basement under the Game Corner.
+## VI. Completed Intel
+- **Celadon Diner Tip:** An NPC at (2, 5) in the Celadon Diner revealed there is a secret basement under the Game Corner. This led to finding the poster switch.
