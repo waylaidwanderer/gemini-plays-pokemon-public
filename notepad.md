@@ -1,17 +1,17 @@
-# Gem's Strategic Journal (v86 - Agent Cleanup)
+# Gem's Strategic Journal (v87 - Reflection Cleanup)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
-- **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on.
-- **WKG & Marker Protocol (v10):**
-    - After any map transition, immediately add nodes/edge to WKG and mark both sides of the warp as 'Used'.
-    - **Check-Then-Add Policy:** Before adding any new node or edge, query the WKG (using `run_code`) to ensure the element doesn't already exist. My current script is buggy and needs to be fixed.
-    - **Correct ID Protocol:** Follow a strict three-step process: 1. `add_node` for source, retrieve ID. 2. `add_node` for destination, retrieve ID. 3. `add_edge` using the *correct, retrieved IDs*.
-- **Handling Bugs:** If a menu appears stuck on one option, test other options (like moving the cursor or selecting 'CANCEL') before assuming the game is frozen. Repeatedly trying the bugged option is inefficient.
+- **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on. An NPC blocking a path that doesn't battle is a hard wall.
+- **WKG & Marker Protocol (v11):**
+    - After any map transition, immediately add nodes/edge to WKG. Mark the arrival warp with a single, descriptive marker (e.g., 'Used - Arrival from 1F').
+    - **`define_map_marker` Tool Rule:** The `map_id` argument requires a numeric string (e.g., "4"), not the map's name string (e.g., "LAVENDER_TOWN").
+- **Agent Usage:** Use `team_composition_advisor_agent` *before* all major battles. Use `stealth_pathfinder_agent` for all non-trivial navigation to avoid accidental trainer battles.
+- **Repeated Failure Protocol:** If a plan or hypothesis fails repeatedly (e.g., notepad edits, trying to battle a non-hostile NPC), recognize the pattern, log it, and pivot to a new strategy instead of wasting turns.
 
 ## II. Hallucination & Correction Log
-- **MAJOR (T22035-T22134): Rocket Hideout & Game Corner Hallucinations.** Repeatedly believed I had successfully changed maps (B4F -> B2F, Game Corner -> Celadon) when I had not. This led to creating incorrect WKG nodes and map markers. **Lesson:** ALWAYS verify `map_id` and `current_position` from Game State Info *after* any warp attempt.
-- **CRITICAL (T22304-T22330):** System repeatedly warned of reachable unseen tiles on Pokemon Tower 2F. I was hallucinating that the floor was fully explored. I have now explored that floor.
+- **MAJOR (T22035-T22134): Rocket Hideout & Game Corner Hallucinations.** Repeatedly believed I had successfully changed maps when I had not. **Lesson:** ALWAYS verify `map_id` and `current_position` from Game State Info *after* any warp attempt.
+- **CRITICAL (T22304-T22330, T22477-T22485):** System repeatedly corrected me on reachable unseen tiles in the Pokémon Tower. I must trust the game state data over my own perception of the map.
 - **Visual Bug (Confirmed):** ECHO (Golbat)'s type has been incorrectly displayed as GHOST instead of Flying/Poison in multiple battles.
 
 ## III. Game Mechanics & Battle Intel
@@ -22,42 +22,24 @@
     - Poison-type moves are 'not very effective' against Flying/Poison types (Acid vs. Golbat).
 
 ## IV. Action Plans & Hypotheses
-### Current Objectives
-- **Primary Goal:** Use the Silph Scope to clear the Pokémon Tower.
-- **Secondary Goal:** Find a way to heal my critically injured party.
-### Current Plan (v30 - Pokémon Tower Ascent)
-1.  Navigate Pokémon Tower 4F to find the stairs up.
-2.  Avoid all trainer battles due to party's critical condition.
+### Current Plan (v31 - The Training Arc)
+1.  Assemble the training team (SUBTERRA, SPOONBENDE, IGNIS, NIGHTSHADE, SPARKY, ECHO) at the Lavender PC.
+2.  Train SPOONBENDE (Abra) in Pokémon Tower until it evolves and learns Confusion.
+3.  Fly to Vermilion and train SUBTERRA (Diglett) and IGNIS (Vulpix) on Route 11.
+4.  Re-ascend Pokémon Tower with the newly trained team.
 ### Future Plans & Hypotheses
-- **Team Composition:** I must use my `team_composition_advisor_agent` *before* major battles.
-- **Hypothesis 1 (Snorlax):** The Snorlax on Route 16 requires the Poké Flute to be moved.
-- **Hypothesis 2 (Celadon Gym):** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
-- **Hypothesis 3 (Thirsty Guards):** Need to test if giving a guard a drink (e.g., Fresh Water) will grant passage.
+- **Hypothesis 1 (Celadon Gym):** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
+- **Hypothesis 2 (Thirsty Guards):** Need to test if giving a guard a drink (e.g., Fresh Water) will grant passage.
+- **Hypothesis 3 (Snorlax):** The Snorlax on Route 16 requires the Poké Flute to be moved.
 
 ## V. Completed Intel & Disproven Hypotheses
 - **LIFT KEY Location:** Dropped by a non-battling Rocket Grunt at Rocket Hideout B3F (11, 23).
 - **Giovanni Defeated:** Defeated Giovanni on Rocket Hideout B4F. He dropped the Silph Scope.
-- **Defeat Mechanic (Rocket Hideout):** Losing a battle in a trainer in the hideout does not send you back to the Pokémon Center.
+- **Defeat Mechanic (Rocket Hideout):** Losing a battle in the hideout does not send you back to the Pokémon Center.
 - **Spinner Maze Mapping (B2F & B3F):** All spinners on these floors have been manually mapped and solved.
 - **Rival Pixel Defeated:** Defeated Pixel on Pokémon Tower 2F.
 
 ## VI. Agent Status & Refinement Log
-- **`pathfinder_agent` (DELETED):** Functionality consolidated into `stealth_pathfinder_agent`.
-- **`spinner_maze_solver_agent` (DELETED):** Functionality consolidated into `pathfinder_agent`.
-- **`battle_advisor_agent` (OPERATIONAL - REFINED):** Successfully refined the agent to handle statefulness by adding a `previous_player_action` input. It no longer recommends switching immediately after a switch-in and provides excellent tactical advice. It is now a primary tool for all battles.
-- **`team_composition_advisor_agent` (UNDERUTILIZED):** Must be used before major battles. Acknowledged miss on the Rival battle.
-
-## VII. AI Feedback & Action Items (T22291, T22320, T22380)
-- **Agent Consolidation:** `spinner_maze_solver_agent` is now redundant and has been deleted.
-- **Agent Usage:** I failed to use the `team_composition_advisor_agent` before my last Rival battle. I must use it for all future major encounters.
-- **Map Markers:** I have been inconsistent. I need to maintain my protocol of marking both sides of a transition immediately.
-- **WKG Scripting:** My WKG check script is buggy. I need to fix it before adding new connections.
-
-### Agent Development Plan
-- **New Agent: `stealth_pathfinder_agent`**: My current `pathfinder_agent` is flawed as it doesn't account for trainer line of sight. I will create a new agent that takes start/end coordinates, the map XML, and a list of trainer coordinates with their facing directions. The agent's code will need to calculate the line of sight for each trainer (a straight line of tiles in the direction they are facing) and treat those tiles as impassable walls in its pathfinding algorithm. This will allow for true stealth navigation.
-
-- **`define_map_marker` Tool Rule:** The `map_id` argument requires a numeric string (e.g., "4"), not the map's name string (e.g., "LAVENDER_TOWN"). I keep forgetting this.
-
-- **Hallucination (T22477):** Believed Pokémon Tower 3F was mostly explored with only 2 unseen tiles. System corrected me that there were actually 5 (now 6). This reveals a significant unexplored area in the northeast I must now investigate.
-
-- **`team_composition_advisor_agent` (USED):** The agent provided a crucial new strategy for the Pokémon Tower, highlighting the need to train specific counters. I am now pivoting to follow this plan.
+- **`stealth_pathfinder_agent` (OPERATIONAL - v1):** Successfully created and used to navigate complex areas while avoiding trainers. Replaces the functionality of the now-deleted `pathfinder_agent`.
+- **`battle_advisor_agent` (OPERATIONAL - REFINED):** Successfully refined to handle statefulness by adding a `previous_player_action` input. It no longer recommends switching immediately after a switch-in and provides excellent tactical advice. It is now a primary tool for all battles.
+- **`team_composition_advisor_agent` (OPERATIONAL):** Provided the crucial new strategy for the Pokémon Tower. Must be used before all future major encounters.
