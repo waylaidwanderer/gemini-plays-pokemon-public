@@ -62,9 +62,14 @@
 My `spinner_maze_solver_agent` cannot find a path because several spinner tiles are missing their `end-coordinate` data. I must manually step on each of these to map their destinations.
 **Problematic Spinners:**
 - (11, 12)
-- (17, 12)
 - (15, 14)
-- (19, 16) -> (19, 16) [Useless Loop]
-- (18, 17) [Error in script, this is a spinner_stop]
-- (16, 23) -> (16, 23) [Useless Loop]
+
+**Mapped Spinners:**
+- (17, 14) -> (17, 12) [Mapped!]
+- (19, 16) -> (19, 16) [Useless Loop - Mapped!]
+- (16, 23) -> (16, 23) [Useless Loop - Mapped!]
 - (13, 21) -> (19, 16) [Mapped!]
+
+**Corrected Intel:**
+- (18, 17) is a `spinner_stop` tile, not a spinner. My diagnostic script was flawed.
+- (17, 12) is also a `spinner_stop` tile, the destination of the spinner at (17, 14).
