@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v58 - Reflection & Refinement)
+# Gem's Strategic Journal (v59 - Agent Log Consolidation)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information is the source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. I must trust the data, especially the `map_id` and `reachable` status of warps/NPCs.
@@ -18,17 +18,17 @@
 
 ## IV. Action Plans & Hypotheses
 ### Current Objectives
-- **Primary Goal:** Defeat the boss of the Rocket Hideout.
-- **Secondary Goal:** Assemble and train a viable team for Giovanni.
-- **Tertiary Goal:** Find the correct path to Giovanni.
+- **Primary Goal:** Obtain the Rainbow Badge from the Celadon City Gym.
+- **Secondary Goal:** Assemble and train a viable team for the gym.
+- **Tertiary Goal:** Explore any remaining unvisited locations in Celadon City.
 
-### Current Plan (v8 - Maze Navigation Redux)
-1.  **Pathfinding:** Use the `spinner_maze_solver_agent` to find a path to the final un-interacted-with Rocket Grunt on B3F.
-2.  **Interaction:** Confront the grunt to hopefully unlock the path forward.
-3.  **Progression:** Proceed to B4F via the correct route and confront Giovanni.
+### Current Plan (v9 - Gym Challenge)
+1.  **Scout:** Use `gym_scout_agent` to identify all trainers in the Celadon Gym.
+2.  **Navigate:** Use the `navigator_agent` to travel to the Celadon Gym entrance at (13, 28).
+3.  **Conquer:** Defeat all trainers and Gym Leader Erika.
 
 ### Hypotheses
-- **Hypothesis 1 (Silph Scope):** The Silph Scope is the final reward in this hideout, held by Giovanni.
+- **Hypothesis 1 (Silph Scope):** The Silph Scope is the final reward in this hideout, held by Giovanni. (On Hold)
 - **Hypothesis 2 (Snorlax):** The Snorlax on Route 16 requires the Poké Flute to be moved, but this is unverified in this ROM hack.
 
 ## V. Disproven Hypotheses & Failed Strategies
@@ -37,17 +37,17 @@
 - **Incorrect Pathfinding on B3F:** The warp at (20, 19) leads to an isolated dead-end room on B4F, not the main area with Giovanni. The warp at (26, 7) leads back to B2F. The path forward is likely gated by the Rocket Grunt at (11, 23).
 
 ## VI. Agent Development Log
-- `battle_strategy_agent` (REFINED): Updated to require confirmed type-effectiveness data to prevent hallucinations.
-- `navigator_agent` (RE-EVALUATED): A consolidated agent for general pathfinding and exploration. **CRITICAL FLAW:** Fails to navigate spinner mazes correctly; it cannot account for one-way spinner tiles. Do not use for spinner mazes.
-- `spinner_maze_solver_agent` (REFINED & VERIFIED): A specialized agent for solving spinner tile mazes. Proven to be the correct and necessary tool for navigating the Rocket Hideout mazes after multiple successful path calculations.
+- **`battle_strategy_agent` (REFINED):** Updated to require confirmed type-effectiveness data to prevent hallucinations.
+- **`spinner_maze_solver_agent` (REFINED & VERIFIED):** A specialized agent for solving spinner tile mazes. Proven to be the correct and necessary tool for navigating the Rocket Hideout mazes after multiple successful path calculations.
+- **`navigator_agent` (REFINED - v4):** This is a consolidated agent for general pathfinding and exploration. Its development has had several failures:
+    - **Initial Flaw:** Could not navigate spinner mazes.
+    - **Refinement 1 (FAILED):** Failed to account for `cuttable` tiles.
+    - **Refinement 2 (FAILED):** Treated NPCs as impassable walls, blocking entire regions.
+    - **Refinement 3 (FAILED):** Failed to account for ledges being impassable from below/sides.
+    - **Current Status (VERIFIED):** The latest version correctly handles all known pathing rules (impassable tiles, cuttable trees, objects, and ledges) and has successfully plotted a valid course.
 
 ## VII. Completed Intel
 - **Celadon Diner Tip:** An NPC at (2, 5) in the Celadon Diner revealed there is a secret basement under the Game Corner. This led to finding the poster switch.
 - **Lift Key Location:** Discovered I already possessed the Lift Key.
 - **Erroneous Marker Deleted:** Deleted a false 'Rocket defeated' marker at (12, 23) on map 201 that was causing strategic confusion.
-
 - **Defeat Mechanic (Rocket Hideout):** Losing a battle to a trainer in the hideout does not send you back to the Pokémon Center. You remain in place after the battle.
-
-- `navigator_agent` (REFINED AGAIN): The agent failed to account for `cuttable` tiles, and is now failing by treating NPCs as impassable walls that block entire regions. I am refining the prompt to clarify that it should path *around* non-traversable objects.
-
-- `navigator_agent` (REFINED AGAIN, FAILED): The agent failed to account for ledges being impassable from below. Refining the prompt to include ledge traversal rules.
