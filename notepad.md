@@ -47,3 +47,5 @@
 - **`team_composition_advisor_agent` (UNDERUTILIZED):** I have not been using this agent to its full potential. I must use it to prepare for major battles. This was a major strategic error leading into the Giovanni fight.
 - **`spinner_maze_solver_agent` (STABLE - REFINED):** Specialized pathfinder for spinner mazes. Was successfully refined to treat NPCs as impassable.
 - **`navigator_agent` (UNSTABLE):** A general pathfinder. Failed to find a path on Rocket Hideout B4F. Seems unreliable in complex mazes.
+
+- **Agent Refinement (High Priority):** Per critique, I must rebuild the `battle_advisor_agent` and refine/consolidate the `navigator_agent` and `spinner_maze_solver_agent` as soon as I am out of this crisis.
