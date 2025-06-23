@@ -53,3 +53,5 @@
 - **`battle_advisor_agent` (DECOMMISSIONED PENDING REBUILD):** Inconsistent logic, but showed promise. Awaiting a full rebuild with more robust logic.
 - **`team_composition_advisor_agent` (UNDERUTILIZED):** Must be used before major battles.
 - **`spinner_maze_solver_agent` (STABLE - TO BE CONSOLIDATED):** Logic will be the basis for the new `pathfinder_agent`.
+
+- **WKG Correction (T22146):** Updated Celadon Pokémon Center exterior node coordinates from (42, 10) to (42, 11) to reflect the actual arrival point.
