@@ -17,7 +17,7 @@
 ## III. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Field Use:** HMs MUST be taught to a compatible Pokémon to enable their field use. FLY cannot be used indoors.
-- **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap will not gain actual EXP.
+- **EXP. All:** Can be obtained from the NPC that gives the item without any special requirements. It must still be activated from the inventory to take effect. It distributes EXP to all non-fainted party members, and Pokémon at the level cap will not gain actual EXP.
 - **Type Effectiveness (Confirmed):**
     - Poison-type moves are 'not very effective' against Flying/Poison types (Acid vs. Golbat).
 
