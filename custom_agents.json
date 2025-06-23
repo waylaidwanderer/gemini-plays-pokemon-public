@@ -46,5 +46,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"mode\":{\"type\":\"string\",\"enum\":[\"find_path\",\"explore\"]},\"start_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"target_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"unseen_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"mode\",\"start_coordinates\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_found\",\"path\"]}",
     "agent_can_run_code": true
+  },
+  "gym_scout_agent": {
+    "agent_name": "gym_scout_agent",
+    "agent_description": "Analyzes a gym's map layout to identify all trainers and their locations, helping to plan a strategic path to the Gym Leader.",
+    "agent_system_prompt": "You are a Gym Scouter. Your task is to analyze the `map_xml_string` of a Pokémon Gym. You must use your `run_code` tool to parse the XML and identify all tiles containing an `<Object>` tag that represents a trainer (i.e., not the Gym Guide usually found at the entrance). Your output must be a JSON object containing a list of all identified trainers and their coordinates.",
+    "agent_input_schema": "{}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"trainers_found\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"trainer_name\":{\"type\":\"string\"},\"coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"trainer_name\",\"coordinates\"]}}},\"required\":[\"trainers_found\"]}",
+    "agent_can_run_code": true
   }
 }
