@@ -1,14 +1,13 @@
-# Gem's Strategic Journal (v70 - Post-Reflection)
+# Gem's Strategic Journal (v71 - Giovanni Battle)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data (`reachable_unseen_tiles_count`, `navigable_warps`, etc.) contradicts it. I must trust the data over my feelings.
-- **Agent Protocol:**
-    - **Agent Failure Log:** My agents have a history of failure. I must refine and test agents thoroughly, especially after creation. The `battle_advisor_agent` is currently unreliable.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on.
-- **WKG & Marker Protocol (v4 - CRITICAL UPDATE):**
+- **WKG & Marker Protocol (v5 - CRITICAL UPDATE):**
     - After any map transition, I must immediately add the nodes/edge to the WKG and mark both sides of the warp as 'Used'.
     - **Check-Then-Add Policy:** Before adding any new node or edge, I MUST query the WKG (using `run_code`) to ensure the element doesn't already exist.
     - **Correct ID Protocol:** I MUST follow a strict three-step process: 1. `add_node` for the source, retrieve its ID. 2. `add_node` for the destination, retrieve its ID. 3. `add_edge` using the *correct, retrieved IDs*. Hardcoding UUIDs is a critical failure that I have committed and must not repeat.
+    - **Location Verification:** I MUST verify my current `map_id` and coordinates from Game State Info before any WKG modification to prevent hallucination-based errors.
 
 ## II. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
@@ -25,12 +24,12 @@
 - **Primary Goal:** Clear the Rocket Hideout and defeat Giovanni.
 - **Secondary Goal:** Obtain the Silph Scope.
 
-### Current Plan (v18 - Giovanni Confrontation)
+### Current Plan (v19 - Giovanni Battle)
 1. Defeat Giovanni.
 2. Acquire the Silph Scope.
 
 ### Future Plans & Hypotheses
-- **PC Organization Agent:** Consider creating an agent to help manage and suggest teams from my PC.
+- **Team Composition:** I must use my `team_composition_advisor_agent` *before* major battles to build a more effective team.
 - **Hypothesis 1 (Silph Scope):** The Silph Scope is the final reward in this hideout, held by Giovanni.
 - **Hypothesis 2 (Snorlax):** The Snorlax on Route 16 requires the Poké Flute to be moved.
 
@@ -44,6 +43,7 @@
 - **Spinner Maze Mapping (B2F & B3F):** All spinners on these floors have been manually mapped and solved.
 
 ## VII. Agent Status & Refinement Log
-- **`battle_advisor_agent` (UNRELIABLE - REFINED v4):** A consolidated agent for battle strategy and menu navigation. Has a history of critical failures, including hallucinating Pokémon types and miscalculating type effectiveness. It consistently undervalues level differences. I am attempting one final, major refinement. If it fails again, it will be deprecated and rebuilt.
+- **`battle_advisor_agent` (CRITICAL FAILURE - REFINED v6):** A consolidated agent for battle strategy and menu navigation. Has a history of critical failures, including hallucinating Pokémon types, miscalculating type effectiveness, and consistently undervaluing level differences. I have attempted multiple refinements, but it remains unreliable. I will continue to refine it until it is trustworthy.
+- **`team_composition_advisor_agent` (UNDERUTILIZED):** I have not been using this agent to its full potential. I must use it to prepare for major battles.
 - **`spinner_maze_solver_agent` (STABLE - REFINED):** Specialized pathfinder for spinner mazes. Requires complete map data to function correctly. Was successfully refined to treat NPCs as impassable.
 - **`navigator_agent` (STABLE - REFINED):** A general pathfinder. Had a history of critical logic failures. Was successfully refined and now correctly navigates open routes with obstacles.
