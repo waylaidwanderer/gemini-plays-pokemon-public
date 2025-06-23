@@ -3,7 +3,7 @@
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information is the source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. I must trust the data, especially the `map_id` and `reachable` status of warps/NPCs.
 - **Agent Protocol:**
-    - **Agent Failure Log:** My agents have failed due to flawed logic (`single_map_pathfinder_agent` ignoring obstacles) and providing useless output (`spinner_maze_solver_agent` ignoring spinners). I must refine and test agents thoroughly, especially after creation.
+    - **Agent Failure Log:** My agents have failed due to flawed logic (`navigator_agent` ignoring spinner maze mechanics) and providing useless output (an early version of `spinner_maze_solver_agent` also ignored spinners). I must refine and test agents thoroughly, especially after creation.
     - **Agent Consolidation:** Redundant agents are inefficient. I will consolidate agents with overlapping functionality (like my old pathfinders) into single, more versatile tools.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's likely a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on.
 - **WKG & Marker Protocol:** After any map transition, I must immediately add the nodes/edge to the WKG and mark both sides of the warp as 'Used'. I must check the WKG before adding new edges to avoid duplicates and not create entries based on hallucinations.
