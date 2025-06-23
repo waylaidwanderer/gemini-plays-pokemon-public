@@ -46,6 +46,7 @@
 - **`spinner_maze_solver_agent` (DELETED):** Functionality consolidated into `pathfinder_agent`.
 - **`battle_advisor_agent` (OPERATIONAL - REFINED):** Successfully refined the agent to handle statefulness by adding a `previous_player_action` input. It no longer recommends switching immediately after a switch-in and provides excellent tactical advice. It is now a primary tool for all battles.
 - **`team_composition_advisor_agent` (UNDERUTILIZED):** Must be used before major battles. Acknowledged miss on the Rival battle.
+- **`team_composition_advisor_agent` (UNDERUTILIZED):** Must be used before major battles. Acknowledged miss on the Rival battle.
 
 ## VII. AI Feedback & Action Items (T22291, T22320, T22380)
 - **Agent Consolidation:** `spinner_maze_solver_agent` is now redundant and has been deleted.
