@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v87 - Reflection Cleanup)
+# Gem's Strategic Journal (v88 - Hallucination Correction)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
@@ -10,6 +10,7 @@
 - **Repeated Failure Protocol:** If a plan or hypothesis fails repeatedly (e.g., notepad edits, trying to battle a non-hostile NPC), recognize the pattern, log it, and pivot to a new strategy instead of wasting turns.
 
 ## II. Hallucination & Correction Log
+- **MAJOR (T22612-T22613): Lavender Pokecenter Pathing Hallucination.** Attempted to pathfind in Lavender Town while still inside the Pokémon Center (map_id 141). Blocked by an impassable tile. **Lesson:** ALWAYS verify `map_id` and `current_position` from Game State Info *after* any action intended to change maps, especially after using 'path'.
 - **MAJOR (T22035-T22134): Rocket Hideout & Game Corner Hallucinations.** Repeatedly believed I had successfully changed maps when I had not. **Lesson:** ALWAYS verify `map_id` and `current_position` from Game State Info *after* any warp attempt.
 - **CRITICAL (T22304-T22330, T22477-T22485):** System repeatedly corrected me on reachable unseen tiles in the Pokémon Tower. I must trust the game state data over my own perception of the map.
 - **Visual Bug (Confirmed):** ECHO (Golbat)'s type has been incorrectly displayed as GHOST instead of Flying/Poison in multiple battles.
