@@ -33,14 +33,14 @@
 
 ## IV. Agent Development Log
 ### A. Active Agents & Refinements
-- **`stealth_pathfinder_agent` (v2 - RELIABLE):** Finds complex paths successfully.
-- **`exploration_agent` (v1 - FUNCTIONAL):** Logic is sound for exploration paths.
-- **`wkg_manager_agent` (v2 - RELIABLE):** Successfully identifies existing nodes and creates edges without duplication.
-- **`pc_navigator_agent` (v2 - RELIABLE):** Successfully navigates the PC by using 'BILL's PC' to bypass the 'Gem's PC' glitch.
+- `pathfinding_agent` (v1 - RELIABLE): Consolidated agent for reaching specific targets or exploring all unseen tiles.
+- `wkg_manager_agent` (v2 - RELIABLE): Successfully identifies existing nodes and creates edges without duplication.
+- `pc_navigator_agent` (v2 - RELIABLE): Successfully navigates the PC by using 'BILL's PC' to bypass the 'Gem's PC' glitch.
 
 ### B. Agent Development Backlog
-- **(PRIORITY): Consolidate `stealth_pathfinder_agent` and `exploration_agent` into a single, more robust `pathfinding_agent` with an optional parameter to specify the goal (e.g., 'explore_unseen' or 'reach_target').**
 - **(Future Idea): `shopping_planner_agent`:** To plan TM and item purchases.
+- **(Future Idea): `item_finder_agent`:** To plan paths for collecting all items on a map.
+- **(Future Idea): `healing_route_planner_agent`:** To find the most efficient path to a Pokémon Center.
 - **(Future Idea): `item_finder_agent`:** To plan paths for collecting all items on a map.
 - **(Future Idea): `healing_route_planner_agent`:** To find the most efficient path to a Pokémon Center.
 
