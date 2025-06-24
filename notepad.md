@@ -25,3 +25,6 @@
 
 ## To-Do & Reminders
 - **Fix Missing Marker:** Re-create the warp marker at (7, 33) on Route 46 as soon as possible.
+
+## Lessons Learned
+- My manual pathfinding on Route 29 was terrible and wasted a lot of time. For any remotely complex navigation, I must trust my `pathfinder_agent` to avoid getting stuck in dead ends.
