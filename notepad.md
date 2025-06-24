@@ -27,3 +27,9 @@
 - **WKG Data Integrity:** Only record data in the World Knowledge Graph that is directly confirmed from the Game State Information. Do not assume values like `destination_entry_point`.
 
 - **Shifting Route:** Route 29 appears to be a dynamic map where tiles change every few steps, requiring constant re-routing.
+
+## Unverified Assumptions & Hypotheses (Post-Reflection)
+- **Route 29 Shifting:** Is it truly random, or is there a pattern (time-based, step-based)?
+- **Teacher on Route 29:** Does the Teacher at (15, 11) have information about the shifting route?
+- **Alternate Paths:** Is there a more stable, alternative route to New Bark Town that I've missed?
+- **Pathfinder Limitations:** Could the pathfinder be given constraints (e.g., avoid certain zones) to find a better, if not shorter, path?
