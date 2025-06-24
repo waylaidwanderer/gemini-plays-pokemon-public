@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v110 - Agent Insights)
+# Gem's Strategic Journal (v111 - Tactical Retreat)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -18,13 +18,12 @@
 
 ## III. Active Plans & Hypotheses
 ### **Current Plan: Pokémon Tower 5F Ascent**
-*   **Action Plan (v3 - Focused Northern Exploration):**
-    1.  **Status:** Channeler at (18, 8) defeated. Party is heavily damaged. Healing spot at (13, 9) and stairs at (19, 10) are inaccessible.
-    2.  **Key Discovery:** The `stealth_pathfinder_agent` confirmed the western side of the map (including unseen tile at (10, 13)) is completely unreachable from the eastern side due to trainer lines of sight creating an impassable barrier.
-    3.  **New Hypothesis:** The only remaining path forward must be through the northern cluster of unseen tiles: (10, 1), (11, 1), (12, 1), (13, 1), and (14, 2).
-    4.  **Action:** Investigate the northern unseen tiles.
-        *   **Target:** Move to (13, 2) to reveal the tile at (13, 1).
-    5.  **Contingency:** If the northern path is a dead end, the only remaining option is to challenge the trainer at (15, 4) to open up the map.
+*   **Action Plan (v4 - Strategic Retreat):**
+    1.  **Key Discovery:** The `stealth_pathfinder_agent` has confirmed that Pokémon Tower 5F is segmented. The eastern section (where I am) is cut off from the western and northern sections by trainer lines of sight.
+    2.  **New Hypothesis:** Progress requires defeating at least one of the remaining trainers to unlock access to the rest of the floor.
+    3.  **Problem:** My party is too damaged to safely challenge another trainer.
+    4.  **Solution:** The stairs down at (4, 10) are reachable. I will perform a tactical retreat to the Lavender Town Pokémon Center to heal my team.
+    5.  **Action:** Navigate to the stairs at (4, 10) and descend to 4F. Then, exit the tower and heal.
 
 ### Long-Term Goals & Hypotheses
 - **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
