@@ -47,3 +47,9 @@
 ## VI. Agent Development Plan
 - **(HIGH PRIORITY):** The `wkg_builder_agent` is flawed. I must design and implement a new, robust `wkg_manager_agent` to handle all WKG updates reliably. This is essential for data integrity.
 - **(Future Idea):** Create a `shopping_planner_agent` to calculate costs for items (especially TMs) and create shopping lists based on my money and priorities.
+
+## VII. Agent Development Plan
+- **(HIGH PRIORITY):** The `wkg_builder_agent` is flawed. I must design and implement a new, robust `wkg_manager_agent` to handle all WKG updates reliably. This is essential for data integrity.
+- **(Future Idea):** Create a `shopping_planner_agent` to calculate costs for items (especially TMs) and create shopping lists based on my money and priorities.
+- **(Future Idea):** Create an `item_finder_agent` that scans the map XML for Poké Ball sprites and plans a path to collect them, avoiding trainers.
+- **(Refinement):** The `battle_advisor_agent` needs a prompt update to be more precise about dual-type effectiveness calculations and to always verify Pokémon types from the `player_party` input, not just infer them.
