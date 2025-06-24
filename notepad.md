@@ -32,7 +32,7 @@
 
 ## IV. Agent Development Pipeline
 - **(COMPLETE): `stealth_pathfinder_agent` Refinement:** The agent's system prompt has been completely rewritten with more explicit instructions. It has successfully found a complex path it previously failed, confirming the fix. The agent is now considered reliable for navigation.
-- **(HIGH PRIORITY): `wkg_manager_agent` Refinement:** The agent repeatedly fails to create valid payloads. It must be fixed to ensure WKG accuracy.
+- **(CRITICAL FIX): `wkg_manager_agent` Refinement:** The agent's core logic is flawed. It generates a batch of tool calls that fail due to sequential dependency. It needs to be redesigned to output node/edge data, not pre-formatted tool calls, so I can sequence them correctly.
 - **(Future Idea): `shopping_planner_agent`:** To plan TM and item purchases.
 - **(Future Idea): `item_finder_agent`:** To plan paths for collecting all items on a map.
 - **(Future Idea): `healing_route_planner_agent`:** To find the most efficient path to a Pokémon Center.
