@@ -52,3 +52,5 @@
     1. Repeatedly selecting "Gem's PC" does not work.
     2. Logging out of the PC entirely and re-engaging does not fix the issue.
 - **New Hypothesis:** After the "Accessed my PC." message appears, press 'B' instead of 'A' to see if it bypasses the glitch and enters the Pokémon Storage.
+
+- (Future Idea): Consolidate `stealth_pathfinder_agent` and `exploration_agent` into a single, more robust `pathfinding_agent` with optional parameters, as suggested by the AI critic.
