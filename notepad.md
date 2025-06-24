@@ -27,3 +27,5 @@
 
 ## Lessons Learned
 - My manual pathfinding on Route 29 was terrible and wasted a lot of time. For any remotely complex navigation, I must trust my `pathfinder_agent` to avoid getting stuck in dead ends.
+
+- **Running from Battles:** It can be more efficient to run from low-level wild battles if I don't intend to catch them, to save HP and time.
