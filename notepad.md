@@ -48,3 +48,5 @@
 - **CRITICAL (T23249-Present): Map Data Hallucination.** Repeatedly failed to acknowledge the correct number of reachable unseen tiles on Pokémon Tower floors, despite system warnings. **Lesson:** I must trust the game state data and correct my internal map understanding immediately when a discrepancy is found.
 - **Player Hallucination (T23161):** Incorrectly logged that ECHO (Golbat) was a GHOST type. This was a misinterpretation of game data. Golbat's typing is Poison/Flying. **Corrected.**
 - **Battle Logic Hallucination (T23301-T23328):** Assumed standard Gen 1 type matchups. Discovered Psychic is SUPER-EFFECTIVE against Ghost/Poison in this ROM hack after a battle. **Lesson:** Must verify all type matchups through observation and update agents accordingly.
+
+- **(Future Idea): `healing_route_planner_agent`:** Create an agent to find the most efficient path to the nearest Pokémon Center, factoring in poison damage per step to minimize HP loss.
