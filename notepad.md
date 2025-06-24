@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Adventure!
 
 ## Current Plan & Strategy
-- **Current Objective:** Travel through Route 29 to reach Cherrygrove City.
+- **Current Objective:** Explore Cherrygrove City to find the Poké Mart and Pokémon Center, then continue the search for Mr. Pokémon.
 
 ## Discoveries & Mechanics
 - **Headbutt Trees:** Some trees are 'HEADBUTT_TREE' type, likely for the move Headbutt.
