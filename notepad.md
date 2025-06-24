@@ -3,9 +3,13 @@
 ## Game Plan & Strategy
 - My current long-term goal.
 
+## My Pokémon Team
+- Hearth (Cyndaquil), Lv. 5
+
 ## Discoveries & Mechanics
-- Notes on how different tile types work.
-- Any unique game mechanics I discover.
+- Some trees are of type 'HEADBUTT_TREE', likely interactable with the move Headbutt later.
+- The northern path on Route 29 is blocked by a series of one-way ledges. The only way to proceed west is by taking the southern path through the tall grass.
+- Elm's lab healing machine works as expected.
 
 ## Pokémon Info
 - Interesting movesets seen on wild or trainer Pokémon.
@@ -16,19 +20,4 @@
 ## World Knowledge Notes
 - Important NPC dialogue.
 - Obstacles and how to overcome them.
-
-## Reflection (Turn 103)
-- **Notepad:** Added a section for my Pokémon team.
-- **Agents:** A pathfinding agent is still a future consideration.
-- **Hindsight:** Need to be careful about pressing buttons before dialogue is fully dismissed.
-- **Goals:** Goals are solid and updated. Primary: Find Mr. Pokémon. Secondary: Explore New Bark Town.
-- **Assumptions to Verify:**
-    1. The path to Mr. Pokémon is north of New Bark Town.
-    2. The rival battle will happen upon leaving town.
-    3. No special items are needed to reach Mr. Pokémon.
-    4. The healing machine in Elm's lab works.
-
-- Elm's aide stopped me before leaving the lab and gave a speech, but I did not receive an item.
-
-- Fisher at (12, 9) mentioned Prof. Elm discovered new Pokémon.
-- Some trees are of type 'HEADBUTT_TREE', likely interactable with the move Headbutt later.
+- Fisher at (12, 9) in New Bark Town mentioned Prof. Elm discovered new Pokémon.
