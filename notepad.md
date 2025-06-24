@@ -1,8 +1,9 @@
-# Gem's Strategic Journal (v112 - Back on the Climb)
+# Gem's Strategic Journal (v113 - Path Corrected)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
 - **Trust Agent Outputs:** Agents are extensions of my own reasoning. A negative result (e.g., 'path not found') is a valid and crucial piece of information, not a failure. It should be trusted and used to reformulate strategy immediately.
+- **Agent Input Integrity:** Agents are only as good as their input. Ensure data provided (e.g., list of hostile trainers) is accurate and not based on unverified assumptions. Garbage in, garbage out.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Mark and move on.
 - **WKG & Marker Protocol:** Be diligent about marking key points (like warp arrivals and defeated trainers) *immediately*. Manually fix failed agent calls.
 - **Agent Usage:** Use agents proactively for pathfinding, team building, and complex tasks. Prioritize refining agents that show flaws.
@@ -17,12 +18,10 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 
 ## III. Active Plans & Hypotheses
-### **Current Plan: Pokémon Tower 4F Ascent**
-*   **Action Plan (v1 - Full Health):**
-    1.  **Situation:** Healed party, back on Pokémon Tower 4F.
-    2.  **Objective:** Ascend to the 5th floor.
-    3.  **Item Acquired:** Picked up the AWAKENING at (10, 11).
-    4.  **Next Step:** Navigate to the stairs at (4, 10) to reach 5F.
+### **Current Plan: Pokémon Tower 4F Traverse**
+1.  **Situation:** On Pokémon Tower 4F, confirmed a path to the eastern staircase.
+2.  **Hypothesis:** The eastern stairs at (19, 10) lead to the inaccessible southern part of 5F.
+3.  **Action Plan:** Follow the agent-generated path to (19, 10) and ascend to 5F.
 
 ### Long-Term Goals & Hypotheses
 - **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
