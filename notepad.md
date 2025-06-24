@@ -29,3 +29,6 @@
     4. The healing machine in Elm's lab works.
 
 - Elm's aide stopped me before leaving the lab and gave a speech, but I did not receive an item.
+
+- Fisher at (12, 9) mentioned Prof. Elm discovered new Pokémon.
+- Some trees are of type 'HEADBUTT_TREE', likely interactable with the move Headbutt later.
