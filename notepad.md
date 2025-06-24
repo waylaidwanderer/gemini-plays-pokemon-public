@@ -1,16 +1,19 @@
-# Gem's Strategic Journal (v92 - Post-Reflection)
+# Gem's Strategic Journal (v93 - Post-Critique)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on. An NPC blocking a path that doesn't battle is a hard wall.
-- **WKG & Marker Protocol (v15):**
-    - After any map transition, immediately use the `wkg_manager_agent` to add nodes/edge to WKG. This is mandatory to prevent data entry errors.
+- **WKG & Marker Protocol (v16):**
+    - After any map transition, immediately use the `wkg_builder_agent` to generate the correct JSON payloads for nodes and edges.
+    - Manually call `manage_world_knowledge` with the generated payloads to add the nodes and edge to the WKG. This is mandatory to prevent data entry errors.
+    - Verify if nodes/edges already exist before attempting to add them. Trust the WKG data.
     - Mark the arrival warp with a single, consolidated, descriptive marker (e.g., 'Stairs from 2F (Used)').
 - **Agent Usage:** Use `team_composition_advisor_agent` *before* all major battles. Use `stealth_pathfinder_agent` for all non-trivial navigation. Use agents proactively.
 - **Repeated Failure Protocol:** If a plan fails, recognize the pattern, log it, and pivot to a new strategy instead of wasting turns.
 
 ## II. Hallucination & Correction Log
-- **CRITICAL (T22742, T22763): WKG Data Integrity Failure.** Twice violated the `destination_entry_point` rule. This is a severe lack of diligence. **Lesson:** I MUST use the `wkg_manager_agent` for all future WKG updates and meticulously verify data. No more manual entries.
+- **CRITICAL (T22833-22848): WKG Management Failure.** Wasted 15 turns on a non-existent WKG issue due to repeated user error (improperly formatted agent input). Blamed the tool instead of my own mistake. **Lesson:** I MUST read tool documentation carefully and trust the system's data. I will restore the more powerful `wkg_manager_agent` and learn to use it correctly.
+- **CRITICAL (T22742, T22763): WKG Data Integrity Failure.** Twice violated the `destination_entry_point` rule. This is a severe lack of diligence. **Lesson:** I MUST use an agent for all future WKG updates and meticulously verify data. No more manual entries.
 - **MAJOR (T22612-T22613): Lavender Pokecenter Pathing Hallucination.** Attempted to pathfind in Lavender Town while still inside the Pokémon Center. **Lesson:** ALWAYS verify `map_id` and `current_position` *after* any action intended to change maps.
 - **Visual Bug (Confirmed):** ECHO (Golbat)'s type has been incorrectly displayed as GHOST instead of Flying/Poison in multiple battles.
 
@@ -59,7 +62,8 @@
 - **`battle_advisor_agent` (OPERATIONAL)**
 - **`team_composition_advisor_agent` (OPERATIONAL)**
 - **`exp_tracker_agent` (OPERATIONAL)**
-- **`wkg_manager_agent` (OPERATIONAL - MUST USE)**
+- **`wkg_builder_agent` (OPERATIONAL - Replaced wkg_manager_agent. To be deleted after wkg_manager is restored.)**
 
 ### Future Agent Ideas
 - **`shopping_planner_agent`:** An agent to calculate costs for items (especially TMs) and create shopping lists based on my money and priorities.
+- **Restore `wkg_manager_agent`:** Re-implement the original, more powerful agent and learn to use it correctly, deleting the builder agent once the manager is stable.
