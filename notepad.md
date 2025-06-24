@@ -46,3 +46,6 @@
 ## Reflection Insights (Turn 2236)
 - **Agent Maintenance:** Updated `route_explorer_agent` to recognize `CUT_TREE` as impassable. Created new `battle_strategist` agent to assist with gym battles.
 - **Map Cleanup:** Removed two redundant map markers for signs/NPCs whose information is already in the map data.
+
+## Reflection Insights (Turn 2288)
+- **Input Fumbles:** I wasted a lot of turns trying to nickname my Pidgey. I need to be much more careful and deliberate with my button presses on text input screens to avoid repeating this kind of mistake.
