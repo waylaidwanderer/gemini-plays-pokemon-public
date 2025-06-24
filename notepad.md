@@ -43,6 +43,7 @@
 - **(Future Idea): `shopping_planner_agent`:** To plan TM and item purchases.
 - **(Future Idea): `item_finder_agent`:** To plan paths for collecting all items on a map.
 - **(Future Idea): `healing_route_planner_agent`:** To find the most efficient path to a Pokémon Center.
+
 ### C. Retired / Failed Agents
 - **`battle_advisor_agent` (v1-v5 - DELETED):** Catastrophic failure. Repeatedly failed to grasp fundamental Gen 1 type matchups. Its flawed logic was a direct liability and cause of a party wipe.
 
