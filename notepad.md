@@ -43,3 +43,10 @@
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
 
 - **(Future Idea): `exploration_agent`:** To find the most efficient path to visit all reachable unseen tiles on a map.
+
+## VI. Agent Task Backlog
+
+### `battle_advisor_agent` (CRITICAL FIX)
+- **Problem:** The agent incorrectly identified a trainer battle as a wild encounter, recommending 'Run' instead of fighting.
+- **Root Cause:** The system prompt lacks a clear mechanism to differentiate battle types.
+- **Solution:** Rewrite the system prompt to include an explicit instruction: 'Analyze the `Screen Text` for keywords like "wants to fight!" or "sent out [POKEMON]!" to definitively identify a trainer battle. If these keywords are present, you MUST engage in battle strategy and NEVER recommend running. Apply the Wild Battle Protocol ONLY if these keywords are absent.'
