@@ -23,8 +23,6 @@
 - **Mom's Healing:** Can Mom heal my Pokémon?
 - **Ledge Mechanics:** Are ledges in this ROM hack strictly one-way?
 - **Cherrygrove Mart:** Is the Poké Mart still inaccessible?
-- **Route 29 Shifting Pattern:** Is the shifting on Route 29 truly random, or is there a pattern (time-based, step-based)?
-- **Alternate Paths:** Is there a more stable, alternative route to New Bark Town that I've missed?
 
 ## Failed Hypotheses & Corrected Misconceptions
 
