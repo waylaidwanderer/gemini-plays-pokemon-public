@@ -33,7 +33,7 @@
 - **`exploration_agent` (v1 - FUNCTIONAL):** Logic is sound for finding efficient exploration paths, but its performance is dependent on server stability.
 
 ### B. Agent Development Backlog
-- **(CRITICAL FIX): `wkg_manager_agent` Refinement:** The agent's core logic is flawed. It generates a batch of tool calls that fail due to sequential dependency. Needs to be redesigned to output node/edge data, not pre-formatted tool calls, so I can sequence them correctly.
+- (CRITICAL FIX - IN PROGRESS): `wkg_manager_agent` Refinement: The agent's core logic is critically flawed. It failed to identify existing nodes in the WKG, causing it to propose creating duplicate nodes. This is a major bug. I am now rewriting its system prompt to enforce a more rigorous node-checking procedure before it attempts to add anything. The goal is to make it correctly identify existing nodes and only add an edge if both nodes are found, or add the missing node(s) and then the edge.
 - **(Future Idea): `shopping_planner_agent`:** To plan TM and item purchases.
 - **(Future Idea): `item_finder_agent`:** To plan paths for collecting all items on a map.
 - **(Future Idea): `healing_route_planner_agent`:** To find the most efficient path to a Pokémon Center.
