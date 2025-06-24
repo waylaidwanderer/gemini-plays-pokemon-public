@@ -16,7 +16,6 @@
 
 ## Discoveries & Mechanics
 - Some trees are 'HEADBUTT_TREE' type, likely for the move Headbutt.
-- Elm's lab has a healing machine.
 
 ## World Knowledge & NPCs
 - **Route 29:** The northern path is blocked by one-way ledges. The southern path is blocked by an impassable Youngster at (27, 16) who does not respond to interaction from any angle.
