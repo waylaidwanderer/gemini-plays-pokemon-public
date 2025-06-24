@@ -36,3 +36,5 @@
 - **Buggy Trainer:** Will the Youngster on Route 30 battle me again? His dialogue was strange. (Interact with him again to check)
 - **Hidden Potion:** Is the hidden potion at (14, 9) on Route 30 still there?
 - **Party Composition:** Is my current party of two Pokémon sufficient, or should I catch another for better type coverage?
+
+- **Route 30 Glitch:** Stepping on the floor tile at (7, 49) and then moving right into the tall grass at (8, 49) can trigger a battle in a glitched 'Unknown' map (ID: 0_0). This seems to be a consistent trigger.
