@@ -15,14 +15,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_found\",\"path\"]}",
     "agent_can_run_code": true
   },
-  "world_navigator_agent": {
-    "agent_name": "world_navigator_agent",
-    "agent_description": "Calculates the optimal sequence of maps to traverse to get from a starting map to a destination map, using the World Knowledge Graph.",
-    "agent_system_prompt": "You are a master navigator for a 2D grid-based game. Your task is to determine the sequence of maps a player must travel through to get from a starting map to a destination map. You will be given the start map ID, the destination map ID, and the entire World Knowledge Graph as a JSON string in the `world_knowledge_graph_json_string` variable. You MUST use the `run_code` tool to parse this JSON and treat the graph's nodes (maps) and edges (connections) as a graph data structure. Implement a graph traversal algorithm (like Breadth-First Search) to find the shortest path of map IDs from the start to the destination. Your output must be the sequence of map IDs to follow. If no path exists, you must indicate that.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_map_id\":{\"type\":\"string\"},\"destination_map_id\":{\"type\":\"string\"}},\"required\":[\"start_map_id\",\"destination_map_id\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"map_path\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"path_found\",\"map_path\"]}",
-    "agent_can_run_code": true
-  },
   "shifty_navigator_agent": {
     "agent_name": "shifty_navigator_agent",
     "agent_description": "Analyzes the immediate surroundings on a volatile, shifting map to recommend the best single next step to make progress towards a target coordinate without getting trapped.",
