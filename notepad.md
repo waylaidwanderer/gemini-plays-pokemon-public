@@ -1,17 +1,17 @@
-# Gem's Strategic Journal (v95 - Post-Critique)
+# Gem's Strategic Journal (v96 - Post-Critique)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on. An NPC blocking a path that doesn't battle is a hard wall.
-- **WKG & Marker Protocol (v17 - REVISED):**
-    - The manual, multi-step process for WKG updates is error-prone. A new `wkg_manager_agent` must be developed to handle the entire transaction atomically (add node 1, get ID, add node 2, get ID, add edge with correct IDs).
-    - Until the agent is ready, I must manually perform the WKG update in three separate, sequential turns to ensure correct ID passing.
-    - Mark the arrival warp with a single, consolidated, descriptive marker (e.g., 'Stairs from 2F (Used)').
+- **WKG & Marker Protocol (v18 - REVISED):**
+    - **CRITICAL FLAW IDENTIFIED:** The manual, multi-step process for WKG updates is extremely error-prone and has led to multiple wasted turns. A new `wkg_manager_agent` MUST be developed to handle the entire transaction atomically (add node 1, get ID, add node 2, get ID, add edge with correct IDs). This is my top development priority.
+    - **TEMPORARY WORKAROUND:** Until the agent is ready, I must manually perform the WKG update in three separate, sequential turns, parsing the output of each `add_node` call to retrieve the ID for the subsequent `add_edge` call.
+    - **Marker Diligence:** I must re-issue failed `define_map_marker` calls to ensure critical information (like warp arrival points) is always logged.
 - **Agent Usage:** Use `team_composition_advisor_agent` *before* all major battles. Use `stealth_pathfinder_agent` for all non-trivial navigation. Use agents proactively.
 - **Repeated Failure Protocol:** If a plan fails, recognize the pattern, log it, and pivot to a new strategy instead of wasting turns.
 
 ## II. Hallucination & Correction Log
-- **CRITICAL (T23189): WKG Update Process Failure.** Attempted to add a WKG edge using placeholder IDs instead of the actual IDs returned by the `add_node` calls. This demonstrates a fundamental misunderstanding of the toolchain. **Lesson:** I MUST follow the correct, sequential process for WKG updates until my new `wkg_manager_agent` is built.
+- **CRITICAL (T23189-23201): WKG Management Failure.** Multiple consecutive turns wasted attempting to add WKG nodes/edges due to a flawed understanding of the toolchain (using placeholder IDs, adding existing nodes, providing incomplete payloads). This highlights a severe lack of diligence. **Lesson:** I MUST follow the correct, sequential process for WKG updates and prioritize the development of the `wkg_manager_agent` to automate this.
 - **CRITICAL (T22833-22848): WKG Management Failure.** Wasted 15 turns on a non-existent WKG issue due to repeated user error (improperly formatted agent input). Blamed the tool instead of my own mistake. **Lesson:** I MUST read tool documentation carefully and trust the system's data.
 - **CRITICAL (T22742, T22763): WKG Data Integrity Failure.** Twice violated the `destination_entry_point` rule. This is a severe lack of diligence. **Lesson:** I MUST use an agent for all future WKG updates and meticulously verify data. No more manual entries.
 - **MAJOR (T22612-T22613): Lavender Pokecenter Pathing Hallucination.** Attempted to pathfind in Lavender Town while still inside the Pokémon Center. **Lesson:** ALWAYS verify `map_id` and `current_position` *after* any action intended to change maps.
@@ -23,12 +23,12 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap will not gain actual EXP.
 
 ## IV. Action Plans & Hypotheses
-### Current Plan (v34 - Pokémon Tower 5F Exploration)
+### Current Plan (v35 - Pokémon Tower 5F Exploration)
 *   Objective: Clear the 5th floor and continue ascending the Pokémon Tower.
 *   Method:
     1.  Explore the floor systematically, using the `stealth_pathfinder_agent` to navigate around trainers.
-    2.  Use the `battle_advisor_agent` for all trainer battles.
-    3.  Lead with ECHO or SPARKY depending on the anticipated opponent types.
+    2.  Use the `battle_advisor_agent` for all trainer and wild battles.
+    3.  Lead with a strong Pokémon to handle random encounters more efficiently.
 
 ### Future Plans & Hypotheses
 - **Hypothesis 1 (Celadon Gym):** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
@@ -42,8 +42,7 @@
 - **Non-Battling NPC (Pokémon Tower 2F):** The Channeler at (4,8) is not a trainer and just provides dialogue.
 
 ## VI. Agent Development Plan (Consolidated)
-- **(CRITICAL PRIORITY):** Design and implement a new, robust `wkg_manager_agent`. This agent's purpose is to handle the entire WKG update transaction in a single call, preventing the manual data entry errors I've been making. It needs to be able to call `add_node` twice, capture the returned IDs, and then call `add_edge` with those IDs. This is my top development priority.
-- **(HIGH PRIORITY):** Consolidate the `exp_tracker_agent`'s logic into the `team_composition_advisor_agent`. The team advisor already handles training plans, so adding precise EXP calculation is a natural extension. I will delete the standalone `exp_tracker_agent`.
-- **(Refinement):** The `battle_advisor_agent` needs a prompt update to be more precise about dual-type effectiveness calculations and to always verify Pokémon types from the `player_party` input, not just infer them.
+- **(CRITICAL PRIORITY):** Design and implement a new, robust `wkg_manager_agent`. This agent's purpose is to handle the entire WKG update transaction in a single call, preventing the manual data entry errors I've been making. It needs to be able to call `add_node` twice, capture the returned IDs, and then call `add_edge` with those IDs.
+- **(HIGH PRIORITY):** Consolidate the `exp_tracker_agent`'s logic into the `team_composition_advisor_agent`. The team advisor already handles training plans, so adding precise EXP calculation is a natural extension. I will delete the standalone `exp_tracker_agent` once this is complete.
 - **(Future Idea):** Create a `shopping_planner_agent` to calculate costs for items (especially TMs) and create shopping lists based on my money and priorities.
 - **(Future Idea):** Create an `item_finder_agent` that scans the map XML for Poké Ball sprites and plans a path to collect them, avoiding trainers.
