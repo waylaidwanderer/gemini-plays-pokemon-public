@@ -27,7 +27,7 @@
 - **Alternate Paths:** Is there a more stable, alternative route to New Bark Town that I've missed?
 
 ## Failed Hypotheses & Corrected Misconceptions
-- The Teacher at (15, 11) on Route 29 does not provide information about the shifting tiles. Interaction failed despite being adjacent and facing her.
+
 - Deliberately moving into a tile identified as a 'trap' by the shifty_navigator_agent at (20, 11) does not cause a favorable map shift; it simply results in getting trapped.
 
 ## Completed Objectives & Past Events
