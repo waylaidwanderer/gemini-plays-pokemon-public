@@ -28,6 +28,5 @@
 ## Completed Objectives & Past Events
 - **Youngster Block:** The Youngster at (27, 16) on Route 29 was a temporary obstacle that moved after the Mr. Pokémon quest was initiated.
 - **route_29_solver_agent Failure:** The agent's initial hypothesis that trees ('HEADBUTT_TREE', 'CUT_TREE') are passable was incorrect. I was blocked when I tried to follow its path. The agent was subsequently updated.
-- **route_29_solver_agent Design Flaw:** The agent was fundamentally flawed as it cannot predict map shifts. It was deleted.
 
 - **pathfinder_agent Failure (Turn 1574):** The agent failed to create a valid path because its system prompt did not include 'CUT_TREE' as an impassable tile type. It routed me directly into a tree at (21, 11). This reinforces the need to update ALL relevant agents when new game mechanics are discovered.
