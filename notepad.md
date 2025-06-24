@@ -7,6 +7,13 @@
 - Train Hearth and Periscope to at least Level 10 before challenging the Violet City Gym.
 - Explore the area around Violet City (Sprout Tower) for training opportunities and items.
 
+## Current Plan
+### Route 29 to Cherrygrove City
+1. Get past the Youngster at (27, 16).
+2. Proceed west along the clear path at Y=16.
+3. Enter Cherrygrove City at (1, 6).
+4. Heal Pokémon at the Pokémon Center.
+
 ## Game Mechanics & Quirks
 - **Headbutt Trees:** Some trees are 'HEADBUTT_TREE' type and are impassable.
 - **Dialogue Triggers:** Some dialogues might loop until another specific NPC in the room is spoken to (e.g., Elm's Lab).
@@ -24,7 +31,7 @@
 - **New Bark Town:** A Fisher at (12, 9) mentioned Prof. Elm discovered new Pokémon. A Scientist in Elm's Lab gave me Poké Balls after the Pokémon theft was reported.
 - **Professor Elm:** Tasked me with challenging the Pokémon Gyms, starting with Violet City.
 - **Rival Silver:** Stole a Pokémon from Professor Elm's lab.
-- **Route 29:** A Cooltrainer at (52, 9) offers a Pokémon catching tutorial. He explains that weakening a Pokémon makes it easier to catch.
+- **Route 29:** A Cooltrainer at (52, 9) offers a Pokémon catching tutorial. He explains that weakening a Pokémon makes it easier to catch. The Youngster at (27, 16) gives advice, does not battle.
 
 ## Unverified Assumptions & Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
@@ -36,7 +43,7 @@
 - Delivered the MYSTERY EGG to Professor Elm.
 - Named my rival 'Silver'.
 - Spoke to Mom and arranged for her to save my money.
-- Caught a Sentret on Route 29.
+- Caught a Sentret on Route 29 and named it Periscope.
 
 ## Reflection Notes (Turn 1873)
 - My documentation needs to be kept up-to-date. I'll make sure to move completed tasks to the correct section of my notepad.
