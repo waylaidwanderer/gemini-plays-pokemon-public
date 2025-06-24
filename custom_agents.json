@@ -15,14 +15,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path\"]}",
     "agent_can_run_code": true
   },
-  "map_scout_agent": {
-    "agent_name": "map_scout_agent",
-    "agent_description": "Identifies all reachable 'unknown' tiles on the current map and generates a path to visit them, helping to ensure complete exploration.",
-    "agent_system_prompt": "You are a map scouting expert. Your task is to find all reachable 'unknown' tiles on the current map and generate an efficient path to visit them. You will be given the map layout as an XML string in the `map_xml_string` variable. You must parse this XML to identify the player's current location and all tiles with the type 'unknown'. Using a pathfinding algorithm (like Breadth-First Search from the player's position), determine which of these tiles are reachable. Your output should be a single, continuous path that visits each of these reachable unknown tiles. If no reachable unknown tiles are found, the path should be empty.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {}, \"required\": []}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path\"]}",
-    "agent_can_run_code": true
-  },
   "exploration_agent": {
     "agent_name": "exploration_agent",
     "agent_description": "Generates an efficient path to explore an area. Can be customized to scout for unknown tiles, visit all NPCs and warps, or both.",
