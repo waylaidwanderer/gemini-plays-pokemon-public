@@ -4,12 +4,9 @@
 - **Primary Objective:** Defeat the Violet City Gym Leader.
 
 ## Gym Prep Plan
-- Train Hearth and Periscope to at least Level 10 before challenging the Violet City Gym.
-- Explore the area around Violet City (Sprout Tower) for training opportunities and items.
-
-## Current Plan
-- Finish nicknaming this Pidgey.
-- Continue training on Route 30.
+- Train Hearth, Periscope, and ZEPH to at least Level 10 before challenging the Violet City Gym.
+- Explore Sprout Tower for training and items.
+- Use the `party_synergy_agent` to evaluate my team composition against the Flying-type Gym.
 
 ## Game Mechanics & Quirks
 - **Headbutt Trees:** Some trees are 'HEADBUTT_TREE' type and are impassable.
@@ -19,12 +16,12 @@
 - **Ledge Mechanics:** I can move sideways (left/right) along 'HOP_DOWN' tiles.
 - **Shifting Mazes:** Some routes can have dynamically changing layouts, requiring careful navigation.
 - **Battle Text:** Sometimes battle text can be misleading (e.g. "But it failed!" followed by a successful attack).
-- **Route 30 Glitch:** Stepping on the floor tile at (7, 49) and then moving right into the tall grass at (8, 49) can trigger a battle in a glitched 'Unknown' map (ID: 0_0). This seems to be a consistent trigger.
+- **Route 30 Glitch:** Stepping on the floor tile at (7, 49) and then moving right into the tall grass at (8, 49) can trigger a battle in a glitched 'Unknown' map (ID: 0_0).
 
 ## Agent Performance & Lessons
-- **Trust Agents:** I must trust my agents' calculations over my own intuition, especially for navigation.
+- **Trust Agents:** I must trust my agents' calculations over my own intuition, especially for navigation and battle strategy. I will use my `battle_strategist` in the next trainer battle.
 - **Systematic Updates:** When a new game mechanic or impassable tile type is discovered, ALL relevant agents must be updated immediately.
-- **Input Fumbles:** I have wasted a significant number of turns trying to nickname my Pidgey. I need to be much more careful and deliberate with my button presses on text input screens. If an input fails repeatedly, I must change my approach rather than repeating the same failed action. (Lesson from Turn 2339)
+- **Unresponsive UI:** The nickname screen taught me a valuable lesson. If an input fails repeatedly, I must change my approach (e.g., selecting 'END') rather than repeating the same failed action. It's a UI/input issue, not a game-breaking bug.
 
 ## World Knowledge & NPCs
 - **Professor Elm:** Tasked me with challenging the Pokémon Gyms, starting with Violet City. Has a healing machine in his lab.
@@ -34,10 +31,5 @@
 
 ## Unverified Assumptions & Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
-- **Cherrygrove Mart:** Is the Poké Mart still inaccessible? (Check upon arrival)
-- **Party Composition:** Is my current party (Cyndaquil, Sentret, Pidgey) optimal for the Violet City Gym? I should investigate what other Pokémon are available in this area, specifically looking for Rock or Electric types.
-- **Nickname Screen Bug:** Is the nickname screen bugged and preventing me from entering more letters? (Test by trying to select 'END' if entering 'Y' fails again).
-
-## Reflection Insights (Turn 2339)
-- **Agent Idea:** Create a `party_synergy_agent` to analyze my current party and suggest potential catches in the local area to improve type coverage for upcoming challenges.
-- **Input Strategy:** The nickname screen has been a huge time sink. My repeated attempts to input the same letter have failed. This is a lesson in recognizing unresponsive UI. My next step should be to try a different action (like selecting 'END') to break the loop instead of repeating the failed input.
+- **Cherrygrove Mart:** The Poké Mart is still inaccessible.
+- **Party Composition:** Is my current party optimal for the Violet City Gym? I will use my `party_synergy_agent` to analyze this.
