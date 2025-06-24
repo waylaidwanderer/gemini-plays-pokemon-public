@@ -19,6 +19,7 @@
 - **Ledge Mechanics:** I can move sideways (left/right) along 'HOP_DOWN' tiles.
 - **Shifting Mazes:** Some routes can have dynamically changing layouts, requiring careful navigation.
 - **Battle Text:** Sometimes battle text can be misleading (e.g. "But it failed!" followed by a successful attack).
+- **Route 30 Glitch:** Stepping on the floor tile at (7, 49) and then moving right into the tall grass at (8, 49) can trigger a battle in a glitched 'Unknown' map (ID: 0_0). This seems to be a consistent trigger.
 
 ## Agent Performance & Lessons
 - **Trust Agents:** I must trust my agents' calculations over my own intuition, especially for navigation.
@@ -36,8 +37,6 @@
 - **Buggy Trainer:** Will the Youngster on Route 30 battle me again? His dialogue was strange. (Interact with him again to check)
 - **Hidden Potion:** Is the hidden potion at (14, 9) on Route 30 still there?
 - **Party Composition:** Is my current party of two Pokémon sufficient, or should I catch another for better type coverage?
-
-- **Route 30 Glitch:** Stepping on the floor tile at (7, 49) and then moving right into the tall grass at (8, 49) can trigger a battle in a glitched 'Unknown' map (ID: 0_0). This seems to be a consistent trigger.
 
 ## Reflection Insights (Turn 2184)
 - **Agent Idea:** Consider creating a `battle_strategist` agent that suggests optimal moves and switches based on type matchups.
