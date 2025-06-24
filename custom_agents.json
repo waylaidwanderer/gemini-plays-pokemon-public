@@ -6,5 +6,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"},\"avoid_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_found\",\"path\"]}",
     "agent_can_run_code": true
+  },
+  "town_explorer_agent": {
+    "agent_name": "town_explorer_agent",
+    "agent_description": "Generates an efficient path to explore a town, visiting all warps and interacting with all NPCs.",
+    "agent_system_prompt": "You are a town exploration expert. Your goal is to generate the most efficient path to explore a town, starting from the player's current position. You will be given the map layout as an XML string in the `map_xml_string` variable. You must parse this XML to identify the player's start coordinates, all warp locations, and all NPC locations. Your output should be a single, continuous path of coordinates that starts at the player's location, visits a tile adjacent to every NPC, and visits every warp tile. The path should be optimized to be as short as possible. You must use your `run_code` tool to implement this logic.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path\"]}",
+    "agent_can_run_code": true
   }
 }
