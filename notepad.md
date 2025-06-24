@@ -21,7 +21,6 @@
 - **Youngster Block:** The Youngster at (27, 16) is a temporary obstacle that will move after a future story event is triggered.
 
 ## Agent Development Notes
-- **Consolidate Agents:** The `map_scout_agent` and `town_explorer_agent` have redundant functions. I should merge them into a single, more flexible `exploration_agent`.
 
 ## To-Do & Reminders
 - **Fix Missing Marker:** Re-create the warp marker at (7, 33) on Route 46 as soon as possible.
