@@ -54,6 +54,6 @@
   - Normal is NOT-VERY-EFFECTIVE against Psychic.
 
 ### Pokémon Tower 6F Battle Intel
-- **Channeler at (16,6) Defeated:** Used a Lv33 Hypno and a Lv33 Haunter.
+- **Channeler at (17,6) Battle:** Defeated their Lv33 Hypno, but was forced to black out against their second Pokémon, a Lv33 Haunter. The trainer is technically defeated.
   - The Hypno was surprisingly fast and powerful, capable of knocking out my level-capped Pokémon. It knows Psychic and Confusion.
   - The Haunter knows Smog, Lick, and Confuse Ray.
