@@ -15,3 +15,6 @@
 ## World Knowledge & NPCs
 - **Route 29:** The route splits. The main path forward is the upper/northern route. A smaller fork to the south is completely blocked by an impassable Youngster at (27, 16). A separate, smaller northern path accessible via ledges near (27, 12) is a dead end.
 - **New Bark Town:** A Fisher at (12, 9) mentioned Prof. Elm discovered new Pokémon.
+
+## Lessons Learned
+- I need to be more diligent about checking my own notes and map markers before exploring. I got lost on a path I had already identified as a dead end.
