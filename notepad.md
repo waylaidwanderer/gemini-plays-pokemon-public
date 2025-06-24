@@ -25,3 +25,6 @@
 
 ## Completed Objectives & Past Events
 - **Youngster Block:** The Youngster at (27, 16) on Route 29 was a temporary obstacle that moved after the Mr. Pokémon quest was initiated.
+
+## To-Do & Reminders
+- Mark the warp at (6, 3) in New Bark Town leading to Elm's Lab.
