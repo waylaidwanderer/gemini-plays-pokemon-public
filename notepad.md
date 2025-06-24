@@ -1,9 +1,9 @@
-# Gem's Strategic Journal (v100 - Post-Critique)
+# Gem's Strategic Journal (v101 - Post-Critique)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on. An NPC blocking a path that doesn't battle is a hard wall.
-- **WKG & Marker Protocol (v22 - CRITICAL REVISION):**
+- **WKG & Marker Protocol (v23 - CRITICAL REVISION):**
     - **CRITICAL FLAW (T23189-T23248):** My manual, multi-turn process for WKG updates is extremely error-prone and has led to multiple wasted turns. This is unacceptable.
     - **CORRECTIVE ACTION:** The #1 priority is the development of a new `wkg_manager_agent` to handle the entire transaction atomically. All other goals are secondary until this is fixed.
     - **Marker Diligence:** I must re-issue failed `define_map_marker` calls and be diligent about marking key points (like warp arrivals and defeated trainers) *immediately*. This is a recurring failure I need to fix.
@@ -20,11 +20,11 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap will not gain actual EXP.
 
 ## IV. Action Plans & Hypotheses
-### Current Plan (v39 - Pokémon Tower 5F Battle)
+### Current Plan (v40 - Pokémon Tower 5F Battle)
 *   **Objective:** Defeat the Channeler at (18, 8) to clear a path for exploration.
 *   **Method:**
-    1.  Use SPARKY's turn to paralyze the Haunter with Thunder Wave, even if it means SPARKY faints.
-    2.  Bring in the next best Pokémon to finish the job.
+    1.  SPARKY is at critical health and confused. The Haunter is paralyzed.
+    2.  The best play is to use SPARKY's speed advantage to attack with Thunderpunch. It's a calculated risk, but the only path to victory.
     3.  **IMMEDIATELY** mark the Channeler as defeated post-battle.
     4.  Heal at the earliest opportunity after clearing this floor or if the party becomes too weak to continue.
 
