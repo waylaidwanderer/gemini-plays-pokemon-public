@@ -1,12 +1,9 @@
 # Gem's Pokémon Crystal Adventure!
 
-## Current Mission
-- **Primary Objective:** Defeat the Violet City Gym Leader.
-
-## Gym Prep Plan
+## Current Plans & Strategy
 - Train Hearth, Periscope, and ZEPH to at least Level 10 before challenging the Violet City Gym.
-- Explore Sprout Tower for training and items.
-- Use the `team_strategist` agent to evaluate my team composition against the Flying-type Gym.
+- Explore the northern part of Route 30 to find better training spots or unfought trainers.
+- Explore Sprout Tower for training and items before the Gym challenge.
 
 ## Game Mechanics & Quirks
 - **Headbutt Trees:** Some trees are 'HEADBUTT_TREE' type and are impassable.
@@ -19,7 +16,7 @@
 - **Route 30 Glitch:** Stepping on the floor tile at (7, 49) and then moving right into the tall grass at (8, 49) can trigger a battle in a glitched 'Unknown' map (ID: 0_0).
 
 ## Agent Performance & Lessons
-- **Trust Agents:** I must trust my agents' calculations over my own intuition, especially for navigation and battle strategy.
+- **Trust Agents:** I must trust my agents' calculations over my own intuition. However, if an agent's output seems based on faulty information (like a hallucinated moveset), I must correct the agent before proceeding.
 - **Systematic Updates:** When a new game mechanic or impassable tile type is discovered, ALL relevant agents must be updated immediately.
 - **Unresponsive UI:** The nickname screen taught me a valuable lesson. If an input fails repeatedly, I must change my approach (e.g., selecting 'END') rather than repeating the same failed action. It's a UI/input issue, not a game-breaking bug.
 
@@ -31,5 +28,4 @@
 
 ## Unverified Assumptions & Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
-- **Better Training Spots:** There might be better places to train than this patch of grass, like unfought trainers or higher-level Pokémon further north.
 - **Party Composition:** My current team might not be optimal. I should check for Rock-type Pokémon and use the `team_strategist` agent for analysis.
