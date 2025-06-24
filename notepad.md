@@ -27,3 +27,5 @@
     2. The rival battle will happen upon leaving town.
     3. No special items are needed to reach Mr. Pokémon.
     4. The healing machine in Elm's lab works.
+
+- Received a Potion from Elm's aide before leaving the lab.
