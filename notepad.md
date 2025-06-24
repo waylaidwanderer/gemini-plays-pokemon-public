@@ -41,3 +41,5 @@
 - **LIFT KEY Location:** Dropped by a Rocket Grunt at Rocket Hideout B3F (11, 23).
 - **Giovanni Defeated:** Defeated on Rocket Hideout B4F, dropped the Silph Scope.
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
+
+- **(Future Idea): `exploration_agent`:** To find the most efficient path to visit all reachable unseen tiles on a map.
