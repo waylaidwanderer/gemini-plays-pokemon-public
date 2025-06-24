@@ -35,11 +35,6 @@
 - **Cherrygrove Mart:** Is the Poké Mart still inaccessible? (Check upon arrival)
 - **Cooltrainer Battle:** Does the Cooltrainer on Route 29 battle you after the tutorial? (Talk to him again to verify)
 
-## Reflection Notes (Turn 1976)
-- The shifting maze on Route 29 is a persistent mechanic and requires careful navigation, preferably with an agent.
-- My `path_navigator` agent failed to recognize `CUT_TREE` as an impassable tile. I have updated its system prompt to include it.
-- I need to be more diligent about placing map markers for obstacles as soon as I discover them.
-
 ## Training Strategy
 - To safely train low-level Pokémon like Periscope, lead with a stronger Pokémon (Hearth).
 - Weaken the wild opponent, then switch to the trainee (Periscope) to deliver the final blow and earn EXP.
