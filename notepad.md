@@ -18,11 +18,13 @@
 ## III. Active Plans & Hypotheses
 ### **Current Plan: Pokémon Tower 5F Ascent**
 *   **Hypothesis:** The stairs to 6F are blocked until all trainers on 5F are defeated. The friendly Channeler's healing spot at (13, 9) may also unlock after this condition is met.
-*   **Action Plan:**
-    1.  **Defeat Channeler @ (18, 8):** Currently in battle. SPARKY is poisoned and at low HP. The plan is to use Thunderpunch to deal maximum damage before SPARKY faints.
-    2.  **Defeat Channeler @ (15, 4):** After the current battle, assess party health. If possible, proceed directly to this trainer. Path will need to be calculated.
-    3.  **Defeat Channeler @ (7, 11):** This will be the final trainer. Path will need to be calculated.
-    4.  **Re-evaluate:** After all trainers are defeated, check if the stairs at (19, 10) are now accessible. If not, attempt to access the healing spot at (13, 9) again.
+*   **Action Plan (v2 - Exploration Focus):**
+    1.  **Status:** Channeler at (18, 8) defeated. Party is heavily damaged. Healing spot at (13, 9) and stairs at (19, 10) are inaccessible.
+    2.  **New Hypothesis:** Progress is not tied to defeating all trainers, but to exploring unseen areas. There are 6 reachable unseen tiles.
+    3.  **Action:** Explore the unseen tiles to find a new path, switch, or event trigger.
+        *   **Target 1:** Investigate the unseen tile at (10, 13) by moving to (10, 12).
+        *   **Target 2:** After investigating the west, explore the cluster of unseen tiles in the north: (10, 1), (11, 1), (12, 1), (13, 1), and (14, 2).
+    4.  **Contingency:** If exploration reveals nothing, re-evaluate battling the remaining trainers at (15, 4) and (7, 11).
 
 ### Long-Term Goals & Hypotheses
 - **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
