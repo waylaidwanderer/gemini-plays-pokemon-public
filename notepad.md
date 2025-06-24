@@ -24,3 +24,5 @@
 - **Fix Missing Marker:** Re-create the warp marker at (7, 33) on Route 46 as soon as possible.
 
 - **WKG Data Integrity:** Only record data in the World Knowledge Graph that is directly confirmed from the Game State Information. Do not assume values like `destination_entry_point`.
+
+- **One-Way Paths:** The gatehouse between Route 29 and Route 46 appears to be a one-way path. After exiting into Route 29, the door becomes a wall.
