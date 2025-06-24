@@ -42,3 +42,7 @@
 - **Agent Idea:** Consider creating a `battle_strategist` agent that suggests optimal moves and switches based on type matchups.
 - **Party Strategy:** My current two-Pokémon team might be insufficient for the gym. I should consider catching a flying-type Pokémon like Hoothoot for better type coverage against bug-types.
 - **Glitch Testing:** The glitch warp at (7, 49) needs more testing to confirm its behavior is consistent.
+
+## Reflection Insights (Turn 2236)
+- **Agent Maintenance:** Updated `route_explorer_agent` to recognize `CUT_TREE` as impassable. Created new `battle_strategist` agent to assist with gym battles.
+- **Map Cleanup:** Removed two redundant map markers for signs/NPCs whose information is already in the map data.
