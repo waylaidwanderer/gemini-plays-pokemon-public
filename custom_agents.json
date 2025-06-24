@@ -14,13 +14,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"direction\":{\"type\":\"string\",\"enum\":[\"north\",\"south\",\"east\",\"west\"]}},\"required\":[\"start_x\",\"start_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_found\",\"path\"]}",
     "agent_can_run_code": true
-  },
-  "maze_solver_agent": {
-    "agent_name": "maze_solver_agent",
-    "agent_description": "Calculates a multi-step path through the shifting maze of Route 29, prioritizing eastward movement and avoiding known traps.",
-    "agent_system_prompt": "You are a master navigator specializing in dynamic, shifting mazes. Your task is to find a short, safe, multi-step path from a starting coordinate towards an ultimate target coordinate. The primary goal is to make consistent progress towards the target's x-coordinate. You will be given the map layout as an XML string in the `map_xml_string` variable. You MUST use the `run_code` tool to parse this XML and implement a pathfinding algorithm (like Breadth-First Search or A*) to find a path. The path should be a sequence of coordinates. Unwalkable tiles include 'impassable', 'WALL', 'HEADBUTT_TREE', and any tile with an `<Object>` tag. A list of known trap coordinates will be provided in `avoid_coordinates` and must be treated as impassable. Your path should prioritize moving right (east). A path is considered 'safe' if it does not end in a trap. A 'trap' is a tile from which all valid, non-backtracking moves are blocked. Your final output must be a sequence of moves that leads to a safe tile and makes overall progress east.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"},\"avoid_coordinates\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_found\",\"path\"]}",
-    "agent_can_run_code": true
   }
 }
