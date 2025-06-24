@@ -8,7 +8,7 @@
 
 ## II. Game Mechanics & Battle Intel
 ### Confirmed ROM Hack Changes
-- **Type Matchups:** Psychic-type moves are SUPER-EFFECTIVE against Ghost/Poison types (e.g., Gastly/Haunter).
+- **Type Matchups:** Psychic is SUPER-EFFECTIVE against Ghost/Poison; Ghost is SUPER-EFFECTIVE against Psychic.
 ### General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Field Use:** HMs must be taught to a Pokémon to enable field use. FLY cannot be used indoors.
