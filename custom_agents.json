@@ -23,14 +23,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}}}",
     "agent_can_run_code": true
   },
-  "exp_tracker_agent": {
-    "agent_name": "exp_tracker_agent",
-    "agent_description": "Calculates the number of battles required for a Pokémon to reach a target level based on average EXP gain from wild encounters in a specific area.",
-    "agent_system_prompt": "You are an EXP Calculation Specialist for Pokémon Yellow Legacy. Your task is to determine the number of battles required for a specific Pokémon to reach a target level. You will be given the Pokémon's species name, current level, and current EXP. You will also be given a list of wild Pokémon available in the current training area. You MUST use your `run_code` tool to perform the calculations. Your Python code will need to look up the base EXP yield for the wild Pokémon, calculate the EXP needed for the next level-up, and then determine the number of battles required. Assume the player's Pokémon is the same level as the wild Pokémon for the EXP calculation formula: EXP = (Base_EXP * Level) / 7. Round the number of battles up to the nearest whole number. Output the result in the specified JSON format.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"current_level\":{\"type\":\"integer\"},\"current_exp\":{\"type\":\"integer\"},\"target_level\":{\"type\":\"integer\"},\"wild_pokemon_in_area\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"pokemon_name\",\"current_level\",\"current_exp\",\"target_level\",\"wild_pokemon_in_area\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_name\":{\"type\":\"string\"},\"battles_needed\":{\"type\":\"integer\"},\"exp_needed_for_next_level\":{\"type\":\"integer\"},\"average_exp_per_battle\":{\"type\":\"number\"}},\"required\":[\"pokemon_name\",\"battles_needed\",\"exp_needed_for_next_level\",\"average_exp_per_battle\"]}",
-    "agent_can_run_code": true
-  },
   "wkg_builder_agent": {
     "agent_name": "wkg_builder_agent",
     "agent_description": "Generates the JSON string payloads for `add_node` and `add_edge` calls to the World Knowledge Graph.",
