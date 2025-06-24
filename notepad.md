@@ -25,3 +25,5 @@
 
 ## To-Do & Reminders
 - **WKG Data Integrity:** Only record data in the World Knowledge Graph that is directly confirmed from the Game State Information. Do not assume values like `destination_entry_point`.
+
+- **Shifting Route:** Route 29 appears to be a dynamic map where tiles change every few steps, requiring constant re-routing.
