@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v115 - Agent Refinement)
+# Gem's Strategic Journal (v116 - Reflection & Cleanup)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -18,7 +18,7 @@
 
 ## III. Active Plans & Hypotheses
 ### **Current Plan: Pokémon Tower 6F**
-1.  **Situation:** On Pokémon Tower 6F, in battle with a Channeler.
+1.  **Situation:** On Pokémon Tower 6F, in a critical battle with a Channeler's Drowzee.
 2.  **Action Plan:** Defeat the Channeler, then continue exploring the floor to find the stairs to 7F.
 
 ### Long-Term Goals & Hypotheses
@@ -27,7 +27,11 @@
 - **Snorlax (Route 16):** Requires the Poké Flute. Mr. Fuji is the most likely source after he is rescued from the Pokémon Tower.
 
 ## IV. Agent Development Pipeline
-- **(COMPLETE): `stealth_pathfinder_agent` Refinement:** The agent's system prompt has been completely rewritten with more explicit instructions. It has successfully found a complex path it previously failed, confirming the fix. The agent is now considered reliable for navigation.
+### Completed Agent Refinements
+- **`stealth_pathfinder_agent` (v2 - RELIABLE):** The agent's system prompt has been completely rewritten with more explicit instructions. It has successfully found a complex path it previously failed, confirming the fix. The agent is now considered reliable for navigation.
+- **`battle_advisor_agent` (v4 - COMPLETE):** The agent repeatedly struggled to differentiate battle types and understand Gen 1 type matchups (specifically Poison's weakness to Psychic). After multiple failed prompt updates, the logic was successfully hardened by adding a required `is_trainer_battle` boolean flag and forcefully correcting the type chart in its system prompt. It is now considered reliable.
+
+### Agent Task Backlog
 - **(CRITICAL FIX): `wkg_manager_agent` Refinement:** The agent's core logic is flawed. It generates a batch of tool calls that fail due to sequential dependency. It needs to be redesigned to output node/edge data, not pre-formatted tool calls, so I can sequence them correctly.
 - **(Future Idea): `shopping_planner_agent`:** To plan TM and item purchases.
 - **(Future Idea): `item_finder_agent`:** To plan paths for collecting all items on a map.
@@ -37,10 +41,3 @@
 - **LIFT KEY Location:** Dropped by a Rocket Grunt at Rocket Hideout B3F (11, 23).
 - **Giovanni Defeated:** Defeated on Rocket Hideout B4F, dropped the Silph Scope.
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
-
-## VI. Agent Task Backlog
-
-### `battle_advisor_agent` (COMPLETE - v3)
-- **Problem:** The agent struggled to differentiate between wild and trainer battles, leading to incorrect run/fight recommendations.
-- **Root Cause:** The logic for identifying battle type was weak and relied on fallible text analysis.
-- **Solution:** The agent has been successfully redesigned. It now requires a boolean `is_trainer_battle` input, which acts as the absolute source of truth. The system prompt has been updated to strictly enforce that the agent CANNOT recommend running if this flag is true. This has proven to be a robust and reliable fix.
