@@ -26,15 +26,15 @@
 ### Current Plan (v33 - Pokémon Tower Training Arc)
 *   **Phase 1: Team Assembly (COMPLETE)**
     *   Objective: Withdraw PHANTOM (Gastly) and SPOONBENDE (Abra) for training.
-*   **Phase 2: SPOONBENDE (Abra) Training**
+*   **Phase 2: SPOONBENDE (Abra) Evolution (COMPLETE)**
     *   Objective: Evolve Abra into Kadabra and learn Confusion.
-    *   Location: Pokémon Tower (lower floors for weaker ghosts).
+    *   Status: **SUCCESS!** SPOONBENDE evolved into Kadabra at Lv. 16 and learned Confusion after a single switch-trained battle. This is a massive power spike.
+*   **Phase 3: Ascend Pokémon Tower (Revised)**
+    *   Objective: Clear the remaining trainers and reach the top of the tower.
     *   Method:
-        1.  Place SPOONBENDE at the front of the party.
-        2.  Enter a battle with a wild Gastly.
-        3.  Immediately switch to a stronger Pokémon to defeat the opponent.
-        4.  Use `exp_tracker_agent` to calculate battles needed to reach Lv. 16. (Result: ~45 battles vs. Gastly)
-        5.  Repeat until SPOONBENDE evolves and learns Confusion.
+        1.  Lead with SPOONBENDE (Kadabra) to take advantage of its new Psychic STAB move, Confusion, which is super-effective against the Gastly line.
+        2.  Systematically clear each floor, using the `battle_advisor_agent` for all trainer battles.
+        3.  The previous plan to train SUBTERRA and PHANTOM separately is now deprecated. It's more efficient to ascend the tower with my current powerful team.
 *   **Phase 3: Team Leveling (Post-Abra)**
     *   Objective: Level up key Pokémon for the rest of the tower.
     *   Locations & Targets:
