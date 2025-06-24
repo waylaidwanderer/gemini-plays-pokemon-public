@@ -3,15 +3,11 @@
 ## Game Plan & Strategy
 - My current long-term goal.
 
-## My Pokémon Team
-- Hearth (Cyndaquil)
-
 ## Discoveries & Mechanics
 - Notes on how different tile types work.
 - Any unique game mechanics I discover.
 
 ## Pokémon Info
-- My current team.
 - Interesting movesets seen on wild or trainer Pokémon.
 
 ## Trainer Battle Log
