@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v102 - Post-Reflection)
+# Gem's Strategic Journal (v103 - Post-Correction)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
@@ -17,7 +17,7 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap will not gain actual EXP.
 
 ## III. Action Plans & Hypotheses
-### Current Plan (v41 - Pokémon Tower Team Assembly)
+### Current Plan (v42 - Pokémon Tower Team Assembly)
 *   **Objective:** Assemble the new team recommended by the `team_composition_advisor_agent`.
 *   **Method:**
     1.  Use the PC in the Lavender Town Pokémon Center.
