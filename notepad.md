@@ -59,3 +59,6 @@
   - The Haunter knows Smog, Lick, and Confuse Ray.
 
 - Pokémon Tower 5F has a high wild encounter rate. Be prepared to run frequently.
+
+## Critical Oversights & Lessons
+- **Poké Ball Stock:** I encountered a wild Cubone (a catch target) and had ZERO Poké Balls. I must always maintain a healthy stock of Poké Balls to avoid missing rare encounters. This was a major failure in preparation.
