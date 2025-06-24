@@ -15,7 +15,6 @@
 ## Agent Performance & Lessons
 - **Trust Agents:** I must trust my agents' calculations over my own intuition, especially when they suggest a counter-intuitive path.
 - **Systematic Updates:** When a new game mechanic is discovered (e.g., an impassable tile type), ALL relevant agents must be updated immediately to prevent repeated errors.
-- **shifty_navigator_agent:** This agent is essential for Route 29 but has limitations. It can get stuck in loops by recommending the same back-and-forth movements. Giving it an `avoid_coordinates` list helps, but it is fundamentally a single-step planner.
 
 ## World Knowledge & NPCs
 - **New Bark Town:** A Fisher at (12, 9) mentioned Prof. Elm discovered new Pokémon.
