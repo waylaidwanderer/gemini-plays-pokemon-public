@@ -24,11 +24,38 @@
     - Poison-type moves are 'not very effective' against Flying/Poison types (Acid vs. Golbat).
 
 ## IV. Action Plans & Hypotheses
-### Current Plan (v31 - The Training Arc)
-1.  Assemble the training team (SUBTERRA, SPOONBENDE, IGNIS, NIGHTSHADE, SPARKY, ECHO) at the Lavender PC.
-2.  Train SPOONBENDE (Abra) in Pokémon Tower until it evolves and learns Confusion.
-3.  Fly to Vermilion and train SUBTERRA (Diglett) and IGNIS (Vulpix) on Route 11.
-4.  Re-ascend Pokémon Tower with the newly trained team.
+### Current Plan (v32 - Pokémon Tower Training Arc)
+*   **Phase 1: Team Assembly (Lavender PC)**
+    *   Objective: Withdraw PHANTOM (Gastly) and assemble the ideal training party.
+    *   Steps:
+        1.  Navigate to the PC at (14, 4).
+        2.  Interact with the PC.
+        3.  Access 'BILL'S PC'.
+        4.  Withdraw PHANTOM.
+        5.  Deposit a current party member to make space (probably SPOONBENDE for now since it can't fight yet).
+        6.  Exit the PC menu.
+*   **Phase 2: SPOONBENDE (Abra) Training**
+    *   Objective: Evolve Abra into Kadabra and learn Confusion.
+    *   Location: Pokémon Tower (lower floors for weaker ghosts).
+    *   Method:
+        1.  Place SPOONBENDE at the front of the party.
+        2.  Enter a battle.
+        3.  Immediately switch to a stronger Pokémon (like ECHO or SPARKY) to defeat the wild Gastly.
+        4.  Repeat until SPOONBENDE reaches Lv. 16 and evolves.
+        5.  Once evolved, Kadabra will learn Confusion.
+*   **Phase 3: Team Leveling (Post-Abra)**
+    *   Objective: Level up key Pokémon for the rest of the tower.
+    *   Locations & Targets:
+        *   SUBTERRA (Diglett) & IGNIS (Charmander): Train on Route 11 against Drowzee and Diglett.
+        *   PHANTOM (Gastly): Train in Pokémon Tower.
+    *   Method:
+        1.  Fly to Vermilion City.
+        2.  Travel to Route 11.
+        3.  Grind battles until target levels are reached (approx. Lv 25-30 for all).
+*   **Phase 4: Re-ascend Pokémon Tower**
+    *   Objective: Clear the remaining trainers and reach the top of the tower.
+    *   Team: The newly leveled team.
+    *   Method: Systematically clear each floor, using the `battle_advisor_agent` for all trainer battles.
 ### Future Plans & Hypotheses
 - **Hypothesis 1 (Celadon Gym):** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
 - **Hypothesis 2 (Thirsty Guards):** Need to test if giving a guard a drink (e.g., Fresh Water) will grant passage.
