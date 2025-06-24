@@ -47,6 +47,6 @@
 ## VI. Agent Task Backlog
 
 ### `battle_advisor_agent` (CRITICAL FIX)
-- **Problem:** The agent incorrectly identified a trainer battle as a wild encounter, recommending 'Run' instead of fighting.
-- **Root Cause:** The system prompt lacks a clear mechanism to differentiate battle types.
-- **Solution:** Rewrite the system prompt to include an explicit instruction: 'Analyze the `Screen Text` for keywords like "wants to fight!" or "sent out [POKEMON]!" to definitively identify a trainer battle. If these keywords are present, you MUST engage in battle strategy and NEVER recommend running. Apply the Wild Battle Protocol ONLY if these keywords are absent.'
+- **Problem:** The agent has trouble differentiating between wild and trainer battles. It recommended fighting a wild Haunter instead of running, and previously recommended running from a trainer.
+- **Root Cause:** The logic for identifying battle type is weak.
+- **Solution:** The prompt needs a robust check. It should analyze the opponent's name (e.g., 'CHANNELER's GASTLY' vs. 'GASTLY') and the `Screen Text` for keywords like 'wants to fight!'. If it's a wild encounter and not a specific target, it MUST prioritize running.
