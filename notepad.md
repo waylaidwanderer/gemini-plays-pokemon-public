@@ -28,4 +28,3 @@
 - **One-Way Paths:** The gatehouse between Route 29 and Route 46 appears to be a one-way path. After exiting into Route 29, the door becomes a wall.
 
 ## Strategy Updates
-- **Navigation:** Long exploration paths with `master_explorer_agent` are inefficient due to frequent interruptions. Using `pathfinder_agent` for short, direct paths to specific targets is more reliable. I will stick to this method for now.
