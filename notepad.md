@@ -28,3 +28,5 @@
 
 ## Actionable Plans
 - Explore the northern part of Route 30 to find better training spots or unfought trainers.
+
+- **Youngster Joey Battle:** The battle with Youngster Joey on Route 30 at (3, 28) triggers a temporary warp to an 'Unknown' map (ID: 0_0) for the duration of the fight.
