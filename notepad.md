@@ -54,3 +54,5 @@
 - **PC Glitch Workaround:** Selecting 'Gem's PC' is bugged and unusable. The correct and reliable method to access Pokémon Storage is to select 'BILL's PC' from the main menu.
 
 - **Pokémon Tower 5F Healing Spot (13, 9) is FAKE:** The Channeler offers dialogue but does NOT heal the party. Do not rely on this spot.
+
+  - Bite (Normal) is SUPER-EFFECTIVE against Psychic.
