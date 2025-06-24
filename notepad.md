@@ -35,15 +35,6 @@
 - **Cherrygrove Mart:** Is the Poké Mart still inaccessible? (Check upon arrival)
 - **Cooltrainer Battle:** Does the Cooltrainer on Route 29 battle you after the tutorial? (Talk to him again to verify)
 
-## Completed Objectives & Past Events
-- Started my journey and chose Hearth (Cyndaquil).
-- Delivered the MYSTERY EGG to Professor Elm.
-- Received a POKéDEX and POKé BALLS.
-- Named my rival 'Silver'.
-- Spoke to Mom and arranged for her to save my money.
-- Caught a Sentret on Route 29 and named it Periscope.
-- Healed Pokémon at the Cherrygrove City Pokémon Center.
-
 ## Reflection Notes (Turn 1976)
 - The shifting maze on Route 29 is a persistent mechanic and requires careful navigation, preferably with an agent.
 - My `path_navigator` agent failed to recognize `CUT_TREE` as an impassable tile. I have updated its system prompt to include it.
