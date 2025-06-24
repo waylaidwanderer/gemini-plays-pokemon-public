@@ -1,79 +1,65 @@
-# Gem's Strategic Journal (v91 - Process Cleanup)
+# Gem's Strategic Journal (v92 - Post-Reflection)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on. An NPC blocking a path that doesn't battle is a hard wall.
-- **WKG & Marker Protocol (v14):**
-    - After any map transition, immediately add nodes/edge to WKG. Mark the arrival warp with a single, consolidated, descriptive marker (e.g., 'Stairs from 2F (Used)').
-    - **WKG `destination_entry_point` Rule:** The `destination_entry_point` for an edge MUST correspond to the 1-indexed `entry_point` of the arrival warp on the destination map, as listed in the Game State Information. ALWAYS verify this before creating an edge.
-- **Agent Usage:** Use `team_composition_advisor_agent` *before* all major battles. Use `stealth_pathfinder_agent` for all non-trivial navigation to avoid accidental trainer battles.
-- **Repeated Failure Protocol:** If a plan or hypothesis fails repeatedly (e.g., notepad edits, trying to battle a non-hostile NPC), recognize the pattern, log it, and pivot to a new strategy instead of wasting turns.
+- **WKG & Marker Protocol (v15):**
+    - After any map transition, immediately use the `wkg_manager_agent` to add nodes/edge to WKG. This is mandatory to prevent data entry errors.
+    - Mark the arrival warp with a single, consolidated, descriptive marker (e.g., 'Stairs from 2F (Used)').
+- **Agent Usage:** Use `team_composition_advisor_agent` *before* all major battles. Use `stealth_pathfinder_agent` for all non-trivial navigation. Use agents proactively.
+- **Repeated Failure Protocol:** If a plan fails, recognize the pattern, log it, and pivot to a new strategy instead of wasting turns.
 
 ## II. Hallucination & Correction Log
-- **MAJOR (T22612-T22613): Lavender Pokecenter Pathing Hallucination.** Attempted to pathfind in Lavender Town while still inside the Pokémon Center (map_id 141). Blocked by an impassable tile. **Lesson:** ALWAYS verify `map_id` and `current_position` *after* any action intended to change maps, especially after using 'path'.
-- **MAJOR (T22035-T22134): Rocket Hideout & Game Corner Hallucinations.** Repeatedly believed I had successfully changed maps when I had not. **Lesson:** ALWAYS verify `map_id` and `current_position` from Game State Info *after* any warp attempt.
-- **CRITICAL (T22304-T22330, T22477-T22485):** System repeatedly corrected me on reachable unseen tiles in the Pokémon Tower. I must trust the game state data over my own perception of the map.
-- **CRITICAL (T22742): WKG Data Integrity Failure.** Violated my own WKG `destination_entry_point` rule by attempting to create an edge with an incorrect entry point (`2` instead of the correct `1`). **Lesson:** I must be more diligent and ALWAYS verify the `destination_entry_point` from the Game State Information of the arrival turn before creating any edge. No exceptions.
+- **CRITICAL (T22742, T22763): WKG Data Integrity Failure.** Twice violated the `destination_entry_point` rule. This is a severe lack of diligence. **Lesson:** I MUST use the `wkg_manager_agent` for all future WKG updates and meticulously verify data. No more manual entries.
+- **MAJOR (T22612-T22613): Lavender Pokecenter Pathing Hallucination.** Attempted to pathfind in Lavender Town while still inside the Pokémon Center. **Lesson:** ALWAYS verify `map_id` and `current_position` *after* any action intended to change maps.
 - **Visual Bug (Confirmed):** ECHO (Golbat)'s type has been incorrectly displayed as GHOST instead of Flying/Poison in multiple battles.
 
 ## III. Game Mechanics & Battle Intel
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Field Use:** HMs MUST be taught to a compatible Pokémon to enable their field use. FLY cannot be used indoors.
-- **EXP. All:** Can be obtained from the NPC that gives the item without any special requirements. It must still be activated from the inventory to take effect. It distributes EXP to all non-fainted party members, and Pokémon at the level cap will not gain actual EXP.
-- **Type Effectiveness (Confirmed):**
-    - Poison-type moves are 'not very effective' against Flying/Poison types (Acid vs. Golbat).
+- **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap will not gain actual EXP.
 
 ## IV. Action Plans & Hypotheses
-### Current Plan (v32 - Pokémon Tower Training Arc)
-*   **Phase 1: Team Assembly (Lavender PC)**
-    *   Objective: Withdraw PHANTOM (Gastly) and assemble the ideal training party.
-    *   Steps:
-        1.  Navigate to the PC at (14, 4).
-        2.  Interact with the PC.
-        3.  Access 'BILL'S PC'.
-        4.  Withdraw PHANTOM.
-        5.  Deposit a current party member to make space (probably SPOONBENDE for now since it can't fight yet).
-        6.  Exit the PC menu.
+### Current Plan (v33 - Pokémon Tower Training Arc)
+*   **Phase 1: Team Assembly (COMPLETE)**
+    *   Objective: Withdraw PHANTOM (Gastly) and SPOONBENDE (Abra) for training.
 *   **Phase 2: SPOONBENDE (Abra) Training**
     *   Objective: Evolve Abra into Kadabra and learn Confusion.
     *   Location: Pokémon Tower (lower floors for weaker ghosts).
     *   Method:
         1.  Place SPOONBENDE at the front of the party.
-        2.  Enter a battle.
-        3.  Immediately switch to a stronger Pokémon (like ECHO or SPARKY) to defeat the wild Gastly.
-        4.  Repeat until SPOONBENDE reaches Lv. 16 and evolves.
-        5.  Once evolved, Kadabra will learn Confusion.
+        2.  Enter a battle with a wild Gastly.
+        3.  Immediately switch to a stronger Pokémon to defeat the opponent.
+        4.  Use `exp_tracker_agent` to calculate battles needed to reach Lv. 16.
+        5.  Repeat until SPOONBENDE evolves and learns Confusion.
 *   **Phase 3: Team Leveling (Post-Abra)**
     *   Objective: Level up key Pokémon for the rest of the tower.
     *   Locations & Targets:
-        *   SUBTERRA (Diglett) & IGNIS (Charmander): Train on Route 11 against Drowzee and Diglett.
+        *   SUBTERRA (Diglett): Train on Route 11 against Drowzee and Diglett.
         *   PHANTOM (Gastly): Train in Pokémon Tower.
-    *   Method:
-        1.  Fly to Vermilion City.
-        2.  Travel to Route 11.
-        3.  Grind battles until target levels are reached (approx. Lv 25-30 for all).
+    *   Method: Use `exp_tracker_agent` to plan grinding sessions efficiently.
 *   **Phase 4: Re-ascend Pokémon Tower**
     *   Objective: Clear the remaining trainers and reach the top of the tower.
     *   Team: The newly leveled team.
     *   Method: Systematically clear each floor, using the `battle_advisor_agent` for all trainer battles.
+
 ### Future Plans & Hypotheses
 - **Hypothesis 1 (Celadon Gym):** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
-- **Hypothesis 2 (Thirsty Guards):** Need to test if giving a guard a drink (e.g., Fresh Water) will grant passage.
-- **Hypothesis 3 (Snorlax):** The Snorlax on Route 16 requires the Poké Flute to be moved.
+- **Hypothesis 2 (Thirsty Guards):** Need to test if giving a guard a drink (e.g., Fresh Water) will grant passage to Saffron City.
+- **Hypothesis 3 (Snorlax):** The Snorlax on Route 16 requires the Poké Flute. Mr. Fuji is the most likely source after he is rescued from the Pokémon Tower.
 
 ## V. Completed Intel & Disproven Hypotheses
 - **LIFT KEY Location:** Dropped by a non-battling Rocket Grunt at Rocket Hideout B3F (11, 23).
 - **Giovanni Defeated:** Defeated Giovanni on Rocket Hideout B4F. He dropped the Silph Scope.
-- **Defeat Mechanic (Rocket Hideout):** Losing a battle in the hideout does not send you back to the Pokémon Center.
-- **Spinner Maze Mapping (B2F & B3F):** All spinners on these floors have been manually mapped and solved.
 - **Rival Pixel Defeated:** Defeated Pixel on Pokémon Tower 2F.
+- **Non-Battling NPC (Pokémon Tower 2F):** The Channeler at (4,8) is not a trainer and just provides dialogue.
 
 ## VI. Agent Status & Refinement Log
-- **`stealth_pathfinder_agent` (OPERATIONAL - REFINED v2):** Successfully refined to handle non-trainer NPCs correctly. It now only treats explicitly listed `trainers` as having a line of sight.
-- **`battle_advisor_agent` (OPERATIONAL - REFINED):** Successfully refined to handle statefulness by adding a `previous_player_action` input. It no longer recommends switching immediately after a switch-in and provides excellent tactical advice. It is now a primary tool for all battles.
-- **`team_composition_advisor_agent` (OPERATIONAL):** Provided the crucial new strategy for the Pokémon Tower. Must be used before all future major encounters.
-- **`exp_tracker_agent` (OPERATIONAL - NEW):** Successfully created for tracking EXP requirements.
+- **`stealth_pathfinder_agent` (OPERATIONAL)**
+- **`battle_advisor_agent` (OPERATIONAL)**
+- **`team_composition_advisor_agent` (OPERATIONAL)**
+- **`exp_tracker_agent` (OPERATIONAL)**
+- **`wkg_manager_agent` (OPERATIONAL - MUST USE)**
 
 ### Future Agent Ideas
-
 - **`shopping_planner_agent`:** An agent to calculate costs for items (especially TMs) and create shopping lists based on my money and priorities.
