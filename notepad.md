@@ -45,3 +45,10 @@
 - **LIFT KEY Location:** Dropped by a Rocket Grunt at Rocket Hideout B3F (11, 23).
 - **Giovanni Defeated:** Defeated on Rocket Hideout B4F, dropped the Silph Scope.
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
+
+### **PC Glitch Investigation**
+- **Bug:** Selecting "Gem's PC" leads to the "Item Storage System" after the "Accessed my PC." message appears.
+- **Failed Hypotheses:**
+    1. Repeatedly selecting "Gem's PC" does not work.
+    2. Logging out of the PC entirely and re-engaging does not fix the issue.
+- **New Hypothesis:** After the "Accessed my PC." message appears, press 'B' instead of 'A' to see if it bypasses the glitch and enters the Pokémon Storage.
