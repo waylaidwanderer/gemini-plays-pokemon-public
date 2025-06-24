@@ -36,4 +36,4 @@
 - **route_29_solver_agent Design Flaw:** The agent was fundamentally flawed as it cannot predict map shifts. It was deleted.
 
 ## Failed Strategies & Dead Ends
-- **Route 29 Ledge Trap:** Jumping the ledge at (16, 11) leads to a dead end at (16, 12), where it appears I am completely trapped. This strategy is a failure.
+- **Ledge Mechanics:** Discovered I can move sideways (left/right) along 'HOP_DOWN' tiles on Route 29. The ledge at (16, 11) is not a trap.
