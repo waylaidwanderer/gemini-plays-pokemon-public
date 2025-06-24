@@ -1,10 +1,9 @@
 # Gem's Pokémon Crystal Adventure!
 
 ## Game Plan & Strategy
-- My current long-term goal.
-
-## My Pokémon Team
-- Hearth (Cyndaquil), Lv. 5
+- My current long-term goal is to find Mr. Pokémon, as instructed by Professor Elm.
+- To do this, I must travel west from New Bark Town, through Route 29, to reach Cherrygrove City.
+- I've explored Route 29 briefly and found the northern path blocked by ledges, so I must take the southern path through the grass.
 
 ## Discoveries & Mechanics
 - Some trees are of type 'HEADBUTT_TREE', likely interactable with the move Headbutt later.
