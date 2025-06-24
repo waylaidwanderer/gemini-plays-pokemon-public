@@ -31,7 +31,7 @@
 - **Snorlax (Route 16):** Requires the Poké Flute. Mr. Fuji is the most likely source after he is rescued from the Pokémon Tower.
 
 ## IV. Agent Development Pipeline
-- **(TOP PRIORITY): `stealth_pathfinder_agent` Refinement:** The agent is repeatedly hallucinating that the map is partitioned and failing to find simple, valid paths within the same area. This is a critical failure. My immediate plan is to test it with a one-step path. If it fails, I must rewrite its system prompt to be more robust before I can trust it for any navigation.
+- **(COMPLETE): `stealth_pathfinder_agent` Refinement:** The agent's system prompt has been completely rewritten with more explicit instructions. It has successfully found a complex path it previously failed, confirming the fix. The agent is now considered reliable for navigation.
 - **(HIGH PRIORITY): `wkg_manager_agent` Refinement:** The agent repeatedly fails to create valid payloads. It must be fixed to ensure WKG accuracy.
 - **(Future Idea): `shopping_planner_agent`:** To plan TM and item purchases.
 - **(Future Idea): `item_finder_agent`:** To plan paths for collecting all items on a map.
