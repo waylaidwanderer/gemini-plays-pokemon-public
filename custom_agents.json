@@ -1,10 +1,1 @@
-{
-  "pathfinding_agent": {
-    "agent_name": "pathfinding_agent",
-    "agent_description": "Calculates the shortest path between two points on the current map, avoiding impassable obstacles.",
-    "agent_system_prompt": "You are a pathfinding expert. Given a starting coordinate, an ending coordinate, and the map's XML data, you must calculate the shortest valid path. Your output should be a list of coordinates, starting with the start coordinate and ending with the end coordinate. The path must only consist of 'ground' or 'floor' tiles. You must use the A* algorithm for pathfinding. The map XML is provided in the `map_xml_string` variable. You have a code interpreter to execute the pathfinding algorithm.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}}}",
-    "agent_can_run_code": true
-  }
-}
+{}
