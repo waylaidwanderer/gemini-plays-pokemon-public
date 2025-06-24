@@ -31,3 +31,6 @@
 
 ## Bugs & Glitches
 - The trainer battle with the Youngster at (5, 26) on Route 30 was buggy. It got stuck in a dialogue loop and then ended abruptly by moving my character. If this happens again, I should try moving the cursor in the battle menu as a diagnostic step.
+
+## Game Mechanics & Quirks
+- Wild encounters can be triggered on 'FLOOR' tiles if they are adjacent to 'TALL_GRASS' tiles. (Observed on Route 30 at (11, 23)).
