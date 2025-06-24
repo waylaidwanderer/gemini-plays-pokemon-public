@@ -3,6 +3,9 @@
 ## Game Plan & Strategy
 - My current long-term goal.
 
+## My Pokémon Team
+- Hearth (Cyndaquil)
+
 ## Discoveries & Mechanics
 - Notes on how different tile types work.
 - Any unique game mechanics I discover.
@@ -18,13 +21,13 @@
 - Important NPC dialogue.
 - Obstacles and how to overcome them.
 
-## Reflection (Turn 51)
-- **Notepad:** Current structure is good.
-- **Agents:** A pathfinding agent could be useful later. Also considering an agent to help with starter selection.
-- **Hindsight:** Misread the map in my house and walked into a wall. Need to be more careful.
-- **Goals:** Goals remain solid: get starter, explore town.
-- **Assumptions:** 
-    1. The building to the west is Elm's Lab. (Will verify by entering).
-    2. The NPC at (12, 9) is not immediately critical. (Will talk to them later).
-    3. No hidden items in my house. (Seems safe for now).
-    4. Water requires Surf. (Standard mechanic).
+## Reflection (Turn 103)
+- **Notepad:** Added a section for my Pokémon team.
+- **Agents:** A pathfinding agent is still a future consideration.
+- **Hindsight:** Need to be careful about pressing buttons before dialogue is fully dismissed.
+- **Goals:** Goals are solid and updated. Primary: Find Mr. Pokémon. Secondary: Explore New Bark Town.
+- **Assumptions to Verify:**
+    1. The path to Mr. Pokémon is north of New Bark Town.
+    2. The rival battle will happen upon leaving town.
+    3. No special items are needed to reach Mr. Pokémon.
+    4. The healing machine in Elm's lab works.
