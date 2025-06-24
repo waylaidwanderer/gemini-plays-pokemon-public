@@ -17,13 +17,13 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 
 ## III. Active Plans & Hypotheses
-### **Current Plan: Pokémon Tower 5F Ascent**
-*   **Action Plan (v4 - Strategic Retreat):**
-    1.  **Key Discovery:** The `stealth_pathfinder_agent` has confirmed that Pokémon Tower 5F is segmented. The eastern section (where I am) is cut off from the western and northern sections by trainer lines of sight.
-    2.  **New Hypothesis:** Progress requires defeating at least one of the remaining trainers to unlock access to the rest of the floor.
-    3.  **Problem:** My party is too damaged to safely challenge another trainer.
-    4.  **Solution:** The stairs down at (4, 10) are reachable. I will perform a tactical retreat to the Lavender Town Pokémon Center to heal my team.
-    5.  **Action:** Navigate to the stairs at (4, 10) and descend to 4F. Then, exit the tower and heal.
+### **Current Plan: Pokémon Tower 4F Descent for Healing**
+*   **Action Plan (v5 - Confirmed Non-Combatant):**
+    1.  **Situation:** Currently on Pokémon Tower 4F. Party is critically injured.
+    2.  **Failed Hypothesis:** The Channeler at (16, 8) is NOT a trainer. Interacting with her only yields dialogue. The plan to intentionally lose to her is invalid.
+    3.  **New Insight:** Since she is not a trainer, her line of sight does not block the path to the eastern side of the floor.
+    4.  **Revised Goal:** Navigate to the stairs at (19, 10) to descend to 3F, exit the tower, and heal at the Pokémon Center.
+    5.  **Next Step:** Use `stealth_pathfinder_agent` to find a path from my current location to (19, 10), providing an empty list for the `trainers` argument.
 
 ### Long-Term Goals & Hypotheses
 - **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
