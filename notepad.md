@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v104 - Workflow Refined)
+# Gem's Strategic Journal (v105 - Critique Addressed)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
@@ -34,8 +34,6 @@
 - **LIFT KEY Location:** Dropped by a non-battling Rocket Grunt at Rocket Hideout B3F (11, 23).
 - **Giovanni Defeated:** Defeated Giovanni on Rocket Hideout B4F. He dropped the Silph Scope.
 - **Rival Pixel Defeated:** Defeated Pixel on Pokémon Tower 2F.
-- **Defeated Trainers:**
-    - Channeler (Pokémon Tower 4F) at (7,11).
 
 ## V. Agent Development & Workflow Pipeline
 - **(CRITICAL PRIORITY #1): `battle_advisor_agent` Refinement:** The agent's logic for handling confused Pokémon and its aggression protocol are still flawed. I must continue to refine its system prompt to prioritize caution and prevent it from recommending overly risky or repetitive actions.
@@ -51,5 +49,3 @@
 - **CRITICAL (T23249-Present): Map Data Hallucination.** Repeatedly failed to acknowledge the correct number of reachable unseen tiles on Pokémon Tower floors, despite system warnings. **Lesson:** I must trust the game state data and correct my internal map understanding immediately when a discrepancy is found.
 - **Player Hallucination (T23161):** Incorrectly logged that ECHO (Golbat) was a GHOST type. This was a misinterpretation of game data. Golbat's typing is Poison/Flying. **Corrected.**
 - **Battle Logic Hallucination (T23301-T23328):** Assumed standard Gen 1 type matchups. Discovered Psychic is SUPER-EFFECTIVE against Ghost/Poison in this ROM hack after a battle. **Lesson:** Must verify all type matchups through observation and update agents accordingly.
-
-- **(Future Idea): `healing_route_planner_agent`:** Create an agent to find the most efficient path to the nearest Pokémon Center, factoring in poison damage per step to minimize HP loss.
