@@ -6,21 +6,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"},\"avoid_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_found\",\"path\"]}",
     "agent_can_run_code": true
-  },
-  "exploration_agent": {
-    "agent_name": "exploration_agent",
-    "agent_description": "Generates an efficient path to explore an area. Can be customized to scout for unknown tiles, visit all NPCs and warps, or both.",
-    "agent_system_prompt": "You are an expert Pokémon world explorer. Your goal is to generate an efficient path for the player to explore the current map, starting from their position. You will be given the map layout as an XML string in the `map_xml_string` variable. You must parse this XML to identify the player's start coordinates and other points of interest. You will receive a 'mode' and an optional list of 'avoid_coordinates' as input.\n\n- If `mode` is 'scout', your primary goal is to generate a path that visits all reachable 'unknown' tiles.\n- If `mode` is 'thorough', your primary goal is to generate a path that visits a valid, walkable tile *adjacent* to every NPC and every warp tile. The path must not step *on* the warp tiles themselves.\n- If `mode` is 'comprehensive', you must combine both 'scout' and 'thorough' modes, generating a single path that visits unknown tiles AND is adjacent to all NPCs and warps.\n\nThe path should be optimized to be as short as possible. You must use your `run_code` tool to implement this logic. You must respect the `avoid_coordinates` list and not include those coordinates in your path.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"mode\":{\"type\":\"string\",\"enum\":[\"scout\",\"thorough\",\"comprehensive\"]},\"avoid_coordinates\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"mode\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path\"]}",
-    "agent_can_run_code": true
-  },
-  "indoor_explorer_agent": {
-    "agent_name": "indoor_explorer_agent",
-    "agent_description": "Generates an efficient path to explore an indoor area, visiting all NPCs and checking for interactable objects.",
-    "agent_system_prompt": "You are an expert at exploring indoor locations in a 2D grid-based game. Your goal is to generate an efficient path for the player to explore the current map, starting from their position. You will be given the map layout as an XML string in the `map_xml_string` variable. You must parse this XML to identify the player's start coordinates and other points of interest. Your primary goal is to generate a path that visits a valid, walkable tile *adjacent* to every NPC and any potential interactable objects like PCs, bookshelves, or trash cans. The path should be optimized to be as short as possible. You must use your `run_code` tool to implement this logic.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"avoid_coordinates\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path\"]}",
-    "agent_can_run_code": true
   }
 }
