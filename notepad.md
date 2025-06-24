@@ -61,3 +61,10 @@
 ## Critical Oversights & Lessons
 - **Poké Ball Stock:** I encountered a wild Cubone (a catch target) and had ZERO Poké Balls. I must always maintain a healthy stock of Poké Balls to avoid missing rare encounters. This was a major failure in preparation.
 - **Gen 1 Move Typing:** Misremembering that Double Kick is a Normal-type move in Gen 1 nearly cost me the battle against the Channeler's Hypno on 6F. I must be more diligent about verifying move types.
+
+## VI. New Hypotheses & Testable Assumptions
+- **Pokémon Tower 5F Healing Spot:** Need to verify if the healing zone at (13, 9) is a one-time event or if it recharges. This is a high-priority test.
+- **Wild Encounters:** Assume Gastly/Haunter are the primary wild encounters, but remain prepared for others like Cubone.
+
+## VII. Critical Reminders
+- **Maintain Poké Ball Stock:** Always keep at least 10-20 Poké Balls on hand to avoid missing rare encounters like the wild Cubone. This is a non-negotiable rule of preparation.
