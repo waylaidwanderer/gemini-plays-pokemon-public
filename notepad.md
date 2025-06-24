@@ -29,4 +29,3 @@
 
 ## Strategy Updates
 - **Navigation:** Long exploration paths with `master_explorer_agent` are inefficient due to frequent interruptions. Using `pathfinder_agent` for short, direct paths to specific targets is more reliable. I will stick to this method for now.
-- **Agent Refinement:** The `master_explorer_agent` needs to be refined to generate shorter, segmented paths to be useful. I will work on this later.
