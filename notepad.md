@@ -28,4 +28,4 @@
     3. No special items are needed to reach Mr. Pokémon.
     4. The healing machine in Elm's lab works.
 
-- Received a Potion from Elm's aide before leaving the lab.
+- Elm's aide stopped me before leaving the lab and gave a speech, but I did not receive an item.
