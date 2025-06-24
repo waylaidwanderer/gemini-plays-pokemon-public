@@ -39,7 +39,7 @@
 
 ## V. Agent Development & Workflow Pipeline
 - **(CRITICAL PRIORITY #1): `wkg_manager_agent`:** Design and implement a new, robust agent to handle the entire WKG update transaction in a single call. This will prevent manual data entry and procedural errors. The agent must adopt a 'check-then-add' workflow: it will take source/destination details, automatically query the WKG for existing nodes, add them only if they don't exist, retrieve their IDs, and then create the connecting edge. This is my top development priority to fix my inefficient WKG management.
-- **(HIGH PRIORITY): `pc_navigator_agent`:** Design an agent to handle complex PC operations (deposits/withdrawals) by generating the precise button sequence, avoiding menu errors.
+
 - **(Future Idea): `shopping_planner_agent`:** Create an agent to calculate costs for items (especially TMs) and create shopping lists based on my money and priorities.
 - **(Future Idea): `item_finder_agent`:** Create an agent that scans the map XML for Poké Ball sprites and plans a path to collect them, avoiding trainers.
 
@@ -48,7 +48,3 @@
 - **CRITICAL (T23249-Present): Map Data Hallucination.** Repeatedly failed to acknowledge the correct number of reachable unseen tiles on Pokémon Tower floors, despite system warnings. **Lesson:** I must trust the game state data and correct my internal map understanding immediately when a discrepancy is found.
 - **Player Hallucination (T23161):** Incorrectly logged that ECHO (Golbat) was a GHOST type. This was a misinterpretation of game data. Golbat's typing is Poison/Flying. **Corrected.**
 - **Battle Logic Hallucination (T23301-T23328):** Assumed standard Gen 1 type matchups. Discovered Psychic is SUPER-EFFECTIVE against Ghost/Poison in this ROM hack after a battle. **Lesson:** Must verify all type matchups through observation and update agents accordingly.
-
-- **(HIGH PRIORITY): `pc_navigator_agent`:** Design an agent to handle complex PC operations (deposits/withdrawals) by generating the precise button sequence, avoiding menu errors.
-
-- **(HIGH PRIORITY): `pc_navigator_agent`:** Design an agent to handle complex PC operations (deposits/withdrawals) by generating the precise button sequence, avoiding menu errors.
