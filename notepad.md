@@ -57,3 +57,5 @@
 - **Channeler at (17,6) Battle:** Defeated their Lv33 Hypno, but ultimately lost the battle and blacked out against their second Pokémon, a Lv33 Haunter. The trainer is NOT fully defeated and I will need to battle them again.
   - The Hypno was surprisingly fast and powerful, capable of knocking out my level-capped Pokémon. It knows Psychic and Confusion.
   - The Haunter knows Smog, Lick, and Confuse Ray.
+
+- Pokémon Tower 5F has a high wild encounter rate. Be prepared to run frequently.
