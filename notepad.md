@@ -9,7 +9,6 @@
 - **Wild Encounters:** Can be triggered on 'FLOOR' tiles if they are adjacent to 'TALL_GRASS' tiles. (Observed on Route 30).
 - **One-Way Paths:** The gatehouse between Route 29 and Route 46 appears to be a one-way path. After exiting into Route 29, the door becomes a wall.
 - **Buggy Battle:** The trainer battle with the Youngster at (5, 26) on Route 30 was buggy. It got stuck in a dialogue loop and then ended abruptly by moving my character.
-- **Shifting Route:** Route 29 is a dynamic map where tiles change every few steps, requiring constant re-routing.
 - **Ledge Mechanics:** I can move sideways (left/right) along 'HOP_DOWN' tiles on Route 29. The ledge at (16, 12) is not a trap.
 
 ## Agent Performance & Lessons
@@ -22,9 +21,7 @@
 ## Unverified Assumptions & Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon?
 - **Cherrygrove Mart:** Is the Poké Mart still inaccessible?
-- **Route 29 Path:** Is the only way forward east through the shifting maze, or has another path (like the one behind the CUT_TREE) become available?
+- **Shifting Route 29:** Is the only way forward east through the shifting maze, or has another path (like the one behind the CUT_TREE) become available? What triggers the shifts? Is it every step, or after a certain number of steps? Are there any 'safe' tiles that never change?
 
 ## Completed Objectives & Past Events
 - **Youngster Block:** The Youngster at (27, 16) on Route 29 was a temporary obstacle that moved after the Mr. Pokémon quest was initiated.
-
-- **Trust Agents:** I must trust my agents' calculations over my own intuition, especially when they suggest a counter-intuitive path.
