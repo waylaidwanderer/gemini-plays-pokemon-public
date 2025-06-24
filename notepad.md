@@ -9,7 +9,7 @@
 - **Wild Encounters:** Can be triggered on 'FLOOR' tiles if they are adjacent to 'TALL_GRASS' tiles. (Observed on Route 30).
 - **One-Way Paths:** The gatehouse between Route 29 and Route 46 appears to be a one-way path.
 - **Ledge Mechanics:** I can move sideways (left/right) along 'HOP_DOWN' tiles on Route 29.
-- **Shifting Mazes:** Some routes, like Route 29, can have their layouts change with each step, requiring constant path recalculation.
+- **Shifting Mazes:** Some routes, like Route 29, can have their layouts change, requiring constant path recalculation. A stable path seems to have opened at Y=16.
 
 ## Agent Performance & Lessons
 - **Trust Agents:** I must trust my agents' calculations over my own intuition.
@@ -19,6 +19,7 @@
 - **New Bark Town:** A Fisher at (12, 9) mentioned Prof. Elm discovered new Pokémon. A Scientist in Elm's Lab gave me Poké Balls after the Pokémon theft was reported.
 - **Professor Elm:** Tasked me with challenging the Pokémon Gyms, starting with Violet City. Advised me to talk to my mom first.
 - **Rival Silver:** Stole a Pokémon from Professor Elm's lab.
+- **Route 29:** A Cooltrainer at (52, 9) offers a Pokémon catching tutorial.
 
 ## Unverified Assumptions & Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon?
@@ -28,6 +29,12 @@
 - Delivered the MYSTERY EGG to Professor Elm.
 - Named my rival 'Silver'.
 - Navigated the shifting maze of Route 29.
+- Spoke to Mom and arranged for her to save my money.
 
 ## To-Do & Reminders
 - Mark both sides of warps as soon as they are used.
+
+## Reflection Notes (Turn 1821)
+- **NPC Pathing:** I should use `path_navigator` with `avoid_coordinates` to get around blocking NPCs instead of manually pathing.
+- **Route 29 Stability:** I'm assuming Route 29 is stable now, but I need to verify this as I proceed.
+- **Cooltrainer Battle:** I'm assuming this Cooltrainer is just for a tutorial, but he might want to battle afterward.
