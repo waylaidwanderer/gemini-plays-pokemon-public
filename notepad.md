@@ -19,7 +19,7 @@
 - **Route 30 Glitch:** Stepping on the floor tile at (7, 49) and then moving right into the tall grass at (8, 49) can trigger a battle in a glitched 'Unknown' map (ID: 0_0).
 
 ## Agent Performance & Lessons
-- **Trust Agents:** I must trust my agents' calculations over my own intuition, especially for navigation and battle strategy. I will use my `battle_strategist` in the next trainer battle.
+- **Trust Agents:** I must trust my agents' calculations over my own intuition, especially for navigation and battle strategy.
 - **Systematic Updates:** When a new game mechanic or impassable tile type is discovered, ALL relevant agents must be updated immediately.
 - **Unresponsive UI:** The nickname screen taught me a valuable lesson. If an input fails repeatedly, I must change my approach (e.g., selecting 'END') rather than repeating the same failed action. It's a UI/input issue, not a game-breaking bug.
 
