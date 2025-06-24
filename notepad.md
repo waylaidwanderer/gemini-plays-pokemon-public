@@ -20,3 +20,5 @@
 ## World Knowledge & NPCs
 - **Route 29:** The northern path is blocked by one-way ledges. The southern path is blocked by an impassable Youngster at (27, 16) who does not respond to interaction from any angle.
 - **New Bark Town:** A Fisher at (12, 9) mentioned Prof. Elm discovered new Pokémon.
+
+- Some dialogues might loop until another object in the room is interacted with. This seems to be a mechanic to ensure full exploration of an area before proceeding.
