@@ -1,19 +1,17 @@
 # Gem's Pokémon Crystal Adventure!
 
 ## Current Plan & Strategy
+- **Hypothesis:** I am blocked from progressing on Route 29 because I missed a key event or item in New Bark Town.
 - **Plan:**
-  1. Exit Elm's Lab.
-  2. Travel west through Route 29 to reach Cherrygrove City.
-  3. Find Mr. Pokémon, who lives a little bit beyond Cherrygrove City.
-
-## To-Do List
+  1. Systematically re-explore New Bark Town.
+  2. First stop: My house. Maybe Mom has something for me.
+  3. Second stop: Elm's house.
 
 ## Discoveries & Mechanics
 - Some trees are 'HEADBUTT_TREE' type, likely for the move Headbutt.
 - **Dialogue Triggers:** Some dialogues (like Professor Elm's initial errand speech) might loop until another specific NPC in the room is spoken to. In Elm's Lab, talking to the scientist was required to progress the conversation with Elm.
 
 ## World Knowledge & NPCs
-- **Route 29:** The route splits. The main path forward is the upper/northern route. A smaller fork to the south is completely blocked by an impassable Youngster at (27, 16). A separate, smaller northern path accessible via ledges near (27, 12) is a dead end.
 - **New Bark Town:** A Fisher at (12, 9) mentioned Prof. Elm discovered new Pokémon.
 
 ## Lessons Learned
