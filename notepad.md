@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v120 - Pokémon Tower Ascent)
+# Gem's Strategic Journal (v121 - Pokémon Tower Ascent)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -19,6 +19,12 @@
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Field Use:** HMs must be taught to a Pokémon to enable field use. FLY cannot be used indoors.
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
+- **Gen 1 Move Typing:** Be aware of Gen 1 move typings. E.g., Bite and Double Kick are Normal-type.
+
+### Opponent Battle Intel
+- **Channeler (Pokémon Tower 6F, (17,6)):**
+  - Team: Lv33 Hypno, ???
+  - Hypno knows Psychic, Confusion, and Poison Gas.
 
 ## III. Active Plans & Hypotheses
 ### **Current Plan: Pokémon Tower Ascent**
@@ -38,26 +44,20 @@
 - **`pathfinding_agent` (v1 - RELIABLE):** Consolidated agent for reaching specific targets or exploring all unseen tiles.
 - **`wkg_manager_agent` (v2 - RELIABLE):** Successfully identifies existing nodes and creates edges without duplication.
 - **`pc_navigator_agent` (v2 - RELIABLE):** Successfully navigates the PC by using 'BILL's PC' to bypass the 'Gem's PC' glitch.
-- **`battle_strategist_agent` (v1 - NEW):** Provides turn-by-turn battle advice. Seems reliable so far.
+- **`battle_strategist_agent` (v1 - RELIABLE):** Provides turn-by-turn battle advice.
 
 ### B. Agent Development Backlog
-- **(Future Idea): `shopping_planner_agent`:** To plan TM and item purchases.
-- **(Future Idea): `item_finder_agent`:** To plan paths for collecting all items on a map.
-- **(Future Idea): `healing_route_planner_agent`:** To find the most efficient path to a Pokémon Center.
+- **`shopping_planner_agent`:** To plan TM and item purchases.
+- **`item_finder_agent`:** To plan paths for collecting all items on a map.
+- **`healing_route_planner_agent`:** To find the most efficient path to a Pokémon Center.
 
 ## V. Completed Intel & Disproven Hypotheses
 - **LIFT KEY Location:** Dropped by a Rocket Grunt at Rocket Hideout B3F (11, 23).
 - **Giovanni Defeated:** Defeated on Rocket Hideout B4F, dropped the Silph Scope.
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
 - **PC Glitch Workaround:** Selecting 'Gem's PC' is bugged and unusable. The correct and reliable method to access Pokémon Storage is to select 'BILL's PC' from the main menu.
-- **Pokémon Tower 5F Healing Spot (13, 9) is FAKE:** The Channeler offers dialogue but does NOT heal the party. Do not rely on this spot.
-
-### Pokémon Tower Battle Intel
-- **Pokémon Tower 5F:** High wild encounter rate.
-- **Channeler at (17,6):**
-  - Team: Lv33 Hypno, Lv33 Haunter.
-  - Hypno knows Psychic and Confusion.
-  - Haunter knows Smog, Lick, and Confuse Ray.
+- **Pokémon Tower 5F Healing Spot (13, 9) is FAKE:** The Channeler offers dialogue but does NOT heal the party. It is a one-time purified zone.
 
 ## Critical Oversights & Lessons
 - **Poké Ball Stock:** I encountered a wild Cubone (a catch target) and had ZERO Poké Balls. I must always maintain a healthy stock of Poké Balls to avoid missing rare encounters. This was a major failure in preparation.
+- **Gen 1 Move Typing:** Misremembering that Double Kick is a Normal-type move in Gen 1 nearly cost me the battle against the Channeler's Hypno on 6F. I must be more diligent about verifying move types.
