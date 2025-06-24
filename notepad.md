@@ -8,33 +8,31 @@
 - Explore the area around Violet City (Sprout Tower) for training opportunities and items.
 
 ## Current Plan
-- Explore Route 30 for training and items.
-- Proceed north towards Violet City.
+- Continue training on Route 30.
+- Investigate the rest of Route 30 for trainers and items.
 
 ## Game Mechanics & Quirks
 - **Headbutt Trees:** Some trees are 'HEADBUTT_TREE' type and are impassable.
 - **Dialogue Triggers:** Some dialogues might loop until another specific NPC in the room is spoken to (e.g., Elm's Lab).
 - **Wild Encounters:** Can be triggered on 'FLOOR' tiles if they are adjacent to 'TALL_GRASS' tiles. (Observed on Route 30).
 - **One-Way Paths:** The gatehouse between Route 29 and Route 46 appears to be a one-way path.
-- **Ledge Mechanics:** I can move sideways (left/right) along 'HOP_DOWN' tiles on Route 29.
-- **Shifting Mazes:** Route 29's layout can change dynamically, blocking previously open paths. Must be navigated carefully, preferably with an agent.
+- **Ledge Mechanics:** I can move sideways (left/right) along 'HOP_DOWN' tiles.
+- **Shifting Mazes:** Some routes can have dynamically changing layouts, requiring careful navigation.
+- **Battle Text:** Sometimes battle text can be misleading (e.g. "But it failed!" followed by a successful attack).
 
 ## Agent Performance & Lessons
-- **Trust Agents:** I must trust my agents' calculations over my own intuition, especially for navigation in shifting areas.
-- **Systematic Updates:** When a new game mechanic or impassable tile type is discovered, ALL relevant agents must be updated immediately. The `path_navigator` now recognizes 'WALL', 'HEADBUTT_TREE', 'WATER', and 'CUT_TREE' as impassable.
-- **World Knowledge Graph:** I need to check the graph before adding new edges to avoid errors.
+- **Trust Agents:** I must trust my agents' calculations over my own intuition, especially for navigation.
+- **Systematic Updates:** When a new game mechanic or impassable tile type is discovered, ALL relevant agents must be updated immediately.
 
 ## World Knowledge & NPCs
-- **New Bark Town:** A Fisher at (12, 9) mentioned Prof. Elm discovered new Pokémon. A Scientist in Elm's Lab gave me Poké Balls after the Pokémon theft was reported.
 - **Professor Elm:** Tasked me with challenging the Pokémon Gyms, starting with Violet City. Has a healing machine in his lab.
 - **Rival Silver:** Stole a Pokémon from Professor Elm's lab.
-- **Route 29:** A Cooltrainer at (52, 9) offers a Pokémon catching tutorial. A Youngster at (27, 16) gives advice, does not battle.
+- **Route 29:** A Cooltrainer at (52, 9) offers a Pokémon catching tutorial.
+- **Route 30:** A man in a house at (7, 39) gave me a BERRY.
 
 ## Unverified Assumptions & Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
 - **Cherrygrove Mart:** Is the Poké Mart still inaccessible? (Check upon arrival)
-- **Cooltrainer Battle:** Does the Cooltrainer on Route 29 battle you after the tutorial? (Talk to him again to verify)
-
-## Training Strategy
-- To safely train low-level Pokémon like Periscope, lead with a stronger Pokémon (Hearth).
-- Weaken the wild opponent, then switch to the trainee (Periscope) to deliver the final blow and earn EXP.
+- **Buggy Trainer:** Will the Youngster on Route 30 battle me again? His dialogue was strange. (Interact with him again to check)
+- **Hidden Potion:** Is the hidden potion at (14, 9) on Route 30 still there?
+- **Party Composition:** Is my current party of two Pokémon sufficient, or should I catch another for better type coverage?
