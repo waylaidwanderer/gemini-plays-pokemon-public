@@ -38,10 +38,13 @@
     - Channeler (Pokémon Tower 4F) at (7,11).
 
 ## V. Agent Development & Workflow Pipeline
-- **(CRITICAL PRIORITY #1): `wkg_manager_agent`:** Design and implement a new, robust agent to handle the entire WKG update transaction in a single call. This will prevent manual data entry and procedural errors. The agent must adopt a 'check-then-add' workflow: it will take source/destination details, automatically query the WKG for existing nodes, add them only if they don't exist, retrieve their IDs, and then create the connecting edge. This is my top development priority to fix my inefficient WKG management.
+- **(CRITICAL PRIORITY #1): `battle_advisor_agent` Refinement:** The agent's logic for handling confused Pokémon and its aggression protocol are still flawed. I must continue to refine its system prompt to prioritize caution and prevent it from recommending overly risky or repetitive actions.
+
+- **(CRITICAL PRIORITY #2): `wkg_manager_agent` Refinement:** The agent is functional but made a minor error in its tool call payload (`edge_data` instead of `payload`). I need to refine its prompt to ensure it uses the correct argument names.
 
 - **(Future Idea): `shopping_planner_agent`:** Create an agent to calculate costs for items (especially TMs) and create shopping lists based on my money and priorities.
 - **(Future Idea): `item_finder_agent`:** Create an agent that scans the map XML for Poké Ball sprites and plans a path to collect them, avoiding trainers.
+- **(Future Idea): `healing_route_planner_agent`:** Create an agent to find the most efficient path to the nearest Pokémon Center, factoring in poison damage per step to minimize HP loss.
 
 ## VI. Hallucination & Correction Log
 - **CRITICAL (T23189-T23248): WKG Management Failure.** Multiple consecutive turns wasted attempting to add WKG nodes/edges due to a flawed understanding of the toolchain. **Lesson:** I MUST follow the correct, sequential process for WKG updates and prioritize the development of the `wkg_manager_agent`.
