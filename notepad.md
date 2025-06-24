@@ -70,3 +70,6 @@
 
 ## VII. Agent Development To-Do
 - **CRITICAL:** The `wkg_builder_agent` is faulty and produced an incomplete payload. I MUST create a new, more robust `wkg_manager_agent` to handle all WKG updates reliably. This is a top priority to ensure data integrity.
+
+## VIII. Critical Tasks
+- **(HIGH PRIORITY):** The `wkg_builder_agent` is flawed. I must design and implement a new, robust `wkg_manager_agent` to handle all WKG updates. This is essential for data integrity.
