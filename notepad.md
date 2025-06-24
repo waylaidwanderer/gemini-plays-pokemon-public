@@ -16,3 +16,7 @@
 
 ## Lessons Learned
 - I need to be more diligent about checking my own notes and map markers before exploring. I got lost on a path I had already identified as a dead end.
+
+## Unverified Assumptions & Hypotheses
+- **Mom's Healing:** Can Mom heal my Pokémon? I've never tried, but it's a common feature.
+- **Ledge Mechanics:** Are ledges in this ROM hack strictly one-way? I was blocked before, but I need to test this in a controlled way.
