@@ -32,7 +32,3 @@
 
 ## Completed Objectives & Past Events
 - **Youngster Block:** The Youngster at (27, 16) on Route 29 was a temporary obstacle that moved after the Mr. Pokémon quest was initiated.
-
-- **Route 29 Shifting Pattern:** Is the shifting on Route 29 truly random, or is there a pattern (time-based, step-based, position-based)?
-- **Alternate Paths:** Is there a more stable, alternative route to New Bark Town that I've missed?
-- **Teacher's Role:** Does the Teacher at (15, 11) have a hidden trigger for her dialogue?
