@@ -40,3 +40,5 @@
 - **LIFT KEY Location:** Dropped by a Rocket Grunt at Rocket Hideout B3F (11, 23).
 - **Giovanni Defeated:** Defeated on Rocket Hideout B4F, dropped the Silph Scope.
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
+
+- **(New Idea): `wild_encounter_strategist_agent`:** To handle repetitive wild battles by always recommending 'RUN' unless specific conditions are met (e.g., capture target, training goal).
