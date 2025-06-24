@@ -1,8 +1,8 @@
-# Gem's Strategic Journal (v105 - Critique Addressed)
+# Gem's Strategic Journal (v106 - Refactored)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. ALWAYS verify location after a map transition BEFORE acting.
-- **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on. An NPC blocking a path that doesn't battle is a hard wall.
+- **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Do not repeat the interaction; mark the NPC and move on. An NPC blocking a path that doesn't battle is a hard wall. The Channeler at (15, 13) on Pokémon Tower 4F is confirmed to be bugged; avoid interacting.
 - **WKG & Marker Protocol:** I must re-issue failed `define_map_marker` calls and be diligent about marking key points (like warp arrivals and defeated trainers) *immediately*.
 - **Agent Usage:** Use `team_composition_advisor_agent` *before* entering challenging areas. Use `stealth_pathfinder_agent` for all non-trivial navigation. Use agents proactively.
 
@@ -17,13 +17,12 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap will not gain actual EXP.
 
 ## III. Action Plans & Hypotheses
-### Current Plan (v42 - Pokémon Tower Team Assembly)
-*   **Objective:** Assemble the new team recommended by the `team_composition_advisor_agent`.
+### Current Plan (v43 - Pokémon Tower Ascent)
+*   **Objective:** Ascend Pokémon Tower.
 *   **Method:**
-    1.  Use the PC in the Lavender Town Pokémon Center.
-    2.  Deposit current party members to make space.
-    3.  Withdraw: SPOONBENDE, CRAG, SPARKY, SUBTERRA, PHANTOM, ECHO.
-    4.  Proceed to the recommended training spots (Pokémon Tower 4F and Rock Tunnel 1F).
+    1.  Defeat the remaining trainers on 4F to clear the path.
+    2.  Explore the southern area of 4F, which is now accessible.
+    3.  Find the stairs to 5F.
 
 ### Future Plans & Hypotheses
 - **Hypothesis 1 (Celadon Gym):** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
@@ -38,11 +37,10 @@
 ## V. Agent Development & Workflow Pipeline
 - **(CRITICAL PRIORITY #1): `battle_advisor_agent` Refinement:** The agent's logic for handling confused Pokémon and its aggression protocol are still flawed. I must continue to refine its system prompt to prioritize caution and prevent it from recommending overly risky or repetitive actions.
 
-- **(CRITICAL PRIORITY #2): `wkg_manager_agent` Refinement:** The agent is functional but made a minor error in its tool call payload (`edge_data` instead of `payload`). I need to refine its prompt to ensure it uses the correct argument names.
-
 - **(Future Idea): `shopping_planner_agent`:** Create an agent to calculate costs for items (especially TMs) and create shopping lists based on my money and priorities.
 - **(Future Idea): `item_finder_agent`:** Create an agent that scans the map XML for Poké Ball sprites and plans a path to collect them, avoiding trainers.
 - **(Future Idea): `healing_route_planner_agent`:** Create an agent to find the most efficient path to the nearest Pokémon Center, factoring in poison damage per step to minimize HP loss.
+- **(Future Idea): `wild_battle_manager_agent`:** Create an agent to decide whether to fight or run from wild encounters based on current goals (training vs. exploring) and party status, then provide the optimal button sequence. This will streamline traversal.
 
 ## VI. Hallucination & Correction Log
 - **CRITICAL (T23189-T23248): WKG Management Failure.** Multiple consecutive turns wasted attempting to add WKG nodes/edges due to a flawed understanding of the toolchain. **Lesson:** I MUST follow the correct, sequential process for WKG updates and prioritize the development of the `wkg_manager_agent`.
