@@ -8,10 +8,8 @@
 - Explore the area around Violet City (Sprout Tower) for training opportunities and items.
 
 ## Current Plan
-### Cherrygrove City
-1. Heal Pokémon at the Pokémon Center.
-2. Explore Cherrygrove City for items and information.
-3. Proceed north towards Route 30.
+- Explore Route 30 for training and items.
+- Proceed north towards Violet City.
 
 ## Game Mechanics & Quirks
 - **Headbutt Trees:** Some trees are 'HEADBUTT_TREE' type and are impassable.
@@ -23,7 +21,7 @@
 
 ## Agent Performance & Lessons
 - **Trust Agents:** I must trust my agents' calculations over my own intuition, especially for navigation in shifting areas.
-- **Systematic Updates:** When a new game mechanic is discovered, ALL relevant agents must be updated immediately.
+- **Systematic Updates:** When a new game mechanic or impassable tile type is discovered, ALL relevant agents must be updated immediately. The `path_navigator` now recognizes 'WALL', 'HEADBUTT_TREE', 'WATER', and 'CUT_TREE' as impassable.
 - **World Knowledge Graph:** I need to check the graph before adding new edges to avoid errors.
 
 ## World Knowledge & NPCs
@@ -44,10 +42,9 @@
 - Named my rival 'Silver'.
 - Spoke to Mom and arranged for her to save my money.
 - Caught a Sentret on Route 29 and named it Periscope.
+- Healed Pokémon at the Cherrygrove City Pokémon Center.
 
-## Reflection Notes (Turn 1925)
-- My documentation needs to be kept up-to-date. I'll make sure to move completed tasks to the correct section of my notepad.
-- I will continue to use map markers proactively for important NPCs and locations, placing them immediately after an event.
-- I will be more diligent about checking my World Knowledge Graph before adding new data to avoid duplicates.
-- I will start adding tags to my WKG nodes to make them more useful.
-- My notepad should include more actionable, step-by-step plans for my goals.
+## Reflection Notes (Turn 1976)
+- The shifting maze on Route 29 is a persistent mechanic and requires careful navigation, preferably with an agent.
+- My `path_navigator` agent failed to recognize `CUT_TREE` as an impassable tile. I have updated its system prompt to include it.
+- I need to be more diligent about placing map markers for obstacles as soon as I discover them.
