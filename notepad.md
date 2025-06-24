@@ -48,3 +48,5 @@
 - **`exp_tracker_agent` (OPERATIONAL - NEW):** Successfully created for tracking EXP requirements.
 
 ### Future Agent Ideas
+
+- **`shopping_planner_agent`:** An agent to calculate costs for items (especially TMs) and create shopping lists based on my money and priorities.
