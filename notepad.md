@@ -28,3 +28,6 @@
 - **One-Way Paths:** The gatehouse between Route 29 and Route 46 appears to be a one-way path. After exiting into Route 29, the door becomes a wall.
 
 ## Strategy Updates
+
+## Bugs & Glitches
+- The trainer battle with the Youngster at (5, 26) on Route 30 was buggy. It got stuck in a dialogue loop and then ended abruptly by moving my character. If this happens again, I should try moving the cursor in the battle menu as a diagnostic step.
