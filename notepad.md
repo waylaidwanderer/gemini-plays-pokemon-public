@@ -14,7 +14,6 @@
 - **Trust Agents:** I must trust my agents' calculations over my own intuition. However, if an agent's output is based on faulty information (like a hallucinated moveset), I must correct the agent before proceeding.
 - **Systematic Updates:** When a new game mechanic or impassable tile type is discovered, ALL relevant agents must be updated immediately.
 - **Unresponsive UI:** The nickname screen taught me a valuable lesson. If an input fails repeatedly, I must change my approach (e.g., selecting 'END') rather than repeating the same failed action. It's a UI/input issue, not a game-breaking bug.
-- **Agent Redundancy:** My `route_explorer_agent` may be redundant now that I have `path_navigator`. I should consider deleting it to free up an agent slot.
 
 ## World Knowledge & NPCs
 - **Professor Elm:** Tasked me with challenging the Pokémon Gyms, starting with Violet City. Has a healing machine in his lab.
