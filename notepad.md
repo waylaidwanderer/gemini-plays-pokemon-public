@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v114 - Agent Debugging)
+# Gem's Strategic Journal (v115 - Agent Refinement)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -17,13 +17,9 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 
 ## III. Active Plans & Hypotheses
-### **Current Plan: Pokémon Tower 5F Puzzle**
-1.  **Situation:** On Pokémon Tower 5F, northern section. All attempts to path to the southern section have failed.
-2.  **Hypothesis:** The `stealth_pathfinder_agent` is critically flawed, hallucinating map partitions. It cannot be trusted for navigation until fixed.
-3.  **Action Plan:**
-    a. Perform a sanity check by tasking the agent with finding a one-step path to an adjacent tile.
-    b. Based on the result, refine or completely rewrite the agent's system prompt to fix its analytical failures.
-    c. Once the agent is reliable, re-attempt to solve the 5F puzzle.
+### **Current Plan: Pokémon Tower 6F**
+1.  **Situation:** On Pokémon Tower 6F, in battle with a Channeler.
+2.  **Action Plan:** Defeat the Channeler, then continue exploring the floor to find the stairs to 7F.
 
 ### Long-Term Goals & Hypotheses
 - **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
@@ -42,11 +38,9 @@
 - **Giovanni Defeated:** Defeated on Rocket Hideout B4F, dropped the Silph Scope.
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
 
-- **(Future Idea): `exploration_agent`:** To find the most efficient path to visit all reachable unseen tiles on a map.
-
 ## VI. Agent Task Backlog
 
-### `battle_advisor_agent` (CRITICAL FIX)
-- **Problem:** The agent has trouble differentiating between wild and trainer battles. It recommended fighting a wild Haunter instead of running, and previously recommended running from a trainer.
-- **Root Cause:** The logic for identifying battle type is weak.
-- **Solution:** The prompt needs a robust check. It should analyze the opponent's name (e.g., 'CHANNELER's GASTLY' vs. 'GASTLY') and the `Screen Text` for keywords like 'wants to fight!'. If it's a wild encounter and not a specific target, it MUST prioritize running.
+### `battle_advisor_agent` (COMPLETE - v3)
+- **Problem:** The agent struggled to differentiate between wild and trainer battles, leading to incorrect run/fight recommendations.
+- **Root Cause:** The logic for identifying battle type was weak and relied on fallible text analysis.
+- **Solution:** The agent has been successfully redesigned. It now requires a boolean `is_trainer_battle` input, which acts as the absolute source of truth. The system prompt has been updated to strictly enforce that the agent CANNOT recommend running if this flag is true. This has proven to be a robust and reliable fix.
