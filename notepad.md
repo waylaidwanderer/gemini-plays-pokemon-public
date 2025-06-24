@@ -31,5 +31,5 @@
 
 ## Unverified Assumptions & Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
-- **Cherrygrove Mart:** The Poké Mart is still inaccessible.
-- **Party Composition:** Is my current party optimal for the Violet City Gym? I will use my `party_synergy_agent` to analyze this.
+- **Better Training Spots:** There might be better places to train than this patch of grass, like unfought trainers or higher-level Pokémon further north.
+- **Party Composition:** My current team might not be optimal. I should check for Rock-type Pokémon and use the `team_strategist` agent for analysis.
