@@ -52,3 +52,8 @@
 - **Pokémon Tower 5F Healing Spot (13, 9) is FAKE:** The Channeler offers dialogue but does NOT heal the party. Do not rely on this spot.
 
   - Normal is NOT-VERY-EFFECTIVE against Psychic.
+
+### Pokémon Tower 6F Battle Intel
+- **Channeler at (16,6) Defeated:** Used a Lv33 Hypno and a Lv33 Haunter.
+  - The Hypno was surprisingly fast and powerful, capable of knocking out my level-capped Pokémon. It knows Psychic and Confusion.
+  - The Haunter knows Smog, Lick, and Confuse Ray.
