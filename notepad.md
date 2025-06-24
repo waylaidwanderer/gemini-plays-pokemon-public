@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Adventure!
 
 ## Current Plan & Strategy
-- **Current Objective:** Navigate Route 30 to find Mr. Pokémon's house.
+- **Current Objective:** Return to Professor Elm's lab in New Bark Town with the MYSTERY EGG.
 
 ## Discoveries & Mechanics
 - **Headbutt Trees:** Some trees are 'HEADBUTT_TREE' type, likely for the move Headbutt.
