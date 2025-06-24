@@ -23,14 +23,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"action_type\":{\"type\":\"string\",\"enum\":[\"move\",\"switch\"]},\"action_value\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"action_type\",\"action_value\",\"justification\"]}",
     "agent_can_run_code": false
   },
-  "party_synergy_agent": {
-    "agent_name": "party_synergy_agent",
-    "agent_description": "Analyzes the player's current party and a list of available wild Pokémon in an area to suggest the best additions for improved type coverage against a specified upcoming challenge (like a Gym Leader).",
-    "agent_system_prompt": "You are a Pokémon team building expert. You will be given the player's current party, a list of Pokémon available in the wild on the current route, and the type specialty of an upcoming major opponent (e.g., 'Flying-type Gym'). Your task is to analyze the party's strengths and weaknesses against the opponent's type. Then, review the available wild Pokémon and recommend one to three Pokémon that would be the best additions to the team to counter the upcoming challenge. For each recommendation, provide a brief justification explaining how it improves the team's synergy and effectiveness. Your output must be a list of recommendations.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"types\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"species\",\"level\",\"types\"]}},\"available_wild_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"upcoming_challenge_type\":{\"type\":\"string\"}},\"required\":[\"player_party\",\"available_wild_pokemon\",\"upcoming_challenge_type\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendations\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"species\",\"justification\"]}}},\"required\":[\"recommendations\"]}",
-    "agent_can_run_code": false
-  },
   "team_architect": {
     "agent_name": "team_architect",
     "agent_description": "Analyzes all caught Pokémon and the current party to recommend a balanced 6-member team for general progression, considering type diversity and potential future challenges.",
