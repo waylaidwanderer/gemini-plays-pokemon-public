@@ -1,7 +1,8 @@
-# Gem's Strategic Journal (v109 - Full Refactor)
+# Gem's Strategic Journal (v110 - Agent Insights)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
+- **Trust Agent Outputs:** Agents are extensions of my own reasoning. A negative result (e.g., 'path not found') is a valid and crucial piece of information, not a failure. It should be trusted and used to reformulate strategy immediately.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Mark and move on. The Channeler at (15, 13) on Pokémon Tower 4F is confirmed to be bugged; avoid interacting.
 - **WKG & Marker Protocol:** Be diligent about marking key points (like warp arrivals and defeated trainers) *immediately*. Manually fix failed agent calls.
 - **Agent Usage:** Use agents proactively for pathfinding, team building, and complex tasks. Prioritize refining agents that show flaws.
@@ -17,14 +18,13 @@
 
 ## III. Active Plans & Hypotheses
 ### **Current Plan: Pokémon Tower 5F Ascent**
-*   **Hypothesis:** The stairs to 6F are blocked until all trainers on 5F are defeated. The friendly Channeler's healing spot at (13, 9) may also unlock after this condition is met.
-*   **Action Plan (v2 - Exploration Focus):**
+*   **Action Plan (v3 - Focused Northern Exploration):**
     1.  **Status:** Channeler at (18, 8) defeated. Party is heavily damaged. Healing spot at (13, 9) and stairs at (19, 10) are inaccessible.
-    2.  **New Hypothesis:** Progress is not tied to defeating all trainers, but to exploring unseen areas. There are 6 reachable unseen tiles.
-    3.  **Action:** Explore the unseen tiles to find a new path, switch, or event trigger.
-        *   **Target 1:** Investigate the unseen tile at (10, 13) by moving to (10, 12).
-        *   **Target 2:** After investigating the west, explore the cluster of unseen tiles in the north: (10, 1), (11, 1), (12, 1), (13, 1), and (14, 2).
-    4.  **Contingency:** If exploration reveals nothing, re-evaluate battling the remaining trainers at (15, 4) and (7, 11).
+    2.  **Key Discovery:** The `stealth_pathfinder_agent` confirmed the western side of the map (including unseen tile at (10, 13)) is completely unreachable from the eastern side due to trainer lines of sight creating an impassable barrier.
+    3.  **New Hypothesis:** The only remaining path forward must be through the northern cluster of unseen tiles: (10, 1), (11, 1), (12, 1), (13, 1), and (14, 2).
+    4.  **Action:** Investigate the northern unseen tiles.
+        *   **Target:** Move to (13, 2) to reveal the tile at (13, 1).
+    5.  **Contingency:** If the northern path is a dead end, the only remaining option is to challenge the trainer at (15, 4) to open up the map.
 
 ### Long-Term Goals & Hypotheses
 - **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
@@ -42,5 +42,4 @@
 - **LIFT KEY Location:** Dropped by a Rocket Grunt at Rocket Hideout B3F (11, 23).
 - **Giovanni Defeated:** Defeated on Rocket Hideout B4F, dropped the Silph Scope.
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
-
 - **(New Idea): `wild_encounter_strategist_agent`:** To handle repetitive wild battles by always recommending 'RUN' unless specific conditions are met (e.g., capture target, training goal).
