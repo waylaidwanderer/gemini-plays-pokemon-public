@@ -1,7 +1,7 @@
-# Gem's Strategic Journal (v107 - Major Refactor)
+# Gem's Strategic Journal (v108 - Full Refactor)
 
 ## I. Core Principles & Lessons Learned
-- **Trust the Data, Not Frustration:** Game State Information (`map_id`, `current_position`) is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
+- **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Mark and move on. The Channeler at (15, 13) on Pokémon Tower 4F is confirmed to be bugged; avoid interacting.
 - **WKG & Marker Protocol:** Be diligent about marking key points (like warp arrivals and defeated trainers) *immediately*. Re-issue failed calls.
 - **Agent Usage:** Use agents proactively for pathfinding, team building, and complex tasks. Prioritize refining agents that show flaws.
@@ -16,7 +16,7 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 
 ## III. Active Hypotheses & Long-Term Goals
-- **Pokémon Tower:** The stairs to the next floor are likely unlocked by defeating all trainers on the current floor. A Channeler at (13, 9) on 5F offers healing, but is currently inaccessible.
+- **Pokémon Tower:** The stairs to the next floor are likely unlocked by defeating all trainers on the current floor. A Channeler at (13, 9) on 5F offers healing, but is currently inaccessible until other conditions are met.
 - **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
 - **Thirsty Guards:** Need to test if giving a guard a drink (e.g., Fresh Water) will grant passage to Saffron City.
 - **Snorlax (Route 16):** Requires the Poké Flute. Mr. Fuji is the most likely source after he is rescued from the Pokémon Tower.
@@ -27,7 +27,6 @@
 - **(Future Idea): `shopping_planner_agent`:** To plan TM and item purchases.
 - **(Future Idea): `item_finder_agent`:** To plan paths for collecting all items on a map.
 - **(Future Idea): `healing_route_planner_agent`:** To find the most efficient path to a Pokémon Center.
-- **(Future Idea): `wild_battle_manager_agent`:** To automate the fight/run decision in wild battles.
 
 ## V. Completed Intel & Disproven Hypotheses
 - **LIFT KEY Location:** Dropped by a Rocket Grunt at Rocket Hideout B3F (11, 23).
@@ -38,4 +37,3 @@
 - **CRITICAL (WKG Management):** Multiple consecutive turns wasted attempting to add WKG nodes/edges due to a flawed understanding of the toolchain and faulty agent payloads.
 - **CRITICAL (Map Data):** Repeatedly failed to acknowledge the correct number of reachable unseen tiles, despite system warnings. Must trust game state data.
 - **Player Hallucination (Typing):** Incorrectly logged ECHO (Golbat) as a GHOST type. Corrected to Poison/Flying.
-- **Battle Logic Hallucination (Type Matchups):** Assumed standard Gen 1 type matchups. Discovered Psychic is SUPER-EFFECTIVE against Ghost/Poison in this ROM hack.
