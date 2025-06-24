@@ -1,24 +1,23 @@
 # Gem's Pokémon Crystal Adventure!
 
-## Game Plan & Strategy
-- My current long-term goal is to find Mr. Pokémon, as instructed by Professor Elm.
-- To do this, I must travel west from New Bark Town, through Route 29, to reach Cherrygrove City.
-- I've explored Route 29 briefly and found the northern path blocked by ledges, so I must take the southern path through the grass.
+## Current Plan & Strategy
+- **Primary Goal:** Find Mr. Pokémon.
+- **Secondary Goal:** Find out why the path on Route 29 is blocked.
+- **Hypothesis:** A trigger event in New Bark Town is required to move the Youngster on Route 29. He is impassable otherwise.
+- **Plan:** Systematically re-explore New Bark Town. 
+  1. Visit Player's House, talk to Mom.
+  2. Visit Elm's Lab, talk to Elm and his assistant, and interact with all objects (PCs, bookshelves).
+  3. Visit the other house and talk to the NPC inside.
+  4. Talk to all outdoor NPCs again.
+
+## To-Do List
+- Place a map marker at the dead end on Route 29 (27, 12).
+- Brainstorm and define a 'global_navigator_agent' for multi-map pathfinding.
 
 ## Discoveries & Mechanics
-- Some trees are of type 'HEADBUTT_TREE', likely interactable with the move Headbutt later.
-- The northern path on Route 29 is blocked by a series of one-way ledges. The only way to proceed west is by taking the southern path through the tall grass.
-- Elm's lab healing machine works as expected.
+- Some trees are 'HEADBUTT_TREE' type, likely for the move Headbutt.
+- Elm's lab has a healing machine.
 
-## Pokémon Info
-- Interesting movesets seen on wild or trainer Pokémon.
-
-## Trainer Battle Log
-- A list of all trainers I've defeated, with their location.
-
-## World Knowledge Notes
-- Important NPC dialogue.
-- Obstacles and how to overcome them.
-- Fisher at (12, 9) in New Bark Town mentioned Prof. Elm discovered new Pokémon.
-
-- The Youngster at (27, 16) on Route 29 is impassable. Multiple interaction attempts from all adjacent tiles and while standing on his tile have failed. Concluding this is a story-based block.
+## World Knowledge & NPCs
+- **Route 29:** The northern path is blocked by one-way ledges. The southern path is blocked by an impassable Youngster at (27, 16) who does not respond to interaction from any angle.
+- **New Bark Town:** A Fisher at (12, 9) mentioned Prof. Elm discovered new Pokémon.
