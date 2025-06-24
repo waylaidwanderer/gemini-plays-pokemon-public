@@ -6,7 +6,7 @@
 ## Gym Prep Plan
 - Train Hearth, Periscope, and ZEPH to at least Level 10 before challenging the Violet City Gym.
 - Explore Sprout Tower for training and items.
-- Use the `party_synergy_agent` to evaluate my team composition against the Flying-type Gym.
+- Use the `team_strategist` agent to evaluate my team composition against the Flying-type Gym.
 
 ## Game Mechanics & Quirks
 - **Headbutt Trees:** Some trees are 'HEADBUTT_TREE' type and are impassable.

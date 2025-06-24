@@ -23,14 +23,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"action_type\":{\"type\":\"string\",\"enum\":[\"move\",\"switch\"]},\"action_value\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"action_type\",\"action_value\",\"justification\"]}",
     "agent_can_run_code": false
   },
-  "team_architect": {
-    "agent_name": "team_architect",
-    "agent_description": "Analyzes all caught Pokémon and the current party to recommend a balanced 6-member team for general progression, considering type diversity and potential future challenges.",
-    "agent_system_prompt": "You are a master Pokémon team architect. You will be given a list of all Pokémon the player has caught (including their species, level, and types) and their current party. Your task is to recommend an ideal, balanced 6-Pokémon team for general-purpose progression through the Johto region. Your analysis must focus on maximizing type coverage, creating offensive and defensive synergy, and anticipating the types of opponents commonly found in the game (e.g., rival battles, future gyms). Provide a list of 6 Pokémon for the recommended team and a detailed justification for why this composition is strong and well-balanced.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"caught_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"types\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"species\",\"level\",\"types\"]}},\"current_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"types\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"species\",\"level\",\"types\"]}}},\"required\":[\"caught_pokemon\",\"current_party\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_team\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_team\",\"justification\"]}",
-    "agent_can_run_code": false
-  },
   "team_strategist": {
     "agent_name": "team_strategist",
     "agent_description": "A comprehensive Pokémon team-building agent. Analyzes party composition and available Pokémon to recommend an optimal team for either a specific upcoming challenge (short-term) or general progression (long-term).",
