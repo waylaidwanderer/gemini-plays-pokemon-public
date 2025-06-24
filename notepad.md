@@ -20,3 +20,5 @@
 - Important NPC dialogue.
 - Obstacles and how to overcome them.
 - Fisher at (12, 9) in New Bark Town mentioned Prof. Elm discovered new Pokémon.
+
+- Encountered a Youngster at (27, 16) on Route 29 who is blocking the path. Failed to interact with him after 3 attempts (adjacent, walking into, and on top of).
