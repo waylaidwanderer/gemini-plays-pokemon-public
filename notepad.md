@@ -33,7 +33,7 @@
         1.  Place SPOONBENDE at the front of the party.
         2.  Enter a battle with a wild Gastly.
         3.  Immediately switch to a stronger Pokémon to defeat the opponent.
-        4.  Use `exp_tracker_agent` to calculate battles needed to reach Lv. 16.
+        4.  Use `exp_tracker_agent` to calculate battles needed to reach Lv. 16. (Result: ~45 battles vs. Gastly)
         5.  Repeat until SPOONBENDE evolves and learns Confusion.
 *   **Phase 3: Team Leveling (Post-Abra)**
     *   Objective: Level up key Pokémon for the rest of the tower.
