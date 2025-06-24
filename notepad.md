@@ -16,14 +16,6 @@
 - **HM Field Use:** HMs MUST be taught to a compatible Pokémon to enable their field use. FLY cannot be used indoors.
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap will not gain actual EXP.
 
-## III. Action Plans & Hypotheses
-### Current Plan (v43 - Pokémon Tower Ascent)
-*   **Objective:** Ascend Pokémon Tower.
-*   **Method:**
-    1.  Defeat the remaining trainers on 4F to clear the path.
-    2.  Explore the southern area of 4F, which is now accessible.
-    3.  Find the stairs to 5F.
-
 ### Future Plans & Hypotheses
 - **Hypothesis 1 (Celadon Gym):** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
 - **Hypothesis 2 (Thirsty Guards):** Need to test if giving a guard a drink (e.g., Fresh Water) will grant passage to Saffron City.
