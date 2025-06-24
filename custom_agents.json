@@ -23,14 +23,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}}}",
     "agent_can_run_code": true
   },
-  "wkg_builder_agent": {
-    "agent_name": "wkg_builder_agent",
-    "agent_description": "Generates the JSON string payloads for `add_node` and `add_edge` calls to the World Knowledge Graph.",
-    "agent_system_prompt": "You are a World Knowledge Graph payload generator. You will receive details about a map transition. Your task is to generate three separate JSON strings: one for the source `add_node` payload, one for the destination `add_node` payload, and one for the `add_edge` payload. Use the placeholder strings `'source_node_id_placeholder'` and `'destination_node_id_placeholder'` in the edge payload. Output these three strings within a JSON object conforming to the schema. Do not generate any other text.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"source_map_id\":{\"type\":\"string\"},\"source_name\":{\"type\":\"string\"},\"source_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"source_type\":{\"type\":\"string\"},\"source_tags\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"destination_map_id\":{\"type\":\"string\"},\"destination_name\":{\"type\":\"string\"},\"destination_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"destination_type\":{\"type\":\"string\"},\"destination_tags\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"connection_type\":{\"type\":\"string\",\"enum\":[\"map_edge\",\"warp\"]},\"is_one_way\":{\"type\":\"boolean\"},\"destination_entry_point\":{\"type\":\"integer\",\"nullable\":true}},\"required\":[\"source_map_id\",\"source_name\",\"source_coordinates\",\"source_type\",\"source_tags\",\"destination_map_id\",\"destination_name\",\"destination_coordinates\",\"destination_type\",\"destination_tags\",\"connection_type\",\"is_one_way\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"source_node_payload\":{\"type\":\"string\"},\"destination_node_payload\":{\"type\":\"string\"},\"edge_payload\":{\"type\":\"string\"}},\"required\":[\"source_node_payload\",\"destination_node_payload\",\"edge_payload\"]}",
-    "agent_can_run_code": false
-  },
   "wkg_manager_agent": {
     "agent_name": "wkg_manager_agent",
     "agent_description": "Manages the entire WKG update transaction. Takes source and destination details, checks if nodes exist, adds them if not, retrieves their IDs, and creates the connecting edge. Prevents duplicate entries and streamlines WKG management.",
