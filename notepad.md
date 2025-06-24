@@ -38,3 +38,8 @@
 - **Party Composition:** Is my current party of two Pokémon sufficient, or should I catch another for better type coverage?
 
 - **Route 30 Glitch:** Stepping on the floor tile at (7, 49) and then moving right into the tall grass at (8, 49) can trigger a battle in a glitched 'Unknown' map (ID: 0_0). This seems to be a consistent trigger.
+
+## Reflection Insights (Turn 2184)
+- **Agent Idea:** Consider creating a `battle_strategist` agent that suggests optimal moves and switches based on type matchups.
+- **Party Strategy:** My current two-Pokémon team might be insufficient for the gym. I should consider catching a flying-type Pokémon like Hoothoot for better type coverage against bug-types.
+- **Glitch Testing:** The glitch warp at (7, 49) needs more testing to confirm its behavior is consistent.
