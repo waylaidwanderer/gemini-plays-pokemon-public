@@ -11,8 +11,6 @@
   4. Talk to all outdoor NPCs again.
 
 ## To-Do List
-- Place a map marker at the dead end on Route 29 (27, 12).
-- Brainstorm and define a 'global_navigator_agent' for multi-map pathfinding.
 
 ## Discoveries & Mechanics
 - Some trees are 'HEADBUTT_TREE' type, likely for the move Headbutt.
