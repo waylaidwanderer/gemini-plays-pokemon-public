@@ -18,8 +18,8 @@
 ### **Current Plan: Team Rebuilding**
 1.  **Situation:** Wiped out in Pokémon Tower. My team is under-leveled and poorly suited for the threats.
 2.  **Action Plan:** 
-    a. Formulate a new team composition better suited for the tower's Ghost and Psychic types.
-    b. Identify an effective training location (Diglett's Cave is a strong candidate).
+    a. Use `team_composition_advisor_agent` to formulate a new team composition better suited for the tower's Ghost and Psychic types.
+    b. Identify an effective training location based on agent recommendations (Diglett's Cave is a strong candidate).
     c. Train the selected team members up to the level 35 cap.
 
 ### Long-Term Goals & Hypotheses
@@ -31,9 +31,9 @@
 ### A. Active Agents & Refinements
 - **`stealth_pathfinder_agent` (v2 - RELIABLE):** Successfully finds complex paths it previously failed. Considered reliable for navigation.
 - **`exploration_agent` (v1 - FUNCTIONAL):** Logic is sound for finding efficient exploration paths, but its performance is dependent on server stability.
+- `wkg_manager_agent` (v2 - RELIABLE): Successfully identifies existing nodes and creates edges without duplication. Considered reliable for WKG management.
 
 ### B. Agent Development Backlog
-- `wkg_manager_agent` (v2 - RELIABLE): Successfully identifies existing nodes and creates edges without duplication. Considered reliable for WKG management.
 - **(Future Idea): `shopping_planner_agent`:** To plan TM and item purchases.
 - **(Future Idea): `item_finder_agent`:** To plan paths for collecting all items on a map.
 - **(Future Idea): `healing_route_planner_agent`:** To find the most efficient path to a Pokémon Center.
