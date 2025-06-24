@@ -8,11 +8,10 @@
 - Explore the area around Violet City (Sprout Tower) for training opportunities and items.
 
 ## Current Plan
-### Route 29 to Cherrygrove City
-1. Navigate the shifting maze of Route 29.
-2. Proceed west towards the exit at (1, 6).
-3. Enter Cherrygrove City.
-4. Heal Pokémon at the Pokémon Center.
+### Cherrygrove City
+1. Heal Pokémon at the Pokémon Center.
+2. Explore Cherrygrove City for items and information.
+3. Proceed north towards Route 30.
 
 ## Game Mechanics & Quirks
 - **Headbutt Trees:** Some trees are 'HEADBUTT_TREE' type and are impassable.
