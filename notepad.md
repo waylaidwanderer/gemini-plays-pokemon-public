@@ -67,3 +67,5 @@
 ### Future Agent Ideas
 - **`shopping_planner_agent`:** An agent to calculate costs for items (especially TMs) and create shopping lists based on my money and priorities.
 - **Restore `wkg_manager_agent`:** Re-implement the original, more powerful agent and learn to use it correctly, deleting the builder agent once the manager is stable.
+
+- **Restore `wkg_manager_agent`:** Re-implement the original, more powerful agent and learn to use it correctly, deleting the builder agent once the manager is stable. (From T22914 reflection)
