@@ -1,36 +1,27 @@
 # Gem's Pokémon Crystal Adventure!
 
-## Current Plan & Strategy
-- **Current Objective:** Return to Professor Elm's lab in New Bark Town with the MYSTERY EGG.
+## Current Mission
+- **Primary Objective:** Return to Professor Elm's lab in New Bark Town with the MYSTERY EGG.
 
-## Discoveries & Mechanics
-- **Headbutt Trees:** Some trees are 'HEADBUTT_TREE' type, likely for the move Headbutt.
+## Game Mechanics & Quirks
+- **Headbutt Trees:** Some trees are 'HEADBUTT_TREE' type and are impassable.
 - **Dialogue Triggers:** Some dialogues might loop until another specific NPC in the room is spoken to (e.g., Elm's Lab).
+- **Wild Encounters:** Can be triggered on 'FLOOR' tiles if they are adjacent to 'TALL_GRASS' tiles. (Observed on Route 30).
+- **One-Way Paths:** The gatehouse between Route 29 and Route 46 appears to be a one-way path. After exiting into Route 29, the door becomes a wall.
+- **Buggy Battle:** The trainer battle with the Youngster at (5, 26) on Route 30 was buggy. It got stuck in a dialogue loop and then ended abruptly by moving my character. If this happens again, I should try moving the cursor in the battle menu as a diagnostic step.
+
+## Agent Performance & Lessons
+- **Trust Agents:** I must trust my agents' calculations over my own intuition, especially when they suggest a counter-intuitive path.
+- **Systematic Updates:** When a new game mechanic is discovered (e.g., an impassable tile type), ALL relevant agents must be updated immediately to prevent repeated errors.
 
 ## World Knowledge & NPCs
 - **New Bark Town:** A Fisher at (12, 9) mentioned Prof. Elm discovered new Pokémon.
 
-## Lessons Learned
-- **Check Notes:** Be diligent about checking my own notes and map markers before exploring to avoid getting lost on already-identified dead ends.
-- **Pivot Faster:** If a path is blocked by an unmovable/un-interactive NPC after 1-2 attempts, assume it's a story-based barrier and pivot to exploration instead of repeatedly trying to get past.
-- **Running from Battles:** It can be more efficient to run from low-level wild battles if I don't intend to catch them, to save HP and time.
-
 ## Unverified Assumptions & Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon?
 - **Ledge Mechanics:** Are ledges in this ROM hack strictly one-way?
-- **Youngster Block:** The Youngster at (27, 16) is a temporary obstacle that will move after a future story event is triggered.
+- **Youngster Block:** The Youngster at (27, 16) on Route 29 was a temporary obstacle that moved after the Mr. Pokémon quest was initiated.
+- **Cherrygrove Mart:** Is the Poké Mart still inaccessible?
 
 ## To-Do & Reminders
-- **Fix Missing Marker:** Re-create the warp marker at (7, 33) on Route 46 as soon as possible.
-
 - **WKG Data Integrity:** Only record data in the World Knowledge Graph that is directly confirmed from the Game State Information. Do not assume values like `destination_entry_point`.
-
-- **One-Way Paths:** The gatehouse between Route 29 and Route 46 appears to be a one-way path. After exiting into Route 29, the door becomes a wall.
-
-## Strategy Updates
-
-## Bugs & Glitches
-- The trainer battle with the Youngster at (5, 26) on Route 30 was buggy. It got stuck in a dialogue loop and then ended abruptly by moving my character. If this happens again, I should try moving the cursor in the battle menu as a diagnostic step.
-
-## Game Mechanics & Quirks
-- Wild encounters can be triggered on 'FLOOR' tiles if they are adjacent to 'TALL_GRASS' tiles. (Observed on Route 30 at (11, 23)).
