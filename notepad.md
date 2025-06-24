@@ -53,9 +53,8 @@
 - **Pokémon Tower 5F Healing Spot (13, 9) is FAKE:** The Channeler offers dialogue but does NOT heal the party. Do not rely on this spot.
 
 ### Pokémon Tower Battle Intel
-- **Pokémon Tower 5F (12, 10):** Purified healing zone fully heals the party upon entering the tile.
 - **Pokémon Tower 5F:** High wild encounter rate.
-- **Channeler at (17,6) Battle:** Lost battle and blacked out. Trainer is NOT defeated. Rematch required.
+- **Channeler at (17,6):**
   - Team: Lv33 Hypno, Lv33 Haunter.
   - Hypno knows Psychic and Confusion.
   - Haunter knows Smog, Lick, and Confuse Ray.
