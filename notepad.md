@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Adventure!
 
 ## Current Plan & Strategy
-- **Current Objective:** Explore Route 46 to find a path to Cherrygrove City.
+- **Current Objective:** Travel through Route 29 to reach Cherrygrove City.
 
 ## Discoveries & Mechanics
 - **Headbutt Trees:** Some trees are 'HEADBUTT_TREE' type, likely for the move Headbutt.
@@ -9,23 +9,16 @@
 
 ## World Knowledge & NPCs
 - **New Bark Town:** A Fisher at (12, 9) mentioned Prof. Elm discovered new Pokémon.
-- **Route 29:** A Youngster at (27, 16) is blocking the southern path. Interaction attempts from multiple sides have failed.
 
 ## Lessons Learned
 - **Check Notes:** Be diligent about checking my own notes and map markers before exploring to avoid getting lost on already-identified dead ends.
 - **Pivot Faster:** If a path is blocked by an unmovable/un-interactive NPC after 1-2 attempts, assume it's a story-based barrier and pivot to exploration instead of repeatedly trying to get past.
+- **Running from Battles:** It can be more efficient to run from low-level wild battles if I don't intend to catch them, to save HP and time.
 
 ## Unverified Assumptions & Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon?
 - **Ledge Mechanics:** Are ledges in this ROM hack strictly one-way?
 - **Youngster Block:** The Youngster at (27, 16) is a temporary obstacle that will move after a future story event is triggered.
 
-## Agent Development Notes
-
 ## To-Do & Reminders
 - **Fix Missing Marker:** Re-create the warp marker at (7, 33) on Route 46 as soon as possible.
-
-## Lessons Learned
-- My manual pathfinding on Route 29 was terrible and wasted a lot of time. For any remotely complex navigation, I must trust my `pathfinder_agent` to avoid getting stuck in dead ends.
-
-- **Running from Battles:** It can be more efficient to run from low-level wild battles if I don't intend to catch them, to save HP and time.
