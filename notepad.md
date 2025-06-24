@@ -27,7 +27,6 @@
 - **Trap Tiles:** Is deliberately entering a 'trap' tile a viable strategy to force a favorable map shift, even when other non-backtracking moves are available?
 
 ## New Agent Ideas
-- **route_29_solver_agent:** An advanced agent that can simulate multi-step paths on Route 29. It would take a sequence of moves, predict the resulting map shifts, and find a sequence that makes progress, effectively solving the navigation puzzle instead of just suggesting the next best step.
 
 ## Completed Objectives & Past Events
 - **Youngster Block:** The Youngster at (27, 16) on Route 29 was a temporary obstacle that moved after the Mr. Pokémon quest was initiated.
