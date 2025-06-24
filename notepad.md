@@ -34,3 +34,6 @@
 - **route_29_solver_agent Failure:** The agent's initial hypothesis that trees ('HEADBUTT_TREE', 'CUT_TREE') are passable was incorrect. My attempt to follow its path was blocked. The agent has been updated to correctly treat these tiles as impassable obstacles.
 
 - **route_29_solver_agent Design Flaw:** The agent was fundamentally flawed as it cannot predict map shifts. It was deleted.
+
+## Failed Strategies & Dead Ends
+- **Route 29 Ledge Trap:** Jumping the ledge at (16, 11) leads to a dead end at (16, 12), where it appears I am completely trapped. This strategy is a failure.
