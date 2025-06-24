@@ -50,3 +50,5 @@
 - **Battle Logic Hallucination (T23301-T23328):** Assumed standard Gen 1 type matchups. Discovered Psychic is SUPER-EFFECTIVE against Ghost/Poison in this ROM hack after a battle. **Lesson:** Must verify all type matchups through observation and update agents accordingly.
 
 - **(HIGH PRIORITY): `pc_navigator_agent`:** Design an agent to handle complex PC operations (deposits/withdrawals) by generating the precise button sequence, avoiding menu errors.
+
+- **(HIGH PRIORITY): `pc_navigator_agent`:** Design an agent to handle complex PC operations (deposits/withdrawals) by generating the precise button sequence, avoiding menu errors.
