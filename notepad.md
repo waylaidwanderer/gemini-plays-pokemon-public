@@ -20,3 +20,14 @@
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. (Check again later)
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
+
+## Agent Ideas
+- **Pokedex Agent:** Could track seen/caught Pokémon and suggest locations for finding uncaught ones.
+- **Puzzle Solver Agent:** Could analyze complex environmental puzzles and NPC behavior patterns beyond simple pathfinding.
+
+## Unverified Assumptions (To Test)
+- The eastern loop on Route 30 is the *only* way north.
+- The 'shadowing NPC' mechanic is just a visual quirk with no deeper gameplay purpose.
+- Headbutt trees are impassable until I acquire the Headbutt move.
+- The Fruit Tree can *only* be interacted with from an adjacent tile.
+- All trainers on this route will battle on sight, with no special conditions.
