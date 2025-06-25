@@ -40,7 +40,7 @@
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v3):** Recently refined. Monitor for improved performance.
 - **`team_composition_advisor_agent` (v2):** Reliable.
-- **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST start using this agent after every wild encounter to build my training data log. No more excuses.
+- **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST start using this agent after every wild encounter to build my training data log. No more excuses. I will now integrate this into my standard post-battle workflow.
 
 ### B. Agent Development Backlog
 - **`route_explorer_agent`:** Plan a path to battle all trainers and collect all items on a given route.
