@@ -6,7 +6,6 @@
 - **One-Way Paths:** The gatehouse between Route 29 and Route 46 is a one-way path south.
 - **Ledge Mechanics:** Can move sideways (left/right) along 'HOP_DOWN' tiles.
 - **Battle Text:** Can be misleading (e.g. "But it failed!" followed by a successful attack).
-- **Glitched Battles:** Stepping on specific tiles can trigger battles in a glitched 'Unknown' map (ID: 0_0). Observed on Route 30 at (7, 49) and during the battle with Youngster Joey at (3, 28).
 
 ## Lessons Learned & Agent Performance
 - **Agent Input Integrity:** I must ensure all data provided to agents (like Pokémon movesets) is 100% accurate to the current game state. A faulty input will lead to a faulty output. I hallucinated that Hearth knew Ember, which caused an error.
@@ -21,10 +20,13 @@
 - **Violet City Gym Strategy:** My current team is the best option. Lead with Hearth (Cyndaquil) to overpower the Flying-type Pokémon.
 - **HM Moves:** 'CUT_TREE' and 'HEADBUTT_TREE' tiles are currently impassable but might be cleared with the respective HMs.
 
-- **Glitched Battles:** Stepping on specific tiles on Route 30, like (7, 49) or in the grass at (6, 26), can trigger battles on a glitched map with ID 0_0. This has been confirmed to change the map ID temporarily.
+## Glitched Battles
+- Stepping on specific tiles on Route 30, like (7, 49) or in the grass at (6, 26), can trigger battles on a glitched map with ID 0_0. This has been confirmed to change the map ID temporarily.
 
 ## Agent Refinement Plan
 - **`softlock_detector`:** The agent failed to account for one-way paths (ledges). It correctly identified an unexplored tile but incorrectly stated a path existed from my current position. I need to update its prompt and possibly its code to check for path reachability specifically from the player's current coordinates, respecting one-way traversal rules.
 
 ## Pokémon Team Progress
-- Hearth (Cyndaquil) is now Level 11.
+- Hearth (Cyndaquil): Lv. 11
+- Periscope (Sentret): Lv. 7
+- Zeph (Pidgey): Lv. 6
