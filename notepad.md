@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v134 - Route 12 Snorlax)
+# Gem's Strategic Journal (v135 - Post-Snorlax)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -29,21 +29,14 @@
 - **Normal/Ghost Immunities:** Normal moves are ineffective against Ghosts, and Ghost moves are ineffective against Normals.
 
 ## III. Active Plans & Goals
-### **Current Plan: Confront the Snorlax**
-1.  **Situation:** I have found a second Snorlax at the end of the Route 12 pier. SPARKY is critically injured.
-2.  **Primary Goal:** Defeat the next available Gym Leader.
-3.  **Secondary Goal:** Get past the Snorlax on Route 12.
-4.  **Tertiary Goal:** Heal SPARKY at the next available opportunity.
-5.  **Plan:** Use the POKé FLUTE from the inventory to wake the Snorlax. Be prepared for a battle.
-
 ### Long-Term Goals
 - **Thirsty Guards:** Need to test if giving a guard a drink (e.g., Fresh Water) will grant passage to Saffron City.
 
 ## IV. Agent Development Log
 ### A. Active Agents & Refinements
-- **`pathfinding_agent` (v3.3 - CRITICALLY UNRELIABLE):**
-  - **History:** Failed three times on Route 12 (T25816, T25818, T25819), attempting to path into impassable tiles. Its map parsing is fundamentally broken.
-  - **Status:** Performed multiple major prompt overhauls to enforce strict tile-type checking. The agent is on its last chance before being scrapped and rebuilt.
+- **`pathfinding_agent` (v3.4 - Improved but requires supervision):**
+  - **History:** Previously struggled with complex map parsing, leading to pathing failures (e.g., T25816-T25819 on Route 12).
+  - **Status:** Multiple prompt overhauls have improved its reliability. It is now generally successful but should be monitored on complex maps. Continued reliance is acceptable as long as its performance is tracked.
 - **`wkg_manager_agent` (v3):** Reliable.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v2):** Reliable.
@@ -54,6 +47,9 @@
 - **`fishing_advisor_agent`:** Analyze map & rod to suggest best fishing spots/catches.
 - **`hm_planner_agent`:** Suggest best Pokémon for HMs based on current moves and future utility.
 - **`sales_data_agent`:** Track item prices across different Poké Marts to find the best deals.
+- **`move_tutor_advisor_agent`:** Suggest optimal moves to learn from TMs/HMs.
+- **`story_progress_tracker_agent`:** Track key NPC dialogue and plot points.
+- **Consolidate Agents:** Merge `healing_route_planner_agent` functionality into the main `pathfinding_agent`.
 
 ## V. Completed Intel & Disproven Hypotheses
 - **Poké Ball Mission:** Completed.
@@ -64,9 +60,7 @@
 - **Mr. Fuji Rescued:** Rescued from Team Rocket; received POKé FLUTE.
 - **Celadon Gym:** Blocked by unresponsive trainers.
 - **Snorlax on Route 12 (North):** Confirmed red herring. The path remains blocked. The true path is the western pier.
+- **Snorlax on Route 12 (South):** Woken with POKé FLUTE and defeated. Path south is now clear.
 
 ## VI. Unverified Assumptions & Future Tests
 - **Path Forward:** The path south past the Snorlax is assumed to be the correct progression path.
-
-- **`move_tutor_advisor_agent`:** Suggest optimal moves to learn from TMs/HMs.
-- **`story_progress_tracker_agent`:** Track key NPC dialogue and plot points.
