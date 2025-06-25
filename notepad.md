@@ -21,6 +21,5 @@
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
 
 ## Future Plans & Strategy
-- **Primary Goal:** Deliver the MYSTERY EGG to Professor Elm in New Bark Town. This likely unlocks the path to Violet City.
+- **Primary Goal:** Defeat the Violet City Gym Leader and earn the Zephyr Badge.
 - **HM Moves:** 'CUT_TREE' and 'HEADBUTT_TREE' tiles are currently impassable but might be cleared with the respective HMs.
-- **Agent Refinement:** The `pathfinder_pro` agent is redundant with `map_analyst`. The plan is to merge its robust, code-based pathfinding capabilities directly into `map_analyst`. Once `map_analyst` is updated to handle pathfinding, `pathfinder_pro` will be deleted to streamline my toolset.
