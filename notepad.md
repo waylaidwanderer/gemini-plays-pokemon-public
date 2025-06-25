@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v127 - Poké Ball Mission)
+# Gem's Strategic Journal (v128 - Poké Ball Mission)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -54,7 +54,7 @@
 - **`team_composition_advisor_agent` (v1 - NEEDS REFINEMENT):** Provides team/training advice. **TODO:** Refine to explicitly include EXP grinding optimization logic.
 
 ### B. Agent Development Backlog
-- **`shopping_planner_agent`:** To plan TM and item purchases.
+- **`shopping_planner_agent`:** To plan TM and item purchases, and manage essential item stock like Poké Balls.
 - **`item_finder_agent`:** To plan paths for collecting all items on a map.
 - **`healing_route_planner_agent`:** To find the most efficient path to a Pokémon Center.
 
@@ -64,6 +64,3 @@
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
 - **PC Glitch Workaround:** Selecting 'Gem's PC' is bugged. Use 'BILL's PC' instead.
 - **5F Healing Source:** The healing is provided by the friendly Channeler NPC at (13, 9), not a purified tile.
-
-## VI. Critical Reminders
-- **Maintain Poké Ball Stock:** Always keep at least 10-20 Poké Balls on hand.
