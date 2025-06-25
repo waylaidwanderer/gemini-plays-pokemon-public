@@ -26,9 +26,9 @@
 ## Agent Ideas
 - **Pokedex Agent:** Could track seen/caught Pokémon and suggest locations for finding uncaught ones.
 - **Puzzle Solver Agent:** Could analyze complex environmental puzzles and NPC behavior patterns beyond simple pathfinding.
+- **Item Finder Agent:** An agent to determine which pocket an item is in to avoid manual searching.
 
 ## Unverified Assumptions (To Test)
 - The eastern loop on Route 30 is the *only* way north.
 - The 'shadowing NPC' mechanic is just a visual quirk with no deeper gameplay purpose.
-- Headbutt trees are impassable until I acquire the Headbutt move.
 - All trainers on this route will battle on sight, with no special conditions.
