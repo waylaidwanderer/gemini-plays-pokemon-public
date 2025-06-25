@@ -67,3 +67,6 @@
 
 ## VI. Unverified Assumptions & Future Tests
 - **Path Forward:** The path south past the Snorlax is assumed to be the correct progression path.
+
+- **`move_tutor_advisor_agent`:** Suggest optimal moves to learn from TMs/HMs.
+- **`story_progress_tracker_agent`:** Track key NPC dialogue and plot points.
