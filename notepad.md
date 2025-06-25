@@ -21,15 +21,4 @@
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
 - The Gentleman NPC at (3, 5) in Mr. Pokémon's house is Mr. Pokémon.
 
-## Current Plan
-- **Objective:** Get past the shadowing Youngster on Route 30.
-- **Hypothesis:** Using the POKéGEAR phone might reset the NPC's state.
-- **Steps:**
-  1. Open menu.
-  2. Navigate to POKéGEAR.
-  3. Select POKéGEAR.
-  4. Select Phone.
-  5. Call Professor Elm.
-  6. Close menu and observe results.
-
 - **Unrecoverable Hardlock:** The shadowing Youngster on Route 30 at (9, 30) has created an unrecoverable hardlock. All attempts to resolve (movement, interaction, menuing, party switching, POKéGEAR phone) have failed over 20+ turns. This appears to be a game-breaking bug with no solution.
