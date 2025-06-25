@@ -27,12 +27,13 @@
   - Hypno knows Psychic, Confusion, and Poison Gas.
 
 ## III. Active Plans & Hypotheses
-### **Current Plan: Pokémon Tower Ascent & Training**
+### **Current Plan: Pokémon Tower Ascent & Training (v2)**
 1.  **Situation:** Ascending the Pokémon Tower to rescue Mr. Fuji. My team, specifically Spoonbende (Lv19) and Phantom (Lv19), is underleveled for the higher floors.
 2.  **Action Plan:**
-    a. **Grind on 3F:** Battle wild Gastly on Pokémon Tower 3F to train Spoonbende and Phantom to approximately Lv22. This area is ideal due to type advantages (Echo's Bite, Spoonbende's Confusion).
-    b. **Ascend:** Once the team is adequately leveled, continue climbing the tower, floor by floor.
-    c. **Battle Strategy:** Continue to leverage known type-matchup changes, especially Psychic vs. Ghost/Poison.
+    a. **Establish Base on 5F:** Use the reusable purified healing zone at (12, 10) on 5F as a base of operations.
+    b. **Ascend & Train:** Systematically clear each floor of trainers, starting with the Channeler at (13,9) on 5F. Use the healing zone after battles to recover. This will serve as the primary training method for Spoonbende and Phantom.
+    c. **Contingency:** If trainer battles prove too difficult, grind on wild Pokémon on floors 4F/5F before re-attempting.
+    d. **Battle Strategy:** Continue to leverage known type-matchup changes, especially Psychic vs. Ghost/Poison and Bite vs. Psychic.
 
 ### Long-Term Goals & Hypotheses
 - **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
