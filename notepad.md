@@ -28,3 +28,5 @@
 
 ## Agent Refinement Plan
 - **`softlock_detector`:** The agent failed to account for one-way paths (ledges). It correctly identified an unexplored tile but incorrectly stated a path existed from my current position. I need to update its prompt and possibly its code to check for path reachability specifically from the player's current coordinates, respecting one-way traversal rules.
+
+- **Agent Consolidation:** The `softlock_detector` is redundant. I will merge its pathfinding capabilities into the `map_analyst` agent to create a single, more powerful tool for map analysis.
