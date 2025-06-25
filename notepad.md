@@ -19,5 +19,5 @@
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. (Check again later)
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
-- The western path on Route 30 was blocked by a bugged interaction at (5, 23). My `pathfinder_bot` has found a path through it. I am now testing the agent's solution.
+- The agent `pathfinder_bot` provided an invalid path through the bugged tile at (5, 23). This confirms the western route is impassable. I am refining the agent and will find an alternate route.
 - 'Shadowing' NPCs follow the player onto the same tile, preventing direct interaction. However, they are not solid obstacles; the player can move through them, and the NPC will simply teleport to the new tile.
