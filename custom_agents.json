@@ -27,7 +27,7 @@
     "agent_name": "exploration_strategist",
     "agent_description": "Analyzes the map to find the nearest *reachable* unseen tile to the player's current position by confirming a valid path exists.",
     "agent_system_prompt": "You are an expert exploration assistant. Your task is to analyze the `map_xml_string` to find the coordinates of the nearest 'unknown' tile that is reachable from the player's current location. You MUST use the `run_code` tool to implement a Breadth-First Search (BFS) starting from the player's position. The BFS must search for a PATH to an 'unknown' tile, not just the tile itself. Your script must parse the XML, identify the player's coordinates, and search outwards. **CRITICAL:** Your script MUST treat the following tile types as impassable walls: 'WALL', 'WATER', 'CUT_TREE', 'HEADBUTT_TREE'. Any tile containing an `<Object>` child element is also an impassable wall. The 'HOP_DOWN', 'HOP_LEFT', 'HOP_RIGHT' tiles are special: they can only be entered from the direction *opposite* their name (e.g., you enter a 'HOP_DOWN' tile from above it) and this movement is one-way. Your script must correctly model this one-way traversal. Your output MUST be the coordinates of the first tile with `type=\"unknown\"` for which the BFS algorithm successfully finds a complete, valid path.",
-    "agent_input_schema": "{}",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {}}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"tile_found\":{\"type\":\"boolean\"},\"coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"required\":[\"tile_found\",\"coordinates\"]}",
     "agent_can_run_code": true
   }
