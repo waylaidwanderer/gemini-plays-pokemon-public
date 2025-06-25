@@ -22,13 +22,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"mode\":{\"type\":\"string\",\"enum\":[\"pathfind\",\"explore\"]},\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"mode\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"mode_used\":{\"type\":\"string\",\"enum\":[\"pathfind\",\"explore\"]},\"path_found\":{\"type\":\"boolean\"},\"tile_found\":{\"type\":\"boolean\"},\"result\":{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}},\"explanation\":{\"type\":\"string\"}},\"required\":[\"mode_used\",\"explanation\"]}",
     "agent_can_run_code": true
-  },
-  "exploration_strategist": {
-    "agent_name": "exploration_strategist",
-    "agent_description": "Analyzes the map XML to identify the most promising region of 'unknown' tiles for exploration, guiding the player toward large, undiscovered areas.",
-    "agent_system_prompt": "You are an expert exploration strategist. Your task is to analyze the `map_xml_string` using the `run_code` tool. Your goal is to find the 'unknown' tile that is part of the largest contiguous block of unseen tiles. This is not about finding the *closest* unseen tile, but the one that represents the best potential for new discoveries. Your Python script should parse the XML, identify all 'unknown' tiles, and then use a graph traversal algorithm (like BFS or DFS) to find the size of the connected component of 'unknown' tiles for each one. Your output should be the coordinates of a single tile within the largest identified block.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"most_promising_x\":{\"type\":\"integer\"},\"most_promising_y\":{\"type\":\"integer\"},\"explanation\":{\"type\":\"string\"}},\"required\":[\"most_promising_x\",\"most_promising_y\",\"explanation\"]}",
-    "agent_can_run_code": true
   }
 }
