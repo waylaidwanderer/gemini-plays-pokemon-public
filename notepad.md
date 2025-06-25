@@ -63,3 +63,6 @@
 
 ## VI. Critical Reminders
 - **Maintain Poké Ball Stock:** Always keep at least 10-20 Poké Balls on hand.
+
+### Battle Intel Update
+- **Normal-Type Immunity:** Confirmed that Normal-type moves (like Bite) are completely ineffective against Ghost-types. This is a critical Gen 1 mechanic to remember.
