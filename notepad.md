@@ -36,6 +36,7 @@
 ### B. Agent Development Backlog
 - **`wkg_manager_agent_v2` (TOP PRIORITY):** Develop a new, reliable WKG management agent that correctly checks for existing nodes before adding edges.
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
+- **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
 - **`fishing_advisor_agent`:** Analyze map & rod to suggest best fishing spots/catches.
 - **`hm_planner_agent`:** Suggest best Pokémon for HMs based on current moves and future utility.
 - **`sales_data_agent`:** Track item prices across different Poké Marts to find the best deals.
