@@ -70,3 +70,9 @@
 - **Mr. Fuji Rescued:** Rescued from Team Rocket; received POKé FLUTE.
 - **Celadon Gym:** Blocked by unresponsive trainers.
 - **Snorlax on Route 12:** Encounter seems bugged. Path is blocked even after waking it. The western pier is the correct path.
+
+## VI. Unverified Assumptions & Future Tests
+- **Snorlax on Route 12:** The encounter seems bugged or a red herring. The sprite disappeared after using the POKé FLUTE, but the path at (12, 37) remains blocked. The true path seems to be the western pier. **Hypothesis to Test:** Revisit this Snorlax after exploring the rest of the region to see if a different trigger is required.
+
+## VII. Agent Development Priorities
+- **`healing_route_planner_agent`:** Create an agent to find the most efficient path to a Pokémon Center using the WKG. This is a high priority due to SPARKY's critical condition.
