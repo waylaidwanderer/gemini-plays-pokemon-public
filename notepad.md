@@ -17,10 +17,10 @@
 My path north is blocked. I will systematically re-explore all known locations to find a new way forward.
 
 ### Checklist & Plan:
-- **[ ] New Bark Town (24_4):**
+- **[X] New Bark Town (24_4):**
   - [ ] Interact with Teacher at (0, 9). (Attempt failed due to shadowing bug).
   - [X] Re-check Elm's Lab (24_5). (Completed - no new info).
-  - [ ] Re-check my house (24_6, 24_7). (In Progress).
+  - [X] Re-check my house (24_6, 24_7). (Completed - no new info).
   - [ ] Re-check Elm's house (24_9).
 - **[ ] Route 29 (24_3):**
   - [ ] Re-check all NPC dialogue.
