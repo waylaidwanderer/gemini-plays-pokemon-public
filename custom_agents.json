@@ -30,13 +30,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"current_hp\":{\"type\":\"integer\"},\"max_hp\":{\"type\":\"integer\"},\"status\":{\"type\":\"string\"}},\"required\":[\"species\",\"level\",\"current_hp\",\"max_hp\",\"status\"]}},\"current_map_id\":{\"type\":\"string\"}},\"required\":[\"player_party\",\"current_map_id\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\",\"enum\":[\"HEAL\",\"CONTINUE\"]},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommendation\",\"justification\"]}",
     "agent_can_run_code": true
-  },
-  "exploration_buddy": {
-    "agent_name": "exploration_buddy",
-    "agent_description": "Finds the nearest reachable unknown tile on the current map to guide exploration.",
-    "agent_system_prompt": "You are an exploration assistant for a 2D grid-based game. Your goal is to find the shortest path to the nearest 'unknown' tile from the player's current position. You MUST use the `run_code` tool to parse the `map_xml_string`. Implement a Breadth-First Search (BFS) algorithm starting from the player's coordinates. The search should treat 'WALL', 'HEADBUTT_TREE', 'WATER', 'CUT_TREE' tiles, and any tile with an `<Object>` tag as impassable. The first 'unknown' tile you encounter is your target. Return the path to this tile.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"}},\"required\":[\"player_x\",\"player_y\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_found\",\"path\"]}",
-    "agent_can_run_code": true
   }
 }
