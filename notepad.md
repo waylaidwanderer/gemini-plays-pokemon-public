@@ -8,17 +8,17 @@
 - **Battle Text:** Can be misleading (e.g. "But it failed!" followed by a successful attack).
 
 ## Lessons Learned
-- **Agent Management:** My `map_analyst` agent's 'explore' mode is fundamentally flawed. I must rely on the 'pathfind' mode.
+- **Agent Refinement:** Agents are not perfect on the first try. My `map_analyst` agent required updates after I discovered new impassable tile types. I must update agents immediately when new mechanics are discovered.
 - **Trust Documentation:** My own map markers and notes are reliable. The 'bugged' trainer at (5, 23) was still there as an invisible wall, even when the sprite disappeared. I must trust my findings.
-- **Systematic Updates:** When a new game mechanic or impassable tile type is discovered, ALL relevant agents must be updated immediately.
 - **Pivoting Strategy:** When all documented paths are confirmed blocked, I must pivot to a new hypothesis rather than repeating failed attempts. Stagnation is inefficiency.
 - **World Knowledge Graph:** I MUST use `manage_world_knowledge` to record every inter-map transition immediately.
-- **Softlock Solutions:** Some trainer softlocks can be resolved through non-obvious means, such as opening the menu or changing the lead Pokémon. If stuck on an NPC, try unconventional interactions before assuming a hard block.
+- **Softlock Solutions:** Some NPC-related softlocks can be resolved through non-obvious means, such as opening the menu, changing the lead Pokémon, or simply moving away. The 'shadowing' Youngster on Route 30 was not a hardlock, just a persistent follower that despawned when I moved far enough away.
+- **Verify Basic Assumptions:** My biggest mistake was assuming I was hardlocked. I must always re-verify my most fundamental assumptions (like 'can I move?') before concluding I am stuck.
 
 ## Unverified Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. (Check again later)
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
 - The Gentleman NPC at (3, 5) in Mr. Pokémon's house is Mr. Pokémon.
-
-- Shadowing Softlock: The Youngster on Route 30 at (9, 31) shadows my every move, occupying the same tile. While I can move, this prevents interactions and may cause issues. This is a persistent, but not a hard, lock.
+- The northern paths on Route 30 are blocked due to a missed story trigger. (Current working theory)
+- The other soft-locking trainers on Route 30 might have a similar non-obvious solution to the shadowing NPC.
