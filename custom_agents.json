@@ -46,5 +46,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_map_id\":{\"type\":\"string\"},\"current_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"current_map_id\",\"current_coordinates\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"destination_pokecenter_map_id\":{\"type\":\"string\"},\"route\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"path_found\":{\"type\":\"boolean\"}},\"required\":[\"destination_pokecenter_map_id\",\"route\",\"path_found\"]}",
     "agent_can_run_code": true
+  },
+  "encounter_tracker_agent": {
+    "agent_name": "encounter_tracker_agent",
+    "agent_description": "Records wild Pokémon encounters for a specific map, updating a persistent log. Helps in building a database for training and Pokédex completion.",
+    "agent_system_prompt": "You are a Pokémon Encounter Data Logger. Your job is to take a map ID and a list of newly encountered Pokémon and update a persistent JSON log. You will be given the existing log as a JSON string. Your task is to parse the existing log, add the new encounters to the list for the given map ID (avoiding duplicates), and then output the updated JSON string. The log should be a dictionary where keys are map IDs and values are lists of unique Pokémon names. If the map ID does not exist in the log, create it. Your final output must be a JSON object containing the updated log.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"map_id\":{\"type\":\"string\"},\"new_encounters\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"existing_log_json\":{\"type\":\"string\"}},\"required\":[\"map_id\",\"new_encounters\",\"existing_log_json\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"updated_log_json\":{\"type\":\"string\"}},\"required\":[\"updated_log_json\"]}",
+    "agent_can_run_code": false
   }
 }
