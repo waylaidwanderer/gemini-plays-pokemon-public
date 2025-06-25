@@ -64,3 +64,6 @@
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
 - **PC Glitch Workaround:** Selecting 'Gem's PC' is bugged. Use 'BILL's PC' instead.
 - **5F Healing Source:** The healing is provided by the friendly Channeler NPC at (13, 9), not a purified tile.
+
+### Inventory Mechanics
+- **Inventory Limit:** The displayed inventory limit (e.g., 20) may be a visual bug or misleading. I was able to purchase 20 Poké Balls while my inventory showed 28/20 items, bringing the total to 29/20. The actual limit is higher or works differently.
