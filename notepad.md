@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v129 - Pokémon Tower Ascent)
+# Gem's Strategic Journal (v130 - Pokémon Tower Reflection)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. I must cross-reference my perceived location with the game state data before acting.
@@ -15,6 +15,7 @@
   - Ghost is SUPER-EFFECTIVE against Psychic.
   - Bite (Normal) is SUPER-EFFECTIVE against Psychic.
   - Normal is NOT-VERY-EFFECTIVE against Psychic.
+- **Poison Status Immunity:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves (e.g., SMOG). Confirmed when CRAG was poisoned.
 
 ### Navigation & Traversal Rules
 - **Defeated Trainers as Obstacles:** Defeated trainers act as impassable walls and must be navigated around. Confirmed on Pokémon Tower 5F.
@@ -43,11 +44,12 @@
 - **Snorlax (Route 16):** Requires the Poké Flute. Mr. Fuji is the most likely source after he is rescued.
 
 ## IV. Unverified Assumptions (To Be Tested)
-- **5F Healing Source:** Is the friendly Channeler at (13, 9) a permanent, reusable healing spot, or a one-time event?
 - **Tower Layout:** Is the path from 6F to the top linear, or is it a maze?
 - **Final Ghost:** Is the ghost that blocked the stairs to 7F gone for good?
 - **Progression Trigger:** Is defeating all Channelers the only way to progress, or is there a puzzle?
 - **Wild Encounters:** Are there other rare Pokémon besides Gastly and Cubone on higher floors?
+- **Healing Locations:** Is the 5F healer the only one in the tower?
+- **Mr. Fuji's Location:** Is Mr. Fuji at the very top, or on a lower floor?
 
 ## V. Agent Development Log
 ### A. Active Agents & Refinements
@@ -55,10 +57,9 @@
 - **`wkg_manager_agent` (v2):** Reliable for WKG updates.
 - **`pc_navigator_agent` (v2):** Reliable for PC navigation.
 - **`battle_strategist_agent` (v1):** Reliable for battle advice.
-- **`team_composition_advisor_agent` (v1):** **TODO:** Refine system prompt to explicitly include EXP grinding optimization logic (best Pokémon to fight for EXP based on yield, type matchups, etc.).
+- **`team_composition_advisor_agent` (v2):** Refined to include EXP grinding optimization logic.
 
 ### B. Agent Development Backlog
-- **`shopping_planner_agent`:** Plan TM/item purchases, manage essential item stock. Will calculate costs and create shopping lists to prevent running out of key items like Poké Balls again.
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
 - **`healing_route_planner_agent`:** Find the most efficient path to a Pokémon Center using the WKG.
 
@@ -69,9 +70,7 @@
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
 - **PC Glitch Workaround:** Selecting 'Gem's PC' is bugged. Use 'BILL's PC' instead.
 - **Inventory Limit is Visual Bug:** Confirmed the inventory can hold more than the displayed limit.
+- **5F Healing Source:** The friendly Channeler at (13, 9) is a permanent, reusable healing spot.
 
 ### Pokémon Evolutions
 - CRAG (Geodude) -> Graveler at Lv. 25 in Pokémon Tower 4F.
-
-### General Mechanics
-- **Poison Status Immunity:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves (e.g., SMOG). Confirmed when CRAG was poisoned.
