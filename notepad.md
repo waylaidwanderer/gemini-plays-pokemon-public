@@ -46,12 +46,8 @@
 - **Snorlax (Route 16):** Requires the Poké Flute. Mr. Fuji is the most likely source after he is rescued.
 
 ## IV. Unverified Assumptions (To Be Tested)
-- **5F Healing Source:** Is the friendly Channeler at (13, 9) a permanent, reusable healing spot?
-- **Tower Layout:** Is the path from 6F to the top linear, or is it a maze?
-- **Final Ghost:** Is the ghost that blocked the stairs to 7F gone for good?
-- **Progression Trigger:** Is defeating all Channelers the only way to progress, or is there a puzzle?
-- **Wild Encounters:** Are there other rare Pokémon besides Gastly and Cubone on higher floors?
-- **Mr. Fuji's Location:** Is Mr. Fuji at the very top, or on a lower floor?
+- **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
+- **Thirsty Guards:** Need to test if giving a guard a drink (e.g., Fresh Water) will grant passage to Saffron City.
 
 ## V. Agent Development Log
 ### A. Active Agents & Refinements
