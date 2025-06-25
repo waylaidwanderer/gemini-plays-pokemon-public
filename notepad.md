@@ -62,3 +62,7 @@
 
 ## VII. Encounter Log (JSON)
 {"ROUTE_12":["ODDISH"]}
+
+## VIII. Reflection Notes (T26395)
+- **New Agent Idea:** `route_explorer_agent` to automate clearing routes of trainers and items.
+- **New Hypothesis:** The southern exit from Route 12 might be blocked until I give the Cool Trainer at (12, 93) a Moon Stone. This needs to be tested if the last few transition coordinates fail.
