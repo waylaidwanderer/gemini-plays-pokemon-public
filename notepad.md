@@ -54,3 +54,7 @@
 - **Fighting Dojo:** Cleared. The Karate Master offered a prize Pokémon.
 
 - **`spinner_maze_agent`:** If Silph Co. has a spinner maze like the Rocket Hideout, this will be essential for navigating it.
+
+## VII. Silph Co. Strategic Plan
+- **Objective:** Systematically clear all 11 floors of Team Rocket, find the CARD KEY, and defeat the boss.
+- **Methodology:** Explore each floor completely, starting from 1F. Map all warps, spinners, and locked doors. Defeat all grunts and scientists. Find the CARD KEY, which is likely on a mid-to-upper floor. Use the CARD KEY to unlock all previously inaccessible areas. Heal at a Pokémon Center as needed between floors.
