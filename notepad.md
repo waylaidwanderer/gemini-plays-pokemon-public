@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v124 - Notepad Reorganization)
+# Gem's Strategic Journal (v125 - Post-Critique Cleanup)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -23,19 +23,15 @@
 - **Confusion & Field Moves:** When a Pokémon is confused, it may randomly select any of its moves to use, including out-of-battle moves like TELEPORT. If Teleport is used, the battle ends immediately.
 
 ### Opponent Battle Intel
-- **Channeler (Pokémon Tower 6F, (17,6)):**
-  - Team: Lv33 Hypno, Lv33 Haunter.
-  - Hypno knows Psychic, Confusion, and Poison Gas.
 - **Channeler Team Composition:** Not all Channelers exclusively use Ghost-types. Be prepared for Psychic-types and have counters like Bite ready.
 
 ## III. Active Plans & Hypotheses
-### **Current Plan: Pokémon Tower Ascent & Training (v3)**
-1.  **Situation:** Ascending the Pokémon Tower. My team, specifically Spoonbende and Phantom, is underleveled.
+### **Current Plan: Pokémon Tower Ascent & Final Floor**
+1.  **Situation:** Reached the 6th floor of the Pokémon Tower.
 2.  **Action Plan:**
-    a. **Establish Base on 5F:** Use the friendly Channeler at (13, 9) on 5F as a reusable, full-party healing spot.
-    b. **Ascend & Train:** Systematically clear the remaining trainers on this floor. My next target is the Channeler at (18, 8).
-    c. **Contingency:** If trainer battles prove too difficult, grind on wild Pokémon on floors 4F/5F before re-attempting.
-    d. **Battle Strategy:** Leverage known type-matchup changes, especially Psychic vs. Ghost/Poison and Bite vs. Psychic.
+    a. **Explore:** Systematically explore the 6th floor, clearing all trainers and collecting any items.
+    b. **Heal:** Use the friendly Channeler on 5F as a free healing station between battles by descending the stairs if necessary.
+    c. **Ascend:** Find the stairs to the 7th floor to confront Team Rocket and rescue Mr. Fuji.
 
 ### Long-Term Goals & Hypotheses
 - **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
@@ -44,23 +40,23 @@
 
 ## IV. Agent Development Log
 ### A. Active Agents & Refinements
-- **`pathfinding_agent` (v2 - REFINED):** Consolidated agent for pathfinding. Logic corrected to no longer avoid the line of sight of *defeated* trainers.
+- **`pathfinding_agent` (v3 - REFINED):** Consolidated agent for pathfinding. Logic corrected to treat friendly/defeated NPCs as walkable ground.
 - **`wkg_manager_agent` (v2 - RELIABLE):** Successfully identifies existing nodes and creates edges without duplication.
 - **`pc_navigator_agent` (v2 - RELIABLE):** Successfully navigates the PC by using 'BILL's PC'.
 - **`battle_strategist_agent` (v1 - RELIABLE):** Provides turn-by-turn battle advice.
+- **`team_composition_advisor_agent` (v1 - NEEDS REFINEMENT):** Provides team/training advice. **TODO:** Refine to explicitly include EXP grinding optimization logic.
 
 ### B. Agent Development Backlog
 - **`shopping_planner_agent`:** To plan TM and item purchases.
 - **`item_finder_agent`:** To plan paths for collecting all items on a map.
 - **`healing_route_planner_agent`:** To find the most efficient path to a Pokémon Center.
-- **`exp_grinding_optimizer_agent`:** To analyze known wild encounters and recommend the most efficient training spots.
 
 ## V. Completed Intel & Disproven Hypotheses
 - **LIFT KEY Location:** Dropped by a Rocket Grunt at Rocket Hideout B3F (11, 23).
 - **Giovanni Defeated:** Defeated on Rocket Hideout B4F, dropped the Silph Scope.
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
 - **PC Glitch Workaround:** Selecting 'Gem's PC' is bugged. Use 'BILL's PC' instead.
-- **DISPROVEN:** The healing spot on 5F is a tile at (12,10). **CORRECTION:** The healing is provided by the friendly Channeler NPC at (13, 9) upon interaction.
+- **5F Healing Source:** The healing is provided by the friendly Channeler NPC at (13, 9), not a purified tile.
 
 ## VI. Critical Reminders
 - **Maintain Poké Ball Stock:** Always keep at least 10-20 Poké Balls on hand.
