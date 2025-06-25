@@ -15,7 +15,8 @@
 
 ## Unverified Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
-- **Party Composition:** My current team might not be optimal for the Flying-type Violet City Gym. Should look for Rock or Electric types.
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. (Check again later)
 
+## Future Plans & Strategy
+- **Violet City Gym Strategy:** My current team is the best option. Lead with Hearth (Cyndaquil) to overpower the Flying-type Pokémon.
 - **HM Moves:** 'CUT_TREE' and 'HEADBUTT_TREE' tiles are currently impassable but might be cleared with the respective HMs.
