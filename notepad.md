@@ -22,4 +22,3 @@
 
 ## Actionable Plans
 - Explore the northern part of Route 30 to find better training spots or unfought trainers.
-- Retrieve the hidden Potion at (14, 9) on Route 30.
