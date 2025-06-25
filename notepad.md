@@ -63,7 +63,7 @@
 - **Gen 1 Move Typing:** Misremembering that Double Kick is a Normal-type move in Gen 1 nearly cost me the battle against the Channeler's Hypno on 6F. I must be more diligent about verifying move types.
 
 ## VI. New Hypotheses & Testable Assumptions
-- **Pokémon Tower 5F Healing Spot:** Need to verify if the healing zone at (13, 9) is a one-time event or if it recharges. This is a high-priority test.
+- **Pokémon Tower 5F Healing Spot:** **Confirmed:** The purified healing zone on Pokémon Tower 5F at (12, 10) is a reusable, full-party healing spot. This is a major strategic asset for training in the tower.
 - **Wild Encounters:** Assume Gastly/Haunter are the primary wild encounters, but remain prepared for others like Cubone.
 
 ## VII. Critical Reminders
