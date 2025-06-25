@@ -23,5 +23,5 @@
 
 ## Future Plans & Strategy
 - **Primary Goal:** Defeat the Violet City Gym Leader and earn the Zephyr Badge.
-- **Secondary Goal:** Find an alternate route to Violet City, as Route 30 is a one-way trap from the north.
+- **Secondary Goal:** Complete Professor Elm's errand.
 - **HM Moves:** 'CUT_TREE' and 'HEADBUTT_TREE' tiles are currently impassable but might be cleared with the respective HMs.
