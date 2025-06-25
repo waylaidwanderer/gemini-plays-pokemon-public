@@ -33,3 +33,6 @@ My path north is blocked. I will systematically re-explore all known locations t
 - **[ ] Route 30 (26_1):**
   - [X] Confirmed one-way path south. No further exploration needed here.
   - [ ] Re-check Mr. Pokémon's House (26_10) and Berry House (26_9).
+
+## Pokémon Locations
+- **Route 45:** Graveler (Source: Radio)
