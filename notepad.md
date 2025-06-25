@@ -59,3 +59,6 @@
 - **Path Forward:** The path south through Route 13 is assumed to be the correct progression path.
 - **Thirsty Guards:** The guards blocking Saffron City might accept a drink item like Fresh Water. This is a key alternative path to test.
 - **Strange Battle Mechanics:** The FEAROW's triple attack could be a unique move or mechanic in this ROM hack. I need to be more observant.
+
+## VII. Encounter Log (JSON)
+{"ROUTE_12":["ODDISH"]}
