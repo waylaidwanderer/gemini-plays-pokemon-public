@@ -22,5 +22,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"analysis_mode\":{\"type\":\"string\",\"enum\":[\"short_term\",\"long_term\"],\"description\":\"Specifies the type of analysis to perform.\"},\"current_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"types\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"species\",\"level\",\"types\"]}},\"caught_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"types\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"species\",\"level\",\"types\"]}},\"upcoming_challenge_type\":{\"type\":\"string\",\"description\":\"The type specialty of the upcoming challenge (e.g., 'Flying'). Required only for 'short_term' analysis.\"}},\"required\":[\"analysis_mode\",\"current_party\",\"caught_pokemon\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_team\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_team\",\"justification\"]}",
     "agent_can_run_code": false
+  },
+  "softlock_detector": {
+    "agent_name": "softlock_detector",
+    "agent_description": "Analyzes the current map and player position to determine if the player is in a 'soft-locked' state, meaning they are trapped with no way to progress.",
+    "agent_system_prompt": "You are a game state analyst. Given the player's current coordinates and the map XML, determine if the player is in a 'soft-locked' state. A soft-lock is defined as a position from which there are no valid paths to an unexplored tile or a warp leading to a new map, except by traversing one-way paths (like ledges) in the wrong direction. Analyze the connectivity from the player's current position using the `run_code` tool and a pathfinding algorithm. Treat 'WALL', 'WATER', 'CUT_TREE', 'HEADBUTT_TREE' tiles and tiles with `<Object>`s as impassable. 'HOP_DOWN' tiles are only passable downwards. If the player is soft-locked, explain why.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_x\":{\"type\":\"integer\"},\"current_y\":{\"type\":\"integer\"}},\"required\":[\"current_x\",\"current_y\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"is_softlocked\":{\"type\":\"boolean\"},\"reason\":{\"type\":\"string\"}},\"required\":[\"is_softlocked\",\"reason\"]}",
+    "agent_can_run_code": true
   }
 }
