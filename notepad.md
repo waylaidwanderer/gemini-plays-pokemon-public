@@ -69,3 +69,6 @@
 
 ### C. Agent Usage Reminders
 - **Reminder:** Start using `encounter_tracker_agent` to log wild Pokémon for training data.
+
+### C. Agent Usage Reminders
+- **Reminder:** Start using `encounter_tracker_agent` to log wild Pokémon for training data.
