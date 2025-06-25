@@ -38,8 +38,7 @@
 1.  **Situation:** I have the POKé FLUTE. SPARKY is critically injured.
 2.  **Primary Goal:** Defeat the next available Gym Leader.
 3.  **Secondary Goal:** Explore Route 12 and the surrounding areas to find a path forward.
-4.  **Tertiary Goal:** Investigate Celadon City Gym to see if it's unblocked.
-5.  **Hypothesis:** The Snorlax encounter on Route 12 is bugged or a red herring. The true path is along the western pier.
+Plan: Explore the 9 reachable unseen tiles on Route 12 to find the correct path forward.
 
 ### Long-Term Goals
 - **Thirsty Guards:** Need to test if giving a guard a drink (e.g., Fresh Water) will grant passage to Saffron City.
