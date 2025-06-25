@@ -35,4 +35,6 @@ My path north is blocked. I will systematically re-explore all known locations t
   - [ ] Re-check Mr. Pokémon's House (26_10) and Berry House (26_9).
 
 ## Pokémon Locations
+- **Route 34:** Jigglypuff (Source: Radio)
+- **Route 42:** Raticate (Source: Radio)
 - **Route 45:** Graveler (Source: Radio)
