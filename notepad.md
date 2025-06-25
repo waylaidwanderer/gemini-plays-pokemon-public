@@ -17,5 +17,5 @@
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
 - **Party Composition:** My current team might not be optimal for the Flying-type Violet City Gym. Should look for Rock or Electric types.
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. (Check again later)
-- **Trainer Locations:** The Bug Catcher at (5, 24) might not be the last trainer on Route 30.
+
 - **HM Moves:** 'CUT_TREE' and 'HEADBUTT_TREE' tiles are currently impassable but might be cleared with the respective HMs.
