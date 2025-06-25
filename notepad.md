@@ -41,7 +41,7 @@
 
 ## IV. Agent Development Log
 ### A. Active Agents & Refinements
-- **`pathfinding_agent` (v1 - RELIABLE):** Consolidated agent for reaching specific targets or exploring all unseen tiles.
+- **`pathfinding_agent` (v1 - FLAWED):** Consolidated agent for reaching specific targets or exploring all unseen tiles. **Limitation:** Incorrectly treats the line of sight of *defeated* trainers as a hard impassable barrier. It can fail to find a path if the start or end point is in a defeated trainer's LoS, requiring manual override.
 - **`wkg_manager_agent` (v2 - RELIABLE):** Successfully identifies existing nodes and creates edges without duplication.
 - **`pc_navigator_agent` (v2 - RELIABLE):** Successfully navigates the PC by using 'BILL's PC' to bypass the 'Gem's PC' glitch.
 - **`battle_strategist_agent` (v1 - RELIABLE):** Provides turn-by-turn battle advice.
