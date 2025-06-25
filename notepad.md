@@ -43,7 +43,7 @@
 
 ## IV. Agent Development Log
 ### A. Active Agents & Refinements
-- **`pathfinding_agent` (v3 - REFINED):** Consolidated agent for pathfinding. Logic corrected to treat friendly/defeated NPCs as walkable ground. **REFINEMENT COMPLETE: Logic corrected to treat all NPCs (except Pikachu), including defeated trainers, as impassable obstacles. Agent is now reliable for pathfinding.**
+- **`pathfinding_agent` (v3 - REFINED):** Consolidated agent for pathfinding. **REFINEMENT COMPLETE: Logic corrected to treat all NPCs (except Pikachu), including defeated trainers, as impassable obstacles. Agent is now reliable for pathfinding.**
 - **`wkg_manager_agent` (v2 - RELIABLE):** Successfully identifies existing nodes and creates edges without duplication.
 - **`pc_navigator_agent` (v2 - RELIABLE):** Successfully navigates the PC by using 'BILL's PC'.
 - **`battle_strategist_agent` (v1 - RELIABLE):** Provides turn-by-turn battle advice.
