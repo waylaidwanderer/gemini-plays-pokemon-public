@@ -32,10 +32,10 @@
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter to build my training data log. This is now a mandatory step.
+- **`wkg_manager_agent_v2`:** Defined. Needs testing.
+- **`spinner_maze_agent`:** Defined. Ready for use.
 
 ### B. Agent Development Backlog
-- **`wkg_manager_agent_v2` (TOP PRIORITY):** Develop a new, reliable WKG management agent that correctly checks for existing nodes before adding edges.
-- **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
 - **`fishing_advisor_agent`:** Analyze map & rod to suggest best fishing spots/catches.
 - **`hm_planner_agent`:** Suggest best Pokémon for HMs based on current moves and future utility.
