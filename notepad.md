@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v122 - Pokémon Tower Correction)
+# Gem's Strategic Journal (v124 - Notepad Reorganization)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -26,6 +26,7 @@
 - **Channeler (Pokémon Tower 6F, (17,6)):**
   - Team: Lv33 Hypno, Lv33 Haunter.
   - Hypno knows Psychic, Confusion, and Poison Gas.
+- **Channeler Team Composition:** Not all Channelers exclusively use Ghost-types. Be prepared for Psychic-types and have counters like Bite ready.
 
 ## III. Active Plans & Hypotheses
 ### **Current Plan: Pokémon Tower Ascent & Training (v3)**
@@ -63,4 +64,3 @@
 
 ## VI. Critical Reminders
 - **Maintain Poké Ball Stock:** Always keep at least 10-20 Poké Balls on hand.
-- **Channeler Team Composition:** Not all Channelers exclusively use Ghost-types. Be prepared for Psychic-types and have counters like Bite ready.
