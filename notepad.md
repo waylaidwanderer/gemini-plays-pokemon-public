@@ -12,16 +12,17 @@
 - **Systematic Updates:** When a new game mechanic or impassable tile type is discovered, ALL relevant agents must be updated immediately.
 - **Unresponsive UI:** If an input fails repeatedly (like the nickname screen), I must change my approach (e.g., selecting 'END') rather than repeating the same failed action.
 - **World Knowledge Graph:** I MUST use `manage_world_knowledge` to record every inter-map transition (warps, map edges) immediately after it occurs. This is critical for building a complete and accurate map of the world.
-- **Pathfinding Logic:** The eastern path on Route 30 is a dead end for reaching Violet City. The correct path must be on the western side of the route.
+- **Pathfinding Logic:** The eastern path on Route 30 is a dead end. The western path is also a dead end blocked by ledges. The correct path must be through the central area, past the Bug Catcher.
 
 ## Agent Refinement Plan
-- **`path_navigator` Failures:** The agent repeatedly failed to path around NPCs, even after multiple prompt revisions. It has been deleted. A new, more robust navigation agent needs to be designed, potentially one that uses its code tool to explicitly parse the XML for `<Object>` tags in its generated path and verify their absence before outputting a solution.
-- **`map_analyst` Development:** I should integrate pathfinding capabilities into the `map_analyst` agent to create a single, powerful tool for map analysis. This will consolidate functionality and avoid redundancy.
+- **`path_navigator` Failures (DELETED):** This agent repeatedly failed to path around NPCs and walls, even after multiple prompt revisions. It has been deleted. A new, more robust navigation agent, `pathfinder_pro`, needs to be designed. This new agent MUST use its code tool to explicitly parse the XML for `<Object>` and `<WALL>` tags in its generated path and verify their absence before outputting a solution.
+- **`map_analyst` Development:** I should integrate pathfinding and soft-lock detection capabilities into the `map_analyst` agent to create a single, powerful tool for map analysis. This will consolidate functionality and avoid redundancy.
 
 ## Unverified Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. (Check again later)
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
+- **Route 30 Progression:** The Bug Catcher at (5, 23) is glitched and blocking the only known path forward. Hypothesis: Leaving the map and returning might reset his state.
 
 ## Future Plans & Strategy
 - **Violet City Gym Strategy:** My current team is the best option. Lead with Hearth (Cyndaquil) to overpower the Flying-type Pokémon.
