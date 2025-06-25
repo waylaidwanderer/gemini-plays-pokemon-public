@@ -21,7 +21,7 @@ My path north is blocked. I will systematically re-explore all known locations t
   - [ ] Interact with Teacher at (0, 9). (Attempt failed due to shadowing bug).
   - [X] Re-check Elm's Lab (24_5). (Completed - no new info).
   - [X] Re-check my house (24_6, 24_7). (Interaction with Mom is impossible due to a persistent shadowing bug. All other interactables checked. Concluding this location is fully explored for now.)
-  - [ ] Re-check Elm's house (24_9).
+  - [X] Re-check Elm's house (24_9). (Completed - Teacher NPC has a persistent shadowing bug, preventing interaction. Other objects already checked.)
 - **[ ] Route 29 (24_3):**
   - [ ] Re-check all NPC dialogue.
   - [ ] Investigate the CUT tree at (30, 9) again.
