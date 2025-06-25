@@ -22,5 +22,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}},\"required\":[\"path\"]}",
     "agent_can_run_code": true
+  },
+  "route_planner": {
+    "agent_name": "route_planner",
+    "agent_description": "Analyzes the World Knowledge Graph to find a traversable path between two different maps (given their map_ids). It is code-enabled to perform graph traversal.",
+    "agent_system_prompt": "You are a master route planning agent. Your task is to analyze the `world_knowledge_graph_json_string` to find a sequence of map transitions from a starting `map_id` to a destination `map_id`. Use your `run_code` tool to execute a Python script that performs a Breadth-First Search (BFS) on the graph. The script should parse the nodes and edges, build an adjacency list, and find the shortest path in terms of map transitions. Your output must be a list of map IDs representing the path. If no path exists, return an empty list.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_map_id\":{\"type\":\"string\"},\"end_map_id\":{\"type\":\"string\"}},\"required\":[\"start_map_id\",\"end_map_id\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"path\"]}",
+    "agent_can_run_code": true
   }
 }
