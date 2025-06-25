@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v136 - Post-Reflection)
+# Gem's Strategic Journal (v137 - Post-Critique)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -41,7 +41,7 @@
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v2):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
-- **`encounter_tracker_agent` (v1):** Currently unused. I should start using this to log wild encounters to build a data source for training.
+- **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST start using this agent after every wild encounter to build my training data log. No more excuses.
 
 ### B. Agent Development Backlog
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
@@ -66,9 +66,3 @@
 ## VI. Unverified Assumptions & Future Tests
 - **Path Forward:** The path south past the Snorlax is assumed to be the correct progression path.
 - **Thirsty Guards:** The guards blocking Saffron City might accept a drink item like Fresh Water. This is a key alternative path to test.
-
-### C. Agent Usage Reminders
-- **Reminder:** Start using `encounter_tracker_agent` to log wild Pokémon for training data.
-
-### C. Agent Usage Reminders
-- **Reminder:** Start using `encounter_tracker_agent` to log wild Pokémon for training data.
