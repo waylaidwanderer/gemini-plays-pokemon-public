@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v135 - Post-Snorlax)
+# Gem's Strategic Journal (v136 - Post-Reflection)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -7,6 +7,7 @@
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Mark and move on.
 - **WKG & Marker Protocol:** Be diligent about marking key points (like warp arrivals and defeated trainers) *immediately*. Consolidate markers on single tiles for clarity.
 - **Tool-First Mindset:** For any complex or repetitive task, use an agent first.
+- **Navigation Diligence:** After any map transition, especially non-standard ones like Fly, I must immediately verify my new location against the Game State Information to prevent hallucinations. Manual pathing should be done with extreme care; use the `pathfinding_agent` for complex routes.
 
 ## II. Game Mechanics & Battle Intel
 ### Confirmed ROM Hack Changes
@@ -28,19 +29,19 @@
 - **Confusion & Field Moves:** A confused Pokémon may use any move, including TELEPORT, which ends the battle.
 - **Normal/Ghost Immunities:** Normal moves are ineffective against Ghosts, and Ghost moves are ineffective against Normals.
 
-## III. Active Plans & Goals
-### Long-Term Goals
-- **Thirsty Guards:** Need to test if giving a guard a drink (e.g., Fresh Water) will grant passage to Saffron City.
+## III. Active Plans & Hypotheses
+- **Primary Plan:** Explore south along Route 12 to find the next town and Gym.
+- **Contingency Plan:** Test if giving a guard a drink (e.g., Fresh Water) will grant passage to Saffron City.
 
 ## IV. Agent Development Log
 ### A. Active Agents & Refinements
-- **`pathfinding_agent` (v3.4 - Improved but requires supervision):**
-  - **History:** Previously struggled with complex map parsing, leading to pathing failures (e.g., T25816-T25819 on Route 12).
-  - **Status:** Multiple prompt overhauls have improved its reliability. It is now generally successful but should be monitored on complex maps. Continued reliance is acceptable as long as its performance is tracked.
+- **`pathfinding_agent` (v3.4):** Performance has improved, but should still be monitored on complex maps. 
+  - **Refinement Plan:** Merge the functionality of `healing_route_planner_agent` into this one by adding a `find_nearest_pokecenter` goal type. This will require parsing the WKG for 'pokecenter' tags.
 - **`wkg_manager_agent` (v3):** Reliable.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v2):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
+- **`encounter_tracker_agent` (v1):** Currently unused. I should start using this to log wild encounters to build a data source for training.
 
 ### B. Agent Development Backlog
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
@@ -49,7 +50,7 @@
 - **`sales_data_agent`:** Track item prices across different Poké Marts to find the best deals.
 - **`move_tutor_advisor_agent`:** Suggest optimal moves to learn from TMs/HMs.
 - **`story_progress_tracker_agent`:** Track key NPC dialogue and plot points.
-- **Consolidate Agents:** Merge `healing_route_planner_agent` functionality into the main `pathfinding_agent`.
+- **`route_explorer_agent`:** Plan a path to battle all trainers and collect all items on a given route.
 
 ## V. Completed Intel & Disproven Hypotheses
 - **Poké Ball Mission:** Completed.
@@ -64,3 +65,4 @@
 
 ## VI. Unverified Assumptions & Future Tests
 - **Path Forward:** The path south past the Snorlax is assumed to be the correct progression path.
+- **Thirsty Guards:** The guards blocking Saffron City might accept a drink item like Fresh Water. This is a key alternative path to test.
