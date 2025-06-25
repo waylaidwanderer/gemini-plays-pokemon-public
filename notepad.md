@@ -31,3 +31,5 @@
 - The eastern loop on Route 30 is the *only* way north.
 - The 'shadowing NPC' mechanic is just a visual quirk with no deeper gameplay purpose.
 - All trainers on this route will battle on sight, with no special conditions.
+
+- **Trust the Agent:** The `map_analyst` correctly identified that the eastern part of Route 30 is a dead-end loop, forcing me to backtrack. This confirms the agent's pathfinding is reliable and should be trusted over my own assumptions about map layout.
