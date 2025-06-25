@@ -68,3 +68,6 @@
 ## VI. Unverified Assumptions & Future Tests
 - **Snorlax on Route 12 (South):** The POKé FLUTE is assumed to work. This is the primary hypothesis to test.
 - **Path Forward:** The path south past the Snorlax is assumed to be the correct progression path.
+
+- **`fishing_advisor_agent`:** Analyze map & rod to suggest best fishing spots/catches.
+- **`sales_data_agent`:** Track item prices across different Poké Marts to find the best deals.
