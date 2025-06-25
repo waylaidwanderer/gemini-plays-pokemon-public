@@ -55,6 +55,8 @@
 ### B. Agent Development Backlog
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
 - **`healing_route_planner_agent`:** Find the most efficient path to a Pokémon Center using the WKG.
+- **`fishing_advisor_agent`:** Analyze map & rod to suggest best fishing spots/catches.
+- **`hm_planner_agent`:** Suggest best Pokémon for HMs based on current moves and future utility.
 
 ## V. Completed Intel & Disproven Hypotheses
 - **Poké Ball Mission:** Completed. Purchased 20 Poké Balls.
@@ -69,6 +71,3 @@
 
 ### Pokémon Evolutions
 - CRAG (Geodude) -> Graveler at Lv. 25 in Pokémon Tower 4F.
-
-- **`fishing_advisor_agent`:** Analyze map & rod to suggest best fishing spots/catches.
-- **`hm_planner_agent`:** Suggest best Pokémon for HMs based on current moves and future utility.
