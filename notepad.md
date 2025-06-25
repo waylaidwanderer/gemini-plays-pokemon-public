@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v139 - Post-Critique)
+# Gem's Strategic Journal (v140 - Post-Critique)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -7,6 +7,7 @@
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Mark and move on.
 - **WKG & Marker Protocol:** Be diligent about marking key points (like warp arrivals and defeated trainers) *immediately*. Consolidate markers on single tiles for clarity. Use the `wkg_manager_agent` for all WKG updates to avoid manual errors.
 - **Tool-First Mindset:** For any complex or repetitive task, use an agent first.
+- **Encounter Tracking Protocol:** After every wild encounter, I MUST use the `encounter_tracker_agent` to log the data. This is now a mandatory step in my workflow.
 
 ## II. Game Mechanics & Battle Intel
 ### Confirmed ROM Hack Changes
@@ -52,15 +53,7 @@
 - **`story_progress_tracker_agent`:** Track key NPC dialogue and plot points.
 
 ## V. Completed Intel & Disproven Hypotheses
-- **Poké Ball Mission:** Completed.
-- **LIFT KEY Location:** Dropped by a Rocket Grunt at Rocket Hideout B3F (11, 23).
-- **Giovanni Defeated:** Defeated on Rocket Hideout B4F, dropped the Silph Scope.
-- **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
-- **PC Glitch Workaround:** Use 'BILL's PC' instead of 'Gem's PC'.
-- **Mr. Fuji Rescued:** Rescued from Team Rocket; received POKé FLUTE.
-- **Celadon Gym:** Blocked by unresponsive trainers.
-- **Snorlax on Route 12 (North):** Confirmed red herring. The path remains blocked. The true path is the western pier.
-- **Snorlax on Route 12 (South):** Woken with POKé FLUTE and defeated. Path south is now clear.
+- (This section is for temporarily noting completed short-term intel before it is archived or removed. Long-term discoveries are integrated into other sections.)
 
 ## VI. Unverified Assumptions & Future Tests
 - **Path Forward:** The path south through Route 13 is assumed to be the correct progression path.
