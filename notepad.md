@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v125 - Post-Critique Cleanup)
+# Gem's Strategic Journal (v126 - Post-Blockage Update)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -14,6 +14,9 @@
   - Ghost is SUPER-EFFECTIVE against Psychic.
   - Bite (Normal) is SUPER-EFFECTIVE against Psychic.
   - Normal is NOT-VERY-EFFECTIVE against Psychic.
+
+### Navigation & Traversal Rules
+- **Defeated Trainers as Obstacles:** Defeated trainers act as impassable walls and must be navigated around. This was confirmed on Pokémon Tower 5F when a path was blocked by a defeated Channeler at (18, 8).
 
 ### General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
@@ -40,7 +43,7 @@
 
 ## IV. Agent Development Log
 ### A. Active Agents & Refinements
-- **`pathfinding_agent` (v3 - REFINED):** Consolidated agent for pathfinding. Logic corrected to treat friendly/defeated NPCs as walkable ground.
+- **`pathfinding_agent` (v3 - REFINED):** Consolidated agent for pathfinding. Logic corrected to treat friendly/defeated NPCs as walkable ground. **TODO: THIS IS WRONG. Refine to treat ALL NPCs (except Pikachu), including defeated trainers, as impassable obstacles.**
 - **`wkg_manager_agent` (v2 - RELIABLE):** Successfully identifies existing nodes and creates edges without duplication.
 - **`pc_navigator_agent` (v2 - RELIABLE):** Successfully navigates the PC by using 'BILL's PC'.
 - **`battle_strategist_agent` (v1 - RELIABLE):** Provides turn-by-turn battle advice.
