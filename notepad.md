@@ -1,49 +1,40 @@
-# Gem's Strategic Journal (v141 - Post-Critique & Saffron City Update)
+# Gem's Strategic Journal (v142 - Post-Dojo & Critique Overhaul)
 
 ## I. Core Principles & Lessons Learned
+- **CRITICAL: Agent & Workflow Discipline:** My workflow has been sloppy. The critique was a necessary wake-up call.
+  - **Faulty Agent Protocol:** A consistently failing agent (like `wkg_manager_agent`) is a liability and must be immediately decommissioned and replaced. I will no longer use it.
+  - **Logging Protocol:** I will strictly adhere to my established protocols, especially using `encounter_tracker_agent` after every wild battle. No exceptions.
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
-- **Verify Assumptions:** Do not record intel as "completed" or "confirmed" until it has been empirically verified. Non-battling trainers exist; not every NPC is an opponent.
-- **Agent Liability & Discipline:** An agent that provides consistently incorrect or dangerous advice is a liability. It must be abandoned or fixed from a safe location.
+- **Verify Assumptions:** Do not record intel as "completed" or "confirmed" until it has been empirically verified. Non-battling trainers exist.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Mark and move on.
-- **WKG & Marker Protocol:** Be diligent about marking key points (like warp arrivals and defeated trainers) *immediately*. For WKG, I must manually check for existing nodes before adding edges to prevent errors.
-- **Tool-First Mindset:** For any complex or repetitive task, use an agent first.
-- **Encounter Tracking Protocol:** After every wild encounter, I MUST use the `encounter_tracker_agent` to log the data. This is now a mandatory step in my workflow.
 
 ## II. Game Mechanics & Battle Intel
 ### Confirmed ROM Hack Changes
-- **Type Matchups:**
-  - Psychic is SUPER-EFFECTIVE against Ghost/Poison.
-  - Ghost is SUPER-EFFECTIVE against Psychic.
-  - Bite (Normal) is SUPER-EFFECTIVE against Psychic.
-  - Normal is NOT-VERY-EFFECTIVE against Psychic.
+- **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic.
 - **Poison Status Immunity:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves.
 
 ### Navigation & Traversal Rules
-- **Defeated Trainers as Obstacles:** Defeated trainers act as impassable walls and must be navigated around.
+- **Defeated Trainers as Obstacles:** Defeated trainers act as impassable walls.
 
 ### General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Field Use:** HMs must be taught to a Pokémon to enable field use. FLY cannot be used indoors.
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
-- **Gen 1 Move Typing:** Bite and Double Kick are Normal-type. Wing Attack has 35 Base Power.
-- **Confusion & Field Moves:** A confused Pokémon may use any move, including TELEPORT, which ends the battle.
-- **Normal/Ghost Immunities:** Normal moves are ineffective against Ghosts, and Ghost moves are ineffective against Normals.
 
 ## III. Active Plans & Hypotheses
-- **Primary Plan:** Disrupt Team Rocket's operations in Saffron City, which is likely the key to accessing the Saffron City Gym.
-- **Current Objective:** Clear the Fighting Dojo of all trainers.
+- **Primary Plan:** Disrupt Team Rocket's operations in Saffron City.
+- **Current Objective:** Claim the prize Pokémon from the Fighting Dojo, then investigate the Silph Co. building, which is likely Team Rocket's main base of operations.
 
 ## IV. Agent Development Log
 ### A. Active Agents & Refinements
-- **`pathfinding_agent` (v3.4):** Generally reliable.
-- **`wkg_manager_agent` (v3):** **UNRELIABLE.** This agent consistently fails to check for existing nodes, causing tool errors. Do not use. A replacement is needed.
+- **`pathfinding_agent` (v3.4):** Reliable.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
-- **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST start using this agent after every wild encounter to build my training data log.
+- **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter to build my training data log. This is now a mandatory step.
 
 ### B. Agent Development Backlog
-- **`wkg_manager_agent_v2`:** Develop a new, more reliable WKG management agent or a Python script to handle WKG updates, including pre-checking for existing nodes.
+- **`wkg_manager_agent_v2` (TOP PRIORITY):** Develop a new, reliable WKG management agent that correctly checks for existing nodes before adding edges.
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
 - **`fishing_advisor_agent`:** Analyze map & rod to suggest best fishing spots/catches.
 - **`hm_planner_agent`:** Suggest best Pokémon for HMs based on current moves and future utility.
@@ -51,9 +42,13 @@
 - **`move_tutor_advisor_agent`:** Suggest optimal moves to learn from TMs/HMs.
 - **`story_progress_tracker_agent`:** Track key NPC dialogue and plot points.
 
+### C. Decommissioned Agents
+- **`wkg_manager_agent` (v3):** **DECOMMISSIONED.** This agent consistently fails to check for existing nodes, causing tool errors. DO NOT USE.
+
 ## V. Completed Intel & Disproven Hypotheses
-- **Route 13 Dead End:** The path south through Route 13 was not the correct progression path. The Cool Trainer at (12, 93) on Route 12 does NOT want a Moon Stone; he's flavor text.
-- **Thirsty Guards:** Giving a drink to the thirsty guards did NOT grant passage to Saffron City; it opened a path to a different part of Route 5.
+- **Route 13 Dead End:** The path south through Route 13 was not the correct progression path.
+- **Thirsty Guards:** Giving a drink to the thirsty guards opened a path to a different part of Route 5, not directly to Saffron City.
 
 ## VI. Saffron City Intel
-- **Team Rocket Takeover:** Rocket Grunt at (24, 9) said: "BOSS said he'll take this town!". This confirms a city-wide takeover is in progress.
+- **Team Rocket Takeover:** Confirmed by a Rocket Grunt. Their goal is to take over the city.
+- **Fighting Dojo:** Cleared. The Karate Master offered a prize Pokémon.
