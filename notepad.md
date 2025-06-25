@@ -69,3 +69,6 @@
 
 ### Pokémon Evolutions
 - CRAG (Geodude) -> Graveler at Lv. 25 in Pokémon Tower 4F.
+
+- **`fishing_advisor_agent`:** Analyze map & rod to suggest best fishing spots/catches.
+- **`hm_planner_agent`:** Suggest best Pokémon for HMs based on current moves and future utility.
