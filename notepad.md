@@ -41,3 +41,5 @@ My path north is blocked. I will systematically re-explore all known locations t
 
 ## Current Bugs & Blockers
 - **Shadowing NPCs:** Certain NPCs (Mom, Teacher in Elm's House, Fisher in New Bark) will occupy the same tile as the player, preventing interaction. Leaving and re-entering the map does not seem to fix this consistently.
+
+- **Cooltrainer (Route 29):** Also exhibits the shadowing bug, preventing interaction.
