@@ -44,7 +44,7 @@
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST start using this agent after every wild encounter to build my training data log. No more excuses. I will now integrate this into my standard post-battle workflow.
 
 ### B. Agent Development Backlog
-- **`route_explorer_agent`:** Plan a path to battle all trainers and collect all items on a given route.
+
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
 - **`fishing_advisor_agent`:** Analyze map & rod to suggest best fishing spots/catches.
 - **`hm_planner_agent`:** Suggest best Pokémon for HMs based on current moves and future utility.
@@ -67,5 +67,3 @@
 - **New Agent Idea:** `route_explorer_agent` to automate clearing routes of trainers and items.
 - **Disproven Hypothesis:** Cool Trainer at (12, 93) on Route 12 does NOT want a Moon Stone; he's just flavor text. This path is a dead end.
 - **New Plan:** The southern exit on Route 12 is blocked. The new primary plan is to test the contingency plan: give a drink to the thirsty guards blocking the Saffron City gates.
-
-- **`route_explorer_agent`:** Plan a path to battle all trainers and collect all items on a given route.
