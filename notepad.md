@@ -69,3 +69,9 @@
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
 - **PC Glitch Workaround:** Selecting 'Gem's PC' is bugged. Use 'BILL's PC' instead.
 - **Inventory Limit is Visual Bug:** Confirmed the inventory can hold more than the displayed limit.
+
+### Pokémon Evolutions
+- CRAG (Geodude) -> Graveler at Lv. 25 in Pokémon Tower 4F.
+
+### General Mechanics
+- **Poison Status Immunity:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves (e.g., SMOG). Confirmed when CRAG was poisoned.
