@@ -71,3 +71,7 @@
 - **Maintain Poké Ball Stock:** Always keep at least 10-20 Poké Balls on hand to avoid missing rare encounters like the wild Cubone. This is a non-negotiable rule of preparation.
 
 - **Confusion & Field Moves:** When a Pokémon is confused, it may randomly select any of its moves to use, including out-of-battle moves like TELEPORT. If Teleport is used, the battle ends immediately. This is not a party switching bug, but a core mechanic of confusion.
+
+## VIII. Future Agent Ideas & Battle Notes
+- **`exp_grinding_optimizer_agent`:** To analyze known wild encounters and recommend the most efficient training spots for specific Pokémon and level targets.
+- **Channeler Team Composition:** Not all Channelers exclusively use Ghost-types. The one on 6F had a Hypno. Be prepared for Psychic-types and have counters like Bite ready.
