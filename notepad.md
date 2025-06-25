@@ -10,12 +10,15 @@
 - **Bugged NPCs:** The Youngster at (5, 23) on Route 30 is bugged and will trap the player in a dialogue loop, making him impassable.
 
 ## Lessons Learned
+- **Agent Management:** My `map_analyst` agent's 'explore' mode is fundamentally flawed and should not be used. After three redefinitions, it repeatedly identified an unreachable tile `(5, 19)` as a valid target. I must rely on the 'pathfind' mode.
 - **Agent Input Integrity:** I must ensure all data provided to agents (like Pokémon movesets) is 100% accurate to the current game state.
 - **Systematic Updates:** When a new game mechanic or impassable tile type is discovered, ALL relevant agents must be updated immediately.
 - **Unresponsive UI:** If an input fails repeatedly (like the nickname screen), I must change my approach (e.g., selecting 'END') rather than repeating the same failed action.
 - **World Knowledge Graph:** I MUST use `manage_world_knowledge` to record every inter-map transition (warps, map edges) immediately after it occurs.
-- **Pathfinding:** Always use the `map_analyst` agent to verify a path before attempting to traverse it, especially in complex areas with ledges or potential dead ends. Jumping down ledges without a confirmed exit is a recipe for getting trapped.
-- **Puzzle Triggers:** A looping NPC dialogue might indicate an external trigger is needed. Interacting with all objects in a room (like the Strange Coins and Broken Computer in Mr. Pokémon's house) might not be enough; the trigger could be on a different map.
+- **Pathfinding:** Always use the `map_analyst` 'pathfind' mode to verify a path before attempting to traverse it, especially in complex areas with ledges or potential dead ends.
+- **Puzzle Triggers & Dead Ends:**
+    - A looping NPC dialogue might indicate an external trigger is needed.
+    - After extensive testing on Route 30, I've confirmed the western path is blocked (impassable trees, bugged NPC) and the puzzle in Mr. Pokémon's house is unsolvable with my current capabilities. This area is a dead end for now, requiring me to backtrack.
 
 ## Unverified Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
@@ -23,19 +26,5 @@
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
 - The Gentleman NPC at (3, 5) in Mr. Pokémon's house is Mr. Pokémon.
 
-## Future Plans & Strategy
-- **Primary Goal:** Defeat the Violet City Gym Leader and earn the Zephyr Badge.
-- **Secondary Goal:** Find the main path to Violet City.
-- **Tertiary Goal:** Catch a new Pokémon species if the opportunity arises.
-
-## Unsolved Puzzles
-- **Mr. Pokémon's House:** Gentleman at (3,5) is in a dialogue loop. Interacting with the Strange Coins (6,4) and Broken Computer (6,1) has no effect. All interactions within the house seem exhausted, suggesting an external trigger on Route 30 is needed.
-
 ## Live Encounter Notes
 - Turn 3331: Interrupted by a wild Hoppip on Route 30 while backtracking.
-
-## Agent Failures
-- **`map_analyst` ('explore' mode):** This agent is fundamentally flawed. After three redefinitions, it repeatedly identified an unreachable tile `(5, 19)` as a valid target, proving its reachability check is non-functional. I am abandoning its use for exploration.
-
-## Route 30 Conclusion
-- After extensive exploration and testing, I've confirmed Route 30 is a dead end for now. The western path is blocked by impassable trees and a bugged NPC, and the puzzle in Mr. Pokémon's house is unsolvable with my current capabilities. I must backtrack.
