@@ -22,3 +22,6 @@
 - **HM Moves:** 'CUT_TREE' and 'HEADBUTT_TREE' tiles are currently impassable but might be cleared with the respective HMs.
 
 - **Glitched Battles:** Stepping on specific tiles on Route 30, like (7, 49) or in the grass at (6, 26), can trigger battles on a glitched map with ID 0_0. This has been confirmed to change the map ID temporarily.
+
+## Agent Refinement Plan
+- **`softlock_detector`:** The agent failed to account for one-way paths (ledges). It correctly identified an unexplored tile but incorrectly stated a path existed from my current position. I need to update its prompt and possibly its code to check for path reachability specifically from the player's current coordinates, respecting one-way traversal rules.
