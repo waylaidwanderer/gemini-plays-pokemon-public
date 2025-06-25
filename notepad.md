@@ -35,3 +35,5 @@
 - **Trust the Agent:** The `map_analyst` correctly identified that the eastern part of Route 30 is a dead-end loop, forcing me to backtrack. This confirms the agent's pathfinding is reliable and should be trusted over my own assumptions about map layout.
 
 - **Route 30 is a one-way path from north to south.** The western path is blocked by one-way ledges, making it impossible to travel north from Cherrygrove City. My `map_analyst` agent confirmed this. I must find an alternative route to Violet City.
+
+- **Route 46 is also a one-way path from north to south.** The ledges make it impossible to travel north from the gatehouse. All known routes to Violet City are currently blocked.
