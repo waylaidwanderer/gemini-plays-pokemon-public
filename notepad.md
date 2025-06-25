@@ -33,3 +33,9 @@
 
 ## Live Encounter Notes
 - Turn 3331: Interrupted by a wild Hoppip on Route 30 while backtracking.
+
+## Agent Failures
+- **`map_analyst` ('explore' mode):** This agent is fundamentally flawed. After three redefinitions, it repeatedly identified an unreachable tile `(5, 19)` as a valid target, proving its reachability check is non-functional. I am abandoning its use for exploration.
+
+## Route 30 Conclusion
+- After extensive exploration and testing, I've confirmed Route 30 is a dead end for now. The western path is blocked by impassable trees and a bugged NPC, and the puzzle in Mr. Pokémon's house is unsolvable with my current capabilities. I must backtrack.
