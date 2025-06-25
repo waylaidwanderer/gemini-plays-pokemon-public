@@ -39,14 +39,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_move\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_move\",\"reasoning\"]}",
     "agent_can_run_code": false
   },
-  "healing_route_planner_agent": {
-    "agent_name": "healing_route_planner_agent",
-    "agent_description": "Calculates the most efficient path to the nearest Pokémon Center using the World Knowledge Graph. Useful for strategic retreats and healing.",
-    "agent_system_prompt": "You are a Pokémon Center Route Planner. Your task is to find the shortest path from the player's current location to the nearest known Pokémon Center. You will be given the player's current map ID and coordinates. You MUST use your `run_code` tool to accomplish this. Your Python script must parse the `world_knowledge_graph_json_string` to build a graph of the known world. First, identify all nodes with the 'pokecenter' tag. Then, using a pathfinding algorithm like Dijkstra's or Breadth-First Search (BFS) on the graph, calculate the shortest path from the player's current map location to each of these Pokémon Center nodes. Finally, identify the Pokémon Center with the shortest path and return a clear, step-by-step route as a sequence of instructions (e.g., 'Take warp from [Source Map] to [Destination Map]'). Your final output must be a JSON object containing the recommended destination and the step-by-step route.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_map_id\":{\"type\":\"string\"},\"current_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"current_map_id\",\"current_coordinates\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"destination_pokecenter_map_id\":{\"type\":\"string\"},\"route\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"path_found\":{\"type\":\"boolean\"}},\"required\":[\"destination_pokecenter_map_id\",\"route\",\"path_found\"]}",
-    "agent_can_run_code": true
-  },
   "encounter_tracker_agent": {
     "agent_name": "encounter_tracker_agent",
     "agent_description": "Records wild Pokémon encounters for a specific map, updating a persistent log. Helps in building a database for training and Pokédex completion.",
