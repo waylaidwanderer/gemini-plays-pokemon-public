@@ -12,6 +12,7 @@
 - **Systematic Updates:** When a new game mechanic or impassable tile type is discovered, ALL relevant agents must be updated immediately.
 - **Unresponsive UI:** If an input fails repeatedly (like the nickname screen), I must change my approach (e.g., selecting 'END') rather than repeating the same failed action.
 - **World Knowledge Graph:** I MUST use `manage_world_knowledge` to record every inter-map transition (warps, map edges) immediately after it occurs. This is critical for building a complete and accurate map of the world.
+- **Pathfinding Logic:** The eastern path on Route 30 is a dead end for reaching Violet City. The correct path must be on the western side of the route.
 
 ## Unverified Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
@@ -27,8 +28,3 @@
 
 ## Agent Refinement Plan
 - **`softlock_detector`:** The agent failed to account for one-way paths (ledges). It correctly identified an unexplored tile but incorrectly stated a path existed from my current position. I need to update its prompt and possibly its code to check for path reachability specifically from the player's current coordinates, respecting one-way traversal rules.
-
-## Pokémon Team Progress
-- Hearth (Cyndaquil): Lv. 11
-- Periscope (Sentret): Lv. 7
-- Zeph (Pidgey): Lv. 6
