@@ -15,17 +15,17 @@
 - **Unresponsive UI:** If an input fails repeatedly (like the nickname screen), I must change my approach (e.g., selecting 'END') rather than repeating the same failed action.
 - **World Knowledge Graph:** I MUST use `manage_world_knowledge` to record every inter-map transition (warps, map edges) immediately after it occurs.
 - **Pathfinding:** Always use the `map_analyst` agent to verify a path before attempting to traverse it, especially in complex areas with ledges or potential dead ends. Jumping down ledges without a confirmed exit is a recipe for getting trapped.
+- **Puzzle Triggers:** A looping NPC dialogue might indicate an external trigger is needed. Interacting with all objects in a room (like the Strange Coins and Broken Computer in Mr. Pokémon's house) might not be enough; the trigger could be on a different map.
 
 ## Unverified Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. (Check again later)
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
 - The Gentleman NPC at (3, 5) in Mr. Pokémon's house is Mr. Pokémon.
-- The object at (6, 4) in Mr. Pokémon's house is purely decorative.
 
 ## Future Plans & Strategy
 - **Primary Goal:** Defeat the Violet City Gym Leader and earn the Zephyr Badge.
 - **HM Moves:** 'CUT_TREE' and 'HEADBUTT_TREE' tiles are currently impassable but might be cleared with the respective HMs.
 
 ## Unsolved Puzzles
-- **Mr. Pokémon's House:** Gentleman at (3,5) is in a dialogue loop. Interacting with the Strange Coins (6,4) and Broken Computer (6,1) has no effect. All interactions within the house seem exhausted. Leaving to investigate Route 30 for a potential external trigger.
+- **Mr. Pokémon's House:** Gentleman at (3,5) is in a dialogue loop. Interacting with the Strange Coins (6,4) and Broken Computer (6,1) has no effect. All interactions within the house seem exhausted, suggesting an external trigger on Route 30 is needed.
