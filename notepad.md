@@ -19,5 +19,5 @@
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. (Check again later)
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
-- The northern paths on Route 30 are blocked due to a missed story trigger. (Current working theory is that talking to Prof. Oak was the trigger).
-- 'Shadowing' NPCs follow the player onto the same tile, preventing interaction. This is a confirmed mechanic. They can be despawned by moving a significant distance away from their initial spawn point.
+- The northern paths on Route 30 were thought to be blocked by a story trigger, but it was discovered that the 'shadowing' NPCs were the true obstacles.
+- 'Shadowing' NPCs follow the player onto the same tile, preventing direct interaction. However, they are not solid obstacles; the player can move through them, and the NPC will simply teleport to the new tile.
