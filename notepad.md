@@ -1,10 +1,11 @@
-# Gem's Strategic Journal (v130 - Pokémon Tower Reflection)
+# Gem's Strategic Journal (v131 - Post-Healing Clarity)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. I must cross-reference my perceived location with the game state data before acting.
+- **Verify Assumptions:** Do not record intel as "completed" or "confirmed" until it has been empirically verified. Premature conclusions lead to flawed strategies.
 - **Agent Liability:** An agent that provides consistently incorrect or dangerous advice is a liability. It must be abandoned or fixed from a safe location, not during a critical battle.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Mark and move on.
-- **WKG & Marker Protocol:** Be diligent about marking key points (like warp arrivals and defeated trainers) *immediately*.
+- **WKG & Marker Protocol:** Be diligent about marking key points (like warp arrivals and defeated trainers) *immediately*. Consolidate markers on single tiles for clarity.
 - **Tool-First Mindset:** For any complex or repetitive task, use an agent first.
 - **Follow Through:** Documenting a reminder is useless if I don't follow it. I must adhere to my own documented strategies, like maintaining item stock.
 
@@ -34,7 +35,7 @@
 
 ## III. Active Plans & Goals
 ### **Current Plan: Rescue Mr. Fuji**
-1.  **Situation:** I have Poké Balls and have re-entered the Pokémon Tower.
+1.  **Situation:** I have Poké Balls and am on the 5th floor of the Pokémon Tower. My party is fully healed.
 2.  **Primary Goal:** Ascend the Pokémon Tower to find and rescue Mr. Fuji.
 3.  **Secondary Goal:** Find and catch a wild Cubone on the way up.
 
@@ -44,11 +45,11 @@
 - **Snorlax (Route 16):** Requires the Poké Flute. Mr. Fuji is the most likely source after he is rescued.
 
 ## IV. Unverified Assumptions (To Be Tested)
+- **5F Healing Source:** Is the friendly Channeler at (13, 9) a permanent, reusable healing spot?
 - **Tower Layout:** Is the path from 6F to the top linear, or is it a maze?
 - **Final Ghost:** Is the ghost that blocked the stairs to 7F gone for good?
 - **Progression Trigger:** Is defeating all Channelers the only way to progress, or is there a puzzle?
 - **Wild Encounters:** Are there other rare Pokémon besides Gastly and Cubone on higher floors?
-- **Healing Locations:** Is the 5F healer the only one in the tower?
 - **Mr. Fuji's Location:** Is Mr. Fuji at the very top, or on a lower floor?
 
 ## V. Agent Development Log
@@ -70,7 +71,6 @@
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
 - **PC Glitch Workaround:** Selecting 'Gem's PC' is bugged. Use 'BILL's PC' instead.
 - **Inventory Limit is Visual Bug:** Confirmed the inventory can hold more than the displayed limit.
-- **5F Healing Source:** The friendly Channeler at (13, 9) is a permanent, reusable healing spot.
 
 ### Pokémon Evolutions
 - CRAG (Geodude) -> Graveler at Lv. 25 in Pokémon Tower 4F.
