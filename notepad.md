@@ -19,8 +19,5 @@
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. (Check again later)
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
-- The Gentleman NPC at (3, 5) in Mr. Pokémon's house is Mr. Pokémon.
-- The northern paths on Route 30 are blocked due to a missed story trigger. (Current working theory)
+- The northern paths on Route 30 are blocked due to a missed story trigger. (Current working theory is that talking to Prof. Oak was the trigger).
 - The other trainers on Route 30 that appear to be blocking paths are not softlocks; they are either 'shadowing' NPCs that follow the player but don't impede movement, or they are invisible walls.
-
-- My `exploration_strategist` found a large unseen area starting at (4, 0), but it appears to be the path leading south from Violet City and is unreachable from my current location on Route 30.
