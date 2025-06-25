@@ -30,3 +30,8 @@
 - Turn 3331: Interrupted by a wild Hoppip on Route 30 while backtracking.
 
 - **Route 30 Eastern Path Blocked:** The Youngster at (12, 29) is bugged, mirroring player movement and creating an impassable softlock. This confirms all northern paths on Route 30 are currently dead ends.
+
+## Current Plan: Finding Violet City (Attempt 3)
+- **Status:** All previously explored northern paths on Route 30 have resulted in dead ends blocked by impassable trainers.
+- **Hypothesis:** The central path, starting at (9, 35), is the correct route to Violet City.
+- **Action:** Proceed north along this central path and document findings. Be prepared for a potential trainer battle with the Youngster at (9, 35).
