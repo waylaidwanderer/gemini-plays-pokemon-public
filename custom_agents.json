@@ -15,14 +15,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_team\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_team\",\"justification\"]}",
     "agent_can_run_code": false
   },
-  "item_finder": {
-    "agent_name": "item_finder",
-    "agent_description": "Identifies which pocket a specified item is located in within the player's bag.",
-    "agent_system_prompt": "You are an expert on Pokémon game mechanics for Pokémon Crystal. Your task is to identify which pocket of the player's bag a specific item is stored in. The pockets are: 'Items', 'Balls', 'Key Items', and 'TM/HM'. Given an item name, you must return the correct pocket name.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"item_name\":{\"type\":\"string\"}},\"required\":[\"item_name\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"pocket_name\":{\"type\":\"string\",\"enum\":[\"Items\",\"Balls\",\"Key Items\",\"TM/HM\"]}},\"required\":[\"pocket_name\"]}",
-    "agent_can_run_code": false
-  },
   "map_analyst": {
     "agent_name": "map_analyst",
     "agent_description": "A robust, code-enabled agent that analyzes the current map XML to find a valid path between two coordinates.",
