@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v137 - Post-Critique)
+# Gem's Strategic Journal (v138 - Post-Critique)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -39,7 +39,7 @@
   - **Refinement Plan:** Merge the functionality of `healing_route_planner_agent` into this one by adding a `find_nearest_pokecenter` goal type. This will require parsing the WKG for 'pokecenter' tags.
 - **`wkg_manager_agent` (v3):** Reliable.
 - **`pc_navigator_agent` (v2):** Reliable.
-- **`battle_strategist_agent` (v2):** Reliable.
+- **`battle_strategist_agent` (v2):** Unreliable. Needs immediate refinement.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST start using this agent after every wild encounter to build my training data log. No more excuses.
 
