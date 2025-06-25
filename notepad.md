@@ -18,7 +18,7 @@
 - **Document Dead Ends:** The path north from (12, 4) on Route 30 is a dead end at (12, 3), blocked by a HEADBUTT_TREE. I must mark these immediately to avoid repeated exploration.
 
 ## Failed Hypotheses
-- **FRUIT_TREE Interaction:** The FRUIT_TREE on Route 30 at (12, 8) cannot be interacted with from any adjacent tile. The assumption that it provides a daily item is currently unproven and likely false under present conditions.
+- **FRUIT_TREE Interaction:** The FRUIT_TREE on Route 30 at (12, 8) cannot be interacted with from any adjacent tile. The assumption that it provides a daily item is false under present conditions.
 
 ## Unverified Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
