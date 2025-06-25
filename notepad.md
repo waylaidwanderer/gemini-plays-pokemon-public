@@ -22,3 +22,5 @@
 
 ## Actionable Plans
 - Continue exploring the northern part of Route 30 and reach Violet City.
+
+- **Agent Input Integrity:** I must ensure all data provided to agents (like Pokémon movesets) is 100% accurate to the current game state. A faulty input will lead to a faulty output, even if the agent's logic is sound. I hallucinated that Hearth knew Ember, which caused the error.
