@@ -25,7 +25,11 @@
 
 ## Future Plans & Strategy
 - **Primary Goal:** Defeat the Violet City Gym Leader and earn the Zephyr Badge.
-- **HM Moves:** 'CUT_TREE' and 'HEADBUTT_TREE' tiles are currently impassable but might be cleared with the respective HMs.
+- **Secondary Goal:** Find the main path to Violet City.
+- **Tertiary Goal:** Catch a new Pokémon species if the opportunity arises.
 
 ## Unsolved Puzzles
 - **Mr. Pokémon's House:** Gentleman at (3,5) is in a dialogue loop. Interacting with the Strange Coins (6,4) and Broken Computer (6,1) has no effect. All interactions within the house seem exhausted, suggesting an external trigger on Route 30 is needed.
+
+## Live Encounter Notes
+- Turn 3331: Interrupted by a wild Hoppip on Route 30 while backtracking.
