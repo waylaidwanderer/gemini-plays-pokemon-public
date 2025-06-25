@@ -66,3 +66,6 @@
 ## VI. Unverified Assumptions & Future Tests
 - **Path Forward:** The path south past the Snorlax is assumed to be the correct progression path.
 - **Thirsty Guards:** The guards blocking Saffron City might accept a drink item like Fresh Water. This is a key alternative path to test.
+
+### C. Agent Usage Reminders
+- **Reminder:** Start using `encounter_tracker_agent` to log wild Pokémon for training data.
