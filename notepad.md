@@ -20,9 +20,7 @@
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
 - The Gentleman NPC at (3, 5) in Mr. Pokémon's house is Mr. Pokémon.
 
-## Route 30 Progression Block (ATTEMPT 5 - FAILED)
-- **Status:** All three northern paths on Route 30 are confirmed impassable.
-  - **Western/Central Path:** Blocked by a trainer at (5, 23) that causes a dialogue softlock. Interaction is not the solution. (Confirmed Turn 3447)
-  - **Eastern Path:** Blocked by a movement-mirroring trainer at (12, 29) that causes a softlock. (Confirmed Turn 3380)
-- **Conclusion:** Progression north through Route 30 is impossible. The route is a dead end.
-- **New Plan:** Return to Cherrygrove City and systematically re-interview every NPC. A story event may have unlocked new dialogue or an alternate path.
+## Current Roadblock & New Plan
+- **Status:** I am completely stuck. All three northern paths on Route 30 are confirmed impassable due to bugged/soft-locking trainers. A systematic re-investigation of every NPC and interactable object in Cherrygrove City after receiving the Pokedex has yielded zero new leads.
+- **Conclusion:** Progression through Cherrygrove/Route 30 is impossible at this time.
+- **New Plan:** Backtrack to previous key story locations. My new hypothesis is that a crucial event or dialogue was missed at either Mr. Pokémon's House or Elm's Lab after the Pokedex acquisition. I will travel back to Mr. Pokémon's house first to re-interview everyone there.
