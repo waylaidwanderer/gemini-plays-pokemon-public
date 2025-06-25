@@ -56,7 +56,7 @@
 - **Giovanni Defeated:** Defeated on Rocket Hideout B4F, dropped the Silph Scope.
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
 - **PC Glitch Workaround:** Selecting 'Gem's PC' is bugged and unusable. The correct and reliable method to access Pokémon Storage is to select 'BILL's PC' from the main menu.
-- **Pokémon Tower 5F Healing Spot (13, 9) is FAKE:** The Channeler offers dialogue but does NOT heal the party. It is a one-time purified zone.
+- **Pokémon Tower 5F Healing Spot (13, 9) is a one-time purified zone:** This is a hypothesis. The Channeler's healing effect was used once. Need to test if it recharges or if it was a one-time event.
 
 ## Critical Oversights & Lessons
 - **Poké Ball Stock:** I encountered a wild Cubone (a catch target) and had ZERO Poké Balls. I must always maintain a healthy stock of Poké Balls to avoid missing rare encounters. This was a major failure in preparation.
