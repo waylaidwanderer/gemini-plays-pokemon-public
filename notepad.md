@@ -21,4 +21,4 @@
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. I need to check it again later.
 
 ## Actionable Plans
-- Explore the northern part of Route 30 to find better training spots or unfought trainers.
+- Continue exploring the northern part of Route 30 and reach Violet City.
