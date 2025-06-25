@@ -23,14 +23,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"mode_used\":{\"type\":\"string\",\"enum\":[\"pathfind\",\"explore\"]},\"path_found\":{\"type\":\"boolean\"},\"tile_found\":{\"type\":\"boolean\"},\"result\":{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}},\"explanation\":{\"type\":\"string\"}},\"required\":[\"mode_used\",\"explanation\"]}",
     "agent_can_run_code": true
   },
-  "npc_investigator": {
-    "agent_name": "npc_investigator",
-    "agent_description": "Analyzes the current map to find all NPCs and key interactable objects (signs, PCs, TVs, bookshelves), then generates an optimal path to visit each one sequentially. Useful for systematic area clearing.",
-    "agent_system_prompt": "You are a systematic investigator for the Pokémon world. Your task is to analyze the `map_xml_string` to identify all interactable elements and generate an efficient plan to visit them. You will be given the player's starting coordinates. First, identify the coordinates of all `<Object>` elements, categorizing them as 'NPC' or 'background_object'. Second, use your `run_code` tool to implement a Traveling Salesperson Problem (TSP) solver (a greedy nearest-neighbor approach is sufficient) to find the most efficient path that starts at the player's location and visits every identified object. The path should be a sequence of coordinates. Your final output must include the list of targets and the ordered path to visit them.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"targets_found\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"type\":{\"type\":\"string\"},\"name\":{\"type\":\"string\"},\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"optimal_path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"explanation\":{\"type\":\"string\"}},\"required\":[\"targets_found\",\"optimal_path\",\"explanation\"]}",
-    "agent_can_run_code": true
-  },
   "exploration_strategist": {
     "agent_name": "exploration_strategist",
     "agent_description": "Analyzes the map XML to identify the most promising region of 'unknown' tiles for exploration, guiding the player toward large, undiscovered areas.",
