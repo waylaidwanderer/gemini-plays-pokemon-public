@@ -21,4 +21,4 @@
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
 - The Gentleman NPC at (3, 5) in Mr. Pokémon's house is Mr. Pokémon.
 - The northern paths on Route 30 are blocked due to a missed story trigger. (Current working theory)
-- The other soft-locking trainers on Route 30 might have a similar non-obvious solution to the shadowing NPC.
+- The other trainers on Route 30 that appear to be blocking paths are not softlocks; they are either 'shadowing' NPCs that follow the player but don't impede movement, or they are invisible walls.
