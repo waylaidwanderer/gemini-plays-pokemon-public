@@ -31,3 +31,5 @@
   4. Select Phone.
   5. Call Professor Elm.
   6. Close menu and observe results.
+
+- **Unrecoverable Hardlock:** The shadowing Youngster on Route 30 at (9, 30) has created an unrecoverable hardlock. All attempts to resolve (movement, interaction, menuing, party switching, POKéGEAR phone) have failed over 20+ turns. This appears to be a game-breaking bug with no solution.
