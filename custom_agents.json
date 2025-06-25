@@ -22,5 +22,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"analysis_type\":{\"type\":\"string\",\"enum\":[\"find_farthest_tile\",\"find_unexplored_tiles\",\"check_path_to_warp\"]},\"options\":{\"type\":\"object\",\"properties\":{\"direction\":{\"type\":\"string\",\"enum\":[\"north\",\"south\",\"east\",\"west\"]},\"warp_x\":{\"type\":\"integer\"},\"warp_y\":{\"type\":\"integer\"}}}},\"required\":[\"start_x\",\"start_y\",\"analysis_type\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"success\":{\"type\":\"boolean\"},\"result\":{\"type\":\"object\"},\"explanation\":{\"type\":\"string\"}},\"required\":[\"success\",\"result\",\"explanation\"]}",
     "agent_can_run_code": true
+  },
+  "pathfinder_pro": {
+    "agent_name": "pathfinder_pro",
+    "agent_description": "A robust, code-enabled pathfinding agent. Parses the map XML to find a valid path from a start to an end coordinate, strictly avoiding all obstacles including walls, water, and objects/NPCs.",
+    "agent_system_prompt": "You are an expert pathfinding AI for a tile-based game. You will be given start and end coordinates. Your SOLE task is to find a valid path. You MUST use the `run_code` tool to execute a Python script that parses the `map_xml_string`. Your script must build a graph representation of the map and use an A* search algorithm to find the shortest path. CRITICAL: Treat any tile with `type` attribute 'WALL', 'WATER', 'CUT_TREE', 'HEADBUTT_TREE' or any tile containing an `<Object>` child element as completely impassable. Your script MUST verify the path is valid before printing it. Your final output must be the path as a list of coordinates.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path_found\",\"path\"]}",
+    "agent_can_run_code": true
   }
 }
