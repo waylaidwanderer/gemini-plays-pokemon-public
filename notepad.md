@@ -14,6 +14,10 @@
 - **World Knowledge Graph:** I MUST use `manage_world_knowledge` to record every inter-map transition (warps, map edges) immediately after it occurs. This is critical for building a complete and accurate map of the world.
 - **Pathfinding Logic:** The eastern path on Route 30 is a dead end for reaching Violet City. The correct path must be on the western side of the route.
 
+## Agent Refinement Plan
+- **`path_navigator` Failures:** The agent repeatedly failed to path around NPCs, even after multiple prompt revisions. It has been deleted. A new, more robust navigation agent needs to be designed, potentially one that uses its code tool to explicitly parse the XML for `<Object>` tags in its generated path and verify their absence before outputting a solution.
+- **`map_analyst` Development:** I should integrate pathfinding capabilities into the `map_analyst` agent to create a single, powerful tool for map analysis. This will consolidate functionality and avoid redundancy.
+
 ## Unverified Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. (Check again later)
@@ -25,8 +29,3 @@
 
 ## Glitched Battles
 - Stepping on specific tiles on Route 30, like (7, 49) or in the grass at (6, 26), can trigger battles on a glitched map with ID 0_0. This has been confirmed to change the map ID temporarily.
-
-## Agent Refinement Plan
-- **`softlock_detector`:** The agent failed to account for one-way paths (ledges). It correctly identified an unexplored tile but incorrectly stated a path existed from my current position. I need to update its prompt and possibly its code to check for path reachability specifically from the player's current coordinates, respecting one-way traversal rules.
-
-- **Agent Consolidation:** The `softlock_detector` is redundant. I will merge its pathfinding capabilities into the `map_analyst` agent to create a single, more powerful tool for map analysis.
