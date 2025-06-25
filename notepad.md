@@ -15,7 +15,6 @@
 - **World Knowledge Graph:** I MUST use `manage_world_knowledge` to record every inter-map transition immediately.
 - **Softlock Solutions:** Some NPC-related softlocks can be resolved through non-obvious means, such as opening the menu, changing the lead Pokémon, or simply moving away. The 'shadowing' NPCs and dialogue loops on Route 30 were not hardlocks.
 - **Verify Basic Assumptions:** My biggest mistake was assuming I was hardlocked. I must always re-verify my most fundamental assumptions (like 'can I move?') before concluding I am stuck.
-- **Document Dead Ends:** The path north from (12, 4) on Route 30 is a dead end at (12, 3), blocked by a HEADBUTT_TREE. I must mark these immediately to avoid repeated exploration.
 
 ## Failed Hypotheses
 - **FRUIT_TREE Interaction:** The FRUIT_TREE on Route 30 at (12, 8) cannot be interacted with from any adjacent tile. The assumption that it provides a daily item is false under present conditions.
