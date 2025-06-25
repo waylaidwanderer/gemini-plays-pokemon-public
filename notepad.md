@@ -21,4 +21,4 @@
 - **Violet City Gym Strategy:** My current team is the best option. Lead with Hearth (Cyndaquil) to overpower the Flying-type Pokémon.
 - **HM Moves:** 'CUT_TREE' and 'HEADBUTT_TREE' tiles are currently impassable but might be cleared with the respective HMs.
 
-- **Glitched Battles:** Stepping on specific tiles on Route 30, like (7, 49) or in the grass at (6, 26), can trigger battles in a glitched 'Unknown' map (ID: 0_0).
+- **Glitched Battles:** Stepping on specific tiles on Route 30, like (7, 49) or in the grass at (6, 26), can trigger battles on a glitched map with ID 0_0.
