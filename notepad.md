@@ -34,10 +34,11 @@
 - **Channeler Team Composition:** Not all Channelers exclusively use Ghost-types. Be prepared for Psychic-types and have counters like Bite ready.
 
 ## III. Active Plans & Goals
-### **Current Plan: Rescue Mr. Fuji**
-1.  **Situation:** I have Poké Balls and am on the 5th floor of the Pokémon Tower. My party is fully healed.
-2.  **Primary Goal:** Ascend the Pokémon Tower to find and rescue Mr. Fuji.
-3.  **Secondary Goal:** Find and catch a wild Cubone on the way up.
+### **Current Plan: Descend Pokémon Tower & Heal**
+1.  **Situation:** I have rescued Mr. Fuji and received the POKé FLUTE. My party is injured.
+2.  **Primary Goal:** Descend the Pokémon Tower.
+3.  **Secondary Goal:** Find and catch a wild Cubone on the way down.
+4.  **Tertiary Goal:** Heal my party at the Lavender Town Pokémon Center.
 
 ### Long-Term Goals
 - **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
