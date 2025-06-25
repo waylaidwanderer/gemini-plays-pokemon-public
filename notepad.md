@@ -21,4 +21,4 @@
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
 - The Gentleman NPC at (3, 5) in Mr. Pokémon's house is Mr. Pokémon.
 
-- **Unrecoverable Hardlock:** The shadowing Youngster on Route 30 at (9, 30) has created an unrecoverable hardlock. All attempts to resolve (movement, interaction, menuing, party switching, POKéGEAR phone) have failed over 20+ turns. This appears to be a game-breaking bug with no solution.
+- Shadowing Softlock: The Youngster on Route 30 at (9, 31) shadows my every move, occupying the same tile. While I can move, this prevents interactions and may cause issues. This is a persistent, but not a hard, lock.
