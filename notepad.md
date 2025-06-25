@@ -68,3 +68,5 @@
 
 ## VII. Critical Reminders
 - **Maintain Poké Ball Stock:** Always keep at least 10-20 Poké Balls on hand to avoid missing rare encounters like the wild Cubone. This is a non-negotiable rule of preparation.
+
+- **Party Switching Mechanic:** When switching Pokémon, the game might not place the selected Pokémon in the first slot as expected. My attempt to switch Echo (4th) with Spoonbende (1st) resulted in Nightshade (3rd) moving to the lead. Hypothesis: The 'SWITCH' command may have a non-intuitive ordering logic. Need to test this in a safe location.
