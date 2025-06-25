@@ -44,7 +44,6 @@
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST start using this agent after every wild encounter to build my training data log. No more excuses. I will now integrate this into my standard post-battle workflow.
 
 ### B. Agent Development Backlog
-
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
 - **`fishing_advisor_agent`:** Analyze map & rod to suggest best fishing spots/catches.
 - **`hm_planner_agent`:** Suggest best Pokémon for HMs based on current moves and future utility.
@@ -67,9 +66,6 @@
 
 - **Disproven Hypothesis:** Cool Trainer at (12, 93) on Route 12 does NOT want a Moon Stone; he's just flavor text. This path is a dead end.
 - **New Plan:** The southern exit on Route 12 is blocked. The new primary plan is to test the contingency plan: give a drink to the thirsty guards blocking the Saffron City gates.
-
-### Agent Backlog Update (Temp)
-- `story_progress_tracker_agent`: Track key NPC dialogue and plot points.
 
 ## Saffron City Intel
 - Rocket Grunt at (24, 9) said: "BOSS said he'll take this town!". This confirms a city-wide takeover is in progress.
