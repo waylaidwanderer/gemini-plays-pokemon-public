@@ -52,3 +52,5 @@
 ## VI. Saffron City Intel
 - **Team Rocket Takeover:** Confirmed by a Rocket Grunt. Their goal is to take over the city.
 - **Fighting Dojo:** Cleared. The Karate Master offered a prize Pokémon.
+
+- **`spinner_maze_agent`:** If Silph Co. has a spinner maze like the Rocket Hideout, this will be essential for navigating it.
