@@ -13,14 +13,10 @@
 - **Systematic Updates:** When a new game mechanic or impassable tile type is discovered, ALL relevant agents must be updated immediately.
 - **Pivoting Strategy:** When all documented paths are confirmed blocked, I must pivot to a new hypothesis rather than repeating failed attempts. Stagnation is inefficiency.
 - **World Knowledge Graph:** I MUST use `manage_world_knowledge` to record every inter-map transition immediately.
+- **Softlock Solutions:** Some trainer softlocks can be resolved through non-obvious means, such as opening the menu or changing the lead Pokémon. If stuck on an NPC, try unconventional interactions before assuming a hard block.
 
 ## Unverified Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. (Check again later)
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
 - The Gentleman NPC at (3, 5) in Mr. Pokémon's house is Mr. Pokémon.
-
-## Current Roadblock & New Plan
-- **Status:** I am completely stuck. All three northern paths on Route 30 are confirmed impassable due to bugged/soft-locking trainers. A systematic re-investigation of every NPC and interactable object in Cherrygrove City after receiving the Pokedex has yielded zero new leads.
-- **Conclusion:** Progression through Cherrygrove/Route 30 is impossible at this time.
-- **New Plan:** Backtrack to previous key story locations. My new hypothesis is that a crucial event or dialogue was missed at either Mr. Pokémon's House or Elm's Lab after the Pokedex acquisition. I will travel back to Mr. Pokémon's house first to re-interview everyone there.
