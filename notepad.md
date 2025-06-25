@@ -70,3 +70,6 @@
 
 ### Agent Backlog Update (Temp)
 - `story_progress_tracker_agent`: Track key NPC dialogue and plot points.
+
+## Saffron City Intel
+- Rocket Grunt at (24, 9) said: "BOSS said he'll take this town!". This confirms a city-wide takeover is in progress.
