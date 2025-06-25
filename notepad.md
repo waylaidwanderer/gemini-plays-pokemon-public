@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v131 - Post-Healing Clarity)
+# Gem's Strategic Journal (v132 - Post-Tower Triumph)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it. I must cross-reference my perceived location with the game state data before acting.
@@ -28,46 +28,44 @@
 - **Gen 1 Move Typing:** Be aware of Gen 1 move typings. E.g., Bite and Double Kick are Normal-type.
 - **Confusion & Field Moves:** When a Pokémon is confused, it may randomly select any of its moves to use, including out-of-battle moves like TELEPORT. If Teleport is used, the battle ends immediately.
 - **Normal-Type Immunity:** Confirmed that Normal-type moves (like Bite) are completely ineffective against Ghost-types.
+- **Ghost-Type Immunity:** Confirmed that Ghost-type moves (like Lick) are completely ineffective against Normal-types.
 - **Inventory Limit:** The displayed inventory limit (e.g., 28/20) is a visual bug. The actual limit is higher. Confirmed by purchasing 20 Poké Balls while at 28/20 items.
 
 ### Opponent Battle Intel
 - **Channeler Team Composition:** Not all Channelers exclusively use Ghost-types. Be prepared for Psychic-types and have counters like Bite ready.
 
 ## III. Active Plans & Goals
-### **Current Plan: Descend Pokémon Tower & Heal**
-1.  **Situation:** I have rescued Mr. Fuji and received the POKé FLUTE. My party is injured.
-2.  **Primary Goal:** Descend the Pokémon Tower.
-3.  **Secondary Goal:** Find and catch a wild Cubone on the way down.
-4.  **Tertiary Goal:** Heal my party at the Lavender Town Pokémon Center.
+### **Current Plan: Explore Post-Tower World**
+1.  **Situation:** I have rescued Mr. Fuji and received the POKé FLUTE. My party is fully healed.
+2.  **Primary Goal:** Defeat the next available Gym Leader.
+3.  **Secondary Goal:** Wake up the Snorlax on Route 12 using the POKé FLUTE.
+4.  **Tertiary Goal:** Investigate Celadon City Gym to see if it's unblocked.
 
 ### Long-Term Goals
-- **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
-- **Thirsty Guards:** Need to test if giving a guard a drink (e.g., Fresh Water) will grant passage to Saffron City.
-- **Snorlax (Route 16):** Requires the Poké Flute. Mr. Fuji is the most likely source after he is rescued.
-
-## IV. Unverified Assumptions (To Be Tested)
-- **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. Will investigate after Pokémon Tower.
 - **Thirsty Guards:** Need to test if giving a guard a drink (e.g., Fresh Water) will grant passage to Saffron City.
 
-## V. Agent Development Log
+## IV. Agent Development Log
 ### A. Active Agents & Refinements
 - **`pathfinding_agent` (v3):** Reliable for on-map pathfinding.
-- **`wkg_manager_agent` (v2):** Reliable for WKG updates.
+- **`wkg_manager_agent` (v3):** Refined to handle null destination_entry_point values correctly.
 - **`pc_navigator_agent` (v2):** Reliable for PC navigation.
-- **`battle_strategist_agent` (v1):** Reliable for battle advice.
+- **`battle_strategist_agent` (v2):** Refined to better differentiate between wild/trainer battles and handle low-HP scenarios.
 - **`team_composition_advisor_agent` (v2):** Refined to include EXP grinding optimization logic.
 
 ### B. Agent Development Backlog
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
 - **`healing_route_planner_agent`:** Find the most efficient path to a Pokémon Center using the WKG.
 
-## VI. Completed Intel & Disproven Hypotheses
+## V. Completed Intel & Disproven Hypotheses
 - **Poké Ball Mission:** Completed. Purchased 20 Poké Balls.
 - **LIFT KEY Location:** Dropped by a Rocket Grunt at Rocket Hideout B3F (11, 23).
 - **Giovanni Defeated:** Defeated on Rocket Hideout B4F, dropped the Silph Scope.
 - **Rival Pixel Defeated:** Defeated on Pokémon Tower 2F.
 - **PC Glitch Workaround:** Selecting 'Gem's PC' is bugged. Use 'BILL's PC' instead.
 - **Inventory Limit is Visual Bug:** Confirmed the inventory can hold more than the displayed limit.
+- **Mr. Fuji Rescued:** Rescued from Team Rocket at the top of Pokémon Tower. Received POKé FLUTE as a reward.
+- **Celadon Gym:** The gym might be un-bugged now that the Rocket Hideout is cleared. (Moved to Active Plans for investigation)
+- **Thirsty Guards:** Need to test if giving a guard a drink will grant passage. (Moved to Long-Term Goals for investigation)
 
 ### Pokémon Evolutions
 - CRAG (Geodude) -> Graveler at Lv. 25 in Pokémon Tower 4F.
