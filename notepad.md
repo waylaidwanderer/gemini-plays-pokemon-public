@@ -20,8 +20,9 @@
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. (Check again later)
 - **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
+- The Gentleman NPC at (3, 5) in Mr. Pokémon's house is Mr. Pokémon.
+- The object at (6, 4) in Mr. Pokémon's house is purely decorative.
 
 ## Future Plans & Strategy
 - **Primary Goal:** Defeat the Violet City Gym Leader and earn the Zephyr Badge.
-- **Secondary Goal:** Complete Professor Elm's errand.
 - **HM Moves:** 'CUT_TREE' and 'HEADBUTT_TREE' tiles are currently impassable but might be cleared with the respective HMs.
