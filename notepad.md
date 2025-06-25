@@ -1,11 +1,11 @@
-# Gem's Strategic Journal (v140 - Post-Critique)
+# Gem's Strategic Journal (v141 - Post-Critique & Saffron City Update)
 
 ## I. Core Principles & Lessons Learned
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
 - **Verify Assumptions:** Do not record intel as "completed" or "confirmed" until it has been empirically verified. Non-battling trainers exist; not every NPC is an opponent.
-- **Agent Liability & Discipline:** An agent that provides consistently incorrect or dangerous advice is a liability. It must be abandoned or fixed from a safe location. I must be more disciplined in using my agents, especially `wkg_manager_agent` and `encounter_tracker_agent`.
+- **Agent Liability & Discipline:** An agent that provides consistently incorrect or dangerous advice is a liability. It must be abandoned or fixed from a safe location.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Mark and move on.
-- **WKG & Marker Protocol:** Be diligent about marking key points (like warp arrivals and defeated trainers) *immediately*. Consolidate markers on single tiles for clarity. Use the `wkg_manager_agent` for all WKG updates to avoid manual errors.
+- **WKG & Marker Protocol:** Be diligent about marking key points (like warp arrivals and defeated trainers) *immediately*. For WKG, I must manually check for existing nodes before adding edges to prevent errors.
 - **Tool-First Mindset:** For any complex or repetitive task, use an agent first.
 - **Encounter Tracking Protocol:** After every wild encounter, I MUST use the `encounter_tracker_agent` to log the data. This is now a mandatory step in my workflow.
 
@@ -30,20 +30,20 @@
 - **Normal/Ghost Immunities:** Normal moves are ineffective against Ghosts, and Ghost moves are ineffective against Normals.
 
 ## III. Active Plans & Hypotheses
-- **Primary Plan:** Explore south along Route 13 to find the next town and Gym.
-- **Contingency Plan:** Test if giving a guard a drink (e.g., Fresh Water) will grant passage to Saffron City.
+- **Primary Plan:** Disrupt Team Rocket's operations in Saffron City, which is likely the key to accessing the Saffron City Gym.
+- **Current Objective:** Clear the Fighting Dojo of all trainers.
 
 ## IV. Agent Development Log
 ### A. Active Agents & Refinements
-- **`pathfinding_agent` (v3.4):** Generally reliable. 
-  - **Refinement Plan:** Merge the functionality of a healing route planner into this one by adding a `find_nearest_pokecenter` goal type. This will require parsing the WKG for 'pokecenter' tags.
-- **`wkg_manager_agent` (v3):** Reliable. Must be used for all WKG updates.
+- **`pathfinding_agent` (v3.4):** Generally reliable.
+- **`wkg_manager_agent` (v3):** **UNRELIABLE.** This agent consistently fails to check for existing nodes, causing tool errors. Do not use. A replacement is needed.
 - **`pc_navigator_agent` (v2):** Reliable.
-- **`battle_strategist_agent` (v3):** Recently refined. Monitor for improved performance.
+- **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
-- **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST start using this agent after every wild encounter to build my training data log. No more excuses. I will now integrate this into my standard post-battle workflow.
+- **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST start using this agent after every wild encounter to build my training data log.
 
 ### B. Agent Development Backlog
+- **`wkg_manager_agent_v2`:** Develop a new, more reliable WKG management agent or a Python script to handle WKG updates, including pre-checking for existing nodes.
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
 - **`fishing_advisor_agent`:** Analyze map & rod to suggest best fishing spots/catches.
 - **`hm_planner_agent`:** Suggest best Pokémon for HMs based on current moves and future utility.
@@ -52,20 +52,8 @@
 - **`story_progress_tracker_agent`:** Track key NPC dialogue and plot points.
 
 ## V. Completed Intel & Disproven Hypotheses
-- (This section is for temporarily noting completed short-term intel before it is archived or removed. Long-term discoveries are integrated into other sections.)
+- **Route 13 Dead End:** The path south through Route 13 was not the correct progression path. The Cool Trainer at (12, 93) on Route 12 does NOT want a Moon Stone; he's flavor text.
+- **Thirsty Guards:** Giving a drink to the thirsty guards did NOT grant passage to Saffron City; it opened a path to a different part of Route 5.
 
-## VI. Unverified Assumptions & Future Tests
-- **Path Forward:** The path south through Route 13 is assumed to be the correct progression path.
-- **Thirsty Guards:** The guards blocking Saffron City might accept a drink item like Fresh Water. This is a key alternative path to test.
-- **Strange Battle Mechanics:** The FEAROW's triple attack could be a unique move or mechanic in this ROM hack. I need to be more observant.
-
-## VII. Encounter Log (JSON)
-{"ROUTE_12":["ODDISH"]}
-
-## VIII. Reflection Notes (T26395)
-
-- **Disproven Hypothesis:** Cool Trainer at (12, 93) on Route 12 does NOT want a Moon Stone; he's just flavor text. This path is a dead end.
-- **New Plan:** The southern exit on Route 12 is blocked. The new primary plan is to test the contingency plan: give a drink to the thirsty guards blocking the Saffron City gates.
-
-## Saffron City Intel
-- Rocket Grunt at (24, 9) said: "BOSS said he'll take this town!". This confirms a city-wide takeover is in progress.
+## VI. Saffron City Intel
+- **Team Rocket Takeover:** Rocket Grunt at (24, 9) said: "BOSS said he'll take this town!". This confirms a city-wide takeover is in progress.
