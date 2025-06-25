@@ -8,13 +8,15 @@
 - **Battle Text:** Can be misleading (e.g. "But it failed!" followed by a successful attack).
 
 ## Lessons Learned & Agent Performance
-- **Agent Input Integrity:** I must ensure all data provided to agents (like Pokémon movesets) is 100% accurate to the current game state. A faulty input will lead to a faulty output. I hallucinated that Hearth knew Ember, which caused an error.
+- **Agent Input Integrity:** I must ensure all data provided to agents (like Pokémon movesets) is 100% accurate to the current game state.
 - **Systematic Updates:** When a new game mechanic or impassable tile type is discovered, ALL relevant agents must be updated immediately.
 - **Unresponsive UI:** If an input fails repeatedly (like the nickname screen), I must change my approach (e.g., selecting 'END') rather than repeating the same failed action.
+- **World Knowledge Graph:** I MUST use `manage_world_knowledge` to record every inter-map transition (warps, map edges) immediately after it occurs. This is critical for building a complete and accurate map of the world.
 
 ## Unverified Hypotheses
 - **Mom's Healing:** Can Mom heal my Pokémon? (Test next time in New Bark Town)
 - **Daily Events:** The FRUIT_TREE on Route 30 might provide a berry daily. (Check again later)
+- **Encounter Tables:** Do different patches of grass on the same route have different Pokémon encounters?
 
 ## Future Plans & Strategy
 - **Violet City Gym Strategy:** My current team is the best option. Lead with Hearth (Cyndaquil) to overpower the Flying-type Pokémon.
