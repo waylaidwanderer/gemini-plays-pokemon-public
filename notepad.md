@@ -45,7 +45,7 @@ Plan: Explore the 9 reachable unseen tiles on Route 12 to find the correct path 
 
 ## IV. Agent Development Log
 ### A. Active Agents & Refinements
-- **`pathfinding_agent` (v3.1):** Reliable for on-map pathfinding. Explicitly told water is impassable.
+- **`pathfinding_agent` (v3.2):** Failed to respect an impassable tile on Route 12 (T25813). Refined prompt with more explicit, ordered traversability rules.
 - **`wkg_manager_agent` (v3):** Reliable.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v2):** Reliable.
