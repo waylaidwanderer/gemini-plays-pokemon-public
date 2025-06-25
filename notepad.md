@@ -45,7 +45,7 @@ Plan: Explore the 9 reachable unseen tiles on Route 12 to find the correct path 
 
 ## IV. Agent Development Log
 ### A. Active Agents & Refinements
-- **`pathfinding_agent` (v3.2 - UNRELIABLE):** Failed *again* on Route 12, attempting to path into impassable tiles at (4,50) and (4,55) (T25813, T25815). The agent's map parsing is critically flawed. Refining prompt again with stricter rule hierarchy.
+- **`pathfinding_agent` (v3.2 - CRITICALLY UNRELIABLE):** Failed for a third time on Route 12 (T25816), attempting to path into impassable tile (4,55). The agent's map parsing is fundamentally broken. Performing another major prompt overhaul.
 - **`wkg_manager_agent` (v3):** Reliable.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v2):** Reliable.
