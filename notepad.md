@@ -28,3 +28,5 @@
 
 ## Live Encounter Notes
 - Turn 3331: Interrupted by a wild Hoppip on Route 30 while backtracking.
+
+- **Route 30 Eastern Path Blocked:** The Youngster at (12, 29) is bugged, mirroring player movement and creating an impassable softlock. This confirms all northern paths on Route 30 are currently dead ends.
