@@ -44,6 +44,4 @@ My path north is blocked. I will systematically re-explore all known locations t
 - **Route 45:** Graveler (Source: Radio)
 
 ## Current Bugs & Blockers
-- **Shadowing NPCs:** Certain NPCs (Mom, Teacher in Elm's House, Fisher in New Bark) will occupy the same tile as the player, preventing interaction. Leaving and re-entering the map does not seem to fix this consistently.
-
-- **Cooltrainer & Youngster (Route 29):** Both exhibit the shadowing bug, preventing interaction.
+- **Shadowing NPCs:** Certain NPCs (Mom, Teacher in Elm's House) will occupy the same tile as the player, preventing interaction. Leaving and re-entering the map does not seem to fix this consistently.
