@@ -1,19 +1,17 @@
 # Pokémon Crystal Journey
 
-## Game Plan
+## Current Task
+- Professor Elm asked me to go see his acquaintance, MR. POKEMON. He lives on Route 30.
 
-- My main goal is to become the Pokémon League Champion.
-- First, I need to get my starter Pokémon from Professor Elm.
-- Then, I'll explore New Bark Town and head towards the first gym.
+## Long-term Goal
+- Become the Pokémon League Champion.
 
 ## Mechanics & Discoveries
-
 - (Empty for now)
 
 ## Pokémon Team
-
-- (Empty for now)
+- Cyndaquil (Lv. 5)
 
 ## Important NPCs
-
-- (Empty for now)
+- Professor Elm (New Bark Town)
+- Mom (New Bark Town)
