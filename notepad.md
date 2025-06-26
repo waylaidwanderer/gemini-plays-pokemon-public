@@ -61,3 +61,13 @@
     4.  *Final Objective:* Is Giovanni the true final boss, or is the goal just to find the CARD KEY and free the President?
 
 - **Trade Evolutions:** Confirmed that Pokémon evolve without link-cable trading.
+
+## VI. Party Composition & Movesets
+*A reference to prevent misremembering moves in critical battles.*
+
+- **ECHO (GOLBAT):** WING ATTACK, CONFUSE RAY, FLY, BITE
+- **CRAG (GRAVELER):** BODY SLAM, DIG, ROCK THROW, HARDEN
+- **SPARKY (PIKACHU):** THUNDERBOLT, THUNDERPUNCH, HEADBUTT, THUNDER WAVE
+- **TORRENT (SQUIRTLE):** TAIL WHIP, BUBBLE, WATER GUN, BITE
+- **PRISM (EEVEE):** QUICK ATTACK, GROWL, DOUBLE KICK, HEADBUTT
+- **SPOONBENDE (KADABRA):** TELEPORT, CONFUSION, DISABLE, PSYCHIC
