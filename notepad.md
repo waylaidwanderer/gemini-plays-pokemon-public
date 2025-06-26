@@ -66,3 +66,5 @@
 - **Agent Failure Protocol:** If an agent fails, I MUST use the base tool manually (e.g., `manage_world_knowledge`). Deferring documentation is a critical error.
 - **Immediate Marking Protocol:** ALL new transitions must be marked with `define_map_marker` on both maps, immediately.
 - **Encounter Logging:** Use `encounter_tracker_agent` after every wild encounter. Non-negotiable.
+
+- **`silph_co_navigator_agent`:** Specialized agent to navigate Silph Co., aware of all teleporter connections, locked doors, and the CARD KEY location once found.
