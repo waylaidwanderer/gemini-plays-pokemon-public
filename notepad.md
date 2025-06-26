@@ -35,18 +35,15 @@
 5.  **Add Edge:** **ONLY IF STEP 4 CONFIRMS NO EDGE EXISTS**, use `manage_world_knowledge` `add_edge` with a manually constructed JSON payload. **For warp connections, remember to include the `destination_entry_point`!**
 
 ## IV. Agent Development Log
-### A. **TOP PRIORITY** - Agent Refinement
-*No new agents will be developed until these core agents are stable and reliable.*
-1.  **`pathfinding_agent_v2`:** Refined in turn 27596. Monitoring for reliability.
-2.  **`wkg_manager_agent_v2`:** Refined in turn 27588. Monitoring for reliability.
-
-### B. Active Agents (Reliable)
+### A. Active Agents (Reliable)
+- **`pathfinding_agent_v2`:** Refined in turn 27596. Monitoring for reliability.
+- **`wkg_manager_agent_v2`:** Refined in turn 27588. Monitoring for reliability.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
 
-### C. Agent Development Backlog
+### B. Agent Development Backlog
 - `silph_co_teleporter_mapper_agent`: Takes the current floor's XML and the WKG. Its job would be to identify all teleporters on the current floor and try to map out where they lead based on existing WKG data or suggest which ones are unexplored.
 - `damage_calculator_agent`: Takes player/opponent Pokémon data and calculates move damage ranges to confirm KOs.
 - `item_finder_agent`
