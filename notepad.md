@@ -41,3 +41,5 @@
 - **MR. POKEMON** (Route 30): Elm's acquaintance.
 
 - **Pokémon Evolution:** Pokémon can gain experience in battle and change their form (evolve).
+
+- **Radio Broadcast:** Professor Oak's Pokémon Talk mentioned that Abra may be seen around Route 35.
