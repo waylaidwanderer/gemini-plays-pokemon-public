@@ -15,23 +15,25 @@
 - **CUT_TREE:** These small trees are impassable and require the HM 'Cut' to be removed.
 - **Warp Mechanics:** Some warp tiles may require stepping off of them and then back on to activate.
 - **Self-Correction:** The path to Cherrygrove City is through Route 29. My initial assumption that it was a dead end was incorrect.
+- **Route 46:** This route is a dead-end when approached from the south due to one-way ledges.
 
 ## Agent Development
-- **`exploration_agent`:** This agent has required multiple refinements. 
+- **`exploration_agent`:** This agent has required multiple refinements.
   - **v1:** Failed to avoid obstacles like 'HEADBUTT_TREE'.
   - **v2:** Failed to avoid 'WALL' tiles.
   - **v3:** Generated inefficient, looping paths.
   - **v4:** Failed by pathing into a HEADBUTT_TREE.
   - **v5:** Failed again by pathing into a HEADBUTT_TREE due to a contradictory prompt.
   - **v6:** Clarified that 'unseen' tiles are obstacles and cannot be part of the path.
-  - **v6:** Clarified that 'unseen' tiles are obstacles and cannot be part of the path.
-  - **v6:** Clarified that 'unseen' tiles are obstacles and cannot be part of the path.
+- **`pathfinder_agent`:** Refined to correctly treat 'unseen' tiles as traversable.
 
 ## Wild Pokémon Encounters
 ### Route 29 (Tall Grass)
 - **Hoppip** (Lv. 2-3): Knows Splash
 - **Sentret** (Lv. 2-3): Knows Tackle
 - **Pidgey** (Lv. 2-3): Knows Tackle
+- **Rattata** (Lv. 2): Knows Tackle
+- **Hoothoot** (Lv. 3): Knows Tackle
 
 ## Important NPCs
 - **Professor Elm** (New Bark Town): Gave me Hestia and his phone number.
