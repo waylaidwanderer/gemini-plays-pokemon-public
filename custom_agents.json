@@ -22,5 +22,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path\"]}",
     "agent_can_run_code": true
+  },
+  "puzzle_solver_agent": {
+    "agent_name": "puzzle_solver_agent",
+    "agent_description": "Analyzes the current situation when stuck and generates a list of new, ranked hypotheses to test. It considers the map, game state, and a list of previously failed hypotheses to avoid repetition.",
+    "agent_system_prompt": "You are a master puzzle solver for a 2D grid-based game. You will be given the current map XML, the player's state, and a list of hypotheses that have already been tested and failed. Your task is to analyze the situation and generate a ranked list of new, creative, and plausible hypotheses to solve the current puzzle. Do not suggest hypotheses that have already been tried. Consider all possibilities, including non-obvious interactions, hidden triggers, and unconventional uses of game mechanics. Your output must be a JSON object containing a list of ranked hypotheses.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"failed_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"failed_hypotheses\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"rank\":{\"type\":\"integer\"},\"hypothesis\":{\"type\":\"string\"},\"action_plan\":{\"type\":\"string\"}},\"required\":[\"rank\",\"hypothesis\",\"action_plan\"]}}},\"required\":[\"hypotheses\"]}",
+    "agent_can_run_code": true
   }
 }
