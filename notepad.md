@@ -25,3 +25,5 @@
 - **Mom** (New Bark Town): Gave me the POKéGEAR.
 - **MR. POKEMON** (Route 30): Elm's acquaintance.
 - **Youngster on Route 29 (27, 15):** A non-battling NPC who gives advice about weak Pokémon in the grass.
+
+- **Route 29 is a dead end.** It does not lead to Cherrygrove City. The path to Mr. Pokémon is north from New Bark Town.
