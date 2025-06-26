@@ -74,3 +74,20 @@
 - **SPOONBENDE (KADABRA):** TELEPORT, CONFUSION, DISABLE, PSYCHIC
 
 - Psychic is NOT-VERY-EFFECTIVE against Psychic.
+
+## VII. Type Effectiveness Chart (Observed)
+*A log of confirmed type interactions in this ROM hack.*
+- Psychic (player) vs. Psychic (opponent) -> Not Very Effective
+- Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
+
+## VIII. Agent Idea - `silph_co_teleporter_mapper_agent`
+- **Purpose:** To help navigate Silph Co.'s teleporter maze.
+- **Input:** `current_map_id`
+- **Functionality:** 
+  1. Parse `map_xml_string` to identify all teleporter tiles (`<Warp>`) on the current floor.
+  2. Parse `world_knowledge_graph_json_string` to find existing nodes and edges related to Silph Co. teleporters.
+  3. **Output:** A list of teleporters on the current floor, categorized as:
+     - **Mapped:** Teleporter has a known destination in the WKG. Show the destination floor and coordinates.
+     - **Unmapped:** Teleporter exists but has no corresponding edge in the WKG. These are high-priority exploration targets.
+     - **One-Way:** Mark any teleporters confirmed to be one-way.
+- **Benefit:** Would provide a clear list of exploration targets for each floor, preventing me from getting lost or missing paths.
