@@ -3,11 +3,12 @@
 ## Current Situation
 - **Objective:** Begin the Pokémon Gym Challenge. The first gym is in Violet City.
 - **Next Step:** Travel through Route 29 to Cherrygrove City, then onwards to Violet City.
-- **Status:** In a battle on Route 29, nicknaming a newly caught Rattata.
+- **Status:** On Route 29, continuing my journey.
 
 ## Party
 - Hestia (Cyndaquil)
-- [New Rattata - to be named Vermin]
+- Vermin (Rattata)
+- Hedwig (Hoothoot)
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
