@@ -27,7 +27,7 @@
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
 ## III. World Knowledge Graph Manual Entry Checklist
-*This is a fallback procedure for when `wkg_manager_agent_v2` is non-functional.*
+*This is a fallback procedure for manual WKG entry.*
 1.  **Check Nodes:** `run_code` to check if both source and destination nodes exist.
 2.  **Add Missing Nodes:** If any node is missing, use `manage_world_knowledge` `add_node` with a manually constructed JSON payload (including tags).
 3.  **Get Node IDs:** If new nodes were added, `run_code` to get their IDs.
