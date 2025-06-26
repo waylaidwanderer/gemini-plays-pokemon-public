@@ -1,14 +1,19 @@
 # Pokémon Crystal Journey
 
 ## Current Plan
-- **Objective:** Visit Mr. Pokémon on Route 30.
-- **Route:** Head north from Cherrygrove City to find the entrance to Route 30. Explore the route until I find Mr. Pokémon's house.
+- **Objective:** Return to Professor Elm in New Bark Town with the MYSTERY EGG.
+- **Route:** Head south from Route 30, through Cherrygrove City, and west through Route 29 to reach New Bark Town.
 
 ## Current Quest
-- Visit Mr. Pokémon on Route 30, past Cherrygrove City, for Professor Elm.
+- Bring the MYSTERY EGG to Professor Elm.
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
+
+## Key Items
+- **POKéGEAR:** Received from Mom. Has a Phone feature.
+- **POKéDEX:** Received from Professor Oak. Automatically records data on Pokémon.
+- **MYSTERY EGG:** Received from Mr. Pokémon. Needs to be taken to Professor Elm.
 
 ## Mechanics & Discoveries
 ### System Mechanics
@@ -34,9 +39,10 @@
 - **Hoothoot** (Lv. 3): Knows Tackle
 
 ## Important NPCs
-- **Professor Elm** (New Bark Town): Gave me Hestia and his phone number.
+- **Professor Elm** (New Bark Town): Gave me Hestia and his phone number. Wants to see the MYSTERY EGG.
 - **Mom** (New Bark Town): Gave me the POKéGEAR.
-- **MR. POKEMON** (Route 30): Elm's acquaintance.
+- **MR. POKEMON** (Route 30): Gave me the MYSTERY EGG.
+- **Professor Oak** (met at Mr. Pokémon's House): Gave me the POKéDEX.
 
 ## Radio Broadcasts
 - **Professor Oak's Pokémon Talk:** Abra may be seen around Route 35.
