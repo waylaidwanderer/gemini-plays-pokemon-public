@@ -1,4 +1,4 @@
-## I. Core Principles & Lessons Learned (v3)
+## I. Core Principles & Lessons Learned (v4)
 - **CRITICAL: Agent & Workflow Discipline:**
   - I will use my custom agents whenever a task can be automated or requires complex reasoning. Proactive agent use is key.
   - I will **strictly** adhere to established protocols, especially using `encounter_tracker_agent` after **every** wild encounter and `silph_co_teleporter_mapper_agent` after every warp in Silph Co. No exceptions.
@@ -25,18 +25,17 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## III. Agent Development Log (v3)
+## III. Agent Development Log (v4)
 ### A. Active Agents (Reliable)
-- **`pathfinding_agent_v2`:** Reliable; a recent perceived 'failure' was due to player hallucination, not agent error.
+- **`pathfinding_agent_v2`:** Highly reliable; past perceived 'failures' were due to player hallucination, not agent error.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v6 - Refined T28213):** Now incorporates damage calculation for more precise recommendations.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
 - **`silph_co_teleporter_mapper_agent` (v1):** New agent to map teleporters. Ready for use.
-- **`wkg_payload_generator` (v1 - T28211):** Generates JSON payload strings for the `manage_world_knowledge` tool.
+- **`wkg_payload_generator` (v2 - Refined T28311):** Generates JSON payload strings for the `manage_world_knowledge` tool.
 
 ### B. Agent Development Backlog
-- `item_finder_agent`: Scans the map for item objects and reports their locations.
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
 
 ## IV. Silph Co. Intel & Strategy
@@ -45,10 +44,11 @@
 - **Silph Co. Protocols:**
     1.  **Teleporter Mapping:** After using any teleporter, immediately use `silph_co_teleporter_mapper_agent` to document the connection in the WKG.
     2.  **Teleporter Bidirectionality Test:** After using a teleporter, immediately attempt to use it again to confirm if it's two-way.
-- **Unverified Assumptions (To be tested):**
-    1.  *CARD KEY Location:* Assuming it's on an upper floor, but could be anywhere. I need to be vigilant for item balls.
+- **Key Discoveries & Unverified Assumptions:**
+    - *CARD KEY Location:* Assuming it's a visible item ball, but could be held by an NPC or in a non-obvious interactable. Must be vigilant.
+    - *Progression Path:* Assuming linear floor-by-floor progression, but the solution may involve non-linear travel between floors via teleporters.
 
-## V. Silph Co. Exploration Plan (Updated T28217)
+## V. Silph Co. Exploration Plan (Updated T28314)
 *A systematic checklist for clearing Silph Co.*
 - **Floor 1F:** [x] Explored all rooms [x] Defeated all trainers [x] Mapped all warps
 - **Floor 2F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
@@ -56,7 +56,7 @@
 - **Floor 4F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
 - **Floor 5F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
 - **Floor 6F:** [x] Defeated Rocket Grunt at (18,4) [x] Defeated Scientist at (8,9) [ ] Explore all rooms [ ] Map all warps
-- **Floor 7F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 7F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
 - **Floor 8F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
 - **Floor 9F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
 - **Floor 10F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
