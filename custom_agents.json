@@ -39,14 +39,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_found\":{\"type\":\"boolean\"},\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"route_instructions\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"path_found\"]}",
     "agent_can_run_code": true
   },
-  "silph_co_teleporter_mapper_agent": {
-    "agent_name": "silph_co_teleporter_mapper_agent",
-    "agent_description": "Analyzes a floor of Silph Co. to map all teleporters and their destinations using the World Knowledge Graph.",
-    "agent_system_prompt": "You are a Silph Co. Navigation Specialist. Your task is to analyze the provided map data and world knowledge graph to create a comprehensive report of all teleporters (warps) on the current floor. For each teleporter, you must identify its coordinates and, by querying the world knowledge graph, determine its destination map and coordinates. You must also report if a teleporter's destination is unknown (i.e., not yet recorded in the graph). Your output should be a structured list of these connections. You must use your `run_code` tool to parse the `map_xml_string` and `world_knowledge_graph_json_string` to gather the necessary information.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_map_id\":{\"type\":\"string\"}},\"required\":[\"current_map_id\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"teleporter_map\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"source_coords\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"destination_map_id\":{\"type\":\"string\"},\"destination_coords\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"is_known\":{\"type\":\"boolean\"}},\"required\":[\"source_coords\",\"is_known\"]}}},\"required\":[\"teleporter_map\"]}",
-    "agent_can_run_code": true
-  },
   "item_finder_agent": {
     "agent_name": "item_finder_agent",
     "agent_description": "Scans the current map for item balls and reports their coordinates.",
