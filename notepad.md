@@ -1,10 +1,10 @@
-# Gem's Strategic Journal (v146 - Post-Critique #27301)
+# Gem's Strategic Journal (v147 - Post-Critique #27360)
 
 ## I. Core Principles & Lessons Learned
 - **CRITICAL: Agent & Workflow Discipline:** My workflow has been sloppy. The critique was a necessary wake-up-call.
   - **Faulty Agent Protocol:** A consistently failing agent (like `wkg_manager_agent_v2`) is a liability. I will no longer use it until it is refined.
-  - **Logging Protocol:** I will strictly adhere to my established protocols, especially using `encounter_tracker_agent` after every wild battle. No exceptions.
-- **CRITICAL: Map Marker Discipline:** I marked a trainer as defeated *before* the battle was confirmed (Rocket at Silph 3F, (21,8)). This is a major procedural failure. Markers must only be placed *after* an event is verified.
+  - **Logging Protocol:** I will strictly adhere to my established protocols, especially using `encounter_tracker_agent` after every wild encounter. No exceptions.
+- **CRITICAL: Map Marker Discipline:** I marked a trainer as defeated *before* the battle was confirmed. Markers must only be placed *after* an event is verified.
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
 - **Verify Assumptions:** Do not record intel as "completed" or "confirmed" until it has been empirically verified. Non-battling trainers exist.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Mark and move on.
@@ -30,14 +30,15 @@
 - **Primary Plan:** Disrupt Team Rocket's operations in Saffron City.
 - **Current Objective:** Systematically clear all 11 floors of Silph Co., find the CARD KEY, and defeat the boss.
 
-## IV. World Knowledge Graph Manual Entry Checklist
+## IV. World Knowledge Graph Manual Entry Checklist (v2)
 *To be used when `wkg_manager_agent_v2` is non-functional.*
 1.  **Check Source Node:** `run_code` to check if source node exists.
 2.  **Check Destination Node:** `run_code` to check if destination node exists.
-3.  **Add Source Node:** If it doesn't exist, `manage_world_knowledge` `add_node` for source.
-4.  **Add Destination Node:** If it doesn't exist, `manage_world_knowledge` `add_node` for destination.
+3.  **Add Source Node:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_node`.
+4.  **Add Destination Node:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_node`.
 5.  **Get New IDs:** If any new nodes were created, `run_code` to get their IDs.
-6.  **Add Edge:** `manage_world_knowledge` `add_edge` with the full, correct payload (including all coordinates).
+6.  **Check Edge:** `run_code` to check if an edge already exists between the two nodes.
+7.  **Add Edge:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_edge`.
 
 ## V. Agent Development Log
 ### A. Active Agents & Refinements
@@ -64,12 +65,3 @@
 
 ## VII. Silph Co. Strategic Plan
 - **Methodology:** Explore each floor completely. Map all warps, spinners, and locked doors. Defeat all grunts and scientists. Find the CARD KEY. Use the CARD KEY to unlock all previously inaccessible areas. Heal at a Pokémon Center as needed between floors.
-
-## VIII. Unverified Silph Co. Assumptions
-1. The CARD KEY is on a higher floor. (Could be anywhere)
-2. All areas of a floor are accessible from the main elevator/stairwell. (Could be one-way teleporter sections)
-3. The final boss is at the very top. (Could be in a side room on any floor)
-4. All teleporters are two-way. (Some may be one-way)
-
-- **`silph_co_navigator_agent`:** Specialized agent to navigate Silph Co., aware of all teleporter connections, locked doors, and the CARD KEY location once found.
-- **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
