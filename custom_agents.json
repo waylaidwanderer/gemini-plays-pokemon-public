@@ -38,5 +38,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"notepad_content\":{\"type\":\"string\"},\"item_to_complete\":{\"type\":\"string\"}},\"required\":[\"notepad_content\",\"item_to_complete\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"updated_notepad\":{\"type\":\"string\"}},\"required\":[\"updated_notepad\"]}",
     "agent_can_run_code": false
+  },
+  "npc_navigator": {
+    "agent_name": "npc_navigator",
+    "agent_description": "Analyzes the current map to find the nearest NPC that has not been spoken to yet.",
+    "agent_system_prompt": "You are an expert navigator. Your task is to analyze the `map_xml_string` to find all NPCs (tiles with an `<Object>` tag) and compare them against a provided list of coordinates for NPCs that have already been spoken to. You must then find the shortest path from the player's current position to an adjacent tile of the *nearest* NPC that is *not* on the 'spoken_to' list. Your output must be the path as a list of coordinates. Use a Breadth-First Search (BFS) algorithm. Treat 'WALL', 'WATER', 'CUT_TREE', 'HEADBUTT_TREE', and other NPCs as impassable.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"},\"spoken_to_coords\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}},\"required\":[\"player_x\",\"player_y\",\"spoken_to_coords\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}}}",
+    "agent_can_run_code": true
   }
 }
