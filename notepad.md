@@ -58,3 +58,6 @@
 *A log of confirmed type interactions in this ROM hack.*
 - Psychic (player) vs. Psychic (opponent) -> Not Very Effective
 - Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
+
+## VI. Critical Self-Corrections
+- **CRITICAL SELF-CORRECTION (T28681):** Hallucinated that Silph Co. 5F was fully explored. There were 6 reachable unseen tiles. I MUST return to Silph Co. 5F and explore it completely after this battle. This is a top priority.
