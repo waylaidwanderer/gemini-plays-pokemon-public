@@ -1,20 +1,19 @@
-# Gem's Pokémon Crystal Adventure!
+# Pokémon Crystal Journey
 
-## Current Goals
-- **Primary:** Begin my Pokémon journey in the Johto region.
-- **Secondary:** Create my character.
+## Game Plan
 
-## Game Mechanics & Systems
-*This section is for notes on how the game works.*
+- My main goal is to become the Pokémon League Champion.
+- First, I need to get my starter Pokémon from Professor Elm.
+- Then, I'll explore New Bark Town and head towards the first gym.
 
-## Battle and Pokemon Information
-*This section is for notes on Pokémon, battles, and type matchups.*
+## Mechanics & Discoveries
 
-## Area and Navigation Insights
-*This section is for notes on maps, tile traversal, and navigation.*
+- (Empty for now)
 
-## NPCs and Interactions
-*This section is for notes on important NPC dialogue and interactions.*
+## Pokémon Team
 
-## Obstacles and Solutions
-*This section is for tracking roadblocks and how to overcome them.*
+- (Empty for now)
+
+## Important NPCs
+
+- (Empty for now)
