@@ -46,5 +46,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"source_map_id\":{\"type\":\"string\"},\"source_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"source_node_name\":{\"type\":\"string\"},\"source_tags\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"destination_map_id\":{\"type\":\"string\"},\"destination_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"destination_node_name\":{\"type\":\"string\"},\"destination_tags\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"connection_type\":{\"type\":\"string\",\"enum\":[\"warp\",\"map_edge\"]},\"is_one_way\":{\"type\":\"boolean\"},\"destination_entry_point\":{\"type\":\"integer\"}},\"required\":[\"source_map_id\",\"source_coordinates\",\"source_node_name\",\"destination_map_id\",\"destination_coordinates\",\"destination_node_name\",\"connection_type\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"tool_calls\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"tool_name\":{\"type\":\"string\",\"const\":\"manage_world_knowledge\"},\"tool_args\":{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\"},\"payload\":{\"type\":\"string\"}},\"required\":[\"action\",\"payload\"]}},\"required\":[\"tool_name\",\"tool_args\"]}}},\"required\":[\"tool_calls\"]}",
     "agent_can_run_code": true
+  },
+  "wkg_payload_generator_agent": {
+    "agent_name": "wkg_payload_generator_agent",
+    "agent_description": "Generates the correct JSON payloads for manual `manage_world_knowledge` calls to prevent syntax errors and ensure data integrity. It produces payloads for 'add_node' and 'add_edge' operations.",
+    "agent_system_prompt": "You are a World Knowledge Graph Payload Generator. Your sole purpose is to create perfectly formatted JSON payload strings for the `manage_world_knowledge` tool. You will be given an operation type ('add_node' or 'add_edge') and the necessary data. You must construct the JSON string exactly as required by the tool's specifications. Do not add any extra text or explanations. Your output must be a single JSON object containing the payload string.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"operation_type\":{\"type\":\"string\",\"enum\":[\"add_node\",\"add_edge\"]},\"data\":{\"type\":\"object\"}},\"required\":[\"operation_type\",\"data\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"json_payload\":{\"type\":\"string\"}},\"required\":[\"json_payload\"]}",
+    "agent_can_run_code": false
   }
 }
