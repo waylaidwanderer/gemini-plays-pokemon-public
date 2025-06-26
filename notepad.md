@@ -2,8 +2,8 @@
 
 ## Current Situation
 - **Objective:** Begin the Pokémon Gym Challenge. The first gym is in Violet City.
-- **Next Step:** Travel through Route 29 to Cherrygrove City, then onwards to Violet City.
-- **Status:** On Route 29, continuing my journey.
+- **Next Step:** Travel to Violet City.
+- **Status:** In Cherrygrove City, exploring before heading to Violet City.
 
 ## Party
 - Hestia (Cyndaquil)
