@@ -26,6 +26,6 @@
 - **MR. POKEMON** (Route 30): Elm's acquaintance.
 - **Youngster on Route 29 (27, 15):** A non-battling NPC who gives advice about weak Pokémon in the grass.
 
-- **Route 29 is a dead end.** It does not lead to Cherrygrove City. The path to Mr. Pokémon is north from New Bark Town.
+- The path to Cherrygrove City, and subsequently Route 30, must be through Route 29. My previous assumption that it was a dead end was incorrect.
 
 - **Warp Mechanics:** Some warp tiles may require stepping off of them and then back on to activate.
