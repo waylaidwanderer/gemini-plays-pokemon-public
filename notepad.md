@@ -48,7 +48,7 @@
 - **`story_progress_tracker_agent`:** Track key NPC dialogue and plot points.
 
 ### C. Decommissioned Agents
-- **`wkg_manager_agent` (v3):** **DECOMMISSIONED.** This agent consistently fails to check for existing nodes, causing tool errors. DO NOT USE.
+- **`wkg_manager_agent` (v3):** **DECOMMISSIONED.** Consistently fails to check for existing nodes, causing tool errors. DO NOT USE.
 - **`spinner_maze_agent`:** **DECOMMISSIONED.** Defined prematurely. No spinner mazes encountered yet.
 
 ## V. Completed Intel & Disproven Hypotheses
