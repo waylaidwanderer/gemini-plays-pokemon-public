@@ -11,6 +11,7 @@
 ### Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic.
 - **Poison Status Immunity:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves.
+- **Type Immunities:** Psychic is immune to Electric.
 
 ### Navigation & Traversal Rules
 - **Defeated Trainers as Obstacles:** Defeated trainers act as impassable walls.
