@@ -1,7 +1,9 @@
 ## I. Core Principles & Lessons Learned
 - **CRITICAL: Agent & Workflow Discipline:**
-  - A consistently failing agent is a liability. It must be refined or deleted immediately before reuse.
+  - I will use my custom agents whenever a task can be automated or requires complex reasoning. Proactive agent use is key.
   - I will strictly adhere to established protocols, especially using `encounter_tracker_agent` after every wild encounter. No exceptions.
+  - I will use my `pathfinding_agent_v2` for all non-trivial navigation to avoid blocked movements.
+  - A consistently failing agent is a liability. It must be refined or deleted immediately before reuse.
 - **CRITICAL: Map Marker Discipline:** Markers must only be placed *after* an event is verified.
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
 - **Verify Assumptions:** Do not record intel as "completed" or "confirmed" until it has been empirically verified. Non-battling trainers exist.
@@ -37,7 +39,7 @@
 
 ## IV. Agent Development Log
 ### A. Active Agents (Reliable)
-- **`pathfinding_agent_v2` (Refined T27750):** Requires monitoring after last failure.
+- **`pathfinding_agent_v2` (Refined T27950):** Requires refinement.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
@@ -47,19 +49,18 @@
 - **`wkg_manager_agent_v2`:** Deleted T27750 due to catastrophic failure.
 
 ### C. Agent Development Backlog
-- `wkg_manager_agent_v3`: A simplified agent to generate JSON payloads for `manage_world_knowledge` based on source/destination data. This would reduce manual errors.
-- `silph_co_teleporter_mapper_agent`: Takes the current floor's XML and the WKG. Its job would be to identify all teleporters on the current floor and try to map out where they lead based on existing WKG data or suggest which ones are unexplored.
+- `wkg_manager_agent_v3`: A simplified agent to generate JSON payloads for `manage_world_knowledge`.
+- `silph_co_teleporter_mapper_agent`: An agent to identify and categorize teleporters on the current floor.
 - `damage_calculator_agent`: Takes player/opponent Pokémon data and calculates move damage ranges to confirm KOs.
-- `item_finder_agent`
+- `item_finder_agent`: Scans the map for item objects and reports their locations.
 
 ## V. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
 - **Methodology:** Explore each floor completely. Map all warps and teleporters. Defeat all grunts and scientists. Use the CARD KEY to unlock all previously inaccessible areas.
-- **Unverified Assumptions:**
-    1.  *Elevator System:* Are all elevators part of one system, or are there separate shafts?
-    2.  *Teleporter Directionality:* Are all teleporters two-way? Must verify by attempting to return immediately after use.
-    3.  *CARD KEY Location:* Assuming it's on an upper floor, but could be anywhere.
-    4.  *Final Objective:* Is Giovanni the true final boss, or is the goal just to find the CARD KEY and free the President?
+- **Unverified Assumptions (To be tested):**
+    1.  *Teleporter Directionality:* Are all teleporters two-way? Must verify by attempting to return immediately after use.
+    2.  *CARD KEY Location:* Assuming it's on an upper floor, but could be anywhere.
+    3.  *Final Objective:* Is Giovanni the true final boss, or is the goal just to find the CARD KEY and free the President?
 
 - **Trade Evolutions:** Confirmed that Pokémon evolve without link-cable trading.
 
@@ -67,15 +68,3 @@
 *A log of confirmed type interactions in this ROM hack.*
 - Psychic (player) vs. Psychic (opponent) -> Not Very Effective
 - Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
-
-## VII. Agent Idea - `silph_co_teleporter_mapper_agent`
-- **Purpose:** To help navigate Silph Co.'s teleporter maze.
-- **Input:** `current_map_id`
-- **Functionality:** 
-  1. Parse `map_xml_string` to identify all teleporter tiles (`<Warp>`) on the current floor.
-  2. Parse `world_knowledge_graph_json_string` to find existing nodes and edges related to Silph Co. teleporters.
-  3. **Output:** A list of teleporters on the current floor, categorized as:
-     - **Mapped:** Teleporter has a known destination in the WKG. Show the destination floor and coordinates.
-     - **Unmapped:** Teleporter exists but has no corresponding edge in the WKG. These are high-priority exploration targets.
-     - **One-Way:** Mark any teleporters confirmed to be one-way.
-- **Benefit:** Would provide a clear list of exploration targets for each floor, preventing me from getting lost or missing paths.
