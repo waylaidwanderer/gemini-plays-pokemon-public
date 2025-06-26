@@ -1,4 +1,4 @@
-## I. Core Principles & Lessons Learned (v5)
+## I. Core Principles & Lessons Learned (v6)
 - **CRITICAL: Agent & Workflow Discipline:**
   - I will use my custom agents whenever a task can be automated or requires complex reasoning. Proactive agent use is key.
   - I will **strictly** adhere to established protocols, especially using `encounter_tracker_agent` after **every** wild encounter. Failure to do so is a major tactical error.
@@ -26,7 +26,7 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## III. Agent Development Log (v7)
+## III. Agent Development Log (v8)
 ### A. Active Agents (Reliable)
 - **`pathfinding_agent_v2` (v3 - Refined T28565):** Highly reliable; can now auto-detect unseen tiles for exploration.
 - **`pc_navigator_agent` (v2):** Reliable.
@@ -41,6 +41,7 @@
 - `protocol_enforcement_agent`: To remind me to follow my own established procedures.
 - `silph_co_pathfinder_agent`: A specialized agent that can plot multi-floor routes within Silph Co. using the WKG, once the CARD KEY is found.
 - Make `wkg_connection_manager` more autonomous (handle multi-turn logic internally).
+- Upgrade `pathfinding_agent_v2` to handle intra-map teleporters for more complex pathing.
 
 ## IV. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
