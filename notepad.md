@@ -26,7 +26,7 @@
 - **Route 46:** This route is a dead-end when approached from the south due to one-way ledges.
 - **CUT_TREE:** These small trees are impassable and require the HM 'Cut' to be removed.
 - **Fruit Trees:** These are impassable objects.
-- **Item Pickups:** Cannot be picked up by standing on them. Hypothesis: must interact from an adjacent tile while facing the item.
+- **Item Pickups:** Cannot be picked up by standing on them. Conclusion: The red flowers on the ground on Route 30 are decorative and cannot be picked up. Confirmed after multiple failed attempts from various positions.
 
 ## Agent Ideas
 - **battle_strategist_agent:** An agent to suggest the optimal move or action in difficult battles.
