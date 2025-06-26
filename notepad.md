@@ -57,3 +57,6 @@
 ## VII. Silph Co. Strategic Plan
 - **Objective:** Systematically clear all 11 floors of Team Rocket, find the CARD KEY, and defeat the boss.
 - **Methodology:** Explore each floor completely, starting from 1F. Map all warps, spinners, and locked doors. Defeat all grunts and scientists. Find the CARD KEY, which is likely on a mid-to-upper floor. Use the CARD KEY to unlock all previously inaccessible areas. Heal at a Pokémon Center as needed between floors.
+
+### New Battle Mechanics Discovered
+- **'No Will to Fight' Mechanic:** A Pokémon with very low HP (e.g., ECHO at 24/112) may refuse to be switched into battle, displaying the message "There's no will to fight!". This seems to be a fatigue or loyalty mechanic that prevents sacrificing a severely weakened Pokémon.
