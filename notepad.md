@@ -1,6 +1,9 @@
-# Gem's Strategic Journal (v151 - Post-Critique #27451)
+## I. **TOP PRIORITY** - Agent Refinement & Protocol Adherence (Post-Critique #27482)
+- **Immediate Task:** Halt all non-essential progress. Go to the nearest Pokémon Center and fix `wkg_manager_agent_v2` and `pathfinding_agent_v2`.
+- **Reasoning:** The critique was correct. My agent workflow is inefficient and unreliable. Creating workarounds like `wkg_payload_generator_agent` is a crutch, not a solution.
+- **Protocol Enforcement:** I will *strictly* use `encounter_tracker_agent` after every wild encounter. No more lapses.
 
-## I. Core Principles & Lessons Learned
+## II. Core Principles & Lessons Learned
 - **CRITICAL: Agent & Workflow Discipline:** My workflow has been sloppy. The critique was a necessary wake-up-call.
   - **Faulty Agent Protocol:** A consistently failing agent is a liability. I will no longer use it until it is refined.
   - **Logging Protocol:** I will strictly adhere to my established protocols, especially using `encounter_tracker_agent` after every wild encounter. No exceptions.
@@ -9,7 +12,7 @@
 - **Verify Assumptions:** Do not record intel as "completed" or "confirmed" until it has been empirically verified. Non-battling trainers exist.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Mark and move on.
 
-## II. Game Mechanics & Battle Intel
+## III. Game Mechanics & Battle Intel
 ### Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic.
 - **Poison Status Immunity:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves.
@@ -25,10 +28,6 @@
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Field Use:** HMs must be taught to a Pokémon to enable field use. FLY cannot be used indoors.
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
-
-## III. Active Plans & Hypotheses
-- **Primary Plan:** Disrupt Team Rocket's operations in Saffron City.
-- **Current Objective:** Systematically clear all 11 floors of Silph Co., find the CARD KEY, and defeat the boss.
 
 ## IV. World Knowledge Graph Manual Entry Checklist (v6 - Revised)
 *To be used when `wkg_manager_agent_v2` is non-functional.*
@@ -51,7 +50,6 @@
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
-- **`wkg_payload_generator_agent` (v1):** New agent to generate correct JSON payloads for manual `manage_world_knowledge` calls.
 
 ### C. Agent Development Backlog (Low Priority - Paused)
 - `damage_calculator_agent`: Takes player/opponent Pokémon data and calculates move damage ranges to confirm KOs.
