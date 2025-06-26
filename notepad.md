@@ -34,7 +34,7 @@
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
 - **`item_finder_agent` (v2):** Scans current map for item balls.
-- **`wkg_connection_manager` (v3 - Refined T28570):** Now correctly handles multi-turn node/edge creation and includes `destination_entry_point`.
+- **`wkg_connection_manager` (v4 - Refined T28624):** Updated system prompt to generate cleaner payloads for `add_edge`, removing invalid fields like `tags` and `is_one_way` as per AI critique. Now correctly handles multi-turn node/edge creation and includes `destination_entry_point`.
 
 ### B. Agent Development Backlog
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
