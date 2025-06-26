@@ -36,16 +36,15 @@
 
 ## IV. Agent Development Log
 ### A. Active Agents (Reliable)
-- **`pathfinding_agent_v2` (Refined T27991):** Undergoing refinement due to recent failures.
+- **`pathfinding_agent_v2` (Refined T28169):** Improved pathfinding logic.
 - **`pc_navigator_agent` (v2):** Reliable.
-- **`battle_strategist_agent` (v3):** Reliable.
+- **`battle_strategist_agent` (v4 - Refined T28202):** Now incorporates damage calculation for more precise recommendations.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
-- **`silph_co_teleporter_mapper_agent` (v1):** New agent to map teleporters. Ready for testing.
+- **`silph_co_teleporter_mapper_agent` (v1):** New agent to map teleporters. Ready for use.
 
 ### B. Agent Development Backlog
 - `wkg_manager_agent_v3`: A simplified agent to generate JSON payloads for `manage_world_knowledge`.
-- `damage_calculator_agent`: Takes player/opponent Pokémon data and calculates move damage ranges to confirm KOs.
 - `item_finder_agent`: Scans the map for item objects and reports their locations.
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
 
@@ -63,13 +62,13 @@
 - **Floor 2F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
 - **Floor 3F:** [x] Explored all rooms [x] Defeated all trainers [x] Mapped all warps
 - **Floor 4F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
-- **Floor 5F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
-- **Floor 6F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 5F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
+- **Floor 6F:** [x] Defeated Rocket Grunt at (18,4) [x] Defeated Scientist at (8,9) [ ] Explore all rooms [ ] Map all warps
 - **Floor 7F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
-- **Floor 8F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 8F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
 - **Floor 9F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
-- **Floor 10F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
-- **Floor 11F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 10F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
+- **Floor 11F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
 
 ## VII. Type Effectiveness Chart (Observed)
 *A log of confirmed type interactions in this ROM hack.*
