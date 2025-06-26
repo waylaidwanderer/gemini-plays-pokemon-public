@@ -19,7 +19,6 @@
 ### System Mechanics
 - **POKéGEAR:** Received from Mom. Has a Phone feature.
 - **Warp Mechanics:** Some warp tiles may require stepping off of them and then back on to activate.
-- **Pokémon Evolution:** Pokémon gain experience in battle and can change their form (evolve).
 ### Environmental Mechanics
 - **Route 29 Ledges:** The western section of Route 29 has one-way ledges preventing eastward travel from that area.
 - **Route 46:** This route is a dead-end when approached from the south due to one-way ledges.
@@ -49,10 +48,7 @@
 
 ## Puzzle Solutions
 - **Cherrygrove House Lock:** Became stuck at (3, 1). Solution was to turn to face the TV at (2, 1) and interact with it ('A' button). This triggered a text box, and after closing it, movement was restored.
+- **Mr. Pokémon's House Exit:** Became stuck on the exit warp at (2, 7). Solution was to press 'Start' to open the menu, then 'B' to close it, which resolved the glitched state and allowed the warp to function.
 
 ## Self-Corrections & Failed Hypotheses
 - The path to Cherrygrove City is through Route 29. My initial assumption that it was a dead end was incorrect.
-
-## Agent & Exploration Plan
-- Design a new `situational_awareness_agent` that combines exit analysis with general exploration data to replace the `route_analyzer_agent`.
-- Explore the unvisited houses in Cherrygrove City: the one at (17, 7) and the Guide Gent's house at (25, 9).
