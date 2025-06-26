@@ -42,7 +42,7 @@
 ### A. **TOP PRIORITY** - Agent Refinement
 *No new agents will be developed until these core agents are stable and reliable.*
 1.  **`pathfinding_agent_v2`:** Unreliable in Saffron City. Needs immediate logic overhaul to correctly handle complex layouts and trust game state reachability data.
-2.  **`wkg_manager_agent_v2`:** Unreliable. Fails to check for existing nodes/edges, causing errors. Needs a full logic overhaul to be usable.
+2.  **`wkg_manager_agent_v2`:** Refined in turn 27588. Monitoring for reliability.
 
 ### B. Active Agents (Reliable)
 - **`pc_navigator_agent` (v2):** Reliable.
