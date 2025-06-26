@@ -47,14 +47,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"teleporter_map\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"source_coords\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"destination_map_id\":{\"type\":\"string\"},\"destination_coords\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"is_known\":{\"type\":\"boolean\"}},\"required\":[\"source_coords\",\"is_known\"]}}},\"required\":[\"teleporter_map\"]}",
     "agent_can_run_code": true
   },
-  "wkg_payload_generator": {
-    "agent_name": "wkg_payload_generator",
-    "agent_description": "Generates JSON payload strings for the `manage_world_knowledge` tool based on descriptive input.",
-    "agent_system_prompt": "You are a JSON formatting assistant. Your only function is to take the input `data` object and serialize it into a JSON string. You will then place this resulting JSON string as the value for the `json_payload` key in your final output object. Your output must strictly conform to the provided schema. Do not add any commentary or extra text.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"object\"}},\"required\":[\"data\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"json_payload\":{\"type\":\"string\"}},\"required\":[\"json_payload\"]}",
-    "agent_can_run_code": false
-  },
   "item_finder_agent": {
     "agent_name": "item_finder_agent",
     "agent_description": "Scans the current map for item balls and reports their coordinates.",
