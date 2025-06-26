@@ -11,10 +11,11 @@
 - **POTION:** Heals a Pokémon for 20 HP.
 - **Route 29 Ledges:** The western section of Route 29 has one-way ledges preventing eastward travel from that area.
 - **Held Items (Berries):** Some Pokémon can hold items like Berries, which they can use automatically in battle to heal themselves when their HP gets low.
+- **Smokescreen:** Lowers the opponent's accuracy.
 
 ## Wild Pokémon Encounters
 ### Route 29 (Tall Grass)
-- **Hoppip** (Lv. 3): Knows Splash
+- **Hoppip** (Lv. 2-3): Knows Splash
 - **Sentret** (Lv. 2-3): Knows Tackle
 - **Pidgey** (Lv. 3): Knows Tackle
 
@@ -22,7 +23,3 @@
 - **Professor Elm** (New Bark Town): Gave me Hestia and his phone number.
 - **Mom** (New Bark Town): Gave me the POKéGEAR.
 - **MR. POKEMON** (Route 30): Elm's acquaintance.
-
-## My Party
-- **HESTIA (CYNDAQUIL)** Lv. 7
-  - Moves: TACKLE, LEER, SMOKESCREEN
