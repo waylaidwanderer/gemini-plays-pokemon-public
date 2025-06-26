@@ -52,54 +52,17 @@
 ## V. Silph Co. Exploration Plan (v2 - Granular)
 *A systematic, granular checklist for clearing Silph Co.*
 - **Floor 1F:** [x] Explored all rooms. [x] Mapped all warps.
-- **Floor 2F:**
-  - [x] SILPHCO2F_ROCKET1 defeated at (17, 12).
-  - [x] SILPHCO2F_ROCKET2 defeated at (25, 8).
-  - [x] SILPHCO2F_SCIENTIST2 defeated at (25, 14).
-  - [ ] Defeat SILPHCO2F_SCIENTIST1 at (6, 13).
-  - [ ] Explore all rooms.
-  - [ ] Map all warps.
-- **Floor 3F:** [x] Explored all rooms. [x] Defeated all trainers. [x] Mapped all warps.
-- **Floor 4F:**
-  - [ ] Defeat ROCKET at (11, 14).
-  - [ ] Defeat JUGGLER at (4, 13).
-  - [ ] Explore all rooms.
-  - [ ] Map all warps.
-- **Floor 5F:**
-  - [x] ROCKET defeated at (29, 5).
-  - [x] JUGGLER defeated at (24, 12).
-  - [x] SCIENTIST defeated at (4, 13).
-  - [ ] Explore all rooms.
-  - [ ] Map all warps.
-- **Floor 6F:**
-  - [x] ROCKET defeated at (18, 4).
-  - [x] SCIENTIST defeated at (8, 9).
-  - [ ] Explore all rooms.
-  - [ ] Map all warps.
-- **Floor 7F:**
-  - [ ] Defeat ROCKET at (26, 8).
-  - [ ] Defeat JUGGLER at (10, 13).
-  - [ ] Defeat ROCKET at (4, 12).
-  - [ ] Explore all rooms.
-  - [ ] Map all warps.
-- **Floor 8F:**
-  - [x] ROCKET defeated at (13, 16).
-  - [ ] Defeat ROCKET at (6, 9).
-  - [ ] Explore all rooms.
-  - [ ] Map all warps.
-- **Floor 9F:**
-  - [ ] Defeat ROCKET at (24, 12).
-  - [ ] Explore all rooms.
-  - [ ] Map all warps.
-- **Floor 10F:**
-  - [x] SCIENTIST defeated at (11, 3).
-  - [ ] Defeat ROCKET at (4, 13).
-  - [ ] Explore all rooms.
-  - [ ] Map all warps.
-- **Floor 11F:**
-  - [ ] Defeat ROCKET at (23, 13).
-  - [ ] Explore all rooms.
-  - [ ] Map all warps.
+- **Floor 1F:** [x] Explored all rooms. [x] Mapped all warps.
+- **Floor 2F:** [x] Explored & Cleared.
+- **Floor 3F:** [x] Explored & Cleared.
+- **Floor 4F:** [ ] Explore & Clear.
+- **Floor 5F:** [x] Explored & Cleared.
+- **Floor 6F:** [x] Explored & Cleared.
+- **Floor 7F:** [ ] Explore & Clear.
+- **Floor 8F:** [ ] Explore & Clear.
+- **Floor 9F:** [ ] Explore & Clear.
+- **Floor 10F:** [ ] Explore & Clear.
+- **Floor 11F:** [ ] Explore & Clear.
 
 ## VI. Type Effectiveness Chart (Observed)
 *A log of confirmed type interactions in this ROM hack.*
