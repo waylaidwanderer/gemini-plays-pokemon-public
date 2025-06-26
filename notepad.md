@@ -68,3 +68,9 @@
 
 ## VII. Silph Co. Strategic Plan
 - **Methodology:** Explore each floor completely. Map all warps, spinners, and locked doors. Defeat all grunts and scientists. Find the CARD KEY. Use the CARD KEY to unlock all previously inaccessible areas. Heal at a Pokémon Center as needed between floors.
+
+## VIII. Unverified Silph Co. Assumptions
+1. The CARD KEY is on a higher floor. (Could be anywhere)
+2. All areas of a floor are accessible from the main elevator/stairwell. (Could be one-way teleporter sections)
+3. The final boss is at the very top. (Could be in a side room on any floor)
+4. All teleporters are two-way. (Some may be one-way)
