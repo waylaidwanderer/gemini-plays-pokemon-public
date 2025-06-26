@@ -40,3 +40,5 @@
 - **Caterpie (Lv. 3-4):** Bug type. Observed moves: TACKLE, STRING SHOT.
 - **Weedle (Lv. 3):** Bug/Poison type. Observed move: STRING SHOT.
 - **Pidgey (Lv. 4):** Normal/Flying type. Ran from it, no moves observed.
+
+- **Route 30 Hidden Item:** Failed to retrieve the hidden Potion at (14, 9). Tried interacting from multiple adjacent tiles without success. There might be a special requirement I don't meet yet.
