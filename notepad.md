@@ -58,3 +58,5 @@
 ## Self-Corrections & Failed Hypotheses
 - The path to Cherrygrove City is through Route 29. My initial assumption that it was a dead end was incorrect.
 - The west exit of Cherrygrove City is not accessible from the southern path. The main exit to Route 29 is on the east side of the city at (39, 7).
+
+- **Stuck on Warp/Event Tile:** If stuck on a warp or after an event, opening the main menu ('Start') and then closing it ('B') can resolve the issue and trigger the next action/warp.
