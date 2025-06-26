@@ -29,15 +29,13 @@
 - **HM Field Use:** HMs must be taught to a Pokémon to enable field use. FLY cannot be used indoors.
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 
-## IV. World Knowledge Graph Manual Entry Checklist (v6 - Revised)
-*To be used when `wkg_manager_agent_v2` is non-functional.*
-1.  **Check Source Node:** `run_code` to check if source node exists.
-2.  **Check Destination Node:** `run_code` to check if destination node exists.
-3.  **Add Source Node:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_node` (with tags!).
-4.  **Add Destination Node:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_node` (new tags!).
-5.  **Get New IDs:** If any new nodes were created, `run_code` to get their IDs.
-6.  **CRITICAL - Check Edge:** `run_code` to check if an edge *already exists* between the two nodes. **DO NOT SKIP THIS STEP.**
-7.  **Add Edge:** **ONLY IF STEP 6 CONFIRMS NO EDGE EXISTS**, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_edge`. **For warp connections, remember to include the `destination_entry_point`!**
+## IV. World Knowledge Graph Manual Entry Checklist (v7 - Post-Critique)
+*This is a fallback procedure for when `wkg_manager_agent_v2` is non-functional.*
+1.  **Check Nodes:** `run_code` to check if both source and destination nodes exist.
+2.  **Add Missing Nodes:** If any node is missing, use `manage_world_knowledge` `add_node` with a manually constructed JSON payload (including tags).
+3.  **Get Node IDs:** If new nodes were added, `run_code` to get their IDs.
+4.  **CRITICAL - Check Edge:** `run_code` to check if an edge *already exists* between the two nodes. **DO NOT SKIP THIS STEP.**
+5.  **Add Edge:** **ONLY IF STEP 4 CONFIRMS NO EDGE EXISTS**, use `manage_world_knowledge` `add_edge` with a manually constructed JSON payload. **For warp connections, remember to include the `destination_entry_point`!**
 
 ## V. Agent Development Log
 ### A. **TOP PRIORITY** - Agent Refinement
