@@ -37,6 +37,7 @@
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter to build my training data log. This is now a mandatory step.
 - **`wkg_manager_agent_v2`:** Defined. Needs testing. I must commit to using this instead of manual WKG management.
+  - **Critique Feedback:** The agent's input schema lacks a field for `tags`. I MUST refine the agent to include this capability for better WKG organization.
 
 ### B. Agent Development Backlog
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
