@@ -1,6 +1,6 @@
 ## I. **TOP PRIORITY** - Agent Refinement & Protocol Adherence (Post-Critique #27482)
 - **Immediate Task:** Halt all non-essential progress. Go to the nearest Pokémon Center and fix `wkg_manager_agent_v2` and `pathfinding_agent_v2`.
-- **Reasoning:** The critique was correct. My agent workflow is inefficient and unreliable. Creating workarounds like `wkg_payload_generator_agent` is a crutch, not a solution.
+- **Reasoning:** The critique was correct. My agent workflow is inefficient and unreliable.
 - **Protocol Enforcement:** I will *strictly* use `encounter_tracker_agent` after every wild encounter. No more lapses.
 
 ## II. Core Principles & Lessons Learned
@@ -28,8 +28,9 @@
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Field Use:** HMs must be taught to a Pokémon to enable field use. FLY cannot be used indoors.
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
+- **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## IV. World Knowledge Graph Manual Entry Checklist (v7 - Post-Critique)
+## IV. World Knowledge Graph Manual Entry Checklist (v8 - Post-Critique)
 *This is a fallback procedure for when `wkg_manager_agent_v2` is non-functional.*
 1.  **Check Nodes:** `run_code` to check if both source and destination nodes exist.
 2.  **Add Missing Nodes:** If any node is missing, use `manage_world_knowledge` `add_node` with a manually constructed JSON payload (including tags).
@@ -40,7 +41,7 @@
 ## V. Agent Development Log
 ### A. **TOP PRIORITY** - Agent Refinement
 *No new agents will be developed until these core agents are stable and reliable.*
-1.  **`pathfinding_agent_v2`:** Unreliable in Silph Co. Needs immediate logic overhaul to correctly handle complex layouts, impassable objects, and NPC line-of-sight.
+1.  **`pathfinding_agent_v2`:** Unreliable in Saffron City. Needs immediate logic overhaul to correctly handle complex layouts and trust game state reachability data.
 2.  **`wkg_manager_agent_v2`:** Unreliable. Fails to check for existing nodes/edges, causing errors. Needs a full logic overhaul to be usable.
 
 ### B. Active Agents (Reliable)
@@ -59,5 +60,3 @@
 
 ## VII. Silph Co. Strategic Plan
 - **Methodology:** Explore each floor completely. Map all warps, spinners, and locked doors. Defeat all grunts and scientists. Find the CARD KEY. Use the CARD KEY to unlock all previously inaccessible areas. Heal at a Pokémon Center as needed between floors.
-
-- **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
