@@ -22,5 +22,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"failed_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"failed_hypotheses\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"rank\":{\"type\":\"integer\"},\"hypothesis\":{\"type\":\"string\"},\"action_plan\":{\"type\":\"string\"}},\"required\":[\"rank\",\"hypothesis\",\"action_plan\"]}}},\"required\":[\"hypotheses\"]}",
     "agent_can_run_code": true
+  },
+  "unseen_tile_finder": {
+    "agent_name": "unseen_tile_finder",
+    "agent_description": "Analyzes the current map XML to find all reachable 'unseen' tiles and provides a path to the nearest one.",
+    "agent_system_prompt": "You are an exploration specialist. Your task is to analyze the `map_xml_string` to identify all tiles with the type 'unseen' that are reachable from the player's current position. A tile is reachable if a valid path exists to an adjacent traversable tile. Traversable tiles are 'FLOOR' and 'TALL_GRASS'. All other tile types, including 'WALL', 'WATER', and tiles with '<Object>' tags, are impassable obstacles. Calculate the path to the 'unseen' tile that is closest to the player's starting position. The output should be a JSON object containing the path to the nearest 'unseen' tile.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path\"]}",
+    "agent_can_run_code": true
   }
 }
