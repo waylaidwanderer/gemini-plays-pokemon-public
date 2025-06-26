@@ -1,17 +1,19 @@
 # Pokémon Crystal Journey
 
 ## Current Task
-- Professor Elm asked me to go see his acquaintance, MR. POKEMON. He lives on Route 30.
+- Professor Elm asked me to go see his acquaintance, MR. POKEMON, who lives on Route 30, past Cherrygrove City.
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
 
 ## Mechanics & Discoveries
-- (Empty for now)
+- **POKéGEAR:** Received from Mom. Has a Phone feature to call registered people.
+- **POTION:** Received from Elm's aide. Heals a Pokémon for 20 HP.
 
 ## Pokémon Team
-- Cyndaquil (Lv. 5)
+- **HESTIA** (Cyndaquil, Lv. 5)
 
 ## Important NPCs
-- Professor Elm (New Bark Town)
-- Mom (New Bark Town)
+- **Professor Elm** (New Bark Town): Gave me Hestia and his phone number.
+- **Mom** (New Bark Town): Gave me the POKéGEAR.
+- **MR. POKEMON** (Route 30): Elm's acquaintance, I need to visit him.
