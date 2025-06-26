@@ -63,24 +63,12 @@
 
 - **Trade Evolutions:** Confirmed that Pokémon evolve without link-cable trading.
 
-## VI. Party Composition & Movesets
-*A reference to prevent misremembering moves in critical battles.*
-
-- **ECHO (GOLBAT):** WING ATTACK, CONFUSE RAY, FLY, BITE
-- **CRAG (GRAVELER):** BODY SLAM, DIG, ROCK THROW, HARDEN
-- **SPARKY (PIKACHU):** THUNDERBOLT, THUNDERPUNCH, HEADBUTT, THUNDER WAVE
-- **TORRENT (SQUIRTLE):** TAIL WHIP, BUBBLE, WATER GUN, BITE
-- **PRISM (EEVEE):** QUICK ATTACK, GROWL, DOUBLE KICK, HEADBUTT
-- **SPOONBENDE (KADABRA):** TELEPORT, CONFUSION, DISABLE, PSYCHIC
-
-- Psychic is NOT-VERY-EFFECTIVE against Psychic.
-
-## VII. Type Effectiveness Chart (Observed)
+## VI. Type Effectiveness Chart (Observed)
 *A log of confirmed type interactions in this ROM hack.*
 - Psychic (player) vs. Psychic (opponent) -> Not Very Effective
 - Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
 
-## VIII. Agent Idea - `silph_co_teleporter_mapper_agent`
+## VII. Agent Idea - `silph_co_teleporter_mapper_agent`
 - **Purpose:** To help navigate Silph Co.'s teleporter maze.
 - **Input:** `current_map_id`
 - **Functionality:** 
