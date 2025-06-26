@@ -34,4 +34,4 @@
 ## Radio Broadcasts
 - **Professor Oak's Pokémon Talk:** Abra may be seen around Route 35.
 
-- **Movement Anomaly:** Encountered an invisible wall or movement restriction at (3, 1) in the Cherrygrove Evolution Speech House, preventing movement to (3, 2) despite it being a clear FLOOR tile. The pathfinder agent's initial plan failed, requiring a manual detour.
+- **Puzzle Solution (Cherrygrove House):** Became stuck at (3, 1). Solution was to turn to face the TV at (2, 1) and interact with it ('A' button). This triggered a text box, and after closing it, movement was restored.
