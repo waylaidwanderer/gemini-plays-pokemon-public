@@ -70,3 +70,6 @@
 2. All areas of a floor are accessible from the main elevator/stairwell. (Could be one-way teleporter sections)
 3. The final boss is at the very top. (Could be in a side room on any floor)
 4. All teleporters are two-way. (Some may be one-way)
+
+- **`silph_co_navigator_agent`:** Specialized agent to navigate Silph Co., aware of all teleporter connections, locked doors, and the CARD KEY location once found.
+- **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
