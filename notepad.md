@@ -60,12 +60,3 @@
 
 ### New Battle Mechanics Discovered
 - **'No Will to Fight' Mechanic:** A Pokémon with very low HP (e.g., ECHO at 24/112) may refuse to be switched into battle, displaying the message "There's no will to fight!". This seems to be a fatigue or loyalty mechanic that prevents sacrificing a severely weakened Pokémon.
-
-### New Battle Mechanics Discovered
-- **'No Will to Fight' Mechanic:** A Pokémon with very low HP (e.g., ECHO at 24/112) may refuse to be switched into battle, displaying the message "There's no will to fight!". This seems to be a fatigue or loyalty mechanic that prevents sacrificing a severely weakened Pokémon.
-
-### New Battle Mechanics Discovered
-- **'No Will to Fight' Mechanic:** A Pokémon with very low HP (e.g., ECHO at 24/112) may refuse to be switched into battle, displaying the message "There's no will to fight!". This seems to be a fatigue or loyalty mechanic that prevents sacrificing a severely weakened Pokémon.
-
-### New Battle Mechanics Discovered
-- **'No Will to Fight' Mechanic:** A Pokémon with very low HP (e.g., ECHO at 24/112) may refuse to be switched into battle, displaying the message "There's no will to fight!". This seems to be a fatigue or loyalty mechanic that prevents sacrificing a severely weakened Pokémon.
