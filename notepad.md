@@ -2,13 +2,13 @@
 
 ## Current Situation
 - **Objective:** Report the theft of a Pokémon to Professor Elm.
-- **Status:** I am currently in Professor Elm's Lab, but I seem to be stuck and unable to leave. My current hypothesis is that I need to use the POKEGEAR to call Professor Elm to trigger a story event.
+- **Status:** I am in Professor Elm's Lab. An officer has arrived to investigate the theft.
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
 
 ## The Rival
-- A red-haired boy named ??? stole a Totodile from Professor Elm's lab.
+- A red-haired boy named ??? stole a Totodile from Professor Elm's lab. I am in the process of giving him a name.
 - I was defeated by him in Cherrygrove City.
 
 ## Key Items
@@ -45,7 +45,7 @@
 - **Professor Oak** (met at Mr. Pokémon's House): Gave me the POKéDEX.
 
 ## Puzzle Solutions
-- **Stuck on Warp/Event Tile:** If stuck on a warp or after an event, opening the main menu ('Start') and then closing it ('B') can resolve the issue. This has worked in multiple locations (Mr. Pokémon's House, Cherrygrove City) but failed in Elm's Lab.
+- **Stuck on Warp/Event Tile:** If stuck on a warp tile or after an event triggers, movement may be locked. Opening the main menu ('Start') and then closing it ('B') can sometimes resolve the issue. This has worked intermittently.
 
 ## Self-Corrections & Failed Hypotheses
 - The exit from Cherrygrove City to Route 29 is on the east side of the city at (39, 7), not the west.
