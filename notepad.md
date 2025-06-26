@@ -1,13 +1,10 @@
-## I. Core Principles & Lessons Learned
+## I. Core Principles & Lessons Learned (v2)
 - **CRITICAL: Agent & Workflow Discipline:**
   - I will use my custom agents whenever a task can be automated or requires complex reasoning. Proactive agent use is key.
-  - I will strictly adhere to established protocols, especially using `encounter_tracker_agent` after every wild encounter. No exceptions.
-  - I will use my `pathfinding_agent_v2` for all non-trivial navigation to avoid blocked movements.
-  - A consistently failing agent is a liability. It must be refined or deleted immediately before reuse.
-- **CRITICAL: Map Marker Discipline:** Markers must only be placed *after* an event is verified.
+  - I will **strictly** adhere to established protocols, especially using `encounter_tracker_agent` after **every** wild encounter. No exceptions.
+  - A consistently failing agent is a liability. It must be refined or deleted immediately before reuse. `pathfinding_agent_v2` is on probation.
+- **CRITICAL: Map Marker Discipline:** Markers must only be placed *after* an event is verified. No more reactive marking after blacking out.
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
-- **Verify Assumptions:** Do not record intel as "completed" or "confirmed" until it has been empirically verified. Non-battling trainers exist.
-- **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Mark and move on.
 
 ## II. Game Mechanics & Battle Intel
 ### Confirmed ROM Hack Changes
@@ -29,7 +26,7 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## III. World Knowledge Graph Manual Entry Checklist (v9 - Post-Critique)
+## III. World Knowledge Graph Manual Entry Checklist
 *This is a fallback procedure for when `wkg_manager_agent_v2` is non-functional.*
 1.  **Check Nodes:** `run_code` to check if both source and destination nodes exist.
 2.  **Add Missing Nodes:** If any node is missing, use `manage_world_knowledge` `add_node` with a manually constructed JSON payload (including tags).
@@ -39,20 +36,18 @@
 
 ## IV. Agent Development Log
 ### A. Active Agents (Reliable)
-- **`pathfinding_agent_v2` (Refined T27950):** Requires refinement.
+- **`pathfinding_agent_v2` (Refined T27991):** Undergoing refinement due to recent failures.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
 
-### B. Defunct Agents
-- **`wkg_manager_agent_v2`:** Deleted T27750 due to catastrophic failure.
-
-### C. Agent Development Backlog
+### B. Agent Development Backlog
 - `wkg_manager_agent_v3`: A simplified agent to generate JSON payloads for `manage_world_knowledge`.
 - `silph_co_teleporter_mapper_agent`: An agent to identify and categorize teleporters on the current floor.
 - `damage_calculator_agent`: Takes player/opponent Pokémon data and calculates move damage ranges to confirm KOs.
 - `item_finder_agent`: Scans the map for item objects and reports their locations.
+- `inventory_manager_agent`: An agent to help organize and suggest uses for items.
 
 ## V. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
@@ -60,8 +55,6 @@
 - **Unverified Assumptions (To be tested):**
     1.  *Teleporter Directionality:* Are all teleporters two-way? Must verify by attempting to return immediately after use.
     2.  *CARD KEY Location:* Assuming it's on an upper floor, but could be anywhere.
-    3.  *Final Objective:* Is Giovanni the true final boss, or is the goal just to find the CARD KEY and free the President?
-
 - **Trade Evolutions:** Confirmed that Pokémon evolve without link-cable trading.
 
 ## VI. Type Effectiveness Chart (Observed)
