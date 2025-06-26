@@ -1,18 +1,15 @@
 # Pokémon Crystal Journey
 
-## Current Plan
-- **Objective:** Defeat the Rival, then return to New Bark Town to help Professor Elm.
-- **Route:** Exit Cherrygrove City to the east to get to Route 29, then head east.
-
-## Current Quest
-- **A Pokémon has been stolen from Professor Elm's lab!** The thief, a red-haired boy, has ambushed me. I must defeat him and get back to New Bark Town.
+## Current Situation
+- **Objective:** Report the theft of a Pokémon to Professor Elm.
+- **Status:** I am currently in Professor Elm's Lab, but I seem to be stuck and unable to leave. My current hypothesis is that I need to use the POKEGEAR to call Professor Elm to trigger a story event.
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
 
 ## The Rival
-- A red-haired boy who stole a Pokémon from Professor Elm's lab.
-- I was defeated by the rival, ???, in Cherrygrove City. He has a Totodile.
+- A red-haired boy named ??? stole a Totodile from Professor Elm's lab.
+- I was defeated by him in Cherrygrove City.
 
 ## Key Items
 - **POKéGEAR:** Received from Mom. Has a Phone feature.
@@ -47,16 +44,8 @@
 - **MR. POKEMON** (Route 30): Gave me the MYSTERY EGG.
 - **Professor Oak** (met at Mr. Pokémon's House): Gave me the POKéDEX.
 
-## Radio Broadcasts
-- **Professor Oak's Pokémon Talk:** Abra may be seen around Route 35.
-
 ## Puzzle Solutions
-- **Cherrygrove House Lock:** Became stuck at (3, 1). Solution was to turn to face the TV at (2, 1) and interact with it ('A' button).
-- **Mr. Pokémon's House Exit:** Became stuck on the exit warp at (2, 7). Solution was to press 'Start' to open the menu, then 'B' to close it.
-- **Cherrygrove City Stuck State:** Became stuck at (14, 11) after rival event. Solution was to open and close the main menu with 'Start' then 'B'.
+- **Stuck on Warp/Event Tile:** If stuck on a warp or after an event, opening the main menu ('Start') and then closing it ('B') can resolve the issue. This has worked in multiple locations (Mr. Pokémon's House, Cherrygrove City) but failed in Elm's Lab.
 
 ## Self-Corrections & Failed Hypotheses
-- The path to Cherrygrove City is through Route 29. My initial assumption that it was a dead end was incorrect.
-- The west exit of Cherrygrove City is not accessible from the southern path. The main exit to Route 29 is on the east side of the city at (39, 7).
-
-- **Stuck on Warp/Event Tile:** If stuck on a warp or after an event, opening the main menu ('Start') and then closing it ('B') can resolve the issue and trigger the next action/warp.
+- The exit from Cherrygrove City to Route 29 is on the east side of the city at (39, 7), not the west.
