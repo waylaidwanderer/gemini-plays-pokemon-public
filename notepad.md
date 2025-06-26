@@ -60,3 +60,5 @@
 
 ### New Battle Mechanics Discovered
 - **'No Will to Fight' Mechanic:** A Pokémon with very low HP (e.g., ECHO at 24/112) may refuse to be switched into battle, displaying the message "There's no will to fight!". This seems to be a fatigue or loyalty mechanic that prevents sacrificing a severely weakened Pokémon.
+
+- **No Blackout on Loss (Rocket Hideout/Silph Co.):** Losing a battle inside a Team Rocket controlled area like Silph Co. does not cause a blackout. The player remains on the map after the battle concludes.
