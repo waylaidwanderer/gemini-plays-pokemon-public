@@ -41,17 +41,17 @@
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
+- **`silph_co_teleporter_mapper_agent` (v1):** New agent to map teleporters. Ready for testing.
 
 ### B. Agent Development Backlog
 - `wkg_manager_agent_v3`: A simplified agent to generate JSON payloads for `manage_world_knowledge`.
-- `silph_co_teleporter_mapper_agent`: An agent to identify and categorize teleporters on the current floor.
 - `damage_calculator_agent`: Takes player/opponent Pokémon data and calculates move damage ranges to confirm KOs.
 - `item_finder_agent`: Scans the map for item objects and reports their locations.
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
 
 ## V. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
-- **Methodology:** Explore each floor completely. Map all warps and teleporters. Defeat all grunts and scientists. Use the CARD KEY to unlock all previously inaccessible areas.
+- **Methodology:** Explore each floor completely. Map all warps and teleporters. Defeat all trainers. Use the CARD KEY to unlock all previously inaccessible areas.
 - **Unverified Assumptions (To be tested):**
     1.  *Teleporter Directionality:* Are all teleporters two-way? Must verify by attempting to return immediately after use.
     2.  *CARD KEY Location:* Assuming it's on an upper floor, but could be anywhere.
@@ -59,9 +59,9 @@
 
 ## VI. Silph Co. Exploration Plan
 *A systematic checklist for clearing Silph Co.*
-- **Floor 1F:** Cleared.
+- **Floor 1F:** [x] Explored all rooms [x] Defeated all trainers [x] Mapped all warps
 - **Floor 2F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
-- **Floor 3F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 3F:** [x] Explored all rooms [x] Defeated all trainers [x] Mapped all warps
 - **Floor 4F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
 - **Floor 5F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
 - **Floor 6F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
