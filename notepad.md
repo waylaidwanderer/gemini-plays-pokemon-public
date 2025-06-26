@@ -58,3 +58,5 @@
     2.  *Teleporter Directionality:* Are all teleporters two-way? Must verify by attempting to return immediately after use.
     3.  *CARD KEY Location:* Assuming it's on an upper floor, but could be anywhere.
     4.  *Final Objective:* Is Giovanni the true final boss, or is the goal just to find the CARD KEY and free the President?
+
+- **Trade Evolutions:** Confirmed that Pokémon evolve without link-cable trading.
