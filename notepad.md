@@ -3,7 +3,7 @@
 ## Current Situation
 - **Objective:** Begin the Pokémon Gym Challenge. The first gym is in Violet City.
 - **Next Step:** Travel to Violet City.
-- **Status:** In the Guide Gent's House in Cherrygrove City. The house is empty.
+- **Status:** On Route 30, heading north to battle trainers and continue towards Violet City.
 
 ## Party
 - Hestia (Cyndaquil)
