@@ -29,7 +29,7 @@ My path north is blocked. I will systematically re-explore all known locations t
   - [X] Confirmed one-way path south. No further exploration needed here.
 - **[ ] Cherrygrove City (26_3):** (Current Location)
   - [ ] Cherrygrove City (26_3):
-  - [ ] Pokémon Center (26_5): Re-check all NPCs.
+  - [X] Pokémon Center (26_5): Re-check all NPCs.
   - [ ] Gym Advice House (26_6): Re-check all NPCs.
   - [ ] Guide Gent's House (26_7): Re-check all NPCs.
   - [ ] Evolution Speech House (26_8): Re-check all NPCs.
