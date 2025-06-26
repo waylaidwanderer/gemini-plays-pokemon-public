@@ -16,16 +16,7 @@
 - **Warp Mechanics:** Some warp tiles may require stepping off of them and then back on to activate.
 - **Self-Correction:** The path to Cherrygrove City is through Route 29. My initial assumption that it was a dead end was incorrect.
 - **Route 46:** This route is a dead-end when approached from the south due to one-way ledges.
-
-## Agent Development
-- **`exploration_agent`:** This agent has required multiple refinements.
-  - **v1:** Failed to avoid obstacles like 'HEADBUTT_TREE'.
-  - **v2:** Failed to avoid 'WALL' tiles.
-  - **v3:** Generated inefficient, looping paths.
-  - **v4:** Failed by pathing into a HEADBUTT_TREE.
-  - **v5:** Failed again by pathing into a HEADBUTT_TREE due to a contradictory prompt.
-  - **v6:** Clarified that 'unseen' tiles are obstacles and cannot be part of the path.
-- **`pathfinder_agent`:** Refined to correctly treat 'unseen' tiles as traversable.
+- **Pokémon Evolution:** Pokémon gain experience in battle and can change their form (evolve).
 
 ## Wild Pokémon Encounters
 ### Route 29 (Tall Grass)
@@ -40,6 +31,5 @@
 - **Mom** (New Bark Town): Gave me the POKéGEAR.
 - **MR. POKEMON** (Route 30): Elm's acquaintance.
 
-- **Pokémon Evolution:** Pokémon can gain experience in battle and change their form (evolve).
-
-- **Radio Broadcast:** Professor Oak's Pokémon Talk mentioned that Abra may be seen around Route 35.
+## Radio Broadcasts
+- **Professor Oak's Pokémon Talk:** Abra may be seen around Route 35.
