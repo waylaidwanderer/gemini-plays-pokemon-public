@@ -14,5 +14,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"paths\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"type\":{\"type\":\"string\",\"enum\":[\"map_edge\",\"warp\",\"blocked_path\"]},\"coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"status\":{\"type\":\"string\"},\"destination\":{\"type\":\"string\"}},\"required\":[\"type\",\"coordinates\",\"status\"]}}},\"required\":[\"paths\"]}",
     "agent_can_run_code": true
+  },
+  "exploration_agent": {
+    "agent_name": "exploration_agent",
+    "agent_description": "Analyzes the current map to find a path that covers the most unseen tiles, helping with systematic exploration of new areas.",
+    "agent_system_prompt": "You are an expert Pokémon world explorer. Your goal is to systematically explore the current map. You will be given the `map_xml_string`. Your task is to find the most efficient path from the player's current position that visits the maximum number of 'unseen' tiles. Analyze the map layout, identify all 'unseen' tiles, and calculate a path that covers as many of them as possible. The path should be a sequence of coordinates. Avoid obstacles like 'WALL' tiles and objects. Respect special tile movement rules like one-way ledges ('HOP' tiles). The output should be a JSON object containing the path.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path\"]}",
+    "agent_can_run_code": true
   }
 }
