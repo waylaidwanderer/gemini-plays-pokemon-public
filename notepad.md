@@ -24,3 +24,5 @@
 - **Professor Elm** (New Bark Town): Gave me Hestia and his phone number.
 - **Mom** (New Bark Town): Gave me the POKéGEAR.
 - **MR. POKEMON** (Route 30): Elm's acquaintance.
+
+- **Held Items (Berries):** Some Pokémon can hold items like Berries, which they can use automatically in battle to heal themselves when their HP gets low.
