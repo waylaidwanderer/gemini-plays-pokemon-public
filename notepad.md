@@ -17,7 +17,6 @@
 
 ## Mechanics & Discoveries
 ### System Mechanics
-- **POKéGEAR:** Received from Mom. Has a Phone feature.
 - **Warp Mechanics:** Some warp tiles may require stepping off of them and then back on to activate.
 ### Environmental Mechanics
 - **Route 29 Ledges:** The western section of Route 29 has one-way ledges preventing eastward travel from that area.
