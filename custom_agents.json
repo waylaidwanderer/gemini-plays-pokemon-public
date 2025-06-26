@@ -7,14 +7,6 @@
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path\"]}",
     "agent_can_run_code": true
   },
-  "exploration_agent": {
-    "agent_name": "exploration_agent",
-    "agent_description": "Analyzes the current map to find a path that covers the most unseen tiles, helping with systematic exploration of new areas.truetruetrue",
-    "agent_system_prompt": "You are an expert Pokémon world explorer. Your goal is to systematically explore the current map. You will be given the map_xml_string. Your task is to find the most efficient path from the player's current position that reveals the most 'unseen' tiles by moving to adjacent, traversable tiles. A tile is traversable ONLY if its type is 'FLOOR' or 'TALL_GRASS'. All other tile types, including 'unseen', 'WALL', 'HEADBUTT_TREE', 'CUT_TREE', and any tile containing an '<Object>', are impassable obstacles that cannot be part of your path. Special 'HOP' tiles can be traversed but have one-way entry rules. Your path must be efficient and MUST NOT visit the same tile multiple times within the same path segment unless absolutely necessary to reach a new area. Analyze the map layout and calculate a path that covers as many unseen tiles as possible by exploring from the edges of what is currently visible. The output should be a JSON object containing the path.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path\"]}",
-    "agent_can_run_code": true
-  },
   "puzzle_solver_agent": {
     "agent_name": "puzzle_solver_agent",
     "agent_description": "Analyzes the current situation when stuck and generates a list of new, ranked hypotheses to test. It considers the map, game state, and a list of previously failed hypotheses to avoid repetition.",
