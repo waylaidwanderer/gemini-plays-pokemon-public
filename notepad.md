@@ -25,6 +25,7 @@
   - **v5:** Failed again by pathing into a HEADBUTT_TREE due to a contradictory prompt.
   - **v6:** Clarified that 'unseen' tiles are obstacles and cannot be part of the path.
   - **v6:** Clarified that 'unseen' tiles are obstacles and cannot be part of the path.
+  - **v6:** Clarified that 'unseen' tiles are obstacles and cannot be part of the path.
 
 ## Wild Pokémon Encounters
 ### Route 29 (Tall Grass)
