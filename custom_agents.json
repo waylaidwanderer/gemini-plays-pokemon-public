@@ -6,5 +6,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"end_x\":{\"type\":\"integer\"},\"end_y\":{\"type\":\"integer\"}},\"required\":[\"start_x\",\"start_y\",\"end_x\",\"end_y\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path\"]}",
     "agent_can_run_code": true
+  },
+  "route_analyzer_agent": {
+    "agent_name": "route_analyzer_agent",
+    "agent_description": "Analyzes the current map to identify all potential exits and paths, reporting their status (e.g., open, blocked by an obstacle, one-way ledge).",
+    "agent_system_prompt": "You are a route analysis expert for a 2D grid-based game. Your task is to analyze the provided 'map_xml_string' to identify all potential paths leading off the current map and any significant internal paths that are blocked. For each potential path, describe its location, type, and status. Differentiate between map edge transitions, warps (like doors or caves), and blocked paths (like those requiring a specific HM like Cut). Your output should be a structured JSON object detailing these findings.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"paths\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"type\":{\"type\":\"string\",\"enum\":[\"map_edge\",\"warp\",\"blocked_path\"]},\"coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"status\":{\"type\":\"string\"},\"destination\":{\"type\":\"string\"}},\"required\":[\"type\",\"coordinates\",\"status\"]}}},\"required\":[\"paths\"]}",
+    "agent_can_run_code": true
   }
 }
