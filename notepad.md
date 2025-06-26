@@ -41,3 +41,5 @@
 ### Route 30
 - **Ledyba (Lv. 3):** Bug/Flying type. Observed move: TACKLE.
 - **Caterpie (Lv. 3):** Bug type. Observed move: TACKLE.
+
+- **Weedle (Lv. 3):** Bug/Poison type. Observed move: STRING SHOT.
