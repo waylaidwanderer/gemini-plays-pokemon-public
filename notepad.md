@@ -2,8 +2,8 @@
 
 ## Current Situation
 - **Objective:** Find the correct path to Violet City.
-- **Location:** Route 30, at (10, 30).
-- **Next Step:** Test hypothesis for picking up items on the ground.
+- **Location:** Route 30, at (14, 24).
+- **Next Step:** Continue exploring north on the eastern path of Route 30.
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
@@ -11,7 +11,7 @@
 ## The Rival
 - A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
 
-## Mechanics & Discoveries
+## Game Mechanics & Discoveries
 ### System Mechanics
 - **Stuck on Warp/Event Tile:** If movement is locked, opening and closing the main menu ('Start' -> 'B') can resolve the issue.
 
@@ -22,15 +22,16 @@
 ### Tile & Environmental Mechanics
 - **FLOOR:** A standard, traversable tile.
 - **TALL_GRASS:** Traversable tile where wild Pokémon encounters can occur.
-- **Route 29 Ledges:** The western section of Route 29 has one-way ledges preventing eastward travel from that area.
-- **Route 46:** This route is a dead-end when approached from the south due to one-way ledges.
 - **CUT_TREE:** These small trees are impassable and require the HM 'Cut' to be removed.
 - **Fruit Trees:** These are impassable objects.
-- **Item Pickups:** Cannot be picked up by standing on them. Conclusion: The red flowers on the ground on Route 30 are decorative and cannot be picked up. Confirmed after multiple failed attempts from various positions.
+- **Route 29 Ledges:** The western section of Route 29 has one-way ledges preventing eastward travel from that area.
+- **Route 46 Ledges:** This route is a dead-end when approached from the south due to one-way ledges.
+- **Decorative Floor Items:** Certain floor patterns, like the red flowers on Route 30, are purely decorative and cannot be interacted with or picked up. Confirmed at (10, 31) after multiple failed attempts.
 
-## Agent Ideas
+## Agent Ideas & Refinements
 - **battle_strategist_agent:** An agent to suggest the optimal move or action in difficult battles.
 - **route_summary_agent:** An agent to parse map data and markers to give a high-level summary of a route's completion status.
+- **Pathfinder Consolidation:** Consolidate `pathfinder_agent` and `master_explorer` into a single, more versatile agent with different modes.
 
 ## Pokémon Encounters
 ### Route 30
