@@ -14,13 +14,5 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"failed_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"failed_hypotheses\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"rank\":{\"type\":\"integer\"},\"hypothesis\":{\"type\":\"string\"},\"action_plan\":{\"type\":\"string\"}},\"required\":[\"rank\",\"hypothesis\",\"action_plan\"]}}},\"required\":[\"hypotheses\"]}",
     "agent_can_run_code": true
-  },
-  "master_explorer": {
-    "agent_name": "master_explorer",
-    "agent_description": "A master exploration agent. Given a starting position and an exploration mode ('nearest' or 'comprehensive'), it finds the best path. 'nearest' finds the path to the closest unseen tile. 'comprehensive' finds a path that reveals the most unseen tiles.",
-    "agent_system_prompt": "You are an expert Pokémon world explorer. Your goal is to systematically explore the current map. You will be given the map_xml_string, a start coordinate, and an exploration mode. Your task is to calculate an efficient path based on the mode. If mode is 'nearest', find the shortest path to the single closest reachable 'unseen' tile. If mode is 'comprehensive', calculate a path that reveals the maximum number of 'unseen' tiles, prioritizing contiguous areas. A tile is traversable ONLY if its type is 'FLOOR' or 'TALL_GRASS'. All other tile types, including 'unseen' and 'WALL', are impassable obstacles. **CRITICAL RULE: Any tile containing an `<Object>` tag in the XML is an impassable wall. Your path MUST navigate around these objects, no exceptions.** Special 'HOP' tiles can be traversed but have one-way entry rules. Your path must be efficient and should not visit the same tile multiple times unless necessary. The output should be a JSON object containing the calculated path.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"mode\":{\"type\":\"string\",\"enum\":[\"nearest\",\"comprehensive\"]}},\"required\":[\"start_x\",\"start_y\",\"mode\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"path\"]}",
-    "agent_can_run_code": true
   }
 }
