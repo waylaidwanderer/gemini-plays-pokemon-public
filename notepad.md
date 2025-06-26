@@ -49,20 +49,8 @@
     - *CARD KEY Location:* Assuming it's a visible item ball, but could be held by an NPC or in a non-obvious interactable. Must be vigilant.
     - *Progression Path:* Assuming linear floor-by-floor progression, but the solution may involve non-linear travel between floors via teleporters.
 
-## V. Silph Co. Exploration Plan (v2 - Granular)
-*A systematic, granular checklist for clearing Silph Co.*
-- **Floor 1F:** [x] Explored all rooms. [x] Mapped all warps.
-- **Floor 1F:** [x] Explored all rooms. [x] Mapped all warps.
-- **Floor 2F:** [x] Explored & Cleared.
-- **Floor 3F:** [x] Explored & Cleared.
-- **Floor 4F:** [ ] Explore & Clear.
-- **Floor 5F:** [x] Explored & Cleared.
-- **Floor 6F:** [x] Explored & Cleared.
-- **Floor 7F:** [ ] Explore & Clear.
-- **Floor 8F:** [ ] Explore & Clear.
-- **Floor 9F:** [ ] Explore & Clear.
-- **Floor 10F:** [ ] Explore & Clear.
-- **Floor 11F:** [ ] Explore & Clear.
+## V. Silph Co. Exploration Plan (v3 - Streamlined)
+*High-level floor status. Detailed progress tracked via map markers.*
 
 ## VI. Type Effectiveness Chart (Observed)
 *A log of confirmed type interactions in this ROM hack.*
