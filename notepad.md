@@ -105,3 +105,7 @@
 *A log of confirmed type interactions in this ROM hack.*
 - Psychic (player) vs. Psychic (opponent) -> Not Very Effective
 - Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
+
+### C. Agent Ideas
+- `inventory_manager_agent`: To help organize and suggest uses for items.
+- `protocol_enforcement_agent`: To remind me to follow my own established procedures, like using the encounter and teleporter mapper agents.
