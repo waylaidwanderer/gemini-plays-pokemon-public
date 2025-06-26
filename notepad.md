@@ -1,7 +1,7 @@
 ## I. Core Principles & Lessons Learned (v4)
 - **CRITICAL: Agent & Workflow Discipline:**
   - I will use my custom agents whenever a task can be automated or requires complex reasoning. Proactive agent use is key.
-  - I will **strictly** adhere to established protocols, especially using `encounter_tracker_agent` after **every** wild encounter and `silph_co_teleporter_mapper_agent` after every warp in Silph Co. No exceptions.
+  - I will **strictly** adhere to established protocols, especially using `encounter_tracker_agent` after **every** wild encounter.
 - **CRITICAL: Map Marker Discipline:** Markers must only be placed *after* an event is verified.
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
 
@@ -25,38 +25,31 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## III. Agent Development Log (v5)
+## III. Agent Development Log (v6)
 ### A. Active Agents (Reliable)
 - **`pathfinding_agent_v2`:** Highly reliable; past perceived 'failures' were due to player hallucination, not agent error.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v6 - Refined T28213):** Now incorporates damage calculation for more precise recommendations.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
-- **`silph_co_teleporter_mapper_agent` (v1):** New agent to map teleporters. Ready for use.
-- **`wkg_payload_generator` (v2 - Refined T28311):** Generates JSON payload strings for the `manage_world_knowledge` tool.
 - **`item_finder_agent` (v2 - Refined T28325):** Scans current map for item balls.
+- **`wkg_connection_manager` (v2 - Refined T28492):** Automates adding new map connections. Still under refinement.
 
 ### B. Agent Development Backlog
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
+- `protocol_enforcement_agent`: To remind me to follow my own established procedures.
 
 ## IV. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
 - **Methodology:** Explore each floor completely. Map all warps and teleporters. Defeat all trainers. Use the CARD KEY to unlock all previously inaccessible areas.
 - **Silph Co. Protocols:**
-    1.  **Teleporter Mapping:** After using any teleporter, immediately use `silph_co_teleporter_mapper_agent` to document the connection in the WKG.
+    1.  **Teleporter Mapping:** After using any teleporter, immediately use `wkg_connection_manager` to document the connection in the WKG.
     2.  **Teleporter Bidirectionality Test:** After using a teleporter, immediately attempt to use it again to confirm if it's two-way.
 - **Key Discoveries & Unverified Assumptions:**
     - *CARD KEY Location:* Assuming it's a visible item ball, but could be held by an NPC or in a non-obvious interactable. Must be vigilant.
     - *Progression Path:* Assuming linear floor-by-floor progression, but the solution may involve non-linear travel between floors via teleporters.
 
-## V. Silph Co. Exploration Plan (v3 - Streamlined)
-*High-level floor status. Detailed progress tracked via map markers.*
-
-## VI. Type Effectiveness Chart (Observed)
+## V. Type Effectiveness Chart (Observed)
 *A log of confirmed type interactions in this ROM hack.*
 - Psychic (player) vs. Psychic (opponent) -> Not Very Effective
 - Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
-
-### C. Agent Ideas
-- `inventory_manager_agent`: To help organize and suggest uses for items.
-- `protocol_enforcement_agent`: To remind me to follow my own established procedures, like using the encounter and teleporter mapper agents.
