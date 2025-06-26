@@ -2,12 +2,12 @@
 
 ## Current Situation
 - **Objective:** Begin the Pokémon Gym Challenge. The first gym is in Violet City.
-- **Next Step:** Talk to Mom in my house before leaving.
-- **Status:** I am in my house (1F), about to talk to Mom.
+- **Next Step:** Travel through Route 29 to Cherrygrove City, then onwards to Violet City.
+- **Status:** In a battle on Route 29, nicknaming a newly caught Rattata.
 
-## To-Do
-- Go back to New Bark Town (map 24_4) and place a map marker at (13, 5) for the house entrance.
-- Go back to my room (map 24_7) and place a map marker at (7, 0) for the stairs.
+## Party
+- Hestia (Cyndaquil)
+- [New Rattata - to be named Vermin]
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
@@ -16,9 +16,9 @@
 - A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
 
 ## Key Items
-- **POKéGEAR:** Received from Mom. Has a Phone feature.
+- **POKéGEAR:** Received from Mom. Has a Phone feature. Mom is saving money for me.
 - **POKéDEX:** Received from Professor Oak.
-- **POKé BALLS (x5):** Received from Elm's assistant after reporting the theft.
+- **POKé BALLS:** Received from Elm's assistant. Used one to catch a Rattata.
 
 ## Mechanics & Discoveries
 ### System Mechanics
@@ -31,8 +31,4 @@
 
 ### Battle Mechanics
 - **Held Items (Berries):** Pokémon can use held Berries to heal themselves in battle.
-
-## Important NPCs
-- **Professor Elm:** Gave me Hestia and set me on the path to the Pokémon League.
-- **Mom:** Gave me the POKéGEAR. I need to talk to her before leaving.
-- **Professor Oak:** Gave me the POKéDEX.
+- **Catching:** Weakening a Pokémon makes it easier to catch.
