@@ -3,7 +3,7 @@
 ## Current Situation
 - **Objective:** Find the correct path to Violet City.
 - **Location:** Route 30, exploring the eastern fork after discovering the western path was a dead end.
-- **Next Step:** Collect visible items and continue exploring north.
+- **Next Step:** Figure out how to pick up items on the ground.
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
@@ -15,16 +15,16 @@
 ### System Mechanics
 - **Stuck on Warp/Event Tile:** If movement is locked, opening and closing the main menu ('Start' -> 'B') can resolve the issue.
 
-### Environmental Mechanics
+### Battle Mechanics
+- **Held Items (Berries):** Pokémon can use held Berries to heal themselves in battle.
+- **Catching:** Weakening a Pokémon makes it easier to catch.
+
+### Tile & Environmental Mechanics
 - **Route 29 Ledges:** The western section of Route 29 has one-way ledges preventing eastward travel from that area.
 - **Route 46:** This route is a dead-end when approached from the south due to one-way ledges.
 - **CUT_TREE:** These small trees are impassable and require the HM 'Cut' to be removed.
 - **Fruit Trees:** These are impassable objects.
-- **Item Pickups:** Some visible items on the ground cannot be picked up by standing on them (e.g., at Route 30 (10, 31)). The interaction method is unknown.
-
-### Battle Mechanics
-- **Held Items (Berries):** Pokémon can use held Berries to heal themselves in battle.
-- **Catching:** Weakening a Pokémon makes it easier to catch.
+- **Item Pickups:** Cannot be picked up by standing on them. Hypothesis: must interact from an adjacent tile.
 
 ## Agent Ideas
 - **battle_strategist_agent:** An agent to suggest the optimal move or action in difficult battles.
