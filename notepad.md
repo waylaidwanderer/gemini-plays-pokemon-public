@@ -25,7 +25,7 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## III. Agent Development Log (v4)
+## III. Agent Development Log (v5)
 ### A. Active Agents (Reliable)
 - **`pathfinding_agent_v2`:** Highly reliable; past perceived 'failures' were due to player hallucination, not agent error.
 - **`pc_navigator_agent` (v2):** Reliable.
@@ -34,6 +34,7 @@
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
 - **`silph_co_teleporter_mapper_agent` (v1):** New agent to map teleporters. Ready for use.
 - **`wkg_payload_generator` (v2 - Refined T28311):** Generates JSON payload strings for the `manage_world_knowledge` tool.
+- **`item_finder_agent` (v2 - Refined T28325):** Scans current map for item balls.
 
 ### B. Agent Development Backlog
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
@@ -48,19 +49,57 @@
     - *CARD KEY Location:* Assuming it's a visible item ball, but could be held by an NPC or in a non-obvious interactable. Must be vigilant.
     - *Progression Path:* Assuming linear floor-by-floor progression, but the solution may involve non-linear travel between floors via teleporters.
 
-## V. Silph Co. Exploration Plan (Updated T28314)
-*A systematic checklist for clearing Silph Co.*
-- **Floor 1F:** [x] Explored all rooms [x] Defeated all trainers [x] Mapped all warps
-- **Floor 2F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
-- **Floor 3F:** [x] Explored all rooms [x] Defeated all trainers [x] Mapped all warps
-- **Floor 4F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
-- **Floor 5F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
-- **Floor 6F:** [x] Defeated Rocket Grunt at (18,4) [x] Defeated Scientist at (8,9) [ ] Explore all rooms [ ] Map all warps
-- **Floor 7F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
-- **Floor 8F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
-- **Floor 9F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
-- **Floor 10F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
-- **Floor 11F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
+## V. Silph Co. Exploration Plan (v2 - Granular)
+*A systematic, granular checklist for clearing Silph Co.*
+- **Floor 1F:** [x] Explored all rooms. [x] Mapped all warps.
+- **Floor 2F:**
+  - [x] SILPHCO2F_ROCKET1 defeated at (17, 12).
+  - [x] SILPHCO2F_ROCKET2 defeated at (25, 8).
+  - [x] SILPHCO2F_SCIENTIST2 defeated at (25, 14).
+  - [ ] Defeat SILPHCO2F_SCIENTIST1 at (6, 13).
+  - [ ] Explore all rooms.
+  - [ ] Map all warps.
+- **Floor 3F:** [x] Explored all rooms. [x] Defeated all trainers. [x] Mapped all warps.
+- **Floor 4F:**
+  - [ ] Defeat ROCKET at (11, 14).
+  - [ ] Defeat JUGGLER at (4, 13).
+  - [ ] Explore all rooms.
+  - [ ] Map all warps.
+- **Floor 5F:**
+  - [x] ROCKET defeated at (29, 5).
+  - [x] JUGGLER defeated at (24, 12).
+  - [x] SCIENTIST defeated at (4, 13).
+  - [ ] Explore all rooms.
+  - [ ] Map all warps.
+- **Floor 6F:**
+  - [x] ROCKET defeated at (18, 4).
+  - [x] SCIENTIST defeated at (8, 9).
+  - [ ] Explore all rooms.
+  - [ ] Map all warps.
+- **Floor 7F:**
+  - [ ] Defeat ROCKET at (26, 8).
+  - [ ] Defeat JUGGLER at (10, 13).
+  - [ ] Defeat ROCKET at (4, 12).
+  - [ ] Explore all rooms.
+  - [ ] Map all warps.
+- **Floor 8F:**
+  - [x] ROCKET defeated at (13, 16).
+  - [ ] Defeat ROCKET at (6, 9).
+  - [ ] Explore all rooms.
+  - [ ] Map all warps.
+- **Floor 9F:**
+  - [ ] Defeat ROCKET at (24, 12).
+  - [ ] Explore all rooms.
+  - [ ] Map all warps.
+- **Floor 10F:**
+  - [x] SCIENTIST defeated at (11, 3).
+  - [ ] Defeat ROCKET at (4, 13).
+  - [ ] Explore all rooms.
+  - [ ] Map all warps.
+- **Floor 11F:**
+  - [ ] Defeat ROCKET at (23, 13).
+  - [ ] Explore all rooms.
+  - [ ] Map all warps.
 
 ## VI. Type Effectiveness Chart (Observed)
 *A log of confirmed type interactions in this ROM hack.*
