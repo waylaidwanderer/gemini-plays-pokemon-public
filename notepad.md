@@ -36,3 +36,8 @@
 
 ## Agent Ideas
 - **battle_strategist_agent:** An agent that can analyze the current battle state (my Pokémon, opponent Pokémon, known moves, type matchups) and suggest the optimal move or action. This would be especially helpful for difficult battles like Gym Leaders.
+
+## Pokémon Encounters
+### Route 30
+- **Ledyba (Lv. 3):** Bug/Flying type. Observed move: TACKLE.
+- **Caterpie (Lv. 3):** Bug type. Observed move: TACKLE.
