@@ -3,7 +3,7 @@
 ## Current Situation
 - **Objective:** Begin the Pokémon Gym Challenge. The first gym is in Violet City.
 - **Next Step:** Travel to Violet City.
-- **Status:** In Cherrygrove City Pokémon Center to heal my party before continuing.
+- **Status:** On Route 30, exploring the path to Violet City.
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
