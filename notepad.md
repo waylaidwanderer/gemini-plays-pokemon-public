@@ -1,9 +1,10 @@
-# Gem's Strategic Journal (v145 - Post-Critique #27172)
+# Gem's Strategic Journal (v146 - Post-Critique #27301)
 
 ## I. Core Principles & Lessons Learned
 - **CRITICAL: Agent & Workflow Discipline:** My workflow has been sloppy. The critique was a necessary wake-up-call.
   - **Faulty Agent Protocol:** A consistently failing agent (like `wkg_manager_agent_v2`) is a liability. I will no longer use it until it is refined.
   - **Logging Protocol:** I will strictly adhere to my established protocols, especially using `encounter_tracker_agent` after every wild battle. No exceptions.
+- **CRITICAL: Map Marker Discipline:** I marked a trainer as defeated *before* the battle was confirmed (Rocket at Silph 3F, (21,8)). This is a major procedural failure. Markers must only be placed *after* an event is verified.
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
 - **Verify Assumptions:** Do not record intel as "completed" or "confirmed" until it has been empirically verified. Non-battling trainers exist.
 - **Interaction Protocol:** If an interaction doesn't trigger a battle, it's a non-battling NPC or one I've already defeated. Mark and move on.
@@ -28,7 +29,6 @@
 ## III. Active Plans & Hypotheses
 - **Primary Plan:** Disrupt Team Rocket's operations in Saffron City.
 - **Current Objective:** Systematically clear all 11 floors of Silph Co., find the CARD KEY, and defeat the boss.
-- **Unverified Assumptions:** The CARD KEY and the boss are on a high floor. This is a common trope, but I must be open to them being anywhere.
 
 ## IV. World Knowledge Graph Manual Entry Checklist
 *To be used when `wkg_manager_agent_v2` is non-functional.*
@@ -46,10 +46,10 @@
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
-- **`wkg_manager_agent_v2`:** **NEEDS REFINEMENT.** This agent has failed repeatedly. I will not use it again until I have refined its logic to prevent errors.
+- **`wkg_payload_generator_agent` (v1):** New agent to generate correct JSON payloads for manual `manage_world_knowledge` calls.
 
 ### B. Agent Development Backlog
-- **`wkg_helper_agent`:** (High Priority) Generate correct JSON payloads for manual `manage_world_knowledge` calls to prevent errors.
+- **`wkg_manager_agent_v2`:** (Low Priority) Needs a full logic overhaul to be usable.
 - **`silph_co_navigator_agent`:** Specialized agent to navigate Silph Co., aware of all teleporter connections, locked doors, and the CARD KEY location once found.
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
 - **`fishing_advisor_agent`:** Analyze map & rod to suggest best fishing spots/catches.
@@ -57,10 +57,6 @@
 - **`sales_data_agent`:** Track item prices across different Poké Marts to find the best deals.
 - **`move_tutor_advisor_agent`:** Suggest optimal moves to learn from TMs/HMs.
 - **`story_progress_tracker_agent`:** Track key NPC dialogue and plot points.
-
-### C. Decommissioned Agents
-- **`wkg_manager_agent` (v3):** **DECOMMISSIONED.** Consistently fails to check for existing nodes, causing tool errors. DO NOT USE.
-- **`spinner_maze_agent`:** **DECOMMISSIONED.** Defined prematurely. No spinner mazes encountered yet.
 
 ## VI. Saffron City Intel
 - **Team Rocket Takeover:** Confirmed by a Rocket Grunt. Their goal is to take over the city.
