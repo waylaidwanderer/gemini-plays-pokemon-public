@@ -26,7 +26,7 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## III. World Knowledge Graph Manual Entry Checklist (v8 - Post-Critique)
+## III. World Knowledge Graph Manual Entry Checklist (v9 - Post-Critique)
 *This is a fallback procedure for when `wkg_manager_agent_v2` is non-functional.*
 1.  **Check Nodes:** `run_code` to check if both source and destination nodes exist.
 2.  **Add Missing Nodes:** If any node is missing, use `manage_world_knowledge` `add_node` with a manually constructed JSON payload (including tags).
@@ -36,23 +36,25 @@
 
 ## IV. Agent Development Log
 ### A. Active Agents (Reliable)
-- **`pathfinding_agent_v2`:** Refined in turn 27596. Monitoring for reliability.
+- **`pathfinding_agent_v2`:** Generally reliable, but requires monitoring.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
 
 ### B. Defunct Agents (To Be Deleted/Replaced)
-- **`wkg_manager_agent_v2`:** **STATUS: CATASTROPHIC FAILURE.** This agent is fundamentally broken, getting stuck in logical loops. It will be deleted. WKG management will proceed manually until a new, simpler agent is designed.
+- **`wkg_manager_agent_v2`:** **STATUS: CATASTROPHIC FAILURE.** This agent is fundamentally broken, getting stuck in logical loops. **It will be deleted.** WKG management will proceed manually until a new, simpler agent is designed.
 
 ### C. Agent Development Backlog
 - `silph_co_teleporter_mapper_agent`: Takes the current floor's XML and the WKG. Its job would be to identify all teleporters on the current floor and try to map out where they lead based on existing WKG data or suggest which ones are unexplored.
 - `damage_calculator_agent`: Takes player/opponent Pokémon data and calculates move damage ranges to confirm KOs.
 - `item_finder_agent`
 
-## V. Saffron City Intel
-- **Team Rocket Takeover:** Confirmed by a Rocket Grunt. Their goal is to take over the city.
-- **Fighting Dojo:** Cleared. Claimed Hitmonchan as the prize Pokémon.
-
-## VI. Silph Co. Strategic Plan
-- **Methodology:** Explore each floor completely. Map all warps, spinners, and locked doors. Defeat all grunts and scientists. Find the CARD KEY. Use the CARD KEY to unlock all previously inaccessible areas. Heal at a Pokémon Center as needed between floors.
+## V. Silph Co. Intel & Strategy
+- **Primary Goal:** Find the CARD KEY.
+- **Methodology:** Explore each floor completely. Map all warps and teleporters. Defeat all grunts and scientists. Use the CARD KEY to unlock all previously inaccessible areas.
+- **Unverified Assumptions:**
+    1.  *Elevator System:* Are all elevators part of one system, or are there separate shafts?
+    2.  *Teleporter Directionality:* Are all teleporters two-way? Must verify by attempting to return immediately after use.
+    3.  *CARD KEY Location:* Assuming it's on an upper floor, but could be anywhere.
+    4.  *Final Objective:* Is Giovanni the true final boss, or is the goal just to find the CARD KEY and free the President?
