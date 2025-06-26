@@ -1,6 +1,6 @@
 ## I. Core Principles & Lessons Learned
 - **CRITICAL: Agent & Workflow Discipline:**
-  - A consistently failing agent is a liability. It must be refined immediately before reuse.
+  - A consistently failing agent is a liability. It must be refined or deleted immediately before reuse.
   - I will strictly adhere to established protocols, especially using `encounter_tracker_agent` after every wild encounter. No exceptions.
 - **CRITICAL: Map Marker Discipline:** Markers must only be placed *after* an event is verified.
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -14,7 +14,7 @@
 
 ### Navigation & Traversal Rules
 - **Defeated Trainers as Obstacles:** Defeated trainers act as impassable walls.
-- **Pikachu Movement:** Pikachu is a walkable object. If Pikachu is directly adjacent in the direction of movement, the first button press will only turn to face it. A second press is needed to move onto its tile.
+- **Pikachu Movement:** Pikachu is a walkable object. If Pikachu is directly adjacent in the direction of movement, and you are not already facing it, the first button press will only turn to face it. A second press is needed to move onto its tile.
 
 ### New Battle Mechanics Discovered
 - **'No Will to Fight' Mechanic:** A Pokémon with very low HP may refuse to be switched into battle.
@@ -37,13 +37,15 @@
 ## IV. Agent Development Log
 ### A. Active Agents (Reliable)
 - **`pathfinding_agent_v2`:** Refined in turn 27596. Monitoring for reliability.
-- **`wkg_manager_agent_v2`:** Refined in turn 27588. Monitoring for reliability.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
 
-### B. Agent Development Backlog
+### B. Defunct Agents (To Be Deleted/Replaced)
+- **`wkg_manager_agent_v2`:** **STATUS: CATASTROPHIC FAILURE.** This agent is fundamentally broken, getting stuck in logical loops. It will be deleted. WKG management will proceed manually until a new, simpler agent is designed.
+
+### C. Agent Development Backlog
 - `silph_co_teleporter_mapper_agent`: Takes the current floor's XML and the WKG. Its job would be to identify all teleporters on the current floor and try to map out where they lead based on existing WKG data or suggest which ones are unexplored.
 - `damage_calculator_agent`: Takes player/opponent Pokémon data and calculates move damage ranges to confirm KOs.
 - `item_finder_agent`
