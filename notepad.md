@@ -13,18 +13,23 @@
 - **Held Items (Berries):** Some Pokémon can hold items like Berries, which they can use automatically in battle to heal themselves when their HP gets low.
 - **Smokescreen:** Lowers the opponent's accuracy.
 - **CUT_TREE:** These small trees are impassable and require the HM 'Cut' to be removed.
+- **Warp Mechanics:** Some warp tiles may require stepping off of them and then back on to activate.
+- **Self-Correction:** The path to Cherrygrove City is through Route 29. My initial assumption that it was a dead end was incorrect.
+
+## Agent Development
+- **`exploration_agent`:** This agent has required multiple refinements. 
+  - **v1:** Failed to avoid obstacles like 'HEADBUTT_TREE'.
+  - **v2:** Failed to avoid 'WALL' tiles.
+  - **v3:** Generated inefficient, looping paths.
+  - **v4:** Current version is being tested for efficiency and correctness.
 
 ## Wild Pokémon Encounters
 ### Route 29 (Tall Grass)
 - **Hoppip** (Lv. 2-3): Knows Splash
 - **Sentret** (Lv. 2-3): Knows Tackle
-- **Pidgey** (Lv. 3): Knows Tackle
+- **Pidgey** (Lv. 2-3): Knows Tackle
 
 ## Important NPCs
 - **Professor Elm** (New Bark Town): Gave me Hestia and his phone number.
 - **Mom** (New Bark Town): Gave me the POKéGEAR.
 - **MR. POKEMON** (Route 30): Elm's acquaintance.
-
-- The path to Cherrygrove City, and subsequently Route 30, must be through Route 29. My previous assumption that it was a dead end was incorrect.
-
-- **Warp Mechanics:** Some warp tiles may require stepping off of them and then back on to activate.
