@@ -1,18 +1,18 @@
 # Pokémon Crystal Journey
 
 ## Current Plan
-- **Objective:** Get back to New Bark Town to investigate the stolen Pokémon.
-- **Route:** Find a way out of Cherrygrove City to Route 29, then head east.
+- **Objective:** Defeat the Rival, then return to New Bark Town to help Professor Elm.
+- **Route:** Exit Cherrygrove City to the east to get to Route 29, then head east.
 
 ## Current Quest
-- **A Pokémon has been stolen from Professor Elm's lab!** I need to return to New Bark Town immediately to find out more and help.
+- **A Pokémon has been stolen from Professor Elm's lab!** The thief, a red-haired boy, has ambushed me. I must defeat him and get back to New Bark Town.
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
 
 ## The Rival
-- A red-haired boy bumped into me as I was leaving Professor Elm's lab for the first time.
-- I suspect he is the one who stole the Pokémon. He seems to be blocking my path west in Cherrygrove City.
+- A red-haired boy who stole a Pokémon from Professor Elm's lab.
+- I am currently battling him in Cherrygrove City. He has a Totodile.
 
 ## Key Items
 - **POKéGEAR:** Received from Mom. Has a Phone feature.
@@ -51,8 +51,10 @@
 - **Professor Oak's Pokémon Talk:** Abra may be seen around Route 35.
 
 ## Puzzle Solutions
-- **Cherrygrove House Lock:** Became stuck at (3, 1). Solution was to turn to face the TV at (2, 1) and interact with it ('A' button). This triggered a text box, and after closing it, movement was restored.
-- **Mr. Pokémon's House Exit:** Became stuck on the exit warp at (2, 7). Solution was to press 'Start' to open the menu, then 'B' to close it, which resolved the glitched state and allowed the warp to function.
+- **Cherrygrove House Lock:** Became stuck at (3, 1). Solution was to turn to face the TV at (2, 1) and interact with it ('A' button).
+- **Mr. Pokémon's House Exit:** Became stuck on the exit warp at (2, 7). Solution was to press 'Start' to open the menu, then 'B' to close it.
+- **Cherrygrove City Stuck State:** Became stuck at (14, 11) after rival event. Solution was to open and close the main menu with 'Start' then 'B'.
 
 ## Self-Corrections & Failed Hypotheses
 - The path to Cherrygrove City is through Route 29. My initial assumption that it was a dead end was incorrect.
+- The west exit of Cherrygrove City is not accessible from the southern path. The main exit to Route 29 is on the east side of the city at (39, 7).
