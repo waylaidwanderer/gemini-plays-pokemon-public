@@ -33,3 +33,6 @@
 ### Battle Mechanics
 - **Held Items (Berries):** Pokémon can use held Berries to heal themselves in battle.
 - **Catching:** Weakening a Pokémon makes it easier to catch.
+
+## Agent Ideas
+- **battle_strategist_agent:** An agent that can analyze the current battle state (my Pokémon, opponent Pokémon, known moves, type matchups) and suggest the optimal move or action. This would be especially helpful for difficult battles like Gym Leaders.
