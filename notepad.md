@@ -52,3 +52,5 @@
 
 ## Self-Corrections & Failed Hypotheses
 - The path to Cherrygrove City is through Route 29. My initial assumption that it was a dead end was incorrect.
+
+- **SELECT Button:** Can be used to register a key item for quick use.
