@@ -46,3 +46,7 @@
 
 ## Self-Corrections & Failed Hypotheses
 - The path to Cherrygrove City is through Route 29. My initial assumption that it was a dead end was incorrect.
+
+## Agent & Exploration Plan
+- Design a new `situational_awareness_agent` that combines exit analysis with general exploration data to replace the `route_analyzer_agent`.
+- Explore the unvisited houses in Cherrygrove City: the one at (17, 7) and the Guide Gent's house at (25, 9).
