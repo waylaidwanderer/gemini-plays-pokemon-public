@@ -1,8 +1,8 @@
-# Gem's Strategic Journal (v143 - Post-Critique Overhaul)
+# Gem's Strategic Journal (v144 - Post-Critique Overhaul)
 
 ## I. Core Principles & Lessons Learned
 - **CRITICAL: Agent & Workflow Discipline:** My workflow has been sloppy. The critique was a necessary wake-up call.
-  - **Faulty Agent Protocol:** A consistently failing agent (like `wkg_manager_agent`) is a liability and must be immediately decommissioned and replaced. I will no longer use it.
+  - **Faulty Agent Protocol:** A consistently failing agent (like `wkg_manager_agent`) is a liability. I will no longer use `wkg_manager_agent_v2` until it is refined. I will prioritize refining it at the next opportunity.
   - **Logging Protocol:** I will strictly adhere to my established protocols, especially using `encounter_tracker_agent` after every wild battle. No exceptions.
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
 - **Verify Assumptions:** Do not record intel as "completed" or "confirmed" until it has been empirically verified. Non-battling trainers exist.
@@ -36,8 +36,7 @@
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter to build my training data log. This is now a mandatory step.
-- **`wkg_manager_agent_v2`:** Defined. Needs testing. I must commit to using this instead of manual WKG management.
-  - **Critique Feedback:** The agent's input schema lacks a field for `tags`. I MUST refine the agent to include this capability for better WKG organization.
+- **`wkg_manager_agent_v2`:** **NEEDS REFINEMENT.** This agent has failed repeatedly and is a critical failure point. I will not use it again until I have refined its logic to prevent errors.
 
 ### B. Agent Development Backlog
 - **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
