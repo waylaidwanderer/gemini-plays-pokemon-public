@@ -36,14 +36,14 @@
 
 ## IV. Agent Development Log
 ### A. Active Agents (Reliable)
-- **`pathfinding_agent_v2`:** Generally reliable, but requires monitoring.
+- **`pathfinding_agent_v2` (Refined T27750):** Requires monitoring after last failure.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
 
-### B. Defunct Agents (To Be Deleted/Replaced)
-- **`wkg_manager_agent_v2`:** **STATUS: CATASTROPHIC FAILURE.** This agent is fundamentally broken, getting stuck in logical loops. **It will be deleted.** WKG management will proceed manually until a new, simpler agent is designed.
+### B. Defunct Agents
+- **`wkg_manager_agent_v2`:** Deleted T27750 due to catastrophic failure.
 
 ### C. Agent Development Backlog
 - `wkg_manager_agent_v3`: A simplified agent to generate JSON payloads for `manage_world_knowledge` based on source/destination data. This would reduce manual errors.
