@@ -1,9 +1,9 @@
 # Pokémon Crystal Journey
 
 ## Current Situation
-- **Objective:** Begin the Pokémon Gym Challenge. The first gym is in Violet City.
-- **Next Step:** Travel to Violet City.
-- **Status:** On Route 30, exploring the path to Violet City.
+- **Objective:** Begin the Pokémon Gym Challenge.
+- **Location:** Route 30, battling trainer Youngster Mikey.
+- **Next Step:** Defeat Youngster Mikey, then continue exploring Route 30 to find the path to Violet City.
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
@@ -13,7 +13,7 @@
 
 ## Mechanics & Discoveries
 ### System Mechanics
-- **Stuck on Warp/Event Tile:** If movement is locked after a warp or event, opening the main menu ('Start') and then closing it ('EXIT' or 'B') can resolve the issue.
+- **Stuck on Warp/Event Tile:** If movement is locked, opening and closing the main menu ('Start' -> 'B') can resolve the issue.
 
 ### Environmental Mechanics
 - **Route 29 Ledges:** The western section of Route 29 has one-way ledges preventing eastward travel from that area.
@@ -26,11 +26,12 @@
 - **Catching:** Weakening a Pokémon makes it easier to catch.
 
 ## Agent Ideas
-- **battle_strategist_agent:** An agent that can analyze the current battle state (my Pokémon, opponent Pokémon, known moves, type matchups) and suggest the optimal move or action. This would be especially helpful for difficult battles like Gym Leaders.
+- **battle_strategist_agent:** An agent to suggest the optimal move or action in difficult battles.
+- **route_summary_agent:** An agent to parse map data and markers to give a high-level summary of a route's completion status.
 
 ## Pokémon Encounters
 ### Route 30
 - **Ledyba (Lv. 3):** Bug/Flying type. Observed move: TACKLE.
-- **Caterpie (Lv. 3):** Bug type. Observed move: TACKLE.
+- **Caterpie (Lv. 3-4):** Bug type. Observed moves: TACKLE, STRING SHOT.
 - **Weedle (Lv. 3):** Bug/Poison type. Observed move: STRING SHOT.
 - **Pidgey (Lv. 4):** Normal/Flying type. Ran from it, no moves observed.
