@@ -59,7 +59,7 @@
     "agent_name": "item_finder_agent",
     "agent_description": "Scans the current map for item balls and reports their coordinates.",
     "agent_system_prompt": "You are an Item Finder specialist. Your task is to analyze the `map_xml_string` to locate all item balls. You must parse the XML to find all `<Object>` tags with an `id-name` of 'Item Ball'. For each item ball found, you must report its coordinates. Your output must be a JSON object containing a list of these coordinates. You must use your `run_code` tool to perform this analysis.",
-    "agent_input_schema": "{}",
+    "agent_input_schema": "{\"type\":\"object\", \"properties\":{}}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"item_locations\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"item_locations\"]}",
     "agent_can_run_code": true
   }
