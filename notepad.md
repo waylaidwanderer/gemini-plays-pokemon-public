@@ -1,14 +1,18 @@
 # Pokémon Crystal Journey
 
 ## Current Plan
-- **Objective:** Return to Professor Elm in New Bark Town with the MYSTERY EGG.
-- **Route:** Head south from Route 30, through Cherrygrove City, and west through Route 29 to reach New Bark Town.
+- **Objective:** Get back to New Bark Town to investigate the stolen Pokémon.
+- **Route:** Find a way out of Cherrygrove City to Route 29, then head east.
 
 ## Current Quest
-- Bring the MYSTERY EGG to Professor Elm.
+- **A Pokémon has been stolen from Professor Elm's lab!** I need to return to New Bark Town immediately to find out more and help.
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
+
+## The Rival
+- A red-haired boy bumped into me as I was leaving Professor Elm's lab for the first time.
+- I suspect he is the one who stole the Pokémon. He seems to be blocking my path west in Cherrygrove City.
 
 ## Key Items
 - **POKéGEAR:** Received from Mom. Has a Phone feature.
@@ -18,6 +22,7 @@
 ## Mechanics & Discoveries
 ### System Mechanics
 - **Warp Mechanics:** Some warp tiles may require stepping off of them and then back on to activate.
+- **SELECT Button:** Can be used to register a key item for quick use.
 ### Environmental Mechanics
 - **Route 29 Ledges:** The western section of Route 29 has one-way ledges preventing eastward travel from that area.
 - **Route 46:** This route is a dead-end when approached from the south due to one-way ledges.
@@ -37,7 +42,7 @@
 - **Hoothoot** (Lv. 3): Knows Tackle
 
 ## Important NPCs
-- **Professor Elm** (New Bark Town): Gave me Hestia and his phone number. Wants to see the MYSTERY EGG.
+- **Professor Elm** (New Bark Town): Gave me Hestia and his phone number. A Pokémon was stolen from his lab.
 - **Mom** (New Bark Town): Gave me the POKéGEAR.
 - **MR. POKEMON** (Route 30): Gave me the MYSTERY EGG.
 - **Professor Oak** (met at Mr. Pokémon's House): Gave me the POKéDEX.
@@ -51,5 +56,3 @@
 
 ## Self-Corrections & Failed Hypotheses
 - The path to Cherrygrove City is through Route 29. My initial assumption that it was a dead end was incorrect.
-
-- **SELECT Button:** Can be used to register a key item for quick use.
