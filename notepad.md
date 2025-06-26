@@ -63,8 +63,6 @@
 - **Objective:** Systematically clear all 11 floors of Team Rocket, find the CARD KEY, and defeat the boss.
 - **Methodology:** Explore each floor completely, starting from 1F. Map all warps, spinners, and locked doors. Defeat all grunts and scientists. Find the CARD KEY, which is likely on a mid-to-upper floor. Use the CARD KEY to unlock all previously inaccessible areas. Heal at a Pokémon Center as needed between floors.
 
-- **WKG To-Do:** Create edge between Silph Co 1F (27,1) and 2F (25,2). Agent was failing due to server errors.
-
 ## VIII. Protocol Reinforcements (Post-Critique #27001)
 - **Agent Failure Protocol:** If an agent fails, I MUST use the base tool manually (e.g., `manage_world_knowledge`). Deferring documentation is a critical error.
 - **Immediate Marking Protocol:** ALL new transitions must be marked with `define_map_marker` on both maps, immediately.
