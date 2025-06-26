@@ -2,8 +2,8 @@
 
 ## Current Situation
 - **Objective:** Find the correct path to Violet City.
-- **Location:** Route 30, exploring the eastern fork after discovering the western path was a dead end.
-- **Next Step:** Figure out how to pick up items on the ground.
+- **Location:** Route 30, at (10, 30).
+- **Next Step:** Test hypothesis for picking up items on the ground.
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
@@ -20,11 +20,13 @@
 - **Catching:** Weakening a Pokémon makes it easier to catch.
 
 ### Tile & Environmental Mechanics
+- **FLOOR:** A standard, traversable tile.
+- **TALL_GRASS:** Traversable tile where wild Pokémon encounters can occur.
 - **Route 29 Ledges:** The western section of Route 29 has one-way ledges preventing eastward travel from that area.
 - **Route 46:** This route is a dead-end when approached from the south due to one-way ledges.
 - **CUT_TREE:** These small trees are impassable and require the HM 'Cut' to be removed.
 - **Fruit Trees:** These are impassable objects.
-- **Item Pickups:** Cannot be picked up by standing on them. Hypothesis: must interact from an adjacent tile.
+- **Item Pickups:** Cannot be picked up by standing on them. Hypothesis: must interact from an adjacent tile while facing the item.
 
 ## Agent Ideas
 - **battle_strategist_agent:** An agent to suggest the optimal move or action in difficult battles.
