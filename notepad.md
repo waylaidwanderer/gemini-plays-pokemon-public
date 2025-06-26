@@ -39,3 +39,5 @@
 - **Professor Elm** (New Bark Town): Gave me Hestia and his phone number.
 - **Mom** (New Bark Town): Gave me the POKéGEAR.
 - **MR. POKEMON** (Route 30): Elm's acquaintance.
+
+- **Pokémon Evolution:** Pokémon can gain experience in battle and change their form (evolve).
