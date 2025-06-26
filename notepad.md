@@ -1,13 +1,5 @@
 # Pokémon Crystal Journey
 
-## Current Situation
-- **Objective:** Find the correct path to Violet City.
-- **Location:** Route 30, at (14, 24).
-- **Next Step:** Continue exploring north on the eastern path of Route 30.
-
-## Long-term Goal
-- Become the Pokémon League Champion.
-
 ## The Rival
 - A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
 
@@ -29,6 +21,7 @@
 - **Route 29 Ledges:** The western section of Route 29 has one-way ledges preventing eastward travel from that area.
 - **Route 46 Ledges:** This route is a dead-end when approached from the south due to one-way ledges.
 - **Decorative Floor Items:** Certain floor patterns, like the red flowers on Route 30, are purely decorative and cannot be interacted with or picked up. Confirmed at (10, 31) after multiple failed attempts.
+- **Route 30 Hidden Potion:** Unable to retrieve the hidden Potion at (14, 9). Tried interacting from multiple adjacent tiles without success. There might be a special requirement I don't meet yet.
 
 ## Agent Ideas & Refinements
 - **battle_strategist_agent:** An agent to suggest the optimal move or action in difficult battles.
@@ -38,7 +31,5 @@
 ### Route 30
 - **Ledyba (Lv. 3):** Bug/Flying type. Observed move: TACKLE.
 - **Caterpie (Lv. 3-4):** Bug type. Observed moves: TACKLE, STRING SHOT.
-- **Weedle (Lv. 3):** Bug/Poison type. Observed move: STRING SHOT.
+- **Weedle (Lv. 3):** Bug/Poison type. Observed moves: STRING SHOT, POISON STING.
 - **Pidgey (Lv. 4):** Normal/Flying type. Ran from it, no moves observed.
-
-- **Route 30 Hidden Item:** Failed to retrieve the hidden Potion at (14, 9). Tried interacting from multiple adjacent tiles without success. There might be a special requirement I don't meet yet.
