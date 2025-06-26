@@ -66,7 +66,7 @@
 - **Floor 6F:** [x] Defeated Rocket Grunt at (18,4) [x] Defeated Scientist at (8,9) [ ] Explore all rooms [ ] Map all warps
 - **Floor 7F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
 - **Floor 8F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
-- **Floor 9F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 9F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
 - **Floor 10F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
 - **Floor 11F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
 
