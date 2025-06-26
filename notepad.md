@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v148 - Post-Critique #27402)
+# Gem's Strategic Journal (v149 - Post-Critique #27414)
 
 ## I. Core Principles & Lessons Learned
 - **CRITICAL: Agent & Workflow Discipline:** My workflow has been sloppy. The critique was a necessary wake-up-call.
@@ -30,19 +30,19 @@
 - **Primary Plan:** Disrupt Team Rocket's operations in Saffron City.
 - **Current Objective:** Systematically clear all 11 floors of Silph Co., find the CARD KEY, and defeat the boss.
 
-## IV. World Knowledge Graph Manual Entry Checklist (v3)
+## IV. World Knowledge Graph Manual Entry Checklist (v4)
 *To be used when `wkg_manager_agent_v2` is non-functional.*
 1.  **Check Source Node:** `run_code` to check if source node exists.
 2.  **Check Destination Node:** `run_code` to check if destination node exists.
-3.  **Add Source Node:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_node`.
-4.  **Add Destination Node:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_node`.
+3.  **Add Source Node:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_node` (with tags!).
+4.  **Add Destination Node:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_node` (with tags!).
 5.  **Get New IDs:** If any new nodes were created, `run_code` to get their IDs.
 6.  **Check Edge:** `run_code` to check if an edge already exists between the two nodes.
 7.  **Add Edge:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_edge`.
 
 ## V. Agent Development Log
 ### A. Active Agents & Refinements
-- **`pathfinding_agent_v2` (v1):** New agent with improved Silph Co. logic. Needs testing.
+- **`pathfinding_agent_v2` (v1):** New agent with improved Silph Co. logic. Still unreliable, needs further refinement.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
