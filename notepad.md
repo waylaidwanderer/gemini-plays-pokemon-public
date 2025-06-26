@@ -1,4 +1,4 @@
-# Gem's Strategic Journal (v149 - Post-Critique #27414)
+# Gem's Strategic Journal (v150 - Post-Critique #27422)
 
 ## I. Core Principles & Lessons Learned
 - **CRITICAL: Agent & Workflow Discipline:** My workflow has been sloppy. The critique was a necessary wake-up-call.
@@ -30,35 +30,32 @@
 - **Primary Plan:** Disrupt Team Rocket's operations in Saffron City.
 - **Current Objective:** Systematically clear all 11 floors of Silph Co., find the CARD KEY, and defeat the boss.
 
-## IV. World Knowledge Graph Manual Entry Checklist (v4)
+## IV. World Knowledge Graph Manual Entry Checklist (v5 - Revised)
 *To be used when `wkg_manager_agent_v2` is non-functional.*
 1.  **Check Source Node:** `run_code` to check if source node exists.
 2.  **Check Destination Node:** `run_code` to check if destination node exists.
 3.  **Add Source Node:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_node` (with tags!).
-4.  **Add Destination Node:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_node` (with tags!).
+4.  **Add Destination Node:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_node` (new tags!).
 5.  **Get New IDs:** If any new nodes were created, `run_code` to get their IDs.
-6.  **Check Edge:** `run_code` to check if an edge already exists between the two nodes.
-7.  **Add Edge:** If it doesn't exist, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_edge`.
+6.  **CRITICAL - Check Edge:** `run_code` to check if an edge *already exists* between the two nodes. **DO NOT SKIP THIS STEP.**
+7.  **Add Edge:** **ONLY IF STEP 6 CONFIRMS NO EDGE EXISTS**, use `wkg_payload_generator_agent` then `manage_world_knowledge` `add_edge`.
 
 ## V. Agent Development Log
-### A. Active Agents & Refinements
-- **`pathfinding_agent_v2` (v1):** New agent with improved Silph Co. logic. Still unreliable, needs further refinement.
+### A. **TOP PRIORITY** - Agent Refinement
+*No new agents will be developed until these core agents are stable and reliable.*
+1.  **`pathfinding_agent_v2`:** Unreliable in Silph Co. Needs immediate logic overhaul to correctly handle complex layouts, impassable objects, and NPC line-of-sight.
+2.  **`wkg_manager_agent_v2`:** Unreliable. Fails to check for existing nodes/edges, causing errors. Needs a full logic overhaul to be usable.
+
+### B. Active Agents (Reliable)
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v3):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
 - **`wkg_payload_generator_agent` (v1):** New agent to generate correct JSON payloads for manual `manage_world_knowledge` calls.
 
-### B. Agent Development Backlog
-- **`silph_co_navigator_agent`:** Specialized agent to navigate Silph Co., aware of all teleporter connections, locked doors, and the CARD KEY location once found.
-- **`item_finder_agent`:** Plan efficient routes to collect all items on a map.
-- **`fishing_advisor_agent`:** Analyze map & rod to suggest best fishing spots/catches.
-- **`hm_planner_agent`:** Suggest best Pokémon for HMs based on current moves and future utility.
-- **`sales_data_agent`:** Track item prices across different Poké Marts to find the best deals.
-- **`move_tutor_advisor_agent`:** Suggest optimal moves to learn from TMs/HMs.
-- **`story_progress_tracker_agent`:** Track key NPC dialogue and plot points.
-- **`pokemon_nickname_generator_agent`:** Suggests creative nicknames based on species, type, and lore.
-- **`wkg_manager_agent_v2`:** (Low Priority) Needs a full logic overhaul to be usable.
+### C. Agent Development Backlog (Low Priority - Paused)
+- `silph_co_navigator_agent`
+- `item_finder_agent`
 
 ## VI. Saffron City Intel
 - **Team Rocket Takeover:** Confirmed by a Rocket Grunt. Their goal is to take over the city.
