@@ -17,3 +17,5 @@
 - **Professor Elm** (New Bark Town): Gave me Hestia and his phone number.
 - **Mom** (New Bark Town): Gave me the POKéGEAR.
 - **MR. POKEMON** (Route 30): Elm's acquaintance, I need to visit him.
+
+- **Route 29 Ledges:** The western section of Route 29 has one-way ledges that prevent traveling east from that area.
