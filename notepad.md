@@ -22,3 +22,7 @@
 - **Professor Elm** (New Bark Town): Gave me Hestia and his phone number.
 - **Mom** (New Bark Town): Gave me the POKéGEAR.
 - **MR. POKEMON** (Route 30): Elm's acquaintance.
+
+## My Party
+- **HESTIA (CYNDAQUIL)** Lv. 7
+  - Moves: TACKLE, LEER, SMOKESCREEN
