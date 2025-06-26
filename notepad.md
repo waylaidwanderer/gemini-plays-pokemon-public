@@ -33,11 +33,11 @@
 4.  **CRITICAL - Check Edge:** `run_code` to check if an edge *already exists* between the two nodes. **DO NOT SKIP THIS STEP.**
 5.  **Add Edge:** **ONLY IF STEP 4 CONFIRMS NO EDGE EXISTS**, use `manage_world_knowledge` `add_edge` with a manually constructed JSON payload. **For warp connections, remember to include the `destination_entry_point`!**
 
-## IV. Agent Development Log (v2)
+## IV. Agent Development Log (v3)
 ### A. Active Agents (Reliable)
-- **`pathfinding_agent_v2` (Refined T28169):** Improved pathfinding logic. Still needs monitoring for failures.
+- **`pathfinding_agent_v2`:** Refined logic but failed on a recent path. Needs further monitoring and potential refinement.
 - **`pc_navigator_agent` (v2):** Reliable.
-- **`battle_strategist_agent` (v5 - Refined T28202):** Now incorporates damage calculation for more precise recommendations.
+- **`battle_strategist_agent` (v6 - Refined T28213):** Now incorporates damage calculation for more precise recommendations.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
 - **`silph_co_teleporter_mapper_agent` (v1):** New agent to map teleporters. Ready for use.
@@ -56,13 +56,13 @@
 - **Unverified Assumptions (To be tested):**
     1.  *CARD KEY Location:* Assuming it's on an upper floor, but could be anywhere. I need to be vigilant for item balls.
 
-## VI. Silph Co. Exploration Plan (Updated T28211)
+## VI. Silph Co. Exploration Plan (Updated T28217)
 *A systematic checklist for clearing Silph Co.*
 - **Floor 1F:** [x] Explored all rooms [x] Defeated all trainers [x] Mapped all warps
 - **Floor 2F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
 - **Floor 3F:** [x] Explored all rooms [x] Defeated all trainers [x] Mapped all warps
-- **Floor 4F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
-- **Floor 5F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 4F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
+- **Floor 5F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
 - **Floor 6F:** [x] Defeated Rocket Grunt at (18,4) [x] Defeated Scientist at (8,9) [ ] Explore all rooms [ ] Map all warps
 - **Floor 7F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
 - **Floor 8F:** [ ] Explore all rooms [ ] Defeated all trainers [ ] Map all warps
