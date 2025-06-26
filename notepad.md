@@ -12,7 +12,7 @@
 
 ## The Rival
 - A red-haired boy who stole a Pokémon from Professor Elm's lab.
-- I am currently battling him in Cherrygrove City. He has a Totodile.
+- I was defeated by the rival, ???, in Cherrygrove City. He has a Totodile.
 
 ## Key Items
 - **POKéGEAR:** Received from Mom. Has a Phone feature.
