@@ -57,7 +57,21 @@
     2.  *CARD KEY Location:* Assuming it's on an upper floor, but could be anywhere.
 - **Trade Evolutions:** Confirmed that Pokémon evolve without link-cable trading.
 
-## VI. Type Effectiveness Chart (Observed)
+## VI. Silph Co. Exploration Plan
+*A systematic checklist for clearing Silph Co.*
+- **Floor 1F:** Cleared.
+- **Floor 2F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 3F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 4F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 5F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 6F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 7F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 8F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 9F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 10F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+- **Floor 11F:** [ ] Explore all rooms [ ] Defeat all trainers [ ] Map all warps
+
+## VII. Type Effectiveness Chart (Observed)
 *A log of confirmed type interactions in this ROM hack.*
 - Psychic (player) vs. Psychic (opponent) -> Not Very Effective
 - Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
