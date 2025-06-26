@@ -23,3 +23,5 @@
 - **Professor Elm** (New Bark Town): Gave me Hestia and his phone number.
 - **Mom** (New Bark Town): Gave me the POKéGEAR.
 - **MR. POKEMON** (Route 30): Elm's acquaintance.
+
+- **CUT_TREE:** These small trees are impassable and require the HM 'Cut' to be removed.
