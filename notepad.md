@@ -20,10 +20,12 @@
 - **Catching:** Weakening a Pokémon makes it easier to catch.
 
 ### Tile & Environmental Mechanics
+- **WALL:** An impassable obstacle.
 - **FLOOR:** A standard, traversable tile.
 - **TALL_GRASS:** Traversable tile where wild Pokémon encounters can occur.
 - **CUT_TREE:** These small trees are impassable and require the HM 'Cut' to be removed.
 - **Fruit Trees:** These are impassable objects.
+- **HOP_DOWN:** A one-way ledge that can only be jumped down from above.
 - **Route 29 Ledges:** The western section of Route 29 has one-way ledges preventing eastward travel from that area.
 - **Route 46 Ledges:** This route is a dead-end when approached from the south due to one-way ledges.
 - **Decorative Floor Items:** Certain floor patterns, like the red flowers on Route 30, are purely decorative and cannot be interacted with or picked up. Confirmed at (10, 31) after multiple failed attempts.
@@ -31,7 +33,6 @@
 ## Agent Ideas & Refinements
 - **battle_strategist_agent:** An agent to suggest the optimal move or action in difficult battles.
 - **route_summary_agent:** An agent to parse map data and markers to give a high-level summary of a route's completion status.
-- **Pathfinder Consolidation:** Consolidate `pathfinder_agent` and `master_explorer` into a single, more versatile agent with different modes.
 
 ## Pokémon Encounters
 ### Route 30
