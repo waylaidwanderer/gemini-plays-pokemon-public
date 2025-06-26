@@ -1,9 +1,9 @@
 # Pokémon Crystal Journey
 
 ## Current Situation
-- **Objective:** Begin the Pokémon Gym Challenge.
-- **Location:** Route 30, battling trainer Youngster Mikey.
-- **Next Step:** Defeat Youngster Mikey, then continue exploring Route 30 to find the path to Violet City.
+- **Objective:** Find the correct path to Violet City.
+- **Location:** Route 30, exploring the eastern fork after discovering the western path was a dead end.
+- **Next Step:** Collect visible items and continue exploring north.
 
 ## Long-term Goal
 - Become the Pokémon League Champion.
@@ -20,6 +20,7 @@
 - **Route 46:** This route is a dead-end when approached from the south due to one-way ledges.
 - **CUT_TREE:** These small trees are impassable and require the HM 'Cut' to be removed.
 - **Fruit Trees:** These are impassable objects.
+- **Item Pickups:** Some visible items on the ground cannot be picked up by standing on them (e.g., at Route 30 (10, 31)). The interaction method is unknown.
 
 ### Battle Mechanics
 - **Held Items (Berries):** Pokémon can use held Berries to heal themselves in battle.
