@@ -22,7 +22,8 @@
   - **v2:** Failed to avoid 'WALL' tiles.
   - **v3:** Generated inefficient, looping paths.
   - **v4:** Failed by pathing into a HEADBUTT_TREE.
-  - **v5:** Refining prompt to be more explicit about all obstacle types.
+  - **v5:** Failed again by pathing into a HEADBUTT_TREE due to a contradictory prompt.
+  - **v6:** Clarified that 'unseen' tiles are obstacles and cannot be part of the path.
 
 ## Wild Pokémon Encounters
 ### Route 29 (Tall Grass)
