@@ -46,6 +46,7 @@
 - **`wkg_manager_agent_v2`:** **STATUS: CATASTROPHIC FAILURE.** This agent is fundamentally broken, getting stuck in logical loops. **It will be deleted.** WKG management will proceed manually until a new, simpler agent is designed.
 
 ### C. Agent Development Backlog
+- `wkg_manager_agent_v3`: A simplified agent to generate JSON payloads for `manage_world_knowledge` based on source/destination data. This would reduce manual errors.
 - `silph_co_teleporter_mapper_agent`: Takes the current floor's XML and the WKG. Its job would be to identify all teleporters on the current floor and try to map out where they lead based on existing WKG data or suggest which ones are unexplored.
 - `damage_calculator_agent`: Takes player/opponent Pokémon data and calculates move damage ranges to confirm KOs.
 - `item_finder_agent`
