@@ -71,3 +71,4 @@
 - DOOR: A warp point to another building.
 - WATER: Impassable without Surf.
 - HEADBUTT_TREE: A tree that can likely be interacted with using the Headbutt move.
+- LEDGE: A one-way obstacle. Can be jumped down, but not climbed up.
