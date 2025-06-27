@@ -10,15 +10,12 @@
 
 ## Current Plans & Hypotheses
 - **Objective:** Return to Professor Elm in New Bark Town with the Mystery Egg.
-- **Reasoning:** Professor Elm called urgently. This is the main story quest. The path east is blocked by one-way ledges, so I must travel west through Cherrygrove City.
-- **Immediate Steps:**
-    1. Navigate through Route 29 to reach Cherrygrove City.
-    2. Travel from Cherrygrove City to New Bark Town.
-    3. Enter Professor Elm's Lab and speak to him.
+- **Reasoning:** I am currently on Route 29. My navigation agent has confirmed that the path east to New Bark Town is blocked by a series of one-way ledges. Therefore, the only way forward is to travel west to Cherrygrove City and then south to New Bark Town. I am currently in an isolated southern pocket of Route 29 and must find the exit.
+- **Current Strategy:** Employ the 'left-hand rule' maze-solving algorithm to systematically explore the pocket I am in, starting from the westernmost point of the southern corridor at (24, 16).
 
 ### Untested Assumptions to Verify
 - The path north on Route 30 will open after speaking with Elm.
-- The Guide Gent is not permanently gone; he will appear in his house later.
+- The Youngster NPC at (27, 16) has a larger-than-normal collision box or a hidden trigger that blocks adjacent tiles.
 
 ## Game Mechanics & Discoveries
 
@@ -36,32 +33,24 @@
 - **TALL_GRASS:** Traversable tile where wild Pokémon encounters can occur.
 - **DOOR:** A warp tile that leads into and out of buildings.
 - **CUT_TREE:** Impassable, requires HM 'Cut'.
-- **FRUIT_TREE:** An impassable object.
-- **VOID:** An impassable boundary tile.
-- **WARP_CARPET_DOWN:** A warp tile at building entrances/exits.
 - **HEADBUTT_TREE:** An impassable tree.
 - **WATER:** An impassable body of water, likely requires HM 'Surf'.
-- **LEDGE:** A one-way barrier that can only be jumped over from the higher side.
-- **HOP_DOWN:** One-way ledge tile that can only be traversed by moving down.
-- **HOP_LEFT:** One-way ledge tile that can only be traversed by moving left.
-- **HOP_RIGHT:** One-way ledge tile that can only be traversed by moving right.
-- **HOP_DOWN_LEFT:** One-way ledge tile that can only be traversed by moving down OR left.
-- **HOP_DOWN_RIGHT:** One-way ledge tile that can only be traversed by moving down OR right.
-- **Dynamic Map Tiles:** On Route 29, some tiles initially appearing as WALLs can dynamically change to LEDGEs as I move nearby. This can interrupt pathing and requires caution. I must mark these as I find them.
-- **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with.
+- **VOID:** An impassable boundary tile.
+- **WARP_CARPET_DOWN:** A warp tile at building entrances/exits.
+- **LEDGE (Confirmed One-Way):** My experiment at (42, 14) confirms that ledges are strictly one-way. It is impossible to move from a lower elevation to a higher one by jumping up a ledge.
+- **HOP_DOWN:** One-way ledge tile that can only be traversed by moving down (to Y+1).
+- **HOP_LEFT:** One-way ledge tile that can only be traversed by moving left (to X-1).
+- **HOP_RIGHT:** One-way ledge tile that can only be traversed by moving right (to X+1).
+- **HOP_DOWN_LEFT:** One-way ledge tile that can only be traversed by moving down (to Y+1) OR left (to X-1).
+- **HOP_DOWN_RIGHT:** One-way ledge tile that can only be traversed by moving down (to Y+1) OR right (to X+1).
+- **Dynamic Map Tiles:** On Route 29, some tiles initially appearing as WALLs can dynamically change to LEDGEs as I move nearby. This is a critical mechanic to track with map markers.
 
 ## Agent & Tool Development
 
 ### Current Tools & Agents
-- **`navigation_agent` (ACTIVE):** A sophisticated pathfinding agent that correctly understands complex tile mechanics like ledges. It has proven reliable, and its outputs should be trusted.
+- **`navigation_agent` (ACTIVE - Requires Careful Use):** A sophisticated pathfinding agent. It correctly understands one-way ledge mechanics. Its failures have been due to my own errors (incomplete impassable lists, distrusting correct output). I must trust its analysis.
 - **`pathfinder_tool` (DEPRECATED):** This tool does not correctly interpret ledge traversal and should not be used.
-- **`map_analyzer_agent`:** Analyzes a pre-processed list of unseen tile coordinates to identify clusters for exploration.
 
 ### Future Development Ideas
-- **`battle_strategist_agent`:** Suggests the optimal move in difficult battles.
-- **`party_manager_agent`:** Suggests party composition and healing needs.
-- **`auto_repel_tool`:** A tool to automatically use a Repel from the bag.
-
-## Archived Notes & Lessons Learned
-- **`puzzle_solver_agent` Hallucinations:** An early agent repeatedly provided incorrect advice based on the wrong map and player abilities. It was deleted after multiple failed refinement attempts. Lesson: Agents require very specific, context-rich prompts to be effective.
-- **Ledge Traversal (Confirmed):** My experiment at (42, 14) confirms that ledges are strictly one-way. It is impossible to move from a lower elevation to a higher one by jumping up a ledge. The `navigation_agent`'s logic is correct.
+- **`maze_solver_agent`:** Automate the 'left-hand rule' exploration strategy.
+- **`map_preprocessor_tool`:** A tool to parse the `map_xml_string` and provide a simplified grid to the `navigation_agent`.
