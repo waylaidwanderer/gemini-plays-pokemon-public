@@ -68,3 +68,4 @@
 
 ## VI. Critical Self-Corrections
 - **CRITICAL SELF-CORRECTION (T28728):** Experienced a major hallucination loop, misidentifying my location for multiple turns. I must be more rigorous in checking Game State Information against my assumptions.
+- `dungeon_navigator_agent`: An agent to plot a full exploration course for a multi-floor dungeon like Silph Co.
