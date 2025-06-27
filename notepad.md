@@ -15,7 +15,6 @@
 ### Type Effectiveness Chart
 ### Observed Movesets
 ### Pokémon Locations
-### Trainer Rosters
 ### My Party
 - G (TOTODILE): Lv7 (Scratch, Leer, Rage)
 
@@ -24,8 +23,8 @@
 - FLOOR_HOP_RIGHT_LEDGE: A one-way tile that allows jumping over a ledge to the right.
 - FLOOR_HOP_DOWN_LEDGE: A one-way tile that allows jumping over a ledge downwards.
 - FLOOR_HOP_DOWN_OR_RIGHT_LEDGE: A one-way tile that allows jumping over a ledge either down or to the right.
-- HEADBUTT_TREE: An interactable tree that acts as a wall. It is impassable.
-- CUT_TREE: A small tree that likely requires the HM Cut to pass. Currently acts as a wall.
+- HEADBUTT_TREE: An impassable wall. Confirmed by attempting to walk into it.
+- CUT_TREE: Assumed to be an impassable wall until I can test it with the HM Cut.
 
 ### Puzzle Solutions
 ### Resource Locations
@@ -45,11 +44,12 @@
 ### Current Plan
 - **Objective:** Reach Cherrygrove City.
 - **Strategy:**
-    1. The main upper path is blocked by trees that I cannot walk through.
-    2. My pathfinding tool was flawed and needs to be corrected.
-    3. New plan: After correcting my tool, I will use it to find and explore any remaining unseen areas on this route to find an alternative path west.
+    1. My `find_path` tool has been repeatedly failing due to incorrect assumptions about tile mechanics.
+    2. I have now confirmed that `HEADBUTT_TREE` tiles are impassable.
+    3. I will update my `find_path` tool to treat all tree tiles as walls.
+    4. After correcting the tool, I will use it to find a valid path to Cherrygrove City. If no path is found, I will use it to explore all remaining unseen tiles on the map.
 
 ### Misunderstandings & Corrections
-- Corrected my assumption that tree tiles are walkable. They are obstacles.
+- Corrected my assumption that tree tiles are walkable. They are impassable obstacles.
 
 ### Failed Hypotheses
