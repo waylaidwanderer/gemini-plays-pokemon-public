@@ -53,3 +53,4 @@
 
 ### Misunderstandings & Corrections
 - Corrected my assumption that tree tiles are walkable. They are impassable obstacles. My `find_path` tool has been updated to reflect this.
+- WARP_CARPET_DOWN: A warp tile that requires pressing 'Down' while standing on it to activate.
