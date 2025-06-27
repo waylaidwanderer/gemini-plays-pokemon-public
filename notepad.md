@@ -26,3 +26,5 @@
 - **FLOOR, TALL_GRASS:** Traversable.
 - **DOOR, WARP_CARPET_DOWN:** Warp tiles.
 - **LEDGE / HOP_DOWN / HOP_LEFT / HOP_RIGHT / HOP_DOWN_LEFT / HOP_DOWN_RIGHT:** One-way traversal tiles. It is impossible to move *onto* these tiles from an adjacent tile. They can only be exited in their specified direction.
+## Discoveries & Roadblocks
+- My `navigation_agent` has confirmed that the POKE_BALL at (48, 2) on Route 29 is unreachable from the lower sections of the route. This area is likely accessed from another route or requires an HM.
