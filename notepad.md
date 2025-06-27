@@ -27,7 +27,7 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## III. Agent Development Log (v11)
+## III. Agent Development Log (v12)
 ### A. Active Agents (Reliable)
 - **`pathfinding_agent_v2` (v4):** Reliable; prompt updated to always re-parse the map XML to handle dynamic tile changes.
 - **`pc_navigator_agent` (v2):** Reliable.
