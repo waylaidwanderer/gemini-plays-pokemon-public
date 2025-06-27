@@ -1,11 +1,7 @@
 # Pokémon Crystal Journey
 
-## Current Plan
-- The house on the eastern path of Route 30 was a dead end.
-- I will leave the house and re-explore Route 30 for any missed paths that lead to Violet City.
-
-## The Rival
-- A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
+## Key Information
+- **Rival:** A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
 
 ## Game Mechanics & Discoveries
 ### System Mechanics
@@ -28,12 +24,17 @@
 - **HEADBUTT_TREE:** An impassable tree.
 - **WATER:** An impassable body of water, likely requires HM 'Surf'.
 
-## Agent Ideas & Refinements
-- **pathfinder_agent:** Refined to correctly treat all `<Object>` tags as impassable walls.
-- **battle_strategist_agent:** An agent to suggest the optimal move or action in difficult battles.
-- **route_summary_agent:** An agent to parse map data and markers to give a high-level summary of a route's completion status.
-- **party_manager_agent:** An agent to suggest when to heal or what Pokémon to lead with based on the current route's encounters.
-- **world_knowledge_navigator:** An agent that can plan multi-map routes using the world knowledge graph.
+## Agent Development
+### Existing Agents
+- **pathfinder_agent:** Refined to correctly treat all `<Object>` tags as impassable walls and to re-run its logic on every call.
+- **puzzle_solver_agent:** An agent for generating hypotheses when stuck.
+
+### Agent Ideas
+- **battle_strategist_agent:** Suggests the optimal move or action in difficult battles.
+- **route_summary_agent:** Parses map data and markers to give a high-level summary of a route's completion status.
+- **party_manager_agent:** Suggests when to heal or what Pokémon to lead with based on the current route's encounters.
+- **world_knowledge_navigator:** Plans multi-map routes using the world knowledge graph.
+- **map_analyzer_agent:** Analyzes the map XML to identify and prioritize clusters of unseen tiles for exploration.
 
 ## Pokémon Encounters
 ### Route 30
