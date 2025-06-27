@@ -63,3 +63,5 @@
 - **CRITICAL SELF-CORRECTION (T28728):** Experienced a major hallucination loop, misidentifying my location for multiple turns. I must be more rigorous in checking Game State Information against my assumptions.
 
 - `marker_cleanup_agent`: An agent to identify and suggest deletions for redundant or obsolete map markers.
+
+- `marker_cleanup_agent`: An agent to identify and suggest deletions for redundant or obsolete map markers.
