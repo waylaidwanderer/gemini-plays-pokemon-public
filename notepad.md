@@ -3,7 +3,7 @@
 ## Game Mechanics & Systems
 ### My Items
 - BERRY x3
-- ANTIDOTE x1
+- ANTIDOTE x2
 ### PC Storage
 - Pokémon:
 - Items:
@@ -11,12 +11,9 @@
 - Received POKéGEAR from Mom in New Bark Town.
 - Received a BERRY from a man on Route 30. He said they can be found on trees.
 
-## Battle and Pokemon Information
-### My Party
-- G (TOTODILE): Lv8 (Scratch, Leer, Rage)
-
 ## Area and Navigation Insights
 ### Tile Traversal and Movement Rules
+- **Objects are impassable:** All map objects (items, trees, signs, etc.) act as walls.
 - WALL: An impassable barrier.
 - FLOOR: A standard traversable tile.
 - TALL_GRASS: A traversable tile that can trigger wild Pokémon encounters.
@@ -51,7 +48,7 @@
 - **Strategy:**
     1. Explore Route 30.
     2. Look for any other houses or paths.
-    3. I will use my `find_path` tool to navigate.
+    3. Use my `find_path` tool to navigate.
 
 ### Misunderstandings & Corrections
 - Corrected my assumption that tree tiles are walkable. They are impassable obstacles. My `find_path` tool has been updated to reflect this.
