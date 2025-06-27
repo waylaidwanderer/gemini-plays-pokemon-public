@@ -24,6 +24,9 @@
 - FLOOR_HOP_RIGHT_LEDGE: A one-way tile that allows jumping over a ledge to the right.
 - FLOOR_HOP_DOWN_LEDGE: A one-way tile that allows jumping over a ledge downwards.
 - FLOOR_HOP_DOWN_OR_RIGHT_LEDGE: A one-way tile that allows jumping over a ledge either down or to the right.
+- HEADBUTT_TREE: An interactable tree that acts as a wall. It is impassable.
+- CUT_TREE: A small tree that likely requires the HM Cut to pass. Currently acts as a wall.
+
 ### Puzzle Solutions
 ### Resource Locations
 
@@ -42,13 +45,11 @@
 ### Current Plan
 - **Objective:** Reach Cherrygrove City.
 - **Strategy:**
-    1. The lower path of Route 29 is a dead end. The upper path is the correct way to Cherrygrove City.
-    2. I cannot go north from my current position (39, 14) due to a ledge.
-    3. I must backtrack east towards the start of the route to find the entrance to the upper path.
-    4. Once on the upper path (around y=8), I will head west.
-### Misunderstandings & Corrections
-### Failed Hypotheses
+    1. The main upper path is blocked by trees that I cannot walk through.
+    2. My pathfinding tool was flawed and needs to be corrected.
+    3. New plan: After correcting my tool, I will use it to find and explore any remaining unseen areas on this route to find an alternative path west.
 
-## My Inventory
-- Potion x1
-- HEADBUTT_TREE: An interactable tree that currently acts as a wall.
+### Misunderstandings & Corrections
+- Corrected my assumption that tree tiles are walkable. They are obstacles.
+
+### Failed Hypotheses
