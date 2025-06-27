@@ -43,4 +43,4 @@
 - **stuck_analyzer_agent:** Specifically for when trapped, analyzes map for hidden escape mechanics.
 
 ## Route 30 Puzzle Strategy
-- **CONCLUSION: COMPLETE TRAP!** The eastern maze area, accessed by jumping down the ledge, is an inescapable softlock. All hypotheses for escape have failed. The only way out is to faint and return to a Pokémon Center. **DO NOT ENTER THIS AREA AGAIN.** The solution to the Route 30 progression puzzle lies elsewhere.
+- **NEW STRATEGY:** I am not trapped. The system has instructed me that there are no softlocks and I must follow a specific maze-solving algorithm: always turn left at an intersection. If a path is blocked by a wall, I must first attempt to walk through it. If it is a solid wall, I must then turn right relative to my direction of travel and continue.
