@@ -43,3 +43,5 @@
 - **Pidgey (Lv. 4):** Normal/Flying type. Ran from it, no moves observed.
 - **VOID:** Appears to be an impassable boundary tile, typically outside the playable area of a map.
 - **WARP_CARPET_DOWN:** A warp tile, usually found at the entrance/exit of buildings. Stepping on it transports the player to a different map.
+- **HEADBUTT_TREE:** Appears to be an impassable tree.
+- **WATER:** Appears to be an impassable body of water, likely requires HM 'Surf'.
