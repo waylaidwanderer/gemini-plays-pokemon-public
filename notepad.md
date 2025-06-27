@@ -13,7 +13,6 @@
 ### System Mechanics
 - **Stuck on Warp/Event Tile:** If movement is locked, opening and closing the main menu ('Start' -> 'B') can resolve the issue.
 - **World Knowledge Graph:** I must use `manage_world_knowledge` every time I transition between maps to keep my internal world map accurate. This is a top priority.
-- **Map-altering events:** Some routes, like Route 29, can have their layout change due to scripted events.
 
 ### Battle Mechanics
 - **Held Items (Berries):** Pokémon can use held Berries to heal themselves in battle.
@@ -30,30 +29,32 @@
 - **WARP_CARPET_DOWN:** A warp tile at building entrances/exits.
 - **HEADBUTT_TREE:** An impassable tree.
 - **WATER:** An impassable body of water, likely requires HM 'Surf'.
-- **LEDGE:** A one-way barrier that can only be jumped over from one side. Its appearance can change.
+- **LEDGE:** A one-way barrier that can only be jumped over from one side. Its appearance can change. The system is currently updating tiles that were incorrectly displayed as WALLs to their correct LEDGE type, which can interrupt pathing.
 - **HOP_DOWN / HOP_LEFT / HOP_RIGHT / HOP_DOWN_LEFT / HOP_DOWN_RIGHT:** One-way ledge tiles that can only be traversed in the specified direction.
 
 ### Untested Tile Mechanics
 - **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with.
 
+## Known Issues & Bugs
+- **`puzzle_solver_agent` Hallucinations:** The agent has repeatedly provided incorrect advice based on the wrong map and player abilities. It has been deleted after multiple failed refinement attempts.
+- **`pathfinder_tool` Ledge Issue:** The current pathfinder does not correctly interpret the traversal rules for LEDGE tiles, often creating invalid paths. This requires a future tool improvement.
+
 ## Agent & Tool Development
 
 ### Custom Agents
-- **puzzle_solver_agent:** Generates hypotheses when stuck.
-- **map_analyzer_agent:** Analyzes a pre-processed list of unseen tile coordinates to identify clusters for exploration. (Refined to be more efficient).
+- **map_analyzer_agent:** Analyzes a pre-processed list of unseen tile coordinates to identify clusters for exploration.
 
 ### Agent & Tool Ideas
+- **navigation_agent:** An improved pathfinding agent that correctly understands complex tile mechanics like ledges.
 - **battle_strategist_agent:** Suggests the optimal move in difficult battles.
-- **route_summary_agent:** Parses map data to summarize a route's completion status.
 - **party_manager_agent:** Suggests party composition and healing needs.
-- **world_knowledge_navigator:** Plans multi-map routes using the world knowledge graph.
 - **auto_repel_tool:** A tool to automatically use a Repel from the bag.
 
 ## Current Plans & Hypotheses
 - **Objective:** Return to Professor Elm in New Bark Town with the Mystery Egg.
-- **Reasoning:** Professor Elm called urgently. This is the main story quest. My previous hypothesis about battling the rival in Cherrygrove was incorrect.
+- **Reasoning:** Professor Elm called urgently. This is the main story quest. My previous hypothesis about battling the rival in Cherrygrove was incorrect, as the path west is blocked by a non-rival NPC.
 - **Immediate Steps:**
-    1. Navigate from Route 29 east to New Bark Town.
+    1. Navigate manually east through Route 29 to reach New Bark Town.
     2. Enter Professor Elm's Lab and speak to him.
 - **Untested Assumptions to Verify:**
     1. The path north on Route 30 will open after speaking with Elm.
