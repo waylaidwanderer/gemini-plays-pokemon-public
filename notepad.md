@@ -45,3 +45,4 @@
 - DOOR: A warp tile that typically leads into or out of a building.
 - WATER: An impassable tile without the HM Surf. (Assumption)
 - MART_SHELF: An impassable barrier, similar to a WALL.
+- WARP_CARPET_DOWN: A warp tile that leads out of a building.
