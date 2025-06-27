@@ -19,7 +19,7 @@
 - **Pikachu Movement:** Pikachu is a walkable object. If Pikachu is directly adjacent in the direction of movement, and you are not already facing it, the first button press will only turn to face it. A second press is needed to move onto its tile.
 
 ### New Battle Mechanics Discovered
-- **'No Will to Fight' Mechanic:** A Pokémon with very low HP may refuse to be switched into battle.
+- **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle. Observed on T29329 with SPOONBENDE.
 - **No Blackout on Loss (Rocket Hideout/Silph Co.):** Losing a battle inside a Team Rocket controlled area does not cause a blackout.
 
 ### General Mechanics
