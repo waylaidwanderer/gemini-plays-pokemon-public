@@ -40,7 +40,7 @@
 
 ### B. Agent Development Backlog
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
-- `silph_co_gate_solver_agent`: An agent to analyze and solve positional gate puzzles in Silph Co.
+
 - Upgrade `pathfinding_agent_v2` to handle intra-map teleporters for more complex pathing.
 
 ## IV. Silph Co. Intel & Strategy
