@@ -58,7 +58,7 @@
 - **Silph Co. 4F Rocket (10, 15):** Machoke (Lv39), Hypno (Lv39)
 - **Silph Co. 4F Scientist (15, 7):** Electabuzz (Lv41)
 - **Silph Co. 5F Rocket (9, 17):** Tauros (Lv40)
-- **Silph Co. 9F Rocket (14, 17):** Tauros (Lv40)
+- **Silph Co. 9F Scientist (22, 14):** Muk (Lv40)
 
 ## VI. Type Effectiveness Chart (Observed)
 *A log of confirmed type interactions in this ROM hack.*
