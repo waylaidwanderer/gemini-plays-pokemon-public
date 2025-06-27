@@ -59,3 +59,4 @@
 - Psychic (player) vs. Psychic (opponent) -> Not Very Effective
 - Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
 - **Silph Co. 5F Scientist (9, 4):** Magneton (Lv36), Porygon (Lv36), Weezing (Lv36), Magnemite (Lv36)
+- **Silph Co. 5F Scientist (9, 4):** Magneton (Lv36), Porygon (Lv36), Weezing (Lv36), Magnemite (Lv36)
