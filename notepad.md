@@ -41,3 +41,12 @@
 - **route_summary_agent:** Parses map data and markers to give a high-level summary of a route's completion status.
 - **party_manager_agent:** Suggests when to heal or what Pokémon to lead with based on the current route's encounters.
 - **world_knowledge_navigator:** Plans multi-map routes using the world knowledge graph.
+
+## Current Plans
+- **Objective:** Find the path to Violet City.
+- **Current Strategy:** The eastern path around the central obstacle on Route 30 proved to be a dead-end loop. I am now backtracking to the main western path.
+- **Immediate Steps:**
+    1. Navigate south from the dead-end loop.
+    2. Move west to get around the central trees and grass.
+    3. Rejoin the main path at approximately (7, 30).
+    4. Proceed north along the main path.
