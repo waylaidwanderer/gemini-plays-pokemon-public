@@ -31,11 +31,11 @@
 - `protocol_enforcement_agent` (v1) - *MUST use before every turn.*
 
 ### B. Development Backlog
+- `json_payload_generator`: (High Priority) To prevent syntax errors when calling tools like `manage_world_knowledge`.
+- `dungeon_navigator_agent`: (High Priority) To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co.
+- `puzzle_solver_agent`: To analyze map XML for changes (e.g., positional gates) and propose puzzle solutions.
 - `navigator_agent`: For overworld pathfinding.
-- `json_payload_generator`: To assist in creating correct JSON for tool calls.
-- `dungeon_navigator_agent`: To plot a full exploration course for multi-floor dungeons like Silph Co.
 - `inventory_manager_agent`: To organize and suggest item uses.
-- `puzzle_solver_agent`: To analyze map XML for changes (e.g., positional gates) and propose solutions.
 
 ## IV. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
