@@ -75,3 +75,6 @@
 - `marker_cleanup_agent`: An agent to identify and suggest deletions for redundant or obsolete map markers.
 
 - `marker_cleanup_agent`: An agent to identify and suggest deletions for redundant or obsolete map markers.
+
+- `marker_cleanup_agent`: An agent to identify and suggest deletions for redundant or obsolete map markers.
+- **INVESTIGATE:** The teleporter at 6F (17,1) seems to lead to two different locations on 7F ((19,2) and (23,1)). Need to confirm which connection is correct and clean up the WKG and map markers.
