@@ -75,3 +75,4 @@
 - **Assumption 1 (CARD KEY Location):** The `CARD KEY` is a physical item (Poké Ball) on the ground. **Hypothesis:** It could be given by an NPC after a specific trigger. **Test:** Continue systematically clearing floors and talking to all NPCs.
 - **Assumption 2 (Gate Puzzles):** The closed gates on 10F are part of a puzzle I can solve on that floor. **Hypothesis:** They might be opened by a switch on a completely different floor. **Test:** Continue exploring all floors thoroughly. The `dungeon_navigator_agent` would be key here.
 - **Assumption 3 (Rocket Progression):** I need to defeat all Rockets to progress. **Hypothesis:** Some might just provide flavor text. **Test:** If a Rocket doesn't battle me, mark them as non-hostile ('💬') and move on, not assuming they are a progression blocker unless they physically block the path.
+- Reminder: Mark elevator warp at (3,4) on map ID 236 as leading to 7F.
