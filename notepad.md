@@ -33,3 +33,7 @@
 - **Caterpie (Lv. 3-4):** Bug type. Observed moves: TACKLE, STRING SHOT.
 - **Weedle (Lv. 3):** Bug/Poison type. Observed moves: STRING SHOT, POISON STING.
 - **Pidgey (Lv. 4):** Normal/Flying type. Ran from it, no moves observed.
+
+## Current Plan
+- Get to the Pokémon Center in Cherrygrove City to heal my team.
+- After healing, re-evaluate the path to Violet City.
