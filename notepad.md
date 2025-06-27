@@ -41,10 +41,10 @@
 ### Current Plan
 - **Objective:** Reach Cherrygrove City.
 - **Strategy:**
-    1. The route has an upper and lower path. The lower path led to a dead end.
-    2. I need to find the fork that leads to the upper path. I am currently at (39, 15).
-    3. The upper path seems to be north of my current position. I will explore north to find it.
-    4. Once on the upper path, I will proceed west towards the city entrance at (0, 9).
+    1. The lower path of Route 29 is a dead end. The upper path is the correct way to Cherrygrove City.
+    2. I cannot go north from my current position (39, 14) due to a ledge.
+    3. I must backtrack east towards the start of the route to find the entrance to the upper path.
+    4. Once on the upper path (around y=8), I will head west.
 ### Misunderstandings & Corrections
 ### Failed Hypotheses
 
