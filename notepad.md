@@ -18,24 +18,27 @@
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
 - **No Blackout Zones:** Losing in Rocket Hideout or Silph Co. does not cause a blackout.
 - **HM Field Use:** HMs must be taught to a Pokémon to enable field use. FLY cannot be used indoors.
+- **Saffron City Navigation:** The city's layout is segmented. The `pathfinder` tool is unreliable here. Using FLY is the most efficient method for traveling between distant points.
 
 ### C. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 
-## III. Agent & Tool Development Log (v36)
-### A. Active Agents & Tools (Reliable)
-- `pathfinder` (tool)
+## III. Agent & Tool Development Log (v37)
+### A. Active Agents (Reliable)
 - `pc_navigator_agent` (v2)
 - `team_composition_advisor_agent` (v2)
 - `protocol_enforcement_agent` (v1)
-- `select_battle_option` (tool)
 - `encounter_tracker_agent` (v1)
 - `battle_strategist_agent` (v9)
 
-### B. Agents Under Review / Needing Refinement
+### B. Active Tools (Reliable)
+- `pathfinder` (limitation: unreliable for complex, segmented city maps like Saffron City).
+- `select_battle_option`
+
+### C. Agents Under Review / Needing Refinement
 - `battle_strategist_agent` (v9): Refined to be more cautious with two-turn moves at critical HP. Will continue to monitor.
 
-### C. Development Backlog
+### D. Development Backlog
 - **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge` by taking simple inputs and generating the full JSON string. My manual scripting for WKG is too slow and error-prone.
 - **`dungeon_navigator_agent` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. This is essential for finding the CARD KEY efficiently.
 - **`puzzle_solver_agent` (High Priority):** To analyze map XML for changes (e.g., positional gates) and propose puzzle solutions.
