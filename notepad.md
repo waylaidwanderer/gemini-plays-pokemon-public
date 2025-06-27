@@ -75,3 +75,9 @@
 - **Assumption 1 (CARD KEY Location):** The `CARD KEY` is a physical item (Poké Ball) on the ground. **Hypothesis:** It could be given by an NPC after a specific trigger. **Test:** Continue systematically clearing floors and talking to all NPCs.
 - **Assumption 2 (Gate Puzzles):** The closed gates on 10F are part of a puzzle I can solve on that floor. **Hypothesis:** They might be opened by a switch on a completely different floor. **Test:** Continue exploring all floors thoroughly. The `dungeon_navigator_agent` would be key here.
 - **Assumption 3 (Rocket Progression):** I need to defeat all Rockets to progress. **Hypothesis:** Some might just provide flavor text. **Test:** If a Rocket doesn't battle me, mark them as non-hostile ('💬') and move on, not assuming they are a progression blocker unless they physically block the path.
+
+## Reflection (Turn 30912)
+- **Data Management Lapses:** Failed to immediately document 7F->Elevator and 5F->3F transitions. This is a critical protocol failure and must be corrected. Will be more disciplined.
+- **Agent/Tool Use:** Existing tools are fine, but I need to build the `dungeon_navigator_agent` and `json_payload_generator` to improve efficiency and reduce manual errors.
+- **Goal Flexibility:** Correctly pivoted away from the stalled 5F puzzle. New plan is to explore other floors, starting with 3F.
+- **Untested Assumptions:** The CARD KEY might be held by an NPC, not just be a Poké Ball item. The 5F gate puzzle switch is likely on another floor.
