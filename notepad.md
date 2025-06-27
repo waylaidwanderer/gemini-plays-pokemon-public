@@ -1,4 +1,4 @@
-## I. Core Principles & Lessons Learned (v11)
+## I. Core Principles & Lessons Learned (v12)
 - **CRITICAL: Agent & Workflow Discipline:**
   - I will use my custom agents whenever a task can be automated or requires complex reasoning. Proactive agent use is key.
   - **I will manually mark defeated trainers with '☠️' immediately after every battle until `post_battle_agent` is redesigned and proven reliable.**
@@ -28,7 +28,7 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## III. Agent Development Log (v14)
+## III. Agent Development Log (v15)
 ### A. Active Agents (Reliable)
 - **`pathfinding_agent_v2` (v4):** Reliable; prompt updated to always re-parse the map XML to handle dynamic tile changes.
 - **`pc_navigator_agent` (v2):** Reliable.
@@ -38,7 +38,7 @@
 - **`protocol_enforcement_agent` (v1):** I MUST use this before every turn.
 
 ### B. Agents Requiring Redesign/Testing
-- **`post_battle_agent` (v3):** Unreliable, has failed multiple times. Decommissioned pending full redesign.
+- **`post_battle_agent` (v4):** Decommissioned. Unreliable, has failed multiple times. Requires full redesign and testing before being used again.
 - **`encounter_tracker_agent` (v1):** Critically underutilized. Must be integrated into workflow.
 
 ### C. Agent Development Backlog
@@ -54,7 +54,7 @@
     1.  **Teleporter Mapping:** After using any teleporter, immediately use `wkg_connection_manager` to document the connection in the WKG.
     2.  **Teleporter Bidirectionality Test:** After using a teleporter, immediately attempt to use it again to confirm if it's two-way.
 - **Positional Gate Mechanic (5F):** Gates on this floor are triggered by movement, not a key. A gate at (7,6) opened after walking north, and a gate at (7,7) opened after walking south. This confirms positional triggers are part of the puzzle.
-- **WKG Integrity Issue (FIXED):** The teleporter at 6F (17,1) was incorrectly recorded as leading to 7F (23,2). This edge has been deleted.
+- **WKG Integrity Issue (INVESTIGATE):** The teleporter at 6F (17,1) is recorded as leading to two different destinations on 7F. I must query the WKG to find and delete the incorrect edge.
 - **Key Discoveries & Unverified Assumptions:**
     - *CARD KEY Location (Hypothesis):* It could be a visible item ball, held by an NPC, hidden in an interactable object, or a reward for a specific battle. Must be vigilant and check everything.
     - *Progression Path (Hypothesis):** The solution may involve non-linear travel between floors via teleporters. The path is not necessarily 1F -> 2F -> 3F etc.
