@@ -69,3 +69,4 @@
 ## VI. Critical Self-Corrections
 - **CRITICAL SELF-CORRECTION (T28728):** Experienced a major hallucination loop, misidentifying my location for multiple turns. I must be more rigorous in checking Game State Information against my assumptions.
 - **CRITICAL SELF-CORRECTION (T29303 & T29353):** I have been consistently failing to follow my own protocols, especially regarding agent usage and immediate documentation. This is a major tactical error that I must correct immediately. I will prioritize using my agents and updating my WKG and markers after every relevant event.
+- Upgrade `battle_strategist_agent` to include damage calculation estimates and KO probability.
