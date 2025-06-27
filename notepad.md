@@ -40,7 +40,6 @@
 
 ### B. Agent Development Backlog
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
-- `silph_co_pathfinder_agent`: A specialized agent that can plot multi-floor routes within Silph Co. using the WKG, once the CARD KEY is found.
 - Upgrade `pathfinding_agent_v2` to handle intra-map teleporters for more complex pathing.
 
 ## IV. Silph Co. Intel & Strategy
@@ -61,5 +60,4 @@
 - Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
 
 ## VI. Critical Self-Corrections
-- **CRITICAL SELF-CORRECTION (T28681):** Hallucinated that Silph Co. 5F was fully explored. There were 6 reachable unseen tiles. I MUST return to Silph Co. 5F and explore it completely after healing. This is a top priority.
 - **CRITICAL SELF-CORRECTION (T28728):** Experienced a major hallucination loop, misidentifying my location for multiple turns. I must be more rigorous in checking Game State Information against my assumptions.
