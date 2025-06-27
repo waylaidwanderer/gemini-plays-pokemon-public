@@ -1,7 +1,8 @@
-## I. Core Principles & Lessons Learned (v6)
+## I. Core Principles & Lessons Learned (v7)
 - **CRITICAL: Agent & Workflow Discipline:**
   - I will use my custom agents whenever a task can be automated or requires complex reasoning. Proactive agent use is key.
   - I will **strictly** adhere to established protocols, especially using `encounter_tracker_agent` after **every** wild encounter. Failure to do so is a major tactical error.
+  - I will use `protocol_enforcement_agent` before every turn to ensure I follow my documented procedures.
 - **CRITICAL: Map Marker Discipline:** Markers must only be placed *after* an event is verified.
 - **CRITICAL: Location Verification:** I must verify my `map_id` and coordinates from the Game State Information *before* every action to prevent hallucinations.
 - **Trust the Data:** Game State Information is the absolute source of truth. My own feeling of being "stuck" is a hallucination if the data contradicts it.
@@ -26,21 +27,20 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## III. Agent Development Log (v8)
+## III. Agent Development Log (v9)
 ### A. Active Agents (Reliable)
-- **`pathfinding_agent_v2` (v3 - Refined T28565):** Highly reliable; can now auto-detect unseen tiles for exploration.
+- **`pathfinding_agent_v2` (v3):** Highly reliable; can now auto-detect unseen tiles for exploration.
 - **`pc_navigator_agent` (v2):** Reliable.
 - **`battle_strategist_agent` (v6):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
 - **`item_finder_agent` (v2):** Scans current map for item balls.
-- **`wkg_connection_manager` (v4 - Refined T28624):** Updated system prompt to generate cleaner payloads for `add_edge`, removing invalid fields like `tags` and `is_one_way` as per AI critique. Now correctly handles multi-turn node/edge creation and includes `destination_entry_point`.
+- **`wkg_connection_manager` (v4):** Updated system prompt to generate cleaner payloads for `add_edge`. Now correctly handles multi-turn node/edge creation and includes `destination_entry_point`.
+- **`protocol_enforcement_agent` (v1):** I MUST use this before every turn to ensure I follow my own documented procedures.
 
 ### B. Agent Development Backlog
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
-- `protocol_enforcement_agent`: To remind me to follow my own established procedures.
 - `silph_co_pathfinder_agent`: A specialized agent that can plot multi-floor routes within Silph Co. using the WKG, once the CARD KEY is found.
-- Make `wkg_connection_manager` more autonomous (handle multi-turn logic internally).
 - Upgrade `pathfinding_agent_v2` to handle intra-map teleporters for more complex pathing.
 
 ## IV. Silph Co. Intel & Strategy
@@ -51,7 +51,7 @@
     2.  **Teleporter Bidirectionality Test:** After using a teleporter, immediately attempt to use it again to confirm if it's two-way.
 - **Key Discoveries & Unverified Assumptions:**
     - *CARD KEY Location (Hypothesis):* It could be a visible item ball, held by an NPC, hidden in an interactable object, or a reward for a specific battle. Must be vigilant and check everything.
-    - *Progression Path (Hypothesis):* The solution may involve non-linear travel between floors via teleporters.
+    - *Progression Path (Hypothesis):* The solution may involve non-linear travel between floors via teleporters. The path is not necessarily 1F -> 2F -> 3F etc.
     - *One-Way Teleporters (Hypothesis):* Some teleporters may be one-way only. Must test each one.
 
 ## V. Type Effectiveness Chart (Observed)
@@ -60,4 +60,5 @@
 - Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
 
 ## VI. Critical Self-Corrections
-- **CRITICAL SELF-CORRECTION (T28681):** Hallucinated that Silph Co. 5F was fully explored. There were 6 reachable unseen tiles. I MUST return to Silph Co. 5F and explore it completely after this battle. This is a top priority.
+- **CRITICAL SELF-CORRECTION (T28681):** Hallucinated that Silph Co. 5F was fully explored. There were 6 reachable unseen tiles. I MUST return to Silph Co. 5F and explore it completely after healing. This is a top priority.
+- **CRITICAL SELF-CORRECTION (T28728):** Experienced a major hallucination loop, misidentifying my location for multiple turns. I must be more rigorous in checking Game State Information against my assumptions.
