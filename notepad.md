@@ -43,3 +43,6 @@
 - From Cherrygrove, I'll take the north exit to Route 30.
 - On Route 30, I will take the western path, as the eastern path was a dead end.
 - I will proceed north on the western path, fighting or avoiding trainers and wild Pokémon as necessary, until I reach Violet City.
+
+## Battle Strategy: Wild Ledyba
+- Hestia has a massive level advantage. A single TACKLE should be sufficient to win.
