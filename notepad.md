@@ -64,3 +64,4 @@
 
 ## Archived Notes & Lessons Learned
 - **`puzzle_solver_agent` Hallucinations:** An early agent repeatedly provided incorrect advice based on the wrong map and player abilities. It was deleted after multiple failed refinement attempts. Lesson: Agents require very specific, context-rich prompts to be effective.
+- **Ledge Traversal (Confirmed):** My experiment at (42, 14) confirms that ledges are strictly one-way. It is impossible to move from a lower elevation to a higher one by jumping up a ledge. The `navigation_agent`'s logic is correct.
