@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v22)
+## I. Core Protocols & Immediate Actions (v23)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents whenever a task can be automated or requires complex reasoning. This is not optional.
 - **CRITICAL: Post-Event Checklists (MANDATORY ADHERENCE):**
@@ -22,7 +22,7 @@
 ### C. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 
-## III. Agent & Tool Development Log (v35)
+## III. Agent & Tool Development Log (v36)
 ### A. Active Agents & Tools (Reliable)
 - `pathfinder` (tool)
 - `pc_navigator_agent` (v2)
@@ -47,6 +47,8 @@
 ## IV. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
 - **Methodology:** Systematically explore each floor, mapping all teleporters and defeating all trainers. Use the CARD KEY on all locked doors upon acquisition.
+- **Outstanding Tasks:**
+    - **Fix Contradictory Marker:** Delete the '💬' marker from the Rocket at (20, 3) on 8F. The '☠️' marker is correct.
 - **Discoveries:**
     - **Hint:** The BOSS is on 11F (from a Rocket on 4F).
     - **5F:** Positional gates triggered by movement.
