@@ -46,6 +46,8 @@
 
 ### Gifts and Trades
 
+- Received POKéGEAR from Mom in New Bark Town.
+
 ## Obstacles and Solutions
 
 ### Character Blockades
