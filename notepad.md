@@ -10,9 +10,10 @@
 ### Battle Mechanics
 - **Held Items (Berries):** Pokémon can use held Berries to heal themselves in battle.
 - **Catching:** Weakening a Pokémon makes it easier to catch.
+- **Hestia (Cyndaquil) Moves:** TACKLE, LEER, SMOKESCREEN, EMBER (Fire-type).
 
 ### Tile & Environmental Mechanics
-- **WALL:** An impassable obstacle.
+- **WALL:** An impassable obstacle. Cannot be walked through or interacted with (tested by pressing 'A').
 - **FLOOR:** A standard, traversable tile.
 - **TALL_GRASS:** Traversable tile where wild Pokémon encounters can occur.
 - **DOOR:** A warp tile that leads into and out of buildings.
@@ -24,10 +25,13 @@
 - **HEADBUTT_TREE:** An impassable tree.
 - **WATER:** An impassable body of water, likely requires HM 'Surf'.
 
+## Untested Tile Mechanics
+- **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with (e.g., requires Surf).
+
 ## Agent Development
 ### Existing Agents
 - **pathfinder_tool:** A custom tool using A* to find paths. Still under development.
-- **puzzle_solver_agent:** An agent for generating hypotheses when stuck.
+- **puzzle_solver_agent:** An agent for generating hypotheses when stuck. (Refined to use map data).
 
 ### Agent Ideas
 - **battle_strategist_agent:** Suggests the optimal move or action in difficult battles.
@@ -35,20 +39,8 @@
 - **party_manager_agent:** Suggests when to heal or what Pokémon to lead with based on the current route's encounters.
 - **world_knowledge_navigator:** Plans multi-map routes using the world knowledge graph.
 - **map_analyzer_agent:** Analyzes the map XML to identify and prioritize clusters of unseen tiles for exploration.
+- **stuck_analyzer_agent:** Specifically for when trapped, analyzes map for hidden escape mechanics.
 
-## Pokémon Encounters
-### Route 30
-- **Ledyba (Lv. 3):** Bug/Flying type. Observed move: TACKLE.
-- **Caterpie (Lv. 3-4):** Bug type. Observed moves: TACKLE, STRING SHOT.
-- **Weedle (Lv. 3):** Bug/Poison type. Observed moves: STRING SHOT, POISON STING.
-- **Pidgey (Lv. 3-4):** Normal/Flying type. No moves observed.
-- **Hoppip (Lv. 4):** Grass/Flying type. No moves observed.
-## Untested Tile Mechanics
-- **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with (e.g., requires Surf).
-- **HEADBUTT_TREE:** Seen on Route 30. Likely requires the move Headbutt to interact with, but need to confirm it's impassable otherwise.
 ## Route 30 Puzzle Strategy
-- **Hypothesis (from puzzle_solver_agent):** The side 'mazes' are not paths, but triggers. Visiting a specific point in both mazes might unlock the central path.
-- **Plan:**
-  1. Visit western maze dead-end at (2, 26). **(Completed)**
-  2. Navigate to and fully explore the eastern maze to find its trigger point. **(Completed)**
-  3. Return to the central path at (6, 30) to check for changes (e.g., NPC moved, path opened).
+- **Hypothesis (FAILED):** The side 'mazes' are not paths, but triggers. Visiting a specific point in both mazes might unlock the central path.
+- **Result:** This hypothesis was incorrect and resulted in becoming trapped in the eastern maze. A new escape method is required.
