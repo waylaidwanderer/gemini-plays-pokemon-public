@@ -1,10 +1,12 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Game Mechanics & Systems
+### My Items
+- BERRY x3
+- ANTIDOTE x1
 ### PC Storage
 - Pokémon:
 - Items:
-  - BERRY x2
 ### Gifts and Trades
 - Received POKéGEAR from Mom in New Bark Town.
 - Received a BERRY from a man on Route 30. He said they can be found on trees.
@@ -30,7 +32,7 @@
 - DOOR: A warp tile that typically leads into or out of a building.
 - WATER: An impassable tile without the HM Surf. (Assumption)
 - MART_SHELF: An impassable barrier, similar to a WALL.
-- WARP_CARPET_DOWN: A warp tile that leads out of a building.
+- WARP_CARPET_DOWN: A warp tile that requires pressing 'Down' while standing on it to activate.
 - TOWN_MAP: Impassable object.
 - WINDOW: Impassable object.
 - BOOKSHELF: Impassable object.
