@@ -66,3 +66,5 @@
 - `post_battle_agent`: A workflow agent to automate post-battle tasks. It would call `encounter_tracker_agent` for wild battles and `define_map_marker` for trainer battles.
 
 - **Silph Co. 5F Gate Mechanic:** Gates on this floor are not locked by a key but are triggered by movement. A gate at (7,6) opened after walking on the northern part of the floor. This suggests positional triggers are part of the puzzle.
+
+- **Silph Co. 5F Gate Mechanic (Update):** A gate at (7,7) opened after walking south in the main room. This further confirms positional triggers.
