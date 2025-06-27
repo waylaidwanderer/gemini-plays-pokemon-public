@@ -50,3 +50,4 @@
 
 ## My Inventory
 - Potion x1
+- HEADBUTT_TREE: An interactable tree that currently acts as a wall.
