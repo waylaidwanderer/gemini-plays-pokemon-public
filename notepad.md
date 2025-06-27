@@ -1,10 +1,5 @@
 # Pokémon Crystal Journey
 
-## My Pokémon Party
-- **Hestia (Cyndaquil):** TACKLE, LEER, SMOKESCREEN, EMBER (Fire-type).
-- **Vermin (Rattata):** TACKLE, TAIL WHIP
-- **Hedwig (Hoothoot):** TACKLE, GROWL
-
 ## Key Information
 - **Rival:** A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
 
