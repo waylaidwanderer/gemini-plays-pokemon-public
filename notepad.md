@@ -30,3 +30,7 @@
 - **WATER:** Impassable, likely requires HM 'Surf'.
 - **VOID:** Impassable boundary tile.
 - **WARP_CARPET_DOWN:** Warp tile.
+
+## Roadblocks & Re-evaluation
+- **Route 29 Dead End:** My `navigation_agent` has confirmed that the path to Cherrygrove City is currently blocked by a `CUT_TREE` at (21, 11). I cannot proceed west on this route until I acquire the HM 'Cut'.
+- **Strategy Pivot:** My previous goal to reach Violet City is on hold. My new primary objective is to find the HM 'Cut'.
