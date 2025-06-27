@@ -43,3 +43,6 @@
 - **Weedle (Lv. 3):** Bug/Poison type. Observed moves: STRING SHOT, POISON STING.
 - **Pidgey (Lv. 3-4):** Normal/Flying type. No moves observed.
 - **Hoppip (Lv. 4):** Grass/Flying type. No moves observed.
+## Untested Tile Mechanics
+- **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with (e.g., requires Surf).
+- **HEADBUTT_TREE:** Seen on Route 30. Likely requires the move Headbutt to interact with, but need to confirm it's impassable otherwise.
