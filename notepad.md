@@ -1,10 +1,9 @@
-## I. Core Protocols & Immediate Actions (v21)
-- **CRITICAL: Agent & Workflow Discipline:**
-  - I will use my custom agents whenever a task can be automated or requires complex reasoning. This is not optional.
-  - I will use `protocol_enforcement_agent` before every turn to ensure I follow my documented procedures.
+## I. Core Protocols & Immediate Actions (v22)
+- **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
+- **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents whenever a task can be automated or requires complex reasoning. This is not optional.
 - **CRITICAL: Post-Event Checklists (MANDATORY ADHERENCE):**
-  - **Trainer Battle:** Mark defeated trainer with '☠️' using `define_map_marker`, using their specific sprite name for clarity (e.g., 'SILPHCO4F_ROCKET2'). Log their Pokémon under 'Trainer Intel'.
-  - **Wild Encounter:** Log EVERY wild Pokémon with `encounter_tracker_agent`. NO EXCEPTIONS.
+  - **Trainer Battle:** Mark defeated trainer with '☠️' using `define_map_marker`, using their specific sprite name for clarity. Log their Pokémon under 'Trainer Intel'.
+  - **Wild Encounter:** Log EVERY wild Pokémon with `encounter_tracker_agent`.
   - **Map Transition (Warp/Stairs/Edge):** Immediately use `manage_world_knowledge` to document the connection and mark used warps (entry/exit) with '🚪'.
 
 ## II. Game Mechanics & Battle Intel
@@ -23,7 +22,7 @@
 ### C. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 
-## III. Agent & Tool Development Log (v33)
+## III. Agent & Tool Development Log (v34)
 ### A. Active Agents & Tools (Reliable)
 - `pathfinder` (tool)
 - `pc_navigator_agent` (v2)
@@ -37,7 +36,7 @@
 - `battle_strategist_agent` (v9): Refined to be more cautious with two-turn moves at critical HP. Will continue to monitor.
 
 ### C. Development Backlog
-- **`json_payload_generator` (CRITICAL PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge` by taking simple inputs and generating the full JSON string.
+- **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge` by taking simple inputs and generating the full JSON string. My manual scripting for WKG is too slow and error-prone.
 - **`dungeon_navigator_agent` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. This is essential for finding the CARD KEY efficiently.
 - **`puzzle_solver_agent` (High Priority):** To analyze map XML for changes (e.g., positional gates) and propose puzzle solutions.
 - **`grinding_assistant_agent` (Medium Priority):** To automate the generation of optimal back-and-forth movement patterns for grinding wild Pokémon in a specific area.
@@ -68,6 +67,6 @@
 - Electric (player) vs. Rock/Water (opponent) -> Super-Effective
 
 ## VII. Active Investigations & Untested Assumptions (Post-Reflection)
-- **Assumption 1 (Training Efficiency):** The Pokémon Tower is the *best* place to train SPOONBENDE and PRISM. **Test:** Monitor EXP gain per battle. If too slow, re-evaluate training location.
-- **Assumption 2 (Level Sufficiency):** Leveling to 35 will be *enough* for Silph Co. The agent's confidence was near-zero. **Test:** After training, re-run `team_composition_advisor_agent`. If confidence remains critically low, I must find an alternative path to progression, possibly in a different city or by finding a key item like HM04 (Strength).
-- **Assumption 3 (HM Requirements):** I may need HM04 (Strength) to progress in Silph Co. or elsewhere. **Test:** Be vigilant for any NPCs mentioning Strength or any visible boulders that could be moved.
+- **Assumption 1 (CARD KEY Location):** The `CARD KEY` is a physical item (Poké Ball) on the ground. **Hypothesis:** It could be given by an NPC after a specific trigger. **Test:** Continue systematically clearing floors and talking to all NPCs.
+- **Assumption 2 (Gate Puzzles):** The closed gates on 10F are part of a puzzle I can solve on that floor. **Hypothesis:** They might be opened by a switch on a completely different floor. **Test:** Continue exploring all floors thoroughly. The `dungeon_navigator_agent` would be key here.
+- **Assumption 3 (Rocket Progression):** I need to defeat all Rockets to progress. **Hypothesis:** Some might just provide flavor text. **Test:** If a Rocket doesn't battle me, mark them as non-hostile ('💬') and move on, not assuming they are a progression blocker unless they physically block the path.
