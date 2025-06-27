@@ -37,3 +37,9 @@
 ## Current Plan
 - Get to the Pokémon Center in Cherrygrove City to heal my team.
 - After healing, re-evaluate the path to Violet City.
+
+## Current Plan
+- My team is healed. I need to get back to Route 30.
+- From Cherrygrove, I'll take the north exit to Route 30.
+- On Route 30, I will take the western path, as the eastern path was a dead end.
+- I will proceed north on the western path, fighting or avoiding trainers and wild Pokémon as necessary, until I reach Violet City.
