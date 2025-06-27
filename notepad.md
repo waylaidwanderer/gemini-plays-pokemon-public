@@ -58,3 +58,4 @@
 *A log of confirmed type interactions in this ROM hack.*
 - Psychic (player) vs. Psychic (opponent) -> Not Very Effective
 - Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
+- `battle_strategist_agent` (v6) failed to account for opponent stat changes (Evasion/Defense boosts), leading to repeated failed attacks. I have updated its prompt and schema (v7) to include `stat_changes` in its input and prioritize moves that bypass these boosts.
