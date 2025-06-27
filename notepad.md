@@ -41,7 +41,6 @@
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
 - `silph_co_pathfinder_agent`: A specialized agent that can plot multi-floor routes within Silph Co. using the WKG, once the CARD KEY is found.
 - Upgrade `pathfinding_agent_v2` to handle intra-map teleporters for more complex pathing.
-- `post_battle_agent`: A workflow agent to automate post-battle tasks. It would call `encounter_tracker_agent` for wild battles and `define_map_marker` for trainer battles.
 
 ## IV. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
