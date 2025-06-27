@@ -42,5 +42,4 @@
 - **stuck_analyzer_agent:** Specifically for when trapped, analyzes map for hidden escape mechanics.
 
 ## Route 30 Puzzle Strategy
-- **Hypothesis (FAILED):** The side 'mazes' are not paths, but triggers. Visiting a specific point in both mazes might unlock the central path.
-- **Result:** This hypothesis was incorrect and resulted in becoming trapped in the eastern maze. A new escape method is required.
+- **CONCLUSION: COMPLETE TRAP!** The eastern maze area, accessed by jumping down the ledge, is an inescapable softlock. All hypotheses for escape have failed. The only way out is to faint and return to a Pokémon Center. **DO NOT ENTER THIS AREA AGAIN.** The solution to the Route 30 progression puzzle lies elsewhere.
