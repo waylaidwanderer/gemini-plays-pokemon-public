@@ -20,7 +20,7 @@
 - **TALL_GRASS:** Traversable tile where wild Pokémon encounters can occur.
 - **DOOR:** A warp tile that leads into and out of buildings.
 - **CUT_TREE:** These small trees are impassable and require the HM 'Cut' to be removed.
-- **Fruit Trees:** These are impassable objects.
+- **FRUIT_TREE:** An impassable object. Cannot be walked through or interacted with.
 - **HOP_DOWN:** A one-way ledge that can only be jumped down from above.
 - **VOID:** An impassable boundary tile, typically outside the playable area of a map.
 - **WARP_CARPET_DOWN:** A warp tile, usually found at the entrance/exit of buildings.
@@ -28,7 +28,7 @@
 - **WATER:** An impassable body of water, likely requires HM 'Surf'.
 
 ### Untested Tile Mechanics
-- **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with (e.g., requires Surf).
+- **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with (e.g., requires Surf). Plan to test this on next visit.
 
 ## Agent & Tool Development
 
