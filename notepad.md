@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v17)
+## I. Core Protocols & Immediate Actions (v18)
 - **CRITICAL: Agent & Workflow Discipline:**
   - I will use my custom agents whenever a task can be automated or requires complex reasoning.
   - I will use `protocol_enforcement_agent` before every turn to ensure I follow my documented procedures.
@@ -11,7 +11,8 @@
 ### A. Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic.
 - **Type Immunities:** Psychic is immune to Electric.
-- **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves.
+- **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves. MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
+- **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
 
 ### B. Navigation & Traversal Rules
 - **Pikachu Movement:** A walkable object. Requires two button presses to move onto its tile if not already facing it.
@@ -22,17 +23,20 @@
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Field Use:** HMs must be taught to a Pokémon to enable field use. FLY cannot be used indoors.
 
-## III. Agent & Tool Development Log (v25)
+## III. Agent & Tool Development Log (v26)
 ### A. Active Agents & Tools (Reliable)
 - `pathfinder` (tool)
 - `pc_navigator_agent` (v2)
-- `battle_strategist_agent` (v6)
 - `team_composition_advisor_agent` (v2)
 - `protocol_enforcement_agent` (v1) - *MUST use before every turn.*
+- `select_battle_option` (tool)
 
-### B. Development Backlog
-- `json_payload_generator`: (High Priority) To prevent syntax errors when calling tools like `manage_world_knowledge`.
-- `dungeon_navigator_agent`: (High Priority) To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co.
+### B. Agents Under Review / Needing Refinement
+- `battle_strategist_agent` (v7): Needs further refinement to better handle high-evasion opponents.
+
+### C. Development Backlog
+- **`json_payload_generator` (CRITICAL PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`.
+- **`dungeon_navigator_agent` (High Priority):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co.
 - `puzzle_solver_agent`: To analyze map XML for changes (e.g., positional gates) and propose puzzle solutions.
 - `navigator_agent`: For overworld pathfinding.
 - `inventory_manager_agent`: To organize and suggest item uses.
@@ -51,6 +55,7 @@
 
 ## V. Trainer Intel
 *A log of noteworthy trainer Pokémon rosters.*
+- **Silph Co. 2F Scientist (6, 14):** Muk (Lv37), Weezing (Lv37), Porygon (Lv37)
 - **Silph Co. 4F Rocket (10, 15):** Machoke (Lv39), Hypno (Lv39)
 - **Silph Co. 4F Scientist (15, 7):** Electabuzz (Lv41)
 
@@ -58,6 +63,3 @@
 *A log of confirmed type interactions in this ROM hack.*
 - Psychic (player) vs. Psychic (opponent) -> Not Very Effective
 - Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
-- `battle_strategist_agent` (v6) failed to account for opponent stat changes (Evasion/Defense boosts), leading to repeated failed attacks. I have updated its prompt and schema (v7) to include `stat_changes` in its input and prioritize moves that bypass these boosts.
-- **Evasion Mechanics:** PSYWAVE, a move that should never miss, failed against a MUK with multiple MINIMIZE boosts. This implies extreme evasion can bypass even guaranteed-hit moves.
-- **Status Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE), as they fail with an 'It didn't affect' message.
