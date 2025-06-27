@@ -1,7 +1,8 @@
-## I. Core Principles & Lessons Learned (v10)
+## I. Core Principles & Lessons Learned (v11)
 - **CRITICAL: Agent & Workflow Discipline:**
   - I will use my custom agents whenever a task can be automated or requires complex reasoning. Proactive agent use is key.
-  - I will **strictly** adhere to established protocols, especially using `post_battle_agent` after **every** trainer battle and `encounter_tracker_agent` after every wild encounter. Failure to do so is a major tactical error.
+  - **I will manually mark defeated trainers with '☠️' immediately after every battle until `post_battle_agent` is redesigned and proven reliable.**
+  - I will use `encounter_tracker_agent` after every wild encounter. Failure to do so is a major tactical error.
   - I will use `protocol_enforcement_agent` before every turn to ensure I follow my documented procedures.
 - **CRITICAL: Map Marker Discipline:** Markers must only be placed *after* an event is verified. Redundant or incorrect markers must be cleaned up promptly.
 - **CRITICAL: Location Verification:** I must verify my `map_id` and coordinates from the Game State Information *before* every action to prevent hallucinations.
@@ -27,7 +28,7 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## III. Agent Development Log (v13)
+## III. Agent Development Log (v14)
 ### A. Active Agents (Reliable)
 - **`pathfinding_agent_v2` (v4):** Reliable; prompt updated to always re-parse the map XML to handle dynamic tile changes.
 - **`pc_navigator_agent` (v2):** Reliable.
@@ -36,14 +37,15 @@
 - **`wkg_connection_manager` (v4):** Reliable.
 - **`protocol_enforcement_agent` (v1):** I MUST use this before every turn.
 
-### B. Agents Requiring Refinement/Testing
-- **`post_battle_agent` (v1):** Unreliable, has failed multiple times. Needs immediate redesign.
+### B. Agents Requiring Redesign/Testing
+- **`post_battle_agent` (v3):** Unreliable, has failed multiple times. Decommissioned pending full redesign.
 - **`encounter_tracker_agent` (v1):** Critically underutilized. Must be integrated into workflow.
 
 ### C. Agent Development Backlog
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
 - `marker_cleanup_agent`: An agent to identify and suggest deletions for redundant or obsolete map markers.
 - Upgrade `pathfinding_agent_v2` to handle intra-map teleporters for more complex pathing.
+- Redesign `post_battle_agent` for reliability.
 
 ## IV. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
@@ -52,7 +54,7 @@
     1.  **Teleporter Mapping:** After using any teleporter, immediately use `wkg_connection_manager` to document the connection in the WKG.
     2.  **Teleporter Bidirectionality Test:** After using a teleporter, immediately attempt to use it again to confirm if it's two-way.
 - **Positional Gate Mechanic (5F):** Gates on this floor are triggered by movement, not a key. A gate at (7,6) opened after walking north, and a gate at (7,7) opened after walking south. This confirms positional triggers are part of the puzzle.
-- **WKG Integrity Issue (CRITICAL):** The teleporter at 6F (17,1) is recorded as leading to two different locations on 7F ((19,2) and (23,1)). Must query the WKG to identify and delete the incorrect edge.
+- **WKG Integrity Issue (FIXED):** The teleporter at 6F (17,1) was incorrectly recorded as leading to 7F (23,2). This edge has been deleted.
 - **Key Discoveries & Unverified Assumptions:**
     - *CARD KEY Location (Hypothesis):* It could be a visible item ball, held by an NPC, hidden in an interactable object, or a reward for a specific battle. Must be vigilant and check everything.
     - *Progression Path (Hypothesis):** The solution may involve non-linear travel between floors via teleporters. The path is not necessarily 1F -> 2F -> 3F etc.
