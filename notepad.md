@@ -1,5 +1,5 @@
 ## I. Core Protocols & Immediate Actions (v23)
-- **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
+- **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays. **I must verify my current map_id and coordinates from the Game State Information BEFORE every documentation action to prevent hallucinations.**
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents whenever a task can be automated or requires complex reasoning. This is not optional.
 - **CRITICAL: Post-Event Checklists (MANDATORY ADHERENCE):**
   - **Trainer Battle:** Mark defeated trainer with '☠️' using `define_map_marker`, using their specific sprite name for clarity. Log their Pokémon under 'Trainer Intel'.
