@@ -1,9 +1,8 @@
 # Pokémon Crystal Journey
 
 ## Current Plan
-- I am currently on Route 30, trying to get to Violet City.
-- The eastern path is a dead end.
-- I am on the western path of Route 30. I will now explore north to find the way to Violet City.
+- The western path on Route 30 is a confirmed dead end, blocked by a CUT_TREE.
+- I will now backtrack to the main fork in the road and explore the eastern path to find the way to Violet City.
 
 ## The Rival
 - A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
@@ -28,6 +27,11 @@
 - **Route 46 Ledges:** This route is a dead-end when approached from the south due to one-way ledges.
 - **Decorative Floor Items:** Certain floor patterns, like the red flowers on Route 30, are purely decorative and cannot be interacted with or picked up. Confirmed at (10, 31) after multiple failed attempts.
 - **Route 30 Hidden Potion:** Unable to retrieve the hidden Potion at (14, 9). Tried interacting from multiple adjacent tiles without success. There might be a special requirement I don't meet yet.
+- **Route 30 Western Path:** This path is a dead end for now, blocked by a CUT_TREE at (8, 6).
+- **VOID:** Appears to be an impassable boundary tile, typically outside the playable area of a map.
+- **WARP_CARPET_DOWN:** A warp tile, usually found at the entrance/exit of buildings. Stepping on it transports the player to a different map.
+- **HEADBUTT_TREE:** Appears to be an impassable tree.
+- **WATER:** Appears to be an impassable body of water, likely requires HM 'Surf'.
 
 ## Agent Ideas & Refinements
 - **battle_strategist_agent:** An agent to suggest the optimal move or action in difficult battles.
@@ -41,8 +45,3 @@
 - **Caterpie (Lv. 3-4):** Bug type. Observed moves: TACKLE, STRING SHOT.
 - **Weedle (Lv. 3):** Bug/Poison type. Observed moves: STRING SHOT, POISON STING.
 - **Pidgey (Lv. 4):** Normal/Flying type. Ran from it, no moves observed.
-- **VOID:** Appears to be an impassable boundary tile, typically outside the playable area of a map.
-- **WARP_CARPET_DOWN:** A warp tile, usually found at the entrance/exit of buildings. Stepping on it transports the player to a different map.
-- **HEADBUTT_TREE:** Appears to be an impassable tree.
-- **WATER:** Appears to be an impassable body of water, likely requires HM 'Surf'.
-- **Route 30 Western Path:** This path is a dead end for now, blocked by a CUT_TREE at (8, 6).
