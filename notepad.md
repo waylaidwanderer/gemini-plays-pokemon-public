@@ -38,7 +38,7 @@
 - **`protocol_enforcement_agent` (v1):** I MUST use this before every turn.
 
 ### B. Decommissioned or Under-Review Agents
-- **`post_battle_agent` (v4):** Decommissioned due to unreliability. Must be redesigned or deleted. I will mark trainers manually for now.
+- **`post_battle_agent` (v4):** Deleted due to unreliability. I will mark trainers manually for now.
 - **`encounter_tracker_agent` (v1):** Critically underutilized. I MUST integrate this into my post-encounter workflow.
 
 ### C. Agent Development Backlog
