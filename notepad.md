@@ -29,7 +29,7 @@
 - DOOR: A warp tile that typically leads into or out of a building.
 - WATER: An impassable tile without the HM Surf. (Assumption)
 - MART_SHELF: An impassable barrier, similar to a WALL.
-- WARP_CARPET_DOWN: A warp tile that requires pressing 'Down' while standing on it to activate.
+
 - TOWN_MAP: Impassable object.
 - WINDOW: Impassable object.
 - BOOKSHELF: Impassable object.
@@ -52,4 +52,3 @@
 
 ### Misunderstandings & Corrections
 - Corrected my assumption that tree tiles are walkable. They are impassable obstacles. My `find_path` tool has been updated to reflect this.
-- WARP_CARPET_DOWN: A warp tile that requires pressing 'Down' while standing on it to activate.
