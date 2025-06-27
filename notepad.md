@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v23)
+## I. Core Protocols & Immediate Actions (v24)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays. **I must verify my current map_id and coordinates from the Game State Information BEFORE every documentation action to prevent hallucinations.**
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents whenever a task can be automated or requires complex reasoning. This is not optional.
 - **CRITICAL: Post-Event Checklists (MANDATORY ADHERENCE):**
@@ -23,7 +23,7 @@
 ### C. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 
-## III. Agent & Tool Development Log (v37)
+## III. Agent & Tool Development Log (v38)
 ### A. Active Agents (Reliable)
 - `pc_navigator_agent` (v2)
 - `team_composition_advisor_agent` (v2)
@@ -52,6 +52,7 @@
 - **Methodology:** Systematically explore each floor, mapping all teleporters and defeating all trainers. Use the CARD KEY on all locked doors upon acquisition.
 - **Outstanding Tasks:**
     - **Fix Contradictory Marker:** Delete the '💬' marker from the Rocket at (20, 3) on 8F. The '☠️' marker is correct.
+    - **Mark Elevator Warp:** Mark elevator warp at (3,4) on map ID 236 as leading to 7F.
 - **Discoveries:**
     - **Hint:** The BOSS is on 11F (from a Rocket on 4F).
     - **5F:** Positional gates triggered by movement.
@@ -75,4 +76,3 @@
 - **Assumption 1 (CARD KEY Location):** The `CARD KEY` is a physical item (Poké Ball) on the ground. **Hypothesis:** It could be given by an NPC after a specific trigger. **Test:** Continue systematically clearing floors and talking to all NPCs.
 - **Assumption 2 (Gate Puzzles):** The closed gates on 10F are part of a puzzle I can solve on that floor. **Hypothesis:** They might be opened by a switch on a completely different floor. **Test:** Continue exploring all floors thoroughly. The `dungeon_navigator_agent` would be key here.
 - **Assumption 3 (Rocket Progression):** I need to defeat all Rockets to progress. **Hypothesis:** Some might just provide flavor text. **Test:** If a Rocket doesn't battle me, mark them as non-hostile ('💬') and move on, not assuming they are a progression blocker unless they physically block the path.
-- Reminder: Mark elevator warp at (3,4) on map ID 236 as leading to 7F.
