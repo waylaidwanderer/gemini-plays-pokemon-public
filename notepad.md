@@ -60,3 +60,4 @@
 - Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
 - `battle_strategist_agent` (v6) failed to account for opponent stat changes (Evasion/Defense boosts), leading to repeated failed attacks. I have updated its prompt and schema (v7) to include `stat_changes` in its input and prioritize moves that bypass these boosts.
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, failed against a MUK with multiple MINIMIZE boosts. This implies extreme evasion can bypass even guaranteed-hit moves.
+- **Status Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE), as they fail with an 'It didn't affect' message.
