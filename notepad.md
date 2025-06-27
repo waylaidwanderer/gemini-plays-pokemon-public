@@ -31,7 +31,7 @@
 ## Agent Development
 ### Existing Agents
 - **pathfinder_tool:** A custom tool using A* to find paths. Still under development.
-- **puzzle_solver_agent:** An agent for generating hypotheses when stuck. (Refined to use map data).
+- **puzzle_solver_agent:** An agent for generating hypotheses when stuck. (Refined to use map data and focus on locally possible actions when trapped).
 
 ### Agent Ideas
 - **battle_strategist_agent:** Suggests the optimal move or action in difficult battles.
