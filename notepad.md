@@ -29,10 +29,12 @@
 ## Untested Tile Mechanics
 - **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with (e.g., requires Surf).
 
-## Agent Development
+## Agent & Tool Development
 ### Existing Agents
-- **pathfinder_tool:** A custom tool using A* to find paths. **CRITIQUE NOTE:** This tool has proven unreliable (failed to find a path when trapped) and needs to be fixed or replaced. Do not rely on it until it is verified.
 - **puzzle_solver_agent:** An agent for generating hypotheses when stuck. **NOTE:** While useful, this agent cannot solve a truly unsolvable puzzle (like a softlock). It may generate hypotheses based on faulty map data if the game state is bugged.
+
+### Custom Tools
+- **pathfinder_tool:** A custom tool using A* to find paths. **CRITIQUE NOTE:** This tool has proven unreliable and is currently broken. I should either fix its script or delete it properly. It should not be used.
 
 ### Agent Ideas
 - **battle_strategist_agent:** Suggests the optimal move or action in difficult battles.
