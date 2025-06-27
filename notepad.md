@@ -28,3 +28,5 @@
 - **LEDGE / HOP_DOWN / HOP_LEFT / HOP_RIGHT / HOP_DOWN_LEFT / HOP_DOWN_RIGHT:** One-way traversal tiles. It is impossible to move *onto* these tiles from an adjacent tile. They can only be exited in their specified direction.
 ## Discoveries & Roadblocks
 - My `navigation_agent` has confirmed that the POKE_BALL at (48, 2) on Route 29 is unreachable from the lower sections of the route. This area is likely accessed from another route or requires an HM.
+## Route 29 Layout
+- **Confirmed Dead End:** The western part of Route 29 (leading to Cherrygrove City) is completely inaccessible from the eastern plateau due to one-way ledges. The only exit from the eastern section is back to New Bark Town.
