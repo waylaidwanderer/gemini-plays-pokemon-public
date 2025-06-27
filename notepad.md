@@ -1,12 +1,24 @@
 # Pokémon Crystal Journey
 
-## Key Information
-- **Rival:** A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
-
 ## My Pokémon Party
 - **Hestia (Cyndaquil):** TACKLE, LEER, SMOKESCREEN, EMBER (Fire-type).
 - **Vermin (Rattata):** TACKLE, TAIL WHIP
 - **Hedwig (Hoothoot):** TACKLE, GROWL
+
+## Key Information
+- **Rival:** A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
+
+## Current Plans & Hypotheses
+- **Objective:** Return to Professor Elm in New Bark Town with the Mystery Egg.
+- **Reasoning:** Professor Elm called urgently. This is the main story quest. The path east is blocked by one-way ledges, so I must travel west through Cherrygrove City.
+- **Immediate Steps:**
+    1. Navigate through Route 29 to reach Cherrygrove City.
+    2. Travel from Cherrygrove City to New Bark Town.
+    3. Enter Professor Elm's Lab and speak to him.
+
+### Untested Assumptions to Verify
+- The path north on Route 30 will open after speaking with Elm.
+- The Guide Gent is not permanently gone; he will appear in his house later.
 
 ## Game Mechanics & Discoveries
 
@@ -29,43 +41,22 @@
 - **WARP_CARPET_DOWN:** A warp tile at building entrances/exits.
 - **HEADBUTT_TREE:** An impassable tree.
 - **WATER:** An impassable body of water, likely requires HM 'Surf'.
-- **LEDGE:** A one-way barrier that can only be jumped over from the higher side. Its appearance can change.
+- **LEDGE:** A one-way barrier that can only be jumped over from the higher side.
 - **HOP_DOWN / HOP_LEFT / HOP_RIGHT / HOP_DOWN_LEFT / HOP_DOWN_RIGHT:** One-way ledge tiles that can only be traversed in the specified direction.
-- **Dynamic Map Tiles:** On Route 29, some tiles initially appearing as WALLs can dynamically change to LEDGEs as I move nearby. This can interrupt pathing and requires caution.
-
-### Untested Tile Mechanics
+- **Dynamic Map Tiles:** On Route 29, some tiles initially appearing as WALLs can dynamically change to LEDGEs as I move nearby. This can interrupt pathing and requires caution. I must mark these as I find them.
 - **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with.
 
 ## Agent & Tool Development
 
 ### Current Tools & Agents
-- **map_analyzer_agent:** Analyzes a pre-processed list of unseen tile coordinates to identify clusters for exploration.
-- **pathfinder_tool (DEPRECATED):** The current pathfinder does not correctly interpret the traversal rules for LEDGE tiles, often creating invalid paths. It should no longer be used.
+- **`navigation_agent` (ACTIVE):** A sophisticated pathfinding agent that correctly understands complex tile mechanics like ledges. It has proven reliable, and its outputs should be trusted.
+- **`pathfinder_tool` (DEPRECATED):** This tool does not correctly interpret ledge traversal and should not be used.
+- **`map_analyzer_agent`:** Analyzes a pre-processed list of unseen tile coordinates to identify clusters for exploration.
 
-### Development Plan
-- **`navigation_agent` (High Priority):** An improved pathfinding agent that correctly understands complex tile mechanics.
-  - **Function:** To replace the faulty `pathfinder_tool`.
-  - **Logic:** It will implement an A* search algorithm that correctly parses the map XML.
-  - **Key Features:**
-    1.  Correctly identify and handle one-way traversal for all `LEDGE` and `HOP_*` tile types.
-    2.  Treat all `<Object>` elements as impassable walls.
-    3.  Accept a list of impassable tile types as an argument for flexibility.
-  - **Status:** To be defined immediately.
-
-- **`battle_strategist_agent` (Idea):** Suggests the optimal move in difficult battles.
-- **`party_manager_agent` (Idea):** Suggests party composition and healing needs.
-- **`auto_repel_tool` (Idea):** A tool to automatically use a Repel from the bag.
-
-## Current Plans & Hypotheses
-- **Objective:** Return to Professor Elm in New Bark Town with the Mystery Egg.
-- **Reasoning:** Professor Elm called urgently. This is the main story quest.
-- **Immediate Steps:**
-    1.  Define `navigation_agent` to fix pathing issues.
-    2.  Use the new agent to calculate a reliable path to New Bark Town.
-    3.  Enter Professor Elm's Lab and speak to him.
-- **Untested Assumptions to Verify:**
-    1. The path north on Route 30 will open after speaking with Elm.
-    2. The Guide Gent is not permanently gone; he will appear in his house later.
+### Future Development Ideas
+- **`battle_strategist_agent`:** Suggests the optimal move in difficult battles.
+- **`party_manager_agent`:** Suggests party composition and healing needs.
+- **`auto_repel_tool`:** A tool to automatically use a Repel from the bag.
 
 ## Archived Notes & Lessons Learned
-- **`puzzle_solver_agent` Hallucinations:** The agent repeatedly provided incorrect advice based on the wrong map and player abilities. It was deleted after multiple failed refinement attempts. Lesson: Agents require very specific, context-rich prompts to be effective.
+- **`puzzle_solver_agent` Hallucinations:** An early agent repeatedly provided incorrect advice based on the wrong map and player abilities. It was deleted after multiple failed refinement attempts. Lesson: Agents require very specific, context-rich prompts to be effective.
