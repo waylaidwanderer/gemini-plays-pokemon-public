@@ -62,3 +62,5 @@
 ## VI. Critical Self-Corrections
 - **CRITICAL SELF-CORRECTION (T28681):** Hallucinated that Silph Co. 5F was fully explored. There were 6 reachable unseen tiles. I MUST return to Silph Co. 5F and explore it completely after healing. This is a top priority.
 - **CRITICAL SELF-CORRECTION (T28728):** Experienced a major hallucination loop, misidentifying my location for multiple turns. I must be more rigorous in checking Game State Information against my assumptions.
+
+- `post_battle_agent`: A workflow agent to automate post-battle tasks. It would call `encounter_tracker_agent` for wild battles and `define_map_marker` for trainer battles.
