@@ -29,33 +29,43 @@
 - **WARP_CARPET_DOWN:** A warp tile at building entrances/exits.
 - **HEADBUTT_TREE:** An impassable tree.
 - **WATER:** An impassable body of water, likely requires HM 'Surf'.
-- **LEDGE:** A one-way barrier that can only be jumped over from one side. Its appearance can change. The system is currently updating tiles that were incorrectly displayed as WALLs to their correct LEDGE type, which can interrupt pathing.
+- **LEDGE:** A one-way barrier that can only be jumped over from the higher side. Its appearance can change.
 - **HOP_DOWN / HOP_LEFT / HOP_RIGHT / HOP_DOWN_LEFT / HOP_DOWN_RIGHT:** One-way ledge tiles that can only be traversed in the specified direction.
+- **Dynamic Map Tiles:** On Route 29, some tiles initially appearing as WALLs can dynamically change to LEDGEs as I move nearby. This can interrupt pathing and requires caution.
 
 ### Untested Tile Mechanics
 - **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with.
 
-## Known Issues & Bugs
-- **`puzzle_solver_agent` Hallucinations:** The agent has repeatedly provided incorrect advice based on the wrong map and player abilities. It has been deleted after multiple failed refinement attempts.
-- **`pathfinder_tool` Ledge Issue:** The current pathfinder does not correctly interpret the traversal rules for LEDGE tiles, often creating invalid paths. This requires a future tool improvement.
-
 ## Agent & Tool Development
 
-### Custom Agents
+### Current Tools & Agents
 - **map_analyzer_agent:** Analyzes a pre-processed list of unseen tile coordinates to identify clusters for exploration.
+- **pathfinder_tool (DEPRECATED):** The current pathfinder does not correctly interpret the traversal rules for LEDGE tiles, often creating invalid paths. It should no longer be used.
 
-### Agent & Tool Ideas
-- **navigation_agent:** An improved pathfinding agent that correctly understands complex tile mechanics like ledges.
-- **battle_strategist_agent:** Suggests the optimal move in difficult battles.
-- **party_manager_agent:** Suggests party composition and healing needs.
-- **auto_repel_tool:** A tool to automatically use a Repel from the bag.
+### Development Plan
+- **`navigation_agent` (High Priority):** An improved pathfinding agent that correctly understands complex tile mechanics.
+  - **Function:** To replace the faulty `pathfinder_tool`.
+  - **Logic:** It will implement an A* search algorithm that correctly parses the map XML.
+  - **Key Features:**
+    1.  Correctly identify and handle one-way traversal for all `LEDGE` and `HOP_*` tile types.
+    2.  Treat all `<Object>` elements as impassable walls.
+    3.  Accept a list of impassable tile types as an argument for flexibility.
+  - **Status:** To be defined immediately.
+
+- **`battle_strategist_agent` (Idea):** Suggests the optimal move in difficult battles.
+- **`party_manager_agent` (Idea):** Suggests party composition and healing needs.
+- **`auto_repel_tool` (Idea):** A tool to automatically use a Repel from the bag.
 
 ## Current Plans & Hypotheses
 - **Objective:** Return to Professor Elm in New Bark Town with the Mystery Egg.
-- **Reasoning:** Professor Elm called urgently. This is the main story quest. My previous hypothesis about battling the rival in Cherrygrove was incorrect, as the path west is blocked by a non-rival NPC.
+- **Reasoning:** Professor Elm called urgently. This is the main story quest.
 - **Immediate Steps:**
-    1. Navigate manually east through Route 29 to reach New Bark Town.
-    2. Enter Professor Elm's Lab and speak to him.
+    1.  Define `navigation_agent` to fix pathing issues.
+    2.  Use the new agent to calculate a reliable path to New Bark Town.
+    3.  Enter Professor Elm's Lab and speak to him.
 - **Untested Assumptions to Verify:**
     1. The path north on Route 30 will open after speaking with Elm.
     2. The Guide Gent is not permanently gone; he will appear in his house later.
+
+## Archived Notes & Lessons Learned
+- **`puzzle_solver_agent` Hallucinations:** The agent repeatedly provided incorrect advice based on the wrong map and player abilities. It was deleted after multiple failed refinement attempts. Lesson: Agents require very specific, context-rich prompts to be effective.
