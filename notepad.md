@@ -51,7 +51,7 @@
 - **Primary Goal:** Find the CARD KEY.
 - **Methodology:** Explore each floor completely. Map all warps and teleporters. Defeat all trainers. Use the CARD KEY to unlock all previously inaccessible areas.
 - **Silph Co. Protocols:**
-    1.  **Teleporter Mapping:** After using any teleporter, immediately use `wkg_connection_manager` to document the connection in the WKG.
+    1.  **Teleporter Mapping:** After using any teleporter, immediately use `manage_world_knowledge` to document the connection in the WKG.
     2.  **Teleporter Bidirectionality Test:** After using a teleporter, immediately attempt to use it again to confirm if it's two-way.
 - WKG Integrity Check (T29147): Confirmed via script that the teleporter at 6F (17,1) has only one edge. My previous note about a data issue was a hallucination.
 - **Positional Gate Mechanic (5F):** Gates on this floor are triggered by movement, not a key. A gate at (7,6) opened after walking north, and a gate at (7,7) opened after walking south. This confirms positional triggers are part of the puzzle.
