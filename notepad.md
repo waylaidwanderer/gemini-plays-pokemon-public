@@ -46,3 +46,8 @@
 - WATER: An impassable tile without the HM Surf. (Assumption)
 - MART_SHELF: An impassable barrier, similar to a WALL.
 - WARP_CARPET_DOWN: A warp tile that leads out of a building.
+- TOWN_MAP: Impassable object.
+- WINDOW: Impassable object.
+- BOOKSHELF: Impassable object.
+- TV: Impassable object.
+- RADIO: Impassable object.
