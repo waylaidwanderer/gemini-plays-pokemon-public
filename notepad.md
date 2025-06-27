@@ -50,5 +50,5 @@
 - **Hypothesis (from puzzle_solver_agent):** The side 'mazes' are not paths, but triggers. Visiting a specific point in both mazes might unlock the central path.
 - **Plan:**
   1. Visit western maze dead-end at (2, 26). **(Completed)**
-  2. Navigate to and fully explore the eastern maze to find its trigger point.
+  2. Navigate to and fully explore the eastern maze to find its trigger point. **(Completed)**
   3. Return to the central path at (6, 30) to check for changes (e.g., NPC moved, path opened).
