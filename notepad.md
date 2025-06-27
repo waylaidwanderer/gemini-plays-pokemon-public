@@ -5,12 +5,15 @@
 
 ## My Pokémon Party
 - **Hestia (Cyndaquil):** TACKLE, LEER, SMOKESCREEN, EMBER (Fire-type).
+- **Vermin (Rattata):** TACKLE, TAIL WHIP
+- **Hedwig (Hoothoot):** TACKLE, GROWL
 
 ## Game Mechanics & Discoveries
 
 ### System Mechanics
 - **Stuck on Warp/Event Tile:** If movement is locked, opening and closing the main menu ('Start' -> 'B') can resolve the issue.
 - **World Knowledge Graph:** I must use `manage_world_knowledge` every time I transition between maps to keep my internal world map accurate. This is a top priority.
+- **Map-altering events:** Some routes, like Route 29, can have their layout change due to scripted events.
 
 ### Battle Mechanics
 - **Held Items (Berries):** Pokémon can use held Berries to heal themselves in battle.
@@ -23,11 +26,12 @@
 - **DOOR:** A warp tile that leads into and out of buildings.
 - **CUT_TREE:** Impassable, requires HM 'Cut'.
 - **FRUIT_TREE:** An impassable object.
-- **HOP_DOWN:** A one-way ledge that can only be jumped down from above.
 - **VOID:** An impassable boundary tile.
 - **WARP_CARPET_DOWN:** A warp tile at building entrances/exits.
 - **HEADBUTT_TREE:** An impassable tree.
 - **WATER:** An impassable body of water, likely requires HM 'Surf'.
+- **LEDGE:** A one-way barrier that can only be jumped over from one side. Its appearance can change.
+- **HOP_DOWN / HOP_LEFT / HOP_RIGHT / HOP_DOWN_LEFT / HOP_DOWN_RIGHT:** One-way ledge tiles that can only be traversed in the specified direction.
 
 ### Untested Tile Mechanics
 - **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with.
@@ -35,8 +39,8 @@
 ## Agent & Tool Development
 
 ### Custom Agents
-- **puzzle_solver_agent:** Generates hypotheses when stuck. Has proven to be very effective at identifying story-based progression blockers.
-- **map_analyzer_agent:** Analyzes map XML to identify clusters of unseen tiles for exploration. Requires `map_xml_string` as input.
+- **puzzle_solver_agent:** Generates hypotheses when stuck.
+- **map_analyzer_agent:** Analyzes a pre-processed list of unseen tile coordinates to identify clusters for exploration. (Refined to be more efficient).
 
 ### Agent & Tool Ideas
 - **battle_strategist_agent:** Suggests the optimal move in difficult battles.
@@ -46,16 +50,11 @@
 - **auto_repel_tool:** A tool to automatically use a Repel from the bag.
 
 ## Current Plans & Hypotheses
-- **Objective:** Trigger the Rival battle and return to Professor Elm.
-- **Agent Hypothesis:** My `puzzle_solver_agent` determined that I am story-locked, not physically stuck. Progress north is blocked until I backtrack and complete key events.
-- **Current Strategy:** Follow the agent's highest-ranked hypotheses to progress the story.
+- **Objective:** Return to Professor Elm in New Bark Town with the Mystery Egg.
+- **Reasoning:** Professor Elm called urgently. This is the main story quest. My previous hypothesis about battling the rival in Cherrygrove was incorrect.
 - **Immediate Steps:**
-    1. Navigate from Route 30 south to Cherrygrove City.
-    2. Go to the western exit of Cherrygrove City to trigger the mandatory battle with my Rival, KAINE.
-    3. After the battle, continue south through Route 29 to New Bark Town.
-    4. Enter Professor Elm's Lab and speak to him.
+    1. Navigate from Route 29 east to New Bark Town.
+    2. Enter Professor Elm's Lab and speak to him.
 - **Untested Assumptions to Verify:**
-    1. The rival battle with KAINE will happen as soon as I enter Cherrygrove City from the north and head west.
-    2. The `BUOY` tile in Cherrygrove City is an impassable wall (Test by interacting).
-    3. The path north on Route 30 will open after the rival battle and speaking with Elm.
-- The Guide Gent is not currently in his house in Cherrygrove City.
+    1. The path north on Route 30 will open after speaking with Elm.
+    2. The Guide Gent is not permanently gone; he will appear in his house later.
