@@ -22,22 +22,16 @@
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Field Use:** HMs must be taught to a Pokémon to enable field use. FLY cannot be used indoors.
 
-## III. Agent & Tool Development Log (v23)
+## III. Agent & Tool Development Log (v24)
 ### A. Active Agents & Tools (Reliable)
 - `pathfinder` (tool)
 - `pc_navigator_agent` (v2)
 - `battle_strategist_agent` (v6)
 - `team_composition_advisor_agent` (v2)
 - `protocol_enforcement_agent` (v1) - *MUST use before every turn.*
-### B. Active Agents & Tools (Reliable)
-- `pathfinder` (tool)
-- `pc_navigator_agent` (v2)
-- `battle_strategist_agent` (v6)
-- `team_composition_advisor_agent` (v2)
-- `protocol_enforcement_agent` (v1) - *MUST use before every turn.*
-- `navigator_agent` (v1): For overworld pathfinding.
 
-### C. Development Backlog
+### B. Development Backlog
+- `navigator_agent`: For overworld pathfinding.
 - `json_payload_generator`: To assist in creating correct JSON for tool calls.
 - `dungeon_navigator_agent`: To plot a full exploration course for multi-floor dungeons like Silph Co.
 - `inventory_manager_agent`: To organize and suggest item uses.
@@ -58,7 +52,7 @@
 ## V. Trainer Intel
 *A log of noteworthy trainer Pokémon rosters.*
 - **Silph Co. 4F Rocket (10, 15):** Machoke (Lv39), Hypno (Lv39)
-- **Silph Co. 4F Scientist (13, 7):** Electabuzz (Lv41)
+- **Silph Co. 4F Scientist (15, 7):** Electabuzz (Lv41)
 
 ## VI. Type Effectiveness Chart (Observed)
 *A log of confirmed type interactions in this ROM hack.*
