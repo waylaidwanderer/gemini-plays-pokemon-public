@@ -69,3 +69,5 @@
 - `marker_cleanup_agent`: An agent to identify and suggest deletions for redundant or obsolete map markers.
 
 - `marker_cleanup_agent`: An agent to identify and suggest deletions for redundant or obsolete map markers.
+
+- `marker_cleanup_agent`: An agent to identify and suggest deletions for redundant or obsolete map markers.
