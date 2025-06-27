@@ -39,7 +39,7 @@
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
 - `dungeon_navigator_agent`: An agent to plot a full exploration course for a multi-floor dungeon like Silph Co.
 - Upgrade `pathfinder` tool to handle intra-map teleporters for more complex pathing.
-- Redesign `post_battle_agent` for reliability.
+- Recreate `post_battle_agent` for reliability.
 - Upgrade `battle_strategist_agent` to include damage calculation estimates and KO probability.
 
 ## IV. Silph Co. Intel & Strategy
