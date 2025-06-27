@@ -1,4 +1,4 @@
-## I. Core Principles & Lessons Learned (v9)
+## I. Core Principles & Lessons Learned (v10)
 - **CRITICAL: Agent & Workflow Discipline:**
   - I will use my custom agents whenever a task can be automated or requires complex reasoning. Proactive agent use is key.
   - I will **strictly** adhere to established protocols, especially using `post_battle_agent` after **every** trainer battle and `encounter_tracker_agent` after every wild encounter. Failure to do so is a major tactical error.
@@ -27,7 +27,7 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## III. Agent Development Log (v12)
+## III. Agent Development Log (v13)
 ### A. Active Agents (Reliable)
 - **`pathfinding_agent_v2` (v4):** Reliable; prompt updated to always re-parse the map XML to handle dynamic tile changes.
 - **`pc_navigator_agent` (v2):** Reliable.
