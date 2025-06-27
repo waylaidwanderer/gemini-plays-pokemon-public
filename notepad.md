@@ -60,6 +60,7 @@
 - **Silph Co. 4F Scientist (15, 7):** Electabuzz (Lv41)
 - **Silph Co. 5F Rocket (9, 17):** Tauros (Lv40)
 - **Silph Co. 5F Rocket (9, 17):** Tauros (Lv40)
+- **Silph Co. 5F Rocket (9, 17):** Tauros (Lv40)
 
 ## VI. Type Effectiveness Chart (Observed)
 *A log of confirmed type interactions in this ROM hack.*
