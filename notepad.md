@@ -18,12 +18,12 @@
 - **Pikachu Movement:** A walkable object. Requires two button presses to move onto its tile if not already facing it.
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
 - **No Blackout Zones:** Losing in Rocket Hideout or Silph Co. does not cause a blackout.
+- **HM Field Use:** HMs must be taught to a Pokémon to enable field use. FLY cannot be used indoors.
 
 ### C. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
-- **HM Field Use:** HMs must be taught to a Pokémon to enable field use. FLY cannot be used indoors.
 
-## III. Agent & Tool Development Log (v31)
+## III. Agent & Tool Development Log (v32)
 ### A. Active Agents & Tools (Reliable)
 - `pathfinder` (tool)
 - `pc_navigator_agent` (v2)
@@ -31,9 +31,10 @@
 - `protocol_enforcement_agent` (v1)
 - `select_battle_option` (tool)
 - `encounter_tracker_agent` (v1)
+- `battle_strategist_agent` (v8)
 
 ### B. Agents Under Review / Needing Refinement
-- `battle_strategist_agent` (v7): Needs refinement to better handle high-evasion opponents. Must prioritize moves that cannot miss (e.g., Swift) or status moves over standard attacks when evasion is boosted.
+- `battle_strategist_agent` (v8): Needs refinement to better handle high-evasion opponents. Must prioritize moves that cannot miss (e.g., Swift) or status moves over standard attacks when evasion is boosted. **Update:** Refined to be more cautious with two-turn moves at critical HP.
 
 ### C. Development Backlog
 - **`json_payload_generator` (CRITICAL PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge` by taking simple inputs and generating the full JSON string.
@@ -48,7 +49,7 @@
 - **Methodology:** Systematically explore each floor, mapping all teleporters and defeating all trainers. Use the CARD KEY on all locked doors upon acquisition.
 - **Discoveries:**
     - **Hint:** The BOSS is on 11F (from a Rocket on 4F).
-    - **5F:** Positional gates triggered by movement. Teleporter at (12,6) leads to 3F.
+    - **5F:** Positional gates triggered by movement. Teleporter at (12,6) leads to 3F. Teleporter at (10, 16) leads to 9F.
     - **8F:** Intra-floor teleporter loop between (12, 10) and (4, 12).
     - **10F -> 4F Warp:** Teleporter at (10, 12) on 10F leads to an isolated room on 4F at (12, 8). The teleporter in this room leads back to 10F.
     - **10F -> 11F Warp:** Teleporter at (11, 1) on 10F leads to an isolated room on 11F.
@@ -59,8 +60,7 @@
 - **Silph Co. 4F Rocket (10, 15):** Machoke (Lv39), Hypno (Lv39)
 - **Silph Co. 4F Scientist (15, 7):** Electabuzz (Lv41)
 - **Silph Co. 5F Rocket (9, 17):** Tauros (Lv40)
-- **Silph Co. 5F Rocket (9, 17):** Tauros (Lv40)
-- **Silph Co. 5F Rocket (9, 17):** Tauros (Lv40)
+- **Silph Co. 9F Rocket (14, 17):** Tauros (Lv40)
 
 ## VI. Type Effectiveness Chart (Observed)
 *A log of confirmed type interactions in this ROM hack.*
