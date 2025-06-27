@@ -45,3 +45,4 @@
 - **WARP_CARPET_DOWN:** A warp tile, usually found at the entrance/exit of buildings. Stepping on it transports the player to a different map.
 - **HEADBUTT_TREE:** Appears to be an impassable tree.
 - **WATER:** Appears to be an impassable body of water, likely requires HM 'Surf'.
+- **Route 30 Western Path:** This path is a dead end for now, blocked by a CUT_TREE at (8, 6).
