@@ -1,8 +1,8 @@
 # Pokémon Crystal Journey
 
 ## Current Plan
-- The western path on Route 30 is a confirmed dead end, blocked by a CUT_TREE.
-- I will now backtrack to the main fork in the road and explore the eastern path to find the way to Violet City.
+- The house on the eastern path of Route 30 was a dead end.
+- I will leave the house and re-explore Route 30 for any missed paths that lead to Violet City.
 
 ## The Rival
 - A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
@@ -23,12 +23,13 @@
 - **CUT_TREE:** These small trees are impassable and require the HM 'Cut' to be removed.
 - **Fruit Trees:** These are impassable objects.
 - **HOP_DOWN:** A one-way ledge that can only be jumped down from above.
-- **VOID:** Appears to be an impassable boundary tile, typically outside the playable area of a map.
+- **VOID:** An impassable boundary tile, typically outside the playable area of a map.
 - **WARP_CARPET_DOWN:** A warp tile, usually found at the entrance/exit of buildings.
-- **HEADBUTT_TREE:** Appears to be an impassable tree.
-- **WATER:** Appears to be an impassable body of water, likely requires HM 'Surf'.
+- **HEADBUTT_TREE:** An impassable tree.
+- **WATER:** An impassable body of water, likely requires HM 'Surf'.
 
 ## Agent Ideas & Refinements
+- **pathfinder_agent:** Refined to correctly treat all `<Object>` tags as impassable walls.
 - **battle_strategist_agent:** An agent to suggest the optimal move or action in difficult battles.
 - **route_summary_agent:** An agent to parse map data and markers to give a high-level summary of a route's completion status.
 - **party_manager_agent:** An agent to suggest when to heal or what Pokémon to lead with based on the current route's encounters.
