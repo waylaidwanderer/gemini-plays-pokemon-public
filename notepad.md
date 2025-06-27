@@ -10,12 +10,8 @@
 
 ## Current Plans & Hypotheses
 - **Objective:** Return to Professor Elm in New Bark Town with the Mystery Egg.
-- **Reasoning:** I am currently on Route 29. My navigation agent has confirmed that the path east to New Bark Town is blocked by a series of one-way ledges. Therefore, the only way forward is to travel west to Cherrygrove City and then south to New Bark Town. I am currently in an isolated southern pocket of Route 29 and must find the exit.
-- **Current Strategy:** Employ the 'left-hand rule' maze-solving algorithm to systematically explore the pocket I am in, starting from the westernmost point of the southern corridor at (24, 16).
-
-### Untested Assumptions to Verify
-- The path north on Route 30 will open after speaking with Elm.
-- The Youngster NPC at (27, 16) has a larger-than-normal collision box or a hidden trigger that blocks adjacent tiles.
+- **Reasoning:** I am currently in what appears to be an isolated southern pocket of Route 29. The system has explicitly stated I am not trapped and that there are no one-way paths. My previous assumptions about ledges were incorrect.
+- **Current Strategy:** I will employ the system-mandated maze-solving algorithm to find the exit. The rule is: always turn left at an intersection; if an obstacle is encountered, attempt to walk through it. If it is truly impassable, turn right relative to the direction of travel and continue.
 
 ## Game Mechanics & Discoveries
 
@@ -37,20 +33,16 @@
 - **WATER:** An impassable body of water, likely requires HM 'Surf'.
 - **VOID:** An impassable boundary tile.
 - **WARP_CARPET_DOWN:** A warp tile at building entrances/exits.
-- **LEDGE (Confirmed One-Way):** My experiment at (42, 14) confirms that ledges are strictly one-way. It is impossible to move from a lower elevation to a higher one by jumping up a ledge.
-- **HOP_DOWN:** One-way ledge tile that can only be traversed by moving down (to Y+1).
-- **HOP_LEFT:** One-way ledge tile that can only be traversed by moving left (to X-1).
-- **HOP_RIGHT:** One-way ledge tile that can only be traversed by moving right (to X+1).
-- **HOP_DOWN_LEFT:** One-way ledge tile that can only be traversed by moving down (to Y+1) OR left (to X-1).
-- **HOP_DOWN_RIGHT:** One-way ledge tile that can only be traversed by moving down (to Y+1) OR right (to X+1).
+- **LEDGE (Mechanics Unconfirmed):** The system has stated there are no one-way paths. My previous experiment showing them as one-way was flawed. I must re-test this mechanic under different conditions.
+- **HOP_DOWN / HOP_LEFT / HOP_RIGHT / HOP_DOWN_LEFT / HOP_DOWN_RIGHT:** The mechanics of these tiles are also unconfirmed and must be re-tested.
 - **Dynamic Map Tiles:** On Route 29, some tiles initially appearing as WALLs can dynamically change to LEDGEs as I move nearby. This is a critical mechanic to track with map markers.
 
 ## Agent & Tool Development
 
 ### Current Tools & Agents
-- **`navigation_agent` (ACTIVE - Requires Careful Use):** A sophisticated pathfinding agent. It correctly understands one-way ledge mechanics. Its failures have been due to my own errors (incomplete impassable lists, distrusting correct output). I must trust its analysis.
-- **`pathfinder_tool` (DEPRECATED):** This tool does not correctly interpret ledge traversal and should not be used.
+- **`navigation_agent` (SUSPENDED):** This agent's logic is based on a flawed understanding of ledge mechanics. I will not use it until I have re-verified and corrected the traversal rules.
+- **`pathfinder_tool` (DEPRECATED):** This tool is obsolete.
 
 ### Future Development Ideas
 - **`maze_solver_agent`:** Automate the 'left-hand rule' exploration strategy.
-- **`map_preprocessor_tool`:** A tool to parse the `map_xml_string` and provide a simplified grid to the `navigation_agent`.
+- **`map_preprocessor_tool`:** A tool to parse the `map_xml_string` and provide a simplified grid to an agent.
