@@ -58,3 +58,4 @@
     1. The rival battle with KAINE will happen as soon as I enter Cherrygrove City from the north and head west.
     2. The `BUOY` tile in Cherrygrove City is an impassable wall (Test by interacting).
     3. The path north on Route 30 will open after the rival battle and speaking with Elm.
+- The Guide Gent is not currently in his house in Cherrygrove City.
