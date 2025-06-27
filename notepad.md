@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v24)
-- **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays. **I must verify my current map_id and coordinates from the Game State Information BEFORE every documentation action to prevent hallucinations.**
-- **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents whenever a task can be automated or requires complex reasoning. This is not optional.
-- **CRITICAL: Post-Event Checklists (MANDATORY ADHERENCE):**
-  - **Trainer Battle:** Mark defeated trainer with '☠️' using `define_map_marker`, using their specific sprite name for clarity. Log their Pokémon under 'Trainer Intel'.
+## I. Core Protocols & Immediate Actions (v25)
+- **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays. I will verify my current map_id and coordinates from the Game State Information BEFORE every documentation action.
+- **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents whenever a task can be automated or requires complex reasoning. I will prioritize developing agents that solve my most immediate problems.
+- **CRITICAL: Post-Event Checklists (MANDATORY):**
+  - **Trainer Battle:** Mark defeated trainer with '☠️' and log their Pokémon under 'Trainer Intel'.
   - **Wild Encounter:** Log EVERY wild Pokémon with `encounter_tracker_agent`.
   - **Map Transition (Warp/Stairs/Edge):** Immediately use `manage_world_knowledge` to document the connection and mark used warps (entry/exit) with '🚪'.
 
@@ -23,38 +23,28 @@
 ### C. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 
-## III. Agent & Tool Development Log (v38)
-### A. Active Agents (Reliable)
+## III. Agent & Tool Development Log (v39)
+### A. Development Priorities
+- **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`. Manual JSON scripting is too slow and error-prone.
+- **`dungeon_navigator_agent` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. This is essential for finding the CARD KEY efficiently.
+
+### B. Active Agents (Reliable)
 - `pc_navigator_agent` (v2)
 - `team_composition_advisor_agent` (v2)
 - `protocol_enforcement_agent` (v1)
 - `encounter_tracker_agent` (v1)
 - `battle_strategist_agent` (v9)
 
-### B. Active Tools (Reliable)
+### C. Active Tools (Reliable)
 - `pathfinder` (limitation: unreliable for complex, segmented city maps like Saffron City).
 - `select_battle_option`
-
-### C. Agents Under Review / Needing Refinement
-- `battle_strategist_agent` (v9): Refined to be more cautious with two-turn moves at critical HP. Will continue to monitor.
-
-### D. Development Backlog
-- **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge` by taking simple inputs and generating the full JSON string. My manual scripting for WKG is too slow and error-prone.
-- **`dungeon_navigator_agent` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. This is essential for finding the CARD KEY efficiently.
-- **`puzzle_solver_agent` (High Priority):** To analyze map XML for changes (e.g., positional gates) and propose puzzle solutions.
-- **`grinding_assistant_agent` (Medium Priority):** To automate the generation of optimal back-and-forth movement patterns for grinding wild Pokémon in a specific area.
-- `reachable_warp_lister_tool` (Low Priority): A simple tool to print a list of reachable warps to prevent future hallucinations and misjudgements of dead ends.
-- `navigator_agent`: For overworld pathfinding.
-- `inventory_manager_agent`: To organize and suggest item uses.
 
 ## IV. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
 - **Methodology:** Systematically explore each floor, mapping all teleporters and defeating all trainers. Use the CARD KEY on all locked doors upon acquisition.
-- **Outstanding Tasks:**
-    - **PROTOCOL REINFORCEMENT:** All documentation tasks (WKG, markers) are to be completed on the same turn of discovery. There are no 'outstanding tasks'; only immediate actions.
 - **Discoveries:**
     - **Hint:** The BOSS is on 11F (from a Rocket on 4F).
-    - **5F:** Positional gates triggered by movement.
+    - **5F:** Positional gates triggered by movement. Puzzle unsolved. The western area is inaccessible from the central room.
     - **8F:** Intra-floor teleporter loop.
 
 ## V. Trainer Intel
@@ -65,19 +55,7 @@
 - **Silph Co. 5F Rocket (9, 17):** Tauros (Lv40)
 - **Silph Co. 9F Scientist (22, 14):** Muk (Lv40), Kabutops (Lv40)
 
-## VI. Type Effectiveness Chart (Observed)
-*A log of confirmed type interactions in this ROM hack.*
-- Psychic (player) vs. Psychic (opponent) -> Not Very Effective
-- Electric (player) vs. Psychic (opponent) -> No Effect (Immune)
-- Electric (player) vs. Rock/Water (opponent) -> Super-Effective
-
-## VII. Active Investigations & Untested Assumptions (Post-Reflection)
+## VI. Active Investigations & Untested Assumptions
 - **Assumption 1 (CARD KEY Location):** The `CARD KEY` is a physical item (Poké Ball) on the ground. **Hypothesis:** It could be given by an NPC after a specific trigger. **Test:** Continue systematically clearing floors and talking to all NPCs.
-- **Assumption 2 (Gate Puzzles):** The closed gates on 10F are part of a puzzle I can solve on that floor. **Hypothesis:** They might be opened by a switch on a completely different floor. **Test:** Continue exploring all floors thoroughly. The `dungeon_navigator_agent` would be key here.
+- **Assumption 2 (Gate Puzzles):** The closed gates on various floors (5F, 7F, etc.) are part of a puzzle I can solve on that floor. **Hypothesis:** They might be opened by a master switch on a completely different floor. **Test:** Continue exploring all floors thoroughly. The `dungeon_navigator_agent` would be key here.
 - **Assumption 3 (Rocket Progression):** I need to defeat all Rockets to progress. **Hypothesis:** Some might just provide flavor text. **Test:** If a Rocket doesn't battle me, mark them as non-hostile ('💬') and move on, not assuming they are a progression blocker unless they physically block the path.
-
-## Reflection (Turn 30912)
-- **Data Management Lapses:** Failed to immediately document 7F->Elevator and 5F->3F transitions. This is a critical protocol failure and must be corrected. Will be more disciplined.
-- **Agent/Tool Use:** Existing tools are fine, but I need to build the `dungeon_navigator_agent` and `json_payload_generator` to improve efficiency and reduce manual errors.
-- **Goal Flexibility:** Correctly pivoted away from the stalled 5F puzzle. New plan is to explore other floors, starting with 3F.
-- **Untested Assumptions:** The CARD KEY might be held by an NPC, not just be a Poké Ball item. The 5F gate puzzle switch is likely on another floor.
