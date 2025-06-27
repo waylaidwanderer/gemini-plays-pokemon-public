@@ -4,9 +4,10 @@
 - **Rival:** A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
 
 ## Game Mechanics & Discoveries
+
 ### System Mechanics
 - **Stuck on Warp/Event Tile:** If movement is locked, opening and closing the main menu ('Start' -> 'B') can resolve the issue.
-- **World Knowledge Graph:** I must remember to use `manage_world_knowledge` every time I transition between maps to keep my internal world map accurate.
+- **World Knowledge Graph:** I must use `manage_world_knowledge` every time I transition between maps to keep my internal world map accurate. This is a top priority.
 
 ### Battle Mechanics
 - **Held Items (Berries):** Pokémon can use held Berries to heal themselves in battle.
@@ -26,23 +27,23 @@
 - **HEADBUTT_TREE:** An impassable tree.
 - **WATER:** An impassable body of water, likely requires HM 'Surf'.
 
-## Untested Tile Mechanics
+### Untested Tile Mechanics
 - **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with (e.g., requires Surf).
 
 ## Agent & Tool Development
-### Existing Agents
-- **puzzle_solver_agent:** An agent for generating hypotheses when stuck. **NOTE:** While useful, this agent cannot solve a truly unsolvable puzzle (like a softlock). It may generate hypotheses based on faulty map data if the game state is bugged.
 
-### Custom Tools
-- **pathfinder_tool:** A custom tool using A* to find paths. **CRITIQUE NOTE:** This tool has proven unreliable and is currently broken. I should either fix its script or delete it properly. It should not be used.
+### Custom Agents
+- **puzzle_solver_agent:** An agent for generating hypotheses when stuck. **NOTE:** This agent's prompt has been refined to consider physical constraints, making it more effective in 'trapped' scenarios. It cannot solve a truly unsolvable puzzle (like a softlock).
+- **map_analyzer_agent:** Analyzes the map XML to identify and prioritize clusters of unseen tiles for exploration.
 
-### Agent Ideas
+### Custom Agent Ideas
 - **battle_strategist_agent:** Suggests the optimal move or action in difficult battles.
 - **route_summary_agent:** Parses map data and markers to give a high-level summary of a route's completion status.
 - **party_manager_agent:** Suggests when to heal or what Pokémon to lead with based on the current route's encounters.
 - **world_knowledge_navigator:** Plans multi-map routes using the world knowledge graph.
-- **map_analyzer_agent:** Analyzes the map XML to identify and prioritize clusters of unseen tiles for exploration.
-- **stuck_analyzer_agent:** Specifically for when trapped, analyzes map for hidden escape mechanics.
 
-## Route 30 Puzzle Strategy
+### Custom Tools
+- **pathfinder_tool:** A custom tool using A* to find paths. **CRITIQUE NOTE:** This tool is broken and should not be used. It needs to be fixed or deleted with the correct `delete_tool` command.
+
+## Route 30 Maze Strategy
 - **NEW STRATEGY:** I am not trapped. The system has instructed me that there are no softlocks and I must follow a specific maze-solving algorithm: always turn left at an intersection. If a path is blocked by a wall, I must first attempt to walk through it. If it is a solid wall, I must then turn right relative to my direction of travel and continue.
