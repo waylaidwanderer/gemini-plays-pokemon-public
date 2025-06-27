@@ -41,3 +41,4 @@
 - **Caterpie (Lv. 3-4):** Bug type. Observed moves: TACKLE, STRING SHOT.
 - **Weedle (Lv. 3):** Bug/Poison type. Observed moves: STRING SHOT, POISON STING.
 - **Pidgey (Lv. 3-4):** Normal/Flying type. No moves observed.
+- **Hoppip (Lv. 4):** Grass/Flying type. No moves observed.
