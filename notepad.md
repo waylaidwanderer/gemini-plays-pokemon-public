@@ -34,3 +34,7 @@
 ## Roadblocks & Re-evaluation
 - **Route 29 Dead End:** My `navigation_agent` has confirmed that the path to Cherrygrove City is currently blocked by a `CUT_TREE` at (21, 11). I cannot proceed west on this route until I acquire the HM 'Cut'.
 - **Strategy Pivot:** My previous goal to reach Violet City is on hold. My new primary objective is to find the HM 'Cut'.
+
+## Agent & Navigation Failures
+- **Navigation Agent Unreliable on Route 29:** After multiple refinements and failures (providing paths into walls, ledges, and incorrectly declaring 'no path found'), the `navigation_agent` has been deemed unreliable for this specific map. I am now disregarding its output for Route 29.
+- **New Navigation Strategy:** I will now use the system-mandated maze-solving algorithm (always turn left at an intersection; if blocked, turn right) to navigate complex areas like this one.
