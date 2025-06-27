@@ -4,7 +4,7 @@
 ### PC Storage
 - Pokémon:
 - Items:
-  - BERRY x1
+  - BERRY x2
 ### Gifts and Trades
 - Received POKéGEAR from Mom in New Bark Town.
 - Received a BERRY from a man on Route 30. He said they can be found on trees.
