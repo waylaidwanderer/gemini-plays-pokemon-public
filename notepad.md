@@ -1,4 +1,4 @@
-## I. Core Principles & Lessons Learned (v13)
+## I. Core Principles & Lessons Learned (v14)
 - **CRITICAL: Agent & Workflow Discipline:**
   - I will use my custom agents whenever a task can be automated or requires complex reasoning. Proactive agent use is key.
   - **I will manually mark defeated trainers with '☠️' immediately after every battle.**
@@ -28,7 +28,7 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## III. Agent & Tool Development Log (v18)
+## III. Agent & Tool Development Log (v19)
 ### A. Active Agents & Tools (Reliable)
 - **`pathfinder` (tool):** Recreated on T29158 after agent deletion. Reliable.
 - **`pc_navigator_agent` (v2):** Reliable.
@@ -68,4 +68,4 @@
 
 ## VI. Critical Self-Corrections
 - **CRITICAL SELF-CORRECTION (T28728):** Experienced a major hallucination loop, misidentifying my location for multiple turns. I must be more rigorous in checking Game State Information against my assumptions.
-- **CRITICAL SELF-CORRECTION (T29303):** I have been consistently failing to follow my own protocols, especially regarding agent usage and immediate documentation. This is a major tactical error that I must correct immediately. I will prioritize using my agents and updating my WKG and markers after every relevant event.
+- **CRITICAL SELF-CORRECTION (T29303 & T29353):** I have been consistently failing to follow my own protocols, especially regarding agent usage and immediate documentation. This is a major tactical error that I must correct immediately. I will prioritize using my agents and updating my WKG and markers after every relevant event.
