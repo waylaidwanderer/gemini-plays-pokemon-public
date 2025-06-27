@@ -68,3 +68,6 @@
 - STAIRCASE: A warp point to another floor.
 - TV: A background object, likely interactable.
 - BOOKSHELF: A background object, likely interactable.
+- DOOR: A warp point to another building.
+- WATER: Impassable without Surf.
+- HEADBUTT_TREE: A tree that can likely be interacted with using the Headbutt move.
