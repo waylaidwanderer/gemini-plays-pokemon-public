@@ -64,3 +64,5 @@
 - **CRITICAL SELF-CORRECTION (T28728):** Experienced a major hallucination loop, misidentifying my location for multiple turns. I must be more rigorous in checking Game State Information against my assumptions.
 
 - `post_battle_agent`: A workflow agent to automate post-battle tasks. It would call `encounter_tracker_agent` for wild battles and `define_map_marker` for trainer battles.
+
+- **Silph Co. 5F Gate Mechanic:** Gates on this floor are not locked by a key but are triggered by movement. A gate at (7,6) opened after walking on the northern part of the floor. This suggests positional triggers are part of the puzzle.
