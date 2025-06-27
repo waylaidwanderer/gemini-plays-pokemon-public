@@ -38,9 +38,10 @@
 
 ### C. Development Backlog
 - **`json_payload_generator` (CRITICAL PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge` by taking simple inputs and generating the full JSON string.
-- **`grinding_assistant_agent` (High Priority):** To automate the generation of optimal back-and-forth movement patterns for grinding wild Pokémon in a specific area.
-- **`dungeon_navigator_agent` (High Priority):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co.
+- **`dungeon_navigator_agent` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. This is essential for finding the CARD KEY efficiently.
 - **`puzzle_solver_agent` (High Priority):** To analyze map XML for changes (e.g., positional gates) and propose puzzle solutions.
+- **`grinding_assistant_agent` (Medium Priority):** To automate the generation of optimal back-and-forth movement patterns for grinding wild Pokémon in a specific area.
+- `reachable_warp_lister_tool` (Low Priority): A simple tool to print a list of reachable warps to prevent future hallucinations and misjudgements of dead ends.
 - `navigator_agent`: For overworld pathfinding.
 - `inventory_manager_agent`: To organize and suggest item uses.
 
