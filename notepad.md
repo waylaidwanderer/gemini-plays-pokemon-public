@@ -29,7 +29,16 @@
 - `battle_strategist_agent` (v6)
 - `team_composition_advisor_agent` (v2)
 - `protocol_enforcement_agent` (v1) - *MUST use before every turn.*
-### B. Development Backlog
+### B. Active Agents & Tools (Reliable)
+- `pathfinder` (tool)
+- `pc_navigator_agent` (v2)
+- `battle_strategist_agent` (v6)
+- `team_composition_advisor_agent` (v2)
+- `protocol_enforcement_agent` (v1) - *MUST use before every turn.*
+- `navigator_agent` (v1): For overworld pathfinding.
+
+### C. Development Backlog
+- `json_payload_generator`: To assist in creating correct JSON for tool calls.
 - `dungeon_navigator_agent`: To plot a full exploration course for multi-floor dungeons like Silph Co.
 - `inventory_manager_agent`: To organize and suggest item uses.
 - `puzzle_solver_agent`: To analyze map XML for changes (e.g., positional gates) and propose solutions.
