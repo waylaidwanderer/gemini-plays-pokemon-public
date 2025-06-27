@@ -43,7 +43,7 @@
 
 ### C. Development Backlog
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
-- `marker_cleanup_agent`: A tool to identify and suggest deletions for redundant or obsolete map markers.
+
 - Upgrade `pathfinder` tool to handle intra-map teleporters for more complex pathing.
 - Redesign `post_battle_agent` for reliability.
 
