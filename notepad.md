@@ -1,32 +1,61 @@
-# Pokémon Crystal Journey
+# Gem's Pokémon Crystal Notepad
 
-## Key Information
-- **Rival:** A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
+## Game Mechanics & Systems
 
-## Current Strategy & Roadblocks
-- **Primary Roadblock:** My path to Violet City is blocked by `CUT_TREE`s on Route 29 (at 21, 11) and Route 30 (at 8, 6). I cannot proceed until I acquire the HM 'Cut'.
-- **Current Strategy:** I am navigating the maze of Route 29 using the `maze_solver_agent`. The eastern plateau of this route is a confirmed dead end.
+### HM/TM Usage
 
-## Game Mechanics & Discoveries
+### Evolution Methods
 
-### System Mechanics & Lessons Learned
-- **Agent Unreliability:** A custom agent can be unreliable, even after multiple refinements. If an agent repeatedly fails at a task (e.g., the `navigation_agent` failing to navigate Route 29's ledges), it is critical to pivot to a different strategy or a more suitable agent (e.g., the `maze_solver_agent`). Do not waste turns on a fundamentally flawed tool.
-- **Stuck on Warp/Event Tile:** If movement is locked, opening and closing the main menu ('Start' -> 'B') can resolve the issue.
-- **World Knowledge Graph:** I must use `manage_world_knowledge` every time I transition between maps to keep my internal world map accurate.
+### Money & Economy
 
-### Battle Mechanics
-- **Held Items (Berries):** Pokémon can use held Berries to heal themselves in battle.
-- **Catching:** Weakening a Pokémon makes it easier to catch.
+### Item Effects
 
-### Tile & Environmental Mechanics
-- **WALL, HEADBUTT_TREE, VOID, CUT_TREE:** Impassable. CUT_TREE requires HM 'Cut'.
-- **WATER:** Impassable, likely requires HM 'Surf'.
-- **FLOOR, TALL_GRASS:** Traversable.
-- **DOOR, WARP_CARPET_DOWN:** Warp tiles.
-- **One-Way Ledges:** The following tiles are one-way traversal tiles. It is impossible to move *onto* these tiles from an adjacent tile. They can only be exited in their specified direction. Confirmed impassable entry points are marked on the map (e.g., (43,9), (38,13)).
-  - `LEDGE`
-  - `HOP_DOWN`
-  - `HOP_LEFT`
-  - `HOP_RIGHT`
-  - `HOP_DOWN_LEFT`
-  - `HOP_DOWN_RIGHT`
+### Day/Night Cycle
+
+### Special Interactions
+
+### PC Storage
+- Pokémon:
+- Items:
+
+## Battle and Pokemon Information
+
+### Type Effectiveness Chart
+
+### Observed Movesets
+
+### Pokémon Locations
+
+### Trainer Rosters
+
+### My Party
+
+## Area and Navigation Insights
+
+### Tile Traversal and Movement Rules
+
+### Puzzle Solutions
+
+### Resource Locations
+
+## NPCs and Interactions
+
+### Key Dialogue
+
+### Interaction Rules
+
+### Gifts and Trades
+
+## Obstacles and Solutions
+
+### Character Blockades
+
+### Key Item Requirements
+
+### Event-Based Roadblocks
+
+## Tracking Progress and Corrections
+
+### Misunderstandings & Corrections
+
+### Failed Hypotheses

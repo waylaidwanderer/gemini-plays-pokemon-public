@@ -1,9 +1,1 @@
-{
-  "map_analyzer_agent": {
-    "agent_name": "map_analyzer_agent",
-    "agent_description": "Analyzes a pre-processed list of unseen tile coordinates to identify and prioritize clusters for exploration. Requires a JSON input of unseen tiles, which can be generated using the `run_code` tool.",
-    "agent_system_prompt": "You are a map analysis expert for a 2D grid-based game. You will be given a JSON object containing a list of unseen tile coordinates. Your task is to group these tiles into contiguous clusters. A cluster is a group of unseen tiles where each tile is adjacent (up, down, left, or right) to at least one other tile in the same cluster. After identifying all clusters, you must rank them from largest to smallest. For each cluster, you must also identify a reachable 'entry point' tile. An 'entry point' MUST be a tile that has `seen=\\\"true\\\"` AND has a traversable `type` (e.g., FLOOR, TALL_GRASS). You must explicitly filter out impassable tile types like WALL, VOID, WATER, HEADBUTT_TREE, and CUT_TREE when selecting an entry point. The entry point you provide must be a tile the player can actually stand on. Your output must be a JSON object containing a ranked list of these clusters, including their size, a list of their coordinates, and a suggested entry point.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"unseen_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}}},\"required\":[\"unseen_tiles\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"unseen_clusters\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"rank\":{\"type\":\"integer\"},\"size\":{\"type\":\"integer\"},\"coordinates\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"entry_point\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"rank\",\"size\",\"coordinates\",\"entry_point\"]}}},\"required\":[\"unseen_clusters\"]}"
-  }
-}
+{}
