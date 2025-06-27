@@ -23,7 +23,7 @@
 ### C. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 
-## III. Agent & Tool Development Log (v32)
+## III. Agent & Tool Development Log (v33)
 ### A. Active Agents & Tools (Reliable)
 - `pathfinder` (tool)
 - `pc_navigator_agent` (v2)
@@ -31,28 +31,26 @@
 - `protocol_enforcement_agent` (v1)
 - `select_battle_option` (tool)
 - `encounter_tracker_agent` (v1)
-- `battle_strategist_agent` (v8)
+- `battle_strategist_agent` (v9)
 
 ### B. Agents Under Review / Needing Refinement
-- `battle_strategist_agent` (v8): Needs refinement to better handle high-evasion opponents. Must prioritize moves that cannot miss (e.g., Swift) or status moves over standard attacks when evasion is boosted. **Update:** Refined to be more cautious with two-turn moves at critical HP.
+- `battle_strategist_agent` (v9): Refined to be more cautious with two-turn moves at critical HP. Will continue to monitor.
 
 ### C. Development Backlog
 - **`json_payload_generator` (CRITICAL PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge` by taking simple inputs and generating the full JSON string.
+- **`grinding_assistant_agent` (High Priority):** To automate the generation of optimal back-and-forth movement patterns for grinding wild Pokémon in a specific area.
 - **`dungeon_navigator_agent` (High Priority):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co.
 - **`puzzle_solver_agent` (High Priority):** To analyze map XML for changes (e.g., positional gates) and propose puzzle solutions.
 - `navigator_agent`: For overworld pathfinding.
 - `inventory_manager_agent`: To organize and suggest item uses.
-- **`grinding_assistant_agent` (High Priority):** To automate the generation of optimal back-and-forth movement patterns for grinding wild Pokémon in a specific area.
 
 ## IV. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
 - **Methodology:** Systematically explore each floor, mapping all teleporters and defeating all trainers. Use the CARD KEY on all locked doors upon acquisition.
 - **Discoveries:**
     - **Hint:** The BOSS is on 11F (from a Rocket on 4F).
-    - **5F:** Positional gates triggered by movement. Teleporter at (12,6) leads to 3F. Teleporter at (10, 16) leads to 9F.
-    - **8F:** Intra-floor teleporter loop between (12, 10) and (4, 12).
-    - **10F -> 4F Warp:** Teleporter at (10, 12) on 10F leads to an isolated room on 4F at (12, 8). The teleporter in this room leads back to 10F.
-    - **10F -> 11F Warp:** Teleporter at (11, 1) on 10F leads to an isolated room on 11F.
+    - **5F:** Positional gates triggered by movement.
+    - **8F:** Intra-floor teleporter loop.
 
 ## V. Trainer Intel
 *A log of noteworthy trainer Pokémon rosters.*
