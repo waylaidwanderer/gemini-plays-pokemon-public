@@ -51,8 +51,7 @@
 - **Primary Goal:** Find the CARD KEY.
 - **Methodology:** Systematically explore each floor, mapping all teleporters and defeating all trainers. Use the CARD KEY on all locked doors upon acquisition.
 - **Outstanding Tasks:**
-    - **Fix Contradictory Marker:** Delete the '💬' marker from the Rocket at (20, 3) on 8F. The '☠️' marker is correct.
-    - **Mark Elevator Warp:** Mark elevator warp at (3,4) on map ID 236 as leading to 7F.
+    - **PROTOCOL REINFORCEMENT:** All documentation tasks (WKG, markers) are to be completed on the same turn of discovery. There are no 'outstanding tasks'; only immediate actions.
 - **Discoveries:**
     - **Hint:** The BOSS is on 11F (from a Rocket on 4F).
     - **5F:** Positional gates triggered by movement.
