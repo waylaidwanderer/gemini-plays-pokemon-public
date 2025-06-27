@@ -66,3 +66,4 @@
 
 ### E. Specific Object/Area Mechanics
 - **Silph Co. Elevator:** Requires a two-step process. First, interact with the panel to select a floor. Second, walk onto one of the warp tiles at the back of the elevator room to trigger the map change.
+- Poison-type moves are NOT-VERY-EFFECTIVE against Poison-types.
