@@ -44,7 +44,7 @@
 
 ## Current Plans
 - **Objective:** Find the path to Violet City.
-- **Current Strategy:** The eastern path around the central obstacle on Route 30 proved to be a dead-end loop. I am now backtracking to the main western path.
+- **Current Strategy:** The western path is a one-way exit leading south via ledges. I am currently trapped on it. I must backtrack to the central path around (7, 30) and re-explore the area north of the Berry Giver's house, as that must contain the true path to Violet City.
 - **Immediate Steps:**
     1. Navigate south from the dead-end loop.
     2. Move west to get around the central trees and grass.
