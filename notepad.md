@@ -42,3 +42,5 @@
 - **Caterpie (Lv. 3-4):** Bug type. Observed moves: TACKLE, STRING SHOT.
 - **Weedle (Lv. 3):** Bug/Poison type. Observed moves: STRING SHOT, POISON STING.
 - **Pidgey (Lv. 4):** Normal/Flying type. Ran from it, no moves observed.
+- **VOID:** Appears to be an impassable boundary tile, typically outside the playable area of a map.
+- **WARP_CARPET_DOWN:** A warp tile, usually found at the entrance/exit of buildings. Stepping on it transports the player to a different map.
