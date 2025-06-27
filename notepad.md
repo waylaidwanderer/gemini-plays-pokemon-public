@@ -6,6 +6,7 @@
 ## Game Mechanics & Discoveries
 ### System Mechanics
 - **Stuck on Warp/Event Tile:** If movement is locked, opening and closing the main menu ('Start' -> 'B') can resolve the issue.
+- **World Knowledge Graph:** I must remember to use `manage_world_knowledge` every time I transition between maps to keep my internal world map accurate.
 
 ### Battle Mechanics
 - **Held Items (Berries):** Pokémon can use held Berries to heal themselves in battle.
@@ -31,7 +32,7 @@
 ## Agent Development
 ### Existing Agents
 - **pathfinder_tool:** A custom tool using A* to find paths. **CRITIQUE NOTE:** This tool has proven unreliable (failed to find a path when trapped) and needs to be fixed or replaced. Do not rely on it until it is verified.
-- **puzzle_solver_agent:** An agent for generating hypotheses when stuck. (Refined to use map data and focus on locally possible actions when trapped).
+- **puzzle_solver_agent:** An agent for generating hypotheses when stuck. **NOTE:** While useful, this agent cannot solve a truly unsolvable puzzle (like a softlock). It may generate hypotheses based on faulty map data if the game state is bugged.
 
 ### Agent Ideas
 - **battle_strategist_agent:** Suggests the optimal move or action in difficult battles.
