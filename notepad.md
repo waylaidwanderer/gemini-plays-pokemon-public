@@ -1,10 +1,10 @@
-## I. Core Protocols & Immediate Actions (v18)
+## I. Core Protocols & Immediate Actions (v19)
 - **CRITICAL: Agent & Workflow Discipline:**
   - I will use my custom agents whenever a task can be automated or requires complex reasoning.
   - I will use `protocol_enforcement_agent` before every turn to ensure I follow my documented procedures.
-- **CRITICAL: Post-Event Checklists:**
-  - **Trainer Battle:** Mark defeated trainer with '☠️' using `define_map_marker`, using their specific sprite name for clarity. Log their Pokémon under 'Trainer Intel'.
-  - **Wild Encounter:** Log the Pokémon with `encounter_tracker_agent`.
+- **CRITICAL: Post-Event Checklists (MANDATORY ADHERENCE):**
+  - **Trainer Battle:** Mark defeated trainer with '☠️' using `define_map_marker`, using their specific sprite name for clarity (e.g., 'SILPHCO4F_ROCKET2'). Log their Pokémon under 'Trainer Intel'.
+  - **Wild Encounter:** Log EVERY wild Pokémon with `encounter_tracker_agent`. NO EXCEPTIONS.
   - **Map Transition (Warp/Stairs/Edge):** Immediately use `manage_world_knowledge` to document the connection and mark used warps (entry/exit) with '🚪'.
 
 ## II. Game Mechanics & Battle Intel
@@ -23,13 +23,14 @@
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 - **HM Field Use:** HMs must be taught to a Pokémon to enable field use. FLY cannot be used indoors.
 
-## III. Agent & Tool Development Log (v26)
+## III. Agent & Tool Development Log (v27)
 ### A. Active Agents & Tools (Reliable)
 - `pathfinder` (tool)
 - `pc_navigator_agent` (v2)
 - `team_composition_advisor_agent` (v2)
 - `protocol_enforcement_agent` (v1) - *MUST use before every turn.*
 - `select_battle_option` (tool)
+- `encounter_tracker_agent` (v1) - *MUST use for every wild encounter.*
 
 ### B. Agents Under Review / Needing Refinement
 - `battle_strategist_agent` (v7): Needs further refinement to better handle high-evasion opponents.
