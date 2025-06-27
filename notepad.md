@@ -16,7 +16,7 @@
 ### Observed Movesets
 ### Pokémon Locations
 ### My Party
-- G (TOTODILE): Lv7 (Scratch, Leer, Rage)
+- G (TOTODILE): Lv8 (Scratch, Leer, Rage)
 
 ## Area and Navigation Insights
 ### Tile Traversal and Movement Rules
