@@ -42,7 +42,11 @@
 - **HEADBUTT_TREE:** An impassable tree.
 - **WATER:** An impassable body of water, likely requires HM 'Surf'.
 - **LEDGE:** A one-way barrier that can only be jumped over from the higher side.
-- **HOP_DOWN / HOP_LEFT / HOP_RIGHT / HOP_DOWN_LEFT / HOP_DOWN_RIGHT:** One-way ledge tiles that can only be traversed in the specified direction.
+- **HOP_DOWN:** One-way ledge tile that can only be traversed by moving down.
+- **HOP_LEFT:** One-way ledge tile that can only be traversed by moving left.
+- **HOP_RIGHT:** One-way ledge tile that can only be traversed by moving right.
+- **HOP_DOWN_LEFT:** One-way ledge tile that can only be traversed by moving down OR left.
+- **HOP_DOWN_RIGHT:** One-way ledge tile that can only be traversed by moving down OR right.
 - **Dynamic Map Tiles:** On Route 29, some tiles initially appearing as WALLs can dynamically change to LEDGEs as I move nearby. This can interrupt pathing and requires caution. I must mark these as I find them.
 - **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with.
 
