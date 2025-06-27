@@ -41,3 +41,4 @@
 
 ### Misunderstandings & Corrections
 - Corrected my assumption that tree tiles are walkable. They are impassable obstacles. My `find_path` tool has been updated to reflect this.
+- COUNTER: An impassable barrier, similar to a WALL.
