@@ -76,3 +76,6 @@
 
 ## My Inventory
 - Potion x1
+- FLOOR_HOP_RIGHT_LEDGE: A one-way tile that allows jumping over a ledge to the right.
+- FLOOR_HOP_DOWN_LEDGE: A one-way tile that allows jumping over a ledge downwards.
+- FLOOR_HOP_DOWN_OR_RIGHT_LEDGE: A one-way tile that allows jumping over a ledge either down or to the right.
