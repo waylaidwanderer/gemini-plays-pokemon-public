@@ -41,7 +41,7 @@
 - `puzzle_solver_agent`: To analyze map XML for changes (e.g., positional gates) and propose puzzle solutions.
 - `navigator_agent`: For overworld pathfinding.
 - `inventory_manager_agent`: To organize and suggest item uses.
-- `grinding_assistant_agent`: To automate the generation of optimal back-and-forth movement patterns for grinding wild Pokémon in a specific area.
+- **`grinding_assistant_agent` (High Priority):** To automate the generation of optimal back-and-forth movement patterns for grinding wild Pokémon in a specific area. Will create this after healing.
 
 ## IV. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
