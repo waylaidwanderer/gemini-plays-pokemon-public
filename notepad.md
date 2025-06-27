@@ -30,7 +30,7 @@
 
 ## Agent Development
 ### Existing Agents
-- **pathfinder_tool:** A custom tool using A* to find paths. Still under development.
+- **pathfinder_tool:** A custom tool using A* to find paths. **CRITIQUE NOTE:** This tool has proven unreliable (failed to find a path when trapped) and needs to be fixed or replaced. Do not rely on it until it is verified.
 - **puzzle_solver_agent:** An agent for generating hypotheses when stuck. (Refined to use map data and focus on locally possible actions when trapped).
 
 ### Agent Ideas
