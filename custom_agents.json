@@ -62,5 +62,13 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"is_trainer_battle\":{\"type\":\"boolean\"},\"trainer_name\":{\"type\":\"string\",\"nullable\":true},\"trainer_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"nullable\":true},\"wild_pokemon_name\":{\"type\":\"string\",\"nullable\":true},\"map_id\":{\"type\":\"string\"}},\"required\":[\"is_trainer_battle\",\"map_id\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"tool_to_call\":{\"type\":\"object\",\"properties\":{\"tool_name\":{\"type\":\"string\"},\"tool_args\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"value\":{\"type\":\"string\"}},\"required\":[\"name\",\"value\"]}}},\"required\":[\"tool_name\",\"tool_args\"]}},\"required\":[\"tool_to_call\"]}",
     "agent_can_run_code": false
+  },
+  "marker_cleanup_agent": {
+    "agent_name": "marker_cleanup_agent",
+    "agent_description": "Analyzes map markers on the current map to identify and suggest deletions for redundant or obsolete markers (e.g., markers on impassable tiles, duplicate information).",
+    "agent_system_prompt": "You are a Map Data Janitor. Your task is to analyze the provided `map_xml_string` and the list of existing map markers. Identify any markers that are redundant or no longer provide strategic value. A marker is redundant if it marks a tile as something that is already obvious from the tile's own data (e.g., marking an 'impassable' tile with 'wall' or 'unreachable'). A marker is obsolete if it refers to a temporary state that has been permanently resolved. For each redundant/obsolete marker, generate a `delete_map_marker` tool payload. Your output must be a JSON object containing a list of these payloads.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"map_id\":{\"type\":\"string\"},\"markers_on_map\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"},\"emoji\":{\"type\":\"string\"},\"label\":{\"type\":\"string\"}},\"required\":[\"x\",\"y\",\"emoji\",\"label\"]}}},\"required\":[\"map_id\",\"markers_on_map\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"tool_payloads\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"tool_name\":{\"type\":\"string\",\"const\":\"delete_map_marker\"},\"tool_args\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"value\":{\"type\":\"string\"}},\"required\":[\"name\",\"value\"]}}},\"required\":[\"tool_name\",\"tool_args\"]}}},\"required\":[\"tool_payloads\"]}",
+    "agent_can_run_code": true
   }
 }
