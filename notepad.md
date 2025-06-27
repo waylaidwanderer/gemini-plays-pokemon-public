@@ -3,6 +3,9 @@
 ## Key Information
 - **Rival:** A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
 
+## My Pokémon Party
+- **Hestia (Cyndaquil):** TACKLE, LEER, SMOKESCREEN, EMBER (Fire-type).
+
 ## Game Mechanics & Discoveries
 
 ### System Mechanics
@@ -12,7 +15,6 @@
 ### Battle Mechanics
 - **Held Items (Berries):** Pokémon can use held Berries to heal themselves in battle.
 - **Catching:** Weakening a Pokémon makes it easier to catch.
-- **Hestia (Cyndaquil) Moves:** TACKLE, LEER, SMOKESCREEN, EMBER (Fire-type).
 
 ### Tile & Environmental Mechanics
 - **WALL:** An impassable obstacle.
@@ -36,13 +38,14 @@
 - **puzzle_solver_agent:** Generates hypotheses when stuck. Has proven to be very effective at identifying story-based progression blockers.
 - **map_analyzer_agent:** Analyzes map XML to identify clusters of unseen tiles for exploration. Requires `map_xml_string` as input.
 
-### Custom Agent Ideas
+### Agent & Tool Ideas
 - **battle_strategist_agent:** Suggests the optimal move in difficult battles.
 - **route_summary_agent:** Parses map data to summarize a route's completion status.
 - **party_manager_agent:** Suggests party composition and healing needs.
 - **world_knowledge_navigator:** Plans multi-map routes using the world knowledge graph.
+- **auto_repel_tool:** A tool to automatically use a Repel from the bag.
 
-## Current Plans
+## Current Plans & Hypotheses
 - **Objective:** Trigger the Rival battle and return to Professor Elm.
 - **Agent Hypothesis:** My `puzzle_solver_agent` determined that I am story-locked, not physically stuck. Progress north is blocked until I backtrack and complete key events.
 - **Current Strategy:** Follow the agent's highest-ranked hypotheses to progress the story.
@@ -51,3 +54,7 @@
     2. Go to the western exit of Cherrygrove City to trigger the mandatory battle with my Rival, KAINE.
     3. After the battle, continue south through Route 29 to New Bark Town.
     4. Enter Professor Elm's Lab and speak to him.
+- **Untested Assumptions to Verify:**
+    1. The rival battle with KAINE will happen as soon as I enter Cherrygrove City from the north and head west.
+    2. The `BUOY` tile in Cherrygrove City is an impassable wall (Test by interacting).
+    3. The path north on Route 30 will open after the rival battle and speaking with Elm.
