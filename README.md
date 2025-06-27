@@ -6,6 +6,7 @@ This repository automatically tracks AI agent definitions and notepad content fr
 
 📊 **Current Stream State:**
 - [custom_agents.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/default/custom_agents.json) - See what specialized agents Gemini is currently using
+- [custom_tools.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/default/custom_tools.json) - See what specialized tools Gemini is currently using
 - [notepad.md](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/default/notepad.md) - Read Gemini's current strategy notes and discoveries
 
 ## 🤖 About the Project
