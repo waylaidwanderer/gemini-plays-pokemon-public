@@ -61,18 +61,6 @@
 ### Misunderstandings & Corrections
 
 ### Failed Hypotheses
-### Tile Traversal and Movement Rules
-- WALL: Impassable.
-- FLOOR: Traversable.
-- TOWN_MAP: Seems to be a background object, likely interactable.
-- STAIRCASE: A warp point to another floor.
-- TV: A background object, likely interactable.
-- BOOKSHELF: A background object, likely interactable.
-- DOOR: A warp point to another building.
-- WATER: Impassable without Surf.
-- HEADBUTT_TREE: A tree that can likely be interacted with using the Headbutt move.
-- LEDGE: A one-way obstacle. Can be jumped down, but not climbed up.
-- TALL_GRASS: Traversable, can trigger wild Pokémon encounters.
 
 ## My Inventory
 - Potion x1
