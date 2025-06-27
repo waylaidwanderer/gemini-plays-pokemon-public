@@ -26,7 +26,7 @@
 
 ## Agent Development
 ### Existing Agents
-- **pathfinder_agent:** Refined to correctly treat all `<Object>` tags as impassable walls and to re-run its logic on every call.
+- **pathfinder_tool:** A custom tool using A* to find paths. Still under development.
 - **puzzle_solver_agent:** An agent for generating hypotheses when stuck.
 
 ### Agent Ideas
