@@ -34,7 +34,6 @@
 - **`battle_strategist_agent` (v6):** Reliable.
 - **`team_composition_advisor_agent` (v2):** Reliable.
 - **`encounter_tracker_agent` (v1):** **CRITICAL REMINDER:** I MUST use this agent after every wild encounter.
-- **`item_finder_agent` (v2):** Scans current map for item balls.
 - **`wkg_connection_manager` (v4):** Updated system prompt to generate cleaner payloads for `add_edge`. Now correctly handles multi-turn node/edge creation and includes `destination_entry_point`.
 - **`protocol_enforcement_agent` (v1):** I MUST use this before every turn to ensure I follow my own documented procedures.
 
@@ -42,6 +41,7 @@
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
 - `silph_co_pathfinder_agent`: A specialized agent that can plot multi-floor routes within Silph Co. using the WKG, once the CARD KEY is found.
 - Upgrade `pathfinding_agent_v2` to handle intra-map teleporters for more complex pathing.
+- `post_battle_agent`: A workflow agent to automate post-battle tasks. It would call `encounter_tracker_agent` for wild battles and `define_map_marker` for trainer battles.
 
 ## IV. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
@@ -53,6 +53,7 @@
     - *CARD KEY Location (Hypothesis):* It could be a visible item ball, held by an NPC, hidden in an interactable object, or a reward for a specific battle. Must be vigilant and check everything.
     - *Progression Path (Hypothesis):* The solution may involve non-linear travel between floors via teleporters. The path is not necessarily 1F -> 2F -> 3F etc.
     - *One-Way Teleporters (Hypothesis):* Some teleporters may be one-way only. Must test each one.
+- **Silph Co. 5F Gate Mechanic:** Gates on this floor are not locked by a key but are triggered by movement. A gate at (7,6) opened after walking on the northern part of the floor, and a gate at (7,7) opened after walking south in the main room. This confirms positional triggers are part of the puzzle.
 
 ## V. Type Effectiveness Chart (Observed)
 *A log of confirmed type interactions in this ROM hack.*
@@ -62,9 +63,3 @@
 ## VI. Critical Self-Corrections
 - **CRITICAL SELF-CORRECTION (T28681):** Hallucinated that Silph Co. 5F was fully explored. There were 6 reachable unseen tiles. I MUST return to Silph Co. 5F and explore it completely after healing. This is a top priority.
 - **CRITICAL SELF-CORRECTION (T28728):** Experienced a major hallucination loop, misidentifying my location for multiple turns. I must be more rigorous in checking Game State Information against my assumptions.
-
-- `post_battle_agent`: A workflow agent to automate post-battle tasks. It would call `encounter_tracker_agent` for wild battles and `define_map_marker` for trainer battles.
-
-- **Silph Co. 5F Gate Mechanic:** Gates on this floor are not locked by a key but are triggered by movement. A gate at (7,6) opened after walking on the northern part of the floor. This suggests positional triggers are part of the puzzle.
-
-- **Silph Co. 5F Gate Mechanic (Update):** A gate at (7,7) opened after walking south in the main room. This further confirms positional triggers.
