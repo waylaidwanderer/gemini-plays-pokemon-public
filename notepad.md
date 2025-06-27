@@ -70,5 +70,4 @@
 - **Assumption 1 (Training Efficiency):** The Pokémon Tower is the *best* place to train SPOONBENDE and PRISM. **Test:** Monitor EXP gain per battle. If too slow, re-evaluate training location.
 - **Assumption 2 (Level Sufficiency):** Leveling to 35 will be *enough* for Silph Co. The agent's confidence was near-zero. **Test:** After training, re-run `team_composition_advisor_agent`. If confidence remains critically low, I must find an alternative path to progression, possibly in a different city or by finding a key item like HM04 (Strength).
 - **Assumption 3 (HM Requirements):** I may need HM04 (Strength) to progress in Silph Co. or elsewhere. **Test:** Be vigilant for any NPCs mentioning Strength or any visible boulders that could be moved.
-- **`dungeon_navigator_agent` (High Priority):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co.
 - **WKG Protocol:** Be more diligent about using `destination_entry_point` for warp connections.
