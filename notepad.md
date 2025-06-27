@@ -67,3 +67,5 @@
 
 ## VI. Critical Self-Corrections
 - **CRITICAL SELF-CORRECTION (T28728):** Experienced a major hallucination loop, misidentifying my location for multiple turns. I must be more rigorous in checking Game State Information against my assumptions.
+
+- **Intra-Floor Teleporters (8F):** Discovered a teleporter at (12, 10) that instantly warps to (4, 12) on the same floor. This is a new mechanic to track.
