@@ -1,9 +1,10 @@
 # Pokémon Crystal Journey
 
 ## Current Plan
-- My team is healed and I am back on Route 30.
-- I will take the western path, as the eastern path was a dead end.
-- I will proceed north on the western path, fighting or avoiding trainers and wild Pokémon as necessary, until I reach Violet City.
+- I am currently on Route 30, trying to get to Violet City.
+- The eastern path is a dead end.
+- I am currently stuck in a small alcove on the western path. The only way out is to jump down the `HOP_DOWN` ledge to the west, which will force me to backtrack slightly.
+- Once I escape the alcove, I will find a new path north to continue towards Violet City.
 
 ## The Rival
 - A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
@@ -20,6 +21,7 @@
 - **WALL:** An impassable obstacle.
 - **FLOOR:** A standard, traversable tile.
 - **TALL_GRASS:** Traversable tile where wild Pokémon encounters can occur.
+- **DOOR:** A warp tile that leads into and out of buildings.
 - **CUT_TREE:** These small trees are impassable and require the HM 'Cut' to be removed.
 - **Fruit Trees:** These are impassable objects.
 - **HOP_DOWN:** A one-way ledge that can only be jumped down from above.
@@ -31,6 +33,8 @@
 ## Agent Ideas & Refinements
 - **battle_strategist_agent:** An agent to suggest the optimal move or action in difficult battles.
 - **route_summary_agent:** An agent to parse map data and markers to give a high-level summary of a route's completion status.
+- **party_manager_agent:** An agent to suggest when to heal or what Pokémon to lead with based on the current route's encounters.
+- **world_knowledge_navigator:** An agent that can plan multi-map routes using the world knowledge graph.
 
 ## Pokémon Encounters
 ### Route 30
