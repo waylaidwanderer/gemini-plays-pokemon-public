@@ -3,8 +3,7 @@
 ## Current Plan
 - I am currently on Route 30, trying to get to Violet City.
 - The eastern path is a dead end.
-- I am currently stuck in a small alcove on the western path. The only way out is to jump down the `HOP_DOWN` ledge to the west, which will force me to backtrack slightly.
-- Once I escape the alcove, I will find a new path north to continue towards Violet City.
+- I am on the western path of Route 30. I will now explore north to find the way to Violet City.
 
 ## The Rival
 - A red-haired boy named KAINE stole a Totodile from Professor Elm's lab.
