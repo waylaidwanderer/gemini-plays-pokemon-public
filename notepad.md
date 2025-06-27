@@ -23,13 +23,8 @@
 - **CUT_TREE:** These small trees are impassable and require the HM 'Cut' to be removed.
 - **Fruit Trees:** These are impassable objects.
 - **HOP_DOWN:** A one-way ledge that can only be jumped down from above.
-- **Route 29 Ledges:** The western section of Route 29 has one-way ledges preventing eastward travel from that area.
-- **Route 46 Ledges:** This route is a dead-end when approached from the south due to one-way ledges.
-- **Decorative Floor Items:** Certain floor patterns, like the red flowers on Route 30, are purely decorative and cannot be interacted with or picked up. Confirmed at (10, 31) after multiple failed attempts.
-- **Route 30 Hidden Potion:** Unable to retrieve the hidden Potion at (14, 9). Tried interacting from multiple adjacent tiles without success. There might be a special requirement I don't meet yet.
-- **Route 30 Western Path:** This path is a dead end for now, blocked by a CUT_TREE at (8, 6).
 - **VOID:** Appears to be an impassable boundary tile, typically outside the playable area of a map.
-- **WARP_CARPET_DOWN:** A warp tile, usually found at the entrance/exit of buildings. Stepping on it transports the player to a different map.
+- **WARP_CARPET_DOWN:** A warp tile, usually found at the entrance/exit of buildings.
 - **HEADBUTT_TREE:** Appears to be an impassable tree.
 - **WATER:** Appears to be an impassable body of water, likely requires HM 'Surf'.
 
@@ -44,4 +39,4 @@
 - **Ledyba (Lv. 3):** Bug/Flying type. Observed move: TACKLE.
 - **Caterpie (Lv. 3-4):** Bug type. Observed moves: TACKLE, STRING SHOT.
 - **Weedle (Lv. 3):** Bug/Poison type. Observed moves: STRING SHOT, POISON STING.
-- **Pidgey (Lv. 4):** Normal/Flying type. Ran from it, no moves observed.
+- **Pidgey (Lv. 3-4):** Normal/Flying type. No moves observed.
