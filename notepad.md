@@ -46,3 +46,9 @@
 ## Untested Tile Mechanics
 - **BUOY:** Encountered in Cherrygrove City. Need to test if it's a hard wall or if it can be interacted with (e.g., requires Surf).
 - **HEADBUTT_TREE:** Seen on Route 30. Likely requires the move Headbutt to interact with, but need to confirm it's impassable otherwise.
+## Route 30 Puzzle Strategy
+- **Hypothesis (from puzzle_solver_agent):** The side 'mazes' are not paths, but triggers. Visiting a specific point in both mazes might unlock the central path.
+- **Plan:**
+  1. Visit western maze dead-end at (2, 26). **(Completed)**
+  2. Navigate to and fully explore the eastern maze to find its trigger point.
+  3. Return to the central path at (6, 30) to check for changes (e.g., NPC moved, path opened).
