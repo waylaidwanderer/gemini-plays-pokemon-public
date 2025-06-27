@@ -28,24 +28,19 @@
 - **EXP. All:** Distributes EXP to all non-fainted party members. Pokémon at the level cap gain no actual EXP.
 - **Repel Mechanics:** MAX REPEL lasts longer than SUPER REPEL.
 
-## III. Agent & Tool Development Log (v19)
+## III. Agent & Tool Development Log (v20)
 ### A. Active Agents & Tools (Reliable)
-- **`pathfinder` (tool):** Recreated on T29158 after agent deletion. Reliable.
-- **`pc_navigator_agent` (v2):** Reliable.
-- **`battle_strategist_agent` (v6):** Reliable.
-- **`team_composition_advisor_agent` (v2):** Reliable.
-- **`protocol_enforcement_agent` (v1):** I MUST use this before every turn.
-
-### B. Decommissioned or Deleted
-- **`post_battle_agent` (v4):** Deleted on T29146 due to unreliability.
-- **`wkg_connection_manager` (agent):** Deleted by system update on T29158. Replaced by `manage_world_knowledge` tool.
-- **`marker_cleanup_agent` (agent):** Deleted by system update on T29158.
-
-### C. Development Backlog
+- `pathfinder` (tool): Recreated on T29158 after agent deletion. Reliable.
+- `pc_navigator_agent` (v2): Reliable.
+- `battle_strategist_agent` (v6): Reliable.
+- `team_composition_advisor_agent` (v2): Reliable.
+- `protocol_enforcement_agent` (v1): I MUST use this before every turn.
+### B. Development Backlog
 - `inventory_manager_agent`: An agent to help organize and suggest uses for items.
 - `dungeon_navigator_agent`: An agent to plot a full exploration course for a multi-floor dungeon like Silph Co.
 - Upgrade `pathfinder` tool to handle intra-map teleporters for more complex pathing.
 - Redesign `post_battle_agent` for reliability.
+- Upgrade `battle_strategist_agent` to include damage calculation estimates and KO probability.
 
 ## IV. Silph Co. Intel & Strategy
 - **Primary Goal:** Find the CARD KEY.
@@ -69,4 +64,3 @@
 ## VI. Critical Self-Corrections
 - **CRITICAL SELF-CORRECTION (T28728):** Experienced a major hallucination loop, misidentifying my location for multiple turns. I must be more rigorous in checking Game State Information against my assumptions.
 - **CRITICAL SELF-CORRECTION (T29303 & T29353):** I have been consistently failing to follow my own protocols, especially regarding agent usage and immediate documentation. This is a major tactical error that I must correct immediately. I will prioritize using my agents and updating my WKG and markers after every relevant event.
-- Upgrade `battle_strategist_agent` to include damage calculation estimates and KO probability.
