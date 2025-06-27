@@ -42,3 +42,5 @@
 ### Misunderstandings & Corrections
 - Corrected my assumption that tree tiles are walkable. They are impassable obstacles. My `find_path` tool has been updated to reflect this.
 - COUNTER: An impassable barrier, similar to a WALL.
+- DOOR: A warp tile that typically leads into or out of a building.
+- WATER: An impassable tile without the HM Surf. (Assumption)
