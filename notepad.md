@@ -57,6 +57,7 @@
 
 ### Pathfinding Tool Development
 - `path_master` is my current reliable pathfinding tool. Failures of `path_master` have so far been due to legitimate in-game obstacles (like moving NPCs), not bugs in the tool itself.
+- `path_master` failed on Route 30 (Turn 1939) for a simple path. May be buggy. Proceeding with manual navigation.
 
 ### Custom Agents & Tools (Ideas)
 - **`unstick_me_tool` (Idea):** A tool that analyzes the map XML to find the nearest cluster of "unseen" tiles when I'm stuck, returning coordinates for a new navigation goal. Could also check for softlock conditions (e.g., no path to any warp/exit).
