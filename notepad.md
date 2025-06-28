@@ -99,3 +99,5 @@
 *   **Spinner:** Forces movement in a specific direction.
 *   **Teleport:** An intra-floor warp tile, as seen in Silph Co.
 *   **Steps:** Allows vertical movement between different ground elevations, as seen in Mt. Moon.
+*   **Teleport:** An intra-floor warp tile, as seen in Silph Co.
+*   **Steps:** Allows vertical movement between different ground elevations, as seen in Mt. Moon.
