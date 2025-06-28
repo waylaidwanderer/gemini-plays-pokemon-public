@@ -47,6 +47,9 @@
 - VOID: An impassable tile outside the map boundaries.
 - WARP_CARPET_DOWN: A warp tile.
 
+### Tile Testing Plan
+- Systematically test each tile type on the current map to confirm traversability. Document findings.
+
 ## Development & Strategy Notes
 ### Pathfinding Tool
 - **Status:** The `pathfinder_pro` tool is now robust and reliable after several refinements. 
