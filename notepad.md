@@ -1,10 +1,5 @@
 # Gem's Pokémon Crystal Notepad
 
-## Current Plan
-- The game state is desynchronized. I appear to be on Route 30, but the game thinks I'm in Mr. Pokemon's House. 
-- My immediate goal is to stabilize the game state by pressing 'A' to clear any hidden menus.
-- After stabilizing, I will return to Professor Elm in New Bark Town.
-
 ## Party & Rival
 ### My Team
 - G (TOTODILE): Lv12
@@ -57,8 +52,8 @@
 - **Mr. Pokemon's House Softlock (Turn ~1700-1765):** Became trapped in the house. Warps were non-functional and NPC dialogue looped. Opening the POKéGEAR menu seemed to be the only action that could reset the game state and allow escape.
 
 ## Development & Strategy Notes
-### Pathfinding Tool Issues
-- My `path_master` tool is a significant improvement and can reliably navigate static environments. It still cannot account for moving NPCs that are off-screen. When a calculated path is repeatedly blocked by a moving NPC, I must switch to manual navigation.
+### Pathfinding Tool Development
+- My first two pathfinding tools (`pathfinder_pro`, `path_wizard`) were buggy. `path_master` is a significant improvement. The key lesson was that the tool's output must be a valid JSON string printed to stdout. Debug information should be printed to stderr to avoid corrupting the output.
 
 ### Custom Agents & Tools (Ideas)
 - **`unstick_me_tool` (Idea):** A tool that analyzes the map XML to find the nearest cluster of "unseen" tiles when I'm stuck, returning coordinates for a new navigation goal. Could also check for softlock conditions (e.g., no path to any warp/exit).
