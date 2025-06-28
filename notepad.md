@@ -5,7 +5,8 @@
 
 ## Party & Rival
 ### My Team
-- G (TOTODILE): Lv10
+- G (TOTODILE): Lv11
+- HOOTHOOT (HOOTHOOT): Lv3
 
 ### Rival SILVA's Team
 - CHIKORITA: Lv5 (Last seen in New Bark Town)
