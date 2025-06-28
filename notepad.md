@@ -65,3 +65,5 @@
 1.  **5F Gate Puzzle (Hypothesis Abandoned):** The systematic test of the eastern corridor failed to find the trigger. The western corridor is inaccessible. New Hypothesis: A battle-warp teleporter on 3F might provide access to the puzzle's solution.
 2.  **CARD KEY Location:** The key is likely behind one of the puzzles in Silph Co. The item at (22, 17) on 5F is a prime candidate.
 3.  **Giovanni's Location:** He is likely on the 11th floor behind the doors that require the CARD KEY. Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).
+- **Ground Tiles:** Standard walkable tiles.
+- **Impassable Tiles:** Walls and other objects that cannot be walked on or through.
