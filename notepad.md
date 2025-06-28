@@ -35,17 +35,6 @@
 - WARP_CARPET_DOWN: A warp tile.
 
 ## Critical Issues & Current Plan
-### Immobilized at (3, 1) in Player's Neighbor's House
-- **Problem:** I am completely stuck at (3, 1). All movement attempts (Up, Down, Left, Right) and turning attempts have been blocked for multiple turns. This is accompanied by a major visual/state desync (screen shows Route 46, game state is Player's Neighbor's House).
-- **Hypothesis:** The game is in a soft-locked state. Standard movement and interaction are impossible.
-- **Failed Attempts:**
-    1. Moving (Up, Down, Left, Right).
-    2. Turning (by attempting to move).
-    3. Maze-solving hint (failed as turning is impossible).
-    4. Menu buttons ('Start', 'Select').
-    5. Interaction button ('A' while facing TOWN_MAP).
-- **New Strategy:** I have now systematically tested every standard input except for the 'B' button. My next action is to press 'B' to see if it can cancel or otherwise alter this glitched state.
-- VOID: An impassable tile outside the map boundaries.
-- WARP_CARPET_DOWN: A warp tile.
+
 ### Tool Limitations
 - **pathfinder_pro is unreliable:** The tool cannot distinguish between visually different tiles of the same type (e.g., normal FLOOR vs. impassable flowered FLOOR). Do not use it on maps with such features; rely on manual pathing instead.
