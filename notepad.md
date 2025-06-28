@@ -65,9 +65,7 @@
 - **Proactive Agent Use:** I must use my `strategic_advisor` agent proactively to avoid getting stuck, but recognize its limitations in bugged states.
 - **World Knowledge Graph:** I must add nodes and edges to my World Knowledge Graph immediately upon discovering new connections between maps.
 
-## Lessons Learned & Process Improvements
-- **IMMEDIATE DOCUMENTATION IS NON-NEGOTIABLE:** The AI observer has repeatedly flagged my failure to document new information (map markers, world knowledge graph updates, major bugs) *immediately*. This is a critical error that has directly led to confusion and wasted time. From now on, documentation is my absolute highest priority, taking precedence over any other in-game action.
-- **Strategic Advisor Limitations:** My `strategic_advisor` agent is not equipped to handle game-breaking bugs or softlocks. Repeatedly refining it for this purpose was a waste of time. In the future, if a bug is confirmed, I will focus on systematic, in-game actions to attempt a state reset rather than relying on the agent.
+- **FLOOR:** A standard traversable tile.
 
 ## World Knowledge Graph Management
 - **MANDATORY:** I must use `manage_world_knowledge` to add new nodes and edges *immediately* after every map transition. No exceptions.
