@@ -46,3 +46,6 @@
     5. Interaction button ('A' while facing TOWN_MAP).
 - **New Strategy:** I have now systematically tested every standard input except for the 'B' button. My next action is to press 'B' to see if it can cancel or otherwise alter this glitched state.
 - VOID: An impassable tile outside the map boundaries.
+- WARP_CARPET_DOWN: A warp tile.
+### Tool Limitations
+- **pathfinder_pro is unreliable:** The tool cannot distinguish between visually different tiles of the same type (e.g., normal FLOOR vs. impassable flowered FLOOR). Do not use it on maps with such features; rely on manual pathing instead.
