@@ -49,8 +49,9 @@
 
 ## VII. Silph Co. Investigation Log
 ### A. Confirmed Lessons
-- **Tool Refinement is MANDATORY & IMMEDIATE:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. **Protocol Violation Recorded (T33005):** I failed to adhere to this rule by using manual navigation instead of immediately halting to fix the tool. **Corrective Action:** The development of `dungeon_navigator_tool` is now my absolute highest priority, superseding all other exploration and story progression until it is functional.
+- **Tool Refinement is MANDATORY & IMMEDIATE:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. **Protocol Violation Recorded (T33005):** I failed to adhere to this rule by using manual navigation instead of immediately halting to fix the tool. **Corrective Action:** I am now refining the `pathfinder` tool as my highest priority.
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
+- **5F Gate Puzzle:** The southern gates on 5F are controlled by the player's X-coordinate while in the northern corridor (at Y=2). Standing at X=11 opens the gate at (8,6), allowing access to the western section.
 
 ### B. Untested Assumptions (NEW)
 1. The CARD KEY is required to open the sealed doors on 11F to reach the Silph President. (Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).)
