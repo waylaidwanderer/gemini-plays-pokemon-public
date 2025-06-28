@@ -87,3 +87,32 @@
 - Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
 - Wild Spinarak (Route 30): Moveset unknown (fainted before attacking).
 - **GAME-BREAKING SOFTLOCK (Turn 2153):** I am permanently trapped in Mr. Pokémon's House. Warps are non-functional. All interaction attempts with NPCs and background objects have failed. The POKéGEAR menu trick no longer works. All goals are impossible to achieve. The game is unplayable in this state.
+
+# REORGANIZED NOTES (TO BE CLEANED UP NEXT TURN)
+
+## Area and Navigation Insights
+### Tile Traversal Rules (Untested Assumptions)
+- **HEADBUTT_TREE:** Assumed impassable. Needs testing.
+- **CUT_TREE:** Assumed impassable. Needs testing.
+- **WATER:** Assumed impassable without SURF. Needs testing.
+- **COUNTER:** Assumed impassable. Needs testing.
+- **MART_SHELF:** Assumed impassable. Needs testing.
+- **BUOY:** Assumed impassable. Needs testing.
+- **TOWN_MAP:** Assumed impassable. Needs testing.
+- **WINDOW:** Assumed impassable. Needs testing.
+- **BOOKSHELF:** Assumed impassable. Needs testing.
+- **TV:** Assumed impassable. Needs testing.
+- **RADIO:** Assumed impassable. Needs testing.
+- **VOID:** Assumed impassable. Needs testing.
+
+## Bugs & Glitches
+- **GAME-BREAKING SOFTLOCK (Turn 2153-Present):** Permanently trapped in Mr. Pokémon's House. Warps are non-functional. All interaction attempts with NPCs and background objects have failed. The POKéGEAR menu trick no longer works. Using an item does not resolve the issue. The game is unplayable in this state.
+
+## Custom Tools
+- **`path_master`:** Finds the shortest path on the current map. **Warning:** Does not account for moving NPCs and may fail.
+- **`unstick_me_tool`:** Analyzes the map to check for paths to warps or unseen tiles to help diagnose softlocks. Confirmed no path out of Mr. Pokémon's house exists that works.
+
+## Lessons Learned & Process Improvements
+- **IMMEDIATE DOCUMENTATION IS NON-NEGOTIABLE:** All new information (map markers, WKG updates, bugs) MUST be documented immediately. This is my highest priority.
+- **Agent vs. Tool:** Agents are for high-level strategy, not for computational analysis or bug-hunting. Use tools for those tasks.
+- **Proactive Tool Creation:** If a problem can be solved with code, build a tool for it. Do not delay.
