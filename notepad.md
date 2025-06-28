@@ -77,6 +77,8 @@
 - **Careful Marker Management:** I need to be more precise with map markers, using `object_id` for moving NPCs and avoiding redundant markers.
 
 ## Observed Movesets
+- G (TOTODILE) learned WATER GUN at Lv13.
 - Wild Poliwag (Route 30): BUBBLE
 - Wild Hoothoot (Route 30): TACKLE
 - Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
+- Wild Spinarak (Route 30): Moveset unknown (fainted before attacking).
