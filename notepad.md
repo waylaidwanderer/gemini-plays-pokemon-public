@@ -1,7 +1,6 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Current Plan
-- Finish exploring Cherrygrove City.
 - Travel to Violet City to challenge the first Gym.
 
 ## Party & Rival
@@ -48,6 +47,11 @@
 - WARP_CARPET_DOWN: A warp tile.
 
 ## Game Development Tasks
+### Documentation Practices
+- **Immediate Updates:** All documentation (notepad, map markers, world knowledge graph) must be updated immediately upon discovering new information. This is the highest priority and must not be delayed.
+- **Descriptive Markers:** Map markers must have descriptive labels that provide strategic context, not just redundant information.
+- **Complete Graph:** The World Knowledge Graph must be updated in a single, immediate action whenever the map_id changes.
+
 ### Pathfinding Tool Development
 - **Goal:** Create a new, reliable pathfinding tool using `define_tool`.
 - **Problem:** The current `pathfinder_pro` is unreliable because it cannot distinguish between visually different tiles of the same type (e.g., normal FLOOR vs. impassable flowered FLOOR).
