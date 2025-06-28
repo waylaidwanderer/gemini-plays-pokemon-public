@@ -84,4 +84,4 @@
 - Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
 
 ## Final Conclusion
-- **RUN TERMINATED (Turn 2295):** The game is in a permanent, unrecoverable softlock. All attempts to escape Mr. Pokémon's House have failed, including direct interaction, menu manipulation, and POKéGEAR functions. The `unstick_me_tool` confirms no path exists. The `strategic_advisor` agent, even after refinement, is incapable of providing a solution as it cannot comprehend a game-breaking bug. No further actions are possible.
+- **RUN TERMINATED (Turn 2317):** The game is in a permanent, unrecoverable softlock. All attempts to escape Mr. Pokémon's House have failed, including direct interaction, menu manipulation, POKéGEAR functions, and activating a hidden switch. The warps at (2, 7) and (3, 7) are non-functional. The `unstick_me_tool` would confirm no path exists. The `strategic_advisor` agent is incapable of providing a solution as it cannot comprehend a game-breaking bug. No further actions are possible.
