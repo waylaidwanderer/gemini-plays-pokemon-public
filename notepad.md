@@ -14,7 +14,10 @@
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
 - **Poison Type Effectiveness:** Poison-type moves are NOT-VERY-EFFECTIVE against Poison-types.
 
-### B. Navigation & Traversal Rules
+### B. Battle Protocols (v1)
+- **Agent Reliance:** I will use the `battle_strategist_agent` for all significant battles (Gyms, Rival, unique encounters like Snorlax) to ensure optimal move selection. Manual control is for routine wild battles only.
+
+### C. Navigation & Traversal Rules
 - **Pikachu Movement:** A walkable object. Requires two button presses to move onto its tile if not already facing it.
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
 - **Silph Co. Blackout:** Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
@@ -22,23 +25,23 @@
 - **Silph Co. Elevator:** Requires a two-step process. First, interact with the panel to select a floor. Second, walk onto one of the warp tiles at the back of the elevator room to trigger the map change.
 - **Route 12 Pier:** The pier is segmented into isolated sections, making manual navigation tricky and the `pathfinder` tool highly unreliable (it frequently suggests paths into water). The only way to proceed south from the northern pier is to find the correct warp point, not by walking.
 
-### C. General Mechanics
+### D. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 
-### D. HM & Field Move Mechanics
+### E. HM & Field Move Mechanics
 - HMs can be used directly from the ITEM menu without being taught to a Pokémon. This is a significant time-saver for field moves like Flash and Cut. To use an HM from the bag, select the HM, choose 'USE', and then select 'NO' when prompted to teach it.
 - **Flash Exception:** Flash MUST be taught to a Pokémon to be used in the field.
 
-### E. Key Items Obtained
+### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
-## III. Agent & Tool Development Log (v44)
+## III. Agent & Tool Development Log (v45)
 ### A. Development Priorities
 - **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`. Manual JSON scripting is too slow and error-prone.
 - **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. This must be a **tool**, not an agent, as it requires direct map data analysis.
 
 ### B. Buggy Tools & Deletion Queue
-- **`overworld_navigator_tool` (BUGGY - DO NOT USE):** This tool is unreliable and calculates paths incorrectly. It should be deleted as soon as a `delete_tool` function becomes available. Rely on the standard `pathfinder` for now.
+- **`overworld_navigator_tool` (BUGGY - DO NOT USE):** This tool is unreliable and calculates paths incorrectly. It has been overwritten with a non-functional placeholder to prevent accidental use. Rely on the standard `pathfinder` for now.
 
 ### C. Active Agents (Reliable)
 - `pc_navigator_agent` (v2)
@@ -59,14 +62,17 @@
     - **5F:** Positional gates triggered by movement. Puzzle unsolved. The western area is inaccessible from the central room.
     - **8F:** Intra-floor teleporter loop.
 
-## V. Trainer Intel
-*A log of noteworthy trainer Pokémon rosters.*
+## V. Trainer & Encounter Intel
+*A log of noteworthy rosters and encounters.*
+### A. Trainer Pokémon
 - **Silph Co. 2F Scientist (6, 14):** Muk (Lv37), Weezing (Lv37), Porygon (Lv37)
 - **Silph Co. 4F Rocket (10, 15):** Machoke (Lv39), Hypno (Lv39)
 - **Silph Co. 4F Scientist (15, 7):** Electabuzz (Lv41)
 - **Silph Co. 5F Rocket (9, 17):** Tauros (Lv40)
 - **Silph Co. 9F Scientist (22, 14):** Muk (Lv40), Kabutops (Lv40)
 - **Silph Co. 11F Rocket (16, 8):** Kabutops, Raticate, Muk, Golbat, Marowak, Arbok
+### B. Unique Encounters
+- **Route 16 Snorlax:** Defeated. Path at (27, 11) is now clear.
 
 ## VI. Active Investigations & Untested Assumptions
 - **Assumption 1 (CARD KEY Location):** The `CARD KEY` is a physical item (Poké Ball) on the ground. **Hypothesis:** It could be given by an NPC after a specific trigger. **Test:** Continue systematically clearing floors and talking to all NPCs.
