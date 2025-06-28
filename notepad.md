@@ -70,4 +70,5 @@
 ## VIII. Post-Event Protocols (v1)
 - **Post-Blackout Recovery:** 1. Use `team_composition_advisor_agent` to devise a new strategy and team. 2. Use `pc_navigator_agent` to execute the recommended changes. 3. Train the new team to the level cap if required.
 ### D. HM & Field Move Mechanics
-- HMs can be used directly from the ITEM menu without being taught to a Pokémon. This is a significant time-saver for field moves like Flash and Cut.
+- HMs can be used directly from the ITEM menu without being taught to a Pokémon. This is a significant time-saver for field moves like Flash and Cut. To use an HM from the bag, select the HM, choose 'USE', and then select 'NO' when prompted to teach it.
+- **Assumption 4 (HM Field Use):** The 'use from bag' mechanic applies to all HMs, not just Flash and Cut. **Test:** Next time I am outdoors, I will attempt to use Fly directly from the item menu.
