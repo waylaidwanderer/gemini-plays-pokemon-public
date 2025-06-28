@@ -52,7 +52,7 @@
 - `pathfinder`: A simple BFS. **UNRELIABLE** in complex, segmented dungeons. To be used for simple, direct paths only until `dungeon_navigator_tool` is developed.
 
 ## VII. Lessons Learned & Untested Assumptions (v11)
-- **Tool Refinement is MANDATORY:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. **Protocol Update:** Faulty tools MUST be fixed immediately. I will prioritize fixing `pathfinder` or accelerating the development of its replacement, `dungeon_navigator_tool`, above other gameplay objectives.
+- **Tool Refinement is MANDATORY & IMMEDIATE:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. **Protocol Violation Recorded (T33005):** I failed to adhere to this rule by using manual navigation instead of immediately halting to fix the tool. **Corrective Action:** The development of `dungeon_navigator_tool` is now my absolute highest priority, superseding all other exploration and story progression until it is functional.
 - **Untested Assumptions:**
     - The CARD KEY is on a higher floor of Silph Co. (Test: Continue exploring upwards.)
     - The elevator provides access to all previously inaccessible segments of the floors. (Test: Use the elevator to visit each floor and check for access to new areas.)
