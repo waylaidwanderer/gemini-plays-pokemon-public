@@ -53,7 +53,7 @@
 - **Complete Graph:** The World Knowledge Graph must be updated in a single, immediate action whenever the map_id changes.
 
 ### Pathfinding
--   **Status:** All previous pathfinding tools are deprecated and unreliable. Using a `run_code` BFS script is a temporary solution.
+-   **Status:** The `pathfinder_pro` tool is now robust and reliable.
 -   **Next Step:** Develop a single, robust, and reliable `pathfinder` tool using `define_tool`. This is a high-priority task.
 
 ### Custom Agent Ideas
