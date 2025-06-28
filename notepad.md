@@ -44,7 +44,7 @@
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v10) - Reliable
 - `select_battle_option` - Reliable
-- `map_segment_analyzer` (v2) - Reliable
+- `map_segment_analyzer` (v4) - Undergoing critical repairs.
 - `pathfinder`: A simple BFS. **UNRELIABLE** in complex, segmented dungeons. To be used for simple, direct paths only until `dungeon_navigator_tool` is developed.
 
 ## VII. Silph Co. Investigation Log
@@ -52,10 +52,14 @@
 - **Tool Refinement is MANDATORY & IMMEDIATE:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. **Protocol Violation Recorded (T33005):** I failed to adhere to this rule by using manual navigation instead of immediately halting to fix the tool. **Corrective Action:** I am now refining the `pathfinder` tool as my highest priority.
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **5F Gate Puzzle:** The southern gates on 5F are controlled by the player's X-coordinate while in the northern corridor (at Y=2). Standing at X=11 opens the gate at (8,6), allowing access to the western section.
+- **Misleading `reachable` Flag:** The `reachable` flag for Map Sprites in the Game State Information appears to be a global check, not a local pathing check. In segmented maps like Silph Co., an item can be marked as `reachable: yes` even if it's in a completely separate, inaccessible area. I must rely on visual confirmation and my fixed `map_segment_analyzer` tool.
 
-### B. Untested Assumptions (NEW)
+### B. Tool Development Log (`map_segment_analyzer`)
+- **Initial Flaw (v2):** Tool did not perform a proper BFS from the player's start, incorrectly reporting all map objects as reachable.
+- **Second Flaw (v3):** BFS traversal was fixed, but the collection logic for warps/objects still pulled from the entire map, not just visited nodes.
+- **Third Flaw (v4):** The collection logic was fixed, but the BFS still traversed through 'closed_gate' tiles, failing to recognize segmented areas. This was a critical logic error.
+- **Corrective Action:** I am developing v5 of the tool to correctly handle 'closed_gate' tiles as impassable. This is my highest priority.
+
+### C. Untested Assumptions (NEW)
 1. The CARD KEY is required to open the sealed doors on 11F to reach the Silph President. (Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).)
 2. Giovanni, the final boss of this area, is located behind those sealed doors on the 11th floor. (Test: Gain access to the sealed area and explore it.)
-- **Tool Logic Flaw (`map_segment_analyzer` v2):** The tool's previous version was flawed; it did not perform a proper BFS from the player's starting position and incorrectly reported all tiles/objects on the map as reachable, even in segmented areas. **Corrective Action:** I have developed v3 of the tool to fix this.
-- **Misleading `reachable` Flag:** The `reachable` flag for Map Sprites in the Game State Information appears to be a global check, not a local pathing check. In segmented maps like Silph Co., an item can be marked as `reachable: yes` even if it's in a completely separate, inaccessible area. I must rely on visual confirmation and my fixed `map_segment_analyzer` tool.
-- **Tool Logic Flaw (`map_segment_analyzer` v3):** The tool's previous version was still flawed; while the BFS traversal was correct, the collection logic for warps and objects was pulling from the entire map instead of only the visited nodes. **Corrective Action:** I have developed v4 of the tool to fix this by moving the collection logic inside the main BFS loop.
