@@ -108,3 +108,4 @@
 
 ## Tool Bugs
 - `path_master`: The tool is currently unreliable and has generated a path leading directly into a WALL tile at (7, 12). It should not be used until the root cause is identified and fixed.
+- **WARP_CARPET_RIGHT:** A warp tile that activates when facing right.
