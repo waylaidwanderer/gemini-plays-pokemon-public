@@ -90,3 +90,5 @@
 - **Agent Ideas:** I should create an agent for team composition analysis.
 - **Tool Refinement:** My `path_master` tool needs more debugging and improvement.
 - **Untested Assumptions:** I need to confirm that Sprout Tower is the correct next objective by talking to NPCs in Violet City.
+## Tool Development
+- **path_master:** The tool is critically bugged. It does not understand one-way tiles like ledges and `FLOOR_HOP` tiles. This needs to be the top priority to fix.
