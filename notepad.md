@@ -36,10 +36,12 @@
 
 ## Critical Issues & Current Plan
 ### Immobilized at (3, 1) in Player's Neighbor's House
-- **Problem:** I am completely stuck at (3, 1). All movement attempts (Up, Down, Left, Right) have been blocked for multiple turns, even onto adjacent `FLOOR` tiles. This is accompanied by a major visual/state desync (screen shows Route 46, game state is Player's Neighbor's House).
-- **Hypothesis:** The game is in a soft-locked state. Standard movement is impossible.
+- **Problem:** I am completely stuck at (3, 1). All movement attempts (Up, Down, Left, Right) and turning attempts have been blocked for multiple turns. This is accompanied by a major visual/state desync (screen shows Route 46, game state is Player's Neighbor's House).
+- **Hypothesis:** The game is in a soft-locked state. Standard movement and interaction are impossible.
 - **Failed Attempts:**
-    1. Moving Up, Down, Left, or Right.
-    2. Following the 'maze-solving' hint (walking into wall, turning right were both blocked).
-    3. Using 'Start' and 'Select' buttons (no effect).
-- **New Strategy:** Since movement is impossible, I must try other inputs. My next action will be to press 'A' to attempt to interact with the `TOWN_MAP` object directly in front of me. If that fails, I will systematically try interacting with every adjacent tile.
+    1. Moving (Up, Down, Left, Right).
+    2. Turning (by attempting to move).
+    3. Maze-solving hint (failed as turning is impossible).
+    4. Menu buttons ('Start', 'Select').
+    5. Interaction button ('A' while facing TOWN_MAP).
+- **New Strategy:** I have now systematically tested every standard input except for the 'B' button. My next action is to press 'B' to see if it can cancel or otherwise alter this glitched state.
