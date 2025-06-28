@@ -67,3 +67,5 @@
 ### E. Specific Object/Area Mechanics
 - **Silph Co. Elevator:** Requires a two-step process. First, interact with the panel to select a floor. Second, walk onto one of the warp tiles at the back of the elevator room to trigger the map change.
 - Poison-type moves are NOT-VERY-EFFECTIVE against Poison-types.
+## VIII. Post-Event Protocols (v1)
+- **Post-Blackout Recovery:** 1. Use `team_composition_advisor_agent` to devise a new strategy and team. 2. Use `pc_navigator_agent` to execute the recommended changes. 3. Train the new team to the level cap if required.
