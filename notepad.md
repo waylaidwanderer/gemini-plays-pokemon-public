@@ -53,3 +53,7 @@
 - `overworld_navigator` (Under Development)
 
 ## VII. Lessons Learned & Protocol Corrections (v3)
+
+## VIII. Future Development & Research
+- **Notepad Maintenance Agent:** An agent that can take notepad content and a set of rules (e.g., 'remove duplicate H2 sections') to automate cleanup.
+- **Tile Glossary:** Start a dedicated section in the notepad to document the behavior of every discovered tile type (`ground`, `impassable`, `closed_gate`, `teleport`, etc.) to build a comprehensive physics guide.
