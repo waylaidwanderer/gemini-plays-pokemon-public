@@ -22,6 +22,7 @@
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
 - **Silph Co. Blackout:** Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
 - **Saffron City Navigation:** The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
+- **Teleporter Tiles:** These act as instant warps. Stepping on them immediately transports the player to another location, sometimes on a different floor. They are a key part of navigating complex dungeons like Silph Co.
 
 ### D. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35, 4 badges: 43.
@@ -32,10 +33,10 @@
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
-## III. Agent & Tool Development Log (v57)
+## III. Agent & Tool Development Log (v58)
 ### A. Development Priorities
-- **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. It must be able to systematically test every reachable tile to find puzzle triggers.
-- **`floor_strategist_agent` (HIGH PRIORITY):** To analyze the output of the `map_segment_analyzer` tool and create a prioritized list of exploration targets.
+- **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. It must be able to systematically test every reachable tile to find puzzle triggers. This is my highest priority.
+- **`floor_strategist_agent` (HIGH PRIORITY):** To analyze the output of the `map_segment_analyzer` tool and create a prioritized list of exploration targets (warps, objects, unseen tiles). This will serve as the input for the `dungeon_navigator_tool`.
 
 ### B. Active Agents & Tools
 - `pc_navigator_agent` (v2) - Reliable
@@ -51,8 +52,6 @@
 - **Tool Refinement is MANDATORY & IMMEDIATE:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. **Protocol Violation Recorded (T33005):** I failed to adhere to this rule by using manual navigation instead of immediately halting to fix the tool. **Corrective Action:** The development of `dungeon_navigator_tool` is now my absolute highest priority, superseding all other exploration and story progression until it is functional.
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 
-### B. Untested Assumptions
-1. The CARD KEY is on a higher floor of Silph Co. (Test: Continue exploring upwards.)
-2. The elevator provides access to all previously inaccessible segments of the floors. (Test: Use the elevator to visit each floor and check for access to new areas.)
-3. Giovanni is on the 11th floor, as a Rocket grunt mentioned. (Test: Reach the 11th floor and explore it.)
-- **Teleporter Tiles:** These act as instant warps. Stepping on them immediately transports the player to another location, sometimes on a different floor. They are a key part of navigating complex dungeons like Silph Co.
+### B. Untested Assumptions (NEW)
+1. The CARD KEY is required to open the sealed doors on 11F to reach the Silph President. (Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).)
+2. Giovanni, the final boss of this area, is located behind those sealed doors on the 11th floor. (Test: Gain access to the sealed area and explore it.)
