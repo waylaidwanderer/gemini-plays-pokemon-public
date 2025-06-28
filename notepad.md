@@ -32,6 +32,7 @@
 - BOOKSHELF: Impassable object.
 - TV: Impassable object.
 - RADIO: Impassable object.
+- WARP_CARPET_DOWN: A warp tile that typically leads out of a building or to a lower floor.
 
 ## NPCs and Interactions
 - Youngster on Route 29 (27, 17) gives advice about keeping weak Pokémon out of the grass.
@@ -46,13 +47,10 @@
     1. Travel from Cherrygrove City back to New Bark Town via Route 29.
     2. Go to Elm's Lab.
 
-### Misunderstandings & Corrections
-- Corrected my assumption that tree tiles are walkable. They are impassable obstacles. My `find_path` tool has been updated to reflect this.
+### Tool Reliability & Navigational Errors
+- My pathfinder tools (`find_path`, `pathfinder_pro`) were buggy and unreliable. They failed on long paths, led me into walls, and did not account for NPCs. I have deleted them and need to build a new, robust tool.
+- My manual pathing has also been unreliable. I've made several mistakes, such as trying to walk into a wall at (5, 10) in New Bark Town. Must be more careful and double-check paths.
 
 ## My Commitments
 - **Immediate Data Management:** I will mark all warps, items, and NPCs the moment I interact with them. I will update the World Knowledge Graph immediately upon changing maps.
-
-## Tool Reliability
-- My pathfinder tools (`find_path`, `pathfinder_pro`) are buggy and unreliable. They failed to find valid paths and led me into walls. Need to debug or create a more robust version.
-- `pathfinder_pro` does not account for NPCs and will attempt to path through them.
-- My manual path planning is also proving unreliable. I tried to walk into a wall at (5, 10) in New Bark Town. Must be more careful.
+- **Agent Brainstorming:** I should consider creating agents for strategic planning (e.g., team composition) and information recall (e.g., NPC dialogue summaries).
