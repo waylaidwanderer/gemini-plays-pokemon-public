@@ -54,14 +54,6 @@
 - `pathfinder` (limitation: unreliable for complex, segmented maps like Saffron City and Route 12).
 - `select_battle_option`
 
-## IV. Silph Co. Intel & Strategy
-- **Primary Goal:** Find the CARD KEY.
-- **Methodology:** Systematically explore each floor, mapping all teleporters and defeating all trainers. Use the CARD KEY on all locked doors upon acquisition.
-- **Discoveries:**
-    - **Hint:** The BOSS is on 11F (from a Rocket on 4F).
-    - **5F:** Positional gates triggered by movement. Puzzle unsolved. The western area is inaccessible from the central room.
-    - **8F:** Intra-floor teleporter loop.
-
 ## V. Trainer & Encounter Intel
 *A log of noteworthy rosters and encounters.*
 ### A. Trainer Pokémon
