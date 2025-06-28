@@ -41,12 +41,13 @@
 - **teleport:** A tile that instantly warps the player to another location on the same map. Includes spinner tiles and teleporter pads.
 - **elevator:** A special type of warp tile found in larger buildings. Requires interaction with a panel to select a floor before the warp can be used.
 
-## III. Agent & Tool Development Log (v52)
+## III. Agent & Tool Development Log (v53)
 ### A. Development Priorities
+#### Tools
 - **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. It must be able to systematically test every reachable tile to find puzzle triggers. This is a **tool**, not an agent.
 - **`wkg_query_tool` (HIGH PRIORITY):** To automate checking for broken links or existing nodes/edges in my World Knowledge Graph, formalizing my new WKG workflow.
 - **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`.
-- **`pathfinder` Refinement (HIGH PRIORITY):** The existing `pathfinder` tool must be refined to handle complex dungeon mechanics like hidden triggers. This is a higher priority than simply avoiding its use.
+#### Agents
 - **`puzzle_logic_agent` (LOW PRIORITY):** To recall complex puzzle solutions (e.g., Silph Co. gate triggers) to avoid manual re-discovery.
 
 ### B. Active Agents & Tools (Reliable)
@@ -56,7 +57,10 @@
 - `battle_strategist_agent` (v10)
 - `select_battle_option`
 
-## VII. Lessons Learned & Protocol Corrections (v6)
+### C. Tools with Limited Reliability
+- `pathfinder`: A simple BFS that cannot account for hidden puzzle triggers or segmented maps. Reliable for simple, open areas but fails in complex dungeons like Silph Co. Needs to be refined or replaced.
+
+## VII. Lessons Learned & Protocol Corrections (v7)
 - **Tool Refinement is Mandatory:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. **Protocol Violation:** My previous plan to avoid the tool was incorrect. Per core instructions, faulty tools MUST be refined or replaced immediately. **Corrective Action:** I will prioritize fixing `pathfinder` or accelerating the development of its replacement, `dungeon_navigator_tool`.
 - **Untested Assumptions:**
     - The CARD KEY is on a higher floor of Silph Co. (Test: Continue exploring upwards.)
