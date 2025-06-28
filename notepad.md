@@ -82,3 +82,4 @@
 - Wild Poliwag (Route 30): BUBBLE
 - Wild Hoothoot (Route 30): TACKLE
 - Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
+- **BOOKSHELF:** An impassable object.
