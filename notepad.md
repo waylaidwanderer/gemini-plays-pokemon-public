@@ -46,19 +46,14 @@
 - VOID: An impassable tile outside the map boundaries.
 - WARP_CARPET_DOWN: A warp tile.
 
-## Game Development Tasks
-### Documentation Practices
-- **Immediate Updates:** All documentation (notepad, map markers, world knowledge graph) must be updated immediately upon discovering new information. This is the highest priority and must not be delayed.
-- **Descriptive Markers:** Map markers must have descriptive labels that provide strategic context, not just redundant information.
-- **Complete Graph:** The World Knowledge Graph must be updated in a single, immediate action whenever the map_id changes.
-
-### Pathfinding
--   **Status:** The `pathfinder_pro` tool is now robust and reliable.
--   **Next Step:** Develop a single, robust, and reliable `pathfinder` tool using `define_tool`. This is a high-priority task.
-
-### Custom Agent Ideas
-- **`strategic_advisor`:** An agent that takes my current party, location, and goals to suggest the next best course of action (e.g., where to train, what items to buy).
-- **`dialogue_summarizer`:** An agent to extract key information, quests, or hints from NPC conversations to avoid missing critical details.
+## Development & Strategy Notes
+### Pathfinding Tool
+- **Status:** The `pathfinder_pro` tool is now robust and reliable after several refinements.
+### Custom Agents
+- **`strategic_advisor`:** An agent that takes my current party, location, and goals to suggest the next best course of action. I should use this more often.
+- **`dialogue_summarizer`:** (Idea) An agent to extract key information from NPC conversations.
+### Untested Assumptions
+- **Running vs. Fighting:** I have been assuming running from wild battles is always optimal. This saves time but yields no EXP. I need to test if battling some wild encounters is a better long-term strategy for leveling.
 
 ## Critical Reminders
 - **IMMEDIATE DOCUMENTATION:** All new information (NPC names, item locations, etc.) MUST be documented in the notepad and via map markers *immediately*, even during battles or cutscenes. No exceptions.
