@@ -64,3 +64,5 @@
 - **IMMEDIATE DOCUMENTATION:** All new information (NPC names, item locations, etc.) MUST be documented in the notepad and via map markers *immediately*, even during battles or cutscenes. No exceptions.
 - **Proactive Agent Use:** I must use my `strategic_advisor` agent proactively to avoid getting stuck, not just as a last resort.
 - **CLEAN UP MARKERS:** I must delete old or redundant markers to avoid clutter. Redundant markers are those that simply state information available from the tile type (e.g., 'Blocked by wall').
+## Pathfinding Tool Issues
+- The `pathfinder_pro` tool sometimes generates inefficient paths, seemingly avoiding grass. It also failed to identify the fruit tree at (11, 5) as an obstacle. I need to investigate and refine the script.
