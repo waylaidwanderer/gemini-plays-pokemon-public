@@ -71,3 +71,4 @@
 
 ## VIII. Post-Event Protocols (v1)
 - **Post-Blackout Recovery:** 1. Use `team_composition_advisor_agent` to devise a new strategy and team. 2. Use `pc_navigator_agent` to execute the recommended changes. 3. Train the new team to the level cap if required.
+- **Protocol Update (T31290):** A single bidirectional edge (`is_one_way: false`) in the WKG covers two-way travel. Do not create a second, reversed edge for the same connection.
