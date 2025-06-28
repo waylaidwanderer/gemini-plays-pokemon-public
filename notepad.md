@@ -1,10 +1,10 @@
-## I. Core Protocols & Immediate Actions (v41)
+## I. Core Protocols & Immediate Actions (v42)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with `run_code` to confirm it doesn't already exist.
   - All `warp` type edges MUST include a `destination_entry_point` if known. All new nodes MUST have descriptive `tags`.
 - **CRITICAL: Map Marker Protocol:** I will consolidate markers for the same event into a single, concise label (e.g., '🚪 To/From [Location]' instead of separate 'Arrival' and 'Used' markers).
-- **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks.
+- **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic before complex turns.
 - **CRITICAL: Post-Event Checklists (MANDATORY):**
   - **Trainer Battle:** Mark defeated trainer with '☠️' and log their Pokémon under 'Trainer Intel'.
   - **Wild Encounter:** Log EVERY wild Pokémon with `encounter_tracker_agent`.
@@ -25,10 +25,11 @@
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
 - **Silph Co. Blackout:** Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
 - **Saffron City Navigation:** The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
-- **Teleporter Tiles:** These act as instant warps. Stepping on them immediately transports the player to another location, sometimes on a different floor. They are a key part of navigating complex dungeons like Silph Co.
-- **Closed Gates:** These tiles are impassable and block movement until a specific trigger or puzzle is solved.
+- **Teleporter Tiles:** Instant warps. Stepping on them immediately transports the player.
+- **Closed Gates:** Impassable tiles that block movement until a specific trigger or puzzle is solved.
 - **Dynamic Gates (Silph Co. 5F):** The southern gates on 5F open and close based on the player's X-coordinate in the northern corridor (Y=2).
-- **Invisible Walls:** Some areas may contain impassable walls that are not visually represented. Discovered on Silph Co. 9F at (12, 2).
+- **Spinner Tiles:** Force movement in a specific direction. Encountered in Rocket Hideout.
+- **Invisible Walls:** Impassable walls that are not visually represented. Discovered on Silph Co. 9F at (12, 2).
 - **Ground Tiles:** Standard walkable tiles.
 - **Impassable Tiles:** Walls and other objects that cannot be walked on or through.
 
@@ -41,10 +42,13 @@
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
-## III. Agent & Tool Development Log (v67)
+## III. Agent & Tool Development Log (v68)
 ### A. Development Priorities
-- **`dungeon_navigator` tool (v7 - Debugging):** CRITICAL PRIORITY. The tool is still failing to generate valid paths. The latest version includes extensive debugging prints to methodically diagnose the root cause of its pathing errors on the next run.
-- **`pathfinder` tool improvement:** The current BFS-based tool is too simple. It must be improved or replaced with a more robust pathfinding algorithm (e.g., A*) that can handle dynamic obstacles and complex map features.
+- **`dungeon_navigator` tool (v7 - Debugging):** CRITICAL PRIORITY. The tool is still failing. Must be fixed.
+- **`pathfinder` tool improvement:** The current BFS-based tool is too simple. It must be improved or replaced with a more robust pathfinding algorithm (e.g., A*).
+- **New Tool Idea: `object_finder`:** A tool to find the coordinates of a named NPC or item on the current map.
+- **New Agent Idea: `ExplorationAgent`:** A single agent to combine the functionality of `map_segment_analyzer` and `floor_strategist_agent` for more streamlined exploration.
+- **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
 
 ### B. Active Agents & Tools
 - `pc_navigator_agent` (v2) - Reliable
@@ -54,19 +58,11 @@
 
 ## VII. Silph Co. Investigation Log
 ### A. Confirmed Lessons
-- **Misleading `reachable` Flag:** The `reachable` flag for Map Sprites in the Game State Information appears to be a global check, not a local pathing check. In segmented maps like Silph Co., an item can be marked as `reachable: yes` even if it's in a completely separate, inaccessible area. I must rely on my fixed `map_segment_analyzer` tool.
+- **Misleading `reachable` Flag:** The `reachable` flag for Map Sprites is a global check, not local. I must rely on my `map_segment_analyzer` tool for local pathing.
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
-- **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged. Interacting with him initiates pre-battle dialogue but does not start a battle, soft-locking progress in that room. The only exit is the teleporter back to 9F.
+- **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
 
-### B. Tool Development Log (`map_segment_analyzer`)
-- **v1-v7 Flaws:** Initial versions had a fundamentally flawed `is_traversable` function, causing the BFS to explore the entire map instead of just the reachable segment. Multiple attempts to fix it failed due to misdiagnosing the root cause.
-- **v8 Corrective Action (T33258):** Completely rewrote the `is_traversable` function to use a proper whitelist of walkable tile types. Awaiting final verification.
-
-### C. Open Puzzles & Hypotheses
-1.  **5F Gate Puzzle (Hypothesis Abandoned):** The systematic test of the eastern corridor failed to find the trigger. The western corridor is inaccessible. New Hypothesis: A battle-warp teleporter on 3F might provide access to the puzzle's solution.
-2.  **CARD KEY Location:** The key is likely behind one of the puzzles in Silph Co. The item at (22, 17) on 5F is a prime candidate.
-3.  **Giovanni's Location:** He is likely on the 11th floor behind the doors that require the CARD KEY. Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).
-- **Teleporter Tiles:** These act as instant warps. Stepping on them immediately transports the player to another location, sometimes on a different floor. They are a key part of navigating complex dungeons like Silph Co.
-- **Closed Gates:** These tiles are impassable and block movement until a specific trigger or puzzle is solved.
-- **Dynamic Gates (Silph Co. 5F):** The southern gates on 5F open and close based on the player's X-coordinate in the northern corridor (Y=2).
-- **Invisible Walls:** Some areas may contain impassable walls that are not visually represented. Discovered on Silph Co. 9F at (12, 2).
+### B. Open Puzzles & Hypotheses
+1.  **5F Gate Puzzle (Hypothesis):** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). I need to systematically test this to find the combination that opens the path to the item at (22, 17).
+2.  **CARD KEY Location (Hypothesis):** The key is likely the item at (22, 17) on 5F, behind the gate puzzle.
+3.  **Giovanni's Location (Hypothesis):** He is likely on the 11th floor behind the doors that require the CARD KEY. Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).
