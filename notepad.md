@@ -14,8 +14,8 @@
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
 - **Poison Type Effectiveness:** Poison-type moves are NOT-VERY-EFFECTIVE against Poison-types.
 
-### B. Battle Protocols (v1)
-- **Agent Reliance:** I will use the `battle_strategist_agent` for all significant battles (Gyms, Rival, unique encounters like Snorlax) to ensure optimal move selection. Manual control is for routine wild battles only.
+### B. Battle Protocols (v2)
+- **Agent Reliance (MANDATORY):** I will use the `battle_strategist_agent` for all significant battles (Gyms, Rival, unique encounters like Snorlax) to ensure optimal move selection. Manual control is for routine wild battles only. This protocol is a direct response to repeated AI critiques about underutilizing my agents.
 
 ### C. Navigation & Traversal Rules
 - **Pikachu Movement:** A walkable object. Requires two button presses to move onto its tile if not already facing it.
