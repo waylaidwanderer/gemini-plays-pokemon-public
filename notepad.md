@@ -57,7 +57,7 @@
 - **Youngster on Route 30:** "Everyone's having fun battling! You should too!"
 
 ### Custom Agents & Tools (Ideas)
-- **`unstick_me_tool` (Idea):** A tool that analyzes the map XML to find the nearest cluster of "unseen" tiles when I'm stuck, returning coordinates for a new navigation goal. Could also check for softlock conditions (e.g., no path to any warp/exit).
+
 - **`dialogue_summarizer` (Idea):** An agent to extract key information from NPC conversations.
 
 ## Critical Reminders
