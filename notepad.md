@@ -25,6 +25,7 @@
 - **Teleporter Tiles:** These act as instant warps. Stepping on them immediately transports the player to another location, sometimes on a different floor. They are a key part of navigating complex dungeons like Silph Co.
 - **Closed Gates:** These tiles are impassable and block movement until a specific trigger or puzzle is solved.
 - **Dynamic Gates (Silph Co. 5F):** The southern gates on 5F open and close based on the player's X-coordinate in the northern corridor (Y=2).
+- **Battle Warps:** Some battles (e.g., Scientist at Silph Co. 5F (13,6)) can trigger a one-way warp to a different location (e.g., Silph Co. 3F (4,4)) upon conclusion. This is a newly discovered mechanic.
 
 ### D. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35, 4 badges: 43.
@@ -62,5 +63,3 @@
 1.  **5F Gate Puzzle:** The southern gates are controlled by the player's X-coordinate in the northern corridor (Y=2). The exact mechanism needs to be mapped systematically to find a path to the item at (22, 17).
 2.  **CARD KEY Location:** The key is likely behind one of the puzzles in Silph Co. The item at (22, 17) on 5F is a prime candidate. The western section of 5F, accessed via 9F, proved to be a dead end due to a bugged Rocket.
 3.  **Giovanni's Location:** He is likely on the 11th floor behind the doors that require the CARD KEY. Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).
-- **Battle Warps:** Some battles (e.g., Scientist at Silph Co. 5F (13,6)) can trigger a one-way warp to a different location (e.g., Silph Co. 3F (4,4)) upon conclusion. This is a newly discovered mechanic.
-- **Battle Warps:** Some battles (e.g., Scientist at Silph Co. 5F (13,6)) can trigger a one-way warp to a different location (e.g., Silph Co. 3F (4,4)) upon conclusion. This is a newly discovered mechanic.
