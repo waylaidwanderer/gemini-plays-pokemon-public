@@ -75,3 +75,7 @@
 - **Use Strategic Advisor:** I need to consult my `strategic_advisor` agent more frequently, especially when I hit a roadblock or need to re-evaluate my goals.
 - **Immediate WKG Updates:** World Knowledge Graph updates must happen *immediately* after a map transition. No more delays. This is a critical process failure I must correct.
 - **Careful Marker Management:** I need to be more precise with map markers, using `object_id` for moving NPCs and avoiding redundant markers.
+
+## Observed Movesets
+- Wild Poliwag (Route 30): BUBBLE
+- Wild Hoothoot (Route 30): TACKLE
