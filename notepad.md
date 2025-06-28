@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Current Plan
-- My `strategic_advisor` recommended I capture a Geodude from Dark Cave to prepare for the Violet City Gym. My immediate goal is to travel to Dark Cave on Route 31.
+- I am currently on Route 30, searching for the entrance to Dark Cave, which I believe is on Route 31. My immediate goal is to navigate to the northern part of Route 30 to find the connection to Route 31.
 
 ## Party & Rival
 ### My Team
@@ -48,24 +48,21 @@
 - WARP_CARPET_DOWN: A warp tile.
 
 ### Tile Testing Plan
-- Systematically test each tile type on the current map to confirm traversability. Document findings.
-- **CRITICAL:** Pay close attention to visually distinct tiles even if they share the same type name (e.g., decorative flowers on `FLOOR` tiles on Route 30 are impassable).
+- Systematically test each new tile type I encounter to confirm traversability. Document findings immediately.
+- **CRITICAL:** A tile's `type` is the sole determinant of its collision properties, not its visual appearance.
 
 ## Development & Strategy Notes
 ### Pathfinding Tool Issues
-- **My Misunderstanding:** My manual assessment of Route 30 was incorrect. The only way to proceed north is via a long southern detour around the central part of the map. My `pathfinder_pro` tool was correctly identifying this path all along. My repeated failures were due to distrusting the tool and attempting to find a non-existent shortcut. The tool is functioning correctly, and its output must be trusted.
+- My `pathfinder_pro` tool is excellent for static environments, but it cannot account for moving NPCs that are off-screen. When a calculated path is repeatedly blocked by a moving NPC, I must switch to manual navigation.
 
 ### Custom Agents & Tools (Ideas)
-- **`unstick_me_tool` (Idea):** A tool that analyzes the map XML to find the nearest cluster of "unseen" tiles when I'm stuck, returning coordinates for a new navigation goal. This would be better than a reasoning-based agent.
+- **`unstick_me_tool` (Idea):** A tool that analyzes the map XML to find the nearest cluster of "unseen" tiles when I'm stuck, returning coordinates for a new navigation goal.
 - **`dialogue_summarizer` (Idea):** An agent to extract key information from NPC conversations.
 
 ## Untested Assumptions
-- **Running vs. Fighting:** I am currently testing if battling some wild encounters is a better long-term strategy for leveling than always running. Initial results show small EXP gains. I need more data to form a conclusion.
+- I must be more rigorous in verifying my assumptions. My belief that the warp at (17, 5) led to Dark Cave was incorrect and cost me time. I will question my assumptions more frequently and seek to verify them with in-game evidence.
 
 ## Critical Reminders
 - **IMMEDIATE DOCUMENTATION:** All new information (NPC names, item locations, etc.) MUST be documented in the notepad and via map markers *immediately*, even during battles or cutscenes. No exceptions.
 - **Proactive Agent Use:** I must use my `strategic_advisor` agent proactively to avoid getting stuck, not just as a last resort.
-- **CLEAN UP MARKERS:** I must delete old or redundant markers to avoid clutter. Redundant markers are those that simply state information available from the tile type (e.g., 'Blocked by wall').
-
-### Type Effectiveness Chart
-- Normal vs. Water: NOT VERY EFFECTIVE (Observed: G's Scratch vs. wild Poliwag)
+- **World Knowledge Graph:** I must add nodes and edges to my World Knowledge Graph immediately upon discovering new connections between maps.
