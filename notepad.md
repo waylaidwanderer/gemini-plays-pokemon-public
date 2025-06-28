@@ -1,9 +1,6 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Game Mechanics & Systems
-### My Items
-- BERRY x3
-- ANTIDOTE x2
 ### PC Storage
 - Pokémon:
 - Items:
@@ -29,7 +26,7 @@
 - DOOR: A warp tile that typically leads into or out of a building.
 - WATER: An impassable tile without the HM Surf. (Confirmed)
 - MART_SHELF: An impassable barrier, similar to a WALL.
-
+- BUOY: An impassable tile found in water. (Assumption)
 - TOWN_MAP: Impassable object.
 - WINDOW: Impassable object.
 - BOOKSHELF: Impassable object.
@@ -44,18 +41,13 @@
 
 ## Tracking Progress and Corrections
 ### Current Plan
-- **Objective:** Find the correct path to Mr. Pokémon's house.
+- **Objective:** Return the MYSTERY EGG to Professor Elm.
 - **Strategy:**
-    1. Explore Route 30.
-    2. Look for any other houses or paths.
-    3. Use my `find_path` tool to navigate.
+    1. Travel from Cherrygrove City back to New Bark Town via Route 29.
+    2. Go to Elm's Lab.
 
 ### Misunderstandings & Corrections
 - Corrected my assumption that tree tiles are walkable. They are impassable obstacles. My `find_path` tool has been updated to reflect this.
 
 ## My Commitments
 - **Immediate Data Management:** I will mark all warps, items, and NPCs the moment I interact with them. I will update the World Knowledge Graph immediately upon changing maps.
-
-## Key Items
-- MYSTERY EGG: Received from Mr. Pokémon. Needs to be delivered to Professor Elm.
-- POKéDEX: Received from Professor Oak. Automatically records Pokémon data.
