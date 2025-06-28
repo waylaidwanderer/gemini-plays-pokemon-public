@@ -79,3 +79,14 @@
 - **Protocol Failure (T31322):** I have been using `select_battle_option` redundantly by also manually inputting the button presses. **Correction:** I will rely solely on the tool for battle menu selections to improve efficiency.
 - **Hypothesis Failure (T31370):** The pier on Route 12 is segmented. I was stuck on an isolated section and could not reach the southern trainers or the exit to Route 13. All manual and pathfinder attempts failed. **Correction:** The game state shows reachable warps. I must trust the game state over my own perception and explore all reachable warps before assuming I am stuck.
 - **Hypothesis Failure (Route 12 South Path):** The warp at (12, 78) on Route 12 leads to the Super Rod House, not south. The path south must be found elsewhere.
+
+## VIII. Tile Mechanics Compendium
+*   **Ground:** Standard walkable tile.
+*   **Grass:** Walkable tile with wild encounters.
+*   **Impassable:** Walls, counters, rocks. Cannot be entered.
+*   **Water:** Requires Surf to cross.
+*   **Ledge:** One-way downward traversal. Treat as a wall from all other directions.
+*   **Cuttable:** Tree that can be cut with HM Cut.
+*   **Pikachu:** A unique, walkable object. Requires a double-press if not already facing it.
+*   **Warp:** Triggers a map change. Includes doors, stairs, and cave entrances.
+*   **Spinner:** Forces movement in a specific direction.
