@@ -37,7 +37,6 @@
 - **`dungeon_navigator_agent` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. This is essential for finding the CARD KEY efficiently.
 
 ### B. Agent & Tool Deletion Queue
-- `overworld_navigator_agent`: Invalid agent concept. Must be a tool, not an agent.
 
 ### C. Active Agents (Reliable)
 - `pc_navigator_agent` (v2)
