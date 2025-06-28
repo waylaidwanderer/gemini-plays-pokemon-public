@@ -63,3 +63,4 @@
 1.  **5F Gate Puzzle:** The southern gates are controlled by the player's X-coordinate in the northern corridor (Y=2). The exact mechanism needs to be mapped systematically to find a path to the item at (22, 17).
 2.  **CARD KEY Location:** The key is likely behind one of the puzzles in Silph Co. The item at (22, 17) on 5F is a prime candidate. The western section of 5F, accessed via 9F, proved to be a dead end due to a bugged Rocket.
 3.  **Giovanni's Location:** He is likely on the 11th floor behind the doors that require the CARD KEY. Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).
+**Hypothesis: 5F Gate Puzzle (Failed - T33318):** The hypothesis that standing on a single tile in the northern corridor (Y=2) would open a path to the item at (22, 17) has been proven false. Systematically tested every tile from (9,2) to (21,2) with no success. This puzzle requires a different solution.
