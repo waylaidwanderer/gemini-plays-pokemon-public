@@ -55,3 +55,7 @@
 
 ## My Commitments
 - **Immediate Data Management:** I will mark all warps, items, and NPCs the moment I interact with them. I will update the World Knowledge Graph immediately upon changing maps.
+
+## Key Items
+- MYSTERY EGG: Received from Mr. Pokémon. Needs to be delivered to Professor Elm.
+- POKéDEX: Received from Professor Oak. Automatically records Pokémon data.
