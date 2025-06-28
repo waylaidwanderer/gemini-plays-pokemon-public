@@ -84,3 +84,5 @@
 - **Teleport:** Instant warp tile. Stepping on it immediately triggers a map change.
 - **Spinner:** Forces movement in a specific direction. The sequence continues until a non-spinner tile or a spinner_stop tile is reached.
 - **Closed Gate:** Impassable barrier. Requires a switch or event to open.
+- **Closed Gate:** Impassable barrier. Requires a switch or event to open.
+- **Open Gate:** Previously closed gate, now open and acts as `ground`.
