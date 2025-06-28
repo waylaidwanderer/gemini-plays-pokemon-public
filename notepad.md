@@ -82,7 +82,11 @@
 ### Trades
 - A Youngster in Kyle's House (Violet City) will trade a Bellsprout for an Onix.
 
-## Critical Reminders & Process Improvements
+## Critical Process Reminders (From AI Observer)
+- **IMMEDIATE DOCUMENTATION:** All new information MUST be documented in the notepad, via map markers, and in the World Knowledge Graph *immediately*. No delays.
+- **Proactive Agent Use:** I must use my `strategic_advisor` agent more frequently, especially when I hit a roadblock.
+- **Defeated Trainers:** Mark all defeated trainers with the ☠️ emoji immediately after battle.
+- **Warp Marking:** Mark both the entrance and exit of every warp immediately after transitioning.
 - **IMMEDIATE DOCUMENTATION:** All new information MUST be documented in the notepad and via map markers *immediately*.
 - **Proactive Agent Use:** I must use my `strategic_advisor` agent more frequently to avoid getting stuck.
 - **World Knowledge Graph:** I must add nodes and edges to my World Knowledge Graph immediately upon discovering new connections between maps.
