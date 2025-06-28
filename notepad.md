@@ -62,3 +62,6 @@
 - **World Knowledge Graph:** I must add nodes and edges to my World Knowledge Graph immediately upon discovering new connections between maps.
 ### Discovered Traps & Puzzles
 - **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
+- **BOOKSHELF:** An impassable barrier.
+- **WALL:** An impassable barrier.
+- **WARP_CARPET_DOWN:** A warp tile.
