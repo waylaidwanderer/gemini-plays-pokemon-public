@@ -58,7 +58,7 @@
 
 ## Development & Strategy Notes
 ### Pathfinding Tool Issues
-- My `pathfinder_pro` tool is excellent for static environments, but it cannot account for moving NPCs that are off-screen. When a calculated path is repeatedly blocked by a moving NPC, I must switch to manual navigation.
+- My `path_master` tool is a significant improvement and can reliably navigate static environments. It still cannot account for moving NPCs that are off-screen. When a calculated path is repeatedly blocked by a moving NPC, I must switch to manual navigation.
 
 ### Custom Agents & Tools (Ideas)
 - **`unstick_me_tool` (Idea):** A tool that analyzes the map XML to find the nearest cluster of "unseen" tiles when I'm stuck, returning coordinates for a new navigation goal. Could also check for softlock conditions (e.g., no path to any warp/exit).
