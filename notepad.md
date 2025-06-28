@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v27)
+## I. Core Protocols & Immediate Actions (v28)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays. I will verify my current map_id and coordinates from the Game State Information BEFORE every documentation action. I will also consult map markers before navigating to or interacting with a target.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents whenever a task can be automated or requires complex reasoning. I will prioritize developing agents that solve my most immediate problems.
 - **CRITICAL: Post-Event Checklists (MANDATORY):**
@@ -34,23 +34,21 @@
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
-## III. Agent & Tool Development Log (v45)
+## III. Agent & Tool Development Log (v47)
 ### A. Development Priorities
-- **`overworld_navigator_tool` & `pathfinder` (CRITICAL - IMMEDIATE FIX REQUIRED):** Both navigation tools are flawed. Fixing them is the top priority after healing, as per AI critique.
+- **`overworld_navigator` (CRITICAL - TOP PRIORITY):** My `pathfinder` tool is fundamentally broken for segmented maps. My absolute highest priority is to develop a new, robust navigation tool that integrates with my World Knowledge Graph to handle complex, multi-map pathfinding. I will not pursue other major objectives until this is complete.
+- **`wkg_debugger_tool` (HIGH PRIORITY):** To automate checking for broken links in my World Knowledge Graph.
 - **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`. Manual JSON scripting is too slow and error-prone.
 - **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. This must be a **tool**, not an agent, as it requires direct map data analysis.
 
-### B. Buggy Tools & Deletion Queue
-- **`overworld_navigator_tool` (BUGGY - DO NOT USE):** This tool is unreliable and calculates paths incorrectly. It has been overwritten with a non-functional placeholder to prevent accidental use. Rely on the standard `pathfinder` for now.
-
-### C. Active Agents (Reliable)
+### B. Active Agents (Reliable)
 - `pc_navigator_agent` (v2)
 - `team_composition_advisor_agent` (v2)
 - `protocol_enforcement_agent` (v1)
 - `battle_strategist_agent` (v9)
 - `encounter_tracker_agent` (v1)
 
-### D. Active Tools (Reliable)
+### C. Active Tools (Reliable)
 - `pathfinder` (limitation: unreliable for complex, segmented maps like Saffron City and Route 12).
 - `select_battle_option`
 
@@ -64,4 +62,4 @@
 - **Hypothesis Failure (Route 12 South Path):** The warp at (12, 78) on Route 12 leads to the Super Rod House, not south. The path south must be found elsewhere.
 - **Protocol Failure (T31644):** I failed to mark the exit warp of the Route 12 Gatehouse before transitioning to Route 12. I must be more disciplined and mark both sides of a warp connection immediately.
 - **Protocol Failure (T31645):** I set a navigation goal to a trainer at (15, 32) on Route 12 without checking my map markers first. The marker clearly indicated this NPC was non-battling and I had already interacted with them. This is a major failure in following my own established protocols and wasted a turn. I MUST check markers before every navigation or interaction action.
-- **Protocol Failure (T32111):** The `pathfinder` tool is fundamentally broken for segmented maps like Celadon City. Multiple fix attempts, including simplifying the logic, have failed. My conclusion to ignore the tool was a direct violation of my protocols. **Correction:** The tool's simple BFS logic is insufficient for maps with segmented areas that require warps or other transitions to navigate between them. Ignoring a faulty tool is unacceptable. My top priority is now to develop a new, more advanced navigation tool that can parse the World Knowledge Graph to find paths across complex, multi-part maps. The existing `pathfinder` will be reserved for simple, on-map navigation only after it's been properly debugged for that purpose.
+- **Protocol Failure (T32111):** The `pathfinder` tool is fundamentally broken for segmented maps like Celadon City. Multiple fix attempts, including simplifying the logic, have failed. **Correction:** Ignoring a faulty tool is unacceptable. My absolute highest priority is to develop a new, more advanced navigation tool that can parse the World Knowledge Graph to find paths across complex, multi-part maps. I will not proceed with any other major objectives until this is complete. The existing `pathfinder` will be reserved for simple, on-map navigation only after it's been properly debugged for that purpose.
