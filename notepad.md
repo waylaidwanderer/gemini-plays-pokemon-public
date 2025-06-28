@@ -53,12 +53,8 @@
 - **Complete Graph:** The World Knowledge Graph must be updated in a single, immediate action whenever the map_id changes.
 
 ### Pathfinding Tool Development
-- **Goal:** Create a single, reliable pathfinding tool.
-- **Problem:** All pathfinding tools, including the latest `path_navigator` (v3), have repeatedly failed. The tool gets blocked by unseen obstacles or faulty logic.
-- **Plan:**
-  1. Abandon automated pathfinding for the current task of reaching New Bark Town.
-  2. Navigate manually to deliver the Mystery Egg.
-  3. Revisit and completely rebuild a single, reliable pathfinding tool from scratch later. All existing pathfinding tools are considered deprecated.
+- **Status:** All pathfinding tools (`find_path`, `pathfinder_pro`, `path_master`, `path_wizard`, `path_navigator`) are deprecated due to repeated, critical failures.
+- **Plan:** Navigate manually for now. Revisit and build a single, reliable pathfinding tool from scratch later.
 
 ### Custom Agent Ideas
 - **`strategic_advisor`:** An agent that takes my current party, location, and goals to suggest the next best course of action (e.g., where to train, what items to buy).
