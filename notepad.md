@@ -24,7 +24,7 @@
 ### Tile Traversal and Movement Rules
 - **Objects are impassable:** All map objects (items, trees, signs, etc.) act as walls.
 - WALL: An impassable barrier.
-- FLOOR: A standard traversable tile. **Correction:** Tiles with this type can be impassable. Specifically, FLOOR tiles with flower graphics are impassable barriers.
+- FLOOR: A standard traversable tile.
 - TALL_GRASS: A traversable tile that can trigger wild Pokémon encounters.
 - LEDGE: Impassable from the bottom edge. Can be jumped down from the top edge.
 - FLOOR_HOP_RIGHT_LEDGE: A one-way tile that allows jumping over a ledge to the right.
