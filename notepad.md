@@ -63,3 +63,5 @@
 ### Custom Agent Ideas
 - **`strategic_advisor`:** An agent that takes my current party, location, and goals to suggest the next best course of action (e.g., where to train, what items to buy).
 - **`dialogue_summarizer`:** An agent to extract key information, quests, or hints from NPC conversations to avoid missing critical details.
+## Critical Reminders
+- **IMMEDIATE DOCUMENTATION:** All new information (NPC names, item locations, etc.) MUST be documented in the notepad and via map markers *immediately*, even during battles or cutscenes. No exceptions.
