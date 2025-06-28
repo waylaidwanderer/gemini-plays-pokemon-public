@@ -98,5 +98,5 @@
 ## Immediate Tasks
 - **Tile Testing:** I need to test the traversal properties of new tiles on Route 31 and document them.
   - `WATER` at (21, 7) - **Confirmed impassable.**
-  - `CUT_TREE` at (25, 10) - **Untested**
+  - `CUT_TREE` at (25, 10) - **Confirmed impassable.**
   - `CAVE` warp at (34, 5) - **Untested**
