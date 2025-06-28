@@ -92,3 +92,4 @@
 ### D. Navigation & Exploration
 - **Hypothesis Failure (Route 12, T31370):** Getting stuck on segmented maps is often due to missing a reachable warp.
   - **CORRECTION:** I must trust the game state over my own perception and explore all reachable warps before assuming I am stuck. The warp at (12, 78) leads to the Super Rod House, not south.
+- **Protocol Failure (T32321):** The `pathfinder` tool failed to find a path to the Rocket at (15, 16) on Silph Co. 6F. This confirms my protocol: the tool is unreliable for anything but simple, open-area navigation. I must strictly adhere to using manual navigation in complex, maze-like interiors like this.
