@@ -54,3 +54,12 @@
 ## My Commitments
 - **Immediate Data Management:** I will mark all warps, items, and NPCs the moment I interact with them. I will update the World Knowledge Graph immediately upon changing maps.
 - **Agent Brainstorming:** I should consider creating agents for strategic planning (e.g., team composition) and information recall (e.g., NPC dialogue summaries).
+### Player's Neighbor's House Warp Failure
+- I have failed to exit the house 6 times. My hypotheses about how the warp at (2, 7)/(3, 7) works have all been incorrect:
+ 1. Stepping on the tile.
+ 2. Pressing 'A' on the tile.
+ 3. Stepping down onto the right side.
+ 4. Stepping down onto the left side.
+ 5. Stepping left onto the tile.
+ 6. Stepping right onto the tile.
+- New Strategy: The system notes insist I am not trapped. I will now systematically test every wall tile for a hidden exit, starting with the west wall.
