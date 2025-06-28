@@ -8,7 +8,7 @@
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
-- **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water.
+- **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison).
 - **Type Immunities:** Psychic is immune to Electric.
 - **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves. MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
@@ -26,9 +26,9 @@
 - **Route 12 Pier:** The pier is segmented into isolated sections, making manual navigation tricky and the `pathfinder` tool highly unreliable (it frequently suggests paths into water). The only way to proceed south from the northern pier is to find the correct warp point, not by walking.
 
 ### D. General Mechanics
-- **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
+- **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35, 4 badges: 43.
 
-### C. HM & Field Move Mechanics
+### E. HM & Field Move Mechanics
 - **Flash & Cut Exception:** These HMs MUST be taught to a Pokémon to be used in the field. This contradicts the general rule for other HMs.
 
 ### F. Key Items Obtained
@@ -36,6 +36,7 @@
 
 ## III. Agent & Tool Development Log (v45)
 ### A. Development Priorities
+- **`overworld_navigator_tool` & `pathfinder` (CRITICAL - IMMEDIATE FIX REQUIRED):** Both navigation tools are flawed. Fixing them is the top priority after healing, as per AI critique.
 - **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`. Manual JSON scripting is too slow and error-prone.
 - **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. This must be a **tool**, not an agent, as it requires direct map data analysis.
 
@@ -63,12 +64,6 @@
 - **Hypothesis Failure (Route 12 South Path):** The warp at (12, 78) on Route 12 leads to the Super Rod House, not south. The path south must be found elsewhere.
 - **Protocol Failure (T31644):** I failed to mark the exit warp of the Route 12 Gatehouse before transitioning to Route 12. I must be more disciplined and mark both sides of a warp connection immediately.
 - **Protocol Failure (T31645):** I set a navigation goal to a trainer at (15, 32) on Route 12 without checking my map markers first. The marker clearly indicated this NPC was non-battling and I had already interacted with them. This is a major failure in following my own established protocols and wasted a turn. I MUST check markers before every navigation or interaction action.
-- **Type Matchups:** CUT (Normal) is SUPER-EFFECTIVE against VICTREEBEL (Grass/Poison).
 
-## Post-Battle Action Items (Celadon Gym)
-- **CRITICAL PROTOCOL CORRECTION:** Refine the buggy `overworld_navigator_tool` immediately. This is a top priority as per AI critique.
-- **MAP MARKER CORRECTION (map_id: 134):** Review and correct the markers for Cool Trainer F (3, 12) and Beauty (8, 11). They are likely not non-battling NPCs.
-- **Type Matchup Discovery (T31994):** CUT (Normal) is SUPER-EFFECTIVE against VICTREEBEL (Grass/Poison).
-## Post-Battle Action Items (Celadon Gym)
-- **CRITICAL PROTOCOL CORRECTION:** Refine the buggy `overworld_navigator_tool` immediately. This is a top priority as per AI critique.
-- **MAP MARKER CORRECTION (map_id: 134):** Review and correct the markers for Cool Trainer F (3, 12) and Beauty (8, 11). They are likely not non-battling NPCs.
+## VIII. Post-Celadon Gym Action Plan
+- **Investigate Trainers:** Re-challenge Cool Trainer F at (3, 12) and Beauty at (8, 11) since they were likely not non-battling NPCs.
