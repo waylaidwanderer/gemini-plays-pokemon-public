@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Current Plan
-- I am currently on Route 30, backtracking to Cherrygrove City after taking a wrong turn. My goal is to get back to the main path to continue towards Violet City.
+- I am in Mr. Pokemon's house. I need to speak with the other person in the room to complete my errand for Professor Elm.
 
 ## Party & Rival
 ### My Team
@@ -42,7 +42,7 @@
 - **BUOY:** An impassable tile in water.
 - **TOWN_MAP:** Impassable object.
 - **WINDOW:** Impassable object.
-- **BOOKSHELF:** Impassable object.
+- **BOOKSHELF:** An impassable object.
 - **TV:** Impassable object.
 - **RADIO:** Impassable object.
 - **VOID:** An impassable tile outside the map boundaries.
@@ -62,6 +62,3 @@
 - **World Knowledge Graph:** I must add nodes and edges to my World Knowledge Graph immediately upon discovering new connections between maps.
 ### Discovered Traps & Puzzles
 - **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
-- **BOOKSHELF:** An impassable barrier.
-- **WALL:** An impassable barrier.
-- **WARP_CARPET_DOWN:** A warp tile.
