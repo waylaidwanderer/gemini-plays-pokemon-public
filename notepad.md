@@ -28,9 +28,8 @@
 ### D. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
 
-### E. HM & Field Move Mechanics
+### C. HM & Field Move Mechanics
 - **Flash & Cut Exception:** These HMs MUST be taught to a Pokémon to be used in the field. This contradicts the general rule for other HMs.
-- **Flash Exception:** Flash MUST be taught to a Pokémon to be used in the field.
 
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
