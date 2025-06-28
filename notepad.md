@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Immediate Tasks (High Priority)
-- **Fix `path_master` Tool:** The tool is flawed as it doesn't account for moving NPCs. It must be fixed with `define_tool` after reaching Mr. Pokémon's house or if the current path fails.
+- **Fix `path_master` Tool (HIGHEST PRIORITY):** The tool is critically flawed as it doesn't handle NPCs. I must fix it with `define_tool` at the very next opportunity before relying on it again.
 
 ## Untested Assumptions
 - **`path_master` validity:** Assuming the current path generated is valid. Test by following it.
