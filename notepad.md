@@ -19,7 +19,6 @@
 - **Agent Reliance (MANDATORY):** I will use the `battle_strategist_agent` for all significant battles (Gyms, Rival, unique encounters) to ensure optimal move selection.
 
 ### C. Navigation & Traversal Rules
-- **Pikachu Movement:** A walkable object. Requires two button presses to move onto its tile if not already facing it.
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
 - **Silph Co. Blackout:** Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
 - **Saffron City Navigation:** The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
@@ -32,14 +31,6 @@
 
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
-
-### G. Tile Glossary (v4)
-- **ground:** A standard, walkable tile.
-- **impassable:** A non-traversable tile, like a wall or object.
-- **warp:** A tile that transports the player to another location, which can be on the same or a different map.
-- **closed_gate:** An impassable gate. On Silph Co. floors, these appear to be opened by hidden puzzle triggers rather than keys.
-- **teleport:** A tile that instantly warps the player to another location on the same map. Includes spinner tiles and teleporter pads.
-- **elevator:** A special type of warp tile found in larger buildings. Requires interaction with a panel to select a floor before the warp can be used.
 
 ## III. Agent & Tool Development Log (v55)
 ### A. Development Priorities
@@ -60,8 +51,8 @@
 - `select_battle_option` - Reliable
 - `pathfinder`: A simple BFS. **UNRELIABLE** in complex, segmented dungeons. To be used for simple, direct paths only until `dungeon_navigator_tool` is developed.
 
-## VII. Lessons Learned & Untested Assumptions (v9)
-- **Tool Refinement is Mandatory:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. My previous plan to avoid the tool was a protocol violation. **Corrective Action:** I will prioritize fixing `pathfinder` or accelerating the development of its replacement, `dungeon_navigator_tool`.
+## VII. Lessons Learned & Untested Assumptions (v10)
+- **Tool Refinement is MANDATORY:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. My previous plan to avoid the tool was a protocol violation. **Protocol Update:** Faulty tools MUST be fixed immediately. I will prioritize fixing `pathfinder` or accelerating the development of its replacement, `dungeon_navigator_tool`, above other gameplay objectives.
 - **Untested Assumptions:**
     - The CARD KEY is on a higher floor of Silph Co. (Test: Continue exploring upwards.)
     - The elevator provides access to all previously inaccessible segments of the floors. (Test: Use the elevator to visit each floor and check for access to new areas.)
