@@ -66,3 +66,6 @@
 - **CLEAN UP MARKERS:** I must delete old or redundant markers to avoid clutter. Redundant markers are those that simply state information available from the tile type (e.g., 'Blocked by wall').
 ## Pathfinding Tool Issues
 - The `pathfinder_pro` tool sometimes generates inefficient paths, seemingly avoiding grass. It also failed to identify the fruit tree at (11, 5) as an obstacle. I need to investigate and refine the script.
+
+### Pathfinding Tool Issues (Update)
+- **Critical Bug:** The `pathfinder_pro` tool is fundamentally flawed on maps like Route 30 because the `map_xml_string` does not differentiate between standard `FLOOR` tiles and impassable decorative `FLOOR` tiles (e.g., the flower patches). The tool correctly processes the data it's given, but the data itself is an incomplete representation of the game world, leading to illogical paths that try to route through these impassable flowers. I will have to rely on manual navigation on this map and any others with similar decorative, impassable tiles.
