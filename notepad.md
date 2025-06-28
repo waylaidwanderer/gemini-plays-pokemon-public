@@ -49,3 +49,6 @@
 ## Critical Issues
 ### Tool Limitations
 - **pathfinder_pro is unreliable:** The tool cannot distinguish between visually different tiles of the same type (e.g., normal FLOOR vs. impassable flowered FLOOR). Do not use it on maps with such features; rely on manual pathing instead.
+
+## Game Development Tasks
+- **Create a new pathfinding tool:** The current `pathfinder_pro` is unreliable. I need to develop a new tool that can accurately parse the map XML and correctly identify all impassable tiles, including visually distinct but identically typed ones.
