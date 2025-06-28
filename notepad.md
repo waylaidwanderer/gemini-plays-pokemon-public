@@ -28,7 +28,10 @@
 ### D. HM & Field Move Mechanics
 - HMs can be used directly from the ITEM menu without being taught to a Pokémon. This is a significant time-saver for field moves like Flash and Cut. To use an HM from the bag, select the HM, choose 'USE', and then select 'NO' when prompted to teach it.
 
-## III. Agent & Tool Development Log (v41)
+### E. Key Items Obtained
+- **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
+
+## III. Agent & Tool Development Log (v42)
 ### A. Development Priorities
 - **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`. Manual JSON scripting is too slow and error-prone.
 - **`dungeon_navigator_agent` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. This is essential for finding the CARD KEY efficiently.
@@ -36,14 +39,14 @@
 ### B. Agent & Tool Deletion Queue
 - `overworld_navigator_agent`: Invalid agent concept. Must be a tool, not an agent.
 
-### B. Active Agents (Reliable)
+### C. Active Agents (Reliable)
 - `pc_navigator_agent` (v2)
 - `team_composition_advisor_agent` (v2)
 - `protocol_enforcement_agent` (v1)
 - `encounter_tracker_agent` (v1)
 - `battle_strategist_agent` (v9)
 
-### C. Active Tools (Reliable)
+### D. Active Tools (Reliable)
 - `pathfinder` (limitation: unreliable for complex, segmented maps like Saffron City and Route 12).
 - `select_battle_option`
 
@@ -68,7 +71,6 @@
 - **Assumption 2 (Gate Puzzles):** The closed gates on various floors (5F, 7F, etc.) are part of a puzzle I can solve on that floor. **Hypothesis:** They might be opened by a master switch on a completely different floor. **Test:** Continue exploring all floors thoroughly. The `dungeon_navigator_agent` would be key here.
 - **Assumption 3 (Rocket Progression):** I need to defeat all Rockets to progress. **Hypothesis:** Some might just provide flavor text. **Test:** If a Rocket doesn't battle me, mark them as non-hostile ('💬') and move on, not assuming they are a progression blocker unless they physically block the path.
 - **Assumption 4 (HM Field Use):** The 'use from bag' mechanic is inconsistent. Cut can be used without teaching, but Flash MUST be taught to a Pokémon to be used in the field. Assumption: Other HMs like Fly and Surf will also need to be taught. **Test:** Next time I am outdoors, I will attempt to use Fly directly from the item menu.
-- **Assumption 5 (Super Rod House):** The warp at (12, 78) is the correct way to proceed south. **Test:** Navigate there and enter the warp.
 
 ## VII. Lessons Learned & Protocol Corrections
 - **Protocol Failure (T30985):** I attempted to log a Silph Co. warp connection (8F 12,6 to 2F 28,16) that already existed in the World Knowledge Graph. I had clearly forgotten this path because I failed to mark the warp with '🚪' on both ends immediately after using it the first time. **Correction:** Must be more disciplined. Trust system errors. Mark ALL warps immediately.
@@ -77,3 +79,4 @@
 - **Protocol Failure (T31320):** I have repeatedly hallucinated my location and map ID, leading to multiple failed tool calls and wasted turns. **Correction:** I MUST verify my current `map_id` and coordinates from the Game State Information *before* every single action, especially navigation and documentation. I will also trust system warnings about reachability and dead ends.
 - **Protocol Failure (T31322):** I have been using `select_battle_option` redundantly by also manually inputting the button presses. **Correction:** I will rely solely on the tool for battle menu selections to improve efficiency.
 - **Hypothesis Failure (T31370):** The pier on Route 12 is segmented. I was stuck on an isolated section and could not reach the southern trainers or the exit to Route 13. All manual and pathfinder attempts failed. **Correction:** The game state shows reachable warps. I must trust the game state over my own perception and explore all reachable warps before assuming I am stuck.
+- **Hypothesis Failure (Route 12 South Path):** The warp at (12, 78) on Route 12 leads to the Super Rod House, not south. The path south must be found elsewhere.
