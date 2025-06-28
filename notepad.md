@@ -36,7 +36,6 @@
 - BOOKSHELF: Impassable object.
 - TV: Impassable object.
 - RADIO: Impassable object.
-- WARP_CARPET_DOWN: A warp tile.
 - VOID: An impassable tile outside the map boundaries.
 
 ## Critical Issues
