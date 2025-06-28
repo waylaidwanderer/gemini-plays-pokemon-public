@@ -82,10 +82,9 @@
 ### Trades
 - A Youngster in Kyle's House (Violet City) will trade a Bellsprout for an Onix.
 
-## Reflection Notes (Turn 3066)
-- **Tile Mechanics:** I need to test the `FLOOR_UP_WALL` tile in Dark Cave.
-- **Agent Ideas:** I should create an agent for team composition analysis.
-- **Tool Refinement:** My `path_master` tool needs more debugging and improvement.
-- **Untested Assumptions:** I need to confirm that Sprout Tower is the correct next objective by talking to NPCs in Violet City.
+## AI Observer Feedback (Turn 3151)
+- **Strategic Advisor:** I need to consult my `strategic_advisor` agent more frequently, especially when entering new areas or when my plans are disrupted.
+- **Notepad Usage:** I must be careful with the `overwrite` action to avoid data loss. Use `replace` for targeted edits.
+- **Untested Tile Mechanics:** I need to make a plan to return to Dark Cave to test the `FLOOR_UP_WALL` tile.
 ## Tool Development
 - **path_master:** The tool is critically bugged. It does not understand one-way tiles like ledges and `FLOOR_HOP` tiles. This needs to be the top priority to fix.
