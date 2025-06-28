@@ -101,3 +101,4 @@
   - `CUT_TREE` at (25, 10) - **Confirmed impassable.**
   - `CAVE` warp at (34, 5) - **Confirmed, leads to Dark Cave.**
 - **FLOOR_UP_WALL** - **Untested**
+- **FLOOR_UP_WALL** - **Untested**
