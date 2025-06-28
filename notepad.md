@@ -84,3 +84,9 @@
 
 ### Trades
 - A Youngster in Kyle's House (Violet City) will trade a Bellsprout for an Onix.
+
+## Reflection Notes (Turn 3066)
+- **Tile Mechanics:** I need to test the `FLOOR_UP_WALL` tile in Dark Cave.
+- **Agent Ideas:** I should create an agent for team composition analysis.
+- **Tool Refinement:** My `path_master` tool needs more debugging and improvement.
+- **Untested Assumptions:** I need to confirm that Sprout Tower is the correct next objective by talking to NPCs in Violet City.
