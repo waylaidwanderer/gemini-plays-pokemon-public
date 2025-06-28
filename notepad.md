@@ -25,7 +25,6 @@
 - **Teleporter Tiles:** These act as instant warps. Stepping on them immediately transports the player to another location, sometimes on a different floor. They are a key part of navigating complex dungeons like Silph Co.
 - **Closed Gates:** These tiles are impassable and block movement until a specific trigger or puzzle is solved.
 - **Dynamic Gates (Silph Co. 5F):** The southern gates on 5F open and close based on the player's X-coordinate in the northern corridor (Y=2).
-- **Battle Warps:** Some battles (e.g., Scientist at Silph Co. 5F (13,6)) can trigger a one-way warp to a different location (e.g., Silph Co. 3F (4,4)) upon conclusion. This is a newly discovered mechanic.
 
 ### D. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35, 4 badges: 43.
