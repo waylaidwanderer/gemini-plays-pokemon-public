@@ -38,6 +38,9 @@
 
 ### B. Agent & Tool Deletion Queue
 
+### B. Buggy Tools & Deletion Queue
+- **`overworld_navigator_tool` (BUGGY - DO NOT USE):** This tool is unreliable and calculates paths incorrectly. It should be deleted as soon as a `delete_tool` function becomes available. Rely on the standard `pathfinder` for now.
+
 ### C. Active Agents (Reliable)
 - `pc_navigator_agent` (v2)
 - `team_composition_advisor_agent` (v2)
