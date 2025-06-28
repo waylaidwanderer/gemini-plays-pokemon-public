@@ -54,18 +54,6 @@
 - `pathfinder` (limitation: unreliable for complex, segmented maps like Saffron City and Route 12).
 - `select_battle_option`
 
-## V. Trainer & Encounter Intel
-*A log of noteworthy rosters and encounters.*
-### A. Trainer Pokémon
-- **Silph Co. 2F Scientist (6, 14):** Muk (Lv37), Weezing (Lv37), Porygon (Lv37)
-- **Silph Co. 4F Rocket (10, 15):** Machoke (Lv39), Hypno (Lv39)
-- **Silph Co. 4F Scientist (15, 7):** Electabuzz (Lv41)
-- **Silph Co. 5F Rocket (9, 17):** Tauros (Lv40)
-- **Silph Co. 9F Scientist (22, 14):** Muk (Lv40), Kabutops (Lv40)
-- **Silph Co. 11F Rocket (16, 8):** Kabutops, Raticate, Muk, Golbat, Marowak, Arbok
-### B. Unique Encounters
-- **Route 16 Snorlax:** Defeated. Path at (27, 11) is now clear.
-
 ## VI. Active Investigations & Untested Assumptions
 - **Assumption 1 (CARD KEY Location):** The `CARD KEY` is a physical item (Poké Ball) on the ground. **Hypothesis:** It could be given by an NPC after a specific trigger. **Test:** Continue systematically clearing floors and talking to all NPCs.
 - **Assumption 2 (Gate Puzzles):** The closed gates on various floors (5F, 7F, etc.) are part of a puzzle. **5F Hypothesis 1 (FAILED - 2 attempts):** Walking the northern corridor opens the central gates. **5F Hypothesis 2 (FAILED - 1 attempt):** The teleporter at (12, 6) leads to a dead-end room on 3F and is not the solution. **General Hypothesis:** Gates might be opened by a master switch on a different floor. **Test:** Continue exploring all floors thoroughly. The `dungeon_navigator_agent` would be key here.
