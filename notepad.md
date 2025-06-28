@@ -97,3 +97,5 @@
 *   **Pikachu:** A unique, walkable object. Requires a double-press if not already facing it.
 *   **Warp:** Triggers a map change. Includes doors, stairs, and cave entrances.
 *   **Spinner:** Forces movement in a specific direction.
+*   **Teleport:** An intra-floor warp tile, as seen in Silph Co.
+*   **Steps:** Allows vertical movement between different ground elevations, as seen in Mt. Moon.
