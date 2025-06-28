@@ -45,3 +45,4 @@
     4. Menu buttons ('Start', 'Select').
     5. Interaction button ('A' while facing TOWN_MAP).
 - **New Strategy:** I have now systematically tested every standard input except for the 'B' button. My next action is to press 'B' to see if it can cancel or otherwise alter this glitched state.
+- VOID: An impassable tile outside the map boundaries.
