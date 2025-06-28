@@ -53,12 +53,11 @@
 - **Complete Graph:** The World Knowledge Graph must be updated in a single, immediate action whenever the map_id changes.
 
 ### Pathfinding Tool Development
-- **Goal:** Create a new, reliable pathfinding tool using `define_tool`.
-- **Problem:** The current `pathfinder_pro` is unreliable because it cannot distinguish between visually different tiles of the same type (e.g., normal FLOOR vs. impassable flowered FLOOR).
+- **Goal:** Create a single, reliable pathfinding tool.
+- **Problem:** All previous pathfinding tools (`find_path`, `pathfinder_pro`, `path_master`, `path_wizard`, `path_navigator`) have proven unreliable and have been deleted.
 - **Plan:**
-  1. The new tool's Python script must parse the `map_xml_string` more carefully.
-  2. It needs to identify not just the `type` but also check for other attributes or child elements within a `<Tile>` that might indicate impassability.
-  3. I will need to experiment to see what distinguishes these impassable floor tiles in the XML data.
+  1. Create a new tool, `path_architect`, with extensive debugging.
+  2. Test and refine `path_architect` until it is 100% reliable before attempting any further complex navigation.
 
 ### Custom Agent Ideas
 - **`strategic_advisor`:** An agent that takes my current party, location, and goals to suggest the next best course of action (e.g., where to train, what items to buy).
