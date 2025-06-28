@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v37)
+## I. Core Protocols & Immediate Actions (v38)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: WKG Edge Precision:** All `warp` type edges MUST include a `destination_entry_point` if known. All new nodes MUST have descriptive `tags`.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks.
@@ -32,16 +32,10 @@
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
-## III. Agent & Tool Development Log (v56)
+## III. Agent & Tool Development Log (v57)
 ### A. Development Priorities
-#### Tools
 - **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. It must be able to systematically test every reachable tile to find puzzle triggers.
-- **`map_segment_analyzer` (HIGH PRIORITY):** To analyze the current reachable segment of a map, identifying all reachable tiles, warps, and objects. This will be the computational backend for the `floor_strategist_agent`.
-- **`wkg_query_tool` (MEDIUM PRIORITY):** To automate checking for broken links or existing nodes/edges in my World Knowledge Graph.
-- **`json_payload_generator` (LOW PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`.
-#### Agents
-- **`floor_strategist_agent` (MEDIUM PRIORITY):** To analyze the output of the `map_segment_analyzer` tool and create a prioritized list of exploration targets.
-- **`puzzle_logic_agent` (LOW PRIORITY):** To recall complex puzzle solutions (e.g., Silph Co. gate triggers) to avoid manual re-discovery.
+- **`floor_strategist_agent` (HIGH PRIORITY):** To analyze the output of the `map_segment_analyzer` tool and create a prioritized list of exploration targets.
 
 ### B. Active Agents & Tools
 - `pc_navigator_agent` (v2) - Reliable
@@ -49,18 +43,15 @@
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v10) - Reliable
 - `select_battle_option` - Reliable
+- `map_segment_analyzer` (v2) - Reliable
 - `pathfinder`: A simple BFS. **UNRELIABLE** in complex, segmented dungeons. To be used for simple, direct paths only until `dungeon_navigator_tool` is developed.
 
-## VII. Lessons Learned & Untested Assumptions (v11)
+## VII. Silph Co. Investigation Log
+### A. Confirmed Lessons
 - **Tool Refinement is MANDATORY & IMMEDIATE:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. **Protocol Violation Recorded (T33005):** I failed to adhere to this rule by using manual navigation instead of immediately halting to fix the tool. **Corrective Action:** The development of `dungeon_navigator_tool` is now my absolute highest priority, superseding all other exploration and story progression until it is functional.
-- **Untested Assumptions:**
-    - The CARD KEY is on a higher floor of Silph Co. (Test: Continue exploring upwards.)
-    - The elevator provides access to all previously inaccessible segments of the floors. (Test: Use the elevator to visit each floor and check for access to new areas.)
-    - Giovanni is on the 11th floor, as a Rocket grunt mentioned. (Test: Reach the 11th floor and explore it.)
+- **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 
-## IX. Battle Log & Lessons Learned
-### Scientist on Silph Co. 7F (vs. MUK Lv.39)
-- **Lesson:** THUNDERBOLT can miss. A miss at a critical moment led to SPARKY fainting.
-- **Lesson:** SPARKY fainted to a critical hit from MUK's BODY SLAM. RNG can be brutal.
-- **Lesson:** CONFUSE RAY is not 100% accurate and can fail.
-- **Opponent Moveset (MUK):** ACID ARMOR, SLUDGE, BODY SLAM, MINIMIZE.
+### B. Untested Assumptions
+1. The CARD KEY is on a higher floor of Silph Co. (Test: Continue exploring upwards.)
+2. The elevator provides access to all previously inaccessible segments of the floors. (Test: Use the elevator to visit each floor and check for access to new areas.)
+3. Giovanni is on the 11th floor, as a Rocket grunt mentioned. (Test: Reach the 11th floor and explore it.)
