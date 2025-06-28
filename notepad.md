@@ -54,7 +54,7 @@
 - **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
 
 ## Bugs & Glitches
-- **Mr. Pokemon's House Softlock (Turn ~1700-1765):** Became trapped in the house. Warps were non-functional and NPC dialogue looped. Opening the POKéGEAR menu seemed to be the only action that could reset the game state and allow escape.
+- **Recurring Mr. Pokemon's House Softlock (Turn ~1700-1765, 2124):** Became trapped in the house. Warps are non-functional and NPC dialogue loops. Opening the POKéGEAR menu seems to be the only action that can reset the game state and allow escape.
 
 ## Development & Strategy Notes
 ### Key Dialogue
