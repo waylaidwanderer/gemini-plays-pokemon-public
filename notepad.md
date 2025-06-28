@@ -54,12 +54,6 @@
 - `pathfinder` (limitation: unreliable for complex, segmented maps like Saffron City and Route 12).
 - `select_battle_option`
 
-## VI. Active Investigations & Untested Assumptions
-- **Assumption 1 (CARD KEY Location):** The `CARD KEY` is a physical item (Poké Ball) on the ground. **Hypothesis:** It could be given by an NPC after a specific trigger. **Test:** Continue systematically clearing floors and talking to all NPCs.
-- **Assumption 2 (Gate Puzzles):** The closed gates on various floors (5F, 7F, etc.) are part of a puzzle. **5F Hypothesis 1 (FAILED - 2 attempts):** Walking the northern corridor opens the central gates. **5F Hypothesis 2 (FAILED - 1 attempt):** The teleporter at (12, 6) leads to a dead-end room on 3F and is not the solution. **General Hypothesis:** Gates might be opened by a master switch on a different floor. **Test:** Continue exploring all floors thoroughly. The `dungeon_navigator_agent` would be key here.
-- **Assumption 3 (Rocket Progression):** I need to defeat all Rockets to progress. **Hypothesis:** Some might just provide flavor text. **Test:** If a Rocket doesn't battle me, mark them as non-hostile ('💬') and move on, not assuming they are a progression blocker unless they physically block the path.
-- **Assumption 4 (HM Field Use):** The 'use from bag' mechanic is inconsistent. Cut can be used without teaching, but Flash MUST be taught to a Pokémon to be used in the field. Assumption: Other HMs like Fly and Surf will also need to be taught. **Test:** Next time I am outdoors, I will attempt to use Fly directly from the item menu.
-
 ## VII. Lessons Learned & Protocol Corrections
 - **Protocol Failure (T30985):** I attempted to log a Silph Co. warp connection (8F 12,6 to 2F 28,16) that already existed in the World Knowledge Graph. I had clearly forgotten this path because I failed to mark the warp with '🚪' on both ends immediately after using it the first time. **Correction:** Must be more disciplined. Trust system errors. Mark ALL warps immediately.
 - **Protocol Failure (T30988):** I misidentified a warp on Silph Co. 8F at (4,12) as navigable. It was in an isolated room. **Correction:** I must verify warp reachability from my current position before listing it in my validation checks.
