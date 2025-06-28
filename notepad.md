@@ -56,3 +56,5 @@
 ### B. Untested Assumptions (NEW)
 1. The CARD KEY is required to open the sealed doors on 11F to reach the Silph President. (Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).)
 2. Giovanni, the final boss of this area, is located behind those sealed doors on the 11th floor. (Test: Gain access to the sealed area and explore it.)
+- **Tool Logic Flaw (`map_segment_analyzer` v2):** The tool's previous version was flawed; it did not perform a proper BFS from the player's starting position and incorrectly reported all tiles/objects on the map as reachable, even in segmented areas. **Corrective Action:** I have developed v3 of the tool to fix this.
+- **Misleading `reachable` Flag:** The `reachable` flag for Map Sprites in the Game State Information appears to be a global check, not a local pathing check. In segmented maps like Silph Co., an item can be marked as `reachable: yes` even if it's in a completely separate, inaccessible area. I must rely on visual confirmation and my fixed `map_segment_analyzer` tool.
