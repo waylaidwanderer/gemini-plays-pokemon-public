@@ -2,9 +2,10 @@
 
 ## Party & Rival
 ### My Team
-- G (TOTODILE): Lv13
-- HOOTHOOT (HOOTHOOT): Lv3
+- G (TOTODILE): Lv14
+- HOOTHOOT (HOOTHOOT): Lv4
 - HOOTIN (HOOTHOOT): Lv4
+- Salad (BELLSPROUT): Lv5
 
 ### Rival SILVA's Team
 - CHIKORITA: Lv5 (Last seen in New Bark Town)
@@ -18,6 +19,14 @@
 - Received POKéGEAR from Mom in New Bark Town.
 - Received a BERRY from a man on Route 30.
 - Received 5 POKé BALLS from a scientist in Elm's Lab.
+- A Youngster in Kyle's House (Violet City) will trade a Bellsprout for an Onix.
+
+### Observed Movesets
+- G (TOTODILE) learned WATER GUN at Lv13.
+- Wild Poliwag (Route 30): BUBBLE
+- Wild Hoothoot (Route 30): TACKLE
+- Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
+- Wild Bellsprout (Route 31): VINE WHIP
 
 ## Area and Navigation Insights
 ### Tile Traversal and Movement Rules
@@ -48,37 +57,21 @@
 - **CAVE:** A warp tile that leads to another map.
 - **PC:** An impassable, interactive object. Must be interacted with from the tile below, while facing up.
 - **WARP_CARPET_LEFT:** A warp tile that activates when facing left.
+- **PILLAR:** Confirmed impassable. Acts as a wall.
 
-### Untested Tile Mechanics
+### Untested Hypotheses
 - **FLOOR_UP_WALL:** Present in Dark Cave. Appears to be a one-way wall traversable only from below. Needs to be tested.
+- Are `COUNTER` tiles impassable from all directions?
 
 ### Discovered Traps & Puzzles
 - **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
+- **Sprout Tower Block:** The path to the ladders is blocked by Sages. I must interact with them to proceed.
 
-## Long-Term Objectives
-- Return to Dark Cave to test the `FLOOR_UP_WALL` tile mechanics.
+## Objectives & Plans
+### Current Plan
+1. Travel to Kyle's House in Violet City.
+2. Trade 'Salad' the Bellsprout for an Onix.
+3. Return to Sprout Tower and use the new Onix to defeat the trainers.
 
-## Observed Movesets
-- G (TOTODILE) learned WATER GUN at Lv13.
-- Wild Poliwag (Route 30): BUBBLE
-- Wild Hoothoot (Route 30): TACKLE
-- Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
-
-### Custom Agents & Tools (Ideas)
-
-### Tile Traversal and Movement Rules (Additions)
-- **COUNTER:** An impassable barrier, often found in buildings.
-
-### Trades
-- A Youngster in Kyle's House (Violet City) will trade a Bellsprout for an Onix.
-
-## Tool Development
-- **path_master:** The tool is critically bugged. It does not understand one-way tiles like ledges and `FLOOR_HOP` tiles. This needs to be the top priority to fix.
-
-- **PILLAR:** Confirmed impassable. Acts as a wall.
-
-## Sprout Tower
-- A Sage on 1F mentioned that an HM can be obtained at the top of the tower.
-
-## Long-Term Objectives
+### Long-Term Objectives
 - Return to Dark Cave to test the `FLOOR_UP_WALL` tile mechanics.
