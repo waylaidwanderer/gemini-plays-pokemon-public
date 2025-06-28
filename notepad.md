@@ -67,5 +67,5 @@
 ## Pathfinding Tool Issues
 - The `pathfinder_pro` tool sometimes generates inefficient paths, seemingly avoiding grass. It also failed to identify the fruit tree at (11, 5) as an obstacle. I need to investigate and refine the script.
 
-### Pathfinding Tool Issues (Correction)
-- **My Misunderstanding:** I initially believed the `pathfinder_pro` tool was flawed on Route 30, producing illogical, long paths. After being blocked by impassable terrain, I've realized the tool was correct. The map layout requires a long southern detour to proceed north, and my manual assessment was wrong. The tool is functioning correctly, and I must trust its output on this map.
+### Pathfinding Tool Issues (Final Correction)
+- **My Misunderstanding:** My manual assessment of Route 30 was incorrect. The only way to proceed north is via a long southern detour around the central part of the map. My `pathfinder_pro` tool was correctly identifying this path all along. My repeated failures were due to distrusting the tool and attempting to find a non-existent shortcut. The tool is functioning correctly, and its output must be trusted.
