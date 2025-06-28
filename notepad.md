@@ -105,3 +105,6 @@
 - **FLOOR_UP_WALL:** Present in Dark Cave. Appears to be a one-way wall traversable only from below. Needs to be tested.
 - **FLOOR_UP_WALL** - **Untested**
 - **CAVE:** A warp tile that leads to another map.
+
+## Tool Bugs
+- `path_master`: The tool is currently unreliable and has generated a path leading directly into a WALL tile at (7, 12). It should not be used until the root cause is identified and fixed.
