@@ -82,3 +82,4 @@
 - Wild Poliwag (Route 30): BUBBLE
 - Wild Hoothoot (Route 30): TACKLE
 - Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
+- **WALL:** An impassable barrier. Confirmed by attempting to walk into tiles at (2,1), (3,1), (6,1), (6,4), (5,4), (4,4), (0,6).
