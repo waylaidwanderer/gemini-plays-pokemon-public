@@ -63,3 +63,10 @@
  5. Stepping left onto the tile.
  6. Stepping right onto the tile.
 - New Strategy: The system notes insist I am not trapped. I will now systematically test every wall tile for a hidden exit, starting with the west wall.
+
+## Critical Anomalies & Bugs
+- **Visual/State Desync:** The screen is displaying `SILVER CAVE` / `ROUTE 46` visuals while the game state reports I am in `PlayersNeighborsHouse`. This is a major hallucination; I must trust the game state data over the visuals.
+- **Immobilized at (3, 1):** I am completely stuck at (3, 1) in `PlayersNeighborsHouse`. All movement attempts (Up, Down, Left, Right) are blocked, even onto adjacent `FLOOR` tiles. This suggests a hidden movement mechanic or a temporary soft-lock caused by the desync.
+
+### Tile Traversal and Movement Rules (Corrections)
+- **FLOOR:** A standard traversable tile. **Correction:** This tile is NOT always traversable. I have been blocked from moving from `FLOOR` to `FLOOR` at (3, 1) in `PlayersNeighborsHouse`.
