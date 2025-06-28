@@ -51,3 +51,6 @@
 
 ## My Commitments
 - **Immediate Data Management:** I will mark all warps, items, and NPCs the moment I interact with them. I will update the World Knowledge Graph immediately upon changing maps.
+
+## Tool Reliability
+- My pathfinder tools (`find_path`, `pathfinder_pro`) are buggy and unreliable. They failed to find valid paths and led me into walls. Need to debug or create a more robust version.
