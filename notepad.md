@@ -88,5 +88,6 @@
 - **Fix `path_master` Tool (HIGHEST PRIORITY):** The tool is critically flawed as it doesn't handle NPCs. I must fix it with `define_tool` at the very next opportunity before relying on it again.
 
 ## Current Hypotheses (Mr. Pokémon's House)
-- **Directional Interaction:** Speaking to the Gentleman from the side (2, 5) or below (3, 6) might trigger the event to get the MYSTERY EGG.
+- **Failed Hypothesis:** Interacting with the Gentleman (Mr. Pokémon?) from any adjacent tile (left, below) or while facing him directly does not advance the dialogue or provide the MYSTERY EGG. He only repeats the same line. (3 attempts)
+- **New Hypothesis:** An object in the house must be interacted with to trigger the event. Plan: Investigate the bookshelves, computer, and coins in that order.
 - **Warp Mechanics:** The `WARP_CARPET_DOWN` tile might require a specific action (e.g., walking south over it) to activate, not just stepping on it.
