@@ -64,3 +64,5 @@
 - **IMMEDIATE DOCUMENTATION:** All new information (NPC names, item locations, etc.) MUST be documented in the notepad and via map markers *immediately*, even during battles or cutscenes. No exceptions.
 - **DOCUMENT BLOCKED PATHS:** Any time my movement is blocked by a wall or obstacle, I MUST immediately place a `🚫` map marker at that location to avoid repeating the mistake.
 - **CLEAN UP MARKERS:** I must delete old or redundant markers (like '⚔️' after a trainer is defeated and marked with '☠️') to avoid clutter.
+## Critical Reminders (Updated)
+- **Check for Ledges:** Always check for ledges before planning a path. They are one-way and can trap me.
