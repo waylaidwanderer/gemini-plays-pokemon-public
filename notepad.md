@@ -83,3 +83,10 @@
 - Wild Hoothoot (Route 30): TACKLE
 - Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
 - **WALL:** An impassable barrier. Confirmed by attempting to walk into tiles at (2,1), (3,1), (6,1), (6,4), (5,4), (4,4), (0,6).
+
+## Immediate Tasks (High Priority)
+- **Fix `path_master` Tool (HIGHEST PRIORITY):** The tool is critically flawed as it doesn't handle NPCs. I must fix it with `define_tool` at the very next opportunity before relying on it again.
+
+## Current Hypotheses (Mr. Pokémon's House)
+- **Directional Interaction:** Speaking to the Gentleman from the side (2, 5) or below (3, 6) might trigger the event to get the MYSTERY EGG.
+- **Warp Mechanics:** The `WARP_CARPET_DOWN` tile might require a specific action (e.g., walking south over it) to activate, not just stepping on it.
