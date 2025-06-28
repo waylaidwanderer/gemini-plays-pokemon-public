@@ -48,14 +48,6 @@
 ### Discovered Traps & Puzzles
 - **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
 
-## Development & Strategy Notes
-### Key Dialogue
-- **Youngster on Route 30:** "Everyone's having fun battling! You should too!"
-
-### Custom Agents & Tools (Ideas)
-
-- **`dialogue_summarizer` (Idea):** An agent to extract key information from NPC conversations.
-
 ## Critical Reminders
 - **IMMEDIATE DOCUMENTATION:** All new information MUST be documented in the notepad and via map markers *immediately*.
 - **Proactive Agent Use:** I must use my `strategic_advisor` agent proactively to avoid getting stuck, but recognize its limitations in bugged states.
