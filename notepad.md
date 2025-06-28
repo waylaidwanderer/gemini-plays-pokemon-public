@@ -109,3 +109,9 @@
 ## Tool Bugs
 - `path_master`: The tool is currently unreliable and has generated a path leading directly into a WALL tile at (7, 12). It should not be used until the root cause is identified and fixed.
 - **WARP_CARPET_RIGHT:** A warp tile that activates when facing right.
+
+### Tile Traversal and Movement Rules (Additions)
+- **WARP_CARPET_LEFT:** A warp tile that activates when facing left.
+
+### Custom Agents & Tools (Ideas)
+- **`path_validator` (Idea):** An agent to verify a generated path against the map XML, checking for walls, unhandled tiles, and other potential issues.
