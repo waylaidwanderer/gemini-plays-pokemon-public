@@ -52,3 +52,6 @@
 
 ### Misunderstandings & Corrections
 - Corrected my assumption that tree tiles are walkable. They are impassable obstacles. My `find_path` tool has been updated to reflect this.
+
+## My Commitments
+- **Immediate Data Management:** I will mark all warps, items, and NPCs the moment I interact with them. I will update the World Knowledge Graph immediately upon changing maps.
