@@ -1,6 +1,6 @@
-## I. Core Protocols & Immediate Actions (v30)
+## I. Core Protocols & Immediate Actions (v32)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
-- **CRITICAL: WKG Management Workflow:** Before adding a new node, I will first use `run_code` to query the `world_knowledge_graph_json_string` to check if a node at the destination already exists. This prevents failed tool calls.
+- **CRITICAL: WKG Management Workflow (v2):** Before adding a new edge, I will first use a dedicated `wkg_query_tool` to check if an edge *and* its corresponding nodes already exist. This prevents duplicate data and failed tool calls.
 - **CRITICAL: WKG Edge Precision:** All `warp` type edges MUST include a `destination_entry_point` if known. All new nodes MUST have descriptive `tags`.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will not use tools in contexts where I have documented them as unreliable (e.g., `pathfinder` in puzzle-heavy dungeons).
 - **CRITICAL: Post-Event Checklists (MANDATORY):**
@@ -16,7 +16,7 @@
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
 - **Poison Type Effectiveness:** Poison-type moves are NOT-VERY-EFFECTIVE against Poison-types.
 
-### B. Battle Protocols (v2)
+### B. Battle Protocols (v3)
 - **Agent Reliance (MANDATORY):** I will use the `battle_strategist_agent` for all significant battles (Gyms, Rival, unique encounters) to ensure optimal move selection.
 
 ### C. Navigation & Traversal Rules
@@ -41,17 +41,17 @@
 - **teleport:** A tile that instantly warps the player to another location on the same map. Includes spinner tiles and teleporter pads.
 - **elevator:** A special type of warp tile found in larger buildings. Requires interaction with a panel to select a floor before the warp can be used.
 
-## III. Agent & Tool Development Log (v49)
+## III. Agent & Tool Development Log (v50)
 ### A. Development Priorities
+- **`wkg_query_tool` (HIGH PRIORITY):** To automate checking for broken links or existing nodes/edges in my World Knowledge Graph, formalizing my new WKG workflow.
 - **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. It must be able to systematically test every reachable tile to find puzzle triggers. This is a **tool**, not an agent.
-- **`wkg_query_tool` (HIGH PRIORITY):** To automate checking for broken links or existing nodes in my World Knowledge Graph, formalizing my new WKG workflow.
 - **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`.
 
 ### B. Active Agents (Reliable)
 - `pc_navigator_agent` (v2)
 - `team_composition_advisor_agent` (v2)
 - `protocol_enforcement_agent` (v1)
-- `battle_strategist_agent` (v9)
+- `battle_strategist_agent` (v10)
 
 ### C. Active Tools (Reliable)
 - `pathfinder` (limitation: unreliable for complex, segmented, or puzzle-based maps like Saffron City, Route 12, and Silph Co. **Do not use in these areas.**).
@@ -69,4 +69,4 @@
 - **Lesson:** THUNDERBOLT can miss. A miss at a critical moment led to SPARKY fainting.
 - **Lesson:** SPARKY fainted to a critical hit from MUK's BODY SLAM. RNG can be brutal.
 - **Lesson:** CONFUSE RAY is not 100% accurate and can fail.
-- **Opponent Moveset (MUK):** ACID ARMOR, SLUDGE, BODY SLAM.
+- **Opponent Moveset (MUK):** ACID ARMOR, SLUDGE, BODY SLAM, MINIMIZE.
