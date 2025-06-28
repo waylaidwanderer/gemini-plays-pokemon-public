@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v33)
+## I. Core Protocols & Immediate Actions (v34)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: WKG Management Workflow (v2):** Before adding a new edge, I will first use a dedicated `wkg_query_tool` to check if an edge *and* its corresponding nodes already exist. This prevents duplicate data and failed tool calls.
 - **CRITICAL: WKG Edge Precision:** All `warp` type edges MUST include a `destination_entry_point` if known. All new nodes MUST have descriptive `tags`.
-- **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will not use tools in contexts where I have documented them as unreliable (e.g., `pathfinder` in puzzle-heavy dungeons).
+- **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks.
 - **CRITICAL: Post-Event Checklists (MANDATORY):**
   - **Trainer Battle:** Mark defeated trainer with '☠️' and log their Pokémon under 'Trainer Intel'.
   - **Wild Encounter:** Log EVERY wild Pokémon with `encounter_tracker_agent`.
@@ -41,11 +41,12 @@
 - **teleport:** A tile that instantly warps the player to another location on the same map. Includes spinner tiles and teleporter pads.
 - **elevator:** A special type of warp tile found in larger buildings. Requires interaction with a panel to select a floor before the warp can be used.
 
-## III. Agent & Tool Development Log (v51)
+## III. Agent & Tool Development Log (v52)
 ### A. Development Priorities
 - **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. It must be able to systematically test every reachable tile to find puzzle triggers. This is a **tool**, not an agent.
 - **`wkg_query_tool` (HIGH PRIORITY):** To automate checking for broken links or existing nodes/edges in my World Knowledge Graph, formalizing my new WKG workflow.
 - **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`.
+- **`pathfinder` Refinement (HIGH PRIORITY):** The existing `pathfinder` tool must be refined to handle complex dungeon mechanics like hidden triggers. This is a higher priority than simply avoiding its use.
 - **`puzzle_logic_agent` (LOW PRIORITY):** To recall complex puzzle solutions (e.g., Silph Co. gate triggers) to avoid manual re-discovery.
 
 ### B. Active Agents & Tools (Reliable)
@@ -53,11 +54,10 @@
 - `team_composition_advisor_agent` (v2)
 - `protocol_enforcement_agent` (v1)
 - `battle_strategist_agent` (v10)
-- `pathfinder` (limitation: unreliable for complex, segmented, or puzzle-based maps like Saffron City, Route 12, and Silph Co. **Do not use in these areas.**).
 - `select_battle_option`
 
-## VII. Lessons Learned & Protocol Corrections (v5)
-- **`pathfinder` is unreliable in complex dungeons.** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers (like on Silph Co. 5F and 7F). The Game State Information's `Reachable Unseen Tiles` is the source of truth. If the tool fails but reachable tiles exist, I MUST switch to a manual, systematic search for the trigger and not waste turns re-running the faulty tool.
+## VII. Lessons Learned & Protocol Corrections (v6)
+- **Tool Refinement is Mandatory:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. **Protocol Violation:** My previous plan to avoid the tool was incorrect. Per core instructions, faulty tools MUST be refined or replaced immediately. **Corrective Action:** I will prioritize fixing `pathfinder` or accelerating the development of its replacement, `dungeon_navigator_tool`.
 - **Untested Assumptions:**
     - The CARD KEY is on a higher floor of Silph Co. (Test: Continue exploring upwards.)
     - The item at Silph Co. 5F (5,7) is inaccessible from the west. (Test: Find a path to the other side of the wall.)
