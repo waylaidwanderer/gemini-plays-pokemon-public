@@ -49,6 +49,7 @@
 
 ### Tile Testing Plan
 - Systematically test each tile type on the current map to confirm traversability. Document findings.
+- **CRITICAL:** Pay close attention to visually distinct tiles even if they share the same type name (e.g., decorative flowers on `FLOOR` tiles on Route 30 are impassable).
 
 ## Development & Strategy Notes
 ### Pathfinding Tool Issues
