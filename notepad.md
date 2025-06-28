@@ -82,6 +82,3 @@
 - Wild Poliwag (Route 30): BUBBLE
 - Wild Hoothoot (Route 30): TACKLE
 - Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
-
-## Final Conclusion
-- **RUN TERMINATED (Turn 2331):** The game is in a permanent, unrecoverable softlock. All attempts to escape Mr. Pokémon's House have failed. The warps at (2, 7) and (3, 7) are confirmed non-functional. Interacting with the Gentleman at (3, 5) yielded only standard dialogue and did not resolve the issue. There are no further actions possible to escape this map.
