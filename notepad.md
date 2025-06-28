@@ -99,3 +99,6 @@
 - **Immediate WKG Updates:** World Knowledge Graph updates must happen *immediately* after a map transition. No more delays. This is a critical process failure I must correct.
 - **Careful Marker Management:** I need to be more precise with map markers, using `object_id` for moving NPCs and avoiding redundant markers.
 - **PILLAR:** Confirmed impassable. Acts as a wall.
+
+## Sprout Tower
+- A Sage on 1F mentioned that an HM can be obtained at the top of the tower.
