@@ -51,8 +51,9 @@
 - Systematically test each tile type on the current map to confirm traversability. Document findings.
 
 ## Development & Strategy Notes
-### Pathfinding Tool
-- **Status:** The `pathfinder_pro` tool is now robust and reliable after several refinements. 
+### Pathfinding Tool Issues
+- **My Misunderstanding:** My manual assessment of Route 30 was incorrect. The only way to proceed north is via a long southern detour around the central part of the map. My `pathfinder_pro` tool was correctly identifying this path all along. My repeated failures were due to distrusting the tool and attempting to find a non-existent shortcut. The tool is functioning correctly, and its output must be trusted.
+
 ### Custom Agents & Tools (Ideas)
 - **`unstick_me_tool` (Idea):** A tool that analyzes the map XML to find the nearest cluster of "unseen" tiles when I'm stuck, returning coordinates for a new navigation goal. This would be better than a reasoning-based agent.
 - **`dialogue_summarizer` (Idea):** An agent to extract key information from NPC conversations.
@@ -64,8 +65,3 @@
 - **IMMEDIATE DOCUMENTATION:** All new information (NPC names, item locations, etc.) MUST be documented in the notepad and via map markers *immediately*, even during battles or cutscenes. No exceptions.
 - **Proactive Agent Use:** I must use my `strategic_advisor` agent proactively to avoid getting stuck, not just as a last resort.
 - **CLEAN UP MARKERS:** I must delete old or redundant markers to avoid clutter. Redundant markers are those that simply state information available from the tile type (e.g., 'Blocked by wall').
-## Pathfinding Tool Issues
-- The `pathfinder_pro` tool sometimes generates inefficient paths, seemingly avoiding grass. It also failed to identify the fruit tree at (11, 5) as an obstacle. I need to investigate and refine the script.
-
-### Pathfinding Tool Issues (Final Correction)
-- **My Misunderstanding:** My manual assessment of Route 30 was incorrect. The only way to proceed north is via a long southern detour around the central part of the map. My `pathfinder_pro` tool was correctly identifying this path all along. My repeated failures were due to distrusting the tool and attempting to find a non-existent shortcut. The tool is functioning correctly, and its output must be trusted.
