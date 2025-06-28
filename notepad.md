@@ -1,10 +1,6 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Immediate Tasks (High Priority)
-## Untested Assumptions
-- **`path_master` validity:** Assuming the current path generated is valid. Test by following it.
-- **Impassable Tiles:** Assuming `HEADBUTT_TREE`, `CUT_TREE`, and `WATER` are impassable. Test by attempting to walk into them when encountered.
-- **Youngster Blocker:** Assuming the wandering Youngster is the sole reason the main path north is blocked. Test by returning after visiting Mr. Pokémon's house.
 
 ## Party & Rival
 ### My Team
