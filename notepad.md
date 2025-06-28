@@ -36,10 +36,7 @@
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
 ### G. Tile Glossary (v2)
-- **ground:** Standard walkable tile.
-- **impassable:** Walls, objects, and other barriers that cannot be walked through.
 - **closed_gate:** An impassable gate. On Silph Co. floors, these appear to be opened by hidden floor triggers rather than keys.
-- **grass:** Tall grass where wild Pokémon can be encountered.
 - **teleport:** A tile that instantly warps the player to another location on the same map. Includes spinner tiles and teleporter pads.
 - **elevator:** A special type of warp tile found in larger buildings. Requires interaction with a panel to select a floor before the warp can be used.
 
@@ -61,3 +58,6 @@
 
 ## VII. Lessons Learned & Protocol Corrections (v4)
 - **`pathfinder` is unreliable in complex dungeons.** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers (like on Silph Co. 5F and 7F). The Game State Information's `Reachable Unseen Tiles` is the source of truth. If the tool fails but reachable tiles exist, I MUST switch to a manual, systematic search for the trigger and not waste turns re-running the faulty tool.
+
+## VIII. Process Improvements & New Protocols (v1)
+- **WKG Tagging (MANDATORY):** I will add descriptive `tags` to all new nodes created in the World Knowledge Graph to improve long-term organization and query capabilities.
