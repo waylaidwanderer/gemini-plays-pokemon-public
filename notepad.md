@@ -1,8 +1,6 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Immediate Tasks (High Priority)
-- **Pathfinding Tool:** `find_path` is the primary tool for navigation. It uses BFS and treats all objects as impassable. `path_master` is deprecated.
-
 ## Untested Assumptions
 - **`path_master` validity:** Assuming the current path generated is valid. Test by following it.
 - **Impassable Tiles:** Assuming `HEADBUTT_TREE`, `CUT_TREE`, and `WATER` are impassable. Test by attempting to walk into them when encountered.
