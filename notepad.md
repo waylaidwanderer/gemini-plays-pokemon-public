@@ -1,8 +1,12 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Immediate Tasks (High Priority)
-- **Fix `path_master` Tool:** The tool has failed twice (Turn 1939 on Route 30, Turn 1961 in Cherrygrove City). This is now my HIGHEST priority. I must fix it with `define_tool` immediately after healing.
-- **Verify Tile Mechanics:** I must test the traversability of `HEADBUTT_TREE`, `CUT_TREE`, and `WATER` tiles instead of assuming they are impassable. This needs to be done after healing.
+- **Fix `path_master` Tool:** The tool is flawed as it doesn't account for moving NPCs. It must be fixed with `define_tool` after reaching Mr. Pokémon's house or if the current path fails.
+
+## Untested Assumptions
+- **`path_master` validity:** Assuming the current path generated is valid. Test by following it.
+- **Impassable Tiles:** Assuming `HEADBUTT_TREE`, `CUT_TREE`, and `WATER` are impassable. Test by attempting to walk into them when encountered.
+- **Youngster Blocker:** Assuming the wandering Youngster is the sole reason the main path north is blocked. Test by returning after visiting Mr. Pokémon's house.
 
 ## Party & Rival
 ### My Team
