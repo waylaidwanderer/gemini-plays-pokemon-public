@@ -17,7 +17,7 @@
 ### B. Navigation & Traversal Rules
 - **Pikachu Movement:** A walkable object. Requires two button presses to move onto its tile if not already facing it.
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
-- **No Blackout Zones:** Losing in Rocket Hideout or Silph Co. does not cause a blackout.
+- **Silph Co. Blackout:** Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
 - **Saffron City Navigation:** The city's layout is segmented. The `pathfinder` tool is unreliable here. Using FLY is the most efficient method for traveling between distant points.
 - **Silph Co. Elevator:** Requires a two-step process. First, interact with the panel to select a floor. Second, walk onto one of the warp tiles at the back of the elevator room to trigger the map change.
 - **Route 12 Pier:** The pier is segmented into isolated sections, making manual navigation tricky and the `pathfinder` tool highly unreliable (it frequently suggests paths into water). The only way to proceed south from the northern pier is to find the correct warp point, not by walking.
