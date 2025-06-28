@@ -106,7 +106,7 @@
 - **VOID:** Assumed impassable. Needs testing.
 
 ## Bugs & Glitches
-- **GAME-BREAKING SOFTLOCK (Turn 2153-Present):** Permanently trapped in Mr. Pokémon's House. Warps are non-functional. All interaction attempts with NPCs and background objects have failed. The POKéGEAR menu trick no longer works. Using an item does not resolve the issue. The game is unplayable in this state.
+- **GAME-BREAKING SOFTLOCK (Turn 2153-Present):** Permanently trapped in Mr. Pokémon's House. Warps are non-functional. All interaction attempts with NPCs, background objects, and the warp tiles themselves (standing on them, pressing 'A' on them) have failed. The POKéGEAR menu trick no longer works. Using an item does not resolve the issue. The game is unplayable in this state.
 
 ## Custom Tools
 - **`path_master`:** Finds the shortest path on the current map. **Warning:** Does not account for moving NPCs and may fail.
