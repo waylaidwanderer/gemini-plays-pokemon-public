@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v25)
+## I. Core Protocols & Immediate Actions (v26)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays. I will verify my current map_id and coordinates from the Game State Information BEFORE every documentation action.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents whenever a task can be automated or requires complex reasoning. I will prioritize developing agents that solve my most immediate problems.
 - **CRITICAL: Post-Event Checklists (MANDATORY):**
@@ -20,6 +20,7 @@
 - **No Blackout Zones:** Losing in Rocket Hideout or Silph Co. does not cause a blackout.
 - **Saffron City Navigation:** The city's layout is segmented. The `pathfinder` tool is unreliable here. Using FLY is the most efficient method for traveling between distant points.
 - **Silph Co. Elevator:** Requires a two-step process. First, interact with the panel to select a floor. Second, walk onto one of the warp tiles at the back of the elevator room to trigger the map change.
+- **Route 12 Pier:** The pier is segmented into isolated sections. The `pathfinder` tool is unreliable here and may suggest paths that lead into water. Manual navigation is required.
 
 ### C. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
@@ -27,10 +28,11 @@
 ### D. HM & Field Move Mechanics
 - HMs can be used directly from the ITEM menu without being taught to a Pokémon. This is a significant time-saver for field moves like Flash and Cut. To use an HM from the bag, select the HM, choose 'USE', and then select 'NO' when prompted to teach it.
 
-## III. Agent & Tool Development Log (v39)
+## III. Agent & Tool Development Log (v40)
 ### A. Development Priorities
 - **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`. Manual JSON scripting is too slow and error-prone.
 - **`dungeon_navigator_agent` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. This is essential for finding the CARD KEY efficiently.
+- **`overworld_navigator_agent` (NEW PRIORITY):** To handle complex overworld maps like Route 12 where the standard `pathfinder` fails.
 
 ### B. Active Agents (Reliable)
 - `pc_navigator_agent` (v2)
@@ -40,7 +42,7 @@
 - `battle_strategist_agent` (v9)
 
 ### C. Active Tools (Reliable)
-- `pathfinder` (limitation: unreliable for complex, segmented city maps like Saffron City).
+- `pathfinder` (limitation: unreliable for complex, segmented maps like Saffron City and Route 12).
 - `select_battle_option`
 
 ## IV. Silph Co. Intel & Strategy
@@ -64,15 +66,12 @@
 - **Assumption 2 (Gate Puzzles):** The closed gates on various floors (5F, 7F, etc.) are part of a puzzle I can solve on that floor. **Hypothesis:** They might be opened by a master switch on a completely different floor. **Test:** Continue exploring all floors thoroughly. The `dungeon_navigator_agent` would be key here.
 - **Assumption 3 (Rocket Progression):** I need to defeat all Rockets to progress. **Hypothesis:** Some might just provide flavor text. **Test:** If a Rocket doesn't battle me, mark them as non-hostile ('💬') and move on, not assuming they are a progression blocker unless they physically block the path.
 - **Assumption 4 (HM Field Use):** The 'use from bag' mechanic is inconsistent. Cut can be used without teaching, but Flash MUST be taught to a Pokémon to be used in the field. Assumption: Other HMs like Fly and Surf will also need to be taught. **Test:** Next time I am outdoors, I will attempt to use Fly directly from the item menu.
+- **Assumption 5 (Super Rod House):** The warp at (12, 78) is the correct way to proceed south. **Test:** Navigate there and enter the warp.
 
 ## VII. Lessons Learned & Protocol Corrections
 - **Protocol Failure (T30985):** I attempted to log a Silph Co. warp connection (8F 12,6 to 2F 28,16) that already existed in the World Knowledge Graph. I had clearly forgotten this path because I failed to mark the warp with '🚪' on both ends immediately after using it the first time. **Correction:** Must be more disciplined. Trust system errors. Mark ALL warps immediately.
 - **Protocol Failure (T30988):** I misidentified a warp on Silph Co. 8F at (4,12) as navigable. It was in an isolated room. **Correction:** I must verify warp reachability from my current position before listing it in my validation checks.
-
-## VIII. Post-Event Protocols (v1)
-- **Post-Blackout Recovery:** 1. Use `team_composition_advisor_agent` to devise a new strategy and team. 2. Use `pc_navigator_agent` to execute the recommended changes. 3. Train the new team to the level cap if required.
 - **Protocol Update (T31290):** A single bidirectional edge (`is_one_way: false`) in the WKG covers two-way travel. Do not create a second, reversed edge for the same connection.
 - **Protocol Failure (T31320):** I have repeatedly hallucinated my location and map ID, leading to multiple failed tool calls and wasted turns. **Correction:** I MUST verify my current `map_id` and coordinates from the Game State Information *before* every single action, especially navigation and documentation. I will also trust system warnings about reachability and dead ends.
 - **Protocol Failure (T31322):** I have been using `select_battle_option` redundantly by also manually inputting the button presses. **Correction:** I will rely solely on the tool for battle menu selections to improve efficiency.
-- **Protocol Failure (T31327):** The `pathfinder` tool has proven unreliable on Route 12, repeatedly suggesting paths that lead into water tiles. **Correction:** I must manually verify all `pathfinder` routes on this map against the visual map data before execution.
-- **Hypothesis Failure (T31370):** The pier on Route 12 is segmented. I am currently stuck on an isolated section and cannot reach the southern trainers or the exit to Route 13. All manual and pathfinder attempts have failed.
+- **Hypothesis Failure (T31370):** The pier on Route 12 is segmented. I was stuck on an isolated section and could not reach the southern trainers or the exit to Route 13. All manual and pathfinder attempts failed. **Correction:** The game state shows reachable warps. I must trust the game state over my own perception and explore all reachable warps before assuming I am stuck.
