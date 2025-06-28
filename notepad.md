@@ -62,3 +62,10 @@
 ## VIII. Process Improvements & New Protocols (v1)
 - **WKG Tagging (MANDATORY):** I will add descriptive `tags` to all new nodes created in the World Knowledge Graph to improve long-term organization and query capabilities.
 - **`puzzle_logic_agent` (LOW PRIORITY):** To recall complex puzzle solutions (e.g., Silph Co. gate triggers) to avoid manual re-discovery.
+
+## IX. Battle Log & Lessons Learned (New Section)
+### Scientist on Silph Co. 7F (vs. MUK Lv.39)
+- **Lesson:** THUNDERBOLT can miss. A miss at a critical moment led to SPARKY fainting.
+- **Lesson:** SPARKY fainted to a critical hit from MUK's BODY SLAM. RNG can be brutal.
+- **Lesson:** CONFUSE RAY is not 100% accurate and can fail.
+- **Opponent Moveset (MUK):** ACID ARMOR, SLUDGE, BODY SLAM.
