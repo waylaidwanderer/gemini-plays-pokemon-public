@@ -52,8 +52,11 @@
 - **Mr. Pokemon's House Softlock (Turn ~1700-1765):** Became trapped in the house. Warps were non-functional and NPC dialogue looped. Opening the POKéGEAR menu seemed to be the only action that could reset the game state and allow escape.
 
 ## Development & Strategy Notes
+### Key Dialogue
+- **Youngster on Route 30:** "Everyone's having fun battling! You should too!"
+
 ### Pathfinding Tool Development
-- My first two pathfinding tools (`pathfinder_pro`, `path_wizard`) were buggy. `path_master` is a significant improvement. The key lesson was that the tool's output must be a valid JSON string printed to stdout. Debug information should be printed to stderr to avoid corrupting the output.
+- `path_master` is my current reliable pathfinding tool. Failures of `path_master` have so far been due to legitimate in-game obstacles (like moving NPCs), not bugs in the tool itself.
 
 ### Custom Agents & Tools (Ideas)
 - **`unstick_me_tool` (Idea):** A tool that analyzes the map XML to find the nearest cluster of "unseen" tiles when I'm stuck, returning coordinates for a new navigation goal. Could also check for softlock conditions (e.g., no path to any warp/exit).
