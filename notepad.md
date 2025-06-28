@@ -35,10 +35,13 @@
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
-### G. Tile Glossary (v1)
+### G. Tile Glossary (v2)
 - **ground:** Standard walkable tile.
 - **impassable:** Walls, objects, and other barriers that cannot be walked through.
 - **closed_gate:** An impassable gate. On Silph Co. floors, these appear to be opened by hidden floor triggers rather than keys.
+- **grass:** Tall grass where wild Pokémon can be encountered.
+- **teleport:** A tile that instantly warps the player to another location on the same map. Includes spinner tiles and teleporter pads.
+- **elevator:** A special type of warp tile found in larger buildings. Requires interaction with a panel to select a floor before the warp can be used.
 
 ## III. Agent & Tool Development Log (v49)
 ### A. Development Priorities
