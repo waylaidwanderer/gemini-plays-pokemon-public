@@ -20,7 +20,7 @@
 - **No Blackout Zones:** Losing in Rocket Hideout or Silph Co. does not cause a blackout.
 - **Saffron City Navigation:** The city's layout is segmented. The `pathfinder` tool is unreliable here. Using FLY is the most efficient method for traveling between distant points.
 - **Silph Co. Elevator:** Requires a two-step process. First, interact with the panel to select a floor. Second, walk onto one of the warp tiles at the back of the elevator room to trigger the map change.
-- **Route 12 Pier:** The pier is segmented into isolated sections. The `pathfinder` tool is unreliable here and may suggest paths that lead into water. Manual navigation is required.
+- **Route 12 Pier:** The pier is segmented into isolated sections, making manual navigation tricky and the `pathfinder` tool highly unreliable (it frequently suggests paths into water). The only way to proceed south from the northern pier is to find the correct warp point, not by walking.
 
 ### C. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
