@@ -1,6 +1,9 @@
-## I. Core Protocols & Immediate Actions (v40)
+## I. Core Protocols & Immediate Actions (v41)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
-- **CRITICAL: WKG Edge Precision:** All `warp` type edges MUST include a `destination_entry_point` if known. All new nodes MUST have descriptive `tags`.
+- **CRITICAL: WKG Protocol:**
+  - Before adding any node or edge, I will FIRST query the WKG with `run_code` to confirm it doesn't already exist.
+  - All `warp` type edges MUST include a `destination_entry_point` if known. All new nodes MUST have descriptive `tags`.
+- **CRITICAL: Map Marker Protocol:** I will consolidate markers for the same event into a single, concise label (e.g., '🚪 To/From [Location]' instead of separate 'Arrival' and 'Used' markers).
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks.
 - **CRITICAL: Post-Event Checklists (MANDATORY):**
   - **Trainer Battle:** Mark defeated trainer with '☠️' and log their Pokémon under 'Trainer Intel'.
@@ -36,10 +39,9 @@
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
-## III. Agent & Tool Development Log (v61)
+## III. Agent & Tool Development Log (v62)
 ### A. Development Priorities
 - **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. It must be able to systematically test every reachable tile to find puzzle triggers. This is my highest priority.
-- **`floor_strategist_agent` (HIGH PRIORITY):** To analyze the output of the `map_segment_analyzer` tool and create a prioritized list of exploration targets (warps, objects, unseen tiles). This will serve as the input for the `dungeon_navigator_tool`.
 
 ### B. Active Agents & Tools
 - `pc_navigator_agent` (v2) - Reliable
@@ -60,7 +62,6 @@
 - **v8 Corrective Action (T33258):** Completely rewrote the `is_traversable` function to use a proper whitelist of walkable tile types. Awaiting final verification.
 
 ### C. Open Puzzles & Hypotheses
-1.  **5F Gate Puzzle:** The southern gates are controlled by the player's X-coordinate in the northern corridor (Y=2). The exact mechanism needs to be mapped systematically to find a path to the item at (22, 17). **Current systematic test in progress.**
-2.  **CARD KEY Location:** The key is likely behind one of the puzzles in Silph Co. The item at (22, 17) on 5F is a prime candidate. The western section of 5F, accessed via 9F, proved to be a dead end due to a bugged Rocket.
+1.  **5F Gate Puzzle (Hypothesis Abandoned):** The systematic test of the eastern corridor failed to find the trigger. The western corridor is inaccessible. New Hypothesis: A battle-warp teleporter on 3F might provide access to the puzzle's solution.
+2.  **CARD KEY Location:** The key is likely behind one of the puzzles in Silph Co. The item at (22, 17) on 5F is a prime candidate.
 3.  **Giovanni's Location:** He is likely on the 11th floor behind the doors that require the CARD KEY. Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).
-- **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged. Interacting with him initiates pre-battle dialogue but does not start a battle, soft-locking progress in that room. The only exit is the teleporter back to 9F.
