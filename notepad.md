@@ -43,7 +43,7 @@
 
 ## III. Agent & Tool Development Log (v63)
 ### A. Development Priorities
-- **`dungeon_navigator` tool (v3 - Debugging):** CRITICAL PRIORITY. The tool is still failing to generate valid paths. The next step is to add extensive debugging prints to the script to diagnose the root cause of its pathing errors.
+- **`dungeon_navigator` tool (v4 - Debugging):** CRITICAL PRIORITY. The tool is still failing to generate valid paths. Adding extensive debugging prints to the script to diagnose the root cause of its pathing errors.
 - **`pathfinder` tool improvement:** The current BFS-based tool is too simple. It must be improved or replaced with a more robust pathfinding algorithm (e.g., A*) that can handle dynamic obstacles and complex map features.
 
 ### B. Active Agents & Tools
