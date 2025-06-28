@@ -1,7 +1,9 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Current Plan
-- I am in Mr. Pokemon's house. I need to speak with the other person in the room to complete my errand for Professor Elm.
+- The game state is desynchronized. I appear to be on Route 30, but the game thinks I'm in Mr. Pokemon's House. 
+- My immediate goal is to stabilize the game state by pressing 'A' to clear any hidden menus.
+- After stabilizing, I will return to Professor Elm in New Bark Town.
 
 ## Party & Rival
 ### My Team
@@ -48,17 +50,21 @@
 - **VOID:** An impassable tile outside the map boundaries.
 - **WARP_CARPET_DOWN:** A warp tile.
 
+### Discovered Traps & Puzzles
+- **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
+
+## Bugs & Glitches
+- **Mr. Pokemon's House Softlock (Turn ~1700-1765):** Became trapped in the house. Warps were non-functional and NPC dialogue looped. Opening the POKéGEAR menu seemed to be the only action that could reset the game state and allow escape.
+
 ## Development & Strategy Notes
 ### Pathfinding Tool Issues
 - My `pathfinder_pro` tool is excellent for static environments, but it cannot account for moving NPCs that are off-screen. When a calculated path is repeatedly blocked by a moving NPC, I must switch to manual navigation.
 
 ### Custom Agents & Tools (Ideas)
-- **`unstick_me_tool` (Idea):** A tool that analyzes the map XML to find the nearest cluster of "unseen" tiles when I'm stuck, returning coordinates for a new navigation goal.
+- **`unstick_me_tool` (Idea):** A tool that analyzes the map XML to find the nearest cluster of "unseen" tiles when I'm stuck, returning coordinates for a new navigation goal. Could also check for softlock conditions (e.g., no path to any warp/exit).
 - **`dialogue_summarizer` (Idea):** An agent to extract key information from NPC conversations.
 
 ## Critical Reminders
 - **IMMEDIATE DOCUMENTATION:** All new information MUST be documented in the notepad and via map markers *immediately*.
-- **Proactive Agent Use:** I must use my `strategic_advisor` agent proactively to avoid getting stuck.
+- **Proactive Agent Use:** I must use my `strategic_advisor` agent proactively to avoid getting stuck, but recognize its limitations in bugged states.
 - **World Knowledge Graph:** I must add nodes and edges to my World Knowledge Graph immediately upon discovering new connections between maps.
-### Discovered Traps & Puzzles
-- **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
