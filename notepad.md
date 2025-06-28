@@ -53,25 +53,3 @@
 - `overworld_navigator` (Under Development)
 
 ## VII. Lessons Learned & Protocol Corrections (v3)
-### A. CRITICAL: Core Protocol Violations
-- **Location & State Hallucination (T31320, T32206, T32211, T32243):** I have repeatedly failed to verify my current `map_id` and `(x, y)` from the Game State Information before acting. This has led to severe, multi-turn hallucinations (e.g., believing I was in Saffron City while still on Route 8), causing numerous failed tool calls and wasted time.
-  - **CORRECTION:** I MUST be hyper-vigilant. I will ALWAYS check my `map_id` and `(x, y)` from the Game State Information before ANY documentation or navigation-related tool call. I will explicitly confirm map transitions by checking the game state on the following turn before documenting anything. I will trust system warnings about reachability and dead ends.
-- **Failure to Use Documentation (T31645, T32218 -> T32241, T32252):** I have set navigation goals to NPCs already marked as non-battling and repeatedly used the `pathfinder` tool on maps explicitly documented in this notepad as 'complex' or 'segmented'.
-  - **CORRECTION:** My documentation is useless if I do not consult it. I MUST check map markers before every navigation or interaction action. I will adhere strictly to my own documented tool limitations.
-
-### B. Tool & Agent Usage
-- **`pathfinder` Tool Limitation (T32111, T32222):** The `pathfinder` tool is fundamentally broken for segmented or complex maps (e.g., Saffron City, Celadon City, Route 12).
-  - **CORRECTION:** The `pathfinder` tool is now forbidden for navigation in any map noted as 'complex' or 'segmented'. I will use manual navigation in these areas until the `overworld_navigator` is complete.
-- **Redundant Tool Calls (T31322):** I have used `select_battle_option` while also manually inputting the button presses.
-  - **CORRECTION:** I will rely solely on the tool for battle menu selections to improve efficiency.
-
-### C. Data Management & World Knowledge
-- **Inconsistent Warp Marking (T30985, T31644):** I have failed to mark both the entry and exit points of warps with '🚪' immediately after transitioning, leading to confusion and attempts to log existing connections.
-  - **CORRECTION:** I must be more disciplined. I will mark ALL warps on both sides of the transition immediately.
-- **WKG Edges (T31290):** A single bidirectional edge (`is_one_way: false`) in the WKG covers two-way travel. I will not create redundant reversed edges.
-- **Warp Reachability (T30988):** I must verify a warp is reachable from my current position before assuming it's a valid path.
-
-### D. Navigation & Exploration
-- **Hypothesis Failure (Route 12, T31370):** Getting stuck on segmented maps is often due to missing a reachable warp.
-  - **CORRECTION:** I must trust the game state over my own perception and explore all reachable warps before assuming I am stuck. The warp at (12, 78) leads to the Super Rod House, not south.
-- **Protocol Failure (T32321):** The `pathfinder` tool failed to find a path to the Rocket at (15, 16) on Silph Co. 6F. This confirms my protocol: the tool is unreliable for anything but simple, open-area navigation. I must strictly adhere to using manual navigation in complex, maze-like interiors like this.
