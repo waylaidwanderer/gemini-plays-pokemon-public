@@ -99,3 +99,6 @@
 
 ### Tile Traversal and Movement Rules (Additions)
 - **COUNTER:** An impassable barrier, often found in buildings.
+
+### Trades
+- A Youngster in Kyle's House (Violet City) will trade a Bellsprout for an Onix.
