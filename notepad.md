@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Immediate Tasks (High Priority)
-- **Fix `path_master` Tool (HIGHEST PRIORITY):** The tool is critically flawed as it doesn't handle NPCs. I must fix it with `define_tool` at the very next opportunity before relying on it again.
+- **New Tool:** Created `find_path` tool. It uses BFS and treats all objects as impassable. `path_master` is deprecated and should not be used.
 
 ## Untested Assumptions
 - **`path_master` validity:** Assuming the current path generated is valid. Test by following it.
