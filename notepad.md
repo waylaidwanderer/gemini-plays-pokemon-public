@@ -55,3 +55,4 @@
 1. The CARD KEY is on a higher floor of Silph Co. (Test: Continue exploring upwards.)
 2. The elevator provides access to all previously inaccessible segments of the floors. (Test: Use the elevator to visit each floor and check for access to new areas.)
 3. Giovanni is on the 11th floor, as a Rocket grunt mentioned. (Test: Reach the 11th floor and explore it.)
+- **Teleporter Tiles:** These act as instant warps. Stepping on them immediately transports the player to another location, sometimes on a different floor. They are a key part of navigating complex dungeons like Silph Co.
