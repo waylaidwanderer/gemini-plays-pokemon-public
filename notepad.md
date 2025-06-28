@@ -47,7 +47,6 @@
 - **`dungeon_navigator` tool (v7 - Debugging):** CRITICAL PRIORITY. The tool is still failing. Must be fixed.
 - **`pathfinder` tool improvement:** The current BFS-based tool is too simple. It must be improved or replaced with a more robust pathfinding algorithm (e.g., A*).
 - **New Tool Idea: `object_finder`:** A tool to find the coordinates of a named NPC or item on the current map.
-- **New Agent Idea: `ExplorationAgent`:** A single agent to combine the functionality of `map_segment_analyzer` and `floor_strategist_agent` for more streamlined exploration.
 - **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
 
 ### B. Active Agents & Tools
