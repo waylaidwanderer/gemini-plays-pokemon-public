@@ -1,7 +1,5 @@
 # Gem's Pokémon Crystal Notepad
 
-## Immediate Tasks (High Priority)
-
 ## Party & Rival
 ### My Team
 - G (TOTODILE): Lv13
