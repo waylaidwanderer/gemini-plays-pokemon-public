@@ -1,5 +1,9 @@
 # Gem's Pokémon Crystal Notepad
 
+## Immediate Tasks (High Priority)
+- **Fix `path_master` Tool:** The tool failed on Route 30 (Turn 1939). I MUST fix this with `define_tool` as soon as my party is healed. Tool maintenance is a top priority.
+- **Verify Tile Mechanics:** I must test the traversability of `HEADBUTT_TREE`, `CUT_TREE`, and `WATER` tiles instead of assuming they are impassable. This needs to be done after healing.
+
 ## Party & Rival
 ### My Team
 - G (TOTODILE): Lv12
@@ -30,11 +34,8 @@
 - **FLOOR_HOP_DOWN_LEDGE:** A one-way tile that allows jumping over a ledge downwards.
 - **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** A one-way tile that allows jumping over a ledge either down or to the right.
 - **FLOOR_HOP_DOWN_OR_LEFT_LEDGE:** A one-way tile that allows jumping over a ledge either down or to the left.
-- **HEADBUTT_TREE:** An impassable wall. (Requires Headbutt - Assumption)
-- **CUT_TREE:** An impassable wall. (Requires HM Cut - Assumption)
 - **COUNTER:** An impassable barrier.
 - **DOOR:** A warp tile.
-- **WATER:** An impassable tile without HM Surf. (Assumption)
 - **MART_SHELF:** An impassable barrier.
 - **BUOY:** An impassable tile in water.
 - **TOWN_MAP:** Impassable object.
@@ -55,10 +56,6 @@
 ### Key Dialogue
 - **Youngster on Route 30:** "Everyone's having fun battling! You should too!"
 
-### Pathfinding Tool Development
-- `path_master` is my current reliable pathfinding tool. Failures of `path_master` have so far been due to legitimate in-game obstacles (like moving NPCs), not bugs in the tool itself.
-- `path_master` failed on Route 30 (Turn 1939) for a simple path. May be buggy. Proceeding with manual navigation.
-
 ### Custom Agents & Tools (Ideas)
 - **`unstick_me_tool` (Idea):** A tool that analyzes the map XML to find the nearest cluster of "unseen" tiles when I'm stuck, returning coordinates for a new navigation goal. Could also check for softlock conditions (e.g., no path to any warp/exit).
 - **`dialogue_summarizer` (Idea):** An agent to extract key information from NPC conversations.
@@ -71,5 +68,6 @@
 ## Lessons Learned & Process Improvements
 - **IMMEDIATE DOCUMENTATION IS NON-NEGOTIABLE:** The AI observer has repeatedly flagged my failure to document new information (map markers, world knowledge graph updates, major bugs) *immediately*. This is a critical error that has directly led to confusion and wasted time. From now on, documentation is my absolute highest priority, taking precedence over any other in-game action.
 - **Strategic Advisor Limitations:** My `strategic_advisor` agent is not equipped to handle game-breaking bugs or softlocks. Repeatedly refining it for this purpose was a waste of time. In the future, if a bug is confirmed, I will focus on systematic, in-game actions to attempt a state reset rather than relying on the agent.
+
 ## World Knowledge Graph Management
 - **MANDATORY:** I must use `manage_world_knowledge` to add new nodes and edges *immediately* after every map transition. No exceptions.
