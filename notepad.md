@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Immediate Tasks (High Priority)
-- **New Tool:** Created `find_path` tool. It uses BFS and treats all objects as impassable. `path_master` is deprecated and should not be used.
+- **Pathfinding Tool:** `find_path` is the primary tool for navigation. It uses BFS and treats all objects as impassable. `path_master` is deprecated.
 
 ## Untested Assumptions
 - **`path_master` validity:** Assuming the current path generated is valid. Test by following it.
