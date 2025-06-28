@@ -86,9 +86,7 @@
 - **FLOOR_UP_WALL** - **Untested**
 - **CAVE:** A warp tile that leads to another map.
 
-## Tool Bugs
-- `path_master`: The tool is currently unreliable and has generated a path leading directly into a WALL tile at (7, 12). It should not be used until the root cause is identified and fixed.
-- **WARP_CARPET_RIGHT:** A warp tile that activates when facing right.
+- **PC:** An impassable, interactive object. Must be interacted with from the tile below, while facing up.
 
 ### Tile Traversal and Movement Rules (Additions)
 - **WARP_CARPET_LEFT:** A warp tile that activates when facing left.
