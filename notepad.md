@@ -27,25 +27,15 @@
 
 ### D. HM & Field Move Mechanics
 - HMs can be used directly from the ITEM menu without being taught to a Pokémon. This is a significant time-saver for field moves like Flash and Cut. To use an HM from the bag, select the HM, choose 'USE', and then select 'NO' when prompted to teach it.
+- **Flash Exception:** Flash MUST be taught to a Pokémon to be used in the field.
 
 ### E. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
-## III. Agent & Tool Development Log (v43)
+## III. Agent & Tool Development Log (v44)
 ### A. Development Priorities
 - **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`. Manual JSON scripting is too slow and error-prone.
 - **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. This must be a **tool**, not an agent, as it requires direct map data analysis.
-
-### B. Agent & Tool Deletion Queue
-
-### B. Buggy Tools & Deletion Queue
-- **`overworld_navigator_tool` (BUGGY - DO NOT USE):** This tool is unreliable and calculates paths incorrectly. It should be deleted as soon as a `delete_tool` function becomes available. Rely on the standard `pathfinder` for now.
-
-### B. Buggy Tools & Deletion Queue
-- **`overworld_navigator_tool` (BUGGY - DO NOT USE):** This tool is unreliable and calculates paths incorrectly. It should be deleted as soon as a `delete_tool` function becomes available. Rely on the standard `pathfinder` for now.
-
-### B. Buggy Tools & Deletion Queue
-- **`overworld_navigator_tool` (BUGGY - DO NOT USE):** This tool is unreliable and calculates paths incorrectly. It should be deleted as soon as a `delete_tool` function becomes available. Rely on the standard `pathfinder` for now.
 
 ### B. Buggy Tools & Deletion Queue
 - **`overworld_navigator_tool` (BUGGY - DO NOT USE):** This tool is unreliable and calculates paths incorrectly. It should be deleted as soon as a `delete_tool` function becomes available. Rely on the standard `pathfinder` for now.
@@ -76,6 +66,7 @@
 - **Silph Co. 4F Scientist (15, 7):** Electabuzz (Lv41)
 - **Silph Co. 5F Rocket (9, 17):** Tauros (Lv40)
 - **Silph Co. 9F Scientist (22, 14):** Muk (Lv40), Kabutops (Lv40)
+- **Silph Co. 11F Rocket (16, 8):** Kabutops, Raticate, Muk, Golbat, Marowak, Arbok
 
 ## VI. Active Investigations & Untested Assumptions
 - **Assumption 1 (CARD KEY Location):** The `CARD KEY` is a physical item (Poké Ball) on the ground. **Hypothesis:** It could be given by an NPC after a specific trigger. **Test:** Continue systematically clearing floors and talking to all NPCs.
@@ -91,21 +82,12 @@
 - **Protocol Failure (T31322):** I have been using `select_battle_option` redundantly by also manually inputting the button presses. **Correction:** I will rely solely on the tool for battle menu selections to improve efficiency.
 - **Hypothesis Failure (T31370):** The pier on Route 12 is segmented. I was stuck on an isolated section and could not reach the southern trainers or the exit to Route 13. All manual and pathfinder attempts failed. **Correction:** The game state shows reachable warps. I must trust the game state over my own perception and explore all reachable warps before assuming I am stuck.
 - **Hypothesis Failure (Route 12 South Path):** The warp at (12, 78) on Route 12 leads to the Super Rod House, not south. The path south must be found elsewhere.
+- **Protocol Failure (T31644):** I failed to mark the exit warp of the Route 12 Gatehouse before transitioning to Route 12. I must be more disciplined and mark both sides of a warp connection immediately.
+- **Protocol Failure (T31645):** I set a navigation goal to a trainer at (15, 32) on Route 12 without checking my map markers first. The marker clearly indicated this NPC was non-battling and I had already interacted with them. This is a major failure in following my own established protocols and wasted a turn. I MUST check markers before every navigation or interaction action.
 
 ## VIII. Tile Mechanics Compendium
-*   **Ground:** Standard walkable tile.
-*   **Grass:** Walkable tile with wild encounters.
-*   **Impassable:** Walls, counters, rocks. Cannot be entered.
-*   **Water:** Requires Surf to cross.
 *   **Ledge:** One-way downward traversal. Treat as a wall from all other directions.
 *   **Cuttable:** Tree that can be cut with HM Cut.
 *   **Pikachu:** A unique, walkable object. Requires a double-press if not already facing it.
 *   **Warp:** Triggers a map change. Includes doors, stairs, and cave entrances.
 *   **Spinner:** Forces movement in a specific direction.
-- **Protocol Failure (T31644):** I failed to mark the exit warp of the Route 12 Gatehouse before transitioning to Route 12. I must be more disciplined and mark both sides of a warp connection immediately.
-- **Protocol Failure (T31645):** I set a navigation goal to a trainer at (15, 32) on Route 12 without checking my map markers first. The marker clearly indicated this NPC was non-battling and I had already interacted with them. This is a major failure in following my own established protocols and wasted a turn. I MUST check markers before every navigation or interaction action.
-
-## IX. Notepad Update Log
-- **T31693:** `overwrite` failed due to character loss. Appending new info instead.
-- **HM Mechanic Correction:** Flash MUST be taught to a Pokémon to be used in the field. The 'use from bag' mechanic does not work for Flash.
-- **New Trainer Intel:** Silph Co. 11F Rocket (16, 8): Kabutops, Raticate, Muk, Golbat, Marowak, Arbok
