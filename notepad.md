@@ -61,3 +61,4 @@
 
 ## VIII. Process Improvements & New Protocols (v1)
 - **WKG Tagging (MANDATORY):** I will add descriptive `tags` to all new nodes created in the World Knowledge Graph to improve long-term organization and query capabilities.
+- **`puzzle_logic_agent` (LOW PRIORITY):** To recall complex puzzle solutions (e.g., Silph Co. gate triggers) to avoid manual re-discovery.
