@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Current Plan
-- Travel to Violet City to challenge the first Gym.
+- My `strategic_advisor` recommended I capture a Geodude from Dark Cave to prepare for the Violet City Gym. My immediate goal is to travel to Dark Cave on Route 31.
 
 ## Party & Rival
 ### My Team
@@ -49,16 +49,15 @@
 
 ## Development & Strategy Notes
 ### Pathfinding Tool
-- **Status:** The `pathfinder_pro` tool is now robust and reliable after several refinements.
-### Custom Agents
-- **`strategic_advisor`:** An agent that takes my current party, location, and goals to suggest the next best course of action. I should use this more often.
-- **`dialogue_summarizer`:** (Idea) An agent to extract key information from NPC conversations.
-### Untested Assumptions
-- **Running vs. Fighting:** I have been assuming running from wild battles is always optimal. This saves time but yields no EXP. I need to test if battling some wild encounters is a better long-term strategy for leveling.
+- **Status:** The `pathfinder_pro` tool is now robust and reliable after several refinements. 
+### Custom Agents & Tools (Ideas)
+- **`unstick_me_tool` (Idea):** A tool that analyzes the map XML to find the nearest cluster of "unseen" tiles when I'm stuck, returning coordinates for a new navigation goal. This would be better than a reasoning-based agent.
+- **`dialogue_summarizer` (Idea):** An agent to extract key information from NPC conversations.
+
+## Untested Assumptions
+- **Running vs. Fighting:** I am currently testing if battling some wild encounters is a better long-term strategy for leveling than always running. Initial results show small EXP gains. I need more data to form a conclusion.
 
 ## Critical Reminders
 - **IMMEDIATE DOCUMENTATION:** All new information (NPC names, item locations, etc.) MUST be documented in the notepad and via map markers *immediately*, even during battles or cutscenes. No exceptions.
-- **DOCUMENT BLOCKED PATHS:** Any time my movement is blocked by a wall or obstacle, I MUST immediately place a `🚫` map marker at that location to avoid repeating the mistake.
-- **CLEAN UP MARKERS:** I must delete old or redundant markers (like '⚔️' after a trainer is defeated and marked with '☠️') to avoid clutter.
-## Critical Reminders (Updated)
-- **Check for Ledges:** Always check for ledges before planning a path. They are one-way and can trap me.
+- **Proactive Agent Use:** I must use my `strategic_advisor` agent proactively to avoid getting stuck, not just as a last resort.
+- **CLEAN UP MARKERS:** I must delete old or redundant markers to avoid clutter. Redundant markers are those that simply state information available from the tile type (e.g., 'Blocked by wall').
