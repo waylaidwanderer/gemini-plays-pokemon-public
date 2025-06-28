@@ -10,8 +10,9 @@
 
 ## Party & Rival
 ### My Team
-- G (TOTODILE): Lv12
+- G (TOTODILE): Lv13
 - HOOTHOOT (HOOTHOOT): Lv3
+- HOOTIN (HOOTHOOT): Lv4
 
 ### Rival SILVA's Team
 - CHIKORITA: Lv5 (Last seen in New Bark Town)
@@ -82,10 +83,6 @@
 - Wild Poliwag (Route 30): BUBBLE
 - Wild Hoothoot (Route 30): TACKLE
 - Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
-- **WALL:** An impassable barrier. Confirmed by attempting to walk into tiles at (2,1), (3,1), (6,1), (6,4), (5,4), (4,4), (0,6).
-
-## Immediate Tasks (High Priority)
-- **Fix `path_master` Tool (HIGHEST PRIORITY):** The tool is critically flawed as it doesn't handle NPCs. I must fix it with `define_tool` at the very next opportunity before relying on it again.
 
 ## Current Hypotheses (Mr. Pokémon's House)
 - **Failed Hypothesis:** Interacting with the Gentleman (Mr. Pokémon?) from any adjacent tile (left, below) or while facing him directly does not advance the dialogue or provide the MYSTERY EGG. He only repeats the same line. (3 attempts)
