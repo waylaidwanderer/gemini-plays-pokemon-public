@@ -43,3 +43,4 @@
 
 ### Tool Limitations
 - **pathfinder_pro is unreliable:** The tool cannot distinguish between visually different tiles of the same type (e.g., normal FLOOR vs. impassable flowered FLOOR). Do not use it on maps with such features; rely on manual pathing instead.
+- WARP_CARPET_DOWN: A warp tile.
