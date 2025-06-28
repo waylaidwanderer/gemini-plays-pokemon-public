@@ -29,6 +29,8 @@
 - **Closed Gates:** These tiles are impassable and block movement until a specific trigger or puzzle is solved.
 - **Dynamic Gates (Silph Co. 5F):** The southern gates on 5F open and close based on the player's X-coordinate in the northern corridor (Y=2).
 - **Invisible Walls:** Some areas may contain impassable walls that are not visually represented. Discovered on Silph Co. 9F at (12, 2).
+- **Ground Tiles:** Standard walkable tiles.
+- **Impassable Tiles:** Walls and other objects that cannot be walked on or through.
 
 ### D. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35, 4 badges: 43.
@@ -41,15 +43,13 @@
 
 ## III. Agent & Tool Development Log (v62)
 ### A. Development Priorities
-- **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. It must be able to systematically test every reachable tile to find puzzle triggers. This is my highest priority.
+- **`pathfinder` tool improvement:** The current BFS-based tool is too simple and fails in complex dungeons. It must be improved or replaced with a more robust pathfinding algorithm (e.g., A*) that can handle dynamic obstacles and complex map features.
 
 ### B. Active Agents & Tools
 - `pc_navigator_agent` (v2) - Reliable
 - `team_composition_advisor_agent` (v2) - Reliable
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v10) - Reliable
-
-- `pathfinder`: A simple BFS. **UNRELIABLE** in complex, segmented dungeons. To be used for simple, direct paths only until `dungeon_navigator_tool` is developed.
 
 ## VII. Silph Co. Investigation Log
 ### A. Confirmed Lessons
@@ -65,7 +65,3 @@
 1.  **5F Gate Puzzle (Hypothesis Abandoned):** The systematic test of the eastern corridor failed to find the trigger. The western corridor is inaccessible. New Hypothesis: A battle-warp teleporter on 3F might provide access to the puzzle's solution.
 2.  **CARD KEY Location:** The key is likely behind one of the puzzles in Silph Co. The item at (22, 17) on 5F is a prime candidate.
 3.  **Giovanni's Location:** He is likely on the 11th floor behind the doors that require the CARD KEY. Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).
-- **Ground Tiles:** Standard walkable tiles.
-- **Impassable Tiles:** Walls and other objects that cannot be walked on or through.
-- **Ground Tiles:** Standard walkable tiles.
-- **Impassable Tiles:** Walls and other objects that cannot be walked on or through.
