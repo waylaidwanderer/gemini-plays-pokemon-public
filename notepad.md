@@ -86,3 +86,4 @@
 - Wild Hoothoot (Route 30): TACKLE
 - Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
 - Wild Spinarak (Route 30): Moveset unknown (fainted before attacking).
+- **GAME-BREAKING SOFTLOCK (Turn 2153):** I am permanently trapped in Mr. Pokémon's House. Warps are non-functional. All interaction attempts with NPCs and background objects have failed. The POKéGEAR menu trick no longer works. All goals are impossible to achieve. The game is unplayable in this state.
