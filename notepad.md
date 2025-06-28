@@ -44,6 +44,15 @@
 - **RADIO:** Impassable object.
 - **VOID:** An impassable tile outside the map boundaries.
 - **WARP_CARPET_DOWN:** A warp tile that activates when facing down.
+- **FRUIT_TREE:** An impassable object that can sometimes yield items.
+- **WATER:** Confirmed impassable.
+- **CUT_TREE:** Confirmed impassable.
+- **CAVE:** A warp tile that leads to another map.
+- **PC:** An impassable, interactive object. Must be interacted with from the tile below, while facing up.
+- **WARP_CARPET_LEFT:** A warp tile that activates when facing left.
+
+### Untested Tile Mechanics
+- **FLOOR_UP_WALL:** Present in Dark Cave. Appears to be a one-way wall traversable only from below. Needs to be tested.
 
 ### Discovered Traps & Puzzles
 - **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
@@ -53,10 +62,9 @@
 - **Proactive Agent Use:** I must use my `strategic_advisor` agent proactively to avoid getting stuck, but recognize its limitations in bugged states.
 - **World Knowledge Graph:** I must add nodes and edges to my World Knowledge Graph immediately upon discovering new connections between maps.
 
-- **FLOOR:** A standard traversable tile.
-
 ## World Knowledge Graph Management
 - **MANDATORY:** I must use `manage_world_knowledge` to add new nodes and edges *immediately* after every map transition. No exceptions.
+
 ## Process Reminders (From AI Observer)
 - **Use Strategic Advisor:** I need to consult my `strategic_advisor` agent more frequently, especially when I hit a roadblock or need to re-evaluate my goals.
 - **Immediate WKG Updates:** World Knowledge Graph updates must happen *immediately* after a map transition. No more delays. This is a critical process failure I must correct.
@@ -67,29 +75,6 @@
 - Wild Poliwag (Route 30): BUBBLE
 - Wild Hoothoot (Route 30): TACKLE
 - Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
-
-## Discovered Mechanics
-- **WARP_CARPET_DOWN:** This warp tile requires the player to be facing down to activate. Simply stepping on the tile is insufficient. (Confirmed in Mr. Pokémon's House)
-- **FRUIT_TREE:** An impassable object that can sometimes yield items.
-
-### Route 31
-- **DARK_CAVE_ENTRANCE:** Untested. Appears to be a warp.
-
-## Immediate Tasks
-- **Tile Testing:** I need to test the traversal properties of new tiles on Route 31 and document them.
-  - `WATER` at (21, 7) - **Confirmed impassable.**
-  - `CUT_TREE` at (25, 10) - **Confirmed impassable.**
-  - `CAVE` warp at (34, 5) - **Confirmed, leads to Dark Cave.**
-
-### Untested Tile Mechanics
-- **FLOOR_UP_WALL:** Present in Dark Cave. Appears to be a one-way wall traversable only from below. Needs to be tested.
-- **FLOOR_UP_WALL** - **Untested**
-- **CAVE:** A warp tile that leads to another map.
-
-- **PC:** An impassable, interactive object. Must be interacted with from the tile below, while facing up.
-
-### Tile Traversal and Movement Rules (Additions)
-- **WARP_CARPET_LEFT:** A warp tile that activates when facing left.
 
 ### Custom Agents & Tools (Ideas)
 - **`path_validator` (Idea):** An agent to verify a generated path against the map XML, checking for walls, unhandled tiles, and other potential issues.
