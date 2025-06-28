@@ -25,6 +25,7 @@
 - **Teleporter Tiles:** These act as instant warps. Stepping on them immediately transports the player to another location, sometimes on a different floor. They are a key part of navigating complex dungeons like Silph Co.
 - **Closed Gates:** These tiles are impassable and block movement until a specific trigger or puzzle is solved.
 - **Dynamic Gates (Silph Co. 5F):** The southern gates on 5F open and close based on the player's X-coordinate in the northern corridor (Y=2).
+- **Invisible Walls:** Some areas may contain impassable walls that are not visually represented. Discovered on Silph Co. 9F at (12, 2).
 
 ### D. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35, 4 badges: 43.
@@ -59,7 +60,6 @@
 - **v8 Corrective Action (T33258):** Completely rewrote the `is_traversable` function to use a proper whitelist of walkable tile types. Awaiting final verification.
 
 ### C. Open Puzzles & Hypotheses
-1.  **5F Gate Puzzle:** The southern gates are controlled by the player's X-coordinate in the northern corridor (Y=2). The exact mechanism needs to be mapped systematically to find a path to the item at (22, 17).
+1.  **5F Gate Puzzle:** The southern gates are controlled by the player's X-coordinate in the northern corridor (Y=2). The exact mechanism needs to be mapped systematically to find a path to the item at (22, 17). **Current systematic test in progress.**
 2.  **CARD KEY Location:** The key is likely behind one of the puzzles in Silph Co. The item at (22, 17) on 5F is a prime candidate. The western section of 5F, accessed via 9F, proved to be a dead end due to a bugged Rocket.
 3.  **Giovanni's Location:** He is likely on the 11th floor behind the doors that require the CARD KEY. Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).
-**Hypothesis: 5F Gate Puzzle (Failed - T33391):** Both hypotheses for this puzzle have failed. 1) Standing on a single tile (tested T33318). 2) Walking the corridor sequentially from east to west (tested T33391). The puzzle is unsolvable with current knowledge. Moving on.
