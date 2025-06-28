@@ -27,7 +27,7 @@
 - CUT_TREE: An impassable wall. Requires the HM Cut to pass. (Assumption)
 - COUNTER: An impassable barrier, similar to a WALL.
 - DOOR: A warp tile that typically leads into or out of a building.
-- WATER: An impassable tile without the HM Surf. (Assumption)
+- WATER: An impassable tile without the HM Surf. (Confirmed)
 - MART_SHELF: An impassable barrier, similar to a WALL.
 
 - TOWN_MAP: Impassable object.
