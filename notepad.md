@@ -121,3 +121,9 @@
 
 ### Tile Traversal and Movement Rules (Additions)
 - **COUNTER:** An impassable barrier, often found in buildings.
+
+## Immediate Tasks (High Priority)
+- **Fix `path_master` tool:** The tool is critically bugged and generating invalid paths. It must be fixed before being used again.
+
+### Tile Traversal and Movement Rules (Additions)
+- **COUNTER:** An impassable barrier, often found in buildings.
