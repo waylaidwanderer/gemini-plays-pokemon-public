@@ -48,7 +48,6 @@
 - **`pathfinder` tool improvement:** The current BFS-based tool is too simple. It must be improved or replaced with a more robust pathfinding algorithm (e.g., A*).
 - **New Tool Idea: `object_finder`:** A tool to find the coordinates of a named NPC or item on the current map.
 - **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
-
 ### B. Active Agents & Tools
 - `pc_navigator_agent` (v2) - Reliable
 - `team_composition_advisor_agent` (v2) - Reliable
