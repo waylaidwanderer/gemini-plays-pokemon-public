@@ -5,7 +5,7 @@
 
 ## Party & Rival
 ### My Team
-- G (TOTODILE): Lv11
+- G (TOTODILE): Lv12
 - HOOTHOOT (HOOTHOOT): Lv3
 
 ### Rival SILVA's Team
