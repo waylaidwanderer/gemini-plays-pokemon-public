@@ -80,12 +80,6 @@
 - Wild Hoothoot (Route 30): TACKLE
 - Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
 
-## Current Hypotheses (Mr. Pokémon's House)
-- **Failed Hypothesis:** Interacting with the Gentleman (Mr. Pokémon?) from any adjacent tile (left, below) or while facing him directly does not advance the dialogue or provide the MYSTERY EGG. He only repeats the same line. (3 attempts)
-- **New Hypothesis:** An object in the house must be interacted with to trigger the event. Plan: Investigate the bookshelves, computer, and coins in that order.
-- **Warp Mechanics:** The `WARP_CARPET_DOWN` tile might require a specific action (e.g., walking south over it) to activate, not just stepping on it.
-- **Failed Hypothesis:** Interacting with any object (bookshelves, computer, coins) in Mr. Pokémon's house does not trigger the event. All objects investigated and confirmed to be non-interactive for progression.
-
 ## Discovered Mechanics
 - **WARP_CARPET_DOWN:** This warp tile requires the player to be facing down to activate. Simply stepping on the tile is insufficient. (Confirmed in Mr. Pokémon's House)
 - **FRUIT_TREE:** An impassable object that can sometimes yield items.
