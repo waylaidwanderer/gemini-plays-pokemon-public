@@ -12,16 +12,20 @@
 - **Type Immunities:** Psychic is immune to Electric.
 - **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves. MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
+- **Poison Type Effectiveness:** Poison-type moves are NOT-VERY-EFFECTIVE against Poison-types.
 
 ### B. Navigation & Traversal Rules
 - **Pikachu Movement:** A walkable object. Requires two button presses to move onto its tile if not already facing it.
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
 - **No Blackout Zones:** Losing in Rocket Hideout or Silph Co. does not cause a blackout.
-- **HM Field Use:** HMs must be taught to a Pokémon to enable field use. FLY cannot be used indoors.
 - **Saffron City Navigation:** The city's layout is segmented. The `pathfinder` tool is unreliable here. Using FLY is the most efficient method for traveling between distant points.
+- **Silph Co. Elevator:** Requires a two-step process. First, interact with the panel to select a floor. Second, walk onto one of the warp tiles at the back of the elevator room to trigger the map change.
 
 ### C. General Mechanics
 - **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35.
+
+### D. HM & Field Move Mechanics
+- HMs can be used directly from the ITEM menu without being taught to a Pokémon. This is a significant time-saver for field moves like Flash and Cut. To use an HM from the bag, select the HM, choose 'USE', and then select 'NO' when prompted to teach it.
 
 ## III. Agent & Tool Development Log (v39)
 ### A. Development Priorities
@@ -59,18 +63,11 @@
 - **Assumption 1 (CARD KEY Location):** The `CARD KEY` is a physical item (Poké Ball) on the ground. **Hypothesis:** It could be given by an NPC after a specific trigger. **Test:** Continue systematically clearing floors and talking to all NPCs.
 - **Assumption 2 (Gate Puzzles):** The closed gates on various floors (5F, 7F, etc.) are part of a puzzle I can solve on that floor. **Hypothesis:** They might be opened by a master switch on a completely different floor. **Test:** Continue exploring all floors thoroughly. The `dungeon_navigator_agent` would be key here.
 - **Assumption 3 (Rocket Progression):** I need to defeat all Rockets to progress. **Hypothesis:** Some might just provide flavor text. **Test:** If a Rocket doesn't battle me, mark them as non-hostile ('💬') and move on, not assuming they are a progression blocker unless they physically block the path.
+- **Assumption 4 (HM Field Use):** The 'use from bag' mechanic applies to all HMs, not just Flash and Cut. **Test:** Next time I am outdoors, I will attempt to use Fly directly from the item menu.
 
 ## VII. Lessons Learned & Protocol Corrections
 - **Protocol Failure (T30985):** I attempted to log a Silph Co. warp connection (8F 12,6 to 2F 28,16) that already existed in the World Knowledge Graph. I had clearly forgotten this path because I failed to mark the warp with '🚪' on both ends immediately after using it the first time. **Correction:** Must be more disciplined. Trust system errors. Mark ALL warps immediately.
 - **Protocol Failure (T30988):** I misidentified a warp on Silph Co. 8F at (4,12) as navigable. It was in an isolated room. **Correction:** I must verify warp reachability from my current position before listing it in my validation checks.
 
-### E. Specific Object/Area Mechanics
-- **Silph Co. Elevator:** Requires a two-step process. First, interact with the panel to select a floor. Second, walk onto one of the warp tiles at the back of the elevator room to trigger the map change.
-- Poison-type moves are NOT-VERY-EFFECTIVE against Poison-types.
 ## VIII. Post-Event Protocols (v1)
 - **Post-Blackout Recovery:** 1. Use `team_composition_advisor_agent` to devise a new strategy and team. 2. Use `pc_navigator_agent` to execute the recommended changes. 3. Train the new team to the level cap if required.
-### D. HM & Field Move Mechanics
-- HMs can be used directly from the ITEM menu without being taught to a Pokémon. This is a significant time-saver for field moves like Flash and Cut. To use an HM from the bag, select the HM, choose 'USE', and then select 'NO' when prompted to teach it.
-- **Assumption 4 (HM Field Use):** The 'use from bag' mechanic applies to all HMs, not just Flash and Cut. **Test:** Next time I am outdoors, I will attempt to use Fly directly from the item menu. To use an HM from the bag, select the HM, choose 'USE', and then select 'NO' when prompted to teach it.
-- **Assumption 4 (HM Field Use):** The 'use from bag' mechanic applies to all HMs, not just Flash and Cut. **Test:** Next time I am outdoors, I will attempt to use Fly directly from the item menu. To use an HM from the bag, select the HM, choose 'USE', and then select 'NO' when prompted to teach it.
-- **Assumption 4 (HM Field Use):** The 'use from bag' mechanic applies to all HMs, not just Flash and Cut. **Test:** Next time I am outdoors, I will attempt to use Fly directly from the item menu.
