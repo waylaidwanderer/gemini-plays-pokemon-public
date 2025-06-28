@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v34)
+## I. Core Protocols & Immediate Actions (v35)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: WKG Management Workflow (v2):** Before adding a new edge, I will first use a dedicated `wkg_query_tool` to check if an edge *and* its corresponding nodes already exist. This prevents duplicate data and failed tool calls.
 - **CRITICAL: WKG Edge Precision:** All `warp` type edges MUST include a `destination_entry_point` if known. All new nodes MUST have descriptive `tags`.
@@ -37,36 +37,35 @@
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
 ### G. Tile Glossary (v3)
-- **closed_gate:** An impassable gate. On Silph Co. floors, these appear to be opened by hidden floor triggers rather than keys.
+- **closed_gate:** An impassable gate. On Silph Co. floors, these appear to be opened by hidden puzzle triggers rather than keys.
 - **teleport:** A tile that instantly warps the player to another location on the same map. Includes spinner tiles and teleporter pads.
 - **elevator:** A special type of warp tile found in larger buildings. Requires interaction with a panel to select a floor before the warp can be used.
 
-## III. Agent & Tool Development Log (v53)
+## III. Agent & Tool Development Log (v54)
 ### A. Development Priorities
 #### Tools
 - **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. It must be able to systematically test every reachable tile to find puzzle triggers. This is a **tool**, not an agent.
 - **`wkg_query_tool` (HIGH PRIORITY):** To automate checking for broken links or existing nodes/edges in my World Knowledge Graph, formalizing my new WKG workflow.
 - **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`.
 #### Agents
+- **`floor_strategist_agent` (NEW - MEDIUM PRIORITY):** To analyze the current floor's map data, NPC/item locations, and my current goals to create a prioritized list of exploration targets.
 - **`puzzle_logic_agent` (LOW PRIORITY):** To recall complex puzzle solutions (e.g., Silph Co. gate triggers) to avoid manual re-discovery.
 
-### B. Active Agents & Tools (Reliable)
-- `pc_navigator_agent` (v2)
-- `team_composition_advisor_agent` (v2)
-- `protocol_enforcement_agent` (v1)
-- `battle_strategist_agent` (v10)
-- `select_battle_option`
+### B. Active Agents & Tools
+- `pc_navigator_agent` (v2) - Reliable
+- `team_composition_advisor_agent` (v2) - Reliable
+- `protocol_enforcement_agent` (v1) - Reliable
+- `battle_strategist_agent` (v10) - Reliable
+- `select_battle_option` - Reliable
+- `pathfinder`: A simple BFS. **UNRELIABLE** in complex, segmented dungeons like Silph Co. Fails to find paths across walled-off sections.
 
-### C. Tools with Limited Reliability
-- `pathfinder`: A simple BFS that cannot account for hidden puzzle triggers or segmented maps. Reliable for simple, open areas but fails in complex dungeons like Silph Co. Needs to be refined or replaced.
-
-## VII. Lessons Learned & Protocol Corrections (v7)
-- **Tool Refinement is Mandatory:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. **Protocol Violation:** My previous plan to avoid the tool was incorrect. Per core instructions, faulty tools MUST be refined or replaced immediately. **Corrective Action:** I will prioritize fixing `pathfinder` or accelerating the development of its replacement, `dungeon_navigator_tool`.
+## VII. Lessons Learned & Protocol Corrections (v8)
+- **Tool Refinement is Mandatory:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. My previous plan to avoid the tool was a protocol violation. **Corrective Action:** I will prioritize fixing `pathfinder` or accelerating the development of its replacement, `dungeon_navigator_tool`.
 - **Untested Assumptions:**
     - The CARD KEY is on a higher floor of Silph Co. (Test: Continue exploring upwards.)
     - The item at Silph Co. 5F (5,7) is inaccessible from the west. (Test: Find a path to the other side of the wall.)
 
-## IX. Battle Log & Lessons Learned (New Section)
+## IX. Battle Log & Lessons Learned
 ### Scientist on Silph Co. 7F (vs. MUK Lv.39)
 - **Lesson:** THUNDERBOLT can miss. A miss at a critical moment led to SPARKY fainting.
 - **Lesson:** SPARKY fainted to a critical hit from MUK's BODY SLAM. RNG can be brutal.
