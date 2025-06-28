@@ -68,3 +68,4 @@
 ## Post-Battle Action Items (Celadon Gym)
 - **CRITICAL PROTOCOL CORRECTION:** Refine the buggy `overworld_navigator_tool` immediately. This is a top priority as per AI critique.
 - **MAP MARKER CORRECTION (map_id: 134):** Review and correct the markers for Cool Trainer F (3, 12) and Beauty (8, 11). They are likely not non-battling NPCs.
+- **Type Matchup Discovery (T31994):** CUT (Normal) is SUPER-EFFECTIVE against VICTREEBEL (Grass/Poison).
