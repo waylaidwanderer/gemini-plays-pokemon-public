@@ -55,3 +55,4 @@
 ## Tool Reliability
 - My pathfinder tools (`find_path`, `pathfinder_pro`) are buggy and unreliable. They failed to find valid paths and led me into walls. Need to debug or create a more robust version.
 - `pathfinder_pro` does not account for NPCs and will attempt to path through them.
+- My manual path planning is also proving unreliable. I tried to walk into a wall at (5, 10) in New Bark Town. Must be more careful.
