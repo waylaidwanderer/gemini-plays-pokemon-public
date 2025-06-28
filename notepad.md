@@ -69,3 +69,5 @@
 - Poison-type moves are NOT-VERY-EFFECTIVE against Poison-types.
 ## VIII. Post-Event Protocols (v1)
 - **Post-Blackout Recovery:** 1. Use `team_composition_advisor_agent` to devise a new strategy and team. 2. Use `pc_navigator_agent` to execute the recommended changes. 3. Train the new team to the level cap if required.
+### D. HM & Field Move Mechanics
+- HMs can be used directly from the ITEM menu without being taught to a Pokémon. This is a significant time-saver for field moves like Flash and Cut.
