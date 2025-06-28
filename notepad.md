@@ -96,7 +96,7 @@
 - **DARK_CAVE_ENTRANCE:** Untested. Appears to be a warp.
 
 ## Immediate Tasks
-- **Tile Testing:** I need to test the traversal properties of new tiles on Route 31.
-  - `WATER` at (25, 4)
-  - `CUT_TREE` at (25, 10)
-  - `CAVE` warp at (34, 5)
+- **Tile Testing:** I need to test the traversal properties of new tiles on Route 31 and document them.
+  - `WATER` at (21, 7) - **Untested**
+  - `CUT_TREE` at (25, 10) - **Untested**
+  - `CAVE` warp at (34, 5) - **Untested**
