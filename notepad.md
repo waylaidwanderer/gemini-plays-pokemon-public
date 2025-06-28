@@ -91,3 +91,6 @@
 ## Discovered Mechanics
 - **WARP_CARPET_DOWN:** This warp tile requires the player to be facing down to activate. Simply stepping on the tile is insufficient. (Confirmed in Mr. Pokémon's House)
 - **FRUIT_TREE:** An impassable object that can sometimes yield items.
+
+### Route 31
+- **DARK_CAVE_ENTRANCE:** Untested. Appears to be a warp.
