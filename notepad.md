@@ -82,9 +82,10 @@
 ### Trades
 - A Youngster in Kyle's House (Violet City) will trade a Bellsprout for an Onix.
 
-## AI Observer Feedback (Turn 3151)
-- **Strategic Advisor:** I need to consult my `strategic_advisor` agent more frequently, especially when entering new areas or when my plans are disrupted.
-- **Notepad Usage:** I must be careful with the `overwrite` action to avoid data loss. Use `replace` for targeted edits.
+## Critical Reminders & Process Improvements
+- **IMMEDIATE DOCUMENTATION:** All new information MUST be documented in the notepad and via map markers *immediately*.
+- **Proactive Agent Use:** I must use my `strategic_advisor` agent more frequently to avoid getting stuck.
+- **World Knowledge Graph:** I must add nodes and edges to my World Knowledge Graph immediately upon discovering new connections between maps.
 - **Untested Tile Mechanics:** I need to make a plan to return to Dark Cave to test the `FLOOR_UP_WALL` tile.
 ## Tool Development
 - **path_master:** The tool is critically bugged. It does not understand one-way tiles like ledges and `FLOOR_HOP` tiles. This needs to be the top priority to fix.
