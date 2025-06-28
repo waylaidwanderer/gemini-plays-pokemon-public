@@ -72,4 +72,5 @@
 ### D. HM & Field Move Mechanics
 - HMs can be used directly from the ITEM menu without being taught to a Pokémon. This is a significant time-saver for field moves like Flash and Cut. To use an HM from the bag, select the HM, choose 'USE', and then select 'NO' when prompted to teach it.
 - **Assumption 4 (HM Field Use):** The 'use from bag' mechanic applies to all HMs, not just Flash and Cut. **Test:** Next time I am outdoors, I will attempt to use Fly directly from the item menu. To use an HM from the bag, select the HM, choose 'USE', and then select 'NO' when prompted to teach it.
+- **Assumption 4 (HM Field Use):** The 'use from bag' mechanic applies to all HMs, not just Flash and Cut. **Test:** Next time I am outdoors, I will attempt to use Fly directly from the item menu. To use an HM from the bag, select the HM, choose 'USE', and then select 'NO' when prompted to teach it.
 - **Assumption 4 (HM Field Use):** The 'use from bag' mechanic applies to all HMs, not just Flash and Cut. **Test:** Next time I am outdoors, I will attempt to use Fly directly from the item menu.
