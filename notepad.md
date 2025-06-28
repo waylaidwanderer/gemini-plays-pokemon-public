@@ -46,7 +46,6 @@
 - `team_composition_advisor_agent` (v2)
 - `protocol_enforcement_agent` (v1)
 - `battle_strategist_agent` (v9)
-- `encounter_tracker_agent` (v1)
 
 ### C. Active Tools (Reliable)
 - `pathfinder` (limitation: unreliable for complex, segmented maps like Saffron City and Route 12).
