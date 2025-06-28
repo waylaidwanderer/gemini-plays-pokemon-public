@@ -79,3 +79,6 @@
 
 ## Sprout Tower
 - A Sage on 1F mentioned that an HM can be obtained at the top of the tower.
+
+## Long-Term Objectives
+- Return to Dark Cave to test the `FLOOR_UP_WALL` tile mechanics.
