@@ -49,7 +49,7 @@
 - **TV:** Impassable object.
 - **RADIO:** Impassable object.
 - **VOID:** An impassable tile outside the map boundaries.
-- **WARP_CARPET_DOWN:** A warp tile.
+- **WARP_CARPET_DOWN:** A warp tile that activates when facing down.
 
 ### Discovered Traps & Puzzles
 - **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
