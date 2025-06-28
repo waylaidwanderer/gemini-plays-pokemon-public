@@ -1,6 +1,7 @@
-## I. Core Protocols & Immediate Actions (v29)
+## I. Core Protocols & Immediate Actions (v30)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: WKG Management Workflow:** Before adding a new node, I will first use `run_code` to query the `world_knowledge_graph_json_string` to check if a node at the destination already exists. This prevents failed tool calls.
+- **CRITICAL: WKG Edge Precision:** All `warp` type edges MUST include a `destination_entry_point` if known. All new nodes MUST have descriptive `tags`.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will not use tools in contexts where I have documented them as unreliable (e.g., `pathfinder` in puzzle-heavy dungeons).
 - **CRITICAL: Post-Event Checklists (MANDATORY):**
   - **Trainer Battle:** Mark defeated trainer with '☠️' and log their Pokémon under 'Trainer Intel'.
@@ -23,7 +24,7 @@
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
 - **Silph Co. Blackout:** Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
 - **Saffron City Navigation:** The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
-- **Silph Co. Elevator:** Requires a two-step process. First, interact with the panel to select a floor. Second, walk onto one of the warp tiles at the back of the elevator room to trigger the map change.
+- **Silph Co. Elevator:** Requires a two-step process. First, interact with the panel at (4,1) to select a floor. Second, walk onto one of the warp tiles at the back of the elevator room (e.g., (2,4) or (3,4)) to trigger the map change.
 - **Route 12 Pier:** The pier is segmented into isolated sections. The only way to proceed south from the northern pier is to find the correct warp point.
 
 ### D. General Mechanics
