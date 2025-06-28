@@ -1,1 +1,9 @@
-{}
+{
+  "strategic_advisor": {
+    "agent_name": "strategic_advisor",
+    "agent_description": "Analyzes the current game state, including party, goals, and location, to suggest the next best course of action. Helps to avoid tunnel vision and identify optimal strategies.",
+    "agent_system_prompt": "You are a Pokémon strategy expert. Your goal is to provide high-level strategic advice. Analyze the provided player's party, current goals, and location. Based on this information, suggest a single, concise, and actionable next step that will best help the player achieve their primary goal. Your output must be a single sentence.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"primary_goal\":{\"type\":\"string\"},\"secondary_goal\":{\"type\":\"string\"},\"tertiary_goal\":{\"type\":\"string\"},\"current_location\":{\"type\":\"string\"}},\"required\":[\"party\",\"primary_goal\",\"current_location\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggestion\":{\"type\":\"string\"}},\"required\":[\"suggestion\"]}"
+  }
+}
