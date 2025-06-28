@@ -28,11 +28,13 @@
 ### D. HM & Field Move Mechanics
 - HMs can be used directly from the ITEM menu without being taught to a Pokémon. This is a significant time-saver for field moves like Flash and Cut. To use an HM from the bag, select the HM, choose 'USE', and then select 'NO' when prompted to teach it.
 
-## III. Agent & Tool Development Log (v40)
+## III. Agent & Tool Development Log (v41)
 ### A. Development Priorities
 - **`json_payload_generator` (TOP PRIORITY):** To prevent syntax errors when calling tools like `manage_world_knowledge`. Manual JSON scripting is too slow and error-prone.
 - **`dungeon_navigator_agent` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. This is essential for finding the CARD KEY efficiently.
-- **`overworld_navigator_agent` (NEW PRIORITY):** To handle complex overworld maps like Route 12 where the standard `pathfinder` fails.
+
+### B. Agent & Tool Deletion Queue
+- `overworld_navigator_agent`: Invalid agent concept. Must be a tool, not an agent.
 
 ### B. Active Agents (Reliable)
 - `pc_navigator_agent` (v2)

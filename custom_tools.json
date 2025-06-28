@@ -1,4 +1,31 @@
 {
+  "overworld_navigator_tool": {
+    "description": "A specialized navigator for complex, segmented overworld maps like Route 12. It finds the most promising reachable exit (warp or map connection) leading towards a destination when a direct path is not possible.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nimport heapq\n\ndef find_path(root, start, end):\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    tile_types = {}\n    objects = set()\n    warps = {}\n\n    for r_idx, row_elem in enumerate(root.findall('Row')):\n        y = int(row_elem.get('id'))\n        for c_idx, tile_elem in enumerate(row_elem.findall('Tile')):\n            x = int(tile_elem.get('id'))\n            coord = (y, x)\n            tile_types[coord] = tile_elem.get('type')\n            if tile_elem.find('Object') is not None and tile_elem.find('Object').get('id-name') != 'Pikachu':\n                objects.add(coord)\n            if tile_elem.find('Warp') is not None:\n                warps[coord] = True\n\n    open_set = [(0, start)]\n    came_from = {}\n    g_score = {start: 0}\n    f_score = {start: abs(start[0] - end[0]) + abs(start[1] - end[1])}\n    reachable_nodes = set()\n    reachable_nodes.add(start)\n\n    while open_set:\n        _, current = heapq.heappop(open_set)\n\n        if current == end:\n            path = []\n            while current in came_from:\n                path.append(current)\n                current = came_from[current]\n            path.append(start)\n            return path, 'direct'\n\n        for dr, dc, move_dir in [(1, 0, 'Down'), (-1, 0, 'Up'), (0, 1, 'Right'), (0, -1, 'Left')]:\n            neighbor = (current[0] + dr, current[1] + dc)\n            \n            if not (1 <= neighbor[0] <= height and 1 <= neighbor[1] <= width):\n                continue\n\n            neighbor_type = tile_types.get(neighbor, 'unknown')\n            if neighbor_type in ['impassable', 'unknown', 'closed_gate', 'water'] or neighbor in objects:\n                continue\n            \n            current_type = tile_types.get(current, 'unknown')\n            if current_type == 'ledge' and move_dir != 'Down':\n                continue\n            \n            if neighbor_type == 'ledge' and move_dir != 'Down':\n                continue\n\n            final_neighbor = neighbor\n            if neighbor_type == 'ledge' and move_dir == 'Down':\n                final_neighbor = (neighbor[0] + 1, neighbor[1])\n                if not (1 <= final_neighbor[0] <= height):\n                    continue\n                landing_type = tile_types.get(final_neighbor, 'unknown')\n                if landing_type in ['impassable', 'unknown', 'closed_gate', 'water'] or final_neighbor in objects:\n                    continue\n\n            tentative_g_score = g_score[current] + 1\n            if tentative_g_score < g_score.get(final_neighbor, float('inf')):\n                came_from[final_neighbor] = current\n                g_score[final_neighbor] = tentative_g_score\n                f_score[final_neighbor] = tentative_g_score + abs(final_neighbor[0] - end[0]) + abs(final_neighbor[1] - end[1])\n                heapq.heappush(open_set, (f_score[final_neighbor], final_neighbor))\n                reachable_nodes.add(final_neighbor)\n\n    # If direct path fails, find the most promising reachable warp\n    reachable_warps = [w for w in warps if w in reachable_nodes]\n    if not reachable_warps:\n        return None, 'no_path'\n\n    def manhattan_distance(p1, p2):\n        return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])\n\n    closest_warp = min(reachable_warps, key=lambda w: manhattan_distance(w, end))\n    \n    # Recalculate path to the closest warp\n    path_to_warp, _ = find_path(root, start, closest_warp)\n    return path_to_warp, 'to_warp'\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\nroot = ET.fromstring(map_xml_string)\npath, reason_code = find_path(root, (start_y, start_x), (end_y, end_x))\n\nif path:\n    formatted_path = [{\"x\": x, \"y\": y} for y, x in path]\n    if reason_code == 'direct':\n        reasoning = 'A direct path was found to the destination.'\n    else:\n        reasoning = f'A direct path was not found. Plotting a course to the most promising reachable warp at ({path[-1][1]}, {path[-1][0]}) instead.'\n    print(json.dumps({\"path_found\": True, \"path\": formatted_path, \"reasoning\": reasoning}))\nelse:\n    print(json.dumps({\"path_found\": False, \"path\": [], \"reasoning\": \"No walkable path to the destination or any reachable warps could be found.\"}))\n"
+  },
   "pathfinder": {
     "description": "Calculates the shortest path between two points on the current map using the A* algorithm, avoiding impassable tiles and objects. It correctly handles one-way ledge traversal.",
     "input_schema": {
