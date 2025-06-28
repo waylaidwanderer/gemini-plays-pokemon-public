@@ -67,3 +67,5 @@
 3.  **Giovanni's Location:** He is likely on the 11th floor behind the doors that require the CARD KEY. Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).
 - **Ground Tiles:** Standard walkable tiles.
 - **Impassable Tiles:** Walls and other objects that cannot be walked on or through.
+- **Ground Tiles:** Standard walkable tiles.
+- **Impassable Tiles:** Walls and other objects that cannot be walked on or through.
