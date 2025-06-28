@@ -75,7 +75,6 @@
 - Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
 
 ### Custom Agents & Tools (Ideas)
-- **`path_validator` (Idea):** An agent to verify a generated path against the map XML, checking for walls, unhandled tiles, and other potential issues.
 
 ### Tile Traversal and Movement Rules (Additions)
 - **COUNTER:** An impassable barrier, often found in buildings.
