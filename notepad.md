@@ -54,11 +54,10 @@
 
 ### Pathfinding Tool Development
 - **Goal:** Create a single, reliable pathfinding tool.
-- **Problem:** All previous pathfinding tools (`find_path`, `pathfinder_pro`, `path_master`, `path_wizard`, `path_navigator`) have proven unreliable.
+- **Problem:** All previous pathfinding tools (`find_path`, `pathfinder_pro`, `path_master`, `path_wizard`, `path_navigator`) have proven unreliable and will be deleted.
 - **Plan:**
-  1. Delete all failed pathfinding tools.
-  2. Create a new tool, `path_architect`, with extensive debugging.
-  3. Test and refine `path_architect` until it is 100% reliable before attempting any further complex navigation.
+  1. Create a new tool, `path_architect`, with extensive debugging.
+  2. Test and refine `path_architect` until it is 100% reliable before attempting any further complex navigation.
 
 ### Custom Agent Ideas
 - **`strategic_advisor`:** An agent that takes my current party, location, and goals to suggest the next best course of action (e.g., where to train, what items to buy).
