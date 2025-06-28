@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v36)
+## I. Core Protocols & Immediate Actions (v37)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: WKG Edge Precision:** All `warp` type edges MUST include a `destination_entry_point` if known. All new nodes MUST have descriptive `tags`.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks.
@@ -32,7 +32,7 @@
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
-## III. Agent & Tool Development Log (v55)
+## III. Agent & Tool Development Log (v56)
 ### A. Development Priorities
 #### Tools
 - **`dungeon_navigator_tool` (CRITICAL PRIORITY):** To plot an optimal, full-exploration path for complex, multi-floor areas like Silph Co. It must be able to systematically test every reachable tile to find puzzle triggers.
@@ -51,8 +51,8 @@
 - `select_battle_option` - Reliable
 - `pathfinder`: A simple BFS. **UNRELIABLE** in complex, segmented dungeons. To be used for simple, direct paths only until `dungeon_navigator_tool` is developed.
 
-## VII. Lessons Learned & Untested Assumptions (v10)
-- **Tool Refinement is MANDATORY:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. My previous plan to avoid the tool was a protocol violation. **Protocol Update:** Faulty tools MUST be fixed immediately. I will prioritize fixing `pathfinder` or accelerating the development of its replacement, `dungeon_navigator_tool`, above other gameplay objectives.
+## VII. Lessons Learned & Untested Assumptions (v11)
+- **Tool Refinement is MANDATORY:** My `pathfinder` tool is a simple BFS that cannot account for hidden puzzle triggers. **Protocol Update:** Faulty tools MUST be fixed immediately. I will prioritize fixing `pathfinder` or accelerating the development of its replacement, `dungeon_navigator_tool`, above other gameplay objectives.
 - **Untested Assumptions:**
     - The CARD KEY is on a higher floor of Silph Co. (Test: Continue exploring upwards.)
     - The elevator provides access to all previously inaccessible segments of the floors. (Test: Use the elevator to visit each floor and check for access to new areas.)
