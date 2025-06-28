@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Notepad
 
 ## Immediate Tasks (High Priority)
-- **Fix `path_master` Tool:** The tool failed on Route 30 (Turn 1939). I MUST fix this with `define_tool` as soon as my party is healed. Tool maintenance is a top priority.
+- **Fix `path_master` Tool:** The tool has failed twice (Turn 1939 on Route 30, Turn 1961 in Cherrygrove City). This is now my HIGHEST priority. I must fix it with `define_tool` immediately after healing.
 - **Verify Tile Mechanics:** I must test the traversability of `HEADBUTT_TREE`, `CUT_TREE`, and `WATER` tiles instead of assuming they are impassable. This needs to be done after healing.
 
 ## Party & Rival
