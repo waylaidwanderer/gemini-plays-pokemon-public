@@ -77,3 +77,4 @@
 
 ### Long-Term Objectives
 - Return to Dark Cave to test the `FLOOR_UP_WALL` tile mechanics.
+- **LADDER:** A warp tile.
