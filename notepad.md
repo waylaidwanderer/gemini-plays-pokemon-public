@@ -78,3 +78,4 @@
 
 ### Long-Term Objectives
 - Return to Dark Cave to test the `FLOOR_UP_WALL` tile mechanics.
+- **Sprout Tower 1F Layout:** The first floor is split by a wall at x=4, preventing east-west passage.
