@@ -70,6 +70,7 @@
 - **Sprout Tower Layout:** The first and second floors are split by a central pillar, preventing east-west passage. Different ladders must be used to access both sides.
 
 ## Current Plan
-- Defeat the Sages on Sprout Tower 3F to clear the path.
+- Defeat the final Sage (Li) on Sprout Tower 3F.
+- Challenge the Elder at the top of the tower.
 
 - Find and defeat the Elder at the top of the tower.
