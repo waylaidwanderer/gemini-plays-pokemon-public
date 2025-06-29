@@ -47,7 +47,7 @@
 - **LADDER:** A warp tile. Automatically triggers a warp when stepped on. Confirmed to be a two-way warp, allowing travel both up and down between floors.
 
 ### Sprout Tower Layout
-- The central pillar divides the lower floors, but it has gaps on the third floor, allowing east-west travel. This is the solution to the tower's navigation puzzle.
+- The central pillar divides all floors, making east-west travel impossible on any single floor. To navigate the tower, one must ascend on one side, find the correct ladder down on the other side, and repeat as necessary. The key is using the different ladders to switch between the east and west sections of the tower.
 
 ## Future Plans & Untested Hypotheses
 - **Hypothesis:** Can Onix learn Flash (HM05)?
