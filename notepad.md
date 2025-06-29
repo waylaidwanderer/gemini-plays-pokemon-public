@@ -70,3 +70,5 @@
 - **FAILED HYPOTHESIS (Attempt Count: 1):** Systematically explored the 4F-6F-10F teleporter loop for a hidden trigger. No new paths or triggers were found. This loop is a confirmed dead end for progression.
 - **Item on 4F:** An item at (4,10) is blocked by closed gates at (5,13) and (6,13). No obvious switch in the room.
 - **FAILED HYPOTHESIS (Attempt Count: 1):** The intra-floor teleporter at (24, 12) on 3F does not open the gates at (18, 9) and (18, 10).
+- **Tool Consolidation Idea:** Combine `map_segment_analyzer` and `dungeon_navigator` into a single, more powerful exploration tool that can both analyze a map segment and generate an optimal exploration path.
+- **WKG DEBT:** The edge for the 3F-4F stairs is missing the `destination_entry_point`. Must fix this when next on 4F.
