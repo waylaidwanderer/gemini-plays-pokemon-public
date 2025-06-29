@@ -3,7 +3,7 @@
 ## I. Party & Rival
 
 ### My Team
-- G (CROCONAW): Lv19. **NOTE: Out of PP for WATER GUN.**
+- G (CROCONAW): Lv19. **NOTE: Out of PP for WATER GUN & SCRATCH.**
 - HOOTHOOT (HOOTHOOT): Lv4
 - HOOTIN (HOOTHOOT): Lv4
 - ROCKY (ONIX): Lv6 (Traded for Bellsprout in Violet City)
@@ -52,19 +52,19 @@
 - **FRUIT_TREE:** Impassable object, may yield items.
 - **LADDER:** A warp tile triggered by movement. Can be one-way (e.g., SproutTower2F (10, 14) is one-way down) or two-way.
 - **STATUE:** An impassable scenery object.
-- **PILLAR:** Impassable.
 
 ### Sprout Tower Layout
-- The central pillar on 1F and 2F is a complete divider, preventing east-west travel.
-- To cross between the east and west sides, one must use the 3rd floor.
+- The central pillar on 1F and 2F is a complete divider, preventing east-west travel. **(Hypothesis proven false on 2F)**
+- To cross between the east and west sides, one must use the 3rd floor. **(Hypothesis proven false)**
 - The main tower exit is on the eastern side of the 1st floor at (9, 15).
 
 ## IV. Untested Hypotheses & To-Do
 - **Hypothesis:** Can Onix or Hoothoot learn Flash (HM05)?
 - **To-Do:** Test teaching Flash as soon as I exit Sprout Tower.
 
-## Sprout Tower Escape Plan (V5 - Last Hope)
-Hypothesis: The path to the ladder at (6, 4) on SproutTower2F is not actually blocked. My previous pathfinding attempts may have failed due to a buggy tool. This is the last unexplored ladder on the western side.
-1. From my current position at (2, 6), use the refined `path_master` to find a path to the ladder at (6, 4).
-2. Descend the ladder at (6, 4) to reach the eastern side of 1F.
-3. On 1F, navigate to the main tower exit at (9, 15).
+## Sprout Tower Escape Plan (V6 - Exploration)
+Hypothesis: A path connecting the west and east sides of SproutTower2F exists through the large unseen area in the center.
+1. From my current position at (2, 6), navigate to the edge of the unseen area at (8, 9).
+2. Explore eastward from (8, 9) to reveal the path.
+3. Once on the eastern side, find the ladder down to 1F.
+4. On 1F, navigate to the main tower exit at (9, 15).
