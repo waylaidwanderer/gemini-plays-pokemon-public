@@ -56,7 +56,7 @@
 ### Sprout Tower Layout
 - The central pillar on all floors is a complete divider, preventing east-west travel on the same floor, except for the 3rd floor.
 - To cross between the east and west sides of the tower, you must go to the 3rd floor.
-- The ladder at (10, 14) on 2F is a one-way warp *down* from the 3rd floor.
+- The ladder at (10, 14) on 2F is a two-way warp to the 3rd floor.
 - The western side of the 1st floor is a dead end for exiting the tower.
 - The main tower exit is on the eastern side of the 1st floor at (9, 15).
 
