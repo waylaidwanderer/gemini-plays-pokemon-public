@@ -50,17 +50,17 @@
 - **VOID:** Impassable.
 - **WARP_CARPET_*: Warp tile, direction-specific.
 - **FRUIT_TREE:** Impassable object, may yield items.
-- **LADDER:** A warp tile, triggered by movement (not by pressing 'A'). Can be one-way or two-way.
+- **LADDER:** A warp tile, triggered by movement (not by pressing 'A'). Can be one-way or two-way. Must be tested.
 - **STATUE:** An impassable scenery object.
 
 ### Sprout Tower Layout
-- The central pillar on the first and second floors is generally impassable, but can be navigated around.
-- On the second floor, the eastern and western sides are connected by a path that goes around the defeated Sage at (9, 14).
-- The third floor has gaps in the central pillar, allowing free east-west movement.
-- The ladder at (10, 14) on the second floor is a one-way warp *down* from the third floor. It cannot be used to go up.
-- To exit the tower from the top, one must ascend to the third floor, cross from east to west, and then descend using the western ladders.
+- The central pillar on all floors is a complete divider, preventing east-west travel on the same floor, except for the 3rd floor.
+- To cross between the east and west sides of the tower, you must go to the 3rd floor.
+- The ladder at (10, 14) on 2F is a one-way warp *down* from the 3rd floor.
+- The western side of the 1st floor is a dead end for exiting the tower.
+- The main tower exit is on the eastern side of the 1st floor at (9, 15).
 
 ## IV. Future Plans & Untested Hypotheses
 
 - **Hypothesis:** Can Onix learn Flash (HM05)?
-- **Current Objective Plan:** My previous attempts to exit Sprout Tower via the eastern side have failed. The new plan is to thoroughly explore the western side of the third floor to find the correct exit path. I will start by exploring the northern section.
+- **Hypothesis:** HMs can be taught from the Pokémon status screen.
