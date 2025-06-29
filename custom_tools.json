@@ -103,5 +103,36 @@
       ]
     },
     "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ntry:\n    object_name_to_find = input_data['object_name']\n    root = ET.fromstring(map_xml_string)\n    \n    found_objects = []\n\n    for r in root.findall('Row'):\n        for t in r.findall('Tile'):\n            for obj in t.findall('Object'):\n                id_name = obj.get('id-name', '')\n                event_name = obj.get('name', '')\n                \n                if object_name_to_find.lower() in id_name.lower() or object_name_to_find.lower() in event_name.lower():\n                    found_objects.append({\n                        'id-name': id_name,\n                        'name': event_name,\n                        'x': int(t.get('id')),\n                        'y': int(r.get('id'))\n                    })\n\n    if found_objects:\n        print(json.dumps({'found': True, 'objects': found_objects}))\n    else:\n        print(json.dumps({'found': False, 'message': f\"Object '{object_name_to_find}' not found on the current map.\"}))\n\nexcept Exception as e:\n    print(json.dumps({'found': False, 'error': str(e)}))"
+  },
+  "encounter_grinder_tool": {
+    "description": "Automates pacing back and forth between two points to grind for wild encounters. Assumes a clear, straight path.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        },
+        "repetitions": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y",
+        "repetitions"
+      ]
+    },
+    "python_script": "import json\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    repetitions = int(input_data['repetitions'])\n\n    path_forward = []\n    if end_x > start_x: path_forward.extend(['Right'] * (end_x - start_x))\n    if end_x < start_x: path_forward.extend(['Left'] * (start_x - end_x))\n    if end_y > start_y: path_forward.extend(['Down'] * (end_y - start_y))\n    if end_y < start_y: path_forward.extend(['Up'] * (start_y - end_y))\n\n    path_backward = []\n    if start_x > end_x: path_backward.extend(['Right'] * (start_x - end_x))\n    if start_x < end_x: path_backward.extend(['Left'] * (end_x - start_x))\n    if start_y > end_y: path_backward.extend(['Down'] * (start_y - end_y))\n    if start_y < end_y: path_backward.extend(['Up'] * (end_y - start_y))\n\n    full_sequence = []\n    for _ in range(repetitions):\n        full_sequence.extend(path_forward)\n        full_sequence.extend(path_backward)\n\n    print(json.dumps({'button_sequence': full_sequence}))\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))"
   }
 }
