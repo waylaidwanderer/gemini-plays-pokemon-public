@@ -27,8 +27,7 @@
 - Wild Poliwag: BUBBLE
 - Wild Hoothoot: TACKLE
 - Wild Bellsprout: VINE WHIP
-- Wild Gastly: No attacks seen (fainted too fast).
-- Wild Gastly: Encountered in Sprout Tower.
+- Wild Gastly: Encountered in Sprout Tower. No attacks seen.
 
 ## Area and Navigation Insights
 ### Tile Traversal Rules (Verified)
