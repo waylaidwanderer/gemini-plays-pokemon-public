@@ -1,10 +1,11 @@
-## I. Core Protocols & Immediate Actions (v47)
+## I. Core Protocols & Immediate Actions (v48)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with my `wkg_checker` tool to confirm it doesn't already exist.
   - All `warp` type edges MUST include a `destination_entry_point` if known (STRICTLY ENFORCE). All new nodes MUST have descriptive `tags`.
 - **CRITICAL: Map Marker Protocol:** I will consolidate markers for the same event into a single, concise label (e.g., '🚪 To/From [Location]').
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic before complex turns.
+- **CRITICAL: Tool Input Verification:** I will ALWAYS double-check the coordinates and other inputs I provide to my custom tools BEFORE execution. My `wkg_checker` failure on turn 34521 was user error, not a tool bug.
 - **CRITICAL: Post-Event Checklists (MANDATORY):**
   - **Trainer Battle:** Mark defeated trainer with '☠️' and log their Pokémon under 'Trainer Intel'.
   - **Wild Encounter:** Log EVERY wild Pokémon with `encounter_tracker_agent`.
@@ -42,7 +43,7 @@
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 - **CARD KEY:** Found on Silph Co. 5F at (22, 17).
 
-## III. Agent & Tool Development Log (v81)
+## III. Agent & Tool Development Log (v82)
 ### A. Development Pipeline
 - **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
 - **New Tool Idea: `puzzle_solver_tool`:** A tool to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. (Changed from agent to tool as per critique).
@@ -54,10 +55,10 @@
 - `battle_strategist_agent` (v10) - Reliable
 - `pathfinder` (v2) - Newly improved to ignore impassable types.
 - `object_finder` (v1) - Reliable
-- **Tool FIXED: `wkg_checker` (v2):** The tool has been rewritten to correctly check for edges.
+- **Tool FIXED: `wkg_checker` (v3):** The tool has been rewritten with a more robust script to better handle edge cases.
 - **Tool FIXED: `dungeon_navigator` (v3):** The tool has been rewritten with a proper DFS algorithm.
 
-## IV. Silph Co. Investigation Log (v8)
+## IV. Silph Co. Investigation Log (v9)
 ### A. Confirmed Intel & Lessons Learned
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
@@ -69,5 +70,3 @@
 
 ### C. Open Puzzles & Hypotheses
 - **New Agent Idea: `objective_planner_agent`:** An agent to analyze my current goals, location, and the World Knowledge Graph to suggest the most logical next map to visit for maximum progress.
-- **Tool Bug Report: `wkg_checker` (v2):** The tool is still buggy. It incorrectly reported an edge as non-existent when it was already in the graph, causing a failed add_edge call on turn 34521. Needs further refinement.
-- **CRITICAL REFINEMENT:** The `wkg_checker` tool's failure on turn 34521 was due to me providing incorrect coordinates for the destination node. I must be extremely careful to verify the exact coordinates of nodes from the WKG before using the checker. I have refined the tool to be more robust anyway.
