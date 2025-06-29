@@ -56,8 +56,10 @@
 ## IV. Untested Hypotheses & To-Do
 - **To-Do:** Test teaching Flash as soon as I exit Sprout Tower.
 
-## Sprout Tower Escape Plan (V11 - The Pillar)
-*All previous plans failed due to a buggy pathfinding tool and incorrect assumptions about the map layout. The tool is now fixed and has confirmed all known paths are blocked.*
-Hypothesis: The central pillar is the key. The Sages' dialogue about it shaking is a major hint.
-1. From my current position at (8, 14), navigate to the tile adjacent to the central pillar at (8, 7).
-2. Face the pillar and interact with it.
+## Sprout Tower Escape Plan (V12 - The Crossover)
+*Pillar interaction hypothesis failed. Pathfinding confirms the 2nd floor is split into two disconnected areas. The only way to cross is on the 3rd floor.*
+1. Go up the ladder at (10, 14) to the 3rd floor.
+2. On 3F, cross from the east side to the west side.
+3. Find the ladder on the west side of 3F that leads down to the west side of 2F.
+4. On 2F, take the ladder at (2, 6) down to 1F.
+5. Exit the tower.
