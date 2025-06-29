@@ -2,10 +2,10 @@
 
 ## Party & Rival
 ### My Team
-- G (TOTODILE): Lv15
+- G (TOTODILE): Lv17
 - HOOTHOOT (HOOTHOOT): Lv4
 - HOOTIN (HOOTHOOT): Lv4
-- ROCKY (ONIX): Lv5 (Traded for Bellsprout in Violet City)
+- ROCKY (ONIX): Lv6 (Traded for Bellsprout in Violet City)
 
 ### Rival SILVA's Team
 - CHIKORITA: Lv5 (Last seen in New Bark Town)
@@ -20,6 +20,7 @@
 - Received a BERRY from a man on Route 30.
 - Received 5 POKé BALLS from a scientist in Elm's Lab.
 - Traded a Bellsprout for an Onix with a Youngster in Kyle's House (Violet City).
+- Received HM05 (Flash) from the Elder in Sprout Tower.
 
 ### Observed Movesets
 - G (TOTODILE) learned WATER GUN at Lv13.
@@ -27,6 +28,7 @@
 - Wild Hoothoot (Route 30): TACKLE
 - Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
 - Wild Bellsprout (Route 31): VINE WHIP
+- Wild Gastly (Sprout Tower): Moveset unknown (fainted before attacking).
 
 ## Area and Navigation Insights
 ### Tile Traversal and Movement Rules
@@ -62,26 +64,17 @@
 - **LADDER:** A warp tile.
 - **PAINTING:** Impassable object.
 
-### Untested Hypotheses
-- **FLOOR_UP_WALL:** Present in Dark Cave. Appears to be a one-way wall traversable only from below. Needs to be tested.
-- Are `COUNTER` tiles impassable from all directions? Must test this.
-
 ### Discovered Traps & Puzzles
 - **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
-- **Sprout Tower Layout:** The central pillar on the first and second floors splits the area into distinct eastern and western sections. It is impossible to cross between these sections on the same floor. You must use the correct set of ladders to navigate between floors and access both sides.
-
-## Current Plan
-- Leave Sprout Tower.
-- Heal Pokémon at the Violet City Pokémon Center.
-- Challenge Falkner at the Violet City Gym.
-### Tool Development Notes
-- **unstick_me_tool Bug:** The tool currently defines 'escape' as warping to a new map ID. It needs to be updated to also recognize warps to different floors within the same dungeon (i.e., same map group ID, different map number) as a valid path forward.
+- **Sprout Tower Layout:** The central pillar on the first and second floors splits the area into distinct eastern and western sections. It is impossible to cross between these sections on the same floor. You must ascend to the third floor to cross from one side to the other, then find the correct ladder to descend.
 
 ## Untested Hypotheses & Future Plans
 - Can Onix learn Flash (HM05)? (Priority: High)
-- Are `COUNTER` tiles impassable from all directions? (Priority: Medium)
+- Are `COUNTER` tiles impassable from all directions? Must test this. (Priority: Medium)
 - Is `FLOOR_UP_WALL` in Dark Cave a one-way wall? (Priority: Low - requires Flash)
 
 ## Tool/Agent Development Notes
-- **unstick_me_tool Bug:** The tool needs to be updated. It currently defines 'escape' as warping to a new map ID. It should be modified to also recognize warps to different floors within the same location (i.e., same map group ID, different map number) as a valid path forward.
-- **New Agent Idea:** Create a 'gym_battle_strategist' agent. Input would be my party and the gym leader's known Pokémon. Output would be a suggested lead Pokémon and battle strategy.
+- **unstick_me_tool Bug:** The tool needs to be updated. It currently defines 'escape' as warping to a new map ID. It should be modified to also recognize warps to different floors within the same location (i.e., same map group ID, different map number) as a valid path forward. (Priority: High)
+- **New Agent Idea: `dungeon_navigator`**: Could take a simplified text version of a map and a goal, then output a high-level navigation plan, pointing out key structural features like the Sprout Tower pillar.
+- **New Agent Idea: `pokemon_evaluator`**: Could take my party and an opponent's known Pokémon and suggest the best lead and moves, considering type matchups.
+- **New Tool Idea: `battle_advisor_tool`**: A computational tool that takes my party's movesets and an opponent's team and calculates the optimal lead Pokémon, rather than relying on an LLM-based agent.
