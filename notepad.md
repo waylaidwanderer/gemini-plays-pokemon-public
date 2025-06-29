@@ -46,18 +46,18 @@
 - **TALL_GRASS:** Traversable, triggers wild encounters.
 - **LEDGE:** One-way downward traversal.
 - **COUNTER:** Impassable.
-- **DOOR/CAVE/LADDER:** Warp tile, triggered by movement.
+- **DOOR/CAVE:** Warp tile, triggered by movement.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
 - **WATER/CUT_TREE/BUOY/HEADBUTT_TREE:** Impassable.
 - **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below (moving up). Impassable from above.
 - **WARP_CARPET_DOWN:** Warp tile, triggered by movement.
-- **VOID:** Impassable.
+- **VOID:** Confirmed impassable.
 - **WARP_CARPET_LEFT:** Untested. Inferred one-way warp.
 - **WARP_CARPET_RIGHT:** Untested. Inferred one-way warp.
 - **FLOOR_HOP_DOWN_LEDGE:** Untested. Inferred one-way traversal downward.
 - **FLOOR_HOP_RIGHT_LEDGE:** Untested. Inferred one-way traversal to the right.
 - **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** Untested. Inferred one-way traversal down or right.
-- **LADDER:** Untested. Inferred traversable (appears as a pier/bridge over water).
+- **LADDER:** Untested. Inferred traversable.
 
 ## V. Untested Hypotheses & To-Do
 - **Hypothesis:** My current team, heavily reliant on a single high-level Pokémon, may struggle against future Gym Leaders.
