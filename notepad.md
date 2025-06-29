@@ -70,3 +70,4 @@
 - **Picnicker Liz (Route 32):** Nidoran♀ (Lv9)
 - **Camper Roland (Route 32):** Nidoran♂ (Lv9)
 - **Youngster Gordon (Route 32):** Wooper (Lv10)
+- **Fisher Ralph (Route 32):** Goldeen (Lv10)
