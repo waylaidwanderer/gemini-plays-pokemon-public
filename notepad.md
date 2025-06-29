@@ -76,3 +76,4 @@
 - **CRITICAL: Tool Maintenance Protocol:** If a custom tool is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding other gameplay objectives until resolved.
 - **Pokémon Tower 5F Healer:** The friendly Channeler at (13, 9) only restores Pokémon HP, NOT PP. Confirmed on turn 35402.
 - **Silph Co. Gate Mechanic:** Gates in Silph Co. appear to be controlled by the player's X-coordinate in a corresponding, physically separate corridor. Standing in a specific range of X coordinates opens a specific set of gates.
+- **Trainer Intel Logging (Post-Battle):** I missed logging the team for Cool Trainer M on Route 13 (T#35906) due to a reflection turn. This is a failure of protocol. I will ensure all future trainer teams are logged immediately after battle.
