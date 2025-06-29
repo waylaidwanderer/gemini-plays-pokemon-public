@@ -30,6 +30,7 @@
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered on Silph Co. 9F at (12, 2).
 - **HM & Field Move Mechanics:**
     - **Flash & Cut Exception:** These HMs MUST be taught to a Pokémon to be used in the field.
+    - **PC Interaction:** Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
 
 ### D. Tile Mechanics (v2)
 - **`ground`**: Standard walkable tile.
