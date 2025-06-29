@@ -54,7 +54,7 @@
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v10) - Reliable
 
-## VII. Silph Co. Investigation Log (v2)
+## IV. Silph Co. Investigation Log (v3)
 ### A. Confirmed Lessons
 - **Misleading `reachable` Flag:** The `reachable` flag for Map Sprites is a global check, not local. I must rely on my `map_segment_analyzer` tool for local pathing.
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
@@ -65,4 +65,4 @@
 - **Failed Attempts:** X=16, X=15, X=14, X=13.
 ### C. Open Puzzles & Hypotheses
 - **CARD KEY Location (Hypothesis):** The key is likely the item at (22, 17) on 5F, behind the gate puzzle.
-- **Giovanni's Location (Hypothesis):** He is likely on the 11th floor behind the doors that require the CARD KEY. Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).
+- **Giovanni's Location (Hypothesis):** He is likely on the 11th floor behind the doors that require the CARD KEY.
