@@ -63,7 +63,7 @@
 - **Boardroom Location:** A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
 
 ### B. Solved Puzzles
-- **Solved: 5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). Standing at X=11-13 opens the western gates. Standing at X=14-16 opens the eastern gates.
+- **Solved: 5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). Standing at X=11-13 opens the western gates. Standing at X=14-16 opens the eastern gates. **UPDATE:** The corridors are physically separated by permanent walls, so the gates only grant access to their respective segments. A teleporter must be used to cross between them.
 
 ### C. Open Puzzles & Hypotheses
 - **FAILED HYPOTHESIS (Attempt Count: 5+):** Randomly using teleporters to find a new path has failed. I am stuck in an isolated loop between segments of 4F, 6F, and 10F.
