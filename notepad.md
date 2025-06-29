@@ -2,7 +2,7 @@
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays. Lapses, like on turn 34801, are unacceptable and have been corrected.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with my `wkg_checker` tool to confirm it doesn't already exist.
-  - All `warp` type edges MUST include a `destination_entry_point` if known. All new nodes MUST have descriptive `tags`.
+  - All `warp` type edges MUST include a `destination_entry_point` if known. This value is the 1-indexed entry point on the *destination* map's warp list. All new nodes MUST have descriptive `tags`.
 - **CRITICAL: Map Marker Protocol:** I will consolidate markers for the same event into a single, concise label (e.g., '🚪 To/From [Location]').
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic before complex turns.
 - **CRITICAL: Tool Input Verification:** I will ALWAYS double-check the coordinates and other inputs I provide to my custom tools BEFORE execution.
