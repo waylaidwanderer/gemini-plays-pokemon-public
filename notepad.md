@@ -54,3 +54,4 @@
 ## Future Plans & Untested Hypotheses
 - **Hypothesis:** Can Onix learn Flash (HM05)?
 - **Testing Plan:** Explicitly walk into every new tile type from all four directions to confirm traversability and document it.
+- Wild Rattata: Encountered in Sprout Tower.
