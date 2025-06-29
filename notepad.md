@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v46)
+## I. Core Protocols & Immediate Actions (v47)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with my `wkg_checker` tool to confirm it doesn't already exist.
@@ -24,7 +24,7 @@
 ### C. Navigation & Traversal Rules
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
 - **Silph Co. Blackout:** Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
-- **`reachable` Flag is Global:** The `reachable` flag for warps and map sprites is a global check for the entire map, NOT a local check based on the player's current isolated segment. My `pathfinder` tool's inability to find a path between two 'reachable' warps confirms this. I must use `map_segment_analyzer` in the future to determine true local reachability.
+- **`reachable` Flag is Global:** The `reachable` flag for warps and map sprites is a global check for the entire map, NOT a local check based on the player's current isolated segment. My `pathfinder` tool's inability to find a path between two 'reachable' warps confirms this.
 - **Saffron City Navigation:** The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
 - **Teleporter Tiles:** Instant warps. Stepping on them immediately transports the player.
 - **Closed Gates:** Impassable tiles that block movement until a specific trigger or puzzle is solved.
@@ -42,12 +42,10 @@
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 - **CARD KEY:** Found on Silph Co. 5F at (22, 17).
 
-## III. Agent & Tool Development Log (v79)
+## III. Agent & Tool Development Log (v80)
 ### A. Development Priorities
-- **Tool Consolidation:** The `map_segment_analyzer` tool is now redundant with the improved `dungeon_navigator`. I should delete it and rely on `dungeon_navigator` for all future segment exploration.
 - **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
 - **New Tool Idea: `puzzle_solver_agent`:** An agent to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
-- **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
 ### B. Active Agents & Tools
 - `team_composition_advisor_agent` (v2) - Reliable
