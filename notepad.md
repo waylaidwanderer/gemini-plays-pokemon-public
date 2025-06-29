@@ -72,3 +72,5 @@
 - **FAILED HYPOTHESIS (Attempt Count: 1):** The intra-floor teleporter at (24, 12) on 3F does not open the gates at (18, 9) and (18, 10).
 - **Tool Consolidation Idea:** Combine `map_segment_analyzer` and `dungeon_navigator` into a single, more powerful exploration tool that can both analyze a map segment and generate an optimal exploration path.
 - **WKG DEBT:** The edge for the 3F-4F stairs is missing the `destination_entry_point`. Must fix this when next on 4F.
+- **Tool Consolidation Idea:** Combine `map_segment_analyzer` and `dungeon_navigator` into a single, more powerful exploration tool that can both analyze a map segment and generate an optimal exploration path.
+- **WKG DEBT:** The edge for the 3F-4F stairs is missing the `destination_entry_point`. Must fix this when next on 4F.
