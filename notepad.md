@@ -68,3 +68,8 @@
 - **CARD KEY Location (Hypothesis):** The key is likely an item somewhere in Silph Co. The item at (22, 17) on 5F is blocked by impassable objects. The item at (5,7) on 5F is blocked by a closed gate.
 - **Giovanni's Location (Hypothesis):** He is on the 11th floor behind the doors that require the CARD KEY.
 - **Item on 4F:** An item at (4,10) is blocked by closed gates at (5,13) and (6,13). No obvious switch in the room.
+### C. Navigation & Traversal Rules
+- **Teleporter Tiles:** Instant warps. Stepping on them immediately transports the player.
+
+### III. Agent & Tool Development Log (v77)
+- **New Tool Idea: `dungeon_navigator`:** A tool that takes the output of `map_segment_analyzer` and generates a full, systematic exploration path for the current map segment using a nearest-neighbor heuristic to visit every reachable, non-warp ground tile. This would be the primary tool for clearing complex dungeons.
