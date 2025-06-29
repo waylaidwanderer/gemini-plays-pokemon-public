@@ -33,17 +33,6 @@
     - **PC Interaction:** Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in. Both ECHO (lead) and SPOONBENDE (switched in) gained EXP from the Weepinbell battle.
 
-### D. Tile Mechanics (v3)
-- **`ground`**: Standard walkable tile.
-- **`impassable`**: Walls, counters, etc. Cannot be entered.
-- **`teleport`**: Instant warp tile. In Silph Co., these are one-way or two-way teleporters between and within floors.
-- **`elevator`**: A specialized warp system in Silph Co. Requires interaction with a panel to select a floor, then stepping on a warp tile to travel.
-- **`closed_gate`**: An impassable gate that can be opened with the CARD KEY in Silph Co. Acts as 'ground' once opened.
-- **`ledge`**: A one-way drop. Can be jumped down, but not climbed up.
-- **`cuttable`**: A tree that can be removed with the move CUT. It respawns on map change.
-- **`steps`**: Allows vertical movement between different ground elevations.
-- **`grass`**: Tall grass for wild Pokémon encounters. Walkable like `ground`.
-
 ## III. Agent & Tool Development Log (v90)
 ### A. Development Pipeline
 - **BUG FIX (TOP PRIORITY): `dungeon_navigator` (v3):** This tool is bugged and quarantined. The current DFS implementation is faulty and needs to be rewritten to ensure it explores all reachable tiles correctly. DO NOT USE UNTIL FIXED.
