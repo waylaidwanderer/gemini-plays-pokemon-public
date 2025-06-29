@@ -24,7 +24,7 @@
 ### C. Navigation & Traversal Rules
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
 - **Silph Co. Blackout:** Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
-- **`reachable` Flag is Global:** The `reachable` flag for warps and map sprites is a global check for the entire map, NOT a local check based on the player's current isolated segment. I must use `map_segment_analyzer` to determine local reachability.
+- **`reachable` Flag is Global:** The `reachable` flag for warps and map sprites is a global check for the entire map, NOT a local check based on the player's current isolated segment. My `pathfinder` tool's inability to find a path between two 'reachable' warps confirms this. I must use `map_segment_analyzer` in the future to determine true local reachability.
 - **Saffron City Navigation:** The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
 - **Teleporter Tiles:** Instant warps. Stepping on them immediately transports the player.
 - **Closed Gates:** Impassable tiles that block movement until a specific trigger or puzzle is solved.
