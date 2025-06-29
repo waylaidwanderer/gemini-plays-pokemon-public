@@ -60,15 +60,6 @@
 - The western side of the 1st floor is a dead end for exiting the tower.
 - The main tower exit is on the eastern side of the 1st floor at (9, 15).
 
-## IV. Future Plans & Untested Hypotheses
-
+## IV. Untested Hypotheses
 - **Hypothesis:** Can Onix learn Flash (HM05)?
 - **Hypothesis:** HMs can be taught from the Pokémon status screen.
-
-## V. Short-Term Plans
-
-### Plan to escape Sprout Tower:
-1. Ascend to 3F using the western ladders.
-2. On 3F, cross from the west side to the east side.
-3. Descend to 1F using the eastern ladders.
-4. Exit the tower via the warp at (9, 15).
