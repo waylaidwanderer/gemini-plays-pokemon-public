@@ -67,8 +67,8 @@
 
 ### Discovered Traps & Puzzles
 - **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
-- **Sprout Tower Block:** The path to the ladders is blocked by Sages. I must interact with them to proceed.
-- **Sprout Tower Dead End:** The eastern side of the tower, accessed by the ladder at (17, 3), is a complete dead end. The only way to progress is via the western ladder at (6, 4).
+- **Sprout Tower Block:** The path to the ladders is blocked by Sages. I must interact with them to proceed. I have defeated the Sage at (3, 2).
+- **Sprout Tower Dead End:** The eastern side of the tower, accessed by the ladder at (17, 3), is a complete dead end.
 
 ## Objectives & Plans
 ### Current Plan
