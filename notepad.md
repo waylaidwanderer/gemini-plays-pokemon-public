@@ -67,7 +67,7 @@
 
 ### Discovered Traps & Puzzles
 - **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
-- **Sprout Tower Layout:** The first and second floors are split by a central pillar, preventing east-west passage. Different ladders must be used to access both sides.
+- **Sprout Tower Layout:** The central pillar on the first and second floors splits the area into distinct eastern and western sections. It is impossible to cross between these sections on the same floor. You must use the correct set of ladders to navigate between floors and access both sides.
 
 ## Current Plan
 - Leave Sprout Tower.
