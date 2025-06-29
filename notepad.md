@@ -60,11 +60,6 @@
 - **Solved: 5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). Standing at X=11-13 opens the western gates. Standing at X=14-16 opens the eastern gates. The corridors are physically separated, requiring a teleporter to cross.
 
 ### C. Untested Assumptions & Hypotheses
-- **Assumption 1 (From Silph Co.):** The teleporter at (6, 8) on 7F is the correct path forward after defeating Pixel.
-  - **Test:** After the battle, navigate to and use the teleporter.
-- **Assumption 2 (From Silph Co.):** Defeating Pixel is the only way to proceed.
-  - **Test:** If stuck after the battle, re-explore the floor for other triggers.
-
 - **Assumption 4 (New):** My current team composition, once leveled, will be sufficient for clearing Silph Co.
   - **Test:** This will be validated upon my return to Silph Co. If I am defeated again, I will use the `team_composition_advisor_agent` to re-evaluate my party.
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
