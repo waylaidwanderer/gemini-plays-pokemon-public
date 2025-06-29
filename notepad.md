@@ -50,12 +50,13 @@
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
 - **WATER/CUT_TREE/BUOY/HEADBUTT_TREE:** Impassable.
 - **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below (moving up). Impassable from above.
+- **WARP_CARPET_DOWN:** Warp tile, triggered by movement.
+- **VOID:** Impassable.
 - **WARP_CARPET_LEFT:** Untested. Inferred one-way warp.
 - **WARP_CARPET_RIGHT:** Untested. Inferred one-way warp.
 - **FLOOR_HOP_DOWN_LEDGE:** Untested. Inferred one-way traversal downward.
 - **FLOOR_HOP_RIGHT_LEDGE:** Untested. Inferred one-way traversal to the right.
 - **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** Untested. Inferred one-way traversal down or right.
-- **VOID:** Untested. Inferred impassable.
 - **LADDER:** Untested. Inferred traversable (appears as a pier/bridge over water).
 
 ## V. Untested Hypotheses & To-Do

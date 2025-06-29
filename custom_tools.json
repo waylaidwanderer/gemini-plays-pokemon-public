@@ -44,21 +44,5 @@
       ]
     },
     "python_script": "import json\nimport heapq\n\nworld_knowledge_graph_json_string = globals().get('world_knowledge_graph_json_string')\nworld_knowledge = json.loads(world_knowledge_graph_json_string)\nnodes = world_knowledge['nodes']\nedges = world_knowledge['edges']\n\nstart_map = input_data['start_map_id']\nend_map = input_data['end_map_id']\n\ngraph = {}\nfor node in nodes:\n    graph[node['id']] = {'map_id': node['map_id'], 'name': node['name'], 'edges': []}\n\nfor edge in edges:\n    if edge['source_node_id'] in graph and edge['destination_node_id'] in graph:\n        graph[edge['source_node_id']]['edges'].append(edge['destination_node_id'])\n        if not edge.get('is_one_way', False):\n            graph[edge['destination_node_id']]['edges'].append(edge['source_node_id'])\n\nstart_node_id = None\nfor node_id, node_data in graph.items():\n    if node_data['map_id'] == start_map:\n        start_node_id = node_id\n        break\n\nif not start_node_id:\n    print(f'Start node for map {start_map} not found in World Knowledge Graph.')\n    exit()\n\nqueue = [(0, [start_node_id])]\nvisited = {start_node_id}\n\nwhile queue:\n    cost, path = heapq.heappop(queue)\n    current_node_id = path[-1]\n\n    if graph[current_node_id]['map_id'] == end_map:\n        path_details = []\n        for node_id in path:\n            node_info = next((n for n in nodes if n['id'] == node_id), None)\n            if node_info:\n                path_details.append(f\"{node_info['name']} ({node_info['map_id']})\")\n        print(' -> '.join(path_details))\n        exit()\n\n    for neighbor_id in graph[current_node_id]['edges']:\n        if neighbor_id not in visited:\n            visited.add(neighbor_id)\n            new_path = list(path)\n            new_path.append(neighbor_id)\n            heapq.heappush(queue, (cost + 1, new_path))\n\nprint(f'No path found from map {start_map} to {end_map}.')"
-  },
-  "battle_menu_selector": {
-    "description": "Selects a specific option from the main battle menu (FIGHT, PKMN, PACK, RUN) by index.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "option_index": {
-          "type": "string",
-          "description": "The 1-based index of the option to select (1-4)."
-        }
-      },
-      "required": [
-        "option_index"
-      ]
-    },
-    "python_script": "index = int(input_data['option_index'])\noptions = [\"FIGHT\", \"PKMN\", \"PACK\", \"RUN\"]\nif 1 <= index <= 4:\n    print(f\"Selected {options[index-1]}\")\nelse:\n    print(\"Error: Invalid option index. Must be between 1 and 4.\")"
   }
 }
