@@ -68,7 +68,7 @@
 
 ## V. Untested Hypotheses & To-Do
 - **Hypothesis:** My current team, heavily reliant on a single high-level Pokémon, may struggle against future Gym Leaders.
-- **Hypothesis:** Not all Cooltrainers will battle me.
+- **Confirmed:** Not all Cooltrainers will battle me. Some offer advice.
 - **To-Do:** Check for alternative healing methods besides the Pokémon Center.
 - **To-Do:** Talk to the Gym Guide in the Violet City Gym.
 - **To-Do:** Systematically test all unverified tile mechanics. Find examples of each 'Untested' tile and attempt to move on them from all four directions.
