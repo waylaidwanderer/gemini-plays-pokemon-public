@@ -58,3 +58,6 @@
 
 ## Sprout Tower Solution
 *All paths inside the tower were dead ends after defeating the Elder. The solution was to use an ESCAPE ROPE from the top floor to instantly teleport to the entrance.*
+
+## V. Confirmed Impassable Scenery
+- **To-Do:** Test all impassable-looking scenery objects to confirm they cannot be walked through (e.g., INCENSE_BURNER, RADIO, etc.).
