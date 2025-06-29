@@ -16,66 +16,45 @@
 - Items: None
 
 ### Gifts and Trades
-- Received POKéGEAR from Mom in New Bark Town.
+- Received POKéGEAR from Mom.
 - Received a BERRY from a man on Route 30.
 - Received 5 POKé BALLS from a scientist in Elm's Lab.
-- Traded a Bellsprout for an Onix with a Youngster in Kyle's House (Violet City).
+- Traded a Bellsprout for an Onix in Violet City.
 - Received HM05 (Flash) from the Elder in Sprout Tower.
 
 ### Observed Movesets
-- G (TOTODILE) learned WATER GUN at Lv13.
-- Wild Poliwag (Route 30): BUBBLE
-- Wild Hoothoot (Route 30): TACKLE
-- Wild Zubat (Route 30): Moveset unknown (fainted before attacking).
-- Wild Bellsprout (Route 31): VINE WHIP
-- Wild Gastly (Sprout Tower): Moveset unknown (fainted before attacking).
+- G (TOTODILE): WATER GUN (Learned at Lv13), SCRATCH, LEER, RAGE
+- Wild Poliwag: BUBBLE
+- Wild Hoothoot: TACKLE
+- Wild Bellsprout: VINE WHIP
+- Wild Gastly: No attacks seen (fainted too fast).
 
 ## Area and Navigation Insights
-### Tile Traversal and Movement Rules
-- **Objects are impassable:** All map objects (items, trees, signs, etc.) act as walls.
-- **WALL:** An impassable barrier.
-- **FLOOR:** A standard traversable tile.
-- **TALL_GRASS:** A traversable tile that can trigger wild Pokémon encounters.
-- **LEDGE:** Impassable from the bottom edge. Can be jumped down from the top edge.
-- **FLOOR_HOP_RIGHT_LEDGE:** A one-way tile that allows jumping over a ledge to the right.
-- **FLOOR_HOP_LEFT_LEDGE:** A one-way tile that allows jumping over a ledge to the left.
-- **FLOOR_HOP_DOWN_LEDGE:** A one-way tile that allows jumping over a ledge downwards.
-- **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** A one-way tile that allows jumping over a ledge either down or to the right.
-- **FLOOR_HOP_DOWN_OR_LEFT_LEDGE:** A one-way tile that allows jumping over a ledge either down or to the left.
-- **COUNTER:** An impassable barrier.
-- **DOOR:** A warp tile.
-- **MART_SHELF:** An impassable barrier.
-- **BUOY:** An impassable tile in water.
-- **TOWN_MAP:** Impassable object.
-- **WINDOW:** Impassable object.
-- **BOOKSHELF:** An impassable object.
-- **TV:** Impassable object.
-- **RADIO:** Impassable object.
-- **VOID:** An impassable tile outside the map boundaries.
-- **WARP_CARPET_DOWN:** A warp tile that activates when facing down.
-- **WARP_CARPET_LEFT:** A warp tile that activates when facing left.
-- **WARP_CARPET_RIGHT:** A warp tile that activates when facing right.
-- **FRUIT_TREE:** An impassable object that can sometimes yield items.
-- **WATER:** Confirmed impassable.
-- **CUT_TREE:** Confirmed impassable.
-- **CAVE:** A warp tile that leads to another map.
-- **PC:** An impassable, interactive object. Must be interacted with from the tile below, while facing up.
-- **PILLAR:** Confirmed impassable. Acts as a wall.
-- **LADDER:** A warp tile. Automatically triggers a warp when stepped on. No button press needed.
-- **PAINTING:** Impassable object.
+### Tile Traversal Rules (Verified)
+- **Objects are impassable:** All map objects (items, trees, signs, defeated trainers etc.) act as walls.
+- **WALL:** Impassable.
+- **FLOOR:** Traversable.
+- **TALL_GRASS:** Traversable, triggers wild encounters.
+- **LEDGE:** One-way downward traversal.
+- **FLOOR_HOP_*_LEDGE:** One-way traversal in the specified direction.
+- **COUNTER:** Impassable.
+- **DOOR/CAVE:** Warp tile.
+- **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING:** Impassable scenery.
+- **WATER/CUT_TREE/BUOY/PILLAR:** Impassable.
+- **VOID:** Out-of-bounds, impassable.
+- **WARP_CARPET_*: Warp tile, direction-specific.
+- **FRUIT_TREE:** Impassable object, may yield items.
+- **LADDER:** A warp tile. Automatically triggers a warp when stepped on. Can be one-way.
 
-### Discovered Traps & Puzzles
-- **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
-- **Sprout Tower Layout:** The central pillar on the first and second floors splits the area into distinct eastern and western sections. It is impossible to cross between these sections on the same floor. You must ascend to the third floor to cross from one side to the other, then find the correct ladder to descend.
+### Sprout Tower Layout
+- The central pillar on the first and second floors divides the area. To cross from west to east, one must ascend to the third floor, cross over, and then descend via the correct ladder.
 
-## Untested Hypotheses & Future Plans
-- Can Onix learn Flash (HM05)? (Priority: High)
-- Are `COUNTER` tiles impassable from all directions? Must test this. (Priority: Medium)
-- Is `FLOOR_UP_WALL` in Dark Cave a one-way wall? (Priority: Low - requires Flash)
+## Future Plans & Untested Hypotheses
+- **Hypothesis:** Can Onix learn Flash (HM05)?
+- **Hypothesis:** Is the ladder at (6, 4) on SproutTower3F a one-way warp up?
+- **Testing Plan:** Explicitly walk into every new tile type from all four directions to confirm traversability.
 
-## Tool/Agent Development Notes
-- **unstick_me_tool Bug:** The tool needs to be updated. It currently defines 'escape' as warping to a new map ID. It should be modified to also recognize warps to different floors within the same location (i.e., same map group ID, different map number) as a valid path forward. (Priority: High)
-- **New Tool Idea: `dungeon_navigator`**: Could take a simplified text version of a map and a goal, then output a high-level navigation plan, pointing out key structural features like the Sprout Tower pillar. This is a computational task, not an agent task.
-- **New Agent Idea: `pokemon_evaluator`**: Could take my party and an opponent's known Pokémon and suggest the best lead and moves, considering type matchups.
-- **New Tool Idea: `battle_advisor_tool`**: A computational tool that takes my party's movesets and an opponent's team and calculates the optimal lead Pokémon, rather than relying on an LLM-based agent.
-- **CRITICAL BUG:** `find_path` tool is still not correctly identifying objects as impassable. It tried to path through a Sage at (11, 11). Must be fixed ASAP.
+## Tool/Agent Development
+- **`find_path` tool:** The tool is currently bugged and cannot reliably path around obstacles. It needs a complete rewrite.
+- **Tool Idea (`dungeon_navigator`):** A computational tool that takes a simplified map representation and provides a high-level navigation plan.
+- **Agent Idea (`pokemon_evaluator`):** An agent to suggest the best lead Pokémon and moves for a given battle based on type matchups and known movesets.
