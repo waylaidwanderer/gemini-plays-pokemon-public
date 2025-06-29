@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v53)
+## I. Core Protocols & Immediate Actions (v54)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays. Lapses, like on turn 35849, are unacceptable and will be corrected.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with my `wkg_checker` tool to confirm it doesn't already exist.
@@ -43,11 +43,11 @@
     - **PC Interaction:** Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in. Both ECHO (lead) and SPOONBENDE (switched in) gained EXP from the Weepinbell battle.
 
-## IV. Tool Development Log (v95)
+## IV. Tool Development Log (v96)
 ### A. Development Pipeline
-- **TOP PRIORITY: `dungeon_navigator` (BUG FIX):** Per AI feedback, I must adhere to my own protocol and prioritize fixing this bugged tool. I will address this immediately after clearing Route 13.
-- **HIGH PRIORITY: `encounter_grinder_tool` (New):** Define a tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training. This will replace my inefficient manual grinding.
-- **NEW: `wkg_manager_tool` (High Priority):** Per AI feedback, create a single tool to handle the entire 'check-then-add' logic for a map transition (nodes and edge) atomically to improve efficiency and reduce errors.
+- **TOP PRIORITY: `wkg_manager_tool` (New):** Per AI feedback, create a single tool to handle the entire 'check-then-add' logic for a map transition (nodes and edge) atomically to improve efficiency and reduce errors. This is now the highest priority development task.
+- **HIGH PRIORITY: `dungeon_navigator` (BUG FIX):** Per AI feedback, I must adhere to my own protocol and prioritize fixing this bugged tool. I will address this immediately after clearing Route 13.
+- **NEW: `encounter_grinder_tool` (New):** Define a tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training. This will replace my inefficient manual grinding.
 - **New Agent Idea: `puzzle_solver_agent`:** An agent (not a tool) to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. This is a reasoning task, better suited for an agent.
 - **New Agent Idea: `pc_navigator_agent`:** An agent to generate button sequences to operate the Pokémon PC menu for depositing and withdrawing Pokémon. This will automate a tedious, repetitive task.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
@@ -79,4 +79,5 @@
 - **Trainer Intel Logging (Post-Battle):** I missed logging the team for Cool Trainer M on Route 13 (T#35906) due to a reflection turn. This is a failure of protocol. I will ensure all future trainer teams are logged immediately after battle.
 
 ## VI. Trainer Intel (Overworld)
-- Biker (Route 13 @ 11,8): SHELLDER (Lv.29), WEEZING (Lv.29), CLOYSTER (Lv.29)
+### Route 13
+- Biker (@ 11,8): SHELLDER (Lv.29), WEEZING (Lv.29), CLOYSTER (Lv.29)
