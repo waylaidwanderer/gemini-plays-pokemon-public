@@ -42,17 +42,13 @@
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 - **CARD KEY:** Found on Silph Co. 5F at (22, 17).
 
-## III. Agent & Tool Development Log (v80)
-### A. Development Priorities
+## III. Agent & Tool Development Log (v81)
+### A. Development Pipeline
 - **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
-- **New Tool Idea: `puzzle_solver_agent`:** An agent to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
-- **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
-### B. Development Pipeline
-- **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
-- **New Tool Idea: `puzzle_solver_agent`:** An agent to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
+- **New Tool Idea: `puzzle_solver_tool`:** A tool to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. (Changed from agent to tool as per critique).
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
 
-### C. Active Agents & Tools
+### B. Active Agents & Tools
 - `team_composition_advisor_agent` (v2) - Reliable
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v10) - Reliable
