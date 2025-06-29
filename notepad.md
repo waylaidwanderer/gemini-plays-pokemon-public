@@ -53,7 +53,7 @@
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v10) - Reliable
 - `pathfinder` (v2) - Newly improved to ignore impassable types.
-- `wkg_checker` (v1) - NEW! Checks for existing nodes/edges in the WKG.
+- **Tool FIXED: `wkg_checker` (v2):** The tool has been rewritten to correctly check for edges. The previous version failed because the `manage_world_knowledge` tool appears to strip the `map_id` from coordinate objects inside the edge payload, causing `KeyError`. The new version finds node IDs first, then checks for edges using those IDs, making it robust against this issue.
 
 ## IV. Silph Co. Investigation Log (v6)
 ### A. Confirmed Intel & Lessons Learned
@@ -67,3 +67,4 @@
 ### C. Open Puzzles & Hypotheses
 - **CARD KEY Location (Hypothesis):** The key is likely an item somewhere in Silph Co. The item at (22, 17) on 5F is blocked by impassable objects. The item at (5,7) on 5F is blocked by a closed gate.
 - **Giovanni's Location (Hypothesis):** He is on the 11th floor behind the doors that require the CARD KEY.
+- **Item on 4F:** An item at (4,10) is blocked by closed gates at (5,13) and (6,13). No obvious switch in the room.
