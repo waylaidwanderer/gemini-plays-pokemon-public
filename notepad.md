@@ -2,7 +2,7 @@
 
 ## Party & Rival
 ### My Team
-- G (TOTODILE): Lv14
+- G (TOTODILE): Lv15
 - HOOTHOOT (HOOTHOOT): Lv4
 - HOOTIN (HOOTHOOT): Lv4
 - ROCKY (ONIX): Lv5 (Traded for Bellsprout in Violet City)
@@ -63,7 +63,7 @@
 
 ### Untested Hypotheses
 - **FLOOR_UP_WALL:** Present in Dark Cave. Appears to be a one-way wall traversable only from below. Needs to be tested.
-- Are `COUNTER` tiles impassable from all directions?
+- Are `COUNTER` tiles impassable from all directions? Must test this.
 
 ### Discovered Traps & Puzzles
 - **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
