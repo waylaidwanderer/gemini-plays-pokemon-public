@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v42)
+## I. Core Protocols & Immediate Actions (v43)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with `run_code` to confirm it doesn't already exist.
@@ -42,7 +42,7 @@
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
-## III. Agent & Tool Development Log (v68)
+## III. Agent & Tool Development Log (v69)
 ### A. Development Priorities
 - **`dungeon_navigator` tool (v9 - Implemented):** New version using nearest-neighbor heuristic. Needs testing.
 - **`pathfinder` tool improvement:** The current BFS-based tool is too simple. It must be improved or replaced with a more robust pathfinding algorithm (e.g., A*).
@@ -54,32 +54,16 @@
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v10) - Reliable
 
-## IV. Silph Co. Investigation Log (v4)
-### A. Confirmed Lessons
+## IV. Silph Co. Investigation Log (v5)
+### A. Confirmed Intel & Lessons Learned
 - **Misleading `reachable` Flag:** The `reachable` flag for Map Sprites is a global check, not local. I must rely on my `map_segment_analyzer` tool for local pathing.
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
-### B. 5F Gate Puzzle
-- **Hypothesis:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2).
-- **Method:** Systematically test X-coordinates from 16 down to 9.
-- **Failed Attempts:** X=16, X=15, X=14, X=13, X=12.
-### C. Confirmed Intel
-- A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
+- **Boardroom Location:** A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
 
-### C. Confirmed Intel
-- A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
+### B. Solved Puzzles
+- **5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). X-coordinates 16 down to 9 have been tested and their effects on the gates are understood.
 
-### C. Confirmed Intel
-- A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
-
-### D. Open Puzzles & Hypotheses
-- **CARD KEY Location (Hypothesis):** The key is likely the item at (22, 17) on 5F, behind the gate puzzle.
-### C. Confirmed Intel
-- A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
-
-### C. Confirmed Intel
-- A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
-
-### D. Open Puzzles & Hypotheses
-- **CARD KEY Location (Hypothesis):** The key is likely the item at (22, 17) on 5F, behind the gate puzzle.
+### C. Open Puzzles & Hypotheses
+- **CARD KEY Location (Hypothesis):** The key is likely the item at (22, 17) on 5F, behind the gate puzzle. **Current objective.**
 - **Giovanni's Location (Hypothesis):** He is on the 11th floor behind the doors that require the CARD KEY.
