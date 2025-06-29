@@ -64,4 +64,4 @@
 - **Party Full:** My party is now full with the addition of the Egg. I can't catch any new Pokémon until I deposit one in the PC.
 
 ## VI. Trainers
-- **Youngster Albert (Route 32):** Rattata (Lv6)
+- **Youngster Albert (Route 32):** Rattata (Lv6), Zubat (Lv?)
