@@ -36,7 +36,7 @@
 
 ## III. Area & Navigation Insights
 
-### Tile Traversal Rules (Verified)
+### Tile Traversal Rules
 - **Objects are impassable:** All map objects (items, trees, signs, defeated trainers etc.) act as as walls.
 - **WALL:** Impassable.
 - **FLOOR:** Traversable.
@@ -46,6 +46,13 @@
 - **DOOR/CAVE/LADDER:** Warp tile, triggered by movement.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
 - **WATER/CUT_TREE/BUOY/HEADBUTT_TREE:** Impassable.
+- **WARP_CARPET_LEFT:** Inferred one-way warp. (Untested)
+- **WARP_CARPET_RIGHT:** Inferred one-way warp. (Untested)
+- **FLOOR_HOP_DOWN_LEDGE:** Inferred one-way traversal downward. (Untested)
+- **FLOOR_UP_WALL:** Inferred impassable from below. (Untested)
+- **FLOOR_HOP_RIGHT_LEDGE:** Inferred one-way traversal to the right. (Untested)
+- **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** Inferred one-way traversal down or right. (Untested)
+- **VOID:** Inferred impassable. (Untested)
 
 ## IV. Untested Hypotheses & To-Do
 - **To-Do:** Check for alternative healing methods besides the Pokémon Center.
@@ -55,12 +62,3 @@
 ## V. Strategic Notes
 - **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move, which is a major disadvantage. **Plan:** Level up ROCKY and hope he learns a Rock-type move soon, or find a TM. For now, rely on G (Croconaw) and use ROCKY for defensive switching or to use SCREECH.
 - **Party Full:** My party is now full with the addition of the Egg. I can't catch any new Pokémon until I deposit one in the PC.
-
-## VI. Untested Tile Mechanics
-**To-Do:** Systematically test all unverified tile mechanics.
-- **WARP_CARPET_LEFT:** Inferred one-way warp.
-- **WARP_CARPET_RIGHT:** Inferred one-way warp.
-- **FLOOR_HOP_DOWN_LEDGE:** Inferred one-way traversal downward.
-- **FLOOR_UP_WALL:** Inferred impassable from below.
-- **FLOOR_HOP_RIGHT_LEDGE:** Inferred one-way traversal to the right.
-- **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** Inferred one-way traversal down or right.
