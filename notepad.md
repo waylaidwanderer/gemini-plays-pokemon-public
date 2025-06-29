@@ -46,7 +46,6 @@
 - **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
 - **New Tool Idea: `puzzle_solver_agent`:** An agent to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
 - **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
-
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
 ### B. Active Agents & Tools
 - `team_composition_advisor_agent` (v2) - Reliable
@@ -67,10 +66,7 @@
 
 ### C. Open Puzzles & Hypotheses
 - **FAILED HYPOTHESIS (Attempt Count: 5+):** Randomly using teleporters to find a new path has failed. I am stuck in an isolated loop between segments of 4F, 6F, and 10F.
-- **FAILED HYPOTHESIS (Attempt Count: 1):** Systematically explored the 4F-6F-10F teleporter loop for a hidden trigger. No new paths or triggers were found. This loop is a confirmed dead end for progression.
+- **FAILED HYPOTHESIS (Attempt Count: 1):** Systematically exploring every reachable tile in the 4F-6F-10F teleporter loop segments has failed to reveal a new path or trigger. This loop is a confirmed dead end for progression.
 - **Item on 4F:** An item at (4,10) is blocked by closed gates at (5,13) and (6,13). No obvious switch in the room.
 - **FAILED HYPOTHESIS (Attempt Count: 1):** The intra-floor teleporter at (24, 12) on 3F does not open the gates at (18, 9) and (18, 10).
-- **Tool Consolidation Idea:** Combine `map_segment_analyzer` and `dungeon_navigator` into a single, more powerful exploration tool that can both analyze a map segment and generate an optimal exploration path.
-- **WKG DEBT:** The edge for the 3F-4F stairs is missing the `destination_entry_point`. Must fix this when next on 4F.
-- **Tool Consolidation Idea:** Combine `map_segment_analyzer` and `dungeon_navigator` into a single, more powerful exploration tool that can both analyze a map segment and generate an optimal exploration path.
 - **WKG DEBT:** The edge for the 3F-4F stairs is missing the `destination_entry_point`. Must fix this when next on 4F.
