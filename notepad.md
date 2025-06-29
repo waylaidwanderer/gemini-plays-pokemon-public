@@ -1,5 +1,5 @@
-## I. Core Protocols & Immediate Actions (v52)
-- **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays. Lapses, like on turn 34801, are unacceptable and have been corrected.
+## I. Core Protocols & Immediate Actions (v53)
+- **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays. Lapses, like on turn 35849, are unacceptable and will be corrected.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with my `wkg_checker` tool to confirm it doesn't already exist.
   - All `warp` type edges MUST include a `destination_entry_point` if known. This value is the 1-indexed entry point on the *destination* map's warp list. All new nodes MUST have descriptive `tags`.
@@ -43,10 +43,11 @@
     - **PC Interaction:** Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in. Both ECHO (lead) and SPOONBENDE (switched in) gained EXP from the Weepinbell battle.
 
-## IV. Tool Development Log (v94)
+## IV. Tool Development Log (v95)
 ### A. Development Pipeline
 - **TOP PRIORITY: `dungeon_navigator` (BUG FIX):** Per AI feedback, I must adhere to my own protocol and prioritize fixing this bugged tool. I will address this immediately after clearing Route 13.
 - **HIGH PRIORITY: `encounter_grinder_tool` (New):** Define a tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training. This will replace my inefficient manual grinding.
+- **NEW: `wkg_manager_tool` (High Priority):** Per AI feedback, create a single tool to handle the entire 'check-then-add' logic for a map transition (nodes and edge) atomically to improve efficiency and reduce errors.
 - **New Agent Idea: `puzzle_solver_agent`:** An agent (not a tool) to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. This is a reasoning task, better suited for an agent.
 - **New Agent Idea: `pc_navigator_agent`:** An agent to generate button sequences to operate the Pokémon PC menu for depositing and withdrawing Pokémon. This will automate a tedious, repetitive task.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
@@ -75,4 +76,3 @@
 - **CRITICAL: Tool Maintenance Protocol:** If a custom tool is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding other gameplay objectives until resolved.
 - **Pokémon Tower 5F Healer:** The friendly Channeler at (13, 9) only restores Pokémon HP, NOT PP. Confirmed on turn 35402.
 - **Silph Co. Gate Mechanic:** Gates in Silph Co. appear to be controlled by the player's X-coordinate in a corresponding, physically separate corridor. Standing in a specific range of X coordinates opens a specific set of gates.
-- **New Tool Idea: `wkg_manager_tool`:** Per AI feedback, create a single tool to handle the entire 'check-then-add' logic for a map transition (nodes and edge) atomically to improve efficiency and reduce errors.
