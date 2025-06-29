@@ -66,3 +66,4 @@
 ## VI. Trainers
 - **Youngster Albert (Route 32):** Rattata (Lv6), Zubat (Lv?)
 - Picnicker Liz (Route 32): Nidoran♀ (Lv9)
+- **To-Do:** Systematically test all unverified tile mechanics (WARP_CARPET, FLOOR_HOP, VOID).
