@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v51)
+## I. Core Protocols & Immediate Actions (v52)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays. Lapses, like on turn 34801, are unacceptable and have been corrected.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with my `wkg_checker` tool to confirm it doesn't already exist.
@@ -19,8 +19,8 @@
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
 - **Poison Type Effectiveness:** Poison-type moves are NOT-VERY-EFFECTIVE against Poison-types.
 
-### B. Battle Protocols (v3)
-- **Agent Reliance (MANDATORY):** I will use the `battle_strategist_agent` for all significant battles (Gyms, Rival, unique encounters) to ensure optimal move selection.
+### B. Battle Protocols (v4)
+- **Agent Reliance (MANDATORY):** I will use the `battle_strategist_agent` for all significant battles (Gyms, Rival, unique encounters) to ensure optimal move selection. The agent has been refined and is now reliable.
 
 ### C. Navigation & Traversal Rules
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
@@ -33,24 +33,24 @@
     - **PC Interaction:** Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in. Both ECHO (lead) and SPOONBENDE (switched in) gained EXP from the Weepinbell battle.
 
-## III. Agent & Tool Development Log (v90)
+## III. Tool Development Log (v91)
 ### A. Development Pipeline
-- **BUG FIX (TOP PRIORITY): `dungeon_navigator` (v3):** This tool is bugged and quarantined. The current DFS implementation is faulty and needs to be rewritten to ensure it explores all reachable tiles correctly. DO NOT USE UNTIL FIXED.
-- **New Tool Idea: `puzzle_solver_tool`:** A tool to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
-- **New Tool Idea: `encounter_grinder_tool`:** A tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training.
+- **TOP PRIORITY: `encounter_grinder_tool` (New):** Define a tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training. This will replace my inefficient manual grinding.
+- **HIGH PRIORITY: `dungeon_navigator` (BUG FIX):** This tool is bugged and quarantined. The current DFS implementation is faulty and needs to be rewritten to ensure it explores all reachable tiles correctly. DO NOT USE UNTIL FIXED.
+- **New Agent Idea: `puzzle_solver_agent`:** An agent (not a tool) to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. This is a reasoning task, better suited for an agent.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
 
 ### B. Active Agents & Tools
 - `team_composition_advisor_agent` (v2) - Reliable
 - `protocol_enforcement_agent` (v1) - Reliable
-- `battle_strategist_agent` (v10) - Reliable
+- `battle_strategist_agent` (v11) - Refined and reliable.
 - `pc_navigator_agent` (v1) - Defined, needs testing.
 - `select_battle_option` (v1) - Reliable
 - `pathfinder` (v3) - Refined to handle NPCs, reliable.
 - `object_finder` (v1) - Reliable
 - `wkg_checker` (v3) - Reliable
 
-## IV. Silph Co. Investigation Log (v11)
+## IV. Silph Co. Investigation Log (v12)
 ### A. Confirmed Intel & Lessons Learned
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
@@ -64,14 +64,8 @@
   - **Test:** After the battle, navigate to and use the teleporter.
 - **Assumption 2 (From Silph Co.):** Defeating Pixel is the only way to proceed.
   - **Test:** If stuck after the battle, re-explore the floor for other triggers.
-- **Assumption 3 (New):** The `pc_navigator_agent` I created will work correctly.
-  - **Test:** Use the agent the next time I need to access the PC to swap Pokémon.
-- **Assumption 4 (New):** Route 12 is an efficient training spot despite the low encounter rate.
-  - **Test:** Continue training here for a short period. If encounters remain sparse, I will find a new location.
-- **Assumption 5 (New):** My current team composition, once leveled, will be sufficient for clearing Silph Co.
+- **Assumption 3 (High Priority Test):** My `pc_navigator_agent` will work correctly. **Test:** Use the agent the next time I need to access the PC to swap Pokémon.
+- **Assumption 4 (New):** My current team composition, once leveled, will be sufficient for clearing Silph Co.
   - **Test:** This will be validated upon my return to Silph Co. If I am defeated again, I will use the `team_composition_advisor_agent` to re-evaluate my party.
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
 - **CRITICAL: Tool Maintenance Protocol:** If a custom tool is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding other gameplay objectives until resolved.
-- **Agent Refinement Idea: `battle_strategist_agent`:** The agent's input schema needs to be updated to include the opponent's status condition (e.g., confused, poisoned) to provide more contextually accurate advice.
-- **New Tool Idea: `encounter_grinder_tool`:** A tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training.
-- **Assumption (High Priority Test):** My `pc_navigator_agent` will work correctly. **Test:** Use the agent the next time I need to access the PC to swap Pokémon.
