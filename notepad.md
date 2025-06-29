@@ -3,7 +3,7 @@
 ## I. Party & Rival
 
 ### My Team
-- G (CROCONAW): Lv21
+- G (CROCONAW): Lv21 (BITE, WATER GUN, LEER, RAGE)
 - HOOTHOOT (HOOTHOOT): Lv4
 - HOOTIN (HOOTHOOT): Lv4
 - ROCKY (ONIX): Lv6 (Traded for Bellsprout)
@@ -30,8 +30,6 @@
 ## III. Battle Info
 
 ### Observed Movesets
-- My G (CROCONAW): BITE, WATER GUN, LEER, RAGE
-- My ROCKY (ONIX): TACKLE, SCREECH. **(Lacks a Rock-type move)**
 - Wild Poliwag: BUBBLE
 - Wild Hoothoot: TACKLE, FLASH
 - Wild Bellsprout: VINE WHIP
@@ -58,6 +56,7 @@
 - **FLOOR_HOP_RIGHT_LEDGE:** Untested. Inferred one-way traversal to the right.
 - **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** Untested. Inferred one-way traversal down or right.
 - **VOID:** Untested. Inferred impassable.
+- **LADDER:** Untested. Inferred traversable (appears as a pier/bridge over water).
 
 ## V. Untested Hypotheses & To-Do
 - **Hypothesis:** My current team, heavily reliant on a single high-level Pokémon, may struggle against future Gym Leaders.
@@ -66,6 +65,7 @@
 - **To-Do:** Talk to the Gym Guide in the Violet City Gym.
 - **To-Do:** Systematically test all unverified tile mechanics. Find examples of each 'Untested' tile and attempt to move on them from all four directions.
 - **To-Do:** Explore the water on Route 32 with the OLD ROD.
+- **To-Do:** Interact with the Fisher at (7, 70) and the Fisher at (6, 48) to confirm if they are trainers.
 
 ## VI. Strategic Notes
 - **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move, which is a major disadvantage. **Plan:** Level up ROCKY and hope he learns a Rock-type move soon, or find a TM. For now, rely on G (Croconaw) and use ROCKY for defensive switching or to use SCREECH.
