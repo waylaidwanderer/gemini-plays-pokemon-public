@@ -50,8 +50,9 @@
 - **VOID:** Impassable.
 - **WARP_CARPET_*: Warp tile, direction-specific.
 - **FRUIT_TREE:** Impassable object, may yield items.
-- **LADDER:** A warp tile, triggered by movement (not by pressing 'A'). Can be one-way or two-way. Must be tested.
+- **LADDER:** A warp tile triggered by movement. Can be one-way (e.g., SproutTower2F (10, 14) is one-way down) or two-way.
 - **STATUE:** An impassable scenery object.
+- **PILLAR:** Impassable.
 
 ### Sprout Tower Layout
 - The central pillar on 1F and 2F is a complete divider, preventing east-west travel.
