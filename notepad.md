@@ -82,4 +82,3 @@
 ## VI. Trainer Intel (Overworld)
 ### Route 13
 - Biker (@ 11,8): SHELLDER (Lv.29), WEEZING (Lv.29), CLOYSTER (Lv.29)
-- **Route 13 Fences:** The maze on Route 13 is lined with impassable fence tiles that my navigation tools are currently failing to account for, leading to invalid paths.
