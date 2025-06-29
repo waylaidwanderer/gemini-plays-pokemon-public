@@ -72,3 +72,4 @@
   - **Test:** If stuck after the battle, re-explore the floor for other triggers.
 - **Assumption 3:** My remaining Pokémon are sufficient to clear the rest of Team Rocket in Silph Co.
   - **Test:** This is being tested now. If I fail, I will use my `team_composition_advisor_agent` and may need to train new Pokémon.
+- **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
