@@ -54,8 +54,11 @@
 - **STATUE:** An impassable scenery object.
 
 ### Sprout Tower Layout
-- The central pillar divides all floors, making east-west travel impossible on any single floor except the third.
-- To navigate the tower, one must ascend on one side, cross over on the third floor, and then descend on the other.
+- The central pillar on the first and second floors is generally impassable, but can be navigated around.
+- On the second floor, the eastern and western sides are connected by a path that goes around the defeated Sage at (9, 14).
+- The third floor has gaps in the central pillar, allowing free east-west movement.
+- The ladder at (10, 14) on the second floor is a one-way warp *down* from the third floor. It cannot be used to go up.
+- To exit the tower from the top, one must ascend to the third floor, cross from east to west, and then descend using the western ladders.
 
 ## IV. Future Plans & Untested Hypotheses
 
