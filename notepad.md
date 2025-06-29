@@ -71,5 +71,5 @@
 
 ## Current Plan
 - Defeat the Sages on Sprout Tower 3F to clear the path.
-- Collect the item at (6, 14).
+
 - Find and defeat the Elder at the top of the tower.
