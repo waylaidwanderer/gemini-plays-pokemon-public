@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v49)
+## I. Core Protocols & Immediate Actions (v50)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with my `wkg_checker` tool to confirm it doesn't already exist.
@@ -23,22 +23,25 @@
 - **Agent Reliance (MANDATORY):** I will use the `battle_strategist_agent` for all significant battles (Gyms, Rival, unique encounters) to ensure optimal move selection.
 
 ### C. Navigation & Traversal Rules
-- 'No Will to Fight' Mechanic: A fainted Pokémon cannot be switched into battle.
-- Silph Co. Blackout: Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
-- `reachable` Flag is Global: The `reachable` flag for warps and map sprites is a global check for the entire map, NOT a local check based on the player's current isolated segment.
-- Saffron City Navigation: The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
-- Invisible Walls: Impassable walls that are not visually represented. Discovered on Silph Co. 9F at (12, 2).
+- **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
+- **Silph Co. Blackout:** Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
+- **`reachable` Flag is Global:** The `reachable` flag for warps and map sprites is a global check for the entire map, NOT a local check based on the player's current isolated segment.
+- **Saffron City Navigation:** The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
+- **Invisible Walls:** Impassable walls that are not visually represented. Discovered on Silph Co. 9F at (12, 2).
+- **HM & Field Move Mechanics:**
+    - **Flash & Cut Exception:** These HMs MUST be taught to a Pokémon to be used in the field.
 
-### D. General Mechanics
-- **Level Caps:** 0 badges: 12, 1 badge: 21, 2 badges: 24, 3 badges: 35, 4 badges: 43.
+### D. Tile Mechanics (v1)
+- **`ground`**: Standard walkable tile.
+- **`impassable`**: Walls, counters, etc. Cannot be entered.
+- **`teleport`**: Instant warp tile. In Silph Co., these are one-way or two-way teleporters between and within floors.
+- **`elevator`**: A specialized warp system in Silph Co. Requires interaction with a panel to select a floor, then stepping on a warp tile to travel.
 
-### E. HM & Field Move Mechanics
-- **Flash & Cut Exception:** These HMs MUST be taught to a Pokémon to be used in the field.
-
-## III. Agent & Tool Development Log (v84)
+## III. Agent & Tool Development Log (v85)
 ### A. Development Pipeline
-- **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
-- **New Tool Idea: `puzzle_solver_tool`:** A tool to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. (Re-classified from agent to tool).
+- **BUG FIX (TOP PRIORITY): `dungeon_navigator`:** The current DFS implementation is buggy and needs to be rewritten to ensure it explores all reachable tiles correctly.
+- **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon. (Re-classified from agent to tool).
+- **New Tool Idea: `puzzle_solver_tool`:** A tool to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
 
 ### B. Active Agents & Tools
@@ -47,8 +50,8 @@
 - `battle_strategist_agent` (v10) - Reliable
 - `pathfinder` (v2) - Reliable
 - `object_finder` (v1) - Reliable
-- **Tool FIXED: `wkg_checker` (v3):** The tool has been rewritten with a more robust script to better handle edge cases.
-- **Tool FIXED: `dungeon_navigator` (v3):** The tool has been rewritten with a proper DFS algorithm.
+- `wkg_checker` (v3) - Reliable
+- `dungeon_navigator` (v3) - BUGGED, DO NOT USE UNTIL FIXED
 
 ## IV. Silph Co. Investigation Log (v9)
 ### A. Confirmed Intel & Lessons Learned
