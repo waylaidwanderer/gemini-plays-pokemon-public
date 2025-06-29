@@ -28,6 +28,7 @@
 - Wild Hoothoot: TACKLE
 - Wild Bellsprout: VINE WHIP
 - Wild Gastly: No attacks seen (fainted too fast).
+- Wild Gastly: Encountered in Sprout Tower.
 
 ## Area and Navigation Insights
 ### Tile Traversal Rules (Verified)
@@ -40,7 +41,8 @@
 - **COUNTER:** Impassable.
 - **DOOR/CAVE:** Warp tile.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING:** Impassable scenery.
-- **WATER/CUT_TREE/BUOY/PILLAR:** Impassable.
+- **WATER/CUT_TREE/BUOY:** Impassable.
+- **PILLAR:** Impassable.
 - **VOID:** Out-of-bounds, impassable.
 - **WARP_CARPET_*: Warp tile, direction-specific.
 - **FRUIT_TREE:** Impassable object, may yield items.
