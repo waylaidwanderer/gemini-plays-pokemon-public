@@ -48,7 +48,7 @@
 - **New Tool Idea: `puzzle_solver_agent`:** An agent to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
 - **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
-- **CRITICAL Tool Bug: `wkg_checker` (v1):** The tool has repeatedly crashed with a `KeyError: 'map_id'` when checking for an edge. It gives false negatives for nodes and is completely unreliable for edges. **PRIORITY 1: Fix this tool.** The script needs to be fixed to correctly access the `map_id` from within the `source_coordinates` and `destination_coordinates` objects of an edge.
+- **Tool FIXED: `wkg_checker` (v2):** The tool has been rewritten to correctly check for edges. The previous version failed because the `manage_world_knowledge` tool appears to strip the `map_id` from coordinate objects inside the edge payload, causing `KeyError`. The new version finds node IDs first, then checks for edges using those IDs, making it robust against this issue.
 ### B. Active Agents & Tools
 - `team_composition_advisor_agent` (v2) - Reliable
 - `protocol_enforcement_agent` (v1) - Reliable
@@ -68,5 +68,5 @@
 ### C. Open Puzzles & Hypotheses
 - **CARD KEY Location (Hypothesis):** The key is likely an item somewhere in Silph Co. The item at (22, 17) on 5F is blocked by impassable objects. The item at (5,7) on 5F is blocked by a closed gate.
 - **Giovanni's Location (Hypothesis):** He is on the 11th floor behind the doors that require the CARD KEY.
-- **CRITICAL Tool Bug: `wkg_checker` (v1):** The tool has repeatedly crashed with a `KeyError: 'map_id'` when checking for an edge. It gives false negatives for nodes and is completely unreliable for edges. **PRIORITY 1: Fix this tool.** The script needs to be fixed to correctly access the `map_id` from within the `source_coordinates` and `destination_coordinates` objects of an edge.
+- **Tool FIXED: `wkg_checker` (v2):** The tool has been rewritten to correctly check for edges. The previous version failed because the `manage_world_knowledge` tool appears to strip the `map_id` from coordinate objects inside the edge payload, causing `KeyError`. The new version finds node IDs first, then checks for edges using those IDs, making it robust against this issue.
 - **Tool FIXED: `wkg_checker` (v2):** The tool has been rewritten to correctly check for edges. The previous version failed because the `manage_world_knowledge` tool appears to strip the `map_id` from coordinate objects inside the edge payload, causing `KeyError`. The new version finds node IDs first, then checks for edges using those IDs, making it robust against this issue.
