@@ -31,8 +31,9 @@
 - **HM & Field Move Mechanics:**
     - **Flash & Cut Exception:** These HMs MUST be taught to a Pokémon to be used in the field.
     - **PC Interaction:** Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
+- **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in. Both ECHO (lead) and SPOONBENDE (switched in) gained EXP from the Weepinbell battle.
 
-### D. Tile Mechanics (v2)
+### D. Tile Mechanics (v3)
 - **`ground`**: Standard walkable tile.
 - **`impassable`**: Walls, counters, etc. Cannot be entered.
 - **`teleport`**: Instant warp tile. In Silph Co., these are one-way or two-way teleporters between and within floors.
@@ -41,24 +42,26 @@
 - **`ledge`**: A one-way drop. Can be jumped down, but not climbed up.
 - **`cuttable`**: A tree that can be removed with the move CUT. It respawns on map change.
 - **`steps`**: Allows vertical movement between different ground elevations.
+- **`grass`**: Tall grass for wild Pokémon encounters. Walkable like `ground`.
 
-## III. Agent & Tool Development Log (v89)
+## III. Agent & Tool Development Log (v90)
 ### A. Development Pipeline
 - **BUG FIX (TOP PRIORITY): `dungeon_navigator` (v3):** This tool is bugged and quarantined. The current DFS implementation is faulty and needs to be rewritten to ensure it explores all reachable tiles correctly. DO NOT USE UNTIL FIXED.
 - **New Tool Idea: `puzzle_solver_tool`:** A tool to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
+- **New Tool Idea: `encounter_grinder_tool`:** A tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
 
 ### B. Active Agents & Tools
 - `team_composition_advisor_agent` (v2) - Reliable
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v10) - Reliable
-- `pc_navigator_agent` (v1) - Newly defined, needs testing. Automates PC navigation.
+- `pc_navigator_agent` (v1) - Defined, needs testing.
 - `select_battle_option` (v1) - Reliable
-- `pathfinder` (v2) - Reliable
+- `pathfinder` (v3) - Refined to handle NPCs, reliable.
 - `object_finder` (v1) - Reliable
 - `wkg_checker` (v3) - Reliable
 
-## IV. Silph Co. Investigation Log (v10)
+## IV. Silph Co. Investigation Log (v11)
 ### A. Confirmed Intel & Lessons Learned
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
@@ -68,12 +71,15 @@
 - **Solved: 5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). Standing at X=11-13 opens the western gates. Standing at X=14-16 opens the eastern gates. The corridors are physically separated, requiring a teleporter to cross.
 
 ### C. Untested Assumptions & Hypotheses
-- **Assumption 1:** The teleporter at (6, 8) on 7F is the correct path forward after defeating Pixel.
+- **Assumption 1 (From Silph Co.):** The teleporter at (6, 8) on 7F is the correct path forward after defeating Pixel.
   - **Test:** After the battle, navigate to and use the teleporter.
-- **Assumption 2:** Defeating Pixel is the only way to proceed.
+- **Assumption 2 (From Silph Co.):** Defeating Pixel is the only way to proceed.
   - **Test:** If stuck after the battle, re-explore the floor for other triggers.
-- **Assumption 3:** My remaining Pokémon are sufficient to clear the rest of Team Rocket in Silph Co.
-  - **Test:** This is being tested now. If I fail, I will use my `team_composition_advisor_agent` and may need to train new Pokémon.
+- **Assumption 3 (New):** The `pc_navigator_agent` I created will work correctly.
+  - **Test:** Use the agent the next time I need to access the PC to swap Pokémon.
+- **Assumption 4 (New):** Route 12 is an efficient training spot despite the low encounter rate.
+  - **Test:** Continue training here for a short period. If encounters remain sparse, I will find a new location.
+- **Assumption 5 (New):** My current team composition, once leveled, will be sufficient for clearing Silph Co.
+  - **Test:** This will be validated upon my return to Silph Co. If I am defeated again, I will use the `team_composition_advisor_agent` to re-evaluate my party.
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
 - **CRITICAL: Tool Maintenance Protocol:** If a custom tool is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding other gameplay objectives until resolved.
-- **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in. Both ECHO (lead) and SPOONBENDE (switched in) gained EXP from the Weepinbell battle.
