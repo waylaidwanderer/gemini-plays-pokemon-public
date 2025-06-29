@@ -65,3 +65,4 @@
 ### C. Open Puzzles & Hypotheses
 - **CARD KEY Location (Hypothesis):** The key is likely an item somewhere in Silph Co. The item at (22, 17) on 5F is blocked by impassable objects. The item at (5,7) on 5F is blocked by a closed gate.
 - **Giovanni's Location (Hypothesis):** He is on the 11th floor behind the doors that require the CARD KEY.
+- **New Agent Idea: `puzzle_solver_agent`:** An agent to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles, like the Silph Co. gate puzzle.
