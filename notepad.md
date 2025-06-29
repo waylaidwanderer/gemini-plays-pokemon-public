@@ -43,10 +43,10 @@
     - **PC Interaction:** Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in. Both ECHO (lead) and SPOONBENDE (switched in) gained EXP from the Weepinbell battle.
 
-## IV. Tool Development Log (v92)
+## IV. Tool Development Log (v93)
 ### A. Development Pipeline
-- **TOP PRIORITY: `encounter_grinder_tool` (New):** Define a tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training. This will replace my inefficient manual grinding.
-- **HIGH PRIORITY: `dungeon_navigator` (BUG FIX):** This tool is bugged and quarantined. Per AI feedback, I must either prioritize fixing this or remove it from the pipeline. I will address this after clearing Silph Co.
+- **TOP PRIORITY: `dungeon_navigator` (BUG FIX):** Per AI feedback, I must adhere to my own protocol and prioritize fixing this bugged tool. I will address this after clearing the current route.
+- **HIGH PRIORITY: `encounter_grinder_tool` (New):** Define a tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training. This will replace my inefficient manual grinding.
 - **New Agent Idea: `puzzle_solver_agent`:** An agent (not a tool) to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. This is a reasoning task, better suited for an agent.
 - **New Agent Idea: `pc_navigator_agent`:** An agent to generate button sequences to operate the Pokémon PC menu for depositing and withdrawing Pokémon. This will automate a tedious, repetitive task.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
