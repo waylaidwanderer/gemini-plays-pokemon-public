@@ -77,3 +77,6 @@
 - **Pokémon Tower 5F Healer:** The friendly Channeler at (13, 9) only restores Pokémon HP, NOT PP. Confirmed on turn 35402.
 - **Silph Co. Gate Mechanic:** Gates in Silph Co. appear to be controlled by the player's X-coordinate in a corresponding, physically separate corridor. Standing in a specific range of X coordinates opens a specific set of gates.
 - **Trainer Intel Logging (Post-Battle):** I missed logging the team for Cool Trainer M on Route 13 (T#35906) due to a reflection turn. This is a failure of protocol. I will ensure all future trainer teams are logged immediately after battle.
+
+## VI. Trainer Intel (Overworld)
+- Biker (Route 13 @ 11,8): SHELLDER (Lv.29), WEEZING (Lv.29), CLOYSTER (Lv.29)
