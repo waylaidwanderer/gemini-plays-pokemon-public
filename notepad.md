@@ -56,3 +56,7 @@
 ## V. Strategic Notes
 - **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move, which is a major disadvantage in the Flying-type Violet City Gym. **Plan:** Level up ROCKY and hope he learns a Rock-type move soon, or find a TM. For the Falkner fight, I will have to rely almost exclusively on G (Croconaw) and potentially use ROCKY for defensive switching or to use SCREECH.
 - **Party Full:** My party is now full with the addition of the Egg. I can't catch any new Pokémon until I deposit one in the PC.
+
+## VI. Untested Tile Mechanics
+- **WARP_CARPET_RIGHT:** Inferred one-way warp. **To-Do:** Test by attempting to walk on it from the left, above, and below.
+- **FLOOR_HOP_DOWN_LEDGE:** Inferred one-way ledge. **To-Do:** Test by attempting to walk on it from below, left, and right.
