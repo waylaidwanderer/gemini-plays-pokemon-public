@@ -51,13 +51,15 @@
 - **RADIO:** Impassable object.
 - **VOID:** An impassable tile outside the map boundaries.
 - **WARP_CARPET_DOWN:** A warp tile that activates when facing down.
+- **WARP_CARPET_LEFT:** A warp tile that activates when facing left.
+- **WARP_CARPET_RIGHT:** A warp tile that activates when facing right.
 - **FRUIT_TREE:** An impassable object that can sometimes yield items.
 - **WATER:** Confirmed impassable.
 - **CUT_TREE:** Confirmed impassable.
 - **CAVE:** A warp tile that leads to another map.
 - **PC:** An impassable, interactive object. Must be interacted with from the tile below, while facing up.
-- **WARP_CARPET_LEFT:** A warp tile that activates when facing left.
 - **PILLAR:** Confirmed impassable. Acts as a wall.
+- **LADDER:** A warp tile.
 
 ### Untested Hypotheses
 - **FLOOR_UP_WALL:** Present in Dark Cave. Appears to be a one-way wall traversable only from below. Needs to be tested.
@@ -69,13 +71,9 @@
 
 ## Objectives & Plans
 ### Current Plan
-1. Travel to Kyle's House in Violet City.
-2. Trade 'Salad' the Bellsprout for an Onix.
-3. Return to Sprout Tower and use the new Onix to defeat the trainers.
+1.  Navigate Sprout Tower to the top.
+2.  Defeat the Elder.
+3.  Receive the HM.
 
 ### Long-Term Objectives
 - Return to Dark Cave to test the `FLOOR_UP_WALL` tile mechanics.
-- **WARP_CARPET_RIGHT:** A warp tile that activates when facing right.
-- **WARP_CARPET_RIGHT:** A warp tile that activates when facing right.
-- **WARP_CARPET_RIGHT:** A warp tile that activates when facing right.
-- **LADDER:** A warp tile.
