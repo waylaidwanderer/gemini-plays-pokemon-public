@@ -46,7 +46,7 @@
 - **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
 - **New Tool Idea: `puzzle_solver_agent`:** An agent to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
 - **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
-- **Tool Refinement Idea: `dungeon_navigator`:** Needs a proper exploration algorithm (like DFS) instead of its current nearest-neighbor heuristic.
+
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
 ### B. Active Agents & Tools
 - `team_composition_advisor_agent` (v2) - Reliable
