@@ -3,7 +3,7 @@
 ## I. Party & Rival
 
 ### My Team
-- G (CROCONAW): Lv18. **NOTE: Out of PP for WATER GUN.**
+- G (CROCONAW): Lv19. **NOTE: Out of PP for WATER GUN.**
 - HOOTHOOT (HOOTHOOT): Lv4
 - HOOTIN (HOOTHOOT): Lv4
 - ROCKY (ONIX): Lv6 (Traded for Bellsprout in Violet City)
@@ -63,12 +63,3 @@
 ## IV. Untested Hypotheses
 - **Hypothesis:** Can Onix learn Flash (HM05)?
 - **Hypothesis:** HMs can be taught from the Pokémon status screen.
-
-## V. Sprout Tower Escape Plan (Final!)
-1.  Ascend from 1F West to 2F West using the ladder at (2, 6).
-2.  Ascend from 2F West to 3F West using the ladder at (10, 14).
-3.  On 3F, cross from the west side to the east side.
-4.  Descend from 3F East to 2F East. (The ladder down is likely the one at (10, 14), which I confirmed is two-way).
-5.  On 2F East, navigate to the ladder at (6, 4).
-6.  Descend from 2F East to 1F East using the ladder at (6, 4).
-7.  On 1F East, navigate to the main exit at (9, 15).
