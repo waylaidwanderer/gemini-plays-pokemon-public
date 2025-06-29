@@ -57,3 +57,6 @@
 ## IV. Untested Hypotheses & To-Do
 - **To-Do:** Test teaching Flash as soon as I exit Sprout Tower.
 - **To-Do:** Check if there are other ways to heal Pokémon besides the Pokémon Center.
+
+## V. Strategic Notes
+- **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move, which is a disadvantage in the Flying-type Violet City Gym. I need to find a way to teach it a Rock-type move or rely on other strategies.
