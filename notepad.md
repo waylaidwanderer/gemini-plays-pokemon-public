@@ -14,7 +14,7 @@
 ## II. Current Mission: Liberate Silph Co.
 ### A. Active Training Plan (vs. Pixel v2)
 - **Core Team:** CRAG, SPARKY, ECHO, SPOONBENDE.
-- **Training Goal:** Level all core members to the cap of 43.
+- **Training Goal:** Level all core members to the level cap of 43.
 - **Training Locations:**
   - **SPARKY:** Route 12 (vs. Water-types).
   - **ECHO:** Diglett's Cave (vs. Diglett/Dugtrio for high EXP and immunity).
@@ -43,9 +43,9 @@
     - **PC Interaction:** Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in. Both ECHO (lead) and SPOONBENDE (switched in) gained EXP from the Weepinbell battle.
 
-## IV. Tool Development Log (v93)
+## IV. Tool Development Log (v94)
 ### A. Development Pipeline
-- **TOP PRIORITY: `dungeon_navigator` (BUG FIX):** Per AI feedback, I must adhere to my own protocol and prioritize fixing this bugged tool. I will address this after clearing the current route.
+- **TOP PRIORITY: `dungeon_navigator` (BUG FIX):** Per AI feedback, I must adhere to my own protocol and prioritize fixing this bugged tool. I will address this immediately after clearing Route 13.
 - **HIGH PRIORITY: `encounter_grinder_tool` (New):** Define a tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training. This will replace my inefficient manual grinding.
 - **New Agent Idea: `puzzle_solver_agent`:** An agent (not a tool) to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. This is a reasoning task, better suited for an agent.
 - **New Agent Idea: `pc_navigator_agent`:** An agent to generate button sequences to operate the Pokémon PC menu for depositing and withdrawing Pokémon. This will automate a tedious, repetitive task.
