@@ -56,10 +56,7 @@
 ## IV. Untested Hypotheses & To-Do
 - **To-Do:** Test teaching Flash as soon as I exit Sprout Tower.
 
-## Sprout Tower Escape Plan (V12 - The Crossover)
-*Pillar interaction hypothesis failed. Pathfinding confirms the 2nd floor is split into two disconnected areas. The only way to cross is on the 3rd floor.*
-1. Go up the ladder at (10, 14) to the 3rd floor.
-2. On 3F, cross from the east side to the west side.
-3. Find the ladder on the west side of 3F that leads down to the west side of 2F.
-4. On 2F, take the ladder at (2, 6) down to 1F.
-5. Exit the tower.
+## Sprout Tower Escape Plan (V13 - The Northern Passage)
+*The 3rd floor is also split. The new plan is to explore the northern area where the Elder was, as a path might have opened up there.*
+1. Explore the northern section of the 3rd floor.
+2. Look for a new ladder or path leading down to the western side of the tower.
