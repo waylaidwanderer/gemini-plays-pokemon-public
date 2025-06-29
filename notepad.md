@@ -50,7 +50,7 @@
 - **VOID:** Impassable.
 - **WARP_CARPET_*: Warp tile, direction-specific.
 - **FRUIT_TREE:** Impassable object, may yield items.
-- **LADDER:** A two-way warp tile, triggered by movement (not by pressing 'A').
+- **LADDER:** A warp tile, triggered by movement (not by pressing 'A'). Can be one-way or two-way.
 - **STATUE:** An impassable scenery object.
 
 ### Sprout Tower Layout
