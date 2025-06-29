@@ -68,3 +68,4 @@
 - **Solved: CARD KEY Location:** The CARD KEY was located on Silph Co. 5F at (22, 17), accessible after using a series of teleporters to navigate between the segmented floors.
 
 ### C. Open Puzzles & Hypotheses
+- **New Agent Idea: `objective_planner_agent`:** An agent to analyze my current goals, location, and the World Knowledge Graph to suggest the most logical next map to visit for maximum progress.
