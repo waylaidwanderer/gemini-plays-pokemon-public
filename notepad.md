@@ -46,6 +46,9 @@
 
 - **New Tool Idea: `object_finder`:** A tool to find the coordinates of a named NPC or item on the current map.
 - **New Tool Idea: `wkg_checker`:** A tool to check if a specific node or edge already exists in the World Knowledge Graph. This will streamline my data management workflow.
+
+- **New Tool Idea: `object_finder`:** A tool to find the coordinates of a named NPC or item on the current map.
+- **New Tool Idea: `wkg_checker`:** A tool to check if a specific node or edge already exists in the World Knowledge Graph. This will streamline my data management workflow.
 - **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
 ### B. Active Agents & Tools
 - `pc_navigator_agent` (v2) - Reliable
