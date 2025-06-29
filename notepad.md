@@ -60,8 +60,14 @@
 - **Solved: 5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). Standing at X=11-13 opens the western gates. Standing at X=14-16 opens the eastern gates. The corridors are physically separated, requiring a teleporter to cross.
 
 ### C. Untested Assumptions & Hypotheses
-- **Assumption 4 (New):** My current team composition, once leveled, will be sufficient for clearing Silph Co.
-  - **Test:** This will be validated upon my return to Silph Co. If I am defeated again, I will use the `team_composition_advisor_agent` to re-evaluate my party.
+- **Active Training Plan (vs. Pixel v2):** Based on `team_composition_advisor_agent` analysis after defeat on Turn 35716.
+  - **Core Team:** CRAG, SPARKY, ECHO, SPOONBENDE.
+  - **Training Goal:** Level all core members to the cap of 43.
+  - **Training Locations:**
+    - **SPARKY:** Route 12 (vs. Water-types).
+    - **ECHO:** Diglett's Cave (vs. Diglett/Dugtrio for high EXP and immunity).
+    - **SPOONBENDE:** Route 13 (vs. Venonat, Bellsprout, Oddish).
+    - **CRAG:** Route 11 (vs. Spearow, Rattata).
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
 - **CRITICAL: Tool Maintenance Protocol:** If a custom tool is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding other gameplay objectives until resolved.
 - **Pokémon Tower 5F Healer:** The friendly Channeler at (13, 9) only restores Pokémon HP, NOT PP. Confirmed on turn 35402.
