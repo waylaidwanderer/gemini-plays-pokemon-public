@@ -42,22 +42,21 @@
 - **LEDGE:** One-way downward traversal.
 - **FLOOR_HOP_*_LEDGE:** One-way traversal in the specified direction.
 - **COUNTER:** Impassable.
-- **DOOR/CAVE:** Warp tile.
+- **DOOR/CAVE:** Warp tile, triggered by movement.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING:** Impassable scenery.
 - **WATER/CUT_TREE/BUOY:** Impassable.
 - **PILLAR:** Impassable.
 - **VOID:** Out-of-bounds, impassable.
 - **WARP_CARPET_*: Warp tile, direction-specific.
 - **FRUIT_TREE:** Impassable object, may yield items.
-- **LADDER:** A two-way warp tile.
+- **LADDER:** A two-way warp tile, triggered by movement (not by pressing 'A').
+- **STATUE:** An impassable scenery object.
 
 ### Sprout Tower Layout
-- The central pillar divides all floors, making east-west travel impossible on any single floor. To navigate the tower, one must ascend on one side, find the correct ladder down on the other side, and repeat as necessary. The key is using the different ladders to switch between the east and west sections of the tower.
+- The central pillar divides all floors, making east-west travel impossible on any single floor except the third.
+- To navigate the tower, one must ascend on one side, cross over on the third floor, and then descend on the other.
 
 ## IV. Future Plans & Untested Hypotheses
 
 - **Hypothesis:** Can Onix learn Flash (HM05)?
-- **Correction:** My `path_master` tool is working correctly. My previous assessment that it was buggy was incorrect; it properly identified that paths were blocked by the tower's central pillar, which I failed to account for in my manual planning.
-- **Testing Plan:** Explicitly walk into every new tile type from all four directions to confirm traversability and document it.
-- **Testing Plan:** Test the `WALL` tiles around the Sprout Tower pillar to confirm they are impassable from all directions.
-- **STATUE:** An impassable scenery object found on WALL tiles.
+- **Hypothesis:** The correct exit path from Sprout Tower is on the east side of the lower floors, accessible by descending from the east side of the third floor.
