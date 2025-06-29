@@ -1,9 +1,9 @@
-## I. Core Protocols & Immediate Actions (v50)
-- **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
+## I. Core Protocols & Immediate Actions (v51)
+- **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays. Lapses, like on turn 34801, are unacceptable and have been corrected.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with my `wkg_checker` tool to confirm it doesn't already exist.
-  - All `warp` type edges MUST include a `destination_entry_point` if known (STRICTLY ENFORCE). All new nodes MUST have descriptive `tags`.
-- **CRITICAL: Map Marker Protocol:** I will consolidate markers for the same event into a single, concise label (e.g., '🚪 To/From [Location]'). I will fix redundant/outdated markers on my next visit to the affected maps.
+  - All `warp` type edges MUST include a `destination_entry_point` if known. All new nodes MUST have descriptive `tags`.
+- **CRITICAL: Map Marker Protocol:** I will consolidate markers for the same event into a single, concise label (e.g., '🚪 To/From [Location]').
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic before complex turns.
 - **CRITICAL: Tool Input Verification:** I will ALWAYS double-check the coordinates and other inputs I provide to my custom tools BEFORE execution.
 - **CRITICAL: Post-Event Checklists (MANDATORY):**
@@ -31,16 +31,20 @@
 - **HM & Field Move Mechanics:**
     - **Flash & Cut Exception:** These HMs MUST be taught to a Pokémon to be used in the field.
 
-### D. Tile Mechanics (v1)
+### D. Tile Mechanics (v2)
 - **`ground`**: Standard walkable tile.
 - **`impassable`**: Walls, counters, etc. Cannot be entered.
 - **`teleport`**: Instant warp tile. In Silph Co., these are one-way or two-way teleporters between and within floors.
 - **`elevator`**: A specialized warp system in Silph Co. Requires interaction with a panel to select a floor, then stepping on a warp tile to travel.
+- **`closed_gate`**: An impassable gate that can be opened with the CARD KEY in Silph Co. Acts as 'ground' once opened.
+- **`ledge`**: A one-way drop. Can be jumped down, but not climbed up.
+- **`cuttable`**: A tree that can be removed with the move CUT. It respawns on map change.
+- **`steps`**: Allows vertical movement between different ground elevations.
 
-## III. Agent & Tool Development Log (v87)
+## III. Agent & Tool Development Log (v88)
 ### A. Development Pipeline
 - **BUG FIX (TOP PRIORITY): `dungeon_navigator` (v3):** This tool is bugged and quarantined. The current DFS implementation is faulty and needs to be rewritten to ensure it explores all reachable tiles correctly. DO NOT USE UNTIL FIXED.
-- **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon. (Re-classified from agent to tool).
+- **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
 - **New Tool Idea: `puzzle_solver_tool`:** A tool to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
 
@@ -52,14 +56,19 @@
 - `object_finder` (v1) - Reliable
 - `wkg_checker` (v3) - Reliable
 
-## IV. Silph Co. Investigation Log (v9)
+## IV. Silph Co. Investigation Log (v10)
 ### A. Confirmed Intel & Lessons Learned
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
 - **Boardroom Location:** A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
 
 ### B. Solved Puzzles
-- **Solved: 5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). Standing at X=11-13 opens the western gates. Standing at X=14-16 opens the eastern gates. **UPDATE:** The corridors are physically separated by permanent walls, so a teleporter must be used to cross between them.
+- **Solved: 5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). Standing at X=11-13 opens the western gates. Standing at X=14-16 opens the eastern gates. The corridors are physically separated, requiring a teleporter to cross.
 
-### C. Open Puzzles & Hypotheses
-- **New Agent Idea: `objective_planner_agent`:** An agent to analyze my current goals, location, and the World Knowledge Graph to suggest the most logical next map to visit for maximum progress.
+### C. Untested Assumptions & Hypotheses
+- **Assumption 1:** The teleporter at (6, 8) on 7F is the correct path forward after defeating Pixel.
+  - **Test:** After the battle, navigate to and use the teleporter.
+- **Assumption 2:** Defeating Pixel is the only way to proceed.
+  - **Test:** If stuck after the battle, re-explore the floor for other triggers.
+- **Assumption 3:** My remaining Pokémon are sufficient to clear the rest of Team Rocket in Silph Co.
+  - **Test:** This is being tested now. If I fail, I will use my `team_composition_advisor_agent` and may need to train new Pokémon.
