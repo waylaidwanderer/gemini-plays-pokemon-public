@@ -63,6 +63,9 @@
 - **Hypothesis:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2).
 - **Method:** Systematically test X-coordinates from 16 down to 9.
 - **Failed Attempts:** X=16, X=15, X=14, X=13, X=12.
-### C. Open Puzzles & Hypotheses
+### C. Confirmed Intel
+- A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
+
+### D. Open Puzzles & Hypotheses
 - **CARD KEY Location (Hypothesis):** The key is likely the item at (22, 17) on 5F, behind the gate puzzle.
-- **Giovanni's Location (Hypothesis):** He is likely on the 11th floor behind the doors that require the CARD KEY.
+- **Giovanni's Location (Hypothesis):** He is on the 11th floor behind the doors that require the CARD KEY.
