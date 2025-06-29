@@ -76,3 +76,4 @@
 ### Long-Term Objectives
 - Return to Dark Cave to test the `FLOOR_UP_WALL` tile mechanics.
 - **WARP_CARPET_RIGHT:** A warp tile that activates when facing right.
+- **WARP_CARPET_RIGHT:** A warp tile that activates when facing right.
