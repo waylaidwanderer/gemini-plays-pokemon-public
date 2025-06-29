@@ -69,3 +69,4 @@
 - **CARD KEY Location (Hypothesis):** The key is likely an item somewhere in Silph Co. The item at (22, 17) on 5F is blocked by impassable objects. The item at (5,7) on 5F is blocked by a closed gate.
 - **Giovanni's Location (Hypothesis):** He is on the 11th floor behind the doors that require the CARD KEY.
 - **CRITICAL Tool Bug: `wkg_checker` (v1):** The tool has repeatedly crashed with a `KeyError: 'map_id'` when checking for an edge. It gives false negatives for nodes and is completely unreliable for edges. **PRIORITY 1: Fix this tool.** The script needs to be fixed to correctly access the `map_id` from within the `source_coordinates` and `destination_coordinates` objects of an edge.
+- **CRITICAL Tool Bug: `wkg_checker` (v2):** The tool is *still* bugged for edges. It gives false negatives even when the edge exists in the WKG data. The script needs to be completely re-evaluated. Do not use for edge checking until fixed.
