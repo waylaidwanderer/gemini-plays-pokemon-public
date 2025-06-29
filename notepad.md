@@ -61,6 +61,10 @@
 - **WARP_CARPET_LEFT:** Inferred one-way warp.
 - **WARP_CARPET_RIGHT:** Inferred one-way warp.
 - **FLOOR_HOP_DOWN_LEDGE:** Inferred one-way traversal downward.
+- **FLOOR_UP_WALL:** Inferred impassable from below.
+- **FLOOR_HOP_RIGHT_LEDGE:** Inferred one-way traversal to the right.
+- **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** Inferred one-way traversal down or right.
+- **FLOOR_HOP_DOWN_LEDGE:** Inferred one-way traversal downward.
 - **FLOOR_UP_WALL:** Inferred impassable.
 - **FLOOR_HOP_DOWN_LEDGE:** Inferred one-way traversal downward.
 - **FLOOR_UP_WALL:** Inferred impassable from below.
