@@ -45,7 +45,7 @@
 ## III. Agent & Tool Development Log (v88)
 ### A. Development Pipeline
 - **BUG FIX (TOP PRIORITY): `dungeon_navigator` (v3):** This tool is bugged and quarantined. The current DFS implementation is faulty and needs to be rewritten to ensure it explores all reachable tiles correctly. DO NOT USE UNTIL FIXED.
-- **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
+
 - **New Tool Idea: `puzzle_solver_tool`:** A tool to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
 
