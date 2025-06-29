@@ -44,7 +44,7 @@
 - `team_composition_advisor_agent` (v2) - Reliable
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v11) - Refined and reliable.
-- `pc_navigator_agent` (v1) - Defined, needs testing.
+
 - `select_battle_option` (v1) - Reliable
 - `pathfinder` (v3) - Refined to handle NPCs, reliable.
 - `object_finder` (v1) - Reliable
