@@ -41,7 +41,7 @@
 - **FLOOR:** Traversable.
 - **TALL_GRASS:** Traversable, triggers wild encounters.
 - **LEDGE:** One-way downward traversal.
-- **FLOOR_HOP_*_LEDGE:** One-way traversal in the specified direction.
+- **FLOOR_HOP_*_LEDGE:** One-way traversal in the specified direction. Cannot be moved onto.
 - **COUNTER:** Impassable.
 - **DOOR/CAVE:** Warp tile, triggered by movement.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING:** Impassable scenery.
@@ -52,6 +52,7 @@
 - **FRUIT_TREE:** Impassable object, may yield items.
 - **LADDER:** A warp tile triggered by movement. Can be one-way (e.g., SproutTower2F (10, 14) is one-way down) or two-way.
 - **STATUE:** An impassable scenery object.
+- **HEADBUTT_TREE:** Impassable.
 
 ## IV. Untested Hypotheses & To-Do
 - **To-Do:** Test teaching Flash as soon as I exit Sprout Tower.
