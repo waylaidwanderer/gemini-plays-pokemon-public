@@ -35,12 +35,11 @@
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in.
 - **Route 13 Fences:** The maze on Route 13 is lined with impassable fence tiles that my navigation tools are currently failing to account for, leading to invalid paths. These appear as `impassable` tiles in the map data.
 
-## IV. Tool Development Log (v100)
+## IV. Tool Development Log (v101)
 ### A. Development Pipeline
 - **TOP PRIORITY (BUG FIX):** `pathfinder` & `dungeon_navigator` are unreliable and generate invalid paths through impassable fences (e.g., on Route 13). Fixing this is the highest priority secondary goal.
 - **NEW: `wkg_manager_tool`:** Create a single tool to handle the 'check-then-add' logic for a map transition to improve efficiency.
 - **NEW: `encounter_grinder_tool`:** Define a tool to automate pacing back and forth to trigger wild encounters for training.
-- **New Agent Idea: `maze_solver_agent`:** An agent to analyze map XML and suggest logical exploration sequences for complex mazes.
 - **New Agent Idea: `pc_navigator_agent`:** An agent to generate button sequences to operate the Pokémon PC menu.
 
 ### B. Active Agents & Tools
@@ -70,10 +69,11 @@
 
 ## VI. Trainer Intel (Overworld)
 ### Route 13
+- **KNOWLEDGE GAP:** Rosters for several defeated Cool Trainers were not logged.
 - Biker (@ 11,8): SHELLDER (Lv.29), WEEZING (Lv.29), CLOYSTER (Lv.29) - Defeated
 - Beauty (@ 33, 8): CLEFAIRY (Lv.29), PERSIAN (Lv.29) - Defeated
 - Jr. Trainer♀ (@ 28, 10): POLIWHIRL (Lv.30), SEAKING (Lv.30) - Defeated
 - Bird Keeper (@ 14, 5): SPEAROW (Lv.29), DODUO (Lv.29), PIDGEY (Lv.29), SPEAROW (Lv.29), SPEAROW (Lv.29) - Defeated
-- Cool Trainer M (@ 13, 5): [Team Unknown] - Defeated
-- Cool Trainer F (@ 24, 11): [Team Unknown] - Defeated
-- Cool Trainer M (@ 8, 12): [Team Unknown] - Defeated
+- Cool Trainer M (@ 13, 5) - Defeated
+- Cool Trainer F (@ 24, 11) - Defeated
+- Cool Trainer M (@ 8, 12) - Defeated
