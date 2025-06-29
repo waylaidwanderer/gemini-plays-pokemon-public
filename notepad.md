@@ -61,3 +61,4 @@
 
 - **Hypothesis:** Can Onix learn Flash (HM05)?
 - **Current Objective Plan:** My previous attempts to exit Sprout Tower via the west side have failed. The new plan is to thoroughly explore the eastern side of the lower floors, starting from the ladder at (10, 14) on the 3F, to find the correct exit path.
+- **VOID:** Out-of-bounds, impassable.
