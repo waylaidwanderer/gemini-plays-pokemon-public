@@ -76,3 +76,12 @@
 - Challenge Falkner at the Violet City Gym.
 ### Tool Development Notes
 - **unstick_me_tool Bug:** The tool currently defines 'escape' as warping to a new map ID. It needs to be updated to also recognize warps to different floors within the same dungeon (i.e., same map group ID, different map number) as a valid path forward.
+
+## Untested Hypotheses & Future Plans
+- Can Onix learn Flash (HM05)? (Priority: High)
+- Are `COUNTER` tiles impassable from all directions? (Priority: Medium)
+- Is `FLOOR_UP_WALL` in Dark Cave a one-way wall? (Priority: Low - requires Flash)
+
+## Tool/Agent Development Notes
+- **unstick_me_tool Bug:** The tool needs to be updated. It currently defines 'escape' as warping to a new map ID. It should be modified to also recognize warps to different floors within the same location (i.e., same map group ID, different map number) as a valid path forward.
+- **New Agent Idea:** Create a 'gym_battle_strategist' agent. Input would be my party and the gym leader's known Pokémon. Output would be a suggested lead Pokémon and battle strategy.
