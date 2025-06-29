@@ -7,11 +7,12 @@
 - HOOTHOOT (HOOTHOOT): Lv4
 - HOOTIN (HOOTHOOT): Lv4
 - ROCKY (ONIX): Lv6 (Traded for Bellsprout)
+- EGG (TOGEPI): Lv5
 
 ### Rival SILVA's Team
 - CHIKORITA: Lv5 (Last seen in New Bark Town)
 
-## II. Game Mechanics & Systems
+## II. Inventory
 
 ### PC Storage
 - **Pokémon:** None
@@ -26,6 +27,8 @@
 - GREAT BALL (from item ball on Route 32)
 - OLD ROD (from Fishing Guru on Route 32)
 
+## III. Battle Info
+
 ### Observed Movesets
 - My G (CROCONAW): SCRATCH, WATER GUN, LEER, RAGE
 - My ROCKY (ONIX): TACKLE, SCREECH. **(Lacks a Rock-type move)**
@@ -36,7 +39,14 @@
 - Wild Rattata: TACKLE
 - Wild Caterpie: TACKLE, STRING SHOT
 
-## III. Area & Navigation Insights
+### Trainers Defeated
+- **Youngster Albert (Route 32):** Rattata (Lv6), Zubat (Lv8)
+- **Picnicker Liz (Route 32):** Nidoran♀ (Lv9)
+- **Camper Roland (Route 32):** Nidoran♂ (Lv9)
+- **Youngster Gordon (Route 32):** Wooper (Lv10)
+- **Fisher Ralph (Route 32):** Goldeen (Lv10)
+
+## IV. Area & Navigation Insights
 
 ### Tile Traversal Rules
 - **Objects are impassable:** All map objects (items, trees, signs, defeated trainers etc.) act as as walls.
@@ -56,19 +66,14 @@
 - **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** Untested. Inferred one-way traversal down or right.
 - **VOID:** Untested. Inferred impassable.
 
-## IV. Untested Hypotheses & To-Do
+## V. Untested Hypotheses & To-Do
 - **Hypothesis:** My current team, heavily reliant on a single high-level Pokémon, may struggle against future Gym Leaders.
+- **Hypothesis:** Not all Cooltrainers will battle me.
 - **To-Do:** Check for alternative healing methods besides the Pokémon Center.
 - **To-Do:** Talk to the Gym Guide in the Violet City Gym.
 - **To-Do:** Systematically test all unverified tile mechanics. Find examples of each 'Untested' tile and attempt to move on them from all four directions.
+- **To-Do:** Explore the water on Route 32 with the OLD ROD.
 
-## V. Strategic Notes
+## VI. Strategic Notes
 - **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move, which is a major disadvantage. **Plan:** Level up ROCKY and hope he learns a Rock-type move soon, or find a TM. For now, rely on G (Croconaw) and use ROCKY for defensive switching or to use SCREECH.
 - **Party Full:** My party is now full with the addition of the Egg. I can't catch any new Pokémon until I deposit one in the PC.
-
-## VI. Trainers
-- **Youngster Albert (Route 32):** Rattata (Lv6), Zubat (Lv8)
-- **Picnicker Liz (Route 32):** Nidoran♀ (Lv9)
-- **Camper Roland (Route 32):** Nidoran♂ (Lv9)
-- **Youngster Gordon (Route 32):** Wooper (Lv10)
-- **Fisher Ralph (Route 32):** Goldeen (Lv10)
