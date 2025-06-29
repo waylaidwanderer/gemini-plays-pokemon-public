@@ -47,7 +47,7 @@
 - **LADDER:** A warp tile. Automatically triggers a warp when stepped on. Can be one-way.
 
 ### Sprout Tower Layout
-- The central pillar on the first and second floors divides the area. The only way to cross is on the third floor. There are two ladders connecting 2F and 3F: one at (10, 14) and another at (6, 4). The ladder at (6, 4) on 3F appears to be a one-way path down.
+- The central pillar divides the first and second floors. The only way to cross from west to east is by ascending to the third floor and then descending on the other side.
 
 ## Future Plans & Untested Hypotheses
 - **Hypothesis:** Can Onix learn Flash (HM05)?
