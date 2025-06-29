@@ -66,4 +66,4 @@
 - **CARD KEY Location (Hypothesis):** The key is likely an item somewhere in Silph Co. The item at (22, 17) on 5F is blocked by impassable objects. The item at (5,7) on 5F is blocked by a closed gate.
 - **Giovanni's Location (Hypothesis):** He is on the 11th floor behind the doors that require the CARD KEY.
 - **New Agent Idea: `puzzle_solver_agent`:** An agent to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles, like the Silph Co. gate puzzle.
-- **Failed Hypothesis (Silph Co. 5F Gate Puzzle):** Standing at X-coordinates 9 through 16 in the northern corridor (Y=2) does NOT open the western gates. This approach is exhausted.
+- **Solved: 5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). Standing at X=11-13 opens the western gates. Standing at X=14-16 opens the eastern gates.
