@@ -1,31 +1,4 @@
 {
-  "find_path": {
-    "description": "Finds the shortest path on the current map using A*. Avoids impassable tiles and all objects, including off-screen obstacles identified by '☠️' map markers.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport heapq\nimport json\n\ndef find_path_logic(map_xml_string, start_x, start_y, end_x, end_y):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    impassable_tiles = {'WALL', 'HEADBUTT_TREE', 'CUT_TREE', 'WATER', 'COUNTER', 'MART_SHELF', 'BUOY', 'TOWN_MAP', 'WINDOW', 'BOOKSHELF', 'TV', 'RADIO', 'VOID', 'PILLAR'}\n    grid = [[' ' for _ in range(width + 1)] for _ in range(height + 1)]\n\n    # Mark obstacles from objects and specific markers\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.attrib['id'])\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.attrib['id'])\n            # Mark tiles with any object as impassable\n            if tile_elem.find('Object') is not None:\n                grid[y][x] = '#'\n            # Mark tiles with defeated trainer markers as impassable\n            for marker in tile_elem.findall('Marker'):\n                if marker.attrib.get('emoji') == '☠️':\n                    grid[y][x] = '#'\n                    break\n\n    # Populate grid with impassable tile types\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.attrib['id'])\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.attrib['id'])\n            if grid[y][x] == '#': continue\n            tile_type = tile_elem.attrib['type']\n            if tile_type in impassable_tiles:\n                grid[y][x] = '#'\n\n    start = (start_x, start_y)\n    end = (end_x, end_y)\n\n    if not (1 <= start[0] <= width and 1 <= start[1] <= height and 1 <= end[0] <= width and 1 <= end[1] <= height):\n        return json.dumps({'error': 'Start or end coordinates are out of bounds.'})\n    if grid[start[1]][start[0]] == '#' or grid[end[1]][end[0]] == '#':\n        return json.dumps({'error': 'Start or end tile is impassable.'})\n\n    def heuristic(a, b):\n        return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\n    open_set = []\n    heapq.heappush(open_set, (0, start))\n    came_from = {}\n    g_score = { (x,y): float('inf') for x in range(width+2) for y in range(height+2) }\n    g_score[start] = 0\n    f_score = { (x,y): float('inf') for x in range(width+2) for y in range(height+2) }\n    f_score[start] = heuristic(start, end)\n\n    while open_set:\n        _, current = heapq.heappop(open_set)\n\n        if current == end:\n            path = []\n            while current in came_from:\n                path.append({'x': current[0], 'y': current[1]})\n                current = came_from[current]\n            path.append({'x': start[0], 'y': start[1]})\n            return json.dumps(path[::-1])\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (current[0] + dx, current[1] + dy)\n\n            if not (1 <= neighbor[0] <= width and 1 <= neighbor[1] <= height):\n                continue\n            if grid[neighbor[1]][neighbor[0]] == '#':\n                continue\n\n            tentative_g_score = g_score[current] + 1\n            if tentative_g_score < g_score.get(neighbor, float('inf')):\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g_score\n                f_score[neighbor] = g_score[neighbor] + heuristic(neighbor, end)\n                if neighbor not in [i[1] for i in open_set]:\n                    heapq.heappush(open_set, (f_score[neighbor], neighbor))\n\n    return json.dumps({'error': 'No path found.'})\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\nresult = find_path_logic(map_xml_string, start_x, start_y, end_x, end_y)\nprint(result)"
-  },
   "path_master": {
     "description": "Finds the shortest path on the current map using A*. Avoids impassable tiles and objects. It can explore a limited number of unseen tiles.",
     "input_schema": {
