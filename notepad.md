@@ -1,9 +1,9 @@
-## I. Core Protocols & Immediate Actions (v59)
-- **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
+## I. Core Protocols & Immediate Actions (v133)
+- **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. NO DELAYS. This includes documenting faulty tools and agents.
 - **CRITICAL: WKG Protocol:** Before adding any node or edge, I will FIRST query the WKG with `wkg_checker` to confirm it doesn't already exist. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`.
-- **CRITICAL: Map Marker Protocol:** I will immediately mark defeated trainers and other key events. Redundant markers will be deleted.
+- **CRITICAL: Map Marker Protocol:** I will immediately mark defeated trainers and other key events. Redundant markers will be deleted. I will migrate all trainer intel from this notepad to map markers.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic.
-- **CRITICAL: Tool Maintenance Protocol:** If a custom tool is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding other gameplay objectives until resolved.
+- **CRITICAL: Tool Maintenance Protocol:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding ALL other gameplay objectives until resolved.
 
 ## II. Current Mission: Liberate Silph Co.
 - **Primary Objective:** Clear all Team Rocket members, defeat Pixel and Giovanni, and rescue the Silph Co. President.
@@ -36,9 +36,10 @@
     - **PC Interaction:** Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in.
 
-## IV. Tool Development Log (v102)
+## IV. Tool Development Log (v133)
 ### A. Development Pipeline
 - **TOP PRIORITY (BUG FIX):** `pathfinder` & `dungeon_navigator` are unreliable and generate invalid paths through impassable fences (e.g., on Route 13). **Testing Plan:** Attempt to use pathfinder to navigate around other types of impassable tiles (e.g., buildings, rocks) to see if the bug is specific to fences or all impassable tiles.
+- **NEW TOOL: `pc_navigator_tool`:** Create a deterministic tool for PC menu navigation. Agents are not suitable for this task.
 - **NEW: `wkg_manager_tool`:** Create a single tool to handle the 'check-then-add' logic for a map transition to improve efficiency.
 
 ### B. Active Agents & Tools
@@ -53,6 +54,9 @@
   - `object_finder` (v1) - Reliable
   - `wkg_checker` (v3) - Reliable
 
+### C. Deprecated Agents
+- `pc_navigator_agent` (v2) - **DELETED.** Unreliable for deterministic menu navigation. To be replaced with a tool.
+
 ## V. Investigation Log
 ### A. Silph Co. Intel
 - **Boardroom Location:** A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
@@ -61,13 +65,3 @@
 ### B. Untested Assumptions & Hypotheses
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
 - **PC Glitch:** The PC in Celadon City is persistently bugged and I must always select 'BILL's PC' to access the Pokémon Storage System. This needs to be re-verified on next use.
-
-## VI. Trainer Intel (Overworld)
-### Route 13
-- Biker (@ 11,8): SHELLDER (Lv.29), WEEZING (Lv.29), CLOYSTER (Lv.29) - Defeated
-- Beauty (@ 33, 8): CLEFAIRY (Lv.29), PERSIAN (Lv.29) - Defeated
-- Jr. Trainer♀ (@ 28, 10): POLIWHIRL (Lv.30), SEAKING (Lv.30) - Defeated
-- Bird Keeper (@ 14, 5): SPEAROW (Lv.29), DODUO (Lv.29), PIDGEY (Lv.29), SPEAROW (Lv.29), SPEAROW (Lv.29) - Defeated
-- Cool Trainer M (@ 13, 5) - Defeated
-- Cool Trainer F (@ 24, 11) - Defeated
-- Cool Trainer M (@ 8, 12) - Defeated
