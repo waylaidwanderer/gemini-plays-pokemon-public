@@ -23,7 +23,7 @@
 - Received HM05 (Flash) from the Elder in Sprout Tower.
 
 ### Observed Movesets
-- G (TOTODILE): WATER GUN (Learned at Lv13), SCRATCH, LEER, RAGE
+- G (CROCONAW): WATER GUN, SCRATCH, LEER, RAGE
 - Wild Poliwag: BUBBLE
 - Wild Hoothoot: TACKLE
 - Wild Bellsprout: VINE WHIP
@@ -44,14 +44,11 @@
 - **VOID:** Out-of-bounds, impassable.
 - **WARP_CARPET_*: Warp tile, direction-specific.
 - **FRUIT_TREE:** Impassable object, may yield items.
-- **LADDER:** A warp tile. Automatically triggers a warp when stepped on. Can be one-way.
+- **LADDER:** A warp tile. Automatically triggers a warp when stepped on. Must be tested to confirm if one-way or two-way.
 
 ### Sprout Tower Layout
-- The central pillar divides the lower floors, making them impassable east-to-west. To get from the west side of the tower to the east side, one must ascend to the third floor, cross it, and then descend. The only way down from 3F is the ladder at (10, 14).
+- The central pillar divides the first and second floors. The only way to cross from west to east is by ascending to the third floor and then descending on the other side. The only confirmed ladder on the third floor is at (10, 14).
 
 ## Future Plans & Untested Hypotheses
 - **Hypothesis:** Can Onix learn Flash (HM05)?
-- **Testing Plan:** Explicitly walk into every new tile type from all four directions to confirm traversability.
-
-## Tool/Agent Development
-- **Agent Idea (`pokemon_evaluator`):** An agent to suggest the best lead Pokémon and moves for a given battle based on type matchups and known movesets.
+- **Testing Plan:** Explicitly walk into every new tile type from all four directions to confirm traversability and document it.
