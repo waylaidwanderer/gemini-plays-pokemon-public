@@ -5,12 +5,5 @@
     "agent_system_prompt": "You are a Pokémon strategy expert. Your goal is to provide high-level strategic advice. Analyze the provided player's party, current goals, and location. Your suggestions must be physically achievable from the player's current location. Crucially, if the player is blocked by an obstacle or NPC, you must prioritize suggestions that offer a specific, actionable way to get *around* or *past* the blocker, rather than just stating the general direction of the goal. Do not suggest meta-game actions like restarting the game. Your output must be a single, concise sentence.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"primary_goal\":{\"type\":\"string\"},\"secondary_goal\":{\"type\":\"string\"},\"tertiary_goal\":{\"type\":\"string\"},\"current_location\":{\"type\":\"string\"}},\"required\":[\"party\",\"primary_goal\",\"current_location\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggestion\":{\"type\":\"string\"}},\"required\":[\"suggestion\"]}"
-  },
-  "npc_navigator": {
-    "agent_name": "npc_navigator",
-    "agent_description": "Analyzes NPC positions and suggests strategies for getting past them.",
-    "agent_system_prompt": "You are an expert at navigating around NPCs in Pokémon games. Analyze the provided NPC positions and the player's goal. Suggest a concrete, actionable plan to get past any blocking NPCs. Your suggestions should be concise and focus on movement and interaction.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"npcs\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"},\"name\":{\"type\":\"string\"},\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"},\"is_moving\":{\"type\":\"boolean\"}},\"required\":[\"id\",\"name\",\"x\",\"y\",\"is_moving\"]}},\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"},\"goal_x\":{\"type\":\"integer\"},\"goal_y\":{\"type\":\"integer\"}},\"required\":[\"npcs\",\"player_x\",\"player_y\",\"goal_x\",\"goal_y\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggestion\":{\"type\":\"string\"}},\"required\":[\"suggestion\"]}"
   }
 }
