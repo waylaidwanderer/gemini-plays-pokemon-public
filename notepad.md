@@ -68,4 +68,3 @@
 - **Solved: CARD KEY Location:** The CARD KEY was located on Silph Co. 5F at (22, 17), accessible after using a series of teleporters to navigate between the segmented floors.
 
 ### C. Open Puzzles & Hypotheses
-- **WKG DEBT:** The edge for the 3F-4F stairs is missing the `destination_entry_point`. Must fix this when next on 4F.
