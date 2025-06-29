@@ -57,7 +57,7 @@
 ## IV. Future Plans & Untested Hypotheses
 
 - **Hypothesis:** Can Onix learn Flash (HM05)?
-- **Bug Found:** The `path_master` tool has a bug and failed to route around a defeated trainer at (9, 14) on SproutTower2F. It needs to be debugged and fixed.
+- **Correction:** My `path_master` tool is working correctly. My previous assessment that it was buggy was incorrect; it properly identified that paths were blocked by the tower's central pillar, which I failed to account for in my manual planning.
 - **Testing Plan:** Explicitly walk into every new tile type from all four directions to confirm traversability and document it.
 - **Testing Plan:** Test the `WALL` tiles around the Sprout Tower pillar to confirm they are impassable from all directions.
 - **STATUE:** An impassable scenery object found on WALL tiles.
