@@ -78,3 +78,4 @@
 - **New Tool Idea: `dungeon_navigator`**: Could take a simplified text version of a map and a goal, then output a high-level navigation plan, pointing out key structural features like the Sprout Tower pillar. This is a computational task, not an agent task.
 - **New Agent Idea: `pokemon_evaluator`**: Could take my party and an opponent's known Pokémon and suggest the best lead and moves, considering type matchups.
 - **New Tool Idea: `battle_advisor_tool`**: A computational tool that takes my party's movesets and an opponent's team and calculates the optimal lead Pokémon, rather than relying on an LLM-based agent.
+- **CRITICAL BUG:** `find_path` tool is still not correctly identifying objects as impassable. It tried to path through a Sage at (11, 11). Must be fixed ASAP.
