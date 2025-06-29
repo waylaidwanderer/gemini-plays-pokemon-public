@@ -3,7 +3,7 @@
 ## I. Party & Rival
 
 ### My Team
-- G (CROCONAW): Lv18
+- G (CROCONAW): Lv18. **NOTE: Out of PP for WATER GUN.**
 - HOOTHOOT (HOOTHOOT): Lv4
 - HOOTIN (HOOTHOOT): Lv4
 - ROCKY (ONIX): Lv6 (Traded for Bellsprout in Violet City)
@@ -25,11 +25,12 @@
 - Received HM05 (Flash) from the Elder in Sprout Tower.
 
 ### Observed Movesets
-- G (CROCONAW): WATER GUN, SCRATCH, LEER, RAGE
+- G (CROCONAW): WATER GUN (0 PP), SCRATCH, LEER, RAGE
+- ROCKY (ONIX): TACKLE, SCREECH. **NOTE: Does not have any Rock-type moves.**
 - Wild Poliwag: BUBBLE
 - Wild Hoothoot: TACKLE
 - Wild Bellsprout: VINE WHIP
-- Wild Gastly: LICK (Encountered in Sprout Tower)
+- Wild Gastly: LICK, HYPNOSIS (Encountered in Sprout Tower)
 - Wild Rattata: TACKLE (Encountered in Sprout Tower)
 
 ## III. Area & Navigation Insights
@@ -59,4 +60,4 @@
 ## IV. Future Plans & Untested Hypotheses
 
 - **Hypothesis:** Can Onix learn Flash (HM05)?
-- **Hypothesis:** The correct exit path from Sprout Tower is on the east side of the lower floors, accessible by descending from the east side of the third floor.
+- **Current Objective Plan:** My previous attempts to exit Sprout Tower via the west side have failed. The new plan is to thoroughly explore the eastern side of the lower floors, starting from the ladder at (10, 14) on the 3F, to find the correct exit path.
