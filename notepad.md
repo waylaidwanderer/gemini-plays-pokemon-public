@@ -56,9 +56,4 @@
 
 ## IV. Untested Hypotheses & To-Do
 - **To-Do:** Test teaching Flash as soon as I exit Sprout Tower.
-
-## Sprout Tower Solution
-*All paths inside the tower were dead ends after defeating the Elder. The solution was to use an ESCAPE ROPE from the top floor to instantly teleport to the entrance.*
-
-## V. Confirmed Impassable Scenery
-- **To-Do:** Test all impassable-looking scenery objects to confirm they cannot be walked through (e.g., INCENSE_BURNER, RADIO, etc.).
+- **To-Do:** Check if there are other ways to heal Pokémon besides the Pokémon Center.
