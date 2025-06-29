@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v44)
+## I. Core Protocols & Immediate Actions (v45)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with my `wkg_checker` tool to confirm it doesn't already exist.
-  - All `warp` type edges MUST include a `destination_entry_point` if known. All new nodes MUST have descriptive `tags`.
+  - All `warp` type edges MUST include a `destination_entry_point` if known (STRICTLY ENFORCE). All new nodes MUST have descriptive `tags`.
 - **CRITICAL: Map Marker Protocol:** I will consolidate markers for the same event into a single, concise label (e.g., '🚪 To/From [Location]').
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic before complex turns.
 - **CRITICAL: Post-Event Checklists (MANDATORY):**
@@ -41,21 +41,22 @@
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
-## III. Agent & Tool Development Log (v77)
+## III. Agent & Tool Development Log (v78)
 ### A. Development Priorities
 - **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
-- **New Tool Idea: `object_finder`:** A tool to find the coordinates of a named NPC or item on the current map.
 - **New Tool Idea: `puzzle_solver_agent`:** An agent to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
 - **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
+- **Tool Refinement Idea: `dungeon_navigator`:** Needs a proper exploration algorithm (like DFS) instead of its current nearest-neighbor heuristic.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
 ### B. Active Agents & Tools
 - `team_composition_advisor_agent` (v2) - Reliable
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v10) - Reliable
 - `pathfinder` (v2) - Newly improved to ignore impassable types.
+- `object_finder` (v1) - Reliable
 - **Tool FIXED: `wkg_checker` (v2):** The tool has been rewritten to correctly check for edges. The previous version failed because the `manage_world_knowledge` tool appears to strip the `map_id` from coordinate objects inside the edge payload, causing `KeyError`. The new version finds node IDs first, then checks for edges using those IDs, making it robust against this issue.
 
-## IV. Silph Co. Investigation Log (v6)
+## IV. Silph Co. Investigation Log (v7)
 ### A. Confirmed Intel & Lessons Learned
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
@@ -66,8 +67,6 @@
 
 ### C. Open Puzzles & Hypotheses
 - **FAILED HYPOTHESIS (Attempt Count: 5+):** Randomly using teleporters to find a new path has failed. I am stuck in an isolated loop between segments of 4F, 6F, and 10F.
-- **NEW HYPOTHESIS:** There is a hidden trigger (e.g., floor switch, invisible interaction point) within one of the teleporter loop segments that opens a new path or the gates blocking an item.
-- **FAILED HYPOTHESIS (Attempt Count: 1):** Systematically exploring every reachable tile in the 4F-6F-10F teleporter loop segments has failed to reveal a new path or trigger. This loop is a confirmed dead end for progression.
-- **Item on 4F:** An item at (4,10) is blocked by closed gates at (5,13) and (6,13). No obvious switch in the room. This might be related to the new hypothesis.
-- **FAILED HYPOTHESIS (Attempt Count: 1):** The intra-floor teleporter at (24, 12) on 3F does not open the gates at (18, 9) and (18, 10).
+- **FAILED HYPOTHESIS (Attempt Count: 1):** Systematically explored the 4F-6F-10F teleporter loop for a hidden trigger. No new paths or triggers were found. This loop is a confirmed dead end for progression.
+- **Item on 4F:** An item at (4,10) is blocked by closed gates at (5,13) and (6,13). No obvious switch in the room.
 - **FAILED HYPOTHESIS (Attempt Count: 1):** The intra-floor teleporter at (24, 12) on 3F does not open the gates at (18, 9) and (18, 10).
