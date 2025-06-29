@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v45)
+## I. Core Protocols & Immediate Actions (v46)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with my `wkg_checker` tool to confirm it doesn't already exist.
@@ -40,9 +40,11 @@
 
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
+- **CARD KEY:** Found on Silph Co. 5F at (22, 17).
 
-## III. Agent & Tool Development Log (v78)
+## III. Agent & Tool Development Log (v79)
 ### A. Development Priorities
+- **Tool Consolidation:** The `map_segment_analyzer` tool is now redundant with the improved `dungeon_navigator`. I should delete it and rely on `dungeon_navigator` for all future segment exploration.
 - **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
 - **New Tool Idea: `puzzle_solver_agent`:** An agent to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
 - **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
@@ -53,20 +55,18 @@
 - `battle_strategist_agent` (v10) - Reliable
 - `pathfinder` (v2) - Newly improved to ignore impassable types.
 - `object_finder` (v1) - Reliable
-- **Tool FIXED: `wkg_checker` (v2):** The tool has been rewritten to correctly check for edges. The previous version failed because the `manage_world_knowledge` tool appears to strip the `map_id` from coordinate objects inside the edge payload, causing `KeyError`. The new version finds node IDs first, then checks for edges using those IDs, making it robust against this issue.
+- **Tool FIXED: `wkg_checker` (v2):** The tool has been rewritten to correctly check for edges.
+- **Tool FIXED: `dungeon_navigator` (v3):** The tool has been rewritten with a proper DFS algorithm.
 
-## IV. Silph Co. Investigation Log (v7)
+## IV. Silph Co. Investigation Log (v8)
 ### A. Confirmed Intel & Lessons Learned
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
 - **Boardroom Location:** A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
 
 ### B. Solved Puzzles
-- **Solved: 5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). Standing at X=11-13 opens the western gates. Standing at X=14-16 opens the eastern gates. **UPDATE:** The corridors are physically separated by permanent walls, so the gates only grant access to their respective segments. A teleporter must be used to cross between them.
+- **Solved: 5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). Standing at X=11-13 opens the western gates. Standing at X=14-16 opens the eastern gates. **UPDATE:** The corridors are physically separated by permanent walls, so a teleporter must be used to cross between them.
+- **Solved: CARD KEY Location:** The CARD KEY was located on Silph Co. 5F at (22, 17), accessible after using a series of teleporters to navigate between the segmented floors.
 
 ### C. Open Puzzles & Hypotheses
-- **FAILED HYPOTHESIS (Attempt Count: 5+):** Randomly using teleporters to find a new path has failed. I am stuck in an isolated loop between segments of 4F, 6F, and 10F.
-- **FAILED HYPOTHESIS (Attempt Count: 1):** Systematically exploring every reachable tile in the 4F-6F-10F teleporter loop segments has failed to reveal a new path or trigger. This loop is a confirmed dead end for progression.
-- **Item on 4F:** An item at (4,10) is blocked by closed gates at (5,13) and (6,13). No obvious switch in the room.
-- **FAILED HYPOTHESIS (Attempt Count: 1):** The intra-floor teleporter at (24, 12) on 3F does not open the gates at (18, 9) and (18, 10).
 - **WKG DEBT:** The edge for the 3F-4F stairs is missing the `destination_entry_point`. Must fix this when next on 4F.
