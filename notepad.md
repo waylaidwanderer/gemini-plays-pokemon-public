@@ -19,7 +19,7 @@
 - Received POKéGEAR from Mom.
 - Received a BERRY from a man on Route 30.
 - Received 5 POKé BALLS from a scientist in Elm's Lab.
-- Traded a Bellsprout for an Onix in Violet City.
+- Traded a Bellsprout for an Onix (ROCKY) in Violet City.
 - Received HM05 (Flash) from the Elder in Sprout Tower.
 
 ### Observed Movesets
