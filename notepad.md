@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v55)
+## I. Core Protocols & Immediate Actions (v56)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays. Lapses, like on turn 35849, are unacceptable and will be corrected.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with my `wkg_checker` tool to confirm it doesn't already exist.
@@ -45,11 +45,11 @@
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in. Both ECHO (lead) and SPOONBENDE (switched in) gained EXP from the Weepinbell battle.
 - **Route 13 Fences:** The maze on Route 13 is lined with impassable fence tiles that my navigation tools are currently failing to account for, leading to invalid paths.
 
-## IV. Tool Development Log (v97)
+## IV. Tool Development Log (v98)
 ### A. Development Pipeline
 - **TOP PRIORITY: `pathfinder` (BUG FIX):** Per AI feedback and repeated failures on Route 13 (T#35999), this tool is unreliable and generates invalid paths through impassable fences. Fixing this is now the highest priority development task.
-- **TOP PRIORITY: `wkg_manager_tool` (New):** Per AI feedback, create a single tool to handle the entire 'check-then-add' logic for a map transition (nodes and edge) atomically to improve efficiency and reduce errors.
 - **HIGH PRIORITY: `dungeon_navigator` (BUG FIX):** Per AI feedback, I must adhere to my own protocol and prioritize fixing this bugged tool. It generated a non-viable path on Route 13. I will address this immediately after fixing `pathfinder`.
+- **NEW: `wkg_manager_tool` (New):** Per AI feedback, create a single tool to handle the entire 'check-then-add' logic for a map transition (nodes and edge) atomically to improve efficiency and reduce errors.
 - **NEW: `encounter_grinder_tool` (New):** Define a tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training. This will replace my inefficient manual grinding.
 - **New Agent Idea: `puzzle_solver_agent`:** An agent (not a tool) to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. This is a reasoning task, better suited for an agent.
 - **New Agent Idea: `pc_navigator_agent`:** An agent to generate button sequences to operate the Pokémon PC menu for depositing and withdrawing Pokémon. This will automate a tedious, repetitive task.
@@ -61,6 +61,7 @@
 
 - `select_battle_option` (v1) - Reliable
 - `pathfinder` (v3) - **BUGGED:** Fails to navigate simple fence obstacles on Route 13. DO NOT USE FOR NAVIGATION UNTIL FIXED.
+- `dungeon_navigator` (v1) - **BUGGED:** Generated a non-viable path on Route 13. DO NOT USE UNTIL FIXED.
 - `object_finder` (v1) - Reliable
 - `wkg_checker` (v3) - Reliable
 
@@ -82,3 +83,6 @@
 ## VI. Trainer Intel (Overworld)
 ### Route 13
 - Biker (@ 11,8): SHELLDER (Lv.29), WEEZING (Lv.29), CLOYSTER (Lv.29)
+- Beauty (@ 33, 8): CLEFAIRY (Lv.29), PERSIAN (Lv.29)
+- Jr. Trainer♀ (@ 28, 10): POLIWHIRL (Lv.30), SEAKING (Lv.30)
+- Bird Keeper (@ 14, 5): SPEAROW (Lv.29), DODUO (Lv.29), PIDGEY (Lv.29), SPEAROW (Lv.29), SPEAROW (Lv.29)
