@@ -47,7 +47,7 @@
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING:** Impassable scenery.
 - **WATER/CUT_TREE/BUOY:** Impassable.
 - **PILLAR:** Impassable.
-
+- **VOID:** Impassable.
 - **WARP_CARPET_*: Warp tile, direction-specific.
 - **FRUIT_TREE:** Impassable object, may yield items.
 - **LADDER:** A two-way warp tile, triggered by movement (not by pressing 'A').
@@ -60,4 +60,4 @@
 ## IV. Future Plans & Untested Hypotheses
 
 - **Hypothesis:** Can Onix learn Flash (HM05)?
-- **Current Objective Plan:** My previous attempts to exit Sprout Tower via the west side have failed. The new plan is to thoroughly explore the eastern side of the lower floors, starting from the ladder at (10, 14) on the 3F, to find the correct exit path.
+- **Current Objective Plan:** My previous attempts to exit Sprout Tower via the eastern side have failed. The new plan is to thoroughly explore the western side of the third floor to find the correct exit path. I will start by exploring the northern section.
