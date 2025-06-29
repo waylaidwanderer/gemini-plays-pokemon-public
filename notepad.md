@@ -53,11 +53,6 @@
 - **LADDER:** A warp tile triggered by movement. Can be one-way (e.g., SproutTower2F (10, 14) is one-way down) or two-way.
 - **STATUE:** An impassable scenery object.
 
-### Sprout Tower Layout
-- The central pillar on 1F and 2F is a complete divider, preventing east-west travel. **(Hypothesis proven false on 2F)**
-- To cross between the east and west sides, one must use the 3rd floor. **(Hypothesis proven false)**
-- The main tower exit is on the eastern side of the 1st floor at (9, 15).
-
 ## IV. Untested Hypotheses & To-Do
 - **Hypothesis:** Can Onix or Hoothoot learn Flash (HM05)?
 - **To-Do:** Test teaching Flash as soon as I exit Sprout Tower.
