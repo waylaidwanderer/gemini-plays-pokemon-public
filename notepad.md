@@ -61,7 +61,7 @@
 - **CAVE:** A warp tile that leads to another map.
 - **PC:** An impassable, interactive object. Must be interacted with from the tile below, while facing up.
 - **PILLAR:** Confirmed impassable. Acts as a wall.
-- **LADDER:** A warp tile.
+- **LADDER:** A warp tile. Automatically triggers a warp when stepped on. No button press needed.
 - **PAINTING:** Impassable object.
 
 ### Discovered Traps & Puzzles
@@ -75,6 +75,6 @@
 
 ## Tool/Agent Development Notes
 - **unstick_me_tool Bug:** The tool needs to be updated. It currently defines 'escape' as warping to a new map ID. It should be modified to also recognize warps to different floors within the same location (i.e., same map group ID, different map number) as a valid path forward. (Priority: High)
-- **New Agent Idea: `dungeon_navigator`**: Could take a simplified text version of a map and a goal, then output a high-level navigation plan, pointing out key structural features like the Sprout Tower pillar.
+- **New Tool Idea: `dungeon_navigator`**: Could take a simplified text version of a map and a goal, then output a high-level navigation plan, pointing out key structural features like the Sprout Tower pillar. This is a computational task, not an agent task.
 - **New Agent Idea: `pokemon_evaluator`**: Could take my party and an opponent's known Pokémon and suggest the best lead and moves, considering type matchups.
 - **New Tool Idea: `battle_advisor_tool`**: A computational tool that takes my party's movesets and an opponent's team and calculates the optimal lead Pokémon, rather than relying on an LLM-based agent.
