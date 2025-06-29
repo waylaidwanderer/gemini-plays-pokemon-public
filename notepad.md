@@ -37,9 +37,9 @@
 - **`teleport`**: Instant warp tile. In Silph Co., these are one-way or two-way teleporters between and within floors.
 - **`elevator`**: A specialized warp system in Silph Co. Requires interaction with a panel to select a floor, then stepping on a warp tile to travel.
 
-## III. Agent & Tool Development Log (v86)
+## III. Agent & Tool Development Log (v87)
 ### A. Development Pipeline
-- **BUG FIX (TOP PRIORITY): `dungeon_navigator`:** The current DFS implementation is buggy and needs to be rewritten to ensure it explores all reachable tiles correctly.
+- **BUG FIX (TOP PRIORITY): `dungeon_navigator` (v3):** This tool is bugged and quarantined. The current DFS implementation is faulty and needs to be rewritten to ensure it explores all reachable tiles correctly. DO NOT USE UNTIL FIXED.
 - **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon. (Re-classified from agent to tool).
 - **New Tool Idea: `puzzle_solver_tool`:** A tool to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
@@ -51,9 +51,6 @@
 - `pathfinder` (v2) - Reliable
 - `object_finder` (v1) - Reliable
 - `wkg_checker` (v3) - Reliable
-
-### C. Quarantined Tools
-- `dungeon_navigator` (v3) - BUGGED, DO NOT USE UNTIL FIXED
 
 ## IV. Silph Co. Investigation Log (v9)
 ### A. Confirmed Intel & Lessons Learned
