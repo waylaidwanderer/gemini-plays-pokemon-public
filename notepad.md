@@ -70,4 +70,4 @@
 ### C. Open Puzzles & Hypotheses
 - **New Agent Idea: `objective_planner_agent`:** An agent to analyze my current goals, location, and the World Knowledge Graph to suggest the most logical next map to visit for maximum progress.
 - **Tool Bug Report: `wkg_checker` (v2):** The tool is still buggy. It incorrectly reported an edge as non-existent when it was already in the graph, causing a failed add_edge call on turn 34521. Needs further refinement.
-- **CRITICAL REFINEMENT:** The `wkg_checker` tool itself is not buggy. The failure on turn 34521 was due to me providing incorrect coordinates for the destination node. I must be extremely careful to verify the exact coordinates of nodes from the WKG before using the checker.
+- **CRITICAL REFINEMENT:** The `wkg_checker` tool's failure on turn 34521 was due to me providing incorrect coordinates for the destination node. I must be extremely careful to verify the exact coordinates of nodes from the WKG before using the checker. I have refined the tool to be more robust anyway.
