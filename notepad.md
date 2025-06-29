@@ -19,7 +19,7 @@
 - Received POKéGEAR from Mom in New Bark Town.
 - Received a BERRY from a man on Route 30.
 - Received 5 POKé BALLS from a scientist in Elm's Lab.
-- A Youngster in Kyle's House (Violet City) will trade a Bellsprout for an Onix.
+- Traded a Bellsprout for an Onix with a Youngster in Kyle's House (Violet City).
 
 ### Observed Movesets
 - G (TOTODILE) learned WATER GUN at Lv13.
@@ -60,6 +60,7 @@
 - **PC:** An impassable, interactive object. Must be interacted with from the tile below, while facing up.
 - **PILLAR:** Confirmed impassable. Acts as a wall.
 - **LADDER:** A warp tile.
+- **PAINTING:** Impassable object.
 
 ### Untested Hypotheses
 - **FLOOR_UP_WALL:** Present in Dark Cave. Appears to be a one-way wall traversable only from below. Needs to be tested.
