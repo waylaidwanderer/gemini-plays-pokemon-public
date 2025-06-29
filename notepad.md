@@ -54,13 +54,11 @@
 - **STATUE:** An impassable scenery object.
 
 ## IV. Untested Hypotheses & To-Do
-- **Hypothesis:** Can Onix or Hoothoot learn Flash (HM05)?
 - **To-Do:** Test teaching Flash as soon as I exit Sprout Tower.
 
-## Sprout Tower Escape Plan (V8 - Central Exploration)
-Hypothesis: A path connecting the west and east sides of SproutTower2F exists through the large unseen area in the center.
-*Previous plans failed due to faulty tools and incorrect assumptions about the map layout.
-1. From my current position at (8, 14), use the refined `path_master` tool to navigate to the edge of the unseen area at (8, 9).
-2. Explore eastward from (8, 9) to reveal the path.
-3. Once a path to the eastern side is found, locate the ladder at (17, 3) to descend.
-4. On 1F, navigate to the main tower exit at (9, 15).
+## Sprout Tower Escape Plan (V9 - Final Hypothesis)
+*Previous plans failed due to a critically flawed pathfinding tool and incorrect assumptions about the map layout. The tool is now fixed.*
+Hypothesis: The ladder at (6, 4) is the correct exit path from the western section of SproutTower2F. My previous attempt to path there failed due to the buggy tool.
+1. From my current position at (8, 15), use the refined `path_master` tool to navigate to the ladder at (6, 4).
+2. Descend to 1F.
+3. On 1F, navigate to the main tower exit at (9, 15).
