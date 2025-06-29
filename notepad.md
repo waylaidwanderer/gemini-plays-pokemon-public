@@ -44,29 +44,27 @@
 - **WALL:** Impassable.
 - **FLOOR:** Traversable.
 - **TALL_GRASS:** Traversable, triggers wild encounters.
-- **LEDGE:** One-way downward traversal.
+- **LEDGE:** Confirmed one-way downward traversal.
 - **COUNTER:** Impassable.
 - **DOOR/CAVE:** Warp tile, triggered by movement.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
 - **WATER/CUT_TREE/BUOY/HEADBUTT_TREE:** Impassable.
 - **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below (moving up). Impassable from above.
+- **LADDER:** Confirmed traversable (acts as FLOOR on docks).
+- **FLOOR_HOP_DOWN_LEDGE:** Confirmed one-way traversal downward.
+- **FLOOR_HOP_RIGHT_LEDGE:** Confirmed one-way traversal to the right.
+- **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** Confirmed one-way traversal down or right.
 - **WARP_CARPET_DOWN:** Warp tile, triggered by movement.
 - **VOID:** Confirmed impassable.
 - **WARP_CARPET_LEFT:** Untested. Inferred one-way warp.
 - **WARP_CARPET_RIGHT:** Untested. Inferred one-way warp.
-- **FLOOR_HOP_DOWN_LEDGE:** Untested. Inferred one-way traversal downward.
-- **FLOOR_HOP_RIGHT_LEDGE:** Untested. Inferred one-way traversal to the right.
-- **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** Untested. Inferred one-way traversal down or right.
-- **LADDER:** Untested. Inferred traversable.
 
 ## V. Untested Hypotheses & To-Do
 - **Hypothesis:** My current team, heavily reliant on a single high-level Pokémon, may struggle against future Gym Leaders.
 - **Confirmed:** Not all Cooltrainers will battle me. Some offer advice.
 - **To-Do:** Check for alternative healing methods besides the Pokémon Center.
-- **To-Do:** Talk to the Gym Guide in the Violet City Gym.
 - **To-Do:** Systematically test all unverified tile mechanics. Find examples of each 'Untested' tile and attempt to move on them from all four directions.
 - **To-Do:** Explore the water on Route 32 with the OLD ROD.
-- **To-Do:** Interact with the Fisher at (7, 70) and the Fisher at (6, 48) to confirm if they are trainers.
 
 ## VI. Strategic Notes
 - **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move, which is a major disadvantage. **Plan:** Level up ROCKY and hope he learns a Rock-type move soon, or find a TM. For now, rely on G (Croconaw) and use ROCKY for defensive switching or to use SCREECH.
