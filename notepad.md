@@ -68,3 +68,8 @@
 ### Discovered Traps & Puzzles
 - **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
 - **Sprout Tower Layout:** The first and second floors are split by a central pillar, preventing east-west passage. Different ladders must be used to access both sides.
+
+## Current Plan
+- Defeat the Sages on Sprout Tower 3F to clear the path.
+- Collect the item at (6, 14).
+- Find and defeat the Elder at the top of the tower.
