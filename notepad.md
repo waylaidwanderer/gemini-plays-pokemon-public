@@ -64,3 +64,11 @@
 
 - **Hypothesis:** Can Onix learn Flash (HM05)?
 - **Hypothesis:** HMs can be taught from the Pokémon status screen.
+
+## V. Short-Term Plans
+
+### Plan to escape Sprout Tower:
+1. Ascend to 3F using the western ladders.
+2. On 3F, cross from the west side to the east side.
+3. Descend to 1F using the eastern ladders.
+4. Exit the tower via the warp at (9, 15).
