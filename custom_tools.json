@@ -37,41 +37,6 @@
     },
     "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\nimport traceback\n\ndef analyze_segment_fixed(map_xml_string, start_x, start_y):\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get('width'))\n        height = int(root.get('height'))\n        start_x, start_y = int(start_x), int(start_y)\n\n        grid = {}\n        for r in root.findall('Row'):\n            y = int(r.get('id'))\n            for t in r.findall('Tile'):\n                x = int(t.get('id'))\n                has_impassable_object = False\n                obj_node = t.find('Object')\n                if obj_node is not None and obj_node.get('id-name') != 'Pikachu':\n                    has_impassable_object = True\n                \n                grid[(x, y)] = {\n                    'type': t.get('type'),\n                    'has_object': has_impassable_object,\n                    'is_warp': t.get('is-warp') == 'true',\n                    'original_object_node': obj_node\n                }\n        \n        impassable_types = ['impassable', 'unknown', 'cuttable', 'water', 'closed_gate']\n        \n        queue = deque([(start_x, start_y)])\n        visited = set([(start_x, start_y)])\n        reachable_tiles_coords = set([(start_x, start_y)])\n        reachable_warps, reachable_objects = [], []\n\n        while queue:\n            cx, cy = queue.popleft()\n            \n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = cx + dx, cy + dy\n\n                if (nx, ny) not in visited:\n                    neighbor_data = grid.get((nx, ny))\n                    if neighbor_data:\n                        visited.add((nx, ny))\n                        if neighbor_data['type'] not in impassable_types and not neighbor_data['has_object']:\n                            reachable_tiles_coords.add((nx, ny))\n                            queue.append((nx, ny))\n        \n        for x, y in reachable_tiles_coords:\n            tile_data = grid.get((x, y))\n            if tile_data:\n                if tile_data['is_warp']:\n                    if {'x': x, 'y': y} not in reachable_warps:\n                        reachable_warps.append({'x': x, 'y': y})\n                \n                obj_node = tile_data['original_object_node']\n                if obj_node is not None:\n                    obj_data = {\n                        'id': obj_node.get('id'),\n                        'id-name': obj_node.get('id-name'),\n                        'name': obj_node.get('name'),\n                        'x': x,\n                        'y': y\n                    }\n                    if obj_data not in reachable_objects:\n                        reachable_objects.append(obj_data)\n\n        result = {\n            \"reachable_tiles_count\": len(reachable_tiles_coords),\n            \"reachable_warps\": reachable_warps,\n            \"reachable_objects\": reachable_objects,\n            \"segment_size\": len(reachable_tiles_coords)\n        }\n        return json.dumps(result, indent=2)\n        \n    except Exception as e:\n        return json.dumps({\"error\": str(e), \"traceback\": traceback.format_exc()})\n\nprint(analyze_segment_fixed(map_xml_string, input_data['start_x'], input_data['start_y']))"
   },
-  "overworld_navigator": {
-    "description": "Calculates a multi-map path between a start and end location using the World Knowledge Graph. This tool is designed for complex navigation that requires traversing between different map_ids via warps or map edges. It returns a sequence of actions, including local pathfinding on each map segment and the necessary warp/transition actions.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_map_id": {
-          "type": "string"
-        },
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "end_map_id": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_map_id",
-        "start_x",
-        "start_y",
-        "end_map_id",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import json\nimport heapq\n\ndef heuristic(a, b):\n    return abs(a['x'] - b['x']) + abs(a['y'] - b['y'])\n\ndef a_star_search(graph, start_node_id, end_node_id):\n    nodes_by_id = {n['id']: n for n in graph['nodes']}\n    start_node = nodes_by_id.get(start_node_id)\n    end_node = nodes_by_id.get(end_node_id)\n    if not start_node or not end_node:\n        return None\n\n    open_set = [(0, start_node_id)]\n    came_from = {}\n    g_score = {node_id: float('inf') for node_id in nodes_by_id}\n    g_score[start_node_id] = 0\n    f_score = {node_id: float('inf') for node_id in nodes_by_id}\n    f_score[start_node_id] = heuristic(start_node['coordinates'], end_node['coordinates'])\n    open_set_hash = {start_node_id}\n\n    while open_set:\n        _, current_id = heapq.heappop(open_set)\n        open_set_hash.remove(current_id)\n\n        if current_id == end_node_id:\n            path = []\n            temp = current_id\n            while temp in came_from:\n                path.append(temp)\n                temp = came_from[temp]\n            path.append(start_node_id)\n            return path[::-1]\n\n        for edge in graph['edges']:\n            neighbor_id = None\n            if edge['source_node_id'] == current_id:\n                neighbor_id = edge['destination_node_id']\n            elif edge['destination_node_id'] == current_id and not edge.get('is_one_way', False):\n                neighbor_id = edge['source_node_id']\n\n            if neighbor_id:\n                tentative_g_score = g_score[current_id] + 1\n                if tentative_g_score < g_score[neighbor_id]:\n                    came_from[neighbor_id] = current_id\n                    g_score[neighbor_id] = tentative_g_score\n                    neighbor_node = nodes_by_id.get(neighbor_id)\n                    if neighbor_node:\n                        f_score[neighbor_id] = g_score[neighbor_id] + heuristic(neighbor_node['coordinates'], end_node['coordinates'])\n                        if neighbor_id not in open_set_hash:\n                            heapq.heappush(open_set, (f_score[neighbor_id], neighbor_id))\n                            open_set_hash.add(neighbor_id)\n    return None\n\ntry:\n    world_graph = json.loads(world_knowledge_graph_json_string)\n    start_map_id = input_data['start_map_id']\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_map_id = input_data['end_map_id']\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n\n    start_nodes_on_map = [n for n in world_graph.get('nodes', []) if n.get('map_id') == start_map_id]\n    end_nodes_on_map = [n for n in world_graph.get('nodes', []) if n.get('map_id') == end_map_id]\n\n    if not start_nodes_on_map or not end_nodes_on_map:\n        print(json.dumps({'path_found': False, 'path': [], 'error': 'Start or end map not found in World Knowledge Graph.'}))\n    else:\n        start_node = min(start_nodes_on_map, key=lambda n: heuristic(n['coordinates'], {'x': start_x, 'y': start_y}))\n        end_node = min(end_nodes_on_map, key=lambda n: heuristic(n['coordinates'], {'x': end_x, 'y': end_y}))\n        path_node_ids = a_star_search(world_graph, start_node['id'], end_node['id'])\n\n        if path_node_ids:\n            path_details = []\n            for node_id in path_node_ids:\n                node = next((n for n in world_graph['nodes'] if n['id'] == node_id), None)\n                if node:\n                    path_details.append({'map_id': node['map_id'], 'name': node['name'], 'x': node['coordinates']['x'], 'y': node['coordinates']['y']})\n            print(json.dumps({'path_found': True, 'path': path_details}))\n        else:\n            print(json.dumps({'path_found': False, 'path': [], 'error': 'No path found between nodes in World Knowledge Graph.'}))\nexcept Exception as e:\n    print(json.dumps({'path_found': False, 'path': [], 'error': str(e)}))\n"
-  },
   "pathfinder": {
     "description": "Calculates the shortest path on the current map using BFS. Can optionally ignore certain impassable tile types.",
     "input_schema": {
@@ -142,5 +107,20 @@
       ]
     },
     "python_script": "import json\nwkg = json.loads(world_knowledge_graph_json_string)\nelement_type = input_data['element_type']\nmap_id = input_data['map_id']\nx = int(input_data['x'])\ny = int(input_data['y'])\nfound = False\n\nif element_type == 'node':\n    for node in wkg.get('nodes', []):\n        if node.get('map_id') == map_id and node.get('coordinates', {}).get('x') == x and node.get('coordinates', {}).get('y') == y:\n            found = True\n            break\nelif element_type == 'edge':\n    to_map_id = input_data['to_map_id']\n    to_x = int(input_data['to_x'])\n    to_y = int(input_data['to_y'])\n    \n    source_node_id = None\n    dest_node_id = None\n    \n    for node in wkg.get('nodes', []):\n        if node.get('map_id') == map_id and node.get('coordinates', {}).get('x') == x and node.get('coordinates', {}).get('y') == y:\n            source_node_id = node.get('id')\n        if node.get('map_id') == to_map_id and node.get('coordinates', {}).get('x') == to_x and node.get('coordinates', {}).get('y') == to_y:\n            dest_node_id = node.get('id')\n    \n    if source_node_id and dest_node_id:\n        for edge in wkg.get('edges', []):\n            s_id = edge.get('source_node_id')\n            d_id = edge.get('destination_node_id')\n            if (s_id == source_node_id and d_id == dest_node_id) or \\\n               (not edge.get('is_one_way', False) and s_id == dest_node_id and d_id == source_node_id):\n                found = True\n                break\n\nprint(json.dumps({'exists': found}))"
+  },
+  "object_finder": {
+    "description": "Finds the coordinates of a named NPC or item on the current map by searching its `id-name` or `name` attribute.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "object_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "object_name"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ntry:\n    object_name_to_find = input_data['object_name']\n    root = ET.fromstring(map_xml_string)\n    \n    found_objects = []\n\n    for r in root.findall('Row'):\n        for t in r.findall('Tile'):\n            for obj in t.findall('Object'):\n                id_name = obj.get('id-name', '')\n                event_name = obj.get('name', '')\n                \n                if object_name_to_find.lower() in id_name.lower() or object_name_to_find.lower() in event_name.lower():\n                    found_objects.append({\n                        'id-name': id_name,\n                        'name': event_name,\n                        'x': int(t.get('id')),\n                        'y': int(r.get('id'))\n                    })\n\n    if found_objects:\n        print(json.dumps({'found': True, 'objects': found_objects}))\n    else:\n        print(json.dumps({'found': False, 'message': f\"Object '{object_name_to_find}' not found on the current map.\"}))\n\nexcept Exception as e:\n    print(json.dumps({'found': False, 'error': str(e)}))"
   }
 }
