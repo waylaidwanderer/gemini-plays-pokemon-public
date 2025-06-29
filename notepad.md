@@ -60,7 +60,7 @@
 - **Boardroom Location:** A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
 
 ### B. Solved Puzzles
-- **5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). X-coordinates 16 down to 9 have been tested and their effects on the gates are understood.
+- **Solved: 5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). Standing at X=11-13 opens the western gates. Standing at X=14-16 opens the eastern gates.
 
 ### C. Open Puzzles & Hypotheses
 - **CARD KEY Location (Hypothesis):** The key is likely an item somewhere in Silph Co. The item at (22, 17) on 5F is blocked by impassable objects. The item at (5,7) on 5F is blocked by a closed gate.
