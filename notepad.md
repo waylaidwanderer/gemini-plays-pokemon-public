@@ -41,7 +41,7 @@
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
-## III. Agent & Tool Development Log (v72)
+## III. Agent & Tool Development Log (v73)
 ### A. Development Priorities
 - **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
 - **New Tool Idea: `object_finder`:** A tool to find the coordinates of a named NPC or item on the current map.
