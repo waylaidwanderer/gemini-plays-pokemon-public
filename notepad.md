@@ -64,3 +64,4 @@
 - **FLOOR_UP_WALL:** Inferred impassable.
 - **FLOOR_HOP_DOWN_LEDGE:** Inferred one-way traversal downward.
 - **FLOOR_UP_WALL:** Inferred impassable from below.
+- **FLOOR_HOP_RIGHT_LEDGE:** Inferred one-way traversal to the right.
