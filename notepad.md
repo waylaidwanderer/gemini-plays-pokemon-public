@@ -5,7 +5,7 @@
 - G (TOTODILE): Lv14
 - HOOTHOOT (HOOTHOOT): Lv4
 - HOOTIN (HOOTHOOT): Lv4
-- Salad (BELLSPROUT): Lv5
+- ROCKY (ONIX): Lv5 (Traded for Bellsprout in Violet City)
 
 ### Rival SILVA's Team
 - CHIKORITA: Lv5 (Last seen in New Bark Town)
