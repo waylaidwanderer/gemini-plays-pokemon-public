@@ -30,7 +30,7 @@
 ## III. Battle Info
 
 ### Observed Movesets
-- My G (CROCONAW): SCRATCH, WATER GUN, LEER, RAGE
+- My G (CROCONAW): BITE, WATER GUN, LEER, RAGE
 - My ROCKY (ONIX): TACKLE, SCREECH. **(Lacks a Rock-type move)**
 - Wild Poliwag: BUBBLE
 - Wild Hoothoot: TACKLE, FLASH
