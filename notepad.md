@@ -36,7 +36,7 @@
 ## III. Area & Navigation Insights
 
 ### Tile Traversal Rules (Verified)
-- **Objects are impassable:** All map objects (items, trees, signs, defeated trainers etc.) act as walls.
+- **Objects are impassable:** All map objects (items, trees, signs, defeated trainers etc.) act as as walls.
 - **WALL:** Impassable.
 - **FLOOR:** Traversable.
 - **TALL_GRASS:** Traversable, triggers wild encounters.
@@ -46,7 +46,7 @@
 - **DOOR/CAVE:** Warp tile, triggered by movement.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING:** Impassable scenery.
 - **WATER/CUT_TREE/BUOY:** Impassable.
-- **PILLAR:** Impassable.
+- **PILLAR:** An impassable scenery object.
 - **VOID:** Impassable.
 - **WARP_CARPET_*: Warp tile, direction-specific.
 - **FRUIT_TREE:** Impassable object, may yield items.
@@ -56,9 +56,8 @@
 ## IV. Untested Hypotheses & To-Do
 - **To-Do:** Test teaching Flash as soon as I exit Sprout Tower.
 
-## Sprout Tower Escape Plan (V10 - Exploration)
-*All previous plans failed due to a buggy pathfinding tool and incorrect assumptions about the map layout. The tool is now fixed and has confirmed all known ladders on this side are unreachable.*
-Hypothesis: A path connecting the west and east sides of SproutTower2F exists through the large unseen area in the center.
-1. From my current position at (8, 15), navigate to the edge of the unseen area at (8, 9).
-2. Explore eastward from (8, 9) to reveal the path.
-3. Once on the eastern side, find the ladder down to 1F.
+## Sprout Tower Escape Plan (V11 - The Pillar)
+*All previous plans failed due to a buggy pathfinding tool and incorrect assumptions about the map layout. The tool is now fixed and has confirmed all known paths are blocked.*
+Hypothesis: The central pillar is the key. The Sages' dialogue about it shaking is a major hint.
+1. From my current position at (8, 14), navigate to the tile adjacent to the central pillar at (8, 7).
+2. Face the pillar and interact with it.
