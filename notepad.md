@@ -44,7 +44,7 @@
 - **VOID:** Out-of-bounds, impassable.
 - **WARP_CARPET_*: Warp tile, direction-specific.
 - **FRUIT_TREE:** Impassable object, may yield items.
-- **LADDER:** A warp tile. Automatically triggers a warp when stepped on. Must be tested to confirm if one-way or two-way.
+- **LADDER:** A warp tile. Automatically triggers a warp when stepped on. Confirmed to be a two-way warp, allowing travel both up and down between floors.
 
 ### Sprout Tower Layout
 - The central pillar divides the lower floors, but it has gaps on the third floor, allowing east-west travel. This is the solution to the tower's navigation puzzle.
