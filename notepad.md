@@ -48,7 +48,6 @@
 - **New Tool Idea: `puzzle_solver_agent`:** An agent to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
 - **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
-- **Tool FIXED: `wkg_checker` (v2):** The tool has been rewritten to correctly check for edges. The previous version failed because the `manage_world_knowledge` tool appears to strip the `map_id` from coordinate objects inside the edge payload, causing `KeyError`. The new version finds node IDs first, then checks for edges using those IDs, making it robust against this issue.
 ### B. Active Agents & Tools
 - `team_composition_advisor_agent` (v2) - Reliable
 - `protocol_enforcement_agent` (v1) - Reliable
