@@ -40,7 +40,6 @@
 - **FLOOR:** Traversable.
 - **TALL_GRASS:** Traversable, triggers wild encounters.
 - **LEDGE:** One-way downward traversal.
-- **FLOOR_HOP_*_LEDGE:** One-way traversal in the specified direction. Cannot be moved onto.
 - **COUNTER:** Impassable.
 - **DOOR/CAVE/LADDER:** Warp tile, triggered by movement.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
@@ -58,7 +57,8 @@
 - **Party Full:** My party is now full with the addition of the Egg. I can't catch any new Pokémon until I deposit one in the PC.
 
 ## VI. Untested Tile Mechanics
-
-- **WARP_CARPET_DOWN:** Inferred one-way warp. **To-Do:** Test by attempting to walk on it from above, left, and right.
-- **FLOOR_UP_WALL:** Inferred impassable. **To-Do:** Test by attempting to walk on it from all directions.
-- **WARP_CARPET_LEFT:** Inferred one-way warp. **To-Do:** Test by attempting to walk on it from the right, above, and below.
+**To-Do:** Systematically test all unverified tile mechanics.
+- **WARP_CARPET_LEFT:** Inferred one-way warp.
+- **WARP_CARPET_RIGHT:** Inferred one-way warp.
+- **FLOOR_HOP_DOWN_LEDGE:** Inferred one-way traversal downward.
+- **FLOOR_UP_WALL:** Inferred impassable.
