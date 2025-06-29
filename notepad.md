@@ -56,7 +56,5 @@
 ## IV. Untested Hypotheses & To-Do
 - **To-Do:** Test teaching Flash as soon as I exit Sprout Tower.
 
-## Sprout Tower Escape Plan (V13 - The Northern Passage)
-*The 3rd floor is also split. The new plan is to explore the northern area where the Elder was, as a path might have opened up there.*
-1. Explore the northern section of the 3rd floor.
-2. Look for a new ladder or path leading down to the western side of the tower.
+## Sprout Tower Solution
+*All paths inside the tower were dead ends after defeating the Elder. The solution was to use an ESCAPE ROPE from the top floor to instantly teleport to the entrance.*
