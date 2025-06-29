@@ -84,3 +84,5 @@
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
 - **CRITICAL: Tool Maintenance Protocol:** If a custom tool is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding other gameplay objectives until resolved.
 - **Agent Refinement Idea: `battle_strategist_agent`:** The agent's input schema needs to be updated to include the opponent's status condition (e.g., confused, poisoned) to provide more contextually accurate advice.
+- **New Tool Idea: `encounter_grinder_tool`:** A tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training.
+- **Assumption (High Priority Test):** My `pc_navigator_agent` will work correctly. **Test:** Use the agent the next time I need to access the PC to swap Pokémon.
