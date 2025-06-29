@@ -60,4 +60,5 @@
 ## VI. Untested Tile Mechanics
 - **WARP_CARPET_RIGHT:** Inferred one-way warp. **To-Do:** Test by attempting to walk on it from the left, above, and below.
 - **FLOOR_HOP_DOWN_LEDGE:** Inferred one-way ledge. **To-Do:** Test by attempting to walk on it from below, left, and right.
+- **WARP_CARPET_DOWN:** Inferred one-way warp. **To-Do:** Test by attempting to walk on it from above, left, and right.
 - **FLOOR_UP_WALL:** Inferred impassable. **To-Do:** Test by attempting to walk on it from all directions.
