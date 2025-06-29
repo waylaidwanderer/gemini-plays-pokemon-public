@@ -1,11 +1,11 @@
-## I. Core Protocols & Immediate Actions (v48)
+## I. Core Protocols & Immediate Actions (v49)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. No delays.
 - **CRITICAL: WKG Protocol:**
   - Before adding any node or edge, I will FIRST query the WKG with my `wkg_checker` tool to confirm it doesn't already exist.
   - All `warp` type edges MUST include a `destination_entry_point` if known (STRICTLY ENFORCE). All new nodes MUST have descriptive `tags`.
-- **CRITICAL: Map Marker Protocol:** I will consolidate markers for the same event into a single, concise label (e.g., '🚪 To/From [Location]').
+- **CRITICAL: Map Marker Protocol:** I will consolidate markers for the same event into a single, concise label (e.g., '🚪 To/From [Location]'). I will fix redundant/outdated markers on my next visit to the affected maps.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic before complex turns.
-- **CRITICAL: Tool Input Verification:** I will ALWAYS double-check the coordinates and other inputs I provide to my custom tools BEFORE execution. My `wkg_checker` failure on turn 34521 was user error, not a tool bug.
+- **CRITICAL: Tool Input Verification:** I will ALWAYS double-check the coordinates and other inputs I provide to my custom tools BEFORE execution.
 - **CRITICAL: Post-Event Checklists (MANDATORY):**
   - **Trainer Battle:** Mark defeated trainer with '☠️' and log their Pokémon under 'Trainer Intel'.
   - **Wild Encounter:** Log EVERY wild Pokémon with `encounter_tracker_agent`.
@@ -25,10 +25,8 @@
 ### C. Navigation & Traversal Rules
 - 'No Will to Fight' Mechanic: A fainted Pokémon cannot be switched into battle.
 - Silph Co. Blackout: Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
-- `reachable` Flag is Global: The `reachable` flag for warps and map sprites is a global check for the entire map, NOT a local check based on the player's current isolated segment. My `pathfinder` tool's inability to find a path between two 'reachable' warps confirms this.
+- `reachable` Flag is Global: The `reachable` flag for warps and map sprites is a global check for the entire map, NOT a local check based on the player's current isolated segment.
 - Saffron City Navigation: The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
-- Dynamic Gates (Silph Co. 5F): The southern gates on 5F open and close based on the player's X-coordinate in the northern corridor (Y=2).
-- Spinner Tiles: Force movement in a specific direction. Encountered in Rocket Hideout.
 - Invisible Walls: Impassable walls that are not visually represented. Discovered on Silph Co. 9F at (12, 2).
 
 ### D. General Mechanics
@@ -41,18 +39,18 @@
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 - **CARD KEY:** Found on Silph Co. 5F at (22, 17).
 
-## III. Agent & Tool Development Log (v83)
+## III. Agent & Tool Development Log (v84)
 ### A. Development Pipeline
-- **BUG FIX (PRIORITY): `dungeon_navigator`:** The DFS algorithm is faulty and attempts to path through impassable objects (e.g., desks). Needs immediate refinement.
+- **BUG FIX (TOP PRIORITY - DO NOT DELAY): `dungeon_navigator`:** The DFS algorithm is faulty and attempts to path through impassable objects (e.g., desks). I MUST refine this tool with `define_tool` at the next available opportunity, as per protocol.
 - **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
-- **New Tool Idea: `puzzle_solver_tool`:** A tool to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. (Changed from agent to tool as per critique).
+- **New Tool Idea: `puzzle_solver_tool`:** A tool to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. (Re-classified from agent to tool).
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
 
 ### B. Active Agents & Tools
 - `team_composition_advisor_agent` (v2) - Reliable
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v10) - Reliable
-- `pathfinder` (v2) - Newly improved to ignore impassable types.
+- `pathfinder` (v2) - Reliable
 - `object_finder` (v1) - Reliable
 - **Tool FIXED: `wkg_checker` (v3):** The tool has been rewritten with a more robust script to better handle edge cases.
 - **Tool FIXED: `dungeon_navigator` (v3):** The tool has been rewritten with a proper DFS algorithm.
