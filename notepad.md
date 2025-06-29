@@ -44,7 +44,7 @@
 
 ## III. Agent & Tool Development Log (v68)
 ### A. Development Priorities
-- **`dungeon_navigator` tool (v7 - Debugging):** CRITICAL PRIORITY. The tool is still failing. Must be fixed.
+- **`dungeon_navigator` tool (v9 - Implemented):** New version using nearest-neighbor heuristic. Needs testing.
 - **`pathfinder` tool improvement:** The current BFS-based tool is too simple. It must be improved or replaced with a more robust pathfinding algorithm (e.g., A*).
 - **New Tool Idea: `object_finder`:** A tool to find the coordinates of a named NPC or item on the current map.
 - **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
