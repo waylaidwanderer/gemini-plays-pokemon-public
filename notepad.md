@@ -67,3 +67,5 @@
 ### C. Open Puzzles & Hypotheses
 - **CARD KEY Location (Hypothesis):** The key is likely the item at (22, 17) on 5F, behind the gate puzzle. **Current objective.**
 - **Giovanni's Location (Hypothesis):** He is on the 11th floor behind the doors that require the CARD KEY.
+### G. Silph Co. Intel & Mechanics (v1)
+- **`reachable` Flag is Global:** The `reachable` flag for warps and map sprites is a global check for the entire map, NOT a local check based on the player's current isolated segment. I must use `map_segment_analyzer` to determine local reachability.
