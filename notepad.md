@@ -43,7 +43,7 @@
 
 ## III. Agent & Tool Development Log (v70)
 ### A. Development Priorities
-- **`pathfinder` tool improvement:** The current BFS-based tool is too simple. It must be improved or replaced with a more robust pathfinding algorithm (e.g., A*).
+
 - **New Tool Idea: `object_finder`:** A tool to find the coordinates of a named NPC or item on the current map.
 - **New Tool Idea: `wkg_checker`:** A tool to check if a specific node or edge already exists in the World Knowledge Graph. This will streamline my data management workflow.
 - **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
