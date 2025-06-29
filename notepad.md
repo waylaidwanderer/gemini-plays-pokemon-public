@@ -61,3 +61,10 @@
 ## IV. Untested Hypotheses & To-Do
 - **Hypothesis:** Can Onix or Hoothoot learn Flash (HM05)?
 - **To-Do:** Test teaching Flash as soon as I exit Sprout Tower.
+
+## Sprout Tower Escape Plan
+1. Ascend to Sprout Tower 3F via the ladder at (10, 14).
+2. On 3F, cross from the west side to the east side by navigating around the central pillar. Target tile (8,9) to cross.
+3. On the east side of 3F, find the ladder leading down to 2F. Explore the unseen areas if necessary.
+4. On the east side of 2F, navigate to the ladder at (17, 3) to descend to 1F.
+5. On 1F, navigate to the exit at (9, 15).
