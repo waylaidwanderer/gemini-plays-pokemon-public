@@ -24,6 +24,7 @@
 - HM05 (Flash) (from Elder in Sprout Tower)
 - MIRACLE SEED (from Cooltrainer on Route 32)
 - GREAT BALL (from item ball on Route 32)
+- OLD ROD (from Fishing Guru on Route 32)
 
 ### Observed Movesets
 - My G (CROCONAW): SCRATCH, WATER GUN, LEER, RAGE
