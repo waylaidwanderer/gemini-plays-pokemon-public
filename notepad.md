@@ -2,7 +2,7 @@
 
 ## Party & Rival
 ### My Team
-- G (TOTODILE): Lv17
+- G (CROCONAW): Lv18
 - HOOTHOOT (HOOTHOOT): Lv4
 - HOOTIN (HOOTHOOT): Lv4
 - ROCKY (ONIX): Lv6 (Traded for Bellsprout in Violet City)
