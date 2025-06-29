@@ -42,10 +42,9 @@
 - **`cuttable`**: A tree that can be removed with the move CUT. It respawns on map change.
 - **`steps`**: Allows vertical movement between different ground elevations.
 
-## III. Agent & Tool Development Log (v88)
+## III. Agent & Tool Development Log (v89)
 ### A. Development Pipeline
 - **BUG FIX (TOP PRIORITY): `dungeon_navigator` (v3):** This tool is bugged and quarantined. The current DFS implementation is faulty and needs to be rewritten to ensure it explores all reachable tiles correctly. DO NOT USE UNTIL FIXED.
-
 - **New Tool Idea: `puzzle_solver_tool`:** A tool to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
 
@@ -53,6 +52,8 @@
 - `team_composition_advisor_agent` (v2) - Reliable
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v10) - Reliable
+- `pc_navigator_agent` (v1) - Newly defined, needs testing. Automates PC navigation.
+- `select_battle_option` (v1) - Reliable
 - `pathfinder` (v2) - Reliable
 - `object_finder` (v1) - Reliable
 - `wkg_checker` (v3) - Reliable
@@ -75,4 +76,3 @@
   - **Test:** This is being tested now. If I fail, I will use my `team_composition_advisor_agent` and may need to train new Pokémon.
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
 - **CRITICAL: Tool Maintenance Protocol:** If a custom tool is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding other gameplay objectives until resolved.
-- **New Agent Idea: `pc_navigator_agent`:** An agent to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing specific Pokémon. This will automate the tedious scrolling process.
