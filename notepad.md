@@ -73,3 +73,5 @@
 - Leave Sprout Tower.
 - Heal Pokémon at the Violet City Pokémon Center.
 - Challenge Falkner at the Violet City Gym.
+### Tool Development Notes
+- **unstick_me_tool Bug:** The tool currently defines 'escape' as warping to a new map ID. It needs to be updated to also recognize warps to different floors within the same dungeon (i.e., same map group ID, different map number) as a valid path forward.
