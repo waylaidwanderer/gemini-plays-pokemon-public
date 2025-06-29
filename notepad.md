@@ -35,13 +35,8 @@
 ### E. HM & Field Move Mechanics
 - **Flash & Cut Exception:** These HMs MUST be taught to a Pokémon to be used in the field.
 
-### F. Key Items Obtained
-- **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
-- **CARD KEY:** Found on Silph Co. 5F at (22, 17).
-
 ## III. Agent & Tool Development Log (v84)
 ### A. Development Pipeline
-- **BUG FIX (TOP PRIORITY - DO NOT DELAY): `dungeon_navigator`:** The DFS algorithm is faulty and attempts to path through impassable objects (e.g., desks). I MUST refine this tool with `define_tool` at the next available opportunity, as per protocol.
 - **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
 - **New Tool Idea: `puzzle_solver_tool`:** A tool to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. (Re-classified from agent to tool).
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
@@ -63,7 +58,6 @@
 
 ### B. Solved Puzzles
 - **Solved: 5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). Standing at X=11-13 opens the western gates. Standing at X=14-16 opens the eastern gates. **UPDATE:** The corridors are physically separated by permanent walls, so a teleporter must be used to cross between them.
-- **Solved: CARD KEY Location:** The CARD KEY was located on Silph Co. 5F at (22, 17), accessible after using a series of teleporters to navigate between the segmented floors.
 
 ### C. Open Puzzles & Hypotheses
 - **New Agent Idea: `objective_planner_agent`:** An agent to analyze my current goals, location, and the World Knowledge Graph to suggest the most logical next map to visit for maximum progress.
