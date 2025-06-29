@@ -11,7 +11,17 @@
   - **Wild Encounter:** Log EVERY wild Pokémon with `encounter_tracker_agent`.
   - **Map Transition (Warp/Stairs/Edge):** Immediately use `manage_world_knowledge` to document the connection and mark used warps (entry/exit) with '🚪'.
 
-## II. Game Mechanics & Battle Intel
+## II. Current Mission: Liberate Silph Co.
+### A. Active Training Plan (vs. Pixel v2)
+- **Core Team:** CRAG, SPARKY, ECHO, SPOONBENDE.
+- **Training Goal:** Level all core members to the cap of 43.
+- **Training Locations:**
+  - **SPARKY:** Route 12 (vs. Water-types).
+  - **ECHO:** Diglett's Cave (vs. Diglett/Dugtrio for high EXP and immunity).
+  - **SPOONBENDE:** Route 13 (vs. Venonat, Bellsprout, Oddish).
+  - **CRAG:** Route 11 (vs. Spearow, Rattata).
+
+## III. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison).
 - **Type Immunities:** Psychic is immune to Electric.
@@ -33,7 +43,7 @@
     - **PC Interaction:** Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in. Both ECHO (lead) and SPOONBENDE (switched in) gained EXP from the Weepinbell battle.
 
-## III. Tool Development Log (v91)
+## IV. Tool Development Log (v91)
 ### A. Development Pipeline
 - **TOP PRIORITY: `encounter_grinder_tool` (New):** Define a tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training. This will replace my inefficient manual grinding.
 - HIGH PRIORITY: `dungeon_navigator` (BUG FIX): This tool is bugged and quarantined. Per AI feedback, I must either prioritize fixing this or remove it from the pipeline. I will address this after clearing Silph Co.
@@ -50,7 +60,7 @@
 - `object_finder` (v1) - Reliable
 - `wkg_checker` (v3) - Reliable
 
-## IV. Silph Co. Investigation Log (v12)
+## V. Silph Co. Investigation Log (v12)
 ### A. Confirmed Intel & Lessons Learned
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
@@ -60,18 +70,10 @@
 - **Solved: 5F Gate Puzzle:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). Standing at X=11-13 opens the western gates. Standing at X=14-16 opens the eastern gates. The corridors are physically separated, requiring a teleporter to cross.
 
 ### C. Untested Assumptions & Hypotheses
-- **Active Training Plan (vs. Pixel v2):** Based on `team_composition_advisor_agent` analysis after defeat on Turn 35716.
-  - **Core Team:** CRAG, SPARKY, ECHO, SPOONBENDE.
-  - **Training Goal:** Level all core members to the cap of 43.
-  - **Training Locations:**
-    - **SPARKY:** Route 12 (vs. Water-types).
-    - **ECHO:** Diglett's Cave (vs. Diglett/Dugtrio for high EXP and immunity).
-    - **SPOONBENDE:** Route 13 (vs. Venonat, Bellsprout, Oddish).
-    - **CRAG:** Route 11 (vs. Spearow, Rattata).
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
 - **CRITICAL: Tool Maintenance Protocol:** If a custom tool is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding other gameplay objectives until resolved.
 - **Pokémon Tower 5F Healer:** The friendly Channeler at (13, 9) only restores Pokémon HP, NOT PP. Confirmed on turn 35402.
 
-## V. New Ideas & Future Plans
+## VI. New Ideas & Future Plans
 - **New Agent Idea: `puzzle_solver_agent`:** An agent to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. This is a reasoning task, better suited for an agent.
 - **Silph Co. Gate Mechanic:** Gates in Silph Co. appear to be controlled by the player's X-coordinate in a corresponding, physically separate corridor. Standing in a specific range of X coordinates opens a specific set of gates.
