@@ -54,13 +54,15 @@
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v10) - Reliable
 
-## VII. Silph Co. Investigation Log
+## VII. Silph Co. Investigation Log (v2)
 ### A. Confirmed Lessons
 - **Misleading `reachable` Flag:** The `reachable` flag for Map Sprites is a global check, not local. I must rely on my `map_segment_analyzer` tool for local pathing.
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
-
-### B. Open Puzzles & Hypotheses
-1.  **5F Gate Puzzle (Hypothesis):** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2). I need to systematically test this to find the combination that opens the path to the item at (22, 17).
-2.  **CARD KEY Location (Hypothesis):** The key is likely the item at (22, 17) on 5F, behind the gate puzzle.
-3.  **Giovanni's Location (Hypothesis):** He is likely on the 11th floor behind the doors that require the CARD KEY. Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).
+### B. 5F Gate Puzzle
+- **Hypothesis:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2).
+- **Method:** Systematically test X-coordinates from 16 down to 9.
+- **Failed Attempts:** X=16, X=15, X=14, X=13.
+### C. Open Puzzles & Hypotheses
+- **CARD KEY Location (Hypothesis):** The key is likely the item at (22, 17) on 5F, behind the gate puzzle.
+- **Giovanni's Location (Hypothesis):** He is likely on the 11th floor behind the doors that require the CARD KEY. Test: Find the key, then return to 11F and attempt to open the doors at (7,7) or (11,7).
