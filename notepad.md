@@ -54,7 +54,7 @@
 - `protocol_enforcement_agent` (v1) - Reliable
 - `battle_strategist_agent` (v10) - Reliable
 
-## IV. Silph Co. Investigation Log (v3)
+## IV. Silph Co. Investigation Log (v4)
 ### A. Confirmed Lessons
 - **Misleading `reachable` Flag:** The `reachable` flag for Map Sprites is a global check, not local. I must rely on my `map_segment_analyzer` tool for local pathing.
 - **MUK's Immunity:** MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
@@ -62,7 +62,7 @@
 ### B. 5F Gate Puzzle
 - **Hypothesis:** The gates in the southern corridor are controlled by the player's X-coordinate in the northern corridor (Y=2).
 - **Method:** Systematically test X-coordinates from 16 down to 9.
-- **Failed Attempts:** X=16, X=15, X=14, X=13.
+- **Failed Attempts:** X=16, X=15, X=14, X=13, X=12.
 ### C. Open Puzzles & Hypotheses
 - **CARD KEY Location (Hypothesis):** The key is likely the item at (22, 17) on 5F, behind the gate puzzle.
 - **Giovanni's Location (Hypothesis):** He is likely on the 11th floor behind the doors that require the CARD KEY.
