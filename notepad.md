@@ -23,6 +23,7 @@
 - 5 POKé BALLS (from Elm's Lab scientist)
 - HM05 (Flash) (from Elder in Sprout Tower)
 - MIRACLE SEED (from Cooltrainer on Route 32)
+- GREAT BALL (from item ball on Route 32)
 
 ### Observed Movesets
 - My G (CROCONAW): SCRATCH, WATER GUN, LEER, RAGE
@@ -46,26 +47,26 @@
 - **DOOR/CAVE/LADDER:** Warp tile, triggered by movement.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
 - **WATER/CUT_TREE/BUOY/HEADBUTT_TREE:** Impassable.
-- **WARP_CARPET_LEFT:** Inferred one-way warp. (Untested)
-- **WARP_CARPET_RIGHT:** Inferred one-way warp. (Untested)
-- **FLOOR_HOP_DOWN_LEDGE:** Inferred one-way traversal downward. (Untested)
 - **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below (moving up). Impassable from above.
-- **FLOOR_HOP_RIGHT_LEDGE:** Inferred one-way traversal to the right. (Untested)
-- **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** Inferred one-way traversal down or right. (Untested)
-- **VOID:** Inferred impassable. (Untested)
+- **WARP_CARPET_LEFT:** Untested. Inferred one-way warp.
+- **WARP_CARPET_RIGHT:** Untested. Inferred one-way warp.
+- **FLOOR_HOP_DOWN_LEDGE:** Untested. Inferred one-way traversal downward.
+- **FLOOR_HOP_RIGHT_LEDGE:** Untested. Inferred one-way traversal to the right.
+- **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** Untested. Inferred one-way traversal down or right.
+- **VOID:** Untested. Inferred impassable.
 
 ## IV. Untested Hypotheses & To-Do
+- **Hypothesis:** My current team, heavily reliant on a single high-level Pokémon, may struggle against future Gym Leaders.
 - **To-Do:** Check for alternative healing methods besides the Pokémon Center.
 - **To-Do:** Talk to the Gym Guide in the Violet City Gym.
-- **Hypothesis:** My current team, heavily reliant on a single high-level Pokémon, may struggle against future Gym Leaders.
+- **To-Do:** Systematically test all unverified tile mechanics. Find examples of each 'Untested' tile and attempt to move on them from all four directions.
 
 ## V. Strategic Notes
 - **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move, which is a major disadvantage. **Plan:** Level up ROCKY and hope he learns a Rock-type move soon, or find a TM. For now, rely on G (Croconaw) and use ROCKY for defensive switching or to use SCREECH.
 - **Party Full:** My party is now full with the addition of the Egg. I can't catch any new Pokémon until I deposit one in the PC.
 
 ## VI. Trainers
-- **Youngster Albert (Route 32):** Rattata (Lv6), Zubat (Lv?)
-- Picnicker Liz (Route 32): Nidoran♀ (Lv9)
-- **To-Do:** Systematically test all unverified tile mechanics (WARP_CARPET, FLOOR_HOP, VOID).
-- Camper Roland (Route 32): Nidoran♂ (Lv9)
-- Youngster Gordon (Route 32): Wooper (Lv10)
+- **Youngster Albert (Route 32):** Rattata (Lv6), Zubat (Lv8)
+- **Picnicker Liz (Route 32):** Nidoran♀ (Lv9)
+- **Camper Roland (Route 32):** Nidoran♂ (Lv9)
+- **Youngster Gordon (Route 32):** Wooper (Lv10)
