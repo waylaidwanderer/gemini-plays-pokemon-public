@@ -25,7 +25,7 @@
 - Received HM05 (Flash) from the Elder in Sprout Tower.
 
 ### Observed Movesets
-- G (CROCONAW): WATER GUN (0 PP), SCRATCH, LEER, RAGE
+- G (CROCONAW): SCRATCH (0 PP), WATER GUN (0 PP), LEER, RAGE
 - ROCKY (ONIX): TACKLE, SCREECH. **NOTE: Does not have any Rock-type moves.**
 - Wild Poliwag: BUBBLE
 - Wild Hoothoot: TACKLE
