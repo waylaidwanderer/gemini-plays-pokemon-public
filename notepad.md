@@ -67,8 +67,7 @@
 
 ### Discovered Traps & Puzzles
 - **Route 30 Noob Trap:** The western path accessible by jumping the ledge near (4, 24) is a dead end. It's blocked by Youngster Mikey, forcing a full backtrack to the southern entrance.
-- **Sprout Tower Block:** The path to the ladders is blocked by Sages. I must interact with them to proceed. I have defeated the Sage at (3, 2).
-- **Sprout Tower Dead End:** The eastern side of the tower, accessed by the ladder at (17, 3), is a complete dead end.
+- **Sprout Tower 1F Layout:** The first floor is split by a wall at x=4, preventing east-west passage.
 
 ## Objectives & Plans
 ### Current Plan
@@ -78,4 +77,3 @@
 
 ### Long-Term Objectives
 - Return to Dark Cave to test the `FLOOR_UP_WALL` tile mechanics.
-- **Sprout Tower 1F Layout:** The first floor is split by a wall at x=4, preventing east-west passage.
