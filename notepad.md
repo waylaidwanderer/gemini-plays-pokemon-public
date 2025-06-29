@@ -69,3 +69,4 @@
 
 ### C. Open Puzzles & Hypotheses
 - **New Agent Idea: `objective_planner_agent`:** An agent to analyze my current goals, location, and the World Knowledge Graph to suggest the most logical next map to visit for maximum progress.
+- **Tool Bug Report: `wkg_checker` (v2):** The tool is still buggy. It incorrectly reported an edge as non-existent when it was already in the graph, causing a failed add_edge call on turn 34521. Needs further refinement.
