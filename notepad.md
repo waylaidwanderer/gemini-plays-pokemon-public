@@ -41,10 +41,11 @@
 ### F. Key Items Obtained
 - **SUPER ROD:** From Fishing Guru in house on Route 12 (accessed via warp at (12, 78)).
 
-## III. Agent & Tool Development Log (v74)
+## III. Agent & Tool Development Log (v75)
 ### A. Development Priorities
 - **New Tool Idea: `pc_navigator`:** A tool to generate a sequence of button presses to navigate the Pokémon PC menu for depositing and withdrawing Pokémon.
 - **New Tool Idea: `object_finder`:** A tool to find the coordinates of a named NPC or item on the current map.
+- **New Tool Idea: `wkg_checker`:** A tool to check if a specific node or edge already exists in the World Knowledge Graph.
 - **New Tool Idea: `wkg_checker`:** A tool to check if a specific node or edge already exists in the World Knowledge Graph.
 - **Agent Refinement Idea: `floor_strategist_agent`:** Refine prompt to de-prioritize non-essential NPCs like Pikachu.
 ### B. Active Agents & Tools
