@@ -73,3 +73,4 @@
 - Leave Sprout Tower.
 - Heal Pokémon at the Violet City Pokémon Center.
 - Challenge Falkner at the Violet City Gym.
+- **LADDER (One-Way):** Some LADDER tiles may be one-way. The ladder at SproutTower2F (10, 14) only allows downward travel from the third floor.
