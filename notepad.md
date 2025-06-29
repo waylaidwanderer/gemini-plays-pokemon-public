@@ -78,3 +78,4 @@
 - **WARP_CARPET_RIGHT:** A warp tile that activates when facing right.
 - **WARP_CARPET_RIGHT:** A warp tile that activates when facing right.
 - **WARP_CARPET_RIGHT:** A warp tile that activates when facing right.
+- **LADDER:** A warp tile.
