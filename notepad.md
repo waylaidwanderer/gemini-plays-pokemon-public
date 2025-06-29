@@ -67,3 +67,4 @@
 - **Pokémon Tower 5F Healer:** The friendly Channeler at (13, 9) only restores Pokémon HP, NOT PP. Confirmed on turn 35402.
 - NOTE (T35615): Per AI feedback, `dungeon_navigator` must be fixed or removed from the pipeline after Silph Co. is cleared. The old note is outdated and will be removed during the next major cleanup.
 - NOTE (T35615): Per AI feedback, `dungeon_navigator` must be fixed or removed from the pipeline after clearing Silph Co. The old note is outdated and will be removed during the next major cleanup.
+- NOTE (T35618): Per AI feedback, `dungeon_navigator` must be fixed or removed from the pipeline after clearing Silph Co. The old note is outdated and will be removed during the next major cleanup.
