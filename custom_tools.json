@@ -18,6 +18,52 @@
     },
     "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n\n    grid = {}\n    for r in root.findall('Row'):\n        y = int(r.get('id'))\n        for t in r.findall('Tile'):\n            x = int(t.get('id'))\n            has_impassable_object = False\n            obj_node = t.find('Object')\n            if obj_node is not None and obj_node.get('id-name') != 'Pikachu':\n                has_impassable_object = True\n            grid[(x, y)] = {\n                'type': t.get('type'),\n                'has_object': has_impassable_object\n            }\n\n    impassable_types = ['impassable', 'unknown', 'cuttable', 'water', 'closed_gate']\n\n    stack = [(start_x, start_y)]\n    visited = set()\n    path = []\n    \n    start_tile = grid.get((start_x, start_y))\n    if not start_tile or start_tile['type'] in impassable_types or start_tile['has_object']:\n        print(json.dumps({'path_found': False, 'error': 'Starting tile is impassable.'}))\n        exit()\n\n    while stack:\n        cx, cy = stack.pop()\n        \n        if (cx, cy) in visited:\n            continue\n        \n        visited.add((cx, cy))\n        path.append({'x': cx, 'y': cy})\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n\n            if (nx, ny) in visited:\n                continue\n\n            if not (1 <= nx <= width and 1 <= ny <= height):\n                continue\n            \n            neighbor_tile = grid.get((nx, ny))\n            if not neighbor_tile or neighbor_tile['type'] in impassable_types or neighbor_tile['has_object']:\n                continue\n            \n            if neighbor_tile['type'] == 'ledge':\n                if dy == -1 or dx != 0:\n                    continue\n\n            stack.append((nx, ny))\n\n    print(json.dumps({'path_found': True, 'path': path}))\n\nexcept Exception as e:\n    print(json.dumps({'path_found': False, 'error': str(e)}))"
   },
+  "encounter_grinder_tool": {
+    "description": "Automates pacing back and forth between two points to grind for wild encounters. Assumes a clear, straight path.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        },
+        "repetitions": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y",
+        "repetitions"
+      ]
+    },
+    "python_script": "import json\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\nrepetitions = int(input_data['repetitions'])\n\npath = []\n# Determine direction of movement\nif start_x != end_x:\n    # Horizontal movement\n    if start_x < end_x:\n        move_forward = 'Right'\n        move_backward = 'Left'\n    else:\n        move_forward = 'Left'\n        move_backward = 'Right'\n    steps = abs(start_x - end_x)\nelse:\n    # Vertical movement\n    if start_y < end_y:\n        move_forward = 'Down'\n        move_backward = 'Up'\n    else:\n        move_forward = 'Up'\n        move_backward = 'Down'\n    steps = abs(start_y - end_y)\n\nfor _ in range(repetitions):\n    for _ in range(steps):\n        path.append(move_forward)\n    for _ in range(steps):\n        path.append(move_backward)\n\nprint(json.dumps({'path': path}))"
+  },
+  "object_finder": {
+    "description": "Finds the coordinates of a named NPC or item on the current map by searching its `id-name` or `name` attribute.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "object_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "object_name"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ntry:\n    object_name_to_find = input_data['object_name']\n    root = ET.fromstring(map_xml_string)\n    \n    found_objects = []\n\n    for r in root.findall('Row'):\n        for t in r.findall('Tile'):\n            for obj in t.findall('Object'):\n                id_name = obj.get('id-name', '')\n                event_name = obj.get('name', '')\n                \n                if object_name_to_find.lower() in id_name.lower() or object_name_to_find.lower() in event_name.lower():\n                    found_objects.append({\n                        'id-name': id_name,\n                        'name': event_name,\n                        'x': int(t.get('id')),\n                        'y': int(r.get('id'))\n                    })\n\n    if found_objects:\n        print(json.dumps({'found': True, 'objects': found_objects}))\n    else:\n        print(json.dumps({'found': False, 'message': f\"Object '{object_name_to_find}' not found on the current map.\"}))\n\nexcept Exception as e:\n    print(json.dumps({'found': False, 'error': str(e)}))"
+  },
   "pathfinder": {
     "description": "Calculates the shortest path on the current map using BFS. Can optionally ignore certain impassable tile types.",
     "input_schema": {
@@ -88,51 +134,5 @@
       ]
     },
     "python_script": "import json\n\ndef find_node_id(nodes, map_id, x, y):\n    for node in nodes:\n        if node.get('map_id') == map_id and node.get('coordinates', {}).get('x') == x and node.get('coordinates', {}).get('y') == y:\n            return node.get('id')\n    return None\n\ntry:\n    wkg = json.loads(world_knowledge_graph_json_string)\n    nodes = wkg.get('nodes', [])\n    edges = wkg.get('edges', [])\n    \n    element_type = input_data['element_type']\n    map_id = input_data['map_id']\n    x = int(input_data['x'])\n    y = int(input_data['y'])\n    \n    found = False\n\n    if element_type == 'node':\n        if find_node_id(nodes, map_id, x, y) is not None:\n            found = True\n            \n    elif element_type == 'edge':\n        to_map_id = input_data.get('to_map_id')\n        to_x = int(input_data.get('to_x'))\n        to_y = int(input_data.get('to_y'))\n        \n        source_node_id = find_node_id(nodes, map_id, x, y)\n        dest_node_id = find_node_id(nodes, to_map_id, to_x, to_y)\n        \n        if source_node_id and dest_node_id:\n            for edge in edges:\n                s_id = edge.get('source_node_id')\n                d_id = edge.get('destination_node_id')\n                \n                is_direct_match = (s_id == source_node_id and d_id == dest_node_id)\n                is_reverse_match = (not edge.get('is_one_way', False) and s_id == dest_node_id and d_id == source_node_id)\n                \n                if is_direct_match or is_reverse_match:\n                    found = True\n                    break\n    \n    print(json.dumps({'exists': found}))\n\nexcept Exception as e:\n    print(json.dumps({'exists': False, 'error': str(e)}))"
-  },
-  "object_finder": {
-    "description": "Finds the coordinates of a named NPC or item on the current map by searching its `id-name` or `name` attribute.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "object_name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "object_name"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ntry:\n    object_name_to_find = input_data['object_name']\n    root = ET.fromstring(map_xml_string)\n    \n    found_objects = []\n\n    for r in root.findall('Row'):\n        for t in r.findall('Tile'):\n            for obj in t.findall('Object'):\n                id_name = obj.get('id-name', '')\n                event_name = obj.get('name', '')\n                \n                if object_name_to_find.lower() in id_name.lower() or object_name_to_find.lower() in event_name.lower():\n                    found_objects.append({\n                        'id-name': id_name,\n                        'name': event_name,\n                        'x': int(t.get('id')),\n                        'y': int(r.get('id'))\n                    })\n\n    if found_objects:\n        print(json.dumps({'found': True, 'objects': found_objects}))\n    else:\n        print(json.dumps({'found': False, 'message': f\"Object '{object_name_to_find}' not found on the current map.\"}))\n\nexcept Exception as e:\n    print(json.dumps({'found': False, 'error': str(e)}))"
-  },
-  "encounter_grinder_tool": {
-    "description": "Automates pacing back and forth between two points to grind for wild encounters. Assumes a clear, straight path.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        },
-        "repetitions": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y",
-        "repetitions"
-      ]
-    },
-    "python_script": "import json\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\nrepetitions = int(input_data['repetitions'])\n\npath = []\n# Determine direction of movement\nif start_x != end_x:\n    # Horizontal movement\n    if start_x < end_x:\n        move_forward = 'Right'\n        move_backward = 'Left'\n    else:\n        move_forward = 'Left'\n        move_backward = 'Right'\n    steps = abs(start_x - end_x)\nelse:\n    # Vertical movement\n    if start_y < end_y:\n        move_forward = 'Down'\n        move_backward = 'Up'\n    else:\n        move_forward = 'Up'\n        move_backward = 'Down'\n    steps = abs(start_y - end_y)\n\nfor _ in range(repetitions):\n    for _ in range(steps):\n        path.append(move_forward)\n    for _ in range(steps):\n        path.append(move_backward)\n\nprint(json.dumps({'path': path}))"
   }
 }
