@@ -51,10 +51,7 @@
 
 ## Future Plans & Untested Hypotheses
 - **Hypothesis:** Can Onix learn Flash (HM05)?
-- **Hypothesis:** Is the ladder at (6, 4) on SproutTower3F a one-way warp up?
 - **Testing Plan:** Explicitly walk into every new tile type from all four directions to confirm traversability.
 
 ## Tool/Agent Development
-- **`find_path` tool:** The tool is currently bugged and cannot reliably path around obstacles. It needs a complete rewrite.
-- **Tool Idea (`dungeon_navigator`):** A computational tool that takes a simplified map representation and provides a high-level navigation plan.
 - **Agent Idea (`pokemon_evaluator`):** An agent to suggest the best lead Pokémon and moves for a given battle based on type matchups and known movesets.
