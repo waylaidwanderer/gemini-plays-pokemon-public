@@ -3,7 +3,7 @@
 ## I. Party & Rival
 
 ### My Team
-- G (CROCONAW): Lv20
+- G (CROCONAW): Lv21
 - HOOTHOOT (HOOTHOOT): Lv4
 - HOOTIN (HOOTHOOT): Lv4
 - ROCKY (ONIX): Lv6 (Traded for Bellsprout)
@@ -38,13 +38,6 @@
 - Wild Gastly: LICK, HYPNOSIS
 - Wild Rattata: TACKLE
 - Wild Caterpie: TACKLE, STRING SHOT
-
-### Trainers Defeated
-- **Youngster Albert (Route 32):** Rattata (Lv6), Zubat (Lv8)
-- **Picnicker Liz (Route 32):** Nidoran♀ (Lv9)
-- **Camper Roland (Route 32):** Nidoran♂ (Lv9)
-- **Youngster Gordon (Route 32):** Wooper (Lv10)
-- **Fisher Ralph (Route 32):** Goldeen (Lv10)
 
 ## IV. Area & Navigation Insights
 
