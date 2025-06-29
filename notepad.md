@@ -36,7 +36,7 @@
 ## III. Tool Development Log (v91)
 ### A. Development Pipeline
 - **TOP PRIORITY: `encounter_grinder_tool` (New):** Define a tool to automate pacing back and forth in a specified area to efficiently trigger wild encounters for training. This will replace my inefficient manual grinding.
-- **HIGH PRIORITY: `dungeon_navigator` (BUG FIX):** This tool is bugged and quarantined. The current DFS implementation is faulty and needs to be rewritten to ensure it explores all reachable tiles correctly. DO NOT USE UNTIL FIXED.
+- HIGH PRIORITY: `dungeon_navigator` (BUG FIX): This tool is bugged and quarantined. Per AI feedback, I must either prioritize fixing this or remove it from the pipeline. I will address this after clearing Silph Co.
 - **New Agent Idea: `puzzle_solver_agent`:** An agent (not a tool) to analyze map state and documented hypotheses to suggest the next logical step in solving complex puzzles. This is a reasoning task, better suited for an agent.
 - **Tool Refinement Idea: `pathfinder`:** Needs to be updated to better handle moving NPCs, or I need a new protocol for dealing with them (like using `stun_npc`).
 
