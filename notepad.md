@@ -77,3 +77,4 @@
 
 ### Long-Term Objectives
 - Return to Dark Cave to test the `FLOOR_UP_WALL` tile mechanics.
+- **Sprout Tower 2F Layout:** The second floor is also split by the central pillar, preventing east-west passage. Different ladders on 1F must be used to access both sides.
