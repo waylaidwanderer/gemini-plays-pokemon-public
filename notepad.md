@@ -4,7 +4,7 @@
 
 ### Current Strategy
 - **Primary Objective:** My main goal is to get the Hive Badge from the Azalea Town Gym.
-- **Current Plan:** I am in Union Cave, exploring to find the path to Azalea Town.
+- **Current Plan:** I am on Route 32, heading to Union Cave to find the path to Azalea Town.
 
 ### Reminders & Best Practices
 - **Tool Failures:** I must be persistent in debugging my tools. I will not abandon a tool just because it fails; instead, I will perform a thorough, systematic, and incremental logical review. This is my highest priority.
@@ -71,9 +71,12 @@
 - **route_finder:** The tool initially had a bug where it only considered the first exit from a map. This has been fixed by iterating through all possible start nodes. A second bug was discovered where it did not account for intra-map travel; this has also been fixed.
 - **battle_advisor:** The agent now correctly considers a Pokémon's moveset when making recommendations.
 
-## V. Unresolved Mysteries
-- My Onix, Rocky, has 0 PP for Tackle. I need to check his status screen immediately after this battle to investigate.
-Hypothesis: A water-crossing HM (like Surf) is needed to fully explore Union Cave.
-
-### Tool Limitations
-- **delete_map_marker:** Cannot delete object-linked markers for objects that are off-screen. Deletion by coordinate fails, and deletion by object_id fails because the object is not in the current game state.
+## V. Reflection (Turn 8208)
+- I have been deferring tool fixes instead of addressing them immediately. I will prioritize fixing tools from now on.
+- I need to be more systematic in documenting and testing tile mechanics.
+- I will consider creating a new agent to assist with systematic exploration.
+- I will refine my `battle_advisor` to better handle training-focused battles.
+- I need to be more consistent with updating my World Knowledge Graph, especially with `destination_entry_point`.
+- I will continue to refine my `path_finder` tool and consider creating a tool for TM allocation.
+- I need to be more flexible with my goals if I get stuck.
+- I will test my assumption that defeated trainers are always impassable.
