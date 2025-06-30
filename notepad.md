@@ -51,4 +51,3 @@
 ## Action Items from Critique (Turn 6601)
 
 - **LONG_GRASS:** Inferred to function like TALL_GRASS. (Test: attempt to walk through it and see if it triggers encounters).
-- **Lesson:** Always carry an ESCAPE ROPE. Getting trapped behind one-way ledges without one can force a party faint to escape.
