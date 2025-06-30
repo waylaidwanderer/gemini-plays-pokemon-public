@@ -61,17 +61,16 @@
 - **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right.
 - **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right.
 - **FLOOR_UP_WALL:** Impassable from above (one-way upward traversal).
+- **unseen**: Impassable.
 
 ### Misc Mechanics
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 
 ## IV. Tool Development Log
-- **path_finder:** The tool seems to work for on-screen obstacles but fails when objects are off-screen. This is a known limitation I need to work around by re-running the tool when new obstacles appear.
+- **path_finder:** The tool is now functional. It correctly identifies impassable tiles, including one-way ledges and unseen areas.
 - **route_finder:** The tool initially had a bug where it only considered the first exit from a map. This has been fixed by iterating through all possible start nodes. A second bug was discovered where it did not account for intra-map travel; this has also been fixed.
+- **battle_advisor:** The agent now correctly considers a Pokémon's moveset when making recommendations.
 
-## V. Agent/Tool Ideas
-- **move_advisor:** An agent that suggests which Pokémon should learn a specific move, considering type, stats, and existing moveset. This would be useful for optimizing my team's effectiveness. I should refine my `hm_advisor` into this instead of making a new agent.
-
-## VI. Agent/Tool Ideas
-- **run_advisor:** An agent to help decide when to run from wild battles, considering party health, current goals, and opponent level.
-- **backlog:** Mark previously discovered dead ends once out of battle.
+## V. Agent/Tool Refinement Goals
+- **move_advisor:** Refine `hm_advisor` into a general-purpose `move_advisor` to suggest which Pokémon should learn any given move.
+- **run_advisor:** Create an agent to help decide when to run from wild battles, considering party health, current goals, and opponent level.
