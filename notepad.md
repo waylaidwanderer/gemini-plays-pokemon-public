@@ -56,6 +56,5 @@
 - **training_spot_suggester (Agent):** Suggests best training locations.
 
 ## Action Items from Critique (Turn 6601)
-- **Marker Fix:** Mark the exit warp at (3, 7) in the Route 32 Pokémon Center (ID: 10_13) as soon as I return there.
-- **Agent Usage:** Use `training_spot_suggester` after this battle to find the best training spot.
+- **Marker Fix:** Mark the exit warp at (3, 7) in the Route 32 Pokémon Center (ID: 10_13) as '🚪 To Route 32 (11, 74)' as soon as I return there.
 - **LONG_GRASS:** Inferred to function like TALL_GRASS. (Test: attempt to walk through it and see if it triggers encounters).
