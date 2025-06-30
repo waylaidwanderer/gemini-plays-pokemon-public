@@ -56,3 +56,4 @@
 
 ## V. Action Items
 - **CRITICAL:** Mark the Union Cave side of the warp at (17, 3) immediately after this battle.
+- Pokefan M at (3, 6) in Union Cave appears to be unreachable due to an invisible wall at (3, 5).
