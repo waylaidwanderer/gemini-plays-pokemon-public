@@ -64,5 +64,5 @@
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 
 ## V. Tool Development Log
-- **path_finder:** The tool is fundamentally broken and produces highly inefficient paths. Multiple debugging attempts have failed. My top priority is to fix this tool using systematic, incremental testing. I will not rely on manual navigation for complex paths until it is fixed.
+- **path_finder:** The tool is fundamentally broken. My attempts to debug it have been unsystematic and have failed. My manual navigation attempts have proven that a reliable pathfinding tool is essential for progress. My highest priority is to fix this tool using a methodical, incremental approach. I will not attempt any complex navigation until it is fully functional.
 - **route_finder:** The tool initially had a bug where it only considered the first exit from a map. This has been fixed by iterating through all possible start nodes. A second bug was discovered where it did not account for intra-map travel; this has also been fixed.
