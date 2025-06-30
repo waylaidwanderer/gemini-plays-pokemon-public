@@ -74,3 +74,6 @@
 ## V. Unresolved Mysteries
 - My Onix, Rocky, has 0 PP for Tackle. I need to check his status screen immediately after this battle to investigate.
 Hypothesis: A water-crossing HM (like Surf) is needed to fully explore Union Cave.
+
+### Tool Limitations
+- **delete_map_marker:** Cannot delete object-linked markers for objects that are off-screen. Deletion by coordinate fails, and deletion by object_id fails because the object is not in the current game state.
