@@ -16,8 +16,6 @@
 - Wild Poliwag: BUBBLE
 - Wild Hoothoot: TACKLE, GROWL, FLASH
 - Wild Bellsprout: VINE WHIP, GROWTH
-- Wild Gastly: LICK, HYPNOSIS
-- Wild Rattata: TACKLE
 - Wild Caterpie: TACKLE, STRING SHOT
 - Wild Ekans: (unknown)
 - Wild Hoppip: TAIL WHIP, SYNTHESIS
@@ -43,10 +41,6 @@
 - **BUOY:** Impassable scenery.
 - **WATER:** Confirmed impassable without SURF.
 - **CUT_TREE:** Confirmed impassable without CUT.
-
-### Untested Assumptions & Planned Experiments
-- **Union Cave Entrance (Route 32):** The warp at (6, 79) is confirmed to be an EXIT ONLY due to a one-way ledge at (6, 80). The main entrance must be elsewhere.
-- **HEADBUTT_TREE:** Inferred impassable without HEADBUTT. (Test: attempt to walk into the one at (11, 20) and interact).
 
 ## IV. Tool & Agent Development
 
