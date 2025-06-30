@@ -1,20 +1,14 @@
-## I. Core Protocols & Immediate Actions (v133)
+## I. Core Protocols & Immediate Actions (v134)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. NO DELAYS. This includes documenting faulty tools and agents.
 - **CRITICAL: WKG Protocol:** Before adding any node or edge, I will FIRST query the WKG with `wkg_checker` to confirm it doesn't already exist. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`.
 - **CRITICAL: Map Marker Protocol:** I will immediately mark defeated trainers and other key events. Redundant markers will be deleted. I will migrate all trainer intel from this notepad to map markers.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic.
 - **CRITICAL: Tool Maintenance Protocol:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding ALL other gameplay objectives until resolved.
 
-## II. Current Mission: Liberate Silph Co.
-- **Primary Objective:** Clear all Team Rocket members, defeat Pixel and Giovanni, and rescue the Silph Co. President.
-- **Active Training Plan (vs. Pixel v2 & Giovanni):
-  - **Core Team:** CRAG, SPARKY, ECHO, SPOONBENDE.
-  - **Training Goal:** Level all core members to the level cap of 43.
-  - **Training Locations:**
-    - **SPARKY:** Route 12 (vs. Water-types).
-    - **ECHO:** Diglett's Cave (vs. Diglett/Dugtrio for high EXP and immunity).
-    - **SPOONBENDE:** Pokémon Tower (vs. Gastly for high Special EXP).
-    - **CRAG:** Route 11 (vs. Spearow, Rattata).
+## II. Current Mission: Debug Navigation Tools
+- **Primary Objective:** Fix the bugged `pathfinder` and `dungeon_navigator` tools.
+- **Secondary Objective:** Consolidate `pathfinder` and `dungeon_navigator` into a single, robust `master_navigator` tool.
+- **Tertiary Objective:** Liberate Silph Co. from Team Rocket.
 
 ## III. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
@@ -36,7 +30,7 @@
     - **PC Interaction:** Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in.
 
-## IV. Tool Development Log (v133)
+## IV. Tool Development Log (v134)
 ### A. Development Pipeline
 - **TOP PRIORITY (BUG FIX):** `pathfinder` & `dungeon_navigator` are unreliable and generate invalid paths through impassable fences (e.g., on Route 13). **Testing Plan:** Attempt to use pathfinder to navigate around other types of impassable tiles (e.g., buildings, rocks) to see if the bug is specific to fences or all impassable tiles.
 - **NEW TOOL: `pc_navigator_tool`:** Create a deterministic tool for PC menu navigation. Agents are not suitable for this task.
@@ -55,7 +49,7 @@
   - `wkg_checker` (v3) - Reliable
 
 ### C. Deprecated Agents
-- `pc_navigator_agent` (v2) - **DELETED.** Unreliable for deterministic menu navigation. To be replaced with a tool.
+- `pc_navigator_agent` (v3) - **DELETED.** Unreliable for deterministic menu navigation. To be replaced with a tool.
 
 ## V. Investigation Log
 ### A. Silph Co. Intel
@@ -63,5 +57,5 @@
 - **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
 
 ### B. Untested Assumptions & Hypotheses
-- **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
 - **PC Glitch:** The PC in Celadon City is persistently bugged and I must always select 'BILL's PC' to access the Pokémon Storage System. This needs to be re-verified on next use.
+- **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
