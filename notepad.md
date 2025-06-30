@@ -65,6 +65,8 @@
 - **To-Do:** Check for alternative healing methods besides the Pokémon Center.
 - **To-Do:** Systematically test all unverified tile mechanics. Find examples of each 'Untested' tile and attempt to move on them from all four directions.
 - **To-Do:** Explore the water on Route 32 with the OLD ROD.
+- **To-Do:** Prioritize testing `WARP_CARPET_LEFT` and `WARP_CARPET_RIGHT` tiles.
+- **To-Do:** Test assumption that the path west from (12, 22) on Route 32 leads south.
 
 ## VI. Strategic Notes
 - **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move, which is a major disadvantage. **Plan:** Level up ROCKY and hope he learns a Rock-type move soon, or find a TM. For now, rely on G (Croconaw) and use ROCKY for defensive switching or to use SCREECH.
