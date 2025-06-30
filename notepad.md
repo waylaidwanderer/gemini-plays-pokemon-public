@@ -43,7 +43,7 @@
 - **Agents:**
   - `team_composition_advisor_agent` (v2) - Reliable
   - `protocol_enforcement_agent` (v1) - Reliable
-  - `battle_strategist_agent` (v14) - Refined and reliable.
+  - `battle_strategist_agent` (v15) - Refined and reliable.
 - **Tools:**
   - `select_battle_option` (v1) - Reliable
   - `pathfinder` (v5) - **BUGGY:** Fails to navigate temporary obstacles like `cuttable` trees unless specifically told to ignore them.
