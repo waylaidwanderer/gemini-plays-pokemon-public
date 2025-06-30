@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v136)
+## I. Core Protocols & Immediate Actions (v36811)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure. This includes documenting faulty tools and agents.
 - **CRITICAL: WKG Protocol:** Before adding any node or edge, I will FIRST query the WKG with `wkg_checker` to confirm it doesn't already exist. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic.
@@ -41,20 +41,19 @@
     - `ladder_*`: A warp tile leading to a higher or lower floor.
     - `closed_gate`: An impassable gate that can become an `open_gate`.
 
-## III. Tool Development Log (v136)
+## III. Tool Development Log (v36811)
 ### A. Active Agents & Tools
 - **Agents:** `team_composition_advisor_agent`, `protocol_enforcement_agent`, `battle_strategist_agent`
 - **Tools:** `select_battle_option`, `pathfinder`, `object_finder`, `wkg_checker`
 
-### B. Active Tool Development
-- **COMMITMENT:** I will implement or significantly iterate on at least one tool from this list after completing each major gameplay objective (e.g., defeating a Gym Leader, clearing a major dungeon).
-- **PC Navigation Tool:** Need to create a tool to replace the unreliable `pc_navigator_agent`. This tool will take deposit/withdraw commands and generate the precise button sequence. To be built on next PC visit.
-- **Teleporter Maze Solver Tool:** Create a tool that takes a floor's teleporter layout and WKG data to compute the optimal path through the maze.
-- **WKG Inspector Tool:** Create a reusable tool from the `run_code` script used on turn 36617 to query the WKG for incoming/outgoing connections to a specific map.
-- **WKG Manager Tool:** Create a tool to streamline WKG updates. It should take two locations (map_id, x, y) and automatically check for/create nodes and then create the edge between them.
-- **Tile Type Documentation Tool:** Create a tool or agent to assist in systematically documenting every new tile type encountered in my notepad's Tile Type Glossary.
+### B. Tool Development Pipeline
+- **COMMITMENT:** I will immediately implement new tools to address recurring computational problems as they are identified. Deferring tool creation is a protocol violation.
+- **Current Projects:**
+    - **WKG Inspector:** A tool to query the WKG for connections to a specific map.
+    - **PC Navigator:** A tool to generate button sequences for PC operations.
+    - **Teleporter Maze Solver:** A tool to calculate paths through teleporter mazes.
 
-## IV. Investigation Log & Actionable Reminders (v36781)
+## IV. Investigation Log (v36811)
 ### A. Silph Co. Intel
 - **Boardroom Location:** A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
 - **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
@@ -64,7 +63,4 @@
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
 - **Snorlax Permanence:** I assume the Snorlax I defeated on Route 12 is gone permanently. Need to verify by returning to the location at (11,63).
 - **Route 11 Blockage:** I assume the path east on Route 11 is blocked by another Snorlax, similar to the one on Route 12/16. I need to explore east to the gatehouse to confirm.
-
-### C. Actionable Reminders
-- **Defeat Marker:** I must place a map marker on Silph Co. 7F at (4, 8) to note my defeat against Pixel.
-- **WKG Tagging:** I must be diligent in adding descriptive `tags` to all new nodes in the World Knowledge Graph.
+- **WKG Tagging Protocol:** I must be diligent in adding descriptive `tags` to all new nodes in the World Knowledge Graph.
