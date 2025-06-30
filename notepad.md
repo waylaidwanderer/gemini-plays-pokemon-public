@@ -44,7 +44,7 @@
 - **Tools:**
   - `select_battle_option` (v1) - Reliable
   - `pathfinder` (v3) - **BUGGED:** Fails to navigate simple fence obstacles. DO NOT USE UNTIL FIXED.
-  - `dungeon_navigator` (v1) - **BUGGED:** Generated a non-viable path. DO NOT USE UNTIL FIXED.
+  - `dungeon_navigator` (v1) - **DEPRECATED:** To be merged with pathfinder.
   - `object_finder` (v1) - Reliable
   - `wkg_checker` (v3) - Reliable
 
