@@ -53,3 +53,6 @@
 - **FLOOR_ALLOW_HOP_DOWN:** One-way traversal downward.
 - **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right.
 - **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right.
+
+## IV. Type Effectiveness Chart (Verified)
+- Normal is not very effective against Rock/Ground.
