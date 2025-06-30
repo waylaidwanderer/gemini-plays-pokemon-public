@@ -1,7 +1,7 @@
-## I. Core Protocols & Immediate Actions (v37502)
-- **CRITICAL: Immediate Tool & Agent Maintenance:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the **ABSOLUTE HIGHEST PRIORITY**, superseding ALL other gameplay objectives. I will stop all other actions and fix the tool immediately.
+## I. Core Protocols & Immediate Actions (v37509)
+- **CRITICAL: Immediate Tool & Agent Maintenance:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the **ABSOLUTE HIGHEST PRIORITY**, superseding ALL other gameplay objectives. I will stop all other actions and use `define_tool` or `define_agent` to fix it on the very next turn. This is non-negotiable and is not a 'goal' to be deferred.
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: Trust the Game State:** I will always treat the Game State Information as the absolute source of truth, especially the `Reachable Unseen Tiles` count, over my own memory or interpretations.
+- **CRITICAL: Trust the Game State:** I will always treat the Game State Information (especially `Reachable Unseen Tiles` and `is_in_dead_end_area`) as the absolute source of truth, over my own memory or interpretations. If the game state says a path exists, I must find it.
 - **CRITICAL: WKG Protocol (v4):** Before adding any node or edge, I will FIRST query the WKG with `wkg_checker` to confirm it doesn't already exist. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`. I will use `wkg_inspector` to verify all known exits before declaring an area a dead end.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic and `navigation_strategist_agent` when facing navigational difficulties.
 
@@ -27,7 +27,7 @@
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in.
 - **Battle Initiation Mechanics:** To battle a trainer on an adjacent tile, you must face them and press 'A' to interact. Moving into their tile is not possible as they act as impassable objects.
 
-### C. Tile Type Glossary (v3)
+### C. Tile Type Glossary (v4)
 - `ground`: Walkable.
 - `impassable`: Not walkable (e.g., walls, counters, rocks).
 - `impassable_fence`: A specific type of impassable wall, found on Route 13.
@@ -43,18 +43,19 @@
 - `ladder_*`: A warp tile leading to a higher or lower floor.
 - `closed_gate`: An impassable gate that can become an `open_gate`.
 
-## III. Tool & Agent Log (v37457)
+## III. Tool & Agent Log (v37509)
 ### A. Active Agents & Tools
 - **Agents:** `team_composition_advisor_agent`, `protocol_enforcement_agent`, `battle_strategist_agent`, `navigation_strategist_agent`.
-- **Tools:** `select_battle_option`, `pathfinder`, `object_finder`, `wkg_checker`, `wkg_inspector`.
+- **Tools:** `pathfinder`, `object_finder`, `wkg_checker`, `wkg_inspector`.
 ### B. Known Failures & Issues
-- **`select_battle_option` Failure (T37455):** Tool is bugged. Using it to select 'FIGHT' against the Biker on Route 16 (8, 11) terminated the battle. Per protocol, this tool MUST be fixed immediately after the current set of battles on this route is complete.
+- **`select_battle_option` Failure (T37463):** Tool is bugged. Using it to select 'FIGHT' against the Biker on Route 16 (8, 11) terminated the battle. **DO NOT USE THIS TOOL UNTIL FIXED.** Per protocol, this tool MUST be fixed at the next opportunity.
 - **`wkg_checker` Constraint (T37214):** Tool fails if map is specified by string name (e.g., "ROUTE_16") instead of numeric ID (e.g., "27"). PROTOCOL: Always use numeric map IDs.
 
-## IV. Investigation & Hypothesis Log (v37457)
+## IV. Investigation & Hypothesis Log (v37509)
 ### A. Confirmed Facts
 - **PC Glitch (Confirmed):** The PC in Celadon City is persistently bugged. I must always select 'BILL's PC' to access the Pokémon Storage System.
 - **Bike Voucher Location (Confirmed):** The Bike Voucher is obtained from the Pokémon Fan Club Chairman in Vermilion City after listening to his story.
+- **`pathfinder` Intelligence (Confirmed):** The tool automatically finds a path to the nearest valid adjacent tile if the specified destination is impassable or unseen.
 
 ### B. Current Hypotheses (Untested)
 - **Cycling Road Access:** Accessing Cycling Road requires a Bicycle. (Test: Attempt to enter Cycling Road after obtaining a Bicycle).
@@ -63,7 +64,6 @@
 - **Route 11 Blockage:** I assume the path east on Route 11 from the gatehouse is blocked by a Snorlax. (Test: Explore east from the Route 12/11 gatehouse - Low Priority).
 
 ### C. Past Failures & Corrections Log
-- **WKG Protocol Failure (T37321):** Received a critical system warning for hallucinating map data and failing to immediately record the `Route 16` -> `Route 16 Gate 1F` transition in my WKG. This is a severe breach of my core protocols. I must be more vigilant. Immediate documentation is non-negotiable.
+- **WKG Protocol Failure (T37321, T37494):** Received a critical system warning for hallucinating map data and failing to immediately record map transitions in my WKG. The edge from Route 16 to Route 17 already existed, indicating a severe memory lapse. This is a severe breach of my core protocols. I must be more vigilant. Immediate documentation is non-negotiable, and I must trust my WKG over my own memory.
 - **`wkg_inspector` Misinterpretation (T36940):** My `wkg_inspector` tool correctly identified the two exits from Route 13. My conclusion that it was a dead end was a failure of interpretation, not a tool bug. I must be more careful in analyzing tool output against game state warnings.
 - **Biker Bug (Route 16, T37463):** The Biker at (8, 11) is bugged. Interacting with him triggers his pre-battle dialogue but does not initiate a battle, creating a loop. Abandoning this trainer for now.
-- **`pathfinder` Intelligence (T37485):** The tool automatically finds a path to the nearest valid adjacent tile if the specified destination is impassable or unseen. This is useful for exploration.
