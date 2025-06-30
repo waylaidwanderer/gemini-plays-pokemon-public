@@ -65,3 +65,4 @@
 ### C. Past Failures & Corrections Log
 - **WKG Protocol Failure (T37321):** Received a critical system warning for hallucinating map data and failing to immediately record the `Route 16` -> `Route 16 Gate 1F` transition in my WKG. This is a severe breach of my core protocols. I must be more vigilant. Immediate documentation is non-negotiable.
 - **`wkg_inspector` Misinterpretation (T36940):** My `wkg_inspector` tool correctly identified the two exits from Route 13. My conclusion that it was a dead end was a failure of interpretation, not a tool bug. I must be more careful in analyzing tool output against game state warnings.
+- **Biker Bug (Route 16, T37463):** The Biker at (8, 11) is bugged. Interacting with him triggers his pre-battle dialogue but does not initiate a battle, creating a loop. Abandoning this trainer for now.
