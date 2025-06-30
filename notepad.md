@@ -60,3 +60,5 @@
 
 ### Route 32 Trap
 - The area south of the Union Cave entrance, after jumping the ledge at (6, 81), is a one-way trap. There is no path back north on foot. An ESCAPE ROPE is required to leave.
+### Route 32 Trap - COMPLETE DEAD END
+- The area south of the one-way ledge at (6, 81) is a complete dead-end with no exit. It is impossible to proceed north, south, or east. The only ways to escape are by using an ESCAPE ROPE or by fainting in a wild battle to return to the last Pokémon Center.
