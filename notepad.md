@@ -32,12 +32,6 @@
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in.
 
 ## IV. Tool Development Log (v134)
-### A. Development Pipeline
-- **TOP PRIORITY (BUG FIX):** `pathfinder` is unreliable and generates invalid paths through impassable fences (e.g., on Route 13) and fails to account for temporary obstacles like `cuttable` trees. **Testing Plan:** Attempt to use pathfinder to navigate around other types of impassable tiles (e.g., buildings, rocks) to see if the bug is specific to fences or all impassable tiles.
-- **NEW TOOL: `master_navigator_tool`:** Consolidate `pathfinder` into a single, robust navigation tool that can handle complex mazes and temporary obstacles.
-- **NEW TOOL: `pc_navigator_tool`:** Create a deterministic tool for PC menu navigation. Agents are not suitable for this task.
-- **NEW AGENT: `navigation_supervisor_agent`:** Create an agent to analyze `pathfinder` failures and suggest new parameters to find a valid path.
-- **NEW: `wkg_manager_tool`:** Create a single tool to handle the 'check-then-add' logic for a map transition to improve efficiency.
 
 ### B. Active Agents & Tools
 - **Agents:**
