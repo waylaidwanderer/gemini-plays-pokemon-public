@@ -1,6 +1,6 @@
-## I. Core Protocols & Immediate Actions (v36968)
+## I. Core Protocols & Immediate Actions (v36989)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure. This includes documenting faulty tools and agents.
-- **CRITICAL: WKG Protocol:** Before adding any node or edge, I will FIRST query the WKG with `wkg_checker` to confirm it doesn't already exist. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`.
+- **CRITICAL: WKG Protocol (v2):** Before adding any node or edge, I will FIRST query the WKG with `wkg_checker` to confirm it doesn't already exist. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`. I will use `wkg_inspector` to verify all known exits before declaring an area a dead end.
 - **NEW: Pre-Navigation Check:** Before setting a major navigation goal, I will first consult my World Knowledge Graph and relevant Map Markers to ensure the path is not already explored or known to be a dead end.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic.
 - **CRITICAL: Tool Maintenance Protocol:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding ALL other gameplay objectives until resolved.
@@ -44,9 +44,9 @@
 - `ladder_*`: A warp tile leading to a higher or lower floor.
 - `closed_gate`: An impassable gate that can become an `open_gate`.
 
-## III. Tool Development Log (v36968)
+## III. Tool Development Log (v36989)
 ### A. Active Agents & Tools
-- **Agents:** `team_composition_advisor_agent`, `protocol_enforcement_agent`, `battle_strategist_agent`, `pc_navigator_agent`
+- **Agents:** `team_composition_advisor_agent`, `protocol_enforcement_agent`, `battle_strategist_agent`
 - **Tools:** `select_battle_option`, `pathfinder`, `object_finder`, `wkg_checker`, `wkg_inspector`
 
 ### B. Tool Development Pipeline
@@ -55,13 +55,14 @@
     - **`pathfinder` v7:** Refined the tool to gracefully handle impassable destination coordinates by pathing to a valid adjacent tile instead of erroring out. **(COMPLETE)**
     - **Teleporter Maze Solver:** A tool to calculate paths through teleporter mazes.
 
-## IV. Investigation Log (v36968)
+## IV. Investigation Log (v36989)
 ### A. Confirmed Hypotheses
 - **PC Glitch (Confirmed):** The PC in Celadon City is persistently bugged. I must always select 'BILL's PC' to access the Pokémon Storage System.
 ### B. Untested Hypotheses
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
 - **Snorlax Permanence:** I assume the Snorlax I defeated on Route 12 is gone permanently. Need to verify by returning to the location at (11,63).
 - **Route 11 Blockage:** I assume the path east on Route 11 from the gatehouse is blocked by a Snorlax. Need to explore east from the Route 12/11 gatehouse to confirm.
-- **Route 13-15 Path:** Assumption that the path to Fuchsia City is south through these routes.
+- **Route 13-15 Path:** Assumption that the path to Fuchsia City is south through these routes. (This has been proven false for Route 13, but the general path may still be south from a different route).
 ### C. Agent & Tool Failures
-- **`pc_navigator_agent` Failure (T36968):** The agent requires `pc_box_contents` with coordinates, which the game state doesn't provide. The agent is unusable and must be redefined.
+- **`pc_navigator_agent` Failure (T36988 - DELETED):** The agent was fundamentally flawed. It required `pc_box_contents` with coordinates, which the game state doesn't provide. The agent is unusable and has been deleted.
+- **`wkg_inspector` Misinterpretation (T36940):** My `wkg_inspector` tool correctly identified the two exits from Route 13. My conclusion that it was a dead end was a failure of interpretation, not a tool bug. I must be more careful in analyzing tool output against game state warnings.
