@@ -49,6 +49,5 @@
 ## IV. Action Items
 - **CRITICAL:** Test the impassability of WATER tiles.
 - **CRITICAL:** Re-verify the one-way nature of `FLOOR_UP_WALL` tiles.
-- **CRITICAL:** Define a `cave_explorer` agent to assist with navigation in complex caves.
 - **CRITICAL:** Test the mechanics of the new `FLOOR_ALLOW_HOP_*` tiles.
 - Pokefan M at (3, 6) in Union Cave appears to be unreachable due to an invisible wall at (3, 5). This needs further investigation later.
