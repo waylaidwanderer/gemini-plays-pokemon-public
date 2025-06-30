@@ -64,3 +64,7 @@
 - **Snorlax Permanence:** I assume the Snorlax I defeated on Route 12 is gone permanently. Need to verify by returning to the location at (11,63).
 - **Route 11 Blockage:** I assume the path east on Route 11 is blocked by another Snorlax, similar to the one on Route 12/16. I need to explore east to the gatehouse to confirm.
 - **WKG Tagging Protocol:** I must be diligent in adding descriptive `tags` to all new nodes in the World Knowledge Graph.
+## V. Untested Hypotheses (v36832)
+- **PC Glitch:** I assume the PC in Celadon City is persistently bugged. Need to test by using it and comparing behavior to another town's PC.
+- **Snorlax Permanence:** I assume the Snorlax defeated on Route 12 is gone permanently. Need to return to (11,63) on Route 12 to verify.
+- **Route 11 Blockage:** I assume the path east on Route 11 from the gatehouse is blocked by a Snorlax. Need to explore east from the Route 12/11 gatehouse to confirm.
