@@ -70,3 +70,6 @@
 - **path_finder:** The tool is now functional. It correctly identifies impassable tiles, including one-way ledges and unseen areas.
 - **route_finder:** The tool initially had a bug where it only considered the first exit from a map. This has been fixed by iterating through all possible start nodes. A second bug was discovered where it did not account for intra-map travel; this has also been fixed.
 - **battle_advisor:** The agent now correctly considers a Pokémon's moveset when making recommendations.
+
+## V. Unresolved Mysteries
+- My Onix, Rocky, has 0 PP for Tackle. I need to check his status screen immediately after this battle to investigate.
