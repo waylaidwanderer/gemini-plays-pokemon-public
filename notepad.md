@@ -54,3 +54,7 @@
 - **path_finder (Tool):** A* pathfinding.
 - **navigation_analyst (Tool):** Analyzes failed pathfinding attempts.
 - **training_spot_suggester (Agent):** Suggests best training locations.
+
+## Action Items from Critique (Turn 6601)
+- **Marker Fix:** Mark the exit warp at (3, 7) in the Route 32 Pokémon Center (ID: 10_13) as soon as I return there.
+- **Agent Usage:** Use `training_spot_suggester` after this battle to find the best training spot.
