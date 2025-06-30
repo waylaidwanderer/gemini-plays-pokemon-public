@@ -1,31 +1,4 @@
 {
-  "navigation_analyst": {
-    "description": "Analyzes a failed pathfinding attempt. It checks the start and end points against map data, including one-way ledges, impassable tiles, and markers for obstacles like NPCs, to suggest reasons for the path failure.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\n\nreasons = []\nend_x = input_data.get('end_x')\nend_y = input_data.get('end_y')\n\nroot = ET.fromstring(map_xml_string)\n\ntarget_tile = root.find(f\".//Tile[@coordinate='({end_x}, {end_y})']\")\n\nif target_tile is not None:\n    tile_type = target_tile.get('type')\n    impassable_types = ['WALL', 'COUNTER', 'WATER', 'CUT_TREE', 'HEADBUTT_TREE', 'VOID', 'BUOY']\n    if tile_type in impassable_types:\n        reasons.append(f'Destination tile ({end_x}, {end_y}) is an impassable {tile_type}.')\n\n    if target_tile.find('Object') is not None:\n        reasons.append(f'Destination tile ({end_x}, {end_y}) is blocked by an object.')\n\n    for marker in target_tile.findall('Marker'):\n        if marker.get('emoji') == '🚫' or marker.get('emoji') == '☠️':\n            reasons.append(f'Destination tile ({end_x}, {end_y}) has a marker indicating an obstacle: {marker.text}')\nelse:\n    reasons.append(f'Destination tile ({end_x}, {end_y}) does not exist or is unseen.')\n\nif not reasons:\n    reasons.append('No obvious blockers found at the destination. The path itself might be blocked by a one-way ledge or an object.')\n\nfor reason in reasons:\n    print(reason)"
-  },
   "path_finder": {
     "description": "A robust pathfinding tool using A* algorithm that correctly handles one-way tiles like ledges and hop tiles, as well as all impassable objects and terrain. It correctly handles defeated trainers and invalid tile transitions.",
     "input_schema": {
