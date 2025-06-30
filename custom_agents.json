@@ -20,13 +20,6 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"hp\":{\"type\":\"integer\"},\"max_hp\":{\"type\":\"integer\"}},\"required\":[\"name\",\"species\",\"level\",\"hp\",\"max_hp\"]}},\"opponent_pokemon\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"}},\"required\":[\"species\",\"level\"]},\"secondary_goal\":{\"type\":\"string\"},\"opponent_known_moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"player_party\",\"opponent_pokemon\",\"secondary_goal\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_pokemon\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_pokemon\",\"justification\"]}"
   },
-  "escape_artist": {
-    "agent_name": "escape_artist",
-    "agent_description": "Provides a sequence of actions to escape a soft-locked or trapped position. Analyzes inventory for usable escape items and suggests a plan.",
-    "agent_system_prompt": "You are an escape artist for a Pokémon game. You will be given the player's current inventory and location. Your goal is to devise a plan to escape a soft-locked or trapped position. First, check the provided `inventory` to see if `ESCAPE ROPE` is available. If it is, prioritize using it. If no such item is available, suggest fainting in a wild battle to return to the last visited Pokémon Center. Your output must be a JSON object with a clear, step-by-step plan.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"inventory\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_location\":{\"type\":\"string\"}},\"required\":[\"inventory\",\"current_location\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"escape_plan\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"escape_plan\"]}"
-  },
   "training_spot_suggester": {
     "agent_name": "training_spot_suggester",
     "agent_description": "Suggests the best route/area to grind based on party composition and known wild Pokémon encounters.",
