@@ -48,7 +48,7 @@
 - **Agents:** `team_composition_advisor_agent`, `protocol_enforcement_agent`, `battle_strategist_agent`, `navigation_strategist_agent`.
 - **Tools:** `select_battle_option`, `pathfinder`, `object_finder`, `wkg_checker`, `wkg_inspector`.
 ### B. Known Failures & Issues
-- **`select_battle_option` Failure (T37455):** Tool is bugged. Using it to select 'FIGHT' against the Biker on Route 16 (8, 11) terminated the battle. DO NOT USE. Proceed with manual inputs.
+- **`select_battle_option` Failure (T37455):** Tool is bugged. Using it to select 'FIGHT' against the Biker on Route 16 (8, 11) terminated the battle. Per protocol, this tool MUST be fixed immediately after the current set of battles on this route is complete.
 - **`wkg_checker` Constraint (T37214):** Tool fails if map is specified by string name (e.g., "ROUTE_16") instead of numeric ID (e.g., "27"). PROTOCOL: Always use numeric map IDs.
 
 ## IV. Investigation & Hypothesis Log (v37457)
