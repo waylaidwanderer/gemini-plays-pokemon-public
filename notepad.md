@@ -1,19 +1,15 @@
 # Gem's Pokémon Crystal Notepad
 
 ## I. Strategic Overview
-
-### Current Strategy
 - **Primary Objective:** My main goal is to get the Hive Badge from the Azalea Town Gym.
-- **Current Plan:** I am on Route 32, heading to Union Cave to find the path to Azalea Town.
 
-### Reminders & Best Practices
-- **Tool Failures:** I must be persistent in debugging my tools. I will not abandon a tool just because it fails; instead, I will perform a thorough, systematic, and incremental logical review. This is my highest priority.
-- **Immediate Data Management:** I must update my World Knowledge Graph and Map Markers *immediately* upon discovering new information or transitions. Deferring these tasks is an invalid strategy.
-- **Mark Dead Ends:** Mark all confirmed dead ends with '🚫' immediately after thorough exploration.
-- **Agent Usage:** Use `battle_advisor` in all non-trivial battles to improve efficiency.
+## II. Current Plan
+1.  Navigate from my current position on Route 32 to the Union Cave entrance.
+2.  The entrance is at (6, 79), so the target tile is (6, 78).
+3.  Use the `path_finder` tool to calculate the route.
+4.  Explore Union Cave to find the path to Azalea Town.
 
-## II. Battle Intel
-
+## III. Battle Intel
 ### Rival SILVA's Team
 - CHIKORITA: Lv5 (Last seen in New Bark Town)
 
@@ -37,8 +33,7 @@
 - Water is super effective against Rock/Ground.
 - Water is super effective against Ground.
 
-## III. World Knowledge & Mechanics
-
+## IV. World Knowledge & Mechanics
 ### Tile Traversal Rules (Verified)
 - **Objects are impassable:** Most map objects act as walls.
 - **Defeated Trainers:** Passability is inconsistent. Each must be tested.
@@ -66,17 +61,9 @@
 ### Misc Mechanics
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 
-## IV. Tool Development Log
-- **path_finder:** The tool is now functional. It correctly identifies impassable tiles, including one-way ledges and unseen areas.
+## V. Tool Development & Reflection
+- **path_finder:** The tool has had multiple bugs related to one-way ledges and impassable tiles. My debugging has been inefficient. I need to systematically verify game mechanics and ensure my code reflects my documented knowledge *before* running tests. The tool should now correctly handle all known tile types.
 - **route_finder:** The tool initially had a bug where it only considered the first exit from a map. This has been fixed by iterating through all possible start nodes. A second bug was discovered where it did not account for intra-map travel; this has also been fixed.
 - **battle_advisor:** The agent now correctly considers a Pokémon's moveset when making recommendations.
-
-## V. Reflection (Turn 8208)
-- I have been deferring tool fixes instead of addressing them immediately. I will prioritize fixing tools from now on.
-- I need to be more systematic in documenting and testing tile mechanics.
-- I will consider creating a new agent to assist with systematic exploration.
-- I will refine my `battle_advisor` to better handle training-focused battles.
-- I need to be more consistent with updating my World Knowledge Graph, especially with `destination_entry_point`.
-- I will continue to refine my `path_finder` tool and consider creating a tool for TM allocation.
-- I need to be more flexible with my goals if I get stuck.
-- I will test my assumption that defeated trainers are always impassable.
+- **move_advisor:** I have not yet tested this agent. I must find an opportunity to use it.
+- **World Knowledge Graph:** I must remember to check for existing nodes/edges before attempting to add new ones to avoid redundant operations.
