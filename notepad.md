@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v36937)
+## I. Core Protocols & Immediate Actions (v36968)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure. This includes documenting faulty tools and agents.
 - **CRITICAL: WKG Protocol:** Before adding any node or edge, I will FIRST query the WKG with `wkg_checker` to confirm it doesn't already exist. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`.
 - **NEW: Pre-Navigation Check:** Before setting a major navigation goal, I will first consult my World Knowledge Graph and relevant Map Markers to ensure the path is not already explored or known to be a dead end.
@@ -44,7 +44,7 @@
 - `ladder_*`: A warp tile leading to a higher or lower floor.
 - `closed_gate`: An impassable gate that can become an `open_gate`.
 
-## III. Tool Development Log (v36937)
+## III. Tool Development Log (v36968)
 ### A. Active Agents & Tools
 - **Agents:** `team_composition_advisor_agent`, `protocol_enforcement_agent`, `battle_strategist_agent`, `pc_navigator_agent`
 - **Tools:** `select_battle_option`, `pathfinder`, `object_finder`, `wkg_checker`, `wkg_inspector`
@@ -55,15 +55,13 @@
     - **`pathfinder` v7:** Refined the tool to gracefully handle impassable destination coordinates by pathing to a valid adjacent tile instead of erroring out. **(COMPLETE)**
     - **Teleporter Maze Solver:** A tool to calculate paths through teleporter mazes.
 
-## IV. Investigation Log (v36937)
-### A. Silph Co. Intel
-- **Boardroom Location:** A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
-- **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
-
+## IV. Investigation Log (v36968)
+### A. Confirmed Hypotheses
+- **PC Glitch (Confirmed):** The PC in Celadon City is persistently bugged. I must always select 'BILL's PC' to access the Pokémon Storage System.
 ### B. Untested Hypotheses
-- **PC Glitch:** The PC in Celadon City is persistently bugged and I must always select 'BILL's PC' to access the Pokémon Storage System. This needs to be re-verified on next use.
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
 - **Snorlax Permanence:** I assume the Snorlax I defeated on Route 12 is gone permanently. Need to verify by returning to the location at (11,63).
 - **Route 11 Blockage:** I assume the path east on Route 11 from the gatehouse is blocked by a Snorlax. Need to explore east from the Route 12/11 gatehouse to confirm.
-- **`pc_navigator_agent` Test:** I must use this agent at the next PC I encounter to validate its functionality.
 - **Route 13-15 Path:** Assumption that the path to Fuchsia City is south through these routes.
+### C. Agent & Tool Failures
+- **`pc_navigator_agent` Failure (T36968):** The agent requires `pc_box_contents` with coordinates, which the game state doesn't provide. The agent is unusable and must be redefined.
