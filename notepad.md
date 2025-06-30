@@ -73,3 +73,4 @@
 
 ## V. Unresolved Mysteries
 - My Onix, Rocky, has 0 PP for Tackle. I need to check his status screen immediately after this battle to investigate.
+Hypothesis: A water-crossing HM (like Surf) is needed to fully explore Union Cave.
