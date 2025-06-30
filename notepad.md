@@ -43,7 +43,6 @@
 - **COUNTER:** Impassable.
 - **DOOR/CAVE:** Warp tile, triggered by movement.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
-- **FLOOR_UP_WALL:** One-way traversal. Can only be entered from below (moving up).
 - **WARP_CARPET_DOWN:** Warp tile, triggered by movement.
 - **WARP_CARPET_RIGHT:** Warp tile, triggered by movement.
 - **VOID:** Impassable.
@@ -64,6 +63,7 @@
 - **route_finder:** The tool initially had a bug where it only considered the first exit from a map. This has been fixed by iterating through all possible start nodes. A second bug was discovered where it did not account for intra-map travel; this has also been fixed.
 
 ## V. Agent/Tool Ideas
-- **move_advisor:** An agent that suggests which Pokémon should learn a specific move, considering type, stats, and existing moveset. This would be useful for optimizing my team's effectiveness.
+- **move_advisor:** An agent that suggests which Pokémon should learn a specific move, considering type, stats, and existing moveset. This would be useful for optimizing my team's effectiveness. I should refine my `hm_advisor` into this instead of making a new agent.
+
 ### Untested Assumptions
 - I need to test if `FLOOR_UP_WALL` tiles are truly one-way by trying to move down them.
