@@ -1,23 +1,4 @@
 {
-  "dungeon_navigator": {
-    "description": "Generates a full, systematic exploration path for the current map segment using a proper DFS algorithm to visit every reachable, non-warp ground tile. This is the primary tool for clearing complex dungeons. The output is a JSON object with a 'path' key containing a list of coordinate objects, suitable for use with the `path_plan`.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n\n    grid = {}\n    for r in root.findall('Row'):\n        y = int(r.get('id'))\n        for t in r.findall('Tile'):\n            x = int(t.get('id'))\n            has_impassable_object = False\n            obj_node = t.find('Object')\n            if obj_node is not None and obj_node.get('id-name') != 'Pikachu':\n                has_impassable_object = True\n            grid[(x, y)] = {\n                'type': t.get('type'),\n                'has_object': has_impassable_object\n            }\n\n    impassable_types = ['impassable', 'unknown', 'cuttable', 'water', 'closed_gate']\n\n    stack = [(start_x, start_y)]\n    visited = set()\n    path = []\n    \n    start_tile = grid.get((start_x, start_y))\n    if not start_tile or start_tile['type'] in impassable_types or start_tile['has_object']:\n        print(json.dumps({'path_found': False, 'error': 'Starting tile is impassable.'}))\n        exit()\n\n    while stack:\n        cx, cy = stack.pop()\n        \n        if (cx, cy) in visited:\n            continue\n        \n        visited.add((cx, cy))\n        path.append({'x': cx, 'y': cy})\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n\n            if (nx, ny) in visited:\n                continue\n\n            if not (1 <= nx <= width and 1 <= ny <= height):\n                continue\n            \n            neighbor_tile = grid.get((nx, ny))\n            if not neighbor_tile or neighbor_tile['type'] in impassable_types or neighbor_tile['has_object']:\n                continue\n            \n            if neighbor_tile['type'] == 'ledge':\n                if dy == -1 or dx != 0:\n                    continue\n\n            stack.append((nx, ny))\n\n    print(json.dumps({'path_found': True, 'path': path}))\n\nexcept Exception as e:\n    print(json.dumps({'path_found': False, 'error': str(e)}))"
-  },
   "encounter_grinder_tool": {
     "description": "Automates pacing back and forth between two points to grind for wild encounters. Assumes a clear, straight path.",
     "input_schema": {
