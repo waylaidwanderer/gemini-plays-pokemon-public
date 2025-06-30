@@ -7,6 +7,12 @@
 - **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move. For now, rely on G and use ROCKY for defensive switching or to use SCREECH.
 - **Party Full:** My party is full with the addition of the Egg. I can't catch any new Pokémon until I deposit one in the PC.
 
+### To-Do & Reminders
+- Be more rigorous in testing tile mechanics. Test all directions for one-way tiles.
+- Mark dead ends on the map.
+- If a tool fails, diagnose the reason (bad logic vs. impossible request) before attempting to fix it.
+- Be more flexible with goals. If stuck, pivot to exploration or a different objective.
+
 ## II. Battle Intel
 
 ### Rival SILVA's Team
@@ -20,6 +26,7 @@
 - Wild Ekans: (unknown)
 - Wild Hoppip: TAIL WHIP, SYNTHESIS
 - Wild Rattata: TACKLE, TAIL WHIP
+- Wild Wooper: TAIL WHIP, WATER GUN
 
 ## III. World Knowledge & Mechanics
 
