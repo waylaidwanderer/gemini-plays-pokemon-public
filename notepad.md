@@ -42,3 +42,6 @@
 
 ## V. Systematic Documentation Tasks
 - **Tile Mechanics Glossary:** Systematically observe and document the behavior of every unique tile type encountered (e.g., `ledge`, `grass`, `water`, `spinner`, `impassable` variants) to build a comprehensive reference.
+
+## VI. High-Priority Tasks
+- **WKG Correction:** Add a new node for Route 13 at (1, 9) and create the correct edge to the node on Route 14 at (20, 9). The current connection to the node at (1, 7) is a temporary fix.
