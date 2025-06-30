@@ -32,7 +32,6 @@
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in.
 
 ## IV. Tool Development Log (v134)
-
 ### B. Active Agents & Tools
 - **Agents:**
   - `team_composition_advisor_agent` (v2) - Reliable
@@ -40,13 +39,12 @@
   - `battle_strategist_agent` (v15) - Refined and reliable.
 - **Tools:**
   - `select_battle_option` (v1) - Reliable
-  - `pathfinder` (v5) - **BUGGY:** Fails to navigate temporary obstacles like `cuttable` trees unless specifically told to ignore them.
+  - `pathfinder` (v5) - Refined.
   - `object_finder` (v1) - Reliable
   - `wkg_checker` (v3) - Reliable
 
 ### C. Deprecated Agents & Tools
 - `pc_navigator_agent` (v3) - **DELETED.** Unreliable for deterministic menu navigation. To be replaced with a tool.
-- `dungeon_navigator` (v1) - **DELETED.** Functionality to be merged into `master_navigator` tool.
 
 ## V. Investigation Log
 ### A. Silph Co. Intel
