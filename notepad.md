@@ -53,3 +53,6 @@
 - **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right.
 - **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right.
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
+### Dark Cave Mechanics
+- **LEDGE:** Verified one-way downward traversal in this cave.
+- **FLOOR_ALLOW_HOP_LEFT:** Verified one-way traversal to the left in this cave.
