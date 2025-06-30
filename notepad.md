@@ -40,6 +40,7 @@
 - **Teleporter Maze Solver Tool:** Create a tool that takes a floor's teleporter layout and WKG data to compute the optimal path through the maze.
 - **WKG Inspector Tool:** Create a reusable tool from the `run_code` script used on turn 36617 to query the WKG for incoming/outgoing connections to a specific map.
 - **WKG Manager Tool:** Create a tool to streamline WKG updates. It should take two locations (map_id, x, y) and automatically check for/create nodes and then create the edge between them.
+- **Tile Type Documentation Tool:** Create a tool or agent to assist in systematically documenting every new tile type encountered in my notepad's Tile Type Glossary.
 
 ### C. Deprecated Agents & Tools
 - `pc_navigator_agent` - **DELETED.** Unreliable.
