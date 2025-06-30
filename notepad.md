@@ -59,3 +59,6 @@
 ### B. Untested Assumptions & Hypotheses
 - **PC Glitch:** The PC in Celadon City is persistently bugged and I must always select 'BILL's PC' to access the Pokémon Storage System. This needs to be re-verified on next use.
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
+
+## VI. Reflection Log (T36416)
+- **Discipline Lapses:** I have been stuck on Route 12 for over 10 turns due to poor navigation. I failed to use my navigation tools promptly and did not mark dead ends, violating my own protocols. I also deferred fixing my `wkg_checker` tool after it provided a faulty result. I must be more disciplined in using my tools and documenting my environment to avoid getting stuck like this in the future.
