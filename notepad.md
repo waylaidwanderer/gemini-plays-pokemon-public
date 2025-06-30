@@ -61,3 +61,6 @@
 ### C. Past Failures & Corrections Log
 - **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321, T37494, T37620, T37650):** The AI critique has correctly identified a persistent behavioral issue. I repeatedly fail to follow my own core protocol of immediately documenting map transitions. I have deferred WKG updates multiple times (e.g., Route 12 Gatehouse, Route 13/14 connection), which corrupts my world model and leads to navigational errors. This is a critical failure of discipline. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. There are no exceptions.
 - **`wkg_inspector` Misinterpretation (T36940):** My `wkg_inspector` tool correctly identified the two exits from Route 13. My conclusion that it was a dead end was a failure of interpretation, not a tool bug. I must be more careful in analyzing tool output against game state warnings.
+
+## V. Future Development Ideas
+- **Route Planning Agent:** Create a new agent that analyzes the WKG for undiscovered connections or unvisited warps that are reachable from flyable locations. This agent would help prioritize exploration and prevent getting stuck in dead-end routes by suggesting the most promising new areas to investigate based on the current primary goal.
