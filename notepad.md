@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v37092)
+## I. Core Protocols & Immediate Actions (v37144)
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure. This includes documenting faulty tools and agents.
 - **CRITICAL: WKG Protocol (v2):** Before adding any node or edge, I will FIRST query the WKG with `wkg_checker` to confirm it doesn't already exist. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`. I will use `wkg_inspector` to verify all known exits before declaring an area a dead end.
 - **NEW: Pre-Navigation Check:** Before setting a major navigation goal, I will first consult my World Knowledge Graph and relevant Map Markers to ensure the path is not already explored or known to be a dead end.
@@ -44,24 +44,21 @@
 - `ladder_*`: A warp tile leading to a higher or lower floor.
 - `closed_gate`: An impassable gate that can become an `open_gate`.
 
-## III. Tool Development Log (v37092)
+## III. Tool Development Log (v37144)
 ### A. Active Agents & Tools
 - **Agents:** `team_composition_advisor_agent`, `protocol_enforcement_agent`, `battle_strategist_agent`, `navigation_strategist_agent`
 - **Tools:** `select_battle_option`, `pathfinder`, `object_finder`, `wkg_checker`, `wkg_inspector`
 
-### B. Tool Development Pipeline
-- **COMMITMENT:** I will immediately implement new tools to address recurring computational problems as they are identified. Deferring tool creation is a protocol violation.
-- **Current Projects:**
-    - **Teleporter Maze Solver:** A tool to calculate paths through teleporter mazes.
-
-## IV. Investigation Log (v37092)
+## IV. Investigation Log (v37144)
 ### A. Confirmed Hypotheses
 - **PC Glitch (Confirmed):** The PC in Celadon City is persistently bugged. I must always select 'BILL's PC' to access the Pokémon Storage System.
+- **Bike Voucher Location (Confirmed):** The Bike Voucher is obtained from the Pokémon Fan Club Chairman in Vermilion City after listening to his story.
+
 ### B. Untested Hypotheses
-- **Bike Voucher Location:** The Bike Voucher is obtained from the Pokémon Fan Club Chairman in Vermilion City after listening to his story. (Test: Go to Bike Shop in Cerulean City to exchange).
 - **Cycling Road Access:** Accessing Cycling Road requires a Bicycle. (Test: Attempt to enter Cycling Road after obtaining a Bicycle).
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
 - **Snorlax Permanence:** I assume the Snorlax I defeated on Route 12 is gone permanently. (Test: Return to Route 12 at (11,63) - Low Priority).
 - **Route 11 Blockage:** I assume the path east on Route 11 from the gatehouse is blocked by a Snorlax. (Test: Explore east from the Route 12/11 gatehouse - Low Priority).
+
 ### C. Agent & Tool Failures
 - **`wkg_inspector` Misinterpretation (T36940):** My `wkg_inspector` tool correctly identified the two exits from Route 13. My conclusion that it was a dead end was a failure of interpretation, not a tool bug. I must be more careful in analyzing tool output against game state warnings.
