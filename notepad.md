@@ -20,7 +20,7 @@
 - Wild Rattata: TACKLE
 - Wild Caterpie: TACKLE, STRING SHOT
 - Wild Ekans: (unknown)
-- Wild Hoppip: TAIL WHIP
+- Wild Hoppip: TAIL WHIP, SYNTHESIS
 
 ## III. World Knowledge & Mechanics
 
@@ -41,11 +41,11 @@
 - **WARP_CARPET_DOWN:** Warp tile, triggered by movement.
 - **VOID:** Impassable.
 - **BUOY:** Impassable scenery.
+- **WATER:** Confirmed impassable without SURF.
+- **CUT_TREE:** Confirmed impassable without CUT.
 
 ### Untested Assumptions & Planned Experiments
 - **Union Cave Entrance (Route 32):** The warp at (6, 79) is confirmed to be an EXIT ONLY due to a one-way ledge at (6, 80). The main entrance must be elsewhere.
-- **WATER:** Inferred impassable without SURF. (Test: attempt to walk into it)
-- **CUT_TREE:** Inferred impassable without CUT. (Test: attempt to walk into it)
 - **HEADBUTT_TREE:** Inferred impassable without HEADBUTT. (Test: attempt to walk into it and interact)
 
 ## IV. Tool & Agent Development
@@ -53,6 +53,5 @@
 ### Process Reminders
 - **Mark ALL NPCs:** To prevent pathfinding errors, I must place a map marker for every single NPC I encounter, not just defeated trainers or special characters. This is crucial for remembering off-screen obstacles.
 
-### Tool & Agent Ideas
-
-- **Training Spot Suggester (Agent):** An agent that takes my party's levels and types and suggests the best route/area to grind based on known wild Pokémon encounters and trainer data.
+### Implemented Tools & Agents
+- **navigation_analyst (Tool):** Analyzes a failed pathfinding attempt to suggest reasons for the failure.
