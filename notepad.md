@@ -47,4 +47,3 @@
 - **`ledge`**: Can only be jumped down (one-way vertical travel).
 - **`cuttable`**: Requires HM Cut to pass. Respawn on map change.
 - **CRITICAL REMINDER (T38336):** System has repeatedly warned about ~31 reachable unseen tiles on Route 14. After this battle, I MUST perform a full exploration of the area south of the cuttable trees to resolve this.
-- **`water`**: Crossable using HM Surf.
