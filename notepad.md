@@ -42,9 +42,6 @@
 - **WKG Manager Tool:** Create a tool to streamline WKG updates. It should take two locations (map_id, x, y) and automatically check for/create nodes and then create the edge between them.
 - **Tile Type Documentation Tool:** Create a tool or agent to assist in systematically documenting every new tile type encountered in my notepad's Tile Type Glossary.
 
-### C. Deprecated Agents & Tools
-- `pc_navigator_agent` - **DELETED.** Unreliable.
-
 ## IV. Investigation Log (v136)
 ### A. Silph Co. Intel
 - **Boardroom Location:** A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
