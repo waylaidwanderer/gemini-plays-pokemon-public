@@ -32,22 +32,19 @@
 - **COUNTER:** Impassable.
 - **DOOR/CAVE:** Warp tile, triggered by movement.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
-- **FLOOR_UP_WALL:** One-way traversal. Can only be entered from below (moving up). Impassable from above.
+- **FLOOR_UP_WALL:** One-way traversal. Can only be entered from below (moving up). Impassable from all other directions.
 - **WARP_CARPET_DOWN:** Warp tile, triggered by movement.
 - **VOID:** Impassable.
 - **BUOY:** Impassable scenery.
 - **CUT_TREE:** Confirmed impassable without CUT.
+- **WATER:** Verified impassable without SURF.
 
 ### Tile Traversal Rules (Needs Verification)
-- **WATER:** Verified impassable without SURF.
-- **FLOOR_ALLOW_HOP_DOWN:** One-way traversal downward. (Mechanics need re-verification due to system update.)
-- **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right. (Mechanics need re-verification due to system update.)
-- **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right. (Mechanics need re-verification due to system update.)
 - **LONG_GRASS:** Inferred to function like TALL_GRASS. (Test: attempt to walk through it and see if it triggers encounters).
 - **HEADBUTT_TREE:** Impassable by walking. (Hypothesis: may be interactable with the HEADBUTT move).
+- **FLOOR_ALLOW_HOP_DOWN:** One-way traversal downward. (Mechanics need re-verification).
+- **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right. (Mechanics need re-verification).
+- **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right. (Mechanics need re-verification).
 
-## IV. Action Items
-- **CRITICAL:** Test the impassability of WATER tiles.
-- **CRITICAL:** Re-verify the one-way nature of `FLOOR_UP_WALL` tiles.
-- **CRITICAL:** Test the mechanics of the new `FLOOR_ALLOW_HOP_*` tiles.
+### Points of Interest
 - Pokefan M at (3, 6) in Union Cave appears to be unreachable due to an invisible wall at (3, 5). This needs further investigation later.
