@@ -24,6 +24,10 @@
     - **PC Interaction:** Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
     - **Respawning Trees:** Cuttable trees respawn after a short time, even without leaving the map.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in.
+- **Tile Type Glossary (WIP):**
+    - `ground`: Walkable.
+    - `impassable`: Not walkable.
+    - `closed_gate`: Impassable until a condition is met.
 
 ## III. Tool Development Log (v136)
 ### A. Active Agents & Tools
@@ -34,6 +38,7 @@
 - **PC Navigation Tool:** Need to create a tool to replace the unreliable `pc_navigator_agent`. This tool will take deposit/withdraw commands and generate the precise button sequence. To be built on next PC visit.
 - **Teleporter Maze Solver Tool:** Create a tool that takes a floor's teleporter layout and WKG data to compute the optimal path through the maze.
 - **WKG Inspector Tool:** Create a reusable tool from the `run_code` script used on turn 36617 to query the WKG for incoming/outgoing connections to a specific map.
+- **WKG Manager Tool:** Create a tool to streamline WKG updates. It should take two locations (map_id, x, y) and automatically check for/create nodes and then create the edge between them.
 
 ### C. Deprecated Agents & Tools
 - `pc_navigator_agent` - **DELETED.** Unreliable.
