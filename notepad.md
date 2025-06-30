@@ -46,12 +46,11 @@
 
 ### Untested Assumptions & Planned Experiments
 - **Union Cave Entrance (Route 32):** The warp at (6, 79) is confirmed to be an EXIT ONLY due to a one-way ledge at (6, 80). The main entrance must be elsewhere.
-- **HEADBUTT_TREE:** Inferred impassable without HEADBUTT. (Test: attempt to walk into it and interact)
+- **HEADBUTT_TREE:** Inferred impassable without HEADBUTT. (Test: attempt to walk into the one at (11, 20) and interact).
 
 ## IV. Tool & Agent Development
 
-### Process Reminders
-- **Mark ALL NPCs:** To prevent pathfinding errors, I must place a map marker for every single NPC I encounter, not just defeated trainers or special characters. This is crucial for remembering off-screen obstacles.
-
 ### Implemented Tools & Agents
-- **navigation_analyst (Tool):** Analyzes a failed pathfinding attempt to suggest reasons for the failure.
+- **path_finder (Tool):** A* pathfinding.
+- **navigation_analyst (Tool):** Analyzes failed pathfinding attempts.
+- **training_spot_suggester (Agent):** Suggests best training locations.
