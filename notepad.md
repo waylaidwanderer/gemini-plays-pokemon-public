@@ -52,4 +52,3 @@
 ### Active Hypotheses
 - My current team, heavily reliant on a single high-level Pokémon, may struggle against future Gym Leaders.
 - HEADBUTT_TREEs may contain Pokémon.
-- An 'escape_artist' agent could be created to automate path generation in trapped/soft-locked scenarios.
