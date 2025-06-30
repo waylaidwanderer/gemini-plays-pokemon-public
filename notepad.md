@@ -39,3 +39,6 @@
 ## IV. Past Failures & Corrections Log
 - **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321 - T38161):** The AI critique has correctly identified a persistent behavioral issue. I repeatedly fail to follow my own core protocol of immediately documenting map transitions. This corrupts my world model and leads to navigational errors. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. There are no exceptions. This is the root cause of most of my problems.
 - **CRITICAL NAVIGATIONAL FAILURE: Directional Confusion on Route 15 (T38101 - T38161):** My `navigation_strategist_agent` correctly identified that I was moving east, away from my objective in Fuchsia City. My pathfinder then confirmed I could not go west from the upper ledge. This forced me to continue east to find a way down, which led me to the dead-end southern part of Route 14. This loop highlights a critical need to better analyze the map and my agent's advice before committing to long-distance travel.
+
+## V. Systematic Documentation Tasks
+- **Tile Mechanics Glossary:** Systematically observe and document the behavior of every unique tile type encountered (e.g., `ledge`, `grass`, `water`, `spinner`, `impassable` variants) to build a comprehensive reference.
