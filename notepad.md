@@ -52,4 +52,7 @@
 
 - **LONG_GRASS:** Inferred to function like TALL_GRASS. (Test: attempt to walk through it and see if it triggers encounters).
 - **HEADBUTT_TREE:** Impassable by walking. (Hypothesis: may be interactable with the HEADBUTT move).
-- Wild Rattata: (unknown)
+- Wild Rattata: TACKLE, TAIL WHIP
+
+## V. Action Items
+- **CRITICAL:** Mark the Union Cave side of the warp at (17, 3) immediately after this battle.
