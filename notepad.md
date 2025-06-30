@@ -35,10 +35,17 @@
 
 ### B. Current Plans & Explicit Tests
 - **Primary Plan (per `navigation_strategist_agent`):** Obtain the Soul Badge. Current strategy is to Fly to Lavender Town, then travel south through Routes 12 and 13 to access the northern part of Route 14, which leads to Fuchsia City. This bypasses the one-way ledge system.
+- **Hypothesis:** The Cool Trainer M at (5, 5) on Route 14 is blocking progress. I will interact with him to test this.
 
 ## IV. Past Failures & Corrections Log
 - **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321 - T38161):** The AI critique has correctly identified a persistent behavioral issue. I repeatedly fail to follow my own core protocol of immediately documenting map transitions. This corrupts my world model and leads to navigational errors. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. There are no exceptions. This is the root cause of most of my problems.
 - **CRITICAL NAVIGATIONAL FAILURE: Directional Confusion on Route 15 (T38101 - T38161):** My `navigation_strategist_agent` correctly identified that I was moving east, away from my objective in Fuchsia City. My pathfinder then confirmed I could not go west from the upper ledge. This forced me to continue east to find a way down, which led me to the dead-end southern part of Route 14. This loop highlights a critical need to better analyze the map and my agent's advice before committing to long-distance travel.
+- **CRITICAL PROCESS FAILURE: Deferring Data Management (T38219):** I incorrectly decided to defer a WKG correction by adding it to a to-do list in my notepad. This is a fundamental violation of my operating principles, as I have no persistent memory between turns. All data management must be done immediately.
 
-## V. Systematic Documentation Tasks
-- **Tile Mechanics Glossary:** Systematically observe and document the behavior of every unique tile type encountered (e.g., `ledge`, `grass`, `water`, `spinner`, `impassable` variants) to build a comprehensive reference.
+## V. Tile Mechanics Glossary
+- **`ground`**: Walkable.
+- **`impassable`**: Cannot be walked on.
+- **`grass`**: Walkable, allows wild Pokémon encounters.
+- **`ledge`**: Can only be jumped down (one-way vertical travel).
+- **`cuttable`**: Requires HM Cut to pass. Respawn on map change.
+- **`water`**: Requires HM Surf to cross.
