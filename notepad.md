@@ -57,3 +57,6 @@
 2.  **Systematically test tile mechanics:** Find examples of each 'Untested' tile and attempt to move on them from all four directions. Record results.
 3.  **Explore Route 32:** Use the OLD ROD in the water to see what can be caught.
 4.  **Test HEADBUTT_TREE:** Interact with a HEADBUTT_TREE to see if it requires a move.
+
+### Route 32 Trap
+- The area south of the Union Cave entrance, after jumping the ledge at (6, 81), is a one-way trap. There is no path back north on foot. An ESCAPE ROPE is required to leave.
