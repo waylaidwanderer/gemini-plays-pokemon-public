@@ -34,7 +34,8 @@
 - **Agents:** `team_composition_advisor_agent`, `protocol_enforcement_agent`, `battle_strategist_agent`
 - **Tools:** `select_battle_option`, `pathfinder`, `object_finder`, `wkg_checker`
 
-### B. Development Pipeline
+### B. Active Tool Development
+- **COMMITMENT:** I will implement or significantly iterate on at least one tool from this list after completing each major gameplay objective (e.g., defeating a Gym Leader, clearing a major dungeon).
 - **PC Navigation Tool:** Need to create a tool to replace the unreliable `pc_navigator_agent`. This tool will take deposit/withdraw commands and generate the precise button sequence. To be built on next PC visit.
 - **Teleporter Maze Solver Tool:** Create a tool that takes a floor's teleporter layout and WKG data to compute the optimal path through the maze.
 - **WKG Inspector Tool:** Create a reusable tool from the `run_code` script used on turn 36617 to query the WKG for incoming/outgoing connections to a specific map.
