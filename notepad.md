@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v37509)
+## I. Core Protocols & Immediate Actions (v37651)
 - **CRITICAL: Immediate Tool & Agent Maintenance:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the **ABSOLUTE HIGHEST PRIORITY**, superseding ALL other gameplay objectives. I will stop all other actions and use `define_tool` or `define_agent` to fix it on the very next turn. This is non-negotiable and is not a 'goal' to be deferred.
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
 - **CRITICAL: Trust the Game State:** I will always treat the Game State Information (especially `Reachable Unseen Tiles` and `is_in_dead_end_area`) as the absolute source of truth, over my own memory or interpretations. If the game state says a path exists, I must find it.
@@ -43,8 +43,8 @@
 - `ladder_*`: A warp tile leading to a higher or lower floor.
 - `closed_gate`: An impassable gate that can become an `open_gate`.
 
-## III. Known Failures & Issues (v37620)
-- **`select_battle_option` & Biker Bug (Route 16, T37463):** The Biker at (8, 11) is bugged. Using the built-in `select_battle_option` tool to select 'FIGHT' against him terminates the battle. Furthermore, simply interacting with him triggers pre-battle dialogue but doesn't initiate a battle, creating a loop. This is a **built-in tool**, so it cannot be fixed with `define_tool`. **AVOID THIS TRAINER & TOOL.**
+## III. Known Failures & Issues (v37651)
+- **`select_battle_option` & Biker Bug (Route 16, T37463):** The Biker at (8, 11) is bugged. Using the built-in `select_battle_option` tool to select 'FIGHT' against him terminates the battle. Simply interacting with him also fails to initiate a battle. This is a **built-in tool** and cannot be fixed. **AVOID THIS TRAINER & TOOL.**
 
 ## IV. Investigation & Hypothesis Log (v37509)
 ### A. Confirmed Facts
@@ -59,5 +59,5 @@
 - **Route 11 Blockage:** I assume the path east on Route 11 from the gatehouse is blocked by a Snorlax. (Test: Explore east from the Route 12/11 gatehouse - Low Priority).
 
 ### C. Past Failures & Corrections Log
-- **WKG Protocol Failure (T37321, T37494, T37620):** Received multiple critical system warnings for hallucinating map data and failing to immediately record map transitions in my WKG. The edge from Route 16 to Route 17 already existed, and I deferred updating the Route 12 gatehouse connection. This is a severe breach of my core protocols. I must be more vigilant. Immediate documentation is non-negotiable, and I must trust my WKG and the game state over my own memory.
+- **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321, T37494, T37620, T37650):** The AI critique has correctly identified a persistent behavioral issue. I repeatedly fail to follow my own core protocol of immediately documenting map transitions. I have deferred WKG updates multiple times (e.g., Route 12 Gatehouse, Route 13/14 connection), which corrupts my world model and leads to navigational errors. This is a critical failure of discipline. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. There are no exceptions.
 - **`wkg_inspector` Misinterpretation (T36940):** My `wkg_inspector` tool correctly identified the two exits from Route 13. My conclusion that it was a dead end was a failure of interpretation, not a tool bug. I must be more careful in analyzing tool output against game state warnings.
