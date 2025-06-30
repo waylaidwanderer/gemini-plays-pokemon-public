@@ -27,30 +27,15 @@
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in.
 - **Battle Initiation Mechanics:** To battle a trainer on an adjacent tile, you must face them and press 'A' to interact. Moving into their tile is not possible as they act as impassable objects.
 
-### C. Tile Type Glossary (v4)
-- `ground`: Walkable.
-- `impassable`: Not walkable (e.g., walls, counters, rocks).
-- `impassable_fence`: A specific type of impassable wall, found on Route 13.
-- `cuttable`: A tree that can be cut with HM Cut. Becomes `ground` after cutting, but respawns.
-- `ledge`: One-way traversal. Can be jumped down (from Y-1 to Y+2), but not climbed up. Acts as a wall from below or sides.
-- `grass`: Tall grass for wild Pokémon encounters. Walkable like `ground`.
-- `water`: Crossable with HM Surf.
-- `steps`: Allows vertical movement between different elevations.
-- `elevated_ground`: Walkable ground at a higher elevation.
-- `teleporter`: Instant warp tile within the same logical location.
-- `hole`: A warp tile leading to a lower map area.
-- `spinner_*`: Forces movement in the specified direction.
-- `ladder_*`: A warp tile leading to a higher or lower floor.
-- `closed_gate`: An impassable gate that can become an `open_gate`.
-
 ## III. Known Failures & Issues (v37651)
 - **`select_battle_option` & Biker Bug (Route 16, T37463):** The Biker at (8, 11) is bugged. Using the built-in `select_battle_option` tool to select 'FIGHT' against him terminates the battle. Simply interacting with him also fails to initiate a battle. This is a **built-in tool** and cannot be fixed. **AVOID THIS TRAINER & TOOL.**
 
-## IV. Investigation & Hypothesis Log (v37509)
+## IV. Investigation & Hypothesis Log (v37801)
 ### A. Confirmed Facts
 - **PC Glitch (Confirmed):** The PC in Celadon City is persistently bugged. I must always select 'BILL's PC' to access the Pokémon Storage System.
 - **Bike Voucher Location (Confirmed):** The Bike Voucher is obtained from the Pokémon Fan Club Chairman in Vermilion City after listening to his story.
 - **`pathfinder` Intelligence (Confirmed):** The tool automatically finds a path to the nearest valid adjacent tile if the specified destination is impassable or unseen.
+- **Route 17 One-Way Path (Confirmed):** Route 17 is a one-way downhill path. Attempts to travel north from (10, 51) have failed repeatedly, confirming this.
 
 ### B. Current Hypotheses (Untested)
 - **Cycling Road Access:** Accessing Cycling Road requires a Bicycle. (Test: Attempt to enter Cycling Road after obtaining a Bicycle).
@@ -58,9 +43,9 @@
 - **Snorlax Permanence:** I assume the Snorlax I defeated on Route 12 is gone permanently. (Test: Return to Route 12 at (11,63) - Low Priority).
 - **Route 11 Blockage:** I assume the path east on Route 11 from the gatehouse is blocked by a Snorlax. (Test: Explore east from the Route 12/11 gatehouse - Low Priority).
 
-### C. Past Failures & Corrections Log
-- **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321, T37494, T37620, T37650):** The AI critique has correctly identified a persistent behavioral issue. I repeatedly fail to follow my own core protocol of immediately documenting map transitions. I have deferred WKG updates multiple times (e.g., Route 12 Gatehouse, Route 13/14 connection), which corrupts my world model and leads to navigational errors. This is a critical failure of discipline. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. There are no exceptions.
-- **`wkg_inspector` Misinterpretation (T36940):** My `wkg_inspector` tool correctly identified the two exits from Route 13. My conclusion that it was a dead end was a failure of interpretation, not a tool bug. I must be more careful in analyzing tool output against game state warnings.
+### C. Current Plans
+- **Route 17 Navigation:** The goal is to reach Fuchsia City by traveling south down Route 17. The route is split by a large body of water. I will prioritize exploring the western landmass first, clearing all trainers and unseen tiles, before attempting to cross the water to the eastern side.
 
-## V. Future Development Ideas
-- **Route Planning Agent:** Create a new agent that analyzes the WKG for undiscovered connections or unvisited warps that are reachable from flyable locations. This agent would help prioritize exploration and prevent getting stuck in dead-end routes by suggesting the most promising new areas to investigate based on the current primary goal.
+### D. Past Failures & Corrections Log
+- **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321, T37494, T37620, T37650, T37800):** The AI critique has correctly identified a persistent behavioral issue. I repeatedly fail to follow my own core protocol of immediately documenting map transitions. I have deferred WKG updates multiple times (e.g., Route 12 Gatehouse, Route 13/14 connection, Route 16/17 transition), which corrupts my world model and leads to navigational errors. This is a critical failure of discipline. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. There are no exceptions.
+- **`wkg_inspector` Misinterpretation (T36940):** My `wkg_inspector` tool correctly identified the two exits from Route 13. My conclusion that it was a dead end was a failure of interpretation, not a tool bug. I must be more careful in analyzing tool output against game state warnings.
