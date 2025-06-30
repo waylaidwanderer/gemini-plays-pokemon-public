@@ -75,3 +75,4 @@
 
 ### D. Critical Failures & Corrections
 - **WKG Protocol Failure (T37321):** Received a critical system warning for hallucinating map data and failing to immediately record the `Route 16` -> `Route 16 Gate 1F` transition in my WKG. This is a severe breach of my core protocols. I must be more vigilant. Immediate documentation is non-negotiable.
+- `select_battle_option` Failure (T37455): Attempting to use the `select_battle_option` tool to select 'FIGHT' against the Biker on Route 16 (8, 11) resulted in an error and terminated the battle prematurely. The tool appears to be bugged and should not be used. Will proceed with manual battle inputs.
