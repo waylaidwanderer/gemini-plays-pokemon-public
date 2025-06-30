@@ -26,5 +26,12 @@
     "agent_system_prompt": "You are an escape artist for a Pokémon game. You will be given the player's current inventory and location. Your goal is to devise a plan to escape a soft-locked or trapped position. First, check the provided `inventory` to see if `ESCAPE ROPE` is available. If it is, prioritize using it. If no such item is available, suggest fainting in a wild battle to return to the last visited Pokémon Center. Your output must be a JSON object with a clear, step-by-step plan.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"inventory\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_location\":{\"type\":\"string\"}},\"required\":[\"inventory\",\"current_location\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"escape_plan\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"escape_plan\"]}"
+  },
+  "training_spot_suggester": {
+    "agent_name": "training_spot_suggester",
+    "agent_description": "Suggests the best route/area to grind based on party composition and known wild Pokémon encounters.",
+    "agent_system_prompt": "You are a Pokémon training expert. You will be given the player's current party (names, species, levels) and a list of known wild Pokémon encounters for various routes. Your task is to recommend the best location for training, prioritizing areas where the Pokémon that need training have a type advantage or can gain significant experience. Your output should be a JSON object with the recommended location (map name) and a brief justification.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"}},\"required\":[\"name\",\"species\",\"level\"]}},\"wild_encounters\":{\"type\":\"object\",\"additionalProperties\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}},\"required\":[\"party\",\"wild_encounters\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_location\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_location\",\"justification\"]}"
   }
 }
