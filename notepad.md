@@ -36,6 +36,7 @@
 - Wild Gastly: LICK, HYPNOSIS
 - Wild Rattata: TACKLE
 - Wild Caterpie: TACKLE, STRING SHOT
+- Wild Ekans: (unknown)
 
 ## IV. Area & Navigation Insights
 
@@ -48,7 +49,7 @@
 - **COUNTER:** Impassable.
 - **DOOR/CAVE:** Warp tile, triggered by movement.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
-- **WATER/CUT_TREE/BUOY/HEADBUTT_TREE:** Impassable.
+- **WATER/CUT_TREE/BUOY/HEADBUTT_TREE:** Inferred impassable.
 - **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below (moving up). Impassable from above.
 - **LADDER:** Confirmed traversable (acts as FLOOR on docks).
 - **FLOOR_HOP_DOWN_LEDGE:** Confirmed one-way traversal downward.
@@ -56,20 +57,21 @@
 - **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** Confirmed one-way traversal down or right.
 - **WARP_CARPET_DOWN:** Warp tile, triggered by movement.
 - **VOID:** Confirmed impassable.
-- **WARP_CARPET_LEFT:** Untested. Inferred one-way warp.
-- **WARP_CARPET_RIGHT:** Untested. Inferred one-way warp.
+- **CAVE:** Warp tile, triggered by movement. Confirmed.
+
+### Untested Tile Mechanics
+- **BUOY:** Inferred impassable scenery.
+- **WARP_CARPET_LEFT:** Inferred one-way warp.
+- **WARP_CARPET_RIGHT:** Inferred one-way warp.
 
 ## V. Untested Hypotheses & To-Do
 - **Hypothesis:** My current team, heavily reliant on a single high-level Pokémon, may struggle against future Gym Leaders.
-- **Confirmed:** Not all Cooltrainers will battle me. Some offer advice.
+- **Hypothesis:** HEADBUTT_TREEs may contain Pokémon.
 - **To-Do:** Check for alternative healing methods besides the Pokémon Center.
 - **To-Do:** Systematically test all unverified tile mechanics. Find examples of each 'Untested' tile and attempt to move on them from all four directions.
 - **To-Do:** Explore the water on Route 32 with the OLD ROD.
-- **To-Do:** Prioritize testing `WARP_CARPET_LEFT` and `WARP_CARPET_RIGHT` tiles.
-- **To-Do:** Test assumption that the path west from (12, 22) on Route 32 leads south.
+- **To-Do:** Test HEADBUTT_TREE interaction.
 
 ## VI. Strategic Notes
 - **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move, which is a major disadvantage. **Plan:** Level up ROCKY and hope he learns a Rock-type move soon, or find a TM. For now, rely on G (Croconaw) and use ROCKY for defensive switching or to use SCREECH.
 - **Party Full:** My party is now full with the addition of the Egg. I can't catch any new Pokémon until I deposit one in the PC.
-- **BUOY:** Untested. Inferred impassable scenery.
-- **CAVE:** Warp tile, triggered by movement.
