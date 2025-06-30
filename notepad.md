@@ -33,9 +33,10 @@
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
 - **FLOOR_UP_WALL:** One-way traversal. Can only be entered from below (moving up). Impassable from above.
 - **LADDER:** Traversable (acts as FLOOR on docks).
-- **FLOOR_HOP_DOWN_LEDGE:** One-way traversal downward.
-- **FLOOR_HOP_RIGHT_LEDGE:** One-way traversal to the right.
-- **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** One-way traversal down or right.
+- **FLOOR_ALLOW_HOP_DOWN:** One-way traversal downward. (Mechanics need re-verification due to system update.)
+- **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right. (Mechanics need re-verification due to system update.)
+- **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right. (Mechanics need re-verification due to system update.)
+- **SYSTEM UPDATE:** All `FLOOR_HOP_*_LEDGE` tiles have been renamed to `FLOOR_ALLOW_HOP_*`. Old assumptions about their behavior are invalid and must be re-learned.
 - **WARP_CARPET_DOWN:** Warp tile, triggered by movement.
 - **VOID:** Impassable.
 - **BUOY:** Impassable scenery.
