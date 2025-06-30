@@ -36,7 +36,6 @@
 - **Tertiary Test: Route 12 Snorlax:** The Snorlax I defeated on Route 12 is gone permanently. (Test: Return to Route 12 at (11,63) - Low Priority).
 
 ## IV. Future Development Ideas
-- **Objective Prioritization Agent:** Create an agent to analyze the current game state (location, goals, available routes) and suggest the most logical next high-level objective to prevent getting stuck or pursuing inefficient paths.
 
 ## V. Past Failures & Corrections Log
 - **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321 - T37818):** The AI critique has correctly identified a persistent behavioral issue. I repeatedly fail to follow my own core protocol of immediately documenting map transitions. I have deferred WKG updates multiple times, which corrupts my world model and leads to navigational errors. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. There are no exceptions.
