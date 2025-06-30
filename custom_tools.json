@@ -115,5 +115,20 @@
       ]
     },
     "python_script": "import json\n\ndef find_node_id(nodes, map_id, x, y):\n    for node in nodes:\n        if node.get('map_id') == map_id and node.get('coordinates', {}).get('x') == x and node.get('coordinates', {}).get('y') == y:\n            return node.get('id')\n    return None\n\ntry:\n    wkg = json.loads(world_knowledge_graph_json_string)\n    nodes = wkg.get('nodes', [])\n    edges = wkg.get('edges', [])\n    \n    element_type = input_data['element_type']\n    map_id = input_data['map_id']\n    x = int(input_data['x'])\n    y = int(input_data['y'])\n    \n    found = False\n\n    if element_type == 'node':\n        if find_node_id(nodes, map_id, x, y) is not None:\n            found = True\n            \n    elif element_type == 'edge':\n        to_map_id = input_data.get('to_map_id')\n        to_x = int(input_data.get('to_x'))\n        to_y = int(input_data.get('to_y'))\n        \n        source_node_id = find_node_id(nodes, map_id, x, y)\n        dest_node_id = find_node_id(nodes, to_map_id, to_x, to_y)\n        \n        if source_node_id and dest_node_id:\n            for edge in edges:\n                s_id = edge.get('source_node_id')\n                d_id = edge.get('destination_node_id')\n                \n                is_direct_match = (s_id == source_node_id and d_id == dest_node_id)\n                is_reverse_match = (not edge.get('is_one_way', False) and s_id == dest_node_id and d_id == source_node_id)\n                \n                if is_direct_match or is_reverse_match:\n                    found = True\n                    break\n    \n    print(json.dumps({'exists': found}))\n\nexcept Exception as e:\n    print(json.dumps({'exists': False, 'error': str(e)}))"
+  },
+  "wkg_inspector": {
+    "description": "Inspects the World Knowledge Graph to find all incoming and outgoing connections for a given map_id.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "map_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "map_id"
+      ]
+    },
+    "python_script": "import json\n\ntry:\n    wkg = json.loads(world_knowledge_graph_json_string)\n    nodes = wkg.get('nodes', [])\n    edges = wkg.get('edges', [])\n    target_map_id = input_data['map_id']\n    \n    connections = []\n    \n    # Helper to get node details\n    def get_node_details(node_id):\n        for node in nodes:\n            if node.get('id') == node_id:\n                return f\"{node.get('name')} on {node.get('map_id')} at ({node.get('coordinates', {}).get('x')}, {node.get('coordinates', {}).get('y')})\"\n        return f\"Unknown Node ({node_id})\"\n        \n    for edge in edges:\n        source_node_id = edge.get('source_node_id')\n        dest_node_id = edge.get('destination_node_id')\n        source_map = \"\"\n        dest_map = \"\"\n        \n        for node in nodes:\n            if node.get('id') == source_node_id:\n                source_map = node.get('map_id')\n            if node.get('id') == dest_node_id:\n                dest_map = node.get('map_id')\n        \n        if source_map == target_map_id and dest_map != target_map_id:\n            connections.append(f\"Outgoing: From {get_node_details(source_node_id)} -> To {get_node_details(dest_node_id)}\")\n        elif dest_map == target_map_id and source_map != target_map_id:\n            connections.append(f\"Incoming: From {get_node_details(source_node_id)} -> To {get_node_details(dest_node_id)}\")\n\n    if not connections:\n        print(f\"No external connections found for map_id: {target_map_id}\")\n    else:\n        print(\"\\n\".join(connections))\n        \nexcept Exception as e:\n    print(f\"Error inspecting WKG: {str(e)}\")"
   }
 }
