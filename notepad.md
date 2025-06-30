@@ -3,13 +3,12 @@
 ## I. Strategic Overview
 
 ### Current Strategy
-- **Party Training:** My party is too reliant on G (Croconaw). I am currently training my two Hoothoots, my Onix (ROCKY), and my Togepi (OM). My current training ground is the southern part of Route 32.
-- **Party Management:** My party is full. I need to use a PC to deposit a Pokémon before catching a new one.
+- **Primary Objective:** My main goal is to get the Hive Badge from the Azalea Town Gym. However, I am currently blocked on Route 32.
+- **Current Plan:** Based on my strategic advisor agent's suggestion, I am returning to Violet City. The hypothesis is that showing my newly hatched Togepi (OM) to an NPC there will trigger an event, allowing me to pass the trainer blocking Union Cave.
 
 ### Reminders & Best Practices
 - **Tool Failures:** I must be persistent in debugging my tools. I will not abandon a tool just because it fails; instead, I will perform a thorough logical review.
 - **Mark Dead Ends:** Mark all confirmed dead ends with '🚫' immediately.
-- **Test Tile Mechanics:** Be rigorous in testing tile mechanics. For any suspected one-way tiles, I must test movement from all four directions.
 - **Test Assumptions:** I need to test my assumption that HEADBUTT_TREEs are interactable with a move and not just scenery. Plan: Once I have a Pokémon with the move HEADBUTT, I will stand adjacent to a HEADBUTT_TREE and attempt to use the move from the party menu.
 
 ## II. Battle Intel
@@ -34,7 +33,8 @@
 ## III. World Knowledge & Mechanics
 
 ### Tile Traversal Rules (Verified)
-- **Objects are impassable:** Most map objects (items, trees, signs, active NPCs, etc.) act as walls. **Defeated trainers are impassable.**
+- **Objects are impassable:** Most map objects (items, trees, signs, active NPCs, etc.) act as walls.
+- **Defeated Trainers:** Passability is inconsistent. Some are passable, while others (like Bird Keeper Peter on Route 32) are not. Each must be tested.
 - **WALL:** Impassable.
 - **FLOOR:** Traversable.
 - **TALL_GRASS / LONG_GRASS:** Traversable, triggers wild encounters.
