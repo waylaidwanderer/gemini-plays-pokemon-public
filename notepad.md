@@ -1,7 +1,6 @@
-## I. Core Protocols & Immediate Actions (v134)
-- **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. NO DELAYS. This includes documenting faulty tools and agents.
+## I. Core Protocols & Immediate Actions (v136)
+- **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure. This includes documenting faulty tools and agents.
 - **CRITICAL: WKG Protocol:** Before adding any node or edge, I will FIRST query the WKG with `wkg_checker` to confirm it doesn't already exist. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`.
-- **CRITICAL: Map Marker Protocol:** I will immediately mark defeated trainers and other key events. Redundant markers will be deleted.
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic.
 - **CRITICAL: Tool Maintenance Protocol:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding ALL other gameplay objectives until resolved.
 
@@ -26,25 +25,20 @@
     - **Respawning Trees:** Cuttable trees respawn after a short time, even without leaving the map.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in.
 
-## III. Tool Development Log (v135)
+## III. Tool Development Log (v136)
 ### A. Active Agents & Tools
-- **Agents:**
-  - `team_composition_advisor_agent` (v2) - Reliable
-  - `protocol_enforcement_agent` (v1) - Reliable
-  - `battle_strategist_agent` (v15) - Refined and reliable.
-- **Tools:**
-  - `select_battle_option` (v1) - Reliable
-  - `pathfinder` (v5) - Refined.
-  - `object_finder` (v1) - Reliable
-  - `wkg_checker` (v3) - Reliable
+- **Agents:** `team_composition_advisor_agent`, `protocol_enforcement_agent`, `battle_strategist_agent`
+- **Tools:** `select_battle_option`, `pathfinder`, `object_finder`, `wkg_checker`
 
 ### B. Development Pipeline
 - **PC Navigation Tool:** Need to create a tool to replace the unreliable `pc_navigator_agent`. This tool will take deposit/withdraw commands and generate the precise button sequence. To be built on next PC visit.
+- **Teleporter Maze Solver Agent:** Create an agent that takes a floor's teleporter layout and WKG data to compute the optimal path through the maze.
+- **WKG Inspector Tool:** Create a reusable tool from the `run_code` script used on turn 36617 to query the WKG for incoming/outgoing connections to a specific map.
 
 ### C. Deprecated Agents & Tools
-- `pc_navigator_agent` (v3) - **DELETED.** Unreliable for deterministic menu navigation. To be replaced with a tool.
+- `pc_navigator_agent` - **DELETED.** Unreliable.
 
-## IV. Investigation Log (v135)
+## IV. Investigation Log (v136)
 ### A. Silph Co. Intel
 - **Boardroom Location:** A Rocket on 10F at (2,10) confirmed the boardroom is on the 11th floor.
 - **Bugged Rocket (5F West):** The Rocket at (9,17) in the western segment of 5F is bugged and soft-locks progress. The only exit is the teleporter back to 9F.
@@ -54,4 +48,3 @@
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
 - **Snorlax Permanence:** I assume the Snorlax I defeated on Route 12 is gone permanently. Need to verify by returning to the location at (11,63).
 - **Route 11 Blockage:** I assume the path east on Route 11 is blocked by another Snorlax, similar to the one on Route 12/16. I need to explore east to the gatehouse to confirm.
-## V. Action Items & Reminders (v135)
