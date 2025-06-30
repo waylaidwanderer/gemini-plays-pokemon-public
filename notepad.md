@@ -52,7 +52,7 @@
 
 ### Implemented Tools & Agents
 - **path_finder (Tool):** A* pathfinding.
-- **navigation_analyst (Tool):** Analyzes failed pathfinding attempts.
+
 - **training_spot_suggester (Agent):** Suggests best training locations.
 
 ## Action Items from Critique (Turn 6601)
