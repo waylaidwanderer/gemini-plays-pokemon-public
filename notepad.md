@@ -35,7 +35,7 @@
 ## III. World Knowledge & Mechanics
 
 ### Tile Traversal Rules (Verified)
-- **Objects are impassable:** All map objects (items, trees, signs, NPCs, defeated trainers etc.) act as walls.
+- **Objects are impassable:** Most map objects (items, trees, signs, active NPCs, etc.) act as walls. **Defeated trainers are PASSABLE.**
 - **WALL:** Impassable.
 - **FLOOR:** Traversable.
 - **TALL_GRASS / LONG_GRASS:** Traversable, triggers wild encounters.
