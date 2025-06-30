@@ -1,14 +1,14 @@
-## I. Core Protocols & Immediate Actions (v38162)
+## I. Core Protocols & Immediate Actions (v38288)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure. This is my highest priority.
-- **CRITICAL: WKG Protocol (v5):** Before adding any node or edge, I will FIRST query the WKG with `wkg_checker` to confirm it doesn't already exist. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`. I will use `wkg_inspector` to verify all known exits before declaring an area a dead end.
-- **CRITICAL: Map Marker Protocol (v3):** I will mark defeated trainers and used warps (both entry and exit points) *immediately* after the event occurs. This is not a task to be deferred.
+- **CRITICAL: WKG Protocol (v6):** Upon any map transition, I will immediately document BOTH the departure and arrival nodes, and the connecting edge, before any further exploration. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`. I will use `wkg_inspector` to verify all known exits before declaring an area a dead end.
+- **CRITICAL: Map Marker Protocol (v4):** I will mark defeated trainers and used warps (both entry and exit points) *immediately* after the event occurs. I will consolidate redundant markers.
 - **CRITICAL: Protocol Enforcement:** I will make a conscious effort to use the `protocol_enforcement_agent` before finalizing my plan each turn to catch my own mistakes.
 - **CRITICAL: Agent & Tool Maintenance:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the **ABSOLUTE HIGHEST PRIORITY**, superseding ALL other gameplay objectives.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective).
-- **Type Immunities:** Psychic is immune to Electric.
+- **Type Immunities:** Psychic is immune to Electric. Pidgeotto (Normal/Flying) is immune to Ghost-type moves like Confuse Ray.
 - **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves. MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
 - **Poison Type Effectiveness:** Poison-type moves are NOT-VERY-EFFECTIVE against Poison-types.
@@ -25,27 +25,24 @@
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle and any Pokémon that participated by switching in.
 - **Battle Initiation Mechanics:** To battle a trainer on an adjacent tile, you must face them and press 'A' to interact.
 
-## III. Investigation & Hypothesis Log (v38162)
+## III. Investigation & Hypothesis Log (v38288)
 ### A. Confirmed Facts
 - **PC Glitch (Confirmed):** The PC in Celadon City is persistently bugged. I must always select 'BILL's PC' to access the Pokémon Storage System.
 - **Bike Voucher Location (Confirmed):** The Bike Voucher is obtained from the Pokémon Fan Club Chairman in Vermilion City after listening to his story.
 - **`pathfinder` Intelligence (Confirmed):** The tool automatically finds a path to the nearest valid adjacent tile if the specified destination is impassable or unseen.
-- **Fuchsia City Warden (Confirmed, T38002):** The Safari Zone Warden is nicknamed 'SLOWPOKE' and has a speech impediment.
-- **Route 14 Layout (Confirmed, T38161):** The southern part of Route 14 is a one-way path down from the northern section, accessible via ledges. It is a dead-end for northbound travel.
+- **Route 14 Layout (Confirmed, T38161):** The southern part of Route 14, accessed via Route 15, is a one-way path down from the northern section and is a dead-end for northbound travel. The correct path to Fuchsia City is via the western exits of Route 13.
 
 ### B. Current Plans & Explicit Tests
-- **Primary Plan (per `navigation_strategist_agent`):** Obtain the Soul Badge. Current strategy is to Fly to Lavender Town, then travel south through Routes 12 and 13 to access the northern part of Route 14, which leads to Fuchsia City. This bypasses the one-way ledge system.
-- **Hypothesis:** The Cool Trainer M at (5, 5) on Route 14 is blocking progress. I will interact with him to test this.
+- **Primary Plan (per `navigation_strategist_agent`):** Obtain the Soul Badge. Current strategy is to navigate through Route 14 to reach Fuchsia City.
+- **Hypothesis:** The remaining trainers on Route 14 must be defeated to open the path to Fuchsia City.
+- **Hypothesis to Test:** The `cuttable` trees on Route 14 might block a critical path. I will test one if my current path becomes blocked.
 
 ## IV. Past Failures & Corrections Log
-- **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321 - T38161):** The AI critique has correctly identified a persistent behavioral issue. I repeatedly fail to follow my own core protocol of immediately documenting map transitions. This corrupts my world model and leads to navigational errors. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. There are no exceptions. This is the root cause of most of my problems.
-- **CRITICAL NAVIGATIONAL FAILURE: Directional Confusion on Route 15 (T38101 - T38161):** My `navigation_strategist_agent` correctly identified that I was moving east, away from my objective in Fuchsia City. My pathfinder then confirmed I could not go west from the upper ledge. This forced me to continue east to find a way down, which led me to the dead-end southern part of Route 14. This loop highlights a critical need to better analyze the map and my agent's advice before committing to long-distance travel.
-- **CRITICAL PROCESS FAILURE: Deferring Data Management (T38219):** I incorrectly decided to defer a WKG correction by adding it to a to-do list in my notepad. This is a fundamental violation of my operating principles, as I have no persistent memory between turns. All data management must be done immediately.
+- **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321 - T38226):** I have a persistent behavioral issue of failing to immediately and correctly document map transitions. This corrupts my world model and leads to severe navigational errors, such as the loop between Route 14 and 13. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. Both departure and arrival nodes/markers must be created before further exploration. There are no exceptions.
 
 ## V. Tile Mechanics Glossary
 - **`ground`**: Walkable.
-- **`impassable`**: Cannot be walked on.
+- **`impassable`**: Cannot be walked on. Includes fences, water, and other solid objects.
 - **`grass`**: Walkable, allows wild Pokémon encounters.
 - **`ledge`**: Can only be jumped down (one-way vertical travel).
 - **`cuttable`**: Requires HM Cut to pass. Respawn on map change.
-- **`water`**: Requires HM Surf to cross.
