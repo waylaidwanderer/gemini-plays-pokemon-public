@@ -68,3 +68,5 @@
 - **PC Glitch:** I assume the PC in Celadon City is persistently bugged. Need to test by using it and comparing behavior to another town's PC.
 - **Snorlax Permanence:** I assume the Snorlax defeated on Route 12 is gone permanently. Need to return to (11,63) on Route 12 to verify.
 - **Route 11 Blockage:** I assume the path east on Route 11 from the gatehouse is blocked by a Snorlax. Need to explore east from the Route 12/11 gatehouse to confirm.
+### C. Battle Initiation Mechanics
+- To battle a trainer directly in front of you on an adjacent tile, you must face them and press 'A' to interact. Simply moving into their tile is not possible as they act as impassable objects.
