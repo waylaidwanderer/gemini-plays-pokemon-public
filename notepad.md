@@ -52,3 +52,4 @@
 - **FLOOR_ALLOW_HOP_DOWN:** One-way traversal downward.
 - **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right.
 - **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right.
+- HMs must be used from the PACK menu, not the Pokémon's party menu.
