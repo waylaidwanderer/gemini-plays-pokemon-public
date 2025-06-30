@@ -47,8 +47,6 @@
 ### Implemented Tools & Agents
 - **path_finder (Tool):** A* pathfinding.
 
-- **training_spot_suggester (Agent):** Suggests best training locations.
-
 ## Action Items from Critique (Turn 6601)
 
 - **LONG_GRASS:** Inferred to function like TALL_GRASS. (Test: attempt to walk through it and see if it triggers encounters).
