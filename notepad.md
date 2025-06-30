@@ -43,16 +43,16 @@
 - **Agents:**
   - `team_composition_advisor_agent` (v2) - Reliable
   - `protocol_enforcement_agent` (v1) - Reliable
-  - `battle_strategist_agent` (v12) - Refined and reliable.
+  - `battle_strategist_agent` (v13) - Refined and reliable.
 - **Tools:**
   - `select_battle_option` (v1) - Reliable
-  - `pathfinder` (v4) - **BUGGY:** Fails to navigate simple fence obstacles and temporary obstacles. DO NOT USE UNTIL FIXED.
+  - `pathfinder` (v5) - **BUGGY:** Fails to navigate temporary obstacles like `cuttable` trees unless specifically told to ignore them.
   - `object_finder` (v1) - Reliable
   - `wkg_checker` (v3) - Reliable
 
 ### C. Deprecated Agents & Tools
 - `pc_navigator_agent` (v3) - **DELETED.** Unreliable for deterministic menu navigation. To be replaced with a tool.
-- `dungeon_navigator` (v1) - **DELETED:** Functionality to be merged into `master_navigator` tool.
+- `dungeon_navigator` (v1) - **DELETED.** Functionality to be merged into `master_navigator` tool.
 
 ## V. Investigation Log
 ### A. Silph Co. Intel
