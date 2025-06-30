@@ -49,7 +49,7 @@
 - **COUNTER:** Impassable.
 - **DOOR/CAVE:** Warp tile, triggered by movement.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
-- **WATER/CUT_TREE/BUOY/HEADBUTT_TREE:** Inferred impassable.
+- **WATER/CUT_TREE/HEADBUTT_TREE:** Inferred impassable.
 - **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below (moving up). Impassable from above.
 - **LADDER:** Confirmed traversable (acts as FLOOR on docks).
 - **FLOOR_HOP_DOWN_LEDGE:** Confirmed one-way traversal downward.
@@ -58,9 +58,9 @@
 - **WARP_CARPET_DOWN:** Warp tile, triggered by movement.
 - **VOID:** Confirmed impassable.
 - **CAVE:** Warp tile, triggered by movement. Confirmed.
+- **BUOY:** Confirmed impassable scenery.
 
 ### Untested Tile Mechanics
-- **BUOY:** Inferred impassable scenery.
 - **WARP_CARPET_LEFT:** Inferred one-way warp.
 - **WARP_CARPET_RIGHT:** Inferred one-way warp.
 
