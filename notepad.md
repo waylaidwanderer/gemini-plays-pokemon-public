@@ -4,12 +4,13 @@
 
 ### Current Strategy
 - **Primary Objective:** My main goal is to get the Hive Badge from the Azalea Town Gym.
-- **Current Plan:** I am on Route 32, heading south towards Union Cave. My progress is being hampered by frequent wild encounters.
+- **Current Plan:** I am in Union Cave, exploring to find the path to Azalea Town.
 
 ### Reminders & Best Practices
 - **Tool Failures:** I must be persistent in debugging my tools. I will not abandon a tool just because it fails; instead, I will perform a thorough, systematic, and incremental logical review. This is my highest priority.
 - **Immediate Data Management:** I must update my World Knowledge Graph and Map Markers *immediately* upon discovering new information or transitions. Deferring these tasks is an invalid strategy.
 - **Mark Dead Ends:** Mark all confirmed dead ends with '🚫' immediately after thorough exploration.
+- **Agent Usage:** Use `battle_advisor` in all non-trivial battles to improve efficiency.
 
 ## II. Battle Intel
 
@@ -26,10 +27,15 @@
 - Wild Hoppip: TAIL WHIP, SYNTHESIS
 - Wild Rattata: TACKLE, TAIL WHIP
 - Wild Wooper: TAIL WHIP, WATER GUN
+- Wild Zubat: LEECH LIFE
+- Wild Sandshrew: SCRATCH, DEFENSE CURL
+- Wild Geodude: TACKLE, DEFENSE CURL
 
 ### Type Effectiveness Chart (Verified)
 - Normal is not very effective against Water.
 - Normal is not very effective against Rock/Ground.
+- Water is super effective against Rock/Ground.
+- Water is super effective against Ground.
 
 ## III. World Knowledge & Mechanics
 
@@ -54,6 +60,7 @@
 - **FLOOR_ALLOW_HOP_LEFT:** One-way traversal to the left.
 - **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right.
 - **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right.
+- **FLOOR_UP_WALL:** Impassable from above (one-way upward traversal).
 
 ### Misc Mechanics
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
@@ -64,6 +71,3 @@
 
 ## V. Agent/Tool Ideas
 - **move_advisor:** An agent that suggests which Pokémon should learn a specific move, considering type, stats, and existing moveset. This would be useful for optimizing my team's effectiveness. I should refine my `hm_advisor` into this instead of making a new agent.
-
-### Untested Assumptions
-- I need to test if `FLOOR_UP_WALL` tiles are truly one-way by trying to move down them.
