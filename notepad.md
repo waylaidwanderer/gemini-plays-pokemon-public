@@ -46,8 +46,17 @@
 
 ## III. Tool Development Log (v37214)
 ### A. Active Agents & Tools
-- **Agents:** `team_composition_advisor_agent`, `protocol_enforcement_agent`, `battle_strategist_agent`, `navigation_strategist_agent`
-- **Tools:** `select_battle_option`, `pathfinder`, `object_finder`, `wkg_checker`, `wkg_inspector`
+- **Agents:**
+    - `team_composition_advisor_agent`: Recommends optimal teams and training plans for major battles.
+    - `protocol_enforcement_agent`: Ensures my planned actions adhere to my established protocols.
+    - `battle_strategist_agent`: Provides turn-by-turn battle advice.
+    - `navigation_strategist_agent`: Proposes high-level navigation strategies to avoid getting stuck.
+- **Tools:**
+    - `select_battle_option`: Automatically selects a main battle menu option.
+    - `pathfinder`: Calculates the shortest path on the current map.
+    - `object_finder`: Finds the coordinates of named objects on the current map.
+    - `wkg_checker`: Checks the World Knowledge Graph for existing nodes or edges.
+    - `wkg_inspector`: Lists all connections for a given map in the World Knowledge Graph.
 
 ## IV. Investigation Log (v37214)
 ### A. Confirmed Hypotheses
