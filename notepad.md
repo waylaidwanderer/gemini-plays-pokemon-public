@@ -5,7 +5,6 @@
 ### Current Strategy
 - **Party Training:** My party is too reliant on G (Croconaw). I am currently training my two Hoothoots, my Onix (ROCKY), and my Togepi (OM). My current training ground is the southern part of Route 32.
 - **Party Management:** My party is full. I need to use a PC to deposit a Pokémon before catching a new one.
-- **Current Predicament:** I am trapped in a dead-end on Route 32 with no ESCAPE ROPE. I must faint my party in a wild battle to return to the last Pokémon Center.
 
 ### Reminders & Best Practices
 - **Tool Failures:** I must be persistent in debugging my tools. I will not abandon a tool just because it fails; instead, I will perform a thorough logical review.
