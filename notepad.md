@@ -47,7 +47,7 @@
 ### Strategic Notes
 - **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move. **Plan:** Level up ROCKY and hope he learns a Rock-type move soon, or find a TM. For now, rely on G (Croconaw) and use ROCKY for defensive switching or to use SCREECH.
 - **Party Full:** My party is now full with the addition of the Egg. I can't catch any new Pokémon until I deposit one in the PC.
-- **Route 32 Trap - COMPLETE DEAD END:** The area south of the one-way ledge at (6, 81) is a complete dead-end with no exit. It is impossible to proceed north, south, or east. The only ways to escape are by using an ESCAPE ROPE or by fainting in a wild battle to return to the last Pokémon Center.
+- **Route 32 Navigation:** The path north past the defeated trainer at (11, 82) is not blocked. It's possible to walk around him to the left or right.
 
 ### Active Hypotheses
 - My current team, heavily reliant on a single high-level Pokémon, may struggle against future Gym Leaders.
