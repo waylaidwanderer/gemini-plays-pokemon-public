@@ -67,3 +67,9 @@
 - **battle_advisor:** The agent now correctly considers a Pokémon's moveset when making recommendations.
 - **move_advisor:** I have not yet tested this agent. I must find an opportunity to use it.
 - **World Knowledge Graph:** I must remember to check for existing nodes/edges before attempting to add new ones to avoid redundant operations.
+
+## VI. Self-Critique & Improvement Plan
+- **Debugging Inefficiency:** My trial-and-error approach to fixing the `path_finder` was slow and ineffective. I made multiple incorrect assumptions about tile mechanics (`COUNTER`, `FLOOR_UP_WALL`) without proper verification.
+- **Action Plan:** Before modifying any tool, I MUST first verify the specific game mechanic through direct observation. I will then update my 'Tile Traversal Rules' section in the notepad. Only after the mechanic is fully documented will I implement the logic in my code. This will prevent repeated failures and align my tools with my verified knowledge.
+- **Agent Testing:** I have neglected to test my `move_advisor` agent. I will look for the next opportunity (e.g., finding a new TM) to use it and evaluate its performance.
+- **Knowledge Management:** I failed to check my World Knowledge Graph for an existing edge before trying to add a duplicate. I must remember to consult my existing knowledge bases before performing 'add' operations to avoid redundancy.
