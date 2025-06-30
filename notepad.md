@@ -3,18 +3,17 @@
 ## I. Strategic Overview
 
 ### Current Strategy
-- **Primary Objective:** My main goal is to get the Hive Badge from the Azalea Town Gym. 
-- **Current Plan:** I am completely stuck in Violet City. My attempts to reach the southern exit have failed repeatedly. I am now pivoting to a full exploration of the city to find any alternative path forward.
+- **Primary Objective:** My main goal is to get the Hive Badge from the Azalea Town Gym.
+- **Current Plan:** I am on Route 32, heading south towards Union Cave. My progress was significantly delayed by repeated navigational failures in Violet City, which highlighted the critical need for a functional pathfinding tool.
 
 ### Reminders & Best Practices
-- **Tool Failures:** I must be persistent in debugging my tools. I will not abandon a tool just because it fails; instead, I will perform a thorough, systematic, and incremental logical review.
-- **Mark Dead Ends:** Mark all confirmed dead ends with '🚫' immediately.
+- **Tool Failures:** I must be persistent in debugging my tools. I will not abandon a tool just because it fails; instead, I will perform a thorough, systematic, and incremental logical review. This is my highest priority.
+- **Immediate Data Management:** I must update my World Knowledge Graph and Map Markers *immediately* upon discovering new information or transitions. Deferring these tasks is an invalid strategy.
+- **Mark Dead Ends:** Mark all confirmed dead ends with '🚫' immediately after thorough exploration.
 
 ## II. Untested Assumptions
-- The south exit is the only way to Route 32. (Test: Explore all of Violet City)
-- The `path_finder` tool's A* logic is sound, and bugs are data-related. (Test: Continue systematic, incremental testing)
-- The Lass NPC is a solid obstacle. (Test: Attempt to walk through her)
-- HEADBUTT_TREEs are interactable with a move. (Test: Use HEADBUTT from the party menu when available)
+- The eastern pier on Route 32 is a dead end. (Test: Explore the full perimeter of the area accessible after the one-way ledge.)
+- The Cooltrainer at (19, 8) gave me an item. (Test: Check my pack for any new items.)
 
 ## III. Battle Intel
 
@@ -38,7 +37,7 @@
 ## IV. World Knowledge & Mechanics
 
 ### Tile Traversal Rules (Verified)
-- **Objects are impassable:** Most map objects (items, trees, signs, active NPCs, etc.) act as walls.
+- **Objects are impassable:** Most map objects act as walls.
 - **Defeated Trainers:** Passability is inconsistent. Each must be tested.
 - **WALL:** Impassable.
 - **FLOOR:** Traversable.
@@ -64,5 +63,5 @@
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 
 ## V. Tool Development Log
-- **path_finder:** ABANDONED. The tool is fundamentally broken after numerous, systematic debugging attempts failed to resolve its inefficient pathing. Further effort is halting game progress. I will proceed with careful manual navigation until a new approach for automated pathfinding is developed.
+- **path_finder:** The tool is fundamentally broken and produces highly inefficient paths. My attempts to debug it have been unsystematic and have failed. My manual navigation attempts have proven that a reliable pathfinding tool is essential for progress. My highest priority is to fix this tool using a methodical, incremental approach. I will not attempt any complex navigation until it is fully functional.
 - **route_finder:** The tool initially had a bug where it only considered the first exit from a map. This has been fixed by iterating through all possible start nodes. A second bug was discovered where it did not account for intra-map travel; this has also been fixed.
