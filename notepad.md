@@ -39,11 +39,3 @@
 ## IV. Past Failures & Corrections Log
 - **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321 - T38226):** I have a persistent behavioral issue of failing to immediately and correctly document map transitions. This corrupts my world model and leads to severe navigational errors, such as the loop between Route 14 and 13. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. Both departure and arrival nodes/markers must be created before further exploration. There are no exceptions.
 - **Navigational Failure (Route 14, T38161):** I incorrectly believed the path to Fuchsia City was through the southern part of Route 14, accessed via Route 15. This was confirmed to be a one-way dead end for northbound travel. This highlights the importance of thorough exploration and trusting my WKG. The correct path to Fuchsia City is likely through the western exits of Route 13 or by exploring all of Route 14.
-
-## V. Tile Mechanics Glossary
-- **`ground`**: Walkable.
-- **`impassable`**: Cannot be walked on. Includes fences, water, and other solid objects.
-- **`grass`**: Walkable, allows wild Pokémon encounters.
-- **`ledge`**: Can only be jumped down (one-way vertical travel).
-- **`cuttable`**: Requires HM Cut to pass. Respawn on map change.
-- **CRITICAL REMINDER (T38336):** System has repeatedly warned about ~31 reachable unseen tiles on Route 14. After this battle, I MUST perform a full exploration of the area south of the cuttable trees to resolve this.
