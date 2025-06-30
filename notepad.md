@@ -3,8 +3,9 @@
 ## I. Strategic Overview
 
 ### Current Strategy
-- **Party Training:** My party is too reliant on G (Croconaw). I am currently training my two Hoothoots, my Onix (ROCKY), and my Togepi (OM). My current training ground is the southern part of Route 32, as I am currently trapped here.
+- **Party Training:** My party is too reliant on G (Croconaw). I am currently training my two Hoothoots, my Onix (ROCKY), and my Togepi (OM). My current training ground is the southern part of Route 32.
 - **Party Management:** My party is full. I need to use a PC to deposit a Pokémon before catching a new one.
+- **Current Predicament:** I am trapped in a dead-end on Route 32 with no ESCAPE ROPE. I must faint my party in a wild battle to return to the last Pokémon Center.
 
 ### Reminders & Best Practices
 - **Tool Failures:** I must be persistent in debugging my tools. I will not abandon a tool just because it fails; instead, I will perform a thorough logical review.
@@ -52,6 +53,3 @@
 - **FLOOR_ALLOW_HOP_DOWN:** One-way traversal downward.
 - **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right.
 - **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right.
-
-### Failed Hypotheses
-- **Route 32 Pathfinding:** Assumed a path existed north from the southern section of Route 32. After 50+ turns of failed pathfinder debugging and manual exploration, confirmed that the combination of ledges and one-way hop tiles makes the Union Cave entrance at (6, 79) unreachable from the south. The pathfinder tool was correct all along.
