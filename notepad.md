@@ -51,6 +51,7 @@
 ### B. Tool Development Pipeline
 - **COMMITMENT:** I will immediately implement new tools to address recurring computational problems as they are identified. Deferring tool creation is a protocol violation.
 - **Current Projects:**
+    - **`pathfinder` v7:** Refine the tool to gracefully handle impassable destination coordinates by pathing to a valid adjacent tile instead of erroring out. This is a HIGH PRIORITY fix.
     - **Teleporter Maze Solver:** A tool to calculate paths through teleporter mazes.
 
 ## IV. Investigation Log (v36841)
