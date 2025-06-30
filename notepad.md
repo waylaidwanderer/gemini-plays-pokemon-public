@@ -5,14 +5,14 @@
 - **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic.
 - **CRITICAL: Tool Maintenance Protocol:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding ALL other gameplay objectives until resolved.
 
-## II. Current Mission: Debug Navigation Tools
-- **Primary Objective:** Fix the bugged `pathfinder` and `dungeon_navigator` tools.
-- **Secondary Objective:** Consolidate `pathfinder` and `dungeon_navigator` into a single, robust `master_navigator` tool.
-- **Tertiary Objective:** Liberate Silph Co. from Team Rocket.
+## II. Current Mission: Liberate Silph Co.
+- **Primary Objective:** Liberate Silph Co. from Team Rocket.
+- **Secondary Objective:** Find and defeat the Saffron City Gym Leader.
+- **Tertiary Objective:** Reach Fuchsia City to challenge Koga for the Soul Badge.
 
 ## III. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
-- **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison).
+- **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective).
 - **Type Immunities:** Psychic is immune to Electric.
 - **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves. MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
@@ -28,28 +28,31 @@
 - **HM & Field Move Mechanics:**
     - **Flash & Cut Exception:** These HMs MUST be taught to a Pokémon to be used in the field.
     - **PC Interaction:** Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
+    - **Respawning Trees:** Cuttable trees respawn after a short time, even without leaving the map.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in.
 
 ## IV. Tool Development Log (v134)
 ### A. Development Pipeline
-- **TOP PRIORITY (BUG FIX):** `pathfinder` & `dungeon_navigator` are unreliable and generate invalid paths through impassable fences (e.g., on Route 13). **Testing Plan:** Attempt to use pathfinder to navigate around other types of impassable tiles (e.g., buildings, rocks) to see if the bug is specific to fences or all impassable tiles.
+- **TOP PRIORITY (BUG FIX):** `pathfinder` is unreliable and generates invalid paths through impassable fences (e.g., on Route 13) and fails to account for temporary obstacles like `cuttable` trees. **Testing Plan:** Attempt to use pathfinder to navigate around other types of impassable tiles (e.g., buildings, rocks) to see if the bug is specific to fences or all impassable tiles.
+- **NEW TOOL: `master_navigator_tool`:** Consolidate `pathfinder` into a single, robust navigation tool that can handle complex mazes and temporary obstacles.
 - **NEW TOOL: `pc_navigator_tool`:** Create a deterministic tool for PC menu navigation. Agents are not suitable for this task.
+- **NEW AGENT: `navigation_supervisor_agent`:** Create an agent to analyze `pathfinder` failures and suggest new parameters to find a valid path.
 - **NEW: `wkg_manager_tool`:** Create a single tool to handle the 'check-then-add' logic for a map transition to improve efficiency.
 
 ### B. Active Agents & Tools
 - **Agents:**
   - `team_composition_advisor_agent` (v2) - Reliable
   - `protocol_enforcement_agent` (v1) - Reliable
-  - `battle_strategist_agent` (v11) - Refined and reliable.
+  - `battle_strategist_agent` (v12) - Refined and reliable.
 - **Tools:**
   - `select_battle_option` (v1) - Reliable
-  - `pathfinder` (v3) - **BUGGED:** Fails to navigate simple fence obstacles. DO NOT USE UNTIL FIXED.
-  - `dungeon_navigator` (v1) - **DELETED:** Functionality merged into `pathfinder` tool.
+  - `pathfinder` (v4) - **BUGGY:** Fails to navigate simple fence obstacles and temporary obstacles. DO NOT USE UNTIL FIXED.
   - `object_finder` (v1) - Reliable
   - `wkg_checker` (v3) - Reliable
 
-### C. Deprecated Agents
+### C. Deprecated Agents & Tools
 - `pc_navigator_agent` (v3) - **DELETED.** Unreliable for deterministic menu navigation. To be replaced with a tool.
+- `dungeon_navigator` (v1) - **DELETED:** Functionality to be merged into `master_navigator` tool.
 
 ## V. Investigation Log
 ### A. Silph Co. Intel
@@ -59,6 +62,3 @@
 ### B. Untested Assumptions & Hypotheses
 - **PC Glitch:** The PC in Celadon City is persistently bugged and I must always select 'BILL's PC' to access the Pokémon Storage System. This needs to be re-verified on next use.
 - **Battle Mechanic Anomaly:** During the battle with Pixel's Dodrio on Silph Co. 7F, Dodrio used Fly, but the game displayed "But, it failed!". My subsequent move, Confuse Ray, also failed. The turn then reset to the main battle menu, with Dodrio not in the air. The reason for these failures is unknown.
-
-## VI. Reflection Log (T36416)
-- **Discipline Lapses:** I have been stuck on Route 12 for over 10 turns due to poor navigation. I failed to use my navigation tools promptly and did not mark dead ends, violating my own protocols. I also deferred fixing my `wkg_checker` tool after it provided a faulty result. I must be more disciplined in using my tools and documenting my environment to avoid getting stuck like this in the future.
