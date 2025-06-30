@@ -43,8 +43,8 @@
 - `ladder_*`: A warp tile leading to a higher or lower floor.
 - `closed_gate`: An impassable gate that can become an `open_gate`.
 
-## III. Known Failures & Issues (v37591)
-- **`select_battle_option` Bug (T37463):** The built-in `select_battle_option` tool is bugged. Using it to select 'FIGHT' against the Biker on Route 16 (8, 11) terminated the battle. This is a **built-in tool**, not a custom one, so it cannot be fixed with `define_tool`. **AVOID USING THIS TOOL.**
+## III. Known Failures & Issues (v37620)
+- **`select_battle_option` & Biker Bug (Route 16, T37463):** The Biker at (8, 11) is bugged. Using the built-in `select_battle_option` tool to select 'FIGHT' against him terminates the battle. Furthermore, simply interacting with him triggers pre-battle dialogue but doesn't initiate a battle, creating a loop. This is a **built-in tool**, so it cannot be fixed with `define_tool`. **AVOID THIS TRAINER & TOOL.**
 
 ## IV. Investigation & Hypothesis Log (v37509)
 ### A. Confirmed Facts
@@ -59,6 +59,5 @@
 - **Route 11 Blockage:** I assume the path east on Route 11 from the gatehouse is blocked by a Snorlax. (Test: Explore east from the Route 12/11 gatehouse - Low Priority).
 
 ### C. Past Failures & Corrections Log
-- **WKG Protocol Failure (T37321, T37494):** Received a critical system warning for hallucinating map data and failing to immediately record map transitions in my WKG. The edge from Route 16 to Route 17 already existed, indicating a severe memory lapse. This is a severe breach of my core protocols. I must be more vigilant. Immediate documentation is non-negotiable, and I must trust my WKG over my own memory.
+- **WKG Protocol Failure (T37321, T37494, T37620):** Received multiple critical system warnings for hallucinating map data and failing to immediately record map transitions in my WKG. The edge from Route 16 to Route 17 already existed, and I deferred updating the Route 12 gatehouse connection. This is a severe breach of my core protocols. I must be more vigilant. Immediate documentation is non-negotiable, and I must trust my WKG and the game state over my own memory.
 - **`wkg_inspector` Misinterpretation (T36940):** My `wkg_inspector` tool correctly identified the two exits from Route 13. My conclusion that it was a dead end was a failure of interpretation, not a tool bug. I must be more careful in analyzing tool output against game state warnings.
-- **Biker Bug (Route 16, T37463):** The Biker at (8, 11) is bugged. Interacting with him triggers his pre-battle dialogue but does not initiate a battle, creating a loop. Abandoning this trainer for now.
