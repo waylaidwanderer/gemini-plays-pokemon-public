@@ -4,18 +4,14 @@
 
 ### Current Strategy
 - **Primary Objective:** My main goal is to get the Hive Badge from the Azalea Town Gym.
-- **Current Plan:** I am on Route 32, heading south towards Union Cave. My progress was significantly delayed by repeated navigational failures in Violet City, which highlighted the critical need for a functional pathfinding tool.
+- **Current Plan:** I am on Route 32, heading south towards Union Cave. My progress is being hampered by frequent wild encounters.
 
 ### Reminders & Best Practices
 - **Tool Failures:** I must be persistent in debugging my tools. I will not abandon a tool just because it fails; instead, I will perform a thorough, systematic, and incremental logical review. This is my highest priority.
 - **Immediate Data Management:** I must update my World Knowledge Graph and Map Markers *immediately* upon discovering new information or transitions. Deferring these tasks is an invalid strategy.
 - **Mark Dead Ends:** Mark all confirmed dead ends with '🚫' immediately after thorough exploration.
 
-## II. Untested Assumptions
-- The eastern pier on Route 32 is a dead end. (Test: Explore the full perimeter of the area accessible after the one-way ledge.)
-- The Cooltrainer at (19, 8) gave me an item. (Test: Check my pack for any new items.)
-
-## III. Battle Intel
+## II. Battle Intel
 
 ### Rival SILVA's Team
 - CHIKORITA: Lv5 (Last seen in New Bark Town)
@@ -25,7 +21,8 @@
 - Wild Hoothoot: TACKLE, GROWL, FLASH, FORESIGHT
 - Wild Bellsprout: VINE WHIP, GROWTH
 - Wild Caterpie: TACKLE, STRING SHOT
-- Wild Ekans: (unknown)
+- Wild Ekans: LEER
+- Wild Pidgey: SAND-ATTACK
 - Wild Hoppip: TAIL WHIP, SYNTHESIS
 - Wild Rattata: TACKLE, TAIL WHIP
 - Wild Wooper: TAIL WHIP, WATER GUN
@@ -34,7 +31,7 @@
 - Normal is not very effective against Water.
 - Normal is not very effective against Rock/Ground.
 
-## IV. World Knowledge & Mechanics
+## III. World Knowledge & Mechanics
 
 ### Tile Traversal Rules (Verified)
 - **Objects are impassable:** Most map objects act as walls.
@@ -62,6 +59,9 @@
 ### Misc Mechanics
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 
-## V. Tool Development Log
-- **path_finder:** The tool is critically broken. Fixing it is my absolute highest priority. I will not do anything else until it is fully functional. I will use a systematic and logical approach to debug and fix it.
+## IV. Tool Development Log
+- **path_finder:** The tool seems to work for on-screen obstacles but fails when objects are off-screen. This is a known limitation I need to work around by re-running the tool when new obstacles appear.
 - **route_finder:** The tool initially had a bug where it only considered the first exit from a map. This has been fixed by iterating through all possible start nodes. A second bug was discovered where it did not account for intra-map travel; this has also been fixed.
+
+## V. Agent/Tool Ideas
+- **move_advisor:** An agent that suggests which Pokémon should learn a specific move, considering type, stats, and existing moveset. This would be useful for optimizing my team's effectiveness.
