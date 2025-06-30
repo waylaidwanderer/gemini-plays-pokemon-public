@@ -1,9 +1,9 @@
-## I. Core Protocols & Immediate Actions (v37457)
-- **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure. This includes documenting faulty tools and agents.
-- **CRITICAL: WKG Protocol (v3):** Before adding any node or edge, I will FIRST query the WKG with `wkg_checker` to confirm it doesn't already exist. When using `wkg_checker`, I MUST use numeric map IDs for the `map_name` and `to_map_name` arguments. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`. I will use `wkg_inspector` to verify all known exits before declaring an area a dead end.
-- **NEW: Pre-Navigation Check:** Before setting a major navigation goal, I will first consult my World Knowledge Graph and relevant Map Markers to ensure the path is not already explored or known to be a dead end.
-- **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic. I will use `navigation_strategist_agent` when facing navigational difficulties.
-- **CRITICAL: Tool Maintenance Protocol:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the highest priority secondary goal, superseding ALL other gameplay objectives until resolved.
+## I. Core Protocols & Immediate Actions (v37502)
+- **CRITICAL: Immediate Tool & Agent Maintenance:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the **ABSOLUTE HIGHEST PRIORITY**, superseding ALL other gameplay objectives. I will stop all other actions and fix the tool immediately.
+- **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
+- **CRITICAL: Trust the Game State:** I will always treat the Game State Information as the absolute source of truth, especially the `Reachable Unseen Tiles` count, over my own memory or interpretations.
+- **CRITICAL: WKG Protocol (v4):** Before adding any node or edge, I will FIRST query the WKG with `wkg_checker` to confirm it doesn't already exist. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`. I will use `wkg_inspector` to verify all known exits before declaring an area a dead end.
+- **CRITICAL: Agent & Workflow Discipline:** I will use my custom agents for complex reasoning and my custom tools for computational tasks. I will use `protocol_enforcement_agent` to check my logic and `navigation_strategist_agent` when facing navigational difficulties.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
