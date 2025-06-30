@@ -1,23 +1,31 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. Battle Info
+## I. Game Plan & Goals
+
+### Strategic Notes
+- **Party Imbalance:** My party is too reliant on G (Croconaw). The Azalea Town Gym is Bug-type, so I must train my two Hoothoots, whose Flying-type attacks will be super-effective. Current plan is to train on Route 32.
+- **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move. For now, rely on G and use ROCKY for defensive switching or to use SCREECH.
+- **Party Full:** My party is full with the addition of the Egg. I can't catch any new Pokémon until I deposit one in the PC.
+
+## II. Battle Intel
 
 ### Rival SILVA's Team
 - CHIKORITA: Lv5 (Last seen in New Bark Town)
 
 ### Observed Movesets
 - Wild Poliwag: BUBBLE
-- Wild Hoothoot: TACKLE, FLASH
-- Wild Bellsprout: VINE WHIP
+- Wild Hoothoot: TACKLE, GROWL, FLASH
+- Wild Bellsprout: VINE WHIP, GROWTH
 - Wild Gastly: LICK, HYPNOSIS
 - Wild Rattata: TACKLE
 - Wild Caterpie: TACKLE, STRING SHOT
 - Wild Ekans: (unknown)
+- Wild Hoppip: TAIL WHIP
 
-## II. Area & Navigation Insights
+## III. World Knowledge & Mechanics
 
 ### Tile Traversal Rules (Verified)
-- **Objects are impassable:** All map objects (items, trees, signs, defeated trainers etc.) act as as walls.
+- **Objects are impassable:** All map objects (items, trees, signs, NPCs, defeated trainers etc.) act as walls.
 - **WALL:** Impassable.
 - **FLOOR:** Traversable.
 - **TALL_GRASS:** Traversable, triggers wild encounters.
@@ -32,28 +40,19 @@
 - **FLOOR_HOP_DOWN_OR_RIGHT_LEDGE:** One-way traversal down or right.
 - **WARP_CARPET_DOWN:** Warp tile, triggered by movement.
 - **VOID:** Impassable.
-- **CAVE:** Warp tile, triggered by movement.
 - **BUOY:** Impassable scenery.
 
-### Untested Tile Mechanics
-- **WATER:** Inferred impassable without SURF.
-- **CUT_TREE:** Inferred impassable without CUT.
-- **HEADBUTT_TREE:** Inferred impassable without HEADBUTT.
-- **WARP_CARPET_LEFT:** Inferred one-way warp.
-- **WARP_CARPET_RIGHT:** Inferred one-way warp.
+### Untested Assumptions & Planned Experiments
+- **Union Cave Entrance (Route 32):** The warp at (6, 79) is confirmed to be an EXIT ONLY due to a one-way ledge at (6, 80). The main entrance must be elsewhere.
+- **WATER:** Inferred impassable without SURF. (Test: attempt to walk into it)
+- **CUT_TREE:** Inferred impassable without CUT. (Test: attempt to walk into it)
+- **HEADBUTT_TREE:** Inferred impassable without HEADBUTT. (Test: attempt to walk into it and interact)
 
-## III. Game Plan & Hypotheses
+## IV. Tool & Agent Development
 
-### Strategic Notes
-- **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move. **Plan:** Level up ROCKY and hope he learns a Rock-type move soon, or find a TM. For now, rely on G (Croconaw) and use ROCKY for defensive switching or to use SCREECH.
-- **Party Full:** My party is now full with the addition of the Egg. I can't catch any new Pokémon until I deposit one in the PC.
-- **Route 32 Navigation:** The path north past the defeated trainer at (11, 82) is not blocked. It's possible to walk around him to the left or right.
-
-### Active Hypotheses
-- My current team, heavily reliant on a single high-level Pokémon, may struggle against future Gym Leaders.
-- HEADBUTT_TREEs may contain Pokémon.
-
-### Tool Ideas
-- **Navigation Analyst Tool:** A tool that parses map XML when `path_finder` fails. It would analyze the start and end points to identify potential blockers like one-way ledges, impassable tile types, or permanent obstacles from map markers, and then suggest reasons for the path failure.
-- **Union Cave Entrance (Route 32):** The warp at (6, 79) is an EXIT ONLY due to a one-way ledge at (6, 80). Cannot be entered from this side.
+### Process Reminders
 - **Mark ALL NPCs:** To prevent pathfinding errors, I must place a map marker for every single NPC I encounter, not just defeated trainers or special characters. This is crucial for remembering off-screen obstacles.
+
+### Tool & Agent Ideas
+- **Navigation Analyst Tool:** A tool that parses map XML when `path_finder` fails. It would analyze the start and end points to identify potential blockers like one-way ledges, impassable tile types, or permanent obstacles from map markers, and then suggest reasons for the path failure.
+- **Training Spot Suggester (Agent):** An agent that takes my party's levels and types and suggests the best route/area to grind based on known wild Pokémon encounters and trainer data.
