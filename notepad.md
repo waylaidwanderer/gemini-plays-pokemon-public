@@ -65,3 +65,5 @@
 
 ## V. Agent/Tool Ideas
 - **move_advisor:** An agent that suggests which Pokémon should learn a specific move, considering type, stats, and existing moveset. This would be useful for optimizing my team's effectiveness.
+### Untested Assumptions
+- I need to test if `FLOOR_UP_WALL` tiles are truly one-way by trying to move down them.
