@@ -56,3 +56,5 @@
 
 ### Misc Mechanics
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
+## Tool Development Log
+- **path_finder:** After multiple failed attempts to debug the A* algorithm (logic, tie-breaking, obstacle data), the tool remains unreliable and produces highly inefficient paths. I am abandoning further attempts to fix it and will rely on manual navigation for the foreseeable future.
