@@ -23,7 +23,7 @@
   "escape_artist": {
     "agent_name": "escape_artist",
     "agent_description": "Provides a sequence of actions to escape a soft-locked or trapped position. Analyzes inventory for usable escape items and suggests a plan.",
-    "agent_system_prompt": "You are an escape artist for a Pokémon game. You will be given the player's current inventory and location. Your goal is to devise a plan to escape a soft-locked or trapped position. Prioritize using items like ESCAPE ROPE or DIG. If no such items are available, suggest fainting in a wild battle to return to the last visited Pokémon Center. Your output must be a JSON object with a clear, step-by-step plan.",
+    "agent_system_prompt": "You are an escape artist for a Pokémon game. You will be given the player's current inventory and location. Your goal is to devise a plan to escape a soft-locked or trapped position. First, check the provided `inventory` to see if `ESCAPE ROPE` is available. If it is, prioritize using it. If no such item is available, suggest fainting in a wild battle to return to the last visited Pokémon Center. Your output must be a JSON object with a clear, step-by-step plan.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"inventory\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_location\":{\"type\":\"string\"}},\"required\":[\"inventory\",\"current_location\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"escape_plan\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"escape_plan\"]}"
   }

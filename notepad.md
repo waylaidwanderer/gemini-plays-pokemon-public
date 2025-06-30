@@ -52,3 +52,6 @@
 ### Active Hypotheses
 - My current team, heavily reliant on a single high-level Pokémon, may struggle against future Gym Leaders.
 - HEADBUTT_TREEs may contain Pokémon.
+
+### Tool Ideas
+- **Navigation Analyst Tool:** A tool that parses map XML when `path_finder` fails. It would analyze the start and end points to identify potential blockers like one-way ledges, impassable tile types, or permanent obstacles from map markers, and then suggest reasons for the path failure.
