@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v37651)
+## I. Core Protocols & Immediate Actions (v37819)
 - **CRITICAL: Immediate Tool & Agent Maintenance:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the **ABSOLUTE HIGHEST PRIORITY**, superseding ALL other gameplay objectives. I will stop all other actions and use `define_tool` or `define_agent` to fix it on the very next turn. This is non-negotiable and is not a 'goal' to be deferred.
 - **CRITICAL: Immediate & ACCURATE Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
 - **CRITICAL: Trust the Game State:** I will always treat the Game State Information (especially `Reachable Unseen Tiles` and `is_in_dead_end_area`) as the absolute source of truth, over my own memory or interpretations. If the game state says a path exists, I must find it.
@@ -20,22 +20,17 @@
 - **Saffron City Navigation:** The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered on Silph Co. 9F at (12, 2).
 - **Silph Co. Gate Mechanic:** Gates in Silph Co. appear to be controlled by the player's X-coordinate in a corresponding, physically separate corridor.
-- **HM & Field Move Mechanics:**
-    - Flash & Cut Exception: These HMs MUST be taught to a Pokémon to be used in the field.
-    - PC Interaction: Must be activated by standing on the tile directly below the PC object (Y+1), facing up, and then pressing A.
-    - Respawning Trees: Cuttable trees respawn after a short time, even without leaving the map.
-- **EXP Distribution:** Experience is shared between the Pokémon that started the battle (the lead) and any Pokémon that participated by switching in.
+- **HM & Field Move Mechanics:** Flash & Cut MUST be taught to a Pokémon to be used in the field. PC Interaction must be activated from the tile directly below the PC (Y+1), facing up.
+- **Respawning Trees:** Cuttable trees respawn after a short time, even without leaving the map.
+- **EXP Distribution:** Experience is shared between the Pokémon that started the battle and any Pokémon that participated by switching in.
 - **Battle Initiation Mechanics:** To battle a trainer on an adjacent tile, you must face them and press 'A' to interact. Moving into their tile is not possible as they act as impassable objects.
 
-## III. Known Failures & Issues (v37651)
-- **`select_battle_option` & Biker Bug (Route 16, T37463):** The Biker at (8, 11) is bugged. Using the built-in `select_battle_option` tool to select 'FIGHT' against him terminates the battle. Simply interacting with him also fails to initiate a battle. This is a **built-in tool** and cannot be fixed. **AVOID THIS TRAINER & TOOL.**
-
-## IV. Investigation & Hypothesis Log (v37801)
+## III. Investigation & Hypothesis Log (v37819)
 ### A. Confirmed Facts
 - **PC Glitch (Confirmed):** The PC in Celadon City is persistently bugged. I must always select 'BILL's PC' to access the Pokémon Storage System.
 - **Bike Voucher Location (Confirmed):** The Bike Voucher is obtained from the Pokémon Fan Club Chairman in Vermilion City after listening to his story.
 - **`pathfinder` Intelligence (Confirmed):** The tool automatically finds a path to the nearest valid adjacent tile if the specified destination is impassable or unseen.
-- **Route 17 One-Way Path (Confirmed):** Route 17 is a one-way downhill path. Attempts to travel north from (10, 51) have failed repeatedly, confirming this.
+- **Route 17 One-Way Path (Confirmed, T37818):** Route 17 is a one-way downhill path. Attempts to travel north from (10, 51) have failed repeatedly (5+ times). Attempts to travel west from (9, 88) also failed repeatedly (5+ times). This confirms I must travel south.
 
 ### B. Current Hypotheses (Untested)
 - **Cycling Road Access:** Accessing Cycling Road requires a Bicycle. (Test: Attempt to enter Cycling Road after obtaining a Bicycle).
@@ -44,8 +39,9 @@
 - **Route 11 Blockage:** I assume the path east on Route 11 from the gatehouse is blocked by a Snorlax. (Test: Explore east from the Route 12/11 gatehouse - Low Priority).
 
 ### C. Current Plans
-- **Route 17 Navigation:** The goal is to reach Fuchsia City by traveling south down Route 17. The route is split by a large body of water. I will prioritize exploring the western landmass first, clearing all trainers and unseen tiles, before attempting to cross the water to the eastern side.
+- **Route 17 Navigation:** The goal is to reach Fuchsia City by traveling south down Route 17. The route is a one-way downhill path. I will prioritize exploring the western landmass first, clearing all trainers and unseen tiles, before attempting to cross the water to the eastern side.
 
 ### D. Past Failures & Corrections Log
-- **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321, T37494, T37620, T37650, T37800):** The AI critique has correctly identified a persistent behavioral issue. I repeatedly fail to follow my own core protocol of immediately documenting map transitions. I have deferred WKG updates multiple times (e.g., Route 12 Gatehouse, Route 13/14 connection, Route 16/17 transition), which corrupts my world model and leads to navigational errors. This is a critical failure of discipline. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. There are no exceptions.
+- **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321, T37494, T37620, T37650, T37800):** The AI critique has correctly identified a persistent behavioral issue. I repeatedly fail to follow my own core protocol of immediately documenting map transitions. I have deferred WKG updates multiple times, which corrupts my world model and leads to navigational errors. This is a critical failure of discipline. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. There are no exceptions.
 - **`wkg_inspector` Misinterpretation (T36940):** My `wkg_inspector` tool correctly identified the two exits from Route 13. My conclusion that it was a dead end was a failure of interpretation, not a tool bug. I must be more careful in analyzing tool output against game state warnings.
+- **Biker Bug (Route 16, T37463):** The Biker at (8, 11) is bugged. Using `select_battle_option` to select 'FIGHT' terminates the battle. Interacting with him also fails. **AVOID THIS TRAINER & TOOL.**
