@@ -56,3 +56,4 @@
 - **Route 11 Blockage:** I assume the path east on Route 11 is blocked by another Snorlax, similar to the one on Route 12/16. I need to explore east to the gatehouse to confirm.
 ## V. Action Items & Reminders (v135)
 - **Marker Cleanup (Vermilion City):** Delete redundant markers at (24, 14), (12, 4), and (13, 20) on next visit.
+- **WKG FIX (Silph Co. 4F):** Create node for stairs at (25, 1) and add edge to 3F.
