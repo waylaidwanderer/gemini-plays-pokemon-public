@@ -7,7 +7,7 @@
 - **Party Management:** My party is full. I need to use a PC to deposit a Pokémon before catching a new one.
 
 ### Reminders & Best Practices
-- **Tool Failures:** If a tool fails, I must first diagnose the reason (e.g., impossible request) before attempting to fix the tool's code. I must be persistent in debugging.
+- **Tool Failures:** I must be persistent in debugging my tools. I will not abandon a tool just because it fails; instead, I will perform a thorough logical review.
 - **Mark Dead Ends:** Mark all confirmed dead ends with '🚫' immediately.
 - **Test Tile Mechanics:** Be rigorous in testing tile mechanics. For any suspected one-way tiles, I must test movement from all four directions.
 - **Test Assumptions:** I need to test my assumption that HEADBUTT_TREEs are interactable with a move and not just scenery. Plan: Once I have a Pokémon with the move HEADBUTT, I will stand adjacent to a HEADBUTT_TREE and attempt to use the move from the party menu.
