@@ -39,7 +39,7 @@
 - **CUT_TREE:** Confirmed impassable without CUT.
 
 ### Tile Traversal Rules (Needs Verification)
-- **WATER:** Assumed impassable without SURF. (Test: attempt to walk on a water tile.)
+- **WATER:** Verified impassable without SURF.
 - **FLOOR_ALLOW_HOP_DOWN:** One-way traversal downward. (Mechanics need re-verification due to system update.)
 - **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right. (Mechanics need re-verification due to system update.)
 - **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right. (Mechanics need re-verification due to system update.)
