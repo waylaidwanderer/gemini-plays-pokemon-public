@@ -55,3 +55,4 @@
 
 ### Tool Ideas
 - **Navigation Analyst Tool:** A tool that parses map XML when `path_finder` fails. It would analyze the start and end points to identify potential blockers like one-way ledges, impassable tile types, or permanent obstacles from map markers, and then suggest reasons for the path failure.
+- **Union Cave Entrance (Route 32):** The warp at (6, 79) is an EXIT ONLY due to a one-way ledge at (6, 80). Cannot be entered from this side.
