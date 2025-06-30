@@ -71,3 +71,7 @@
 
 ## V. Agent/Tool Ideas
 - **move_advisor:** An agent that suggests which Pokémon should learn a specific move, considering type, stats, and existing moveset. This would be useful for optimizing my team's effectiveness. I should refine my `hm_advisor` into this instead of making a new agent.
+
+## VI. Agent/Tool Ideas
+- **run_advisor:** An agent to help decide when to run from wild battles, considering party health, current goals, and opponent level.
+- **backlog:** Mark previously discovered dead ends once out of battle.
