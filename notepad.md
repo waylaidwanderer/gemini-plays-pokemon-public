@@ -42,23 +42,14 @@
 - **WARP_CARPET_LEFT:** Inferred one-way warp.
 - **WARP_CARPET_RIGHT:** Inferred one-way warp.
 
-## III. Game Plan & To-Do
+## III. Game Plan & Hypotheses
 
 ### Strategic Notes
 - **Onix's Moveset:** My Onix (ROCKY) lacks a Rock-type move. **Plan:** Level up ROCKY and hope he learns a Rock-type move soon, or find a TM. For now, rely on G (Croconaw) and use ROCKY for defensive switching or to use SCREECH.
 - **Party Full:** My party is now full with the addition of the Egg. I can't catch any new Pokémon until I deposit one in the PC.
+- **Route 32 Trap - COMPLETE DEAD END:** The area south of the one-way ledge at (6, 81) is a complete dead-end with no exit. It is impossible to proceed north, south, or east. The only ways to escape are by using an ESCAPE ROPE or by fainting in a wild battle to return to the last Pokémon Center.
 
 ### Active Hypotheses
 - My current team, heavily reliant on a single high-level Pokémon, may struggle against future Gym Leaders.
 - HEADBUTT_TREEs may contain Pokémon.
-
-### To-Do List
-1.  **Fix `path_finder` tool:** Re-implement one-way tile logic carefully.
-2.  **Systematically test tile mechanics:** Find examples of each 'Untested' tile and attempt to move on them from all four directions. Record results.
-3.  **Explore Route 32:** Use the OLD ROD in the water to see what can be caught.
-4.  **Test HEADBUTT_TREE:** Interact with a HEADBUTT_TREE to see if it requires a move.
-
-### Route 32 Trap
-- The area south of the Union Cave entrance, after jumping the ledge at (6, 81), is a one-way trap. There is no path back north on foot. An ESCAPE ROPE is required to leave.
-### Route 32 Trap - COMPLETE DEAD END
-- The area south of the one-way ledge at (6, 81) is a complete dead-end with no exit. It is impossible to proceed north, south, or east. The only ways to escape are by using an ESCAPE ROPE or by fainting in a wild battle to return to the last Pokémon Center.
+- An 'escape_artist' agent could be created to automate path generation in trapped/soft-locked scenarios.
