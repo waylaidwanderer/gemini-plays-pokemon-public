@@ -30,7 +30,6 @@
 - **PC Glitch (Confirmed):** The PC in Celadon City is persistently bugged. I must always select 'BILL's PC' to access the Pokémon Storage System.
 - **Bike Voucher Location (Confirmed):** The Bike Voucher is obtained from the Pokémon Fan Club Chairman in Vermilion City after listening to his story.
 - **`pathfinder` Intelligence (Confirmed):** The tool automatically finds a path to the nearest valid adjacent tile if the specified destination is impassable or unseen.
-- **Route 14 Layout (Confirmed, T38161):** The southern part of Route 14, accessed via Route 15, is a one-way path down from the northern section and is a dead-end for northbound travel. The correct path to Fuchsia City is via the western exits of Route 13.
 
 ### B. Current Plans & Explicit Tests
 - **Primary Plan (per `navigation_strategist_agent`):** Obtain the Soul Badge. Current strategy is to navigate through Route 14 to reach Fuchsia City.
@@ -39,6 +38,7 @@
 
 ## IV. Past Failures & Corrections Log
 - **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321 - T38226):** I have a persistent behavioral issue of failing to immediately and correctly document map transitions. This corrupts my world model and leads to severe navigational errors, such as the loop between Route 14 and 13. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. Both departure and arrival nodes/markers must be created before further exploration. There are no exceptions.
+- **Navigational Failure (Route 14, T38161):** I incorrectly believed the path to Fuchsia City was through the southern part of Route 14, accessed via Route 15. This was confirmed to be a one-way dead end for northbound travel. This highlights the importance of thorough exploration and trusting my WKG. The correct path to Fuchsia City is likely through the western exits of Route 13 or by exploring all of Route 14.
 
 ## V. Tile Mechanics Glossary
 - **`ground`**: Walkable.
