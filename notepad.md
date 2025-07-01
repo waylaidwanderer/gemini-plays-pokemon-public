@@ -48,3 +48,4 @@
 ### Koga's Team (Fuchsia Gym)
 - GOLBAT (Lv. 42)
 - MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR)
+- **Hypothesis (Active):** Poison-type moves are ineffective against Poison-types (MUK vs. SLUDGE).
