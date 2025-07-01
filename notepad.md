@@ -47,3 +47,4 @@
 - **Navigation Strategist Agent:** An agent that analyzes the map layout and suggests using the `pathfinder` tool for complex navigation like mazes, preventing inefficient manual exploration.
 - **Inventory Management Agent:** An agent to suggest items to store or discard based on current goals and location.
 - **System Logic (Dead Ends, T38572):** The system considers a map a dead end if there is only one reachable exit. One-way ledges (from above) are counted as reachable exits, so an area with a two-way connection and a one-way ledge exit is NOT a dead end according to the system.
+- **Cycling Road Movement:** Route 17 is a one-way path south *when on the Bicycle*. Attempts to move north will fail, even if `Reachable Unseen Tiles` are listed in that direction. The one-way mechanic overrides the tile reachability data.
