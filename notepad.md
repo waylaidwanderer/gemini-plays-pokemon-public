@@ -31,10 +31,10 @@
 ### Tile Traversal Rules (Verified)
 - **Objects are impassable:** All map objects (NPCs, items, signs) act as walls.
 - **Defeated Trainers:** Passability is inconsistent and must be tested individually.
-    - Hiker Daniel at (4, 6) is PASSABLE.
-    - POKéMANIAC LARRY at (4, 21) is IMPASSABLE.
-    - Firebreather Bill at (14, 16) is PASSABLE.
-    - Hiker Anthony at (6, 13) is PASSABLE.
+    - Hiker Daniel at (4, 6) in Union Cave is PASSABLE.
+    - POKéMANIAC LARRY at (4, 21) in Union Cave is IMPASSABLE.
+    - Firebreather Bill at (14, 16) in Union Cave is PASSABLE.
+    - Hiker Anthony at (6, 13) on Route 33 is PASSABLE.
 - **WALL:** Impassable.
 - **FLOOR:** Traversable.
 - **TALL_GRASS / LONG_GRASS:** Traversable, triggers wild encounters.
