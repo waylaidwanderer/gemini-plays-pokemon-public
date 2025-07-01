@@ -62,9 +62,9 @@
 - **HM moves cannot be forgotten once taught.**
 
 ## III. Core Learnings & Self-Correction
-- **Core Issue:** My primary failure pattern is hallucinating my location and game state. My own perception has proven unreliable.
-- **Corrective Action:** I must ground all decisions *exclusively* in the provided Game State Information for the current turn. All assumptions based on memory must be discarded. I will trust my tools' analysis of the game state over my own perception.
-- **Immediate Action Mandate:** All maintenance tasks (Notepad, WKG, Map Markers, Tool/Agent refinement) must be performed *immediately* upon discovery and never deferred.
+- **My primary failure pattern is hallucinating my location and game state.** I must ground all decisions *exclusively* in the provided Game State Information for the current turn. All assumptions based on memory must be discarded.
+- I MUST trust my agents' outputs, even if they seem counter-intuitive. Disregarding an agent's advice is a critical error.
+- I MUST perform all maintenance tasks (Notepad, WKG, Map Markers, Tool/Agent refinement) *immediately* upon discovery and never defer them.
 
 ## IV. Open Puzzles & Blockers
 ### Azalea Town - Slowpoke Well
