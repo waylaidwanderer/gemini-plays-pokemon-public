@@ -57,9 +57,8 @@
 - **FLOOR_UP_WALL:** Complex one-way tile. Verified in Union Cave. Can be moved onto from below (by pressing Up). Cannot be moved off of by going Up or Down. Sideways movement (left/right) on and off the tile is permitted.
 
 ### Core Mechanic Learnings
-- **Fainting is never the correct strategy.** It is impossible to be truly stuck. If a path seems blocked, there is always another way forward.
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
-- **HM moves cannot be forgotten once taught.**
+- HM moves cannot be forgotten once taught.
 
 ## III. Core Learnings & Self-Correction
 - **My primary failure pattern is hallucinating my location and game state.** I must ground all decisions *exclusively* in the provided Game State Information for the current turn. All assumptions based on memory must be discarded.
