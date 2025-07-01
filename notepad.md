@@ -88,3 +88,4 @@
 ### New Hypothesis (Azalea Town)
 - The Kurt event is not triggering via simple conversation. My strategic advisor suggested a connection to his role as a Poké Ball craftsman. New plan: find an Apricorn in town and bring it to him.
 - **Talking to Grunt at Gym (after Kurt event):** Failed. Dialogue is about SLOWPOKETAILs and does not trigger a battle or make him move.
+- **New Clue (Kurt's House):** After stunning and talking to the Youngster, his dialogue changed to: 'Where have all the SLOWPOKE gone? Are they out playing somewhere?'. This confirms the town-wide awareness of the event.
