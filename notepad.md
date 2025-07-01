@@ -54,7 +54,7 @@
 
 ### Unverified Mechanics & Assumptions
 - **BUOY:** Assumed impassable. (NEEDS VERIFICATION)
-- **LADDER:** Assumed impassable. (NEEDS VERIFICATION)
+- **LADDER:** Warp tile.
 
 ### Core Mechanic Learnings
 - **Fainting is never the correct strategy.** It is impossible to be truly stuck. If a path seems blocked, there is always another way forward.
