@@ -70,7 +70,6 @@
 - **Agent Trust:** I MUST trust my agents' outputs, even if they seem counter-intuitive. My `quest_strategist` correctly identified the path forward when my own visual assessment failed. Disregarding an agent's advice is a critical error.
 - **Knowledge Management:** I must remember to check my World Knowledge Graph for existing nodes/edges before attempting to add new ones to avoid redundant operations. I must be more careful with `destination_entry_point` when creating edges.
 - **path_finder:** Cannot see or account for off-screen objects. Paths generated may be physically impossible if a known, but off-screen, obstacle is in the way. I must manually verify paths against my map markers.
-- **Agent Idea:** Create a `hypothesis_generator` agent to analyze my 'Failed Attempts Log' and suggest new, non-repetitive hypotheses when I'm stuck.
 
 ## IV. Current Plans & Hypotheses
 
