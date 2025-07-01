@@ -74,3 +74,4 @@
 - **Agent Testing:** I have defined a `move_advisor` agent and successfully used it. I will continue to use it when appropriate.
 - **Knowledge Management:** I must remember to check my World Knowledge Graph for existing nodes/edges before attempting to add new ones to avoid redundant operations.
 - **FLOOR_UP_WALL:** Need to test sideways movement (left/right) on and off this tile.
+- **HM Moves:** HM moves cannot be forgotten once taught.
