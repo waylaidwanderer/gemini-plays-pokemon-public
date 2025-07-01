@@ -46,7 +46,7 @@
 - **WARP_CARPET_DOWN:** Warp tile, triggered by movement.
 - **WARP_CARPET_RIGHT:** Warp tile, triggered by movement.
 - **VOID:** Impassable.
-- **BUOY:** Impassable scenery.
+- **BUOY:** Impassable scenery. (NEEDS VERIFICATION)
 - **CUT_TREE:** Impassable without CUT.
 - **WATER:** Impassable without SURF.
 - **HEADBUTT_TREE:** Impassable by walking.
