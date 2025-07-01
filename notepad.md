@@ -41,3 +41,4 @@
 ### B. Development Failures & Lessons
 - **Systematic Tile Testing:** I must be more rigorous in testing and documenting the behavior of every new tile type I encounter. This includes confirming impassable tiles by attempting to walk into them from multiple directions and recording the results.
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as impassable walls when approached from above. (Discovered on Route 19 at (6, 9)).
+- **Summer Beach House Trap:** The house on Route 19 at (6, 10) is a one-way trap. The entrance warp is one-way, and Fly cannot be used to escape. The only way out is to use the southern exit warp.
