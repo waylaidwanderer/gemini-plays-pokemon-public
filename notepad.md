@@ -97,3 +97,4 @@
 - **Youngster west of town:** Mentioned the 'Charcoal Man's' Pokémon can CUT down the trees in ILEX FOREST. This confirms Kurt is the Charcoal Man and I need to find a way to get the HM Cut or a Pokémon that knows it from him to proceed west into the forest.
 ### CRITICAL BUG
 - **path_finder** is not correctly avoiding on-screen objects. It generated a path through a stunned Teacher and Gramps. The logic needs to be fixed before I can rely on it again.
+- **VOID:** Impassable.
