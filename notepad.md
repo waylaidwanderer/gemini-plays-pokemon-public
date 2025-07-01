@@ -31,7 +31,7 @@
 ## III. Mechanics & Learnings
 ### Tile Traversal Rules (Verified)
 - **Objects are impassable:** All map objects (NPCs, items, signs) act as walls.
-- **Defeated Trainers:** Passability is inconsistent. Each must be tested.
+- **Defeated Trainers:** Passability is inconsistent. Firebreather Bill at (14, 19) in Union Cave is passable after being defeated. Each trainer must be tested individually.
 - **WALL:** Impassable.
 - **FLOOR:** Traversable.
 - **TALL_GRASS / LONG_GRASS:** Traversable, triggers wild encounters.
