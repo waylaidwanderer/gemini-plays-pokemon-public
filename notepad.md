@@ -28,32 +28,36 @@
 - Water is super effective against Rock/Ground.
 - Water is super effective against Ground.
 
-## IV. World Knowledge & Mechanics
-### Tile Traversal Rules (Verified)
-- **Objects are impassable:** All map objects (NPCs, items, signs) act as walls unless proven otherwise by direct observation. This is the default assumption.
+## III. Mechanics & Learnings
+### Tile Traversal Rules
+- **Objects are impassable:** All map objects (NPCs, items, signs) act as walls.
 - **Defeated Trainers:** Passability is inconsistent. Each must be tested.
 - **WALL:** Impassable.
 - **FLOOR:** Traversable.
 - **TALL_GRASS / LONG_GRASS:** Traversable, triggers wild encounters.
-- **LEDGE:** One-way downward traversal.
 - **COUNTER:** Impassable.
-- **DOOR/CAVE:** Warp tile, triggered by movement.
+- **DOOR/CAVE:** Warp tile.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
-- **WARP_CARPET_DOWN:** Warp tile, triggered by movement.
-- **WARP_CARPET_RIGHT:** Warp tile, triggered by movement.
+- **WARP_CARPET_DOWN/RIGHT:** Warp tile.
 - **VOID:** Impassable.
-- **BUOY:** Impassable scenery. (NEEDS VERIFICATION)
 - **CUT_TREE:** Impassable without CUT.
 - **WATER:** Impassable without SURF.
 - **HEADBUTT_TREE:** Impassable by walking.
-- **FLOOR_ALLOW_HOP_DOWN:** One-way traversal downward.
+- **unseen**: Impassable.
+
+### One-Way Traversal (Verified)
+- **LEDGE / FLOOR_ALLOW_HOP_DOWN:** One-way downward traversal.
 - **FLOOR_ALLOW_HOP_LEFT:** One-way traversal to the left.
 - **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right.
 - **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right.
-- **FLOOR_UP_WALL:** Impassable from above (one-way upward traversal).
-- **unseen**: Impassable.
 
-### Misc Mechanics
+### Unverified Mechanics & Assumptions
+- **BUOY:** Assumed impassable. (NEEDS VERIFICATION)
+- **LADDER:** Assumed impassable. (NEEDS VERIFICATION)
+- **FLOOR_UP_WALL:** Assumed one-way upward traversal. (NEEDS VERIFICATION)
+
+### Core Mechanic Learnings
+- **Fainting is never the correct strategy.** It is impossible to be truly stuck. If a path seems blocked, there is always another way forward. This is a fundamental rule.
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 
 ## V. Tool Development & Self-Critique
