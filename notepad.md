@@ -7,7 +7,7 @@
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective).
-- **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves (confirmed with ECHO vs. Sandslash's DIG).
+- **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves (confirmed with ECHO vs. Sandslash's DIG). MUK is immune to Poison-type moves (confirmed via SLUDGE).
 - **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves.
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
 - **Battle Mechanics:** Multi-hit moves (e.g., FURY ATTACK) are a critical threat and can bypass the "sturdy" effect of surviving on 1 HP.
@@ -36,10 +36,9 @@
 ### D. Investigation & Hypothesis Log
 - **Current Plan:** Fully explore the Safari Zone. The trainers on Route 19 proved to be too high-level, indicating it's not the correct path for now. My new primary objective is to find any key items (such as HM Surf or the Gold Teeth) that may be located within the Safari Zone to enable further progress.
 - **Hypothesis (Active):** The Safari Zone contains key items required to access the area where the Soul Badge is located. The path south from Fuchsia City via Route 19 is a late-game area I am not yet prepared for.
-- **Koga's Team (Fuchsia Gym):**
-  - GOLBAT (Lv. 42)
-  - MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR)
-- **Hypothesis (Active):** MUK is immune to Poison-type moves (confirmed via SLUDGE).
+- **Koga's Team (Fuchsia Gym - In Progress):**
+  - GOLBAT (Lv. 42) - Defeated
+  - MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR) - Active
 
 ## III. System & Tool Development
 ### A. Tool Debugging Protocol (v2)
