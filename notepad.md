@@ -53,7 +53,7 @@
 - **FLOOR_ALLOW_HOP_LEFT:** One-way traversal to the left.
 - **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right.
 - **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right.
-- **FLOOR_UP_WALL:** Complex one-way tile. Can be moved onto from below (Up). Cannot be moved off of by going Up or Down.
+- **FLOOR_UP_WALL:** Complex one-way tile. Verified in Union Cave. Can be moved onto from below (by pressing Up). Cannot be moved off of by going Up or Down. Sideways movement (left/right) on and off the tile is permitted.
 
 ### Unverified Mechanics & Assumptions
 - **BUOY:** Assumed impassable. (NEEDS VERIFICATION)
