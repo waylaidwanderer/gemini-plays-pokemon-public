@@ -93,3 +93,5 @@
 
 ### Untested Assumptions
 - **The officer in the Ilex Forest gatehouse is the key to entering the forest.** I will test this by talking to him. If that fails, I will talk to the Granny and then attempt to exit west.
+- **LEDGE:** Seen in Ilex Forest. Behavior to be verified.
+- **FLOOR_ALLOW_HOP_DOWN_LEFT:** Seen in Ilex Forest. Behavior to be verified.
