@@ -97,3 +97,4 @@
 - **FLOOR_ALLOW_HOP_DOWN_LEFT:** Seen in Ilex Forest. Behavior to be verified.
 - **LEDGE:** One-way downward traversal only. Cannot be entered from the side (left/right).
 - **FLOOR_ALLOW_HOP_DOWN:** One-way downward traversal. Can be entered from the side.
+- **FLOOR_ALLOW_HOP_DOWN_RIGHT:** One-way traversal. Can be entered from the side. Allows downward hopping.
