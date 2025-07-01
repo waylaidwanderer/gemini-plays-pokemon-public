@@ -76,11 +76,11 @@
 
 ### Goal: Clear Team Rocket from Slowpoke Well
 
-**Hypothesis 1 (Active):** The NPC 'Gramps' at (21, 10) in Azalea Town holds the key to this puzzle. He is an interactable character I have not spoken to yet.
+Hypothesis 1 (Active): The map name 'CharcoalKiln' is a major clue. The solution to the Slowpoke Well puzzle is likely related to the function of a charcoal kiln or something inside this house. The Youngster is the only other NPC here.
 *   **Plan:**
-    1.  Navigate to Gramps at (21, 10).
-    2.  Interact with him.
-    3.  Re-evaluate based on his dialogue.
+    1.  Interact with the Youngster.
+    2.  If that fails, systematically interact with every other object in the house again, considering the 'kiln' context.
+    3.  Re-evaluate based on new information.
 
 **Hypothesis 2 (Next):** A cutscene with Kurt only triggers if I follow him immediately to the well after he leaves his house.
 *   **Plan:**
