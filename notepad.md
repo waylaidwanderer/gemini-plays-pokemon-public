@@ -7,7 +7,7 @@
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective).
-- **Type Immunities:** Psychic is immune to Electric. Pidgeotto (Normal/Flying) is immune to Ghost-type moves like Confuse Ray.
+- **Type Immunities:** Psychic is immune to Electric. Pidgeotto (Normal/Flying) is immune to Ghost-type moves like Confuse Ray. Flying-type is immune to Ground-type moves (confirmed with ECHO vs. Sandslash's DIG).
 - **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves. MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
 - **Poison Type Effectiveness:** Poison-type moves are NOT-VERY-EFFECTIVE against Poison-types.
@@ -45,5 +45,3 @@
 ### B. Development Plan (v3 - Pathfinder Abandoned)
 - **Pathfinder Tool Investigation (COMPLETE):** My attempts to build a pathfinder tool have failed. Both `xml.etree.ElementTree` and `lxml` are unavailable in the execution environment, making it impossible to parse the map XML for automated navigation.
 - **New Navigation Protocol:** I will now rely on my `exploration_strategist_agent` for high-level guidance and my own careful manual pathing. I must be extra vigilant to avoid simple errors like walking into walls or up ledges. This is now my official navigation strategy.
-- **Pokémon Type Changes:** Golbat is now a pure Ghost-type (not Poison/Flying).
-- **Type Immunities (Hypothesis):** Ghost-type may be immune to Ground-type moves (observed with ECHO vs. Sandslash's DIG).
