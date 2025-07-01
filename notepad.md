@@ -76,20 +76,18 @@
 
 ### Goal: Clear Team Rocket from Slowpoke Well
 
-Hypothesis 1 (Active): The map name 'CharcoalKiln' is a major clue. The solution to the Slowpoke Well puzzle is likely related to the function of a charcoal kiln or something inside this house. The Youngster is the only other NPC here.
-*   **Plan:**
-    1.  Interact with the Youngster.
-    2.  If that fails, systematically interact with every other object in the house again, considering the 'kiln' context.
-    3.  Re-evaluate based on new information.
+**Hypothesis 1 (Failed):** The Youngster holds the key. (Attempted, Result: No change).
 
-**Hypothesis 2 (Next):** A cutscene with Kurt only triggers if I follow him immediately to the well after he leaves his house.
+**Hypothesis 2 (Active):** The map name 'CharcoalKiln' and the fiery Moltres statue are linked. The statue is a hidden switch.
 *   **Plan:**
-    1.  If Hypothesis 1 fails, return to Kurt's house.
-    2.  Talk to Kurt to trigger him to leave.
-    3.  IMMEDIATELY exit and run to the Slowpoke Well at (31, 7).
+    1.  Move to the tile directly below the statue at (5, 7).
+    2.  Face up and interact with the statue.
+    3.  If this fails, re-evaluate other environmental interactions.
 
 **Failed Attempts Log:**
 1.  Talking to Grunt directly. (Result: No change)
 2.  Talking to Kurt, then going to well. (Result: Kurt not present, Grunt still blocking)
 3.  Talking to Kurt, leaving, returning to find him scared. (Result: No change)
 4.  Talking to Kurt, then talking to Grunt again. (Result: No change)
+5.  Talking to Gramps, then Kurt. (Result: No change)
+6.  Talking to Youngster, then Kurt. (Result: No change)
