@@ -81,3 +81,4 @@
 - **Talking to Kurt (after well grunt interaction):** Failed. Dialogue unchanged.
 - **Interacting with Farfetch'd statue:** Failed. No plot progression.
 - **Re-attempting Kurt event sequence:** Failed. The event did not trigger as expected.
+- **Pathfinder Bug (Corrected):** The `path_finder` tool initially generated paths to impassable tiles by making an exception for the destination. I corrected the script to remove this exception, ensuring it now correctly finds the closest *reachable* tile when the target is impassable. This was verified by testing against the HEADBUTT_TREE at (20, 25).
