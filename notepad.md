@@ -93,3 +93,5 @@
 - **Talking to Grunt at Well:** Failed 4+ times. He will not move via conversation alone.
 - **Talking to Grunt at Gym:** Failed. Unrelated dialogue.
 - **Talking to Youngster in Kurt's House:** Failed. Unrelated dialogue.
+### New Clue (Azalea Town)
+- **Youngster west of town:** Mentioned the 'Charcoal Man's' Pokémon can CUT down the trees in ILEX FOREST. This confirms Kurt is the Charcoal Man and I need to find a way to get the HM Cut or a Pokémon that knows it from him to proceed west into the forest.

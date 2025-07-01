@@ -48,5 +48,35 @@
       ]
     },
     "python_script": "import json\nimport heapq\nfrom collections import defaultdict\nimport itertools\n\nworld_knowledge = json.loads(world_knowledge_graph_json_string)\nnodes = world_knowledge['nodes']\nedges = world_knowledge['edges']\n\nstart_map = input_data['start_map_id']\nend_map = input_data['end_map_id']\n\ngraph = defaultdict(list)\n\n# Add explicit edges from the knowledge graph\nfor edge in edges:\n    if edge['source_node_id'] and edge['destination_node_id']:\n        graph[edge['source_node_id']].append(edge['destination_node_id'])\n        if not edge.get('is_one_way', False):\n            graph[edge['destination_node_id']].append(edge['source_node_id'])\n\n# Group nodes by map_id\nnodes_by_map = defaultdict(list)\nfor node in nodes:\n    nodes_by_map[node['map_id']].append(node['id'])\n\n# Add implicit intra-map edges\nfor map_id, map_nodes in nodes_by_map.items():\n    if len(map_nodes) > 1:\n        for u, v in itertools.combinations(map_nodes, 2):\n            graph[u].append(v)\n            graph[v].append(u)\n\nstart_node_ids = nodes_by_map.get(start_map, [])\n\nif not start_node_ids:\n    print(f'Start node for map {start_map} not found in World Knowledge Graph.')\n    exit()\n\n# Dijkstra's algorithm to find the shortest path\nqueue = [(0, start_node_id, [start_node_id]) for start_node_id in start_node_ids]\nvisited = set()\n\nwhile queue:\n    cost, current_node_id, path = heapq.heappop(queue)\n\n    if current_node_id in visited:\n        continue\n    visited.add(current_node_id)\n\n    current_map_id = next((n['map_id'] for n in nodes if n['id'] == current_node_id), None)\n    if current_map_id == end_map:\n        path_details = []\n        for node_id in path:\n            node_info = next((n for n in nodes if n['id'] == node_id), None)\n            if node_info:\n                path_details.append(f\"{node_info['name']} ({node_info['map_id']})\")\n        print(' -> '.join(path_details))\n        exit()\n\n    for neighbor_id in graph[current_node_id]:\n        if neighbor_id not in visited:\n            new_path = path + [neighbor_id]\n            heapq.heappush(queue, (cost + 1, neighbor_id, new_path))\n\nprint(f'No path found from map {start_map} to {end_map}.')"
+  },
+  "path_finder_plus": {
+    "description": "A more advanced pathfinder that can temporarily stun a moving NPC to navigate around them.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        },
+        "npc_to_stun_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import json\n\nnpc_id = input_data.get('npc_to_stun_id')\nif npc_id:\n    print(json.dumps([{'tool_name': 'stun_npc', 'tool_args': [{'name': 'object_id', 'value': npc_id}, {'name': 'effect', 'value': 'stun'}]}]))\n\nprint(json.dumps([{'tool_name': 'path_finder', 'tool_args': [{'name': 'start_x', 'value': input_data['start_x']}, {'name': 'start_y', 'value': input_data['start_y']}, {'name': 'end_x', 'value': input_data['end_x']}, {'name': 'end_y', 'value': input_data['end_y']}]}]))\n\nif npc_id:\n    print(json.dumps([{'tool_name': 'stun_npc', 'tool_args': [{'name': 'object_id', 'value': npc_id}, {'name': 'effect', 'value': 'unstun'}]}]))"
   }
 }
