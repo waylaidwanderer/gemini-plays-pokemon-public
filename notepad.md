@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v39481)
+## I. Core Protocols & Immediate Actions (v39898)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
 - **CRITICAL: WKG Protocol (v15 - Two-Step Verification):** My manual WKG management has been error-prone. I will now follow a strict two-step process. **Step 1: Node Verification.** I will first query the WKG to ensure both source and destination nodes exist. If a node is missing, I will add it using `manage_world_knowledge` with the `add_node` action and descriptive tags. **Step 2: Edge Creation.** Only after confirming both nodes exist will I create the edge connecting them. This protocol prevents graph corruption.
 - **CRITICAL: Map Marker Protocol (v8):** Mark defeated trainers, used warps (both entry and exit), and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
