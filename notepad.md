@@ -45,5 +45,3 @@
 ## V. Future Development Ideas
 - **Exploration Agent:** An agent that analyzes `MapMemory` XML and the `Reachable Unseen Tiles` list to suggest the most promising exploration target, weighing clusters of unseen tiles, proximity to unvisited warps, etc.
 - **System Logic (Dead Ends, T38572):** The system considers a map a dead end if there is only one reachable exit. One-way ledges (from above) are counted as reachable exits, so an area with a two-way connection and a one-way ledge exit is NOT a dead end according to the system.
-- **WKG Connection Manager Tool:** Create a tool that takes start/end map/coordinates and automates the entire WKG update process: check for nodes, create missing nodes, and create the edge, all in one call. This would prevent the multi-turn failures I've been experiencing with WKG updates.
-- **WKG Connection Manager Tool:** Create a tool that takes start/end map/coordinates and automates the entire WKG update process: check for nodes, create missing nodes, and create the edge, all in one call. This would prevent the multi-turn failures I've been experiencing with WKG updates.
