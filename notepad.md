@@ -87,3 +87,6 @@
 - **False Assumption:** I incorrectly assumed the Team Rocket Grunt at (31, 9) was physically blocking the entrance to the Slowpoke Well at (31, 7). 
 - **Verification Failure:** I spent multiple turns trying to trigger an event to move him without first verifying if an alternate path existed.
 - **Correction:** The grunt is not blocking the warp tile. A clear path exists around him. I must always verify obstacles and not get tunnel vision.
+- BED: Impassable (added per system critique, pending verification).
+- TABLE: Impassable (added per system critique, pending verification).
+- CHAIR: Impassable (added per system critique, pending verification).
