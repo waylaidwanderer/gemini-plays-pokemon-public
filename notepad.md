@@ -4,7 +4,7 @@
 - **Primary Objective:** Get the Hive Badge from the Azalea Town Gym.
 - **Current Plan:** Navigate Route 32 to reach the Union Cave entrance at (6, 79).
 
-## III. Battle Intel
+## II. Battle Intel
 ### Rival SILVA's Team
 - CHIKORITA: Lv5 (Last seen in New Bark Town)
 
@@ -13,9 +13,9 @@
 - Wild Hoothoot: TACKLE, GROWL, FLASH, FORESIGHT
 - Wild Bellsprout: VINE WHIP, GROWTH
 - Wild Caterpie: TACKLE, STRING SHOT
-- Wild Ekans: LEER
+- Wild Ekans: LEER, WRAP
 - Wild Pidgey: SAND-ATTACK
-- Wild Hoppip: TAIL WHIP, SYNTHESIS
+- Wild Hoppip: TAIL WHIP, SYNTHESIS, SPLASH
 - Wild Rattata: TACKLE, TAIL WHIP
 - Wild Wooper: TAIL WHIP, WATER GUN
 - Wild Zubat: LEECH LIFE
