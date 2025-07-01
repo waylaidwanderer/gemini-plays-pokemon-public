@@ -41,8 +41,7 @@
 - **COUNTER:** Impassable.
 - **DOOR/CAVE/LADDER:** Warp tile.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
-- **WARP_CARPET_DOWN/RIGHT:** Warp tile. Activated by pressing Down/Right respectively, not by stepping on and on.
-- **WARP_CARPET_LEFT:** Warp tile. Activated by pressing Left.
+- **WARP_CARPET_DOWN/RIGHT/LEFT:** Warp tile. Activated by moving onto the tile from the corresponding direction (Down/Right/Left).
 - **VOID:** Impassable.
 - **CUT_TREE:** Impassable without CUT.
 - **WATER:** Impassable without SURF.
@@ -82,7 +81,7 @@
 - **Interacting with Farfetch'd statue:** Failed. No plot progression.
 - **Re-attempting Kurt event sequence:** Failed. The event did not trigger as expected.
 - **Area Reset:** Leaving Azalea Town and returning did not change Kurt's dialogue or the Grunt's position.
-- **Untested Idea:** The Farfetch'd statue in Kurt's house might have a different interaction trigger. If all other leads fail, consider re-examining it.
-- Returning to Kurt's house: Failed. Kurt had returned, but his dialogue was unchanged.
-- Interacting with the Farfetch'd statue: Failed. It just made a sound.
-- Returning to the Slowpoke Well: Failed. The grunt is still blocking the path and my pathfinder confirms no way around.
+- **Returning to Kurt's house:** Failed. Kurt had returned, but his dialogue was unchanged.
+- **Interacting with the Farfetch'd statue:** Failed. It just made a sound.
+- **Returning to the Slowpoke Well:** Failed. The grunt is still blocking the path and my pathfinder confirms no way around.
+- **Ilex Forest Exploration:** Failed. The path forward is blocked by a CUT_TREE, making the area a dead end for now.
