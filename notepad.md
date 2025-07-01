@@ -82,3 +82,8 @@
 - **Ilex Forest Exploration:** Failed. The path forward is blocked by a CUT_TREE, making the area a dead end for now.
 - **Bringing Apricorn to Kurt:** Failed. Interacting with the Apricorn tree yielded no item.
 - **Talking to Grunt at Well (after Kurt left house):** Failed 4+ times. He still won't move.
+
+## V. Major Self-Correction (Azalea Town)
+- **False Assumption:** I incorrectly assumed the Team Rocket Grunt at (31, 9) was physically blocking the entrance to the Slowpoke Well at (31, 7). 
+- **Verification Failure:** I spent multiple turns trying to trigger an event to move him without first verifying if an alternate path existed.
+- **Correction:** The grunt is not blocking the warp tile. A clear path exists around him. I must always verify obstacles and not get tunnel vision.
