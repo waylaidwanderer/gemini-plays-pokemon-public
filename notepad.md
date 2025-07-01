@@ -87,15 +87,7 @@
 - **Interacting with Farfetch'd statue:** Failed. No plot progression.
 - **Re-attempting Kurt event sequence:** Failed. The event did not trigger as expected.
 
-## V. Immediate Tasks & Tests
-- **Verify Tile Mechanics:**
-    - **FLOOR_ALLOW_HOP_DOWN_LEFT:** Seen in Ilex Forest. Behavior to be verified.
-    - **FLOOR_ALLOW_HOP_DOWN_RIGHT:** Test the 'right' hop functionality.
-- **Fix Warp Markers:** Backtrack to Ilex Forest entrance and Ilex Forest Gate to place the missing '🚪' markers.
-
-## Self-Critique: Hallucination & Flawed Assumptions
-- **Core Issue:** A recurring pattern of hallucinating my location and game state (e.g., assuming Kurt had left, misjudging path blockages) has led to multiple wasted turns and incorrect strategies.
-- **Corrective Action:** I must ground all decisions exclusively in the provided Game State Information for the current turn. All assumptions based on memory must be discarded. I need to trust my tools' analysis of the game state over my own visual perception, which has proven unreliable.
-
-## V. Immediate Tasks & Tests
-- **Fix WKG Edge:** Add the missing edge for the Ilex Forest -> Ilex Forest Gate transition.
+## V. Core Learnings & Self-Correction
+- **Core Issue:** My primary failure pattern is hallucinating my location and game state.
+- **Corrective Action:** I must ground all decisions *exclusively* in the provided Game State Information for the current turn. All assumptions based on memory must be discarded. I will trust my tools' analysis of the game state over my own perception, which has proven unreliable.
+- **Immediate Action Mandate:** All maintenance tasks (Notepad, WKG, Map Markers, Tool/Agent refinement) must be performed *immediately* upon discovery and never deferred.
