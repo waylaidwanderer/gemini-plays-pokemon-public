@@ -38,7 +38,8 @@
 - **Hypothesis (Active):** The Safari Zone contains key items required to access the area where the Soul Badge is located. The path south from Fuchsia City via Route 19 is a late-game area I am not yet prepared for.
 - **Koga's Team (Fuchsia Gym - In Progress):**
   - GOLBAT (Lv. 42) - Defeated
-  - MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR) - Active
+  - MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR) - Defeated
+  - TENTACRUEL (Lv. 41, knows SURF) - Active
 
 ## III. System & Tool Development
 ### A. Tool Debugging Protocol (v2)
