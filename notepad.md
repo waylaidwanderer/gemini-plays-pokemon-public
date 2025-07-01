@@ -38,7 +38,7 @@
 ### D. Investigation & Hypothesis Log
 - **Current Plan:** Obtain the Soul Badge. Current strategy is to explore the Safari Zone to find key items (HM Surf, Gold Teeth) that may be required for gym access or progression.
 - **Hypothesis (Failed):** The `pathfinding_tool` I created is flawed; it does not account for elevation changes between tiles (e.g., `elevated_ground` to `ground`). Its output is therefore unreliable for complex vertical navigation. The path it generated was impassable. **Lesson:** Any future pathfinding tools MUST correctly parse and model elevation rules.
-- **Hypothesis (Active):** Fuchsia City is segmented. My `pathfinding_tool` has repeatedly failed to find a path between the western and eastern sections, suggesting they are not directly connected. The only way to access the Pokémon Center (likely at (6, 14)) may be to exit the city and re-enter from a different route. However, since the tool is confirmed to be flawed, I will first attempt to manually find a path to the warp at (6,14) before leaving the city.
+- **Hypothesis (Active):** Fuchsia City is NOT a dead end, despite my `pathfinding_tool` failing to find a path. The game state confirms the warp at (6, 14) is reachable. This implies a hidden or non-obvious traversal mechanic exists. I must abandon the tool and find the path manually.
 
 ## III. System & Tool Development
 ### A. Tool Debugging Protocol (v2)
