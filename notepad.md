@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v39274)
+## I. Core Protocols & Immediate Actions (v39378)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
 - **CRITICAL: WKG Protocol (v13 - Strict Schema Adherence):** Upon any map transition, I will immediately use the `wkg_connection_manager` tool. When executing the output, I MUST ensure all properties, especially `is_one_way` for ledges/one-way paths and `destination_entry_point` for warps, are set correctly according to the schema. Failure to do so corrupts the graph.
 - **CRITICAL: Map Marker Protocol (v8):** Mark defeated trainers, used warps (both entry and exit), and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
-- **CRITICAL: Agent Usage Protocol (v1):** Agents are for **reasoning and high-level strategy**, not for computational tasks like tile-by-tile pathfinding. If I am stuck on navigation, I must rely on manual, systematic exploration or a dedicated computational tool. Misusing an agent is a protocol violation. I will not use `navigation_strategist_agent` for pathfinding again.
+- **CRITICAL: Agent Usage Protocol (v2):** Agents are for **reasoning and high-level strategy**, not for computational tasks like tile-by-tile pathfinding. If I am stuck on navigation, I will use my new `exploration_strategist_agent` or a dedicated computational tool. Misusing an agent is a protocol violation.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
@@ -20,6 +20,7 @@
 - **HM & Field Move Mechanics:** Flash, Cut, and Fly MUST be taught to a Pokémon to be used in the field. PC Interaction must be activated from the tile directly below the PC (Y+1), facing up.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle and any Pokémon that participated by switching in.
 - **Battle Initiation Mechanics:** To battle a trainer on an adjacent tile, you must face them and press 'A' to interact.
+- **NPC Interaction Catch:** Some NPCs, upon interaction, can trigger a Pokémon 'catch' event, adding the Pokémon directly to the player's Pokédex and party/PC. (Observed with Rocker in Safari Zone East Rest House giving a CHANSEY).
 
 ### C. Tile Traversal & Map Mechanics
 - **`ground` / `grass` / `elevated_ground`:** Standard walkable tiles.
@@ -33,8 +34,8 @@
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
 
 ### D. Investigation & Hypothesis Log
-- **Primary Plan:** Obtain the Soul Badge. Current strategy is to explore the Safari Zone to find key items (HM Surf, Gold Teeth) that may be required for gym access or progression.
-- **Hypothesis (Proven, T39221):** The game state's `Reachable Unseen Tiles` list is the source of truth, and a path forward exists in Safari Zone East. **Result:** Manual, systematic testing of impassable tiles revealed a hidden passage at (7, 25).
+- **Current Plan:** Obtain the Soul Badge. Current strategy is to explore the Safari Zone to find key items (HM Surf, Gold Teeth) that may be required for gym access or progression.
+- **Hypothesis (Active):** The game state's `Reachable Unseen Tiles` and `Reachable Unvisited Warps` lists indicate the path forward is on the current map (Safari Zone East).
 
 ## III. System & Tool Development
 ### A. Tool Debugging Protocol (v2)
@@ -42,8 +43,3 @@
 
 ### B. Development Failures & Lessons
 - **CRITICAL FAILURE (Pathfinder, T39001-T39221):** I wasted over 50 turns attempting to debug the `pathfinder` tool with blind, iterative redefinitions. This was a catastrophic failure to follow my own protocol. The root cause, discovered only after a `run_code` debug session, was a `ModuleNotFoundError` for the `xml` library, which is not supported in the tool execution environment. **Lesson:** The `pathfinder` tool is fundamentally unfixable. I will never again attempt to create a tool that requires XML parsing.
-
-### C. Future Agent/Tool Ideas
-- **`exploration_strategist_agent`:** An agent that takes the `Reachable Unseen Tiles` list and my current position as input. It would then output a high-level strategic suggestion for which cluster of unseen tiles to prioritize next, or which specific tile is the most logical next target to begin exploring a new area. This offloads the strategic reasoning of exploration without attempting computational pathfinding.
-- **`tool_debugger_agent`:** A potential future agent that could take a tool's code and a test case to suggest debugging steps or identify logical flaws.
-- **NPC Interaction Catch:** Some NPCs, upon interaction, can trigger a Pokémon 'catch' event, adding the Pokémon directly to the player's Pokédex and party/PC. (Observed with Rocker in Safari Zone East Rest House giving a CHANSEY).
