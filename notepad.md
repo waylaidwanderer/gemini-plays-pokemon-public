@@ -32,12 +32,15 @@
 ## III. Mechanics & Learnings
 ### Tile Traversal Rules (Verified)
 - **Objects are impassable:** All map objects (NPCs, items, signs) act as walls.
-- **Defeated Trainers:** Passability is inconsistent and must be tested individually. Hiker Daniel at (4, 6) is passable. Firebreather Bill at (14, 16) is IMPASSABLE (needs re-verification). POKéMANIAC LARRY at (4, 21) is IMPASSABLE.
+- **Defeated Trainers:** Passability is inconsistent and must be tested individually.
+    - Hiker Daniel at (4, 6) is PASSABLE.
+    - POKéMANIAC LARRY at (4, 21) is IMPASSABLE.
+    - Firebreather Bill at (14, 16) is IMPASSABLE (needs re-verification).
 - **WALL:** Impassable.
 - **FLOOR:** Traversable.
 - **TALL_GRASS / LONG_GRASS:** Traversable, triggers wild encounters.
 - **COUNTER:** Impassable.
-- **DOOR/CAVE:** Warp tile.
+- **DOOR/CAVE/LADDER:** Warp tile.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
 - **WARP_CARPET_DOWN/RIGHT:** Warp tile.
 - **VOID:** Impassable.
@@ -45,14 +48,13 @@
 - **WATER:** Impassable without SURF.
 - **HEADBUTT_TREE:** Impassable.
 - **unseen**: Impassable.
-- **FLOOR_UP_WALL:** One-way upward traversal (can be entered from below, but not from above).
-- **LADDER:** Warp tile.
 
 ### One-Way Traversal (Verified)
 - **LEDGE / FLOOR_ALLOW_HOP_DOWN:** One-way downward traversal.
 - **FLOOR_ALLOW_HOP_LEFT:** One-way traversal to the left.
 - **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right.
 - **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right.
+- **FLOOR_UP_WALL:** One-way upward traversal (can be entered from below, but not from above).
 
 ### Unverified Mechanics & Assumptions
 - **BUOY:** Assumed impassable. (NEEDS VERIFICATION)
@@ -70,4 +72,3 @@
     4.  **Test:** I will then perform a single, definitive test of the tool. If it fails, I will restart the process from step 1, rather than guessing at code changes.
 - **Agent Testing:** I have defined a `move_advisor` agent and successfully used it. I will continue to use it when appropriate.
 - **Knowledge Management:** I must remember to check my World Knowledge Graph for existing nodes/edges before attempting to add new ones to avoid redundant operations.
-- **Defeated Trainers:** POKéMANIAC LARRY at (4, 21) is passable.
