@@ -1,9 +1,9 @@
-## I. Core Protocols & Immediate Actions (v38444)
+## I. Core Protocols & Immediate Actions (v38547)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure. This is my highest priority.
-- **CRITICAL: WKG Protocol (v6):** Upon any map transition, I will immediately document BOTH the departure and arrival nodes, and the connecting edge, before any further exploration. All `warp` edges MUST include a `destination_entry_point`. All new nodes MUST have descriptive `tags`. I will use `wkg_inspector` to verify all known exits before declaring an area a dead end.
-- **CRITICAL: Map Marker Protocol (v4):** I will mark defeated trainers and used warps (both entry and exit points) *immediately* after the event occurs. I will consolidate redundant markers.
+- **CRITICAL: WKG Protocol (v7):** Upon any map transition, I will immediately: 1. `define_map_marker` for both departure and arrival. 2. `wkg_checker` to verify the edge. 3. If the edge is missing, `run_code` to get node IDs, then `manage_world_knowledge` to add the edge. This all happens in a single turn.
+- **CRITICAL: Map Marker Protocol (v5):** I will mark defeated trainers, used warps (both entry and exit), and confirmed dead ends *immediately*. I will NOT mark map-edge connections, as this is handled by the WKG.
 - **CRITICAL: Protocol Enforcement:** I will make a conscious effort to use the `protocol_enforcement_agent` before finalizing my plan each turn to catch my own mistakes.
-- **CRITICAL: Agent & Tool Maintenance:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the **ABSOLUTE HIGHEST PRIORITY**, superseding ALL other gameplay objectives.
+- **CRITICAL: Agent & Tool Maintenance:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the **ABSOLUTE HIGHEST PRIORITY**, superseding ALL other gameplay objectives. I will be more critical of tool outputs and quicker to diagnose them.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
@@ -31,16 +31,12 @@
 - **`water`:** Requires Surf to cross.
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered on Silph Co. 9F at (12, 2).
 - **Silph Co. Gate Mechanic:** Gates in Silph Co. appear to be controlled by the player's X-coordinate in a corresponding, physically separate corridor.
+- **(TODO):** Document spinner tiles, elevator tiles, and any other new tile mechanics as they are encountered.
 
-## III. Investigation & Hypothesis Log (v38444)
-### A. Confirmed Facts
-- **PC Glitch (Confirmed):** The PC in Celadon City is persistently bugged. I must always select 'BILL's PC' to access the Pokémon Storage System.
-- **Bike Voucher Location (Confirmed):** The Bike Voucher is obtained from the Pokémon Fan Club Chairman in Vermilion City after listening to his story.
-- **`pathfinder` Intelligence (Confirmed):** The tool automatically finds a path to the nearest valid adjacent tile if the specified destination is impassable or unseen.
-
-### B. Current Plans & Explicit Tests
-- **Primary Plan (per `navigation_strategist_agent`):** Obtain the Soul Badge. Current strategy is to navigate through Route 14 to reach Fuchsia City.
-- **Hypothesis (Disproven):** The path through the newly discovered cuttable tree area on Route 14 leads to Fuchsia City. **Result:** This path is a small, dead-end loop.
+## III. Investigation & Hypothesis Log (v38547)
+- **Primary Plan (per `navigation_strategist_agent`):** Obtain the Soul Badge. Current strategy is to navigate through Route 12 to reach Fuchsia City.
+- **Hypothesis (Disproven, T38440):** The path through the newly discovered cuttable tree area on Route 14 leads to Fuchsia City. **Result:** This path is a small, dead-end loop.
+- **Tool Reliability (Confirmed Faulty, T38504-38515):** The `wkg_checker` tool was hallucinating the WKG JSON structure, causing it to incorrectly report that edges did not exist. **Result:** The tool has been fixed with improved logic. Will be more critical of tool outputs going forward.
 
 ## IV. Past Failures & Corrections Log
 - **CRITICAL PROCESS FAILURE: Repeated WKG Protocol Violations (T37321 - T38226):** I have a persistent behavioral issue of failing to immediately and correctly document map transitions. This corrupts my world model and leads to severe navigational errors, such as the loop between Route 14 and 13. **Correction:** ALL data management tasks (`manage_world_knowledge`, `define_map_marker`, `notepad_edit`) MUST be performed on the same turn a discovery is made. Both departure and arrival nodes/markers must be created before further exploration. There are no exceptions.
@@ -48,4 +44,5 @@
 
 ## V. Future Development Ideas
 - **Exploration Agent:** An agent that analyzes `MapMemory` XML and the `Reachable Unseen Tiles` list to suggest the most promising exploration target, weighing clusters of unseen tiles, proximity to unvisited warps, etc.
+- **Navigation Strategist Agent:** An agent that analyzes the map layout and suggests using the `pathfinder` tool for complex navigation like mazes, preventing inefficient manual exploration.
 - **Inventory Management Agent:** An agent to suggest items to store or discard based on current goals and location.
