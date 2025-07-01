@@ -31,7 +31,7 @@
 - **`water`:** Requires Surf to cross.
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered on Silph Co. 9F at (12, 2).
 - **Silph Co. Gate Mechanic:** Gates in Silph Co. appear to be controlled by the player's X-coordinate in a corresponding, physically separate corridor.
-- **(TODO):** Document spinner tiles, elevator tiles, and any other new tile mechanics as they are encountered.
+- **Cycling Road Movement:** Route 17 is a one-way path south *when on the Bicycle*. Attempts to move north will fail, even if `Reachable Unseen Tiles` are listed in that direction. The one-way mechanic overrides the tile reachability data.
 
 ## III. Investigation & Hypothesis Log (v38547)
 - **Primary Plan (per `navigation_strategist_agent`):** Obtain the Soul Badge. Current strategy is to navigate through Route 12 to reach Fuchsia City.
