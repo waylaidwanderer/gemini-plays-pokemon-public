@@ -43,7 +43,7 @@
 - **COUNTER:** Impassable.
 - **DOOR/CAVE/LADDER:** Warp tile.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
-- **WARP_CARPET_DOWN/RIGHT/LEFT:** Warp tile. Activated by moving onto the tile from the corresponding direction (Down/Right/Left).
+- **WARP_CARPET_DIRECTION** (e.g., _DOWN, _RIGHT): Warp tile. Activated by moving *onto* the tile from the specified direction.
 - **VOID:** Impassable.
 - **CUT_TREE:** Impassable without CUT.
 - **WATER:** Impassable without SURF.
@@ -81,5 +81,4 @@
 - **Area Reset:** Leaving Azalea Town and returning did not change Kurt's dialogue or the Grunt's position.
 - **Ilex Forest Exploration:** Failed. The path forward is blocked by a CUT_TREE, making the area a dead end for now.
 - **Bringing Apricorn to Kurt:** Failed. Interacting with the Apricorn tree yielded no item.
-- **Talking to Grunt at Well (after Kurt left house):** Failed 2+ times. He still won't move.
-- **WARP_CARPET_RIGHT:** Warp tile. Activated by moving onto the tile from the right (by pressing Left).
+- **Talking to Grunt at Well (after Kurt left house):** Failed 3+ times. He still won't move.
