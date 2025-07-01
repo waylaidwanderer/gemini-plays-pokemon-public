@@ -1,7 +1,7 @@
-## I. Core Protocols & Immediate Actions (v40081)
+## I. Core Protocols & Immediate Actions (v40105)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v17 - Numeric ID Mandate):** My manual WKG management has been error-prone. I will now follow a strict three-step process using **numeric map IDs only**. **Step 1: Node Verification.** I will query the WKG to ensure both source and destination nodes exist. If a node is missing, I will add it using `manage_world_knowledge` with the `add_node` action, numeric map ID, and descriptive tags. **Step 2: Edge Verification.** After confirming both nodes exist, I will query for an edge. **Step 3: Edge Creation.** Only if no edge exists will I create one. This protocol prevents graph corruption and tool errors.
-- **CRITICAL: Map Marker Protocol (v9):** Mark defeated trainers, used warps (both entry and exit), and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
+- **CRITICAL: WKG Protocol (v17 - Numeric ID Mandate):** I will follow a strict three-step process using **numeric map IDs only**. **Step 1: Node Verification.** Query the WKG to ensure both source and destination nodes exist. If a node is missing, add it. **Step 2: Edge Verification.** After confirming both nodes exist, query for an edge. **Step 3: Edge Creation.** Only if no edge exists will I create one. This protocol prevents graph corruption.
+- **CRITICAL: Map Marker Protocol (v9):** Mark defeated trainers, used warps (entry and exit), and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
 - **CRITICAL: Agent Usage Protocol (v2):** Agents are for **reasoning and high-level strategy**, not for computational tasks like tile-by-tile pathfinding. If I am stuck on navigation, I will use my `exploration_strategist_agent` or a dedicated computational tool.
 
 ## II. Game Mechanics & Battle Intel
@@ -22,11 +22,12 @@
 - **Battle Initiation Mechanics:** To battle a trainer on an adjacent tile, you must face them and press 'A' to interact.
 - **NPC Interaction Catch:** Some NPCs, upon interaction, can trigger a Pokémon 'catch' event, adding the Pokémon directly to the player's Pokédex and party/PC. (Observed with Rocker in Safari Zone East Rest House giving a CHANSEY).
 - **Safari Game Time Limit:** The Safari Game has a time limit. When it expires, the player is automatically warped back to the Safari Zone Gate.
-- **PC Box Full Mechanic:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but a warning is displayed. I must remember to manually change the active box at a Pokémon Center to continue storing new Pokémon.
+- **PC Box Full Mechanic:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but a warning is displayed. I must remember to manually change the active box at a Pokémon Center.
 
 ### C. Tile Traversal & Map Mechanics
 - **`cuttable`:** A tree that can be cut with HM Cut. Becomes `ground` after cutting but respawns after a short time, even without leaving the map.
 - **`steps`:** Allows **vertical-only** movement between `ground`, `grass`, and `elevated_ground`.
+- **`ledge`:** Can only be traversed downwards (from Y-1 to Y+2 in a single button press). Acts as an impassable wall from all other directions.
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Silph Co. 9F at (12, 2) and Safari Zone East at (17, 23).
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as impassable walls when approached from above. (Discovered on Route 19 at (6, 9)).
@@ -41,4 +42,4 @@
 - **CRITICAL:** If a custom tool is suspected to be faulty, the **first and only** debugging step is to use `run_code` with extensive `print()` statements to trace its execution and identify the point of failure. Blindly redefining the tool is a waste of turns and a violation of this protocol.
 
 ### B. Development Plan
-- **Pathfinder Tool:** I will define a reusable `pathfinder` tool to automate overworld navigation. This will prevent manual pathing errors like attempting to walk up ledges.
+- **Pathfinder Tool:** I will define a reusable `pathfinder` tool to automate overworld navigation. This will prevent manual pathing errors like attempting to walk up ledges. The tool will implement an A* search algorithm and correctly parse the map XML to handle all tile types and obstacles.
