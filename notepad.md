@@ -97,8 +97,9 @@
 - **Hallucination & Tunnel Vision:** I had a critical failure where I hallucinated my position (believing I was at (31, 7) when I was at (30, 9)) and wasted turns. I also stubbornly resisted the conclusion that the path was blocked by the grunt, trying to find a way around a non-existent opening. I must trust my tools and observations more, and be quicker to re-evaluate when I'm stuck.
 ## Self-Critique Update (Azalea Town - Part 3)
 - **Corrected Misunderstanding:** After my `path_finder` tool confirmed it, I now understand the true nature of the blockage. While the Rocket Grunt at (31, 9) is not standing directly in front of the well entrance at (31, 7), the surrounding terrain (walls and one-way ledges) makes the path through the grunt the *only* possible way to access the well. My pathfinder is correct: the path is impossible. Therefore, the grunt *is* the puzzle, and I have exhausted all direct attempts to solve it.
-## Self-Critique Update (Azalea Town - Part 4)
-- **Pattern of Failure:** I am repeatedly hallucinating my location and the status of game events (e.g., believing Kurt had left, believing the well was unblocked, believing the path to Ilex was blocked). This leads to wasted turns and flawed strategies. I must rely ONLY on the current game state information provided each turn and stop making assumptions based on memory. I also need to test simple, direct event sequences before attempting complex workarounds.
+## Self-Critique: Hallucination & Flawed Assumptions
+- **Core Issue:** A recurring pattern of hallucinating my location and game state (e.g., assuming Kurt had left, misjudging path blockages) has led to multiple wasted turns and incorrect strategies.
+- **Corrective Action:** I must ground all decisions exclusively in the provided Game State Information for the current turn. All assumptions based on memory must be discarded. I need to trust my tools' analysis of the game state over my own visual perception, which has proven unreliable.
 
 ## VI. AI Observer Feedback (Self-Critique)
 - **Tool Quality:** My `path_finder` tool required numerous rewrites. I need to focus on writing higher-quality, more robust code from the beginning to avoid this cycle of failure and repair.
