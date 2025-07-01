@@ -34,12 +34,12 @@
 - **Summer Beach House Trap:** The house on Route 19 at (6, 10) is a one-way trap. The entrance warp is one-way, and Fly cannot be used to escape. The intended solution is to walk *through* Pikachu to reach the southern exit warp.
 
 ### D. Investigation & Hypothesis Log
-- **Current Plan:** Fully explore the Safari Zone. The trainers on Route 19 proved to be too high-level, indicating it's not the correct path for now. My new primary objective is to find any key items (such as HM Surf or the Gold Teeth) that may be located within the Safari Zone to enable further progress.
-- **Hypothesis (Active):** The Safari Zone contains key items required to access the area where the Soul Badge is located. The path south from Fuchsia City via Route 19 is a late-game area I am not yet prepared for.
-- **Koga's Team (Fuchsia Gym - In Progress):**
-  - GOLBAT (Lv. 42) - Defeated
-  - MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR) - Defeated
-  - TENTACRUEL (Lv. 41, knows SURF) - Active
+- **Current Plan:** With the Soul Badge obtained, I can now use SURF. The next objective is to find HM03 SURF, which is likely in the Safari Zone. I will also search for the Gold Teeth while I'm there.
+- **Koga's Team (Fuchsia Gym - Defeated):**
+  - GOLBAT (Lv. 42)
+  - MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR)
+  - TENTACRUEL (Lv. 41, knows SURF, ICE BEAM)
+  - VENOMOTH (Lv. 43, knows PSYCHIC)
 
 ## III. System & Tool Development
 ### A. Tool Debugging Protocol (v2)
