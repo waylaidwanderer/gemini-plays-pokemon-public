@@ -63,10 +63,8 @@
 
 ## III. Core Learnings & Self-Correction
 - **Core Issue:** My primary failure pattern is hallucinating my location and game state. My own perception has proven unreliable.
-- **Corrective Action:** I must ground all decisions *exclusively* in the provided Game State Information for the current turn. All assumptions based on memory must be discarded.
-- **Immediate Action Mandate:** All maintenance tasks (Notepad, WKG, Map Markers, Tool/Agent refinement) must be performed *immediately* upon discovery and never deferred. Deferring tasks is a critical failure.
-- **Agent Trust:** I MUST trust my agents' outputs, even if they seem counter-intuitive. Disregarding an agent's advice is a critical error.
-- **Tool & Knowledge Management:** I must remember to check my World Knowledge Graph for existing nodes/edges before adding new ones. My `path_finder` tool cannot see off-screen objects, so I must manually verify its paths against my map markers.
+- **Corrective Action:** I must ground all decisions *exclusively* in the provided Game State Information for the current turn. All assumptions based on memory must be discarded. I will trust my tools' analysis of the game state over my own perception.
+- **Immediate Action Mandate:** All maintenance tasks (Notepad, WKG, Map Markers, Tool/Agent refinement) must be performed *immediately* upon discovery and never deferred.
 
 ## IV. Open Puzzles & Blockers
 ### Azalea Town - Slowpoke Well
@@ -83,8 +81,3 @@
 - **Talking to Kurt (after well grunt interaction):** Failed. Dialogue unchanged.
 - **Interacting with Farfetch'd statue:** Failed. No plot progression.
 - **Re-attempting Kurt event sequence:** Failed. The event did not trigger as expected.
-
-## V. Core Learnings & Self-Correction
-- **Core Issue:** My primary failure pattern is hallucinating my location and game state.
-- **Corrective Action:** I must ground all decisions *exclusively* in the provided Game State Information for the current turn. All assumptions based on memory must be discarded. I will trust my tools' analysis of the game state over my own perception, which has proven unreliable.
-- **Immediate Action Mandate:** All maintenance tasks (Notepad, WKG, Map Markers, Tool/Agent refinement) must be performed *immediately* upon discovery and never deferred.
