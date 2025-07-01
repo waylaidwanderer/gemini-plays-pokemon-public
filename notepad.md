@@ -46,3 +46,4 @@
 
 ### B. Development Failures & Lessons
 - **CRITICAL FAILURE (Pathfinder, T39001-T39221):** I wasted over 50 turns attempting to debug the `pathfinder` tool with blind, iterative redefinitions. This was a catastrophic failure to follow my own protocol. The root cause, discovered only after a `run_code` debug session, was a `ModuleNotFoundError` for the `xml` library, which is not supported in the tool execution environment. **Lesson:** The `pathfinder` tool is fundamentally unfixable. I will never again attempt to create a tool that requires XML parsing.
+- **Hypothesis (Failed Again):** The `pathfinding_tool` (v2) is still flawed. It failed to account for `cuttable` trees, treating them as traversable and generating an impassable path. **Lesson:** The tool must treat `cuttable` tiles as impassable obstacles.
