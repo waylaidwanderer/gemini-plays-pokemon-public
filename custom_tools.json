@@ -1,6 +1,70 @@
 {
+  "wkg_updater": {
+    "description": "Prepares the JSON payload for `manage_world_knowledge`. It verifies if a node or edge already exists and, if not, prints the exact JSON string needed to call the `manage_world_knowledge` tool. Now supports adding `tags` to nodes and `destination_entry_point` for warp edges, preventing duplicates and ensuring graph integrity. It also provides existing node IDs if found.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "operation": {
+          "type": "string",
+          "enum": [
+            "prepare_add_node",
+            "prepare_add_edge"
+          ]
+        },
+        "map_id": {
+          "type": "string"
+        },
+        "x": {
+          "type": "string"
+        },
+        "y": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "string"
+        },
+        "source_map_id": {
+          "type": "string"
+        },
+        "source_x": {
+          "type": "string"
+        },
+        "source_y": {
+          "type": "string"
+        },
+        "dest_map_id": {
+          "type": "string"
+        },
+        "dest_x": {
+          "type": "string"
+        },
+        "dest_y": {
+          "type": "string"
+        },
+        "connection_type": {
+          "type": "string"
+        },
+        "is_one_way": {
+          "type": "string"
+        },
+        "destination_entry_point": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "operation"
+      ]
+    },
+    "python_script": "import json\n\ndef find_node_by_coords(graph, map_id, x, y):\n    for node in graph.get('nodes', []):\n        if str(node.get('map_id')) == str(map_id) and node['coordinates']['x'] == x and node['coordinates']['y'] == y:\n            return node\n    return None\n\ndef find_edge(graph, source_id, dest_id):\n    for edge in graph.get('edges', []):\n        if (edge['source_node_id'] == source_id and edge['destination_node_id'] == dest_id) or \\\n           (edge['source_node_id'] == dest_id and edge['destination_node_id'] == source_id and not edge.get('is_one_way')):\n            return edge\n    return None\n\noperation = input_data['operation']\ngraph = json.loads(world_knowledge_graph_json_string)\n\nif operation == 'prepare_add_node':\n    map_id = input_data['map_id']\n    x = int(input_data['x'])\n    y = int(input_data['y'])\n    name = input_data['name']\n    node_type = input_data.get('type', '')\n    tags_str = input_data.get('tags', '[]')\n    tags = json.loads(tags_str) if isinstance(tags_str, str) else tags_str\n\n    existing_node = find_node_by_coords(graph, map_id, x, y)\n    if existing_node:\n        print(json.dumps({'action': 'do_nothing', 'reason': 'Node already exists.', 'node_id': existing_node['id']}))\n    else:\n        payload = {'map_id': map_id, 'name': name, 'coordinates': {'x': x, 'y': y}, 'type': node_type, 'tags': tags}\n        print(json.dumps({'action': 'call_tool', 'tool_name': 'manage_world_knowledge', 'tool_action': 'add_node', 'payload': json.dumps(payload)}))\n\nelif operation == 'prepare_add_edge':\n    source_map_id = input_data['source_map_id']\n    source_x = int(input_data['source_x'])\n    source_y = int(input_data['source_y'])\n    dest_map_id = input_data['dest_map_id']\n    dest_x = int(input_data['dest_x'])\n    dest_y = int(input_data['dest_y'])\n    connection_type = input_data['connection_type']\n    is_one_way = input_data.get('is_one_way', 'false').lower() == 'true'\n    dest_entry_point = input_data.get('destination_entry_point')\n    \n    source_node = find_node_by_coords(graph, source_map_id, source_x, source_y)\n    dest_node = find_node_by_coords(graph, dest_map_id, dest_x, dest_y)\n\n    if not source_node:\n        print(json.dumps({'action': 'error', 'reason': f'Source node at ({source_x},{source_y}) on map {source_map_id} not found.'}))\n    elif not dest_node:\n        print(json.dumps({'action': 'error', 'reason': f'Destination node at ({dest_x},{dest_y}) on map {dest_map_id} not found.'}))\n    else:\n        existing_edge = find_edge(graph, source_node['id'], dest_node['id'])\n        if existing_edge:\n            print(json.dumps({'action': 'do_nothing', 'reason': 'Edge already exists.', 'edge_id': existing_edge['id']}))\n        else:\n            payload = {\n                'source_node_id': source_node['id'],\n                'destination_node_id': dest_node['id'],\n                'connection_type': connection_type,\n                'source_coordinates': {'x': source_x, 'y': source_y, 'map_id': source_map_id},\n                'destination_coordinates': {'x': dest_x, 'y': dest_y, 'map_id': dest_map_id},\n                'is_one_way': is_one_way\n            }\n            if dest_entry_point is not None and connection_type == 'warp':\n                payload['destination_entry_point'] = int(dest_entry_point)\n\n            print(json.dumps({'action': 'call_tool', 'tool_name': 'manage_world_knowledge', 'tool_action': 'add_edge', 'payload': json.dumps(payload)}))\nelse:\n    print(json.dumps({'action': 'error', 'reason': 'Invalid operation.'}))"
+  },
   "pathfinder": {
-    "description": "Calculates the shortest path from a start to an end coordinate on the current map using the A* algorithm. It parses the map_xml_string to identify traversable tiles ('ground', 'grass') and obstacles, correctly handling Pikachu as a traversable object. Returns a list of directional button presses.",
+    "description": "Calculates the shortest path between two points on the current map. This is the correct tool for overworld navigation planning.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -24,6 +88,6 @@
         "end_y"
       ]
     },
-    "python_script": "import heapq\nimport xml.etree.ElementTree as ET\n\ndef parse_map(xml_string):\n    root = ET.fromstring(xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    grid = [[0 for _ in range(width + 1)] for _ in range(height + 1)]\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib.get('type', 'impassable')\n            has_object = tile.attrib.get('has-object') == 'true'\n            is_pikachu = False\n            if has_object:\n                object_element = tile.find('Object')\n                if object_element is not None and object_element.attrib.get('id-name') == 'Pikachu':\n                    is_pikachu = True\n            if tile_type in ['ground', 'grass'] and (not has_object or is_pikachu):\n                grid[y][x] = 1\n            else:\n                grid[y][x] = 0\n    return grid, width, height\n\ndef heuristic(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\ndef a_star_search(grid, start, end):\n    start_x, start_y = start\n    end_x, end_y = end\n\n    if not (1 <= start_x < len(grid[0]) and 1 <= start_y < len(grid)):\n        print(f'Error: Start {start} is out of bounds.')\n        return None\n    if not (1 <= end_x < len(grid[0]) and 1 <= end_y < len(grid)):\n        print(f'Error: End {end} is out of bounds.')\n        return None\n\n    if grid[start_y][start_x] == 0:\n        print('Error: Start position is on an impassable tile.')\n        return None\n    if grid[end_y][end_x] == 0:\n        print('Error: End position is on an impassable tile.')\n        return None\n\n    neighbors = [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]\n    close_set = set()\n    came_from = {}\n    gscore = {start: 0}\n    fscore = {start: heuristic(start, end)}\n    oheap = []\n\n    heapq.heappush(oheap, (fscore[start], start))\n\n    while oheap:\n        current = heapq.heappop(oheap)[1]\n\n        if current == end:\n            path = []\n            while current in came_from:\n                prev, direction = came_from[current]\n                path.append(direction)\n                current = prev\n            return path[::-1]\n\n        close_set.add(current)\n        for i, j, direction in neighbors:\n            neighbor = current[0] + i, current[1] + j\n            if not (1 <= neighbor[1] < len(grid) and 1 <= neighbor[0] < len(grid[0])):\n                continue\n            if grid[neighbor[1]][neighbor[0]] == 0:\n                continue\n\n            tentative_g_score = gscore[current] + 1\n\n            if neighbor in close_set and tentative_g_score >= gscore.get(neighbor, float('inf')):\n                continue\n\n            if tentative_g_score < gscore.get(neighbor, float('inf')):\n                came_from[neighbor] = (current, direction)\n                gscore[neighbor] = tentative_g_score\n                fscore[neighbor] = tentative_g_score + heuristic(neighbor, end)\n                heapq.heappush(oheap, (fscore[neighbor], neighbor))\n\n    return None\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\ngrid, width, height = parse_map(map_xml_string)\npath = a_star_search(grid, (start_x, start_y), (end_x, end_y))\n\nif path:\n    print(f'Path found: {path}')\nelse:\n    print('No path found.')"
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef parse_map_for_bfs(xml_string):\n    root = ET.fromstring(xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    grid = set()\n    ledge_tiles = set()\n    traversable_types = ['ground', 'grass']\n\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib.get('type', 'impassable')\n            has_object = tile.attrib.get('has-object') == 'true'\n            is_warp = tile.attrib.get('is-warp') == 'true'\n            is_pikachu = False\n\n            if has_object:\n                object_element = tile.find('Object')\n                if object_element is not None and object_element.attrib.get('id-name') == 'Pikachu':\n                    is_pikachu = True\n\n            if tile_type == 'ledge':\n                ledge_tiles.add((x, y))\n\n            is_traversable = (tile_type in traversable_types or is_warp) and (not has_object or is_pikachu)\n            if is_traversable:\n                grid.add((x, y))\n                \n    return grid, width, height, ledge_tiles\n\ndef bfs_path(grid, start, end, width, height, ledge_tiles):\n    start_x, start_y = start\n    end_x, end_y = end\n\n    if not (1 <= start_x <= width and 1 <= start_y <= height) or start not in grid:\n        if not (start in ledge_tiles and start_y == end_y -1 and start_x == end_x):\n            print(f'Error: Start {start} is invalid or on an impassable tile.')\n            return None\n    if not (1 <= end_x <= width and 1 <= end_y <= height) or end not in grid:\n        print(f'Error: End {end} is invalid or on an impassable tile.')\n        return None\n\n    queue = deque([(start, [])])\n    visited = {start}\n\n    while queue:\n        (current_x, current_y), path = queue.popleft()\n        current_pos = (current_x, current_y)\n\n        if current_pos == end:\n            return path\n\n        for dx, dy, direction in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            next_x, next_y = current_x + dx, current_y + dy\n            next_pos = (next_x, next_y)\n            \n            if not (1 <= next_x <= width and 1 <= next_y <= height):\n                continue\n\n            if next_pos in visited:\n                continue\n\n            if next_pos in ledge_tiles:\n                if direction == 'Down':\n                    jump_pos = (next_x, next_y + 1)\n                    if jump_pos in grid and jump_pos not in visited:\n                        visited.add(jump_pos)\n                        new_path = path + [direction]\n                        queue.append((jump_pos, new_path))\n                continue\n            \n            if next_pos in grid:\n                visited.add(next_pos)\n                new_path = path + [direction]\n                queue.append((next_pos, new_path))\n    \n    return None\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\ngrid, width, height, ledge_tiles = parse_map_for_bfs(map_xml_string)\npath = bfs_path(grid, (start_x, start_y), (end_x, end_y), width, height, ledge_tiles)\n\nif path is not None:\n    print(f'Path found: {path}')\nelse:\n    print('No path found.')"
   }
 }
