@@ -51,3 +51,4 @@
 - **`grass`**: Tall grass with wild Pokémon encounters.
 - **`water`**: Crossable with SURF.
 - **`impassable`**: Walls, rocks, etc. Cannot be entered.
+- **Safari Zone East Exploration:** I received a validation warning that there are 12 reachable unseen tiles in Safari Zone East (ID 217). I need to return here and explore more thoroughly after finding SURF and the Gold Teeth.
