@@ -94,3 +94,4 @@
 - **Fix Warp Markers:** Backtrack to Ilex Forest entrance and Ilex Forest Gate to place the missing '🚪' markers.
 ## Self-Critique Update (Azalea Town)
 - **Major Misunderstanding:** I wasted significant time trying to get past the Rocket Grunt at (31, 9), believing he was blocking the Slowpoke Well. The well entrance is at (31, 7) and was never blocked. This was a critical failure in map reading and problem assessment. I must be more careful in analyzing the map visually before assuming a path is blocked.
+- **Hallucination & Tunnel Vision:** I had a critical failure where I hallucinated my position (believing I was at (31, 7) when I was at (30, 9)) and wasted turns. I also stubbornly resisted the conclusion that the path was blocked by the grunt, trying to find a way around a non-existent opening. I must trust my tools and observations more, and be quicker to re-evaluate when I'm stuck.
