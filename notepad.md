@@ -37,7 +37,7 @@
 
 ### D. Investigation & Hypothesis Log
 - **Current Plan:** Obtain the Soul Badge. Current strategy is to explore the Safari Zone to find key items (HM Surf, Gold Teeth) that may be required for gym access or progression.
-- **Hypothesis (Active):** The game state's `Reachable Unseen Tiles` and `Reachable Unvisited Warps` lists indicate the path forward is on the current map (Safari Zone East). I am currently pivoting to explore the western side of the map.
+- **Hypothesis (Active):** My repeated failed attempts to navigate this map suggest I have misunderstood my position. I believe I have already passed through the hidden passage at (7, 25) and am currently in the isolated western section of the map. The unvisited warps at (1, 5) and (1, 6) are therefore the exit. My immediate priority is to create a reliable pathfinding tool to test this hypothesis by navigating to (1, 5).
 
 ## III. System & Tool Development
 ### A. Tool Debugging Protocol (v2)
