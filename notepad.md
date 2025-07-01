@@ -3,7 +3,7 @@
 - **CRITICAL: WKG Protocol (v12 - Tool-Assisted Process):** Upon any map transition, I will immediately use the `wkg_connection_manager` tool. In the following turns, I will execute the `manage_world_knowledge` calls it outputs, in order, without fail.
 - **CRITICAL: Map Marker Protocol (v8):** Mark defeated trainers, used warps (both entry and exit), and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
 - **CRITICAL: WKG Coordinate Accuracy:** I MUST use the exact arrival coordinates provided in the `GameStatus` immediately after a transition. Hallucinating coordinates is a primary source of navigational failure.
-- **CRITICAL: Agent & Tool Maintenance:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the **ABSOLUTE HIGHEST PRIORITY**, superseding ALL other gameplay objectives. I must trust my tools' outputs over my own visual assessment. If a tool reports a path is blocked, I will believe it and find an alternative route.
+- **CRITICAL: Tool Debugging Protocol:** If a custom tool is suspected to be faulty, the **first and only** debugging step is to use `run_code` with extensive `print()` statements to trace its execution and identify the point of failure. Blindly redefining the tool is a waste of turns and a violation of this protocol.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
