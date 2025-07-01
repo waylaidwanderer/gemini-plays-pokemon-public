@@ -76,16 +76,21 @@
 
 ### Goal: Clear Team Rocket from Slowpoke Well
 
-**Hypothesis 1 (Failed):** The Youngster holds the key. (Attempted, Result: No change).
+### Key Clue
+- **The map where Kurt lives is named `CharcoalKiln`.** This is not an error. This is the central clue I was ignoring.
 
-**Hypothesis 2 (Active):** The map name 'CharcoalKiln' and the fiery Moltres statue are linked. The statue is a hidden switch.
-*   **Plan:**
-    1.  Move to the tile directly below the statue at (5, 7).
-    2.  Face up and interact with the statue.
-    3.  If this fails, re-evaluate other environmental interactions.
+### Active Hypothesis
+- **The Moltres statue at (5, 6) is a hidden switch.** The 'CharcoalKiln' name and the fiery bird statue are connected.
+    - **Plan:**
+        1. Move to the tile directly below the statue at (5, 7).
+        2. Face up and interact with the statue ('A' button).
 
-**Failed Attempts Log:**
-1.  Talking to Grunt directly. (Result: No change)
+### Failed Attempts Log (DO NOT REPEAT)
+- **Talking to Kurt:** Failed 5+ times. His dialogue is in a loop and is not the trigger.
+- **Talking to Grunt at Well:** Failed 3+ times. He will not move via conversation alone.
+- **Talking to Gramps, then Kurt:** Failed. Did not change Kurt's dialogue.
+- **Talking to Youngster, then Kurt:** Failed. Did not change Kurt's dialogue.
+- **Talking to all NPCs, then Kurt:** Failed. The combination of dialogue flags did not trigger Kurt.
 2.  Talking to Kurt, then going to well. (Result: Kurt not present, Grunt still blocking)
 3.  Talking to Kurt, leaving, returning to find him scared. (Result: No change)
 4.  Talking to Kurt, then talking to Grunt again. (Result: No change)
