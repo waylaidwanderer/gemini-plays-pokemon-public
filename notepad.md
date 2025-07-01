@@ -99,3 +99,4 @@
 
 - **VOID:** Impassable.
 - **Talking to Kurt (after well grunt interaction):** Failed. Dialogue unchanged.
+- **WARP_CARPET_LEFT:** Warp tile. Activated by pressing Left, not by stepping off and on.
