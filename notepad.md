@@ -72,17 +72,6 @@
 - **Key Clue:** A Youngster mentioned the 'Charcoal Man's' Pokémon can CUT trees in ILEX FOREST. This implies Kurt is the Charcoal Man and that progressing through the forest is linked to solving the Azalea Town situation.
 - **Current Status:** The Youngster's dialogue has now changed to reflect the missing SLOWPOKE, confirming this is a known event. Kurt has left his house.
 
-### Failed Attempts Log (DO NOT REPEAT - Azalea Town)
-- **Talking to Kurt (before Mart clue):** Failed 5+ times. His dialogue was in a loop.
-- **Talking to Grunt at Well (before Kurt left his house):** Failed 4+ times. He will not move via conversation alone.
-- **Talking to Grunt at Gym:** Failed. Unrelated dialogue.
-- **Talking to Youngster in Kurt's House:** Failed. Unrelated dialogue.
-- **Interacting with Farfetch'd statue:** Failed. No plot progression.
-- **Area Reset:** Leaving Azalea Town and returning did not change Kurt's dialogue or the Grunt's position.
-- **Ilex Forest Exploration:** Failed. The path forward is blocked by a CUT_TREE, making the area a dead end for now.
-- **Bringing Apricorn to Kurt:** Failed. Interacting with the Apricorn tree yielded no item.
-- **Talking to Grunt at Well (after Kurt left house):** Failed 4+ times. He still won't move.
-
 ## V. Major Self-Correction (Azalea Town)
 - **False Assumption:** I incorrectly assumed the Team Rocket Grunt at (31, 9) was physically blocking the entrance to the Slowpoke Well at (31, 7). 
 - **Verification Failure:** I spent multiple turns trying to trigger an event to move him without first verifying if an alternate path existed.
