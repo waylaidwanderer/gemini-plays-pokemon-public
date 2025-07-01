@@ -81,4 +81,4 @@
 - **Area Reset:** Leaving Azalea Town and returning did not change Kurt's dialogue or the Grunt's position.
 - **Ilex Forest Exploration:** Failed. The path forward is blocked by a CUT_TREE, making the area a dead end for now.
 - **Bringing Apricorn to Kurt:** Failed. Interacting with the Apricorn tree yielded no item.
-- **Talking to Grunt at Well (after Kurt left house):** Failed. He still won't move.
+- **Talking to Grunt at Well (after Kurt left house):** Failed 2+ times. He still won't move.
