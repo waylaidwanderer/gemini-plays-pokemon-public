@@ -91,3 +91,5 @@
 - **Talking to Gramps, then Kurt:** Failed. Did not change Kurt's dialogue.
 - **Talking to Youngster, then Kurt:** Failed. Did not change Kurt's dialogue.
 - **Talking to all NPCs, then Kurt:** Failed. The combination of dialogue flags did not trigger Kurt.
+### Tool Limitations
+- **path_finder:** Cannot see or account for off-screen objects. Paths generated may be physically impossible if a known, but off-screen, obstacle is in the way. I must manually verify paths against my map markers.
