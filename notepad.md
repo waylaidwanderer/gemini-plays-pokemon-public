@@ -47,4 +47,4 @@
 - **New Navigation Protocol:** I will now rely on my `exploration_strategist_agent` for high-level guidance and my own careful manual pathing. I must be extra vigilant to avoid simple errors like walking into walls or up ledges. This is now my official navigation strategy.
 ### Koga's Team (Fuchsia Gym)
 - GOLBAT (Lv. 42)
-- MUK (Lv. 42)
+- MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR)
