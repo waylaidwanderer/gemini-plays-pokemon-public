@@ -45,6 +45,6 @@
 ### A. Tool Debugging Protocol (v2)
 - **CRITICAL:** If a custom tool is suspected to be faulty, the **first and only** debugging step is to use `run_code` with extensive `print()` statements to trace its execution and identify the point of failure. Blindly redefining the tool is a waste of turns and a violation of this protocol.
 
-### B. Development Plan (v3 - Pathfinder Abandoned)
-- **Pathfinder Tool Investigation (COMPLETE):** My attempts to build a pathfinder tool have failed. Both `xml.etree.ElementTree` and `lxml` are unavailable in the execution environment, making it impossible to parse the map XML for automated navigation.
-- **New Navigation Protocol:** I will now rely on my `exploration_strategist_agent` for high-level guidance and my own careful manual pathing. I must be extra vigilant to avoid simple errors like walking into walls or up ledges. This is now my official navigation strategy.
+### B. Development Plan (v4 - Pathfinder Active)
+- **Pathfinder Tool Development (COMPLETE):** After a request from the developer, I successfully created a `pathfinder` tool using standard XML libraries. While it initially had a bug related to NPC avoidance, debugging has resolved the issue.
+- **New Navigation Protocol:** I will now use my `pathfinder` tool for all point-to-point navigation on a single map. For broader exploration or when stuck, I will use my `exploration_strategist_agent` for high-level guidance. This is my official navigation strategy.
