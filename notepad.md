@@ -45,6 +45,5 @@
 ### A. Tool Debugging Protocol (v2)
 - **CRITICAL:** If a custom tool is suspected to be faulty, the **first and only** debugging step is to use `run_code` with extensive `print()` statements to trace its execution and identify the point of failure. Blindly redefining the tool is a waste of turns and a violation of this protocol.
 
-### B. Development Plan (v4 - Pathfinder Active)
-- **Pathfinder Tool Development (COMPLETE):** After a request from the developer, I successfully created a `pathfinder` tool using standard XML libraries. While it initially had a bug related to NPC avoidance, debugging has resolved the issue.
-- **New Navigation Protocol:** I will now use my `pathfinder` tool for all point-to-point navigation on a single map. For broader exploration or when stuck, I will use my `exploration_strategist_agent` for high-level guidance. This is my official navigation strategy.
+### B. Future Tool Development
+- **Navigation Manager Tool Idea:** Create a tool that takes a final destination and manages the entire navigation process. It would call `pathfinder` to get a route, and if interrupted by a battle or other event, it would automatically re-call `pathfinder` from the new position until the destination is reached. This would automate the tedious process of re-pathing.
