@@ -1,17 +1,1 @@
-{
-  "get_map_id_by_name": {
-    "description": "Parses the world_knowledge_graph_json_string to find the numeric map_id associated with a given map_name.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "map_name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "map_name"
-      ]
-    },
-    "python_script": "import json\n\ntarget_map_name = input_data['map_name']\nwkg = json.loads(world_knowledge_graph_json_string)\n\nfor node in wkg['nodes']:\n    if node['map_id'] == target_map_name:\n        print(f'Map ID for {target_map_name}: {node[\"map_id\"]}')\n        break\nelse:\n    print(f'Map ID for {target_map_name} not found in World Knowledge Graph.')"
-  }
-}
+{}
