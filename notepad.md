@@ -83,3 +83,6 @@
 - **Re-attempting Kurt event sequence:** Failed. The event did not trigger as expected.
 - **Area Reset:** Leaving Azalea Town and returning did not change Kurt's dialogue or the Grunt's position.
 - **Untested Idea:** The Farfetch'd statue in Kurt's house might have a different interaction trigger. If all other leads fail, consider re-examining it.
+- Returning to Kurt's house: Failed. Kurt had returned, but his dialogue was unchanged.
+- Interacting with the Farfetch'd statue: Failed. It just made a sound.
+- Returning to the Slowpoke Well: Failed. The grunt is still blocking the path and my pathfinder confirms no way around.
