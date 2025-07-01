@@ -36,8 +36,8 @@
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
 
 ### D. Investigation & Hypothesis Log
-- **Current Plan:** Obtain the Soul Badge. Current strategy is to explore the Safari Zone to find key items (HM Surf, Gold Teeth) that may be required for gym access or progression.
-- **Hypothesis (Active):** Fuchsia City is NOT a dead end. The game state confirms the warp at (6, 14) is reachable. My `pathfinding_tool` is fundamentally flawed and has been deleted per system critique. I will now rely exclusively on manual exploration to find the hidden traversal mechanic, starting with the `cuttable` tree at (17, 12).
+- **Current Plan:** Obtain the Soul Badge. Current strategy is to explore the southern sea routes (Route 19) accessible from Fuchsia City. The Safari Zone may still hold key items (HM Surf, Gold Teeth) if this path proves to be a dead end.
+- **Hypothesis (Active):** Route 19 connects to another location, possibly Cinnabar Island, and is the intended path forward.
 
 ## III. System & Tool Development
 ### A. Tool Debugging Protocol (v2)
