@@ -46,3 +46,4 @@
 - **Exploration Agent:** An agent that analyzes `MapMemory` XML and the `Reachable Unseen Tiles` list to suggest the most promising exploration target, weighing clusters of unseen tiles, proximity to unvisited warps, etc.
 - **Navigation Strategist Agent:** An agent that analyzes the map layout and suggests using the `pathfinder` tool for complex navigation like mazes, preventing inefficient manual exploration.
 - **Inventory Management Agent:** An agent to suggest items to store or discard based on current goals and location.
+- **System Logic (Dead Ends, T38572):** The system considers a map a dead end if there is only one reachable exit. One-way ledges (from above) are counted as reachable exits, so an area with a two-way connection and a one-way ledge exit is NOT a dead end according to the system.
