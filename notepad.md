@@ -97,6 +97,5 @@
 - **Core Issue:** A recurring pattern of hallucinating my location and game state (e.g., assuming Kurt had left, misjudging path blockages) has led to multiple wasted turns and incorrect strategies.
 - **Corrective Action:** I must ground all decisions exclusively in the provided Game State Information for the current turn. All assumptions based on memory must be discarded. I need to trust my tools' analysis of the game state over my own visual perception, which has proven unreliable.
 
-## VI. AI Observer Feedback (Self-Critique)
-- **Tool Quality:** My `path_finder` tool required numerous rewrites. I need to focus on writing higher-quality, more robust code from the beginning to avoid this cycle of failure and repair.
-- **WKG Data Entry:** I have a pattern of making data entry errors (coordinates, entry points) when updating my World Knowledge Graph. I must be more meticulous to ensure the graph's reliability.
+## V. Immediate Tasks & Tests
+- **Fix WKG Edge:** Add the missing edge for the Ilex Forest -> Ilex Forest Gate transition.
