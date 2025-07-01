@@ -99,3 +99,4 @@
 ### CRITICAL BUG
 - **path_finder** is not correctly avoiding on-screen objects. It generated a path through a stunned Teacher and Gramps. The logic needs to be fixed before I can rely on it again.
 - **VOID:** Impassable.
+- **Talking to Kurt (after well grunt interaction):** Failed. Dialogue unchanged.
