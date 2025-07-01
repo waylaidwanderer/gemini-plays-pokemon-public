@@ -1,6 +1,6 @@
-## I. Core Protocols & Immediate Actions (v39378)
+## I. Core Protocols & Immediate Actions (v39422)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v13 - Strict Schema Adherence):** Upon any map transition, I will immediately use the `wkg_connection_manager` tool. When executing the output, I MUST ensure all properties, especially `is_one_way` for ledges/one-way paths and `destination_entry_point` for warps, are set correctly according to the schema. Failure to do so corrupts the graph.
+- **CRITICAL: WKG Protocol (v14 - Manual Management & Tagging):** Upon any map transition, I will immediately use `manage_world_knowledge` to manually add/update nodes and edges. I will add descriptive tags (e.g., `["safari_zone", "entrance"]`, `["warp"]`) to all new nodes to improve the graph's searchability and utility for future strategic planning.
 - **CRITICAL: Map Marker Protocol (v8):** Mark defeated trainers, used warps (both entry and exit), and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
 - **CRITICAL: Agent Usage Protocol (v2):** Agents are for **reasoning and high-level strategy**, not for computational tasks like tile-by-tile pathfinding. If I am stuck on navigation, I will use my new `exploration_strategist_agent` or a dedicated computational tool. Misusing an agent is a protocol violation.
 
