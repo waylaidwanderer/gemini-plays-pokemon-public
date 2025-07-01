@@ -79,6 +79,6 @@
   1. ~~Speak to NPCs in a specific order (Kurt -> Youngster -> Kurt).~~ (Failed)
   2. Stand on exit warp, turn, and talk to Kurt.
   3. ~~After talking to Kurt, immediately interact with Farfetch'd/Radio.~~ (Failed)
-  4. After talking to Kurt, walk to the far side of the room and then back to the exit.
+  ~~4. After talking to Kurt, walk to the far side of the room and then back to the exit.~~ (Failed)
   5. Systematically check every tile of the Bookshelf.
   6. Bump into Farfetch'd from all four directions.
