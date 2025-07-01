@@ -66,12 +66,6 @@
 - I MUST perform all maintenance tasks (Notepad, WKG, Map Markers, Tool/Agent refinement) *immediately* upon discovery and never defer them.
 - **Pathfinder Bug (Corrected):** The `path_finder` tool initially generated paths to impassable tiles by making an exception for the destination. I corrected the script to remove this exception, ensuring it now correctly finds the closest *reachable* tile when the target is impassable. This was verified by testing against the HEADBUTT_TREE at (20, 25).
 
-## IV. Open Puzzles & Blockers
-### Azalea Town - Slowpoke Well
-- **Goal:** Get past the Team Rocket Grunt blocking the well.
-- **Key Clue:** A Youngster mentioned the 'Charcoal Man's' Pokémon can CUT trees in ILEX FOREST. This implies Kurt is the Charcoal Man and that progressing through the forest is linked to solving the Azalea Town situation.
-- **Current Status:** The Youngster's dialogue has now changed to reflect the missing SLOWPOKE, confirming this is a known event. Kurt has left his house.
-
 ## V. Major Self-Correction (Azalea Town)
 - **False Assumption:** I incorrectly assumed the Team Rocket Grunt at (31, 9) was physically blocking the entrance to the Slowpoke Well at (31, 7). 
 - **Verification Failure:** I spent multiple turns trying to trigger an event to move him without first verifying if an alternate path existed.
