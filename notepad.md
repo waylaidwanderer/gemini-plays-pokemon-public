@@ -41,3 +41,6 @@
 ### Core Mechanic Learnings
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 - HM moves cannot be forgotten once taught.
+
+### Tasks & Untested Assumptions
+- Manually walk into a HEADBUTT_TREE to confirm it is impassable.
