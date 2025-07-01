@@ -70,15 +70,4 @@
     3.  **Implement:** Only after the mechanic is fully documented will I modify a tool's code to reflect this verified knowledge.
     4.  **Test:** I will then perform a single, definitive test of the tool. If it fails, I will restart the process from step 1, rather than guessing at code changes.
 - **Agent Trust:** I MUST trust my agents' outputs, even if they seem counter-intuitive. My `strategic_advisor` correctly identified the path forward when my own visual assessment failed. Disregarding an agent's advice is a critical error.
-- **Knowledge Management:** I must remember to check my World Knowledge Graph for existing nodes/edges before attempting to add new ones to avoid redundant operations.
-
-## IV. Plans & Puzzles
-### Current Puzzle: Stuck in Kurt's House
-- **Goal:** Trigger event for Kurt to confront Team Rocket or find the exit.
-- **Hypotheses from `puzzle_solver` agent (to be tested):
-  1. ~~Speak to NPCs in a specific order (Kurt -> Youngster -> Kurt).~~ (Failed)
-  2. Stand on exit warp, turn, and talk to Kurt.
-  3. ~~After talking to Kurt, immediately interact with Farfetch'd/Radio.~~ (Failed)
-  ~~4. After talking to Kurt, walk to the far side of the room and then back to the exit.~~ (Failed)
-    5. ~~Systematically check every tile of the Bookshelf.~~ (Failed)
-  6. Bump into Farfetch'd from all four directions.
+- **Knowledge Management:** I must remember to check my World Knowledge Graph for existing nodes/edges before attempting to add new ones to avoid redundant operations. I must be more careful with `destination_entry_point` when creating edges.
