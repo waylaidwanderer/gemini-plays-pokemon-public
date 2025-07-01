@@ -85,3 +85,5 @@
 - **Interacting with the Farfetch'd statue:** Failed. It just made a sound.
 - **Returning to the Slowpoke Well:** Failed. The grunt is still blocking the path and my pathfinder confirms no way around.
 - **Ilex Forest Exploration:** Failed. The path forward is blocked by a CUT_TREE, making the area a dead end for now.
+### New Hypothesis (Azalea Town)
+- The Kurt event is not triggering via simple conversation. My strategic advisor suggested a connection to his role as a Poké Ball craftsman. New plan: find an Apricorn in town and bring it to him.
