@@ -65,12 +65,6 @@
 - **Core Issue:** My primary failure pattern is hallucinating my location and game state. My own perception has proven unreliable.
 - **Corrective Action:** I must ground all decisions *exclusively* in the provided Game State Information for the current turn. All assumptions based on memory must be discarded. I will trust my tools' analysis of the game state over my own perception.
 - **Immediate Action Mandate:** All maintenance tasks (Notepad, WKG, Map Markers, Tool/Agent refinement) must be performed *immediately* upon discovery and never deferred.
-- **Agent Trust:** I MUST trust my agents' outputs, even if they seem counter-intuitive.
-- **Tool Development Methodology:**
-    1.  **Observe:** If a tool fails or behavior is unexpected, my first step is ALWAYS to verify the specific game mechanic through direct, in-game observation.
-    2.  **Document:** I will IMMEDIATELY update the 'Tile Traversal Rules' in this notepad with my verified findings.
-    3.  **Implement:** Only after the mechanic is fully documented will I modify a tool's code to reflect this verified knowledge.
-    4.  **Test:** I will then perform a single, definitive test of the tool. If it fails, I will restart the process from step 1.
 
 ## IV. Open Puzzles & Blockers
 ### Azalea Town - Slowpoke Well
