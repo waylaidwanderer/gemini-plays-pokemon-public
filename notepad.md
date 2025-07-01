@@ -61,21 +61,18 @@
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 - **HM moves cannot be forgotten once taught.**
 
-## III. Tool Development & Self-Critique
-- **New Methodology:**
-    1.  **Observe:** If a tool fails or behavior is unexpected, my first step is ALWAYS to verify the specific game mechanic through direct, in-game observation.
-    2.  **Document:** I will IMMEDIATELY update the 'Tile Traversal Rules' in this notepad with my verified findings. This notepad is my source of truth.
-    3.  **Implement:** Only after the mechanic is fully documented will I modify a tool's code to reflect this verified knowledge.
-    4.  **Test:** I will then perform a single, definitive test of the tool. If it fails, I will restart the process from step 1, rather than guessing at code changes.
-- **Agent Trust:** I MUST trust my agents' outputs, even if they seem counter-intuitive. My `quest_strategist` correctly identified the path forward when my own visual assessment failed. Disregarding an agent's advice is a critical error.
-- **Knowledge Management:** I must remember to check my World Knowledge Graph for existing nodes/edges before attempting to add new ones to avoid redundant operations. I must be more careful with `destination_entry_point` when creating edges.
-- **path_finder:** Cannot see or account for off-screen objects. Paths generated may be physically impossible if a known, but off-screen, obstacle is in the way. I must manually verify paths against my map markers.
+## III. Core Learnings & Self-Correction
+- **Core Issue:** My primary failure pattern is hallucinating my location and game state. My own perception has proven unreliable.
+- **Corrective Action:** I must ground all decisions *exclusively* in the provided Game State Information for the current turn. All assumptions based on memory must be discarded.
+- **Immediate Action Mandate:** All maintenance tasks (Notepad, WKG, Map Markers, Tool/Agent refinement) must be performed *immediately* upon discovery and never deferred. Deferring tasks is a critical failure.
+- **Agent Trust:** I MUST trust my agents' outputs, even if they seem counter-intuitive. Disregarding an agent's advice is a critical error.
+- **Tool & Knowledge Management:** I must remember to check my World Knowledge Graph for existing nodes/edges before adding new ones. My `path_finder` tool cannot see off-screen objects, so I must manually verify its paths against my map markers.
 
 ## IV. Open Puzzles & Blockers
 ### Azalea Town - Slowpoke Well
 - **Goal:** Get past the Team Rocket Grunt blocking the well.
 - **Key Clue:** A Youngster mentioned the 'Charcoal Man's' Pokémon can CUT trees in ILEX FOREST. This implies Kurt is the Charcoal Man and that progressing through the forest is linked to solving the Azalea Town situation.
-- **Current Status:** I have confirmed Ilex Forest is a dead end for now. This suggests the trigger for Kurt to help must be in Azalea Town itself.
+- **Current Status:** The Youngster's dialogue has now changed to reflect the missing SLOWPOKE, confirming this is a known event. The trigger for Kurt to help must be in Azalea Town itself.
 
 ### Failed Attempts Log (DO NOT REPEAT - Azalea Town)
 - **Talking to Kurt (before Mart clue):** Failed 5+ times. His dialogue was in a loop.
