@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v39422)
+## I. Core Protocols & Immediate Actions (v39481)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v14 - Manual Management & Tagging):** Upon any map transition, I will immediately use `manage_world_knowledge` to manually add/update nodes and edges. I will add descriptive tags (e.g., `["safari_zone", "entrance"]`, `["warp"]`) to all new nodes to improve the graph's searchability and utility for future strategic planning.
+- **CRITICAL: WKG Protocol (v15 - Two-Step Verification):** My manual WKG management has been error-prone. I will now follow a strict two-step process. **Step 1: Node Verification.** I will first query the WKG to ensure both source and destination nodes exist. If a node is missing, I will add it using `manage_world_knowledge` with the `add_node` action and descriptive tags. **Step 2: Edge Creation.** Only after confirming both nodes exist will I create the edge connecting them. This protocol prevents graph corruption.
 - **CRITICAL: Map Marker Protocol (v8):** Mark defeated trainers, used warps (both entry and exit), and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
-- **CRITICAL: Agent Usage Protocol (v2):** Agents are for **reasoning and high-level strategy**, not for computational tasks like tile-by-tile pathfinding. If I am stuck on navigation, I will use my new `exploration_strategist_agent` or a dedicated computational tool. Misusing an agent is a protocol violation.
+- **CRITICAL: Agent Usage Protocol (v2):** Agents are for **reasoning and high-level strategy**, not for computational tasks like tile-by-tile pathfinding. If I am stuck on navigation, I will use my `exploration_strategist_agent` or a dedicated computational tool. Misusing an agent is a protocol violation.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
@@ -21,6 +21,8 @@
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle and any Pokémon that participated by switching in.
 - **Battle Initiation Mechanics:** To battle a trainer on an adjacent tile, you must face them and press 'A' to interact.
 - **NPC Interaction Catch:** Some NPCs, upon interaction, can trigger a Pokémon 'catch' event, adding the Pokémon directly to the player's Pokédex and party/PC. (Observed with Rocker in Safari Zone East Rest House giving a CHANSEY).
+- **Safari Game Time Limit:** The Safari Game has a time limit. When it expires, the player is automatically warped back to the Safari Zone Gate.
+- **PC Box Full Mechanic:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but a warning is displayed. I must remember to manually change the active box at a Pokémon Center to continue storing new Pokémon.
 
 ### C. Tile Traversal & Map Mechanics
 - **`ground` / `grass` / `elevated_ground`:** Standard walkable tiles.
@@ -35,7 +37,7 @@
 
 ### D. Investigation & Hypothesis Log
 - **Current Plan:** Obtain the Soul Badge. Current strategy is to explore the Safari Zone to find key items (HM Surf, Gold Teeth) that may be required for gym access or progression.
-- **Hypothesis (Active):** The game state's `Reachable Unseen Tiles` and `Reachable Unvisited Warps` lists indicate the path forward is on the current map (Safari Zone East).
+- **Hypothesis (Active):** The game state's `Reachable Unseen Tiles` and `Reachable Unvisited Warps` lists indicate the path forward is on the current map (Safari Zone East). I am currently pivoting to explore the western side of the map.
 
 ## III. System & Tool Development
 ### A. Tool Debugging Protocol (v2)
@@ -43,5 +45,6 @@
 
 ### B. Development Failures & Lessons
 - **CRITICAL FAILURE (Pathfinder, T39001-T39221):** I wasted over 50 turns attempting to debug the `pathfinder` tool with blind, iterative redefinitions. This was a catastrophic failure to follow my own protocol. The root cause, discovered only after a `run_code` debug session, was a `ModuleNotFoundError` for the `xml` library, which is not supported in the tool execution environment. **Lesson:** The `pathfinder` tool is fundamentally unfixable. I will never again attempt to create a tool that requires XML parsing.
-- **Safari Zone Time Limit:** The Safari Game has a time limit. When it expires, the player is automatically warped back to the Safari Zone Gate.
-- **PC Box Full Mechanic:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but a warning is displayed. I must remember to manually change the active box at a Pokémon Center to continue storing new Pokémon.
+
+### C. Future Development Goals
+- Consolidate `navigation_strategist_agent` and `exploration_strategist_agent` into a single, more robust `strategy_agent` to handle all high-level navigation advice and reduce tool redundancy.
