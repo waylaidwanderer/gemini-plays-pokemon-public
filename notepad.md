@@ -50,7 +50,7 @@
 - **HEADBUTT_TREE:** Impassable. Confirmed impassable after path_finder failed.
 
 ### One-Way Traversal (Verified)
-- **LEDGE / FLOOR_ALLOW_HOP_DOWN:** One-way downward traversal.
+- **LEDGE / FLOOR_ALLOW_HOP_DOWN:** One-way downward traversal. Horizontal movement (left/right) is permitted.
 - **FLOOR_ALLOW_HOP_LEFT:** One-way traversal to the left.
 - **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right.
 - **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right.
