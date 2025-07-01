@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v39898)
+## I. Core Protocols & Immediate Actions (v40081)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v16 - Three-Step Verification):** My manual WKG management has been error-prone. I will now follow a strict three-step process. **Step 1: Node Verification.** I will first query the WKG to ensure both source and destination nodes exist. If a node is missing, I will add it using `manage_world_knowledge` with the `add_node` action and descriptive tags. **Step 2: Edge Verification.** After confirming both nodes exist, I will query for an edge between them. **Step 3: Edge Creation.** Only if no edge exists will I create one. This protocol prevents graph corruption.
-- **CRITICAL: Map Marker Protocol (v8):** Mark defeated trainers, used warps (both entry and exit), and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
-- **CRITICAL: Agent Usage Protocol (v2):** Agents are for **reasoning and high-level strategy**, not for computational tasks like tile-by-tile pathfinding. If I am stuck on navigation, I will use my `exploration_strategist_agent` or a dedicated computational tool. Misusing an agent is a protocol violation.
+- **CRITICAL: WKG Protocol (v17 - Numeric ID Mandate):** My manual WKG management has been error-prone. I will now follow a strict three-step process using **numeric map IDs only**. **Step 1: Node Verification.** I will query the WKG to ensure both source and destination nodes exist. If a node is missing, I will add it using `manage_world_knowledge` with the `add_node` action, numeric map ID, and descriptive tags. **Step 2: Edge Verification.** After confirming both nodes exist, I will query for an edge. **Step 3: Edge Creation.** Only if no edge exists will I create one. This protocol prevents graph corruption and tool errors.
+- **CRITICAL: Map Marker Protocol (v9):** Mark defeated trainers, used warps (both entry and exit), and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
+- **CRITICAL: Agent Usage Protocol (v2):** Agents are for **reasoning and high-level strategy**, not for computational tasks like tile-by-tile pathfinding. If I am stuck on navigation, I will use my `exploration_strategist_agent` or a dedicated computational tool.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
@@ -29,6 +29,8 @@
 - **`steps`:** Allows **vertical-only** movement between `ground`, `grass`, and `elevated_ground`.
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Silph Co. 9F at (12, 2) and Safari Zone East at (17, 23).
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
+- **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as impassable walls when approached from above. (Discovered on Route 19 at (6, 9)).
+- **Summer Beach House Trap:** The house on Route 19 at (6, 10) is a one-way trap. The entrance warp is one-way, and Fly cannot be used to escape. The intended solution is to walk *through* Pikachu to reach the southern exit warp.
 
 ### D. Investigation & Hypothesis Log
 - **Current Plan:** Fully explore the Safari Zone. The trainers on Route 19 proved to be too high-level, indicating it's not the correct path for now. My new primary objective is to find any key items (such as HM Surf or the Gold Teeth) that may be located within the Safari Zone to enable further progress.
@@ -38,7 +40,5 @@
 ### A. Tool Debugging Protocol (v2)
 - **CRITICAL:** If a custom tool is suspected to be faulty, the **first and only** debugging step is to use `run_code` with extensive `print()` statements to trace its execution and identify the point of failure. Blindly redefining the tool is a waste of turns and a violation of this protocol.
 
-### B. Development Failures & Lessons
-- **Systematic Tile Testing:** I must be more rigorous in testing and documenting the behavior of every new tile type I encounter. This includes confirming impassable tiles by attempting to walk into them from multiple directions and recording the results.
-- **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as impassable walls when approached from above. (Discovered on Route 19 at (6, 9)).
-- **Summer Beach House Trap:** The house on Route 19 at (6, 10) is a one-way trap. The entrance warp is one-way, and Fly cannot be used to escape. The only way out is to use the southern exit warp.
+### B. Development Plan
+- **Pathfinder Tool:** I will define a reusable `pathfinder` tool to automate overworld navigation. This will prevent manual pathing errors like attempting to walk up ledges.
