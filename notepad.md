@@ -91,8 +91,3 @@
 - **Talking to Gramps, then Kurt:** Failed. Did not change Kurt's dialogue.
 - **Talking to Youngster, then Kurt:** Failed. Did not change Kurt's dialogue.
 - **Talking to all NPCs, then Kurt:** Failed. The combination of dialogue flags did not trigger Kurt.
-2.  Talking to Kurt, then going to well. (Result: Kurt not present, Grunt still blocking)
-3.  Talking to Kurt, leaving, returning to find him scared. (Result: No change)
-4.  Talking to Kurt, then talking to Grunt again. (Result: No change)
-5.  Talking to Gramps, then Kurt. (Result: No change)
-6.  Talking to Youngster, then Kurt. (Result: No change)
