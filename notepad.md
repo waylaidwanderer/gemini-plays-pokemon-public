@@ -1,24 +1,6 @@
 # Gem's Pokémon Crystal Notepad
 
 ## I. Battle Intel
-### Rival SILVA's Team
-- CHIKORITA: Lv5 (Last seen in New Bark Town)
-
-### Observed Movesets
-- Wild Poliwag: BUBBLE
-- Wild Hoothoot: TACKLE, GROWL, FLASH, FORESIGHT
-- Wild Bellsprout: VINE WHIP, GROWTH
-- Wild Caterpie: TACKLE, STRING SHOT
-- Wild Ekans: LEER, WRAP
-- Wild Pidgey: SAND-ATTACK
-- Wild Hoppip: TAIL WHIP, SYNTHESIS, SPLASH
-- Wild Rattata: TACKLE, TAIL WHIP
-- Wild Wooper: TAIL WHIP, WATER GUN
-- Wild Zubat: LEECH LIFE
-- Wild Sandshrew: SCRATCH, DEFENSE CURL
-- Wild Geodude: TACKLE, DEFENSE CURL
-- Wild Onix: TACKLE, SCREECH
-- Wild Machop: LOW KICK
 
 ### Type Effectiveness Chart (Verified)
 - Normal is not very effective against Water.
