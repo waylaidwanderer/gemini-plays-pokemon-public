@@ -41,7 +41,7 @@
 - **COUNTER:** Impassable.
 - **DOOR/CAVE/LADDER:** Warp tile.
 - **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
-- **WARP_CARPET_DOWN/RIGHT:** Warp tile.
+- **WARP_CARPET_DOWN/RIGHT:** Warp tile. Activated by pressing Down/Right respectively, not by stepping off and on.
 - **VOID:** Impassable.
 - **CUT_TREE:** Impassable without CUT.
 - **WATER:** Impassable without SURF.
