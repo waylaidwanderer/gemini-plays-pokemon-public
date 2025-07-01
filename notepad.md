@@ -7,10 +7,9 @@
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective).
-- **Type Immunities:** Psychic is immune to Electric. Pidgeotto (Normal/Flying) is immune to Ghost-type moves like Confuse Ray. Flying-type is immune to Ground-type moves (confirmed with ECHO vs. Sandslash's DIG).
-- **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves. MUK appears to be immune to powder-based status moves (SLEEP POWDER, STUN SPORE).
+- **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves (confirmed with ECHO vs. Sandslash's DIG).
+- **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves.
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
-- **Poison Type Effectiveness:** Poison-type moves are NOT-VERY-EFFECTIVE against Poison-types.
 - **Battle Mechanics:** Multi-hit moves (e.g., FURY ATTACK) are a critical threat and can bypass the "sturdy" effect of surviving on 1 HP.
 - **Ghost-Type Effectiveness:** Ghost-type moves (like Lick) are effective against Rock/Ground-types.
 
@@ -37,6 +36,10 @@
 ### D. Investigation & Hypothesis Log
 - **Current Plan:** Fully explore the Safari Zone. The trainers on Route 19 proved to be too high-level, indicating it's not the correct path for now. My new primary objective is to find any key items (such as HM Surf or the Gold Teeth) that may be located within the Safari Zone to enable further progress.
 - **Hypothesis (Active):** The Safari Zone contains key items required to access the area where the Soul Badge is located. The path south from Fuchsia City via Route 19 is a late-game area I am not yet prepared for.
+- **Koga's Team (Fuchsia Gym):**
+  - GOLBAT (Lv. 42)
+  - MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR)
+- **Hypothesis (Active):** MUK is immune to Poison-type moves (confirmed via SLUDGE).
 
 ## III. System & Tool Development
 ### A. Tool Debugging Protocol (v2)
@@ -45,7 +48,3 @@
 ### B. Development Plan (v3 - Pathfinder Abandoned)
 - **Pathfinder Tool Investigation (COMPLETE):** My attempts to build a pathfinder tool have failed. Both `xml.etree.ElementTree` and `lxml` are unavailable in the execution environment, making it impossible to parse the map XML for automated navigation.
 - **New Navigation Protocol:** I will now rely on my `exploration_strategist_agent` for high-level guidance and my own careful manual pathing. I must be extra vigilant to avoid simple errors like walking into walls or up ledges. This is now my official navigation strategy.
-### Koga's Team (Fuchsia Gym)
-- GOLBAT (Lv. 42)
-- MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR)
-- **Hypothesis (Active):** Poison-type moves are ineffective against Poison-types (MUK vs. SLUDGE).
