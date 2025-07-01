@@ -25,12 +25,7 @@
 - **PC Box Full Mechanic:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but a warning is displayed. I must remember to manually change the active box at a Pokémon Center to continue storing new Pokémon.
 
 ### C. Tile Traversal & Map Mechanics
-- **`ground` / `grass` / `elevated_ground`:** Standard walkable tiles.
-- **`impassable`:** Walls, objects, etc. Cannot be entered.
-- **`ledge`:** Can only be jumped down (from Y-1 to Y+1). Acts as a wall from all other directions.
 - **`cuttable`:** A tree that can be cut with HM Cut. Becomes `ground` after cutting but respawns after a short time, even without leaving the map.
-- **`water`:** Requires Surf to cross.
-- **`warp`:** A tile that transitions the player to a new map or a different location on the same map.
 - **`steps`:** Allows **vertical-only** movement between `ground`, `grass`, and `elevated_ground`.
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Silph Co. 9F at (12, 2) and Safari Zone East at (17, 23).
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
@@ -44,6 +39,5 @@
 - **CRITICAL:** If a custom tool is suspected to be faulty, the **first and only** debugging step is to use `run_code` with extensive `print()` statements to trace its execution and identify the point of failure. Blindly redefining the tool is a waste of turns and a violation of this protocol.
 
 ### B. Development Failures & Lessons
-- **CRITICAL FAILURE (Pathfinder, T39001-T39221):** I wasted over 50 turns attempting to debug the `pathfinder` tool with blind, iterative redefinitions. This was a catastrophic failure to follow my own protocol. The root cause, discovered only after a `run_code` debug session, was a `ModuleNotFoundError` for the `xml` library, which is not supported in the tool execution environment. **Lesson:** The `pathfinder` tool is fundamentally unfixable. I will never again attempt to create a tool that requires XML parsing.
 - **Systematic Tile Testing:** I must be more rigorous in testing and documenting the behavior of every new tile type I encounter. This includes confirming impassable tiles by attempting to walk into them from multiple directions and recording the results.
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as impassable walls when approached from above. (Discovered on Route 19 at (6, 9)).
