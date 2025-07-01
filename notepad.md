@@ -37,8 +37,6 @@
 
 ### D. Investigation & Hypothesis Log
 - **Current Plan:** Obtain the Soul Badge. Current strategy is to explore the Safari Zone to find key items (HM Surf, Gold Teeth) that may be required for gym access or progression.
-- **Hypothesis (Failed):** The `pathfinding_tool` I created is flawed; it does not account for elevation changes between tiles (e.g., `elevated_ground` to `ground`). Its output is therefore unreliable for complex vertical navigation. The path it generated was impassable. **Lesson:** Any future pathfinding tools MUST correctly parse and model elevation rules.
-- **Hypothesis (Failed Again):** The `pathfinding_tool` (v2) is still flawed. It failed to account for `cuttable` trees, treating them as traversable and generating an impassable path. **Lesson:** The tool must treat `cuttable` tiles as impassable obstacles.
 - **Hypothesis (Active):** Fuchsia City is NOT a dead end. The game state confirms the warp at (6, 14) is reachable. My `pathfinding_tool` is fundamentally flawed and has been deleted per system critique. I will now rely exclusively on manual exploration to find the hidden traversal mechanic, starting with the `cuttable` tree at (17, 12).
 
 ## III. System & Tool Development
@@ -47,4 +45,3 @@
 
 ### B. Development Failures & Lessons
 - **CRITICAL FAILURE (Pathfinder, T39001-T39221):** I wasted over 50 turns attempting to debug the `pathfinder` tool with blind, iterative redefinitions. This was a catastrophic failure to follow my own protocol. The root cause, discovered only after a `run_code` debug session, was a `ModuleNotFoundError` for the `xml` library, which is not supported in the tool execution environment. **Lesson:** The `pathfinder` tool is fundamentally unfixable. I will never again attempt to create a tool that requires XML parsing.
-- **Hypothesis (Failed Again):** The `pathfinding_tool` (v2) is still flawed. It failed to account for `cuttable` trees, treating them as traversable and generating an impassable path. **Lesson:** The tool must treat `cuttable` tiles as impassable obstacles.
