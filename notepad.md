@@ -87,3 +87,4 @@
 - **Ilex Forest Exploration:** Failed. The path forward is blocked by a CUT_TREE, making the area a dead end for now.
 ### New Hypothesis (Azalea Town)
 - The Kurt event is not triggering via simple conversation. My strategic advisor suggested a connection to his role as a Poké Ball craftsman. New plan: find an Apricorn in town and bring it to him.
+- **Talking to Grunt at Gym (after Kurt event):** Failed. Dialogue is about SLOWPOKETAILs and does not trigger a battle or make him move.
