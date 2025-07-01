@@ -71,25 +71,25 @@
     4.  **Test:** I will then perform a single, definitive test of the tool. If it fails, I will restart the process from step 1, rather than guessing at code changes.
 - **Agent Trust:** I MUST trust my agents' outputs, even if they seem counter-intuitive. My `strategic_advisor` correctly identified the path forward when my own visual assessment failed. Disregarding an agent's advice is a critical error.
 - **Knowledge Management:** I must remember to check my World Knowledge Graph for existing nodes/edges before attempting to add new ones to avoid redundant operations. I must be more careful with `destination_entry_point` when creating edges.
+- **path_finder:** Cannot see or account for off-screen objects. Paths generated may be physically impossible if a known, but off-screen, obstacle is in the way. I must manually verify paths against my map markers.
 
 ## IV. Current Plans & Hypotheses
 
 ### Goal: Clear Team Rocket from Slowpoke Well
 
 ### Key Clue
-- **The map where Kurt lives is named `CharcoalKiln`.** This is not an error. This is the central clue I was ignoring.
+- **Cooltrainer in Azalea Mart:** Mentioned Kurt makes custom Poké Balls.
+- **The map where Kurt lives is named `CharcoalKiln`.** This is a strong hint towards crafting/forging.
 
 ### Active Hypothesis
-- **The Moltres statue at (5, 6) is a hidden switch.** The 'CharcoalKiln' name and the fiery bird statue are connected.
+- **I need to trigger a crafting event with Kurt.** The combination of the 'CharcoalKiln' map name and the NPC dialogue is too strong a coincidence. Since Kurt is not in his house, I must find him. The most logical place is at the Slowpoke Well, where he went to confront Team Rocket.
     - **Plan:**
-        1. Move to the tile directly below the statue at (5, 7).
-        2. Face up and interact with the statue ('A' button).
+        1. Find a way to the Slowpoke Well entrance at (31, 7). The direct path from the south is blocked.
+        2. Explore the west side of Azalea Town for an alternate route.
+        3. If no route is found, re-investigate Kurt's house to see if anything changed after learning about the custom balls.
 
 ### Failed Attempts Log (DO NOT REPEAT)
-- **Talking to Kurt:** Failed 5+ times. His dialogue is in a loop and is not the trigger.
-- **Talking to Grunt at Well:** Failed 3+ times. He will not move via conversation alone.
-- **Talking to Gramps, then Kurt:** Failed. Did not change Kurt's dialogue.
-- **Talking to Youngster, then Kurt:** Failed. Did not change Kurt's dialogue.
-- **Talking to all NPCs, then Kurt:** Failed. The combination of dialogue flags did not trigger Kurt.
-### Tool Limitations
-- **path_finder:** Cannot see or account for off-screen objects. Paths generated may be physically impossible if a known, but off-screen, obstacle is in the way. I must manually verify paths against my map markers.
+- **Talking to Kurt (before Mart clue):** Failed 5+ times. His dialogue was in a loop.
+- **Talking to Grunt at Well:** Failed 4+ times. He will not move via conversation alone.
+- **Talking to Grunt at Gym:** Failed. Unrelated dialogue.
+- **Talking to Youngster in Kurt's House:** Failed. Unrelated dialogue.
