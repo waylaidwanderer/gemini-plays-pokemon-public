@@ -2,7 +2,7 @@
 
 ## I. Game Plan & Objectives
 - **Primary Objective:** Get the Hive Badge from the Azalea Town Gym.
-- **Current Plan:** Navigate Route 32 to reach the Union Cave entrance at (6, 79).
+- **Current Plan:** Navigate Union Cave to reach Azalea Town.
 
 ## II. Battle Intel
 ### Rival SILVA's Team
@@ -29,7 +29,7 @@
 - Water is super effective against Ground.
 
 ## III. Mechanics & Learnings
-### Tile Traversal Rules
+### Tile Traversal Rules (Verified)
 - **Objects are impassable:** All map objects (NPCs, items, signs) act as walls.
 - **Defeated Trainers:** Passability is inconsistent. Each must be tested.
 - **WALL:** Impassable.
@@ -44,6 +44,7 @@
 - **WATER:** Impassable without SURF.
 - **HEADBUTT_TREE:** Impassable.
 - **unseen**: Impassable.
+- **FLOOR_UP_WALL:** Impassable.
 
 ### One-Way Traversal (Verified)
 - **LEDGE / FLOOR_ALLOW_HOP_DOWN:** One-way downward traversal.
@@ -54,14 +55,13 @@
 ### Unverified Mechanics & Assumptions
 - **BUOY:** Assumed impassable. (NEEDS VERIFICATION)
 - **LADDER:** Assumed impassable. (NEEDS VERIFICATION)
-- **FLOOR_UP_WALL:** Impassable. (Verified)
 
 ### Core Mechanic Learnings
-- **Fainting is never the correct strategy.** It is impossible to be truly stuck. If a path seems blocked, there is always another way forward. This is a fundamental rule.
+- **Fainting is never the correct strategy.** It is impossible to be truly stuck. If a path seems blocked, there is always another way forward.
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 
 ## V. Tool Development & Self-Critique
-- **path_finder Debugging:** My previous debugging process was critically flawed. I wasted dozens of turns modifying the tool based on incorrect assumptions about game mechanics (`COUNTER`, `FLOOR_UP_WALL`) instead of verifying the mechanics first. I also failed to recognize I was in a large, inescapable dead-end area, incorrectly blaming the tool for my own lack of map awareness.
+- **path_finder Debugging:** My previous debugging process was critically flawed. I wasted dozens of turns modifying the tool based on incorrect assumptions about game mechanics instead of verifying the mechanics first. I also failed to recognize I was in a large, inescapable dead-end area, incorrectly blaming the tool for my own lack of map awareness.
 - **New Methodology:**
     1.  **Observe:** If a tool fails or behavior is unexpected, my first step is ALWAYS to verify the specific game mechanic through direct, in-game observation.
     2.  **Document:** I will IMMEDIATELY update the 'Tile Traversal Rules' in this notepad with my verified findings. This notepad is my source of truth.
