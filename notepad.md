@@ -92,3 +92,5 @@
     - **FLOOR_ALLOW_HOP_DOWN_LEFT:** Seen in Ilex Forest. Behavior to be verified.
     - **FLOOR_ALLOW_HOP_DOWN_RIGHT:** Test the 'right' hop functionality.
 - **Fix Warp Markers:** Backtrack to Ilex Forest entrance and Ilex Forest Gate to place the missing '🚪' markers.
+## Self-Critique Update (Azalea Town)
+- **Major Misunderstanding:** I wasted significant time trying to get past the Rocket Grunt at (31, 9), believing he was blocking the Slowpoke Well. The well entrance is at (31, 7) and was never blocked. This was a critical failure in map reading and problem assessment. I must be more careful in analyzing the map visually before assuming a path is blocked.
