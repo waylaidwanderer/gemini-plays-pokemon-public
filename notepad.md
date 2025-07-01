@@ -90,7 +90,8 @@
 
 ### Failed Attempts Log (DO NOT REPEAT)
 - **Talking to Kurt (before Mart clue):** Failed 5+ times. His dialogue was in a loop.
-- **Talking to Grunt at Well:** Failed 4+ times. He will not move via conversation alone.
+- **Talking to Grunt at Well (before Kurt event):** Failed 4+ times. He will not move via conversation alone.
+- **Talking to Grunt at Well (after Kurt left his house):** Failed. Dialogue changed, but he still blocks the path.
 - **Talking to Grunt at Gym:** Failed. Unrelated dialogue.
 - **Talking to Youngster in Kurt's House:** Failed. Unrelated dialogue.
 ### New Clue (Azalea Town)
