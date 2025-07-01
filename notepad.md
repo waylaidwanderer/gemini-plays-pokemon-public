@@ -47,3 +47,7 @@
 
 ### B. Future Tool Development
 - **Navigation Manager Tool Idea:** Create a tool that takes a final destination and manages the entire navigation process. It would call `pathfinder` to get a route, and if interrupted by a battle or other event, it would automatically re-call `pathfinder` from the new position until the destination is reached. This would automate the tedious process of re-pathing.
+- **`ground`**: Basic walkable tile.
+- **`grass`**: Tall grass with wild Pokémon encounters.
+- **`water`**: Crossable with SURF.
+- **`impassable`**: Walls, rocks, etc. Cannot be entered.
