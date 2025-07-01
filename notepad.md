@@ -60,12 +60,6 @@
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 - HM moves cannot be forgotten once taught.
 
-## III. Core Learnings & Self-Correction
-- **My primary failure pattern is hallucinating my location and game state.** I must ground all decisions *exclusively* in the provided Game State Information for the current turn. All assumptions based on memory must be discarded.
-- I MUST trust my agents' outputs, even if they seem counter-intuitive. Disregarding an agent's advice is a critical error.
-- I MUST perform all maintenance tasks (Notepad, WKG, Map Markers, Tool/Agent refinement) *immediately* upon discovery and never defer them.
-- **Pathfinder Bug (Corrected):** The `path_finder` tool initially generated paths to impassable tiles by making an exception for the destination. I corrected the script to remove this exception, ensuring it now correctly finds the closest *reachable* tile when the target is impassable. This was verified by testing against the HEADBUTT_TREE at (20, 25).
-
 ## V. Major Self-Correction (Azalea Town)
 - **False Assumption:** I incorrectly assumed the Team Rocket Grunt at (31, 9) was physically blocking the entrance to the Slowpoke Well at (31, 7). 
 - **Verification Failure:** I spent multiple turns trying to trigger an event to move him without first verifying if an alternate path existed.
