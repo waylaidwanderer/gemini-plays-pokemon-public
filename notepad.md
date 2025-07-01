@@ -35,7 +35,7 @@
 - **Defeated Trainers:** Passability is inconsistent and must be tested individually.
     - Hiker Daniel at (4, 6) is PASSABLE.
     - POKéMANIAC LARRY at (4, 21) is IMPASSABLE.
-    - Firebreather Bill at (14, 16) is IMPASSABLE (needs re-verification).
+    - Firebreather Bill at (14, 16) is PASSABLE.
 - **WALL:** Impassable.
 - **FLOOR:** Traversable.
 - **TALL_GRASS / LONG_GRASS:** Traversable, triggers wild encounters.
