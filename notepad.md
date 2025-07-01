@@ -46,3 +46,4 @@
 ### C. Future Agent/Tool Ideas
 - **`exploration_strategist_agent`:** An agent that takes the `Reachable Unseen Tiles` list and my current position as input. It would then output a high-level strategic suggestion for which cluster of unseen tiles to prioritize next, or which specific tile is the most logical next target to begin exploring a new area. This offloads the strategic reasoning of exploration without attempting computational pathfinding.
 - **`tool_debugger_agent`:** A potential future agent that could take a tool's code and a test case to suggest debugging steps or identify logical flaws.
+- **NPC Interaction Catch:** Some NPCs, upon interaction, can trigger a Pokémon 'catch' event, adding the Pokémon directly to the player's Pokédex and party/PC. (Observed with Rocker in Safari Zone East Rest House giving a CHANSEY).
