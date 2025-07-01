@@ -28,13 +28,15 @@
 - Flying is super effective against Fighting.
 
 ## II. Mechanics & Learnings
-### Tile Traversal Rules (Verified)
-- **Objects are impassable:** All map objects (NPCs, items, signs) act as walls.
+### Object Interaction
+- **General Rule:** All map objects (NPCs, items, signs) act as walls and are impassable.
 - **Defeated Trainers:** Passability is inconsistent and must be tested individually.
     - Hiker Daniel at (4, 6) in Union Cave is PASSABLE.
     - POKéMANIAC LARRY at (4, 21) in Union Cave is IMPASSABLE.
     - Firebreather Bill at (14, 16) in Union Cave is PASSABLE.
     - Hiker Anthony at (6, 13) on Route 33 is PASSABLE.
+
+### Tile Traversal Rules (Verified)
 - **WALL:** Impassable.
 - **FLOOR:** Traversable.
 - **TALL_GRASS / LONG_GRASS:** Traversable, triggers wild encounters.
@@ -46,7 +48,6 @@
 - **CUT_TREE:** Impassable without CUT.
 - **WATER:** Impassable without SURF.
 - **HEADBUTT_TREE:** Impassable. Confirmed impassable after path_finder failed.
-- **unseen**: Impassable.
 
 ### One-Way Traversal (Verified)
 - **LEDGE / FLOOR_ALLOW_HOP_DOWN:** One-way downward traversal.
@@ -69,23 +70,15 @@
 ### Azalea Town - Slowpoke Well
 - **Goal:** Get past the Team Rocket Grunt blocking the well.
 - **Key Clue:** A Youngster mentioned the 'Charcoal Man's' Pokémon can CUT trees in ILEX FOREST. This implies Kurt is the Charcoal Man and that progressing through the forest is linked to solving the Azalea Town situation.
-- **Current Status:** The Youngster's dialogue has now changed to reflect the missing SLOWPOKE, confirming this is a known event. The trigger for Kurt to help must be in Azalea Town itself.
+- **Current Status:** The Youngster's dialogue has now changed to reflect the missing SLOWPOKE, confirming this is a known event. Kurt has left his house.
 
 ### Failed Attempts Log (DO NOT REPEAT - Azalea Town)
 - **Talking to Kurt (before Mart clue):** Failed 5+ times. His dialogue was in a loop.
-- **Talking to Grunt at Well (before Kurt event):** Failed 4+ times. He will not move via conversation alone.
-- **Talking to Grunt at Well (after Kurt left his house):** Failed. Dialogue changed, but he still blocks the path.
+- **Talking to Grunt at Well (before Kurt left his house):** Failed 4+ times. He will not move via conversation alone.
 - **Talking to Grunt at Gym:** Failed. Unrelated dialogue.
 - **Talking to Youngster in Kurt's House:** Failed. Unrelated dialogue.
-- **Talking to Kurt (after well grunt interaction):** Failed. Dialogue unchanged.
 - **Interacting with Farfetch'd statue:** Failed. No plot progression.
-- **Re-attempting Kurt event sequence:** Failed. The event did not trigger as expected.
 - **Area Reset:** Leaving Azalea Town and returning did not change Kurt's dialogue or the Grunt's position.
-- **Returning to Kurt's house:** Failed. Kurt had returned, but his dialogue was unchanged.
-- **Interacting with the Farfetch'd statue:** Failed. It just made a sound.
-- **Returning to the Slowpoke Well:** Failed. The grunt is still blocking the path and my pathfinder confirms no way around.
 - **Ilex Forest Exploration:** Failed. The path forward is blocked by a CUT_TREE, making the area a dead end for now.
-### New Hypothesis (Azalea Town)
-- The Kurt event is not triggering via simple conversation. My strategic advisor suggested a connection to his role as a Poké Ball craftsman. New plan: find an Apricorn in town and bring it to him.
-- **Talking to Grunt at Gym (after Kurt event):** Failed. Dialogue is about SLOWPOKETAILs and does not trigger a battle or make him move.
-- **New Clue (Kurt's House):** After stunning and talking to the Youngster, his dialogue changed to: 'Where have all the SLOWPOKE gone? Are they out playing somewhere?'. This confirms the town-wide awareness of the event.
+- **Bringing Apricorn to Kurt:** Failed. Interacting with the Apricorn tree yielded no item.
+- **Talking to Grunt at Well (after Kurt left house):** Failed. He still won't move.
