@@ -1,9 +1,8 @@
-## I. Core Protocols & Immediate Actions (v38547)
+## I. Core Protocols & Immediate Actions (v38600)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge`, `define_map_marker`, and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure. This is my highest priority.
-- **CRITICAL: WKG Protocol (v7):** Upon any map transition, I will immediately: 1. `define_map_marker` for both departure and arrival. 2. `wkg_checker` to verify the edge. 3. If the edge is missing, `run_code` to get node IDs, then `manage_world_knowledge` to add the edge. This all happens in a single turn.
-- **CRITICAL: Map Marker Protocol (v5):** I will mark defeated trainers, used warps (both entry and exit), and confirmed dead ends *immediately*. I will NOT mark map-edge connections, as this is handled by the WKG.
-- **CRITICAL: Protocol Enforcement:** I will make a conscious effort to use the `protocol_enforcement_agent` before finalizing my plan each turn to catch my own mistakes.
-- **CRITICAL: Agent & Tool Maintenance:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the **ABSOLUTE HIGHEST PRIORITY**, superseding ALL other gameplay objectives. I will be more critical of tool outputs and quicker to diagnose them.
+- **CRITICAL: WKG Protocol (v8):** Upon any map transition, I will immediately: 1. `define_map_marker` for both departure and arrival. 2. `wkg_checker` to verify the edge. 3. If the edge is missing, `run_code` to get node IDs, then `manage_world_knowledge` to add the edge. This all happens in a single turn.
+- **CRITICAL: Map Marker Protocol (v6):** I will mark defeated trainers, used warps (both entry and exit), and confirmed dead ends *immediately*. I will NOT mark map-edge connections, as this is handled by the WKG.
+- **CRITICAL: Agent & Tool Maintenance:** If a custom tool or agent is found to be faulty or bugged, fixing it becomes the **ABSOLUTE HIGHEST PRIORITY**, superseding ALL other gameplay objectives.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
