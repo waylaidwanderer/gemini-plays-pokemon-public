@@ -42,7 +42,7 @@
 - **VOID:** Impassable.
 - **CUT_TREE:** Impassable without CUT.
 - **WATER:** Impassable without SURF.
-- **HEADBUTT_TREE:** Traversable.
+- **HEADBUTT_TREE:** Impassable.
 - **unseen**: Impassable.
 
 ### One-Way Traversal (Verified)
