@@ -37,7 +37,8 @@
 
 ### D. Investigation & Hypothesis Log
 - **Current Plan:** Obtain the Soul Badge. Current strategy is to explore the Safari Zone to find key items (HM Surf, Gold Teeth) that may be required for gym access or progression.
-- **Hypothesis (Active):** My repeated failed attempts to navigate this map suggest I have misunderstood my position. I believe I have already passed through the hidden passage at (7, 25) and am currently in the isolated western section of the map. The unvisited warps at (1, 5) and (1, 6) are therefore the exit. My immediate priority is to create a reliable pathfinding tool to test this hypothesis by navigating to (1, 5).
+- **Hypothesis (Failed):** The `pathfinding_tool` I created is flawed; it does not account for elevation changes between tiles (e.g., `elevated_ground` to `ground`). Its output is therefore unreliable for complex vertical navigation. The path it generated was impassable. **Lesson:** Any future pathfinding tools MUST correctly parse and model elevation rules.
+- **Hypothesis (Active):** Reverting to my previous plan. I am currently stuck in the central area of Safari Zone East. The only logical path I have not fully exhausted is reaching the hidden passage at (7, 25). I will now focus my efforts on finding a traversable route to that coordinate.
 
 ## III. System & Tool Development
 ### A. Tool Debugging Protocol (v2)
