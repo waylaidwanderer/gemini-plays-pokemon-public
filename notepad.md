@@ -31,7 +31,6 @@
 - **`water`:** Requires Surf to cross.
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered on Silph Co. 9F at (12, 2).
 - **Silph Co. Gate Mechanic:** Gates in Silph Co. appear to be controlled by the player's X-coordinate in a corresponding, physically separate corridor.
-- **Cycling Road Movement:** Route 17 is a one-way path south *when on the Bicycle*. Attempts to move north will fail, even if `Reachable Unseen Tiles` are listed in that direction. The one-way mechanic overrides the tile reachability data.
 
 ## III. Investigation & Hypothesis Log (v38547)
 - **Primary Plan (per `navigation_strategist_agent`):** Obtain the Soul Badge. Current strategy is to navigate through Route 12 to reach Fuchsia City.
@@ -47,5 +46,5 @@
 - **Navigation Strategist Agent:** An agent that analyzes the map layout and suggests using the `pathfinder` tool for complex navigation like mazes, preventing inefficient manual exploration.
 - **Inventory Management Agent:** An agent to suggest items to store or discard based on current goals and location.
 - **System Logic (Dead Ends, T38572):** The system considers a map a dead end if there is only one reachable exit. One-way ledges (from above) are counted as reachable exits, so an area with a two-way connection and a one-way ledge exit is NOT a dead end according to the system.
-- **Cycling Road Movement:** Route 17 is a one-way path south *when on the Bicycle*. Attempts to move north will fail, even if `Reachable Unseen Tiles` are listed in that direction. The one-way mechanic overrides the tile reachability data.
+
 - **WKG Connection Manager Tool:** Create a tool that takes start/end map/coordinates and automates the entire WKG update process: check for nodes, create missing nodes, and create the edge, all in one call.
