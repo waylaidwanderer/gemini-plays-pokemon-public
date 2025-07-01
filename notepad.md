@@ -46,7 +46,7 @@
 - **VOID:** Impassable.
 - **CUT_TREE:** Impassable without CUT.
 - **WATER:** Impassable without SURF.
-- **HEADBUTT_TREE:** Impassable.
+- **HEADBUTT_TREE:** Impassable. Confirmed impassable after path_finder failed.
 - **unseen**: Impassable.
 
 ### One-Way Traversal (Verified)
