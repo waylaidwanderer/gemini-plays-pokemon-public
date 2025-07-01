@@ -48,3 +48,4 @@
 ## V. Immediate Development Priorities
 - **(DEPRECATED) WKG Connection Manager Tool:** This tool already exists. My priority is now to USE IT CORRECTLY.
 - **Tool Trust Failure (Pathfinder, T39001):** I wasted over 20 turns attempting to debug the `pathfinder` tool, assuming it was broken when it was correctly identifying an impassable invisible wall. This was a critical failure to follow my own protocol of trusting my tools over my visual assessment. **Correction:** I must trust my tools' outputs, especially when they contradict what I see. If a tool reports a path is blocked, I will believe it and find an alternative route.
+- **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Safari Zone East at (17, 23).
