@@ -45,7 +45,7 @@
 - **WATER:** Impassable without SURF.
 - **HEADBUTT_TREE:** Impassable.
 - **unseen**: Impassable.
-- **FLOOR_UP_WALL:** One-way upward traversal (impassable from above).
+- **FLOOR_UP_WALL:** One-way upward traversal (can be entered from below, but not from above).
 - **LADDER:** Warp tile.
 
 ### One-Way Traversal (Verified)
