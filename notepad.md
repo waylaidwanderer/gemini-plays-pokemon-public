@@ -71,3 +71,25 @@
     4.  **Test:** I will then perform a single, definitive test of the tool. If it fails, I will restart the process from step 1, rather than guessing at code changes.
 - **Agent Trust:** I MUST trust my agents' outputs, even if they seem counter-intuitive. My `strategic_advisor` correctly identified the path forward when my own visual assessment failed. Disregarding an agent's advice is a critical error.
 - **Knowledge Management:** I must remember to check my World Knowledge Graph for existing nodes/edges before attempting to add new ones to avoid redundant operations. I must be more careful with `destination_entry_point` when creating edges.
+
+## IV. Current Plans & Hypotheses
+
+### Goal: Clear Team Rocket from Slowpoke Well
+
+**Hypothesis 1 (Active):** The NPC 'Gramps' at (21, 10) in Azalea Town holds the key to this puzzle. He is an interactable character I have not spoken to yet.
+*   **Plan:**
+    1.  Navigate to Gramps at (21, 10).
+    2.  Interact with him.
+    3.  Re-evaluate based on his dialogue.
+
+**Hypothesis 2 (Next):** A cutscene with Kurt only triggers if I follow him immediately to the well after he leaves his house.
+*   **Plan:**
+    1.  If Hypothesis 1 fails, return to Kurt's house.
+    2.  Talk to Kurt to trigger him to leave.
+    3.  IMMEDIATELY exit and run to the Slowpoke Well at (31, 7).
+
+**Failed Attempts Log:**
+1.  Talking to Grunt directly. (Result: No change)
+2.  Talking to Kurt, then going to well. (Result: Kurt not present, Grunt still blocking)
+3.  Talking to Kurt, leaving, returning to find him scared. (Result: No change)
+4.  Talking to Kurt, then talking to Grunt again. (Result: No change)
