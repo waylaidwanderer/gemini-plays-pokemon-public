@@ -71,15 +71,11 @@
 - **Knowledge Management:** I must remember to check my World Knowledge Graph for existing nodes/edges before attempting to add new ones to avoid redundant operations. I must be more careful with `destination_entry_point` when creating edges.
 - **path_finder:** Cannot see or account for off-screen objects. Paths generated may be physically impossible if a known, but off-screen, obstacle is in the way. I must manually verify paths against my map markers.
 
-## IV. Current Plans & Hypotheses
-
-### Goal: Investigate Ilex Forest
-
-### Key Clue
-- **Youngster in Azalea Town:** Mentioned the 'Charcoal Man's' Pokémon can CUT down the trees in ILEX FOREST. This confirms Kurt is the Charcoal Man and I need to find a way to get the HM Cut or a Pokémon that knows it from him to proceed west into the forest.
-
-### Active Hypothesis
-- **The solution to my current roadblock is in Ilex Forest.** I have been stuck in Azalea Town trying to solve the Slowpoke Well puzzle. My `quest_strategist` agent suggested that the real trigger for progression is located in Ilex Forest, which aligns with the clues I have gathered.
+## IV. Open Puzzles & Blockers
+### Azalea Town - Slowpoke Well
+- **Goal:** Get past the Team Rocket Grunt blocking the well.
+- **Key Clue:** A Youngster mentioned the 'Charcoal Man's' Pokémon can CUT trees in ILEX FOREST. This implies Kurt is the Charcoal Man and that progressing through the forest is linked to solving the Azalea Town situation.
+- **Current Status:** I have confirmed Ilex Forest is a dead end for now. This suggests the trigger for Kurt to help must be in Azalea Town itself.
 
 ### Failed Attempts Log (DO NOT REPEAT - Azalea Town)
 - **Talking to Kurt (before Mart clue):** Failed 5+ times. His dialogue was in a loop.
@@ -91,10 +87,8 @@
 - **Interacting with Farfetch'd statue:** Failed. No plot progression.
 - **Re-attempting Kurt event sequence:** Failed. The event did not trigger as expected.
 
-### Untested Assumptions
-- **The officer in the Ilex Forest gatehouse is the key to entering the forest.** I will test this by talking to him. If that fails, I will talk to the Granny and then attempt to exit west.
-- **LEDGE:** Seen in Ilex Forest. Behavior to be verified.
-- **FLOOR_ALLOW_HOP_DOWN_LEFT:** Seen in Ilex Forest. Behavior to be verified.
-- **LEDGE:** One-way downward traversal only. Cannot be entered from the side (left/right).
-- **FLOOR_ALLOW_HOP_DOWN:** One-way downward traversal. Can be entered from the side.
-- **FLOOR_ALLOW_HOP_DOWN_RIGHT:** One-way traversal. Can be entered from the side. Allows downward hopping.
+## V. Immediate Tasks & Tests
+- **Verify Tile Mechanics:**
+    - **FLOOR_ALLOW_HOP_DOWN_LEFT:** Seen in Ilex Forest. Behavior to be verified.
+    - **FLOOR_ALLOW_HOP_DOWN_RIGHT:** Test the 'right' hop functionality.
+- **Fix Warp Markers:** Backtrack to Ilex Forest entrance and Ilex Forest Gate to place the missing '🚪' markers.
