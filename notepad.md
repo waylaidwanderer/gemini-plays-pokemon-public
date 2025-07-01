@@ -21,6 +21,7 @@
 - Wild Zubat: LEECH LIFE
 - Wild Sandshrew: SCRATCH, DEFENSE CURL
 - Wild Geodude: TACKLE, DEFENSE CURL
+- Wild Onix: TACKLE, SCREECH
 
 ### Type Effectiveness Chart (Verified)
 - Normal is not very effective against Water.
@@ -45,6 +46,7 @@
 - **HEADBUTT_TREE:** Impassable.
 - **unseen**: Impassable.
 - **FLOOR_UP_WALL:** One-way upward traversal (impassable from above).
+- **LADDER:** Warp tile.
 
 ### One-Way Traversal (Verified)
 - **LEDGE / FLOOR_ALLOW_HOP_DOWN:** One-way downward traversal.
@@ -54,7 +56,6 @@
 
 ### Unverified Mechanics & Assumptions
 - **BUOY:** Assumed impassable. (NEEDS VERIFICATION)
-- **LADDER:** Warp tile.
 
 ### Core Mechanic Learnings
 - **Fainting is never the correct strategy.** It is impossible to be truly stuck. If a path seems blocked, there is always another way forward.
@@ -67,5 +68,5 @@
     2.  **Document:** I will IMMEDIATELY update the 'Tile Traversal Rules' in this notepad with my verified findings. This notepad is my source of truth.
     3.  **Implement:** Only after the mechanic is fully documented will I modify a tool's code to reflect this verified knowledge.
     4.  **Test:** I will then perform a single, definitive test of the tool. If it fails, I will restart the process from step 1, rather than guessing at code changes.
-- **Agent Testing:** I have defined a `move_advisor` agent but have not used it. I MUST prioritize using this agent at the next opportunity (e.g., finding a TM) to evaluate its effectiveness.
+- **Agent Testing:** I have defined a `move_advisor` agent and successfully used it. I will continue to use it when appropriate.
 - **Knowledge Management:** I must remember to check my World Knowledge Graph for existing nodes/edges before attempting to add new ones to avoid redundant operations.
