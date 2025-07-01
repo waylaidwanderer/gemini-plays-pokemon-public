@@ -1,12 +1,8 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. Strategic Overview
-- **Primary Objective:** My main goal is to get the Hive Badge from the Azalea Town Gym.
-
-## II. Current Plan
-1.  Navigate from my current position on Route 32 to the Union Cave entrance at (6, 79).
-2.  The route requires navigating north and west around the central rock formation.
-3.  Use the `path_finder` tool to calculate the optimal route, trusting its output as it reflects my verified understanding of game mechanics.
+## I. Game Plan & Objectives
+- **Primary Objective:** Get the Hive Badge from the Azalea Town Gym.
+- **Current Plan:** Navigate Route 32 to reach the Union Cave entrance at (6, 79).
 
 ## III. Battle Intel
 ### Rival SILVA's Team
