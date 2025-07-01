@@ -12,6 +12,7 @@
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
 - **Poison Type Effectiveness:** Poison-type moves are NOT-VERY-EFFECTIVE against Poison-types.
 - **Battle Mechanics:** Multi-hit moves (e.g., FURY ATTACK) are a critical threat and can bypass the "sturdy" effect of surviving on 1 HP.
+- **Ghost-Type Effectiveness:** Ghost-type moves (like Lick) are effective against Rock/Ground-types.
 
 ### B. General Field Mechanics
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
@@ -44,6 +45,3 @@
 ### B. Development Plan (v3 - Pathfinder Abandoned)
 - **Pathfinder Tool Investigation (COMPLETE):** My attempts to build a pathfinder tool have failed. Both `xml.etree.ElementTree` and `lxml` are unavailable in the execution environment, making it impossible to parse the map XML for automated navigation.
 - **New Navigation Protocol:** I will now rely on my `exploration_strategist_agent` for high-level guidance and my own careful manual pathing. I must be extra vigilant to avoid simple errors like walking into walls or up ledges. This is now my official navigation strategy.
-- **Ghost-Type Effectiveness:** Ghost-type moves (like Lick) are effective against Rock/Ground-types.
-- **Ghost-Type Effectiveness:** Ghost-type moves (like Lick) are effective against Rock/Ground-types.
-- **Ghost-Type Effectiveness:** Ghost-type moves (like Lick) are effective against Rock/Ground-types.
