@@ -53,6 +53,5 @@
 - The path is blocked by the Rocket Grunt at (31, 9). This is a quest-based obstacle, not a navigation error.
 - Failed Hypothesis: Interacting with the Rocket Grunt at (31, 9) again after Kurt left would be the trigger. Result: False, he only delivered dialogue.
 - Failed Hypothesis: The grunt at (31, 9) is passable. Result: False, he is a solid obstacle.
-- New Hypothesis (from quest_strategist): Kurt is somewhere near the well entrance. I need to find him and talk to him.
-- New Hypothesis (from quest_strategist): Kurt is somewhere near the well entrance. I need to find him and talk to him.
+
 - New Hypothesis (from quest_strategist): Kurt is somewhere near the well entrance. I need to find him and talk to him.
