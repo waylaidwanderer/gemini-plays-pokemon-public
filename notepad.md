@@ -29,7 +29,7 @@
 - **Goal:** Herd the Farfetch'd to the boy who ran off, likely waiting near the CUT tree at (8, 25).
 - **Status Update:** My `farfetchd_herder` tool has confirmed the Farfetch'd is no longer on this map. This strongly suggests the puzzle in this area is complete.
 
-### Ilex Forest Farfetch'd Puzzle - New Hypotheses (from `quest_strategist`)
+### [ARCHIVED] Ilex Forest Puzzle Hypotheses
 - **Hypothesis 1 (H1 - Top Priority):** Find the Farfetch'd's current location. From there, use the twigs at (22, 30) and (23, 30) to herd it towards the western ledge at (21, 22), as the Farfetch'd can likely cross terrain that is impassable for the player.
 - **Hypothesis 2 (H2):** Systematically test each twig to map out the Farfetch'd's movement rules. It may move in a fixed direction (e.g., always north, or always away from the twig) each time a specific twig is stepped on, which will allow you to control it precisely.
 - **Hypothesis 3 (H3 - FAILED):** Return to the exact tile where the boy 'vanished' and the Farfetch'd first appeared at (22, 29). Use the 'interact' button on this specific tile, as moving the Farfetch'd may have triggered a change or revealed an item.
