@@ -6,7 +6,7 @@
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
-- **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective).
+- **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective), Electric !> Grass.
 - **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves. MUK is immune to Poison-type moves.
 - **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves.
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
@@ -51,4 +51,3 @@
 
 ## V. Defeated Bosses Log
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR), TENTACRUEL (Lv. 41, knows SURF, ICE BEAM), VENOMOTH (Lv. 43, knows PSYCHIC)
-- **Type Matchups (Battle Observation):** Electric is NOT-VERY-EFFECTIVE against Grass (SPARKY's THUNDERBOLT vs. TANGELA).
