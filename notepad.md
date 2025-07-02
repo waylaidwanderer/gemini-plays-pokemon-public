@@ -34,3 +34,6 @@
         2. Use twigs to intentionally push the bird through 'impassable' trees to a new area.
         3. Step on the two known twigs in very quick succession to push the bird directly north.
 - **HEADBUTT_TREE:** Impassable.
+
+### Tool Development Notes
+- **`area_explorer` Flaw:** This tool cannot find off-screen objects because it relies on the `map_xml_string`, which only includes on-screen sprites. It needs to be redesigned to manually explore the map to find objects.
