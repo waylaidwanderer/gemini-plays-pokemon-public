@@ -1,4 +1,31 @@
 {
+  "pathfinder": {
+    "description": "Calculates the shortest path between two points on the current map using the A* algorithm. It correctly handles impassable tiles, objects, NPCs, and one-way ledges. Returns a list of coordinates for the path.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import heapq\nimport xml.etree.ElementTree as ET\nimport json\n\ndef pathfinder(input_data):\n    map_xml = ET.fromstring(map_xml_string)\n    width = int(map_xml.get('width'))\n    height = int(map_xml.get('height'))\n    \n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    \n    start_node = (start_x, start_y)\n    end_node = (end_x, end_y)\n\n    impassable_tiles = set()\n    ledge_tiles = set()\n\n    for row_elem in map_xml.findall('Row'):\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            y = int(row_elem.get('id'))\n            tile_type = tile_elem.get('type')\n            \n            is_impassable = tile_type in ['impassable', 'unknown', 'water', 'boulder_barrier'] or tile_elem.find('Object') is not None\n            \n            if tile_elem.find('Object') is not None:\n                obj = tile_elem.find('Object')\n                if obj.get('id-name') == 'pikachu_sprite':\n                    is_impassable = False\n\n            if is_impassable:\n                impassable_tiles.add((x, y))\n            elif tile_type == 'ledge':\n                ledge_tiles.add((x, y))\n\n    def get_neighbors(x, y):\n        neighbors = []\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if 1 <= nx <= width and 1 <= ny <= height:\n                # Standard move\n                if (x, y) not in ledge_tiles and (nx, ny) not in impassable_tiles:\n                    neighbors.append(((nx, ny), 1))\n                # Ledge jump\n                elif (x, y) not in ledge_tiles and (nx, ny) in ledge_tiles and dy == 1:\n                    jump_to = (nx, ny + 1)\n                    if 1 <= jump_to[1] <= height and jump_to not in impassable_tiles:\n                        neighbors.append((jump_to, 1))\n        return neighbors\n\n    open_set = [(0, start_node)]\n    came_from = {}\n    g_score = {start_node: 0}\n    f_score = {start_node: abs(start_node[0] - end_node[0]) + abs(start_node[1] - end_node[1])}\n\n    while open_set:\n        _, current = heapq.heappop(open_set)\n\n        if current == end_node:\n            path = []\n            while current in came_from:\n                path.append({'x': current[0], 'y': current[1]})\n                current = came_from[current]\n            path.append({'x': start_node[0], 'y': start_node[1]})\n            return path[::-1]\n\n        for neighbor, weight in get_neighbors(current[0], current[1]):\n            tentative_g_score = g_score.get(current, float('inf')) + weight\n            if tentative_g_score < g_score.get(neighbor, float('inf')):\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g_score\n                f_score[neighbor] = tentative_g_score + abs(neighbor[0] - end_node[0]) + abs(neighbor[1] - end_node[1])\n                if neighbor not in [i[1] for i in open_set]:\n                    heapq.heappush(open_set, (f_score[neighbor], neighbor))\n    return []\n\npath_result = pathfinder(input_data)\nprint(json.dumps(path_result))\n"
+  },
   "wkg_updater": {
     "description": "Prepares the JSON payload for `manage_world_knowledge`. It verifies if a node or edge already exists and, if not, prints the exact JSON string needed to call the `manage_world_knowledge` tool. Now supports adding `tags` to nodes and `destination_entry_point` for warp edges, preventing duplicates and ensuring graph integrity. It also provides existing node IDs if found.",
     "input_schema": {
@@ -62,32 +89,5 @@
       ]
     },
     "python_script": "import json\n\ndef find_node_by_coords(graph, map_id, x, y):\n    for node in graph.get('nodes', []):\n        if str(node.get('map_id')) == str(map_id) and node['coordinates']['x'] == x and node['coordinates']['y'] == y:\n            return node\n    return None\n\ndef find_edge(graph, source_id, dest_id):\n    for edge in graph.get('edges', []):\n        if (edge['source_node_id'] == source_id and edge['destination_node_id'] == dest_id) or \\\n           (edge['source_node_id'] == dest_id and edge['destination_node_id'] == source_id and not edge.get('is_one_way')):\n            return edge\n    return None\n\noperation = input_data['operation']\ngraph = json.loads(world_knowledge_graph_json_string)\n\nif operation == 'prepare_add_node':\n    map_id = input_data['map_id']\n    x = int(input_data['x'])\n    y = int(input_data['y'])\n    name = input_data['name']\n    node_type = input_data.get('type', '')\n    tags_str = input_data.get('tags', '[]')\n    tags = json.loads(tags_str) if isinstance(tags_str, str) else tags_str\n\n    existing_node = find_node_by_coords(graph, map_id, x, y)\n    if existing_node:\n        print(json.dumps({'action': 'do_nothing', 'reason': 'Node already exists.', 'node_id': existing_node['id']}))\n    else:\n        payload = {'map_id': map_id, 'name': name, 'coordinates': {'x': x, 'y': y}, 'type': node_type, 'tags': tags}\n        print(json.dumps({'action': 'call_tool', 'tool_name': 'manage_world_knowledge', 'tool_action': 'add_node', 'payload': json.dumps(payload)}))\n\nelif operation == 'prepare_add_edge':\n    source_map_id = input_data['source_map_id']\n    source_x = int(input_data['source_x'])\n    source_y = int(input_data['source_y'])\n    dest_map_id = input_data['dest_map_id']\n    dest_x = int(input_data['dest_x'])\n    dest_y = int(input_data['dest_y'])\n    connection_type = input_data['connection_type']\n    is_one_way = input_data.get('is_one_way', 'false').lower() == 'true'\n    dest_entry_point = input_data.get('destination_entry_point')\n    \n    source_node = find_node_by_coords(graph, source_map_id, source_x, source_y)\n    dest_node = find_node_by_coords(graph, dest_map_id, dest_x, dest_y)\n\n    if not source_node:\n        print(json.dumps({'action': 'error', 'reason': f'Source node at ({source_x},{source_y}) on map {source_map_id} not found.'}))\n    elif not dest_node:\n        print(json.dumps({'action': 'error', 'reason': f'Destination node at ({dest_x},{dest_y}) on map {dest_map_id} not found.'}))\n    else:\n        existing_edge = find_edge(graph, source_node['id'], dest_node['id'])\n        if existing_edge:\n            print(json.dumps({'action': 'do_nothing', 'reason': 'Edge already exists.', 'edge_id': existing_edge['id']}))\n        else:\n            payload = {\n                'source_node_id': source_node['id'],\n                'destination_node_id': dest_node['id'],\n                'connection_type': connection_type,\n                'source_coordinates': {'x': source_x, 'y': source_y, 'map_id': source_map_id},\n                'destination_coordinates': {'x': dest_x, 'y': dest_y, 'map_id': dest_map_id},\n                'is_one_way': is_one_way\n            }\n            if dest_entry_point is not None and connection_type == 'warp':\n                payload['destination_entry_point'] = int(dest_entry_point)\n\n            print(json.dumps({'action': 'call_tool', 'tool_name': 'manage_world_knowledge', 'tool_action': 'add_edge', 'payload': json.dumps(payload)}))\nelse:\n    print(json.dumps({'action': 'error', 'reason': 'Invalid operation.'}))"
-  },
-  "pathfinder": {
-    "description": "Calculates the shortest path between two points on the current map using the A* algorithm. It correctly handles impassable tiles, objects, NPCs, and one-way ledges. Returns a list of coordinates for the path.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import heapq\nimport xml.etree.ElementTree as ET\nimport json\n\ndef pathfinder(input_data):\n    map_xml = ET.fromstring(map_xml_string)\n    width = int(map_xml.get('width'))\n    height = int(map_xml.get('height'))\n    \n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    \n    start_node = (start_x, start_y)\n    end_node = (end_x, end_y)\n\n    impassable_tiles = set()\n    ledge_tiles = set()\n\n    for row_elem in map_xml.findall('Row'):\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            y = int(row_elem.get('id'))\n            tile_type = tile_elem.get('type')\n            \n            is_impassable = tile_type in ['impassable', 'unknown', 'water', 'boulder_barrier'] or tile_elem.find('Object') is not None\n            \n            if tile_elem.find('Object') is not None:\n                obj = tile_elem.find('Object')\n                if obj.get('id-name') == 'pikachu_sprite':\n                    is_impassable = False\n\n            if is_impassable:\n                impassable_tiles.add((x, y))\n            elif tile_type == 'ledge':\n                ledge_tiles.add((x, y))\n\n    def get_neighbors(x, y):\n        neighbors = []\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if 1 <= nx <= width and 1 <= ny <= height:\n                # Standard move\n                if (x, y) not in ledge_tiles and (nx, ny) not in impassable_tiles:\n                    neighbors.append(((nx, ny), 1))\n                # Ledge jump\n                elif (x, y) not in ledge_tiles and (nx, ny) in ledge_tiles and dy == 1:\n                    jump_to = (nx, ny + 1)\n                    if 1 <= jump_to[1] <= height and jump_to not in impassable_tiles:\n                        neighbors.append((jump_to, 1))\n        return neighbors\n\n    open_set = [(0, start_node)]\n    came_from = {}\n    g_score = {start_node: 0}\n    f_score = {start_node: abs(start_node[0] - end_node[0]) + abs(start_node[1] - end_node[1])}\n\n    while open_set:\n        _, current = heapq.heappop(open_set)\n\n        if current == end_node:\n            path = []\n            while current in came_from:\n                path.append({'x': current[0], 'y': current[1]})\n                current = came_from[current]\n            path.append({'x': start_node[0], 'y': start_node[1]})\n            return path[::-1]\n\n        for neighbor, weight in get_neighbors(current[0], current[1]):\n            tentative_g_score = g_score.get(current, float('inf')) + weight\n            if tentative_g_score < g_score.get(neighbor, float('inf')):\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g_score\n                f_score[neighbor] = tentative_g_score + abs(neighbor[0] - end_node[0]) + abs(neighbor[1] - end_node[1])\n                if neighbor not in [i[1] for i in open_set]:\n                    heapq.heappush(open_set, (f_score[neighbor], neighbor))\n    return []\n\npath_result = pathfinder(input_data)\nprint(json.dumps(path_result))\n"
   }
 }
