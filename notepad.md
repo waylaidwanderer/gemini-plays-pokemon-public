@@ -55,3 +55,4 @@
 - Failed Hypothesis: The grunt at (31, 9) is passable. Result: False, he is a solid obstacle.
 - New Hypothesis (from quest_strategist): Kurt is somewhere near the well entrance. I need to find him and talk to him.
 - New Hypothesis (from quest_strategist): Kurt is somewhere near the well entrance. I need to find him and talk to him.
+- New Hypothesis (from quest_strategist): Kurt is somewhere near the well entrance. I need to find him and talk to him.
