@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v42325)
+## I. Core Protocols & Immediate Actions (v42533)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
 - **CRITICAL: WKG Protocol (v22 - Agent-Assisted):** My manual WKG management has been error-prone. I will use the `wkg_manager_agent` to handle node/edge verification and creation to prevent future errors.
 - **CRITICAL: Map Marker Protocol (v11):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
@@ -30,12 +30,7 @@
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as an impassable wall when approached from above. (Discovered on Route 19 at (6, 9)).
 - **Summer Beach House Trap:** The house on Route 19 at (6, 10) is a one-way trap. The entrance warp is one-way, and Fly cannot be used to escape. The intended solution is to walk *through* Pikachu to reach the southern exit warp.
-
-### E. Investigation & Hypothesis Log
-- **Current Plan:** Systematically explore the Safari Zone to find the 'SECRET HOUSE' (likely containing HM SURF) and the Warden's lost GOLD TEETH. The GOLD TEETH are confirmed to be in the Safari Zone West area.
-
-### F. Defeated Bosses Log
-- **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR), TENTACRUEL (Lv. 41, knows SURF, ICE BEAM), VENOMOTH (Lv. 43, knows PSYCHIC)
+- **Elevation Traversal:** Movement between `ground` and `elevated_ground` tiles is only possible via `steps` tiles. Direct movement between them is blocked.
 
 ## III. System & Tool Development
 ### A. Tool Debugging & Refinement Protocol (v13 - IMMEDIATE ACTION)
@@ -48,8 +43,13 @@
 ### B. Future Development Ideas
 - **Global Navigator Agent:** An agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
 - **Advanced Exploration Agent:** An agent that integrates pathfinding logic to evaluate the 'explorability' of a cluster of unseen tiles, rather than just proximity, to create more efficient exploration plans.
+- **Path Debugger Agent:** An agent to automate the process of analyzing a failed `pathfinder` attempt. It would take the start/end coordinates and automatically perform the `came_from` and boundary analysis I currently do manually with `run_code`.
 
-## V. Safari Zone Mechanics Testing (T41962)
+## IV. Investigation & Hypothesis Log
+- **Current Plan:** Systematically explore the Safari Zone to find the 'SECRET HOUSE' (likely containing HM SURF) and the Warden's lost GOLD TEETH. The GOLD TEETH are confirmed to be in the Safari Zone West area.
+- **Hypothesis:** Not all warps on the same map are reachable from a single contiguous area. Some maps are segmented. (To be tested by attempting to reach the southeastern warps in Safari Zone West after acquiring SURF).
+
+### E. Safari Zone Mechanics Testing (T41962)
 - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
 - **Test Plan:** For future identical encounters, I will test different action sequences to observe their effects on catch and flee rates.
   1.  **Control:** Throw only Safari Balls.
@@ -57,9 +57,13 @@
   3.  **Rock Strategy:** Throw Rock, then throw Safari Balls.
 - I will log the results to build a reliable strategy.
 
+## V. Defeated Bosses Log
+- **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR), TENTACRUEL (Lv. 41, knows SURF, ICE BEAM), VENOMOTH (Lv. 43, knows PSYCHIC)
+
 ## VI. Tool Usage Notes
 - **`select_battle_option` Tool Scope:** This tool is only for the standard battle menu (FIGHT, PKMN, ITEM, RUN). It **does not work** for the Safari Zone battle menu (BALL, BAIT, THROW ROCK, RUN).
-- Safari Zone Item/Time Hint: A Scientist in the North Rest House mentioned that you can keep items found on the ground, but you'll run out of time if you try to get them all at once.
-- **Safari Zone Secret House Hint:** A Safari Zone Worker in the North Rest House said, "Go to the deepest part of the SAFARI ZONE. You will win a prize!" This is likely where the Secret House and HM SURF are located.
 - **PC Box Full Mechanic (v2):** After catching TITANESS, the active PC box is full again. Must remember to manually change the active box at a Pokémon Center before attempting to catch more Pokémon.
-- **Elevation Traversal:** Movement between `ground` and `elevated_ground` tiles is only possible via `steps` tiles. Direct movement between them is blocked.
+
+## VII. Protocol Adherence Log (T42533)
+- **WKG Management:** I have repeatedly failed to document map transitions immediately and correctly in a single turn. My new protocol is to add all nodes and the connecting edge for a transition in the *same turn* it is discovered. I will not defer any part of this process.
+- **Agent Trust:** I must trust my agents' outputs unless proven wrong by direct testing. I will not second-guess them without evidence.
