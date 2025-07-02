@@ -51,3 +51,4 @@
 
 ## V. Defeated Bosses Log
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR), TENTACRUEL (Lv. 41, knows SURF, ICE BEAM), VENOMOTH (Lv. 43, knows PSYCHIC)
+- **Type Matchups (Battle Observation):** Electric is NOT-VERY-EFFECTIVE against Grass (SPARKY's THUNDERBOLT vs. TANGELA).
