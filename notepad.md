@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v42572)
+## I. Core Protocols & Immediate Actions (v42638)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
 - **CRITICAL: WKG Protocol (v23 - Agent-Assisted, Single-Turn):** My manual WKG management has been error-prone. I will use the `wkg_manager_agent` to handle node/edge verification and creation. I will add all nodes and the connecting edge for a transition in the *same turn* it is discovered. I will not defer any part of this process.
 - **CRITICAL: Map Marker Protocol (v11):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
@@ -26,7 +26,7 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 
 ### C. Map Mechanics Discoveries
-- **Map Segmentation:** Maps can be divided into isolated, non-contiguous segments. My `pathfinder` tool cannot navigate between these segments. Progress requires using intra-map warps to travel between them.
+- **Map Segmentation:** Maps can be divided into isolated, non-contiguous segments. My `pathfinder` tool cannot navigate between these segments. Progress requires using intra-map warps to travel between them. (Confirmed for Safari Zone West & Center).
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Silph Co. 9F at (12, 2), Safari Zone East at (17, 23), and Fuchsia Gym.
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as an impassable wall when approached from above. (Discovered on Route 19 at (6, 9)).
@@ -42,16 +42,13 @@
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
 ## IV. Investigation & Hypothesis Log
-- **Current Plan:** I have acquired both the GOLD TEETH and HM03 SURF. My new primary goal is to defeat Erika in Celadon City. My secondary goal is to return the GOLD TEETH to the Warden in Fuchsia City. My tertiary goal is to explore new areas with SURF. Before leaving the Safari Zone, I must explore the remaining two unseen tiles on this map.
-- **Hypothesis:** Not all warps on the same map are reachable from a single contiguous area. Some maps are segmented. (Confirmed for Safari Zone West).
-
-### E. Safari Zone Mechanics Testing (T41962)
-- **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
-- **Test Plan:** For future identical encounters, I will test different action sequences to observe their effects on catch and flee rates.
-  1.  **Control:** Throw only Safari Balls.
-  2.  **Bait Strategy:** Throw Bait, then throw Safari Balls.
-  3.  **Rock Strategy:** Throw Rock, then throw Safari Balls.
-- I will log the results to build a reliable strategy.
+- **Current Safari Zone Plan:** I must fully explore the Safari Zone before leaving. The maps are segmented, so I need to use the various warps to navigate between areas. My current hypothesis is that I can loop through East -> North -> West to eventually find the main area of the Center and the GOLD TEETH.
+- **Safari Zone Mechanics Testing (T41962):**
+  - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
+  - **Test Plan:** For future identical encounters, I will test different action sequences to observe their effects on catch and flee rates.
+    1.  **Control:** Throw only Safari Balls.
+    2.  **Bait Strategy:** Throw Bait, then throw Safari Balls.
+    3.  **Rock Strategy:** Throw Rock, then throw Safari Balls.
 
 ## V. Defeated Bosses Log
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR), TENTACRUEL (Lv. 41, knows SURF, ICE BEAM), VENOMOTH (Lv. 43, knows PSYCHIC)
@@ -59,9 +56,3 @@
 ## VI. Tool Usage Notes
 - **`select_battle_option` Tool Scope:** This tool is only for the standard battle menu (FIGHT, PKMN, ITEM, RUN). It **does not work** for the Safari Zone battle menu (BALL, BAIT, THROW ROCK, RUN).
 - **PC Box Full Mechanic (v2):** After catching TITANESS, the active PC box is full again. Must remember to manually change the active box at a Pokémon Center before attempting to catch more Pokémon.
-
-## VII. Protocol Adherence Log (T42572)
-- **WKG Management:** I have repeatedly failed to document map transitions immediately and correctly in a single turn. My new protocol is to add all nodes and the connecting edge for a transition in the *same turn* it is discovered. I will not defer any part of this process.
-- **Agent Trust:** I must trust my agents' outputs unless proven wrong by direct testing. I will not second-guess them without evidence.
-- **Agent vs. Tool Usage:** My `exploration_strategist_agent` was a misuse of an agent for a computational task. It has been deleted. Future development of exploration or debugging aids must be implemented as custom tools, not agents.
-- **`pathfinder` Tool Limitation:** My BFS pathfinder cannot navigate across segmented maps that require intra-map warps. If it fails to find a path to a confirmed reachable tile, I must assume the map is segmented and manually explore each section via its connecting warps.
