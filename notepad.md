@@ -10,50 +10,39 @@
 - Flying is super effective against Fighting.
 
 ## II. Mechanics & Learnings
+
 ### Object Interaction
 - **General Rule:** All map objects (NPCs, items, signs) act as walls and are impassable.
-- **Defeated Trainers:** Passability is inconsistent and must be tested individually.
-    - Hiker Daniel at (4, 6) in Union Cave is PASSABLE.
-    - POKéMANIAC LARRY at (4, 21) in Union Cave is IMPASSABLE.
-    - Firebreather Bill at (14, 16) in Union Cave is PASSABLE.
-    - Hiker Anthony at (6, 13) on Route 33 is PASSABLE.
+- **Defeated Trainers:** Passability is inconsistent. Hiker Daniel & Anthony are passable; POKéMANIAC LARRY is impassable.
 
 ### Tile Traversal Rules (Verified)
-- **WALL:** Impassable.
-- **FLOOR:** Traversable.
-- **TALL_GRASS / LONG_GRASS:** Traversable, triggers wild encounters.
-- **COUNTER:** Impassable.
-- **DOOR/CAVE/LADDER:** Warp tile. `CAVE` is a type of warp.
-- **MART_SHELF/BOOKSHELF/TV/RADIO/PC/TOWN_MAP/WINDOW/PAINTING/STATUE/PILLAR:** Impassable scenery.
-- **WARP_CARPET_DIRECTION** (e.g., _DOWN, _RIGHT): Warp tile. To activate, move *onto* the tile from the direction indicated in its name (e.g., move Left to enter a WARP_CARPET_RIGHT tile).
-- **VOID:** Impassable.
-- **CUT_TREE:** Impassable without CUT.
-- **WATER:** Impassable without SURF.
-- **HEADBUTT_TREE:** Impassable.
+- **WALL, COUNTER, VOID, etc.:** Impassable scenery.
+- **FLOOR, GRASS:** Traversable.
+- **DOOR/CAVE/LADDER:** Warp tile.
+- **CUT_TREE/WATER:** Impassable without HM.
+- **WARP_CARPET_DIRECTION:** Enter from the direction in the name (e.g., move Left for WARP_CARPET_RIGHT).
+- **LEDGE / FLOOR_ALLOW_HOP_DOWN:** One-way downward traversal. Horizontal movement is permitted.
+- **FLOOR_UP_WALL:** Complex one-way tile. Can be moved onto from below (Up), but not off of by going Up or Down. Sideways movement is permitted.
 
-### One-Way Traversal (Verified)
-- **LEDGE / FLOOR_ALLOW_HOP_DOWN:** One-way downward traversal. Horizontal movement (left/right) is permitted.
-- **FLOOR_ALLOW_HOP_LEFT:** One-way traversal to the left.
-- **FLOOR_ALLOW_HOP_RIGHT:** One-way traversal to the right.
-- **FLOOR_ALLOW_HOP_DOWN_OR_RIGHT:** One-way traversal down or right.
-- **FLOOR_UP_WALL:** Complex one-way tile. Verified in Union Cave. Can be moved onto from below (by pressing Up). Cannot be moved off of by going Up or Down. Sideways movement (left/right) on and off the tile is permitted.
+### Navigational Learnings
+- **Azalea Town Layout:** The town is split by a line of impassable ledges. To get from the southern section to the northern section, one must travel all the way east, loop around north, and then head west.
 
 ### Core Mechanic Learnings
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 - HM moves cannot be forgotten once taught.
-- Adjacent traversable tiles (e.g. FLOOR) are not guaranteed to be connected. Movement must be verified empirically.
 
-## III. Current Plans
+## III. Quest Progression: Slowpoke Well
 
-### Investigate Slowpoke Well
-1. Navigate to the Slowpoke Well entrance at (31, 7) in Azalea Town.
-2. Enter the well and uncover Team Rocket's plot.
-3. Defeat Team Rocket to restore access to the Azalea Gym.
+### Failed Hypotheses Log:
+1.  **Hypothesis:** The Rocket Grunt at the well isn't blocking the entrance. **Result:** False. My pathfinder confirmed the entrance at (31, 7) is unreachable while the grunt is at (31, 9).
+2.  **Hypothesis:** Leaving and re-entering Azalea Town will move the grunt. **Result:** False. The grunt's position did not change.
+3.  **Hypothesis:** A second conversation with Kurt after he initially leaves his house is the trigger. **Result:** False. Kurt's dialogue was unchanged.
+4.  **Hypothesis:** The trigger is talking to the grunt, then immediately talking to Kurt. **Result:** False. Kurt's dialogue did not change, and he did not move.
+5.  **Hypothesis:** The trigger is talking to Kurt *first*, before the grunt. **Result:** False. Kurt's dialogue was unchanged.
+6.  **Hypothesis:** Interacting with the Rocket Grunt at the Gym is the trigger. **Result:** Partial success. He mentioned SLOWPOKETAIL, providing a new clue.
+
+### Current Plan:
+- **Active Hypothesis:** Now that I have the SLOWPOKETAIL clue from the gym grunt, talking to Kurt will finally trigger him to take action.
 
 ## IV. Tool Development
 - **DELETED:** The `path_finder` tool was fundamentally flawed. It did not account for all movement restrictions and repeatedly led to dead ends. It has been deleted to prevent further errors.
-
-## Slowpoke Well Investigation (Re-evaluation)
-- **Failed Hypothesis 1:** Talking to Kurt a second time after he leaves his house. (Result: No new dialogue).
-- **Failed Hypothesis 2:** Leaving and re-entering Azalea Town. (Result: Rocket Grunt did not move).
-- **Current Hypothesis:** The event to move the Rocket Grunt has already occurred after I spoke to Kurt and then left his house. I must now go to the well entrance myself to confirm.
