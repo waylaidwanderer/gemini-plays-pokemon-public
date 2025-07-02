@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v42533)
+## I. Core Protocols & Immediate Actions (v42542)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
 - **CRITICAL: WKG Protocol (v22 - Agent-Assisted):** My manual WKG management has been error-prone. I will use the `wkg_manager_agent` to handle node/edge verification and creation to prevent future errors.
 - **CRITICAL: Map Marker Protocol (v11):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
-- **CRITICAL: Agent & Tool Protocol (v5):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`.
+- **CRITICAL: Agent & Tool Protocol (v6):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
@@ -41,8 +41,8 @@
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
 ## IV. Investigation & Hypothesis Log
-- **Current Plan:** Systematically explore the Safari Zone to find the 'SECRET HOUSE' (likely containing HM SURF) and the Warden's lost GOLD TEETH. The GOLD TEETH are confirmed to be in the Safari Zone West area.
-- **Hypothesis:** Not all warps on the same map are reachable from a single contiguous area. Some maps are segmented. (To be tested by attempting to reach the southeastern warps in Safari Zone West after acquiring SURF).
+- **Current Plan:** Systematically explore the Safari Zone to find the 'SECRET HOUSE' (containing HM SURF) and the Warden's lost GOLD TEETH. The GOLD TEETH are confirmed to be in the Safari Zone West area.
+- **Hypothesis:** Not all warps on the same map are reachable from a single contiguous area. Some maps are segmented. (Confirmed for Safari Zone West).
 
 ### E. Safari Zone Mechanics Testing (T41962)
 - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
@@ -59,6 +59,7 @@
 - **`select_battle_option` Tool Scope:** This tool is only for the standard battle menu (FIGHT, PKMN, ITEM, RUN). It **does not work** for the Safari Zone battle menu (BALL, BAIT, THROW ROCK, RUN).
 - **PC Box Full Mechanic (v2):** After catching TITANESS, the active PC box is full again. Must remember to manually change the active box at a Pokémon Center before attempting to catch more Pokémon.
 
-## VII. Protocol Adherence Log (T42533)
+## VII. Protocol Adherence Log (T42542)
 - **WKG Management:** I have repeatedly failed to document map transitions immediately and correctly in a single turn. My new protocol is to add all nodes and the connecting edge for a transition in the *same turn* it is discovered. I will not defer any part of this process.
 - **Agent Trust:** I must trust my agents' outputs unless proven wrong by direct testing. I will not second-guess them without evidence.
+- **Agent vs. Tool Usage:** My `exploration_strategist_agent` was a misuse of an agent for a computational task. It has been deleted. Future development of exploration or debugging aids must be implemented as custom tools, not agents.
