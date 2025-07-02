@@ -51,4 +51,6 @@
 ### Quest Progression - Azalea Town (Update)
 - My `path_finder_plus` tool confirmed that there is no path to the Slowpoke Well entrance at (31, 7).
 - The path is blocked by the Rocket Grunt at (31, 9). This is a quest-based obstacle, not a navigation error.
-- New Hypothesis: I must interact with the Rocket Grunt at (31, 9) again now that Kurt has left his house to trigger the next step.
+- Failed Hypothesis: Interacting with the Rocket Grunt at (31, 9) again after Kurt left would be the trigger. Result: False, he only delivered dialogue.
+- Failed Hypothesis: The grunt at (31, 9) is passable. Result: False, he is a solid obstacle.
+- New Hypothesis (from quest_strategist): Kurt is somewhere near the well entrance. I need to find him and talk to him.
