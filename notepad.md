@@ -18,7 +18,7 @@
 ### Tile Traversal Rules
 - **Verified Impassable:** WALL, COUNTER, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, HEADBUTT_TREE.
 - **Verified Traversable:** FLOOR, GRASS.
-- **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DIRECTION (enter from direction in name).
+- **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (enter from direction in name).
 - **Verified One-Way:**
     - LEDGE / FLOOR_ALLOW_HOP_DOWN: One-way downward traversal. Horizontal movement is permitted.
     - FLOOR_UP_WALL: Complex one-way tile. Can be moved onto from below (Up), but not off of by going Up or Down. Sideways movement is permitted.
@@ -39,11 +39,7 @@
 4.  **Hypothesis:** The trigger is talking to the grunt, then immediately talking to Kurt. **Result:** False. Kurt's dialogue did not change, and he did not move.
 5.  **Hypothesis:** The trigger is talking to Kurt *first*, before the grunt. **Result:** False. Kurt's dialogue was unchanged.
 6.  **Hypothesis:** Interacting with the Rocket Grunt at the Gym is the trigger. **Result:** Partial success. He mentioned SLOWPOKETAIL, providing a new clue.
-
 7.  **Hypothesis:** The SLOWPOKETAIL clue from the gym grunt would trigger Kurt to take action. **Result:** False. Kurt gave a cryptic message about the "forest's protector" and refused to leave.
 
 ### Current Plan:
 - **Active Hypothesis:** The key to progressing the story is in Ilex Forest, related to the "forest's protector" mentioned by Kurt and the Granny in the gatehouse. This is likely the Farfetch'd. I need to return to Ilex Forest and solve the puzzle there, which will probably lead to getting the HM01 CUT.
-
-- **BOOKSHELF, TV, TOWN_MAP, WINDOW:** Verified impassable.
-- RADIO: Verified interactable (gives Lucky Number), but impassable scenery.
