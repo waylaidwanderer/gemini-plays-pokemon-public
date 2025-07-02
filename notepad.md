@@ -21,9 +21,9 @@
 - **Primary Hypothesis:** The key to progressing is in Ilex Forest. An NPC in Azalea mentioned a 'Charcoal Man' whose Pokémon can use CUT. This is the only remaining lead after being blocked at the Slowpoke Well.
 - **Plan:** Explore Ilex Forest to find the Charcoal Man and his lost Farfetch'd.
 
-### Blocked Path: Slowpoke Well (Investigation Complete)
-- **Status:** The path to the well is blocked by a Rocket Grunt at (31, 9) who will not move.
-- **Conclusion:** This path is currently blocked by a story event. Progress must be made elsewhere first, likely in Ilex Forest. All hypotheses related to moving this grunt have been exhausted and proven false.
+### Objective: Investigate Slowpoke Well
+- **Status:** Kurt has gone to the Slowpoke Well to confront Team Rocket. This is the main story objective.
+- **Previous Hypothesis (Incorrect):** The path was blocked by a Rocket Grunt. The correct trigger was speaking to Kurt in his house, which caused him to go to the well and clear the path.
 
 ### Pathfinder Bug
 - **Issue:** The `path_finder_plus` tool incorrectly reported no path available when a path around an on-screen NPC was possible. 
