@@ -25,7 +25,7 @@
 - **Status:** The western part of Ilex Forest is blocked by a tree that requires CUT. I will return here after obtaining the HM.
 
 ## III. Strategy & Planning
-- The `area_explorer` tool is fundamentally broken. I will not rely on it. Future complex pathfinding will be done manually or with `run_code` for isolated logic tests.
+- The `area_explorer` tool has been fixed and is now reliable. I have also created a `farfetchd_herder` agent to help with the herding puzzle.
 - I must be more diligent about immediate data management (notepad, markers, world graph) to avoid cascading errors.
 
 ### Puzzles
