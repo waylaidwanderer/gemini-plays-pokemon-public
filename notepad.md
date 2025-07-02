@@ -69,3 +69,4 @@
 
 ## VI. Tool Usage Notes
 - **`select_battle_option` Tool Scope:** This tool is only for the standard battle menu (FIGHT, PKMN, ITEM, RUN). It **does not work** for the Safari Zone battle menu (BALL, BAIT, THROW ROCK, RUN).
+- Safari Zone Item/Time Hint: A Scientist in the North Rest House mentioned that you can keep items found on the ground, but you'll run out of time if you try to get them all at once.
