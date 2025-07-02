@@ -46,3 +46,6 @@
     1. The tool hardcodes the Farfetch'd's starting position and does not search for it.
     2. The movement logic is based on a failed hypothesis and is incorrect.
 - **Next Steps:** Must understand the puzzle mechanics through experimentation before attempting to fix this tool again.
+
+- **Hypothesis 3 (H3) - NEW:** The Farfetch'd moves in the direction the player is facing when they step on a twig. 
+  - **Plan:** Locate the Farfetch'd, find a new twig, and test this by facing a specific direction before stepping on the twig.
