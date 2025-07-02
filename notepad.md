@@ -9,9 +9,6 @@
 - **Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN, WARP_CARPET_RIGHT, WARP_CARPET_LEFT.
 - **One-Way Down:** LEDGE / FLOOR_ALLOW_HOP_DOWN (Horizontal movement needs to be tested).
 - **Complex One-Way:** FLOOR_UP_WALL (Can be entered from below, but not exited up or down. Sideways movement is permitted).
-- **One-Way Down:** LEDGE / FLOOR_ALLOW_HOP_DOWN (Horizontal movement needs to be tested).
-- **Complex One-Way:** FLOOR_UP_WALL (Can be entered from below, but not exited up or down. Sideways movement is permitted).
-
 ### Key Learnings
 - HMs must be used from the PACK menu.
 - HM moves are permanent.
