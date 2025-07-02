@@ -27,8 +27,8 @@
 ## III. Technical Notes
 
 ### Pathfinder Bug
-- **Issue:** The `path_finder_plus` tool incorrectly reported no path available when a path around an on-screen NPC was possible. 
-- **Status:** Tool has been updated with better debugging, but the core logic flaw may still exist. Needs to be monitored.
+- **Issue:** The `path_finder_plus` tool has a recurring bug where it fails to correctly path around NPCs, especially when the destination is adjacent to the NPC. It sometimes generates paths that lead directly into the obstacle.
+- **Status:** This is a persistent logic flaw. The tool should be used with caution in areas with many NPCs. Manual pathing is preferred for short distances around obstacles.
 
 ## IV. Future Experiments
 - Test horizontal movement on LEDGE tiles.
