@@ -3,7 +3,7 @@
 ## I. Game Mechanics & Systems
 
 ### Tile Traversal Rules (Verified)
-- **Impassable:** WALL, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, PC, COUNTER, HEADBUTT_TREE.
+- **Impassable:** WALL, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, HEADBUTT_TREE, PC, COUNTER.
 - **Traversable:** FLOOR, GRASS.
 - **Warps:** DOOR, CAVE, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
 - **Directional Warps:** WARP_CARPET_LEFT (Must be entered by moving left onto the tile).
@@ -18,16 +18,13 @@
 ## II. Quest Progression
 
 ### Current Objective: Obtain HM01 (Cut)
-- **Hypothesis:** The key to progressing is in Ilex Forest. An NPC in Azalea mentioned a 'Charcoal Man' whose Pokémon can use CUT. This is the only remaining lead after being blocked at the Slowpoke Well.
-- **Plan:** Enter Ilex Forest and search for the Charcoal Man and his Farfetch'd.
+- **Primary Hypothesis:** The key to progressing is in Ilex Forest. An NPC in Azalea mentioned a 'Charcoal Man' whose Pokémon can use CUT. This is the only remaining lead after being blocked at the Slowpoke Well.
+- **Plan:** Explore Ilex Forest to find the Charcoal Man and his lost Farfetch'd.
 
-### Blocked Path: Slowpoke Well
+### Blocked Path: Slowpoke Well (Investigation Complete)
 - **Status:** The path to the well is blocked by a Rocket Grunt at (31, 9) who will not move.
-- **Summary of Failed Attempts:**
-  1. Talking to the grunt repeatedly.
-  2. Triggering the Kurt event and returning (grunt does not move).
-  3. Leaving and re-entering Azalea Town.
-  4. Entering and exiting a different building in town.
-  5. Searching for alternate entrances (none found).
-  6. Speaking to Kurt's apprentice after Kurt leaves (no new info).
-- **Conclusion:** The trigger for this event is not in Azalea Town itself. Progress must be made elsewhere first, likely in Ilex Forest.
+- **Conclusion:** This path is currently blocked by a story event. Progress must be made elsewhere first, likely in Ilex Forest. All hypotheses related to moving this grunt have been exhausted and proven false.
+
+### Pathfinder Bug
+- **Issue:** The `path_finder_plus` tool incorrectly reported no path available when a path around an on-screen NPC was possible. 
+- **Status:** Tool has been updated with better debugging, but the core logic flaw may still exist. Needs to be monitored.
