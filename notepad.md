@@ -40,3 +40,4 @@
 ### `farfetchd_herder`
 - **Status:** Updated and functional. Now correctly searches the map for the Farfetch'd object before attempting any herding logic.
 - **Complex Warps:** Some warps, like the 1x2 WARP_CARPET_RIGHT in Ilex Forest, may have special activation conditions (e.g., only one of the tiles is an exit).
+- **Impassable:** BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW.
