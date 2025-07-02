@@ -29,23 +29,12 @@
 - I must be more diligent about immediate data management (notepad, markers, world graph) to avoid cascading errors.
 
 ### Puzzles
-- **Ilex Forest Farfetch'd:** Ilex Forest Farfetch'd Puzzle:
-- Hypothesis: This is a sound-based *herding* puzzle. Stepping on twigs makes noise, causing the Farfetch'd to run in the opposite direction. The goal is to strategically make noise to guide it to its owner.
-- Failed Attempts (Total: 4):
-    1. Approaching (22, 29) from below and interacting with the tree at (23, 29).
-    2. Approaching (22, 29) from the left and interacting with the tree at (23, 29).
-    3. Approaching (22, 29) from the north without stepping on twigs. Did nothing.
-    4. Standing on (22, 29) and interacting with the tree at (23, 29). Did nothing.
-
-Successful Steps:
-    1. Stepped on twig at (22, 30), which scared the Farfetch'd from (22, 29) to (22, 27).
-    2. Stepped on twig at (23, 30), which scared the Farfetch'd from (22, 27).
-
-### Quest Strategist Hypotheses (Farfetch'd)
-- **1. Systematic Search:** Thoroughly search the *entire* maze area (west and east) for the Farfetch'd's new location.
-- **2. Find the Owner:** Locate the boy who owns the Farfetch'd and then plan a herding route to him.
-- **3. Get New Clues:** Talk to the owner again to see if he provides new information.
-- **4. Reset the Puzzle:** Leave Ilex Forest and return to see if the puzzle resets.
+- **Ilex Forest Farfetch'd Puzzle:**
+    - **Current Hypothesis:** This is a sound-based *herding* puzzle. Stepping on twigs makes noise, causing the Farfetch'd to run in the opposite direction, likely through impassable terrain like trees. The goal is to strategically make noise to guide it to its owner.
+    - **Successful Steps:**
+        1. Stepped on twig at (22, 30), scaring Farfetch'd from (22, 29) to (22, 27).
+        2. Stepped on twig at (23, 30), scaring Farfetch'd from (22, 27) to an unknown location (presumed northwest).
+    - **Failed Approach:** Systematic exploration of all walkable paths in the maze has confirmed they are all dead ends. The solution is not simple pathfinding.
 
 ### Reflection & New Hypotheses (Post-Dead-Ends)
 My systematic exploration revealed all paths in the maze are dead ends. This means my initial assumptions were wrong. New hypotheses to test:
