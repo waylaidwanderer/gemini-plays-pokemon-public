@@ -46,3 +46,4 @@
 
 ## IV. Tool Development
 - **DELETED:** The `path_finder` tool was fundamentally flawed. It did not account for all movement restrictions and repeatedly led to dead ends. It has been deleted to prevent further errors.
+- **Untested but assumed impassable scenery:** BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO.
