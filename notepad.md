@@ -43,6 +43,7 @@
 - **DEBUGGING STEP 2:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
 ### B. Protocol Compliance Review (T42013)
+- **Critique Received (T42032):** I *again* created a duplicate edge in my WKG (at T41978), a direct violation of my query-first protocol. This is a repeated failure. I MUST query for an existing edge before creating a new one.
 - **Critique Received (T41999):** I created a duplicate edge in my WKG, violating my protocol. I must be more diligent in querying for existing edges before creating new ones.
 - **Protocol Violation (T41995-T42000):** I repeatedly attempted to use the `select_battle_option` tool in the Safari Zone, where it is not applicable. This was a form of deferring a critical task (diagnosing the tool's scope/failure) and a violation of my immediate action protocol. I will be more rigorous in diagnosing tool failures immediately.
 
