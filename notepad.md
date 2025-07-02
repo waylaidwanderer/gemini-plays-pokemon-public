@@ -42,13 +42,9 @@
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
 ## IV. Investigation & Hypothesis Log
-- **Current Safari Zone Plan:** I must fully explore the Safari Zone before leaving. The maps are segmented, so I need to use the various warps to navigate between areas. My current hypothesis is that the remaining unseen tiles are on the eastern elevated platform in Safari Zone North, accessible via the steps at (23, 24).
+- **Current Safari Zone Plan:** I am looping through the Safari Zone areas (East -> North -> West) to explore all segmented sections and find the main part of the Center. My current focus is exploring the elevated platforms in Safari Zone North.
 - **Safari Zone Mechanics Testing (T41962):**
   - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
-  - **Test Plan:** For future identical encounters, I will test different action sequences to observe their effects on catch and flee rates.
-    1.  **Control:** Throw only Safari Balls.
-    2.  **Bait Strategy:** Throw Bait, then throw Safari Balls.
-    3.  **Rock Strategy:** Throw Rock, then throw Safari Balls.
 
 ## V. Defeated Bosses Log
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR), TENTACRUEL (Lv. 41, knows SURF, ICE BEAM), VENOMOTH (Lv. 43, knows PSYCHIC)
