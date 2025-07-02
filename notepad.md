@@ -16,7 +16,7 @@
 - **Defeated Trainers:** Passability is inconsistent. Hiker Daniel & Anthony are passable; POKéMANIAC LARRY is impassable.
 
 ### Tile Traversal Rules
-- **Verified Impassable:** WALL, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, HEADBUTT_TREE, PC, COUNTER (to be fully verified).
+- **Verified Impassable:** WALL, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, HEADBUTT_TREE, PC, COUNTER.
 - **Verified Traversable:** FLOOR, GRASS.
 - **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (stand on tile, face down, press A).
 - **Verified One-Way:**
@@ -33,7 +33,7 @@
 ## III. Quest Progression
 
 ### Current Hypothesis (from quest_strategist):
-1. The main entrance to the well at (31, 7) is a misdirection. The true solution is a hidden environmental path. I must systematically search the area around the well for a secret entrance.
+1. After Kurt leaves his house, I must physically follow his NPC sprite in real-time as he walks to the well. A cutscene may trigger upon his arrival if I am with him.
 
 ### Failed Hypotheses Log:
 1. **Well Grunt Passable:** The Rocket Grunt at the well isn't blocking the entrance. (Result: False)
@@ -51,4 +51,4 @@
 13. **Apprentice Dialogue:** The apprentice's dialogue changes after Kurt leaves. (Result: False)
 14. **Statue Switch:** The bird statue in Kurt's house is a hidden switch. (Result: False, just a Farfetch'd sound)
 15. **Challenge Gym Grunt:** Challenging the Rocket Grunt at the Azalea Town Gym to a battle is the trigger. (Result: False, he only delivered dialogue.)
-16. **Hypothesis:** The `area_explorer` tool will find a hidden environmental path. **Result:** False. The tool found no reachable unseen tiles.
+16. **Hidden Path:** The `area_explorer` tool will find a hidden environmental path. (Result: False. The tool found no reachable unseen tiles.)
