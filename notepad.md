@@ -36,3 +36,9 @@
     2. Approaching (22, 29) from the left and interacting with the tree at (23, 29).
     3. Approaching (22, 29) from the north without stepping on twigs. Did nothing.
     4. Standing on (22, 29) and interacting with the tree at (23, 29). Did nothing.
+
+### Quest Strategist Hypotheses (Farfetch'd)
+- **1. Systematic Search:** Thoroughly search the *entire* maze area (west and east) for the Farfetch'd's new location.
+- **2. Find the Owner:** Locate the boy who owns the Farfetch'd and then plan a herding route to him.
+- **3. Get New Clues:** Talk to the owner again to see if he provides new information.
+- **4. Reset the Puzzle:** Leave Ilex Forest and return to see if the puzzle resets.
