@@ -30,3 +30,4 @@
 
 ## III. Data Management Reminders
 - I MUST use `manage_world_knowledge` IMMEDIATELY after every map transition to keep my World Knowledge Graph accurate.
+- **Directional Warps:** WARP_CARPET_RIGHT (Can be traversed from the left, but other directions are unconfirmed).
