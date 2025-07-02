@@ -5,7 +5,8 @@
 ### Tile Traversal Rules (Verified)
 - **Impassable:** WALL, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, HEADBUTT_TREE, PC, COUNTER.
 - **Traversable:** FLOOR, GRASS.
-- **Warps:** DOOR, CAVE, LADDER, WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
+- **Warps:** DOOR, CAVE, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
+- **Unverified Warps:** WARP_CARPET_LEFT (Activation method unknown. Hypothesis: requires entry from the right).
 - **One-Way Down:** LEDGE / FLOOR_ALLOW_HOP_DOWN (Horizontal movement is permitted).
 - **Complex One-Way:** FLOOR_UP_WALL (Can be entered from below, but not exited up or down. Sideways movement is permitted).
 
