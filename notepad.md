@@ -2,32 +2,28 @@
 
 ## I. Game Mechanics & Systems
 
-### Tile Traversal Rules (Verified & In-Progress)
+### Tile Traversal Rules (Verified)
 - **Impassable:** WALL, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, HEADBUTT_TREE, PC, COUNTER, PILLAR.
 - **Traversable:** FLOOR, GRASS.
-- **Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN, WARP_CARPET_LEFT.
-- **One-Way Warps:** WARP_CARPET_RIGHT (Seems to be a one-way entrance from the Ilex Forest Gate. Cannot be used to return).
-- **One-Way Down:** LEDGE / FLOOR_ALLOW_HOP_DOWN (Horizontal movement needs to be tested).
-- **Complex One-Way:** FLOOR_UP_WALL (Can be entered from below, but not exited up or down. Sideways movement is permitted).
+- **Standard Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN, WARP_CARPET_LEFT.
+- **One-Way Exit Warps:** WARP_CARPET_RIGHT (Seems to be a one-way entrance from IlexForestAzaleaGate. Cannot be used to return).
+- **One-Way Down Ledges:** LEDGE, FLOOR_ALLOW_HOP_DOWN (Cannot be climbed up. Horizontal movement needs testing).
+- **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered from below, but not exited up or down. Sideways movement is permitted).
 
 ### Key Learnings
 - HMs must be used from the PACK menu.
 - HM moves are permanent.
 - All map objects (NPCs, items, signs) act as walls.
-- The `stun_npc` tool is essential for interacting with moving NPCs.
 
 ## II. Quest Progression
 
 ### Current Objective: Clear Team Rocket from Azalea Town
-- **Status:** I am currently stuck trying to get Kurt to help me deal with Team Rocket. The grunts at the Slowpoke Well and the Gym are blocking progress.
-- **Active Hypothesis (from `quest_strategist`):** The correct event sequence is: 
-  1. Talk to the Rocket Grunt at the Slowpoke Well (Complete).
-  2. Interact with the Farfetch'd statue in Kurt's house (Complete).
-  3. Talk to the apprentice in Kurt's house (In Progress).
-  4. Talk to Kurt.
+- **Status:** I am currently exploring Ilex Forest, which seems connected to the Farfetch'd quest needed to get the HM for CUT. This HM is required to advance past the tree blocking the path to the western part of the forest.
+- **Active Hypothesis:** I need to find the boy who ran off with the Farfetch'd. My main lead is the spot where a Youngster vanished at (22, 29).
 
-### Blocked Path: Ilex Forest
-- **Status:** The western part of Ilex Forest is blocked by a tree that requires CUT. I will return here after dealing with the Azalea Town situation.
+### Blocked Path: Ilex Forest West
+- **Status:** The western part of Ilex Forest is blocked by a tree that requires CUT. I will return here after obtaining the HM.
 
-## III. Data Management Reminders
-- I MUST use `manage_world_knowledge` IMMEDIATELY after every map transition to keep my World Knowledge Graph accurate.
+## III. Strategy & Planning
+- The `area_explorer` tool is fundamentally broken. I will not rely on it. Future complex pathfinding will be done manually or with `run_code` for isolated logic tests.
+- I must be more diligent about immediate data management (notepad, markers, world graph) to avoid cascading errors.
