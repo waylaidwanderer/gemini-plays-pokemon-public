@@ -18,7 +18,7 @@
 ### Tile Traversal Rules
 - **Verified Impassable:** WALL, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, HEADBUTT_TREE, PC, COUNTER (to be fully verified).
 - **Verified Traversable:** FLOOR, GRASS.
-- **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (enter from direction in name).
+- **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (stand on tile, face down, press A).
 - **Verified One-Way:**
     - LEDGE / FLOOR_ALLOW_HOP_DOWN: One-way downward traversal. Horizontal movement is permitted.
     - FLOOR_UP_WALL: Complex one-way tile. Can be moved onto from below (Up), but not off of by going Up or Down. Sideways movement is permitted.
@@ -32,28 +32,22 @@
 
 ## III. Quest Progression
 
-### Current Hypothesis:
-1.  I must challenge the Rocket Grunt at the Azalea Town Gym to a battle. This is the last remaining suggestion from my `quest_strategist`.
+### Current Hypothesis (from quest_strategist):
+1. The main entrance to the well at (31, 7) is a misdirection. The true solution is a hidden environmental path. I must systematically search the area around the well for a secret entrance.
 
 ### Failed Hypotheses Log:
-1.  **Well Grunt:** The Rocket Grunt at the well isn't blocking the entrance. (Result: False)
-2.  **Town Reset:** Leaving and re-entering Azalea Town will move the grunt. (Result: False)
-3.  **Kurt Dialogue:** A second conversation with Kurt after he leaves is the trigger. (Result: False)
-4.  **Dialogue Order:** Talking to the grunt, then immediately to Kurt, is the trigger. (Result: False)
-5.  **Dialogue Order:** Talking to Kurt *first*, before the grunt, is the trigger. (Result: False)
-6.  **Gym Grunt Dialogue:** Interacting with the Gym grunt is the trigger. (Result: Partial success, mentioned SLOWPOKETAIL)
-7.  **SLOWPOKETAIL Clue:** The SLOWPOKETAIL clue would trigger Kurt. (Result: False)
-8.  **Ilex Forest Puzzle:** The key is a herding puzzle in Ilex Forest. (Result: False)
-9.  **Ilex Forest Shrine:** The Ilex Forest Shrine is the trigger. (Result: False)
-10. **Well Grunt Passable:** The grunt at (31, 9) is passable. (Result: False)
+1. **Well Grunt Passable:** The Rocket Grunt at the well isn't blocking the entrance. (Result: False)
+2. **Town Reset:** Leaving and re-entering Azalea Town will move the grunt. (Result: False)
+3. **Kurt Dialogue:** A second conversation with Kurt after he leaves is the trigger. (Result: False)
+4. **Dialogue Order (Grunt then Kurt):** Talking to the grunt, then immediately to Kurt, is the trigger. (Result: False)
+5. **Dialogue Order (Kurt then Grunt):** Talking to Kurt *first*, before the grunt, is the trigger. (Result: False)
+6. **Gym Grunt Dialogue:** Interacting with the Gym grunt is the trigger. (Result: Partial success, mentioned SLOWPOKETAIL, but no progression.)
+7. **SLOWPOKETAIL Clue:** The SLOWPOKETAIL clue would trigger Kurt. (Result: False)
+8. **Ilex Forest Puzzle:** The key is a herding puzzle in Ilex Forest. (Result: False)
+9. **Ilex Forest Shrine:** The Ilex Forest Shrine is the trigger. (Result: False)
+10. **Well Grunt Passable (Physical):** I can walk through the grunt at (31, 9). (Result: False)
 11. **Post-Kurt Grunt Talk:** Talking to the well grunt after Kurt leaves is the trigger. (Result: False)
-12. **Find Kurt:** Kurt is somewhere near the well entrance. (Result: False, couldn't find him after a thorough search)
+12. **Find Kurt at Well:** Kurt is somewhere near the well entrance. (Result: False, couldn't find him after a thorough search)
 13. **Apprentice Dialogue:** The apprentice's dialogue changes after Kurt leaves. (Result: False)
 14. **Statue Switch:** The bird statue in Kurt's house is a hidden switch. (Result: False, just a Farfetch'd sound)
-
-### Quest Progression - Azalea Town (Summary)
-- The path to the Slowpoke Well is blocked by a Rocket Grunt at (31, 9). This is a quest obstacle.
-- All attempts to get past the grunt at the well have failed.
-- All attempts to find an alternative trigger in Kurt's house have failed.
-- My only remaining lead is to challenge the Rocket Grunt at the Azalea Town Gym.
 15. **Challenge Gym Grunt:** Challenging the Rocket Grunt at the Azalea Town Gym to a battle is the trigger. (Result: False, he only delivered dialogue.)
