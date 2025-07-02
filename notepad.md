@@ -37,6 +37,10 @@
     3. Approaching (22, 29) from the north without stepping on twigs. Did nothing.
     4. Standing on (22, 29) and interacting with the tree at (23, 29). Did nothing.
 
+Successful Steps:
+    1. Stepped on twig at (22, 30), which scared the Farfetch'd from (22, 29) to (22, 27).
+    2. Stepped on twig at (23, 30), which scared the Farfetch'd from (22, 27).
+
 ### Quest Strategist Hypotheses (Farfetch'd)
 - **1. Systematic Search:** Thoroughly search the *entire* maze area (west and east) for the Farfetch'd's new location.
 - **2. Find the Owner:** Locate the boy who owns the Farfetch'd and then plan a herding route to him.
