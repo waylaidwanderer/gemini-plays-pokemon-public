@@ -55,15 +55,7 @@
 - **DEBUGGING STEP 3:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
 ### B. Future Development Ideas
-- **Global Navigator Agent:** I could define an agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
-- **Advanced Exploration Agent:** An agent that integrates pathfinding logic to evaluate the 'explorability' of a cluster of unseen tiles, rather than just proximity, to create more efficient exploration plans.
-- **Global Navigator Agent:** I could define an agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
-- **Advanced Exploration Agent:** An agent that integrates pathfinding logic to evaluate the 'explorability' of a cluster of unseen tiles, rather than just proximity, to create more efficient exploration plans.
-- **Global Navigator Agent:** I could define an agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
-- **Advanced Exploration Agent:** An agent that integrates pathfinding logic to evaluate the 'explorability' of a cluster of unseen tiles, rather than just proximity, to create more efficient exploration plans.
-- **Global Navigator Agent:** I could define an agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
-- **Advanced Exploration Agent:** An agent that integrates pathfinding logic to evaluate the 'explorability' of a cluster of unseen tiles, rather than just proximity, to create more efficient exploration plans.
-- **Global Navigator Agent:** I could define an agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
+- **Global Navigator Agent:** An agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
 - **Advanced Exploration Agent:** An agent that integrates pathfinding logic to evaluate the 'explorability' of a cluster of unseen tiles, rather than just proximity, to create more efficient exploration plans.
 
 ## V. Safari Zone Mechanics Testing (T41962)
