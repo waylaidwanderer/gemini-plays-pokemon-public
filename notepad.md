@@ -54,3 +54,11 @@
 - **`elevated_ground`:** Walkable ground at a different elevation. Cannot be accessed directly from `ground` or `grass` tiles.
 - **`steps`:** Allows vertical movement between `ground`/`grass` and `elevated_ground` tiles.
 - **`ledge`:** Can only be traversed downwards. Moving onto a ledge from above (Y-1) will place the player on the tile below the ledge (Y+2).
+
+## V. Safari Zone Mechanics Testing (T41962)
+- **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
+- **Test Plan:** For future identical encounters, I will test different action sequences to observe their effects on catch and flee rates.
+  1.  **Control:** Throw only Safari Balls.
+  2.  **Bait Strategy:** Throw Bait, then throw Safari Balls.
+  3.  **Rock Strategy:** Throw Rock, then throw Safari Balls.
+- I will log the results to build a reliable strategy.
