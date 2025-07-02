@@ -26,6 +26,12 @@
   - `DOOR`: Warp (Verified)
   - `CAVE`: Warp (Verified)
   - `LEDGE`: One-way down (Verified)
+  - `WALL`: Impassable (Verified)
+  - `HEADBUTT_TREE`: Impassable (Verified)
+  - `WARP_CARPET_LEFT`: Warp (Verified)
+  - `DOOR`: Warp (Verified)
+  - `CAVE`: Warp (Verified)
+  - `LEDGE`: One-way down (Verified)
 
 ### Key Learnings
 - HMs must be used from the PACK menu.
