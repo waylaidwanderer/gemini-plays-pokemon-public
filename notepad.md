@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v42065)
+## I. Core Protocols & Immediate Actions (v42169)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v21 - Query First & No Duplicates):** I will follow a strict three-step process using numeric map IDs only. Step 1: Node Verification. Query the WKG to ensure both source and destination nodes exist. If a node is missing, add it. Step 2: Edge Verification. After confirming both nodes exist, query for an edge. **I must not create a duplicate edge.** This is a repeated point of failure. Step 3: Edge Creation. Only if no edge exists will I create one, ensuring I include the `destination_entry_point` for all warp-type connections.
-- **CRITICAL: Map Marker Protocol (v10):** Mark defeated trainers, used warps (entry and exit), picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
-- **CRITICAL: Agent & Tool Protocol (v4):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`.
+- **CRITICAL: WKG Protocol (v22 - Agent-Assisted):** My manual WKG management has been error-prone. I will define a `wkg_manager_agent` to handle node/edge verification and creation to prevent future errors.
+- **CRITICAL: Map Marker Protocol (v11):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
+- **CRITICAL: Agent & Tool Protocol (v5):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
@@ -23,6 +23,7 @@
 - **NPC Interaction Catch:** Some NPCs, upon interaction, can trigger a Pokémon 'catch' event, adding the Pokémon directly to the player's Pokédex and party/PC. (Observed with Rocker in Safari Zone East Rest House giving a CHANSEY).
 - **Safari Game Time Limit:** The Safari Game has a time limit. When it expires, the player is automatically warped back to the Safari Zone Gate.
 - **PC Box Full Mechanic:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but a warning is displayed. I must remember to manually change the active box at a Pokémon Center.
+- **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 
 ### C. Map Mechanics Discoveries
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Silph Co. 9F at (12, 2), Safari Zone East at (17, 23), and Fuchsia Gym.
@@ -37,25 +38,26 @@
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR), TENTACRUEL (Lv. 41, knows SURF, ICE BEAM), VENOMOTH (Lv. 43, knows PSYCHIC)
 
 ## III. System & Tool Development
-### A. Tool Debugging & Refinement Protocol (v6 - IMMEDIATE ACTION)
+### A. Tool Debugging & Refinement Protocol (v7 - IMMEDIATE ACTION)
 - **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. **Abandoning a tool is a protocol violation.**
 - **DEBUGGING STEP 1:** Use `run_code` with extensive `print()` statements to trace execution, inspect variables, and isolate the exact point of failure. Avoid iterative guesswork.
 - **DEBUGGING STEP 2:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
-### B. Protocol Compliance Review (T42065)
-- **Critique Received (T42065):** I have a history of creating duplicate edges in the World Knowledge Graph (T41999, T42032). This is a repeated failure to follow my own 'WKG Protocol (v21 - Query First)'. I MUST strictly adhere to querying for an existing edge before attempting to create a new one.
-- **Critique Received (T42065):** I repeatedly tried to use the `select_battle_option` tool in the Safari Zone (turns 41991-41995), where it is not applicable. This was a form of deferring a critical task (diagnosing the tool's scope/failure) and a violation of my immediate action protocol. I will be more rigorous in diagnosing tool failures immediately.
+### B. Reflection Action Items (T42169)
+1.  **Define `wkg_manager_agent`:** Create a new agent to automate WKG updates to prevent future data management failures.
+2.  **Mark Used Warps:** Immediately begin marking all used warps (entry and exit) with map markers.
+3.  **Test Assumptions:** Actively test the assumptions that HM SURF and the GOLD TEETH are located within the Safari Zone.
 
 ### C. Future Development Ideas
 - **Global Navigator Agent:** I could define an agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
 
 ## IV. Tile Mechanics & Traversal Rules
 - **`ground` / `grass`:** Standard walkable tiles.
+- **`impassable`:** Walls, trees, water, and other obstacles that cannot be walked on.
 - **`water`:** Crossable using HM Surf.
 - **`elevated_ground`:** Walkable ground at a different elevation. Cannot be accessed directly from `ground` or `grass` tiles.
 - **`steps`:** Allows vertical movement between `ground`/`grass` and `elevated_ground` tiles.
 - **`ledge`:** Can only be traversed downwards. Moving onto a ledge from above (Y-1) will place the player on the tile below the ledge (Y+2).
-- **`impassable`:** Walls, trees, water, and other obstacles that cannot be walked on.
 
 ## V. Safari Zone Mechanics Testing (T41962)
 - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
@@ -67,4 +69,3 @@
 
 ## VI. Tool Usage Notes
 - **`select_battle_option` Tool Scope:** This tool is only for the standard battle menu (FIGHT, PKMN, ITEM, RUN). It **does not work** for the Safari Zone battle menu (BALL, BAIT, THROW ROCK, RUN).
-- **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
