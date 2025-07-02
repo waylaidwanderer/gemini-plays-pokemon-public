@@ -1,6 +1,6 @@
-## I. Core Protocols & Immediate Actions (v41806)
+## I. Core Protocols & Immediate Actions (v41859)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- CRITICAL: WKG Protocol (v18 - Entry Point Mandate): I will follow a strict three-step process using numeric map IDs only. Step 1: Node Verification. Query the WKG to ensure both source and destination nodes exist. If a node is missing, add it. Step 2: Edge Verification. After confirming both nodes exist, query for an edge. Step 3: Edge Creation. Only if no edge exists will I create one, ensuring I include the destination_entry_point for all warp-type connections. This protocol prevents graph corruption.
+- **CRITICAL: WKG Protocol (v19 - Entry Point Mandate):** I will follow a strict three-step process using numeric map IDs only. Step 1: Node Verification. Query the WKG to ensure both source and destination nodes exist. If a node is missing, add it. Step 2: Edge Verification. After confirming both nodes exist, query for an edge. Step 3: Edge Creation. Only if no edge exists will I create one, ensuring I include the `destination_entry_point` for all warp-type connections. This protocol prevents graph corruption.
 - **CRITICAL: Map Marker Protocol (v9):** Mark defeated trainers, used warps (entry and exit), and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
 - **CRITICAL: Agent & Tool Protocol (v3 - REVISED):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`.
 
@@ -31,7 +31,7 @@
 - **Summer Beach House Trap:** The house on Route 19 at (6, 10) is a one-way trap. The entrance warp is one-way, and Fly cannot be used to escape. The intended solution is to walk *through* Pikachu to reach the southern exit warp.
 
 ### D. Investigation & Hypothesis Log
-- **Current Plan:** A sign in Safari Zone North mentioned a 'SECRET HOUSE' with a free HM. This is almost certainly SURF. My current objective is to explore the Safari Zone areas to find this house. I also need to find the Gold Teeth for the Warden.
+- **Current Plan:** Systematically explore the Safari Zone to find the 'SECRET HOUSE' (likely containing HM SURF) and the Warden's lost GOLD TEETH. I will prioritize exploring the western area first, as I was interrupted there last time.
 
 ### E. Defeated Bosses Log
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR), TENTACRUEL (Lv. 41, knows SURF, ICE BEAM), VENOMOTH (Lv. 43, knows PSYCHIC)
