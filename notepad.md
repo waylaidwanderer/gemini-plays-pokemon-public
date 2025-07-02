@@ -40,11 +40,6 @@
 - **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
-### B. Future Development Ideas
-- **Global Navigator Agent:** An agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
-- **Advanced Exploration Agent:** An agent that integrates pathfinding logic to evaluate the 'explorability' of a cluster of unseen tiles, rather than just proximity, to create more efficient exploration plans.
-- **Path Debugger Agent:** An agent to automate the process of analyzing a failed `pathfinder` attempt. It would take the start/end coordinates and automatically perform the `came_from` and boundary analysis I currently do manually with `run_code`.
-
 ## IV. Investigation & Hypothesis Log
 - **Current Plan:** Systematically explore the Safari Zone to find the 'SECRET HOUSE' (likely containing HM SURF) and the Warden's lost GOLD TEETH. The GOLD TEETH are confirmed to be in the Safari Zone West area.
 - **Hypothesis:** Not all warps on the same map are reachable from a single contiguous area. Some maps are segmented. (To be tested by attempting to reach the southeastern warps in Safari Zone West after acquiring SURF).
