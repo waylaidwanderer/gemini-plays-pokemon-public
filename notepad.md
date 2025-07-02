@@ -18,8 +18,7 @@
 ## II. Quest Progression
 
 ### Current Objective: Investigate Slowpoke Well
-- **Status:** Kurt has gone to the Slowpoke Well to confront Team Rocket. This is the main story objective.
-- **Hypothesis:** Leaving Azalea Town may have reset the event. I need to speak to Kurt in his house again to re-trigger his departure, and then immediately go to the well.
+- **Status:** Kurt has gone to the Slowpoke Well to confront Team Rocket. I need to follow him there.
 
 ### Blocked Path: Ilex Forest
 - **Status:** The western part of Ilex Forest is blocked by a tree that requires CUT. I will return here after dealing with the Slowpoke Well.
