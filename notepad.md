@@ -47,6 +47,6 @@
 - **CRITICAL:** If a custom tool is suspected to be faulty, the **first and only** debugging step is to use `run_code` with extensive `print()` statements to trace its execution and identify the point of failure. Blindly redefining the tool is a waste of turns and a violation of this protocol.
 
 ### B. Future Tool Development
-- **Navigation Manager Tool Idea:** Create a tool that takes a final destination and manages the entire navigation process. It would call `pathfinder` to get a route, and if interrupted by a battle or other event, it would automatically re-call `pathfinder` from the new position until the destination is reached. This would automate the tedious process of re-pathing.
+- **Navigation Manager Tool Idea (On Hold):** Create a tool that takes a final destination and manages the entire navigation process. It would call a pathfinding tool to get a route, and if interrupted by a battle or other event, it would automatically re-call the tool from the new position until the destination is reached. This would automate the tedious process of re-pathing. (NOTE: This is on hold as `pathfinder` tool was deleted for being unreliable.)
 - **`pathfinder` Tool Debugging (T41183):** The tool is critically flawed. It incorrectly tries to route through water tiles and generates inefficient paths. Changing the neighbor check order did not fix the issue. The tool is unreliable and has been deleted. I will rely on manual path planning for now.
 - **Tool Idea:** Create a `tool_debugger_agent` to automate the analysis of `run_code` debug traces.
