@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v41861)
+## I. Core Protocols & Immediate Actions (v41897)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
 - **CRITICAL: WKG Protocol (v19 - Entry Point Mandate):** I will follow a strict three-step process using numeric map IDs only. Step 1: Node Verification. Query the WKG to ensure both source and destination nodes exist. If a node is missing, add it. Step 2: Edge Verification. After confirming both nodes exist, query for an edge. Step 3: Edge Creation. Only if no edge exists will I create one, ensuring I include the `destination_entry_point` for all warp-type connections. This protocol prevents graph corruption.
 - **CRITICAL: Map Marker Protocol (v9):** Mark defeated trainers, used warps (entry and exit), and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
@@ -45,6 +45,10 @@
 ### B. Pathfinder Tool Development Log (T41755-T41806)
 - **Initial Protocol Violation (T41483):** I deleted the faulty `pathfinder` tool instead of debugging it. This was a direct cause of my navigational issues.
 - **Systematic Debugging (T41755-T41806):** After acknowledging my protocol violation, I engaged in a multi-turn, systematic debugging process. I used diagnostic scripts to isolate the error, eventually rebuilding the tool with a robust BFS algorithm that correctly handles elevation changes. This process, while lengthy, restored a critical capability and reinforced the importance of my debugging protocol.
+
+### C. Protocol Compliance Review (T41896)
+- **Critique Received:** I have been consistently failing to adhere to my immediate data management protocols for WKG and Map Markers, often due to repeated tool-use errors which constitutes a form of deferral. This is a critical violation.
+- **Corrective Action:** I will prioritize immediate and accurate documentation above all else. If a tool fails, I will debug it immediately. If a documentation task fails due to my own error, I will correct it on the very next turn without fail. No more delays.
 
 ## IV. Tile Mechanics & Traversal Rules
 - **`elevated_ground`:** Walkable ground at a different elevation. Cannot be accessed directly from `ground` or `grass` tiles.
