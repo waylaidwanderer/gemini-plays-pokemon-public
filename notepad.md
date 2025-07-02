@@ -62,3 +62,4 @@
 - Safari Zone Item/Time Hint: A Scientist in the North Rest House mentioned that you can keep items found on the ground, but you'll run out of time if you try to get them all at once.
 - **Safari Zone Secret House Hint:** A Safari Zone Worker in the North Rest House said, "Go to the deepest part of the SAFARI ZONE. You will win a prize!" This is likely where the Secret House and HM SURF are located.
 - **PC Box Full Mechanic (v2):** After catching TITANESS, the active PC box is full again. Must remember to manually change the active box at a Pokémon Center before attempting to catch more Pokémon.
+- **Elevation Traversal:** Movement between `ground` and `elevated_ground` tiles is only possible via `steps` tiles. Direct movement between them is blocked.
