@@ -57,3 +57,4 @@
 - **Erika (Celadon Gym):** VICTREEBEL (Lv. 30), TANGELA (Lv. 32), VILEPLUME (Lv. 35)
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42), TENTACRUEL (Lv. 41), VENOMOTH (Lv. 43)
 - **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
+- **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
