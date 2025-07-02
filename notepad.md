@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v42542)
+## I. Core Protocols & Immediate Actions (v42572)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v22 - Agent-Assisted):** My manual WKG management has been error-prone. I will use the `wkg_manager_agent` to handle node/edge verification and creation to prevent future errors.
+- **CRITICAL: WKG Protocol (v23 - Agent-Assisted, Single-Turn):** My manual WKG management has been error-prone. I will use the `wkg_manager_agent` to handle node/edge verification and creation. I will add all nodes and the connecting edge for a transition in the *same turn* it is discovered. I will not defer any part of this process.
 - **CRITICAL: Map Marker Protocol (v11):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
-- **CRITICAL: Agent & Tool Protocol (v6):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`.
+- **CRITICAL: Agent & Tool Protocol (v7):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
@@ -26,6 +26,7 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 
 ### C. Map Mechanics Discoveries
+- **Map Segmentation:** Maps can be divided into isolated, non-contiguous segments. My `pathfinder` tool cannot navigate between these segments. Progress requires using intra-map warps to travel between them.
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Silph Co. 9F at (12, 2), Safari Zone East at (17, 23), and Fuchsia Gym.
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as an impassable wall when approached from above. (Discovered on Route 19 at (6, 9)).
@@ -33,7 +34,7 @@
 - **Elevation Traversal:** Movement between `ground` and `elevated_ground` tiles is only possible via `steps` tiles. Direct movement between them is blocked.
 
 ## III. System & Tool Development
-### A. Tool Debugging & Refinement Protocol (v13 - IMMEDIATE ACTION)
+### A. Tool Debugging & Refinement Protocol (v14 - IMMEDIATE ACTION)
 - **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. **Abandoning a tool is a protocol violation.**
 - **DEBUGGING STEP 1 (Advanced):** Use `run_code` with a modified pathfinding script. Print the `current` node inside the main loop to trace the BFS exploration path.
 - **DEBUGGING STEP 2 (Advanced Analysis):** If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where the pathfinding fails.
@@ -59,7 +60,7 @@
 - **`select_battle_option` Tool Scope:** This tool is only for the standard battle menu (FIGHT, PKMN, ITEM, RUN). It **does not work** for the Safari Zone battle menu (BALL, BAIT, THROW ROCK, RUN).
 - **PC Box Full Mechanic (v2):** After catching TITANESS, the active PC box is full again. Must remember to manually change the active box at a Pokémon Center before attempting to catch more Pokémon.
 
-## VII. Protocol Adherence Log (T42542)
+## VII. Protocol Adherence Log (T42572)
 - **WKG Management:** I have repeatedly failed to document map transitions immediately and correctly in a single turn. My new protocol is to add all nodes and the connecting edge for a transition in the *same turn* it is discovered. I will not defer any part of this process.
 - **Agent Trust:** I must trust my agents' outputs unless proven wrong by direct testing. I will not second-guess them without evidence.
 - **Agent vs. Tool Usage:** My `exploration_strategist_agent` was a misuse of an agent for a computational task. It has been deleted. Future development of exploration or debugging aids must be implemented as custom tools, not agents.
