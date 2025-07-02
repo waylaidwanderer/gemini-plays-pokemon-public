@@ -37,7 +37,6 @@
     - **Failed Approach:** Systematic exploration of all walkable paths in the maze has confirmed they are all dead ends. The solution is not simple pathfinding.
 
 ### Reflection & New Hypotheses (Post-Dead-Ends)
-My systematic exploration revealed all paths in the maze are dead ends. This means my initial assumptions were wrong. New hypotheses to test:
-- **Hypothesis A (Pattern Break):** The puzzle is not about finding a single path. I may need to step on twigs in a specific sequence, or from a specific direction, to guide the Farfetch'd through the maze walls, which might be illusory.
-- **Hypothesis B (External Trigger):** The solution is not entirely within the maze. I may need to talk to an NPC (like the owner) again, or leave the forest and return to trigger a change or get a new clue.
-- **Hypothesis C (Hidden Mechanic):** There is a hidden mechanic I'm missing. Do I need to face a certain direction when stepping on a twig? Does time of day matter? I must experiment more.
+My systematic exploration revealed all paths are dead ends, and I have confirmed I cannot leave the forest. This means the solution must be contained entirely within this maze.
+- **Primary Hypothesis (Sound-Based Herding):** The puzzle is not about finding a single path. I must step on twigs in a specific sequence or from specific directions to guide the Farfetch'd through the impassable trees. The bird moves opposite to the sound source.
+- **Secondary Hypothesis (Hidden Mechanic):** There is a hidden mechanic I'm missing. I need to experiment with facing different directions when stepping on a twig.
