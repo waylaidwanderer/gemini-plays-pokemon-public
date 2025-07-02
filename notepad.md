@@ -18,9 +18,8 @@
 ## II. Quest Progression
 
 ### Current Objective: Clear Team Rocket from Azalea Town
-- **Status:** A Rocket Grunt is blocking the Azalea Gym.
-- **Hypothesis 1 (Gym Grunt):** Talk to Kurt to get him to scare the grunt away. (Failed, Kurt just gave cryptic dialogue about the 'forest's protector'.)
-- **New Hypothesis:** The solution involves the 'forest's protector' and the Farfetch'd in Kurt's house. I should talk to Kurt's apprentice again.
+- **Status:** A Rocket Grunt blocks the Azalea Gym. Kurt and his apprentice were unhelpful, only speaking of missing Slowpoke.
+- **Current Hypothesis:** The solution is in the Slowpoke Well. I must investigate it to find Team Rocket and the missing Slowpoke. This should cause the gym grunt to leave.
 
 ### Blocked Path: Ilex Forest
 - **Status:** The western part of Ilex Forest is blocked by a tree that requires CUT. I will return here after dealing with the Slowpoke Well.
