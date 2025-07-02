@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v42990)
+## I. Core Protocols & Immediate Actions (v43001)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
 - **CRITICAL: WKG Protocol (v29 - Manual & Corrected):** My previous protocol was based on hallucinated tools. The correct, manual process is: **Turn 1:** Add the source node using `manage_world_knowledge`. **Turn 2:** Add the destination node using `manage_world_knowledge`. **Turn 3:** Add the edge connecting them using `manage_world_knowledge`, manually constructing the JSON payload by querying the WKG for the node IDs. This is the highest priority action after a map transition.
 - **CRITICAL: Map Marker Protocol (v12):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
@@ -41,6 +41,9 @@
 - **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
+### B. Tool Development Ideas
+- **Automated Explorer Agent:** An agent that can identify the nearest reachable unseen tile and automatically generate a path to an adjacent traversable tile. This would streamline my exploration process significantly.
+
 ## IV. Investigation & Hypothesis Log
 - **Hypothesis:** The water areas in Safari Zone West, which I can now access with SURF and my updated `pathfinder`, contain the path forward or a key item.
 - **Safari Zone Mechanics Testing (T41962):**
@@ -48,7 +51,3 @@
 
 ## V. Defeated Bosses Log
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR), TENTACRUEL (Lv. 41, knows SURF, ICE BEAM), VENOMOTH (Lv. 43, knows PSYCHIC)
-
-## VI. Tool Usage Notes
-- **`select_battle_option` Tool Scope:** This tool is only for the standard battle menu (FIGHT, PKMN, ITEM, RUN). It **does not work** for the Safari Zone battle menu (BALL, BAIT, THROW ROCK, RUN).
-- **PC Box Full Mechanic (v4):** After catching TITANESS, PINSIR, and SCYTHER, the active PC box is critically full. I absolutely must change the active box at the next Pokémon Center visit before any more catching attempts.
