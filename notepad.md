@@ -43,21 +43,8 @@
 - **DEBUGGING STEP 1:** Use `run_code` with extensive `print()` statements to trace execution, inspect variables, and isolate the exact point of failure. Avoid iterative guesswork.
 - **DEBUGGING STEP 2:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
-### B. Reflection Action Items (T42169)
-1.  **Define `wkg_manager_agent`:** Create a new agent to automate WKG updates to prevent future data management failures.
-2.  **Mark Used Warps:** Immediately begin marking all used warps (entry and exit) with map markers.
-3.  **Test Assumptions:** Actively test the assumptions that HM SURF and the GOLD TEETH are located within the Safari Zone.
-
-### C. Future Development Ideas
+### B. Future Development Ideas
 - **Global Navigator Agent:** I could define an agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
-
-## IV. Tile Mechanics & Traversal Rules
-- **`ground` / `grass`:** Standard walkable tiles.
-- **`impassable`:** Walls, trees, water, and other obstacles that cannot be walked on.
-- **`water`:** Crossable using HM Surf.
-- **`elevated_ground`:** Walkable ground at a different elevation. Cannot be accessed directly from `ground` or `grass` tiles.
-- **`steps`:** Allows vertical movement between `ground`/`grass` and `elevated_ground` tiles.
-- **`ledge`:** Can only be traversed downwards. Moving onto a ledge from above (Y-1) will place the player on the tile below the ledge (Y+2).
 
 ## V. Safari Zone Mechanics Testing (T41962)
 - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
