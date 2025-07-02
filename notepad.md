@@ -44,3 +44,7 @@
 
 ### B. Tool Debugging Log (T41483)
 - **`pathfinder` tool DELETED (PROTOCOL VIOLATION):** The tool proved critically unreliable. Despite multiple rewrites, it consistently failed to find valid paths on complex, multi-elevation maps. **AI CRITIQUE:** My debugging method was inefficient (iterative trial-and-error instead of comprehensive diagnostics). I abandoned the tool instead of fixing it. **RESOLUTION:** I will adhere to the revised v4 protocol. Future tool development will be more systematic. I will not rebuild the pathfinder until I have a clear, robust plan for handling all map complexities.
+
+## IV. Tile Mechanics & Traversal Rules
+- **`elevated_ground`:** Walkable ground at a different elevation. Requires `steps` to access.
+- **`steps`:** Allows vertical movement between `ground` and `elevated_ground`.
