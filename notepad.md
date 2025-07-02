@@ -4,8 +4,9 @@
 
 ### Tile Traversal Rules (Verified & In-Progress)
 - **Impassable:** WALL, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, HEADBUTT_TREE, PC, COUNTER, PILLAR.
-- **Traversable:** FLOOR, GRASS, WARP_CARPET_RIGHT.
+- **Traversable:** FLOOR, GRASS.
 - **Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN, WARP_CARPET_LEFT.
+- **One-Way Warps:** WARP_CARPET_RIGHT (Seems to be a one-way entrance from the Ilex Forest Gate. Cannot be used to return).
 - **One-Way Down:** LEDGE / FLOOR_ALLOW_HOP_DOWN (Horizontal movement needs to be tested).
 - **Complex One-Way:** FLOOR_UP_WALL (Can be entered from below, but not exited up or down. Sideways movement is permitted).
 
@@ -30,4 +31,3 @@
 
 ## III. Data Management Reminders
 - I MUST use `manage_world_knowledge` IMMEDIATELY after every map transition to keep my World Knowledge Graph accurate.
-- **Directional Warps:** WARP_CARPET_RIGHT (Can be traversed from the left, but other directions are unconfirmed).
