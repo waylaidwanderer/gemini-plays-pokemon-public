@@ -28,12 +28,6 @@
 ### Puzzles
 - **Ilex Forest Farfetch'd Puzzle:**
     - **Current Situation:** I am trapped in the forest. The warp at (3, 42) is a one-way entrance. I cannot leave until this puzzle is solved. All walkable paths have been confirmed to be dead ends.
-    - **Active Hypothesis (Reset Puzzle):** My `quest_strategist` suggested that leaving the area entirely and returning might reset the Farfetch'd's position. I am currently attempting to exit the forest to test this.
-    - **Secondary Hypotheses (from Agent):**
-        1. Find a path out of the current dead-end area to find new twigs on the other side of the Farfetch'd.
-        2. Use twigs to intentionally push the bird through 'impassable' trees to a new area.
-        3. Step on the two known twigs in very quick succession to push the bird directly north.
+    - **Failed Hypothesis (Reset Puzzle):** My `quest_strategist` suggested that leaving the area entirely and returning might reset the Farfetch'd's position. This failed as the entrance warp is one-way.
+    - **Active Plan:** Find the Farfetch'd's current location, then use a corrected `farfetchd_herder` tool to solve the puzzle.
 - **HEADBUTT_TREE:** Impassable.
-
-### Tool Development Notes
-- **`area_explorer` Flaw:** This tool cannot find off-screen objects because it relies on the `map_xml_string`, which only includes on-screen sprites. It needs to be redesigned to manually explore the map to find objects.
