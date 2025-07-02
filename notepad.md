@@ -7,7 +7,7 @@
 - **Traversable:** FLOOR, GRASS.
 - **Standard Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN, WARP_CARPET_LEFT.
 - **One-Way Exit Warps:** WARP_CARPET_RIGHT (Seems to be a one-way entrance from IlexForestAzaleaGate. Cannot be used to return).
-- **One-Way Down Ledges:** LEDGE, FLOOR_ALLOW_HOP_DOWN (Cannot be climbed up. Horizontal movement needs testing).
+- **One-Way Down Ledges:** LEDGE, FLOOR_ALLOW_HOP_DOWN, FLOOR_ALLOW_HOP_DOWN_LEFT, FLOOR_ALLOW_HOP_DOWN_RIGHT (Cannot be climbed up. Horizontal movement needs testing).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered from below, but not exited up or down. Sideways movement is permitted).
 
 ### Key Learnings
@@ -19,21 +19,17 @@
 
 ### Current Objective: Clear Team Rocket from Azalea Town
 - **Status:** I am currently exploring Ilex Forest, which seems connected to the Farfetch'd quest needed to get the HM for CUT. This HM is required to advance past the tree blocking the path to the western part of the forest.
-- **Active Hypothesis:** I need to find the boy who ran off with the Farfetch'd. My main lead is the spot where a Youngster vanished at (22, 29).
 
 ### Blocked Path: Ilex Forest West
 - **Status:** The western part of Ilex Forest is blocked by a tree that requires CUT. I will return here after obtaining the HM.
 
 ## III. Strategy & Planning
-- I need to solve the Farfetch'd puzzle with a new approach, as simple exploration has failed.
-- I must be more diligent about immediate data management (notepad, markers, world graph) to avoid cascading errors.
 
 ### Puzzles
 - **Ilex Forest Farfetch'd Puzzle:**
     - **Current Situation:** I am trapped in the forest. The warp at (3, 42) is a one-way entrance. I cannot leave until this puzzle is solved. All walkable paths have been confirmed to be dead ends.
-    - **Primary Hypothesis (Sound-Based Herding):** The solution *must* involve herding the Farfetch'd by making sounds with the available twigs. The bird moves through impassable terrain (trees) in the opposite direction of the sound.
-    - **Secondary Hypothesis (Directional Input):** The direction I am facing when I step on a twig might influence the direction the Farfetch'd runs. I need to test this systematically.
-    - **Known Twig Interactions:**
-        1. Stepping on twig at (22, 30) scared Farfetch'd from (22, 29) to (22, 27).
-        2. Stepping on twig at (23, 30) scared Farfetch'd from (22, 27) to an unknown location (presumed northwest).
-    - **Current Goal:** Find the Farfetch'd and/or experiment with the twigs to herd it towards the exit near the CUT tree.
+    - **Active Hypothesis (Reset Puzzle):** My `quest_strategist` suggested that leaving the area entirely and returning might reset the Farfetch'd's position. I am currently attempting to exit the forest to test this.
+    - **Secondary Hypotheses (from Agent):**
+        1. Find a path out of the current dead-end area to find new twigs on the other side of the Farfetch'd.
+        2. Use twigs to intentionally push the bird through 'impassable' trees to a new area.
+        3. Step on the two known twigs in very quick succession to push the bird directly north.
