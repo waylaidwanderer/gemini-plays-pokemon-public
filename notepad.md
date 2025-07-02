@@ -43,4 +43,4 @@
 - HM moves cannot be forgotten once taught.
 
 ### Tasks & Untested Assumptions
-- Manually walk into a HEADBUTT_TREE to confirm it is impassable.
+- **HEADBUTT_TREE:** Impassable. Confirmed by attempting to walk into one at (9, 28).
