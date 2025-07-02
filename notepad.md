@@ -52,3 +52,4 @@
 
 ## V. Defeated Bosses Log
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR), TENTACRUEL (Lv. 41, knows SURF, ICE BEAM), VENOMOTH (Lv. 43, knows PSYCHIC)
+- **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
