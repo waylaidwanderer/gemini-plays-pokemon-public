@@ -51,4 +51,4 @@
 
 ## VI. Tool Usage Notes
 - **`select_battle_option` Tool Scope:** This tool is only for the standard battle menu (FIGHT, PKMN, ITEM, RUN). It **does not work** for the Safari Zone battle menu (BALL, BAIT, THROW ROCK, RUN).
-- **PC Box Full Mechanic (v2):** After catching TITANESS, the active PC box is full again. Must remember to manually change the active box at a Pokémon Center before attempting to catch more Pokémon.
+- **PC Box Full Mechanic (v3):** After catching TITANESS and a PINSIR, the active PC box is critically full. I absolutely must change the active box at the next Pokémon Center visit before any more catching attempts.
