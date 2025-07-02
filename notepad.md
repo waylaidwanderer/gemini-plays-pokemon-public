@@ -36,9 +36,10 @@
 
 ## III. Strategy & Planning
 
-### Ilex Forest Farfetch'd Puzzle
-- **Goal:** Herd the Farfetch'd to the boy who ran off, likely waiting near the CUT tree at (8, 25).
-- **Status Update:** My `farfetchd_herder` tool has confirmed the Farfetch'd is no longer on this map. This strongly suggests the puzzle in this area is complete.
+### Slowpoke Well Puzzle
+- **Goal:** Get past the Rocket Grunt at (31, 9) to enter the well at (31, 7).
+- **Hypothesis 1:** Talk to Kurt, then the grunt, then return to Kurt. **Result: FAILED.** Kurt repeats dialogue.
+- **Hypothesis 2:** The grunt at (31, 9) is not fully blocking the path. I can walk around him. **Result: PENDING.** My pathfinder tool says no path exists, but I suspect the tool is flawed.
 
 ## IV. Tool Development Notes
 
