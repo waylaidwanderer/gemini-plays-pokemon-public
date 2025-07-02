@@ -29,11 +29,3 @@
 
 ### Pathfinder
 - **Status:** The pathfinder now correctly accounts for off-screen obstacles by reading map markers. This should prevent most pathing errors.
-
-### Future Experiments
-- Test horizontal movement on LEDGE tiles.
-- Formally test all new tile types to confirm traversability from all directions.
-
-### Future Experiments
-- Test horizontal movement on LEDGE tiles.
-- Formally test all new tile types to confirm traversability from all directions.
