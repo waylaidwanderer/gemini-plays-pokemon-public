@@ -29,14 +29,11 @@
 - **Goal:** Herd the Farfetch'd to the boy who ran off, likely waiting near the CUT tree at (8, 25).
 - **Constraint:** I am trapped in this area of the forest due to the one-way warp at (3, 42).
 
-- **Hypothesis 1 (H1) - FAILED:** The Farfetch'd moves based on noise made by the player. 
-  - **Experiment Log:**
-    - **Test 1.1:** Interacting with twigs by pressing 'A' while facing various directions has no effect.
-    - **Test 1.2:** Stepping onto twigs while facing various directions has no effect.
-  - **Conclusion:** H1 is false. The trigger is not based on noise from twigs in the way I've tested.
-
-- **Hypothesis 2 (H2) - Current Test:** The puzzle state (including the Farfetch'd's position) can be reset by moving to a distant part of the map and returning.
-  - **Plan:** Travel to the southeast corner of the map near the entrance, then return to the puzzle area at (22, 29) to check if the Farfetch'd has reappeared.
+### Ilex Forest Farfetch'd Puzzle - New Hypotheses (from `quest_strategist`)
+- **Hypothesis 1 (H1 - Top Priority):** Find the Farfetch'd's current location. From there, use the twigs at (22, 30) and (23, 30) to herd it towards the western ledge at (21, 22), as the Farfetch'd can likely cross terrain that is impassable for the player.
+- **Hypothesis 2 (H2):** Systematically test each twig to map out the Farfetch'd's movement rules. It may move in a fixed direction (e.g., always north, or always away from the twig) each time a specific twig is stepped on, which will allow you to control it precisely.
+- **Hypothesis 3 (H3 - Quick Test):** Return to the exact tile where the boy 'vanished' and the Farfetch'd first appeared at (22, 29). Use the 'interact' button on this specific tile, as moving the Farfetch'd may have triggered a change or revealed an item.
+- **Hypothesis 4 (H4):** Herd the Farfetch'd towards the one-way warp tile that trapped you in this area. The warp might function as an exit for the Farfetch'd, even if it is a one-way entrance for the player.
 
 ## IV. Tool Development Notes
 
