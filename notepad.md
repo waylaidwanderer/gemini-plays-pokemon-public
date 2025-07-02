@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v43001)
+## I. Core Protocols & Immediate Actions (v43053)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
 - **CRITICAL: WKG Protocol (v29 - Manual & Corrected):** My previous protocol was based on hallucinated tools. The correct, manual process is: **Turn 1:** Add the source node using `manage_world_knowledge`. **Turn 2:** Add the destination node using `manage_world_knowledge`. **Turn 3:** Add the edge connecting them using `manage_world_knowledge`, manually constructing the JSON payload by querying the WKG for the node IDs. This is the highest priority action after a map transition.
 - **CRITICAL: Map Marker Protocol (v12):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
