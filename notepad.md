@@ -51,3 +51,6 @@
 1. Backtrack to the area just before the ledge, around coordinates (22, 21).
 2. Explore the path that continues north from that point, which I previously ignored.
 3. Systematically search this new area for the Farfetch'd or any other clues.
+
+## IV. Tool Development
+- **BUG:** `path_finder` tool is unreliable. It led me to a dead end at (33, 7) in Azalea Town. It doesn't correctly identify all impassable tiles. Needs to be fixed.
