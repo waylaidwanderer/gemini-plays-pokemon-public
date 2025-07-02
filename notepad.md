@@ -17,12 +17,10 @@
 
 ## II. Quest Progression
 
-### Current Objective: Investigate Slowpoke Well
-- **Status:** I am currently blocked from entering the Slowpoke Well by a Team Rocket Grunt. 
-- **Hypothesis 1:** Talk to the grunt directly. (Failed, he just repeats dialogue)
-- **Hypothesis 2:** Talk to Kurt in his house to trigger an event. (Failed, Kurt gave dialogue but did not move)
-- **Hypothesis 3:** Talk to Kurt's apprentice. (Failed, no dialogue triggered)
-- **Current Hypothesis:** Talk to every NPC in Azalea Town to find a new clue.
+### Current Objective: Clear Team Rocket from Azalea Town
+- **Status:** A Rocket Grunt is blocking the Azalea Gym.
+- **Hypothesis 1 (Gym Grunt):** Talk to Kurt to get him to scare the grunt away. (Failed, Kurt just gave cryptic dialogue about the 'forest's protector'.)
+- **New Hypothesis:** The solution involves the 'forest's protector' and the Farfetch'd in Kurt's house. I should talk to Kurt's apprentice again.
 
 ### Blocked Path: Ilex Forest
 - **Status:** The western part of Ilex Forest is blocked by a tree that requires CUT. I will return here after dealing with the Slowpoke Well.
