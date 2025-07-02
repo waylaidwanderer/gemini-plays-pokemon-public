@@ -56,3 +56,4 @@
 - All attempts to get past the grunt at the well have failed.
 - All attempts to find an alternative trigger in Kurt's house have failed.
 - My only remaining lead is to challenge the Rocket Grunt at the Azalea Town Gym.
+15. **Challenge Gym Grunt:** Challenging the Rocket Grunt at the Azalea Town Gym to a battle is the trigger. (Result: False, he only delivered dialogue.)
