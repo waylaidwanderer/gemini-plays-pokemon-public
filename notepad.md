@@ -57,6 +57,8 @@
 ### B. Future Development Ideas
 - **Global Navigator Agent:** An agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
 - **Advanced Exploration Agent:** An agent that integrates pathfinding logic to evaluate the 'explorability' of a cluster of unseen tiles, rather than just proximity, to create more efficient exploration plans.
+- **Global Navigator Agent:** An agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
+- **Advanced Exploration Agent:** An agent that integrates pathfinding logic to evaluate the 'explorability' of a cluster of unseen tiles, rather than just proximity, to create more efficient exploration plans.
 
 ## V. Safari Zone Mechanics Testing (T41962)
 - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
