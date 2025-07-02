@@ -1,6 +1,6 @@
-## I. Core Protocols & Immediate Actions (v41897)
+## I. Core Protocols & Immediate Actions (v42013)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v19 - Entry Point Mandate):** I will follow a strict three-step process using numeric map IDs only. Step 1: Node Verification. Query the WKG to ensure both source and destination nodes exist. If a node is missing, add it. Step 2: Edge Verification. After confirming both nodes exist, query for an edge. Step 3: Edge Creation. Only if no edge exists will I create one, ensuring I include the `destination_entry_point` for all warp-type connections. This protocol prevents graph corruption.
+- **CRITICAL: WKG Protocol (v20 - Query First):** I will follow a strict three-step process using numeric map IDs only. Step 1: Node Verification. Query the WKG to ensure both source and destination nodes exist. If a node is missing, add it. Step 2: Edge Verification. After confirming both nodes exist, query for an edge. **I must not create a duplicate edge.** Step 3: Edge Creation. Only if no edge exists will I create one, ensuring I include the `destination_entry_point` for all warp-type connections.
 - **CRITICAL: Map Marker Protocol (v9):** Mark defeated trainers, used warps (entry and exit), and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
 - **CRITICAL: Agent & Tool Protocol (v3 - REVISED):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`.
 
@@ -37,23 +37,23 @@
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR), TENTACRUEL (Lv. 41, knows SURF, ICE BEAM), VENOMOTH (Lv. 43, knows PSYCHIC)
 
 ## III. System & Tool Development
-### A. Tool Debugging & Refinement Protocol (v4 - IMMEDIATE ACTION & SYSTEMATIC DEBUGGING)
+### A. Tool Debugging & Refinement Protocol (v5 - IMMEDIATE ACTION)
 - **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. **Abandoning a tool is a protocol violation.**
 - **DEBUGGING STEP 1:** Use `run_code` with extensive `print()` statements to trace execution, inspect variables, and isolate the exact point of failure. Avoid iterative guesswork.
 - **DEBUGGING STEP 2:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
-### B. Pathfinder Tool Development Log (T41755-T41806)
-- **Initial Protocol Violation (T41483):** I deleted the faulty `pathfinder` tool instead of debugging it. This was a direct cause of my navigational issues.
-- **Systematic Debugging (T41755-T41806):** After acknowledging my protocol violation, I engaged in a multi-turn, systematic debugging process. I used diagnostic scripts to isolate the error, eventually rebuilding the tool with a robust BFS algorithm that correctly handles elevation changes. This process, while lengthy, restored a critical capability and reinforced the importance of my debugging protocol.
+### B. Protocol Compliance Review (T42013)
+- **Critique Received (T41999):** I created a duplicate edge in my WKG, violating my protocol. I must be more diligent in querying for existing edges before creating new ones.
+- **Protocol Violation (T41995-T42000):** I repeatedly attempted to use the `select_battle_option` tool in the Safari Zone, where it is not applicable. This was a form of deferring a critical task (diagnosing the tool's scope/failure) and a violation of my immediate action protocol. I will be more rigorous in diagnosing tool failures immediately.
 
-### C. Protocol Compliance Review (T41896)
-- **Critique Received:** I have been consistently failing to adhere to my immediate data management protocols for WKG and Map Markers, often due to repeated tool-use errors which constitutes a form of deferral. This is a critical violation.
-- **Corrective Action:** I will prioritize immediate and accurate documentation above all else. If a tool fails, I will debug it immediately. If a documentation task fails due to my own error, I will correct it on the very next turn without fail. No more delays.
+### C. Future Development Ideas
+- **Global Navigator Agent:** I could define an agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
 
 ## IV. Tile Mechanics & Traversal Rules
 - **`elevated_ground`:** Walkable ground at a different elevation. Cannot be accessed directly from `ground` or `grass` tiles.
 - **`steps`:** Allows vertical movement between `ground`/`grass` and `elevated_ground` tiles.
 - **`ledge`:** Can only be traversed downwards. Moving onto a ledge from above (Y-1) will place the player on the tile below the ledge (Y+2).
+- **`water`:** Crossable using HM Surf.
 
 ## V. Safari Zone Mechanics Testing (T41962)
 - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
@@ -64,4 +64,4 @@
 - I will log the results to build a reliable strategy.
 
 ## VI. Tool Usage Notes
-- **`select_battle_option` Tool Scope:** This tool is only for the standard battle menu (FIGHT, PKMN, ITEM, RUN). It does not work for the Safari Zone battle menu (BALL, BAIT, THROW ROCK, RUN).
+- **`select_battle_option` Tool Scope:** This tool is only for the standard battle menu (FIGHT, PKMN, ITEM, RUN). It **does not work** for the Safari Zone battle menu (BALL, BAIT, THROW ROCK, RUN).
