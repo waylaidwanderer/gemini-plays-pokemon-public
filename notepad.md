@@ -6,7 +6,7 @@
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
-- **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective), Electric !> Grass.
+- **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective), Electric !> Grass, Rock !> Ground.
 - **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves. MUK is immune to Poison-type moves.
 - **Type Resistances:** Rock is NOT-VERY-EFFECTIVE against Ground.
 - **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves.
@@ -27,7 +27,8 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 
 ### C. Map Mechanics Discoveries
-- **Map Segmentation:** Maps can be divided into isolated, non-contiguous segments. My `pathfinder` tool cannot navigate between these segments. Progress requires using intra-map warps to travel between them. (Confirmed for Safari Zone West & Center).
+- **Map Segmentation (Route 15):** This route is divided into at least two non-contiguous sections. My pathfinding tools cannot navigate between them directly. Progress requires using the gatehouse warp to travel between the western and eastern parts.
+- **Map Segmentation (Safari Zone):** Maps can be divided into isolated, non-contiguous segments. My `pathfinder` tool cannot navigate between these segments. Progress requires using intra-map warps to travel between them. (Confirmed for Safari Zone West & Center).
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Silph Co. 9F at (12, 2), Safari Zone East at (17, 23), and Fuchsia Gym.
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as an impassable wall when approached from above. (Discovered on Route 19 at (6, 9)).
@@ -56,5 +57,4 @@
 - **Lt. Surge (Vermilion Gym):** VOLTORB (Lv. 28), PIKACHU (Lv. 24), RAICHU (Lv. 28)
 - **Erika (Celadon Gym):** VICTREEBEL (Lv. 30), TANGELA (Lv. 32), VILEPLUME (Lv. 35)
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42), TENTACRUEL (Lv. 41), VENOMOTH (Lv. 43)
-- **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
 - **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
