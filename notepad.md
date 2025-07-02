@@ -10,6 +10,17 @@
 - **One-Way Down Ledges:** LEDGE, FLOOR_ALLOW_HOP_DOWN, FLOOR_ALLOW_HOP_DOWN_LEFT, FLOOR_ALLOW_HOP_DOWN_RIGHT (Cannot be climbed up).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered from below, but not exited up or down. Sideways movement is permitted).
 
+### Tile Mechanics Verification Log
+*This log tracks every unique tile type encountered and its verified behavior.*
+- **AzaleaTown (8_7):**
+  - `FLOOR`: Traversable (Verified)
+  - `WALL`: Impassable (Verified)
+  - `HEADBUTT_TREE`: Impassable (Verified)
+  - `WARP_CARPET_LEFT`: Warp (Verified)
+  - `DOOR`: Warp (Verified)
+  - `CAVE`: Warp (Verified)
+  - `LEDGE`: One-way down (Verified)
+
 ### Key Learnings
 - HMs must be used from the PACK menu.
 - HM moves are permanent.
