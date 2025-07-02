@@ -1,6 +1,6 @@
-## I. Core Protocols & Immediate Actions (v42169)
+## I. Core Protocols & Immediate Actions (v42325)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v22 - Agent-Assisted):** My manual WKG management has been error-prone. I will define a `wkg_manager_agent` to handle node/edge verification and creation to prevent future errors.
+- **CRITICAL: WKG Protocol (v22 - Agent-Assisted):** My manual WKG management has been error-prone. I will use the `wkg_manager_agent` to handle node/edge verification and creation to prevent future errors.
 - **CRITICAL: Map Marker Protocol (v11):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
 - **CRITICAL: Agent & Tool Protocol (v5):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`.
 
@@ -31,10 +31,17 @@
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as an impassable wall when approached from above. (Discovered on Route 19 at (6, 9)).
 - **Summer Beach House Trap:** The house on Route 19 at (6, 10) is a one-way trap. The entrance warp is one-way, and Fly cannot be used to escape. The intended solution is to walk *through* Pikachu to reach the southern exit warp.
 
-### D. Investigation & Hypothesis Log
-- **Current Plan:** Systematically explore the Safari Zone to find the 'SECRET HOUSE' (likely containing HM SURF) and the Warden's lost GOLD TEETH. I will prioritize exploring the western area first, as I was interrupted there last time.
+### D. Tile Mechanics & Traversal Rules
+- **ground / grass:** Standard walkable tiles.
+- **elevated_ground:** Walkable ground at a different elevation. Requires 'steps' to transition to/from 'ground'.
+- **steps:** Allows vertical movement between 'ground' and 'elevated_ground'.
+- **water:** Crossable using SURF. Currently acts as impassable.
+- **impassable:** Walls, objects, and other barriers that cannot be walked on.
 
-### E. Defeated Bosses Log
+### E. Investigation & Hypothesis Log
+- **Current Plan:** Systematically explore the Safari Zone to find the 'SECRET HOUSE' (likely containing HM SURF) and the Warden's lost GOLD TEETH. The GOLD TEETH are confirmed to be in the Safari Zone West area.
+
+### F. Defeated Bosses Log
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR), TENTACRUEL (Lv. 41, knows SURF, ICE BEAM), VENOMOTH (Lv. 43, knows PSYCHIC)
 
 ## III. System & Tool Development
@@ -45,6 +52,7 @@
 
 ### B. Future Development Ideas
 - **Global Navigator Agent:** I could define an agent that takes a start and end `map_id` and uses the WKG to plot a multi-map route, providing a sequence of warps and map transitions to follow. This would automate long-distance travel planning.
+- **Advanced Exploration Agent:** An agent that integrates pathfinding logic to evaluate the 'explorability' of a cluster of unseen tiles, rather than just proximity, to create more efficient exploration plans.
 
 ## V. Safari Zone Mechanics Testing (T41962)
 - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
