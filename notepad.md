@@ -56,3 +56,7 @@
 ## Slowpoke Well Investigation (Attempt 2)
 - **Hypothesis Failure:** Talking to Kurt in his house a second time yielded no new dialogue and did not advance the quest.
 - **New Plan:** Proceed directly to the Slowpoke Well entrance. The event trigger may be proximity to the well itself, or Kurt may already be there.
+
+## Slowpoke Well Investigation (Attempt 2)
+- **Hypothesis Failure:** Talking to Kurt in his house a second time yielded no new dialogue and did not advance the quest.
+- **New Plan:** Proceed directly to the Slowpoke Well entrance. The event trigger may be proximity to the well itself, or Kurt may already be there.
