@@ -50,7 +50,7 @@
 ## III. System & Tool Development
 ### A. Tool Debugging & Refinement Protocol (v7 - IMMEDIATE ACTION)
 - **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. **Abandoning a tool is a protocol violation.**
-- **DEBUGGING STEP 1:** Use `run_code` with extensive `print()` statements to trace execution, inspect variables, and isolate the exact point of failure. Avoid iterative guesswork.
+- **DEBUGGING STEP 1 (Advanced):** Use `run_code` with a modified pathfinding script. Print the `current` node inside the main loop to trace the BFS exploration path. If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where the pathfinding fails.
 - **DEBUGGING STEP 2:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
 ### B. Future Development Ideas
