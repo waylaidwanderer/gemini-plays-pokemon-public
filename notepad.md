@@ -7,7 +7,7 @@
 - **Traversable:** FLOOR, GRASS.
 - **Warps:** DOOR, CAVE, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
 - **Directional Warps:** WARP_CARPET_LEFT (Must be entered by moving left onto the tile).
-- **One-Way Down:** LEDGE / FLOOR_ALLOW_HOP_DOWN (Horizontal movement is permitted).
+- **One-Way Down:** LEDGE / FLOOR_ALLOW_HOP_DOWN (Horizontal movement needs to be tested).
 - **Complex One-Way:** FLOOR_UP_WALL (Can be entered from below, but not exited up or down. Sideways movement is permitted).
 
 ### Key Learnings
@@ -17,14 +17,18 @@
 
 ## II. Quest Progression
 
-### Current Objective: Obtain HM01 (Cut)
-- **Primary Hypothesis:** The key to progressing is in Ilex Forest. An NPC in Azalea mentioned a 'Charcoal Man' whose Pokémon can use CUT. This is the only remaining lead after being blocked at the Slowpoke Well.
-- **Plan:** Explore Ilex Forest to find the Charcoal Man and his lost Farfetch'd.
-
-### Objective: Investigate Slowpoke Well
+### Current Objective: Investigate Slowpoke Well
 - **Status:** Kurt has gone to the Slowpoke Well to confront Team Rocket. This is the main story objective.
-- **Previous Hypothesis (Incorrect):** The path was blocked by a Rocket Grunt. The correct trigger was speaking to Kurt in his house, which caused him to go to the well and clear the path.
+- **Hypothesis:** I need to enter the well and help Kurt defeat Team Rocket.
+
+### Blocked Path: Ilex Forest
+- **Status:** The western part of Ilex Forest is blocked by a tree that requires CUT. My initial attempts to find a way around or a trigger to get CUT within the eastern part of the forest have failed. I will return here after dealing with the Slowpoke Well.
+
+## III. Technical Notes
 
 ### Pathfinder Bug
 - **Issue:** The `path_finder_plus` tool incorrectly reported no path available when a path around an on-screen NPC was possible. 
 - **Status:** Tool has been updated with better debugging, but the core logic flaw may still exist. Needs to be monitored.
+
+## IV. Future Experiments
+- Test horizontal movement on LEDGE tiles.
