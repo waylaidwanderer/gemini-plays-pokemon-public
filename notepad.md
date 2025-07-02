@@ -9,14 +9,14 @@
 - Water is super effective against Ground.
 - Flying is super effective against Fighting.
 
-## II. Mechanics & Learnings
+## II. Game Mechanics
 
 ### Object Interaction
 - **General Rule:** All map objects (NPCs, items, signs) act as walls and are impassable.
 - **Defeated Trainers:** Passability is inconsistent. Hiker Daniel & Anthony are passable; POKéMANIAC LARRY is impassable.
 
 ### Tile Traversal Rules
-- **Verified Impassable:** WALL, COUNTER, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, HEADBUTT_TREE.
+- **Verified Impassable:** WALL, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, HEADBUTT_TREE, PC, COUNTER (to be fully verified).
 - **Verified Traversable:** FLOOR, GRASS.
 - **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (enter from direction in name).
 - **Verified One-Way:**
@@ -30,16 +30,20 @@
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 - HM moves cannot be forgotten once taught.
 
-## III. Quest Progression: Slowpoke Well
+## III. Quest Progression
+
+### Current Hypotheses:
+1. The 'Charcoal Man' is a specific NPC in Azalea Town who will provide the HM for CUT.
+2. The Slowpoke Well event needs a different trigger than just talking to Kurt.
+3. The Rocket Grunt blocking the Azalea Gym might have new dialogue now that the Slowpoke Well event is active.
 
 ### Failed Hypotheses Log:
-1.  **Hypothesis:** The Rocket Grunt at the well isn't blocking the entrance. **Result:** False. My pathfinder confirmed the entrance at (31, 7) is unreachable while the grunt is at (31, 9).
-2.  **Hypothesis:** Leaving and re-entering Azalea Town will move the grunt. **Result:** False. The grunt's position did not change.
-3.  **Hypothesis:** A second conversation with Kurt after he initially leaves his house is the trigger. **Result:** False. Kurt's dialogue was unchanged.
-4.  **Hypothesis:** The trigger is talking to the grunt, then immediately talking to Kurt. **Result:** False. Kurt's dialogue did not change, and he did not move.
-5.  **Hypothesis:** The trigger is talking to Kurt *first*, before the grunt. **Result:** False. Kurt's dialogue was unchanged.
-6.  **Hypothesis:** Interacting with the Rocket Grunt at the Gym is the trigger. **Result:** Partial success. He mentioned SLOWPOKETAIL, providing a new clue.
-7.  **Hypothesis:** The SLOWPOKETAIL clue from the gym grunt would trigger Kurt to take action. **Result:** False. Kurt gave a cryptic message about the "forest's protector" and refused to leave.
-
-### Current Plan:
-- **Active Hypothesis:** The key to progressing the story is in Ilex Forest, related to the "forest's protector" mentioned by Kurt and the Granny in the gatehouse. This is likely the Farfetch'd. I need to return to Ilex Forest and solve the puzzle there, which will probably lead to getting the HM01 CUT.
+1. **Hypothesis:** The Rocket Grunt at the well isn't blocking the entrance. **Result:** False.
+2. **Hypothesis:** Leaving and re-entering Azalea Town will move the grunt. **Result:** False.
+3. **Hypothesis:** A second conversation with Kurt after he initially leaves his house is the trigger. **Result:** False.
+4. **Hypothesis:** The trigger is talking to the grunt, then immediately talking to Kurt. **Result:** False.
+5. **Hypothesis:** The trigger is talking to Kurt *first*, before the grunt. **Result:** False.
+6. **Hypothesis:** Interacting with the Rocket Grunt at the Gym is the trigger. **Result:** Partial success. He mentioned SLOWPOKETAIL.
+7. **Hypothesis:** The SLOWPOKETAIL clue from the gym grunt would trigger Kurt to take action. **Result:** False.
+8. **Hypothesis:** The key is a herding puzzle in Ilex Forest involving twigs. **Result:** False.
+9. **Hypothesis:** The Ilex Forest Shrine is the trigger. **Result:** False.
