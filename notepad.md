@@ -3,7 +3,7 @@
 ## I. Game Mechanics & Systems
 
 ### Tile Traversal Rules (Verified)
-- **Impassable:** WALL, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, HEADBUTT_TREE, PC, COUNTER.
+- **Impassable:** WALL, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, PC, COUNTER, HEADBUTT_TREE.
 - **Traversable:** FLOOR, GRASS.
 - **Warps:** DOOR, CAVE, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
 - **Directional Warps:** WARP_CARPET_LEFT (Must be entered by moving left onto the tile).
