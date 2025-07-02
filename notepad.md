@@ -41,3 +41,13 @@
 ### Core Mechanic Learnings
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 - HM moves cannot be forgotten once taught.
+
+## III. Current Plans
+
+### Finding the Farfetch'd
+**Hypothesis:** The main path through Ilex Forest was missed when I jumped down the ledge at (22, 22). The Farfetch'd is likely located on the path I skipped.
+
+**Plan:**
+1. Backtrack to the area just before the ledge, around coordinates (22, 21).
+2. Explore the path that continues north from that point, which I previously ignored.
+3. Systematically search this new area for the Farfetch'd or any other clues.
