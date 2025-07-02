@@ -29,7 +29,7 @@
 - **VOID:** Impassable.
 - **CUT_TREE:** Impassable without CUT.
 - **WATER:** Impassable without SURF.
-- **HEADBUTT_TREE:** Impassable. Confirmed impassable after path_finder failed.
+- **HEADBUTT_TREE:** Impassable. Confirmed impassable after path_finder failed and by attempting to walk into one at (9, 28).
 
 ### One-Way Traversal (Verified)
 - **LEDGE / FLOOR_ALLOW_HOP_DOWN:** One-way downward traversal. Horizontal movement (left/right) is permitted.
@@ -41,6 +41,3 @@
 ### Core Mechanic Learnings
 - HMs must be used from the PACK menu, not the Pokémon's party menu.
 - HM moves cannot be forgotten once taught.
-
-### Tasks & Untested Assumptions
-- **HEADBUTT_TREE:** Impassable. Confirmed by attempting to walk into one at (9, 28).
