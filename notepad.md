@@ -30,13 +30,10 @@
 
 ### Puzzles
 - **Ilex Forest Farfetch'd Puzzle:**
-    - **Current Hypothesis:** This is a sound-based *herding* puzzle. Stepping on twigs makes noise, causing the Farfetch'd to run in the opposite direction, likely through impassable terrain like trees. The goal is to strategically make noise to guide it to its owner.
-    - **Successful Steps:**
-        1. Stepped on twig at (22, 30), scaring Farfetch'd from (22, 29) to (22, 27).
-        2. Stepped on twig at (23, 30), scaring Farfetch'd from (22, 27) to an unknown location (presumed northwest).
-    - **Failed Approach:** Systematic exploration of all walkable paths in the maze has confirmed they are all dead ends. The solution is not simple pathfinding.
-
-### Reflection & New Hypotheses (Post-Dead-Ends)
-My systematic exploration revealed all paths are dead ends, and I have confirmed I cannot leave the forest. This means the solution must be contained entirely within this maze.
-- **Primary Hypothesis (Sound-Based Herding):** The puzzle is not about finding a single path. I must step on twigs in a specific sequence or from specific directions to guide the Farfetch'd through the impassable trees. The bird moves opposite to the sound source.
-- **Secondary Hypothesis (Hidden Mechanic):** There is a hidden mechanic I'm missing. I need to experiment with facing different directions when stepping on a twig.
+    - **Current Situation:** I am trapped in the forest. The warp at (3, 42) is a one-way entrance. I cannot leave until this puzzle is solved. All walkable paths have been confirmed to be dead ends.
+    - **Primary Hypothesis (Sound-Based Herding):** The solution *must* involve herding the Farfetch'd by making sounds with the available twigs. The bird moves through impassable terrain (trees) in the opposite direction of the sound.
+    - **Secondary Hypothesis (Directional Input):** The direction I am facing when I step on a twig might influence the direction the Farfetch'd runs. I need to test this systematically.
+    - **Known Twig Interactions:**
+        1. Stepping on twig at (22, 30) scared Farfetch'd from (22, 29) to (22, 27).
+        2. Stepping on twig at (23, 30) scared Farfetch'd from (22, 27) to an unknown location (presumed northwest).
+    - **Current Goal:** Find the Farfetch'd and/or experiment with the twigs to herd it towards the exit near the CUT tree.
