@@ -7,7 +7,7 @@
 - **Traversable:** FLOOR, GRASS.
 - **Standard Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN, WARP_CARPET_LEFT.
 - **One-Way Entrance Warps:** WARP_CARPET_RIGHT (A one-way entrance. Cannot be used to exit the forest).
-- **One-Way Down Ledges:** LEDGE, FLOOR_ALLOW_HOP_DOWN, FLOOR_ALLOW_HOP_DOWN_LEFT, FLOOR_ALLOW_HOP_DOWN_RIGHT (Cannot be climbed up. Sideways movement needs testing).
+- **One-Way Down Ledges:** LEDGE, FLOOR_ALLOW_HOP_DOWN, FLOOR_ALLOW_HOP_DOWN_LEFT, FLOOR_ALLOW_HOP_DOWN_RIGHT (Cannot be climbed up).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered from below, but not exited up or down. Sideways movement is permitted).
 
 ### Key Learnings
@@ -28,16 +28,21 @@
 ### Ilex Forest Farfetch'd Puzzle
 - **Goal:** Herd the Farfetch'd to the boy who ran off, likely waiting near the CUT tree at (8, 25).
 - **Constraint:** I am trapped in this area of the forest due to the one-way warp at (3, 42).
-- **Current Hypothesis (H1):** The Farfetch'd moves based on the direction the player is *facing* when stepping on a twig. Noise from stepping on a twig scares it away in the opposite direction of the player's facing direction.
-- **Experiment Log:**
-    - **Test 1:** Stood on twig at (22, 30), faced down, pressed 'A'. **Result:** No effect. Hypothesis that 'A' button makes noise is likely false. The noise is from stepping *onto* the twig.
-    - **Test 2:** Stood at (22, 31), moved up to (22, 30) to step on the twig while facing up. **Result:** No effect. Farfetch'd did not appear or move.
+
+- **Hypothesis 1 (H1) - FAILED:** The Farfetch'd moves based on noise made by the player. 
+  - **Experiment Log:**
+    - **Test 1.1:** Interacting with twigs by pressing 'A' while facing various directions has no effect.
+    - **Test 1.2:** Stepping onto twigs while facing various directions has no effect.
+  - **Conclusion:** H1 is false. The trigger is not based on noise from twigs in the way I've tested.
+
+- **Hypothesis 2 (H2) - Current Test:** The puzzle state (including the Farfetch'd's position) can be reset by moving to a distant part of the map and returning.
+  - **Plan:** Travel to the southeast corner of the map near the entrance, then return to the puzzle area at (22, 29) to check if the Farfetch'd has reappeared.
 
 ## IV. Tool Development Notes
 
 ### `farfetchd_herder`
-- **Status:** Critically flawed. The tool cannot solve the puzzle.
+- **Status:** Critically flawed. Cannot be fixed until the puzzle mechanics are understood.
 - **Known Issues:**
-    1. The tool hardcodes the Farfetch'd's starting position. It needs to be able to find the Farfetch'd on the map first.
-    2. The movement logic is incorrect. It doesn't accurately predict how the Farfetch'd moves in response to the player.
-- **Next Steps:** I must first understand the puzzle mechanics through experimentation before I can fix this tool.
+    1. The tool hardcodes the Farfetch'd's starting position and does not search for it.
+    2. The movement logic is based on a failed hypothesis and is incorrect.
+- **Next Steps:** Must understand the puzzle mechanics through experimentation before attempting to fix this tool again.
