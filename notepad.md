@@ -51,3 +51,4 @@
 13. **Apprentice Dialogue:** The apprentice's dialogue changes after Kurt leaves. (Result: False)
 14. **Statue Switch:** The bird statue in Kurt's house is a hidden switch. (Result: False, just a Farfetch'd sound)
 15. **Challenge Gym Grunt:** Challenging the Rocket Grunt at the Azalea Town Gym to a battle is the trigger. (Result: False, he only delivered dialogue.)
+16. **Hypothesis:** The `area_explorer` tool will find a hidden environmental path. **Result:** False. The tool found no reachable unseen tiles.
