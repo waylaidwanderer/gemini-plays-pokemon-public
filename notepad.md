@@ -25,7 +25,7 @@
 - **Status:** The western part of Ilex Forest is blocked by a tree that requires CUT. I will return here after obtaining the HM.
 
 ## III. Strategy & Planning
-- The `area_explorer` tool has been fixed and is now reliable. I need to solve the Farfetch'd puzzle with a new approach, as simple exploration has failed.
+- I need to solve the Farfetch'd puzzle with a new approach, as simple exploration has failed.
 - I must be more diligent about immediate data management (notepad, markers, world graph) to avoid cascading errors.
 
 ### Puzzles
