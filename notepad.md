@@ -64,3 +64,4 @@
 - **WKG Management:** I have repeatedly failed to document map transitions immediately and correctly in a single turn. My new protocol is to add all nodes and the connecting edge for a transition in the *same turn* it is discovered. I will not defer any part of this process.
 - **Agent Trust:** I must trust my agents' outputs unless proven wrong by direct testing. I will not second-guess them without evidence.
 - **Agent vs. Tool Usage:** My `exploration_strategist_agent` was a misuse of an agent for a computational task. It has been deleted. Future development of exploration or debugging aids must be implemented as custom tools, not agents.
+- **`pathfinder` Tool Limitation:** My BFS pathfinder cannot navigate across segmented maps that require intra-map warps. If it fails to find a path to a confirmed reachable tile, I must assume the map is segmented and manually explore each section via its connecting warps.
