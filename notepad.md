@@ -35,3 +35,7 @@
 ### Future Experiments
 - Test horizontal movement on LEDGE tiles.
 - Formally test all new tile types to confirm traversability from all directions.
+
+### Future Experiments
+- Test horizontal movement on LEDGE tiles.
+- Formally test all new tile types to confirm traversability from all directions.
