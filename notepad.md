@@ -42,7 +42,7 @@
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
 ## IV. Investigation & Hypothesis Log
-- **Current Plan:** Systematically explore the Safari Zone to find the 'SECRET HOUSE' (containing HM SURF) and the Warden's lost GOLD TEETH. The GOLD TEETH are confirmed to be in the Safari Zone West area.
+- **Current Plan:** I have acquired both the GOLD TEETH and HM03 SURF. My new primary goal is to defeat Erika in Celadon City. My secondary goal is to return the GOLD TEETH to the Warden in Fuchsia City. My tertiary goal is to explore new areas with SURF. Before leaving the Safari Zone, I must explore the remaining two unseen tiles on this map.
 - **Hypothesis:** Not all warps on the same map are reachable from a single contiguous area. Some maps are segmented. (Confirmed for Safari Zone West).
 
 ### E. Safari Zone Mechanics Testing (T41962)
