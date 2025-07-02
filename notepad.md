@@ -2,7 +2,7 @@
 
 ## I. Game Mechanics & Systems
 
-### Tile Traversal Rules (Verified)
+### Tile Traversal Rules (Verified & In-Progress)
 - **Impassable:** WALL, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO, HEADBUTT_TREE, PC, COUNTER, PILLAR.
 - **Traversable:** FLOOR, GRASS.
 - **Warps:** DOOR, CAVE, LADDER, WARP_CARPET_RIGHT, WARP_CARPET_DOWN.
@@ -14,17 +14,20 @@
 - HMs must be used from the PACK menu.
 - HM moves are permanent.
 - All map objects (NPCs, items, signs) act as walls.
+- The `stun_npc` tool is essential for interacting with moving NPCs.
 
 ## II. Quest Progression
 
 ### Current Objective: Clear Team Rocket from Azalea Town
-- **Status:** A Rocket Grunt blocks the Azalea Gym. Kurt and his apprentice were unhelpful, only speaking of missing Slowpoke.
-- **Current Hypothesis:** The solution is in the Slowpoke Well. I must investigate it to find Team Rocket and the missing Slowpoke. This should cause the gym grunt to leave.
+- **Status:** I am currently stuck trying to get Kurt to help me deal with Team Rocket. The grunts at the Slowpoke Well and the Gym are blocking progress.
+- **Active Hypothesis (from `quest_strategist`):** The correct event sequence is: 
+  1. Talk to the Rocket Grunt at the Slowpoke Well (Complete).
+  2. Interact with the Farfetch'd statue in Kurt's house (Complete).
+  3. Talk to the apprentice in Kurt's house (In Progress).
+  4. Talk to Kurt.
 
 ### Blocked Path: Ilex Forest
-- **Status:** The western part of Ilex Forest is blocked by a tree that requires CUT. I will return here after dealing with the Slowpoke Well.
+- **Status:** The western part of Ilex Forest is blocked by a tree that requires CUT. I will return here after dealing with the Azalea Town situation.
 
-## III. Technical Notes & Experiments
-
-### Pathfinder
-- **Status:** The pathfinder now correctly accounts for off-screen obstacles by reading map markers. This should prevent most pathing errors.
+## III. Data Management Reminders
+- I MUST use `manage_world_knowledge` IMMEDIATELY after every map transition to keep my World Knowledge Graph accurate.
