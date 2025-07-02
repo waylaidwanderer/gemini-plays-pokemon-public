@@ -31,13 +31,6 @@
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as an impassable wall when approached from above. (Discovered on Route 19 at (6, 9)).
 - **Summer Beach House Trap:** The house on Route 19 at (6, 10) is a one-way trap. The entrance warp is one-way, and Fly cannot be used to escape. The intended solution is to walk *through* Pikachu to reach the southern exit warp.
 
-### D. Tile Mechanics & Traversal Rules
-- **ground / grass:** Standard walkable tiles.
-- **elevated_ground:** Walkable ground at a different elevation. Requires 'steps' to transition to/from 'ground'.
-- **steps:** Allows vertical movement between 'ground' and 'elevated_ground'.
-- **water:** Crossable using SURF. Currently acts as impassable.
-- **impassable:** Walls, objects, and other barriers that cannot be walked on.
-
 ### E. Investigation & Hypothesis Log
 - **Current Plan:** Systematically explore the Safari Zone to find the 'SECRET HOUSE' (likely containing HM SURF) and the Warden's lost GOLD TEETH. The GOLD TEETH are confirmed to be in the Safari Zone West area.
 
