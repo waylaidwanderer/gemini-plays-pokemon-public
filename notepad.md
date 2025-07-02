@@ -32,8 +32,8 @@
 
 ## III. Quest Progression
 
-### Current Hypothesis (from quest_strategist):
-1. After Kurt leaves his house, I must physically follow his NPC sprite in real-time as he walks to the well. A cutscene may trigger upon his arrival if I am with him.
+### Current Hypothesis:
+1. **Kurt Reset:** Leaving Kurt's house and returning later might reset his position, allowing me to re-trigger the event where he runs to the well. I can then attempt to follow him.
 
 ### Failed Hypotheses Log:
 1. **Well Grunt Passable:** The Rocket Grunt at the well isn't blocking the entrance. (Result: False)
