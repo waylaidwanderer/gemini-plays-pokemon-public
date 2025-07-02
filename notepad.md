@@ -27,3 +27,9 @@
 ## III. Strategy & Planning
 - The `area_explorer` tool is fundamentally broken. I will not rely on it. Future complex pathfinding will be done manually or with `run_code` for isolated logic tests.
 - I must be more diligent about immediate data management (notepad, markers, world graph) to avoid cascading errors.
+
+### Puzzles
+- **Ilex Forest Farfetch'd:** Suspect this is a sound-based herding puzzle. The twigs on the floor likely make noise and scare the Farfetch'd. The goal is to approach it without stepping on them. Failed attempts so far:
+    1. Interacting with the tree at (23, 29).
+    2. Approaching (22, 29) from below and interacting.
+    3. Approaching (22, 29) from the left and interacting.
