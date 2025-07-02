@@ -29,5 +29,4 @@
 - **Ilex Forest Farfetch'd Puzzle:**
     - **Current Situation:** I am trapped in the forest. The warp at (3, 42) is a one-way entrance. I cannot leave until this puzzle is solved. All walkable paths have been confirmed to be dead ends.
     - **Failed Hypothesis (Reset Puzzle):** My `quest_strategist` suggested that leaving the area entirely and returning might reset the Farfetch'd's position. This failed as the entrance warp is one-way.
-    - **Active Plan:** Find the Farfetch'd's current location, then use a corrected `farfetchd_herder` tool to solve the puzzle.
-- **HEADBUTT_TREE:** Impassable.
+    - **Active Plan:** My `farfetchd_herder` tool is critically flawed. I will redefine it with a more robust logic that can find the Farfetch'd regardless of its starting position. After fixing the tool, I will use it to solve the puzzle.
