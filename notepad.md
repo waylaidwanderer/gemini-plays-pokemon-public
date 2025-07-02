@@ -2,7 +2,7 @@
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. **(AI CRITIQUE NOTE: I have failed this protocol regarding Safari Zone transitions. This must be corrected immediately.)**
 - **CRITICAL: WKG Protocol (v17 - Numeric ID Mandate):** I will follow a strict three-step process using **numeric map IDs only**. **Step 1: Node Verification.** Query the WKG to ensure both source and destination nodes exist. If a node is missing, add it. **Step 2: Edge Verification.** After confirming both nodes exist, query for an edge. **Step 3: Edge Creation.** Only if no edge exists will I create one. This protocol prevents graph corruption.
 - **CRITICAL: Map Marker Protocol (v9):** Mark defeated trainers, used warps (entry and exit), and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.** These are handled exclusively by the World Knowledge Graph.
-- **CRITICAL: Agent & Tool Protocol (v3 - REVISED):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. **(AI CRITIQUE NOTE: My creation of `navigation_troubleshooter_agent` violated this. The agent has been deleted.)**
+- **CRITICAL: Agent & Tool Protocol (v3 - REVISED):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
@@ -24,16 +24,7 @@
 - **Safari Game Time Limit:** The Safari Game has a time limit. When it expires, the player is automatically warped back to the Safari Zone Gate.
 - **PC Box Full Mechanic:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but a warning is displayed. I must remember to manually change the active box at a Pokémon Center.
 
-### C. Tile Traversal & Map Mechanics
-- **`ground`:** A standard, walkable tile.
-- **`elevated_ground`:** Walkable ground at a different elevation, often connected by `steps`.
-- **`grass`:** Walkable tile with wild Pokémon encounters.
-- **`impassable`:** Walls, objects, and other non-traversable tiles.
-- **`water`:** Requires SURF to cross. Currently impassable.
-- **`cuttable`:** A tree that can be cut with HM Cut. Becomes `ground` after cutting but respawns after a short time, even without leaving the map.
-- **`steps`:** Allows **vertical-only** movement between `ground`, `grass`, and `elevated_ground`.
-- **`ledge`:** Can only be traversed downwards (from Y-1 to Y+2 in a single button press). Acts as an impassable wall from all other directions.
-- **`warp`:** A tile that transports the player to another location. Some are instant, others require an additional button press.
+### C. Map Mechanics Discoveries
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Silph Co. 9F at (12, 2), Safari Zone East at (17, 23), and Fuchsia Gym.
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as an impassable wall when approached from above. (Discovered on Route 19 at (6, 9)).
