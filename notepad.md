@@ -32,26 +32,27 @@
 
 ## III. Quest Progression
 
-### Current Hypotheses:
-1. The 'Charcoal Man' is a specific NPC in Azalea Town who will provide the HM for CUT.
-2. The Slowpoke Well event needs a different trigger than just talking to Kurt.
-3. The Rocket Grunt blocking the Azalea Gym might have new dialogue now that the Slowpoke Well event is active.
+### Current Hypothesis:
+1.  I must challenge the Rocket Grunt at the Azalea Town Gym to a battle. This is the last remaining suggestion from my `quest_strategist`.
 
 ### Failed Hypotheses Log:
-1. **Hypothesis:** The Rocket Grunt at the well isn't blocking the entrance. **Result:** False.
-2. **Hypothesis:** Leaving and re-entering Azalea Town will move the grunt. **Result:** False.
-3. **Hypothesis:** A second conversation with Kurt after he initially leaves his house is the trigger. **Result:** False.
-4. **Hypothesis:** The trigger is talking to the grunt, then immediately talking to Kurt. **Result:** False.
-5. **Hypothesis:** The trigger is talking to Kurt *first*, before the grunt. **Result:** False.
-6. **Hypothesis:** Interacting with the Rocket Grunt at the Gym is the trigger. **Result:** Partial success. He mentioned SLOWPOKETAIL.
-7. **Hypothesis:** The SLOWPOKETAIL clue from the gym grunt would trigger Kurt to take action. **Result:** False.
-8. **Hypothesis:** The key is a herding puzzle in Ilex Forest involving twigs. **Result:** False.
-9. **Hypothesis:** The Ilex Forest Shrine is the trigger. **Result:** False.
+1.  **Well Grunt:** The Rocket Grunt at the well isn't blocking the entrance. (Result: False)
+2.  **Town Reset:** Leaving and re-entering Azalea Town will move the grunt. (Result: False)
+3.  **Kurt Dialogue:** A second conversation with Kurt after he leaves is the trigger. (Result: False)
+4.  **Dialogue Order:** Talking to the grunt, then immediately to Kurt, is the trigger. (Result: False)
+5.  **Dialogue Order:** Talking to Kurt *first*, before the grunt, is the trigger. (Result: False)
+6.  **Gym Grunt Dialogue:** Interacting with the Gym grunt is the trigger. (Result: Partial success, mentioned SLOWPOKETAIL)
+7.  **SLOWPOKETAIL Clue:** The SLOWPOKETAIL clue would trigger Kurt. (Result: False)
+8.  **Ilex Forest Puzzle:** The key is a herding puzzle in Ilex Forest. (Result: False)
+9.  **Ilex Forest Shrine:** The Ilex Forest Shrine is the trigger. (Result: False)
+10. **Well Grunt Passable:** The grunt at (31, 9) is passable. (Result: False)
+11. **Post-Kurt Grunt Talk:** Talking to the well grunt after Kurt leaves is the trigger. (Result: False)
+12. **Find Kurt:** Kurt is somewhere near the well entrance. (Result: False, couldn't find him after a thorough search)
+13. **Apprentice Dialogue:** The apprentice's dialogue changes after Kurt leaves. (Result: False)
+14. **Statue Switch:** The bird statue in Kurt's house is a hidden switch. (Result: False, just a Farfetch'd sound)
 
-### Quest Progression - Azalea Town (Update)
-- My `path_finder_plus` tool confirmed that there is no path to the Slowpoke Well entrance at (31, 7).
-- The path is blocked by the Rocket Grunt at (31, 9). This is a quest-based obstacle, not a navigation error.
-- Failed Hypothesis: Interacting with the Rocket Grunt at (31, 9) again after Kurt left would be the trigger. Result: False, he only delivered dialogue.
-- Failed Hypothesis: The grunt at (31, 9) is passable. Result: False, he is a solid obstacle.
-
-- New Hypothesis (from quest_strategist): Kurt is somewhere near the well entrance. I need to find him and talk to him.
+### Quest Progression - Azalea Town (Summary)
+- The path to the Slowpoke Well is blocked by a Rocket Grunt at (31, 9). This is a quest obstacle.
+- All attempts to get past the grunt at the well have failed.
+- All attempts to find an alternative trigger in Kurt's house have failed.
+- My only remaining lead is to challenge the Rocket Grunt at the Azalea Town Gym.
