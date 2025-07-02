@@ -1,6 +1,6 @@
-## I. Core Protocols & Immediate Actions (v42639)
+## I. Core Protocols & Immediate Actions (v42742)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v25 - Two-Turn Process):** My previous single-turn protocol was impossible. The new protocol is: **Turn 1:** Create both source and destination nodes using `wkg_manager_agent`. **Turn 2:** Create the connecting edge. This is the highest priority action after a map transition.
+- **CRITICAL: WKG Protocol (v26 - Manual Process):** My previous protocols were flawed. The new protocol is: **Turn 1:** Create both source and destination nodes using `manage_world_knowledge`. **Turn 2:** Use `run_code` to print the WKG, manually find the node IDs, and then use `manage_world_knowledge` to create the connecting edge. This is the highest priority action after a map transition.
 - **CRITICAL: Map Marker Protocol (v11):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
 - **CRITICAL: Agent & Tool Protocol (v7):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`.
 
@@ -34,15 +34,15 @@
 - **Elevation Traversal:** Movement between `ground` and `elevated_ground` tiles is only possible via `steps` tiles. Direct movement between them is blocked.
 
 ## III. System & Tool Development
-### A. Tool Debugging & Refinement Protocol (v14 - IMMEDIATE ACTION)
+### A. Tool Debugging & Refinement Protocol (v15 - IMMEDIATE ACTION)
 - **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. **Abandoning a tool is a protocol violation.**
 - **DEBUGGING STEP 1 (Advanced):** Use `run_code` with a modified pathfinding script. Print the `current` node inside the main loop to trace the BFS exploration path.
-- **DEBUGGING STEP 2 (Advanced Analysis):** If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where the pathfinding fails.
+- **DEBUGGING STEP 2 (Advanced Analysis):** If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where the pathfinding fails. This will confirm if the map is segmented.
 - **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
 ## IV. Investigation & Hypothesis Log
-- **Current Safari Zone Plan:** I am looping through the Safari Zone areas (East -> North -> West) to explore all segmented sections and find the main part of the Center. My current focus is exploring the elevated platforms in Safari Zone North.
+- **Current Safari Zone Plan:** I am looping through the Safari Zone areas (East -> North -> West -> Center) to explore all segmented sections and find the main part of the Center. My current focus is exploring the central area of Safari Zone Center.
 - **Safari Zone Mechanics Testing (T41962):**
   - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
 
