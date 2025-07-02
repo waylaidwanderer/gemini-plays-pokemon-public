@@ -46,7 +46,5 @@
 ### Current Plan:
 - **Active Hypothesis:** The key to progressing the story is in Ilex Forest, related to the "forest's protector" mentioned by Kurt and the Granny in the gatehouse. This is likely the Farfetch'd. I need to return to Ilex Forest and solve the puzzle there, which will probably lead to getting the HM01 CUT.
 
-## IV. Tool Development
-- **DELETED:** The `path_finder` tool was fundamentally flawed. It did not account for all movement restrictions and repeatedly led to dead ends. It has been deleted to prevent further errors.
 - **BOOKSHELF, TV, TOWN_MAP, WINDOW:** Verified impassable.
 - RADIO: Verified interactable (gives Lucky Number), but impassable scenery.
