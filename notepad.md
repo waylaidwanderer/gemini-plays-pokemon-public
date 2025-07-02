@@ -40,15 +40,19 @@
   - MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR)
   - TENTACRUEL (Lv. 41, knows SURF, ICE BEAM)
   - VENOMOTH (Lv. 43, knows PSYCHIC)
-- **Safari Zone East Exploration:** I received a validation warning that there are 12 reachable unseen tiles in Safari Zone East (ID 217). I need to return here and explore more thoroughly after finding SURF and the Gold Teeth.
+- **Safari Zone East Exploration:** I received a validation warning that there are 14 reachable unseen tiles in Safari Zone East (ID 217). I need to return here and explore more thoroughly after finding SURF and the Gold Teeth.
 
 ## III. System & Tool Development
-### A. Tool Debugging Protocol (v2)
-- **CRITICAL:** If a custom tool is suspected to be faulty, the **first and only** debugging step is to use `run_code` with extensive `print()` statements to trace its execution and identify the point of failure. Blindly redefining the tool is a waste of turns and a violation of this protocol.
+### A. Tool Debugging & Refinement Protocol (v3 - IMMEDIATE ACTION)
+- **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. Deleting tools or resorting to manual workarounds is a protocol violation.
+- **DEBUGGING STEP 1:** Use `run_code` with extensive `print()` statements to trace execution and identify the point of failure.
+- **DEBUGGING STEP 2:** Use `define_tool` to submit a corrected version of the script.
 
-### B. Future Tool Development
-- **Navigation Manager Tool Idea (On Hold):** Create a tool that takes a final destination and manages the entire navigation process. It would call a pathfinding tool to get a route, and if interrupted by a battle or other event, it would automatically re-call the tool from the new position until the destination is reached. This would automate the tedious process of re-pathing. (NOTE: This is on hold as `pathfinder` tool was deleted for being unreliable.)
-- **`pathfinder` Tool Debugging (T41183):** The tool is critically flawed. It incorrectly tries to route through water tiles and generates inefficient paths. Changing the neighbor check order did not fix the issue. The tool is unreliable and has been deleted. I will rely on manual path planning for now.
-- **Tool Idea:** Create a `tool_debugger_agent` to automate the analysis of `run_code` debug traces.
-### E. HM Usage (Safari Zone East - T41217)
+### B. Current Tool Development Plan (T41281)
+- **IMMEDIATE PRIORITY #1:** Redefine and debug the `pathfinder` tool. It was deleted for being flawed, which was a protocol violation. I will fix its issues with water tiles and inefficient pathing.
+- **IMMEDIATE PRIORITY #2:** Define a `wkg_updater` tool. I attempted to use this non-existent tool, so creating it will automate JSON payload creation for `manage_world_knowledge`.
+- **IMMEDIATE PRIORITY #3:** Create a `tool_debugger_agent` to automate the analysis of `run_code` debug traces.
+- **Navigation Manager Tool Idea (PENDING):** This tool, which will automate multi-turn navigation, is pending the successful repair of the `pathfinder` tool.
+
+### C. HM Usage (Safari Zone East - T41217)
 - **Discovered HM Usage Mechanic:** To use an HM field move like CUT, I must use the HM item from the inventory. The game then prompts me to 'teach' the move to a compatible Pokémon, even if it already knows the move. Selecting the Pokémon and confirming seems to be the trigger to use the move on the field obstacle. This contradicts earlier NPC dialogue.
