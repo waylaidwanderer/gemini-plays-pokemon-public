@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v43053)
+## I. Core Protocols & Immediate Actions (v43084)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v29 - Manual & Corrected):** My previous protocol was based on hallucinated tools. The correct, manual process is: **Turn 1:** Add the source node using `manage_world_knowledge`. **Turn 2:** Add the destination node using `manage_world_knowledge`. **Turn 3:** Add the edge connecting them using `manage_world_knowledge`, manually constructing the JSON payload by querying the WKG for the node IDs. This is the highest priority action after a map transition.
-- **CRITICAL: Map Marker Protocol (v12):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
-- **CRITICAL: Agent & Tool Protocol (v8):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`.
+- **CRITICAL: WKG Protocol (v30 - Manual & Corrected):** My previous protocol was based on hallucinated tools. The correct, manual process is: **Turn 1:** Add the source node using `manage_world_knowledge`. **Turn 2:** Add the destination node using `manage_world_knowledge`. **Turn 3:** Add the edge connecting them using `manage_world_knowledge`, manually constructing the JSON payload by querying the WKG for the node IDs. This is the highest priority action after a map transition.
+- **CRITICAL: Map Marker Protocol (v13):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
+- **CRITICAL: Agent & Tool Protocol (v9):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
