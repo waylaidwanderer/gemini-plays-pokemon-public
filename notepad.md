@@ -62,3 +62,6 @@
   2.  **Bait Strategy:** Throw Bait, then throw Safari Balls.
   3.  **Rock Strategy:** Throw Rock, then throw Safari Balls.
 - I will log the results to build a reliable strategy.
+
+## VI. Tool Usage Notes
+- **`select_battle_option` Tool Scope:** This tool is only for the standard battle menu (FIGHT, PKMN, ITEM, RUN). It does not work for the Safari Zone battle menu (BALL, BAIT, THROW ROCK, RUN).
