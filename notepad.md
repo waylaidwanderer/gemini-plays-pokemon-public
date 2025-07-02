@@ -51,5 +51,9 @@
   - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
 
 ## V. Defeated Bosses Log
-- **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42, knows MEGA DRAIN, ACID ARMOR), TENTACRUEL (Lv. 41, knows SURF, ICE BEAM), VENOMOTH (Lv. 43, knows PSYCHIC)
+- **Brock (Pewter Gym):** GEODUDE (Lv. 12), ONIX (Lv. 14)
+- **Misty (Cerulean Gym):** STARYU (Lv. 18), STARMIE (Lv. 21)
+- **Lt. Surge (Vermilion Gym):** VOLTORB (Lv. 28), PIKACHU (Lv. 24), RAICHU (Lv. 28)
+- **Erika (Celadon Gym):** VICTREEBEL (Lv. 30), TANGELA (Lv. 32), VILEPLUME (Lv. 35)
+- **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42), TENTACRUEL (Lv. 41), VENOMOTH (Lv. 43)
 - **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
