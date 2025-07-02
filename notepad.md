@@ -33,3 +33,4 @@
         1. Find a path out of the current dead-end area to find new twigs on the other side of the Farfetch'd.
         2. Use twigs to intentionally push the bird through 'impassable' trees to a new area.
         3. Step on the two known twigs in very quick succession to push the bird directly north.
+- **HEADBUTT_TREE:** Impassable.
