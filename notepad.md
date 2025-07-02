@@ -15,14 +15,15 @@
 - **General Rule:** All map objects (NPCs, items, signs) act as walls and are impassable.
 - **Defeated Trainers:** Passability is inconsistent. Hiker Daniel & Anthony are passable; POKéMANIAC LARRY is impassable.
 
-### Tile Traversal Rules (Verified)
-- **WALL, COUNTER, VOID, etc.:** Impassable scenery.
-- **FLOOR, GRASS:** Traversable.
-- **DOOR/CAVE/LADDER:** Warp tile.
-- **CUT_TREE/WATER:** Impassable without HM.
-- **WARP_CARPET_DIRECTION:** Enter from the direction in the name (e.g., move Left for WARP_CARPET_RIGHT).
-- **LEDGE / FLOOR_ALLOW_HOP_DOWN:** One-way downward traversal. Horizontal movement is permitted.
-- **FLOOR_UP_WALL:** Complex one-way tile. Can be moved onto from below (Up), but not off of by going Up or Down. Sideways movement is permitted.
+### Tile Traversal Rules
+- **Verified Impassable:** WALL, COUNTER, VOID, CUT_TREE, WATER, BOOKSHELF, TV, TOWN_MAP, WINDOW, RADIO.
+- **Verified Traversable:** FLOOR, GRASS.
+- **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DIRECTION (enter from direction in name).
+- **Verified One-Way:**
+    - LEDGE / FLOOR_ALLOW_HOP_DOWN: One-way downward traversal. Horizontal movement is permitted.
+    - FLOOR_UP_WALL: Complex one-way tile. Can be moved onto from below (Up), but not off of by going Up or Down. Sideways movement is permitted.
+- **Untested:**
+    - `HEADBUTT_TREE`: Assumed impassable. Need to test by walking into one.
 
 ### Navigational Learnings
 - **Azalea Town Layout:** The town is split by a line of impassable ledges. To get from the southern section to the northern section, one must travel all the way east, loop around north, and then head west.
