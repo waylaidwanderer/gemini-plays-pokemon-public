@@ -6,17 +6,12 @@
 - **Impassable:** WALL, VOID, CUT_TREE, WATER, HEADBUTT_TREE, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC)
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, CAVE, LADDER (Acts as a two-way vertical warp)
-- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must walk in the indicated direction to activate, 'A' button does not work).
+- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must walk in the indicated direction to activate).
 - **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
 ### Untested Hypotheses & Assumptions
-
-#### Tile Mechanics
-- **BUOY:** Likely impassable, similar to WATER. Needs testing.
-
-#### General Gameplay
-- **Route 32 Path:** My pathfinder has confirmed that the eastern fork of Route 32 is a dead end due to one-way `FLOOR_UP_WALL` tiles. The only way south to Union Cave is via the western path.
+- **BUOY:** Likely impassable, similar to WATER. Needs testing once Surf is available.
 - **Headbutt Move:** Assumption that `HEADBUTT_TREE`s require the 'Headbutt' move. I need to find the TM or a move tutor to test this.
 
 ## II. Quest Progression & Puzzles
@@ -27,22 +22,13 @@
 - **Plan:** After dealing with the Slowpoke Well situation and getting CUT, I will return to this location.
 
 ## III. Tool Development Log
-- **`path_master_v3` (Corrected):** My pathfinder tool was correct all along. I incorrectly assumed it was broken when it failed to find a path on the eastern fork of Route 32. My manual tests confirmed that the path is indeed blocked by one-way `FLOOR_UP_WALL` tiles at (14, 6), just as the tool predicted. I must trust the tool's output and analyze the map more carefully when it reports no path.
-- **HEADBUTT_TREE:** Quest Strategist suggests these require the move 'Headbutt' to interact with, not the standard 'A' button.
+- **`path_master_v5` (New):** Created to correctly handle directional `LEDGE_HOP_*` tiles, which the previous version failed to do. This is critical for accurate pathfinding.
+- **`path_master_v4` (Corrected):** Fixed an issue where the tool was incorrectly marking all off-screen objects as impassable. It now correctly takes a list of on-screen obstacles.
+- **`path_master_v3` (Corrected):** Confirmed the tool was not broken. My manual tests confirmed the path on Route 32 was indeed blocked by one-way `FLOOR_UP_WALL` tiles. I must trust the tool's output.
 
 ## IV. Item Effects
 - **EVERSTONE:** A Pokémon holding this item will not evolve.
 - **FRUIT_TREE:** Gives a 'BERRY' item when interacted with. Seems to be a one-time collection per tree.
-
-### To-Do/Reminders
-- Test the following tile types on Route 32 when possible:
-  - BUOY
-  - FLOOR_ALLOW_HOP_RIGHT
-  - FLOOR_ALLOW_HOP_DOWN_LEFT
-  - FLOOR_ALLOW_HOP_DOWN_RIGHT
-
-## Personal Rules & Reminders
-- **Check Map Markers!** Before interacting with an NPC or navigating to a specific spot, always check existing map markers to avoid wasting time on defeated trainers or repeating actions.
 
 ## V. Procedural Reminders & Methodologies
 
@@ -50,3 +36,6 @@
 - **Immediate Testing:** Upon encountering a new, non-obvious tile type on the current map, I must immediately test its traversal properties if it is reachable.
 - **Documentation:** All findings, positive or negative, must be immediately recorded in the 'Tile Traversal Rules' section.
 - **Prioritization:** This testing protocol is a high priority, to be completed before continuing with other exploration goals unless physically impossible (e.g., requires an HM I don't possess).
+
+### Personal Rules & Reminders
+- **Check Map Markers!** Before interacting with an NPC or navigating to a specific spot, always check existing map markers to avoid wasting time on defeated trainers or repeating actions.
