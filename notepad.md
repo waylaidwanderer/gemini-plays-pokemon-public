@@ -19,7 +19,7 @@
 - **FLOOR_ALLOW_HOP_DOWN_RIGHT:** Likely a one-way ledge down and/or right. Needs testing.
 
 #### General Gameplay
-- **Route 32 Path:** Assumption that my current path is the only way south. I will explore the entire route thoroughly before entering Union Cave to verify.
+- **Route 32 Path:** My pathfinder has confirmed that the eastern fork of Route 32 is a dead end due to one-way `FLOOR_UP_WALL` tiles. The only way south to Union Cave is via the western path.
 - **Headbutt Move:** Assumption that `HEADBUTT_TREE`s require the 'Headbutt' move. I need to find the TM or a move tutor to test this.
 
 ## II. Quest Progression & Puzzles
@@ -38,7 +38,7 @@
 - **Plan:** After dealing with the Slowpoke Well situation and getting CUT, I will return to this location.
 
 ## III. Tool Development Log
-- **`path_master_v3` (Corrected Correction):** My pathfinder tool was correct all along. The eastern fork of Route 32 is a dead end due to one-way `FLOOR_UP_WALL` tiles. My manual tests initially seemed to contradict this, but I was stopped at (14, 5), confirming the tool's accuracy. I must trust the tool's output and analyze the map more carefully when it reports no path.
+- **`path_master_v3` (Corrected):** My pathfinder tool was correct all along. I incorrectly assumed it was broken when it failed to find a path on the eastern fork of Route 32. My manual tests confirmed that the path is indeed blocked by one-way `FLOOR_UP_WALL` tiles at (14, 6), just as the tool predicted. I must trust the tool's output and analyze the map more carefully when it reports no path.
 - **HEADBUTT_TREE:** Quest Strategist suggests these require the move 'Headbutt' to interact with, not the standard 'A' button.
 
 ## IV. Item Effects
