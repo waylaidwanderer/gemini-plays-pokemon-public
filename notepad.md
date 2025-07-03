@@ -25,7 +25,6 @@
 - **PC Box Full Mechanic:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but a warning is displayed. I must remember to manually change the active box at a Pokémon Center.
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
-- **Tile Mechanics:** I will start documenting tile mechanics here as I encounter them.
 
 ### C. Key Opponent Intel
 - **Rival Pixel's Alakazam (Silph Co. 7F):** Has Psychic and Tri Attack. Wiped my team due to Psychic's immunity to Electric and super-effective damage against my other Pokemon. Need a better strategy and possibly different team composition for the rematch.
@@ -43,7 +42,6 @@
 - **Safari Zone Mechanics Testing (T41962):**
   - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
 - **Exploration Strategy:** Prioritize exploring known points of interest (like reachable, unvisited warps/ladders) over using `automated_explorer` for blind exploration of unseen tiles, as this is more direct.
-- **Agent & Tool Ideas:**
-  - `wkg_pathfinder` tool: Plan routes across multiple maps by analyzing the World Knowledge Graph. (Implement or discard)
-  - `Exploration Advisor Agent`: Analyze map for promising unseen areas. (Implement or discard)
-  - `Object Verifier Tool`: Check if an object has been interacted with. (Implement or discard)
+- **Agent & Tool Development Plan:**
+  - **`pc_navigator_agent`:** Utilize at next PC interaction to test its effectiveness.
+  - **`wkg_pathfinder` tool:** Implement to plan routes across multiple maps by analyzing the World Knowledge Graph.
