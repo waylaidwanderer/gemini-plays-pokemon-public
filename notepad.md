@@ -38,8 +38,7 @@
 - **Current Plan:** Backtrack from Route 32 through Violet City and Cherrygrove City to re-enter Route 32 from the north. This is necessary to bypass the one-way ledges and reach Union Cave.
 
 ## IV. Tool Development Log
-- **`path_master_v3` (Under Repair):** This tool has been highly unreliable, frequently failing to find valid paths or routing me through walls. I've been iteratively debugging it. The latest version seems to handle ledges correctly, but requires further testing to be considered fully reliable.
-- **New Strategy:** I will develop a new, robust pathfinding tool (`path_master_v3`) from scratch. The journey to New Bark Town is on hold until this tool is fully functional and verified. My secondary goal is now dedicated to this task.
+- **`path_master_v3` (Under Repair):** This tool has a history of being unreliable, frequently failing to find valid paths or routing me through walls. I am iteratively debugging it. The latest version seems to handle ledges and walls more correctly, but requires further testing to be considered fully reliable.
 
 ### Route 32 Navigation Correction
 - **Discovery:** My pathfinder correctly determined that there is no path from the Route 32 Pokemon Center area to the Union Cave entrance on the same map. This is due to a system of one-way ledges and `FLOOR_UP_WALL` tiles that separate the southern part of the route from the northern part.
