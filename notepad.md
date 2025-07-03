@@ -33,7 +33,7 @@
 
 ### Route 30 Blocked Path
 - Status: The path north on Route 30 is blocked by Youngster Mikey at (5, 23).
-- Current Plan: Test the hypothesis that leaving the area and returning will reset his position.
+- Solution: Leaving and re-entering the area caused Youngster Mikey to move, unblocking the path north.
 - Failed Attempts Log:
   1. Talking to Youngster Mikey at (5, 23) does not make him move.
   2. Talking to Youngster Joey at (2, 28) does not make Youngster Mikey move.
