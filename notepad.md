@@ -36,4 +36,4 @@
 - **Current Plan:** Travel from Azalea Town to New Bark Town to meet Professor Elm.
 
 ## Tool Improvement Log
-- **`path_master`:** Fixed. The tool now correctly handles one-way `LEDGE` tiles, preventing sideways or upward movement onto them.
+- **`path_master`:** Fixed. The tool now correctly handles one-way `LEDGE` tiles, preventing sideways or upward movement onto them. The tool now correctly identifies both sprite-based and background objects as impassable.
