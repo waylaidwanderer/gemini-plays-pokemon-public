@@ -64,3 +64,9 @@
 - **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
 ### C. Item Mechanics
 - **EXP.ALL:** Gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
+
+## VI. Tile Mechanics Glossary
+- This section will systematically document all discovered tile types and their traversal rules.
+
+### B. Tool Development Ideas
+- **Tool Debugger Agent:** An agent that can take a faulty tool's code and error message as input and suggest a fix. This could streamline my debugging process significantly.
