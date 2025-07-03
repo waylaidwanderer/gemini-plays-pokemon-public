@@ -70,3 +70,12 @@
 - **steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
 - **elevated_ground:** Walkable ground at a different elevation, only accessible via `steps`.
 - **water:** A tile that can be traversed using the SURF HM.
+
+## VI. Tile Mechanics Glossary
+- **ground:** A standard walkable tile.
+- **grass:** Walkable tile where wild Pokémon encounters can occur.
+- **ledge:** A one-way traversal tile. Can be jumped down from above, but not climbed up from below.
+- **impassable:** A tile that cannot be walked on, such as walls, trees, or counters.
+- **steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
+- **elevated_ground:** Walkable ground at a different elevation, only accessible via `steps`.
+- **water:** A tile that can be traversed using the SURF HM.
