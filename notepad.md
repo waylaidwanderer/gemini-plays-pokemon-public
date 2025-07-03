@@ -36,3 +36,4 @@
 
 ### Newly Learned Mechanics
 - **WARP_CARPET_DOWN:** This tile is a directional warp. It cannot be activated by pressing 'A'. To use it, I must walk down onto the tile below it.
+  10. Speaking to Gramps after the Farfetch'd reveal results in no new dialogue. This hypothesis has failed.
