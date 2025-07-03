@@ -10,11 +10,17 @@
 - **One-Way Down Ledges:** LEDGE, FLOOR_ALLOW_HOP_DOWN
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
-### Untested Tile Hypotheses
+### Untested Hypotheses & Assumptions
+
+#### Tile Mechanics
 - **BUOY:** Likely impassable, similar to WATER. Needs testing.
 - **FLOOR_ALLOW_HOP_RIGHT:** Likely a one-way ledge to the right. Needs testing.
 - **FLOOR_ALLOW_HOP_DOWN_LEFT:** Likely a one-way ledge down and/or left. Needs testing.
 - **FLOOR_ALLOW_HOP_DOWN_RIGHT:** Likely a one-way ledge down and/or right. Needs testing.
+
+#### General Gameplay
+- **Route 32 Path:** Assumption that my current path is the only way south. I will explore the entire route thoroughly before entering Union Cave to verify.
+- **Headbutt Move:** Assumption that `HEADBUTT_TREE`s require the 'Headbutt' move. I need to find the TM or a move tutor to test this.
 
 ## II. Quest Progression & Puzzles
 
