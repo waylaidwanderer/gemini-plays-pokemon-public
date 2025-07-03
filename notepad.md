@@ -62,3 +62,5 @@
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42), TENTACRUEL (Lv. 41), VENOMOTH (Lv. 43)
 - **Rival Pixel (Silph Co.):** PIDGEOT (Lv. 37), GROWLITHE (Lv. 35), EXEGGCUTE (Lv. 38), ALAKAZAM (Lv. 35), VAPOREON (Lv. 40)
 - **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
+### C. Item Mechanics
+- **EXP.ALL:** Gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
