@@ -24,6 +24,7 @@
   3. Talking to Kurt's apprentice does not trigger anything.
   4. Interacting with the Farfetch'd statue at (5, 6) in Kurt's house does nothing.
   5. The path to the well at (31, 7) is physically blocked by the grunt at (31, 9); there is no way around him.
+  6. Talking to the Rocket Grunt at the well (31, 9) and then immediately talking to Kurt (2, 3) does not make him move.
 
 ## III. Strategic Plans & Hypotheses
 
