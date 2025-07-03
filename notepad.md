@@ -51,3 +51,6 @@
   - FLOOR_ALLOW_HOP_RIGHT
   - FLOOR_ALLOW_HOP_DOWN_LEFT
   - FLOOR_ALLOW_HOP_DOWN_RIGHT
+
+## Personal Rules & Reminders
+- **Check Map Markers!** Before interacting with an NPC or navigating to a specific spot, always check existing map markers to avoid wasting time on defeated trainers or repeating actions.
