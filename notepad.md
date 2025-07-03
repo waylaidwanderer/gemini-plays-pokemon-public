@@ -14,14 +14,25 @@
 ### Tile Mechanics Verification Plan
 *I will systematically test every new tile type encountered to confirm its properties.*
 
-- **WARP_CARPET_LEFT:** 
-  - **Hypothesis:** Activated by walking into it from the right.
-  - **Status:** FAILED. Repeated attempts have not triggered the warp. 
-  - **Next Step:** Must test entry from all four directions (Up, Down, Left, Right) to confirm activation conditions or if it's event-locked.
-- **WARP_CARPET_RIGHT:** 
-  - **Hypothesis:** Activated by walking into it from the left.
-  - **Status:** FAILED. Repeated attempts have not triggered the warp. 
-  - **Next Step:** Must test entry from all four directions (Up, Down, Left, Right) to confirm activation conditions or if it's event-locked.
+- **WARP_CARPET_LEFT (IlexForestAzaleaGate):**
+  - **Hypothesis:** Activated by walking onto the tile.
+  - **Status:** FAILED. This warp is currently disabled.
+  - **Tests Performed:**
+    - Entry from Right (FAILED)
+    - Entry from Below (FAILED)
+    - Entry from Above (IMPOSSIBLE - WALL)
+    - Entry from Left (IMPOSSIBLE - WARP TILE)
+  - **Conclusion:** Activation is likely tied to a story event/flag.
+
+- **WARP_CARPET_RIGHT (IlexForestAzaleaGate):**
+  - **Hypothesis:** Activated by walking onto the tile.
+  - **Status:** FAILED. This warp is currently disabled.
+  - **Tests Performed:**
+    - Entry from Left (FAILED)
+    - Entry from Above (IMPOSSIBLE - WALL)
+    - Entry from Below (IMPOSSIBLE - COUNTER)
+    - Entry from Right (IMPOSSIBLE - WARP TILE)
+  - **Conclusion:** Activation is likely tied to a story event/flag.
 
 ## II. Quest Progression
 
