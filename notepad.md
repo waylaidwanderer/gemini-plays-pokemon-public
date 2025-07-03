@@ -58,3 +58,12 @@
 - **HM Teacher Agent/Tool:** An agent or tool to automate the process of navigating the menu to teach a specific HM to a specific Pokémon, including selecting which move to replace.
 - **Tool Debugger Agent:** An agent that takes a tool name and debug objective (e.g., 'trace_path') to automatically generate a `run_code` script with debugging print statements. This would streamline fixing faulty tools.
 - **Strategic Exploration Agent:** An agent that analyzes the entire map, identifies clusters of unseen tiles, and suggests a more strategic exploration plan, especially for complex maps like Silph Co. or caves.
+## V. Tile Mechanics Documentation
+- **ground:** Standard walkable tile.
+- **water:** Walkable only with SURF.
+- **impassable:** Cannot be walked on (walls, counters, etc.).
+- **ledge:** Can be jumped down, but not up. A one-way barrier from below.
+- **grass:** Tall grass with wild Pokémon encounters.
+
+## VI. Future Agent & Tool Development Ideas
+- **Tool Debugger Agent:** An agent that takes a tool name and debug objective (e.g., 'trace_path') to automatically generate a `run_code` script with debugging print statements. This would streamline fixing faulty tools.
