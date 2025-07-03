@@ -55,7 +55,7 @@
 - **Safari Zone Mechanics Testing (T41962):**
   - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
 - **Exploration Strategy:** Prioritize exploring known points of interest (like reachable, unvisited warps/ladders) over using `automated_explorer` for blind exploration of unseen tiles, as this is more direct.
-- **Tool Idea:** Create a `wkg_pathfinder` agent to plan routes across multiple maps by analyzing the World Knowledge Graph.
+- **Tool Idea:** Create a `wkg_pathfinder` tool to plan routes across multiple maps by analyzing the World Knowledge Graph.
 
 ## V. Defeated Bosses Log
 - **Rival Pixel (Route 22):** PIDGEOTTO (Lv. 9), EEVEE (Lv. 8)
