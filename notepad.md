@@ -46,3 +46,6 @@
 - **Discovery:** My pathfinder correctly determined that there is no path from the Route 32 Pokemon Center area to the Union Cave entrance on the same map. This is due to a system of one-way ledges and `FLOOR_UP_WALL` tiles that separate the southern part of the route from the northern part.
 - **New Strategy:** To reach Union Cave, I must backtrack north through Route 32, re-enter Violet City, and then come back to Route 32 from the main northern entrance. This will place me on the correct side of the one-way barriers.
 - **HEADBUTT_TREE:** Quest Strategist suggests these require the move 'Headbutt' to interact with, not the standard 'A' button.
+
+### Item Effects
+- **EVERSTONE:** A Pokémon holding this item will not evolve.
