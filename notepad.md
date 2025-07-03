@@ -48,8 +48,8 @@
 
 ### B. Agent Debugging Log
 - **`battle_strategist_agent` Failures:**
-  - **(T43952):** Recommended THUNDERBOLT vs. JYNX (Ice/Psychic), failing to account for Psychic's immunity to Electric. Initial fix was insufficient.
-  - **(T43976):** Repeatedly recommended THUNDERBOLT vs. JYNX after the initial fix. The agent's logic for prioritizing immunities is fundamentally flawed and requires a complete overhaul of its system prompt.
+  - **(T43952 & T43976):** Repeatedly recommended THUNDERBOLT vs. JYNX (Ice/Psychic), failing to account for Psychic's immunity to Electric. The agent's logic for prioritizing immunities was fundamentally flawed.
+  - **(T44071):** Agent has been updated with a stricter prompt emphasizing immunity checks as the highest priority.
 
 ## IV. Investigation & Hypothesis Log
 - **Safari Zone Mechanics Testing (T41962):**
