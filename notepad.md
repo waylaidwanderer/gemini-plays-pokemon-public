@@ -38,7 +38,7 @@
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
 ### B. Agent & Tool Usage Notes
-- **`pc_navigator_agent`:** AI Observer noted this is unused. I will make it a priority to test this agent the next time I use a Pokémon Center PC.
+- **`pc_navigator_agent`:** This agent has been successfully used to navigate the PC menu. It is a reliable tool for depositing and withdrawing Pokémon.
 - **`automated_explorer`:** The tool's core logic now checks the WKG for SURF capability, allowing it to plan paths across water even if the player is not currently surfing. This is a more robust, permanent solution.
 
 ### C. Tile Mechanics
