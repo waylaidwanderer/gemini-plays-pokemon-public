@@ -38,7 +38,7 @@
 - **Plan:** After dealing with the Slowpoke Well situation and getting CUT, I will return to this location.
 
 ## III. Tool Development Log
-- **`path_master_v3` (Fixed again):** The tool's one-way tile logic was still flawed and failed to prevent moving sideways onto a vertical `LEDGE`. I have rewritten the logic to be more explicit about which directions are allowed for each specific hop tile type. This should be more robust.
+- **`path_master_v3` (Correction):** The tool was working correctly. My manual tests failed to account for the one-way nature of `FLOOR_UP_WALL` tiles, leading me to believe the tool was broken when it was, in fact, correctly identifying an impassable path.
 - **HEADBUTT_TREE:** Quest Strategist suggests these require the move 'Headbutt' to interact with, not the standard 'A' button.
 
 ## IV. Item Effects
