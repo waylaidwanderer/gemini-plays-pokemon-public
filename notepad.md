@@ -31,10 +31,17 @@
   5. The path to the well at (31, 7) is physically blocked by the grunt at (31, 9); there is no way around him.
   8. Talking to the Rocket Grunt at the gym (10, 16) to learn about SLOWPOKETAILs and then talking to Kurt does not make him move.
 
+### Route 30 Blocked Path
+- Status: The path north on Route 30 is blocked by Youngster Mikey at (5, 23).
+- Current Plan: Test the hypothesis that leaving the area and returning will reset his position.
+- Failed Attempts Log:
+  1. Talking to Youngster Mikey at (5, 23) does not make him move.
+  2. Talking to Youngster Joey at (2, 28) does not make Youngster Mikey move.
+
 ## III. Strategic Plans & Hypotheses
 
 ## IV. Tool Development Log
-- **`path_master_v3` (Under Repair):** This tool has a history of being unreliable, but recent fixes to its ledge and wall handling logic seem promising. Requires more testing to be considered fully reliable.
+- **`path_master_v3` (Fixed... for now):** The tool's ledge and wall handling logic has been rewritten. It appears to be working correctly, but I will monitor it closely for any further bugs.
 - **HEADBUTT_TREE:** Quest Strategist suggests these require the move 'Headbutt' to interact with, not the standard 'A' button.
 
 ### Item Effects
