@@ -21,6 +21,10 @@
 - **Prerequisite:** Obtain HM01 (CUT).
 - **Plan:** After dealing with the Slowpoke Well situation and getting CUT, I will return to this location.
 
+### Ruins of Alph Puzzle
+- **Clues:** 
+- **Failed Attempts:** 
+
 ## III. Tool Development Log
 - **`path_master_v5` (New):** Created to correctly handle directional `LEDGE_HOP_*` tiles, which the previous version failed to do. This is critical for accurate pathfinding.
 - **`path_master_v4` (Corrected):** Fixed an issue where the tool was incorrectly marking all off-screen objects as impassable. It now correctly takes a list of on-screen obstacles.
