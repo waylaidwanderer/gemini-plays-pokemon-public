@@ -50,15 +50,5 @@
   - LEGION > Sandslash (backup) & Psychic pivot
 - **Training Plan:** Train TITANESS, GUILLOTIN, and LEGION to Lv. 45 in Seafoam Islands (B1F), targeting Jynx, Golbat, and Krabby for high EXP.
 
-## V. World & Tile Mechanics
-### A. Tile Traversal Rules
-- `ground`: Standard walkable tile.
-- `impassable`: Walls, counters, rocks, etc. Cannot be entered.
-- `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting.
-- `ledge`: Can be jumped down, but not climbed up.
-- `grass`: Tall grass for wild Pokémon encounters. Walkable.
-- `water`: Crossable using HM Surf.
-- `steps`: Allows vertical movement between different elevations.
-
 ## VI. Future Agent & Tool Development Ideas
 - **HM Teacher Agent/Tool:** An agent or tool to automate the process of navigating the menu to teach a specific HM to a specific Pokémon, including selecting which move to replace.
