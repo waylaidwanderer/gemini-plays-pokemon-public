@@ -16,18 +16,16 @@
 - **Status:** The western part of Ilex Forest is blocked by a tree at (8, 25) that requires CUT. I will return here after obtaining the HM.
 
 ### Azalea Town Slowpoke Well Puzzle
-- **Current Hypothesis:** The game has flagged Kurt as having gone to the well, even though he is visually still in his house. I need to go to the well for the event to trigger.
-- **Failed Attempts Log (Consolidated):**
-  1. Revealing the Farfetch'd statue in Kurt's house does not make the Rocket Grunt at the well disappear.
-  2. Talking to the Rocket Grunt at the well after the Farfetch'd reveal results in the same dialogue.
-  3. Talking to Kurt's apprentice after the Farfetch'd reveal results in the same dialogue.
-  4. Talking to Kurt after the Farfetch'd reveal results in the same dialogue.
-  5. Talking to Gramps after the Farfetch'd reveal results in the same dialogue.
-  6. Visiting the well and then immediately returning to Kurt's house does not trigger a new event or dialogue.
-  7. Interacting directly with the well structure is impossible as the Rocket Grunt blocks the path.
-  8. A strict sequence of talking to Kurt -> apprentice -> well has been attempted and failed.
+- **Goal:** Make the Rocket Grunt at (31, 9) in Azalea Town move so I can enter the Slowpoke Well.
+- **Current State:** Kurt is in his house and will not move. The Rocket Grunt is blocking the well.
+- **Failed Attempts Log (Consolidated):
+  1. Talking to Kurt does not make him move.
+  2. Talking to the Rocket Grunt at the well does not make him move.
+  3. Talking to Kurt's apprentice does not trigger anything.
+  4. Interacting with the Farfetch'd statue at (5, 6) in Kurt's house does nothing.
+  5. The path to the well at (31, 7) is physically blocked by the grunt at (31, 9); there is no way around him.
 
-## III. Strategic Notes & Reflections
-- **WKG Maintenance:** I must be more diligent about adding new connections to my World Knowledge Graph immediately upon discovering them. My memory is unreliable.
-- **Dynamic Markers:** I must use dynamic markers linked to `object_id` for all moving NPCs to avoid confusion.
-- **Untested Assumptions:** If I remain stuck, I will test the assumption that the solution is in Azalea Town by pivoting to my secondary goal of visiting Professor Elm.
+## III. Strategic Plans & Hypotheses
+
+- **Next Step:** Use the newly created `quest_strategist` agent to generate new hypotheses for the Slowpoke Well puzzle.
+- **Untested Assumption:** The solution to the puzzle is located within Azalea Town. If the agent's suggestions fail, I will test this by leaving town and returning, or by going to see Professor Elm as per his last phone call.
