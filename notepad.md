@@ -36,4 +36,4 @@
 - **Current Plan:** Travel from Azalea Town to New Bark Town to meet Professor Elm.
 
 ## IV. Tool Development Log
-- **`path_master` & `path_master_v2` (abandoned):** Multiple attempts to fix my BFS-based pathfinders for Route 32 have failed. The logic for handling one-way tiles was insufficient. These tools are now considered deprecated. I am developing a new `path_master_v2` with completely revised logic.
+- **`path_master` & `path_master_v2` (deprecated):** Multiple attempts to fix my BFS-based pathfinders for Route 32 have failed. The logic for handling one-way tiles was insufficient. These tools are now considered deprecated. I am developing a new `path_master_v2` with completely revised logic.
