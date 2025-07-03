@@ -54,3 +54,4 @@
 
 ## VI. Agent & Tool Ideas
 - **Exploration Advisor Agent:** An agent that analyzes the current map XML and markers to suggest the most logical next exploration step (e.g., "There is an unlocked, unvisited door at X,Y"), providing more strategic guidance than the `automated_explorer` tool.
+- **Rival Pixel's Alakazam (Silph Co. 7F):** Has Psychic and Tri Attack. Wiped my team due to Psychic's immunity to Electric and super-effective damage against my other Pokemon. Need a better strategy and possibly different team composition for the rematch.
