@@ -64,3 +64,10 @@
 
 ## VI. Tile Mechanics Glossary
 - This section will systematically document all discovered tile types and their traversal rules.
+
+## VII. Post-Battle Action Queue (T43417)
+- **CRITICAL:** Fix `automated_explorer` tool. The logic for handling obstacles or defeated trainers is flawed.
+- **CRITICAL:** Update Notepad's Tile Mechanics Glossary with `ground`, `grass`, `ledge`, `impassable`, `steps`, `elevated_ground`, and `water`.
+- **CRITICAL:** Mark Beauty at (54, 13) on Route 15 as defeated.
+- **CRITICAL:** Explore the last unseen tile at (60, 14) on Route 15.
+- **PRIORITY:** Heal party at the nearest Pokémon Center.
