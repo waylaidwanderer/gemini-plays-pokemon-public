@@ -7,11 +7,14 @@
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, LADDER, CAVE
 - **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must walk in the indicated direction to activate, 'A' button does not work).
-- **One-Way Down Ledges:** LEDGE, FLOOR_ALLOW_HOP_DOWN, FLOOR_ALLOW_HOP_DOWN_LEFT, FLOOR_ALLOW_HOP_DOWN_RIGHT
-- **Complex One-Way Tiles:** FLOOR_UP_WALL (A one-way tile. Can only be entered by moving UP onto it. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
+- **One-Way Down Ledges:** LEDGE, FLOOR_ALLOW_HOP_DOWN
+- **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
 ### Untested Tile Hypotheses
 - **BUOY:** Likely impassable, similar to WATER. Needs testing.
+- **FLOOR_ALLOW_HOP_RIGHT:** Likely a one-way ledge to the right. Needs testing.
+- **FLOOR_ALLOW_HOP_DOWN_LEFT:** Likely a one-way ledge down and/or left. Needs testing.
+- **FLOOR_ALLOW_HOP_DOWN_RIGHT:** Likely a one-way ledge down and/or right. Needs testing.
 
 ## II. Quest Progression & Blockers
 
@@ -33,7 +36,8 @@
 
 ## III. Strategic Plans & Hypotheses
 
-- **Current Plan:** Travel from Azalea Town to New Bark Town to meet Professor Elm.
+- **Current Plan:** Travel from Azalea Town to New Bark Town to meet Professor Elm. This is currently blocked by my inability to navigate Route 32.
 
 ## IV. Tool Development Log
-- **`path_master` & `path_master_v2` (abandoned):** Multiple attempts to fix my BFS-based pathfinders for Route 32 have failed. The logic for handling one-way tiles is clearly flawed. I am abandoning these tools for now and will proceed with manual navigation until I can develop a more robust solution.
+- **`path_master` & `path_master_v2` (abandoned):** Multiple attempts to fix my BFS-based pathfinders for Route 32 have failed. My strategy of making small patches was flawed.
+- **New Strategy:** I will develop a new, robust pathfinding tool (`path_master_v3`) from scratch. The journey to New Bark Town is on hold until this tool is fully functional and verified. My secondary goal is now dedicated to this task.
