@@ -46,3 +46,17 @@
 
 ## V. Agent & Tool Ideas
 - **Exploration Advisor Agent:** An agent that analyzes the current map XML and markers to suggest the most logical next exploration step (e.g., "There is an unlocked, unvisited door at X,Y"), providing more strategic guidance than the `automated_explorer` tool.
+## VI. Tile Mechanics
+- `ground`: Standard walkable tile.
+- `grass`: Walkable tile with wild Pokémon encounters.
+- `water`: Crossable with SURF.
+- `impassable`: Walls, objects, etc. Cannot be entered.
+- `cuttable`: Trees that can be cut with HM Cut.
+- `ledge`: One-way traversal downwards.
+- `warp`: Doors, stairs, ladders that lead to new map areas.
+- `spinner`: Forces movement in a specific direction.
+- `hole`: Drops the player to a lower floor.
+- `steps`: Allows movement between different elevations.
+
+## V. Agent & Tool Ideas
+- **Object Verifier Tool:** A tool that takes coordinates and an object name (e.g., 'Snorlax') as input. It would parse the `map_xml_string` to confirm if an object with that `id-name` actually exists at the specified location. This would prevent future hallucinations based on memories of the original game.
