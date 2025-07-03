@@ -45,50 +45,6 @@
     },
     "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef find_path():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get('width'))\n        height = int(root.get('height'))\n        start = (int(input_data['start_x']), int(input_data['start_y']))\n        end = (int(input_data['end_x']), int(input_data['end_y']))\n\n        grid = {}\n        for row_elem in root.findall('Row'):\n            y = int(row_elem.get('id'))\n            for tile_elem in row_elem.findall('Tile'):\n                x = int(tile_elem.get('id'))\n                tile_type = tile_elem.get('type')\n                has_object = tile_elem.get('has-object') == 'true'\n                object_name = None\n                if has_object:\n                    obj_elem = tile_elem.find('Object')\n                    if obj_elem is not None:\n                        object_name = obj_elem.get('id-name')\n                grid[(x, y)] = {'type': tile_type, 'has_object': has_object, 'object_name': object_name}\n\n        queue = collections.deque([start])\n        came_from = {start: None}\n\n        while queue:\n            current = queue.popleft()\n            if current == end:\n                break\n\n            for move_x, move_y in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                next_x, next_y = current[0] + move_x, current[1] + move_y\n                next_pos = (next_x, next_y)\n\n                if not (1 <= next_x <= width and 1 <= next_y <= height) or next_pos in came_from:\n                    continue\n\n                current_tile_info = grid.get(current, {})\n                next_tile_info = grid.get(next_pos, {})\n                next_tile_type = next_tile_info.get('type')\n\n                if next_tile_type in ['impassable', 'unknown']:\n                    continue\n\n                if next_tile_info.get('has_object') and next_tile_info.get('object_name') != 'Pikachu':\n                    if next_pos != end:\n                        continue\n                \n                if next_tile_type == 'ledge':\n                    if move_y == 1:\n                        ledge_jump_pos = (next_x, next_y + 1)\n                        if ledge_jump_pos in came_from: continue\n                        if grid.get(ledge_jump_pos, {}).get('type') not in ['impassable', 'unknown']:\n                            came_from[next_pos] = current\n                            came_from[ledge_jump_pos] = next_pos\n                            queue.append(ledge_jump_pos)\n                        continue\n                    else:\n                        continue\n\n                current_is_elevated = current_tile_info.get('type') == 'elevated_ground'\n                next_is_elevated = next_tile_info.get('type') == 'elevated_ground'\n                if current_is_elevated != next_is_elevated:\n                    if not (current_tile_info.get('type') in ['steps', 'ladder_up', 'ladder_down'] or next_tile_type in ['steps', 'ladder_up', 'ladder_down']):\n                        continue\n                \n                came_from[next_pos] = current\n                queue.append(next_pos)\n\n        if end in came_from:\n            path = []\n            current = end\n            while current is not None:\n                path.append(list(current))\n                current = came_from.get(current)\n            print(json.dumps({\"status\": \"success\", \"path\": path[::-1]}))\n        else:\n            print(json.dumps({\"status\": \"error\", \"message\": \"No path found. The destination is on an unreachable segment of the map.\"}))\n\n    except Exception as e:\n        import traceback\n        print(json.dumps({\"status\": \"error\", \"message\": f'An exception occurred: {traceback.format_exc()}'}))\n\nfind_path()"
   },
-  "wkg_edge_payload_generator": {
-    "description": "A helper tool that generates the correct JSON payload for adding an edge to the World Knowledge Graph. It finds the required node IDs based on map and coordinate inputs, and correctly includes source/destination coordinates.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "source_map_id": {
-          "type": "string"
-        },
-        "source_x": {
-          "type": "string"
-        },
-        "source_y": {
-          "type": "string"
-        },
-        "dest_map_id": {
-          "type": "string"
-        },
-        "dest_x": {
-          "type": "string"
-        },
-        "dest_y": {
-          "type": "string"
-        },
-        "connection_type": {
-          "type": "string"
-        },
-        "is_one_way": {
-          "type": "string"
-        },
-        "destination_entry_point": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "source_map_id",
-        "source_x",
-        "source_y",
-        "dest_map_id",
-        "dest_x",
-        "dest_y"
-      ]
-    },
-    "python_script": "import json\n\ndef main():\n    try:\n        wkg = json.loads(world_knowledge_graph_json_string)\n        nodes = wkg.get('nodes', [])\n\n        source_map_id = input_data['source_map_id']\n        source_x = int(input_data['source_x'])\n        source_y = int(input_data['source_y'])\n        dest_map_id = input_data['dest_map_id']\n        dest_x = int(input_data['dest_x'])\n        dest_y = int(input_data['dest_y'])\n        connection_type = input_data.get('connection_type', 'map_edge')\n        is_one_way_str = input_data.get('is_one_way', 'false').lower()\n        is_one_way = is_one_way_str == 'true'\n        dest_entry_point_str = input_data.get('destination_entry_point')\n\n        source_node_id = None\n        dest_node_id = None\n\n        for node in nodes:\n            if node['map_id'] == source_map_id and node['coordinates']['x'] == source_x and node['coordinates']['y'] == source_y:\n                source_node_id = node['id']\n            if node['map_id'] == dest_map_id and node['coordinates']['x'] == dest_x and node['coordinates']['y'] == dest_y:\n                dest_node_id = node['id']\n            if source_node_id and dest_node_id:\n                break\n\n        if not source_node_id or not dest_node_id:\n            print(json.dumps({\"status\": \"error\", \"message\": \"One or both nodes not found in World Knowledge Graph.\"}))\n            return\n\n        payload = {\n            \"source_node_id\": source_node_id,\n            \"destination_node_id\": dest_node_id,\n            \"connection_type\": connection_type,\n            \"source_coordinates\": {\"map_id\": source_map_id, \"x\": source_x, \"y\": source_y},\n            \"destination_coordinates\": {\"map_id\": dest_map_id, \"x\": dest_x, \"y\": dest_y},\n            \"is_one_way\": is_one_way\n        }\n\n        if dest_entry_point_str and dest_entry_point_str.isdigit():\n            payload[\"destination_entry_point\"] = int(dest_entry_point_str)\n\n        print(json.dumps(payload))\n    except Exception as e:\n        print(json.dumps({\"status\": \"error\", \"message\": f\"An error occurred: {str(e)}\"}))\n\nmain()\n"
-  },
   "wkg_pathfinder": {
     "description": "Calculates the shortest path between two maps in the World Knowledge Graph, returning a sequence of map IDs and warp coordinates.",
     "input_schema": {
