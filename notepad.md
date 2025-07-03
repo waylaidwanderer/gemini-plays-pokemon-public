@@ -30,3 +30,4 @@
 
 ## III. Tool Notes
 - **`path_master`:** My pathfinding tool is reliable. I must be more careful to provide it with valid, traversable coordinates as input to avoid failed calls.
+- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT
