@@ -36,7 +36,7 @@
 ## III. Strategic Plans & Hypotheses
 
 ## IV. Tool Development Log
-- **`path_master_v3` (Under Repair):** This tool has a history of being unreliable, frequently failing to find valid paths or routing me through walls. I am iteratively debugging it. The latest version seems to handle ledges and walls more correctly, but requires further testing to be considered fully reliable.
+- **`path_master_v3` (Under Repair):** This tool has a history of being unreliable. I am iteratively debugging it to handle obstacles and one-way tiles correctly.
 - **HEADBUTT_TREE:** Quest Strategist suggests these require the move 'Headbutt' to interact with, not the standard 'A' button.
 
 ### Item Effects
