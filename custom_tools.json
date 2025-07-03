@@ -1,4 +1,23 @@
 {
+  "farfetchd_herder": {
+    "description": "Solves the Ilex Forest Farfetch'd puzzle by finding the Farfetch'd on the map and then calculating the correct sequence of player movements to herd it to a target location. This version actively searches for the Farfetch'd on the map.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "string"
+        },
+        "target_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    farfetchd_pos = None\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            obj = tile.find('Object')\n            if obj is not None and obj.get('id-name') == 'FARFETCHD':\n                farfetchd_pos = (int(tile.get('id')), int(row.get('id')))\n                break\n        if farfetchd_pos:\n            break\n\n    if farfetchd_pos:\n        print(json.dumps({\"status\": \"found\", \"farfetchd_x\": farfetchd_pos[0], \"farfetchd_y\": farfetchd_pos[1], \"message\": \"Farfetch'd found. Herding logic not yet implemented.\"}))\n    else:\n        print(json.dumps({\"status\": \"not_found\", \"message\": \"Farfetch'd object not found on the current map.\"}))\n\nexcept Exception as e:\n    import traceback\n    print(json.dumps({\"status\": \"error\", \"message\": f\"An exception occurred: {str(e)}\\n{traceback.format_exc()}\"}))"
+  },
   "path_finder_plus": {
     "description": "A more robust pathfinder that can navigate around on-screen NPCs and correctly handles one-way tiles.",
     "input_schema": {
@@ -30,44 +49,6 @@
     },
     "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef find_path_bfs(grid, start, end, all_impassable, debug_info):\n    warp_tiles = {'DOOR', 'CAVE', 'LADDER', 'WARP_CARPET_DOWN', 'WARP_CARPET_RIGHT', 'WARP_CARPET_LEFT'}\n    hop_down_tiles = {'LEDGE', 'FLOOR_ALLOW_HOP_DOWN'}\n    impassable_base = {\n        'WALL', 'VOID', 'WATER', 'CUT_TREE', 'COUNTER', 'BUOY', 'HEADBUTT_TREE', 'unseen',\n        'MART_SHELF', 'BOOKSHELF', 'TV', 'RADIO', 'PC', 'TOWN_MAP', 'WINDOW', 'PAINTING', 'STATUE', 'PILLAR',\n        'BED', 'TABLE', 'CHAIR'\n    }\n\n    print(f\"DEBUG: All impassable tiles for this run: {all_impassable}\")\n\n    if start not in grid or grid[start]['type'] in impassable_base or start in all_impassable:\n        debug_info['error'] = f\"Start position {start} is impassable.\"\n        return None\n    if end not in grid or (grid[end]['type'] in impassable_base and grid[end]['type'] not in warp_tiles) or (end in all_impassable and grid[end]['type'] not in warp_tiles):\n        debug_info['error'] = f\"End position {end} is impassable.\"\n        return None\n\n    queue = deque([(start, [start])])\n    visited = {start}\n\n    while queue:\n        current_pos, path = queue.popleft()\n\n        if current_pos == end:\n            return [list(p) for p in path]\n\n        for move_x, move_y, move_name in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            next_pos = (current_pos[0] + move_x, current_pos[1] + move_y)\n\n            if next_pos not in grid or next_pos in visited: continue\n            \n            current_type = grid[current_pos]['type']\n            next_type = grid[next_pos]['type']\n            \n            if next_type in impassable_base: continue\n            if next_pos in all_impassable and next_pos != end: continue\n            if next_type in warp_tiles and next_pos != end: continue\n            if move_name == 'Up' and current_type in hop_down_tiles: continue\n\n            visited.add(next_pos)\n            new_path = list(path)\n            new_path.append(next_pos)\n            queue.append((next_pos, new_path))\n\n    debug_info['error'] = 'No path found to destination.'\n    debug_info['nodes_checked'] = len(visited)\n    return None\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    extra_impassable = set()\n    if 'impassable_coordinates' in input_data and input_data['impassable_coordinates']:\n        impassable_list = json.loads(input_data['impassable_coordinates'])\n        extra_impassable = {tuple(coord) for coord in impassable_list}\n\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    on_screen_objects = set()\n\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            grid[(x, y)] = {'type': tile.get('type')}\n            if tile.find('Object') is not None and tile.find('Player') is None:\n                on_screen_objects.add((x, y))\n\n    all_impassable = on_screen_objects.union(extra_impassable)\n    debug_info = {}\n    path = find_path_bfs(grid, (start_x, start_y), (end_x, end_y), all_impassable, debug_info)\n    \n    print(json.dumps({\"path\": path if path else [], \"debug\": debug_info}))\n\nexcept Exception as e:\n    import traceback\n    print(json.dumps({\"path\": [], \"debug\": {\"error\": f\"An exception occurred: {str(e)}\\n{traceback.format_exc()}\"}}))\n"
   },
-  "route_finder": {
-    "description": "Finds a path between two maps using the World Knowledge Graph.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_map_id": {
-          "type": "string"
-        },
-        "end_map_id": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_map_id",
-        "end_map_id"
-      ]
-    },
-    "python_script": "import json\nimport collections\n\ndef find_route(graph, start_map_id, end_map_id):\n    if start_map_id not in graph or end_map_id not in graph:\n        return None\n\n    queue = collections.deque([[start_map_id]])\n    visited = {start_map_id}\n\n    while queue:\n        path = queue.popleft()\n        node = path[-1]\n\n        if node == end_map_id:\n            return path\n\n        for neighbor in graph.get(node, []):\n            if neighbor not in visited:\n                visited.add(neighbor)\n                new_path = list(path)\n                new_path.append(neighbor)\n                queue.append(new_path)\n\n    return None\n\ntry:\n    data = json.loads(world_knowledge_graph_json_string)\n    start_map = input_data['start_map_id']\n    end_map = input_data['end_map_id']\n\n    adjacency_list = collections.defaultdict(list)\n    for edge in data['edges']:\n        source_map = edge['source_coordinates']['map_id']\n        dest_map = edge['destination_coordinates']['map_id']\n        adjacency_list[source_map].append(dest_map)\n        if not edge.get('is_one_way', False):\n            adjacency_list[dest_map].append(source_map)\n\n    route = find_route(adjacency_list, start_map, end_map)\n    print(json.dumps({\"route\": route}))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))"
-  },
-  "farfetchd_herder": {
-    "description": "Solves the Ilex Forest Farfetch'd puzzle by finding the Farfetch'd on the map and then calculating the correct sequence of player movements to herd it to a target location. This version actively searches for the Farfetch'd on the map.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "string"
-        },
-        "target_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    farfetchd_pos = None\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            obj = tile.find('Object')\n            if obj is not None and obj.get('id-name') == 'FARFETCHD':\n                farfetchd_pos = (int(tile.get('id')), int(row.get('id')))\n                break\n        if farfetchd_pos:\n            break\n\n    if farfetchd_pos:\n        print(json.dumps({\"status\": \"found\", \"farfetchd_x\": farfetchd_pos[0], \"farfetchd_y\": farfetchd_pos[1], \"message\": \"Farfetch'd found. Herding logic not yet implemented.\"}))\n    else:\n        print(json.dumps({\"status\": \"not_found\", \"message\": \"Farfetch'd object not found on the current map.\"}))\n\nexcept Exception as e:\n    import traceback\n    print(json.dumps({\"status\": \"error\", \"message\": f\"An exception occurred: {str(e)}\\n{traceback.format_exc()}\"}))"
-  },
   "path_master": {
     "description": "An advanced pathfinding tool that uses a Breadth-First Search (BFS) algorithm to find a path between two points on the current map. It correctly handles one-way tiles and navigates around on-screen NPCs and other obstacles.",
     "input_schema": {
@@ -98,5 +79,24 @@
       ]
     },
     "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef find_path_bfs(grid, start, end, all_impassable, debug_info):\n    impassable_base = {\n        'WALL', 'VOID', 'WATER', 'CUT_TREE', 'COUNTER', 'BUOY', 'HEADBUTT_TREE', 'unseen',\n        'MART_SHELF', 'BOOKSHELF', 'TV', 'RADIO', 'PC', 'TOWN_MAP', 'WINDOW', 'PAINTING', 'STATUE', 'PILLAR',\n        'BED', 'TABLE', 'CHAIR'\n    }\n    hop_down_tiles = {'LEDGE', 'FLOOR_ALLOW_HOP_DOWN', 'FLOOR_ALLOW_HOP_DOWN_LEFT', 'FLOOR_ALLOW_HOP_DOWN_RIGHT'}\n\n    if start not in grid or grid[start]['type'] in impassable_base or start in all_impassable:\n        debug_info['error'] = f'Start position {start} is impassable.'\n        return None\n    if end not in grid or grid[end]['type'] in impassable_base or end in all_impassable:\n        debug_info['error'] = f'End position {end} is impassable.'\n        return None\n\n    queue = deque([(start, [start])])\n    visited = {start}\n\n    while queue:\n        current_pos, path = queue.popleft()\n\n        if current_pos == end:\n            return [list(p) for p in path]\n\n        for move_x, move_y, move_name in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            next_pos = (current_pos[0] + move_x, current_pos[1] + move_y)\n\n            if next_pos not in grid or next_pos in visited: continue\n            \n            current_type = grid[current_pos]['type']\n            next_type = grid[next_pos]['type']\n            \n            if next_type in impassable_base: continue\n            if next_pos in all_impassable and next_pos != end: continue\n            if move_name == 'Up' and current_type in hop_down_tiles: continue\n\n            visited.add(next_pos)\n            new_path = list(path)\n            new_path.append(next_pos)\n            queue.append((next_pos, new_path))\n\n    debug_info['error'] = 'No path found to destination.'\n    debug_info['nodes_checked'] = len(visited)\n    return None\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    extra_impassable = set()\n    if 'impassable_coordinates' in input_data and input_data['impassable_coordinates']:\n        impassable_list = json.loads(input_data['impassable_coordinates'])\n        extra_impassable = {tuple(coord) for coord in impassable_list}\n\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    on_screen_objects = set()\n\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            grid[(x, y)] = {'type': tile.get('type')}\n            if tile.find('Object') is not None and tile.find('Player') is None:\n                on_screen_objects.add((x, y))\n\n    all_impassable = on_screen_objects.union(extra_impassable)\n    debug_info = {}\n    path = find_path_bfs(grid, (start_x, start_y), (end_x, end_y), all_impassable, debug_info)\n    \n    print(json.dumps({'path': path if path else [], 'debug': debug_info}))\n\nexcept Exception as e:\n    import traceback\n    print(json.dumps({'path': [], 'debug': {'error': f\"An exception occurred: {str(e)}\\n{traceback.format_exc()}\"}}))\n"
+  },
+  "route_finder": {
+    "description": "Finds a path between two maps using the World Knowledge Graph.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_map_id": {
+          "type": "string"
+        },
+        "end_map_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_map_id",
+        "end_map_id"
+      ]
+    },
+    "python_script": "import json\nimport collections\n\ndef find_route(graph, start_map_id, end_map_id):\n    if start_map_id not in graph or end_map_id not in graph:\n        return None\n\n    queue = collections.deque([[start_map_id]])\n    visited = {start_map_id}\n\n    while queue:\n        path = queue.popleft()\n        node = path[-1]\n\n        if node == end_map_id:\n            return path\n\n        for neighbor in graph.get(node, []):\n            if neighbor not in visited:\n                visited.add(neighbor)\n                new_path = list(path)\n                new_path.append(neighbor)\n                queue.append(new_path)\n\n    return None\n\ntry:\n    data = json.loads(world_knowledge_graph_json_string)\n    start_map = input_data['start_map_id']\n    end_map = input_data['end_map_id']\n\n    adjacency_list = collections.defaultdict(list)\n    for edge in data['edges']:\n        source_map = edge['source_coordinates']['map_id']\n        dest_map = edge['destination_coordinates']['map_id']\n        adjacency_list[source_map].append(dest_map)\n        if not edge.get('is_one_way', False):\n            adjacency_list[dest_map].append(source_map)\n\n    route = find_route(adjacency_list, start_map, end_map)\n    print(json.dumps({\"route\": route}))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))"
   }
 }
