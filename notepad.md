@@ -43,7 +43,6 @@
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
 ## IV. Investigation & Hypothesis Log
-- **Hypothesis:** The water areas in Safari Zone West, which I can now access with SURF and my updated `pathfinder`, contain the path forward or a key item.
 - **Safari Zone Mechanics Testing (T41962):**
   - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
 
@@ -61,15 +60,6 @@
 - **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
 ### C. Item Mechanics
 - **EXP.ALL:** Gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
-
-## VI. Tile Mechanics Glossary
-- **ground:** A standard walkable tile.
-- **grass:** Walkable tile where wild Pokémon encounters can occur.
-- **ledge:** A one-way traversal tile. Can be jumped down from above, but not climbed up from below.
-- **impassable:** A tile that cannot be walked on, such as walls, trees, or counters.
-- **steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
-- **elevated_ground:** Walkable ground at a different elevation, only accessible via `steps`.
-- **water:** A tile that can be traversed using the SURF HM.
 
 ## VI. Tile Mechanics Glossary
 - **ground:** A standard walkable tile.
