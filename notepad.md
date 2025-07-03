@@ -1,6 +1,6 @@
-## I. Core Protocols & Immediate Actions (v43201)
+## I. Core Protocols & Immediate Actions (v43624)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v31 - Simplified Manual):** The correct, manual process for documenting map transitions is: **Turn 1:** Add the source node. **Turn 2:** Add the destination node. **Turn 3:** Add the edge connecting them. This is the highest priority action after a map transition.
+- **CRITICAL: WKG Protocol (v31 - Simplified Manual):** The correct, manual process for documenting map transitions is: **Turn 1:** Add the source node. **Turn 2:** Add the destination node. **Turn 3:** Add the edge connecting them. I must check the WKG for existing nodes/edges before adding new ones.
 - **CRITICAL: Map Marker Protocol (v13):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
 - **CRITICAL: Agent & Tool Protocol (v10):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
@@ -36,12 +36,13 @@
 - **Elevation Traversal:** Movement between `ground` and `elevated_ground` tiles is only possible via `steps` tiles. Direct movement between them is blocked.
 
 ## III. System & Tool Development
-### A. Tool Debugging & Refinement Protocol (v16 - IMMEDIATE ACTION)
+### A. Tool Debugging & Refinement Protocol (v17 - IMMEDIATE ACTION)
 - **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. **Abandoning a tool is a protocol violation.**
 - **DEBUGGING STEP 1 (Advanced):** Use `run_code` with a modified pathfinding script. Print the `current` node inside the main loop to trace the BFS exploration path.
 - **DEBUGGING STEP 2 (Advanced Analysis):** If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where the pathfinding fails. This will confirm if the map is segmented.
 - **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
+- **`automated_explorer` Logic:** The tool's core logic is to find the nearest *reachable* tile that is *adjacent* to an unseen tile. It does not pathfind *to* the unseen tile itself, as 'unknown' tiles are treated as impassable by the pathfinder.
 
 ## IV. Investigation & Hypothesis Log
 - **Safari Zone Mechanics Testing (T41962):**
@@ -60,10 +61,7 @@
 - **Rival Pixel (Silph Co.):** PIDGEOT (Lv. 37), GROWLITHE (Lv. 35), EXEGGCUTE (Lv. 38), ALAKAZAM (Lv. 35), VAPOREON (Lv. 40)
 - **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
 
-## VI. Tool Mechanics & Debugging Insights
-- **`automated_explorer` Logic:** The tool correctly identifies water as impassable if no party member knows SURF. It is not bugged; it reflects my current party's limitations. To explore water areas, I must have a Pokémon with SURF in my active party.
-
-## VIII. Current Strategy & Plans
+## VI. Current Strategy & Plans
 - **Primary Goal:** Defeat Sabrina in Saffron City.
 - **Secondary Goal:** Explore all areas accessible with SURF.
   - **Current Plan (Route 12):** Now that HELIX has SURF, I will fully explore the water sections of Route 12 to find any items, trainers, or new paths. I will use `automated_explorer` to guide my exploration of unseen tiles.
