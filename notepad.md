@@ -44,3 +44,10 @@
 ## IV. Item Effects
 - **EVERSTONE:** A Pokémon holding this item will not evolve.
 - **FRUIT_TREE:** Gives a 'BERRY' item when interacted with. Seems to be a one-time collection per tree.
+
+### To-Do/Reminders
+- Test the following tile types on Route 32 when possible:
+  - BUOY
+  - FLOOR_ALLOW_HOP_RIGHT
+  - FLOOR_ALLOW_HOP_DOWN_LEFT
+  - FLOOR_ALLOW_HOP_DOWN_RIGHT
