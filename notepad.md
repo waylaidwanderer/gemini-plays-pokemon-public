@@ -32,3 +32,4 @@
 - **`path_master`:** My pathfinding tool is reliable. I must be more careful to provide it with valid, traversable coordinates as input to avoid failed calls.
   7. Speaking to Kurt -> Speaking to the Rocket Grunt at the well -> Returning and speaking to Kurt again does not trigger an event.
   8. (Correction) My previous attempt to speak to the apprentice after the Farfetch'd reveal failed because he moved. The hypothesis that he is the trigger remains untested.
+- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must walk in the indicated direction to activate, 'A' button does not work).
