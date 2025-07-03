@@ -25,7 +25,6 @@
 - **Status:** I am currently stuck on this puzzle. All hypotheses have failed.
 - **Current Plan:** The Slowpoke Well puzzle is on hold. The immediate objective is to backtrack through the southern part of the region to access the northern part of Route 32, which is required to continue towards Azalea Town.
 - **Failed Attempts Log (Consolidated):
-  1. Talking to Kurt does not make him move.
   2. Talking to the Rocket Grunt at the well does not make him move.
   3. Talking to Kurt's apprentice does not trigger anything.
   4. Interacting with the Farfetch'd statue at (5, 6) in Kurt's house does nothing.
