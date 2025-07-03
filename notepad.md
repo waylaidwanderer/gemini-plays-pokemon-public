@@ -33,4 +33,4 @@
 - **Current Plan:** Travel from Azalea Town to New Bark Town to meet Professor Elm.
 
 ## Tool Improvement Log
-- **`path_master`:** The current version does not correctly handle one-way `LEDGE` tiles when planning sideways movement. I need to update it to treat these tiles as impassable from the sides and below.
+- **`path_master`:** Fixed. The tool now correctly handles one-way `LEDGE` tiles, preventing sideways or upward movement onto them.
