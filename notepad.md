@@ -67,6 +67,3 @@
 
 ## VI. Tile Mechanics Glossary
 - This section will systematically document all discovered tile types and their traversal rules.
-
-### B. Tool Development Ideas
-- **Tool Debugger Agent:** An agent that can take a faulty tool's code and error message as input and suggest a fix. This could streamline my debugging process significantly.
