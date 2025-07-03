@@ -46,3 +46,4 @@
 - **Warp Tiles:** Most 1x1 warps are instant. Larger 2x1 or 1x2 warps require moving onto the tile and then into the impassable boundary.
 - **Ledge Traversal:** Moving down onto a ledge tile from above (Y-1) automatically moves the player to the tile below the ledge (Y+2) in a single button press.
 - **SURF Initiation:** Interacting with a water tile's edge brings up the SURF prompt directly.
+- **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
