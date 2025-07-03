@@ -23,6 +23,7 @@
 
 ### Ruins of Alph Puzzle
 - **Clues:** 
+  - Teacher at (13, 14) said: 'This place has a mystical quality to it. It feels sort of ethereal even.' (Not a direct clue).
 - **Failed Attempts:** 
 
 ## III. Tool Development Log
