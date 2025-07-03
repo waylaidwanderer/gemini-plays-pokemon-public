@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v43624)
+## I. Core Protocols & Immediate Actions (v43728)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v32 - Streamlined):** When documenting a map transition, I will first check for existing nodes. If nodes exist, I will add the edge. If they don't, I will add the source node, destination node, and the connecting edge in a single turn if possible. I must always check for existing elements before adding new ones to prevent duplication.
-- **CRITICAL: Map Marker Protocol (v13):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
-- **CRITICAL: Agent & Tool Protocol (v10):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution.
+- **CRITICAL: WKG Protocol (v33 - Sequential):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge in sequential turns. I must always check for existing elements before adding new ones to prevent duplication.
+- **CRITICAL: Map Marker Protocol (v14):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
+- **CRITICAL: Agent & Tool Protocol (v11):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
@@ -62,6 +62,4 @@
 - **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
 
 ## VI. Current Strategy & Plans
-- **Primary Goal:** Defeat Sabrina in Saffron City.
-- **Secondary Goal:** Explore all areas accessible with SURF.
-  - **Current Plan (Route 12):** Now that HELIX has SURF, I will fully explore the water sections of Route 12 to find any items, trainers, or new paths. I will use `automated_explorer` to guide my exploration of unseen tiles.
+- **Current Plan (Route 20):** I am on a new, unexplored water route. My immediate priority is to explore this area fully using SURF and my `automated_explorer` tool to uncover all unseen tiles, items, and trainers.
