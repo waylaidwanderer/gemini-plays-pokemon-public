@@ -18,24 +18,18 @@
 
 ## II. Quest Progression & Puzzles
 
-### Blocked Path: Ilex Forest West
-- **Status:** The western part of Ilex Forest is blocked by a tree at (8, 25) that requires CUT. I will return here after obtaining the HM.
-
 ### Azalea Town Slowpoke Well Puzzle
-- **Status:** On hold. After Kurt deals with the Rocket Grunt, I need to clear out Team Rocket from the well. This will likely lead to getting the HM for CUT.
-- **Failed Attempts Log (Consolidated):
-  2. Talking to the Rocket Grunt at the well does not make him move.
-  3. Talking to Kurt's apprentice does not trigger anything.
-  4. Interacting with the Farfetch'd statue at (5, 6) in Kurt's house does nothing.
-  5. The path to the well at (31, 7) is physically blocked by the grunt at (31, 9); there is no way around him.
-  8. Talking to the Rocket Grunt at the gym (10, 16) to learn about SLOWPOKETAILs and then talking to Kurt does not make him move.
+- **Objective:** Get Kurt to clear the Rocket Grunt from the Slowpoke Well entrance.
+- **Current Hypothesis (Verified):** Kurt will intervene after I speak to him in his house. This action successfully removed the grunt once, allowing access to the well.
+- **Next Steps:**
+  1. Re-enter Kurt's house and speak to him to trigger the event again.
+  2. Enter the Slowpoke Well and clear out Team Rocket.
+  3. This should lead to obtaining the HM for CUT.
 
-### Route 30 Blocked Path
-- **Status:** Solved.
-- **Solution:** Leaving the area and re-entering caused the blocking NPC (Youngster Mikey) to move.
-- **Failed Attempts Log:
-  1. Talking to Youngster Mikey at (5, 23) does not make him move.
-  2. Talking to Youngster Joey at (2, 28) does not make Youngster Mikey move.
+### Blocked Path: Ilex Forest West
+- **Objective:** Clear the CUT tree at (8, 25) to access the western part of the forest.
+- **Prerequisite:** Obtain HM01 (CUT).
+- **Plan:** After dealing with the Slowpoke Well situation and getting CUT, I will return to this location.
 
 ## III. Tool Development Log
 - **`path_master_v3` (Fixed again):** The tool's one-way tile logic was still flawed and failed to prevent moving sideways onto a vertical `LEDGE`. I have rewritten the logic to be more explicit about which directions are allowed for each specific hop tile type. This should be more robust.
