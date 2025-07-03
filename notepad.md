@@ -25,9 +25,7 @@
 - **PC Box Full Mechanic:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but a warning is displayed. I must remember to manually change the active box at a Pokémon Center.
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
-
-### C. Key Opponent Intel
-- **Rival Pixel's Alakazam (Silph Co. 7F):** Has Psychic and Tri Attack. Wiped my team due to Psychic's immunity to Electric and super-effective damage against my other Pokemon. Need a better strategy and possibly different team composition for the rematch.
+- **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
 
 ## III. System & Tool Development
 ### A. Tool Debugging & Refinement Protocol (v17 - IMMEDIATE ACTION)
@@ -46,4 +44,16 @@
 - **Warp Tiles:** Most 1x1 warps are instant. Larger 2x1 or 1x2 warps require moving onto the tile and then into the impassable boundary.
 - **Ledge Traversal:** Moving down onto a ledge tile from above (Y-1) automatically moves the player to the tile below the ledge (Y+2) in a single button press.
 - **SURF Initiation:** Interacting with a water tile's edge brings up the SURF prompt directly.
-- **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
+
+## IV. Battle Plans & Strategies
+### A. Rival Pixel (Silph Co. Rematch)
+- **Opponent Team:** Alakazam (Lv. 45), Sandslash (Lv. 43), Exeggutor (Lv. 43), Cloyster (Lv. 43), Magneton (Lv. 43).
+- **Recommended Team:** SPARKY, CRAG, ECHO, TITANESS, GUILLOTIN, LEGION.
+- **Counters:**
+  - SPARKY > Cloyster
+  - CRAG > Magneton
+  - ECHO > Exeggutor
+  - TITANESS > Alakazam (Bite) & Sandslash (Surf)
+  - GUILLOTIN > Exeggutor & Alakazam (Bug moves)
+  - LEGION > Sandslash (backup) & Psychic pivot
+- **Training Plan:** Train TITANESS, GUILLOTIN, and LEGION to Lv. 45 in Seafoam Islands (B1F), targeting Jynx, Golbat, and Krabby for high EXP.
