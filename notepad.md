@@ -26,15 +26,7 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 
-### C. Map & Tile Mechanics
-- **`ground`:** Standard walkable tile.
-- **`grass`:** Tall grass for wild encounters. Walkable.
-- **`elevated_ground`:** Walkable ground at a different elevation. Traversal to/from `ground` requires `steps`.
-- **`steps`:** Allows vertical movement between `ground` and `elevated_ground`.
-- **`impassable`:** Walls, objects, etc. Cannot be entered.
-- **`ledge`:** Can only be jumped down (from Y-1 to Y+2).
-- **`ladder_up`/`ladder_down`:** Warps between floors.
-- **`hole`:** Warps to a lower floor.
+### C. Map & Navigation Insights
 - **Invisible Walls:** Impassable walls that are not visually represented. (e.g., Silph Co. 9F, Safari Zone East, Fuchsia Gym).
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. (e.g., Safari Zone East).
 - **Impassable Roofs:** Building roofs can act as impassable walls. (e.g., Route 19).
