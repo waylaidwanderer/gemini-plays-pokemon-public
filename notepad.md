@@ -35,7 +35,7 @@
 
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
-- **`automated_explorer`:** The tool's core logic now checks the WKG for SURF capability, allowing it to plan paths across water even if the player is not currently surfing. This is a more robust, permanent solution.
+- **`pathfinder`:** After extensive debugging, this tool now correctly handles dynamic land-to-water transitions by accepting a `can_surf` parameter. It is my primary and reliable pathfinding tool for all overworld navigation.
 
 ## IV. Battle Plans & Strategies
 ### A. Rival Pixel (Silph Co. Rematch)
