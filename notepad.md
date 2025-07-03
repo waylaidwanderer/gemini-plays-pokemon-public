@@ -48,10 +48,12 @@
 
 ### B. Tool Development Ideas
 - Create a tool to automatically parse the `came_from` dictionary from pathfinding failures and identify all 'boundary tiles' and their types, streamlining the debugging process for segmented maps.
+- Create an agent to assist with solving complex boulder puzzles by analyzing the layout and suggesting push sequences.
 
 ## IV. Investigation & Hypothesis Log
 - **Safari Zone Mechanics Testing (T41962):**
   - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
+- **Exploration Strategy:** Prioritize exploring known points of interest (like reachable, unvisited warps/ladders) over using `automated_explorer` for blind exploration of unseen tiles, as this is more direct.
 
 ## V. Defeated Bosses Log
 - **Rival Pixel (Route 22):** PIDGEOTTO (Lv. 9), EEVEE (Lv. 8)
@@ -66,8 +68,8 @@
 - **Rival Pixel (Silph Co.):** PIDGEOT (Lv. 37), GROWLITHE (Lv. 35), EXEGGCUTE (Lv. 38), ALAKAZAM (Lv. 35), VAPOREON (Lv. 40)
 
 ## VI. Current Plans & Strategies
-- **Objective:** Explore Seafoam Islands B4F.
-- **Plan:** After a series of falls, I've landed on B4F. I have fixed my documentation and tools. My next step is to use my `automated_explorer` to systematically map out this floor.
+- **Objective:** Explore Seafoam Islands B3F.
+- **Plan:** After a series of falls and a ladder climb, I've landed on B3F. My next step is to use my `automated_explorer` to systematically map out this floor.
 
 ## VII. Immediate Tasks & Cleanup
 - **CRITICAL:** Place map markers (🚪, one-way) on the holes on Seafoam Islands 1F, B1F, B2F, and B3F as soon as I can return to those floors. This is a major protocol violation I must correct.
