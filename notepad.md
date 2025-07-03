@@ -39,7 +39,7 @@
   2. Talking to Youngster Joey at (2, 28) does not make Youngster Mikey move.
 
 ## III. Tool Development Log
-- **`path_master_v3` (Fixed... for now):** The tool's ledge and wall handling logic has been rewritten. It appears to be working correctly, but I will monitor it closely for any further bugs.
+- **`path_master_v3` (Fixed again):** The tool's one-way tile logic was still flawed and failed to prevent moving sideways onto a vertical `LEDGE`. I have rewritten the logic to be more explicit about which directions are allowed for each specific hop tile type. This should be more robust.
 - **HEADBUTT_TREE:** Quest Strategist suggests these require the move 'Headbutt' to interact with, not the standard 'A' button.
 
 ## IV. Item Effects
