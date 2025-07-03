@@ -16,9 +16,12 @@
 
 #### Ilex Forest Gatehouse Puzzle
 - **Goal:** Find a way out of the Ilex Forest Azalea Gatehouse.
-- **Status:** COMPLETELY STUCK. Both warps on the west side of the room are non-functional. I am physically blocked from reaching the Officer on the right side of the room.
-- **Current Hypothesis:** The solution involves using the Pokégear to call a key NPC like Professor Elm.
-- **Failed Attempts Log:**
+### Agent Hypotheses (Ranked):
+1. Show the hatched Togepi to the Officer at (5, 2) by interacting over the counter.
+2. Place the hatched Togepi in the first slot of the party, then speak to the Granny at (1, 3) again.
+3. Use the Pokégear to call other contacts besides Professor Elm.
+4. Search for a hidden Pokémon ('protector') in the gatehouse.
+5. Interact with every tile of the counter separating me from the Officer.
   1. Attempting to use the warps at (0,4) and (0,5) by walking onto them from every possible direction (left, right, above, below). (FAILED)
   2. Talking to the Granny at (1, 3). (FAILED - Repeated dialogue)
   3. Showing my newly hatched Togepi to the Granny at (1, 3). (FAILED - No new dialogue)
