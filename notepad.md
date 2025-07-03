@@ -1,6 +1,6 @@
 ## I. Core Protocols & Immediate Actions (v43624)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v31 - Simplified Manual):** The correct, manual process for documenting map transitions is: **Turn 1:** Add the source node. **Turn 2:** Add the destination node. **Turn 3:** Add the edge connecting them. I must check the WKG for existing nodes/edges before adding new ones.
+- **CRITICAL: WKG Protocol (v32 - Streamlined):** When documenting a map transition, I will first check for existing nodes. If nodes exist, I will add the edge. If they don't, I will add the source node, destination node, and the connecting edge in a single turn if possible. I must always check for existing elements before adding new ones to prevent duplication.
 - **CRITICAL: Map Marker Protocol (v13):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
 - **CRITICAL: Agent & Tool Protocol (v10):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
