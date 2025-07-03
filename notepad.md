@@ -26,15 +26,6 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 
-### C. Map & Navigation Insights
-- **Invisible Walls:** Impassable walls that are not visually represented. (e.g., Silph Co. 9F, Safari Zone East, Fuchsia Gym).
-- **Hidden Passages:** Seemingly impassable tiles that are actually traversable. (e.g., Safari Zone East).
-- **Impassable Roofs:** Building roofs can act as impassable walls. (e.g., Route 19).
-- **Shallow Water:** Some water tiles are impassable and trigger a message. (e.g., Route 20).
-- **Summer Beach House Trap:** A one-way warp trap that requires walking *through* Pikachu to escape.
-- **Map Segmentation:** Some maps are divided into non-contiguous sections only accessible via warps. (e.g., Route 15, Seafoam Islands).
-- **WKG `connection_type`:** Only 'warp' or 'map_edge' are valid.
-
 ## III. System & Tool Development
 ### A. Tool Debugging & Refinement Protocol (v17 - IMMEDIATE ACTION)
 - **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. **Abandoning a tool is a protocol violation.**
