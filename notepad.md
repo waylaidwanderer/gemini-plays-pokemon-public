@@ -51,9 +51,14 @@
   - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
 
 ## V. Defeated Bosses Log
+- **Rival Pixel (Route 22):** PIDGEOTTO (Lv. 9), EEVEE (Lv. 8)
 - **Brock (Pewter Gym):** GEODUDE (Lv. 12), ONIX (Lv. 14)
+- **Rival Pixel (Cerulean City):** PIDGEOTTO (Lv. 17), RATTATA (Lv. 15), ABRA (Lv. 16), EEVEE (Lv. 18)
 - **Misty (Cerulean Gym):** STARYU (Lv. 18), STARMIE (Lv. 21)
 - **Lt. Surge (Vermilion Gym):** VOLTORB (Lv. 28), PIKACHU (Lv. 24), RAICHU (Lv. 28)
 - **Erika (Celadon Gym):** VICTREEBEL (Lv. 30), TANGELA (Lv. 32), VILEPLUME (Lv. 35)
+- **Giovanni (Rocket Hideout):** ONIX (Lv. 25), RHYHORN (Lv. 24), PERSIAN (Lv. 29)
+- **Rival Pixel (Pokemon Tower):** PIDGEOTTO (Lv. 25), GROWLITHE (Lv. 23), EXEGGCUTE (Lv. 22), ALAKAZAM (Lv. 20), VAPOREON (Lv. 25)
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42), TENTACRUEL (Lv. 41), VENOMOTH (Lv. 43)
+- **Rival Pixel (Silph Co.):** PIDGEOT (Lv. 37), GROWLITHE (Lv. 35), EXEGGCUTE (Lv. 38), ALAKAZAM (Lv. 35), VAPOREON (Lv. 40)
 - **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
