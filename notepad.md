@@ -35,11 +35,8 @@
 
 ## III. Strategic Plans & Hypotheses
 
-- **Current Plan:** Backtrack from Route 32 through Violet City and Cherrygrove City to re-enter Route 32 from the north. This is necessary to bypass the one-way ledges and reach Union Cave.
-
 ## IV. Tool Development Log
 - **`path_master_v3` (Under Repair):** This tool has a history of being unreliable, frequently failing to find valid paths or routing me through walls. I am iteratively debugging it. The latest version seems to handle ledges and walls more correctly, but requires further testing to be considered fully reliable.
-- **New Strategy:** To reach Union Cave, I must backtrack north through Route 32, re-enter Violet City, and then come back to Route 32 from the main northern entrance. This will place me on the correct side of the one-way barriers.
 - **HEADBUTT_TREE:** Quest Strategist suggests these require the move 'Headbutt' to interact with, not the standard 'A' button.
 
 ### Item Effects
