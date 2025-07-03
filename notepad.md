@@ -35,7 +35,7 @@
 
 ## III. Strategic Plans & Hypotheses
 
-- **Current Plan:** Travel from Azalea Town to New Bark Town to meet Professor Elm. This is currently blocked by my inability to navigate Route 32.
+- **Current Plan:** Backtrack from Route 32 through Violet City and Cherrygrove City to re-enter Route 32 from the north. This is necessary to bypass the one-way ledges and reach Union Cave.
 
 ## IV. Tool Development Log
 - **`path_master_v3` (Confirmed Working):** The tool itself seems functional. My previous failures were due to a strategic error: I was attempting to find a path on a single map that may not exist. The tool successfully found a path to the Route 32 Pokemon Center, suggesting a multi-map traversal might be necessary. I will proceed by pathing to the Pokemon Center first.
