@@ -21,14 +21,6 @@
 
 ## II. Quest Progression & Puzzles
 
-### Azalea Town Slowpoke Well Puzzle
-- **Objective:** Get Kurt to clear the Rocket Grunt from the Slowpoke Well entrance.
-- **Current Hypothesis (Verified):** Kurt will intervene after I speak to him in his house. This action successfully removed the grunt once, allowing access to the well.
-- **Next Steps:**
-  1. Re-enter Kurt's house and speak to him to trigger the event again.
-  2. Enter the Slowpoke Well and clear out Team Rocket.
-  3. This should lead to obtaining the HM for CUT.
-
 ### Blocked Path: Ilex Forest West
 - **Objective:** Clear the CUT tree at (8, 25) to access the western part of the forest.
 - **Prerequisite:** Obtain HM01 (CUT).
