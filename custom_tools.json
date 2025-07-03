@@ -98,5 +98,24 @@
       ]
     },
     "python_script": "import json\nimport collections\n\ntry:\n    data = json.loads(world_knowledge_graph_json_string)\n    start_map = input_data['start_map_id']\n    end_map = input_data['end_map_id']\n\n    corrupted_edges = []\n    for i, edge in enumerate(data.get('edges', [])):\n        source_coords = edge.get('source_coordinates', {})\n        dest_coords = edge.get('destination_coordinates', {})\n        if 'map_id' not in source_coords or 'map_id' not in dest_coords:\n            corrupted_edges.append({\n                \"index\": i,\n                \"id\": edge.get('id'),\n                \"reason\": \"Missing 'map_id' in source or destination coordinates.\",\n                \"edge_data\": edge\n            })\n            \n    if corrupted_edges:\n        print(json.dumps({\"error\": \"Corrupted edges found in World Knowledge Graph.\", \"corrupted_edges\": corrupted_edges}))\n    else:\n        adjacency_list = collections.defaultdict(list)\n        for edge in data['edges']:\n            source_map = edge['source_coordinates']['map_id']\n            dest_map = edge['destination_coordinates']['map_id']\n            adjacency_list[source_map].append(dest_map)\n            if not edge.get('is_one_way', False):\n                adjacency_list[dest_map].append(source_map)\n\n        queue = collections.deque([[start_map]])\n        visited = {start_map}\n        route = None\n\n        while queue:\n            path = queue.popleft()\n            node = path[-1]\n\n            if node == end_map:\n                route = path\n                break\n\n            for neighbor in adjacency_list.get(node, []):\n                if neighbor not in visited:\n                    visited.add(neighbor)\n                    new_path = list(path)\n                    new_path.append(neighbor)\n                    queue.append(new_path)\n        \n        print(json.dumps({\"route\": route}))\n\nexcept Exception as e:\n    import traceback\n    print(json.dumps({\"error\": f\"An exception occurred: {str(e)}\\n{traceback.format_exc()}\"}))"
+  },
+  "route_master": {
+    "description": "Finds a path between two maps using the World Knowledge Graph, gracefully ignoring corrupted edges.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_map_id": {
+          "type": "string"
+        },
+        "end_map_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_map_id",
+        "end_map_id"
+      ]
+    },
+    "python_script": "import json\nimport collections\n\ntry:\n    data = json.loads(world_knowledge_graph_json_string)\n    start_map = input_data['start_map_id']\n    end_map = input_data['end_map_id']\n\n    adjacency_list = collections.defaultdict(list)\n    for edge in data.get('edges', []):\n        try:\n            source_map = edge['source_coordinates']['map_id']\n            dest_map = edge['destination_coordinates']['map_id']\n            adjacency_list[source_map].append(dest_map)\n            if not edge.get('is_one_way', False):\n                adjacency_list[dest_map].append(source_map)\n        except KeyError:\n            continue\n\n    queue = collections.deque([[start_map]])\n    visited = {start_map}\n    route = None\n\n    while queue:\n        path = queue.popleft()\n        node = path[-1]\n\n        if node == end_map:\n            route = path\n            break\n\n        for neighbor in adjacency_list.get(node, []):\n            if neighbor not in visited:\n                visited.add(neighbor)\n                new_path = list(path)\n                new_path.append(neighbor)\n                queue.append(new_path)\n    \n    print(json.dumps({\"route\": route}))\n\nexcept Exception as e:\n    import traceback\n    print(json.dumps({\"error\": f\"An exception occurred: {str(e)}\\n{traceback.format_exc()}\"}))"
   }
 }
