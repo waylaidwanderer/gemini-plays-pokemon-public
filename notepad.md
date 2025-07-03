@@ -11,8 +11,7 @@
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered from below, but not exited up or down. Sideways movement is permitted).
 
 ### World Knowledge Graph (WKG) Commitment
-- **CRITICAL FAILURE:** I have completely failed to update the WKG. This is a major strategic error.
-- **RESOLUTION:** I will now record **every single** inter-map transition using `manage_world_knowledge` the moment it occurs. No exceptions. This is my highest data-management priority.
+- **WKG Status:** My WKG is more complete than I thought. My attempts to retroactively add edges were based on a flawed memory. I must trust my tools' data analysis over my own assumptions and be diligent about adding *new* connections moving forward.
 
 ## II. Quest Progression & Blockers### SOLVED: Ilex Forest Gatehouse Puzzle
 - **Solution:** Interact with the Officer at (5, 2) from a 2-tile distance (at position (5, 4)). This triggers a dialogue warning about Ilex Forest and unlocks the western warps leading into the forest.
