@@ -29,14 +29,12 @@
   3. Talking to Kurt's apprentice does not trigger anything.
   4. Interacting with the Farfetch'd statue at (5, 6) in Kurt's house does nothing.
   5. The path to the well at (31, 7) is physically blocked by the grunt at (31, 9); there is no way around him.
-  6. Talking to the Rocket Grunt at the well (31, 9) and then immediately talking to Kurt (2, 3) does not make him move.
-  7. Talking to Kurt (2, 3) and then his apprentice (6, 2) does not trigger anything.
   8. Talking to the Rocket Grunt at the gym (10, 16) to learn about SLOWPOKETAILs and then talking to Kurt does not make him move.
 
 ## III. Strategic Plans & Hypotheses
 
 ## IV. Tool Development Log
-- **`path_master_v3` (Under Repair):** This tool has a history of being unreliable. I am iteratively debugging it to handle obstacles and one-way tiles correctly.
+- **`path_master_v3` (Under Repair):** This tool has a history of being unreliable, but recent fixes to its ledge and wall handling logic seem promising. Requires more testing to be considered fully reliable.
 - **HEADBUTT_TREE:** Quest Strategist suggests these require the move 'Headbutt' to interact with, not the standard 'A' button.
 
 ### Item Effects
