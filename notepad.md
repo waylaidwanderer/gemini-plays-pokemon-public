@@ -32,3 +32,4 @@
 - **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN
 - **Failed Hypothesis 5:** Leaving Azalea Town and re-entering does not change Kurt's dialogue.
 - **Failed Hypothesis 5:** Leaving Azalea Town and re-entering does not change Kurt's dialogue.
+- **Failed Hypothesis 6:** After talking to Kurt, leaving the house does not trigger a new event.
