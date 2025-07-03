@@ -63,11 +63,10 @@
 - **EXP.ALL:** Gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 
 ## VI. Tile Mechanics Glossary
-- This section will systematically document all discovered tile types and their traversal rules.
-
-## VII. Post-Battle Action Queue (T43417)
-- **CRITICAL:** Fix `automated_explorer` tool. The logic for handling obstacles or defeated trainers is flawed.
-- **CRITICAL:** Update Notepad's Tile Mechanics Glossary with `ground`, `grass`, `ledge`, `impassable`, `steps`, `elevated_ground`, and `water`.
-- **CRITICAL:** Mark Beauty at (54, 13) on Route 15 as defeated.
-- **CRITICAL:** Explore the last unseen tile at (60, 14) on Route 15.
-- **PRIORITY:** Heal party at the nearest Pokémon Center.
+- **ground:** A standard walkable tile.
+- **grass:** Walkable tile where wild Pokémon encounters can occur.
+- **ledge:** A one-way traversal tile. Can be jumped down from above, but not climbed up from below.
+- **impassable:** A tile that cannot be walked on, such as walls, trees, or counters.
+- **steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
+- **elevated_ground:** Walkable ground at a different elevation, only accessible via `steps`.
+- **water:** A tile that can be traversed using the SURF HM.
