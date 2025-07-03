@@ -6,7 +6,7 @@
 - **Impassable:** WALL, VOID, CUT_TREE, WATER, HEADBUTT_TREE, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW
 - **Traversable:** FLOOR, GRASS
 - **Standard Warps:** DOOR, LADDER, CAVE
-- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT
+- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN
 - **One-Way Down Ledges:** LEDGE, FLOOR_ALLOW_HOP_DOWN, FLOOR_ALLOW_HOP_DOWN_LEFT, FLOOR_ALLOW_HOP_DOWN_RIGHT
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered from below, but not exited up or down. Sideways movement is permitted).
 
@@ -29,5 +29,5 @@
 
 ## III. Tool Notes
 - **`path_master`:** My pathfinding tool is reliable. I must be more careful to provide it with valid, traversable coordinates as input to avoid failed calls.
-- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT
+- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN
 - **Failed Hypothesis 5:** Leaving Azalea Town and re-entering does not change Kurt's dialogue.
