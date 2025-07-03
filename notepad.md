@@ -6,12 +6,9 @@
 - **Impassable:** WALL, VOID, CUT_TREE, WATER, HEADBUTT_TREE, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW
 - **Traversable:** FLOOR, GRASS
 - **Standard Warps:** DOOR, LADDER, CAVE
-- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN
+- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must walk in the indicated direction to activate, 'A' button does not work).
 - **One-Way Down Ledges:** LEDGE, FLOOR_ALLOW_HOP_DOWN, FLOOR_ALLOW_HOP_DOWN_LEFT, FLOOR_ALLOW_HOP_DOWN_RIGHT
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered from below, but not exited up or down. Sideways movement is permitted).
-
-### World Knowledge Graph (WKG) Commitment
-- **WKG Status:** My WKG is more complete than I thought. My attempts to retroactively add edges were based on a flawed memory. I must trust my tools' data analysis over my own assumptions and be diligent about adding *new* connections moving forward.
 
 ## II. Quest Progression & Blockers
 
@@ -19,22 +16,18 @@
 - **Status:** The western part of Ilex Forest is blocked by a tree at (8, 25) that requires CUT. I will return here after obtaining the HM.
 
 ### Azalea Town Slowpoke Well Puzzle
-- **Current Hypothesis (from `quest_strategist`):** Speak to Kurt -> Speak to Rocket Grunt at well -> Return and speak to Kurt again.
-- **Failed Attempts Log:**
-  1. Talking to Kurt's apprentice after Kurt leaves the house does not clear the path.
-  2. Talking to the Rocket Grunt at the gym does not clear the path.
-  3. Talking to the Rocket Grunt at the well and then immediately talking to Kurt does not clear the path.
-  4. Leaving Kurt's house immediately after talking to him does not trigger a new event.
-  5. Leaving Azalea Town and re-entering does not change Kurt's dialogue.
-  6. Pathing around the Rocket Grunt at the well is impossible due to ledges.
+- **Current Hypothesis:** The game has flagged Kurt as having gone to the well, even though he is visually still in his house. I need to go to the well for the event to trigger.
+- **Failed Attempts Log (Consolidated):**
+  1. Revealing the Farfetch'd statue in Kurt's house does not make the Rocket Grunt at the well disappear.
+  2. Talking to the Rocket Grunt at the well after the Farfetch'd reveal results in the same dialogue.
+  3. Talking to Kurt's apprentice after the Farfetch'd reveal results in the same dialogue.
+  4. Talking to Kurt after the Farfetch'd reveal results in the same dialogue.
+  5. Talking to Gramps after the Farfetch'd reveal results in the same dialogue.
+  6. Visiting the well and then immediately returning to Kurt's house does not trigger a new event or dialogue.
+  7. Interacting directly with the well structure is impossible as the Rocket Grunt blocks the path.
+  8. A strict sequence of talking to Kurt -> apprentice -> well has been attempted and failed.
 
-## III. Tool Notes
-- **`path_master`:** My pathfinding tool is reliable. I must be more careful to provide it with valid, traversable coordinates as input to avoid failed calls.
-  7. Speaking to Kurt -> Speaking to the Rocket Grunt at the well -> Returning and speaking to Kurt again does not trigger an event.
-  8. Speaking to the apprentice after the Farfetch'd reveal results in no new dialogue. This hypothesis has failed.
-- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must walk in the indicated direction to activate, 'A' button does not work).
-
-### Newly Learned Mechanics
-- **WARP_CARPET_DOWN:** This tile is a directional warp. It cannot be activated by pressing 'A'. To use it, I must walk down onto the tile below it.
-  10. Speaking to Gramps after the Farfetch'd reveal results in no new dialogue. This hypothesis has failed.
-  11. quest_strategist hypothesis 1: Visiting the well and returning to Kurt's house did not trigger a new event. This has failed.
+## III. Strategic Notes & Reflections
+- **WKG Maintenance:** I must be more diligent about adding new connections to my World Knowledge Graph immediately upon discovering them. My memory is unreliable.
+- **Dynamic Markers:** I must use dynamic markers linked to `object_id` for all moving NPCs to avoid confusion.
+- **Untested Assumptions:** If I remain stuck, I will test the assumption that the solution is in Azalea Town by pivoting to my secondary goal of visiting Professor Elm.
