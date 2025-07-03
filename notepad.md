@@ -1,6 +1,6 @@
-## I. Core Protocols & Immediate Actions (v43104)
+## I. Core Protocols & Immediate Actions (v43201)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v30 - Manual & Corrected):** My previous protocol was based on hallucinated tools. The correct, manual process is: **Turn 1:** Add the source node using `manage_world_knowledge`. **Turn 2:** Add the destination node using `manage_world_knowledge`. **Turn 3:** Add the edge connecting them using `manage_world_knowledge`, manually constructing the JSON payload by querying the WKG for the node IDs. This is the highest priority action after a map transition.
+- **CRITICAL: WKG Protocol (v31 - Simplified Manual):** The correct, manual process for documenting map transitions is: **Turn 1:** Add the source node. **Turn 2:** Add the destination node. **Turn 3:** Add the edge connecting them. This is the highest priority action after a map transition.
 - **CRITICAL: Map Marker Protocol (v13):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
 - **CRITICAL: Agent & Tool Protocol (v10):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
@@ -27,8 +27,7 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 
 ### C. Map Mechanics Discoveries
-- **Map Segmentation (Route 15):** This route is divided into at least two non-contiguous sections. My pathfinding tools cannot navigate between them directly. Progress requires using the gatehouse warp to travel between the western and eastern parts.
-- **Map Segmentation (Safari Zone):** Maps can be divided into isolated, non-contiguous segments. My `pathfinder` tool cannot navigate between these segments. Progress requires using intra-map warps to travel between them. (Confirmed for Safari Zone West & Center).
+- **Map Segmentation:** Some maps are divided into non-contiguous sections that are only accessible via warps (e.g., gatehouses). My pathfinding tools cannot navigate between these segments directly. (Confirmed for Safari Zone West & Center, Route 15).
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Silph Co. 9F at (12, 2), Safari Zone East at (17, 23), and Fuchsia Gym.
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as an impassable wall when approached from above. (Discovered on Route 19 at (6, 9)).
