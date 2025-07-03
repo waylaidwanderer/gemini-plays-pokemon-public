@@ -1,7 +1,7 @@
-## I. Core Protocols & Immediate Actions (v43983)
+## I. Core Protocols & Immediate Actions (v44248)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change.
 - **CRITICAL: WKG Protocol (v34 - Sequential & Verified):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge in sequential turns. I will always use the correct **numeric string IDs** for maps and verify node existence before creating edges.
-- **CRITICAL: Map Marker Protocol (v15):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets. **DO NOT MARK MAP-EDGE TRANSITIONS.**
+- **CRITICAL: Map Marker Protocol (v16):** Mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets. **DO NOT MARK MAP-EDGE TRANSITIONS.**
 - **CRITICAL: Agent & Tool Protocol (v12):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
 ## II. Game Mechanics & Battle Intel
@@ -26,16 +26,22 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 
-### C. Map Mechanics Discoveries
-- **Map Segmentation:** Some maps are divided into non-contiguous sections that are only accessible via warps (e.g., gatehouses). My pathfinding tools cannot navigate between these segments directly. (Confirmed for Safari Zone West & Center, Route 15, Route 20, Seafoam Islands).
-- **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Silph Co. 9F at (12, 2), Safari Zone East at (17, 23), and Fuchsia Gym.
-- **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
-- **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as an impassable wall when approached from above. (Discovered on Route 19 at (6, 9)).
-- **Shallow Water:** Some water tiles are impassable and trigger a message, acting as an event-based barrier. (Discovered on Route 20 at (88, 5)).
-- **Summer Beach House Trap:** The house on Route 19 at (6, 10) is a one-way trap. The entrance warp is one-way, and Fly cannot be used to escape. The intended solution is to walk *through* Pikachu to reach the southern exit warp.
-- **Elevation Traversal:** Movement between `ground` and `elevated_ground` tiles is only possible via `steps` tiles. Direct movement between them is blocked.
-- **Ladder Mechanics:** Ladders (`ladder_up`, `ladder_down`) act as warps between floors. Using them changes the `map_id`.
-- **WKG `connection_type`:** The `manage_world_knowledge` tool only accepts 'warp' or 'map_edge' for the `connection_type` argument. Other types like 'hole' are invalid.
+### C. Map & Tile Mechanics
+- **`ground`:** Standard walkable tile.
+- **`grass`:** Tall grass for wild encounters. Walkable.
+- **`elevated_ground`:** Walkable ground at a different elevation. Traversal to/from `ground` requires `steps`.
+- **`steps`:** Allows vertical movement between `ground` and `elevated_ground`.
+- **`impassable`:** Walls, objects, etc. Cannot be entered.
+- **`ledge`:** Can only be jumped down (from Y-1 to Y+2).
+- **`ladder_up`/`ladder_down`:** Warps between floors.
+- **`hole`:** Warps to a lower floor.
+- **Invisible Walls:** Impassable walls that are not visually represented. (e.g., Silph Co. 9F, Safari Zone East, Fuchsia Gym).
+- **Hidden Passages:** Seemingly impassable tiles that are actually traversable. (e.g., Safari Zone East).
+- **Impassable Roofs:** Building roofs can act as impassable walls. (e.g., Route 19).
+- **Shallow Water:** Some water tiles are impassable and trigger a message. (e.g., Route 20).
+- **Summer Beach House Trap:** A one-way warp trap that requires walking *through* Pikachu to escape.
+- **Map Segmentation:** Some maps are divided into non-contiguous sections only accessible via warps. (e.g., Route 15, Seafoam Islands).
+- **WKG `connection_type`:** Only 'warp' or 'map_edge' are valid.
 
 ## III. System & Tool Development
 ### A. Tool Debugging & Refinement Protocol (v17 - IMMEDIATE ACTION)
@@ -50,12 +56,13 @@
 - **`battle_strategist_agent` Failures:**
   - **(T43952 & T43976):** Repeatedly recommended THUNDERBOLT vs. JYNX (Ice/Psychic), failing to account for Psychic's immunity to Electric. The agent's logic for prioritizing immunities was fundamentally flawed.
   - **(T44071):** Agent has been updated with a stricter prompt emphasizing immunity checks as the highest priority.
+  - **(T44236):** Agent incorrectly recommended DIG vs. Krabby, failing to consider speed differences and type matchups. Updated prompt to explicitly check speed based on level and default to standard Gen 1 type matchups unless specified otherwise.
 
 ## IV. Investigation & Hypothesis Log
 - **Safari Zone Mechanics Testing (T41962):**
   - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
 - **Exploration Strategy:** Prioritize exploring known points of interest (like reachable, unvisited warps/ladders) over using `automated_explorer` for blind exploration of unseen tiles, as this is more direct.
-- **Tool Idea:** Create a `wkg_pathfinder` tool to plan routes across multiple maps by analyzing the World Knowledge Graph.
+- **Assumption: Boulder Puzzle:** Assumed the Seafoam Islands boulder puzzle is the only way forward. Will test by exploring all floors systematically after escaping and healing.
 
 ## V. Defeated Bosses Log
 - **Rival Pixel (Route 22):** PIDGEOTTO (Lv. 9), EEVEE (Lv. 8)
@@ -68,7 +75,3 @@
 - **Rival Pixel (Pokemon Tower):** PIDGEOTTO (Lv. 25), GROWLITHE (Lv. 23), EXEGGCUTE (Lv. 22), ALAKAZAM (Lv. 20), VAPOREON (Lv. 25)
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42), TENTACRUEL (Lv. 41), VENOMOTH (Lv. 43)
 - **Rival Pixel (Silph Co.):** PIDGEOT (Lv. 37), GROWLITHE (Lv. 35), EXEGGCUTE (Lv. 38), ALAKAZAM (Lv. 35), VAPOREON (Lv. 40)
-
-## VI. Current Plans & Strategies
-- **Objective:** Escape the Seafoam Islands and reach a Pokémon Center to heal my team. My party is severely injured, and further exploration is too risky.
-- **Plan:** I am on an isolated platform on B4F. I need to backtrack up the ladder at (12, 8) to B3F and find the correct path to the main puzzle area.
