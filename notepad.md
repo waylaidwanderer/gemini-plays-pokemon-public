@@ -52,4 +52,4 @@
 
 ## VI. Future Agent & Tool Development Ideas
 - **HM Teacher Agent/Tool:** An agent or tool to automate the process of navigating the menu to teach a specific HM to a specific Pokémon, including selecting which move to replace.
-- **SURF Field Move Mechanics:** Attempting to use SURF from the menu or by interacting with water while having a non-Water type Pokémon (Kangaskhan) that knows the move resulted in failure. The message 'No SURFing on [Pokémon] here!' was displayed. Hypothesis: Only specific Pokémon, likely Water-types, can use SURF in the field. Will test with Omanyte.
+- **SURF Field Move Mechanics (v2):** All attempts to use SURF on Route 19 with TITANESS (Normal-type) have failed, regardless of party position or location on the southern island. The error message is 'No SURFing on TITANESS here!'. This strongly suggests that only specific Pokémon, likely Water-types, can use SURF in the field. Since I am trapped on this part of the route, the intended solution is likely to acquire a suitable Pokémon here. Current plan: Use the SUPER ROD to fish for a Water-type Pokémon.
