@@ -29,5 +29,5 @@
 
 ## III. Strategic Plans & Hypotheses
 
-- **Next Step:** Test the third hypothesis from my `quest_strategist`: Leave Kurt's house and talk to the Rocket Grunt at the Azalea Gym (10, 16).
+- **Next Step:** The gym grunt mentioned SLOWPOKETAILs. My new hypothesis is that Kurt needs to hear this information. I will return to Kurt's house and speak with him.
 - **Untested Assumption:** The solution to the puzzle is located within Azalea Town. If the agent's final suggestion fails, I will test this by leaving town and returning, or by going to see Professor Elm as per his last phone call.
