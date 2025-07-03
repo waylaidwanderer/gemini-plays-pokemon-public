@@ -12,12 +12,10 @@
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
 - **Battle Mechanics:** Multi-hit moves (e.g., FURY ATTACK) are a critical threat and can bypass the "sturdy" effect of surviving on 1 HP.
 - **Ghost-Type Effectiveness:** Ghost-type moves (like Lick) are effective against Rock/Ground-types.
-
-### B. General Field Mechanics
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
 - **Silph Co. Blackout:** Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
 - **Saffron City Navigation:** The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
-- **HM & Field Move Mechanics:** Flash, Cut, and Fly MUST be taught to a Pokémon to be used in the field. PC Interaction must be activated from the tile directly below the PC (Y+1), facing up.
+- **HM & Field Move Mechanics:** Flash, Cut, and Fly MUST be taught to a Pokémon to be used in the field.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle and any Pokémon that participated by switching in.
 - **Battle Initiation Mechanics:** To battle a trainer on an adjacent tile, you must face them and press 'A' to interact.
 - **NPC Interaction Catch:** Some NPCs, upon interaction, can trigger a Pokémon 'catch' event (Observed with Rocker in Safari Zone East Rest House giving a CHANSEY).
@@ -38,12 +36,6 @@
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** This agent has been successfully used to navigate the PC menu. It is a reliable tool for depositing and withdrawing Pokémon.
 - **`automated_explorer`:** The tool's core logic now checks the WKG for SURF capability, allowing it to plan paths across water even if the player is not currently surfing. This is a more robust, permanent solution.
-
-### C. Tile Mechanics
-- **PC Interaction:** Must be activated from the tile directly below the PC (Y+1), facing up.
-- **Warp Tiles:** Most 1x1 warps are instant. Larger 2x1 or 1x2 warps require moving onto the tile and then into the impassable boundary.
-- **Ledge Traversal:** Moving down onto a ledge tile from above (Y-1) automatically moves the player to the tile below the ledge (Y+2) in a single button press.
-- **SURF Initiation:** Interacting with a water tile's edge brings up the SURF prompt directly.
 
 ## IV. Battle Plans & Strategies
 ### A. Rival Pixel (Silph Co. Rematch)
