@@ -52,18 +52,13 @@
 - **Training Plan:** Train TITANESS, GUILLOTIN, and LEGION to Lv. 45 in Seafoam Islands (B1F), targeting Jynx, Golbat, and Krabby for high EXP.
 
 ## V. Tile Mechanics Documentation
-- *This section is for documenting the properties and behaviors of different tile types as they are discovered.*
-
-## VI. Future Agent & Tool Development Ideas
-- **HM Teacher Agent/Tool:** An agent or tool to automate the process of navigating the menu to teach a specific HM to a specific Pokémon, including selecting which move to replace.
-- **Tool Debugger Agent:** An agent that takes a tool name and debug objective (e.g., 'trace_path') to automatically generate a `run_code` script with debugging print statements. This would streamline fixing faulty tools.
-- **Strategic Exploration Agent:** An agent that analyzes the entire map, identifies clusters of unseen tiles, and suggests a more strategic exploration plan, especially for complex maps like Silph Co. or caves.
-## V. Tile Mechanics Documentation
 - **ground:** Standard walkable tile.
-- **water:** Walkable only with SURF.
-- **impassable:** Cannot be walked on (walls, counters, etc.).
-- **ledge:** Can be jumped down, but not up. A one-way barrier from below.
-- **grass:** Tall grass with wild Pokémon encounters.
+- **water:** Walkable only with SURF. Requires using the SURF move from the party menu while adjacent to a water tile to begin surfing.
+- **impassable:** Cannot be walked on (walls, counters, etc.). Acts as a barrier.
+- **ledge:** Can be jumped down (Y-1 to Y+2), but not climbed up. A one-way barrier from below.
+- **grass:** Tall grass with wild Pokémon encounters. Walkable like `ground`.
 
 ## VI. Future Agent & Tool Development Ideas
 - **Tool Debugger Agent:** An agent that takes a tool name and debug objective (e.g., 'trace_path') to automatically generate a `run_code` script with debugging print statements. This would streamline fixing faulty tools.
+- **HM Teacher Agent/Tool:** An agent or tool to automate the process of navigating the menu to teach a specific HM to a specific Pokémon, including selecting which move to replace.
+- **Strategic Exploration Agent:** An agent that analyzes the entire map, identifies clusters of unseen tiles, and suggests a more strategic exploration plan, especially for complex maps like Silph Co. or caves.
