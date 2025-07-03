@@ -41,3 +41,7 @@
 ## IV. Tool Development Log
 - **`path_master_v3` (Confirmed Working):** The tool itself seems functional. My previous failures were due to a strategic error: I was attempting to find a path on a single map that may not exist. The tool successfully found a path to the Route 32 Pokemon Center, suggesting a multi-map traversal might be necessary. I will proceed by pathing to the Pokemon Center first.
 - **New Strategy:** I will develop a new, robust pathfinding tool (`path_master_v3`) from scratch. The journey to New Bark Town is on hold until this tool is fully functional and verified. My secondary goal is now dedicated to this task.
+
+### Route 32 Navigation Correction
+- **Discovery:** My pathfinder correctly determined that there is no path from the Route 32 Pokemon Center area to the Union Cave entrance on the same map. This is due to a system of one-way ledges and `FLOOR_UP_WALL` tiles that separate the southern part of the route from the northern part.
+- **New Strategy:** To reach Union Cave, I must backtrack north through Route 32, re-enter Violet City, and then come back to Route 32 from the main northern entrance. This will place me on the correct side of the one-way barriers.
