@@ -68,3 +68,6 @@
 - **Objective:** Explore Seafoam Islands B4F.
 - **Plan:** After a series of falls, I've landed on B4F. I have fixed my documentation and tools. My next step is to use my `automated_explorer` to systematically map out this floor.
 - **WKG `connection_type`:** The `manage_world_knowledge` tool only accepts 'warp' or 'map_edge' for the `connection_type` argument. Other types like 'hole' are invalid.
+
+## VII. Immediate Tasks & Cleanup
+- **CRITICAL:** Place map markers (🚪, one-way) on the holes on Seafoam Islands 1F, B1F, B2F, and B3F as soon as I can return to those floors. This is a major protocol violation I must correct.
