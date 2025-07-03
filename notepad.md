@@ -1,7 +1,7 @@
 ## I. Core Protocols & Immediate Actions (v44248)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change.
 - **CRITICAL: WKG Protocol (v34 - Sequential & Verified):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge in sequential turns. I will always use the correct **numeric string IDs** for maps and verify node existence before creating edges.
-- **CRITICAL: Map Marker Protocol (v16):** Mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets. **DO NOT MARK MAP-EDGE TRANSITIONS.**
+- **CRITICAL: Map Marker Protocol (v17):** Mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets.
 - **CRITICAL: Agent & Tool Protocol (v12):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
 ## II. Game Mechanics & Battle Intel
@@ -47,15 +47,3 @@
 - **Exploration Strategy:** Prioritize exploring known points of interest (like reachable, unvisited warps/ladders) over using `automated_explorer` for blind exploration of unseen tiles, as this is more direct.
 - **Tool Idea:** Create a `wkg_pathfinder` tool to plan routes across multiple maps by analyzing the World Knowledge Graph.
 - **Assumption: Boulder Puzzle:** Assumed the Seafoam Islands boulder puzzle is the only way forward. Will test by exploring all floors systematically after escaping and healing.
-
-## V. Defeated Bosses Log
-- **Rival Pixel (Route 22):** PIDGEOTTO (Lv. 9), EEVEE (Lv. 8)
-- **Brock (Pewter Gym):** GEODUDE (Lv. 12), ONIX (Lv. 14)
-- **Rival Pixel (Cerulean City):** PIDGEOTTO (Lv. 17), RATTATA (Lv. 15), ABRA (Lv. 16), EEVEE (Lv. 18)
-- **Misty (Cerulean Gym):** STARYU (Lv. 18), STARMIE (Lv. 21)
-- **Lt. Surge (Vermilion Gym):** VOLTORB (Lv. 28), PIKACHU (Lv. 24), RAICHU (Lv. 28)
-- **Erika (Celadon Gym):** VICTREEBEL (Lv. 30), TANGELA (Lv. 32), VILEPLUME (Lv. 35)
-- **Giovanni (Rocket Hideout):** ONIX (Lv. 25), RHYHORN (Lv. 24), PERSIAN (Lv. 29)
-- **Rival Pixel (Pokemon Tower):** PIDGEOTTO (Lv. 25), GROWLITHE (Lv. 23), EXEGGCUTE (Lv. 22), ALAKAZAM (Lv. 20), VAPOREON (Lv. 25)
-- **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42), TENTACRUEL (Lv. 41), VENOMOTH (Lv. 43)
-- **Rival Pixel (Silph Co.):** PIDGEOT (Lv. 37), GROWLITHE (Lv. 35), EXEGGCUTE (Lv. 38), ALAKAZAM (Lv. 35), VAPOREON (Lv. 40)
