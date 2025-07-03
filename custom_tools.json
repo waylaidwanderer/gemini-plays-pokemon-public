@@ -86,5 +86,40 @@
       ]
     },
     "python_script": "import json\n\ndef find_node():\n    try:\n        wkg = json.loads(world_knowledge_graph_json_string)\n        target_map_id = input_data['map_id']\n        target_x = int(input_data['x'])\n        target_y = int(input_data['y'])\n\n        for node in wkg['nodes']:\n            if str(node['map_id']) == str(target_map_id) and node['coordinates']['x'] == target_x and node['coordinates']['y'] == target_y:\n                print(json.dumps({'status': 'success', 'node_id': node['id']}))\n                return\n        \n        print(json.dumps({'status': 'error', 'message': f'Node not found on map {target_map_id} at ({target_x}, {target_y}).'}))\n\n    except Exception as e:\n        import traceback\n        print(json.dumps({'status': 'error', 'message': f'An exception occurred: {traceback.format_exc()}'}))\n\nfind_node()"
+  },
+  "check_wkg_edge_exists": {
+    "description": "Checks if a bidirectional edge exists between two nodes in the World Knowledge Graph, identified by their map IDs and coordinates.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "source_map_id": {
+          "type": "string"
+        },
+        "source_x": {
+          "type": "string"
+        },
+        "source_y": {
+          "type": "string"
+        },
+        "dest_map_id": {
+          "type": "string"
+        },
+        "dest_x": {
+          "type": "string"
+        },
+        "dest_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_map_id",
+        "source_x",
+        "source_y",
+        "dest_map_id",
+        "dest_x",
+        "dest_y"
+      ]
+    },
+    "python_script": "import json\n\nwkg = json.loads(world_knowledge_graph_json_string)\nnodes = wkg['nodes']\nedges = wkg['edges']\n\nsource_map_id = input_data['source_map_id']\nsource_x = int(input_data['source_x'])\nsource_y = int(input_data['source_y'])\ndest_map_id = input_data['dest_map_id']\ndest_x = int(input_data['dest_x'])\ndest_y = int(input_data['dest_y'])\n\nsource_node_id = None\ndest_node_id = None\n\nfor node in nodes:\n    if str(node['map_id']) == source_map_id and node['coordinates']['x'] == source_x and node['coordinates']['y'] == source_y:\n        source_node_id = node['id']\n    if str(node['map_id']) == dest_map_id and node['coordinates']['x'] == dest_x and node['coordinates']['y'] == dest_y:\n        dest_node_id = node['id']\n\nif not source_node_id or not dest_node_id:\n    print(json.dumps({'exists': False, 'reason': 'One or both nodes not found in WKG.'}))\nelse:\n    edge_found = False\n    for edge in edges:\n        if (edge['source_node_id'] == source_node_id and edge['destination_node_id'] == dest_node_id) or \\\n           (edge['source_node_id'] == dest_node_id and edge['destination_node_id'] == source_node_id):\n            edge_found = True\n            break\n    print(json.dumps({'exists': edge_found}))"
   }
 }
