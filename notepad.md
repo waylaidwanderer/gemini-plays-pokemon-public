@@ -27,13 +27,14 @@
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 
 ### C. Map Mechanics Discoveries
-- **Map Segmentation:** Some maps are divided into non-contiguous sections that are only accessible via warps (e.g., gatehouses). My pathfinding tools cannot navigate between these segments directly. (Confirmed for Safari Zone West & Center, Route 15).
+- **Map Segmentation:** Some maps are divided into non-contiguous sections that are only accessible via warps (e.g., gatehouses). My pathfinding tools cannot navigate between these segments directly. (Confirmed for Safari Zone West & Center, Route 15, Route 20).
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Silph Co. 9F at (12, 2), Safari Zone East at (17, 23), and Fuchsia Gym.
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as an impassable wall when approached from above. (Discovered on Route 19 at (6, 9)).
 - **Shallow Water:** Some water tiles are impassable and trigger a message, acting as an event-based barrier. (Discovered on Route 20 at (88, 5)).
 - **Summer Beach House Trap:** The house on Route 19 at (6, 10) is a one-way trap. The entrance warp is one-way, and Fly cannot be used to escape. The intended solution is to walk *through* Pikachu to reach the southern exit warp.
 - **Elevation Traversal:** Movement between `ground` and `elevated_ground` tiles is only possible via `steps` tiles. Direct movement between them is blocked.
+- **Ladder Mechanics:** Ladders (`ladder_up`, `ladder_down`) act as warps between floors. Using them changes the `map_id`.
 
 ## III. System & Tool Development
 ### A. Tool Debugging & Refinement Protocol (v17 - IMMEDIATE ACTION)
@@ -43,6 +44,9 @@
 - **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 - **`automated_explorer` Logic:** The tool's core logic is to find the nearest *reachable* tile that is *adjacent* to an unseen tile. It does not pathfind *to* the unseen tile itself, as 'unknown' tiles are treated as impassable by the pathfinder.
+
+### B. Tool Development Ideas
+- Create a tool to automatically parse the `came_from` dictionary from pathfinding failures and identify all 'boundary tiles' and their types, streamlining the debugging process for segmented maps.
 
 ## IV. Investigation & Hypothesis Log
 - **Safari Zone Mechanics Testing (T41962):**
@@ -62,4 +66,4 @@
 
 ## VI. Current Plans & Strategies
 - **Objective:** Explore the Seafoam Islands.
-- **Plan:** The `pathfinder` tool has been confirmed to work correctly; previous failures were due to segmented maps. I will now redefine the tool to provide more specific feedback about unreachable segments. Then, I will continue exploring the Seafoam Islands using my `automated_explorer`.
+- **Plan:** Now that my `pathfinder` tool has been updated to handle segmented maps, I will continue exploring the Seafoam Islands using my `automated_explorer`.
