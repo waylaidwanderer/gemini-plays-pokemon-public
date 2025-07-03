@@ -30,3 +30,4 @@
 
 ## III. Tool Notes
 - **`path_master`:** My pathfinding tool is reliable. I must be more careful to provide it with valid, traversable coordinates as input to avoid failed calls.
+  7. Speaking to Kurt -> Speaking to the Rocket Grunt at the well -> Returning and speaking to Kurt again does not trigger an event.
