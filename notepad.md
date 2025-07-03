@@ -7,16 +7,13 @@
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, CAVE, LADDER (Acts as a two-way vertical warp)
 - **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must walk in the indicated direction to activate, 'A' button does not work).
-- **One-Way Down Ledges:** LEDGE, FLOOR_ALLOW_HOP_DOWN
+- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
 ### Untested Hypotheses & Assumptions
 
 #### Tile Mechanics
 - **BUOY:** Likely impassable, similar to WATER. Needs testing.
-- **FLOOR_ALLOW_HOP_RIGHT:** Likely a one-way ledge to the right. Needs testing.
-- **FLOOR_ALLOW_HOP_DOWN_LEFT:** Likely a one-way ledge down and/or left. Needs testing.
-- **FLOOR_ALLOW_HOP_DOWN_RIGHT:** Likely a one-way ledge down and/or right. Needs testing.
 
 #### General Gameplay
 - **Route 32 Path:** My pathfinder has confirmed that the eastern fork of Route 32 is a dead end due to one-way `FLOOR_UP_WALL` tiles. The only way south to Union Cave is via the western path.
