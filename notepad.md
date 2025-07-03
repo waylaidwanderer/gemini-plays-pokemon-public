@@ -22,8 +22,7 @@
 - **Status:** The western part of Ilex Forest is blocked by a tree at (8, 25) that requires CUT. I will return here after obtaining the HM.
 
 ### Azalea Town Slowpoke Well Puzzle
-- **Status:** I am currently stuck on this puzzle. All hypotheses have failed.
-- **Current Plan:** The Slowpoke Well puzzle is on hold. The immediate objective is to backtrack through the southern part of the region to access the northern part of Route 32, which is required to continue towards Azalea Town.
+- **Status:** On hold. After Kurt deals with the Rocket Grunt, I need to clear out Team Rocket from the well. This will likely lead to getting the HM for CUT.
 - **Failed Attempts Log (Consolidated):
   2. Talking to the Rocket Grunt at the well does not make him move.
   3. Talking to Kurt's apprentice does not trigger anything.
