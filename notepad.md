@@ -26,6 +26,9 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 
+### C. Key Opponent Intel
+- **Rival Pixel's Alakazam (Silph Co. 7F):** Has Psychic and Tri Attack. Wiped my team due to Psychic's immunity to Electric and super-effective damage against my other Pokemon. Need a better strategy and possibly different team composition for the rematch.
+
 ## III. System & Tool Development
 ### A. Tool Debugging & Refinement Protocol (v17 - IMMEDIATE ACTION)
 - **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. **Abandoning a tool is a protocol violation.**
@@ -44,4 +47,3 @@
 
 ## V. Agent & Tool Ideas
 - **Exploration Advisor Agent:** An agent that analyzes the current map XML and markers to suggest the most logical next exploration step (e.g., "There is an unlocked, unvisited door at X,Y"), providing more strategic guidance than the `automated_explorer` tool.
-- **Rival Pixel's Alakazam (Silph Co. 7F):** Has Psychic and Tri Attack. Wiped my team due to Psychic's immunity to Electric and super-effective damage against my other Pokemon. Need a better strategy and possibly different team composition for the rematch.
