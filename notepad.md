@@ -36,12 +36,7 @@
 - **DEBUGGING STEP 2 (Advanced Analysis):** If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where the pathfinding fails. This will confirm if the map is segmented.
 - **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
-- **`automated_explorer` Logic:** The tool's core logic is to find the nearest *reachable* tile that is *adjacent* to an unseen tile. It does not pathfind *to* the unseen tile itself, as 'unknown' tiles are treated as impassable by the pathfinder.
 
-## IV. Investigation & Hypothesis Log
-- **Safari Zone Mechanics Testing (T41962):**
-  - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
-- **Exploration Strategy:** Prioritize exploring known points of interest (like reachable, unvisited warps/ladders) over using `automated_explorer` for blind exploration of unseen tiles, as this is more direct.
-- **Agent & Tool Development Plan:**
-  - **`pc_navigator_agent`:** Utilize at next PC interaction to test its effectiveness.
-  - **`wkg_pathfinder` tool:** Implement to plan routes across multiple maps by analyzing the World Knowledge Graph.
+### B. Agent & Tool Usage Notes
+- **`pc_navigator_agent`:** AI Observer noted this is unused. I will make it a priority to test this agent the next time I use a Pokémon Center PC.
+- **`automated_explorer`:** The tool's core logic now checks the WKG for SURF capability, allowing it to plan paths across water even if the player is not currently surfing. This is a more robust, permanent solution.
