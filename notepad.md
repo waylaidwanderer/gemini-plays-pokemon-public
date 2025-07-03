@@ -42,9 +42,6 @@
 - **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 
-### B. Tool Development Ideas
-- **Automated Explorer Tool:** A tool that can identify the nearest reachable unseen tile and automatically generate a path to an adjacent traversable tile. This would streamline my exploration process significantly.
-
 ## IV. Investigation & Hypothesis Log
 - **Hypothesis:** The water areas in Safari Zone West, which I can now access with SURF and my updated `pathfinder`, contain the path forward or a key item.
 - **Safari Zone Mechanics Testing (T41962):**
