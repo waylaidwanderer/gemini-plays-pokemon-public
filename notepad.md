@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v43900)
+## I. Core Protocols & Immediate Actions (v43983)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change.
 - **CRITICAL: WKG Protocol (v34 - Sequential & Verified):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge in sequential turns. I will always use the correct **numeric string IDs** for maps and verify node existence before creating edges.
 - **CRITICAL: Map Marker Protocol (v15):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets. **DO NOT MARK MAP-EDGE TRANSITIONS.**
@@ -46,9 +46,10 @@
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 - **`automated_explorer` Logic:** The tool's core logic is to find the nearest *reachable* tile that is *adjacent* to an unseen tile. It does not pathfind *to* the unseen tile itself, as 'unknown' tiles are treated as impassable by the pathfinder.
 
-### B. Tool Development Ideas
-- Create a tool to automatically parse the `came_from` dictionary from pathfinding failures and identify all 'boundary tiles' and their types, streamlining the debugging process for segmented maps.
-- Create an agent to assist with solving complex boulder puzzles by analyzing the layout and suggesting push sequences.
+### B. Agent Debugging Log
+- **`battle_strategist_agent` Failures:**
+  - **(T43952):** Recommended THUNDERBOLT vs. JYNX (Ice/Psychic), failing to account for Psychic's immunity to Electric. Initial fix was insufficient.
+  - **(T43976):** Repeatedly recommended THUNDERBOLT vs. JYNX after the initial fix. The agent's logic for prioritizing immunities is fundamentally flawed and requires a complete overhaul of its system prompt.
 
 ## IV. Investigation & Hypothesis Log
 - **Safari Zone Mechanics Testing (T41962):**
@@ -68,8 +69,5 @@
 - **Rival Pixel (Silph Co.):** PIDGEOT (Lv. 37), GROWLITHE (Lv. 35), EXEGGCUTE (Lv. 38), ALAKAZAM (Lv. 35), VAPOREON (Lv. 40)
 
 ## VI. Current Plans & Strategies
-- **Objective:** Explore Seafoam Islands B3F.
-- **Plan:** After a series of falls and a ladder climb, I've landed on B3F. My next step is to use my `automated_explorer` to systematically map out this floor.
-
-## VII. Immediate Tasks & Cleanup
-- **CRITICAL:** Place map markers (🚪, one-way) on the holes on Seafoam Islands 1F, B1F, B2F, and B3F as soon as I can return to those floors. This is a major protocol violation I must correct.
+- **Objective:** Escape the Seafoam Islands and reach a Pokémon Center to heal my team. My party is severely injured, and further exploration is too risky.
+- **Plan:** Take the ladder at (9,7) on B3F to return to B4F. From there, I will need to navigate back up through the floors to the exit on 1F.
