@@ -43,3 +43,10 @@
 
 ## Personal Rules & Reminders
 - **Check Map Markers!** Before interacting with an NPC or navigating to a specific spot, always check existing map markers to avoid wasting time on defeated trainers or repeating actions.
+
+## V. Procedural Reminders & Methodologies
+
+### Tile Testing Protocol
+- **Immediate Testing:** Upon encountering a new, non-obvious tile type on the current map, I must immediately test its traversal properties if it is reachable.
+- **Documentation:** All findings, positive or negative, must be immediately recorded in the 'Tile Traversal Rules' section.
+- **Prioritization:** This testing protocol is a high priority, to be completed before continuing with other exploration goals unless physically impossible (e.g., requires an HM I don't possess).
