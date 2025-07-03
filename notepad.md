@@ -35,12 +35,6 @@
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 - **`automated_explorer` Logic:** The tool's core logic is to find the nearest *reachable* tile that is *adjacent* to an unseen tile. It does not pathfind *to* the unseen tile itself, as 'unknown' tiles are treated as impassable by the pathfinder.
 
-### B. Agent Debugging Log
-- **`battle_strategist_agent` Failures:**
-  - **(T43952 & T43976):** Repeatedly recommended THUNDERBOLT vs. JYNX (Ice/Psychic), failing to account for Psychic's immunity to Electric. The agent's logic for prioritizing immunities was fundamentally flawed.
-  - **(T44071):** Agent has been updated with a stricter prompt emphasizing immunity checks as the highest priority.
-  - **(T44236):** Agent incorrectly recommended DIG vs. Krabby, failing to consider speed differences and type matchups. Updated prompt to explicitly check speed based on level and default to standard Gen 1 type matchups unless specified otherwise.
-
 ## IV. Investigation & Hypothesis Log
 - **Safari Zone Mechanics Testing (T41962):**
   - **Hypothesis:** Rock increases catch rate but also flee rate. Bait decreases flee rate but also catch rate.
@@ -48,10 +42,6 @@
 - **Tool Idea:** Create a `wkg_pathfinder` tool to plan routes across multiple maps by analyzing the World Knowledge Graph.
 - **Assumption: Boulder Puzzle:** Assumed the Seafoam Islands boulder puzzle is the only way forward. Will test by exploring all floors systematically after escaping and healing.
 
-## V. Tile & Traversal Mechanics Glossary
-- **PC Interaction:** Must be activated from the tile directly below the PC (Y+1), facing up.
-- **Pikachu Obstruction:** Pikachu can block warps and narrow passages, requiring luring it away to proceed.
-
-## VI. Agent & Tool Ideas
+## V. Agent & Tool Ideas
 - **Exploration Advisor Agent:** An agent that analyzes the current map XML and markers to suggest the most logical next exploration step (e.g., "There is an unlocked, unvisited door at X,Y"), providing more strategic guidance than the `automated_explorer` tool.
 - **Rival Pixel's Alakazam (Silph Co. 7F):** Has Psychic and Tri Attack. Wiped my team due to Psychic's immunity to Electric and super-effective damage against my other Pokemon. Need a better strategy and possibly different team composition for the rematch.
