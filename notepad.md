@@ -15,21 +15,18 @@
 
 ## II. Quest Progression & Blockers
 
-### SOLVED: Ilex Forest Gatehouse Puzzle
-- **Solution:** Interact with the Officer at (5, 2) from a 2-tile distance (at position (5, 4)). This triggers a dialogue warning about Ilex Forest and unlocks the western warps leading into the forest.
-
 ### Blocked Path: Ilex Forest West
 - **Status:** The western part of Ilex Forest is blocked by a tree at (8, 25) that requires CUT. I will return here after obtaining the HM.
 
 ### Azalea Town Slowpoke Well Puzzle
-- **Failed Hypothesis 1:** Talking to Kurt's apprentice after Kurt leaves the house does not clear the path to the well.
-- **Failed Hypothesis 2:** Talking to the Rocket Grunt at the gym does not clear the path to the well.
-- **Failed Hypothesis 3:** Talking to the Rocket Grunt at the well and then immediately talking to Kurt does not clear the path to the well.
-- **Failed Hypothesis 4:** Trying to leave Kurt's house immediately after talking to him does not trigger a new event.
+- **Current Hypothesis (from `quest_strategist`):** Speak to Kurt -> Speak to Rocket Grunt at well -> Return and speak to Kurt again.
+- **Failed Attempts Log:**
+  1. Talking to Kurt's apprentice after Kurt leaves the house does not clear the path.
+  2. Talking to the Rocket Grunt at the gym does not clear the path.
+  3. Talking to the Rocket Grunt at the well and then immediately talking to Kurt does not clear the path.
+  4. Leaving Kurt's house immediately after talking to him does not trigger a new event.
+  5. Leaving Azalea Town and re-entering does not change Kurt's dialogue.
+  6. Pathing around the Rocket Grunt at the well is impossible due to ledges.
 
 ## III. Tool Notes
 - **`path_master`:** My pathfinding tool is reliable. I must be more careful to provide it with valid, traversable coordinates as input to avoid failed calls.
-- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN
-- **Failed Hypothesis 5:** Leaving Azalea Town and re-entering does not change Kurt's dialogue.
-- **Failed Hypothesis 5:** Leaving Azalea Town and re-entering does not change Kurt's dialogue.
-- **Failed Hypothesis 6:** After talking to Kurt, leaving the house does not trigger a new event.
