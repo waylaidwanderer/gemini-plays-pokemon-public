@@ -1,14 +1,13 @@
-## I. Core Protocols & Immediate Actions (v43728)
-- **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **CRITICAL: WKG Protocol (v33 - Sequential):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge in sequential turns. I must always check for existing elements before adding new ones to prevent duplication.
-- **CRITICAL: Map Marker Protocol (v14):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. **DO NOT MARK MAP-EDGE TRANSITIONS.**
-- **CRITICAL: Agent & Tool Protocol (v11):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution.
+## I. Core Protocols & Immediate Actions (v43780)
+- **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change.
+- **CRITICAL: WKG Protocol (v34 - Sequential & Verified):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge in sequential turns. I will always use the correct **numeric string IDs** for maps and verify node existence before creating edges.
+- **CRITICAL: Map Marker Protocol (v15):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets. **DO NOT MARK MAP-EDGE TRANSITIONS.**
+- **CRITICAL: Agent & Tool Protocol (v12):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective), Electric !> Grass, Rock !> Ground.
 - **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves. MUK is immune to Poison-type moves.
-- **Type Resistances:** Rock is NOT-VERY-EFFECTIVE against Ground.
 - **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves.
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
 - **Battle Mechanics:** Multi-hit moves (e.g., FURY ATTACK) are a critical threat and can bypass the "sturdy" effect of surviving on 1 HP.
@@ -21,7 +20,7 @@
 - **HM & Field Move Mechanics:** Flash, Cut, and Fly MUST be taught to a Pokémon to be used in the field. PC Interaction must be activated from the tile directly below the PC (Y+1), facing up.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle and any Pokémon that participated by switching in.
 - **Battle Initiation Mechanics:** To battle a trainer on an adjacent tile, you must face them and press 'A' to interact.
-- **NPC Interaction Catch:** Some NPCs, upon interaction, can trigger a Pokémon 'catch' event, adding the Pokémon directly to the player's Pokédex and party/PC. (Observed with Rocker in Safari Zone East Rest House giving a CHANSEY).
+- **NPC Interaction Catch:** Some NPCs, upon interaction, can trigger a Pokémon 'catch' event (Observed with Rocker in Safari Zone East Rest House giving a CHANSEY).
 - **Safari Game Time Limit:** The Safari Game has a time limit. When it expires, the player is automatically warped back to the Safari Zone Gate.
 - **PC Box Full Mechanic:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but a warning is displayed. I must remember to manually change the active box at a Pokémon Center.
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
@@ -32,6 +31,7 @@
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Silph Co. 9F at (12, 2), Safari Zone East at (17, 23), and Fuchsia Gym.
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as an impassable wall when approached from above. (Discovered on Route 19 at (6, 9)).
+- **Shallow Water:** Some water tiles are impassable and trigger a message, acting as an event-based barrier. (Discovered on Route 20 at (88, 5)).
 - **Summer Beach House Trap:** The house on Route 19 at (6, 10) is a one-way trap. The entrance warp is one-way, and Fly cannot be used to escape. The intended solution is to walk *through* Pikachu to reach the southern exit warp.
 - **Elevation Traversal:** Movement between `ground` and `elevated_ground` tiles is only possible via `steps` tiles. Direct movement between them is blocked.
 
@@ -59,7 +59,3 @@
 - **Rival Pixel (Pokemon Tower):** PIDGEOTTO (Lv. 25), GROWLITHE (Lv. 23), EXEGGCUTE (Lv. 22), ALAKAZAM (Lv. 20), VAPOREON (Lv. 25)
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42), TENTACRUEL (Lv. 41), VENOMOTH (Lv. 43)
 - **Rival Pixel (Silph Co.):** PIDGEOT (Lv. 37), GROWLITHE (Lv. 35), EXEGGCUTE (Lv. 38), ALAKAZAM (Lv. 35), VAPOREON (Lv. 40)
-- **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
-
-## VI. Current Strategy & Plans
-- **Current Plan (Route 20):** I am on a new, unexplored water route. My immediate priority is to explore this area fully using SURF and my `automated_explorer` tool to uncover all unseen tiles, items, and trainers.
