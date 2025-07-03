@@ -67,3 +67,4 @@
 ## VI. Current Plans & Strategies
 - **Objective:** Explore the Seafoam Islands.
 - **Plan:** Now that my `pathfinder` tool has been updated to handle segmented maps, I will continue exploring the Seafoam Islands using my `automated_explorer`.
+- **WKG `connection_type`:** The `manage_world_knowledge` tool only accepts 'warp' or 'map_edge' for the `connection_type` argument. Other types like 'hole' are invalid.
