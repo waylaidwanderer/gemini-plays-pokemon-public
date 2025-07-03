@@ -59,3 +59,7 @@
 - **Rival Pixel (Pokemon Tower):** PIDGEOTTO (Lv. 25), GROWLITHE (Lv. 23), EXEGGCUTE (Lv. 22), ALAKAZAM (Lv. 20), VAPOREON (Lv. 25)
 - **Koga (Fuchsia Gym):** GOLBAT (Lv. 42), MUK (Lv. 42), TENTACRUEL (Lv. 41), VENOMOTH (Lv. 43)
 - **Rival Pixel (Silph Co.):** PIDGEOT (Lv. 37), GROWLITHE (Lv. 35), EXEGGCUTE (Lv. 38), ALAKAZAM (Lv. 35), VAPOREON (Lv. 40)
+
+## VI. Current Plans & Strategies
+- **Objective:** Debug the `pathfinder` tool.
+- **Plan:** Follow the 'Tool Debugging & Refinement Protocol'. Start with STEP 1: use `run_code` to trace the BFS exploration path and identify where it fails.
