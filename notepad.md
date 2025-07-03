@@ -71,4 +71,4 @@
 
 ## VI. Current Plans & Strategies
 - **Objective:** Escape the Seafoam Islands and reach a Pokémon Center to heal my team. My party is severely injured, and further exploration is too risky.
-- **Plan:** Take the ladder at (9,7) on B3F to return to B4F. From there, I will need to navigate back up through the floors to the exit on 1F.
+- **Plan:** Take the ladder at (9,7) on B3F. From there, I will need to navigate back up through the floors to the exit on 1F.
