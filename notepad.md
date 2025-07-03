@@ -62,3 +62,8 @@
 
 ## VI. Tool Mechanics & Debugging Insights
 - **`automated_explorer` Logic:** The tool correctly identifies water as impassable if no party member knows SURF. It is not bugged; it reflects my current party's limitations. To explore water areas, I must have a Pokémon with SURF in my active party.
+
+## VIII. Current Strategy & Plans
+- **Primary Goal:** Defeat Sabrina in Saffron City.
+- **Secondary Goal:** Explore all areas accessible with SURF.
+  - **Current Plan (Route 12):** Now that HELIX has SURF, I will fully explore the water sections of Route 12 to find any items, trainers, or new paths. I will use `automated_explorer` to guide my exploration of unseen tiles.
