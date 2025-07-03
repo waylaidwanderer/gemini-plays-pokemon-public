@@ -16,7 +16,7 @@
 - **FLOOR_ALLOW_HOP_DOWN_LEFT:** Likely a one-way ledge down and/or left. Needs testing.
 - **FLOOR_ALLOW_HOP_DOWN_RIGHT:** Likely a one-way ledge down and/or right. Needs testing.
 
-## II. Quest Progression & Blockers
+## II. Quest Progression & Puzzles
 
 ### Blocked Path: Ilex Forest West
 - **Status:** The western part of Ilex Forest is blocked by a tree at (8, 25) that requires CUT. I will return here after obtaining the HM.
@@ -32,18 +32,16 @@
   8. Talking to the Rocket Grunt at the gym (10, 16) to learn about SLOWPOKETAILs and then talking to Kurt does not make him move.
 
 ### Route 30 Blocked Path
-- Status: The path north on Route 30 is blocked by Youngster Mikey at (5, 23).
-- Solution: Leaving and re-entering the area caused Youngster Mikey to move, unblocking the path north.
-- Failed Attempts Log:
+- **Status:** Solved.
+- **Solution:** Leaving the area and re-entering caused the blocking NPC (Youngster Mikey) to move.
+- **Failed Attempts Log:
   1. Talking to Youngster Mikey at (5, 23) does not make him move.
   2. Talking to Youngster Joey at (2, 28) does not make Youngster Mikey move.
 
-## III. Strategic Plans & Hypotheses
-
-## IV. Tool Development Log
+## III. Tool Development Log
 - **`path_master_v3` (Fixed... for now):** The tool's ledge and wall handling logic has been rewritten. It appears to be working correctly, but I will monitor it closely for any further bugs.
 - **HEADBUTT_TREE:** Quest Strategist suggests these require the move 'Headbutt' to interact with, not the standard 'A' button.
 
-### Item Effects
+## IV. Item Effects
 - **EVERSTONE:** A Pokémon holding this item will not evolve.
 - **FRUIT_TREE:** Gives a 'BERRY' item when interacted with. Seems to be a one-time collection per tree.
