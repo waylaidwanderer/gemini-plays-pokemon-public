@@ -60,13 +60,5 @@
 - **Rival Pixel (Silph Co.):** PIDGEOT (Lv. 37), GROWLITHE (Lv. 35), EXEGGCUTE (Lv. 38), ALAKAZAM (Lv. 35), VAPOREON (Lv. 40)
 - **Move Info:** Petal Dance (Grass) is a powerful multi-turn move that causes confusion after use.
 
-## VI. Tile Mechanics Glossary
-- **ground:** A standard walkable tile.
-- **grass:** Walkable tile where wild Pokémon encounters can occur.
-- **ledge:** A one-way traversal tile. Can be jumped down from above, but not climbed up from below.
-- **impassable:** A tile that cannot be walked on, such as walls, trees, or counters.
-- **steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
-- **elevated_ground:** Walkable ground at a different elevation, only accessible via `steps`.
-- **water:** A tile that can be traversed using the SURF HM.
-## VII. Tool Mechanics & Debugging Insights
+## VI. Tool Mechanics & Debugging Insights
 - **`automated_explorer` Logic:** The tool correctly identifies water as impassable if no party member knows SURF. It is not bugged; it reflects my current party's limitations. To explore water areas, I must have a Pokémon with SURF in my active party.
