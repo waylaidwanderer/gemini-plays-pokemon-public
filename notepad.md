@@ -48,3 +48,4 @@
 
 ### Item Effects
 - **EVERSTONE:** A Pokémon holding this item will not evolve.
+- **FRUIT_TREE:** Gives a 'BERRY' item when interacted with. Seems to be a one-time collection per tree.
