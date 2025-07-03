@@ -47,3 +47,10 @@
 - **Exploration Strategy:** Prioritize exploring known points of interest (like reachable, unvisited warps/ladders) over using `automated_explorer` for blind exploration of unseen tiles, as this is more direct.
 - **Tool Idea:** Create a `wkg_pathfinder` tool to plan routes across multiple maps by analyzing the World Knowledge Graph.
 - **Assumption: Boulder Puzzle:** Assumed the Seafoam Islands boulder puzzle is the only way forward. Will test by exploring all floors systematically after escaping and healing.
+
+## V. Tile & Traversal Mechanics Glossary
+- **PC Interaction:** Must be activated from the tile directly below the PC (Y+1), facing up.
+- **Pikachu Obstruction:** Pikachu can block warps and narrow passages, requiring luring it away to proceed.
+
+## VI. Agent & Tool Ideas
+- **Exploration Advisor Agent:** An agent that analyzes the current map XML and markers to suggest the most logical next exploration step (e.g., "There is an unlocked, unvisited door at X,Y"), providing more strategic guidance than the `automated_explorer` tool.
