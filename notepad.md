@@ -8,7 +8,7 @@
 - **Standard Warps:** DOOR, LADDER, CAVE
 - **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must walk in the indicated direction to activate, 'A' button does not work).
 - **One-Way Down Ledges:** LEDGE, FLOOR_ALLOW_HOP_DOWN, FLOOR_ALLOW_HOP_DOWN_LEFT, FLOOR_ALLOW_HOP_DOWN_RIGHT
-- **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered from below, but not exited up or down. Sideways movement is permitted).
+- **Complex One-Way Tiles:** FLOOR_UP_WALL (A one-way tile. Can only be entered by moving UP onto it. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
 ### Untested Tile Hypotheses
 - **BUOY:** Likely impassable, similar to WATER. Needs testing.
