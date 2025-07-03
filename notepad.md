@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v43780)
+## I. Core Protocols & Immediate Actions (v43900)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change.
 - **CRITICAL: WKG Protocol (v34 - Sequential & Verified):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge in sequential turns. I will always use the correct **numeric string IDs** for maps and verify node existence before creating edges.
 - **CRITICAL: Map Marker Protocol (v15):** Mark defeated trainers, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets. **DO NOT MARK MAP-EDGE TRANSITIONS.**
@@ -27,7 +27,7 @@
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 
 ### C. Map Mechanics Discoveries
-- **Map Segmentation:** Some maps are divided into non-contiguous sections that are only accessible via warps (e.g., gatehouses). My pathfinding tools cannot navigate between these segments directly. (Confirmed for Safari Zone West & Center, Route 15, Route 20).
+- **Map Segmentation:** Some maps are divided into non-contiguous sections that are only accessible via warps (e.g., gatehouses). My pathfinding tools cannot navigate between these segments directly. (Confirmed for Safari Zone West & Center, Route 15, Route 20, Seafoam Islands).
 - **Invisible Walls:** Impassable walls that are not visually represented. Discovered in Silph Co. 9F at (12, 2), Safari Zone East at (17, 23), and Fuchsia Gym.
 - **Hidden Passages:** Seemingly impassable tiles that are actually traversable. Discovered in Safari Zone East at (7, 25).
 - **Impassable Roofs:** Building roofs, even if visually over traversable ground, can act as an impassable wall when approached from above. (Discovered on Route 19 at (6, 9)).
@@ -35,6 +35,7 @@
 - **Summer Beach House Trap:** The house on Route 19 at (6, 10) is a one-way trap. The entrance warp is one-way, and Fly cannot be used to escape. The intended solution is to walk *through* Pikachu to reach the southern exit warp.
 - **Elevation Traversal:** Movement between `ground` and `elevated_ground` tiles is only possible via `steps` tiles. Direct movement between them is blocked.
 - **Ladder Mechanics:** Ladders (`ladder_up`, `ladder_down`) act as warps between floors. Using them changes the `map_id`.
+- **WKG `connection_type`:** The `manage_world_knowledge` tool only accepts 'warp' or 'map_edge' for the `connection_type` argument. Other types like 'hole' are invalid.
 
 ## III. System & Tool Development
 ### A. Tool Debugging & Refinement Protocol (v17 - IMMEDIATE ACTION)
@@ -67,7 +68,6 @@
 ## VI. Current Plans & Strategies
 - **Objective:** Explore Seafoam Islands B4F.
 - **Plan:** After a series of falls, I've landed on B4F. I have fixed my documentation and tools. My next step is to use my `automated_explorer` to systematically map out this floor.
-- **WKG `connection_type`:** The `manage_world_knowledge` tool only accepts 'warp' or 'map_edge' for the `connection_type` argument. Other types like 'hole' are invalid.
 
 ## VII. Immediate Tasks & Cleanup
 - **CRITICAL:** Place map markers (🚪, one-way) on the holes on Seafoam Islands 1F, B1F, B2F, and B3F as soon as I can return to those floors. This is a major protocol violation I must correct.
