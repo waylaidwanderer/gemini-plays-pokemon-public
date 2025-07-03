@@ -41,24 +41,8 @@
 - **`pc_navigator_agent`:** AI Observer noted this is unused. I will make it a priority to test this agent the next time I use a Pokémon Center PC.
 - **`automated_explorer`:** The tool's core logic now checks the WKG for SURF capability, allowing it to plan paths across water even if the player is not currently surfing. This is a more robust, permanent solution.
 
-### B. Tile Mechanics
+### C. Tile Mechanics
 - **PC Interaction:** Must be activated from the tile directly below the PC (Y+1), facing up.
 - **Warp Tiles:** Most 1x1 warps are instant. Larger 2x1 or 1x2 warps require moving onto the tile and then into the impassable boundary.
 - **Ledge Traversal:** Moving down onto a ledge tile from above (Y-1) automatically moves the player to the tile below the ledge (Y+2) in a single button press.
 - **SURF Initiation:** Interacting with a water tile's edge brings up the SURF prompt directly.
-
-### B. Agent & Tool Usage Notes (Update)
-- **Agent & Tool Ideas (To Be Implemented or Discarded):**
-  - `wkg_pathfinder` tool
-  - `Exploration Advisor Agent`
-
-### B. Tile Mechanics
-- **PC Interaction:** Must be activated from the tile directly below the PC (Y+1), facing up.
-- **Warp Tiles:** Most 1x1 warps are instant. Larger 2x1 or 1x2 warps require moving onto the tile and then into the impassable boundary.
-- **Ledge Traversal:** Moving down onto a ledge tile from above (Y-1) automatically moves the player to the tile below the ledge (Y+2) in a single button press.
-- **SURF Initiation:** Interacting with a water tile's edge brings up the SURF prompt directly.
-
-### B. Agent & Tool Usage Notes (Update)
-- **Agent & Tool Ideas (To Be Implemented or Discarded):**
-  - `wkg_pathfinder` tool
-  - `Exploration Advisor Agent`
