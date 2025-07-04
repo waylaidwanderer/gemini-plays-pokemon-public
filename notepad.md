@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v45965)
+## I. Core Protocols & Immediate Actions (v46223)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change.
 - **CRITICAL: WKG Protocol (v35 - Comprehensive & Verified):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge in sequential turns. I will always use the correct **numeric string IDs** for maps and verify node existence before creating edges. For `connection_type: "warp"`, I MUST include the `destination_entry_point` property.
 - **CRITICAL: Map Marker Protocol (v17):** Mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets.
@@ -16,14 +16,7 @@
 - **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
 - **`pathfinder`:** After extensive debugging, this tool now correctly handles dynamic land-to-water transitions by accepting a `can_surf` parameter. It is my primary and reliable pathfinding tool for all overworld navigation.
 
-## III. Future Agent & Tool Development Ideas
-- **Tool Debugger Agent:** An agent that takes a tool name and debug objective (e.g., 'trace_path') to automatically generate a `run_code` script with debugging print statements. This would streamline fixing faulty tools.
-- **HM Teacher Agent/Tool:** An agent or tool to automate the process of navigating the menu to teach a specific HM to a specific Pokémon, including selecting which move to replace.
-- **Strategic Exploration Agent:** An agent that analyzes the entire map, identifies clusters of unseen tiles, and suggests a more strategic exploration plan, especially for complex maps like Silph Co. or caves.
-- **Fly Navigator Agent:** An agent that takes a destination city name and generates the full button sequence to use Fly from the overworld menu.
-- **Heal Advisor Agent:** An agent that analyzes party HP, status, and proximity to the next Pokémon Center to recommend whether a strategic retreat to heal is necessary.
-
-## IV. Battle Plans & Strategies
+## III. Battle Plans & Strategies
 ### A. Rival Pixel (Silph Co. Rematch)
 - **Opponent Team:** Alakazam (Lv. 45), Sandslash (Lv. 43), Exeggutor (Lv. 43), Cloyster (Lv. 43), Magneton (Lv. 43).
 - **Recommended Team:** SPARKY, CRAG, ECHO, TITANESS, GUILLOTIN, LEGION.
@@ -36,12 +29,12 @@
   - LEGION > Sandslash (backup) & Psychic pivot
 - **Training Plan:** Train TITANESS, GUILLOTIN, and LEGION to Lv. 45 in Seafoam Islands (B1F), targeting Jynx, Golbat, and Krabby for high EXP.
 
-## V. Game Mechanics & Battle Intel
+## IV. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective), Electric !> Grass, Rock !> Ground.
 - **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves. MUK is immune to Poison-type moves.
 - **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves.
-- **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses).
+- **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses). **CONFUSE RAY can also fail against a target with evasion boosts.**
 - **Battle Mechanics:** Multi-hit moves (e.g., FURY ATTACK) are a critical threat and can bypass the "sturdy" effect of surviving on 1 HP.
 - **Ghost-Type Effectiveness:** Ghost-type moves (like Lick) are effective against Rock/Ground-types.
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
@@ -57,10 +50,10 @@
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 - **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
 
-## VI. Tile Mechanics & Traversal Rules (v46174)
+## V. Tile Mechanics & Traversal Rules (v46223)
 - `ground`: Standard walkable tile.
 - `impassable`: Walls, counters, rocks, buildings, etc. Cannot be entered.
-- `water`: Crossable using SURF from the menu while adjacent.
+- `water`: Crossable using SURF. Must use SURF from the menu while adjacent to a water tile to begin surfing.
 - `ledge`: Can be jumped down, but not up. A single down press traverses the ledge.
 - `warp`: Teleport tile to another map or location.
 - `grass`: Tall grass for wild Pokémon encounters. Walkable.
