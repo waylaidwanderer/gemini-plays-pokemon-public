@@ -68,3 +68,6 @@
   - **Verification:** I will use the agent's recommended team and strategy in the next rival battle. The outcome will validate its effectiveness.
 - **Assumption 3:** I currently possess all necessary Pokémon to defeat Pixel.
   - **Verification:** The output from the `team_composition_advisor_agent` will confirm this. If it suggests catching a new Pokémon, this assumption is false.
+## VI. Immediate Task List
+- **CRITICAL:** Redefine `battle_strategist_agent` immediately after this battle. Its logic for recommending switches is flawed; it must prioritize survival (current HP) and consider known enemy coverage moves, not just type immunity.
+- **Protocol Update:** Start using `protocol_enforcement_agent` to validate my plans before execution to catch procedural errors.
