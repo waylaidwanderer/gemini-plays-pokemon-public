@@ -19,15 +19,15 @@
 
 ### Ilex Forest Quest
 - **Objective:** Find the lost FARFETCH'D and return it to the Charcoal Man's apprentice at (7, 28).
-- **Status:** STUCK. My `farfetchd_herder` tool failed twice, proving my underlying hypothesis about the Farfetch'd's movement (that it moves directly away from the player) is fundamentally flawed.
-- **New Hypotheses (from `quest_strategist`):
-  1. The Farfetch'd moves directly away from the location of the *twig* that is stepped on.
-  2. The *direction the player is facing* when stepping on a twig determines the Farfetch'd's movement.
-  3. Each specific twig may cause the Farfetch'd to teleport to a specific, predetermined location.
-- **Current Plan:** Test Hypothesis #2. Path back to the area with known twigs, specifically to (23, 29), and step on them while facing different directions to observe the outcome. (Plan failed, currently trapped in eastern section).
+- **Status:** Puzzle mechanic discovered! The Farfetch'd does not move away from the player. Instead, interacting with it causes it to teleport to a new, predetermined location. Stepping on twigs seems to only make it turn, but does not cause it to move.
+- **Current Plan:** Systematically interact with the Farfetch'd to map its teleportation sequence and guide it towards the apprentice.
+- **Current Location:** It just teleported from (15, 25) to (20, 24).
 - **Failed Attempts Log:**
-  1. `farfetchd_herder` tool (initial version).
-  2. `farfetchd_herder` tool (v2, trees as obstacles).
+  1. `farfetchd_herder` tool (initial version, based on flawed movement hypothesis).
+  2. `farfetchd_herder` tool (v2, trees as obstacles, still flawed).
+  3. Hypothesis: Moves directly away from the location of the *twig* that is stepped on. (Failed)
+  4. Hypothesis: *Direction the player is facing* when stepping on a twig determines movement. (Failed)
+  5. Hypothesis: Two-step process (orient with twig, push from behind). (Failed)
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
