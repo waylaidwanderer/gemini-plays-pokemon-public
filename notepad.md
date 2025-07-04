@@ -50,3 +50,6 @@
 ## Glitch Encounter
 - **Map ID:** 56_126
 - **Description:** Encountered a glitched battle with a corrupted game state. Party, badges, and money were all incorrect. Attempting to run from the battle to resolve the issue.
+- **WARP_CARPET_RIGHT:** Test if this is a one-way warp to the right.
+- **LEDGE_HOP_LEFT:** Test if this is a one-way ledge to the left.
+- **LEDGE_HOP_RIGHT:** Test if this is a one-way ledge to the right.
