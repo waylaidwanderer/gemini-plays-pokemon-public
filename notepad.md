@@ -13,14 +13,18 @@
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** Generates a sequence of button presses to navigate the Pokémon PC menu to withdraw or deposit a specific Pokémon. It now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items) and is context-aware of the current menu. It is a reliable tool for depositing and withdrawing Pokémon.
+- **`battle_strategist_agent`:** Provides the safest, most cautious move. Its primary directive is survival. Overriding its advice is a high-risk action, as my successful override against Giovanni's Machoke demonstrated. It should be trusted for risk-averse plays, but I must use my own judgment when a high-risk/high-reward gambit is the only path to victory.
+### C. Future Agent Ideas
+- **`Dungeon_Navigator`:** An agent that can parse the World Knowledge Graph to find the most efficient multi-floor path in complex locations like Silph Co. or Rock Tunnel.
 
 ## III. Game Mechanics & Battle Intel
-### A. Tile Mechanics & Traversal Rules (v5)
+### A. Tile Mechanics & Traversal Rules (v6)
 - **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls. They cannot be surfed on.
 - **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
 - **Gates:** `closed_gate` tiles are impassable. Some are opened by switches, while others (like in Silph Co.) require the CARD KEY.
 - **Elevators (Silph Co.):** To use the elevator, you must first interact with the control panel (usually on a wall) to select a destination floor. After selecting a floor, you must walk onto the warp tiles at the back of the elevator room to trigger the map transition.
+- **PC Interaction:** To use a Pokémon Center PC, I must stand on the tile directly below it and face up before pressing 'A'.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -48,7 +52,6 @@
 - **Lesson:** Defeated Rival Pixel on Silph Co. 7F. His team was tough, especially the Alakazam and Flareon. My strategic switching was key to victory.
 - **Lesson:** Route 19 trainers are significantly higher level than my team. Grinding is necessary before proceeding further south.
 - **Lesson:** Some gates in Silph Co. are not opened by the CARD KEY and likely require a different switch or event.
-- **Lesson:** Do not blindly trust the `battle_strategist_agent`. It can fail to account for non-STAB coverage moves. Always critically evaluate its suggestions against the current battle context.
 - **Marker Labeling Protocol (v1):** For all defeated trainers, I will use the standardized label 'Trainer defeated'.
 
 ## V. Active Hypotheses
