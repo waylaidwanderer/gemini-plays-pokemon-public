@@ -8,7 +8,7 @@
 - **Standard Warps:** DOOR, CAVE
 - **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
 - **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must press the indicated direction *while standing on the tile*).
-- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
+- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction). I must be more rigorous in testing all directions for new one-way tiles.
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
 ### Untested Tile Mechanics
@@ -17,14 +17,9 @@
 
 ## II. Quest Progression & Puzzles
 
-### Ilex Forest - Farfetch'd Puzzle
-- **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28).
-- **Current Status:** The Farfetch'd is not on screen. I believe it has despawned due to the high number of wild encounters.
-- **Failed Hypothesis:** Leaving and re-entering the Ilex Forest will reset the Farfetch'd's position to its last known location. This was incorrect.
-- **New Hypothesis:** Resetting the map causes the Farfetch'd to return to its *initial* starting position (near 15, 25).
-- **Plan:**
-  1. Navigate to the Farfetch'd's initial starting position to confirm it has respawned.
-  2. If it has respawned, use the `farfetchd_herder` agent to solve the puzzle.
+### Ilex Forest - Farfetch'd Puzzle (ABANDONED)
+- **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
+- **Status:** Abandoning this puzzle for now. My attempts to reliably respawn the Farfetch'd by resetting the map have failed. The constant wild encounters make a systematic search impractical. I will proceed to find an alternate path through the forest.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -35,9 +30,9 @@
 - **BERRY:** Restores 10 HP. Obtained from FRUIT_TREEs.
 - **TM49 (Fury Cutter):** A move that gets stronger with each consecutive hit.
 - **SLOWPOKETAIL:** A man on Route 32 offered to sell this. Its purpose is unknown.
+- **MOOMOO MILK:** Restores 100 HP. Can be purchased at MOOMOO FARM.
 
 ## IV. Procedural Reminders
-- **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information.
+- **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information. This is especially critical for the World Knowledge Graph.
 - **TRUST THE AGENTS:** Use agents proactively for complex problems. Trust their outputs, especially when stuck. Refine them if they are flawed.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
-- **MOOMOO MILK:** Restores 100 HP. Can be purchased at MOOMOO FARM.
