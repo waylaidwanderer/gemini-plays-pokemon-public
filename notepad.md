@@ -26,13 +26,14 @@
 
 ### Azalea Gym Puzzle
 - **Objective:** Reach and defeat Gym Leader Bugsy.
-- **Current State:** The path is blocked by spider-like platforms controlled by two switches.
-- **Hypothesis 1 (Failed):** Simple switch combinations (Left ON/Right OFF, Left OFF/Right ON, Left ON/Right ON) do not create a path.
-- **Hypothesis 2 (Failed):** Toggling the left switch off after both are on (Sequence: Left ON -> Right ON -> Left OFF) does not create a path.
-- **Hypothesis 3 (In Progress):** Toggling the right switch off after both are on. (Sequence: Left ON -> Right ON -> Right OFF)
-- **Next Steps if H3 Fails:**
-    1. Interact with all NPCs (Gym Guide, defeated trainers) after each switch state change.
-    2. Leave the gym to search for a missing trigger event in Azalea Town.
+- **Current State:** The path is blocked by spider-like platforms controlled by two switches. All simple switch combinations and toggling sequences have failed.
+- **Agent Hypothesis (Top Priority):** The platforms are transports/vehicles, not static bridge parts. My initial attempt to test this by standing on the track failed.
+- **Current Plan:** Reset the puzzle to its initial state (both switches OFF). Then, systematically test the transport hypothesis by activating one switch and observing the platform's movement.
+- **Failed Attempts Log:**
+  - H1: All simple switch combinations (L:ON/R:OFF, L:OFF/R:ON, L:ON/R:ON).
+  - H2: Sequence L:ON -> R:ON -> L:OFF.
+  - H3: Sequence L:ON -> R:ON -> R:OFF.
+  - H4: Stood on platform track at (4, 12) after activating left switch; no movement.
 
 ## III. Item Effects
 - **EVERSTONE:** A Pokémon holding this item will not evolve.
