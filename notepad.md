@@ -41,3 +41,6 @@
 - **TRUST THE AGENTS:** Use agents proactively for complex problems. Trust their outputs, especially when stuck. Refine them if they are flawed.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
 - Received a phone call from Youngster Joey.
+
+### Ruins of Alph - Radio Broadcast
+- Liz mentioned hearing a strange broadcast from the Ruins of Alph. This might be a clue for the sliding stone panel puzzle. I should investigate this when I return to the area.
