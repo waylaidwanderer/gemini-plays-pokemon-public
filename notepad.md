@@ -12,32 +12,51 @@
 - **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 ### B. Agent & Tool Usage Notes
-- **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
+- **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items) and is context-aware of the current menu. It is a reliable tool for depositing and withdrawing Pokémon.
 
 ## III. Game Mechanics & Battle Intel
+### A. Tile Mechanics & Traversal Rules (v3)
+- **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
+- **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls. They cannot be surfed on.
 
 ### B. Confirmed ROM Hack Changes
-- **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective), Electric !> Grass, Rock !> Ground, **Psychic !> Psychic**.
-- **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves. MUK is immune to Poison-type moves.
-- **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves.
-- **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses). **CONFUSE RAY can also fail against a target with evasion boosts.**
-- **Battle Mechanics:** Multi-hit moves (e.g., FURY ATTACK) are a critical threat and can bypass the "sturdy" effect of surviving on 1 HP. The message "Nothing happened!" can display after a "not very effective" attack, likely indicating minimal damage was dealt. A Pokémon with 0 PP for all moves will use Struggle.
-- **Ghost-Type Effectiveness:** Ghost-type moves (like Lick) are effective against Rock/Ground-types.
-- **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
-- **Saffron City Navigation:** The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
-- **HM & Field Move Mechanics:** Flash, Cut, and Fly MUST be taught to a Pokémon to be used in the field.
-- **EXP Distribution:** Experience is shared between the Pokémon that started the battle and any Pokémon that participated by switching in.
-- **NPC Interaction Catch:** Some NPCs, upon interaction, can trigger a Pokémon 'catch' event (Observed with Rocker in Safari Zone East Rest House giving a CHANSEY).
-- **Safari Game Time Limit:** The Safari Game has a time limit. When it expires, the player is automatically warped back to the Safari Zone Gate.
-- **PC Box Full Mechanic:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but a warning is displayed. I must remember to manually change the active box at a Pokémon Center.
-- **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
-- **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
+#### B1. Type Matchups & Immunities
+- **Super Effective:**
+  - Psychic > Ghost
+  - Psychic > Poison
+  - Ghost > Psychic
+  - Bite (Normal) > Psychic
+  - Electric > Rock/Water
+  - CUT (Normal) > VICTREEBEL (Grass/Poison)
+  - Flying > Grass/Poison
+- **Not Very Effective:**
+  - Normal !> Psychic
+  - Electric !> Grass
+  - Rock !> Ground
+  - Psychic !> Psychic
+- **Immunities:**
+  - Psychic is immune to Electric.
+  - Flying-type is immune to Ground-type moves.
+  - MUK is immune to Poison-type moves.
+
+#### B2. Battle & Field Mechanics
+- **Evasion:** PSYWAVE and CONFUSE RAY can fail against targets with high evasion boosts (e.g., from MINIMIZE).
+- **Struggle:** A Pokémon with 0 PP for all moves will use Struggle, which has low accuracy and causes recoil damage.
+- **Multi-Hit Moves:** Moves like FURY ATTACK are a critical threat, bypassing "sturdy" effects.
+- **'No Will to Fight':** A fainted Pokémon cannot be switched into battle.
+- **HM Usage:** Flash, Cut, and Fly MUST be taught to a Pokémon to be used in the field.
+- **EXP Distribution:** Experience is shared between the Pokémon that started the battle and any that participated via switch-in.
+- **PC Box Full:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but the active box must be changed manually later.
+- **Safari Zone:** Has a time limit. When it expires, the player is warped back to the Safari Zone Gate.
+
+#### B3. NPC & Item Interactions
+- **NPC Catch Event:** Some NPCs can trigger a Pokémon 'catch' event upon interaction (e.g., Rocker in Safari Zone East Rest House gave a CHANSEY).
+- **Eevee Evolution:** An NPC in Safari Zone North mentioned Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths via stones.
+- **EXP.ALL:** Gives EXP to all party Pokémon, even non-participants, but reduces the total EXP gained per Pokémon. Best used for targeted training.
 
 ## IV. Strategic Lessons & Hypotheses
-- **Lesson:** Route 19 trainers are significantly higher level than my team. Grinding is necessary before proceeding further south. Attempting to fight them while underleveled results in a team wipe.
-- **Hypothesis:** The Saffron City Gym is the next logical badge target after Fuchsia City.
-- **Hypothesis:** Seafoam Islands contains a legendary Pokémon. This needs to be confirmed through exploration.
-- **Hypothesis:** My current roster may not be sufficient for Sabrina's Psychic-type gym, even at the level cap. I will consult my `team_composition_advisor_agent` after leveling.
-- **Marker Labeling Protocol (v1):** For all defeated trainers, I will use the standardized label 'Trainer defeated'. This ensures clarity and prevents re-engaging them.
-### C. Tile Mechanics & Traversal Rules (v2)
-- **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
+- **Lesson:** Route 19 trainers are significantly higher level than my team. Grinding is necessary before proceeding further south.
+- **Hypothesis:** The Saffron City Gym is the next logical badge target after Fuchsia City. This is blocked until Silph Co. is cleared.
+- **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
+- **Hypothesis:** My current roster may not be sufficient for Sabrina's Psychic-type gym, even at the level cap. I will consult my `team_composition_advisor_agent` after clearing Silph Co.
+- **Marker Labeling Protocol (v1):** For all defeated trainers, I will use the standardized label 'Trainer defeated'.
