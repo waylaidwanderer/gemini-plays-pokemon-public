@@ -39,3 +39,5 @@
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon. This needs to be confirmed through exploration.
 - **Hypothesis:** My current roster may not be sufficient for Sabrina's Psychic-type gym, even at the level cap. I will consult my `team_composition_advisor_agent` after leveling.
 - **Marker Labeling Protocol (v1):** For all defeated trainers, I will use the standardized label 'Trainer defeated'. This ensures clarity and prevents re-engaging them.
+### C. Tile Mechanics & Traversal Rules (v2)
+- **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
