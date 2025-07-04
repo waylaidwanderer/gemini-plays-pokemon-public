@@ -2,28 +2,33 @@
 
 ## I. Game & Tile Mechanics
 
-### Tile Traversal Rules (Verified)
-- **Impassable:** WALL, VOID, CUT_TREE, WATER, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, BED, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), HEADBUTT_TREE
-- **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
-- **Standard Warps:** DOOR, CAVE
-- **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
-
-- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
-- **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
-
 ### Tile Mechanics Testing Protocol
 *Goal: Build a comprehensive guide to the game's physics.*
 1.  **New Tile Encountered:** When a new, undocumented tile type appears on the map, I must immediately begin testing.
 2.  **Impassable Test:** Attempt to move onto the tile from all four cardinal directions (Up, Down, Left, Right).
 3.  **One-Way Test:** If traversal is possible from one direction, I must immediately test all other directions to confirm if it is a one-way path.
-4.  **Record Results:** Document all findings in the 'Verified' section above. No assumption is valid until tested.
+4.  **Record Results:** Document all findings in the 'Verified' section below. No assumption is valid until tested.
+
+### Tile Traversal Rules (Verified)
+- **Impassable:** WALL, VOID, CUT_TREE, WATER, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, BED, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), HEADBUTT_TREE
+- **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
+- **Standard Warps:** DOOR, CAVE
+- **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
+- **One-Way Ledges:** LEDGE_HOP_DOWN (One-way traversal in the specified direction).
+- **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
 ### Untested Tile Mechanics
 - **LEDGE:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
 - **WARP_CARPET_RIGHT:** Test if this tile is activated by stepping onto it or by pressing a specific direction.
+- **LEDGE_HOP_LEFT:** Verify this is a one-way path to the left.
+- **LEDGE_HOP_RIGHT:** Verify this is a one-way path to the right.
 
 ## II. Quest Progression & Puzzles
+
+### Current Assumptions to Test
+1. The Headbutt tutor exists in Ilex Forest and can teach me the move.
+2. Learning Headbutt is related to solving the Farfetch'd puzzle.
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
@@ -39,8 +44,6 @@
     6. The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
     7. The small stick sprite at (28, 23) is not a twig.
     8. The small stick sprite at (29, 24) is not a twig, and stepping on it makes the Farfetch'd disappear.
-- **Agent Usage Notes:**
-  - **Farfetch'd Puzzle:** Once I find the real twigs, I MUST use the `farfetchd_herder` agent to solve the herding part of the puzzle. The `quest_strategist` is for when the puzzle state fundamentally changes (e.g., the bird goes missing).
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -56,5 +59,5 @@
 
 ## IV. Procedural Reminders
 - **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information.
-- **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning and planning. Use tools for computation and repetitive actions. Refine or delete them immediately if they are flawed. Do not treat agent output as infallible truth; it is a hypothesis to be tested.
+- **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning and planning. Use tools for computation and repetitive actions. Refine or delete them immediately if they are flawed. Test agent output before discarding.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
