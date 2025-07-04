@@ -14,7 +14,6 @@
 
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
-- **`pathfinder`:** After extensive debugging, this tool now correctly handles dynamic land-to-water transitions by accepting a `can_surf` parameter. It is my primary and reliable pathfinding tool for all overworld navigation.
 
 ## III. Battle Plans & Strategies
 ### A. Rival Pixel (Silph Co. Rematch)
@@ -49,6 +48,7 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 - **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
+- **0 PP Move Mechanic:** Selecting a move with 0 PP displays a 'No PP left' message and does not advance the turn. Struggle is not automatically triggered.
 
 ## V. Tile Mechanics & Traversal Rules (v46228)
 - `ground`: Standard walkable tile.
@@ -60,7 +60,6 @@
 - `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - `spinner_up/down/left/right`: Forces movement in the specified direction. Found in Rocket Hideout.
 - `steps`: Allows vertical movement between different ground elevations (e.g., in Mt. Moon).
-- **0 PP Move Mechanic:** Selecting a move with 0 PP displays a 'No PP left' message and does not advance the turn. To proceed, another move with PP must be selected. Struggle is not automatically triggered.
 
 ## VI. Agent & Tool Ideas
 - **Stalemate Detector Agent:** An agent that can analyze a battle state (opponent's healing moves, my PP, damage output) to determine if a battle is unwinnable. This would help avoid wasting time in soft-lock situations like the one against the Starmie with Recover.
