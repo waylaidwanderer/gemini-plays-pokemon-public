@@ -26,14 +26,14 @@
 
 ### Azalea Gym Puzzle
 - **Objective:** Reach and defeat Gym Leader Bugsy.
-- **Current State:** The path is blocked by spider-like platforms controlled by two switches. All simple switch combinations and toggling sequences have failed.
-- **Agent Hypothesis (Top Priority):** The platforms are transports/vehicles, not static bridge parts. My initial attempt to test this by standing on the track failed.
-- **Current Plan:** Reset the puzzle to its initial state (both switches OFF). Then, systematically test the transport hypothesis by activating one switch and observing the platform's movement.
+- **Critical Insight:** My pathfinding tool has confirmed I am completely blocked by the trainers at (4, 10) and (5, 10). This means the switches **must** move the platforms to create a path.
+- **Current State:** Both switches are ON.
+- **Current Plan:** Systematically test switch combinations while carefully observing the platforms' positions. My next test will be the 'Left ON, Right OFF' state. To achieve this, I will navigate to the right switch and toggle it OFF.
 - **Failed Attempts Log:**
-  - H1: All simple switch combinations (L:ON/R:OFF, L:OFF/R:ON, L:ON/R:ON).
-  - H2: Sequence L:ON -> R:ON -> L:OFF.
-  - H3: Sequence L:ON -> R:ON -> R:OFF.
-  - H4: Stood on platform track at (4, 12) after activating left switch; no movement.
+  - H1: Simple switch combinations (L:ON/R:OFF, L:OFF/R:ON, L:ON/R:ON) do not create a static bridge.
+  - H2: Toggle sequences (L:ON->R:ON->L:OFF, L:ON->R:ON->R:OFF) do not create a static bridge.
+  - H3: Attempting to 'ride' the platforms by standing on the tracks failed.
+  - H4: Attempting to interact with the platforms directly failed.
 
 ## III. Item Effects
 - **EVERSTONE:** A Pokémon holding this item will not evolve.
