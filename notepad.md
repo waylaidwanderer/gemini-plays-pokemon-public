@@ -3,7 +3,7 @@
 ## I. Game & Tile Mechanics
 
 ### Tile Traversal Rules (Verified)
-- **Impassable:** WALL, VOID, CUT_TREE, WATER, HEADBUTT_TREE, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, BED, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC)
+- **Impassable:** WALL, VOID, CUT_TREE, WATER, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, BED, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC)
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, CAVE
 - **Movement-Based Warps:** LADDER (Activated by moving onto the tile, not by interaction).
@@ -14,13 +14,14 @@
 ### Untested Tile Mechanics
 - **LEDGE:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
+- **HEADBUTT_TREE:** Test if this tile is interactable or just an impassable tree.
 
 ## II. Quest Progression & Puzzles
 
-### Blocked Path: Ilex Forest West
-- **Objective:** Clear the CUT tree at (8, 25) to access the western part of the forest.
-- **Prerequisite:** Obtain HM01 (CUT).
-- **Hypothesis:** Teaching HM01 to a Pokémon will allow me to pass.
+### Ilex Forest Quest
+- **Objective:** Find a way to get past the CUT tree at (8, 25).
+- **Prerequisite:** Seems to require HM01 (CUT).
+- **Current Lead:** A Youngster in Azalea Town mentioned a 'Charcoal Man' whose Pokémon can use CUT. I need to find him.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
