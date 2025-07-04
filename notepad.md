@@ -42,3 +42,6 @@
 - **IMMEDIATE WKG UPDATES:** Update the World Knowledge Graph IMMEDIATELY after every map transition. No exceptions.
 - **DOCUMENT ALL TILES:** Document and test every new tile type encountered.
 - **TRUST THE AGENT:** Follow the agent's advice, especially after multiple failed manual attempts. Refine the agent if its advice is flawed.
+
+### Slowpoke Well - Update
+- **New Clue from Kurt:** After returning to his house, Kurt mentioned that all the SLOWPOKE have disappeared and that the 'forest's protector' may be angry. This suggests the solution is in Ilex Forest.
