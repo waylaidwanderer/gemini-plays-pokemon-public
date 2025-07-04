@@ -35,3 +35,6 @@
 
 ## V. Self-Correction Log
 - **CRITICAL FAILURE:** I spent over 20 turns stuck in Kurt's House because I failed to consult my own notepad regarding the `WARP_CARPET_DOWN` mechanic. I must be more diligent about using my own documented knowledge.
+
+## VI. Gym Puzzle Mechanics
+- **Azalea Gym:** Defeated trainers no longer block the player's path, allowing access to new areas.
