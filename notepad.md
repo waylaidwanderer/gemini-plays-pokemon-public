@@ -52,3 +52,7 @@
 
 ## V. Active Hypotheses
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
+
+## VI. Post-Giovanni Cleanup (HIGH PRIORITY)
+- **CRITICAL:** Fix `battle_strategist_agent`. The JSON schema is bugged (`nullable` property). The system prompt also needs to be more robust to account for non-STAB coverage moves.
+- **CRITICAL:** Consolidate redundant map markers across all floors of Silph Co. and other visited maps to clean up the strategic view.
