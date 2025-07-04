@@ -30,17 +30,15 @@
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
 - **Verified Mechanics:**
-    - **Proximity (Turning):** Moving to a tile adjacent to the Farfetch'd causes it to turn. The exact turning logic is still being determined.
-    - **Proximity (Herding):** Approaching the Farfetch'd from the direction **OPPOSITE** to where it is currently facing will scare it, causing it to move one tile directly away from the player. This is the only way to move it.
-    - **Reset Condition:** Stepping on ANY twig causes the Farfetch'd to disappear, resetting the puzzle. Its respawn location appears to change.
-    - **Direct Interaction:** Causes the Farfetch'd to squawk and then disappear from the map, failing the puzzle.
-- **Failed Hypotheses:**
-    1. Moving to a different part of the forest does NOT reset the puzzle.
-    2. Leaving the map and immediately returning does NOT reset the puzzle.
-    3. A 'hard reset' by visiting a Pokémon Center in another town does not reset the puzzle.
-    4. The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
-    5. The twig at (29, 24) is a trap; stepping on it makes the Farfetch'd disappear.
-    6. Stepping on the twig at (17, 28) also makes the Farfetch'd disappear. (Conclusion: all twigs are traps).
+    - **Proximity (Turning):** Moving to a tile adjacent to the Farfetch'd causes it to turn and face the player.
+    - **Proximity (Herding):** Approaching the Farfetch'd from the direction **OPPOSITE** to where it is currently facing will scare it, causing it to move one tile directly away from the player. This is a key way to move it short distances.
+    - **Movement Mechanic (Twigs):** Stepping on a twig causes the Farfetch'd to turn towards the sound and then move to a new, seemingly predetermined location. This is a primary way to manipulate its position across the map. It is NOT a fail state.
+    - **Direct Interaction:** Causes the Farfetch'd to squawk and then disappear from the map, failing the puzzle. This is a confirmed fail state.
+- **Corrected Understanding:**
+    - The puzzle is not reset by leaving the map.
+    - Twigs are not traps that cause failure. They are a core mechanic for repositioning the Farfetch'd. The goal is to use a combination of stepping on twigs and direct herding to guide it to the apprentice.
+- **Archived Failed Hypotheses:**
+    - The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
