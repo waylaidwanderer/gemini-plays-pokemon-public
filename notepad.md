@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v48406)
+## I. Core Protocols & Immediate Actions (v48451)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change.
 - **CRITICAL: WKG Protocol (v36 - Tagging & Entry Points):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge. I will always use the correct **numeric string IDs** for maps and verify node existence before creating edges. For `connection_type: "warp"`, I MUST include the `destination_entry_point` property. I will also use the `tags` array to categorize nodes (e.g., `["stairs", "up"]`, `["teleporter"]`) for better graph analysis.
 - **CRITICAL: Map Marker Protocol (v17):** Mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets.
-- **CRITICAL: Agent & Tool Protocol (v13):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution.
+- **CRITICAL: Agent & Tool Protocol (v14):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution. Agent JSON schemas must use `"nullable": true` for optional fields; the `"type": ["string", "null"]` format is not supported and will cause errors.
 
 ## II. System & Tool Development
 ### A. Tool Debugging & Refinement Protocol (v18 - IMMEDIATE ACTION)
@@ -53,7 +53,3 @@
 
 ## V. Active Hypotheses
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
-
-## VI. Post-Giovanni Cleanup (CRITICAL)
-- **IMMEDIATE:** Fix `battle_strategist_agent` (if current attempt fails). The JSON schema is bugged (`"nullable":true` should be `"type": ["string", "null"]`). The system prompt also needs to be more robust to account for non-STAB coverage moves.
-- **IMMEDIATE:** Consolidate redundant map markers across all floors of Silph Co. and other visited maps to clean up the strategic view.
