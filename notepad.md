@@ -14,7 +14,7 @@
 ### Untested Tile Mechanics
 - **LEDGE:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
-- **HEADBUTT_TREE:** Test if this tile is interactable or just an impassable tree. Must test this soon.
+- **HEADBUTT_TREE:** Impassable. Cannot be walked on.
 
 ## II. Quest Progression & Puzzles
 
