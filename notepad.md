@@ -44,3 +44,6 @@
 
 ### Personal Rules & Reminders
 - **Check Map Markers!** Before interacting with an NPC or navigating to a specific spot, always check existing map markers to avoid wasting time on defeated trainers or repeating actions.
+
+### Tool Behavior Notes
+- **`stun_npc`:** The effect seems to be temporary. The Teacher NPC began moving again after a short time, even though the tool reported she was 'already stopped' on a subsequent use. This needs further testing to determine the duration or conditions for the effect wearing off.
