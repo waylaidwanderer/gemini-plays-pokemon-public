@@ -66,3 +66,6 @@
   - **Conclusion:** Hypothesis unconfirmed. The trigger may be more complex.
 
 - **Failed Hypothesis:** Leaving and re-entering the forest does not reset the Farfetch'd's position. Its location is persistent.
+
+## V. Agent & Tool Management
+- **Agent Deletion Plan:** Delete the `farfetchd_herder` agent after obtaining HM01 CUT, as it will be obsolete.
