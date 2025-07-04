@@ -3,10 +3,10 @@
 ## I. Game & Tile Mechanics
 
 ### Tile Mechanics Testing Protocol
-*Goal: Build a comprehensive guide to the game's physics.*
+*Goal: Build a comprehensive guide to the game's physics. This must be followed for every new tile type.*
 1.  **New Tile Encountered:** When a new, undocumented tile type appears on the map, I must immediately begin testing.
 2.  **Impassable Test:** Attempt to move onto the tile from all four cardinal directions (Up, Down, Left, Right).
-3.  **One-Way Test:** If traversal is possible from one direction, I must immediately test all other directions to confirm if it is a one-way path.
+3.  **One-Way Test:** If traversal is possible from one direction, I must immediately test all other directions to confirm if it is a one-way path. Every direction must be individually verified.
 4.  **Record Results:** Document all findings in the 'Verified' section below. No assumption is valid until tested.
 
 ### Tile Traversal Rules (Verified)
@@ -30,17 +30,17 @@
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
 - **Verified Mechanics:**
-    - **Sound (Stepping on Twigs):** Makes the Farfetch'd turn to face the sound. It does NOT cause it to move from its tile.
+    - **Proximity (Turning):** Moving to a tile adjacent to the Farfetch'd causes it to turn. The exact turning logic is still being determined.
+    - **Proximity (Herding):** Approaching the Farfetch'd from the direction **OPPOSITE** to where it is currently facing will scare it, causing it to move one tile directly away from the player. This is the only way to move it.
+    - **Reset Condition:** Stepping on ANY twig causes the Farfetch'd to disappear, resetting the puzzle. Its respawn location appears to change.
     - **Direct Interaction:** Causes the Farfetch'd to squawk and then disappear from the map, failing the puzzle.
 - **Failed Hypotheses:**
     1. Moving to a different part of the forest does NOT reset the puzzle.
     2. Leaving the map and immediately returning does NOT reset the puzzle.
     3. A 'hard reset' by visiting a Pokémon Center in another town does not reset the puzzle.
-    4. Leaving the Ilex Forest map entirely and returning does NOT reset the puzzle.
-    5. Talking to the apprentice after scaring the Farfetch'd away does NOT reset the puzzle.
-    6. The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
-    7. The small stick sprite at (28, 23) is not a twig.
-    8. The small stick sprite at (29, 24) is a trap; stepping on it makes the Farfetch'd disappear.
+    4. The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
+    5. The twig at (29, 24) is a trap; stepping on it makes the Farfetch'd disappear.
+    6. Stepping on the twig at (17, 28) also makes the Farfetch'd disappear. (Conclusion: all twigs are traps).
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -58,7 +58,3 @@
 - **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information.
 - **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning and planning. Use tools for computation and repetitive actions. Refine or delete them immediately if they are flawed. Test agent output before discarding.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
-### Untested Tile Mechanics
-
-- **WARP_CARPET_RIGHT:** Test if this tile is activated by stepping onto it or by pressing a specific direction.
-    9. Stepping on the twig at (17, 28) caused the Farfetch'd at (28, 31) to disappear, resetting the puzzle.
