@@ -19,8 +19,7 @@
 
 ### Ilex Forest Quest
 - **Objective:** Guide the lost FARFETCH'D back to the Charcoal Man's apprentice at (7, 28).
-- **Status:** Puzzle mechanic discovered! Interacting with the Farfetch'd causes it to teleport to a new, predetermined location. The puzzle is a sequence of interactions, not herding.
-- **Current Plan:** Systematically interact with the Farfetch'd from different angles to map its teleportation sequence and guide it towards the apprentice.
+- **Status:** Puzzle mechanic discovered! Interacting with the Farfetch'd from specific tiles causes it to teleport to a new, predetermined location. The puzzle is a sequence of interactions.
 - **Known Sequence:**
   1. Interact from below at (15, 26) -> Teleports to (20, 24).
   2. Interact from the side at (21, 24) -> Vanished (location unknown).
@@ -42,7 +41,3 @@
 - **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information. No exceptions.
 - **TRUST THE AGENTS:** Use agents proactively for complex problems. Trust their outputs, especially when stuck. Refine them if they are flawed.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
-
-## Glitch Encounter
-- **Map ID:** 56_126
-- **Description:** Encountered a glitched battle with a corrupted game state. Party, badges, and money were all incorrect. Attempting to run from the battle to resolve the issue.
