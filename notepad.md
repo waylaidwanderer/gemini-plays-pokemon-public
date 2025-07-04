@@ -37,3 +37,10 @@
 - **TRUST THE AGENTS:** Use agents proactively for complex problems. Trust their outputs, especially when stuck. Refine them if they are flawed.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
 - Received a phone call from Youngster Joey.
+
+### Farfetch'd Herder Plan
+1. **Step on twig at (26, 22):** Lure Farfetch'd west.
+2. **Interact from (28, 21):** Push Farfetch'd south.
+3. **Step on twig at (24, 27):** Lure Farfetch'd south and west.
+4. **Step on twig at (19, 27):** Continue luring Farfetch'd west.
+5. **Interact from (8, 28):** Push Farfetch'd to the apprentice.
