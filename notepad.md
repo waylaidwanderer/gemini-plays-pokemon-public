@@ -24,16 +24,8 @@
 - **Objective:** Solve the sliding stone panel puzzle.
 - **Current Hypothesis:** The solution is not in the first chamber. The ladder at (10, 13) is the only other path forward.
 
-### Azalea Gym Puzzle
-- **Objective:** Reach and defeat Gym Leader Bugsy.
-- **Critical Insight:** The path is blocked by trainers at (4, 10) and (5, 10), so something must move the platforms. The wall 'switches' are not real objects. The statues at (3, 13) and (6, 13) are the only other interactable candidates.
-- **Current Plan:** Test the left statue at (3, 13).
-- **Failed Attempts Log:**
-  - H1: Simple switch combinations (L:ON/R:OFF, L:OFF/R:ON, L:ON/R:ON) on the wall decorations failed.
-  - H2: Toggle sequences on the wall decorations failed.
-  - H3: Attempting to 'ride' the platforms by standing on the tracks failed.
-  - H4: Attempting to interact with the platforms directly failed.
-  - H5: Interacting with the right statue at (6, 13) from (5, 13) did nothing.
+### Azalea Gym Puzzle (SOLVED)
+- **Solution:** Defeating all trainers in the gym reconfigures the platforms, opening a path to the leader.
 
 ## III. Item Effects
 - **EVERSTONE:** A Pokémon holding this item will not evolve.
