@@ -20,6 +20,7 @@
 ### Blocked Path: Ilex Forest West
 - **Objective:** Clear the CUT tree at (8, 25) to access the western part of the forest.
 - **Prerequisite:** Obtain HM01 (CUT).
+- **Hypothesis:** Teaching HM01 to a Pokémon will allow me to pass.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -32,6 +33,7 @@
 - **EVERSTONE:** A Pokémon holding this item will not evolve.
 - **BERRY:** Restores 10 HP. Obtained from FRUIT_TREEs.
 - **TM49 (Fury Cutter):** A move that gets stronger with each consecutive hit.
+- **SLOWPOKETAIL:** A man on Route 32 offered to sell this. Its purpose is unknown.
 
 ## IV. Procedural Reminders
 - **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information. No exceptions.
