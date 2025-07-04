@@ -60,9 +60,4 @@
 - **Lesson:** Route 19 trainers are significantly higher level than my team. Grinding is necessary before proceeding further south.
 - **Hypothesis:** The Saffron City Gym is the next logical badge target after Fuchsia City. This is blocked until Silph Co. is cleared.
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
-- **Hypothesis:** My current roster may not be sufficient for Sabrina's Psychic-type gym, even at the level cap. I will consult my `team_composition_advisor_agent` after clearing Silph Co.
 - **Marker Labeling Protocol (v1):** For all defeated trainers, I will use the standardized label 'Trainer defeated'.
-
-## V. Assumptions & Verification Plan
-- **Assumption 1:** Clearing Silph Co. will unblock the Saffron City Gym.
-  - **Verification:** After defeating the final boss in Silph Co., I will immediately travel to the Saffron Gym entrance to check if the blocking NPC is gone.
