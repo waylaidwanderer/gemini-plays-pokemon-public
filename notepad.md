@@ -19,21 +19,14 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28).
-- **Current Status:** The Farfetch'd is at (20, 24). The puzzle is a fixed sequence of directional interactions.
-- **Known Correct Sequence:**
-  1. Interact from (15, 26) [below] -> Teleports to (20, 24).
-  2. Interact from (15, 24) [above] -> Teleports to (15, 29).
-  3. Interact from (16, 29) [right] -> Teleports to (15, 25).
-- **Failed Attempts Log:**
-  - Interacting from (21, 24) [right] caused it to vanish.
-  - Interacting from (20, 23) [above] at its current position (20, 24) did not work.
+- **Current Status:** The puzzle is a fixed sequence of directional interactions and environmental triggers (stepping on twigs).
+- **Hypotheses to Test:**
+  1. The sequence of interactions is key. I need to find the correct order of facing the Farfetch'd and stepping on twigs.
+  2. Could an item be used? Try using a BERRY on the Farfetch'd.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
-- **Current Hypothesis:** The solution is not in the first chamber. The ladder at (10, 13) is the only other path forward.
-
-### Azalea Gym Puzzle (SOLVED)
-- **Solution:** Defeating all trainers in the gym reconfigures the platforms, opening a path to the leader.
+- **Current Status:** The ladder at (10, 13) is the only path forward. The solution is likely in another chamber.
 
 ## III. Item Effects
 - **EVERSTONE:** A Pokémon holding this item will not evolve.
