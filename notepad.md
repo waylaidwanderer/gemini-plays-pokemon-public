@@ -16,16 +16,6 @@
 
 ## II. Quest Progression & Puzzles
 
-### Blocked Path: Slowpoke Well
-- **Objective:** Gain access to the Slowpoke Well.
-- **Clues:** Team Rocket is selling SLOWPOKETAILS. Kurt makes custom Poké Balls. Kurt has gone to the well to confront Team Rocket.
-- **Hypothesis #1 (Failed):** Approaching the grunt at (31, 9) will trigger an event with Kurt. (Result: No event triggered).
-- **Hypothesis #2 (Failed):** Speaking to Kurt's apprentice after Kurt leaves will provide new info. (Result: Repeated dialogue).
-- **Hypothesis #3 (Failed):** Speaking to Gramps after Kurt leaves will provide new info. (Result: Repeated dialogue).
-- **Hypothesis #4 (Success):** Speaking to Kurt inside his house triggers the event where he confronts the grunt. (Result: Kurt left for the well).
-- **Hypothesis #5 (Failed):** Speaking to the grunt at (31, 9) after Kurt leaves will make him move. (Result: Grunt gives dialogue but does not move).
-- **Current Hypothesis:** The grunt at (31, 9) is a simple obstacle. I must navigate around him to enter the well at (31, 7).
-
 ### Blocked Path: Ilex Forest West
 - **Objective:** Clear the CUT tree at (8, 25) to access the western part of the forest.
 - **Prerequisite:** Obtain HM01 (CUT).
