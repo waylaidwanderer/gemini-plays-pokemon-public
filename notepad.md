@@ -23,7 +23,7 @@
     - Stepping on twigs makes the Farfetch'd turn to face the sound, but it does not move.
     - Interacting with the Farfetch'd directly causes it to disappear from the map.
 - **Current Hypothesis:** The puzzle must be solved by luring it with sound. To make it move, I likely need to step on twigs that are *behind* it.
-- **Current Plan:** The Farfetch'd has vanished. I will leave and re-enter Ilex Forest to reset the puzzle. Then, I will attempt to herd it using only sound from behind.
+- **Current Plan:** The puzzle resets if the Farfetch'd vanishes or if the player leaves the map. The key is to step on twigs from *behind* the Farfetch'd to make it move away from the sound.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
