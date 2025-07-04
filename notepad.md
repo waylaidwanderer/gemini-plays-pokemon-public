@@ -38,7 +38,7 @@
     5. Talking to the apprentice after scaring the Farfetch'd away does NOT reset the puzzle.
     6. The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
     7. The small stick sprite at (28, 23) is not a twig.
-    8. The small stick sprite at (29, 24) is not a twig.
+    8. The small stick sprite at (29, 24) is not a twig, and stepping on it makes the Farfetch'd disappear.
 - **Agent Usage Notes:**
   - **Farfetch'd Puzzle:** Once I find the real twigs, I MUST use the `farfetchd_herder` agent to solve the herding part of the puzzle. The `quest_strategist` is for when the puzzle state fundamentally changes (e.g., the bird goes missing).
 
