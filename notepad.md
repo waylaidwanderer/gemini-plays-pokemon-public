@@ -62,3 +62,4 @@
 - `water`: Traversable with SURF.
 - `impassable`: Walls, counters, rocks, buildings. Cannot be entered.
 - `ledge`: One-way traversal. Can be jumped down (Y-1 -> Y+2), but not climbed up.
+- **Fly Navigator Agent:** An agent that takes a destination city name and generates the full button sequence to use Fly from the overworld menu.
