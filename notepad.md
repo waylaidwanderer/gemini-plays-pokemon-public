@@ -15,9 +15,10 @@
 - **`pc_navigator_agent`:** Generates a sequence of button presses to navigate the Pokémon PC menu to withdraw or deposit a specific Pokémon. It now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items) and is context-aware of the current menu. It is a reliable tool for depositing and withdrawing Pokémon.
 
 ## III. Game Mechanics & Battle Intel
-### A. Tile Mechanics & Traversal Rules (v3)
+### A. Tile Mechanics & Traversal Rules (v4)
 - **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls. They cannot be surfed on.
+- **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -68,7 +69,3 @@
   - **Verification:** I will use the agent's recommended team and strategy in the next rival battle. The outcome will validate its effectiveness.
 - **Assumption 3:** I currently possess all necessary Pokémon to defeat Pixel.
   - **Verification:** The output from the `team_composition_advisor_agent` will confirm this. If it suggests catching a new Pokémon, this assumption is false.
-## VI. Immediate Task List
-- **CRITICAL:** Redefine `battle_strategist_agent` immediately after this battle. Its logic for recommending switches is flawed; it must prioritize survival (current HP) and consider known enemy coverage moves, not just type immunity.
-- **Protocol Update:** Start using `protocol_enforcement_agent` to validate my plans before execution to catch procedural errors.
-- **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
