@@ -42,3 +42,4 @@
 ## IV. Procedural Reminders
 - **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information. No exceptions.
 - **TRUST THE AGENTS:** Use agents proactively for complex problems. Trust their outputs, especially when stuck. Refine them if they are flawed.
+  - H6: Talking to the Gym Guide again after battling trainers did not provide new hints.
