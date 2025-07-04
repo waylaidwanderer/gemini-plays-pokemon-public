@@ -17,7 +17,6 @@
 - **`pathfinder`:** After extensive debugging, this tool now correctly handles dynamic land-to-water transitions by accepting a `can_surf` parameter. It is my primary and reliable pathfinding tool for all overworld navigation.
 
 ## III. Future Agent & Tool Development Ideas
-- **IMMEDIATE DEVELOPMENT PRIORITY: Training Grinder Agent:** An agent that takes my party, a target level, and my WKG/known encounter data to recommend the most time-efficient grinding spot and target Pokémon.
 - **Tool Debugger Agent:** An agent that takes a tool name and debug objective (e.g., 'trace_path') to automatically generate a `run_code` script with debugging print statements. This would streamline fixing faulty tools.
 - **HM Teacher Agent/Tool:** An agent or tool to automate the process of navigating the menu to teach a specific HM to a specific Pokémon, including selecting which move to replace.
 - **Strategic Exploration Agent:** An agent that analyzes the entire map, identifies clusters of unseen tiles, and suggests a more strategic exploration plan, especially for complex maps like Silph Co. or caves.
