@@ -57,3 +57,10 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 - **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
+
+## VI. Tile Mechanics & Traversal Rules
+- `ground`: Standard walkable tile.
+- `impassable`: Walls, counters, rocks, buildings, etc. Cannot be entered.
+- `water`: Crossable using SURF. Must use SURF from the menu while adjacent to a water tile to begin surfing.
+- `ledge`: Can be jumped down, but not up. A single down press traverses the ledge.
+- `warp`: Teleport tile to another map or location.
