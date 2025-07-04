@@ -26,6 +26,7 @@
 ### Current Assumptions to Test
 1. The Headbutt tutor exists in Ilex Forest and can teach me the move.
 2. Learning Headbutt is related to solving the Farfetch'd puzzle.
+3. The Farfetch'd puzzle is solvable with my current items and knowledge.
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
@@ -39,6 +40,7 @@
     - Twigs are not traps that cause failure. They are a core mechanic for repositioning the Farfetch'd. The goal is to use a combination of stepping on twigs and direct herding to guide it to the apprentice.
 - **Archived Failed Hypotheses:**
     - The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
+    - The Farfetch'd is summoned by stepping on or off a twig.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
