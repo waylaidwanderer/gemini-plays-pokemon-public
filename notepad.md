@@ -56,5 +56,5 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 - **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
-- **SURF Field Move Mechanics (v5 - Confirmed):** SURF can be used in the field by a compatible Pokémon. I have successfully used it with HELIX (OMANYTE).
+
 - **Training Grinder Agent:** An agent that takes my party, a target level, and my WKG/known encounter data to recommend the most time-efficient grinding spot and target Pokémon.
