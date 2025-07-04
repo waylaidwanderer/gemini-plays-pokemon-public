@@ -31,11 +31,11 @@
 
 ## IV. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
-- **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective), Electric !> Grass, Rock !> Ground.
+- **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective), Electric !> Grass, Rock !> Ground, **Psychic !> Psychic**.
 - **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves. MUK is immune to Poison-type moves.
 - **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves.
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses). **CONFUSE RAY can also fail against a target with evasion boosts.**
-- **Battle Mechanics:** Multi-hit moves (e.g., FURY ATTACK) are a critical threat and can bypass the "sturdy" effect of surviving on 1 HP.
+- **Battle Mechanics:** Multi-hit moves (e.g., FURY ATTACK) are a critical threat and can bypass the "sturdy" effect of surviving on 1 HP. The message "Nothing happened!" can display after a "not very effective" attack, likely indicating minimal damage was dealt.
 - **Ghost-Type Effectiveness:** Ghost-type moves (like Lick) are effective against Rock/Ground-types.
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
 - **Silph Co. Blackout:** Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
@@ -50,7 +50,7 @@
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 - **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
 
-## V. Tile Mechanics & Traversal Rules (v46223)
+## V. Tile Mechanics & Traversal Rules (v46228)
 - `ground`: Standard walkable tile.
 - `impassable`: Walls, counters, rocks, buildings, etc. Cannot be entered.
 - `water`: Crossable using SURF. Must use SURF from the menu while adjacent to a water tile to begin surfing.
@@ -59,4 +59,5 @@
 - `grass`: Tall grass for wild Pokémon encounters. Walkable.
 - `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - `spinner_up/down/left/right`: Forces movement in the specified direction. Found in Rocket Hideout.
+- `steps`: Allows vertical movement between different ground elevations (e.g., in Mt. Moon).
 - **0 PP Move Mechanic:** Selecting a move with 0 PP displays a 'No PP left' message but does not advance the turn or trigger STRUGGLE. You must select a different move with PP to proceed.
