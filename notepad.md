@@ -36,7 +36,11 @@
     3. A 'hard reset' by visiting a Pokémon Center in another town does not reset the puzzle.
     4. Leaving the Ilex Forest map entirely and returning does NOT reset the puzzle.
     5. Talking to the apprentice after scaring the Farfetch'd away does NOT reset the puzzle.
-- **Incorrect Assumption:** The `HEADBUTT_TREE` tiles are not the twigs for the puzzle. The twigs are likely small visual elements on floor tiles.
+    6. The `HEADBUTT_TREE` tiles are not the twigs for the puzzle. The twigs are likely small visual elements on floor tiles.
+    7. The small stick sprite at (28, 23) is not a twig.
+    8. The small stick sprite at (29, 24) is not a twig.
+- **Agent Usage Notes:**
+  - **Farfetch'd Puzzle:** Once I find the real twigs, I MUST use the `farfetchd_herder` agent to solve the herding part of the puzzle. The `quest_strategist` is for when the puzzle state fundamentally changes (e.g., the bird goes missing).
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -54,6 +58,3 @@
 - **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information.
 - **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning and planning. Use tools for computation and repetitive actions. Refine or delete them immediately if they are flawed. Do not treat agent output as infallible truth; it is a hypothesis to be tested.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
-
-## V. Agent Usage Notes
-- **Farfetch'd Puzzle:** Once I find the real twigs, I MUST use the `farfetchd_herder` agent to solve the herding part of the puzzle. The `quest_strategist` is for when the puzzle state fundamentally changes (e.g., the bird goes missing).
