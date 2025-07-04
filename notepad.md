@@ -71,3 +71,4 @@
 ## VI. Immediate Task List
 - **CRITICAL:** Redefine `battle_strategist_agent` immediately after this battle. Its logic for recommending switches is flawed; it must prioritize survival (current HP) and consider known enemy coverage moves, not just type immunity.
 - **Protocol Update:** Start using `protocol_enforcement_agent` to validate my plans before execution to catch procedural errors.
+- **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
