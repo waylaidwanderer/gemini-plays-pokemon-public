@@ -60,4 +60,4 @@
 - `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - `spinner_up/down/left/right`: Forces movement in the specified direction. Found in Rocket Hideout.
 - `steps`: Allows vertical movement between different ground elevations (e.g., in Mt. Moon).
-- **0 PP Move Mechanic:** Selecting a move with 0 PP displays a 'No PP left' message but does not advance the turn or trigger STRUGGLE. You must select a different move with PP to proceed.
+- **0 PP Move Mechanic:** Selecting a move with 0 PP displays a 'No PP left' message and does not advance the turn. To proceed, another move with PP must be selected. Struggle is not automatically triggered.
