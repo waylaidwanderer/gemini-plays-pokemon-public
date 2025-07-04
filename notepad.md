@@ -15,12 +15,20 @@
 - **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
 
 ## III. Game Mechanics & Battle Intel
-### A. Confirmed ROM Hack Changes
+### A. Tile Mechanics & Traversal Rules
+- **`ground`**: Walkable tile.
+- **`impassable`**: Walls, counters, rocks, buildings, etc. Cannot be entered.
+- **`water`**: Crossable using HM Surf.
+- **`grass`**: Tall grass for wild Pokémon encounters.
+- **`cuttable`**: Tree that can be cut with HM Cut.
+- **`ledge`**: One-way traversal. Can be jumped down, but not climbed up.
+- **`steps`**: Allows vertical movement between different ground elevations.
+### B. Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective), Electric !> Grass, Rock !> Ground, **Psychic !> Psychic**.
 - **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves. MUK is immune to Poison-type moves.
 - **Status Ailments:** Rock/Ground-types are NOT immune to being poisoned by Poison-type moves.
 - **Evasion Mechanics:** PSYWAVE, a move that should never miss, can fail against a target with extreme evasion boosts (e.g., multiple MINIMIZE uses). **CONFUSE RAY can also fail against a target with evasion boosts.**
-- **Battle Mechanics:** Multi-hit moves (e.g., FURY ATTACK) are a critical threat and can bypass the "sturdy" effect of surviving on 1 HP. The message "Nothing happened!" can display after a "not very effective" attack, likely indicating minimal damage was dealt.
+- **Battle Mechanics:** Multi-hit moves (e.g., FURY ATTACK) are a critical threat and can bypass the "sturdy" effect of surviving on 1 HP. The message "Nothing happened!" can display after a "not very effective" attack, likely indicating minimal damage was dealt. A Pokémon with 0 PP for all moves will use Struggle.
 - **Ghost-Type Effectiveness:** Ghost-type moves (like Lick) are effective against Rock/Ground-types.
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
 - **Saffron City Navigation:** The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
@@ -32,6 +40,8 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 
-## Battle Reflection (Turn 47031)
-- **Failed Hypothesis:** My team composition and levels were insufficient for the trainers on Route 19. I underestimated the power and speed of the opponents, leading to a full team wipe. 
-- **Corrective Action:** I need to grind my team to the level cap of 50 and reconsider my team composition. I should prioritize Pokémon with strong type advantages against Water and Poison types for this route.
+## IV. Strategic Lessons & Hypotheses
+- **Lesson:** Route 19 trainers are significantly higher level than my team. Grinding is necessary before proceeding further south. Attempting to fight them while underleveled results in a team wipe.
+- **Hypothesis:** The Saffron City Gym is the next logical badge target after Fuchsia City.
+- **Hypothesis:** Seafoam Islands contains a legendary Pokémon. This needs to be confirmed through exploration.
+- **Hypothesis:** My current roster may not be sufficient for Sabrina's Psychic-type gym, even at the level cap. I will consult my `team_composition_advisor_agent` after leveling.
