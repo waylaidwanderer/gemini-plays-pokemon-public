@@ -38,3 +38,6 @@
 
 - **TM49 (Fury Cutter):** A move that gets stronger with each consecutive hit.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
+
+- **TM49 (Fury Cutter):** A move that gets stronger with each consecutive hit.
+- **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
