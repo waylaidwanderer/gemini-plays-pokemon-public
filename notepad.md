@@ -63,3 +63,5 @@
   - **Test:** Moved onto tile (23, 30).
   - **Result:** No immediate event or appearance.
   - **Conclusion:** Hypothesis unconfirmed. The trigger may be more complex.
+
+- **Failed Hypothesis:** Leaving and re-entering the forest does not reset the Farfetch'd's position. Its location is persistent.
