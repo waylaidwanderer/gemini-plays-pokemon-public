@@ -56,3 +56,8 @@
 - **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information.
 - **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning and planning. Use tools for computation and repetitive actions. Refine or delete them immediately if they are flawed. Test agent output before discarding.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
+- **Farfetch'd Puzzle Test:**
+  - **Hypothesis:** Stepping on the twig at (23, 30) will make the Farfetch'd appear.
+  - **Test:** Moved onto tile (23, 30).
+  - **Result:** No immediate event or appearance.
+  - **Conclusion:** Hypothesis unconfirmed. The trigger may be more complex.
