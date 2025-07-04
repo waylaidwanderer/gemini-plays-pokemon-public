@@ -20,12 +20,13 @@
 
 ### Ilex Forest Quest
 - **Objective:** Find the lost FARFETCH'D and return it to the Charcoal Man's apprentice at (7, 28).
-- **Current Hypothesis:** The Farfetch'd teleports to a new, predetermined location each time I interact with it. The direction I'm facing when I interact likely determines its destination. I need to map out these teleportation points to guide it back to the apprentice.
-- **Agent Hypotheses (from `quest_strategist`):**
-  1.  **Facing-Based Movement:** The Farfetch'd's movement is determined by the direction the player is facing. (Current working theory)
-  2.  **Sound-Based Movement:** The puzzle may be similar to the twig puzzle, requiring me to interact with the environment (e.g., trees) to create sounds that guide the Farfetch'd.
-  3.  **Missing HM:** I may still need to find the Charcoal Man and get HM01 (CUT) to clear a path.
-  4.  **Shrine Interaction:** The Ilex Forest Shrine at (8, 22) could be a trigger for the puzzle.
+- **Status:** STUCK. My `farfetchd_herder` tool has failed twice, even after code corrections. This proves my underlying hypothesis about the Farfetch'd's movement (that it moves directly away from the player) is fundamentally flawed.
+- **New Plan:**
+  1.  **IMMEDIATE:** Per critique, I must test the adjacent `HEADBUTT_TREE` and `LEDGE_HOP_DOWN` tiles and update my notepad with their mechanics.
+  2.  **New Hypothesis:** The puzzle likely involves interacting with the environment (e.g., stepping on twigs) to make the Farfetch'd move. The direction I'm *facing* during the interaction might be the key. I will manually test this next.
+- **Failed Attempts Log:**
+  1. `farfetchd_herder` tool (initial version).
+  2. `farfetchd_herder` tool (v2, trees as obstacles).
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
