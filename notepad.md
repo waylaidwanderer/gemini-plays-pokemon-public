@@ -19,10 +19,8 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28).
-- **Current Status:** The puzzle is a fixed sequence of directional interactions and environmental triggers (stepping on twigs).
-- **Hypotheses to Test:**
-  1. The sequence of interactions is key. I need to find the correct order of facing the Farfetch'd and stepping on twigs.
-  2. Could an item be used? Try using a BERRY on the Farfetch'd.
+- **Current Status:** The Farfetch'd is not on screen. I need to reset the map by leaving and re-entering the forest.
+- **Plan:** After resetting the map, I will use my `farfetchd_herder` agent to solve the puzzle.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
