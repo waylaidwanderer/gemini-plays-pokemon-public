@@ -32,7 +32,7 @@
 - **Failed Hypotheses:**
     1. Moving to a different part of the forest does NOT reset the puzzle.
     2. Leaving the map and immediately returning does NOT reset the puzzle.
-- **Current Hypothesis (to be tested):** The puzzle requires a "hard reset". I must leave Ilex Forest, travel to Azalea Town, enter and exit the Pokémon Center to force a full map reload, and then return. This should cause the Farfetch'd to respawn at its starting position (22, 29).
+    3. A 'hard reset' by visiting a Pokémon Center in another town does not reset the puzzle.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
