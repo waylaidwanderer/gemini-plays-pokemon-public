@@ -52,3 +52,4 @@
 ## VI. Mechanics to Investigate
 - **LEDGE tile:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN tile:** Test if this tile only allows downward movement.
+- **Untested (Assumed Impassable):** TOWN_MAP, WINDOW, BOOKSHELF, TV, RADIO
