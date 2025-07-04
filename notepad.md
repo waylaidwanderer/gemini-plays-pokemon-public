@@ -19,9 +19,10 @@
 ## II. Quest Progression & Puzzles
 
 ### Ilex Forest Quest
-- **Objective:** Find the lost FARFETCH'D and return it to the Charcoal Man's apprentice.
-- **Agent Hypotheses (from `quest_strategist`):** My `farfetchd_herder` tool has failed, indicating a flawed understanding of the puzzle. I must test these new hypotheses provided by my agent:
-  1.  **Facing-Based Movement:** The Farfetch'd's movement is determined by the direction the player is facing. Test by approaching from different angles and turning while adjacent to it.
+- **Objective:** Find the lost FARFETCH'D and return it to the Charcoal Man's apprentice at (7, 28).
+- **Current Hypothesis:** The Farfetch'd teleports to a new, predetermined location each time I interact with it. The direction I'm facing when I interact likely determines its destination. I need to map out these teleportation points to guide it back to the apprentice.
+- **Agent Hypotheses (from `quest_strategist`):**
+  1.  **Facing-Based Movement:** The Farfetch'd's movement is determined by the direction the player is facing. (Current working theory)
   2.  **Sound-Based Movement:** The puzzle may be similar to the twig puzzle, requiring me to interact with the environment (e.g., trees) to create sounds that guide the Farfetch'd.
   3.  **Missing HM:** I may still need to find the Charcoal Man and get HM01 (CUT) to clear a path.
   4.  **Shrine Interaction:** The Ilex Forest Shrine at (8, 22) could be a trigger for the puzzle.
