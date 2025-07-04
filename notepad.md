@@ -46,3 +46,7 @@
 - **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information. No exceptions.
 - **TRUST THE AGENTS:** Use agents proactively for complex problems. Trust their outputs, especially when stuck. Refine them if they are flawed.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
+
+## Glitch Encounter
+- **Map ID:** 56_126
+- **Description:** Encountered a glitched battle with a corrupted game state. Party, badges, and money were all incorrect. Attempting to run from the battle to resolve the issue.
