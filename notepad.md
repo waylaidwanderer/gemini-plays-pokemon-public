@@ -20,15 +20,10 @@
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
 - **Verified Mechanics:**
-    - Stepping on twigs makes the Farfetch'd turn to face the sound, but it does not move.
-    - Interacting with the Farfetch'd directly causes it to disappear from the map.
-- **Revised Hypothesis:** Leaving the area resets the puzzle. The Farfetch'd moves based on a combination of direct interaction (pushing) and sound from twigs. The agent's plan should be followed precisely.
-- **Agent Plan:**
-    1. Interact at (28, 32) to push north.
-    2. Interact at (29, 30) to push west.
-    3. Step on twig at (10, 30) to lure west.
-    4. Step on twig at (8, 27) to lure north.
-    5. Interact at (8, 28) to push to apprentice.
+    - **Sound (Stepping on Twigs):** Makes the Farfetch'd turn to face the sound. Does NOT cause it to move.
+    - **Direct Interaction:** Causes the Farfetch'd to squawk and then disappear from the map, failing the puzzle.
+    - **Resetting:** Leaving the map (e.g., to the Azalea Gate) and re-entering causes the Farfetch'd to respawn at its starting position.
+- **Current Hypothesis (based on apprentice's clue):** The apprentice said, "It runs off if you step on a twig from behind it." This is the key. I must use sound to manipulate the Farfetch'd's orientation so that I can then step on a twig that is *behind* it, causing it to move forward.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
