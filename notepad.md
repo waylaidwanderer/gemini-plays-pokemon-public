@@ -11,6 +11,7 @@
 - **DEBUGGING STEP 2 (Advanced Analysis):** If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where the pathfinding fails. This will confirm if the map is segmented.
 - **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
+- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
 
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
@@ -49,17 +50,3 @@
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 - **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
 - **0 PP Move Mechanic:** Selecting a move with 0 PP displays a 'No PP left' message and does not advance the turn. Struggle is not automatically triggered.
-
-## V. Tile Mechanics & Traversal Rules (v46228)
-- `ground`: Standard walkable tile.
-- `impassable`: Walls, counters, rocks, buildings, etc. Cannot be entered.
-- `water`: Crossable using SURF. Must use SURF from the menu while adjacent to a water tile to begin surfing.
-- `ledge`: Can be jumped down, but not up. A single down press traverses the ledge.
-- `warp`: Teleport tile to another map or location.
-- `grass`: Tall grass for wild Pokémon encounters. Walkable.
-- `cuttable`: Tree that can be cut with HM Cut. Becomes `ground` after cutting.
-- `spinner_up/down/left/right`: Forces movement in the specified direction. Found in Rocket Hideout.
-- `steps`: Allows vertical movement between different ground elevations (e.g., in Mt. Moon).
-
-## VI. Agent & Tool Ideas
-- **Stalemate Detector Agent:** An agent that can analyze a battle state (opponent's healing moves, my PP, damage output) to determine if a battle is unwinnable. This would help avoid wasting time in soft-lock situations like the one against the Starmie with Recover.
