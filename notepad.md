@@ -46,3 +46,4 @@
   3. Activating right statue, then left statue. (Path blocked)
   4. Activating left statue, then right statue. (Path blocked)
   5. Condition of defeating all trainers met, but path remains blocked.
+  6. Talking to Bug Catcher Al after interacting with switches. (Dialogue unchanged)
