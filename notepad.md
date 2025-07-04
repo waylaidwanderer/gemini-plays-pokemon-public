@@ -3,7 +3,7 @@
 ## I. Game & Tile Mechanics
 
 ### Tile Traversal Rules (Verified)
-- **Impassable:** WALL, VOID, CUT_TREE, WATER, HEADBUTT_TREE, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, BED, TWIN (NPC)
+- **Impassable:** WALL, VOID, CUT_TREE, WATER, HEADBUTT_TREE, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, BED, TWIN (NPC), GYM_GUIDE (NPC)
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, CAVE, LADDER (Acts as a two-way vertical warp)
 - **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must press the indicated direction *while standing on the tile* to activate).
@@ -45,5 +45,6 @@
   2. Activating left statue only. (Path blocked)
   3. Activating right statue, then left statue. (Path blocked)
   4. Activating left statue, then right statue. (Path blocked)
-  5. Condition of defeating all trainers met, but path remains blocked.
-  6. Talking to Bug Catcher Al after interacting with switches. (Dialogue unchanged)
+  5. Talking to Gym Guide after switch interactions. (Dialogue unchanged)
+  6. Talking to Bug Catcher Al after switch interactions. (Dialogue unchanged)
+  7. Activating left statue, then talking to Gym Guide, then activating right statue. (Path blocked)
