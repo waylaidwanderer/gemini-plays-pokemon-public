@@ -4,7 +4,39 @@
 - **CRITICAL: Map Marker Protocol (v17):** Mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets.
 - **CRITICAL: Agent & Tool Protocol (v13):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
-## II. Game Mechanics & Battle Intel
+## II. System & Tool Development
+### A. Tool Debugging & Refinement Protocol (v17 - IMMEDIATE ACTION)
+- **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. **Abandoning a tool is a protocol violation.**
+- **DEBUGGING STEP 1 (Advanced):** Use `run_code` with a modified pathfinding script. Print the `current` node inside the main loop to trace the BFS exploration path.
+- **DEBUGGING STEP 2 (Advanced Analysis):** If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where the pathfinding fails. This will confirm if the map is segmented.
+- **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
+- **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
+
+### B. Agent & Tool Usage Notes
+- **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
+- **`pathfinder`:** After extensive debugging, this tool now correctly handles dynamic land-to-water transitions by accepting a `can_surf` parameter. It is my primary and reliable pathfinding tool for all overworld navigation.
+
+### C. Future Agent & Tool Development Ideas
+- **Tool Debugger Agent:** An agent that takes a tool name and debug objective (e.g., 'trace_path') to automatically generate a `run_code` script with debugging print statements. This would streamline fixing faulty tools.
+- **HM Teacher Agent/Tool:** An agent or tool to automate the process of navigating the menu to teach a specific HM to a specific Pokémon, including selecting which move to replace.
+- **Strategic Exploration Agent:** An agent that analyzes the entire map, identifies clusters of unseen tiles, and suggests a more strategic exploration plan, especially for complex maps like Silph Co. or caves.
+- **Fly Navigator Agent:** An agent that takes a destination city name and generates the full button sequence to use Fly from the overworld menu.
+- **Heal Advisor Agent:** An agent that analyzes party HP, status, and proximity to the next Pokémon Center to recommend whether a strategic retreat to heal is necessary.
+
+## III. Battle Plans & Strategies
+### A. Rival Pixel (Silph Co. Rematch)
+- **Opponent Team:** Alakazam (Lv. 45), Sandslash (Lv. 43), Exeggutor (Lv. 43), Cloyster (Lv. 43), Magneton (Lv. 43).
+- **Recommended Team:** SPARKY, CRAG, ECHO, TITANESS, GUILLOTIN, LEGION.
+- **Counters:**
+  - SPARKY > Cloyster
+  - CRAG > Magneton
+  - ECHO > Exeggutor
+  - TITANESS > Alakazam (Bite) & Sandslash (Surf)
+  - GUILLOTIN > Exeggutor & Alakazam (Bug moves)
+  - LEGION > Sandslash (backup) & Psychic pivot
+- **Training Plan:** Train TITANESS, GUILLOTIN, and LEGION to Lv. 45 in Seafoam Islands (B1F), targeting Jynx, Golbat, and Krabby for high EXP.
+
+## IV. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective), Electric !> Grass, Rock !> Ground.
 - **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves. MUK is immune to Poison-type moves.
@@ -25,41 +57,3 @@
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 - **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
 - **SURF Field Move Mechanics (v4 - Confirmed Water-Type Requirement):** Attempts to use SURF with non-Water-types have failed. I already have HELIX (OMANYTE), a Water-type that knows SURF. My next step to test field usage is to revive HELIX at a Pokémon Center and attempt to use SURF in a valid water area.
-
-## III. System & Tool Development
-### A. Tool Debugging & Refinement Protocol (v17 - IMMEDIATE ACTION)
-- **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. **Abandoning a tool is a protocol violation.**
-- **DEBUGGING STEP 1 (Advanced):** Use `run_code` with a modified pathfinding script. Print the `current` node inside the main loop to trace the BFS exploration path.
-- **DEBUGGING STEP 2 (Advanced Analysis):** If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where the pathfinding fails. This will confirm if the map is segmented.
-- **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
-- **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
-
-### B. Agent & Tool Usage Notes
-- **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
-- **`pathfinder`:** After extensive debugging, this tool now correctly handles dynamic land-to-water transitions by accepting a `can_surf` parameter. It is my primary and reliable pathfinding tool for all overworld navigation.
-
-## IV. Battle Plans & Strategies
-### A. Rival Pixel (Silph Co. Rematch)
-- **Opponent Team:** Alakazam (Lv. 45), Sandslash (Lv. 43), Exeggutor (Lv. 43), Cloyster (Lv. 43), Magneton (Lv. 43).
-- **Recommended Team:** SPARKY, CRAG, ECHO, TITANESS, GUILLOTIN, LEGION.
-- **Counters:**
-  - SPARKY > Cloyster
-  - CRAG > Magneton
-  - ECHO > Exeggutor
-  - TITANESS > Alakazam (Bite) & Sandslash (Surf)
-  - GUILLOTIN > Exeggutor & Alakazam (Bug moves)
-  - LEGION > Sandslash (backup) & Psychic pivot
-- **Training Plan:** Train TITANESS, GUILLOTIN, and LEGION to Lv. 45 in Seafoam Islands (B1F), targeting Jynx, Golbat, and Krabby for high EXP.
-
-## VI. Future Agent & Tool Development Ideas
-- **Tool Debugger Agent:** An agent that takes a tool name and debug objective (e.g., 'trace_path') to automatically generate a `run_code` script with debugging print statements. This would streamline fixing faulty tools.
-- **HM Teacher Agent/Tool:** An agent or tool to automate the process of navigating the menu to teach a specific HM to a specific Pokémon, including selecting which move to replace.
-- **Strategic Exploration Agent:** An agent that analyzes the entire map, identifies clusters of unseen tiles, and suggests a more strategic exploration plan, especially for complex maps like Silph Co. or caves.
-
-## V. Tile & Traversal Mechanics
-- `ground`: Standard walkable tile.
-- `grass`: Walkable tile with wild encounters.
-- `water`: Traversable with SURF.
-- `impassable`: Walls, counters, rocks, buildings. Cannot be entered.
-- `ledge`: One-way traversal. Can be jumped down (Y-1 -> Y+2), but not climbed up.
-- **Fly Navigator Agent:** An agent that takes a destination city name and generates the full button sequence to use Fly from the overworld menu.
