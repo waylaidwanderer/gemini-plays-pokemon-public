@@ -45,3 +45,4 @@
 - **Hypothesis:** The Saffron City Gym is the next logical badge target after Fuchsia City.
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon. This needs to be confirmed through exploration.
 - **Hypothesis:** My current roster may not be sufficient for Sabrina's Psychic-type gym, even at the level cap. I will consult my `team_composition_advisor_agent` after leveling.
+- **Marker Labeling Protocol (v1):** For all defeated trainers, I will use the standardized label 'Trainer defeated'. This ensures clarity and prevents re-engaging them.
