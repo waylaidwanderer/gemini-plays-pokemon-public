@@ -56,4 +56,4 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 - **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
-- **SURF Field Move Mechanics (v4 - Confirmed Water-Type Requirement):** Attempts to use SURF with non-Water-types have failed. I already have HELIX (OMANYTE), a Water-type that knows SURF. My next step to test field usage is to revive HELIX at a Pokémon Center and attempt to use SURF in a valid water area.
+- **SURF Field Move Mechanics (v5 - Confirmed):** SURF can be used in the field by a compatible Pokémon. I have successfully used it with HELIX (OMANYTE).
