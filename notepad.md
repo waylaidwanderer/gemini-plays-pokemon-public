@@ -22,6 +22,7 @@
 - **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
 - **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
 - **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
+- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
 
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
