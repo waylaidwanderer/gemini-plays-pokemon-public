@@ -55,9 +55,11 @@
 - **Eevee Evolution:** An NPC in Safari Zone North mentioned Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths via stones.
 - **EXP.ALL:** Gives EXP to all party Pokémon, even non-participants, but reduces the total EXP gained per Pokémon. Best used for targeted training.
 
-## IV. Strategic Lessons & Hypotheses
+## IV. Confirmed Facts & Strategic Lessons
+- **Confirmed:** The Saffron City Gym is blocked until Silph Co. is cleared. This is the next logical badge target after Fuchsia City.
 - **Lesson:** Defeated Rival Pixel on Silph Co. 7F. His team was tough, especially the Alakazam and Flareon. My strategic switching was key to victory.
 - **Lesson:** Route 19 trainers are significantly higher level than my team. Grinding is necessary before proceeding further south.
-- **Hypothesis:** The Saffron City Gym is the next logical badge target after Fuchsia City. This is blocked until Silph Co. is cleared.
-- **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
 - **Marker Labeling Protocol (v1):** For all defeated trainers, I will use the standardized label 'Trainer defeated'.
+
+## V. Active Hypotheses
+- **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
