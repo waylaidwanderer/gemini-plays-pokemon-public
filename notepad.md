@@ -61,3 +61,6 @@
 - `spinner_up/down/left/right`: Forces movement in the specified direction. Found in Rocket Hideout.
 - `steps`: Allows vertical movement between different ground elevations (e.g., in Mt. Moon).
 - **0 PP Move Mechanic:** Selecting a move with 0 PP displays a 'No PP left' message and does not advance the turn. To proceed, another move with PP must be selected. Struggle is not automatically triggered.
+
+## VI. Agent & Tool Ideas
+- **Stalemate Detector Agent:** An agent that can analyze a battle state (opponent's healing moves, my PP, damage output) to determine if a battle is unwinnable. This would help avoid wasting time in soft-lock situations like the one against the Starmie with Recover.
