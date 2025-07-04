@@ -51,3 +51,4 @@
 - **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning and planning. Use tools for computation and repetitive actions. Refine or delete them immediately if they are flawed. Do not treat agent output as infallible truth; it is a hypothesis to be tested.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
 - **WARP_CARPET_LEFT:** A directional warp. Must press LEFT while standing on the tile to activate.
+- **WARP_CARPET_RIGHT:** A directional warp. Must press RIGHT while standing on the tile to activate.
