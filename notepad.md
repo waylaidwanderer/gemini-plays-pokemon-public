@@ -37,3 +37,9 @@
 - **CRITICAL FAILURE:** I spent over 20 turns stuck in Kurt's House because I failed to consult my own notepad regarding the `WARP_CARPET_DOWN` mechanic. I must be more diligent about using my own documented knowledge.
 
 ## VI. Gym Puzzle Mechanics
+
+### Azalea Gym Puzzle
+- **Objective:** Find the correct sequence to activate the two spider-switches to reach Bugsy.
+- **Failed Attempts:**
+  1. Activating right switch, then left switch. (Path blocked)
+  2. Activating right switch, then left, then right again. (Path blocked)
