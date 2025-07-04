@@ -62,3 +62,4 @@
 ### Untested Tile Mechanics
 
 - **WARP_CARPET_RIGHT:** Test if this tile is activated by stepping onto it or by pressing a specific direction.
+    9. Stepping on the twig at (17, 28) caused the Farfetch'd at (28, 31) to disappear, resetting the puzzle.
