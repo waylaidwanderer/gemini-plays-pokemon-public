@@ -11,21 +11,6 @@
 - **DEBUGGING STEP 2 (Advanced Analysis):** If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where the pathfinding fails. This will confirm if the map is segmented.
 - **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
-- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
-- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
-
-- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
-- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
-- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
-- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
-- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
-- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
-- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
-- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
-- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
-- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
-- **TODO:** Define a `pathfinding_debugger_tool` to encapsulate the debugging logic above for easier reuse.
-
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
 
