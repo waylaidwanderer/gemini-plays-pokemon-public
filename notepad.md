@@ -33,9 +33,8 @@
     1. Moving to a different part of the forest does NOT reset the puzzle.
     2. Leaving the map and immediately returning does NOT reset the puzzle.
     3. A 'hard reset' by visiting a Pokémon Center in another town does not reset the puzzle.
-    4. Talking to the apprentice after scaring the Farfetch'd away does NOT reset the puzzle.
-    5. Leaving the Ilex Forest map entirely and returning does NOT reset the puzzle.
-    4. Talking to the apprentice after scaring the Farfetch'd away does NOT reset the puzzle.
+    4. Leaving the Ilex Forest map entirely and returning does NOT reset the puzzle.
+    5. Talking to the apprentice after scaring the Farfetch'd away does NOT reset the puzzle.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -54,3 +53,6 @@
 - **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning and planning. Use tools for computation and repetitive actions. Refine or delete them immediately if they are flawed. Do not treat agent output as infallible truth; it is a hypothesis to be tested.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
 - **WARP_CARPET_RIGHT:** Test if this tile is activated by stepping onto it or by pressing a specific direction.
+
+## V. Agent Usage Notes
+- **Farfetch'd Puzzle:** If I find the Farfetch'd again, I MUST use the `farfetchd_herder` agent to solve the herding part of the puzzle. The `quest_strategist` is for when the puzzle state fundamentally changes (e.g., the bird goes missing).
