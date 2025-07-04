@@ -34,6 +34,8 @@
     2. Leaving the map and immediately returning does NOT reset the puzzle.
     3. A 'hard reset' by visiting a Pokémon Center in another town does not reset the puzzle.
     4. Talking to the apprentice after scaring the Farfetch'd away does NOT reset the puzzle.
+    5. Leaving the Ilex Forest map entirely and returning does NOT reset the puzzle.
+    4. Talking to the apprentice after scaring the Farfetch'd away does NOT reset the puzzle.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
