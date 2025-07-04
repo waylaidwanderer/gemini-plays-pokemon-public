@@ -27,8 +27,8 @@
 ### Azalea Gym Puzzle
 - **Objective:** Reach and defeat Gym Leader Bugsy.
 - **Critical Insight:** My pathfinding tool has confirmed I am completely blocked by the trainers at (4, 10) and (5, 10). This means the switches **must** move the platforms to create a path.
-- **Current State:** Both switches are ON.
-- **Current Plan:** Systematically test switch combinations while carefully observing the platforms' positions. My next test will be the 'Left ON, Right OFF' state. To achieve this, I will navigate to the right switch and toggle it OFF.
+- **Agent's Top Hypothesis (H5):** The switches must be used sequentially to alter the maze layout. Activate the Left Switch, then navigate a newly available path to reach the Right Switch. Activating the Right Switch from this new position may complete the path forward.
+- **Current Plan:** Test H5. First, reset the puzzle by turning both switches OFF. Then, activate the Left Switch and attempt to find a new path to the Right Switch.
 - **Failed Attempts Log:**
   - H1: Simple switch combinations (L:ON/R:OFF, L:OFF/R:ON, L:ON/R:ON) do not create a static bridge.
   - H2: Toggle sequences (L:ON->R:ON->L:OFF, L:ON->R:ON->R:OFF) do not create a static bridge.
