@@ -43,7 +43,8 @@
     5. Talking to the apprentice after scaring the Farfetch'd away does NOT reset the puzzle.
     6. The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
     7. The small stick sprite at (28, 23) is not a twig.
-    8. The small stick sprite at (29, 24) is not a twig, and stepping on it makes the Farfetch'd disappear.
+    8. The small stick sprite at (28, 23) is not a twig.
+    9. The small stick sprite at (29, 24) is a trap; stepping on it makes the Farfetch'd disappear.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
