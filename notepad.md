@@ -45,3 +45,4 @@
 - **TRUST THE AGENTS:** Use agents proactively for complex problems. Trust their outputs, especially when stuck. Refine them if they are flawed.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
   3. Interact from above at (15, 24) -> Teleports to (15, 29).
+- **Current State (Farfetch'd Puzzle):** The bird is at (20, 24). I need to find the correct interaction to move it west towards the apprentice at (7, 28).
