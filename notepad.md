@@ -20,13 +20,11 @@
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28).
 - **Current Status:** The Farfetch'd is not on screen. I believe it has despawned due to the high number of wild encounters.
-- **Current Hypothesis:** Leaving and re-entering the Ilex Forest will reset the Farfetch'd's position.
-- **Plan:** 
-  1. Defeat the current wild Pokémon.
-  2. Exit Ilex Forest via the warp at (3, 42).
-  3. Re-enter Ilex Forest.
-  4. Navigate to the Farfetch'd's last known location to confirm it has respawned.
-  5. Use the `farfetchd_herder` agent to solve the puzzle.
+- **Failed Hypothesis:** Leaving and re-entering the Ilex Forest will reset the Farfetch'd's position to its last known location. This was incorrect.
+- **New Hypothesis:** Resetting the map causes the Farfetch'd to return to its *initial* starting position (near 15, 25).
+- **Plan:**
+  1. Navigate to the Farfetch'd's initial starting position to confirm it has respawned.
+  2. If it has respawned, use the `farfetchd_herder` agent to solve the puzzle.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
