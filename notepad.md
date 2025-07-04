@@ -48,3 +48,7 @@
 - **Check Map Markers!** Before interacting with an NPC or navigating to a specific spot, always check existing map markers.
 - **Use Your Agents!** For complex puzzles like the Ruins of Alph, use the `quest_strategist` agent to generate new hypotheses instead of relying on simple trial and error.
 - **Debug Tools Immediately!** If a tool is not behaving as expected, stop and investigate it immediately. Do not continue to use a faulty tool.
+
+## VI. Mechanics to Investigate
+- **LEDGE tile:** Test if this is impassable from all directions.
+- **FLOOR_ALLOW_HOP_DOWN tile:** Test if this tile only allows downward movement.
