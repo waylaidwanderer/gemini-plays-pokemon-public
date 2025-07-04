@@ -16,7 +16,14 @@
 - **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
 - **`pathfinder`:** After extensive debugging, this tool now correctly handles dynamic land-to-water transitions by accepting a `can_surf` parameter. It is my primary and reliable pathfinding tool for all overworld navigation.
 
-## III. Battle Plans & Strategies
+## III. Future Agent & Tool Development Ideas
+- **Tool Debugger Agent:** An agent that takes a tool name and debug objective (e.g., 'trace_path') to automatically generate a `run_code` script with debugging print statements. This would streamline fixing faulty tools.
+- **HM Teacher Agent/Tool:** An agent or tool to automate the process of navigating the menu to teach a specific HM to a specific Pokémon, including selecting which move to replace.
+- **Strategic Exploration Agent:** An agent that analyzes the entire map, identifies clusters of unseen tiles, and suggests a more strategic exploration plan, especially for complex maps like Silph Co. or caves.
+- **Fly Navigator Agent:** An agent that takes a destination city name and generates the full button sequence to use Fly from the overworld menu.
+- **Heal Advisor Agent:** An agent that analyzes party HP, status, and proximity to the next Pokémon Center to recommend whether a strategic retreat to heal is necessary.
+
+## IV. Battle Plans & Strategies
 ### A. Rival Pixel (Silph Co. Rematch)
 - **Opponent Team:** Alakazam (Lv. 45), Sandslash (Lv. 43), Exeggutor (Lv. 43), Cloyster (Lv. 43), Magneton (Lv. 43).
 - **Recommended Team:** SPARKY, CRAG, ECHO, TITANESS, GUILLOTIN, LEGION.
@@ -28,13 +35,6 @@
   - GUILLOTIN > Exeggutor & Alakazam (Bug moves)
   - LEGION > Sandslash (backup) & Psychic pivot
 - **Training Plan:** Train TITANESS, GUILLOTIN, and LEGION to Lv. 45 in Seafoam Islands (B1F), targeting Jynx, Golbat, and Krabby for high EXP.
-
-## IV. Future Agent & Tool Development Ideas
-- **Tool Debugger Agent:** An agent that takes a tool name and debug objective (e.g., 'trace_path') to automatically generate a `run_code` script with debugging print statements. This would streamline fixing faulty tools.
-- **HM Teacher Agent/Tool:** An agent or tool to automate the process of navigating the menu to teach a specific HM to a specific Pokémon, including selecting which move to replace.
-- **Strategic Exploration Agent:** An agent that analyzes the entire map, identifies clusters of unseen tiles, and suggests a more strategic exploration plan, especially for complex maps like Silph Co. or caves.
-- **Fly Navigator Agent:** An agent that takes a destination city name and generates the full button sequence to use Fly from the overworld menu.
-- **Heal Advisor Agent:** An agent that analyzes party HP, status, and proximity to the next Pokémon Center to recommend whether a strategic retreat to heal is necessary.
 
 ## V. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
