@@ -3,7 +3,7 @@
 ## I. Game & Tile Mechanics
 
 ### Tile Traversal Rules (Verified)
-- **Impassable:** WALL, VOID, CUT_TREE, WATER, HEADBUTT_TREE, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, BED, TWIN (NPC), GYM_GUIDE (NPC)
+- **Impassable:** WALL, VOID, CUT_TREE, WATER, HEADBUTT_TREE, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, BED, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC)
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, CAVE, LADDER (Acts as a two-way vertical warp)
 - **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must press the indicated direction *while standing on the tile* to activate).
@@ -24,27 +24,22 @@
 - **Objective:** Solve the sliding stone panel puzzle.
 - **Current Hypothesis:** The solution is not in the first chamber. The ladder at (10, 13) is the only other path forward.
 
+### Azalea Gym Puzzle
+- **Objective:** Find the correct sequence to activate the two spider-switches to reach Bugsy.
+- **Failed Attempts (Systematic Log):**
+  1.  **Right Statue ON, Left Statue OFF:** Path to Bugsy blocked.
+  2.  **Left Statue ON, Right Statue OFF:** Path to Bugsy blocked.
+  3.  **Right Statue ON, Left Statue ON:** Path to Bugsy blocked.
+  4.  **Left Statue ON, Right Statue ON:** Path to Bugsy blocked.
+  5.  **Talked to Gym Guide** after various switch interactions: Dialogue unchanged.
+  6.  **Talked to Bug Catcher Al** after various switch interactions: Dialogue unchanged.
+  7.  **Sequence: Left Statue ON -> Talk to Gym Guide -> Right Statue ON:** Path to Bugsy blocked.
+- **Current Status:** All simple combinations and NPC interactions have failed. Trusting agent advice to re-evaluate clues.
+
 ## III. Item Effects
 - **EVERSTONE:** A Pokémon holding this item will not evolve.
 - **BERRY:** Restores 10 HP. Obtained from FRUIT_TREEs.
 
 ## IV. Procedural Reminders
-- **IMMEDIATE WKG UPDATES:** Update the World Knowledge Graph IMMEDIATELY after every map transition. No exceptions.
-- **DOCUMENT ALL TILES:** Document and test every new tile type encountered.
-- **TRUST THE AGENT:** Follow the agent's advice, especially after multiple failed manual attempts. Refine the agent if its advice is flawed.
-
-## V. Self-Correction Log
-- **CRITICAL FAILURE:** I spent over 20 turns stuck in Kurt's House because I failed to consult my own notepad regarding the `WARP_CARPET_DOWN` mechanic. I must be more diligent about using my own documented knowledge.
-
-## VI. Gym Puzzle Mechanics
-
-### Azalea Gym Puzzle
-- **Objective:** Find the correct sequence to activate the two spider-switches to reach Bugsy.
-- **Failed Attempts:**
-  1. Activating right statue only. (Path blocked)
-  2. Activating left statue only. (Path blocked)
-  3. Activating right statue, then left statue. (Path blocked)
-  4. Activating left statue, then right statue. (Path blocked)
-  5. Talking to Gym Guide after switch interactions. (Dialogue unchanged)
-  6. Talking to Bug Catcher Al after switch interactions. (Dialogue unchanged)
-  7. Activating left statue, then talking to Gym Guide, then activating right statue. (Path blocked)
+- **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information. No exceptions.
+- **TRUST THE AGENTS:** Use agents proactively for complex problems. Trust their outputs, especially when stuck. Refine them if they are flawed.
