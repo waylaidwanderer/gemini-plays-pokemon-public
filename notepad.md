@@ -19,10 +19,13 @@
 
 ### Ilex Forest Quest
 - **Objective:** Guide the lost FARFETCH'D back to the Charcoal Man's apprentice at (7, 28).
-- **Status:** Puzzle mechanic discovered! Interacting with the Farfetch'd from specific tiles causes it to teleport to a new, predetermined location. The puzzle is a sequence of interactions.
-- **Known Sequence:**
-  1. Interact from below at (15, 26) -> Teleports to (20, 24).
-  2. Interact from the side at (21, 24) -> Vanished (location unknown).
+- **Status:** The puzzle seems to be a fixed sequence of interactions from specific tiles.
+- **Known Sequence Steps:**
+  1. Interact from (15, 26) [below] -> Teleports to (20, 24).
+  2. Interact from (15, 24) [above] -> Teleports to (15, 29).
+  3. Interact from (16, 29) [right] -> Teleports to (15, 25).
+- **Failed Attempts:**
+  - Interacting from (21, 24) [right] caused it to vanish.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
