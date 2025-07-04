@@ -48,5 +48,3 @@
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 - **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
 - **0 PP Move Mechanic:** Selecting a move with 0 PP displays a 'No PP left' message and does not advance the turn. Struggle is not automatically triggered.
-- **Struggle Mechanic:** Used automatically when a Pokémon has 0 PP for all moves. It appears to have extremely low accuracy in this ROM hack and causes recoil damage to the user upon a successful hit.
-- **Struggle Mechanic:** Used automatically when a Pokémon has 0 PP for all moves. It appears to have extremely low accuracy in this ROM hack and causes recoil damage to the user upon a successful hit.
