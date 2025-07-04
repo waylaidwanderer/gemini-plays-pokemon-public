@@ -20,8 +20,11 @@
 
 ### Ilex Forest Quest
 - **Objective:** Find the lost FARFETCH'D and return it to the Charcoal Man's apprentice.
-- **Clue:** The apprentice at (7, 28) has lost the Farfetch'd that cuts trees. It ran off into the forest.
-- **Hypothesis:** I need to herd the Farfetch'd back to the apprentice. This likely involves interacting with the environment (like the twigs I found earlier) to guide its movement.
+- **Agent Hypotheses (from `quest_strategist`):** My `farfetchd_herder` tool has failed, indicating a flawed understanding of the puzzle. I must test these new hypotheses provided by my agent:
+  1.  **Facing-Based Movement:** The Farfetch'd's movement is determined by the direction the player is facing. Test by approaching from different angles and turning while adjacent to it.
+  2.  **Sound-Based Movement:** The puzzle may be similar to the twig puzzle, requiring me to interact with the environment (e.g., trees) to create sounds that guide the Farfetch'd.
+  3.  **Missing HM:** I may still need to find the Charcoal Man and get HM01 (CUT) to clear a path.
+  4.  **Shrine Interaction:** The Ilex Forest Shrine at (8, 22) could be a trigger for the puzzle.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
