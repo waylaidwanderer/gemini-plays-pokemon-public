@@ -5,7 +5,8 @@
 ### Tile Traversal Rules (Verified)
 - **Impassable:** WALL, VOID, CUT_TREE, WATER, HEADBUTT_TREE, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, BED, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC)
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
-- **Standard Warps:** DOOR, CAVE, LADDER (Acts as a two-way vertical warp)
+- **Standard Warps:** DOOR, CAVE
+- **Movement-Based Warps:** LADDER (Activated by moving onto the tile, not by interaction).
 - **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must press the indicated direction *while standing on the tile* to activate).
 - **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
@@ -34,10 +35,5 @@
 ## IV. Procedural Reminders
 - **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information. No exceptions.
 - **TRUST THE AGENTS:** Use agents proactively for complex problems. Trust their outputs, especially when stuck. Refine them if they are flawed.
-  - H6: Talking to the Gym Guide again after battling trainers did not provide new hints.
-
-- **TM49 (Fury Cutter):** A move that gets stronger with each consecutive hit.
-- **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
-
 - **TM49 (Fury Cutter):** A move that gets stronger with each consecutive hit.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
