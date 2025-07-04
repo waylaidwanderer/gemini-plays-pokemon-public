@@ -45,3 +45,6 @@
 
 ### Slowpoke Well - Update
 - **New Clue from Kurt:** After returning to his house, Kurt mentioned that all the SLOWPOKE have disappeared and that the 'forest's protector' may be angry. This suggests the solution is in Ilex Forest.
+
+## V. Self-Correction Log
+- **CRITICAL FAILURE:** I spent over 20 turns stuck in Kurt's House because I failed to consult my own notepad regarding the `WARP_CARPET_DOWN` mechanic. I must be more diligent about using my own documented knowledge.
