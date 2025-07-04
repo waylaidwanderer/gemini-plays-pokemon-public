@@ -15,14 +15,7 @@
 - **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
 
 ## III. Game Mechanics & Battle Intel
-### A. Tile Mechanics & Traversal Rules
-- **`ground`**: Walkable tile.
-- **`impassable`**: Walls, counters, rocks, buildings, etc. Cannot be entered.
-- **`water`**: Crossable using HM Surf.
-- **`grass`**: Tall grass for wild Pokémon encounters.
-- **`cuttable`**: Tree that can be cut with HM Cut.
-- **`ledge`**: One-way traversal. Can be jumped down, but not climbed up.
-- **`steps`**: Allows vertical movement between different ground elevations.
+
 ### B. Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective), Electric !> Grass, Rock !> Ground, **Psychic !> Psychic**.
 - **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves. MUK is immune to Poison-type moves.
