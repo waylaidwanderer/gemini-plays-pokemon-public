@@ -19,7 +19,11 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
-- **Status:** The Farfetch'd has appeared at (29, 22)! The puzzle is now solvable. I will use my `farfetchd_herder` agent to get a step-by-step solution.
+- **Verified Mechanics:**
+    - Stepping on twigs makes the Farfetch'd turn to face the sound, but it does not move.
+    - Interacting with the Farfetch'd directly causes it to disappear from the map.
+- **Current Hypothesis:** The puzzle must be solved by luring it with sound. To make it move, I likely need to step on twigs that are *behind* it.
+- **Current Plan:** The Farfetch'd has vanished. I will leave and re-enter Ilex Forest to reset the puzzle. Then, I will attempt to herd it using only sound from behind.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -37,13 +41,3 @@
 - **TRUST THE AGENTS:** Use agents proactively for complex problems. Trust their outputs, especially when stuck. Refine them if they are flawed.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
 - Received a phone call from Youngster Joey.
-
-### Farfetch'd Herder Plan (v2)
-1. **Step on twig at (26, 22):** Lure Farfetch'd to (28, 22).
-2. **Interact from (29, 22):** Push Farfetch'd to (27, 22).
-3. **Step on twig at (27, 24):** Lure Farfetch'd to (27, 23).
-4. **Interact from (27, 22):** Push Farfetch'd to (27, 24).
-5. **Step on twig at (25, 24):** Lure Farfetch'd to (26, 24).
-6. **Interact from (27, 24):** Push Farfetch'd to (25, 24).
-7. **Step on twig at (25, 26):** Lure Farfetch'd to (25, 25).
-8. **Interact from (25, 24):** Push Farfetch'd to (25, 26).
