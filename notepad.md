@@ -26,11 +26,13 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
-- **Verified Mechanics (as of Turn #17462):**
+- **Verified Mechanics:**
     - **Sound (Stepping on Twigs):** Makes the Farfetch'd turn to face the sound. It does NOT cause it to move from its tile.
-    - **Direct Interaction:** Causes the Farfetch'd to squawk and then disappear from the map, failing and resetting the puzzle.
-    - **Resetting:** Leaving the map (e.g., to the Azalea Gate) and re-entering causes the Farfetch'd to respawn at its starting position.
-- **Current Hypothesis (to be tested):** The apprentice said, "It runs off if you step on a twig from behind it." This is the key. I must use sound to manipulate the Farfetch'd's orientation so that I can then step on a twig that is *behind* its new facing direction, causing it to move forward. This must be tested systematically.
+    - **Direct Interaction:** Causes the Farfetch'd to squawk and then disappear from the map, failing the puzzle.
+- **Failed Hypotheses:**
+    1. Moving to a different part of the forest does NOT reset the puzzle.
+    2. Leaving the map and immediately returning does NOT reset the puzzle.
+- **Current Hypothesis (to be tested):** The puzzle requires a "hard reset". I must leave Ilex Forest, travel to Azalea Town, enter and exit the Pokémon Center to force a full map reload, and then return. This should cause the Farfetch'd to respawn at its starting position (22, 29).
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
