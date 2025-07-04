@@ -20,7 +20,6 @@
 ### Untested Tile Mechanics
 - **LEDGE:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
-- **WARP_CARPET_RIGHT:** Test if this tile is activated by stepping onto it or by pressing a specific direction.
 
 ## II. Quest Progression & Puzzles
 
