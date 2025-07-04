@@ -26,14 +26,14 @@
 
 ### Azalea Gym Puzzle
 - **Objective:** Reach and defeat Gym Leader Bugsy.
-- **Critical Insight:** My pathfinding tool has confirmed I am completely blocked by the trainers at (4, 10) and (5, 10). This means the switches **must** move the platforms to create a path. New insight: The 'switches' on the walls are not interactable objects. The actual switches are the statues at (3, 13) and (6, 13).
-- **Agent's Top Hypothesis (H5):** The switches must be used sequentially to alter the maze layout. Activate the Left Switch, then navigate a newly available path to reach the Right Switch. Activating the Right Switch from this new position may complete the path forward.
-- **Current Plan:** Test H5. First, reset the puzzle by turning both switches OFF. Then, activate the Left Switch and attempt to find a new path to the Right Switch.
+- **Critical Insight:** The path is blocked by trainers at (4, 10) and (5, 10), so something must move the platforms. The wall 'switches' are not real objects. The statues at (3, 13) and (6, 13) are the only other interactable candidates.
+- **Current Plan:** Test the left statue at (3, 13).
 - **Failed Attempts Log:**
-  - H1: Simple switch combinations (L:ON/R:OFF, L:OFF/R:ON, L:ON/R:ON) do not create a static bridge.
-  - H2: Toggle sequences (L:ON->R:ON->L:OFF, L:ON->R:ON->R:OFF) do not create a static bridge.
+  - H1: Simple switch combinations (L:ON/R:OFF, L:OFF/R:ON, L:ON/R:ON) on the wall decorations failed.
+  - H2: Toggle sequences on the wall decorations failed.
   - H3: Attempting to 'ride' the platforms by standing on the tracks failed.
   - H4: Attempting to interact with the platforms directly failed.
+  - H5: Interacting with the right statue at (6, 13) from (5, 13) did nothing.
 
 ## III. Item Effects
 - **EVERSTONE:** A Pokémon holding this item will not evolve.
