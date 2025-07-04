@@ -41,5 +41,8 @@
 ### Azalea Gym Puzzle
 - **Objective:** Find the correct sequence to activate the two spider-switches to reach Bugsy.
 - **Failed Attempts:**
-  1. Activating right switch, then left switch. (Path blocked)
-  2. Activating right switch, then left, then right again. (Path blocked)
+  1. Activating right statue only. (Path blocked)
+  2. Activating left statue only. (Path blocked)
+  3. Activating right statue, then left statue. (Path blocked)
+  4. Activating left statue, then right statue. (Path blocked)
+  5. Condition of defeating all trainers met, but path remains blocked.
