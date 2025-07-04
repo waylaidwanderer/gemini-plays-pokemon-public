@@ -6,8 +6,8 @@
 - **Impassable:** WALL, VOID, CUT_TREE, WATER, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, BED, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), HEADBUTT_TREE
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, CAVE
-- **Movement-Based Warps:** LADDER (Activated by moving onto the tile, not by interaction).
-- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must press the indicated direction *while standing on the tile* to activate).
+- **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
+- **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must press the indicated direction *while standing on the tile*).
 - **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
@@ -17,15 +17,16 @@
 
 ## II. Quest Progression & Puzzles
 
-### Ilex Forest Quest
-- **Objective:** Guide the lost FARFETCH'D back to the Charcoal Man's apprentice at (7, 28).
-- **Status:** The puzzle seems to be a fixed sequence of interactions from specific tiles.
-- **Known Sequence Steps:**
+### Ilex Forest - Farfetch'd Puzzle
+- **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28).
+- **Current Status:** The Farfetch'd is at (20, 24). The puzzle is a fixed sequence of directional interactions.
+- **Known Correct Sequence:**
   1. Interact from (15, 26) [below] -> Teleports to (20, 24).
   2. Interact from (15, 24) [above] -> Teleports to (15, 29).
   3. Interact from (16, 29) [right] -> Teleports to (15, 25).
-- **Failed Attempts:**
+- **Failed Attempts Log:**
   - Interacting from (21, 24) [right] caused it to vanish.
+  - Interacting from (20, 23) [above] at its current position (20, 24) did not work.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -41,7 +42,6 @@
 - **SLOWPOKETAIL:** A man on Route 32 offered to sell this. Its purpose is unknown.
 
 ## IV. Procedural Reminders
-- **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information. No exceptions.
+- **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information.
 - **TRUST THE AGENTS:** Use agents proactively for complex problems. Trust their outputs, especially when stuck. Refine them if they are flawed.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
-- **Current State (Farfetch'd Puzzle):** The bird is at (20, 24). I need to find the correct interaction to move it west towards the apprentice at (7, 28).
