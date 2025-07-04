@@ -14,14 +14,14 @@
 ### Untested Tile Mechanics
 - **LEDGE:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
-- **HEADBUTT_TREE:** Test if this tile is interactable or just an impassable tree.
+- **HEADBUTT_TREE:** Test if this tile is interactable or just an impassable tree. Must test this soon.
 
 ## II. Quest Progression & Puzzles
 
 ### Ilex Forest Quest
-- **Objective:** Find a way to get past the CUT tree at (8, 25).
-- **Prerequisite:** Seems to require HM01 (CUT).
-- **Current Lead:** A Youngster in Azalea Town mentioned a 'Charcoal Man' whose Pokémon can use CUT. I need to find him.
+- **Objective:** Find the lost FARFETCH'D and return it to the Charcoal Man's apprentice.
+- **Clue:** The apprentice at (7, 28) has lost the Farfetch'd that cuts trees. It ran off into the forest.
+- **Hypothesis:** I need to herd the Farfetch'd back to the apprentice. This likely involves interacting with the environment (like the twigs I found earlier) to guide its movement.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
