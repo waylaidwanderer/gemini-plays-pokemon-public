@@ -60,3 +60,11 @@
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
 - **Hypothesis:** My current roster may not be sufficient for Sabrina's Psychic-type gym, even at the level cap. I will consult my `team_composition_advisor_agent` after clearing Silph Co.
 - **Marker Labeling Protocol (v1):** For all defeated trainers, I will use the standardized label 'Trainer defeated'.
+
+## V. Assumptions & Verification Plan
+- **Assumption 1:** Clearing Silph Co. will unblock the Saffron City Gym.
+  - **Verification:** After defeating the final boss in Silph Co., I will immediately travel to the Saffron Gym entrance to check if the blocking NPC is gone.
+- **Assumption 2:** My `team_composition_advisor_agent` will provide a winning strategy against Pixel.
+  - **Verification:** I will use the agent's recommended team and strategy in the next rival battle. The outcome will validate its effectiveness.
+- **Assumption 3:** I currently possess all necessary Pokémon to defeat Pixel.
+  - **Verification:** The output from the `team_composition_advisor_agent` will confirm this. If it suggests catching a new Pokémon, this assumption is false.
