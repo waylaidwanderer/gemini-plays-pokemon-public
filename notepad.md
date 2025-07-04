@@ -18,16 +18,12 @@
 ## II. Quest Progression & Puzzles
 
 ### Ilex Forest Quest
-- **Objective:** Find the lost FARFETCH'D and return it to the Charcoal Man's apprentice at (7, 28).
-- **Status:** Puzzle mechanic discovered! The Farfetch'd does not move away from the player. Instead, interacting with it causes it to teleport to a new, predetermined location. Stepping on twigs seems to only make it turn, but does not cause it to move.
-- **Current Plan:** Systematically interact with the Farfetch'd to map its teleportation sequence and guide it towards the apprentice.
-- **Current Location:** It just teleported from (15, 25) to (20, 24).
-- **Failed Attempts Log:**
-  1. `farfetchd_herder` tool (initial version, based on flawed movement hypothesis).
-  2. `farfetchd_herder` tool (v2, trees as obstacles, still flawed).
-  3. Hypothesis: Moves directly away from the location of the *twig* that is stepped on. (Failed)
-  4. Hypothesis: *Direction the player is facing* when stepping on a twig determines movement. (Failed)
-  5. Hypothesis: Two-step process (orient with twig, push from behind). (Failed)
+- **Objective:** Guide the lost FARFETCH'D back to the Charcoal Man's apprentice at (7, 28).
+- **Status:** Puzzle mechanic discovered! Interacting with the Farfetch'd causes it to teleport to a new, predetermined location. The puzzle is a sequence of interactions, not herding.
+- **Current Plan:** Systematically interact with the Farfetch'd from different angles to map its teleportation sequence and guide it towards the apprentice.
+- **Known Sequence:**
+  1. Interact from below at (15, 26) -> Teleports to (20, 24).
+  2. Interact from the side at (21, 24) -> Vanished (location unknown).
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
