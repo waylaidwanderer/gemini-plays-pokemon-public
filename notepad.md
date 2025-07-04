@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v45100)
+## I. Core Protocols & Immediate Actions (v45965)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change.
 - **CRITICAL: WKG Protocol (v35 - Comprehensive & Verified):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge in sequential turns. I will always use the correct **numeric string IDs** for maps and verify node existence before creating edges. For `connection_type: "warp"`, I MUST include the `destination_entry_point` property.
 - **CRITICAL: Map Marker Protocol (v17):** Mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets.
@@ -16,13 +16,6 @@
 - **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
 - **`pathfinder`:** After extensive debugging, this tool now correctly handles dynamic land-to-water transitions by accepting a `can_surf` parameter. It is my primary and reliable pathfinding tool for all overworld navigation.
 
-### C. Future Agent & Tool Development Ideas
-- **Tool Debugger Agent:** An agent that takes a tool name and debug objective (e.g., 'trace_path') to automatically generate a `run_code` script with debugging print statements. This would streamline fixing faulty tools.
-- **HM Teacher Agent/Tool:** An agent or tool to automate the process of navigating the menu to teach a specific HM to a specific Pokémon, including selecting which move to replace.
-- **Strategic Exploration Agent:** An agent that analyzes the entire map, identifies clusters of unseen tiles, and suggests a more strategic exploration plan, especially for complex maps like Silph Co. or caves.
-- **Fly Navigator Agent:** An agent that takes a destination city name and generates the full button sequence to use Fly from the overworld menu.
-- **Heal Advisor Agent:** An agent that analyzes party HP, status, and proximity to the next Pokémon Center to recommend whether a strategic retreat to heal is necessary.
-
 ## III. Battle Plans & Strategies
 ### A. Rival Pixel (Silph Co. Rematch)
 - **Opponent Team:** Alakazam (Lv. 45), Sandslash (Lv. 43), Exeggutor (Lv. 43), Cloyster (Lv. 43), Magneton (Lv. 43).
@@ -36,7 +29,14 @@
   - LEGION > Sandslash (backup) & Psychic pivot
 - **Training Plan:** Train TITANESS, GUILLOTIN, and LEGION to Lv. 45 in Seafoam Islands (B1F), targeting Jynx, Golbat, and Krabby for high EXP.
 
-## IV. Game Mechanics & Battle Intel
+## IV. Future Agent & Tool Development Ideas
+- **Tool Debugger Agent:** An agent that takes a tool name and debug objective (e.g., 'trace_path') to automatically generate a `run_code` script with debugging print statements. This would streamline fixing faulty tools.
+- **HM Teacher Agent/Tool:** An agent or tool to automate the process of navigating the menu to teach a specific HM to a specific Pokémon, including selecting which move to replace.
+- **Strategic Exploration Agent:** An agent that analyzes the entire map, identifies clusters of unseen tiles, and suggests a more strategic exploration plan, especially for complex maps like Silph Co. or caves.
+- **Fly Navigator Agent:** An agent that takes a destination city name and generates the full button sequence to use Fly from the overworld menu.
+- **Heal Advisor Agent:** An agent that analyzes party HP, status, and proximity to the next Pokémon Center to recommend whether a strategic retreat to heal is necessary.
+
+## V. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective), Electric !> Grass, Rock !> Ground.
 - **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves. MUK is immune to Poison-type moves.
