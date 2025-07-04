@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v48146)
+## I. Core Protocols & Immediate Actions (v48406)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change.
 - **CRITICAL: WKG Protocol (v36 - Tagging & Entry Points):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge. I will always use the correct **numeric string IDs** for maps and verify node existence before creating edges. For `connection_type: "warp"`, I MUST include the `destination_entry_point` property. I will also use the `tags` array to categorize nodes (e.g., `["stairs", "up"]`, `["teleporter"]`) for better graph analysis.
 - **CRITICAL: Map Marker Protocol (v17):** Mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets.
@@ -48,11 +48,12 @@
 - **Lesson:** Defeated Rival Pixel on Silph Co. 7F. His team was tough, especially the Alakazam and Flareon. My strategic switching was key to victory.
 - **Lesson:** Route 19 trainers are significantly higher level than my team. Grinding is necessary before proceeding further south.
 - **Lesson:** Some gates in Silph Co. are not opened by the CARD KEY and likely require a different switch or event.
+- **Lesson:** Do not blindly trust the `battle_strategist_agent`. It can fail to account for non-STAB coverage moves. Always critically evaluate its suggestions against the current battle context.
 - **Marker Labeling Protocol (v1):** For all defeated trainers, I will use the standardized label 'Trainer defeated'.
 
 ## V. Active Hypotheses
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
 
-## VI. Post-Giovanni Cleanup (HIGH PRIORITY)
-- **CRITICAL:** Fix `battle_strategist_agent`. The JSON schema is bugged (`nullable` property). The system prompt also needs to be more robust to account for non-STAB coverage moves.
-- **CRITICAL:** Consolidate redundant map markers across all floors of Silph Co. and other visited maps to clean up the strategic view.
+## VI. Post-Giovanni Cleanup (CRITICAL)
+- **IMMEDIATE:** Fix `battle_strategist_agent` (if current attempt fails). The JSON schema is bugged (`"nullable":true` should be `"type": ["string", "null"]`). The system prompt also needs to be more robust to account for non-STAB coverage moves.
+- **IMMEDIATE:** Consolidate redundant map markers across all floors of Silph Co. and other visited maps to clean up the strategic view.
