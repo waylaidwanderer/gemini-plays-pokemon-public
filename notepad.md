@@ -35,3 +35,6 @@
 - **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information. No exceptions.
 - **TRUST THE AGENTS:** Use agents proactively for complex problems. Trust their outputs, especially when stuck. Refine them if they are flawed.
   - H6: Talking to the Gym Guide again after battling trainers did not provide new hints.
+
+- **TM49 (Fury Cutter):** A move that gets stronger with each consecutive hit.
+- **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
