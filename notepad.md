@@ -17,9 +17,9 @@
 
 ## II. Quest Progression & Puzzles
 
-### Ilex Forest - Farfetch'd Puzzle (ABANDONED)
+### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
-- **Status:** Abandoning this puzzle for now. My attempts to reliably respawn the Farfetch'd by resetting the map have failed. The constant wild encounters make a systematic search impractical. I will proceed to find an alternate path through the forest.
+- **Status:** The Farfetch'd has appeared at (29, 22)! The puzzle is now solvable. I will use my `farfetchd_herder` agent to get a step-by-step solution.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
