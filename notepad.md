@@ -47,4 +47,3 @@
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
 - **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
-- **0 PP Move Mechanic:** Selecting a move with 0 PP displays a 'No PP left' message and does not advance the turn. Struggle is not automatically triggered.
