@@ -14,15 +14,13 @@
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, CAVE
 - **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
-- **One-Way Ledges:** LEDGE_HOP_DOWN (One-way traversal in the specified direction).
+- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
 ### Untested Tile Mechanics
 - **LEDGE:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
 - **WARP_CARPET_RIGHT:** Test if this tile is activated by stepping onto it or by pressing a specific direction.
-- **LEDGE_HOP_LEFT:** Verify this is a one-way path to the left.
-- **LEDGE_HOP_RIGHT:** Verify this is a one-way path to the right.
 
 ## II. Quest Progression & Puzzles
 
@@ -43,8 +41,7 @@
     5. Talking to the apprentice after scaring the Farfetch'd away does NOT reset the puzzle.
     6. The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
     7. The small stick sprite at (28, 23) is not a twig.
-    8. The small stick sprite at (28, 23) is not a twig.
-    9. The small stick sprite at (29, 24) is a trap; stepping on it makes the Farfetch'd disappear.
+    8. The small stick sprite at (29, 24) is a trap; stepping on it makes the Farfetch'd disappear.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
