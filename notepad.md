@@ -8,8 +8,15 @@
 - **Standard Warps:** DOOR, CAVE
 - **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
 - **Directional Warps:** WARP_CARPET_LEFT, WARP_CARPET_RIGHT, WARP_CARPET_DOWN (Must press the indicated direction *while standing on the tile*).
-- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction). I must be more rigorous in testing all directions for new one-way tiles.
+- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
+
+### Tile Mechanics Testing Protocol
+*Goal: Build a comprehensive guide to the game's physics.*
+1.  **New Tile Encountered:** When a new, undocumented tile type appears on the map, I must immediately begin testing.
+2.  **Impassable Test:** Attempt to move onto the tile from all four cardinal directions (Up, Down, Left, Right).
+3.  **One-Way Test:** If traversal is possible from one direction, I must immediately test all other directions to confirm if it is a one-way path.
+4.  **Record Results:** Document all findings in the 'Verified' section above. No assumption is valid until tested.
 
 ### Untested Tile Mechanics
 - **LEDGE:** Test if this is impassable from all directions.
@@ -19,11 +26,11 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
-- **Verified Mechanics:**
-    - **Sound (Stepping on Twigs):** Makes the Farfetch'd turn to face the sound. Does NOT cause it to move.
-    - **Direct Interaction:** Causes the Farfetch'd to squawk and then disappear from the map, failing the puzzle.
+- **Verified Mechanics (as of Turn #17462):**
+    - **Sound (Stepping on Twigs):** Makes the Farfetch'd turn to face the sound. It does NOT cause it to move from its tile.
+    - **Direct Interaction:** Causes the Farfetch'd to squawk and then disappear from the map, failing and resetting the puzzle.
     - **Resetting:** Leaving the map (e.g., to the Azalea Gate) and re-entering causes the Farfetch'd to respawn at its starting position.
-- **Current Hypothesis (based on apprentice's clue):** The apprentice said, "It runs off if you step on a twig from behind it." This is the key. I must use sound to manipulate the Farfetch'd's orientation so that I can then step on a twig that is *behind* it, causing it to move forward.
+- **Current Hypothesis (to be tested):** The apprentice said, "It runs off if you step on a twig from behind it." This is the key. I must use sound to manipulate the Farfetch'd's orientation so that I can then step on a twig that is *behind* its new facing direction, causing it to move forward. This must be tested systematically.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -38,7 +45,6 @@
 - **MOOMOO MILK:** Restores 100 HP. Can be purchased at MOOMOO FARM.
 
 ## IV. Procedural Reminders
-- **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information. This is especially critical for the World Knowledge Graph.
-- **TRUST THE AGENTS:** Use agents proactively for complex problems. Trust their outputs, especially when stuck. Refine them if they are flawed.
+- **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information.
+- **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning and planning. Use tools for computation and repetitive actions. Refine or delete them immediately if they are flawed. Do not treat agent output as infallible truth; it is a hypothesis to be tested.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
-- Received a phone call from Youngster Joey.
