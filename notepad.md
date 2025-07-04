@@ -25,16 +25,14 @@
 - **Current Hypothesis:** The solution is not in the first chamber. The ladder at (10, 13) is the only other path forward.
 
 ### Azalea Gym Puzzle
-- **Objective:** Find the correct sequence to activate the two spider-switches to reach Bugsy.
-- **Failed Attempts (Systematic Log):**
-  1.  **Right Statue ON, Left Statue OFF:** Path to Bugsy blocked.
-  2.  **Left Statue ON, Right Statue OFF:** Path to Bugsy blocked.
-  3.  **Right Statue ON, Left Statue ON:** Path to Bugsy blocked.
-  4.  **Left Statue ON, Right Statue ON:** Path to Bugsy blocked.
-  5.  **Talked to Gym Guide** after various switch interactions: Dialogue unchanged.
-  6.  **Talked to Bug Catcher Al** after various switch interactions: Dialogue unchanged.
-  7.  **Sequence: Left Statue ON -> Talk to Gym Guide -> Right Statue ON:** Path to Bugsy blocked.
-- **Current Status:** All simple combinations and NPC interactions have failed. Trusting agent advice to re-evaluate clues.
+- **Objective:** Reach and defeat Gym Leader Bugsy.
+- **Current State:** The path is blocked by spider-like platforms controlled by two switches.
+- **Hypothesis 1 (Failed):** Simple switch combinations (Left ON/Right OFF, Left OFF/Right ON, Left ON/Right ON) do not create a path.
+- **Hypothesis 2 (Failed):** Toggling the left switch off after both are on (Sequence: Left ON -> Right ON -> Left OFF) does not create a path.
+- **Hypothesis 3 (In Progress):** Toggling the right switch off after both are on. (Sequence: Left ON -> Right ON -> Right OFF)
+- **Next Steps if H3 Fails:**
+    1. Interact with all NPCs (Gym Guide, defeated trainers) after each switch state change.
+    2. Leave the gym to search for a missing trigger event in Azalea Town.
 
 ## III. Item Effects
 - **EVERSTONE:** A Pokémon holding this item will not evolve.
