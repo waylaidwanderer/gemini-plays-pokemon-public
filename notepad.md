@@ -14,20 +14,7 @@
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** This agent now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items). It is a reliable tool for depositing and withdrawing Pokémon.
 
-## III. Battle Plans & Strategies
-### A. Rival Pixel (Silph Co. Rematch)
-- **Opponent Team:** Alakazam (Lv. 45), Sandslash (Lv. 43), Exeggutor (Lv. 43), Cloyster (Lv. 43), Magneton (Lv. 43).
-- **Recommended Team:** SPARKY, CRAG, ECHO, TITANESS, GUILLOTIN, LEGION.
-- **Counters:**
-  - SPARKY > Cloyster
-  - CRAG > Magneton
-  - ECHO > Exeggutor
-  - TITANESS > Alakazam (Bite) & Sandslash (Surf)
-  - GUILLOTIN > Exeggutor & Alakazam (Bug moves)
-  - LEGION > Sandslash (backup) & Psychic pivot
-- **Training Plan:** Train TITANESS, GUILLOTIN, and LEGION to Lv. 45 in Seafoam Islands (B1F), targeting Jynx, Golbat, and Krabby for high EXP.
-
-## IV. Game Mechanics & Battle Intel
+## III. Game Mechanics & Battle Intel
 ### A. Confirmed ROM Hack Changes
 - **Type Matchups:** Psychic > Ghost/Poison, Ghost > Psychic, Bite (Normal) > Psychic, Normal !> Psychic, Electric > Rock/Water, CUT (Normal) > VICTREEBEL (Grass/Poison), Flying > Grass/Poison (super-effective), Electric !> Grass, Rock !> Ground, **Psychic !> Psychic**.
 - **Type Immunities:** Psychic is immune to Electric. Flying-type is immune to Ground-type moves. MUK is immune to Poison-type moves.
@@ -36,14 +23,11 @@
 - **Battle Mechanics:** Multi-hit moves (e.g., FURY ATTACK) are a critical threat and can bypass the "sturdy" effect of surviving on 1 HP. The message "Nothing happened!" can display after a "not very effective" attack, likely indicating minimal damage was dealt.
 - **Ghost-Type Effectiveness:** Ghost-type moves (like Lick) are effective against Rock/Ground-types.
 - **'No Will to Fight' Mechanic:** A fainted Pokémon cannot be switched into battle.
-- **Silph Co. Blackout:** Losing in Silph Co. *does* cause a blackout and returns you to the last used Pokémon Center.
 - **Saffron City Navigation:** The city's layout is segmented. Using FLY is the most efficient method for traveling between distant points.
 - **HM & Field Move Mechanics:** Flash, Cut, and Fly MUST be taught to a Pokémon to be used in the field.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle and any Pokémon that participated by switching in.
-
 - **NPC Interaction Catch:** Some NPCs, upon interaction, can trigger a Pokémon 'catch' event (Observed with Rocker in Safari Zone East Rest House giving a CHANSEY).
 - **Safari Game Time Limit:** The Safari Game has a time limit. When it expires, the player is automatically warped back to the Safari Zone Gate.
 - **PC Box Full Mechanic:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but a warning is displayed. I must remember to manually change the active box at a Pokémon Center.
 - **Eevee Evolution:** An NPC in the Safari Zone North Rest House mentioned that Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths likely influenced by evolution stones.
 - **Item Mechanics:** EXP.ALL gives EXP to all party Pokémon, even non-participants. However, it reduces the total EXP gained per Pokémon. Best used for targeted training, otherwise store in PC.
-- **Silph Co. Puzzles:** The building contains unique navigation puzzles. Some floors have gates that open sequentially as you walk along a specific path (e.g., a northern corridor). The building also uses a complex network of teleporters that link different floors and isolated rooms.
