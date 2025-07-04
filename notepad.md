@@ -20,11 +20,11 @@
 ### Ilex Forest Quest
 - **Objective:** Find the lost FARFETCH'D and return it to the Charcoal Man's apprentice at (7, 28).
 - **Status:** STUCK. My `farfetchd_herder` tool failed twice, proving my underlying hypothesis about the Farfetch'd's movement (that it moves directly away from the player) is fundamentally flawed.
-- **New Hypotheses (from `quest_strategist`):**
+- **New Hypotheses (from `quest_strategist`):
   1. The Farfetch'd moves directly away from the location of the *twig* that is stepped on.
   2. The *direction the player is facing* when stepping on a twig determines the Farfetch'd's movement.
   3. Each specific twig may cause the Farfetch'd to teleport to a specific, predetermined location.
-- **Current Plan:** Test Hypothesis #2. Path back to the area with known twigs, specifically to (23, 29), and step on them while facing different directions to observe the outcome.
+- **Current Plan:** Test Hypothesis #2. Path back to the area with known twigs, specifically to (23, 29), and step on them while facing different directions to observe the outcome. (Plan failed, currently trapped in eastern section).
 - **Failed Attempts Log:**
   1. `farfetchd_herder` tool (initial version).
   2. `farfetchd_herder` tool (v2, trees as obstacles).
@@ -50,6 +50,3 @@
 ## Glitch Encounter
 - **Map ID:** 56_126
 - **Description:** Encountered a glitched battle with a corrupted game state. Party, badges, and money were all incorrect. Attempting to run from the battle to resolve the issue.
-- **WARP_CARPET_RIGHT:** Test if this is a one-way warp to the right.
-- **LEDGE_HOP_LEFT:** Test if this is a one-way ledge to the left.
-- **LEDGE_HOP_RIGHT:** Test if this is a one-way ledge to the right.
