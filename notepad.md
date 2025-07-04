@@ -22,8 +22,13 @@
 - **Verified Mechanics:**
     - Stepping on twigs makes the Farfetch'd turn to face the sound, but it does not move.
     - Interacting with the Farfetch'd directly causes it to disappear from the map.
-- **Current Hypothesis:** The puzzle must be solved by luring it with sound. To make it move, I likely need to step on twigs that are *behind* it.
-- **Current Plan:** The puzzle resets if the Farfetch'd vanishes or if the player leaves the map. The key is to step on twigs from *behind* the Farfetch'd to make it move away from the sound.
+- **Revised Hypothesis:** Leaving the area resets the puzzle. The Farfetch'd moves based on a combination of direct interaction (pushing) and sound from twigs. The agent's plan should be followed precisely.
+- **Agent Plan:**
+    1. Interact at (28, 32) to push north.
+    2. Interact at (29, 30) to push west.
+    3. Step on twig at (10, 30) to lure west.
+    4. Step on twig at (8, 27) to lure north.
+    5. Interact at (8, 28) to push to apprentice.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
