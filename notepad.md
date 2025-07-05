@@ -1,28 +1,22 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. Game & Tile Mechanics
+## I. Game Mechanics
 
-### Tile Mechanics Testing Protocol
-*Goal: Build a comprehensive guide to the game's physics. This must be followed for every new tile type.*
-1.  **New Tile Encountered:** When a new, undocumented tile type appears on the map, I must immediately begin testing.
-2.  **Impassable Test:** Attempt to move onto the tile from all four cardinal directions (Up, Down, Left, Right).
-3.  **One-Way Test:** If traversal is possible from one direction, I must immediately test all other directions to confirm if it is a one-way path. Every direction must be individually verified.
-4.  **Record Results:** Document all findings in the 'Verified' section below. No assumption is valid until tested.
-
-### Tile Traversal Rules (Verified)
-- **Impassable:** WALL, CUT_TREE, WATER, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), YOUNGSTER (NPC), VOID, MART_SHELF, MART_SHELF
-- **Interactable Obstacles:** HEADBUTT_TREE (Impassable to walk on, but can be interacted with using 'A').
-- **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
-- **Standard Warps:** DOOR, CAVE
-- **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
-- **Directional Warps (Verified):** WARP_CARPET_RIGHT, WARP_CARPET_LEFT, WARP_CARPET_DOWN. Activated by moving onto the tile in the specified direction. The warp at Ilex Forest exit (3, 42) remains an exception and appears to be blocked by a different condition.
-- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
-- **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
-
-### Untested Tile Mechanics
-*Goal: Test these tiles as soon as they are encountered.*
-- **LEDGE:** Test if this is impassable from all directions.
-- **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
+### Tile Traversal Rules
+- **Testing Protocol:**
+  1.  When a new tile type is seen, test movement from all 4 directions.
+  2.  If any direction works, test all others to confirm one-way paths.
+  3.  Record all verified findings.
+- **Verified Impassable:** WALL, CUT_TREE, WATER, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), VOID, MART_SHELF
+- **Verified Interactable Obstacles:** HEADBUTT_TREE (Impassable, can be interacted with via 'A').
+- **Verified Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
+- **Verified Warps:**
+  - **Standard:** DOOR, CAVE
+  - **Movement-Based:** LADDER (Move onto tile).
+  - **Directional:** WARP_CARPET_RIGHT/LEFT/DOWN (Move onto tile in specified direction). Exception: Ilex Forest Azalea Gate warp is triggered by walking into the correct side of the building.
+- **Verified One-Way Ledges:** LEDGE_HOP_DOWN/LEFT/RIGHT.
+- **Verified Complex Tiles:** FLOOR_UP_WALL (Enter by moving UP; Exit by moving LEFT/RIGHT).
+- **Untested Tiles:** LEDGE, FLOOR_ALLOW_HOP_DOWN.
 
 ## II. Quest Progression & Puzzles
 
