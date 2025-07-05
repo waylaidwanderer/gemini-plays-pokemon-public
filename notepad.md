@@ -62,3 +62,6 @@
 
 ## VI. Self-Correction (Turn 19321)
 - **External Knowledge:** My assumption about Water-type effectiveness was based on knowledge from other games. I must build my understanding of mechanics *only* from verified, in-game observations in Pokémon Crystal.
+
+## VII. Self-Correction (Turn 19337)
+- **External Knowledge (Again):** After observing Water Gun being 'not very effective' against Paras, I hypothesized about 'Dry Skin', an ability from later games. This is another instance of relying on external knowledge. I must strictly adhere to forming hypotheses based only on mechanics I can observe and verify within Pokémon Crystal.
