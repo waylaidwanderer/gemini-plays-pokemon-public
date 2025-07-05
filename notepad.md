@@ -23,21 +23,28 @@
 ### Ilex Forest - Farfetch'd Puzzle
 *Note: This section is outdated. See the consolidated log under 'V. Systematic Puzzle Testing'.*
 
+## II. Quests & Puzzles
+
+### Ilex Forest - Farfetch'd Puzzle
+- **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
+- **Current State:** The Farfetch'd has disappeared. The puzzle state may need to be reset or re-initiated.
+- **Verified Mechanics:**
+    1. **Proximity (Turning):** Approaching the Farfetch'd from a specific side causes it to turn and face you.
+    2. **Teleportation (Twigs):** Stepping on a twig causes the Farfetch'd to teleport.
+    3. **Reset Conditions:** The puzzle resets if the player enters a wild battle, leaves the area, or interacts directly with the Farfetch'd.
+
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
 - **Current Status:** The ladder at (10, 13) is the only path forward. The solution is likely in another chamber.
-- **Clue:** Liz mentioned hearing a strange broadcast from the Ruins of Alph. This might be a clue for the puzzle.
+- **Clue:** Liz mentioned hearing a strange radio broadcast from the Ruins of Alph. This might be a clue for the puzzle.
 
-## III. Item Effects
+## III. Item Effects & Battle Mechanics
 - **EVERSTONE:** Prevents evolution.
 - **BERRY:** Restores 10 HP. Found at FRUIT_TREEs.
 - **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
 - **SLOWPOKETAIL:** Offered for sale on Route 32. Purpose unknown.
 - **MOOMOO MILK:** Restores 100 HP. Purchased at MOOMOO FARM.
-
-## IV. Battle Mechanics
 - **Type Effectiveness:** Water is neutral vs. Bug/Grass (e.g., Paras). Initial assumption was wrong.
-
 ## V. Systematic Puzzle Testing
 
 ### Ilex Forest - Farfetch'd Puzzle
