@@ -10,7 +10,7 @@
 - **`battle_strategist_agent`:** Provides battle advice. **STATUS: REFINED.** The agent now correctly validates against fainted, sleeping, and active Pokémon to avoid invalid switch recommendations.
 
 ## III. Game Mechanics & Battle Intel
-### A. Tile Mechanics & Traversal Rules (v12)
+### A. Tile Mechanics & Traversal Rules (v13)
 - **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls. They cannot be surfed on.
 - **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
@@ -18,6 +18,7 @@
 - **Elevators (Silph Co.):** To use the elevator, you must first interact with the control panel (usually on a wall) to select a destination floor. After selecting a floor, you must walk onto the warp tiles at the back of the elevator room to trigger the map transition.
 - **PC Interaction:** To use a Pokémon Center PC, I must stand on the tile directly below it and face up before pressing 'A'.
 - **Saffron Gym Teleporters:** These are 1x1 warp tiles. To use a warp, I must move onto the tile. If I'm already on a warp tile, I must move off and then back on to trigger it. This is crucial for testing bidirectionality.
+- **Open Gates:** `open_gate` tiles are unlocked `closed_gate` tiles and function as `ground`.
 
 ### B. Confirmed ROM Hack Changes (v13)
 #### B1. Type Matchups & Immunities
@@ -54,7 +55,3 @@
 
 ## VI. Agent & Tool Ideas
 - **Marker Compliance Agent:** An agent that takes a list of map markers and the marker protocol as input, then outputs a list of non-compliant markers to be deleted. Could automate map cleanup.
-
-## III. Game Mechanics & Battle Intel
-### A. Tile Mechanics & Traversal Rules (v13)
-- **Open Gates:** `open_gate` tiles are unlocked `closed_gate` tiles and function as `ground`.
