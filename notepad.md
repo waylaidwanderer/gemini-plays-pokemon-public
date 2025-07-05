@@ -54,6 +54,7 @@
 - **Saffron Gym Hypothesis (Attempt 3):** Defeating all trainers in the room with the Channeler at (4, 8) does not open the path to Sabrina. **Conclusion (T50170):** FAILED. The trigger is something else entirely.
 - **Saffron Gym Hypothesis (Attempt 4):** The maze has a simple, linear solution. **Conclusion (T50796):** FAILED. All reachable warps have been visited.
 - **Silph Co. 10F Hypothesis (Attempt 1 - Beds):** The 'Guaranteed Reachable Interactable Tiles' are the beds. **Conclusion (T51108):** FAILED. Interacting with both beds yielded no result.
+- **Silph Co. 10F Hypothesis (Attempt 2 - Systematic Search):** The two 'Guaranteed Reachable Interactable Tiles' are hidden floor switches or pressure plates. **Conclusion (T51157):** FAILED. Systematic search of tiles (2,2), (2,1), (3,1), (4,2), (4,1), (5,1), and (6,1) yielded no results. This method is too inefficient.
 
 ## VI. Agent & Tool Ideas
 - **Marker Compliance Tool (Implemented):** A tool that parses map markers against my notepad protocols to find non-compliant entries. This is a computational task, making a tool the correct implementation.
@@ -69,14 +70,7 @@
 ### B. WKG Usage Notes
 - Per AI critique, I must start using the `tags` field when adding nodes to my WKG to improve its utility. For example: `tags: ['silph_co', 'stairs']`.
 
-## IX. Silph Co. 10F - Systematic Search (T51109)
-- **System Hint:** Two 'Guaranteed Reachable Interactable Tiles' exist.
-- **Hypothesis:** The interactable tiles are hidden floor switches or pressure plates.
-- **Plan:** Systematically test every reachable tile in this manner using my `systematic_searcher` tool.
-- **Tested Coordinates:** [{"x": 2, "y": 2}, {"x": 2, "y": 1}, {"x": 3, "y": 1}, {"x": 4, "y": 2}, {"x": 4, "y": 1}, {"x": 5, "y": 1}]
-- **Attempt 1:** Test tile (2, 2) from position (2, 3). **Result:** No interaction.
-- **Attempt 2:** Test tile (2, 1) from position (2, 2). **Result:** No interaction.
-- **Attempt 3:** Test tile (3, 1) from position (3, 2). **Result:** No interaction.
-- **Attempt 4:** Test tile (4, 2) by stepping on it. **Result:** No interaction.
-- **Attempt 5:** Test tile (4, 1) from position (4, 2). **Result:** No interaction.
-- **Attempt 6:** Test tile (5, 1) from position (5, 2). **Result:** No interaction.
+## IX. Silph Co. 10F - Re-investigating Warps (T51157)
+- **System Hint:** Two 'Guaranteed Reachable Interactable Tiles' exist, and the warp at (11, 1) is listed as 'unvisited' despite previous use.
+- **Hypothesis:** The 'interactable tiles' are the warps themselves, and their state or destination may have changed after defeating Giovanni. The game state's insistence that (11, 1) is unvisited is a major clue.
+- **Plan:** Re-test the warp at (11, 1).
