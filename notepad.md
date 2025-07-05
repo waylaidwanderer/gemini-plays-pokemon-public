@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v51079)
+## I. Core Protocols & Immediate Actions (v51108)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates are my highest priority upon any map change. I will use a 'check-then-add' protocol, using `find_wkg_node_by_coords` before adding new nodes.
 - **CRITICAL: WKG Protocol:** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination, including descriptive `tags` (e.g., ['silph_co', 'stairs', 'teleporter']). 3. Confirm the source node exists (creating it if necessary). 4. **Empirically test if the warp is bidirectional by immediately attempting to return.** 5. Create the connecting edge, meticulously verifying the **`destination_entry_point`** and setting `is_one_way` based on the test result.
 - **CRITICAL: Map Marker Protocol:** I will use standardized emojis and labels for all new markers: '☠️' for defeated trainers, '✅' for picked-up items. ALL teleporter markers, whether for departure or arrival, MUST use the format: '🚪 Warp to/from (X, Y) [Bi-directional/One-way]'. This ensures consistent parsing by my tools. This will be placed *immediately*. **Redundant 'arrival' markers are forbidden.**
@@ -53,9 +53,11 @@
 - **Saffron Gym Hypothesis (Attempt 2 - Defeat all trainers in Sabrina's room):** Defeating all trainers in Sabrina's immediate room will unlock the path to her. **Conclusion (T50140):** FAILED. The path remained blocked.
 - **Saffron Gym Hypothesis (Attempt 3):** Defeating all trainers in the room with the Channeler at (4, 8) does not open the path to Sabrina. **Conclusion (T50170):** FAILED. The trigger is something else entirely.
 - **Saffron Gym Hypothesis (Attempt 4):** The maze has a simple, linear solution. **Conclusion (T50796):** FAILED. All reachable warps have been visited.
+- **Silph Co. 10F Hypothesis (Attempt 1 - Beds):** The 'Guaranteed Reachable Interactable Tiles' are the beds. **Conclusion (T51108):** FAILED. Interacting with both beds yielded no result.
 
 ## VI. Agent & Tool Ideas
 - **Marker Compliance Tool (Implemented):** A tool that parses map markers against my notepad protocols to find non-compliant entries. This is a computational task, making a tool the correct implementation.
+- **Systematic Searcher Agent (Implemented):** An agent to automate the process of systematically sweeping an area for interactable tiles.
 
 ## VII. Silph Co. Re-Exploration (Post-Giovanni)
 - **System Hint (T50986):** The game state indicates there are two reachable, unvisited warps on 10F at (11, 1) and (13, 1), despite my markers. This is a strong lead.
