@@ -23,7 +23,6 @@
 ### Ilex Forest Puzzle
 - **Objective:** Get HM01 (CUT).
 - **Current Hypothesis (H5):** After speaking to Kurt, his apprentice will now be present in Ilex Forest. Finding him is the key.
-- **Alternative Hypothesis (H6):** The Ilex Forest Shrine at (8, 22) may be involved. Test interaction with it after resolving the apprentice situation to confirm its role (or lack thereof).
 - **Verified Mechanics:**
     1. **Proximity (Turning):** Approaching Farfetch'd causes it to turn.
     2. **Teleportation (Twigs):** Stepping on twigs teleports Farfetch'd based on its facing direction.
