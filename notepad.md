@@ -69,3 +69,7 @@
   - **Result:** No effect. **Conclusion: H3 Falsified.**
 - **H4 (Alternative): The puzzle trigger is outside this immediate area.**
   - **Test Plan:** If all local hypotheses are exhausted, systematically backtrack and re-interact with key NPCs and objects (e.g., the apprentice, Kurt).
+
+## Core Lessons Learned
+- **Resource Check:** ALWAYS verify I have the necessary items (e.g., Repels) in my pack *before* forming a plan that depends on them.
+- **Farfetch'd Reset:** The puzzle resets upon entering battle or leaving the area. After a reset, the Farfetch'd respawns at coordinate (29, 22), not its original starting position.
