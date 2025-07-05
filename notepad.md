@@ -7,7 +7,7 @@
   1.  When a new tile type is seen, test movement from all 4 directions.
   2.  If any direction works, test all others to confirm one-way paths.
   3.  Record all verified findings.
-- **Verified Impassable:** WALL, CUT_TREE, WATER, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), VOID, MART_SHELF
+- **Verified Impassable:** WALL, CUT_TREE, WATER, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), VOID, MART_SHELF, BLACK_BELT (NPC)
 - **Verified Interactable Obstacles:** HEADBUTT_TREE (Impassable, can be interacted with via 'A').
 - **Verified Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Verified Warps:**
