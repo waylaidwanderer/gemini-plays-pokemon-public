@@ -1,8 +1,8 @@
 ## I. Core Protocols & Immediate Actions (v50131)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change. I will use a 'check-then-add' protocol, using `find_wkg_node_by_coords` before adding new nodes.
 - **CRITICAL: WKG Protocol (v46 - Tags & Standardization):** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination, including descriptive `tags` (e.g., `["teleporter"]`, `["stairs", "up"]`). 3. Confirm the source node exists (creating it if necessary). 4. **Empirically test if the warp is bidirectional by immediately attempting to return.** 5. Create the connecting edge, meticulously verifying the **`destination_entry_point`** and setting `is_one_way` based on the test result.
-- **CRITICAL: Map Marker Protocol (v22 - Standardization):** I will use standardized emojis and labels for all new markers: '☠️' for defeated trainers, '✅' for picked-up items, and '🚪 Warp to (X, Y) [Direction]' for all warps. This will be placed *immediately*.
-- **CRITICAL: Agent & Tool Protocol (v20 - IMMEDIATE Refinement):** Agent and tool refinement is an IMMEDIATE action, not a deferred goal. If an agent or tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools. I will use my `protocol_enforcement_agent` to check my plans before execution.
+- **CRITICAL: Map Marker Protocol (v23 - Standardization):** I will use standardized emojis and labels for all new markers: '☠️' for defeated trainers, '✅' for picked-up items, and '🚪 Warp to (X, Y) [Bi-directional/One-way]' for all warps, updating the label after testing. This will be placed *immediately*.
+- **CRITICAL: Agent & Tool Protocol (v21 - IMMEDIATE Refinement):** Agent and tool refinement is an IMMEDIATE action, not a deferred goal. If an agent or tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
 ## II. System & Tool Development
 ### A. Agent & Tool Usage Notes
@@ -41,18 +41,12 @@
 - **Eevee Evolution:** An NPC in Safari Zone North mentioned Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths via stones.
 - **EXP.ALL:** Gives EXP to all party Pokémon, even non-participants, but reduces the total EXP gained per Pokémon. Best used for targeted training.
 
-## IV. Active Hypotheses & Lessons Learned
-- **Saffron Gym Hypothesis:** Defeating all trainers in the gym will unlock the path to Sabrina. I will systematically hunt down and defeat all remaining trainers.
-- **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
-- **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice. Similarly, ECHO (GOLBAT) is sometimes shown as GHOST type instead of Flying/Poison.
+## IV. Future Development & Hypotheses (Post-Reflection)
 - **`run_code` Limitation:** The `run_code` tool does not have access to the `xml.etree.ElementTree` module. XML parsing must be done with other methods or tools.
 - **`get_unvisited_warps` Tool Failure:** The tool was failing because its pathfinding logic didn't account for the fact that teleporters connect otherwise isolated rooms. The BFS was only exploring the player's current contiguous area. The fix involved performing the BFS first to identify all reachable tiles, and then filtering the full list of map warps to see which ones fall within that reachable set.
-- **Saffron Gym Hypothesis (Attempt 2 - Defeat all trainers in Sabrina's room):** Defeating all trainers in Sabrina's immediate room will unlock the path to her.
-- **Test:** After defeating the final Channeler at (11, 2), I used `pathfinder` to check for a path to Sabrina.
-- **Conclusion (T50140):** Hypothesis FAILED. The path remained blocked. The trigger is not simply defeating all trainers in the room.
-
-## V. Future Development & Hypotheses (Post-Reflection)
-- **New Tool Idea:** Create a `find_reachable_tiles` tool based on the BFS logic from my debugging scripts. This would be a powerful, general-purpose utility for exploration.
-- **Conclusion (T50170):** Hypothesis FAILED. Defeating all trainers in the room with the Channeler at (4, 8) does not open the path to Sabrina. The trigger is something else entirely.
-- **New Tool Idea:** Create a `maze_solver_tool` to orchestrate the use of `get_unvisited_warps` and `pathfinder` to systematically explore complex areas like this gym. Agents are for reasoning, not computation.
 - **Teleporter/Warp Tiles:** To use a warp, I must move onto the tile. Pressing 'A' while standing on it does nothing. If I'm already on a warp tile, I must move off and then back on to trigger it.
+
+## V. Archived Hypotheses
+- **Saffron Gym Hypothesis (Attempt 1):** Defeating all trainers in the gym will unlock the path to Sabrina.
+- **Saffron Gym Hypothesis (Attempt 2 - Defeat all trainers in Sabrina's room):** Defeating all trainers in Sabrina's immediate room will unlock the path to her. **Conclusion (T50140):** FAILED. The path remained blocked.
+- **Saffron Gym Hypothesis (Attempt 3):** Defeating all trainers in the room with the Channeler at (4, 8) does not open the path to Sabrina. **Conclusion (T50170):** FAILED. The trigger is something else entirely.
