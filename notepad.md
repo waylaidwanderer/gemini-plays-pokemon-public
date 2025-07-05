@@ -50,3 +50,10 @@
   - H8-H15: Early attempts to locate the Farfetch'd after scaring it from the east were unsuccessful.
   - H17: The Farfetch'd did not return to its original puzzle area after speaking to the apprentice.
   - H18: Leaving and re-entering the forest did not reset the puzzle.
+
+## V. Untested Assumptions & Alternative Hypotheses
+
+- **HEADBUTT_TREE Interaction:** I need to test if HEADBUTT_TREEs can be interacted with in any way other than being an obstacle. I will try using the 'A' button on them.
+- **Farfetch'd Location Alternatives:**
+  1. The Farfetch'd is in a hidden area of the forest, accessible through a path I haven't found yet.
+  2. The Ilex Forest Shrine at (8, 22) is involved in the puzzle, and I need to interact with it again.
