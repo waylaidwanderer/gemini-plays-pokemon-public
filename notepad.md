@@ -37,7 +37,7 @@
     1. **Proximity (Turning):** Approaching the Farfetch'd from a specific side causes it to turn and face you.
     2. **Teleportation (Twigs):** Stepping on a twig causes the Farfetch'd to *teleport* to a new, seemingly fixed location. It does not simply move one space.
 - **Current Hypothesis:** The puzzle involves triggering a specific sequence of twigs to teleport the Farfetch'd along a hidden path towards the apprentice. The direction it faces might be irrelevant.
-- **Current Plan:** Test the turning mechanic to gain full control over the Farfetch'd's orientation. Then, use this control to herd it towards the apprentice.
+- **Current Plan:** Systematically test the teleportation mechanic by manipulating the Farfetch'd's facing direction and triggering specific twigs to understand the teleportation pattern.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
