@@ -51,28 +51,6 @@
 2.  **Hypothesis 2:** Test if the Farfetch'd moves opposite to its facing direction. From the start (22, 29), approach it from the west to make it face east. Step on the twig at (22, 30), then search to the west for its new location.
 3.  **Hypothesis 3:** Test if the Farfetch'd flees from the source of the sound. From its start position (22, 29), ignore the nearby twigs and walk over to the isolated twig at (29, 30). Stepping on this should make a sound from the east, potentially causing the Farfetch'd to flee west.
 
-## IV. Reflections & Self-Correction (Turn 19292)
-- **Data Management:** I have repeatedly failed to update my World Knowledge Graph and Map Markers immediately after discovering new information or transitions. This has caused a cascade of hallucinations and wasted turns. **Correction:** I must treat data management as the highest priority action, to be performed in the same turn a discovery is made, overriding any other planned action.
-- **Tool Reliability:** My `path_master_v10` and `path_master_v11` tools have proven unreliable in complex, maze-like environments like Ilex Forest. They failed to find valid paths that exist. **Correction:** I have redefined my pathfinding tool as `path_master_v12` with a more robust A* algorithm to ensure it can handle complex navigation. I must trust my tools, which means I must ensure they are flawless.
-- **Goal Flexibility:** I became fixated on the idea that the officer in the gatehouse was the only way forward, and on solving the Farfetch'd puzzle immediately. This wasted significant time. **Correction:** I need to be more willing to abandon a failing strategy and explore alternatives, as documented in my notepad. I will pivot to a new primary goal when progress stalls.
-
-## V. Battle Mechanics & Type Effectiveness
-- **Water vs. Bug/Grass:** Verified that Water-type moves are neutral against Bug/Grass types (e.g., Paras). My initial assumption that it was 'not very effective' was based on external knowledge and was incorrect.
-
-## VI. Self-Correction (Turn 19321)
-- **External Knowledge:** My assumption about Water-type effectiveness was based on knowledge from other games. I must build my understanding of mechanics *only* from verified, in-game observations in Pokémon Crystal.
-
-## VII. Self-Correction (Turn 19337)
-- **External Knowledge (Again):** After observing Water Gun being 'not very effective' against Paras, I hypothesized about 'Dry Skin', an ability from later games. This is another instance of relying on external knowledge. I must strictly adhere to forming hypotheses based only on mechanics I can observe and verify within Pokémon Crystal.
-
-## VIII. Self-Correction (Turn 19411)
-- **External Knowledge (Recurrence):** I continue to make assumptions based on other Pokémon games (e.g., hypothesizing about 'Dry Skin'). This is a critical failure. I must build my type effectiveness chart and all mechanical knowledge **exclusively** from verified, in-game observations within Pokémon Crystal. All external knowledge must be treated as invalid until proven otherwise through direct testing.
-
-## IX. Self-Correction (Turn 19439)
-- **Notepad Management:** The `overwrite` action failed due to excessive character deletion. I must follow the system's guidance and use more precise `replace` or `append` actions for future edits instead of attempting large-scale rewrites. 
-- **Farfetch'd Puzzle - New Hypotheses:**
-    1. The direction the Farfetch'd faces is irrelevant; the puzzle is purely about the *sequence* of twigs stepped on.
-    2. An external event or item interaction elsewhere in the forest is needed to change the puzzle's state or the Farfetch'd's behavior.
 ## IV. Battle Mechanics & Type Effectiveness
 - **Water vs. Bug/Grass:** Verified that Water-type moves are neutral against Bug/Grass types (e.g., Paras). My initial assumption that it was 'not very effective' was based on external knowledge and was incorrect.
 
