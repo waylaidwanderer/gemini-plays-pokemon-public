@@ -1,7 +1,7 @@
-## I. Core Protocols & Immediate Actions (v48451)
+## I. Core Protocols & Immediate Actions (v48769)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change.
 - **CRITICAL: WKG Protocol (v36 - Tagging & Entry Points):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge. I will always use the correct **numeric string IDs** for maps and verify node existence before creating edges. For `connection_type: "warp"`, I MUST include the `destination_entry_point` property. I will also use the `tags` array to categorize nodes (e.g., `["stairs", "up"]`, `["teleporter"]`) for better graph analysis.
-- **CRITICAL: Map Marker Protocol (v17):** Mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets.
+- **CRITICAL: Map Marker Protocol (v18):** Mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets. I must be more diligent about marking every warp used.
 - **CRITICAL: Agent & Tool Protocol (v14):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool defined with `define_tool`. I will use my `protocol_enforcement_agent` to check my plans before execution. Agent JSON schemas must use `"nullable": true` for optional fields; the `"type": ["string", "null"]` format is not supported and will cause errors.
 
 ## II. System & Tool Development
@@ -28,7 +28,7 @@
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
-- **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Bite (Normal) > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison
+- **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Bite (Normal) > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; **Psychic > Flying** (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
 - **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic
 - **Immunities:** Psychic immune to Electric; Flying-type immune to Ground-type moves; MUK immune to Poison-type moves.
 
@@ -59,9 +59,10 @@
 
 ## VI. Saffron Gym Strategy
 - **Gym Type:** Psychic. Weak to Bug, Ghost, and high physical ATTACK. Bite (Normal) is confirmed super-effective against Psychic.
-- **Maze Strategy:** This is a teleporter maze. I will systematically document each teleporter connection to create a map.
-  - **Warp 1 (12, 16):** Untested.
-  - **Warp 2 (Unknown Source):** Leads to (20, 10) in Central-West Room.
+- **Maze Strategy:** This is a teleporter maze. I will systematically document each teleporter connection to create a map. I need to test if teleporters are two-way.
+  - **Warp 1 (12, 16) -> (20, 18):** Entrance to Southeast Room. (Used)
+  - **Warp 2 (16, 10) -> (16, 4):** Southeast Room to Northeast Room. (Used)
+  - **Warp 3 (20, 10):** Southeast Room. Leads to (20, 9). (Used)
 - **Super Effective:** Psychic > Flying (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
 
 ## VII. Tool Development Notes
