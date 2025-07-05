@@ -23,7 +23,7 @@
 #### B1. Type Matchups & Immunities
 - **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; **Psychic > Flying** (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
 - **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison).
-- **Immunities:** Flying-type immune to Ground-type moves; MUK immune to Poison-type moves; **Psychic immune to Electric** (confirmed: SPARKY's THUNDERBOLT vs JYNX (Ice/Psychic)). **Hypothesis:** This might be specific to Jynx's Ice typing, not a general Psychic immunity. **Evidence against general immunity:** Electric was effective vs Sabrina's Psychic team.; **HYPNO immune to STUN SPORE** (powder moves).
+- **Immunities:** Flying-type immune to Ground-type moves; MUK immune to Poison-type moves; **Psychic immune to Electric** (confirmed: SPARKY's THUNDERBOLT vs JYNX (Ice/Psychic)). **Hypothesis:** This is likely specific to JYNX, not a general Psychic immunity. **Evidence against general immunity:** Electric was effective vs Sabrina's Psychic team, confirming Psychic types are NOT immune to Electric.; **HYPNO immune to STUN SPORE** (powder moves).
 
 #### B2. Battle & Field Mechanics
 - **Evasion:** PSYWAVE and CONFUSE RAY can fail against targets with high evasion boosts (e.g., from MINIMIZE).
