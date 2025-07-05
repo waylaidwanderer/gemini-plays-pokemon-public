@@ -21,12 +21,13 @@
 ## II. Quests & Puzzles
 
 ### Ilex Forest Puzzle
-- **Objective:** Rescue the Farfetch'd to get HM01 (CUT).
+- **Objective:** Get HM01 (CUT).
+- **Current Hypothesis (H5):** After speaking to Kurt, his apprentice will now be present in Ilex Forest. Finding him is the key.
+- **Alternative Hypothesis (H6):** The Ilex Forest Shrine at (8, 22) may be involved. Test interaction with it after resolving the apprentice situation to confirm its role (or lack thereof).
 - **Verified Mechanics:**
-    1. **Proximity (Turning):** Approaching the Farfetch'd from a specific side causes it to turn and face you.
-    2. **Teleportation (Twigs):** Stepping on a twig causes the Farfetch'd to teleport. The destination is based on its facing direction and which twig is stepped on.
-    3. **Reset Conditions:** The puzzle resets if the player enters a wild battle, leaves the area, or interacts directly with the Farfetch'd.
-- **Current Status:** The puzzle is in a failed state; the Farfetch'd has disappeared. The apprentice is also missing.
+    1. **Proximity (Turning):** Approaching Farfetch'd causes it to turn.
+    2. **Teleportation (Twigs):** Stepping on twigs teleports Farfetch'd based on its facing direction.
+    3. **Reset Conditions:** Wild battles, leaving the area, or direct interaction resets the puzzle.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
