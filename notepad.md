@@ -57,7 +57,7 @@
 
 ## VI. Agent & Tool Ideas
 - **Marker Compliance Tool (Implemented):** A tool that parses map markers against my notepad protocols to find non-compliant entries. This is a computational task, making a tool the correct implementation.
-- **Systematic Searcher Agent (Implemented):** An agent to automate the process of systematically sweeping an area for interactable tiles.
+- **Systematic Searcher Tool (Implemented):** A tool to automate the process of systematically sweeping an area for interactable tiles. It parses the map XML to find valid tiles.
 
 ## VII. Silph Co. Re-Exploration (Post-Giovanni)
 - **System Hint (T50986):** The game state indicates there are two reachable, unvisited warps on 10F at (11, 1) and (13, 1), despite my markers. This is a strong lead.
@@ -73,4 +73,5 @@
 - **System Hint:** Two 'Guaranteed Reachable Interactable Tiles' exist.
 - **Hypothesis:** The interactable tiles are hidden floor switches activated by standing on the tile below them and pressing 'A'.
 - **Plan:** Systematically test every reachable tile in this manner.
-- **Attempt 1:** Test tile (2, 2) from position (2, 3).
+- **Tested Coordinates:** [{"x": 2, "y": 2}]
+- **Attempt 1:** Test tile (2, 2) from position (2, 3). **Result:** No interaction.
