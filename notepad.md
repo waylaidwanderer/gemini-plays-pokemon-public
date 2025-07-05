@@ -53,3 +53,4 @@
 - **TM49 (Fury Cutter):** A move that gets stronger with each consecutive hit.
 - **SLOWPOKETAIL:** A man on Route 32 offered to sell this. Its purpose is unknown.
 - **MOOMOO MILK:** Restores 100 HP. Can be purchased at MOOMOO FARM.
+- **LEDGE_HOP_RIGHT:** Found at (27, 22). Test if this tile only allows rightward movement.
