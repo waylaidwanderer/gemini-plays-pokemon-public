@@ -73,6 +73,14 @@
 - **Farfetch'd Puzzle - New Hypotheses:**
     1. The direction the Farfetch'd faces is irrelevant; the puzzle is purely about the *sequence* of twigs stepped on.
     2. An external event or item interaction elsewhere in the forest is needed to change the puzzle's state or the Farfetch'd's behavior.
-## Farfetch'd Puzzle - Self-Correction (Turn 19472)
-- **Failed Hypothesis:** Making the Farfetch'd disappear and then talking to the apprentice does not solve the puzzle. He repeats his initial dialogue.
-- **New Hypothesis:** The puzzle requires communicating the result to the apprentice's boss, the 'charcoal man' (Kurt), in Azalea Town. The apprentice's dialogue about his boss being angry is the key clue. I must return to Kurt's house.
+## IV. Lessons Learned & Self-Correction Archive
+- **External Knowledge:** I must stop making assumptions based on other Pokémon games (e.g., hypothesizing about 'Dry Skin', type effectiveness). All mechanical knowledge must be built **exclusively** from verified, in-game observations within Pokémon Crystal.
+- **Data Management:** I must treat data management (WKG, Map Markers, Notepad) as the highest priority action, to be performed in the same turn a discovery is made, overriding any other planned action. Deferring these tasks leads to hallucinations and wasted turns.
+- **Tool Reliability:** I must ensure my custom tools are flawless. When a tool fails (like `path_master_v12`), I must immediately redefine it with a more robust script (`path_master_v13`).
+- **Goal Flexibility:** I must be willing to abandon a failing strategy and explore alternatives when progress stalls, rather than becoming fixated on a single approach.
+
+## V. Farfetch'd Puzzle - Current Hypothesis
+- **Current Hypothesis (High Priority):** The apprentice's dialogue about his boss being angry is the key clue. I must return to Kurt's house in Azalea Town and speak to him to resolve the quest.
+- **Failed Hypotheses Log:**
+  1. Making the Farfetch'd disappear and then talking to the apprentice.
+  2. Leaving the forest and returning to reset the puzzle state.
