@@ -29,9 +29,9 @@
   },
   "maze_navigator_agent": {
     "agent_name": "maze_navigator_agent",
-    "agent_description": "Analyzes a list of unvisited, reachable warps to suggest the next optimal teleporter for systematic maze exploration.",
-    "agent_system_prompt": "You are a Maze Navigation Specialist. Your task is to analyze the provided list of unvisited warp coordinates and recommend the next best one to explore. Prioritize the warp with the lowest y-coordinate, then the lowest x-coordinate as a tie-breaker. Your output must be the coordinates of the recommended teleporter.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"unvisited_warps\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}}}, \"required\": [\"unvisited_warps\"]}",
+    "agent_description": "Analyzes a list of unvisited, reachable warps to suggest the next optimal teleporter for systematic maze exploration. Now takes the player's current coordinates to avoid recommending the tile they are standing on.",
+    "agent_system_prompt": "You are a Maze Navigation Specialist. Your task is to analyze the provided list of unvisited warp coordinates and the player's current coordinates. You must recommend the next best warp to explore. First, filter the list to exclude the player's current location. Then, from the remaining options, prioritize the warp with the lowest y-coordinate, then the lowest x-coordinate as a tie-breaker. Your output must be the coordinates of the recommended teleporter.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"unvisited_warps\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"}},\"required\":[\"unvisited_warps\",\"player_x\",\"player_y\"]}",
     "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_warp_x\": {\"type\": \"integer\"}, \"recommended_warp_y\": {\"type\": \"integer\"}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"recommended_warp_x\", \"recommended_warp_y\", \"reasoning\"]}"
   }
 }
