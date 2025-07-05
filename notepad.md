@@ -72,3 +72,7 @@
 - **Test 3:** Walked path from (15, 23) to (20, 23).
   - **Result:** Farfetch'd appeared at (20, 24), facing right.
   - **Conclusion:** A specific movement path can trigger the Farfetch'd to appear at a new location. The puzzle is not just about twigs.
+
+- **Test 4:** Interacted directly with Farfetch'd at (20, 24).
+  - **Result:** Farfetch'd said 'Kwaa!' and then disappeared.
+  - **Conclusion:** Direct interaction resets the Farfetch'd's position, similar to entering a wild battle.
