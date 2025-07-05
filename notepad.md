@@ -63,3 +63,6 @@
 
 ## VIII. Post-Silph Co. Hypotheses
 - **Saffron Gym Hypothesis (Attempt 5 - T51005):** The path to Sabrina was blocked because I hadn't cleared Team Rocket out of Silph Co. first. Now that Giovanni is defeated, the trigger to open the path might be active. I must return to Saffron Gym and re-test the teleporter maze.
+
+### B. WKG Usage Notes
+- Per AI critique, I must start using the `tags` field when adding nodes to my WKG to improve its utility. For example: `tags: ['silph_co', 'stairs']`.
