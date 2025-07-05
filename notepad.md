@@ -80,8 +80,12 @@
 - **Goal Flexibility:** I must be willing to abandon a failing strategy and explore alternatives when progress stalls, rather than becoming fixated on a single approach.
 
 ## V. Farfetch'd Puzzle - Current Hypothesis
-- **Current Hypothesis (High Priority):** The 'Mysterious Bird Statue' at (5, 6) has disappeared. I must report this to Kurt to progress the quest.
+- **Current Hypothesis (from Quest Strategist):** The goal is to herd the Farfetch'd directly to the apprentice's location in Ilex Forest, not just make it disappear.
+- **Supporting Hypotheses:**
+  1. After reuniting them, talk to the apprentice to trigger the next event.
+  2. After the apprentice is happy, return to Kurt to receive the HM01 CUT reward.
 - **Failed Hypotheses Log:**
   1. Making the Farfetch'd disappear and then talking to the apprentice.
   2. Leaving the forest and returning to reset the puzzle state.
-  3. Repeatedly talking to Kurt in his house *before* discovering the statue was gone.
+  3. Repeatedly talking to Kurt in his house.
+  4. Interacting with the spot where the Mysterious Bird Statue was.
