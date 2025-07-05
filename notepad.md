@@ -53,3 +53,7 @@
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
 - **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice. Similarly, ECHO (GOLBAT) is sometimes shown as GHOST type instead of Flying/Poison.
 - **`run_code` Limitation:** The `run_code` tool does not have access to the `xml.etree.ElementTree` module. XML parsing must be done with other methods or tools.
+
+## V. Future Development & Hypotheses (Post-Reflection)
+- **New Tool Idea:** Create a `find_reachable_tiles` tool based on the BFS logic from my debugging scripts. This would be a powerful, general-purpose utility for exploration.
+- **New Hypothesis:** It may not be necessary to defeat all trainers in a gym to challenge the leader. I will test this by attempting to approach Sabrina after defeating the final Channeler in her room.
