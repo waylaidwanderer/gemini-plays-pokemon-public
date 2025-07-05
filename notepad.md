@@ -49,7 +49,7 @@
 - **`get_unvisited_warps` Tool Failure:** The tool was failing because its pathfinding logic didn't account for the fact that teleporters connect otherwise isolated rooms. The BFS was only exploring the player's current contiguous area. The fix involved performing the BFS first to identify all reachable tiles, and then filtering the full list of map warps to see which ones fall within that reachable set.
 - **Saffron Gym Hypothesis (Attempt 2 - Defeat all trainers in Sabrina's room):** Defeating all trainers in Sabrina's immediate room will unlock the path to her.
 - **Test:** After defeating the final Channeler at (11, 2), I used `pathfinder` to check for a path to Sabrina.
-- **Conclusion (T50139):** Hypothesis FAILED. The path remained blocked. The trigger is not simply defeating all trainers in the room.
+- **Conclusion (T50140):** Hypothesis FAILED. The path remained blocked. The trigger is not simply defeating all trainers in the room.
 
 ## V. Future Development & Hypotheses (Post-Reflection)
 - **New Tool Idea:** Create a `find_reachable_tiles` tool based on the BFS logic from my debugging scripts. This would be a powerful, general-purpose utility for exploration.
