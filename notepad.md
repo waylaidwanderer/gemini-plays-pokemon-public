@@ -39,7 +39,7 @@
 - **Failed Hypotheses Log:**
     - Leaving and re-entering the forest does not reset the Farfetch'd's position.
     - The puzzle cannot be solved by exploring outside the immediate maze; all paths are dead ends.
-    - The `farfetchd_herder` agent failed because it could not account for the reactive, non-pathable movement of the Farfetch'd in response to sound.
+    
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
