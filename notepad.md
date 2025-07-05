@@ -27,15 +27,10 @@
 
 ## II. Quest Progression & Puzzles
 
-### Current Assumptions to Test
-1.  The Headbutt tutor exists in Ilex Forest and can teach me the move.
-2.  Learning Headbutt is related to solving the Farfetch'd puzzle.
-
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
 - **Verified Mechanics:**
     - **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn. It has also been observed to turn without player movement.
-    - **Herding:** Approaching the Farfetch'd from the direction **OPPOSITE** to where it is currently facing *should* scare it away.
     - **Movement Mechanic (Twigs):** Stepping on a twig causes the Farfetch'd to disappear and reappear at a new, predetermined location. This resets the immediate puzzle state.
     - **Direct Interaction (Fail State):** Pressing 'A' on the Farfetch'd causes it to squawk and then disappear from the map, failing the puzzle.
 - **Failed Hypotheses Log:**
