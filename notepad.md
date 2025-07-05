@@ -79,3 +79,4 @@
 5.  **Hypothesis 5:** Herd the Farfetch'd to be adjacent to the twig at (15, 27) before stepping on it.
 - **HEADBUTT_TREE:** Test if this can be interacted with.
 - **HEADBUTT_TREE:** Test if this can be interacted with.
+- **HEADBUTT_TREE:** Test if this can be interacted with.
