@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v49573)
+## I. Core Protocols & Immediate Actions (v49809)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change. I will use a 'check-then-add' protocol, using `find_wkg_node_by_coords` before adding new nodes.
 - **CRITICAL: WKG Protocol (v42 - Empirical Testing):** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination. 3. Confirm the source node exists (creating it if necessary). 4. **Empirically test if the warp is bidirectional by immediately attempting to return.** 5. Create the connecting edge, meticulously verifying the `destination_entry_point` and setting `is_one_way` based on the test result. I will also use the `tags` array to categorize nodes (e.g., `["stairs", "up"]`, `["teleporter"]`) for better graph analysis.
 - **CRITICAL: Map Marker Protocol (v19 - Check First):** I will check for existing markers before adding new ones to avoid redundancy. I will continue to mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*.
@@ -20,7 +20,7 @@
 - **Find Unlinked WKG Nodes Tool:** Consider creating a tool that identifies all nodes on a map that are not part of a completed edge, to help find gaps in my world knowledge.
 
 ## III. Game Mechanics & Battle Intel
-### A. Tile Mechanics & Traversal Rules (v7)
+### A. Tile Mechanics & Traversal Rules (v8)
 - **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls. They cannot be surfed on.
 - **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
@@ -29,10 +29,10 @@
 - **PC Interaction:** To use a Pokémon Center PC, I must stand on the tile directly below it and face up before pressing 'A'.
 - **Saffron Gym Teleporters:** These tiles warp the player between rooms. Their destinations need to be mapped.
 
-### B. Confirmed ROM Hack Changes
+### B. Confirmed ROM Hack Changes (v12)
 #### B1. Type Matchups & Immunities
 - **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; **Psychic > Flying** (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
-- **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic
+- **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison).
 - **Immunities:** Flying-type immune to Ground-type moves; MUK immune to Poison-type moves; **Psychic immune to Electric** (confirmed: SPARKY's THUNDERBOLT vs JYNX); **HYPNO immune to STUN SPORE** (powder moves).
 
 #### B2. Battle & Field Mechanics
@@ -51,17 +51,11 @@
 - **Eevee Evolution:** An NPC in Safari Zone North mentioned Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths via stones.
 - **EXP.ALL:** Gives EXP to all party Pokémon, even non-participants, but reduces the total EXP gained per Pokémon. Best used for targeted training.
 
-## IV. Confirmed Facts & Strategic Lessons
-- **Confirmed:** The Saffron City Gym was blocked until Silph Co. was cleared. Now that Giovanni is defeated, the gym is accessible.
-- **Lesson:** Defeated Rival Pixel on Silph Co. 7F. His team was tough, especially the Alakazam and Flareon. My strategic switching was key to victory.
-- **Lesson:** Route 19 trainers are significantly higher level than my team. Grinding is necessary before proceeding further south.
-- **Lesson:** Some gates in Silph Co. are not opened by the CARD KEY and likely require a different switch or event.
+## IV. Active Hypotheses & Lessons Learned
+- **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
+- **Hypothesis:** The Saffron Gym teleporter maze may require defeating all trainers to solve.
+- **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice.
 - **Marker Labeling Protocol (v1):** For all defeated trainers, I will use the standardized label 'Trainer defeated'.
 
-## V. Active Hypotheses
-- **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
-- **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice.
-- **Lesson:** Bite (Normal) is NOT super-effective against HAUNTER (Ghost/Poison). My previous assumption was wrong.
-
-## VI. Agent & Tool Failures and Fixes
+## V. Agent & Tool Failures and Fixes
 - **`battle_strategist_agent` Debugging (Turn 49558):** The agent repeatedly failed to be redefined due to persistent JSON errors. Hypothesis: The schema was too complex. Fix: Successfully redefined the agent with a minimal schema focused only on status-checking logic. Next Step: Incrementally restore the agent's full functionality (type analysis, move selection) while ensuring schema validity at each step.
