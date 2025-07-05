@@ -65,4 +65,3 @@
 
 ## VI. Agent & Tool Failures and Fixes
 - **`battle_strategist_agent` Debugging (Turn 49558):** The agent repeatedly failed to be redefined due to persistent JSON errors. **Hypothesis:** The schema was too complex. **Fix:** Successfully redefined the agent with a minimal schema focused only on status-checking logic. **Next Step:** Incrementally restore the agent's full functionality (type analysis, move selection) while ensuring schema validity at each step.
-- **`pathfinder` Bug (Turn 49635):** The tool is routing through teleporter tiles as if they are normal ground, instead of treating them as impassable unless they are the destination. This caused an unintended warp from (20, 10) to (17, 16). MUST FIX THIS TOOL after escaping the gym.
