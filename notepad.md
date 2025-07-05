@@ -77,4 +77,5 @@
 - **H14 (Current Hypothesis):** Leaving and re-entering Ilex Forest will reset the entire Farfetch'd puzzle, causing it to reappear at its original location.
 - **H15 (Falsified):** Systematically re-exploring every path from the apprentice's location yielded nothing.
 
-- **H5 (Current Hypothesis):** After speaking to Kurt (who confirmed his apprentice is "lazy" and still in Ilex Forest), the apprentice's state/dialogue in the forest must have changed. The next step is to find him there to progress the puzzle.
+- **H16 (Confirmed):** Spoke to the apprentice at (7, 28). He confirmed he lost the Farfetch'd used for cutting trees and is too scared to find it himself. This initiates the next phase of the puzzle.
+- **H17 (Current Hypothesis):** The lost Farfetch'd must now be found somewhere in the forest. The most logical first place to check is the original puzzle area in the east, around (22, 29).
