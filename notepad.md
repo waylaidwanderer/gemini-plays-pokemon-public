@@ -48,7 +48,7 @@
 - **EXP.ALL:** Gives EXP to all party Pokémon, even non-participants, but reduces the total EXP gained per Pokémon. Best used for targeted training.
 
 ## IV. Confirmed Facts & Strategic Lessons
-- **Confirmed:** The Saffron City Gym is blocked until Silph Co. is cleared. This is the next logical badge target after Fuchsia City.
+- **Confirmed:** The Saffron City Gym was blocked until Silph Co. was cleared. Now that Giovanni is defeated, the gym is accessible.
 - **Lesson:** Defeated Rival Pixel on Silph Co. 7F. His team was tough, especially the Alakazam and Flareon. My strategic switching was key to victory.
 - **Lesson:** Route 19 trainers are significantly higher level than my team. Grinding is necessary before proceeding further south.
 - **Lesson:** Some gates in Silph Co. are not opened by the CARD KEY and likely require a different switch or event.
