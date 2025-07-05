@@ -31,19 +31,12 @@
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
 - **Verified Mechanics:**
-    - **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn.
-    - **Movement Mechanic (Twigs):** Stepping on a twig causes the Farfetch'd to disappear and reappear at a new, predetermined location. This resets the immediate puzzle state.
-    - **Direct Interaction (Fail State):** Pressing 'A' on the Farfetch'd causes it to squawk and then disappear from the map, failing the puzzle.
-- **Current Hypotheses & Tests:**
-    - **Hypothesis 1 (Primary):** The Farfetch'd must be herded to the apprentice's last known location at (7, 28).
-    - **Hypothesis 2 (Alternative):** The Farfetch'd needs to be herded to a different, unknown location.
-        - **Test:** Once found, attempt to herd it North, South, and East to observe its behavior.
-    - **Hypothesis 3 (Alternative):** Specific twigs have unique effects, rather than all twigs simply resetting the puzzle.
-        - **Test:** Find the Farfetch'd, note its location, step on a specific twig, and document where it reappears. Repeat for all accessible twigs to map out their effects.
-- **Failed Hypotheses Log:**
-    - Leaving and re-entering the forest does not reset the Farfetch'd's position.
-    - The puzzle cannot be solved by exploring outside the immediate maze; all paths are dead ends.
-    
+    1. **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn and face you.
+    2. **Movement (Twigs):** Stepping on a twig causes the Farfetch'd to move to a new, predetermined location. This seems to be the primary way to move it.
+    3. **Direct Interaction (Fail State):** Pressing 'A' on the Farfetch'd causes it to squawk and disappear, resetting the puzzle.
+- **Primary Hypothesis:** The Farfetch'd must be herded to the apprentice at (7, 28).
+- **Alternative Hypothesis:** The Farfetch'd needs to be herded to a different location, such as the maze exit or the forest shrine at (8, 22).
+    - **Test:** Once found, attempt to herd it toward the southern exit of the puzzle area to see if it moves in that direction.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -60,6 +53,3 @@
 ## IV. Procedural Reminders
 - **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information. This is a higher priority than any in-game action.
 - **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning. Use tools for computation. Refine or delete them immediately if they are flawed. Trust agent output until it is proven wrong through testing.
-
-## V. Reflections & Corrections
-- **Hallucination Correction:** I incorrectly believed the apprentice at (7, 28) disappeared. This is a recurring hallucination. I must trust the game state information and not my assumptions. The apprentice's presence is not a puzzle trigger.
