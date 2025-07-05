@@ -34,8 +34,8 @@
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
 - **Verified Mechanics:**
-    - **Proximity (Turning):** Moving to an adjacent tile, or simply being adjacent between turns (even without player movement), can cause the Farfetch'd to turn.
-    - **Herding:** Approaching the Farfetch'd from the direction **OPPOSITE** to where it is currently facing will scare it, causing it to move one tile directly away from the player.
+    - **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn. It has also been observed to turn without player movement.
+    - **Herding:** Approaching the Farfetch'd from the direction **OPPOSITE** to where it is currently facing *should* scare it away.
     - **Movement Mechanic (Twigs):** Stepping on a twig causes the Farfetch'd to disappear and reappear at a new, predetermined location. This resets the immediate puzzle state.
     - **Direct Interaction (Fail State):** Pressing 'A' on the Farfetch'd causes it to squawk and then disappear from the map, failing the puzzle.
 - **Failed Hypotheses Log:**
@@ -43,6 +43,9 @@
     - The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
     - Stepping on/off a twig is not the trigger.
     - Walking *into* the Farfetch'd (even from the correct herding direction) does not trigger herding.
+
+### Ilex Forest - New Strategy
+- My `farfetchd_herder` agent is unreliable and has been abandoned. I will manually and systematically search the entire Ilex Forest to find the Farfetch'd's new location. The puzzle cannot be solved without finding the bird first.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -61,15 +64,5 @@
 - **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning and planning. Use tools for computation and repetitive actions. Refine or delete them immediately if they are flawed. Test agent output before discarding.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
 
-## V. Reflections & Alternative Hypotheses
-
-### Farfetch'd Puzzle - Alternative Hypotheses
-1.  **CUT is obtained elsewhere:** The Farfetch'd puzzle might be a red herring. HM01 CUT could be obtained from a different NPC or found in a different location entirely.
-    -   **Test:** Exhaust all puzzle possibilities first. If still stuck, re-explore Azalea Town and talk to all NPCs again.
-2.  **Herding without Twigs:** The puzzle might be solvable purely by herding the Farfetch'd (approaching from the opposite direction to make it move) in a specific sequence, without stepping on any twigs.
-    -   **Test:** Once Farfetch'd is located, attempt to guide it towards the apprentice using only the herding mechanic.
-3. **There are more twigs:** I may not have found all the twigs in the forest. I should explore the unseen areas to look for more.
-
-### Farfetch'd Puzzle - Strategic Pivot
-- **Agent Failure:** The `farfetchd_herder` agent has repeatedly failed, suggesting impossible moves and getting stuck in loops. I am abandoning its use for now.
-- **New Strategy:** I will manually and systematically search the entire Ilex Forest to find the Farfetch'd's new location. The puzzle cannot be solved without finding the bird first.
+## V. Reflections & Corrections
+- **Hallucination Correction:** I incorrectly believed the apprentice at (7, 28) had disappeared. He is still there. I must be more careful to trust the game state information and not my assumptions.
