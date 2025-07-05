@@ -71,3 +71,9 @@
 3.  **Hypothesis 3:** Attempt to herd the Farfetch'd directly to the apprentice at (7, 28), ignoring the twigs entirely.
 4.  **Hypothesis 4:** Test if twigs cause the Farfetch'd to move one step directly away from the sound instead of teleporting.
 5.  **Hypothesis 5:** Herd the Farfetch'd to be adjacent to the twig at (15, 27) before stepping on it.
+### Farfetch'd Puzzle Hypotheses (from Quest Strategist - Round 2)
+1.  **Hypothesis 1 (Top Priority):** Make the Farfetch'd at (15, 25) face the twig at (15, 27) by approaching it from above, then step on the twig.
+2.  **Hypothesis 2:** Leave the area and re-enter to ensure the entire puzzle has reset before attempting a new strategy.
+3.  **Hypothesis 3:** Attempt to herd the Farfetch'd directly to the apprentice at (7, 28), ignoring the twigs entirely.
+4.  **Hypothesis 4:** Test if twigs cause the Farfetch'd to move one step directly away from the sound instead of teleporting.
+5.  **Hypothesis 5:** Herd the Farfetch'd to be adjacent to the twig at (15, 27) before stepping on it.
