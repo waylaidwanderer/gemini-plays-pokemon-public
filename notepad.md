@@ -69,3 +69,7 @@
 2.  **Herding without Twigs:** The puzzle might be solvable purely by herding the Farfetch'd (approaching from the opposite direction to make it move) in a specific sequence, without stepping on any twigs.
     -   **Test:** Once Farfetch'd is located, attempt to guide it towards the apprentice using only the herding mechanic.
 3. **There are more twigs:** I may not have found all the twigs in the forest. I should explore the unseen areas to look for more.
+
+### Farfetch'd Puzzle - Strategic Pivot
+- **Agent Failure:** The `farfetchd_herder` agent has repeatedly failed, suggesting impossible moves and getting stuck in loops. I am abandoning its use for now.
+- **New Strategy:** I will manually and systematically search the entire Ilex Forest to find the Farfetch'd's new location. The puzzle cannot be solved without finding the bird first.
