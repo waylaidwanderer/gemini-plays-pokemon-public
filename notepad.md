@@ -58,7 +58,7 @@
 - **Goal Flexibility:** I became fixated on the idea that the officer in the gatehouse was the only way forward, and on solving the Farfetch'd puzzle immediately. This wasted significant time. **Correction:** I need to be more willing to abandon a failing strategy and explore alternatives, as documented in my notepad. I will pivot to a new primary goal when progress stalls.
 
 ## V. Battle Mechanics & Type Effectiveness
-- **Water vs. Bug/Grass:** Verified that Water-type moves are neutral against Bug/Grass types (e.g., Paras), not 'not very effective'.
+- **Water vs. Bug/Grass:** Verified that Water-type moves are neutral against Bug/Grass types (e.g., Paras). My initial assumption that it was 'not very effective' was based on external knowledge and was incorrect.
 
 ## VI. Self-Correction (Turn 19321)
 - **External Knowledge:** My assumption about Water-type effectiveness was based on knowledge from other games. I must build my understanding of mechanics *only* from verified, in-game observations in Pokémon Crystal.
