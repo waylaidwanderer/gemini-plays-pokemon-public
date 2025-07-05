@@ -72,3 +72,27 @@
   - **Test 4.1:** Stand on the twig at (22, 30), turn to face UP, and press 'A'. **Result:** TBD.
 - **Hypothesis 5:** The player must be adjacent to the twig and facing it to interact, rather than standing on it.
   - **Test 5.1:** Stand at (29, 29), turn to face DOWN towards the twig at (29, 30), and press 'A'. **Result:** TBD.
+
+## V. Systematic Puzzle Testing
+
+### Ilex Forest - Farfetch'd Puzzle
+
+- **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
+- **Current State:** I am trapped in a sealed-off section of the forest. The Farfetch'd and apprentice are not currently on screen. This may be a bug or a state I need to reset.
+- **Verified Mechanics:**
+    1. **Proximity (Turning):** Approaching the Farfetch'd from a specific side causes it to turn and face you.
+    2. **Teleportation (Twigs):** Stepping on a twig causes the Farfetch'd to teleport.
+    3. **Reset Conditions:** The puzzle resets if the player enters a wild battle, leaves the area, or interacts directly with the Farfetch'd.
+
+#### Hypothesis Test Log
+- **Hypothesis 1:** Standing *on* the twig at (22, 30) triggers the puzzle.
+  - **Conclusion:** Falsified. (Multiple tests, no effect).
+- **Hypothesis 2:** Standing *on* the twig at (29, 30) triggers the puzzle.
+  - **Conclusion:** Falsified. (Multiple tests, no effect).
+- **Hypothesis 3:** The two twigs are linked sequentially.
+  - **Conclusion:** Falsified. (No interaction between them).
+- **Hypothesis 4:** Player's facing direction matters when standing *on* the puzzle twigs. 
+  - **Conclusion:** Falsified. (Multiple tests with different facings yielded no effect and caused looping).
+- **Hypothesis 5 (Current):** The player must be *adjacent* to the twig and facing it to interact.
+  - **Test 5.1:** Stand at (29, 29), face DOWN towards (29, 30), and press 'A'.
+  - **Result:** TBD.
