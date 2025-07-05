@@ -33,12 +33,14 @@
 - **Verified Mechanics:**
     1. **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn and face you.
     2. **Movement (Twigs):** Stepping on a twig causes the Farfetch'd to move to a new, predetermined location.
-    3. **Direct Interaction (Fail State):** Pressing 'A' on the Farfetch'd causes it to squawk and disappear, resetting the puzzle.
-- **Primary Hypothesis:** The Farfetch'd must be herded to the apprentice at (7, 28).
-- **Alternative Hypotheses (to be tested):**
-    1. The Farfetch'd needs to be herded to a different location (e.g., the maze exit or the shrine at (8, 22)).
-    2. The puzzle requires a specific sequence of twig activations.
-    3. The puzzle requires trapping the Farfetch'd rather than herding it.
+    3. **Direct Interaction (Disappears):** Pressing 'A' on the Farfetch'd causes it to disappear. It does not immediately reappear.
+- **Failed Hypotheses & Observations:**
+    1. **Hypothesis:** Talking to the apprentice at (7, 28) will reset the puzzle. **Result:** FAILED. The apprentice gives the same dialogue and the Farfetch'd does not reappear.
+- **Current Hypotheses (To be tested in order):**
+    1. The puzzle resets by leaving and re-entering the Ilex Forest map. **Test:** Exit to the Ilex Forest Gatehouse and return, then check the Farfetch'd's starting position at (22, 29).
+    2. The Farfetch'd must be herded to the apprentice at (7, 28) using the twigs to guide its movement from a distance.
+    3. The puzzle requires trapping the Farfetch'd in a corner near the apprentice, rather than direct delivery.
+    4. The twigs must be stepped on in a specific sequence, regardless of player or Farfetch'd position.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
