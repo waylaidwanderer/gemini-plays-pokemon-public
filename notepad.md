@@ -75,7 +75,8 @@
 - **H12 (Falsified):** After being scared from the western maze, the Farfetch'd would return to its original puzzle location in the east.
   - **Test 12.1:** Traveled back to (22, 29).
   - **Result:** Farfetch'd was not present. **Conclusion: H12 Falsified.**
-- **H13 (Current Hypothesis, based on Agent):** The Farfetch'd has fled north from its last position in the western maze. I will travel there, locate it, and then execute the herding strategy suggested by the agent by using the twig at (22, 30).
+- **H13 (Falsified):** The agent's suggestion that the Farfetch'd fled north from its last western position was incorrect. The area is a dead end blocked by a CUT_TREE or walls.
+- **H14 (Current Hypothesis):** Leaving and re-entering Ilex Forest will reset the entire Farfetch'd puzzle, causing it to reappear at its original location.
 
 ## VI. Reflection-Generated Ideas
 
@@ -96,4 +97,5 @@
 - **H-Agent 3:** Your own position is critical. You must approach the twigs from a direction that puts the twig between you and the Farfetch'd, causing it to flee in the opposite direction, towards the apprentice's location.
 - **H-Agent 4:** The Ilex Forest Shrine at (8, 22) may be part of the solution. Try interacting with the shrine to see if it creates a sound or has another effect that influences the Farfetch'd's movement.
 
-- **H13 (Current Hypothesis, based on Agent):** The Farfetch'd has fled north from its last position in the western maze. I will travel there, locate it, and then execute the herding strategy suggested by the agent by using the twig at (22, 30).
+- **H13 (Falsified):** The agent's suggestion that the Farfetch'd fled north from its last western position was incorrect. The area is a dead end blocked by a CUT_TREE or walls.
+- **H14 (Current Hypothesis):** Leaving and re-entering Ilex Forest will reset the entire Farfetch'd puzzle, causing it to reappear at its original location.
