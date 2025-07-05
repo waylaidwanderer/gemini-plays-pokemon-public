@@ -68,3 +68,4 @@
 ## VII. Tool Development Notes
 - **TODO:** Refine `wkg_updater` tool to check for existing nodes/edges before attempting to add them, as noted in AI critique T48753.
 - Defeated Psychic at (18, 2) in the Northeast Room. SPARKY's THUNDERBOLT was clutch!
+- Warp (20, 4) in NE room -> (16, 16) in SW room.
