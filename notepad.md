@@ -1,6 +1,6 @@
-## I. Core Protocols & Immediate Actions (v49809)
+## I. Core Protocols & Immediate Actions (v49861)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change. I will use a 'check-then-add' protocol, using `find_wkg_node_by_coords` before adding new nodes.
-- **CRITICAL: WKG Protocol (v42 - Empirical Testing):** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination. 3. Confirm the source node exists (creating it if necessary). 4. **Empirically test if the warp is bidirectional by immediately attempting to return.** 5. Create the connecting edge, meticulously verifying the `destination_entry_point` and setting `is_one_way` based on the test result. I will also use the `tags` array to categorize nodes (e.g., `["stairs", "up"]`, `["teleporter"]`) for better graph analysis.
+- **CRITICAL: WKG Protocol (v43 - Entry Point Mandate):** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination. 3. Confirm the source node exists (creating it if necessary). 4. **Empirically test if the warp is bidirectional by immediately attempting to return.** 5. Create the connecting edge, meticulously verifying the **`destination_entry_point`** (which is mandatory for warps) and setting `is_one_way` based on the test result. I will also use the `tags` array to categorize nodes (e.g., `["stairs", "up"]`, `["teleporter"]`) for better graph analysis.
 - **CRITICAL: Map Marker Protocol (v19 - Check First):** I will check for existing markers before adding new ones to avoid redundancy. I will continue to mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*.
 - **CRITICAL: Agent & Tool Protocol (v17 - Immediate Refinement):** Agent and tool refinement is an IMMEDIATE action, not a deferred goal. If an agent or tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
@@ -18,16 +18,17 @@
 ### C. Future Development Ideas
 - **WKG Analysis Agent:** Consider creating an agent that can take a `map_id` and return a summary of all nodes and connections on that map to assist with navigation planning.
 - **Find Unlinked WKG Nodes Tool:** Consider creating a tool that identifies all nodes on a map that are not part of a completed edge, to help find gaps in my world knowledge.
+- **WKG Integrity Checker Agent:** An agent that analyzes the WKG to find nodes with incomplete connections (e.g., only one-way edges leading in), helping to identify gaps in exploration.
 
 ## III. Game Mechanics & Battle Intel
-### A. Tile Mechanics & Traversal Rules (v8)
+### A. Tile Mechanics & Traversal Rules (v9)
 - **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls. They cannot be surfed on.
 - **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
 - **Gates:** `closed_gate` tiles are impassable. Some are opened by switches, while others (like in Silph Co.) require the CARD KEY.
 - **Elevators (Silph Co.):** To use the elevator, you must first interact with the control panel (usually on a wall) to select a destination floor. After selecting a floor, you must walk onto the warp tiles at the back of the elevator room to trigger the map transition.
 - **PC Interaction:** To use a Pokémon Center PC, I must stand on the tile directly below it and face up before pressing 'A'.
-- **Saffron Gym Teleporters:** These tiles warp the player between rooms. Their destinations need to be mapped.
+- **Saffron Gym Teleporters:** These tiles warp the player between rooms. Their destinations need to be mapped systematically.
 
 ### B. Confirmed ROM Hack Changes (v12)
 #### B1. Type Matchups & Immunities
@@ -54,8 +55,5 @@
 ## IV. Active Hypotheses & Lessons Learned
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
 - **Hypothesis:** The Saffron Gym teleporter maze may require defeating all trainers to solve.
-- **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice.
+- **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice. Similarly, ECHO (GOLBAT) is sometimes shown as GHOST type instead of Flying/Poison.
 - **Marker Labeling Protocol (v1):** For all defeated trainers, I will use the standardized label 'Trainer defeated'.
-
-## V. Agent & Tool Failures and Fixes
-- **`battle_strategist_agent` Debugging (Turn 49558):** The agent repeatedly failed to be redefined due to persistent JSON errors. Hypothesis: The schema was too complex. Fix: Successfully redefined the agent with a minimal schema focused only on status-checking logic. Next Step: Incrementally restore the agent's full functionality (type analysis, move selection) while ensuring schema validity at each step.
