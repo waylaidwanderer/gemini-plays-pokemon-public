@@ -50,7 +50,6 @@
 - **TM49 (Fury Cutter):** A move that gets stronger with each consecutive hit.
 - **SLOWPOKETAIL:** A man on Route 32 offered to sell this. Its purpose is unknown.
 - **MOOMOO MILK:** Restores 100 HP. Can be purchased at MOOMOO FARM.
-- **New Hypothesis:** My attempts to reset the puzzle by moving around have failed. I will now try to reach the apprentice directly at (7, 28) to see if they provide a clue.
 
 ### Farfetch'd Puzzle Hypotheses (from Quest Strategist)
 1.  **Hypothesis 1 (Top Priority):** At the start location (22, 29), approach the Farfetch'd from the east to make it face west (towards the final goal). Step on the twig at (22, 30) and then search exclusively along the path to the west for its new location.
