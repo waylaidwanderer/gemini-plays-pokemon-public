@@ -16,7 +16,7 @@
   - **Directional:** WARP_CARPET_RIGHT/LEFT/DOWN (Move onto tile in specified direction). Exception: Ilex Forest Azalea Gate and other similar gatehouse warps are triggered by walking into the correct side of the building, not by directional presses on the carpet.
 - **Verified One-Way Ledges:** LEDGE_HOP_DOWN/LEFT/RIGHT.
 - **Verified Complex Tiles:** FLOOR_UP_WALL (Enter by moving UP; Exit by moving LEFT/RIGHT).
-- **Untested Tiles:** LEDGE, FLOOR_ALLOW_HOP_DOWN. LEDGE, FLOOR_ALLOW_HOP_DOWN. LEDGE, FLOOR_ALLOW_HOP_DOWN.
+- **Untested Tiles:** LEDGE, FLOOR_ALLOW_HOP_DOWN. LEDGE, FLOOR_ALLOW_HOP_DOWN. LEDGE, FLOOR_ALLOW_HOP_DOWN. LEDGE, FLOOR_ALLOW_HOP_DOWN.
 
 ## II. Quests & Puzzles
 
