@@ -50,3 +50,4 @@
 - **TM49 (Fury Cutter):** A move that gets stronger with each consecutive hit.
 - **SLOWPOKETAIL:** A man on Route 32 offered to sell this. Its purpose is unknown.
 - **MOOMOO MILK:** Restores 100 HP. Can be purchased at MOOMOO FARM.
+- **New Hypothesis:** My attempts to reset the puzzle by moving around have failed. I will now try to reach the apprentice directly at (7, 28) to see if they provide a clue.
