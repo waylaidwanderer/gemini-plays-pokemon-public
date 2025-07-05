@@ -56,4 +56,6 @@
 
 ## V. Future Development & Hypotheses (Post-Reflection)
 - **New Tool Idea:** Create a `find_reachable_tiles` tool based on the BFS logic from my debugging scripts. This would be a powerful, general-purpose utility for exploration.
-- **New Hypothesis:** It may not be necessary to defeat all trainers in a gym to challenge the leader. I will test this by attempting to approach Sabrina after defeating the final Channeler in her room.
+- **Hypothesis (Attempt 1):** It may not be necessary to defeat all trainers in a gym to challenge the leader.
+- **Test:** Approached Sabrina after defeating the final Channeler in her room.
+- **Conclusion:** Hypothesis FAILED. The path to Sabrina remained blocked, as confirmed by the `pathfinder` tool. A direct path does not open simply by defeating all trainers in the room.
