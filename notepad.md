@@ -57,3 +57,7 @@
 - **Hypothesis:** The Saffron Gym teleporter maze may require defeating all trainers to solve.
 - **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice. Similarly, ECHO (GOLBAT) is sometimes shown as GHOST type instead of Flying/Poison.
 - **Marker Labeling Protocol (v1):** For all defeated trainers, I will use the standardized label 'Trainer defeated'.
+
+## V. Development & Testing Notes (Post-Reflection)
+- **Tool Refinement Idea:** The `get_unvisited_warps` tool failed in the Saffron Gym because it doesn't account for disconnected rooms. I need to refine its script to incorporate pathfinding from the player's current position to verify true reachability.
+- **Saffron Gym Hypothesis:** If systematic teleporter mapping fails, my next hypothesis is that all trainers in the gym must be defeated to unlock the path to Sabrina. I will test this only after exhausting the teleporter mapping strategy.
