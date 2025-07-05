@@ -36,13 +36,16 @@
 
 #### Systematic Test Log
 *This log will track every hypothesis and its outcome to avoid repeating mistakes.*
-- **Hypothesis 1:** Interacting with the twig at (29, 30) will trigger the puzzle.
-  - **Test 1.1:** Stepped on the twig at (29, 30). **Result:** No effect. Farfetch'd did not appear.
-  - **Test 1.2:** Stood on the twig at (29, 30) and pressed 'A'. **Result:** No effect.
-  - **Conclusion:** Hypothesis 1 is falsified. This twig alone does not trigger the puzzle's start.
-- **Hypothesis 2:** Interacting with the twig at (29, 30) changes the state of the twig at (22, 30).
-  - **Test 2.1:** Stepped on the twig at (22, 30) after visiting (29, 30). **Result:** No effect. Farfetch'd did not appear.
-  - **Conclusion:** Hypothesis 2 is falsified. The state of the first twig is not dependent on a prior visit to the second twig.
+- **Hypothesis 1:** The twig at (22, 30) triggers the puzzle.
+  - **Test 1.1:** Stepped on the twig at (22, 30). **Result:** No effect. Farfetch'd did not appear.
+  - **Conclusion:** Hypothesis 1 is falsified.
+- **Hypothesis 2:** The twig at (29, 30) triggers the puzzle.
+  - **Test 2.1:** Stepped on the twig at (29, 30). **Result:** No effect. Farfetch'd did not appear.
+  - **Test 2.2:** Stood on the twig at (29, 30) and pressed 'A'. **Result:** No effect.
+  - **Conclusion:** Hypothesis 2 is falsified.
+- **Hypothesis 3:** The two twigs are linked sequentially.
+  - **Test 3.1:** Stepped on the twig at (22, 30) after visiting (29, 30). **Result:** No effect. Farfetch'd did not appear.
+  - **Conclusion:** Hypothesis 3 is falsified.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
