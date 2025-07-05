@@ -89,3 +89,5 @@
   2. Leaving the forest and returning to reset the puzzle state.
   3. Repeatedly talking to Kurt in his house.
   4. Interacting with the spot where the Mysterious Bird Statue was.
+### Placeholder Tile Mechanics
+- **unknown:** Indicates a tile's type has not yet been observed. Its true type is revealed upon seeing or stepping on it.
