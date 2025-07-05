@@ -1,17 +1,17 @@
-## I. Core Protocols & Immediate Actions (v50012)
+## I. Core Protocols & Immediate Actions (v50101)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change. I will use a 'check-then-add' protocol, using `find_wkg_node_by_coords` before adding new nodes.
-- **CRITICAL: WKG Protocol (v45 - Bidirectionality Test):** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination. 3. Confirm the source node exists (creating it if necessary). 4. **Empirically test if the warp is bidirectional by immediately attempting to return.** 5. Create the connecting edge, meticulously verifying the **`destination_entry_point`** (which is mandatory for warps) and setting `is_one_way` based on the test result. I will also use the `tags` array to categorize nodes (e.g., `["stairs", "up"]`, `["teleporter"]`) for better graph analysis.
-- **CRITICAL: Map Marker Protocol (v21 - Standardization):** I will check for existing markers before adding new ones to avoid redundancy. I will use standardized emojis: '☠️' for defeated trainers, '✅' for picked-up items, '🚪' for all warps (entry and exit), and '🚫' for confirmed dead ends. These will be placed *immediately*.
-- **CRITICAL: Agent & Tool Protocol (v19 - IMMEDIATE Refinement):** Agent and tool refinement is an IMMEDIATE action, not a deferred goal. If an agent or tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools. I will use my `protocol_enforcement_agent` to check my plans before execution.
+- **CRITICAL: WKG Protocol (v46 - Tags & Standardization):** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination, including descriptive `tags` (e.g., `["teleporter"]`, `["stairs", "up"]`). 3. Confirm the source node exists (creating it if necessary). 4. **Empirically test if the warp is bidirectional by immediately attempting to return.** 5. Create the connecting edge, meticulously verifying the **`destination_entry_point`** and setting `is_one_way` based on the test result.
+- **CRITICAL: Map Marker Protocol (v22 - Standardization):** I will use standardized emojis and labels for all new markers: '☠️' for defeated trainers, '✅' for picked-up items, and '🚪 Warp to (X, Y) [Direction]' for all warps. This will be placed *immediately*.
+- **CRITICAL: Agent & Tool Protocol (v20 - IMMEDIATE Refinement):** Agent and tool refinement is an IMMEDIATE action, not a deferred goal. If an agent or tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
 ## II. System & Tool Development
-### A. Tool Debugging & Refinement Protocol (v21 - IMMEDIATE ACTION)
-- **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. **Abandoning a tool is a protocol violation.**
-- **PRIORITY TASK:** The `get_unvisited_warps` tool failed in the Saffron Gym because it doesn't account for disconnected rooms. I need to refine its script to incorporate pathfinding from the player's current position to verify true reachability. This is my top priority after clearing this gym.
-- **DEBUGGING STEP 1 (Advanced):** Use `run_code` with a modified pathfinding script. Print the `current` node inside the main loop to trace the BFS exploration path.
-- **DEBUGGING STEP 2 (Advanced Analysis):** If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where the pathfinding fails. This will confirm if the map is segmented.
-- **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
-- **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
+### A. Active Tool Debugging & Refinement (v22 - IMMEDIATE ACTION)
+- **CURRENT TASK:** The `get_unvisited_warps` tool is faulty. It failed in the Saffron Gym by incorrectly identifying warps in disconnected rooms as reachable. My immediate priority is to debug and fix this tool.
+- **My Debugging Process:**
+    1.  **Trace:** Use `run_code` with a modified pathfinding script. Print the `current` node inside the main loop to trace the BFS exploration path.
+    2.  **Analyze `came_from`:** If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where pathfinding fails.
+    3.  **Boundary Analysis:** If the above is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types.
+    4.  **Implement Fix:** Use `define_tool` to submit a corrected version of the script based on the analysis.
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** Generates a sequence of button presses to navigate the Pokémon PC menu to withdraw or deposit a specific Pokémon. Reliable for PC operations.
 - **`battle_strategist_agent`:** Provides battle advice. **STATUS: REFINED.** The agent now correctly validates against fainted, sleeping, and active Pokémon to avoid invalid switch recommendations.
@@ -52,5 +52,4 @@
 - **Saffron Gym Hypothesis:** Defeating all trainers in the gym will unlock the path to Sabrina. I will systematically hunt down and defeat all remaining trainers.
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
 - **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice. Similarly, ECHO (GOLBAT) is sometimes shown as GHOST type instead of Flying/Poison.
-- **Marker Labeling Protocol (v2):** For all defeated trainers, I will use the standardized label 'Trainer defeated'. For all warps, I will use '🚪' and note the source/destination.
 - **`run_code` Limitation:** The `run_code` tool does not have access to the `xml.etree.ElementTree` module. XML parsing must be done with other methods or tools.
