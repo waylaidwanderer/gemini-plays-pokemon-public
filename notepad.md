@@ -64,4 +64,4 @@
 - **Lesson:** Bite (Normal) is NOT super-effective against HAUNTER (Ghost/Poison). My previous assumption was wrong.
 
 ## VI. Agent & Tool Failures and Fixes
-- **`battle_strategist_agent` Debugging (Turn 49558):** The agent repeatedly failed to be redefined due to persistent JSON errors. **Hypothesis:** The schema was too complex. **Fix:** Successfully redefined the agent with a minimal schema focused only on status-checking logic. **Next Step:** Incrementally restore the agent's full functionality (type analysis, move selection) while ensuring schema validity at each step.
+- **`battle_strategist_agent` Debugging (Turn 49558):** The agent repeatedly failed to be redefined due to persistent JSON errors. Hypothesis: The schema was too complex. Fix: Successfully redefined the agent with a minimal schema focused only on status-checking logic. Next Step: Incrementally restore the agent's full functionality (type analysis, move selection) while ensuring schema validity at each step.
