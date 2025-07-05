@@ -31,9 +31,6 @@
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
 - **Verified Mechanics:**
-    1. **Proximity (Turning):** Approaching the Farfetch'd from a specific side causes it to turn and face you. This is the key to aiming it.
-    2. **Movement (Twigs):** Stepping on a twig causes the Farfetch'd to move. The direction seems to be based on which way it's facing.
-- **Verified Mechanics (Updated):**
     1. **Proximity (Turning):** Approaching the Farfetch'd from a specific side causes it to turn and face you.
     2. **Teleportation (Twigs):** Stepping on a twig causes the Farfetch'd to *teleport* to a new, seemingly fixed location. It does not simply move one space.
 - **Current Hypothesis:** The puzzle involves triggering a specific sequence of twigs to teleport the Farfetch'd along a hidden path towards the apprentice. The direction it faces might be irrelevant.
