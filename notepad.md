@@ -45,31 +45,27 @@
 - **Water vs. Bug/Grass:** Verified that Water-type moves are neutral against Bug/Grass types (e.g., Paras). My initial assumption that it was 'not very effective' was based on external knowledge and was incorrect.
 
 ## V. Systematic Puzzle Testing
-*This section is for active, ongoing puzzle test logs.*
-
-## V. Systematic Puzzle Testing
 
 ### Ilex Forest - Farfetch'd Puzzle
-
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
-- **Current State:** I am trapped in a sealed-off section of the forest. The Farfetch'd and apprentice are not currently on screen. This may be a bug or a state I need to reset.
+- **Current State:** The Farfetch'd has disappeared. The puzzle state may need to be reset or re-initiated.
 - **Verified Mechanics:**
     1. **Proximity (Turning):** Approaching the Farfetch'd from a specific side causes it to turn and face you.
     2. **Teleportation (Twigs):** Stepping on a twig causes the Farfetch'd to teleport.
     3. **Reset Conditions:** The puzzle resets if the player enters a wild battle, leaves the area, or interacts directly with the Farfetch'd.
 
 #### Hypothesis Test Log
-- **Observation:** The Farfetch'd is no longer on the map. Previous interactions with twigs at (22, 30) and (23, 30) caused it to move and then disappear. A mysterious youngster also vanished near the tree at (23, 29). This suggests the puzzle state has changed and may need to be re-initiated.
-- **Hypothesis 1:** Interacting with the tree at (23, 29) will make the Farfetch'd reappear, starting the puzzle.
-  - **Test 1.1:** Move to (23, 30), face UP towards the tree at (23, 29), and press 'A'.
-  - **Result:** No effect. Farfetch'd did not appear.
-  - **Conclusion:** Hypothesis 1 is falsified.
-- **Hypothesis 2:** Stepping on the twigs at (22, 30) or (29, 30) will make the Farfetch'd reappear.
+*Goal: Find the trigger to make the Farfetch'd reappear and solve the puzzle.*
+- **H1: Interacting with the tree at (23, 29) will make the Farfetch'd reappear.**
+  - **Test 1.1:** Move to (23, 30), face UP, press 'A'.
+  - **Result:** No effect. **Conclusion: H1 Falsified.**
+- **H2: Stepping on the twigs at (22, 30) or (29, 30) will make the Farfetch'd reappear.**
   - **Test 2.1:** Step on the twig at (22, 30).
-  - **Result:** No effect. Farfetch'd did not appear.
-  - **Conclusion:** Hypothesis 2 is falsified.
-- **Hypothesis 3:** Interacting with the twig at (22, 30) from an adjacent tile will trigger the puzzle.
-  - **Test 3.1:** Move to (21, 30) to interact with the twig from the left.
-  - **Result:** Path blocked by WALL tile. Test invalid.
-  - **Test 3.2:** Move to (22, 29), face DOWN, and press 'A'.
-  - **Result:** TBD.
+  - **Result:** No effect. **Conclusion: H2 Falsified.**
+- **H3: Interacting with a twig from an adjacent tile will trigger the puzzle.**
+  - **Test 3.1:** Move to (21, 30) to interact with twig at (22, 30) from the left.
+  - **Result:** Path blocked by WALL. Test invalid.
+  - **Test 3.2 (Current):** Stand at (22, 29), face DOWN towards (22, 30), and press 'A'.
+  - **Result:** No effect. **Conclusion: H3 Falsified.**
+- **H4 (Alternative): The puzzle trigger is outside this immediate area.**
+  - **Test Plan:** If all local hypotheses are exhausted, systematically backtrack and re-interact with key NPCs and objects (e.g., the apprentice, Kurt).
