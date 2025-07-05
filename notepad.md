@@ -68,3 +68,7 @@
 - **Test 2:** Farfetch'd at (15, 25) facing down. Stepped on twig at (15, 27).
   - **Result:** Farfetch'd teleported to (20, 24).
   - **Conclusion:** Confirmed that the combination of the bird's facing direction and the specific twig triggered determines its teleportation destination.
+
+- **Test 3:** Walked path from (15, 23) to (20, 23).
+  - **Result:** Farfetch'd appeared at (20, 24), facing right.
+  - **Conclusion:** A specific movement path can trigger the Farfetch'd to appear at a new location. The puzzle is not just about twigs.
