@@ -62,3 +62,11 @@
 - **AGENT DELETION PLAN:** Delete the `farfetchd_herder` agent after obtaining HM01 CUT, as it will be obsolete.
 - **Puzzle Twigs (Verified Locations):**
     - (29, 30)
+
+## V. Reflections & Alternative Hypotheses
+
+### Farfetch'd Puzzle - Alternative Hypotheses
+1.  **CUT is obtained elsewhere:** The Farfetch'd puzzle might be a red herring. HM01 CUT could be obtained from a different NPC or found in a different location entirely.
+    -   **Test:** Exhaust all puzzle possibilities first. If still stuck, re-explore Azalea Town and talk to all NPCs again.
+2.  **Herding without Twigs:** The puzzle might be solvable purely by herding the Farfetch'd (approaching from the opposite direction to make it move) in a specific sequence, without stepping on any twigs.
+    -   **Test:** Once Farfetch'd is located, attempt to guide it towards the apprentice using only the herding mechanic.
