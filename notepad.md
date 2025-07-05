@@ -66,3 +66,4 @@
 
 ## VI. Agent & Tool Failures and Fixes
 - **`battle_strategist_agent` Failure (Turn 49540):** The agent recommended switching to LEGION while it was asleep. This is an invalid move. **Fix:** I am updating the agent's system prompt to explicitly require a check on the Pokémon's `status` and `is_fainted` properties before suggesting a switch. The input schema has also been updated to include the `status` field for all party members.
+- **`battle_strategist_agent` Failure (Turn 49540):** The agent recommended switching to LEGION while it was asleep. This is an invalid move. **Fix:** I am updating the agent's system prompt to explicitly require a check on the Pokémon's `status` and `is_fainted` properties before suggesting a switch. The input schema has also been updated to include the `status` field for all party members.
