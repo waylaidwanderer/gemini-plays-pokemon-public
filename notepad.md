@@ -70,3 +70,5 @@
   - **Result:** No effect. **Conclusion: H3 Falsified.**
 - **H4 (Alternative): The puzzle trigger is outside this immediate area.**
   - **Test Plan:** If all local hypotheses are exhausted, systematically backtrack and re-interact with key NPCs and objects (e.g., the apprentice, Kurt).
+- **H5 (New Hypothesis): The puzzle state is linked to an NPC outside the forest.**
+  - **Test Plan:** Travel to Azalea Town and speak with Kurt, the Charcoal Man and the apprentice's boss, to see if he has new dialogue or can reset the puzzle.
