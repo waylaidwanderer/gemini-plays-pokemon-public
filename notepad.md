@@ -58,3 +58,6 @@
 - **H5 (Current Hypothesis): The apprentice will now be present in Ilex Forest.**
   - **Test Plan:** Return to Ilex Forest and find the apprentice to progress the puzzle.
 - **H7 (Current Hypothesis): The apprentice's dialogue loop will only break after the lost Farfetch'd is found and returned. The next step is to explore the maze to find it.
+## V. Future Tool & Agent Ideas
+- **Maze Navigator Tool:** A tool that can analyze the `map_xml_string` to find the shortest path through a maze, accounting for unseen tiles and obstacles.
+- **WKG Connection Checker:** A tool to check if a connection between two nodes already exists in the World Knowledge Graph to prevent duplicate entries.
