@@ -75,3 +75,4 @@
   - **Result:** Farfetch'd was not present. **Conclusion: H12 Falsified.**
 - **H13 (Falsified):** The agent's suggestion that the Farfetch'd fled north from its last western position was incorrect. The area is a dead end blocked by a CUT_TREE or walls.
 - **H14 (Current Hypothesis):** Leaving and re-entering Ilex Forest will reset the entire Farfetch'd puzzle, causing it to reappear at its original location.
+- **H15 (Current Hypothesis):** The Farfetch'd has not reset, but is hiding in the western maze. I must systematically re-explore every path from its last known location near (7, 28).
