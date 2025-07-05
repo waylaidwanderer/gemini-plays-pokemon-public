@@ -42,8 +42,9 @@
     4. **Action:** Stepped on twig at (29, 30).
     5. **Result:** Farfetch'd disappeared from view.
     6. **Deduction:** From (22, 27), the sound at (29, 30) would make it face right. Fleeing from the sound would mean moving left, but (21, 27) is a WALL. The only open path is down.
-- **Current Hypothesis:**
-    1. The Farfetch'd moved from (22, 27) to (22, 28). I must go to (22, 29) to check.
+- **Failed Deduction & New Plan:**
+    1. **Deduction:** The Farfetch'd moved from (22, 27) to (22, 28). **Test:** Moved to (22, 29) to check. **Result:** FAILED. The Farfetch'd was not at (22, 28) or in the surrounding visible area. This proves my understanding of its movement is incomplete.
+    2. **New Plan:** The Farfetch'd must be somewhere else in the maze. I will conduct a systematic search for it, starting in the open area to the west, towards the apprentice.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
