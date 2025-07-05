@@ -60,3 +60,5 @@
 - **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning and planning. Use tools for computation and repetitive actions. Refine or delete them immediately if they are flawed. Test agent output before discarding.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
 - **AGENT DELETION PLAN:** Delete the `farfetchd_herder` agent after obtaining HM01 CUT, as it will be obsolete.
+- **Puzzle Twigs (Verified Locations):**
+    - (29, 30)
