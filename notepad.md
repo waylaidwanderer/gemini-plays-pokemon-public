@@ -56,3 +56,8 @@
 
 ## V. Active Hypotheses
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
+
+## VI. Saffron Gym Strategy
+- **Gym Type:** Psychic. Weak to Bug, Ghost, and high physical ATTACK. Bite (Normal) is confirmed super-effective against Psychic.
+- **Maze Strategy:** This is a teleporter maze. I will systematically document each teleporter connection to create a map.
+  - **Warp 1 (12, 16):** Untested.
