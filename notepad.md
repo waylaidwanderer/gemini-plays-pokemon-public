@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v48960)
+## I. Core Protocols & Immediate Actions (v49110)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change.
 - **CRITICAL: WKG Protocol (v39 - Destination Entry Point):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge. I will always use the correct **numeric string IDs** for maps and verify node existence before creating edges. For `connection_type: "warp"`, I MUST include the `destination_entry_point` property, which is the 1-indexed number corresponding to the *destination* warp's position in the destination map's warp list (NOT the source warp's). I will also use the `tags` array to categorize nodes (e.g., `["stairs", "up"]`, `["teleporter"]`) for better graph analysis. **I must double-check tool schemas to avoid parameter errors and wasted turns.**
 - **CRITICAL: Map Marker Protocol (v18):** Mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets. I must be more diligent about marking every warp used.
@@ -13,7 +13,7 @@
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** Generates a sequence of button presses to navigate the Pokémon PC menu to withdraw or deposit a specific Pokémon. It now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items) and is context-aware of the current menu. It is a reliable tool for depositing and withdrawing Pokémon.
-- **`battle_strategist_agent`:** Provides the safest, most cautious move. Its primary directive is survival. It should be trusted for risk-averse plays, but I must use my own judgment when a high-risk/high-reward gambit is the only path to victory. Its logic needs refinement regarding status conditions.
+- **`battle_strategist_agent`:** Provides the safest, most cautious move. **MEMORY FLAW:** The agent has forgotten established game mechanics (Psychic > Electric immunity) across turns, leading to contradictory advice. I must refine its system prompt after this gym battle to improve its context retention.
 - **`maze_navigator_agent`:** An agent that can parse the World Knowledge Graph to suggest the next optimal, unvisited teleporter to take for systematic maze exploration. **MUST USE IN SAFFRON GYM.**
 
 ## III. Game Mechanics & Battle Intel
@@ -30,7 +30,7 @@
 #### B1. Type Matchups & Immunities
 - **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Bite (Normal) > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; **Psychic > Flying** (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
 - **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic
-- **Immunities:** Psychic immune to Electric; Flying-type immune to Ground-type moves; MUK immune to Poison-type moves.
+- **Immunities:** Flying-type immune to Ground-type moves; MUK immune to Poison-type moves; **Psychic immune to Electric** (confirmed: SPARKY's THUNDERBOLT vs JYNX)
 
 #### B2. Battle & Field Mechanics
 - **Evasion:** PSYWAVE and CONFUSE RAY can fail against targets with high evasion boosts (e.g., from MINIMIZE).
@@ -56,5 +56,5 @@
 
 ## V. Active Hypotheses
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
-- **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** Now that I'm healed, I will return to the gym, navigate to (16, 16), and use the teleporter to see if it takes me back to (20, 4).
+- **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** I will use my `maze_navigator_agent` to systematically explore the gym and map out the teleporter connections.
 - **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice.
