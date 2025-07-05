@@ -44,6 +44,7 @@
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle and any that participated via switch-in.
 - **PC Box Full:** When a Pokémon is caught and the active PC box is full, the caught Pokémon is still sent to the PC, but the active box must be changed manually later.
 - **Safari Zone:** Has a time limit. When it expires, the player is warped back to the Safari Zone Gate.
+- **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center. You respawn in front of the trainer you lost to.
 
 #### B3. NPC & Item Interactions
 - **NPC Catch Event:** Some NPCs can trigger a Pokémon 'catch' event upon interaction (e.g., Rocker in Safari Zone East Rest House gave a CHANSEY).
