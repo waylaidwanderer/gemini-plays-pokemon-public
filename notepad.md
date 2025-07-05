@@ -69,3 +69,5 @@
 
 ## V. Agent & Tool Management
 - **Agent Deletion Plan:** Delete the `farfetchd_herder` agent after obtaining HM01 CUT, as it will be obsolete.
+- **WARP_CARPET_LEFT:** Test this warp tile.
+- **WARP_CARPET_RIGHT:** Test this warp tile.
