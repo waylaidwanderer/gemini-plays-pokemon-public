@@ -44,13 +44,17 @@
 
 ## IV. Ilex Forest Puzzle Log
 *Goal: Find the lost Farfetch'd to get HM01 (CUT).*
-- **Current Status:** Spoke to Kurt's apprentice at (7, 28). He confirmed he lost the Farfetch'd and is too scared to retrieve it. This has initiated the puzzle.
-- **Current Hypothesis (H19):** The Farfetch'd has fled to a new, previously unexplored location within the forest. The next step is to systematically search the western maze area, starting from the apprentice's position at (7, 28).
+- **Current Status:** Puzzle is active. The Farfetch'd was at (29, 22) facing left.
+- **Test:** Stepped on the twig at (29, 30).
+- **Result:** The Farfetch'd at (29, 22) disappeared. This confirms that twigs trigger its movement.
+- **Current Hypothesis (H21):** Since the Farfetch'd was facing left, it has teleported to a new location in the western part of the maze. The next step is to systematically search that area to find it.
 - **Falsified Hypotheses Summary:**
   - H1-H3: Pre-puzzle interaction attempts with twigs/trees were ineffective.
   - H8-H15: Early attempts to locate the Farfetch'd after scaring it from the east were unsuccessful.
   - H17: The Farfetch'd did not return to its original puzzle area after speaking to the apprentice.
   - H18: Leaving and re-entering the forest did not reset the puzzle.
+  - H19: The Farfetch'd was not in the western maze *before* the puzzle was reset.
+  - H20: The Ilex Forest Shrine is not involved at this stage, as the path is blocked by a CUT tree.
 
 ## V. Untested Assumptions & Alternative Hypotheses
 
