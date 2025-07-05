@@ -34,16 +34,15 @@
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
 - **Verified Mechanics:**
-    - **Proximity (Turning):** Moving to an adjacent tile, or simply being adjacent between turns, can cause the Farfetch'd to turn. Test: Moved to (28, 22) while Farfetch'd at (29, 22) was facing down; it turned to face right. Later, while standing at (28, 22), it turned from 'up' to 'right' without player movement.
-- **Herding (Hypothesis 2):** Attempting to walk *into* the Farfetch'd from the direction opposite to where it's facing will trigger the herding mechanic. Test: Player at (28, 22), FF at (29, 22) facing right. Pressing 'Right'.
-    - **Proximity (Herding):** Approaching the Farfetch'd from the direction **OPPOSITE** to where it is currently facing will scare it, causing it to move one tile directly away from the player.
+    - **Proximity (Turning):** Moving to an adjacent tile, or simply being adjacent between turns (even without player movement), can cause the Farfetch'd to turn.
+    - **Herding:** Approaching the Farfetch'd from the direction **OPPOSITE** to where it is currently facing will scare it, causing it to move one tile directly away from the player.
     - **Movement Mechanic (Twigs):** Stepping on a twig causes the Farfetch'd to disappear and reappear at a new, predetermined location. This resets the immediate puzzle state.
-    - **Direct Interaction:** Causes the Farfetch'd to squawk and then disappear from the map, failing the puzzle. This is a confirmed fail state.
+    - **Direct Interaction (Fail State):** Pressing 'A' on the Farfetch'd causes it to squawk and then disappear from the map, failing the puzzle.
 - **Failed Hypotheses Log:**
     - Leaving and re-entering the forest does not reset the Farfetch'd's position.
     - The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
     - Stepping on/off a twig is not the trigger.
-    - Walking into the Farfetch'd does not trigger herding.
+    - Walking *into* the Farfetch'd (even from the correct herding direction) does not trigger herding.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
