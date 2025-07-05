@@ -16,14 +16,13 @@
 - **Standard Warps:** DOOR, CAVE
 - **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
 - **Directional Warps:** WARP_CARPET_RIGHT, WARP_CARPET_LEFT, WARP_CARPET_DOWN (Activated by moving onto the tile in the specified direction).
-- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT (One-way traversal in the specified direction).
+- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
 ### Untested Tile Mechanics
 *Goal: Test these tiles as soon as they are encountered.*
 - **LEDGE:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
-- **LEDGE_HOP_RIGHT:** Found at (27, 22). Test if this tile only allows rightward movement.
 
 ## II. Quest Progression & Puzzles
 
