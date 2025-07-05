@@ -17,7 +17,7 @@
 - **Gates:** `closed_gate` tiles are impassable. Some are opened by switches, while others (like in Silph Co.) require the CARD KEY.
 - **Elevators (Silph Co.):** To use the elevator, you must first interact with the control panel (usually on a wall) to select a destination floor. After selecting a floor, you must walk onto the warp tiles at the back of the elevator room to trigger the map transition.
 - **PC Interaction:** To use a Pokémon Center PC, I must stand on the tile directly below it and face up before pressing 'A'.
-- **Saffron Gym Teleporters:** These tiles warp the player between rooms. Their destinations need to be mapped systematically. To use a warp, I must move onto the tile. If I'm already on a warp tile, I must move off and then back on to trigger it.
+- **Saffron Gym Teleporters:** These are 1x1 warp tiles. To use a warp, I must move onto the tile. If I'm already on a warp tile, I must move off and then back on to trigger it. This is crucial for testing bidirectionality.
 
 ### B. Confirmed ROM Hack Changes (v12)
 #### B1. Type Matchups & Immunities
