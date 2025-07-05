@@ -62,16 +62,22 @@
 ## IV. Battle Mechanics & Type Effectiveness
 - **Water vs. Bug/Grass:** Verified that Water-type moves are neutral against Bug/Grass types (e.g., Paras). My initial assumption that it was 'not very effective' was based on external knowledge and was incorrect.
 
-## V. Lessons Learned & Self-Correction Archive
-- **External Knowledge:** I must stop making assumptions based on other Pokémon games. All mechanical knowledge must be built **exclusively** from verified, in-game observations within Pokémon Crystal.
-- **Data Management as Priority:** Data management (WKG, Map Markers, Notepad) is the highest priority action, to be performed in the same turn a discovery is made, overriding any other planned action. Deferring these tasks leads to hallucinations and wasted turns.
-- **Tool Reliability:** I must ensure my custom tools are flawless. When a tool fails, I must immediately redefine it with a more robust script.
-- **Goal Flexibility:** I must be willing to abandon a failing strategy and explore alternatives when progress stalls, rather than becoming fixated on a single approach. The Farfetch'd puzzle is a key example; my long-distance pathing was a flawed strategy due to random encounters resetting the puzzle state.
-- **Tile Documentation:** The 'unknown' tile type represents a placeholder for tiles that have not been fully implemented in the game's code, but are still present on the map. They are **traversable** and function as floor tiles.
-- **Hypothesis 4:** The player's facing direction matters when interacting with the puzzle twigs. 
-  - **Test 4.1:** Stand on the twig at (22, 30), turn to face UP, and press 'A'. **Result:** TBD.
-- **Hypothesis 5:** The player must be adjacent to the twig and facing it to interact, rather than standing on it.
-  - **Test 5.1:** Stand at (29, 29), turn to face DOWN towards the twig at (29, 30), and press 'A'. **Result:** TBD.
+## V. Systematic Puzzle Testing & Lessons
+
+### Current Actionable Plan
+- **Ilex Forest - Farfetch'd Puzzle:** Execute Test 5.1 of Hypothesis 5.
+
+### Ilex Forest - Farfetch'd Puzzle Test Log
+- **Hypothesis 1-3:** Standing on or sequencing twigs has no effect. **Conclusion: Falsified.**
+- **Hypothesis 4:** Player's facing direction matters when *on* the twigs. **Conclusion: Falsified (led to looping).**
+- **Hypothesis 5 (Current):** The player must be *adjacent* to the twig and facing it to interact.
+  - **Test 5.1:** Stand at (29, 29), face DOWN towards (29, 30), and press 'A'.
+  - **Result:** TBD.
+
+### Lessons Learned
+- **Hypothesis Protocol:** Must follow a strict Observe -> Hypothesize -> Test -> Conclude protocol and document every step to avoid unproductive loops.
+- **Data Management:** Is the highest priority action, to be performed in the same turn a discovery is made.
+- **No External Knowledge:** All knowledge must be built from verified, in-game observations.
 
 ## V. Systematic Puzzle Testing
 
