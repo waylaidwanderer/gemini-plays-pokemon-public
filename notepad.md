@@ -10,7 +10,8 @@
 4.  **Record Results:** Document all findings in the 'Verified' section below. No assumption is valid until tested.
 
 ### Tile Traversal Rules (Verified)
-- **Impassable:** WALL, VOID, CUT_TREE, WATER, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, BED, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), HEADBUTT_TREE
+- **Impassable:** WALL, CUT_TREE, WATER, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, BED, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC)
+- **Interactable Obstacles:** HEADBUTT_TREE (Impassable to walk on, but can be interacted with using 'A').
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, CAVE
 - **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
@@ -19,6 +20,7 @@
 
 ### Untested Tile Mechanics
 *Goal: Test these tiles as soon as they are encountered.*
+- **VOID:** Present in Ilex Forest. Test if this is a true void or a visual glitch.
 - **LEDGE:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
 - **WARP_CARPET_DOWN:** Found in Kurt's House. Test by walking on, pressing A, and pressing Down.
@@ -29,16 +31,15 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
-- **Current Strategy:** The solution must be to herd the Farfetch'd. My previous systematic search of the forest confirmed all other paths are dead ends. The `farfetchd_herder` agent was a failure because it was designed to find a path for me to push the bird, but it couldn't account for the bird's reactive movements to twigs, making its pathing plans useless. The core mechanic is stepping on twigs to make the bird move, not direct herding.
+- **Current Strategy:** The solution is entirely contained within the puzzle area. I must use the twigs to herd the Farfetch'd. My next step is to find the Farfetch'd and then use a twig on the opposite side to push it towards the apprentice.
 - **Verified Mechanics:**
-    - **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn. It has also been observed to turn without player movement.
+    - **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn.
     - **Movement Mechanic (Twigs):** Stepping on a twig causes the Farfetch'd to disappear and reappear at a new, predetermined location. This resets the immediate puzzle state.
     - **Direct Interaction (Fail State):** Pressing 'A' on the Farfetch'd causes it to squawk and then disappear from the map, failing the puzzle.
 - **Failed Hypotheses Log:**
     - Leaving and re-entering the forest does not reset the Farfetch'd's position.
-    - The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
-    - Stepping on/off a twig is not the trigger.
-    - Walking *into* the Farfetch'd does not trigger herding.
+    - The puzzle cannot be solved by exploring outside the immediate maze; all paths are dead ends.
+    - The `farfetchd_herder` agent failed because it could not account for the reactive, non-pathable movement of the Farfetch'd in response to sound.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -53,9 +54,8 @@
 - **MOOMOO MILK:** Restores 100 HP. Can be purchased at MOOMOO FARM.
 
 ## IV. Procedural Reminders
-- **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information.
-- **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning and planning. Use tools for computation and repetitive actions. Refine or delete them immediately if they are flawed. Test agent output before discarding.
-- **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
+- **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information. This is a higher priority than any in-game action.
+- **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning. Use tools for computation. Refine or delete them immediately if they are flawed. Trust agent output until it is proven wrong through testing.
 
 ## V. Reflections & Corrections
-- **Hallucination Correction:** I incorrectly believed the apprentice at (7, 28) had disappeared. He is still there. I must be more careful to trust the game state information and not my assumptions.
+- **Hallucination Correction:** I incorrectly believed the apprentice at (7, 28) disappeared. This is a recurring hallucination. I must trust the game state information and not my assumptions. The apprentice's presence is not a puzzle trigger.
