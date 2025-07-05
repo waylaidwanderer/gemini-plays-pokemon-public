@@ -55,4 +55,4 @@
 
 ## V. Active Hypotheses
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
-- **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** After this battle, return to the previously used teleporter and attempt to use it to go back.
+- **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** After I heal, I will return to the gym and test this hypothesis.
