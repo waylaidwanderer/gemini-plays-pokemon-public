@@ -28,7 +28,7 @@
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
-- **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Bite (Normal) > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; **Psychic > Flying** (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
+- **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Bite (Normal) > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; **Psychic > Flying** (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT); **Psychic > Flying** (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
 - **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic
 - **Immunities:** Psychic immune to Electric; Flying-type immune to Ground-type moves; MUK immune to Poison-type moves.
 
