@@ -68,7 +68,11 @@
   - **Test 9.1:** Traveled north from (8, 27) to (8, 26).
   - **Result:** Path is blocked by a CUT_TREE at (8, 25). **Conclusion: H9 Falsified.**
 - **H10 (Partially Confirmed & Falsified):** The Farfetch'd was found in the western maze, but fled again upon approach.
-- **H11 (Current Hypothesis):** The Farfetch'd has now fled to the area south of its last position. I will explore the southern maze paths to find it.
+- **H11 (Falsified):** The Farfetch'd fled to the area south of its last position. 
+  - **Test 11.1:** Explored south from (8, 29).
+  - **Result:** The path is a dead end at (8, 36).
+  - **Conclusion: H11 Falsified.**
+- **H12 (Current Hypothesis):** After being scared from the western maze, the Farfetch'd has returned to its original puzzle location in the east. The next step is to travel back to (22, 29) to verify.
 
 ## VI. Reflection-Generated Ideas
 
