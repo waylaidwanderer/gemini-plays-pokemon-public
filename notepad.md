@@ -78,4 +78,5 @@
 - **H15 (Falsified):** Systematically re-exploring every path from the apprentice's location yielded nothing.
 
 - **H16 (Confirmed):** Spoke to the apprentice at (7, 28). He confirmed he lost the Farfetch'd used for cutting trees and is too scared to find it himself. This initiates the next phase of the puzzle.
-- **H17 (Current Hypothesis):** The lost Farfetch'd must now be found somewhere in the forest. The most logical first place to check is the original puzzle area in the east, around (22, 29).
+- **H17 (Falsified):** Checked the original puzzle area at (22, 29) after speaking to the apprentice, but the Farfetch'd was not there.
+- **H18 (Current Hypothesis):** Leaving and re-entering Ilex Forest will reset the entire Farfetch'd puzzle, causing it to reappear at its original location.
