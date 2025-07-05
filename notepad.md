@@ -62,3 +62,7 @@
 - **Maze Strategy:** This is a teleporter maze. I will systematically document each teleporter connection to create a map.
   - **Warp 1 (12, 16):** Untested.
   - **Warp 2 (Unknown Source):** Leads to (20, 10) in Central-West Room.
+- **Super Effective:** Psychic > Flying (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
+
+## VII. Tool Development Notes
+- **TODO:** Refine `wkg_updater` tool to check for existing nodes/edges before attempting to add them, as noted in AI critique T48753.
