@@ -61,3 +61,7 @@
 ## V. Future Tool & Agent Ideas
 - **Maze Navigator Tool:** A tool that can analyze the `map_xml_string` to find the shortest path through a maze, accounting for unseen tiles and obstacles.
 - **WKG Connection Checker:** A tool to check if a connection between two nodes already exists in the World Knowledge Graph to prevent duplicate entries.
+- **H8 (Falsified):** After talking to the apprentice, the Farfetch'd would appear near him at (7, 28).
+  - **Test 8.1:** Traveled to (8, 28).
+  - **Result:** Farfetch'd was not present. **Conclusion: H8 Falsified.**
+- **H9 (Current Hypothesis):** The Farfetch'd has fled to a new location after being scared from the east. The next logical location to search is the area north of the apprentice's position.
