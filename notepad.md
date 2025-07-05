@@ -21,10 +21,6 @@
 *
 
 ## II. Quests & Puzzles
-
-### Ilex Forest - Farfetch'd Puzzle
-- **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
-- **Current State:** The Farfetch'd has disappeared. The puzzle state may need to be reset or re-initiated.
 - **Verified Mechanics:**
     1. **Proximity (Turning):** Approaching the Farfetch'd from a specific side causes it to turn and face you.
     2. **Teleportation (Twigs):** Stepping on a twig causes the Farfetch'd to teleport.
@@ -43,10 +39,6 @@
 - **MOOMOO MILK:** Restores 100 HP. Purchased at MOOMOO FARM.
 - **Type Effectiveness:** Water is neutral vs. Bug/Grass (e.g., Paras). Initial assumption was wrong.
 ## V. Systematic Puzzle Testing
-
-### Ilex Forest - Farfetch'd Puzzle
-- **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
-- **Current State:** The Farfetch'd has disappeared. The puzzle state may need to be reset or re-initiated.
 - **Verified Mechanics:**
     1. **Proximity (Turning):** Approaching the Farfetch'd from a specific side causes it to turn and face you.
     2. **Teleportation (Twigs):** Stepping on a twig causes the Farfetch'd to teleport.
