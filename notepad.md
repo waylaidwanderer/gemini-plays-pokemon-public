@@ -91,14 +91,10 @@
     3. **Reset Conditions:** The puzzle resets if the player enters a wild battle, leaves the area, or interacts directly with the Farfetch'd.
 
 #### Hypothesis Test Log
-- **Hypothesis 1:** Standing *on* the twig at (22, 30) triggers the puzzle.
-  - **Conclusion:** Falsified. (Multiple tests, no effect).
-- **Hypothesis 2:** Standing *on* the twig at (29, 30) triggers the puzzle.
-  - **Conclusion:** Falsified. (Multiple tests, no effect).
-- **Hypothesis 3:** The two twigs are linked sequentially.
-  - **Conclusion:** Falsified. (No interaction between them).
-- **Hypothesis 4:** Player's facing direction matters when standing *on* the puzzle twigs. 
-  - **Conclusion:** Falsified. (Multiple tests with different facings yielded no effect and caused looping).
-- **Hypothesis 5 (Current):** The player must be *adjacent* to the twig and facing it to interact.
-  - **Test 5.1:** Stand at (29, 29), face DOWN towards (29, 30), and press 'A'.
+- **Observation:** The Farfetch'd is no longer on the map. Previous interactions with twigs at (22, 30) and (23, 30) caused it to move and then disappear. A mysterious youngster also vanished near the tree at (23, 29). This suggests the puzzle state has changed and may need to be re-initiated.
+- **Hypothesis 1:** Interacting with the tree at (23, 29) will make the Farfetch'd reappear, starting the puzzle.
+  - **Test 1.1:** Move to (23, 29) and press 'A'.
+  - **Result:** TBD.
+- **Hypothesis 2:** Stepping on the twigs at (22, 30) or (29, 30) will make the Farfetch'd reappear.
+  - **Test 2.1:** Step on the twig at (22, 30).
   - **Result:** TBD.
