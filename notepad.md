@@ -76,3 +76,6 @@
 - **Test 4:** Interacted directly with Farfetch'd at (20, 24).
   - **Result:** Farfetch'd said 'Kwaa!' and then disappeared.
   - **Conclusion:** Direct interaction resets the Farfetch'd's position, similar to entering a wild battle.
+
+### Farfetch'd Puzzle Test Log - Critique Notes
+- **Marking:** I must mark *every* location the Farfetch'd teleports to and *every* twig I interact with. This is crucial for tracking the puzzle's state.
