@@ -21,16 +21,15 @@
 *Goal: Test these tiles as soon as they are encountered.*
 - **LEDGE:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
-- **WARP_CARPET_DOWN:** Test this warp tile in Kurt's House.
-- **WARP_CARPET_LEFT:** Test this warp tile in the Ilex Forest Gatehouse.
-- **WARP_CARPET_RIGHT:** Test this warp tile in the Ilex Forest Gatehouse.
+- **WARP_CARPET_DOWN:** Found in Kurt's House. Test by walking on, pressing A, and pressing Down.
+- **WARP_CARPET_LEFT:** Found in Ilex Forest Gatehouse. Test by walking on, pressing A, and pressing Left.
+- **WARP_CARPET_RIGHT:** Found in Ilex Forest Gatehouse. Test by walking on, pressing A, and pressing Right.
 
 ## II. Quest Progression & Puzzles
 
 ### Current Assumptions to Test
 1.  The Headbutt tutor exists in Ilex Forest and can teach me the move.
 2.  Learning Headbutt is related to solving the Farfetch'd puzzle.
-3. The Farfetch'd puzzle state is persistent and does not reset upon leaving the map.
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
