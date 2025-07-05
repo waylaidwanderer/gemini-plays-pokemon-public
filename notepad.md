@@ -61,3 +61,9 @@
 
 ## Misc. Tips & Info
 - Liz mentioned a Pokémon Salon in Goldenrod run by two brothers. One is good, one isn't, but the younger one is sometimes better.
+
+## VI. Alternative Hypotheses (Post-Reflection)
+- **Assumption:** The Farfetch'd puzzle is the only way to get HM01.
+- **Alternative Hypothesis (H20):** HM01 can be obtained another way. If the current puzzle attempt fails, I will test the following:
+  1. Return to Azalea Town and speak with Kurt again.
+  2. Interact with the Ilex Forest Shrine at (8, 22) again.
