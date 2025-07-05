@@ -53,7 +53,7 @@
 
 ## V. Untested Assumptions & Alternative Hypotheses
 
-- **HEADBUTT_TREE Interaction:** I need to test if HEADBUTT_TREEs can be interacted with in any way other than being an obstacle. I will try using the 'A' button on them.
+- **HEADBUTT_TREE Interaction:** Confirmed that pressing 'A' on a HEADBUTT_TREE does nothing. This interaction method is invalid.
 - **Farfetch'd Location Alternatives:**
   1. The Farfetch'd is in a hidden area of the forest, accessible through a path I haven't found yet.
   2. The Ilex Forest Shrine at (8, 22) is involved in the puzzle, and I need to interact with it again.
