@@ -60,3 +60,8 @@
 - **Tool Reliability:** I must ensure my custom tools are flawless. When a tool fails, I must immediately redefine it with a more robust script.
 - **Goal Flexibility:** I must be willing to abandon a failing strategy and explore alternatives when progress stalls, rather than becoming fixated on a single approach. The Farfetch'd puzzle is a key example; my long-distance pathing was a flawed strategy due to random encounters resetting the puzzle state.
 - **Tile Documentation:** The 'unknown' tile type represents a placeholder for tiles that have not been fully implemented in the game's code, but are still present on the map. They are impassable and function as walls.
+
+### Farfetch'd Puzzle Test Log
+- **Test 1:** Stepped on twig at (15, 27) while Farfetch'd was at (15, 25) facing down.
+  - **Result:** No effect. Farfetch'd did not move or change orientation.
+  - **Conclusion:** Hypothesis that this twig affects the bird in this specific configuration is denied.
