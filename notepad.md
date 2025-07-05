@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v48769)
+## I. Core Protocols & Immediate Actions (v48925)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change.
 - **CRITICAL: WKG Protocol (v36 - Tagging & Entry Points):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge. I will always use the correct **numeric string IDs** for maps and verify node existence before creating edges. For `connection_type: "warp"`, I MUST include the `destination_entry_point` property. I will also use the `tags` array to categorize nodes (e.g., `["stairs", "up"]`, `["teleporter"]`) for better graph analysis.
 - **CRITICAL: Map Marker Protocol (v18):** Mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets. I must be more diligent about marking every warp used.
@@ -13,17 +13,18 @@
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** Generates a sequence of button presses to navigate the Pokémon PC menu to withdraw or deposit a specific Pokémon. It now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items) and is context-aware of the current menu. It is a reliable tool for depositing and withdrawing Pokémon.
-- **`battle_strategist_agent`:** Provides the safest, most cautious move. Its primary directive is survival. Overriding its advice is a high-risk action, as my successful override against Giovanni's Machoke demonstrated. It should be trusted for risk-averse plays, but I must use my own judgment when a high-risk/high-reward gambit is the only path to victory.
+- **`battle_strategist_agent`:** Provides the safest, most cautious move. Its primary directive is survival. It should be trusted for risk-averse plays, but I must use my own judgment when a high-risk/high-reward gambit is the only path to victory. Its logic needs refinement regarding status conditions.
 - **`maze_navigator_agent`:** An agent that can parse the World Knowledge Graph to suggest the next optimal, unvisited teleporter to take for systematic maze exploration.
 
 ## III. Game Mechanics & Battle Intel
-### A. Tile Mechanics & Traversal Rules (v6)
+### A. Tile Mechanics & Traversal Rules (v7)
 - **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls. They cannot be surfed on.
 - **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
 - **Gates:** `closed_gate` tiles are impassable. Some are opened by switches, while others (like in Silph Co.) require the CARD KEY.
 - **Elevators (Silph Co.):** To use the elevator, you must first interact with the control panel (usually on a wall) to select a destination floor. After selecting a floor, you must walk onto the warp tiles at the back of the elevator room to trigger the map transition.
 - **PC Interaction:** To use a Pokémon Center PC, I must stand on the tile directly below it and face up before pressing 'A'.
+- **Saffron Gym Teleporters:** These tiles warp the player between rooms. Their destinations need to be mapped.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -55,4 +56,4 @@
 
 ## V. Active Hypotheses
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
-- **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** After I heal, I will return to the gym and test this hypothesis.
+- **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** After I heal and fix my documentation, I will return to the gym, navigate to (16, 16), and use the teleporter to see if it takes me back to (20, 4).
