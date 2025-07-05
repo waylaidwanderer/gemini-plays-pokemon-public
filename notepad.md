@@ -51,3 +51,10 @@
 - **Saffron Gym Hypothesis (Attempt 2 - Defeat all trainers in Sabrina's room):** Defeating all trainers in Sabrina's immediate room will unlock the path to her. **Conclusion (T50140):** FAILED. The path remained blocked.
 - **Saffron Gym Hypothesis (Attempt 3):** Defeating all trainers in the room with the Channeler at (4, 8) does not open the path to Sabrina. **Conclusion (T50170):** FAILED. The trigger is something else entirely.
 - **Saffron Gym Hypothesis (Attempt 4):** The maze has a simple, linear solution. **Conclusion (T50796):** FAILED. All reachable warps have been visited.
+
+## VI. Agent & Tool Ideas
+- **Marker Compliance Agent:** An agent that takes a list of map markers and the marker protocol as input, then outputs a list of non-compliant markers to be deleted. Could automate map cleanup.
+
+## III. Game Mechanics & Battle Intel
+### A. Tile Mechanics & Traversal Rules (v13)
+- **Open Gates:** `open_gate` tiles are unlocked `closed_gate` tiles and function as `ground`.
