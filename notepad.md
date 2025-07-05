@@ -39,7 +39,8 @@
     - **Test 1.2:** Stood on the twig at (29, 30) and pressed 'A'. **Result:** No effect.
     - **Conclusion:** Hypothesis 1 is falsified. This twig alone does not trigger the puzzle's start.
   - **Hypothesis 2:** Interacting with the twig at (29, 30) changes the state of the twig at (22, 30).
-    - **Test 2.1:** Step on the twig at (22, 30) after visiting (29, 30). **Status: In Progress.**
+    - **Test 2.1:** Stepped on the twig at (22, 30) after visiting (29, 30). **Result:** No effect. Farfetch'd did not appear.
+    - **Conclusion:** Hypothesis 2 is falsified. The state of the first twig is not dependent on a prior visit to the second twig.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
