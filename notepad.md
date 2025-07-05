@@ -29,6 +29,7 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
+- **Current Strategy:** My `farfetchd_herder` agent was a failure and has been abandoned. My new strategy is to conduct a manual, systematic search of the entire Ilex Forest to find the Farfetch'd's new location. The puzzle cannot be solved without finding the bird first.
 - **Verified Mechanics:**
     - **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn. It has also been observed to turn without player movement.
     - **Movement Mechanic (Twigs):** Stepping on a twig causes the Farfetch'd to disappear and reappear at a new, predetermined location. This resets the immediate puzzle state.
@@ -37,10 +38,7 @@
     - Leaving and re-entering the forest does not reset the Farfetch'd's position.
     - The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
     - Stepping on/off a twig is not the trigger.
-    - Walking *into* the Farfetch'd (even from the correct herding direction) does not trigger herding.
-
-### Ilex Forest - New Strategy
-- My `farfetchd_herder` agent is unreliable and has been abandoned. I will manually and systematically search the entire Ilex Forest to find the Farfetch'd's new location. The puzzle cannot be solved without finding the bird first.
+    - Walking *into* the Farfetch'd does not trigger herding.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
