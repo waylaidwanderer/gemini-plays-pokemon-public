@@ -68,3 +68,9 @@
 
 ### B. WKG Usage Notes
 - Per AI critique, I must start using the `tags` field when adding nodes to my WKG to improve its utility. For example: `tags: ['silph_co', 'stairs']`.
+
+## IX. Silph Co. 10F - Systematic Search (T51109)
+- **System Hint:** Two 'Guaranteed Reachable Interactable Tiles' exist.
+- **Hypothesis:** The interactable tiles are hidden floor switches activated by standing on the tile below them and pressing 'A'.
+- **Plan:** Systematically test every reachable tile in this manner.
+- **Attempt 1:** Test tile (2, 2) from position (2, 3).
