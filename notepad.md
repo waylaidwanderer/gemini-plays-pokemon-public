@@ -72,7 +72,10 @@
   - **Test 11.1:** Explored south from (8, 29).
   - **Result:** The path is a dead end at (8, 36).
   - **Conclusion: H11 Falsified.**
-- **H12 (Current Hypothesis):** After being scared from the western maze, the Farfetch'd has returned to its original puzzle location in the east. The next step is to travel back to (22, 29) to verify.
+- **H12 (Falsified):** After being scared from the western maze, the Farfetch'd would return to its original puzzle location in the east.
+  - **Test 12.1:** Traveled back to (22, 29).
+  - **Result:** Farfetch'd was not present. **Conclusion: H12 Falsified.**
+- **H13 (Current Hypothesis, based on Agent):** The Farfetch'd has fled north from its last position in the western maze. I will travel there, locate it, and then execute the herding strategy suggested by the agent by using the twig at (22, 30).
 
 ## VI. Reflection-Generated Ideas
 
