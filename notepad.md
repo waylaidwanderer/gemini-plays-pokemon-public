@@ -18,30 +18,31 @@
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
 ### Untested Tile Mechanics
+*Goal: Test these tiles as soon as they are encountered.*
 - **LEDGE:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
-- **WARP_CARPET_DOWN:** Test this warp tile.
+- **WARP_CARPET_DOWN:** Test this warp tile in Kurt's House.
+- **WARP_CARPET_LEFT:** Test this warp tile in the Ilex Forest Gatehouse.
+- **WARP_CARPET_RIGHT:** Test this warp tile in the Ilex Forest Gatehouse.
 
 ## II. Quest Progression & Puzzles
 
 ### Current Assumptions to Test
-1. The Headbutt tutor exists in Ilex Forest and can teach me the move.
-2. Learning Headbutt is related to solving the Farfetch'd puzzle.
-3. The Farfetch'd puzzle is solvable with my current items and knowledge.
+1.  The Headbutt tutor exists in Ilex Forest and can teach me the move.
+2.  Learning Headbutt is related to solving the Farfetch'd puzzle.
+3. The Farfetch'd puzzle state is persistent and does not reset upon leaving the map.
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
 - **Verified Mechanics:**
     - **Proximity (Turning):** Moving to a tile adjacent to the Farfetch'd causes it to turn and face the player.
-    - **Proximity (Herding):** Approaching the Farfetch'd from the direction **OPPOSITE** to where it is currently facing will scare it, causing it to move one tile directly away from the player. This is a key way to move it short distances.
-    - **Movement Mechanic (Twigs):** Stepping on a twig causes the Farfetch'd to turn towards the sound and then move to a new, seemingly predetermined location. This is a primary way to manipulate its position across the map. It is NOT a fail state.
+    - **Proximity (Herding):** Approaching the Farfetch'd from the direction **OPPOSITE** to where it is currently facing will scare it, causing it to move one tile directly away from the player.
+    - **Movement Mechanic (Twigs):** Stepping on a twig causes the Farfetch'd to turn towards the sound and then move to a new, seemingly predetermined location. 
     - **Direct Interaction:** Causes the Farfetch'd to squawk and then disappear from the map, failing the puzzle. This is a confirmed fail state.
-- **Corrected Understanding:**
-    - The puzzle is not reset by leaving the map.
-    - Twigs are not traps that cause failure. They are a core mechanic for repositioning the Farfetch'd. The goal is to use a combination of stepping on twigs and direct herding to guide it to the apprentice.
-- **Archived Failed Hypotheses:**
+- **Failed Hypotheses Log:**
+    - Leaving and re-entering the forest does not reset the Farfetch'd's position.
     - The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
-    - The Farfetch'd is summoned by stepping on or off a twig.
+    - Stepping on/off a twig is not the trigger.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -59,16 +60,4 @@
 - **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information.
 - **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning and planning. Use tools for computation and repetitive actions. Refine or delete them immediately if they are flawed. Test agent output before discarding.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
-- **Farfetch'd Puzzle Test:**
-  - **Hypothesis:** Stepping on the twig at (23, 30) will make the Farfetch'd appear.
-  - **Test:** Moved onto tile (23, 30).
-  - **Result:** No immediate event or appearance.
-  - **Conclusion:** Hypothesis unconfirmed. The trigger may be more complex.
-
-- **Failed Hypothesis:** Leaving and re-entering the forest does not reset the Farfetch'd's position. Its location is persistent.
-
-## V. Agent & Tool Management
-- **Agent Deletion Plan:** Delete the `farfetchd_herder` agent after obtaining HM01 CUT, as it will be obsolete.
-- **WARP_CARPET_LEFT:** Test this warp tile.
-- **WARP_CARPET_RIGHT:** Test this warp tile.
-- **WARP_CARPET_RIGHT:** Test this warp tile.
+- **AGENT DELETION PLAN:** Delete the `farfetchd_herder` agent after obtaining HM01 CUT, as it will be obsolete.
