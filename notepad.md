@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v50131)
+## I. Core Protocols & Immediate Actions (v50431)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change. I will use a 'check-then-add' protocol, using `find_wkg_node_by_coords` before adding new nodes.
-- **CRITICAL: WKG Protocol (v46 - Tags & Standardization):** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination, including descriptive `tags` (e.g., `["teleporter"]`, `["stairs", "up"]`). 3. Confirm the source node exists (creating it if necessary). 4. **Empirically test if the warp is bidirectional by immediately attempting to return.** 5. Create the connecting edge, meticulously verifying the **`destination_entry_point`** and setting `is_one_way` based on the test result.
-- **CRITICAL: Map Marker Protocol (v23 - Standardization):** I will use standardized emojis and labels for all new markers: '☠️' for defeated trainers, '✅' for picked-up items, and '🚪 Warp to (X, Y) [Bi-directional/One-way]' for all warps, updating the label after testing. This will be placed *immediately*.
-- **CRITICAL: Agent & Tool Protocol (v21 - IMMEDIATE Refinement):** Agent and tool refinement is an IMMEDIATE action, not a deferred goal. If an agent or tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools. I will use my `protocol_enforcement_agent` to check my plans before execution.
+- **CRITICAL: WKG Protocol (v47 - Strict Testing):** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination, including descriptive `tags` (e.g., `["teleporter"]`, `["stairs", "up"]`). 3. Confirm the source node exists (creating it if necessary). 4. **Empirically test if the warp is bidirectional by immediately attempting to return.** 5. Create the connecting edge, meticulously verifying the **`destination_entry_point`** and setting `is_one_way` based on the test result.
+- **CRITICAL: Map Marker Protocol (v24 - STRICT Standardization):** I will use standardized emojis and labels for all new markers: '☠️' for defeated trainers, '✅' for picked-up items, and '🚪 Warp to (X, Y) [Bi-directional/One-way]' for all warps, updating the label after testing. This will be placed *immediately*. **Redundant 'arrival' markers are forbidden.**
+- **CRITICAL: Agent & Tool Protocol (v22 - IMMEDIATE Refinement):** Agent and tool refinement is an IMMEDIATE action, not a deferred goal. If an agent or tool is faulty or a better one can be conceived, I MUST define/redefine it on the IMMEDIATE next turn. Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
 ## II. System & Tool Development
 ### A. Agent & Tool Usage Notes
@@ -10,14 +10,14 @@
 - **`battle_strategist_agent`:** Provides battle advice. **STATUS: REFINED.** The agent now correctly validates against fainted, sleeping, and active Pokémon to avoid invalid switch recommendations.
 
 ## III. Game Mechanics & Battle Intel
-### A. Tile Mechanics & Traversal Rules (v9)
+### A. Tile Mechanics & Traversal Rules (v10)
 - **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls. They cannot be surfed on.
 - **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
 - **Gates:** `closed_gate` tiles are impassable. Some are opened by switches, while others (like in Silph Co.) require the CARD KEY.
 - **Elevators (Silph Co.):** To use the elevator, you must first interact with the control panel (usually on a wall) to select a destination floor. After selecting a floor, you must walk onto the warp tiles at the back of the elevator room to trigger the map transition.
 - **PC Interaction:** To use a Pokémon Center PC, I must stand on the tile directly below it and face up before pressing 'A'.
-- **Saffron Gym Teleporters:** These tiles warp the player between rooms. Their destinations need to be mapped systematically.
+- **Saffron Gym Teleporters:** These tiles warp the player between rooms. Their destinations need to be mapped systematically. To use a warp, I must move onto the tile. If I'm already on a warp tile, I must move off and then back on to trigger it.
 
 ### B. Confirmed ROM Hack Changes (v12)
 #### B1. Type Matchups & Immunities
@@ -43,8 +43,6 @@
 
 ## IV. Future Development & Hypotheses (Post-Reflection)
 - **`run_code` Limitation:** The `run_code` tool does not have access to the `xml.etree.ElementTree` module. XML parsing must be done with other methods or tools.
-- **`get_unvisited_warps` Tool Failure:** The tool was failing because its pathfinding logic didn't account for the fact that teleporters connect otherwise isolated rooms. The BFS was only exploring the player's current contiguous area. The fix involved performing the BFS first to identify all reachable tiles, and then filtering the full list of map warps to see which ones fall within that reachable set.
-- **Teleporter/Warp Tiles:** To use a warp, I must move onto the tile. Pressing 'A' while standing on it does nothing. If I'm already on a warp tile, I must move off and then back on to trigger it.
 
 ## V. Archived Hypotheses
 - **Saffron Gym Hypothesis (Attempt 1):** Defeating all trainers in the gym will unlock the path to Sabrina.
