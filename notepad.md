@@ -64,4 +64,7 @@
 - **H8 (Falsified):** After talking to the apprentice, the Farfetch'd would appear near him at (7, 28).
   - **Test 8.1:** Traveled to (8, 28).
   - **Result:** Farfetch'd was not present. **Conclusion: H8 Falsified.**
-- **H9 (Current Hypothesis):** The Farfetch'd has fled to a new location after being scared from the east. The next logical location to search is the area north of the apprentice's position.
+- **H9 (Falsified):** The Farfetch'd has fled to a new location after being scared from the east. The next logical location to search is the area north of the apprentice's position.
+  - **Test 9.1:** Traveled north from (8, 27) to (8, 26).
+  - **Result:** Path is blocked by a CUT_TREE at (8, 25). **Conclusion: H9 Falsified.**
+- **H10 (Current Hypothesis):** The Farfetch'd has fled to the area west of the apprentice. I will explore the western maze paths to find it.
