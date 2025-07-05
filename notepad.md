@@ -54,3 +54,4 @@
 ## V. Future Development & Hypotheses (Post-Reflection)
 - **New Tool Idea:** Create a `find_reachable_tiles` tool based on the BFS logic from my debugging scripts. This would be a powerful, general-purpose utility for exploration.
 - **Conclusion (T50170):** Hypothesis FAILED. Defeating all trainers in the room with the Channeler at (4, 8) does not open the path to Sabrina. The trigger is something else entirely.
+- **New Agent Idea:** Create a `maze_solver_agent` to orchestrate the use of `get_unvisited_warps` and `pathfinder` to systematically explore complex areas like this gym.
