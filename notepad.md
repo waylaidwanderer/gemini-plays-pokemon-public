@@ -30,11 +30,16 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
-- **Current Strategy:** The solution is entirely contained within the puzzle area. I must use the twigs to herd the Farfetch'd. My next step is to find the Farfetch'd and then use a twig on the opposite side to push it towards the apprentice.
 - **Verified Mechanics:**
     - **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn.
     - **Movement Mechanic (Twigs):** Stepping on a twig causes the Farfetch'd to disappear and reappear at a new, predetermined location. This resets the immediate puzzle state.
     - **Direct Interaction (Fail State):** Pressing 'A' on the Farfetch'd causes it to squawk and then disappear from the map, failing the puzzle.
+- **Current Hypotheses & Tests:**
+    - **Hypothesis 1 (Primary):** The Farfetch'd must be herded to the apprentice's last known location at (7, 28).
+    - **Hypothesis 2 (Alternative):** The Farfetch'd needs to be herded to a different, unknown location.
+        - **Test:** Once found, attempt to herd it North, South, and East to observe its behavior.
+    - **Hypothesis 3 (Alternative):** Specific twigs have unique effects, rather than all twigs simply resetting the puzzle.
+        - **Test:** Find the Farfetch'd, note its location, step on a specific twig, and document where it reappears. Repeat for all accessible twigs to map out their effects.
 - **Failed Hypotheses Log:**
     - Leaving and re-entering the forest does not reset the Farfetch'd's position.
     - The puzzle cannot be solved by exploring outside the immediate maze; all paths are dead ends.
