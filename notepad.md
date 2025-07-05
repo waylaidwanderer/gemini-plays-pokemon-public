@@ -15,6 +15,7 @@
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, CAVE
 - **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
+- **Directional Warps:** WARP_CARPET_RIGHT (Activated by moving onto the tile in the specified direction).
 - **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
@@ -24,7 +25,6 @@
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
 - **WARP_CARPET_DOWN:** Found in Kurt's House. Test by walking on, pressing A, and pressing Down.
 - **WARP_CARPET_LEFT:** Found in Ilex Forest Gatehouse. Test by walking on, pressing A, and pressing Left.
-- **WARP_CARPET_RIGHT:** Found in Ilex Forest Gatehouse. Test by walking on, pressing A, and pressing Right.
 
 ## II. Quest Progression & Puzzles
 
@@ -32,11 +32,13 @@
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
 - **Verified Mechanics:**
     1. **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn and face you.
-    2. **Movement (Twigs):** Stepping on a twig causes the Farfetch'd to move to a new, predetermined location. This seems to be the primary way to move it.
+    2. **Movement (Twigs):** Stepping on a twig causes the Farfetch'd to move to a new, predetermined location.
     3. **Direct Interaction (Fail State):** Pressing 'A' on the Farfetch'd causes it to squawk and disappear, resetting the puzzle.
 - **Primary Hypothesis:** The Farfetch'd must be herded to the apprentice at (7, 28).
-- **Alternative Hypothesis:** The Farfetch'd needs to be herded to a different location, such as the maze exit or the forest shrine at (8, 22).
-    - **Test:** Once found, attempt to herd it toward the southern exit of the puzzle area to see if it moves in that direction.
+- **Alternative Hypotheses (to be tested):**
+    1. The Farfetch'd needs to be herded to a different location (e.g., the maze exit or the shrine at (8, 22)).
+    2. The puzzle requires a specific sequence of twig activations.
+    3. The puzzle requires trapping the Farfetch'd rather than herding it.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -49,7 +51,3 @@
 - **TM49 (Fury Cutter):** A move that gets stronger with each consecutive hit.
 - **SLOWPOKETAIL:** A man on Route 32 offered to sell this. Its purpose is unknown.
 - **MOOMOO MILK:** Restores 100 HP. Can be purchased at MOOMOO FARM.
-
-## IV. Procedural Reminders
-- **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information. This is a higher priority than any in-game action.
-- **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning. Use tools for computation. Refine or delete them immediately if they are flawed. Trust agent output until it is proven wrong through testing.
