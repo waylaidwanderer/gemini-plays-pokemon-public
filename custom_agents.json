@@ -8,9 +8,9 @@
   },
   "battle_strategist_agent": {
     "agent_name": "battle_strategist_agent",
-    "agent_description": "Provides turn-by-turn battle advice. Now correctly validates Pokémon status (fainted, asleep) before recommending a switch. Analyzes the current battle state to recommend the optimal move or identify and suggest strategies to break stalemates.",
-    "agent_system_prompt": "You are a Pokémon Battle Logic Engine. Your ONLY function is to recommend a switch to a Pokémon that is not fainted and not asleep. Check the 'is_fainted' and 'status' fields. If a valid switch exists, recommend it. If not, recommend using 'Tackle'.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"is_fainted\":{\"type\":\"boolean\"},\"status\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"name\",\"is_fainted\"]}}},\"required\":[\"player_party\"]}",
+    "agent_description": "Provides turn-by-turn battle advice. Now correctly validates Pokémon status (fainted, asleep) and avoids recommending a switch to the currently active Pokémon. Analyzes the current battle state to recommend the optimal move or identify and suggest strategies to break stalemates.",
+    "agent_system_prompt": "You are a Pokémon Battle Logic Engine. Your ONLY function is to recommend a switch to a Pokémon that is not fainted and not asleep. Check the 'is_fainted' and 'status' fields. CRITICAL: You must also check that the recommended Pokémon to switch to is not the same as the `active_pokemon_name`. If a valid switch exists, recommend it. If not, recommend using 'Tackle'.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"is_fainted\":{\"type\":\"boolean\"},\"status\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"name\",\"is_fainted\"]}},\"active_pokemon_name\":{\"type\":\"string\"}},\"required\":[\"player_party\",\"active_pokemon_name\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_move\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_move\",\"reasoning\"]}"
   },
   "protocol_enforcement_agent": {
