@@ -14,7 +14,7 @@
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** Generates a sequence of button presses to navigate the Pokémon PC menu to withdraw or deposit a specific Pokémon. It now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items) and is context-aware of the current menu. It is a reliable tool for depositing and withdrawing Pokémon.
-- **`battle_strategist_agent`:** Provides the safest, most cautious move. **CRITICAL FLAW:** The agent has repeatedly failed to correctly apply the provided type chart, leading to dangerous and illogical advice. Its prompt requires immediate and significant reinforcement to force strict adherence to provided data.
+- **`battle_strategist_agent`:** Provides battle advice. Its prompt has been reinforced with a mandatory type chart to force adherence to provided data.
 - **`maze_navigator_agent`:** An agent that can parse the World Knowledge Graph to suggest the next optimal, unvisited teleporter to take for systematic maze exploration. **MUST USE IN SAFFRON GYM.**
 
 ## III. Game Mechanics & Battle Intel
