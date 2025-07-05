@@ -70,3 +70,5 @@
 - **Tile Documentation:** The 'unknown' tile type represents a placeholder for tiles that have not been fully implemented in the game's code, but are still present on the map. They are **traversable** and function as floor tiles.
 - **Hypothesis 4:** The player's facing direction matters when interacting with the puzzle twigs. 
   - **Test 4.1:** Stand on the twig at (22, 30), turn to face UP, and press 'A'. **Result:** TBD.
+- **Hypothesis 5:** The player must be adjacent to the twig and facing it to interact, rather than standing on it.
+  - **Test 5.1:** Stand at (29, 29), turn to face DOWN towards the twig at (29, 30), and press 'A'. **Result:** TBD.
