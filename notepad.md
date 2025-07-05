@@ -1,4 +1,4 @@
-## I. Core Protocols & Immediate Actions (v49549)
+## I. Core Protocols & Immediate Actions (v49552)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change. I will use a 'check-then-add' protocol, using `find_wkg_node_by_coords` before adding new nodes.
 - **CRITICAL: WKG Protocol (v40 - Meticulous Data Entry):** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination. 3. Confirm the source node exists (creating it if necessary). 4. Create the connecting edge, meticulously verifying the `destination_entry_point` against the Game State Information's warp list. I will also use the `tags` array to categorize nodes (e.g., `["stairs", "up"]`, `["teleporter"]`) for better graph analysis.
 - **CRITICAL: Map Marker Protocol (v19 - Check First):** I will check for existing markers before adding new ones to avoid redundancy. I will continue to mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*.
@@ -60,7 +60,6 @@
 ## V. Active Hypotheses
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
 - **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** After using a teleporter, I will immediately try to use it again to see if it sends me back.
-- **Hypothesis (Test in progress):** The repeated `define_agent` failures are due to a subtle JSON syntax error. **Test:** I will submit a meticulously validated JSON this turn. If it fails again, the problem lies elsewhere, and I will test by simplifying the system prompt.
 - **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice.
 - **Lesson:** Bite (Normal) is NOT super-effective against HAUNTER (Ghost/Poison). My previous assumption was wrong.
 
