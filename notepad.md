@@ -34,13 +34,16 @@
     1. **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn and face you.
     2. **Movement (Twigs):** Stepping on a twig causes the Farfetch'd to move to a new, predetermined location.
     3. **Direct Interaction (Disappears):** Pressing 'A' on the Farfetch'd causes it to disappear. It does not immediately reappear.
-- **Failed Hypotheses & Observations:**
-    1. **Hypothesis:** Talking to the apprentice at (7, 28) will reset the puzzle. **Result:** FAILED. The apprentice gives the same dialogue and the Farfetch'd does not reappear.
-- **Current Hypotheses (To be tested in order):**
-    1. **Hypothesis:** The puzzle resets by leaving and re-entering the Ilex Forest map. **Test:** Exited to the Ilex Forest Gatehouse and returned to the Farfetch'd's starting position at (22, 29). **Result:** FAILED. The Farfetch'd did not reappear. This proves the puzzle state is persistent and does not reset upon leaving the map.
-    2. The Farfetch'd must be herded to the apprentice at (7, 28) using the twigs to guide its movement from a distance.
-    3. The puzzle requires trapping the Farfetch'd in a corner near the apprentice, rather than direct delivery.
-    4. The twigs must be stepped on in a specific sequence, regardless of player or Farfetch'd position.
+    4. **No Reset:** Leaving the map does not reset the puzzle state.
+- **Event Log & Deductions:**
+    1. **Start:** Farfetch'd at (22, 29).
+    2. **Action:** Stepped on twig at (22, 30).
+    3. **Result:** Farfetch'd moved to (22, 27).
+    4. **Action:** Stepped on twig at (29, 30).
+    5. **Result:** Farfetch'd disappeared from view.
+    6. **Deduction:** From (22, 27), the sound at (29, 30) would make it face right. Fleeing from the sound would mean moving left, but (21, 27) is a WALL. The only open path is down.
+- **Current Hypothesis:**
+    1. The Farfetch'd moved from (22, 27) to (22, 28). I must go to (22, 29) to check.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
