@@ -1,6 +1,6 @@
-## I. Core Protocols & Immediate Actions (v51108)
+## I. Core Protocols & Immediate Actions (v51160)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates are my highest priority upon any map change. I will use a 'check-then-add' protocol, using `find_wkg_node_by_coords` before adding new nodes.
-- **CRITICAL: WKG Protocol:** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination, including descriptive `tags` (e.g., ['silph_co', 'stairs', 'teleporter']). 3. Confirm the source node exists (creating it if necessary). 4. **Empirically test if the warp is bidirectional by immediately attempting to return.** 5. Create the connecting edge, meticulously verifying the **`destination_entry_point`** and setting `is_one_way` based on the test result.
+- **CRITICAL: WKG Protocol:** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination, including descriptive `tags` (e.g., ['silph_co', 'stairs', 'teleporter']). 3. Confirm the source node exists (creating it if necessary). 4. **Empirically test if the warp is bidirectional by immediately attempting to return.** 5. Create the connecting edge, meticulously verifying the **`destination_entry_point`** and setting `is_one_way` based on the test result. **I must include the `destination_entry_point` property on all new warp edges.**
 - **CRITICAL: Map Marker Protocol:** I will use standardized emojis and labels for all new markers: '☠️' for defeated trainers, '✅' for picked-up items. ALL teleporter markers, whether for departure or arrival, MUST use the format: '🚪 Warp to/from (X, Y) [Bi-directional/One-way]'. This ensures consistent parsing by my tools. This will be placed *immediately*. **Redundant 'arrival' markers are forbidden.**
 - **CRITICAL: Agent & Tool Protocol:** Agent and tool refinement is an IMMEDIATE action, not a deferred goal. If an agent or tool is faulty or a better one can be conceived, I MUST define/redefine it on the IMMEDIATE next turn. **Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools.** I will not use `xml.etree.ElementTree` in `run_code`.
 - **CRITICAL: Hypothesis Testing Protocol:** When stuck, I will not repeat the same action more than twice. If a hypothesis fails after two documented attempts, I MUST formulate and test a new one. I will avoid confirmation bias by actively trying to disprove my own theories.
@@ -55,22 +55,16 @@
 - **Saffron Gym Hypothesis (Attempt 4):** The maze has a simple, linear solution. **Conclusion (T50796):** FAILED. All reachable warps have been visited.
 - **Silph Co. 10F Hypothesis (Attempt 1 - Beds):** The 'Guaranteed Reachable Interactable Tiles' are the beds. **Conclusion (T51108):** FAILED. Interacting with both beds yielded no result.
 - **Silph Co. 10F Hypothesis (Attempt 2 - Systematic Search):** The two 'Guaranteed Reachable Interactable Tiles' are hidden floor switches or pressure plates. **Conclusion (T51157):** FAILED. Systematic search of tiles (2,2), (2,1), (3,1), (4,2), (4,1), (5,1), and (6,1) yielded no results. This method is too inefficient.
+- **Silph Co. 10F Hypothesis (Attempt 3 - Systematic Search):** The interactable tiles are hidden floor switches activated by standing on an adjacent tile and pressing 'A'. **Conclusion (T51157):** FAILED. Systematic search of tiles (2,2), (2,1), (3,1), (4,2), (4,1), (5,1), and (6,1) yielded no results. This method is inefficient and the new game hints suggest it's the wrong approach.
 
 ## VI. Agent & Tool Ideas
 - **Marker Compliance Tool (Implemented):** A tool that parses map markers against my notepad protocols to find non-compliant entries. This is a computational task, making a tool the correct implementation.
 - **Systematic Searcher Tool (Implemented):** A tool to automate the process of systematically sweeping an area for interactable tiles. It parses the map XML to find valid tiles.
 
-## VII. Silph Co. Re-Exploration (Post-Giovanni)
-- **System Hint (T50986):** The game state indicates there are two reachable, unvisited warps on 10F at (11, 1) and (13, 1), despite my markers. This is a strong lead.
-- **Hypothesis:** These warps may have changed or become active after defeating Giovanni. I must re-investigate them, starting with the one at (11, 1).
-
-## VIII. Post-Silph Co. Hypotheses
+## VII. Post-Silph Co. Hypotheses
 - **Saffron Gym Hypothesis (Attempt 5 - T51005):** The path to Sabrina was blocked because I hadn't cleared Team Rocket out of Silph Co. first. Now that Giovanni is defeated, the trigger to open the path might be active. I must return to Saffron Gym and re-test the teleporter maze.
 
-### B. WKG Usage Notes
-- Per AI critique, I must start using the `tags` field when adding nodes to my WKG to improve its utility. For example: `tags: ['silph_co', 'stairs']`.
-
-## IX. Silph Co. 10F - Re-investigating Warps (T51157)
-- **System Hint:** Two 'Guaranteed Reachable Interactable Tiles' exist, and the warp at (11, 1) is listed as 'unvisited' despite previous use.
+## VIII. Silph Co. 10F - Re-investigating Warps (T51160)
+- **System Hint:** Two 'Guaranteed Reachable Interactable Tiles' exist, and the 'Reachable Unvisited Warps' list points to (11, 1), a warp I've already used.
 - **Hypothesis:** The 'interactable tiles' are the warps themselves, and their state or destination may have changed after defeating Giovanni. The game state's insistence that (11, 1) is unvisited is a major clue.
 - **Plan:** Re-test the warp at (11, 1).
