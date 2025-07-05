@@ -51,3 +51,9 @@
 - **SLOWPOKETAIL:** A man on Route 32 offered to sell this. Its purpose is unknown.
 - **MOOMOO MILK:** Restores 100 HP. Can be purchased at MOOMOO FARM.
 - **New Hypothesis:** My attempts to reset the puzzle by moving around have failed. I will now try to reach the apprentice directly at (7, 28) to see if they provide a clue.
+
+### Farfetch'd Puzzle Hypotheses (from Quest Strategist)
+1.  **Hypothesis 1 (Top Priority):** At the start location (22, 29), approach the Farfetch'd from the east to make it face west (towards the final goal). Step on the twig at (22, 30) and then search exclusively along the path to the west for its new location.
+2.  **Hypothesis 2:** Test if the Farfetch'd moves opposite to its facing direction. From the start (22, 29), approach it from the west to make it face east. Step on the twig at (22, 30), then search to the west for its new location.
+3.  **Hypothesis 3:** Test if the Farfetch'd flees from the source of the sound. From its start position (22, 29), ignore the nearby twigs and walk over to the isolated twig at (29, 30). Stepping on this should make a sound from the east, potentially causing the Farfetch'd to flee west.
+4.  **Hypothesis 4 (Disproven):** Ignore the Farfetch'd puzzle for now. Navigate the area to find a path to the apprentice at (7, 28) and interact with them directly. They may provide a crucial clue or item required to solve the puzzle. (Result: No new information was gained from the apprentice.)
