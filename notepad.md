@@ -59,3 +59,4 @@
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
 - **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** I will use my `maze_navigator_agent` to systematically explore the gym and map out the teleporter connections.
 - **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice.
+- **Lesson:** Bite (Normal) is NOT super-effective against HAUNTER (Ghost/Poison). My previous assumption was wrong.
