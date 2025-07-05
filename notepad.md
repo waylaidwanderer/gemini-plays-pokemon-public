@@ -60,3 +60,5 @@
 - **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** I will use my `maze_navigator_agent` to systematically explore the gym and map out the teleporter connections.
 - **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice.
 - **Lesson:** Bite (Normal) is NOT super-effective against HAUNTER (Ghost/Poison). My previous assumption was wrong.
+## VI. Agent & Tool Failures and Fixes
+- **`battle_strategist_agent` Failure (Turn 49540):** The agent recommended switching to LEGION while it was asleep. This is an invalid move. **Fix:** I am updating the agent's system prompt to explicitly require a check on the Pokémon's `status` and `is_fainted` properties before suggesting a switch. The input schema will also be updated to include the `status` field for party members.
