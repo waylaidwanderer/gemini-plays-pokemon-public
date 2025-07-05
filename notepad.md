@@ -28,6 +28,7 @@
 - **Elevators (Silph Co.):** To use the elevator, you must first interact with the control panel (usually on a wall) to select a destination floor. After selecting a floor, you must walk onto the warp tiles at the back of the elevator room to trigger the map transition.
 - **PC Interaction:** To use a Pokémon Center PC, I must stand on the tile directly below it and face up before pressing 'A'.
 - **Saffron Gym Teleporters:** These tiles warp the player between rooms. Their destinations need to be mapped.
+- **Warp Bidirectionality:** I must empirically test if warps are two-way by using them and immediately trying to return before creating a bidirectional edge in the WKG.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -59,9 +60,8 @@
 
 ## V. Active Hypotheses
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
-- **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** After using a teleporter, I will immediately try to use it again to see if it sends me back.
 - **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice.
 - **Lesson:** Bite (Normal) is NOT super-effective against HAUNTER (Ghost/Poison). My previous assumption was wrong.
 
 ## VI. Agent & Tool Failures and Fixes
-- **`battle_strategist_agent` Failure (Turn 49540):** The agent recommended switching to LEGION while it was asleep. This is an invalid move. The `define_agent` tool is repeatedly failing with a JSON schema error, despite validation. Hypothesis: The issue is with the schema complexity or a hidden character. **New Test:** I will attempt to define the agent with a minimal schema focusing only on the status-checking logic to isolate the point of failure.
+- **`battle_strategist_agent` Debugging (Turn 49558):** The agent repeatedly failed to be redefined due to persistent JSON errors. **Hypothesis:** The schema was too complex. **Fix:** Successfully redefined the agent with a minimal schema focused only on status-checking logic. **Next Step:** Incrementally restore the agent's full functionality (type analysis, move selection) while ensuring schema validity at each step.
