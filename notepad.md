@@ -53,3 +53,4 @@
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
 - **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice. Similarly, ECHO (GOLBAT) is sometimes shown as GHOST type instead of Flying/Poison.
 - **Marker Labeling Protocol (v2):** For all defeated trainers, I will use the standardized label 'Trainer defeated'. For all warps, I will use '🚪' and note the source/destination.
+- **`run_code` Limitation:** The `run_code` tool does not have access to the `xml.etree.ElementTree` module. XML parsing must be done with other methods or tools.
