@@ -71,7 +71,8 @@
 
 ## IX. Silph Co. 10F - Systematic Search (T51109)
 - **System Hint:** Two 'Guaranteed Reachable Interactable Tiles' exist.
-- **Hypothesis:** The interactable tiles are hidden floor switches activated by standing on the tile below them and pressing 'A'.
-- **Plan:** Systematically test every reachable tile in this manner.
-- **Tested Coordinates:** [{"x": 2, "y": 2}]
+- **Hypothesis:** The interactable tiles are hidden floor switches activated by standing on an adjacent tile and pressing 'A'.
+- **Plan:** Systematically test every reachable tile in this manner using my `systematic_searcher` tool.
+- **Tested Coordinates:** [{"x": 2, "y": 2}, {"x": 2, "y": 1}]
 - **Attempt 1:** Test tile (2, 2) from position (2, 3). **Result:** No interaction.
+- **Attempt 2:** Test tile (2, 1) from position (2, 2). **Result:** No interaction.
