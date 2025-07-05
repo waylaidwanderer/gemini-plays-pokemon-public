@@ -57,3 +57,4 @@
   - **Result:** Kurt confirmed his apprentice is still missing in Ilex Forest. He said: "The SLOWPOKE have returned… But my APPRENTICE hasn't come back from ILEX FOREST. Where in the world is that lazy guy?" This confirms the next step is in the forest.
 - **H5 (Current Hypothesis): The apprentice will now be present in Ilex Forest.**
   - **Test Plan:** Return to Ilex Forest and find the apprentice to progress the puzzle.
+- **H7 (Current Hypothesis): The apprentice's dialogue loop will only break after the lost Farfetch'd is found and returned. The next step is to explore the maze to find it.
