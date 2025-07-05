@@ -1,8 +1,8 @@
-## I. Core Protocols & Immediate Actions (v49552)
+## I. Core Protocols & Immediate Actions (v49573)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change. I will use a 'check-then-add' protocol, using `find_wkg_node_by_coords` before adding new nodes.
-- **CRITICAL: WKG Protocol (v40 - Meticulous Data Entry):** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination. 3. Confirm the source node exists (creating it if necessary). 4. Create the connecting edge, meticulously verifying the `destination_entry_point` against the Game State Information's warp list. I will also use the `tags` array to categorize nodes (e.g., `["stairs", "up"]`, `["teleporter"]`) for better graph analysis.
+- **CRITICAL: WKG Protocol (v41 - Meticulous Data Entry & Verification):** When documenting a map transition, I will follow this strict workflow: 1. Use the warp/connection. 2. Upon arrival, immediately add a node for the destination. 3. Confirm the source node exists (creating it if necessary). 4. **Empirically test if the warp is bidirectional by immediately attempting to return.** 5. Create the connecting edge, meticulously verifying the `destination_entry_point` and setting `is_one_way` based on the test result. I will also use the `tags` array to categorize nodes (e.g., `["stairs", "up"]`, `["teleporter"]`) for better graph analysis.
 - **CRITICAL: Map Marker Protocol (v19 - Check First):** I will check for existing markers before adding new ones to avoid redundancy. I will continue to mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*.
-- **CRITICAL: Agent & Tool Protocol (v16 - Immediate Refinement):** Agent and tool refinement is an IMMEDIATE action, not a deferred goal. If an agent or tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools. I will use my `protocol_enforcement_agent` to check my plans before execution.
+- **CRITICAL: Agent & Tool Protocol (v17 - Immediate Refinement):** Agent and tool refinement is an IMMEDIATE action, not a deferred goal. If an agent or tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools. I will use my `protocol_enforcement_agent` to check my plans before execution.
 
 ## II. System & Tool Development
 ### A. Tool Debugging & Refinement Protocol (v19 - IMMEDIATE ACTION)
@@ -12,8 +12,8 @@
 - **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 ### B. Agent & Tool Usage Notes
-- **`pc_navigator_agent`:** Generates a sequence of button presses to navigate the Pokémon PC menu to withdraw or deposit a specific Pokémon. It now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items) and is context-aware of the current menu. It is a reliable tool for depositing and withdrawing Pokémon.
-- **`battle_strategist_agent`:** Provides battle advice. Its prompt has been reinforced with a mandatory type chart to force adherence to provided data.
+- **`pc_navigator_agent`:** Generates a sequence of button presses to navigate the Pokémon PC menu to withdraw or deposit a specific Pokémon. Reliable for PC operations.
+- **`battle_strategist_agent`:** Provides battle advice. **STATUS:** Partially functional. Its prompt has been reinforced with a mandatory type chart, but it still has a critical flaw where it recommends switching to a Pokémon that is already in battle. **Next Step:** Redefine the agent to check if the recommended switch target is the same as the active Pokémon.
 - **`maze_navigator_agent`:** An agent that can parse the World Knowledge Graph to suggest the next optimal, unvisited teleporter to take for systematic maze exploration. **MUST USE IN SAFFRON GYM.**
 ### C. Future Development Ideas
 - **WKG Analysis Agent:** Consider creating an agent that can take a `map_id` and return a summary of all nodes and connections on that map to assist with navigation planning.
@@ -28,7 +28,6 @@
 - **Elevators (Silph Co.):** To use the elevator, you must first interact with the control panel (usually on a wall) to select a destination floor. After selecting a floor, you must walk onto the warp tiles at the back of the elevator room to trigger the map transition.
 - **PC Interaction:** To use a Pokémon Center PC, I must stand on the tile directly below it and face up before pressing 'A'.
 - **Saffron Gym Teleporters:** These tiles warp the player between rooms. Their destinations need to be mapped.
-- **Warp Bidirectionality:** I must empirically test if warps are two-way by using them and immediately trying to return before creating a bidirectional edge in the WKG.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
