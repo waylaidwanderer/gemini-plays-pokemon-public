@@ -152,5 +152,24 @@
       ]
     },
     "python_script": "import json\n\nwkg = json.loads(world_knowledge_graph_json_string)\nnodes = wkg.get(\"nodes\", [])\nedges = wkg.get(\"edges\", [])\n\nsource_map_id = input_data[\"source_map_id\"]\nsource_x = int(input_data[\"source_x\"])\nsource_y = int(input_data[\"source_y\"])\nsource_name = input_data[\"source_name\"]\nsource_tags = json.loads(input_data.get(\"source_tags\", \"[]\"))\n\ndest_map_id = input_data[\"dest_map_id\"]\ndest_x = int(input_data[\"dest_x\"])\ndest_y = int(input_data[\"dest_y\"])\ndest_name = input_data[\"dest_name\"]\ndest_tags = json.loads(input_data.get(\"dest_tags\", \"[]\"))\n\nconnection_type = input_data[\"connection_type\"]\nif connection_type == \"event\":\n    connection_type = \"warp\"\nis_one_way = input_data[\"is_one_way\"] == 'true'\ndest_entry_point = input_data.get(\"dest_entry_point\")\n\nsource_node_id = None\ndest_node_id = None\n\nfor node in nodes:\n    if node.get(\"map_id\") == source_map_id and node.get(\"coordinates\", {}).get(\"x\") == source_x and node.get(\"coordinates\", {}).get(\"y\") == source_y:\n        source_node_id = node.get(\"id\")\n    if node.get(\"map_id\") == dest_map_id and node.get(\"coordinates\", {}).get(\"x\") == dest_x and node.get(\"coordinates\", {}).get(\"y\") == dest_y:\n        dest_node_id = node.get(\"id\")\n\noutput_calls = []\nif source_node_id is None:\n    payload = json.dumps({\"map_id\": source_map_id, \"name\": source_name, \"coordinates\": {\"x\": source_x, \"y\": source_y}, \"type\": connection_type, \"tags\": source_tags})\n    output_calls.append(f\"manage_world_knowledge action: 'add_node', payload: '{payload}'\")\n\nif dest_node_id is None:\n    payload = json.dumps({\"map_id\": dest_map_id, \"name\": dest_name, \"coordinates\": {\"x\": dest_x, \"y\": dest_y}, \"type\": connection_type, \"tags\": dest_tags})\n    output_calls.append(f\"manage_world_knowledge action: 'add_node', payload: '{payload}'\")\n\nif source_node_id and dest_node_id:\n    edge_exists = any(\n        (e.get(\"source_node_id\") == source_node_id and e.get(\"destination_node_id\") == dest_node_id) or\n        (e.get(\"source_node_id\") == dest_node_id and e.get(\"destination_node_id\") == source_node_id and not is_one_way)\n        for e in edges\n    )\n    if not edge_exists:\n        payload_dict = {\n            \"source_node_id\": source_node_id,\n            \"destination_node_id\": dest_node_id,\n            \"connection_type\": connection_type,\n            \"source_coordinates\": {\"x\": source_x, \"y\": source_y, \"map_id\": source_map_id},\n            \"destination_coordinates\": {\"x\": dest_x, \"y\": dest_y, \"map_id\": dest_map_id},\n            \"is_one_way\": is_one_way\n        }\n        if connection_type == \"warp\" and dest_entry_point and dest_entry_point != 'null':\n            payload_dict[\"destination_entry_point\"] = int(dest_entry_point)\n        payload = json.dumps(payload_dict)\n        output_calls.append(f\"manage_world_knowledge action: 'add_edge', payload: '{payload}'\")\n\nif not output_calls and not (source_node_id and dest_node_id):\n    print(\"Nodes not found. Run this tool again after nodes are created to add the edge.\")\nelif not output_calls:\n    print(\"WKG is already up-to-date for this transition.\")\nelse:\n    for call in output_calls:\n        print(call)"
+  },
+  "get_unvisited_warps": {
+    "description": "Analyzes the current map's warps and the World Knowledge Graph to find reachable warps that have not yet been used as a starting point for a connection. Outputs a JSON list of their coordinates.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "map_id": {
+          "type": "string"
+        },
+        "map_warps_json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "map_id",
+        "map_warps_json"
+      ]
+    },
+    "python_script": "import json\nwkg = json.loads(world_knowledge_graph_json_string)\nmap_warps = json.loads(input_data['map_warps_json'])\ncurrent_map_id = input_data['map_id']\nnodes = wkg.get('nodes', [])\nedges = wkg.get('edges', [])\nsource_node_ids = {edge['source_node_id'] for edge in edges}\nreachable_warps = []\nfor warp in map_warps:\n    if warp.get('reachable') == 'yes':\n        reachable_warps.append((warp['x'], warp['y']))\nunvisited_warp_coords = []\nfor warp_coord in reachable_warps:\n    node_found = False\n    for node in nodes:\n        if node.get('map_id') == current_map_id and node.get('coordinates', {}).get('x') == warp_coord[0] and node.get('coordinates', {}).get('y') == warp_coord[1]:\n            node_found = True\n            if node['id'] not in source_node_ids:\n                unvisited_warp_coords.append({'x': warp_coord[0], 'y': warp_coord[1]})\n            break\n    if not node_found:\n        unvisited_warp_coords.append({'x': warp_coord[0], 'y': warp_coord[1]})\nprint(json.dumps(unvisited_warp_coords))"
   }
 }

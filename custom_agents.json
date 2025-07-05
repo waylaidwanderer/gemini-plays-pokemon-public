@@ -29,9 +29,9 @@
   },
   "maze_navigator_agent": {
     "agent_name": "maze_navigator_agent",
-    "agent_description": "Analyzes the current map's warp data and the World Knowledge Graph to suggest the next optimal, unvisited teleporter to take for systematic maze exploration.",
-    "agent_system_prompt": "You are a Maze Navigation Specialist. Your task is to analyze the provided map warp data and the World Knowledge Graph to recommend the next best teleporter to explore. Prioritize reachable, unvisited warps. An 'unvisited' warp is one not yet recorded as a source node in any edge within the World Knowledge Graph. Your output must be the coordinates of the recommended teleporter.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_map_id\":{\"type\":\"string\"},\"map_warps\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"},\"reachable\":{\"type\":\"string\"}},\"required\":[\"x\",\"y\",\"reachable\"]}},\"world_knowledge_graph\":{\"type\":\"object\"}},\"required\":[\"current_map_id\",\"map_warps\",\"world_knowledge_graph\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_warp_x\":{\"type\":\"integer\"},\"recommended_warp_y\":{\"type\":\"integer\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_warp_x\",\"recommended_warp_y\",\"reasoning\"]}"
+    "agent_description": "Analyzes a list of unvisited, reachable warps to suggest the next optimal teleporter for systematic maze exploration.",
+    "agent_system_prompt": "You are a Maze Navigation Specialist. Your task is to analyze the provided list of unvisited warp coordinates and recommend the next best one to explore. Prioritize the warp with the lowest y-coordinate, then the lowest x-coordinate as a tie-breaker. Your output must be the coordinates of the recommended teleporter.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"unvisited_warps\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}}}, \"required\": [\"unvisited_warps\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_warp_x\": {\"type\": \"integer\"}, \"recommended_warp_y\": {\"type\": \"integer\"}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"recommended_warp_x\", \"recommended_warp_y\", \"reasoning\"]}"
   }
 }
