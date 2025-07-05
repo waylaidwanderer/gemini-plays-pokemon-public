@@ -29,7 +29,7 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
-- **Current Strategy:** My `farfetchd_herder` agent was a failure and has been abandoned. My new strategy is to conduct a manual, systematic search of the entire Ilex Forest to find the Farfetch'd's new location. The puzzle cannot be solved without finding the bird first.
+- **Current Strategy:** The solution must be to herd the Farfetch'd. My previous systematic search of the forest confirmed all other paths are dead ends. The `farfetchd_herder` agent was a failure because it was designed to find a path for me to push the bird, but it couldn't account for the bird's reactive movements to twigs, making its pathing plans useless. The core mechanic is stepping on twigs to make the bird move, not direct herding.
 - **Verified Mechanics:**
     - **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn. It has also been observed to turn without player movement.
     - **Movement Mechanic (Twigs):** Stepping on a twig causes the Farfetch'd to disappear and reappear at a new, predetermined location. This resets the immediate puzzle state.
