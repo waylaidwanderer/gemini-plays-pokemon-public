@@ -28,10 +28,18 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
+- **Current State:** The Farfetch'd is not currently on screen. I appear to be in a sealed-off section of the forest, meaning the puzzle must be solved to proceed.
 - **Verified Mechanics:**
     1. **Proximity (Turning):** Approaching the Farfetch'd from a specific side causes it to turn and face you.
-    2. **Teleportation (Twigs):** Stepping on a twig causes the Farfetch'd to *teleport* to a new, seemingly fixed location. It does not simply move one space.
-- **Current Hypothesis:** The puzzle involves triggering a specific sequence of twigs to teleport the Farfetch'd along a hidden path towards the apprentice. The direction it faces is critical.
+    2. **Teleportation (Twigs):** Stepping on a twig causes the Farfetch'd to *teleport* to a new, seemingly fixed location. The destination is determined by a combination of the twig used and the bird's facing direction *before* the teleport.
+    3. **Reset Conditions:** The puzzle resets if the player enters a wild battle or interacts directly with the Farfetch'd.
+- **Systematic Test Log:**
+  - **Hypothesis 1 (from Quest Strategist):** Interacting with the twig at (29, 30) will trigger the puzzle.
+    - **Test 1.1:** Stepped on the twig at (29, 30). **Result:** No effect. Farfetch'd did not appear.
+    - **Test 1.2:** Stood on the twig at (29, 30) and pressed 'A'. **Result:** No effect.
+    - **Conclusion:** Hypothesis 1 is falsified. This twig alone does not trigger the puzzle's start.
+  - **Hypothesis 2:** Interacting with the twig at (29, 30) changes the state of the twig at (22, 30).
+    - **Test 2.1:** Step on the twig at (22, 30) after visiting (29, 30). **Status: In Progress.**
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
