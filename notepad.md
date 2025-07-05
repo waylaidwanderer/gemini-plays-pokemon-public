@@ -58,7 +58,7 @@
 - **Data Management as Priority:** Data management (WKG, Map Markers, Notepad) is the highest priority action, to be performed in the same turn a discovery is made, overriding any other planned action. Deferring these tasks leads to hallucinations and wasted turns.
 - **Tool Reliability:** I must ensure my custom tools are flawless. When a tool fails, I must immediately redefine it with a more robust script.
 - **Goal Flexibility:** I must be willing to abandon a failing strategy and explore alternatives when progress stalls, rather than becoming fixated on a single approach. The Farfetch'd puzzle is a key example; my long-distance pathing was a flawed strategy due to random encounters resetting the puzzle state.
-- **Tile Documentation:** The 'unknown' tile type represents a placeholder for tiles that have not been fully implemented in the game's code, but are still present on the map. They are impassable and function as walls.
+- **Tile Documentation:** The 'unknown' tile type represents a placeholder for tiles that have not been fully implemented in the game's code, but are still present on the map. They are **traversable** and function as floor tiles.
 
 ### Farfetch'd Puzzle Test Log
 - **Test 1:** Stepped on twig at (15, 27) while Farfetch'd was at (15, 25) facing down.
