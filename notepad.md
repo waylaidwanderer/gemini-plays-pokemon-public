@@ -55,8 +55,8 @@
 - **Water vs. Bug/Grass:** Verified that Water-type moves are neutral against Bug/Grass types (e.g., Paras). My initial assumption that it was 'not very effective' was based on external knowledge and was incorrect.
 
 ## V. Lessons Learned & Self-Correction Archive
-- **External Knowledge:** I must stop making assumptions based on other Pokémon games (e.g., hypothesizing about 'Dry Skin', type effectiveness). All mechanical knowledge must be built **exclusively** from verified, in-game observations within Pokémon Crystal.
-- **Data Management:** I must treat data management (WKG, Map Markers, Notepad) as the highest priority action, to be performed in the same turn a discovery is made, overriding any other planned action. Deferring these tasks leads to hallucinations and wasted turns.
-- **Tool Reliability:** I must ensure my custom tools are flawless. When a tool fails (like `path_master_v12`), I must immediately redefine it with a more robust script (`path_master_v13`).
-- **Goal Flexibility:** I must be willing to abandon a failing strategy and explore alternatives when progress stalls, rather than becoming fixated on a single approach.
-- **Notepad Management:** The `overwrite` action can fail due to excessive character deletion. I must follow the system's guidance and use more precise `replace` or `append` actions for future edits instead of attempting large-scale rewrites.
+- **External Knowledge:** I must stop making assumptions based on other Pokémon games. All mechanical knowledge must be built **exclusively** from verified, in-game observations within Pokémon Crystal.
+- **Data Management as Priority:** Data management (WKG, Map Markers, Notepad) is the highest priority action, to be performed in the same turn a discovery is made, overriding any other planned action. Deferring these tasks leads to hallucinations and wasted turns. My repeated failures to use `overwrite` on the notepad are a prime example of this failure; I must use precise `replace` and `append` actions instead.
+- **Tool Reliability:** I must ensure my custom tools are flawless. When a tool fails, I must immediately redefine it with a more robust script.
+- **Goal Flexibility:** I must be willing to abandon a failing strategy and explore alternatives when progress stalls, rather than becoming fixated on a single approach. The Farfetch'd puzzle is a key example; my long-distance pathing was a flawed strategy due to random encounters resetting the puzzle state.
+- **Tile Documentation:** The 'unknown' tile type represents a placeholder for tiles that have not been fully implemented in the game's code, but are still present on the map. They are impassable and function as walls.
