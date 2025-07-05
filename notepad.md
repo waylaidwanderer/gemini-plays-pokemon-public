@@ -98,4 +98,10 @@
   - **Conclusion:** Hypothesis 1 is falsified.
 - **Hypothesis 2:** Stepping on the twigs at (22, 30) or (29, 30) will make the Farfetch'd reappear.
   - **Test 2.1:** Step on the twig at (22, 30).
+  - **Result:** No effect. Farfetch'd did not appear.
+  - **Conclusion:** Hypothesis 2 is falsified.
+- **Hypothesis 3:** Interacting with the twig at (22, 30) from an adjacent tile will trigger the puzzle.
+  - **Test 3.1:** Move to (21, 30) to interact with the twig from the left.
+  - **Result:** Path blocked by WALL tile. Test invalid.
+  - **Test 3.2:** Move to (22, 29), face DOWN, and press 'A'.
   - **Result:** TBD.
