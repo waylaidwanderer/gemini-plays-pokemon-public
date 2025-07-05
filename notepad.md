@@ -53,3 +53,4 @@
 2.  **Hypothesis 2:** Test if the Farfetch'd moves opposite to its facing direction. From the start (22, 29), approach it from the west to make it face east. Step on the twig at (22, 30), then search to the west for its new location.
 3.  **Hypothesis 3:** Test if the Farfetch'd flees from the source of the sound. From its start position (22, 29), ignore the nearby twigs and walk over to the isolated twig at (29, 30). Stepping on this should make a sound from the east, potentially causing the Farfetch'd to flee west.
 4.  **Hypothesis 4 (Disproven):** Ignore the Farfetch'd puzzle for now. Navigate the area to find a path to the apprentice at (7, 28) and interact with them directly. They may provide a crucial clue or item required to solve the puzzle. (Result: No new information was gained from the apprentice.)
+- **WARP_CARPET_RIGHT:** Found in Ilex Forest Azalea Gate. Test by walking on it and pressing right.
