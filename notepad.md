@@ -66,4 +66,3 @@
 - **Super Effective:** Psychic > Flying (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
 
 ## VII. Tool Development Notes
-- **TODO:** Refine `wkg_updater` tool to check for existing nodes/edges before attempting to add them, as noted in AI critique T48753.
