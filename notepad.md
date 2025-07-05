@@ -65,4 +65,3 @@
 
 ## VI. Agent & Tool Failures and Fixes
 - **`battle_strategist_agent` Debugging (Turn 49558):** The agent repeatedly failed to be redefined due to persistent JSON errors. Hypothesis: The schema was too complex. Fix: Successfully redefined the agent with a minimal schema focused only on status-checking logic. Next Step: Incrementally restore the agent's full functionality (type analysis, move selection) while ensuring schema validity at each step.
-- **`get_unvisited_warps` & `pathfinder` Debugging:** Both tools struggled with the disconnected rooms of the Saffron Gym maze. `pathfinder` has been fixed to handle teleporters correctly. `get_unvisited_warps`'s internal pathing logic has been updated but remains unreliable in this specific maze layout. **STATUS: Pathfinder FIXED, get_unvisited_warps requires further testing outside this maze.**
