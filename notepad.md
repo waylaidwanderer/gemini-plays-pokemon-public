@@ -15,7 +15,7 @@
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, CAVE
 - **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
-- **Directional Warps (Conditionally Blocked):** WARP_CARPET_RIGHT, WARP_CARPET_LEFT, WARP_CARPET_DOWN. My hypothesis that these are activated by directional movement or pressing 'A' has been falsified at the Ilex Forest exit (3, 42). This exit appears to be blocked until a specific condition is met, likely solving the Farfetch'd puzzle.
+- **Directional Warps (Verified):** WARP_CARPET_RIGHT, WARP_CARPET_LEFT, WARP_CARPET_DOWN. Activated by moving onto the tile in the specified direction. The warp at Ilex Forest exit (3, 42) remains an exception and appears to be blocked by a different condition.
 - **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
