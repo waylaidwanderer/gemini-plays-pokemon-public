@@ -84,3 +84,4 @@
 - **Failed Hypotheses Log:**
   1. Making the Farfetch'd disappear and then talking to the apprentice.
   2. Leaving the forest and returning to reset the puzzle state.
+  3. Repeatedly talking to Kurt in his house after chasing the Farfetch'd away.
