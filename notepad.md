@@ -28,19 +28,21 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
-- **Current State:** The Farfetch'd is not currently on screen. I appear to be in a sealed-off section of the forest, meaning the puzzle must be solved to proceed.
+- **Current State:** I am trapped in a sealed-off section of the forest. The puzzle must be solved to proceed. The Farfetch'd is not currently on screen.
 - **Verified Mechanics:**
     1. **Proximity (Turning):** Approaching the Farfetch'd from a specific side causes it to turn and face you.
     2. **Teleportation (Twigs):** Stepping on a twig causes the Farfetch'd to *teleport* to a new, seemingly fixed location. The destination is determined by a combination of the twig used and the bird's facing direction *before* the teleport.
     3. **Reset Conditions:** The puzzle resets if the player enters a wild battle or interacts directly with the Farfetch'd.
-- **Systematic Test Log:**
-  - **Hypothesis 1 (from Quest Strategist):** Interacting with the twig at (29, 30) will trigger the puzzle.
-    - **Test 1.1:** Stepped on the twig at (29, 30). **Result:** No effect. Farfetch'd did not appear.
-    - **Test 1.2:** Stood on the twig at (29, 30) and pressed 'A'. **Result:** No effect.
-    - **Conclusion:** Hypothesis 1 is falsified. This twig alone does not trigger the puzzle's start.
-  - **Hypothesis 2:** Interacting with the twig at (29, 30) changes the state of the twig at (22, 30).
-    - **Test 2.1:** Stepped on the twig at (22, 30) after visiting (29, 30). **Result:** No effect. Farfetch'd did not appear.
-    - **Conclusion:** Hypothesis 2 is falsified. The state of the first twig is not dependent on a prior visit to the second twig.
+
+#### Systematic Test Log
+*This log will track every hypothesis and its outcome to avoid repeating mistakes.*
+- **Hypothesis 1:** Interacting with the twig at (29, 30) will trigger the puzzle.
+  - **Test 1.1:** Stepped on the twig at (29, 30). **Result:** No effect. Farfetch'd did not appear.
+  - **Test 1.2:** Stood on the twig at (29, 30) and pressed 'A'. **Result:** No effect.
+  - **Conclusion:** Hypothesis 1 is falsified. This twig alone does not trigger the puzzle's start.
+- **Hypothesis 2:** Interacting with the twig at (29, 30) changes the state of the twig at (22, 30).
+  - **Test 2.1:** Stepped on the twig at (22, 30) after visiting (29, 30). **Result:** No effect. Farfetch'd did not appear.
+  - **Conclusion:** Hypothesis 2 is falsified. The state of the first twig is not dependent on a prior visit to the second twig.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -54,11 +56,6 @@
 - **SLOWPOKETAIL:** A man on Route 32 offered to sell this. Its purpose is unknown.
 - **MOOMOO MILK:** Restores 100 HP. Can be purchased at MOOMOO FARM.
 
-### Farfetch'd Puzzle Hypotheses (from Quest Strategist)
-1.  **Hypothesis 1 (Top Priority):** At the start location (22, 29), approach the Farfetch'd from the east to make it face west (towards the final goal). Step on the twig at (22, 30) and then search exclusively along the path to the west for its new location.
-2.  **Hypothesis 2:** Test if the Farfetch'd moves opposite to its facing direction. From the start (22, 29), approach it from the west to make it face east. Step on the twig at (22, 30), then search to the west for its new location.
-3.  **Hypothesis 3:** Test if the Farfetch'd flees from the source of the sound. From its start position (22, 29), ignore the nearby twigs and walk over to the isolated twig at (29, 30). Stepping on this should make a sound from the east, potentially causing the Farfetch'd to flee west.
-
 ## IV. Battle Mechanics & Type Effectiveness
 - **Water vs. Bug/Grass:** Verified that Water-type moves are neutral against Bug/Grass types (e.g., Paras). My initial assumption that it was 'not very effective' was based on external knowledge and was incorrect.
 
@@ -68,38 +65,3 @@
 - **Tool Reliability:** I must ensure my custom tools are flawless. When a tool fails, I must immediately redefine it with a more robust script.
 - **Goal Flexibility:** I must be willing to abandon a failing strategy and explore alternatives when progress stalls, rather than becoming fixated on a single approach. The Farfetch'd puzzle is a key example; my long-distance pathing was a flawed strategy due to random encounters resetting the puzzle state.
 - **Tile Documentation:** The 'unknown' tile type represents a placeholder for tiles that have not been fully implemented in the game's code, but are still present on the map. They are **traversable** and function as floor tiles.
-
-### Farfetch'd Puzzle Test Log
-- **Test 1:** Stepped on twig at (15, 27) while Farfetch'd was at (15, 25) facing down.
-  - **Result:** No effect. Farfetch'd did not move or change orientation.
-  - **Conclusion:** Hypothesis that this twig affects the bird in this specific configuration is denied.
-
-- **Test 2:** Farfetch'd at (15, 25) facing down. Stepped on twig at (15, 27).
-  - **Result:** Farfetch'd teleported to (20, 24).
-  - **Conclusion:** Confirmed that the combination of the bird's facing direction and the specific twig triggered determines its teleportation destination.
-
-- **Test 3:** Walked path from (15, 23) to (20, 23).
-  - **Result:** Farfetch'd appeared at (20, 24), facing right.
-  - **Conclusion:** A specific movement path can trigger the Farfetch'd to appear at a new location. The puzzle is not just about twigs.
-
-- **Test 4:** Interacted directly with Farfetch'd at (20, 24).
-  - **Result:** Farfetch'd said 'Kwaa!' and then disappeared.
-  - **Conclusion:** Direct interaction resets the Farfetch'd's position, similar to entering a wild battle.
-
-### Farfetch'd Puzzle Test Log - Critique Notes
-- **Marking:** I must mark *every* location the Farfetch'd teleports to and *every* twig I interact with. This is crucial for tracking the puzzle's state.
-
-### Critical Self-Correction: Hallucination Log
-- **Issue:** I have experienced repeated, severe locational hallucinations, believing I was on a different map or at different coordinates. This has led to failed actions and wasted turns (e.g., turns 19825-19830).
-- **Root Cause:** Failure to prioritize immediate data management (Notepad, WKG) over in-game actions. Deferring documentation after a map change or significant event leads to a corrupted internal state.
-- **Corrective Action:** All documentation and data management tasks are the absolute highest priority. They MUST be performed in the same turn a discovery is made, overriding any other planned action. I must verify my location against the game state before every action if I am unsure.
-
-### Ilex Forest - Maze Navigation Strategy
-- **Observation:** Pathfinding tools (`path_master_v13`, `exploration_master`) have confirmed that there is no direct, traversable path to the main puzzle area from the entrance. The forest is a maze.
-- **Strategy:** The correct approach is methodical, manual exploration. I must trace each path to its end, documenting dead ends and junctions with map markers. I am currently exploring the westernmost corridor by backtracking south to find an eastward path.
-
-## Farfetch'd Puzzle - Systematic Test Log
-- **Hypothesis 1 (from Quest Strategist):** Interacting with the twig at (29, 30) will trigger the puzzle.
-  - **Test 1.1:** Stepped on the twig at (29, 30). **Result:** No effect. Farfetch'd did not appear.
-  - **Test 1.2:** Stood on the twig at (29, 30) and pressed 'A'. **Result:** No effect.
-  - **Conclusion:** Hypothesis 1 is falsified. This twig alone does not trigger the puzzle's start.
