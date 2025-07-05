@@ -52,7 +52,7 @@
 - **H3: Interacting with a twig from an adjacent tile will trigger the puzzle.**
   - **Test 3.1:** Stand at (22, 29), face DOWN towards (22, 30), and press 'A'.
   - **Result:** No effect. **Conclusion: H3 Falsified.**
-- **H4 (Current Hypothesis): The puzzle state is linked to an NPC outside the forest.**
-  - **Test Plan:** Travel to Azalea Town and speak with Kurt, the Charcoal Man and the apprentice's boss, to see if he has new dialogue or can reset the puzzle.
-- **H5 (Alternative): The solution is not related to Kurt.**
-  - **Test Plan:** If H4 fails, systematically re-explore Azalea Town for other clues, then return to Ilex Forest to re-test the puzzle mechanics with a fresh perspective.
+- **H4 (Partially Validated): Spoke with Kurt in Azalea Town.**
+  - **Result:** Kurt confirmed his apprentice is still missing in Ilex Forest. He said: "The SLOWPOKE have returned… But my APPRENTICE hasn't come back from ILEX FOREST. Where in the world is that lazy guy?" This confirms the next step is in the forest.
+- **H5 (Current Hypothesis): The apprentice will now be present in Ilex Forest.**
+  - **Test Plan:** Return to Ilex Forest and find the apprentice to progress the puzzle.
