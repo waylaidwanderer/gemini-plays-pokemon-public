@@ -73,3 +73,6 @@
 - **Farfetch'd Puzzle - New Hypotheses:**
     1. The direction the Farfetch'd faces is irrelevant; the puzzle is purely about the *sequence* of twigs stepped on.
     2. An external event or item interaction elsewhere in the forest is needed to change the puzzle's state or the Farfetch'd's behavior.
+## Farfetch'd Puzzle - Self-Correction (Turn 19472)
+- **Failed Hypothesis:** Making the Farfetch'd disappear and then talking to the apprentice does not solve the puzzle. He repeats his initial dialogue.
+- **New Hypothesis:** The puzzle requires communicating the result to the apprentice's boss, the 'charcoal man' (Kurt), in Azalea Town. The apprentice's dialogue about his boss being angry is the key clue. I must return to Kurt's house.
