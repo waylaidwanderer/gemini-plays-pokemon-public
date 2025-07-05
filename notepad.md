@@ -7,7 +7,7 @@
 ## II. System & Tool Development
 ### A. Tool Debugging & Refinement Protocol (v19 - IMMEDIATE ACTION)
 - **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. **Abandoning a tool is a protocol violation.**
-- **CRITICAL - PENDING ACTION:** I must fix the Saffron Gym teleporter edge (`c84d8299-4fa2-47d5-8aaa-7f0d366b541e`) by adding the correct `destination_entry_point` the next time I enter the gym. This is a high-priority task.
+
 - **DEBUGGING STEP 1 (Advanced):** Use `run_code` with a modified pathfinding script. Print the `current` node inside the main loop to trace the BFS exploration path.
 - **DEBUGGING STEP 2 (Advanced Analysis):** If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where the pathfinding fails. This will confirm if the map is segmented.
 - **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
