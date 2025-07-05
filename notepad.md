@@ -50,7 +50,6 @@
 1.  **Hypothesis 1 (Top Priority):** At the start location (22, 29), approach the Farfetch'd from the east to make it face west (towards the final goal). Step on the twig at (22, 30) and then search exclusively along the path to the west for its new location.
 2.  **Hypothesis 2:** Test if the Farfetch'd moves opposite to its facing direction. From the start (22, 29), approach it from the west to make it face east. Step on the twig at (22, 30), then search to the west for its new location.
 3.  **Hypothesis 3:** Test if the Farfetch'd flees from the source of the sound. From its start position (22, 29), ignore the nearby twigs and walk over to the isolated twig at (29, 30). Stepping on this should make a sound from the east, potentially causing the Farfetch'd to flee west.
-4.  **Hypothesis 4 (Disproven):** Ignore the Farfetch'd puzzle for now. Navigate the area to find a path to the apprentice at (7, 28) and interact with them directly. They may provide a crucial clue or item required to solve the puzzle. (Result: No new information was gained from the apprentice.)
 
 ## IV. Reflections & Self-Correction (Turn 19292)
 - **Data Management:** I have repeatedly failed to update my World Knowledge Graph and Map Markers immediately after discovering new information or transitions. This has caused a cascade of hallucinations and wasted turns. **Correction:** I must treat data management as the highest priority action, to be performed in the same turn a discovery is made, overriding any other planned action.
@@ -65,3 +64,6 @@
 
 ## VII. Self-Correction (Turn 19337)
 - **External Knowledge (Again):** After observing Water Gun being 'not very effective' against Paras, I hypothesized about 'Dry Skin', an ability from later games. This is another instance of relying on external knowledge. I must strictly adhere to forming hypotheses based only on mechanics I can observe and verify within Pokémon Crystal.
+
+## VIII. Self-Correction (Turn 19411)
+- **External Knowledge (Recurrence):** I continue to make assumptions based on other Pokémon games (e.g., hypothesizing about 'Dry Skin'). This is a critical failure. I must build my type effectiveness chart and all mechanical knowledge **exclusively** from verified, in-game observations within Pokémon Crystal. All external knowledge must be treated as invalid until proven otherwise through direct testing.
