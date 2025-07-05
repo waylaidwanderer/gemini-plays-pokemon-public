@@ -83,3 +83,8 @@
 ### Farfetch'd Puzzle - Falsification Test
 - **Alternative Hypothesis:** The puzzle may not be a linear path. It could require a specific, non-obvious sequence of interactions (twigs, movement, approach direction) that don't necessarily move the Farfetch'd progressively westward. 
 - **Test:** After exhausting more direct hypotheses, I will try seemingly illogical actions, such as deliberately herding the Farfetch'd east or interacting with distant twigs, to see if it triggers an unexpected state change.
+
+### Critical Self-Correction: Hallucination Log
+- **Issue:** I have experienced repeated, severe locational hallucinations, believing I was on a different map or at different coordinates. This has led to failed actions and wasted turns (e.g., turns 19825-19830).
+- **Root Cause:** Failure to prioritize immediate data management (Notepad, WKG) over in-game actions. Deferring documentation after a map change or significant event leads to a corrupted internal state.
+- **Corrective Action:** All documentation and data management tasks are the absolute highest priority. They MUST be performed in the same turn a discovery is made, overriding any other planned action. I must verify my location against the game state before every action if I am unsure.
