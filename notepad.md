@@ -18,10 +18,7 @@
 - **Verified Complex Tiles:** FLOOR_UP_WALL (Enter by moving UP; Exit by moving LEFT/RIGHT).
 - **Untested Tiles:** LEDGE, FLOOR_ALLOW_HOP_DOWN.
 
-## II. Quest Progression & Puzzles
-
-### Ilex Forest - Farfetch'd Puzzle
-*Note: This section is outdated. See the consolidated log under 'V. Systematic Puzzle Testing'.*
+*
 
 ## II. Quests & Puzzles
 
