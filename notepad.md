@@ -70,3 +70,7 @@
 - **HEADBUTT_TREE:** Test if this can be interacted with.
 - **HEADBUTT_TREE:** Test if this can be interacted with.
 - **HEADBUTT_TREE:** Test if this can be interacted with.
+
+- **Test 2:** Farfetch'd at (15, 25) facing down. Stepped on twig at (15, 27).
+  - **Result:** Farfetch'd teleported to (20, 24).
+  - **Conclusion:** Confirmed that the combination of the bird's facing direction and the specific twig triggered determines its teleportation destination.
