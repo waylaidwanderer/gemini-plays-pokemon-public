@@ -44,22 +44,8 @@
 ## IV. Battle Mechanics & Type Effectiveness
 - **Water vs. Bug/Grass:** Verified that Water-type moves are neutral against Bug/Grass types (e.g., Paras). My initial assumption that it was 'not very effective' was based on external knowledge and was incorrect.
 
-## V. Systematic Puzzle Testing & Lessons
-
-### Current Actionable Plan
-- **Ilex Forest - Farfetch'd Puzzle:** Execute Test 5.1 of Hypothesis 5.
-
-### Ilex Forest - Farfetch'd Puzzle Test Log
-- **Hypothesis 1-3:** Standing on or sequencing twigs has no effect. **Conclusion: Falsified.**
-- **Hypothesis 4:** Player's facing direction matters when *on* the twigs. **Conclusion: Falsified (led to looping).**
-- **Hypothesis 5 (Current):** The player must be *adjacent* to the twig and facing it to interact.
-  - **Test 5.1:** Stand at (29, 29), face DOWN towards (29, 30), and press 'A'.
-  - **Result:** TBD.
-
-### Lessons Learned
-- **Hypothesis Protocol:** Must follow a strict Observe -> Hypothesize -> Test -> Conclude protocol and document every step to avoid unproductive loops.
-- **Data Management:** Is the highest priority action, to be performed in the same turn a discovery is made.
-- **No External Knowledge:** All knowledge must be built from verified, in-game observations.
+## V. Systematic Puzzle Testing
+*This section is for active, ongoing puzzle test logs.*
 
 ## V. Systematic Puzzle Testing
 
