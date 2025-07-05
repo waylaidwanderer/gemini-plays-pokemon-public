@@ -67,3 +67,9 @@
 
 ## VIII. Self-Correction (Turn 19411)
 - **External Knowledge (Recurrence):** I continue to make assumptions based on other Pokémon games (e.g., hypothesizing about 'Dry Skin'). This is a critical failure. I must build my type effectiveness chart and all mechanical knowledge **exclusively** from verified, in-game observations within Pokémon Crystal. All external knowledge must be treated as invalid until proven otherwise through direct testing.
+
+## IX. Self-Correction (Turn 19439)
+- **Notepad Management:** The `overwrite` action failed due to excessive character deletion. I must follow the system's guidance and use more precise `replace` or `append` actions for future edits instead of attempting large-scale rewrites. 
+- **Farfetch'd Puzzle - New Hypotheses:**
+    1. The direction the Farfetch'd faces is irrelevant; the puzzle is purely about the *sequence* of twigs stepped on.
+    2. An external event or item interaction elsewhere in the forest is needed to change the puzzle's state or the Farfetch'd's behavior.
