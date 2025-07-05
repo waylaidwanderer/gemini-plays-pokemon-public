@@ -61,3 +61,4 @@
 ## V. Development & Testing Notes (Post-Reflection)
 - **Tool Refinement Idea:** The `get_unvisited_warps` tool failed in the Saffron Gym because it doesn't account for disconnected rooms. I need to refine its script to incorporate pathfinding from the player's current position to verify true reachability.
 - **Saffron Gym Hypothesis:** If systematic teleporter mapping fails, my next hypothesis is that all trainers in the gym must be defeated to unlock the path to Sabrina. I will test this only after exhausting the teleporter mapping strategy.
+- **Saffron Gym Hypothesis (Attempt 2):** Defeating all trainers in the gym may unlock the path to Sabrina. I will systematically hunt down and defeat all remaining trainers.
