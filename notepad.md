@@ -54,7 +54,7 @@
 - **Saffron Gym Hypothesis (Attempt 4):** The maze has a simple, linear solution. **Conclusion (T50796):** FAILED. All reachable warps have been visited.
 
 ## VI. Agent & Tool Ideas
-- **Marker Compliance Tool:** A tool that takes a list of map markers and the marker protocol as input, then outputs a list of non-compliant markers to be deleted. This is a computational task, not a reasoning task, so a tool is appropriate. Could automate map cleanup.
+- **Marker Compliance Tool (Implemented):** A tool that parses map markers against my notepad protocols to find non-compliant entries. This is a computational task, making a tool the correct implementation.
 
 ## VII. Silph Co. Re-Exploration (Post-Giovanni)
 - **System Hint (T50986):** The game state indicates there are two reachable, unvisited warps on 10F at (11, 1) and (13, 1), despite my markers. This is a strong lead.
