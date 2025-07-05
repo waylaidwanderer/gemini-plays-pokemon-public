@@ -15,7 +15,7 @@
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, CAVE
 - **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
-- **Directional Warps:** WARP_CARPET_RIGHT, WARP_CARPET_LEFT, WARP_CARPET_DOWN (Activated by moving onto the tile in the specified direction).
+- **Directional Warps (Activation Method Unknown/Blocked):** WARP_CARPET_RIGHT, WARP_CARPET_LEFT, WARP_CARPET_DOWN. Repeated attempts to activate by moving onto the tile or pressing 'A' have failed at the Ilex Forest exit (3, 42). Activation may be conditional.
 - **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
