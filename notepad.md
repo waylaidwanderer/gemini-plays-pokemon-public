@@ -10,7 +10,7 @@
 4.  **Record Results:** Document all findings in the 'Verified' section below. No assumption is valid until tested.
 
 ### Tile Traversal Rules (Verified)
-- **Impassable:** WALL, CUT_TREE, WATER, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, BED, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), VOID
+- **Impassable:** WALL, CUT_TREE, WATER, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), VOID
 - **Interactable Obstacles:** HEADBUTT_TREE (Impassable to walk on, but can be interacted with using 'A').
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, CAVE
@@ -31,8 +31,7 @@
 - **Verified Mechanics:**
     1. **Proximity (Turning):** Approaching the Farfetch'd from a specific side causes it to turn and face you.
     2. **Teleportation (Twigs):** Stepping on a twig causes the Farfetch'd to *teleport* to a new, seemingly fixed location. It does not simply move one space.
-- **Current Hypothesis:** The puzzle involves triggering a specific sequence of twigs to teleport the Farfetch'd along a hidden path towards the apprentice. The direction it faces might be irrelevant.
-- **Current Plan:** Systematically test the teleportation mechanic by manipulating the Farfetch'd's facing direction and triggering specific twigs to understand the teleportation pattern.
+- **Current Hypothesis:** The puzzle involves triggering a specific sequence of twigs to teleport the Farfetch'd along a hidden path towards the apprentice. The direction it faces is critical.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -56,7 +55,7 @@
 
 ## V. Lessons Learned & Self-Correction Archive
 - **External Knowledge:** I must stop making assumptions based on other Pokémon games. All mechanical knowledge must be built **exclusively** from verified, in-game observations within Pokémon Crystal.
-- **Data Management as Priority:** Data management (WKG, Map Markers, Notepad) is the highest priority action, to be performed in the same turn a discovery is made, overriding any other planned action. Deferring these tasks leads to hallucinations and wasted turns. My repeated failures to use `overwrite` on the notepad are a prime example of this failure; I must use precise `replace` and `append` actions instead.
+- **Data Management as Priority:** Data management (WKG, Map Markers, Notepad) is the highest priority action, to be performed in the same turn a discovery is made, overriding any other planned action. Deferring these tasks leads to hallucinations and wasted turns.
 - **Tool Reliability:** I must ensure my custom tools are flawless. When a tool fails, I must immediately redefine it with a more robust script.
 - **Goal Flexibility:** I must be willing to abandon a failing strategy and explore alternatives when progress stalls, rather than becoming fixated on a single approach. The Farfetch'd puzzle is a key example; my long-distance pathing was a flawed strategy due to random encounters resetting the puzzle state.
 - **Tile Documentation:** The 'unknown' tile type represents a placeholder for tiles that have not been fully implemented in the game's code, but are still present on the map. They are impassable and function as walls.
@@ -65,11 +64,6 @@
 - **Test 1:** Stepped on twig at (15, 27) while Farfetch'd was at (15, 25) facing down.
   - **Result:** No effect. Farfetch'd did not move or change orientation.
   - **Conclusion:** Hypothesis that this twig affects the bird in this specific configuration is denied.
-
-- **HEADBUTT_TREE:** Test if this can be interacted with.
-- **HEADBUTT_TREE:** Test if this can be interacted with.
-- **HEADBUTT_TREE:** Test if this can be interacted with.
-- **HEADBUTT_TREE:** Test if this can be interacted with.
 
 - **Test 2:** Farfetch'd at (15, 25) facing down. Stepped on twig at (15, 27).
   - **Result:** Farfetch'd teleported to (20, 24).
