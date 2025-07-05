@@ -16,13 +16,14 @@
 - **Standard Warps:** DOOR, CAVE
 - **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
 - **Directional Warps:** WARP_CARPET_RIGHT, WARP_CARPET_LEFT, WARP_CARPET_DOWN (Activated by moving onto the tile in the specified direction).
-- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
+- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT (One-way traversal in the specified direction).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
 ### Untested Tile Mechanics
 *Goal: Test these tiles as soon as they are encountered.*
 - **LEDGE:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
+- **LEDGE_HOP_RIGHT:** Found at (27, 22). Test if this tile only allows rightward movement.
 
 ## II. Quest Progression & Puzzles
 
@@ -54,5 +55,5 @@
 
 ## IV. Reflections & Self-Correction (Turn 19229)
 - **Data Management:** I have repeatedly failed to update my World Knowledge Graph and Map Markers immediately after discovering new information or transitions. This has caused a cascade of hallucinations and wasted turns. **Correction:** I must treat data management as the highest priority action, to be performed in the same turn a discovery is made, overriding any other planned action.
-- **Tool Reliability:** My `path_master_v10` tool has proven unreliable in complex, maze-like environments like Ilex Forest. It fails to find valid paths that exist. **Correction:** I am redefining the tool as `path_master_v11` with a more robust BFS algorithm to ensure it can handle complex navigation. I must trust my tools, which means I must ensure they are flawless.
+- **Tool Reliability:** My `path_master_v10` and `path_master_v11` tools have proven unreliable in complex, maze-like environments like Ilex Forest. They fail to find valid paths that exist. **Correction:** I am redefining the tool as `path_master_v12` with a more robust A* algorithm to ensure it can handle complex navigation. I must trust my tools, which means I must ensure they are flawless.
 - **Goal Flexibility:** I became fixated on the idea that the officer in the gatehouse was the only way forward, wasting time on a false hypothesis. **Correction:** I need to be more willing to abandon a failing strategy and explore alternatives, as documented in my notepad. I must avoid getting stuck in a single line of thinking and be more flexible in my approach to problem-solving.
