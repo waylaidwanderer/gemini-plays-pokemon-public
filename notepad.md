@@ -15,8 +15,8 @@
 - **Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Standard Warps:** DOOR, CAVE
 - **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
-- **Directional Warps:** WARP_CARPET_RIGHT (Activated by moving onto the tile in the specified direction).
-- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
+- **Directional Warps:** WARP_CARPET_RIGHT, WARP_CARPET_LEFT (Activated by moving onto the tile in the specified direction).
+- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT (One-way traversal in the specified direction).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
 ### Untested Tile Mechanics
@@ -24,23 +24,18 @@
 - **LEDGE:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
 - **WARP_CARPET_DOWN:** Found in Kurt's House. Test by walking on, pressing A, and pressing Down.
-- **WARP_CARPET_LEFT:** Found in Ilex Forest Gatehouse. Test by walking on, pressing A, and pressing Left.
+- **LEDGE_HOP_RIGHT:** Found at (27, 22). Test if this tile only allows rightward movement.
 
 ## II. Quest Progression & Puzzles
 
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
 - **Verified Mechanics:**
-    1. **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn and face you.
-    2. **Movement (Twigs):** Stepping on a twig causes the Farfetch'd to move to a new, predetermined location.
-    3. **Direct Interaction (Disappears):** Pressing 'A' on the Farfetch'd causes it to disappear. It does not immediately reappear.
-- **Failed Hypotheses Log:**
-    1. **Hypothesis:** Leaving and re-entering the map resets the puzzle. **Test:** Left Ilex Forest and returned. **Result:** FAILED. The Farfetch'd was not at its starting position (22, 29). The puzzle state is persistent.
-    2. **Hypothesis:** After being scared from (22, 27) by the twig at (29, 30), the Farfetch'd would move to (22, 28). **Test:** Moved to (22, 29) to check. **Result:** FAILED. The Farfetch'd was not visible. My understanding of its movement logic is incomplete.
-- **Untested Assumptions & Alternative Hypotheses:**
-    1. **Assumption:** The Farfetch'd is still in a currently accessible part of the maze. **Alternative:** Its appearance might be triggered by an external event (e.g., interacting with the shrine at (8, 22)).
-    2. **Assumption:** The twigs are the only way to move the Farfetch'd. **Alternative:** My own proximity or interaction with other objects could influence it.
-- **Current Plan:** Conduct a systematic search of the entire accessible maze area to locate the Farfetch'd. My current search is focused on the western open area.
+    1. **Proximity (Turning):** Approaching the Farfetch'd from a specific side causes it to turn and face you. This is the key to aiming it.
+    2. **Movement (Twigs):** Stepping on a twig causes the Farfetch'd to move. The direction seems to be based on which way it's facing.
+- **Current Working Hypothesis:** I need to use the turning mechanic to aim the Farfetch'd in the correct direction *before* stepping on a twig to move it along a specific path.
+- **Alternative Hypothesis (Untested):** The Farfetch'd's movement might be tied to *which* twig is stepped on, not its orientation. To test: make it face different directions, then step on the same twig to see if it moves to the same spot.
+- **Current Plan:** Test the turning mechanic to gain full control over the Farfetch'd's orientation. Then, use this control to herd it towards the apprentice.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -53,4 +48,3 @@
 - **TM49 (Fury Cutter):** A move that gets stronger with each consecutive hit.
 - **SLOWPOKETAIL:** A man on Route 32 offered to sell this. Its purpose is unknown.
 - **MOOMOO MILK:** Restores 100 HP. Can be purchased at MOOMOO FARM.
-- **LEDGE_HOP_RIGHT:** Found at (27, 22). Test if this tile only allows rightward movement.
