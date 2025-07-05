@@ -91,3 +91,5 @@
   4. Interacting with the spot where the Mysterious Bird Statue was.
 ### Placeholder Tile Mechanics
 - **unknown:** Indicates a tile's type has not yet been observed. Its true type is revealed upon seeing or stepping on it.
+### Placeholder Tile Mechanics
+- **unknown:** Indicates a tile's type has not yet been observed. Its true type is revealed upon seeing or stepping on it.
