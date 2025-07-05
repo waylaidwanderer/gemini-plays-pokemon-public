@@ -78,3 +78,4 @@
 4.  **Hypothesis 4:** Test if twigs cause the Farfetch'd to move one step directly away from the sound instead of teleporting.
 5.  **Hypothesis 5:** Herd the Farfetch'd to be adjacent to the twig at (15, 27) before stepping on it.
 - **HEADBUTT_TREE:** Test if this can be interacted with.
+- **HEADBUTT_TREE:** Test if this can be interacted with.
