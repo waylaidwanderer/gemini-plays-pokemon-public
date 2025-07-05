@@ -79,3 +79,7 @@
 
 ### Farfetch'd Puzzle Test Log - Critique Notes
 - **Marking:** I must mark *every* location the Farfetch'd teleports to and *every* twig I interact with. This is crucial for tracking the puzzle's state.
+
+### Farfetch'd Puzzle - Falsification Test
+- **Alternative Hypothesis:** The puzzle may not be a linear path. It could require a specific, non-obvious sequence of interactions (twigs, movement, approach direction) that don't necessarily move the Farfetch'd progressively westward. 
+- **Test:** After exhausting more direct hypotheses, I will try seemingly illogical actions, such as deliberately herding the Farfetch'd east or interacting with distant twigs, to see if it triggers an unexpected state change.
