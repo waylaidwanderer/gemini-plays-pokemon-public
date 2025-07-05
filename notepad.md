@@ -88,3 +88,9 @@
 ### Ilex Forest - Maze Navigation Strategy
 - **Observation:** Pathfinding tools (`path_master_v13`, `exploration_master`) have confirmed that there is no direct, traversable path to the main puzzle area from the entrance. The forest is a maze.
 - **Strategy:** The correct approach is methodical, manual exploration. I must trace each path to its end, documenting dead ends and junctions with map markers. I am currently exploring the westernmost corridor by backtracking south to find an eastward path.
+
+## Farfetch'd Puzzle - Systematic Test Log
+- **Hypothesis 1 (from Quest Strategist):** Interacting with the twig at (29, 30) will trigger the puzzle.
+  - **Test 1.1:** Stepped on the twig at (29, 30). **Result:** No effect. Farfetch'd did not appear.
+  - **Test 1.2:** Stood on the twig at (29, 30) and pressed 'A'. **Result:** No effect.
+  - **Conclusion:** Hypothesis 1 is falsified. This twig alone does not trigger the puzzle's start.
