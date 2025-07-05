@@ -92,3 +92,7 @@
 ### Ilex Forest - Maze Navigation Strategy
 - **Observation:** Pathfinding tools (`path_master_v13`, `exploration_master`) have confirmed that there is no direct, traversable path to the main puzzle area from the entrance. The forest is a maze.
 - **Strategy:** The correct approach is methodical, manual exploration. I must trace each path to its end, documenting dead ends and junctions with map markers. I am currently exploring the westernmost corridor by backtracking south to find an eastward path.
+
+### Farfetch'd Puzzle - Falsification Test
+- **Alternative Hypothesis:** The puzzle may not be a linear path. It could require a specific, non-obvious sequence of interactions (twigs, movement, approach direction) that don't necessarily move the Farfetch'd progressively westward. 
+- **Test:** After exhausting more direct hypotheses, I will try seemingly illogical actions, such as deliberately herding the Farfetch'd east or interacting with distant twigs, to see if it triggers an unexpected state change.
