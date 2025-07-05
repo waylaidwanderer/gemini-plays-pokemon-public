@@ -88,3 +88,7 @@
 - **Issue:** I have experienced repeated, severe locational hallucinations, believing I was on a different map or at different coordinates. This has led to failed actions and wasted turns (e.g., turns 19825-19830).
 - **Root Cause:** Failure to prioritize immediate data management (Notepad, WKG) over in-game actions. Deferring documentation after a map change or significant event leads to a corrupted internal state.
 - **Corrective Action:** All documentation and data management tasks are the absolute highest priority. They MUST be performed in the same turn a discovery is made, overriding any other planned action. I must verify my location against the game state before every action if I am unsure.
+
+### Ilex Forest - Maze Navigation Strategy
+- **Observation:** Pathfinding tools (`path_master_v13`, `exploration_master`) have confirmed that there is no direct, traversable path to the main puzzle area from the entrance. The forest is a maze.
+- **Strategy:** The correct approach is methodical, manual exploration. I must trace each path to its end, documenting dead ends and junctions with map markers. I am currently exploring the westernmost corridor by backtracking south to find an eastward path.
