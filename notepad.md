@@ -1,12 +1,13 @@
-## I. Core Protocols & Immediate Actions (v49110)
+## I. Core Protocols & Immediate Actions (v49238)
 - **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates must be my highest priority upon any map change.
 - **CRITICAL: WKG Protocol (v39 - Destination Entry Point):** When documenting a map transition, I will first add the source node, then the destination node, and finally the connecting edge. I will always use the correct **numeric string IDs** for maps and verify node existence before creating edges. For `connection_type: "warp"`, I MUST include the `destination_entry_point` property, which is the 1-indexed number corresponding to the *destination* warp's position in the destination map's warp list (NOT the source warp's). I will also use the `tags` array to categorize nodes (e.g., `["stairs", "up"]`, `["teleporter"]`) for better graph analysis. **I must double-check tool schemas to avoid parameter errors and wasted turns.**
 - **CRITICAL: Map Marker Protocol (v18):** Mark defeated trainers, significant wild battles, **used warps (entry and exit)**, picked up items, and confirmed dead ends *immediately*. Mark unvisited warps and key locations to track exploration targets. I must be more diligent about marking every warp used.
 - **CRITICAL: Agent & Tool Protocol (v15 - Agent First):** Agents are for **reasoning and high-level strategy**. Computational tasks (e.g., pathfinding, data parsing) MUST be handled by `run_code` or a custom tool. **I MUST use my defined agents for their intended purpose, especially the `maze_navigator_agent` for the Saffron Gym.** I will use my `protocol_enforcement_agent` to check my plans before execution.
 
 ## II. System & Tool Development
-### A. Tool Debugging & Refinement Protocol (v18 - IMMEDIATE ACTION)
+### A. Tool Debugging & Refinement Protocol (v19 - IMMEDIATE ACTION)
 - **CRITICAL:** If a custom tool is faulty, I MUST redefine and debug it on the IMMEDIATE next turn. **Abandoning a tool is a protocol violation.**
+- **CRITICAL - PENDING ACTION:** I must fix the Saffron Gym teleporter edge (`c84d8299-4fa2-47d5-8aaa-7f0d366b541e`) by adding the correct `destination_entry_point` the next time I enter the gym. This is a high-priority task.
 - **DEBUGGING STEP 1 (Advanced):** Use `run_code` with a modified pathfinding script. Print the `current` node inside the main loop to trace the BFS exploration path.
 - **DEBUGGING STEP 2 (Advanced Analysis):** If no path is found, print the entire `came_from` dictionary to visualize the full explored area and identify the boundary where the pathfinding fails. This will confirm if the map is segmented.
 - **DEBUGGING STEP 3 (Boundary Analysis):** If STEP 2 is insufficient, use a `run_code` script to parse the `came_from` dictionary and the `map_xml_string`. This script will identify all 'boundary tiles' (unexplored tiles adjacent to explored ones) and print their coordinates and tile types. This provides a definitive list of where the pathfinding algorithm is getting stuck.
@@ -58,6 +59,3 @@
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
 - **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** I will use my `maze_navigator_agent` to systematically explore the gym and map out the teleporter connections.
 - **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice.
-
-## VI. Immediate Fixes & Cleanup
-- **WKG CORRECTION PENDING:** I must fix the Saffron Gym teleporter edge (`c84d8299-4fa2-47d5-8aaa-7f0d366b541e`) by adding the correct `destination_entry_point` the next time I enter the gym. This is a high-priority task.
