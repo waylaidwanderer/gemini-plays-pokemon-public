@@ -58,3 +58,6 @@
 - **Farfetch'd Location Alternatives:**
   1. The Farfetch'd is in a hidden area of the forest, accessible through a path I haven't found yet.
   2. The Ilex Forest Shrine at (8, 22) is involved in the puzzle, and I need to interact with it again.
+
+## Misc. Tips & Info
+- Liz mentioned a Pokémon Salon in Goldenrod run by two brothers. One is good, one isn't, but the younger one is sometimes better.
