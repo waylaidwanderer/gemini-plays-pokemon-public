@@ -16,14 +16,13 @@
 - **Standard Warps:** DOOR, CAVE
 - **Movement-Based Warps:** LADDER (Activated by moving onto the tile).
 - **Directional Warps:** WARP_CARPET_RIGHT, WARP_CARPET_LEFT, WARP_CARPET_DOWN (Activated by moving onto the tile in the specified direction).
-- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT (One-way traversal in the specified direction).
+- **One-Way Ledges:** LEDGE_HOP_DOWN, LEDGE_HOP_LEFT, LEDGE_HOP_RIGHT (One-way traversal in the specified direction).
 - **Complex One-Way Tiles:** FLOOR_UP_WALL (Can only be entered by moving UP. Once on it, you can only exit by moving LEFT or RIGHT. You cannot move UP or DOWN off of it).
 
 ### Untested Tile Mechanics
 *Goal: Test these tiles as soon as they are encountered.*
 - **LEDGE:** Test if this is impassable from all directions.
 - **FLOOR_ALLOW_HOP_DOWN:** Test if this tile only allows downward movement.
-- **LEDGE_HOP_RIGHT:** Found at (27, 22). Test if this tile only allows rightward movement.
 
 ## II. Quest Progression & Puzzles
 
@@ -53,7 +52,7 @@
 3.  **Hypothesis 3:** Test if the Farfetch'd flees from the source of the sound. From its start position (22, 29), ignore the nearby twigs and walk over to the isolated twig at (29, 30). Stepping on this should make a sound from the east, potentially causing the Farfetch'd to flee west.
 4.  **Hypothesis 4 (Disproven):** Ignore the Farfetch'd puzzle for now. Navigate the area to find a path to the apprentice at (7, 28) and interact with them directly. They may provide a crucial clue or item required to solve the puzzle. (Result: No new information was gained from the apprentice.)
 
-## IV. Reflections & Self-Correction (Turn 19229)
+## IV. Reflections & Self-Correction (Turn 19292)
 - **Data Management:** I have repeatedly failed to update my World Knowledge Graph and Map Markers immediately after discovering new information or transitions. This has caused a cascade of hallucinations and wasted turns. **Correction:** I must treat data management as the highest priority action, to be performed in the same turn a discovery is made, overriding any other planned action.
-- **Tool Reliability:** My `path_master_v10` and `path_master_v11` tools have proven unreliable in complex, maze-like environments like Ilex Forest. They fail to find valid paths that exist. **Correction:** I am redefining the tool as `path_master_v12` with a more robust A* algorithm to ensure it can handle complex navigation. I must trust my tools, which means I must ensure they are flawless.
-- **Goal Flexibility:** I became fixated on the idea that the officer in the gatehouse was the only way forward, wasting time on a false hypothesis. **Correction:** I need to be more willing to abandon a failing strategy and explore alternatives, as documented in my notepad. I must avoid getting stuck in a single line of thinking and be more flexible in my approach to problem-solving.
+- **Tool Reliability:** My `path_master_v10` and `path_master_v11` tools have proven unreliable in complex, maze-like environments like Ilex Forest. They failed to find valid paths that exist. **Correction:** I have redefined my pathfinding tool as `path_master_v12` with a more robust A* algorithm to ensure it can handle complex navigation. I must trust my tools, which means I must ensure they are flawless.
+- **Goal Flexibility:** I became fixated on the idea that the officer in the gatehouse was the only way forward, and on solving the Farfetch'd puzzle immediately. This wasted significant time. **Correction:** I need to be more willing to abandon a failing strategy and explore alternatives, as documented in my notepad. I will pivot to a new primary goal when progress stalls.
