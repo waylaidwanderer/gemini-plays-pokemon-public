@@ -56,13 +56,13 @@
 
 ## V. Active Hypotheses
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
+- **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** After this battle, return to the previously used teleporter and attempt to use it to go back.
 
 ## VI. Saffron Gym Strategy
 - **Gym Type:** Psychic. Weak to Bug, Ghost, and high physical ATTACK. Bite (Normal) is confirmed super-effective against Psychic.
-- **Maze Strategy:** This is a teleporter maze. I will systematically document each teleporter connection to create a map. I need to test if teleporters are two-way.
+- **Maze Strategy:** This is a teleporter maze. I will systematically document each teleporter connection to create a map.
   - **Warp 1 (12, 16) -> (20, 18):** Entrance to Southeast Room. (Used)
   - **Warp 2 (16, 10) -> (16, 4):** Southeast Room to Northeast Room. (Used)
   - **Warp 3 (20, 10):** Southeast Room. Leads to (20, 9). (Used)
+  - **Warp 4 (20, 4) -> (16, 16):** Northeast Room to Southwest Room. (Used)
 - **Super Effective:** Psychic > Flying (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
-
-## VII. Tool Development Notes
