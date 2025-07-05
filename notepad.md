@@ -56,3 +56,9 @@
 - **Data Management:** I have repeatedly failed to update my World Knowledge Graph and Map Markers immediately after discovering new information or transitions. This has caused a cascade of hallucinations and wasted turns. **Correction:** I must treat data management as the highest priority action, to be performed in the same turn a discovery is made, overriding any other planned action.
 - **Tool Reliability:** My `path_master_v10` and `path_master_v11` tools have proven unreliable in complex, maze-like environments like Ilex Forest. They failed to find valid paths that exist. **Correction:** I have redefined my pathfinding tool as `path_master_v12` with a more robust A* algorithm to ensure it can handle complex navigation. I must trust my tools, which means I must ensure they are flawless.
 - **Goal Flexibility:** I became fixated on the idea that the officer in the gatehouse was the only way forward, and on solving the Farfetch'd puzzle immediately. This wasted significant time. **Correction:** I need to be more willing to abandon a failing strategy and explore alternatives, as documented in my notepad. I will pivot to a new primary goal when progress stalls.
+
+## V. Battle Mechanics & Type Effectiveness
+- **Water vs. Bug/Grass:** Verified that Water-type moves are neutral against Bug/Grass types (e.g., Paras), not 'not very effective'.
+
+## VI. Self-Correction (Turn 19321)
+- **External Knowledge:** My assumption about Water-type effectiveness was based on knowledge from other games. I must build my understanding of mechanics *only* from verified, in-game observations in Pokémon Crystal.
