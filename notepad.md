@@ -55,3 +55,7 @@
 
 ## VI. Agent & Tool Ideas
 - **Marker Compliance Agent:** An agent that takes a list of map markers and the marker protocol as input, then outputs a list of non-compliant markers to be deleted. Could automate map cleanup.
+
+## VII. Silph Co. Re-Exploration (Post-Giovanni)
+- **System Hint (T50986):** The game state indicates there are two reachable, unvisited warps on 10F at (11, 1) and (13, 1), despite my markers. This is a strong lead.
+- **Hypothesis:** These warps may have changed or become active after defeating Giovanni. I must re-investigate them, starting with the one at (11, 1).
