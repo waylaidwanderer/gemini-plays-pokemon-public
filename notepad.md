@@ -76,3 +76,9 @@
 - **H13 (Falsified):** The agent's suggestion that the Farfetch'd fled north from its last western position was incorrect. The area is a dead end blocked by a CUT_TREE or walls.
 - **H14 (Current Hypothesis):** Leaving and re-entering Ilex Forest will reset the entire Farfetch'd puzzle, causing it to reappear at its original location.
 - **H15 (Current Hypothesis):** The Farfetch'd has not reset, but is hiding in the western maze. I must systematically re-explore every path from its last known location near (7, 28).
+- **H15 (Falsified):** Systematically re-exploring every path from the apprentice's location yielded nothing.
+
+### Quest Strategist Agent Hypotheses (Turn 20705)
+- **H16 (Current Hypothesis):** The Farfetch'd is hiding behind a piece of scenery and must be flushed out by interacting with it (pressing 'A').
+- **H17 (Untested):** The puzzle is a sequence using the twigs at (22, 30) and (29, 30) to herd the bird.
+- **H18 (Untested):** The player's facing direction when stepping on a twig determines the bird's escape path.
