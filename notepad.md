@@ -42,6 +42,7 @@
     - Leaving and re-entering the forest does not reset the Farfetch'd's position.
     - The `HEADBUTT_TREE` tiles are not the twigs for the puzzle.
     - Stepping on/off a twig is not the trigger.
+    - Walking into the Farfetch'd does not trigger herding.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
@@ -59,9 +60,6 @@
 - **IMMEDIATE DATA MANAGEMENT:** Update Notepad, Markers, and WKG IMMEDIATELY after discovering new information.
 - **AGENT & TOOL PHILOSOPHY:** Use agents for high-level reasoning and planning. Use tools for computation and repetitive actions. Refine or delete them immediately if they are flawed. Test agent output before discarding.
 - **BATTLE STRATEGY REMINDER:** Always check a Pokémon's moveset before making a strategic switch in battle. My Onix had no Rock-type moves against Scyther.
-- **AGENT DELETION PLAN:** Delete the `farfetchd_herder` agent after obtaining HM01 CUT, as it will be obsolete.
-- **Puzzle Twigs (Verified Locations):**
-    - (29, 30)
 
 ## V. Reflections & Alternative Hypotheses
 
@@ -70,3 +68,4 @@
     -   **Test:** Exhaust all puzzle possibilities first. If still stuck, re-explore Azalea Town and talk to all NPCs again.
 2.  **Herding without Twigs:** The puzzle might be solvable purely by herding the Farfetch'd (approaching from the opposite direction to make it move) in a specific sequence, without stepping on any twigs.
     -   **Test:** Once Farfetch'd is located, attempt to guide it towards the apprentice using only the herding mechanic.
+3. **There are more twigs:** I may not have found all the twigs in the forest. I should explore the unseen areas to look for more.
