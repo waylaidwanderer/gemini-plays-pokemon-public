@@ -75,7 +75,12 @@
   - **Result:** Farfetch'd was not present. **Conclusion: H12 Falsified.**
 - **H13 (Falsified):** The agent's suggestion that the Farfetch'd fled north from its last western position was incorrect. The area is a dead end blocked by a CUT_TREE or walls.
 - **H14 (Current Hypothesis):** Leaving and re-entering Ilex Forest will reset the entire Farfetch'd puzzle, causing it to reappear at its original location.
-- **H15 (Current Hypothesis):** The Farfetch'd has not reset, but is hiding in the western maze. I must systematically re-explore every path from its last known location near (7, 28).
+- **H15 (Falsified):** Systematically re-exploring every path from the apprentice's location yielded nothing.
+
+### Quest Strategist Agent Hypotheses (Turn 20712)
+- **H16 (Current Hypothesis):** The apprentice has returned to Kurt in Azalea Town. I should speak to Kurt again.
+- **H17 (Untested):** The true owner of the Farfetch'd has appeared where the puzzle was solved.
+- **H18 (Untested):** The twigs at (22, 30) and (29, 30) are part of a second, hidden puzzle.
 - **H15 (Falsified):** Systematically re-exploring every path from the apprentice's location yielded nothing.
 
 ### Quest Strategist Agent Hypotheses (Turn 20705)
