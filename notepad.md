@@ -80,8 +80,8 @@
 - **Goal Flexibility:** I must be willing to abandon a failing strategy and explore alternatives when progress stalls, rather than becoming fixated on a single approach.
 
 ## V. Farfetch'd Puzzle - Current Hypothesis
-- **Current Hypothesis (High Priority):** The apprentice's dialogue about his boss being angry is the key clue. I must return to Kurt's house in Azalea Town and speak to him to resolve the quest.
+- **Current Hypothesis (High Priority):** The 'Mysterious Bird Statue' at (5, 6) in this house is the key. It looked like a Farfetch'd. I must interact with it.
 - **Failed Hypotheses Log:**
   1. Making the Farfetch'd disappear and then talking to the apprentice.
   2. Leaving the forest and returning to reset the puzzle state.
-  3. Repeatedly talking to Kurt in his house after chasing the Farfetch'd away.
+  3. Repeatedly talking to Kurt in his house. This results in a dialogue loop about his missing apprentice and provides no new information.
