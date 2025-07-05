@@ -57,3 +57,4 @@
 ## V. Active Hypotheses
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
 - **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** Now that I'm healed, I will return to the gym, navigate to (16, 16), and use the teleporter to see if it takes me back to (20, 4).
+- **Visual Bug:** In battle, NEPTUNE (LAPRAS) is sometimes displayed as a GHOST type, though its actual typing is Water/Ice.
