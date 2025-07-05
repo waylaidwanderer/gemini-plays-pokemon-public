@@ -34,7 +34,7 @@
 ### Ilex Forest - Farfetch'd Puzzle
 - **Objective:** Guide the lost FARFETCH'D to the apprentice at (7, 28) to get HM01 CUT.
 - **Verified Mechanics:**
-    - **Proximity (Turning):** Moving to a tile adjacent to the Farfetch'd causes it to turn and face the player.
+    - **Proximity (Turning):** Confirmed. Moving to a tile adjacent to the Farfetch'd causes it to turn and face the player. Tested by moving to (28, 22) while Farfetch'd was at (29, 22); it turned to face left.
     - **Proximity (Herding):** Approaching the Farfetch'd from the direction **OPPOSITE** to where it is currently facing will scare it, causing it to move one tile directly away from the player.
     - **Movement Mechanic (Twigs):** Stepping on a twig causes the Farfetch'd to turn towards the sound and then move to a new, seemingly predetermined location. 
     - **Direct Interaction:** Causes the Farfetch'd to squawk and then disappear from the map, failing the puzzle. This is a confirmed fail state.
