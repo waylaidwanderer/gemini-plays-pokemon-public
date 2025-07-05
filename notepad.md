@@ -14,8 +14,7 @@
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** Generates a sequence of button presses to navigate the Pokémon PC menu to withdraw or deposit a specific Pokémon. It now correctly differentiates between 'BILL's PC' (for Pokémon) and 'Gem's PC' (for items) and is context-aware of the current menu. It is a reliable tool for depositing and withdrawing Pokémon.
 - **`battle_strategist_agent`:** Provides the safest, most cautious move. Its primary directive is survival. Overriding its advice is a high-risk action, as my successful override against Giovanni's Machoke demonstrated. It should be trusted for risk-averse plays, but I must use my own judgment when a high-risk/high-reward gambit is the only path to victory.
-### C. Future Agent Ideas
-- **`Dungeon_Navigator`:** An agent that can parse the World Knowledge Graph to find the most efficient multi-floor path in complex locations like Silph Co. or Rock Tunnel.
+- **`maze_navigator_agent`:** An agent that can parse the World Knowledge Graph to suggest the next optimal, unvisited teleporter to take for systematic maze exploration.
 
 ## III. Game Mechanics & Battle Intel
 ### A. Tile Mechanics & Traversal Rules (v6)
@@ -57,12 +56,3 @@
 ## V. Active Hypotheses
 - **Hypothesis:** Seafoam Islands contains a legendary Pokémon.
 - **Hypothesis:** The teleporters in Saffron Gym may not be two-way. **Test:** After this battle, return to the previously used teleporter and attempt to use it to go back.
-
-## VI. Saffron Gym Strategy
-- **Gym Type:** Psychic. Weak to Bug, Ghost, and high physical ATTACK. Bite (Normal) is confirmed super-effective against Psychic.
-- **Maze Strategy:** This is a teleporter maze. I will systematically document each teleporter connection to create a map.
-  - **Warp 1 (12, 16) -> (20, 18):** Entrance to Southeast Room. (Used)
-  - **Warp 2 (16, 10) -> (16, 4):** Southeast Room to Northeast Room. (Used)
-  - **Warp 3 (20, 10):** Southeast Room. Leads to (20, 9). (Used)
-  - **Warp 4 (20, 4) -> (16, 16):** Northeast Room to Southwest Room. (Used)
-- **Super Effective:** Psychic > Flying (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
