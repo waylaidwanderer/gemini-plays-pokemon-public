@@ -34,17 +34,13 @@
     1. **Proximity (Turning):** Moving near the Farfetch'd can cause it to turn and face you.
     2. **Movement (Twigs):** Stepping on a twig causes the Farfetch'd to move to a new, predetermined location.
     3. **Direct Interaction (Disappears):** Pressing 'A' on the Farfetch'd causes it to disappear. It does not immediately reappear.
-    4. **No Reset:** Leaving the map does not reset the puzzle state.
-- **Event Log & Deductions:**
-    1. **Start:** Farfetch'd at (22, 29).
-    2. **Action:** Stepped on twig at (22, 30).
-    3. **Result:** Farfetch'd moved to (22, 27).
-    4. **Action:** Stepped on twig at (29, 30).
-    5. **Result:** Farfetch'd disappeared from view.
-    6. **Deduction:** From (22, 27), the sound at (29, 30) would make it face right. Fleeing from the sound would mean moving left, but (21, 27) is a WALL. The only open path is down.
-- **Failed Deduction & New Plan:**
-    1. **Deduction:** The Farfetch'd moved from (22, 27) to (22, 28). **Test:** Moved to (22, 29) to check. **Result:** FAILED. The Farfetch'd was not at (22, 28) or in the surrounding visible area. This proves my understanding of its movement is incomplete.
-    2. **New Plan:** The Farfetch'd must be somewhere else in the maze. I will conduct a systematic search for it, starting in the open area to the west, towards the apprentice.
+- **Failed Hypotheses Log:**
+    1. **Hypothesis:** Leaving and re-entering the map resets the puzzle. **Test:** Left Ilex Forest and returned. **Result:** FAILED. The Farfetch'd was not at its starting position (22, 29). The puzzle state is persistent.
+    2. **Hypothesis:** After being scared from (22, 27) by the twig at (29, 30), the Farfetch'd would move to (22, 28). **Test:** Moved to (22, 29) to check. **Result:** FAILED. The Farfetch'd was not visible. My understanding of its movement logic is incomplete.
+- **Untested Assumptions & Alternative Hypotheses:**
+    1. **Assumption:** The Farfetch'd is still in a currently accessible part of the maze. **Alternative:** Its appearance might be triggered by an external event (e.g., interacting with the shrine at (8, 22)).
+    2. **Assumption:** The twigs are the only way to move the Farfetch'd. **Alternative:** My own proximity or interaction with other objects could influence it.
+- **Current Plan:** Conduct a systematic search of the entire accessible maze area to locate the Farfetch'd. My current search is focused on the western open area.
 
 ### Ruins of Alph Puzzle
 - **Objective:** Solve the sliding stone panel puzzle.
