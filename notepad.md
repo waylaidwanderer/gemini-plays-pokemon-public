@@ -48,3 +48,7 @@
 - **Saffron Gym Hypothesis (Attempt 1):** Defeating all trainers in the gym will unlock the path to Sabrina.
 - **Saffron Gym Hypothesis (Attempt 2 - Defeat all trainers in Sabrina's room):** Defeating all trainers in Sabrina's immediate room will unlock the path to her. **Conclusion (T50140):** FAILED. The path remained blocked.
 - **Saffron Gym Hypothesis (Attempt 3):** Defeating all trainers in the room with the Channeler at (4, 8) does not open the path to Sabrina. **Conclusion (T50170):** FAILED. The trigger is something else entirely.
+## V. Saffron Gym Maze - Systematic Re-Exploration (T50787)
+- **Hypothesis:** A specific sequence of teleporters is required. My previous markers are unreliable.
+- **Plan:** Systematically re-test every teleporter, starting from the entrance room, and create perfect, standardized markers.
+- **Attempt 1:** Start with the teleporter at (2, 18).
