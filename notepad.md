@@ -13,7 +13,7 @@
 - **DEBUGGING STEP 4:** Use `define_tool` to submit a corrected version of the script based on systematic analysis.
 ### B. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** Generates a sequence of button presses to navigate the Pokémon PC menu to withdraw or deposit a specific Pokémon. Reliable for PC operations.
-- **`battle_strategist_agent`:** Provides battle advice. **STATUS: UNDERGOING IMMEDIATE REFINEMENT.** The agent has two critical flaws: recommending a switch to a sleeping Pokémon, and recommending a switch to the active Pokémon. I am fixing this now by adding `active_pokemon_name` to the input and updating the prompt to validate against both fainted and non-fainted status conditions AND the active Pokémon.
+- **`battle_strategist_agent`:** Provides battle advice. **STATUS: REFINED.** The agent now correctly validates against fainted, sleeping, and active Pokémon to avoid invalid switch recommendations.
 - **`maze_navigator_agent`:** An agent that can parse the World Knowledge Graph to suggest the next optimal, unvisited teleporter to take for systematic maze exploration. **MUST USE IN SAFFRON GYM.**
 ### C. Future Development Ideas
 - **WKG Analysis Agent:** Consider creating an agent that can take a `map_id` and return a summary of all nodes and connections on that map to assist with navigation planning.
