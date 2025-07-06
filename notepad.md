@@ -53,3 +53,6 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Status: SOLVED!** Received HM01 (CUT) as a reward.
+
+### Goldenrod Department Store
+*   **Note:** There is an unmarked staircase at (2, 0) on the first floor that needs to be explored.
