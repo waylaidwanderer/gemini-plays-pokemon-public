@@ -20,11 +20,10 @@
 *   **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at `(7, 28)`.
 *   **Confirmed Mechanics:**
     1.  **Turning:** The bird's turning is complex and based on my final position relative to it.
-    2.  **Twigs:** The twigs at (22, 30) and (29, 30) can trigger movement or turning.
-    3.  **Interaction:** Pressing 'A' on the bird makes it disappear and reappear elsewhere.
-    4.  **Reset:** Wild battles can reset the puzzle.
-*   **Current State:** Stuck in a loop. Need a new approach.
-*   **New Testable Hypothesis:** The puzzle might be solved without herding. Alternative hypothesis: Interacting with the Ilex Forest Shrine at (8, 22) might be a trigger.
+    2.  **Interaction:** Pressing 'A' on the bird makes it disappear and reappear elsewhere.
+    3.  **Reset:** Wild battles can reset the puzzle.
+*   **Current State:** Stuck in a loop. My previous strategy was based on a hallucination that floor twigs were interactable. They are not.
+*   **New Testable Hypothesis:** The only confirmed interactable element is the Ilex Forest Shrine at (8, 22). This must be the key, but it is currently blocked by a CUT_TREE. I must find a way to get CUT to proceed.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
