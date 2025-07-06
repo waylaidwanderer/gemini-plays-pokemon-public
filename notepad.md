@@ -26,20 +26,7 @@
 *   **HM01 (CUT):** Clears small trees. Requires the Hive Badge from Azalea Town to use outside of battle. Taught to SUNDEW.
 *   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
 
-## III. Puzzles & Quests
-
-### Puzzle-Solving Methodology
-1.  **Observe:** Describe the situation based only on what I see.
-2.  **Hypothesize:** Form a single, testable hypothesis.
-3.  **Test:** Design and execute the simplest possible test.
-4.  **Conclude:** State whether the hypothesis was confirmed or denied. Document all steps.
-
-### Ilex Forest - Farfetch'd Puzzle
-*   **Objective:** Herd the Farfetch'd to the apprentice at `(7, 28)`.
-*   **Verified Mechanics:**
-    *   The Farfetch'd's movement and orientation are changed by my position relative to it.
-    *   Interacting directly (pressing 'A') or getting into a wild battle resets the puzzle by making the bird disappear and reappear elsewhere.
-*   **Status: SOLVED!** Received HM01 (CUT) as a reward.
+## III. Active Puzzles & Quests
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
@@ -54,3 +41,9 @@
 
 ### Tool Development Log
 *   **Exploration Tool:** `maze_explorer_v2` has been created to find the nearest unseen tile. It successfully paths to the last traversable tile adjacent to the unseen one, avoiding pathing into walls.
+
+## V. Archived Puzzles (Solved)
+
+### Ilex Forest - Farfetch'd Puzzle
+*   **Objective:** Herd the Farfetch'd to the apprentice at `(7, 28)`.
+*   **Status: SOLVED!** Received HM01 (CUT) as a reward.
