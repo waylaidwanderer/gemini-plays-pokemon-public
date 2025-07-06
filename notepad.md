@@ -35,7 +35,7 @@
 ## III. Active Puzzles & Hypotheses
 
 ### Goldenrod Underground
-*   **Confirmed:** The SUPER_NERDs in the Goldenrod Underground are one-time events. Interacting with them triggers a short dialogue, after which they disappear, clearing the path.
+*   **Confirmed:** Specific SUPER_NERD trainers in the underground are one-time events. Interacting with them triggers a short dialogue, and they disappear, clearing the path. This is a confirmed puzzle mechanic.
 *   **Hypothesis:** The underground is a series of disconnected rooms, and progression requires finding the correct sequence of warps or hidden switches, not just defeating trainers.
     *   **Test:** Systematically explore all warps and check walls for hidden passages after clearing reachable areas.
 
