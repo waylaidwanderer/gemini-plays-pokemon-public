@@ -66,3 +66,6 @@
 
 ## VI. Confirmed Mechanics (Post-Sabrina)
 - **SURF Usage:** Only Water-type Pokémon can use SURF in the field. Confirmed after TITANESS (Normal) failed and NEPTUNE (Water/Ice) succeeded at (5, 14) in Pallet Town.
+
+## VI. Confirmed Mechanics (Post-Sabrina)
+- **SURF Usage:** Only Water-type Pokémon can use SURF in the field. Confirmed after TITANESS (Normal) failed and NEPTUNE (Water/Ice) succeeded at (5, 14) in Pallet Town.
