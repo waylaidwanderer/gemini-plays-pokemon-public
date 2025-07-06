@@ -10,7 +10,8 @@
 ### Verified Tile Types
 *   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `COUNTER`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `MART_SHELF`, `BIRD` (Farfetch'd), `CUT_TREE`, `WATER`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
-*   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile), `WARP_CARPET_RIGHT/LEFT/DOWN` (Move in specified direction). Gatehouse warps are triggered by walking into the building side.
+*   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
+*   **Directional Warps:** `WARP_CARPET_LEFT`, `WARP_CARPET_DOWN` (Move in specified direction).
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:** `FLOOR_UP_WALL` (Verified: Enter by moving UP; Exit by moving LEFT/RIGHT).
 *   **Untested:** `VOID` (Must test when reachable)
@@ -39,11 +40,12 @@
 *   I must mark moving objects (like the Farfetch'd) using their `object_id` to ensure the marker tracks them correctly. Static markers are for static objects/locations only.
 *   I must remember to use `strategic_advisor` when feeling stuck and feed failed attempts into `quest_strategist` for better hypotheses.
 
-### Tool Development Log
-*   **Exploration Tool:** `maze_explorer_v2` has been created to find the nearest unseen tile. It successfully paths to the last traversable tile adjacent to the unseen one, avoiding pathing into walls.
+### Reflection Takeaways (Turn 22298)
+*   **Lapse:** Deferred marking warps in the DayCare. Must mark all discovered warps immediately.
+*   **Untested Assumption:** The egg from the Day-Care Man is critical. Alt. Hypothesis: It's just a regular Pokémon. Test by observing if it's a gate for future progress.
+*   **Untested Assumption:** Goldenrod City is the next mandatory location. Alt. Hypothesis: Another area accessible from Route 34 is important. Test by fully exploring Route 34 before entering Goldenrod.
 
 ## V. Archived Puzzles (Solved)
 
 ### Ilex Forest - Farfetch'd Puzzle
-*   **Objective:** Herd the Farfetch'd to the apprentice at `(7, 28)`.
 *   **Status: SOLVED!** Received HM01 (CUT) as a reward.
