@@ -55,9 +55,7 @@
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
 - **Impassable Tiles:** Tiles that appear as solid walls, furniture, or other solid objects are generally impassable and act as barriers to movement.
-- **Pokemon Mansion 1F (Eastern Section):** After flipping the main switch at (3, 6), a new set of gates at (25, 14) and (26, 14) became reachable, suggesting a second switch in this area controls them. Path west became blocked, confirming the alternating door mechanic.
-
 ### A. Active Hypotheses
-- **Pokemon Mansion 1F Puzzle (RE-REVISED):** The mansion operates on an 'alternating doors' system. The western gates closing after I moved through the eastern area confirms I stepped on a hidden trigger that flipped the state.
-  - **Hypothesis:** The main switch at (3,6) enables/disables a hidden trigger for the eastern gates. The path forward is now to return to the switch at (3,6) and flip it AGAIN to reopen the western path.
-  - **Test Plan:** 1. Finish this battle. 2. Navigate back to (3,7). 3. Flip the switch. 4. Verify the western gates at (17,8) and (18,8) are now open. 5. Explore the western path.
+- **Pokemon Mansion 1F Puzzle (RE-RE-REVISED):** The mansion operates on a complex 'alternating doors' system. The western gates at (17,8) and (18,8) closing after I passed through the eastern area at (26,14) confirms there's a hidden trigger. 
+  - **Hypothesis:** Stepping on a specific tile in the eastern area toggles the state of both the eastern and western gates. The switch at (3,6) likely only controls the initial state.
+  - **Test Plan:** 1. Finish this battle and catch the Grimer. 2. Explore the southern area now accessible through the open eastern gates. 3. If this path dead-ends, the next step is to return to the main switch at (3,6) to flip it again, which should re-open the western path.
