@@ -56,3 +56,9 @@
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
 - **Impassable Tiles:** Tiles that appear as solid walls, furniture, or other solid objects are generally impassable and act as barriers to movement.
 - **Pokemon Mansion 1F (Eastern Section):** After flipping the main switch at (3, 6), a new set of gates at (25, 14) and (26, 14) became reachable, suggesting a second switch in this area controls them. Path west became blocked, confirming the alternating door mechanic.
+
+### A. Active Hypotheses
+- **Pokemon Mansion 1F Puzzle:** The eastern gates at (25,14) and (26,14) are controlled by a separate, undiscovered mechanism in the eastern section of the floor. My previous search of this area was incomplete.
+  - **Hypothesis:** A second switch exists in the eastern section of 1F.
+  - **Test Plan:** Return to the eastern area and conduct a more thorough, systematic search, interacting with any suspicious-looking tiles.
+  - **Conclusion:** TBD.
