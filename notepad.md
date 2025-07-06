@@ -70,3 +70,4 @@
 *   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
 *   **LIZ (PICNICKER):** Gives gameplay tips.
 *   **RALPH (FISHER):** Calls about his fishing exploits.
+*   **Haircuts:** Getting a haircut from the brothers in the Goldenrod Underground increases a Pokémon's happiness.
