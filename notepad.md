@@ -9,6 +9,7 @@
 ### A. Agent & Tool Usage Notes
 - **`pc_navigator_agent`:** Generates a sequence of button presses to navigate the Pokémon PC menu to withdraw or deposit a specific Pokémon. Reliable for PC operations.
 - **`battle_strategist_agent`:** Provides battle advice. **STATUS: REFINED.** The agent now correctly validates against fainted, sleeping, and active Pokémon to avoid invalid switch recommendations.
+- **`systematic_searcher`:** My `systematic_searcher` tool is still flawed. I have failed to correctly implement reachability checks twice. This is a critical failure of my protocol. I will now define `systematic_searcher_v3` with a proper BFS implementation to ensure it only suggests reachable tiles. All other actions are on hold.
 
 ## III. Game Mechanics & Battle Intel
 ### A. Tile Mechanics & Traversal Rules (v13)
