@@ -19,10 +19,13 @@
 *   **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at `(7, 28)`.
 *   **Verified Mechanics:**
     1.  **Turning:** The bird's turning is based on my final position relative to it. Approaching from below at (28, 32) makes it face left.
-    2.  **Puzzle Reset:** Wild Pokémon battles reset the puzzle, returning the bird to (28, 31).
-    3.  **Twigs:** Stepping on twigs at (22, 30) and (29, 30) only causes the bird to turn.
-    4.  **Interaction:** Interacting with the bird directly (pressing 'A') makes it disappear.
-*   **Current State:** The bird has disappeared after I interacted with it. My new plan is to find where it respawned. I will start by checking its initial spawn point at (28, 31) and then the other marked location at (29, 22).
+    2.  **Puzzle Reset/Movement:**
+        - Interacting with the bird (pressing 'A') makes it disappear.
+        - After disappearing (either from interaction or a wild battle), the bird can respawn at different locations. It has been observed at (28, 31) and now at (29, 22).
+    3.  **Twigs:** The twigs at (22, 30) and (29, 30) only cause the bird to turn, NOT move.
+    4.  **Chasing:** Attempting to walk onto the bird's tile from behind only causes it to turn.
+*   **Current State:** The bird is now at (29, 22). My new plan is to figure out how to herd it from this new position.
+*   **New Test Plan:** Approach the bird at (29, 22) from below at (29, 23) to see if it turns left.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
