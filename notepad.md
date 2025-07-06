@@ -4,7 +4,7 @@
 - **Hypothesis-Driven Gameplay:** I will rigorously document my hypotheses, tests, and conclusions in my notepad. I will avoid repeating failed strategies and will pivot to new goals if progress stalls after multiple documented attempts.
 
 ## II. Tool Development Log
-- **pathfinder:** REFINED (T52445). Added logic to handle impassable destination tiles by pathing to the nearest walkable adjacent tile. REFINED AGAIN (T52447) to correctly recognize 'closed_gate' tiles as impassable. REFINED A THIRD TIME (T52480) to remove dependency on `xml.et` module.
+- **pathfinder:** REFINED (T52445). Added logic to handle impassable destination tiles by pathing to the nearest walkable adjacent tile. REFINED AGAIN (T52447) to correctly recognize 'closed_gate' tiles as impassable. REFINED A THIRD TIME (T52480) to remove dependency on `xml.et` module. REFINED A FOURTH TIME (T53844) with improved parsing logic.
 
 ## III. Game Mechanics & Battle Intel
 ### A. Tile Mechanics & Traversal Rules
@@ -42,17 +42,15 @@
 
 ## IV. Puzzle & Hypothesis Log
 ### A. Active Hypotheses
-- **Pokemon Mansion Gate System:** The gates are not on a simple toggle system. Hypothesis: There are hidden pressure plates or a specific sequence of switch interactions that control the gates. Test: Explore the newly opened southern area on 1F to look for triggers. Systematically test each switch in isolation to confirm its direct effect.
 - **Pokemon Mansion B1F:** The basement floor, accessible via stairs on 3F, likely holds the SECRET KEY. Hypothesis: The key is guarded by a trainer or hidden behind a puzzle. Test: Fully explore B1F.
 
 ### B. Solved Puzzles & Confirmed Mechanics
-- **Pokemon Mansion Puzzle (Floors 1-3):** The mansion uses an 'alternating doors' system controlled by switches.
-  - **1F Switch (3, 6):** Toggles the western gates at (17, 8/18, 8). (Confirmed T53644)
+- **Pokemon Mansion 1F Puzzle System:** Confirmed 'alternating doors' mechanic. The switch at (3, 6) toggles the western gates at (17, 8) and the southern gates at (25, 14) inversely. When one set is open, the other is closed. (Confirmed T53862)
+- **Pokemon Mansion Puzzle (Floors 2-3):** The mansion uses an 'alternating doors' system controlled by switches.
   - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). (Confirmed T52787)
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
-- **Pokemon Mansion 1F:** Wild Grimer can be encountered.
-- **Pokemon Mansion 1F Puzzle System:** Confirmed 'alternating doors' mechanic. The switch at (3, 6) toggles the western gates at (17, 8) and the southern gates at (25, 14) inversely. When one set is open, the other is closed.
-- **Pokemon Mansion 1F Puzzle System:** Confirmed 'alternating doors' mechanic. The switch at (3, 6) toggles the western gates at (17, 8) and the southern gates at (25, 14) inversely. When one set is open, the other is closed.
-- **Pokemon Mansion 1F Encounters:** Wild Grimer and Raticate can be found.
+
+## V. Pokemon Encounter Log
+- **Pokemon Mansion 1F:** Wild Grimer and Raticate can be found.
