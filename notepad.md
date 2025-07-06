@@ -55,4 +55,3 @@
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
 - **Paralysis Ineffectiveness:** Paralyzed Pokémon can still attack; paralysis is not a 100% stop. (Confirmed T52193, T52194)
-- **Mansion 2F Re-evaluation:** The system confirmed the diary at (4, 23) is a 'Guaranteed Reachable Interactable Tile'. This proves my hypothesis about needing to fall from 3F is INCORRECT. There must be a trigger on 2F to open the southern gates.
