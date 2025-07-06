@@ -24,7 +24,7 @@
 - **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at (7, 28).
 - **Verified Mechanics:**
     1. **Turning:** Approaching Farfetch'd from a cardinal direction causes it to turn and face the player.
-    2. **Teleportation:** Interacting with Farfetch'd directly (pressing 'A') or stepping on a specific twig can cause it to teleport. The trigger seems to depend on its position and facing direction relative to the specific twig used.
+    2. **Teleportation:** Interacting with Farfetch'd directly (pressing 'A') makes it teleport away. Stepping on a specific twig can also cause it to teleport, with the trigger depending on its position and facing direction relative to the twig.
     3. **Reset Conditions:** Wild battles, leaving the area, or sometimes direct interaction resets the puzzle to its initial state (Farfetch'd at (29, 22)).
 - **Alternative Hypotheses to Test:**
   1. The Ilex Forest Shrine at (8, 22) is involved in the puzzle.
