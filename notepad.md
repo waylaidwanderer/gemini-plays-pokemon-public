@@ -62,3 +62,4 @@
 - **Pokemon Mansion Hypothesis (Attempt 3):** The switch in the eastern section of 3F is the key to progress. **Conclusion (T52201):** FAILED. The switch at (11, 6) is unreachable from the western access point.
 - **Pokemon Mansion Hypothesis (Attempt 5):** The Super Nerd at (2, 18) gave a clue: 'Switches open and close alternating sets of doors!'. This confirms the switch at (3, 12) is the key to progress.
   - **Test:** Navigate to (3, 13) and activate the switch at (3, 12). This should open a new path.
+- **Closed Gates:** `closed_gate` tiles are impassable until a corresponding switch is activated.
