@@ -8,11 +8,12 @@
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `COUNTER`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `VOID`, `MART_SHELF`, `BIRD` (Farfetch'd), `CUT_TREE`
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `COUNTER`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `MART_SHELF`, `BIRD` (Farfetch'd), `CUT_TREE`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile), `WARP_CARPET_RIGHT/LEFT/DOWN` (Move in specified direction). Gatehouse warps are triggered by walking into the building side.
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:** `FLOOR_UP_WALL` (Verified: Enter by moving UP; Exit by moving LEFT/RIGHT).
+*   **Untested:** `VOID` (Must test when reachable)
 
 ## II. Quests & Puzzles
 
@@ -25,9 +26,9 @@
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd to the apprentice at `(7, 28)`.
 *   **Verified Mechanics:**
-    *   The Farfetch'd's movement and orientation are changed by my position relative to it. There are no interactable 'twigs'.
+    *   The Farfetch'd's movement and orientation are changed by my position relative to it. 
     *   Interacting directly (pressing 'A') or getting into a wild battle resets the puzzle by making the bird disappear and reappear elsewhere.
-*   **Current Hypothesis:** I need to find the Farfetch'd again and then use my position to manipulate its movement systematically.
+*   **Current Status:** Lost the Farfetch'd. Currently trapped in a maze section.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
