@@ -16,13 +16,10 @@
 
 ## II. Quests & Puzzles
 
-### Ilex Forest - Farfetch'd Puzzle
-*   **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at `(7, 28)`.
-*   **Confirmed Mechanics:**
-    1.  **Turning:** The bird's turning is complex and based on my final position relative to it.
-    2.  **Interaction:** Pressing 'A' on the bird makes it disappear and reappear elsewhere.
-    3.  **Reset:** Wild battles can reset the puzzle.
-*   **Current State:** My previous strategy was based on a hallucination that floor twigs were interactable. They are not. The puzzle is currently unsolvable as the only confirmed interactable, the Ilex Forest Shrine at (8, 22), is blocked by a CUT_TREE. I must find the exit of the forest and return later.
+### Ilex Forest - Farfetch'd Puzzle (POSTPONED)
+*   **Status:** UNSOLVABLE.
+*   **Reason:** The only confirmed interactable element is the Ilex Forest Shrine at `(8, 22)`. This shrine is blocked by a CUT_TREE at `(8, 25)`. I do not have the HM for CUT.
+*   **Conclusion:** I must exit the forest and return later once I have obtained HM01 (CUT). My previous strategies based on hallucinated 'twigs' were incorrect.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
