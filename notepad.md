@@ -18,15 +18,13 @@
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at `(7, 28)`.
 *   **Verified Mechanics:**
-    1.  **Turning:** The bird's turning is based on my final position relative to it. Approaching from below at (28, 32) makes it face left.
-    2.  **Puzzle Reset/Movement:**
-        - Interacting with the bird (pressing 'A') makes it disappear.
-        - After disappearing (either from interaction or a wild battle), the bird can respawn at different locations. It has been observed at (28, 31) and now at (29, 22).
-    3.  **Twigs:** The twigs at (22, 30) and (29, 30) only cause the bird to turn, NOT move.
-    4.  **Chasing:** Attempting to walk onto the bird's tile from behind only causes it to turn.
-*   **Current State:** The bird is now at (29, 22). My new plan is to figure out how to herd it from this new position.
-*   **Test 4 (New Position):** Stepped on the twig at (29, 30) while the bird was at (29, 22) and facing UP. **Result: SUCCESS!** The bird disappeared. This confirms that twigs can cause movement/teleportation under specific conditions.
-*   **New Plan:** Find the bird's new location. I will start searching near the apprentice.
+    1.  **Turning:** The bird's turning is complex and based on my final position relative to it.
+    2.  **Twigs:** The twigs at (22, 30) and (29, 30) cause the bird to turn, but under specific conditions can also trigger movement.
+    3.  **Interaction:** Pressing 'A' on the bird makes it disappear.
+    4.  **Reset/Movement:**
+        - Wild battles can reset the puzzle, causing the bird to respawn. Observed locations: (28, 31) and (29, 22).
+        - **SUCCESS:** Stepping on the twig at (29, 30) while the bird was at (29, 22) and facing UP caused it to disappear. This is a confirmed movement trigger.
+*   **Current Plan:** Find the bird's new location. I've already checked near the apprentice (no luck). The next step is to check the other marked spawn point at (29, 22).
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
