@@ -43,12 +43,12 @@
 #### B4. Visual Bugs
 - **Type Display Error:** In battle, my Golbat ECHO (Poison/Flying) was incorrectly displayed as a GHOST type. My Lapras NEPTUNE (Water/Ice) was also displayed as GHOST and NORMAL type.
 
-## IV. Untested Assumptions
+## IV. Active Hypotheses
 1.  **Pokemon Mansion 2F Gate Puzzle:** The switch at (3, 12) opens the gates at (10, 5) and (10, 6). Based on the 'alternating doors' clue. **Test:** After exploring all unseen tiles, press the switch and check the gates. **Disprove:** If gates open, press switch again to see if they close.
 2.  **Super Nerd at (4, 18):** Assumed to be a non-essential NPC. **Test:** Talk to him after exploring.
 3.  **Hole Tiles:** Assumed to be one-way drops. **Test:** Fall through one and document start/end coordinates. (Low priority).
 
-## V. Solved Puzzles & Archived Hypotheses
+## V. Puzzle Archive
 - **Pokemon Mansion 1F West Gate Puzzle:** A Super Nerd on 2F at (2, 18) gave a clue: 'Switches open and close alternating sets of doors!'. **Conclusion (T52390):** CONFIRMED. Activating the switch at (3, 6) on 1F opened the gates at (17, 8) and (18, 8), granting access to the eastern section of the floor.
 - **Saffron Gym Hypothesis (Attempt 2 - Defeat all trainers in Sabrina's room):** Defeating all trainers in Sabrina's immediate room will unlock the path to her. **Conclusion (T50140):** FAILED. The path remained blocked.
 - **Saffron Gym Hypothesis (Attempt 3):** Defeating all trainers in the room with the Channeler at (4, 8) does not open the path to Sabrina. **Conclusion (T50170):** FAILED. The trigger is something else entirely.
