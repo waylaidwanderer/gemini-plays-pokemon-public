@@ -50,3 +50,9 @@
 *   I must mark moving objects using their `object_id`.
 *   I must use `strategic_advisor` when feeling stuck and feed failed attempts into `quest_strategist` for better hypotheses.
 *   I must use `nickname_genius` the next time I catch a Pokémon.
+
+## V. Phone Contacts
+*   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
+*   **TODD (CAMPER):** Calls about sales at the Goldenrod Department Store.
+
+*Note to self: Add a reminder to test the `MART_SHELF` tile in my protocol section.*
