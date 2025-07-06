@@ -18,13 +18,11 @@
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at `(7, 28)`.
 *   **Verified Mechanics:**
-    1.  **Turning:** My movement to an adjacent tile causes the bird to turn. The logic is complex and based on my final position relative to the bird, not just my direction of approach.
-    2.  **Puzzle Reset:** Wild Pokémon battles reset the entire puzzle, causing the bird to return to its respawn point at (28, 31). Leaving the forest also resets it.
-    3.  **Twigs:** The twigs at (22, 30) and (29, 30) cause the bird to turn, NOT move.
-*   **Current State:** I am at (27, 31), in front of the bird, which is at (28, 31) facing down.
-*   **Test 5 (Interact from Front):** Interacting with the bird from (27, 31) only produced a "Kwaa!" sound. **Result: FAILED.** Interaction is not the trigger for movement.
-*   **Current Test:** The bird is at (28, 31) facing left. I am at (27, 31). I will move to (27, 32). Hypothesis: Moving from a position in front of the bird to a position diagonally below it will cause it to move forward one step.
-*   **Alternative Hypotheses to Test if Above Fails:**
+    1.  **Turning:** The bird's turning is based on my final position relative to it. Approaching from below at (28, 32) makes it face left.
+    2.  **Puzzle Reset:** Wild Pokémon battles reset the puzzle, returning the bird to (28, 31).
+    3.  **Twigs:** Stepping on twigs at (22, 30) and (29, 30) only causes the bird to turn.
+    4.  **Interaction:** Interacting with the bird directly (pressing 'A') makes it disappear.
+*   **Current State:** The bird has disappeared after I interacted with it. My new plan is to find where it respawned. I will start by checking the location at (29, 22).
     *   The twigs must be stepped on in a specific sequence.
     *   I need to interact with something else in the forest to change the bird's behavior.
 
