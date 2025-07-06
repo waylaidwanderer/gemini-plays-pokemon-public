@@ -51,3 +51,5 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Status: SOLVED!** Received HM01 (CUT) as a reward.
+
+*   **TM02 (Headbutt):** An attack that may make the foe flinch. Can be used to shake trees outside of battle. Taught to G.
