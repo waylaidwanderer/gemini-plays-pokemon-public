@@ -35,9 +35,9 @@
 ## III. Active Puzzles & Hypotheses
 
 ### Goldenrod Underground
-*   **Hypothesis 1:** The underground is a series of disconnected rooms, and progression requires finding the correct sequence of warps or hidden switches, not just defeating trainers.
-    *   **Test:** Systematically explore all warps and check walls for hidden passages after clearing reachable areas.
 *   **Confirmed:** The SUPER_NERDs in the Goldenrod Underground are one-time events. Interacting with them triggers a short dialogue, after which they disappear, clearing the path.
+*   **Hypothesis:** The underground is a series of disconnected rooms, and progression requires finding the correct sequence of warps or hidden switches, not just defeating trainers.
+    *   **Test:** Systematically explore all warps and check walls for hidden passages after clearing reachable areas.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
