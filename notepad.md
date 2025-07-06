@@ -44,6 +44,7 @@
 - **Type Display Error:** In battle, my Golbat ECHO (Poison/Flying) was incorrectly displayed as a GHOST type. My Lapras NEPTUNE (Water/Ice) was also displayed as GHOST and NORMAL type.
 
 ## IV. Active Hypotheses
+- **Pokemon Mansion 3F East Wing Exploration:** There are many unseen tiles in the eastern part of the floor. Hypothesis: The path forward and potentially the Secret Key are located in this unexplored area. Test: Navigate to the eastern section and systematically reveal all unseen tiles. Conclusion: TBD.
 
 ## V. Puzzle & Hypothesis Archive
 - **Pokemon Mansion 3F Alternating Switch Puzzle:** This floor operates on an alternating switch system. The switch at (11, 6) toggles the gates at (16, 5) and (16, 6) with the gates at (16, 11) and (16, 12). **Conclusion (T52735):** SOLVED. Activating the switch at (11, 6) opened the central gates, providing access to the warp at (8, 11).
@@ -60,4 +61,3 @@
 - **Silph Co. 4F Puzzle (T51244):** A 'Guaranteed Reachable Interactable Tile' at (6,14) was a CARD KEY floor switch that opened the gates at (5,13) and (6,13). **Conclusion (T51271):** SOLVED.
 - **Silph Co. 10F Puzzle:** The game hinted at two 'Guaranteed Reachable Interactable Tiles'. After extensive searching and puzzle-solving involving the teleporter system, it was discovered that defeating Giovanni was the trigger to unlock the correct teleporter paths. The 'interactable tiles' were not switches but the teleporters themselves whose destinations changed. **Conclusion (T51442):** SOLVED.
 - **Paralysis Ineffectiveness:** A paralyzed Pokémon (e.g., wild MUK) may still be able to attack. The chance to be fully paralyzed is not 100%. (Confirmed: T52193, T52194)
-- **Pokemon Mansion 3F East Wing Exploration:** There are many unseen tiles in the eastern part of the floor. Hypothesis: The path forward and potentially the Secret Key are located in this unexplored area. Test: Navigate to the eastern section and systematically reveal all unseen tiles. Conclusion: TBD.
