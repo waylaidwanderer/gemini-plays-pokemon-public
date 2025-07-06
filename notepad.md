@@ -23,7 +23,7 @@
         *   **Twig 1 at (22, 30):**
             *   When Farfetch'd is at (28, 31), stepping on this twig makes it disappear.
         *   **Twig 2 at (29, 30):**
-            *   When Farfetch'd is not on the map, stepping on this twig makes it appear at (28, 31), facing right.
+            *   When Farfetch'd is not on the map, stepping on this twig makes it appear at (28, 31), facing left.
     3.  **Turning:** The turning logic is not simply facing the player. It seems to be related to the player's approach vector.
     4.  **Reset Conditions:** Wild battles or leaving the area resets the puzzle.
 *   **Alternative Hypotheses to Test:**
