@@ -7,7 +7,7 @@
 - **pathfinder:** REFINED (T52445). Added logic to handle impassable destination tiles by pathing to the nearest walkable adjacent tile. REFINED AGAIN (T52447) to correctly recognize 'closed_gate' tiles as impassable. REFINED A THIRD TIME (T52480) to remove dependency on `xml.et` module.
 
 ## III. Game Mechanics & Battle Intel
-### A. Tile Mechanics & Traversal Rules (v16)
+### A. Tile Mechanics & Traversal Rules
 - **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls. They cannot be surfed on.
 - **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
@@ -18,7 +18,7 @@
 - **Open Gates:** `open_gate` tiles are unlocked `closed_gate` tiles and function as `ground`.
 - **2x1 Warps (Cinnabar Lab):** To use these horizontal floor warps, you must stand on one of the two tiles and press into the impassable boundary (e.g., Down).
 
-### B. Confirmed ROM Hack Changes (v13)
+### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
 - **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; **Psychic > Flying** (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
 - **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); **Ice !> Gyarados (Water/Flying)** (confirmed: NEPTUNE's AURORA BEAM vs Fisherman's GYARADOS).
