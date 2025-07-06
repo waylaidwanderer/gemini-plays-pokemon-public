@@ -3,7 +3,7 @@
 ## I. Game Systems & Mechanics
 
 ### Tile Traversal Protocol
-- **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately. The `MART_SHELF` tile is currently untested and must be investigated.
+- **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately. *   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `WATER`, `COUNTER`, `VOID`, `MART_SHELF`
 - **Movement Test:** Attempt to move *into* and *out of* the tile from all 4 cardinal directions to verify passability.
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
