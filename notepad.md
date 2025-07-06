@@ -12,9 +12,9 @@
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
-*   **Complex Tiles:** 
-    * `FLOOR_UP_WALL` (Verified: Enter by moving UP; Exit by moving LEFT/RIGHT). This tile is impassable from below.
-    * `WARP_CARPET_DOWN` (Hypothesis: Currently impassable. My attempts to activate it by stepping on it from various directions have failed. It may require a key item or a story event to function.)
+*   **Complex Tiles:**
+    * `FLOOR_UP_WALL` (Verified: Impassable from below. Traversable left-to-right from above.)
+    * `WARP_CARPET_DOWN` (Verified: Currently non-functional. Extensive testing by stepping on it from all directions and pressing 'A' has yielded no results. Likely requires an external trigger or key item.)
 
 ### Untested Tile Types (High Priority)
 * `RAILING`: Needs testing. Located on the Goldenrod Dept. Store Roof.
@@ -51,10 +51,11 @@
 * **Objective:** Escape the station.
 * **Clue:** An Officer is blocking the path north and mentions the train isn't running. His presence is scripted (he appears and disappears).
 * **Failed Hypotheses:**
-    1. Waiting for a time-based event.
-    2. Saving and reloading the game.
-    3. Using the `WARP_CARPET_DOWN` exit.
-* **Current Hypothesis:** There is a hidden, non-obvious trigger tile in the room.
+    1. Waiting for a time-based event. (Failed after multiple turns of waiting).
+    2. Saving and reloading the game. (Failed, no change in state).
+    3. Using the `WARP_CARPET_DOWN` exit. (Failed, warp is non-functional).
+    4. Interacting with unique objects (plant). (Failed, non-interactable).
+* **Current Hypothesis:** There is a hidden, non-obvious trigger tile in the room. A full systematic search is in progress.
 * **Alternative Hypothesis:** A key item, like a "Train Pass," is required from another location.
 
 ## IV. Tool & Agent Development
@@ -62,3 +63,4 @@
 *   I must act on tool/notepad management tasks IMMEDIATELY.
 *   I must mark moving objects using their `object_id`.
 *   I will use `quest_strategist` for future complex puzzles.
+*   I will use `nickname_genius` the next time I catch a Pokémon.
