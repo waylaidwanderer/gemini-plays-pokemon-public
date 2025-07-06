@@ -49,12 +49,12 @@
 
 ### B. Solved Puzzles & Confirmed Mechanics
 - **Pokemon Mansion Puzzle (All Floors):** The mansion uses an 'alternating doors' system controlled by switches.
-  ### A. Active Hypothesis: Pokemon Mansion 1F Puzzle
-- **Observation:** The system has provided an explicit and definitive hint that four gates are 'guaranteed reachable': (17, 8), (18, 8), (25, 14), and (26, 14). My `pathfinder` tool, which treats 'unknown' tiles as impassable, repeatedly fails to find a route. This confirms the path is not a simple, visible walkway.
-- **Hypothesis:** The contradictory information is the puzzle. The path to the reachable gates exists on this floor but is deliberately obscured within the large area of 'unknown' tiles to the south, forming a hidden maze.
-- **Test:** Manually and systematically explore the southern portion of the mansion, starting from the eastern wing, to reveal the 'unknown' tiles and map the hidden path.
+  ### B. Active Hypothesis: Pokemon Mansion 1F Puzzle
+- **Observation (T53240):** The system provides an explicit and definitive hint that four gates are 'guaranteed reachable': (17, 8), (18, 8), (25, 14), and (26, 14). Simultaneously, my `pathfinder` tool, which treats 'unknown' tiles as impassable, repeatedly fails to find a route, and the system confirms my navigation goal is 'unreachable' by normal means.
+- **Conclusion:** This is not a contradiction, but the puzzle itself. The game is telling me a path exists, but my tools are insufficient to find it automatically. The path must be deliberately obscured.
+- **Hypothesis:** The path to the reachable gates is a hidden maze located within the large area of 'unknown' tiles in the southern part of the mansion. The game is forcing me to explore this area manually to reveal the route.
+- **Test:** Systematically explore the southern portion of the mansion, starting from the eastern wing, to reveal the 'unknown' tiles and map the hidden path.
 - **Expected Outcome:** Uncovering the 'unknown' tiles will reveal a walkable path leading to the southern gates at (25, 14) and (26, 14), thus solving the puzzle.
-- **Conclusion:** TBD.
   - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). (Confirmed T52787)
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
