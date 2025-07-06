@@ -60,3 +60,4 @@
   - **Hypothesis (Attempt 1):** The switch at (3, 12) follows the 'alternating doors' mechanic.
   - **Test (Attempt 1 - Failed):** Interacted with the switch at (3, 12) while at (3, 13) but facing left. No effect. Conclusion: Must be facing the object to interact.
   - **Test (Attempt 2):** Turn to face the switch (Up) and then interact.
+- **pathfinder (T53770):** The first layer of debugging was insufficient. The search fails without exploring the map. **Next Test:** Add a print statement inside the A* `while` loop to log every `current` node being processed. This will trace the algorithm's exploration path and reveal where it stops.
