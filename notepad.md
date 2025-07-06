@@ -41,7 +41,6 @@
 ### Goldenrod City
 *   **Fact (from Agent):** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo). Progress is impossible this way for now.
 *   **Hypothesis:** An Abra is required for the Machop trade on the 5th floor of the Department Store. Abra might be found in the grass on Route 34, which is south of the city.
-* **Alternative Hypothesis (Underground):** It's possible a hidden switch or event in the western part of the `GoldenrodUndergroundSwitchRoomEntrances` opens a path to the eastern section. This is a low-probability alternative to the primary hypothesis that the two sections are entirely separate.
 
 ### Ruins of Alph
 *   **Objective:** Solve the sliding stone panel puzzle.
