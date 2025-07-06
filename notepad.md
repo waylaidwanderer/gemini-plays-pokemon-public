@@ -9,14 +9,15 @@
 - **`battle_strategist_agent`:** Provides battle advice. REFINED to correctly validate against fainted, sleeping, and active Pokémon.
 
 ### B. Future Development Ideas
-- **`maze_solver_tool`:** If another complex maze is encountered, create a tool to programmatically parse the map XML and use a graph traversal algorithm (like BFS or Dijkstra's) to find the optimal path through warps.
-- **`maze_strategist_agent`:** For complex mazes, an agent could analyze warp data and suggest the most logical next warp to try based on exploration heuristics (e.g., prioritizing unvisited areas).
+- **`pathfinder_enhancement`:** Enhance the existing `pathfinder` tool to handle more complex scenarios, such as navigating around moving NPCs or through mazes with warp tiles. This would involve more sophisticated graph traversal algorithms.
+- **`stealth_navigator_agent`:** An agent that takes the player's position, a moving NPC's position, and a target destination, then plans a path that minimizes the chance of being spotted. Useful for stealth sections.
 
 ## III. Game Mechanics & Battle Intel
-### A. Tile Mechanics & Traversal Rules (v13)
+### A. Tile Mechanics & Traversal Rules (v14)
 - **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls. They cannot be surfed on.
 - **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
+- **Hole Tiles:** Acts as a one-way warp, dropping the player to the floor below.
 - **Gates:** `closed_gate` tiles are impassable. Some are opened by switches, while others (like in Silph Co.) require the CARD KEY.
 - **Elevators (Silph Co.):** To use the elevator, you must first interact with the control panel (usually on a wall) to select a destination floor. After selecting a floor, you must walk onto the warp tiles at the back of the elevator room to trigger the map transition.
 - **PC Interaction:** To use a Pokémon Center PC, I must stand on the tile directly below it and face up before pressing 'A'.
