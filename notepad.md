@@ -55,3 +55,4 @@
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
 - **Paralysis Ineffectiveness:** Paralyzed Pokémon can still attack; paralysis is not a 100% stop. (Confirmed T52193, T52194)
+- **mansion_puzzle_tracker_agent:** DEFINED (T53066). Tracks the state of the 'alternating doors' puzzle. REFINED (T53071) to account for location-based triggers in addition to switches.
