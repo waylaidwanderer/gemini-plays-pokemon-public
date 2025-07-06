@@ -50,8 +50,11 @@
 ### B. Solved Puzzles & Confirmed Mechanics
 - **Pokemon Mansion Puzzle (All Floors):** The mansion uses an 'alternating doors' system controlled by switches.
   ### B. Active Hypothesis: Pokemon Mansion 1F Puzzle
-- **Observation (T53240):** The system provides an explicit and definitive hint that four gates are 'guaranteed reachable': (17, 8), (18, 8), (25, 14), and (26, 14). Simultaneously, my `pathfinder` tool, which treats 'unknown' tiles as impassable, repeatedly fails to find a route, and the system confirms my navigation goal is 'unreachable' by normal means.
-- **Conclusion:** This is not a contradiction, but the puzzle itself. The game is telling me a path exists, but my tools are insufficient to find it automatically. The path must be deliberately obscured.
+- **Observation (T53253):** The system provides contradictory information. It states that four gates are 'guaranteed reachable', including those in the southern area. However, it also confirms that my navigation goal to that area is 'unreachable' and there are no reachable unseen tiles.
+- **Conclusion:** This contradiction is the puzzle. The path to the southern gates is not currently open, but it *can* be opened. The map's state must be changed.
+- **Hypothesis:** The switch at (3, 6) is the mechanism that changes the map's state, likely by opening one of the gate sets and creating a path to the southern area.
+- **Test:** Return to the central chamber and interact with the switch at (3, 6).
+- **Expected Outcome:** Activating the switch will change the `closed_gate` tiles to `open_gate` tiles, revealing a new path.
 ### B. Active Hypothesis: Pokemon Mansion 1F Puzzle
 - **Observation (T53253):** The system provides contradictory information. It states that four gates are 'guaranteed reachable', including those in the southern area. However, it also confirms that my navigation goal to that area is 'unreachable' and there are no reachable unseen tiles.
 - **Conclusion:** This contradiction is the puzzle. The path to the southern gates is not currently open, but it *can* be opened. The map's state must be changed.
