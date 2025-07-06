@@ -44,3 +44,6 @@
 *   **Core Directive:** I must act on tool/notepad management tasks IMMEDIATELY in the same turn I decide to do them.
 *   **Map Marker Discipline:** I must mark moving objects (like the Farfetch'd) using their `object_id` to ensure the marker tracks them correctly. Static markers are for static objects/locations only.
 *   **Agent Usage:** I must remember to use `strategic_advisor` when feeling stuck and feed failed attempts into `quest_strategist` for better hypotheses.
+
+## V. Future Tool Development
+*   **Exploration Agent/Tool:** I keep getting lost in mazes. I should create a tool that can systematically explore an area, keeping track of visited paths and prioritizing unseen tiles to avoid going in circles. This would be more efficient than manual searching.
