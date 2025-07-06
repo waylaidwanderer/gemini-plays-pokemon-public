@@ -53,3 +53,4 @@
 ## V. Phone Contacts
 *   **TODD (CAMPER):** Calls about sales at the Goldenrod Department Store.
 *   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
+*   **Hypothesis:** Test the `RAILING` tile on the Dept. Store Roof to determine its properties.
