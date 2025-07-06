@@ -1,6 +1,6 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. Game Mechanics & Tile Rules
+## I. Game Systems & Mechanics
 
 ### Tile Traversal Protocol
 - **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately.
@@ -15,7 +15,18 @@
 *   **Complex Tiles:** `FLOOR_UP_WALL` (Verified: Enter by moving UP; Exit by moving LEFT/RIGHT).
 *   **Untested:** `VOID` (Must test when reachable)
 
-## II. Quests & Puzzles
+### Other Mechanics
+*   **Item Effects:**
+    *   **BERRY:** Restores 10 HP. Found at `FRUIT_TREE`s.
+    *   **EVERSTONE:** Prevents evolution.
+    *   **MOOMOO MILK:** Restores 100 HP. Purchased at MOOMOO FARM.
+*   **SLOWPOKETAIL:** Offered for sale on Route 32. Purpose unknown.
+
+## II. Key Items & HMs
+*   **HM01 (CUT):** Clears small trees. Requires the Hive Badge from Azalea Town to use outside of battle. Taught to SUNDEW.
+*   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
+
+## III. Puzzles & Quests
 
 ### Puzzle-Solving Methodology
 1.  **Observe:** Describe the situation based only on what I see.
@@ -34,18 +45,12 @@
 *   **Objective:** Solve the sliding stone panel puzzle.
 *   **Clue:** Liz mentioned hearing a strange radio broadcast from the Ruins of Alph. This might be a clue.
 
-## III. HMs, TMs, & Items
-*   **HM01 (CUT):** Clears small trees. Requires the Hive Badge from Azalea Town to use outside of battle. Taught to SUNDEW.
-*   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
-*   **EVERSTONE:** Prevents evolution.
-*   **BERRY:** Restores 10 HP. Found at `FRUIT_TREE`s.
-*   **SLOWPOKETAIL:** Offered for sale on Route 32. Purpose unknown.
-*   **MOOMOO MILK:** Restores 100 HP. Purchased at MOOMOO FARM.
+## IV. Tool & Agent Development
 
-## IV. System & Methodology
-*   **Core Directive:** I must act on tool/notepad management tasks IMMEDIATELY in the same turn I decide to do them.
-*   **Map Marker Discipline:** I must mark moving objects (like the Farfetch'd) using their `object_id` to ensure the marker tracks them correctly. Static markers are for static objects/locations only.
-*   **Agent Usage:** I must remember to use `strategic_advisor` when feeling stuck and feed failed attempts into `quest_strategist` for better hypotheses.
+### Core Directives
+*   I must act on tool/notepad management tasks IMMEDIATELY in the same turn I decide to do them.
+*   I must mark moving objects (like the Farfetch'd) using their `object_id` to ensure the marker tracks them correctly. Static markers are for static objects/locations only.
+*   I must remember to use `strategic_advisor` when feeling stuck and feed failed attempts into `quest_strategist` for better hypotheses.
 
-## V. Future Tool Development
+### Future Tool Development
 *   **Exploration Agent/Tool:** I keep getting lost in mazes. I should create a tool that can systematically explore an area, keeping track of visited paths and prioritizing unseen tiles to avoid going in circles. This would be more efficient than manual searching.
