@@ -60,5 +60,5 @@
 - **Silph Co. 10F Puzzle:** The game hinted at two 'Guaranteed Reachable Interactable Tiles'. After extensive searching and puzzle-solving involving the teleporter system, it was discovered that defeating Giovanni was the trigger to unlock the correct teleporter paths. The 'interactable tiles' were not switches but the teleporters themselves whose destinations changed. **Conclusion (T51442):** SOLVED.
 - **Paralysis Ineffectiveness:** A paralyzed Pokémon (e.g., wild MUK) may still be able to attack. The chance to be fully paralyzed is not 100%. (Confirmed: T52193, T52194)
 - **Pokemon Mansion Hypothesis (Attempt 3):** The switch in the eastern section of 3F is the key to progress. **Conclusion (T52201):** FAILED. The switch at (11, 6) is unreachable from the western access point.
-- **Pokemon Mansion Hypothesis (Attempt 4):** After exploring the reachable area of 2F, the next logical step is to interact with the remaining points of interest. The switch at (3, 12) is the most likely trigger for progress.
-  - **Test:** After defeating the Burglar at (2, 18), I will navigate to (3, 13) and activate the switch at (3, 12).
+- **Pokemon Mansion Hypothesis (Attempt 5):** The Super Nerd at (2, 18) gave a clue: 'Switches open and close alternating sets of doors!'. This confirms the switch at (3, 12) is the key to progress.
+  - **Test:** Navigate to (3, 13) and activate the switch at (3, 12). This should open a new path.
