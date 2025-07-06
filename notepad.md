@@ -63,6 +63,6 @@
 *   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
 - **Goldenrod Underground - Switch Room:**
   - **Hypothesis 1:** The objects on the northern wall are switches.
-  - **Test 1:** Interacted with the object at (18, 23) from (18, 22).
-  - **Result 1:** Failed. No interaction occurred.
-  - **Next Step:** Test the next switch object at (20, 23).
+  - **Test 1:** Interacted with the object at (18, 23) from (18, 22). Result: Failed.
+  - **Test 2:** Interacted with the object at (20, 23) from (20, 22). Result: Failed.
+  - **Next Step:** Test the final accessible switch object at (22, 23).
