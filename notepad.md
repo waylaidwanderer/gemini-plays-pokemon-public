@@ -49,7 +49,12 @@
 
 ### B. Solved Puzzles & Confirmed Mechanics
 - **Pokemon Mansion Puzzle (All Floors):** The mansion uses an 'alternating doors' system controlled by switches.
-  - **1F Puzzle Mechanics:** The system has confirmed four gates are 'guaranteed reachable': (17, 8), (18, 8), (25, 14), and (26, 14). My pathfinder's failures confirm the path is not direct and is likely obscured by 'unknown' tiles. **Current Hypothesis:** The path to the southern gates is through the large, unseen southern area of the map, which is accessible via the eastern wing.
+  ### A. Active Hypothesis: Pokemon Mansion 1F Puzzle
+- **Observation:** The mansion has multiple sets of gates. The system has confirmed that four gates are 'guaranteed reachable': (17, 8), (18, 8), (25, 14), and (26, 14). However, my pathfinder cannot find a route to them, and a system warning confirmed the destination is unreachable. This implies the path is not currently open.
+- **Hypothesis (Attempt #1):** The switch at (3, 6) is the primary mechanism for changing the mansion's layout. Activating it will open a new path, likely by opening the eastern gates at (17, 8) and (18, 8).
+- **Test:** Stand at (3, 7), face up, and interact with the switch.
+- **Expected Outcome:** The gates at (17, 8) and (18, 8) will change from `closed_gate` to `open_gate`.
+- **Conclusion:** TBD.
   - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). (Confirmed T52787)
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
