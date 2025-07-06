@@ -15,8 +15,7 @@
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:** `FLOOR_UP_WALL` (Verified: Enter by moving UP; Exit by moving LEFT/RIGHT).
 
-### Untested Tile Types
-* `LONG_GRASS`: Assumption is it behaves like `TALL_GRASS`, but needs verification.
+### Untested Tile Types (High Priority)
 * `RAILING`: Needs testing.
 * `PIPE_HORIZONTAL`: Needs testing.
 * `PIPE_VERTICAL`: Needs testing.
@@ -31,35 +30,30 @@
 ## II. Key Items, HMs, & TMs
 *   **HM01 (CUT):** Clears small trees. Requires the Hive Badge. Taught to SUNDEW.
 *   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
+*   **COIN CASE:** Allows playing at the Game Corner. Found in Goldenrod Underground.
 
 ## III. Active Puzzles & Hypotheses
+
+### Goldenrod Underground
+*   **Hypothesis 1:** The only way to progress between corridors is by defeating all trainers.
+    *   **Alternative Hypothesis:** There might be hidden switches or passages. Some trainers might be optional.
+    *   **Test:** After clearing all reachable trainers/items, I will systematically check walls for hidden passages.
+*   **Hypothesis 2:** The SUPER_NERD at (4, 31) who caused a dialogue loop is permanently bugged.
+    *   **Alternative Hypothesis:** The bug might be temporary. Leaving and re-entering the map or completing another event might reset him.
+    *   **Test:** After exploring all other accessible areas, I will exit and re-enter the Goldenrod Underground to check on the trainer.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
 *   **Clue:** Liz mentioned hearing a strange radio broadcast from the Ruins of Alph. This might be a clue.
-
-### Untested Assumptions (Post-Reflection)
-*   **Assumption:** The only way to Goldenrod City is north through Route 34.
-    *   **Alternative Hypothesis:** The water to the west could provide an alternative path or necessary item (requires SURF).
-    *   **Test:** Backtrack through Ilex Forest to get to the western side of Route 34. Explore water routes once SURF is available.
-*   **Assumption:** Goldenrod City is the next mandatory location.
-    *   **Alternative Hypothesis:** The Ruins of Alph puzzle is mandatory for progression.
-    *   **Test:** If Goldenrod City is blocked, pivot to solving the Ruins of Alph puzzle.
-*   **Assumption:** The Day-Care PC is permanently bugged.
-    *   **Alternative Hypothesis:** The PC works under different conditions (e.g., time of day, story progression).
-    *   **Test:** Try interacting with the PC again at a later point in the game.
 
 ## IV. Tool & Agent Development
 ### Core Directives
 *   I must act on tool/notepad management tasks IMMEDIATELY.
 *   I must mark moving objects using their `object_id`.
 *   I must use `strategic_advisor` when feeling stuck and feed failed attempts into `quest_strategist` for better hypotheses.
+*   I must use `nickname_genius` the next time I catch a Pokémon.
 
 ## V. Archived Puzzles (Solved)
 
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Status: SOLVED!** Received HM01 (CUT) as a reward.
-
-### Goldenrod City - New Hypotheses
-*   **COIN CASE Location:** Found in the Goldenrod Underground at (7, 25).
-*   **Goldenrod Gym Access:** The Gym may have a prerequisite for entry. Finding the COIN CASE could be the trigger to unlock it, or I might need to complete another event in the city first. I will keep an eye out for any related clues.
