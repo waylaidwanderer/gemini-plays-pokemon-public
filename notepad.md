@@ -6,11 +6,13 @@
 
 ## II. System & Tool Development
 ### A. Agent & Tool Usage Notes
-- **`pc_navigator_agent`:** Generates a sequence of button presses to navigate the Pokémon PC menu to withdraw or deposit a specific Pokémon. Reliable for PC operations.
-- **`battle_strategist_agent`:** Provides battle advice. **STATUS: REFINED.** The agent now correctly validates against fainted, sleeping, and active Pokémon to avoid invalid switch recommendations.
-- **`systematic_searcher` & `pathfinder`:** **STATUS: REFINED.** After multiple failures and critical feedback, I have redefined both tools with more robust logic. `pathfinder` now handles impassable tiles and ledges more accurately. `systematic_searcher` now correctly implements a BFS from the player's position to find only reachable, untested tiles. I must be more diligent in maintaining my tools going forward.
-- **Future Tool Idea:** If another complex maze is encountered, create a `maze_solver_tool`. This tool would programmatically parse the map XML and use a graph traversal algorithm (like BFS or Dijkstra's) to find the optimal path.
-- **Future Tool Idea:** If another complex maze is encountered, create a `maze_solver_tool`. This tool would programmatically parse the map XML and use a graph traversal algorithm (like BFS or Dijkstra's) to find the optimal path.
+- **`pc_navigator_agent`:** Generates button sequences for PC navigation. Reliable.
+- **`battle_strategist_agent`:** Provides battle advice. REFINED to correctly validate against fainted, sleeping, and active Pokémon.
+- **`systematic_searcher` & `pathfinder`:** REFINED with more robust logic.
+
+### B. Future Development Ideas
+- **`maze_solver_tool`:** If another complex maze is encountered, create a tool to programmatically parse the map XML and use a graph traversal algorithm (like BFS or Dijkstra's) to find the optimal path through warps.
+- **`maze_strategist_agent`:** For complex mazes, an agent could analyze warp data and suggest the most logical next warp to try based on exploration heuristics (e.g., prioritizing unvisited areas).
 
 ## III. Game Mechanics & Battle Intel
 ### A. Tile Mechanics & Traversal Rules (v13)
