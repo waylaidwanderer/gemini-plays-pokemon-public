@@ -11,9 +11,10 @@
 *   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `COUNTER`, `VOID`, `MART_SHELF`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
-*   **Directional Warps:** `WARP_CARPET_LEFT`, `WARP_CARPET_DOWN`. Verified one-way; can only be entered by moving in the specified direction.
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
-*   **Complex Tiles:** `FLOOR_UP_WALL` (Verified: Enter by moving UP; Exit by moving LEFT/RIGHT).
+*   **Complex Tiles:** 
+    * `FLOOR_UP_WALL` (Verified: Enter by moving UP; Exit by moving LEFT/RIGHT). This tile is impassable from below.
+    * `WARP_CARPET_DOWN` (Hypothesis: Currently impassable. My attempts to activate it by stepping on it from various directions have failed. It may require a key item or a story event to function.)
 
 ### Untested Tile Types (High Priority)
 * `RAILING`: Needs testing. Located on the Goldenrod Dept. Store Roof.
@@ -45,6 +46,16 @@
 ### Ruins of Alph
 *   **Objective:** Solve the sliding stone panel puzzle.
 *   **Clue:** Liz mentioned hearing a strange radio broadcast from the Ruins of Alph. This might be a clue.
+
+### Goldenrod Magnet Train Station
+* **Objective:** Escape the station.
+* **Clue:** An Officer is blocking the path north and mentions the train isn't running. His presence is scripted (he appears and disappears).
+* **Failed Hypotheses:**
+    1. Waiting for a time-based event.
+    2. Saving and reloading the game.
+    3. Using the `WARP_CARPET_DOWN` exit.
+* **Current Hypothesis:** There is a hidden, non-obvious trigger tile in the room.
+* **Alternative Hypothesis:** A key item, like a "Train Pass," is required from another location.
 
 ## IV. Tool & Agent Development
 ### Core Directives
