@@ -57,3 +57,4 @@
 
 ### C. Future Development Ideas
 - **Puzzle Logic Agent:** Could an agent be designed to analyze the state of complex puzzles like the Pokémon Mansion? Input would be the state of all known switches and gates, and output would be the most logical next test or hypothesis. This could prevent wasted time from flawed manual reasoning.
+- **Warp Reset Mechanic:** If a wild battle is triggered immediately after using a warp to transition between maps, the game may place the player back at the warp's entry point on the original map after the battle concludes. (Observed T53666)
