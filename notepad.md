@@ -54,3 +54,6 @@
 
 ## V. Pokemon Encounter Log
 - **Pokemon Mansion 1F:** Wild Grimer, Raticate, and Growlithe can be found.
+### C. Tactical Problems & Mitigations
+- **Problem:** Frequent wild encounters in the Pokémon Mansion are interrupting warp usage and exploration, repeatedly sending me back to the first floor.
+- **Hypothesis (Attempt 1):** Leading with a faster Pokémon (ECHO) should increase my chances of escaping wild battles on the first turn, allowing for uninterrupted exploration. **Test:** Switch ECHO to the lead position and attempt to navigate the mansion.
