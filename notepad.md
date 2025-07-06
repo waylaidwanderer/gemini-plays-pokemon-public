@@ -9,7 +9,7 @@
   3.  If movement is possible, test movement *out of* the tile to all 4 adjacent, traversable cardinal directions to check for one-way paths.
   4.  Record all verified findings for both passable and impassable tiles immediately.
 - **Verified Impassable:** PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), VOID, MART_SHELF, BLACK_BELT (NPC)
-- **Untested Impassable (To Be Verified):** WALL, CUT_TREE, WATER, HEADBUTT_TREE
+- **Untested (To Be Verified Immediately):** WALL, CUT_TREE, WATER, HEADBUTT_TREE, IlexForestShrineScript
 - **Verified Interactable Obstacles:** HEADBUTT_TREE (Impassable, can be interacted with via 'A', but no effect observed).
 - **Verified Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Verified Warps:**
