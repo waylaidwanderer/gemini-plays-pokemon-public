@@ -63,3 +63,4 @@
 - **Marker Compliance Tool (Implemented):** A tool that parses map markers against my notepad protocols to find non-compliant entries.
 - **Systematic Searcher Tool (Implemented):** A tool to automate the process of systematically sweeping an area for interactable tiles. It parses the map XML to find valid tiles.
 - **WKG Manager Tool:** A tool to automate the multi-step WKG documentation process. It would take source/destination details and execute the necessary `find_wkg_node_by_coords` and `manage_world_knowledge` calls, ensuring protocol compliance (e.g., string payloads).
+- **`pathfinder` tool:** This tool has also been identified as faulty. I am redefining it now to improve its parsing and pathing logic, as per my protocol.
