@@ -11,7 +11,7 @@
 *   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `WATER`, `COUNTER`, `VOID`, `MART_SHELF`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
-*   **Directional Warps:** `WARP_CARPET_LEFT`, `WARP_CARPET_DOWN` (Move in specified direction).
+*   **Directional Warps:** `WARP_CARPET_LEFT`, `WARP_CARPET_DOWN` (Move in specified direction). Untested if they can be entered from other directions.
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:** `FLOOR_UP_WALL` (Verified: Enter by moving UP; Exit by moving LEFT/RIGHT).
 
@@ -36,7 +36,7 @@
 
 ### Goldenrod City
 *   **Hypothesis:** A key is required for a locked door at (18, 6) in the underground. The solution likely involves finding this key or triggering an event elsewhere.
-*   **Hypothesis:** The Machop trade is located within the Goldenrod Department Store. If an exhaustive search of all floors yields no trade, the alternative hypothesis is that the trade is in another building in Goldenrod City.
+*   **Hypothesis:** An Abra is required for the Machop trade on the 5th floor of the Department Store. Abra might be found in the grass on Route 34.
 
 ### Ruins of Alph
 *   **Objective:** Solve the sliding stone panel puzzle.
