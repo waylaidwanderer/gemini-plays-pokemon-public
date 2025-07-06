@@ -54,5 +54,3 @@
 ## V. Phone Contacts
 *   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
 *   **TODD (CAMPER):** Calls about sales at the Goldenrod Department Store.
-
-*Note to self: Add a reminder to test the `MART_SHELF` tile in my protocol section.*
