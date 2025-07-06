@@ -54,3 +54,4 @@
 *   **TODD (CAMPER):** Calls about sales at the Goldenrod Department Store.
 *   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
 *   **Hypothesis:** Test the `RAILING` tile on the Dept. Store Roof to determine its properties.
+*   **Agent Usage:** I MUST use the `nickname_genius` agent the next time I catch a Pokémon to test its functionality.
