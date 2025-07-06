@@ -53,4 +53,4 @@
 *   I must remember to use `strategic_advisor` when feeling stuck and feed failed attempts into `quest_strategist` for better hypotheses.
 
 ### Future Tool Development
-*   **Exploration Agent/Tool:** I keep getting lost in mazes. I should create a tool that can systematically explore an area, keeping track of visited paths and prioritizing unseen tiles to avoid going in circles. This would be more efficient than manual searching.
+*   **Exploration Tool:** `maze_explorer_v2` has been created to find the nearest unseen tile. It successfully paths to the last traversable tile adjacent to the unseen one, avoiding pathing into walls.
