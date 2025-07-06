@@ -56,3 +56,7 @@
 ### C. Future Development Ideas
 - **Puzzle Logic Agent:** Define an agent to analyze the state of complex puzzles like the Pokémon Mansion. Input would be the state of all known switches and gates, and output would be the most logical next test or hypothesis. This could prevent wasted time from flawed manual reasoning.
 - **Warp Reset Mechanic:** If a wild battle is triggered immediately after using a warp to transition between maps, the game may place the player back at the warp's entry point on the original map after the battle concludes. (Observed T53666)
+- **Pokemon Mansion 2F Gate System:**
+  - **Hypothesis (Attempt 1):** The switch at (3, 12) follows the 'alternating doors' mechanic.
+  - **Test (Attempt 1 - Failed):** Interacted with the switch at (3, 12) while at (3, 13) but facing left. No effect. Conclusion: Must be facing the object to interact.
+  - **Test (Attempt 2):** Turn to face the switch (Up) and then interact.
