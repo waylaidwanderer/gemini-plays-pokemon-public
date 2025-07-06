@@ -3,17 +3,8 @@
 - **Agent & Tool Protocol:** Agent and tool refinement is an IMMEDIATE action. If a tool is faulty or a better one can be conceived, I MUST define/redefine it on the IMMEDIATE next turn.
 - **Hypothesis-Driven Gameplay:** I will rigorously document my hypotheses, tests, and conclusions in my notepad. I will avoid repeating failed strategies and will pivot to new goals if progress stalls after multiple documented attempts.
 
-## II. System & Tool Development
-### A. Agent & Tool Usage Notes
-- **`pc_navigator_agent`:** Generates button sequences for PC navigation. Reliable.
-- **`battle_strategist_agent`:** Provides battle advice. REFINED to correctly validate against fainted, sleeping, and active Pokémon.
-
-### B. Future Development Ideas
-- **`pathfinder_enhancement`:** Enhance the existing `pathfinder` tool to handle more complex scenarios, such as navigating around moving NPCs or through mazes with warp tiles. This would involve more sophisticated graph traversal algorithms.
-- **`stealth_navigator_agent`:** An agent that takes the player's position, a moving NPC's position, and a target destination, then plans a path that minimizes the chance of being spotted. Useful for stealth sections.
-
 ## III. Game Mechanics & Battle Intel
-### A. Tile Mechanics & Traversal Rules (v14)
+### A. Tile Mechanics & Traversal Rules (v15)
 - **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls. They cannot be surfed on.
 - **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
@@ -50,11 +41,12 @@
 - **Type Display Error:** In battle, my Golbat ECHO (Poison/Flying) was incorrectly displayed as a GHOST type. My Lapras NEPTUNE (Water/Ice) was also displayed as GHOST and NORMAL type.
 
 ## V. Current Hypotheses
-- **Pokemon Mansion Hypothesis (Attempt 1):** The Cinnabar Gym is locked or inaccessible. The key or event to unlock it is hidden within the Pokémon Mansion.
+- **Pokemon Mansion Hypothesis (Attempt 2):** The Cinnabar Gym is locked or inaccessible. The key or event to unlock it is hidden within the Pokémon Mansion.
   - **Test:** Systematically explore the Pokémon Mansion, floor by floor, interacting with all objects and reading all notes/diaries to find a "Secret Key" or trigger a related event.
-  - **Current Step:** Exploring the first floor, starting with the western corridor.
+  - **Current Step:** Return to the mansion after healing.
 
 ## VI. Solved Puzzles & Archived Hypotheses
+- **Pokemon Mansion Hypothesis (Attempt 1):** The Cinnabar Gym is locked or inaccessible. The key or event to unlock it is hidden within the Pokémon Mansion. **Conclusion (T51934):** FAILED. My party was too weak to continue, had to use an Escape Rope.
 - **Saffron Gym Hypothesis (Attempt 1):** Defeating all trainers in the gym will unlock the path to Sabrina.
 - **Saffron Gym Hypothesis (Attempt 2 - Defeat all trainers in Sabrina's room):** Defeating all trainers in Sabrina's immediate room will unlock the path to her. **Conclusion (T50140):** FAILED. The path remained blocked.
 - **Saffron Gym Hypothesis (Attempt 3):** Defeating all trainers in the room with the Channeler at (4, 8) does not open the path to Sabrina. **Conclusion (T50170):** FAILED. The trigger is something else entirely.
@@ -66,4 +58,3 @@
 - **Silph Co. 10F Hypothesis (Attempt 4 - Re-investigating Warps):** The 'interactable tiles' are the warps themselves, and their state or destination may have changed after defeating Giovanni. The game state's insistence that (11, 1) is unvisited was a major clue. **Conclusion (T51212):** This hypothesis was partially correct. The warps are key, but the systematic search of walls was a dead end. The game has now revealed the exact interactable tiles.
 - **Silph Co. 4F Puzzle (T51244):** A 'Guaranteed Reachable Interactable Tile' at (6,14) was a CARD KEY floor switch that opened the gates at (5,13) and (6,13). **Conclusion (T51271):** SOLVED.
 - **Silph Co. 10F Puzzle:** The game hinted at two 'Guaranteed Reachable Interactable Tiles'. After extensive searching and puzzle-solving involving the teleporter system, it was discovered that defeating Giovanni was the trigger to unlock the correct teleporter paths. The 'interactable tiles' were not switches but the teleporters themselves whose destinations changed. **Conclusion (T51442):** SOLVED.
-- **Mansion Switches:** Switches hidden in statues must be interacted with by standing on the tile directly below them and facing up.
