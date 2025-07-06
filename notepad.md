@@ -34,7 +34,7 @@
 ## II. Key Items, HMs, & TMs
 *   **HM01 (CUT):** Clears small trees. Requires the Hive Badge. Taught to SUNDEW.
 *   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
-*   **COIN CASE:** Allows playing at the Game Corner. Lost by a man in the Goldenrod Underground.
+*   **COIN CASE:** Allows playing at the Game Corner. Found in the Goldenrod Underground.
 
 ## III. Active Puzzles & Hypotheses
 
@@ -48,7 +48,7 @@
     *   [1, 2, 3] (Left -> Middle -> Right)
     *   [1, 2] (Left -> Middle)
     *   [2, 3] (Middle -> Right)
-*   **Failed Sequence:** [3, 1] (Right -> Left)
+    *   [3, 1] (Right -> Left)
 *   **Next Test:** Sequence [3, 2] (Right -> Middle), as suggested by `quest_strategist`.
 
 ### Goldenrod City
