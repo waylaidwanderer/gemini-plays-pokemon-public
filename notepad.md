@@ -22,7 +22,8 @@
     2.  **Puzzle Reset:** Wild Pokémon battles reset the entire puzzle, causing the bird to return to its respawn point at (28, 31). Leaving the forest also resets it.
     3.  **Twigs:** The twigs at (22, 30) and (29, 30) cause the bird to turn, NOT move.
 *   **Current State:** I am at (27, 31), in front of the bird, which is at (28, 31) facing down.
-*   **Current Test:** Interact with the bird from the front (press 'A'). Hypothesis: This will have some effect, possibly making it move or turn.
+*   **Test 5 (Interact from Front):** Interacting with the bird from (27, 31) only produced a "Kwaa!" sound. **Result: FAILED.** Interaction is not the trigger for movement.
+*   **Current Test:** The bird is at (28, 31) facing left. I am at (27, 31). I will move to (27, 32). Hypothesis: Moving from a position in front of the bird to a position diagonally below it will cause it to move forward one step.
 *   **Alternative Hypotheses to Test if Above Fails:**
     *   The twigs must be stepped on in a specific sequence.
     *   I need to interact with something else in the forest to change the bird's behavior.
