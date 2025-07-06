@@ -17,9 +17,13 @@
 ## II. Quests & Puzzles
 
 ### Ilex Forest - Farfetch'd Puzzle
-*   **Objective:** Herd the Farfetch'd back to the apprentice at `(7, 28)`.
-*   **Status:** In Progress.
-*   **Mechanics:** The puzzle involves manipulating the Farfetch'd's movement and orientation by stepping on twigs. Different twigs cause different reactions (turning vs. moving). The bird's current facing direction is critical. Interacting with it directly (`A` button) or getting into a wild battle resets its position.
+*   **Objective:** Herd the Farfetch'd to the apprentice at `(7, 28)`.
+*   **Status:** Stuck in a loop. Using `quest_strategist` to generate new hypotheses.
+*   **Verified Mechanics:**
+    *   Stepping on specific `FLOOR` tiles (not twigs) causes the Farfetch'd to turn or move.
+    *   The bird's orientation is critical.
+    *   Direct interaction (A button) or wild battles reset its position.
+*   **Methodology:** Systematically test hypotheses from `quest_strategist`. Document the exact coordinates stepped on and the resulting effect on the Farfetch'd (new position and facing direction).
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
