@@ -43,10 +43,11 @@
 #### B4. Visual Bugs
 - **Type Display Error:** In battle, my Golbat ECHO (Poison/Flying) was incorrectly displayed as a GHOST type. My Lapras NEPTUNE (Water/Ice) was also displayed as GHOST and NORMAL type.
 
-## IV. Active Hypotheses
-- **Pokemon Mansion 3F Central Switch Puzzle:** The newly reachable switch at (11, 6) is the key to the 'alternating doors' puzzle. Hypothesis: Activating this switch will toggle the state of the gates at (16, 5)/(16, 6) and/or (16, 11)/(16, 12), opening a new path. Test: Navigate to (11, 7) and interact with the switch. Conclusion: TBD.
+## IV. Puzzle & Hypothesis Log
+### A. Active Hypotheses
+- **Pokemon Mansion B1F:** The basement floor, accessible via stairs on 3F, likely holds the SECRET KEY. Hypothesis: The key is guarded by a trainer or hidden behind a puzzle. Test: Fully explore B1F. Conclusion: TBD.
 
-## V. Puzzle & Hypothesis Archive
+### B. Solved Puzzles & Confirmed Mechanics
 - **Pokemon Mansion Puzzle (All Floors):** The mansion uses an 'alternating doors' system controlled by switches.
   - **1F Puzzle Mechanics:** The 'alternating doors' on this floor are controlled by more than just the switch at (3, 6). Movement within the mansion itself can trigger changes. **Confirmed (T52896):** Moving towards the western stairs at (6, 11) caused the eastern gates at (17, 8) & (18, 8) to open. **UPDATE (T52947):** This eastern wing is a dead end with no path to the southern section. The location-based trigger is a red herring. The solution must be on another floor.
   - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). (Confirmed T52787)
