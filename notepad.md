@@ -29,6 +29,7 @@
 *   **SLOWPOKETAIL:** Offered for sale on Route 32. Purpose unknown.
 *   **Vending Machine Drinks:** Can refresh tired POKéMON.
 *   **Hidden Items:** Must be interacted with from an adjacent tile, not by standing on the item's tile. Exact orientation might matter.
+*   **Haircuts:** Getting a haircut from the brothers in the Goldenrod Underground increases a Pokémon's happiness.
 
 ## II. Key Items, HMs, & TMs
 *   **HM01 (CUT):** Clears small trees. Requires the Hive Badge. Taught to SUNDEW.
@@ -39,9 +40,9 @@
 
 ### Goldenrod Underground Switch Room
 *   **Objective:** Find a way to the eastern section of the underground.
-*   **Objective:** Find a way to the eastern section of the underground.
 *   **Failed Hypothesis:** Interacting with the switches from the tile directly above them does not work.
 *   **Failed Hypothesis:** Interacting with the switches from the tile directly below them does not work.
+*   **Failed Hypothesis:** Interacting with the switches from a diagonal tile below them does not work.
 *   **Failed Sequences:**
     *   Individual presses (1; 2; 3)
     *   [1, 2, 3] (Left -> Middle -> Right)
@@ -64,10 +65,3 @@
 *   I must mark moving objects using their `object_id`.
 *   I MUST use the `nickname_genius` agent the next time I catch a Pokémon to test its functionality.
 *   I have merged `puzzle_solver` into `quest_strategist`. I will use `quest_strategist` for future complex puzzles.
-
-## V. Phone Contacts
-*   **TODD (CAMPER):** Calls about sales at the Goldenrod Department Store.
-*   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
-*   **LIZ (PICNICKER):** Gives gameplay tips.
-*   **RALPH (FISHER):** Calls about his fishing exploits.
-*   **Haircuts:** Getting a haircut from the brothers in the Goldenrod Underground increases a Pokémon's happiness.
