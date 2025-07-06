@@ -44,7 +44,7 @@
 - **Type Display Error:** In battle, my Golbat ECHO (Poison/Flying) was incorrectly displayed as a GHOST type. My Lapras NEPTUNE (Water/Ice) was also displayed as GHOST and NORMAL type.
 
 ## IV. Active Hypotheses
-1.  **Pokemon Mansion Hole Puzzle:** The switch at (3, 12) opened the gates, but the southern area remains inaccessible on this floor. The game guarantees reachability. Hypothesis: The 'hole' tiles on the west side of 2F are the intended path. Falling through one may lead to a different section of 1F, which then connects back up to the southern part of 2F. Test: Navigate to and fall through a hole tile, e.g., (0, 13).
+1.  **Pokemon Mansion 2F Super Nerd Puzzle:** The switch at (3, 12) did not open the southern gates. The clue mentioned plural 'switches'. Hypothesis: The Super Nerd at (4, 18) must be interacted with. He might be the second 'switch' or provide a clue to it. Test: Navigate to and interact with the Super Nerd.
 2.  **Super Nerd at (4, 18):** Assumed to be a non-essential NPC. **Test:** Talk to him after exploring.
 3.  **Hole Tiles:** Assumed to be one-way drops. **Test:** Fall through one and document start/end coordinates. (Low priority).
 
