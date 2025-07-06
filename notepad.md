@@ -26,7 +26,7 @@
 - **Current Hypothesis (H21):** The Farfetch'd teleported to the western part of the maze. I need to find it there.
 - **Verified Mechanics:**
     1. **Proximity (Turning):** Approaching Farfetch'd causes it to turn.
-    2. **Teleportation (Twigs):** Stepping on twigs teleports Farfetch'd based on its facing direction.
+    2. **Teleportation (Twigs):** Stepping on twigs *sometimes* teleports Farfetch'd. The trigger seems to depend on its position and facing direction relative to the specific twig used. Direct interaction also causes it to move.
     3. **Reset Conditions:** Wild battles, leaving the area, or direct interaction resets the puzzle.
 
 ### Ruins of Alph Puzzle
