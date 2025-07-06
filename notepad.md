@@ -26,18 +26,19 @@
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd to the apprentice at `(7, 28)`.
 *   **Verified Mechanics:**
-    *   The Farfetch'd's movement and orientation are changed by my position relative to it. 
+    *   The Farfetch'd's movement and orientation are changed by my position relative to it.
     *   Interacting directly (pressing 'A') or getting into a wild battle resets the puzzle by making the bird disappear and reappear elsewhere.
-*   **Current Status:** Lost the Farfetch'd. Currently trapped in a maze section.
+*   **Status: SOLVED!** Received HM01 (CUT) as a reward.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
 *   **Clue:** Liz mentioned hearing a strange radio broadcast from the Ruins of Alph. This might be a clue.
 
-## III. Items & Battle
+## III. HMs, TMs, & Items
+*   **HM01 (CUT):** Clears small trees. Requires the Hive Badge from Azalea Town to use outside of battle. Taught to SUNDEW.
+*   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
 *   **EVERSTONE:** Prevents evolution.
 *   **BERRY:** Restores 10 HP. Found at `FRUIT_TREE`s.
-*   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
 *   **SLOWPOKETAIL:** Offered for sale on Route 32. Purpose unknown.
 *   **MOOMOO MILK:** Restores 100 HP. Purchased at MOOMOO FARM.
 
@@ -48,4 +49,3 @@
 
 ## V. Future Tool Development
 *   **Exploration Agent/Tool:** I keep getting lost in mazes. I should create a tool that can systematically explore an area, keeping track of visited paths and prioritizing unseen tiles to avoid going in circles. This would be more efficient than manual searching.
-*   **HM01 (CUT):** Clears small trees. Requires the Hive Badge from Azalea Town to use outside of battle.
