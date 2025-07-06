@@ -49,7 +49,7 @@
 
 ### B. Solved Puzzles & Confirmed Mechanics
 - **Pokemon Mansion Puzzle (All Floors):** The mansion uses an 'alternating doors' system controlled by switches.
-  - **1F Puzzle Mechanics:** The 'alternating doors' on this floor are controlled by more than just the switch at (3, 6). Movement within the mansion itself can trigger changes. **Confirmed (T52896):** Moving towards the western stairs at (6, 11) caused the eastern gates at (17, 8) & (18, 8) to open. **UPDATE (T52947):** This eastern wing is a dead end with no path to the southern section. The location-based trigger is a red herring. The solution must be on another floor.
+  - **1F Puzzle Mechanics:** The 'alternating doors' on this floor are controlled by more than just the switch at (3, 6). Movement within the mansion itself can trigger changes. **Confirmed (T52896):** Moving towards the western stairs at (6, 11) caused the eastern gates at (17, 8) & (18, 8) to open. **UPDATE (T53167):** I was wrong! The eastern wing is NOT a dead end. My pathfinder confirmed a route to (11, 10), which is the gateway to the eastern and southern sections. The 'guaranteed reachable' gates in the south must be accessed from here. My new hypothesis is that a switch or trigger in this eastern area controls access to the final section.
   - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). (Confirmed T52787)
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
