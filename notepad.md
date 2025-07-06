@@ -19,13 +19,10 @@
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd (object_id 1) to the apprentice at `(7, 28)`.
 *   **Verified Mechanics:**
-    *   Stepping on specific `FLOOR` tile coordinates changes the Farfetch'd's orientation (facing direction). The puzzle is about finding the correct sequence of tile coordinates.
+    *   Stepping on specific `FLOOR` tile coordinates (twigs) changes the Farfetch'd's orientation or causes it to move.
     *   The bird's reaction depends on my position relative to it.
-    *   Wild battles or direct interaction (pressing 'A') reset the puzzle, often moving the bird to a new starting position.
-*   **Current `quest_strategist` Hypotheses Under Test:**
-    1.  **Orient then Propel:** Use one tile to orient the bird, then circle to its opposite side to use a second tile to propel it forward. (e.g., Make it face west, then approach from the east).
-    2.  **Opposite Side Propulsion:** To move the bird in a desired direction, step on a tile on its *opposite* side (e.g., step on a tile east of the bird to move it west). 
-    3.  **Diagonal Stimulus:** Step on diagonally adjacent tiles to provoke a different, potentially more useful, reaction.
+    *   Wild battles or direct interaction (pressing 'A') reset the puzzle.
+*   **Current Hypothesis:** I need to use the twigs to manipulate the Farfetch'd's position and orientation to guide it towards the apprentice.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
