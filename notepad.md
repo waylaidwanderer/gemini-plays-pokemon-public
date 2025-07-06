@@ -1,6 +1,6 @@
-## I. Core Protocols & Immediate Actions (v51160)
-- **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates are my highest priority upon any map change. I will use a 'check-then-add' protocol, using `find_wkg_node_by_coords` before adding new nodes.
-- **CRITICAL: WKG Protocol (v51189):** My workflow for documenting map transitions: 1. Use the warp/connection. 2. Upon arrival, use `find_wkg_node_by_coords` to check if the destination node exists. If not, create it. All payload values (including `map_id` as a string) MUST be correct. 3. Use `find_wkg_node_by_coords` to get the source node ID. 4. **Empirically test bidirectionality by immediately returning.** 5. Create the edge(s): For bidirectional warps, create *two separate one-way edges*, each with its respective `destination_entry_point`. For map_edge connections, create one bidirectional edge. 6. I will treat 'edge already exists' errors as confirmations that my documentation is correct and move on.
+## I. Core Protocols & Immediate Actions (v51241)
+- **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates are my highest priority upon any map change.
+- **CRITICAL: WKG Protocol (v51241):** My workflow for documenting map transitions: 1. Use the warp/connection. 2. Upon arrival, use `find_wkg_node_by_coords` to check if the destination node exists. If not, create it. All payload values (including `map_id` as a string) MUST be correct. 3. Use `find_wkg_node_by_coords` to get the source node ID. 4. **Empirically test bidirectionality by immediately returning.** 5. Create the edge(s): For bidirectional warps, create *two separate one-way edges*, each with its respective `destination_entry_point`. For map_edge connections, create one bidirectional edge. 6. I will treat 'edge already exists' errors as confirmations that my documentation is correct and move on.
 - **CRITICAL: Map Marker Protocol:** I will use standardized emojis and labels for all new markers: '☠️' for defeated trainers, '✅' for picked-up items. ALL teleporter markers, whether for departure or arrival, MUST use the format: '🚪 Warp to/from (X, Y) [Bi-directional/One-way]'. This ensures consistent parsing by my tools. This will be placed *immediately*. **Redundant 'arrival' markers are forbidden.**
 - **CRITICAL: Agent & Tool Protocol:** Agent and tool refinement is an IMMEDIATE action, not a deferred goal. If an agent or tool is faulty or a better one can be conceived, I MUST define/redefine it on the IMMEDIATE next turn. **Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools.** I will not use `xml.etree.ElementTree` in `run_code`.
 - **CRITICAL: Hypothesis Testing Protocol:** When stuck, I will not repeat the same action more than twice. If a hypothesis fails after two documented attempts, I MUST formulate and test a new one. I will avoid confirmation bias by actively trying to disprove my own theories.
@@ -43,36 +43,21 @@
 - **Eevee Evolution:** An NPC in Safari Zone North mentioned Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths via stones.
 - **EXP.ALL:** Gives EXP to all party Pokémon, even non-participants, but reduces the total EXP gained per Pokémon. Best used for targeted training.
 
-## IV. Saffron Gym Maze - Systematic Re-Exploration (T50796)
-- **Hypothesis:** A specific sequence of teleporters is required. My previous markers are unreliable.
-- **Plan:** Systematically re-test every teleporter, starting from the entrance room, and create perfect, standardized markers.
-- **Attempt 1:** Start with the teleporter at (9, 18). 
-
-## V. Archived Hypotheses
+## IV. Archived Hypotheses
 - **Saffron Gym Hypothesis (Attempt 1):** Defeating all trainers in the gym will unlock the path to Sabrina.
 - **Saffron Gym Hypothesis (Attempt 2 - Defeat all trainers in Sabrina's room):** Defeating all trainers in Sabrina's immediate room will unlock the path to her. **Conclusion (T50140):** FAILED. The path remained blocked.
 - **Saffron Gym Hypothesis (Attempt 3):** Defeating all trainers in the room with the Channeler at (4, 8) does not open the path to Sabrina. **Conclusion (T50170):** FAILED. The trigger is something else entirely.
 - **Saffron Gym Hypothesis (Attempt 4):** The maze has a simple, linear solution. **Conclusion (T50796):** FAILED. All reachable warps have been visited.
+- **Saffron Gym Hypothesis (Attempt 5 - T51005):** The path to Sabrina was blocked because I hadn't cleared Team Rocket out of Silph Co. first. Now that Giovanni is defeated, the trigger to open the path might be active. I must return to Saffron Gym and re-test the teleporter maze.
 - **Silph Co. 10F Hypothesis (Attempt 1 - Beds):** The 'Guaranteed Reachable Interactable Tiles' are the beds. **Conclusion (T51108):** FAILED. Interacting with both beds yielded no result.
 - **Silph Co. 10F Hypothesis (Attempt 2 - Systematic Search):** The two 'Guaranteed Reachable Interactable Tiles' are hidden floor switches or pressure plates. **Conclusion (T51157):** FAILED. Systematic search of tiles (2,2), (2,1), (3,1), (4,2), (4,1), (5,1), and (6,1) yielded no results. This method is too inefficient.
 - **Silph Co. 10F Hypothesis (Attempt 3 - Systematic Search):** The interactable tiles are hidden floor switches activated by standing on an adjacent tile and pressing 'A'. **Conclusion (T51157):** FAILED. Systematic search of tiles (2,2), (2,1), (3,1), (4,2), (4,1), (5,1), and (6,1) yielded no results. This method is inefficient and the new game hints suggest it's the wrong approach.
+- **Silph Co. 10F Hypothesis (Attempt 4 - Re-investigating Warps):** The 'interactable tiles' are the warps themselves, and their state or destination may have changed after defeating Giovanni. The game state's insistence that (11, 1) is unvisited was a major clue. **Conclusion (T51212):** This hypothesis was partially correct. The warps are key, but the systematic search of walls was a dead end. The game has now revealed the exact interactable tiles.
 
-## VI. Agent & Tool Ideas
-- **Marker Compliance Tool (Implemented):** A tool that parses map markers against my notepad protocols to find non-compliant entries. This is a computational task, making a tool the correct implementation.
+## V. Current Hypotheses
+- **Silph Co. 4F Puzzle:** The game has hinted at two 'Guaranteed Reachable Interactable Tiles'. Their locations are currently unknown. My hypothesis is that a simple move is required to reveal their coordinates.
+
+## VI. Agent & Tool Ideas (v51241)
+- **Marker Compliance Tool (Implemented):** A tool that parses map markers against my notepad protocols to find non-compliant entries.
 - **Systematic Searcher Tool (Implemented):** A tool to automate the process of systematically sweeping an area for interactable tiles. It parses the map XML to find valid tiles.
-
-## VII. Post-Silph Co. Hypotheses
-- **Saffron Gym Hypothesis (Attempt 5 - T51005):** The path to Sabrina was blocked because I hadn't cleared Team Rocket out of Silph Co. first. Now that Giovanni is defeated, the trigger to open the path might be active. I must return to Saffron Gym and re-test the teleporter maze.
-
-## VIII. Silph Co. 10F - Re-investigating Warps (T51160)
-- **System Hint:** Two 'Guaranteed Reachable Interactable Tiles' exist, and the 'Reachable Unvisited Warps' list points to (11, 1), a warp I've already used.
-- **Hypothesis:** The 'interactable tiles' are the warps themselves, and their state or destination may have changed after defeating Giovanni. The game state's insistence that (11, 1) is unvisited is a major clue.
-- **Plan:** Re-test the warp at (11, 1).
-## VIII. Agent & Tool Ideas (v51212)
-- **WKG Manager Tool:** A tool to automate the multi-step WKG documentation process. It would take source/destination details and execute the necessary `find_wkg_node_by_coords` and `manage_world_knowledge` calls, ensuring protocol compliance (e.g., string payloads).
-## VIII. Agent & Tool Ideas (v51212)
-- **WKG Manager Tool:** A tool to automate the multi-step WKG documentation process. It would take source/destination details and execute the necessary `find_wkg_node_by_coords` and `manage_world_knowledge` calls, ensuring protocol compliance (e.g., string payloads).
-## VIII. Agent & Tool Ideas (v51212)
-- **WKG Manager Tool:** A tool to automate the multi-step WKG documentation process. It would take source/destination details and execute the necessary `find_wkg_node_by_coords` and `manage_world_knowledge` calls, ensuring protocol compliance (e.g., string payloads).
-## VIII. Agent & Tool Ideas (v51212)
 - **WKG Manager Tool:** A tool to automate the multi-step WKG documentation process. It would take source/destination details and execute the necessary `find_wkg_node_by_coords` and `manage_world_knowledge` calls, ensuring protocol compliance (e.g., string payloads).
