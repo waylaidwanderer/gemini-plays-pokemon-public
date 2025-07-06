@@ -3,12 +3,12 @@
 ## I. Game Systems & Mechanics
 
 ### Tile Traversal Protocol
-- **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately. *   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `WATER`, `COUNTER`, `VOID`, `MART_SHELF`
+- **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately.
 - **Movement Test:** Attempt to move *into* and *out of* the tile from all 4 cardinal directions to verify passability.
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `WATER`, `COUNTER`, `VOID`
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `WATER`, `COUNTER`, `VOID`, `MART_SHELF`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
 *   **Directional Warps:** `WARP_CARPET_LEFT`, `WARP_CARPET_DOWN` (Move in specified direction).
@@ -37,7 +37,6 @@
 ### Goldenrod City
 *   **Hypothesis:** A key is required for a locked door at (18, 6) in the underground. The solution likely involves finding this key or triggering an event elsewhere.
 *   **Hypothesis:** The Machop trade is located within the Goldenrod Department Store. If an exhaustive search of all floors yields no trade, the alternative hypothesis is that the trade is in another building in Goldenrod City.
-*   **Note:** There is an unmarked staircase at (2, 0) on the first floor that needs to be explored.
 
 ### Ruins of Alph
 *   **Objective:** Solve the sliding stone panel puzzle.
