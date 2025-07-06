@@ -56,6 +56,5 @@
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
 - **Impassable Tiles:** Tiles that appear as solid walls, furniture, or other solid objects are generally impassable and act as barriers to movement.
-- **Pokemon Mansion 1F (Eastern Section):** After flipping the main switch at (3, 6), a new set of gates at (25, 14) and (26, 14) became reachable, suggesting a second switch in this area controls them.
 - **Pokemon Mansion 1F (Eastern Section):** After flipping the main switch at (3, 6), a new set of gates at (25, 14) and (26, 14) became reachable, suggesting a second switch in this area controls them. Path west became blocked, confirming the alternating door mechanic.
 - **Pokemon Mansion 1F (Eastern Gates):** Confirmed that the gates at (25, 14) and (26, 14) cannot be opened by direct interaction (pressing 'A'). This supports the hypothesis that a second, undiscovered switch controls them.
