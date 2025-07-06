@@ -1,9 +1,8 @@
-## I. Core Protocols & Immediate Actions (v51271)
-- **CRITICAL: Immediate Data Management:** I will use `manage_world_knowledge` and `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. My WKG updates are my highest priority upon any map change.
-
-- **CRITICAL: Map Marker Protocol:** I will use standardized emojis and labels for all new markers: '☠️' for defeated trainers, '✅' for picked-up items. ALL teleporter markers, whether for departure or arrival, MUST use the format: '🚪 Warp to/from (X, Y) [Bi-directional/One-way]'. This ensures consistent parsing by my tools. This will be placed *immediately*. **Redundant 'arrival' markers are forbidden.**
-- **CRITICAL: Agent & Tool Protocol:** Agent and tool refinement is an IMMEDIATE action, not a deferred goal. If an agent or tool is faulty or a better one can be conceived, I MUST define/redefine it on the IMMEDIATE next turn. **Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools.** I will not use `xml.etree.ElementTree` in `run_code`.
-- **CRITICAL: Hypothesis Testing Protocol:** When stuck, I will not repeat the same action more than twice. If a hypothesis fails after two documented attempts, I MUST formulate and test a new one. I will avoid confirmation bias by actively trying to disprove my own theories.
+## I. Core Protocols & Immediate Actions (v51525)
+- **CRITICAL: Immediate Data Management:** I will use `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. 
+- **CRITICAL: Map Marker Protocol:** I will use standardized emojis and labels: '☠️' for defeated trainers, '✅' for picked-up items, and '🚪 Warp to/from (X, Y) [Bi-directional/One-way]' for all teleporters. This will be placed *immediately*.
+- **CRITICAL: Agent & Tool Protocol:** Agent and tool refinement is an IMMEDIATE action. If an agent or tool is faulty or a better one can be conceived, I MUST define/redefine it on the IMMEDIATE next turn. **Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools.**
+- **CRITICAL: Hypothesis Testing Protocol:** When stuck, I will not repeat the same action more than twice. If a hypothesis fails after two documented attempts, I MUST formulate and test a new one.
 
 ## II. System & Tool Development
 ### A. Agent & Tool Usage Notes
