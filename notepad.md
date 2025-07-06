@@ -58,7 +58,7 @@
 - **Pokemon Mansion 1F (Eastern Section):** After flipping the main switch at (3, 6), a new set of gates at (25, 14) and (26, 14) became reachable, suggesting a second switch in this area controls them. Path west became blocked, confirming the alternating door mechanic.
 
 ### A. Active Hypotheses
-- **Pokemon Mansion 1F Puzzle:** The eastern gates at (25,14) and (26,14) are controlled by a separate, undiscovered mechanism in the eastern section of the floor. My previous search of this area was incomplete.
-  - **Hypothesis:** A second switch exists in the eastern section of 1F.
-  - **Test Plan:** Return to the eastern area and conduct a more thorough, systematic search, interacting with any suspicious-looking tiles.
+- **Pokemon Mansion 1F Puzzle:** The eastern gates at (25,14) and (26,14) opened unexpectedly while I was moving through the eastern room. The trigger is unknown.
+  - **Hypothesis:** The path to progressing on 1F is now through these open gates.
+  - **Test Plan:** Navigate through the open gates and explore the southern area.
   - **Conclusion:** TBD.
