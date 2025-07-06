@@ -28,6 +28,7 @@
     *   **MOOMOO MILK:** Restores 100 HP. Purchased at MOOMOO FARM.
 *   **SLOWPOKETAIL:** Offered for sale on Route 32. Purpose unknown.
 *   **Vending Machine Drinks:** Can refresh tired POKéMON.
+*   **Hidden Items:** Must be interacted with from an adjacent tile, not by standing on the item's tile. Exact orientation might matter.
 
 ## II. Key Items, HMs, & TMs
 *   **HM01 (CUT):** Clears small trees. Requires the Hive Badge. Taught to SUNDEW.
@@ -36,12 +37,14 @@
 
 ## III. Active Puzzles & Hypotheses
 
-### Goldenrod Underground
-*   **Objective:** Find a way to the eastern section of the underground, likely through the locked door at (18, 6) or via a hidden switch room.
-*   **Hypothesis 1 (Failed):** A hidden switch is located on the walls near the defeated trainers in the western section. (Tested multiple tiles, no results).
-*   **Hypothesis 2 (Current):** A key or switch-triggering item is located at one of the hidden item spots. Currently investigating the one at (4, 18).
-*   **Hypothesis 3:** A hidden passage exists along one of the walls.
-*   **Hypothesis 4:** An object in the area can be removed with CUT.
+### Goldenrod Underground Switch Room
+*   **Objective:** Find a way to the eastern section of the underground.
+*   **Hypothesis 1 (Failed):** A single switch press on one of the three objects on the north wall (18,23), (20,23), or (22,23) is the solution.
+    *   **Test:** Interacted with all three objects individually. 
+    *   **Conclusion:** None of the objects reacted. This hypothesis is incorrect.
+*   **Hypothesis 2 (Current):** The puzzle requires pressing the switches in a specific sequence.
+    *   **Next Step:** Finish testing the simplest sequence: Left (18,23), then Middle (20,23), then Right (22,23). If that fails, use the new `puzzle_solver` agent to generate more sequences.
+*   **Alternative Hypothesis:** The solution does not involve these switches, but a hidden passage or item elsewhere.
 
 ### Goldenrod City
 *   **Fact (from Agent):** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo). Progress is impossible this way for now.
@@ -55,17 +58,11 @@
 ### Core Directives
 *   I must act on tool/notepad management tasks IMMEDIATELY.
 *   I must mark moving objects using their `object_id`.
-*   I must use `strategic_advisor` or `quest_strategist` when feeling stuck.
 *   I MUST use the `nickname_genius` agent the next time I catch a Pokémon to test its functionality.
+*   I will use the new `puzzle_solver` agent to generate sequences for the Goldenrod Underground switch puzzle if my initial sequence test fails.
 
 ## V. Phone Contacts
 *   **TODD (CAMPER):** Calls about sales at the Goldenrod Department Store.
 *   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
-- **Goldenrod Underground - Switch Room:**
-  - **Hypothesis 1:** The objects on the northern wall are switches.
-  - **Test 1:** Interacted with the object at (18, 23) from (18, 22). Result: Failed.
-  - **Test 2:** Interacted with the object at (20, 23) from (20, 22). Result: Failed.
-  - **Test 3:** Interacted with the object at (22, 23) from (22, 22). Result: Failed.
-  - **Conclusion:** Interacting with the switches individually does not work.
-  - **New Hypothesis:** The puzzle requires pressing the switches in a specific sequence.
-  - **Next Step:** Test the simplest sequence: Left (18,23), then Middle (20,23), then Right (22,23).
+*   **LIZ (PICNICKER):** Gives gameplay tips.
+*   **RALPH (FISHER):** Calls about his fishing exploits.
