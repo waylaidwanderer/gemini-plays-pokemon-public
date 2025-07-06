@@ -41,9 +41,9 @@
 - **Type Display Error:** In battle, my Golbat ECHO (Poison/Flying) was incorrectly displayed as a GHOST type. My Lapras NEPTUNE (Water/Ice) was also displayed as GHOST and NORMAL type.
 
 ## V. Current Hypotheses
-- **Pokemon Mansion Hypothesis (Attempt 2):** The Cinnabar Gym is locked or inaccessible. The key or event to unlock it is hidden within the Pokémon Mansion.
-  - **Test:** Systematically explore the Pokémon Mansion, floor by floor, interacting with all objects and reading all notes/diaries to find a "Secret Key" or trigger a related event.
-  - **Current Step:** Explore the eastern section of 1F, which contains a second set of closed gates at (25, 14) and (26, 14). I suspect another switch is nearby.
+- **Pokemon Mansion 2F Gate Puzzle:** A switch at (3, 12) on 2F opens the gates at (10, 5) and (10, 6).
+  - **Test:** Activate the switch at (3, 12) and check if the gates open.
+  - **Current Step:** Explore all reachable unseen tiles on 2F before testing the switch.
 
 ## VI. Solved Puzzles & Archived Hypotheses
 - **Pokemon Mansion Hypothesis (Attempt 1):** The Cinnabar Gym is locked or inaccessible. The key or event to unlock it is hidden within the Pokémon Mansion. **Conclusion (T51934):** FAILED. My party was too weak to continue, had to use an Escape Rope.
