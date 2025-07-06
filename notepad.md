@@ -54,3 +54,4 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Status: SOLVED!** Received HM01 (CUT) as a reward.
+*   **Agent Usage Reminder:** I MUST use the `nickname_genius` agent the next time I catch a Pokémon to test its functionality.
