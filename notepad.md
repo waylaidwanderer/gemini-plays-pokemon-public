@@ -53,5 +53,4 @@
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
 
 ## V. Pokemon Encounter Log
-- **Pokemon Mansion 1F:** Wild Grimer and Raticate can be found.
 - **Pokemon Mansion 1F:** Wild Grimer, Raticate, and Growlithe can be found.
