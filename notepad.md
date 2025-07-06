@@ -50,10 +50,10 @@
 ### B. Solved Puzzles & Confirmed Mechanics
 - **Pokemon Mansion Puzzle (All Floors):** The mansion uses an 'alternating doors' system controlled by switches.
   ### A. Active Hypothesis: Pokemon Mansion 1F Puzzle
-- **Observation:** The mansion has multiple sets of gates. The system has confirmed that four gates are 'guaranteed reachable': (17, 8), (18, 8), (25, 14), and (26, 14). However, my pathfinder cannot find a route to them, and a system warning confirmed the destination is unreachable. This implies the path is not currently open.
-- **Hypothesis (Attempt #1):** The switch at (3, 6) is the primary mechanism for changing the mansion's layout. Activating it will open a new path, likely by opening the eastern gates at (17, 8) and (18, 8).
-- **Test:** Stand at (3, 7), face up, and interact with the switch.
-- **Expected Outcome:** The gates at (17, 8) and (18, 8) will change from `closed_gate` to `open_gate`.
+- **Observation:** The system has provided an explicit hint that four gates are 'guaranteed reachable': (17, 8), (18, 8), (25, 14), and (26, 14). Simultaneously, my `pathfinder` tool repeatedly fails to find a route, and system warnings state the destination is unreachable. The `pathfinder` treats 'unknown' tiles as impassable.
+- **Hypothesis:** The conflicting information is the puzzle itself. The path to the reachable gates exists on this floor but is deliberately obscured within the large area of 'unknown' tiles to the south. The path is not blocked by a switch, but is a hidden maze that must be explored manually.
+- **Test:** Systematically explore the southern portion of the mansion, starting from the eastern wing, to reveal the 'unknown' tiles and map the hidden path.
+- **Expected Outcome:** Uncovering the 'unknown' tiles will reveal a walkable path leading to the southern gates at (25, 14) and (26, 14).
 - **Conclusion:** TBD.
   - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). (Confirmed T52787)
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
