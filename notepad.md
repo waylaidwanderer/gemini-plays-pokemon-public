@@ -15,20 +15,17 @@
 
 ## II. Quests & Puzzles
 
-### Ilex Forest - Farfetch'd Puzzle (REVISED MODEL)
+### Ilex Forest - Farfetch'd Puzzle
 *   **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at `(7, 28)`.
-*   **Verified Mechanics (Self-Corrected after AI Critique):**
-    1.  **Turning Mechanism:** My own movement onto a tile adjacent to the Farfetch'd is the primary mechanism that causes it to turn. The exact turning logic is complex and seems to depend on the direction of my approach, but it is NOT random.
-    2.  **Disappearance/Reappearance:** The Farfetch'd does NOT disappear when REPEL wears off. My previous observation was likely a coincidence. The disappearance must be caused by something else. It reappeared at (28, 31) after I stepped on the twig at (22, 30).
-    3.  **Twig Function:** The function of the twigs is NOT to turn the bird. My previous model was flawed. The twigs are likely used to make the Farfetch'd appear, disappear, or *move* once it is correctly oriented.
-*   **Current Working Hypothesis (REVISED):** The function of the twigs is still unknown, but my last test proved they don't simply make the bird move forward. Stepping on the twig at (29, 30) while the bird was at (28, 31) and facing left caused it to turn to face right. This invalidates the previous hypothesis.
-*   **New Test Plan:**
-    1. Re-orient the bird to face LEFT by approaching it from the RIGHT (moving to (29, 31)).
-    2. Once it is facing left, step on the OTHER twig at (22, 30).
-    3. Hypothesis: A specific twig must be used to make the bird move once it is correctly oriented.
+*   **Verified Mechanics:**
+    1.  **Turning:** My movement to an adjacent tile causes the bird to turn. The logic is complex and based on my final position relative to the bird, not just my direction of approach.
+    2.  **Puzzle Reset:** Wild Pokémon battles reset the entire puzzle, causing the bird to return to its respawn point at (28, 31). Leaving the forest also resets it.
+    3.  **Twigs:** The twigs at (22, 30) and (29, 30) cause the bird to turn, NOT move.
+*   **Current State:** I am at (27, 31), in front of the bird, which is at (28, 31) facing down.
+*   **Current Test:** Interact with the bird from the front (press 'A'). Hypothesis: This will have some effect, possibly making it move or turn.
 *   **Alternative Hypotheses to Test if Above Fails:**
-    *   The twigs are sound cues. Stepping on one makes the bird turn to face the sound's origin from a distance.
-    *   The sequence of twig activations matters.
+    *   The twigs must be stepped on in a specific sequence.
+    *   I need to interact with something else in the forest to change the bird's behavior.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
