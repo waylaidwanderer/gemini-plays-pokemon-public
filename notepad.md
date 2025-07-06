@@ -4,7 +4,7 @@
 
 ### Tile Traversal Rules
 - **Testing Protocol:** When a new, reachable tile type is seen, I MUST test it immediately. Test movement *into* and *out of* the tile from all 4 cardinal directions to verify passability and check for one-way paths. For ledges, I must attempt to move up against them to confirm they are one-way.
-- **IMMEDIATE Priority Test List:** `IlexForestShrineScript` at (8, 22).
+- **IMMEDIATE Priority Test List:** The tile at (8, 22) where the IlexForestShrineScript object is located.
 
 ### Verified Tile Types
 *   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `COUNTER`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `VOID`, `MART_SHELF`, `BIRD` (Farfetch'd)
