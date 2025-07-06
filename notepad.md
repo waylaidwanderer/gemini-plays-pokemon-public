@@ -10,7 +10,7 @@
 ### Verified Tile Types
 *   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `MART_SHELF`, `BIRD` (Farfetch'd), `CUT_TREE`, `WATER`, `COUNTER`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
-*   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
+*   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
 *   **Directional Warps:** `WARP_CARPET_LEFT`, `WARP_CARPET_DOWN` (Move in specified direction).
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:** `FLOOR_UP_WALL` (Verified: Enter by moving UP; Exit by moving LEFT/RIGHT).
@@ -34,10 +34,9 @@
 
 ## III. Active Puzzles & Hypotheses
 
-### Goldenrod Underground
-*   **Confirmed:** SOME SUPER_NERD trainers in the underground are one-time events that disappear after dialogue, clearing a path. Others are permanent NPCs who block paths, like the one at (3, 27).
-*   **Hypothesis:** The underground is a maze with multiple dead ends. A key seems to be required for a locked door at (18, 6). The solution likely involves finding this key or triggering an event elsewhere.
-    *   **Test:** Systematically explore all warps and check walls for hidden passages after clearing reachable areas.
+### Goldenrod Underground & City
+*   **Hypothesis:** A key is required for a locked door at (18, 6) in the underground. The solution likely involves finding this key or triggering an event elsewhere.
+*   **Hypothesis:** The Machop trade is located within the Goldenrod Department Store. If an exhaustive search of all floors yields no trade, the alternative hypothesis is that the trade is in another building in Goldenrod City.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
@@ -54,8 +53,3 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Status: SOLVED!** Received HM01 (CUT) as a reward.
-*   **Agent Usage Reminder:** I MUST use the `nickname_genius` agent the next time I catch a Pokémon to test its functionality.
-
-## VI. Goldenrod Department Store
-*   **Objective:** Find the Machop trade.
-*   **Exploration Note:** There is an unmarked staircase warp at (2, 0) on the first floor that needs to be investigated.
