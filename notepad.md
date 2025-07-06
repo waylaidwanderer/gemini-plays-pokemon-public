@@ -17,13 +17,15 @@
 ## II. Quests & Puzzles
 
 ### Ilex Forest - Farfetch'd Puzzle
-*   **Objective:** Herd the Farfetch'd to the apprentice at `(7, 28)`.
-*   **Status:** Stuck in a loop. Using `quest_strategist` to generate new hypotheses.
+*   **Objective:** Herd the Farfetch'd (object_id 1) to the apprentice at `(7, 28)`.
 *   **Verified Mechanics:**
-    *   Stepping on specific `FLOOR` tiles (not twigs) causes the Farfetch'd to turn or move.
-    *   The bird's orientation is critical.
-    *   Direct interaction (A button) or wild battles reset its position.
-*   **Methodology:** Systematically test hypotheses from `quest_strategist`. Document the exact coordinates stepped on and the resulting effect on the Farfetch'd (new position and facing direction).
+    *   Stepping on specific `FLOOR` tiles changes the Farfetch'd's orientation (facing direction).
+    *   The bird's reaction depends on my position relative to it.
+    *   Wild battles or direct interaction (pressing 'A') reset the puzzle, often moving the bird to a new starting position.
+*   **Current `quest_strategist` Hypotheses Under Test:**
+    1.  **Orient then Propel:** Use one tile to orient the bird, then circle to its opposite side to use a second tile to propel it forward. (e.g., Make it face west, then approach from the east).
+    2.  **Opposite Side Propulsion:** To move the bird in a desired direction, step on a tile on its *opposite* side (e.g., step on a tile east of the bird to move it west). 
+    3.  **Diagonal Stimulus:** Step on diagonally adjacent tiles to provoke a different, potentially more useful, reaction.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
@@ -38,5 +40,4 @@
 
 ## IV. System & Methodology
 *   **Core Directive:** I must act on tool/notepad management tasks IMMEDIATELY in the same turn I decide to do them. Deferring these actions is a critical failure of my process.
-*   **Map Marker Discipline:** I must mark the Farfetch'd's location (object_id 1) every time it moves to a new tile.
-*   **System Updates:** Acknowledged removal of the World Knowledge Graph system. Confirmed no references exist in my notepad or custom tools.
+*   **Map Marker Discipline:** I must mark moving objects (like the Farfetch'd) using their `object_id` to ensure the marker tracks them correctly. Static markers are for static objects/locations only.
