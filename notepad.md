@@ -49,3 +49,4 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Status: SOLVED!** Received HM01 (CUT) as a reward.
+*   **TM02 (Headbutt):** Can be used to shake trees and find sleeping Pokémon.
