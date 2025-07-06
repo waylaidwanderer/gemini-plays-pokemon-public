@@ -54,3 +54,4 @@
 
 ## V. Pokemon Encounter Log
 - **Pokemon Mansion 1F:** Wild Grimer and Raticate can be found.
+- **Pokemon Mansion 1F:** Wild Grimer, Raticate, and Growlithe can be found.
