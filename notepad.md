@@ -40,15 +40,13 @@
 - **Eevee Evolution:** An NPC in Safari Zone North mentioned Eevee can evolve into Flareon or Vaporeon, suggesting multiple evolution paths via stones.
 - **EXP.ALL:** Gives EXP to all party Pokémon, even non-participants, but reduces the total EXP gained per Pokémon. Best used for targeted training.
 
-#### B4. Visual Bugs
-
 ## IV. Puzzle & Hypothesis Log
 ### A. Active Hypotheses
-- **Pokemon Mansion B1F:** The basement floor, accessible via stairs on 3F, likely holds the SECRET KEY. Hypothesis: The key is guarded by a trainer or hidden behind a puzzle. Test: Fully explore B1F. Conclusion: TBD.
+- **Pokemon Mansion Gate System:** The gates are not on a simple toggle system. Hypothesis: There are hidden pressure plates or a specific sequence of switch interactions that control the gates. Test: Explore the newly opened southern area on 1F to look for triggers. Systematically test each switch in isolation to confirm its direct effect.
+- **Pokemon Mansion B1F:** The basement floor, accessible via stairs on 3F, likely holds the SECRET KEY. Hypothesis: The key is guarded by a trainer or hidden behind a puzzle. Test: Fully explore B1F.
 
 ### B. Solved Puzzles & Confirmed Mechanics
-- **Pokemon Mansion Puzzle (All Floors):** The mansion uses an 'alternating doors' system controlled by switches.
-  
+- **Pokemon Mansion Puzzle (Floors 1-3):** The mansion uses an 'alternating doors' system controlled by switches.
   - **1F Switch (3, 6):** Toggles the western gates at (17, 8/18, 8). (Confirmed T53644)
   - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). (Confirmed T52787)
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
@@ -56,5 +54,5 @@
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
 
 ### C. Future Development Ideas
-- **Puzzle Logic Agent:** Could an agent be designed to analyze the state of complex puzzles like the Pokémon Mansion? Input would be the state of all known switches and gates, and output would be the most logical next test or hypothesis. This could prevent wasted time from flawed manual reasoning.
+- **Puzzle Logic Agent:** Define an agent to analyze the state of complex puzzles like the Pokémon Mansion. Input would be the state of all known switches and gates, and output would be the most logical next test or hypothesis. This could prevent wasted time from flawed manual reasoning.
 - **Warp Reset Mechanic:** If a wild battle is triggered immediately after using a warp to transition between maps, the game may place the player back at the warp's entry point on the original map after the battle concludes. (Observed T53666)
