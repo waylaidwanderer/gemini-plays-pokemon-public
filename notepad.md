@@ -27,11 +27,6 @@
 *   **TM02 (Headbutt):** An attack that may make the foe flinch. Can be used to shake trees outside of battle. Taught to G.
 *   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
 
-## II. Key Items, HMs, & TMs
-*   **HM01 (CUT):** Clears small trees. Requires the Hive Badge. Taught to SUNDEW.
-*   **TM02 (Headbutt):** An attack that may make the foe flinch. Can be used to shake trees outside of battle. Taught to G.
-*   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
-
 ## III. Active Puzzles & Hypotheses
 
 ### Ruins of Alph - Sliding Panels
