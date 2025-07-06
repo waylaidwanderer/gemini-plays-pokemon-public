@@ -45,6 +45,9 @@
 ## IV. Puzzle & Hypothesis Log
 ### A. Active Hypotheses
 - **Pokemon Mansion B1F:** The basement floor, accessible via stairs on 3F, likely holds the SECRET KEY. Hypothesis: The key is guarded by a trainer or hidden behind a puzzle. Test: Fully explore B1F. Conclusion: TBD.
+- **Pokemon Mansion 1F Puzzle (RE-RE-REVISED):** The mansion operates on a complex 'alternating doors' system. The western gates at (17,8) and (18,8) closing after I passed through the eastern area at (26,14) confirms there's a hidden trigger. 
+  - **Hypothesis:** Stepping on a specific tile in the eastern area toggles the state of both the eastern and western gates. The switch at (3,6) likely only controls the initial state.
+  - **Test Plan:** 1. Finish this battle and catch the Grimer. 2. Explore the southern area now accessible through the open eastern gates. 3. If this path dead-ends, the next step is to return to the main switch at (3,6) to flip it again, which should re-open the western path.
 
 ### B. Solved Puzzles & Confirmed Mechanics
 - **Pokemon Mansion Puzzle (All Floors):** The mansion uses an 'alternating doors' system controlled by switches.
@@ -57,9 +60,3 @@
 
 ### C. Future Development Ideas
 - **Puzzle Logic Agent:** Could an agent be designed to analyze the state of complex puzzles like the Pokémon Mansion? Input would be the state of all known switches and gates, and output would be the most logical next test or hypothesis. This could prevent wasted time from flawed manual reasoning.
-
-## IV. Puzzle & Hypothesis Log
-### A. Active Hypotheses
-- **Pokemon Mansion 1F Puzzle (RE-RE-REVISED):** The mansion operates on a complex 'alternating doors' system. The western gates at (17,8) and (18,8) closing after I passed through the eastern area at (26,14) confirms there's a hidden trigger. 
-  - **Hypothesis:** Stepping on a specific tile in the eastern area toggles the state of both the eastern and western gates. The switch at (3,6) likely only controls the initial state.
-  - **Test Plan:** 1. Finish this battle and catch the Grimer. 2. Explore the southern area now accessible through the open eastern gates. 3. If this path dead-ends, the next step is to return to the main switch at (3,6) to flip it again, which should re-open the western path.
