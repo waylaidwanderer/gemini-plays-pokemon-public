@@ -19,7 +19,7 @@
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd (object_id 1) to the apprentice at `(7, 28)`.
 *   **Verified Mechanics:**
-    *   Stepping on specific `FLOOR` tiles changes the Farfetch'd's orientation (facing direction).
+    *   Stepping on specific `FLOOR` tile coordinates changes the Farfetch'd's orientation (facing direction). The puzzle is about finding the correct sequence of tile coordinates.
     *   The bird's reaction depends on my position relative to it.
     *   Wild battles or direct interaction (pressing 'A') reset the puzzle, often moving the bird to a new starting position.
 *   **Current `quest_strategist` Hypotheses Under Test:**
