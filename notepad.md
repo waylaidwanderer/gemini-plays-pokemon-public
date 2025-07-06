@@ -54,7 +54,11 @@
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
-- **Impassable Tiles:** Tiles that appear as solid walls, furniture, or other solid objects are generally impassable and act as barriers to movement.
+
+### C. Future Development Ideas
+- **Puzzle Logic Agent:** Could an agent be designed to analyze the state of complex puzzles like the Pokémon Mansion? Input would be the state of all known switches and gates, and output would be the most logical next test or hypothesis. This could prevent wasted time from flawed manual reasoning.
+
+## IV. Puzzle & Hypothesis Log
 ### A. Active Hypotheses
 - **Pokemon Mansion 1F Puzzle (RE-RE-REVISED):** The mansion operates on a complex 'alternating doors' system. The western gates at (17,8) and (18,8) closing after I passed through the eastern area at (26,14) confirms there's a hidden trigger. 
   - **Hypothesis:** Stepping on a specific tile in the eastern area toggles the state of both the eastern and western gates. The switch at (3,6) likely only controls the initial state.
