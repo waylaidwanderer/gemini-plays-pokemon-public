@@ -24,7 +24,6 @@
 
 ## II. Key Items, HMs, & TMs
 *   **HM01 (CUT):** Clears small trees. Requires the Hive Badge. Taught to SUNDEW.
-*   **TM02 (Headbutt):** An attack that may make the foe flinch. Can be used to shake trees outside of battle. Taught to G.
 *   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
 
 ## III. Active Puzzles & Hypotheses
@@ -35,11 +34,14 @@
 
 ### Untested Assumptions (Post-Reflection)
 *   **Assumption:** The only way to Goldenrod City is north through Route 34.
-    *   **Alternative Hypothesis:** The Day-Care or the water to the west could provide an alternative path or necessary item.
-    *   **Test:** Investigate the Day-Care first. If that's a dead end, continue north. Explore water routes once SURF is available.
+    *   **Alternative Hypothesis:** The water to the west could provide an alternative path or necessary item (requires SURF).
+    *   **Test:** Backtrack through Ilex Forest to get to the western side of Route 34. Explore water routes once SURF is available.
 *   **Assumption:** Goldenrod City is the next mandatory location.
     *   **Alternative Hypothesis:** The Ruins of Alph puzzle is mandatory for progression.
     *   **Test:** If Goldenrod City is blocked, pivot to solving the Ruins of Alph puzzle.
+*   **Assumption:** The Day-Care PC is permanently bugged.
+    *   **Alternative Hypothesis:** The PC works under different conditions (e.g., time of day, story progression).
+    *   **Test:** Try interacting with the PC again at a later point in the game.
 
 ## IV. Tool & Agent Development
 ### Core Directives
@@ -51,6 +53,3 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Status: SOLVED!** Received HM01 (CUT) as a reward.
-
-### Day-Care
-*   **Unmarked Warps:** There are two unmarked warps at (2, 7) and (3, 7) that need to be investigated.
