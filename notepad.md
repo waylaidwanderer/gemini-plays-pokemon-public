@@ -36,6 +36,7 @@
 ## III. Active Puzzles & Hypotheses
 
 ### Goldenrod City
+*   **Fact (from Agent):** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo). Progress is impossible this way for now.
 *   **Hypothesis:** A key is required for a locked door at (18, 6) in the underground. The solution likely involves finding this key or triggering an event elsewhere.
 *   **Hypothesis:** An Abra is required for the Machop trade on the 5th floor of the Department Store. Abra might be found in the grass on Route 34.
 
