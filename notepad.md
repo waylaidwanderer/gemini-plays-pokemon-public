@@ -20,7 +20,8 @@
 *   **Verified Mechanics:**
     1.  **Direct Interaction:** Pressing 'A' on the Farfetch'd causes it to teleport to a new, seemingly random location.
     2.  **Twig Interaction:** Stepping on a twig causes the Farfetch'd to turn and face the player's current position.
-        *   Test 1: Stepped on twig at `(29, 30)`; Farfetch'd at `(28, 31)` turned to face me (right).
+        *   Test 1: Stepped on twig at `(29, 30)`; Farfetch'd appeared at `(28, 31)` facing right.
+    *   Test 2: Stepped on twig at `(22, 30)`; Farfetch'd at `(28, 31)` disappeared.
     3.  **Turning:** The turning logic is not simply facing the player. My approach vector seems to matter, but the exact rules are still under investigation.
     4.  **Reset Conditions:** Wild battles or leaving the area resets the puzzle.
 *   **Alternative Hypotheses to Test:**
