@@ -8,7 +8,7 @@
   2.  Test movement *into* the tile from all 4 adjacent, traversable cardinal directions.
   3.  If movement is possible, test movement *out of* the tile to all 4 adjacent, traversable cardinal directions to check for one-way paths.
   4.  Record all verified findings for both passable and impassable tiles immediately.
-- **Priority Test List:** WALL, CUT_TREE, WATER, HEADBUTT_TREE, IlexForestShrineScript
+- **IMMEDIATE Priority Test List:** WALL, HEADBUTT_TREE, IlexForestShrineScript. Failure to test these immediately is a process violation.
 - **Verified Impassable:** PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), VOID, MART_SHELF, BLACK_BELT (NPC)
 - **Verified Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Verified Warps:**
