@@ -13,7 +13,7 @@
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:**
-    * `FLOOR_UP_WALL` (Verified: Impassable from below. Traversable left-to-right from above.)
+    * `FLOOR_UP_WALL` (Under Re-evaluation): Overwatch critique noted my documentation is flawed. This tile appears to be the benches in the train station. My previous tests were inconclusive. I will now conduct a thorough test of movement on, off, and between these tiles from all directions to create an accurate entry.
     * `WARP_CARPET_DOWN` (Verified: Currently non-functional. Extensive testing by stepping on it from all directions and pressing 'A' has yielded no results. Likely requires an external trigger or key item.)
 
 ### Untested Tile Types (High Priority)
