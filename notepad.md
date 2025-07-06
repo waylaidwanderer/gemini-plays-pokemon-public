@@ -1,8 +1,7 @@
-## I. Core Protocols & Immediate Actions (v51525)
-- **CRITICAL: Immediate Data Management:** I will use `define_map_marker` on the *same turn* a discovery is made. Deferring tasks is a critical failure. 
-- **CRITICAL: Map Marker Protocol:** I will use standardized emojis and labels: '☠️' for defeated trainers, '✅' for picked-up items, and '🚪 Warp to/from (X, Y) [Bi-directional/One-way]' for all teleporters. This will be placed *immediately*.
-- **CRITICAL: Agent & Tool Protocol:** Agent and tool refinement is an IMMEDIATE action. If an agent or tool is faulty or a better one can be conceived, I MUST define/redefine it on the IMMEDIATE next turn. **Agents are for reasoning; computational tasks (pathfinding, data parsing) MUST be handled by tools.**
-- **CRITICAL: Hypothesis Testing Protocol:** When stuck, I will not repeat the same action more than twice. If a hypothesis fails after two documented attempts, I MUST formulate and test a new one.
+## I. Core Protocols & Game Philosophy
+- **Immediate Data Management:** I will use `define_map_marker` and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
+- **Agent & Tool Protocol:** Agent and tool refinement is an IMMEDIATE action. If a tool is faulty or a better one can be conceived, I MUST define/redefine it on the IMMEDIATE next turn.
+- **Hypothesis-Driven Gameplay:** I will rigorously document my hypotheses, tests, and conclusions in my notepad. I will avoid repeating failed strategies and will pivot to new goals if progress stalls after multiple documented attempts.
 
 ## II. System & Tool Development
 ### A. Agent & Tool Usage Notes
