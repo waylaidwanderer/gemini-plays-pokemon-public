@@ -39,7 +39,8 @@
 
 ### Goldenrod Underground Switch Room
 *   **Objective:** Find a way to the eastern section of the underground.
-*   **Hypothesis (Current):** The puzzle requires pressing the switches (18,23), (20,23), (22,23) in a specific sequence.
+*   **Hypothesis (Current):** The switches must be interacted with from the tile directly below them (e.g., stand at (22, 24) to interact with the switch at (22, 23)).
+*   **Failed Hypothesis:** Interacting with the switches from the tile directly above them does not work.
 *   **Failed Sequences:**
     *   Individual presses (1; 2; 3)
     *   [1, 2, 3] (Left -> Middle -> Right)
