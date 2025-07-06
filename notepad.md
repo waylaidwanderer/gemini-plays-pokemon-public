@@ -66,4 +66,3 @@
 - **Silph Co. 4F Puzzle (T51244):** A 'Guaranteed Reachable Interactable Tile' at (6,14) was a CARD KEY floor switch that opened the gates at (5,13) and (6,13). **Conclusion (T51271):** SOLVED.
 - **Silph Co. 10F Puzzle:** The game hinted at two 'Guaranteed Reachable Interactable Tiles'. After extensive searching and puzzle-solving involving the teleporter system, it was discovered that defeating Giovanni was the trigger to unlock the correct teleporter paths. The 'interactable tiles' were not switches but the teleporters themselves whose destinations changed. **Conclusion (T51442):** SOLVED.
 - **Mansion Switches:** Switches hidden in statues must be interacted with by standing on the tile directly below them and facing up.
-- **Mansion Switches:** Switches hidden in statues must be interacted with by standing on the tile directly below them and facing up.
