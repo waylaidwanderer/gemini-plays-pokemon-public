@@ -21,7 +21,11 @@
     1.  **Turning Mechanism:** My own movement onto a tile adjacent to the Farfetch'd is the primary mechanism that causes it to turn. The exact turning logic is complex and seems to depend on the direction of my approach, but it is NOT random.
     2.  **Disappearance/Reappearance:** The Farfetch'd does NOT disappear when REPEL wears off. My previous observation was likely a coincidence. The disappearance must be caused by something else. It reappeared at (28, 31) after I stepped on the twig at (22, 30).
     3.  **Twig Function:** The function of the twigs is NOT to turn the bird. My previous model was flawed. The twigs are likely used to make the Farfetch'd appear, disappear, or *move* once it is correctly oriented.
-*   **Current Working Hypothesis:** The puzzle sequence is: 1) Make the Farfetch'd appear using a twig. 2) Use my own movement to orient it to face the desired direction. 3) Step on a twig to make it move one step in the direction it's facing.
+*   **Current Working Hypothesis (REVISED):** The function of the twigs is still unknown, but my last test proved they don't simply make the bird move forward. Stepping on the twig at (29, 30) while the bird was at (28, 31) and facing left caused it to turn to face right. This invalidates the previous hypothesis.
+*   **New Test Plan:**
+    1. Re-orient the bird to face LEFT by approaching it from the RIGHT (moving to (29, 31)).
+    2. Once it is facing left, step on the OTHER twig at (22, 30).
+    3. Hypothesis: A specific twig must be used to make the bird move once it is correctly oriented.
 *   **Alternative Hypotheses to Test if Above Fails:**
     *   The twigs are sound cues. Stepping on one makes the bird turn to face the sound's origin from a distance.
     *   The sequence of twig activations matters.
