@@ -35,12 +35,9 @@
 ## III. Active Puzzles & Hypotheses
 
 ### Goldenrod Underground
-*   **Hypothesis 1:** The only way to progress between corridors is by defeating all trainers.
-    *   **Alternative Hypothesis:** There might be hidden switches or passages. Some trainers might be optional.
-    *   **Test:** After clearing all reachable trainers/items, I will systematically check walls for hidden passages.
-*   **Hypothesis 2:** The SUPER_NERD at (4, 31) who caused a dialogue loop is permanently bugged.
-    *   **Alternative Hypothesis:** The bug might be temporary. Leaving and re-entering the map or completing another event might reset him.
-    *   **Test:** After exploring all other accessible areas, I will exit and re-enter the Goldenrod Underground to check on the trainer.
+*   **Hypothesis 1:** The underground is a series of disconnected rooms, and progression requires finding the correct sequence of warps or hidden switches, not just defeating trainers.
+    *   **Test:** Systematically explore all warps and check walls for hidden passages after clearing reachable areas.
+*   **Hypothesis 2:** The SUPER_NERD at (4, 31) who caused a dialogue loop was a temporary, one-time event that has now resolved itself as he has disappeared.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
