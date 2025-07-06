@@ -48,6 +48,7 @@
 - **Pokemon Mansion 1F Puzzle System:** Confirmed 'alternating doors' mechanic. The switch at (3, 6) toggles the western gates (17, 8) and the southern gates (25, 14) inversely. When one set is open, the other is closed. (Confirmed T53932)
 - **Pokemon Mansion Puzzle (Floors 2-3):** The mansion uses an 'alternating doors' system controlled by switches.
   - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). When north is open, south is closed, and vice versa. (Confirmed T53987)
+  - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). When north is open, south is closed, and vice versa. (Confirmed T53987)
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
