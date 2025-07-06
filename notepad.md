@@ -56,3 +56,4 @@
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
 - **Paralysis Ineffectiveness:** Paralyzed Pokémon can still attack; paralysis is not a 100% stop. (Confirmed T52193, T52194)
 - **mansion_puzzle_tracker_agent:** DEFINED (T53066). Tracks the state of the 'alternating doors' puzzle. REFINED (T53071) to account for location-based triggers in addition to switches.
+- **Mansion 2F Switch (Re-test):** Hypothesis: Pressing the switch at (3,12) a second time will open the southern gates. Test: Pressed switch, then used pathfinder to target (4, 24). Result: Pathfinder failed, 'No path found.' Conclusion: Hypothesis DENIED. The switch does not simply toggle the southern gates open.
