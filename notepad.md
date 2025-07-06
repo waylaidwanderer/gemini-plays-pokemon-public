@@ -25,7 +25,8 @@
     3.  **Twigs:** The twigs at (22, 30) and (29, 30) only cause the bird to turn, NOT move.
     4.  **Chasing:** Attempting to walk onto the bird's tile from behind only causes it to turn.
 *   **Current State:** The bird is now at (29, 22). My new plan is to figure out how to herd it from this new position.
-*   **New Test Plan:** Approach the bird at (29, 22) from below at (29, 23) to see if it turns left.
+*   **Test 1 (New Position):** Approached from below at (29, 23). **Result: FAILED.** Bird turned to face down. The turning logic is position-dependent.
+*   **New Test Plan:** Approach the bird at (29, 22) from its left side at (28, 22) to further test its turning mechanics.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
