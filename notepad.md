@@ -1,45 +1,43 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. Game Mechanics
+## I. Game Mechanics & Tile Rules
 
 ### Tile Traversal Rules
-- **Testing Protocol:**
-  1. When a new tile type is seen on screen and is reachable, I MUST immediately test it. This is my highest priority.
-  2. Test movement *into* the tile from all 4 adjacent, traversable cardinal directions.
-  3. If movement is possible, test movement *out of* the tile to all 4 adjacent, traversable cardinal directions to check for one-way paths.
-  4. Record all verified findings for both passable and impassable tiles immediately.
-- **IMMEDIATE Priority Test List:** CUT_TREE, WATER, IlexForestShrineScript
-- **Verified Impassable:** WALL, HEADBUTT_TREE, PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), VOID, MART_SHELF, BLACK_BELT (NPC)
-- **Verified Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
-- **Verified Warps:**
-  - **Standard:** DOOR, CAVE
-  - **Movement-Based:** LADDER (Move onto tile).
-  - **Directional:** WARP_CARPET_RIGHT/LEFT/DOWN (Move onto tile in specified direction). Exception: Ilex Forest Azalea Gate and other similar gatehouse warps are triggered by walking into the correct side of the building, not by directional presses on the carpet.
-- **Verified One-Way Ledges:** LEDGE_HOP_DOWN/LEFT/RIGHT.
-- **Verified Complex Tiles:** FLOOR_UP_WALL (Enter by moving UP; Exit by moving LEFT/RIGHT).
+- **Testing Protocol:** When a new, reachable tile type is seen, I MUST test it immediately. Test movement *into* and *out of* the tile from all 4 cardinal directions to verify passability and check for one-way paths.
+- **IMMEDIATE Priority Test List:** `CUT_TREE` (requires HM), `WATER` (requires HM), `IlexForestShrineScript`
+
+### Verified Tile Types
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `COUNTER`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `VOID`, `MART_SHELF`, `BIRD` (Farfetch'd)
+*   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
+*   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile), `WARP_CARPET_RIGHT/LEFT/DOWN` (Move in specified direction). Exception: Gatehouse warps are triggered by walking into the building side.
+*   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`.
+*   **Complex Tiles:** `FLOOR_UP_WALL` (Enter by moving UP; Exit by moving LEFT/RIGHT).
 
 ## II. Quests & Puzzles
 
-### Ilex Forest Puzzle
-- **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at (7, 28).
-- **Verified Mechanics:**
-    1. **Turning:** Approaching Farfetch'd from a cardinal direction causes it to turn. The exact turning logic is still under investigation. My initial hypothesis that it turns to face the player was incorrect.
-    2. **Movement/Teleportation:** Interacting with Farfetch'd directly (pressing 'A') makes it teleport away. Stepping on a twig behind the Farfetch'd causes it to turn and face the player. Stepping on the twig at (29, 30) made the Farfetch'd at (28, 31) turn to face me.
-    3. **Reset Conditions:** Wild battles, leaving the area, or sometimes direct interaction resets the puzzle to its initial state (Farfetch'd at (29, 22)).
-- **Alternative Hypotheses to Test:**
-  1. The Ilex Forest Shrine at (8, 22) is involved in the puzzle.
-  2. There is a hidden item or another NPC I haven't found yet that is required.
+### Ilex Forest - Farfetch'd Puzzle
+*   **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at `(7, 28)`.
+*   **Verified Mechanics:**
+    1.  **Direct Interaction:** Pressing 'A' on the Farfetch'd causes it to teleport to a new, seemingly random location.
+    2.  **Twig Interaction:** Stepping on a twig causes the Farfetch'd to turn and face the player's current position.
+        *   Test 1: Stepped on twig at `(29, 30)`; Farfetch'd at `(28, 31)` turned to face me (right).
+    3.  **Turning:** The turning logic is not simply facing the player. My approach vector seems to matter, but the exact rules are still under investigation.
+    4.  **Reset Conditions:** Wild battles or leaving the area resets the puzzle.
+*   **Alternative Hypotheses to Test:**
+    1.  The puzzle requires a specific sequence of twig-stepping and player movement.
+    2.  There is a hidden item or another NPC I haven't found yet that is required.
+    3.  The time of day might affect the puzzle.
 
-### Ruins of Alph Puzzle
-- **Objective:** Solve the sliding stone panel puzzle.
-- **Clue:** Liz mentioned hearing a strange radio broadcast from the Ruins of Alph. This might be a clue for the puzzle.
+### Ruins of Alph - Sliding Panels
+*   **Objective:** Solve the sliding stone panel puzzle.
+*   **Clue:** Liz mentioned hearing a strange radio broadcast from the Ruins of Alph. This might be a clue.
 
-## III. Item Effects & Battle Mechanics
-- **EVERSTONE:** Prevents evolution.
-- **BERRY:** Restores 10 HP. Found at FRUIT_TREEs.
-- **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
-- **SLOWPOKETAIL:** Offered for sale on Route 32. Purpose unknown.
-- **MOOMOO MILK:** Restores 100 HP. Purchased at MOOMOO FARM.
+## III. Items & Battle
+*   **EVERSTONE:** Prevents evolution.
+*   **BERRY:** Restores 10 HP. Found at `FRUIT_TREE`s.
+*   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
+*   **SLOWPOKETAIL:** Offered for sale on Route 32. Purpose unknown.
+*   **MOOMOO MILK:** Restores 100 HP. Purchased at MOOMOO FARM.
 
-## Misc. Tips & Info
-- Liz mentioned a Pokémon Salon in Goldenrod run by two brothers.
+## IV. Misc. Info
+*   Liz mentioned a Pokémon Salon in Goldenrod run by two brothers.
