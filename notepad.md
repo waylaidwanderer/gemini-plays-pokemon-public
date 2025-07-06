@@ -16,7 +16,7 @@
 *   **Complex Tiles:** `FLOOR_UP_WALL` (Verified: Enter by moving UP; Exit by moving LEFT/RIGHT).
 
 ### Untested Tile Types (High Priority)
-* `RAILING`: Needs testing.
+* `RAILING`: Impassable. Functions as a WALL.
 * `PIPE_HORIZONTAL`: Needs testing.
 * `PIPE_VERTICAL`: Needs testing.
 
