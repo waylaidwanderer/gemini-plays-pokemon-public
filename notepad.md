@@ -4,7 +4,7 @@
 
 ### Tile Traversal Rules
 - **Testing Protocol:** When a new, reachable tile type is seen, I MUST test it immediately. Test movement *into* and *out of* the tile from all 4 cardinal directions to verify passability and check for one-way paths.
-- **IMMEDIATE Priority Test List:** `CUT_TREE` (requires HM), `WATER` (requires HM), `IlexForestShrineScript`
+- **IMMEDIATE Priority Test List:** `CUT_TREE` (requires HM), `WATER` (requires HM), `IlexForestShrineScript`, `LEDGE_HOP_DOWN` (attempt to move up).
 
 ### Verified Tile Types
 *   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `COUNTER`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `VOID`, `MART_SHELF`, `BIRD` (Farfetch'd)
@@ -18,18 +18,15 @@
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at `(7, 28)`.
 *   **Verified Mechanics:**
-    1.  **Direct Interaction:** Pressing 'A' on the Farfetch'd causes it to teleport away.
+    1.  **Direct Interaction:** Pressing 'A' on the Farfetch'd causes it to teleport away and reset the puzzle.
     2.  **Twig Interaction Logic:**
-        *   **Twig 1 at (22, 30):**
-            *   When Farfetch'd is at (28, 31), stepping on this twig makes it disappear.
-        *   **Twig 2 at (29, 30):**
-            *   When Farfetch'd is not on the map, stepping on this twig makes it appear at (28, 31), facing left.
-    3.  **Turning:** The turning logic is not simply facing the player. It seems to be related to the player's approach vector.
-    4.  **Reset Conditions:** Wild battles or leaving the area resets the puzzle.
+        *   **Twig 1 at (22, 30):** Stepping on this makes the Farfetch'd disappear if it's on the map.
+        *   **Twig 2 at (29, 30):** Stepping on this makes the Farfetch'd appear at (28, 31), facing left.
+    3.  **Turning:** The turning logic is not simply facing the player. It seems to be related to the player's approach vector to an adjacent tile. This is still inconsistent and needs more rigorous testing.
+    4.  **Reset Conditions:** Wild battles, leaving the area, or direct interaction resets the puzzle.
 *   **Alternative Hypotheses to Test:**
-    1.  The puzzle requires a specific sequence of twig-stepping and player movement.
-    2.  There is a hidden item or another NPC I haven't found yet that is required.
-    3.  The time of day might affect the puzzle.
+    1.  The order the twigs are stepped on matters, independent of the Farfetch'd's position.
+    2.  The Farfetch'd must be herded along a specific, hidden path.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
