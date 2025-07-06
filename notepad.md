@@ -10,7 +10,7 @@
 - **`pc_navigator_agent`:** Generates a sequence of button presses to navigate the Pokémon PC menu to withdraw or deposit a specific Pokémon. Reliable for PC operations.
 - **`battle_strategist_agent`:** Provides battle advice. **STATUS: REFINED.** The agent now correctly validates against fainted, sleeping, and active Pokémon to avoid invalid switch recommendations.
 - **`systematic_searcher` & `pathfinder`:** **STATUS: REFINED.** After multiple failures and critical feedback, I have redefined both tools with more robust logic. `pathfinder` now handles impassable tiles and ledges more accurately. `systematic_searcher` now correctly implements a BFS from the player's position to find only reachable, untested tiles. I must be more diligent in maintaining my tools going forward.
-- **`maze_navigator_agent`:** A new agent designed to help solve complex teleporter mazes by analyzing known connections and suggesting the most logical next step.
+- **Future Tool Idea:** If another complex maze is encountered, create a `maze_solver_tool`. This tool would programmatically parse the World Knowledge Graph JSON and use a graph traversal algorithm (like BFS or Dijkstra's) to find the optimal path, a much more robust solution than the deleted agent.
 
 ## III. Game Mechanics & Battle Intel
 ### A. Tile Mechanics & Traversal Rules (v13)
