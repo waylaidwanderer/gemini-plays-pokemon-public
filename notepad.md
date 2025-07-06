@@ -47,9 +47,6 @@
 - **Pokemon Mansion 3F Central Switch Puzzle:** The newly reachable switch at (11, 6) is the key to the 'alternating doors' puzzle. Hypothesis: Activating this switch will toggle the state of the gates at (16, 5)/(16, 6) and/or (16, 11)/(16, 12), opening a new path. Test: Navigate to (11, 7) and interact with the switch. Conclusion: TBD.
 
 ## V. Puzzle & Hypothesis Archive
-- **Pokemon Mansion Puzzles (1F, 2F, 3F):** This mansion operates on an 'alternating doors' system controlled by switches. Activating a switch toggles the state of different sets of gates.
-  - **1F:** The switch at (3, 6) opened the gates at (17, 8) and (18, 8). (Confirmed T52390)
-  - **2F:** The switch at (3, 12) toggles the northern gates (10, 5/6) and the southern gates (8, 23/24). (Confirmed T52787)
   - **3F:** The switch at (11, 6) toggles the central gates (16, 5/6) and the southern gates (16, 11/12). (Confirmed T52735)
 - **Saffron Gym Puzzle:** The path to Sabrina was blocked until Team Rocket was cleared from Silph Co. first. The correct teleporter path was then unlocked. (Confirmed T51442)
 - **Silph Co. Puzzles (4F & 10F):** The CARD KEY was required to open gates, such as the one on 4F at (5,13). Defeating Giovanni on 11F was the main trigger to unlock the correct teleporter paths on 10F and solve the floor puzzles. (Confirmed T51271, T51442)
