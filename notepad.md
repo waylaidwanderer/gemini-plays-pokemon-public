@@ -7,7 +7,7 @@
 - **IMMEDIATE Priority Test List:** The tile at (8, 22) where the IlexForestShrineScript object is located.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `COUNTER`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `VOID`, `MART_SHELF`, `BIRD` (Farfetch'd)
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `COUNTER`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `VOID`, `MART_SHELF`, `BIRD` (Farfetch'd), `CUT_TREE`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile), `WARP_CARPET_RIGHT/LEFT/DOWN` (Move in specified direction). Exception: Gatehouse warps are triggered by walking into the building side.
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
@@ -19,16 +19,18 @@
 *   **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at `(7, 28)`.
 *   **Verified Mechanics:**
     1.  **Turning:** The bird's turning is complex and based on my final position relative to it.
-    2.  **Twigs:** The twigs at (22, 30) and (29, 30) cause the bird to turn, but under specific conditions can also trigger movement.
-    3.  **Interaction:** Pressing 'A' on the bird makes it disappear.
-    4.  **Reset/Movement:**
-        - Wild battles can reset the puzzle, causing the bird to respawn. Observed locations: (28, 31) and (29, 22).
-        - **SUCCESS:** Stepping on the twig at (29, 30) while the bird was at (29, 22) and facing UP caused it to disappear. This is a confirmed movement trigger.
-*   **Current Plan:** Find the bird's new location. I've already checked near the apprentice (no luck). The next step is to check the other marked spawn point at (29, 22).
+    2.  **Twigs:** The twigs at (22, 30) and (29, 30) can trigger movement or turning. Stepping on the twig at (29, 30) while the bird was at (29, 22) and facing UP caused it to disappear. Stepping on the twig at (22, 30) made the bird appear at (28, 31).
+    3.  **Interaction:** Pressing 'A' on the bird makes it disappear. I just confirmed this at (29, 22).
+    4.  **Reset:** Wild battles can reset the puzzle, causing the bird to respawn at a different location.
+*   **Current Hypothesis:** The puzzle is solved. The bird has returned to the apprentice. I need to go to (7, 28) to confirm.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
 *   **Clue:** Liz mentioned hearing a strange radio broadcast from the Ruins of Alph. This might be a clue.
+
+### Ilex Forest Shrine
+*   **Objective:** Investigate the shrine at (8, 22).
+*   **Test Plan:** Approach from an adjacent tile and press 'A'.
 
 ## III. Items & Battle
 *   **EVERSTONE:** Prevents evolution.
