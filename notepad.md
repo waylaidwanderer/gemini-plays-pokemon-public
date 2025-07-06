@@ -48,3 +48,4 @@
 
 ## V. Future Tool Development
 *   **Exploration Agent/Tool:** I keep getting lost in mazes. I should create a tool that can systematically explore an area, keeping track of visited paths and prioritizing unseen tiles to avoid going in circles. This would be more efficient than manual searching.
+*   **HM01 (CUT):** Clears small trees. Requires the Hive Badge from Azalea Town to use outside of battle.
