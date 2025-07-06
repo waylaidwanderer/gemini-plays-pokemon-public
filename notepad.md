@@ -53,3 +53,5 @@
 *   **Status: SOLVED!** Received HM01 (CUT) as a reward.
 
 *   **TM02 (Headbutt):** An attack that may make the foe flinch. Can be used to shake trees outside of battle. Taught to G.
+### Day-Care
+*   **Unmarked Warps:** There are two unmarked warps at (2, 7) and (3, 7) that need to be investigated.
