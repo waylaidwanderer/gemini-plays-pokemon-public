@@ -13,8 +13,8 @@
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:**
-    * `FLOOR_UP_WALL`: Can be entered from the side (from a FLOOR tile). Cannot be exited by moving up. Further testing required.
-    * `WARP_CARPET_DOWN`: Currently non-functional. Extensive testing by stepping on it from all directions and pressing 'A' has yielded no results. Likely requires an external trigger or key item.
+    *   `FLOOR_UP_WALL`: Functions as a one-way ledge. Can be entered from below and from the sides (left/right). Cannot be exited by moving up, but can be exited by moving down or sideways to an adjacent `FLOOR_UP_WALL` tile.
+    *   `WARP_CARPET_DOWN`: Activated by walking onto the tile in the specified direction (e.g., 'Down' for a down-facing carpet). Pressing 'A' has no effect.
 
 ### Untested Tile Types (High Priority)
 * `RAILING`: Needs testing. Located on the Goldenrod Dept. Store Roof.
@@ -46,12 +46,6 @@
 ### Ruins of Alph
 *   **Objective:** Solve the sliding stone panel puzzle.
 *   **Clue:** Liz mentioned hearing a strange radio broadcast from the Ruins of Alph. This might be a clue.
-
-### Goldenrod Magnet Train Station
-* **Objective:** Explore the station.
-* **Status:** The Officer who was blocking the path north has disappeared.
-* **Completed Investigation:** `FLOOR_UP_WALL` tile mechanics have been fully tested.
-    *   **Conclusion:** The tile functions as a one-way ledge. It can be entered from below and from the sides (left/right). It cannot be exited by moving up, but can be exited by moving down or sideways to an adjacent `FLOOR_UP_WALL` tile.
 
 ## IV. Tool & Agent Development
 ### Core Directives
