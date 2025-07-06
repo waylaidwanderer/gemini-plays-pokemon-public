@@ -59,3 +59,6 @@
 
 ## V. Current Hypotheses
 - **Silph Co. 10F Puzzle:** The game has hinted at two 'Guaranteed Reachable Interactable Tiles'. One was tested at (10, 12) with no result. I will use a refined systematic search to find the second one in a reachable area.
+
+#### B4. Visual Bugs
+- **Type Display Error:** In battle, my Golbat ECHO (Poison/Flying) was incorrectly displayed as a GHOST type.
