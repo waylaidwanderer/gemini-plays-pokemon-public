@@ -50,13 +50,8 @@
 ### Goldenrod Magnet Train Station
 * **Objective:** Explore the station.
 * **Status:** The Officer who was blocking the path north has disappeared.
-* **Current Investigation:** Systematically testing the `FLOOR_UP_WALL` tile type to understand its traversal mechanics.
-    *   **Test 1:** Moved from `FLOOR` (8, 12) to `FLOOR_UP_WALL` (7, 12). **Result: Success.**
-    *   **Test 2:** Attempted to move from `FLOOR_UP_WALL` (7, 12) to `FLOOR` (7, 11). **Result: Failure.**
-    *   **Conclusion:** Cannot exit this tile by moving up.
-        *   **Test 3:** Moved from `FLOOR_UP_WALL` (7, 12) to `FLOOR` (7, 13). **Result: Success.**
-    *   **Conclusion:** Can exit this tile by moving down. It appears to function like a one-way ledge.
-    *   **Next Step:** Test moving left and right from the tile.
+* **Completed Investigation:** `FLOOR_UP_WALL` tile mechanics have been fully tested.
+    *   **Conclusion:** The tile functions as a one-way ledge. It can be entered from below and from the sides (left/right). It cannot be exited by moving up, but can be exited by moving down or sideways to an adjacent `FLOOR_UP_WALL` tile.
 
 ## IV. Tool & Agent Development
 ### Core Directives
