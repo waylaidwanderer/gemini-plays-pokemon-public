@@ -44,7 +44,7 @@
 - **Type Display Error:** In battle, my Golbat ECHO (Poison/Flying) was incorrectly displayed as a GHOST type. My Lapras NEPTUNE (Water/Ice) was also displayed as GHOST and NORMAL type.
 
 ## IV. Active Hypotheses
-1.  **Pokemon Mansion 2F Super Nerd Puzzle:** The switch at (3, 12) did not open the southern gates. The clue from the Burglar at (2, 18) mentioned plural 'switches'. Hypothesis: The Super Nerd at (5, 18) must be interacted with. He might be the second 'switch' or provide the clue to it. **Test:** Interact with the Super Nerd.
+1.  **Pokemon Mansion 2F Alternating Switch Puzzle:** The Super Nerd at (5, 18) confirmed the clue: 'Switches open and close alternating sets of doors!'. Hypothesis: Pressing the switch at (3, 12) toggles which set of doors is open. I need to press it *again* to open the southern path. **Test:** Navigate back to the switch at (3, 12) and activate it.
 
 ## V. Puzzle & Hypothesis Archive
 - **Pokemon Mansion 1F West Gate Puzzle:** A Super Nerd on 2F at (2, 18) gave a clue: 'Switches open and close alternating sets of doors!'. **Conclusion (T52390):** CONFIRMED. Activating the switch at (3, 6) on 1F opened the gates at (17, 8) and (18, 8), granting access to the eastern section of the floor.
