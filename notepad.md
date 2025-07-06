@@ -15,19 +15,19 @@
 
 ## II. Quests & Puzzles
 
-### Ilex Forest - Farfetch'd Puzzle
+### Ilex Forest - Farfetch'd Puzzle (CORRECTED MODEL)
 *   **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at `(7, 28)`.
-*   **Verified Mechanics (Corrected Model):**
-    1.  **Turning Mechanism:** The player's movement *onto a tile adjacent* to the Farfetch'd is the primary mechanism that causes it to turn. The exact turning logic is still under investigation, but it is not random.
-    2.  **Twig Function:** The twigs have a separate function, likely related to making the Farfetch'd appear or disappear, or resetting its position. Their effect is not directly related to turning the bird.
-        *   **Twig 1 at (22, 30):** Stepping on this makes the Farfetch'd disappear.
-        *   **Twig 2 at (29, 30):** Stepping on this makes the Farfetch'd appear at (28, 31).
+*   **Verified Mechanics (Self-Corrected):**
+    1.  **Turning Mechanism:** My own movement onto a tile adjacent to the Farfetch'd is the primary mechanism that causes it to turn. The exact turning logic is complex and seems to depend on the direction of my approach, but it is NOT random. My previous belief that twigs caused turning was incorrect.
+    2.  **Twig Function:** The twigs have a different function. The Farfetch'd disappearing when my REPEL wore off is a major clue. Hypothesis: The twigs likely make the Farfetch'd appear, disappear, or move. Their effect is NOT directly related to turning the bird.
+        *   **Twig 1 at (22, 30):** Function needs to be re-tested systematically.
+        *   **Twig 2 at (29, 30):** Function needs to be re-tested systematically.
     3.  **Reset Conditions:** Wild battles, leaving the area, or direct interaction (pressing 'A') resets the puzzle.
 *   **Systematic Testing Plan:**
-    1.  Get the Farfetch'd to a known state (e.g., at (28, 31) facing a specific direction).
-    2.  Systematically move to each of the 8 tiles surrounding it.
-    3.  For each move, record the Farfetch'd's reaction (turn or movement) in the notepad.
-    4.  This will build a definitive behavioral model to solve the puzzle.
+    1.  Get the Farfetch'd to appear.
+    2.  Use my movement to orient it to face a desired direction (e.g., left/west).
+    3.  Carefully move to a twig *without* changing the bird's orientation.
+    4.  Step on the twig to test if it causes the bird to *move* in the direction it's facing.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
