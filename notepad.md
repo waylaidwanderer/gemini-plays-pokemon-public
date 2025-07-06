@@ -56,3 +56,7 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Status: SOLVED!** Received HM01 (CUT) as a reward.
+
+### Goldenrod City - New Hypotheses
+*   **COIN CASE Location:** The Pokefan M mentioned losing it in the UNDERGROUND. It is likely in this newly discovered area. I must explore thoroughly.
+*   **Goldenrod Gym Access:** The Gym may have a prerequisite for entry. Finding the COIN CASE could be the trigger to unlock it, or I might need to complete another event in the city first. I will keep an eye out for any related clues.
