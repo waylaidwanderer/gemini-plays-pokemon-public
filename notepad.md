@@ -8,7 +8,7 @@
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `WATER`, `COUNTER`, `VOID`, `MART_SHELF`
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `COUNTER`, `VOID`, `MART_SHELF`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
 *   **Directional Warps:** `WARP_CARPET_LEFT`, `WARP_CARPET_DOWN`. Verified one-way; can only be entered by moving in the specified direction.
@@ -19,6 +19,7 @@
 * `RAILING`: Needs testing. Located on the Goldenrod Dept. Store Roof.
 * `PIPE_HORIZONTAL`: Needs testing.
 * `PIPE_VERTICAL`: Needs testing.
+* `WATER`: Needs testing.
 
 ### Other Mechanics
 *   **Item Effects:**
@@ -37,8 +38,9 @@
 
 ### Goldenrod City
 *   **Fact (from Agent):** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo). Progress is impossible this way for now.
-*   **Hypothesis:** A key is required for a locked door at (18, 6) in the underground. The solution likely involves finding this key or triggering an event elsewhere.
-*   **Hypothesis:** An Abra is required for the Machop trade on the 5th floor of the Department Store. Abra might be found in the grass on Route 34.
+*   **Hypothesis (from Agent):** The city is divided. The Underground Path seems to be the only way to cross between the west and east sections.
+*   **Hypothesis (from Agent):** There may be hidden switches or items in the main Underground area that alter the path or unlock new exits.
+*   **Hypothesis:** An Abra is required for the Machop trade on the 5th floor of the Department Store. Abra might be found in the grass on Route 34, which is south of the city.
 
 ### Ruins of Alph
 *   **Objective:** Solve the sliding stone panel puzzle.
@@ -48,7 +50,7 @@
 ### Core Directives
 *   I must act on tool/notepad management tasks IMMEDIATELY.
 *   I must mark moving objects using their `object_id`.
-*   I must use `strategic_advisor` when feeling stuck and feed failed attempts into `quest_strategist` for better hypotheses.
+*   I must use `strategic_advisor` or `quest_strategist` when feeling stuck.
 *   I MUST use the `nickname_genius` agent the next time I catch a Pokémon to test its functionality.
 
 ## V. Phone Contacts
