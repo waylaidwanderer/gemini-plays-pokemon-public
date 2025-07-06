@@ -63,3 +63,6 @@
 
 #### B4. Visual Bugs
 - **Type Display Error:** In battle, my Golbat ECHO (Poison/Flying) was incorrectly displayed as a GHOST type.
+
+## VI. Confirmed Mechanics (Post-Sabrina)
+- **SURF Usage:** Only Water-type Pokémon can use SURF in the field. Confirmed after TITANESS (Normal) failed and NEPTUNE (Water/Ice) succeeded at (5, 14) in Pallet Town.
