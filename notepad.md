@@ -46,6 +46,7 @@
 ## IV. Active Hypotheses
 
 ## V. Puzzle & Hypothesis Archive
+- **Pokemon Mansion 3F Alternating Switch Puzzle:** This floor operates on an alternating switch system. The switch at (11, 6) toggles the gates at (16, 5) and (16, 6) with the gates at (16, 11) and (16, 12). **Conclusion (T52735):** SOLVED. Activating the switch at (11, 6) opened the central gates, providing access to the warp at (8, 11).
 - **Pokemon Mansion 2F Alternating Switch Puzzle:** The Super Nerd at (5, 18) gave the clue 'Switches open and close alternating sets of doors!'. **Conclusion (T52630):** CONFIRMED. Pressing the switch at (3, 12) a second time toggled the state of the doors, opening a new path south.
 - **Pokemon Mansion 1F West Gate Puzzle:** A Super Nerd on 2F at (2, 18) gave a clue: 'Switches open and close alternating sets of doors!'. **Conclusion (T52390):** CONFIRMED. Activating the switch at (3, 6) on 1F opened the gates at (17, 8) and (18, 8), granting access to the eastern section of the floor.
 - **Saffron Gym Hypothesis (Attempt 2 - Defeat all trainers in Sabrina's room):** Defeating all trainers in Sabrina's immediate room will unlock the path to her. **Conclusion (T50140):** FAILED. The path remained blocked.
