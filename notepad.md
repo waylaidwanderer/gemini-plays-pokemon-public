@@ -17,12 +17,12 @@
 
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at `(7, 28)`.
-*   **Verified Mechanics:**
+*   **Verified Mechanics (Updated):**
     1.  **Direct Interaction:** Pressing 'A' on the Farfetch'd causes it to teleport away and reset the puzzle.
-    2.  **Twig Interaction Logic:**
-        *   **Twig 1 at (22, 30):** Stepping on this makes the Farfetch'd disappear if it's on the map.
-        *   **Twig 2 at (29, 30):** Stepping on this has an inconsistent effect on the Farfetch'd's orientation. It does not reliably make it face left.
-    3.  **Turning:** The turning logic is not simply facing the player. It seems to be related to the player's approach vector to an adjacent tile. This is still inconsistent and needs more rigorous testing.
+    2.  **Turning Mechanism:** The player's movement onto a tile adjacent to the Farfetch'd is the primary mechanism that causes it to turn. The exact turning logic is still being determined.
+    3.  **Twig Function:** The twigs likely serve a different purpose, such as making the Farfetch'd appear or disappear, rather than turning it.
+        *   **Twig 1 at (22, 30):** Stepping on this makes the Farfetch'd disappear.
+        *   **Twig 2 at (29, 30):** Stepping on this seems to make the Farfetch'd appear at (28, 31).
     4.  **Reset Conditions:** Wild battles, leaving the area, or direct interaction resets the puzzle.
 *   **Alternative Hypotheses to Test:**
     1.  The order the twigs are stepped on matters, independent of the Farfetch'd's position.
