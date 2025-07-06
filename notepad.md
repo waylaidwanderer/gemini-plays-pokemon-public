@@ -34,9 +34,9 @@
 *   **Clue:** Liz mentioned hearing a strange radio broadcast from the Ruins of Alph. This might be a clue.
 
 ### Untested Assumptions (Post-Reflection)
-*   **Assumption:** The only way out of Ilex Forest is the northern gatehouse.
-    *   **Alternative Hypothesis:** A specific tree requires Headbutt to open a new path.
-    *   **Test:** If Route 34 is a dead end, return and Headbutt every tree in Ilex Forest.
+*   **Assumption:** The only way to Goldenrod City is north through Route 34.
+    *   **Alternative Hypothesis:** The Day-Care or the water to the west could provide an alternative path or necessary item.
+    *   **Test:** Investigate the Day-Care first. If that's a dead end, continue north. Explore water routes once SURF is available.
 *   **Assumption:** Goldenrod City is the next mandatory location.
     *   **Alternative Hypothesis:** The Ruins of Alph puzzle is mandatory for progression.
     *   **Test:** If Goldenrod City is blocked, pivot to solving the Ruins of Alph puzzle.
