@@ -47,7 +47,7 @@
 - **Pokemon Mansion B1F:** The basement floor, accessible via stairs on 3F, likely holds the SECRET KEY. Hypothesis: The key is guarded by a trainer or hidden behind a puzzle. Test: Fully explore B1F. Conclusion: TBD.
 - **Pokemon Mansion 1F Puzzle (RE-RE-REVISED):** The mansion operates on a complex 'alternating doors' system. The western gates at (17,8) and (18,8) closing after I passed through the eastern area at (26,14) confirms there's a hidden trigger. 
   - **Hypothesis:** Stepping on a specific tile in the eastern area toggles the state of both the eastern and western gates. The switch at (3,6) likely only controls the initial state.
-  - **Test Plan:** 1. Finish this battle and catch the Grimer. 2. Explore the southern area now accessible through the open eastern gates. 3. If this path dead-ends, the next step is to return to the main switch at (3,6) to flip it again, which should re-open the western path.
+  - **Test Plan (Attempt 1):** 1. Explore the southern area now accessible through the open eastern gates. **Outcome:** This path leads to a dead end with closed gates at (27,28) and (28,28). 2. **Next Step:** Return to the main switch at (3,6) and flip it. This should re-open the western path at (17,8) and (18,8).
 
 ### B. Solved Puzzles & Confirmed Mechanics
 - **Pokemon Mansion Puzzle (All Floors):** The mansion uses an 'alternating doors' system controlled by switches.
