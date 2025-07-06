@@ -43,10 +43,12 @@
 ## V. Current Hypotheses
 - **Pokemon Mansion Hypothesis (Attempt 2):** The Cinnabar Gym is locked or inaccessible. The key or event to unlock it is hidden within the Pokémon Mansion.
   - **Test:** Systematically explore the Pokémon Mansion, floor by floor, interacting with all objects and reading all notes/diaries to find a "Secret Key" or trigger a related event.
-  - **Current Step:** Return to the mansion after healing.
+  - **Current Step:** Explore the eastern section of 1F, which contains a second set of closed gates at (25, 14) and (26, 14). I suspect another switch is nearby.
 
 ## VI. Solved Puzzles & Archived Hypotheses
 - **Pokemon Mansion Hypothesis (Attempt 1):** The Cinnabar Gym is locked or inaccessible. The key or event to unlock it is hidden within the Pokémon Mansion. **Conclusion (T51934):** FAILED. My party was too weak to continue, had to use an Escape Rope.
+- **Pokemon Mansion 1F West Gate Puzzle:** A Super Nerd on 2F at (2, 18) gave a clue: 'Switches open and close alternating sets of doors!'. **Conclusion (T52390):** CONFIRMED. Activating the switch at (3, 6) on 1F opened the gates at (17, 8) and (18, 8), granting access to the eastern section of the floor.
+- **Pokemon Mansion 2F Gate Puzzle:** A switch at (3, 12) on 2F opened the gates at (10, 5) and (10, 6), granting access to a warp at (6,11) that leads to 1F.
 - **Saffron Gym Hypothesis (Attempt 1):** Defeating all trainers in the gym will unlock the path to Sabrina.
 - **Saffron Gym Hypothesis (Attempt 2 - Defeat all trainers in Sabrina's room):** Defeating all trainers in Sabrina's immediate room will unlock the path to her. **Conclusion (T50140):** FAILED. The path remained blocked.
 - **Saffron Gym Hypothesis (Attempt 3):** Defeating all trainers in the room with the Channeler at (4, 8) does not open the path to Sabrina. **Conclusion (T50170):** FAILED. The trigger is something else entirely.
@@ -59,7 +61,3 @@
 - **Silph Co. 4F Puzzle (T51244):** A 'Guaranteed Reachable Interactable Tile' at (6,14) was a CARD KEY floor switch that opened the gates at (5,13) and (6,13). **Conclusion (T51271):** SOLVED.
 - **Silph Co. 10F Puzzle:** The game hinted at two 'Guaranteed Reachable Interactable Tiles'. After extensive searching and puzzle-solving involving the teleporter system, it was discovered that defeating Giovanni was the trigger to unlock the correct teleporter paths. The 'interactable tiles' were not switches but the teleporters themselves whose destinations changed. **Conclusion (T51442):** SOLVED.
 - **Paralysis Ineffectiveness:** A paralyzed Pokémon (e.g., wild MUK) may still be able to attack. The chance to be fully paralyzed is not 100%. (Confirmed: T52193, T52194)
-- **Pokemon Mansion Hypothesis (Attempt 3):** The switch in the eastern section of 3F is the key to progress. **Conclusion (T52201):** FAILED. The switch at (11, 6) is unreachable from the western access point.
-- **Pokemon Mansion Hypothesis (Attempt 5):** The Super Nerd at (2, 18) gave a clue: 'Switches open and close alternating sets of doors!'. This confirms the switch at (3, 12) is the key to progress.
-  - **Test:** Navigate to (3, 13) and activate the switch at (3, 12). This should open a new path.
-- **Closed Gates:** `closed_gate` tiles are impassable until a corresponding switch is activated.
