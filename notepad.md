@@ -39,12 +39,13 @@
 
 ### Goldenrod Underground Switch Room
 *   **Objective:** Find a way to the eastern section of the underground.
-*   **Hypothesis 1 (Failed):** A single switch press on one of the three objects on the north wall (18,23), (20,23), or (22,23) is the solution.
-    *   **Test:** Interacted with all three objects individually. 
-    *   **Conclusion:** None of the objects reacted. This hypothesis is incorrect.
-*   **Hypothesis 2 (Current):** The puzzle requires pressing the switches in a specific sequence.
-    *   **Next Step:** Finish testing the simplest sequence: Left (18,23), then Middle (20,23), then Right (22,23). If that fails, use the new `puzzle_solver` agent to generate more sequences.
-*   **Alternative Hypothesis:** The solution does not involve these switches, but a hidden passage or item elsewhere.
+*   **Hypothesis (Current):** The puzzle requires pressing the switches (18,23), (20,23), (22,23) in a specific sequence.
+*   **Failed Sequences:**
+    *   Individual presses (1; 2; 3)
+    *   [1, 2, 3] (Left -> Middle -> Right)
+    *   [1, 2] (Left -> Middle)
+    *   [2, 3] (Middle -> Right)
+*   **Next Test:** Sequence [3, 1] (Right -> Left), as suggested by `quest_strategist`.
 
 ### Goldenrod City
 *   **Fact (from Agent):** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo). Progress is impossible this way for now.
@@ -59,7 +60,7 @@
 *   I must act on tool/notepad management tasks IMMEDIATELY.
 *   I must mark moving objects using their `object_id`.
 *   I MUST use the `nickname_genius` agent the next time I catch a Pokémon to test its functionality.
-*   I will use the new `puzzle_solver` agent to generate sequences for the Goldenrod Underground switch puzzle if my initial sequence test fails.
+*   I have merged `puzzle_solver` into `quest_strategist`. I will use `quest_strategist` for future complex puzzles.
 
 ## V. Phone Contacts
 *   **TODD (CAMPER):** Calls about sales at the Goldenrod Department Store.
