@@ -48,7 +48,12 @@
 #### B4. Visual Bugs
 - **Type Display Error:** In battle, my Golbat ECHO (Poison/Flying) was incorrectly displayed as a GHOST type. My Lapras NEPTUNE (Water/Ice) was also displayed as GHOST and NORMAL type.
 
-## IV. Archived Hypotheses
+## V. Current Hypotheses
+- **Pokemon Mansion Hypothesis (Attempt 1):** The Cinnabar Gym is locked or inaccessible. The key or event to unlock it is hidden within the Pokémon Mansion.
+  - **Test:** Systematically explore the Pokémon Mansion, floor by floor, interacting with all objects and reading all notes/diaries to find a "Secret Key" or trigger a related event.
+  - **Current Step:** Exploring the first floor, starting with the western corridor.
+
+## VI. Solved Puzzles & Archived Hypotheses
 - **Saffron Gym Hypothesis (Attempt 1):** Defeating all trainers in the gym will unlock the path to Sabrina.
 - **Saffron Gym Hypothesis (Attempt 2 - Defeat all trainers in Sabrina's room):** Defeating all trainers in Sabrina's immediate room will unlock the path to her. **Conclusion (T50140):** FAILED. The path remained blocked.
 - **Saffron Gym Hypothesis (Attempt 3):** Defeating all trainers in the room with the Channeler at (4, 8) does not open the path to Sabrina. **Conclusion (T50170):** FAILED. The trigger is something else entirely.
@@ -60,5 +65,3 @@
 - **Silph Co. 10F Hypothesis (Attempt 4 - Re-investigating Warps):** The 'interactable tiles' are the warps themselves, and their state or destination may have changed after defeating Giovanni. The game state's insistence that (11, 1) is unvisited was a major clue. **Conclusion (T51212):** This hypothesis was partially correct. The warps are key, but the systematic search of walls was a dead end. The game has now revealed the exact interactable tiles.
 - **Silph Co. 4F Puzzle (T51244):** A 'Guaranteed Reachable Interactable Tile' at (6,14) was a CARD KEY floor switch that opened the gates at (5,13) and (6,13). **Conclusion (T51271):** SOLVED.
 - **Silph Co. 10F Puzzle:** The game hinted at two 'Guaranteed Reachable Interactable Tiles'. After extensive searching and puzzle-solving involving the teleporter system, it was discovered that defeating Giovanni was the trigger to unlock the correct teleporter paths. The 'interactable tiles' were not switches but the teleporters themselves whose destinations changed. **Conclusion (T51442):** SOLVED.
-
-## V. Current Hypotheses
