@@ -13,8 +13,8 @@
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:**
-    * `FLOOR_UP_WALL` (Under Re-evaluation): Overwatch critique noted my documentation is flawed. This tile appears to be the benches in the train station. My previous tests were inconclusive. I will now conduct a thorough test of movement on, off, and between these tiles from all directions to create an accurate entry.
-    * `WARP_CARPET_DOWN` (Verified: Currently non-functional. Extensive testing by stepping on it from all directions and pressing 'A' has yielded no results. Likely requires an external trigger or key item.)
+    * `FLOOR_UP_WALL`: Can be entered from the side (from a FLOOR tile). Cannot be exited by moving up. Further testing required.
+    * `WARP_CARPET_DOWN`: Currently non-functional. Extensive testing by stepping on it from all directions and pressing 'A' has yielded no results. Likely requires an external trigger or key item.
 
 ### Untested Tile Types (High Priority)
 * `RAILING`: Needs testing. Located on the Goldenrod Dept. Store Roof.
@@ -48,15 +48,13 @@
 *   **Clue:** Liz mentioned hearing a strange radio broadcast from the Ruins of Alph. This might be a clue.
 
 ### Goldenrod Magnet Train Station
-* **Objective:** Escape the station.
-* **Clue:** An Officer is blocking the path north and mentions the train isn't running. His presence is scripted (he appears and disappears).
-* **Failed Hypotheses:**
-    1. Waiting for a time-based event. (Failed after multiple turns of waiting).
-    2. Saving and reloading the game. (Failed, no change in state).
-    3. Using the `WARP_CARPET_DOWN` exit. (Failed, warp is non-functional).
-    4. Interacting with unique objects (plant). (Failed, non-interactable).
-* **Current Hypothesis:** There is a hidden, non-obvious trigger tile in the room. A full systematic search is in progress.
-* **Alternative Hypothesis:** A key item, like a "Train Pass," is required from another location.
+* **Objective:** Explore the station.
+* **Status:** The Officer who was blocking the path north has disappeared.
+* **Current Investigation:** Systematically testing the `FLOOR_UP_WALL` tile type to understand its traversal mechanics.
+    *   **Test 1:** Moved from `FLOOR` (8, 12) to `FLOOR_UP_WALL` (7, 12). **Result: Success.**
+    *   **Test 2:** Attempted to move from `FLOOR_UP_WALL` (7, 12) to `FLOOR` (7, 11). **Result: Failure.**
+    *   **Conclusion:** Cannot exit this tile by moving up.
+    *   **Next Step:** Test moving down, left, and right from the tile.
 
 ## IV. Tool & Agent Development
 ### Core Directives
