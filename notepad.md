@@ -36,10 +36,15 @@
 
 ## III. Active Puzzles & Hypotheses
 
+### Goldenrod Underground
+*   **Objective:** Find a way to the eastern section of the underground, likely through the locked door at (18, 6) or via a hidden switch room.
+*   **Hypothesis 1 (Failed):** A hidden switch is located on the walls near the defeated trainers in the western section. (Tested multiple tiles, no results).
+*   **Hypothesis 2 (Current):** A key or switch-triggering item is located at one of the hidden item spots. Currently investigating the one at (4, 18).
+*   **Hypothesis 3:** A hidden passage exists along one of the walls.
+*   **Hypothesis 4:** An object in the area can be removed with CUT.
+
 ### Goldenrod City
 *   **Fact (from Agent):** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo). Progress is impossible this way for now.
-*   **Hypothesis (from Agent):** The city is divided. The Underground Path seems to be the only way to cross between the west and east sections.
-*   **Hypothesis (from Agent):** There may be hidden switches or items in the main Underground area that alter the path or unlock new exits.
 *   **Hypothesis:** An Abra is required for the Machop trade on the 5th floor of the Department Store. Abra might be found in the grass on Route 34, which is south of the city.
 
 ### Ruins of Alph
@@ -56,8 +61,3 @@
 ## V. Phone Contacts
 *   **TODD (CAMPER):** Calls about sales at the Goldenrod Department Store.
 *   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
-### Goldenrod Underground - New Hypotheses (from Quest Strategist)
-*   **Hypothesis 1:** Search for a hidden switch/lever on the walls near defeated trainers.
-*   **Hypothesis 2:** Press 'A' on all accessible wall tiles to find a hidden passage.
-*   **Hypothesis 3:** Investigate hidden item locations at (6, 13) and (4, 18) for a key.
-*   **Hypothesis 4:** Look for a small object that can be removed with CUT.
