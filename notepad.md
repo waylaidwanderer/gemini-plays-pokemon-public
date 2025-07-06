@@ -19,7 +19,7 @@
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Objective:** Herd the Farfetch'd (object_id 1) to the apprentice at `(7, 28)`.
 *   **Verified Mechanics:**
-    *   Stepping on specific `FLOOR` tile coordinates (twigs) changes the Farfetch'd's orientation or causes it to move.
+    *   The Farfetch'd's movement and orientation are changed by my position relative to it. There are no interactable 'twigs'.
     *   The bird's reaction depends on my position relative to it.
     *   Wild battles or direct interaction (pressing 'A') reset the puzzle.
 *   **Current Hypothesis:** I need to use the twigs to manipulate the Farfetch'd's position and orientation to guide it towards the apprentice.
