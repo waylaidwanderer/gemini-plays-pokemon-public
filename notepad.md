@@ -11,7 +11,7 @@
 - **`battle_strategist_agent`:** Provides battle advice. **STATUS: REFINED.** The agent now correctly validates against fainted, sleeping, and active Pokémon to avoid invalid switch recommendations.
 - **`systematic_searcher` & `pathfinder`:** **STATUS: REFINED.** After multiple failures and critical feedback, I have redefined both tools with more robust logic. `pathfinder` now handles impassable tiles and ledges more accurately. `systematic_searcher` now correctly implements a BFS from the player's position to find only reachable, untested tiles. I must be more diligent in maintaining my tools going forward.
 - **Future Tool Idea:** If another complex maze is encountered, create a `maze_solver_tool`. This tool would programmatically parse the map XML and use a graph traversal algorithm (like BFS or Dijkstra's) to find the optimal path.
-- **Future Tool Idea:** If another complex maze is encountered, create a `maze_solver_tool`. This tool would programmatically parse the World Knowledge Graph JSON and use a graph traversal algorithm (like BFS or Dijkstra's) to find the optimal path, a much more robust solution than the deleted agent.
+- **Future Tool Idea:** If another complex maze is encountered, create a `maze_solver_tool`. This tool would programmatically parse the map XML and use a graph traversal algorithm (like BFS or Dijkstra's) to find the optimal path.
 
 ## III. Game Mechanics & Battle Intel
 ### A. Tile Mechanics & Traversal Rules (v13)
