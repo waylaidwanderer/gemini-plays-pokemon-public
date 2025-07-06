@@ -11,7 +11,7 @@
 *   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `WATER`, `COUNTER`, `VOID`, `MART_SHELF`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
-*   **Directional Warps:** `WARP_CARPET_LEFT`, `WARP_CARPET_DOWN` (Move in specified direction). Untested if they can be entered from other directions.
+*   **Directional Warps:** `WARP_CARPET_LEFT`, `WARP_CARPET_DOWN`. Verified one-way; can only be entered by moving in the specified direction.
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:** `FLOOR_UP_WALL` (Verified: Enter by moving UP; Exit by moving LEFT/RIGHT).
 
