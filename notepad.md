@@ -3,7 +3,7 @@
 ## I. Game Systems & Mechanics
 
 ### Tile Traversal Protocol
-- **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately.
+- **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately. The `MART_SHELF` tile is currently untested and must be investigated.
 - **Movement Test:** Attempt to move *into* and *out of* the tile from all 4 cardinal directions to verify passability.
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
@@ -19,7 +19,6 @@
 * `RAILING`: Needs testing.
 * `PIPE_HORIZONTAL`: Needs testing.
 * `PIPE_VERTICAL`: Needs testing.
-* `MART_SHELF`: Needs testing.
 
 ### Other Mechanics
 *   **Item Effects:**
@@ -52,5 +51,5 @@
 *   I must use `nickname_genius` the next time I catch a Pokémon.
 
 ## V. Phone Contacts
-*   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
 *   **TODD (CAMPER):** Calls about sales at the Goldenrod Department Store.
+*   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
