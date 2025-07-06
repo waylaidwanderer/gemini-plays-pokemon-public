@@ -25,8 +25,8 @@
     3.  **Twigs:** The twigs at (22, 30) and (29, 30) only cause the bird to turn, NOT move.
     4.  **Chasing:** Attempting to walk onto the bird's tile from behind only causes it to turn.
 *   **Current State:** The bird is now at (29, 22). My new plan is to figure out how to herd it from this new position.
-*   **New Observation:** The bird's direction changed on its own while I was standing still. It is now at (29, 22) facing UP.
-*   **New Hypothesis:** Now that the bird is facing UP at (29, 22), stepping on the twig at (29, 30) will cause it to move.
+*   **Test 4 (New Position):** Stepped on the twig at (29, 30) while the bird was at (29, 22) and facing UP. **Result: SUCCESS!** The bird disappeared. This confirms that twigs can cause movement/teleportation under specific conditions.
+*   **New Plan:** Find the bird's new location. I will start searching near the apprentice.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
