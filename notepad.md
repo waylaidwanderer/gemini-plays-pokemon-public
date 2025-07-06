@@ -54,3 +54,5 @@
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
 - **Pokemon Mansion 1F:** Wild Grimer can be encountered.
 - **Pokemon Mansion 1F Switch (3, 6) Test 2:** Flipped switch again. Result: Western gates at (17, 8) closed. Southern gates at (25, 14) remained closed. **Conclusion: Switch at (3, 6) does NOT control the southern gates.**
+- **Pokemon Mansion 1F Switch (3, 6) Test 2:** Flipped switch again. Result: Western gates at (17, 8) closed. Southern gates at (25, 14) remained closed. **Conclusion: Switch at (3, 6) does NOT control the southern gates.**
+- **Pokemon Mansion 1F Encounters:** Wild Grimer and Raticate can be found.
