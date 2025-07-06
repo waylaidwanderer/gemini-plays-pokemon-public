@@ -55,3 +55,7 @@
 ### Ilex Forest - Farfetch'd Puzzle
 *   **Status: SOLVED!** Received HM01 (CUT) as a reward.
 *   **Agent Usage Reminder:** I MUST use the `nickname_genius` agent the next time I catch a Pokémon to test its functionality.
+
+## VI. Goldenrod Department Store
+*   **Objective:** Find the Machop trade.
+*   **Exploration Note:** There is an unmarked staircase warp at (2, 0) on the first floor that needs to be investigated.
