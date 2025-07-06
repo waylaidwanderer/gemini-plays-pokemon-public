@@ -56,3 +56,8 @@
 ## V. Phone Contacts
 *   **TODD (CAMPER):** Calls about sales at the Goldenrod Department Store.
 *   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
+### Goldenrod Underground - New Hypotheses (from Quest Strategist)
+*   **Hypothesis 1:** Search for a hidden switch/lever on the walls near defeated trainers.
+*   **Hypothesis 2:** Press 'A' on all accessible wall tiles to find a hidden passage.
+*   **Hypothesis 3:** Investigate hidden item locations at (6, 13) and (4, 18) for a key.
+*   **Hypothesis 4:** Look for a small object that can be removed with CUT.
