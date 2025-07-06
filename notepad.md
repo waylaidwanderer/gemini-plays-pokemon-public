@@ -50,7 +50,4 @@
 ### Core Directives
 *   I must act on tool/notepad management tasks IMMEDIATELY.
 *   I must mark moving objects using their `object_id`.
-*   I MUST use the `nickname_genius` agent the next time I catch a Pokémon to test its functionality.
-*   I have merged `puzzle_solver` into `quest_strategist`. I will use `quest_strategist` for future complex puzzles.
-*   Reminder: Use `nickname_genius` on the next caught Pokémon to test it.
-*   Reminder: Use `nickname_genius` on the next caught Pokémon to test it.
+*   I will use `quest_strategist` for future complex puzzles.
