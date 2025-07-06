@@ -22,9 +22,7 @@
     2.  **Puzzle Reset:** Wild Pokémon battles reset the puzzle, returning the bird to (28, 31).
     3.  **Twigs:** Stepping on twigs at (22, 30) and (29, 30) only causes the bird to turn.
     4.  **Interaction:** Interacting with the bird directly (pressing 'A') makes it disappear.
-*   **Current State:** The bird has disappeared after I interacted with it. My new plan is to find where it respawned. I will start by checking the location at (29, 22).
-    *   The twigs must be stepped on in a specific sequence.
-    *   I need to interact with something else in the forest to change the bird's behavior.
+*   **Current State:** The bird has disappeared after I interacted with it. My new plan is to find where it respawned. I will start by checking its initial spawn point at (28, 31) and then the other marked location at (29, 22).
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
