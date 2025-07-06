@@ -22,8 +22,7 @@
     1.  **Turning:** The bird's turning is complex and based on my final position relative to it.
     2.  **Interaction:** Pressing 'A' on the bird makes it disappear and reappear elsewhere.
     3.  **Reset:** Wild battles can reset the puzzle.
-*   **Current State:** Stuck in a loop. My previous strategy was based on a hallucination that floor twigs were interactable. They are not.
-*   **New Testable Hypothesis:** The only confirmed interactable element is the Ilex Forest Shrine at (8, 22). This must be the key, but it is currently blocked by a CUT_TREE. I must find a way to get CUT to proceed.
+*   **Current State:** My previous strategy was based on a hallucination that floor twigs were interactable. They are not. The puzzle is currently unsolvable as the only confirmed interactable, the Ilex Forest Shrine at (8, 22), is blocked by a CUT_TREE. I must find the exit of the forest and return later.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
