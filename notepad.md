@@ -47,7 +47,10 @@
 - **Pokemon Mansion 3F Central Switch Puzzle:** The newly reachable switch at (11, 6) is the key to the 'alternating doors' puzzle. Hypothesis: Activating this switch will toggle the state of the gates at (16, 5)/(16, 6) and/or (16, 11)/(16, 12), opening a new path. Test: Navigate to (11, 7) and interact with the switch. Conclusion: TBD.
 
 ## V. Puzzle & Hypothesis Archive
-  - **3F:** The switch at (11, 6) toggles the central gates (16, 5/6) and the southern gates (16, 11/12). (Confirmed T52735)
-- **Saffron Gym Puzzle:** The path to Sabrina was blocked until Team Rocket was cleared from Silph Co. first. The correct teleporter path was then unlocked. (Confirmed T51442)
-- **Silph Co. Puzzles (4F & 10F):** The CARD KEY was required to open gates, such as the one on 4F at (5,13). Defeating Giovanni on 11F was the main trigger to unlock the correct teleporter paths on 10F and solve the floor puzzles. (Confirmed T51271, T51442)
-- **Paralysis Ineffectiveness:** A paralyzed Pokémon (e.g., wild MUK) may still be able to attack. The chance to be fully paralyzed is not 100%. (Confirmed: T52193, T52194)
+- **Pokemon Mansion Puzzle (All Floors):** The mansion uses an 'alternating doors' system controlled by switches.
+  - **1F Switch (3, 6):** Toggles gates at (17, 8) & (18, 8). (Confirmed T52390)
+  - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). (Confirmed T52787)
+  - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
+- **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
+- **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
+- **Paralysis Ineffectiveness:** Paralyzed Pokémon can still attack; paralysis is not a 100% stop. (Confirmed T52193, T52194)
