@@ -52,5 +52,5 @@
 *   I must mark moving objects (like the Farfetch'd) using their `object_id` to ensure the marker tracks them correctly. Static markers are for static objects/locations only.
 *   I must remember to use `strategic_advisor` when feeling stuck and feed failed attempts into `quest_strategist` for better hypotheses.
 
-### Future Tool Development
+### Tool Development Log
 *   **Exploration Tool:** `maze_explorer_v2` has been created to find the nearest unseen tile. It successfully paths to the last traversable tile adjacent to the unseen one, avoiding pathing into walls.
