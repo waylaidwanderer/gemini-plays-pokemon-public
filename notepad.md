@@ -44,10 +44,12 @@
 
 ## IV. Puzzle & Hypothesis Log
 ### A. Active Hypotheses
-- **Pokemon Mansion B1F:** The basement floor, accessible via stairs on 3F, likely holds the SECRET KEY. Hypothesis: The key is guarded by a trainer or hidden behind a puzzle. Test: Fully explore B1F. Conclusion: TBD.### B. Solved Puzzles & Confirmed Mechanics
+- **Pokemon Mansion B1F:** The basement floor, accessible via stairs on 3F, likely holds the SECRET KEY. Hypothesis: The key is guarded by a trainer or hidden behind a puzzle. Test: Fully explore B1F. Conclusion: TBD.
+
+### B. Solved Puzzles & Confirmed Mechanics
 - **Pokemon Mansion Puzzle (All Floors):** The mansion uses an 'alternating doors' system controlled by switches.
   
-  - **1F Switch (3, 6):** Toggles eastern gates (17, 8/18, 8). (Confirmed T53360)
+  - **1F Switch (3, 6):** Toggles the western gates at (17, 8/18, 8). (Confirmed T53644)
   - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). (Confirmed T52787)
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
