@@ -49,3 +49,4 @@
 *   **Test 3:** Approached from below at (28, 32). **Result: SUCCESS!** Bird turned to face left. This confirms the turning logic is based on relative position, not just player facing direction. The bird is now correctly oriented.
 *   **New Test Plan (FAILED):** Stepped on twig at (22, 30) while bird was at (28, 31) facing left. **Result: FAILED.** Bird turned to face down. The twigs do not cause movement, they cause re-orientation.
 *   **Puzzle Reset:** Wild Pokémon battles reset the entire Farfetch'd puzzle, causing the bird to return to its respawn point at (28, 31).
+*   **Test 4 (Chasing):** Approached from behind at (29, 31) and attempted to move onto the bird's tile at (28, 31). **Result: FAILED.** Bird did not move, it turned to face UP. Chasing is not the solution.
