@@ -6,10 +6,11 @@
 - **Testing Protocol:**
   1.  When a new tile type is seen, test movement from all 4 directions.
   2.  If any direction works, test all others to confirm one-way paths.
-  3.  Record all verified findings.
+  3.  Attempt to walk into tiles that appear impassable (like WALL, WATER, CUT_TREE) to confirm they are indeed impassable.
+  4.  Record all verified findings.
 - **Verified Impassable:** PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), VOID, MART_SHELF, BLACK_BELT (NPC)
 - **Untested Impassable (To Be Verified):** WALL, CUT_TREE, WATER, HEADBUTT_TREE
-- **Verified Interactable Obstacles:** HEADBUTT_TREE (Impassable, can be interacted with via 'A').
+- **Verified Interactable Obstacles:** HEADBUTT_TREE (Impassable, can be interacted with via 'A', but no effect observed).
 - **Verified Traversable:** FLOOR, GRASS, TALL_GRASS (Wild Encounters)
 - **Verified Warps:**
   - **Standard:** DOOR, CAVE
@@ -21,8 +22,8 @@
 ## II. Quests & Puzzles
 
 ### Ilex Forest Puzzle
-- **Objective:** Get HM01 (CUT).
-- **Current Hypothesis (H5):** After speaking to Kurt, his apprentice will now be present in Ilex Forest. Finding him is the key.
+- **Objective:** Get HM01 (CUT) by catching the Farfetch'd.
+- **Current Hypothesis (H21):** The Farfetch'd teleported to the western part of the maze. I need to find it there.
 - **Verified Mechanics:**
     1. **Proximity (Turning):** Approaching Farfetch'd causes it to turn.
     2. **Teleportation (Twigs):** Stepping on twigs teleports Farfetch'd based on its facing direction.
@@ -41,26 +42,13 @@
 - **MOOMOO MILK:** Restores 100 HP. Purchased at MOOMOO FARM.
 - **Type Effectiveness:** Water is neutral vs. Bug/Grass (e.g., Paras). Initial assumption was wrong.
 
-## IV. Ilex Forest Puzzle Log
-*Goal: Find the lost Farfetch'd to get HM01 (CUT).*
-- **Current Status:** Puzzle is active. The Farfetch'd was at (29, 22) facing left.
-- **Test:** Stepped on the twig at (29, 30).
-- **Result:** The Farfetch'd at (29, 22) disappeared. This confirms that twigs trigger its movement.
-- **Current Hypothesis (H21):** Since the Farfetch'd was facing left, it has teleported to a new location in the western part of the maze. The next step is to systematically search that area to find it.
-- **Falsified Hypotheses Summary:**
-  - H1-H3: Pre-puzzle interaction attempts with twigs/trees were ineffective.
-  - H8-H15: Early attempts to locate the Farfetch'd after scaring it from the east were unsuccessful.
-  - H17: The Farfetch'd did not return to its original puzzle area after speaking to the apprentice.
-  - H18: Leaving and re-entering the forest did not reset the puzzle.
-  - H19: The Farfetch'd was not in the western maze *before* the puzzle was reset.
-  - H20: The Ilex Forest Shrine is not involved at this stage, as the path is blocked by a CUT tree.
+## IV. Untested Assumptions & Alternative Hypotheses
 
-## V. Untested Assumptions & Alternative Hypotheses
-
-- **HEADBUTT_TREE Interaction:** Confirmed that pressing 'A' on a HEADBUTT_TREE does nothing. This interaction method is invalid.
-- **Farfetch'd Location Alternatives:**
-  1. The Farfetch'd is in a hidden area of the forest, accessible through a path I haven't found yet.
-  2. The Ilex Forest Shrine at (8, 22) is involved in the puzzle, and I need to interact with it again.
+- **Farfetch'd Puzzle Alternatives:**
+  1. The Farfetch'd has teleported to a different, unexplored area of the forest.
+  2. The puzzle has reset, and the Farfetch'd is back at its starting position in the eastern part of the maze.
+  3. There is another way to interact with the Farfetch'd besides stepping on twigs (e.g., approaching from a specific angle).
+  4. The Ilex Forest Shrine at (8, 22) is involved in the puzzle, and I need to interact with it again.
 
 ## Misc. Tips & Info
 - Liz mentioned a Pokémon Salon in Goldenrod run by two brothers. One is good, one isn't, but the younger one is sometimes better.
