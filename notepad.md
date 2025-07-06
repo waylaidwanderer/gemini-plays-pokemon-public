@@ -65,4 +65,7 @@
   - **Hypothesis 1:** The objects on the northern wall are switches.
   - **Test 1:** Interacted with the object at (18, 23) from (18, 22). Result: Failed.
   - **Test 2:** Interacted with the object at (20, 23) from (20, 22). Result: Failed.
-  - **Next Step:** Test the final accessible switch object at (22, 23).
+  - **Test 3:** Interacted with the object at (22, 23) from (22, 22). Result: Failed.
+  - **Conclusion:** Interacting with the switches individually does not work.
+  - **New Hypothesis:** The puzzle requires pressing the switches in a specific sequence.
+  - **Next Step:** Test the simplest sequence: Left (18,23), then Middle (20,23), then Right (22,23).
