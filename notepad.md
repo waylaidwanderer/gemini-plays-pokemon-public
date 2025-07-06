@@ -44,9 +44,10 @@
 - **Type Display Error:** In battle, my Golbat ECHO (Poison/Flying) was incorrectly displayed as a GHOST type. My Lapras NEPTUNE (Water/Ice) was also displayed as GHOST and NORMAL type.
 
 ## IV. Active Hypotheses
-- **Pokemon Mansion 3F East Wing Exploration:** There are many unseen tiles in the eastern part of the floor. Hypothesis: The path forward and potentially the Secret Key are located in this unexplored area. Test: Navigate to the eastern section and systematically reveal all unseen tiles. Conclusion: TBD.
+- **Pokemon Mansion 3F Central Switch Puzzle:** The newly reachable switch at (11, 6) is the key to the 'alternating doors' puzzle. Hypothesis: Activating this switch will toggle the state of the gates at (16, 5)/(16, 6) and/or (16, 11)/(16, 12), opening a new path. Test: Navigate to (11, 7) and interact with the switch. Conclusion: TBD.
 
 ## V. Puzzle & Hypothesis Archive
+- **Pokemon Mansion 3F East Wing Exploration:** There are many unseen tiles in the eastern part of the floor. Hypothesis: The path forward and potentially the Secret Key are located in this unexplored area. Test: Navigate to the eastern section and systematically reveal all unseen tiles. Conclusion (T52772): FAILED. This area was a dead end leading to a drop-down to a lower floor. The main path forward appears to be back in the central area.
 - **Pokemon Mansion 3F Alternating Switch Puzzle:** This floor operates on an alternating switch system. The switch at (11, 6) toggles the gates at (16, 5) and (16, 6) with the gates at (16, 11) and (16, 12). **Conclusion (T52735):** SOLVED. Activating the switch at (11, 6) opened the central gates, providing access to the warp at (8, 11).
 - **Pokemon Mansion 2F Alternating Switch Puzzle:** The Super Nerd at (5, 18) gave the clue 'Switches open and close alternating sets of doors!'. **Conclusion (T52630):** CONFIRMED. Pressing the switch at (3, 12) a second time toggled the state of the doors, opening a new path south.
 - **Pokemon Mansion 1F West Gate Puzzle:** A Super Nerd on 2F at (2, 18) gave a clue: 'Switches open and close alternating sets of doors!'. **Conclusion (T52390):** CONFIRMED. Activating the switch at (3, 6) on 1F opened the gates at (17, 8) and (18, 8), granting access to the eastern section of the floor.
