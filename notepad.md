@@ -56,7 +56,7 @@
 - **Silph Co. 4F Puzzle (T51244):** A 'Guaranteed Reachable Interactable Tile' at (6,14) was a CARD KEY floor switch that opened the gates at (5,13) and (6,13). **Conclusion (T51271):** SOLVED.
 
 ## V. Current Hypotheses
-- **Silph Co. 10F Puzzle:** The game has hinted at two 'Guaranteed Reachable Interactable Tiles'. My hypothesis is that interacting with the tile at (10, 12) will reveal the next step.
+- **Silph Co. 10F Puzzle:** The game has hinted at two 'Guaranteed Reachable Interactable Tiles'. One was tested at (10, 12) with no result. I will use a refined systematic search to find the second one in a reachable area.
 
 ## VI. Agent & Tool Ideas (v51241)
 - **Marker Compliance Tool (Implemented):** A tool that parses map markers against my notepad protocols to find non-compliant entries.
