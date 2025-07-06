@@ -60,3 +60,4 @@
 - **Hypothesis:** The path to the southern gates is a hidden maze within the large block of unseen tiles.
 - **Test:** Manually explore the unseen area by systematically mapping its boundaries.
 - **Current Strategy:** Trace the western wall of the maze by moving north from the southern section.
+- **Impassable Tiles:** Tiles that appear as solid walls, furniture, or other solid objects are generally impassable and act as barriers to movement.
