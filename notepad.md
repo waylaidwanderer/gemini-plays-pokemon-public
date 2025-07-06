@@ -45,7 +45,8 @@
     *   [1, 2, 3] (Left -> Middle -> Right)
     *   [1, 2] (Left -> Middle)
     *   [2, 3] (Middle -> Right)
-*   **Next Test:** Sequence [3, 1] (Right -> Left), as suggested by `quest_strategist`.
+*   **Failed Sequence:** [3, 1] (Right -> Left)
+*   **Next Test:** Sequence [3, 2] (Right -> Middle), as suggested by `quest_strategist`.
 
 ### Goldenrod City
 *   **Fact (from Agent):** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo). Progress is impossible this way for now.
