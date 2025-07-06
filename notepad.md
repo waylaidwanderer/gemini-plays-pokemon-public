@@ -58,6 +58,5 @@
 - **Silph Co. 10F Hypothesis (Attempt 4 - Re-investigating Warps):** The 'interactable tiles' are the warps themselves, and their state or destination may have changed after defeating Giovanni. The game state's insistence that (11, 1) is unvisited was a major clue. **Conclusion (T51212):** This hypothesis was partially correct. The warps are key, but the systematic search of walls was a dead end. The game has now revealed the exact interactable tiles.
 - **Silph Co. 4F Puzzle (T51244):** A 'Guaranteed Reachable Interactable Tile' at (6,14) was a CARD KEY floor switch that opened the gates at (5,13) and (6,13). **Conclusion (T51271):** SOLVED.
 - **Silph Co. 10F Puzzle:** The game hinted at two 'Guaranteed Reachable Interactable Tiles'. After extensive searching and puzzle-solving involving the teleporter system, it was discovered that defeating Giovanni was the trigger to unlock the correct teleporter paths. The 'interactable tiles' were not switches but the teleporters themselves whose destinations changed. **Conclusion (T51442):** SOLVED.
-- **Ground:** Standard walkable tile.
-- **Impassable:** Standard wall or object that cannot be walked through.
+
 - **2x1 Warps (Cinnabar Lab):** To use these horizontal floor warps, you must stand on one of the two tiles and press into the impassable boundary (e.g., Down).
