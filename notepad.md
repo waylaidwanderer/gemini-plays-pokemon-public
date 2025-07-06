@@ -23,7 +23,7 @@
 ### Ilex Forest Puzzle
 - **Objective:** Get HM01 (CUT) by herding the Farfetch'd to the apprentice at (7, 28).
 - **Verified Mechanics:**
-    1. **Turning:** Approaching Farfetch'd from a cardinal direction causes it to turn and face the player.
+    1. **Turning:** Approaching Farfetch'd from a cardinal direction causes it to turn. The exact turning logic is still under investigation. My initial hypothesis that it turns to face the player was incorrect.
     2. **Movement/Teleportation:** Interacting with Farfetch'd directly (pressing 'A') makes it teleport away. Stepping on a specific twig can also cause it to teleport or reappear at a new location. Stepping on the twig at (29, 30) made the Farfetch'd appear at (28, 31).
     3. **Reset Conditions:** Wild battles, leaving the area, or sometimes direct interaction resets the puzzle to its initial state (Farfetch'd at (29, 22)).
 - **Alternative Hypotheses to Test:**
