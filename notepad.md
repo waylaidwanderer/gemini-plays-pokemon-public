@@ -3,12 +3,15 @@
 - **Agent & Tool Protocol:** Agent and tool refinement is an IMMEDIATE action. If a tool is faulty or a better one can be conceived, I MUST define/redefine it on the IMMEDIATE next turn.
 - **Hypothesis-Driven Gameplay:** I will rigorously document my hypotheses, tests, and conclusions in my notepad. I will avoid repeating failed strategies and will pivot to new goals if progress stalls after multiple documented attempts.
 
+## II. Tool Development Log
+- **pathfinder:** REFINED (T52445). Added logic to handle impassable destination tiles by pathing to the nearest walkable adjacent tile. REFINED AGAIN (T52447) to correctly recognize 'closed_gate' tiles as impassable. This tool has been unreliable and needs close monitoring.
+
 ## III. Game Mechanics & Battle Intel
 ### A. Tile Mechanics & Traversal Rules (v16)
 - **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls. They cannot be surfed on.
 - **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
-- **Hole Tiles:** Acts as a one-way warp, dropping the player to the floor below.
+- **Hole Tiles:** Acts as a one-way warp, dropping the player to the floor below. Untested if they can be bypassed (e.g., with Surf).
 - **Gates:** `closed_gate` tiles are impassable. Some are opened by switches, while others (like in Silph Co.) require the CARD KEY.
 - **Elevators (Silph Co.):** To use the elevator, you must first interact with the control panel (usually on a wall) to select a destination floor. After selecting a floor, you must walk onto the warp tiles at the back of the elevator room to trigger the map transition.
 - **Saffron Gym Teleporters:** These are 1x1 warp tiles. To use a warp, I must move onto the tile. If I'm already on a warp tile, I must move off and then back on to trigger it. This is crucial for testing bidirectionality.
@@ -40,15 +43,14 @@
 #### B4. Visual Bugs
 - **Type Display Error:** In battle, my Golbat ECHO (Poison/Flying) was incorrectly displayed as a GHOST type. My Lapras NEPTUNE (Water/Ice) was also displayed as GHOST and NORMAL type.
 
-## V. Current Hypotheses
-- **Pokemon Mansion 1F West Gate Puzzle:** A Super Nerd on 2F at (2, 18) gave a clue: 'Switches open and close alternating sets of doors!'.
-  - **Conclusion (T52390):** CONFIRMED. Activating the switch at (3, 6) on 1F opened the gates at (17, 8) and (18, 8), granting access to the eastern section of the floor.
+## IV. Untested Assumptions
+1.  **Pokemon Mansion 2F Gate Puzzle:** The switch at (3, 12) opens the gates at (10, 5) and (10, 6). Based on the 'alternating doors' clue. **Test:** After exploring all unseen tiles, press the switch and check the gates. **Disprove:** If gates open, press switch again to see if they close.
+2.  **Super Nerd at (4, 18):** Assumed to be a non-essential NPC. **Test:** Talk to him after exploring.
+3.  **Hole Tiles:** Assumed to be one-way drops. **Test:** Fall through one and document start/end coordinates. (Low priority).
 
-## VI. Solved Puzzles & Archived Hypotheses
-- **Pokemon Mansion Hypothesis (Attempt 1):** The Cinnabar Gym is locked or inaccessible. The key or event to unlock it is hidden within the Pokémon Mansion. **Conclusion (T51934):** FAILED. My party was too weak to continue, had to use an Escape Rope.
+## V. Solved Puzzles & Archived Hypotheses
 - **Pokemon Mansion 1F West Gate Puzzle:** A Super Nerd on 2F at (2, 18) gave a clue: 'Switches open and close alternating sets of doors!'. **Conclusion (T52390):** CONFIRMED. Activating the switch at (3, 6) on 1F opened the gates at (17, 8) and (18, 8), granting access to the eastern section of the floor.
-- **Pokemon Mansion 1F West Gate Puzzle:** A Super Nerd on 2F at (2, 18) gave a clue: 'Switches open and close alternating sets of doors!'.
-  - **Conclusion (T52390):** CONFIRMED. Activating the switch at (3, 6) on 1F opened the gates at (17, 8) and (18, 8), granting access to the eastern section of the floor.
+- **Pokemon Mansion Hypothesis (Attempt 1):** The Cinnabar Gym is locked or inaccessible. The key or event to unlock it is hidden within the Pokémon Mansion. **Conclusion (T51934):** FAILED. My party was too weak to continue, had to use an Escape Rope.
 - **Saffron Gym Hypothesis (Attempt 1):** Defeating all trainers in the gym will unlock the path to Sabrina.
 - **Saffron Gym Hypothesis (Attempt 2 - Defeat all trainers in Sabrina's room):** Defeating all trainers in Sabrina's immediate room will unlock the path to her. **Conclusion (T50140):** FAILED. The path remained blocked.
 - **Saffron Gym Hypothesis (Attempt 3):** Defeating all trainers in the room with the Channeler at (4, 8) does not open the path to Sabrina. **Conclusion (T50170):** FAILED. The trigger is something else entirely.
