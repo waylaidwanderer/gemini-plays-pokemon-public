@@ -26,6 +26,7 @@
     *   **EVERSTONE:** Prevents evolution.
     *   **MOOMOO MILK:** Restores 100 HP. Purchased at MOOMOO FARM.
 *   **SLOWPOKETAIL:** Offered for sale on Route 32. Purpose unknown.
+*   **Vending Machine Drinks:** Can refresh tired POKéMON.
 
 ## II. Key Items, HMs, & TMs
 *   **HM01 (CUT):** Clears small trees. Requires the Hive Badge. Taught to SUNDEW.
@@ -47,13 +48,8 @@
 *   I must act on tool/notepad management tasks IMMEDIATELY.
 *   I must mark moving objects using their `object_id`.
 *   I must use `strategic_advisor` when feeling stuck and feed failed attempts into `quest_strategist` for better hypotheses.
-*   I must use `nickname_genius` the next time I catch a Pokémon.
+*   I MUST use the `nickname_genius` agent the next time I catch a Pokémon to test its functionality.
 
 ## V. Phone Contacts
 *   **TODD (CAMPER):** Calls about sales at the Goldenrod Department Store.
 *   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
-*   **Agent Usage:** I MUST use the `nickname_genius` agent the next time I catch a Pokémon to test its functionality.
-### Goldenrod Dept. Store
-*   **6F Super Nerd:** Mentioned that using the vending machine's drinks can refresh tired POKéMON.
-### Goldenrod Dept. Store
-*   **6F Super Nerd:** Mentioned that using the vending machine's drinks can refresh tired POKéMON.
