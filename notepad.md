@@ -54,4 +54,3 @@
 
 ### Day-Care
 *   **Unmarked Warps:** There are two unmarked warps at (2, 7) and (3, 7) that need to be investigated.
-*   **Day-Care Warp:** Mark the warp at (2, 7) in the Day-Care next time I'm there.
