@@ -68,3 +68,5 @@
 - **System Hint:** Two 'Guaranteed Reachable Interactable Tiles' exist, and the 'Reachable Unvisited Warps' list points to (11, 1), a warp I've already used.
 - **Hypothesis:** The 'interactable tiles' are the warps themselves, and their state or destination may have changed after defeating Giovanni. The game state's insistence that (11, 1) is unvisited is a major clue.
 - **Plan:** Re-test the warp at (11, 1).
+## VIII. Agent & Tool Ideas (v51212)
+- **WKG Manager Tool:** A tool to automate the multi-step WKG documentation process. It would take source/destination details and execute the necessary `find_wkg_node_by_coords` and `manage_world_knowledge` calls, ensuring protocol compliance (e.g., string payloads).
