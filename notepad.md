@@ -64,11 +64,3 @@
 * `RAILING`: Needs testing.
 * `PIPE_HORIZONTAL`: Needs testing.
 * `PIPE_VERTICAL`: Needs testing.
-### Untested Tile Types (Goldenrod Underground)
-* `RAILING`: Needs testing.
-* `PIPE_HORIZONTAL`: Needs testing.
-* `PIPE_VERTICAL`: Needs testing.
-### Untested Tile Types (Goldenrod Underground)
-* `RAILING`: Needs testing.
-* `PIPE_HORIZONTAL`: Needs testing.
-* `PIPE_VERTICAL`: Needs testing.
