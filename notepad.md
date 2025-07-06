@@ -16,7 +16,7 @@
 *   **Complex Tiles:** `FLOOR_UP_WALL` (Verified: Enter by moving UP; Exit by moving LEFT/RIGHT).
 
 ### Untested Tile Types (High Priority)
-* `RAILING`: Impassable. Functions as a WALL.
+* `RAILING`: Needs testing. Located on the Goldenrod Dept. Store Roof.
 * `PIPE_HORIZONTAL`: Needs testing.
 * `PIPE_VERTICAL`: Needs testing.
 
@@ -31,7 +31,7 @@
 ## II. Key Items, HMs, & TMs
 *   **HM01 (CUT):** Clears small trees. Requires the Hive Badge. Taught to SUNDEW.
 *   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
-*   **COIN CASE:** Allows playing at the Game Corner. Found in Goldenrod Underground.
+*   **COIN CASE:** Allows playing at the Game Corner. Lost by a man in the Goldenrod Underground.
 
 ## III. Active Puzzles & Hypotheses
 
@@ -53,5 +53,3 @@
 ## V. Phone Contacts
 *   **TODD (CAMPER):** Calls about sales at the Goldenrod Department Store.
 *   **JOEY (YOUNGSTER):** Calls about his top-percentage RATTATA.
-*   **Hypothesis:** Test the `RAILING` tile on the Dept. Store Roof to determine its properties.
-*   **Agent Usage:** I MUST use the `nickname_genius` agent the next time I catch a Pokémon to test its functionality.
