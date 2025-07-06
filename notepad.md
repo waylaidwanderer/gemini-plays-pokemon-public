@@ -48,7 +48,7 @@
 
 ## V. Puzzle & Hypothesis Archive
 - **Pokemon Mansion Puzzle (All Floors):** The mansion uses an 'alternating doors' system controlled by switches.
-  - **1F Switch (3, 6):** Toggles gates at (17, 8) & (18, 8). (Confirmed T52390)
+  - **1F Switch (3, 6):** Interacts with the 'alternating doors' system, toggling the state of the gates at (17, 8) & (18, 8). Its effect is dependent on the state of other switches in the mansion. (Re-evaluated T52889)
   - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). (Confirmed T52787)
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
