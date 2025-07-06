@@ -16,13 +16,18 @@
 
 ## II. Quests & Puzzles
 
+### Puzzle-Solving Methodology
+1.  **Observe:** Describe the situation based only on what I see.
+2.  **Hypothesize:** Form a single, testable hypothesis.
+3.  **Test:** Design and execute the simplest possible test.
+4.  **Conclude:** State whether the hypothesis was confirmed or denied. Document all steps.
+
 ### Ilex Forest - Farfetch'd Puzzle
-*   **Objective:** Herd the Farfetch'd (object_id 1) to the apprentice at `(7, 28)`.
+*   **Objective:** Herd the Farfetch'd to the apprentice at `(7, 28)`.
 *   **Verified Mechanics:**
     *   The Farfetch'd's movement and orientation are changed by my position relative to it. There are no interactable 'twigs'.
-    *   The bird's reaction depends on my position relative to it.
-    *   Wild battles or direct interaction (pressing 'A') reset the puzzle.
-*   **Current Hypothesis:** I need to use the twigs to manipulate the Farfetch'd's position and orientation to guide it towards the apprentice.
+    *   Interacting directly (pressing 'A') or getting into a wild battle resets the puzzle by making the bird disappear and reappear elsewhere.
+*   **Current Hypothesis:** I need to find the Farfetch'd again and then use my position to manipulate its movement systematically.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
@@ -36,5 +41,6 @@
 *   **MOOMOO MILK:** Restores 100 HP. Purchased at MOOMOO FARM.
 
 ## IV. System & Methodology
-*   **Core Directive:** I must act on tool/notepad management tasks IMMEDIATELY in the same turn I decide to do them. Deferring these actions is a critical failure of my process.
+*   **Core Directive:** I must act on tool/notepad management tasks IMMEDIATELY in the same turn I decide to do them.
 *   **Map Marker Discipline:** I must mark moving objects (like the Farfetch'd) using their `object_id` to ensure the marker tracks them correctly. Static markers are for static objects/locations only.
+*   **Agent Usage:** I must remember to use `strategic_advisor` when feeling stuck and feed failed attempts into `quest_strategist` for better hypotheses.
