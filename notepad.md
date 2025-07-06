@@ -4,10 +4,10 @@
 
 ### Tile Traversal Rules
 - **Testing Protocol:**
-  1.  When a new tile type is seen, test movement from all 4 directions.
-  2.  If any direction works, test all others to confirm one-way paths.
-  3.  Attempt to walk into tiles that appear impassable (like WALL, WATER, CUT_TREE) to confirm they are indeed impassable.
-  4.  Record all verified findings.
+  1.  When a new tile type is seen on screen and is reachable, I MUST immediately test it.
+  2.  Test movement *into* the tile from all 4 adjacent, traversable cardinal directions.
+  3.  If movement is possible, test movement *out of* the tile to all 4 adjacent, traversable cardinal directions to check for one-way paths.
+  4.  Record all verified findings for both passable and impassable tiles immediately.
 - **Verified Impassable:** PC, COUNTER, PILLAR, BOOKSHELF, TV, RADIO, TOWN_MAP, WINDOW, SUPER_NERD (NPC), FISHER (NPC), LASS (NPC), TEACHER (NPC), YOUNGSTER (NPC), OFFICER (NPC), STATUE, TABLE, CHAIR, TWIN (NPC), GYM_GUIDE (NPC), BUG_CATCHER (NPC), VOID, MART_SHELF, BLACK_BELT (NPC)
 - **Untested Impassable (To Be Verified):** WALL, CUT_TREE, WATER, HEADBUTT_TREE
 - **Verified Interactable Obstacles:** HEADBUTT_TREE (Impassable, can be interacted with via 'A', but no effect observed).
