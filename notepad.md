@@ -54,7 +54,9 @@
     *   **Test 1:** Moved from `FLOOR` (8, 12) to `FLOOR_UP_WALL` (7, 12). **Result: Success.**
     *   **Test 2:** Attempted to move from `FLOOR_UP_WALL` (7, 12) to `FLOOR` (7, 11). **Result: Failure.**
     *   **Conclusion:** Cannot exit this tile by moving up.
-    *   **Next Step:** Test moving down, left, and right from the tile.
+        *   **Test 3:** Moved from `FLOOR_UP_WALL` (7, 12) to `FLOOR` (7, 13). **Result: Success.**
+    *   **Conclusion:** Can exit this tile by moving down. It appears to function like a one-way ledge.
+    *   **Next Step:** Test moving left and right from the tile.
 
 ## IV. Tool & Agent Development
 ### Core Directives
