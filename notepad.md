@@ -26,7 +26,8 @@
     4.  **Chasing:** Attempting to walk onto the bird's tile from behind only causes it to turn.
 *   **Current State:** The bird is now at (29, 22). My new plan is to figure out how to herd it from this new position.
 *   **Test 1 (New Position):** Approached from below at (29, 23). **Result: FAILED.** Bird turned to face down. The turning logic is position-dependent.
-*   **New Test Plan:** Approach the bird at (29, 22) from its left side at (28, 22) to further test its turning mechanics.
+*   **Test 2 (New Position):** Approached from its left at (28, 22). **Result: FAILED.** Bird turned to face up. The right side is blocked by VOID. The simple cardinal direction approach does not work from this position.
+*   **New Hypothesis:** Maybe the bird needs to face *down* towards the twigs. I will move to (29, 23) to make it face down, then step on a twig.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
