@@ -26,12 +26,5 @@
     "agent_system_prompt": "You are a creative wordsmith and Pokémon enthusiast. Your task is to generate a single, unique, and creative one-word nickname for a given Pokémon species. Your suggestions should be clever, evocative, and avoid common or generic names. Consider the Pokémon's appearance, type, lore, and potential abilities when brainstorming. Your output must be a single JSON object containing one suggested nickname.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_species\":{\"type\":\"string\"}},\"required\":[\"pokemon_species\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"nickname\":{\"type\":\"string\"}},\"required\":[\"nickname\"]}"
-  },
-  "puzzle_solver": {
-    "agent_name": "puzzle_solver",
-    "agent_description": "Generates a ranked list of logical sequences to test for switch or button-based puzzles.",
-    "agent_system_prompt": "You are a logical puzzle solving expert for video games. You will be given the number of switches, any known constraints (like a switch being broken), and a list of previously failed sequences. Your task is to generate a ranked list of new, logical sequences to test. Start with the simplest combinations and progress to more complex ones. Do not repeat any failed sequences. Your output must be a JSON object containing a list of the next most plausible sequences to try.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"num_switches\":{\"type\":\"integer\"},\"constraints\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"failed_sequences\":{\"type\":\"array\",\"items\":{\"type\":\"array\",\"items\":{\"type\":\"integer\"}}}},\"required\":[\"num_switches\",\"failed_sequences\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_sequences\":{\"type\":\"array\",\"items\":{\"type\":\"array\",\"items\":{\"type\":\"integer\"}}}},\"required\":[\"suggested_sequences\"]}"
   }
 }
