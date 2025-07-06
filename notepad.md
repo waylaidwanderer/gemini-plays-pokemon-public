@@ -19,7 +19,7 @@
 ### Ilex Forest - Farfetch'd Puzzle (POSTPONED)
 *   **Status:** UNSOLVABLE.
 *   **Reason:** The only confirmed interactable element is the Ilex Forest Shrine at `(8, 22)`. This shrine is blocked by a CUT_TREE at `(8, 25)`. I do not have the HM for CUT.
-*   **Conclusion:** I must exit the forest and return later once I have obtained HM01 (CUT). My previous strategies based on hallucinated 'twigs' were incorrect.
+*   **Conclusion:** I must exit the forest and return later once I have obtained HM01 (CUT). My previous assumption that the twigs were a hallucination was incorrect. The puzzle involves stepping on twigs to manipulate the Farfetch'd's movement.
 
 ### Ruins of Alph - Sliding Panels
 *   **Objective:** Solve the sliding stone panel puzzle.
