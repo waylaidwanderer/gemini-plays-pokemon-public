@@ -15,6 +15,9 @@
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:** `FLOOR_UP_WALL` (Verified: Enter by moving UP; Exit by moving LEFT/RIGHT).
 
+### Untested Tile Types
+* `LONG_GRASS`: Assumption is it behaves like `TALL_GRASS`, but needs verification.
+
 ### Other Mechanics
 *   **Item Effects:**
     *   **BERRY:** Restores 10 HP. Found at `FRUIT_TREE`s.
