@@ -53,8 +53,8 @@
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
 
-### C. Future Development Ideas
-- **Puzzle Logic Agent:** Define an agent to analyze the state of complex puzzles like the Pokémon Mansion. Input would be the state of all known switches and gates, and output would be the most logical next test or hypothesis. This could prevent wasted time from flawed manual reasoning.
+## V. Tool Debugging Log
+- **pathfinder (T53767):** The tool is failing to find a path to known reachable tiles on Pokémon Mansion 1F. The game state insists a path exists to the eastern section, but the tool returns an empty list. **Hypothesis:** The tool's logic for parsing the map or its A* implementation has a subtle flaw that doesn't correctly identify all connections in the grid. **Test:** Add extensive print statements to the script to trace the `grid` creation, `start`/`end` nodes, and the state of the `open_set` and `came_from` dictionaries during the search. This will reveal where the algorithm is failing.
 - **Warp Reset Mechanic:** If a wild battle is triggered immediately after using a warp to transition between maps, the game may place the player back at the warp's entry point on the original map after the battle concludes. (Observed T53666)
 - **Pokemon Mansion 2F Gate System:**
   - **Hypothesis (Attempt 1):** The switch at (3, 12) follows the 'alternating doors' mechanic.
