@@ -21,7 +21,7 @@
     1.  **Direct Interaction:** Pressing 'A' on the Farfetch'd causes it to teleport away and reset the puzzle.
     2.  **Twig Interaction Logic:**
         *   **Twig 1 at (22, 30):** Stepping on this makes the Farfetch'd disappear if it's on the map.
-        *   **Twig 2 at (29, 30):** Stepping on this makes the Farfetch'd appear at (28, 31), facing left.
+        *   **Twig 2 at (29, 30):** Stepping on this has an inconsistent effect on the Farfetch'd's orientation. It does not reliably make it face left.
     3.  **Turning:** The turning logic is not simply facing the player. It seems to be related to the player's approach vector to an adjacent tile. This is still inconsistent and needs more rigorous testing.
     4.  **Reset Conditions:** Wild battles, leaving the area, or direct interaction resets the puzzle.
 *   **Alternative Hypotheses to Test:**
