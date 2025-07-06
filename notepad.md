@@ -8,7 +8,7 @@
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `COUNTER`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `MART_SHELF`, `BIRD` (Farfetch'd), `CUT_TREE`, `WATER`
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `MART_SHELF`, `BIRD` (Farfetch'd), `CUT_TREE`, `WATER`, `COUNTER`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
 *   **Directional Warps:** `WARP_CARPET_LEFT`, `WARP_CARPET_DOWN` (Move in specified direction).
@@ -17,6 +17,9 @@
 
 ### Untested Tile Types
 * `LONG_GRASS`: Assumption is it behaves like `TALL_GRASS`, but needs verification.
+* `RAILING`: Needs testing.
+* `PIPE_HORIZONTAL`: Needs testing.
+* `PIPE_VERTICAL`: Needs testing.
 
 ### Other Mechanics
 *   **Item Effects:**
@@ -60,7 +63,3 @@
 ### Goldenrod City - New Hypotheses
 *   **COIN CASE Location:** Found in the Goldenrod Underground at (7, 25).
 *   **Goldenrod Gym Access:** The Gym may have a prerequisite for entry. Finding the COIN CASE could be the trigger to unlock it, or I might need to complete another event in the city first. I will keep an eye out for any related clues.
-### Untested Tile Types (Goldenrod Underground)
-* `RAILING`: Needs testing.
-* `PIPE_HORIZONTAL`: Needs testing.
-* `PIPE_VERTICAL`: Needs testing.
