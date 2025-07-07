@@ -33,6 +33,7 @@
 *   **Vending Machine Drinks:** Can refresh tired POKéMON.
 *   **Hidden Items:** Must be interacted with from an adjacent tile.
 *   **Haircuts:** Increases a Pokémon's happiness.
+*   **Pokégear UI:** The Phone function has a sub-menu ('Whom do you want to call?'). Pressing 'B' is required to exit this sub-menu and return to the main Pokégear navigation.
 
 ## II. Key Items & TMs
 *   **COIN CASE:** Allows playing at the Game Corner. Found in the Goldenrod Underground.
@@ -42,22 +43,21 @@
 
 ## III. Active Puzzles & Hypotheses
 
+### Route 35 Phone Call Loop
+*   **Obstacle:** Attempting to battle Camper Ivan at (4, 19) triggers a repetitive phone call about radio music, preventing the battle from starting.
+*   **Failed Hypothesis:** Simply pressing 'A' to dismiss the call and re-engage the trainer will work. (Failed multiple times).
+*   **Primary Hypothesis:** The puzzle requires interacting with the Pokégear's radio function.
+*   **Test Plan:** 1. Open Pokégear. 2. Navigate to the Radio function. 3. Try different stations or actions within the radio. 4. Exit the menu and attempt to battle Camper Ivan again.
+*   **Alternative Hypothesis:** The battle with the nearby Lass at (7, 20) must be completed first.
+
 ### Goldenrod City Path Forward
 *   **Obstacle:** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo).
-*   **Hypothesis 1:** Defeating Whitney provides an item/event to clear the tree. (Whitney defeated, but tree is likely still there. Need to check.)
-*   **Hypothesis 2 (Alternative):** Progress is tied to the Radio Tower issue. The 'something wrong with the DIRECTOR' must be resolved.
+*   **Primary Hypothesis:** A `SQUIRTBOTTLE` is required, as stated by the Pokefan F in the Route 35 Gatehouse.
+*   **Alternative Hypothesis:** The tree can be cleared by other means, such as a Pokémon move (e.g., Headbutt) or by progressing a different quest line (e.g., the Radio Tower issue).
+*   **Test Plan:** 1. Find the `SQUIRTBOTTLE` and attempt to use it. 2. If that fails or I cannot find it, I will return to the tree and try using Headbutt. 3. If both fail, I will prioritize the Radio Tower quest before returning to the tree.
 
 ## IV. Agent & Tool Development
 *   **`maze_solver_v1` Limitation:** The tool can only see objects currently on screen. For it to navigate around off-screen obstacles (like NPCs), I MUST manually provide their coordinates using the `extra_impassable_coordinates` parameter. This is a user responsibility, not a code bug.
-*   **`nickname_genius`:** Untested. I must use this agent the next time I catch a Pokémon.
-
-## V. Reflection & Future Development
-
-### Agent & Tool Ideas
-*   **`nickname_genius` Testing:** Must use this agent the next time a Pokémon is caught to evaluate its performance. The `quest_strategist` agent should be used for getting unstuck.
-
-### Active Hypotheses (Post-Reflection)
-*   **Sudowoodo Solution:**
-    *   **Primary Hypothesis:** A `SQUIRTBOTTLE` is required, as stated by the Pokefan F in the Route 35 Gatehouse.
-    *   **Alternative Hypothesis:** The tree can be cleared by other means, such as a Pokémon move (e.g., Headbutt) or by progressing a different quest line (e.g., the Radio Tower issue).
-    *   **Test Plan:** 1. Find the `SQUIRTBOTTLE` and attempt to use it. 2. If that fails or I cannot find it, I will return to the tree and try using Headbutt. 3. If both fail, I will prioritize the Radio Tower quest before returning to the tree.
+*   **`nickname_genius` Testing:** Must use this agent the next time a Pokémon is caught to evaluate its performance.
+*   **`quest_strategist`:** This agent should be used for getting unstuck on complex puzzles.
+*   **`ui_navigator`:** Has been refined to understand the 'B' button is for backing out of sub-menus.
