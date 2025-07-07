@@ -39,7 +39,7 @@
 ## II. Key Items & TMs
 *   **COIN CASE:** Allows playing at the Game Corner. Found in the Goldenrod Underground.
 *   **HM01 (CUT):** Clears small trees. Requires the Hive Badge.
-*   **SQUIRTBOTTLE:** A bottle for watering Pokémon. Used to reveal the Sudowoodo on Route 36.
+*   **SQUIRTBOTTLE:** Used to reveal the Sudowoodo on Route 36.
 *   **TM08 (ROCK SMASH):** An attack that may lower DEFENSE. Can be used to shatter small rocks outside of battle.
 *   **TM45 (ATTRACT):** Makes full use of a POKéMON's charm.
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
