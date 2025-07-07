@@ -73,3 +73,4 @@
 ### Agent & Tool Development
 *   **`puzzle_solver_agent`:** Takes environmental clues (like wall text) and a list of failed attempts as input. It should then suggest new, logical hypotheses to test, such as using a specific item or HM.
 *   **Gramps's Clue:** In the Ruins of Alph Inner Chamber, a Gramps NPC at (11, 19) said, "Ancient buildings are often tombs of kings. Like the pyramids, for instance."
+*   **Ruins of Alph Inner Chamber Puzzle:** The warps at (3, 15) and (4, 15) are not real warps; they only push the player down one tile to (3, 16) and (4, 16) respectively. This seems to be a new puzzle mechanic. Next step is to test the warps at (3, 21) and (4, 21).
