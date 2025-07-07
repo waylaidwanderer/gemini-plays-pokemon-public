@@ -9,7 +9,7 @@
 - **Obvious Tile Test:** Even if a tile seems obviously impassable (e.g., WALL), I must attempt to walk into it once to be 100% certain.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `COUNTER`
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `COUNTER`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters), `LONG_GRASS` (Wild Encounters)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile), `STAIRCASE` (Move onto tile).
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`.
@@ -26,6 +26,7 @@
 * `TRADE_MACHINE`: Located on Pokecenter2F.
 * `CUT_TREE`: Seen on Route 36. Must test passability when reachable.
 * `Puzzle Floor Tiles`: In Ruins of Alph chamber.
+* `PC`: In Ruins of Alph Research Center.
 
 ### Other Mechanics
 *   **Item Effects:**
