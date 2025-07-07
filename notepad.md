@@ -41,18 +41,16 @@
 
 ## III. Active Puzzles & Hypotheses
 
-### Puzzle-Solving Log
-*This is for documenting my scientific approach to puzzles.*
-
 ### Goldenrod City
 *   **Fact:** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo). Progress is impossible this way for now.
-*   **Hypothesis:** An Abra is required for the Machop trade on the 5th floor of the Department Store. Abra might be found in the grass on Route 34, which is south of the city.
-*   **Clue:** A Youngster mentioned getting in trouble for playing in the 'basement of the DEPT.STORE'. This is a new area to investigate.
+*   **Hypothesis 1:** The 'basement of the DEPT.STORE' is a required area to progress the story and reach the Goldenrod Gym.
+*   **Hypothesis 2 (Alternative):** The basement is a side area. The gym is located elsewhere, possibly behind an un-interacted NPC or in a misidentified building.
+*   **Test:** Explore the basement. If it's a dead end or doesn't yield a key item/event, Hypothesis 1 is false. I must then systematically re-explore the city.
 
 ### Radio Tower
 *   **Fact:** A Black Belt on the 2nd floor is blocking the stairs to 3F. He says only 'authorized personnel' can pass because 'something is wrong with the DIRECTOR'.
 *   **Clue:** Liz and a Super Nerd mentioned a strange radio broadcast. This is likely the key to this puzzle, but I was unable to operate the Pokégear radio.
 
 ## IV. Agent & Tool Development
-*   **ui_navigator Agent:** Created to help navigate complex menus. Needs further refinement and testing.
+*   **ui_navigator Agent:** Created to help navigate complex menus. Needs to be tested.
 *   **nickname_genius Agent:** Must be tested at the next opportunity (catching a new Pokémon).
