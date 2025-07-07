@@ -55,3 +55,4 @@
 ## V. Future Development Ideas
 *   **Navigation Master Agent:** Create a high-level agent that takes a destination (e.g., a city name) and uses the `pathfinder_v1` tool to plot the full course, including navigating between maps and through warps.
 *   **Path Obstacle Agent:** An agent that analyzes the map and suggests which moving NPCs to `stun_npc` to clear a path for the `pathfinder_v1` tool.
+*   **Goldenrod Dept. Store Sale:** Camper Todd called to let me know there's a bargain sale on now.
