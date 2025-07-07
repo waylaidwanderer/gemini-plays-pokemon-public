@@ -62,7 +62,5 @@
 *   **`quest_strategist`:** This agent should be used for getting unstuck on complex puzzles.
 *   **`ui_navigator`:** Has been refined to understand the 'B' button is for backing out of sub-menus.
 
-### Potential New Agents
-*   `puzzle_solver`: An agent to help with complex, non-navigational puzzles. Could take the puzzle's state (e.g., phone call loop, Pokégear state) and failed attempts as input and suggest new, creative hypotheses to test.
 ### Radio Tower Side Quests
 *   **Buena's Password Show:** Received a BLUE CARD from Buena on the 2nd floor. I can earn points by giving her passwords from the radio and trade them for prizes.
