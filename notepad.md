@@ -8,15 +8,15 @@
 
 ## III. Game Mechanics & Battle Intel
 ### A. Tile Mechanics & Traversal Rules
-- **Ledges:** Ledges are one-way only. They can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
-- **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls. They cannot be surfed on.
-- **Spinner Tiles:** Spinner tiles force movement in a specific direction. I need to map out their destinations to navigate spinner mazes effectively.
+- **Ground/Impassable:** `ground` tiles are walkable, `impassable` tiles are solid walls. All objects (NPCs, items, signs) function as impassable walls.
+- **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
+- **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls.
+- **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
 - **Hole Tiles:** Acts as a one-way warp, dropping the player to the floor below. Untested if they can be bypassed (e.g., with Surf).
-- **Gates:** `closed_gate` tiles are impassable. Some are opened by switches, while others (like in Silph Co.) require the CARD KEY.
-- **Elevators (Silph Co.):** To use the elevator, you must first interact with the control panel (usually on a wall) to select a destination floor. After selecting a floor, you must walk onto the warp tiles at the back of the elevator room to trigger the map transition.
-- **Saffron Gym Teleporters:** These are 1x1 warp tiles. To use a warp, I must move onto the tile. If I'm already on a warp tile, I must move off and then back on to trigger it. This is crucial for testing bidirectionality.
-- **Open Gates:** `open_gate` tiles are unlocked `closed_gate` tiles and function as `ground`.
-- **2x1 Warps (Cinnabar Lab):** To use these horizontal floor warps, you must stand on one of the two tiles and press into the impassable boundary (e.g., Down).
+- **Gates:** `closed_gate` tiles are impassable. `open_gate` tiles are unlocked and function as `ground`. Some are opened by switches, others require a KEY CARD.
+- **Elevators (Silph Co.):** Require interaction with the control panel to select a floor, then moving onto the warp tile at the back.
+- **Saffron Gym Teleporters:** 1x1 warp tiles. To use a warp, move onto the tile. If already on a warp, move off and back on to trigger.
+- **2x1 Warps (Cinnabar Lab):** To use these horizontal floor warps, stand on one of the two tiles and press into the impassable boundary (e.g., Down).
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -27,7 +27,6 @@
 #### B2. Battle & Field Mechanics
 - **Evasion:** PSYWAVE and CONFUSE RAY can fail against targets with high evasion boosts (e.g., from MINIMIZE).
 - **Struggle:** A Pokémon with 0 PP for all moves will use Struggle, which has low accuracy and causes recoil damage.
-- **Multi-Hit Moves:** Moves like FURY ATTACK are a critical threat, bypassing "sturdy" effects.
 - **'No Will to Fight':** A fainted or sleeping Pokémon cannot be switched into battle.
 - **HM Usage:** Flash, Cut, and Fly MUST be taught to a Pokémon to be used in the field.
 - **EXP Distribution:** Experience is shared between the Pokémon that started the battle and any that participated via switch-in.
@@ -41,26 +40,21 @@
 - **EXP.ALL:** Gives EXP to all party Pokémon, even non-participants, but reduces the total EXP gained per Pokémon. Best used for targeted training.
 
 ## IV. Puzzle & Hypothesis Log
-### A. Active Hypotheses
-- **Pokemon Mansion 3F:** The switch at (11, 6) appears to control the gates on this floor, following an 'alternating doors' pattern. Hypothesis: Activating the switch will toggle the state of the central gates (16, 5/6) and the southern gates (16, 11/12). Test: Activate the switch and observe which gates open/close.
-
-### B. Solved Puzzles & Confirmed Mechanics
-- **Pokemon Mansion 1F Puzzle System:** Confirmed 'alternating doors' mechanic. The switch at (3, 6) toggles the western gates (17, 8) and the southern gates (25, 14) inversely. When one set is open, the other is closed. (Confirmed T53932)
+### A. Solved Puzzles & Confirmed Mechanics
+- **Pokemon Mansion 1F Puzzle System:** Confirmed 'alternating doors' mechanic. The switch at (3, 6) toggles the western gates (17, 8) and the southern gates (25, 14) inversely. (Confirmed T53932)
 - **Pokemon Mansion Puzzle (Floors 2-3):** The mansion uses an 'alternating doors' system controlled by switches.
-  - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). When north is open, south is closed, and vice versa. (Confirmed T53987)
+  - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). (Confirmed T53987)
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
 - **Saffron Gym Puzzle:** Path to Sabrina was blocked until Silph Co. was cleared, which unlocked the correct teleporter path. (Confirmed T51442)
 - **Silph Co. Puzzles (4F & 10F):** CARD KEY was required for many gates. Defeating Giovanni (11F) was the main trigger to activate the correct teleporter paths on 10F. (Confirmed T51271, T51442)
 
-## V. Pokemon Encounter Log
-- **Pokemon Mansion 1F:** Wild Grimer, Raticate, and Growlithe can be found.
-### C. Tactical Problems & Mitigations
-- **Problem:** Frequent wild encounters in the Pokémon Mansion are interrupting warp usage and exploration, repeatedly sending me back to the first floor.
-- **Hypothesis (Attempt 1):** Leading with a faster Pokémon (ECHO) should increase my chances of escaping wild battles on the first turn, allowing for uninterrupted exploration. **Test:** Switch ECHO to the lead position and attempt to navigate the mansion.
-
-### C. Puzzle & Hypothesis Log (In-Progress)
-#### C1. Pokemon Mansion B1F
+### B. In-Progress Puzzles & Active Hypotheses
+#### B1. Pokemon Mansion B1F
 - **Observation:** This floor is a maze with a central impassable structure. There is a switch at (19, 26), an item at (20, 26), and two sets of closed gates at (27, 18)/(28, 18) and (14, 23)/(14, 24). A Burglar blocked the path at (17, 24).
-- **Hypothesis:** The switch at (19, 26) controls the state of the closed gates on this floor.
-- **Test Plan:** Defeat the Burglar, press the switch, and observe the gates.
-- **Progress:** Defeated Burglar at (17, 24). Next step is to press the switch.
+- **Hypothesis 1:** The switch at (19, 26) controls the state of the closed gates on this floor.
+- **Test Plan 1:** Defeat the Burglar, press the switch, and observe the gates. To disprove, press it again to see if it toggles.
+- **Hypothesis 2:** The item at (20, 26) is the Secret Key.
+- **Test Plan 2:** Pick up the item.
+- **Hypothesis 3:** The `hole` tiles are a one-way drop to another floor.
+- **Test Plan 3:** If still stuck after testing other hypotheses, walk onto a hole tile.
+- **Progress:** Defeated Burglar at (17, 24). Currently in battle with his second Pokémon. Next step is to win this battle, then proceed with Test Plan 1.
