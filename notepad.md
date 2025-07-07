@@ -11,10 +11,9 @@
 ### Verified Tile Types
 *   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `COUNTER`, `WATER`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters), `LONG_GRASS` (Wild Encounters)
-*   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile), `STAIRCASE` (Move onto tile).
-*   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`.
+*   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile).
+*   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`, `FLOOR_UP_WALL`.
 *   **Complex Tiles:**
-    *   `FLOOR_UP_WALL`: One-way ledge. Enter from below/sides. Cannot exit by moving up.
     *   `WARP_CARPET_LEFT/DOWN/RIGHT`: Activated by pressing the indicated direction while standing on the tile.
 
 ### Untested Tile Types (High Priority)
