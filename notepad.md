@@ -47,6 +47,7 @@
 ### Goldenrod City
 *   **Fact:** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo). Progress is impossible this way for now.
 *   **Hypothesis:** An Abra is required for the Machop trade on the 5th floor of the Department Store. Abra might be found in the grass on Route 34, which is south of the city.
+*   **Clue:** A Youngster mentioned getting in trouble for playing in the 'basement of the DEPT.STORE'. This is a new area to investigate.
 
 ### Radio Tower
 *   **Fact:** A Black Belt on the 2nd floor is blocking the stairs to 3F. He says only 'authorized personnel' can pass because 'something is wrong with the DIRECTOR'.
