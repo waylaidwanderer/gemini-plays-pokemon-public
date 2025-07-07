@@ -54,3 +54,9 @@
 - **Observations:** This floor is a maze with multiple sets of gates: western (14, 23/24), northern (17, 17/18), and eastern (27, 18 & 28, 18). The only interactive object found is a switch at (19, 26).
 - **Test Conclusion (T54226):** The switch at (19, 26) is a two-state toggle that ONLY controls the western and northern gates, opening one set while closing the other. It does NOT affect the eastern gates. The eastern gates opened automatically after reaching a specific area (22, 16), suggesting a proximity trigger.
 - **Current Hypothesis:** The Secret Key is located in the final eastern chamber. The entire floor is a large loop, and I must navigate it correctly using the switch to reach the key.
+
+## V. Future Development & Testing Protocols
+### A. Agent Ideas
+- **Dungeon Navigator Agent:** For complex, multi-floor puzzles like the Pokémon Mansion, a more advanced agent could be beneficial. It would need to process map data across multiple floors, track switch states, and understand non-linear connections (warps, holes, proximity triggers) to suggest optimal paths or solutions.
+### B. Puzzle Testing Protocols
+- **Rigorously Falsify Hypotheses:** When a puzzle mechanic is discovered (e.g., a proximity trigger for gates), I must actively try to disprove the initial conclusion. For example, test if other tiles or actions also trigger the event, not just the one first observed. This will prevent confirmation bias.
