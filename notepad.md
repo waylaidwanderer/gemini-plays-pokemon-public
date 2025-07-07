@@ -34,3 +34,7 @@
 
 ### C. Deprecated Hypotheses
 - **Multi-Floor Pathing Solution (Deprecated):** My initial hypothesis was that the path to the eastern side of 1F must be on another floor. **Conclusion:** This was invalidated by a system notification about 'Reachable Barriers' on 1F, confirming the solution is on the same floor.
+
+#### B3. Pokemon Evolution & Moves
+- **Marowak Evolution:** Confirmed that Marowak evolves from Cubone at Lv. 38.
+- **REVENANT (Marowak) learned THRASH** at Lv. 38, replacing TAIL WHIP.
