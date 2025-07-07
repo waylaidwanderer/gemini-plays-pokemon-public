@@ -9,7 +9,8 @@
 - **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
 - **Hole Tiles:** Warp tiles that lead to a lower map area. Often function as one-way drops.
-- **Gates:** `closed_gate` tiles are impassable barriers. `open_gate` tiles are unlocked and function as `ground`. The state of these can be toggled by switches.
+- **Gates (`closed_gate`/`open_gate`):** The state of these can be toggled by switches or other triggers.
+- **Alternating Doors:** A puzzle mechanic where gates open and close based on player movement or switch activation in a specific sequence.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -25,21 +26,22 @@
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center. You respawn in front of the trainer you lost to.
 
 ## III. Puzzle & Hypothesis Log
-### A. Solved Puzzles & Confirmed Mechanics
+### A. In-Progress Puzzles & Active Hypotheses
+#### A1. Pokemon Mansion 1F - Sealed Room Puzzle
+- **Observation:** Trapped in a sealed room on 1F. Gates at (21, 18) and (22, 18) are closed. System confirmed these are 'Reachable Barriers'.
+- **Active Hypothesis:** The trigger for the 1F gates is located on another floor, likely B1F. The 'Reachable Barriers' notification may refer only to the gates' location, not their trigger's location.
+
+### B. Solved Puzzles & Confirmed Mechanics
 - **Pokemon Mansion - Multi-Floor Gate System:**
   - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24) on 2F.
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12) on 3F.
-  - **B1F Dynamic Gates:** The gates in the basement operate on a dynamic trigger (timer or step-counter). The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by this trigger.
+  - **B1F Dynamic Gates:** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger (likely timer or step-counter).
 
-### B. In-Progress Puzzles & Active Hypotheses
-#### B1. Pokemon Mansion 1F - Sealed Room Puzzle
-- **Observation:** I am trapped in a sealed room on 1F. The gates at (21, 18) and (22, 18) are closed. The system has confirmed these gates are 'Reachable Barriers', meaning a solution must exist on this map.
-- **Failed Hypotheses Log:**
-  - Direct interaction with gates (1 attempt).
-  - Hidden switch in statues (1 attempt).
-  - Walking into the gates (1 attempt).
-  - Scientist interaction post-basement (1 attempt).
-  - ITEMFINDER use (1 attempt).
-  - Hidden pressure plate on floor (1 attempt, all 23 walkable tiles tested).
-  - Re-interacting with Scientist after exploring (1 attempt).
-- **Active Hypothesis:** The trigger for the gates on 1F is located on another floor, likely B1F. The 'Reachable Barriers' notification may be a red herring or only refers to the gates' location, not their trigger's location.
+### C. Deprecated Hypotheses (Pokemon Mansion 1F Puzzle)
+- Direct interaction with gates (1 attempt).
+- Hidden switch in statues (1 attempt).
+- Walking into the gates (1 attempt).
+- Scientist interaction post-basement (1 attempt).
+- ITEMFINDER use (1 attempt).
+- Hidden pressure plate on floor (Exhaustive search of all 23 walkable tiles failed).
+- Re-interacting with Scientist after exploring (1 attempt).
