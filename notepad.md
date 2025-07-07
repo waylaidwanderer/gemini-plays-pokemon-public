@@ -26,24 +26,18 @@
 
 ## III. Puzzle & Hypothesis Log
 ### A. Solved Puzzles & Confirmed Mechanics
-- **Pokemon Mansion - Multi-Floor Gate System:** The mansion uses a complex system of switches that control gates on multiple floors.
+- **Pokemon Mansion - Multi-Floor Gate System:**
   - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24) on 2F.
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12) on 3F.
-  - **B1F Switch (19, 26) - Two-State Toggle:** This switch operates on a two-state cycle.
-    - **State 1 (Initial/Second Flip):** Western gates (14, 23/24) are OPEN. Eastern gates (27, 18/19) are CLOSED.
-    - **State 2 (First Flip):** Western gates are CLOSED. Eastern gates are OPEN.
+  - **B1F Dynamic Gates:** The gates in the basement operate on a dynamic trigger (timer or step-counter). The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by this trigger.
 
 ### B. In-Progress Puzzles & Active Hypotheses
 #### B1. Pokemon Mansion 1F - Sealed Room Puzzle
 - **Observation:** I am trapped in a sealed room on 1F. The gates at (21, 18) and (22, 18) are closed. The system has confirmed these gates are 'Reachable Barriers', meaning a solution must exist within this room.
-- **Hypothesis 1 (Falsified):** The gates can be opened by direct interaction. 
-  - **Test:** Interacted with both gates from adjacent tiles. 
-  - **Conclusion:** Gates did not open. Direct interaction is not the solution.
-- **Hypothesis 2 (Falsified):** A hidden switch exists in one of the statues.
-  - **Test:** Systematically interacted with all four statues in the room.
-  - Hypothesis 4 (Falsified): The trigger is walking directly into the gates.
-  - Test: Moved into the gate tile at (21, 18).
-  - Conclusion: Movement was blocked. This is not the trigger.
-- **Revised Hypothesis (Active):** The gates in this basement operate on an unknown trigger, possibly a timer or step-counter. The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by this trigger. The western gates just opened on their own, confirming a dynamic trigger.
-  - State 2 (First Flip): Western gates are CLOSED. Eastern gates are OPEN.
-  - Note: This switch does NOT affect the northern gates.
+- **Failed Hypotheses Log:**
+  - Direct interaction with gates (1 attempt).
+  - Hidden switch in statues (1 attempt).
+  - Walking into the gates (1 attempt).
+  - Scientist interaction post-basement (1 attempt).
+  - ITEMFINDER use (1 attempt).
+- **Active Hypothesis:** The solution requires a non-obvious interaction or a trigger I haven't considered. I will use the `puzzle_solver_agent` to analyze the situation and suggest a new approach.
