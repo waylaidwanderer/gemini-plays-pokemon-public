@@ -25,14 +25,11 @@
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center. You respawn in front of the trainer you lost to.
 
 ## III. Puzzle & Hypothesis Log
-
+### A. Active Hypotheses
+- **Pokemon Mansion 1F Alternating Switch:** The switch at (3, 6) is an alternating switch. The game indicates the eastern gates at (25, 14) are reachable, but they remain closed. The switch's message "Not quite yet!" implies a secondary condition is unmet. My current hypothesis is that the switch has more than two states, or another interaction is required elsewhere on the map after flipping the switch.
 ### B. Solved Puzzles
-- **Pokemon Mansion 1F Alternating Switch (In Progress):** The switch at (3, 6) is an alternating switch. My current hypothesis is that it has more than two states, or there's a specific sequence required to permanently open the eastern gates at (25, 14). I am returning to the switch to conduct further tests.
 - **Pokemon Mansion B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
-
 ### C. Deprecated Hypotheses
 - **Multi-Floor Pathing Solution (Deprecated):** My initial hypothesis was that the path to the eastern side of 1F must be on another floor. **Conclusion:** This was invalidated by a system notification about 'Reachable Barriers' on 1F, confirming the solution is on the same floor.
-
-#### B4. Pokemon Evolution & Moves
-- **Marowak Evolution:** Confirmed that Marowak evolves from Cubone at Lv. 38.
-- **REVENANT (Marowak) learned THRASH** at Lv. 38, replacing TAIL WHIP.
+- **Direct Gate Interaction (Deprecated):** Hypothesized that the 'reachable' eastern gates at (25,14) and (26,14) could be opened by direct interaction ('A' button). **Conclusion:** Failed.
+- **Hidden Item (Deprecated):** Hypothesized a hidden item was needed to open the eastern gates. **Conclusion:** ITEMFINDER found nothing.
