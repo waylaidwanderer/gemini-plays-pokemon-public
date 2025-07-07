@@ -33,15 +33,13 @@
 
 ### B. In-Progress Puzzles & Active Hypotheses
 #### B1. Pokemon Mansion 1F - Sealed Room Puzzle
-- **Observation:** I am trapped in a sealed room on 1F. The gates at (21, 18) and (22, 18) are closed. The system has confirmed these gates are 'Reachable Barriers', meaning a solution must exist within this room.
+- **Observation:** I am trapped in a sealed room on 1F. The gates at (21, 18) and (22, 18) are closed. The system has confirmed these gates are 'Reachable Barriers', meaning a solution must exist on this map.
 - **Failed Hypotheses Log:**
   - Direct interaction with gates (1 attempt).
   - Hidden switch in statues (1 attempt).
   - Walking into the gates (1 attempt).
   - Scientist interaction post-basement (1 attempt).
   - ITEMFINDER use (1 attempt).
-  - Hidden pressure plate on floor (1 attempt, all tiles tested).
-- **Active Hypothesis:** The scientist at (18, 18) is the trigger. Interacting with him again after defeating him will open the gates. The game state confirms he is reachable, despite a previous tool failure.
-- **New Hypotheses (Post-Reflection):**
-  1. **Pattern Hypothesis:** The trigger requires stepping on specific tiles in a certain order.
-  2. **Hidden Item Hypothesis 2.0:** There is a hidden item the ITEMFINDER missed due to range limitations. I may need to use it on every tile.
+  - Hidden pressure plate on floor (1 attempt, all 23 walkable tiles tested).
+  - Re-interacting with Scientist after exploring (1 attempt).
+- **Active Hypothesis:** The trigger for the gates on 1F is located on another floor, likely B1F. The 'Reachable Barriers' notification may be a red herring or only refers to the gates' location, not their trigger's location.
