@@ -41,27 +41,20 @@
 *   **TM45 (ATTRACT):** Infatuates opposite-gender Pokémon.
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
-## III. Active Puzzles & Hypotheses
+## II. Current Objectives & Hypotheses
+
+### Primary Objective: Find Ecruteak City
+*   **Current Location:** Ruins of Alph Outside
+*   **Primary Hypothesis:** The path to Ecruteak City is connected to the Ruins of Alph.
+*   **Alternative Hypothesis:** The Ruins of Alph is a side area. The main path might be elsewhere, possibly an unexplored path on Route 36.
+*   **Plan:** Systematically explore all paths, warps, and unseen areas in Ruins of Alph Outside. If it's a dead end, return to Route 36 to search for other routes.
 
 ### Ruins of Alph Inner Chamber Puzzle
-*   **Goal:** Solve the puzzle to exit the chamber.
-*   **Clues:**
-    *   Scientist mentioned a strange radio signal is key.
-    *   Inscriptions on the wall spell 'LIGHT' and 'ESCAPE'.
-    *   Certain floor tiles act as push-down traps, not warps.
-*   **Primary Hypothesis (Testing Now):** Tune the Pokégear radio to a specific, strange frequency inside the chamber.
-*   **Alternative Hypothesis #1:** The solution involves interacting with the statues in a specific sequence (e.g., spelling out 'LIGHT' or 'ESCAPE' by touching the statues in order).
-*   **Alternative Hypothesis #2:** A specific item is required. Could be an item I already have or one I need to find.
-*   **Failed Attempts:**
-    *   Using FLASH.
-    *   Using DIG.
-    *   Randomly interacting with statues.
-    *   Walking on the push-down floor tiles.
+*   **Status:** Abandoned for now. I was stuck in a behavioral loop trying to access the Pokégear radio. Will return later with fresh eyes or new items/abilities.
 
 ### Team Rocket in Goldenrod
 *   **Goal:** Get past the Team Rocket grunt blocking the Radio Tower.
-*   **Primary Hypothesis:** Progress is tied to an event in the Goldenrod Underground.
-*   **Alternative Hypothesis:** The trigger is an NPC or event elsewhere in Goldenrod City. If the Underground is a confirmed dead end, I must systematically re-talk to every NPC in the city.
+*   **Status:** On hold. Progress is likely tied to a story event I haven't triggered yet. The Goldenrod Underground was a dead end.
 
 ## IV. Agent & Tool Development Ideas
 
