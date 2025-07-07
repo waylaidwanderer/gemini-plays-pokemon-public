@@ -55,4 +55,6 @@
 - **Test 1:** Pressed the switch at (19, 26). Now need to observe the gates.
 - **Hypothesis 2:** The item at (20, 26) is the Secret Key.
 - **Test 2:** Picked up the item at (20, 26). It was TM14 BLIZZARD, not the Secret Key. Hypothesis disproven.
-- **Progress:** Confirmed Switch 1 at (19, 26) opens the western gates (14, 23). Picked up TM14 BLIZZARD. Next step is to explore the area west of the now-open gates.
+- **Progress:** Confirmed Switch 1 at (19, 26) opens the western gates (14, 23). Picked up TM14 BLIZZARD and a Full Restore. Read the diary at (17, 21) - it was just lore about Mewtwo. The Secret Key remains unfound. New gates appeared at (17, 17) and (18, 17) after exploring the northern part of the western corridor.
+- **Hypothesis 4:** The Secret Key is located in the remaining unexplored southern section of the western corridor.
+- **Test 4:** Systematically explore the southern corridor.
