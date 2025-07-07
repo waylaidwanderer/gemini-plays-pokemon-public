@@ -14,7 +14,7 @@
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:**
     *   `FLOOR_UP_WALL`: One-way ledge. Enter from below/sides. Cannot exit by moving up.
-    *   `WARP_CARPET_DOWN`: One-way warp. Activated by walking onto the tile in the specified direction.
+    *   `WARP_CARPET_DOWN`: One-way warp. Activated by pressing 'Down' while standing on the tile.
 
 ### Untested Tile Types (High Priority)
 * `RAILING`: Located on the Goldenrod Dept. Store Roof.
