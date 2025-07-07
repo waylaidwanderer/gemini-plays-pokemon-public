@@ -38,3 +38,13 @@
 #### B4. Pokemon Evolution & Moves
 - **Marowak Evolution:** Confirmed that Marowak evolves from Cubone at Lv. 38.
 - **REVENANT (Marowak) learned THRASH** at Lv. 38, replacing TAIL WHIP.
+### Pokemon Mansion 1F - Gate Puzzle Plan
+**Observation:** The system confirms the gates at (21, 18) and (27, 28) are reachable, but no direct path is visible. The switch at (3, 6) is the only interactive element.
+**Hypothesis:** A specific sequence involving the switch is required to open all gates.
+**Test Plan:**
+1. Go to the switch at (3, 6) and interact with it to open the western gates at (17, 8).
+2. Walk through the western gates.
+3. **Expected Outcome:** The eastern gates at (25, 14) will open as a chain reaction.
+4. **Test:** Proceed through the eastern gates and explore the newly accessible southern area.
+5. **Expected Outcome:** Find a new trigger or item in the southern area that opens the final gates at (21, 18) and (27, 28).
+6. **Conclusion:** To be determined after testing.
