@@ -65,3 +65,6 @@
 
 ## V. To-Do & Testing
 *   **Agent Test:** Use `nickname_genius` after the next Pokémon capture to evaluate its performance.
+
+## V. Future Development Ideas
+*   **Navigation Master Agent:** Create a high-level agent that takes a destination (e.g., a city name) and uses the `pathfinder_v1` tool to plot the full course, including navigating between maps and through warps.
