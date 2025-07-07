@@ -26,15 +26,15 @@
 
 ## III. Puzzle & Hypothesis Log
 ### A. In-Progress Puzzles & Active Hypotheses
-#### A1. Pokemon Mansion Multi-Floor Puzzle
-- **Observation:** I am physically isolated in the western corridor of 1F. The game guarantees the eastern gates at (25, 14) are reachable barriers, but my `pathfinder` tool cannot find a path on this floor.
-- **Active Hypothesis:** The path to the eastern side of 1F *must* be on another floor. The `pathfinder` tool's repeated failure to find a path to the 'reachable' eastern gates proves there is no direct route on 1F. The system's 'Reachable Barriers' message is a high-level hint that a solution exists, not a guarantee of a path on the current map. The next logical step is to systematically explore 2F, 3F, and B1F for a warp or hole leading to the isolated eastern corridor of 1F.
+#### A1. Pokemon Mansion 2F Puzzle
+- **Observation:** The game has explicitly identified four 'Reachable Barriers' on 2F at (19, 9), (20, 9), (8, 23), and (8, 24). This new information strongly contradicts my previous assumption that the solution required navigating between floors.
+- **Active Hypothesis:** The switch at (3, 12) on 2F is the primary mechanism for this puzzle. Activating it will likely open one or more of the newly identified reachable barriers, creating a path forward. My immediate next action is to interact with this switch and observe its effect.
 
 ### B. Solved Puzzles & Confirmed Mechanics
 - **1F West Switch (Confirmed):** The switch at (3, 6) on 1F alternates between opening two sets of gates. First press opens the gates at (25, 14). A second press closes those and opens the gates at (17, 8). This switch does NOT solve the main puzzle of reaching the eastern corridor.
 - **B1F Dynamic Gates:** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
-### C. Deprecated Hypotheses (Pokemon Mansion 1F Puzzle)
+### C. Deprecated Hypotheses (Pokemon Mansion Puzzle)
+- **Multi-Floor Pathing Solution (Deprecated):** The path to the eastern side of 1F *must* be on another floor. The `pathfinder` tool's repeated failure to find a path to the 'reachable' eastern gates on 1F suggested there was no direct route. **Conclusion:** This hypothesis is now considered deprecated due to new game information explicitly identifying reachable barriers on 2F, suggesting a solution exists on the current floor.
 - **Direct Path from West to East on 1F:** This was my initial assumption, but my `pathfinder` tool, even after being fixed, could not find a path. This confirms the solution is not a simple walk.
-- **Alternating Switch Solution:** Repeatedly flipping the switch at (3, 6) only toggles between two states and does not grant access to the sealed eastern room. (Failed after 10+ attempts).
-- **Multi-floor Solution (Direct Trigger):** The trigger for the 1F sealed room is located on 2F or 3F and directly affects the 1F gates. (This is a secondary hypothesis to return to if the systematic search fails).
+- **Alternating Switch Solution (1F):** Repeatedly flipping the switch at (3, 6) on 1F only toggles between two states and does not grant access to the sealed eastern room. (Failed after 10+ attempts).
