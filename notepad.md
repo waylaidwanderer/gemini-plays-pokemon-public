@@ -50,12 +50,8 @@
 
 ### B. In-Progress Puzzles & Active Hypotheses
 #### B1. Pokemon Mansion B1F
-- **Observations:**
-  - This floor is a maze with a central impassable structure.
-  - There are three sets of gates: western (14, 23/24), northern (17, 17/18), and eastern (27, 18/28).
-  - Items found: TM14 BLIZZARD at (20, 26), Full Restore at (2, 23).
-  - Diary at (17, 21) contains only lore about Mewtwo.
-- **Test Conclusion:** The switch at (19, 26) is a two-state toggle for the gates, alternating between a 'West Open' state and a 'North Open' state. It does not control the eastern gates.
-- **Untested Assumptions & Future Tests:**
-  - **Assumption 1:** A third press of the switch will open the eastern gates (27, 18).
-  - **Assumption 2:** The Secret Key is on B1F. Test: If the floor is fully explored and no key is found, I must re-explore other floors.
+- **OVERWATCH CORRECTIVE (T54333):** My previous conclusion that B1F was a dead end was incorrect and based on confirmation bias. The system has confirmed there are FOUR reachable barriers. The solution MUST be on this floor.
+- **Observations:** This floor is a maze. There are four sets of closed gates that are confirmed to be reachable: western (14, 23/24), northern (17, 17/18), and two eastern sets (27, 18) & (28, 18). The only interactive object found is a switch at (19, 26).
+- **Test Conclusion (T54226):** The switch at (19, 26) is a two-state toggle. It ONLY controls the western and northern gates, opening one set while closing the other. It does NOT affect the eastern gates.
+- **Current Hypothesis:** Since the eastern gates are confirmed reachable but are not affected by the known switch, there MUST be another hidden switch or trigger mechanism on B1F that I have not yet discovered. The Secret Key is likely behind these eastern gates.
+- **Test Plan:** Systematically re-explore every tile on the current floor, especially near walls and corners, to find the hidden trigger for the eastern gates. The previous plan to leave the floor was incorrect and is abandoned.
