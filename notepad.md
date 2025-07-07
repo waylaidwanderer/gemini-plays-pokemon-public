@@ -64,3 +64,7 @@
 
 ### Radio Tower Side Quests
 *   **Buena's Password Show:** Received a BLUE CARD from Buena on the 2nd floor. I can earn points by giving her passwords from the radio and trade them for prizes.
+
+## V. To-Do & Testing
+*   **Agent Test:** Use `nickname_genius` after the next Pokémon capture to evaluate its performance.
+*   **Tile Test:** Test the `TALL_GRASS` tile on Route 36.
