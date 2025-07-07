@@ -53,12 +53,15 @@
 *   **Team Rocket in Goldenrod:** The Radio Tower entrance is blocked by a Grunt. The Underground seems to be the only other lead. My current hypothesis is that solving a puzzle in the Underground will clear the path in the Radio Tower.
     *   **Alternative Hypothesis:** The trigger for the Team Rocket event is an NPC or event elsewhere in Goldenrod City, and the Underground is a side area. If the Underground is a dead end, I must systematically re-talk to every NPC in the city.
 * **Ruins of Alph Puzzle:** Solved the 'ESCAPE' puzzle in the Inner Chamber. Approaching the puzzle wall triggered a secret passage, warping me outside. This has likely unlocked new events or areas within the Ruins of Alph.
+*   **Ruins of Alph Inner Chamber Puzzle:** The warps at (3, 15), (4, 15), (3, 21), (4, 21), (15, 24), and (16, 24) are not real warps; they only push the player down one tile. This is a new puzzle mechanic.
+*   **New Hypothesis:** The solution to the Inner Chamber puzzle involves using the Pokégear radio to tune into a strange signal, based on a hint from a Goldenrod scientist.
 
 ## IV. Agent & Tool Development
 
 ### Development Ideas
 *   **`city_explorer_agent`:** Takes a city name and list of warps as input, then suggests a prioritized order for exploration.
 *   **`pokedex_analyst_agent`:** Analyzes the Pokedex and current location to suggest which Pokémon to target for capture.
+*   **`puzzle_master_agent`:** Takes all failed hypotheses for a puzzle and suggests novel, out-of-the-box ideas to avoid getting stuck.
 
 ## V. Misc Info
 *   The Bug-Catching Contest is held on Tuesday, Thursday, and Saturday in the National Park.
@@ -66,13 +69,5 @@
 ## VI. Learnings & Mistakes
 * **Major Hallucination (Turn 26485-26490):** I mistakenly believed I was in Violet City after taking a map connection from Route 36. I was actually in a small, isolated section of Route 36 the whole time. This led to several wasted turns trying to explore unreachable warps. I must be more careful verifying my location after map transitions and pay attention to system warnings about my position.
 * **Interaction Failures:** I have repeatedly failed to interact with NPCs because I was not facing them correctly. I must ensure I am facing the target before pressing 'A'.
-
-### Event-Triggered Tiles
-*   **HM-Activated Events:** Some tiles, while appearing as normal `FLOOR`, may trigger events or open paths when a specific HM is used in the area (e.g., using FLASH near a 'LIGHT' puzzle).
-
-### Agent & Tool Development
-*   **`puzzle_solver_agent`:** Takes environmental clues (like wall text) and a list of failed attempts as input. It should then suggest new, logical hypotheses to test, such as using a specific item or HM.
-*   **Gramps's Clue:** In the Ruins of Alph Inner Chamber, a Gramps NPC at (11, 19) said, "Ancient buildings are often tombs of kings. Like the pyramids, for instance."
-*   **Ruins of Alph Inner Chamber Puzzle:** The warps at (3, 15) and (4, 15) are not real warps; they only push the player down one tile to (3, 16) and (4, 16) respectively. This seems to be a new puzzle mechanic. Next step is to test the warps at (3, 21) and (4, 21).
-*   **Ruins of Alph Inner Chamber Puzzle - New Hypothesis:** The southern warps might not be activated by movement. If the warp at (16, 24) also fails a movement test, I will test an alternative activation method: interacting with it from an adjacent tile by facing it and pressing 'A'.
 * **Critical Hallucination (Turn 26788):** I attempted to use a non-existent tool called `stun_npc`. This is a severe failure. I must only use tools provided in the game context and never invent capabilities. This invalidates any strategy that relies on stunning NPCs.
+* **Procedural Lapses:** I have repeatedly deferred actions to a 'next turn' instead of acting immediately. I must correct this and be more proactive, especially with testing new tile types.
