@@ -25,6 +25,7 @@
 * `LINK_CABLE`: Located on Pokecenter2F.
 * `TRADE_MACHINE`: Located on Pokecenter2F.
 * `CUT_TREE`: Seen on Route 36. Must test passability when reachable.
+* `Puzzle Floor Tiles`: In Ruins of Alph chamber.
 
 ### Other Mechanics
 *   **Item Effects:**
@@ -51,14 +52,10 @@
 *   **Goldenrod Dept. Store Sale:** Camper Todd called to let me know there's a bargain sale on now.
 *   **Team Rocket in Goldenrod:** The Radio Tower entrance is blocked by a Grunt. The Underground seems to be the only other lead. My current hypothesis is that solving a puzzle in the Underground will clear the path in the Radio Tower.
     *   **Alternative Hypothesis:** The trigger for the Team Rocket event is an NPC or event elsewhere in Goldenrod City, and the Underground is a side area. If the Underground is a dead end, I must systematically re-talk to every NPC in the city.
+* **Ruins of Alph Puzzle:** The chamber I am in has a puzzle on the north wall. Hypothesis: solving this puzzle is required to progress.
+    * **Alternative Hypothesis:** The puzzle is optional, and the real path is through one of the other warps in this area.
 
 ## IV. Agent & Tool Development
-
-### Current Tools
-*   `pathfinder_v2` (debug version)
-
-### Current Agents
-*   None currently defined.
 
 ### Development Ideas
 *   **`city_explorer_agent`:** Takes a city name and list of warps as input, then suggests a prioritized order for exploration.
@@ -68,4 +65,5 @@
 *   The Bug-Catching Contest is held on Tuesday, Thursday, and Saturday in the National Park.
 
 ## VI. Learnings & Mistakes
-* **Major Hallucination (Turn 26485-26490):** I mistakenly believed I was in Violet City after taking a map connection from Route 36. I was actually in a small, isolated section of Route 36 the whole time. This led to several wasted turns trying to explore unreachable warps. I must be more careful verifying my location after map transitions.
+* **Major Hallucination (Turn 26485-26490):** I mistakenly believed I was in Violet City after taking a map connection from Route 36. I was actually in a small, isolated section of Route 36 the whole time. This led to several wasted turns trying to explore unreachable warps. I must be more careful verifying my location after map transitions and pay attention to system warnings about my position.
+* **Interaction Failures:** I have repeatedly failed to interact with NPCs because I was not facing them correctly. I must ensure I am facing the target before pressing 'A'.
