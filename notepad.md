@@ -18,29 +18,23 @@
     *   `WARP_CARPET_LEFT/DOWN/RIGHT`: Activated by pressing the indicated direction while standing on the tile.
 
 ### Untested Tile Types (High Priority)
-* `RAILING`: Located on the Goldenrod Dept. Store Roof.
-* `PIPE_HORIZONTAL`
-* `PIPE_VERTICAL`
-* `LINK_CABLE`: Located on Pokecenter2F.
-* `TRADE_MACHINE`: Located on Pokecenter2F.
-* `CUT_TREE`: Seen on Route 36. Must test passability when reachable.
-* `Puzzle Floor Tiles`: In Ruins of Alph chamber.
-* `PC`: In Ruins of Alph Research Center.
+* `RAILING`: Goldenrod Dept. Store Roof.
+* `PIPE_HORIZONTAL`/`PIPE_VERTICAL`: Underground.
+* `LINK_CABLE`/`TRADE_MACHINE`: Pokecenter 2F.
+* `CUT_TREE`: Route 36.
+* `Puzzle Floor Tiles`: Ruins of Alph chamber.
+* `PC`: Ruins of Alph Research Center.
 
 ### Other Mechanics
 *   **Item Effects:**
     *   **BERRY:** Restores 10 HP. Found at `FRUIT_TREE`s.
     *   **EVERSTONE:** Prevents evolution.
     *   **MOOMOO MILK:** Restores 100 HP.
-*   **SLOWPOKETAIL:** Offered for sale on Route 32. Purpose unknown.
-*   **Vending Machine Drinks:** Can refresh tired POKéMON.
-*   **Hidden Items:** Must be interacted with from an adjacent tile.
 *   **Haircuts:** Increases a Pokémon's happiness.
-*   **Pokégear UI:** The Phone function has a modal sub-menu that disables directional buttons. Must press 'B' to exit.
 
 ## II. Key Items & TMs
 *   **COIN CASE:** Allows playing at the Game Corner.
-*   **HM01 (CUT):** Clears small trees. Requires the Hive Badge.
+*   **HM01 (CUT):** Clears small trees. Requires Hive Badge.
 *   **SQUIRTBOTTLE:** Used to clear the Sudowoodo on Route 36.
 *   **TM08 (ROCK SMASH):** Attack that may lower DEFENSE. Can shatter small rocks.
 *   **TM28 (DIG):** Powerful GROUND move. Can escape caves.
@@ -48,26 +42,37 @@
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
 ## III. Active Puzzles & Hypotheses
-*   **Radio Tower Side Quests:** Received a BLUE CARD from Buena on the 2nd floor. I can earn points by giving her passwords from the radio and trade them for prizes.
-*   **Goldenrod Dept. Store Sale:** Camper Todd called to let me know there's a bargain sale on now.
-*   **Team Rocket in Goldenrod:** The Radio Tower entrance is blocked by a Grunt. The Underground seems to be the only other lead. My current hypothesis is that solving a puzzle in the Underground will clear the path in the Radio Tower.
-    *   **Alternative Hypothesis:** The trigger for the Team Rocket event is an NPC or event elsewhere in Goldenrod City, and the Underground is a side area. If the Underground is a dead end, I must systematically re-talk to every NPC in the city.
-* **Ruins of Alph Puzzle:** Solved the 'ESCAPE' puzzle in the Inner Chamber. Approaching the puzzle wall triggered a secret passage, warping me outside. This has likely unlocked new events or areas within the Ruins of Alph.
-*   **Ruins of Alph Inner Chamber Puzzle:** The warps at (3, 15), (4, 15), (3, 21), (4, 21), (15, 24), and (16, 24) are not real warps; they only push the player down one tile. This is a new puzzle mechanic.
-*   **New Hypothesis:** The solution to the Inner Chamber puzzle involves using the Pokégear radio to tune into a strange signal, based on a hint from a Goldenrod scientist.
 
-## IV. Agent & Tool Development
+### Ruins of Alph Inner Chamber Puzzle
+*   **Goal:** Solve the puzzle to exit the chamber.
+*   **Clues:**
+    *   Scientist mentioned a strange radio signal is key.
+    *   Inscriptions on the wall spell 'LIGHT' and 'ESCAPE'.
+    *   Certain floor tiles act as push-down traps, not warps.
+*   **Primary Hypothesis (Testing Now):** Tune the Pokégear radio to a specific, strange frequency inside the chamber.
+*   **Alternative Hypothesis #1:** The solution involves interacting with the statues in a specific sequence (e.g., spelling out 'LIGHT' or 'ESCAPE' by touching the statues in order).
+*   **Alternative Hypothesis #2:** A specific item is required. Could be an item I already have or one I need to find.
+*   **Failed Attempts:**
+    *   Using FLASH.
+    *   Using DIG.
+    *   Randomly interacting with statues.
+    *   Walking on the push-down floor tiles.
 
-### Development Ideas
-*   **`city_explorer_agent`:** Takes a city name and list of warps as input, then suggests a prioritized order for exploration.
-*   **`pokedex_analyst_agent`:** Analyzes the Pokedex and current location to suggest which Pokémon to target for capture.
-*   **`puzzle_master_agent`:** Takes all failed hypotheses for a puzzle and suggests novel, out-of-the-box ideas to avoid getting stuck.
+### Team Rocket in Goldenrod
+*   **Goal:** Get past the Team Rocket grunt blocking the Radio Tower.
+*   **Primary Hypothesis:** Progress is tied to an event in the Goldenrod Underground.
+*   **Alternative Hypothesis:** The trigger is an NPC or event elsewhere in Goldenrod City. If the Underground is a confirmed dead end, I must systematically re-talk to every NPC in the city.
 
-## V. Misc Info
-*   The Bug-Catching Contest is held on Tuesday, Thursday, and Saturday in the National Park.
+## IV. Agent & Tool Development Ideas
+*   **`puzzle_master_agent`:** Takes a puzzle's goal, clues, and a list of failed attempts to generate new, ranked hypotheses to test.
+
+## V. Misc Info & Reminders
+*   **Bug-Catching Contest:** Tuesday, Thursday, Saturday in National Park.
+*   **Goldenrod Dept. Store Sale:** Camper Todd will call about sales.
+*   **Radio Tower Side Quest:** Buena's BLUE CARD password show.
+*   **SLOWPOKETAIL:** For sale on Route 32. Purpose unknown.
 
 ## VI. Learnings & Mistakes
-* **Major Hallucination (Turn 26485-26490):** I mistakenly believed I was in Violet City after taking a map connection from Route 36. I was actually in a small, isolated section of Route 36 the whole time. This led to several wasted turns trying to explore unreachable warps. I must be more careful verifying my location after map transitions and pay attention to system warnings about my position.
-* **Interaction Failures:** I have repeatedly failed to interact with NPCs because I was not facing them correctly. I must ensure I am facing the target before pressing 'A'.
-* **Critical Hallucination (Turn 26788):** I attempted to use a non-existent tool called `stun_npc`. This is a severe failure. I must only use tools provided in the game context and never invent capabilities. This invalidates any strategy that relies on stunning NPCs.
-* **Procedural Lapses:** I have repeatedly deferred actions to a 'next turn' instead of acting immediately. I must correct this and be more proactive, especially with testing new tile types.
+*   **Major Hallucination (Turn 26485-26490):** Misidentified my location on Route 36, thinking I was in Violet City. I must verify my location after every map transition.
+*   **Critical Hallucination (Turn 26788):** Attempted to use a non-existent tool (`stun_npc`). I must only use tools provided in the game context.
+*   **Procedural Lapses:** I have repeatedly deferred actions instead of acting immediately. This must be corrected. I will act on new information and documentation needs in the same turn they arise.
