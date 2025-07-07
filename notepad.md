@@ -67,3 +67,4 @@
 - Systematic Search Log (B1F Central):
   - Tested Tiles: (22, 18), (22, 17), (22, 16), (22, 15), (22, 14), (22, 13)
 - Conclusion: The systematic search for a hidden pressure plate is likely incorrect. New information confirms all gate sets are 'Reachable Barriers', suggesting a navigation puzzle using the single known switch, not a hidden trigger.
+- Conclusion: The systematic search for a hidden pressure plate is likely incorrect. New information confirms all gate sets are 'Reachable Barriers', suggesting a navigation puzzle using the single known switch, not a hidden trigger.
