@@ -23,6 +23,7 @@
 * `WATER`: Needs testing.
 * `LINK_CABLE`: Needs testing. Located on Pokecenter2F.
 * `TRADE_MACHINE`: Needs testing. Located on Pokecenter2F.
+* `LADDER`: Needs testing. Located in this basement but unreachable.
 
 ### Other Mechanics
 *   **Item Effects:**
