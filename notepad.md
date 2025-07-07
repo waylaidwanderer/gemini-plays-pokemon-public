@@ -58,3 +58,6 @@
 * Investigate unmarked warp at Goldenrod City (31, 21).
 ### Radio Tower
 *   **Fact:** A Black Belt on the 2nd floor is blocking the stairs to 3F. He says only 'authorized personnel' can pass because 'something is wrong with the DIRECTOR'.
+
+## V. Exploration Tasks
+* Investigate unmarked warp at Goldenrod City (31, 21).
