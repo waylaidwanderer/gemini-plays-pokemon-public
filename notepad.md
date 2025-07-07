@@ -25,25 +25,10 @@
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center. You respawn in front of the trainer you lost to.
 
 ## III. Puzzle & Hypothesis Log
-### A. In-Progress Puzzles & Active Hypotheses
-#### A1. Pokemon Mansion 2F Alternating Switch (Solved)
-- **Observation:** A switch at (3, 12) and a Super Nerd's clue about 'alternating sets of doors' pointed to the puzzle's solution.
-- **Hypothesis:** The switch at (3, 12) alternates between opening two sets of gates.
-- **Test 1:** Pressed the switch. Result: Gates at (10, 5) and (10, 6) opened.
-- **Test 2:** Pressed the switch again. Result: Gates at (10, 5)/(10, 6) closed, and gates at (19, 9), (20, 9), (8, 23), and (8, 24) opened.
-- **Conclusion:** Hypothesis confirmed. The switch toggles between a northern set of gates and a southern/eastern set.
+### A. Solved Puzzles & Confirmed Mechanics
+- **Pokemon Mansion 1F Alternating Switch (Solved):** The switch at (3, 6) on 1F is an alternating switch. The first press opens the eastern gates at (25, 14) and (26, 14). A second press closes those and opens the western gates at (17, 8) and (18, 8). Passing through the western gates seems to trigger the eastern gates to open automatically, allowing a path through the entire section.
+- **Pokemon Mansion 2F Alternating Switch (Solved):** The switch at (3, 12) alternates between opening two sets of gates. First press opens the gates at (10, 5) and (10, 6). A second press closes those and opens the gates at (19, 9), (20, 9), (8, 23), and (8, 24).
+- **B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
-### B. Solved Puzzles & Confirmed Mechanics
-- **1F West Switch (Confirmed):** The switch at (3, 6) on 1F alternates between opening two sets of gates. First press opens the gates at (25, 14). A second press closes those and opens the gates at (17, 8). This switch does NOT solve the main puzzle of reaching the eastern corridor.
-- **B1F Dynamic Gates:** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
-
-### C. Deprecated Hypotheses (Pokemon Mansion Puzzle)
-- **Multi-Floor Pathing Solution (Deprecated):** My initial hypothesis was that the path to the eastern side of 1F must be on another floor, as my `pathfinder` tool repeatedly failed to find a path. **Conclusion:** This is now deprecated. An unexpected warp from 2F back to 1F, combined with a system notification about 'Reachable Barriers' on 1F, confirms the solution is on this floor and involves the switch at (3, 6).
-- **Direct Path from West to East on 1F:** This was my initial assumption, but my `pathfinder` tool, even after being fixed, could not find a path. This confirms the solution is not a simple walk.
-- **Alternating Switch Solution (1F):** Repeatedly flipping the switch at (3, 6) on 1F only toggles between two states and does not grant access to the sealed eastern room. (Failed after 10+ attempts).
-#### A2. Pokemon Mansion 1F Alternating Switch
-- **Observation:** After being unexpectedly warped from 2F to 1F, the system notified me of 'Reachable Barriers' on 1F, specifically the gates at (17, 8), (18, 8), (25, 14), and (26, 14). This invalidates the hypothesis that the solution required multi-floor pathing.
-- **Hypothesis:** The switch at (3, 6) on 1F is an alternating switch that controls both sets of gates.
-- **Test 1:** Pressed the switch. Result: Gates at (25, 14) and (26, 14) opened. The gates at (17, 8) and (18, 8) remained closed. This partially confirms the hypothesis.
-- **Test 2:** Pressed the switch a second time. Result: Gates at (25, 14)/(26, 14) closed, and gates at (17, 8)/(18, 8) opened.
-- **Conclusion:** Hypothesis confirmed. The switch is an alternating switch. The first press opens the eastern gates, and the second press opens the western gates.
+### B. Deprecated Hypotheses
+- **Multi-Floor Pathing Solution (Deprecated):** My initial hypothesis was that the path to the eastern side of 1F must be on another floor. **Conclusion:** This was invalidated by a system notification about 'Reachable Barriers' on 1F, confirming the solution is on the same floor.
