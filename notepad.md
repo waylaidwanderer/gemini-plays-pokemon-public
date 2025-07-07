@@ -54,3 +54,4 @@
 ## IV. Agent & Tool Development
 *   **ui_navigator Agent:** Created to help navigate complex menus. Needs to be tested.
 *   **nickname_genius Agent:** Must be tested at the next opportunity (catching a new Pokémon).
+*   **Goldenrod Dept. Store Basement:** This area is divided into multiple, unconnected sections. The ladder at (17, 2) and several items are unreachable from the initial entry point. The area appears to be a one-way loop accessed from the elevator.
