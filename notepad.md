@@ -58,3 +58,7 @@
 
 ### Agent Testing
 *   **`nickname_genius`:** Untested. Use at next opportunity (catching a new Pokémon).
+
+### Goldenrod Gym Puzzle
+*   **Layout:** The gym appears to be a maze of raised platforms and walkways. The path is not straightforward.
+*   **Attempt 1:** Navigated from entrance (2, 17) up to (1, 12), then to (0, 8), then to (0, 4) where I battled Beauty Victoria. Continued to (2, 1). Whitney is visible at (8, 3), but the direct path is blocked. The puzzle seems to involve finding the correct route through the maze.
