@@ -54,3 +54,4 @@
 *   **Development Idea:** Create a `puzzle_solver_agent` to help when stuck by analyzing map, inventory, and goals to suggest novel hypotheses.
 ### Misc Info
 *   The Bug-Catching Contest is held on Tuesday, Thursday, and Saturday in the National Park.
+*   **Development Idea:** Create a `city_explorer_agent` that takes a city name and list of warps as input, then suggests a prioritized order for exploration.
