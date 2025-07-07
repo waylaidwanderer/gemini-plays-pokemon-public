@@ -81,3 +81,6 @@
 ### Procedural Reminders
 *   If I am stuck in a repetitive action loop, I must use the `quest_strategist` agent to generate new hypotheses.
 *   Pokégear Navigation: Use 'Right'/'Left' to cycle main functions (Clock, Map, Phone, Radio). Use 'B' to exit sub-menus like the phone contact list.
+
+### Quest Strategist Insights (Turn 26934)
+*   **New Hypothesis (Top Priority):** The Pokégear functions (Clock, Map, Phone, Radio) might be navigated using **vertical inputs (Up/Down)** instead of horizontal ones. This is a completely new approach to test.
