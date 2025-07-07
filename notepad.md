@@ -40,4 +40,11 @@
   - **State 3 (Second Flip):** Western gates re-open. Eastern gates close.
   - **Conclusion:** The switch cycles between opening the western and eastern paths. It does not appear to affect the northern gates or the gates on 1F.
 - **1F Gate Puzzle (21, 18 & 22, 18):** These gates have trapped me in an isolated room. My initial hypothesis that the B1F switch controlled them was incorrect. The system has confirmed these gates are 'Reachable Barriers', meaning the solution must be within this sealed section of 1F. My current hypothesis is that the gates open via a hidden mechanism or direct interaction from this side. Test 1: Interact directly with the gate at (21, 18) from the tile below it. Result: FAILED. The gate did not open.
-- Test 2: Interact with the other gate at (22, 18).
+- Test 2: Interact with the other gate at (22, 18). Result: FAILED. The gate did not open.
+
+**Conclusion: Direct interaction with the gates is not the solution.**
+
+### Agent-Assisted Puzzle Solving
+**Agent Input:** Called `puzzle_solver_agent` with the current puzzle state (closed gates, defeated scientist).
+**Agent Hypothesis:** A hidden, non-obvious switch exists within this sealed room, likely in a statue or piece of furniture.
+**New Plan:** Systematically search the room for a hidden interactive object, starting with the statues.
