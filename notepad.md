@@ -31,7 +31,7 @@
 - **Active Hypothesis:** By exploring 2F and potentially 3F, I can find a warp, ladder, or hole that leads to the sealed eastern section of 1F.
 
 ### B. Solved Puzzles & Confirmed Mechanics
-- **1F West Switch:** The switch at (3, 6) on 1F cycles between opening the gates at (17, 8) and (25, 14). It does not directly open the sealed room.
+- **1F West Switch (Confirmed):** The switch at (3, 6) on 1F alternates between opening two sets of gates. First press opens the gates at (25, 14). A second press closes those and opens the gates at (17, 8). This is the key to navigating the western half of 1F.
 - **B1F Dynamic Gates:** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
 ### C. Deprecated Hypotheses (Pokemon Mansion 1F Puzzle)
