@@ -56,9 +56,8 @@
 *   **Test Plan:** 1. Thoroughly explore Route 35 and the entrance to Route 36. 2. If the sister is not found, I will pivot my focus to the Radio Tower before returning to this quest.
 
 ## IV. Agent & Tool Development
-*   **`path_master_v27`:** DELETED. This tool was consistently failing to find valid paths.
+*   **Tool Bug Fix:** Identified and fixed a critical bug in `path_master_v29` and `maze_explorer_v7`. The old versions incorrectly treated 'unseen' tiles as impassable, preventing all pathfinding through unexplored areas. The new versions correctly handle these tiles, restoring navigation capabilities.
 *   **`maze_solver_v1` Limitation:** The tool can only see objects currently on screen. For it to navigate around off-screen obstacles (like NPCs), I MUST manually provide their coordinates using the `extra_impassable_coordinates` parameter. This is a user responsibility, not a code bug.
 *   **`nickname_genius` Testing:** Must use this agent the next time a Pokémon is caught to evaluate its performance.
 *   **`quest_strategist`:** This agent should be used for getting unstuck on complex puzzles.
 *   **`ui_navigator`:** Has been refined to understand the 'B' button is for backing out of sub-menus.
-*   **TM04:** Found on Route 35. Effect unknown.
