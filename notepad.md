@@ -27,7 +27,7 @@
 ## III. Puzzle & Hypothesis Log
 ### A. Solved Puzzles & Confirmed Mechanics
 - **Pokemon Mansion 1F Alternating Switch (Solved):** The switch at (3, 6) is an alternating switch. Pressing it toggles between opening the eastern gates (25, 14) and the western gates (17, 8). The final solution requires opening the western gates, passing through them, which then automatically triggers the eastern gates to open, granting access to the southern area of the mansion.
-- **Pokemon Mansion 2F Alternating Switch (Solved):** The switch at (3, 12) alternates between opening two sets of gates. The first press opens the gates at (10, 5) and (10, 6). The second press closes those gates and opens a new set at (19, 9), (20, 9), (8, 23), and (8, 24). The second press closes those gates and opens a new set at (19, 9), (20, 9), (8, 23), and (8, 24).
+- **Pokemon Mansion 2F Alternating Switch (Solved):** The switch at (3, 12) alternates between opening two sets of gates. The first press opens the gates at (10, 5) and (10, 6). The second press closes those gates and opens a new set at (19, 9), (20, 9), (8, 23), and (8, 24).
 - **B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
 ### B. Deprecated Hypotheses
