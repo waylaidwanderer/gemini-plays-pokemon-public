@@ -33,5 +33,6 @@
   - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
 
 ### B. In-Progress Puzzles & Active Hypotheses
-#### B1. Pokemon Mansion B1F
-- **Current Hypothesis (T54630):** The B1F puzzle is a large loop with three sets of gates (western, northern, eastern) controlled by a single switch at (19, 26). The puzzle operates on a two-step 'prime and trigger' mechanic. **Step 1:** Flipping the switch 'primes' one set of gates (e.g., western). **Step 2:** Walking to that specific set of gates triggers them to open. This was confirmed to work for the northern gates (T54600) and the western gates (T54630). The Secret Key must be located in the final section accessible after navigating this loop correctly.
+#### B1. Pokemon Mansion Puzzles
+- **Current Situation (T54770):** I am currently trapped in an isolated room on 1F at (21, 19). The gates at (21, 18) and (22, 18) are closed, blocking the exit. I have confirmed there is no switch within this room.
+- **Active Hypothesis:** The switch that controls the 1F gates at (21, 18) and (22, 18) is located elsewhere, most likely in the basement (B1F). The B1F switch at (19, 26) previously demonstrated a 'prime and trigger' mechanic for gates on its own floor. It may also control the gates on 1F. I must return to B1F via the warp at (22, 24) to test this.
