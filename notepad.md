@@ -50,3 +50,14 @@
 ## IV. Agent & Tool Development
 *   **`maze_solver_v1` Limitation:** The tool can only see objects currently on screen. For it to navigate around off-screen obstacles (like NPCs), I MUST manually provide their coordinates using the `extra_impassable_coordinates` parameter. This is a user responsibility, not a code bug.
 *   **`nickname_genius`:** Untested. I must use this agent the next time I catch a Pokémon.
+
+## V. Reflection & Future Development
+
+### Agent & Tool Ideas
+*   **`escape_artist` Agent Idea:** Create an agent that analyzes the current map and suggests potential exits or paths forward when I'm feeling stuck in a town or route. It could prioritize unseen tiles or transitions to other maps.
+
+### Active Hypotheses (Post-Reflection)
+*   **Sudowoodo Solution:**
+    *   **Primary Hypothesis:** A `SQUIRTBOTTLE` is required, as stated by the Pokefan F in the Route 35 Gatehouse.
+    *   **Alternative Hypothesis:** The tree can be cleared by other means, such as a Pokémon move (e.g., Headbutt) or by progressing a different quest line (e.g., the Radio Tower issue).
+    *   **Test Plan:** 1. Find the `SQUIRTBOTTLE` and attempt to use it. 2. If that fails or I cannot find it, I will return to the tree and try using Headbutt. 3. If both fail, I will prioritize the Radio Tower quest before returning to the tree.
