@@ -14,6 +14,8 @@
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:**
     *   `FLOOR_UP_WALL`: One-way ledge. Enter from below/sides. Cannot exit by moving up.
+    *   `WARP_CARPET_LEFT`: Activated by pressing 'Left' while standing on the tile.
+    *   `WARP_CARPET_DOWN`: Activated by pressing 'Down' while standing on the tile.
 
 ### Untested Tile Types (High Priority)
 * `RAILING`: Located on the Goldenrod Dept. Store Roof.
@@ -22,8 +24,6 @@
 * `WATER`
 * `LINK_CABLE`: Located on Pokecenter2F.
 * `TRADE_MACHINE`: Located on Pokecenter2F.
-* `WARP_CARPET_LEFT`: Located in the Route 36 National Park Gate. Activation confirmed: Pressing 'Left' while standing on the tile triggers the warp.
-* `WARP_CARPET_DOWN`: Activation method needs re-verification. Hypothesis: Activated by pressing 'Down' while standing on it, similar to WARP_CARPET_LEFT.
 
 ### Other Mechanics
 *   **Item Effects:**
@@ -39,6 +39,7 @@
 ## II. Key Items & TMs
 *   **COIN CASE:** Allows playing at the Game Corner. Found in the Goldenrod Underground.
 *   **HM01 (CUT):** Clears small trees. Requires the Hive Badge.
+*   **SQUIRTBOTTLE:** A bottle for watering Pokémon. Needed for the strange tree on Route 36.
 *   **TM45 (ATTRACT):** Makes full use of a POKéMON's charm.
 *   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
 
@@ -50,12 +51,8 @@
 *   **Confirmed Failure 2:** Navigating the Pokégear by pressing 'Right' repeatedly fails due to the 'Whom do you want to call?' sub-menu on the Phone tab, which blocks further navigation. Exiting with 'B' is necessary but has led to a failure loop.
 *   **Confirmed Failure 3:** The Pokégear menu does not wrap around. Pressing 'Left' from the Clock tab has no effect.
 
-### Goldenrod SQUIRTBOTTLE Quest (SOLVED)
-*   **Confirmed:** I met Floria, the flower shop lady's sister, on Route 36. She confirmed the wiggly tree is a Pokémon and that it needs to be watered. She left to get a water bottle from her sister.
-*   **Plan:** Return to the Goldenrod Flower Shop to receive the SQUIRTBOTTLE from the Teacher.
-
 ## IV. Agent & Tool Development
-*   **`pathfinder_v1`:** My standard, consolidated pathfinding tool. It can find paths to specific coordinates and explore unseen areas. Replaced and deleted `path_master_v24` and `maze_explorer_v8`.
+*   **`pathfinder_v1`:** My standard, consolidated pathfinding tool. Replaced and deleted `path_master_v24` and `maze_explorer_v8`.
 *   **`nickname_genius` Testing:** Must use this agent the next time a Pokémon is caught to evaluate its performance.
 *   **`quest_strategist`:** This agent should be used for getting unstuck on complex puzzles.
 *   **`ui_navigator`:** Has been refined to understand the 'B' button is for backing out of sub-menus.
@@ -66,5 +63,5 @@
 ## V. To-Do & Testing
 *   **Agent Test:** Use `nickname_genius` after the next Pokémon capture to evaluate its performance.
 
-## V. Future Development Ideas
+## VI. Future Development Ideas
 *   **Navigation Master Agent:** Create a high-level agent that takes a destination (e.g., a city name) and uses the `pathfinder_v1` tool to plot the full course, including navigating between maps and through warps.
