@@ -54,9 +54,7 @@
     *   **Test:** Battle wild Pokémon in the grass on Route 34.
 
 ### Untested Assumptions
-*   **Assumption:** The building at (31, 21) in Goldenrod is the Gym.
-    *   **Alternative Hypothesis:** It's a regular building. The Gym is elsewhere.
-    *   **Test to Disprove:** Explore the building. If it's not the gym, systematically re-explore Goldenrod City.
+*   **Correction (Failed Hypothesis):** The building at (31, 21) is the Happiness Rater's house, not the Gym. The Gym's location is currently unknown. New plan is to explore the city.
 
 ### Agent Testing
 *   **`nickname_genius`:** Untested. Use at next opportunity (catching a new Pokémon).
