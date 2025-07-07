@@ -10,7 +10,6 @@
 - **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
 - **Hole Tiles:** Warp tiles that lead to a lower map area. Often function as one-way drops.
 - **Gates (`closed_gate`/`open_gate`):** The state of these can be toggled by switches or other triggers.
-- **Alternating Doors:** A puzzle mechanic where gates open and close based on player movement or switch activation in a specific sequence.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -29,15 +28,16 @@
 ### A. In-Progress Puzzles & Active Hypotheses
 #### A1. Pokemon Mansion 1F - Sealed Room Puzzle
 - **Observation:** Trapped in a sealed room on 1F. Gates at (21, 18) and (22, 18) are closed. System confirmed these are 'Reachable Barriers'.
-- **Active Hypothesis:** The trigger for the 1F gates is located on another floor, likely B1F. The 'Reachable Barriers' notification may refer only to the gates' location, not their trigger's location.
+- **Active Hypothesis:** The trigger for the 1F gates is located somewhere on 1F. The multi-floor approach has failed repeatedly and is now considered deprecated.
+
+#### A2. Pokemon Mansion - Multi-Floor Gate System
+- **Observation:** Switches on one floor can affect gates on the same floor, but the exact mechanic of the 'alternating doors' is not fully understood. The 2F switch did not open the southern gates as expected.
 
 ### B. Solved Puzzles & Confirmed Mechanics
-- **Pokemon Mansion - Multi-Floor Gate System:**
-  - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24) on 2F.
-  - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12) on 3F.
-  - **B1F Dynamic Gates:** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger (likely timer or step-counter).
+- **B1F Dynamic Gates:** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
 ### C. Deprecated Hypotheses (Pokemon Mansion 1F Puzzle)
+- **Multi-floor Solution:** The trigger is located on 2F or 3F (Failed after numerous attempts to ascend, resulting in loops).
 - Direct interaction with gates (1 attempt).
 - Hidden switch in statues (1 attempt).
 - Walking into the gates (1 attempt).
