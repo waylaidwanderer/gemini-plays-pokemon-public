@@ -61,3 +61,4 @@
 - **MUK Immunity:** Confirmed MUK is immune to THUNDER WAVE (Electric-type status move). (Confirmed T54409)
 - **Not Very Effective:** Poison !> Poison (confirmed: ECHO's SLUDGE vs MUK)
 - **Gates:** `closed_gate` tiles are impassable barriers. `open_gate` tiles are unlocked and function as `ground`.
+- **Gates:** `closed_gate` tiles are impassable barriers. `open_gate` tiles are unlocked and function as `ground`.
