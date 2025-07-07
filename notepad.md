@@ -44,3 +44,4 @@
 - ITEMFINDER use (1 attempt).
 - Hidden pressure plate on floor (Exhaustive search of all 23 walkable tiles failed).
 - Re-interacting with Scientist after exploring (1 attempt).
+- Direct path from west to east on 1F (Pathfinder confirmed no route exists, despite system indicating eastern barriers are 'reachable').
