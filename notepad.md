@@ -42,7 +42,7 @@
 
 ## IV. Puzzle & Hypothesis Log
 ### A. Active Hypotheses
-- **Pokemon Mansion B1F:** The basement floor, accessible via stairs on 3F, likely holds the SECRET KEY. Hypothesis: The key is guarded by a trainer or hidden behind a puzzle. Test: Fully explore B1F.
+- **Pokemon Mansion 3F:** The switch at (11, 6) appears to control the gates on this floor, following an 'alternating doors' pattern. Hypothesis: Activating the switch will toggle the state of the central gates (16, 5/6) and the southern gates (16, 11/12). Test: Activate the switch and observe which gates open/close.
 
 ### B. Solved Puzzles & Confirmed Mechanics
 - **Pokemon Mansion 1F Puzzle System:** Confirmed 'alternating doors' mechanic. The switch at (3, 6) toggles the western gates (17, 8) and the southern gates (25, 14) inversely. When one set is open, the other is closed. (Confirmed T53932)
