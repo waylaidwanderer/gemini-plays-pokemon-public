@@ -47,8 +47,7 @@
 *   **Obstacle:** Attempting to battle Camper Ivan at (4, 19) triggers a repetitive phone call about radio music, preventing the battle from starting. This is confirmed to be the only puzzle trigger.
 *   **Confirmed Failure 1:** Defeating the nearby Lass (Picnicker Brooke) at (7, 20) has no effect on the puzzle. The phone call loop persists.
 *   **Confirmed Failure 2:** Navigating the Pokégear by pressing 'Right' repeatedly fails due to the 'Whom do you want to call?' sub-menu on the Phone tab, which blocks further navigation. Exiting with 'B' is necessary but has led to a failure loop.
-*   **New Hypothesis:** The Pokégear menu may wrap around. Pressing 'Left' from the starting Clock tab might immediately navigate to the Radio tab, bypassing the Map and Phone tabs.
-*   **Test Plan:** 1. Open the Start Menu. 2. Select POKéGEAR. 3. Once in the Pokégear (on the Clock tab), immediately press 'Left'. 4. If this accesses the Radio, interact with it. 5. Exit all menus and attempt to battle Camper Ivan again.
+*   **Confirmed Failure 3:** The Pokégear menu does not wrap around. Pressing 'Left' from the Clock tab has no effect.
 
 ### Goldenrod SQUIRTBOTTLE Quest
 *   **Primary Hypothesis:** I must find the flower shop lady's sister on Route 36 to receive the SQUIRTBOTTLE.
