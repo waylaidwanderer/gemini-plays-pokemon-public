@@ -64,7 +64,6 @@
 *   **Alternative Hypothesis:** The trigger is an NPC or event elsewhere in Goldenrod City. If the Underground is a confirmed dead end, I must systematically re-talk to every NPC in the city.
 
 ## IV. Agent & Tool Development Ideas
-*   **`puzzle_master_agent`:** Takes a puzzle's goal, clues, and a list of failed attempts to generate new, ranked hypotheses to test.
 
 ## V. Misc Info & Reminders
 *   **Bug-Catching Contest:** Tuesday, Thursday, Saturday in National Park.
