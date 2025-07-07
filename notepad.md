@@ -56,7 +56,3 @@
 *   **Assumption:** I need a key item to get past the strange tree (Sudowoodo).
     *   **Alternative Hypothesis:** It requires a specific Pokémon, a story event trigger elsewhere, or a special interaction (like using a specific move).
     *   **Test to Disprove:** After exhausting item-based possibilities, return to the tree after major story events (like beating the gym) to check for changes.
-### Goldenrod City Path Forward (Correction)
-*   **Initial Hypothesis (FAILED):** The Youngster at (19, 18) was blocking the path north.
-*   **Observation:** After numerous failed interaction attempts, I re-examined the map. The Youngster is on the southern side of the street (y=18) while the main path north is on y=17 and y=16. He is not an obstacle.
-*   **Conclusion:** I wasted significant time on a non-existent roadblock. My new strategy is to ignore him and explore the northern street.
