@@ -54,7 +54,7 @@
 ## V. Reflection & Future Development
 
 ### Agent & Tool Ideas
-*   **`escape_artist` Agent Idea:** Create an agent that analyzes the current map and suggests potential exits or paths forward when I'm feeling stuck in a town or route. It could prioritize unseen tiles or transitions to other maps.
+*   **`nickname_genius` Testing:** Must use this agent the next time a Pokémon is caught to evaluate its performance. The `quest_strategist` agent should be used for getting unstuck.
 
 ### Active Hypotheses (Post-Reflection)
 *   **Sudowoodo Solution:**
