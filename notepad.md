@@ -58,3 +58,4 @@
 
 ## VI. Future Development Ideas
 *   **Navigation Master Agent:** Create a high-level agent that takes a destination (e.g., a city name) and uses the `pathfinder_v1` tool to plot the full course, including navigating between maps and through warps.
+*   **TM08 (ROCK SMASH):** Can be used to shatter rocks.
