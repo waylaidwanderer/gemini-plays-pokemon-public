@@ -41,9 +41,10 @@
   - **Conclusion:** Gates did not open. Direct interaction is not the solution.
 - **Hypothesis 2 (Falsified):** A hidden switch exists in one of the statues.
   - **Test:** Systematically interacted with all four statues in the room.
-  - Hypothesis 3 (Falsified): A hidden trigger plate exists on a floor tile within the sealed room.
-  - Test: Systematically walked over every single walkable tile in the sealed room.
-  - Conclusion: No floor tile acted as a trigger. The gates remain closed. This hypothesis is incorrect. The solution is not in this room under the current conditions. Retreating to heal and rethink.
+  - Hypothesis 4 (Falsified): The trigger is walking directly into the gates.
+  - Test: Moved into the gate tile at (21, 18).
+  - Conclusion: Movement was blocked. This is not the trigger.
+- **Hypothesis 5 (Active):** The state of the switch on B1F at (19, 26) also controls the state of the gates on 1F at (21, 18) and (22, 18). The solution requires returning to B1F, flipping the switch, and then coming back to this room.
 - **Pokemon Mansion B1F - Two-State Switch:** The switch at (19, 26) toggles between two states:
   - State 1 (Initial/Second Flip): Western gates (14, 23/24) are OPEN. Eastern gates (27, 18/19) are CLOSED.
   - State 2 (First Flip): Western gates are CLOSED. Eastern gates are OPEN.
