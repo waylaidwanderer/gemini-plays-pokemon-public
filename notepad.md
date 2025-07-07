@@ -51,10 +51,8 @@
 ### B. In-Progress Puzzles & Active Hypotheses
 #### B1. Pokemon Mansion B1F
 - **Observation:** This floor is a maze with a central impassable structure. There is a switch at (19, 26), an item at (20, 26), and two sets of closed gates at (27, 18)/(28, 18) and (14, 23)/(14, 24). A Burglar blocked the path at (17, 24).
-- **Hypothesis 1:** The switch at (19, 26) controls the state of the closed gates on this floor.
-- **Test Plan 1:** Defeat the Burglar, press the switch, and observe the gates. To disprove, press it again to see if it toggles.
+- **Hypothesis 1:** The switch at (19, 26) controls the state of the closed gates at (14, 23)/(14, 24) and/or (27, 18)/(28, 18).
+- **Test 1:** Pressed the switch at (19, 26). Now need to observe the gates.
 - **Hypothesis 2:** The item at (20, 26) is the Secret Key.
-- **Test Plan 2:** Pick up the item.
-- **Hypothesis 3:** The `hole` tiles are a one-way drop to another floor.
-- **Test Plan 3:** If still stuck after testing other hypotheses, walk onto a hole tile.
-- **Progress:** Defeated Burglar at (17, 24). Currently in battle with his second Pokémon. Next step is to win this battle, then proceed with Test Plan 1.
+- **Test 2:** Picked up the item at (20, 26). It was TM14 BLIZZARD, not the Secret Key. Hypothesis disproven.
+- **Progress:** Defeated Burglar at (17, 24). The path to the switch is now clear. Next step is to check the gates.
