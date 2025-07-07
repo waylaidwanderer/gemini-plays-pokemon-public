@@ -55,12 +55,7 @@
   - There are three sets of gates: western (14, 23/24), northern (17, 17/18), and eastern (27, 18/28).
   - Items found: TM14 BLIZZARD at (20, 26), Full Restore at (2, 23).
   - Diary at (17, 21) contains only lore about Mewtwo.
-- **Confirmed Mechanic:** The switch at (19, 26) is a three-way toggle for the gates.
-  - **State 1 (Initial):** All gates closed.
-  - **State 2 (1st Press):** Western gates (14, 23) OPEN. Northern & Eastern gates CLOSED.
-  - **State 3 (2nd Press):** Northern gates (17, 17) OPEN. Western & Eastern gates CLOSED.
-- **Current Hypothesis:** The Secret Key is located in the newly accessible northern area.
-- **Test Plan:** Explore the northern area behind the now-open gates.
+- **Test Conclusion:** The switch at (19, 26) is a two-state toggle for the gates, alternating between a 'West Open' state and a 'North Open' state. It does not control the eastern gates.
 - **Untested Assumptions & Future Tests:**
   - **Assumption 1:** A third press of the switch will open the eastern gates (27, 18).
   - **Assumption 2:** The Secret Key is on B1F. Test: If the floor is fully explored and no key is found, I must re-explore other floors.
