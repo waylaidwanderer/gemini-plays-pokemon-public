@@ -57,3 +57,4 @@
 *   **Path Obstacle Agent:** An agent that analyzes the map and suggests which moving NPCs to `stun_npc` to clear a path for the `pathfinder_v1` tool.
 *   **Goldenrod Dept. Store Sale:** Camper Todd called to let me know there's a bargain sale on now.
 *   **TM28 (DIG):** A powerful GROUND-type move. Can also be used to escape from caves.
+*   **Complex `WALL` Behavior:** In the National Park, some `WALL` tiles that look like fence posts are impassable, but the gaps between them are traversable `FLOOR` tiles. This allows passage through what appears to be a solid barrier. My pathfinder cannot currently distinguish between these, making it unreliable in this area.
