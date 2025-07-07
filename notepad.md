@@ -14,7 +14,6 @@
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:**
     *   `FLOOR_UP_WALL`: One-way ledge. Enter from below/sides. Cannot exit by moving up.
-    *   `WARP_CARPET_DOWN`: One-way warp. Activated by pressing 'Down' while standing on the tile.
 
 ### Untested Tile Types (High Priority)
 * `RAILING`: Located on the Goldenrod Dept. Store Roof.
@@ -23,6 +22,8 @@
 * `WATER`
 * `LINK_CABLE`: Located on Pokecenter2F.
 * `TRADE_MACHINE`: Located on Pokecenter2F.
+* `WARP_CARPET_LEFT`: Located in the Route 36 National Park Gate. Hypothesis: Activated by pressing 'Left' while standing on it.
+* `WARP_CARPET_DOWN`: Activation method needs re-verification. Previously believed to be activated by pressing 'Down', but may be movement-based like other warp carpets. 
 
 ### Other Mechanics
 *   **Item Effects:**
@@ -54,8 +55,7 @@
 *   **Plan:** Return to the Goldenrod Flower Shop to receive the SQUIRTBOTTLE from the Teacher.
 
 ## IV. Agent & Tool Development
-*   **`maze_explorer_v8`:** Created a new, more intelligent pathfinding tool. It finds the largest contiguous area of 'unseen' tiles and plots a path there, preventing getting stuck in small dead ends. This replaces the obsolete `path_master_v29` and `maze_explorer_v7`.
-*   **`maze_solver_v1` Limitation:** The tool can only see objects currently on screen. For it to navigate around off-screen obstacles (like NPCs), I MUST manually provide their coordinates using the `extra_impassable_coordinates` parameter. This is a user responsibility, not a code bug.
+*   **`pathfinder_v1`:** Created a new, consolidated pathfinding tool. It can find paths to specific coordinates and explore unseen areas, replacing older, obsolete tools.
 *   **`nickname_genius` Testing:** Must use this agent the next time a Pokémon is caught to evaluate its performance.
 *   **`quest_strategist`:** This agent should be used for getting unstuck on complex puzzles.
 *   **`ui_navigator`:** Has been refined to understand the 'B' button is for backing out of sub-menus.
@@ -65,4 +65,3 @@
 
 ## V. To-Do & Testing
 *   **Agent Test:** Use `nickname_genius` after the next Pokémon capture to evaluate its performance.
-*   **Tile Test:** Test the `TALL_GRASS` tile on Route 36.
