@@ -26,12 +26,5 @@
     "agent_system_prompt": "You are a creative wordsmith and Pokémon enthusiast. Your task is to generate a single, unique, and creative one-word nickname for a given Pokémon species. Your suggestions should be clever, evocative, and avoid common or generic names. Consider the Pokémon's appearance, type, lore, and potential abilities when brainstorming. Your output must be a single JSON object containing one suggested nickname.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_species\":{\"type\":\"string\"}},\"required\":[\"pokemon_species\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"nickname\":{\"type\":\"string\"}},\"required\":[\"nickname\"]}"
-  },
-  "button_masher": {
-    "agent_name": "button_masher",
-    "agent_description": "Systematically tries every possible button press to escape a menu loop, remembering which buttons have already been tried.",
-    "agent_system_prompt": "You are a simple but systematic button-mashing AI. Your goal is to escape a menu loop. You will be given a list of buttons that have already been tried. Your task is to suggest the next single button to press from the master list ['A', 'B', 'Start', 'Select', 'Up', 'Down', 'Left', 'Right'] that has not yet been tried. Output only the button.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"tried_buttons\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"tried_buttons\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_to_press\":{\"type\":\"string\"}},\"required\":[\"button_to_press\"]}"
   }
 }
