@@ -57,3 +57,10 @@
 ### C. Tactical Problems & Mitigations
 - **Problem:** Frequent wild encounters in the Pokémon Mansion are interrupting warp usage and exploration, repeatedly sending me back to the first floor.
 - **Hypothesis (Attempt 1):** Leading with a faster Pokémon (ECHO) should increase my chances of escaping wild battles on the first turn, allowing for uninterrupted exploration. **Test:** Switch ECHO to the lead position and attempt to navigate the mansion.
+
+### C. Puzzle & Hypothesis Log (In-Progress)
+#### C1. Pokemon Mansion B1F
+- **Observation:** This floor is a maze with a central impassable structure. There is a switch at (19, 26), an item at (20, 26), and two sets of closed gates at (27, 18)/(28, 18) and (14, 23)/(14, 24). A Burglar blocked the path at (17, 24).
+- **Hypothesis:** The switch at (19, 26) controls the state of the closed gates on this floor.
+- **Test Plan:** Defeat the Burglar, press the switch, and observe the gates.
+- **Progress:** Defeated Burglar at (17, 24). Next step is to press the switch.
