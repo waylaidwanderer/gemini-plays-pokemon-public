@@ -50,3 +50,4 @@
 **New Plan:** Systematically search the room for a hidden interactive object, starting with the statues.
 - Test 3: Interacted with the statue at (19, 20) from (19, 21). Result: FAILED.
 - Test 4: Interacted with the statue at (18, 20) from (18, 21). Result: FAILED. This statue is not the switch.
+- Test 5: Interacted with the statue at (17, 20) from (17, 21). Result: FAILED. This statue is not the switch.
