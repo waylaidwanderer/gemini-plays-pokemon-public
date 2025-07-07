@@ -12,7 +12,7 @@
 - **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls.
 - **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
-- **Hole Tiles:** Acts as a one-way warp, dropping the player to the floor below. Untested if they can be bypassed (e.g., with Surf).
+
 - **Gates:** `closed_gate` tiles are impassable. `open_gate` tiles are unlocked and function as `ground`. Some are opened by switches, others require a KEY CARD.
 - **Elevators (Silph Co.):** Require interaction with the control panel to select a floor, then moving onto the warp tile at the back.
 - **Saffron Gym Teleporters:** 1x1 warp tiles. To use a warp, move onto the tile. If already on a warp, move off and back on to trigger.
@@ -55,6 +55,6 @@
 - **Test Conclusion (T54226):** The switch at (19, 26) is a two-state toggle that ONLY controls the western and northern gates, opening one set while closing the other. It does NOT affect the eastern gates.
 - **Current Hypothesis:** There MUST be another hidden switch or trigger mechanism on B1F that opens the eastern gates. The Secret Key is likely behind them.
 - **Current Test Plan:** Systematically re-explore the floor to find the hidden trigger.
-- **Hole Tiles:** Acts as a one-way warp, dropping the player to the floor below. Untested if they can be bypassed (e.g., with Surf).
+
 - **Systematic Search Log (B1F East):**
   - Tested Tiles: (26, 19), (27, 19), (28, 19), (29, 19), (29, 20), (29, 21)
