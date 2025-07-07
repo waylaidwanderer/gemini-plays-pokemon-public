@@ -66,5 +66,5 @@
   - Tested Tiles: (22, 18)
 - Systematic Search Log (B1F Central):
   - Tested Tiles: (22, 18), (22, 17), (22, 16), (22, 15), (22, 14), (22, 13)
-- Conclusion: The systematic search for a hidden pressure plate is likely incorrect. New information confirms all gate sets are 'Reachable Barriers', suggesting a navigation puzzle using the single known switch, not a hidden trigger.
-- Conclusion: The systematic search for a hidden pressure plate is likely incorrect. New information confirms all gate sets are 'Reachable Barriers', suggesting a navigation puzzle using the single known switch, not a hidden trigger.
+- - **Puzzle Re-evaluation (T54512):** The 'Reachable Barriers' information confirms a solution exists on B1F. The hypothesis of a hidden trigger for the eastern gates is officially debunked. The puzzle must be a navigational challenge solvable with the single switch at (19, 26). The goal is to find the Secret Key, which is likely an item ball hidden within the maze.
+- - **Puzzle Re-evaluation (T54512):** The 'Reachable Barriers' information confirms a solution exists on B1F. The hypothesis of a hidden trigger for the eastern gates is officially debunked. The puzzle must be a navigational challenge solvable with the single switch at (19, 26). The goal is to find the Secret Key, which is likely an item ball hidden within the maze.
