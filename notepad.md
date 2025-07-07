@@ -50,15 +50,17 @@
 
 ### B. In-Progress Puzzles & Active Hypotheses
 #### B1. Pokemon Mansion B1F
-- **Observations:** 
+- **Observations:**
   - This floor is a maze with a central impassable structure.
-  - A switch at (19, 26) opens the western gates at (14, 23)/(14, 24).
-  - The eastern gates at (27, 18)/(28, 18) remain closed.
-  - After exploring the northern part of the western corridor, new gates appeared at (17, 17) and (18, 17).
+  - There are three sets of gates: western (14, 23/24), northern (17, 17/18), and eastern (27, 18/28). All are currently closed.
   - Items found: TM14 BLIZZARD at (20, 26), Full Restore at (2, 23).
   - Diary at (17, 21) contains only lore about Mewtwo.
-- **Current Hypothesis:** The Secret Key is located in the remaining unexplored southern section of the western corridor.
-- **Test Plan:** Systematically explore the southern corridor.
+- **Confirmed Mechanic:** The switch at (19, 26) is a toggle.
+  - **Attempt 1:** Opened western gates.
+  - **Attempt 2:** Closed western gates.
+- **Current Hypothesis:** The second press of the switch opened either the northern gates (17, 17) or the eastern gates (27, 18). The Secret Key is behind whichever set of gates is now open.
+- **Test Plan:**
+  1. Check the northern gates at (17, 17).
+  2. If they are closed, check the eastern gates at (27, 18).
 - **Untested Assumptions & Future Tests:**
   - **Assumption 1:** The Secret Key is on B1F. **Test:** If B1F is fully explored and no key is found, I must re-explore other floors.
-  - **Assumption 2:** The switch at (19, 26) only opens the western gates. **Test:** If stuck, return to the switch and press it again to see if it toggles the new gates at (17, 17) or the eastern gates at (27, 18).
