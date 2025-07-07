@@ -38,11 +38,14 @@
 #### B4. Pokemon Evolution & Moves
 - **Marowak Evolution:** Confirmed that Marowak evolves from Cubone at Lv. 38.
 - **REVENANT (Marowak) learned THRASH** at Lv. 38, replacing TAIL WHIP.
-### Pokemon Mansion 1F - Gate Puzzle Plan
-**Observation:** The system has confirmed the gates at (21, 18) and (22, 18) are reachable, validating the hypothesis that the solution is on this floor. I have already triggered the western gates, which in turn opened the eastern gates, granting me access to this southern area.
-**Hypothesis:** There is a second trigger, switch, or event located within this newly accessible southern area that will open the final gates at (21, 18) and (22, 18).
+### Pokemon Mansion 1F - Alternating Gate Puzzle
+**Observation:** The mansion's 1F puzzle involves an alternating switch at (3, 6).
+- **State 1 (Initial):** Flipping the switch opens the western gates at (17, 8). Passing through these western gates automatically triggers the eastern gates at (25, 14) to open.
+- **State 2 (Reset):** Moving away from the western area causes the eastern gates at (25, 14) to close again. The system has identified these closed gates as 'Reachable Barriers', despite a path to the area behind them being blocked. This is a contradiction.
+**Hypothesis (Primary):** The switch at (3, 6) must be flipped again to directly open the eastern gates at (25, 14), allowing access to the southern corridor. The 'Reachable Barrier' status might indicate that once the switch is flipped, they will become open.
 **Test Plan:**
-1. Systematically explore the entire southern corridor, from west to east.
-2. Investigate any items, NPCs, or unusual tiles.
-3. Once the trigger is found and activated, proceed to the gates at (21, 18) to confirm they are open.
-4. **Conclusion:** To be determined after exploring the southern area.
+1.  Navigate back to the switch at (3, 6).
+2.  Interact with the switch from the tile below it at (3, 7).
+3.  Observe the state of the eastern gates at (25, 14).
+4.  If the gates open, proceed to explore the southern corridor to find the trigger for the final gates at (21, 18).
+**Hypothesis (Secondary - Contradiction Test):** If the primary hypothesis fails, the 'Reachable Barrier' status implies a non-standard mechanic. The next test would be to attempt to walk directly through the closed gates at (25, 14).
