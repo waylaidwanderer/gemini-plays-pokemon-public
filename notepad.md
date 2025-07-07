@@ -56,7 +56,7 @@
 *   **Current Plan:** Exit the flower shop and travel to Route 36 via Route 35.
 
 ## IV. Agent & Tool Development
-*   **Tool Bug Fix:** Identified and fixed a critical bug in `path_master_v29` and `maze_explorer_v7`. The old versions incorrectly treated 'unseen' tiles as impassable, preventing all pathfinding through unexplored areas. The new versions correctly handle these tiles, restoring navigation capabilities.
+*   **`maze_explorer_v8`:** Created a new, more intelligent pathfinding tool. It finds the largest contiguous area of 'unseen' tiles and plots a path there, preventing getting stuck in small dead ends. This replaces the obsolete `path_master_v29` and `maze_explorer_v7`.
 *   **`maze_solver_v1` Limitation:** The tool can only see objects currently on screen. For it to navigate around off-screen obstacles (like NPCs), I MUST manually provide their coordinates using the `extra_impassable_coordinates` parameter. This is a user responsibility, not a code bug.
 *   **`nickname_genius` Testing:** Must use this agent the next time a Pokémon is caught to evaluate its performance.
 *   **`quest_strategist`:** This agent should be used for getting unstuck on complex puzzles.
