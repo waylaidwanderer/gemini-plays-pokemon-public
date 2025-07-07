@@ -44,8 +44,7 @@
   - Hypothesis 4 (Falsified): The trigger is walking directly into the gates.
   - Test: Moved into the gate tile at (21, 18).
   - Conclusion: Movement was blocked. This is not the trigger.
-- **Hypothesis 5 (Active):** The state of the switch on B1F at (19, 26) also controls the state of the gates on 1F at (21, 18) and (22, 18). The solution requires returning to B1F, flipping the switch, and then coming back to this room.
-- **Pokemon Mansion B1F - Two-State Switch:** The switch at (19, 26) toggles between two states:
-  - State 1 (Initial/Second Flip): Western gates (14, 23/24) are OPEN. Eastern gates (27, 18/19) are CLOSED.
+- **Hypothesis 5 (Falsified):** The state of the switch on B1F at (19, 26) directly controls the gates. 
+- **Revised Hypothesis (Active):** The gates in this basement operate on an unknown trigger, possibly a timer or step-counter. The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by this trigger. The western gates just opened on their own, confirming a dynamic trigger.
   - State 2 (First Flip): Western gates are CLOSED. Eastern gates are OPEN.
   - Note: This switch does NOT affect the northern gates.
