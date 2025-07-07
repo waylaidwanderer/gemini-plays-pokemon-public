@@ -75,3 +75,9 @@
 *   **Major Hallucination (Turn 26485-26490):** Misidentified my location on Route 36, thinking I was in Violet City. I must verify my location after every map transition.
 *   **Critical Hallucination (Turn 26788):** Attempted to use a non-existent tool (`stun_npc`). I must only use tools provided in the game context.
 *   **Procedural Lapses:** I have repeatedly deferred actions instead of acting immediately. This must be corrected. I will act on new information and documentation needs in the same turn they arise.
+### Verified Tile Types (Update)
+*   **Push-Down Trap:** A floor tile that appears to be a warp but only pushes the player down one tile. It is a one-way interaction; the tile cannot be re-entered from below.
+
+### Procedural Reminders
+*   If I am stuck in a repetitive action loop, I must use the `quest_strategist` agent to generate new hypotheses.
+*   Pokégear Navigation: Use 'Right'/'Left' to cycle main functions (Clock, Map, Phone, Radio). Use 'B' to exit sub-menus like the phone contact list.
