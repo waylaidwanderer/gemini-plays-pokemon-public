@@ -26,18 +26,17 @@
 
 ## III. Puzzle & Hypothesis Log
 ### A. In-Progress Puzzles & Active Hypotheses
-#### A1. Pokemon Mansion 1F - Sealed Room Puzzle
-- **Observation:** Trapped in a sealed room on 1F. Gates at (21, 18) and (22, 18) are closed. System confirmed these are 'Reachable Barriers'.
-- **Active Hypothesis:** The trigger for the 1F gates is located somewhere on 1F. The multi-floor approach has failed repeatedly and is now considered deprecated.
-
-#### A2. Pokemon Mansion - Multi-Floor Gate System
-- **Observation:** Switches on one floor can affect gates on the same floor, but the exact mechanic of the 'alternating doors' is not fully understood. The 2F switch did not open the southern gates as expected.
+#### A1. Pokemon Mansion Multi-Floor Puzzle
+- **Observation:** I am physically isolated in the western corridor of 1F. The solution to the sealed room at (21, 18) must involve navigating other floors and finding a different way down.
+- **Active Hypothesis:** By exploring 2F and potentially 3F, I can find a warp, ladder, or hole that leads to the sealed eastern section of 1F.
 
 ### B. Solved Puzzles & Confirmed Mechanics
+- **1F West Switch:** The switch at (3, 6) on 1F cycles between opening the gates at (17, 8) and (25, 14). It does not directly open the sealed room.
 - **B1F Dynamic Gates:** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
 ### C. Deprecated Hypotheses (Pokemon Mansion 1F Puzzle)
-- **Multi-floor Solution:** The trigger is located on 2F or 3F (Failed after numerous attempts to ascend, resulting in loops).
+- **Eastern Corridor Solution (1F):** The trigger is located in the eastern hallway of 1F (Failed after exploring the entire corridor).
+- **Multi-floor Solution (Direct Trigger):** The trigger for the 1F sealed room is located on 2F or 3F and directly affects the 1F gates (Failed after numerous attempts to find a direct link).
 - Direct interaction with gates (2 attempts).
 - Hidden switch in statues (1 attempt).
 - Walking into the gates (1 attempt).
