@@ -8,14 +8,14 @@
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `VOID`, `MART_SHELF`, `COUNTER`
+*   **Impassable:** `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `VOID`, `MART_SHELF`, `COUNTER`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters), `LONG_GRASS` (Wild Encounters, functions like TALL_GRASS)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile), `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:**
     *   `FLOOR_UP_WALL`: One-way ledge. Enter from below/sides. Cannot exit by moving up.
-    *   `WARP_CARPET_LEFT`: Activated by pressing 'Left' while standing on the tile.
-    *   `WARP_CARPET_DOWN`: Activated by pressing 'Down' while standing on the tile.
+    *   `WARP_CARPET_LEFT/DOWN`: Activated by pressing the indicated direction while standing on the tile.
+    *   `WALL` (in National Park): The fence posts themselves are impassable, but the gaps between them on the same Y-axis are traversable `FLOOR` tiles. This allows passage through what appears to be a solid barrier.
 
 ### Untested Tile Types (High Priority)
 * `RAILING`: Located on the Goldenrod Dept. Store Roof.
@@ -34,27 +34,21 @@
 *   **Vending Machine Drinks:** Can refresh tired POKéMON.
 *   **Hidden Items:** Must be interacted with from an adjacent tile.
 *   **Haircuts:** Increases a Pokémon's happiness.
-*   **Pokégear UI:** The Phone function has a sub-menu ('Whom do you want to call?'). This is a modal state. Directional buttons are DISABLED. You MUST press 'B' to exit this sub-menu and return to the main Pokégear navigation.
+*   **Pokégear UI:** The Phone function has a sub-menu ('Whom do you want to call?'). This is a modal state. Directional buttons are DISABLED. You MUST press 'B' to exit this sub-menu.
 
 ## II. Key Items & TMs
 *   **COIN CASE:** Allows playing at the Game Corner. Found in the Goldenrod Underground.
 *   **HM01 (CUT):** Clears small trees. Requires the Hive Badge.
 *   **SQUIRTBOTTLE:** Used to reveal the Sudowoodo on Route 36.
 *   **TM08 (ROCK SMASH):** An attack that may lower DEFENSE. Can be used to shatter small rocks outside of battle.
+*   **TM28 (DIG):** A powerful GROUND-type move. Can also be used to escape from caves.
 *   **TM45 (ATTRACT):** Makes full use of a POKéMON's charm.
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
 ## III. Active Puzzles & Hypotheses
 *   **Radio Tower Side Quests:** Received a BLUE CARD from Buena on the 2nd floor. I can earn points by giving her passwords from the radio and trade them for prizes.
+*   **Goldenrod Dept. Store Sale:** Camper Todd called to let me know there's a bargain sale on now.
 
 ## IV. Agent & Tool Development
-*   **`pathfinder_v1`:** My standard, consolidated pathfinding tool.
-*   **`quest_strategist`:** This agent should be used for getting unstuck on complex puzzles.
-*   **`ui_navigator`:** Has been refined to understand the 'B' button is for backing out of sub-menus.
-
-## V. Future Development Ideas
-*   **Navigation Master Agent:** Create a high-level agent that takes a destination (e.g., a city name) and uses the `pathfinder_v1` tool to plot the full course, including navigating between maps and through warps.
-*   **Path Obstacle Agent:** An agent that analyzes the map and suggests which moving NPCs to `stun_npc` to clear a path for the `pathfinder_v1` tool.
-*   **Goldenrod Dept. Store Sale:** Camper Todd called to let me know there's a bargain sale on now.
-*   **TM28 (DIG):** A powerful GROUND-type move. Can also be used to escape from caves.
-*   **Complex `WALL` Behavior:** In the National Park, some `WALL` tiles that look like fence posts are impassable, but the gaps between them are traversable `FLOOR` tiles. This allows passage through what appears to be a solid barrier. My pathfinder cannot currently distinguish between these, making it unreliable in this area.
+*   **Current Tools:** `pathfinder_v2` (debug version), `quest_strategist`, `ui_navigator`.
+*   **Development Idea:** Create a `puzzle_solver_agent` to help when stuck by analyzing map, inventory, and goals to suggest novel hypotheses.
