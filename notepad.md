@@ -44,3 +44,7 @@
   - Hypothesis 3 (Falsified): A hidden trigger plate exists on a floor tile within the sealed room.
   - Test: Systematically walked over every single walkable tile in the sealed room.
   - Conclusion: No floor tile acted as a trigger. The gates remain closed. This hypothesis is incorrect. The solution is not in this room under the current conditions. Retreating to heal and rethink.
+- **Pokemon Mansion B1F - Two-State Switch:** The switch at (19, 26) toggles between two states:
+  - State 1 (Initial/Second Flip): Western gates (14, 23/24) are OPEN. Eastern gates (27, 18/19) are CLOSED.
+  - State 2 (First Flip): Western gates are CLOSED. Eastern gates are OPEN.
+  - Note: This switch does NOT affect the northern gates.
