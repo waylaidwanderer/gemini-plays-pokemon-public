@@ -57,4 +57,4 @@
 - **Current Test Plan:** Systematically re-explore the floor to find the hidden trigger.
 - **Hole Tiles:** Acts as a one-way warp, dropping the player to the floor below. Untested if they can be bypassed (e.g., with Surf).
 - **Systematic Search Log (B1F East):**
-  - Tested Tiles: (26, 19), (27, 19), (28, 19), (29, 19), (29, 20)
+  - Tested Tiles: (26, 19), (27, 19), (28, 19), (29, 19), (29, 20), (29, 21)
