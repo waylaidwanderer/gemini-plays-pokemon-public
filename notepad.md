@@ -64,3 +64,5 @@
 - **Gates:** `closed_gate` tiles are impassable barriers. `open_gate` tiles are unlocked and function as `ground`.
 - **Systematic Search Log (B1F Central):**
   - Tested Tiles: (22, 18)
+- Systematic Search Log (B1F Central):
+  - Tested Tiles: (22, 18), (22, 17), (22, 16)
