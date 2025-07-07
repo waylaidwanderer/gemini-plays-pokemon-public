@@ -9,7 +9,7 @@
 - **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
 - **Hole Tiles:** Warp tiles that lead to a lower map area. Often function as one-way drops.
-- **Gates:** `closed_gate` tiles are impassable barriers. `open_gate` tiles are unlocked and function as `ground`. Some are opened by switches, others require a KEY CARD.
+- **Gates:** `closed_gate` tiles are impassable barriers. `open_gate` tiles are unlocked and function as `ground`.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -25,30 +25,22 @@
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center. You respawn in front of the trainer you lost to.
 
 ## III. Puzzle & Hypothesis Log
-*Guiding Principle: I will rigorously test any hypothesis by attempting to falsify it. A single confirmation is not enough; I must try to prove my own conclusions wrong to ensure they are robust.*
-
 ### A. Solved Puzzles & Confirmed Mechanics
-- **Pokemon Mansion Puzzle (Floors 2-3):** The mansion uses an 'alternating doors' system controlled by switches.
-  - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24). (Confirmed T53987)
-  - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12). (Confirmed T52735)
+- **Pokemon Mansion - Multi-Floor Gate System:** The mansion uses a complex system of switches that control gates on multiple floors.
+  - **2F Switch (3, 12):** Toggles northern gates (10, 5/6) and southern gates (8, 23/24) on 2F.
+  - **3F Switch (11, 6):** Toggles central gates (16, 5/6) and southern gates (16, 11/12) on 3F.
+  - **B1F Switch (19, 26) - Two-State Toggle:** This switch operates on a two-state cycle.
+    - **State 1 (Initial/Second Flip):** Western gates (14, 23/24) are OPEN. Eastern gates (27, 18/19) are CLOSED.
+    - **State 2 (First Flip):** Western gates are CLOSED. Eastern gates are OPEN.
 
 ### B. In-Progress Puzzles & Active Hypotheses
-#### B1. Pokemon Mansion Puzzles
-- **B1F Switch (19, 26) - Complex Gate Control:** This switch has a multi-state function.
-  - **State 1 (Initial):** Western gates (14, 23/24) are open. Eastern gates (27, 18/19) are closed.
-  - **State 2 (First Flip):** Western gates close. Eastern gates open. Northern gates (17, 17/18) remain closed.
-  - **State 3 (Second Flip):** Western gates re-open. Eastern gates close.
-  - **Conclusion:** The switch cycles between opening the western and eastern paths. It does not appear to affect the northern gates or the gates on 1F.
-- **1F Gate Puzzle (21, 18 & 22, 18):** These gates have trapped me in an isolated room. My initial hypothesis that the B1F switch controlled them was incorrect. The system has confirmed these gates are 'Reachable Barriers', meaning the solution must be within this sealed section of 1F. My current hypothesis is that the gates open via a hidden mechanism or direct interaction from this side. Test 1: Interact directly with the gate at (21, 18) from the tile below it. Result: FAILED. The gate did not open.
-- Test 2: Interact with the other gate at (22, 18). Result: FAILED. The gate did not open.
-
-**Conclusion: Direct interaction with the gates is not the solution.**
-
-### Agent-Assisted Puzzle Solving
-**Agent Input:** Called `puzzle_solver_agent` with the current puzzle state (closed gates, defeated scientist).
-**Agent Hypothesis:** A hidden, non-obvious switch exists within this sealed room, likely in a statue or piece of furniture.
-**New Plan:** Systematically search the room for a hidden interactive object, starting with the statues.
-- Test 3: Interacted with the statue at (19, 20) from (19, 21). Result: FAILED.
-- Test 4: Interacted with the statue at (18, 20) from (18, 21). Result: FAILED. This statue is not the switch.
-- Test 5: Interacted with the statue at (17, 20) from (17, 21). Result: FAILED. This statue is not the switch.
-- Test 6: Interacted with the statue at (16, 20) from (16, 21). Result: FAILED. This statue is not the switch.
+#### B1. Pokemon Mansion 1F - Sealed Room Puzzle
+- **Observation:** I am trapped in a sealed room on 1F. The gates at (21, 18) and (22, 18) are closed. The system has confirmed these gates are 'Reachable Barriers', meaning a solution must exist within this room.
+- **Hypothesis 1 (Falsified):** The gates can be opened by direct interaction. 
+  - **Test:** Interacted with both gates from adjacent tiles. 
+  - **Conclusion:** Gates did not open. Direct interaction is not the solution.
+- **Hypothesis 2 (Falsified):** A hidden switch exists in one of the statues.
+  - **Test:** Systematically interacted with all four statues in the room.
+  - **Conclusion:** None of the statues contained a switch.
+- **Current Hypothesis:** A hidden trigger plate exists on a floor tile within the sealed room.
+  - **Plan:** Use the `systematic_searcher` tool to step on every walkable tile in the room until the trigger is found.
