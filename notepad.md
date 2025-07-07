@@ -55,3 +55,4 @@
 ### Agent & Tool Development
 *   **`maze_solver_v1`:** The A* pathfinding tool failed in the gym. It has been updated with debugging prints. The next step is to test it again in the gym to diagnose the failure.
 *   **`nickname_genius`:** Untested. Must be used at the next opportunity.
+*   **`maze_solver_v1` Bug:** The tool does not automatically treat all map objects (NPCs) as impassable. I had to manually add the NPC's coordinates as an obstacle. I need to update the tool's code to parse all `<Object>` tags from the map XML and add their coordinates to the `all_impassable` set by default.
