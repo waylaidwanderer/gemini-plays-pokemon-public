@@ -50,7 +50,8 @@
 *   **Goldenrod Dept. Store Sale:** Camper Todd called to let me know there's a bargain sale on now.
 
 ## IV. Agent & Tool Development
-*   **Current Tools:** `pathfinder_v2` (debug version), `quest_strategist`, `ui_navigator`.
+*   **Current Tools:** `pathfinder_v2` (debug version).
+*   **Current Agents:** `quest_strategist`, `ui_navigator`.
 *   **Development Idea:** Create a `puzzle_solver_agent` to help when stuck by analyzing map, inventory, and goals to suggest novel hypotheses.
 ### Misc Info
 *   The Bug-Catching Contest is held on Tuesday, Thursday, and Saturday in the National Park.
