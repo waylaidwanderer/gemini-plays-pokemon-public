@@ -39,4 +39,4 @@
   - **State 2 (First Flip):** Western gates close. Eastern gates open. Northern gates (17, 17/18) remain closed.
   - **State 3 (Second Flip):** Western gates re-open. Eastern gates close.
   - **Conclusion:** The switch cycles between opening the western and eastern paths. It does not appear to affect the northern gates or the gates on 1F.
-- **1F Gate Puzzle (21, 18 & 22, 18):** These gates trapped me in a room. My initial hypothesis that the B1F switch controlled them was incorrect. The only remaining variable is the switch at (3,6) on 1F. I must test if this switch opens these gates.
+- **1F Gate Puzzle (21, 18 & 22, 18):** These gates have trapped me in an isolated room. My initial hypothesis that the B1F switch controlled them was incorrect. The system has confirmed these gates are 'Reachable Barriers', meaning the solution must be within this sealed section of 1F. My current hypothesis is that the gates open via a hidden mechanism or direct interaction from this side. Test: Interact directly with the gate at (21, 18) from the tile below it.
