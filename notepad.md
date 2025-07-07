@@ -32,3 +32,4 @@
 
 ### B. Deprecated Hypotheses
 - **Multi-Floor Pathing Solution (Deprecated):** My initial hypothesis was that the path to the eastern side of 1F must be on another floor. **Conclusion:** This was invalidated by a system notification about 'Reachable Barriers' on 1F, confirming the solution is on the same floor.
+- **Open Gates (`open_gate`):** A previously closed gate that is now open and acts as `ground`.
