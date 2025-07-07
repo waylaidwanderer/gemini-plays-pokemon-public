@@ -39,23 +39,19 @@
 ## II. Key Items & TMs
 *   **COIN CASE:** Allows playing at the Game Corner. Found in the Goldenrod Underground.
 *   **HM01 (CUT):** Clears small trees. Requires the Hive Badge.
-*   **SQUIRTBOTTLE:** A bottle for watering Pokémon. Needed for the strange tree on Route 36.
+*   **SQUIRTBOTTLE:** A bottle for watering Pokémon. Used for the Sudowoodo on Route 36.
+*   **TM08 (ROCK SMASH):** An attack that may lower DEFENSE. Can be used to shatter small rocks outside of battle.
 *   **TM45 (ATTRACT):** Makes full use of a POKéMON's charm.
-*   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
+*   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
 ## III. Active Puzzles & Hypotheses
-
-### Radio Tower Side Quests
-*   **Buena's Password Show:** Received a BLUE CARD from Buena on the 2nd floor. I can earn points by giving her passwords from the radio and trade them for prizes.
+*   **Radio Tower Side Quests:** Received a BLUE CARD from Buena on the 2nd floor. I can earn points by giving her passwords from the radio and trade them for prizes.
 
 ## IV. Agent & Tool Development
 *   **`pathfinder_v1`:** My standard, consolidated pathfinding tool.
 *   **`quest_strategist`:** This agent should be used for getting unstuck on complex puzzles.
 *   **`ui_navigator`:** Has been refined to understand the 'B' button is for backing out of sub-menus.
 
-## V. To-Do & Testing
-*   **Agent Test:** Use `nickname_genius` after the next Pokémon capture to evaluate its performance.
-
-## VI. Future Development Ideas
+## V. Future Development Ideas
 *   **Navigation Master Agent:** Create a high-level agent that takes a destination (e.g., a city name) and uses the `pathfinder_v1` tool to plot the full course, including navigating between maps and through warps.
-*   **TM08 (ROCK SMASH):** Can be used to shatter rocks.
+*   **Path Obstacle Agent:** An agent that analyzes the map and suggests which moving NPCs to `stun_npc` to clear a path for the `pathfinder_v1` tool.
