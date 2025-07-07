@@ -55,7 +55,7 @@
 *   **Plan:** Return to the Goldenrod Flower Shop to receive the SQUIRTBOTTLE from the Teacher.
 
 ## IV. Agent & Tool Development
-*   **`pathfinder_v1`:** Created a new, consolidated pathfinding tool. It can find paths to specific coordinates and explore unseen areas, replacing older, obsolete tools.
+*   **`pathfinder_v1`:** My standard, consolidated pathfinding tool. It can find paths to specific coordinates and explore unseen areas. Replaced and deleted `path_master_v24` and `maze_explorer_v8`.
 *   **`nickname_genius` Testing:** Must use this agent the next time a Pokémon is caught to evaluate its performance.
 *   **`quest_strategist`:** This agent should be used for getting unstuck on complex puzzles.
 *   **`ui_navigator`:** Has been refined to understand the 'B' button is for backing out of sub-menus.
