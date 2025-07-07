@@ -9,8 +9,8 @@
 - **Obvious Tile Test:** Even if a tile seems obviously impassable (e.g., WALL), I must attempt to walk into it once to be 100% certain.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `VOID`, `MART_SHELF`, `COUNTER`
-*   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters), `TALL_GRASS` (Wild Encounters), `LONG_GRASS` (Wild Encounters)
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `COUNTER`
+*   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters), `LONG_GRASS` (Wild Encounters)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile), `STAIRCASE` (Move onto tile).
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`.
 *   **Complex Tiles:**
@@ -24,6 +24,7 @@
 * `WATER`
 * `LINK_CABLE`: Located on Pokecenter2F.
 * `TRADE_MACHINE`: Located on Pokecenter2F.
+* `CUT_TREE`: Seen on Route 36. Must test passability when reachable.
 
 ### Other Mechanics
 *   **Item Effects:**
@@ -57,8 +58,7 @@
 *   `pathfinder_v2` (debug version)
 
 ### Current Agents
-*   `quest_strategist`
-*   `ui_navigator`
+*   None currently defined.
 
 ### Development Ideas
 *   **`city_explorer_agent`:** Takes a city name and list of warps as input, then suggests a prioritized order for exploration.
@@ -66,3 +66,6 @@
 
 ## V. Misc Info
 *   The Bug-Catching Contest is held on Tuesday, Thursday, and Saturday in the National Park.
+
+## VI. Learnings & Mistakes
+* **Major Hallucination (Turn 26485-26490):** I mistakenly believed I was in Violet City after taking a map connection from Route 36. I was actually in a small, isolated section of Route 36 the whole time. This led to several wasted turns trying to explore unreachable warps. I must be more careful verifying my location after map transitions.
