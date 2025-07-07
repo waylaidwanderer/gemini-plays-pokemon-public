@@ -38,7 +38,7 @@
 
 ### C. Deprecated Hypotheses (Pokemon Mansion 1F Puzzle)
 - **Multi-floor Solution:** The trigger is located on 2F or 3F (Failed after numerous attempts to ascend, resulting in loops).
-- Direct interaction with gates (1 attempt).
+- Direct interaction with gates (2 attempts).
 - Hidden switch in statues (1 attempt).
 - Walking into the gates (1 attempt).
 - Scientist interaction post-basement (1 attempt).
