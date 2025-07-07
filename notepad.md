@@ -10,7 +10,7 @@
 ### Verified Tile Types
 *   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `COUNTER`, `VOID`, `MART_SHELF`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
-*   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
+*   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile), `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:**
     *   `FLOOR_UP_WALL`: Functions as a one-way ledge. Can be entered from below and from the sides (left/right). Cannot be exited by moving up, but can be exited by moving down or sideways to an adjacent `FLOOR_UP_WALL` tile.
@@ -21,6 +21,8 @@
 * `PIPE_HORIZONTAL`: Needs testing.
 * `PIPE_VERTICAL`: Needs testing.
 * `WATER`: Needs testing.
+* `LINK_CABLE`: Needs testing. Located on Pokecenter2F.
+* `TRADE_MACHINE`: Needs testing. Located on Pokecenter2F.
 
 ### Other Mechanics
 *   **Item Effects:**
@@ -39,21 +41,17 @@
 
 ## III. Active Puzzles & Hypotheses
 
+### Puzzle-Solving Log
+*This is for documenting my scientific approach to puzzles.*
+
 ### Goldenrod City
 *   **Fact:** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo). Progress is impossible this way for now.
 *   **Hypothesis:** An Abra is required for the Machop trade on the 5th floor of the Department Store. Abra might be found in the grass on Route 34, which is south of the city.
 
-### Ruins of Alph
-*   **Objective:** Solve the sliding stone panel puzzle.
-*   **Clue:** Liz mentioned hearing a strange radio broadcast from the Ruins of Alph. This might be a clue.
-
 ### Radio Tower
 *   **Fact:** A Black Belt on the 2nd floor is blocking the stairs to 3F. He says only 'authorized personnel' can pass because 'something is wrong with the DIRECTOR'.
+*   **Clue:** Liz and a Super Nerd mentioned a strange radio broadcast. This is likely the key to this puzzle, but I was unable to operate the Pokégear radio.
 
-## IV. Exploration & Immediate Tasks
-*   Investigate unmarked warp at Goldenrod City (31, 21).
-*   Test all remaining untested tile types (`RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `WATER`) at the next available opportunity.
-
-## V. Agent & Tool Development
-*   **ui_navigator Agent:** Created to help navigate complex menus by providing the correct button sequences. Will be used to escape menu loops.
+## IV. Agent & Tool Development
+*   **ui_navigator Agent:** Created to help navigate complex menus. Needs further refinement and testing.
 *   **nickname_genius Agent:** Must be tested at the next opportunity (catching a new Pokémon).
