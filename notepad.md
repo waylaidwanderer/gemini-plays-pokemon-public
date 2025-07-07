@@ -27,21 +27,14 @@
 ## III. Puzzle & Hypothesis Log
 ### A. In-Progress Puzzles & Active Hypotheses
 #### A1. Pokemon Mansion Multi-Floor Puzzle
-- **Observation:** I am physically isolated in the western corridor of 1F. The solution to the sealed room at (21, 18) must involve navigating other floors and finding a different way down.
-- **Active Hypothesis:** By exploring 2F and potentially 3F, I can find a warp, ladder, or hole that leads to the sealed eastern section of 1F.
+- **Observation:** I am physically isolated in the western corridor of 1F. The game guarantees the eastern gates at (25, 14) are reachable, but my navigation tools cannot find a path. This implies a non-standard traversal mechanic is at play.
+- **Active Hypothesis:** By performing a systematic, tile-by-tile search of the entire accessible area on 1F, I will discover the hidden mechanic or path that leads to the eastern section.
 
 ### B. Solved Puzzles & Confirmed Mechanics
-- **1F West Switch (Confirmed):** The switch at (3, 6) on 1F alternates between opening two sets of gates. First press opens the gates at (25, 14). A second press closes those and opens the gates at (17, 8). This is the key to navigating the western half of 1F.
+- **1F West Switch (Confirmed):** The switch at (3, 6) on 1F alternates between opening two sets of gates. First press opens the gates at (25, 14). A second press closes those and opens the gates at (17, 8). This switch does NOT solve the main puzzle of reaching the eastern corridor.
 - **B1F Dynamic Gates:** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
 ### C. Deprecated Hypotheses (Pokemon Mansion 1F Puzzle)
-- **Eastern Corridor Solution (1F):** The trigger is located in the eastern hallway of 1F (Failed after exploring the entire corridor).
-- **Multi-floor Solution (Direct Trigger):** The trigger for the 1F sealed room is located on 2F or 3F and directly affects the 1F gates (Failed after numerous attempts to find a direct link).
-- Direct interaction with gates (2 attempts).
-- Hidden switch in statues (1 attempt).
-- Walking into the gates (1 attempt).
-- Scientist interaction post-basement (1 attempt).
-- ITEMFINDER use (1 attempt).
-- Hidden pressure plate on floor (Exhaustive search of all 23 walkable tiles failed).
-- Re-interacting with Scientist after exploring (1 attempt).
-- Direct path from west to east on 1F (Initial pathfinder check failed, but system has now confirmed a path exists. Re-evaluating).
+- **Direct Path from West to East on 1F:** This was my initial assumption, but my `pathfinder` tool, even after being fixed, could not find a path. This confirms the solution is not a simple walk.
+- **Alternating Switch Solution:** Repeatedly flipping the switch at (3, 6) only toggles between two states and does not grant access to the sealed eastern room. (Failed after 10+ attempts).
+- **Multi-floor Solution (Direct Trigger):** The trigger for the 1F sealed room is located on 2F or 3F and directly affects the 1F gates. (This is a secondary hypothesis to return to if the systematic search fails).
