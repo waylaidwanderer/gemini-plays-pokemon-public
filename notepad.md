@@ -55,4 +55,4 @@
 - **Test 1:** Pressed the switch at (19, 26). Now need to observe the gates.
 - **Hypothesis 2:** The item at (20, 26) is the Secret Key.
 - **Test 2:** Picked up the item at (20, 26). It was TM14 BLIZZARD, not the Secret Key. Hypothesis disproven.
-- **Progress:** Defeated Burglar at (17, 24). The path to the switch is now clear. Next step is to check the gates.
+- **Progress:** Confirmed Switch 1 at (19, 26) opens the western gates (14, 23). Picked up TM14 BLIZZARD. Next step is to explore the area west of the now-open gates.
