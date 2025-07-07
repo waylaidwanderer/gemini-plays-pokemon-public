@@ -38,7 +38,6 @@
 ## II. Key Items & TMs
 *   **HM01 (CUT):** Clears small trees. Requires the Hive Badge.
 *   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
-*   **COIN CASE:** Allows playing at the Game Corner. Found in the Goldenrod Underground.
 
 ## III. Active Puzzles & Hypotheses
 
