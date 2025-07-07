@@ -59,3 +59,6 @@
 - **Rigorously Falsify Hypotheses:** When a puzzle mechanic is discovered (e.g., a proximity trigger for gates), I must actively try to disprove the initial conclusion. For example, test if other tiles or actions also trigger the event, not just the one first observed. This will prevent confirmation bias.
 
 ## VI. To-Do List
+### C. Future Tests & Agent Development
+- **Dungeon Navigator Agent Idea:** For future complex areas, define an agent that can process map data across multiple floors, track switch/gate states, and understand non-linear connections (warps, holes, proximity triggers) to suggest optimal paths or puzzle solutions.
+- **B1F Puzzle Falsification Test:** Once healed, return to B1F. To disprove confirmation bias, perform a falsification test: Flip the switch to prime one set of gates (e.g., northern), but then walk to a different set (e.g., western). The hypothesis predicts the western gates will remain closed. This will provide stronger confirmation of the 'prime and trigger' mechanic.
