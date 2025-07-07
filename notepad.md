@@ -13,46 +13,46 @@
 *   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile), `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
 *   **Complex Tiles:**
-    *   `FLOOR_UP_WALL`: Functions as a one-way ledge. Can be entered from below and from the sides (left/right). Cannot be exited by moving up, but can be exited by moving down or sideways to an adjacent `FLOOR_UP_WALL` tile.
-    *   `WARP_CARPET_DOWN`: Activated by walking onto the tile in the specified direction (e.g., 'Down' for a down-facing carpet). Pressing 'A' has no effect.
+    *   `FLOOR_UP_WALL`: One-way ledge. Enter from below/sides. Cannot exit by moving up.
+    *   `WARP_CARPET_DOWN`: One-way warp. Activated by walking onto the tile in the specified direction.
 
 ### Untested Tile Types (High Priority)
-* `RAILING`: Needs testing. Located on the Goldenrod Dept. Store Roof.
-* `PIPE_HORIZONTAL`: Needs testing.
-* `PIPE_VERTICAL`: Needs testing.
-* `WATER`: Needs testing.
-* `LINK_CABLE`: Needs testing. Located on Pokecenter2F.
-* `TRADE_MACHINE`: Needs testing. Located on Pokecenter2F.
-* `LADDER`: Needs testing. Located in this basement but unreachable.
+* `RAILING`: Located on the Goldenrod Dept. Store Roof.
+* `PIPE_HORIZONTAL`
+* `PIPE_VERTICAL`
+* `WATER`
+* `LINK_CABLE`: Located on Pokecenter2F.
+* `TRADE_MACHINE`: Located on Pokecenter2F.
+* `LADDER`: One in Goldenrod Dept. Store basement is unreachable.
 
 ### Other Mechanics
 *   **Item Effects:**
     *   **BERRY:** Restores 10 HP. Found at `FRUIT_TREE`s.
     *   **EVERSTONE:** Prevents evolution.
-    *   **MOOMOO MILK:** Restores 100 HP. Purchased at MOOMOO FARM.
+    *   **MOOMOO MILK:** Restores 100 HP.
 *   **SLOWPOKETAIL:** Offered for sale on Route 32. Purpose unknown.
 *   **Vending Machine Drinks:** Can refresh tired POKéMON.
-*   **Hidden Items:** Must be interacted with from an adjacent tile, not by standing on the item's tile. Exact orientation might matter.
-*   **Haircuts:** Getting a haircut from the brothers in the Goldenrod Underground increases a Pokémon's happiness.
+*   **Hidden Items:** Must be interacted with from an adjacent tile.
+*   **Haircuts:** Increases a Pokémon's happiness.
 
-## II. Key Items, HMs, & TMs
-*   **HM01 (CUT):** Clears small trees. Requires the Hive Badge. Taught to SUNDEW.
+## II. Key Items & TMs
+*   **HM01 (CUT):** Clears small trees. Requires the Hive Badge.
 *   **TM49 (Fury Cutter):** Gets stronger with each consecutive hit.
 *   **COIN CASE:** Allows playing at the Game Corner. Found in the Goldenrod Underground.
 
 ## III. Active Puzzles & Hypotheses
 
-### Goldenrod City
-*   **Fact:** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo). Progress is impossible this way for now.
-*   **Hypothesis 1:** The 'basement of the DEPT.STORE' is a required area to progress the story and reach the Goldenrod Gym.
-*   **Hypothesis 2 (Alternative):** The basement is a side area. The gym is located elsewhere, possibly behind an un-interacted NPC or in a misidentified building.
-*   **Test:** Explore the basement. If it's a dead end or doesn't yield a key item/event, Hypothesis 1 is false. I must then systematically re-explore the city.
+### Goldenrod City Path Forward
+*   **Obstacle:** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo).
+*   **Hypothesis 1:** The Goldenrod Gym Leader, Whitney, must be defeated. This may provide an item or trigger an event to clear the tree.
+    *   **Test:** Locate and defeat the Goldenrod Gym Leader.
+*   **Hypothesis 2 (Alternative):** Progress is tied to the Radio Tower issue. The 'something wrong with the DIRECTOR' must be resolved.
+    *   **Test:** Find a way to get past the guard on Radio Tower 2F.
 
-### Radio Tower
-*   **Fact:** A Black Belt on the 2nd floor is blocking the stairs to 3F. He says only 'authorized personnel' can pass because 'something is wrong with the DIRECTOR'.
-*   **Clue:** Liz and a Super Nerd mentioned a strange radio broadcast. This is likely the key to this puzzle, but I was unable to operate the Pokégear radio.
-
-## IV. Agent & Tool Development
-*   **ui_navigator Agent:** Created to help navigate complex menus. Needs to be tested.
-*   **nickname_genius Agent:** Must be tested at the next opportunity (catching a new Pokémon).
-*   **Goldenrod Dept. Store Basement:** This area is divided into multiple, unconnected sections. The ladder at (17, 2) and several items are unreachable from the initial entry point. The area appears to be a one-way loop accessed from the elevator.
+### Untested Assumptions
+*   **Assumption:** The building at (31, 21) in Goldenrod is the Gym.
+    *   **Alternative Hypothesis:** It's a regular building. The Gym is elsewhere, possibly behind an NPC I haven't spoken to or in a misidentified building.
+    *   **Test to Disprove:** Explore the building. If it's not the gym, I must systematically re-explore Goldenrod City, talking to every single NPC again.
+*   **Assumption:** I need a key item to get past the strange tree (Sudowoodo).
+    *   **Alternative Hypothesis:** It requires a specific Pokémon, a story event trigger elsewhere, or a special interaction (like using a specific move).
+    *   **Test to Disprove:** After exhausting item-based possibilities, return to the tree after major story events (like beating the gym) to check for changes.
