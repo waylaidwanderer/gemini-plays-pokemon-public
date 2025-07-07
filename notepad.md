@@ -56,3 +56,6 @@
 *   **Assumption:** I need a key item to get past the strange tree (Sudowoodo).
     *   **Alternative Hypothesis:** It requires a specific Pokémon, a story event trigger elsewhere, or a special interaction (like using a specific move).
     *   **Test to Disprove:** After exhausting item-based possibilities, return to the tree after major story events (like beating the gym) to check for changes.
+
+### Agent Testing
+*   **`nickname_genius`:** Untested. Use at next opportunity (catching a new Pokémon).
