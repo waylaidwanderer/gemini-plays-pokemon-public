@@ -34,5 +34,9 @@
 
 ### B. In-Progress Puzzles & Active Hypotheses
 #### B1. Pokemon Mansion Puzzles
-- **Current Situation (T54770):** I am currently trapped in an isolated room on 1F at (21, 19). The gates at (21, 18) and (22, 18) are closed, blocking the exit. I have confirmed there is no switch within this room.
-- **Revised Hypothesis (T54786):** The switch at (19, 26) on B1F has a more complex function. My test confirmed that flipping it closes the western gates (14, 23/24) but does NOT open the northern gates (17, 17/18) as initially hypothesized. The eastern gates (27, 18/19) are now open. The new hypothesis is that I must use the eastern path to loop around and reach the warp back to 1F. It's still unclear if this switch affects the 1F gates.
+- **B1F Switch (19, 26) - Complex Gate Control:** This switch has a multi-state function.
+  - **State 1 (Initial):** Western gates (14, 23/24) are open. Eastern gates (27, 18/19) are closed.
+  - **State 2 (First Flip):** Western gates close. Eastern gates open. Northern gates (17, 17/18) remain closed.
+  - **State 3 (Second Flip):** Western gates re-open. Eastern gates close.
+  - **Conclusion:** The switch cycles between opening the western and eastern paths. It does not appear to affect the northern gates or the gates on 1F.
+- **1F Gate Puzzle (21, 18 & 22, 18):** These gates trapped me in a room. My initial hypothesis that the B1F switch controlled them was incorrect. The only remaining variable is the switch at (3,6) on 1F. I must test if this switch opens these gates.
