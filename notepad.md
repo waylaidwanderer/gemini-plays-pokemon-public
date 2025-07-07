@@ -44,21 +44,14 @@
 ### Goldenrod City Path Forward
 *   **Obstacle:** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo).
 *   **Hypothesis 1:** The Goldenrod Gym Leader, Whitney, must be defeated. This may provide an item or trigger an event to clear the tree.
-    *   **Test:** Locate and defeat the Goldenrod Gym Leader.
 *   **Hypothesis 2 (Alternative):** Progress is tied to the Radio Tower issue. The 'something wrong with the DIRECTOR' must be resolved.
-    *   **Test:** Find a way to get past the guard on Radio Tower 2F.
-
-### Acquiring an Abra
-*   **Hypothesis 1:** Win an Abra at the Game Corner.
-*   **Hypothesis 2 (Alternative):** Abra can be caught in the wild on Route 34.
-    *   **Test:** Battle wild Pokémon in the grass on Route 34.
-
-### Untested Assumptions
-*   **Correction (Failed Hypothesis):** The building at (31, 21) is the Happiness Rater's house, not the Gym. The Gym's location is currently unknown. New plan is to explore the city.
-
-### Agent Testing
-*   **`nickname_genius`:** Untested. Use at next opportunity (catching a new Pokémon).
 
 ### Goldenrod Gym Puzzle
-*   **Layout:** The gym appears to be a maze of raised platforms and walkways. The path is not straightforward.
-*   **Attempt 1:** Navigated from entrance (2, 17) up to (1, 12), then to (0, 8), then to (0, 4) where I battled Beauty Victoria. Continued to (2, 1). Whitney is visible at (8, 3), but the direct path is blocked. The puzzle seems to involve finding the correct route through the maze.
+*   **Layout:** The gym is a maze of raised platforms and walkways. The path is not straightforward.
+*   **Current Understanding:** The path seems to be shaped like a Clefairy. I have explored the left 'arm' and battled Beauty Victoria. I can see the Gym Leader, Whitney, but the path is blocked by walls.
+*   **Hypothesis:** The puzzle is not a simple navigation maze. There may be hidden switches or triggers related to the trainers or statues that alter the path.
+*   **Plan:** Systematically explore all reachable paths, battle all trainers, and interact with all objects to uncover the solution.
+
+### Agent & Tool Development
+*   **`maze_solver_v1`:** The A* pathfinding tool failed in the gym. It has been updated with debugging prints. The next step is to test it again in the gym to diagnose the failure.
+*   **`nickname_genius`:** Untested. Must be used at the next opportunity.
