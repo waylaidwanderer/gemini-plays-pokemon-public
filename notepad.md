@@ -12,8 +12,8 @@
 - **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Water Tiles (Silph Co.):** The water tiles on the first floor of Silph Co. are purely cosmetic and function as `impassable` walls.
 - **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
-
-- **Gates:** `closed_gate` tiles are impassable. `open_gate` tiles are unlocked and function as `ground`. Some are opened by switches, others require a KEY CARD.
+- **Hole Tiles:** Warp tiles that lead to a lower map area. Often function as one-way drops.
+- **Gates:** `closed_gate` tiles are impassable barriers. `open_gate` tiles are unlocked and function as `ground`. Some are opened by switches, others require a KEY CARD.
 - **Elevators (Silph Co.):** Require interaction with the control panel to select a floor, then moving onto the warp tile at the back.
 - **Saffron Gym Teleporters:** 1x1 warp tiles. To use a warp, move onto the tile. If already on a warp, move off and back on to trigger.
 - **2x1 Warps (Cinnabar Lab):** To use these horizontal floor warps, stand on one of the two tiles and press into the impassable boundary (e.g., Down).
@@ -21,8 +21,8 @@
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
 - **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; **Psychic > Flying** (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
-- **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); **Ice !> Gyarados (Water/Flying)** (confirmed: NEPTUNE's AURORA BEAM vs Fisherman's GYARADOS).
-- **Immunities:** Flying-type immune to Ground-type moves; MUK immune to Poison-type moves; **Electric is effective vs Sabrina's Psychic team, confirming Psychic types are NOT immune to Electric.**; **HYPNO immune to STUN SPORE** (powder moves).
+- **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); **Ice !> Gyarados (Water/Flying)** (confirmed: NEPTUNE's AURORA BEAM vs Fisherman's GYARADOS); Poison !> Poison (confirmed: ECHO's SLUDGE vs MUK).
+- **Immunities:** Flying-type immune to Ground-type moves; MUK immune to Poison-type moves; **Electric is effective vs Sabrina's Psychic team, confirming Psychic types are NOT immune to Electric.**; **HYPNO immune to STUN SPORE** (powder moves); **MUK immune to THUNDER WAVE** (Electric-type status move).
 
 #### B2. Battle & Field Mechanics
 - **Evasion:** PSYWAVE and CONFUSE RAY can fail against targets with high evasion boosts (e.g., from MINIMIZE).
@@ -50,21 +50,7 @@
 
 ### B. In-Progress Puzzles & Active Hypotheses
 #### B1. Pokemon Mansion B1F
-- **OVERWATCH CORRECTIVE (T54333):** My previous conclusion that B1F was a dead end was incorrect. The system has confirmed there are reachable barriers, so the solution MUST be on this floor. The plan to leave is abandoned.
+- **Puzzle Re-evaluation (T54512):** The 'Reachable Barriers' information confirms a solution exists on B1F. A previous hypothesis of a hidden trigger for the eastern gates was debunked. The puzzle is a navigational challenge solvable with the single switch at (19, 26). The goal is to find the Secret Key, which is likely an item ball hidden within the maze.
 - **Observations:** This floor is a maze with multiple sets of gates: western (14, 23/24), northern (17, 17/18), and eastern (27, 18 & 28, 18). The only interactive object found is a switch at (19, 26).
-- **Test Conclusion (T54226):** The switch at (19, 26) is a two-state toggle that ONLY controls the western and northern gates, opening one set while closing the other. It does NOT affect the eastern gates.
-- **Current Hypothesis:** There MUST be another hidden switch or trigger mechanism on B1F that opens the eastern gates. The Secret Key is likely behind them.
-- **Current Test Plan:** Systematically re-explore the floor to find the hidden trigger.
-
-- **Systematic Search Log (B1F East):**
-  - Tested Tiles: (26, 19), (27, 19), (28, 19), (29, 19), (29, 20), (29, 21)
-- **MUK Immunity:** Confirmed MUK is immune to THUNDER WAVE (Electric-type status move). (Confirmed T54409)
-- **Not Very Effective:** Poison !> Poison (confirmed: ECHO's SLUDGE vs MUK)
-- **Gates:** `closed_gate` tiles are impassable barriers. `open_gate` tiles are unlocked and function as `ground`.
-- **Gates:** `closed_gate` tiles are impassable barriers. `open_gate` tiles are unlocked and function as `ground`.
-- **Systematic Search Log (B1F Central):**
-  - Tested Tiles: (22, 18)
-- Systematic Search Log (B1F Central):
-  - Tested Tiles: (22, 18), (22, 17), (22, 16), (22, 15), (22, 14), (22, 13)
-- - **Puzzle Re-evaluation (T54512):** The 'Reachable Barriers' information confirms a solution exists on B1F. The hypothesis of a hidden trigger for the eastern gates is officially debunked. The puzzle must be a navigational challenge solvable with the single switch at (19, 26). The goal is to find the Secret Key, which is likely an item ball hidden within the maze.
-- - **Puzzle Re-evaluation (T54512):** The 'Reachable Barriers' information confirms a solution exists on B1F. The hypothesis of a hidden trigger for the eastern gates is officially debunked. The puzzle must be a navigational challenge solvable with the single switch at (19, 26). The goal is to find the Secret Key, which is likely an item ball hidden within the maze.
+- **Test Conclusion (T54226):** The switch at (19, 26) is a two-state toggle that ONLY controls the western and northern gates, opening one set while closing the other. It does NOT affect the eastern gates. The eastern gates opened automatically after reaching a specific area (22, 16), suggesting a proximity trigger.
+- **Current Hypothesis:** The Secret Key is located in the final eastern chamber. The entire floor is a large loop, and I must navigate it correctly using the switch to reach the key.
