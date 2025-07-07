@@ -33,7 +33,7 @@
 *   **Vending Machine Drinks:** Can refresh tired POKéMON.
 *   **Hidden Items:** Must be interacted with from an adjacent tile.
 *   **Haircuts:** Increases a Pokémon's happiness.
-*   **Pokégear UI:** The Phone function has a sub-menu ('Whom do you want to call?'). Pressing 'B' is required to exit this sub-menu and return to the main Pokégear navigation.
+*   **Pokégear UI:** The Phone function has a sub-menu ('Whom do you want to call?'). This is a modal state. Directional buttons are DISABLED. You MUST press 'B' to exit this sub-menu and return to the main Pokégear navigation.
 
 ## II. Key Items & TMs
 *   **COIN CASE:** Allows playing at the Game Corner. Found in the Goldenrod Underground.
