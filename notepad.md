@@ -61,3 +61,6 @@
 *   **`nickname_genius` Testing:** Must use this agent the next time a Pokémon is caught to evaluate its performance.
 *   **`quest_strategist`:** This agent should be used for getting unstuck on complex puzzles.
 *   **`ui_navigator`:** Has been refined to understand the 'B' button is for backing out of sub-menus.
+
+### Potential New Agents
+*   `puzzle_solver`: An agent to help with complex, non-navigational puzzles. Could take the puzzle's state (e.g., phone call loop, Pokégear state) and failed attempts as input and suggest new, creative hypotheses to test.
