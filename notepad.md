@@ -65,4 +65,4 @@
 - **Systematic Search Log (B1F Central):**
   - Tested Tiles: (22, 18)
 - Systematic Search Log (B1F Central):
-  - Tested Tiles: (22, 18), (22, 17), (22, 16)
+  - Tested Tiles: (22, 18), (22, 17), (22, 16), (22, 15)
