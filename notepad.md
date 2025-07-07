@@ -22,8 +22,8 @@
 * `WATER`
 * `LINK_CABLE`: Located on Pokecenter2F.
 * `TRADE_MACHINE`: Located on Pokecenter2F.
-* `WARP_CARPET_LEFT`: Located in the Route 36 National Park Gate. Hypothesis: Activated by pressing 'Left' while standing on it.
-* `WARP_CARPET_DOWN`: Activation method needs re-verification. Previously believed to be activated by pressing 'Down', but may be movement-based like other warp carpets. 
+* `WARP_CARPET_LEFT`: Located in the Route 36 National Park Gate. Activation confirmed: Pressing 'Left' while standing on the tile triggers the warp.
+* `WARP_CARPET_DOWN`: Activation method needs re-verification. Hypothesis: Activated by pressing 'Down' while standing on it, similar to WARP_CARPET_LEFT.
 
 ### Other Mechanics
 *   **Item Effects:**
