@@ -50,11 +50,15 @@
 
 ### B. In-Progress Puzzles & Active Hypotheses
 #### B1. Pokemon Mansion B1F
-- **Observation:** This floor is a maze with a central impassable structure. There is a switch at (19, 26), an item at (20, 26), and two sets of closed gates at (27, 18)/(28, 18) and (14, 23)/(14, 24). A Burglar blocked the path at (17, 24).
-- **Hypothesis 1:** The switch at (19, 26) controls the state of the closed gates at (14, 23)/(14, 24) and/or (27, 18)/(28, 18).
-- **Test 1:** Pressed the switch at (19, 26). Now need to observe the gates.
-- **Hypothesis 2:** The item at (20, 26) is the Secret Key.
-- **Test 2:** Picked up the item at (20, 26). It was TM14 BLIZZARD, not the Secret Key. Hypothesis disproven.
-- **Progress:** Confirmed Switch 1 at (19, 26) opens the western gates (14, 23). Picked up TM14 BLIZZARD and a Full Restore. Read the diary at (17, 21) - it was just lore about Mewtwo. The Secret Key remains unfound. New gates appeared at (17, 17) and (18, 17) after exploring the northern part of the western corridor.
-- **Hypothesis 4:** The Secret Key is located in the remaining unexplored southern section of the western corridor.
-- **Test 4:** Systematically explore the southern corridor.
+- **Observations:** 
+  - This floor is a maze with a central impassable structure.
+  - A switch at (19, 26) opens the western gates at (14, 23)/(14, 24).
+  - The eastern gates at (27, 18)/(28, 18) remain closed.
+  - After exploring the northern part of the western corridor, new gates appeared at (17, 17) and (18, 17).
+  - Items found: TM14 BLIZZARD at (20, 26), Full Restore at (2, 23).
+  - Diary at (17, 21) contains only lore about Mewtwo.
+- **Current Hypothesis:** The Secret Key is located in the remaining unexplored southern section of the western corridor.
+- **Test Plan:** Systematically explore the southern corridor.
+- **Untested Assumptions & Future Tests:**
+  - **Assumption 1:** The Secret Key is on B1F. **Test:** If B1F is fully explored and no key is found, I must re-explore other floors.
+  - **Assumption 2:** The switch at (19, 26) only opens the western gates. **Test:** If stuck, return to the switch and press it again to see if it toggles the new gates at (17, 17) or the eastern gates at (27, 18).
