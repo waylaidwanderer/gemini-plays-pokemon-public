@@ -52,15 +52,15 @@
 #### B1. Pokemon Mansion B1F
 - **Observations:**
   - This floor is a maze with a central impassable structure.
-  - There are three sets of gates: western (14, 23/24), northern (17, 17/18), and eastern (27, 18/28). All are currently closed.
+  - There are three sets of gates: western (14, 23/24), northern (17, 17/18), and eastern (27, 18/28).
   - Items found: TM14 BLIZZARD at (20, 26), Full Restore at (2, 23).
   - Diary at (17, 21) contains only lore about Mewtwo.
-- **Confirmed Mechanic:** The switch at (19, 26) is a toggle.
-  - **Attempt 1:** Opened western gates.
-  - **Attempt 2:** Closed western gates.
-- **Current Hypothesis:** The second press of the switch opened either the northern gates (17, 17) or the eastern gates (27, 18). The Secret Key is behind whichever set of gates is now open.
-- **Test Plan:**
-  1. Check the northern gates at (17, 17).
-  2. If they are closed, check the eastern gates at (27, 18).
+- **Confirmed Mechanic:** The switch at (19, 26) is a three-way toggle for the gates.
+  - **State 1 (Initial):** All gates closed.
+  - **State 2 (1st Press):** Western gates (14, 23) OPEN. Northern & Eastern gates CLOSED.
+  - **State 3 (2nd Press):** Northern gates (17, 17) OPEN. Western & Eastern gates CLOSED.
+- **Current Hypothesis:** The Secret Key is located in the newly accessible northern area.
+- **Test Plan:** Explore the northern area behind the now-open gates.
 - **Untested Assumptions & Future Tests:**
-  - **Assumption 1:** The Secret Key is on B1F. **Test:** If B1F is fully explored and no key is found, I must re-explore other floors.
+  - **Assumption 1:** A third press of the switch will open the eastern gates (27, 18).
+  - **Assumption 2:** The Secret Key is on B1F. Test: If the floor is fully explored and no key is found, I must re-explore other floors.
