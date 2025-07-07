@@ -10,7 +10,7 @@
 
 ### Verified Tile Types
 *   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `VOID`, `MART_SHELF`, `COUNTER`
-*   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters), `LONG_GRASS` (Wild Encounters)
+*   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters), `TALL_GRASS` (Wild Encounters), `LONG_GRASS` (Wild Encounters)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile), `STAIRCASE` (Move onto tile).
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`.
 *   **Complex Tiles:**
