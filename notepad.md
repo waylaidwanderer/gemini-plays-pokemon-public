@@ -26,14 +26,12 @@
 
 ## III. Puzzle & Hypothesis Log
 ### A. In-Progress Puzzles & Active Hypotheses
-#### A1. Pokemon Mansion 2F Puzzle
-- **Observation:** The game has explicitly identified four 'Reachable Barriers' on 2F at (19, 9), (20, 9), (8, 23), and (8, 24). The system's information is the source of truth.
-- **Hypothesis Test 1 (Switch at (3,12)):**
-    - **Hypothesis:** Activating the switch at (3, 12) will open one of the 'Reachable Barriers'.
-    - **Test:** Pressed the switch once.
-    - **Result:** The gates at (10, 5) and (10, 6) opened. The 'Reachable Barriers' remained closed.
-    - **Conclusion:** Hypothesis is partially correct. The switch works, but on a different set of gates.
-- **Active Hypothesis 2:** The switch at (3, 12) operates on an alternating cycle, as hinted by the Super Nerd. Pressing it a second time will close the gates at (10, 5)/(10, 6) and open one or more of the 'Reachable Barriers'. My next action is to press the switch again.
+#### A1. Pokemon Mansion 2F Alternating Switch (Solved)
+- **Observation:** A switch at (3, 12) and a Super Nerd's clue about 'alternating sets of doors' pointed to the puzzle's solution.
+- **Hypothesis:** The switch at (3, 12) alternates between opening two sets of gates.
+- **Test 1:** Pressed the switch. Result: Gates at (10, 5) and (10, 6) opened.
+- **Test 2:** Pressed the switch again. Result: Gates at (10, 5)/(10, 6) closed, and gates at (19, 9), (20, 9), (8, 23), and (8, 24) opened.
+- **Conclusion:** Hypothesis confirmed. The switch toggles between a northern set of gates and a southern/eastern set.
 
 ### B. Solved Puzzles & Confirmed Mechanics
 - **1F West Switch (Confirmed):** The switch at (3, 6) on 1F alternates between opening two sets of gates. First press opens the gates at (25, 14). A second press closes those and opens the gates at (17, 8). This switch does NOT solve the main puzzle of reaching the eastern corridor.
