@@ -4,7 +4,7 @@
 - **Hypothesis-Driven Gameplay:** I will rigorously document my hypotheses, tests, and conclusions in my notepad. I will avoid repeating failed strategies and will pivot to new goals if progress stalls after multiple documented attempts.
 
 ## II. Tool Development Log
-- **pathfinder:** REFINED (T52445). Added logic to handle impassable destination tiles by pathing to the nearest walkable adjacent tile. REFINED AGAIN (T52447) to correctly recognize 'closed_gate' tiles as impassable. REFINED A THIRD TIME (T52480) to remove dependency on `xml.et` module. REFINED A FOURTH TIME (T53844) with improved parsing logic.
+- **pathfinder:** REFINED (T54601). Added more robust parsing logic to correctly handle impassable objects and improve error logging.
 
 ## III. Game Mechanics & Battle Intel
 ### A. Tile Mechanics & Traversal Rules
@@ -50,13 +50,13 @@
 
 ### B. In-Progress Puzzles & Active Hypotheses
 #### B1. Pokemon Mansion B1F
-- **Puzzle Re-evaluation (T54512):** The 'Reachable Barriers' information confirms a solution exists on B1F. A previous hypothesis of a hidden trigger for the eastern gates was debunked. The puzzle is a navigational challenge solvable with the single switch at (19, 26). The goal is to find the Secret Key, which is likely an item ball hidden within the maze.
-- **Observations:** This floor is a maze with multiple sets of gates: western (14, 23/24), northern (17, 17/18), and eastern (27, 18 & 28, 18). The only interactive object found is a switch at (19, 26).
-- **Test Conclusion (T54226):** The switch at (19, 26) is a two-state toggle that ONLY controls the western and northern gates, opening one set while closing the other. It does NOT affect the eastern gates. The eastern gates opened automatically after reaching a specific area (22, 16), suggesting a proximity trigger.
-- **Current Hypothesis:** The Secret Key is located in the final eastern chamber. The entire floor is a large loop, and I must navigate it correctly using the switch to reach the key.
+- **Current Hypothesis (T54630):** The B1F puzzle is a large loop with three sets of gates (western, northern, eastern) controlled by a single switch at (19, 26). The puzzle operates on a two-step 'prime and trigger' mechanic. **Step 1:** Flipping the switch 'primes' one set of gates (e.g., western). **Step 2:** Walking to that specific set of gates triggers them to open. This was confirmed to work for the northern gates (T54600) and the western gates (T54630). The Secret Key must be located in the final section accessible after navigating this loop correctly.
 
 ## V. Future Development & Testing Protocols
 ### A. Agent Ideas
 - **Dungeon Navigator Agent:** For complex, multi-floor puzzles like the Pokémon Mansion, a more advanced agent could be beneficial. It would need to process map data across multiple floors, track switch states, and understand non-linear connections (warps, holes, proximity triggers) to suggest optimal paths or solutions.
 ### B. Puzzle Testing Protocols
 - **Rigorously Falsify Hypotheses:** When a puzzle mechanic is discovered (e.g., a proximity trigger for gates), I must actively try to disprove the initial conclusion. For example, test if other tiles or actions also trigger the event, not just the one first observed. This will prevent confirmation bias.
+
+## VI. To-Do List
+- When back on Pokemon Mansion 1F (Map ID 165), delete the redundant marker at (3, 6) with the label '💡 Toggles W & S gates inversely'.
