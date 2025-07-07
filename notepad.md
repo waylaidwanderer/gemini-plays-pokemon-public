@@ -25,10 +25,12 @@
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center. You respawn in front of the trainer you lost to.
 
 ## III. Puzzle & Hypothesis Log
-### A. Solved Puzzles
+### A. Current Puzzles
+- **Pokemon Mansion 2F Alternating Switch:** The switch at (3, 12) alternates between two states. State 1 opens the northern gates at (10, 5) and (10, 6). State 2 closes the northern gates and is intended to open the gates at (19, 9), (20, 9), (8, 23), and (8, 24). System has confirmed these four gates are 'Reachable Barriers', suggesting a way to open them exists on this floor. **Current Hypothesis:** Flipping the switch to State 2 is the first step. The next step is to find another trigger or path.
+
+### B. Solved Puzzles
 - **Pokemon Mansion 1F Alternating Switch (Solved):** The switch at (3, 6) is an alternating switch. Pressing it toggles between opening the eastern gates (25, 14) and the western gates (17, 8). The final solution requires opening the western gates, passing through them, which then automatically triggers the eastern gates to open, granting access to the southern area of the mansion.
-- **Pokemon Mansion 2F Alternating Switch (Solved):** The switch at (3, 12) alternates between opening two sets of gates. The first press opens the northern gates at (10, 5) and (10, 6). The second press closes those gates and opens a new set of four gates: two in the east at (19, 9) and (20, 9), and two in the south at (8, 23) and (8, 24). Accessing the areas behind these new gates requires navigating to the 3rd floor and dropping through specific holes.
 - **Pokemon Mansion B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
-### B. Deprecated Hypotheses
+### C. Deprecated Hypotheses
 - **Multi-Floor Pathing Solution (Deprecated):** My initial hypothesis was that the path to the eastern side of 1F must be on another floor. **Conclusion:** This was invalidated by a system notification about 'Reachable Barriers' on 1F, confirming the solution is on the same floor.
