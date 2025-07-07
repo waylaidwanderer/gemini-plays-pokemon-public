@@ -59,4 +59,3 @@
 - **Rigorously Falsify Hypotheses:** When a puzzle mechanic is discovered (e.g., a proximity trigger for gates), I must actively try to disprove the initial conclusion. For example, test if other tiles or actions also trigger the event, not just the one first observed. This will prevent confirmation bias.
 
 ## VI. To-Do List
-- When back on Pokemon Mansion 1F (Map ID 165), delete the redundant marker at (3, 6) with the label '💡 Toggles W & S gates inversely'.
