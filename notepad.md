@@ -66,3 +66,9 @@
 ## VI. Learnings & Mistakes
 * **Major Hallucination (Turn 26485-26490):** I mistakenly believed I was in Violet City after taking a map connection from Route 36. I was actually in a small, isolated section of Route 36 the whole time. This led to several wasted turns trying to explore unreachable warps. I must be more careful verifying my location after map transitions and pay attention to system warnings about my position.
 * **Interaction Failures:** I have repeatedly failed to interact with NPCs because I was not facing them correctly. I must ensure I am facing the target before pressing 'A'.
+
+### Event-Triggered Tiles
+*   **HM-Activated Events:** Some tiles, while appearing as normal `FLOOR`, may trigger events or open paths when a specific HM is used in the area (e.g., using FLASH near a 'LIGHT' puzzle).
+
+### Agent & Tool Development
+*   **`puzzle_solver_agent`:** Takes environmental clues (like wall text) and a list of failed attempts as input. It should then suggest new, logical hypotheses to test, such as using a specific item or HM.
