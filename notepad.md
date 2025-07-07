@@ -53,8 +53,7 @@
 *   **Goldenrod Dept. Store Sale:** Camper Todd called to let me know there's a bargain sale on now.
 *   **Team Rocket in Goldenrod:** The Radio Tower entrance is blocked by a Grunt. The Underground seems to be the only other lead. My current hypothesis is that solving a puzzle in the Underground will clear the path in the Radio Tower.
     *   **Alternative Hypothesis:** The trigger for the Team Rocket event is an NPC or event elsewhere in Goldenrod City, and the Underground is a side area. If the Underground is a dead end, I must systematically re-talk to every NPC in the city.
-* **Ruins of Alph Puzzle:** The chamber I am in has a puzzle on the north wall. Hypothesis: solving this puzzle is required to progress.
-    * **Alternative Hypothesis:** The puzzle is optional, and the real path is through one of the other warps in this area.
+* **Ruins of Alph Puzzle:** Solved the 'ESCAPE' puzzle in the Inner Chamber. Approaching the puzzle wall triggered a secret passage, warping me outside. This has likely unlocked new events or areas within the Ruins of Alph.
 
 ## IV. Agent & Tool Development
 
