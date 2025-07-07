@@ -45,4 +45,5 @@
 - **Observation:** After being unexpectedly warped from 2F to 1F, the system notified me of 'Reachable Barriers' on 1F, specifically the gates at (17, 8), (18, 8), (25, 14), and (26, 14). This invalidates the hypothesis that the solution required multi-floor pathing.
 - **Hypothesis:** The switch at (3, 6) on 1F is an alternating switch that controls both sets of gates.
 - **Test 1:** Pressed the switch. Result: Gates at (25, 14) and (26, 14) opened. The gates at (17, 8) and (18, 8) remained closed. This partially confirms the hypothesis.
-- **Active Test:** Press the switch a second time to see if it closes the eastern gates and opens the western ones.
+- **Test 2:** Pressed the switch a second time. Result: Gates at (25, 14)/(26, 14) closed, and gates at (17, 8)/(18, 8) opened.
+- **Conclusion:** Hypothesis confirmed. The switch is an alternating switch. The first press opens the eastern gates, and the second press opens the western gates.
