@@ -39,12 +39,10 @@
 - **Marowak Evolution:** Confirmed that Marowak evolves from Cubone at Lv. 38.
 - **REVENANT (Marowak) learned THRASH** at Lv. 38, replacing TAIL WHIP.
 ### Pokemon Mansion 1F - Gate Puzzle Plan
-**Observation:** The system confirms the gates at (21, 18) and (27, 28) are reachable, but no direct path is visible. The switch at (3, 6) is the only interactive element.
-**Hypothesis:** A specific sequence involving the switch is required to open all gates.
+**Observation:** The system has confirmed the gates at (21, 18) and (22, 18) are reachable, validating the hypothesis that the solution is on this floor. I have already triggered the western gates, which in turn opened the eastern gates, granting me access to this southern area.
+**Hypothesis:** There is a second trigger, switch, or event located within this newly accessible southern area that will open the final gates at (21, 18) and (22, 18).
 **Test Plan:**
-1. Go to the switch at (3, 6) and interact with it to open the western gates at (17, 8).
-2. Walk through the western gates.
-3. **Expected Outcome:** The eastern gates at (25, 14) will open as a chain reaction.
-4. **Test:** Proceed through the eastern gates and explore the newly accessible southern area.
-5. **Expected Outcome:** Find a new trigger or item in the southern area that opens the final gates at (21, 18) and (27, 28).
-6. **Conclusion:** To be determined after testing.
+1. Systematically explore the entire southern corridor, from west to east.
+2. Investigate any items, NPCs, or unusual tiles.
+3. Once the trigger is found and activated, proceed to the gates at (21, 18) to confirm they are open.
+4. **Conclusion:** To be determined after exploring the southern area.
