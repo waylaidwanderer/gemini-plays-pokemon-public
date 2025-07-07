@@ -53,3 +53,7 @@
 ## IV. Exploration & Immediate Tasks
 *   Investigate unmarked warp at Goldenrod City (31, 21).
 *   Test all remaining untested tile types (`RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `WATER`) at the next available opportunity.
+
+## V. Agent & Tool Development
+*   **ui_navigator Agent:** Created to help navigate complex menus by providing the correct button sequences. Will be used to escape menu loops.
+*   **nickname_genius Agent:** Must be tested at the next opportunity (catching a new Pokémon).
