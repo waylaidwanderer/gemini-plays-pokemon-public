@@ -53,3 +53,6 @@
 *   I must mark moving objects using their `object_id`.
 *   I will use `quest_strategist` for future complex puzzles.
 *   I will use `nickname_genius` the next time I catch a Pokémon.
+
+## V. Exploration Tasks
+* Investigate unmarked warp at Goldenrod City (31, 21).
