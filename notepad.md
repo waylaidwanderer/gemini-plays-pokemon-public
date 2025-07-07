@@ -59,4 +59,3 @@
 - **Systematic Search Log (B1F East):**
   - Tested Tiles: (26, 19), (27, 19), (28, 19), (29, 19), (29, 20), (29, 21)
 - **MUK Immunity:** Confirmed MUK is immune to THUNDER WAVE (Electric-type status move). (Confirmed T54409)
-- **MUK Immunity:** Confirmed MUK is immune to THUNDER WAVE (Electric-type status move). (Confirmed T54409)
