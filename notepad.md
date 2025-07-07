@@ -1,15 +1,15 @@
 ## I. Core Protocols & Game Philosophy
 - **Immediate Data Management:** I will use `define_map_marker` and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
 - **Agent & Tool Protocol:** Agent and tool refinement is an IMMEDIATE action. If a tool is faulty or a better one can be conceived, I MUST define/redefine it on the IMMEDIATE next turn.
-- **Hypothesis-Driven Gameplay:** I will rigorously document my hypotheses, tests, and conclusions in my notepad. I will avoid repeating failed strategies and will pivot to new goals if progress stalls after multiple documented attempts.
+- **Hypothesis-Driven Gameplay:** I will rigorously document my hypotheses, tests, and conclusions in my notepad. I will avoid repeating failed strategies and will pivot to new goals if progress stalls after multiple documented attempts. When the game provides contradictory information (e.g., a barrier is marked as 'reachable' but a path cannot be found), my primary hypothesis must be that a non-standard game mechanic is at play, and my recommended action should be to test that possibility directly.
 
 ## II. Game Mechanics & Battle Intel
 ### A. Tile Mechanics & Traversal Rules
 - **Ground/Impassable:** `ground` tiles are walkable, `impassable` tiles are solid walls. All objects (NPCs, items, signs) function as impassable walls.
+- **Gates (`closed_gate`/`open_gate`):** `closed_gate` tiles are usually impassable barriers. `open_gate` tiles are previously closed gates that are now open and act as `ground`. The state of these can be toggled by switches or other triggers.
 - **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
 - **Hole Tiles:** Warp tiles that lead to a lower map area. Often function as one-way drops.
-- **Gates (`closed_gate`/`open_gate`):** The state of these can be toggled by switches or other triggers.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -25,11 +25,10 @@
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center. You respawn in front of the trainer you lost to.
 
 ## III. Puzzle & Hypothesis Log
-### A. Solved Puzzles & Confirmed Mechanics
+### A. Solved Puzzles
 - **Pokemon Mansion 1F Alternating Switch (Solved):** The switch at (3, 6) is an alternating switch. Pressing it toggles between opening the eastern gates (25, 14) and the western gates (17, 8). The final solution requires opening the western gates, passing through them, which then automatically triggers the eastern gates to open, granting access to the southern area of the mansion.
 - **Pokemon Mansion 2F Alternating Switch (Solved):** The switch at (3, 12) alternates between opening two sets of gates. The first press opens the gates at (10, 5) and (10, 6). The second press closes those gates and opens a new set at (19, 9), (20, 9), (8, 23), and (8, 24).
-- **B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
+- **Pokemon Mansion B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
 ### B. Deprecated Hypotheses
 - **Multi-Floor Pathing Solution (Deprecated):** My initial hypothesis was that the path to the eastern side of 1F must be on another floor. **Conclusion:** This was invalidated by a system notification about 'Reachable Barriers' on 1F, confirming the solution is on the same floor.
-- **Open Gates (`open_gate`):** A previously closed gate that is now open and acts as `ground`.
