@@ -50,8 +50,8 @@
 
 ### B. In-Progress Puzzles & Active Hypotheses
 #### B1. Pokemon Mansion B1F
-- **OVERWATCH CORRECTIVE (T54333):** My previous conclusion that B1F was a dead end was incorrect and based on confirmation bias. The system has confirmed there are FOUR reachable barriers. The solution MUST be on this floor.
-- **Observations:** This floor is a maze. There are four sets of closed gates that are confirmed to be reachable: western (14, 23/24), northern (17, 17/18), and two eastern sets (27, 18) & (28, 18). The only interactive object found is a switch at (19, 26).
-- **Test Conclusion (T54226):** The switch at (19, 26) is a two-state toggle. It ONLY controls the western and northern gates, opening one set while closing the other. It does NOT affect the eastern gates.
-- **Current Hypothesis:** Since the eastern gates are confirmed reachable but are not affected by the known switch, there MUST be another hidden switch or trigger mechanism on B1F that I have not yet discovered. The Secret Key is likely behind these eastern gates.
-- **Test Plan:** Systematically re-explore every tile on the current floor, especially near walls and corners, to find the hidden trigger for the eastern gates. The previous plan to leave the floor was incorrect and is abandoned.
+- **OVERWATCH CORRECTIVE (T54333):** My previous conclusion that B1F was a dead end was incorrect. The system has confirmed there are reachable barriers, so the solution MUST be on this floor. The plan to leave is abandoned.
+- **Observations:** This floor is a maze with multiple sets of gates: western (14, 23/24), northern (17, 17/18), and eastern (27, 18 & 28, 18). The only interactive object found is a switch at (19, 26).
+- **Test Conclusion (T54226):** The switch at (19, 26) is a two-state toggle that ONLY controls the western and northern gates, opening one set while closing the other. It does NOT affect the eastern gates.
+- **Current Hypothesis:** There MUST be another hidden switch or trigger mechanism on B1F that opens the eastern gates. The Secret Key is likely behind them.
+- **Current Test Plan:** Systematically re-explore the floor to find the hidden trigger.
