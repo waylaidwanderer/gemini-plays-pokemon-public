@@ -27,8 +27,8 @@
 ## III. Puzzle & Hypothesis Log
 ### A. In-Progress Puzzles & Active Hypotheses
 #### A1. Pokemon Mansion Multi-Floor Puzzle
-- **Observation:** I am physically isolated in the western corridor of 1F. The game guarantees the eastern gates at (25, 14) are reachable, but my navigation tools cannot find a path. This implies a non-standard traversal mechanic is at play.
-- **Active Hypothesis:** By performing a systematic, tile-by-tile search of the entire accessible area on 1F, I will discover the hidden mechanic or path that leads to the eastern section.
+- **Observation:** I am physically isolated in the western corridor of 1F. The game guarantees the eastern gates at (25, 14) are reachable barriers, but my `pathfinder` tool cannot find a path on this floor.
+- **Active Hypothesis:** The path to the eastern corridor of 1F is not on this floor. The 'Reachable Barrier' message, combined with the pathfinder's failure, strongly suggests the path is via a warp or hole on another floor (2F, 3F, or B1F) that leads back down to the isolated eastern section of 1F.
 
 ### B. Solved Puzzles & Confirmed Mechanics
 - **1F West Switch (Confirmed):** The switch at (3, 6) on 1F alternates between opening two sets of gates. First press opens the gates at (25, 14). A second press closes those and opens the gates at (17, 8). This switch does NOT solve the main puzzle of reaching the eastern corridor.
