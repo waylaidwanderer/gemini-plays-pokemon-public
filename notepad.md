@@ -8,7 +8,7 @@
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `VOID`, `MART_SHELF`, `COUNTER`, `COUNTER`
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PC`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `CUT_TREE`, `VOID`, `MART_SHELF`, `COUNTER`
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters)
 *   **Warps:** `DOOR`, `CAVE`, `LADDER` (Move onto tile), `STAIRCASE` (Move onto tile). Gatehouse warps are triggered by walking into the building side.
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`. Verified by attempting to move against the ledge direction.
@@ -49,8 +49,7 @@
 *   **Buena's Password Show:** Received a BLUE CARD from Buena on the 2nd floor. I can earn points by giving her passwords from the radio and trade them for prizes.
 
 ## IV. Agent & Tool Development
-*   **`pathfinder_v1`:** My standard, consolidated pathfinding tool. Replaced and deleted `path_master_v24` and `maze_explorer_v8`.
-*   **`nickname_genius` Testing:** Must use this agent the next time a Pokémon is caught to evaluate its performance.
+*   **`pathfinder_v1`:** My standard, consolidated pathfinding tool.
 *   **`quest_strategist`:** This agent should be used for getting unstuck on complex puzzles.
 *   **`ui_navigator`:** Has been refined to understand the 'B' button is for backing out of sub-menus.
 
