@@ -23,7 +23,6 @@
 * `WATER`
 * `LINK_CABLE`: Located on Pokecenter2F.
 * `TRADE_MACHINE`: Located on Pokecenter2F.
-* `LADDER`: One in Goldenrod Dept. Store basement is unreachable.
 
 ### Other Mechanics
 *   **Item Effects:**
@@ -49,13 +48,15 @@
 *   **Hypothesis 2 (Alternative):** Progress is tied to the Radio Tower issue. The 'something wrong with the DIRECTOR' must be resolved.
     *   **Test:** Find a way to get past the guard on Radio Tower 2F.
 
+### Acquiring an Abra
+*   **Hypothesis 1:** Win an Abra at the Game Corner.
+*   **Hypothesis 2 (Alternative):** Abra can be caught in the wild on Route 34.
+    *   **Test:** Battle wild Pokémon in the grass on Route 34.
+
 ### Untested Assumptions
 *   **Assumption:** The building at (31, 21) in Goldenrod is the Gym.
-    *   **Alternative Hypothesis:** It's a regular building. The Gym is elsewhere, possibly behind an NPC I haven't spoken to or in a misidentified building.
-    *   **Test to Disprove:** Explore the building. If it's not the gym, I must systematically re-explore Goldenrod City, talking to every single NPC again.
-*   **Assumption:** I need a key item to get past the strange tree (Sudowoodo).
-    *   **Alternative Hypothesis:** It requires a specific Pokémon, a story event trigger elsewhere, or a special interaction (like using a specific move).
-    *   **Test to Disprove:** After exhausting item-based possibilities, return to the tree after major story events (like beating the gym) to check for changes.
+    *   **Alternative Hypothesis:** It's a regular building. The Gym is elsewhere.
+    *   **Test to Disprove:** Explore the building. If it's not the gym, systematically re-explore Goldenrod City.
 
 ### Agent Testing
 *   **`nickname_genius`:** Untested. Use at next opportunity (catching a new Pokémon).
