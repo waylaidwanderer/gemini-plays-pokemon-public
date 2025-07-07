@@ -47,17 +47,9 @@
 *   **Objective:** Solve the sliding stone panel puzzle.
 *   **Clue:** Liz mentioned hearing a strange radio broadcast from the Ruins of Alph. This might be a clue.
 
-## IV. Tool & Agent Development
-### Core Directives
-*   I must act on tool/notepad management tasks IMMEDIATELY.
-*   I must mark moving objects using their `object_id`.
-*   I will use `quest_strategist` for future complex puzzles.
-*   I will use `nickname_genius` the next time I catch a Pokémon.
-
-## V. Exploration Tasks
-* Investigate unmarked warp at Goldenrod City (31, 21).
 ### Radio Tower
 *   **Fact:** A Black Belt on the 2nd floor is blocking the stairs to 3F. He says only 'authorized personnel' can pass because 'something is wrong with the DIRECTOR'.
 
-## V. Exploration Tasks
-* Investigate unmarked warp at Goldenrod City (31, 21).
+## IV. Exploration & Immediate Tasks
+*   Investigate unmarked warp at Goldenrod City (31, 21).
+*   Test all remaining untested tile types (`RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `WATER`) at the next available opportunity.
