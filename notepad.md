@@ -45,20 +45,14 @@
 
 ## III. Active Puzzles & Hypotheses
 
-### Route 35 Phone Call Loop
-*   **Obstacle:** Attempting to battle Camper Ivan at (4, 19) triggers a repetitive phone call about radio music, preventing the battle from starting. This is confirmed to be the only puzzle trigger.
-*   **Confirmed Failure 1:** Defeating the nearby Lass (Picnicker Brooke) at (7, 20) has no effect on the puzzle. The phone call loop persists.
-*   **Confirmed Failure 2:** Navigating the Pokégear by pressing 'Right' repeatedly fails due to the 'Whom do you want to call?' sub-menu on the Phone tab, which blocks further navigation. Exiting with 'B' is necessary but has led to a failure loop.
-*   **Confirmed Failure 3:** The Pokégear menu does not wrap around. Pressing 'Left' from the Clock tab has no effect.
+### Radio Tower Side Quests
+*   **Buena's Password Show:** Received a BLUE CARD from Buena on the 2nd floor. I can earn points by giving her passwords from the radio and trade them for prizes.
 
 ## IV. Agent & Tool Development
 *   **`pathfinder_v1`:** My standard, consolidated pathfinding tool. Replaced and deleted `path_master_v24` and `maze_explorer_v8`.
 *   **`nickname_genius` Testing:** Must use this agent the next time a Pokémon is caught to evaluate its performance.
 *   **`quest_strategist`:** This agent should be used for getting unstuck on complex puzzles.
 *   **`ui_navigator`:** Has been refined to understand the 'B' button is for backing out of sub-menus.
-
-### Radio Tower Side Quests
-*   **Buena's Password Show:** Received a BLUE CARD from Buena on the 2nd floor. I can earn points by giving her passwords from the radio and trade them for prizes.
 
 ## V. To-Do & Testing
 *   **Agent Test:** Use `nickname_genius` after the next Pokémon capture to evaluate its performance.
