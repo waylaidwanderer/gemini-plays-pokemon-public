@@ -50,19 +50,14 @@
 *   **New Hypothesis:** The Pokégear menu may wrap around. Pressing 'Left' from the starting Clock tab might immediately navigate to the Radio tab, bypassing the Map and Phone tabs.
 *   **Test Plan:** 1. Open the Start Menu. 2. Select POKéGEAR. 3. Once in the Pokégear (on the Clock tab), immediately press 'Left'. 4. If this accesses the Radio, interact with it. 5. Exit all menus and attempt to battle Camper Ivan again.
 
-### Goldenrod City Path Forward
-*   **Obstacle:** The path east out of Goldenrod City is blocked by a strange tree (Sudowoodo).
-*   **Primary Hypothesis:** A `SQUIRTBOTTLE` is required, as stated by the Pokefan F in the Route 35 Gatehouse.
-*   **Alternative Hypothesis:** The tree can be cleared by other means, such as a Pokémon move (e.g., Headbutt) or by progressing a different quest line (e.g., the Radio Tower issue).
-*   **Test Plan:** 1. Find the `SQUIRTBOTTLE` and attempt to use it. 2. If that fails or I cannot find it, I will return to the tree and try using Headbutt. 3. If both fail, I will prioritize the Radio Tower quest before returning to the tree.
+### Goldenrod SQUIRTBOTTLE Quest
+*   **Primary Hypothesis:** I must find the flower shop lady's sister on Route 36 to receive the SQUIRTBOTTLE.
+*   **Alternative Hypothesis:** The sister might not be the trigger. Progressing the Radio Tower quest (investigating the Director) might be the actual trigger for obtaining the SQUIRTBOTTLE, as it's another major unresolved plot point in Goldenrod City.
+*   **Test Plan:** 1. Thoroughly explore Route 35 and the entrance to Route 36. 2. If the sister is not found, I will pivot my focus to the Radio Tower before returning to this quest.
 
 ## IV. Agent & Tool Development
+*   **`path_master_v27`:** DELETED. This tool was consistently failing to find valid paths.
 *   **`maze_solver_v1` Limitation:** The tool can only see objects currently on screen. For it to navigate around off-screen obstacles (like NPCs), I MUST manually provide their coordinates using the `extra_impassable_coordinates` parameter. This is a user responsibility, not a code bug.
 *   **`nickname_genius` Testing:** Must use this agent the next time a Pokémon is caught to evaluate its performance.
 *   **`quest_strategist`:** This agent should be used for getting unstuck on complex puzzles.
 *   **`ui_navigator`:** Has been refined to understand the 'B' button is for backing out of sub-menus.
-
-### Goldenrod SQUIRTBOTTLE Quest
-*   **Current Hypothesis:** I must find the flower shop lady's sister on Route 36 to receive the SQUIRTBOTTLE.
-*   **Alternative Hypothesis:** The sister might not be the trigger. Progressing the Radio Tower quest (investigating the Director) might be the actual trigger for obtaining the SQUIRTBOTTLE, as it's another major unresolved plot point in Goldenrod City.
-*   **Test Plan:** 1. Thoroughly explore Route 35 and the entrance to Route 36. 2. If the sister is not found, I will pivot my focus to the Radio Tower before returning to this quest.
