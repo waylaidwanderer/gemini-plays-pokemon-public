@@ -38,6 +38,6 @@
 - **B1F Dynamic Gates:** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
 ### C. Deprecated Hypotheses (Pokemon Mansion Puzzle)
-- **Multi-Floor Pathing Solution (Deprecated):** The path to the eastern side of 1F *must* be on another floor. The `pathfinder` tool's repeated failure to find a path to the 'reachable' eastern gates on 1F suggested there was no direct route. **Conclusion:** This hypothesis is now considered deprecated due to new game information explicitly identifying reachable barriers on 2F, suggesting a solution exists on the current floor.
+- **Multi-Floor Pathing Solution (Deprecated):** My initial hypothesis was that the path to the eastern side of 1F must be on another floor, as my `pathfinder` tool repeatedly failed to find a path. **Conclusion:** This is now deprecated. An unexpected warp from 2F back to 1F, combined with a system notification about 'Reachable Barriers' on 1F, confirms the solution is on this floor and involves the switch at (3, 6).
 - **Direct Path from West to East on 1F:** This was my initial assumption, but my `pathfinder` tool, even after being fixed, could not find a path. This confirms the solution is not a simple walk.
 - **Alternating Switch Solution (1F):** Repeatedly flipping the switch at (3, 6) on 1F only toggles between two states and does not grant access to the sealed eastern room. (Failed after 10+ attempts).
