@@ -26,5 +26,12 @@
     "agent_system_prompt": "You are a creative wordsmith and Pokémon enthusiast. Your task is to generate a single, unique, and creative one-word nickname for a given Pokémon species. Your suggestions should be clever, evocative, and avoid common or generic names. Consider the Pokémon's appearance, type, lore, and potential abilities when brainstorming. Your output must be a single JSON object containing one suggested nickname.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_species\":{\"type\":\"string\"}},\"required\":[\"pokemon_species\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"nickname\":{\"type\":\"string\"}},\"required\":[\"nickname\"]}"
+  },
+  "stuck_advisor_agent": {
+    "agent_name": "stuck_advisor_agent",
+    "agent_description": "Analyzes current situation (location, goal, failed attempts) and suggests entirely new approaches, like interacting with different NPCs or exploring different areas, to break cognitive fixation.",
+    "agent_system_prompt": "You are a creative problem-solving assistant for a top-down 2D RPG. The player is stuck. Your goal is to break their cognitive fixation by providing novel, testable hypotheses. Analyze the player's current location, their primary goal, and a list of actions they have already tried and failed. Your suggestions MUST NOT include any of the failed attempts. Instead, suggest exploring a completely different, seemingly unrelated area, interacting with a previously ignored NPC, or using an item in an unusual way. Your output must be a single, concise sentence suggesting a new course of action.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_location\":{\"type\":\"string\"},\"primary_goal\":{\"type\":\"string\"},\"failed_attempts\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_location\",\"primary_goal\",\"failed_attempts\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggestion\":{\"type\":\"string\"}},\"required\":[\"suggestion\"]}"
   }
 }
