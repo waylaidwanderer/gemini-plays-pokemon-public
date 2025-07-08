@@ -8,6 +8,7 @@
 - **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
 - **Hole Tiles:** Warp tiles that lead to a lower map area. Often function as one-way drops.
 - **Scripted Event Tiles:** Some tiles trigger events. The tile in front of the Cinnabar Gym door (19, 5) pushes the player back and displays a 'locked' message.
+- **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls. These can be found using the `advanced_pathfinder` tool.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -38,7 +39,7 @@
 
 ### A. Agent Failures & Lessons Learned
 - **`battle_strategist_agent` (Flawed Knowledge):** The agent repeatedly hallucinated Pokémon types from their nicknames. I have performed a major overhaul of its system prompt to force it to use only the provided type data, forbidding any inference.
-- **`puzzle_master_agent` (Pathing Logic Flaw):** The agent suggested interactions with unreachable NPCs. It has been refined to check for a valid path before suggesting an action.
+- **`puzzle_master_agent` (Pathing Logic Flaw - FIXED):** The agent suggested interactions with unreachable NPCs. It has been refined to check for a valid path before suggesting an action.
 
 ### B. Tool Flaws & Consolidations
 - **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
