@@ -77,3 +77,5 @@
 
 ### Quest Strategist Insights (Turn 26934)
 *   **New Hypothesis (Top Priority):** The Pokégear functions (Clock, Map, Phone, Radio) might be navigated using **vertical inputs (Up/Down)** instead of horizontal ones. This is a completely new approach to test.
+### Procedural Reminders (Update)
+*   **Pokégear Phone Menu:** When the 'Whom do you want to call?' text box is active, you cannot use the D-pad to switch functions. You MUST press 'B' to cancel and return to the main Pokégear screen before you can navigate to the radio.
