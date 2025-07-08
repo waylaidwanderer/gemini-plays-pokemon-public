@@ -31,6 +31,7 @@
     *   **MOOMOO MILK:** Restores 100 HP.
     *   **ODD EGG:** A special egg received from the Day-Care Man.
     *   **HARD STONE:** Powers up rock-type moves.
+    *   **PRZCUREBERRY:** Cures paralysis.
 *   **Haircuts:** Increases a Pokémon's happiness.
 *   **Pokégear Phone Menu:** When the 'Whom do you want to call?' text box is active, you cannot use the D-pad to switch functions. You MUST press 'B' to cancel and return to the main Pokégear screen before you can navigate to the radio.
 
@@ -60,4 +61,3 @@
 
 ## VII. Strategic Planning Notes
 *   **Current Plan:** Travel to the Goldenrod Department Store to purchase REPELs. This is the most reliable location for a wide variety of items.
-*   **PRZCUREBERRY:** Cures paralysis.
