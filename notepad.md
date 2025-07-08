@@ -35,7 +35,7 @@
 - **Direct Gate Interaction (Failed - 2 attempts):** Hypothesized gates could be opened by direct interaction. Tested on gates at (27, 28) and (28, 28).
 - **Hidden Item (Failed - 1 attempt):** Hypothesized a hidden item was needed. Used ITEMFINDER, found nothing.
 - **Hidden Switch (Failed - 1 attempt):** Hypothesized a hidden switch was on an adjacent wall tile. Interacted with wall at (28, 28).
-- **Pikachu Interaction (Failed - 1 attempt):** Hypothesized interacting with Pikachu was the trigger. Talked to Pikachu at (27, 27).
+- **Pikachu Interaction (Failed - 2 attempts):** Hypothesized interacting with Pikachu was the trigger. Tested at (27, 27) and (22, 17).
 - **Advanced Pathfinder (Failed - 1 attempt):** Hypothesized a simple geometric path exists through impassable tiles. Path was found by tool but blocked by physical wall at (28, 19).
 - **Floor Pressure Plate (Failed - 1 attempt):** Hypothesized a hidden floor trigger opens the gates. Pathfinding to test tile (21, 19) failed.
 - **Distant Switch (Failed - 1 attempt):** Hypothesized the 'Mansion Switch' at (3,6) was the trigger. Pathfinding to switch failed.
