@@ -33,6 +33,7 @@
     *   `Interactable Warp (FLOOR)`: Some FLOOR tiles that are also warps do not activate on entry. They must be interacted with by pressing 'A' to trigger an event or text. (e.g., Ruins of Alph Inner Chamber @ (15, 3)).
 
 ### Other Mechanics
+*   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable and function as walls.
 *   **Item Effects:**
     *   **BERRY:** Restores 10 HP. Found at `FRUIT_TREE`s.
     *   **EVERSTONE:** Prevents evolution.
@@ -55,9 +56,6 @@
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
 ## V. Archive: Solved Puzzles & Procedural Failures
-*   **Hypothesis Testing To-Do:**
-    *   Test `WALL` (Fence Appearance) in National Park by attempting to walk into it.
 *   **Skepticism Reminder:** Do not assume all NPCs are trainers. Some provide hints or flavor text. Wasting turns trying to battle a non-battling NPC is inefficient. (e.g., Super Nerd in Violet City).
 *   **Failure Log (Navigation):** Wasted many turns attempting to find Ecruteak City by heading east on Route 36. This path leads to Violet City. The correct path must lie elsewhere. **Lesson: If a path repeatedly fails to lead to the desired destination, I must abandon the hypothesis and explore other routes instead of persisting.**
 *   **Failure Log (Pathfinder v7):** The `explore_unseen` logic in the pathfinder has repeatedly failed due to overly simplistic assumptions. The 'closest unseen' logic failed because it didn't account for pathability. The 'entry point' logic failed because my strategic understanding of the map was flawed. **Lesson: The tool's failure is often a symptom of my own flawed strategy. I must verify my assumptions about the map before blaming the tool.**
-*   `WALL` (Fence Appearance): Confirmed impassable by attempting to walk into it from the right at (27, 5) in National Park.
