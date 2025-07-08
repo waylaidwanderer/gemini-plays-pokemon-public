@@ -31,10 +31,11 @@
     * `WATER` (Requires HM03 Surf).
 *   **Complex Tiles:**
     *   `WARP_CARPET_LEFT/RIGHT/DOWN`: Activated by pressing the indicated direction while standing on the tile.
-    *   `WARP_CARPET_DOWN`: Activated by pressing 'Down' while standing on the tile.
     *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile.
     *   `Interactable Warp (FLOOR)`: Some FLOOR tiles that are also warps must be interacted with by pressing 'A' to trigger an event or text.
 *   **Untested:** `unknown`
+*   **Map-Specific Tiles (EcruteakTinTowerEntrance):**
+    *   `FLOOR`, `WALL`, `LADDER`, `WARP_CARPET_DOWN`: Behavior confirmed consistent with previous maps.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable and function as walls.
@@ -60,7 +61,6 @@
 *   **TM49 (FURY CUTTER)**
 
 ## V. Archive: Solved Puzzles & Failed Hypotheses
-*   **Trainer Identification Protocol:** An NPC should not be marked as a non-battler until at least **two** separate interaction attempts fail to trigger a battle. Some trainers require multiple prompts.
 *   **Failure Log (Navigation):** The path to Ecruteak City is NOT east of Route 36 (leads to Violet City) or west of Route 36 (dead end). **Lesson: If a path repeatedly fails, abandon the hypothesis and explore other routes.**
 *   **Hypothesis Failure (Radio Tower):** The Plain Badge does NOT grant access to the upper floors of the Radio Tower. The Black Belt at (0, 1) on 2F still blocks the path, citing an issue with the Director. (Turn #29187)
 
