@@ -60,3 +60,4 @@
 
 ## VII. Strategic Planning Notes
 *   **Current Plan:** Travel to the Goldenrod Department Store to purchase REPELs. This is the most reliable location for a wide variety of items.
+*   **PRZCUREBERRY:** Cures paralysis.
