@@ -34,8 +34,9 @@
 
 ## III. Tool & Agent Development Log
 
-### A. Agent Failures
-- **`puzzle_solver_agent` (Deleted):** This agent repeatedly failed to recognize the contradiction between the game's 'Reachable Barriers' data and the `find_path` tool's inability to find a path. Despite multiple refinements (4 attempts), it continued to suggest impossible standard movement actions instead of hypothesizing a non-standard traversal mechanic as instructed. This indicates a fundamental logic failure. **Lesson:** An agent that cannot follow its core instructions is a liability and must be rebuilt from scratch if refinement fails.
+### A. Agent Failures & Lessons Learned
+- **`puzzle_solver_agent` (Deleted):** This agent repeatedly failed to recognize the contradiction between the game's 'Reachable Barriers' data and the `find_path` tool's inability to find a path. **CRITICAL OVERWATCH NOTE (Turn 57391):** Deleting this agent after four failed refinements was a severe process violation. The core principle is to refine iteratively; deletion is a last resort. I must adhere to this protocol.
+- **`puzzle_master_agent` (Active):** The first version of this agent failed by suggesting a move into a tile occupied by an NPC. This highlights the need for all agents to validate their output against the current map state, including sprite locations, before making a suggestion.
 
 ### B. Tool Flaws
-- **`advanced_pathfinder` (Awaiting Fix):** This tool is critically flawed. It was designed to find hidden passages by ignoring tile types, but it incorrectly suggests paths through 'impassable' tiles, which the game engine blocks. **Lesson:** Tools must respect fundamental game mechanics. The tool needs to be refined to ignore puzzle-specific barriers (like `closed_gate`) while still respecting absolute barriers (`impassable`).
+- **`advanced_pathfinder` (Fixed):** This tool was critically flawed. It was designed to find hidden passages by ignoring tile types, but it incorrectly suggested paths through 'impassable' tiles, which the game engine blocks. **Lesson:** Tools must respect fundamental game mechanics. The tool has been refined to ignore puzzle-specific barriers (like `closed_gate`) while still respecting absolute barriers (`impassable`).
