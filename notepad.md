@@ -30,6 +30,7 @@
 ### A. Active Hypotheses
 - **Pokemon Mansion 1F Alternating Switch:** The switch at (3, 6) is an alternating switch. The game indicates the eastern gates at (25, 14) are reachable, but they remain closed. The switch's message "Not quite yet!" implies a secondary condition is unmet. My current hypothesis is that the switch has more than two states, or another interaction is required elsewhere on the map after flipping the switch.
 - **Route 20 Progression:** I am assuming that exploring this water route will lead to the Cinnabar Gym Key. Test: Fully explore Route 20 and the Seafoam Islands.
+- **Route 20 Rock Walls:** The impassable rock walls on Route 20 may not be static barriers. **Hypothesis:** The walls can be removed or passed through by an external trigger, item, or specific condition. **Test:** After returning to Route 20, I will attempt to interact ('A' button) with the walls and use the ITEMFINDER nearby.
 
 ### B. Solved Puzzles
 - **Pokemon Mansion B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
@@ -38,6 +39,3 @@
 - **Multi-Floor Pathing Solution (Deprecated):** My initial hypothesis was that the path to the eastern side of 1F must be on another floor. **Conclusion:** This was invalidated by a system notification about 'Reachable Barriers' on 1F, confirming the solution is on the same floor.
 - **Direct Gate Interaction (Deprecated):** Hypothesized that the 'reachable' eastern gates at (25,14) and (26,14) could be opened by direct interaction ('A' button). **Conclusion:** Failed.
 - **Hidden Item (Deprecated):** Hypothesized a hidden item was needed to open the eastern gates. **Conclusion:** ITEMFINDER found nothing.
-
-## IV. Future Development
-- **Exploration Planner Tool:** Idea for a new tool or agent that takes the current map state and outputs an optimal, multi-step exploration plan to uncover the most unseen tiles efficiently. This would automate the current two-step process of using `find_next_exploration_target` and `find_path_to_adjacent`.
