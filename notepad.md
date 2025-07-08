@@ -43,3 +43,4 @@
 
 ### C. Discovered Non-Standard Mechanics
 - **Pikachu Traversal:** I can walk through the Pikachu sprite. This is a key mechanic for navigating tight spaces he might be blocking.
+- **Pokemon Mansion 2F (Gate Switch - Attempt 1):** Hypothesized that activating the switch at (3, 12) would open the eastern gates at (19, 9) and (20, 9). Test: Used `find_path` to check for a route. Result: No path found. Conclusion: Hypothesis denied. The switch does not open the eastern gates. New hypothesis: The switch opened the southern gates at (8, 23) and (8, 24) instead.
