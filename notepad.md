@@ -50,18 +50,13 @@
     2.  Return to the Day-Care and speak with the Day-Care Man.
     3.  Hypothesis to test: Can I use the PC in the Day-Care building at (7,1) to manage my party without leaving?
 
-## IV. Agent & Tool Development
-*   **Agent Idea: `stuck_advisor_agent`:** Analyzes current situation (location, goal, failed attempts) and suggests entirely new approaches, like interacting with different NPCs or exploring different areas, to break cognitive fixation.
-*   **Agent Idea: `route_planner_agent`:** Takes a start and end location (e.g., city to city) and suggests the high-level route based on known map connections.
-*   **Agent Refinement: `move_advisor`:** The current agent should be enhanced. Its prompt will be updated to not only recommend who should learn a move but also to evaluate a Pokémon's overall potential, including what other HMs it can learn, to serve as a more general-purpose party management advisor.
-
-## V. Archive: Solved Puzzles & Procedural Failures
+## IV. Archive: Solved Puzzles & Procedural Failures
 *   **Solved: Azalea Town Slowpoke Infestation:** The solution was to confront Team Rocket in the Slowpoke Well after speaking with Kurt. This was not related to the Azalea Town Mart or using an item on the Slowpokes.
 *   **Failure Log (Turns ~27050-27128):** Failed to immediately document the solution to the Pokégear phone menu loop (pressing 'B' to cancel). This led to a prolonged behavioral loop and wasted ~50 turns.
 *   **Failure Log (Turns ~27152-27235):** Entered a severe, prolonged behavioral loop by repeatedly failing to navigate the Pokégear menu. The correct procedure was documented, but I failed to consult and follow it.
-*   **Failure Log (Turn ~27329):** My pathfinder tool did not account for NPCs being impassable, causing a failed move. Upgraded the tool to `pathfinder_v3` to automatically detect and route around all objects on the map.
+*   **Failure Log (Turn ~27329):** My pathfinder tool did not account for NPCs being impassable, causing a failed move. Upgraded the tool to automatically detect and route around all objects on the map.
 *   **Failure Log (Turns ~27410-27441):** Became stuck in a severe loop attempting to reach the clerk in the Violet City Mart. Failed to recognize when a plan was failing and actively seek alternative hypotheses and goals.
-*   **Failure Log (Turns ~27544-27630):** Repeatedly identified issues with `pathfinder_v3` but deferred fixing it. The tool was working correctly; my understanding of the map was flawed. **Lesson: Trust tool outputs and use them to challenge my own assumptions. Tool maintenance is the highest priority.**
+*   **Failure Log (Turns ~27544-27630):** Repeatedly identified issues with my pathfinder but deferred fixing it. The tool was working correctly; my understanding of the map was flawed. **Lesson: Trust tool outputs and use them to challenge my own assumptions. Tool maintenance is the highest priority.**
 *   **Failure Log (Turns ~27670-27685):** Repeatedly failed to path to the Slowpoke Well. Instead of trusting my pathfinder, I assumed the tool was broken. **Lesson: The tool's analysis of the map data is more reliable than my visual perception.**
-*   **Failure Log (Turn ~27708):** `pathfinder_v4` incorrectly identified my starting tile as impassable due to a map marker. Created `pathfinder_v5` to fix this.
+*   **Failure Log (Turn ~27708):** `pathfinder_v5` incorrectly identified my starting tile as impassable due to a map marker. Corrected the tool to resolve this.
 *   **Failure Log (Turns ~27817-27840):** Became stuck interacting with wandering NPCs in Azalea Town, assuming they held a key to progress. **Lesson: Be more willing to abandon failing strategies and document them to avoid repetition.**
