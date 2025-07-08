@@ -50,3 +50,4 @@
 - **`puzzle_master_agent` (Pathing Logic Flaw - FIXED):** The agent suggested interactions with unreachable NPCs. It has been refined to check for a valid path before suggesting an action.
 - **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
 - **`find_path` (Consolidated):** The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
+- **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls. These can be found using the `advanced_pathfinder` tool.
