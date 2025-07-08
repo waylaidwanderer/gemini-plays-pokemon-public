@@ -25,6 +25,9 @@
 ## II. Puzzle & Hypothesis Log
 
 ### A. Active Puzzle: Pokémon Mansion
+## II. Puzzle & Hypothesis Log
+
+### A. Active Puzzle: Pokémon Mansion
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
 - **Key Mechanic: 'Alternating Doors':** Switches, often hidden in statues, can open and close sets of gates. The effect can be on the same floor or different floors. Sometimes a switch needs to be 'primed' and then the player has to walk to the gate to trigger it to open.
 
