@@ -23,9 +23,10 @@
 
 ## II. Puzzle & Hypothesis Log
 
-### A. Active Hypotheses
-- **Pokemon Mansion 'Secret Key' Location:** The Cinnabar Gym is locked and requires a 'Secret Key'. The most logical location for this key is somewhere within the Pokémon Mansion.
-- **Pokemon Mansion 'Alternating Doors':** The mansion's puzzles involve switches that toggle gates, possibly across different floors. The path forward likely requires navigating between floors to access newly opened areas.
+### A. Active Puzzle: Pokémon Mansion
+- **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
+- **Key Mechanic:** 'Alternating Doors'. Switches on one floor can affect gates on the same or other floors.
+- **Current Hypothesis:** The path forward on 1F requires dropping down from an upper floor into an isolated area.
 
 ### B. Solved Puzzles Archive
 - **Pokemon Mansion B1F:** A switch at (19, 26) toggles gate sets. It uses a two-step 'prime and trigger' mechanic: flip the switch to 'prime' a set of gates, then walk to them to open them.
