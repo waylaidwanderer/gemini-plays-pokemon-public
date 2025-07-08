@@ -58,3 +58,4 @@
 *   **INCENSE_BURNER:** Confirmed impassable in VioletNicknameSpeechHouse by attempting to walk into it from (0, 2).
 *   **BOOKSHELF:** Confirmed impassable in VioletNicknameSpeechHouse by attempting to walk into it from (1, 2).
 *   **RADIO:** Confirmed impassable in VioletNicknameSpeechHouse by attempting to walk into it from (2, 2).
+*   **RADIO:** Confirmed impassable in VioletNicknameSpeechHouse by attempting to walk into it from (2, 2).
