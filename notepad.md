@@ -1,6 +1,9 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. Game Systems & Mechanics
+## I. Core Directives & Principles
+*   **Act Immediately:** As an LLM, I have no concept of 'later'. Any task I decide on (agent creation/refinement, tool fixes, documentation) MUST be performed in the current turn. Deferring tasks is a critical failure.
+
+## II. Game Systems & Mechanics
 
 ### Tile Traversal Protocol
 - **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately.
@@ -26,10 +29,21 @@
     *   **BERRY:** Restores 10 HP. Found at `FRUIT_TREE`s.
     *   **EVERSTONE:** Prevents evolution.
     *   **MOOMOO MILK:** Restores 100 HP.
+    *   **ODD EGG:** A special egg received from the Day-Care Man.
 *   **Haircuts:** Increases a Pokémon's happiness.
 *   **Pokégear Phone Menu:** When the 'Whom do you want to call?' text box is active, you cannot use the D-pad to switch functions. You MUST press 'B' to cancel and return to the main Pokégear screen before you can navigate to the radio.
 
-## II. Key Items & TMs
+## III. Current Plans & Hypotheses
+*   **Objective:** Reach Goldenrod City.
+*   **Problem:** I seem to be at a dead end on Route 34. My `pathfinder_v5` tool reports no more reachable unseen tiles.
+*   **Primary Hypothesis:** I am missing a narrative trigger from an NPC.
+    *   **Test:** Speak to the Day-Care couple again. (Current action)
+*   **Alternative Hypothesis 1:** The trigger is an item or NPC I missed on the already-explored parts of Route 34.
+    *   **Test:** If the Day-Care couple provides no new info, I must systematically re-walk all of Route 34 and interact with everything.
+*   **Alternative Hypothesis 2:** I am hard-gated and cannot proceed north yet. The way forward requires an HM (like Surf) or an item I don't have.
+    *   **Test:** If all other hypotheses fail, I must change my primary goal and explore other available areas (like the Ruins of Alph or Dark Cave) to find the necessary item/ability.
+
+## IV. Key Items & TMs
 *   **COIN CASE:** Allows playing at the Game Corner.
 *   **HM01 (CUT):** Clears small trees. Requires Hive Badge.
 *   **SQUIRTBOTTLE:** Used to clear the Sudowoodo on Route 36.
@@ -39,19 +53,11 @@
 *   **TM45 (ATTRACT):** Infatuates opposite-gender Pokémon.
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
-## III. Action Plan
-*   **Objective: Reach Goldenrod City.**
-    1.  Finish exploring Route 34.
-    2.  Battle any remaining trainers on Route 34.
-    3.  Enter Goldenrod City.
-
-## IV. Archive: Solved Puzzles & Procedural Failures
-*   **Solved: Azalea Town Slowpoke Infestation:** The solution was to confront Team Rocket in the Slowpoke Well after speaking with Kurt. This was not related to the Azalea Town Mart or using an item on the Slowpokes.
-*   **Failure Log (Turns ~27050-27128):** Failed to immediately document the solution to the Pokégear phone menu loop (pressing 'B' to cancel). This led to a prolonged behavioral loop and wasted ~50 turns.
-*   **Failure Log (Turns ~27152-27235):** Entered a severe, prolonged behavioral loop by repeatedly failing to navigate the Pokégear menu. The correct procedure was documented, but I failed to consult and follow it.
-*   **Failure Log (Turn ~27329):** My pathfinder tool did not account for NPCs being impassable, causing a failed move. Upgraded the tool to automatically detect and route around all objects on the map.
-*   **Failure Log (Turns ~27410-27441):** Became stuck in a severe loop attempting to reach the clerk in the Violet City Mart. Failed to recognize when a plan was failing and actively seek alternative hypotheses and goals.
-*   **Failure Log (Turns ~27544-27630):** Repeatedly identified issues with my pathfinder but deferred fixing it. The tool was working correctly; my understanding of the map was flawed. **Lesson: Trust tool outputs and use them to challenge my own assumptions. Tool maintenance is the highest priority.**
-*   **Failure Log (Turns ~27670-27685):** Repeatedly failed to path to the Slowpoke Well. Instead of trusting my pathfinder, I assumed the tool was broken. **Lesson: The tool's analysis of the map data is more reliable than my visual perception.**
-*   **Failure Log (Turn ~27708):** `pathfinder_v5` incorrectly identified my starting tile as impassable due to a map marker. Corrected the tool to resolve this.
-*   **Failure Log (Turns ~27817-27840):** Became stuck interacting with wandering NPCs in Azalea Town, assuming they held a key to progress. **Lesson: Be more willing to abandon failing strategies and document them to avoid repetition.**
+## V. Archive: Solved Puzzles & Procedural Failures
+*   **Solved: Azalea Town Slowpoke Infestation:** Confronted Team Rocket in Slowpoke Well after speaking with Kurt.
+*   **Failure Log (Turns ~27050-27235):** Severe behavioral loops related to Pokégear menu navigation. Failed to consult documented solution.
+*   **Failure Log (Turn ~27329):** Pathfinder tool did not account for NPCs. Upgraded tool to route around all objects.
+*   **Failure Log (Turns ~27410-27441):** Became stuck in Violet City Mart. Failed to seek alternative hypotheses when a plan was failing.
+*   **Failure Log (Turns ~27544-27685):** Repeatedly distrusted pathfinder tool output, assuming it was broken when my own map understanding was flawed. **Lesson: Trust tool outputs to challenge my assumptions.**
+*   **Failure Log (Turn ~27708):** `pathfinder_v5` incorrectly identified start tile as impassable due to a map marker. Corrected the tool.
+*   **Failure Log (Turns ~27817-27840):** Stuck interacting with wandering NPCs in Azalea Town. **Lesson: Abandon failing strategies more quickly.**
