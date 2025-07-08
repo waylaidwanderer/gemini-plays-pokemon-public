@@ -63,3 +63,4 @@
   - **Conclusion:** Pathfinding to the target tile failed, proving it is unreachable from the current location via standard pathing.
 - **Agent Hypothesis (Attempt #8):** The map data is flawed and a 'fake wall' or secret passage exists.
   - **Test:** Systematically attempt to walk west from (28, 20) towards the 'South Gates'.
+    - **Test (Failed):** Walked into wall at (25, 20).
