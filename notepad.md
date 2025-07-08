@@ -3,7 +3,7 @@
 ### A. Tile Mechanics & Traversal Rules
 - **Ground/Impassable:** `ground` tiles are walkable, `impassable` tiles are solid walls. All objects (NPCs, items, signs) function as impassable walls.
 - **Water:** Surfable tiles. To initiate SURF, I must be adjacent to a water tile and use the move from the party menu. Only Water-type Pokémon can use SURF in the field.
-- **Gates (`closed_gate`/`open_gate`/`gate_offscreen`):** `closed_gate` tiles are impassable. `open_gate` tiles are open and act as `ground`. `gate_offscreen` represents a gate whose state is unknown because it's not on screen. The state of these can be toggled by switches or other triggers like player movement (pressure plates).
+- **Gates (`closed_gate`/`open_gate`/`gate_offscreen`):** `closed_gate` tiles are impassable. `open_gate` tiles are open and act as `ground`. `gate_offscreen` represents a gate whose state is unknown because it's not on screen. The state of these can be toggled by switches or other triggers.
 - **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
 - **Hole Tiles:** Warp tiles that lead to a lower map area. Often function as one-way drops.
@@ -27,13 +27,13 @@
 
 ### A. Active Puzzle: Pokémon Mansion
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
-- **Key Mechanic: 'Alternating Doors':** Switches, often hidden in statues, can open and close sets of gates. The effect can be on the same floor or different floors. Sometimes a switch needs to be 'primed' and then the player has to walk to the gate to trigger it to open.
+- **Key Mechanic: 'Alternating Doors':** A specific gate mechanic where switches (often hidden in statues) toggle between opening one set of gates while closing another. The effect can be on the same floor or even different floors. Sometimes a switch needs to be 'primed' and then the player has to walk to the gate to trigger it to open.
 
 ### B. Solved Puzzles Archive
 - **Pokemon Mansion B1F (Gate Switch):** A switch at (19, 26) toggles two sets of gates using a 'prime and trigger' mechanic. Flip the switch to prime a set, then walk to them to open.
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
 - **Pokemon Mansion 2F (Puzzle):** Contains a switch at (3, 12). Its exact function and interaction with the gates at (10, 5-6) is unconfirmed.
-- **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12). The pressure plate at (11, 4) is a separate mechanism and was not involved.
+- **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12).
 
 ## III. Tool & Agent Development Log
 
@@ -44,4 +44,3 @@
 ### B. Tool Flaws & Consolidations
 - **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
 - `find_path` (Consolidated): The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
-- **Alternating Doors:** A specific gate mechanic where switches (often hidden in statues) toggle between opening one set of gates while closing another. The effect can be on the same floor or even different floors. Sometimes a switch needs to be 'primed' and then the player has to walk to the gate to trigger it to open.
