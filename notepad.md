@@ -54,3 +54,10 @@
 *   **Failure Log (Turns ~27817-27840):** Stuck interacting with wandering NPCs in Azalea Town. **Lesson: Abandon failing strategies more quickly.**
 
 ## VI. Technical Debt & Bug Reports
+
+## VII. Consumable Item Tracker
+*   **REPELs:** 0
+*   **ESCAPE ROPEs:** 0
+
+## VIII. Strategic Planning Notes
+*   **Current Plan:** Backtrack to Violet City Mart to purchase REPELs. The high encounter rate on Route 32 makes forward progress without them inefficient. After purchasing, I will return to Route 32 and proceed to Union Cave.
