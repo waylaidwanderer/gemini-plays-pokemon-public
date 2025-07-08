@@ -45,5 +45,4 @@
 ### B. Tool Flaws & Consolidations
 - **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
 - `find_path` (Consolidated): The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
-- **Pokemon Mansion 3F (Switch and Pressure Plate):** A pressure plate at (11, 4) opens gates at (16, 5-6). A switch at (11, 6) opens gates at (16, 11-12).
-- **Pokemon Mansion 3F (Prime and Trigger Test 1):** Hypothesis: The switch at (11, 6) 'primes' the gates at (16, 5-6), and the pressure plate at (11, 4) 'triggers' them to open. Test: Flip switch, step on plate, then pathfind to (17, 5). Outcome: TBD.
+Pokemon Mansion 3F (Alternating Gates - SOLVED): The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12). The pressure plate at (11, 4) is a separate mechanism and was not involved.
