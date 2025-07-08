@@ -14,15 +14,12 @@
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile).
 *   **One-Way Ledges:** 
     * `LEDGE_HOP_DOWN/LEFT/RIGHT`.
-    * `FLOOR_UP_WALL`: A one-way ledge that can only be hopped **UP**. It is impassable from above (acts as a wall). Confirmed in Union Cave B1F.
+    * `FLOOR_UP_WALL`: A one-way ledge that can only be hopped **UP**. It is impassable from above (acts as a wall). Confirmed in Union Cave B1F. Needs re-verification in Slowpoke Well.
 *   **Special Requirement:** `CUT_TREE` (Requires HM01 Cut).
 *   **Complex Tiles:**
     *   `WARP_CARPET_LEFT/DOWN/RIGHT`: Activated by pressing the indicated direction while standing on the tile.
     *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile. It is a one-way interaction.
     *   `Interactable Warp (FLOOR)`: Some FLOOR tiles that are also warps do not activate on entry. They must be interacted with by pressing 'A' to trigger an event or text. (e.g., Ruins of Alph Inner Chamber @ (15, 3)).
-
-### Untested Tile Types (High Priority)
-* None at the moment.
 
 ### Other Mechanics
 *   **Item Effects:**
@@ -44,10 +41,11 @@
 ## III. Current Objectives & Hypotheses
 
 ### Primary Objective: Defeat the Azalea Town Gym Leader
-*   **Current Location:** Azalea Town
-*   **Hypothesis Chain:** Path to Azalea Gym -> Defeat Gym Leader.
+*   **Current Location:** Slowpoke Well
+*   **Hypothesis Chain:** Investigate Team Rocket in Slowpoke Well -> Unlock Azalea Gym -> Defeat Gym Leader.
 
 ## IV. Agent & Tool Development Ideas
+*   **`navigation_diagnostician_agent`**: Analyzes a failed pathfinding attempt and the current map data to generate hypotheses for the failure (e.g., off-screen object, hidden one-way ledge). This would help formalize my debugging process when pathfinder fails.
 *   **`stuck_advisor_agent`:** Analyzes current situation (location, goal, failed attempts) and suggests entirely new approaches, like interacting with different NPCs or exploring different areas, to break cognitive fixation. A potential lifesaver for situations like the Union Cave confusion.
 *   **`pathfinder_v4`:** A new version of the pathfinder tool that can optionally ignore specific object IDs during its impassability check, allowing it to path around some NPCs but not others.
 *   **`route_planner_agent`:** Takes a start and end location (e.g., city to city) and suggests the high-level route based on known map connections.
@@ -58,3 +56,4 @@
 *   **Critical Pathing Failure (Turn ~27329):** My pathfinder tool did not account for NPCs being impassable, causing a failed move. I upgraded the tool to `pathfinder_v3` to automatically detect and route around all objects on the map.
 *   **CRITICAL COGNITIVE FIXATION (Turns ~27410-27441):** I became stuck in a severe loop attempting to reach the clerk in the Violet City Mart. My core assumption that the clerk was reachable was never questioned, leading to dozens of failed pathing attempts. I failed to be flexible and pivot to a new strategy (like exploring the other warp) in a timely manner. This highlights a critical need to recognize when a plan is failing and actively seek alternative hypotheses and goals.
 *   **Tool Deferral & Misinterpretation Failure (Turns ~27544-27630):** I repeatedly identified issues with `pathfinder_v3` but deferred fixing it. When I did try to fix it, I assumed the code was bugged. The tool was actually working correctly; my understanding of the map layout and tile mechanics was flawed. The tool's output correctly showed that certain areas were unreachable, but I failed to trust it due to confirmation bias. **I must trust my tools' outputs and use them to challenge my own assumptions about the game world. Tool maintenance is my highest priority and must never be deferred.**
+*   **Failure to Trust Tools (Turns ~27670-27685):** I repeatedly failed to path to the Slowpoke Well in Azalea Town. Instead of trusting my pathfinder, which was correctly identifying an impassable wall and an off-screen object, I assumed the tool was broken. This wasted several turns. The lesson is reinforced: the tool's analysis of the map data is more reliable than my visual perception. I must trust it.
