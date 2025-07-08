@@ -46,3 +46,6 @@
 - **Advanced Pathfinder Hypothesis (Attempt #1 - Failed):** A simple geometric path exists through impassable tiles.
   - **Test:** Used `advanced_pathfinder` to plot a course from (28, 27) to (17, 8).
   - **Conclusion:** The tool found a path, but physical movement was blocked at (28, 19), proving the path is not simply walkable.
+- **Advanced Pathfinder Hypothesis (Attempt #1 - Failed):** A simple geometric path exists through impassable tiles.
+  - **Test:** Used `advanced_pathfinder` to plot a course from (28, 27) to (17, 8).
+  - **Conclusion:** The tool found a path, but physical movement was blocked at (28, 19), proving the path is not simply walkable.
