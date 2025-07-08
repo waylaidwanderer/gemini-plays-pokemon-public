@@ -15,7 +15,7 @@
 *   **One-Way Ledges:** `LEDGE_HOP_DOWN/LEFT/RIGHT`.
 *   **Special Requirement:** `CUT_TREE` (Requires HM01 Cut).
 *   **Complex Tiles:**
-    *   `FLOOR_UP_WALL`: One-way ledge. Enter from below/sides. Cannot exit by moving up.
+    *   `FLOOR_UP_WALL`: A one-way ledge that can only be hopped UP. It is impassable from above (acts as a wall).
     *   `WARP_CARPET_LEFT/DOWN/RIGHT`: Activated by pressing the indicated direction while standing on the tile.
     *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile. It is a one-way interaction.
     *   `Interactable Warp (FLOOR)`: Some FLOOR tiles that are also warps do not activate on entry. They must be interacted with by pressing 'A' to trigger an event or text. (e.g., Ruins of Alph Inner Chamber @ (15, 3)).
