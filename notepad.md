@@ -31,28 +31,13 @@
 - **Pokemon Mansion B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
 ### C. Deprecated Hypotheses (Pokemon Mansion 1F)
-- **Walk-Through Gates (Attempt #1 - Failed):** Hypothesized that 'reachable' closed gates could be walked through.
-  - **Test (Failed):** Walk south through gate at (27, 28).
-  - **Test (Failed):** Walk south through gate at (28, 28).
-- **Direct Gate Interaction (Attempt #2 - Failed):** Hypothesized gates could be opened by direct interaction ('A' button).
-  - **Test (Failed):** Interact with gate at (27, 28).
-  - **Test (Failed):** Interact with gate at (28, 28).
-- **Hidden Item (Attempt #3 - Failed):** Hypothesized a hidden item was needed to open the gates in the 'trapped room'.
-  - **Test (Failed):** Used ITEMFINDER, found nothing.
-- **Hidden Switch (Attempt #4 - Failed):** Hypothesized a hidden switch was located on an adjacent wall tile.
-  - **Test (Failed):** Interacted with wall at (28, 28).
-- **Pikachu Interaction (Attempt #5 - Failed):** Hypothesized that interacting with Pikachu was the trigger.
-  - **Test (Failed):** Talked to Pikachu at (27, 27).
-- **Advanced Pathfinder Hypothesis (Attempt #1 - Failed):** A simple geometric path exists through impassable tiles.
-  - **Test:** Used `advanced_pathfinder` to plot a course from (28, 27) to (17, 8).
-  - **Conclusion:** The tool found a path, but physical movement was blocked at (28, 19), proving the path is not simply walkable.
-- **Agent Hypothesis (Attempt #6 - Failed):** A hidden pressure plate on the floor opens the gates.
-  - **Test:** Attempt to walk to coordinate (21, 19).
-  - **Conclusion:** Pathfinding to the target tile failed, proving it is unreachable from the current location.
-- **Agent Hypothesis (Attempt #7 - Failed):** The 'Mansion Switch' at (3,6) is the trigger.
-  - **Test:** Attempt to pathfind to the switch at (3,6).
-  - **Conclusion:** Pathfinding to the target tile failed, proving it is unreachable from the current location via standard pathing.
-- **Agent Hypothesis (Attempt #8):** The map data is flawed and a 'fake wall' or secret passage exists.
-  - **Test:** Systematically attempt to walk west from (28, 20) towards the 'South Gates'.
-    - **Test (Failed):** Walked into wall at (25, 20).
+- **Walk-Through Gates (Failed - 2 attempts):** Hypothesized that 'reachable' closed gates could be walked through. Tested on gates at (27, 28) and (28, 28).
+- **Direct Gate Interaction (Failed - 2 attempts):** Hypothesized gates could be opened by direct interaction. Tested on gates at (27, 28) and (28, 28).
+- **Hidden Item (Failed - 1 attempt):** Hypothesized a hidden item was needed. Used ITEMFINDER, found nothing.
+- **Hidden Switch (Failed - 1 attempt):** Hypothesized a hidden switch was on an adjacent wall tile. Interacted with wall at (28, 28).
+- **Pikachu Interaction (Failed - 1 attempt):** Hypothesized interacting with Pikachu was the trigger. Talked to Pikachu at (27, 27).
+- **Advanced Pathfinder (Failed - 1 attempt):** Hypothesized a simple geometric path exists through impassable tiles. Path was found by tool but blocked by physical wall at (28, 19).
+- **Floor Pressure Plate (Failed - 1 attempt):** Hypothesized a hidden floor trigger opens the gates. Pathfinding to test tile (21, 19) failed.
+- **Distant Switch (Failed - 1 attempt):** Hypothesized the 'Mansion Switch' at (3,6) was the trigger. Pathfinding to switch failed.
+- **Fake Wall (Failed - 1 attempt):** Hypothesized a 'fake wall' exists. Walked into wall at (25, 20).
     - **Test (Failed):** Walked into wall at (25, 20).
