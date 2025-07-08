@@ -64,3 +64,4 @@
 *   **Conclusion:** The direct western path from the Sudowoodo junction is currently inaccessible. My previous hypothesis was incorrect.
 *   **New Strategy:** Pivoting to my tertiary goal. I will return to the Goldenrod City Radio Tower to investigate the situation with the Director, as my access may have changed after obtaining the Plain Badge.
 *   **Hypothesis Failure (Radio Tower):** The Plain Badge does NOT grant access to the upper floors of the Radio Tower. The Black Belt at (0, 1) on 2F still blocks the path, citing an issue with the Director. (Turn #29187)
+*   `WARP_CARPET_DOWN`: A warp tile that is activated by pressing 'Down' while standing on it.
