@@ -5,11 +5,11 @@
 
 ## II. Strategic Plan
 *   **Primary Goal: Find and defeat the Ecruteak City Gym Leader.**
-    *   **Status:** Just arrived in Ecruteak City. Need to locate the Gym.
+    *   **Status:** Currently searching in Ecruteak City.
 *   **Secondary Goal: Investigate the mystery of the Lake of Rage.**
     *   **Status:** A Gym Guide mentioned a conspiracy at the Lake of Rage involving a Gyarados swarm.
 *   **Tertiary Goal: Investigate the Burned Tower.**
-    *   **Status:** A prominent, unexplored building in Ecruteak City.
+    *   **Status:** A prominent, unexplored building in Ecruteak City. The Tin Tower to the north is inaccessible without the Fog Badge.
 
 ## III. Game Systems & Mechanics
 
@@ -35,7 +35,7 @@
     *   `Interactable Warp (FLOOR)`: Some FLOOR tiles that are also warps must be interacted with by pressing 'A' to trigger an event or text.
 *   **Untested:** `unknown`
 *   **Map-Specific Tiles (EcruteakTinTowerEntrance):**
-    *   `FLOOR`, `WALL`, `LADDER`, `WARP_CARPET_DOWN`: Behavior confirmed consistent with previous maps.
+    *   `FLOOR`, `WALL`, `LADDER`: Behavior confirmed consistent with previous maps.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable and function as walls.
