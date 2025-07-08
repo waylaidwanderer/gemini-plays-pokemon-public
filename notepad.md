@@ -20,7 +20,7 @@
 - **Obvious Tile Test:** Even if a tile seems obviously impassable (e.g., WALL), I must attempt to walk into it once to be 100% certain.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `WATER` (without Surf), `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `COUNTER`.
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `WATER` (without Surf), `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `COUNTER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`.
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters), `LONG_GRASS` (Wild Encounters), `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile).
 *   **One-Way Ledges:** 
@@ -37,9 +37,10 @@
     *   **BERRY:** Restores 10 HP. Found at `FRUIT_TREE`s.
     *   **EVERSTONE:** Prevents evolution.
     *   **MOOMOO MILK:** Restores 100 HP.
-    *   **ODD EGG:** A special egg received from the Day-Care Man.
+    *   **ODD EGG:** A special egg received from the Day-Care Man. Hatched into ELEKID.
     *   **HARD STONE:** Powers up rock-type moves.
     *   **PRZCUREBERRY:** Cures paralysis.
+    *   **HYPER POTION:** Restores 200 HP.
 *   **Haircuts:** Increases a Pokémon's happiness.
 *   **Pokégear Phone Menu:** When the 'Whom do you want to call?' text box is active, you cannot use the D-pad to switch functions. You MUST press 'B' to cancel and return to the main Pokégear screen before you can navigate to the radio.
 
@@ -55,23 +56,16 @@
 
 ## V. Future Development Ideas
 *   **Auto-Travel Tool:** Create a tool to automate travel through high-encounter areas. It would take a destination coordinate, call the pathfinder, and then execute the path. If interrupted by a wild battle, it would automatically select 'RUN' and then re-call the pathfinder from the new position to continue the journey. This would streamline long trips significantly.
-*   **Exploration Manager Agent:** An agent to consult when stuck. It would analyze the current location, available paths, and key items to suggest novel exploration strategies or alternative hypotheses to test, preventing getting stuck in loops.
-*   **Phone Call Summarizer Agent:** An agent to parse phone call text and extract key information (e.g., trainer name, location, request) to avoid reading through lengthy dialogues.
+*   **Dialogue Summarizer Agent:** An agent to parse phone call text and extract key information (e.g., trainer name, location, request) to avoid reading through lengthy dialogues.
 *   **Shop Navigator Tool:** A tool that parses shop menus to find a specific item and outputs the button presses needed to select and purchase it.
 *   **Map Marker Cleaner Agent:** An agent that analyzes map markers and suggests redundant ones for deletion (e.g., a '🎁' marker for an item that also has a '✅' marker).
+*   **Objective Evaluator Agent:** An agent to consult when truly stuck. It would analyze current location, goals, and key items to suggest a completely different primary objective, forcing strategic flexibility.
 
 ## VI. Archive: Solved Puzzles & Procedural Failures
 *   **Hypothesis Testing To-Do:**
-    *   Test `LEDGE_HOP_LEFT` at Ilex Forest (14, 14) by attempting to move right against it.
-*   **Skepticism Reminder:** Do not assume all NPCs are trainers. Some provide hints or flavor text. Wasting turns trying to battle a non-battling NPC is inefficient.
-*   **Failure Log (Turns ~28533-28564):** Wasted significant time attempting to buy Repels at Violet City Mart based on an unverified assumption. **Lesson: Verify information before committing to a multi-step plan. A bigger city's Department Store is a more reliable source for a wider variety of items.**
-*   **Failure Log (Turns ~28488-28532):** Failed to use REPELs, leading to numerous wasteful encounters on Route 32. **Lesson: Verify consumable inventory before long trips.**
-*   **Failure Log (Turns ~28680-28689):** Got stuck in a repetitive loop of running from wild Pokémon in Union Cave instead of making progress. **Lesson: If a strategy (like brute-force running) fails repeatedly, change tactics. Engage with other elements on the map (like trainers) to break the loop.**
-*   **Failure Log (Turns ~28701-28705):** Got stuck in a dialogue loop with a non-battling trainer in Union Cave. **Lesson: If dialogue repeats without initiating a battle, the NPC is not a trainer. Correct map markers and move on.**
-
-*   **Failure Log (Pathfinder v7):** The `pathfinder_v7` tool has repeatedly failed, especially its `explore_unseen` functionality. The logic has been simplified multiple times. The core issue seems to be correctly identifying all reachable entry points to unseen areas. Will continue to refine and test. The tool also incorrectly identified traversable tiles with background objects as impassable, which has since been corrected.
-*   **Failure Log (Turn ~28872):** The 'robust' `explore_unseen` logic in pathfinder_v7 has failed for a fourth consecutive time, still claiming no unseen areas are reachable. The tool is fundamentally broken for exploration. Abandoning its use for this purpose and reverting to manual exploration.
-*   **Hypothesis Testing To-Do (Route 36):**
-    *   Test `FLOOR_UP_WALL` at (51, 16) by attempting to move down against it.
-    *   Test `WARP_CARPET_LEFT` at (18, 8) and (18, 9) by pressing Left.
-    *   Test `WARP_CARPET_DOWN` at (47, 13) and (48, 13) by pressing Down.
+    *   Test `FLOOR_UP_WALL` at Route 36 (51, 16) by attempting to move down against it.
+    *   Test `WARP_CARPET_LEFT` at Route 36 (18, 8) and (18, 9) by pressing Left.
+    *   Test `WARP_CARPET_DOWN` at Route 36 (47, 13) and (48, 13) by pressing Down.
+*   **Skepticism Reminder:** Do not assume all NPCs are trainers. Some provide hints or flavor text. Wasting turns trying to battle a non-battling NPC is inefficient. (e.g., Super Nerd in Violet City).
+*   **Failure Log (Pathfinder v7):** The `explore_unseen` logic in the pathfinder has repeatedly failed due to overly simplistic assumptions. The 'closest unseen' logic failed because it didn't account for pathability. The 'entry point' logic failed because my strategic understanding of the map was flawed. **Lesson: The tool's failure is often a symptom of my own flawed strategy. I must verify my assumptions about the map before blaming the tool.**
+*   **Failure Log (Situational Awareness):** Wasted over 100 turns exploring Violet City under the mistaken assumption it was the path to Ecruteak City. **Lesson: I must be more diligent in consulting the world map and my own notes to verify my location and route before committing to extensive exploration. If I am stuck, I must actively question my most basic assumptions about where I am and where I'm going.**
