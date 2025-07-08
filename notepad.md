@@ -31,6 +31,7 @@
 ### B. Solved Puzzles Archive
 - **Pokemon Mansion B1F (Gate Switch):** A switch at (19, 26) toggles two sets of gates using a 'prime and trigger' mechanic. Flip the switch to prime a set, then walk to them to open.
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
+- **Pokemon Mansion 2F (Pressure Plate Mechanic):** Confirmed a 'prime and trigger' mechanic. Walking onto certain tiles (e.g., (11, 10)) acts as a pressure plate, toggling the state of nearby gates (e.g., opening the gates at (10, 5) and (10, 6)). This explains the 'Reachable Barrier' contradiction without needing a hidden passage. My previous 'hidden passage' hypothesis was incorrect.
 
 ## III. Tool & Agent Development Log
 
@@ -43,5 +44,3 @@
 
 ### C. Discovered Non-Standard Mechanics
 - **Pikachu Traversal:** I can walk through the Pikachu sprite. This is a key mechanic for navigating tight spaces he might be blocking.
-- **Pokemon Mansion 2F (Gate Switch - Attempt 1):** Hypothesized that activating the switch at (3, 12) would open the eastern gates at (19, 9) and (20, 9). Test: Used `find_path` to check for a route. Result: No path found. Conclusion: Hypothesis denied. The switch does not open the eastern gates. New hypothesis: The switch opened the southern gates at (8, 23) and (8, 24) instead.
-- **Pokemon Mansion 2F (Pressure Plate Mechanic):** Confirmed a 'prime and trigger' mechanic. Walking onto certain tiles (e.g., (11, 10)) acts as a pressure plate, toggling the state of nearby gates (e.g., opening the gates at (10, 5) and (10, 6)). This explains the 'Reachable Barrier' contradiction without needing a hidden passage. My previous 'hidden passage' hypothesis was incorrect.
