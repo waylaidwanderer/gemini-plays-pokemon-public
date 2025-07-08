@@ -35,7 +35,7 @@
 ## III. Tool & Agent Development Log
 
 ### A. Agent Failures & Lessons Learned
-- **`puzzle_solver_agent` (Deleted):** This agent repeatedly failed to recognize the contradiction between the game's 'Reachable Barriers' data and the `find_path` tool's inability to find a path. **CRITICAL OVERWATCH NOTE (Turn 57391):** Deleting this agent after four failed refinements was a severe process violation. The core principle is to refine iteratively; deletion is a last resort. I must adhere to this protocol.
+
 - **`puzzle_master_agent` (Active):** The first version of this agent failed by suggesting a move into a tile occupied by an NPC. This highlights the need for all agents to validate their output against the current map state, including sprite locations, before making a suggestion.
 - **`puzzle_master_agent` (Failure #2):** The agent again failed to consider player reachability. It suggested interacting with a diary that was inaccessible from my trapped location. This confirms the agent MUST validate path existence from the player's current position to the location of its suggested action before outputting a plan.
 
