@@ -67,3 +67,10 @@
 *   **CRITICAL BEHAVIORAL FAILURE (Turns ~27152-27235):** I entered a severe, prolonged behavioral loop by repeatedly failing to navigate the Pokégear menu. The correct procedure was documented in my notepad, but I failed to consult and follow it. I created the `menu_navigator_agent` to automate this task and prevent recurrence.
 *   **Critical Pathing Failure (Turn ~27329):** My pathfinder tool did not account for NPCs being impassable, causing a failed move. I upgraded the tool to `pathfinder_v3` to automatically detect and route around all objects on the map.
 *   **CRITICAL COGNITIVE FIXATION (Turns ~27410-27441):** I became stuck in a severe loop attempting to reach the clerk in the Violet City Mart. My core assumption that the clerk was reachable was never questioned, leading to dozens of failed pathing attempts. I failed to be flexible and pivot to a new strategy (like exploring the other warp) in a timely manner. This highlights a critical need to recognize when a plan is failing and actively seek alternative hypotheses and goals.
+### Verified Tile Types (Additions)
+*   **Impassable:** `WATER` (without Surf), `BUOY`
+*   **Warps:** `LADDER` (Move onto tile).
+
+## VI. Agent & Tool Development Ideas (New Section)
+*   **`route_planner_agent`:** Takes a start and end location (e.g., city to city) and suggests the high-level route based on known map connections.
+*   **`pathfinder_v4`:** A new version of the pathfinder tool that can optionally ignore specific object IDs during its impassability check, allowing it to path around some NPCs but not others.
