@@ -45,3 +45,12 @@
 ### C. Discovered Non-Standard Mechanics
 - **Pikachu Traversal:** I can walk through the Pikachu sprite. This is a key mechanic for navigating tight spaces he might be blocking.
 - **Pokemon Mansion 3F (Pressure Plate Mechanic):** Confirmed a 'prime and trigger' mechanic. Walking onto tile (11, 4) opens the gates at (16, 5) and (16, 6).
+
+### C. Comprehensive Tile Mechanics
+- **Ground/Grass:** Standard walkable tiles.
+- **Impassable:** Walls and objects that cannot be walked through.
+- **Water:** Requires SURF to traverse.
+- **Ledges:** One-way downward traversal.
+- **Gates (`open_gate`/`closed_gate`):** Barriers that can be toggled by switches or pressure plates.
+- **Holes:** One-way drops to a lower floor.
+- **Warps (Stairs/Doors):** Two-way teleporters between floors or rooms.
