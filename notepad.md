@@ -54,4 +54,3 @@
 *   **Failure Log (Turns ~27817-27840):** Stuck interacting with wandering NPCs in Azalea Town. **Lesson: Abandon failing strategies more quickly.**
 
 ## VI. Technical Debt & Bug Reports
-*   **Pathfinder v7 Bug:** The tool fails to find a path when the player's starting x-coordinate is 0. I need to fix this as soon as possible. My hypothesis is that the code incorrectly handles the edge of the map. I have already tested this by moving one tile to the right and the pathfinder worked.
