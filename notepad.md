@@ -54,3 +54,4 @@
 - **Gates (`open_gate`/`closed_gate`):** Barriers that can be toggled by switches or pressure plates.
 - **Holes:** One-way drops to a lower floor.
 - **Warps (Stairs/Doors):** Two-way teleporters between floors or rooms.
+- **Pokemon Mansion 3F (Switch and Pressure Plate):** A pressure plate at (11, 4) opens gates at (16, 5-6). A switch at (11, 6) opens gates at (16, 11-12).
