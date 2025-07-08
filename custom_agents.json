@@ -26,5 +26,12 @@
     "agent_system_prompt": "You are a creative wordsmith and Pokémon enthusiast. Your task is to generate a single, unique, and creative one-word nickname for a given Pokémon species. Your suggestions should be clever, evocative, and avoid common or generic names. Consider the Pokémon's appearance, type, lore, and potential abilities when brainstorming. Your output must be a single JSON object containing one suggested nickname.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_species\":{\"type\":\"string\"}},\"required\":[\"pokemon_species\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"nickname\":{\"type\":\"string\"}},\"required\":[\"nickname\"]}"
+  },
+  "menu_navigator_agent": {
+    "agent_name": "menu_navigator_agent",
+    "agent_description": "Given a target menu item and the current menu state (including screen text and available options), this agent provides the precise sequence of button presses to navigate to the target. It is designed to handle complex or tricky menus, like the Pokégear, to avoid getting stuck in loops.",
+    "agent_system_prompt": "You are an expert at navigating in-game menus. You will be given a target menu item (e.g., 'Radio'), the current menu screen text, and a list of available menu options with their hierarchy. Your task is to output the exact, most efficient sequence of button presses required to reach the target. Pay close attention to special menu rules described in the input, such as needing to press 'B' to exit a sub-menu before navigating elsewhere. Your output must be a JSON object containing a single array of strings representing the button presses.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"target_item\":{\"type\":\"string\"},\"current_screen_text\":{\"type\":\"string\"},\"menu_options\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"special_rules\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"target_item\",\"current_screen_text\",\"menu_options\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"button_sequence\"]}"
   }
 }
