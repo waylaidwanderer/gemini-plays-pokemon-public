@@ -1,4 +1,31 @@
 {
+  "advanced_pathfinder": {
+    "description": "An advanced pathfinder that ignores tile types to find hidden passages. It tests the hypothesis that a path exists through tiles marked as impassable, resolving contradictions where the game reports a barrier as reachable but standard pathfinding fails.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef advanced_pathfinding_tool():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n\n    start_x = int(input_data['start_x']) - 1\n    start_y = int(input_data['start_y']) - 1\n    end_x = int(input_data['end_x']) - 1\n    end_y = int(input_data['end_y']) - 1\n\n    start_node = (start_x, start_y)\n    end_node = (end_x, end_y)\n\n    queue = deque([(start_node, [start_node])])\n    visited = {start_node}\n\n    while queue:\n        (current_x, current_y), path = queue.popleft()\n\n        if (current_x, current_y) == end_node:\n            path_plan = [{'x': x + 1, 'y': y + 1} for x, y in path]\n            print(json.dumps(path_plan))\n            return\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_x, next_y = current_x + dx, current_y + dy\n\n            if 0 <= next_x < width and 0 <= next_y < height:\n                neighbor = (next_x, next_y)\n                if neighbor not in visited:\n                    visited.add(neighbor)\n                    new_path = path + [neighbor]\n                    queue.append((neighbor, new_path))\n\n    print(json.dumps([]))\n\nadvanced_pathfinding_tool()"
+  },
   "exploration_planner": {
     "description": "Analyzes the map to find the closest reachable unseen tile and calculates the optimal path to an adjacent, traversable tile. It now correctly handles cases where the geometrically closest unseen tile is unreachable by considering all possibilities.",
     "input_schema": {
@@ -122,32 +149,5 @@
       ]
     },
     "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path_adjacent_tool():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    grid = [['' for _ in range(width)] for _ in range(height)]\n    impassable_coords = set()\n\n    traversal_type = input_data['traversal_type']\n    walkable_types = ['water'] if traversal_type == 'surf' else ['ground', 'grass', 'open_gate', 'cleared_boulder_barrier', 'boulder_switch', 'teleport', 'hole', 'spinner_stop', 'ladder_up', 'ladder_down', 'steps']\n\n    for r_idx, row_elem in enumerate(root.findall('Row')):\n        y = int(row_elem.get('id')) - 1\n        for c_idx, tile_elem in enumerate(row_elem.findall('Tile')):\n            x = int(tile_elem.get('id')) - 1\n            grid[y][x] = tile_elem.get('type')\n            if tile_elem.find('Object') is not None and (tile_elem.find('Object').get('id-name') != 'Pikachu'):\n                impassable_coords.add((x, y))\n\n    start_x, start_y = int(input_data['start_x']) - 1, int(input_data['start_y']) - 1\n    end_x, end_y = int(input_data['end_x']) - 1, int(input_data['end_y']) - 1\n\n    target_adjacents = []\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        adj_x, adj_y = end_x + dx, end_y + dy\n        if 0 <= adj_x < width and 0 <= adj_y < height and grid[adj_y][adj_x] in walkable_types and (adj_x, adj_y) not in impassable_coords:\n            target_adjacents.append((adj_x, adj_y))\n\n    if not target_adjacents:\n        print(json.dumps([]))\n        return\n\n    queue = deque([( (start_x, start_y), [(start_x, start_y)] )])\n    visited = {(start_x, start_y)}\n\n    while queue:\n        (current_x, current_y), path = queue.popleft()\n\n        if (current_x, current_y) in target_adjacents:\n            path_plan = [{'x': x + 1, 'y': y + 1} for x, y in path]\n            print(json.dumps(path_plan))\n            return\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_x, next_y = current_x + dx, current_y + dy\n            \n            if traversal_type == 'walk' and grid[current_y][current_x] == 'ledge' and dy == 1:\n                next_y = current_y + 2\n\n            if 0 <= next_x < width and 0 <= next_y < height and (next_x, next_y) not in visited:\n                tile_type = grid[next_y][next_x]\n                is_walkable = tile_type in walkable_types or (traversal_type == 'walk' and tile_type == 'ledge' and next_y > current_y)\n                if is_walkable and (next_x, next_y) not in impassable_coords:\n                    visited.add((next_x, next_y))\n                    queue.append(((next_x, next_y), path + [(next_x, next_y)]))\n\n    print(json.dumps([]))\n\nfind_path_adjacent_tool()"
-  },
-  "advanced_pathfinder": {
-    "description": "An advanced pathfinder that ignores tile types to find hidden passages. It tests the hypothesis that a path exists through tiles marked as impassable, resolving contradictions where the game reports a barrier as reachable but standard pathfinding fails.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef advanced_pathfinding_tool():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n\n    start_x = int(input_data['start_x']) - 1\n    start_y = int(input_data['start_y']) - 1\n    end_x = int(input_data['end_x']) - 1\n    end_y = int(input_data['end_y']) - 1\n\n    start_node = (start_x, start_y)\n    end_node = (end_x, end_y)\n\n    queue = deque([(start_node, [start_node])])\n    visited = {start_node}\n\n    while queue:\n        (current_x, current_y), path = queue.popleft()\n\n        if (current_x, current_y) == end_node:\n            path_plan = [{'x': x + 1, 'y': y + 1} for x, y in path]\n            print(json.dumps(path_plan))\n            return\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_x, next_y = current_x + dx, current_y + dy\n\n            if 0 <= next_x < width and 0 <= next_y < height:\n                neighbor = (next_x, next_y)\n                if neighbor not in visited:\n                    visited.add(neighbor)\n                    new_path = path + [neighbor]\n                    queue.append((neighbor, new_path))\n\n    print(json.dumps([]))\n\nadvanced_pathfinding_tool()"
   }
 }
