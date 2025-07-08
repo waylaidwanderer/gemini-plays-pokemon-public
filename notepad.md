@@ -33,15 +33,24 @@
 *   **Haircuts:** Increases a Pokémon's happiness.
 *   **Pokégear Phone Menu:** When the 'Whom do you want to call?' text box is active, you cannot use the D-pad to switch functions. You MUST press 'B' to cancel and return to the main Pokégear screen before you can navigate to the radio.
 
-## III. Current Plans & Hypotheses
+## III. Current Action Plan & Hypotheses
 *   **Objective:** Reach Goldenrod City.
-*   **Problem:** I seem to be at a dead end on Route 34. My `pathfinder_v5` tool reports no more reachable unseen tiles.
-*   **Primary Hypothesis:** I am missing a narrative trigger from an NPC.
-    *   **Test:** Speak to the Day-Care couple again. (Current action)
-*   **Alternative Hypothesis 1:** The trigger is an item or NPC I missed on the already-explored parts of Route 34.
-    *   **Test:** If the Day-Care couple provides no new info, I must systematically re-walk all of Route 34 and interact with everything.
-*   **Alternative Hypothesis 2:** I am hard-gated and cannot proceed north yet. The way forward requires an HM (like Surf) or an item I don't have.
-    *   **Test:** If all other hypotheses fail, I must change my primary goal and explore other available areas (like the Ruins of Alph or Dark Cave) to find the necessary item/ability.
+*   **Problem:** I seem to be at a dead end on Route 34. My `pathfinder_v5` tool reports no more reachable unseen tiles. This suggests a non-obvious progression path.
+
+*   **Hypothesis 1 (Failed):** The Day-Care couple has a narrative trigger.
+    *   **Test:** Spoke to both Gramps and Granny in the Day-Care.
+    *   **Conclusion:** They only offered standard Day-Care services. This hypothesis is incorrect.
+
+*   **Hypothesis 2 (Current):** There is a missed item or NPC interaction on Route 34.
+    *   **Action Plan:**
+        1.  Exit the Day-Care.
+        2.  Travel to the southernmost point of Route 34.
+        3.  Systematically walk north, hugging the western edge of the route, interacting with every object and NPC.
+        4.  Once the northernmost point is reached, travel south again, hugging the eastern edge of the route, interacting with everything.
+        5.  Pay close attention to any single-tile gaps or seemingly decorative elements that might be interactive.
+
+*   **Hypothesis 3 (Contingency):** Progression is gated by an item or HM I don't possess.
+    *   **Action Plan:** If Hypothesis 2 fails, I will change my primary goal. I will explore other accessible areas, such as Dark Cave (now that I have Flash) or the Ruins of Alph again, in search of a key item or ability (like Surf or Strength).
 
 ## IV. Key Items & TMs
 *   **COIN CASE:** Allows playing at the Game Corner.
