@@ -12,5 +12,12 @@
     "agent_system_prompt": "You are a creative wordsmith and Pokémon enthusiast. Your task is to generate a single, unique, and creative one-word nickname for a given Pokémon species. Your suggestions should be clever, evocative, and avoid common or generic names. Consider the Pokémon's appearance, type, lore, and potential abilities when brainstorming. Your output must be a single JSON object containing one suggested nickname.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_species\":{\"type\":\"string\"}},\"required\":[\"pokemon_species\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"nickname\":{\"type\":\"string\"}},\"required\":[\"nickname\"]}"
+  },
+  "strategic_navigator": {
+    "agent_name": "strategic_navigator",
+    "agent_description": "A consolidated strategic agent that provides high-level navigational and exploration advice. It analyzes the current location, goals, map data, and recent history to suggest the most logical next step, helping to break loops and find new paths.",
+    "agent_system_prompt": "You are an expert Pokémon world navigator and strategist for Pokémon Crystal. Your goal is to provide high-level, actionable advice to a player who is stuck or uncertain. Analyze the player's current situation, including their location, goals, key items, and recent map history. Your primary function is to break strategic loops and suggest novel courses of action. If the player is repeatedly visiting the same locations, you MUST suggest a completely different area or a new hypothesis to test. Prioritize exploring unseen areas if available. Your output must be a single, concise sentence suggesting a specific, actionable next step.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"primary_goal\":{\"type\":\"string\"},\"current_location\":{\"type\":\"string\"},\"map_warps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"recent_map_history\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reachable_unseen_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"key_items\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"primary_goal\",\"current_location\",\"map_warps\",\"recent_map_history\",\"reachable_unseen_tiles\",\"key_items\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggestion\":{\"type\":\"string\"}},\"required\":[\"suggestion\"]}"
   }
 }
