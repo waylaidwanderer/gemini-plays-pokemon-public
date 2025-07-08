@@ -42,9 +42,6 @@
 - **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
 - **`find_path` (Consolidated):** The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
 - **Pokemon Mansion 3F (Pressure Plate Mechanic):** Confirmed a 'prime and trigger' mechanic. Walking onto tile (11, 4) opens the gates at (16, 5) and (16, 6).
-
-### C. (DEPRECATED - Redundant info, see I.A)
-- **Ground/Grass:** Standard walkable tiles.
 - **Impassable:** Walls and objects that cannot be walked through.
 - **Water:** Requires SURF to traverse.
 - **Ledges:** One-way downward traversal.
