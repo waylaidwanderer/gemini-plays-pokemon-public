@@ -58,4 +58,5 @@
 ### C. Current Puzzle: Mansion 1F Corridor Contradiction
 - **Contradiction:** The game state lists the gates at (25, 14) as 'Reachable Barriers', but all attempts to find a path through standard movement or local interactions have failed.
 - **Conclusion:** This proves a non-standard path or traversal mechanic exists on this floor.
-- **New Test Plan:** Use the `find_path` tool to calculate a path to a tile adjacent to the barrier. The tool's output should reveal the hidden path.
+- **Test Plan (Attempt 1):** Use the `find_path` tool to calculate a standard path. **Result: FAILED.** The tool found no path, confirming a non-standard solution is required.
+- **Test Plan (Attempt 2):** Use the `advanced_pathfinder` tool. This tool ignores puzzle-specific barriers and should reveal the hidden passage.
