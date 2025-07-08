@@ -40,7 +40,7 @@
 
 ### A. Agent Failures & Lessons Learned
 - **`battle_strategist_agent` (Flawed Knowledge):** The agent repeatedly hallucinated Pokémon types from their nicknames. I have performed a major overhaul of its system prompt to force it to use only the provided type data, forbidding any inference.
-- **Pokemon Mansion 3F (Switch and Pressure Plate):** A pressure plate at (11, 4) opens gates at (16, 5-6). A switch at (11, 6) opens gates at (16, 11-12).
+Pokemon Mansion 3F (Alternating Gates - SOLVED): The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12). The pressure plate at (11, 4) is a separate mechanism and was not involved.
 
 ### B. Tool Flaws & Consolidations
 - **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
