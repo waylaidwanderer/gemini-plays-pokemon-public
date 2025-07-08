@@ -23,30 +23,30 @@
 - **Safari Zone:** Has a time limit. When it expires, the player is warped back to the Safari Zone Gate.
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center.
 
-## II. Puzzle & Hypothesis Log
+## II. Active Puzzles & Hypotheses
 
 ### A. Active Puzzle: Pokémon Mansion
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
 - **Key Mechanic: 'Alternating Doors':** A specific gate mechanic where switches (often hidden in statues) toggle between opening one set of gates while closing another. The effect can be on the same floor or even different floors. Sometimes a switch needs to be 'primed' and then the player has to walk to the gate to trigger it to open.
 
-### B. Solved Puzzles Archive
-- **Pokemon Mansion B1F (Gate Switch):** A switch at (19, 26) toggles two sets of gates using a 'prime and trigger' mechanic. Flip the switch to prime a set, then walk to them to open.
-- **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
-- **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12).
+### B. Active Hypothesis Testing Notes
+- **Pokémon Mansion (Confirmation Bias Check):** My focus has been on switches. I need to test the assumption that this is the *only* mechanic. Next exploration will involve interacting with all furniture and checking for hidden items on the ground, not just flipping switches.
 
 ## III. Tool & Agent Development Log
 
-### A. Agent Failures & Lessons Learned
-- **`battle_strategist_agent` (Critical HP/Status Blindness - REFINED on Turn 58535):** The agent repeatedly failed by recommending switches to Pokémon at critically low HP and/or with debilitating status conditions (e.g., CRAG at turns 58518, 58509). This indicated a critical flaw in its risk assessment logic. I have now refined its system prompt to force a thorough check of the entire party's current HP and status before making any switch recommendation, heavily penalizing high-risk switches.
-- **`puzzle_master_agent` (Pathing Logic Flaw - FIXED):** The agent suggested interactions with unreachable NPCs. It has been refined to check for a valid path before suggesting an action.
-
-### B. Agent/Tool Brainstorming
+### A. Agent/Tool Brainstorming
 - **Idea: `puzzle_solver_agent`:** For complex puzzles like the 'alternating doors' in the mansion, an agent could analyze the map state before and after a switch is flipped. It could then identify which gates have changed state and propose the most logical new exploration path to test the puzzle's mechanics.
 
-### C. Tool Flaws & Consolidations
-- **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
-- `find_path` (Consolidated): The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
+## IV. Archive
 
-### D. Active Hypothesis Testing Notes
-- **Pokémon Mansion (Confirmation Bias Check):** My focus has been on switches. I need to test the assumption that this is the *only* mechanic. Next exploration will involve interacting with all furniture and checking for hidden items on the ground, not just flipping switches.
+### A. Solved Puzzles Archive
+- **Pokemon Mansion B1F (Gate Switch):** A switch at (19, 26) toggles two sets of gates using a 'prime and trigger' mechanic. Flip the switch to prime a set, then walk to them to open.
+- **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
+- **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12).
 - **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
+
+### B. Deprecated Development Log
+- **`battle_strategist_agent` (Critical HP/Status Blindness - REFINED on Turn 58535):** The agent repeatedly failed by recommending switches to Pokémon at critically low HP and/or with debilitating status conditions (e.g., CRAG at turns 58518, 58509). This indicated a critical flaw in its risk assessment logic. I have now refined its system prompt to force a thorough check of the entire party's current HP and status before making any switch recommendation, heavily penalizing high-risk switches.
+- **`puzzle_master_agent` (Pathing Logic Flaw - FIXED):** The agent suggested interactions with unreachable NPCs. It has been refined to check for a valid path before suggesting an action.
+- **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
+- **`find_path` (Consolidated):** The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
