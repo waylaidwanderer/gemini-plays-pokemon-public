@@ -46,3 +46,6 @@
 ### C. Tool Flaws & Consolidations
 - **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
 - `find_path` (Consolidated): The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
+
+### D. Active Hypothesis Testing Notes
+- **Pokémon Mansion (Confirmation Bias Check):** My focus has been on switches. I need to test the assumption that this is the *only* mechanic. Next exploration will involve interacting with all furniture and checking for hidden items on the ground, not just flipping switches.
