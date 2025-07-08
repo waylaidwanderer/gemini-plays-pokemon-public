@@ -34,3 +34,4 @@
 - **Direct Gate Interaction (Deprecated):** Hypothesized that the 'reachable' eastern gates at (25,14) and (26,14) could be opened by direct interaction ('A' button). **Conclusion:** Failed.
 - **Hidden Item (Deprecated):** Hypothesized a hidden item was needed to open the eastern gates. **Conclusion:** ITEMFINDER found nothing.
 - **Agent Logic Flaw (Corrected):** The `battle_strategist_agent` initially failed to account for two-turn moves (e.g., FLY), recommending them even when a faster one-turn KO was possible. The agent has been updated to prioritize one-turn KOs.
+- **Agent Logic Flaw (Corrected):** The `battle_strategist_agent` initially failed to account for two-turn moves (e.g., FLY), recommending them even when a faster one-turn KO was possible. The agent has been updated to prioritize one-turn KOs.
