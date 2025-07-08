@@ -45,9 +45,4 @@
 ### C. Discovered Non-Standard Mechanics
 - **Pikachu Traversal:** I can walk through the Pikachu sprite. This is a key mechanic for navigating tight spaces he might be blocking.
 
-### A. Current Puzzle: Pokemon Mansion
-- **Objective:** Find the 'Secret Key' to unlock the Cinnabar Gym.
-- **Hypothesis:** The key is located somewhere within the Pokémon Mansion.
-- **Key Mechanic:** The mansion's puzzles are based on an 'Alternating Doors' system. A single switch can toggle the state of multiple gates across the floor. The switch at (3, 6) on 1F controls both the northern gates at (17,8) and the eastern gates at (25,14). I need to navigate between floors to reach different sections of 1F to proceed.
-
 - **Key Mechanic:** The mansion's puzzles are based on an 'Alternating Doors' system. A single switch can toggle the state of multiple gates across the floor. The switch at (3, 6) on 1F controls both the northern gates at (17,8) and the eastern gates at (25,14). I need to navigate between floors to reach different sections of 1F to proceed.
