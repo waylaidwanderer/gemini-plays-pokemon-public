@@ -50,7 +50,7 @@
 
 ## V. Archive: Solved Puzzles & Procedural Failures
 *   **Hypothesis Testing To-Do:**
-    *   Test `COUNTER` tile traversability from the side.
+    
 *   **Failure Log (Turns ~28533-28564):** Wasted significant time attempting to buy Repels at Violet City Mart based on an unverified assumption. **Lesson: Verify information before committing to a multi-step plan. A bigger city's Department Store is a more reliable source for a wider variety of items.**
 *   **Failure Log (Turns ~28488-28532):** Failed to use REPELs, leading to numerous wasteful encounters on Route 32. **Lesson: Verify consumable inventory before long trips.**
 
