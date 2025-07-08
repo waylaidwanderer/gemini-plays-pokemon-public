@@ -29,5 +29,5 @@
 - **Pokemon Mansion 2F Puzzle:** I am currently trapped in the NW corner of 2F. The switch at (3, 12), triggered by interacting with the floor at (3, 13), seems to be the key, but I am stuck in a loop. The message 'Not quite yet!' suggests a condition is unmet. My current hypothesis is that I need to speak to the Super Nerd at (4, 18) for a new clue.
 
 ## III. Solved Puzzles Archive
-- **Pokemon Mansion B1F:** A switch at (19, 26) toggles gate sets via a dynamic trigger.
-- **Pokemon Mansion 1F:** A secret switch in the statue at (3, 6) opens northern gates. Eastern gates at (25, 14) open via a hidden trigger.
+- **Pokemon Mansion B1F:** A switch at (19, 26) toggles gate sets.
+- **Pokemon Mansion 1F:** A secret statue switch at (3, 6) opens northern gates. Eastern gates at (25, 14) are on a hidden trigger.
