@@ -55,10 +55,8 @@
 *   **TM49 (FURY CUTTER)**
 
 ## V. Archive: Solved Puzzles & Failed Hypotheses
-*   **Skepticism Reminder:** Not all NPCs are trainers. Do not waste turns trying to battle non-battling NPCs.
+*   **Skepticism Reminder:** Not all NPCs are trainers. Do not waste turns trying to battle non-battling NPCs. If an NPC doesn't battle after the first or second interaction, they are likely not a trainer.
 *   **Failure Log (Navigation):** The path to Ecruteak City is NOT east of Route 36 (leads to Violet City) or west of Route 36 (dead end). **Lesson: If a path repeatedly fails, abandon the hypothesis and explore other routes.**
 *   **Failure Log (Pathfinder v7):** The tool's failures are often a symptom of my own flawed strategy (e.g., pathing into unseen areas). **Lesson: Verify my strategic assumptions before blaming the tool.**
 *   **Hypothesis Failure (Radio Tower):** The Plain Badge does NOT grant access to the upper floors of the Radio Tower. The Black Belt at (0, 1) on 2F still blocks the path, citing an issue with the Director. (Turn #29187)
-### Ecruteak City - Dance Theater
-*   A Gentleman at (7, 10) will give a gift if I defeat all the Kimono Girls.
-*   A Cooltrainer M at (10, 10) mentioned a man with a Rhydon who wants a Pokémon that can SURF. This is likely a hint for a future sidequest.
+*   **Dance Theater Info:** A Gentleman at (7, 10) will give a gift if I defeat all the Kimono Girls. A Cooltrainer M at (10, 10) mentioned a man with a Rhydon who wants a Pokémon that can SURF.
