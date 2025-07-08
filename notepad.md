@@ -5,7 +5,7 @@
 
 ## II. Strategic Plan
 *   **Primary Goal: Obtain the next badge in Ecruteak City**
-    *   **Plan:** Travel from Goldenrod City through Route 35, National Park, and Route 36 to reach Ecruteak City.
+    *   **Current Hypothesis:** The path to Ecruteak City is through a northern exit in the National Park, leading to Route 37.
 *   **Secondary Goal: Train the newly hatched ELEKID.**
     *   **Plan:** Keep ELEKID in the party to gain experience from battles.
 *   **Tertiary Goal: Investigate the Radio Tower in Goldenrod City**
@@ -28,7 +28,7 @@
     * `FLOOR_UP_WALL`: A one-way ledge that can only be hopped **UP**. It is impassable from above (acts as a wall). Confirmed in Union Cave B1F and Slowpoke Well B1F.
 *   **Special Requirement:** `CUT_TREE` (Requires HM01 Cut).
 *   **Complex Tiles:**
-    *   `WARP_CARPET_LEFT/DOWN/RIGHT`: Activated by pressing the indicated direction while standing on the tile.
+    *   `WARP_CARPET_LEFT/RIGHT/DOWN`: Activated by pressing the indicated direction while standing on the tile.
     *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile. It is a one-way interaction.
     *   `Interactable Warp (FLOOR)`: Some FLOOR tiles that are also warps do not activate on entry. They must be interacted with by pressing 'A' to trigger an event or text. (e.g., Ruins of Alph Inner Chamber @ (15, 3)).
 
@@ -54,14 +54,9 @@
 *   **TM45 (ATTRACT):** Infatuates opposite-gender Pokémon.
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
-## VI. Archive: Solved Puzzles & Procedural Failures
+## V. Archive: Solved Puzzles & Procedural Failures
 *   **Hypothesis Testing To-Do:**
-    *   Test `FLOOR_UP_WALL` at Route 36 (51, 16) by attempting to move down against it.
-    *   Test `WARP_CARPET_LEFT` at Route 36 (18, 8) and (18, 9) by pressing Left.
-    *   Test `WARP_CARPET_DOWN` at Route 36 (47, 13) and (48, 13) by pressing Down.
+    *   Test `WALL` (Fence Appearance) in National Park by attempting to walk into it.
 *   **Skepticism Reminder:** Do not assume all NPCs are trainers. Some provide hints or flavor text. Wasting turns trying to battle a non-battling NPC is inefficient. (e.g., Super Nerd in Violet City).
+*   **Failure Log (Navigation):** Wasted many turns attempting to find Ecruteak City by heading east on Route 36. This path leads to Violet City. The correct path must lie elsewhere. **Lesson: If a path repeatedly fails to lead to the desired destination, I must abandon the hypothesis and explore other routes instead of persisting.**
 *   **Failure Log (Pathfinder v7):** The `explore_unseen` logic in the pathfinder has repeatedly failed due to overly simplistic assumptions. The 'closest unseen' logic failed because it didn't account for pathability. The 'entry point' logic failed because my strategic understanding of the map was flawed. **Lesson: The tool's failure is often a symptom of my own flawed strategy. I must verify my assumptions about the map before blaming the tool.**
-*   **Failure Log (Situational Awareness):** Wasted over 100 turns exploring Violet City under the mistaken assumption it was the path to Ecruteak City. **Lesson: I must be more diligent in consulting the world map and my own notes to verify my location and route before committing to extensive exploration. If I am stuck, I must actively question my most basic assumptions about where I am and where I'm going.**
-*   **WALL (Fence Appearance):** Some `WALL` tiles appear as fences but function as impassable walls. Confirmed in National Park.
-*   **Complex Tiles:**
-    *   `WARP_CARPET_LEFT/RIGHT`: Activated by pressing the indicated direction while standing on the tile.
