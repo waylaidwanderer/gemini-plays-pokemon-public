@@ -31,3 +31,11 @@
 ### B. Solved Puzzles Archive
 - **Pokemon Mansion B1F:** A switch at (19, 26) toggles gate sets. It uses a two-step 'prime and trigger' mechanic: flip the switch to 'prime' a set of gates, then walk to them to open them.
 - **Pokemon Mansion 1F:** A secret statue switch at (3, 6) opens northern gates. Eastern gates at (25, 14) are on a hidden trigger.
+
+## III. Tool & Agent Development Log
+
+### A. Agent Failures
+- **`puzzle_solver_agent` (Deleted):** This agent repeatedly failed to recognize the contradiction between the game's 'Reachable Barriers' data and the `find_path` tool's inability to find a path. Despite multiple refinements (4 attempts), it continued to suggest impossible standard movement actions instead of hypothesizing a non-standard traversal mechanic as instructed. This indicates a fundamental logic failure. **Lesson:** An agent that cannot follow its core instructions is a liability and must be rebuilt from scratch if refinement fails.
+
+### B. Tool Flaws
+- **`advanced_pathfinder` (Awaiting Fix):** This tool is critically flawed. It was designed to find hidden passages by ignoring tile types, but it incorrectly suggests paths through 'impassable' tiles, which the game engine blocks. **Lesson:** Tools must respect fundamental game mechanics. The tool needs to be refined to ignore puzzle-specific barriers (like `closed_gate`) while still respecting absolute barriers (`impassable`).
