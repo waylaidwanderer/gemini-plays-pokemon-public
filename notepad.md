@@ -54,8 +54,4 @@
 *   **Failure Log (Turns ~27817-27840):** Stuck interacting with wandering NPCs in Azalea Town. **Lesson: Abandon failing strategies more quickly.**
 
 ## VI. Technical Debt & Bug Reports
-*   **Pathfinder v6 Bug:** The tool fails to find a path when the player's starting x-coordinate is 0. This needs to be fixed immediately. Hypothesis: The code incorrectly handles the edge of the map. Test: Run the pathfinder from (0, Y) and then from (1, Y) to confirm the bug is related to the x-coordinate.
-*   **INCENSE_BURNER:** Confirmed impassable in VioletNicknameSpeechHouse by attempting to walk into it from (0, 2).
-*   **BOOKSHELF:** Confirmed impassable in VioletNicknameSpeechHouse by attempting to walk into it from (1, 2).
-*   **RADIO:** Confirmed impassable in VioletNicknameSpeechHouse by attempting to walk into it from (2, 2).
-*   **RADIO:** Confirmed impassable in VioletNicknameSpeechHouse by attempting to walk into it from (2, 2).
+*   **Pathfinder v7 Bug:** The tool fails to find a path when the player's starting x-coordinate is 0. I need to fix this as soon as possible. My hypothesis is that the code incorrectly handles the edge of the map. I have already tested this by moving one tile to the right and the pathfinder worked.
