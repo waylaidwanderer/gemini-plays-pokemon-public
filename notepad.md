@@ -44,3 +44,13 @@
 
 ### C. Discovered Non-Standard Mechanics
 - **Pikachu Traversal:** I can walk through the Pikachu sprite. This is a key mechanic for navigating tight spaces he might be blocking.
+
+## IV. Current Puzzle Strategy: Mansion 1F Corridor
+
+- **Problem:** Trapped in the central corridor on 1F. All local hypotheses (pressure plates, hidden wall switches) have been tested and failed.
+- **New Hypothesis:** A switch or event on a different floor (2F, 3F, or B1F) is required to open the path on 1F.
+- **Test Plan:**
+  1. Systematically re-explore 2F, interacting with all switches and checking for changes on 1F.
+  2. If no change, repeat the process for 3F.
+  3. If still no change, repeat for B1F.
+  4. Document the outcome of each test.
