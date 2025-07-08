@@ -58,5 +58,6 @@
 - **Advanced Pathfinder Hypothesis (Attempt #1 - Failed):** A simple geometric path exists through impassable tiles.
   - **Test:** Used `advanced_pathfinder` to plot a course from (28, 27) to (17, 8).
   - **Conclusion:** The tool found a path, but physical movement was blocked at (28, 19), proving the path is not simply walkable.
-- **Agent Hypothesis (Attempt #7):** The 'Mansion Switch' at (3,6) is the trigger. The game's data indicates it is reachable despite the physical distance, suggesting it's the intended next step.
+- **Agent Hypothesis (Attempt #7 - Failed):** The 'Mansion Switch' at (3,6) is the trigger. The game's data indicates it is reachable despite the physical distance, suggesting it's the intended next step.
   - **Test:** Attempt to pathfind to the switch at (3,6).
+  - **Conclusion:** Pathfinding to the target tile failed, proving it is unreachable from the current location via standard pathing.
