@@ -35,7 +35,7 @@
 ## III. Tool & Agent Development Log
 
 ### A. Agent/Tool Brainstorming
-- **Idea: `puzzle_solver_agent`:** For complex puzzles like the 'alternating doors' in the mansion, an agent could analyze the map state before and after a switch is flipped. It could then identify which gates have changed state and propose the most logical new exploration path to test the puzzle's mechanics.
+- **Idea: `puzzle_master_agent` Refinement:** The existing agent should be improved to handle multi-floor puzzles. It needs to be able to hypothesize that a switch on one floor can affect gates or paths on another floor, and suggest testing these cross-floor interactions when local hypotheses fail.
 
 ## IV. Archive
 
