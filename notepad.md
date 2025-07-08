@@ -26,26 +26,20 @@
 
 ### A. Active Hypotheses
 - **Pokemon Mansion 1F 'Reachable Barrier' Contradiction:** The game's source of truth insists multiple closed gates are 'Reachable Barriers', but they appear impassable. All standard interaction attempts have failed. The puzzle_solver_agent has identified this contradiction as the key.
-  - **Agent Hypothesis (Attempt #1 - Failed):** A non-standard game mechanic allows passage through barriers marked as 'reachable'.
-          - **Test (Failed):** Walk south through gate at (27, 28).
-          - **Test (Failed):** Walk south through gate at (28, 28).
-        - **Agent Hypothesis (Attempt #2 - Failed):** Gates can be opened by direct interaction.
-          - **Test (Failed):** Interact with gate at (27, 28).
-          - **Test (Failed):** Interact with gate at (28, 28).
-        - **Agent Hypothesis (Attempt #3):** A hidden, non-obvious switch is nearby and must be activated to open the gates.
-          - **Test:** Search the area around the player for a hidden mechanism.
-          - **Test (Failed):** Walk south through gate at (28, 28).
-        - **Agent Hypothesis (Attempt #2 - Failed):** Gates can be opened by direct interaction.
-          - **Test (Failed):** Interact with gate at (27, 28).
-          - **Test (Failed):** Interact with gate at (28, 28).
-        - **Agent Hypothesis (Attempt #3):** A hidden, non-obvious switch is nearby and must be activated to open the gates.
-          - **Test:** Search the area around the player for a hidden mechanism.
 
 ### B. Solved Puzzles
 - **Pokemon Mansion B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
 ### C. Deprecated Hypotheses (Pokemon Mansion 1F)
-- **Multi-Floor Pathing:** Hypothesized path to the east was on another floor. **Invalidated by 'Reachable Barriers' notification.**
-- **Direct Gate Interaction:** Hypothesized gates could be opened by direct interaction ('A' button). **Failed.**
-- **Hidden Item:** Hypothesized a hidden item was needed. **ITEMFINDER found nothing.**
-- **Walk-Through Gates (General):** Hypothesized that 'reachable' closed gates could be walked through. **Failed.** This was based on the agent's initial identification of a contradiction. Re-testing with a more specific target is the current active hypothesis. This was based on the agent's initial identification of a contradiction. Re-testing with a more specific target is the current active hypothesis.
+- **Walk-Through Gates (Attempt #1 - Failed):** Hypothesized that 'reachable' closed gates could be walked through. This was based on the agent's initial identification of a contradiction.
+  - **Test (Failed):** Walk south through gate at (27, 28).
+  - **Test (Failed):** Walk south through gate at (28, 28).
+- **Direct Gate Interaction (Attempt #2 - Failed):** Hypothesized gates could be opened by direct interaction ('A' button).
+  - **Test (Failed):** Interact with gate at (27, 28).
+  - **Test (Failed):** Interact with gate at (28, 28).
+- **Hidden Item (Attempt #3 - Failed):** Hypothesized a hidden item was needed to open the gates in the 'trapped room'.
+  - **Test (Failed):** Used ITEMFINDER, found nothing.
+- **Hidden Switch (Attempt #4 - Failed):** Hypothesized a hidden switch was located on an adjacent wall tile.
+  - **Test (Failed):** Interacted with wall at (28, 28).
+- **Pikachu Interaction (Attempt #5 - Failed):** Hypothesized that interacting with Pikachu was the trigger.
+  - **Test (Failed):** Talked to Pikachu at (27, 27).
