@@ -30,7 +30,7 @@
 
 ## III. Solved Puzzles & Deprecated Hypotheses Archive
 - **Pokemon Mansion B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
-- **Pokemon Mansion 1F Deprecated Hypotheses:**
+- **Pokemon Mansion 1F Deprecated Hypotheses (Solved):**
     - **Walk-Through Gates (Failed - 2 attempts):** Hypothesized that 'reachable' closed gates could be walked through. Tested on gates at (27, 28) and (28, 28).
     - **Direct Gate Interaction (Failed - 2 attempts):** Hypothesized gates could be opened by direct interaction. Tested on gates at (27, 28) and (28, 28).
     - **Hidden Item (Failed - 2 attempts):** Hypothesized a hidden item was needed. Used ITEMFINDER at (22,17) and (4,6), found nothing.
