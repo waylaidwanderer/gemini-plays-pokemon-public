@@ -30,6 +30,7 @@
     *   **EVERSTONE:** Prevents evolution.
     *   **MOOMOO MILK:** Restores 100 HP.
     *   **ODD EGG:** A special egg received from the Day-Care Man.
+    *   **HARD STONE:** Powers up rock-type moves.
 *   **Haircuts:** Increases a Pokémon's happiness.
 *   **Pokégear Phone Menu:** When the 'Whom do you want to call?' text box is active, you cannot use the D-pad to switch functions. You MUST press 'B' to cancel and return to the main Pokégear screen before you can navigate to the radio.
 
@@ -51,4 +52,3 @@
 *   **Failure Log (Turns ~27544-27685):** Repeatedly distrusted pathfinder tool output, assuming it was broken when my own map understanding was flawed. **Lesson: Trust tool outputs to challenge my assumptions.**
 *   **Failure Log (Turn ~27708):** `pathfinder_v5` incorrectly identified start tile as impassable due to a map marker. Corrected the tool.
 *   **Failure Log (Turns ~27817-27840):** Stuck interacting with wandering NPCs in Azalea Town. **Lesson: Abandon failing strategies more quickly.**
-*   **HARD STONE:** Powers up rock-type moves.
