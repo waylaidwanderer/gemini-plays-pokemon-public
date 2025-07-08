@@ -44,3 +44,4 @@
 
 ### C. Discovered Non-Standard Mechanics
 - **Pikachu Traversal:** I can walk through the Pikachu sprite. This is a key mechanic for navigating tight spaces he might be blocking.
+- **`puzzle_master_agent` (Reflection):** I committed a process violation by not refining the agent immediately after its first failure (suggesting interaction with Pikachu). I allowed a second failure (suggesting interaction with an unreachable object) before correcting the core issue. **Lesson:** Agent refinement must be performed instantly upon identifying a flaw, without exception.
