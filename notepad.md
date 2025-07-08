@@ -25,17 +25,15 @@
 ## II. Puzzle & Hypothesis Log
 
 ### A. Active Hypotheses
-- **Pokemon Mansion 1F Alternating Switch:** The switch at (3, 6) is an alternating switch. The game indicates the eastern gates at (25, 14) are reachable, but they remain closed. The switch's message "Not quite yet!" implies a secondary condition is unmet. My current hypothesis is that the switch has more than two states, or another interaction is required elsewhere on the map after flipping the switch. **Test:** Flip the switch at (3, 6) and observe any changes to the gates.
-- **Route 20 Rock Walls:** The impassable rock walls on Route 20 may not be static barriers. **Hypothesis:** The walls can be removed or passed through by an external trigger, item, or specific condition. **Test:** After returning to Route 20, I will attempt to interact ('A' button) with the walls and use the ITEMFINDER nearby.
+- **Pokemon Mansion 1F 'Reachable Barrier' Contradiction:** The game's source of truth insists multiple closed gates are 'Reachable Barriers', but they appear impassable. All standard interaction attempts have failed. The puzzle_solver_agent has identified this contradiction as the key.
+  - **Agent Hypothesis (Attempt #1):** A non-standard game mechanic allows passage through barriers marked as 'reachable'.
+  - **Test:** Attempt to walk south through the gate at (27, 28).
 
 ### B. Solved Puzzles
 - **Pokemon Mansion B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
-### C. Deprecated Hypotheses
-- **Multi-Floor Pathing Solution (Deprecated):** My initial hypothesis was that the path to the eastern side of 1F must be on another floor. **Conclusion:** This was invalidated by a system notification about 'Reachable Barriers' on 1F, confirming the solution is on the same floor.
-- **Direct Gate Interaction (Deprecated):** Hypothesized that the 'reachable' eastern gates at (25,14) and (26,14) could be opened by direct interaction ('A' button). **Conclusion:** Failed.
-- **Hidden Item (Deprecated):** Hypothesized a hidden item was needed to open the eastern gates. **Conclusion:** ITEMFINDER found nothing.
-- **Reachable Barrier Contradiction:** The game's source of truth insists that multiple closed gates on this floor are 'Reachable Barriers'. However, my pathfinding tools show I am in an isolated area and cannot reach them. This contradiction implies a hidden path or non-standard interaction mechanic is at play. All standard interaction attempts have failed.
-- **Reachable Barrier Contradiction (NEW HYPOTHESIS):** The game's source of truth insists that multiple closed gates on this floor are 'Reachable Barriers', despite appearing impassable. My puzzle_solver_agent has identified this contradiction. **Hypothesis:** A non-standard game mechanic is at play, allowing passage through objects marked as 'reachable' even if their state is 'closed'. **Test:** Attempt to walk through the West Gates at (17,8).
-- **Direct Gate Interaction (Deprecated):** Hypothesized that the 'reachable' southern gates at (27,28) could be opened by direct interaction ('A' button). **Conclusion:** Failed.
-- **Hidden Item Hypothesis:** All other methods of escape have failed. The room may contain a hidden item needed to progress. **Test:** Use the ITEMFINDER.
+### C. Deprecated Hypotheses (Pokemon Mansion 1F)
+- **Multi-Floor Pathing:** Hypothesized path to the east was on another floor. **Invalidated by 'Reachable Barriers' notification.**
+- **Direct Gate Interaction:** Hypothesized gates could be opened by direct interaction ('A' button). **Failed.**
+- **Hidden Item:** Hypothesized a hidden item was needed. **ITEMFINDER found nothing.**
+- **Walk-Through Gates (General):** Hypothesized that 'reachable' closed gates could be walked through. **Failed.** This was based on the agent's initial identification of a contradiction. Re-testing with a more specific target is the current active hypothesis.
