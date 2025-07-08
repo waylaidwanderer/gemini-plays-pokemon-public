@@ -61,3 +61,5 @@
 - **Test Plan (Attempt 1):** Use the `find_path` tool to calculate a standard path. **Result: FAILED.** The tool found no path, confirming a non-standard solution is required.
 - **Test Plan (Attempt 2):** Use the `advanced_pathfinder` tool. This tool ignores puzzle-specific barriers and should reveal the hidden passage.
 - **Mansion 1F Eastern Corridor:** Reached the eastern corridor after using `advanced_pathfinder`. Now adjacent to the closed gates at (25, 14). Next step is to find the local trigger to open them.
+- **`advanced_pathfinder` (Flaw Found):** The tool incorrectly assumes `closed_gate` tiles are traversable. The game engine treats them as impassable, causing the tool to generate invalid paths. This tool needs to be fixed to respect `closed_gate` barriers.
+- **Mansion 1F Gate Contradiction:** Currently at (26, 13). The gates at (25, 14) are listed as 'Reachable Barriers', but both `find_path` and `advanced_pathfinder` fail to find a route. This confirms a non-standard solution is required. Using `puzzle_master_agent` to hypothesize a solution.
