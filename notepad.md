@@ -12,7 +12,7 @@
 - **Obvious Tile Test:** Even if a tile seems obviously impassable (e.g., WALL), I must attempt to walk into it once to be 100% certain.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `COUNTER`, `WATER` (without Surf), `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`.
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `WATER` (without Surf), `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`.
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters), `LONG_GRASS` (Wild Encounters), `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile).
 *   **One-Way Ledges:** 
@@ -46,15 +46,12 @@
 
 ## IV. Future Development Ideas
 *   **Auto-Travel Agent/Tool:** Create a system to automate travel through high-encounter areas. It would handle running from battles and re-calculating paths automatically to streamline long journeys.
+*   **Phone Call Summarizer Agent:** An agent to parse phone call text and extract key information (e.g., trainer name, location, request) to avoid reading through lengthy dialogues.
 
 ## V. Archive: Solved Puzzles & Procedural Failures
-*   **Solved: Azalea Town Slowpoke Infestation:** Confronted Team Rocket in Slowpoke Well after speaking with Kurt.
-*   **Failure Log (Turns ~27050-27235):** Severe behavioral loops related to Pokégear menu navigation. Failed to consult documented solution.
-*   **Failure Log (Turn ~27329):** Pathfinder tool did not account for NPCs. Upgraded tool to route around all objects.
-*   **Failure Log (Turns ~27410-27441):** Became stuck in Violet City Mart. Failed to seek alternative hypotheses when a plan was failing.
-*   **Failure Log (Turns ~27544-27685):** Repeatedly distrusted pathfinder tool output, assuming it was broken when my own map understanding was flawed. **Lesson: Trust tool outputs to challenge my assumptions.**
-*   **Failure Log (Turn ~27708):** `pathfinder_v5` incorrectly identified start tile as impassable due to a map marker. Corrected the tool.
-*   **Failure Log (Turns ~27817-27840):** Stuck interacting with wandering NPCs in Azalea Town. **Lesson: Abandon failing strategies more quickly.**
+*   **Hypothesis Testing To-Do:**
+    *   Test `COUNTER` tile traversability from the side.
+*   **Failure Log (Turns ~28533-28564):** Wasted significant time attempting to buy Repels at Violet City Mart based on an unverified assumption. **Lesson: Verify information before committing to a multi-step plan. A bigger city's Department Store is a more reliable source for a wider variety of items.**
 *   **Failure Log (Turns ~28488-28532):** Failed to use REPELs, leading to numerous wasteful encounters on Route 32. **Lesson: Verify consumable inventory before long trips.**
 
 ## VI. Consumable Item Tracker
@@ -62,4 +59,4 @@
 *   **ESCAPE ROPEs:** 0
 
 ## VII. Strategic Planning Notes
-*   **Current Plan:** Purchase REPELs at the Violet City Mart. After stocking up, return to Route 32 and proceed to Union Cave.
+*   **Current Plan:** Travel to the Goldenrod Department Store to purchase REPELs. This is the most reliable location for a wide variety of items.
