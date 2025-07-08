@@ -31,6 +31,7 @@
     * `WATER` (Requires HM03 Surf).
 *   **Complex Tiles:**
     *   `WARP_CARPET_LEFT/RIGHT/DOWN`: Activated by pressing the indicated direction while standing on the tile.
+    *   `WARP_CARPET_DOWN`: Activated by pressing 'Down' while standing on the tile.
     *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile.
     *   `Interactable Warp (FLOOR)`: Some FLOOR tiles that are also warps must be interacted with by pressing 'A' to trigger an event or text.
 *   **Untested:** `unknown`
