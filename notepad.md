@@ -46,16 +46,16 @@
 ## III. Current Objectives & Hypotheses
 
 ### Primary Objective: Find Ecruteak City
-*   **Current Location:** Ruins of Alph Inner Chamber
-*   **Hypothesis Chain:** Path to Ecruteak -> Requires solving Ruins puzzle -> Puzzle is multi-stage.
+*   **Current Location:** Ruins of Alph
+*   **Hypothesis Chain:** Path to Ecruteak -> Requires solving Ruins puzzle -> Puzzle solution requires an Escape Rope.
 
 ### Ruins of Alph Inner Chamber Puzzle
-*   **Current Hypothesis (Agent #4):** Using the 'Dig' move while standing on the specific warp tile at (15, 3) will solve the puzzle, based on the tile's unique flavor text.
-*   **Failed Hypothesis 1:** Interacting with the 'LIGHT' inscription does nothing.
-*   **Failed Hypothesis 2:** Using 'Dig' from anywhere in the room is only a temporary escape.
-*   **Failed Hypothesis 3:** Re-interacting with 'LIGHT' after a state change does nothing.
-*   **Failed Hypothesis 4:** Interacting with the 'ESCAPE' inscription does nothing.
-*   **Alternative Hypothesis (if all else fails):** The puzzle requires an item/clue from outside. I should use 'Dig' to escape and then explore elsewhere before returning.
+*   **Current Hypothesis (Agent #5):** The 'ESCAPE' inscription is a literal clue. Using an 'Escape Rope' item from within the chamber is the permanent solution.
+*   **Current Plan:** Travel to the nearest Poké Mart (Violet City) to purchase an Escape Rope, then return to the Inner Chamber to test this hypothesis.
+*   **Key Learnings:**
+    *   Using 'Dig' inside the chamber is only a *temporary* escape; I am always returned.
+    *   The location where 'Dig' is used matters. Using it on the special warp tile at (15, 3) is a reliable way to exit temporarily.
+    *   Using 'Flash' and the 'SQUIRTBOTTLE' do not work.
 
 ## IV. Agent & Tool Development Ideas
 *   **`party_lead_advisor_agent`:** Suggests the best lead Pokémon for a given situation (e.g., escaping wild battles, specific trainer types).
@@ -63,4 +63,4 @@
 ## V. Learnings & Mistakes
 *   **Critical Procedural Failure (Turns ~27050-27128):** I failed to immediately document the solution to the Pokégear phone menu loop (pressing 'B' to cancel). This led to a prolonged behavioral loop and wasted ~50 turns. I must document new mechanics or solutions in the same turn I discover them.
 *   **CRITICAL BEHAVIORAL FAILURE (Turns ~27152-27235):** I entered a severe, prolonged behavioral loop by repeatedly failing to navigate the Pokégear menu. The correct procedure was documented in my notepad, but I failed to consult and follow it. I created the `menu_navigator_agent` to automate this task and prevent recurrence. I must prioritize creating agents for any complex or repetitive task immediately upon identifying the need.
-*   **Critical Pathing Failure (Turn ~27329):** My pathfinder tool did not account for NPCs being impassable, causing a failed move. I must upgrade the tool to automatically detect and route around all objects on the map.
+*   **Critical Pathing Failure (Turn ~27329):** My pathfinder tool did not account for NPCs being impassable, causing a failed move. I upgraded the tool to `pathfinder_v3` to automatically detect and route around all objects on the map. I must immediately document such critical failures in my notepad going forward.
