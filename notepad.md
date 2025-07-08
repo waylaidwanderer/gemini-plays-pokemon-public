@@ -38,7 +38,7 @@
 ## III. Tool & Agent Development Log
 
 ### A. Agent Failures & Lessons Learned
-- **`battle_strategist_agent` (Flawed Knowledge):** The agent repeatedly hallucinated Pokémon types from their nicknames. I have performed a major overhaul of its system prompt to force it to use only the provided type data, forbidding any inference.
+- **`battle_strategist_agent` (Critical HP/Status Blindness - REFINED):** The agent repeatedly failed by recommending switches to Pokémon at critically low HP and/or with debilitating status conditions (e.g., CRAG at turn 58518). This indicated a critical flaw in its risk assessment logic. I have refined its system prompt to force a thorough check of the entire party's current HP and status before making any switch recommendation, heavily penalizing high-risk switches.
 - **`puzzle_master_agent` (Pathing Logic Flaw - FIXED):** The agent suggested interactions with unreachable NPCs. It has been refined to check for a valid path before suggesting an action.
 
 ### B. Tool Flaws & Consolidations
