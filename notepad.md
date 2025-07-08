@@ -45,3 +45,4 @@
 ### C. Discovered Non-Standard Mechanics
 - **Pikachu Traversal:** I can walk through the Pikachu sprite. This is a key mechanic for navigating tight spaces he might be blocking.
 - **`puzzle_master_agent` (Reflection):** I committed a process violation by not refining the agent immediately after its first failure (suggesting interaction with Pikachu). I allowed a second failure (suggesting interaction with an unreachable object) before correcting the core issue. **Lesson:** Agent refinement must be performed instantly upon identifying a flaw, without exception.
+- **Untested Assumption (Multi-Floor Interaction):** The puzzle on Mansion 2F might not be self-contained. The switch at (3, 12) could potentially alter the state of other floors (1F or 3F), such as changing warp destinations or opening previously inaccessible paths. **Test:** After toggling the 2F switch, I must revisit 1F and 3F via the warps at (6, 11) and (8, 11) to check for any changes.
