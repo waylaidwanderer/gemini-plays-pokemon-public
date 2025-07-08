@@ -38,23 +38,25 @@
 *   **TM45 (ATTRACT):** Infatuates opposite-gender Pokémon.
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
-## III. Current Objectives & Hypotheses
+## III. Action Plan
+*   **Objective: Traverse Ilex Forest.**
+    1.  Teach HM01 (CUT) to a capable Pokémon in my party. Feraligatr is the primary candidate.
+    2.  Navigate to the `CUT_TREE` at coordinates (8, 25).
+    3.  Face the tree and use the move CUT to clear it.
+    4.  Proceed north through the newly opened path to find the exit to Route 34.
 
-### Primary Objective: Defeat the Azalea Town Gym Leader
-*   **Current Location:** Azalea Town
-*   **Current Obstacle:** A Slowpoke infestation blocks the path to the Azalea Gym.
-*   **Hypothesis Chain:** I have exhausted all leads by speaking to Kurt, his apprentice, wandering NPCs, and exploring the Slowpoke Well. Correction: The solution to the Slowpoke infestation was to confront Team Rocket in the Slowpoke Well after speaking with Kurt. The Azalea Town Mart was not involved.
+## IV. Agent & Tool Development
+*   **Agent Idea: `stuck_advisor_agent`:** Analyzes current situation (location, goal, failed attempts) and suggests entirely new approaches, like interacting with different NPCs or exploring different areas, to break cognitive fixation.
+*   **Agent Idea: `route_planner_agent`:** Takes a start and end location (e.g., city to city) and suggests the high-level route based on known map connections.
+*   **Agent Refinement: `move_advisor`:** The current agent should be enhanced. Its prompt will be updated to not only recommend who should learn a move but also to evaluate a Pokémon's overall potential, including what other HMs it can learn, to serve as a more general-purpose party management advisor.
 
-## IV. Agent & Tool Development Ideas
-*   **`stuck_advisor_agent`:** Analyzes current situation (location, goal, failed attempts) and suggests entirely new approaches, like interacting with different NPCs or exploring different areas, to break cognitive fixation. A potential lifesaver for situations like the Union Cave confusion.
-*   **`route_planner_agent`:** Takes a start and end location (e.g., city to city) and suggests the high-level route based on known map connections.
-
-*   **Critical Procedural Failure (Turns ~27050-27128):** I failed to immediately document the solution to the Pokégear phone menu loop (pressing 'B' to cancel). This led to a prolonged behavioral loop and wasted ~50 turns.
-*   **CRITICAL BEHAVIORAL FAILURE (Turns ~27152-27235):** I entered a severe, prolonged behavioral loop by repeatedly failing to navigate the Pokégear menu. The correct procedure was documented in my notepad, but I failed to consult and follow it. I created the `menu_navigator_agent` to automate this task and prevent recurrence.
-*   **Critical Pathing Failure (Turn ~27329):** My pathfinder tool did not account for NPCs being impassable, causing a failed move. I upgraded the tool to `pathfinder_v3` to automatically detect and route around all objects on the map.
-*   **CRITICAL COGNITIVE FIXATION (Turns ~27410-27441):** I became stuck in a severe loop attempting to reach the clerk in the Violet City Mart. My core assumption that the clerk was reachable was never questioned, leading to dozens of failed pathing attempts. I failed to be flexible and pivot to a new strategy (like exploring the other warp) in a timely manner. This highlights a critical need to recognize when a plan is failing and actively seek alternative hypotheses and goals.
-*   **Tool Deferral & Misinterpretation Failure (Turns ~27544-27630):** I repeatedly identified issues with `pathfinder_v3` but deferred fixing it. When I did try to fix it, I assumed the code was bugged. The tool was actually working correctly; my understanding of the map layout and tile mechanics was flawed. The tool's output correctly showed that certain areas were unreachable, but I failed to trust it due to confirmation bias. **I must trust my tools' outputs and use them to challenge my own assumptions about the game world. Tool maintenance is my highest priority and must never be deferred.**
-*   **Failure to Trust Tools (Turns ~27670-27685):** I repeatedly failed to path to the Slowpoke Well in Azalea Town. Instead of trusting my pathfinder, which was correctly identifying an impassable wall and an off-screen object, I assumed the tool was broken. This wasted several turns. The lesson is reinforced: the tool's analysis of the map data is more reliable than my visual perception. I must trust it.
-*   **Pathfinder Bug (Turn ~27708):** My `pathfinder_v4` tool incorrectly identified my starting tile as impassable due to a map marker. This was a flaw in the tool's logic. I created `pathfinder_v5` to fix this bug and deleted the old tool.
-*   **Cognitive Fixation (Turns ~27817-27840):** I became stuck in a loop trying to interact with the wandering 'Gramps' and 'Teacher' NPCs in Azalea Town, assuming they held the key to moving the Slowpoke. I made over 10 attempts, even using the `stun_npc` tool, without success. This was a failure to recognize a disproven hypothesis and pivot. I must be more willing to abandon failing strategies and document them to avoid repetition.
-*   **`pokemon_evaluator_agent`:** Given a Pokémon species, this agent would analyze its potential, including what HMs it can learn. This would prevent situations like catching a Pokémon only to find it can't learn a needed move.
+## V. Archive: Solved Puzzles & Procedural Failures
+*   **Solved: Azalea Town Slowpoke Infestation:** The solution was to confront Team Rocket in the Slowpoke Well after speaking with Kurt. This was not related to the Azalea Town Mart or using an item on the Slowpokes.
+*   **Failure Log (Turns ~27050-27128):** Failed to immediately document the solution to the Pokégear phone menu loop (pressing 'B' to cancel). This led to a prolonged behavioral loop and wasted ~50 turns.
+*   **Failure Log (Turns ~27152-27235):** Entered a severe, prolonged behavioral loop by repeatedly failing to navigate the Pokégear menu. The correct procedure was documented, but I failed to consult and follow it.
+*   **Failure Log (Turn ~27329):** My pathfinder tool did not account for NPCs being impassable, causing a failed move. Upgraded the tool to `pathfinder_v3` to automatically detect and route around all objects on the map.
+*   **Failure Log (Turns ~27410-27441):** Became stuck in a severe loop attempting to reach the clerk in the Violet City Mart. Failed to recognize when a plan was failing and actively seek alternative hypotheses and goals.
+*   **Failure Log (Turns ~27544-27630):** Repeatedly identified issues with `pathfinder_v3` but deferred fixing it. The tool was working correctly; my understanding of the map was flawed. **Lesson: Trust tool outputs and use them to challenge my own assumptions. Tool maintenance is the highest priority.**
+*   **Failure Log (Turns ~27670-27685):** Repeatedly failed to path to the Slowpoke Well. Instead of trusting my pathfinder, I assumed the tool was broken. **Lesson: The tool's analysis of the map data is more reliable than my visual perception.**
+*   **Failure Log (Turn ~27708):** `pathfinder_v4` incorrectly identified my starting tile as impassable due to a map marker. Created `pathfinder_v5` to fix this.
+*   **Failure Log (Turns ~27817-27840):** Became stuck interacting with wandering NPCs in Azalea Town, assuming they held a key to progress. **Lesson: Be more willing to abandon failing strategies and document them to avoid repetition.**
