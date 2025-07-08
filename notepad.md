@@ -54,3 +54,8 @@
   2. If no change, repeat the process for 3F.
   3. If still no change, repeat for B1F.
   4. Document the outcome of each test.
+
+### C. Current Puzzle: Mansion 1F Corridor Contradiction
+- **Contradiction:** The game state lists the gates at (25, 14) as 'Reachable Barriers', but all attempts to find a path through standard movement or local interactions have failed.
+- **Conclusion:** This proves a non-standard path or traversal mechanic exists on this floor.
+- **New Test Plan:** Use the `find_path` tool to calculate a path to a tile adjacent to the barrier. The tool's output should reveal the hidden path.
