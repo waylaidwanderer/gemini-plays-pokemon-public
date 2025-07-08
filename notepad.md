@@ -34,6 +34,12 @@
           - **Test (Failed):** Interact with gate at (28, 28).
         - **Agent Hypothesis (Attempt #3):** A hidden, non-obvious switch is nearby and must be activated to open the gates.
           - **Test:** Search the area around the player for a hidden mechanism.
+          - **Test (Failed):** Walk south through gate at (28, 28).
+        - **Agent Hypothesis (Attempt #2 - Failed):** Gates can be opened by direct interaction.
+          - **Test (Failed):** Interact with gate at (27, 28).
+          - **Test (Failed):** Interact with gate at (28, 28).
+        - **Agent Hypothesis (Attempt #3):** A hidden, non-obvious switch is nearby and must be activated to open the gates.
+          - **Test:** Search the area around the player for a hidden mechanism.
 
 ### B. Solved Puzzles
 - **Pokemon Mansion B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
