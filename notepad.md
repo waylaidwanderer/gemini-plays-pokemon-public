@@ -60,3 +60,4 @@
 *   **Failure Log (Turns ~27670-27685):** Repeatedly failed to path to the Slowpoke Well. Instead of trusting my pathfinder, I assumed the tool was broken. **Lesson: The tool's analysis of the map data is more reliable than my visual perception.**
 *   **Failure Log (Turn ~27708):** `pathfinder_v4` incorrectly identified my starting tile as impassable due to a map marker. Created `pathfinder_v5` to fix this.
 *   **Failure Log (Turns ~27817-27840):** Became stuck interacting with wandering NPCs in Azalea Town, assuming they held a key to progress. **Lesson: Be more willing to abandon failing strategies and document them to avoid repetition.**
+*   **TM12 (SWEET SCENT):** Lures wild POKéMON.
