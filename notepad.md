@@ -40,11 +40,15 @@
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
 ## III. Action Plan
-*   **Objective: Traverse Ilex Forest.**
-    1.  Teach HM01 (CUT) to a capable Pokémon in my party. Feraligatr is the primary candidate.
-    2.  Navigate to the `CUT_TREE` at coordinates (8, 25).
-    3.  Face the tree and use the move CUT to clear it.
-    4.  Proceed north through the newly opened path to find the exit to Route 34.
+*   **Objective: Reach Goldenrod City.**
+    1.  Finish exploring the Day-Care by talking to Granny.
+    2.  Exit the Day-Care and continue north on Route 34.
+    3.  Battle any remaining trainers on Route 34.
+    4.  Enter Goldenrod City.
+*   **Side-Quest: Obtain the Day-Care Egg.**
+    1.  Return to a Pokémon Center to deposit a Pokémon and free up a party slot.
+    2.  Return to the Day-Care and speak with the Day-Care Man.
+    3.  Hypothesis to test: Can I use the PC in the Day-Care building at (7,1) to manage my party without leaving?
 
 ## IV. Agent & Tool Development
 *   **Agent Idea: `stuck_advisor_agent`:** Analyzes current situation (location, goal, failed attempts) and suggests entirely new approaches, like interacting with different NPCs or exploring different areas, to break cognitive fixation.
