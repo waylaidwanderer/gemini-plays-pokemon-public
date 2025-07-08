@@ -60,3 +60,4 @@
 *   **Failure Log (Pathfinder v7):** The tool's failures are often a symptom of my own flawed strategy (e.g., pathing into unseen areas). **Lesson: Verify my strategic assumptions before blaming the tool.**
 *   **Hypothesis Failure (Radio Tower):** The Plain Badge does NOT grant access to the upper floors of the Radio Tower. The Black Belt at (0, 1) on 2F still blocks the path, citing an issue with the Director. (Turn #29187)
 *   **Dance Theater Info:** A Gentleman at (7, 10) will give a gift if I defeat all the Kimono Girls. A Cooltrainer M at (10, 10) mentioned a man with a Rhydon who wants a Pokémon that can SURF.
+*   **HM03 (SURF):** Allows swimming across water.
