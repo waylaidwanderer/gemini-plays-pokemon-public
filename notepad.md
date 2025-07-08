@@ -43,7 +43,7 @@
 ### Primary Objective: Defeat the Azalea Town Gym Leader
 *   **Current Location:** Azalea Town
 *   **Current Obstacle:** A Slowpoke infestation blocks the path to the Azalea Gym.
-*   **Hypothesis Chain:** I have exhausted all leads by speaking to Kurt, his apprentice, wandering NPCs, and exploring the Slowpoke Well. My final working hypothesis is that a solution may be found by investigating the Azalea Town Mart, the only location not re-checked since the infestation began.
+*   **Hypothesis Chain:** I have exhausted all leads by speaking to Kurt, his apprentice, wandering NPCs, and exploring the Slowpoke Well. Correction: The solution to the Slowpoke infestation was to confront Team Rocket in the Slowpoke Well after speaking with Kurt. The Azalea Town Mart was not involved.
 
 ## IV. Agent & Tool Development Ideas
 *   **`stuck_advisor_agent`:** Analyzes current situation (location, goal, failed attempts) and suggests entirely new approaches, like interacting with different NPCs or exploring different areas, to break cognitive fixation. A potential lifesaver for situations like the Union Cave confusion.
