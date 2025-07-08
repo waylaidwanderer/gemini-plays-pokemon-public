@@ -16,7 +16,8 @@
 *   **Complex Tiles:**
     *   `FLOOR_UP_WALL`: One-way ledge. Enter from below/sides. Cannot exit by moving up.
     *   `WARP_CARPET_LEFT/DOWN/RIGHT`: Activated by pressing the indicated direction while standing on the tile.
-    *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile. It is a one-way interaction; the tile cannot be re-entered from below to trigger the effect again.
+    *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile. It is a one-way interaction.
+    *   `Interactable Warp (FLOOR)`: Some FLOOR tiles that are also warps do not activate on entry. They must be interacted with by pressing 'A' to trigger an event or text. (e.g., Ruins of Alph Inner Chamber @ (15, 3)).
 
 ### Untested Tile Types (High Priority)
 * `RAILING`: Goldenrod Dept. Store Roof.
@@ -46,21 +47,20 @@
 
 ### Primary Objective: Find Ecruteak City
 *   **Current Location:** Ruins of Alph Inner Chamber
-*   **Hypothesis Chain:** Path to Ecruteak -> Requires solving Ruins puzzle -> Puzzle solution is the radio.
+*   **Hypothesis Chain:** Path to Ecruteak -> Requires solving Ruins puzzle -> Puzzle is multi-stage.
 
 ### Ruins of Alph Inner Chamber Puzzle
-*   **Current Hypothesis:** The puzzle is solved by tuning the Pokégear radio to the mysterious transmission mentioned in a phone call.
-*   **Failed Hypothesis 1:** Interacting with the 'LIGHT' inscription on the wall does nothing.
-*   **Failed Hypothesis 2:** Interacting with the statues in a random order does nothing.
-*   **Alternative Hypothesis (if radio fails):** The puzzle requires an item I don't have, or a specific sequence of statue interactions. I could also test if leaving via the ladder is now possible.
-
-### Team Rocket in Goldenrod
-*   **Goal:** Get past the Team Rocket grunt blocking the Radio Tower.
-*   **Status:** On hold. Progress is likely tied to a story event I haven't triggered yet.
+*   **Current Hypothesis (Agent #4):** Using the 'Dig' move while standing on the specific warp tile at (15, 3) will solve the puzzle, based on the tile's unique flavor text.
+*   **Failed Hypothesis 1:** Interacting with the 'LIGHT' inscription does nothing.
+*   **Failed Hypothesis 2:** Using 'Dig' from anywhere in the room is only a temporary escape.
+*   **Failed Hypothesis 3:** Re-interacting with 'LIGHT' after a state change does nothing.
+*   **Failed Hypothesis 4:** Interacting with the 'ESCAPE' inscription does nothing.
+*   **Alternative Hypothesis (if all else fails):** The puzzle requires an item/clue from outside. I should use 'Dig' to escape and then explore elsewhere before returning.
 
 ## IV. Agent & Tool Development Ideas
 *   **`party_lead_advisor_agent`:** Suggests the best lead Pokémon for a given situation (e.g., escaping wild battles, specific trainer types).
 
 ## V. Learnings & Mistakes
-*   **Critical Procedural Failure (Turns ~27050-27128):** I failed to immediately document the solution to the Pokégear phone menu loop (pressing 'B' to cancel). This led to a prolonged behavioral loop and wasted ~50 turns. I must document new mechanics or solutions in the same turn I discover them. Deferring this action is not a valid strategy.
-*   **CRITICAL BEHAVIORAL FAILURE (Turns ~27152-27235):** I entered a severe, prolonged behavioral loop by repeatedly failing to navigate the Pokégear menu. The correct procedure was documented in my notepad, but I failed to consult and follow it. This demonstrates a critical breakdown in procedural discipline. I created the `menu_navigator_agent` to automate this task and prevent recurrence. I must prioritize creating agents for any complex or repetitive task immediately upon identifying the need.
+*   **Critical Procedural Failure (Turns ~27050-27128):** I failed to immediately document the solution to the Pokégear phone menu loop (pressing 'B' to cancel). This led to a prolonged behavioral loop and wasted ~50 turns. I must document new mechanics or solutions in the same turn I discover them.
+*   **CRITICAL BEHAVIORAL FAILURE (Turns ~27152-27235):** I entered a severe, prolonged behavioral loop by repeatedly failing to navigate the Pokégear menu. The correct procedure was documented in my notepad, but I failed to consult and follow it. I created the `menu_navigator_agent` to automate this task and prevent recurrence. I must prioritize creating agents for any complex or repetitive task immediately upon identifying the need.
+*   **Critical Pathing Failure (Turn ~27329):** My pathfinder tool did not account for NPCs being impassable, causing a failed move. I must upgrade the tool to automatically detect and route around all objects on the map.
