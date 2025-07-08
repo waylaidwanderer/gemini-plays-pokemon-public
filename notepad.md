@@ -9,7 +9,7 @@
 - **Obvious Tile Test:** Even if a tile seems obviously impassable (e.g., WALL), I must attempt to walk into it once to be 100% certain.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `COUNTER`, `WATER` (without Surf), `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `COUNTER`.
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `COUNTER`, `WATER` (without Surf), `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`.
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters), `LONG_GRASS` (Wild Encounters), `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile).
 *   **One-Way Ledges:** 
@@ -41,13 +41,9 @@
 
 ## III. Action Plan
 *   **Objective: Reach Goldenrod City.**
-    1.  Finish exploring the Day-Care by talking to Granny.
-    2.  Exit the Day-Care and continue north on Route 34.
-    3.  Battle any remaining trainers on Route 34.
-    4.  Enter Goldenrod City.
-*   **Side-Quest: Obtain the Day-Care Egg (Complete).**
-    1.  Used the PC in the Day-Care to deposit Ledyba.
-    2.  Spoke to the Day-Care Man and received the ODD EGG (Elekid).
+    1.  Finish exploring Route 34.
+    2.  Battle any remaining trainers on Route 34.
+    3.  Enter Goldenrod City.
 
 ## IV. Archive: Solved Puzzles & Procedural Failures
 *   **Solved: Azalea Town Slowpoke Infestation:** The solution was to confront Team Rocket in the Slowpoke Well after speaking with Kurt. This was not related to the Azalea Town Mart or using an item on the Slowpokes.
