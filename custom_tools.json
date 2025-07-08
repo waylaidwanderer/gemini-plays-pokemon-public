@@ -1,4 +1,31 @@
 {
+  "exploration_planner": {
+    "description": "Analyzes the map to find the closest reachable unseen tile and calculates the optimal path to an adjacent, traversable tile. It now correctly handles cases where the geometrically closest unseen tile is unreachable by considering all possibilities.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "traversal_type": {
+          "type": "string",
+          "enum": [
+            "walk",
+            "surf"
+          ]
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "traversal_type"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef exploration_planner_tool_v2():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    grid = [['' for _ in range(width)] for _ in range(height)]\n    impassable_coords = set()\n    unseen_tiles = []\n\n    traversal_type = input_data['traversal_type']\n    walkable_types = ['water'] if traversal_type == 'surf' else ['ground', 'grass', 'open_gate', 'cleared_boulder_barrier', 'boulder_switch', 'teleport', 'hole', 'spinner_stop', 'ladder_up', 'ladder_down', 'steps']\n\n    for r_idx, row_elem in enumerate(root.findall('Row')):\n        y = int(row_elem.get('id')) - 1\n        for c_idx, tile_elem in enumerate(row_elem.findall('Tile')):\n            x = int(tile_elem.get('id')) - 1\n            tile_type = tile_elem.get('type')\n            grid[y][x] = tile_type\n            if tile_elem.get('seen') == 'false':\n                unseen_tiles.append((x, y))\n            if tile_elem.find('Object') is not None and (tile_elem.find('Object').get('id-name') != 'Pikachu'):\n                impassable_coords.add((x, y))\n\n    start_x, start_y = int(input_data['start_x']) - 1, int(input_data['start_y']) - 1\n    start_pos = (start_x, start_y)\n\n    if not unseen_tiles:\n        print(json.dumps({'path': [], 'reasoning': 'No unseen tiles found.'}))\n        return\n\n    # Find all valid, reachable adjacent tiles for ALL unseen tiles\n    all_target_adjacents = set()\n    for ux, uy in unseen_tiles:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_x, adj_y = ux + dx, uy + dy\n            if 0 <= adj_x < width and 0 <= adj_y < height and grid[adj_y][adj_x] in walkable_types and (adj_x, adj_y) not in impassable_coords:\n                all_target_adjacents.add((adj_x, adj_y))\n\n    if not all_target_adjacents:\n        print(json.dumps({'path': [], 'reasoning': 'No reachable adjacent tiles found for any unseen tiles.'}))\n        return\n\n    # Find the shortest path to ANY of these target tiles\n    queue = deque([(start_pos, [start_pos])])\n    visited = {start_pos}\n\n    while queue:\n        (current_x, current_y), path = queue.popleft()\n\n        if (current_x, current_y) in all_target_adjacents:\n            path_plan = [{'x': x + 1, 'y': y + 1} for x, y in path]\n            target_x, target_y = path_plan[-1]['x'], path_plan[-1]['y']\n            reasoning = f'Path found to the nearest reachable exploration point at ({target_x}, {target_y}).'\n            print(json.dumps({'path': path_plan, 'reasoning': reasoning}))\n            return\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_x, next_y = current_x + dx, current_y + dy\n            if 0 <= next_x < width and 0 <= next_y < height and (next_x, next_y) not in visited:\n                tile_type = grid[next_y][next_x]\n                is_walkable = tile_type in walkable_types\n                if is_walkable and (next_x, next_y) not in impassable_coords:\n                    visited.add((next_x, next_y))\n                    queue.append(((next_x, next_y), path + [(next_x, next_y)]))\n\n    print(json.dumps({'path': [], 'reasoning': 'Could not find a path to any reachable exploration points.'}))\n\nexploration_planner_tool_v2()\n"
+  },
   "find_next_exploration_target": {
     "description": "Analyzes unseen tiles and reachable barriers to suggest the most logical next exploration target. Prioritizes the closest unseen tile. If none exist, it finds the closest reachable barrier based on Manhattan distance from the player's current coordinates.",
     "input_schema": {
@@ -61,29 +88,6 @@
     },
     "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path_tool():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    grid = [['' for _ in range(width)] for _ in range(height)]\n    impassable_coords = set()\n\n    traversal_type = input_data['traversal_type']\n    if traversal_type == 'walk':\n        walkable_types = ['ground', 'grass', 'open_gate', 'cleared_boulder_barrier', 'boulder_switch', 'teleport', 'hole', 'spinner_stop', 'ladder_up', 'ladder_down', 'steps']\n    elif traversal_type == 'surf':\n        walkable_types = ['water']\n    else:\n        print(json.dumps([]))\n        return\n\n    for r_idx, row_elem in enumerate(root.findall('Row')):\n        y = int(row_elem.get('id')) - 1\n        for c_idx, tile_elem in enumerate(row_elem.findall('Tile')):\n            x = int(tile_elem.get('id')) - 1\n            tile_type = tile_elem.get('type')\n            grid[y][x] = tile_type\n            obj = tile_elem.find('Object')\n            if obj is not None and obj.get('id-name') != 'Pikachu':\n                impassable_coords.add((x, y))\n\n    start_x = int(input_data['start_x']) - 1\n    start_y = int(input_data['start_y']) - 1\n    end_x = int(input_data['end_x']) - 1\n    end_y = int(input_data['end_y']) - 1\n\n    start_node = (start_x, start_y)\n    end_node = (end_x, end_y)\n\n    queue = deque([(start_node, [start_node])])\n    visited = {start_node}\n\n    while queue:\n        (current_x, current_y), path = queue.popleft()\n\n        if (current_x, current_y) == end_node:\n            path_plan = [{'x': x + 1, 'y': y + 1} for x, y in path]\n            print(json.dumps(path_plan))\n            return\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_x, next_y = current_x + dx, current_y + dy\n            \n            if traversal_type == 'walk' and grid[current_y][current_x] == 'ledge' and dy == 1:\n                next_y = current_y + 2\n\n            if 0 <= next_x < width and 0 <= next_y < height:\n                neighbor = (next_x, next_y)\n                if neighbor not in visited:\n                    tile_type = grid[next_y][next_x]\n                    is_walkable = tile_type in walkable_types or (traversal_type == 'walk' and tile_type == 'ledge' and next_y > current_y)\n                    is_object_blocked = neighbor in impassable_coords\n                    if is_walkable and not is_object_blocked:\n                        visited.add(neighbor)\n                        new_path = path + [neighbor]\n                        queue.append((neighbor, new_path))\n\n    print(json.dumps([]))\n\nfind_path_tool()\n"
   },
-  "systematic_searcher": {
-    "description": "Calculates the next reachable, untested tile to check in a systematic sweep. It parses the map XML to find all walkable tiles and uses BFS to find the nearest target.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "tested_coords_json": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "tested_coords_json"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef parse_map(xml_str):\n    walkable = set()\n    impassable = set()\n    root = ET.fromstring(xml_str)\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            coord_str = tile.get('coordinate')\n            x_str, y_str = coord_str.strip('()').split(',')\n            x, y = int(x_str), int(y_str)\n            tile_type = tile.get('type')\n            has_obj = tile.find('Object') is not None and tile.find('Object').get('id-name') != 'Pikachu'\n            if tile_type in ['impassable', 'unknown', 'closed_gate'] or has_obj:\n                impassable.add((x, y))\n            else:\n                walkable.add((x, y))\n    return walkable, impassable\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ntested_coords = set(tuple(c) for c in json.loads(input_data['tested_coords_json']))\n\nwalkable, impassable = parse_map(map_xml_string)\n\nqueue = deque([((start_x, start_y), [])])\nvisited = set([(start_x, start_y)])\n\nwhile queue:\n    (x, y), path = queue.popleft()\n\n    for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n        adj_x, adj_y = x + dx, y + dy\n        if (adj_x, adj_y) in impassable and (adj_x, adj_y) not in tested_coords:\n            print(json.dumps({'target_x': x, 'target_y': y, 'wall_x': adj_x, 'wall_y': adj_y}))\n            exit()\n\n    for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n        next_x, next_y = x + dx, y + dy\n        if (next_x, next_y) in walkable and (next_x, next_y) not in visited:\n            visited.add((next_x, next_y))\n            new_path = list(path)\n            new_path.append((next_x, next_y))\n            queue.append(((next_x, next_y), new_path))\n\nprint(json.dumps({'error': 'No new adjacent walls to test.'}))"
-  },
   "find_path_to_adjacent": {
     "description": "Calculates the shortest path to a traversable tile (walkable or surfable) adjacent to a specified target coordinate. Useful for navigating to the edge of unseen areas or next to objects.",
     "input_schema": {
@@ -119,8 +123,8 @@
     },
     "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path_adjacent_tool():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    grid = [['' for _ in range(width)] for _ in range(height)]\n    impassable_coords = set()\n\n    traversal_type = input_data['traversal_type']\n    walkable_types = ['water'] if traversal_type == 'surf' else ['ground', 'grass', 'open_gate', 'cleared_boulder_barrier', 'boulder_switch', 'teleport', 'hole', 'spinner_stop', 'ladder_up', 'ladder_down', 'steps']\n\n    for r_idx, row_elem in enumerate(root.findall('Row')):\n        y = int(row_elem.get('id')) - 1\n        for c_idx, tile_elem in enumerate(row_elem.findall('Tile')):\n            x = int(tile_elem.get('id')) - 1\n            grid[y][x] = tile_elem.get('type')\n            if tile_elem.find('Object') is not None and (tile_elem.find('Object').get('id-name') != 'Pikachu'):\n                impassable_coords.add((x, y))\n\n    start_x, start_y = int(input_data['start_x']) - 1, int(input_data['start_y']) - 1\n    end_x, end_y = int(input_data['end_x']) - 1, int(input_data['end_y']) - 1\n\n    target_adjacents = []\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        adj_x, adj_y = end_x + dx, end_y + dy\n        if 0 <= adj_x < width and 0 <= adj_y < height and grid[adj_y][adj_x] in walkable_types and (adj_x, adj_y) not in impassable_coords:\n            target_adjacents.append((adj_x, adj_y))\n\n    if not target_adjacents:\n        print(json.dumps([]))\n        return\n\n    queue = deque([( (start_x, start_y), [(start_x, start_y)] )])\n    visited = {(start_x, start_y)}\n\n    while queue:\n        (current_x, current_y), path = queue.popleft()\n\n        if (current_x, current_y) in target_adjacents:\n            path_plan = [{'x': x + 1, 'y': y + 1} for x, y in path]\n            print(json.dumps(path_plan))\n            return\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_x, next_y = current_x + dx, current_y + dy\n            \n            if traversal_type == 'walk' and grid[current_y][current_x] == 'ledge' and dy == 1:\n                next_y = current_y + 2\n\n            if 0 <= next_x < width and 0 <= next_y < height and (next_x, next_y) not in visited:\n                tile_type = grid[next_y][next_x]\n                is_walkable = tile_type in walkable_types or (traversal_type == 'walk' and tile_type == 'ledge' and next_y > current_y)\n                if is_walkable and (next_x, next_y) not in impassable_coords:\n                    visited.add((next_x, next_y))\n                    queue.append(((next_x, next_y), path + [(next_x, next_y)]))\n\n    print(json.dumps([]))\n\nfind_path_adjacent_tool()"
   },
-  "exploration_planner": {
-    "description": "Analyzes the map to find the closest reachable unseen tile and calculates the optimal path to an adjacent, traversable tile. It now correctly handles cases where the geometrically closest unseen tile is unreachable by considering all possibilities.",
+  "systematic_searcher": {
+    "description": "Calculates the next reachable, untested tile to check in a systematic sweep. It parses the map XML to find all walkable tiles and uses BFS to find the nearest target.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -130,20 +134,16 @@
         "start_y": {
           "type": "string"
         },
-        "traversal_type": {
-          "type": "string",
-          "enum": [
-            "walk",
-            "surf"
-          ]
+        "tested_coords_json": {
+          "type": "string"
         }
       },
       "required": [
         "start_x",
         "start_y",
-        "traversal_type"
+        "tested_coords_json"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef exploration_planner_tool_v2():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    grid = [['' for _ in range(width)] for _ in range(height)]\n    impassable_coords = set()\n    unseen_tiles = []\n\n    traversal_type = input_data['traversal_type']\n    walkable_types = ['water'] if traversal_type == 'surf' else ['ground', 'grass', 'open_gate', 'cleared_boulder_barrier', 'boulder_switch', 'teleport', 'hole', 'spinner_stop', 'ladder_up', 'ladder_down', 'steps']\n\n    for r_idx, row_elem in enumerate(root.findall('Row')):\n        y = int(row_elem.get('id')) - 1\n        for c_idx, tile_elem in enumerate(row_elem.findall('Tile')):\n            x = int(tile_elem.get('id')) - 1\n            tile_type = tile_elem.get('type')\n            grid[y][x] = tile_type\n            if tile_elem.get('seen') == 'false':\n                unseen_tiles.append((x, y))\n            if tile_elem.find('Object') is not None and (tile_elem.find('Object').get('id-name') != 'Pikachu'):\n                impassable_coords.add((x, y))\n\n    start_x, start_y = int(input_data['start_x']) - 1, int(input_data['start_y']) - 1\n    start_pos = (start_x, start_y)\n\n    if not unseen_tiles:\n        print(json.dumps({'path': [], 'reasoning': 'No unseen tiles found.'}))\n        return\n\n    # Find all valid, reachable adjacent tiles for ALL unseen tiles\n    all_target_adjacents = set()\n    for ux, uy in unseen_tiles:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_x, adj_y = ux + dx, uy + dy\n            if 0 <= adj_x < width and 0 <= adj_y < height and grid[adj_y][adj_x] in walkable_types and (adj_x, adj_y) not in impassable_coords:\n                all_target_adjacents.add((adj_x, adj_y))\n\n    if not all_target_adjacents:\n        print(json.dumps({'path': [], 'reasoning': 'No reachable adjacent tiles found for any unseen tiles.'}))\n        return\n\n    # Find the shortest path to ANY of these target tiles\n    queue = deque([(start_pos, [start_pos])])\n    visited = {start_pos}\n\n    while queue:\n        (current_x, current_y), path = queue.popleft()\n\n        if (current_x, current_y) in all_target_adjacents:\n            path_plan = [{'x': x + 1, 'y': y + 1} for x, y in path]\n            target_x, target_y = path_plan[-1]['x'], path_plan[-1]['y']\n            reasoning = f'Path found to the nearest reachable exploration point at ({target_x}, {target_y}).'\n            print(json.dumps({'path': path_plan, 'reasoning': reasoning}))\n            return\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_x, next_y = current_x + dx, current_y + dy\n            if 0 <= next_x < width and 0 <= next_y < height and (next_x, next_y) not in visited:\n                tile_type = grid[next_y][next_x]\n                is_walkable = tile_type in walkable_types\n                if is_walkable and (next_x, next_y) not in impassable_coords:\n                    visited.add((next_x, next_y))\n                    queue.append(((next_x, next_y), path + [(next_x, next_y)]))\n\n    print(json.dumps({'path': [], 'reasoning': 'Could not find a path to any reachable exploration points.'}))\n\nexploration_planner_tool_v2()\n"
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef parse_map(xml_str):\n    walkable = set()\n    impassable = set()\n    root = ET.fromstring(xml_str)\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            coord_str = tile.get('coordinate')\n            x_str, y_str = coord_str.strip('()').split(',')\n            x, y = int(x_str), int(y_str)\n            tile_type = tile.get('type')\n            has_obj = tile.find('Object') is not None and tile.find('Object').get('id-name') != 'Pikachu'\n            if tile_type in ['impassable', 'unknown', 'closed_gate'] or has_obj:\n                impassable.add((x, y))\n            else:\n                walkable.add((x, y))\n    return walkable, impassable\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ntested_coords = set(tuple(c) for c in json.loads(input_data['tested_coords_json']))\n\nwalkable, impassable = parse_map(map_xml_string)\n\nqueue = deque([((start_x, start_y), [])])\nvisited = set([(start_x, start_y)])\n\nwhile queue:\n    (x, y), path = queue.popleft()\n\n    for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n        adj_x, adj_y = x + dx, y + dy\n        if (adj_x, adj_y) in impassable and (adj_x, adj_y) not in tested_coords:\n            print(json.dumps({'target_x': x, 'target_y': y, 'wall_x': adj_x, 'wall_y': adj_y}))\n            exit()\n\n    for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n        next_x, next_y = x + dx, y + dy\n        if (next_x, next_y) in walkable and (next_x, next_y) not in visited:\n            visited.add((next_x, next_y))\n            new_path = list(path)\n            new_path.append((next_x, next_y))\n            queue.append(((next_x, next_y), new_path))\n\nprint(json.dumps({'error': 'No new adjacent walls to test.'}))"
   }
 }
