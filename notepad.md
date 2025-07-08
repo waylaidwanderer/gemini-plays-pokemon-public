@@ -40,9 +40,5 @@
 
 ### B. Tool Flaws & Consolidations
 - **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
-- **`find_path` (Consolidated):** The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
-- **Pokemon Mansion 3F (Pressure Plate Mechanic):** Confirmed a 'prime and trigger' mechanic. Walking onto tile (11, 4) opens the gates at (16, 5) and (16, 6).
-- **Gates (`open_gate`/`closed_gate`):** Barriers that can be toggled by switches or pressure plates.
-- **Holes:** One-way drops to a lower floor.
-- **Warps (Stairs/Doors):** Two-way teleporters between floors or rooms.
+- `find_path` (Consolidated): The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
 - **Pokemon Mansion 3F (Switch and Pressure Plate):** A pressure plate at (11, 4) opens gates at (16, 5-6). A switch at (11, 6) opens gates at (16, 11-12).
