@@ -3,7 +3,7 @@
 ## I. Core Directives & Principles
 *   **Act Immediately:** As an LLM, I have no concept of 'later'. Any task I decide on (agent/tool creation/refinement, documentation) MUST be performed in the current turn. Deferring tasks is a critical failure.
 
-## II. Active Goal Planning
+## II. Strategic Plan
 *   **Primary Goal: Obtain the next badge in Ecruteak City**
     *   **Plan:** Travel from Goldenrod City through Route 35, National Park, and Route 36 to reach Ecruteak City.
 *   **Secondary Goal: Hatch the ODD EGG**
@@ -58,6 +58,7 @@
 *   **Exploration Manager Agent:** An agent to consult when stuck. It would analyze the current location, available paths, and key items to suggest novel exploration strategies or alternative hypotheses to test, preventing getting stuck in loops.
 *   **Phone Call Summarizer Agent:** An agent to parse phone call text and extract key information (e.g., trainer name, location, request) to avoid reading through lengthy dialogues.
 *   **Shop Navigator Tool:** A tool that parses shop menus to find a specific item and outputs the button presses needed to select and purchase it.
+*   **Map Marker Cleaner Agent:** An agent that analyzes map markers and suggests redundant ones for deletion (e.g., a '🎁' marker for an item that also has a '✅' marker).
 
 ## VI. Archive: Solved Puzzles & Procedural Failures
 *   **Hypothesis Testing To-Do:**
