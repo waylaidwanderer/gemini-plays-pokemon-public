@@ -36,14 +36,11 @@
 ## III. Tool & Agent Development Log
 
 ### A. Agent Failures & Lessons Learned
+- **`puzzle_master_agent` (Looping Failure):** The agent repeatedly suggested interacting with the same switch on Mansion 2F, even after it failed to produce results. This indicates a failure to recognize a loop and generate creative, alternative hypotheses. It has been refined with a loop-breaking directive.
 
-- **`puzzle_master_agent` (Active):** The first version of this agent failed by suggesting a move into a tile occupied by an NPC. This highlights the need for all agents to validate their output against the current map state, including sprite locations, before making a suggestion.
-- **`puzzle_master_agent` (Failure #2):** The agent again failed to consider player reachability. It suggested interacting with a diary that was inaccessible from my trapped location. This confirms the agent MUST validate path existence from the player's current position to the location of its suggested action before outputting a plan.
-
-### B. Tool Flaws
+### B. Tool Flaws & Consolidations
 - **`advanced_pathfinder` (Fixed):** This tool was critically flawed. It was designed to find hidden passages by ignoring tile types, but it incorrectly suggested paths through 'impassable' tiles, which the game engine blocks. **Lesson:** Tools must respect fundamental game mechanics. The tool has been refined to ignore puzzle-specific barriers (like `closed_gate`) while still respecting absolute barriers (`impassable`).
+- **`find_path` (Consolidated):** The `find_path_to_adjacent` tool was redundant. Its functionality has been merged into the main `find_path` tool with an optional `adjacent` parameter, creating a single, more robust pathfinding utility.
 
 ### C. Discovered Non-Standard Mechanics
 - **Pikachu Traversal:** I can walk through the Pikachu sprite. This is a key mechanic for navigating tight spaces he might be blocking.
-- **`puzzle_master_agent` (Reflection):** I committed a process violation by not refining the agent immediately after its first failure (suggesting interaction with Pikachu). I allowed a second failure (suggesting interaction with an unreachable object) before correcting the core issue. **Lesson:** Agent refinement must be performed instantly upon identifying a flaw, without exception.
-- **Untested Assumption (Multi-Floor Interaction):** The puzzle on Mansion 2F might not be self-contained. The switch at (3, 12) could potentially alter the state of other floors (1F or 3F), such as changing warp destinations or opening previously inaccessible paths. **Test:** After toggling the 2F switch, I must revisit 1F and 3F via the warps at (6, 11) and (8, 11) to check for any changes.
