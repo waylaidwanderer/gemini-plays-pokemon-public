@@ -30,7 +30,7 @@
 
 ### B. Solved Puzzles Archive
 - **Pokemon Mansion B1F:** A switch at (19, 26) toggles gate sets. It uses a two-step 'prime and trigger' mechanic: flip the switch to 'prime' a set of gates, then walk to them to open them.
-- **Pokemon Mansion 1F:** A secret statue switch at (3, 6) opens northern gates. Eastern gates at (25, 14) are on a hidden trigger.
+- **Pokemon Mansion 1F:** A secret statue switch at (3, 6) opens the eastern gates at (17,8). My previous belief in a hidden pressure plate at (4,6) was a hallucination caused by confirmation bias; the statue is the true trigger.
 
 ## III. Tool & Agent Development Log
 
@@ -45,4 +45,3 @@
 ### C. Discovered Non-Standard Mechanics
 - **Pikachu Traversal:** I can walk through the Pikachu sprite. This is a key mechanic for navigating tight spaces he might be blocking.
 - **`puzzle_master_agent` (Reflection):** I committed a process violation by not refining the agent immediately after its first failure (suggesting interaction with Pikachu). I allowed a second failure (suggesting interaction with an unreachable object) before correcting the core issue. **Lesson:** Agent refinement must be performed instantly upon identifying a flaw, without exception.
-- **Mansion Puzzle Contingency:** If interacting with the known statue switches continues to fail, my next hypothesis will be that there are hidden floor-plate triggers. I will test this by systematically walking over every accessible tile in the puzzle areas.
