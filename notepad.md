@@ -44,3 +44,4 @@
 ### B. Tool Flaws & Consolidations
 - **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
 - `find_path` (Consolidated): The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
+- **Alternating Doors:** A specific gate mechanic where switches (often hidden in statues) toggle between opening one set of gates while closing another. The effect can be on the same floor or even different floors. Sometimes a switch needs to be 'primed' and then the player has to walk to the gate to trigger it to open.
