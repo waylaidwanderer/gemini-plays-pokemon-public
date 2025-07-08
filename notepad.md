@@ -39,5 +39,6 @@
 - **Advanced Pathfinder (Failed - 1 attempt):** Hypothesized a simple geometric path exists through impassable tiles. Path was found by tool but blocked by physical wall at (28, 19).
 - **Floor Pressure Plate (Failed - 1 attempt):** Hypothesized a hidden floor trigger opens the gates. Pathfinding to test tile (21, 19) failed.
 - **Distant Switch (Failed - 1 attempt):** Hypothesized the 'Mansion Switch' at (3,6) was the trigger. Pathfinding to switch failed.
-- **Fake Wall (Failed - 1 attempt):** Hypothesized a 'fake wall' exists. Walked into wall at (25, 20).
+- **Fake Wall (Failed - 1 attempt):** Hypothesized a 'fake wall' exists. 
     - **Test (Failed):** Walked into wall at (25, 20).
+    - **Test (Failed):** Walked into wall at (25, 21).
