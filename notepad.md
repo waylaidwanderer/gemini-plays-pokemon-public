@@ -25,25 +25,16 @@
 
 ### A. Active Puzzle: Pokémon Mansion
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
-- **Key Mechanic:** 'Alternating Doors'. Switches on one floor can affect gates on the same or other floors.
-- **Current Hypothesis:** The path forward on 1F requires dropping down from an upper floor into an isolated area.
+- **Key Mechanic: 'Alternating Doors':** Switches, often hidden in statues, can open and close sets of gates. The effect can be on the same floor or different floors. Sometimes a switch needs to be 'primed' and then the player has to walk to the gate to trigger it to open.
 
 ### B. Solved Puzzles Archive
-- **Pokemon Mansion B1F:** A switch at (19, 26) toggles gate sets. It uses a two-step 'prime and trigger' mechanic: flip the switch to 'prime' a set of gates, then walk to them to open them.
-- **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
-
-### B. Solved Puzzles Archive
-- **Pokemon Mansion B1F:** A switch at (19, 26) toggles gate sets. It uses a two-step 'prime and trigger' mechanic: flip the switch to 'prime' a set of gates, then walk to them to open them.
-- **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
-- **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
-- **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
-- **Pokemon Mansion B1F:** A switch at (19, 26) toggles gate sets. It uses a two-step 'prime and trigger' mechanic: flip the switch to 'prime' a set of gates, then walk to them to open them.
+- **Pokemon Mansion B1F (Gate Switch):** A switch at (19, 26) toggles two sets of gates using a 'prime and trigger' mechanic. Flip the switch to prime a set, then walk to them to open.
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
 
 ## III. Tool & Agent Development Log
 
 ### A. Agent Failures & Lessons Learned
-- **`battle_strategist_agent` (Flawed Knowledge):** The agent initially had incorrect type matchup knowledge (e.g., assuming Ground was immune to Fire). It has been refined with the correct type chart and stronger directives to prioritize survival.
+- **`battle_strategist_agent` (Flawed Knowledge):** The agent initially had incorrect type matchup knowledge. It has been refined with the correct type chart and stronger directives to prioritize survival and use only provided data.
 
 ### B. Tool Flaws & Consolidations
 - **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
