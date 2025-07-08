@@ -6,10 +6,10 @@
 ## II. Strategic Plan
 *   **Primary Goal: Find and defeat the Ecruteak City Gym Leader.**
     *   **Status:** Just arrived in Ecruteak City. Need to locate the Gym.
-*   **Secondary Goal: Investigate Team Rocket's activities.**
-    *   **Status:** Last seen in Goldenrod City's underground. No current leads.
-*   **Tertiary Goal: Train ELEKID.**
-    *   **Plan:** Keep ELEKID in the party to gain experience from battles.
+*   **Secondary Goal: Investigate the mystery of the Lake of Rage.**
+    *   **Status:** A Gym Guide mentioned a conspiracy at the Lake of Rage involving a Gyarados swarm.
+*   **Tertiary Goal: Investigate the Burned Tower.**
+    *   **Status:** A prominent, unexplored building in Ecruteak City.
 
 ## III. Game Systems & Mechanics
 
@@ -20,13 +20,15 @@
 - **Obvious Tile Test:** Even if a tile seems obviously impassable (e.g., WALL), I must attempt to walk into it once to be 100% certain.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `WATER` (without Surf), `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `COUNTER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`.
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `COUNTER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`.
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters), `LONG_GRASS` (Wild Encounters), `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile).
 *   **One-Way Ledges:** 
     * `LEDGE_HOP_DOWN/LEFT/RIGHT`.
     * `FLOOR_UP_WALL`: A one-way ledge that can only be hopped **UP**. It is impassable from above (acts as a wall).
-*   **Special Requirement:** `CUT_TREE` (Requires HM01 Cut).
+*   **Special Requirement:** 
+    * `CUT_TREE` (Requires HM01 Cut).
+    * `WATER` (Requires HM03 Surf).
 *   **Complex Tiles:**
     *   `WARP_CARPET_LEFT/RIGHT/DOWN`: Activated by pressing the indicated direction while standing on the tile.
     *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile.
@@ -47,6 +49,7 @@
 ## IV. Key Items & TMs
 *   **COIN CASE:** Allows playing at the Game Corner.
 *   **HM01 (CUT):** Clears small trees. Requires Hive Badge.
+*   **HM03 (SURF):** Allows swimming across water. Requires Fog Badge.
 *   **SQUIRTBOTTLE:** Used to clear the Sudowoodo on Route 36.
 *   **TM08 (ROCK SMASH)**
 *   **TM12 (SWEET SCENT)**
@@ -55,9 +58,6 @@
 *   **TM49 (FURY CUTTER)**
 
 ## V. Archive: Solved Puzzles & Failed Hypotheses
-*   **Trainer Identification Protocol:** An NPC should not be marked as a non-battler until at least two separate interaction attempts fail to trigger a battle. Some trainers require multiple prompts.
+*   **Trainer Identification Protocol:** An NPC should not be marked as a non-battler until at least **two** separate interaction attempts fail to trigger a battle. Some trainers require multiple prompts.
 *   **Failure Log (Navigation):** The path to Ecruteak City is NOT east of Route 36 (leads to Violet City) or west of Route 36 (dead end). **Lesson: If a path repeatedly fails, abandon the hypothesis and explore other routes.**
-*   **Failure Log (Pathfinder v7):** The tool's failures are often a symptom of my own flawed strategy (e.g., pathing into unseen areas). **Lesson: Verify my strategic assumptions before blaming the tool.**
 *   **Hypothesis Failure (Radio Tower):** The Plain Badge does NOT grant access to the upper floors of the Radio Tower. The Black Belt at (0, 1) on 2F still blocks the path, citing an issue with the Director. (Turn #29187)
-*   **Dance Theater Info:** A Gentleman at (7, 10) will give a gift if I defeat all the Kimono Girls. A Cooltrainer M at (10, 10) mentioned a man with a Rhydon who wants a Pokémon that can SURF.
-*   **HM03 (SURF):** Allows swimming across water.
