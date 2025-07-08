@@ -33,26 +33,7 @@
 *   **Haircuts:** Increases a Pokémon's happiness.
 *   **Pokégear Phone Menu:** When the 'Whom do you want to call?' text box is active, you cannot use the D-pad to switch functions. You MUST press 'B' to cancel and return to the main Pokégear screen before you can navigate to the radio.
 
-## III. Current Action Plan & Hypotheses
-*   **Objective:** Reach Goldenrod City.
-*   **Problem:** I seem to be at a dead end on Route 34. My `pathfinder_v5` tool reports no more reachable unseen tiles. This suggests a non-obvious progression path.
-
-*   **Hypothesis 1 (Failed):** The Day-Care couple has a narrative trigger.
-    *   **Test:** Spoke to both Gramps and Granny in the Day-Care.
-    *   **Conclusion:** They only offered standard Day-Care services. This hypothesis is incorrect.
-
-*   **Hypothesis 2 (Current):** There is a missed item or NPC interaction on Route 34.
-    *   **Action Plan:**
-        1.  Exit the Day-Care.
-        2.  Travel to the southernmost point of Route 34.
-        3.  Systematically walk north, hugging the western edge of the route, interacting with every object and NPC.
-        4.  Once the northernmost point is reached, travel south again, hugging the eastern edge of the route, interacting with everything.
-        5.  Pay close attention to any single-tile gaps or seemingly decorative elements that might be interactive.
-
-*   **Hypothesis 3 (Contingency):** Progression is gated by an item or HM I don't possess.
-    *   **Action Plan:** If Hypothesis 2 fails, I will change my primary goal. I will explore other accessible areas, such as Dark Cave (now that I have Flash) or the Ruins of Alph again, in search of a key item or ability (like Surf or Strength).
-
-## IV. Key Items & TMs
+## III. Key Items & TMs
 *   **COIN CASE:** Allows playing at the Game Corner.
 *   **HM01 (CUT):** Clears small trees. Requires Hive Badge.
 *   **SQUIRTBOTTLE:** Used to clear the Sudowoodo on Route 36.
