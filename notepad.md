@@ -12,7 +12,7 @@
 - **Obvious Tile Test:** Even if a tile seems obviously impassable (e.g., WALL), I must attempt to walk into it once to be 100% certain.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `WATER` (without Surf), `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`.
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `VOID`, `MART_SHELF`, `WATER` (without Surf), `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `COUNTER`.
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS` (Wild Encounters), `LONG_GRASS` (Wild Encounters), `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile).
 *   **One-Way Ledges:** 
@@ -49,6 +49,7 @@
 *   **Auto-Travel Tool:** Create a tool to automate travel through high-encounter areas. It would take a destination coordinate, call the pathfinder, and then execute the path. If interrupted by a wild battle, it would automatically select 'RUN' and then re-call the pathfinder from the new position to continue the journey. This would streamline long trips significantly.
 *   **Exploration Manager Agent:** An agent to consult when stuck. It would analyze the current location, available paths, and key items to suggest novel exploration strategies or alternative hypotheses to test, preventing getting stuck in loops.
 *   **Phone Call Summarizer Agent:** An agent to parse phone call text and extract key information (e.g., trainer name, location, request) to avoid reading through lengthy dialogues.
+*   **Shop Navigator Tool:** A tool that parses shop menus to find a specific item and outputs the button presses needed to select and purchase it.
 
 ## V. Archive: Solved Puzzles & Procedural Failures
 *   **Hypothesis Testing To-Do:**
