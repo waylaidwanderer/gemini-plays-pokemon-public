@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Notepad
 
 ## I. Core Directives & Principles
-*   **Act Immediately:** As an LLM, I have no concept of 'later'. Any task I decide on (agent creation/refinement, tool fixes, documentation) MUST be performed in the current turn. Deferring tasks is a critical failure.
+*   **Act Immediately:** As an LLM, I have no concept of 'later'. Any task I decide on (agent/tool creation/refinement, documentation) MUST be performed in the current turn. Deferring tasks is a critical failure.
 
 ## II. Game Systems & Mechanics
 
@@ -44,6 +44,9 @@
 *   **TM45 (ATTRACT):** Infatuates opposite-gender Pokémon.
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
+## IV. Future Development Ideas
+*   **Auto-Travel Agent/Tool:** Create a system to automate travel through high-encounter areas. It would handle running from battles and re-calculating paths automatically to streamline long journeys.
+
 ## V. Archive: Solved Puzzles & Procedural Failures
 *   **Solved: Azalea Town Slowpoke Infestation:** Confronted Team Rocket in Slowpoke Well after speaking with Kurt.
 *   **Failure Log (Turns ~27050-27235):** Severe behavioral loops related to Pokégear menu navigation. Failed to consult documented solution.
@@ -52,12 +55,11 @@
 *   **Failure Log (Turns ~27544-27685):** Repeatedly distrusted pathfinder tool output, assuming it was broken when my own map understanding was flawed. **Lesson: Trust tool outputs to challenge my assumptions.**
 *   **Failure Log (Turn ~27708):** `pathfinder_v5` incorrectly identified start tile as impassable due to a map marker. Corrected the tool.
 *   **Failure Log (Turns ~27817-27840):** Stuck interacting with wandering NPCs in Azalea Town. **Lesson: Abandon failing strategies more quickly.**
+*   **Failure Log (Turns ~28488-28532):** Failed to use REPELs, leading to numerous wasteful encounters on Route 32. **Lesson: Verify consumable inventory before long trips.**
 
-## VI. Technical Debt & Bug Reports
-
-## VII. Consumable Item Tracker
+## VI. Consumable Item Tracker
 *   **REPELs:** 0
 *   **ESCAPE ROPEs:** 0
 
-## VIII. Strategic Planning Notes
-*   **Current Plan:** Backtrack to Violet City Mart to purchase REPELs. The high encounter rate on Route 32 makes forward progress without them inefficient. After purchasing, I will return to Route 32 and proceed to Union Cave.
+## VII. Strategic Planning Notes
+*   **Current Plan:** Purchase REPELs at the Violet City Mart. After stocking up, return to Route 32 and proceed to Union Cave.
