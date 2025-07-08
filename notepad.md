@@ -53,7 +53,4 @@
 ### C. Current Puzzle: Mansion 1F Corridor Contradiction
 - **Contradiction:** The game state lists the gates at (25, 14) as 'Reachable Barriers', but all attempts to find a path through standard movement or local interactions have failed.
 - **Conclusion:** This proves a non-standard path or traversal mechanic exists on this floor.
-- **Test Plan (Attempt 1):** Use the `find_path` tool to calculate a standard path. **Result: FAILED.** The tool found no path, confirming a non-standard solution is required.
-- **Test Plan (Attempt 2):** Use the `advanced_pathfinder` tool. This tool ignores puzzle-specific barriers and should reveal the hidden passage.
-- **Mansion 1F Eastern Corridor:** Reached the eastern corridor after using `advanced_pathfinder`. Now adjacent to the closed gates at (25, 14). Next step is to find the local trigger to open them.
 - **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
