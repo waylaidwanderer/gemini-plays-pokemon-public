@@ -40,3 +40,6 @@
 
 ### B. Tool Flaws
 - **`advanced_pathfinder` (Fixed):** This tool was critically flawed. It was designed to find hidden passages by ignoring tile types, but it incorrectly suggested paths through 'impassable' tiles, which the game engine blocks. **Lesson:** Tools must respect fundamental game mechanics. The tool has been refined to ignore puzzle-specific barriers (like `closed_gate`) while still respecting absolute barriers (`impassable`).
+
+### C. Discovered Non-Standard Mechanics
+- **Pikachu Traversal:** I can walk through the Pikachu sprite. This is a key mechanic for navigating tight spaces he might be blocking.
