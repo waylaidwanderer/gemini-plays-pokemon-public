@@ -52,3 +52,6 @@
 *   **Failure Log (Turns ~27544-27685):** Repeatedly distrusted pathfinder tool output, assuming it was broken when my own map understanding was flawed. **Lesson: Trust tool outputs to challenge my assumptions.**
 *   **Failure Log (Turn ~27708):** `pathfinder_v5` incorrectly identified start tile as impassable due to a map marker. Corrected the tool.
 *   **Failure Log (Turns ~27817-27840):** Stuck interacting with wandering NPCs in Azalea Town. **Lesson: Abandon failing strategies more quickly.**
+
+## VI. Technical Debt & Bug Reports
+*   **Pathfinder v6 Bug:** The tool fails to find a path when the player's starting x-coordinate is 0. This needs to be fixed immediately. Hypothesis: The code incorrectly handles the edge of the map. Test: Run the pathfinder from (0, Y) and then from (1, Y) to confirm the bug is related to the x-coordinate.
