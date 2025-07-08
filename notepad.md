@@ -52,3 +52,4 @@
 - **`find_path` (Consolidated):** The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
 - **Warp Reuse:** To reuse a warp you just came through, you must step off the warp tile and then back on to trigger it.
 - **Warp Reuse:** To reuse a warp you just came through, you must step off the warp tile and then back on to trigger it.
+- **Warp Reuse:** To reuse a warp you just came through, you must step off the warp tile and then back on to trigger it.
