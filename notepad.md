@@ -1,12 +1,8 @@
-## I. Core Protocols & Game Philosophy
-- **Immediate Data Management:** I will use `define_map_marker` and `notepad_edit` on the *same turn* a discovery is made. Deferring tasks is a critical failure.
-- **Agent & Tool Protocol:** Agent and tool refinement is an IMMEDIATE action. If a tool is faulty or a better one can be conceived, I MUST define/redefine it on the IMMEDIATE next turn.
-- **Hypothesis-Driven Gameplay:** I will rigorously document my hypotheses, tests, and conclusions in my notepad. I will avoid repeating failed strategies and will pivot to new goals if progress stalls after multiple documented attempts. When the game provides contradictory information (e.g., a barrier is marked as 'reachable' but a path cannot be found), my primary hypothesis must be that a non-standard game mechanic is at play, and my recommended action should be to test that possibility directly.
+## I. Game Mechanics & Battle Intel
 
-## II. Game Mechanics & Battle Intel
 ### A. Tile Mechanics & Traversal Rules
 - **Ground/Impassable:** `ground` tiles are walkable, `impassable` tiles are solid walls. All objects (NPCs, items, signs) function as impassable walls.
-- **Water:** Surfable tiles.
+- **Water:** Surfable tiles. To initiate SURF, I must be adjacent to a water tile and use the move from the party menu. Only Water-type Pokémon can use SURF in the field.
 - **Gates (`closed_gate`/`open_gate`):** `closed_gate` tiles are usually impassable barriers. `open_gate` tiles are previously closed gates that are now open and act as `ground`. The state of these can be toggled by switches or other triggers.
 - **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
@@ -26,10 +22,10 @@
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center. You respawn in front of the trainer you lost to.
 - **Two-Turn Moves:** The `battle_strategist_agent` initially failed to account for the inefficiency of two-turn moves (like FLY) when a one-turn KO is possible. The agent has been refined to prioritize faster knockouts.
 
-## III. Puzzle & Hypothesis Log
+## II. Puzzle & Hypothesis Log
+
 ### A. Active Hypotheses
-- **Pokemon Mansion 1F Alternating Switch:** The switch at (3, 6) is an alternating switch. The game indicates the eastern gates at (25, 14) are reachable, but they remain closed. The switch's message "Not quite yet!" implies a secondary condition is unmet. My current hypothesis is that the switch has more than two states, or another interaction is required elsewhere on the map after flipping the switch.
-- **Route 20 Progression:** I am assuming that exploring this water route will lead to the Cinnabar Gym Key. Test: Fully explore Route 20 and the Seafoam Islands.
+- **Pokemon Mansion 1F Alternating Switch:** The switch at (3, 6) is an alternating switch. The game indicates the eastern gates at (25, 14) are reachable, but they remain closed. The switch's message "Not quite yet!" implies a secondary condition is unmet. My current hypothesis is that the switch has more than two states, or another interaction is required elsewhere on the map after flipping the switch. **Test:** Flip the switch at (3, 6) and observe any changes to the gates.
 - **Route 20 Rock Walls:** The impassable rock walls on Route 20 may not be static barriers. **Hypothesis:** The walls can be removed or passed through by an external trigger, item, or specific condition. **Test:** After returning to Route 20, I will attempt to interact ('A' button) with the walls and use the ITEMFINDER nearby.
 
 ### B. Solved Puzzles
