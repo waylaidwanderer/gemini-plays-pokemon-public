@@ -31,6 +31,8 @@
 ### B. Solved Puzzles Archive
 - **Pokemon Mansion B1F:** A switch at (19, 26) toggles gate sets. It uses a two-step 'prime and trigger' mechanic: flip the switch to 'prime' a set of gates, then walk to them to open them.
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
+- **Pokemon Mansion B1F:** A switch at (19, 26) toggles gate sets. It uses a two-step 'prime and trigger' mechanic: flip the switch to 'prime' a set of gates, then walk to them to open them.
+- **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
 
 ## III. Tool & Agent Development Log
 
