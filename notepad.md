@@ -55,3 +55,4 @@
 - **Agent Hypothesis (Attempt #8):** The map data is flawed and a 'fake wall' or secret passage exists.
   - **Test:** Systematically attempt to walk west from (28, 20) towards the 'South Gates'.
     - **Test (Failed):** Walked into wall at (25, 20).
+    - **Test (Failed):** Walked into wall at (25, 20).
