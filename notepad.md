@@ -46,3 +46,4 @@
     - **Test (Failed):** Walked into wall at (25, 23).
     - **Test (Failed):** Walked into wall at (25, 24).
     - **Test (Failed):** Walked into wall at (25, 22).
+- **Main Switch Interaction (Failed - 2 attempts):** Hypothesized the main switch at (3,6) would open the southern gates. Interacting with it from the adjacent tile at (4,6) had no effect.
