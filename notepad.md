@@ -54,13 +54,6 @@
 *   **TM45 (ATTRACT):** Infatuates opposite-gender Pokémon.
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
-## V. Future Development Ideas
-*   **Auto-Travel Tool:** Create a tool to automate travel through high-encounter areas. It would take a destination coordinate, call the pathfinder, and then execute the path. If interrupted by a wild battle, it would automatically select 'RUN' and then re-call the pathfinder from the new position to continue the journey. This would streamline long trips significantly.
-*   **Dialogue Summarizer Agent:** An agent to parse phone call text and extract key information (e.g., trainer name, location, request) to avoid reading through lengthy dialogues.
-*   **Shop Navigator Tool:** A tool that parses shop menus to find a specific item and outputs the button presses needed to select and purchase it.
-*   **Map Marker Cleaner Agent:** An agent that analyzes map markers and suggests redundant ones for deletion (e.g., a '🎁' marker for an item that also has a '✅' marker).
-*   **Objective Evaluator Agent:** An agent to consult when truly stuck. It would analyze current location, goals, and key items to suggest a completely different primary objective, forcing strategic flexibility.
-
 ## VI. Archive: Solved Puzzles & Procedural Failures
 *   **Hypothesis Testing To-Do:**
     *   Test `FLOOR_UP_WALL` at Route 36 (51, 16) by attempting to move down against it.
