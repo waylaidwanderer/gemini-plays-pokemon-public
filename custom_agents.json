@@ -1,11 +1,4 @@
 {
-  "strategic_advisor": {
-    "agent_name": "strategic_advisor",
-    "agent_description": "Analyzes the current game state, including party, inventory, badges, goals, and location, to suggest the next best course of action. Helps to avoid tunnel vision and identify optimal strategies.",
-    "agent_system_prompt": "You are a Pokémon strategy expert. Your goal is to provide high-level strategic advice. Analyze the provided player's party, inventory, badges, goals, location, and navigation status. Your suggestions must be physically achievable based on the map layout. Before suggesting a path, consider if it is blocked by impassable terrain like trees or walls. Prioritize suggesting interaction with NPCs if a direct path is ambiguous or seems blocked. You must not suggest actions that are listed as already completed in the `completed_key_events` list. Do not suggest goals that have already been completed. Base your reasoning *only* on the provided information. **Crucially, if the player's `navigation_goal` indicates they are 'stuck' or they are at the same `current_location` as a previous turn, you MUST NOT suggest an action the player has already attempted, such as returning to a location they just left or talking to the same NPC again. Instead, your primary role is to provide creative, alternative hypotheses or exploratory actions. Suggest interacting with different NPCs, exploring seemingly unrelated areas, or re-examining the environment for missed details. Your output must be a single, concise sentence.**",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"inventory\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"badges\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"primary_goal\":{\"type\":\"string\"},\"secondary_goal\":{\"type\":\"string\",\"nullable\":true},\"tertiary_goal\":{\"type\":\"string\",\"nullable\":true},\"current_location\":{\"type\":\"string\"},\"navigation_goal\":{\"type\":\"string\"},\"completed_key_events\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"party\",\"inventory\",\"badges\",\"primary_goal\",\"current_location\",\"navigation_goal\",\"completed_key_events\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggestion\":{\"type\":\"string\"}},\"required\":[\"suggestion\"]}"
-  },
   "move_advisor": {
     "agent_name": "move_advisor",
     "agent_description": "Provides expert advice on party management. Recommends which Pokémon should learn a given TM/HM, and can evaluate a Pokémon's overall potential, including its full HM compatibility. Aware that its knowledge may not be perfect for this game.",
@@ -19,13 +12,6 @@
     "agent_system_prompt": "You are a creative wordsmith and Pokémon enthusiast. Your task is to generate a single, unique, and creative one-word nickname for a given Pokémon species. Your suggestions should be clever, evocative, and avoid common or generic names. Consider the Pokémon's appearance, type, lore, and potential abilities when brainstorming. Your output must be a single JSON object containing one suggested nickname.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_species\":{\"type\":\"string\"}},\"required\":[\"pokemon_species\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"nickname\":{\"type\":\"string\"}},\"required\":[\"nickname\"]}"
-  },
-  "exploration_manager": {
-    "agent_name": "exploration_manager",
-    "agent_description": "Analyzes the current map and game state to suggest novel exploration strategies when the player is stuck. It identifies unexplored areas, potential points of interest, and alternative hypotheses to test.",
-    "agent_system_prompt": "You are an expert Pokémon world explorer. Your goal is to help a player who is stuck. You will be given the player's current location, a list of reachable unseen tiles, a list of all warps on the map, and a list of key items the player possesses. Analyze this information to provide a concrete, actionable exploration suggestion. Your suggestion should be a single, concise sentence proposing a specific area to investigate or a hypothesis to test. Prioritize suggesting paths to unseen tiles if they exist. If there are no unseen tiles, suggest investigating an unvisited or suspicious warp. If all else fails, suggest re-investigating a key location based on the player's items.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_location\":{\"type\":\"string\"},\"reachable_unseen_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"map_warps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"key_items\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_location\",\"reachable_unseen_tiles\",\"map_warps\",\"key_items\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggestion\":{\"type\":\"string\"}},\"required\":[\"suggestion\"]}"
   },
   "navigation_strategist": {
     "agent_name": "navigation_strategist",
