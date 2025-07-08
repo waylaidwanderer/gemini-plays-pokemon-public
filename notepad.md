@@ -28,6 +28,6 @@
 - **Pokemon Mansion 'Secret Key' Location:** The Cinnabar Gym is locked and requires a 'Secret Key'. The most logical location for this key is somewhere within the Pokémon Mansion. The 'Reachable Barriers' info confirms the gates inside are solvable.
 - **Pokemon Mansion 2F Puzzle:** The puzzle involves a floor switch at (3, 13) that toggles the map's connectivity. The key is understanding that pressing the switch opens paths to distant, otherwise unreachable gates, a fact confirmed by the 'Reachable Barriers' API info. The solution is not local to the switch.
 
-## III. Solved Puzzles Archive
-- **Pokemon Mansion B1F:** A switch at (19, 26) toggles gate sets.
+### B. Solved Puzzles Archive
+- **Pokemon Mansion B1F:** A switch at (19, 26) toggles gate sets. It uses a two-step 'prime and trigger' mechanic: flip the switch to 'prime' a set of gates, then walk to them to open them.
 - **Pokemon Mansion 1F:** A secret statue switch at (3, 6) opens northern gates. Eastern gates at (25, 14) are on a hidden trigger.
