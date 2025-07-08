@@ -3,7 +3,15 @@
 ## I. Core Directives & Principles
 *   **Act Immediately:** As an LLM, I have no concept of 'later'. Any task I decide on (agent/tool creation/refinement, documentation) MUST be performed in the current turn. Deferring tasks is a critical failure.
 
-## II. Game Systems & Mechanics
+## II. Active Goal Planning
+*   **Primary Goal: Obtain the next badge in Ecruteak City**
+    *   **Plan:** Travel from Goldenrod City through Route 35, National Park, and Route 36 to reach Ecruteak City.
+*   **Secondary Goal: Hatch the ODD EGG**
+    *   **Plan:** Keep the egg in my party while traveling to accumulate steps.
+*   **Tertiary Goal: Investigate the Radio Tower in Goldenrod City**
+    *   **Plan:** Return to Goldenrod City after obtaining the next badge and explore the Radio Tower now that I have the Plain Badge.
+
+## III. Game Systems & Mechanics
 
 ### Tile Traversal Protocol
 - **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately.
@@ -35,7 +43,7 @@
 *   **Haircuts:** Increases a Pokémon's happiness.
 *   **Pokégear Phone Menu:** When the 'Whom do you want to call?' text box is active, you cannot use the D-pad to switch functions. You MUST press 'B' to cancel and return to the main Pokégear screen before you can navigate to the radio.
 
-## III. Key Items & TMs
+## IV. Key Items & TMs
 *   **COIN CASE:** Allows playing at the Game Corner.
 *   **HM01 (CUT):** Clears small trees. Requires Hive Badge.
 *   **SQUIRTBOTTLE:** Used to clear the Sudowoodo on Route 36.
@@ -45,13 +53,13 @@
 *   **TM45 (ATTRACT):** Infatuates opposite-gender Pokémon.
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
-## IV. Future Development Ideas
+## V. Future Development Ideas
 *   **Auto-Travel Tool:** Create a tool to automate travel through high-encounter areas. It would take a destination coordinate, call the pathfinder, and then execute the path. If interrupted by a wild battle, it would automatically select 'RUN' and then re-call the pathfinder from the new position to continue the journey. This would streamline long trips significantly.
 *   **Exploration Manager Agent:** An agent to consult when stuck. It would analyze the current location, available paths, and key items to suggest novel exploration strategies or alternative hypotheses to test, preventing getting stuck in loops.
 *   **Phone Call Summarizer Agent:** An agent to parse phone call text and extract key information (e.g., trainer name, location, request) to avoid reading through lengthy dialogues.
 *   **Shop Navigator Tool:** A tool that parses shop menus to find a specific item and outputs the button presses needed to select and purchase it.
 
-## V. Archive: Solved Puzzles & Procedural Failures
+## VI. Archive: Solved Puzzles & Procedural Failures
 *   **Hypothesis Testing To-Do:**
     *   Test `LEDGE_HOP_LEFT` at Ilex Forest (14, 14) by attempting to move right against it.
 *   **Skepticism Reminder:** Do not assume all NPCs are trainers. Some provide hints or flavor text. Wasting turns trying to battle a non-battling NPC is inefficient.
