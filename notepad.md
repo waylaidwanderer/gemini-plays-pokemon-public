@@ -42,3 +42,4 @@
 - **Fake Wall (Failed - 1 attempt):** Hypothesized a 'fake wall' exists. 
     - **Test (Failed):** Walked into wall at (25, 20).
     - **Test (Failed):** Walked into wall at (25, 21).
+    - **Test (Failed):** Walked into wall at (25, 22).
