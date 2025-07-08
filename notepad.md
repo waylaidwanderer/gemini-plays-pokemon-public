@@ -44,4 +44,5 @@
     - **Test (Failed):** Walked into wall at (25, 21).
     - **Test (Failed):** Walked into wall at (25, 22).
     - **Test (Failed):** Walked into wall at (25, 23).
+    - **Test (Failed):** Walked into wall at (25, 24).
     - **Test (Failed):** Walked into wall at (25, 22).
