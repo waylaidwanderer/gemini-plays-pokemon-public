@@ -6,8 +6,8 @@
 ## II. Strategic Plan
 *   **Primary Goal: Obtain the next badge in Ecruteak City**
     *   **Plan:** Travel from Goldenrod City through Route 35, National Park, and Route 36 to reach Ecruteak City.
-*   **Secondary Goal: Hatch the ODD EGG**
-    *   **Plan:** Keep the egg in my party while traveling to accumulate steps.
+*   **Secondary Goal: Train the newly hatched ELEKID.**
+    *   **Plan:** Keep ELEKID in the party to gain experience from battles.
 *   **Tertiary Goal: Investigate the Radio Tower in Goldenrod City**
     *   **Plan:** Return to Goldenrod City after obtaining the next badge and explore the Radio Tower now that I have the Plain Badge.
 
