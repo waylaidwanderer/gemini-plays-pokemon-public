@@ -29,7 +29,7 @@
 *   **Special Requirement:** `CUT_TREE` (Requires HM01 Cut).
 *   **Complex Tiles:**
     *   `WARP_CARPET_LEFT/RIGHT`: Activated by pressing the indicated direction while standing on the tile.
-    *   `WARP_CARPET_DOWN`: (Untested)
+    *   `WARP_CARPET_DOWN`: Activated by pressing 'Down' while standing on the tile.
     *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile. It is a one-way interaction.
     *   `Interactable Warp (FLOOR)`: Some FLOOR tiles that are also warps do not activate on entry. They must be interacted with by pressing 'A' to trigger an event or text. (e.g., Ruins of Alph Inner Chamber @ (15, 3)).
 
