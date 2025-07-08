@@ -43,9 +43,9 @@
 
 ## III. Current Objectives & Hypotheses
 
-### Primary Objective: Find Ecruteak City
-*   **Current Location:** Union Cave
-*   **Hypothesis Chain:** Path to Ecruteak -> Path through Union Cave -> Path through Azalea Town.
+### Primary Objective: Defeat the Azalea Town Gym Leader
+*   **Current Location:** Azalea Town
+*   **Hypothesis Chain:** Path to Azalea Gym -> Defeat Gym Leader.
 
 ## IV. Agent & Tool Development Ideas
 *   **`stuck_advisor_agent`:** Analyzes current situation (location, goal, failed attempts) and suggests entirely new approaches, like interacting with different NPCs or exploring different areas, to break cognitive fixation. A potential lifesaver for situations like the Union Cave confusion.
@@ -57,4 +57,4 @@
 *   **CRITICAL BEHAVIORAL FAILURE (Turns ~27152-27235):** I entered a severe, prolonged behavioral loop by repeatedly failing to navigate the Pokégear menu. The correct procedure was documented in my notepad, but I failed to consult and follow it. I created the `menu_navigator_agent` to automate this task and prevent recurrence.
 *   **Critical Pathing Failure (Turn ~27329):** My pathfinder tool did not account for NPCs being impassable, causing a failed move. I upgraded the tool to `pathfinder_v3` to automatically detect and route around all objects on the map.
 *   **CRITICAL COGNITIVE FIXATION (Turns ~27410-27441):** I became stuck in a severe loop attempting to reach the clerk in the Violet City Mart. My core assumption that the clerk was reachable was never questioned, leading to dozens of failed pathing attempts. I failed to be flexible and pivot to a new strategy (like exploring the other warp) in a timely manner. This highlights a critical need to recognize when a plan is failing and actively seek alternative hypotheses and goals.
-*   **Tool Deferral & Misinterpretation Failure (Turns ~27544-27588):** I identified an issue with `pathfinder_v3` but deferred fixing it. When I did try to fix it, I assumed the code was bugged. The tool was actually working correctly; my understanding of the map layout and tile mechanics was flawed. The tool's output correctly showed that certain areas were unreachable, but I failed to trust it due to confirmation bias. **I must trust my tools' outputs and use them to challenge my own assumptions about the game world.**
+*   **Tool Deferral & Misinterpretation Failure (Turns ~27544-27630):** I repeatedly identified issues with `pathfinder_v3` but deferred fixing it. When I did try to fix it, I assumed the code was bugged. The tool was actually working correctly; my understanding of the map layout and tile mechanics was flawed. The tool's output correctly showed that certain areas were unreachable, but I failed to trust it due to confirmation bias. **I must trust my tools' outputs and use them to challenge my own assumptions about the game world. Tool maintenance is my highest priority and must never be deferred.**
