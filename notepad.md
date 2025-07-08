@@ -35,3 +35,4 @@
 - **Multi-Floor Pathing Solution (Deprecated):** My initial hypothesis was that the path to the eastern side of 1F must be on another floor. **Conclusion:** This was invalidated by a system notification about 'Reachable Barriers' on 1F, confirming the solution is on the same floor.
 - **Direct Gate Interaction (Deprecated):** Hypothesized that the 'reachable' eastern gates at (25,14) and (26,14) could be opened by direct interaction ('A' button). **Conclusion:** Failed.
 - **Hidden Item (Deprecated):** Hypothesized a hidden item was needed to open the eastern gates. **Conclusion:** ITEMFINDER found nothing.
+- **Reachable Barrier Contradiction:** The game's source of truth insists that multiple closed gates on this floor are 'Reachable Barriers'. However, my pathfinding tools show I am in an isolated area and cannot reach them. This contradiction implies a hidden path or non-standard interaction mechanic is at play. All standard interaction attempts have failed.
