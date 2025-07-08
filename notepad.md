@@ -36,4 +36,4 @@
 - **Multi-Floor Pathing:** Hypothesized path to the east was on another floor. **Invalidated by 'Reachable Barriers' notification.**
 - **Direct Gate Interaction:** Hypothesized gates could be opened by direct interaction ('A' button). **Failed.**
 - **Hidden Item:** Hypothesized a hidden item was needed. **ITEMFINDER found nothing.**
-- **Walk-Through Gates (General):** Hypothesized that 'reachable' closed gates could be walked through. **Failed.** This was based on the agent's initial identification of a contradiction. Re-testing with a more specific target is the current active hypothesis.
+- **Walk-Through Gates (General):** Hypothesized that 'reachable' closed gates could be walked through. **Failed.** This was based on the agent's initial identification of a contradiction. Re-testing with a more specific target is the current active hypothesis. This was based on the agent's initial identification of a contradiction. Re-testing with a more specific target is the current active hypothesis.
