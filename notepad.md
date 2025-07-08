@@ -45,10 +45,9 @@
     2.  Exit the Day-Care and continue north on Route 34.
     3.  Battle any remaining trainers on Route 34.
     4.  Enter Goldenrod City.
-*   **Side-Quest: Obtain the Day-Care Egg.**
-    1.  Return to a Pokémon Center to deposit a Pokémon and free up a party slot.
-    2.  Return to the Day-Care and speak with the Day-Care Man.
-    3.  Hypothesis to test: Can I use the PC in the Day-Care building at (7,1) to manage my party without leaving?
+*   **Side-Quest: Obtain the Day-Care Egg (Complete).**
+    1.  Used the PC in the Day-Care to deposit Ledyba.
+    2.  Spoke to the Day-Care Man and received the ODD EGG (Elekid).
 
 ## IV. Archive: Solved Puzzles & Procedural Failures
 *   **Solved: Azalea Town Slowpoke Infestation:** The solution was to confront Team Rocket in the Slowpoke Well after speaking with Kurt. This was not related to the Azalea Town Mart or using an item on the Slowpokes.
