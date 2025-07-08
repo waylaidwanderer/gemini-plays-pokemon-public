@@ -10,19 +10,22 @@
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
-- **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; **Psychic > Flying** (confirmed: KADABRA's PSYBEAM vs ECHO's GOLBAT)
-- **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); **Ice !> Gyarados (Water/Flying)** (confirmed: NEPTUNE's AURORA BEAM vs Fisherman's GYARADOS); Poison !> Poison (confirmed: ECHO's SLUDGE vs MUK).
-- **Immunities:** Flying-type immune to Ground-type moves; MUK immune to Poison-type moves; **Electric is effective vs Sabrina's Psychic team, confirming Psychic types are NOT immune to Electric.**; **HYPNO immune to STUN SPORE** (powder moves); **MUK immune to THUNDER WAVE** (Electric-type status move).
+- **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; **Psychic > Flying**
+- **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); **Ice !> Gyarados (Water/Flying)**; Poison !> Poison.
+- **Immunities:** Flying-type immune to Ground-type moves; MUK immune to Poison-type moves; **HYPNO immune to STUN SPORE** (powder moves); **MUK immune to THUNDER WAVE** (Electric-type status move).
+- **Misc:** Ground is RESISTANT (0.5x) to Fire, NOT immune.
 
 #### B2. Battle & Field Mechanics
-- **Evasion:** PSYWAVE and CONFUSE RAY can fail against targets with high evasion boosts (e.g., from MINIMIZE).
+- **Evasion:** PSYWAVE and CONFUSE RAY can fail against targets with high evasion boosts.
 - **'No Will to Fight':** A fainted or sleeping Pokémon cannot be switched into battle.
-- **EXP Distribution:** Experience is shared between the Pokémon that started the battle and any that participated via switch-in.
 - **Safari Zone:** Has a time limit. When it expires, the player is warped back to the Safari Zone Gate.
-- **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center. You respawn in front of the trainer you lost to.
-- **Two-Turn Moves:** The `battle_strategist_agent` initially failed to account for the inefficiency of two-turn moves (like FLY) when a one-turn KO is possible. The agent has been refined to prioritize faster knockouts.
+- **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center.
 
 ## II. Puzzle & Hypothesis Log
+
+### A. Active Hypotheses
+- **Pokemon Mansion 'Secret Key' Location:** The Cinnabar Gym is locked and requires a 'Secret Key'. The most logical location for this key is somewhere within the Pokémon Mansion.
+- **Pokemon Mansion 'Alternating Doors':** The mansion's puzzles involve switches that toggle gates, possibly across different floors. The path forward likely requires navigating between floors to access newly opened areas.
 
 ### B. Solved Puzzles Archive
 - **Pokemon Mansion B1F:** A switch at (19, 26) toggles gate sets. It uses a two-step 'prime and trigger' mechanic: flip the switch to 'prime' a set of gates, then walk to them to open them.
@@ -31,11 +34,11 @@
 ## III. Tool & Agent Development Log
 
 ### A. Agent Failures & Lessons Learned
-- **`puzzle_master_agent` (Looping Failure):** The agent repeatedly suggested interacting with the same switch on Mansion 2F, even after it failed to produce results. This indicates a failure to recognize a loop and generate creative, alternative hypotheses. It has been refined with a loop-breaking directive.
+- **`battle_strategist_agent` (Flawed Knowledge):** The agent initially had incorrect type matchup knowledge (e.g., assuming Ground was immune to Fire). It has been refined with the correct type chart and stronger directives to prioritize survival.
 
 ### B. Tool Flaws & Consolidations
-- **`advanced_pathfinder` (Fixed):** This tool was critically flawed. It was designed to find hidden passages by ignoring tile types, but it incorrectly suggested paths through 'impassable' tiles, which the game engine blocks. **Lesson:** Tools must respect fundamental game mechanics. The tool has been refined to ignore puzzle-specific barriers (like `closed_gate`) while still respecting absolute barriers (`impassable`).
-- **`find_path` (Consolidated):** The `find_path_to_adjacent` tool was redundant. Its functionality has been merged into the main `find_path` tool with an optional `adjacent` parameter, creating a single, more robust pathfinding utility.
+- **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
+- **`find_path` (Consolidated):** The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
 
 ### C. Discovered Non-Standard Mechanics
 - **Pikachu Traversal:** I can walk through the Pikachu sprite. This is a key mechanic for navigating tight spaces he might be blocking.
