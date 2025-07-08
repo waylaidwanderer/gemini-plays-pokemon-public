@@ -50,6 +50,4 @@
 - **Hypothesis:** The key is located somewhere within the Pokémon Mansion.
 - **Key Mechanic:** The mansion's puzzles are based on an 'Alternating Doors' system. A single switch can toggle the state of multiple gates across the floor. The switch at (3, 6) on 1F controls both the northern gates at (17,8) and the eastern gates at (25,14). I need to navigate between floors to reach different sections of 1F to proceed.
 
-### C. Current Puzzle: Mansion 1F Corridor Contradiction
-- **Contradiction:** The game state lists the gates at (25, 14) as 'Reachable Barriers', but all attempts to find a path through standard movement or local interactions have failed.
-- **Conclusion:** This proves a non-standard path or traversal mechanic exists on this floor.
+- **Key Mechanic:** The mansion's puzzles are based on an 'Alternating Doors' system. A single switch can toggle the state of multiple gates across the floor. The switch at (3, 6) on 1F controls both the northern gates at (17,8) and the eastern gates at (25,14). I need to navigate between floors to reach different sections of 1F to proceed.
