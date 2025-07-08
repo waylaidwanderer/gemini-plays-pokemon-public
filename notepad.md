@@ -49,3 +49,4 @@
 
 ### D. Active Hypothesis Testing Notes
 - **Pokémon Mansion (Confirmation Bias Check):** My focus has been on switches. I need to test the assumption that this is the *only* mechanic. Next exploration will involve interacting with all furniture and checking for hidden items on the ground, not just flipping switches.
+- **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
