@@ -14,7 +14,7 @@
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile).
 *   **One-Way Ledges:** 
     * `LEDGE_HOP_DOWN/LEFT/RIGHT`.
-    * `FLOOR_UP_WALL`: A one-way ledge that can only be hopped **UP**. It is impassable from above (acts as a wall). Confirmed in Union Cave B1F. Needs re-verification in Slowpoke Well.
+    * `FLOOR_UP_WALL`: A one-way ledge that can only be hopped **UP**. It is impassable from above (acts as a wall). Confirmed in Union Cave B1F and Slowpoke Well B1F.
 *   **Special Requirement:** `CUT_TREE` (Requires HM01 Cut).
 *   **Complex Tiles:**
     *   `WARP_CARPET_LEFT/DOWN/RIGHT`: Activated by pressing the indicated direction while standing on the tile.
@@ -57,3 +57,4 @@
 *   **CRITICAL COGNITIVE FIXATION (Turns ~27410-27441):** I became stuck in a severe loop attempting to reach the clerk in the Violet City Mart. My core assumption that the clerk was reachable was never questioned, leading to dozens of failed pathing attempts. I failed to be flexible and pivot to a new strategy (like exploring the other warp) in a timely manner. This highlights a critical need to recognize when a plan is failing and actively seek alternative hypotheses and goals.
 *   **Tool Deferral & Misinterpretation Failure (Turns ~27544-27630):** I repeatedly identified issues with `pathfinder_v3` but deferred fixing it. When I did try to fix it, I assumed the code was bugged. The tool was actually working correctly; my understanding of the map layout and tile mechanics was flawed. The tool's output correctly showed that certain areas were unreachable, but I failed to trust it due to confirmation bias. **I must trust my tools' outputs and use them to challenge my own assumptions about the game world. Tool maintenance is my highest priority and must never be deferred.**
 *   **Failure to Trust Tools (Turns ~27670-27685):** I repeatedly failed to path to the Slowpoke Well in Azalea Town. Instead of trusting my pathfinder, which was correctly identifying an impassable wall and an off-screen object, I assumed the tool was broken. This wasted several turns. The lesson is reinforced: the tool's analysis of the map data is more reliable than my visual perception. I must trust it.
+*   **Pathfinder Bug (Turn ~27708):** My `pathfinder_v4` tool incorrectly identified my starting tile as impassable due to a map marker. This was a flaw in the tool's logic. I created `pathfinder_v5` to fix this bug and deleted the old tool.
