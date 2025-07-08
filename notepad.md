@@ -25,24 +25,20 @@
 ## II. Puzzle & Hypothesis Log
 
 ### A. Active Puzzle: Pokémon Mansion
-## II. Puzzle & Hypothesis Log
-
-### A. Active Puzzle: Pokémon Mansion
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
 - **Key Mechanic: 'Alternating Doors':** Switches, often hidden in statues, can open and close sets of gates. The effect can be on the same floor or different floors. Sometimes a switch needs to be 'primed' and then the player has to walk to the gate to trigger it to open.
 
 ### B. Solved Puzzles Archive
 - **Pokemon Mansion B1F (Gate Switch):** A switch at (19, 26) toggles two sets of gates using a 'prime and trigger' mechanic. Flip the switch to prime a set, then walk to them to open.
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
-- **Pokemon Mansion 2F (Pressure Plate Mechanic):** Confirmed a 'prime and trigger' mechanic. Walking onto certain tiles (e.g., (11, 10)) acts as a pressure plate, toggling the state of nearby gates (e.g., opening the gates at (10, 5) and (10, 6)). This explains the 'Reachable Barrier' contradiction without needing a hidden passage. My previous 'hidden passage' hypothesis was incorrect.
+- **Pokemon Mansion 2F (Pressure Plate Mechanic):** Confirmed a 'prime and trigger' mechanic. Walking onto certain tiles (e.g., (11, 10)) acts as a pressure plate, toggling the state of nearby gates (e.g., opening the gates at (10, 5) and (10, 6)).
+- **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12). The pressure plate at (11, 4) is a separate mechanism and was not involved.
 
 ## III. Tool & Agent Development Log
 
 ### A. Agent Failures & Lessons Learned
 - **`battle_strategist_agent` (Flawed Knowledge):** The agent repeatedly hallucinated Pokémon types from their nicknames. I have performed a major overhaul of its system prompt to force it to use only the provided type data, forbidding any inference.
-Pokemon Mansion 3F (Alternating Gates - SOLVED): The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12). The pressure plate at (11, 4) is a separate mechanism and was not involved.
 
 ### B. Tool Flaws & Consolidations
 - **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
 - `find_path` (Consolidated): The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
-Pokemon Mansion 3F (Alternating Gates - SOLVED): The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12). The pressure plate at (11, 4) is a separate mechanism and was not involved.
