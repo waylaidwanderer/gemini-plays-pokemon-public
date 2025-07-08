@@ -26,8 +26,14 @@
 
 ### A. Active Hypotheses
 - **Pokemon Mansion 1F 'Reachable Barrier' Contradiction:** The game's source of truth insists multiple closed gates are 'Reachable Barriers', but they appear impassable. All standard interaction attempts have failed. The puzzle_solver_agent has identified this contradiction as the key.
-  - **Agent Hypothesis (Attempt #1):** A non-standard game mechanic allows passage through barriers marked as 'reachable'.
-  - **Test:** Attempt to walk south through the gate at (27, 28).
+  - **Agent Hypothesis (Attempt #1 - Failed):** A non-standard game mechanic allows passage through barriers marked as 'reachable'.
+          - **Test (Failed):** Walk south through gate at (27, 28).
+          - **Test (Failed):** Walk south through gate at (28, 28).
+        - **Agent Hypothesis (Attempt #2 - Failed):** Gates can be opened by direct interaction.
+          - **Test (Failed):** Interact with gate at (27, 28).
+          - **Test (Failed):** Interact with gate at (28, 28).
+        - **Agent Hypothesis (Attempt #3):** A hidden, non-obvious switch is nearby and must be activated to open the gates.
+          - **Test:** Search the area around the player for a hidden mechanism.
 
 ### B. Solved Puzzles
 - **Pokemon Mansion B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
