@@ -47,7 +47,6 @@
 ## IV. Agent & Tool Development Ideas
 *   **`navigation_diagnostician_agent`**: Analyzes a failed pathfinding attempt and the current map data to generate hypotheses for the failure (e.g., off-screen object, hidden one-way ledge). This would help formalize my debugging process when pathfinder fails.
 *   **`stuck_advisor_agent`:** Analyzes current situation (location, goal, failed attempts) and suggests entirely new approaches, like interacting with different NPCs or exploring different areas, to break cognitive fixation. A potential lifesaver for situations like the Union Cave confusion.
-*   **`pathfinder_v4`:** A new version of the pathfinder tool that can optionally ignore specific object IDs during its impassability check, allowing it to path around some NPCs but not others.
 *   **`route_planner_agent`:** Takes a start and end location (e.g., city to city) and suggests the high-level route based on known map connections.
 
 ## V. Learnings & Mistakes
