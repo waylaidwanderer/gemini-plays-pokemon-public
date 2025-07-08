@@ -16,6 +16,7 @@
 *   **Complex Tiles:**
     *   `FLOOR_UP_WALL`: One-way ledge. Enter from below/sides. Cannot exit by moving up.
     *   `WARP_CARPET_LEFT/DOWN/RIGHT`: Activated by pressing the indicated direction while standing on the tile.
+    *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile. It is a one-way interaction; the tile cannot be re-entered from below to trigger the effect again.
 
 ### Untested Tile Types (High Priority)
 * `RAILING`: Goldenrod Dept. Store Roof.
@@ -31,6 +32,7 @@
     *   **EVERSTONE:** Prevents evolution.
     *   **MOOMOO MILK:** Restores 100 HP.
 *   **Haircuts:** Increases a Pokémon's happiness.
+*   **Pokégear Phone Menu:** When the 'Whom do you want to call?' text box is active, you cannot use the D-pad to switch functions. You MUST press 'B' to cancel and return to the main Pokégear screen before you can navigate to the radio.
 
 ## II. Key Items & TMs
 *   **COIN CASE:** Allows playing at the Game Corner.
@@ -41,22 +43,25 @@
 *   **TM45 (ATTRACT):** Infatuates opposite-gender Pokémon.
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
-## II. Current Objectives & Hypotheses
+## III. Current Objectives & Hypotheses
 
 ### Primary Objective: Find Ecruteak City
-*   **Current Location:** Ruins of Alph Outside
-*   **Primary Hypothesis:** The path to Ecruteak City is connected to the Ruins of Alph.
-*   **Alternative Hypothesis:** The Ruins of Alph is a side area. The main path might be elsewhere, possibly an unexplored path on Route 36.
-*   **Plan:** Systematically explore all paths, warps, and unseen areas in Ruins of Alph Outside. If it's a dead end, return to Route 36 to search for other routes.
+*   **Current Location:** Ruins of Alph Inner Chamber
+*   **Primary Hypothesis:** The path to Ecruteak City is connected to the Ruins of Alph, and solving this puzzle is mandatory.
+*   **Alternative Hypothesis 1:** The Ruins of Alph is a side area. The main path might be elsewhere, possibly an unexplored path on Route 36.
+*   **Alternative Hypothesis 2:** I am not trapped in this room. The warp-back was a one-time event, and I can leave via the ladder at (10, 13).
 
 ### Ruins of Alph Inner Chamber Puzzle
-*   **Status:** Abandoned for now. I was stuck in a behavioral loop trying to access the Pokégear radio. Will return later with fresh eyes or new items/abilities.
+*   **Current Hypothesis:** The puzzle is solved by tuning the Pokégear radio to the mysterious transmission.
+*   **Alternative Hypothesis:** The radio is a red herring. The puzzle involves interacting with the statues in a specific sequence, or using an item I don't possess yet.
 
 ### Team Rocket in Goldenrod
 *   **Goal:** Get past the Team Rocket grunt blocking the Radio Tower.
-*   **Status:** On hold. Progress is likely tied to a story event I haven't triggered yet. The Goldenrod Underground was a dead end.
+*   **Status:** On hold. Progress is likely tied to a story event I haven't triggered yet.
 
 ## IV. Agent & Tool Development Ideas
+*   **`menu_navigator_agent`:** An agent to plan the sequence of button presses for complex menu navigation tasks.
+*   **`party_lead_advisor_agent`:** An agent to suggest the best lead Pokémon for a given situation (e.g., escaping wild battles, specific trainer types).
 
 ## V. Misc Info & Reminders
 *   **Bug-Catching Contest:** Tuesday, Thursday, Saturday in National Park.
@@ -65,17 +70,6 @@
 *   **SLOWPOKETAIL:** For sale on Route 32. Purpose unknown.
 
 ## VI. Learnings & Mistakes
+*   **Critical Procedural Failure (Turns ~27050-27128):** I failed to immediately document the solution to the Pokégear phone menu loop (pressing 'B' to cancel). This led to a prolonged behavioral loop and wasted ~50 turns. I must document new mechanics or solutions in the same turn I discover them. Deferring this action is not a valid strategy.
 *   **Major Hallucination (Turn 26485-26490):** Misidentified my location on Route 36, thinking I was in Violet City. I must verify my location after every map transition.
 *   **Critical Hallucination (Turn 26788):** Attempted to use a non-existent tool (`stun_npc`). I must only use tools provided in the game context.
-*   **Procedural Lapses:** I have repeatedly deferred actions instead of acting immediately. This must be corrected. I will act on new information and documentation needs in the same turn they arise.
-### Verified Tile Types (Update)
-*   **Push-Down Trap:** A floor tile that appears to be a warp but only pushes the player down one tile. It is a one-way interaction; the tile cannot be re-entered from below.
-
-### Procedural Reminders
-*   If I am stuck in a repetitive action loop, I must use the `quest_strategist` agent to generate new hypotheses.
-*   Pokégear Navigation: Use 'Right'/'Left' to cycle main functions (Clock, Map, Phone, Radio). Use 'B' to exit sub-menus like the phone contact list.
-
-### Quest Strategist Insights (Turn 26934)
-*   **New Hypothesis (Top Priority):** The Pokégear functions (Clock, Map, Phone, Radio) might be navigated using **vertical inputs (Up/Down)** instead of horizontal ones. This is a completely new approach to test.
-### Procedural Reminders (Update)
-*   **Pokégear Phone Menu:** When the 'Whom do you want to call?' text box is active, you cannot use the D-pad to switch functions. You MUST press 'B' to cancel and return to the main Pokégear screen before you can navigate to the radio.
