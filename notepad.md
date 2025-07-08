@@ -48,16 +48,16 @@
 *   **COIN CASE:** Allows playing at the Game Corner.
 *   **HM01 (CUT):** Clears small trees. Requires Hive Badge.
 *   **SQUIRTBOTTLE:** Used to clear the Sudowoodo on Route 36.
-*   **TM08 (ROCK SMASH):** Attack that may lower DEFENSE. Can shatter small rocks.
-*   **TM12 (SWEET SCENT):** Lures wild POKéMON.
-*   **TM28 (DIG):** Powerful GROUND move. Can escape caves.
-*   **TM45 (ATTRACT):** Infatuates opposite-gender Pokémon.
-*   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
+*   **TM08 (ROCK SMASH)**
+*   **TM12 (SWEET SCENT)**
+*   **TM28 (DIG)**
+*   **TM45 (ATTRACT)**
+*   **TM49 (FURY CUTTER)**
 
-## V. Archive: Solved Puzzles & Procedural Failures
-*   **Skepticism Reminder:** Do not assume all NPCs are trainers. Some provide hints or flavor text. Wasting turns trying to battle a non-battling NPC is inefficient. (e.g., Super Nerd in Violet City).
-*   **Failure Log (Navigation):** Wasted many turns attempting to find Ecruteak City by heading east on Route 36. This path leads to Violet City. The correct path must lie elsewhere. **Lesson: If a path repeatedly fails to lead to the desired destination, I must abandon the hypothesis and explore other routes instead of persisting.**
-*   **Failure Log (Pathfinder v7):** The `explore_unseen` logic in the pathfinder has repeatedly failed due to overly simplistic assumptions. The 'closest unseen' logic failed because it didn't account for pathability. The 'entry point' logic failed because my strategic understanding of the map was flawed. **Lesson: The tool's failure is often a symptom of my own flawed strategy. I must verify my assumptions about the map before blaming the tool.**
+## V. Archive: Solved Puzzles & Failed Hypotheses
+*   **Skepticism Reminder:** Not all NPCs are trainers. Do not waste turns trying to battle non-battling NPCs.
+*   **Failure Log (Navigation):** The path to Ecruteak City is NOT east of Route 36 (leads to Violet City) or west of Route 36 (dead end). **Lesson: If a path repeatedly fails, abandon the hypothesis and explore other routes.**
+*   **Failure Log (Pathfinder v7):** The tool's failures are often a symptom of my own flawed strategy (e.g., pathing into unseen areas). **Lesson: Verify my strategic assumptions before blaming the tool.**
 
 ## VI. Strategic Re-evaluation (Turn 29146)
 *   **Hypothesis Failure:** My `pathfinder_v7` tool failed to find a path to the western, unseen part of Route 36. Error: 'No reachable entry points to any unseen area found.'
