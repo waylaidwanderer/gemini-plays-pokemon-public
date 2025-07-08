@@ -71,3 +71,7 @@
 
 *   **Failure Log (Pathfinder v7):** The `pathfinder_v7` tool has repeatedly failed, especially its `explore_unseen` functionality. The logic has been simplified multiple times. The core issue seems to be correctly identifying all reachable entry points to unseen areas. Will continue to refine and test. The tool also incorrectly identified traversable tiles with background objects as impassable, which has since been corrected.
 *   **Failure Log (Turn ~28872):** The 'robust' `explore_unseen` logic in pathfinder_v7 has failed for a fourth consecutive time, still claiming no unseen areas are reachable. The tool is fundamentally broken for exploration. Abandoning its use for this purpose and reverting to manual exploration.
+*   **Hypothesis Testing To-Do (Route 36):**
+    *   Test `FLOOR_UP_WALL` at (51, 16) by attempting to move down against it.
+    *   Test `WARP_CARPET_LEFT` at (18, 8) and (18, 9) by pressing Left.
+    *   Test `WARP_CARPET_DOWN` at (47, 13) and (48, 13) by pressing Down.
