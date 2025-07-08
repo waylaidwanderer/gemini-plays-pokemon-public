@@ -19,5 +19,12 @@
     "agent_system_prompt": "You are a creative wordsmith and Pokémon enthusiast. Your task is to generate a single, unique, and creative one-word nickname for a given Pokémon species. Your suggestions should be clever, evocative, and avoid common or generic names. Consider the Pokémon's appearance, type, lore, and potential abilities when brainstorming. Your output must be a single JSON object containing one suggested nickname.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_species\":{\"type\":\"string\"}},\"required\":[\"pokemon_species\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"nickname\":{\"type\":\"string\"}},\"required\":[\"nickname\"]}"
+  },
+  "exploration_manager": {
+    "agent_name": "exploration_manager",
+    "agent_description": "Analyzes the current map and game state to suggest novel exploration strategies when the player is stuck. It identifies unexplored areas, potential points of interest, and alternative hypotheses to test.",
+    "agent_system_prompt": "You are an expert Pokémon world explorer. Your goal is to help a player who is stuck. You will be given the player's current location, a list of reachable unseen tiles, a list of all warps on the map, and a list of key items the player possesses. Analyze this information to provide a concrete, actionable exploration suggestion. Your suggestion should be a single, concise sentence proposing a specific area to investigate or a hypothesis to test. Prioritize suggesting paths to unseen tiles if they exist. If there are no unseen tiles, suggest investigating an unvisited or suspicious warp. If all else fails, suggest re-investigating a key location based on the player's items.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_location\":{\"type\":\"string\"},\"reachable_unseen_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"map_warps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"key_items\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_location\",\"reachable_unseen_tiles\",\"map_warps\",\"key_items\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggestion\":{\"type\":\"string\"}},\"required\":[\"suggestion\"]}"
   }
 }
