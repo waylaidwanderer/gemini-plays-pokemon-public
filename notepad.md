@@ -52,7 +52,9 @@
 
 ## V. Archive: Solved Puzzles & Procedural Failures
 *   **Hypothesis Testing To-Do:**
-    
+    *   Test `LEDGE_HOP_LEFT` at Ilex Forest (14, 14) by attempting to move right against it.
+*   **Skepticism Reminder:** Do not assume all NPCs are trainers. Some provide hints or flavor text. Wasting turns trying to battle a non-battling NPC is inefficient.
 *   **Failure Log (Turns ~28533-28564):** Wasted significant time attempting to buy Repels at Violet City Mart based on an unverified assumption. **Lesson: Verify information before committing to a multi-step plan. A bigger city's Department Store is a more reliable source for a wider variety of items.**
 *   **Failure Log (Turns ~28488-28532):** Failed to use REPELs, leading to numerous wasteful encounters on Route 32. **Lesson: Verify consumable inventory before long trips.**
 *   **Failure Log (Turns ~28680-28689):** Got stuck in a repetitive loop of running from wild Pokémon in Union Cave instead of making progress. **Lesson: If a strategy (like brute-force running) fails repeatedly, change tactics. Engage with other elements on the map (like trainers) to break the loop.**
+*   **Failure Log (Turns ~28701-28705):** Got stuck in a dialogue loop with a non-battling trainer in Union Cave. **Lesson: If dialogue repeats without initiating a battle, the NPC is not a trainer. Correct map markers and move on.**
