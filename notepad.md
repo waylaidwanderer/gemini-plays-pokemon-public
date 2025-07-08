@@ -31,7 +31,7 @@
 ### B. Solved Puzzles Archive
 - **Pokemon Mansion B1F (Gate Switch):** A switch at (19, 26) toggles two sets of gates using a 'prime and trigger' mechanic. Flip the switch to prime a set, then walk to them to open.
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
-- **Pokemon Mansion 2F (Pressure Plate Mechanic):** Confirmed a 'prime and trigger' mechanic. Walking onto certain tiles (e.g., (11, 10)) acts as a pressure plate, toggling the state of nearby gates (e.g., opening the gates at (10, 5) and (10, 6)).
+- **Pokemon Mansion 2F (Puzzle):** Contains a switch at (3, 12) and a pressure plate at (11, 10). Their exact function and interaction with the gates at (10, 5-6) is unconfirmed.
 - **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12). The pressure plate at (11, 4) is a separate mechanism and was not involved.
 
 ## III. Tool & Agent Development Log
