@@ -46,7 +46,8 @@
 *   **TM49 (FURY CUTTER):** Gets stronger with each consecutive hit.
 
 ## IV. Future Development Ideas
-*   **Auto-Travel Agent/Tool:** Create a system to automate travel through high-encounter areas. It would handle running from battles and re-calculating paths automatically to streamline long journeys.
+*   **Auto-Travel Tool:** Create a tool to automate travel through high-encounter areas. It would take a destination coordinate, call the pathfinder, and then execute the path. If interrupted by a wild battle, it would automatically select 'RUN' and then re-call the pathfinder from the new position to continue the journey. This would streamline long trips significantly.
+*   **Exploration Manager Agent:** An agent to consult when stuck. It would analyze the current location, available paths, and key items to suggest novel exploration strategies or alternative hypotheses to test, preventing getting stuck in loops.
 *   **Phone Call Summarizer Agent:** An agent to parse phone call text and extract key information (e.g., trainer name, location, request) to avoid reading through lengthy dialogues.
 
 ## V. Archive: Solved Puzzles & Procedural Failures
@@ -54,10 +55,4 @@
     
 *   **Failure Log (Turns ~28533-28564):** Wasted significant time attempting to buy Repels at Violet City Mart based on an unverified assumption. **Lesson: Verify information before committing to a multi-step plan. A bigger city's Department Store is a more reliable source for a wider variety of items.**
 *   **Failure Log (Turns ~28488-28532):** Failed to use REPELs, leading to numerous wasteful encounters on Route 32. **Lesson: Verify consumable inventory before long trips.**
-
-## VI. Consumable Item Tracker
-*   **REPELs:** 0
-*   **ESCAPE ROPEs:** 0
-
-## VII. Strategic Planning Notes
-*   **Current Plan:** Travel to the Goldenrod Department Store to purchase REPELs. This is the most reliable location for a wide variety of items.
+*   **Failure Log (Turns ~28680-28689):** Got stuck in a repetitive loop of running from wild Pokémon in Union Cave instead of making progress. **Lesson: If a strategy (like brute-force running) fails repeatedly, change tactics. Engage with other elements on the map (like trainers) to break the loop.**
