@@ -42,7 +42,7 @@
 
 ### Primary Objective: Defeat the Azalea Town Gym Leader
 *   **Current Location:** Azalea Town
-*   **Hypothesis Chain:** Investigate Team Rocket in Slowpoke Well -> Unlock Azalea Gym -> Defeat Gym Leader.
+*   **Hypothesis Chain:** All leads (Kurt, apprentice, wandering NPCs, Slowpoke Well) have been exhausted. My final hypothesis is that a solution may be found by investigating the Azalea Town Mart, the only location not re-checked since the infestation began.
 
 ## IV. Agent & Tool Development Ideas
 *   **`stuck_advisor_agent`:** Analyzes current situation (location, goal, failed attempts) and suggests entirely new approaches, like interacting with different NPCs or exploring different areas, to break cognitive fixation. A potential lifesaver for situations like the Union Cave confusion.
