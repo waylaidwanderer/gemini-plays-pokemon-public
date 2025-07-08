@@ -31,7 +31,7 @@
 - **Pokemon Mansion B1F Dynamic Gates (Solved):** The switch at (19, 26) toggles which set of gates (Western, Northern, or Eastern) is affected by a dynamic trigger.
 
 ### C. Deprecated Hypotheses (Pokemon Mansion 1F)
-- **Walk-Through Gates (Attempt #1 - Failed):** Hypothesized that 'reachable' closed gates could be walked through. This was based on the agent's initial identification of a contradiction.
+- **Walk-Through Gates (Attempt #1 - Failed):** Hypothesized that 'reachable' closed gates could be walked through.
   - **Test (Failed):** Walk south through gate at (27, 28).
   - **Test (Failed):** Walk south through gate at (28, 28).
 - **Direct Gate Interaction (Attempt #2 - Failed):** Hypothesized gates could be opened by direct interaction ('A' button).
@@ -49,16 +49,7 @@
 - **Agent Hypothesis (Attempt #6 - Failed):** A hidden pressure plate on the floor opens the gates.
   - **Test:** Attempt to walk to coordinate (21, 19).
   - **Conclusion:** Pathfinding to the target tile failed, proving it is unreachable from the current location.
-- **Agent Hypothesis (Attempt #6 - Failed):** A hidden pressure plate on the floor opens the gates.
-  - **Test:** Attempt to walk to coordinate (21, 19).
-  - **Conclusion:** Pathfinding to the target tile failed, proving it is unreachable from the current location.
-- **Agent Hypothesis (Attempt #6 - Failed):** A hidden pressure plate on the floor opens the gates.
-  - **Test:** Attempt to walk to coordinate (21, 19).
-  - **Conclusion:** Pathfinding to the target tile failed, proving it is unreachable from the current location.
-- **Advanced Pathfinder Hypothesis (Attempt #1 - Failed):** A simple geometric path exists through impassable tiles.
-  - **Test:** Used `advanced_pathfinder` to plot a course from (28, 27) to (17, 8).
-  - **Conclusion:** The tool found a path, but physical movement was blocked at (28, 19), proving the path is not simply walkable.
-- **Agent Hypothesis (Attempt #7 - Failed):** The 'Mansion Switch' at (3,6) is the trigger. The game's data indicates it is reachable despite the physical distance, suggesting it's the intended next step.
+- **Agent Hypothesis (Attempt #7 - Failed):** The 'Mansion Switch' at (3,6) is the trigger.
   - **Test:** Attempt to pathfind to the switch at (3,6).
   - **Conclusion:** Pathfinding to the target tile failed, proving it is unreachable from the current location via standard pathing.
 - **Agent Hypothesis (Attempt #8):** The map data is flawed and a 'fake wall' or secret passage exists.
