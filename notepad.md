@@ -48,7 +48,6 @@
 *   **`stuck_advisor_agent`:** Analyzes current situation (location, goal, failed attempts) and suggests entirely new approaches, like interacting with different NPCs or exploring different areas, to break cognitive fixation. A potential lifesaver for situations like the Union Cave confusion.
 *   **`route_planner_agent`:** Takes a start and end location (e.g., city to city) and suggests the high-level route based on known map connections.
 
-## V. Learnings & Mistakes
 *   **Critical Procedural Failure (Turns ~27050-27128):** I failed to immediately document the solution to the Pokégear phone menu loop (pressing 'B' to cancel). This led to a prolonged behavioral loop and wasted ~50 turns.
 *   **CRITICAL BEHAVIORAL FAILURE (Turns ~27152-27235):** I entered a severe, prolonged behavioral loop by repeatedly failing to navigate the Pokégear menu. The correct procedure was documented in my notepad, but I failed to consult and follow it. I created the `menu_navigator_agent` to automate this task and prevent recurrence.
 *   **Critical Pathing Failure (Turn ~27329):** My pathfinder tool did not account for NPCs being impassable, causing a failed move. I upgraded the tool to `pathfinder_v3` to automatically detect and route around all objects on the map.
