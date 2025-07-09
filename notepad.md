@@ -1,7 +1,5 @@
 # Gem's Pokémon Crystal Notepad
 
-# Gem's Pokémon Crystal Notepad
-
 ## I. Strategic Plan
 *   **Primary Goal: Find and defeat the Ecruteak City Gym Leader.**
     *   **Status:** Morty is back in the Ecruteak Gym. I am currently inside, ready to challenge him.
@@ -31,9 +29,10 @@
 *   **Complex Tiles:**
     *   `WARP_CARPET_LEFT/RIGHT/DOWN`: Activated by pressing the indicated direction while standing on the tile.
     *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile.
+    *   `PIT`: A hole in the floor that acts as a warp. The destination seems fixed. Stepping on it triggers the warp.
 
 ### Unverified Tile Types & Mechanics
-*   **PIT:** A hole in the floor that appeared after the rival battle in the Burned Tower. It is the correct path to the basement, but its exact mechanics (one-way drop vs. two-way) are unconfirmed.
+*   None at this time.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -57,7 +56,11 @@
 *   **TM45 (ATTRACT)**
 *   **TM49 (FURY CUTTER)**
 
-## IV. Untested Hypotheses & Puzzle Solutions
+## IV. Puzzle Solutions
+*   **Ecruteak Gym Maze:**
+    *   **Hypothesis:** The gym contains an invisible path. Stepping off the path or onto specific `PIT` tiles warps the player back to the start.
+    *   **Observation:** The path appears to change or reveal itself after defeating trainers or interacting with specific tiles. The sequence of movements matters.
+    *   **Status:** Actively mapping the safe path and warp destinations.
 *   **Goldenrod Dept. Store Basement Puzzle:**
     *   **Status:** Abandoned. This is a sequential puzzle based on NPC interaction. Interacting with all four NPCs in a specific order is required to move the boxes. However, the visual changes are misleading, and the path to the items remains blocked in the collision data. The puzzle appears unsolvable at this time and may require an external trigger or key item.
 *   **Radio Tower Progression:**
