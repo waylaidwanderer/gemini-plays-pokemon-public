@@ -31,8 +31,11 @@
 
 ### A. Primary Hypothesis: The Secret Key
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
-- **Current Hypothesis (Attempt #1):** The key is located in the Power Plant on Route 10.
-- **Test Plan:** Travel to the Power Plant and explore it thoroughly.
+- **Current Hypothesis (Attempt #2):** The key is located somewhere on Cinnabar Island, and I have previously missed a clue or trigger event.
+- **Test Plan:** Systematically re-explore Cinnabar Island, including the Pokémon Mansion and Cinnabar Lab, interacting with all objects and NPCs again.
+
+### B. Archive: Solved Puzzles & Disproven Hypotheses
+- **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
 
 ### B. Paused Puzzle: Route 9 Trainer (Cool Trainer M2)
 - **Objective:** Trigger battle with Cool Trainer M2 at (32, 8).
