@@ -61,8 +61,6 @@
 ## VI. Future Agent & Tool Ideas
 - **Inventory Advisor Agent:** An agent that analyzes my inventory and Pokémon to suggest optimal TM usage or stat-booster allocation for long-term team planning.
 
-## VII. Untested Assumptions
-- **Assumption: The Secret Key is on Cinnabar Island.**
-  - **Test:** Thoroughly re-explore the Pokémon Mansion and Cinnabar Lab, interacting with every object and NPC. If the key is not found, I will conclude it is located elsewhere.
-  - **Contingency:** If the key is not on Cinnabar, I will use my `stuck_situation_advisor_agent` to brainstorm new locations to search based on my overall game progress.
+## IV. Archive: Solved Puzzles & Disproven Hypotheses
+- **Secret Key (Cinnabar Island - DISPROVEN):** After a thorough search of the Pokémon Mansion and Cinnabar Lab, I have concluded the key is not on the island.
 - **Cinnabar Gym (Bypass - CONFIRMED):** The scripted event at the gym door (19, 5) can be bypassed by using SURF from the eastern coast to navigate to the western side of the island.
