@@ -2,10 +2,10 @@
 
 ## I. Strategic Plan
 *   **Primary Goal: Find and defeat the Ecruteak City Gym Leader.**
-    *   **Status:** Currently inside the Burned Tower. Morty is likely at the Ecruteak Gym now that the legendary beast event is over.
-*   **Secondary Goal: Systematically explore and mark every warp in the Burned Tower.**
-    *   **Status:** Partially complete. I need to investigate the remaining unmarked warps on 1F and B1F. Currently paused to acquire Repels.
-*   **Tertiary Goal: Investigate the mystery of the Lake of Rage & the legendary beasts.**
+    *   **Status:** Currently in Goldenrod City to buy Repels. I believe Morty has returned to the Ecruteak Gym after the legendary beast event in the Burned Tower.
+*   **Secondary Goal: Acquire Repels to explore the Burned Tower safely.**
+    *   **Status:** In progress. Currently in Goldenrod City to purchase Repels.
+*   **Tertiary Goal: Investigate the mystery of the legendary beasts.**
     *   **Status:** Witnessed the awakening of Raikou, Entei, and Suicune. Eusine is also tracking them.
 
 ## II. Game Systems & Mechanics
@@ -31,11 +31,7 @@
     *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile.
 
 ### Unverified Tile Types & Mechanics
-*   **PIT:** A hole in the floor that appeared after the rival battle. It is the correct path to the basement, but its exact mechanics (one-way drop vs. two-way) are unconfirmed.
-*   **Floor Holes (Burned Tower):** These do not function as simple fall-through warps. Stepping on the hole at (14, 14) did not consistently cause a fall (Attempt 1: wild battle, Attempt 2: moved to (14, 15)). The western floor holes at (4,14) and (5,14) also seem to trigger a cutscene and reset position rather than leading to a new area.
-*   **Wall-Warps (Burned Tower):** The activation method for these is unknown.
-    *   **Failed Hypothesis 1:** Moving into the wall-warp tile does not work.
-    *   **Failed Hypothesis 2:** Pressing the directional button towards the warp from an adjacent floor tile does not work.
+*   **PIT:** A hole in the floor that appeared after the rival battle in the Burned Tower. It is the correct path to the basement, but its exact mechanics (one-way drop vs. two-way) are unconfirmed.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -59,12 +55,8 @@
 *   **TM45 (ATTRACT)**
 *   **TM49 (FURY CUTTER)**
 
-## IV. Archive: Solved Puzzles & Failed Hypotheses
-*   **Solved (Radio Tower Access):** The Plain Badge does NOT grant access to the upper floors.
-*   **Solved (Burned Tower Basement Access):** The central `PIT` tile is the correct path to the basement after the rival battle.
-
-## V. Untested Hypotheses
+## IV. Untested Hypotheses
 *   **Morty's Location:**
     *   **Hypothesis:** Morty has returned to the Ecruteak Gym.
-    *   **Alternative:** Morty is still in the Burned Tower or has moved to the Tin Tower.
-    *   **Test:** After exploring the Burned Tower, I will go to the Ecruteak Gym. If he's not there, I will check the Tin Tower entrance again.
+    *   **Alternative:** Morty is not in the gym and is somewhere else in Ecruteak City, or has left the city entirely.
+    *   **Test:** After acquiring Repels, I will return to Ecruteak City and check the Gym. If he is not there, I will explore the city again, talk to NPCs for new information, and check the Tin Tower entrance.
