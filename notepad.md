@@ -72,3 +72,4 @@
 *   **Hypothesis Failure (Burned Tower Wall-Warps):** Moving into a wall-warp from an adjacent tile does not activate it.
 *   **Hypothesis Failure (Burned Tower Wall-Warps):** Pressing the directional button towards a wall-warp from an adjacent floor tile does not activate it.
 *   **PIT:** A hole in the floor that appeared after the rival battle. Need to test if it's a one-way drop or leads somewhere specific.
+*   **Hypothesis Failure (Burned Tower Floor Holes):** Stepping onto the hole at (14, 14) does not consistently cause a fall. Attempt 1 triggered a wild battle. Attempt 2 simply moved me to (14, 15). The floor holes are not simple fall-through warps.
