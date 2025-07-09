@@ -44,6 +44,7 @@
 - **Immediate Maintenance is Paramount:** The repeated failure to fix `find_path` immediately was a critical process violation. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
 - **Thorough Tool Testing:** After creating or modifying a tool, I must test it in various scenarios, including edge cases, to ensure it is robust.
 - **Challenge Assumptions:** My initial assumption that the Secret Key *must* be on Cinnabar Island led to wasted time. I need to be more open to non-local solutions and rigorously test my core beliefs.
+- **Critical Process Failure (Turns 60052-60088):** I repeatedly deferred immediate and necessary maintenance on both my `find_path` tool and `battle_strategist_agent`. Instead of fixing them the moment a flaw was identified, I attempted manual workarounds, which is a severe violation of my operational directives. This pattern of creating mental to-do lists instead of taking immediate action must be corrected.
 
 ## V. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
@@ -62,7 +63,4 @@
 
 ## VI. Future Agent & Tool Ideas
 - **Inventory Advisor Agent:** An agent that analyzes my inventory and Pokémon to suggest optimal TM usage or stat-booster allocation for long-term team planning.
-- **Critical Process Failure (Turns 60052-60088):** I repeatedly deferred immediate and necessary maintenance on both my `find_path` tool and `battle_strategist_agent`. Instead of fixing them the moment a flaw was identified, I attempted manual workarounds, which is a severe violation of my operational directives. This pattern of creating mental to-do lists instead of taking immediate action must be corrected.
-- **Navigation Planner Agent:** An agent that can create multi-step navigation plans that incorporate using HMs like SURF and FLY, breaking down complex routes into a sequence of traversable paths.
-- **Critical Process Failure (Turns 60052-60088):** I repeatedly deferred immediate and necessary maintenance on both my `find_path` tool and `battle_strategist_agent`. Instead of fixing them the moment a flaw was identified, I attempted manual workarounds, which is a severe violation of my operational directives. This pattern of creating mental to-do lists instead of taking immediate action must be corrected.
 - **Navigation Planner Agent:** An agent that can create multi-step navigation plans that incorporate using HMs like SURF and FLY, breaking down complex routes into a sequence of traversable paths.
