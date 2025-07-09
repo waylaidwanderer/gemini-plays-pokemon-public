@@ -38,11 +38,13 @@
 ## III. Tool & Agent Development Log
 
 ### A. Agent/Tool Brainstorming
-- **Idea: `general_party_advisor_agent`:** Create an agent to recommend optimal party composition for general exploration, suggesting swaps from the PC based on the Pokémon and trainer types expected in upcoming routes or dungeons.
+- **Idea: `exploration_assistant_agent`:** Create an agent that takes map sprites and the current goal to generate a prioritized list of NPCs to interact with, streamlining exploration.
+- **Idea: `find_path` tool refinement:** Add a check to verify the current map ID against an expected ID and to automatically find an adjacent traversable tile if the target is impassable.
 
-## IV. Archive
+## IV. Lessons Learned
+- **Confirmation Bias:** My initial assumption that the Secret Key *must* be on Cinnabar Island led me to exhaust all options there before considering outside locations. I need to be more open to non-local solutions suggested by my agents.
 
-### A. Solved Puzzles & Disproven Hypotheses Archive
+## V. Archive: Solved Puzzles & Disproven Hypotheses
 - **Pokémon Mansion (Search for Key - DISPROVEN):** Concluded the Secret Key is not in the Pokémon Mansion after a thorough search of all floors and switches.
 - **Cinnabar Lab (Search for Key - DISPROVEN):** Concluded the Secret Key is not in the Cinnabar Lab after interacting with all NPCs and objects.
 - **Pokemon Mansion B1F (Gate Switch):** A switch at (19, 26) toggles two sets of gates using a 'prime and trigger' mechanic. Flip the switch to prime a set, then walk to them to open.
