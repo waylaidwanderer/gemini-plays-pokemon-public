@@ -2,11 +2,11 @@
 
 ## I. Strategic Plan
 *   **Primary Goal: Find and defeat the Ecruteak City Gym Leader.**
-    *   **Status:** Currently in Goldenrod City to buy Repels. I believe Morty has returned to the Ecruteak Gym after the legendary beast event in the Burned Tower.
+    *   **Status:** Morty is likely back in the Ecruteak Gym after the Burned Tower event. Need to acquire Repels before returning.
 *   **Secondary Goal: Acquire Repels to explore the Burned Tower safely.**
-    *   **Status:** In progress. Currently in Goldenrod City to purchase Repels.
+    *   **Status:** The Goldenrod Dept. Store does not sell Repels. New plan is to find a standard Poké Mart in Goldenrod City.
 *   **Tertiary Goal: Investigate the mystery of the legendary beasts.**
-    *   **Status:** Witnessed the awakening of Raikou, Entei, and Suicune. Eusine is also tracking them.
+    *   **Status:** Witnessed their awakening. Eusine is also tracking them.
 
 ## II. Game Systems & Mechanics
 
@@ -59,7 +59,8 @@
 *   **Morty's Location:**
     *   **Hypothesis:** Morty has returned to the Ecruteak Gym.
     *   **Alternative:** Morty is not in the gym and is somewhere else in Ecruteak City, or has left the city entirely.
-    *   **Test:** After acquiring Repels, I will return to Ecruteak City and check the Gym. If he is not there, I will explore the city again, talk to NPCs for new information, and check the Tin Tower entrance.
-*   **Goldenrod Dept. Store 2F:** Clerks do not sell Repels. Confirmed by checking both vendors.
-*   **Goldenrod Dept. Store 4F:** Clerk does not sell Repels. Sells stat-boosting items and TMs.
-*   **Goldenrod Dept. Store 5F:** Clerk sells TMs, not Repels.
+    *   **Test:** After acquiring Repels, I will return to Ecruteak City and check the Gym.
+*   **Repel Location:**
+    *   **Hypothesis 1 (Falsified):** Repels are sold in the Goldenrod Dept. Store. (Result: False. Checked all 6 floors).
+    *   **Hypothesis 2:** Repels are sold in a standard Poké Mart in Goldenrod City.
+    *   **Test:** Find the standard Mart in Goldenrod City and check its inventory.
