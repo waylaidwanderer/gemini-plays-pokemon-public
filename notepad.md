@@ -63,5 +63,6 @@
 - **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
 
 ## VI. Future Agent & Tool Ideas
+- **Agent Usage Reminder:** I need to make a conscious effort to use my `team_composition_advisor_agent`, `stuck_situation_advisor_agent`, and `exploration_assistant_agent` more frequently for strategic planning.
 - **Inventory Advisor Agent:** An agent that analyzes my inventory and Pokémon to suggest optimal TM usage or stat-booster allocation for long-term team planning.
 - **Navigation Planner Agent:** An agent that can create multi-step navigation plans that incorporate using HMs like SURF and FLY, breaking down complex routes into a sequence of traversable paths.
