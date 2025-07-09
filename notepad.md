@@ -64,3 +64,4 @@
     *   **Known Hints:**
         - A Teacher mentioned that lullabies on the radio can make Pokémon sleep.
         - Buena mentioned her "PASSWORD SHOW".
+*   **Goldenrod Underground Exploration:** Confirmed that the underground area is not related to obtaining the Radio Card. The path is blocked by non-interactive or looping NPCs. This area is a dead end for the current primary goal.
