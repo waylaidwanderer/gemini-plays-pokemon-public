@@ -29,9 +29,6 @@
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
 - **Hypothesis:** After exhausting all possibilities in the Pokémon Mansion and on Route 20, the Secret Key must be located within the Seafoam Islands, accessed via the warp at (59, 10) on Route 20.
 
-### B. Active Hypothesis Testing Notes
-- **Pokémon Mansion (Confirmation Bias Check):** My focus has been on switches. I need to test the assumption that this is the *only* mechanic. Next exploration will involve interacting with all furniture and checking for hidden items on the ground, not just flipping switches.
-
 ## III. Tool & Agent Development Log
 
 ### A. Agent/Tool Brainstorming
