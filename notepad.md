@@ -62,3 +62,4 @@
     *   **Test:** After acquiring Repels, I will return to Ecruteak City and check the Gym. If he is not there, I will explore the city again, talk to NPCs for new information, and check the Tin Tower entrance.
 *   **Goldenrod Dept. Store 2F:** Clerks do not sell Repels. Confirmed by checking both vendors.
 *   **Goldenrod Dept. Store 4F:** Clerk does not sell Repels. Sells stat-boosting items and TMs.
+*   **Goldenrod Dept. Store 5F:** Clerk sells TMs, not Repels.
