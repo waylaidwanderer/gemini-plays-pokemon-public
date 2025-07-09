@@ -29,10 +29,10 @@
 
 ## II. Current Hypotheses & Puzzles
 
-### A. Primary Hypothesis: The Secret Key
-- **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
-- **Current Hypothesis (Attempt #2):** The key is located somewhere on Cinnabar Island, and I have previously missed a clue or trigger event.
-- **Test Plan:** Systematically re-explore Cinnabar Island, including the Pokémon Mansion and Cinnabar Lab, interacting with all objects and NPCs again.
+### A. Primary Hypothesis: Exploring Route 20
+- **Objective:** Fully explore Route 20 to find clues or items.
+- **Current Hypothesis:** The Secret Key for Cinnabar Gym is not on Cinnabar Island. Exploring other areas, like Route 20 and the Power Plant, is the next logical step.
+- **Test Plan:** Systematically explore Route 20, battle all trainers, and investigate the Seafoam Islands.
 
 ## III. Tool & Agent Development Log
 
