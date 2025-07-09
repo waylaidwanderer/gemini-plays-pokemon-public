@@ -54,13 +54,6 @@
 
 ## IV. Puzzle Solutions
 *   **Ecruteak Gym Maze:**
-    *   **Primary Hypothesis:** The gym contains an invisible path. Stepping off the path onto `PIT` tiles warps the player back to the start. The safe path is revealed or changed by following a specific sequence of steps, which also causes new trainers to appear.
-    *   **Evidence:** I successfully bypassed a known warp at (4, 14) by following a long, specific path. New trainers (Granny, Sage) have appeared after I reached new areas.
-    *   **Alternative Hypothesis:** The warps could be directional (i.e., their destination depends on the direction from which you enter the tile).
-    *   **Test Plan for Alternative Hypothesis:** Find a safe tile adjacent to a known warp `PIT`. Step onto the `PIT` from one direction (e.g., 'Up'). Reset. Approach the same `PIT` from a different direction (e.g., 'Left'). If the destination is different, the hypothesis is confirmed. If it's the same, it's likely false.
-    *   **Confirmed Failure:** Attempting to battle the final Granny at (7, 5) results in a dialogue loop. Pressing 'B' exits the loop. This is not the way forward.
-**New Strategy:** Systematically test every single unmarked `PIT` warp, marking its source and destination, to build a complete map of the maze's connections. The system warning about unmarked warps confirms this is the correct approach.
-    *   **Untested Assumption:** All `PIT` tiles lead back to the start at (4, 14).
-    *   **Test for Assumption:** The next time I step on an unmarked `PIT`, I must verify the landing coordinates. If it's not (4, 14), the gym is more complex than I thought.
+    *   **Status: SOLVED.** Defeated Gym Leader Morty. The puzzle involved an invisible path.
 *   **FOG BADGE** (Allows use of SURF outside battle, makes Pokémon up to L50 obey)
-*   **TM30 (SHADOW BALL)**
+*   **TM30 (SHADOW BALL)** (Causes damage and may reduce SPCL.DEF.)
