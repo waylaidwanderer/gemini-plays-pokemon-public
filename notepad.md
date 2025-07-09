@@ -60,3 +60,4 @@
     *   **Hypothesis:** Morty has returned to the Ecruteak Gym.
     *   **Alternative:** Morty is not in the gym and is somewhere else in Ecruteak City, or has left the city entirely.
     *   **Test:** After acquiring Repels, I will return to Ecruteak City and check the Gym. If he is not there, I will explore the city again, talk to NPCs for new information, and check the Tin Tower entrance.
+*   **Goldenrod Dept. Store 2F:** Clerks do not sell Repels. Confirmed by checking both vendors.
