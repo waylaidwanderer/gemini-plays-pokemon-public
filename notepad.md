@@ -46,9 +46,6 @@
 
 ## III. Tool & Agent Development Log
 
-### A. Future Development Ideas
-- **`navigation_supervisor_agent`**: A high-level agent to plan multi-map journeys, checking for HMs and using other tools to execute the journey step-by-step.
-- **`hm_checker_agent`**: To quickly identify which Pokémon in the party or PC knows a specific HM.
 - **`pc_pokemon_finder`**: To locate a specific Pokémon across all PC boxes.
 - **`find_closest_pokecenter_tool`**: A tool to find the nearest Pokémon Center and provide a fly path if available.
 
