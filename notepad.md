@@ -10,7 +10,6 @@
 - **Hole Tiles:** Warp tiles that lead to a lower map area. Often function as one-way drops.
 - **Scripted Event Tiles:** Some tiles trigger events. The tile in front of the Cinnabar Gym door (19, 5) pushes the player back and displays a 'locked' message. The tile at (4, 5) in the Trashed House is an invisible wall.
 - **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls.
-- **Agent Usage Reminder:** I need to make a conscious effort to use my `team_composition_advisor_agent`, `stuck_situation_advisor_agent`, and `exploration_assistant_agent` more frequently for strategic planning.
 - **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
 
@@ -63,6 +62,5 @@
 - **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
 
 ## VI. Future Agent & Tool Ideas
-- **Agent Usage Reminder:** I need to make a conscious effort to use my `team_composition_advisor_agent`, `stuck_situation_advisor_agent`, and `exploration_assistant_agent` more frequently for strategic planning.
 - **Inventory Advisor Agent:** An agent that analyzes my inventory and Pokémon to suggest optimal TM usage or stat-booster allocation for long-term team planning.
 - **Navigation Planner Agent:** An agent that can create multi-step navigation plans that incorporate using HMs like SURF and FLY, breaking down complex routes into a sequence of traversable paths.
