@@ -8,7 +8,7 @@
 - **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
 - **Hole Tiles:** Warp tiles that lead to a lower map area. Often function as one-way drops.
-- **Scripted Event Tiles:** Some tiles trigger events. The tile in front of the Cinnabar Gym door (19, 5) pushes the player back and displays a 'locked' message.
+- **Scripted Event Tiles:** Some tiles trigger events. The tile in front of the Cinnabar Gym door (19, 5) pushes the player back and displays a 'locked' message. The tile at (4, 5) in the Trashed House is an invisible wall.
 - **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls. These can be found using the `advanced_pathfinder` tool.
 - **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
@@ -27,29 +27,39 @@
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center.
 - **Warp Reuse:** To reuse a warp you just came through, you must step off the warp tile and then back on to trigger it.
 
-## II. Active Puzzles & Hypotheses
+## II. Current Hypotheses & Puzzles
 
-### A. Active Puzzle: The Secret Key
+### A. Primary Hypothesis: The Secret Key
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
-- **Current Hypothesis:** The key is located in the Power Plant on Route 10.
+- **Current Hypothesis (Attempt #1):** The key is located in the Power Plant on Route 10.
 - **Test Plan:** Travel to the Power Plant and explore it thoroughly.
+
+### B. Paused Puzzle: Route 9 Trainer (Cool Trainer M2)
+- **Objective:** Trigger battle with Cool Trainer M2 at (32, 8).
+- **Status:** Paused after 4 failed hypotheses. The trigger is not obvious.
+- **Failed Hypotheses Log:**
+  - **#1:** Approaching from adjacent tiles (32, 7) or (31, 8). *Result: Blocked, no battle.*
+  - **#2:** Jumping down the ledge at (33, 6). *Result: No battle triggered.*
+  - **#3:** Trigger is in line of sight at (33, 8). *Result: No battle triggered.*
+  - **#4:** Trigger is further east in line of sight (34, 8) and (35, 8). *Result: No battle triggered.*
+- **Conclusion:** This trainer is currently un-battleable. Pivoting to other objectives is more efficient.
 
 ## III. Tool & Agent Development Log
 
-### A. Tool/Agent Ideas
-- **`navigation_supervisor_agent`**: A high-level agent that could plan multi-map journeys. It would analyze the goal, check for required HMs, check the party, and use other tools like `find_path` to execute the journey step-by-step, including PC stops if necessary.
-- **`hm_checker_agent`:** To quickly identify which Pokémon in the party or PC knows a specific HM.
-- **`pc_pokemon_finder`:** To locate a specific Pokémon across all PC boxes.
-- **`find_closest_pokecenter`:** A tool to find the nearest Pokémon Center and provide a fly path if available.
+### A. Future Development Ideas
+- **`navigation_supervisor_agent`**: A high-level agent to plan multi-map journeys, checking for HMs and using other tools to execute the journey step-by-step.
+- **`hm_checker_agent`**: To quickly identify which Pokémon in the party or PC knows a specific HM.
+- **`pc_pokemon_finder`**: To locate a specific Pokémon across all PC boxes.
+- **`find_closest_pokecenter_tool`**: A tool to find the nearest Pokémon Center and provide a fly path if available.
 
 ### B. Tool Maintenance Log
-- **`find_path` tool failures (Turns 59503, 59513, 59519, 59529):** The tool has repeatedly failed. The root cause is a flawed script. The initial issue was that it did not automatically find a path to an adjacent tile when the destination was impassable. After fixing that, it failed again because its list of traversable tiles was incomplete; it did not recognize `cuttable` tiles.
-- **`find_path` tool fix (Turn 59530):** The tool's script is being updated to include `cuttable` in its list of walkable tiles. This should resolve the current issue.
+- **`find_path` tool failures (Turns 59503 - 59576):** The tool has repeatedly failed due to a flawed script. The issues included: not automatically finding adjacent paths to impassable tiles, not recognizing `cuttable` tiles, and not handling one-way `ledge` traversal. These issues were fixed through multiple, delayed revisions.
+- **`exploration_assistant_agent` failures (Turns 59551, 59554):** The agent initially used flawed fuzzy logic to match markers to sprites, resulting in useless plans. It was refined to require exact coordinate matching.
 
-## IV. Lessons Learned
-- **Immediate Maintenance:** Tool/agent/notepad maintenance must be performed immediately upon identifying an issue. Deferring these tasks is a critical failure. My repeated failure to fix `find_path` is a prime example of this.
-- **Thorough Tool Testing:** After creating or modifying a tool, I must test it in various scenarios, including edge cases, to ensure it is robust. Simply fixing the immediate bug is not enough.
-- **Confirmation Bias:** My initial assumption that the Secret Key *must* be on Cinnabar Island led me to exhaust all options there before considering outside locations. I need to be more open to non-local solutions suggested by my agents.
+## IV. Lessons Learned & Process Improvement
+- **Immediate Maintenance is Paramount:** The repeated failure to fix `find_path` immediately was a critical process violation. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
+- **Thorough Tool Testing:** After creating or modifying a tool, I must test it in various scenarios, including edge cases, to ensure it is robust.
+- **Challenge Assumptions:** My initial assumption that the Secret Key *must* be on Cinnabar Island led to wasted time. I need to be more open to non-local solutions and rigorously test my core beliefs.
 
 ## V. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Cinnabar Coast - DISPROVEN):** Surfed along the entire coastline of Cinnabar Island and found no hidden paths or items.
@@ -61,11 +71,3 @@
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
 - **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12).
 - **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
-### C. Route 9 Trainer Puzzle (Cool Trainer M2 - Paused)
-- **Objective:** Trigger battle with Cool Trainer M2 at (32, 8).
-- **Status:** Paused. All logical approaches have failed.
-- **Hypothesis 1 (Failed):** Approaching from adjacent tiles (32, 7) or (31, 8). *Result: Blocked, no battle.*
-- **Hypothesis 2 (Failed):** Jumping down the ledge at (33, 6). *Result: No battle triggered.*
-- **Hypothesis 3 (Failed):** Trigger is in line of sight at (33, 8). *Result: No battle triggered.*
-- **Hypothesis 4 (Failed):** Trigger is further east in line of sight (34, 8) and (35, 8). *Result: No battle triggered.*
-- **Conclusion:** This trainer is currently un-battleable. Pivoting to other trainers on the route.
