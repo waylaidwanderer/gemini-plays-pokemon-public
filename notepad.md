@@ -60,3 +60,4 @@
     *   **New Hypothesis:** Progress is likely achieved by interacting with the NPCs (Morty, Eusine) or by finding the correct warp among the many on this floor.
 *   **Hypothesis Failure (Burned Tower Progression):** The floor warp at (7, 15) is not activated by stepping on it, standing on it, or interacting with it. It likely has a special, unknown activation condition.
 *   **Hypothesis Failure (Burned Tower Progression):** The entrance warp at (5, 5) is not activated by stepping on it, standing on it, or interacting with it. It likely has a special, unknown activation condition.
+*   **BREAKABLE_ROCK:** Requires Rock Smash to break.
