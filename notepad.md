@@ -65,4 +65,5 @@
 - **Objective:** Trigger battle with Cool Trainer M2 at (32, 8).
 - **Hypothesis 1 (Failed):** Approaching from adjacent tiles (32, 7) or (31, 8) will trigger the battle. *Result: Blocked, no battle.*
 - **Hypothesis 2 (Failed):** Jumping down the ledge at (33, 6) will trigger the battle. *Result: No battle triggered.*
-- **Hypothesis 3 (Active):** The battle trigger is in the trainer's line of sight at (33, 8). *Test Plan: Move from (33, 7) to (33, 8).*
+- **Hypothesis 3 (Failed):** The battle trigger is in the trainer's line of sight at (33, 8). *Result: No battle triggered.*
+- **Hypothesis 4 (Active):** The battle trigger is further down the trainer's line of sight. *Test Plan: Walk from (33, 8) to (34, 8) and continue east.*
