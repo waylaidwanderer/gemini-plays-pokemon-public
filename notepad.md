@@ -37,14 +37,19 @@
 ## III. Tool & Agent Development Log
 
 ### A. Tool/Agent Ideas
+- **`navigation_supervisor_agent`**: A high-level agent that could plan multi-map journeys. It would analyze the goal, check for required HMs, check the party, and use other tools like `find_path` to execute the journey step-by-step, including PC stops if necessary.
 - **`hm_checker_agent`:** To quickly identify which Pokémon in the party or PC knows a specific HM.
 - **`pc_pokemon_finder`:** To locate a specific Pokémon across all PC boxes.
 - **`find_closest_pokecenter`:** A tool to find the nearest Pokémon Center and provide a fly path if available.
 
+### B. Tool Maintenance Log
+- **`find_path` tool failures (Turns 59503, 59513, 59519, 59529):** The tool has repeatedly failed. The root cause is a flawed script. The initial issue was that it did not automatically find a path to an adjacent tile when the destination was impassable. After fixing that, it failed again because its list of traversable tiles was incomplete; it did not recognize `cuttable` tiles.
+- **`find_path` tool fix (Turn 59530):** The tool's script is being updated to include `cuttable` in its list of walkable tiles. This should resolve the current issue.
+
 ## IV. Lessons Learned
+- **Immediate Maintenance:** Tool/agent/notepad maintenance must be performed immediately upon identifying an issue. Deferring these tasks is a critical failure. My repeated failure to fix `find_path` is a prime example of this.
+- **Thorough Tool Testing:** After creating or modifying a tool, I must test it in various scenarios, including edge cases, to ensure it is robust. Simply fixing the immediate bug is not enough.
 - **Confirmation Bias:** My initial assumption that the Secret Key *must* be on Cinnabar Island led me to exhaust all options there before considering outside locations. I need to be more open to non-local solutions suggested by my agents.
-- **Immediate Maintenance:** Tool/agent/notepad maintenance must be performed immediately upon identifying an issue. Deferring these tasks is a critical failure.
-- **Tool Debugging:** I must be more diligent in debugging my code. Repeatedly submitting the same faulty code is unacceptable.
 
 ## V. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Cinnabar Coast - DISPROVEN):** Surfed along the entire coastline of Cinnabar Island and found no hidden paths or items.
@@ -56,6 +61,3 @@
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
 - **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12).
 - **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
-### B. Tool Maintenance
-- **`find_path` tool failures (Turns 59503, 59513, 59519):** The tool repeatedly failed to find valid paths. The root cause was identified: the tool did not automatically find a path to an adjacent tile when the destination tile itself was impassable (e.g., occupied by an object). It required the `adjacent=true` flag to be set manually.
-- **`find_path` tool fix (Turn 59521):** The tool's script has been updated. It now automatically searches for a path to a traversable adjacent tile if the primary destination is impassable. The `adjacent` flag is kept for cases where explicitly targeting an adjacent tile is desired.
