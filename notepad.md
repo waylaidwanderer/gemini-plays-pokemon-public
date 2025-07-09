@@ -34,8 +34,6 @@
     *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile.
     *   `Interactable Warp (FLOOR)`: Some FLOOR tiles that are also warps must be interacted with by pressing 'A' to trigger an event or text.
 *   **Untested:** `unknown`
-*   **Map-Specific Tiles (EcruteakTinTowerEntrance):**
-    *   `FLOOR`, `WALL`, `LADDER`: Behavior confirmed consistent with previous maps.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable and function as walls.
