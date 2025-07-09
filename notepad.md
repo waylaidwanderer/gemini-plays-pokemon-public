@@ -28,7 +28,7 @@
 
 ### A. Active Puzzle: The Secret Key
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
-- **Current Leading Hypothesis:** The key is located within the Pokémon Mansion.
+- **Current Leading Hypothesis:** The key is located within the Cinnabar Lab.
 - **Test Plan:**
     1. Systematically re-explore every floor (1F, 2F, 3F, B1F).
     2. Interact with every single object (statues, diaries, beds, etc.).
