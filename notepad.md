@@ -66,3 +66,4 @@
 ## VI. Rematch Reminders
 *   Fisher Ralph wants a rematch on Route 32.
 *   **ITEMFINDER:** Detects hidden items on the ground nearby. Does not show the exact spot.
+*   **Hypothesis Failure (Burned Tower):** The holes in the floor on 1F are not simple warps. Standing on them or stepping onto them does not trigger a warp to the basement. (Turn #29798)
