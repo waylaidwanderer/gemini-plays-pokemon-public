@@ -65,14 +65,4 @@
     *   **Hypothesis 2:** Repels are sold in a standard Poké Mart in Goldenrod City.
     *   **Test:** Find the standard Mart in Goldenrod City and check its inventory.
 *   **Goldenrod Dept. Store Basement Puzzle:**
-    *   **Hypothesis 1 (Partially Confirmed):** Looking away from the first Black Belt (ID 6) at (4, 8) will make him move boxes.
-        *   **Test:** Moved out of his line of sight.
-        *   **Conclusion:** He moved some boxes, but the path remained blocked by other obstacles.
-    *   **Hypothesis 2 (Falsified):** Interacting with the Machop (ID 8) at (7, 7) will make it move boxes.
-        *   **Test:** Spoke to the Machop.
-        *   **Conclusion:** It evolved into Machoke, but the path remained blocked (confirmed by pathfinder).
-    *   **Hypothesis 3 (Falsified):** Interacting with the third Black Belt (ID 5) at (9, 10) will solve the puzzle.
-        *   **Test:** Spoke to the Black Belt.
-        *   **Conclusion:** He gave dialogue, but the path remained blocked (confirmed by pathfinder).
-    *   **Hypothesis 4 (Current):** Interacting with the fourth, moving Black Belt (ID 7) is the final step.
-        *   **Test:** Currently en route to interact with him.
+    *   **Status:** Abandoned. Interacting with all four NPCs in the area did not open the path to the items, as confirmed by the pathfinder tool. The visual changes were misleading. Will return later if a key item or event is discovered elsewhere.
