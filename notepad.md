@@ -4,7 +4,7 @@
 *   **Primary Goal: Find and defeat the Ecruteak City Gym Leader.**
     *   **Status:** Morty is likely back in the Ecruteak Gym after the Burned Tower event. Need to acquire Repels before returning.
 *   **Secondary Goal: Acquire Repels to explore the Burned Tower safely.**
-    *   **Status:** The Goldenrod Dept. Store does not sell Repels. New plan is to find a standard Poké Mart in Goldenrod City.
+    *   **Status:** The Goldenrod Dept. Store does not sell Repels. Currently searching Goldenrod City for a standard Poké Mart.
 *   **Tertiary Goal: Investigate the mystery of the legendary beasts.**
     *   **Status:** Witnessed their awakening. Eusine is also tracking them.
 
@@ -16,7 +16,7 @@
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `COUNTER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`.
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`.
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile).
 *   **One-Way Ledges:** 
@@ -55,15 +55,12 @@
 *   **TM45 (ATTRACT)**
 *   **TM49 (FURY CUTTER)**
 
-## IV. Untested Hypotheses
-*   **Morty's Location:**
-    *   **Hypothesis:** Morty has returned to the Ecruteak Gym.
-    *   **Alternative:** Morty is not in the gym and is somewhere else in Ecruteak City, or has left the city entirely.
-    *   **Test:** After acquiring Repels, I will return to Ecruteak City and check the Gym.
-*   **Repel Location:**
-    *   **Hypothesis 1 (Falsified):** Repels are sold in the Goldenrod Dept. Store. (Result: False. Checked all 6 floors).
-    *   **Hypothesis 2:** Repels are sold in a standard Poké Mart in Goldenrod City.
-    *   **Test:** Find the standard Mart in Goldenrod City and check its inventory.
+## IV. Untested Hypotheses & Puzzle Solutions
 *   **Goldenrod Dept. Store Basement Puzzle:**
-    *   **Status:** Abandoned. Interacting with all four NPCs in the area did not open the path to the items, as confirmed by the pathfinder tool. The visual changes were misleading. Will return later if a key item or event is discovered elsewhere.
-*   **Radio Lullabies:** A Teacher in the Radio Tower mentioned that lullabies on the radio can make Pokémon sleep.
+    *   **Status:** Abandoned. This is a sequential puzzle based on NPC interaction. Interacting with all four NPCs in a specific order is required to move the boxes. However, the visual changes are misleading, and the path to the items remains blocked in the collision data. The puzzle appears unsolvable at this time and may require an external trigger or key item.
+*   **Radio Tower Progression:**
+    *   **Hypothesis:** Progression in the Radio Tower is linked to the radio function in the Pokégear, as hinted by multiple NPCs.
+    *   **Current Status:** The radio function is not available in my Pokégear. I must be missing the Radio Card. My current goal is to find this card by exploring the tower and speaking to all NPCs.
+    *   **Known Hints:**
+        - A Teacher mentioned that lullabies on the radio can make Pokémon sleep.
+        - Buena mentioned her "PASSWORD SHOW".
