@@ -2,7 +2,7 @@
 
 ## I. Strategic Plan
 *   **Primary Goal: Find and defeat the Ecruteak City Gym Leader.**
-    *   **Status:** Morty is back in the Ecruteak Gym. I am currently inside, ready to challenge him.
+    *   **Status:** Morty is back in the Ecruteak Gym. I am currently inside, trying to solve the gym's invisible path puzzle to reach him.
 *   **Secondary Goal: Investigate the mystery of the legendary beasts.**
     *   **Status:** Witnessed their awakening in the Burned Tower. Eusine is also tracking them.
 *   **Tertiary Goal: Acquire Repels to explore safely.**
@@ -27,12 +27,8 @@
     * `WATER` (Requires HM03 Surf).
     * `BREAKABLE_ROCK` (Requires Rock Smash).
 *   **Complex Tiles:**
-    *   `WARP_CARPET_LEFT/RIGHT/DOWN`: Activated by pressing the indicated direction while standing on the tile.
-    *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile.
-    *   `PIT`: A hole in the floor that acts as a warp. The destination seems fixed. Stepping on it triggers the warp.
-
-### Unverified Tile Types & Mechanics
-*   None at this time.
+    *   `WARP_CARPET_DOWN`: Activated by pressing 'Down' while standing on the tile.
+    *   `PIT`: A hole in the floor that acts as a warp. Stepping on it triggers the warp.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -58,15 +54,8 @@
 
 ## IV. Puzzle Solutions
 *   **Ecruteak Gym Maze:**
-    *   **Hypothesis:** The gym contains an invisible path. Stepping off the path or onto specific `PIT` tiles warps the player back to the start.
-    *   **Observation:** The path appears to change or reveal itself after defeating trainers or interacting with specific tiles. The sequence of movements matters.
-    *   **Status:** Actively mapping the safe path and warp destinations.
-*   **Goldenrod Dept. Store Basement Puzzle:**
-    *   **Status:** Abandoned. This is a sequential puzzle based on NPC interaction. Interacting with all four NPCs in a specific order is required to move the boxes. However, the visual changes are misleading, and the path to the items remains blocked in the collision data. The puzzle appears unsolvable at this time and may require an external trigger or key item.
-*   **Radio Tower Progression:**
-    *   **Hypothesis:** Progression in the Radio Tower is linked to the radio function in the Pokégear, as hinted by multiple NPCs.
-    *   **Current Status:** The radio function is not available in my Pokégear. I must be missing the Radio Card. My current goal is to find this card by exploring the tower and speaking to all NPCs.
-    *   **Known Hints:**
-        - A Teacher mentioned that lullabies on the radio can make Pokémon sleep.
-        - Buena mentioned her "PASSWORD SHOW".
-*   **Goldenrod Underground Exploration:** Confirmed that the underground area is not related to obtaining the Radio Card. Both northern and southern sections have been fully explored. All paths are blocked by non-interactive or looping NPCs. This area is a confirmed dead end for the Radio Card quest.
+    *   **Primary Hypothesis:** The gym contains an invisible path. Stepping off the path onto `PIT` tiles warps the player back to the start. The safe path is revealed or changed by following a specific sequence of steps, which also causes new trainers to appear.
+    *   **Evidence:** I successfully bypassed a known warp at (4, 14) by following a long, specific path. New trainers (Granny, Sage) have appeared after I reached new areas.
+    *   **Alternative Hypothesis:** The warps could be directional (i.e., their destination depends on the direction from which you enter the tile).
+    *   **Test Plan for Alternative Hypothesis:** Find a safe tile adjacent to a known warp `PIT`. Step onto the `PIT` from one direction (e.g., 'Up'). Reset. Approach the same `PIT` from a different direction (e.g., 'Left'). If the destination is different, the hypothesis is confirmed. If it's the same, it's likely false.
+    *   **Current Strategy:** Systematically test every single unmarked `PIT` warp, marking its source and destination, to build a complete map of the maze's connections.
