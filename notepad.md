@@ -68,5 +68,3 @@
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
 - **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12).
 - **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
-- **`navigation_supervisor_agent`**: A high-level agent to plan multi-map journeys, checking for HMs and using other tools to execute the journey step-by-step.
-- **`hm_checker_agent`**: To quickly identify which Pokémon in the party or PC knows a specific HM.
