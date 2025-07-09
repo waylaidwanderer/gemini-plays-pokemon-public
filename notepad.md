@@ -58,3 +58,4 @@
     *   **Test 2 (Rock Smash):** Using Rock Smash on the breakable rock at (4, 12) is not permitted. (Turn #29810)
     *   **Test 3 (Rival Proximity):** Standing at the edge of the chasm directly opposite Rival SILVA at (8, 13) did not trigger any event. (Turn #29817)
     *   **New Hypothesis:** Progress is likely achieved by interacting with the NPCs (Morty, Eusine) or by finding the correct warp among the many on this floor.
+*   **Hypothesis Failure (Burned Tower Progression):** The floor warp at (7, 15) is not activated by stepping on it, standing on it, or interacting with it. It likely has a special, unknown activation condition.
