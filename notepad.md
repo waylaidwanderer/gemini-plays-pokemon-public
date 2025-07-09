@@ -66,3 +66,4 @@
     *   **Test:** Find the standard Mart in Goldenrod City and check its inventory.
 *   **Goldenrod Dept. Store Basement Puzzle:**
     *   **Status:** Abandoned. Interacting with all four NPCs in the area did not open the path to the items, as confirmed by the pathfinder tool. The visual changes were misleading. Will return later if a key item or event is discovered elsewhere.
+*   **Radio Lullabies:** A Teacher in the Radio Tower mentioned that lullabies on the radio can make Pokémon sleep.
