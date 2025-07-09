@@ -70,3 +70,4 @@
     *   **Alternative:** Each hole could lead to a different, isolated section of the basement.
     *   **Test:** Systematically fall through each unique hole and map out where I land.
 *   **Hypothesis Failure (Burned Tower Wall-Warps):** Moving into a wall-warp from an adjacent tile does not activate it.
+*   **Hypothesis Failure (Burned Tower Wall-Warps):** Pressing the directional button towards a wall-warp from an adjacent floor tile does not activate it.
