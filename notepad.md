@@ -34,19 +34,6 @@
 - **Current Hypothesis (Attempt #2):** The key is located somewhere on Cinnabar Island, and I have previously missed a clue or trigger event.
 - **Test Plan:** Systematically re-explore Cinnabar Island, including the Pokémon Mansion and Cinnabar Lab, interacting with all objects and NPCs again.
 
-### B. Archive: Solved Puzzles & Disproven Hypotheses
-- **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
-
-### B. Paused Puzzle: Route 9 Trainer (Cool Trainer M2)
-- **Objective:** Trigger battle with Cool Trainer M2 at (32, 8).
-- **Status:** Paused after 4 failed hypotheses. The trigger is not obvious.
-- **Failed Hypotheses Log:**
-  - **#1:** Approaching from adjacent tiles (32, 7) or (31, 8). *Result: Blocked, no battle.*
-  - **#2:** Jumping down the ledge at (33, 6). *Result: No battle triggered.*
-  - **#3:** Trigger is in line of sight at (33, 8). *Result: No battle triggered.*
-  - **#4:** Trigger is further east in line of sight (34, 8) and (35, 8). *Result: No battle triggered.*
-- **Conclusion:** This trainer is currently un-battleable. Pivoting to other objectives is more efficient.
-
 ## III. Tool & Agent Development Log
 
 ### A. Tool Maintenance Log
@@ -59,6 +46,8 @@
 - **Challenge Assumptions:** My initial assumption that the Secret Key *must* be on Cinnabar Island led to wasted time. I need to be more open to non-local solutions and rigorously test my core beliefs.
 
 ## V. Archive: Solved Puzzles & Disproven Hypotheses
+- **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
+- **Paused Puzzle: Route 9 Trainer (Cool Trainer M2):** Paused after 4 failed hypotheses. The trigger is not obvious.
 - **Secret Key (Cinnabar Coast - DISPROVEN):** Surfed along the entire coastline of Cinnabar Island and found no hidden paths or items.
 - **Secret Key (Mr. Fuji - DISPROVEN):** Spoke to Mr. Fuji in Lavender Town. He provided only his standard post-rescue dialogue about the POKé FLUTE.
 - **Secret Key (Cinnabar Lab - DISPROVEN):** Concluded the Secret Key is not in the Cinnabar Lab after interacting with all NPCs and objects.
