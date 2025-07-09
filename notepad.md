@@ -46,9 +46,6 @@
 
 ## III. Tool & Agent Development Log
 
-- **`pc_pokemon_finder`**: To locate a specific Pokémon across all PC boxes.
-- **`find_closest_pokecenter_tool`**: A tool to find the nearest Pokémon Center and provide a fly path if available.
-
 ### B. Tool Maintenance Log
 - **`find_path` tool failures (Turns 59503 - 59576):** The tool has repeatedly failed due to a flawed script. The issues included: not automatically finding adjacent paths to impassable tiles, not recognizing `cuttable` tiles, and not handling one-way `ledge` traversal. These issues were fixed through multiple, delayed revisions.
 - **`exploration_assistant_agent` failures (Turns 59551, 59554):** The agent initially used flawed fuzzy logic to match markers to sprites, resulting in useless plans. It was refined to require exact coordinate matching.
