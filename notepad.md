@@ -2,8 +2,8 @@
 
 ## I. Strategic Plan
 *   **Primary Goal: Find and defeat the Ecruteak City Gym Leader.**
-    *   **Status:** Morty is likely back in the Ecruteak Gym after the Burned Tower event. Need to acquire Repels before returning.
-*   **Secondary Goal: Acquire Repels to explore the Burned Tower safely.**
+    *   **Status:** Morty is likely back in the Ecruteak Gym. I am en route to challenge him.
+*   **Secondary Goal: Acquire Repels to explore safely.**
     *   **Status:** The Goldenrod Dept. Store does not sell Repels. Currently searching Goldenrod City for a standard Poké Mart.
 *   **Tertiary Goal: Investigate the mystery of the legendary beasts.**
     *   **Status:** Witnessed their awakening. Eusine is also tracking them.
