@@ -59,3 +59,5 @@
     *   **Alternative Hypothesis:** The warps could be directional (i.e., their destination depends on the direction from which you enter the tile).
     *   **Test Plan for Alternative Hypothesis:** Find a safe tile adjacent to a known warp `PIT`. Step onto the `PIT` from one direction (e.g., 'Up'). Reset. Approach the same `PIT` from a different direction (e.g., 'Left'). If the destination is different, the hypothesis is confirmed. If it's the same, it's likely false.
     *   **Current Strategy:** Systematically test every single unmarked `PIT` warp, marking its source and destination, to build a complete map of the maze's connections.
+    *   **Untested Assumption:** All `PIT` tiles lead back to the start at (4, 14).
+    *   **Test for Assumption:** The next time I step on an unmarked `PIT`, I must verify the landing coordinates. If it's not (4, 14), the gym is more complex than I thought.
