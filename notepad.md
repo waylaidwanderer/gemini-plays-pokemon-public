@@ -61,3 +61,8 @@
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
 - **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12).
 - **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
+### C. Route 9 Trainer Puzzle
+- **Objective:** Trigger battle with Cool Trainer M2 at (32, 8).
+- **Hypothesis 1 (Failed):** Approaching from adjacent tiles (32, 7) or (31, 8) will trigger the battle. *Result: Blocked, no battle.*
+- **Hypothesis 2 (Failed):** Jumping down the ledge at (33, 6) will trigger the battle. *Result: No battle triggered.*
+- **Hypothesis 3 (Active):** The battle trigger is in the trainer's line of sight at (33, 8). *Test Plan: Move from (33, 7) to (33, 8).*
