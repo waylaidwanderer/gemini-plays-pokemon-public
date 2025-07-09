@@ -28,12 +28,12 @@
 
 ### A. Active Puzzle: The Secret Key
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
-- **Current Leading Hypothesis (from Advisor Agent):** Mr. Fuji in Lavender Town has the key, given his lore connection to Cinnabar Island.
+- **Current Leading Hypothesis (from Advisor Agent):** The Secret Key is located on a hidden patch of land or in a small cave on the coast of Cinnabar Island, accessible only by using Surf in a specific, non-obvious location.
 - **Test Plan:**
-    1. Fly to Lavender Town.
-    2. Go to the Pokémon Volunteer House.
-    3. Speak to Mr. Fuji and check for new dialogue.
-- **Falsification Test:** If Mr. Fuji has no new dialogue or doesn't provide the key, this hypothesis is disproven. The next hypothesis to test would be the item trade with a Cinnabar Lab scientist.
+    1. Fly to Cinnabar Island.
+    2. Surf along the entire rocky perimeter of the island, especially the eastern coast.
+    3. Press against the rock walls to check for any passable tiles.
+- **Falsification Test:** If a thorough search of the coastline reveals no hidden paths, this hypothesis is disproven.
 
 ## III. Tool & Agent Development Log
 
@@ -45,10 +45,11 @@
 - **Confirmation Bias:** My initial assumption that the Secret Key *must* be on Cinnabar Island led me to exhaust all options there before considering outside locations. I need to be more open to non-local solutions suggested by my agents.
 
 ## V. Archive: Solved Puzzles & Disproven Hypotheses
-- **Pokémon Mansion (Search for Key - DISPROVEN):** Concluded the Secret Key is not in the Pokémon Mansion after a thorough search of all floors and switches.
+- **Mr. Fuji (Search for Key - DISPROVEN):** Spoke to Mr. Fuji in Lavender Town. He provided only his standard post-rescue dialogue about the POKé FLUTE.
 - **Cinnabar Lab (Search for Key - DISPROVEN):** Concluded the Secret Key is not in the Cinnabar Lab after interacting with all NPCs and objects.
+- **Pokémon Mansion (Search for Key - DISPROVEN):** Concluded the Secret Key is not in the Pokémon Mansion after a thorough search of all floors and switches.
+- **Cinnabar Lab (Photo - DISPROVEN):** Interacted with the photo of Dr. Fuji at (4, 3). It provided only flavor text.
 - **Pokemon Mansion B1F (Gate Switch):** A switch at (19, 26) toggles two sets of gates using a 'prime and trigger' mechanic. Flip the switch to prime a set, then walk to them to open.
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
 - **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12).
 - **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
-- **Cinnabar Lab (Photo - DISPROVEN):** Interacted with the photo of Dr. Fuji at (4, 3). It provided only flavor text.
