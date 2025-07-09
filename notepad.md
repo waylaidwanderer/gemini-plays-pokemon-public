@@ -22,17 +22,25 @@
 - **'No Will to Fight':** A fainted or sleeping Pokémon cannot be switched into battle.
 - **Safari Zone:** Has a time limit. When it expires, the player is warped back to the Safari Zone Gate.
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center.
+- **Warp Reuse:** To reuse a warp you just came through, you must step off the warp tile and then back on to trigger it.
 
 ## II. Active Puzzles & Hypotheses
 
-### A. Active Puzzle: Seafoam Islands
+### A. Active Puzzle: The Secret Key
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
-- **Hypothesis:** After exhausting all possibilities in the Pokémon Mansion and on Route 20, the Secret Key must be located within the Seafoam Islands, accessed via the warp at (59, 10) on Route 20.
+- **Current Leading Hypothesis:** The key is located within the Pokémon Mansion.
+- **Test Plan:**
+    1. Systematically re-explore every floor (1F, 2F, 3F, B1F).
+    2. Interact with every single object (statues, diaries, beds, etc.).
+    3. Test every switch multiple times to understand its full effect, including potential effects on other floors.
+    4. Use `advanced_pathfinder` on each floor to check for hidden passages.
+- **Untested Assumption:** The key is *definitely* in the mansion.
+- **Falsification Test:** If a thorough search of the mansion yields no key, I must conclude the assumption is wrong and explore other locations on Cinnabar Island (like the Lab again) or even other towns.
 
 ## III. Tool & Agent Development Log
 
 ### A. Agent/Tool Brainstorming
-- **Idea: `puzzle_master_agent` Refinement:** The existing agent should be improved to handle multi-floor puzzles. It needs to be able to hypothesize that a switch on one floor can affect gates or paths on another floor, and suggest testing these cross-floor interactions when local hypotheses fail.
+- **Idea: `stuck_situation_advisor_agent`:** Create an agent that analyzes the current situation when progress is stalled. It would take the player's position, goal, and known obstacles as input and suggest alternative strategies, such as using HMs in creative ways, looking for hidden paths, or re-evaluating core assumptions.
 
 ## IV. Archive
 
@@ -41,11 +49,3 @@
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
 - **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12).
 - **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
-
-### B. Deprecated Development Log
-- **`battle_strategist_agent` (Critical HP/Status Blindness - REFINED on Turn 58535):** The agent repeatedly failed by recommending switches to Pokémon at critically low HP and/or with debilitating status conditions (e.g., CRAG at turns 58518, 58509). This indicated a critical flaw in its risk assessment logic. I have now refined its system prompt to force a thorough check of the entire party's current HP and status before making any switch recommendation, heavily penalizing high-risk switches.
-- **`puzzle_master_agent` (Pathing Logic Flaw - FIXED):** The agent suggested interactions with unreachable NPCs. It has been refined to check for a valid path before suggesting an action.
-- **`advanced_pathfinder` (Fixed):** The tool now correctly treats `closed_gate` tiles as impassable.
-- **`find_path` (Consolidated):** The `find_path_to_adjacent` tool was redundant and has been merged into the main `find_path` tool.
-- **Warp Reuse:** To reuse a warp you just came through, you must step off the warp tile and then back on to trigger it.
-- **Idea: `stuck_situation_advisor_agent`:** Create an agent that analyzes the current situation when progress is stalled. It would take the player's position, goal, and known obstacles as input and suggest alternative strategies, such as using HMs in creative ways, looking for hidden paths, or re-evaluating core assumptions.
