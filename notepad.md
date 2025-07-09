@@ -7,7 +7,7 @@
 *   **Primary Goal: Find and defeat the Ecruteak City Gym Leader.**
     *   **Status:** Currently searching in Ecruteak City.
 *   **Secondary Goal: Investigate the mystery of the Lake of Rage.**
-    *   **Status:** A Gym Guide mentioned a conspiracy at the Lake of Rage involving a Gyarados swarm.
+    *   **Status:** A Gym Guide and a Youngster mentioned a Pokémon rampage at the Lake of Rage.
 *   **Tertiary Goal: Investigate the Burned Tower.**
     *   **Status:** A prominent, unexplored building in Ecruteak City. The Tin Tower to the north is inaccessible without the Fog Badge.
 
