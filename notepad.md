@@ -34,10 +34,6 @@
 
 ## III. Tool & Agent Development Log
 
-### A. Agent/Tool Brainstorming
-- **Idea: `hm_checker_agent`:** Takes party data and an HM name as input, returns which Pokémon knows the move. This would prevent manually checking each Pokémon in the menu.
-- **Idea: `pc_pokemon_finder` tool:** A tool to search the currently active PC box for a Pokémon with a specific move.
-
 ## IV. Lessons Learned
 - **Confirmation Bias:** My initial assumption that the Secret Key *must* be on Cinnabar Island led me to exhaust all options there before considering outside locations. I need to be more open to non-local solutions suggested by my agents.
 - **Immediate Maintenance:** Tool/agent/notepad maintenance must be performed immediately upon identifying an issue. Deferring these tasks is a critical failure.
