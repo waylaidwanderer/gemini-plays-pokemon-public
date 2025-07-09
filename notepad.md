@@ -9,7 +9,8 @@
 - **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
 - **Hole Tiles:** Warp tiles that lead to a lower map area. Often function as one-way drops.
 - **Scripted Event Tiles:** Some tiles trigger events. The tile in front of the Cinnabar Gym door (19, 5) pushes the player back and displays a 'locked' message. The tile at (4, 5) in the Trashed House is an invisible wall.
-- **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls. These can be found using the `advanced_pathfinder` tool.
+- **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls.
+- **Agent Usage Reminder:** I need to make a conscious effort to use my `team_composition_advisor_agent`, `stuck_situation_advisor_agent`, and `exploration_assistant_agent` more frequently for strategic planning.
 - **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
 
