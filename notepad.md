@@ -1,5 +1,7 @@
 # Gem's Pokémon Crystal Notepad
 
+# Gem's Pokémon Crystal Notepad
+
 ## I. Strategic Plan
 *   **Primary Goal: Find and defeat the Ecruteak City Gym Leader.**
     *   **Status:** Morty is back in the Ecruteak Gym. I am currently inside, ready to challenge him.
