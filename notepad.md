@@ -46,7 +46,7 @@
 
 ## III. Tool & Agent Development Log
 
-### B. Tool Maintenance Log
+### A. Tool Maintenance Log
 - **`find_path` tool failures (Turns 59503 - 59576):** The tool has repeatedly failed due to a flawed script. The issues included: not automatically finding adjacent paths to impassable tiles, not recognizing `cuttable` tiles, and not handling one-way `ledge` traversal. These issues were fixed through multiple, delayed revisions.
 - **`exploration_assistant_agent` failures (Turns 59551, 59554):** The agent initially used flawed fuzzy logic to match markers to sprites, resulting in useless plans. It was refined to require exact coordinate matching.
 
