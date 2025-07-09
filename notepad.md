@@ -64,3 +64,4 @@
 
 ## VI. Rematch Reminders
 *   Fisher Ralph wants a rematch on Route 32.
+*   **ITEMFINDER:** Detects hidden items on the ground nearby. Does not show the exact spot.
