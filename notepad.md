@@ -32,6 +32,7 @@
 *   **Complex Tiles:**
     *   `WARP_CARPET_LEFT/RIGHT/DOWN`: Activated by pressing the indicated direction while standing on the tile.
     *   `Push-Down Trap`: A `FLOOR` tile that, when stepped on, pushes the player down one tile.
+*   `Hole Warp (FLOOR)`: A visible hole in the floor that acts as a one-way warp to a lower level when stepped on.
     *   `Interactable Warp (FLOOR)`: Some FLOOR tiles that are also warps must be interacted with by pressing 'A' to trigger an event or text.
 *   **Untested:** `unknown`
 
