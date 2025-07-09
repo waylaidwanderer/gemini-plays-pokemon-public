@@ -28,12 +28,7 @@
 
 ### A. Active Puzzle: The Secret Key
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
-- **Current Leading Hypothesis (from Advisor Agent):** The Secret Key is located on a hidden patch of land or in a small cave on the coast of Cinnabar Island, accessible only by using Surf in a specific, non-obvious location.
-- **Test Plan:**
-    1. Fly to Cinnabar Island.
-    2. Surf along the entire rocky perimeter of the island, especially the eastern coast.
-    3. Press against the rock walls to check for any passable tiles.
-- **Falsification Test:** If a thorough search of the coastline reveals no hidden paths, this hypothesis is disproven.
+- **Cinnabar Coast (Search for Key - DISPROVEN):** Surfed along the entire coastline of Cinnabar Island and found no hidden paths or items. The Secret Key is not located on the coast.
 
 ## III. Tool & Agent Development Log
 
