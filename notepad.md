@@ -64,3 +64,4 @@
 ## VI. Future Agent & Tool Ideas
 - **Inventory Advisor Agent:** An agent that analyzes my inventory and Pokémon to suggest optimal TM usage or stat-booster allocation for long-term team planning.
 - **Navigation Planner Agent:** An agent that can create multi-step navigation plans that incorporate using HMs like SURF and FLY, breaking down complex routes into a sequence of traversable paths.
+- **Find HM Spot Tool:** A tool that can scan adjacent tiles to find a valid location to initiate an HM field move like SURF or CUT. This would prevent wasting time on repeated failed attempts.
