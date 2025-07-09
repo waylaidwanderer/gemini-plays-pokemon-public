@@ -68,3 +68,11 @@
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
 - **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12).
 - **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
+
+## VI. Future Agent & Tool Ideas
+- **Inventory Advisor Agent:** An agent that analyzes my inventory and Pokémon to suggest optimal TM usage or stat-booster allocation for long-term team planning.
+
+## VII. Untested Assumptions
+- **Assumption: The Secret Key is on Cinnabar Island.**
+  - **Test:** Thoroughly re-explore the Pokémon Mansion and Cinnabar Lab, interacting with every object and NPC. If the key is not found, I will conclude it is located elsewhere.
+  - **Contingency:** If the key is not on Cinnabar, I will use my `stuck_situation_advisor_agent` to brainstorm new locations to search based on my overall game progress.
