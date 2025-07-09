@@ -25,9 +25,9 @@
 
 ## II. Active Puzzles & Hypotheses
 
-### A. Active Puzzle: Pokémon Mansion
+### A. Active Puzzle: Seafoam Islands
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
-- **Key Mechanic: 'Alternating Doors':** A specific gate mechanic where switches (often hidden in statues) toggle between opening one set of gates while closing another. The effect can be on the same floor or even different floors. Sometimes a switch needs to be 'primed' and then the player has to walk to the gate to trigger it to open.
+- **Hypothesis:** After exhausting all possibilities in the Pokémon Mansion and on Route 20, the Secret Key must be located within the Seafoam Islands, accessed via the warp at (59, 10) on Route 20.
 
 ### B. Active Hypothesis Testing Notes
 - **Pokémon Mansion (Confirmation Bias Check):** My focus has been on switches. I need to test the assumption that this is the *only* mechanic. Next exploration will involve interacting with all furniture and checking for hidden items on the ground, not just flipping switches.
