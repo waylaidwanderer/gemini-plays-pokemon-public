@@ -33,7 +33,6 @@
     1. Systematically re-explore every floor (1F, 2F, 3F, B1F).
     2. Interact with every single object (statues, diaries, beds, etc.).
     3. Test every switch multiple times to understand its full effect, including potential effects on other floors.
-    4. Use `advanced_pathfinder` on each floor to check for hidden passages.
 - **Untested Assumption:** The key is *definitely* in the mansion.
 - **Falsification Test:** If a thorough search of the mansion yields no key, I must conclude the assumption is wrong and explore other locations on Cinnabar Island (like the Lab again) or even other towns.
 
