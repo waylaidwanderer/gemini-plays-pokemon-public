@@ -33,7 +33,7 @@
 ## III. Tool & Agent Development Log
 
 ### A. Agent/Tool Brainstorming
-- **Idea: `exploration_assistant_agent`:** Create an agent that takes map sprites and the current goal to generate a prioritized list of NPCs to interact with, streamlining exploration.
+
 - **Idea: `find_path` tool refinement:** Add a check to verify the current map ID against an expected ID and to automatically find an adjacent traversable tile if the target is impassable.
 
 ## IV. Lessons Learned
