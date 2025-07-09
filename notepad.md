@@ -69,3 +69,4 @@
     *   **Hypothesis:** All the floor holes/warps on 1F lead to the same spot in the basement.
     *   **Alternative:** Each hole could lead to a different, isolated section of the basement.
     *   **Test:** Systematically fall through each unique hole and map out where I land.
+*   **Hypothesis Failure (Burned Tower Wall-Warps):** Moving into a wall-warp from an adjacent tile does not activate it.
