@@ -62,3 +62,5 @@
 **New Strategy:** Systematically test every single unmarked `PIT` warp, marking its source and destination, to build a complete map of the maze's connections. The system warning about unmarked warps confirms this is the correct approach.
     *   **Untested Assumption:** All `PIT` tiles lead back to the start at (4, 14).
     *   **Test for Assumption:** The next time I step on an unmarked `PIT`, I must verify the landing coordinates. If it's not (4, 14), the gym is more complex than I thought.
+*   **FOG BADGE** (Allows use of SURF outside battle, makes Pokémon up to L50 obey)
+*   **TM30 (SHADOW BALL)**
