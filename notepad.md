@@ -2,6 +2,7 @@
 
 ### A. Tile Mechanics & Traversal Rules
 - **Ground/Impassable:** `ground` tiles are walkable, `impassable` tiles are solid walls. All objects (NPCs, items, signs) function as impassable walls.
+- **Grass:** Walkable tiles where wild Pokémon can be encountered.
 - **Water:** Surfable tiles. To initiate SURF, I must be adjacent to a water tile and use the move from the party menu. Only Water-type Pokémon can use SURF in the field.
 - **Gates (`closed_gate`/`open_gate`/`gate_offscreen`):** `closed_gate` tiles are impassable. `open_gate` tiles are open and act as `ground`. `gate_offscreen` represents a gate whose state is unknown because it's not on screen. The state of these can be toggled by switches or other triggers.
 - **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
@@ -28,21 +29,24 @@
 
 ### A. Active Puzzle: The Secret Key
 - **Objective:** Find the 'Secret Key' for the Cinnabar Gym.
-- **Cinnabar Coast (Search for Key - DISPROVEN):** Surfed along the entire coastline of Cinnabar Island and found no hidden paths or items. The Secret Key is not located on the coast.
+- **Current Hypothesis:** The key is located in the Power Plant on Route 10.
+- **Test Plan:** Travel to the Power Plant and explore it thoroughly.
 
 ## III. Tool & Agent Development Log
 
 ### A. Agent/Tool Brainstorming
-
-- **Idea: `find_path` tool refinement:** Add a check to verify the current map ID against an expected ID and to automatically find an adjacent traversable tile if the target is impassable.
+- **Idea: `hm_checker_agent`:** Takes party data and an HM name as input, returns which Pokémon knows the move. This would prevent manually checking each Pokémon in the menu.
+- **Idea: `pc_pokemon_finder` tool:** A tool to search the currently active PC box for a Pokémon with a specific move.
 
 ## IV. Lessons Learned
 - **Confirmation Bias:** My initial assumption that the Secret Key *must* be on Cinnabar Island led me to exhaust all options there before considering outside locations. I need to be more open to non-local solutions suggested by my agents.
+- **Immediate Maintenance:** Tool/agent/notepad maintenance must be performed immediately upon identifying an issue. Deferring these tasks is a critical failure.
 
 ## V. Archive: Solved Puzzles & Disproven Hypotheses
-- **Mr. Fuji (Search for Key - DISPROVEN):** Spoke to Mr. Fuji in Lavender Town. He provided only his standard post-rescue dialogue about the POKé FLUTE.
-- **Cinnabar Lab (Search for Key - DISPROVEN):** Concluded the Secret Key is not in the Cinnabar Lab after interacting with all NPCs and objects.
-- **Pokémon Mansion (Search for Key - DISPROVEN):** Concluded the Secret Key is not in the Pokémon Mansion after a thorough search of all floors and switches.
+- **Secret Key (Cinnabar Coast - DISPROVEN):** Surfed along the entire coastline of Cinnabar Island and found no hidden paths or items.
+- **Secret Key (Mr. Fuji - DISPROVEN):** Spoke to Mr. Fuji in Lavender Town. He provided only his standard post-rescue dialogue about the POKé FLUTE.
+- **Secret Key (Cinnabar Lab - DISPROVEN):** Concluded the Secret Key is not in the Cinnabar Lab after interacting with all NPCs and objects.
+- **Secret Key (Pokemon Mansion - DISPROVEN):** Concluded the Secret Key is not in the Pokémon Mansion after a thorough search of all floors and switches.
 - **Cinnabar Lab (Photo - DISPROVEN):** Interacted with the photo of Dr. Fuji at (4, 3). It provided only flavor text.
 - **Pokemon Mansion B1F (Gate Switch):** A switch at (19, 26) toggles two sets of gates using a 'prime and trigger' mechanic. Flip the switch to prime a set, then walk to them to open.
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
