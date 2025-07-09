@@ -64,3 +64,10 @@
 ## IV. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Cinnabar Island - DISPROVEN):** After a thorough search of the Pokémon Mansion and Cinnabar Lab, I have concluded the key is not on the island.
 - **Cinnabar Gym (Bypass - CONFIRMED):** The scripted event at the gym door (19, 5) can be bypassed by using SURF from the eastern coast to navigate to the western side of the island.
+
+## II. Current Hypotheses & Puzzles
+
+### A. Primary Hypothesis: Exploring Route 20
+- **Objective:** Fully explore Route 20 to find clues or items.
+- **Current Hypothesis:** The Secret Key for Cinnabar Gym is not on Cinnabar Island. Exploring other areas, like Route 20 and the Power Plant, is the next logical step.
+- **Test Plan:** Systematically explore Route 20, battle all trainers, and investigate the Seafoam Islands.
