@@ -10,6 +10,8 @@
 - **Hole Tiles:** Warp tiles that lead to a lower map area. Often function as one-way drops.
 - **Scripted Event Tiles:** Some tiles trigger events. The tile in front of the Cinnabar Gym door (19, 5) pushes the player back and displays a 'locked' message.
 - **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls. These can be found using the `advanced_pathfinder` tool.
+- **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
+- **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -34,9 +36,15 @@
 
 ## III. Tool & Agent Development Log
 
+### A. Tool/Agent Ideas
+- **`hm_checker_agent`:** To quickly identify which Pokémon in the party or PC knows a specific HM.
+- **`pc_pokemon_finder`:** To locate a specific Pokémon across all PC boxes.
+- **`find_closest_pokecenter`:** A tool to find the nearest Pokémon Center and provide a fly path if available.
+
 ## IV. Lessons Learned
 - **Confirmation Bias:** My initial assumption that the Secret Key *must* be on Cinnabar Island led me to exhaust all options there before considering outside locations. I need to be more open to non-local solutions suggested by my agents.
 - **Immediate Maintenance:** Tool/agent/notepad maintenance must be performed immediately upon identifying an issue. Deferring these tasks is a critical failure.
+- **Tool Debugging:** I must be more diligent in debugging my code. Repeatedly submitting the same faulty code is unacceptable.
 
 ## V. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Cinnabar Coast - DISPROVEN):** Surfed along the entire coastline of Cinnabar Island and found no hidden paths or items.
