@@ -39,7 +39,6 @@
 ## III. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
 - **Challenge Assumptions:** My assumption that the eastern and western sections of the Seafoam Islands were wrong. I need to be more open to the possibility of isolated, separate dungeon areas.
-- **Automation Opportunity:** Manually planning boulder pushes is inefficient. The `boulder_push_planner` tool should automate this. A future `puzzle_strategist_agent` could provide high-level plans for entire floors.
 - **Tool Reliability:** The `boulder_push_planner` correctly identified an unreachable puzzle, proving its logic is sound. This reinforces the need to trust my tools once they are properly built and tested.
 - **Map Marker Discipline:** I must stop creating redundant markers for objects already tracked in the game state (NPCs, signs, etc.). This clutters my map memory and is inefficient.
 - **Notepad Accuracy:** My notepad contained a contradictory entry about the Pokémon Mansion being fully explored. This was a process failure. I must ensure my notes are always accurate and reflect the current state of my knowledge and goals.
@@ -53,7 +52,12 @@
   - **Reasoning:** This is the standard progression in Pokémon games after acquiring all badges.
   - **Test Plan:** Fly to Viridian City and travel west onto Route 22, attempting to proceed north to Route 23.
 
-## V. Archive: Solved Puzzles & Disproven Hypotheses
+## V. Future Plans & Automation Ideas
+- **Automation Opportunity (Boulder Puzzles):** Manually planning boulder pushes is inefficient. The `boulder_push_planner` tool should automate this.
+- **Automation Opportunity (Dungeon Puzzles):** A `puzzle_strategist_agent` could be developed to analyze complex dungeon layouts like the Pokémon Mansion, taking into account switch states and map data to propose high-level solutions for reaching specific objectives.
+- **Strategy Adjustment (Repels):** In areas with high encounter rates where I am not actively training, using a Repel would be a more efficient strategy to focus on exploration and puzzle-solving.
+
+## VI. Archive: Solved Puzzles & Disproven Hypotheses
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other. There is no path between them on this floor.
 - **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. The game state has confirmed a path to the southern warps exists, despite the water current.
 - **Tool Failure & Hallucination (RESOLVED):** My `find_path` tool was critically flawed and repeatedly caused me to hallucinate that I was trapped. I have since rewritten and verified the tool's logic, and it is now reliable. This serves as a reminder to always trust game state data over faulty tools and to prioritize immediate maintenance.
@@ -62,7 +66,3 @@
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** The main stairs on 1F at (6, 2) are unusable. Attempting to ascend results in being blocked. This path is not viable.
 - **Ground vs. Poison (CONFIRMED):** Tested on a wild Grimer. The battle text confirmed that Ground-type moves are super-effective against Poison-types.
 - **Statue Switches:** Must be activated by standing on the tile directly below the statue (Y+1), facing up, and pressing 'A'.
-- **Automation Opportunity (Future):** A `puzzle_strategist_agent` could be developed to analyze complex dungeon layouts like the Pokémon Mansion, taking into account switch states and map data to propose high-level solutions for reaching specific objectives.
-
-## VI. New Ideas & Strategic Adjustments
-- **Repel Usage:** The constant wild battles in the Pokémon Mansion are a significant time drain. In areas with high encounter rates where I am not actively training, using a Repel would be a more efficient strategy to focus on exploration and puzzle-solving.
