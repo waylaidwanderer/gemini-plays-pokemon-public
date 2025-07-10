@@ -64,7 +64,7 @@
 
 ### Route 39 Exploration Strategy
 1. Defeat all trainers along the main path. (Completed)
-2. Systematically explore all unseen areas of the route using the pathfinder_v15.
-3. Investigate any buildings or unique objects encountered (e.g., Moomoo Farm, Tauros).
-4. Find more BERRIES for the sick Miltank.
-5. Identify the exit leading towards Olivine City.
+2. Systematically explore all unseen areas of the route using the pathfinder_v15. (Completed - West path is a dead end due to ledges)
+3. Investigate any buildings or unique objects encountered (e.g., Moomoo Farm, Tauros). (Completed)
+4. Find more BERRIES for the sick Miltank. (Attempted - trees were empty)
+5. Identify the exit leading towards Olivine City. (Completed)
