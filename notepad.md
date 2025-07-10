@@ -2,7 +2,7 @@
 
 ## I. Current Objectives
 *   **Primary Goal:** Find and defeat the Olivine City Gym Leader.
-*   **Secondary Goal:** Find more BERRIES to heal the sick Miltank.
+*   **Secondary Goal:** Use the SQUIRTBOTTLE on the strange tree on Route 37.
 *   **Tertiary Goal:** Find the Coin Case.
 
 ## II. Game Systems & Mechanics
@@ -44,7 +44,7 @@
 *   **Haircuts:** Increases a Pokémon's happiness.
 
 ## III. Key Items, HMs & TMs
-*   **Key Items:** COIN CASE, SQUIRTBOTTLE, GOOD ROD
+*   **Key Items:** SQUIRTBOTTLE, GOOD ROD
 *   **HMs:** HM01 (CUT), HM03 (SURF), HM04 (STRENGTH)
 *   **TMs:** 
     * TM08 (ROCK SMASH)
@@ -60,7 +60,6 @@
 *   **PLAIN BADGE**
 *   **FOG BADGE** (Allows use of SURF outside battle, makes Pokémon up to L50 obey)
 
-## V. Blockades & Puzzles
-*   **Olivine Lighthouse:** The stairs on 1F are non-functional. A sailor's dialogue implies the lighthouse beacon must be lit before I can proceed.
-*   **Olivine City Sea Route:** I am currently unable to leave Olivine City by sea. Using SURF near the pier results in the animation playing, but the 'walking' state persists, preventing sea travel. This is likely related to the unlit lighthouse.
+## V. Current Obstacles & Puzzles
+*   **Olivine Lighthouse:** The Gym Leader is not in the Gym, but at the Lighthouse. The stairs on 1F are non-functional. A sailor's dialogue implies the lighthouse beacon must be lit before I can proceed.
 *   **Goldenrod Underground:** The path forward is blocked by a Super Nerd in a dialogue loop and a locked door in the northern section. I was unable to break the dialogue loop by pressing A, B, or Start, suggesting I am missing a prerequisite to proceed in this area.
