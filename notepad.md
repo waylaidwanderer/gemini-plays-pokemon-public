@@ -2,8 +2,8 @@
 
 ## I. Current Objectives
 *   **Primary Goal:** Find and defeat the Olivine City Gym Leader.
-*   **Secondary Goal:** Find a new path forward in the Goldenrod Underground.
-*   **Tertiary Goal:** Find the Coin Case.
+*   **Secondary Goal:** Find BERRIES to heal the sick Miltank on Route 39.
+*   **Tertiary Goal:** Find the Radio Card.
 
 ## II. Game Systems & Mechanics
 
@@ -24,11 +24,12 @@
     * `CUT_TREE` (Requires HM01 Cut).
     * `WATER` (Requires HM03 Surf, but is currently blocked in Olivine City).
     * `BREAKABLE_ROCK` (Requires Rock Smash).
+    * `HEADBUTT_TREE` (Requires the move Headbutt. Currently unable to test).
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
     *   `PIT`: A hole in the floor that acts as a warp. Stepping on it triggers the warp.
     *   `2x1 warp tile`: A warp tile that seems to be stairs. Interaction method is currently unknown.
-*   **Untested:** `unknown` (in Olivine City), `HEADBUTT_TREE`.
+*   **Untested:** `unknown` (in Olivine City).
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -64,14 +65,14 @@
 ### Route 37 Trainer Blockade
 - **Location:** (6, 12) and (7, 12).
 - **Blockade:** Two trainers (Twins Ann & Anne) disguised as trees block the path north.
-- **Behavior:** Interacting with them triggers a repeating dialogue loop. Using the SQUIRTBOTTLE from the pack has no effect.
+- **Behavior:** Interacting with them triggers a repeating dialogue loop.
 - **Conclusion:** This path is story-locked. Progress is gated behind an unknown event. I will not attempt this path again until I have a clear reason to believe it is open.
 
 ### Goldenrod Underground Blockade
 - **Location:** (5, 31).
 - **Blockade:** A Super Nerd blocks the path south.
 - **Behavior:** Interacting with him triggers a repeating dialogue loop ("I guess I have to do things fair and square…"). No battle occurs.
-- **Conclusion:** This path is story-locked, similar to the Route 37 trainers. I will not attempt this path again until I have a clear reason to believe it is open.
+- **Conclusion:** This path is story-locked. I will not attempt this path again until I have a clear reason to believe it is open.
 
 ## VI. Puzzle Solutions & Observations
 ### Goldenrod Dept. Store Basement Puzzle
