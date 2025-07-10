@@ -62,3 +62,5 @@
 *   **LEDGE_HOP_LEFT:** A one-way ledge that can only be hopped **LEFT**.
 *   **FENCE:** Impassable tile that acts like a wall.
 *   **LEDGE_HOP_LEFT:** A one-way ledge that can only be hopped **LEFT**.
+*   **FENCE:** Impassable tile that acts like a wall.
+*   **LEDGE_HOP_LEFT:** A one-way ledge that can only be hopped **LEFT**.
