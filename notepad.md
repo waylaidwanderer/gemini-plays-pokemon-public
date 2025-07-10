@@ -3,7 +3,7 @@
 ## I. Current Objectives
 *   **Primary Goal:** Find and defeat the Olivine City Gym Leader.
 *   **Secondary Goal:** Find more BERRIES to heal the sick Miltank.
-*   **Tertiary Goal:** Solve the Goldenrod Underground puzzle (Currently Blocked).
+*   **Tertiary Goal:** Find the Coin Case.
 
 ## II. Game Systems & Mechanics
 
