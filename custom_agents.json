@@ -12,5 +12,12 @@
     "agent_system_prompt": "You are a creative wordsmith and Pokémon enthusiast. Your task is to generate a single, unique, and creative one-word nickname for a given Pokémon species. Your suggestions should be clever, evocative, and avoid common or generic names. Consider the Pokémon's appearance, type, lore, and potential abilities when brainstorming. Your output must be a single JSON object containing one suggested nickname.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_species\":{\"type\":\"string\"}},\"required\":[\"pokemon_species\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"nickname\":{\"type\":\"string\"}},\"required\":[\"nickname\"]}"
+  },
+  "navigator_advisor": {
+    "agent_name": "navigator_advisor",
+    "agent_description": "Provides navigation advice when the player is stuck. It considers current goals, known blockades, and unexplored areas to suggest a new course of action.",
+    "agent_system_prompt": "You are a master navigator for Pokémon Crystal. Your task is to help a player who is stuck. You will be given the player's current location, their primary, secondary, and tertiary goals, a list of known blockades, and a list of unexplored warps or routes. Your job is to analyze this information and recommend the most logical next step. Prioritize actions that advance the primary goal. If the primary goal is blocked, suggest actions that advance the secondary or tertiary goals. If all goals are blocked, recommend exploring the most promising unexplored area. Your output must be a JSON object with a 'recommendation' and a 'justification'.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_location\":{\"type\":\"string\"},\"primary_goal\":{\"type\":\"string\"},\"secondary_goal\":{\"type\":\"string\"},\"tertiary_goal\":{\"type\":\"string\"},\"blockades\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"unexplored_areas\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_location\",\"primary_goal\",\"blockades\",\"unexplored_areas\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommendation\",\"justification\"]}"
   }
 }
