@@ -33,7 +33,8 @@
 
 ## II. Current Hypotheses & Puzzles
 
-- **Pokémon Mansion 1F Puzzle (Alternating Gates) (SOLVED):** The switch at (3, 6) toggles the western gates at (17, 8) and eastern gates at (25, 14). This was part of the initial exploration. The main puzzle is now on 2F.
+- **Pokémon Mansion 2F Puzzle (Positional Triggers):** The gates on this floor are not just controlled by the switch at (3, 12). My own movement and position act as triggers. For example, moving to (11, 10) caused the gates at (10, 5) and (10, 6) to open, and moving to (21, 13) opened the gates at (19, 9) and (20, 9). This means I need to carefully map out which movements trigger which gates.
+- **Hypothesis (Blocked Path):** The eastern and western sections of 2F are separated by impassable walls. The holes to the floor below are in the eastern section. I cannot find a path. **New Hypothesis:** There is a hidden, walkable tile in the dividing wall. **Test Plan:** Systematically walk along the entire length of the dividing wall, pressing into it to find a secret passage.
 
 ## III. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
@@ -65,6 +66,6 @@
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** The main stairs on 1F at (6, 2) are unusable. Attempting to ascend results in being blocked. This path is not viable.
 - **Ground vs. Poison (CONFIRMED):** Tested on a wild Grimer. The battle text confirmed that Ground-type moves are super-effective against Poison-types.
 - **Statue Switches:** Must be activated by standing on the tile directly below the statue (Y+1), facing up, and pressing 'A'.
+- **Pokémon Mansion 1F Puzzle (Alternating Gates):** The switch at (3, 6) toggles the western gates at (17, 8) and eastern gates at (25, 14). This was part of the initial exploration.
 - **Pokémon Mansion 3F Puzzle (Alternating Gates):** The switch at (11, 6) toggles the state of the eastern gates. Activating it closes the gates at (16, 5) and (16, 6) and opens the gate at (16, 11).
-- **Pokémon Mansion 2F Puzzle (Positional Triggers):** The gates on this floor are not just controlled by the switch at (3, 12). My own movement and position act as triggers. For example, moving to (11, 10) caused the gates at (10, 5) and (10, 6) to open, and moving to (21, 13) opened the gates at (19, 9) and (20, 9). This means I need to carefully map out which movements trigger which gates.
 - **Pokémon Mansion Trapped Room (SOLVED):** My hypothesis that I was trapped in a room on 2F was incorrect. The room was part of a larger positional puzzle. My subsequent hypotheses (hidden switch, Dig, walk-through walls) were also incorrect, but the process of testing them led to the solution: moving to tile (21, 13) opened the gates at (19, 9) and (20, 9).
