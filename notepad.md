@@ -68,5 +68,7 @@
 - **Hypothesis 1:** The trees are a puzzle requiring the SQUIRTBOTTLE.
 - **Test 1:** Used SQUIRTBOTTLE from the menu. Result: Failed. Text read "But nothing happened...".
 - **Hypothesis 2:** Interacting with the object directly with 'A' will trigger an event.
-- **Test 2:** Pressed 'A' while facing the object at (6, 12).
-- **Conclusion:** Success! The object was actually a trainer (Twins Ann & Anne) in disguise. Interacting with them initiates a battle, which is the true method to clear the path.
+- **Test 2:** Pressed 'A' while facing the object at (6, 12). Result: Triggered a repeating dialogue loop.
+- **Hypothesis 3:** Pressing 'B' will break the loop.
+- **Test 3:** Pressed 'B'. Result: Failed. The dialogue loop continued.
+- **Hypothesis 4:** Pressing 'Start' will break the loop.
