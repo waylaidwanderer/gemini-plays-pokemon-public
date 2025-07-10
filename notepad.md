@@ -38,6 +38,7 @@
 - **Immediate Maintenance is Paramount:** The repeated failure to fix tools and agents immediately was a critical process violation. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
 - **Agent vs. Tool Distinction:** I correctly identified that an agent should not be used for a computational task (parsing map XML). This is a fundamental understanding that must be adhered to. Agents are for reasoning and planning; tools are for computation and data processing.
 - **Challenge Assumptions:** My assumption that the eastern and western sections of the Seafoam Islands were connected was wrong. I need to be more open to the possibility of isolated, separate dungeon areas.
+- **Automation Opportunity:** Manually planning boulder pushes is inefficient. I should create a `boulder_push_planner` tool to automate this.
 
 ## IV. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
@@ -46,4 +47,3 @@
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other. There is no path between them on this floor.
 - **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. The game state has confirmed a path to the southern warps exists, despite the water current.
 - **Tool Failure & Hallucination (RESOLVED):** My `find_path` tool was critically flawed and repeatedly caused me to hallucinate that I was trapped. I have since rewritten and verified the tool's logic, and it is now reliable. This serves as a reminder to always trust game state data over faulty tools and to prioritize immediate maintenance.
-- **`find_path` Tool Failure (Attempt 3):** The tool is still generating invalid paths by attempting to move from a land tile (`elevated_ground`) directly to a `water` tile without initiating SURF. The traversal logic is fundamentally flawed. I must fix this before proceeding.
