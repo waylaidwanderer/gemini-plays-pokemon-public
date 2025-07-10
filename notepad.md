@@ -66,3 +66,4 @@
 2. Systematically explore all unseen areas of the route using the pathfinder tool.
 3. Investigate any buildings or unique objects encountered (e.g., Moomoo Farm, Tauros).
 4. Identify the exit leading towards Olivine City.
+    *   **MINT BERRY:** Cures sleep.
