@@ -1,8 +1,8 @@
 # Gem's Pokémon Crystal Notepad
 
 ## I. Current Objectives
-*   **Primary Goal:** Find and defeat the next Gym Leader in Olivine City.
-*   **Secondary Goal:** Explore new areas accessible with the move STRENGTH.
+*   **Primary Goal:** Travel to Goldenrod City to solve the box puzzle in the underground using STRENGTH.
+*   **Secondary Goal:** Find and defeat the Olivine City Gym Leader.
 *   **Tertiary Goal:** Find more BERRIES to heal the sick Miltank.
 
 ## II. Game Systems & Mechanics
@@ -22,12 +22,13 @@
     * `FLOOR_UP_WALL`: A one-way ledge that can only be hopped **UP**.
 *   **Special Requirement:** 
     * `CUT_TREE` (Requires HM01 Cut).
-    * `WATER` (Requires HM03 Surf).
+    * `WATER` (Requires HM03 Surf, but is currently blocked in Olivine City).
     * `BREAKABLE_ROCK` (Requires Rock Smash).
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
     *   `PIT`: A hole in the floor that acts as a warp. Stepping on it triggers the warp.
     *   `2x1 warp tile`: A warp tile that seems to be stairs. Interaction method is currently unknown.
+*   **Untested:** `unknown` (in Olivine City).
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -58,26 +59,10 @@
 *   **PLAIN BADGE**
 *   **FOG BADGE** (Allows use of SURF outside battle, makes Pokémon up to L50 obey)
 
-## V. Completed Objectives & Puzzles
-*   **Ecruteak Gym:** Solved the invisible path puzzle and defeated Gym Leader Morty.
-*   **HM04 (STRENGTH):** Obtained from a sailor in the Olivine Cafe.
+## V. Blockades & Puzzles
+*   **Olivine Lighthouse:** The stairs on 1F are non-functional. A sailor's dialogue implies the lighthouse beacon must be lit before I can proceed.
+*   **Olivine City Sea Route:** I am currently unable to leave Olivine City by sea. Using SURF near the pier results in the animation playing, but the 'walking' state persists, preventing sea travel. This is likely related to the unlit lighthouse.
 
-## VI. Exploration & Route Plans
-1.  Ascend the Olivine Lighthouse to find the Gym Leader.
-    *   **Hypothesis Log - Lighthouse Stairs:**
-        *   Hypothesis 1: Walk onto warp tile to activate. Result: Failed.
-        *   Hypothesis 2: Press 'A' on warp tile to activate. Result: Failed.
-        *   Hypothesis 3: Approach warp tile from a specific direction (e.g., above). Result: Failed.
-        *   Hypothesis 4: Move between the two adjacent warp tiles. Result: Failed.
-        *   Conclusion: Simple movement/interaction does not seem to work. An external trigger may be required.
-*   **Untested:** `unknown` (player is currently standing on this tile type in Olivine City).
-
-## Blockades & Puzzles
-*   **Olivine Lighthouse:** The stairs on 1F are non-functional. All exploration attempts have failed. The sailor's dialogue implies the lighthouse beacon must be lit before I can proceed, and that I cannot leave Olivine City by sea until this is resolved. Using SURF near the pier results in the animation playing but the 'walking' state persists, preventing sea travel.
-
-## VII. Current Travel Plan
+## VI. Current Travel Plan
 *   **Objective:** Travel to Goldenrod City to solve the box puzzle in the underground using STRENGTH.
-*   **Route:** Olivine City -> Route 39 -> Route 38 -> Route 37 -> Route 36 -> National Park -> Route 35 -> Goldenrod City.
-
-## VIII. Untested Discoveries
-*   **Olivine City `unknown` tile:** Must test this tile type upon returning to Olivine City.
+*   **Route:** Olivine City -> Route 39 -> Route 38 -> Ecruteak City -> Route 37 -> Route 36 -> National Park -> Route 35 -> Goldenrod City.
