@@ -31,7 +31,7 @@
 
 ## II. Current Hypotheses & Puzzles
 
-- **Primary Hypothesis:** The Secret Key is located somewhere within the Pokémon Mansion. The southern corridor on 1F, accessed after flipping the switch at (3, 6), is a dead end. The next logical step is to explore the second floor.
+- **Primary Hypothesis:** The Secret Key is located somewhere within the Pokémon Mansion. The southern corridor on 1F, accessed via the switch at (3, 6), leads to a new section of 1F and eventually the basement (B1F). The next logical step is to explore the second floor.
 
 ## III. Lessons Learned & Process Improvement
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
