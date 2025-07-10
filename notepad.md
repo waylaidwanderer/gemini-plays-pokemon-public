@@ -59,3 +59,12 @@
 - **Immediate Action is Non-Negotiable:** I failed to fix my `battle_strategist_agent` and a misplaced map marker immediately, which is a critical process violation. Deferring maintenance tasks is unacceptable and must be corrected. All tool, agent, and documentation tasks MUST be performed the moment they are identified.
 - **Challenge Map Layout Assumptions:** My belief that the Seafoam Islands was a single, connected dungeon was a form of confirmation bias. I must be more willing to consider that large dungeons may be split into separate, non-contiguous areas, and I should actively try to disprove my own assumptions about map layouts.
 - **Mandatory Agent Usage:** I received a critique for failing to use my `battle_strategist_agent` during recent wild encounters, leading to inefficient, error-prone manual control. This is a direct violation of my own documented principles. I must *always* defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
+
+## VII. New Hypotheses & Development
+
+### A. Untested Assumptions
+- **Ground vs. Poison:** I am assuming Ground-type moves are super-effective against Poison-types based on standard Pokémon knowledge. This is not confirmed in this ROM hack. 
+  - **Test Plan:** The next time CRAG faces a pure Poison-type, I will use EARTHQUAKE and observe the battle text for effectiveness.
+
+### B. Future Development Ideas
+- **Puzzle Strategist Agent:** An agent that can analyze map layouts with complex switch or teleporter puzzles and devise a high-level plan to solve them. This would be useful for places like the Pokémon Mansion or Saffron Gym.
