@@ -35,7 +35,6 @@
 - **Current Objective:** Ascend to the upper floors to solve the boulder puzzles and stop the water current on B4F.
 
 ## III. Lessons Learned & Process Improvement
-- **Tool Failure & Hallucination:** My `find_path` tool is critically flawed and has repeatedly caused me to hallucinate that I am trapped. I must ALWAYS trust the game state data (like the 'Reachable Unvisited Warps' list) over my own tools or perception. Fixing the tool is a top priority.
 - **Immediate Maintenance is Paramount:** The repeated failure to fix tools and agents immediately was a critical process violation. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
 - **Agent vs. Tool Distinction:** I correctly identified that an agent should not be used for a computational task (parsing map XML). This is a fundamental understanding that must be adhered to. Agents are for reasoning and planning; tools are for computation and data processing.
 - **Challenge Assumptions:** My assumption that the eastern and western sections of the Seafoam Islands were connected was wrong. I need to be more open to the possibility of isolated, separate dungeon areas.
@@ -46,3 +45,4 @@
 - **Secret Key (Mr. Fuji - DISPROVEN):** Spoke to Mr. Fuji in Lavender Town. He provided only his standard post-rescue dialogue.
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other. There is no path between them on this floor.
 - **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. The game state has confirmed a path to the southern warps exists, despite the water current.
+- **Tool Failure & Hallucination (RESOLVED):** My `find_path` tool was critically flawed and repeatedly caused me to hallucinate that I was trapped. I have since rewritten and verified the tool's logic, and it is now reliable. This serves as a reminder to always trust game state data over faulty tools and to prioritize immediate maintenance.
