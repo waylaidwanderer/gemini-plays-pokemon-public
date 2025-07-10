@@ -42,7 +42,7 @@
 
 ## III. Key Items, HMs & TMs
 *   **Key Items:** COIN CASE, SQUIRTBOTTLE (Used)
-*   **HMs:** HM01 (CUT), HM03 (SURF)
+*   **HMs:** HM01 (CUT), HM03 (SURF), HM04 (STRENGTH)
 *   **TMs:** 
     * TM08 (ROCK SMASH)
     * TM12 (SWEET SCENT)
