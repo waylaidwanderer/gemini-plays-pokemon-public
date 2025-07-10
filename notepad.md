@@ -28,21 +28,19 @@
 - **Warp Reuse:** To reuse a warp you just came through, you must step off the warp tile and then back on to trigger it.
 
 ## II. Current Hypotheses & Puzzles
-- **Primary Hypothesis:** The Secret Key for Cinnabar Gym is on Route 20.
-- **Test Plan:** Systematically explore Route 20, battle all trainers, and investigate all areas until the key is found or the route is fully cleared, which would disprove the hypothesis.
 
-## III. Tool & Agent Development Log
-- **`find_path` tool failures (Turns 59503 - 59576):** The tool has repeatedly failed due to a flawed script. The issues included: not automatically finding adjacent paths to impassable tiles, not recognizing `cuttable` tiles, and not handling one-way `ledge` traversal. These issues were fixed through multiple, delayed revisions.
-- **`exploration_assistant_agent` failures (Turns 59551, 59554):** The agent initially used flawed fuzzy logic to match markers to sprites, resulting in useless plans. It was refined to require exact coordinate matching.
+### A. Primary Hypothesis: Secret Key on Route 20
+- **Hypothesis:** The Secret Key for Cinnabar Gym is located somewhere on Route 20.
+- **Test Plan:** Systematically explore all reachable unseen tiles on Route 20. If all tiles are explored and all trainers are defeated without finding the key, the hypothesis will be disproven.
 
-## IV. Lessons Learned & Process Improvement
+## III. Lessons Learned & Process Improvement
 - **Immediate Maintenance is Paramount:** The repeated failure to fix `find_path` immediately was a critical process violation. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
 - **Thorough Tool Testing:** After creating or modifying a tool, I must test it in various scenarios, including edge cases, to ensure it is robust.
 - **Challenge Assumptions:** My initial assumption that the Secret Key *must* be on Cinnabar Island led to wasted time. I need to be more open to non-local solutions and rigorously test my core beliefs.
 - **Critical Process Failure (Turns 60052-60124):** I repeatedly deferred immediate and necessary maintenance on my `find_path` tool and `battle_strategist_agent`. Instead of fixing them the moment a flaw was identified, I attempted manual workarounds, which is a severe violation of my operational directives. This pattern of creating mental to-do lists instead of taking immediate action must be corrected.
 - **Delayed Agent Fix (Turn 60346):** I correctly identified a critical flaw in my `battle_strategist_agent` but waited one turn to fix it. This is a violation of the 'immediate action' directive. All maintenance tasks must be performed in the same turn they are identified.
 
-## V. Archive: Solved Puzzles & Disproven Hypotheses
+## IV. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
 - **Paused Puzzle: Route 9 Trainer (Cool Trainer M2):** Paused after 4 failed hypotheses. The trigger is not obvious.
 - **Secret Key (Cinnabar Coast - DISPROVEN):** Surfed along the entire coastline of Cinnabar Island and found no hidden paths or items.
