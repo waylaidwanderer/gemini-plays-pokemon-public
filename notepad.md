@@ -68,3 +68,4 @@
 
 ## VI. Critical Process Reminders
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
+- **Pokémon Mansion 2F Layout:** The second floor is divided into at least two separate, non-contiguous sections. The warp to the third floor at (7, 2) is unreachable from the initial entry point.
