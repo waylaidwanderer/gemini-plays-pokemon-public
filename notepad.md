@@ -1,12 +1,9 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. Strategic Plan
-*   **Primary Goal: Find and defeat the Ecruteak City Gym Leader.**
-    *   **Status:** Morty is back in the Ecruteak Gym. I am currently inside, trying to solve the gym's invisible path puzzle to reach him.
-*   **Secondary Goal: Investigate the mystery of the legendary beasts.**
-    *   **Status:** Witnessed their awakening in the Burned Tower. Eusine is also tracking them.
-*   **Tertiary Goal: Acquire Repels to explore safely.**
-    *   **Status:** This is a low priority. I will buy them if I find a Poké Mart that sells them.
+## I. Current Objectives
+*   **Primary Goal:** Find and defeat the next Gym Leader.
+*   **Secondary Goal:** Explore new areas accessible with the move SURF.
+*   **Tertiary Goal:** Investigate the mystery of the legendary beasts.
 
 ## II. Game Systems & Mechanics
 
@@ -27,7 +24,7 @@
     * `WATER` (Requires HM03 Surf).
     * `BREAKABLE_ROCK` (Requires Rock Smash).
 *   **Complex Tiles:**
-    *   `WARP_CARPET_DOWN`: Activated by pressing 'Down' while standing on the tile.
+    *   `WARP_CARPET_DOWN/LEFT`: Activated by pressing the corresponding direction while standing on the tile.
     *   `PIT`: A hole in the floor that acts as a warp. Stepping on it triggers the warp.
 
 ### Other Mechanics
@@ -41,19 +38,22 @@
     *   **HYPER POTION:** Restores 200 HP.
 *   **Haircuts:** Increases a Pokémon's happiness.
 
-## III. Key Items & TMs
-*   **COIN CASE**
-*   **HM01 (CUT)**
-*   **HM03 (SURF)**
-*   **SQUIRTBOTTLE** (Used)
-*   **TM08 (ROCK SMASH)**
-*   **TM12 (SWEET SCENT)**
-*   **TM28 (DIG)**
-*   **TM45 (ATTRACT)**
-*   **TM49 (FURY CUTTER)**
+## III. Key Items, HMs & TMs
+*   **Key Items:** COIN CASE, SQUIRTBOTTLE (Used)
+*   **HMs:** HM01 (CUT), HM03 (SURF)
+*   **TMs:** 
+    * TM08 (ROCK SMASH)
+    * TM12 (SWEET SCENT)
+    * TM28 (DIG)
+    * TM30 (SHADOW BALL) - Causes damage and may reduce SPCL.DEF.
+    * TM45 (ATTRACT)
+    * TM49 (FURY CUTTER)
 
-## IV. Puzzle Solutions
-*   **Ecruteak Gym Maze:**
-    *   **Status: SOLVED.** Defeated Gym Leader Morty. The puzzle involved an invisible path.
+## IV. Badges
+*   **ZEPHYR BADGE**
+*   **HIVE BADGE**
+*   **PLAIN BADGE**
 *   **FOG BADGE** (Allows use of SURF outside battle, makes Pokémon up to L50 obey)
-*   **TM30 (SHADOW BALL)** (Causes damage and may reduce SPCL.DEF.)
+
+## V. Completed Puzzles & Gyms
+*   **Ecruteak Gym:** Solved the invisible path puzzle and defeated Gym Leader Morty.
