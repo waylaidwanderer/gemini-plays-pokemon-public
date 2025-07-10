@@ -53,9 +53,9 @@
   - **Test Plan:** Fly to Viridian City and travel west onto Route 22, attempting to proceed north to Route 23.
 
 ## V. Future Plans & Automation Ideas
+- **Acquire Repels:** The constant wild encounters in dungeons like the Pokémon Mansion are hindering exploration. I need to buy Repels at the next opportunity to make progress more efficient.
 - **Automation Opportunity (Boulder Puzzles):** Manually planning boulder pushes is inefficient. The `boulder_push_planner` tool should automate this.
 - **Automation Opportunity (Dungeon Puzzles):** A `puzzle_strategist_agent` could be developed to analyze complex dungeon layouts like the Pokémon Mansion, taking into account switch states and map data to propose high-level solutions for reaching specific objectives.
-- **Strategy Adjustment (Repels):** In areas with high encounter rates where I am not actively training, using a Repel would be a more efficient strategy to focus on exploration and puzzle-solving.
 
 ## VI. Archive: Solved Puzzles & Disproven Hypotheses
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other. There is no path between them on this floor.
