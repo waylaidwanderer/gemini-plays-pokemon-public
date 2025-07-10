@@ -56,6 +56,6 @@
         "effectiveness"
       ]
     },
-    "python_script": "import json\nattacker = input_data['attacker_type']\ndefender1 = input_data['defender_type1']\ndefender2 = input_data.get('defender_type2')\neffectiveness = input_data['effectiveness']\n\ndefender_str = defender1\nif defender2 and defender2 != 'null':\n    defender_str += f'/{defender2}'\n\nif effectiveness == 'super effective':\n    log_string = f'- {attacker} > {defender_str}'\nelif effectiveness == 'not very effective':\n    log_string = f'- {attacker} !> {defender_str}'\nelse:\n    log_string = f'- {defender_str} immune to {attacker}'\n\nprint(json.dumps({'formatted_log': log_string}))"
+    "python_script": "effectiveness_map = {\"super effective\": \">\", \"not very effective\": \"!>\", \"no effect\": \"x>\"}\nsymbol = effectiveness_map[input_data[\"effectiveness\"]]\ndefender_type2_str = f'/{input_data[\"defender_type2\"]}' if input_data.get(\"defender_type2\") else \"\"\nlog_entry = f'- {input_data[\"attacker_type\"]} {symbol} {input_data[\"defender_type1\"]}{defender_type2_str}'\nprint(log_entry)"
   }
 }
