@@ -2,7 +2,7 @@
 
 ## I. Current Objectives
 *   **Primary Goal:** Find and defeat the Olivine City Gym Leader.
-*   **Secondary Goal:** Travel to Ecruteak City.
+*   **Secondary Goal:** Find a new path forward in the Goldenrod Underground.
 *   **Tertiary Goal:** Find the Coin Case.
 
 ## II. Game Systems & Mechanics
