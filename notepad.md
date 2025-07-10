@@ -32,7 +32,7 @@
 ## II. Current Hypotheses & Puzzles
 
 - **Primary Hypothesis:** The Secret Key is likely located somewhere in the Seafoam Islands, obtainable after solving the boulder puzzles which control the water currents.
-- **Current Objective:** Escape the isolated eastern section of the Seafoam Islands by backtracking upwards to find an exit.
+- **Current Objective:** Ascend to the upper floors to solve the boulder puzzles and stop the water current on B4F.
 
 ## III. Lessons Learned & Process Improvement
 - **Tool Failure & Hallucination:** My `find_path` tool is critically flawed and has repeatedly caused me to hallucinate that I am trapped. I must ALWAYS trust the game state data (like the 'Reachable Unvisited Warps' list) over my own tools or perception. Fixing the tool is a top priority.
