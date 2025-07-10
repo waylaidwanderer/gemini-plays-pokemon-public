@@ -31,10 +31,11 @@
 
 ## II. Current Hypotheses & Puzzles
 
-- **Primary Hypothesis:** The Secret Key is located somewhere within the Pokémon Mansion. The southern corridor on 1F, accessed via the switch at (3, 6), leads to a new section of 1F and eventually the basement (B1F). The next logical step is to explore the second floor.
-- **Pokémon Mansion 2F Layout:** The second floor is divided into at least two separate, non-contiguous sections. The warp to the third floor at (7, 2) is unreachable from the initial entry point. The 'alternating doors' puzzle, controlled by the switch at (3, 12), must be manipulated to access different staircases. One staircase leads to a dead-end section of 3F.
+- **Primary Hypothesis:** With all 8 badges collected (confirmed by game state), the next objective is to challenge the Elite Four at the Indigo Plateau. The path should be west of Viridian City, through Route 22 and 23.
+- **Pokémon Mansion Puzzle:** The mansion appears to be fully explored. The second floor is split into sections accessible via different staircases controlled by the switch at (3, 12). Since the Secret Key is no longer the objective, there's no further reason to be here.
 
 ## III. Process & Strategy Insights
+- **Trust the Game State:** A major discrepancy was found between my notepad (6 badges) and the game state (8 badges). The game state is the absolute source of truth. My failure to keep my notes aligned with reality was a critical error. All future plans must be based on the game state's information.
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
 - **Challenge Assumptions:** My assumption that the eastern and western sections of the Seafoam Islands were connected was wrong. I need to be more open to the possibility of isolated, separate dungeon areas.
 - **Automation Opportunity:** Manually planning boulder pushes is inefficient. The `boulder_push_planner` tool should automate this. A future `puzzle_strategist_agent` could provide high-level plans for entire floors.
@@ -47,15 +48,12 @@
 - **Mandatory Agent Usage:** I received a critique for failing to use my `battle_strategist_agent` during recent wild encounters, leading to inefficient, error-prone manual control. This is a direct violation of my own documented principles. I must *always* defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 ## IV. Untested Assumptions & Test Plans
-- **Primary Assumption:** The Secret Key is located in the Pokémon Mansion.
-  - **Reasoning:** It's the only other major, unexplored building on Cinnabar Island besides the locked Gym.
-  - **Test Plan:** Fully explore all accessible areas of the Pokémon Mansion (1F, 2F, 3F, B1F). If the key is not found after thorough exploration, I will conclude it is located elsewhere and use the `stuck_situation_advisor_agent`.
-- **Confirmation Bias Check:** I must avoid fixating on expected outcomes. When a switch or action has multiple effects (like opening multiple doors), I must investigate all of them, not just the one that aligns with my initial hypothesis.
+- **Primary Assumption:** The path to the Indigo Plateau is west of Viridian City.
+  - **Reasoning:** This is the standard progression in Pokémon games after acquiring all badges.
+  - **Test Plan:** Fly to Viridian City and travel west onto Route 22, attempting to proceed north to Route 23.
 
 ## V. Archive: Solved Puzzles & Disproven Hypotheses
-- **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
-- **Secret Key (Cinnabar Lab - DISPROVEN):** Thoroughly explored Cinnabar Lab. No key was found.
-- **Secret Key (Mr. Fuji - DISPROVEN):** Spoke to Mr. Fuji in Lavender Town. He provided only his standard post-rescue dialogue.
+- **Secret Key (DISPROVEN AS OBJECTIVE):** The primary goal of finding the Secret Key is now void, as the game state confirms possession of the Volcano Badge.
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other. There is no path between them on this floor.
 - **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. The game state has confirmed a path to the southern warps exists, despite the water current.
 - **Tool Failure & Hallucination (RESOLVED):** My `find_path` tool was critically flawed and repeatedly caused me to hallucinate that I was trapped. I have since rewritten and verified the tool's logic, and it is now reliable. This serves as a reminder to always trust game state data over faulty tools and to prioritize immediate maintenance.
