@@ -32,9 +32,9 @@
 
 ## II. Current Hypotheses & Puzzles
 
-- **Primary Hypothesis:** The Secret Key is likely located somewhere in the Seafoam Islands, obtainable after solving the boulder puzzles which control the water currents.
-- **Current Objective:** Ascend to the upper floors to solve the boulder puzzles and stop the water current on B4F.
-- **Untested Assumption:** I assume I must solve *all* boulder puzzles. **Test Plan:** Solve one puzzle, then go to B4F to see if the current has changed.
+- **Primary Hypothesis (from Agent):** The eastern (boulder puzzle) and western sections of Seafoam Islands are two separate, unconnected dungeons. To access the boulder puzzles, I must exit and re-enter from the Route 19 side (near Fuchsia City), as my current entry from Route 20 is the 'exit' path.
+- **Current Objective:** Exit Seafoam Islands, fly to Fuchsia City, and find the alternate entrance on Route 19.
+- **Secondary Hypothesis (from Agent):** The Secret Key might not be in Seafoam Islands at all, but in its original location (Pokémon Mansion). If the new entrance doesn't lead to the key, this will be my next investigation.
 
 ## III. Lessons Learned & Process Improvement
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
