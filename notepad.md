@@ -66,3 +66,4 @@
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** The main stairs on 1F at (6, 2) are unusable. Attempting to ascend results in being blocked. This path is not viable.
 - **Ground vs. Poison (CONFIRMED):** Tested on a wild Grimer. The battle text confirmed that Ground-type moves are super-effective against Poison-types.
 - **Statue Switches:** Must be activated by standing on the tile directly below the statue (Y+1), facing up, and pressing 'A'.
+- **Pokémon Mansion 2F Puzzle (Positional Triggers):** The gates on this floor are not just controlled by the switch at (3, 12). My own movement and position act as triggers. For example, moving to (11, 10) caused the gates at (10, 5) and (10, 6) to open. This means I need to carefully map out which movements trigger which gates.
