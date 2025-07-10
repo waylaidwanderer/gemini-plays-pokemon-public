@@ -27,6 +27,7 @@
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
     *   `PIT`: A hole in the floor that acts as a warp. Stepping on it triggers the warp.
+    *   `2x1 warp tile`: A warp tile that seems to be stairs. Interaction method is currently unknown.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -63,3 +64,9 @@
 
 ## VI. Exploration & Route Plans
 1.  Ascend the Olivine Lighthouse to find the Gym Leader.
+    *   **Hypothesis Log - Lighthouse Stairs:**
+        *   Hypothesis 1: Walk onto warp tile to activate. Result: Failed.
+        *   Hypothesis 2: Press 'A' on warp tile to activate. Result: Failed.
+        *   Hypothesis 3: Approach warp tile from a specific direction (e.g., above). Result: Failed.
+        *   Hypothesis 4: Move between the two adjacent warp tiles. Result: Failed.
+        *   Conclusion: Simple movement/interaction does not seem to work. An external trigger may be required.
