@@ -34,15 +34,24 @@
 - **Primary Hypothesis:** The Secret Key is located somewhere within the Pokémon Mansion. The southern corridor on 1F, accessed via the switch at (3, 6), leads to a new section of 1F and eventually the basement (B1F). The next logical step is to explore the second floor.
 - **Pokémon Mansion 2F Layout:** The second floor is divided into at least two separate, non-contiguous sections. The warp to the third floor at (7, 2) is unreachable from the initial entry point.
 
-## III. Lessons Learned & Process Improvement
+## III. Process & Strategy Insights
+
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
 - **Challenge Assumptions:** My assumption that the eastern and western sections of the Seafoam Islands were connected was wrong. I need to be more open to the possibility of isolated, separate dungeon areas.
 - **Automation Opportunity:** Manually planning boulder pushes is inefficient. The `boulder_push_planner` tool should automate this. A future `puzzle_strategist_agent` could provide high-level plans for entire floors.
 - **Tool Reliability:** The `boulder_push_planner` correctly identified an unreachable puzzle, proving its logic is sound. This reinforces the need to trust my tools once they are properly built and tested.
 - **Map Marker Discipline:** I must stop creating redundant markers for objects already tracked in the game state (NPCs, signs, etc.). This clutters my map memory and is inefficient.
 - **Notepad Accuracy:** My notepad contained a contradictory entry about the Pokémon Mansion being fully explored. This was a process failure. I must ensure my notes are always accurate and reflect the current state of my knowledge and goals.
+- **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
+- **Immediate Action is Non-Negotiable:** I failed to fix my `battle_strategist_agent` and a misplaced map marker immediately, which is a critical process violation. Deferring maintenance tasks is unacceptable and must be corrected. All tool, agent, and documentation tasks MUST be performed the moment they are identified.
+- **Challenge Map Layout Assumptions:** My belief that the Seafoam Islands was a single, connected dungeon was a form of confirmation bias. I must be more willing to consider that large dungeons may be split into separate, non-contiguous areas, and I should actively try to disprove my own assumptions about map layouts.
+- **Mandatory Agent Usage:** I received a critique for failing to use my `battle_strategist_agent` during recent wild encounters, leading to inefficient, error-prone manual control. This is a direct violation of my own documented principles. I must *always* defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
-## IV. Archive: Solved Puzzles & Disproven Hypotheses
+## IV. Untested Assumptions & Test Plans
+- **Ground vs. Poison:** I am assuming Ground-type moves are super-effective against Poison-types based on standard Pokémon knowledge. This is not confirmed in this ROM hack. 
+  - **Test Plan:** The next time CRAG faces a pure Poison-type, I will use EARTHQUAKE and observe the battle text for effectiveness.
+
+## V. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
 - **Secret Key (Cinnabar Lab - DISPROVEN):** Thoroughly explored Cinnabar Lab. No key was found.
 - **Secret Key (Mr. Fuji - DISPROVEN):** Spoke to Mr. Fuji in Lavender Town. He provided only his standard post-rescue dialogue.
@@ -51,20 +60,6 @@
 - **Tool Failure & Hallucination (RESOLVED):** My `find_path` tool was critically flawed and repeatedly caused me to hallucinate that I was trapped. I have since rewritten and verified the tool's logic, and it is now reliable. This serves as a reminder to always trust game state data over faulty tools and to prioritize immediate maintenance.
 - **Seafoam Islands Entrance (DISPROVEN):** Thoroughly explored Route 19 and found no alternate entrance to the Seafoam Islands. This hypothesis is incorrect.
 
-## V. Future Development Ideas
+## VI. Future Development Ideas
 - **Objective Planner Agent:** An agent that analyzes my current progress (badges, level cap, key items) and suggests the next logical major objective, helping to guide my long-term strategy when the path isn't clear.
-
-## VI. Critical Process Reminders
-- **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
-- **Immediate Action is Non-Negotiable:** I failed to fix my `battle_strategist_agent` and a misplaced map marker immediately, which is a critical process violation. Deferring maintenance tasks is unacceptable and must be corrected. All tool, agent, and documentation tasks MUST be performed the moment they are identified.
-- **Challenge Map Layout Assumptions:** My belief that the Seafoam Islands was a single, connected dungeon was a form of confirmation bias. I must be more willing to consider that large dungeons may be split into separate, non-contiguous areas, and I should actively try to disprove my own assumptions about map layouts.
-- **Mandatory Agent Usage:** I received a critique for failing to use my `battle_strategist_agent` during recent wild encounters, leading to inefficient, error-prone manual control. This is a direct violation of my own documented principles. I must *always* defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
-
-## VII. New Hypotheses & Development
-
-### A. Untested Assumptions
-- **Ground vs. Poison:** I am assuming Ground-type moves are super-effective against Poison-types based on standard Pokémon knowledge. This is not confirmed in this ROM hack. 
-  - **Test Plan:** The next time CRAG faces a pure Poison-type, I will use EARTHQUAKE and observe the battle text for effectiveness.
-
-### B. Future Development Ideas
 - **Puzzle Strategist Agent:** An agent that can analyze map layouts with complex switch or teleporter puzzles and devise a high-level plan to solve them. This would be useful for places like the Pokémon Mansion or Saffron Gym.
