@@ -13,6 +13,7 @@
 - **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
 - **Elevated Ground:** Walkable ground at a different elevation, accessible via `steps`.
+- **Water Current:** A scripted event on some water tiles that forces movement in a specific direction, blocking passage.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -31,7 +32,6 @@
 ## II. Current Hypotheses & Puzzles
 
 ### A. Primary Hypothesis: Secret Key in Seafoam Islands
-- **Secret Key (Route 20 West & Route 19 South - DISPROVEN):** Explored the western water route from Seafoam Islands and the southern water route from Fuchsia City. Both were dead ends and yielded no key.
 - **New Hypothesis:** The only remaining path is through the Seafoam Islands. The key must be found by solving the boulder puzzles within the cave.
 - **Contingency Plan:** If a thorough exploration of Seafoam Islands does not yield the Secret Key, I will use my `stuck_situation_advisor_agent` to generate new hypotheses, as I may be suffering from confirmation bias.
 
@@ -59,5 +59,4 @@
 - **Secret Key (New Hypothesis):** If exploring the remaining water routes (like Route 19) does not yield the Secret Key, I must consider that it is in a non-obvious, potentially non-aquatic location that requires revisiting an old area.
 - **Steps & Elevated Ground:** `steps` tiles allow vertical movement between `ground` and `elevated_ground` tiles. `elevated_ground` is walkable but at a different height, accessible only via `steps`.
 - **Seafoam Islands 1F Boulder Puzzle (DISPROVEN):** My `boulder_hole_puzzle_solver` agent concluded that pushing the boulder at (27, 8) into the hole at (18, 7) is impossible due to impassable walls blocking all paths. This approach is a dead end.
-## V. Seafoam Islands Puzzles
 - **B4F Water Current (Confirmed):** A strong water current blocks the entire southern passage on B4F (tested at columns 21 and 22). Access to the warps at (21,18) and (22,18) must be from a different area.
