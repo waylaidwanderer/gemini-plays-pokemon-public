@@ -59,3 +59,5 @@
 - **Secret Key (New Hypothesis):** If exploring the remaining water routes (like Route 19) does not yield the Secret Key, I must consider that it is in a non-obvious, potentially non-aquatic location that requires revisiting an old area.
 - **Steps & Elevated Ground:** `steps` tiles allow vertical movement between `ground` and `elevated_ground` tiles. `elevated_ground` is walkable but at a different height, accessible only via `steps`.
 - **Seafoam Islands 1F Boulder Puzzle (DISPROVEN):** My `boulder_hole_puzzle_solver` agent concluded that pushing the boulder at (27, 8) into the hole at (18, 7) is impossible due to impassable walls blocking all paths. This approach is a dead end.
+## V. Seafoam Islands Puzzles
+- **B4F Water Current:** There is a hidden water current that pushes the player north. Attempting to move south from (21, 16) to (21, 17) results in being pushed back. This likely blocks access to the southern warps.
