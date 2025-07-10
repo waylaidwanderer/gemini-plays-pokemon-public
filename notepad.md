@@ -63,10 +63,10 @@
 ## V. Current Obstacles & Puzzles
 *   **Olivine Lighthouse:** The Gym Leader is not in the Gym, but at the Lighthouse. The stairs on 1F are non-functional. A sailor's dialogue implies the lighthouse beacon must be lit before I can proceed.
 *   **Goldenrod Underground:** The path forward is blocked by a Super Nerd in a dialogue loop and a locked door in the northern section. I was unable to break the dialogue loop by pressing A, B, or Start, suggesting I am missing a prerequisite to proceed in this area.
-### Route 37 Strange Tree Puzzle
-- **Observation:** A strange tree at (6, 12) blocks the path. Dialogue from NPCs suggests it needs to be watered with the SQUIRTBOTTLE.
-- **Hypothesis 1:** Using the SQUIRTBOTTLE from the Key Items menu while facing the tree will trigger an event.
-- **Test 1:** Stood at (6, 13), faced the tree at (6, 12), and used SQUIRTBOTTLE from the menu.
-- **Conclusion 1:** Failed. The game text read "But nothing happened...".
-- **Hypothesis 2:** Interacting with the tree directly by pressing 'A' while possessing the SQUIRTBOTTLE will trigger the event.
-- **Test 2:** Stand at (6, 13), face the tree at (6, 12), and press 'A'.
+### Route 37 Trainer Puzzle (Formerly Strange Tree)
+- **Observation:** Two objects resembling trees at (6, 12) and (7, 12) block the path.
+- **Hypothesis 1:** The trees are a puzzle requiring the SQUIRTBOTTLE.
+- **Test 1:** Used SQUIRTBOTTLE from the menu. Result: Failed. Text read "But nothing happened...".
+- **Hypothesis 2:** Interacting with the object directly with 'A' will trigger an event.
+- **Test 2:** Pressed 'A' while facing the object at (6, 12).
+- **Conclusion:** Success! The object was actually a trainer (Twins Ann & Anne) in disguise. Interacting with them initiates a battle, which is the true method to clear the path.
