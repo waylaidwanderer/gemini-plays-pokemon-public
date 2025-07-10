@@ -31,8 +31,8 @@
 
 ### A. Primary Hypothesis: Exploring Route 20
 - **Objective:** Fully explore Route 20 to find clues or items.
-- **Current Hypothesis:** The Secret Key for Cinnabar Gym is not on Cinnabar Island. Exploring other areas, like Route 20 and the Power Plant, is the next logical step.
-- **Test Plan:** Systematically explore Route 20, battle all trainers, and investigate the Seafoam Islands.
+- **Current Hypothesis:** The Secret Key for Cinnabar Gym is on Route 20.
+- **Test Plan:** Systematically explore Route 20, battle all trainers, and investigate all areas until the key is found or the route is fully cleared, which would disprove the hypothesis.
 
 ## III. Tool & Agent Development Log
 
@@ -45,6 +45,7 @@
 - **Thorough Tool Testing:** After creating or modifying a tool, I must test it in various scenarios, including edge cases, to ensure it is robust.
 - **Challenge Assumptions:** My initial assumption that the Secret Key *must* be on Cinnabar Island led to wasted time. I need to be more open to non-local solutions and rigorously test my core beliefs.
 - **Critical Process Failure (Turns 60052-60124):** I repeatedly deferred immediate and necessary maintenance on my `find_path` tool and `battle_strategist_agent`. Instead of fixing them the moment a flaw was identified, I attempted manual workarounds, which is a severe violation of my operational directives. This pattern of creating mental to-do lists instead of taking immediate action must be corrected.
+- **Delayed Agent Fix (Turn 60346):** I correctly identified a critical flaw in my `battle_strategist_agent` but waited one turn to fix it. This is a violation of the 'immediate action' directive. All maintenance tasks must be performed in the same turn they are identified.
 
 ## V. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
@@ -60,15 +61,6 @@
 - **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
 - **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12).
 - **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
-
-## VI. Future Agent & Tool Ideas
-- **Battle Outcome Logger Tool:** A tool that takes battle outcome data (move, attacker type, defender type, effectiveness message) and automatically logs the confirmed matchup in the notepad. This will prevent knowledge management failures.
-- **Delayed Agent Fix (Turn 60346):** I correctly identified a critical flaw in my `battle_strategist_agent` but waited one turn to fix it. This is a violation of the 'immediate action' directive. All maintenance tasks must be performed in the same turn they are identified.
-
-### B. Primary Hypothesis: Exploring Route 20
-- **Objective:** Fully explore Route 20 to find clues or items.
-- **Current Hypothesis:** The Secret Key for Cinnabar Gym is on Route 20.
-- **Test Plan:** Systematically explore Route 20, battle all trainers, and investigate all areas until the key is found or the route is fully cleared, which would disprove the hypothesis.
 
 ## VI. Future Agent & Tool Ideas
 - **Battle Outcome Logger Tool:** A tool that takes battle outcome data (move, attacker type, defender type, effectiveness message) and automatically logs the confirmed matchup in the notepad. This will prevent knowledge management failures.
