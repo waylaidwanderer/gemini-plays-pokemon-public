@@ -75,3 +75,8 @@
 
 ### Alternative Hypotheses
 - **Route 37/Underground Blockades:** While they seem story-locked, it's possible they require a specific item or Pokémon in the party to trigger the event. If the Department Store puzzle doesn't lead to progress, I should consider other possibilities.
+
+### Goldenrod Dept. Store Basement Puzzle
+- **Mechanic:** This is a dynamic maze. My position on the map causes walls to appear or disappear and NPCs (Black Belts) to move, opening and closing paths.
+- **Observation 1:** Interacting with the Black Belt at (4, 8) makes him tell me to leave. He blocks the path west.
+- **Observation 2:** Moving from (5, 8) to (5, 9) caused the WALL at (10, 13) to become a FLOOR tile.
