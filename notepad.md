@@ -28,15 +28,10 @@
 - **Warp Reuse:** To reuse a warp you just came through, you must step off the warp tile and then back on to trigger it.
 
 ## II. Current Hypotheses & Puzzles
-
-### A. Primary Hypothesis: Exploring Route 20
-- **Objective:** Fully explore Route 20 to find clues or items.
-- **Current Hypothesis:** The Secret Key for Cinnabar Gym is on Route 20.
+- **Primary Hypothesis:** The Secret Key for Cinnabar Gym is on Route 20.
 - **Test Plan:** Systematically explore Route 20, battle all trainers, and investigate all areas until the key is found or the route is fully cleared, which would disprove the hypothesis.
 
 ## III. Tool & Agent Development Log
-
-### A. Tool Maintenance Log
 - **`find_path` tool failures (Turns 59503 - 59576):** The tool has repeatedly failed due to a flawed script. The issues included: not automatically finding adjacent paths to impassable tiles, not recognizing `cuttable` tiles, and not handling one-way `ledge` traversal. These issues were fixed through multiple, delayed revisions.
 - **`exploration_assistant_agent` failures (Turns 59551, 59554):** The agent initially used flawed fuzzy logic to match markers to sprites, resulting in useless plans. It was refined to require exact coordinate matching.
 
