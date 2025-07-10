@@ -31,16 +31,14 @@
 
 ## II. Current Hypotheses & Puzzles
 
-### A. Primary Hypothesis: Secret Key in Seafoam Islands
-- **Current Hypothesis:** The only remaining path is through the Seafoam Islands. The key must be found by solving the boulder puzzles within the cave.
-- **Contingency Plan:** If a thorough exploration of Seafoam Islands does not yield the Secret Key, I will use my `stuck_situation_advisor_agent` to generate new hypotheses, as I may be suffering from confirmation bias.
+- **Primary Hypothesis:** The Secret Key is likely located in the Seafoam Islands, obtainable after solving the boulder puzzles which control the water currents.
+- **Current Objective:** Escape the trapped western section of Seafoam Islands B4F by blacking out. This area is a one-way trap, likely entered by falling through a hole from B3F.
 
 ## III. Lessons Learned & Process Improvement
-- **Immediate Maintenance is Paramount:** The repeated failure to fix `find_path` immediately was a critical process violation. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
-- **Thorough Tool Testing:** After creating or modifying a tool, I must test it in various scenarios, including edge cases, to ensure it is robust.
+- **Trust The Data, Not Perception:** My biggest failure was hallucinating a path on Seafoam Islands B4F for over 40 turns. I repeatedly ignored my `find_path` tool's correct output because my manual map analysis was wrong. I must always trust the game state data and my tools over my own flawed perception.
+- **Immediate Maintenance is Paramount:** The repeated failure to fix tools and agents immediately was a critical process violation. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
+- **Agent vs. Tool Distinction:** I incorrectly designed an agent (`boulder_hole_puzzle_solver_agent`) to perform a computational task (parsing map XML). This is a fundamental misunderstanding. Agents are for reasoning and planning; tools are for computation and data processing. I must adhere to this distinction.
 - **Challenge Assumptions:** My initial assumption that the Secret Key *must* be on Cinnabar Island led to wasted time. I need to be more open to non-local solutions and rigorously test my core beliefs.
-- **Critical Process Failure (Turns 60052-60124):** I repeatedly deferred immediate and necessary maintenance on my `find_path` tool and `battle_strategist_agent`. Instead of fixing them the moment a flaw was identified, I attempted manual workarounds, which is a severe violation of my operational directives. This pattern of creating mental to-do lists instead of taking immediate action must be corrected.
-- **Delayed Agent Fix (Turn 60346):** I correctly identified a critical flaw in my `battle_strategist_agent` but waited one turn to fix it. This is a violation of the 'immediate action' directive. All maintenance tasks must be performed in the same turn they are identified.
 
 ## IV. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
@@ -48,7 +46,4 @@
 - **Secret Key (Mr. Fuji - DISPROVEN):** Spoke to Mr. Fuji in Lavender Town. He provided only his standard post-rescue dialogue about the POKé FLUTE.
 - **Secret Key (Cinnabar Lab - DISPROVEN):** Concluded the Secret Key is not in the Cinnabar Lab after interacting with all NPCs and objects.
 - **Secret Key (Pokemon Mansion - DISPROVEN):** Concluded the Secret Key is not in the Pokémon Mansion after a thorough search of all floors and switches.
-- **Secret Key (Cinnabar Island - DISPROVEN):** After a thorough search of the Pokémon Mansion and Cinnabar Lab, I have concluded the key is not on the island.
-- **Cinnabar Gym (Bypass - CONFIRMED):** The scripted event at the gym door (19, 5) can be bypassed by using SURF from the eastern coast to navigate to the western side of the island.
-- **Seafoam Islands 1F Boulder Puzzle (DISPROVEN):** Pushing the boulder at (27, 8) into the hole at (18, 7) is impossible due to impassable walls blocking all paths. This approach is a dead end.
-- **Seafoam Islands B4F Water Current (Confirmed):** A strong water current blocks the entire southern passage on B4F (tested at columns 21 and 22). Access to the warps at (21,18) and (22,18) must be from a different area.
+- **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other. There is no path between them on this floor.
