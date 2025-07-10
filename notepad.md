@@ -2,8 +2,8 @@
 
 ## I. Current Objectives
 *   **Primary Goal:** Find and defeat the next Gym Leader in Olivine City.
-*   **Secondary Goal:** Find more BERRIES to heal the sick Miltank.
-*   **Tertiary Goal:** Explore new areas accessible with the move SURF.
+*   **Secondary Goal:** Explore new areas accessible with the move STRENGTH.
+*   **Tertiary Goal:** Find more BERRIES to heal the sick Miltank.
 
 ## II. Game Systems & Mechanics
 
@@ -57,13 +57,12 @@
 *   **PLAIN BADGE**
 *   **FOG BADGE** (Allows use of SURF outside battle, makes Pokémon up to L50 obey)
 
-## V. Completed Puzzles & Gyms
+## V. Completed Objectives & Puzzles
 *   **Ecruteak Gym:** Solved the invisible path puzzle and defeated Gym Leader Morty.
+*   **HM04 (STRENGTH):** Obtained from a sailor in the Olivine Cafe.
 
 ## VI. Exploration & Route Plans
 1.  Explore all of Olivine City, including the Mart and Lighthouse.
-2.  Find the Gym Leader.
-3.  Investigate paths that require Strength.
-
-## VII. Completed Objectives
-*   **HM04 (STRENGTH):** Obtained from a sailor in the Olivine Cafe.
+2.  Investigate the other unmarked warp at (13, 15).
+3.  Find the Gym Leader at the Lighthouse.
+4.  Investigate paths that require Strength.
