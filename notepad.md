@@ -14,6 +14,7 @@
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
 - **Elevated Ground:** Walkable ground at a different elevation, accessible only via `steps`.
 - **Water Current:** A scripted event on some water tiles that forces movement in a specific direction, blocking passage. Confirmed on Seafoam Islands B4F at (21,17) and (22,17).
+- **Surf from Elevation:** It is not possible to initiate SURF from an `elevated_ground` tile. You must be on a tile at the same level as the water (e.g., `ground`, `steps`).
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -36,9 +37,10 @@
 
 ## III. Lessons Learned & Process Improvement
 - **Immediate Maintenance is Paramount:** The repeated failure to fix tools and agents immediately was a critical process violation. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
-- **Agent vs. Tool Distinction:** I correctly identified that an agent should not be used for a computational task (parsing map XML). This is a fundamental understanding that must be adhered to. Agents are for reasoning and planning; tools are for computation and data processing.
 - **Challenge Assumptions:** My assumption that the eastern and western sections of the Seafoam Islands were connected was wrong. I need to be more open to the possibility of isolated, separate dungeon areas.
-- **Automation Opportunity:** Manually planning boulder pushes is inefficient. I should create a `boulder_push_planner` tool to automate this.
+- **Automation Opportunity:** Manually planning boulder pushes is inefficient. The `boulder_push_planner` tool should automate this.
+- **Tool Reliability:** The `boulder_push_planner` correctly identified an unreachable puzzle, proving its logic is sound. This reinforces the need to trust my tools once they are properly built and tested.
+- **Map Marker Discipline:** I must stop creating redundant markers for objects already tracked in the game state (NPCs, signs, etc.). This clutters my map memory and is inefficient.
 
 ## IV. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
@@ -47,4 +49,3 @@
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other. There is no path between them on this floor.
 - **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. The game state has confirmed a path to the southern warps exists, despite the water current.
 - **Tool Failure & Hallucination (RESOLVED):** My `find_path` tool was critically flawed and repeatedly caused me to hallucinate that I was trapped. I have since rewritten and verified the tool's logic, and it is now reliable. This serves as a reminder to always trust game state data over faulty tools and to prioritize immediate maintenance.
-- **Surf from Elevation:** It is not possible to initiate SURF from an `elevated_ground` tile. You must be on a tile at the same level as the water (e.g., `ground`, `steps`).
