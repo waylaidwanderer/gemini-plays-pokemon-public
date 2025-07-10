@@ -80,3 +80,4 @@
 - **Mechanic:** This is a dynamic maze. My position on the map causes walls to appear or disappear and NPCs (Black Belts) to move, opening and closing paths.
 - **Observation 1:** Interacting with the Black Belt at (4, 8) makes him tell me to leave. He blocks the path west.
 - **Observation 2:** Moving from (5, 8) to (5, 9) caused the WALL at (10, 13) to become a FLOOR tile.
+- **Observation 3:** Moving from (8, 7) to (8, 8) caused the WALL at (11, 12) to become a FLOOR tile.
