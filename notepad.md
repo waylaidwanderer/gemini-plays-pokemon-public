@@ -2,7 +2,7 @@
 
 ## I. Current Objectives
 *   **Primary Goal:** Find and defeat the Olivine City Gym Leader.
-*   **Secondary Goal:** Use the SQUIRTBOTTLE on the strange tree on Route 37.
+*   **Secondary Goal:** Travel to Ecruteak City.
 *   **Tertiary Goal:** Find the Coin Case.
 
 ## II. Game Systems & Mechanics
@@ -44,7 +44,7 @@
 *   **Haircuts:** Increases a Pokémon's happiness.
 
 ## III. Key Items, HMs & TMs
-*   **Key Items:** SQUIRTBOTTLE, GOOD ROD
+*   **Key Items:** SQUIRTBOTTLE, GOOD ROD, COIN CASE
 *   **HMs:** HM01 (CUT), HM03 (SURF), HM04 (STRENGTH)
 *   **TMs:** 
     * TM08 (ROCK SMASH)
@@ -60,16 +60,12 @@
 *   **PLAIN BADGE**
 *   **FOG BADGE** (Allows use of SURF outside battle, makes Pokémon up to L50 obey)
 
-## V. Current Obstacles & Puzzles
-*   **Olivine Lighthouse:** The Gym Leader is not in the Gym, but at the Lighthouse. The stairs on 1F are non-functional. A sailor's dialogue implies the lighthouse beacon must be lit before I can proceed.
-*   **Goldenrod Underground:** The path forward is blocked by a Super Nerd in a dialogue loop and a locked door in the northern section. I was unable to break the dialogue loop by pressing A, B, or Start, suggesting I am missing a prerequisite to proceed in this area.
-### Route 37 Trainer Puzzle (Formerly Strange Tree)
-- **Observation:** Two objects resembling trees at (6, 12) and (7, 12) block the path.
-- **Hypothesis 1:** The trees are a puzzle requiring the SQUIRTBOTTLE.
-- **Test 1:** Used SQUIRTBOTTLE from the menu. Result: Failed. Text read "But nothing happened...".
-- **Hypothesis 2:** Interacting with the object directly with 'A' will trigger an event.
-- **Test 2:** Pressed 'A' while facing the object at (6, 12). Result: Triggered a repeating dialogue loop.
-- **Hypothesis 3:** Pressing 'B' will break the loop.
-- **Test 3:** Pressed 'B'. Result: Failed. The dialogue loop continued.
-- **Test 4:** Pressed 'Start'. Result: Failed. The dialogue loop continued.
-- **Hypothesis 5:** Pressing 'Select' will break the loop.
+## V. Blocked Paths & Story Gates
+### Route 37 Trainer Blockade
+- **Location:** (6, 12) and (7, 12).
+- **Blockade:** Two trainers (Twins Ann & Anne) disguised as trees block the path north.
+- **Behavior:** Interacting with them triggers a repeating dialogue loop ("my POKéMON are thinking.").
+- **Conclusion:** This appears to be a story-based roadblock. Standard interactions have failed (A, B, Start, Select buttons; SQUIRTBOTTLE). Progress is likely gated behind another story event, possibly related to the Olivine City Gym. Will return later.
+
+### Goldenrod Underground
+- The path forward is blocked by a Super Nerd in a dialogue loop and a locked door in the northern section. I was unable to break the dialogue loop by pressing A, B, or Start, suggesting I am missing a prerequisite to proceed in this area.
