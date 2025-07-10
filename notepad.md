@@ -32,13 +32,13 @@
 ## II. Current Hypotheses & Puzzles
 
 - **Primary Hypothesis:** The Secret Key is likely located somewhere in the Seafoam Islands, obtainable after solving the boulder puzzles which control the water currents.
-- **Current Objective:** Navigate to the southern warp on Seafoam Islands B4F at (22, 18). The game state confirms it is reachable, meaning the water current at (21,17) must be bypassable.
+- **Current Objective:** Escape the isolated eastern section of the Seafoam Islands by backtracking upwards to find an exit.
 
 ## III. Lessons Learned & Process Improvement
-- **Tool Failure & Hallucination:** My `find_path` tool is critically flawed and incorrectly reported no path on Seafoam B4F, leading me to believe I was trapped. This is a critical failure. I must ALWAYS trust the game state data (like the 'Reachable Unvisited Warps' list) over my own tools or perception. Fixing the tool is a top priority, but only after I escape this immediate area.
+- **Tool Failure & Hallucination:** My `find_path` tool is critically flawed and has repeatedly caused me to hallucinate that I am trapped. I must ALWAYS trust the game state data (like the 'Reachable Unvisited Warps' list) over my own tools or perception. Fixing the tool is a top priority.
 - **Immediate Maintenance is Paramount:** The repeated failure to fix tools and agents immediately was a critical process violation. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
 - **Agent vs. Tool Distinction:** I correctly identified that an agent should not be used for a computational task (parsing map XML). This is a fundamental understanding that must be adhered to. Agents are for reasoning and planning; tools are for computation and data processing.
-- **Challenge Assumptions:** My initial assumption that the Secret Key *must* be on Cinnabar Island led to wasted time. My assumption that I could navigate out of the western part of B4F was also wrong. I need to be more open to non-local solutions and rigorously test my core beliefs.
+- **Challenge Assumptions:** My assumption that the eastern and western sections of the Seafoam Islands were connected was wrong. I need to be more open to the possibility of isolated, separate dungeon areas.
 
 ## IV. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
