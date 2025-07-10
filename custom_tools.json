@@ -62,5 +62,40 @@
     "description": "Extracts and returns a JSON list of all impassable tile coordinates from the current map XML.",
     "input_schema": {},
     "python_script": "import xml.etree.ElementTree as ET; import json; root = ET.fromstring(map_xml_string); impassable_tiles = []; for row_elem in root.findall('Row'): y = int(row_elem.get('id')); for tile_elem in row_elem.findall('Tile'): x = int(tile_elem.get('id')); if tile_elem.get('type') == 'impassable' or tile_elem.find('Object') is not None: impassable_tiles.append({'x': x, 'y': y}); print(json.dumps(impassable_tiles))"
+  },
+  "boulder_push_planner": {
+    "description": "Analyzes the map to find a sequence of moves for the player to push a specific boulder to a specific hole. It considers impassable terrain and other objects.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "boulder_start_x": {
+          "type": "string"
+        },
+        "boulder_start_y": {
+          "type": "string"
+        },
+        "hole_x": {
+          "type": "string"
+        },
+        "hole_y": {
+          "type": "string"
+        },
+        "player_x": {
+          "type": "string"
+        },
+        "player_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "boulder_start_x",
+        "boulder_start_y",
+        "hole_x",
+        "hole_y",
+        "player_x",
+        "player_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\n\ndef get_impassable_tiles(exclude_boulder_pos=None):\n    impassable = set()\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id')) - 1\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id')) - 1\n            pos = (x, y)\n            if exclude_boulder_pos and pos == exclude_boulder_pos:\n                continue\n            tile_type = tile_elem.get('type')\n            if tile_type in ['impassable', 'boulder_barrier', 'closed_gate'] or tile_elem.find('Object') is not None:\n                impassable.add(pos)\n    return impassable\n\nplayer_start_x, player_start_y = int(input_data['player_x']) - 1, int(input_data['player_y']) - 1\nboulder_x, boulder_y = int(input_data['boulder_start_x']) - 1, int(input_data['boulder_start_y']) - 1\nhole_x, hole_y = int(input_data['hole_x']) - 1, int(input_data['hole_y']) - 1\n\nstart_state = (player_start_x, player_start_y, boulder_x, boulder_y)\nqueue = deque([(start_state, [])])\nvisited = {start_state}\n\nimpassable_static = get_impassable_tiles()\n\npath_found = False\nfinal_path = []\n\nwhile queue:\n    (px, py, bx, by), path = queue.popleft()\n\n    if (bx, by) == (hole_x, hole_y):\n        path_found = True\n        final_path = path\n        break\n\n    # Player moves\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        npx, npy = px + dx, py + dy\n        if not (0 <= npx < width and 0 <= npy < height):\n            continue\n        if (npx, npy) == (bx, by) or (npx, npy) in impassable_static:\n            continue\n        \n        new_state = (npx, npy, bx, by)\n        if new_state not in visited:\n            visited.add(new_state)\n            queue.append((new_state, path + [{'type': 'move', 'x': npx + 1, 'y': npy + 1}]))\n\n    # Push moves\n    for dx, dy, push_dir in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n        # Player must be adjacent to boulder, opposite to push direction\n        if (px, py) == (bx - dx, by - dy):\n            nbx, nby = bx + dx, by + dy # New boulder position\n            if not (0 <= nbx < width and 0 <= nby < height):\n                continue\n            if (nbx, nby) in impassable_static:\n                continue\n            \n            new_state = (bx, by, nbx, nby) # Player moves onto boulder's old spot\n            if new_state not in visited:\n                visited.add(new_state)\n                queue.append((new_state, path + [{'type': 'push', 'direction': push_dir, 'boulder_end_x': nbx + 1, 'boulder_end_y': nby + 1}]))\n\nif path_found:\n    print(json.dumps({'path': final_path, 'reasoning': 'Found a sequence of moves to push the boulder into the hole.'}))\nelse:\n    print(json.dumps({'path': [], 'reasoning': 'Could not find a path to push the boulder into the hole.'}))"
   }
 }
