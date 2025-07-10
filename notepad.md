@@ -31,7 +31,7 @@
 ## II. Current Hypotheses & Puzzles
 
 - **Primary Hypothesis (from Agent):** The eastern (boulder puzzle) and western sections of Seafoam Islands are two separate, unconnected dungeons. To access the boulder puzzles, I must exit and re-enter from the Route 19 side (near Fuchsia City), as my current entry from Route 20 is the 'exit' path.
-- **Current Objective:** Exit Seafoam Islands, fly to Fuchsia City, and find the alternate entrance on Route 19.
+- **Seafoam Islands Entrance (DISPROVEN):** Thoroughly explored Route 19 and found no alternate entrance to the Seafoam Islands. This hypothesis is incorrect.
 - **Secondary Hypothesis (from Agent):** The Secret Key might not be in Seafoam Islands at all, but in its original location (Pokémon Mansion). If the new entrance doesn't lead to the key, this will be my next investigation.
 
 ## III. Lessons Learned & Process Improvement
