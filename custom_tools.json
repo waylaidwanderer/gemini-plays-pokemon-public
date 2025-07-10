@@ -14,29 +14,6 @@
     },
     "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntarget_id = input_data['object_id']\nroot = ET.fromstring(map_xml_string)\nfound = False\nfor row in root.findall('Row'):\n    y = row.get('id')\n    for tile in row.findall('Tile'):\n        x = tile.get('id')\n        for obj in tile.findall('Object'):\n            if obj.get('id') == target_id:\n                print(json.dumps({'x': x, 'y': y}))\n                found = True\n                break\n        if found:\n            break\n    if found:\n        break\n\nif not found:\n    print(json.dumps({'error': 'Object not found on screen.'}))"
   },
-  "battle_menu_selector": {
-    "description": "Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN). This tool can only be used during a battle when the main battle menu is visible. It cannot be used if a sub-menu is open. **You should always prefer using this tool over manually selecting the option, especially when struggling to select the correct option.**",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "option_to_select": {
-          "type": "string",
-          "enum": [
-            "FIGHT",
-            "PKMN",
-            "PACK",
-            "RUN"
-          ],
-          "description": "The main battle menu option you want to automatically select"
-        }
-      },
-      "required": [
-        "option_to_select"
-      ],
-      "additionalProperties": false
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\noption_to_select = input_data['option_to_select']\n\n# This script will now always print the correct button press for the selected option.\nif option_to_select == 'FIGHT':\n    print(json.dumps({'button': 'A'}))\nelif option_to_select == 'PKMN':\n    print(json.dumps({'button': 'Right'}))\nelif option_to_select == 'PACK':\n    print(json.dumps({'button': 'Down'}))\nelif option_to_select == 'RUN':\n    print(json.dumps({'button': 'B'}))\n"
-  },
   "warp_scanner": {
     "description": "Scans the current map XML and returns the coordinates of all warp tiles that do not have a map marker.",
     "input_schema": {},
