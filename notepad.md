@@ -13,18 +13,19 @@
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`.
+*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `WINDOW`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`.
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile).
 *   **One-Way Ledges:** 
-    * `LEDGE_HOP_DOWN/LEFT/RIGHT`.
+    * `LEDGE_HOP_DOWN/RIGHT`.
+    * `LEDGE_HOP_LEFT`: A one-way ledge that can only be hopped **LEFT**.
     * `FLOOR_UP_WALL`: A one-way ledge that can only be hopped **UP**.
 *   **Special Requirement:** 
     * `CUT_TREE` (Requires HM01 Cut).
     * `WATER` (Requires HM03 Surf).
     * `BREAKABLE_ROCK` (Requires Rock Smash).
 *   **Complex Tiles:**
-    *   `WARP_CARPET_DOWN/LEFT`: Activated by pressing the corresponding direction while standing on the tile.
+    *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
     *   `PIT`: A hole in the floor that acts as a warp. Stepping on it triggers the warp.
 
 ### Other Mechanics
@@ -57,10 +58,3 @@
 
 ## V. Completed Puzzles & Gyms
 *   **Ecruteak Gym:** Solved the invisible path puzzle and defeated Gym Leader Morty.
-*   `WARP_CARPET_RIGHT`: Activated by pressing 'Right' while standing on the tile.
-*   **FENCE:** Impassable tile that acts like a wall.
-*   **LEDGE_HOP_LEFT:** A one-way ledge that can only be hopped **LEFT**.
-*   **FENCE:** Impassable tile that acts like a wall.
-*   **LEDGE_HOP_LEFT:** A one-way ledge that can only be hopped **LEFT**.
-*   **FENCE:** Impassable tile that acts like a wall.
-*   **LEDGE_HOP_LEFT:** A one-way ledge that can only be hopped **LEFT**.
