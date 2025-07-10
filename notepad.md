@@ -12,7 +12,7 @@
 - **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls.
 - **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
-- **Elevated Ground:** Walkable ground at a different elevation, accessible via `steps`.
+- **Elevated Ground:** Walkable ground at a different elevation, accessible only via `steps`.
 - **Water Current:** A scripted event on some water tiles that forces movement in a specific direction, blocking passage.
 
 ### B. Confirmed ROM Hack Changes
@@ -32,7 +32,7 @@
 ## II. Current Hypotheses & Puzzles
 
 ### A. Primary Hypothesis: Secret Key in Seafoam Islands
-- **New Hypothesis:** The only remaining path is through the Seafoam Islands. The key must be found by solving the boulder puzzles within the cave.
+- **Current Hypothesis:** The only remaining path is through the Seafoam Islands. The key must be found by solving the boulder puzzles within the cave.
 - **Contingency Plan:** If a thorough exploration of Seafoam Islands does not yield the Secret Key, I will use my `stuck_situation_advisor_agent` to generate new hypotheses, as I may be suffering from confirmation bias.
 
 ## III. Lessons Learned & Process Improvement
@@ -44,19 +44,11 @@
 
 ## IV. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
-- **Paused Puzzle: Route 9 Trainer (Cool Trainer M2):** Paused after 4 failed hypotheses. The trigger is not obvious.
 - **Secret Key (Cinnabar Coast - DISPROVEN):** Surfed along the entire coastline of Cinnabar Island and found no hidden paths or items.
 - **Secret Key (Mr. Fuji - DISPROVEN):** Spoke to Mr. Fuji in Lavender Town. He provided only his standard post-rescue dialogue about the POKé FLUTE.
 - **Secret Key (Cinnabar Lab - DISPROVEN):** Concluded the Secret Key is not in the Cinnabar Lab after interacting with all NPCs and objects.
 - **Secret Key (Pokemon Mansion - DISPROVEN):** Concluded the Secret Key is not in the Pokémon Mansion after a thorough search of all floors and switches.
 - **Secret Key (Cinnabar Island - DISPROVEN):** After a thorough search of the Pokémon Mansion and Cinnabar Lab, I have concluded the key is not on the island.
-- **Cinnabar Lab (Photo - DISPROVEN):** Interacted with the photo of Dr. Fuji at (4, 3). It provided only flavor text.
 - **Cinnabar Gym (Bypass - CONFIRMED):** The scripted event at the gym door (19, 5) can be bypassed by using SURF from the eastern coast to navigate to the western side of the island.
-- **Pokemon Mansion B1F (Gate Switch):** A switch at (19, 26) toggles two sets of gates using a 'prime and trigger' mechanic. Flip the switch to prime a set, then walk to them to open.
-- **Pokemon Mansion 1F (Statue Switch):** A secret statue switch at (3, 6) opens the eastern gates at (17,8).
-- **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12).
-- **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
-- **Secret Key (New Hypothesis):** If exploring the remaining water routes (like Route 19) does not yield the Secret Key, I must consider that it is in a non-obvious, potentially non-aquatic location that requires revisiting an old area.
-- **Steps & Elevated Ground:** `steps` tiles allow vertical movement between `ground` and `elevated_ground` tiles. `elevated_ground` is walkable but at a different height, accessible only via `steps`.
 - **Seafoam Islands 1F Boulder Puzzle (DISPROVEN):** My `boulder_hole_puzzle_solver` agent concluded that pushing the boulder at (27, 8) into the hole at (18, 7) is impossible due to impassable walls blocking all paths. This approach is a dead end.
-- **B4F Water Current (Confirmed):** A strong water current blocks the entire southern passage on B4F (tested at columns 21 and 22). Access to the warps at (21,18) and (22,18) must be from a different area.
+- **Seafoam Islands B4F Water Current (Confirmed):** A strong water current blocks the entire southern passage on B4F (tested at columns 21 and 22). Access to the warps at (21,18) and (22,18) must be from a different area.
