@@ -70,3 +70,4 @@
         *   Hypothesis 3: Approach warp tile from a specific direction (e.g., above). Result: Failed.
         *   Hypothesis 4: Move between the two adjacent warp tiles. Result: Failed.
         *   Conclusion: Simple movement/interaction does not seem to work. An external trigger may be required.
+*   **Untested:** `unknown` (player is currently standing on this tile type in Olivine City).
