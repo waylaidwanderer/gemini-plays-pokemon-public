@@ -57,3 +57,4 @@
 - **Pokemon Mansion 3F (Alternating Gates - SOLVED):** The switch at (11, 6) toggles two sets of gates. Activating it opens the northern gates at (16, 5-6) and closes the southern gates at (16, 11-12).
 - **Pokemon Mansion 1F (Alternating Gates - Confirmed):** Walking through the gates at (17, 8) and (18, 8) causes them to close. This confirms the alternating door mechanic is present on this floor, likely controlled by the statue switch at (3, 6).
 - **Secret Key (New Hypothesis):** If exploring the remaining water routes (like Route 19) does not yield the Secret Key, I must consider that it is in a non-obvious, potentially non-aquatic location that requires revisiting an old area.
+- **Steps & Elevated Ground:** `steps` tiles allow vertical movement between `ground` and `elevated_ground` tiles. `elevated_ground` is walkable but at a different height, accessible only via `steps`.
