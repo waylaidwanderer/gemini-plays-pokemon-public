@@ -50,5 +50,5 @@
 - **Secret Key (Pokemon Mansion - DISPROVEN):** Concluded the Secret Key is not in the Pokémon Mansion after a thorough search of all floors and switches.
 - **Secret Key (Cinnabar Island - DISPROVEN):** After a thorough search of the Pokémon Mansion and Cinnabar Lab, I have concluded the key is not on the island.
 - **Cinnabar Gym (Bypass - CONFIRMED):** The scripted event at the gym door (19, 5) can be bypassed by using SURF from the eastern coast to navigate to the western side of the island.
-- **Seafoam Islands 1F Boulder Puzzle (DISPROVEN):** My `boulder_hole_puzzle_solver` agent concluded that pushing the boulder at (27, 8) into the hole at (18, 7) is impossible due to impassable walls blocking all paths. This approach is a dead end.
+- **Seafoam Islands 1F Boulder Puzzle (DISPROVEN):** Pushing the boulder at (27, 8) into the hole at (18, 7) is impossible due to impassable walls blocking all paths. This approach is a dead end.
 - **Seafoam Islands B4F Water Current (Confirmed):** A strong water current blocks the entire southern passage on B4F (tested at columns 21 and 22). Access to the warps at (21,18) and (22,18) must be from a different area.
