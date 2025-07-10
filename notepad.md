@@ -74,3 +74,10 @@
 
 ## Blockades & Puzzles
 *   **Olivine Lighthouse:** The stairs on 1F are non-functional. All exploration attempts have failed. The sailor's dialogue implies the lighthouse beacon must be lit before I can proceed, and that I cannot leave Olivine City by sea until this is resolved. Using SURF near the pier results in the animation playing but the 'walking' state persists, preventing sea travel.
+
+## VII. Current Travel Plan
+*   **Objective:** Travel to Goldenrod City to solve the box puzzle in the underground using STRENGTH.
+*   **Route:** Olivine City -> Route 39 -> Route 38 -> Route 37 -> Route 36 -> National Park -> Route 35 -> Goldenrod City.
+
+## VIII. Untested Discoveries
+*   **Olivine City `unknown` tile:** Must test this tile type upon returning to Olivine City.
