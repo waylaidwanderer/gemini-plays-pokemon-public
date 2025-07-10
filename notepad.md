@@ -70,3 +70,10 @@
   1. Return to B1F via the warp at (22, 24).
   2. Systematically test the switch at (19, 26) to find all possible gate configurations.
   3. Explore any new paths that open.
+
+## Revised Plan (Turn 61602)
+- **Observation:** The warp to the basement at (22, 24) is unreachable from the western side of the mansion.
+- **New Hypothesis:** I must first cross over to the eastern side of the mansion to access the basement warp.
+- **Test Plan:**
+  1. Navigate to the eastern corridor of the 1st floor.
+  2. From there, locate and use the warp to the basement.
