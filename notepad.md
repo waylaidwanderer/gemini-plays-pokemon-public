@@ -30,8 +30,7 @@
 ## II. Current Hypotheses & Puzzles
 
 ### A. Primary Hypothesis: Secret Key on Route 20
-- **Hypothesis:** The Secret Key for Cinnabar Gym is located somewhere on Route 20.
-- **Test Plan:** Systematically explore all reachable unseen tiles on Route 20. If all tiles are explored and all trainers are defeated without finding the key, the hypothesis will be disproven.
+- **Secret Key (Route 20 West - DISPROVEN):** Explored the western water segment of Route 20 and the Seafoam Islands. No key was found.
 
 ## III. Lessons Learned & Process Improvement
 - **Immediate Maintenance is Paramount:** The repeated failure to fix `find_path` immediately was a critical process violation. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
