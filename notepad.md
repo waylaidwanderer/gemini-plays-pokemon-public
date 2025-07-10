@@ -73,12 +73,12 @@
 - **Behavior:** Interacting with him triggers a repeating dialogue loop ("I guess I have to do things fair and square…"). No battle occurs.
 - **Conclusion:** This path is story-locked, similar to the Route 37 trainers. I will not attempt this path again until I have a clear reason to believe it is open.
 
-### Alternative Hypotheses
-- **Route 37/Underground Blockades:** While they seem story-locked, it's possible they require a specific item or Pokémon in the party to trigger the event. If the Department Store puzzle doesn't lead to progress, I should consider other possibilities.
-
+## VI. Puzzle Solutions & Observations
 ### Goldenrod Dept. Store Basement Puzzle
-- **Mechanic:** This is a dynamic maze. My position on the map causes walls to appear or disappear and NPCs (Black Belts) to move, opening and closing paths.
-- **Observation 1:** Interacting with the Black Belt at (4, 8) makes him tell me to leave. He blocks the path west.
-- **Observation 2:** Moving from (5, 8) to (5, 9) caused the WALL at (10, 13) to become a FLOOR tile.
-- **Observation 3:** Moving from (8, 7) to (8, 8) caused the WALL at (11, 12) to become a FLOOR tile.
-- **Observation 4:** Moving from (8, 8) to (8, 9) caused the WALL at (11, 13) to become a FLOOR tile.
+- **Mechanic:** This is a dynamic maze. My position on the map causes walls to appear or disappear and NPCs (Black Belts) to move, opening and closing paths. The goal is to reach the ladder at (17, 2).
+- **Known Triggers:**
+    1. Interacting with the Black Belt at (4, 8) makes him block the path west.
+    2. Moving from (5, 8) to (5, 9) causes the WALL at (10, 13) to become a FLOOR tile.
+    3. Moving from (8, 7) to (8, 8) causes the WALL at (11, 12) to become a FLOOR tile.
+    4. Moving from (8, 8) to (8, 9) causes the WALL at (11, 13) to become a FLOOR tile.
+- **Hypothesis:** A specific sequence of movements is required to open the path to the ladder.
