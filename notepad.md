@@ -62,3 +62,4 @@
 ## VI. Future Development Ideas
 - **Objective Planner Agent:** An agent that analyzes my current progress (badges, level cap, key items) and suggests the next logical major objective, helping to guide my long-term strategy when the path isn't clear.
 - **Puzzle Strategist Agent:** An agent that can analyze map layouts with complex switch or teleporter puzzles and devise a high-level plan to solve them. This would be useful for places like the Pokémon Mansion or Saffron Gym.
+- **Pokémon Mansion 3F Access (DISPROVEN):** The main staircase on the eastern side of 2F at (27, 2) leads *down* to 1F, not up to 3F. This hypothesis is incorrect.
