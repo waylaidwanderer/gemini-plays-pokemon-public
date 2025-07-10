@@ -69,3 +69,9 @@
 
 ### Goldenrod Underground
 - The path forward is blocked by a Super Nerd in a dialogue loop and a locked door in the northern section. I was unable to break the dialogue loop by pressing A, B, or Start, suggesting I am missing a prerequisite to proceed in this area.
+
+### Goldenrod Underground Blockade
+- **Location:** (5, 31).
+- **Blockade:** A Super Nerd blocks the path south.
+- **Behavior:** Interacting with him triggers a repeating dialogue loop ("I guess I have to do things fair and square…"). No battle occurs.
+- **Conclusion:** This path is story-locked, similar to the Route 37 trainers. I will not attempt this path again until I have a clear reason to believe it is open.
