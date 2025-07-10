@@ -13,7 +13,7 @@
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `HEADBUTT_TREE`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `PC`, `LINK_RECEPTIONIST`, `WINDOW`.
+*   **Impassable:** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `PC`, `LINK_RECEPTIONIST`, `WINDOW`.
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile).
 *   **One-Way Ledges:** 
@@ -28,7 +28,7 @@
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
     *   `PIT`: A hole in the floor that acts as a warp. Stepping on it triggers the warp.
     *   `2x1 warp tile`: A warp tile that seems to be stairs. Interaction method is currently unknown.
-*   **Untested:** `unknown` (in Olivine City).
+*   **Untested:** `unknown` (in Olivine City), `HEADBUTT_TREE`.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -40,6 +40,7 @@
     *   **HARD STONE:** Powers up rock-type moves.
     *   **PRZCUREBERRY:** Cures paralysis.
     *   **HYPER POTION:** Restores 200 HP.
+    *   **ICE BERRY:** Heals burn.
 *   **Haircuts:** Increases a Pokémon's happiness.
 
 ## III. Key Items, HMs & TMs
@@ -63,3 +64,6 @@
 *   **Olivine Lighthouse:** The stairs on 1F are non-functional. A sailor's dialogue implies the lighthouse beacon must be lit before I can proceed.
 *   **Olivine City Sea Route:** I am currently unable to leave Olivine City by sea. Using SURF near the pier results in the animation playing, but the 'walking' state persists, preventing sea travel. This is likely related to the unlit lighthouse.
 *   **Goldenrod Underground:** The path forward is blocked by a Super Nerd in a dialogue loop and a locked door in the northern section.
+
+## VI. Travel Plans
+*   **Current Route:** Goldenrod City -> Route 35 -> National Park -> Route 36 -> Route 37 -> Ecruteak City -> Route 38 -> Route 39 -> Olivine City.
