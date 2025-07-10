@@ -68,3 +68,6 @@
 3. Investigate any buildings or unique objects encountered (e.g., Moomoo Farm, Tauros). (Completed)
 4. Find more BERRIES for the sick Miltank. (Attempted - trees were empty)
 5. Identify the exit leading towards Olivine City. (Completed)
+
+## VII. HM Locations
+*   **HM?? (STRENGTH):** A sailor in the Olivine Cafe gives this out.
