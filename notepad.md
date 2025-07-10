@@ -34,7 +34,7 @@
 ## II. Current Hypotheses & Puzzles
 
 - **Primary Hypothesis:** The Cinnabar Gym is locked. The Secret Key is required to open it. This key is hidden somewhere within the Pokémon Mansion.
-- **Pokémon Mansion Puzzle:** The mansion has a complex layout with switches that toggle gates and hidden passages. The key is likely in a hard-to-reach area, probably in the basement (B1F), as that's where I found a Scientist who denied knowing about a key. The switch at (19, 26) on B1F seems to control access to the final areas.
+- **Pokémon Mansion 1F Puzzle:** The main switch at (3, 6) toggles between opening the western gates (leading to a dead end) and the eastern gates. The goal is to flip the switch to open the eastern gates and explore that path. The key is likely in a hard-to-reach area, probably in the basement (B1F), accessed via other parts of the mansion.
 
 ## III. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
