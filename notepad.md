@@ -63,3 +63,7 @@
 - **Ground vs. Poison (CONFIRMED):** Tested on a wild Grimer. The battle text confirmed that Ground-type moves are super-effective against Poison-types.
 - **Statue Switches:** Must be activated by standing on the tile directly below the statue (Y+1), facing up, and pressing 'A'.
 - **Automation Opportunity (Future):** A `puzzle_strategist_agent` could be developed to analyze complex dungeon layouts like the Pokémon Mansion, taking into account switch states and map data to propose high-level solutions for reaching specific objectives.
+
+## VI. New Ideas & Strategic Adjustments
+- **Repel Usage:** The constant wild battles in the Pokémon Mansion are a significant time drain. In areas with high encounter rates where I am not actively training, using a Repel would be a more efficient strategy to focus on exploration and puzzle-solving.
+- **Automation Opportunity (Future):** An 'Encounter Management Agent' could be developed. This agent could analyze the current location's encounter rate, the player's goals (exploration vs. training), and party status to recommend actions like using Repels, changing the lead Pokémon to a fast runner, or suggesting a specific area is better for grinding.
