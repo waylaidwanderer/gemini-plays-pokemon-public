@@ -14,7 +14,7 @@
 - **Elevated Ground:** Walkable ground at a different elevation, accessible only via `steps`.
 - **Secret Switches:** Some statues contain hidden switches. Activating them can toggle the state of nearby gates, opening new paths. The switch at (3, 6) on 1F controls the gates at (17, 8) and (18, 8).
 - **Warp Tiles:** Instantaneous teleporters between maps or within the same map. Must step off and back on to reuse.
-- **Gates (`closed_gate`/`open_gate`/`gate_offscreen`):** `closed_gate` tiles are impassable. `open_gate` tiles are open and act as `ground`. `gate_offscreen` represents a gate whose state is unknown. The state of these can be toggled by switches or other triggers.
+- **Gates (`closed_gate`/`open_gate`/`gate_offscreen`):** `closed_gate` tiles are impassable. `open_gate` tiles are open and act as `ground`. `gate_offscreen` represents a gate whose state is unknown but should be treated as traversable if it was previously open. The state of these can be toggled by switches or other triggers.
 - **Unknown Tiles:** Tiles not yet seen (`seen="false"`). Treated as impassable until explored.
 
 ### B. Confirmed ROM Hack Changes
@@ -66,5 +66,3 @@
 
 ## VI. New Ideas & Strategic Adjustments
 - **Repel Usage:** The constant wild battles in the Pokémon Mansion are a significant time drain. In areas with high encounter rates where I am not actively training, using a Repel would be a more efficient strategy to focus on exploration and puzzle-solving.
-- **Automation Opportunity (Future):** An 'Encounter Management Agent' could be developed. This agent could analyze the current location's encounter rate, the player's goals (exploration vs. training), and party status to recommend actions like using Repels, changing the lead Pokémon to a fast runner, or suggesting a specific area is better for grinding.
-- **Gates (`closed_gate`/`open_gate`/`gate_offscreen`):** `closed_gate` tiles are impassable. `open_gate` tiles are open and act as `ground`. `gate_offscreen` represents a gate whose state is unknown but should be treated as traversable if it was previously open. The state of these can be toggled by switches or other triggers.
