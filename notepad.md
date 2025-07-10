@@ -24,7 +24,7 @@
     * `CUT_TREE` (Requires HM01 Cut).
     * `WATER` (Requires HM03 Surf, but is currently blocked in Olivine City).
     * `BREAKABLE_ROCK` (Requires Rock Smash).
-    * `HEADBUTT_TREE` (Requires the move Headbutt. Currently unable to test).
+    * `HEADBUTT_TREE` (Requires the move Headbutt. Confirmed that interacting without the move does nothing).
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
     *   `PIT`: A hole in the floor that acts as a warp. Stepping on it triggers the warp.
