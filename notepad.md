@@ -60,6 +60,3 @@
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** The main stairs on 1F at (6, 2) are unusable. Attempting to ascend results in being blocked. This path is not viable.
 - **Ground vs. Poison (CONFIRMED):** Tested on a wild Grimer. The battle text confirmed that Ground-type moves are super-effective against Poison-types.
 - **Statue Switches:** Must be activated by standing on the tile directly below the statue (Y+1), facing up, and pressing 'A'.
-- **Warp Tiles (`warp`/`hole`/`ladder_up`/`ladder_down`):** These tiles instantly transport the player to another location, either on the same map or a different one. To reuse an instant warp, one must step off and back on.
-- **Gates (`closed_gate`/`open_gate`/`gate_offscreen`):** `closed_gate` tiles are impassable. `open_gate` tiles are open and act as `ground`. `gate_offscreen` represents a gate whose state is unknown until it is on screen. The state of these can be toggled by switches or other triggers.
-- **Unknown Tiles (`unknown`):** Tiles that have not been seen yet. They are treated as impassable until explored.
