@@ -31,7 +31,6 @@
 ## II. Current Hypotheses & Puzzles
 
 - **Primary Hypothesis (from Agent):** The eastern (boulder puzzle) and western sections of Seafoam Islands are two separate, unconnected dungeons. To access the boulder puzzles, I must exit and re-enter from the Route 19 side (near Fuchsia City), as my current entry from Route 20 is the 'exit' path.
-- **Seafoam Islands Entrance (DISPROVEN):** Thoroughly explored Route 19 and found no alternate entrance to the Seafoam Islands. This hypothesis is incorrect.
 - **Secondary Hypothesis (from Agent):** The Secret Key might not be in Seafoam Islands at all, but in its original location (Pokémon Mansion). If the new entrance doesn't lead to the key, this will be my next investigation.
 
 ## III. Lessons Learned & Process Improvement
@@ -48,6 +47,7 @@
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other. There is no path between them on this floor.
 - **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. The game state has confirmed a path to the southern warps exists, despite the water current.
 - **Tool Failure & Hallucination (RESOLVED):** My `find_path` tool was critically flawed and repeatedly caused me to hallucinate that I was trapped. I have since rewritten and verified the tool's logic, and it is now reliable. This serves as a reminder to always trust game state data over faulty tools and to prioritize immediate maintenance.
+- **Seafoam Islands Entrance (DISPROVEN):** Thoroughly explored Route 19 and found no alternate entrance to the Seafoam Islands. This hypothesis is incorrect.
 
 ## V. Future Development Ideas
 - **Objective Planner Agent:** An agent that analyzes my current progress (badges, level cap, key items) and suggests the next logical major objective, helping to guide my long-term strategy when the path isn't clear.
