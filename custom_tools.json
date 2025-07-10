@@ -57,5 +57,10 @@
       ]
     },
     "python_script": "effectiveness_map = {\"super effective\": \">\", \"not very effective\": \"!>\", \"no effect\": \"x>\"}\nsymbol = effectiveness_map[input_data[\"effectiveness\"]]\ndefender_type2_str = f'/{input_data[\"defender_type2\"]}' if input_data.get(\"defender_type2\") else \"\"\nlog_entry = f'- {input_data[\"attacker_type\"]} {symbol} {input_data[\"defender_type1\"]}{defender_type2_str}'\nprint(log_entry)"
+  },
+  "get_impassable_tiles": {
+    "description": "Extracts and returns a JSON list of all impassable tile coordinates from the current map XML.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET; import json; root = ET.fromstring(map_xml_string); impassable_tiles = []; for row_elem in root.findall('Row'): y = int(row_elem.get('id')); for tile_elem in row_elem.findall('Tile'): x = int(tile_elem.get('id')); if tile_elem.get('type') == 'impassable' or tile_elem.find('Object') is not None: impassable_tiles.append({'x': x, 'y': y}); print(json.dumps(impassable_tiles))"
   }
 }
