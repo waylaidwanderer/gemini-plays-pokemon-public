@@ -58,3 +58,11 @@
 
 ## V. Completed Puzzles & Gyms
 *   **Ecruteak Gym:** Solved the invisible path puzzle and defeated Gym Leader Morty.
+
+## VI. Exploration & Route Plans
+
+### Route 39 Exploration Strategy
+1. Defeat all trainers along the main path. (Completed)
+2. Systematically explore all unseen areas of the route using the pathfinder tool.
+3. Investigate any buildings or unique objects encountered (e.g., Moomoo Farm, Tauros).
+4. Identify the exit leading towards Olivine City.
