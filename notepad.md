@@ -64,8 +64,8 @@
 ### Route 37 Trainer Blockade
 - **Location:** (6, 12) and (7, 12).
 - **Blockade:** Two trainers (Twins Ann & Anne) disguised as trees block the path north.
-- **Behavior:** Interacting with them triggers a repeating dialogue loop ("my POKéMON are thinking.").
-- **Conclusion:** This appears to be a story-based roadblock. Standard interactions have failed (A, B, Start, Select buttons; SQUIRTBOTTLE). Progress is likely gated behind another story event, possibly related to the Olivine City Gym. Will return later.
+- **Behavior:** Interacting with them triggers a repeating dialogue loop. Using the SQUIRTBOTTLE from the pack has no effect.
+- **Conclusion:** This path is story-locked. Progress is gated behind an unknown event. I will not attempt this path again until I have a clear reason to believe it is open.
 
 ### Goldenrod Underground
 - The path forward is blocked by a Super Nerd in a dialogue loop and a locked door in the northern section. I was unable to break the dialogue loop by pressing A, B, or Start, suggesting I am missing a prerequisite to proceed in this area.
