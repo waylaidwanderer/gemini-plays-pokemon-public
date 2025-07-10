@@ -63,7 +63,4 @@
 ## V. Blockades & Puzzles
 *   **Olivine Lighthouse:** The stairs on 1F are non-functional. A sailor's dialogue implies the lighthouse beacon must be lit before I can proceed.
 *   **Olivine City Sea Route:** I am currently unable to leave Olivine City by sea. Using SURF near the pier results in the animation playing, but the 'walking' state persists, preventing sea travel. This is likely related to the unlit lighthouse.
-*   **Goldenrod Underground:** The path forward is blocked by a Super Nerd in a dialogue loop and a locked door in the northern section.
-
-## VI. Travel Plans
-*   **Current Route:** Goldenrod City -> Route 35 -> National Park -> Route 36 -> Route 37 -> Ecruteak City -> Route 38 -> Route 39 -> Olivine City.
+*   **Goldenrod Underground:** The path forward is blocked by a Super Nerd in a dialogue loop and a locked door in the northern section. I was unable to break the dialogue loop by pressing A, B, or Start, suggesting I am missing a prerequisite to proceed in this area.
