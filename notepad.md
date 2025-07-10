@@ -86,3 +86,9 @@
 
 ## VII. Untested Hypotheses
 *   **`CUT_TREE` Respawn Conditions:** A `CUT_TREE` at (8, 25) in Ilex Forest respawned. I need to test the exact conditions. Does it happen after a certain number of steps, after leaving the map, or after a certain amount of time? Next time I cut a tree near a map transition, I will immediately leave and re-enter the map to check if it has respawned.
+
+## VIII. Current Plans
+
+### Primary Goal: Defeat Olivine Gym Leader
+*   **Problem:** The Gym Leader, Jasmine, is at the top of the Glitter Lighthouse tending to a sick Ampharos. The path up the lighthouse is not straightforward.
+*   **Current Plan:** Explore Union Cave B1F thoroughly. The cave connects different routes, and this basement level might contain a hidden path or a key item that is necessary to navigate the lighthouse or help the sick Pokémon, which would allow Jasmine to return to the gym.
