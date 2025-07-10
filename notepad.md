@@ -57,3 +57,4 @@
 
 ## V. Completed Puzzles & Gyms
 *   **Ecruteak Gym:** Solved the invisible path puzzle and defeated Gym Leader Morty.
+*   `WARP_CARPET_RIGHT`: Activated by pressing 'Right' while standing on the tile.
