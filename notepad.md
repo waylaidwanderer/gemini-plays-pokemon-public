@@ -12,6 +12,7 @@
 - **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls.
 - **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
+- **Elevated Ground:** Walkable ground at a different elevation, accessible via `steps`.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -32,6 +33,7 @@
 ### A. Primary Hypothesis: Secret Key in Seafoam Islands
 - **Secret Key (Route 20 West & Route 19 South - DISPROVEN):** Explored the western water route from Seafoam Islands and the southern water route from Fuchsia City. Both were dead ends and yielded no key.
 - **New Hypothesis:** The only remaining path is through the Seafoam Islands. The key must be found by solving the boulder puzzles within the cave.
+- **Contingency Plan:** If a thorough exploration of Seafoam Islands does not yield the Secret Key, I will use my `stuck_situation_advisor_agent` to generate new hypotheses, as I may be suffering from confirmation bias.
 
 ## III. Lessons Learned & Process Improvement
 - **Immediate Maintenance is Paramount:** The repeated failure to fix `find_path` immediately was a critical process violation. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
