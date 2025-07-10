@@ -17,7 +17,7 @@
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
-- **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground
+- **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison
 - **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water
 - **Immunities:** Flying-type immune to Ground-type moves; MUK immune to Poison-type moves; HYPNO immune to STUN SPORE (powder moves); MUK immune to THUNDER WAVE (Electric-type status move).
 - **Misc:** Ground is RESISTANT (0.5x) to Fire, NOT immune.
@@ -47,8 +47,6 @@
 - **Mandatory Agent Usage:** I received a critique for failing to use my `battle_strategist_agent` during recent wild encounters, leading to inefficient, error-prone manual control. This is a direct violation of my own documented principles. I must *always* defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 ## IV. Untested Assumptions & Test Plans
-- **Ground vs. Poison:** I am assuming Ground-type moves are super-effective against Poison-types based on standard Pokémon knowledge. This is not confirmed in this ROM hack. 
-  - **Test Plan:** The next time CRAG faces a pure Poison-type, I will use EARTHQUAKE and observe the battle text for effectiveness.
 
 ## V. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
@@ -60,3 +58,4 @@
 - **Seafoam Islands Entrance (DISPROVEN):** Thoroughly explored Route 19 and found no alternate entrance to the Seafoam Islands. This hypothesis is incorrect.
 - **Pokémon Mansion 3F Access (DISPROVEN):** The main staircase on the eastern side of 2F at (27, 2) leads *down* to 1F, not up to 3F. This hypothesis is incorrect.
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** The main stairs on 1F at (6, 2) are unusable. Attempting to ascend results in being blocked. This path is not viable.
+- **Ground vs. Poison (CONFIRMED):** Tested on a wild Grimer. The battle text confirmed that Ground-type moves are super-effective against Poison-types.
