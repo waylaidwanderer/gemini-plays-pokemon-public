@@ -33,8 +33,7 @@
 
 ## II. Current Hypotheses & Puzzles
 
-- **Primary Hypothesis:** The Cinnabar Gym is locked. The Secret Key is required to open it. This key is hidden somewhere within the Pokémon Mansion.
-- **Pokémon Mansion 1F Puzzle (Alternating Gates):** The switch at (3, 6) toggles sets of gates. I've confirmed that flipping the switch opens the eastern gates at (25,14) and (26,14), but they close again as I approach them. This confirms the 'alternating doors' mechanic. **New Hypothesis:** I need to find a route to the eastern section that doesn't trigger the gates to close, or there is another trigger I'm missing. My next step is to return to the switch and re-evaluate.
+- **Pokémon Mansion 1F Puzzle (Alternating Gates) (SOLVED):** The switch at (3, 6) toggles the western gates at (17, 8) and eastern gates at (25, 14). This was part of the initial exploration. The main puzzle is now on 2F.
 
 ## III. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
