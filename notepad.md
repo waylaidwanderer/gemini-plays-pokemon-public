@@ -83,3 +83,6 @@
     3. Moving from (8, 7) to (8, 8) causes the WALL at (11, 12) to become a FLOOR tile.
     4. Moving from (8, 8) to (8, 9) causes the WALL at (11, 13) to become a FLOOR tile.
 - **Hypothesis:** A specific sequence of movements is required to open the path to the ladder.
+
+## VII. Untested Hypotheses
+*   **`CUT_TREE` Respawn Conditions:** A `CUT_TREE` at (8, 25) in Ilex Forest respawned. I need to test the exact conditions. Does it happen after a certain number of steps, after leaving the map, or after a certain amount of time? Next time I cut a tree near a map transition, I will immediately leave and re-enter the map to check if it has respawned.
