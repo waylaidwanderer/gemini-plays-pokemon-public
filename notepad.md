@@ -67,3 +67,4 @@
 - **Ground vs. Poison (CONFIRMED):** Tested on a wild Grimer. The battle text confirmed that Ground-type moves are super-effective against Poison-types.
 - **Statue Switches:** Must be activated by standing on the tile directly below the statue (Y+1), facing up, and pressing 'A'.
 - **Pokémon Mansion 2F Puzzle (Positional Triggers):** The gates on this floor are not just controlled by the switch at (3, 12). My own movement and position act as triggers. For example, moving to (11, 10) caused the gates at (10, 5) and (10, 6) to open. This means I need to carefully map out which movements trigger which gates.
+- **Pokémon Mansion 3F Puzzle (Alternating Gates):** The switch at (11, 6) toggles the state of the eastern gates. Activating it closes the gates at (16, 5) and (16, 6) and opens the gate at (16, 11).
