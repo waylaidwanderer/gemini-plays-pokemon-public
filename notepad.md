@@ -19,7 +19,7 @@
 *   **One-Way Ledges:** 
     * `LEDGE_HOP_DOWN/RIGHT`: A one-way ledge that can only be hopped in the specified direction.
     * `LEDGE_HOP_LEFT`: A one-way ledge that can only be hopped **LEFT**.
-    * `FLOOR_UP_WALL`: A one-way ledge that can only be hopped **UP**.
+    * `FLOOR_UP_WALL`: A complex one-way ledge. Can be moved onto from a tile below, off of by moving down, and horizontally between adjacent `FLOOR_UP_WALL` tiles. Cannot move up from this tile.
 *   **Special Requirement:** 
     * `CUT_TREE` (Requires HM01 Cut. These trees can respawn after being cut).
     * `WATER` (Requires HM03 Surf, but is currently blocked in Olivine City).
