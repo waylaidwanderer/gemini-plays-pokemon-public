@@ -32,7 +32,7 @@
 ## II. Current Hypotheses & Puzzles
 
 - **Primary Hypothesis:** The Secret Key is likely located somewhere in the Seafoam Islands, obtainable after solving the boulder puzzles which control the water currents.
-- **Current Objective:** Escape the trapped western section of Seafoam Islands B4F by blacking out. This area is a one-way trap, likely entered by falling through a hole from B3F.
+- **Current Objective:** Escape the trapped eastern section of Seafoam Islands B4F by blacking out. The area is a one-way trap with no accessible exits.
 
 ## III. Lessons Learned & Process Improvement
 - **Trust The Data, Not Perception:** My biggest failure was hallucinating a path on Seafoam Islands B4F for over 40 turns. I repeatedly ignored my `find_path` tool's correct output because my manual map analysis was wrong. I must always trust the game state data and my tools over my own flawed perception.
