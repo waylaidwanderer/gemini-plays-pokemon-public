@@ -29,8 +29,9 @@
 
 ## II. Current Hypotheses & Puzzles
 
-### A. Primary Hypothesis: Secret Key on Route 20
-- **Secret Key (Route 20 West - DISPROVEN):** Explored the western water segment of Route 20 and the Seafoam Islands. No key was found.
+### A. Primary Hypothesis: Secret Key in Seafoam Islands
+- **Secret Key (Route 19 & 20 - DISPROVEN):** Explored the water routes surrounding Cinnabar Island and found no key. Route 19 south of Fuchsia City leads to a one-way dead end on Route 20.
+- **New Hypothesis:** The only remaining path is through the Seafoam Islands. The key must be found by solving the boulder puzzles within the cave.
 
 ## III. Lessons Learned & Process Improvement
 - **Immediate Maintenance is Paramount:** The repeated failure to fix `find_path` immediately was a critical process violation. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
