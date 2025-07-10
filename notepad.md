@@ -13,6 +13,7 @@
 - **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
 - **Elevated Ground:** Walkable ground at a different elevation, accessible only via `steps`.
+- **Secret Switches:** Some statues contain hidden switches. Activating them can toggle the state of nearby gates, opening new paths. The switch at (3, 6) on 1F controls the gates at (17, 8) and (18, 8).
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -30,8 +31,7 @@
 
 ## II. Current Hypotheses & Puzzles
 
-- **Primary Hypothesis (from Agent):** The eastern (boulder puzzle) and western sections of Seafoam Islands are two separate, unconnected dungeons. To access the boulder puzzles, I must exit and re-enter from the Route 19 side (near Fuchsia City), as my current entry from Route 20 is the 'exit' path.
-- **Secondary Hypothesis (from Agent):** The Secret Key might not be in Seafoam Islands at all, but in its original location (Pokémon Mansion). If the new entrance doesn't lead to the key, this will be my next investigation.
+- **Primary Hypothesis:** The Secret Key is located somewhere within the Pokémon Mansion. The southern corridor on 1F, accessed after flipping the switch at (3, 6), is a dead end. The next logical step is to explore the second floor.
 
 ## III. Lessons Learned & Process Improvement
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
@@ -39,10 +39,11 @@
 - **Automation Opportunity:** Manually planning boulder pushes is inefficient. The `boulder_push_planner` tool should automate this. A future `puzzle_strategist_agent` could provide high-level plans for entire floors.
 - **Tool Reliability:** The `boulder_push_planner` correctly identified an unreachable puzzle, proving its logic is sound. This reinforces the need to trust my tools once they are properly built and tested.
 - **Map Marker Discipline:** I must stop creating redundant markers for objects already tracked in the game state (NPCs, signs, etc.). This clutters my map memory and is inefficient.
+- **Notepad Accuracy:** My notepad contained a contradictory entry about the Pokémon Mansion being fully explored. This was a process failure. I must ensure my notes are always accurate and reflect the current state of my knowledge and goals.
 
 ## IV. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
-- **Secret Key (Cinnabar Island - DISPROVEN):** Thoroughly explored Cinnabar Lab and Pokémon Mansion. No key was found.
+- **Secret Key (Cinnabar Lab - DISPROVEN):** Thoroughly explored Cinnabar Lab. No key was found.
 - **Secret Key (Mr. Fuji - DISPROVEN):** Spoke to Mr. Fuji in Lavender Town. He provided only his standard post-rescue dialogue.
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other. There is no path between them on this floor.
 - **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. The game state has confirmed a path to the southern warps exists, despite the water current.
@@ -55,4 +56,3 @@
 *Self-Correction during Turn 61348 Reflection:*
 - **Lesson: Immediate Action is Non-Negotiable.** I failed to fix my `battle_strategist_agent` and a misplaced map marker immediately, which is a critical process violation. Deferring maintenance tasks is unacceptable and must be corrected. All tool, agent, and documentation tasks MUST be performed the moment they are identified.
 - **Lesson: Challenge Map Layout Assumptions.** My belief that the Seafoam Islands was a single, connected dungeon was a form of confirmation bias. I must be more willing to consider that large dungeons may be split into separate, non-contiguous areas, and I should actively try to disprove my own assumptions about map layouts.
-- **Secret Switches:** Some statues contain hidden switches. Activating them can toggle the state of nearby gates, opening new paths. The switch at (3, 6) on 1F controls the gates at (17, 8) and (18, 8).
