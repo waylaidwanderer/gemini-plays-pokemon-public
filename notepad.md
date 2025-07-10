@@ -31,11 +31,10 @@
 
 ## II. Current Hypotheses & Puzzles
 
-- **Primary Hypothesis:** With all 8 badges collected (confirmed by game state), the next objective is to challenge the Elite Four at the Indigo Plateau. The path should be west of Viridian City, through Route 22 and 23.
-- **Pokémon Mansion Puzzle:** The mansion appears to be fully explored. The second floor is split into sections accessible via different staircases controlled by the switch at (3, 12). Since the Secret Key is no longer the objective, there's no further reason to be here.
+- **Primary Hypothesis:** The Cinnabar Gym is locked. The Secret Key is required to open it. This key is hidden somewhere within the Pokémon Mansion.
+- **Pokémon Mansion Puzzle:** The mansion has a complex layout with switches that toggle gates and hidden passages. The key is likely in a hard-to-reach area, probably in the basement (B1F), as that's where I found a Scientist who denied knowing about a key. The switch at (19, 26) on B1F seems to control access to the final areas.
 
 ## III. Process & Strategy Insights
-- **Trust the Game State:** A major discrepancy was found between my notepad (6 badges) and the game state (8 badges). The game state is the absolute source of truth. My failure to keep my notes aligned with reality was a critical error. All future plans must be based on the game state's information.
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
 - **Challenge Assumptions:** My assumption that the eastern and western sections of the Seafoam Islands were connected was wrong. I need to be more open to the possibility of isolated, separate dungeon areas.
 - **Automation Opportunity:** Manually planning boulder pushes is inefficient. The `boulder_push_planner` tool should automate this. A future `puzzle_strategist_agent` could provide high-level plans for entire floors.
@@ -53,7 +52,6 @@
   - **Test Plan:** Fly to Viridian City and travel west onto Route 22, attempting to proceed north to Route 23.
 
 ## V. Archive: Solved Puzzles & Disproven Hypotheses
-- **Secret Key (DISPROVEN AS OBJECTIVE):** The primary goal of finding the Secret Key is now void, as the game state confirms possession of the Volcano Badge.
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other. There is no path between them on this floor.
 - **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. The game state has confirmed a path to the southern warps exists, despite the water current.
 - **Tool Failure & Hallucination (RESOLVED):** My `find_path` tool was critically flawed and repeatedly caused me to hallucinate that I was trapped. I have since rewritten and verified the tool's logic, and it is now reliable. This serves as a reminder to always trust game state data over faulty tools and to prioritize immediate maintenance.
