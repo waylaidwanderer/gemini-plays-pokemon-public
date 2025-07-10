@@ -26,33 +26,6 @@
     },
     "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\ngrid = [['' for _ in range(width)] for _ in range(height)]\nimpassable_coords = set()\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id')) - 1\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id')) - 1\n        grid[y][x] = tile_elem.get('type')\n        obj = tile_elem.find('Object')\n        if obj is not None and obj.get('id-name') != 'Pikachu':\n            impassable_coords.add((x, y))\n\nstart_x = int(input_data['start_x']) - 1\nstart_y = int(input_data['start_y']) - 1\nend_x = int(input_data['end_x']) - 1\nend_y = int(input_data['end_y']) - 1\n\nstart_node = (start_x, start_y)\nend_node = (end_x, end_y)\n\nqueue = deque([(start_node, [start_node])])\nvisited = {start_node}\n\npath_found = False\nwhile queue:\n    (current_x, current_y), path = queue.popleft()\n\n    if (current_x, current_y) == end_node:\n        path_plan = [{'x': x + 1, 'y': y + 1} for x, y in path]\n        print(json.dumps(path_plan))\n        path_found = True\n        break\n\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        next_x, next_y = current_x + dx, current_y + dy\n\n        if 0 <= next_x < width and 0 <= next_y < height:\n            neighbor = (next_x, next_y)\n            if neighbor not in visited:\n                tile_type = grid[next_y][next_x]\n                if tile_type not in ['impassable', 'closed_gate'] and neighbor not in impassable_coords:\n                    visited.add(neighbor)\n                    new_path = path + [neighbor]\n                    queue.append((neighbor, new_path))\n\nif not path_found:\n    print(json.dumps([]))"
   },
-  "find_next_exploration_target": {
-    "description": "Analyzes unseen tiles and reachable barriers to suggest the most logical next exploration target. Prioritizes the closest unseen tile. If none exist, it finds the closest reachable barrier based on Manhattan distance from the player's current coordinates.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "unseen_tiles_json": {
-          "type": "string"
-        },
-        "reachable_barriers_json": {
-          "type": "string"
-        },
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "unseen_tiles_json",
-        "reachable_barriers_json",
-        "start_x",
-        "start_y"
-      ]
-    },
-    "python_script": "import json\n\ndef heuristic(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nunseen_tiles = json.loads(input_data['unseen_tiles_json'])\nreachable_barriers = json.loads(input_data['reachable_barriers_json'])\n\nstart_pos = (start_x, start_y)\nnext_target = None\nmin_dist = float('inf')\nreasoning = ''\n\nif unseen_tiles:\n    for tile in unseen_tiles:\n        dist = heuristic(start_pos, (tile['x'], tile['y']))\n        if dist < min_dist:\n            min_dist = dist\n            next_target = tile\n    if next_target:\n        reasoning = f'The closest unseen tile is at ({next_target[\"x\"]}, {next_target[\"y\"]}) with a distance of {min_dist}.'\n    else:\n        reasoning = 'No unseen tiles found.'\nelif reachable_barriers:\n    for barrier in reachable_barriers:\n        dist = heuristic(start_pos, (barrier['x'], barrier['y']))\n        if dist < min_dist:\n            min_dist = dist\n            next_target = barrier\n    if next_target:\n        reasoning = f'No unseen tiles. The closest reachable barrier is at ({next_target[\"x\"]}, {next_target[\"y\"]}) with a distance of {min_dist}.'\n    else:\n        reasoning = 'No reachable barriers found.'\nelse:\n    reasoning = 'No unseen tiles or reachable barriers to suggest.'\n\nif next_target:\n    print(json.dumps({'next_target_x': next_target['x'], 'next_target_y': next_target['y'], 'reasoning': reasoning}))\nelse:\n    print(json.dumps({'next_target_x': None, 'next_target_y': None, 'reasoning': reasoning}))"
-  },
   "find_path": {
     "description": "A consolidated pathfinding tool. Finds a path to specified X, Y coordinates. If no coordinates are provided, it finds a path to the nearest reachable unseen tile. It automatically paths to an adjacent tile if the target is impassable. It can now handle mixed traversal types (walking and surfing).",
     "input_schema": {
@@ -115,5 +88,37 @@
       ]
     },
     "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\n\nplayer_x = int(input_data['player_x'])\nplayer_y = int(input_data['player_y'])\nhm_type = input_data['hm_type']\n\ntarget_tile_type = 'cuttable' if hm_type == 'cut' else 'water'\n\nfor move in [('Up', 0, -1), ('Down', 0, 1), ('Left', -1, 0), ('Right', 1, 0)]:\n    direction, dx, dy = move\n    check_x, check_y = player_x + dx, player_y + dy\n\n    if not (1 <= check_x <= width and 1 <= check_y <= height):\n        continue\n\n    tile_xpath = f\".//Row[@id='{check_y}']/Tile[@id='{check_x}']\"\n    tile_elem = root.find(tile_xpath)\n    if tile_elem is not None and tile_elem.get('type') == target_tile_type:\n        print(json.dumps({'status': 'found', 'direction_to_face': direction, 'x': check_x, 'y': check_y}))\n        exit()\n\nprint(json.dumps({'status': 'not_found', 'reasoning': f'No adjacent {target_tile_type} tile found.'}))"
+  },
+  "battle_log_formatter": {
+    "description": "Formats a battle outcome into a standardized string for easy logging in the notepad.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "attacker_type": {
+          "type": "string"
+        },
+        "defender_type1": {
+          "type": "string"
+        },
+        "defender_type2": {
+          "type": "string",
+          "nullable": true
+        },
+        "effectiveness": {
+          "type": "string",
+          "enum": [
+            "super effective",
+            "not very effective",
+            "no effect"
+          ]
+        }
+      },
+      "required": [
+        "attacker_type",
+        "defender_type1",
+        "effectiveness"
+      ]
+    },
+    "python_script": "import json\nattacker = input_data['attacker_type']\ndefender1 = input_data['defender_type1']\ndefender2 = input_data.get('defender_type2')\neffectiveness = input_data['effectiveness']\n\ndefender_str = defender1\nif defender2 and defender2 != 'null':\n    defender_str += f'/{defender2}'\n\nif effectiveness == 'super effective':\n    log_string = f'- {attacker} > {defender_str}'\nelif effectiveness == 'not very effective':\n    log_string = f'- {attacker} !> {defender_str}'\nelse:\n    log_string = f'- {defender_str} immune to {attacker}'\n\nprint(json.dumps({'formatted_log': log_string}))"
   }
 }
