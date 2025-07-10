@@ -21,7 +21,7 @@
     * `LEDGE_HOP_LEFT`: A one-way ledge that can only be hopped **LEFT**.
     * `FLOOR_UP_WALL`: A one-way ledge that can only be hopped **UP**.
 *   **Special Requirement:** 
-    * `CUT_TREE` (Requires HM01 Cut).
+    * `CUT_TREE` (Requires HM01 Cut. These trees can respawn after being cut).
     * `WATER` (Requires HM03 Surf, but is currently blocked in Olivine City).
     * `BREAKABLE_ROCK` (Requires Rock Smash).
     * `HEADBUTT_TREE` (Requires the move Headbutt. Confirmed that interacting without the move does nothing).
