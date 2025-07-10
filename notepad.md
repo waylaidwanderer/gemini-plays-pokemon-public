@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Notepad
 
 ## I. Current Objectives
-*   **Primary Goal:** Travel to Goldenrod City to solve the box puzzle in the underground using STRENGTH.
-*   **Secondary Goal:** Find and defeat the Olivine City Gym Leader.
-*   **Tertiary Goal:** Find more BERRIES to heal the sick Miltank.
+*   **Primary Goal:** Find and defeat the Olivine City Gym Leader.
+*   **Secondary Goal:** Find more BERRIES to heal the sick Miltank.
+*   **Tertiary Goal:** Solve the Goldenrod Underground puzzle (Currently Blocked).
 
 ## II. Game Systems & Mechanics
 
@@ -62,7 +62,4 @@
 ## V. Blockades & Puzzles
 *   **Olivine Lighthouse:** The stairs on 1F are non-functional. A sailor's dialogue implies the lighthouse beacon must be lit before I can proceed.
 *   **Olivine City Sea Route:** I am currently unable to leave Olivine City by sea. Using SURF near the pier results in the animation playing, but the 'walking' state persists, preventing sea travel. This is likely related to the unlit lighthouse.
-
-## VI. Current Travel Plan
-*   **Objective:** Travel to Goldenrod City to solve the box puzzle in the underground using STRENGTH.
-*   **Route:** Olivine City -> Route 39 -> Route 38 -> Ecruteak City -> Route 37 -> Route 36 -> National Park -> Route 35 -> Goldenrod City.
+*   **Goldenrod Underground:** The path forward is blocked by a Super Nerd in a dialogue loop and a locked door in the northern section.
