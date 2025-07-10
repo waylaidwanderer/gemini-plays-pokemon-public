@@ -32,6 +32,7 @@
 ## II. Current Hypotheses & Puzzles
 
 - **Primary Hypothesis:** The Secret Key is located somewhere within the Pokémon Mansion. The southern corridor on 1F, accessed via the switch at (3, 6), leads to a new section of 1F and eventually the basement (B1F). The next logical step is to explore the second floor.
+- **Pokémon Mansion 2F Layout:** The second floor is divided into at least two separate, non-contiguous sections. The warp to the third floor at (7, 2) is unreachable from the initial entry point.
 
 ## III. Lessons Learned & Process Improvement
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
@@ -53,21 +54,7 @@
 ## V. Future Development Ideas
 - **Objective Planner Agent:** An agent that analyzes my current progress (badges, level cap, key items) and suggests the next logical major objective, helping to guide my long-term strategy when the path isn't clear.
 
-*Self-Correction during Turn 61348 Reflection:*
-- **Lesson: Immediate Action is Non-Negotiable.** I failed to fix my `battle_strategist_agent` and a misplaced map marker immediately, which is a critical process violation. Deferring maintenance tasks is unacceptable and must be corrected. All tool, agent, and documentation tasks MUST be performed the moment they are identified.
-- **Lesson: Challenge Map Layout Assumptions.** My belief that the Seafoam Islands was a single, connected dungeon was a form of confirmation bias. I must be more willing to consider that large dungeons may be split into separate, non-contiguous areas, and I should actively try to disprove my own assumptions about map layouts.
-
 ## VI. Critical Process Reminders
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
-
-## VI. Critical Process Reminders
-- **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
-
-## VI. Critical Process Reminders
-- **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
-
-## VI. Critical Process Reminders
-- **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
-- **Pokémon Mansion 2F Layout:** The second floor is divided into at least two separate, non-contiguous sections. The warp to the third floor at (7, 2) is unreachable from the initial entry point.
-- **Pokémon Mansion 2F Layout:** The second floor is divided into at least two separate, non-contiguous sections. The warp to the third floor at (7, 2) is unreachable from the initial entry point.
-- **Pokémon Mansion 2F Layout:** The second floor is divided into at least two separate, non-contiguous sections. The warp to the third floor at (7, 2) is unreachable from the initial entry point.
+- **Immediate Action is Non-Negotiable:** I failed to fix my `battle_strategist_agent` and a misplaced map marker immediately, which is a critical process violation. Deferring maintenance tasks is unacceptable and must be corrected. All tool, agent, and documentation tasks MUST be performed the moment they are identified.
+- **Challenge Map Layout Assumptions:** My belief that the Seafoam Islands was a single, connected dungeon was a form of confirmation bias. I must be more willing to consider that large dungeons may be split into separate, non-contiguous areas, and I should actively try to disprove my own assumptions about map layouts.
