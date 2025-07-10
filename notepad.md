@@ -71,3 +71,6 @@
         *   Hypothesis 4: Move between the two adjacent warp tiles. Result: Failed.
         *   Conclusion: Simple movement/interaction does not seem to work. An external trigger may be required.
 *   **Untested:** `unknown` (player is currently standing on this tile type in Olivine City).
+
+## Blockades & Puzzles
+*   **Olivine Lighthouse:** The stairs on 1F are non-functional. All exploration attempts have failed. The sailor's dialogue implies the lighthouse beacon must be lit before I can proceed, and that I cannot leave Olivine City by sea until this is resolved. Using SURF near the pier results in the animation playing but the 'walking' state persists, preventing sea travel.
