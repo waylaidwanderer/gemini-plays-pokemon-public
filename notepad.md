@@ -71,4 +71,5 @@
 - **Test 2:** Pressed 'A' while facing the object at (6, 12). Result: Triggered a repeating dialogue loop.
 - **Hypothesis 3:** Pressing 'B' will break the loop.
 - **Test 3:** Pressed 'B'. Result: Failed. The dialogue loop continued.
-- **Hypothesis 4:** Pressing 'Start' will break the loop.
+- **Test 4:** Pressed 'Start'. Result: Failed. The dialogue loop continued.
+- **Hypothesis 5:** Pressing 'Select' will break the loop.
