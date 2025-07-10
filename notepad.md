@@ -32,7 +32,7 @@
 ## II. Current Hypotheses & Puzzles
 
 - **Primary Hypothesis:** The Secret Key is located somewhere within the Pokémon Mansion. The southern corridor on 1F, accessed via the switch at (3, 6), leads to a new section of 1F and eventually the basement (B1F). The next logical step is to explore the second floor.
-- **Pokémon Mansion 2F Layout:** The second floor is divided into at least two separate, non-contiguous sections. The warp to the third floor at (7, 2) is unreachable from the initial entry point.
+- **Pokémon Mansion 2F Layout:** The second floor is divided into at least two separate, non-contiguous sections. The warp to the third floor at (7, 2) is unreachable from the initial entry point. The 'alternating doors' puzzle, controlled by the switch at (3, 12), must be manipulated to access different staircases. One staircase leads to a dead-end section of 3F.
 
 ## III. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
@@ -47,6 +47,10 @@
 - **Mandatory Agent Usage:** I received a critique for failing to use my `battle_strategist_agent` during recent wild encounters, leading to inefficient, error-prone manual control. This is a direct violation of my own documented principles. I must *always* defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 ## IV. Untested Assumptions & Test Plans
+- **Primary Assumption:** The Secret Key is located in the Pokémon Mansion.
+  - **Reasoning:** It's the only other major, unexplored building on Cinnabar Island besides the locked Gym.
+  - **Test Plan:** Fully explore all accessible areas of the Pokémon Mansion (1F, 2F, 3F, B1F). If the key is not found after thorough exploration, I will conclude it is located elsewhere and use the `stuck_situation_advisor_agent`.
+- **Confirmation Bias Check:** I must avoid fixating on expected outcomes. When a switch or action has multiple effects (like opening multiple doors), I must investigate all of them, not just the one that aligns with my initial hypothesis.
 
 ## V. Archive: Solved Puzzles & Disproven Hypotheses
 - **Secret Key (Power Plant - DISPROVEN):** Explored the Power Plant and battled the trainer Craig. No key was found.
