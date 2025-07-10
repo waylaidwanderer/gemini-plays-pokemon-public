@@ -2,8 +2,8 @@
 
 ## I. Current Objectives
 *   **Primary Goal:** Find and defeat the next Gym Leader in Olivine City.
-*   **Secondary Goal:** Explore new areas accessible with the move SURF.
-*   **Tertiary Goal:** Investigate the mystery of the legendary beasts.
+*   **Secondary Goal:** Find more BERRIES to heal the sick Miltank.
+*   **Tertiary Goal:** Explore new areas accessible with the move SURF.
 
 ## II. Game Systems & Mechanics
 
@@ -32,6 +32,7 @@
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
 *   **Item Effects:**
     *   **BERRY:** Restores 10 HP.
+    *   **MINT BERRY:** Cures sleep.
     *   **EVERSTONE:** Prevents evolution.
     *   **MOOMOO MILK:** Restores 100 HP.
     *   **HARD STONE:** Powers up rock-type moves.
@@ -65,5 +66,5 @@
 1. Defeat all trainers along the main path. (Completed)
 2. Systematically explore all unseen areas of the route using the pathfinder tool.
 3. Investigate any buildings or unique objects encountered (e.g., Moomoo Farm, Tauros).
-4. Identify the exit leading towards Olivine City.
-    *   **MINT BERRY:** Cures sleep.
+4. Find more BERRIES for the sick Miltank.
+5. Identify the exit leading towards Olivine City.
