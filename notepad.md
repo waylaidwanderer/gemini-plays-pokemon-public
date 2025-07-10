@@ -62,7 +62,5 @@
 *   **HM04 (STRENGTH):** Obtained from a sailor in the Olivine Cafe.
 
 ## VI. Exploration & Route Plans
-1.  Explore all of Olivine City, including the Mart and Lighthouse.
-2.  Investigate the other unmarked warp at (13, 15).
-3.  Find the Gym Leader at the Lighthouse.
-4.  Investigate paths that require Strength.
+1.  Navigate to the Olivine Lighthouse to find the Gym Leader.
+2.  After dealing with the Lighthouse, investigate paths that require STRENGTH.
