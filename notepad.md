@@ -8,13 +8,11 @@
 - **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
 - **Hole Tiles:** Warp tiles that lead to a lower map area. Often function as one-way drops.
-- **Scripted Event Tiles:** Some tiles trigger events. The tile in front of the Cinnabar Gym door (19, 5) pushes the player back and displays a 'locked' message.
+- **Scripted Event Tiles:** Some tiles trigger events. The tile in front of the Cinnabar Gym door (19, 5) pushes the player back and displays a 'locked' message. The water on Seafoam Islands B4F has a scripted current that prevents surfing south.
 - **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls.
 - **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
 - **Elevated Ground:** Walkable ground at a different elevation, accessible only via `steps`.
-- **Water Current:** A scripted event on some water tiles that forces movement in a specific direction, blocking passage. Confirmed on Seafoam Islands B4F. The message 'The current is much too fast!' appears if you try to Surf against it.
-- **Surf from Elevation:** It is not possible to initiate SURF from an `elevated_ground` tile. You must be on a tile at the same level as the water (e.g., `ground`, `steps`).
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
