@@ -72,3 +72,6 @@
 - **Blockade:** A Super Nerd blocks the path south.
 - **Behavior:** Interacting with him triggers a repeating dialogue loop ("I guess I have to do things fair and square…"). No battle occurs.
 - **Conclusion:** This path is story-locked, similar to the Route 37 trainers. I will not attempt this path again until I have a clear reason to believe it is open.
+
+### Alternative Hypotheses
+- **Route 37/Underground Blockades:** While they seem story-locked, it's possible they require a specific item or Pokémon in the party to trigger the event. If the Department Store puzzle doesn't lead to progress, I should consider other possibilities.
