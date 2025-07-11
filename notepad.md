@@ -73,3 +73,6 @@
 ### Ruins of Alph Trapped Section
 *   **Hypothesis Failure:** My attempts to exit the southern Ruins of Alph area via any known warp (caves, northern gate) or by reaching the water have all been proven impossible by my `pathfinder` tool. The area is completely isolated by one-way ledges.
 *   **New Hypothesis:** The solution to escaping this area must be internal. I will now systematically explore all unseen tiles within this section instead of trying to reach an external exit.
+### Ruins of Alph Trapped Section
+*   **Hypothesis Failure:** My attempts to exit the southern Ruins of Alph area via any known warp (caves, northern gate) or by reaching the water have all been proven impossible by my `pathfinder` tool. The area is completely isolated by one-way ledges.
+*   **New Hypothesis:** The solution to escaping this area must be internal. I will now systematically explore all unseen tiles within this section instead of trying to reach an external exit.
