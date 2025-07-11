@@ -66,6 +66,8 @@
         *   Movement from column 0 to the left is blocked. Confirmed by failing to move from (0,4) to the left.
     *   **Hypothesis 1:** The puzzle is solved by visually assembling the image of Aerodactyl. This is my current working theory.
     *   **Hypothesis 2 (Alternative):** The puzzle logic might involve matching patterns on the edges of the pieces, not just the overall image.
+    *   **Hypothesis 3 (Alternative):** The puzzle could be optional, providing flavor or unlocking minor content (like more Unown forms) but not being required for main story progression.
+    *   **Hypothesis 4 (Alternative):** The solution may not be a single contiguous image, but some other arrangement of pieces.
     *   **Exit Strategy:** If I fail to solve this puzzle after ~20-30 more turns, I will test the hypothesis that these puzzles are optional. I will leave the chamber and re-explore Ruins of Alph Outside for an alternative path forward.
 
 ### Goldenrod Dept. Store Basement Puzzle
