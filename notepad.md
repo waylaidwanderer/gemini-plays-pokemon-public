@@ -24,7 +24,7 @@
     * `HEADBUTT_TREE` (Requires the move Headbutt. Confirmed that interacting without the move does nothing).
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
-    *   `unknown` (in Ruins of Alph Ho-Oh Chamber): A special tile that, when standing on it and interacting with the adjacent puzzle object at (3, 2), warps the player to a sliding block puzzle screen.
+    *   `unknown` (in Ruins of Alph Ho-Oh Chamber at (3,3) and RuinsOfAlphOutside at (2,18)): A special tile type. In the Ho-Oh chamber, interacting with the puzzle from this tile triggers the puzzle. The function in RuinsOfAlphOutside is yet to be determined.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
