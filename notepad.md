@@ -59,6 +59,3 @@
 # VI. Future Development & Ideas
 - **Prerequisites Check:** Before entering new dungeons or major areas, I must verify that all necessary HMs (Flash, Cut, Surf, Strength) and key items are in my party or inventory to avoid backtracking.
 - **Puzzle Solver Agent:** Create an agent that takes a description of a room/puzzle (tile types, object locations, NPC dialogue) and suggests testable hypotheses for how to solve it. This could help when I'm stuck on environmental puzzles by providing structured, logical steps for experimentation.
-
-# VI. Future Development & Ideas
-- **Puzzle Solver Agent:** Create an agent that takes a description of a room/puzzle (tile types, object locations, NPC dialogue) and suggests testable hypotheses for how to solve it. This could help when I'm stuck on environmental puzzles by providing structured, logical steps for experimentation.
