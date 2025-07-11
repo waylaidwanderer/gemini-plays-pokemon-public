@@ -60,6 +60,11 @@
 - **Pokémon Mansion 3F Access (DISPROVEN):** Stairs at (27, 2) on 2F lead down to 1F, not up to 3F.
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** Stairs at (6, 2) on 1F are unusable.
 - **Pokémon Mansion 1F - Eastern Gates (SOLVED):** The eastern gates at (25, 14) and (26, 14) are controlled by the switch at (3, 6). Flipping the switch toggles their state (open/closed).
-### B. Pokémon Mansion - Final Gate Puzzle
-- **Hypothesis 1:** The `closed_gate` at (27, 28) and (28, 28) on 1F is controlled by the switch at (3, 6).
-  - **Test Plan (Attempt 1):** Travel to (3, 6), activate the switch, and return to (27, 27) to observe the gate's state.
+### B. Pokémon Mansion - Pikachu Puzzle (SOLVED)
+- **Mechanics:** This is a positioning puzzle with a rotational movement rule. My movement direction causes Pikachu to move in a clockwise-rotated direction (My Up -> His Right, My Right -> His Down, My Down -> His Left, My Left -> His Up). Interacting with 'A' triggers a silent dialogue that is a failure state, which can be cancelled with 'B' to reset the puzzle.
+- **Goal State:** The solution requires placing the Player at (27, 26) and Pikachu at (28, 26).
+- **Solution Path:**
+  1. Start with Player at (27, 27) and Pikachu at (27, 26).
+  2. Player moves Right to (28, 27), causing Pikachu to move Down to (27, 27).
+  3. Player moves Up to (28, 26), causing Pikachu to move Right to (28, 27).
+  4. Player moves Left to (27, 26), causing Pikachu to move Up to (28, 26). This achieves the goal state.
