@@ -57,16 +57,15 @@
 
 ## V. Puzzles & Hypotheses
 ### Ruins of Alph
-*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. I MUST use the `puzzle_analyst` agent the next time I attempt this puzzle.
+*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. Must be solved manually.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
 
 ## VI. Lessons Learned & Process Improvement
-*   **Tool Maintenance:** My pathfinding attempts using `run_code` were critically flawed. It is essential to fix faulty code immediately to prevent getting stuck. I should consider defining a reusable pathfinding tool if this becomes a recurring problem.
+*   **Tool Maintenance:** My pathfinding attempts using `run_code` were critically flawed. I must remember to use my existing `pathfinder` tool instead of attempting to build a new one.
 *   **Map Marker Consistency:** I must be more diligent about marking all significant events, especially defeated trainers and both sides of used warps, immediately after they occur.
 *   **Immediate Action:** I must act on new information immediately. Deferring tasks like marking warps or fixing tools is an invalid and inefficient strategy.
 *   **Hypothesis Testing:** When stuck, I must form multiple, alternative hypotheses and test them systematically to avoid confirmation bias. I will document these hypotheses in my notepad.
 *   **Critical Failure Analysis:** I spent over 100 turns stuck in Ruins of Alph because I misread my map memory and incorrectly concluded that the ledge at (2, 19) led to a trap. This flawed premise led me to create and debug multiple faulty pathfinding scripts, ignore my agent's correct advice, and waste time on incorrect hypotheses. The solution was simply to hop the ledge and walk out. This highlights a critical need to double-check my own observations and assumptions before building complex automation or dismissing agent advice.
-
     *   `LEDGE_HOP_RIGHT`: A one-way ledge that can only be hopped **RIGHT**.
