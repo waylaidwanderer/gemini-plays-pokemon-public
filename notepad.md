@@ -103,3 +103,4 @@
     - **Logic:** This would require an algorithm like A* search or a similar pathfinding/planning algorithm to find the optimal sequence of moves. It is a computational task, perfect for a tool.
 *   **Piece 1:** (Observed at puzzle coordinate (1,0)) - Shape: `[[true, true], [false, true]]`
 *   **Piece 12:** (Observed at puzzle coordinate (2,0)) - Shape: `[[true, false], [true, true]]`
+*   **Piece 9:** (Observed at puzzle coordinate (0,0)) - Shape: `[[true, true], [true, false]]`
