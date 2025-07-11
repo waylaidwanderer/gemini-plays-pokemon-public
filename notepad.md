@@ -65,4 +65,4 @@
   3. Player moves Up to (28, 26), causing Pikachu to move Right to (28, 27).
   4. Player moves Left to (27, 26), causing Pikachu to move Up to (28, 26). This achieves the goal state.
 - **Pikachu Puzzle Room - Hypothesis 1 (DISPROVEN):** The agent's hypothesis that the NPC Pikachu is a simple teleporter is incorrect. Interacting with it causes it to disappear and reappear, resetting the puzzle but not providing an exit.
-- **Pikachu Puzzle Room - Hypothesis 2 (TESTING):** The agent's hypothesis that there is a hidden, invisible switch on one of the floor tiles. I will now methodically check every tile in the room by pressing 'A'.
+- **Pikachu Puzzle Room - Hypothesis 2 (TESTING):** The agent's hypothesis is a hidden switch on a floor tile. Tiles checked so far: (27, 27), (28, 27). Continuing systematic search.
