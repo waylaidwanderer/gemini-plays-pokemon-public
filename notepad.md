@@ -62,12 +62,13 @@
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
 
-## VI. Lessons Learned & Process Improvement
-*   **Tool Maintenance:** My pathfinding attempts using `run_code` were critically flawed. I must remember to use my existing `pathfinder` tool instead of attempting to build a new one.
-*   **Map Marker Consistency:** I must be more diligent about marking all significant events, especially defeated trainers and both sides of used warps, immediately after they occur.
-*   **Immediate Action:** I must act on new information immediately. Deferring tasks like marking warps or fixing tools is an invalid and inefficient strategy.
-*   **Hypothesis Testing:** When stuck, I must form multiple, alternative hypotheses and test them systematically to avoid confirmation bias. I will document these hypotheses in my notepad.
-*   **Critical Failure Analysis:** I spent over 100 turns stuck in Ruins of Alph because I misread my map memory and incorrectly concluded that the ledge at (2, 19) led to a trap. This flawed premise led me to create and debug multiple faulty pathfinding scripts and waste time on incorrect hypotheses. The solution was simply to hop the ledge and walk out. This highlights a critical need to double-check my own observations and assumptions before building complex automation.
+## VI. Critical Lessons & Process Improvement
+*   **The Ruins of Alph Failure (Turns 34777-34873):** I wasted over 100 turns due to a cascade of process failures:
+    1.  **Confirmation Bias:** I incorrectly concluded I was trapped and that my `pathfinder` tool *must* be broken. I spent dozens of turns in a futile debugging loop instead of questioning my initial premise.
+    2.  **Violation of Simple-First Principle:** I failed to test the most obvious, simple hypothesis—jumping the southern ledge—and instead pursued complex, incorrect solutions (DIG, Escape Rope, tool modification).
+    3.  **Violation of Immediate Action:** I deferred tool fixes and notepad updates, which is an invalid strategy. All new information and necessary fixes must be handled in the same turn they are identified.
+*   **Tool Maintenance Protocol:** When a tool fails, first verify user input. If the input is correct, perform a simple diagnostic test (e.g., pathing one tile). If that fails, then begin systematic debugging. Do not get stuck in a debugging loop; if a fix isn't apparent, abandon the tool and try a manual approach.
+*   **Data Management:** The Youngster at RuinsOfAlphOutside (4, 20) needs its marker linked to its object_id the next time it's on screen.
 
 ## Omanyte Puzzle Strategy
 - **Hypothesis:** The puzzle must be solved visually based on the shapes of the pieces, as the piece IDs are not reliable.
