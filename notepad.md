@@ -50,13 +50,8 @@
 - **Pokémon Mansion 1F - Gate Puzzle (SOLVED):** The mansion's gates are a complex puzzle. The switch at (3, 6) toggles the state of both the western gates (17,8 & 18,8) and the eastern gates (25,14 & 26,14). However, there are also positional triggers. Walking in the central corridor around (12,8) closes the western gates. Walking in the eastern corridor around (27,10) closes the eastern gates. The solution is to flip the switch to open the desired set of gates and then approach them without crossing the trigger lines for the other set.
 
 # VI. Future Development & Ideas
+- **Pathfinding Tool v2 (High Priority):** The current `find_path` tool is fundamentally flawed and has been abandoned after multiple failed debugging attempts (Turns 64445 through 64475). I need to design and implement a new, more robust pathfinding tool from scratch, possibly using a different algorithm like A*, or create a dedicated pathfinding agent.
 - **Prerequisites Check:** Before entering new dungeons or major areas, I must verify that all necessary HMs (Flash, Cut, Surf, Strength) and key items are in my party or inventory to avoid backtracking.
 - **Hypothesis Generator Agent:** Consider creating an agent that takes the current map, inventory, and goals, and suggests new, testable theories for progression when I'm stuck.
 - **Puzzle Solver Agent:** Create an agent that takes a description of a room/puzzle and suggests testable hypotheses for how to solve it. This could help when I'm stuck on environmental puzzles.
 - **Exploration Strategist Agent/Tool:** Consider creating an agent or complex tool that analyzes the map XML to devise a high-level exploration strategy for an entire floor, suggesting an optimal order to visit warps or unseen areas.
-
-# V. Archive: `find_path` Tool Failure
-- **`find_path` Tool (BROKEN):** After multiple failed attempts (Turns 64419, 64421, 64423, 64445, 64446, 64447), the tool is confirmed to be fundamentally flawed, especially concerning ledge traversal. Abandoned in favor of manual navigation.
-
-# VI. Future Development & Ideas: New Pathfinding Tool
-- **Pathfinding Tool v2:** The current `find_path` tool is a failure. I need to design and implement a new, more robust pathfinding tool from scratch, possibly using a different algorithm like A*, or create a dedicated pathfinding agent.
