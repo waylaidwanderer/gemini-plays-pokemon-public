@@ -69,3 +69,7 @@
 *   **Hypothesis Testing:** When stuck, I must form multiple, alternative hypotheses and test them systematically to avoid confirmation bias. I will document these hypotheses in my notepad.
 *   **Critical Failure Analysis:** I spent over 100 turns stuck in Ruins of Alph because I misread my map memory and incorrectly concluded that the ledge at (2, 19) led to a trap. This flawed premise led me to create and debug multiple faulty pathfinding scripts and waste time on incorrect hypotheses. The solution was simply to hop the ledge and walk out. This highlights a critical need to double-check my own observations and assumptions before building complex automation.
     *   `LEDGE_HOP_RIGHT`: A one-way ledge that can only be hopped **RIGHT**.
+
+## Omanyte Puzzle Solution Plan
+- **Sequence:** ['A', 'Right', 'Down', 'Down', 'A', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'A', 'Left', 'Left', 'Up', 'Up', 'Up', 'A', 'Right', 'Right', 'A', 'Left', 'A', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'A', 'Right', 'Up', 'A', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'A', 'Left', 'Left', 'Left', 'Down', 'Down', 'A', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'A', 'Left', 'Left', 'Down', 'Down', 'Down', 'A', 'Right', 'Right', 'A', 'Left', 'A', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'A', 'Right', 'Right', 'Up', 'A', 'Left', 'Left', 'Up', 'Up', 'Up', 'A', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'A']
+- **Status:** Not started.
