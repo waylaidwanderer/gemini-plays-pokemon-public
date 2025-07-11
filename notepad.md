@@ -66,7 +66,7 @@
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
 
 ## VI. Lessons Learned & Process Improvement
-*   **Tool Development:** My `pathfinder_v23` is still flawed. It avoids pathing from land to water, which is a workaround, not a solution. The tool must be updated to correctly model the 'A' button interaction required to start surfing. This is a top priority.
+*   **Tool Maintenance:** My `pathfinder_v23` tool was critically flawed, causing navigation failures. I have now fixed it to account for ability-based travel like Surf and its PP requirements. It is essential to fix faulty tools immediately to prevent getting stuck.
 *   **Map Marker Consistency:** I must be more diligent about marking all significant events, especially defeated trainers, immediately after they occur.
 *   **Immediate Action:** I must act on new information immediately. Deferring tasks like marking warps or fixing tools is an invalid and inefficient strategy.
 *   **Hypothesis Testing:** When stuck, I must form multiple, alternative hypotheses and test them systematically to avoid confirmation bias. I will document these hypotheses in my notepad.
