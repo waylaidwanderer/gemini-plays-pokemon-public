@@ -71,6 +71,6 @@
     *   `LEDGE_HOP_RIGHT`: A one-way ledge that can only be hopped **RIGHT**.
 
 ## Omanyte Puzzle Strategy
-- **Hypothesis:** The `jigsaw_solver` tool failed because the piece IDs are not static or predictable. The puzzle must be solved visually based on the shapes of the pieces.
+- **Hypothesis:** The puzzle must be solved visually based on the shapes of the pieces, as the piece IDs are not reliable.
 - **Plan:** Solve the puzzle manually by identifying which pieces fit into the empty slots based on their visual appearance.
 - **Status:** In progress.
