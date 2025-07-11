@@ -84,7 +84,7 @@
 - **Hypothesis:** A specific sequence of movements is required to open the path to the ladder.
 
 ### Ruins of Alph Ho-Oh Puzzle
-- **Mechanic:** A 16-piece puzzle on a 6x6 grid. The goal is to assemble the image of Ho-Oh in the central 4x4 area. Pieces are picked up from the border and placed into empty slots. A piece cannot be placed in an occupied slot; the existing piece must be moved first.
+- **Mechanic:** A 16-piece puzzle on a 6x6 grid. The goal is to assemble the image of Ho-Oh in the central 4x4 area. Pieces are picked up from the border and placed into empty slots. **A piece cannot be placed in an occupied slot; the existing piece must be moved first.**
 - **Strategy:**
     1.  Identify corner and edge pieces.
     2.  Assemble the outer frame of the 4x4 picture first.
@@ -93,17 +93,5 @@
 
 ## VII. Untested Hypotheses
 *   **`CUT_TREE` Respawn Conditions:** A `CUT_TREE` at (8, 25) in Ilex Forest respawned. I need to test the exact conditions. Does it happen after a certain number of steps, after leaving the map, or after a certain amount of time? Next time I cut a tree near a map transition, I will immediately leave and re-enter the map to check if it has respawned.
-
-## VIII. Current Plans
-### Primary Goal: Solve Ruins of Alph Puzzles
-*   **Problem:** I'm in the Ho-Oh Chamber and need to solve the puzzle to proceed.
-*   **Hypothesis 1 (Failed):** Interacting with the puzzle object at (3, 2) from the adjacent tile (3, 1) will activate it. (Failed twice).
-*   **Hypothesis 2 (Current):** Activation requires standing on one of the special floor tiles, (3, 3) or (4, 3), and *then* interacting with the puzzle object at (3, 2).
-*   **Current Plan:**
-    1.  Move to (3, 3).
-    2.  Face the puzzle object at (3, 2).
-    3.  Interact with the puzzle object.
-
-## IX. Untested Hypotheses (Post-Reflection)
 *   **`WARP_CARPET_DOWN` Traversability:** I need to test if `WARP_CARPET_DOWN` tiles are truly one-way. Next time I'm on one, I will attempt to move up, left, and right to confirm.
-*   **Ho-Oh Puzzle Mechanics:** My current hypothesis is that this is a standard sliding puzzle where any border piece adjacent to an empty grid slot can be moved. An alternative hypothesis is that only *specific* border pieces are movable at any given time. To test this, after placing the next piece, I will try to pick up another adjacent border piece (like Piece #11 at position 24). If I can't, my current hypothesis is incomplete.
+*   **Ho-Oh Puzzle Mechanics:** My primary assumption is that solving this puzzle involves correctly assembling the image of Ho-Oh. An alternative hypothesis is that the puzzle is optional or has a non-obvious solution. If completing the image yields no results, I will exit the puzzle and re-examine the room to test this.
