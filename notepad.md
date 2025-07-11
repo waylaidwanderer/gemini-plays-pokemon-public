@@ -34,7 +34,7 @@
 ## II. Active Puzzles & Hypotheses
 
 ### A. Pokémon Mansion Puzzle (Positional Triggers)
-- **Confirmed Mechanic:** This mechanic is confirmed for multiple floors. On 1F, moving into the central corridor around (12, 8) caused the western gates at (17, 8) and (18, 8) to close. On 2F, moving to specific tiles like (11, 10) and (21, 13) has also been observed to open gates. I need to map these triggers carefully.
+- **Confirmed Mechanic:** This mechanic is confirmed for multiple floors. - **Confirmed Mechanic:** This mechanic is confirmed for multiple floors. On 1F, moving into the central corridor around (12, 8) caused the western gates at (17, 8) and (18, 8) to close. On 2F, moving to specific tiles like (11, 10) and (21, 13) has also been observed to open gates. I need to map these triggers carefully. On 2F, moving to specific tiles like (11, 10) and (21, 13) has also been observed to open gates. I need to map these triggers carefully.
 - **Untested Assumption (Key Location):** The Secret Key is *inside* the Pokémon Mansion. This is based on the original game, but this is a ROM hack.
   - **Test Plan:** If I remain stuck after testing other hypotheses, I will systematically interact with every NPC and object on Cinnabar Island itself.
 - **Untested Assumption (Fall-Through Floor):** A specific breakable floor tile on 3F must be fallen through to access a sealed-off section of 2F.
