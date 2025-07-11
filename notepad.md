@@ -57,7 +57,6 @@
 ## V. Puzzles & Hypotheses
 ### Ruins of Alph
 *   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. I MUST use the `puzzle_analyst` agent the next time I attempt this puzzle.
-*   **Ruins of Alph Southern Section:** This area is accessible by hopping down a one-way ledge. After getting stuck, I discovered the intended exit was not the southern caves, but the warp at (6, 19) leading back to Union Cave.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
