@@ -33,7 +33,7 @@
 - **Warp Reuse:** To reuse an instant warp you just came through, you must step off the warp tile and then back on to trigger it.
 
 # II. Process & Strategy Insights
-- **Immediate Maintenance is Paramount:** My `find_path` tool was repeatedly failing. This was a critical process failure. I have now corrected the tool's logic. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue.
+- **Immediate Maintenance is Paramount:** Deferring tool/agent/notepad maintenance is a critical process failure. It MUST be performed as the highest priority upon identifying an issue. I have repeatedly made this mistake and must be vigilant in correcting it.
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
@@ -41,19 +41,16 @@
 - **Hypothesis:** The Secret Key is located in the Power Plant.
 - **Test:** Navigate through Rock Tunnel to the northern part of Route 10. Explore the Power Plant thoroughly to find the key.
 
-# IV. Archive: Solved Puzzles & Disproven Hypotheses
+# IV. Goal Revisions & Strategic Shifts
+- **Badge Count Correction:** I previously believed I had all 8 badges. I have re-evaluated and confirmed I only have 6. My new primary goal is to obtain the Volcano and Earth badges. The immediate objective is to find the Secret Key for the Cinnabar Gym.
+
+# V. Archive: Solved Puzzles & Disproven Hypotheses
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other.
 - **Pikachu Puzzle Room (SOLVED):** The puzzle required having the starter Pikachu (SPARKY) in the lead. Interacting with the NPC Pikachu under this condition caused it to disappear, solving the puzzle.
 - **Pokémon Mansion 1F - Gate Puzzle (SOLVED):** The mansion's gates are a complex puzzle. The switch at (3, 6) toggles the state of both the western gates (17,8 & 18,8) and the eastern gates (25,14 & 26,14). However, there are also positional triggers. Walking in the central corridor around (12,8) closes the western gates. Walking in the eastern corridor around (27,10) closes the eastern gates. The solution is to flip the switch to open the desired set of gates and then approach them without crossing the trigger lines for the other set.
 
-# V. Future Development & Ideas
+# VI. Future Development & Ideas
 - **Prerequisites Check:** Before entering new dungeons or major areas, I must verify that all necessary HMs (Flash, Cut, Surf, Strength) and key items are in my party or inventory to avoid backtracking.
 - **Hypothesis Generator Agent:** Consider creating an agent that takes the current map, inventory, and goals, and suggests new, testable theories for progression when I'm stuck.
 - **Puzzle Solver Agent:** Create an agent that takes a description of a room/puzzle and suggests testable hypotheses for how to solve it. This could help when I'm stuck on environmental puzzles.
 - **Exploration Strategist Agent/Tool:** Consider creating an agent or complex tool that analyzes the map XML to devise a high-level exploration strategy for an entire floor, suggesting an optimal order to visit warps or unseen areas.
-
-# VI. Goal Revisions & Strategic Shifts
-- **Badge Count Correction:** I previously believed I had all 8 badges. I have re-evaluated and confirmed I only have 6. My new primary goal is to obtain the Volcano and Earth badges. The immediate objective is to find the Secret Key for the Cinnabar Gym.
-
-# VI. Goal Revisions & Strategic Shifts
-- **Badge Count Correction:** I previously believed I had all 8 badges. I have re-evaluated and confirmed I only have 6. My new primary goal is to obtain the Volcano and Earth badges. The immediate objective is to find the Secret Key for the Cinnabar Gym.
