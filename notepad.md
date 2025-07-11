@@ -16,6 +16,7 @@
 - **Hole Tiles:** One-way warps that cause the player to fall to the floor below, often into isolated areas.
 - **Unknown Tiles:** Tiles not yet seen (`seen="false"`). Treated as impassable until explored.
 - **Gate Offscreen:** A gate (either open or closed) that is not currently visible on the screen. Its state is unknown until it is brought into view.
+- **Closed Gate:** An impassable gate that is currently visible on the screen. It may require a switch or key to open.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
