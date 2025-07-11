@@ -70,25 +70,17 @@
 
 ### Ruins of Alph Ho-Oh Puzzle
 - **Mechanic:** A 16-piece puzzle on a 6x6 grid. The goal is to assemble the image of Ho-Oh in the central 4x4 area.
-- **Attempt 1 (Manual Trial-and-Error):**
-    - **Hypothesis:** Place what appear to be corner pieces first to build a frame.
-    - **Action:** Moved all pieces to the border, then attempted to place corners.
-    - **Result:** Failed. The puzzle did not solve.
-    - **Conclusion:** Simple visual identification is not reliable.
-- **Attempt 2 (Agent-Assisted Strategy):**
-    - **Hypothesis:** A systematic analysis of piece shapes will reveal the true corners and edges, leading to a correct solution.
-    - **Action 1 (Define Agent):** Created the `puzzle_analyst` agent to classify pieces.
-    - **Action 2 (Automated Data Gathering):** Used `run_code` to try and extract piece shape data automatically.
-    - **Result:** Failed. The script could not find the puzzle data.
-    - **Conclusion:** Puzzle piece data must be gathered manually.
-- **Current Strategy (Manual Data Gathering):**
-    1.  Systematically enter and exit the puzzle interface to view each of the 16 pieces without the cursor obstructing the view.
-    2.  Record the shape of each piece as a boolean grid below.
-    3.  Once all 16 pieces are documented, call the `puzzle_analyst` agent with the complete dataset.
+- **Strategy:**
+    1.  Systematically enter and exit the puzzle interface to view each of the 16 pieces.
+    2.  Record the shape of each unique piece as a boolean grid in the 'Unique Piece Shapes' section below.
+    3.  Once all unique shapes are documented, call the `puzzle_analyst` agent with the complete dataset.
     4.  Use the agent's output (classification of corners, edges, middles) to assemble the puzzle, starting with the frame.
 
-### Puzzle Piece Shape Data (Observed)
-*   Shape 1: `[[true, true], [true, false]]`
+#### Unique Piece Shapes (Observed)
+*   `[[true, true], [true, false]]`
+*   `[[true, true], [false, true]]`
+*   `[[true, false], [true, true]]`
+*   `[[false, true], [true, true]]`
 
 ### Goldenrod Dept. Store Basement Puzzle
 - **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
@@ -101,6 +93,3 @@
     - **Input:** A representation of the puzzle grid (e.g., a 2D array of piece IDs) and a target configuration.
     - **Output:** A sequence of moves (e.g., `["pick(x1,y1)", "place(x2,y2)"]`) to solve it.
     - **Logic:** This would require an algorithm like A* search or a similar pathfinding/planning algorithm to find the optimal sequence of moves. It is a computational task, perfect for a tool.
-*   Shape 2: `[[true, true], [false, true]]`
-*   Shape 3: `[[true, false], [true, true]]`
-*   Shape: `[[false, true], [true, true]]`
