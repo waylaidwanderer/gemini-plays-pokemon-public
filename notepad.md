@@ -34,7 +34,7 @@
 ## II. Current Hypotheses & Puzzles
 
 - **Pokémon Mansion 2F Puzzle (Positional Triggers):** The gates on this floor are not just controlled by the switch at (3, 12). My own movement and position act as triggers. For example, moving to (11, 10) caused the gates at (10, 5) and (10, 6) to open, and moving to (21, 13) opened the gates at (19, 9) and (20, 9). This means I need to carefully map out which movements trigger which gates.
-- **Hypothesis (Blocked Path):** The eastern and western sections of 2F are separated by impassable walls. The holes to the floor below are in the eastern section. I cannot find a path. **New Hypothesis:** There is a hidden, walkable tile in the dividing wall. **Test Plan:** Systematically walk along the entire length of the dividing wall, pressing into it to find a secret passage.
+- **Hypothesis (Blocked Path on 3F):** The eastern and western sections of 3F are separated by impassable walls. The only way forward seems to be through the holes, but they are in the eastern section which I can't reach. My attempt to walk through the wall at (11, 12) failed. **New Hypothesis:** There is a hidden, walkable tile elsewhere in the dividing wall. **Test Plan (Attempt 2):** Systematically test other points along the wall. Next target: (11, 11).
 
 ## III. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
