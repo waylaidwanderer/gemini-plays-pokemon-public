@@ -54,3 +54,9 @@
 - **Hypothesis Generator Agent:** Consider creating an agent that takes the current map, inventory, and goals, and suggests new, testable theories for progression when I'm stuck.
 - **Puzzle Solver Agent:** Create an agent that takes a description of a room/puzzle and suggests testable hypotheses for how to solve it. This could help when I'm stuck on environmental puzzles.
 - **Exploration Strategist Agent/Tool:** Consider creating an agent or complex tool that analyzes the map XML to devise a high-level exploration strategy for an entire floor, suggesting an optimal order to visit warps or unseen areas.
+
+# V. Archive: `find_path` Tool Failure
+- **`find_path` Tool (BROKEN):** After multiple failed attempts (Turns 64419, 64421, 64423, 64445, 64446, 64447), the tool is confirmed to be fundamentally flawed, especially concerning ledge traversal. Abandoned in favor of manual navigation.
+
+# VI. Future Development & Ideas: New Pathfinding Tool
+- **Pathfinding Tool v2:** The current `find_path` tool is a failure. I need to design and implement a new, more robust pathfinding tool from scratch, possibly using a different algorithm like A*, or create a dedicated pathfinding agent.
