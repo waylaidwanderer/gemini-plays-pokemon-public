@@ -81,11 +81,14 @@
     - **Action 2 (Automated Data Gathering):** Used `run_code` to try and extract piece shape data automatically.
     - **Result:** Failed. The script could not find the puzzle data.
     - **Conclusion:** Puzzle piece data must be gathered manually.
-- **Current Strategy:**
-    1.  Manually inspect each of the 16 puzzle pieces on the puzzle screen.
-    2.  Record the shape of each piece as a boolean grid in my notepad.
-    3.  Call the `puzzle_analyst` agent with the gathered data.
+- **Current Strategy (Manual Data Gathering):**
+    1.  Systematically enter and exit the puzzle interface to view each of the 16 pieces without the cursor obstructing the view.
+    2.  Record the shape of each piece as a boolean grid below.
+    3.  Once all 16 pieces are documented, call the `puzzle_analyst` agent with the complete dataset.
     4.  Use the agent's output (classification of corners, edges, middles) to assemble the puzzle, starting with the frame.
+
+### Puzzle Piece Shape Data
+*   **Piece 5:** (Observed at puzzle coordinate (0,0)) - Shape: `[[true, true], [true, false]]`
 
 ### Goldenrod Dept. Store Basement Puzzle
 - **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
