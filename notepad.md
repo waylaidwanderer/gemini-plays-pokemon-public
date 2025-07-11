@@ -14,7 +14,7 @@
 - **Elevated Ground:** Walkable ground at a different elevation, accessible only via `steps`.
 - **Secret Switches:** Some statues contain hidden switches. Activating them can toggle the state of nearby gates, opening new paths. The switch at (3, 6) on 1F controls the gates at (17, 8) and (18, 8).
 - **Warp Tiles:** Instantaneous teleporters between maps or within the same map. Must step off and back on to reuse.
-- **Gates (`closed_gate`/`open_gate`/`gate_offscreen`):** `closed_gate` tiles are impassable. `open_gate` tiles are open and act as `ground`. `gate_offscreen` represents a gate whose state is unknown but should be treated as traversable if it was previously open. The state of these can be toggled by switches or other triggers.
+
 - **Unknown Tiles:** Tiles not yet seen (`seen="false"`). Treated as impassable until explored.
 
 ### B. Confirmed ROM Hack Changes
