@@ -43,7 +43,12 @@
   - **Test Plan:** Read diaries on 2F, then interact with all objects. Check 1F for a new path.
 
 ### B. Pokémon Mansion 2F Puzzle Log
-- **Hypothesis 1 (Attempt 1 - FAILED):** The switch at (3, 12) opens a path to the eastern section of the floor.
+- **Hypothesis 1 (FAILED):** The switch at (3, 12) opens a path to the eastern section of the floor.
+  - **Test:** Activated the switch, then used `find_path` to plot a course to the east.
+  - **Outcome:** `find_path` failed, confirming the path remains blocked.
+- **Hypothesis 2:** The switch at (3, 12) opened the southern gates at (8, 23) and (8, 24).
+  - **Test Plan:** Attempt to pathfind to the southern gates.
+  - **Expected Outcome:** `find_path` will succeed if the gates are open.
   - **Test:** Activated the switch, then used `find_path` to plot a course to the east.
   - **Outcome:** `find_path` failed, confirming the path remains blocked.
 - **Hypothesis 2 (FAILED):** The switch at (3, 12) opened the southern gates at (8, 23) and (8, 24).
