@@ -44,13 +44,14 @@
 # IV. Goal Revisions & Strategic Shifts
 - **Badge Count Correction:** I previously believed I had all 8 badges. I have re-evaluated and confirmed I only have 6. My new primary goal is to obtain the Volcano and Earth badges. The immediate objective is to find the Secret Key for the Cinnabar Gym.
 
-# V. Archive: Solved Puzzles & Disproven Hypotheses
+# V. Archive: Solved Puzzles, Disproven Hypotheses & Tool Failures
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other.
 - **Pikachu Puzzle Room (SOLVED):** The puzzle required having the starter Pikachu (SPARKY) in the lead. Interacting with the NPC Pikachu under this condition caused it to disappear, solving the puzzle.
 - **Pokémon Mansion 1F - Gate Puzzle (SOLVED):** The mansion's gates are a complex puzzle. The switch at (3, 6) toggles the state of both the western gates (17,8 & 18,8) and the eastern gates (25,14 & 26,14). However, there are also positional triggers. Walking in the central corridor around (12,8) closes the western gates. Walking in the eastern corridor around (27,10) closes the eastern gates. The solution is to flip the switch to open the desired set of gates and then approach them without crossing the trigger lines for the other set.
+- **Pathfinding Tools (`find_path`, `find_path_v2`) - CATASTROPHIC FAILURE (Turns 64411-64492):** Both the original BFS-based tool and the A*-based replacement proved fundamentally flawed, particularly with ledge traversal. Multiple attempts to debug and redefine the tools were unsuccessful and represented a significant process failure by getting stuck in an unproductive loop. The tools have been abandoned. Manual navigation is the current strategy.
 
 # VI. Future Development & Ideas
-- **Pathfinding Tool v2 (High Priority):** The current `find_path` tool is fundamentally flawed and has been abandoned after multiple failed debugging attempts (Turns 64445 through 64475). I need to design and implement a new, more robust pathfinding tool from scratch, possibly using a different algorithm like A*, or create a dedicated pathfinding agent.
+- **New Pathfinding Tool (CRITICAL PRIORITY):** At the next safe opportunity (e.g., in a Pokémon Center), I must design and implement a new, robust pathfinding tool from scratch. This is a critical capability that needs to be restored.
 - **Prerequisites Check:** Before entering new dungeons or major areas, I must verify that all necessary HMs (Flash, Cut, Surf, Strength) and key items are in my party or inventory to avoid backtracking.
 - **Hypothesis Generator Agent:** Consider creating an agent that takes the current map, inventory, and goals, and suggests new, testable theories for progression when I'm stuck.
 - **Puzzle Solver Agent:** Create an agent that takes a description of a room/puzzle and suggests testable hypotheses for how to solve it. This could help when I'm stuck on environmental puzzles.
