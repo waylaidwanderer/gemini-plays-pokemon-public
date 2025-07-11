@@ -59,3 +59,6 @@
 - **Pokémon Mansion 3F Access (DISPROVEN):** Stairs at (27, 2) on 2F lead down to 1F, not up to 3F.
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** Stairs at (6, 2) on 1F are unusable.
 - **Pokémon Mansion 1F - Eastern Gates (SOLVED):** The eastern gates at (25, 14) and (26, 14) are controlled by the switch at (3, 6). Flipping the switch toggles their state (open/closed).
+### B. Pokémon Mansion - Final Gate Puzzle
+- **Hypothesis 1:** The `closed_gate` at (27, 28) and (28, 28) on 1F is controlled by the switch at (3, 6).
+  - **Test Plan (Attempt 1):** Travel to (3, 6), activate the switch, and return to (27, 27) to observe the gate's state.
