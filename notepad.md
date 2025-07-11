@@ -11,7 +11,7 @@
 - **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
 - **Elevated Ground:** Walkable ground at a different elevation, accessible only via `steps`.
-- **Secret Switches:** Some statues contain hidden switches. Activating them can toggle the state of nearby gates, opening new paths. The switch at (3, 6) on 1F controls the gates at (17, 8) and (18, 8).
+- **Secret Switches:** Some statues contain hidden switches. Activating them can toggle the state of nearby gates, opening new paths. 
 - **Warp Tiles:** Instantaneous teleporters between maps or within the same map. Must step off and back on to reuse.
 - **Hole Tiles:** One-way warps that cause the player to fall to the floor below, often into isolated areas.
 - **Unknown Tiles:** Tiles not yet seen (`seen="false"`). Treated as impassable until explored.
@@ -32,12 +32,14 @@
 
 ## II. Active Puzzles & Hypotheses
 
-### A. Pokémon Mansion Puzzle (Positional Triggers)
-- **Confirmed Mechanic:** This mechanic is confirmed for multiple floors. On 2F, moving to specific tiles like (11, 10) and (21, 13) has also been observed to open gates. The trigger at (21, 13) opens the gates at (19, 9) and (20, 9). The trigger at (11, 10) seems to require cooperation with Pikachu, but its exact function is still unclear.
+### A. Pokémon Mansion Puzzles
+- **Hypothesis 1 (Active):** The switch at (3, 6) on 1F *only* controls the eastern gates at (25, 14) and (26, 14). I need to flip it again to open them.
+  - **Test Plan:**
+    1. Navigate back to the switch at (3, 6).
+    2. Interact with the switch to flip its state.
+    3. Navigate back to the eastern corridor to check if the gates at (25, 14) are now open.
 - **Untested Assumption (Key Location):** The Secret Key is *inside* the Pokémon Mansion. This is based on the original game, but this is a ROM hack.
   - **Test Plan:** If I remain stuck after testing other hypotheses, I will systematically interact with every NPC and object on Cinnabar Island itself.
-- **Hypothesis 1 (Active):** There is a hidden weak spot on 3F that must be fallen through to access a new area.
-  - **Test Plan:** Systematically walk over every tile on 3F. I am currently in an isolated section of 3F, so I must return to 2F and find another route to access the rest of 3F.
 
 ## III. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes and `gate_offscreen` tiles. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
@@ -51,13 +53,12 @@
 - **Mandatory Agent Usage:** I received a critique for failing to use my `battle_strategist_agent` during recent wild encounters, leading to inefficient, error-prone manual control. This is a direct violation of my own documented principles. I must *always* defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 ## IV. Archive: Solved Puzzles & Disproven Hypotheses
-- **Pokémon Mansion 2F - Hypothesis 1 (FAILED):** The switch at (3, 12) opens a path to the eastern section of the floor.
-  - **Test:** Activated the switch, then used `find_path` to plot a course to the east.
-  - **Outcome:** `find_path` failed, confirming the path remains blocked.
-- **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other. There is no path between them on this floor.
-- **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. The game state has confirmed a path to the southern warps exists, despite the water current.
+- **Pokémon Mansion 1F - Western Gates (SOLVED):** The western gates at (17, 8) and (18, 8) are opened by a positional trigger when entering the central corridor around (12, 8), not by the switch at (3, 6). The entire western section is a dead end.
+- **Pokémon Mansion 2F - Positional Triggers:** Moving to specific tiles like (11, 10) and (21, 13) has been observed to open gates.
+- **Pokémon Mansion 1F - Switch Puzzle (DISPROVEN):** The switch at (3, 6) does NOT open both the western and eastern gates simultaneously.
+- **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other.
+- **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. 
 - **Tool Failure & Hallucination (RESOLVED):** My `find_path` tool was critically flawed. It has been rewritten and is now reliable.
 - **Seafoam Islands Entrance (DISPROVEN):** No alternate entrance found on Route 19.
 - **Pokémon Mansion 3F Access (DISPROVEN):** Stairs at (27, 2) on 2F lead down to 1F, not up to 3F.
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** Stairs at (6, 2) on 1F are unusable.
-- **Pokémon Mansion 1F Positional Trigger:** Moving into the central area around (12, 12) opens the western gates at (17, 8). Moving out of this area closes them again.
