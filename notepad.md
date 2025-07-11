@@ -34,7 +34,6 @@
 ## II. Current Hypotheses & Puzzles
 
 - **Pokémon Mansion 2F Puzzle (Positional Triggers):** The gates on this floor are not just controlled by the switch at (3, 12). My own movement and position act as triggers. For example, moving to (11, 10) caused the gates at (10, 5) and (10, 6) to open, and moving to (21, 13) opened the gates at (19, 9) and (20, 9). This means I need to carefully map out which movements trigger which gates.
-- **Hypothesis (Blocked Path on 3F - DISPROVEN):** The hypothesis that a hidden passage exists in the wall dividing the eastern and western sections of 3F is likely false. Tests at (11, 12) and (11, 11) both failed. **New Plan:** Re-investigate the warp at (8, 11) to see if it provides access to the eastern side of the floor from another level, which would allow me to follow the Scientist's hint and jump down a hole.
 
 ## III. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
@@ -57,7 +56,11 @@
 - **Automation Opportunity (Boulder Puzzles):** Manually planning boulder pushes is inefficient. The `boulder_push_planner` tool should automate this.
 - **Automation Opportunity (Dungeon Puzzles):** A `puzzle_solver_agent` could be developed to analyze complex dungeon layouts like the Pokémon Mansion, taking into account switch states, positional triggers, and map data to propose high-level solutions for reaching specific objectives.
 
-## VI. Archive: Solved Puzzles & Disproven Hypotheses
+## VI. Agent-Assisted Hypotheses
+- **Hypothesis (Fall-Through Floor):** A specific breakable floor tile on 3F must be fallen through to access a sealed-off section of 2F. (Test Plan: Go to 3F. Systematically walk over every tile that looks like rubble or is near a ledge.)
+- **Hypothesis (Hidden Switch on 2F -> Path on 1F):** The Secret Key is in a hidden basement, opened by a concealed switch on 2F disguised as an object. (Test Plan: Read diaries on 2F, then interact with all objects. Check 1F for a new path.)
+
+## VII. Archive: Solved Puzzles & Disproven Hypotheses
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other. There is no path between them on this floor.
 - **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. The game state has confirmed a path to the southern warps exists, despite the water current.
 - **Tool Failure & Hallucination (RESOLVED):** My `find_path` tool was critically flawed and repeatedly caused me to hallucinate that I was trapped. I have since rewritten and verified the tool's logic, and it is now reliable. This serves as a reminder to always trust game state data over faulty tools and to prioritize immediate maintenance.
@@ -69,8 +72,5 @@
 - **Pokémon Mansion 1F Puzzle (Alternating Gates):** The switch at (3, 6) toggles the western gates at (17, 8) and eastern gates at (25, 14). This was part of the initial exploration.
 - **Pokémon Mansion 3F Puzzle (Alternating Gates):** The switch at (11, 6) toggles the state of the eastern gates. Activating it closes the gates at (16, 5) and (16, 6) and opens the gate at (16, 11).
 - **Pokémon Mansion Trapped Room (SOLVED):** My hypothesis that I was trapped in a room on 2F was incorrect. The room was part of a larger positional puzzle. My subsequent hypotheses (hidden switch, Dig, walk-through walls) were also incorrect, but the process of testing them led to the solution: moving to tile (21, 13) opened the gates at (19, 9) and (20, 9).
-
-## VI. Agent-Assisted Hypotheses
-- **Hypothesis (Fall-Through Floor):** A specific breakable floor tile on 3F must be fallen through to access a sealed-off section of 2F. (Test Plan: Go to 3F. Systematically walk over every tile that looks like rubble or is near a ledge.)
-- **Hypothesis (Hidden Switch on 2F -> Path on 1F):** The Secret Key is in a hidden basement, opened by a concealed switch on 2F disguised as an object. (Test Plan: Read diaries on 2F, then interact with all objects. Check 1F for a new path.)
-- **Hypothesis (NPC Blocking Switch):** The Super Nerd at (5, 18) is physically blocking a hidden switch. (Test Plan: Defeat the Super Nerd, then check the tile he was on for a switch.)
+- **Pokémon Mansion 3F Hidden Passage (DISPROVEN):** The hypothesis that a hidden passage exists in the wall dividing the eastern and western sections of 3F is false. Tests at (11, 12) and (11, 11) both failed.
+- **Pokémon Mansion 2F Super Nerd (DISPROVEN):** The Super Nerd at (5, 18) is not blocking a switch. Interaction confirmed he only provides a generic hint about alternating doors.
