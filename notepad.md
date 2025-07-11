@@ -23,7 +23,7 @@
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
     *   `PIT`: A hole in the floor that acts as a warp. Stepping on it triggers the warp.
-    *   `unknown` (in Ruins of Alph Ho-Oh Chamber): A special tile that, when standing on it and interacting with the adjacent puzzle object at (3, 2), warps the player to a sliding block puzzle screen. Its general traversability is unknown.
+    *   `unknown` (in Ruins of Alph Ho-Oh Chamber): A special tile that, when standing on it and interacting with the adjacent puzzle object at (3, 2), warps the player to a sliding block puzzle screen.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -67,22 +67,26 @@
 - **Conclusion:** This path is story-locked.
 
 ## V. Puzzle Solutions & Observations
+
+### Ruins of Alph Ho-Oh Puzzle
+- **Mechanic:** A 16-piece puzzle on a 6x6 grid. The goal is to assemble the image of Ho-Oh in the central 4x4 area.
+- **Current Strategy:**
+    1.  Move all 16 pieces to the outer border to get a clear view of each one. (Completed)
+    2.  Carefully re-identify corner and edge pieces based on the Ho-Oh image.
+    3.  Assemble the outer frame of the 4x4 picture first.
+    4.  Fill in the four middle pieces last.
+- **Alternative Hypotheses (If current strategy fails):**
+    1.  The solution is non-obvious (e.g., arrange by color pattern, leave a specific gap, use border pieces).
+    2.  The puzzle is a minor feature with no significant reward. (Low probability given the context of the ruins).
+
 ### Goldenrod Dept. Store Basement Puzzle
 - **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
 - **Hypothesis:** A specific sequence of movements and interactions with the Black Belts is required to open the path.
 
-### Ruins of Alph Ho-Oh Puzzle
-- **Mechanic:** A 16-piece puzzle on a 6x6 grid. The goal is to assemble the image of Ho-Oh in the central 4x4 area. Pieces are picked up from the border and placed into empty slots. A piece cannot be placed in an occupied slot; the existing piece must be moved first.
-- **Status:** First attempt at solving the puzzle failed. The game did not auto-complete, indicating an incorrect arrangement. Currently in the process of disassembling the incorrect solution to start over.
-- **Strategy (Revised):** 
-    1.  Move all 16 pieces to the outer border to get a clear view of each one.
-    2.  Carefully re-identify corner and edge pieces.
-    3.  Assemble the outer frame of the 4x4 picture first, verifying each piece's fit.
-    4.  Fill in the four middle pieces last.
-    5.  If a target slot is occupied, move the blocking piece to a temporary empty slot on the border.
-
 ## VI. Untested Hypotheses & Future Plans
-*   **`CUT_TREE` Respawn Conditions:** A `CUT_TREE` at (8, 25) in Ilex Forest respawned. I need to test the exact conditions. Does it happen after a certain number of steps, after leaving the map, or after a certain amount of time? Next time I cut a tree near a map transition, I will immediately leave and re-enter the map to check if it has respawned.
+*   **`CUT_TREE` Respawn Conditions:** A `CUT_TREE` at (8, 25) in Ilex Forest respawned. I need to test the exact conditions. Next time I cut a tree near a map transition, I will immediately leave and re-enter the map to check if it has respawned.
 *   **`WARP_CARPET_DOWN` Traversability:** I need to test if `WARP_CARPET_DOWN` tiles are truly one-way. Next time I'm on one, I will attempt to move up, left, and right to confirm.
-*   **Ho-Oh Puzzle Alternate Solutions:** If a second, careful visual assembly of the Ho-Oh image fails, my alternative hypothesis is that the solution is non-obvious (e.g., arranging by color, leaving a gap, etc.). I will test this only after a second standard attempt fails.
-*   **Puzzle Solver Tool:** If I continue to struggle with visual puzzles like the Ho-Oh one, I should define a custom tool. The tool would take a representation of the puzzle state (grid, pieces) and the target image, and output the sequence of moves to solve it. This is better than an agent as it's a computational task.
+*   **Puzzle Solver Tool Idea:** If I get stuck on visual puzzles, I should define a `puzzle_solver` tool.
+    - **Input:** A representation of the puzzle grid (e.g., a 2D array of piece IDs) and a target configuration.
+    - **Output:** A sequence of moves (e.g., `["pick(x1,y1)", "place(x2,y2)"]`) to solve it.
+    - **Logic:** This would require an algorithm like A* search or a similar pathfinding/planning algorithm to find the optimal sequence of moves. It is a computational task, perfect for a tool.
