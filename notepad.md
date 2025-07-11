@@ -3,7 +3,7 @@
 ## I. Current Objectives
 *   **Primary Goal:** Find and defeat the Olivine City Gym Leader.
 *   **Secondary Goal:** Find BERRIES to heal the sick Miltank on Route 39.
-*   **Tertiary Goal:** Find the Radio Card.
+*   **Tertiary Goal:** Solve the Ruins of Alph puzzles.
 
 ## II. Game Systems & Mechanics
 
@@ -28,7 +28,7 @@
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
     *   `PIT`: A hole in the floor that acts as a warp. Stepping on it triggers the warp.
-    *   `unknown` (in Ruins of Alph Ho-Oh Chamber): A special tile that, when standing on it and interacting with the adjacent puzzle object at (3, 2), warps the player to a sliding block puzzle screen. Its behavior without interacting with the puzzle is currently unknown.
+    *   `unknown` (in Ruins of Alph Ho-Oh Chamber): A special tile that, when standing on it and interacting with the adjacent puzzle object at (3, 2), warps the player to a sliding block puzzle screen. Its general traversability is unknown.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -64,24 +64,17 @@
 ### Route 37 Trainer Blockade
 - **Location:** (6, 12) and (7, 12).
 - **Blockade:** Two trainers (Twins Ann & Anne) disguised as trees block the path north.
-- **Behavior:** Interacting with them triggers a repeating dialogue loop.
-- **Conclusion:** This path is story-locked. Progress is gated behind an unknown event. I will not attempt this path again until I have a clear reason to believe it is open.
+- **Conclusion:** This path is story-locked. Progress is gated behind an unknown event.
 
 ### Goldenrod Underground Blockade
 - **Location:** (5, 31).
 - **Blockade:** A Super Nerd blocks the path south.
-- **Behavior:** Interacting with him triggers a repeating dialogue loop ("I guess I have to do things fair and square…"). No battle occurs.
-- **Conclusion:** This path is story-locked. I will not attempt this path again until I have a clear reason to believe it is open.
+- **Conclusion:** This path is story-locked.
 
 ## VI. Puzzle Solutions & Observations
 ### Goldenrod Dept. Store Basement Puzzle
-- **Mechanic:** This is a dynamic maze. My position on the map causes walls to appear or disappear and NPCs (Black Belts) to move, opening and closing paths. The goal is to reach the ladder at (17, 2).
-- **Known Triggers:**
-    1. Interacting with the Black Belt at (4, 8) makes him block the path west.
-    2. Moving from (5, 8) to (5, 9) causes the WALL at (10, 13) to become a FLOOR tile.
-    3. Moving from (8, 7) to (8, 8) causes the WALL at (11, 12) to become a FLOOR tile.
-    4. Moving from (8, 8) to (8, 9) causes the WALL at (11, 13) to become a FLOOR tile.
-- **Hypothesis:** A specific sequence of movements is required to open the path to the ladder.
+- **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
+- **Hypothesis:** A specific sequence of movements and interactions with the Black Belts is required to open the path.
 
 ### Ruins of Alph Ho-Oh Puzzle
 - **Mechanic:** A 16-piece puzzle on a 6x6 grid. The goal is to assemble the image of Ho-Oh in the central 4x4 area. Pieces are picked up from the border and placed into empty slots. **A piece cannot be placed in an occupied slot; the existing piece must be moved first.**
@@ -94,4 +87,4 @@
 ## VII. Untested Hypotheses
 *   **`CUT_TREE` Respawn Conditions:** A `CUT_TREE` at (8, 25) in Ilex Forest respawned. I need to test the exact conditions. Does it happen after a certain number of steps, after leaving the map, or after a certain amount of time? Next time I cut a tree near a map transition, I will immediately leave and re-enter the map to check if it has respawned.
 *   **`WARP_CARPET_DOWN` Traversability:** I need to test if `WARP_CARPET_DOWN` tiles are truly one-way. Next time I'm on one, I will attempt to move up, left, and right to confirm.
-*   **Ho-Oh Puzzle Mechanics:** My primary assumption is that solving this puzzle involves correctly assembling the image of Ho-Oh. An alternative hypothesis is that the puzzle is optional or has a non-obvious solution. If completing the image yields no results, I will exit the puzzle and re-examine the room to test this.
+*   **Ho-Oh Puzzle Outcome:** My primary assumption is that solving this puzzle by correctly assembling the image of Ho-Oh will unlock an event or reward. An alternative hypothesis is that the puzzle is optional or has a non-obvious solution. If completing the image yields no results, I will exit and re-examine the room.
