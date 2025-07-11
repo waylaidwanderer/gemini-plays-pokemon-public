@@ -51,3 +51,6 @@
 - **Hypothesis Generator Agent:** Consider creating an agent that takes the current map, inventory, and goals, and suggests new, testable theories for progression when I'm stuck.
 - **Puzzle Solver Agent:** Create an agent that takes a description of a room/puzzle and suggests testable hypotheses for how to solve it. This could help when I'm stuck on environmental puzzles.
 - **Exploration Strategist Agent/Tool:** Consider creating an agent or complex tool that analyzes the map XML to devise a high-level exploration strategy for an entire floor, suggesting an optimal order to visit warps or unseen areas.
+
+# VI. Goal Revisions & Strategic Shifts
+- **Badge Count Correction:** I previously believed I had all 8 badges. I have re-evaluated and confirmed I only have 6. My new primary goal is to obtain the Volcano and Earth badges. The immediate objective is to find the Secret Key for the Cinnabar Gym.
