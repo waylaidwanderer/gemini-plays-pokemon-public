@@ -72,3 +72,4 @@
 - **Hypothesis 1 (FAILED):** The switch at (3, 12) opens a path to the eastern section of the floor.
   - **Test:** Activated the switch, then used `find_path` to plot a course to the east.
   - **Outcome:** `find_path` failed, confirming the path remains blocked.
+- **Hypothesis (Agent-Assisted):** There is a hidden weak spot on 3F that must be fallen through to access a new area. Test Plan: Systematically walk over every tile on 3F.
