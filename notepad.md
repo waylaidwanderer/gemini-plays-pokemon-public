@@ -69,3 +69,8 @@
 - **Pokémon Mansion 1F Puzzle (Alternating Gates):** The switch at (3, 6) toggles the western gates at (17, 8) and eastern gates at (25, 14). This was part of the initial exploration.
 - **Pokémon Mansion 3F Puzzle (Alternating Gates):** The switch at (11, 6) toggles the state of the eastern gates. Activating it closes the gates at (16, 5) and (16, 6) and opens the gate at (16, 11).
 - **Pokémon Mansion Trapped Room (SOLVED):** My hypothesis that I was trapped in a room on 2F was incorrect. The room was part of a larger positional puzzle. My subsequent hypotheses (hidden switch, Dig, walk-through walls) were also incorrect, but the process of testing them led to the solution: moving to tile (21, 13) opened the gates at (19, 9) and (20, 9).
+
+## VI. Agent-Assisted Hypotheses
+- **Hypothesis (Fall-Through Floor):** A specific breakable floor tile on 3F must be fallen through to access a sealed-off section of 2F. (Test Plan: Go to 3F. Systematically walk over every tile that looks like rubble or is near a ledge.)
+- **Hypothesis (Hidden Switch on 2F -> Path on 1F):** The Secret Key is in a hidden basement, opened by a concealed switch on 2F disguised as an object. (Test Plan: Read diaries on 2F, then interact with all objects. Check 1F for a new path.)
+- **Hypothesis (NPC Blocking Switch):** The Super Nerd at (5, 18) is physically blocking a hidden switch. (Test Plan: Defeat the Super Nerd, then check the tile he was on for a switch.)
