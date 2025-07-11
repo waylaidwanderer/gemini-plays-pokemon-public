@@ -49,6 +49,10 @@
 - **Hypothesis 2 (CONFIRMED):** The switch at (3, 12) opened the southern gates at (8, 23) and (8, 24).
   - **Test:** Activated the switch and used `find_path` to navigate to (7, 22).
   - **Outcome:** `find_path` succeeded, confirming the path is now open.
+- **Pokémon Mansion 2F Super Nerd (DISPROVEN):** The Super Nerd at (5, 18) is not blocking a switch. Interaction confirmed he only provides a generic hint about alternating doors.
+- **Hypothesis 3:** The path forward is on a different floor.
+  - **Test Plan:** Ascend to 3F via the warp at (8, 11) and explore.
+  - **Expected Outcome:** Find a new path or puzzle on 3F.
 - **Hypothesis 3:** The path forward is on a different floor.
   - **Test Plan:** Ascend to 3F via the warp at (8, 11) and explore.
   - **Expected Outcome:** Find a new path or puzzle on 3F.
