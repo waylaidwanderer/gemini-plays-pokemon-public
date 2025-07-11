@@ -49,7 +49,7 @@
 - **Hypothesis 2 (CONFIRMED):** The switch at (3, 12) opened the southern gates at (8, 23) and (8, 24).
   - **Test:** Activated the switch and used `find_path` to navigate to (7, 22).
   - **Outcome:** `find_path` succeeded, confirming the path is now open.
-- **Pokémon Mansion 2F Super Nerd (DISPROVEN):** The Super Nerd at (5, 18) is not blocking a switch. Interaction confirmed he only provides a generic hint about alternating doors.
+
 - **Hypothesis 3:** The path forward is on a different floor.
   - **Test Plan:** Ascend to 3F via the warp at (8, 11) and explore.
   - **Expected Outcome:** Find a new path or puzzle on 3F.
@@ -81,7 +81,7 @@
 - **Pokémon Mansion 3F Puzzle (Alternating Gates):** The switch at (11, 6) toggles the state of the eastern gates. Activating it closes the gates at (16, 5) and (16, 6) and opens the gate at (16, 11).
 - **Pokémon Mansion Trapped Room (SOLVED):** My hypothesis that I was trapped in a room on 2F was incorrect. The room was part of a larger positional puzzle. My subsequent hypotheses (hidden switch, Dig, walk-through walls) were also incorrect, but the process of testing them led to the solution: moving to tile (21, 13) opened the gates at (19, 9) and (20, 9).
 - **Pokémon Mansion 3F Hidden Passage (DISPROVEN):** The hypothesis that a hidden passage exists in the wall dividing the eastern and western sections of 3F is false. Tests at (11, 12) and (11, 11) both failed.
-- **Pokémon Mansion 2F Super Nerd (DISPROVEN):** The Super Nerd at (5, 18) is not blocking a switch. Interaction confirmed he only provides a generic hint about alternating doors.
+
 - **Pokémon Mansion 1F Warp (One-Way):** The warp at (6, 11) is a one-way trip to the second floor. The game automatically sends you back to the first floor after a single step, making this path unusable for exploring 2F.
 - **Hypothesis (FAILED):** The switch at (3, 6) opens the eastern gates at (25, 14).
   - **Test:** Flipped the switch and attempted to path to (25, 15).
