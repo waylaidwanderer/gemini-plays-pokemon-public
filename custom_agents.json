@@ -19,5 +19,12 @@
     "agent_system_prompt": "You are an NPC Trade Tracker. Your job is to manage a database of trades. When given new trade info, you will format it for storage. When asked to recall information, you will provide all known details about a specific trade or list all known trades. Your output must conform to the schema.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\",\"enum\":[\"log\",\"query\"]},\"npc_location_map\":{\"type\":\"string\",\"nullable\":true},\"npc_location_coords\":{\"type\":\"string\",\"nullable\":true},\"pokemon_wanted\":{\"type\":\"string\",\"nullable\":true},\"pokemon_offered\":{\"type\":\"string\",\"nullable\":true},\"query_pokemon\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"action\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"success\":{\"type\":\"boolean\"},\"message\":{\"type\":\"string\"},\"trade_data\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"map\":{\"type\":\"string\"},\"coords\":{\"type\":\"string\"},\"wants\":{\"type\":\"string\"},\"offers\":{\"type\":\"string\"}},\"required\":[\"map\",\"coords\",\"wants\",\"offers\"]}}}}"
+  },
+  "puzzle_solver_agent": {
+    "agent_name": "puzzle_solver_agent",
+    "agent_description": "Analyzes puzzle descriptions (tile types, objects, NPCs) and suggests testable hypotheses for solutions.",
+    "agent_system_prompt": "You are a Pokémon Puzzle Solver. Given a description of a puzzle room, analyze the elements and generate a list of simple, testable hypotheses for how to solve it. Focus on interactions between elements (switches, boulders, spinners, NPCs). Your output must be a list of concrete actions to try.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"puzzle_description\":{\"type\":\"string\",\"description\":\"A detailed text description of the puzzle room, including tile types, object locations, NPC dialogue, and the goal.\"}},\"required\":[\"puzzle_description\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hypothesis\":{\"type\":\"string\"},\"test_action\":{\"type\":\"string\"}},\"required\":[\"hypothesis\",\"test_action\"]}},\"confidence_in_solution\":{\"type\":\"number\",\"minimum\":0,\"maximum\":1}},\"required\":[\"hypotheses\"]}"
   }
 }
