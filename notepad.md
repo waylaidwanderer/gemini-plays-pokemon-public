@@ -103,3 +103,7 @@
     1.  Move to (3, 3).
     2.  Face the puzzle object at (3, 2).
     3.  Interact with the puzzle object.
+
+## IX. Untested Hypotheses (Post-Reflection)
+*   **`WARP_CARPET_DOWN` Traversability:** I need to test if `WARP_CARPET_DOWN` tiles are truly one-way. Next time I'm on one, I will attempt to move up, left, and right to confirm.
+*   **Ho-Oh Puzzle Mechanics:** My current hypothesis is that this is a standard sliding puzzle where any border piece adjacent to an empty grid slot can be moved. An alternative hypothesis is that only *specific* border pieces are movable at any given time. To test this, after placing the next piece, I will try to pick up another adjacent border piece (like Piece #11 at position 24). If I can't, my current hypothesis is incomplete.
