@@ -17,7 +17,7 @@
     * `FLOOR_UP_WALL`: A complex one-way ledge. Can be moved onto from a tile below, off of by moving down, and horizontally between adjacent `FLOOR_UP_WALL` tiles. Cannot move up from this tile.
 *   **Special Requirement:** 
     * `CUT_TREE` (Requires HM01 Cut. These trees can respawn after being cut).
-    * `WATER` (Requires HM03 Surf, but is currently blocked in Olivine City).
+    * `WATER` (Requires HM03 Surf. Usable outside of battle after obtaining the Fog Badge).
     * `BREAKABLE_ROCK` (Requires Rock Smash).
     * `HEADBUTT_TREE` (Requires the move Headbutt. Confirmed that interacting without the move does nothing).
 *   **Complex Tiles:**
@@ -61,9 +61,7 @@
 ## V. Puzzles & Exploration Notes
 
 ### Ruins of Alph
-*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. Currently on hold due to difficulty.
-    *   **Unique Piece Shapes (Observed):** `[[true, true], [false, true]]`, `[[true, false], [true, true]]`, `[[false, true], [true, true]]`, `[[true, true], [true, false]]`.
-*   **Ruins of Alph Ledges:** Some ledges in RuinsOfAlphOutside, like the one at (2, 19), lead to small grassy areas. These are not traps; a path out exists at (2, 21).
+*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. Currently on hold due to difficulty. The `puzzle_analyst` agent should be used to help solve this.
 *   **Southern Area Inaccessibility:** The southern part of RuinsOfAlphOutside is not accessible from the northern part. The connecting path is likely through Union Cave.
 
 ### Goldenrod Dept. Store Basement Puzzle
@@ -72,7 +70,6 @@
 
 ## VI. Untested Hypotheses & Future Plans
 *   **`CUT_TREE` Respawn Conditions:** A `CUT_TREE` at (8, 25) in Ilex Forest respawned. I need to test the exact conditions. Next time I cut a tree near a map transition, I will immediately leave and re-enter the map to check if it has respawned.
-*   **Puzzle Solver Tool Idea:** If I get stuck on visual puzzles, I should define a `puzzle_solver` tool.
-    - **Input:** A representation of the puzzle grid (e.g., a 2D array of piece IDs) and a target configuration.
-    - **Output:** A sequence of moves (e.g., `["pick(x1,y1)", "place(x2,y2)"]`) to solve it.
-    - **Logic:** This would require an algorithm like A* search or a similar pathfinding/planning algorithm to find the optimal sequence of moves. It is a computational task, perfect for a tool.
+
+## VII. Tasks & Reminders
+*   Re-mark defeated trainers Hiker Leonard and Hiker Phillip in UnionCaveB1F with their object IDs when I encounter them again.
