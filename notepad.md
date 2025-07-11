@@ -46,9 +46,9 @@
 - **Hypothesis 1 (FAILED):** The switch at (3, 12) opens a path to the eastern section of the floor.
   - **Test:** Activated the switch, then used `find_path` to plot a course to the east.
   - **Outcome:** `find_path` failed, confirming the path remains blocked.
-- **Hypothesis 2:** The switch at (3, 12) opened the southern gates at (8, 23) and (8, 24).
-  - **Test Plan:** Use `find_path` to navigate to the traversable tile at (7, 22).
-  - **Expected Outcome:** A successful path will confirm the gates are open.
+- **Hypothesis 2 (CONFIRMED):** The switch at (3, 12) opened the southern gates at (8, 23) and (8, 24).
+  - **Test:** Activated the switch and used `find_path` to navigate to (7, 22).
+  - **Outcome:** `find_path` succeeded, confirming the path is now open.
 - **Hypothesis 3:** The path forward is on a different floor.
   - **Test Plan:** Ascend to 3F via the warp at (8, 11) and explore.
   - **Expected Outcome:** Find a new path or puzzle on 3F.
