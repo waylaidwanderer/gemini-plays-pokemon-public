@@ -39,16 +39,13 @@
 - **Challenge Assumptions:** I need to be more open to the possibility of isolated, separate dungeon areas and not assume everything is connected. I must also challenge the assumption that my tools are working correctly and rigorously test them when they fail.
 
 # III. Active Hypotheses & Tests
-- **Hypothesis:** The Secret Key is located somewhere in the Seafoam Islands. The boulder puzzles likely need to be solved to access a new area.
-- **Test:** Return to Seafoam Islands and systematically solve all boulder and current puzzles. Explore any newly accessible areas thoroughly.
+- **Hypothesis:** The Secret Key is located in the Power Plant.
+- **Test:** Navigate through Rock Tunnel to the northern part of Route 10. Explore the Power Plant thoroughly to find the key.
 
 # IV. Archive: Solved Puzzles & Disproven Hypotheses
-- **Cinnabar Island Key Location (DISPROVEN):** After systematically exploring every building (Mansion, Lab, Mart, PokeCenter) and interacting with every NPC and object on Cinnabar Island, no Secret Key was found. This hypothesis is considered false.
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other.
 - **Pikachu Puzzle Room (SOLVED):** The puzzle required having the starter Pikachu (SPARKY) in the lead. Interacting with the NPC Pikachu under this condition caused it to disappear, solving the puzzle.
 - **Pokémon Mansion 1F - Gate Puzzle (SOLVED):** The mansion's gates are a complex puzzle. The switch at (3, 6) toggles the state of both the western gates (17,8 & 18,8) and the eastern gates (25,14 & 26,14). However, there are also positional triggers. Walking in the central corridor around (12,8) closes the western gates. Walking in the eastern corridor around (27,10) closes the eastern gates. The solution is to flip the switch to open the desired set of gates and then approach them without crossing the trigger lines for the other set.
 
 # V. Future Development & Ideas
 - **Hypothesis Generator Agent:** Consider creating an agent that takes the current map, inventory, and goals, and suggests new, testable theories for progression when I'm stuck.
-- **Seafoam Key Test Plan (ARCHIVED):** 1. Systematically solve every boulder/current puzzle. 2. Thoroughly explore any newly accessible areas. 3. If no key is found after clearing all puzzles, conclude the hypothesis is false and re-evaluate. **Conclusion:** This test was partially executed, but the island proved unreachable from the east and west, falsifying the core hypothesis.
-- **Tool Debugger Agent:** Consider creating an agent that analyzes failed tool outputs and code to suggest fixes, preventing prolonged manual debugging sessions.
