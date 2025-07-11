@@ -74,3 +74,6 @@
 - **Plan:** Solve the puzzle manually by identifying which pieces fit into the empty slots based on their visual appearance.
 - **Status:** In progress.
 - **New Hypothesis:** The Ruins of Alph puzzles might be optional side content, not mandatory for progression. If I remain stuck after a few more systematic attempts, I will test this by leaving the ruins and searching for an alternative route to my primary goal.
+
+## Data Management To-Do
+*   The map marker for the 'Youngster who likes thinking' at RuinsOfAlphOutside (4, 20) is not linked to an object_id. I must update this the next time the object is on screen to ensure proper tracking.
