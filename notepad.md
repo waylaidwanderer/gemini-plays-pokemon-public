@@ -76,3 +76,4 @@
 *   **Tool Development:** When a tool is not working, I must stop and debug it properly using `run_code` and print statements before defining a new version. My repeated failures with `pathfinder` were due to not rigorously testing against my documented mechanics.
 *   **Immediate Action:** I must act on new information immediately. Deferring tasks like marking warps or fixing tools is an invalid and inefficient strategy.
 *   **Strategic Flexibility:** I must be more willing to abandon a failing strategy (like the Union Cave boulder puzzle) and pivot to alternative paths (like the western water route or the unexplored warp).
+*   **Function Isolation:** When debugging a tool, I must isolate the specific function causing the error (e.g., `get_neighbors`) and test it with `run_code` and print statements. I will not redefine the entire tool until the isolated function is confirmed to work correctly.
