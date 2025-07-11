@@ -68,3 +68,10 @@
   2. Player moves Right to (28, 27), causing Pikachu to move Down to (27, 27).
   3. Player moves Up to (28, 26), causing Pikachu to move Right to (28, 27).
   4. Player moves Left to (27, 26), causing Pikachu to move Up to (28, 26). This achieves the goal state.
+- **Mechanics:** This is a positioning puzzle with a rotational movement rule. My movement direction causes Pikachu to move in a clockwise-rotated direction (My Up -> His Right, My Right -> His Down, My Down -> His Left, My Left -> His Up). Interacting with 'A' triggers a silent dialogue that is a failure state, which can be cancelled with 'B' to reset the puzzle.
+- **Goal State:** The solution requires placing the Player at (27, 26) and Pikachu at (28, 26).
+- **Solution Path:**
+  1. Start with Player at (27, 27) and Pikachu at (27, 26).
+  2. Player moves Right to (28, 27), causing Pikachu to move Down to (27, 27).
+  3. Player moves Up to (28, 26), causing Pikachu to move Right to (28, 27).
+  4. Player moves Left to (27, 26), causing Pikachu to move Up to (28, 26). This achieves the goal state.
