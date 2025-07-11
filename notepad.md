@@ -35,7 +35,7 @@
 ## II. Active Puzzles & Hypotheses
 
 ## III. Process & Strategy Insights
-- **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes and `gate_offscreen` tiles. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
+- **Immediate Maintenance is Paramount:** My `find_path` tool has failed *again* due to not handling `gate_offscreen` tiles. My previous 'fix' was insufficient. This is a recurring critical process failure. Correcting this tool permanently is the absolute top priority. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
 - **Challenge Assumptions:** My assumption that the eastern and western sections of the Seafoam Islands were connected was wrong. I need to be more open to the possibility of isolated, separate dungeon areas.
 - **Tool Reliability:** The `boulder_push_planner` correctly identified an unreachable puzzle, proving its logic is sound. This reinforces the need to trust my tools once they are properly built and tested.
 - **Map Marker Discipline:** I must stop creating redundant markers for objects already tracked in the game state (NPCs, signs, etc.). This clutters my map memory and is inefficient.
