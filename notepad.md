@@ -55,8 +55,3 @@
 - **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear.
 - **Pokémon Mansion 1F - Gate Puzzle (SOLVED):** A combination of a single switch and positional triggers control the gates.
 - **Rock Tunnel B1F - Walk-Through NPC (INVALIDATED):** My previous note claimed the Super Nerd at (4, 6) was walkable. Repeated attempts (Turns 64707, 64708, 64709) have proven this false. He consistently blocks movement.
-
-# VI. Future Development & Ideas
-- **Prerequisites Check:** Before entering new dungeons or major areas, I must verify that all necessary HMs (Flash, Cut, Surf, Strength) and key items are in my party or inventory to avoid backtracking.
-- **Puzzle Solver Agent:** Create an agent that takes a description of a room/puzzle (tile types, object locations, NPC dialogue) and suggests testable hypotheses for how to solve it. This could help when I'm stuck on environmental puzzles by providing structured, logical steps for experimentation.
-- **NPC/Trade Tracker:** Create an agent or tool to log the location and requests of important NPCs (like traders) to avoid relying on faulty memory in the future.
