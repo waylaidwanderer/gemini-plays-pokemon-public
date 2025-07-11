@@ -16,7 +16,7 @@
 - **Hole Tiles:** One-way warps that cause the player to fall to the floor below, often into isolated areas.
 - **Unknown Tiles:** Tiles not yet seen (`seen="false"`). Treated as impassable until explored.
 - **Gate Offscreen:** A gate (either open or closed) that is not currently visible on the screen. Its state is unknown until it is brought into view. Should be treated as walkable by pathfinding tools.
-- **Closed Gate:** An impassable gate that is currently visible on the screen. It may require a switch or key to open.
+- **Closed/Open Gate:** An impassable/passable gate that is currently visible on the screen. It may require a switch or key to open, or be controlled by a positional trigger.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -34,24 +34,12 @@
 
 ## II. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** My `find_path` tool has failed repeatedly. This is a recurring critical process failure. Correcting this tool permanently is the absolute top priority. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
-- **Challenge Assumptions:** I need to be more open to the possibility of isolated, separate dungeon areas and not assume everything is connected.
-- **Tool Reliability:** The `boulder_push_planner` correctly identified an unreachable puzzle, proving its logic is sound. This reinforces the need to trust my tools once they are properly built and tested.
-- **Map Marker Discipline:** I must stop creating redundant markers for objects already tracked in the game state (NPCs, signs, etc.). This clutters my map memory and is inefficient.
+- **Agent vs. Tool Distinction:** Agents are for reasoning and should not be used for computational tasks like pathfinding or reachability analysis. These tasks require a dedicated custom tool that can parse the map XML. Misusing agents for computational tasks leads to failure.
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
-- **Agent vs. Tool Distinction:** Agents are for reasoning and should not be used for computational tasks like pathfinding or reachability analysis. These tasks require a dedicated custom tool that can parse the map XML.
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
+- **Challenge Assumptions:** I need to be more open to the possibility of isolated, separate dungeon areas and not assume everything is connected. I must also challenge the assumption that my tools are working correctly and rigorously test them when they fail.
 
 ## III. Archive: Solved Puzzles & Disproven Hypotheses
-- **Pokémon Mansion 1F - Western Gates (SOLVED):** The western gates at (17, 8) and (18, 8) are opened by a positional trigger when entering the central corridor around (12, 8), not by the switch at (3, 6). The entire western section is a dead end.
-- **Pokémon Mansion 2F - Positional Triggers:** Moving to specific tiles like (11, 10) and (21, 13) has been observed to open gates.
-- **Pokémon Mansion 1F - Switch Puzzle (DISPROVEN):** The switch at (3, 6) does NOT open both the western and eastern gates simultaneously.
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other.
-- **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. 
-- **Seafoam Islands Entrance (DISPROVEN):** No alternate entrance found on Route 19.
-- **Pokémon Mansion 3F Access (DISPROVEN):** Stairs at (27, 2) on 2F lead down to 1F, not up to 3F.
-- **Pokémon Mansion 1F Main Stairs (DISPROVEN):** Stairs at (6, 2) on 1F are unusable.
-- **Pokémon Mansion 1F - Eastern Gates (SOLVED):** The eastern gates at (25, 14) and (26, 14) are controlled by the switch at (3, 6). Flipping the switch toggles their state (open/closed).
-- **Pikachu Puzzle Room - Hypothesis 1 (DISPROVEN):** The agent's hypothesis that the NPC Pikachu is a simple teleporter is incorrect. Interacting with it causes it to disappear and reappear, resetting the puzzle but not providing an exit.
-- **Pikachu Puzzle Room - Hypothesis 2 (DISPROVEN):** The agent's hypothesis of a hidden floor switch was a hallucination. The game state shows no such object. Agent has been refined.
 - **Pikachu Puzzle Room (SOLVED):** The puzzle required having the starter Pikachu (SPARKY) in the lead. Interacting with the NPC Pikachu under this condition caused it to disappear, solving the puzzle.
-- **Pokémon Mansion 1F - Eastern Gates (SOLVED):** The eastern gates at (25, 14) and (26, 14) are controlled by the switch at (3, 6). Flipping the switch toggles their state (open/closed).
+- **Pokémon Mansion 1F - Gate Puzzle (SOLVED):** The mansion's gates are a complex puzzle. The switch at (3, 6) toggles the state of both the western gates (17,8 & 18,8) and the eastern gates (25,14 & 26,14). However, there are also positional triggers. Walking in the central corridor around (12,8) closes the western gates. Walking in the eastern corridor around (27,10) closes the eastern gates. The solution is to flip the switch to open the desired set of gates and then approach them without crossing the trigger lines for the other set.
