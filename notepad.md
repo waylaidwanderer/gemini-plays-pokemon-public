@@ -54,7 +54,7 @@
 - **Pokémon Mansion 1F - Switch Puzzle (DISPROVEN):** The switch at (3, 6) does NOT open both the western and eastern gates simultaneously.
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other.
 - **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. 
-- **Tool Failure & Hallucination (RESOLVED):** My `find_path` tool was critically flawed. It has been rewritten and is now reliable.
+- **Tool Failure & Hallucination (ONGOING):** My `find_path` tool has repeatedly failed, generating invalid paths. I am rewriting it again to be more robust. I must prioritize fixing faulty tools immediately over any other gameplay action.
 - **Seafoam Islands Entrance (DISPROVEN):** No alternate entrance found on Route 19.
 - **Pokémon Mansion 3F Access (DISPROVEN):** Stairs at (27, 2) on 2F lead down to 1F, not up to 3F.
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** Stairs at (6, 2) on 1F are unusable.
