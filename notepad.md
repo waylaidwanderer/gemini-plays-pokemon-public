@@ -43,14 +43,11 @@
 # III. Active Hypotheses & Tests
 - **Hypothesis:** The Secret Key is located in the Power Plant.
   - **Test:** Navigate to the Power Plant and explore it thoroughly.
-- **Hypothesis:** A Machoke, obtainable via trade, is required to use STRENGTH to move a boulder and clear the path in Rock Tunnel.
-  - **Plan:** Travel to the Underground Path between Routes 5 and 6. An NPC there wants to trade a Machoke for a Cubone. I now have a Cubone in my party for this purpose.
 
 # IV. Goal Revisions & Strategic Shifts
 - **Badge Count Correction:** I previously believed I had all 8 badges. I have re-evaluated and confirmed I only have 6. My new primary goal is to obtain the Volcano and Earth badges. The immediate objective is to find the Secret Key for the Cinnabar Gym.
 
 # V. Archive: Solved Puzzles & Lessons Learned
-- **Pathfinding Tool Limitation:** My `find_path_v4` tool treats all NPCs as impassable. This is a known limitation that I will now fix.
 - **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
 - **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear.
 - **Pokémon Mansion 1F - Gate Puzzle (SOLVED):** A combination of a single switch and positional triggers control the gates.
