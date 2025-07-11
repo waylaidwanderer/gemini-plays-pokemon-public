@@ -85,3 +85,4 @@
 - **Hypothesis 3:** The path forward is on a different floor.
   - **Test Plan:** Ascend to 3F via the warp at (8, 11) and explore.
   - **Expected Outcome:** Find a new path or puzzle on 3F.
+- **Pokémon Mansion 1F Warp (One-Way):** The warp at (6, 11) is a one-way trip to the second floor. The game automatically sends you back to the first floor after a single step, making this path unusable for exploring 2F.
