@@ -58,4 +58,4 @@
 - **Puzzle Solver Agent:** Create an agent that takes a description of a room/puzzle (tile types, object locations, NPC dialogue) and suggests testable hypotheses for how to solve it. This could help when I'm stuck on environmental puzzles by providing structured, logical steps for experimentation.
 
 # VII. Discovered Exceptions & Glitches
-- **Walk-Through NPCs:** Some NPCs that block paths are not solid and can be walked through. Confirmed with the Super Nerd at (4, 6) in Rock Tunnel B1F, who remains stationary and can be passed by walking directly onto his tile. This appears to be an exception, not a general rule for all blocking NPCs.
+- **Walk-Through NPCs (Hypothesis Invalidated):** My previous note claimed the Super Nerd at (4, 6) in Rock Tunnel B1F was simply walkable. Repeated attempts (Turns 64707, 64708, 64709) have proven this false. He consistently blocks movement. **New Hypothesis:** Interaction via dialogue ('A' button) is required to pass him. This is now being tested.
