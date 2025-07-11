@@ -77,7 +77,6 @@
     4.  Use the agent's output (classification of corners, edges, middles) to assemble the puzzle, starting with the frame.
 
 #### Unique Piece Shapes (Observed)
-*   `[[true, true], [true, false]]`
 *   `[[true, true], [false, true]]`
 *   `[[true, false], [true, true]]`
 *   `[[false, true], [true, true]]`
