@@ -6,7 +6,6 @@
 - **Water:** Surfable tiles. To initiate SURF, I must be on a `ground` or `steps` tile adjacent to water and use the move from the party menu.
 - **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Spinner Tiles:** Force movement in a specific direction. Destinations must be mapped manually.
-
 - **Scripted Event Tiles:** Some tiles trigger events. The tile in front of the Cinnabar Gym door (19, 5) pushes the player back and displays a 'locked' message. The water on Seafoam Islands B4F has a scripted current that prevents surfing south.
 - **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls.
 - **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
@@ -15,7 +14,6 @@
 - **Secret Switches:** Some statues contain hidden switches. Activating them can toggle the state of nearby gates, opening new paths. The switch at (3, 6) on 1F controls the gates at (17, 8) and (18, 8).
 - **Warp Tiles:** Instantaneous teleporters between maps or within the same map. Must step off and back on to reuse.
 - **Hole Tiles:** One-way warps that cause the player to fall to the floor below, often into isolated areas.
-
 - **Unknown Tiles:** Tiles not yet seen (`seen="false"`). Treated as impassable until explored.
 
 ### B. Confirmed ROM Hack Changes
@@ -35,13 +33,10 @@
 ## II. Active Puzzles & Hypotheses
 
 ### A. Pokémon Mansion Puzzle (Positional Triggers)
-- **Confirmed Mechanic:** This mechanic is confirmed for multiple floors.  On 2F, moving to specific tiles like (11, 10) and (21, 13) has also been observed to open gates. I need to map these triggers carefully.
+- **Confirmed Mechanic:** This mechanic is confirmed for multiple floors. On 2F, moving to specific tiles like (11, 10) and (21, 13) has also been observed to open gates. I need to map these triggers carefully.
 - **Untested Assumption (Key Location):** The Secret Key is *inside* the Pokémon Mansion. This is based on the original game, but this is a ROM hack.
   - **Test Plan:** If I remain stuck after testing other hypotheses, I will systematically interact with every NPC and object on Cinnabar Island itself.
-- **Untested Assumption (Fall-Through Floor):** A specific breakable floor tile on 3F must be fallen through to access a sealed-off section of 2F.
-  - **Test Plan:** I must first find an alternate route to the eastern side of 2F or 3F to test the holes.
-- **Agent-Assisted Hypothesis (Hidden Switch):** The Secret Key is in a hidden basement, opened by a concealed switch on 2F disguised as an object.
-  - **Test Plan:** Read diaries on 2F, then interact with all objects. Check 1F for a new path.
+- **Hypothesis (Agent-Assisted):** There is a hidden weak spot on 3F that must be fallen through to access a new area. Test Plan: Systematically walk over every tile on 3F.
 
 ### B. Pokémon Mansion 2F Puzzle Log
 - **Hypothesis 1 (FAILED):** The switch at (3, 12) opens a path to the eastern section of the floor.
@@ -67,9 +62,3 @@
 - **Pokémon Mansion 3F Access (DISPROVEN):** Stairs at (27, 2) on 2F lead down to 1F, not up to 3F.
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** Stairs at (6, 2) on 1F are unusable.
 - **Pokémon Mansion 1F Positional Trigger:** Moving into the central area around (12, 12) opens the western gates at (17, 8). Moving out of this area closes them again.
-- **Hypothesis (Agent-Assisted):** There is a hidden weak spot on 3F that must be fallen through to access a new area. Test Plan: Systematically walk over every tile on 3F.
-### C. Pokémon Mansion 2F Puzzle Log
-- **Hypothesis 1 (FAILED):** The switch at (3, 12) opens a path to the eastern section of the floor.
-  - **Test:** Activated the switch, then used `find_path` to plot a course to the east.
-  - **Outcome:** `find_path` failed, confirming the path remains blocked.
-- **Hypothesis (Agent-Assisted):** There is a hidden weak spot on 3F that must be fallen through to access a new area. Test Plan: Systematically walk over every tile on 3F.
