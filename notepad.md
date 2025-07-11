@@ -32,6 +32,9 @@
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center.
 - **Warp Reuse:** To reuse an instant warp you just came through, you must step off the warp tile and then back on to trigger it.
 
+## C. Area & Navigation Insights
+- **Rock Tunnel B1F:** This area is divided into multiple isolated sections. The eastern ladder at (34, 26) is not accessible from the central corridor entrance.
+
 # II. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** Deferring tool/agent/notepad maintenance is a critical process failure. It MUST be performed as the highest priority upon identifying an issue. I have repeatedly made this mistake and must be vigilant in correcting it.
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
