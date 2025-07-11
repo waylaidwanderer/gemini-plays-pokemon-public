@@ -12,19 +12,19 @@
 *   **Impassable:** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `PC`, `LINK_RECEPTIONIST`, `WINDOW`, `WEIRD_TREE`.
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile), `PIT` (Acts as a warp when stepped on).
-*   **One-Way Ledges:** 
-    * `LEDGE_HOP_DOWN`: A one-way ledge that can only be hopped **DOWN**. Attempting to move up against it fails.
-    * `LEDGE_HOP_DOWN/RIGHT`: A one-way ledge that can only be hopped in the specified direction.
-    * `LEDGE_HOP_LEFT`: A one-way ledge that can only be hopped **LEFT**.
-    * `FLOOR_UP_WALL`: A complex one-way ledge. Confirmed impassable when moving down onto it from a `FLOOR` or `LADDER` tile. You can move onto it from a tile below it. You can move horizontally between adjacent `FLOOR_UP_WALL` tiles. You can move down *off* of it to a tile below. You cannot move up from this tile.
-*   **Special Requirement:** 
-    * `CUT_TREE` (Requires HM01 Cut. These trees can respawn after being cut).
-    * `WATER` (Requires HM03 Surf. To initiate, face the water and press 'A').
-    * `BREAKABLE_ROCK` (Requires Rock Smash).
-    * `HEADBUTT_TREE` (Requires the move Headbutt. Confirmed that interacting without the move does nothing).
+*   **One-Way Ledges:**
+    *   `LEDGE_HOP_DOWN`: A one-way ledge that can only be hopped **DOWN**. Attempting to move up against it fails.
+    *   `LEDGE_HOP_DOWN/RIGHT`: A one-way ledge that can only be hopped in the specified direction.
+    *   `LEDGE_HOP_LEFT`: A one-way ledge that can only be hopped **LEFT**.
+    *   `FLOOR_UP_WALL`: A complex one-way ledge. You can move onto it from a tile below it, move horizontally between adjacent `FLOOR_UP_WALL` tiles, and move down *off* of it to a tile below. You cannot move up from this tile or down onto it from a standard `FLOOR` or `LADDER` tile.
+*   **Special Requirement:**
+    *   `CUT_TREE` (Requires HM01 Cut. These trees can respawn after being cut).
+    *   `WATER` (Requires HM03 Surf. To initiate, face the water and press 'A').
+    *   `BREAKABLE_ROCK` (Requires Rock Smash).
+    *   `HEADBUTT_TREE` (Requires the move Headbutt. Confirmed that interacting without the move does nothing).
 *   **Complex Tiles:**
-    *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
-    *   `unknown` (in Ruins of Alph Ho-Oh Chamber at (3,3) and RuinsOfAlphOutside at (2,18)): A special tile type. In the Ho-Oh chamber, interacting with the puzzle from this tile triggers the puzzle. The function in RuinsOfAlphOutside is yet to be determined.
+    *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Traversable. Activated by pressing the corresponding direction while standing on the tile to trigger a warp.
+    *   `unknown` (in Ruins of Alph Ho-Oh Chamber at (3,3) and RuinsOfAlphOutside at (2,18)): A special tile type. In the Ho-Oh chamber, interacting with the puzzle from this tile triggers the puzzle. In RuinsOfAlphOutside, it appears to be a standard traversable floor tile.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -55,18 +55,15 @@
 *   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31). This path is story-locked.
 
 ## V. Puzzles & Hypotheses
-
 ### Ruins of Alph
-*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. I must use the `puzzle_analyst` agent the next time I attempt this puzzle.
-*   **Southern Area Inaccessibility:** The southern part of RuinsOfAlphOutside is not accessible from the northern part. The connecting path is likely through Union Cave.
-
-    *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
+*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. I MUST use the `puzzle_analyst` agent the next time I attempt this puzzle.
+*   **Southern Area Inaccessibility:** The southern part of RuinsOfAlphOutside is not accessible from the northern part by land. It seems to be a 'trap' area, likely escapable with an item like an ESCAPE ROPE.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
 
 ## VI. Lessons Learned & Process Improvement
-*   **Tool Maintenance:** My `pathfinder_v23` tool was critically flawed, causing navigation failures. I have now fixed it to account for ability-based travel like Surf and its PP requirements. It is essential to fix faulty tools immediately to prevent getting stuck.
-*   **Map Marker Consistency:** I must be more diligent about marking all significant events, especially defeated trainers, immediately after they occur.
+*   **Tool Maintenance:** My `pathfinder_v23` tool was critically flawed. I have now fixed it to account for Surf availability and one-way ledges. It is essential to fix faulty tools immediately to prevent getting stuck.
+*   **Map Marker Consistency:** I must be more diligent about marking all significant events, especially defeated trainers and both sides of used warps, immediately after they occur.
 *   **Immediate Action:** I must act on new information immediately. Deferring tasks like marking warps or fixing tools is an invalid and inefficient strategy.
 *   **Hypothesis Testing:** When stuck, I must form multiple, alternative hypotheses and test them systematically to avoid confirmation bias. I will document these hypotheses in my notepad.
