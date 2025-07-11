@@ -56,15 +56,6 @@
 - **Pokémon Mansion 3F Access (DISPROVEN):** Stairs at (27, 2) on 2F lead down to 1F, not up to 3F.
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** Stairs at (6, 2) on 1F are unusable.
 - **Pokémon Mansion 1F - Eastern Gates (SOLVED):** The eastern gates at (25, 14) and (26, 14) are controlled by the switch at (3, 6). Flipping the switch toggles their state (open/closed).
-
-- **Mechanics:** This is a positioning puzzle with a rotational movement rule. My movement direction causes Pikachu to move in a clockwise-rotated direction (My Up -> His Right, My Right -> His Down, My Down -> His Left, My Left -> His Up). Interacting with 'A' triggers a silent dialogue that is a failure state, which can be cancelled with 'B' to reset the puzzle.
-- **Goal State:** The solution requires placing the Player at (27, 26) and Pikachu at (28, 26).
-- **Solution Path:**
-  1. Start with Player at (27, 27) and Pikachu at (27, 26).
-  2. Player moves Right to (28, 27), causing Pikachu to move Down to (27, 27).
-  3. Player moves Up to (28, 26), causing Pikachu to move Right to (28, 27).
-  4. Player moves Left to (27, 26), causing Pikachu to move Up to (28, 26). This achieves the goal state.
 - **Pikachu Puzzle Room - Hypothesis 1 (DISPROVEN):** The agent's hypothesis that the NPC Pikachu is a simple teleporter is incorrect. Interacting with it causes it to disappear and reappear, resetting the puzzle but not providing an exit.
 - **Pikachu Puzzle Room - Hypothesis 2 (DISPROVEN):** The agent's hypothesis of a hidden floor switch was a hallucination. The game state shows no such object. This was a critical failure to trust the source of truth over flawed agent advice. Agent has been refined.
-- **Pikachu Puzzle Room - Hypothesis 3 (CONFIRMED):** The agent's hypothesis that having my starter Pikachu in the lead was the solution is correct. Interacting with the NPC Pikachu while SPARKY was in the party lead caused it to disappear, solving the puzzle.
-- **Pikachu Puzzle Room - Hypothesis 3 (CONFIRMED):** The agent's hypothesis that having my starter Pikachu in the lead was the solution is correct. Interacting with the NPC Pikachu while SPARKY was in the party lead caused it to disappear, solving the puzzle.
+- **Pikachu Puzzle Room (SOLVED):** The puzzle required having the starter Pikachu (SPARKY) in the lead. Interacting with the NPC Pikachu under this condition caused it to disappear, solving the puzzle.
