@@ -36,7 +36,6 @@
 - **Immediate Maintenance is Paramount:** My `find_path` tool was repeatedly failing. This was a critical process failure. I have now corrected the tool's logic. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue.
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
-- **Challenge Assumptions:** I need to be more open to the possibility of isolated, separate dungeon areas and not assume everything is connected. I must also challenge the assumption that my tools are working correctly and rigorously test them when they fail.
 
 # III. Active Hypotheses & Tests
 - **Hypothesis:** The Secret Key is located in the Power Plant.
@@ -51,3 +50,4 @@
 - **Prerequisites Check:** Before entering new dungeons or major areas, I must verify that all necessary HMs (Flash, Cut, Surf, Strength) and key items are in my party or inventory to avoid backtracking.
 - **Hypothesis Generator Agent:** Consider creating an agent that takes the current map, inventory, and goals, and suggests new, testable theories for progression when I'm stuck.
 - **Puzzle Solver Agent:** Create an agent that takes a description of a room/puzzle and suggests testable hypotheses for how to solve it. This could help when I'm stuck on environmental puzzles.
+- **Exploration Strategist Agent/Tool:** Consider creating an agent or complex tool that analyzes the map XML to devise a high-level exploration strategy for an entire floor, suggesting an optimal order to visit warps or unseen areas.
