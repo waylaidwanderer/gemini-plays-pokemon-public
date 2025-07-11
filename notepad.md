@@ -77,14 +77,16 @@
 - **Hypothesis:** A specific sequence of movements and interactions with the Black Belts is required to open the path.
 
 ### Ruins of Alph Ho-Oh Puzzle
-- **Mechanic:** A 16-piece puzzle on a 6x6 grid. The goal is to assemble the image of Ho-Oh in the central 4x4 area. Pieces are picked up from the border and placed into empty slots. **A piece cannot be placed in an occupied slot; the existing piece must be moved first.**
-- **Strategy:**
-    1.  Identify corner and edge pieces.
-    2.  Assemble the outer frame of the 4x4 picture first.
-    3.  Fill in the middle pieces last.
-    4.  If a target slot is occupied, move the blocking piece to a temporary empty slot on the border.
+- **Mechanic:** A 16-piece puzzle on a 6x6 grid. The goal is to assemble the image of Ho-Oh in the central 4x4 area. Pieces are picked up from the border and placed into empty slots. A piece cannot be placed in an occupied slot; the existing piece must be moved first.
+- **Status:** First attempt at solving the puzzle failed. The game did not auto-complete, indicating an incorrect arrangement. Currently in the process of disassembling the incorrect solution to start over.
+- **Strategy (Revised):** 
+    1.  Move all 16 pieces to the outer border to get a clear view of each one.
+    2.  Carefully re-identify corner and edge pieces.
+    3.  Assemble the outer frame of the 4x4 picture first, verifying each piece's fit.
+    4.  Fill in the four middle pieces last.
+    5.  If a target slot is occupied, move the blocking piece to a temporary empty slot on the border.
 
 ## VII. Untested Hypotheses
 *   **`CUT_TREE` Respawn Conditions:** A `CUT_TREE` at (8, 25) in Ilex Forest respawned. I need to test the exact conditions. Does it happen after a certain number of steps, after leaving the map, or after a certain amount of time? Next time I cut a tree near a map transition, I will immediately leave and re-enter the map to check if it has respawned.
 *   **`WARP_CARPET_DOWN` Traversability:** I need to test if `WARP_CARPET_DOWN` tiles are truly one-way. Next time I'm on one, I will attempt to move up, left, and right to confirm.
-*   **Ho-Oh Puzzle Outcome:** My primary assumption is that solving this puzzle by correctly assembling the image of Ho-Oh will unlock an event or reward. An alternative hypothesis is that the puzzle is optional or has a non-obvious solution. If completing the image yields no results, I will exit and re-examine the room.
+*   **Ho-Oh Puzzle Alternate Solutions:** If a second, careful visual assembly of the Ho-Oh image fails, my alternative hypothesis is that the solution is non-obvious (e.g., arranging by color, leaving a gap, etc.). I will test this only after a second standard attempt fails.
