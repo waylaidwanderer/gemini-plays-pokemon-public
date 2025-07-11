@@ -15,6 +15,7 @@
 - **Warp Tiles:** Instantaneous teleporters between maps or within the same map. Must step off and back on to reuse.
 - **Hole Tiles:** One-way warps that cause the player to fall to the floor below, often into isolated areas.
 - **Unknown Tiles:** Tiles not yet seen (`seen="false"`). Treated as impassable until explored.
+- **Gate Offscreen:** A gate (either open or closed) that is not currently visible on the screen. Its state is unknown until it is brought into view.
 
 ### B. Confirmed ROM Hack Changes
 #### B1. Type Matchups & Immunities
@@ -33,7 +34,6 @@
 ## II. Active Puzzles & Hypotheses
 
 ### A. Pokémon Mansion Puzzles
-- **Pokémon Mansion 1F - Eastern Gates (SOLVED):** The eastern gates at (25, 14) and (26, 14) are controlled by the switch at (3, 6). Flipping the switch toggles their state (open/closed).
 - **Untested Assumption (Key Location):** The Secret Key is *inside* the Pokémon Mansion. This is based on the original game, but this is a ROM hack.
   - **Test Plan:** If I remain stuck after testing other hypotheses, I will systematically interact with every NPC and object on Cinnabar Island itself.
 
@@ -58,4 +58,4 @@
 - **Seafoam Islands Entrance (DISPROVEN):** No alternate entrance found on Route 19.
 - **Pokémon Mansion 3F Access (DISPROVEN):** Stairs at (27, 2) on 2F lead down to 1F, not up to 3F.
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** Stairs at (6, 2) on 1F are unusable.
-- **Gate Offscreen:** A gate (either open or closed) that is not currently visible on the screen. Its state is unknown until it is brought into view.
+- **Pokémon Mansion 1F - Eastern Gates (SOLVED):** The eastern gates at (25, 14) and (26, 14) are controlled by the switch at (3, 6). Flipping the switch toggles their state (open/closed).
