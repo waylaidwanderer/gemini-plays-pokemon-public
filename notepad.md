@@ -65,3 +65,4 @@
 - **Seafoam Islands Entrance (DISPROVEN):** No alternate entrance found on Route 19.
 - **Pokémon Mansion 3F Access (DISPROVEN):** Stairs at (27, 2) on 2F lead down to 1F, not up to 3F.
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** Stairs at (6, 2) on 1F are unusable.
+- **Pokémon Mansion 1F Positional Trigger:** Moving into the central area around (12, 12) opens the western gates at (17, 8). Moving out of this area closes them again.
