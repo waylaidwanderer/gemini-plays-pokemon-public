@@ -82,3 +82,5 @@
 - **Pokémon Mansion 3F Hidden Passage (DISPROVEN):** The hypothesis that a hidden passage exists in the wall dividing the eastern and western sections of 3F is false. Tests at (11, 12) and (11, 11) both failed.
 - **New Discovery (2F):** Moving to tile (11, 10) opens the gates at (10, 5) and (10, 6).
 - **New Discovery (2F):** Moving to tile (11, 10) opens the gates at (10, 5) and (10, 6).
+
+**TODO:** Refactor notepad to remove duplicate sections and entries. The `overwrite` action is failing due to large character loss. Must use smaller, targeted `replace` calls.
