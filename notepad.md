@@ -68,3 +68,6 @@
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** Stairs at (6, 2) on 1F are unusable.
 - **Pokémon Mansion 1F Positional Trigger:** Moving into the central area around (12, 12) opens the western gates at (17, 8). Moving out of this area closes them again.
 - **Hypothesis (Agent-Assisted):** There is a hidden weak spot on 3F that must be fallen through to access a new area. Test Plan: Systematically walk over every tile on 3F.
+### C. Pokémon Mansion 2F Puzzle Log
+- **Hypothesis 1:** The switch at (3, 12) opens a path to the eastern section of the floor.
+  - **Test Plan:** Activate the switch, then attempt to find a path to the east.
