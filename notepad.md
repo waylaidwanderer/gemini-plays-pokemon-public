@@ -14,6 +14,7 @@
 - **Elevated Ground:** Walkable ground at a different elevation, accessible only via `steps`.
 - **Secret Switches:** Some statues contain hidden switches. Activating them can toggle the state of nearby gates, opening new paths. The switch at (3, 6) on 1F controls the gates at (17, 8) and (18, 8).
 - **Warp Tiles:** Instantaneous teleporters between maps or within the same map. Must step off and back on to reuse.
+- **Hole Tiles:** One-way warps that cause the player to fall to the floor below, often into isolated areas.
 
 - **Unknown Tiles:** Tiles not yet seen (`seen="false"`). Treated as impassable until explored.
 
