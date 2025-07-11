@@ -62,7 +62,7 @@
 *   **Aerodactyl Puzzle:**
     *   **Observed Mechanics:**
         *   The cursor wraps around the edges of the 6x6 grid. Moving left from column 0 goes to column 5, and vice-versa. The same applies to rows 0 and 5.
-        *   Movement from row 4 to row 5 is blocked. I tried moving down from (2,4) and it failed. I will need to navigate around this.
+        *   Movement from any tile in row 4 to any tile in row 5 is blocked. Confirmed by failing to move from (2,4) to (2,5) and (3,4) to (3,5). I will need to navigate around this.
     *   **Hypothesis 1:** The puzzle is solved by visually assembling the image of Aerodactyl. This is my current working theory.
     *   **Hypothesis 2 (Alternative):** The puzzle logic might involve matching patterns on the edges of the pieces, not just the overall image.
     *   **Exit Strategy:** If I fail to solve this puzzle after ~20-30 more turns, I will test the hypothesis that these puzzles are optional. I will leave the chamber and re-explore Ruins of Alph Outside for an alternative path forward.
