@@ -31,41 +31,6 @@
     },
     "python_script": "effectiveness_map = {\"super effective\": \">\", \"not very effective\": \"!>\", \"no effect\": \"x>\"}\nsymbol = effectiveness_map[input_data[\"effectiveness\"]]\ndefender_type2_str = f'/{input_data[\"defender_type2\"]}' if input_data.get(\"defender_type2\") else \"\"\nlog_entry = f'- {input_data[\"attacker_type\"]} {symbol} {input_data[\"defender_type1\"]}{defender_type2_str}'\nprint(log_entry)"
   },
-  "boulder_push_planner": {
-    "description": "Analyzes the map to find a sequence of moves for the player to push a specific boulder to a specific hole. It considers impassable terrain and other objects.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "boulder_start_x": {
-          "type": "string"
-        },
-        "boulder_start_y": {
-          "type": "string"
-        },
-        "hole_x": {
-          "type": "string"
-        },
-        "hole_y": {
-          "type": "string"
-        },
-        "player_x": {
-          "type": "string"
-        },
-        "player_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "boulder_start_x",
-        "boulder_start_y",
-        "hole_x",
-        "hole_y",
-        "player_x",
-        "player_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\ngrid = [['' for _ in range(width)] for _ in range(height)]\nimpassable_tiles = set()\n\nfor r_idx, row_elem in enumerate(root.findall('Row')):\n    y = int(row_elem.get('id')) - 1\n    for c_idx, tile_elem in enumerate(row_elem.findall('Tile')):\n        x = int(tile_elem.get('id')) - 1\n        tile_type = tile_elem.get('type')\n        grid[y][x] = tile_type\n        if tile_type in ['impassable', 'boulder_barrier', 'closed_gate'] or tile_elem.find('Object') is not None:\n            impassable_tiles.add((x, y))\n\nboulder_start_x, boulder_start_y = int(input_data['boulder_start_x']) - 1, int(input_data['boulder_start_y']) - 1\nhole_x, hole_y = int(input_data['hole_x']) - 1, int(input_data['hole_y']) - 1\nplayer_x, player_y = int(input_data['player_x']) - 1, int(input_data['player_y']) - 1\n\ndef bfs_path(start, end, obstacles):\n    queue = deque([(start, [])])\n    visited = {start}\n    while queue:\n        (cx, cy), path = queue.popleft()\n        if (cx, cy) == end:\n            return path\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if (0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited and (nx, ny) not in obstacles):\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [(nx, ny)]))\n    return None\n\ndef find_boulder_path():\n    initial_state = (player_x, player_y, boulder_start_x, boulder_start_y)\n    queue = deque([(initial_state, [])])\n    visited_states = {initial_state}\n    \n    while queue:\n        (px, py, bx, by), plan = queue.popleft()\n\n        if (bx, by) == (hole_x, hole_y):\n            return plan\n\n        for move_dir in [('Up', 0, -1), ('Down', 0, 1), ('Left', -1, 0), ('Right', 1, 0)]:\n            move_name, dx, dy = move_dir\n            player_push_pos = (bx - dx, by - dy)\n            \n            if not (0 <= player_push_pos[0] < width and 0 <= player_push_pos[1] < height):\n                continue\n\n            path_to_push_pos = bfs_path((px, py), player_push_pos, impassable_tiles | {(bx, by)})\n\n            if path_to_push_pos is not None:\n                new_bx, new_by = bx + dx, by + dy\n\n                if not (0 <= new_bx < width and 0 <= new_by < height) or (new_bx, new_by) in impassable_tiles:\n                    continue\n\n                new_state = (bx, by, new_bx, new_by)\n                if new_state not in visited_states:\n                    visited_states.add(new_state)\n                    new_plan = plan + [{'path_to_push': [{'x': x+1, 'y': y+1} for x, y in path_to_push_pos], 'push_direction': move_name}]\n                    queue.append((new_state, new_plan))\n\n    return None\n\npath_result = find_boulder_path()\nif path_result:\n    print(json.dumps({'plan': path_result, 'reasoning': 'Found a valid plan to push the boulder.'}))\nelse:\n    print(json.dumps({'plan': [], 'reasoning': 'Could not find a valid plan to push the boulder.'}))"
-  },
   "find_path": {
     "description": "A robust pathfinding tool. Finds a path to specified X, Y coordinates, considering the current movement state (walking or surfing). It can now avoid a specified list of coordinates. If no end coordinates are provided, it finds a path to the nearest reachable unseen tile. It automatically paths to an adjacent tile if the target is impassable. It can handle elevation changes via steps, off-screen gates, and correctly paths through Pikachu.",
     "input_schema": {
@@ -110,13 +75,5 @@
     "description": "Extracts and returns a JSON list of all impassable tile coordinates from the current map XML.",
     "input_schema": {},
     "python_script": "import xml.etree.ElementTree as ET; import json; root = ET.fromstring(map_xml_string); impassable_tiles = []; for row_elem in root.findall('Row'): y = int(row_elem.get('id')); for tile_elem in row_elem.findall('Tile'): x = int(tile_elem.get('id')); if tile_elem.get('type') == 'impassable' or tile_elem.find('Object') is not None: impassable_tiles.append({'x': x, 'y': y}); print(json.dumps(impassable_tiles))"
-  },
-  "shop_automation_planner": {
-    "description": "A placeholder tool to acknowledge the need for shop automation. The player's repeated errors in the shop menu indicate a need for a more streamlined process. This tool serves as a commitment to either developing a viable automation solution in the future or improving manual execution to prevent such errors. Direct UI control is not possible with current tool capabilities, so the immediate focus will be on careful, deliberate manual input.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "print(\"Automation acknowledged. The critique regarding error-prone manual item purchasing is valid. While direct UI control tools cannot be built, I will proceed with methodical, single-input-per-turn actions to eliminate errors.\")"
   }
 }
