@@ -46,9 +46,6 @@
 - **Hypothesis 1 (FAILED):** The switch at (3, 12) opens a path to the eastern section of the floor.
   - **Test:** Activated the switch, then used `find_path` to plot a course to the east.
   - **Outcome:** `find_path` failed, confirming the path remains blocked.
-- **Hypothesis 2 (CONFIRMED):** The switch at (3, 12) opened the southern gates at (8, 23) and (8, 24).
-  - **Test:** Activated the switch and used `find_path` to navigate to (7, 22).
-  - **Outcome:** `find_path` succeeded, confirming the path is now open.
 
 ## III. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes and `gate_offscreen` tiles. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
