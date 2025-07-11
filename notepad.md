@@ -59,3 +59,4 @@
 - **Pikachu Puzzle Room - Hypothesis 1 (DISPROVEN):** The agent's hypothesis that the NPC Pikachu is a simple teleporter is incorrect. Interacting with it causes it to disappear and reappear, resetting the puzzle but not providing an exit.
 - **Pikachu Puzzle Room - Hypothesis 2 (DISPROVEN):** The agent's hypothesis of a hidden floor switch was a hallucination. The game state shows no such object. This was a critical failure to trust the source of truth over flawed agent advice. Agent has been refined.
 - **Pikachu Puzzle Room (SOLVED):** The puzzle required having the starter Pikachu (SPARKY) in the lead. Interacting with the NPC Pikachu under this condition caused it to disappear, solving the puzzle.
+- **Agent vs. Tool Distinction:** Agents are for reasoning and should not be used for computational tasks like pathfinding or reachability analysis. These tasks require a dedicated custom tool that can parse the map XML.
