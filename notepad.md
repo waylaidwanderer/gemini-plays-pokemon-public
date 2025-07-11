@@ -56,13 +56,13 @@
 ## V. Puzzles & Hypotheses
 
 ### Ruins of Alph
-*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. Currently on hold. The `puzzle_analyst` agent must be used to help solve this.
+*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. I must use the `puzzle_analyst` agent the next time I attempt this puzzle.
 *   **Southern Area Inaccessibility:** The southern part of RuinsOfAlphOutside is not accessible from the northern part. The connecting path is likely through Union Cave.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
 
 ## VI. Lessons Learned & Process Improvement
-*   **Tool Development:** When a tool is not working, I must stop and debug it properly using `run_code` and print statements before defining a new version. My repeated failures with `pathfinder_v22` were due to not rigorously testing against my documented mechanics. The tool needs to be updated to account for the 'interact to SURF' mechanic.
+*   **Tool Development:** When a tool is not working, I must stop and debug it properly using `run_code` and print statements before defining a new version. My repeated failures with pathfinders were due to not rigorously testing against my documented mechanics. The tool's core logic failed because it assumed automatic land-to-water transitions, but the game requires an interaction ('A' button press) to initiate SURF. This must be accounted for in future pathfinder versions.
 *   **Immediate Action:** I must act on new information immediately. Deferring tasks like marking warps or fixing tools is an invalid and inefficient strategy.
 *   **Hypothesis Testing:** When stuck, I must form multiple, alternative hypotheses and test them systematically to avoid confirmation bias. I will document these hypotheses in my notepad.
