@@ -86,14 +86,14 @@
 - **Hypothesis (FAILED):** The switch at (3, 6) opens the eastern gates at (25, 14).
   - **Test:** Flipped the switch and attempted to path to (25, 15).
   - **Outcome:** Path was blocked by a closed gate at (25, 14), disproving the hypothesis.
-- **New Hypothesis:** The solution to the 1F puzzle is located in the basement (B1F).
-  - **Test Plan:** Take the warp at (22, 24) to B1F and explore for switches or other mechanisms.
-- **New Hypothesis:** The solution to the 1F puzzle is located in the basement (B1F).
-  - **Test Plan:** Take the warp at (22, 24) to B1F and explore for switches or other mechanisms.
+- **Agent-Assisted Hypothesis (Untested):** The path forward is to fall through a specific hole on an upper floor to access the isolated southern section of 1F.
+  - **Test Plan:** Ascend to 2F/3F and systematically test each hole by falling through it. Observe landing location to see if it provides access to the area containing the Scientist and the basement warp.
+- **Agent-Assisted Hypothesis (Untested):** The path forward is to fall through a specific hole on an upper floor to access the isolated southern section of 1F.
+  - **Test Plan:** Ascend to 2F/3F and systematically test each hole by falling through it. Observe landing location to see if it provides access to the area containing the Scientist and the basement warp.
 - **Agent-Assisted Hypothesis (Untested):** The path forward is to fall through a specific hole on an upper floor to access the isolated southern section of 1F.
   - **Test Plan:** Ascend to 2F/3F and systematically test each hole by falling through it. Observe landing location to see if it provides access to the area containing the Scientist and the basement warp.
 - **Hypothesis (FAILED):** The switch at (3, 6) opens the eastern gates at (25, 14).
   - **Test:** Flipped the switch and attempted to path to (25, 15).
   - **Outcome:** Path was blocked by a closed gate at (25, 14), disproving the hypothesis.
-- **New Hypothesis:** The solution to the 1F puzzle is located in the basement (B1F).
-  - **Test Plan:** Take the warp at (22, 24) to B1F and explore for switches or other mechanisms.
+- **Agent-Assisted Hypothesis (Untested):** The path forward is to fall through a specific hole on an upper floor to access the isolated southern section of 1F.
+  - **Test Plan:** Ascend to 2F/3F and systematically test each hole by falling through it. Observe landing location to see if it provides access to the area containing the Scientist and the basement warp.
