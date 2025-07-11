@@ -33,14 +33,7 @@
 - **Warp Reuse:** To reuse an instant warp you just came through, you must step off the warp tile and then back on to trigger it.
 
 ## II. Active Puzzles & Hypotheses
-### B. Pokémon Mansion - Pikachu Puzzle (SOLVED)
-- **Mechanics:** This is a positioning puzzle with a rotational movement rule. My movement direction causes Pikachu to move in a clockwise-rotated direction (My Up -> His Right, My Right -> His Down, My Down -> His Left, My Left -> His Up). Interacting with 'A' triggers a silent dialogue that is a failure state, which can be cancelled with 'B' to reset the puzzle.
-- **Goal State:** The solution requires placing the Player at (27, 26) and Pikachu at (28, 26).
-- **Solution Path:**
-  1. Start with Player at (27, 27) and Pikachu at (27, 26).
-  2. Player moves Right to (28, 27), causing Pikachu to move Down to (27, 27).
-  3. Player moves Up to (28, 26), causing Pikachu to move Right to (28, 27).
-  4. Player moves Left to (27, 26), causing Pikachu to move Up to (28, 26). This achieves the goal state.
+
 ## III. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes and `gate_offscreen` tiles. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
 - **Challenge Assumptions:** My assumption that the eastern and western sections of the Seafoam Islands were connected was wrong. I need to be more open to the possibility of isolated, separate dungeon areas.
@@ -63,14 +56,7 @@
 - **Pokémon Mansion 3F Access (DISPROVEN):** Stairs at (27, 2) on 2F lead down to 1F, not up to 3F.
 - **Pokémon Mansion 1F Main Stairs (DISPROVEN):** Stairs at (6, 2) on 1F are unusable.
 - **Pokémon Mansion 1F - Eastern Gates (SOLVED):** The eastern gates at (25, 14) and (26, 14) are controlled by the switch at (3, 6). Flipping the switch toggles their state (open/closed).
-### B. Pokémon Mansion - Pikachu Puzzle (SOLVED)
-- **Mechanics:** This is a positioning puzzle with a rotational movement rule. My movement direction causes Pikachu to move in a clockwise-rotated direction (My Up -> His Right, My Right -> His Down, My Down -> His Left, My Left -> His Up). Interacting with 'A' triggers a silent dialogue that is a failure state, which can be cancelled with 'B' to reset the puzzle.
-- **Goal State:** The solution requires placing the Player at (27, 26) and Pikachu at (28, 26).
-- **Solution Path:**
-  1. Start with Player at (27, 27) and Pikachu at (27, 26).
-  2. Player moves Right to (28, 27), causing Pikachu to move Down to (27, 27).
-  3. Player moves Up to (28, 26), causing Pikachu to move Right to (28, 27).
-  4. Player moves Left to (27, 26), causing Pikachu to move Up to (28, 26). This achieves the goal state.
+
 - **Mechanics:** This is a positioning puzzle with a rotational movement rule. My movement direction causes Pikachu to move in a clockwise-rotated direction (My Up -> His Right, My Right -> His Down, My Down -> His Left, My Left -> His Up). Interacting with 'A' triggers a silent dialogue that is a failure state, which can be cancelled with 'B' to reset the puzzle.
 - **Goal State:** The solution requires placing the Player at (27, 26) and Pikachu at (28, 26).
 - **Solution Path:**
