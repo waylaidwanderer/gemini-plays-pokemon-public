@@ -58,3 +58,4 @@
 
 # VI. NPC Trades
 - **Route 5 (Underground Path):** Little Girl wants Cubone, offers Machoke.
+- **Not Very Effective:** Poison !> Ground
