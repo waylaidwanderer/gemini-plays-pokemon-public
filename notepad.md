@@ -33,11 +33,7 @@
 ## II. Active Puzzles & Hypotheses
 
 ### A. Pokémon Mansion Puzzles
-- **Hypothesis 1 (Active):** The switch at (3, 6) on 1F *only* controls the eastern gates at (25, 14) and (26, 14). I need to flip it again to open them.
-  - **Test Plan:**
-    1. Navigate back to the switch at (3, 6).
-    2. Interact with the switch to flip its state.
-    3. Navigate back to the eastern corridor to check if the gates at (25, 14) are now open.
+- **Pokémon Mansion 1F - Eastern Gates (SOLVED):** The eastern gates at (25, 14) and (26, 14) are controlled by the switch at (3, 6). Flipping the switch toggles their state (open/closed).
 - **Untested Assumption (Key Location):** The Secret Key is *inside* the Pokémon Mansion. This is based on the original game, but this is a ROM hack.
   - **Test Plan:** If I remain stuck after testing other hypotheses, I will systematically interact with every NPC and object on Cinnabar Island itself.
 
