@@ -103,3 +103,4 @@
     - **Logic:** This would require an algorithm like A* search or a similar pathfinding/planning algorithm to find the optimal sequence of moves. It is a computational task, perfect for a tool.
 *   Shape 2: `[[true, true], [false, true]]`
 *   Shape 3: `[[true, false], [true, true]]`
+*   Shape: `[[false, true], [true, true]]`
