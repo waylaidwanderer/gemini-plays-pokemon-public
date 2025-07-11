@@ -33,8 +33,8 @@
 - **Warp Reuse:** To reuse an instant warp you just came through, you must step off the warp tile and then back on to trigger it.
 
 # II. Process & Strategy Insights
-- **Immediate Maintenance is Paramount:** Deferring tool/agent/notepad maintenance is a critical process failure. It MUST be performed as the highest priority upon identifying an issue.
-- **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it.
+- **Immediate Maintenance is Paramount:** Deferring tool/agent/notepad maintenance is a critical process failure. It MUST be performed as the highest priority upon identifying an issue. I have repeatedly made this mistake and must be vigilant in correcting it.
+- **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 # III. Active Hypotheses & Tests
