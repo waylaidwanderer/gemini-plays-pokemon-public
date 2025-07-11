@@ -52,12 +52,6 @@
 - **Hypothesis 3:** The path forward is on a different floor.
   - **Test Plan:** Ascend to 3F via the warp at (8, 11) and explore.
   - **Expected Outcome:** Find a new path or puzzle on 3F.
-- **Hypothesis 2 (FAILED):** The switch at (3, 12) opened the southern gates at (8, 23) and (8, 24).
-  - **Test:** Attempted to pathfind to the southern gates.
-  - **Outcome:** `find_path` failed, indicating the area is unreachable from my current position.
-- **Hypothesis 3:** The path forward is on a different floor.
-  - **Test Plan:** Ascend to 3F via the warp at (8, 11) and explore.
-  - **Expected Outcome:** Find a new path or puzzle on 3F.
 
 ## III. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes and `gate_offscreen` tiles. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
