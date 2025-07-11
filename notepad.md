@@ -33,7 +33,7 @@
 
 ## II. Current Hypotheses & Puzzles
 
-- **Pokémon Mansion 2F Puzzle (Positional Triggers):** The gates on this floor are not just controlled by the switch at (3, 12). My own movement and position act as triggers. For example, moving to (11, 10) caused the gates at (10, 5) and (10, 6) to open, and moving to (21, 13) opened the gates at (19, 9) and (20, 9). This means I need to carefully map out which movements trigger which gates.
+- **Pokémon Mansion Puzzle (Positional Triggers):** This mechanic is confirmed for multiple floors. On 1F, moving into the central corridor around (12, 8) caused the western gates at (17, 8) and (18, 8) to close. On 2F, moving to specific tiles like (11, 10) and (21, 13) has also been observed to open gates. I need to map these triggers carefully.
 
 ## III. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
