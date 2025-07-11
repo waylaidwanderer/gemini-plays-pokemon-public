@@ -78,3 +78,8 @@
 
 ## Data Management To-Do
 *   The map marker for the 'Youngster who likes thinking' at RuinsOfAlphOutside (4, 20) is not linked to an object_id. I must update this the next time the object is on screen to ensure proper tracking.
+
+### Aerodactyl Puzzle
+- **Hypothesis:** Like the other puzzles, this must be solved visually by arranging the pieces to form an image of Aerodactyl in the central 4x4 grid.
+- **Plan:** Continue to manually move pieces from the outer border into the empty central slots.
+- **Status:** In progress. Placed piece #10. Next, I will attempt to move piece #16.
