@@ -65,4 +65,5 @@
   3. Player moves Up to (28, 26), causing Pikachu to move Right to (28, 27).
   4. Player moves Left to (27, 26), causing Pikachu to move Up to (28, 26). This achieves the goal state.
 - **Pikachu Puzzle Room - Hypothesis 1 (DISPROVEN):** The agent's hypothesis that the NPC Pikachu is a simple teleporter is incorrect. Interacting with it causes it to disappear and reappear, resetting the puzzle but not providing an exit.
-- **Pikachu Puzzle Room - Hypothesis 2 (DISPROVEN):** The agent's hypothesis of a hidden floor switch was a hallucination. The game state shows no such object. This was a critical failure to trust the source of truth over flawed agent advice. Agent requires immediate refinement.
+- **Pikachu Puzzle Room - Hypothesis 2 (DISPROVEN):** The agent's hypothesis of a hidden floor switch was a hallucination. The game state shows no such object. This was a critical failure to trust the source of truth over flawed agent advice. Agent has been refined.
+- **Pikachu Puzzle Room - Hypothesis 3 (CONFIRMED):** The agent's hypothesis that having my starter Pikachu in the lead was the solution is correct. Interacting with the NPC Pikachu while SPARKY was in the party lead caused it to disappear, solving the puzzle.
