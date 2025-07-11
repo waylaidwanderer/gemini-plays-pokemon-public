@@ -77,3 +77,5 @@
 - **Pokémon Mansion Warp Trap (SOLVED):** The warp at (6, 11) on 1F is a one-way trap that sends you to (6, 12) on 2F and immediately back. This can be bypassed by moving sideways immediately upon arrival on 2F.
 - **Pokémon Mansion 3F Hidden Passage (DISPROVEN):** The hypothesis that a hidden passage exists in the wall dividing the eastern and western sections of 3F is false. Tests at (11, 12) and (11, 11) both failed.
 - **New Discovery (2F):** Moving to tile (11, 10) opens the gates at (10, 5) and (10, 6).
+- **Hole Tiles:** Warp tiles that lead to a lower map area. Often function as one-way drops.
+- **Gates (`closed_gate`/`open_gate`/`gate_offscreen`):** `closed_gate` tiles are impassable. `open_gate` tiles are open and act as `ground`. `gate_offscreen` represents a gate whose state is unknown but should be treated as traversable if it was previously open. The state of these can be toggled by switches or other triggers.
