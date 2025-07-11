@@ -70,14 +70,22 @@
 
 ### Ruins of Alph Ho-Oh Puzzle
 - **Mechanic:** A 16-piece puzzle on a 6x6 grid. The goal is to assemble the image of Ho-Oh in the central 4x4 area.
+- **Attempt 1 (Manual Trial-and-Error):**
+    - **Hypothesis:** Place what appear to be corner pieces first to build a frame.
+    - **Action:** Moved all pieces to the border, then attempted to place corners.
+    - **Result:** Failed. The puzzle did not solve.
+    - **Conclusion:** Simple visual identification is not reliable.
+- **Attempt 2 (Agent-Assisted Strategy):**
+    - **Hypothesis:** A systematic analysis of piece shapes will reveal the true corners and edges, leading to a correct solution.
+    - **Action 1 (Define Agent):** Created the `puzzle_analyst` agent to classify pieces.
+    - **Action 2 (Automated Data Gathering):** Used `run_code` to try and extract piece shape data automatically.
+    - **Result:** Failed. The script could not find the puzzle data.
+    - **Conclusion:** Puzzle piece data must be gathered manually.
 - **Current Strategy:**
-    1.  Move all 16 pieces to the outer border to get a clear view of each one. (Completed)
-    2.  Carefully re-identify corner and edge pieces based on the Ho-Oh image.
-    3.  Assemble the outer frame of the 4x4 picture first.
-    4.  Fill in the four middle pieces last.
-- **Alternative Hypotheses (If current strategy fails):**
-    1.  The solution is non-obvious (e.g., arrange by color pattern, leave a specific gap, use border pieces).
-    2.  The puzzle is a minor feature with no significant reward. (Low probability given the context of the ruins).
+    1.  Manually inspect each of the 16 puzzle pieces on the puzzle screen.
+    2.  Record the shape of each piece as a boolean grid in my notepad.
+    3.  Call the `puzzle_analyst` agent with the gathered data.
+    4.  Use the agent's output (classification of corners, edges, middles) to assemble the puzzle, starting with the frame.
 
 ### Goldenrod Dept. Store Basement Puzzle
 - **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
