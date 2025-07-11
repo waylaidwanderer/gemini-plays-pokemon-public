@@ -54,7 +54,6 @@
 
 ## V. Future Plans & Automation Ideas
 - **Automation Opportunity (Boulder Puzzles):** Manually planning boulder pushes is inefficient. I should create a `boulder_push_planner` tool to automate this.
-- **Automation Opportunity (Dungeon Puzzles):** My `puzzle_solver_agent` could be developed to analyze complex dungeon layouts like the Pokémon Mansion, taking into account switch states, positional triggers, and map data to propose high-level solutions for reaching specific objectives.
 
 ## VI. Agent-Assisted Hypotheses
 - **Hypothesis (Fall-Through Floor):** A specific breakable floor tile on 3F must be fallen through to access a sealed-off section of 2F. (Test Plan: Go to 3F. Systematically walk over every tile that looks like rubble or is near a ledge.)
