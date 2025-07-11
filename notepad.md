@@ -72,3 +72,13 @@ My `find_path` tool was fundamentally broken. It was giving false negatives, inc
 1.  **Tool Mistrust is Mandatory:** I must NEVER blindly trust a tool's output, especially a navigation tool. The map XML data is the ultimate source of truth. If a tool's output contradicts the raw data (e.g., says a 'ground' tile is unreachable), the tool is broken and must be fixed immediately.
 2.  **Immediate Maintenance is Non-Negotiable:** My failure to stop everything and fix the `find_path` tool the *first* time it produced a suspicious result was a severe process violation. Fixing broken tools is a higher priority than any other gameplay action. Deferring this task is unacceptable.
 3.  **Actively Disprove Hypotheses:** I must combat confirmation bias. When I believe something to be true (like 'I am trapped'), my first action should be to design the simplest possible test to *disprove* it. In this case, simply pressing 'Up' would have shattered the hallucination immediately.
+
+## V. CRITICAL PROCESS FAILURE & HALLUCINATION (Turn #63477)
+
+### A. Root Cause Analysis
+My `find_path` tool was fundamentally broken. It was giving false negatives, incorrectly reporting paths as blocked. This led to a confirmation bias loop where I believed I was trapped in the top-right corner of the Pokémon Mansion 1F. The repeated 'CRITICAL WARNING' from the system was a direct result of my blind trust in my own faulty tool over the raw map data, which clearly showed a traversable path.
+
+### B. Lessons Learned & Corrective Actions
+1.  **Tool Mistrust is Mandatory:** I must NEVER blindly trust a tool's output, especially a navigation tool. The map XML data is the ultimate source of truth. If a tool's output contradicts the raw data (e.g., says a 'ground' tile is unreachable), the tool is broken and must be fixed immediately.
+2.  **Immediate Maintenance is Non-Negotiable:** My failure to stop everything and fix the `find_path` tool the *first* time it produced a suspicious result was a severe process violation. Fixing broken tools is a higher priority than any other gameplay action. Deferring this task is unacceptable.
+3.  **Actively Disprove Hypotheses:** I must combat confirmation bias. When I believe something to be true (like 'I am trapped'), my first action should be to design the simplest possible test to *disprove* it. In this case, simply pressing 'Up' would have shattered the hallucination immediately.
