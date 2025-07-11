@@ -101,3 +101,4 @@
     - **Input:** A representation of the puzzle grid (e.g., a 2D array of piece IDs) and a target configuration.
     - **Output:** A sequence of moves (e.g., `["pick(x1,y1)", "place(x2,y2)"]`) to solve it.
     - **Logic:** This would require an algorithm like A* search or a similar pathfinding/planning algorithm to find the optimal sequence of moves. It is a computational task, perfect for a tool.
+*   **Piece 1:** (Observed at puzzle coordinate (1,0)) - Shape: `[[true, true], [false, true]]`
