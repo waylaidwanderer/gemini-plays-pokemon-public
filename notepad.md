@@ -56,8 +56,13 @@
 *   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31). This path is story-locked.
 
 ## V. Puzzles & Hypotheses
+
 ### Ruins of Alph
 *   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. Must be solved manually.
+*   **Aerodactyl Puzzle:**
+    *   **Hypothesis 1:** The puzzle is solved by visually assembling the image of Aerodactyl. This is my current working theory.
+    *   **Hypothesis 2 (Alternative):** The puzzle logic might involve matching patterns on the edges of the pieces, not just the overall image.
+    *   **Exit Strategy:** If I fail to solve this puzzle after ~20-30 more turns, I will test the hypothesis that these puzzles are optional. I will leave the chamber and re-explore Ruins of Alph Outside for an alternative path forward.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
@@ -68,18 +73,3 @@
     2.  **Violation of Simple-First Principle:** I failed to test the most obvious, simple hypothesis—jumping the southern ledge—and instead pursued complex, incorrect solutions (DIG, Escape Rope, tool modification).
     3.  **Violation of Immediate Action:** I deferred tool fixes and notepad updates, which is an invalid strategy. All new information and necessary fixes must be handled in the same turn they are identified.
 *   **Tool Maintenance Protocol:** When a tool fails, first verify user input. If the input is correct, perform a simple diagnostic test (e.g., pathing one tile). If that fails, then begin systematic debugging. Do not get stuck in a debugging loop; if a fix isn't apparent, abandon the tool and try a manual approach.
-*   **Data Management:** The Youngster at RuinsOfAlphOutside (4, 20) needs its marker linked to its object_id the next time it's on screen.
-
-## Omanyte Puzzle Strategy
-- **Hypothesis:** The puzzle must be solved visually based on the shapes of the pieces, as the piece IDs are not reliable.
-- **Plan:** Solve the puzzle manually by identifying which pieces fit into the empty slots based on their visual appearance.
-- **Status:** In progress.
-- **New Hypothesis:** The Ruins of Alph puzzles might be optional side content, not mandatory for progression. If I remain stuck after a few more systematic attempts, I will test this by leaving the ruins and searching for an alternative route to my primary goal.
-
-## Data Management To-Do
-*   The map marker for the 'Youngster who likes thinking' at RuinsOfAlphOutside (4, 20) is not linked to an object_id. I must update this the next time the object is on screen to ensure proper tracking.
-
-### Aerodactyl Puzzle
-- **Hypothesis:** Like the other puzzles, this must be solved visually by arranging the pieces to form an image of Aerodactyl in the central 4x4 grid.
-- **Plan:** Continue to manually move pieces from the outer border into the empty central slots.
-- **Status:** In progress. Placed piece #10. Next, I will attempt to move piece #16.
