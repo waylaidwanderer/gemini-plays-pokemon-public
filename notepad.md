@@ -48,8 +48,6 @@
 - **Pokémon Mansion 1F - Gate Puzzle (SOLVED):** The mansion's gates are a complex puzzle. The switch at (3, 6) toggles the state of both the western gates (17,8 & 18,8) and the eastern gates (25,14 & 26,14). However, there are also positional triggers. Walking in the central corridor around (12,8) closes the western gates. Walking in the eastern corridor around (27,10) closes the eastern gates. The solution is to flip the switch to open the desired set of gates and then approach them without crossing the trigger lines for the other set.
 
 # V. Future Development & Ideas
-- **Hypothesis Generator Agent:** Consider creating an agent that takes the current map, inventory, and goals, and suggests new, testable theories for progression when I'm stuck.
 - **Prerequisites Check:** Before entering new dungeons or major areas, I must verify that all necessary HMs (Flash, Cut, Surf, Strength) and key items are in my party or inventory to avoid backtracking.
-
-# VI. Future Development & Ideas
+- **Hypothesis Generator Agent:** Consider creating an agent that takes the current map, inventory, and goals, and suggests new, testable theories for progression when I'm stuck.
 - **Puzzle Solver Agent:** Create an agent that takes a description of a room/puzzle and suggests testable hypotheses for how to solve it. This could help when I'm stuck on environmental puzzles.
