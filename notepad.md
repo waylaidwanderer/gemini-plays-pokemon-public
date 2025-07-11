@@ -43,9 +43,8 @@
 # III. Active Hypotheses & Tests
 - **Hypothesis:** The Secret Key is located in the Power Plant.
   - **Test:** Navigate to the Power Plant and explore it thoroughly.
-- **Hypothesis:** The Super Nerd at (4, 6) in Rock Tunnel B1F must be interacted with to pass.
-  - **Test:** Interact with him via dialogue ('A' button). **Status: TESTED & FAILED.** Dialogue occurs, but he remains impassable.
-  - **New Hypothesis:** There is a hidden trigger on an adjacent tile. **Status: Actively Testing.**
+- **Hypothesis:** A Machoke, obtainable via trade, is required to use STRENGTH to move a boulder and clear the path in Rock Tunnel.
+  - **Plan:** Travel to the Underground Path between Routes 5 and 6. An NPC there wants to trade a Machoke for a Cubone. I now have a Cubone in my party for this purpose.
 
 # IV. Goal Revisions & Strategic Shifts
 - **Badge Count Correction:** I previously believed I had all 8 badges. I have re-evaluated and confirmed I only have 6. My new primary goal is to obtain the Volcano and Earth badges. The immediate objective is to find the Secret Key for the Cinnabar Gym.
