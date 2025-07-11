@@ -31,13 +31,31 @@
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center.
 - **Warp Reuse:** To reuse an instant warp you just came through, you must step off the warp tile and then back on to trigger it.
 
-## II. Current Hypotheses & Puzzles
+## II. Active Puzzles & Hypotheses
 
-- **Pokémon Mansion Puzzle (Positional Triggers):** This mechanic is confirmed for multiple floors. On 1F, moving into the central corridor around (12, 8) caused the western gates at (17, 8) and (18, 8) to close. On 2F, moving to specific tiles like (11, 10) and (21, 13) has also been observed to open gates. I need to map these triggers carefully.
+### A. Pokémon Mansion Puzzle (Positional Triggers)
+- **Confirmed Mechanic:** This mechanic is confirmed for multiple floors. On 1F, moving into the central corridor around (12, 8) caused the western gates at (17, 8) and (18, 8) to close. On 2F, moving to specific tiles like (11, 10) and (21, 13) has also been observed to open gates. I need to map these triggers carefully.
+- **Untested Assumption (Key Location):** The Secret Key is *inside* the Pokémon Mansion. This is based on the original game, but this is a ROM hack.
+  - **Test Plan:** If I remain stuck after testing other hypotheses, I will systematically interact with every NPC and object on Cinnabar Island itself.
+- **Untested Assumption (Fall-Through Floor):** A specific breakable floor tile on 3F must be fallen through to access a sealed-off section of 2F.
+  - **Test Plan:** I must first find an alternate route to the eastern side of 2F or 3F to test the holes.
+- **Agent-Assisted Hypothesis (Hidden Switch):** The Secret Key is in a hidden basement, opened by a concealed switch on 2F disguised as an object.
+  - **Test Plan:** Read diaries on 2F, then interact with all objects. Check 1F for a new path.
+
+### B. Pokémon Mansion 2F Puzzle Log
+- **Hypothesis 1 (Attempt 1 - FAILED):** The switch at (3, 12) opens a path to the eastern section of the floor.
+  - **Test:** Activated the switch, then used `find_path` to plot a course to the east.
+  - **Outcome:** `find_path` failed, confirming the path remains blocked.
+- **Hypothesis 2 (FAILED):** The switch at (3, 12) opened the southern gates at (8, 23) and (8, 24).
+  - **Test:** Attempted to pathfind to the southern gates.
+  - **Outcome:** `find_path` failed, indicating the area is unreachable from my current position.
+- **Hypothesis 3:** The path forward is on a different floor.
+  - **Test Plan:** Ascend to 3F via the warp at (8, 11) and explore.
+  - **Expected Outcome:** Find a new path or puzzle on 3F.
 
 ## III. Process & Strategy Insights
-- **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes, attempting to path directly between `ground` and `elevated_ground`. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
-- **Challenge Assumptions:** My assumption that the eastern and western sections of the Seafoam Islands were wrong. I need to be more open to the possibility of isolated, separate dungeon areas.
+- **Immediate Maintenance is Paramount:** My repeated failure to fix my `find_path` tool immediately was a critical process violation. The tool failed to account for elevation changes and `gate_offscreen` tiles. This has now been corrected. Tool/agent/notepad maintenance MUST be performed as the highest priority upon identifying an issue. Deferring these tasks is unacceptable.
+- **Challenge Assumptions:** My assumption that the eastern and western sections of the Seafoam Islands were connected was wrong. I need to be more open to the possibility of isolated, separate dungeon areas.
 - **Tool Reliability:** The `boulder_push_planner` correctly identified an unreachable puzzle, proving its logic is sound. This reinforces the need to trust my tools once they are properly built and tested.
 - **Map Marker Discipline:** I must stop creating redundant markers for objects already tracked in the game state (NPCs, signs, etc.). This clutters my map memory and is inefficient.
 - **Notepad Accuracy:** My notepad contained a contradictory entry about the Pokémon Mansion being fully explored. This was a process failure. I must ensure my notes are always accurate and reflect the current state of my knowledge and goals.
@@ -46,20 +64,7 @@
 - **Challenge Map Layout Assumptions:** My belief that the Seafoam Islands was a single, connected dungeon was a form of confirmation bias. I must be more willing to consider that large dungeons may be split into separate, non-contiguous areas, and I should actively try to disprove my own assumptions about map layouts.
 - **Mandatory Agent Usage:** I received a critique for failing to use my `battle_strategist_agent` during recent wild encounters, leading to inefficient, error-prone manual control. This is a direct violation of my own documented principles. I must *always* defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
-## IV. Untested Assumptions & Test Plans
-- **Assumption:** The Secret Key is *inside* the Pokémon Mansion. This is based on the original game, but this is a ROM hack.
-  - **Test Plan:** If I remain stuck after testing other hypotheses, I will systematically interact with every NPC and object on Cinnabar Island itself.
-- **Assumption:** The 'fall-through floor' hypothesis is the correct way to access the eastern part of the upper floors.
-  - **Test Plan:** I must first find an alternate route to the eastern side of 2F or 3F to test the holes.
-
-## V. Future Plans & Automation Ideas
-- **Automation Opportunity (Boulder Puzzles):** Manually planning boulder pushes is inefficient. I should create a `boulder_push_planner` tool to automate this.
-
-## VI. Agent-Assisted Hypotheses
-- **Hypothesis (Fall-Through Floor):** A specific breakable floor tile on 3F must be fallen through to access a sealed-off section of 2F. (Test Plan: Go to 3F. Systematically walk over every tile that looks like rubble or is near a ledge.)
-- **Hypothesis (Hidden Switch on 2F -> Path on 1F):** The Secret Key is in a hidden basement, opened by a concealed switch on 2F disguised as an object. (Test Plan: Read diaries on 2F, then interact with all objects. Check 1F for a new path.)
-
-## VII. Archive: Solved Puzzles & Disproven Hypotheses
+## IV. Archive: Solved Puzzles & Disproven Hypotheses
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other. There is no path between them on this floor.
 - **Seafoam Islands B4F Trap (DISPROVEN):** The eastern section of B4F is NOT a one-way trap. The game state has confirmed a path to the southern warps exists, despite the water current.
 - **Tool Failure & Hallucination (RESOLVED):** My `find_path` tool was critically flawed and repeatedly caused me to hallucinate that I was trapped. I have since rewritten and verified the tool's logic, and it is now reliable. This serves as a reminder to always trust game state data over faulty tools and to prioritize immediate maintenance.
@@ -73,15 +78,4 @@
 - **Pokémon Mansion Trapped Room (SOLVED):** My hypothesis that I was trapped in a room on 2F was incorrect. The room was part of a larger positional puzzle. My subsequent hypotheses (hidden switch, Dig, walk-through walls) were also incorrect, but the process of testing them led to the solution: moving to tile (21, 13) opened the gates at (19, 9) and (20, 9).
 - **Pokémon Mansion 3F Hidden Passage (DISPROVEN):** The hypothesis that a hidden passage exists in the wall dividing the eastern and western sections of 3F is false. Tests at (11, 12) and (11, 11) both failed.
 - **Pokémon Mansion 2F Super Nerd (DISPROVEN):** The Super Nerd at (5, 18) is not blocking a switch. Interaction confirmed he only provides a generic hint about alternating doors.
-
-## Pokemon Mansion 2F Puzzle Log
-- **Hypothesis 1 (Attempt 1 - FAILED):** The switch at (3, 12) opens a path to the eastern section of the floor.
-  - **Test:** Activated the switch, then used `find_path` to plot a course to the east.
-  - **Outcome:** `find_path` failed, confirming the path remains blocked.
-- **Hypothesis 2 (FAILED):** The switch at (3, 12) opened the southern gates at (8, 23) and (8, 24).
-  - **Test:** Attempted to pathfind to the southern gates.
-  - **Outcome:** `find_path` failed, indicating the area is unreachable from my current position.
-- **Hypothesis 3:** The path forward is on a different floor.
-  - **Test Plan:** Ascend to 3F via the warp at (8, 11) and explore.
-  - **Expected Outcome:** Find a new path or puzzle on 3F.
 - **Pokémon Mansion 1F Warp (One-Way):** The warp at (6, 11) is a one-way trip to the second floor. The game automatically sends you back to the first floor after a single step, making this path unusable for exploring 2F.
