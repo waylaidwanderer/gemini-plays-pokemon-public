@@ -73,3 +73,8 @@
 
 ## VII. Tasks & Reminders
 *   Re-mark defeated trainers Hiker Leonard and Hiker Phillip in UnionCaveB1F with their object IDs when I encounter them again.
+
+## VIII. Long-Term Tasks & Reminders
+*   Return to the Ruins of Alph Ho-Oh Chamber to gather puzzle piece data for the `puzzle_analyst` agent.
+*   Use the `navigator_advisor` agent when strategically stuck on where to go next.
+*   Re-mark defeated trainers Hiker Leonard and Hiker Phillip in UnionCaveB1F with their object IDs when encountered again.
