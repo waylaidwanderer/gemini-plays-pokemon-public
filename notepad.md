@@ -84,12 +84,12 @@
 - **Hypothesis:** A specific sequence of movements is required to open the path to the ladder.
 
 ### Ruins of Alph Ho-Oh Puzzle
-- **Mechanic:** A 16-piece sliding block puzzle on a 4x4 grid. The goal is to assemble the image of Ho-Oh. Pieces are moved from the outer border into the central grid.
+- **Mechanic:** A 16-piece puzzle on a 6x6 grid. The goal is to assemble the image of Ho-Oh in the central 4x4 area. Pieces are picked up from the border and placed into empty slots. A piece cannot be placed in an occupied slot; the existing piece must be moved first.
 - **Strategy:**
     1.  Identify corner and edge pieces.
     2.  Assemble the outer frame of the 4x4 picture first.
     3.  Fill in the middle pieces last.
-    4.  If stuck, use the empty space on the border to shuffle pieces around.
+    4.  If a target slot is occupied, move the blocking piece to a temporary empty slot on the border.
 
 ## VII. Untested Hypotheses
 *   **`CUT_TREE` Respawn Conditions:** A `CUT_TREE` at (8, 25) in Ilex Forest respawned. I need to test the exact conditions. Does it happen after a certain number of steps, after leaving the map, or after a certain amount of time? Next time I cut a tree near a map transition, I will immediately leave and re-enter the map to check if it has respawned.
