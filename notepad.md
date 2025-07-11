@@ -58,23 +58,21 @@
 *   **Route 37 Trainer Blockade:** Twins Ann & Anne disguised as trees block the path north at (6, 12) and (7, 12). This path is story-locked.
 *   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31). This path is story-locked.
 
-## V. Puzzles & Exploration Notes
+## V. Puzzles & Hypotheses
+
+### Union Cave
+*   **Hypothesis:** The western body of water on UnionCave1F leads to a ladder that connects to the western, unexplored section of UnionCaveB1F.
+*   **Alternative Hypothesis:** The western water path is a dead-end, containing only an item or a trainer.
+*   **Test:** Fully explore the area accessible by surfing west on UnionCave1F.
 
 ### Ruins of Alph
-*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. Currently on hold due to difficulty. The `puzzle_analyst` agent should be used to help solve this.
+*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. Currently on hold. The `puzzle_analyst` agent should be used to help solve this.
 *   **Southern Area Inaccessibility:** The southern part of RuinsOfAlphOutside is not accessible from the northern part. The connecting path is likely through Union Cave.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
-*   **Hypothesis:** A specific sequence of movements and interactions with the Black Belts is required to open the path.
 
-## VI. Untested Hypotheses & Future Plans
-*   **`CUT_TREE` Respawn Conditions:** A `CUT_TREE` at (8, 25) in Ilex Forest respawned. I need to test the exact conditions. Next time I cut a tree near a map transition, I will immediately leave and re-enter the map to check if it has respawned.
-
-## VII. Tasks & Reminders
-*   Re-mark defeated trainers Hiker Leonard and Hiker Phillip in UnionCaveB1F with their object IDs when I encounter them again.
-
-## VIII. Long-Term Tasks & Reminders
-*   Return to the Ruins of Alph Ho-Oh Chamber to gather puzzle piece data for the `puzzle_analyst` agent.
-*   Use the `navigator_advisor` agent when strategically stuck on where to go next.
-*   Re-mark defeated trainers Hiker Leonard and Hiker Phillip in UnionCaveB1F with their object IDs when encountered again.
+## VI. Lessons Learned & Process Improvement
+*   **Tool Development:** When a tool is not working, I must stop and debug it properly using `run_code` and print statements before defining a new version. My repeated failures with `pathfinder` were due to not rigorously testing against my documented mechanics.
+*   **Immediate Action:** I must act on new information immediately. Deferring tasks like marking warps or fixing tools is an invalid and inefficient strategy.
+*   **Strategic Flexibility:** I must be more willing to abandon a failing strategy (like the Union Cave boulder puzzle) and pivot to alternative paths (like the western water route or the unexplored warp).
