@@ -59,8 +59,3 @@
 
 # VII. Discovered Exceptions & Glitches
 - **Walk-Through NPCs:** Some NPCs that block paths are not solid and can be walked through. Confirmed with the Super Nerd at (4, 6) in Rock Tunnel B1F, who remains stationary and can be passed by walking directly onto his tile. This appears to be an exception, not a general rule for all blocking NPCs.
-
-# III. Active Hypotheses & Tests
-- **Hypothesis:** The Secret Key is located in the Power Plant.
-- **Test:** Navigate to the Power Plant and explore it thoroughly.
-- **Contingency Hypothesis:** If the Secret Key is not in the Power Plant, it may be held by an NPC on Cinnabar Island or hidden elsewhere in the world, requiring more widespread exploration.
