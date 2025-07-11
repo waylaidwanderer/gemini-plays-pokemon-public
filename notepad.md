@@ -58,3 +58,11 @@
 
 # VI. NPC Trades
 - **Route 5 (Underground Path):** Little Girl wants Cubone, offers Machoke.
+
+# VII. Future Development & Lessons
+
+## A. Tool & Agent Ideas
+- **Battle Automator:** Create a tool or agent to automate simple, repetitive wild battles (e.g., 'if opponent is Diglett, switch to NEPTUNE, use ICE BEAM'). This would greatly increase exploration efficiency.
+
+## B. Process Lessons
+- **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
