@@ -76,10 +76,3 @@
 - **Pokémon Mansion 3F Hidden Passage (DISPROVEN):** The hypothesis that a hidden passage exists in the wall dividing the eastern and western sections of 3F is false. Tests at (11, 12) and (11, 11) both failed.
 
 - **Pokémon Mansion 1F Warp (One-Way):** The warp at (6, 11) is a one-way trip to the second floor. The game automatically sends you back to the first floor after a single step, making this path unusable for exploring 2F.
-- **Hypothesis (FAILED):** The switch at (3, 6) opens the eastern gates at (25, 14).
-  - **Test:** Flipped the switch and attempted to path to (25, 15).
-  - **Outcome:** Path was blocked by a closed gate at (25, 14), disproving the hypothesis.
-
-- **Hypothesis (FAILED):** The switch at (3, 6) opens the eastern gates at (25, 14).
-  - **Test:** Flipped the switch and attempted to path to (25, 15).
-  - **Outcome:** Path was blocked by a closed gate at (25, 14), disproving the hypothesis.
