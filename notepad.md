@@ -96,5 +96,10 @@
 
 ## VIII. Current Plans
 ### Primary Goal: Solve Ruins of Alph Puzzles
-*   **Problem:** I'm in the Ho-Oh Chamber and faced with a sliding block puzzle. Solving it is likely required to unlock something in the ruins.
-*   **Current Plan:** Solve the Ho-Oh puzzle. Then, systematically explore and mark the remaining warps in this chamber: (4, 9), (4, 3), and (4, 0).
+*   **Problem:** I'm in the Ho-Oh Chamber and need to solve the puzzle to proceed.
+*   **Hypothesis 1 (Failed):** Interacting with the puzzle object at (3, 2) from the adjacent tile (3, 1) will activate it. (Failed twice).
+*   **Hypothesis 2 (Current):** Activation requires standing on one of the special floor tiles, (3, 3) or (4, 3), and *then* interacting with the puzzle object at (3, 2).
+*   **Current Plan:**
+    1.  Move to (3, 3).
+    2.  Face the puzzle object at (3, 2).
+    3.  Interact with the puzzle object.
