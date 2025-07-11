@@ -71,5 +71,5 @@
     *   `LEDGE_HOP_RIGHT`: A one-way ledge that can only be hopped **RIGHT**.
 
 ## Omanyte Puzzle Solution Plan
-- **Sequence:** ['A', 'Right', 'Down', 'Down', 'A', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'A', 'Left', 'Left', 'Up', 'Up', 'Up', 'A', 'Right', 'Right', 'A', 'Left', 'A', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'A', 'Right', 'Up', 'A', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'A', 'Left', 'Left', 'Left', 'Down', 'Down', 'A', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'A', 'Left', 'Left', 'Down', 'Down', 'Down', 'A', 'Right', 'Right', 'A', 'Left', 'A', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'A', 'Right', 'Right', 'Up', 'A', 'Left', 'Left', 'Up', 'Up', 'Up', 'A', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'A']
-- **Status:** Not started.
+- **Sequence:** ['Up', 'Up', 'Up', 'A', 'Left', 'A', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'A', 'Right', 'Up', 'A', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'A', 'Left', 'Left', 'Left', 'Down', 'Down', 'A', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'A', 'Left', 'Left', 'Down', 'Down', 'Down', 'A', 'Right', 'Right', 'A', 'Left', 'A', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'A', 'Right', 'Right', 'Up', 'A', 'Left', 'Left', 'Up', 'Up', 'Up', 'A', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'A']
+- **Status:** In progress.
