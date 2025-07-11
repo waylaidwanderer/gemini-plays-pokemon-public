@@ -74,3 +74,8 @@
 - **Pokémon Mansion Trapped Room (SOLVED):** My hypothesis that I was trapped in a room on 2F was incorrect. The room was part of a larger positional puzzle. My subsequent hypotheses (hidden switch, Dig, walk-through walls) were also incorrect, but the process of testing them led to the solution: moving to tile (21, 13) opened the gates at (19, 9) and (20, 9).
 - **Pokémon Mansion 3F Hidden Passage (DISPROVEN):** The hypothesis that a hidden passage exists in the wall dividing the eastern and western sections of 3F is false. Tests at (11, 12) and (11, 11) both failed.
 - **Pokémon Mansion 2F Super Nerd (DISPROVEN):** The Super Nerd at (5, 18) is not blocking a switch. Interaction confirmed he only provides a generic hint about alternating doors.
+
+## Pokemon Mansion 2F Puzzle Log
+- **Hypothesis 1:** The switch in the statue at (3, 12) toggles the state of gates on the floor.
+  - **Test Plan:** Press the switch and observe any changes to the gates.
+  - **Expected Outcome:** A new path will open.
