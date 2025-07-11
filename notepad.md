@@ -53,3 +53,6 @@
 # VI. Future Development & Ideas
 - **Prerequisites Check:** Before entering new dungeons or major areas, I must verify that all necessary HMs (Flash, Cut, Surf, Strength) and key items are in my party or inventory to avoid backtracking.
 - **Puzzle Solver Agent:** Create an agent that takes a description of a room/puzzle (tile types, object locations, NPC dialogue) and suggests testable hypotheses for how to solve it. This could help when I'm stuck on environmental puzzles by providing structured, logical steps for experimentation.
+
+# VII. Discovered Exceptions & Glitches
+- **Walk-Through NPCs:** Some NPCs that block paths are not solid and can be walked through. Confirmed with the Super Nerd at (4, 6) in Rock Tunnel B1F.
