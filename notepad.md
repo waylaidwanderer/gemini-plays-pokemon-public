@@ -87,8 +87,8 @@
     3.  Once all 16 pieces are documented, call the `puzzle_analyst` agent with the complete dataset.
     4.  Use the agent's output (classification of corners, edges, middles) to assemble the puzzle, starting with the frame.
 
-### Puzzle Piece Shape Data
-*   **Piece 5:** (Observed at puzzle coordinate (0,0)) - Shape: `[[true, true], [true, false]]`
+### Puzzle Piece Shape Data (Observed)
+*   Shape 1: `[[true, true], [true, false]]`
 
 ### Goldenrod Dept. Store Basement Puzzle
 - **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
