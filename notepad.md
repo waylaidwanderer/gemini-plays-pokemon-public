@@ -14,7 +14,7 @@
 *   **One-Way Ledges:** 
     * `LEDGE_HOP_DOWN/RIGHT`: A one-way ledge that can only be hopped in the specified direction.
     * `LEDGE_HOP_LEFT`: A one-way ledge that can only be hopped **LEFT**.
-    * `FLOOR_UP_WALL`: A complex one-way ledge. Can be moved onto from a tile below, off of by moving down, and horizontally between adjacent `FLOOR_UP_WALL` tiles. Cannot move up from this tile.
+    * `FLOOR_UP_WALL`: A complex one-way ledge. It acts as a wall when approached from above (cannot move down onto it). You can move onto it from a tile below it. You can move horizontally between adjacent `FLOOR_UP_WALL` tiles. You can move down *off* of it to a tile below. You cannot move up from this tile.
 *   **Special Requirement:** 
     * `CUT_TREE` (Requires HM01 Cut. These trees can respawn after being cut).
     * `WATER` (Requires HM03 Surf. Usable outside of battle after obtaining the Fog Badge).
