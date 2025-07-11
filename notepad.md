@@ -28,8 +28,7 @@
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
     *   `PIT`: A hole in the floor that acts as a warp. Stepping on it triggers the warp.
-    *   `2x1 warp tile`: A warp tile that seems to be stairs. Interaction method is currently unknown.
-*   **Untested:** `unknown` (in Olivine City).
+    *   `unknown` (in Ruins of Alph Ho-Oh Chamber): A special tile that, when standing on it and interacting with the adjacent puzzle object at (3, 2), warps the player to a sliding block puzzle screen. Its behavior without interacting with the puzzle is currently unknown.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -84,11 +83,18 @@
     4. Moving from (8, 8) to (8, 9) causes the WALL at (11, 13) to become a FLOOR tile.
 - **Hypothesis:** A specific sequence of movements is required to open the path to the ladder.
 
+### Ruins of Alph Ho-Oh Puzzle
+- **Mechanic:** A 16-piece sliding block puzzle on a 4x4 grid. The goal is to assemble the image of Ho-Oh. Pieces are moved from the outer border into the central grid.
+- **Strategy:**
+    1.  Identify corner and edge pieces.
+    2.  Assemble the outer frame of the 4x4 picture first.
+    3.  Fill in the middle pieces last.
+    4.  If stuck, use the empty space on the border to shuffle pieces around.
+
 ## VII. Untested Hypotheses
 *   **`CUT_TREE` Respawn Conditions:** A `CUT_TREE` at (8, 25) in Ilex Forest respawned. I need to test the exact conditions. Does it happen after a certain number of steps, after leaving the map, or after a certain amount of time? Next time I cut a tree near a map transition, I will immediately leave and re-enter the map to check if it has respawned.
 
 ## VIII. Current Plans
-
-### Primary Goal: Defeat Olivine Gym Leader
-*   **Problem:** The Gym Leader, Jasmine, is at the top of the Glitter Lighthouse tending to a sick Ampharos. The path up the lighthouse is not straightforward.
-*   **Current Plan:** Explore Union Cave B1F thoroughly. The cave connects different routes, and this basement level might contain a hidden path or a key item that is necessary to navigate the lighthouse or help the sick Pokémon, which would allow Jasmine to return to the gym.
+### Primary Goal: Solve Ruins of Alph Puzzles
+*   **Problem:** I'm in the Ho-Oh Chamber and faced with a sliding block puzzle. Solving it is likely required to unlock something in the ruins.
+*   **Current Plan:** Solve the Ho-Oh puzzle. Then, systematically explore and mark the remaining warps in this chamber: (4, 9), (4, 3), and (4, 0).
