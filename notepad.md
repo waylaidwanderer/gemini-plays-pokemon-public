@@ -93,3 +93,6 @@
     - **Output:** A sequence of moves (e.g., `["pick(x1,y1)", "place(x2,y2)"]`) to solve it.
     - **Logic:** This would require an algorithm like A* search or a similar pathfinding/planning algorithm to find the optimal sequence of moves. It is a computational task, perfect for a tool.
 *   Shape: [[true, true], [true, false]]
+
+## VII. Traps & Dead Ends
+*   **Ruins of Alph Ledge Trap:** Jumping down the ledge at (2, 19) leads to a small, enclosed grassy area with no obvious exit. Avoid this ledge.
