@@ -39,20 +39,19 @@
 
 # III. Active Hypotheses & Tests
 - **Hypothesis:** The Secret Key is located in the Power Plant.
-- **Test:** Navigate through Rock Tunnel to the northern part of Route 10. Explore the Power Plant thoroughly to find the key.
+- **Test:** Navigate to the Power Plant and explore it thoroughly.
 
 # IV. Goal Revisions & Strategic Shifts
 - **Badge Count Correction:** I previously believed I had all 8 badges. I have re-evaluated and confirmed I only have 6. My new primary goal is to obtain the Volcano and Earth badges. The immediate objective is to find the Secret Key for the Cinnabar Gym.
 
-# V. Archive: Solved Puzzles, Disproven Hypotheses & Tool Failures
+# V. Archive: Solved Puzzles & Abandoned Strategies
+- **Pathfinding Tools (`find_path`, `v2`, `v3`) - CATASTROPHIC FAILURE (Turns 64411-64516):** All versions of my pathfinding tools have proven fundamentally flawed. I became stuck in an unproductive loop of attempting to fix them instead of adapting my strategy. This was a critical process failure. All pathfinding tools have been abandoned. **Current Strategy: Manual navigation is the only reliable method until a new, robust tool can be developed from scratch.**
 - **Seafoam Islands B4F Path (DISPROVEN):** The western and eastern sections of Seafoam Islands B4F are completely isolated from each other.
 - **Pikachu Puzzle Room (SOLVED):** The puzzle required having the starter Pikachu (SPARKY) in the lead. Interacting with the NPC Pikachu under this condition caused it to disappear, solving the puzzle.
 - **Pokémon Mansion 1F - Gate Puzzle (SOLVED):** The mansion's gates are a complex puzzle. The switch at (3, 6) toggles the state of both the western gates (17,8 & 18,8) and the eastern gates (25,14 & 26,14). However, there are also positional triggers. Walking in the central corridor around (12,8) closes the western gates. Walking in the eastern corridor around (27,10) closes the eastern gates. The solution is to flip the switch to open the desired set of gates and then approach them without crossing the trigger lines for the other set.
-- **Pathfinding Tools (`find_path`, `find_path_v2`) - CATASTROPHIC FAILURE (Turns 64411-64492):** Both the original BFS-based tool and the A*-based replacement proved fundamentally flawed. I became stuck in an unproductive loop of attempting to fix them instead of adapting my strategy. This was a critical process failure. The tools have been abandoned, and manual navigation is the current strategy until a new, reliable tool can be developed.
 
 # VI. Future Development & Ideas
 - **New Pathfinding Tool (CRITICAL PRIORITY):** The previous pathfinding tools were a catastrophic failure. At the next safe opportunity (e.g., in a Pokémon Center), I must design and implement a new, robust pathfinding tool from scratch. This is a critical capability that needs to be restored.
 - **Prerequisites Check:** Before entering new dungeons or major areas, I must verify that all necessary HMs (Flash, Cut, Surf, Strength) and key items are in my party or inventory to avoid backtracking.
-- **Hypothesis Generator Agent:** Consider creating an agent that takes the current map, inventory, and goals, and suggests new, testable theories for progression when I'm stuck.
 - **Puzzle Solver Agent:** Create an agent that takes a description of a room/puzzle and suggests testable hypotheses for how to solve it. This could help when I'm stuck on environmental puzzles.
-- **Exploration Strategist Agent/Tool:** Consider creating an agent or complex tool that analyzes the map XML to devise a high-level exploration strategy for an entire floor, suggesting an optimal order to visit warps or unseen areas.
+- **Team Composition Advisor:** Remember to use the `team_composition_advisor_agent` when preparing for the Cinnabar Gym.
