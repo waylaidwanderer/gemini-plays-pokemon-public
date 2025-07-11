@@ -25,7 +25,7 @@
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Traversable. Activated by pressing the corresponding direction while standing on the tile to trigger a warp.
     *   `WARP_CARPET_DOWN`: Traversable. Activated by pressing 'Down' while standing on the tile to trigger a warp.
-    *   `unknown` (in Ruins of Alph Ho-Oh Chamber at (3,3) and RuinsOfAlphOutside at (2,18)): A special tile type. In the Ho-Oh chamber, interacting with the puzzle from this tile triggers the puzzle. In RuinsOfAlphOutside, it appears to be a standard traversable floor tile.
+    *   `unknown` (in Ruins of Alph Ho-Oh Chamber at (3,3) and RuinsOfAlphOutside at (2,18)): This tile type represents a special interaction point. In the Ho-Oh and Omanyte chambers, standing on the tile at (3,3) and interacting with the puzzle object at (3,2) triggers the puzzle. In RuinsOfAlphOutside, it appears to be a standard traversable floor tile.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
