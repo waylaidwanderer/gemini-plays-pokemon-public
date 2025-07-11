@@ -5,6 +5,7 @@
 ### Tile Traversal Protocol
 - **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately.
 - **Movement Test:** Attempt to move *into* and *out of* the tile from all 4 cardinal directions to verify passability.
+- **Interaction Test:** If movement fails, I must attempt to interact with the tile by facing it and pressing 'A'.
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
@@ -17,7 +18,7 @@
     * `FLOOR_UP_WALL`: A complex one-way ledge. It acts as a wall when approached from above (cannot move down onto it). You can move onto it from a tile below it. You can move horizontally between adjacent `FLOOR_UP_WALL` tiles. You can move down *off* of it to a tile below. You cannot move up from this tile.
 *   **Special Requirement:** 
     * `CUT_TREE` (Requires HM01 Cut. These trees can respawn after being cut).
-    * `WATER` (Requires HM03 Surf. Usable outside of battle after obtaining the Fog Badge).
+    * `WATER` (Requires HM03 Surf. To initiate, face the water and press 'A').
     * `BREAKABLE_ROCK` (Requires Rock Smash).
     * `HEADBUTT_TREE` (Requires the move Headbutt. Confirmed that interacting without the move does nothing).
 *   **Complex Tiles:**
@@ -40,13 +41,7 @@
 ## II. Key Items, HMs & TMs
 *   **Key Items:** SQUIRTBOTTLE, GOOD ROD, COIN CASE
 *   **HMs:** HM01 (CUT), HM03 (SURF), HM04 (STRENGTH)
-*   **TMs:** 
-    * TM08 (ROCK SMASH)
-    * TM12 (SWEET SCENT)
-    * TM28 (DIG)
-    * TM30 (SHADOW BALL) - Causes damage and may reduce SPCL.DEF.
-    * TM45 (ATTRACT)
-    * TM49 (FURY CUTTER)
+*   **TMs:** TM08 (ROCK SMASH), TM12 (SWEET SCENT), TM28 (DIG), TM30 (SHADOW BALL), TM45 (ATTRACT), TM49 (FURY CUTTER)
 
 ## III. Badges
 *   **ZEPHYR BADGE**
@@ -60,23 +55,14 @@
 
 ## V. Puzzles & Hypotheses
 
-### Union Cave
-*   **Hypothesis:** The western body of water on UnionCave1F leads to a ladder that connects to the western, unexplored section of UnionCaveB1F.
-*   **Alternative Hypothesis:** The western water path is a dead-end, containing only an item or a trainer.
-*   **Test:** Fully explore the area accessible by surfing west on UnionCave1F.
-
 ### Ruins of Alph
-*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. Currently on hold. The `puzzle_analyst` agent should be used to help solve this.
+*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. Currently on hold. The `puzzle_analyst` agent must be used to help solve this.
 *   **Southern Area Inaccessibility:** The southern part of RuinsOfAlphOutside is not accessible from the northern part. The connecting path is likely through Union Cave.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
 
 ## VI. Lessons Learned & Process Improvement
-*   **Tool Development:** When a tool is not working, I must stop and debug it properly using `run_code` and print statements before defining a new version. My repeated failures with `pathfinder_v21` and `pathfinder_v22` were due to not rigorously testing against my documented mechanics.
+*   **Tool Development:** When a tool is not working, I must stop and debug it properly using `run_code` and print statements before defining a new version. My repeated failures with `pathfinder_v22` were due to not rigorously testing against my documented mechanics. The tool needs to be updated to account for the 'interact to SURF' mechanic.
 *   **Immediate Action:** I must act on new information immediately. Deferring tasks like marking warps or fixing tools is an invalid and inefficient strategy.
-*   **Strategic Flexibility:** I must be more willing to abandon a failing strategy (like the Union Cave boulder puzzle) and pivot to alternative paths (like the western water route or the unexplored warp).
-*   **Function Isolation:** When debugging a tool, I must isolate the specific function causing the error (e.g., `get_neighbors`) and test it with `run_code` and print statements. I will not redefine the entire tool until the isolated function is confirmed to work correctly.
-*   **Mandatory Debugging Protocol:** When a tool fails, I MUST NOT redefine the entire tool. I MUST isolate the suspected problematic function (e.g., `get_neighbors`) and test it with `run_code`, using print statements to verify its behavior against controlled inputs. Only after the isolated function is confirmed to work correctly can I redefine the full tool.
-### HM Usage
-*   **SURF:** To initiate surfing, you must be facing a body of water and press the 'A' button. Simply walking into the water will not work.
+*   **Hypothesis Testing:** When stuck, I must form multiple, alternative hypotheses and test them systematically to avoid confirmation bias. I will document these hypotheses in my notepad.
