@@ -74,3 +74,4 @@
 - **Hypothesis:** The puzzle must be solved visually based on the shapes of the pieces, as the piece IDs are not reliable.
 - **Plan:** Solve the puzzle manually by identifying which pieces fit into the empty slots based on their visual appearance.
 - **Status:** In progress.
+- **New Hypothesis:** The Ruins of Alph puzzles might be optional side content, not mandatory for progression. If I remain stuck after a few more systematic attempts, I will test this by leaving the ruins and searching for an alternative route to my primary goal.
