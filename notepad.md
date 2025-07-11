@@ -78,3 +78,5 @@
 *   **Strategic Flexibility:** I must be more willing to abandon a failing strategy (like the Union Cave boulder puzzle) and pivot to alternative paths (like the western water route or the unexplored warp).
 *   **Function Isolation:** When debugging a tool, I must isolate the specific function causing the error (e.g., `get_neighbors`) and test it with `run_code` and print statements. I will not redefine the entire tool until the isolated function is confirmed to work correctly.
 *   **Mandatory Debugging Protocol:** When a tool fails, I MUST NOT redefine the entire tool. I MUST isolate the suspected problematic function (e.g., `get_neighbors`) and test it with `run_code`, using print statements to verify its behavior against controlled inputs. Only after the isolated function is confirmed to work correctly can I redefine the full tool.
+### HM Usage
+*   **SURF:** To initiate surfing, you must be facing a body of water and press the 'A' button. Simply walking into the water will not work.
