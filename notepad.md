@@ -51,3 +51,4 @@
 # V. Future Development & Ideas
 - **Hypothesis Generator Agent:** Consider creating an agent that takes the current map, inventory, and goals, and suggests new, testable theories for progression when I'm stuck.
 - **Seafoam Key Test Plan:** 1. Systematically solve every boulder/current puzzle. 2. Thoroughly explore any newly accessible areas. 3. If no key is found after clearing all puzzles, conclude the hypothesis is false and re-evaluate.
+- **Tool Debugger Agent:** Consider creating an agent that analyzes failed tool outputs and code to suggest fixes, preventing prolonged manual debugging sessions.
