@@ -1,11 +1,6 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. Current Objectives
-*   **Primary Goal:** Find and defeat the Olivine City Gym Leader.
-*   **Secondary Goal:** Find BERRIES to heal the sick Miltank on Route 39.
-*   **Tertiary Goal:** Solve the Ruins of Alph puzzles.
-
-## II. Game Systems & Mechanics
+## I. Game Systems & Mechanics
 
 ### Tile Traversal Protocol
 - **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately.
@@ -43,7 +38,7 @@
     *   **ICE BERRY:** Heals burn.
 *   **Haircuts:** Increases a Pokémon's happiness.
 
-## III. Key Items, HMs & TMs
+## II. Key Items, HMs & TMs
 *   **Key Items:** SQUIRTBOTTLE, GOOD ROD, COIN CASE
 *   **HMs:** HM01 (CUT), HM03 (SURF), HM04 (STRENGTH)
 *   **TMs:** 
@@ -54,13 +49,13 @@
     * TM45 (ATTRACT)
     * TM49 (FURY CUTTER)
 
-## IV. Badges
+## III. Badges
 *   **ZEPHYR BADGE**
 *   **HIVE BADGE**
 *   **PLAIN BADGE**
 *   **FOG BADGE** (Allows use of SURF outside battle, makes Pokémon up to L50 obey)
 
-## V. Blocked Paths & Story Gates
+## IV. Blocked Paths & Story Gates
 ### Route 37 Trainer Blockade
 - **Location:** (6, 12) and (7, 12).
 - **Blockade:** Two trainers (Twins Ann & Anne) disguised as trees block the path north.
@@ -71,7 +66,7 @@
 - **Blockade:** A Super Nerd blocks the path south.
 - **Conclusion:** This path is story-locked.
 
-## VI. Puzzle Solutions & Observations
+## V. Puzzle Solutions & Observations
 ### Goldenrod Dept. Store Basement Puzzle
 - **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
 - **Hypothesis:** A specific sequence of movements and interactions with the Black Belts is required to open the path.
@@ -86,7 +81,8 @@
     4.  Fill in the four middle pieces last.
     5.  If a target slot is occupied, move the blocking piece to a temporary empty slot on the border.
 
-## VII. Untested Hypotheses
+## VI. Untested Hypotheses & Future Plans
 *   **`CUT_TREE` Respawn Conditions:** A `CUT_TREE` at (8, 25) in Ilex Forest respawned. I need to test the exact conditions. Does it happen after a certain number of steps, after leaving the map, or after a certain amount of time? Next time I cut a tree near a map transition, I will immediately leave and re-enter the map to check if it has respawned.
 *   **`WARP_CARPET_DOWN` Traversability:** I need to test if `WARP_CARPET_DOWN` tiles are truly one-way. Next time I'm on one, I will attempt to move up, left, and right to confirm.
 *   **Ho-Oh Puzzle Alternate Solutions:** If a second, careful visual assembly of the Ho-Oh image fails, my alternative hypothesis is that the solution is non-obvious (e.g., arranging by color, leaving a gap, etc.). I will test this only after a second standard attempt fails.
+*   **Puzzle Solver Tool:** If I continue to struggle with visual puzzles like the Ho-Oh one, I should define a custom tool. The tool would take a representation of the puzzle state (grid, pieces) and the target image, and output the sequence of moves to solve it. This is better than an agent as it's a computational task.
