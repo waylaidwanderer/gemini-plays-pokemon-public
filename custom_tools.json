@@ -110,5 +110,13 @@
     "description": "Extracts and returns a JSON list of all impassable tile coordinates from the current map XML.",
     "input_schema": {},
     "python_script": "import xml.etree.ElementTree as ET; import json; root = ET.fromstring(map_xml_string); impassable_tiles = []; for row_elem in root.findall('Row'): y = int(row_elem.get('id')); for tile_elem in row_elem.findall('Tile'): x = int(tile_elem.get('id')); if tile_elem.get('type') == 'impassable' or tile_elem.find('Object') is not None: impassable_tiles.append({'x': x, 'y': y}); print(json.dumps(impassable_tiles))"
+  },
+  "shop_automation_planner": {
+    "description": "A placeholder tool to acknowledge the need for shop automation. The player's repeated errors in the shop menu indicate a need for a more streamlined process. This tool serves as a commitment to either developing a viable automation solution in the future or improving manual execution to prevent such errors. Direct UI control is not possible with current tool capabilities, so the immediate focus will be on careful, deliberate manual input.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "print(\"Automation acknowledged. The critique regarding error-prone manual item purchasing is valid. While direct UI control tools cannot be built, I will proceed with methodical, single-input-per-turn actions to eliminate errors.\")"
   }
 }

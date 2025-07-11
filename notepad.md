@@ -47,9 +47,10 @@
 - **Mandatory Agent Usage:** I received a critique for failing to use my `battle_strategist_agent` during recent wild encounters, leading to inefficient, error-prone manual control. This is a direct violation of my own documented principles. I must *always* defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 ## IV. Untested Assumptions & Test Plans
-- **Primary Assumption:** The path to the Indigo Plateau is west of Viridian City.
-  - **Reasoning:** This is the standard progression in Pokémon games after acquiring all badges.
-  - **Test Plan:** Fly to Viridian City and travel west onto Route 22, attempting to proceed north to Route 23.
+- **Assumption:** The Secret Key is *inside* the Pokémon Mansion. This is based on the original game, but this is a ROM hack.
+  - **Test Plan:** If I remain stuck after testing other hypotheses, I will systematically interact with every NPC and object on Cinnabar Island itself.
+- **Assumption:** The 'fall-through floor' hypothesis is the correct way to access the eastern part of the upper floors.
+  - **Test Plan:** I must first find an alternate route to the eastern side of 2F or 3F to test the holes.
 
 ## V. Future Plans & Automation Ideas
 - **Acquire Repels:** The constant wild encounters in dungeons like the Pokémon Mansion are hindering exploration. I need to buy Repels at the next opportunity to make progress more efficient.
@@ -74,12 +75,3 @@
 - **Pokémon Mansion Trapped Room (SOLVED):** My hypothesis that I was trapped in a room on 2F was incorrect. The room was part of a larger positional puzzle. My subsequent hypotheses (hidden switch, Dig, walk-through walls) were also incorrect, but the process of testing them led to the solution: moving to tile (21, 13) opened the gates at (19, 9) and (20, 9).
 - **Pokémon Mansion 3F Hidden Passage (DISPROVEN):** The hypothesis that a hidden passage exists in the wall dividing the eastern and western sections of 3F is false. Tests at (11, 12) and (11, 11) both failed.
 - **Pokémon Mansion 2F Super Nerd (DISPROVEN):** The Super Nerd at (5, 18) is not blocking a switch. Interaction confirmed he only provides a generic hint about alternating doors.
-
-## VIII. Untested Assumptions & Test Plans
-- **Assumption:** The Secret Key is *inside* the Pokémon Mansion. This is based on the original game, but this is a ROM hack.
-  - **Test Plan:** If I remain stuck after testing other hypotheses, I will systematically interact with every NPC and object on Cinnabar Island itself.
-- **Assumption:** The 'fall-through floor' hypothesis is the correct way to access the eastern part of the upper floors.
-  - **Test Plan:** I must first find an alternate route to the eastern side of 2F or 3F to test the holes.
-
-## IX. Future Plans & Automation Ideas
-- **Automation Opportunity (Dungeon Puzzles):** A `puzzle_solver_agent` could be developed to analyze complex dungeon layouts like the Pokémon Mansion, taking into account switch states, positional triggers, and map data to propose high-level solutions for reaching specific objectives.
