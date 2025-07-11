@@ -76,6 +76,9 @@
 - **Pokémon Mansion 2F Super Nerd (DISPROVEN):** The Super Nerd at (5, 18) is not blocking a switch. Interaction confirmed he only provides a generic hint about alternating doors.
 
 ## Pokemon Mansion 2F Puzzle Log
-- **Hypothesis 1:** The switch in the statue at (3, 12) toggles the state of gates on the floor.
-  - **Test Plan:** Press the switch and observe any changes to the gates.
-  - **Expected Outcome:** A new path will open.
+- **Hypothesis 1 (Attempt 1 - FAILED):** The switch at (3, 12) opens a path to the eastern section of the floor.
+  - **Test:** Activated the switch, then used `find_path` to plot a course to the east.
+  - **Outcome:** `find_path` failed, confirming the path remains blocked.
+- **Hypothesis 2:** The switch at (3, 12) opened the southern gates at (8, 23) and (8, 24).
+  - **Test Plan:** Navigate to (8, 22) to observe the state of the southern gates.
+  - **Expected Outcome:** The gates will be open, revealing a new path.
