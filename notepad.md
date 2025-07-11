@@ -57,7 +57,7 @@
 ## V. Puzzles & Hypotheses
 ### Ruins of Alph
 *   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. I MUST use the `puzzle_analyst` agent the next time I attempt this puzzle.
-*   **Southern Area Inaccessibility:** The southern part of RuinsOfAlphOutside is not accessible from the northern part by land. It seems to be a 'trap' area, likely escapable with an item like an ESCAPE ROPE.
+*   **Ruins of Alph Southern Section:** This area is accessible by hopping down a one-way ledge. It contains two unexplored cave warps at (2, 29) and (6, 27), which are the only exits.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
