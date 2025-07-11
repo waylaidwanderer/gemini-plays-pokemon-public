@@ -41,8 +41,11 @@
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 # III. Active Hypotheses & Tests
-- **Hypothesis:** The Secret Key is located somewhere in the large, unexplored western area of Vermilion City, likely accessible by water.
-  - **Test:** Systematically explore all reachable unseen tiles in Vermilion City, starting with the western sea.
+- **Hypothesis (INVALIDATED):** The Secret Key was on the S.S. Anne dock.
+  - **Test:** Entered the S.S. Anne warp.
+  - **Conclusion:** The ship departed. This was a one-time event and did not yield the key.
+- **Hypothesis:** The Secret Key is located somewhere in Diglett's Cave.
+  - **Test:** Systematically explore Diglett's Cave using the Itemfinder.
 
 # IV. Goal Revisions & Strategic Shifts
 - **Badge Count Correction:** I previously believed I had all 8 badges. I have re-evaluated and confirmed I only have 6. My new primary goal is to obtain the Volcano and Earth badges. The immediate objective is to find the Secret Key for the Cinnabar Gym.
