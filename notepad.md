@@ -59,6 +59,8 @@
 *   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. I must use the `puzzle_analyst` agent the next time I attempt this puzzle.
 *   **Southern Area Inaccessibility:** The southern part of RuinsOfAlphOutside is not accessible from the northern part. The connecting path is likely through Union Cave.
 
+    *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
+
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
 
