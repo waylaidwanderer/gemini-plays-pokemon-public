@@ -10,7 +10,7 @@
 ### Verified Tile Types
 *   **Impassable:** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `PC`, `LINK_RECEPTIONIST`, `WINDOW`, `WEIRD_TREE`.
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
-*   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile).
+*   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile), `PIT` (Acts as a warp when stepped on).
 *   **One-Way Ledges:** 
     * `LEDGE_HOP_DOWN/RIGHT`: A one-way ledge that can only be hopped in the specified direction.
     * `LEDGE_HOP_LEFT`: A one-way ledge that can only be hopped **LEFT**.
@@ -22,7 +22,6 @@
     * `HEADBUTT_TREE` (Requires the move Headbutt. Confirmed that interacting without the move does nothing).
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Activated by pressing the corresponding direction while standing on the tile.
-    *   `PIT`: A hole in the floor that acts as a warp. Stepping on it triggers the warp.
     *   `unknown` (in Ruins of Alph Ho-Oh Chamber): A special tile that, when standing on it and interacting with the adjacent puzzle object at (3, 2), warps the player to a sliding block puzzle screen.
 
 ### Other Mechanics
@@ -56,43 +55,24 @@
 *   **FOG BADGE** (Allows use of SURF outside battle, makes Pokémon up to L50 obey)
 
 ## IV. Blocked Paths & Story Gates
-### Route 37 Trainer Blockade
-- **Location:** (6, 12) and (7, 12).
-- **Blockade:** Two trainers (Twins Ann & Anne) disguised as trees block the path north.
-- **Conclusion:** This path is story-locked. Progress is gated behind an unknown event.
+*   **Route 37 Trainer Blockade:** Twins Ann & Anne disguised as trees block the path north at (6, 12) and (7, 12). This path is story-locked.
+*   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31). This path is story-locked.
 
-### Goldenrod Underground Blockade
-- **Location:** (5, 31).
-- **Blockade:** A Super Nerd blocks the path south.
-- **Conclusion:** This path is story-locked.
+## V. Puzzles & Exploration Notes
 
-## V. Puzzle Solutions & Observations
-
-### Ruins of Alph Ho-Oh Puzzle
-- **Mechanic:** A 16-piece puzzle on a 6x6 grid. The goal is to assemble the image of Ho-Oh in the central 4x4 area.
-- **Strategy:**
-    1.  Systematically enter and exit the puzzle interface to view each of the 16 pieces.
-    2.  Record the shape of each unique piece as a boolean grid in the 'Unique Piece Shapes' section below.
-    3.  Once all unique shapes are documented, call the `puzzle_analyst` agent with the complete dataset.
-    4.  Use the agent's output (classification of corners, edges, middles) to assemble the puzzle, starting with the frame.
-
-#### Unique Piece Shapes (Observed)
-*   `[[true, true], [false, true]]`
-*   `[[true, false], [true, true]]`
-*   `[[false, true], [true, true]]`
+### Ruins of Alph
+*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. Currently on hold due to difficulty.
+    *   **Unique Piece Shapes (Observed):** `[[true, true], [false, true]]`, `[[true, false], [true, true]]`, `[[false, true], [true, true]]`, `[[true, true], [true, false]]`.
+*   **Ledge Trap:** Jumping down the ledge at (2, 19) in RuinsOfAlphOutside leads to a small, enclosed grassy area with no obvious exit. Avoid this ledge.
+*   **Southern Area Inaccessibility:** The southern part of RuinsOfAlphOutside is not accessible from the northern part. The connecting path is likely through Union Cave.
 
 ### Goldenrod Dept. Store Basement Puzzle
-- **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
-- **Hypothesis:** A specific sequence of movements and interactions with the Black Belts is required to open the path.
+*   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
+*   **Hypothesis:** A specific sequence of movements and interactions with the Black Belts is required to open the path.
 
 ## VI. Untested Hypotheses & Future Plans
 *   **`CUT_TREE` Respawn Conditions:** A `CUT_TREE` at (8, 25) in Ilex Forest respawned. I need to test the exact conditions. Next time I cut a tree near a map transition, I will immediately leave and re-enter the map to check if it has respawned.
-*   **`WARP_CARPET_DOWN` Traversability:** I need to test if `WARP_CARPET_DOWN` tiles are truly one-way. Next time I'm on one, I will attempt to move up, left, and right to confirm.
 *   **Puzzle Solver Tool Idea:** If I get stuck on visual puzzles, I should define a `puzzle_solver` tool.
     - **Input:** A representation of the puzzle grid (e.g., a 2D array of piece IDs) and a target configuration.
     - **Output:** A sequence of moves (e.g., `["pick(x1,y1)", "place(x2,y2)"]`) to solve it.
     - **Logic:** This would require an algorithm like A* search or a similar pathfinding/planning algorithm to find the optimal sequence of moves. It is a computational task, perfect for a tool.
-*   Shape: [[true, true], [true, false]]
-
-## VII. Traps & Dead Ends
-*   **Ruins of Alph Ledge Trap:** Jumping down the ledge at (2, 19) leads to a small, enclosed grassy area with no obvious exit. Avoid this ledge.
