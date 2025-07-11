@@ -63,7 +63,7 @@
 ### Ruins of Alph
 *   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. Currently on hold due to difficulty.
     *   **Unique Piece Shapes (Observed):** `[[true, true], [false, true]]`, `[[true, false], [true, true]]`, `[[false, true], [true, true]]`, `[[true, true], [true, false]]`.
-*   **Ledge Trap:** Jumping down the ledge at (2, 19) in RuinsOfAlphOutside leads to a small, enclosed grassy area with no obvious exit. Avoid this ledge.
+*   **Ruins of Alph Ledges:** Some ledges in RuinsOfAlphOutside, like the one at (2, 19), lead to small grassy areas. These are not traps; a path out exists at (2, 21).
 *   **Southern Area Inaccessibility:** The southern part of RuinsOfAlphOutside is not accessible from the northern part. The connecting path is likely through Union Cave.
 
 ### Goldenrod Dept. Store Basement Puzzle
