@@ -45,3 +45,5 @@
 
 ### Future Plans & Untested Theories
 *   **Existing Tool (`gym_state_tester`):** A tool that takes a sequence of moves as input and executes them. This can be used to automate testing the side paths.
+*   **New Clue:** The trainer at (2, 12) gives dialogue about a 'strong bond' instead of battling.
+*   **New Clue:** The trainer at (7, 12) gives a hint about Psychic types instead of battling.
