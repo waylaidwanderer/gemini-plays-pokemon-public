@@ -55,3 +55,6 @@
 
 ## V. Agent & Tool Ideas
 *   **`route_planner` agent:** An agent that can break down long, multi-map journeys into a sequence of smaller, more manageable navigation goals (e.g., intermediate towns or landmarks). This would help avoid `pathfinder` failures on complex routes.
+
+## Area and Navigation Insights
+*   **Route 32 Pier:** The pier is divided into multiple sections by one-way ledges. The easternmost section (where Cooltrainer M is) is a one-way path heading south. It does not connect directly to the main pier area where the other fishers are.
