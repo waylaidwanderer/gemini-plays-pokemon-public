@@ -31,15 +31,12 @@
 
 ## II. Strategic Plans & Hypotheses
 
-### Current Quest: The Sick Ampharos
-*   **Goal:** Find the special medicine to cure the sick Ampharos in the Olivine Lighthouse.
-*   **Current Hypothesis:** The special medicine is located in a new town across the sea to the west of Olivine, accessible via SURF.
-*   **Alternative Hypothesis 1:** The medicine is in a location I've already visited, but is now accessible because of a story trigger I've completed. I should check with key NPCs in Ecruteak and Goldenrod.
-*   **Alternative Hypothesis 2:** The medicine is not an item, but a person I need to talk to in an area I haven't fully explored, like southern Route 39.
+### Current Quest: The Secret Medicine
+*   **Goal:** Find the special medicine in Cianwood City to cure the sick Ampharos in the Olivine Lighthouse.
+*   **Current Hypothesis:** The sea route to Cianwood City begins from the western beach of Olivine City.
+*   **Alternative Hypothesis:** The route to Cianwood requires a different HM I don't have yet, or is blocked by an event I haven't triggered. If the western sea route is a dead end, I will need to re-explore other areas or talk to key NPCs again.
 
 ### Verified Conclusions
-*   The way forward is not currently in the Olivine Lighthouse. I have exhausted all paths.
-*   The sailor on the pier in Olivine City has no new information about the special medicine.
-*   The southern and western water routes in Union Cave B2F are isolated dead ends.
-*   The southwestern part of Union Cave 1F is a dead end due to one-way ledges.
+*   The Olivine Lighthouse has no further upward paths. It is a dead end for now.
+*   The sea route directly south of the Olivine City pier is blocked by buoys.
 *   `HEADBUTT_TREE`s might be passable by using the move 'Headbutt'. (Requires testing).
