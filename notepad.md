@@ -63,16 +63,6 @@
 
 ## V. Puzzle Hypotheses & Logs
 
-### Ruins of Alph Inner Chamber - Exit Ladder Puzzle
-*   **Hypothesis 1:** Stepping on the ladder tile (10, 13) triggers the warp. **Result: FAILED (5+ attempts).**
-*   **Hypothesis 2:** Interacting with the ladder tile (10, 13) from various directions (up, down, left, right) triggers the warp. **Result: FAILED (4+ attempts).**
-*   **Hypothesis 3:** Talking to the Teacher NPC at (13, 12) will unlock the exit. **Result: FAILED (NPC not present at location).**
-*   **Hypothesis 4:** Interacting with the invisible Gramps NPC at (11, 19) will unlock the exit. **Result: FAILED (1 attempt).**
-*   **Hypothesis 5:** Interacting with the statue at (8, 8) will unlock the exit. **Result: PENDING (Interrupted by wild encounters).**
-*   **Hypothesis 6:** Interacting with a closer statue, such as the one at (2, 18), will unlock the exit. This minimizes the risk of interruption. **Result: FAILED (Interaction produced flavor text only).**
-*   **Hypothesis 7:** Interacting with the southern wall inscription at (8, 20) will unlock the exit. **Result: FAILED (Interaction produced no text or event).**
-*   **Hypothesis 8:** The Unown inscription 'LIGHT' is a clue. Using the move FLASH in this chamber will unlock the exit. **Result: FAILED (Game says 'Can't use that here.').**
-
 ## VI. Process Improvement & Future Plans
 *   **Immediate Data Management:** All data management tasks MUST be performed in the same turn they are identified.
 *   **Hypothesis Testing:** When stuck, I must systematically test alternative hypotheses instead of getting locked into one approach. I will document these tests and their outcomes in my notepad.
