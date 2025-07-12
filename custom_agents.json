@@ -19,5 +19,12 @@
     "agent_system_prompt": "You are a Pokémon Puzzle Solver. Given a description of a puzzle room, analyze the elements and generate a list of simple, testable hypotheses for how to solve it. Focus on interactions between elements (switches, boulders, spinners, NPCs). Your output must be a list of concrete actions to try.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"puzzle_description\":{\"type\":\"string\",\"description\":\"A detailed text description of the puzzle room, including tile types, object locations, NPC dialogue, and the goal.\"}},\"required\":[\"puzzle_description\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hypothesis\":{\"type\":\"string\"},\"test_action\":{\"type\":\"string\"}},\"required\":[\"hypothesis\",\"test_action\"]}},\"confidence_in_solution\":{\"type\":\"number\",\"minimum\":0,\"maximum\":1}},\"required\":[\"hypotheses\"]}"
+  },
+  "inventory_navigator_agent": {
+    "agent_name": "inventory_navigator_agent",
+    "agent_description": "Calculates the optimal number of button presses (Up/Down) to navigate from a current selection to a target item in a list-based menu.",
+    "agent_system_prompt": "You are an expert inventory navigation assistant. Your sole purpose is to determine the most efficient way to navigate a list-based inventory menu. You will be given a complete list of items in the inventory in their exact order, the name of the currently selected item, and the name of the target item. Based on this, you must calculate the minimum number of 'Up' or 'Down' button presses required to move the cursor from the current selection to the target item. Remember that the inventory list does not wrap around. Your output must be in the specified JSON format.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"inventory_list\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_selection\":{\"type\":\"string\"},\"target_item\":{\"type\":\"string\"}},\"required\":[\"inventory_list\",\"current_selection\",\"target_item\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"direction\":{\"type\":\"string\",\"enum\":[\"UP\",\"DOWN\",\"NONE\"]},\"presses\":{\"type\":\"integer\"}},\"required\":[\"direction\",\"presses\"]}"
   }
 }
