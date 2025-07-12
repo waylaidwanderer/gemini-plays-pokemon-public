@@ -54,3 +54,21 @@
 
 ## V. Area and Navigation Insights
 *   **Route 32 Pier:** The pier is divided into multiple sections by one-way ledges. The easternmost section (where Cooltrainer M is) is a one-way path heading south. It does not connect directly to the main pier area where the other fishers are.
+
+## IV. Strategic Plans
+
+### Primary Goal: Defeat Olivine City Gym Leader
+1.  **Travel to Olivine City.**
+2.  **Locate the Gym Leader.** Rival SILVA mentioned she is at the Lighthouse.
+3.  **Ascend the Lighthouse.** This seems to be a prerequisite to challenging the gym.
+4.  **Challenge and defeat the Gym Leader.**
+
+### Secondary Goal: Ascend the Olivine Lighthouse
+1.  **Re-enter the Lighthouse.**
+2.  **Systematically explore each floor.** I previously missed the way up, so I need to check every path and interaction point.
+3.  **Look for hidden paths or puzzles.** There might be a trick to ascending that isn't obvious.
+
+### Tertiary Goal: Heal the Miltank
+1.  **Collect BERRIES.** I need to find Fruit Trees that have regrown their fruit.
+2.  **Return to Route 39 Farmhouse.**
+3.  **Give the BERRIES to the sick Miltank.**
