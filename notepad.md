@@ -52,9 +52,8 @@
 *   **Omanyte Puzzle:** Solved by manually assembling the image.
 *   **Aerodactyl Puzzle:**
     *   **Failed Hypothesis (H1 - Incorrect Logic):** The puzzle is a magic square. This was tested and proven incorrect.
-    *   **Failed Hypothesis (H2 - Visual Assembly):** The puzzle must be solved by visually assembling the image of Aerodactyl. This was attempted and failed, as the puzzle did not complete after all pieces were placed. Pivoting to H3.
-    *   **Current Hypothesis (H3):** The puzzle is optional. I will leave and attempt to progress my main goals. I will only return if progression is blocked and an NPC directs me here.
-    *   **Alternative Hypothesis (H4):** The puzzle is unsolvable with the current pieces. If H2 fails, I will search the rest of the Ruins of Alph for clues or missing components.
+    *   **Failed Hypothesis (H2 - Tool Failure):** The `puzzle_move_planner` tool failed to provide a working solution, likely due to a bug in its logic or incorrect input. 
+    *   **Current Hypothesis (H3):** The puzzle must be solved by manually placing the pieces to form the visual image of Aerodactyl. This is the current approach, as I am trapped in this area and it's the only way forward.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position.
@@ -62,4 +61,4 @@
 ## IV. Process Improvement & Future Plans
 *   **Immediate Data Management:** All data management tasks MUST be performed in the same turn they are identified. Deferring these tasks is a critical process failure.
 *   **Hypothesis Testing:** When stuck, I must systematically test alternative hypotheses instead of getting locked into one approach. I will document these tests and their outcomes in my notepad.
-*   **Tool Idea:** For future tile-based placement puzzles, I should create a `puzzle_move_planner` tool that takes a start and end grid state and generates the optimal sequence of moves.
+*   **Tool Refinement:** The `puzzle_move_planner` tool needs to be improved. Its current greedy algorithm is not robust. A future version should use a better search algorithm (like A*) and provide move sequences piece-by-piece for easier execution.
