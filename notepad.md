@@ -72,3 +72,6 @@
 - **Objective:** Wake the Snorlax blocking the path south on Route 12.
 - **Hypothesis:** The POKé FLUTE is required to wake the Snorlax.
 - **New Hypothesis:** Waking the Snorlax may be a prerequisite for finding the Secret Key, possibly by unlocking a new area or NPC dialogue.
+- **Hypothesis (Route 12 Fisherman):** The Fisherman at (15, 32) is a standard trainer battle.
+  - **Test:** Interact with the Fisherman using the 'A' button.
+  - **Conclusion (INVALIDATED):** Multiple presses of 'A' and 'B' did not initiate a battle or advance dialogue. I was able to move away freely. This is not a standard battle encounter.
