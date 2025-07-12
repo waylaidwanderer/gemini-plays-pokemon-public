@@ -39,3 +39,6 @@
 ### Verified Conclusions
 *   The Olivine Lighthouse has no further upward paths. It is a dead end for now.
 *   The sea route directly south of the Olivine City pier is blocked by buoys.
+
+### Untested Hypotheses
+*   **WHIRLPOOL Mechanics:** My rival mentioned the Whirl Islands are blocked by whirlpools. I need to test a `WHIRLPOOL` tile to see if it requires a specific HM. I will use my `pathfinder` to navigate to an adjacent tile and then interact with it.
