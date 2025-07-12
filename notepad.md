@@ -46,10 +46,12 @@
 ## III. Strategic Plans & Hypotheses
 
 ### Primary Goal: Travel to Cianwood City to get the SecretPotion.
-1.  **Exit Ilex Forest.**
-2.  **Travel through Route 34 to Goldenrod City.** (This seems wrong, I need to go towards Olivine)
-3.  **Travel through Route 38 and 39 to Olivine City.**
-4.  **Surf West.** From Olivine City, I will use SURF to travel west across Route 40 and Route 41 to reach Cianwood City.
+1.  **Exit Ilex Forest** via the northern exit to Route 34.
+2.  **Travel through Goldenrod City** to reach Route 35.
+3.  **Navigate north** through Route 35, the National Park, and Route 36.
+4.  **Continue to Ecruteak City** via Route 37.
+5.  **Go west from Ecruteak City** through Route 38 and 39 to reach Olivine City.
+6.  **Surf west from Olivine City** across Route 40 and 41 to reach Cianwood City.
 
 ### Secondary Goal: Defeat the Olivine City Gym Leader
 *   **Status:** Blocked. Requires healing the sick Ampharos in the Olivine Lighthouse with the SecretPotion from Cianwood City.
