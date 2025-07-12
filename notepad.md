@@ -69,10 +69,7 @@
 
 # IV. Current Objective: Find the Secret Key
 
-- **Situation:** I am in an isolated eastern section of Pokémon Mansion 1F. My attempts to explore have been repeatedly blocked by either impassable terrain or loops of wild encounters.
-- **Confirmed Facts:**
-    - The northern gates at (25, 14) and (26, 14) are **unreachable** from my current position, as confirmed by a system warning. This area is isolated.
-    - The southern warp at (27, 28) is my only viable path forward besides backtracking the way I came.
+- **Situation:** I am in an isolated eastern section of Pokémon Mansion 1F. The southern path is an unproductive battle loop. The system has highlighted reachable `gate_offscreen` tiles to the north at (25, 14) and (26, 14).
 - **Current Plan:**
-    1.  **Commit to Southern Path:** I will stop attempting to reach the northern gates from this area.
-    2.  **Navigate to Warp:** I will navigate to the southern warp at (27, 28) and brave the high encounter rate, as it is my only remaining option for progression in this section.
+  1.  **Strategic Pivot:** Abandoning the southern path to break the loop.
+  2.  **Investigate Northern Gates:** I will navigate to the northern gates to test this new path.
