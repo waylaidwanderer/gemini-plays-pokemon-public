@@ -44,4 +44,4 @@
 *   **Alternative Hypothesis:** The puzzle may require interacting with the side-path trainers or statues in a specific order after a reset.
 
 ### Future Plans & Untested Theories
-*   **Tool Idea (`gym_state_tester`):** Create a tool that takes a sequence of moves as input and executes them, reporting back if any map objects appear, disappear, or move. This would automate testing the side paths.
+*   **Existing Tool (`gym_state_tester`):** A tool that takes a sequence of moves as input and executes them. This can be used to automate testing the side paths.
