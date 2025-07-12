@@ -9,19 +9,14 @@
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `PC`, `LINK_RECEPTIONIST`, `WINDOW`, `WEIRD_TREE`, `PRINTER`.
+*   **Impassable:** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WINDOW`, `WEIRD_TREE`, `PRINTER`.
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile), `PIT` (Acts as a warp when stepped on).
 *   **One-Way Ledges:**
     *   `LEDGE_HOP_DOWN`: A one-way ledge that can only be hopped **DOWN**.
     *   `LEDGE_HOP_DOWN/RIGHT`: A one-way ledge that can only be hopped in the specified direction.
     *   `LEDGE_HOP_LEFT`: A one-way ledge that can only be hopped **LEFT**.
-    *   `FLOOR_UP_WALL`: A complex one-way ledge with specific traversal rules:
-    *   You can move **UP** from a `FLOOR` tile onto a `FLOOR_UP_WALL` tile.
-    *   You can move **DOWN** from a `FLOOR_UP_WALL` tile onto a `FLOOR` tile (this is the one-way jump).
-    *   You can move horizontally between adjacent `FLOOR_UP_WALL` tiles.
-    *   You **CANNOT** move **DOWN** from a `FLOOR` tile onto a `FLOOR_UP_WALL` tile.
-    *   You **CANNOT** move **UP** from a `FLOOR_UP_WALL` tile into a `WALL` or other impassable tile.
+    *   `FLOOR_UP_WALL`: A complex one-way ledge. Can move **UP** from `FLOOR` to `FLOOR_UP_WALL`. Can move **DOWN** from `FLOOR_UP_WALL` to `FLOOR` (the jump). Cannot move **DOWN** from `FLOOR` to `FLOOR_UP_WALL`.
 *   **Special Requirement:**
     *   `CUT_TREE` (Requires HM01 Cut).
     *   `WATER` (Requires HM03 Surf).
@@ -30,7 +25,6 @@
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Traversable. Activated by pressing the corresponding direction while standing on the tile to trigger a warp.
     *   `WARP_CARPET_DOWN`: Traversable. Activated by pressing 'Down' while standing on the tile to trigger a warp.
-    *   `unknown` (Puzzle Trigger): In the Ruins of Alph puzzle chambers, standing on the tile at (3,3) and interacting with the object at (3,2) activates the puzzle interface.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -49,13 +43,7 @@
 *   **Route 37 Trainer Blockade:** Twins Ann & Anne disguised as trees block the path north at (6, 12) and (7, 12).
 *   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31).
 
-## III. Solved Puzzles & Completed Quests
-*This section is for major, multi-step puzzles that have been fully resolved.*
-
-## V. Area and Navigation Insights
-*   **Route 32 Pier:** The pier is divided into multiple sections by one-way ledges. The easternmost section (where Cooltrainer M is) is a one-way path heading south. It does not connect directly to the main pier area where the other fishers are.
-
-## IV. Strategic Plans
+## III. Strategic Plans & Hypotheses
 
 ### Primary Goal: Travel to Cianwood City to get the SecretPotion.
 1.  **Exit Union Cave.** The most direct route is via the ladder to 1F, then the exit to Route 32.
@@ -63,7 +51,12 @@
 3.  **Surf West.** From Olivine City, I will use SURF to travel west across Route 40 and Route 41 to reach Cianwood City.
 
 ### Secondary Goal: Defeat the Olivine City Gym Leader
-1.  This goal is blocked until the sick Ampharos is healed with the SecretPotion from Cianwood City.
+*   **Status:** Blocked. Requires healing the sick Ampharos in the Olivine Lighthouse with the SecretPotion from Cianwood City.
 
-### Tertiary Goal: Heal the Miltank
-1.  This goal is on hold as it requires backtracking for BERRIES, and the primary goal is more critical.
+### Tertiary Goal: Heal the Miltank on Route 39
+*   **Status:** On hold. Requires backtracking for BERRIES, and the primary goal is more critical.
+
+### Hypotheses & Verified Conclusions
+*   **Conclusion:** The southern and western water routes in Union Cave B2F are isolated dead ends. My `pathfinder` tool repeatedly failed to find a path, and manual exploration confirmed this. I must exit Union Cave via the main path to proceed.
+*   **Alternative Hypothesis:** There is a hidden switch or event I missed that connects the water routes in Union Cave B2F.
+*   **Test Plan:** If all other routes in the game are exhausted, I can return to systematically check every wall tile in the B2F water areas for hidden passages. This is a low-priority test for now.
