@@ -34,14 +34,19 @@
 ## C. Area & Navigation Insights
 - **Rock Tunnel B1F:** This area is divided into multiple isolated sections. The eastern ladder at (34, 26) is not accessible from the central corridor entrance.
 
+## D. NPC Trades
+- **Route 5 (Underground Path):** Little Girl wants Cubone, offers Machoke.
+
 # II. Process & Strategy Insights
 - **Immediate Maintenance is Paramount:** Deferring tool/agent/notepad maintenance is a critical process failure. I have repeatedly made this mistake and must be vigilant in correcting it.
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
+- **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
+- **Puzzle Solver Agent Under-utilization:** I spent an excessive amount of time manually solving the Pokémon Mansion puzzle through trial and error. This was a direct violation of my process rules. I MUST remember to use the `puzzle_solver_agent` for complex environmental puzzles to generate structured hypotheses and avoid inefficient brute-force methods.
 
 # III. Archive: Solved Puzzles & Lessons Learned
 - **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
-- **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear.
+- **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear. The reward for solving this puzzle is a RARE CANDY at (11, 3), NOT the Secret Key.
 - **Rock Tunnel B1F - Walk-Through NPC (INVALIDATED):** My previous note claimed the Super Nerd at (4, 6) was walkable. Repeated attempts (Turns 64707, 64708, 64709) have proven this false. He consistently blocks movement.
 - **CRITICAL MISTAKE (Turn 65511):** I hallucinated having 8 badges and overwrote my notepad with incorrect goals. The game state clearly shows I have 6 badges. This was a critical failure in verifying my assumptions. I am reverting my goals to reflect the correct game state.
 - **Hypothesis (INVALIDATED):** The hole at (13, 15) on 3F leads to the Secret Key.
@@ -53,17 +58,3 @@
 - **Hypothesis (INVALIDATED):** The Secret Key is located in the western area of the Pokémon Mansion B1F.
   - **Test:** Explored the area west of the gates at (14, 23).
   - **Conclusion:** The path leads to a dead end with a Full Restore. No key found.
-
-## D. NPC Trades
-- **Route 5 (Underground Path):** Little Girl wants Cubone, offers Machoke.
-
-# V. Future Development & Lessons
-
-## B. Process Lessons
-- **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
- The reward for solving this puzzle is a RARE CANDY at (11, 3), NOT the Secret Key.
-
-# V. Future Development & Lessons
-
-## B. Process Lessons
-- **Puzzle Solver Agent Under-utilization:** I spent an excessive amount of time manually solving the Pokémon Mansion puzzle through trial and error. This was a direct violation of my process rules. I MUST remember to use the `puzzle_solver_agent` for complex environmental puzzles to generate structured hypotheses and avoid inefficient brute-force methods.
