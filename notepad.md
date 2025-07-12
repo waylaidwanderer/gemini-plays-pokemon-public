@@ -38,14 +38,10 @@
 
 ### Cianwood Gym Puzzle
 *   **Confirmed Mechanic:** Movement on the side paths (x=1 and x=8) is the PRIMARY mechanism for changing the state of the gym (making trainers/boulders appear, disappear, or move).
-*   **Hypothesis 1 (Trainers - INVALIDATED):** Defeating trainers causes boulders to appear or disappear. This was invalidated as interacting with the trainers yielded no battle.
-*   **Hypothesis 2 (Statue Switches - INVALIDATED):** The statues at the gym entrance are switches. This was invalidated as interacting with both statues only displayed the gym name.
-*   **Hypothesis 3 (Agent Assistance - INVALIDATED):** The `gym_puzzle_advisor` agent, even after multiple refinements, has repeatedly suggested battling trainers who are not battle-ready or moving into walls. The agent is fundamentally unable to solve this dynamic puzzle. It will not be used for this gym.
-*   **Hypothesis 4 (Western Path - INVALIDATED):** The western side path (x=1) is a dead end. Full exploration yielded no path forward.
-*   **Current Working Hypothesis (Eastern Path):** The solution must involve exploring the eastern side path (x=8), which remains untouched.
+*   **Discovery:** Exploring the eastern path (x=8) to its northern end (8, 6) caused the boulders blocking the central path to disappear and a new Black Belt to appear at (5, 5), blocking the way to the Gym Leader.
+*   **Discovery:** The path to the new Black Belt at (5, 5) is blocked from the eastern side of the gym. This suggests the puzzle is non-linear and may require resetting.
+*   **Current Working Hypothesis:** After triggering the event on the eastern path, a new trigger has been enabled on the western path (x=1). The next step is to exit, re-enter the gym, and explore the western path to its northern end.
+*   **Alternative Hypothesis:** The puzzle may require interacting with the side-path trainers or statues in a specific order after a reset.
 
 ### Future Plans & Untested Theories
 *   **Tool Idea (`gym_state_tester`):** Create a tool that takes a sequence of moves as input and executes them, reporting back if any map objects appear, disappear, or move. This would automate testing the side paths.
-*   **Alternative Puzzle Hypothesis 1 (Step Count - INVALIDATED):** The puzzle is not based on total steps taken. Walking 50 steps at the entrance caused no changes.
-*   **Alternative Puzzle Hypothesis 2 (Facing Direction):** The trigger might depend on the direction the player is facing when stepping onto a specific trigger tile. **Test:** Step onto a known trigger tile like (1, 14) while facing different cardinal directions.
-*   **Alternative Puzzle Hypothesis 2 (Facing Direction - INVALIDATED):** The trigger does not depend on facing direction. Stepping on the trigger tile (1, 14) from below (facing up) and from the right (facing left) both produced the same outcome (Black Belt Nob appeared).
