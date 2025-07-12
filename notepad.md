@@ -30,7 +30,7 @@
 
 ### Current Quest: The Secret Medicine
 *   **Goal:** Find the special medicine in Cianwood City to cure the sick Ampharos in the Olivine Lighthouse.
-*   **Current Location:** I have discovered the Cianwood Pharmacy. My working hypothesis is that the Pharmacist inside will give me the medicine.
+*   **Current Location:** I have discovered the Cianwood Pharmacy. *   **FAILED Hypothesis:** The Pharmacist in Cianwood Pharmacy has the Secret Medicine. This was proven false; he just runs a regular shop.
 *   **Alternative Hypothesis:** The Pharmacist may require me to complete another task first, such as defeating the Cianwood Gym Leader.
 
 ### Cianwood Gym Puzzle (FAILED - ALL HYPOTHESES INVALIDATED)
