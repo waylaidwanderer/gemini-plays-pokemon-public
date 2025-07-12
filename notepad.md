@@ -44,22 +44,20 @@
 - **Hypothesis (INVALIDATED):** The Secret Key was on the S.S. Anne dock.
   - **Test:** Entered the S.S. Anne warp.
   - **Conclusion:** The ship departed. This was a one-time event and did not yield the key.
-- **Hypothesis:** The Secret Key is located somewhere in Diglett's Cave.
+- **Hypothesis (INVALIDATED):** The Secret Key is located somewhere in Diglett's Cave.
   - **Test:** Systematically explore Diglett's Cave using the Itemfinder.
+  - **Conclusion:** No key found.
 
-# IV. Goal Revisions & Strategic Shifts
-- **Badge Count Correction:** I previously believed I had all 8 badges. I have re-evaluated and confirmed I only have 6. My new primary goal is to obtain the Volcano and Earth badges. The immediate objective is to find the Secret Key for the Cinnabar Gym.
-
-# V. Archive: Solved Puzzles & Lessons Learned
+# IV. Archive: Solved Puzzles & Lessons Learned
 - **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
 - **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear.
 - **Pokémon Mansion 1F - Gate Puzzle (SOLVED):** A combination of a single switch and positional triggers control the gates.
 - **Rock Tunnel B1F - Walk-Through NPC (INVALIDATED):** My previous note claimed the Super Nerd at (4, 6) was walkable. Repeated attempts (Turns 64707, 64708, 64709) have proven this false. He consistently blocks movement.
 
-# VI. NPC Trades
+# V. NPC Trades
 - **Route 5 (Underground Path):** Little Girl wants Cubone, offers Machoke.
 
-# VII. Future Development & Lessons
+# VI. Future Development & Lessons
 
 ## A. Tool & Agent Ideas
 - **Battle Automator:** Create a tool or agent to automate simple, repetitive wild battles (e.g., 'if opponent is Diglett, switch to NEPTUNE, use ICE BEAM'). This would greatly increase exploration efficiency.
@@ -67,11 +65,10 @@
 ## B. Process Lessons
 - **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
 
-# VIII. Current Investigations
+# VII. Current Investigations
 ## A. Route 12 - Snorlax
 - **Objective:** Wake the Snorlax blocking the path south on Route 12.
-- **Hypothesis:** The POKé FLUTE is required to wake the Snorlax.
-- **New Hypothesis:** Waking the Snorlax may be a prerequisite for finding the Secret Key, possibly by unlocking a new area or NPC dialogue.
+- **Hypothesis:** The POKé FLUTE is required to wake the Snorlax. This is a potential path to explore if the main quest is blocked.
 - **Hypothesis (Route 12 Fisherman):** The Fisherman at (15, 32) is a standard trainer battle.
   - **Test:** Interact with the Fisherman using the 'A' button.
   - **Conclusion (INVALIDATED):** Multiple presses of 'A' and 'B' did not initiate a battle or advance dialogue. I was able to move away freely. This is not a standard battle encounter.
