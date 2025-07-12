@@ -48,9 +48,12 @@
 - **Hypothesis (INVALIDATED):** The Secret Key is a hidden item on Pokémon Mansion 2F.
   - **Test:** Used Itemfinder at (4, 22) near the diary.
   - **Conclusion:** Itemfinder did not respond. No hidden item found.
-- **Hypothesis (INVALIDATED):** All hypotheses related to finding a hidden item on 3F by direct interaction at/near (6, 13) have failed after multiple tests. The Itemfinder confirmed an item is nearby, but it is not obtainable through simple interaction.
-- **Hypothesis (ACTIVE):** The Scientist's hint ('Try jumping off!') is the key. The hidden item is in an area only accessible by falling through a specific hole on 3F.
-  - **Test:** Systematically explore the areas below each hole on the 3rd floor.
+- **Hypothesis (INVALIDATED):** The switch at (19, 26) is related to the hidden item on 3F.
+  - **Test:** Pressed the switch at (19, 26).
+  - **Conclusion:** The switch opened the western gates on B1F at (14, 23) and (14, 24), revealing a new path. It does not appear to be related to 3F.
+
+- **Hypothesis (ACTIVE):** The Secret Key is located in the newly discovered western area of the Pokémon Mansion B1F.
+  - **Test:** Explore the area west of the gates at (14, 23).
   - **Conclusion:** In progress.
 
 # IV. Archive: Solved Puzzles & Lessons Learned
