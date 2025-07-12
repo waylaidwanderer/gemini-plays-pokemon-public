@@ -25,11 +25,6 @@
     *   `WARP_CARPET_DOWN`: Traversable. Activated by pressing 'Down' while standing on the tile to trigger a warp.
     *   `WARP_CARPET_LEFT`: Traversable. Activated by pressing 'Left' while standing on the tile to trigger a warp.
 
-### Untested Tile Types & Plans
-*   `WINDOW` (Tested & Impassable): These tiles are inaccessible behind walls.
-*   `BUOY` (Untested): These appear in the water south of Olivine City.
-    *   **Movement Test Plan:** Attempt to SURF onto a `BUOY` tile.
-
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
 *   **Haircuts:** Increases a Pokémon's happiness.
@@ -38,12 +33,13 @@
 
 ### Current Quest: The Sick Ampharos
 *   **Goal:** Find the special medicine to cure the sick Ampharos in the Olivine Lighthouse.
-*   **Verified Conclusion:** The way forward is not currently in the Lighthouse. I have exhausted all paths on 2F. The dialogue from the Gentleman NPC about needing 'ordinary medicine' not working strongly implies I must find a special cure elsewhere.
-*   **Hypothesis 1:** The special medicine is located in a different town or route. I will need to travel to find it.
-*   **Conclusion:** The sailor on the pier had no new information about the special medicine.
-*   **New Hypothesis:** The special medicine is located in a different town across the sea to the west, accessible via SURF.
+*   **Current Hypothesis:** The special medicine is located in a new town across the sea to the west of Olivine, accessible via SURF.
+*   **Alternative Hypothesis 1:** The medicine is in a location I've already visited, but is now accessible because of a story trigger I've completed. I should check with key NPCs in Ecruteak and Goldenrod.
+*   **Alternative Hypothesis 2:** The medicine is not an item, but a person I need to talk to in an area I haven't fully explored, like southern Route 39.
 
-### General Hypotheses & Verified Conclusions
-*   **Conclusion:** The southern and western water routes in Union Cave B2F are isolated dead ends.
-*   **Conclusion:** The southwestern part of Union Cave 1F is a dead end due to one-way ledges.
-*   **Hypothesis (UNTESTED):** `HEADBUTT_TREE`s might be passable by using the move 'Headbutt' from the Pokémon party menu while facing the tree. Test requires a Pokémon with the move Headbutt.
+### Verified Conclusions
+*   The way forward is not currently in the Olivine Lighthouse. I have exhausted all paths.
+*   The sailor on the pier in Olivine City has no new information about the special medicine.
+*   The southern and western water routes in Union Cave B2F are isolated dead ends.
+*   The southwestern part of Union Cave 1F is a dead end due to one-way ledges.
+*   `HEADBUTT_TREE`s might be passable by using the move 'Headbutt'. (Requires testing).
