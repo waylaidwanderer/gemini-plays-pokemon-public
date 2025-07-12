@@ -62,3 +62,11 @@
 *   **Immediate Data Management:** All data management tasks MUST be performed in the same turn they are identified. Deferring these tasks is a critical process failure.
 *   **Hypothesis Testing:** When stuck, I must systematically test alternative hypotheses instead of getting locked into one approach. I will document these tests and their outcomes in my notepad.
 *   **Tool Refinement:** Faulty tools must be refined immediately. This is a higher priority than any gameplay action.
+
+### Aerodactyl Puzzle - Attempt 2
+*   **Failed Hypothesis:** The puzzle is not solved by placing pieces in numerical order from 1 to 16. The game did not register the puzzle as complete after all pieces were placed this way.
+*   **New Hypothesis:** The puzzle must be solved by arranging the pieces to form the correct image of Aerodactyl. The numerical order is a red herring.
+*   **New Plan:**
+    1.  Exit the puzzle interface.
+    2.  Interact with the description sign at (4,2) to find clues about the correct image arrangement.
+    3.  Re-enter the puzzle and attempt to solve it manually based on the visual pattern.
