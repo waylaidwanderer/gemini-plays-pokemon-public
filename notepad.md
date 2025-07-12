@@ -71,3 +71,7 @@
     2. Analyze the solved image to determine the correct (x,y) coordinates for each of the 16 pieces.
     3. Update the `puzzle_solver_step` tool with a new `target_grid` based on the visual solution.
     4. Re-enter the puzzle and use the updated tool to solve it.
+
+### Aerodactyl Puzzle Solved!
+*   **Success:** The visual-based puzzle solving worked! After placing the last piece, I was warped to a new secret room: Ruins of Alph Inner Chamber.
+*   **New Objective:** Explore this new chamber to see where it leads.
