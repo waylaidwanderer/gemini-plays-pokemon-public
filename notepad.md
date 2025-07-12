@@ -45,6 +45,8 @@
 *   **WHIRLPOOL Mechanics:** My rival mentioned the Whirl Islands are blocked by whirlpools. I need to test a `WHIRLPOOL` tile to see if it requires a specific HM. I will use my `pathfinder` to navigate to an adjacent tile and then interact with it.
 
 ### Cianwood Gym Puzzle
-*   **Hypothesis:** Defeating trainers causes boulders to appear or disappear, changing the gym layout.
-*   **Observation 1 (Invalidated):** My previous note claimed defeating Blackbelt Yoshi (ID 2) and Blackbelt Lao (ID 3) removed the boulders. This is incorrect. Interacting with both trainers only yields dialogue, no battle, and the boulders remain.
-*   **Current Hypothesis:** The statues at the gym entrance (3,15) and (6,15) might be switches that control the boulders. I need to test this by interacting with them.
+### Cianwood Gym Puzzle
+*   **Hypothesis 1 (Trainers):** Defeating trainers causes boulders to appear or disappear, changing the gym layout. This was invalidated as interacting with the trainers yielded no battle.
+*   **Hypothesis 2 (Statue Switches):** The statues at the gym entrance might be switches.
+    *   **Test 1 (Left Statue @ 3,15):** Interacting with the statue only displayed the gym name. This hypothesis is INVALID for the left statue.
+    *   **Next Step:** Test the statue at (6, 15).
