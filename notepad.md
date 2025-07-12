@@ -52,7 +52,8 @@
 *   **Omanyte Puzzle:** Solved by manually assembling the image.
 *   **Aerodactyl Puzzle:**
     *   **Hypothesis (H1 - Disproven):** The puzzle is not solved by visually assembling the image.
-    *   **Hypothesis (H2 - Active):** The solution is a magic square logic puzzle. The `puzzle_solver` agent provided the correct arrangement: `[[15, 1, 8, 10], [4, 5, 11, 14], [9, 7, 2, 16], [6, 12, 3, 13]]`. I am currently arranging the pieces according to this solution.
+    *   **Hypothesis (H2 - Disproven):** The solution is a magic square logic puzzle. The `puzzle_solver` agent provided an incorrect arrangement. This hypothesis has been tested and failed.
+*   **Hypothesis (H3 - Active):** The puzzle must be solved by visually assembling the image of Aerodactyl. I will now attempt this.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
