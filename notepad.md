@@ -76,3 +76,5 @@
 *   **Hypothesis 5:** Interacting with the statue at (8, 8) will unlock the exit. **Result: PENDING (Interrupted by wild encounters).**
 *   **Hypothesis 6:** Interacting with a closer statue, such as the one at (2, 18), will unlock the exit. This minimizes the risk of interruption. **Result: PENDING.**
 *   **Hypothesis 6:** Interacting with a closer statue, such as the one at (2, 18), will unlock the exit. This minimizes the risk of interruption. **Result: FAILED (Interaction produced flavor text only).**
+*   **Hypothesis 7:** Interacting with the southern wall inscription at (8, 20) will unlock the exit. **Result: FAILED (Interaction produced no text or event).**
+*   **Hypothesis 8:** The Unown inscription 'LIGHT' is a clue. Using the move FLASH in this chamber will unlock the exit. **Result: PENDING.**
