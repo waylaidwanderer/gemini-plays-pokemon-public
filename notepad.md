@@ -51,7 +51,7 @@
 *   **Ho-Oh Puzzle:** Solved by manually assembling the image.
 *   **Omanyte Puzzle:** Solved by manually assembling the image.
 *   **Aerodactyl Puzzle:**
-    *   **Failed Hypothesis (H1 - Agent Error):** The puzzle is a magic square. My `puzzle_solver` agent provided a logical solution that was tested and proven incorrect. The agent has now been refined to be more cautious.
+    *   **Failed Hypothesis (H1 - Incorrect Logic):** The puzzle is a magic square. This was tested and proven incorrect.
     *   **Current Hypothesis (H2):** The puzzle must be solved by visually assembling the image of Aerodactyl. I am currently clearing the board to attempt this.
     *   **Alternative Hypothesis (H3):** The puzzle is optional. If H2 fails, I will leave and attempt to progress my main goals. I will only return if progression is blocked and an NPC directs me here.
     *   **Alternative Hypothesis (H4):** The puzzle is unsolvable with the current pieces. If H2 fails, I will search the rest of the Ruins of Alph for clues or missing components.
