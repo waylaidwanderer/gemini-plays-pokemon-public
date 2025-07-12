@@ -40,7 +40,8 @@
 
 # III. Active Hypotheses & Tests
 - **Hypothesis (ACTIVE):** The Secret Key is a hidden item somewhere in the basement (B1F).
-  - **Test:** Systematically use the Itemfinder on every tile of B1F.
+  - **Test Plan:** Systematically use the Itemfinder on every reachable tile of the southern area of B1F.
+    - **Attempt 1 at (19, 27):** FAILED. Itemfinder did not respond.
   - **Rationale:** I have exhausted all visible paths and interactive objects. A hidden item is the most likely remaining possibility.
 
 # IV. Archive: Solved Puzzles & Lessons Learned
