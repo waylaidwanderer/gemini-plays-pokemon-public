@@ -13,19 +13,19 @@
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile), `PIT` (Acts as a warp when stepped on).
 *   **One-Way Ledges:**
-    *   `LEDGE_HOP_DOWN`: A one-way ledge that can only be hopped **DOWN**. Attempting to move up against it fails.
+    *   `LEDGE_HOP_DOWN`: A one-way ledge that can only be hopped **DOWN**.
     *   `LEDGE_HOP_DOWN/RIGHT`: A one-way ledge that can only be hopped in the specified direction.
     *   `LEDGE_HOP_LEFT`: A one-way ledge that can only be hopped **LEFT**.
-    *   `FLOOR_UP_WALL`: A complex one-way ledge. You can move onto it from a tile below it, move horizontally between adjacent `FLOOR_UP_WALL` tiles, and move down *off* of it to a tile below. You cannot move up from this tile or down onto it from a standard `FLOOR` or `LADDER` tile.
+    *   `FLOOR_UP_WALL`: A complex one-way ledge. You can move onto it from a tile below it, move horizontally between adjacent `FLOOR_UP_WALL` tiles, and move down *off* of it to a tile below. You cannot move up from this tile or down onto it.
 *   **Special Requirement:**
-    *   `CUT_TREE` (Requires HM01 Cut. These trees can respawn after being cut).
-    *   `WATER` (Requires HM03 Surf. To initiate, face the water and press 'A').
+    *   `CUT_TREE` (Requires HM01 Cut).
+    *   `WATER` (Requires HM03 Surf).
     *   `BREAKABLE_ROCK` (Requires Rock Smash).
-    *   `HEADBUTT_TREE` (Requires the move Headbutt. Confirmed that interacting without the move does nothing).
+    *   `HEADBUTT_TREE` (Requires the move Headbutt).
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Traversable. Activated by pressing the corresponding direction while standing on the tile to trigger a warp.
     *   `WARP_CARPET_DOWN`: Traversable. Activated by pressing 'Down' while standing on the tile to trigger a warp.
-    *   `unknown` (Puzzle Trigger): In the Ruins of Alph puzzle chambers (Ho-Oh, Omanyte, Aerodactyl), standing on the tile at (3,3) and facing up to interact with the object at (3,2) activates the puzzle interface. In other locations, such as RuinsOfAlphOutside at (2,18), it functions as a standard traversable floor tile.
+    *   `unknown` (Puzzle Trigger): In the Ruins of Alph puzzle chambers, standing on the tile at (3,3) and interacting with the object at (3,2) activates the puzzle interface.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -41,8 +41,8 @@
 *   **Haircuts:** Increases a Pokémon's happiness.
 
 ## II. Blocked Paths & Story Gates
-*   **Route 37 Trainer Blockade:** Twins Ann & Anne disguised as trees block the path north at (6, 12) and (7, 12). This path is story-locked.
-*   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31). This path is story-locked.
+*   **Route 37 Trainer Blockade:** Twins Ann & Anne disguised as trees block the path north at (6, 12) and (7, 12).
+*   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31).
 
 ## III. Puzzles & Hypotheses
 
@@ -51,13 +51,15 @@
 *   **Ho-Oh Puzzle:** Solved by manually assembling the image.
 *   **Omanyte Puzzle:** Solved by manually assembling the image.
 *   **Aerodactyl Puzzle:**
-    *   **Hypothesis (H1 - Disproven):** The puzzle is not solved by visually assembling the image.
-    *   **Hypothesis (H2 - Disproven):** The solution is a magic square logic puzzle. The `puzzle_solver` agent provided an incorrect arrangement. This hypothesis has been tested and failed.
-*   **Hypothesis (H3 - Active):** The puzzle must be solved by visually assembling the image of Aerodactyl. I will now attempt this.
+    *   **Failed Hypothesis (H1 - Agent Error):** The puzzle is a magic square. My `puzzle_solver` agent provided a logical solution that was tested and proven incorrect. The agent has now been refined to be more cautious.
+    *   **Current Hypothesis (H2):** The puzzle must be solved by visually assembling the image of Aerodactyl. I am currently clearing the board to attempt this.
+    *   **Alternative Hypothesis (H3):** The puzzle is optional. If H2 fails, I will leave and attempt to progress my main goals. I will only return if progression is blocked and an NPC directs me here.
+    *   **Alternative Hypothesis (H4):** The puzzle is unsolvable with the current pieces. If H2 fails, I will search the rest of the Ruins of Alph for clues or missing components.
 
 ### Goldenrod Dept. Store Basement Puzzle
-*   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
+*   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position.
 
 ## IV. Process Improvement & Future Plans
-*   **Immediate Data Management:** All data management tasks (notepad edits, marker placement, tool/agent definition) MUST be performed in the same turn they are identified. Deferring these tasks is a critical process failure.
+*   **Immediate Data Management:** All data management tasks MUST be performed in the same turn they are identified. Deferring these tasks is a critical process failure.
 *   **Hypothesis Testing:** When stuck, I must systematically test alternative hypotheses instead of getting locked into one approach. I will document these tests and their outcomes in my notepad.
+*   **Tool Idea:** For future tile-based placement puzzles, I should create a `puzzle_move_planner` tool that takes a start and end grid state and generates the optimal sequence of moves.
