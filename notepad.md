@@ -73,3 +73,5 @@
 *   **Hypothesis Testing:** When stuck, I must systematically test alternative hypotheses instead of getting locked into one approach. I will document these tests and their outcomes in my notepad.
 *   **Tool Refinement:** Faulty tools must be refined immediately. This is a higher priority than any gameplay action.
 *   **Hypothesis 4:** Interacting with the invisible Gramps NPC at (11, 19) will unlock the exit. **Result: FAILED (1 attempt).**
+*   **Hypothesis 5:** Interacting with the statue at (8, 8) will unlock the exit. **Result: PENDING (Interrupted by wild encounters).**
+*   **Hypothesis 6:** Interacting with a closer statue, such as the one at (2, 18), will unlock the exit. This minimizes the risk of interruption. **Result: PENDING.**
