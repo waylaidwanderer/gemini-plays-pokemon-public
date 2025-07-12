@@ -69,23 +69,10 @@
 
 # IV. Current Objective: Find the Secret Key
 
-## A. Current Hypothesis: The Secret Key is in the Pokémon Mansion
-- **Reasoning:** I have discovered a complex puzzle involving switches and positional triggers that open and close gates, preventing simple exploration. The key is likely hidden behind one of these puzzles.
-- **Plan:**
-  1. Systematically test all switches and triggers on each floor.
-  2. Map the connections between the isolated sections of the mansion.
-  3. Use the holes to access otherwise unreachable areas on lower floors.
-- **Hypothesis (INVALIDATED):** The Super Nerd at (7, 12) on Pokemon Mansion 3F is walkable.
-  - **Test:** Attempted pathfinding while ignoring the NPC.
-  - **Conclusion:** Pathfinding failed, and system confirmed the destination was unreachable. The NPC is an impassable obstacle.
-- **Hypothesis (INVALIDATED):** Stepping on the positional trigger at (11, 4) on Pokemon Mansion 3F will open the northern gates at (16, 5) and (16, 6).
-  - **Test:** Navigated to (11, 4) and stepped on the tile.
-  - **Conclusion:** The gates at (16, 5) and (16, 6) remained closed. This trigger does not affect these gates.
-- **Hypothesis (INVALIDATED):** Stepping on the positional trigger at (11, 4) on Pokemon Mansion 3F will open the northern gates at (16, 5) and (16, 6).
-  - **Test:** Navigated to (11, 4) and stepped on the tile.
-  - **Conclusion:** The gates at (16, 5) and (16, 6) remained closed. This trigger does not affect these gates.
-- **Situation:** I am in an isolated eastern section of Pokémon Mansion 1F. My attempts to progress south have resulted in a repetitive and unproductive battle loop. The system has highlighted reachable `gate_offscreen` tiles at (25, 14) and (26, 14) to the north.
+- **Situation:** I am in an isolated eastern section of Pokémon Mansion 1F. My attempts to explore have been repeatedly blocked by either impassable terrain or loops of wild encounters.
+- **Confirmed Facts:**
+    - The northern gates at (25, 14) and (26, 14) are **unreachable** from my current position, as confirmed by a system warning. This area is isolated.
+    - The southern warp at (27, 28) is my only viable path forward besides backtracking the way I came.
 - **Current Plan:**
-  1.  **Strategic Pivot:** I am abandoning the southern path to break the battle loop.
-  2.  **Investigate Northern Gates:** I will navigate to the northern gates at (25, 14) and (26, 14) to see if they provide a path forward.
-  3.  **Hypothesis:** The northern gates are the intended path forward and will lead me to a new section of the mansion, and hopefully, the Secret Key.
+    1.  **Commit to Southern Path:** I will stop attempting to reach the northern gates from this area.
+    2.  **Navigate to Warp:** I will navigate to the southern warp at (27, 28) and brave the high encounter rate, as it is my only remaining option for progression in this section.
