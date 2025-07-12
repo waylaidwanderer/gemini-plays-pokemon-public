@@ -65,9 +65,6 @@
   - **Test:** Systematically explore Diglett's Cave using the Itemfinder.
   - **Conclusion:** No key found.
 
-- **Hypothesis (INVALIDATED):** The switch at (19, 26) on B1F is related to a hidden item on 3F.
-  - **Test:** Pressed the switch at (19, 26).
-  - **Conclusion:** The switch opened the western gates on B1F at (14, 23) and (14, 24), revealing a new path. It does not appear to be related to 3F.
 - **Hypothesis (INVALIDATED):** The Secret Key is located in the western area of the Pokémon Mansion B1F.
   - **Test:** Explored the area west of the gates at (14, 23).
   - **Conclusion:** The path leads to a dead end with a Full Restore. No key found.
