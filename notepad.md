@@ -51,19 +51,7 @@
 *   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31).
 
 ## IV. Solved Puzzles & Completed Quests
+*This section is for major, multi-step puzzles that have been fully resolved.*
 
-### Ruins of Alph Sliding Puzzles
-*   **General Mechanics:** These are 16-piece picture puzzles on a 6x6 grid. The goal is to assemble the image in the central 4x4 area.
-*   **Ho-Oh Puzzle:** Solved.
-*   **Omanyte Puzzle:** Solved.
-*   **Aerodactyl Puzzle:** Solved. The key was to interact with the sign at (4,2) to see the target image, then arrange the pieces visually, not numerically.
-
-### Goldenrod Dept. Store Basement Puzzle
-*   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position.
-
-## V. Puzzle Hypotheses & Logs
-
-## VI. Process Improvement & Future Plans
-*   **Immediate Data Management:** All data management tasks MUST be performed in the same turn they are identified.
-*   **Hypothesis Testing:** When stuck, I must systematically test alternative hypotheses instead of getting locked into one approach. I will document these tests and their outcomes in my notepad.
-*   **Tool Refinement:** Faulty tools must be refined immediately. This is a higher priority than any gameplay action.
+## V. Agent & Tool Ideas
+*   **`route_planner` agent:** An agent that can break down long, multi-map journeys into a sequence of smaller, more manageable navigation goals (e.g., intermediate towns or landmarks). This would help avoid `pathfinder` failures on complex routes.
