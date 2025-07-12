@@ -74,3 +74,4 @@
 *   **Immediate Data Management:** All data management tasks (notepad edits, marker placement, tool/agent definition) MUST be performed in the same turn they are identified. Deferring these tasks is a critical process failure.
 *   **Hypothesis Testing:** When stuck, I must systematically test alternative hypotheses instead of getting locked into one approach. I will document these tests and their outcomes in my notepad.
 *   **Future Agent Development:** The visual nature of the Ruins of Alph puzzles makes them a prime candidate for an AI-powered `puzzle_solver` agent. I will define this agent at the next opportunity outside of a critical task.
+*   **Future Agent Development:** The visual nature of the Ruins of Alph puzzles makes them a prime candidate for an AI-powered `puzzle_solver` agent. I will define this agent at the next opportunity outside of a critical task.
