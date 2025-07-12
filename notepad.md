@@ -36,12 +36,8 @@
 *   **Current Hypothesis:** The medicine will be given to me after defeating the Cianwood City Gym Leader. This is the most common method of story progression in Pokémon games.
 *   **Alternative Hypothesis:** The medicine is held by an NPC I haven't spoken to yet, or is hidden behind a boulder that requires ROCK SMASH.
 
-### Cianwood Gym Puzzle
-*   **Confirmed Mechanic:** Movement on the side paths (x=1 and x=8) is the PRIMARY mechanism for changing the state of the gym (making trainers/boulders appear, disappear, or move).
-*   **Discovery:** Exploring the eastern path (x=8) to its northern end (8, 6) caused the boulders blocking the central path to disappear and a new Black Belt to appear at (5, 5), blocking the way to the Gym Leader.
-*   **Discovery:** The path to the new Black Belt at (5, 5) is blocked from the eastern side of the gym. This suggests the puzzle is non-linear and may require resetting.
-*   **Current Working Hypothesis:** After triggering the event on the eastern path, a new trigger has been enabled on the western path (x=1). The next step is to exit, re-enter the gym, and explore the western path to its northern end.
-*   **Alternative Hypothesis:** The puzzle may require interacting with the side-path trainers or statues in a specific order after a reset.
+### Cianwood Gym Puzzle (SOLVED)
+*   **Solution:** The puzzle requires a two-step process. First, walk to the northernmost tile of the eastern path (8, 6). This causes the boulders blocking the central path to disappear and a new Black Belt to appear at (5, 5), creating an impassable state. Second, exit the gym and re-enter. This resets the player's position to the entrance but keeps the boulders gone, clearing the path directly to the Gym Leader.
 
 ### Future Plans & Untested Theories
 *   **Existing Tool (`gym_state_tester`):** A tool that takes a sequence of moves as input and executes them. This can be used to automate testing the side paths.
