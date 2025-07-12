@@ -57,26 +57,20 @@
 
 ## V. Puzzles & Hypotheses
 
-### Ruins of Alph
-*   **Ho-Oh Puzzle:** A 16-piece puzzle on a 6x6 grid. Goal is to assemble Ho-Oh in the central 4x4 area. Must be solved manually.
+### Ruins of Alph Sliding Puzzles
+*   **General Mechanics:** These are 16-piece picture puzzles on a 6x6 grid. The goal is to assemble the image in the central 4x4 area. Pieces are picked up and placed, not slid.
+*   **Ho-Oh Puzzle:** Solved by manually assembling the image.
+*   **Omanyte Puzzle:** Solved by manually assembling the image.
 *   **Aerodactyl Puzzle:**
-    *   **Observed Mechanics:**
-        *   The puzzle grid seems to have a hard border. The cursor does **not** wrap around.
-        *   Movement from any tile in row 4 to any tile in row 5 is blocked. Confirmed by failing to move from (2,4) to (2,5) and (3,4) to (3,5).
-        *   Movement from column 0 to the left is blocked. Confirmed by failing to move from (0,4) to the left.
-    *   **Hypothesis 1:** The puzzle is solved by visually assembling the image of Aerodactyl. This is my current working theory.
-    *   **Hypothesis 2 (Alternative):** The puzzle logic might involve matching patterns on the edges of the pieces, not just the overall image.
-    *   **Hypothesis 3 (Alternative):** The puzzle could be optional, providing flavor or unlocking minor content (like more Unown forms) but not being required for main story progression.
-    *   **Hypothesis 4 (Alternative):** The solution may not be a single contiguous image, but some other arrangement of pieces.
-    *   **Exit Strategy:** If I fail to solve this puzzle after ~20-30 more turns, I will test the hypothesis that these puzzles are optional. I will leave the chamber and re-explore Ruins of Alph Outside for an alternative path forward.
+    *   **Current Hypothesis (H1):** The puzzle is solved by visually assembling the image of Aerodactyl. This is my active strategy.
+    *   **Alternative Hypothesis (H2):** The puzzle is optional and not required for story progression.
+        *   **Test:** If H1 fails after a reasonable number of attempts (~10-15 more moves), I will exit the chamber and search for another path in `RuinsOfAlphOutside`.
+    *   **Alternative Hypothesis (H3):** The solution involves a non-visual logic, like matching edge patterns or a specific sequence. This is a lower priority to test.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
 
-## VI. Critical Lessons & Process Improvement
-*   **The Ruins of Alph Failure (Turns 34777-34873):** I wasted over 100 turns due to a cascade of process failures:
-    1.  **Confirmation Bias:** I incorrectly concluded I was trapped and that my `pathfinder` tool *must* be broken. I spent dozens of turns in a futile debugging loop instead of questioning my initial premise.
-    2.  **Violation of Simple-First Principle:** I failed to test the most obvious, simple hypothesis—jumping the southern ledge—and instead pursued complex, incorrect solutions (DIG, Escape Rope, tool modification).
-    3.  **Violation of Immediate Action:** I deferred tool fixes and notepad updates, which is an invalid strategy. All new information and necessary fixes must be handled in the same turn they are identified.
-*   **Tool Maintenance Protocol:** When a tool fails, first verify user input. If the input is correct, perform a simple diagnostic test (e.g., pathing one tile). If that fails, then begin systematic debugging. Do not get stuck in a debugging loop; if a fix isn't apparent, abandon the tool and try a manual approach.
-*   **Reflection (Turn 35186):** I've been stuck on this puzzle for a significant number of turns. My primary hypothesis (visual assembly) has not yet yielded a solution. I must be more flexible. If I do not solve this puzzle within the next ~10-15 moves, I will abandon it and test the hypothesis that it is optional by leaving the chamber and returning to my primary goal of reaching Goldenrod City.
+## VI. Process Improvement & Future Plans
+*   **Immediate Data Management:** All data management tasks (notepad edits, marker placement, tool/agent definition) MUST be performed in the same turn they are identified. Deferring these tasks is a critical process failure.
+*   **Hypothesis Testing:** When stuck, I must systematically test alternative hypotheses instead of getting locked into one approach. I will document these tests and their outcomes in my notepad.
+*   **Future Agent Development:** The visual nature of the Ruins of Alph puzzles makes them a prime candidate for an AI-powered `puzzle_solver` agent. I will define this agent at the next opportunity outside of a critical task.
