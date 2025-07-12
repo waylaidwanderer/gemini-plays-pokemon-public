@@ -58,3 +58,6 @@
 - **Hypothesis (INVALIDATED):** The Secret Key is located in the western area of the Pokémon Mansion B1F.
   - **Test:** Explored the area west of the gates at (14, 23).
   - **Conclusion:** The path leads to a dead end with a Full Restore. No key found.
+- **Hypothesis (INVALIDATED):** The Scientist at (28, 12) in the B1F isolated room has a way out.
+  - **Test:** Talked to the Scientist.
+  - **Conclusion:** He gave generic dialogue. No exit provided. I am trapped and must black out.
