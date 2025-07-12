@@ -39,9 +39,14 @@
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 # III. Active Hypotheses & Tests
-- **Hypothesis (ACTIVE):** The newly opened western path in the basement leads to the Secret Key.
-  - **Test:** Explore the western corridor.
-  - **Rationale:** Flipping the switch at (19, 26) opened this path, which was previously inaccessible. It is the only new route available.
+- **Hypothesis (ACTIVE):** The Secret Key is a hidden item somewhere in the basement (B1F).
+  - **Test:** Systematically use the Itemfinder on every tile of B1F.
+  - **Rationale:** I have exhausted all visible paths and interactive objects. A hidden item is the most likely remaining possibility.
+
+# IV. Archive: Solved Puzzles & Lessons Learned
+- **Hypothesis (INVALIDATED):** The newly opened western path in the basement leads to the Secret Key.
+  - **Test:** Explored the area west of the gates at (14, 23).
+  - **Conclusion:** The path leads to a dead end with a Full Restore. No key found.
 
 # IV. Archive: Solved Puzzles & Lessons Learned
 - **Hypothesis (INVALIDATED):** The switch on B1F at (19, 26) affects gates on other floors.
