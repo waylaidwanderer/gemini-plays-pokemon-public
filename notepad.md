@@ -43,9 +43,6 @@
 - **Active Hypothesis:** I need to find the correct X-coordinate to stand on when I trigger the reset, which will move the Super Nerd to a position that unblocks the path at (2, 12).
 - **Test Plan:** Systematically test reset positions by moving along row 12, stepping up to row 11 to trigger the reset, and documenting the Super Nerd's new position each time.
 
-# III. Future Development Ideas
-- **`puzzle_solver_tool`:** Create a computational tool that can analyze NPC movement patterns based on player input logs to solve herding or path-blocking puzzles more efficiently.
-
 # IV. Archive: Solved Puzzles & Invalidated Hypotheses
 - **Moving Super Nerd Puzzle - Hypothesis (INVALIDATED):** I can solve the puzzle by herding the Super Nerd into the eastern corner. (Test: Attempted to move west. Conclusion: Blocked by impassable walls at (3,12) and (4,12), which I initially mistook for invisible walls.)
 
