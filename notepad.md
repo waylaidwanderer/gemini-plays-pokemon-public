@@ -40,3 +40,4 @@
 *   The Olivine Lighthouse has no further upward paths. It is a dead end for now.
 *   The sea route directly south of the Olivine City pier is blocked by buoys.
 *   `HEADBUTT_TREE`s might be passable by using the move 'Headbutt'. (Requires testing).
+*   **Untested:** `WHIRLPOOL` (Requires testing).
