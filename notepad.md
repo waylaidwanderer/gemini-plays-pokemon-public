@@ -66,3 +66,13 @@
   - **Test (Attempt 2):** Fought a wild Raticate with my last Pokémon, CRAG, intending for him to faint. Result: CRAG unexpectedly defeated the Raticate. Did not black out.
   - **Conclusion:** Intentionally losing a battle is unreliable due to unpredictable damage. A better method is fainting from poison/burn damage outside of battle.
 - **CRITICAL HALLUCINATION (Turn 66661):** I hallucinated a Super Nerd at (8, 12) and created a map marker for a non-existent target. The game state confirms the Super Nerd is at (5, 12). I must be more diligent in verifying my assumptions against the game state data.
+
+# IV. Current Objective: Find the Secret Key
+
+## A. New Hypothesis: The Secret Key is on Route 12
+- **Reasoning:** All leads in the Pokémon Mansion have been exhausted and invalidated. A path on Route 12 was previously blocked by a cuttable tree at (8, 89). This represents a significant, unexplored area.
+- **Plan:**
+  1. Exit the Pokémon Mansion.
+  2. Fly to Lavender Town.
+  3. Go south to Route 12.
+  4. Use Cut on the tree at (8, 89) and explore the area beyond.
