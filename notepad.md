@@ -40,7 +40,7 @@
 *   **Goal:** Ascend the lighthouse to find the sick Ampharos.
 *   **Failed Hypothesis:** The warps at (16, 11) and (17, 11) are not activated by movement or interaction. They are not the immediate path forward.
 *   **Failed Hypothesis:** The WINDOW tiles are inaccessible behind walls and cannot be interacted with.
-*   **New Hypothesis:** The disappearance of Gentleman Alfred after his defeat may have triggered a change on this floor. I will return to his last known location around (17, 8) to investigate.
+*   **Failed Hypothesis:** The disappearance of Gentleman Alfred was a hallucination; he is still present. No new paths have opened. I am out of leads on this floor.
 
 ### General Hypotheses & Verified Conclusions
 *   **Conclusion:** The pits on Olivine Lighthouse 2F are one-way warps to the first floor.
