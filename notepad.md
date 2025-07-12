@@ -47,6 +47,8 @@
 ### Cianwood Gym Puzzle
 ### Cianwood Gym Puzzle
 *   **Hypothesis 1 (Trainers):** Defeating trainers causes boulders to appear or disappear, changing the gym layout. This was invalidated as interacting with the trainers yielded no battle.
-*   **Hypothesis 2 (Statue Switches):** The statues at the gym entrance might be switches.
-    *   **Test 1 (Left Statue @ 3,15):** Interacting with the statue only displayed the gym name. This hypothesis is INVALID for the left statue.
-    *   **Next Step:** Test the statue at (6, 15).
+*   **Hypothesis 2 (Statue Switches - INVALIDATED):** The statues at the gym entrance might be switches.
+    *   **Test 1 (Left Statue @ 3,15):** Interacting with the statue only displayed the gym name.
+    *   **Test 2 (Right Statue @ 6,15):** Interacting with the statue also only displayed the gym name.
+    *   **Conclusion:** The statues are not switches. This hypothesis is fully invalid.
+*   **New Hypothesis (Side Paths):** The solution to the puzzle may involve exploring the side paths of the gym that I have not yet fully traversed. I will start by exploring the leftmost path.
