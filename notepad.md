@@ -16,7 +16,12 @@
     *   `LEDGE_HOP_DOWN`: A one-way ledge that can only be hopped **DOWN**.
     *   `LEDGE_HOP_DOWN/RIGHT`: A one-way ledge that can only be hopped in the specified direction.
     *   `LEDGE_HOP_LEFT`: A one-way ledge that can only be hopped **LEFT**.
-    *   `FLOOR_UP_WALL`: A complex one-way ledge. You can move onto it from a tile below it, move horizontally between adjacent `FLOOR_UP_WALL` tiles, and move down *off* of it to a tile below. You cannot move up from this tile or down onto it.
+    *   `FLOOR_UP_WALL`: A complex one-way ledge with specific traversal rules:
+    *   You can move **UP** from a `FLOOR` tile onto a `FLOOR_UP_WALL` tile.
+    *   You can move **DOWN** from a `FLOOR_UP_WALL` tile onto a `FLOOR` tile (this is the one-way jump).
+    *   You can move horizontally between adjacent `FLOOR_UP_WALL` tiles.
+    *   You **CANNOT** move **DOWN** from a `FLOOR` tile onto a `FLOOR_UP_WALL` tile.
+    *   You **CANNOT** move **UP** from a `FLOOR_UP_WALL` tile into a `WALL` or other impassable tile.
 *   **Special Requirement:**
     *   `CUT_TREE` (Requires HM01 Cut).
     *   `WATER` (Requires HM03 Surf).
