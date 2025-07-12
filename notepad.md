@@ -68,9 +68,6 @@
 - **Hypothesis (INVALIDATED):** The Secret Key is located in the western area of the Pokémon Mansion B1F.
   - **Test:** Explored the area west of the gates at (14, 23).
   - **Conclusion:** The path leads to a dead end with a Full Restore. No key found.
-- **Hypothesis (INVALIDATED):** The switch on B1F is connected to a hidden item on 3F, accessible only by falling through a specific hole.
-  - **Test:** Returned to 3F and used the Itemfinder near the holes, then jumped down the hole at (13, 15).
-  - **Conclusion:** This was tested and disproven when I fell through the hole at (13,15) and found nothing.
 
 # V. NPC Trades
 - **Route 5 (Underground Path):** Little Girl wants Cubone, offers Machoke.
