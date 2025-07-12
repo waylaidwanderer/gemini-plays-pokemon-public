@@ -66,3 +66,13 @@
 - **Documentation Failure (Turn 67591):** I failed to consult my own map marker ('🚫 Isolated Dead End from 2F') and wasted time trying to find a non-existent path out of the room. I must check my markers before planning any navigation.
 - **Pathfinding Tool Deletion (Turn 67621):** The `mansion_puzzle_solver` tool has been deleted due to persistent, unresolvable bugs causing it to generate invalid paths through NPCs. Future pathfinding will be done manually or with a new, more robust tool.
 - **Puzzle Solver Agent Under-utilization (Critique 67650):** I was critiqued for manually solving the Super Nerd puzzle instead of using my `puzzle_solver_agent`. This is a repeat of a previous process failure and must be corrected immediately.
+
+# V. Current Puzzles & Hypotheses
+
+## Pokemon Mansion 3F - Moving Super Nerd Puzzle
+- **Observation:** The Super Nerd at (8, 12) moves east when I move east or west on the same row (row 12). Moving off the row causes him to reposition.
+- **Hypothesis (Active):** I can solve the puzzle by herding the Super Nerd into the eastern corner at (10, 12), trapping him against the wall at (11, 12).
+- **Test Plan:**
+    1. Move from (7, 12) to (8, 12). Expected: Nerd moves to (9, 12).
+    2. Move from (8, 12) to (9, 12). Expected: Nerd moves to (10, 12).
+    3. Move from (9, 12) to (10, 12). Expected: Nerd is trapped, allowing interaction.
