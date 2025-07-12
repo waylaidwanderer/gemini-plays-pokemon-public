@@ -31,4 +31,5 @@
 *   **Goal:** Find the special medicine in Cianwood City to cure the sick Ampharos in the Olivine Lighthouse.
 *   **FAILED Hypothesis:** The Pharmacist in Cianwood Pharmacy has the Secret Medicine. This was proven false; he just runs a regular shop.
 *   **FAILED Hypothesis:** The Gym Leader, Chuck, is training under a waterfall somewhere *outside* the gym. This was proven false after exploring the city and finding the Photo Studio instead.
-*   **Current Working Hypothesis:** The solution to obtaining the Secret Medicine is inside the Cianwood Gym. The path to the leader is blocked by boulders. The trigger to remove them is likely interacting with one of the gym's statues.
+*   **Current Working Hypothesis:** The solution to obtaining the Secret Medicine is inside the Cianwood Gym. The path to the leader is blocked by boulders. FAILED Hypothesis: Interacting with the gym statues is the trigger. This was proven false; they only display the gym's name.
+*   Current Working Hypothesis: The trigger is stepping on a specific tile on one of the side paths. I will test the tile at (8, 6) next and use the `puzzle_state_analyzer` to verify any changes.
