@@ -11,7 +11,7 @@
 ### Verified Tile Types
 *   **Impassable (Verified):** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WEIRD_TREE`, `PRINTER`.
 *   **Traversable (Verified):** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `CUT_TREE` (becomes traversable after using CUT).
-*   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile), `PIT` (Acts as a warp when stepped on).
+*   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile), `PIT` (Acts as a one-way warp when stepped on).
 *   **One-Way Ledges (Verified):**
     *   `LEDGE_HOP_DOWN`: A one-way ledge that can only be hopped **DOWN**.
     *   `LEDGE_HOP_DOWN/RIGHT`: A one-way ledge that can only be hopped in the specified direction.
@@ -38,10 +38,11 @@
 
 ### Current Puzzle: Olivine Lighthouse
 *   **Goal:** Ascend the lighthouse to find the sick Ampharos.
-*   **Current Hypothesis:** There are multiple paths up the lighthouse, and I need to explore all floors thoroughly to find the correct one.
-*   **Alternative Hypothesis:** Progress is not made by simply ascending. An item or event on a lower floor might be required to unlock the path forward.
+*   **Current Hypothesis:** The floor tiles at (16, 11) and (17, 11) on 2F are warps, but require a specific trigger I have not yet discovered (directional movement, interaction, item, etc.).
+*   **Alternative Hypothesis:** These floor tiles are not warps at all, and the game data is misleading. Progress is found elsewhere.
 
 ### General Hypotheses & Verified Conclusions
+*   **Conclusion:** The pits on Olivine Lighthouse 2F are one-way warps to the first floor.
 *   **Conclusion:** The southern and western water routes in Union Cave B2F are isolated dead ends.
 *   **Conclusion:** The southwestern part of Union Cave 1F is a dead end due to one-way ledges.
 *   **Hypothesis (UNTESTED):** `HEADBUTT_TREE`s might be passable by using the move 'Headbutt' from the Pokémon party menu while facing the tree. Test requires a Pokémon with the move Headbutt.
