@@ -51,14 +51,10 @@
     *   **Test 1 (Left Statue @ 3,15):** Interacting with the statue only displayed the gym name.
     *   **Test 2 (Right Statue @ 6,15):** Interacting with the statue also only displayed the gym name.
     *   **Conclusion:** The statues are not switches. This hypothesis is fully invalid.
-*   **Hypothesis 3 (Agent Advice - INVALIDATED):** The `gym_puzzle_advisor` repeatedly suggested battling Black Belt Yoshi at (3, 12) and then moving to an impassable tile at (1, 8). 
-    *   **Test 1 & 2:** Interacting with Yoshi only resulted in dialogue, with no battle initiated. This was tested before and after moving on the side paths.
-    *   **Test 3:** The agent recommended a path into a wall. 
-    *   **Conclusion:** The agent's logic is flawed for this dynamic puzzle. It cannot be relied upon for this gym. My own manual exploration based on the 'side path' hypothesis is the only strategy that has produced observable changes in the gym.
-*   **New Hypothesis (Eastern Path):** The western path is a dead end. The solution must involve exploring the eastern side path.
-*   **Hypothesis 3 (Agent Advice - INVALIDATED):** The `gym_puzzle_advisor` repeatedly suggested battling Black Belt Yoshi at (3, 12). 
-    *   **Test 1 & 2:** Interacting with Yoshi only resulted in dialogue, with no battle initiated. This was tested before and after moving on the side paths.
-    *   **Conclusion:** The agent's logic is flawed for this dynamic puzzle. It cannot be relied upon for this gym. My own manual exploration based on the 'side path' hypothesis is the only strategy that has produced observable changes in the gym.
+*   **Hypothesis 3 (Agent Advice - REPEATEDLY INVALIDATED):** The `gym_puzzle_advisor`, even after multiple refinements, has repeatedly suggested battling Black Belt Yoshi at (3, 12) or moving to an impassable tile like (1, 8). 
+    *   **Tests:** Multiple attempts to interact with Yoshi have only resulted in dialogue, with no battle initiated, regardless of player position or recent movement. The agent also recommended moving into a wall.
+    *   **Conclusion:** The agent, in its current state, is unable to comprehend the dynamic, movement-based nature of this puzzle. Its recommendations to battle or move to specific tiles have been consistently wrong. It must be refined further or its advice must be treated with extreme caution.
+*   **New Hypothesis (Eastern Path):** The western path is a confirmed dead end. The solution must involve exploring the eastern side path, which remains untouched.
 ### Future Plans & Untested Theories
 *   **Tool Idea (`gym_state_tester`):** Create a tool that takes a sequence of moves as input and executes them, reporting back if any map objects appear, disappear, or move. This would automate testing the side paths.
 *   **Alternative Puzzle Hypothesis 1 (Step Count):** The puzzle might trigger based on the total number of steps taken, not location. **Test:** Walk back and forth on a non-side-path tile (e.g., at the entrance) for 50 steps and observe for changes.
