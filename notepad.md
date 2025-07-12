@@ -4,7 +4,7 @@
 *   **Primary Goal:** Find and defeat the Olivine City Gym Leader.
 *   **Secondary Goal:** Find a way to ascend the Olivine Lighthouse. My hypothesis is that the Gym Leader is at the top, and I need to help the sick Pokémon there.
 *   **Tertiary Goal:** Find more BERRIES to heal the sick Miltank on Route 39.
-*   **Current Plan:** Exit the Ruins of Alph via the warp to Route 36, then travel to Olivine City to pursue my primary and secondary goals.
+*   **Current Plan:** I am stuck in the Ruins of Alph Inner Chamber. The exit ladder at (10, 13) is non-functional. My next hypothesis is that I need to interact with the Gramps NPC at (11, 19) to find a way to escape.
 
 ## II. Game Systems & Mechanics
 
@@ -61,7 +61,14 @@
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position.
 
-## V. Process Improvement & Future Plans
+## V. Puzzle Hypotheses & Logs
+
+### Ruins of Alph Inner Chamber - Exit Ladder Puzzle
+*   **Hypothesis 1:** Stepping on the ladder tile (10, 13) triggers the warp. **Result: FAILED (5+ attempts).**
+*   **Hypothesis 2:** Interacting with the ladder tile (10, 13) from various directions (up, down, left, right) triggers the warp. **Result: FAILED (4+ attempts).**
+*   **Hypothesis 3:** Talking to the Teacher NPC at (13, 12) will unlock the exit. **Result: FAILED (NPC not present at location).**
+
+## VI. Process Improvement & Future Plans
 *   **Immediate Data Management:** All data management tasks MUST be performed in the same turn they are identified.
 *   **Hypothesis Testing:** When stuck, I must systematically test alternative hypotheses instead of getting locked into one approach. I will document these tests and their outcomes in my notepad.
 *   **Tool Refinement:** Faulty tools must be refined immediately. This is a higher priority than any gameplay action.
