@@ -63,3 +63,8 @@
 ## B. Process Lessons
 - **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
  The reward for solving this puzzle is a RARE CANDY at (11, 3), NOT the Secret Key.
+
+# V. Future Development & Lessons
+
+## B. Process Lessons
+- **Puzzle Solver Agent Under-utilization:** I spent an excessive amount of time manually solving the Pokémon Mansion puzzle through trial and error. This was a direct violation of my process rules. I MUST remember to use the `puzzle_solver_agent` for complex environmental puzzles to generate structured hypotheses and avoid inefficient brute-force methods.
