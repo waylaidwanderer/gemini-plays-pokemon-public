@@ -20,13 +20,6 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_location\":{\"type\":\"string\"},\"primary_goal\":{\"type\":\"string\"},\"secondary_goal\":{\"type\":\"string\"},\"tertiary_goal\":{\"type\":\"string\"},\"blockades\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"unexplored_areas\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"failed_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_location\",\"primary_goal\",\"blockades\",\"unexplored_areas\",\"failed_hypotheses\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommendation\",\"justification\"]}"
   },
-  "route_planner": {
-    "agent_name": "route_planner",
-    "agent_description": "Breaks down a long-distance journey across multiple maps into a sequence of smaller, more manageable navigation goals (e.g., intermediate towns or landmarks). This helps create a high-level travel plan. Aware of player's current location.",
-    "agent_system_prompt": "You are a master route planner for the Johto region in Pokémon Crystal. You are given a starting location, a final destination, and the player's current map and coordinates. Your task is to provide a high-level, step-by-step route that lists the key locations (towns, routes, caves) the player must travel through to get from the start to the destination. Your route MUST start from the player's actual current location and be the most efficient path forward. Do not provide detailed in-map directions, only the sequence of maps to traverse. The output should be a JSON object containing a list of these key locations as strings.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_location\":{\"type\":\"string\"},\"end_location\":{\"type\":\"string\"},\"current_map_name\":{\"type\":\"string\"},\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"}},\"required\":[\"start_location\",\"end_location\",\"current_map_name\",\"player_x\",\"player_y\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"route\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"route\"]}"
-  },
   "battle_advisor": {
     "agent_name": "battle_advisor",
     "agent_description": "Analyzes the current battle state and recommends the optimal action (e.g., which move to use, whether to switch Pokémon, or to run).",
