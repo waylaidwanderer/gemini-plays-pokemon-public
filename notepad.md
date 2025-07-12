@@ -63,3 +63,4 @@
 *   **Conclusion:** The southwestern part of Union Cave 1F is a dead end due to one-way ledges.
 *   **Conclusion:** The `CUT_TREE` tile at (8, 25) was not permanently impassable. Interacting with it again with 'A' allowed me to use CUT.
 *   **Hypothesis (NEW):** `HEADBUTT_TREE`s might be passable by using the move 'Headbutt' from the Pokémon party menu while facing the tree, not just by interacting with 'A'.
+*   `WARP_CARPET_LEFT`: Traversable. Activated by pressing 'Left' while standing on the tile to trigger a warp.
