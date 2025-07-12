@@ -29,7 +29,6 @@
 - **'No Will to Fight':** A fainted or sleeping Pokémon cannot be switched into battle.
 - **Safari Zone:** Has a time limit. When it expires, the player is warped back to the Safari Zone Gate.
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center.
-- **Warp Reuse:** To reuse an instant warp you just came through, you must step off the warp tile and then back on to trigger it.
 
 ## C. Area & Navigation Insights
 - **Rock Tunnel B1F:** This area is divided into multiple isolated sections. The eastern ladder at (34, 26) is not accessible from the central corridor entrance.
