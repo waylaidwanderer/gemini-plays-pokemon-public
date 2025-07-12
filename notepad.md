@@ -59,3 +59,8 @@
 *   **Conclusion:** The southern and western water routes in Union Cave B2F are isolated dead ends.
 *   **Conclusion:** The southwestern part of Union Cave 1F is a dead end due to one-way ledges.
 *   **Hypothesis (UNTESTED):** `HEADBUTT_TREE`s might be passable by using the move 'Headbutt' from the Pokémon party menu while facing the tree. Test requires a Pokémon with the move Headbutt.
+
+### Untested Tile Types & Plans
+*   **`BUOY` (Untested):** This tile appears in the water in Olivine City. It appears impassable. 
+    *   **Movement Test Plan:** When adjacent to water, attempt to Surf onto a `BUOY` tile.
+    *   **Interaction Test Plan:** Face a `BUOY` tile from an adjacent water tile and press 'A'.
