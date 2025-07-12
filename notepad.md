@@ -40,6 +40,6 @@
 *   **Final Solution (from navigator_advisor):** The puzzle is a multi-step process.
     1.  First, enter the gym and walk to the tile at (8, 6) on the eastern path. This triggers a state change, removing the boulders but adding a new trainer.
     2.  Second, exit the gym and re-enter. This resets the gym, keeping the boulders gone.
-    3.  **Final Approach:** After the reset, the central path and battling any trainers are traps that will make the boulders reappear. The only safe way to the leader is to use one of the side paths and carefully navigate *around* the trainers to avoid initiating combat.
+    3.  **Final Approach (Invalidated):** The previous hypothesis that side paths are safe was incorrect. Both the central and side paths act as traps that reset the boulders. A new solution is needed.
 ### Cianwood City NPCs
 *   **Pokefan F (11, 46):** Will give a gift (likely HM02 FLY) after defeating the Cianwood Gym Leader.
