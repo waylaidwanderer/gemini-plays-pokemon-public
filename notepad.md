@@ -52,3 +52,6 @@
     *   **Test 2 (Right Statue @ 6,15):** Interacting with the statue also only displayed the gym name.
     *   **Conclusion:** The statues are not switches. This hypothesis is fully invalid.
 *   **New Hypothesis (Side Paths):** The solution to the puzzle may involve exploring the side paths of the gym that I have not yet fully traversed. I will start by exploring the leftmost path.
+*   **Hypothesis 3 (Agent Advice - INVALIDATED):** The `gym_puzzle_advisor` repeatedly suggested battling Black Belt Yoshi at (3, 12). 
+    *   **Test 1 & 2:** Interacting with Yoshi only resulted in dialogue, with no battle initiated. This was tested before and after moving on the side paths.
+    *   **Conclusion:** The agent's logic is flawed for this dynamic puzzle. It cannot be relied upon for this gym. My own manual exploration based on the 'side path' hypothesis is the only strategy that has produced observable changes in the gym.
