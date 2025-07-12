@@ -37,9 +37,9 @@
 *   **Alternative Hypothesis:** The Pharmacist may require me to complete another task first, such as defeating the Cianwood Gym Leader.
 
 ### Cianwood Gym Puzzle (SOLVED)
-*   **Solution:** The puzzle is a multi-step process that requires resetting the gym's state.
-    1.  Enter the gym and walk to the northernmost tile of the eastern path at (8, 6). This causes the boulders blocking the central path to disappear and a new Black Belt to appear at (5, 5), creating what appears to be an impassable state.
-    2.  Exit the gym and re-enter. This resets the player's position to the entrance but keeps the boulders gone, clearing the path directly to the Gym Leader.
-*   **Trap & Refined Understanding:** After re-entering the gym, *any* significant movement along the side paths (such as battling trainers) will cause the boulders to reappear, blocking the central path again. The correct procedure after the reset is to walk directly to the Gym Leader without any detours.
+*   **Final Solution (from navigator_advisor):** The puzzle is a multi-step process.
+    1.  First, enter the gym and walk to the tile at (8, 6) on the eastern path. This triggers a state change, removing the boulders but adding a new trainer.
+    2.  Second, exit the gym and re-enter. This resets the gym, keeping the boulders gone.
+    3.  **Final Approach:** After the reset, the central path and battling any trainers are traps that will make the boulders reappear. The only safe way to the leader is to use one of the side paths and carefully navigate *around* the trainers to avoid initiating combat.
 ### Cianwood City NPCs
 *   **Pokefan F (11, 46):** Will give a gift (likely HM02 FLY) after defeating the Cianwood Gym Leader.
