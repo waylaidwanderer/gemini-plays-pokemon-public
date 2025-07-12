@@ -65,3 +65,6 @@
 # IV. Lessons Learned & Corrected Mistakes
 - **Blackout Strategy is Unreliable:** Attempting to intentionally lose a wild battle is not a reliable method for escaping a location. My Pokémon proved too strong, winning multiple battles at critical health. This strategy should be avoided.
 - **Confirmation Bias is Dangerous:** I fell into a major behavioral loop for ~50 turns, convinced I was trapped and that blacking out was the only solution. The pathfinding tool's repeated failures were evidence of a disconnected map, not a bug, but I failed to consider alternative exits beyond fainting.
+
+# V. Future Development Ideas
+- **Pathfinding Debugger Agent:** Create an agent that takes map XML, start/end coordinates, and provides a step-by-step analysis of why a path might fail (e.g., checking connectivity, walkability of each tile, and identifying the exact blocking tile). This would be more efficient than manual debugging.
