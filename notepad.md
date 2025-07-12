@@ -50,7 +50,12 @@
 - **Hypothesis (INVALIDATED - Attempt 1):** The Secret Key is a hidden item on Pokémon Mansion 2F.
   - **Test:** Used Itemfinder at (4, 22) near the diary.
   - **Conclusion:** Itemfinder did not respond. No hidden item found.
-- **Hypothesis (ACTIVE):** The Secret Key is located on Pokémon Mansion 3F or in the basement.
+- **Hypothesis (PARTIALLY VALIDATED):** There is a hidden item on Pokémon Mansion 3F.
+  - **Test:** Used Itemfinder at (6, 13) near the diary.
+  - **Conclusion:** Itemfinder responded. There is an item nearby.
+- **Hypothesis (ACTIVE):** The hidden item is on my current tile (6, 13).
+  - **Test:** Interact with the tile.
+  - **Conclusion:** In progress.
   - **Test:** Systematically explore the remaining floors.
   - **Conclusion:** In progress.
 
