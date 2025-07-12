@@ -63,8 +63,11 @@
 - **Hypothesis (INVALIDATED):** The hidden item is on tile (6, 12).
   - **Test:** Interact with the current tile (6, 12).
   - **Conclusion:** Nothing happened.
-- **Hypothesis (ACTIVE):** The hidden item is on the tile occupied by Pikachu at (6, 13).
-  - **Test:** Move to (6, 13) and interact with Pikachu.
+- **Hypothesis (INVALIDATED):** The hidden item is on the tile at (6, 13) and is picked up by standing on it.
+  - **Test:** Stood on (6, 13) and pressed A.
+  - **Conclusion:** Nothing happened.
+- **Hypothesis (ACTIVE):** The hidden item is revealed by interacting with Pikachu, who is at (6, 12).
+  - **Test:** Face Pikachu from (6, 13) and press A.
   - **Conclusion:** In progress.
   - **Test:** Systematically explore the remaining floors.
   - **Conclusion:** In progress.
