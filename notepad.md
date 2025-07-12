@@ -4,7 +4,7 @@
 *   **Primary Goal:** Find and defeat the Olivine City Gym Leader.
 *   **Secondary Goal:** Find a way to ascend the Olivine Lighthouse. My hypothesis is that the Gym Leader is at the top, and I need to help the sick Pokémon there.
 *   **Tertiary Goal:** Find more BERRIES to heal the sick Miltank on Route 39.
-*   **Current Plan:** I have escaped the Ruins of Alph and am now on Route 32. My plan is to travel south through this route and Union Cave to reach Olivine City.
+*   **Current Plan:** After a long detour in the Ruins of Alph, I am now back on Route 32. My plan is to travel south, exploring the route incrementally, to reach Union Cave and eventually Olivine City.
 
 ## II. Game Systems & Mechanics
 
