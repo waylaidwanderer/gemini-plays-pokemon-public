@@ -68,3 +68,5 @@
 
 ## B. Process Lessons
 - **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
+- **Warp Reuse:** To reuse an instant warp you just came through, you must step off the warp tile and then back on to trigger it.
+- **Closed/Open Gate:** An impassable/passable gate that is currently visible on the screen. It may require a switch or key to open, or be controlled by a positional trigger.
