@@ -47,3 +47,4 @@
 ### Cianwood Gym Puzzle
 *   **Hypothesis:** Defeating trainers causes boulders to appear or disappear, changing the gym layout.
 *   **Observation 1:** Defeating Blackbelt Yoshi (ID 2) and Blackbelt Lao (ID 3) caused the boulders at (3,7), (4,7), and (5,7) to disappear, opening the path north.
+*   **New Hypothesis:** The statues at the gym entrance (3,15) and (6,15) might be switches that control the boulders.
