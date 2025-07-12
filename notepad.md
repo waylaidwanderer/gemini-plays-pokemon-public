@@ -43,3 +43,7 @@
 
 ### Untested Hypotheses
 *   **WHIRLPOOL Mechanics:** My rival mentioned the Whirl Islands are blocked by whirlpools. I need to test a `WHIRLPOOL` tile to see if it requires a specific HM. I will use my `pathfinder` to navigate to an adjacent tile and then interact with it.
+
+### Cianwood Gym Puzzle
+*   **Hypothesis:** Defeating trainers causes boulders to appear or disappear, changing the gym layout.
+*   **Observation 1:** Defeating Blackbelt Yoshi (ID 2) and Blackbelt Lao (ID 3) caused the boulders at (3,7), (4,7), and (5,7) to disappear, opening the path north.
