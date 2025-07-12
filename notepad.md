@@ -69,4 +69,4 @@
 
 ## B. Process Lessons
 - **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
-- **Pokémon Mansion B1F - Gate Puzzle (SOLVED):** A combination of a single toggle switch (at 19, 26) and multiple positional triggers (e.g., around 19, 21) control the various gates. This is a complex interaction that requires careful navigation to avoid re-triggering gates. The reward for solving this puzzle is a RARE CANDY at (11, 3), NOT the Secret Key.
+ The reward for solving this puzzle is a RARE CANDY at (11, 3), NOT the Secret Key.
