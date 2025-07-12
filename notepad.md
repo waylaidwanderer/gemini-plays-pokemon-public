@@ -39,6 +39,20 @@
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 # III. Active Hypotheses & Tests
+- **Hypothesis (ACTIVE):** The switch on B1F at (19, 26) affects gates on other floors, potentially opening a path to the Secret Key.
+  - **Test:** Go to B1F, flip the switch, then check gate states on 1F, 2F, and 3F.
+  - **Rationale:** I am trapped in the basement, and this is the only remaining interactive element that could plausibly create a new path.
+
+# IV. Archive: Solved Puzzles & Lessons Learned
+- **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
+- **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear.
+- **Pokémon Mansion 1F/B1F - Gate Puzzle (SOLVED):** A combination of a single toggle switch (at 19, 26 on B1F) and multiple positional triggers (e.g., around 19, 21 on B1F) control the various gates. This is a complex interaction that requires careful navigation to avoid re-triggering gates.
+- **Rock Tunnel B1F - Walk-Through NPC (INVALIDATED):** My previous note claimed the Super Nerd at (4, 6) was walkable. Repeated attempts (Turns 64707, 64708, 64709) have proven this false. He consistently blocks movement.
+- **CRITICAL MISTAKE (Turn 65511):** I hallucinated having 8 badges and overwrote my notepad with incorrect goals. The game state clearly shows I have 6 badges. This was a critical failure in verifying my assumptions. I am reverting my goals to reflect the correct game state.
+- **Pokémon Mansion 3F - Gate Puzzle (SOLVED):** The switch at (11, 6) opens the gates at (16, 5) and (16, 6), granting access to the eastern section of the floor.
+- **Hypothesis (INVALIDATED):** The hole at (13, 15) on 3F leads to the Secret Key.
+  - **Test:** Jumped down the hole.
+  - **Conclusion:** Landed in an isolated, previously explored room on 1F. No key found.
 - **Hypothesis (INVALIDATED):** The Secret Key was on the S.S. Anne dock.
   - **Test:** Entered the S.S. Anne warp.
   - **Conclusion:** The ship departed. This was a one-time event and did not yield the key.
@@ -48,24 +62,15 @@
 - **Hypothesis (INVALIDATED):** The Secret Key is a hidden item on Pokémon Mansion 2F.
   - **Test:** Used Itemfinder at (4, 22) near the diary.
   - **Conclusion:** Itemfinder did not respond. No hidden item found.
-- **Hypothesis (INVALIDATED):** The switch at (19, 26) is related to the hidden item on 3F.
+- **Hypothesis (INVALIDATED):** The switch at (19, 26) on B1F is related to a hidden item on 3F.
   - **Test:** Pressed the switch at (19, 26).
   - **Conclusion:** The switch opened the western gates on B1F at (14, 23) and (14, 24), revealing a new path. It does not appear to be related to 3F.
-
 - **Hypothesis (INVALIDATED):** The Secret Key is located in the western area of the Pokémon Mansion B1F.
   - **Test:** Explored the area west of the gates at (14, 23).
   - **Conclusion:** The path leads to a dead end with a Full Restore. No key found.
-
-- **Hypothesis (ACTIVE):** The switch on B1F is connected to the hidden item on 3F. The item is in an area only accessible by falling through a specific hole on 3F, and the switch enabled its appearance.
-  - **Test:** Return to 3F and use the Itemfinder near the holes.
-  - **Conclusion:** In progress.
-
-# IV. Archive: Solved Puzzles & Lessons Learned
-- **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
-- **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear.
-- **Pokémon Mansion 1F/B1F - Gate Puzzle (SOLVED):** A combination of a single toggle switch (at 19, 26 on B1F) and multiple positional triggers (e.g., around 19, 21 on B1F) control the various gates. This is a complex interaction that requires careful navigation to avoid re-triggering gates.
-- **Rock Tunnel B1F - Walk-Through NPC (INVALIDATED):** My previous note claimed the Super Nerd at (4, 6) was walkable. Repeated attempts (Turns 64707, 64708, 64709) have proven this false. He consistently blocks movement.
-- **CRITICAL MISTAKE (Turn 65511):** I hallucinated having 8 badges and overwrote my notepad with incorrect goals. The game state clearly shows I have 6 badges. This was a critical failure in verifying my assumptions. I am reverting my goals to reflect the correct game state.
+- **Hypothesis (INVALIDATED):** The switch on B1F is connected to a hidden item on 3F, accessible only by falling through a specific hole.
+  - **Test:** Returned to 3F and used the Itemfinder near the holes, then jumped down the hole at (13, 15).
+  - **Conclusion:** This was tested and disproven when I fell through the hole at (13,15) and found nothing.
 
 # V. NPC Trades
 - **Route 5 (Underground Path):** Little Girl wants Cubone, offers Machoke.
@@ -74,10 +79,3 @@
 
 ## B. Process Lessons
 - **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
-- **Pokémon Mansion 3F - Gate Puzzle (SOLVED):** The switch at (11, 6) opens the gates at (16, 5) and (16, 6), granting access to the eastern section of the floor.
-- Hypothesis (INVALIDATED): The hole at (13, 15) on 3F leads to the Secret Key.
-  - Test: Jumped down the hole.
-  - Conclusion: Landed in an isolated, previously explored room on 1F. No key found.
-- Hypothesis (UNTESTED): The switch on B1F at (19, 26) affects gates on other floors.
-  - Test: Go to B1F, flip the switch, then check gate states on 1F, 2F, and 3F.
-  - Rationale: This is an alternative to the 'fall down a hole' theory and would test for more complex cross-floor puzzle mechanics.
