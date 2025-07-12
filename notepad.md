@@ -69,7 +69,6 @@
   - **Test:** Manipulated the NPC to move, clearing the visual path. Attempted to use a repaired `find_path` tool to navigate.
   - **Conclusion:** The tool repeatedly failed to find a path, even after multiple bug fixes. This provides strong evidence that the western section is physically disconnected from the eastern section. I am trapped and must black out to escape.
 
-# IV. Current Investigation: Blacking Out to Escape Pokemon Mansion
-- **Situation:** I am trapped in the eastern section of Pokemon Mansion 3F with only one Pokémon at critical health. The path to the western section is confirmed to be unreachable.
-- **Goal:** Intentionally lose a wild battle to black out and return to the last used Pokémon Center.
-- **Plan:** Walk back and forth to trigger a wild encounter.
+# IV. Lessons Learned & Corrected Mistakes
+- **Blackout Strategy is Unreliable:** Attempting to intentionally lose a wild battle is not a reliable method for escaping a location. My Pokémon proved too strong, winning multiple battles at critical health. This strategy should be avoided.
+- **Confirmation Bias is Dangerous:** I fell into a major behavioral loop for ~50 turns, convinced I was trapped and that blacking out was the only solution. The pathfinding tool's repeated failures were evidence of a disconnected map, not a bug, but I failed to consider alternative exits beyond fainting.
