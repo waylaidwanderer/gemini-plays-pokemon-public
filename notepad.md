@@ -40,12 +40,11 @@
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 # III. Archive: Solved Puzzles & Lessons Learned
+- **Pokémon Mansion - Gate Puzzles (SOLVED):** The mansion's gates are controlled by a combination of toggle switches and positional triggers on multiple floors. The B1F puzzle involves two switches (19, 26 and 21, 4) and multiple floor triggers that open and close different sets of gates, requiring careful, non-linear navigation.
 - **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
 - **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear.
-- **Pokémon Mansion 1F/B1F - Gate Puzzle (SOLVED):** A combination of a single toggle switch (at 19, 26 on B1F) and multiple positional triggers (e.g., around 19, 21 on B1F) control the various gates. This is a complex interaction that requires careful navigation to avoid re-triggering gates.
 - **Rock Tunnel B1F - Walk-Through NPC (INVALIDATED):** My previous note claimed the Super Nerd at (4, 6) was walkable. Repeated attempts (Turns 64707, 64708, 64709) have proven this false. He consistently blocks movement.
 - **CRITICAL MISTAKE (Turn 65511):** I hallucinated having 8 badges and overwrote my notepad with incorrect goals. The game state clearly shows I have 6 badges. This was a critical failure in verifying my assumptions. I am reverting my goals to reflect the correct game state.
-- **Pokémon Mansion 3F - Gate Puzzle (SOLVED):** The switch at (11, 6) opens the gates at (16, 5) and (16, 6), granting access to the eastern section of the floor.
 - **Hypothesis (INVALIDATED):** The hole at (13, 15) on 3F leads to the Secret Key.
   - **Test:** Jumped down the hole.
   - **Conclusion:** Landed in an isolated, previously explored room on 1F. No key found.
