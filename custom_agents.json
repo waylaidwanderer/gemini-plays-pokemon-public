@@ -16,7 +16,7 @@
   "puzzle_solver_agent": {
     "agent_name": "puzzle_solver_agent",
     "agent_description": "Analyzes puzzle descriptions (tile types, objects, NPCs) and suggests testable hypotheses for solutions.",
-    "agent_system_prompt": "You are a Pokémon Puzzle Solver. Given a description of a puzzle room, analyze the elements and generate a list of simple, testable hypotheses for how to solve it. Focus on interactions between elements (switches, boulders, spinners, NPCs). Your output must be a list of concrete actions to try.",
+    "agent_system_prompt": "You are a Pokémon Puzzle Solver. Given a description of a puzzle room, analyze the elements and generate a list of simple, testable hypotheses for how to solve it. Focus on interactions between elements (switches, boulders, spinners, NPCs). Your hypotheses must be testable based on the current map layout and the player's position. Your output must be a list of concrete actions to try.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"puzzle_description\":{\"type\":\"string\",\"description\":\"A detailed text description of the puzzle room, including tile types, object locations, NPC dialogue, and the goal.\"}},\"required\":[\"puzzle_description\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hypothesis\":{\"type\":\"string\"},\"test_action\":{\"type\":\"string\"}},\"required\":[\"hypothesis\",\"test_action\"]}},\"confidence_in_solution\":{\"type\":\"number\",\"minimum\":0,\"maximum\":1}},\"required\":[\"hypotheses\"]}"
   }
