@@ -57,22 +57,13 @@
 
 ## IV. Strategic Plans
 
-### Primary Goal: Defeat Olivine City Gym Leader
-1.  **Travel to Olivine City.**
-2.  **Locate the Gym Leader.** Rival SILVA mentioned she is at the Lighthouse.
-3.  **Ascend the Lighthouse.** This seems to be a prerequisite to challenging the gym.
-4.  **Challenge and defeat the Gym Leader.**
+### Primary Goal: Travel to Cianwood City to get the SecretPotion.
+1.  **Exit Union Cave.** The most direct route is via the ladder to 1F, then the exit to Route 32.
+2.  **Travel to Olivine City.** From Route 32, I will need to head north.
+3.  **Surf West.** From Olivine City, I will use SURF to travel west across Route 40 and Route 41 to reach Cianwood City.
 
-### Secondary Goal: Ascend the Olivine Lighthouse
-1.  **Re-enter the Lighthouse.**
-2.  **Systematically explore each floor.** I previously missed the way up, so I need to check every path and interaction point.
-3.  **Look for hidden paths or puzzles.** There might be a trick to ascending that isn't obvious.
+### Secondary Goal: Defeat the Olivine City Gym Leader
+1.  This goal is blocked until the sick Ampharos is healed with the SecretPotion from Cianwood City.
 
 ### Tertiary Goal: Heal the Miltank
-1.  **Collect BERRIES.** I need to find Fruit Trees that have regrown their fruit.
-2.  **Return to Route 39 Farmhouse.**
-3.  **Give the BERRIES to the sick Miltank.**
-
-## VI. Future Development Ideas
-*   **Agent Idea: `dead_end_analyzer`**: An agent that takes multiple `pathfinder` failures as input and suggests a strategic pivot, such as backtracking to the last major junction or trying a completely different route.
-*   **Tool Refinement: `pathfinder`**: Investigate improving the pathfinder to handle transitions between different surface types, like `FLOOR` to `WATER` (initiating SURF), to create a single, seamless path instead of requiring manual, multi-step navigation.
+1.  This goal is on hold as it requires backtracking for BERRIES, and the primary goal is more critical.
