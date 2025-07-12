@@ -20,6 +20,8 @@
 *   **Special Requirement (Verified):**
     *   `WATER` (Requires HM03 Surf, must be used from adjacent `FLOOR` tile).
     *   `BREAKABLE_ROCK` (Requires Rock Smash).
+*   **Special Requirement (Hypothesized):**
+    *   `WHIRLPOOL` (Requires HM): Impassable via normal movement and interaction.
 *   **Complex Tiles (Verified):**
     *   `WARP_CARPET_DOWN`: Traversable. Activated by pressing 'Down' while standing on the tile to trigger a warp.
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Traversable. Activated by pressing the corresponding direction while standing on the tile to trigger a warp.
@@ -36,13 +38,12 @@
 *   **Current Location:** I have discovered the Cianwood Pharmacy. My working hypothesis is that the Pharmacist inside will give me the medicine.
 *   **Alternative Hypothesis:** The Pharmacist may require me to complete another task first, such as defeating the Cianwood Gym Leader.
 
-### Cianwood Gym Puzzle (SOLVED)
-*   **Final Solution (from navigator_advisor):** The puzzle is a multi-step process.
-    1.  First, enter the gym and walk to the tile at (8, 6) on the eastern path. This triggers a state change, removing the boulders but adding a new trainer.
-    2.  Second, exit the gym and re-enter. This resets the gym, keeping the boulders gone.
-    3.  **Final Approach (Invalidated):** The previous hypothesis that side paths are safe was incorrect. Both the central and side paths act as traps that reset the boulders. A new solution is needed.
+### Cianwood Gym Puzzle (FAILED - ALL HYPOTHESES INVALIDATED)
+*   **Final Failed Hypothesis:** The puzzle requires a complex sequence of triggers, resets, and defeating specific trainers. All attempts based on this have failed. The solution is likely external to the gym itself.
+*   **New Working Hypothesis:** The Gym Leader, Chuck, is not in the gym. A gym guide mentioned he is training under a waterfall. The current objective is to find this waterfall.
+
 ### Cianwood City NPCs
 *   **Pokefan F (11, 46):** Will give a gift (likely HM02 FLY) after defeating the Cianwood Gym Leader.
 *   **Glitched Battle State:** Encountered a glitched battle on a WATER tile at (28, 40) in Cianwood City. The game state became corrupted (empty party, incorrect player info) but resolved after attempting to run.
 ### Tiles Under Investigation
-*   `WHIRLPOOL` (Route 41, (6, 30)): Attempting to move onto the tile fails. It is impassable via normal movement. Next step: Interaction test.
+*   `ROCK` (Route 41): Untested. This is a high priority as per the overwatch system critique.
