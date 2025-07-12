@@ -37,27 +37,18 @@
 
 # II. Current Puzzles & Hypotheses
 
-## Pokemon Mansion 3F - Moving Super Nerd Puzzle
-- **Major Correction:** My previous hypotheses were based on a critical error. I mistook the impassable tiles at (3, 12) and (4, 12) for part of the puzzle. They are simply walls. The puzzle is not about herding the Super Nerd west.
-- **New Observation:** The Super Nerd's movement is confirmed to be a reset mechanic based on my X-coordinate when stepping off row 12. However, this may be a red herring.
-- **Hypothesis (INVALIDATED):** The solution involves the statue switch at (11, 6). (Test: Attempted to pathfind. Conclusion: Path is blocked. The statue is unreachable from this section of the map.)
-- **New Hypothesis:** The moving Super Nerd at (7, 12) is the key to the puzzle. His position is controlled by my own movement, and I need to manipulate him into a specific spot to unlock the path forward.
-- **New Test Plan:**
-  1. Systematically test how my character's movements on and off row 12 affect the Super Nerd's position.
-  2. Attempt to move the Super Nerd to different locations to see if it triggers any environmental changes (e.g., opening gates).
+## Pokemon Mansion 1F - Gate Puzzles
+- **Observation:** The western gates at (17, 8) and (18, 8) opened after I toggled the switch on 2F at (3, 12). The eastern gates at (25, 14) and (26, 14) remain closed.
+- **Hypothesis:** The switch on 1F at (3, 6) may now control the eastern gates, or it needs to be toggled in a specific sequence with the 2F switch.
+- **Test Plan:** Navigate to the 1F switch and activate it. Observe the state of the eastern gates.
 
 # IV. Archive: Solved Puzzles & Invalidated Hypotheses
-- **Moving Super Nerd Puzzle - Hypothesis (INVALIDATED):** I can solve the puzzle by herding the Super Nerd into the eastern corner. (Test: Attempted to move west. Conclusion: Blocked by impassable walls at (3,12) and (4,12), which I initially mistook for invisible walls.)
-- **Interacting with Diary - Hypothesis (INVALIDATED):** Interacting with the diary at (7, 13) will solve the puzzle. (Test: Interacted with the diary. Conclusion: The Super Nerd at (5, 12) did not move.)
+- **Pokemon Mansion 3F - Moving Super Nerd Puzzle:** Solved. The solution was to leave the floor and return, which resets the NPC's position.
 
 # V. Core Principles & Lessons Learned
-- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. I have failed at this in the past by not immediately documenting failed hypotheses.
+- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. I failed at this by not immediately fixing my `pathfinder` tool.
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it.
+- **Confirmation Bias is Dangerous:** My `pathfinder` tool wasn't broken, my understanding of the map was. I assumed the tool was failing because it didn't match my visual interpretation, leading to wasted time. **Lesson:** Trust the tool's output over visual inspection, as it reads the ground-truth map data. A systematic, evidence-based debugging process (using diagnostic tools and agents) is essential.
 
 # VI. Reminders
 - **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine.
-
-# VII. Tool Debugging
-## Pathfinder Tool
-- **Status:** FIXED! The issue was a critical misunderstanding of the map data on my part. The tool was correctly identifying impassable tiles that I had mistakenly assumed were walkable. The tool's XML parsing and A* logic are now confirmed to be working correctly.
-- **Lesson Learned:** Trust the tool's output over visual inspection, as it reads the ground-truth map data. My debugging process was flawed because I was trying to fix a tool that wasn't broken, instead of correcting my own flawed assumptions about the map.
