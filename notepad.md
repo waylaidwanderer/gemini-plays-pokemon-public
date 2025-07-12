@@ -18,7 +18,7 @@
     *   `LEDGE_HOP_LEFT`: A one-way ledge that can only be hopped **LEFT**.
     *   `FLOOR_UP_WALL`: A complex one-way ledge. Can move **UP** from `FLOOR` to `FLOOR_UP_WALL`. Can move **DOWN** from `FLOOR_UP_WALL` to `FLOOR` (the jump). Cannot move **DOWN** from `FLOOR` to `FLOOR_UP_WALL`.
 *   **Special Requirement:**
-    *   `CUT_TREE` (Requires HM01 Cut).
+    *   `CUT_TREE` (Requires HM01 Cut, becomes impassable after cutting).
     *   `WATER` (Requires HM03 Surf).
     *   `BREAKABLE_ROCK` (Requires Rock Smash).
     *   `HEADBUTT_TREE` (Requires the move Headbutt).
