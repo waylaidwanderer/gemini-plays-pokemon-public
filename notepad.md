@@ -15,6 +15,7 @@
 - **Warp Tiles:** Instantaneous teleporters between maps or within the same map. Must step off and back on to reuse.
 - **Hole Tiles:** One-way warps that cause the player to fall to the floor below, often into isolated areas.
 - **Unknown Tiles:** Tiles not yet seen (`seen="false"`). Treated as impassable until explored.
+- **Positional Triggers:** Specific tiles that, when stepped on, can open or close gates or trigger other events elsewhere on the map. The effect may be reversed by stepping off the tile, or it may be permanent until another trigger is activated.
 - **Gate Offscreen:** A gate (either open or closed) that is not currently visible on the screen. Its state is unknown until it is brought into view. Should be treated as walkable by pathfinding tools.
 - **Closed/Open Gate:** An impassable/passable gate that is currently visible on the screen. It may require a switch or key to open, or be controlled by a positional trigger.
 
