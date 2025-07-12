@@ -47,14 +47,7 @@
 - **`puzzle_solver_tool`:** Create a computational tool that can analyze NPC movement patterns based on player input logs to solve herding or path-blocking puzzles more efficiently.
 
 # IV. Archive: Solved Puzzles & Invalidated Hypotheses
-- **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
-- **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear. The reward for solving this puzzle is a RARE CANDY at (11, 3), NOT the Secret Key.
-- **Rock Tunnel B1F - Walk-Through NPC (INVALIDATED):** My previous note claimed the Super Nerd at (4, 6) was walkable. Repeated attempts (Turns 64707, 64708, 64709) have proven this false. He consistently blocks movement.
-- **Hypothesis (INVALIDATED):** The hole at (13, 15) on 3F leads to the Secret Key. (Test: Jumped down hole. Conclusion: Landed in isolated room on 1F. No key.)
-- **Hypothesis (INVALIDATED):** The Secret Key is located somewhere in Diglett's Cave. (Test: Systematically explore with Itemfinder. Conclusion: No key found.)
-- **Hypothesis (INVALIDATED):** The Secret Key is in the western area of the Pokémon Mansion B1F. (Test: Explored west of gates at (14, 23). Conclusion: Dead end with Full Restore.)
-- **Hypothesis (INVALIDATED):** The Scientist at (28, 12) in the B1F isolated room has a way out. (Test: Talked to Scientist. Conclusion: Generic dialogue. Trapped, had to black out.)
-- **Moving Super Nerd Puzzle - Hypothesis (INVALIDATED):** I can solve the puzzle by herding the Super Nerd into the eastern corner. (Test: Attempted to move west. Conclusion: Blocked by invisible walls at (3,12) and (4,12).)
+- **Moving Super Nerd Puzzle - Hypothesis (INVALIDATED):** I can solve the puzzle by herding the Super Nerd into the eastern corner. (Test: Attempted to move west. Conclusion: Blocked by impassable walls at (3,12) and (4,12), which I initially mistook for invisible walls.)
 
 # V. Core Principles & Lessons Learned
 - **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. I have failed at this in the past by not immediately documenting failed hypotheses.
