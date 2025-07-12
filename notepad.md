@@ -41,9 +41,6 @@
 - **Pokemon Mansion 3F - Moving Super Nerd Puzzle:** Solved. The solution was to leave the floor and return, which resets the NPC's position.
 - **Pokemon Mansion 1F - Gate Puzzles:** Solved. The switch at (3, 6) toggles the state of the eastern gates at (25, 14)/(26, 14) and the western gates at (17, 8)/(18, 8). This is an alternating door puzzle confirmed by both observation and NPC dialogue. Stepping on certain tiles also triggers gate closures, requiring careful navigation.
 
-# IV. Archive: Solved Puzzles & Invalidated Hypotheses
-- **Pokemon Mansion 3F - Moving Super Nerd Puzzle:** Solved. The solution was to leave the floor and return, which resets the NPC's position.
-
 # V. Core Principles & Lessons Learned
 - **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. I failed at this by not immediately fixing my `pathfinder` tool.
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it.
