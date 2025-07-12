@@ -64,9 +64,7 @@
 - **Hypothesis (INVALIDATED):** The Secret Key is located somewhere in Diglett's Cave.
   - **Test:** Systematically explore Diglett's Cave using the Itemfinder.
   - **Conclusion:** No key found.
-- **Hypothesis (INVALIDATED):** The Secret Key is a hidden item on Pokémon Mansion 2F.
-  - **Test:** Used Itemfinder at (4, 22) near the diary.
-  - **Conclusion:** Itemfinder did not respond. No hidden item found.
+
 - **Hypothesis (INVALIDATED):** The switch at (19, 26) on B1F is related to a hidden item on 3F.
   - **Test:** Pressed the switch at (19, 26).
   - **Conclusion:** The switch opened the western gates on B1F at (14, 23) and (14, 24), revealing a new path. It does not appear to be related to 3F.
