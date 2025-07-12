@@ -1,6 +1,12 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. Game Systems & Mechanics
+## I. Current Objectives & Plans
+*   **Primary Goal:** Find and defeat the Olivine City Gym Leader.
+*   **Secondary Goal:** Find a way to ascend the Olivine Lighthouse. My hypothesis is that the Gym Leader is at the top, and I need to help the sick Pokémon there.
+*   **Tertiary Goal:** Find more BERRIES to heal the sick Miltank on Route 39.
+*   **Current Plan:** Exit the Ruins of Alph via the warp to Route 36, then travel to Olivine City to pursue my primary and secondary goals.
+
+## II. Game Systems & Mechanics
 
 ### Tile Traversal Protocol
 - **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately.
@@ -40,38 +46,22 @@
     *   **ICE BERRY:** Heals burn.
 *   **Haircuts:** Increases a Pokémon's happiness.
 
-## II. Blocked Paths & Story Gates
+## III. Blocked Paths & Story Gates
 *   **Route 37 Trainer Blockade:** Twins Ann & Anne disguised as trees block the path north at (6, 12) and (7, 12).
 *   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31).
 
-## III. Puzzles & Hypotheses
+## IV. Solved Puzzles & Completed Quests
 
 ### Ruins of Alph Sliding Puzzles
-*   **General Mechanics:** These are 16-piece picture puzzles on a 6x6 grid. The goal is to assemble the image in the central 4x4 area by placing pieces numerically from 1 to 16. Pieces are picked up and placed, not slid.
+*   **General Mechanics:** These are 16-piece picture puzzles on a 6x6 grid. The goal is to assemble the image in the central 4x4 area.
 *   **Ho-Oh Puzzle:** Solved.
 *   **Omanyte Puzzle:** Solved.
-*   **Aerodactyl Puzzle:**
-    *   **Current Hypothesis:** Solving this puzzle is the only way to exit the southern area of the Ruins of Alph.
-    *   **Method:** Use the `puzzle_solver_step` tool to calculate the next single move required. This iterative approach is more reliable than previous attempts with faulty tools or manual placement.
-    *   **Alternative Hypothesis:** The puzzle is a red herring, and a different, hidden interaction is required to escape. This will only be tested if solving the puzzle yields no progress.
+*   **Aerodactyl Puzzle:** Solved. The key was to interact with the sign at (4,2) to see the target image, then arrange the pieces visually, not numerically.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position.
 
-## IV. Process Improvement & Future Plans
-*   **Immediate Data Management:** All data management tasks MUST be performed in the same turn they are identified. Deferring these tasks is a critical process failure.
+## V. Process Improvement & Future Plans
+*   **Immediate Data Management:** All data management tasks MUST be performed in the same turn they are identified.
 *   **Hypothesis Testing:** When stuck, I must systematically test alternative hypotheses instead of getting locked into one approach. I will document these tests and their outcomes in my notepad.
 *   **Tool Refinement:** Faulty tools must be refined immediately. This is a higher priority than any gameplay action.
-
-### Aerodactyl Puzzle - Clue Found!
-*   **Confirmed:** Interacting with the sign at (4,2) was the correct step. It displayed the solved image of the Aerodactyl puzzle.
-*   **New Hypothesis:** The puzzle is solved by arranging the pieces to match the visual image of Aerodactyl, not by numerical order.
-*   **New Plan:**
-    1. Exit the puzzle interface to get a clear view of the game screen.
-    2. Analyze the solved image to determine the correct (x,y) coordinates for each of the 16 pieces.
-    3. Update the `puzzle_solver_step` tool with a new `target_grid` based on the visual solution.
-    4. Re-enter the puzzle and use the updated tool to solve it.
-
-### Aerodactyl Puzzle Solved!
-*   **Success:** The visual-based puzzle solving worked! After placing the last piece, I was warped to a new secret room: Ruins of Alph Inner Chamber.
-*   **New Objective:** Explore this new chamber to see where it leads.
