@@ -81,3 +81,6 @@
 - **Hypothesis (INVALIDATED):** Stepping on the positional trigger at (11, 4) on Pokemon Mansion 3F will open the northern gates at (16, 5) and (16, 6).
   - **Test:** Navigated to (11, 4) and stepped on the tile.
   - **Conclusion:** The gates at (16, 5) and (16, 6) remained closed. This trigger does not affect these gates.
+- **Hypothesis (INVALIDATED):** Stepping on the positional trigger at (11, 4) on Pokemon Mansion 3F will open the northern gates at (16, 5) and (16, 6).
+  - **Test:** Navigated to (11, 4) and stepped on the tile.
+  - **Conclusion:** The gates at (16, 5) and (16, 6) remained closed. This trigger does not affect these gates.
