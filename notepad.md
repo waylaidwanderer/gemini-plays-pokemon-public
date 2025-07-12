@@ -84,3 +84,4 @@
 
 # V. Immediate Tasks
 - **Map Marker To-Do:** Place a marker on Pokemon Mansion 2F (ID: 214) at (7, 2) with the label 'To/From 3F' as soon as the current battle ends.
+- **Run from Battle Mechanic:** Attempting to switch Pokémon can sometimes result in running from the battle instead. This seems to happen when pressing 'A' on the party screen. Need to test this further.
