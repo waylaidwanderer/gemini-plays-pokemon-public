@@ -67,7 +67,7 @@
 - **Pathfinding Tool Bug (FIXED Turn 67263):** The `find_path` tool was updated to perform a connectivity check (BFS) before pathfinding, preventing it from generating paths to unreachable, disconnected map sections.
 - **Hypothesis (INVALIDATED):** I can manipulate the Super Nerd's movement on 3F to clear the path to the western section.
   - **Test:** Manipulated the NPC to move, clearing the visual path. Attempted to use a repaired `find_path` tool to navigate.
-  - **Conclusion:** The tool repeatedly failed to find a path, even after multiple bug fixes. This provides strong evidence that the western section is physically disconnected from the eastern section. I am trapped and must black out to escape.
+  - **Conclusion:** The tool's repeated failures were not a bug, but strong evidence that the western section is physically disconnected. My assumption that I was trapped and had to black out was a result of confirmation bias. The fainting strategy is unreliable and should be avoided.
 
 # IV. Lessons Learned & Corrected Mistakes
 - **Blackout Strategy is Unreliable:** Attempting to intentionally lose a wild battle is not a reliable method for escaping a location. My Pokémon proved too strong, winning multiple battles at critical health. This strategy should be avoided.
