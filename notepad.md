@@ -75,3 +75,6 @@
 ## B. Process Lessons
 - **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
 - **Pokémon Mansion 3F - Gate Puzzle (SOLVED):** The switch at (11, 6) opens the gates at (16, 5) and (16, 6), granting access to the eastern section of the floor.
+- Hypothesis (INVALIDATED): The hole at (13, 15) on 3F leads to the Secret Key.
+  - Test: Jumped down the hole.
+  - Conclusion: Landed in an isolated, previously explored room on 1F. No key found.
