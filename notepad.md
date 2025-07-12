@@ -40,12 +40,6 @@
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 # III. Archive: Solved Puzzles & Lessons Learned
-- **Hypothesis (INVALIDATED):** The Secret Key is a hidden item in the southern area of B1F.
-  - **Test Plan:** Systematically used the Itemfinder on every reachable tile in the southern area of B1F.
-  - **Conclusion:** After multiple attempts (Turns 66131, 66134, 66137), the Itemfinder did not respond on any tile. The key is not a hidden item in this section.
-- **Hypothesis (INVALIDATED):** The switch on B1F at (19, 26) affects gates on other floors.
-  - **Test:** Flipped the switch at (19, 26).
-  - **Conclusion:** The switch opened the western gates on B1F at (14, 23) and (14, 24), revealing a new path on the current floor. It does not appear to be related to other floors.
 - **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
 - **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear.
 - **Pokémon Mansion 1F/B1F - Gate Puzzle (SOLVED):** A combination of a single toggle switch (at 19, 26 on B1F) and multiple positional triggers (e.g., around 19, 21 on B1F) control the various gates. This is a complex interaction that requires careful navigation to avoid re-triggering gates.
