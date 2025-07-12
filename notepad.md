@@ -47,8 +47,11 @@
 - **Hypothesis (INVALIDATED):** The Secret Key is located somewhere in Diglett's Cave.
   - **Test:** Systematically explore Diglett's Cave using the Itemfinder.
   - **Conclusion:** No key found.
-- **Hypothesis (ACTIVE):** The Secret Key is located somewhere inside the Pokémon Mansion on Cinnabar Island.
-  - **Test:** Systematically explore the Pokémon Mansion.
+- **Hypothesis (INVALIDATED - Attempt 1):** The Secret Key is a hidden item on Pokémon Mansion 2F.
+  - **Test:** Used Itemfinder at (4, 22) near the diary.
+  - **Conclusion:** Itemfinder did not respond. No hidden item found.
+- **Hypothesis (ACTIVE):** The Secret Key is located on Pokémon Mansion 3F or in the basement.
+  - **Test:** Systematically explore the remaining floors.
   - **Conclusion:** In progress.
 
 # IV. Archive: Solved Puzzles & Lessons Learned
