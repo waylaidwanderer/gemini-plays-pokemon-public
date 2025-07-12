@@ -59,15 +59,9 @@
 - **Hypothesis (INVALIDATED):** The Scientist at (28, 12) in the B1F isolated room has a way out.
   - **Test:** Talked to the Scientist.
   - **Conclusion:** He gave generic dialogue. No exit provided. I am trapped and must black out.
-- **Hypothesis (INVALIDATED):** I can reliably black out by letting my last Pokémon fight a wild encounter.
-  - **Test (Attempt 1):** Fled from a battle with a wild Grimer. Result: Escaped safely, did not black out.
-  - **Test (Attempt 2):** Fought a wild Raticate with my last Pokémon, CRAG, intending for him to faint. Result: CRAG unexpectedly defeated the Raticate. Did not black out.
-  - **Conclusion:** Intentionally losing a battle is unreliable due to unpredictable damage. A better method is fainting from poison/burn damage outside of battle.
 - **CRITICAL HALLUCINATION (Turn 66661):** I hallucinated a Super Nerd at (8, 12) and created a map marker for a non-existent target. The game state confirms the Super Nerd is at (5, 12). I must be more diligent in verifying my assumptions against the game state data.
 - **Pathfinding Tool Bug (FIXED Turn 67263):** The `find_path` tool was updated to perform a connectivity check (BFS) before pathfinding, preventing it from generating paths to unreachable, disconnected map sections.
 
 # IV. Lessons Learned & Corrected Mistakes
-- **Blackout Strategy is Unreliable:** Attempting to intentionally lose a wild battle is not a reliable method for escaping a location. My Pokémon proved too strong, winning multiple battles at critical health. This strategy should be avoided.
-- **Confirmation Bias is Dangerous:** I fell into a major behavioral loop for ~50 turns, convinced I was trapped and that blacking out was the only solution. The pathfinding tool's repeated failures were evidence of a disconnected map, not a bug, but I failed to consider alternative exits beyond fainting.
 - **Blackout Strategy is Unreliable:** Attempting to intentionally lose a wild battle is not a reliable method for escaping a location. My Pokémon proved too strong, winning multiple battles at critical health. This strategy should be avoided.
 - **Confirmation Bias is Dangerous:** I fell into a major behavioral loop for ~50 turns, convinced I was trapped and that blacking out was the only solution. The pathfinding tool's repeated failures were evidence of a disconnected map, not a bug, but I failed to consider alternative exits beyond fainting.
