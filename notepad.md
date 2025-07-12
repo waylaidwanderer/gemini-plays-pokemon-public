@@ -52,3 +52,4 @@
 # V. Core Principles & Lessons Learned
 - **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. I have failed at this in the past by not immediately documenting failed hypotheses.
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it.
+- **Hypothesis (INVALIDATED):** Interacting with the diary at (7, 13) will solve the puzzle. (Test: Interacted with the diary. Conclusion: The Super Nerd at (5, 12) did not move.)
