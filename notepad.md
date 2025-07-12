@@ -38,10 +38,13 @@
 # II. Current Puzzles & Hypotheses
 
 ## Pokemon Mansion 3F - Moving Super Nerd Puzzle
-- **Observation:** The Super Nerd at (7, 12) moves based on my position. His movement seems designed to block me, but the core mechanic is a 'reset' based on my own position.
-- **Key Discovery (Hypothesis 4 Confirmed):** The Super Nerd's reset position is dependent on my X-coordinate when I step off row 12 to trigger the reset. Resetting from X=8 put him at (6, 12). Resetting from X=10 put him at (9, 12).
-- **Active Hypothesis:** I need to find the correct X-coordinate to stand on when I trigger the reset, which will move the Super Nerd to a position that unblocks the path at (2, 12).
-- **Test Plan:** Systematically test reset positions by moving along row 12, stepping up to row 11 to trigger the reset, and documenting the Super Nerd's new position each time.
+- **Major Correction:** My previous hypotheses were based on a critical error. I mistook the impassable tiles at (3, 12) and (4, 12) for part of the puzzle. They are simply walls. The puzzle is not about herding the Super Nerd west.
+- **New Observation:** The Super Nerd's movement is confirmed to be a reset mechanic based on my X-coordinate when stepping off row 12. However, this may be a red herring.
+- **New Hypothesis:** The solution involves the statue switch at (11, 6). Interacting with it may change the Super Nerd's behavior or open a new path entirely.
+- **New Test Plan:**
+  1. Navigate to the statue switch at (11, 6).
+  2. Activate the switch.
+  3. Return to the Super Nerd's location and observe any changes to his behavior or the environment.
 
 # IV. Archive: Solved Puzzles & Invalidated Hypotheses
 - **Moving Super Nerd Puzzle - Hypothesis (INVALIDATED):** I can solve the puzzle by herding the Super Nerd into the eastern corner. (Test: Attempted to move west. Conclusion: Blocked by impassable walls at (3,12) and (4,12), which I initially mistook for invisible walls.)
