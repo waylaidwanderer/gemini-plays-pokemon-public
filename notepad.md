@@ -78,3 +78,6 @@
 - Hypothesis (INVALIDATED): The hole at (13, 15) on 3F leads to the Secret Key.
   - Test: Jumped down the hole.
   - Conclusion: Landed in an isolated, previously explored room on 1F. No key found.
+- Hypothesis (UNTESTED): The switch on B1F at (19, 26) affects gates on other floors.
+  - Test: Go to B1F, flip the switch, then check gate states on 1F, 2F, and 3F.
+  - Rationale: This is an alternative to the 'fall down a hole' theory and would test for more complex cross-floor puzzle mechanics.
