@@ -40,7 +40,6 @@
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 # III. Archive: Solved Puzzles & Lessons Learned
-- **Pokémon Mansion - Gate Puzzles (SOLVED):** The mansion's gates are controlled by a combination of toggle switches and positional triggers on multiple floors. The B1F puzzle involves two switches (19, 26 and 21, 4) and multiple floor triggers that open and close different sets of gates, requiring careful, non-linear navigation.
 - **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
 - **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear.
 - **Rock Tunnel B1F - Walk-Through NPC (INVALIDATED):** My previous note claimed the Super Nerd at (4, 6) was walkable. Repeated attempts (Turns 64707, 64708, 64709) have proven this false. He consistently blocks movement.
