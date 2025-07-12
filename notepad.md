@@ -1,12 +1,6 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. Current Objectives & Plans
-*   **Primary Goal:** Find and defeat the Olivine City Gym Leader.
-*   **Secondary Goal:** Find a way to ascend the Olivine Lighthouse. My hypothesis is that the Gym Leader is at the top, and I need to help the sick Pokémon there.
-*   **Tertiary Goal:** Find more BERRIES to heal the sick Miltank on Route 39.
-*   **Current Plan:** After a long detour in the Ruins of Alph, I am now back on Route 32. My plan is to travel south, exploring the route incrementally, to reach Union Cave and eventually Olivine City.
-
-## II. Game Systems & Mechanics
+## I. Game Systems & Mechanics
 
 ### Tile Traversal Protocol
 - **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately.
@@ -46,15 +40,15 @@
     *   **ICE BERRY:** Heals burn.
 *   **Haircuts:** Increases a Pokémon's happiness.
 
-## III. Blocked Paths & Story Gates
+## II. Blocked Paths & Story Gates
 *   **Route 37 Trainer Blockade:** Twins Ann & Anne disguised as trees block the path north at (6, 12) and (7, 12).
 *   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31).
 
-## IV. Solved Puzzles & Completed Quests
+## III. Solved Puzzles & Completed Quests
 *This section is for major, multi-step puzzles that have been fully resolved.*
 
-## V. Agent & Tool Ideas
+## IV. Agent & Tool Ideas
 *   **`route_planner` agent:** An agent that can break down long, multi-map journeys into a sequence of smaller, more manageable navigation goals (e.g., intermediate towns or landmarks). This would help avoid `pathfinder` failures on complex routes.
 
-## Area and Navigation Insights
+## V. Area and Navigation Insights
 *   **Route 32 Pier:** The pier is divided into multiple sections by one-way ledges. The easternmost section (where Cooltrainer M is) is a one-way path heading south. It does not connect directly to the main pier area where the other fishers are.
