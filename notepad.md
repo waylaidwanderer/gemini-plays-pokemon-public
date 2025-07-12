@@ -56,3 +56,12 @@
 
 # VI. Reminders
 - **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine.
+
+# VII. Tool Debugging
+## Pathfinder Tool
+- **Status:** Critically flawed. Fails to find valid paths, incorrectly reporting walkable tiles as unwalkable.
+- **Last Known Good Logic:** The `is_walkable` function tested in the `run_code` diagnostic script on turn 67856 was confirmed to work correctly.
+- **Debugging Plan (as of Turn 67861):**
+  1. Use `code_debugger_agent` to get structured advice on fixing the A* algorithm logic in the main `pathfinder` tool.
+  2. Implement the agent's suggestions.
+  3. Systematically test the fixed tool on a known-good path.
