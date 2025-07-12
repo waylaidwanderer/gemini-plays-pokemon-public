@@ -52,8 +52,12 @@
   - **Test:** Pressed the switch at (19, 26).
   - **Conclusion:** The switch opened the western gates on B1F at (14, 23) and (14, 24), revealing a new path. It does not appear to be related to 3F.
 
-- **Hypothesis (ACTIVE):** The Secret Key is located in the newly discovered western area of the Pokémon Mansion B1F.
-  - **Test:** Explore the area west of the gates at (14, 23).
+- **Hypothesis (INVALIDATED):** The Secret Key is located in the western area of the Pokémon Mansion B1F.
+  - **Test:** Explored the area west of the gates at (14, 23).
+  - **Conclusion:** The path leads to a dead end with a Full Restore. No key found.
+
+- **Hypothesis (ACTIVE):** The switch on B1F is connected to the hidden item on 3F. The item is in an area only accessible by falling through a specific hole on 3F, and the switch enabled its appearance.
+  - **Test:** Return to 3F and use the Itemfinder near the holes.
   - **Conclusion:** In progress.
 
 # IV. Archive: Solved Puzzles & Lessons Learned
