@@ -72,3 +72,6 @@
 - **Hypothesis (Route 12 Fisherman):** The Fisherman at (15, 32) is a standard trainer battle.
   - **Test:** Interact with the Fisherman using the 'A' button.
   - **Conclusion (INVALIDATED):** Multiple presses of 'A' and 'B' did not initiate a battle or advance dialogue. I was able to move away freely. This is not a standard battle encounter.
+
+## B. Tool & Agent Ideas (Post-Reflection)
+- **Inventory Navigator:** Create a tool that takes an item name as input, searches the `Inventory` list in the game state, and returns the number of `Up` or `Down` presses required to reach it from the current cursor position. This would eliminate tedious manual scrolling.
