@@ -60,3 +60,4 @@
 *   **Conclusion:** The southern and western water routes in Union Cave B2F are isolated dead ends. My `pathfinder` tool repeatedly failed to find a path, and manual exploration confirmed this. I must exit Union Cave via the main path to proceed.
 *   **Alternative Hypothesis:** There is a hidden switch or event I missed that connects the water routes in Union Cave B2F.
 *   **Test Plan:** If all other routes in the game are exhausted, I can return to systematically check every wall tile in the B2F water areas for hidden passages. This is a low-priority test for now.
+*   **Conclusion:** The southwestern part of Union Cave 1F (accessed via ladder from B1F at (3,33)) is a dead end due to one-way ledges. The only exit is back down the ladder.
