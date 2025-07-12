@@ -81,3 +81,6 @@
   - **Test:** Scrolled through all 55 items in my bag.
   - **Conclusion (INVALIDATED):** The Secret Key is not in my inventory. Moving to Hypothesis 2.
 - **Pathfinding Tool Bug (Turn 67107):** The `find_path` tool incorrectly generated a path from (29, 8) to (7, 2) on Pokemon Mansion 2F, failing to recognize that the eastern and western wings are isolated. This is a critical bug that needs to be fixed. The tool must be updated to correctly handle disconnected map sections.
+
+# V. Immediate Tasks
+- **Map Marker To-Do:** Place a marker on Pokemon Mansion 2F (ID: 214) at (7, 2) with the label 'To/From 3F' as soon as the current battle ends.
