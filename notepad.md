@@ -30,6 +30,7 @@
 - **'No Will to Fight':** A fainted or sleeping Pokémon cannot be switched into battle.
 - **Safari Zone:** Has a time limit. When it expires, the player is warped back to the Safari Zone Gate.
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center.
+- **Run from Battle Mechanic:** Attempting to switch Pokémon can sometimes result in running from the battle instead. This seems to happen when pressing 'A' on the party screen. Need to test this further.
 
 ## C. Area & Navigation Insights
 - **Rock Tunnel B1F:** This area is divided into multiple isolated sections. The eastern ladder at (34, 26) is not accessible from the central corridor entrance.
@@ -55,7 +56,7 @@
 - **Hypothesis (INVALIDATED):** The Secret Key is located somewhere in Diglett's Cave.
   - **Test:** Systematically explore Diglett's Cave using the Itemfinder.
   - **Conclusion:** No key found.
-- **Hypothesis (INVALIDATED):** The Secret Key is located in the western area of the Pokémon Mansion B1F.
+- **Hypothesis (INVALIDATED):** The Secret Key is in the western area of the Pokémon Mansion B1F.
   - **Test:** Explored the area west of the gates at (14, 23).
   - **Conclusion:** The path leads to a dead end with a Full Restore. No key found.
 - **Hypothesis (INVALIDATED):** The Scientist at (28, 12) in the B1F isolated room has a way out.
@@ -81,7 +82,3 @@
   - **Test:** Scrolled through all 55 items in my bag.
   - **Conclusion (INVALIDATED):** The Secret Key is not in my inventory. Moving to Hypothesis 2.
 - **Pathfinding Tool Bug (Turn 67107):** The `find_path` tool incorrectly generated a path from (29, 8) to (7, 2) on Pokemon Mansion 2F, failing to recognize that the eastern and western wings are isolated. This is a critical bug that needs to be fixed. The tool must be updated to correctly handle disconnected map sections.
-
-# V. Immediate Tasks
-- **Map Marker To-Do:** Place a marker on Pokemon Mansion 2F (ID: 214) at (7, 2) with the label 'To/From 3F' as soon as the current battle ends.
-- **Run from Battle Mechanic:** Attempting to switch Pokémon can sometimes result in running from the battle instead. This seems to happen when pressing 'A' on the party screen. Need to test this further.
