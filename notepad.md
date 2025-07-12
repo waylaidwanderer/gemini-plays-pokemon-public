@@ -46,30 +46,12 @@
 - **Hypothesis (INVALIDATED):** The Secret Key is located somewhere in Diglett's Cave.
   - **Test:** Systematically explore Diglett's Cave using the Itemfinder.
   - **Conclusion:** No key found.
-- **Hypothesis (INVALIDATED - Attempt 1):** The Secret Key is a hidden item on Pokémon Mansion 2F.
+- **Hypothesis (INVALIDATED):** The Secret Key is a hidden item on Pokémon Mansion 2F.
   - **Test:** Used Itemfinder at (4, 22) near the diary.
   - **Conclusion:** Itemfinder did not respond. No hidden item found.
-- **Hypothesis (PARTIALLY VALIDATED):** There is a hidden item on Pokémon Mansion 3F.
-  - **Test:** Used Itemfinder at (6, 13) near the diary.
-  - **Conclusion:** Itemfinder responded. There is an item nearby.
-- **Hypothesis (INVALIDATED):** The hidden item is on the tile at (6, 13).
-  - **Test 1:** Interact with (6, 13) while facing the diary at (7, 13). **Result:** Read the diary.
-  - **Test 2:** Interact with (6, 13) while facing away from the diary at (5, 13). **Result:** Nothing happened.
-  - **Conclusion:** The item is not picked up by standing on the tile and pressing A.
-- **Hypothesis (INVALIDATED):** The hidden item is on tile (6, 13) and must be interacted with from an adjacent tile.
-  - **Test:** Move to (6, 12) and interact with the empty space at (6, 13).
-  - **Conclusion:** Nothing happened.
-- **Hypothesis (INVALIDATED):** The hidden item is on tile (6, 12).
-  - **Test:** Interact with the current tile (6, 12).
-  - **Conclusion:** Nothing happened.
-- **Hypothesis (INVALIDATED):** The hidden item is on the tile at (6, 13) and is picked up by standing on it.
-  - **Test:** Stood on (6, 13) and pressed A.
-  - **Conclusion:** Nothing happened.
-- **Hypothesis (INVALIDATED):** The hidden item is revealed by interacting with Pikachu, who is at (6, 12).
-  - **Test:** Faced Pikachu from (6, 13) and pressed A.
-  - **Conclusion:** Nothing happened. The item is not obtained by interacting with Pikachu.
+- **Hypothesis (INVALIDATED):** All hypotheses related to finding a hidden item on 3F by direct interaction at/near (6, 13) have failed after multiple tests. The Itemfinder confirmed an item is nearby, but it is not obtainable through simple interaction.
 - **Hypothesis (ACTIVE):** The Scientist's hint ('Try jumping off!') is the key. The hidden item is in an area only accessible by falling through a specific hole on 3F.
-  - **Test:** Systematically explore the rooms below each hole.
+  - **Test:** Systematically explore the areas below each hole on the 3rd floor.
   - **Conclusion:** In progress.
 
 # IV. Archive: Solved Puzzles & Lessons Learned
