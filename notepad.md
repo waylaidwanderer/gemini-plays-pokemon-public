@@ -4,13 +4,13 @@
 
 ### Tile Traversal Protocol
 - **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately.
-- **Movement Test:** Attempt to move *into* and *out of* the tile from all 4 cardinal directions to verify passability.
+- **Movement Test:** Attempt to move *into* and *out of* the tile from all 4 cardinal directions.
 - **Interaction Test:** If movement fails, I must attempt to interact with the tile by facing it and pressing 'A'.
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WINDOW`, `WEIRD_TREE`, `PRINTER`, `CUT_TREE` (impassable after being cut).
-*   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
+*   **Impassable:** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WINDOW`, `WEIRD_TREE`, `PRINTER`.
+*   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `CUT_TREE` (becomes traversable after using CUT).
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile), `PIT` (Acts as a warp when stepped on).
 *   **One-Way Ledges:**
     *   `LEDGE_HOP_DOWN`: A one-way ledge that can only be hopped **DOWN**.
@@ -20,7 +20,6 @@
 *   **Special Requirement:**
     *   `WATER` (Requires HM03 Surf).
     *   `BREAKABLE_ROCK` (Requires Rock Smash).
-    *   `HEADBUTT_TREE` (Likely requires the move Headbutt. Interaction with 'A' button from an adjacent tile has no effect).
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Traversable. Activated by pressing the corresponding direction while standing on the tile to trigger a warp.
     *   `WARP_CARPET_DOWN`: Traversable. Activated by pressing 'Down' while standing on the tile to trigger a warp.
@@ -41,7 +40,7 @@
 ## II. Blocked Paths & Story Gates
 *   **Route 37 Trainer Blockade:** Twins Ann & Anne disguised as trees block the path north at (6, 12) and (7, 12).
 *   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31).
-*   **Ilex Forest Blockade:** The path east at (8, 26) is blocked by a `HEADBUTT_TREE` that likely requires the move Headbutt.
+*   **Ilex Forest Blockade:** A `HEADBUTT_TREE` at (9, 26) blocks the path. Needs further testing.
 
 ## III. Strategic Plans & Hypotheses
 
@@ -60,9 +59,7 @@
 *   **Status:** On hold. Requires backtracking for BERRIES, and the primary goal is more critical.
 
 ### Hypotheses & Verified Conclusions
-*   **Conclusion:** The southern and western water routes in Union Cave B2F are isolated dead ends. My `pathfinder` tool repeatedly failed to find a path, and manual exploration confirmed this.
-*   **Conclusion:** The southwestern part of Union Cave 1F (accessed via ladder from B1F at (3,33)) is a dead end due to one-way ledges.
-*   **Conclusion:** Interacting with the `HEADBUTT_TREE` at (9, 26) from (8, 26) had no effect. It's likely impassable without the move Headbutt.
-*   **Conclusion (NEW):** The `CUT_TREE` tile at (8, 25) is impassable after being cut. My previous attempts to path through it were based on a flawed assumption.
-### Pathfinder Limitations
-*   **Ilex Forest Maze:** The `pathfinder` tool failed to find a path from (8, 28) to (1, 6), likely because it cannot navigate around the impassable `CUT_TREE` at (8, 25) within this specific maze structure. Manual navigation is required.
+*   **Conclusion:** The southern and western water routes in Union Cave B2F are isolated dead ends.
+*   **Conclusion:** The southwestern part of Union Cave 1F is a dead end due to one-way ledges.
+*   **Conclusion:** The `CUT_TREE` tile at (8, 25) was not permanently impassable. Interacting with it again with 'A' allowed me to use CUT.
+*   **Hypothesis (NEW):** `HEADBUTT_TREE`s might be passable by using the move 'Headbutt' from the Pokémon party menu while facing the tree, not just by interacting with 'A'.
