@@ -31,18 +31,20 @@
 - **Safari Zone:** Has a time limit. When it expires, the player is warped back to the Safari Zone Gate.
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center.
 - **Run from Battle Mechanic:** Attempting to switch Pokémon from the party screen can sometimes result in running from the battle instead.
+- **FLY in battle:** The move FLY can be used to defeat a wild Pokémon and end the battle, even when indoors. This acts as an escape method.
 
 ## C. Area & Navigation Insights
 - **Rock Tunnel B1F:** This area is divided into multiple isolated sections. The eastern ladder at (34, 26) is not accessible from the central corridor entrance.
 
 # II. Current Puzzles & Hypotheses
+- **Pokemon Mansion 1F - Escape the East Wing:** I am currently trapped in the eastern wing of the mansion. The exit appears to be a `closed_gate` at (27, 28) and (28, 28). There are no visible switches. Pikachu is standing at (28, 27). Hypothesis: The solution involves interacting with or moving through Pikachu.
 
 # IV. Archive: Solved Puzzles & Invalidated Hypotheses
 - **Pokemon Mansion 3F - Moving Super Nerd Puzzle:** Solved. The solution was to leave the floor and return, which resets the NPC's position.
 - **Pokemon Mansion 1F - Gate Puzzles:** Solved. The switch at (3, 6) toggles the state of the eastern gates at (25, 14)/(26, 14) and the western gates at (17, 8)/(18, 8). This is an alternating door puzzle confirmed by both observation and NPC dialogue. Stepping on certain tiles also triggers gate closures, requiring careful navigation.
 
 # V. Core Principles & Lessons Learned
-- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. I failed at this by not immediately fixing my `pathfinder` tool.
+- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. I failed at this by not immediately fixing my `pathfinder` tool and notepad.
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it.
 - **Confirmation Bias is Dangerous:** My `pathfinder` tool wasn't broken, my understanding of the map was. I assumed the tool was failing because it didn't match my visual interpretation, leading to wasted time. **Lesson:** Trust the tool's output over visual inspection, as it reads the ground-truth map data. A systematic, evidence-based debugging process (using diagnostic tools and agents) is essential.
 
