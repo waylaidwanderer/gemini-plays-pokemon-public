@@ -61,3 +61,7 @@
 - **Hypothesis (INVALIDATED):** The Scientist at (28, 12) in the B1F isolated room has a way out.
   - **Test:** Talked to the Scientist.
   - **Conclusion:** He gave generic dialogue. No exit provided. I am trapped and must black out.
+- **Hypothesis (INVALIDATED):** I can reliably black out by letting my last Pokémon fight a wild encounter.
+  - **Test (Attempt 1):** Fled from a battle with a wild Grimer. Result: Escaped safely, did not black out.
+  - **Test (Attempt 2):** Fought a wild Raticate with my last Pokémon, CRAG, intending for him to faint. Result: CRAG unexpectedly defeated the Raticate. Did not black out.
+  - **Conclusion:** Intentionally losing a battle is unreliable due to unpredictable damage. A better method is fainting from poison/burn damage outside of battle.
