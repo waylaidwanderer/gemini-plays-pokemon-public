@@ -27,10 +27,6 @@
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Traversable. Activated by pressing the corresponding direction while standing on the tile to trigger a warp.
     *   `WARP_CARPET_LEFT`: Traversable. Activated by pressing 'Left' while standing on the tile to trigger a warp.
 
-### Other Mechanics
-*   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
-*   **Haircuts:** Increases a Pokémon's happiness.
-
 ## II. Strategic Plans & Hypotheses
 
 ### Current Quest: The Secret Medicine
