@@ -44,9 +44,6 @@
   - **Rationale:** I have exhausted all visible paths and interactive objects. A hidden item is the most likely remaining possibility.
 
 # IV. Archive: Solved Puzzles & Lessons Learned
-- **Hypothesis (INVALIDATED):** The newly opened western path in the basement leads to the Secret Key.
-  - **Test:** Explored the area west of the gates at (14, 23).
-  - **Conclusion:** The path leads to a dead end with a Full Restore. No key found.
 
 # IV. Archive: Solved Puzzles & Lessons Learned
 - **Hypothesis (INVALIDATED):** The switch on B1F at (19, 26) affects gates on other floors.
