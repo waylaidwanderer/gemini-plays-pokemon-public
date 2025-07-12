@@ -57,8 +57,11 @@
   - **Test 1:** Interact with (6, 13) while facing the diary at (7, 13). **Result:** Read the diary.
   - **Test 2:** Interact with (6, 13) while facing away from the diary at (5, 13). **Result:** Nothing happened.
   - **Conclusion:** The item is not picked up by standing on the tile and pressing A.
-- **Hypothesis (ACTIVE):** The hidden item is on a tile *adjacent* to (6, 13).
+- **Hypothesis (INVALIDATED):** The hidden item is on tile (6, 13) and must be interacted with from an adjacent tile.
   - **Test:** Move to (6, 12) and interact with the empty space at (6, 13).
+  - **Conclusion:** Nothing happened.
+- **Hypothesis (ACTIVE):** The hidden item is on tile (6, 12).
+  - **Test:** Interact with the current tile (6, 12).
   - **Conclusion:** In progress.
   - **Test:** Systematically explore the remaining floors.
   - **Conclusion:** In progress.
