@@ -36,27 +36,15 @@
 *   **Current Hypothesis:** The medicine will be given to me after defeating the Cianwood City Gym Leader. This is the most common method of story progression in Pokémon games.
 *   **Alternative Hypothesis:** The medicine is held by an NPC I haven't spoken to yet, or is hidden behind a boulder that requires ROCK SMASH.
 
-### Verified Conclusions
-*   The Olivine Lighthouse has no further upward paths. It is a dead end for now.
-*   The sea route directly south of the Olivine City pier is blocked by buoys.
-*   There is no pharmacy or obvious medicine-related building in Cianwood City. All buildings have been explored.
-
-### Untested Hypotheses
-*   **WHIRLPOOL Mechanics:** My rival mentioned the Whirl Islands are blocked by whirlpools. I need to test a `WHIRLPOOL` tile to see if it requires a specific HM. I will use my `pathfinder` to navigate to an adjacent tile and then interact with it.
-
 ### Cianwood Gym Puzzle
-### Cianwood Gym Puzzle
-*   **Hypothesis 1 (Trainers):** Defeating trainers causes boulders to appear or disappear, changing the gym layout. This was invalidated as interacting with the trainers yielded no battle.
-*   **Hypothesis 2 (Statue Switches - INVALIDATED):** The statues at the gym entrance might be switches.
-    *   **Test 1 (Left Statue @ 3,15):** Interacting with the statue only displayed the gym name.
-    *   **Test 2 (Right Statue @ 6,15):** Interacting with the statue also only displayed the gym name.
-    *   **Conclusion:** The statues are not switches. This hypothesis is fully invalid.
-*   **Hypothesis 3 (Agent Advice - REPEATEDLY INVALIDATED):** The `gym_puzzle_advisor`, even after multiple refinements, has repeatedly suggested battling Black Belt Yoshi at (3, 12) or moving to an impassable tile like (1, 8). 
-    *   **Tests:** Multiple attempts to interact with Yoshi have only resulted in dialogue, with no battle initiated, regardless of player position or recent movement. The agent also recommended moving into a wall.
-    *   **Conclusion:** The agent, in its current state, is unable to comprehend the dynamic, movement-based nature of this puzzle. Its recommendations to battle or move to specific tiles have been consistently wrong. It must be refined further or its advice must be treated with extreme caution.
-*   **New Hypothesis (Eastern Path):** The western path is a confirmed dead end. The solution must involve exploring the eastern side path, which remains untouched.
+*   **Confirmed Mechanic:** Movement on the side paths (x=1 and x=8) is the PRIMARY mechanism for changing the state of the gym (making trainers/boulders appear, disappear, or move).
+*   **Hypothesis 1 (Trainers - INVALIDATED):** Defeating trainers causes boulders to appear or disappear. This was invalidated as interacting with the trainers yielded no battle.
+*   **Hypothesis 2 (Statue Switches - INVALIDATED):** The statues at the gym entrance are switches. This was invalidated as interacting with both statues only displayed the gym name.
+*   **Hypothesis 3 (Agent Assistance - INVALIDATED):** The `gym_puzzle_advisor` agent, even after multiple refinements, has repeatedly suggested battling trainers who are not battle-ready or moving into walls. The agent is fundamentally unable to solve this dynamic puzzle. It will not be used for this gym.
+*   **Hypothesis 4 (Western Path - INVALIDATED):** The western side path (x=1) is a dead end. Full exploration yielded no path forward.
+*   **Current Working Hypothesis (Eastern Path):** The solution must involve exploring the eastern side path (x=8), which remains untouched.
+
 ### Future Plans & Untested Theories
 *   **Tool Idea (`gym_state_tester`):** Create a tool that takes a sequence of moves as input and executes them, reporting back if any map objects appear, disappear, or move. This would automate testing the side paths.
 *   **Alternative Puzzle Hypothesis 1 (Step Count):** The puzzle might trigger based on the total number of steps taken, not location. **Test:** Walk back and forth on a non-side-path tile (e.g., at the entrance) for 50 steps and observe for changes.
 *   **Alternative Puzzle Hypothesis 2 (Facing Direction):** The trigger might depend on the direction the player is facing when stepping onto a specific tile. **Test:** Step onto a known trigger tile like (1, 14) while facing different cardinal directions.
-*   **Untested Assumption:** I am assuming the solution starts on the western path. The eastern path could be equally important or even the first step.
