@@ -41,3 +41,4 @@
 *   The sea route directly south of the Olivine City pier is blocked by buoys.
 *   `HEADBUTT_TREE`s might be passable by using the move 'Headbutt'. (Requires testing).
 *   **Untested:** `WHIRLPOOL` (Requires testing).
+*   **Traversable (Verified):** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `CUT_TREE` (becomes traversable after using CUT).
