@@ -56,7 +56,7 @@
   - **Test:** Explored the area west of the gates at (14, 23).
   - **Conclusion:** The path leads to a dead end with a Full Restore. No key found.
 
-# IV. NPC Trades
+## D. NPC Trades
 - **Route 5 (Underground Path):** Little Girl wants Cubone, offers Machoke.
 
 # V. Future Development & Lessons
