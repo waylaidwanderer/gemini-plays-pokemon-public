@@ -60,9 +60,7 @@
 - **Hypothesis (INVALIDATED):** The hole at (13, 15) on 3F leads to the Secret Key.
   - **Test:** Jumped down the hole.
   - **Conclusion:** Landed in an isolated, previously explored room on 1F. No key found.
-- **Hypothesis (INVALIDATED):** The Secret Key was on the S.S. Anne dock.
-  - **Test:** Entered the S.S. Anne warp.
-  - **Conclusion:** The ship departed. This was a one-time event and did not yield the key.
+
 - **Hypothesis (INVALIDATED):** The Secret Key is located somewhere in Diglett's Cave.
   - **Test:** Systematically explore Diglett's Cave using the Itemfinder.
   - **Conclusion:** No key found.
