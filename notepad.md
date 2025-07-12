@@ -66,8 +66,11 @@
 - **Hypothesis (INVALIDATED):** The hidden item is on the tile at (6, 13) and is picked up by standing on it.
   - **Test:** Stood on (6, 13) and pressed A.
   - **Conclusion:** Nothing happened.
-- **Hypothesis (ACTIVE):** The hidden item is revealed by interacting with Pikachu, who is at (6, 12).
-  - **Test:** Face Pikachu from (6, 13) and press A.
+- **Hypothesis (INVALIDATED):** The hidden item is revealed by interacting with Pikachu, who is at (6, 12).
+  - **Test:** Faced Pikachu from (6, 13) and pressed A.
+  - **Conclusion:** Nothing happened. The item is not obtained by interacting with Pikachu.
+- **Hypothesis (ACTIVE):** The Scientist's hint ('Try jumping off!') is the key. The hidden item is in an area only accessible by falling through a specific hole on 3F.
+  - **Test:** Systematically explore the rooms below each hole.
   - **Conclusion:** In progress.
   - **Test:** Systematically explore the remaining floors.
   - **Conclusion:** In progress.
