@@ -51,10 +51,8 @@
 *   **Ho-Oh Puzzle:** Solved by manually assembling the image.
 *   **Omanyte Puzzle:** Solved by manually assembling the image.
 *   **Aerodactyl Puzzle:**
-    *   **Current Hypothesis (H1):** The puzzle is solved by visually assembling the image of Aerodactyl. This is my active strategy.
-    *   **Alternative Hypothesis (H2):** The puzzle is optional and not required for story progression.
-        *   **Test:** If H1 fails after a reasonable number of attempts (~10-15 more moves), I will exit the chamber and search for another path in `RuinsOfAlphOutside`.
-    *   **Alternative Hypothesis (H3):** The solution involves a non-visual logic, like matching edge patterns or a specific sequence. This is a lower priority to test.
+    *   **Hypothesis (H1 - Disproven):** The puzzle is not solved by visually assembling the image.
+    *   **Hypothesis (H2 - Active):** The solution is a magic square logic puzzle. The `puzzle_solver` agent provided the correct arrangement: `[[15, 1, 8, 10], [4, 5, 11, 14], [9, 7, 2, 16], [6, 12, 3, 13]]`. I am currently arranging the pieces according to this solution.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
