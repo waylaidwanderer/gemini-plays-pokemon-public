@@ -69,13 +69,12 @@
 
 # IV. Current Objective: Find the Secret Key
 
-## A. New Hypothesis: The Secret Key is on Route 12
-- **Reasoning:** All leads in the Pokémon Mansion have been exhausted and invalidated. A path on Route 12 was previously blocked by a cuttable tree at (8, 89). This represents a significant, unexplored area.
+## A. Current Hypothesis: The Secret Key is in the Pokémon Mansion
+- **Reasoning:** I have discovered a complex puzzle involving switches and positional triggers that open and close gates, preventing simple exploration. The key is likely hidden behind one of these puzzles.
 - **Plan:**
-  1. Exit the Pokémon Mansion.
-  2. Fly to Lavender Town.
-  3. Go south to Route 12.
-  4. Use Cut on the tree at (8, 89) and explore the area beyond.
+  1. Systematically test all switches and triggers on each floor.
+  2. Map the connections between the isolated sections of the mansion.
+  3. Use the holes to access otherwise unreachable areas on lower floors.
 - **Hypothesis (INVALIDATED):** The Super Nerd at (7, 12) on Pokemon Mansion 3F is walkable.
   - **Test:** Attempted pathfinding while ignoring the NPC.
   - **Conclusion:** Pathfinding failed, and system confirmed the destination was unreachable. The NPC is an impassable obstacle.
