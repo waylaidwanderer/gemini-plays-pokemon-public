@@ -39,9 +39,14 @@
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 # III. Active Hypotheses & Tests
-- **Hypothesis (ACTIVE):** The switch on B1F at (19, 26) affects gates on other floors, potentially opening a path to the Secret Key.
-  - **Test:** Go to B1F, flip the switch, then check gate states on 1F, 2F, and 3F.
-  - **Rationale:** I am trapped in the basement, and this is the only remaining interactive element that could plausibly create a new path.
+- **Hypothesis (ACTIVE):** The newly opened western path in the basement leads to the Secret Key.
+  - **Test:** Explore the western corridor.
+  - **Rationale:** Flipping the switch at (19, 26) opened this path, which was previously inaccessible. It is the only new route available.
+
+# IV. Archive: Solved Puzzles & Lessons Learned
+- **Hypothesis (INVALIDATED):** The switch on B1F at (19, 26) affects gates on other floors.
+  - **Test:** Flipped the switch at (19, 26).
+  - **Conclusion:** The switch opened the western gates on B1F at (14, 23) and (14, 24), revealing a new path on the current floor. It does not appear to be related to other floors.
 
 # IV. Archive: Solved Puzzles & Lessons Learned
 - **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
