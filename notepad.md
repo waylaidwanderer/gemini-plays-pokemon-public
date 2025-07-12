@@ -53,8 +53,10 @@
 - **Hypothesis (PARTIALLY VALIDATED):** There is a hidden item on Pokémon Mansion 3F.
   - **Test:** Used Itemfinder at (6, 13) near the diary.
   - **Conclusion:** Itemfinder responded. There is an item nearby.
-- **Hypothesis (ACTIVE):** The hidden item is on my current tile (6, 13).
-  - **Test:** Interact with the tile.
+- **Hypothesis (ACTIVE):** The hidden item is on the tile at (6, 13).
+  - **Test 1:** Interact with the tile at (6, 13) while facing the diary at (7, 13).
+  - **Conclusion:** Read the diary, no item found.
+  - **Test 2 (Next):** Interact with the tile at (6, 13) while facing away from the diary.
   - **Conclusion:** In progress.
   - **Test:** Systematically explore the remaining floors.
   - **Conclusion:** In progress.
