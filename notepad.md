@@ -9,7 +9,7 @@
 - **Ledge Test:** For any ledge-like tile, I must attempt to move up/against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
-*   **Impassable:** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WINDOW`, `WEIRD_TREE`, `PRINTER`.
+*   **Impassable:** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WINDOW`, `WEIRD_TREE`, `PRINTER`, `CUT_TREE` (impassable after being cut).
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`.
 *   **Warps:** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile), `PIT` (Acts as a warp when stepped on).
 *   **One-Way Ledges:**
@@ -18,10 +18,9 @@
     *   `LEDGE_HOP_LEFT`: A one-way ledge that can only be hopped **LEFT**.
     *   `FLOOR_UP_WALL`: A complex one-way ledge. Can move **UP** from `FLOOR` to `FLOOR_UP_WALL`. Can move **DOWN** from `FLOOR_UP_WALL` to `FLOOR` (the jump). Cannot move **DOWN** from `FLOOR` to `FLOOR_UP_WALL`.
 *   **Special Requirement:**
-    *   `CUT_TREE` (Requires HM01 Cut, becomes impassable after cutting).
     *   `WATER` (Requires HM03 Surf).
     *   `BREAKABLE_ROCK` (Requires Rock Smash).
-    *   `HEADBUTT_TREE` (Requires the move Headbutt).
+    *   `HEADBUTT_TREE` (Likely requires the move Headbutt. Interaction with 'A' button from an adjacent tile has no effect).
 *   **Complex Tiles:**
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Traversable. Activated by pressing the corresponding direction while standing on the tile to trigger a warp.
     *   `WARP_CARPET_DOWN`: Traversable. Activated by pressing 'Down' while standing on the tile to trigger a warp.
@@ -42,13 +41,15 @@
 ## II. Blocked Paths & Story Gates
 *   **Route 37 Trainer Blockade:** Twins Ann & Anne disguised as trees block the path north at (6, 12) and (7, 12).
 *   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31).
+*   **Ilex Forest Blockade:** The path east at (8, 26) is blocked by a `HEADBUTT_TREE` that likely requires the move Headbutt.
 
 ## III. Strategic Plans & Hypotheses
 
 ### Primary Goal: Travel to Cianwood City to get the SecretPotion.
-1.  **Exit Union Cave.** The most direct route is via the ladder to 1F, then the exit to Route 32.
-2.  **Travel to Olivine City.** From Route 32, I will need to head north.
-3.  **Surf West.** From Olivine City, I will use SURF to travel west across Route 40 and Route 41 to reach Cianwood City.
+1.  **Exit Ilex Forest.**
+2.  **Travel through Route 34 to Goldenrod City.** (This seems wrong, I need to go towards Olivine)
+3.  **Travel through Route 38 and 39 to Olivine City.**
+4.  **Surf West.** From Olivine City, I will use SURF to travel west across Route 40 and Route 41 to reach Cianwood City.
 
 ### Secondary Goal: Defeat the Olivine City Gym Leader
 *   **Status:** Blocked. Requires healing the sick Ampharos in the Olivine Lighthouse with the SecretPotion from Cianwood City.
@@ -57,8 +58,7 @@
 *   **Status:** On hold. Requires backtracking for BERRIES, and the primary goal is more critical.
 
 ### Hypotheses & Verified Conclusions
-*   **Conclusion:** The southern and western water routes in Union Cave B2F are isolated dead ends. My `pathfinder` tool repeatedly failed to find a path, and manual exploration confirmed this. I must exit Union Cave via the main path to proceed.
-*   **Alternative Hypothesis:** There is a hidden switch or event I missed that connects the water routes in Union Cave B2F.
-*   **Test Plan:** If all other routes in the game are exhausted, I can return to systematically check every wall tile in the B2F water areas for hidden passages. This is a low-priority test for now.
-*   **Conclusion:** The southwestern part of Union Cave 1F (accessed via ladder from B1F at (3,33)) is a dead end due to one-way ledges. The only exit is back down the ladder.
-*   **Conclusion:** Interacting with the `HEADBUTT_TREE` at (9, 26) from (8, 26) had no effect. It's likely impassable without a specific requirement, possibly the move Headbutt, which I do not currently possess.
+*   **Conclusion:** The southern and western water routes in Union Cave B2F are isolated dead ends. My `pathfinder` tool repeatedly failed to find a path, and manual exploration confirmed this.
+*   **Conclusion:** The southwestern part of Union Cave 1F (accessed via ladder from B1F at (3,33)) is a dead end due to one-way ledges.
+*   **Conclusion:** Interacting with the `HEADBUTT_TREE` at (9, 26) from (8, 26) had no effect. It's likely impassable without the move Headbutt.
+*   **Conclusion (NEW):** The `CUT_TREE` tile at (8, 25) is impassable after being cut. My previous attempts to path through it were based on a flawed assumption.
