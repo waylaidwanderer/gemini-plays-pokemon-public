@@ -68,3 +68,4 @@
 
 # V. Future Development Ideas
 - **Pathfinding Debugger Tool:** Create a custom tool that takes map XML, start/end coordinates, and provides a step-by-step analysis of why a path might fail (e.g., checking connectivity, walkability of each tile, and identifying the exact blocking tile). This would be more efficient than manual debugging.
+- **Agent Usage Reminder:** I must remember to use my `puzzle_solver_agent` for complex environmental puzzles to avoid inefficient trial-and-error.
