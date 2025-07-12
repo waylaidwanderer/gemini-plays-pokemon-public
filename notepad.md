@@ -47,13 +47,13 @@
 ## III. Puzzles & Hypotheses
 
 ### Ruins of Alph Sliding Puzzles
-*   **General Mechanics:** These are 16-piece picture puzzles on a 6x6 grid. The goal is to assemble the image in the central 4x4 area. Pieces are picked up and placed, not slid.
-*   **Ho-Oh Puzzle:** Solved by manually assembling the image.
-*   **Omanyte Puzzle:** Solved by manually assembling the image.
+*   **General Mechanics:** These are 16-piece picture puzzles on a 6x6 grid. The goal is to assemble the image in the central 4x4 area by placing pieces numerically from 1 to 16. Pieces are picked up and placed, not slid.
+*   **Ho-Oh Puzzle:** Solved.
+*   **Omanyte Puzzle:** Solved.
 *   **Aerodactyl Puzzle:**
-    *   **Failed Hypothesis (H1 - Incorrect Logic):** The puzzle is a magic square. This was tested and proven incorrect.
-    *   **Failed Hypothesis (H2 - Tool Failure):** The `puzzle_move_planner` tool failed to provide a working solution, likely due to a bug in its logic or incorrect input. 
-    *   **Current Hypothesis (H3):** The puzzle must be solved by manually placing the pieces to form the visual image of Aerodactyl. This is the current approach, as I am trapped in this area and it's the only way forward.
+    *   **Current Hypothesis:** Solving this puzzle is the only way to exit the southern area of the Ruins of Alph.
+    *   **Method:** Use the `puzzle_solver_step` tool to calculate the next single move required. This iterative approach is more reliable than previous attempts with faulty tools or manual placement.
+    *   **Alternative Hypothesis:** The puzzle is a red herring, and a different, hidden interaction is required to escape. This will only be tested if solving the puzzle yields no progress.
 
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position.
@@ -61,4 +61,4 @@
 ## IV. Process Improvement & Future Plans
 *   **Immediate Data Management:** All data management tasks MUST be performed in the same turn they are identified. Deferring these tasks is a critical process failure.
 *   **Hypothesis Testing:** When stuck, I must systematically test alternative hypotheses instead of getting locked into one approach. I will document these tests and their outcomes in my notepad.
-*   **Tool Refinement:** The `puzzle_move_planner` tool needs to be improved. Its current greedy algorithm is not robust. A future version should use a better search algorithm (like A*) and provide move sequences piece-by-piece for easier execution.
+*   **Tool Refinement:** Faulty tools must be refined immediately. This is a higher priority than any gameplay action.
