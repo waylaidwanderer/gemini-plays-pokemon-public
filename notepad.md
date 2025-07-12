@@ -41,7 +41,6 @@
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 - **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
 - **Puzzle Solver Agent Under-utilization:** I spent an excessive amount of time manually solving the Pokémon Mansion puzzle through trial and error. This was a direct violation of my process rules. I MUST remember to use the `puzzle_solver_agent` for complex environmental puzzles to generate structured hypotheses and avoid inefficient brute-force methods.
-- **Documentation Failure (Turn 67591):** I failed to consult my own map marker ('🚫 Isolated Dead End from 2F') and wasted time trying to find a non-existent path out of the room. I must check my markers before planning any navigation.
 
 # III. Archive: Solved Puzzles & Lessons Learned
 - **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
@@ -61,12 +60,9 @@
   - **Test:** Talked to the Scientist.
   - **Conclusion:** He gave generic dialogue. No exit provided. I am trapped and must black out.
 - **CRITICAL HALLUCINATION (Turn 66661):** I hallucinated a Super Nerd at (8, 12) and created a map marker for a non-existent target. The game state confirms the Super Nerd is at (5, 12). I must be more diligent in verifying my assumptions against the game state data.
-- **Pathfinding Tool Bug (FIXED Turn 67263):** The `find_path` tool was updated to perform a connectivity check (BFS) before pathfinding, preventing it from generating paths to unreachable, disconnected map sections.
 
 # IV. Lessons Learned & Corrected Mistakes
 - **Blackout Strategy is Unreliable:** Attempting to intentionally lose a wild battle is not a reliable method for escaping a location. My Pokémon proved too strong, winning multiple battles at critical health. This strategy should be avoided.
 - **Confirmation Bias is Dangerous:** I fell into a major behavioral loop for ~50 turns, convinced I was trapped and that blacking out was the only solution. The pathfinding tool's repeated failures were evidence of a disconnected map, not a bug, but I failed to consider alternative exits beyond fainting.
-
-# V. Future Development Ideas
-- **Pathfinding Tool Deletion (Turn 67583):** The `find_path` tool has been deleted due to persistent, unresolvable bugs causing it to generate invalid paths through NPCs. Future pathfinding will be done manually or with a new, more robust tool.
-- **New Pathfinding Tool:** Since manual navigation has led to repeated errors, I need to prioritize creating a new, reliable pathfinding tool.
+- **Documentation Failure (Turn 67591):** I failed to consult my own map marker ('🚫 Isolated Dead End from 2F') and wasted time trying to find a non-existent path out of the room. I must check my markers before planning any navigation.
+- **Pathfinding Tool Deletion (Turn 67621):** The `mansion_puzzle_solver` tool has been deleted due to persistent, unresolvable bugs causing it to generate invalid paths through NPCs. Future pathfinding will be done manually or with a new, more robust tool.
