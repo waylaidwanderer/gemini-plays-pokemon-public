@@ -9,7 +9,7 @@
 - **Ledge Test:** For any ledge-like tile, I must attempt to move against the apparent direction of the ledge to confirm if it is a one-way path. Document results.
 
 ### Verified Tile Types
-*   **Impassable (Verified):** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WEIRD_TREE`, `PRINTER`.
+*   **Impassable (Verified):** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WEIRD_TREE`, `PRINTER`.
 *   **Traversable (Verified):** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `CUT_TREE` (becomes traversable after using CUT).
 *   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile), `PIT` (Acts as a one-way warp when stepped on).
 *   **One-Way Ledges (Verified):**
@@ -26,9 +26,9 @@
     *   `WARP_CARPET_LEFT`: Traversable. Activated by pressing 'Left' while standing on the tile to trigger a warp.
 
 ### Untested Tile Types & Plans
-*   `WINDOW` (Untested): This tile appears in the Olivine Lighthouse. It appears impassable.
-    *   **Movement Test Plan:** Attempt to walk into a `WINDOW` tile.
-    *   **Interaction Test Plan:** Face a `WINDOW` tile and press 'A'.
+*   `WINDOW` (Tested & Impassable): These tiles are inaccessible behind walls.
+*   `BUOY` (Untested): These appear in the water south of Olivine City.
+    *   **Movement Test Plan:** Attempt to SURF onto a `BUOY` tile.
 
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
@@ -36,18 +36,14 @@
 
 ## II. Strategic Plans & Hypotheses
 
-### Current Puzzle: Olivine Lighthouse
-*   **Goal:** Ascend the lighthouse to find the sick Ampharos.
-*   **Failed Hypothesis:** The warps at (16, 11) and (17, 11) are not activated by movement or interaction. They are not the immediate path forward.
-*   **Failed Hypothesis:** The WINDOW tiles are inaccessible behind walls and cannot be interacted with.
-*   **Failed Hypothesis:** The disappearance of Gentleman Alfred was a hallucination; he is still present. No new paths have opened. I am out of leads on this floor.
+### Current Quest: The Sick Ampharos
+*   **Goal:** Find the special medicine to cure the sick Ampharos in the Olivine Lighthouse.
+*   **Verified Conclusion:** The way forward is not currently in the Lighthouse. I have exhausted all paths on 2F. The dialogue from the Gentleman NPC about needing 'ordinary medicine' not working strongly implies I must find a special cure elsewhere.
+*   **Hypothesis 1:** The special medicine is located in a different town or route. I will need to travel to find it.
+*   **Hypothesis 2:** The special medicine can be obtained from an NPC in Olivine City I have not yet spoken to, or whose dialogue has changed. I need to re-canvass the entire city.
+*   **Hypothesis 3:** The sailor on the pier at (26, 27) has a clue, but my path to him has been repeatedly blocked. This might be an invisible wall or an event trigger. My plan is to try approaching from a different angle or after talking to every other NPC in the city.
 
 ### General Hypotheses & Verified Conclusions
-*   **Conclusion:** The pits on Olivine Lighthouse 2F are one-way warps to the first floor.
 *   **Conclusion:** The southern and western water routes in Union Cave B2F are isolated dead ends.
 *   **Conclusion:** The southwestern part of Union Cave 1F is a dead end due to one-way ledges.
 *   **Hypothesis (UNTESTED):** `HEADBUTT_TREE`s might be passable by using the move 'Headbutt' from the Pokémon party menu while facing the tree. Test requires a Pokémon with the move Headbutt.
-
-## III. Tool Development Log
-
-*   **`battle_advisor` Refinement Needed:** The agent incorrectly identified Noctowl's typing, recommending a Dark move as super-effective. I need to refine its prompt to be more cautious about its internal knowledge and to better handle neutral type matchups, prioritizing STAB moves.
