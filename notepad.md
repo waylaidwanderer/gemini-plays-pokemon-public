@@ -66,3 +66,7 @@
 - **Confirmation Bias is Dangerous:** I fell into a major behavioral loop for ~50 turns, convinced I was trapped and that blacking out was the only solution. The pathfinding tool's repeated failures were evidence of a disconnected map, not a bug, but I failed to consider alternative exits beyond fainting.
 - **Documentation Failure (Turn 67591):** I failed to consult my own map marker ('🚫 Isolated Dead End from 2F') and wasted time trying to find a non-existent path out of the room. I must check my markers before planning any navigation.
 - **Pathfinding Tool Deletion (Turn 67621):** The `mansion_puzzle_solver` tool has been deleted due to persistent, unresolvable bugs causing it to generate invalid paths through NPCs. Future pathfinding will be done manually or with a new, more robust tool.
+
+# IV. Lessons Learned & Corrected Mistakes
+- **Documentation Failure (Turn 67591):** I failed to consult my own map marker ('🚫 Isolated Dead End from 2F') and wasted time trying to find a non-existent path out of the room. I must check my markers before planning any navigation.
+- **Pathfinding Tool Deletion (Turn 67621):** The `mansion_puzzle_solver` tool has been deleted due to persistent, unresolvable bugs causing it to generate invalid paths through NPCs. Future pathfinding will be done manually or with a new, more robust tool.

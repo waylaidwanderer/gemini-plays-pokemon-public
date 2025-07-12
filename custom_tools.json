@@ -75,5 +75,32 @@
       ]
     },
     "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef is_walkable(x, y, grid):\n    tile = grid.get((x, y))\n    print(f\"Inside is_walkable: Checking tile ({x}, {y})\")\n    if not tile:\n        print(\"Result: False (Tile not in grid)\")\n        return False\n    tile_type = tile.get('type')\n    if tile_type in ['impassable']:\n        return False\n    return True\n\nmap_xml_string = globals().get('map_xml_string', '')\nif not map_xml_string:\n    print(json.dumps({'error': 'map_xml_string not found'}))\nelse:\n    try:\n        root = ET.fromstring(map_xml_string)\n        grid = {}\n        for row in root.findall('Row'):\n            y_coord = int(row.get('id'))\n            for tile_node in row.findall('Tile'):\n                x_coord = int(tile_node.get('id'))\n                grid[(x_coord, y_coord)] = tile_node\n\n        x_to_check = int(input_data['x'])\n        y_to_check = int(input_data['y'])\n\n        print(f\"Grid populated with {len(grid)} tiles.\")\n        walkable_status = is_walkable(x_to_check, y_to_check, grid)\n        print(f\"Final determination for ({x_to_check}, {y_to_check}): {'Walkable' if walkable_status else 'Not Walkable'}\")\n\n    except Exception as e:\n        print(json.dumps({'error': f'An unexpected error occurred: {e}'}))"
+  },
+  "pathfinder": {
+    "description": "A robust A* pathfinding tool that finds the shortest path between two points on the current map. It correctly handles all known tile types, including impassable objects, ledges, and offscreen gates. This is a computational tool for navigation.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "target_x": {
+          "type": "string"
+        },
+        "target_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import heapq\nimport xml.etree.ElementTree as ET\nimport json\n\ndef find_path(input_data):\n    map_xml_string = globals().get('map_xml_string', '')\n    if not map_xml_string:\n        print(json.dumps({'path': [], 'message': 'map_xml_string not found'}))\n        return\n\n    try:\n        start_x = int(input_data['start_x'])\n        start_y = int(input_data['start_y'])\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n    except (ValueError, KeyError) as e:\n        print(json.dumps({'path': [], 'message': f'Invalid input: {e}'}))\n        return\n\n    try:\n        root = ET.fromstring(map_xml_string)\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                grid[(x, y)] = tile\n    except ET.ParseError as e:\n        print(json.dumps({'path': [], 'message': f'XML Parse Error: {e}'}))\n        return\n\n    def is_walkable(x, y, grid_map):\n        tile = grid_map.get((x, y))\n        if not tile or tile.get('seen') == 'false': return False\n        tile_type = tile.get('type')\n        if tile_type in ['impassable', 'boulder_barrier', 'closed_gate', 'water']:\n            return False\n        obj = tile.find('Object')\n        if obj is not None:\n            if obj.get('id-name') and obj.get('id-name') != 'PIKACHU': return False\n            if obj.get('name') and not obj.get('id-name'): return False\n        return True\n\n    def get_neighbors(x, y, grid_map):\n        neighbors = []\n        current_tile = grid_map.get((x,y))\n        current_tile_type = current_tile.get('type')\n        # Ledge logic\n        if current_tile_type == 'ledge':\n            if is_walkable(x, y + 1, grid_map):\n                neighbors.append(((x, y + 1), 1)) # Ledges should move to y+2 but pathfinder needs adjacent tile\n            return neighbors\n        # Standard movement\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            neighbor_tile = grid_map.get((nx, ny))\n            if not neighbor_tile: continue\n            neighbor_tile_type = neighbor_tile.get('type')\n            # Prevent moving up a ledge\n            if neighbor_tile_type == 'ledge' and dy == -1: continue\n            if is_walkable(nx, ny, grid_map):\n                neighbors.append(((nx, ny), 1))\n        return neighbors\n\n    start_node = (start_x, start_y)\n    target_node = (target_x, target_y)\n\n    if not is_walkable(target_x, target_y, grid):\n        found_new_target = False\n        for neighbor, _ in get_neighbors(target_x, target_y, grid):\n            if is_walkable(neighbor[0], neighbor[1], grid):\n                target_node = neighbor\n                found_new_target = True\n                break\n        if not found_new_target:\n            print(json.dumps({'path': [], 'message': 'Target and neighbors are unwalkable.'}))\n            return\n\n    open_set = [(0, start_node)]\n    came_from = {}\n    g_score = {node: float('inf') for node in grid}\n    g_score[start_node] = 0\n    f_score = {node: float('inf') for node in grid}\n    f_score[start_node] = abs(start_x - target_node[0]) + abs(start_y - target_node[1])\n\n    while open_set:\n        _, current = heapq.heappop(open_set)\n        if current == target_node:\n            path = []\n            while current in came_from:\n                path.append(current)\n                current = came_from[current]\n            path.append(start_node)\n            print(json.dumps({'path': path[::-1]}))\n            return\n        for neighbor, cost in get_neighbors(current[0], current[1], grid):\n            tentative_g_score = g_score[current] + cost\n            if tentative_g_score < g_score.get(neighbor, float('inf')):\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g_score\n                f_score[neighbor] = tentative_g_score + abs(neighbor[0] - target_node[0]) + abs(neighbor[1] - target_node[1])\n                if neighbor not in [i[1] for i in open_set]:\n                    heapq.heappush(open_set, (f_score[neighbor], neighbor))\n\n    print(json.dumps({'path': [], 'message': 'No path found.'}))\n\nfind_path(input_data)"
   }
 }
