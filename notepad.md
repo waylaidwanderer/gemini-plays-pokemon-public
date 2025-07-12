@@ -78,3 +78,6 @@
 - **Hypothesis (INVALIDATED):** The Super Nerd at (7, 12) on Pokemon Mansion 3F is walkable.
   - **Test:** Attempted pathfinding while ignoring the NPC.
   - **Conclusion:** Pathfinding failed, and system confirmed the destination was unreachable. The NPC is an impassable obstacle.
+- **Hypothesis (INVALIDATED):** Stepping on the positional trigger at (11, 4) on Pokemon Mansion 3F will open the northern gates at (16, 5) and (16, 6).
+  - **Test:** Navigated to (11, 4) and stepped on the tile.
+  - **Conclusion:** The gates at (16, 5) and (16, 6) remained closed. This trigger does not affect these gates.
