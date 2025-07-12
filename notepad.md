@@ -38,19 +38,13 @@
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
-# IV. Archive: Solved Puzzles & Lessons Learned
+# III. Archive: Solved Puzzles & Lessons Learned
 - **Hypothesis (INVALIDATED):** The Secret Key is a hidden item in the southern area of B1F.
   - **Test Plan:** Systematically used the Itemfinder on every reachable tile in the southern area of B1F.
   - **Conclusion:** After multiple attempts (Turns 66131, 66134, 66137), the Itemfinder did not respond on any tile. The key is not a hidden item in this section.
-
-# IV. Archive: Solved Puzzles & Lessons Learned
-
-# IV. Archive: Solved Puzzles & Lessons Learned
 - **Hypothesis (INVALIDATED):** The switch on B1F at (19, 26) affects gates on other floors.
   - **Test:** Flipped the switch at (19, 26).
   - **Conclusion:** The switch opened the western gates on B1F at (14, 23) and (14, 24), revealing a new path on the current floor. It does not appear to be related to other floors.
-
-# IV. Archive: Solved Puzzles & Lessons Learned
 - **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
 - **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear.
 - **Pokémon Mansion 1F/B1F - Gate Puzzle (SOLVED):** A combination of a single toggle switch (at 19, 26 on B1F) and multiple positional triggers (e.g., around 19, 21 on B1F) control the various gates. This is a complex interaction that requires careful navigation to avoid re-triggering gates.
@@ -60,19 +54,17 @@
 - **Hypothesis (INVALIDATED):** The hole at (13, 15) on 3F leads to the Secret Key.
   - **Test:** Jumped down the hole.
   - **Conclusion:** Landed in an isolated, previously explored room on 1F. No key found.
-
 - **Hypothesis (INVALIDATED):** The Secret Key is located somewhere in Diglett's Cave.
   - **Test:** Systematically explore Diglett's Cave using the Itemfinder.
   - **Conclusion:** No key found.
-
 - **Hypothesis (INVALIDATED):** The Secret Key is located in the western area of the Pokémon Mansion B1F.
   - **Test:** Explored the area west of the gates at (14, 23).
   - **Conclusion:** The path leads to a dead end with a Full Restore. No key found.
 
-# V. NPC Trades
+# IV. NPC Trades
 - **Route 5 (Underground Path):** Little Girl wants Cubone, offers Machoke.
 
-# VI. Future Development & Lessons
+# V. Future Development & Lessons
 
 ## B. Process Lessons
 - **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
