@@ -38,12 +38,8 @@
 
 ### Current Puzzle: Olivine Lighthouse
 *   **Goal:** Ascend the lighthouse to find the sick Ampharos.
-*   **Failed Hypotheses:**
-    1.  The left staircase at (16, 13) is the way up. (Result: Non-functional warp).
-    2.  The right staircase at (17, 13) is the way up. (Result: Non-functional warp).
-    3.  The western corridor leads to a path upwards. (Result: Appears to be a dead end from this floor).
-    4.  The Pokefan F at (16, 11) has a clue. (Result: Generic dialogue).
-*   **Current Hypothesis (Untested):** I am missing a trigger event, possibly outside the lighthouse, that is required to make the stairs functional.
+*   **Current Hypothesis:** There are multiple paths up the lighthouse, and I need to explore all floors thoroughly to find the correct one.
+*   **Alternative Hypothesis:** Progress is not made by simply ascending. An item or event on a lower floor might be required to unlock the path forward.
 
 ### General Hypotheses & Verified Conclusions
 *   **Conclusion:** The southern and western water routes in Union Cave B2F are isolated dead ends.
@@ -52,4 +48,4 @@
 
 ## III. Tool Development Log
 
-*   **`pathfinder` Bug:** The tool does not correctly handle water traversal. It sometimes routes over water tiles without considering the need for SURF. It also routes through unseen tiles. The unseen tile bug has been fixed. The water traversal bug remains.
+*   **`battle_advisor` Refinement Needed:** The agent incorrectly identified Noctowl's typing, recommending a Dark move as super-effective. I need to refine its prompt to be more cautious about its internal knowledge and to better handle neutral type matchups, prioritizing STAB moves.
