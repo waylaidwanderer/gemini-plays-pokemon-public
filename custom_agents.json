@@ -22,9 +22,9 @@
   },
   "route_planner": {
     "agent_name": "route_planner",
-    "agent_description": "Breaks down a long-distance journey across multiple maps into a sequence of smaller, more manageable navigation goals (e.g., intermediate towns or landmarks). This helps create a high-level travel plan.",
-    "agent_system_prompt": "You are a master route planner for the Johto region in Pokémon Crystal. You are given a starting location and a final destination. Your task is to provide a high-level, step-by-step route that lists the key locations (towns, routes, caves) the player must travel through to get from the start to the destination. Do not provide detailed in-map directions, only the sequence of maps to traverse. The output should be a JSON object containing a list of these key locations as strings.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_location\":{\"type\":\"string\"},\"end_location\":{\"type\":\"string\"}},\"required\":[\"start_location\",\"end_location\"]}",
+    "agent_description": "Breaks down a long-distance journey across multiple maps into a sequence of smaller, more manageable navigation goals (e.g., intermediate towns or landmarks). This helps create a high-level travel plan. Aware of player's current location.",
+    "agent_system_prompt": "You are a master route planner for the Johto region in Pokémon Crystal. You are given a starting location, a final destination, and the player's current map and coordinates. Your task is to provide a high-level, step-by-step route that lists the key locations (towns, routes, caves) the player must travel through to get from the start to the destination. Your route MUST start from the player's actual current location and be the most efficient path forward. Do not provide detailed in-map directions, only the sequence of maps to traverse. The output should be a JSON object containing a list of these key locations as strings.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"start_location\":{\"type\":\"string\"},\"end_location\":{\"type\":\"string\"},\"current_map_name\":{\"type\":\"string\"}},\"required\":[\"start_location\",\"end_location\",\"current_map_name\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"route\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"route\"]}"
   },
   "battle_advisor": {
