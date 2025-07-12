@@ -21,8 +21,8 @@
     *   `WATER` (Requires HM03 Surf, must be used from adjacent `FLOOR` tile).
     *   `BREAKABLE_ROCK` (Requires Rock Smash).
 *   **Complex Tiles (Verified):**
+    *   `WARP_CARPET_DOWN`: Traversable. Activated by pressing 'Down' while standing on the tile to trigger a warp.
     *   `WARP_CARPET_DOWN/LEFT/RIGHT`: Traversable. Activated by pressing the corresponding direction while standing on the tile to trigger a warp.
-    
     *   `WARP_CARPET_LEFT`: Traversable. Activated by pressing 'Left' while standing on the tile to trigger a warp.
 
 ### Other Mechanics
@@ -33,12 +33,13 @@
 
 ### Current Quest: The Secret Medicine
 *   **Goal:** Find the special medicine in Cianwood City to cure the sick Ampharos in the Olivine Lighthouse.
-*   **Current Hypothesis:** The sea route to Cianwood City begins from the western beach of Olivine City.
-*   **Alternative Hypothesis:** The route to Cianwood requires a different HM I don't have yet, or is blocked by an event I haven't triggered. If the western sea route is a dead end, I will need to re-explore other areas or talk to key NPCs again.
+*   **Current Hypothesis:** The medicine will be given to me after defeating the Cianwood City Gym Leader. This is the most common method of story progression in Pokémon games.
+*   **Alternative Hypothesis:** The medicine is held by an NPC I haven't spoken to yet, or is hidden behind a boulder that requires ROCK SMASH.
 
 ### Verified Conclusions
 *   The Olivine Lighthouse has no further upward paths. It is a dead end for now.
 *   The sea route directly south of the Olivine City pier is blocked by buoys.
+*   There is no pharmacy or obvious medicine-related building in Cianwood City. All buildings have been explored.
 
 ### Untested Hypotheses
 *   **WHIRLPOOL Mechanics:** My rival mentioned the Whirl Islands are blocked by whirlpools. I need to test a `WHIRLPOOL` tile to see if it requires a specific HM. I will use my `pathfinder` to navigate to an adjacent tile and then interact with it.
