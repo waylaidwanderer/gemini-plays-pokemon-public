@@ -61,5 +61,4 @@
 *   **Alternative Hypothesis:** There is a hidden switch or event I missed that connects the water routes in Union Cave B2F.
 *   **Test Plan:** If all other routes in the game are exhausted, I can return to systematically check every wall tile in the B2F water areas for hidden passages. This is a low-priority test for now.
 *   **Conclusion:** The southwestern part of Union Cave 1F (accessed via ladder from B1F at (3,33)) is a dead end due to one-way ledges. The only exit is back down the ladder.
-*   **Hypothesis:** The `HEADBUTT_TREE` tile type is interactable, possibly requiring the move Headbutt.
-*   **Test Plan:** Face the `HEADBUTT_TREE` at (9, 26) and press 'A'.
+*   **Conclusion:** Interacting with the `HEADBUTT_TREE` at (9, 26) from (8, 26) had no effect. It's likely impassable without a specific requirement, possibly the move Headbutt, which I do not currently possess.
