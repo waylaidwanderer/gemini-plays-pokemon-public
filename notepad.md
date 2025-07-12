@@ -52,8 +52,8 @@
 *   **Omanyte Puzzle:** Solved by manually assembling the image.
 *   **Aerodactyl Puzzle:**
     *   **Failed Hypothesis (H1 - Incorrect Logic):** The puzzle is a magic square. This was tested and proven incorrect.
-    *   **Current Hypothesis (H2):** The puzzle must be solved by visually assembling the image of Aerodactyl. I am currently clearing the board to attempt this.
-    *   **Alternative Hypothesis (H3):** The puzzle is optional. If H2 fails, I will leave and attempt to progress my main goals. I will only return if progression is blocked and an NPC directs me here.
+    *   **Failed Hypothesis (H2 - Visual Assembly):** The puzzle must be solved by visually assembling the image of Aerodactyl. This was attempted and failed, as the puzzle did not complete after all pieces were placed. Pivoting to H3.
+    *   **Current Hypothesis (H3):** The puzzle is optional. I will leave and attempt to progress my main goals. I will only return if progression is blocked and an NPC directs me here.
     *   **Alternative Hypothesis (H4):** The puzzle is unsolvable with the current pieces. If H2 fails, I will search the rest of the Ruins of Alph for clues or missing components.
 
 ### Goldenrod Dept. Store Basement Puzzle
