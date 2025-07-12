@@ -46,5 +46,6 @@
 
 ### Future Plans & Untested Theories
 *   **Tool Idea (`gym_state_tester`):** Create a tool that takes a sequence of moves as input and executes them, reporting back if any map objects appear, disappear, or move. This would automate testing the side paths.
-*   **Alternative Puzzle Hypothesis 1 (Step Count):** The puzzle might trigger based on the total number of steps taken, not location. **Test:** Walk back and forth on a non-side-path tile (e.g., at the entrance) for 50 steps and observe for changes.
+*   **Alternative Puzzle Hypothesis 1 (Step Count - INVALIDATED):** The puzzle is not based on total steps taken. Walking 50 steps at the entrance caused no changes.
+*   **Alternative Puzzle Hypothesis 2 (Facing Direction):** The trigger might depend on the direction the player is facing when stepping onto a specific trigger tile. **Test:** Step onto a known trigger tile like (1, 14) while facing different cardinal directions.
 *   **Alternative Puzzle Hypothesis 2 (Facing Direction):** The trigger might depend on the direction the player is facing when stepping onto a specific tile. **Test:** Step onto a known trigger tile like (1, 14) while facing different cardinal directions.
