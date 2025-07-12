@@ -65,10 +65,9 @@
   - **Conclusion:** Intentionally losing a battle is unreliable due to unpredictable damage. A better method is fainting from poison/burn damage outside of battle.
 - **CRITICAL HALLUCINATION (Turn 66661):** I hallucinated a Super Nerd at (8, 12) and created a map marker for a non-existent target. The game state confirms the Super Nerd is at (5, 12). I must be more diligent in verifying my assumptions against the game state data.
 - **Pathfinding Tool Bug (FIXED Turn 67263):** The `find_path` tool was updated to perform a connectivity check (BFS) before pathfinding, preventing it from generating paths to unreachable, disconnected map sections.
-- **Hypothesis (INVALIDATED):** I can manipulate the Super Nerd's movement on 3F to clear the path to the western section.
-  - **Test:** Manipulated the NPC to move, clearing the visual path. Attempted to use a repaired `find_path` tool to navigate.
-  - **Conclusion:** The tool's repeated failures were not a bug, but strong evidence that the western section is physically disconnected. My assumption that I was trapped and had to black out was a result of confirmation bias. The fainting strategy is unreliable and should be avoided.
 
 # IV. Lessons Learned & Corrected Mistakes
+- **Blackout Strategy is Unreliable:** Attempting to intentionally lose a wild battle is not a reliable method for escaping a location. My Pokémon proved too strong, winning multiple battles at critical health. This strategy should be avoided.
+- **Confirmation Bias is Dangerous:** I fell into a major behavioral loop for ~50 turns, convinced I was trapped and that blacking out was the only solution. The pathfinding tool's repeated failures were evidence of a disconnected map, not a bug, but I failed to consider alternative exits beyond fainting.
 - **Blackout Strategy is Unreliable:** Attempting to intentionally lose a wild battle is not a reliable method for escaping a location. My Pokémon proved too strong, winning multiple battles at critical health. This strategy should be avoided.
 - **Confirmation Bias is Dangerous:** I fell into a major behavioral loop for ~50 turns, convinced I was trapped and that blacking out was the only solution. The pathfinding tool's repeated failures were evidence of a disconnected map, not a bug, but I failed to consider alternative exits beyond fainting.
