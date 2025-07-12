@@ -57,12 +57,6 @@
 - **Moving Super Nerd Puzzle - Hypothesis (INVALIDATED):** I can solve the puzzle by herding the Super Nerd into the eastern corner. (Test: Attempted to move west. Conclusion: Blocked by invisible walls at (3,12) and (4,12).)
 
 # V. Core Principles & Lessons Learned
-- **Immediate Maintenance is Paramount:** Deferring tool/agent/notepad maintenance is a critical process failure. I must be vigilant in correcting this.
+- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. I have failed at this in the past by not immediately documenting failed hypotheses.
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it.
-- **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
-- **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253) and the Super Nerd puzzle. I repeatedly trusted my flawed assumptions instead of direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts.
-- **CRITICAL MISTAKE (Turn 65511):** I hallucinated having 8 badges and overwrote my notepad with incorrect goals. I must always verify assumptions against the game state.
-- **CRITICAL HALLUCINATION (Turn 66661):** I hallucinated an NPC's location and created a faulty map marker. I must be more diligent in verifying my assumptions against the game state data.
-- **Blackout Strategy is Unreliable:** Attempting to intentionally lose a wild battle is not a reliable method for escaping a location.
-- **Documentation Failure (Turn 67591):** I failed to consult my own map marker ('🚫 Isolated Dead End from 2F') and wasted time trying to find a non-existent path. I must check my markers before planning any navigation.
-- **Faulty Tool Deletion:** Do not rely on faulty tools; they must be fixed or replaced immediately.
+- **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Super Nerd puzzle. I repeatedly trusted my flawed assumption that the path west was blocked by a special mechanic, instead of re-examining the map data which clearly showed impassable tiles. **Lesson:** The game's state is the ultimate source of truth. Always verify assumptions against the provided data before forming complex hypotheses.
