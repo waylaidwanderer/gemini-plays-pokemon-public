@@ -39,9 +39,9 @@
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 
 # III. Active Hypotheses & Tests
-- **Hypothesis (ACTIVE):** The Secret Key is a hidden item somewhere in the basement (B1F).
-  - **Test:** Systematically use the Itemfinder on every tile of B1F.
-  - **Rationale:** I have exhausted all visible paths and interactive objects. A hidden item is the most likely remaining possibility.
+- **Hypothesis (ACTIVE):** A positional trigger closes the western gates at (14, 23) and (14, 24) when I move away from the switch area.
+  - **Test:** Find a path to the western corridor that avoids this trigger.
+  - **Rationale:** The gates opened when I flipped the switch but closed when I moved towards them via a direct path. This suggests a trigger plate is in that path, and an alternate route might bypass it.
 
 # IV. Archive: Solved Puzzles & Lessons Learned
 
