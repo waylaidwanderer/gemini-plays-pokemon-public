@@ -47,12 +47,16 @@
 - **Hypothesis (INVALIDATED):** The Secret Key is located somewhere in Diglett's Cave.
   - **Test:** Systematically explore Diglett's Cave using the Itemfinder.
   - **Conclusion:** No key found.
+- **Hypothesis (ACTIVE):** The Secret Key is located somewhere inside the Pokémon Mansion on Cinnabar Island.
+  - **Test:** Systematically explore the Pokémon Mansion.
+  - **Conclusion:** In progress.
 
 # IV. Archive: Solved Puzzles & Lessons Learned
 - **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
 - **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear.
 - **Pokémon Mansion 1F - Gate Puzzle (SOLVED):** A combination of a single switch and positional triggers control the gates.
 - **Rock Tunnel B1F - Walk-Through NPC (INVALIDATED):** My previous note claimed the Super Nerd at (4, 6) was walkable. Repeated attempts (Turns 64707, 64708, 64709) have proven this false. He consistently blocks movement.
+- **CRITICAL MISTAKE (Turn 65511):** I hallucinated having 8 badges and overwrote my notepad with incorrect goals. The game state clearly shows I have 6 badges. This was a critical failure in verifying my assumptions. I am reverting my goals to reflect the correct game state.
 
 # V. NPC Trades
 - **Route 5 (Underground Path):** Little Girl wants Cubone, offers Machoke.
@@ -61,17 +65,7 @@
 
 ## A. Tool & Agent Ideas
 - **Battle Automator:** Create a tool or agent to automate simple, repetitive wild battles (e.g., 'if opponent is Diglett, switch to NEPTUNE, use ICE BEAM'). This would greatly increase exploration efficiency.
+- **Inventory Navigator:** Create a tool that takes an item name as input, searches the `Inventory` list in the game state, and returns the number of `Up` or `Down` presses required to reach it from the current cursor position. This would eliminate tedious manual scrolling.
 
 ## B. Process Lessons
 - **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
-
-# VII. Current Investigations
-## A. Route 12 - Snorlax
-- **Objective:** Wake the Snorlax blocking the path south on Route 12.
-- **Hypothesis:** The POKé FLUTE is required to wake the Snorlax. This is a potential path to explore if the main quest is blocked.
-- **Hypothesis (Route 12 Fisherman):** The Fisherman at (15, 32) is a standard trainer battle.
-  - **Test:** Interact with the Fisherman using the 'A' button.
-  - **Conclusion (INVALIDATED):** Multiple presses of 'A' and 'B' did not initiate a battle or advance dialogue. I was able to move away freely. This is not a standard battle encounter.
-
-## B. Tool & Agent Ideas (Post-Reflection)
-- **Inventory Navigator:** Create a tool that takes an item name as input, searches the `Inventory` list in the game state, and returns the number of `Up` or `Down` presses required to reach it from the current cursor position. This would eliminate tedious manual scrolling.
