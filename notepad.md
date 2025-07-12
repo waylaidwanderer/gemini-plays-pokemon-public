@@ -37,10 +37,9 @@
 
 # II. Current Puzzles & Hypotheses
 
-## Pokemon Mansion 1F - Gate Puzzles
-- **Observation:** The western gates at (17, 8) and (18, 8) opened after I toggled the switch on 2F at (3, 12). The eastern gates at (25, 14) and (26, 14) remain closed.
-- **Hypothesis:** The switch on 1F at (3, 6) may now control the eastern gates, or it needs to be toggled in a specific sequence with the 2F switch.
-- **Test Plan:** Navigate to the 1F switch and activate it. Observe the state of the eastern gates.
+# IV. Archive: Solved Puzzles & Invalidated Hypotheses
+- **Pokemon Mansion 3F - Moving Super Nerd Puzzle:** Solved. The solution was to leave the floor and return, which resets the NPC's position.
+- **Pokemon Mansion 1F - Gate Puzzles:** Solved. The switch at (3, 6) toggles the state of the eastern gates at (25, 14)/(26, 14) and the western gates at (17, 8)/(18, 8). This is an alternating door puzzle confirmed by both observation and NPC dialogue. Stepping on certain tiles also triggers gate closures, requiring careful navigation.
 
 # IV. Archive: Solved Puzzles & Invalidated Hypotheses
 - **Pokemon Mansion 3F - Moving Super Nerd Puzzle:** Solved. The solution was to leave the floor and return, which resets the NPC's position.
