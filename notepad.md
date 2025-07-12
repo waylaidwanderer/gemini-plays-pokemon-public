@@ -20,10 +20,9 @@
 
 ## B. Confirmed ROM Hack Changes
 ### B1. Type Matchups & Immunities
-- **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison
+- **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire
 - **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground
 - **Immunities:** Flying-type immune to Ground-type moves; Ground-type Pokémon are immune to Electric-type moves; MUK immune to Poison-type moves; HYPNO immune to STUN SPORE (powder moves); MUK immune to THUNDER WAVE (Electric-type status move).
-- **Misc:** Ground is RESISTANT (0.5x) to Fire, NOT immune.
 
 ### B2. Battle & Field Mechanics
 - **Evasion:** PSYWAVE and CONFUSE RAY can fail against targets with high evasion boosts.
@@ -71,8 +70,6 @@
   - **Conclusion:** Nothing happened. The item is not obtained by interacting with Pikachu.
 - **Hypothesis (ACTIVE):** The Scientist's hint ('Try jumping off!') is the key. The hidden item is in an area only accessible by falling through a specific hole on 3F.
   - **Test:** Systematically explore the rooms below each hole.
-  - **Conclusion:** In progress.
-  - **Test:** Systematically explore the remaining floors.
   - **Conclusion:** In progress.
 
 # IV. Archive: Solved Puzzles & Lessons Learned
