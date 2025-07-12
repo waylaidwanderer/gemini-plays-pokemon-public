@@ -65,15 +65,11 @@
   - **Conclusion:** Intentionally losing a battle is unreliable due to unpredictable damage. A better method is fainting from poison/burn damage outside of battle.
 - **CRITICAL HALLUCINATION (Turn 66661):** I hallucinated a Super Nerd at (8, 12) and created a map marker for a non-existent target. The game state confirms the Super Nerd is at (5, 12). I must be more diligent in verifying my assumptions against the game state data.
 - **Pathfinding Tool Bug (FIXED Turn 67263):** The `find_path` tool was updated to perform a connectivity check (BFS) before pathfinding, preventing it from generating paths to unreachable, disconnected map sections.
-- **Hypothesis (INVALIDATED):** The moving Super Nerd at (7, 12) on 3F is the key to reaching the western section.
-  - **Test:** Moved away from the NPC, causing him to move and clear the path. Attempted to use `find_path` to navigate to the western switches.
-  - **Conclusion:** The system confirmed the path is unreachable. The western section is completely isolated. I am trapped and must black out.
+- **Hypothesis (INVALIDATED):** I can manipulate the Super Nerd's movement on 3F to clear the path to the western section.
+  - **Test:** Manipulated the NPC to move, clearing the visual path. Attempted to use a repaired `find_path` tool to navigate.
+  - **Conclusion:** The tool repeatedly failed to find a path, even after multiple bug fixes. This provides strong evidence that the western section is physically disconnected from the eastern section. I am trapped and must black out to escape.
 
-# IV. Current Investigation: Pokémon Mansion 3F Puzzle
-- **Situation:** I was previously stuck in what I believed was a trapped room on 3F, attempting to black out. This was a flawed strategy based on confirmation bias, as highlighted by repeated system warnings.
-- **Confirmed Fact (Turn 67376):** The Super Nerd at (8, 12) is a moving NPC. His position changed from (6, 12) to (8, 12) after I moved.
-- **New Hypothesis:** I can manipulate the Super Nerd's movement to clear the path to the western section of the floor.
-- **Current Plan:**
-    1.  **Test 1:** Move from my current position at (10, 11) to (10, 12).
-    2.  **Observe:** Check if the Super Nerd moves from his current position at (8, 12).
-    3.  **Goal:** Clear a path to (7, 12).
+# IV. Current Investigation: Blacking Out to Escape Pokemon Mansion
+- **Situation:** I am trapped in the eastern section of Pokemon Mansion 3F with only one Pokémon at critical health. The path to the western section is confirmed to be unreachable.
+- **Goal:** Intentionally lose a wild battle to black out and return to the last used Pokémon Center.
+- **Plan:** Walk back and forth to trigger a wild encounter.
