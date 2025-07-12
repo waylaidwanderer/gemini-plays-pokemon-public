@@ -55,3 +55,8 @@
 *   **Hypothesis 3 (Agent Advice - INVALIDATED):** The `gym_puzzle_advisor` repeatedly suggested battling Black Belt Yoshi at (3, 12). 
     *   **Test 1 & 2:** Interacting with Yoshi only resulted in dialogue, with no battle initiated. This was tested before and after moving on the side paths.
     *   **Conclusion:** The agent's logic is flawed for this dynamic puzzle. It cannot be relied upon for this gym. My own manual exploration based on the 'side path' hypothesis is the only strategy that has produced observable changes in the gym.
+### Future Plans & Untested Theories
+*   **Tool Idea (`gym_state_tester`):** Create a tool that takes a sequence of moves as input and executes them, reporting back if any map objects appear, disappear, or move. This would automate testing the side paths.
+*   **Alternative Puzzle Hypothesis 1 (Step Count):** The puzzle might trigger based on the total number of steps taken, not location. **Test:** Walk back and forth on a non-side-path tile (e.g., at the entrance) for 50 steps and observe for changes.
+*   **Alternative Puzzle Hypothesis 2 (Facing Direction):** The trigger might depend on the direction the player is facing when stepping onto a specific tile. **Test:** Step onto a known trigger tile like (1, 14) while facing different cardinal directions.
+*   **Untested Assumption:** I am assuming the solution starts on the western path. The eastern path could be equally important or even the first step.
