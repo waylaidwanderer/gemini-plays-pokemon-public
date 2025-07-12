@@ -64,7 +64,7 @@
   - **Test (Attempt 2):** Fought a wild Raticate with my last Pokémon, CRAG, intending for him to faint. Result: CRAG unexpectedly defeated the Raticate. Did not black out.
   - **Conclusion:** Intentionally losing a battle is unreliable due to unpredictable damage. A better method is fainting from poison/burn damage outside of battle.
 - **CRITICAL HALLUCINATION (Turn 66661):** I hallucinated a Super Nerd at (8, 12) and created a map marker for a non-existent target. The game state confirms the Super Nerd is at (5, 12). I must be more diligent in verifying my assumptions against the game state data.
-- **Pathfinding Tool Bug (Turn 67107):** The `find_path` tool incorrectly generated a path from (29, 8) to (7, 2) on Pokemon Mansion 2F, failing to recognize that the eastern and western wings are isolated. This is a critical bug that needs to be fixed. The tool must be updated to correctly handle disconnected map sections.
+- **Pathfinding Tool Bug (FIXED Turn 67263):** The `find_path` tool was updated to perform a connectivity check (BFS) before pathfinding, preventing it from generating paths to unreachable, disconnected map sections.
 - **Hypothesis (INVALIDATED):** The moving Super Nerd at (7, 12) on 3F is the key to reaching the western section.
   - **Test:** Moved away from the NPC, causing him to move and clear the path. Attempted to use `find_path` to navigate to the western switches.
   - **Conclusion:** The system confirmed the path is unreachable. The western section is completely isolated. I am trapped and must black out.
