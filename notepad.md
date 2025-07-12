@@ -62,3 +62,5 @@
 *   **Conclusion:** The southwestern part of Union Cave 1F (accessed via ladder from B1F at (3,33)) is a dead end due to one-way ledges.
 *   **Conclusion:** Interacting with the `HEADBUTT_TREE` at (9, 26) from (8, 26) had no effect. It's likely impassable without the move Headbutt.
 *   **Conclusion (NEW):** The `CUT_TREE` tile at (8, 25) is impassable after being cut. My previous attempts to path through it were based on a flawed assumption.
+### Pathfinder Limitations
+*   **Ilex Forest Maze:** The `pathfinder` tool failed to find a path from (8, 28) to (1, 6), likely because it cannot navigate around the impassable `CUT_TREE` at (8, 25) within this specific maze structure. Manual navigation is required.
