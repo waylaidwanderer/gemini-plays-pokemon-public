@@ -40,22 +40,11 @@
     *   **ICE BERRY:** Heals burn.
 *   **Haircuts:** Increases a Pokémon's happiness.
 
-## II. Key Items, HMs & TMs
-*   **Key Items:** SQUIRTBOTTLE, GOOD ROD, COIN CASE
-*   **HMs:** HM01 (CUT), HM03 (SURF), HM04 (STRENGTH)
-*   **TMs:** TM08 (ROCK SMASH), TM12 (SWEET SCENT), TM28 (DIG), TM30 (SHADOW BALL), TM45 (ATTRACT), TM49 (FURY CUTTER)
-
-## III. Badges
-*   **ZEPHYR BADGE**
-*   **HIVE BADGE**
-*   **PLAIN BADGE**
-*   **FOG BADGE** (Allows use of SURF outside battle, makes Pokémon up to L50 obey)
-
-## IV. Blocked Paths & Story Gates
+## II. Blocked Paths & Story Gates
 *   **Route 37 Trainer Blockade:** Twins Ann & Anne disguised as trees block the path north at (6, 12) and (7, 12). This path is story-locked.
 *   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31). This path is story-locked.
 
-## V. Puzzles & Hypotheses
+## III. Puzzles & Hypotheses
 
 ### Ruins of Alph Sliding Puzzles
 *   **General Mechanics:** These are 16-piece picture puzzles on a 6x6 grid. The goal is to assemble the image in the central 4x4 area. Pieces are picked up and placed, not slid.
@@ -70,6 +59,6 @@
 ### Goldenrod Dept. Store Basement Puzzle
 *   **Mechanic:** A dynamic box-pushing maze where Black Belts move and create/remove walls based on the player's position. The goal is to clear a path to the ladder at (17, 2).
 
-## VI. Process Improvement & Future Plans
+## IV. Process Improvement & Future Plans
 *   **Immediate Data Management:** All data management tasks (notepad edits, marker placement, tool/agent definition) MUST be performed in the same turn they are identified. Deferring these tasks is a critical process failure.
 *   **Hypothesis Testing:** When stuck, I must systematically test alternative hypotheses instead of getting locked into one approach. I will document these tests and their outcomes in my notepad.
