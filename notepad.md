@@ -9,7 +9,7 @@
 - **Ledge Test:** For any ledge-like tile, I must attempt to move against the apparent direction of the ledge to confirm if it is a one-way path. Document results.
 
 ### Verified Tile Types
-*   **Impassable (Verified):** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WINDOW`, `WEIRD_TREE`, `PRINTER`.
+*   **Impassable (Verified):** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `BUOY`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WEIRD_TREE`, `PRINTER`.
 *   **Traversable (Verified):** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `CUT_TREE` (becomes traversable after using CUT).
 *   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE` (Move onto tile), `PIT` (Acts as a warp when stepped on).
 *   **One-Way Ledges (Verified):**
@@ -25,42 +25,31 @@
     *   `WARP_CARPET_DOWN`: Traversable. Activated by pressing 'Down' while standing on the tile to trigger a warp.
     *   `WARP_CARPET_LEFT`: Traversable. Activated by pressing 'Left' while standing on the tile to trigger a warp.
 
+### Untested Tile Types & Plans
+*   `WINDOW` (Untested): This tile appears in the Olivine Lighthouse. It appears impassable.
+    *   **Movement Test Plan:** Attempt to walk into a `WINDOW` tile.
+    *   **Interaction Test Plan:** Face a `WINDOW` tile and press 'A'.
+
 ### Other Mechanics
 *   **Object Impassability:** All Map Objects (NPCs, items, signs, etc.) are impassable.
-*   **Item Effects:**
-    *   **BERRY:** Restores 10 HP.
-    *   **MINT BERRY:** Cures sleep.
-    *   **EVERSTONE:** Prevents evolution.
-    *   **MOOMOO MILK:** Restores 100 HP.
-    *   **HARD STONE:** Powers up rock-type moves.
-    *   **PRZCUREBERRY:** Cures paralysis.
-    *   **HYPER POTION:** Restores 200 HP.
-    *   **ICE BERRY:** Heals burn.
 *   **Haircuts:** Increases a Pokémon's happiness.
 
-## II. Blocked Paths & Story Gates
+## II. Strategic Plans & Hypotheses
 
-*   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31).
+### Current Puzzle: Olivine Lighthouse
+*   **Goal:** Ascend the lighthouse to find the sick Ampharos.
+*   **Failed Hypotheses:**
+    1.  The left staircase at (16, 13) is the way up. (Result: Non-functional warp).
+    2.  The right staircase at (17, 13) is the way up. (Result: Non-functional warp).
+    3.  The western corridor leads to a path upwards. (Result: Appears to be a dead end from this floor).
+    4.  The Pokefan F at (16, 11) has a clue. (Result: Generic dialogue).
+*   **Current Hypothesis (Untested):** I am missing a trigger event, possibly outside the lighthouse, that is required to make the stairs functional.
 
-## III. Strategic Plans & Hypotheses
-
-### Primary Goal: Travel to Cianwood City to get the SecretPotion.
-1.  **Travel through Ecruteak City** to reach Route 38.
-2.  **Navigate west** through Route 38 and 39 to reach Olivine City.
-3.  **Surf west from Olivine City** across Route 40 and 41 to reach Cianwood City.
-
-### Secondary Goal: Defeat the Olivine City Gym Leader
-*   **Status:** Blocked. Requires healing the sick Ampharos in the Olivine Lighthouse with the SecretPotion from Cianwood City.
-
-### Tertiary Goal: Heal the Miltank on Route 39
-*   **Status:** On hold. Requires backtracking for BERRIES, and the primary goal is more critical.
-
-### Hypotheses & Verified Conclusions
+### General Hypotheses & Verified Conclusions
 *   **Conclusion:** The southern and western water routes in Union Cave B2F are isolated dead ends.
 *   **Conclusion:** The southwestern part of Union Cave 1F is a dead end due to one-way ledges.
 *   **Hypothesis (UNTESTED):** `HEADBUTT_TREE`s might be passable by using the move 'Headbutt' from the Pokémon party menu while facing the tree. Test requires a Pokémon with the move Headbutt.
 
-### Untested Tile Types & Plans
-*   **`BUOY` (Untested):** This tile appears in the water in Olivine City. It appears impassable. 
-    *   **Movement Test Plan:** When adjacent to water, attempt to Surf onto a `BUOY` tile.
-    *   **Interaction Test Plan:** Face a `BUOY` tile from an adjacent water tile and press 'A'.
+## III. Tool Development Log
+
+*   **`pathfinder` Bug:** The tool does not correctly handle water traversal. It sometimes routes over water tiles without considering the need for SURF. It also routes through unseen tiles. The unseen tile bug has been fixed. The water traversal bug remains.
