@@ -40,7 +40,6 @@
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it. Ignoring agent advice is a critical process failure.
 - **Mandatory Agent Usage:** I must always defer to my specialized agents for tasks they are designed for. Manual intervention in such cases is a critical process failure.
 - **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
-- **Puzzle Solver Agent Under-utilization:** I spent an excessive amount of time manually solving the Pokémon Mansion puzzle through trial and error. This was a direct violation of my process rules. I MUST remember to use the `puzzle_solver_agent` for complex environmental puzzles to generate structured hypotheses and avoid inefficient brute-force methods.
 
 # III. Archive: Solved Puzzles & Lessons Learned
 - **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
@@ -66,11 +65,4 @@
 - **Confirmation Bias is Dangerous:** I fell into a major behavioral loop for ~50 turns, convinced I was trapped and that blacking out was the only solution. The pathfinding tool's repeated failures were evidence of a disconnected map, not a bug, but I failed to consider alternative exits beyond fainting.
 - **Documentation Failure (Turn 67591):** I failed to consult my own map marker ('🚫 Isolated Dead End from 2F') and wasted time trying to find a non-existent path out of the room. I must check my markers before planning any navigation.
 - **Pathfinding Tool Deletion (Turn 67621):** The `mansion_puzzle_solver` tool has been deleted due to persistent, unresolvable bugs causing it to generate invalid paths through NPCs. Future pathfinding will be done manually or with a new, more robust tool.
-
-# IV. Lessons Learned & Corrected Mistakes
-- **Documentation Failure (Turn 67591):** I failed to consult my own map marker ('🚫 Isolated Dead End from 2F') and wasted time trying to find a non-existent path out of the room. I must check my markers before planning any navigation.
-- **Pathfinding Tool Deletion (Turn 67621):** The `mansion_puzzle_solver` tool has been deleted due to persistent, unresolvable bugs causing it to generate invalid paths through NPCs. Future pathfinding will be done manually or with a new, more robust tool.
-
-# IV. Lessons Learned & Corrected Mistakes
-- **Documentation Failure (Turn 67591):** I failed to consult my own map marker ('🚫 Isolated Dead End from 2F') and wasted time trying to find a non-existent path out of the room. I must check my markers before planning any navigation.
-- **Pathfinding Tool Deletion (Turn 67621):** The `mansion_puzzle_solver` tool has been deleted due to persistent, unresolvable bugs causing it to generate invalid paths through NPCs. Future pathfinding will be done manually or with a new, more robust tool.
+- **Puzzle Solver Agent Under-utilization (Critique 67650):** I was critiqued for manually solving the Super Nerd puzzle instead of using my `puzzle_solver_agent`. This is a repeat of a previous process failure and must be corrected immediately.
