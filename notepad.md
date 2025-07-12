@@ -44,3 +44,5 @@
 ### Cianwood City NPCs
 *   **Pokefan F (11, 46):** Will give a gift (likely HM02 FLY) after defeating the Cianwood Gym Leader.
 *   **Glitched Battle State:** Encountered a glitched battle on a WATER tile at (28, 40) in Cianwood City. The game state became corrupted (empty party, incorrect player info) but resolved after attempting to run.
+### Tiles Under Investigation
+*   `WHIRLPOOL` (Route 41, (6, 30)): Attempting to move onto the tile fails. It is impassable via normal movement. Next step: Interaction test.
