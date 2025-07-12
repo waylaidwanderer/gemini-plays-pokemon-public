@@ -72,3 +72,7 @@
 1.  **Collect BERRIES.** I need to find Fruit Trees that have regrown their fruit.
 2.  **Return to Route 39 Farmhouse.**
 3.  **Give the BERRIES to the sick Miltank.**
+
+## VI. Future Development Ideas
+*   **Agent Idea: `dead_end_analyzer`**: An agent that takes multiple `pathfinder` failures as input and suggests a strategic pivot, such as backtracking to the last major junction or trying a completely different route.
+*   **Tool Refinement: `pathfinder`**: Investigate improving the pathfinder to handle transitions between different surface types, like `FLOOR` to `WATER` (initiating SURF), to create a single, seamless path instead of requiring manual, multi-step navigation.
