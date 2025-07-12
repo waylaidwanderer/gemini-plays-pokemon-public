@@ -66,3 +66,9 @@
 
 ## B. Process Lessons
 - **Confirmation Bias Warning:** I exhibited significant confirmation bias during the Diglett battles (Turns 65244-65253). I repeatedly trusted my flawed agent's advice instead of the direct feedback from the game. **Lesson:** The game's outcome is the ultimate source of truth. If a tool or agent's advice is proven wrong by the game, I must immediately distrust it, refine it, and re-evaluate my strategy based on the observed facts. Repeating a failed action based on a flawed tool is a critical process failure.
+
+# VIII. Current Investigations
+## A. Route 12 - Snorlax
+- **Objective:** Wake the Snorlax blocking the path south on Route 12.
+- **Hypothesis:** The POKé FLUTE is required to wake the Snorlax.
+- **New Hypothesis:** Waking the Snorlax may be a prerequisite for finding the Secret Key, possibly by unlocking a new area or NPC dialogue.
