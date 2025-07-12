@@ -37,7 +37,7 @@
     "python_script": "import xml.etree.ElementTree as ET; import json; root = ET.fromstring(map_xml_string); impassable_tiles = []; for row_elem in root.findall('Row'): y = int(row_elem.get('id')); for tile_elem in row_elem.findall('Tile'): x = int(tile_elem.get('id')); if tile_elem.get('type') == 'impassable' or tile_elem.find('Object') is not None: impassable_tiles.append({'x': x, 'y': y}); print(json.dumps(impassable_tiles))"
   },
   "inventory_navigator_tool": {
-    "description": "Calculates the optimal number of button presses (Up/Down) to navigate from a current selection to a target item in a list-based menu.",
+    "description": "Calculates the optimal number of button presses (Up/Down) to navigate from a current selection to a target item in a list-based menu. This version correctly handles non-wrapping menus.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -60,7 +60,7 @@
         "target_item"
       ]
     },
-    "python_script": "import json\ntry:\n    inventory = json.loads(input_data['inventory_list'])\n    current_item = input_data['current_selection']\n    target_item = input_data['target_item']\n\n    if current_item not in inventory or target_item not in inventory:\n        print(json.dumps({'error': 'Item not found in inventory list.'}))\n    else:\n        current_idx = inventory.index(current_item)\n        target_idx = inventory.index(target_item)\n        list_len = len(inventory)\n\n        if current_idx == target_idx:\n            print(json.dumps({'direction': 'NONE', 'presses': 0}))\n        else:\n            down_presses = (target_idx - current_idx + list_len) % list_len\n            up_presses = (current_idx - target_idx + list_len) % list_len\n\n            if down_presses <= up_presses:\n                print(json.dumps({'direction': 'DOWN', 'presses': down_presses}))\n            else:\n                print(json.dumps({'direction': 'UP', 'presses': up_presses}))\nexcept Exception as e:\n    print(json.dumps({'error': str(e), 'type': type(e).__name__}))"
+    "python_script": "import json\ntry:\n    inventory = json.loads(input_data['inventory_list'])\n    current_item = input_data['current_selection']\n    target_item = input_data['target_item']\n\n    if current_item not in inventory or target_item not in inventory:\n        print(json.dumps({'error': 'Item not found in inventory list.'}))\n    else:\n        current_idx = inventory.index(current_item)\n        target_idx = inventory.index(target_item)\n        \n        if current_idx == target_idx:\n            print(json.dumps({'direction': 'NONE', 'presses': 0}))\n        elif target_idx > current_idx:\n            presses = target_idx - current_idx\n            print(json.dumps({'direction': 'DOWN', 'presses': presses}))\n        else: # target_idx < current_idx\n            presses = current_idx - target_idx\n            print(json.dumps({'direction': 'UP', 'presses': presses}))\nexcept Exception as e:\n    print(json.dumps({'error': str(e), 'type': type(e).__name__}))"
   },
   "find_path_v7": {
     "description": "A robust A* pathfinding tool to find a path from a start to an end coordinate. It handles ledges, impassable objects, can path to a tile adjacent to an impassable destination, and correctly handles cuttable trees and all gate types as walkable terrain. Includes an optional 'ignore_npc_ids' parameter to treat specific NPCs as passable. This version treats warp tiles as impassable to avoid pathing through them.",
