@@ -38,8 +38,8 @@
 
 ### Current Puzzle: Olivine Lighthouse
 *   **Goal:** Ascend the lighthouse to find the sick Ampharos.
-*   **Correction:** My previous conclusion that the warps at (16, 11) and (17, 11) were non-functional was likely incorrect. There is no ladder at (12, 11).
-*   **New Plan:** I must re-investigate the warps at (16, 11) and (17, 11) as they are the only remaining paths upward.
+*   **Failed Hypothesis:** The warps at (16, 11) and (17, 11) are not activated by movement or interaction. They are not the immediate path forward.
+*   **New Plan:** Systematically re-explore the entire floor, starting with testing the 'WINDOW' tiles.
 
 ### General Hypotheses & Verified Conclusions
 *   **Conclusion:** The pits on Olivine Lighthouse 2F are one-way warps to the first floor.
