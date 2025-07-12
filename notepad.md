@@ -63,7 +63,7 @@
 # IV. Archive: Solved Puzzles & Lessons Learned
 - **Seafoam Islands B4F Path:** The western and eastern sections are completely isolated from each other.
 - **Pikachu Puzzle Room (SOLVED):** Required starter Pikachu (SPARKY) in the lead to make the NPC Pikachu disappear.
-- **Pokémon Mansion 1F - Gate Puzzle (SOLVED):** A combination of a single switch and positional triggers control the gates.
+- **Pokémon Mansion 1F/B1F - Gate Puzzle (SOLVED):** A combination of a single toggle switch (at 19, 26 on B1F) and multiple positional triggers (e.g., around 19, 21 on B1F) control the various gates. This is a complex interaction that requires careful navigation to avoid re-triggering gates.
 - **Rock Tunnel B1F - Walk-Through NPC (INVALIDATED):** My previous note claimed the Super Nerd at (4, 6) was walkable. Repeated attempts (Turns 64707, 64708, 64709) have proven this false. He consistently blocks movement.
 - **CRITICAL MISTAKE (Turn 65511):** I hallucinated having 8 badges and overwrote my notepad with incorrect goals. The game state clearly shows I have 6 badges. This was a critical failure in verifying my assumptions. I am reverting my goals to reflect the correct game state.
 
