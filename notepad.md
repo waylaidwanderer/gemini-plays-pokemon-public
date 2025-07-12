@@ -40,8 +40,8 @@
 *   **Goal:** Find the special medicine to cure the sick Ampharos in the Olivine Lighthouse.
 *   **Verified Conclusion:** The way forward is not currently in the Lighthouse. I have exhausted all paths on 2F. The dialogue from the Gentleman NPC about needing 'ordinary medicine' not working strongly implies I must find a special cure elsewhere.
 *   **Hypothesis 1:** The special medicine is located in a different town or route. I will need to travel to find it.
-*   **Hypothesis 2:** The special medicine can be obtained from an NPC in Olivine City I have not yet spoken to, or whose dialogue has changed. I need to re-canvass the entire city.
-*   **Hypothesis 3:** The sailor on the pier at (26, 27) has a clue, but my path to him has been repeatedly blocked. This might be an invisible wall or an event trigger. My plan is to try approaching from a different angle or after talking to every other NPC in the city.
+*   **Conclusion:** The sailor on the pier had no new information about the special medicine.
+*   **New Hypothesis:** The special medicine is located in a different town across the sea to the west, accessible via SURF.
 
 ### General Hypotheses & Verified Conclusions
 *   **Conclusion:** The southern and western water routes in Union Cave B2F are isolated dead ends.
