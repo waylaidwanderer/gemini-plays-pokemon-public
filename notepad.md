@@ -38,7 +38,7 @@
 *   **Haircuts:** Increases a Pokémon's happiness.
 
 ## II. Blocked Paths & Story Gates
-*   **Route 37 Trainer Blockade:** Twins Ann & Anne disguised as trees block the path north at (6, 12) and (7, 12).
+
 *   **Goldenrod Underground Blockade:** A Super Nerd blocks the path south at (5, 31).
 *   **Ilex Forest Blockade:** A `HEADBUTT_TREE` at (9, 26) blocks the path. Needs further testing.
 
