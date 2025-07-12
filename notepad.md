@@ -43,3 +43,4 @@
     3.  **Final Approach (Invalidated):** The previous hypothesis that side paths are safe was incorrect. Both the central and side paths act as traps that reset the boulders. A new solution is needed.
 ### Cianwood City NPCs
 *   **Pokefan F (11, 46):** Will give a gift (likely HM02 FLY) after defeating the Cianwood Gym Leader.
+*   **Glitched Battle State:** Encountered a glitched battle on a WATER tile at (28, 40) in Cianwood City. The game state became corrupted (empty party, incorrect player info) but resolved after attempting to run.
