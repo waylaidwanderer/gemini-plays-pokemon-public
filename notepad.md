@@ -76,3 +76,6 @@
   2. Fly to Lavender Town.
   3. Go south to Route 12.
   4. Use Cut on the tree at (8, 89) and explore the area beyond.
+- **Hypothesis (INVALIDATED):** The Super Nerd at (7, 12) on Pokemon Mansion 3F is walkable.
+  - **Test:** Attempted pathfinding while ignoring the NPC.
+  - **Conclusion:** Pathfinding failed, and system confirmed the destination was unreachable. The NPC is an impassable obstacle.
