@@ -33,13 +33,11 @@
 
 ### Current Quest: The Secret Medicine
 *   **Goal:** Find the special medicine in Cianwood City to cure the sick Ampharos in the Olivine Lighthouse.
-*   **Current Hypothesis:** The medicine will be given to me after defeating the Cianwood City Gym Leader. This is the most common method of story progression in Pokémon games.
-*   **Alternative Hypothesis:** The medicine is held by an NPC I haven't spoken to yet, or is hidden behind a boulder that requires ROCK SMASH.
+*   **Current Location:** I have discovered the Cianwood Pharmacy. My working hypothesis is that the Pharmacist inside will give me the medicine.
+*   **Alternative Hypothesis:** The Pharmacist may require me to complete another task first, such as defeating the Cianwood Gym Leader.
 
 ### Cianwood Gym Puzzle (SOLVED)
-*   **Solution:** The puzzle requires a two-step process. First, walk to the northernmost tile of the eastern path (8, 6). This causes the boulders blocking the central path to disappear and a new Black Belt to appear at (5, 5), creating an impassable state. Second, exit the gym and re-enter. This resets the player's position to the entrance but keeps the boulders gone, clearing the path directly to the Gym Leader.
-
-### Future Plans & Untested Theories
-*   **Existing Tool (`gym_state_tester`):** A tool that takes a sequence of moves as input and executes them. This can be used to automate testing the side paths.
-*   **New Clue:** The trainer at (2, 12) gives dialogue about a 'strong bond' instead of battling.
-*   **New Clue:** The trainer at (7, 12) gives a hint about Psychic types instead of battling.
+*   **Solution:** The puzzle is a multi-step process that requires resetting the gym's state.
+    1.  Enter the gym and walk to the northernmost tile of the eastern path at (8, 6). This causes the boulders blocking the central path to disappear and a new Black Belt to appear at (5, 5), creating what appears to be an impassable state.
+    2.  Exit the gym and re-enter. This resets the player's position to the entrance but keeps the boulders gone, clearing the path directly to the Gym Leader.
+*   **Trap:** Attempting to walk up the central path after re-entering causes the boulders to reappear, trapping the player. The side paths must be used to reach the Gym Leader.
