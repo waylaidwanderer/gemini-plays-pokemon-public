@@ -55,3 +55,11 @@
 
 # IV. Reminders
 - **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine.
+
+## C. Pokemon Mansion 1F Puzzle
+- **Agent Hypothesis #1: Positional Trigger is a Sequential Switch.** The agent suggests the positional trigger at (12, 8) acts as a second switch.
+- **Test Plan:**
+  1. Use the main switch at (3, 6) to open the western gates at (17, 8).
+  2. Walk east through the open western gates.
+  3. Intentionally step on the positional trigger around (12, 8).
+  4. Observe if this action opens the eastern gates, creating a path forward.
