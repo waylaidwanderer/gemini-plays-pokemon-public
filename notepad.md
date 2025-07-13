@@ -58,5 +58,10 @@
 
 *   **Hypothesis 2:** A positional trigger that opens the gate at (27, 28) exists somewhere along the floor of the eastern corridor between (27, 20) and (27, 28).
 *   **Test 2:** Walk south along the entire length of the corridor, ensuring every tile is stepped on.
-*   **Outcome 2:** [Pending]
-*   **Conclusion 2:** [Pending]
+*   **Outcome 2:** Walked the entire length of the corridor from (27, 20) to (27, 27). No positional trigger was activated; the gate at (27, 28) remains closed.
+*   **Conclusion 2:** Hypothesis 2 is incorrect. The solution is not a positional trigger.
+
+*   **Hypothesis 3:** The Secret Key is a hidden item on the floor of this corridor.
+*   **Test 3:** Use the ITEMFINDER item from the inventory.
+*   **Outcome 3:** [Pending]
+*   **Conclusion 3:** [Pending]
