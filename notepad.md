@@ -59,13 +59,10 @@
     3.  **Trainer Obstacles:** Defeated trainers become impassable obstacles. Battling must be avoided until a path is cleared.
     4.  **Boulder Switch:** Interacting with the boulder at (3, 6) after the puzzle is triggered acts as a one-time switch, displaying the message "Boulders may now be moved!". It does not move the boulder itself.
 
-*   **Current Hypothesis:** The correct sequence to solve the puzzle is: 1. Trigger the puzzle. 2. Activate the boulder switch. 3. Push a *different*, specific boulder to clear the path.
+*   **Current Hypothesis:** After triggering the puzzle and activating the boulder switch, specific boulders can be pushed to clear a path to Gym Leader Chuck.
 
 *   **Test Plan:**
-    1.  Reset the puzzle by moving to (4, 8).
-    2.  Re-trigger the puzzle by moving to (8, 6).
-    3.  Activate the switch by interacting with the boulder at (3, 6).
-    4.  Systematically attempt to push the other accessible boulders, starting with the one at (4, 4), and document the results.
-
-## Tool Development Pipeline
-*   **TODO:** Define a `boulder_puzzle_solver` tool. The manual trial-and-error approach has failed repeatedly. A systematic, automated analysis is required.
+    1.  Ensure the puzzle is in its active, un-battled state.
+    2.  Activate the switch by interacting with the boulder at (3, 6).
+    3.  Use the `boulder_scanner` tool to identify all valid boulder pushes.
+    4.  Formulate a pathing plan based on the tool's output to reach and defeat Chuck.

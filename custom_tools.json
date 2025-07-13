@@ -61,5 +61,21 @@
     "description": "Scans the current map XML and returns the coordinates of all warp tiles that do not have a map marker.",
     "input_schema": {},
     "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nunmarked_warps = []\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        if tile_elem.attrib.get('is-warp') == 'true':\n            has_marker = False\n            for child in tile_elem:\n                if child.tag == 'Marker':\n                    has_marker = True\n                    break\n            if not has_marker:\n                x = tile_elem.attrib['id']\n                y = row_elem.attrib['id']\n                unmarked_warps.append({'x': int(x), 'y': int(y)})\nprint(json.dumps({'unmarked_warps': unmarked_warps}))"
+  },
+  "boulder_scanner": {
+    "description": "Scans the current map for boulders and identifies valid push directions.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "traversable_tiles": {
+          "type": "string",
+          "description": "Comma-separated list of tile types considered traversable for a boulder to be pushed onto."
+        }
+      },
+      "required": [
+        "traversable_tiles"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef get_tile(root, x, y):\n    try:\n        return root.find(f\".//Row[@id='{y}']/Tile[@id='{x}']\")\n    except:\n        return None\n\ntraversable_types = input_data.get('traversable_tiles', '').split(',')\nroot = ET.fromstring(map_xml_string)\n\nboulders = []\nfor obj in root.findall('.//Object[@id-name=\"BOULDER\"]'):\n    tile = obj.find('..')\n    x, y = int(tile.get('id')), int(tile.find('..').get('id'))\n    boulders.append({'x': x, 'y': y, 'id': obj.get('id')})\n\nvalid_pushes = []\nfor boulder in boulders:\n    bx, by = boulder['x'], boulder['y']\n    \n    # Check push UP\n    player_tile = get_tile(root, bx, by + 1)\n    dest_tile = get_tile(root, bx, by - 1)\n    if player_tile is not None and dest_tile is not None and player_tile.get('type') in traversable_types and dest_tile.get('type') in traversable_types and dest_tile.find('Object') is None:\n        valid_pushes.append({'boulder_id': boulder['id'], 'boulder_coord': f\"({bx}, {by})\", 'push_direction': 'Up', 'player_stand_coord': f\"({bx}, {by+1})\"})\n\n    # Check push DOWN\n    player_tile = get_tile(root, bx, by - 1)\n    dest_tile = get_tile(root, bx, by + 1)\n    if player_tile is not None and dest_tile is not None and player_tile.get('type') in traversable_types and dest_tile.get('type') in traversable_types and dest_tile.find('Object') is None:\n        valid_pushes.append({'boulder_id': boulder['id'], 'boulder_coord': f\"({bx}, {by})\", 'push_direction': 'Down', 'player_stand_coord': f\"({bx}, {by-1})\"})\n\n    # Check push LEFT\n    player_tile = get_tile(root, bx + 1, by)\n    dest_tile = get_tile(root, bx - 1, by)\n    if player_tile is not None and dest_tile is not None and player_tile.get('type') in traversable_types and dest_tile.get('type') in traversable_types and dest_tile.find('Object') is None:\n        valid_pushes.append({'boulder_id': boulder['id'], 'boulder_coord': f\"({bx}, {by})\", 'push_direction': 'Left', 'player_stand_coord': f\"({bx+1}, {by})\"})\n\n    # Check push RIGHT\n    player_tile = get_tile(root, bx - 1, by)\n    dest_tile = get_tile(root, bx + 1, by)\n    if player_tile is not None and dest_tile is not None and player_tile.get('type') in traversable_types and dest_tile.get('type') in traversable_types and dest_tile.find('Object') is None:\n        valid_pushes.append({'boulder_id': boulder['id'], 'boulder_coord': f\"({bx}, {by})\", 'push_direction': 'Right', 'player_stand_coord': f\"({bx-1}, {by})\"})\n\nprint(json.dumps(valid_pushes, indent=2))"
   }
 }
