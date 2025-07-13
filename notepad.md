@@ -67,5 +67,8 @@
   - **Hypothesis 5 (Failed):** The southern wall is a one-way ledge.
   - **Test:** Attempted to walk south into the impassable wall at (2, 18).
   - **Conclusion:** The wall is impassable, not a ledge. The 'jumping off' hint may apply elsewhere or be metaphorical.
-- **Hypothesis 6 (Active):** The corridor is an intentional trap, requiring a field move like Dig to escape.
-  - **Test Plan:** Teach TM28 (Dig) to a compatible Pokémon and use it.
+- **Hypothesis 6 (Failed):** The corridor is an intentional trap, requiring a field move like Dig to escape.
+  - **Test:** Checked inventory for TM28 (Dig). It is not present.
+  - **Conclusion:** This escape method is not currently possible.
+- **Hypothesis 7 (Active):** There is a hidden switch on one of the floor tiles in the corridor.
+  - **Test Plan:** Stand on each tile from (2, 17) to (6, 17) and press the A button.
