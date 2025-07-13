@@ -29,11 +29,3 @@ My primary objective is to defeat Gym Leader Chuck. The main obstacle is the bou
 *   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 *   **Map Corrections:** Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
-
-## IV. Cianwood Gym Strategy (Current)
-
-### Confirmed Mechanics
-1.  **Puzzle Trigger:** Stepping on the tile at (8, 6) activates the main puzzle, causing boulders and trainers to appear.
-2.  **Puzzle Reset:** Stepping on the tile at (4, 8) resets the puzzle, returning all non-defeated elements to their starting positions.
-3.  **Trainer Obstacles:** Defeated trainers become impassable obstacles. Battling must be avoided until a path is cleared.
-4.  **Boulder Switch:** Interacting with the boulder at (3, 6) after the puzzle is triggered acts as a one-time switch, displaying the message "Boulders may now be moved!". It does not move the boulder itself.
