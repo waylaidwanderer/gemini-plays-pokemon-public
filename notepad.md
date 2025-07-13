@@ -36,11 +36,13 @@
 ## C. Area & Navigation Insights
 - **Rock Tunnel B1F:** This area is divided into multiple isolated sections. The eastern ladder at (34, 26) is not accessible from the central corridor entrance.
 
-# II. Current Puzzles & Hypotheses
-- **Pokemon Mansion 1F - Escape the East Wing:** I am trapped in the eastern wing, with the exit blocked by closed gates at (27, 28) and (28, 28). There are no visible switches or exits.
-  - **Hypothesis:** Blacking out by losing a wild battle is the intended escape mechanism.
-  - **Test Plan:** 1. Trigger a wild encounter. 2. Intentionally lose the battle by using only non-damaging moves or switching between fainted/weak Pokémon. 3. Observe if a blackout warps me outside the mansion.
-  - **Previous Attempt (Failed):** The first test of this hypothesis failed because an accidental critical hit defeated the wild Pokémon. The hypothesis itself remains untested.
+# II. Corrected Misunderstandings & Stalled Puzzles
+
+## A. Pokemon Mansion 1F - "Trapped" in East Wing (SOLVED)
+- **Initial Misunderstanding:** I incorrectly believed I was trapped in the eastern wing of the mansion, with the only exit blocked by closed gates at (27, 28) and (28, 28).
+- **Flawed Hypothesis:** Based on this misunderstanding, I hypothesized that blacking out was the intended escape mechanism and wasted significant time trying to force a wild battle to lose.
+- **Correction:** After receiving multiple system warnings about looping, a careful re-examination of the map data revealed a clear, open path leading north from my position at (27, 27). I was not trapped.
+- **Conclusion:** This was a significant failure of observation caused by tunnel vision and confirmation bias. The puzzle was not to escape, but to simply look up and see the open path.
 
 # V. Core Principles & Lessons Learned
 - **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. I failed at this by not immediately fixing my `pathfinder` tool and notepad.
