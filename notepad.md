@@ -44,4 +44,7 @@
 
 # III. Solved Puzzles
 - **Pokemon Mansion - Trapped Room:** Was trapped in an isolated room at (27, 27). The game repeatedly gave 'hallucination' warnings. The solution was to take the warnings literally and walk through a tile marked 'impassable' at (27, 26).
+
+# III. Solved Puzzles
+- **Pokemon Mansion - Trapped Room:** Was trapped in an isolated room at (27, 27). The game repeatedly gave 'hallucination' warnings. The solution was to take the warnings literally and walk through a tile marked 'impassable' at (27, 26).
 - **Pokemon Mansion - Alternating Doors Puzzle:** The mansion has at least two sets of gates controlled by two different switches. **Switch 1 (1F, (3, 6))** controls the western gates (e.g., at (17,8)). **Switch 2 (2F, (3, 12))** controls the eastern gates (e.g., at (25, 14)). Activating one switch appears to toggle its corresponding gates while potentially deactivating the other set. A specific sequence is needed to navigate the entire mansion.
