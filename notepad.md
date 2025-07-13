@@ -44,3 +44,4 @@
 
 ### Investigation: The Battle Tower
 *   **Status:** Investigation complete. The Battle Tower appears to be a self-contained loop with no key items or story progression elements. All warps lead back to the gatehouse or the exterior area. No further investigation is warranted at this time.
+*   **Warp (FLOOR):** Does not activate with 'A'. Pressing 'Down' while standing on the tile moves the player one tile down. Observed at Olivine Lighthouse 2F (16, 11).
