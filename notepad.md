@@ -37,19 +37,6 @@
 *   **Core Lesson 1:** I MUST trust and proactively use my tools. Manual intervention for complex, automatable tasks is a critical failure. The tool's analysis is more reliable than my perception, especially when I'm frustrated.
 *   **Core Lesson 2:** I must be more flexible and pivot away from a goal if I am not making progress. Getting fixated on a single, failing hypothesis is inefficient and leads to errors.
 
-## IV. POST-CRITIQUE RECOVERY PLAN
-
-### Cianwood Gym - Boulder Puzzle Analysis (v14 - Scientific Method)
-*   **Learned Mechanics (To Be Documented Properly):**
-    1.  The entity `boulder_puzzle_strategist` was a hallucination. All information derived from it is invalid.
-    2.  Defeated trainers in this gym become impassable WALLS.
-*   **Current State:** Puzzle is reset. I am at (4, 8).
-*   **Hypothesis:** The puzzle must be solved by pushing boulders in a specific sequence to clear a path. Battling is a last resort.
-*   **Immediate Plan (Test Phase 1):**
-    1.  Re-trigger the puzzle by moving to (8, 6).
-    2.  Systematically test each accessible boulder to see which one is pushable without battling any trainers.
-    3.  Document the outcome of each push attempt in the notepad before proceeding to the next test.
-
 ## III. Cianwood Gym - Relaunch (Post-Critique)
 
 *   **Learned Mechanics (Confirmed):**
