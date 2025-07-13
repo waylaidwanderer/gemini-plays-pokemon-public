@@ -38,9 +38,8 @@
 
 ### Cianwood Gym Puzzle
 *   **Confirmed Mechanic 1 (Boulder Reset):** Stepping on the tile at (8, 6) causes the Gym Leader and three boulders to appear. Exiting and re-entering the gym removes the boulders, but the Gym Leader remains.
-*   **Confirmed Mechanic 2 (Central Path Trap):** After resetting the boulders (step on (8, 6), exit, re-enter), stepping on the tiles at **(4, 12)** or **(4, 13)** causes the boulders to reappear. Tiles (4, 14) through (4, 16) are confirmed safe. **Black Belt Yoshi at (2, 12) is a non-battling NPC.** The side paths (columns 1-3 and 6-8) must be used to approach trainers.
-*   **Confirmed Mechanic 3 (Side Paths):** The eastern and western side paths are physically disconnected from the northern section where the Gym Leader is. They are not a valid route.
+*   **Confirmed Mechanic 2 (Central Path Trap):** After resetting the boulders (step on (8, 6), exit, re-enter), stepping on any tile in columns **x=4 or x=5** between y=6 and y=16 causes the boulders to reappear.
+*   **Confirmed Mechanic 3 (Side Paths):** The side paths (columns 1-3 and 6-8) are the **only** valid routes to approach the trainers without triggering the central trap.
+*   **Confirmed Mechanic 4 (Boulder Manipulation):** The boulders can be moved with STRENGTH. This is the intended solution to reach the Gym Leader after defeating the trainers.
+*   **Confirmed NPC Status:** Black Belt Yoshi at (2, 12) is a non-battling NPC.
 *   **Failed Hypothesis 1 (Statue Interaction):** Interacting with the statues at (3, 15) and (6, 15) has no effect on the gym's state.
-*   **Current Plan (Systematic Trap Identification):**
-    1.  Perform the boulder reset procedure (step on (8, 6), exit, re-enter).
-    2.  Carefully test each tile on the central path, one by one, to identify the exact location of the trap trigger(s). Move onto a tile, then move off it to see if the boulders reappear. This will isolate the unsafe tile(s).
