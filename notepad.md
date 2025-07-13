@@ -39,8 +39,9 @@
 ### Cianwood Gym Puzzle
 *   **Core Mechanic:** A sequence of actions is required to reach the Gym Leader.
 *   **Failed Hypothesis 1:** Defeating all trainers in the gym will clear the path. (Tested on turn 38864 - Lao and Yoshi only give dialogue and do not battle).
-*   **Current Hypothesis:** Interacting with the gym statues after triggering the appearance of the trainers is the next required step.
-*   **Test Plan:** Interact with the statue at (3, 15).
+*   **Failed Hypothesis 2:** Interacting with the left statue at (3, 15) after re-defeating Nob would solve the puzzle. (Tested on turn 38871 - only showed location banner).
+*   **Current Hypothesis:** Interacting with the *right* statue at (6, 15) is the correct trigger.
+*   **Test Plan:** Interact with the statue at (6, 15).
 *   **Puzzle State:** Black Belt Nob has been re-defeated. Black Belts Lao and Yoshi are present but non-combative.
 
 ## Map Corrections
