@@ -45,3 +45,8 @@
 # III. Solved Puzzles
 - **Pokemon Mansion - Trapped Room:** Was trapped in an isolated room at (27, 27). The game repeatedly gave 'hallucination' warnings. The solution was to take the warnings literally and walk through a tile marked 'impassable' at (27, 26).
 - **Pokemon Mansion - 1F Gate Puzzle:** The switches on 1F and 2F have a combined effect. To open the eastern gates at (25, 14), first activate the switch on 2F at (3, 12), then activate the switch on 1F at (3, 6).
+
+# IV. Custom Tools & Agents
+
+## A. Custom Tools
+- **path_converter:** Converts a comma-separated string of directional moves (Up,Down,Left,Right) from the pathfinder tool into a JSON array of coordinate objects for the 'path' command. Created to improve efficiency by automating a repetitive task.

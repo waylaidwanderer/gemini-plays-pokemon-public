@@ -110,5 +110,28 @@
       ]
     },
     "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef is_walkable(tile):\n    walkable_types = ['ground', 'grass', 'steps', 'elevated_ground', 'cleared_boulder_barrier', 'open_gate', 'ladder_up', 'ladder_down', 'teleport', 'hole', 'spinner_up', 'spinner_down', 'spinner_left', 'spinner_right', 'spinner_stop']\n    if tile.get('type') in walkable_types:\n        if tile.find('Object') is None:\n            return True\n    return False\n\ntry:\n    map_root = ET.fromstring(map_xml_string)\n    width = int(map_root.get('width'))\n    height = int(map_root.get('height'))\n    \n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n\n    grid = [[None for _ in range(width + 1)] for _ in range(height + 1)]\n    for row_elem in map_root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            grid[y][x] = tile_elem\n\n    start_node = (start_x, start_y)\n    target_node = (target_x, target_y)\n\n    if not (1 <= start_x <= width and 1 <= start_y <= height and 1 <= target_x <= width and 1 <= target_y <= height):\n        print(\"Error: Coordinates are out of map bounds.\")\n    else:\n        queue = deque([start_node])\n        visited = {start_node}\n        connected = False\n\n        while queue:\n            current_x, current_y = queue.popleft()\n\n            if (current_x, current_y) == target_node:\n                connected = True\n                break\n\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                next_x, next_y = current_x + dx, current_y + dy\n                \n                if 1 <= next_x <= width and 1 <= next_y <= height:\n                    neighbor_tile = grid[next_y][next_x]\n                    if neighbor_tile is not None and (next_x, next_y) not in visited and is_walkable(neighbor_tile):\n                        visited.add((next_x, next_y))\n                        queue.append((next_x, next_y))\n        \n        if connected:\n            print(f\"Connectivity confirmed: Path exists between ({start_x},{start_y}) and ({target_x},{target_y}).\")\n        else:\n            print(f\"Connectivity not found: Path does not exist between ({start_x},{start_y}) and ({target_x},{target_y}).\")\n\nexcept Exception as e:\n    print(f\"An error occurred: {e}\")"
+  },
+  "path_converter": {
+    "description": "Converts a comma-separated string of directional moves (Up,Down,Left,Right) from the pathfinder tool into a JSON array of coordinate objects for the 'path' command.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "path_string": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "path_string"
+      ]
+    },
+    "python_script": "import json\n\nx = int(input_data['start_x'])\ny = int(input_data['start_y'])\npath_string = input_data['path_string']\n\nmoves = path_string.split(',')\ncoordinates = [{'x': x, 'y': y}]\n\nmove_map = {'Up': (0, -1), 'Down': (0, 1), 'Left': (-1, 0), 'Right': (1, 0)}\n\nfor move in moves:\n    if move in move_map:\n        dx, dy = move_map[move]\n        x += dx\n        y += dy\n        coordinates.append({'x': x, 'y': y})\n\nprint(json.dumps(coordinates))"
   }
 }
