@@ -45,4 +45,3 @@
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 *   **Map Corrections:** Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
 *   **Special Requirement (Verified):** `BOULDER` (Object requires HM04 Strength to push).
-*   **Special Requirement (Verified):** `BOULDER` (Object requires HM04 Strength to push).
