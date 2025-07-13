@@ -75,7 +75,9 @@
 *   **Outcome 5:** The Golem one-shotted the Rattata. The blackout strategy failed.
 *   **Conclusion 5:** The blackout strategy is unreliable as my active Pokémon is too strong. I must find another way out.
 
-*   **Hypothesis 6 (Post-Battle State Change):** The one-way nature of the wall at (27, 26) might reset or change after a battle, allowing me to pass back through it. This is based on my "Combat Confirmation Bias" lesson learned.
+*   **Hypothesis 6 (Post-Battle State Change):** The one-way nature of the wall at (27, 26) might reset or change after a battle, allowing me to pass back through it.
 *   **Test 6:** Attempt to walk north from (27, 27) onto the wall tile at (27, 26).
+*   **Outcome 6:** Success! After the wild battle, the wall at (27, 26) became passable from the south.
+*   **Conclusion 6:** Hypothesis 6 is confirmed. The properties of some environmental objects can change after a battle. I have escaped the corridor.
 - **Strategic Flexibility:** I must recognize when a strategy is failing (e.g., the blackout attempt failing due to RNG) and be willing to pivot or re-evaluate instead of getting stuck in a loop. I persisted with the blackout plan for too long without considering alternatives after the first failure.
 - **Combat Confirmation Bias:** When a test seems to confirm a hypothesis (e.g., the one-way wall), I must actively try to *disprove* it under different conditions (e.g., after a battle) instead of accepting the initial result as absolute truth.
