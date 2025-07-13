@@ -46,3 +46,7 @@
 
 ## B. Pokemon Mansion - Solved Puzzles
 - **1F Gate Puzzle:** The switches on 1F and 2F have a combined effect. To open the eastern gates at (25, 14), first activate the switch on 2F at (3, 12), then activate the switch on 1F at (3, 6).
+
+# IV. Lessons from Reflection (Turn 68987)
+- **Disprove Hypotheses:** I must actively try to prove my own assumptions wrong, not just seek confirmation. When I thought my pathfinder was broken, I should have tested the hypothesis "What if the tool is right and I'm wrong?" This would have revealed I was trapped much sooner.
+- **Agent/Tool Idea - Faint Strategist:** A potential new agent could specialize in planning the most efficient way to black out. It would analyze the party, the opponent, and available moves to recommend the fastest sequence of faints.
