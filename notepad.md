@@ -46,3 +46,4 @@
 *   **Result 3:** Attempting to walk on the pushed boulder at (5, 6) failed. Movement was blocked.
 *   **Conclusion 3:** Hypothesis 3 is FALSE. The pushed boulders do not form a traversable bridge and remain impassable objects.
 *   **Hypothesis 4:** Defeating the Black Belt at (5, 5) is the trigger to solve the puzzle. This might remove the final boulder at (5,1) or alter the path in another way.
+*   `STATUE` (Found in Cianwood Gym): Untested.
