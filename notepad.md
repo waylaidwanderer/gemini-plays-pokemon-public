@@ -50,3 +50,14 @@
 
 # V. Tool Usage & Limitations
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
+
+**Puzzle: Accessing East Wing of Pokemon Mansion 2F**
+
+**Attempt 1:**
+- **Observation:** The east side of 2F is blocked by gates. There is a switch at (3, 12) on the west side.
+- **Hypothesis:** Activating the switch at (3, 12) will open the gates at (10, 5) and (10, 6), allowing access to the east wing from the west.
+- **Test:** Activated the switch. Attempted to pathfind to (9, 5) adjacent to the gate.
+- **Outcome:** Pathfinding failed. The `path_planner` tool, now correctly treating `gate_offscreen` as impassable, returned no path. System also confirmed the destination is unreachable.
+- **Conclusion:** Hypothesis is **false**. The switch at (3, 12) does not grant access to the east wing from the west side of the floor.
+
+**New Hypothesis:** The east wing of 2F must be accessed from a different floor, likely by falling through a specific hole on 3F.
