@@ -49,3 +49,20 @@
 *   **Test Plan (Phase 2 - Boulder Pushing):**
     1.  Attempt to push the boulder at (3, 6) again to see if it moves now.
     2.  If it doesn't, systematically test other accessible boulders.
+
+## V. Cianwood Gym Strategy (Current)
+
+### Scientific Method Log
+*   **Core Confirmed Mechanics:**
+    1.  **Puzzle Trigger:** Stepping on the tile at (8, 6) activates the main puzzle, causing boulders and trainers to appear.
+    2.  **Puzzle Reset:** Stepping on the tile at (4, 8) resets the puzzle, returning all non-defeated elements to their starting positions.
+    3.  **Trainer Obstacles:** Defeated trainers become impassable obstacles. Battling must be avoided until a path is cleared.
+    4.  **Boulder Switch:** Interacting with the boulder at (3, 6) after the puzzle is triggered acts as a one-time switch, displaying the message "Boulders may now be moved!". It does not move the boulder itself.
+
+*   **Current Hypothesis:** The correct sequence to solve the puzzle is: 1. Trigger the puzzle. 2. Activate the boulder switch. 3. Push a *different*, specific boulder to clear the path.
+
+*   **Test Plan:**
+    1.  Reset the puzzle by moving to (4, 8).
+    2.  Re-trigger the puzzle by moving to (8, 6).
+    3.  Activate the switch by interacting with the boulder at (3, 6).
+    4.  Systematically attempt to push the other accessible boulders, starting with the one at (4, 4), and document the results.
