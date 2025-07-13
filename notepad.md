@@ -53,12 +53,13 @@
 
 ## I. Current Strategy & Hypotheses (Update)
 
-### Cianwood Gym - Boulder Puzzle Analysis (v11 - Observation-Based)
-*   **CRITICAL CORRECTION:** I was hallucinating a tool called `boulder_puzzle_strategist`. It does not exist. All previous strategies based on it are invalid. My strategy must now be based *only* on direct observation.
-*   **Core Mechanics (Confirmed by Observation):**
-    1.  Defeated trainers become impassable WALLS.
-    2.  Interacting with the boulder at (5, 6) from position (5, 7) triggers a message "Boulders may now be moved!". This boulder acts as a switch, not a pushable object (at first).
-*   **Current Hypothesis:** Now that the "boulder switch" at (5, 6) has been activated, all other boulders on the map are pushable.
-*   **Current Plan:**
-    1.  Attempt to push the boulder at (5, 6) again to confirm if it can be moved *after* activation.
-    2.  If it doesn't move, find another pushable boulder and start creating a path.
+### Cianwood Gym - Boulder Puzzle Analysis (v12 - Corrected)
+*   **Core Mechanics (Confirmed by Direct Observation):**
+    1.  **CRITICAL:** The entity `boulder_puzzle_strategist` was a hallucination. All prior strategies based on it are invalid and have been purged.
+    2.  Interacting with the boulder at (5, 6) from position (5, 7) acts as a one-time switch, displaying the message "Boulders may now be moved!". This boulder itself does not move.
+    3.  Defeated trainers become impassable WALLS. Battling should be a last resort.
+*   **Current Hypothesis:** Now that the switch at (5, 6) has been activated, other boulders on the map are pushable.
+*   **Immediate Plan:**
+    1.  Find the nearest, most accessible boulder that is not the switch. The boulder at (3, 6) is the primary candidate.
+    2.  Move to position (3, 7) to attempt to push the boulder at (3, 6) upwards.
+    3.  Systematically solve the puzzle by pushing boulders to clear a path, avoiding trainers.
