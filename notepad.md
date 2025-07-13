@@ -49,17 +49,9 @@
 # IV. Active Puzzle-Solving & Hypothesis Testing
 *This section is for actively working through complex puzzles. I will log observations, form a single testable hypothesis, record the test, and its outcome.*
 
-## Pokemon Mansion 1F - Trapped Room Puzzle
-*   **Observation:** Trapped in an eastern corridor after entering through a hidden wall at (27, 26). Exit gate at (27, 28) is closed. Game gives repeated 'hallucination' warnings.
-*   **Hypothesis 1 (from agent):** The entrance is the exit. The corridor is a misdirection.
-*   **Test 1:** Attempt to walk west from (27, 26) back through the wall at (26, 26).
-*   **Outcome 1:** Failed. The path was blocked.
-*   **Conclusion 1:** Hypothesis 1 is denied. The hidden passage is one-way only.
-*   **Hypothesis 2 (from agent):** A standard dungeon-escape mechanic will function.
-*   **Test 2:** Use an Escape Rope.
-*   **Outcome 2:** I do not have an Escape Rope.
-*   **Conclusion 2:** Hypothesis 2 is currently untestable.
-*   **Hypothesis 3 (from agent):** The closed gate is an illusion.
-*   **Test 3:** Attempt to walk south into the gate at (27, 28) and (28, 28).
-*   **Outcome 3:** Failed. The path was blocked at both tiles.
-*   **Conclusion 3:** Hypothesis 3 is denied. The gate is solid.
+## Pokemon Mansion 1F - Secret Key Puzzle
+*   **Observation:** After being trapped in a room with 'hallucination' warnings, I discovered a hidden, one-way passage through the wall at (27, 26), leading into a new eastern corridor. The exit from this corridor appears to be a closed gate at (27, 28).
+*   **Hypothesis 1:** There is a switch or trigger within this new corridor that opens the gate at (27, 28).
+*   **Test 1:** Systematically explore the entire length of the eastern corridor, from (27, 20) to (27, 28), interacting with any potential objects or stepping on every tile.
+*   **Outcome 1:** [Pending]
+*   **Conclusion 1:** [Pending]
