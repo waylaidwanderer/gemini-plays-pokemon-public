@@ -1,4 +1,9 @@
-# I. Game Mechanics & Battle Intel
+# I. Core Principles & Lessons Learned
+- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. Always trust tool output over visual inspection, as tools read the ground-truth map data. A systematic, evidence-based debugging process is essential.
+- **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it.
+- **Confirmation Bias is Dangerous:** My `pathfinder` tool wasn't broken, my understanding of the map was. I assumed the tool was failing because it didn't match my visual interpretation, leading to wasted time. **Lesson:** Trust the tool's output over visual inspection, as it reads the ground-truth map data.
+
+# II. Game Mechanics & Battle Intel
 
 ## A. Tile Mechanics & Traversal Rules
 - **Ground/Impassable:** `ground` tiles are walkable, `impassable` tiles are solid walls. All objects (NPCs, items, signs) function as impassable walls, except for Pikachu.
@@ -6,18 +11,18 @@
 - **Water:** Surfable tiles. To initiate SURF, I must be **facing the water** on a `ground` or `steps` tile and then use the move from the party menu.
 - **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
 - **Spinner Tiles:** Force movement in a specific direction. 
+- **Warp Tiles:** Instantaneous teleporters between maps or within the same map. Must step off and back on to reuse.
+- **Hole Tiles:** One-way warps that cause the player to fall to the floor below, often into isolated areas.
+- **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
+- **Elevated Ground:** Walkable ground at a different elevation, accessible only via `steps`.
+- **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
+- **Unknown Tiles:** Tiles not yet seen (`seen="false"`). Treated as impassable until explored.
+- **Secret Switches:** Some statues contain hidden switches. Activating them can toggle the state of nearby gates, opening new paths. 
+- **Positional Triggers:** Specific tiles that, when stepped on, can open or close gates or trigger other events elsewhere on the map. The effect may be reversed by stepping off the tile, or it may be permanent until another trigger is activated. Example: Stepping on (11, 4) on Pokemon Mansion 3F opens the gates at (16, 5) and (16, 6).
+- **Gate Offscreen/Closed/Open:** Gates whose state (unknown, impassable, or passable) depends on whether they are on-screen and whether a controlling switch has been activated.
 - **Scripted Event Tiles:** Some tiles trigger events. The tile in front of the Cinnabar Gym door (19, 5) pushes the player back and displays a 'locked' message. The water on Seafoam Islands B4F has a scripted current that prevents surfing south.
 - **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls.
 - **Invisible Barriers:** Some areas contain invisible, impassable barriers that are not tied to a specific tile type. Their presence may be linked to NPC positions or other puzzle mechanics.
-- **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
-- **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
-- **Elevated Ground:** Walkable ground at a different elevation, accessible only via `steps`.
-- **Secret Switches:** Some statues contain hidden switches. Activating them can toggle the state of nearby gates, opening new paths. 
-- **Warp Tiles:** Instantaneous teleporters between maps or within the same map. Must step off and back on to reuse.
-- **Hole Tiles:** One-way warps that cause the player to fall to the floor below, often into isolated areas.
-- **Unknown Tiles:** Tiles not yet seen (`seen="false"`). Treated as impassable until explored.
-- **Positional Triggers:** Specific tiles that, when stepped on, can open or close gates or trigger other events elsewhere on the map. The effect may be reversed by stepping off the tile, or it may be permanent until another trigger is activated. Example: Stepping on (11, 4) on Pokemon Mansion 3F opens the gates at (16, 5) and (16, 6).
-- **Gate Offscreen/Closed/Open:** Gates whose state (unknown, impassable, or passable) depends on whether they are on-screen and whether a controlling switch has been activated.
 
 ## B. Confirmed ROM Hack Changes
 ### B1. Type Matchups & Immunities
@@ -33,34 +38,13 @@
 - **Run from Battle Mechanic:** Attempting to switch Pokémon from the party screen can sometimes result in running from the battle instead.
 - **FLY in battle:** The move FLY can be used to defeat a wild Pokémon and end the battle, even when indoors. This acts as an escape method.
 
-## C. Area & Navigation Insights
-- **Rock Tunnel B1F:** This area is divided into multiple isolated sections. The eastern ladder at (34, 26) is not accessible from the central corridor entrance.
-
-# II. Corrected Misunderstandings & Stalled Puzzles
-
-# V. Core Principles & Lessons Learned
-- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. Always trust tool output over visual inspection, as tools read the ground-truth map data. A systematic, evidence-based debugging process is essential.
-- **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it.
-- **Confirmation Bias is Dangerous:** My `pathfinder` tool wasn't broken, my understanding of the map was. I assumed the tool was failing because it didn't match my visual interpretation, leading to wasted time. **Lesson:** Trust the tool's output over visual inspection, as it reads the ground-truth map data. A systematic, evidence-based debugging process (using diagnostic tools and agents) is essential.
-
-# VI. Reminders
-- **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine.
-- **Pokemon Mansion 2F - Super Nerd Confirmation:** Spoke to the Super Nerd at (5, 18). He confirmed the alternating door mechanic with the dialogue: 'Switches open and close alternating sets of doors!' This validates my existing puzzle hypothesis but offers no new clues about the SECRET KEY.
-
 # III. Active Puzzles & Hypotheses
 
 ## A. Pokemon Mansion - SECRET KEY
 - **Goal:** Find the SECRET KEY to unlock the Cinnabar Gym.
-- **Current Location:** Cinnabar Island (Healed party).
-- **Observations:**
-  - The mansion has multiple floors (1F, 2F, 3F, B1F).
-  - There are statues containing switches on multiple floors.
-  - There are positional triggers that open/close gates.
-  - The layout is a maze of interconnected rooms and corridors.
 - **Main Hypothesis:** Finding the key requires a specific sequence of activating switches across multiple floors to open a path to the basement area where the key is likely hidden.
 
-## Pokemon Mansion - Puzzle Tracking
-
+## B. Pokemon Mansion - Puzzle Tracking
 ### Hypothesis 1: 1F Switch Controls Gates on Multiple Floors
 - **State B (Switch ON - Active):**
   - **1F Gates (West, (17,8)):** [CONFIRMED UNREACHABLE]
@@ -73,3 +57,7 @@
   3. Observe and record status of all four gate sets. (IN PROGRESS)
   4. Press switch again (Return to State A).
   5. Observe and record status of all four gate sets to confirm toggle.
+
+# IV. Reminders
+- **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine.
+- **Pokemon Mansion 2F - Super Nerd Confirmation:** Spoke to the Super Nerd at (5, 18). He confirmed the alternating door mechanic with the dialogue: 'Switches open and close alternating sets of doors!' This validates my existing puzzle hypothesis but offers no new clues about the SECRET KEY.
