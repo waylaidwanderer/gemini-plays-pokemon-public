@@ -37,17 +37,11 @@
 ## III. Strategic Plans & Hypotheses
 
 ### Cianwood Gym Puzzle
-*   **Confirmed Mechanic:** The gym's state (trainers, boulders) is dynamic and changes based on player movement. Moving to the entrance area resets the gym to its initial state.
-*   **Confirmed Mechanic:** Stepping on the trigger tile at (8, 6) causes the Gym Leader to appear and boulders to block the central path.
-*   **Confirmed Mechanic:** The eastern and western paths of the gym are disconnected.
-
-### Cianwood Gym Hypotheses
-*   **Hypothesis 1 (Invalidated):** Defeating the trainers at (2, 12) and (7, 12) is required.
-    *   **Test:** Interacted with trainer at (2, 12).
-    *   **Result:** Dialogue only, no battle.
-    *   **Conclusion:** This hypothesis is incorrect.
-*   **Current Working Hypothesis (Revisited):** The puzzle requires stepping on the trigger tile at (8, 6), then leaving and re-entering the gym to clear the boulders.
+*   **Confirmed Solution:** The puzzle is solved in three steps:
+    1. Step on the trigger tile at (8, 6). This causes the Gym Leader and boulders to appear.
+    2. Exit and immediately re-enter the gym. This removes the boulders but leaves the Gym Leader.
+    3. Navigate to the Gym Leader using the side paths. The central path is a trap that makes the boulders reappear.
 
 ## IV. Anomalies & Unexplained Events
 
-*   **Cianwood Gym Non-Battle Interactions:** Interacting with the two initial trainers at (2, 12) and (7, 12) results in dialogue but no battle. The significance of this is currently unknown. It may be a prerequisite for the puzzle, a red herring, or a bug.
+*   **Cianwood Gym Non-Battle Interactions:** Interacting with the two initial trainers at (2, 12) and (7, 12) results in dialogue but no battle. The significance of this is currently unknown.
