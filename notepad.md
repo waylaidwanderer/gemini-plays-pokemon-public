@@ -58,3 +58,18 @@
   - There are positional triggers that open/close gates.
   - The layout is a maze of interconnected rooms and corridors.
 - **Main Hypothesis:** Finding the key requires a specific sequence of activating switches across multiple floors to open a path to the basement area where the key is likely hidden.
+
+## Pokemon Mansion - Puzzle Tracking
+
+### Hypothesis 1: 1F Switch Controls Gates on Multiple Floors
+- **State A (Switch OFF - Initial State):**
+  - **1F Gates (West, (17,8)):** [Status Unknown]
+  - **1F Gates (East, (25,14)):** [Status Unknown]
+  - **2F Gates (North, (10,5)):** [Status Unknown]
+  - **2F Gates (East, (19,9)):** [Status Unknown]
+- **Test Plan:**
+  1. Go to 1F switch at (3,6).
+  2. Press switch (Enter State B).
+  3. Observe and record status of all four gate sets.
+  4. Press switch again (Return to State A).
+  5. Observe and record status of all four gate sets to confirm toggle.
