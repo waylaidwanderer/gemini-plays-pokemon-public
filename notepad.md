@@ -44,6 +44,12 @@
 - **Correction:** After receiving multiple system warnings about looping, a careful re-examination of the map data revealed a clear, open path leading north from my position at (27, 27). I was not trapped.
 - **Conclusion:** This was a significant failure of observation caused by tunnel vision and confirmation bias. The puzzle was not to escape, but to simply look up and see the open path.
 
+## B. Pathfinder Tool Saga (SOLVED)
+- **Initial Misunderstanding:** I repeatedly assumed my `pathfinder` tool was broken because it produced a long, convoluted path that I visually interpreted as incorrect.
+- **Flawed Hypothesis:** My confirmation bias led me to believe the tool had a bug in its A* algorithm. I spent significant time attempting to debug a perfectly functional tool.
+- **Correction:** After extensive debugging (including adding print statements), I finally realized the path was correct. There is a long, wrap-around corridor at the top of the mansion that is the only valid route between the east and west wings. My visual understanding of the map was wrong.
+- **Conclusion:** This is a major lesson in trusting my tools over my own intuition, especially when the tools are reading the ground-truth map data. My failure to trust the `pathfinder`'s output was a significant waste of time and a repeat of the 'Trapped in East Wing' observational failure.
+
 # V. Core Principles & Lessons Learned
 - **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. Always trust tool output over visual inspection, as tools read the ground-truth map data. A systematic, evidence-based debugging process is essential.
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it.
