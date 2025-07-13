@@ -31,5 +31,15 @@
 *   **Goal:** Find the special medicine in Cianwood City to cure the sick Ampharos in the Olivine Lighthouse.
 *   **FAILED Hypothesis:** The Pharmacist in Cianwood Pharmacy has the Secret Medicine. This was proven false; he just runs a regular shop.
 *   **FAILED Hypothesis:** The Gym Leader, Chuck, is training under a waterfall somewhere *outside* the gym. This was proven false after exploring the city and finding the Photo Studio instead.
-*   **Current Working Hypothesis:** The solution to obtaining the Secret Medicine is inside the Cianwood Gym. The path to the leader is blocked by boulders. FAILED Hypothesis: Interacting with the gym statues is the trigger. This was proven false; they only display the gym's name.
-*   CONFIRMED: The Cianwood Gym puzzle is dynamic. Stepping on the trigger tile at (8, 6) makes the two side trainers disappear, but two new trainers appear at (3, 9) and (5, 5). The Gym Leader, Chuck, also appears at (4, 1), but the boulders remain. NEW HYPOTHESIS: I must defeat these two new trainers to make the boulders disappear and clear the path to the leader.
+
+### Cianwood Gym Puzzle Analysis
+*   **Initial State:** Two trainers are present at (2, 12) and (7, 12). The path to the leader is clear of boulders.
+*   **State Change Trigger:** Stepping on the tile at (8, 6) on the eastern path.
+*   **Triggered State:**
+    *   The two initial trainers disappear.
+    *   Two new trainers appear at (3, 9) and (5, 5).
+    *   The Gym Leader appears at (4, 1).
+    *   Boulders appear at (3, 7), (4, 7), and (5, 7), blocking the path to the leader.
+*   **Problem:** In the Triggered State, the player is trapped on a disconnected path and cannot reach the new trainers or the leader.
+*   **Reset Mechanism:** Exiting and re-entering the gym resets the puzzle to its Initial State.
+*   **Current Working Hypothesis:** The solution requires defeating the two *initial* trainers at (2, 12) and (7, 12). I must reset the gym to its Initial State to reach them.
