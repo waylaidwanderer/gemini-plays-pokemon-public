@@ -79,5 +79,9 @@
 
 - **Hypothesis (Positional Trigger):** A new, hidden positional trigger has appeared in the room that will open the gates.
 - **Test:** Systematically walk over every floor tile in the enclosed room.
+- **Conclusion:** Hypothesis DENIED. The pathing script failed, and the system confirmed the full area is not traversable. This test is impossible to complete as planned.
+
+- **Hypothesis (Hidden Switch):** A hidden switch exists on a wall.
+- **Test:** Press 'A' on every individual wall tile that borders the room.
 - **Hypothesis (Positional Trigger):** A new, hidden positional trigger has appeared in the room that will open the gates.
 - **Hypothesis (Hidden Switch):** A hidden switch exists on a wall.
