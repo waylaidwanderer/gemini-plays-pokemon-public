@@ -13,7 +13,11 @@
 *   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `FLOOR`.
 *   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE`.
 *   **One-Way Traversal (Verified):** `PIT` (One-way down), `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`.
-*   **Special Requirement (Verified):** `CUT_TREE` (Requires HM01 Cut), `BREAKABLE_ROCK` (Requires Rock Smash), `WATER` (Requires HM03 Surf, activated from party menu), `WARP_CARPET_DOWN` (Requires pressing 'Down' while standing on tile), `Warp (FLOOR)` (Moves player one tile down when 'Down' is pressed).
+*   **Special Requirement (Verified):** 
+    *   `CUT_TREE` (Requires HM01 Cut).
+    *   `BREAKABLE_ROCK` (Requires Rock Smash).
+    *   `WATER` (Requires HM03 Surf, activated from party menu. Landing from SURF requires an adjacent, unobstructed FLOOR tile).
+    *   `WARP_CARPET_DOWN` / `Warp (FLOOR)` (Requires pressing 'Down' while standing on tile to activate).
 *   **Special Requirement (Hypothesized):** `WHIRLPOOL` (Requires HM).
 
 ### Tiles Under Investigation (High Priority)
@@ -28,19 +32,21 @@
 
 ## III. Current Plans & Investigations
 
-### Current Objective: Obtain SECRETMEDICINE
+### Current Objective: Investigate the Lake of Rage
 *   **Status:** In progress.
-*   **Goal:** Obtain the SECRETMEDICINE for the sick Ampharos in the Olivine Lighthouse.
-*   **Current Plan:** My previous lead in Cianwood City was incorrect. I am now re-exploring the Olivine Lighthouse. My current hypothesis is that I need to fall through a specific pit on the 2nd floor to access a new area on the 1st floor that contains the path upwards.
-*   **Alternative Hypothesis:** If the Olivine Lighthouse proves to be a complete dead end, it's possible that I must first resolve the events at the Lake of Rage (near Mahogany Town) to trigger the availability of the SECRETMEDICINE.
+*   **Reasoning:** The Olivine Lighthouse proved to be a dead end. Multiple NPCs have mentioned a "rampage" or "conspiracy" at the Lake of Rage, which is a strong indicator of the main story path.
+*   **Current Plan:** Travel from Olivine City towards Mahogany Town to reach the Lake of Rage.
+*   **Alternative Hypothesis:** If the Lake of Rage is a side quest and does not unlock the path to the SECRETMEDICINE, I will need to systematically re-explore all previous routes for obstacles that can now be overcome with my current abilities (e.g., SURF).
 
 ## IV. Archived Investigations
 
 ### Investigation: The Missing HM02 (Fly)
-*   **Status:** On hold. Priority is the SECRETMEDICINE.
+*   **Status:** On hold. Priority is the Lake of Rage.
 *   **Anomaly:** After defeating Gym Leader Chuck, his wife gave me HM02 (Fly). However, the HM is not in my bag.
-*   **Hypothesis:** This was a misunderstood event, a temporary item, or a game bug.
-*   **Verification Plan:** After dealing with the Olivine Lighthouse, travel to Cianwood City and speak to Chuck's wife again.
+*   **Verification Plan:** After dealing with the Lake of Rage, travel to Cianwood City and speak to Chuck's wife again.
 
 ### Investigation: The Battle Tower
 *   **Status:** Complete. The Battle Tower is a self-contained loop with no key items or story progression elements. No further investigation is warranted.
+
+### Investigation: Olivine Lighthouse
+*   **Status:** Complete (for now). Exhausted all paths, pits, and trainers on all floors. Concluded that progression is not possible at this time and is likely gated behind another story event.
