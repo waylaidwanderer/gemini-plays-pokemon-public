@@ -55,3 +55,12 @@
 *   **Test 1:** Attempt to walk west from (27, 26) back through the wall at (26, 26).
 *   **Outcome 1:** Failed. The path was blocked.
 *   **Conclusion 1:** Hypothesis 1 is denied. The hidden passage is one-way only.
+*   **Hypothesis 2 (from agent):** A standard dungeon-escape mechanic will function.
+*   **Test 2:** Use an Escape Rope.
+*   **Outcome 2:** I do not have an Escape Rope.
+*   **Conclusion 2:** Hypothesis 2 is currently untestable.
+
+*   **Hypothesis 3 (from agent):** The closed gate is an illusion.
+*   **Test 3:** Attempt to walk south into the gate at (27, 28) and (28, 28).
+*   **Outcome 3:** Failed. The path was blocked at both tiles.
+*   **Conclusion 3:** Hypothesis 3 is denied. The gate is solid.
