@@ -70,3 +70,9 @@
 
 # V. Tool Usage & Limitations
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
+
+# VI. Puzzle Solver Agent Hypotheses (Mansion Trap)
+- **Hypothesis (Escape Item/Move):** The trap is designed to be bypassed by a standard dungeon-escape item or move (Escape Rope/Dig).
+- **Hypothesis (Direct Interaction):** The state of the gates has changed, and they can now be opened by direct interaction.
+- **Hypothesis (Positional Trigger):** A new, hidden positional trigger has appeared in the room that will open the gates.
+- **Hypothesis (Hidden Switch):** A hidden switch exists on a wall.
