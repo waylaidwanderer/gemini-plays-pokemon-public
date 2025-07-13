@@ -1,9 +1,9 @@
 # I. Core Principles & Lessons Learned
-- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. I failed to do this when I got stuck in the Pokemon Mansion, leading to wasted time.
-- **Agent Trust & Utilization is Mandatory:** I MUST trust my custom agents' advice. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it. CRITICAL FAILURE: I did not use my `puzzle_solver_agent` when I was stuck in the mansion, which led to chaotic guessing instead of systematic problem-solving.
-- **Tool Trust is Mandatory:** My `pathfinder` tool isn't broken; my understanding of the map was. Trust the tool's output over visual inspection, as it reads the ground-truth map data.
-- **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision. I failed to do this in the mansion, leading me to miss the obvious northern path.
-- **Challenge Fundamental Assumptions & Avoid Tunnel Vision:** When the game provides repeated, critical feedback that contradicts my perception of reality (e.g., the 'hallucination' warnings), I must question my most basic assumptions. I became so focused on a single perceived obstacle (the southern gate) that I completely missed the open path behind me. Lesson: When stuck, systematically re-evaluate the *entire* environment.
+- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. This was learned after getting stuck in the Pokemon Mansion.
+- **Agent & Tool Trust is Mandatory:** I MUST trust my custom agents' and tools' advice. Their purpose is to perform complex reasoning and calculations I cannot. If one is wrong, I must refine it immediately. My failure to use the `puzzle_solver_agent` and my initial distrust of the `path_planner`'s output caused significant delays in the mansion.
+- **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
+- **Challenge Assumptions & Avoid Tunnel Vision:** When stuck, I must question my most basic assumptions and systematically re-evaluate the *entire* environment, not just a single perceived obstacle.
+- **Combat Confirmation Bias:** After a test seems to confirm a hypothesis, I must actively try to *disprove* it under different conditions (e.g., after a battle) instead of accepting the initial result as absolute truth. This was key to escaping the mansion's trapped corridor.
 
 # II. Game Mechanics & Battle Intel
 
