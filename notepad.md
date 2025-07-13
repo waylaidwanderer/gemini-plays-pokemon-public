@@ -44,3 +44,5 @@
 
 ### Investigation: The Battle Tower
 *   **Status:** Investigation complete. The Battle Tower appears to be a self-contained loop with no key items or story progression elements. All warps lead back to the gatehouse or the exterior area. No further investigation is warranted at this time.
+### HM Usage (Outside of Battle)
+*   **Activation:** HMs like Surf must be activated manually from the Pokémon's move list in the party menu when used for traversal. Simply moving towards the obstacle is not sufficient.
