@@ -40,7 +40,13 @@
 *   **Confirmed Mechanic:** The gym's state (trainers, boulders) is dynamic and changes based on player movement. Moving to the entrance area resets the gym to its initial state.
 *   **Confirmed Mechanic:** Stepping on the trigger tile at (8, 6) causes the Gym Leader to appear and boulders to block the central path.
 *   **Confirmed Mechanic:** The eastern and western paths of the gym are disconnected.
-*   **Current Working Hypothesis:** I must defeat the two *initial* trainers at (2, 12) and (7, 12). After defeating them, stepping on the trigger tile at (8, 6) might not cause the boulders to appear, leaving the path to the leader open.
+
+### Cianwood Gym Hypotheses
+*   **Hypothesis 1 (Invalidated):** Defeating the trainers at (2, 12) and (7, 12) is required.
+    *   **Test:** Interacted with trainer at (2, 12).
+    *   **Result:** Dialogue only, no battle.
+    *   **Conclusion:** This hypothesis is incorrect.
+*   **Current Working Hypothesis (Revisited):** The puzzle requires stepping on the trigger tile at (8, 6), then leaving and re-entering the gym to clear the boulders.
 
 ## IV. Anomalies & Unexplained Events
 
