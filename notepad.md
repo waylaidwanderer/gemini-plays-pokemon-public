@@ -4,6 +4,8 @@
 - **Tool Trust is Mandatory:** My `pathfinder` tool wasn't broken; my understanding of the map was. I assumed the tool was failing because it didn't match my visual interpretation. **Lesson:** Trust the tool's output over visual inspection, as it reads the ground-truth map data.
 - **Disprove Hypotheses:** I must actively try to prove my own assumptions wrong, not just seek confirmation. When I thought my pathfinder was broken, I should have tested the hypothesis "What if the tool is right and I'm wrong?" This would have revealed I was trapped much sooner.
 - **Challenge Fundamental Assumptions:** When the game provides repeated, critical feedback that contradicts my perception of reality (e.g., the 'hallucination' warnings), I must question the most basic rules of the game. The solution to being 'trapped' in the Pokémon Mansion was to walk through a tile marked as 'impassable'.
+- **Tunnel Vision is the Enemy:** I became so focused on a single perceived obstacle (the southern gate) that I completely missed the open path behind me. Lesson: When stuck, systematically re-evaluate the *entire* environment, not just the area of the perceived problem. Use my `puzzle_solver_agent` and notepad to enforce this.
+- **Systematic Problem Solving:** When I was trapped, I jumped between strategies without documenting them. This led to repeating failed attempts. Lesson: For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos.
 
 # II. Game Mechanics & Battle Intel
 
@@ -45,3 +47,6 @@
 # III. Solved Puzzles
 - **Pokemon Mansion - Trapped Room:** Was trapped in an isolated room at (27, 27). The game repeatedly gave 'hallucination' warnings. The solution was to take the warnings literally and walk through a tile marked 'impassable' at (27, 26).
 - **Pokemon Mansion - Alternating Doors Puzzle:** The mansion has at least two sets of gates controlled by two different switches. **Switch 1 (1F, (3, 6))** controls the western gates (e.g., at (17,8)). **Switch 2 (2F, (3, 12))** controls the eastern gates (e.g., at (25, 14)). Activating one switch appears to toggle its corresponding gates while potentially deactivating the other set. A specific sequence is needed to navigate the entire mansion.
+
+# IV. Active Puzzle-Solving & Hypothesis Testing
+*This section is for actively working through complex puzzles. I will log observations, form a single testable hypothesis, record the test, and its outcome.*
