@@ -13,11 +13,8 @@
 *   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `FLOOR`.
 *   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE`, `PIT` (One-way), `WARP_CARPET_DOWN` (Requires pressing 'Down' while standing on tile).
 *   **One-Way Ledges (Verified):** `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`.
-*   **Special Requirement (Verified):** `CUT_TREE` (Requires HM01 Cut), `BREAKABLE_ROCK` (Requires Rock Smash), `WATER` (Requires HM03 Surf).
+*   **Special Requirement (Verified):** `CUT_TREE` (Requires HM01 Cut), `BREAKABLE_ROCK` (Requires Rock Smash), `WATER` (Requires HM03 Surf, which must be activated manually from the Pokémon's move list in the party menu when used for traversal).
 *   **Special Requirement (Hypothesized):** `WHIRLPOOL` (Requires HM).
-
-### HM Usage (Outside of Battle)
-*   **Activation:** HMs like Surf must be activated manually from the Pokémon's move list in the party menu when used for traversal. Simply moving towards the obstacle is not sufficient.
 
 ### Tiles Under Investigation (High Priority)
 *   `FLOOR_UP_WALL`: Attempting to move south from a `FLOOR` tile at (27, 45) onto this tile at (27, 46) failed. Hypothesis: This is a one-way ledge that can only be hopped **DOWN** (south). Test required: Find a path to the upper level to test jumping down.
