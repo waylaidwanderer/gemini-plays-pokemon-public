@@ -31,7 +31,7 @@
 ### Current Objective: Obtain SECRETMEDICINE
 *   **Status:** In progress.
 *   **Goal:** Travel to Cianwood City to obtain the SECRETMEDICINE for the sick Ampharos in the Olivine Lighthouse.
-*   **Current Plan:** The Pharmacist in Cianwood City did not have the SECRETMEDICINE. My new hypothesis is that the Pokefan F who promised a gift after I defeated the Gym Leader might have it.
+*   **Current Plan:** All leads in Cianwood City have been exhausted. The Pharmacist did not have the SECRETMEDICINE, and the Pokefan F's dialogue is bugged. My new plan is to return to Olivine City and re-investigate the Lighthouse and surrounding areas for clues.
 *   **Next Step:** Exit the Pharmacy and locate the Pokefan F in Cianwood City.
 
 ## IV. Archived Investigations
