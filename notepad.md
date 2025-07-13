@@ -17,8 +17,8 @@
 
 ### Verified Tile Types
 *   **Impassable (Verified):** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD`, `MART_SHELF`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WEIRD_TREE`, `PRINTER`, `BUOY`, `ROCK`.
-*   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `FLOOR`, `WATER` (Requires HM03 Surf), `WARP_CARPET_DOWN`.
-*   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE`, `PIT` (One-way).
+*   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `FLOOR`, `WATER` (Requires HM03 Surf).
+*   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE`, `PIT` (One-way), `WARP_CARPET_DOWN` (Requires pressing 'Down' while standing on tile).
 *   **One-Way Ledges (Verified):** `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`.
 *   **Special Requirement (Verified):** `CUT_TREE`, `BREAKABLE_ROCK`.
 *   **Special Requirement (Hypothesized):** `WHIRLPOOL` (Requires HM).
@@ -28,20 +28,16 @@
 
 ## III. Strategic Plans & Hypotheses
 
-### Cianwood Gym Puzzle
+### Current Strategy: Re-investigate Cianwood City
+*   **Problem:** I am completely stuck in the Cianwood Gym. All documented hypotheses for solving the puzzle have failed.
+*   **New Hypothesis:** The solution to the gym puzzle requires an external item, event, or piece of information that is located somewhere else in Cianwood City. I must have missed something on my initial exploration.
+*   **Plan:** 1. Exit the Cianwood Gym. 2. Systematically re-explore every house and talk to every NPC in Cianwood City. 3. Pay close attention to any new dialogue or potential key items.
+
+### Cianwood Gym - Documented Failures
 *   **Core Mechanic:** The gym's state changes based on player movement on specific trigger tiles. The left and right platforms are physically separate.
-*   **Puzzle Trigger Tiles:** Stepping on the tiles at (8, 6) or (4, 16), or interacting with the statues at (3, 15) and (6, 15), causes the Gym Leader (Chuck), several boulders, and trainers to appear, blocking the central path.
-*   **Puzzle Reset Mechanism:** Stepping on the central walkway (verified on tile (4, 8)) after the puzzle is triggered causes the boulders and Chuck to disappear, resetting the puzzle to its initial state.
-*   **Non-Battling NPCs:** Black Belt Yoshi (left) has been confirmed to be a non-battling NPC.
-*   **Current Hypothesis:** The solution involves defeating all trainers. The next logical step is to defeat Black Belt Lao on the right platform.
-*   **Test Plan:** 1. Reset the puzzle. 2. Navigate to (7, 12). 3. Initiate a battle with Black Belt Lao.
+*   **STRENGTH Puzzle Failure:** After activating the puzzle and using STRENGTH, I was unable to push the boulder at (5, 6) from position (5, 7). Hypothesis: Pushing a boulder into a tile occupied by an NPC (Chuck at (5, 5)) is not possible.
+*   **Statue Interaction Failure:** Interacting with the statue at (3, 15) after resetting the puzzle did not change the puzzle state. It only displayed the gym's name.
+*   **Leave/Re-enter Failure:** The strategy of stepping on the trigger tile at (8,6), leaving, and re-entering the gym to clear the boulders failed because the reset boulders now block the path to the trigger tile itself.
 
 ## Map Corrections
 *   Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
-
-## IV. Methodology Improvements (Post-Reflection)
-*   **Tile Testing Protocol:** I will be more rigorous in testing new tile types. This includes attempting to move into and out of the tile from all four cardinal directions and documenting the results immediately.
-*   **Hypothesis Generation:** When faced with a complex puzzle, I will generate and document multiple, distinct hypotheses in my notepad before beginning testing. This will help me avoid fixation on a single, potentially incorrect, line of reasoning.
-*   `WARP_CARPET_DOWN`: Found in ManiasHouse (22_4). Appears to be an exit warp. **Solution Found:** The warp is activated by standing on the tile and pressing the 'Down' button. This was confirmed by successfully exiting the house after pressing 'Down' on tile (3, 7).
-*   **STRENGTH Puzzle Failure:** After activating the puzzle and using STRENGTH, I was unable to push the boulder at (5, 6) from position (5, 7). Hypothesis: Pushing a boulder into a tile occupied by an NPC (Chuck at (5, 5)) is not possible.
-*   **Statue Interaction Failure:** Interacting with the statue at (3, 15) after resetting the puzzle did not change the puzzle state. It only displayed the gym's name. Hypothesis disproven.
