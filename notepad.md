@@ -41,3 +41,6 @@
 *   **Trap Trigger:** Stepping on tile (4, 12) or (4, 13) causes the boulders to appear, blocking the path forward.
 *   **Solution:** After the boulders appear, the puzzle must be solved by pushing them with STRENGTH to clear a path to the remaining trainers and the Gym Leader. The correct pushing sequence is still under investigation.
 *   **Confirmed Non-Battling NPC:** Black Belt Yoshi at (2, 12) will not battle.
+
+## Map Corrections
+*   Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
