@@ -28,26 +28,13 @@
 
 ## Cianwood Gym Puzzle Log
 *   **Hypothesis 1:** Interacting with the boulder at (5, 6) is a global switch that makes all other boulders pushable by walking into them.
-*   **Test 1:** Interacted with boulder at (5, 6). Moved to (3, 7). Pushed 'Up' to move boulder at (3, 6).
-*   **Result 1:** Boulder at (3, 6) did not move.
-*   **Conclusion 1:** Hypothesis 1 is FALSE. The interaction at (5, 6) does not make other boulders pushable by walking.
+*   **Conclusion 1:** FALSE. The interaction at (5, 6) does not make other boulders pushable by walking.
 *   **Hypothesis 2:** STRENGTH must be activated by pressing 'A' while facing a movable boulder.
-*   **Test 2:** Stand at (3, 7) facing the boulder at (3, 6) and press 'A'.
-*   **Result 2:** Received 'Boulders may now be moved!' message. No boulder moved.
-*   **Conclusion 2:** Hypothesis 2 is FALSE. Pressing 'A' on a boulder seems to be a global switch, not a targeted push.
-*   **Hypothesis 3:** Pushing the left boulder at (3, 7) up will open a path to the Gym Leader, and this must be done without defeating the trainers at (3, 9) and (5, 5) first, as they become obstacles.
-*   **Test 3:** 
-    1. Navigate to (3, 8).
-    2. Face the boulder at (3, 7) and press 'A' to enable pushing.
-    3. Push the boulder Up to (3, 6).
-    4. Check if the path to Chuck is clear.
-*   **Special Requirement (Hypothesized):** `WHIRLPOOL` (Requires HM).
-*   `STATUE` (Found in Cianwood Gym): Untested.
-*   **Result 3:** Attempting to walk on the pushed boulder at (5, 6) failed. Movement was blocked.
-*   **Conclusion 3:** Hypothesis 3 is FALSE. The pushed boulders do not form a traversable bridge and remain impassable objects.
-*   **Hypothesis 4:** Defeating the Black Belt at (5, 5) is the trigger to solve the puzzle. This might remove the final boulder at (5,1) or alter the path in another way.
-*   `STATUE` (Found in Cianwood Gym): Untested.
-*   **Hypothesis 4 Failure:** Pathfinder could not find a path to the Black Belt at (5, 5), confirming the platforms are separate. This hypothesis is currently untestable.
-*   **Hypothesis 5:** The statues at (3, 15) or (6, 15) are switches that alter the gym layout.
-*   **Hypothesis 5 Failure:** Interacting with the statue at (6, 15) had no effect. The statue is not a switch.
-*   **Hypothesis 6:** The statue at (3, 15) is the switch that alters the gym layout.
+*   **Conclusion 2:** FALSE. Pressing 'A' on a boulder seems to be a global switch, not a targeted push.
+*   **Hypothesis 3:** Pushing the boulders at (3, 7), (4, 7), and (5, 7) up will form a traversable bridge to the Gym Leader.
+*   **Conclusion 3:** FALSE. The pushed boulders do not form a traversable bridge and remain impassable objects.
+*   **Hypothesis 4:** Defeating the Black Belt at (5, 5) is the trigger to solve the puzzle.
+*   **Conclusion 4:** Untestable. Pathfinder confirmed the platforms are separate.
+*   **Hypothesis 5:** The statues at (6, 15) and (3, 15) are switches that alter the gym layout.
+*   **Conclusion 5:** FALSE. Interacting with both statues had no effect. The puzzle inside the gym seems unsolvable with current knowledge.
+*   **New Lead:** A Gym Guide mentioned the leader trains under a waterfall. I will now leave the gym to investigate this clue.
