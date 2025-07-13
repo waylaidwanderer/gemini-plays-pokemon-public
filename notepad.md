@@ -73,5 +73,8 @@
 - **Hypothesis 7 (Failed):** There is a hidden switch on one of the floor tiles in the corridor.
   - **Test:** Stood on each tile from (2, 17) to (6, 17) and pressed the A button.
   - **Conclusion:** No switches found.
-- **Hypothesis 8 (Active):** A secret passage exists in the eastern or western walls.
-  - **Test Plan:** Interact with the eastern wall at (7, 17) and the western wall at (1, 17).
+- **Hypothesis 8 (Failed):** A secret passage exists in the eastern or western walls.
+  - **Test:** Interacted with the eastern wall at (7, 17) and the western wall at (1, 17).
+  - **Conclusion:** No switches or passages found.
+- **Hypothesis 9 (Active):** The 'black out' escape mechanic failed previously due to an unknown condition, but re-testing it is necessary as game states can change.
+  - **Test Plan:** Find a wild Pokémon and deliberately lose the battle to trigger a 'black out'.
