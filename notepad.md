@@ -49,4 +49,4 @@
 *This section is for actively working through complex puzzles. I log observations, form a single testable hypothesis, record the test, and its outcome.*
 
 # V. Tool Usage & Limitations
-- **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points.
+- **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
