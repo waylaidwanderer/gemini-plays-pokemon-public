@@ -45,43 +45,17 @@
 - **Pokemon Mansion - Trapped Corridor:** Discovered a hidden one-way passage at 1F (27, 26). The only way to make the wall passable from the south again was to win a wild battle, which resets the tile's state.
 - **Pokemon Mansion - Alternating Doors:** The mansion has at least two sets of gates controlled by two different switches. Switch 1 (1F, (3, 6)) controls the western gates. Switch 2 (2F, (3, 12)) controls the eastern gates. A specific sequence is needed to navigate the entire mansion.
 
-# IV. Active Puzzle-Solving & Hypothesis Testing
-*This section is for actively working through complex puzzles. I log observations, form a single testable hypothesis, record the test, and its outcome.*
+# IV. Active Puzzle-Solving: The Eastern Wing Trap
 
-**Current Puzzle: Trapped in Pokemon Mansion 1F East Wing**
+- **Situation Summary:** I am trapped in an isolated 'island' area in the eastern wing of Pokemon Mansion 1F. My `path_debugger_agent` has confirmed that my pathfinding tools are working correctly and there is no standard path out. All conventional escape methods (battle reset, blackout, interaction, Escape Rope) have failed.
 
-- **Observation:** I am trapped in the eastern section of Pokemon Mansion 1F. The gates at (25, 14) and (26, 14) closed behind me after I walked past a certain point, confirming a positional trigger. There are no visible switches or exits in this area.
+- **Core Insight:** The puzzle is not about *finding* an exit, but about *creating* one. The solution must involve a hidden mechanism within this room that changes an impassable wall tile into a walkable one.
 
-- **Hypothesis (Battle Reset):** Based on a previously solved puzzle, winning a wild battle may reset the positional trigger for the gates at (25, 14) and (26, 14).
-- **Test (Attempt 6):** Successfully triggered and won a wild battle.
-- **Conclusion:** Hypothesis DENIED. Winning the battle did NOT open the gates. The trigger mechanism is different.
+- **Current Hypothesis:** There is a specific, hidden trigger or condition within this room that will make one of the surrounding impassable wall tiles walkable.
 
-- **Hypothesis (Hidden Interaction):** There is an invisible, interactable object on a floor or wall tile that opens the gates.
-- **Test:** Systematically pressed 'A' (interact) on every floor tile in the room.
-- **Conclusion:** Hypothesis DENIED. No interaction was found.
-
-- **Hypothesis (Hidden Item):** A hidden item, detectable by the ITEMFINDER, is the key to escaping the room.
-- **Test:** Used the ITEMFINDER.
-- **Conclusion:** Hypothesis DENIED. The ITEMFINDER did not respond.
-
-- **Hypothesis (Forced Blackout - Attempt 2):** The room is an intentional trap where the only escape is to 'black out' by losing a wild battle.
-- **Test:** Intentionally lost a wild battle to trigger a blackout.
-- **Conclusion:** Hypothesis DENIED. Blacking out did not warp me to the last Pokémon Center. I respawned inside the trapped room. The puzzle's solution is not a forced blackout.
+- **Next Steps:**
+  1.  Meticulously re-examine the `MapMemory` XML data for any anomalies or unusual properties among the impassable tiles bordering my current area.
+  2.  Formulate new, specific, testable hypotheses based on the map data analysis.
 
 # V. Tool Usage & Limitations
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
-
-# VI. Puzzle Solver Agent Hypotheses (Mansion Trap)
-- **Hypothesis (Escape Item/Move):** The trap is designed to be bypassed by a standard dungeon-escape item or move (Escape Rope/Dig).
-- **Hypothesis (Direct Interaction):** The state of the gates has changed, and they can now be opened by direct interaction.
-- **Test:** Press 'A' while facing the gate at (25, 14).
-- **Conclusion:** Hypothesis DENIED. Interaction failed. The system warning indicates the gate tile itself is unreachable, making direct interaction impossible.
-
-- **Hypothesis (Positional Trigger):** A new, hidden positional trigger has appeared in the room that will open the gates.
-- **Test:** Systematically walk over every floor tile in the enclosed room.
-- **Conclusion:** Hypothesis DENIED. The pathing script failed, and the system confirmed the full area is not traversable. This test is impossible to complete as planned.
-
-- **Hypothesis (Hidden Switch):** A hidden switch exists on a wall.
-- **Test:** Press 'A' on every individual wall tile that borders the room.
-- **Hypothesis (Positional Trigger):** A new, hidden positional trigger has appeared in the room that will open the gates.
-- **Hypothesis (Hidden Switch):** A hidden switch exists on a wall.
