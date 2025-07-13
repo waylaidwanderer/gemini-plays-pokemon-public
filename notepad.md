@@ -46,17 +46,13 @@
 
 ## B. Pokemon Mansion - Puzzle Tracking
 ### Hypothesis 1: 1F Switch Controls Gates on Multiple Floors
-- **State B (Switch ON - Active):**
-  - **1F Gates (West, (17,8)):** [CONFIRMED UNREACHABLE]
-  - **1F Gates (East, (25,14)):** [CONFIRMED UNREACHABLE]
-  - **2F Gates (North, (10,5)):** [CHECKING...]
-  - **2F Gates (East, (19,9)):** [Status Unknown]
 - **Test Plan:**
   1. Go to 1F switch at (3,6).
-  2. Press switch (Enter State B). (✓ DONE)
-  3. Observe and record status of all four gate sets. (IN PROGRESS)
-  4. Press switch again (Return to State A).
-  5. Observe and record status of all four gate sets to confirm toggle.
+  2. Press switch to enter **State B (ON)**.
+  3. Go to 2F and observe status of North gates (10,5) and East gates (19,9).
+  4. Return to 1F and press switch again to enter **State A (OFF)**.
+  5. Go back to 2F and observe status of North gates (10,5) and East gates (19,9) to confirm toggle.
+- **Current Status:** Starting Test Plan. Moving to 1F switch.
 
 # IV. Reminders
 - **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine.
