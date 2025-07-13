@@ -61,3 +61,4 @@
 - **Conclusion:** Hypothesis is **false**. The switch at (3, 12) does not grant access to the east wing from the west side of the floor.
 
 **New Hypothesis:** The east wing of 2F must be accessed from a different floor, likely by falling through a specific hole on 3F.
+- **Gate Offscreen/Closed/Open:** Gates whose state (unknown, impassable, or passable) depends on whether they are on-screen and whether a controlling switch has been activated.
