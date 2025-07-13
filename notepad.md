@@ -47,8 +47,6 @@
 - **Pokemon Mansion - Alternating Doors Puzzle:** The mansion has at least two sets of gates controlled by two different switches. **Switch 1 (1F, (3, 6))** controls the western gates (e.g., at (17,8)). **Switch 2 (2F, (3, 12))** controls the eastern gates (e.g., at (25, 14)). Activating one switch appears to toggle its corresponding gates while potentially deactivating the other set. A specific sequence is needed to navigate the entire mansion.
 
 # Pokemon Mansion Puzzle Log
-- **Test 3 (2F Switch):** Flipped the switch at (3, 12) on 2F.
-- **Observation:** Returned to 1F at (25, 13). The eastern gates at (25, 14) and (26, 14) remain CLOSED.
-- **Conclusion:** The 2F switch alone does not open the eastern gates. The 'alternating doors' puzzle is more complex.
-- **Hypothesis 4:** The eastern gates require a specific combination of switches to be active. Perhaps both the 1F and 2F switches need to be ON.
-- **Test 4 Plan:** Navigate to the 1F switch at (3, 6), activate it (setting both switches to ON), and return to the eastern gates to observe the outcome.
+- **Test 4 (Both Switches):** Activated the 2F switch at (3, 12), then navigated to and activated the 1F switch at (3, 6).
+- **Observation:** The western gates at (17, 8) closed, and the eastern gates at (25, 14) and (26, 14) opened.
+- **Conclusion:** The 'Alternating Doors' puzzle is confirmed. The 1F switch controls the western gates, and the 2F switch controls the eastern gates. To open one set, the corresponding switch must be ON, which closes the other set. To proceed, a specific sequence of activating and deactivating switches is required to navigate the entire mansion.
