@@ -2,20 +2,22 @@
 
 ## I. Current Strategy & Hypotheses
 
-### Cianwood Gym - Boulder Puzzle Under Investigation (Attempt #5)
-*   **Core Insight:** The reset tile at (4, 8) brings back ALL puzzle elements, including the boulders AND the trainers that appear with them. The trainer at (5, 5) is not permanently defeated.
-*   **Current Hypothesis (The "Trainer First" Strategy):** The puzzle requires defeating the trainer at (5, 5) *before* clearing the final path. This requires a specific sequence of boulder pushes.
-*   **Step-by-Step Plan:**
-    1.  Ensure puzzle is triggered (boulders and trainers are present).
-    2.  From below the central boulder, push the boulder at (4, 7) up to (4, 6).
-    3.  Move to (4, 5) to battle and defeat the trainer at (5, 5).
-    4.  After the trainer is defeated, push the remaining boulders at (3, 7) and (5, 7) upwards to clear the path.
-    5.  Walk to the Gym Leader.
-    4.  **CRITICAL:** Do NOT walk up the central path. The tile at (4, 8) is a trap that resets the puzzle, making the boulders reappear. You must use the side paths to reach the Gym Leader.
-
-### Primary Objective: Find the Secret Medicine
-*   **Problem:** The Ampharos in the Olivine Lighthouse is sick, blocking access. I need a 'SECRETMEDICINE' to cure it.
-*   **Hypothesis:** The medicine is somewhere in Cianwood City. I will resume this search after defeating the Gym Leader.
+### Cianwood Gym - Boulder Puzzle Under Investigation
+*   **Core Insight:** The reset tile at (4, 8) brings back ALL puzzle elements, including the boulders AND the trainers that appear with them. The trainer at (5, 5) is not permanently defeated. Exiting and re-entering the gym also seems to reset the boulders if they have been moved from their initial triggered position.
+*   **Current Hypothesis (The "Trainer First" Strategy - Attempt #5):** The puzzle requires defeating the trainer at (5, 5) *before* clearing the final path. This requires a specific sequence of boulder pushes.
+    *   **Plan:**
+        1.  Ensure puzzle is triggered (boulders and trainers are present).
+        2.  From below the central boulder, push the boulder at (4, 7) up to (4, 6).
+        3.  Move to (4, 5) to battle and defeat the trainer at (5, 5).
+        4.  After the trainer is defeated, push the remaining boulders at (3, 7) and (5, 7) upwards to clear the path.
+        5.  Walk to the Gym Leader.
+    *   **CRITICAL:** Do NOT walk up the central path. The tile at (4, 8) is a trap that resets the puzzle. Use the side paths.
+*   **Alternative Hypothesis (The "Bypass" Strategy):** It may be possible to solve the puzzle without fighting the trainer at (5,5).
+    *   **Plan:**
+        1.  Push the boulder at (3,7) up first.
+        2.  Push the boulder at (5,7) up next.
+        3.  Finally, push the middle boulder at (4,7) up.
+        4.  This sequence might open a path to the leader while avoiding the trainer. This needs to be tested if the "Trainer First" strategy fails.
 
 ## II. Game Systems & Mechanics
 
@@ -45,5 +47,5 @@
 *   **Map Corrections:** Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
 
 ## IV. Tool Development & Maintenance
-*   **`boulder_puzzle_solver`:** This tool is currently broken. It returned a 'No path found' error on a fresh puzzle state, indicating a fundamental flaw in its logic. It does not account for the puzzle's hidden state-change mechanics. I will gather more data on the puzzle's rules through manual testing before attempting another fix.
 *   **Puzzle Reset Mechanic (New Insight):** The reset tile at (4, 8) does not remove the boulders from the gym once they have been triggered. It likely only resets their positions to the starting configuration. This means the boulders are a permanent part of the puzzle after stepping on the trigger at (8, 6).
+*   **Future Agent Idea:** A `boulder_puzzle_strategist` agent could be created to help reason through the logic of this puzzle, considering the state changes and documented hypotheses.
