@@ -39,7 +39,6 @@
 - **Run from Battle Mechanic:** Attempting to switch Pokémon from the party screen can sometimes result in running from the battle instead.
 - **FLY in battle:** The move FLY can be used to defeat a wild Pokémon and end the battle, even when indoors. This acts as an escape method.
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
-- **'Passing the Turn':** When the goal is to lose a battle, my battle strategist agent's advice to 'pass the turn' means using the *least effective* action possible (e.g., a non-damaging move, or switching to a disadvantaged Pokemon), not simply using any attack.
 - **Item Use on Fainted Pokemon:** A FULL RESTORE will not work on a fainted Pokémon.
 
 # III. Solved Puzzles
