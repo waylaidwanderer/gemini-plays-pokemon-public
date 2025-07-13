@@ -37,14 +37,10 @@
 ## III. Strategic Plans & Hypotheses
 
 ### Cianwood Gym Puzzle
-*   **Hypothesis 1 (Side Paths - FAILED):** The initial hypothesis was that after resetting the boulders, a side path could be used to reach the Gym Leader. This was proven false by the `path_debugger` agent, which confirmed the northern and southern areas are disconnected.
-*   **Hypothesis 2 (Statue Interaction - FAILED):** Interacting with the statue at (3, 15) had no effect on the gym's state. The puzzle does not seem to involve this statue.
-*   **Hypothesis 3 (Central Path Trap - UNDER INVESTIGATION):** The central path is the only route, but it contains a trap that respawns the boulders. The exact trigger tile(s) for this trap are unknown. 
-*   **Current Plan:**
-    1. Step on the trigger tile at (8, 6).
-    2. Exit and re-enter the gym to clear the boulders.
-    3. Systematically test each tile on the central path, moving one step at a time, to identify the exact location of the trap.
-
-## IV. Anomalies & Unexplained Events
-
-*   **Cianwood Gym Non-Battle Interactions:** Interacting with the two initial trainers at (2, 12) and (7, 12) results in dialogue but no battle. The significance of this is currently unknown.
+*   **Confirmed Mechanic 1 (Boulder Reset):** Stepping on the tile at (8, 6) causes the Gym Leader and three boulders to appear. Exiting and re-entering the gym removes the boulders, but the Gym Leader remains.
+*   **Confirmed Mechanic 2 (Central Path Trap):** After resetting the boulders, stepping on at least one tile on the central path (between y=6 and y=12) causes the boulders to reappear, resetting the puzzle.
+*   **Confirmed Mechanic 3 (Side Paths):** The eastern and western side paths are physically disconnected from the northern section where the Gym Leader is. They are not a valid route.
+*   **Failed Hypothesis 1 (Statue Interaction):** Interacting with the statues at (3, 15) and (6, 15) has no effect on the gym's state.
+*   **Current Plan (Systematic Trap Identification):**
+    1.  Perform the boulder reset procedure (step on (8, 6), exit, re-enter).
+    2.  Carefully test each tile on the central path, one by one, to identify the exact location of the trap trigger(s). Move onto a tile, then move off it to see if the boulders reappear. This will isolate the unsafe tile(s).
