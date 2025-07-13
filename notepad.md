@@ -69,3 +69,6 @@
 *   **Test 4:** Attempt to walk directly through the `closed_gate` warp tile.
 *   **Outcome 4:** Movement was blocked by the game.
 *   **Conclusion 4:** Hypothesis 4 is incorrect. The gate is a solid obstacle. I am currently trapped in this corridor.
+
+*   **Agent Hypothesis 1:** The gate at (27, 28) has a hidden switch.
+*   **Test 1:** Interact with the gate.
