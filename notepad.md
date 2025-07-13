@@ -1,9 +1,8 @@
 # I. Core Principles & Lessons Learned
-- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. This was learned after getting stuck in the Pokemon Mansion.
-- **Agent & Tool Trust is Mandatory:** I MUST trust my custom agents' and tools' advice. Their purpose is to perform complex reasoning and calculations I cannot. My failure to use the `puzzle_solver_agent` and my initial distrust of the `path_planner`'s output caused significant delays in the mansion.
+- **Immediate Maintenance & Escalation:** I must perform maintenance (notepad, agents) and escalate to powerful tools (like the `puzzle_solver_agent`) *immediately* when a manual approach fails repeatedly. Deferring these actions is a critical process failure, as learned from getting stuck in the mansion.
+- **Combat Confirmation Bias:** After a test seems to confirm a hypothesis, I must actively try to *disprove* it. I wasted significant time on the 'battle reset' theory because I was seeking to confirm a past success instead of objectively testing hypotheses. This is a major cognitive trap to avoid.
+- **Agent & Tool Trust is Mandatory:** I MUST trust my custom agents' and tools' advice. Their purpose is to perform complex reasoning and calculations I cannot. My failure to use the `puzzle_solver_agent` and my initial distrust of the `path_planner`'s output caused significant delays.
 - **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
-- **Challenge Assumptions & Avoid Tunnel Vision:** When stuck, I must question my most basic assumptions and systematically re-evaluate the *entire* environment, not just a single perceived obstacle.
-- **Combat Confirmation Bias:** After a test seems to confirm a hypothesis, I must actively try to *disprove* it under different conditions (e.g., after a battle) instead of accepting the initial result as absolute truth. This was key to escaping the mansion's trapped corridor.
 
 # II. Game Mechanics & Battle Intel
 
@@ -51,12 +50,17 @@
 **Current Puzzle: Trapped in Pokemon Mansion 1F East Wing**
 
 - **Observation:** I am trapped in the eastern section of Pokemon Mansion 1F. The gates at (25, 14) and (26, 14) closed behind me after I walked past a certain point, confirming a positional trigger. There are no visible switches or exits in this area.
-- Hypothesis (Battle Reset): Based on a previously solved puzzle, winning a wild battle may reset the positional trigger for the gates at (25, 14) and (26, 14).
-- Test (Attempt 6): Successfully triggered and won a wild battle.
-- Conclusion: Hypothesis DENIED. Winning the battle did NOT open the gates. The trigger mechanism is different.
 
-- **Current Hypothesis (Hidden Interaction):** There is an invisible, interactable object on a floor or wall tile that opens the gates.
-- **Test:** Systematically press 'A' (interact) on every tile in the room, starting with the floor.
+- **Hypothesis (Battle Reset):** Based on a previously solved puzzle, winning a wild battle may reset the positional trigger for the gates at (25, 14) and (26, 14).
+- **Test (Attempt 6):** Successfully triggered and won a wild battle.
+- **Conclusion:** Hypothesis DENIED. Winning the battle did NOT open the gates. The trigger mechanism is different.
+
+- **Hypothesis (Hidden Interaction):** There is an invisible, interactable object on a floor or wall tile that opens the gates.
+- **Test:** Systematically pressed 'A' (interact) on every floor tile in the room.
+- **Conclusion:** Hypothesis DENIED. No interaction was found.
+
+- **Current Hypothesis (Hidden Item):** A hidden item, detectable by the ITEMFINDER, is the key to escaping the room.
+- **Test:** Use the ITEMFINDER from the inventory while inside the trapped room.
 
 # V. Tool Usage & Limitations
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
