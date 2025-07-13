@@ -16,13 +16,12 @@
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
 - **Elevated Ground:** Walkable ground at a different elevation, accessible only via `steps`.
 - **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
-- **Unknown Tiles:** Tiles not yet seen (`seen="false"`). Treated as impassable until explored.
 - **Secret Switches:** Some statues contain hidden switches. Activating them can toggle the state of nearby gates, opening new paths. 
 - **Positional Triggers:** Specific tiles that, when stepped on, can open or close gates or trigger other events elsewhere on the map. The effect may be reversed by stepping off the tile, or it may be permanent until another trigger is activated. Example: Stepping on (11, 4) on Pokemon Mansion 3F opens the gates at (16, 5) and (16, 6).
 - **Gate Offscreen/Closed/Open:** Gates whose state (unknown, impassable, or passable) depends on whether they are on-screen and whether a controlling switch has been activated.
 - **Scripted Event Tiles:** Some tiles trigger events. The tile in front of the Cinnabar Gym door (19, 5) pushes the player back and displays a 'locked' message. The water on Seafoam Islands B4F has a scripted current that prevents surfing south.
 - **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls.
-- **Invisible Barriers:** Some areas contain invisible, impassable barriers that are not tied to a specific tile type. Their presence may be linked to NPC positions or other puzzle mechanics.
+- **Invisible Barriers:** Some areas contain invisible, impassable barriers that are not tied to a specific tile type.
 
 ## B. Confirmed ROM Hack Changes
 ### B1. Type Matchups & Immunities
@@ -42,25 +41,8 @@
 
 ## A. Pokemon Mansion - SECRET KEY
 - **Goal:** Find the SECRET KEY to unlock the Cinnabar Gym.
-- **Main Hypothesis:** Finding the key requires a specific sequence of activating switches across multiple floors to open a path to the basement area where the key is likely hidden.
-
-## B. Pokemon Mansion - Puzzle Tracking
-### Hypothesis 2: 2F Switch Controls Gates on 2F
-- **Observation:** The Super Nerd at (5, 18) confirmed the 'alternating doors' mechanic. After pressing the switch at (3, 12), the gates at (10, 5) and (10, 6) became reachable.
-- **Conclusion:** The switch at (3, 12) does open the northern gates at (10, 5) and (10, 6), but the floor is divided into two sections. The western section (where the switch is) does not have a direct path to the northern gates.
-- **New Test Plan:**
-  1. Find a path to the eastern section of the floor. The warp at (8, 11) is the only remaining lead.
-  2. Navigate to the warp at (8, 11) and use it.
-  3. From the new location, attempt to navigate to the northern gates.
+- **Current Hypothesis:** The key is located in a hidden area of the mansion, accessible only after solving a complex puzzle involving switches and positional triggers across multiple floors.
+- **Current Test Plan:** Systematically explore the central corridor of Pokemon Mansion 1F for a hidden switch or trigger, as previous attempts to open the eastern gates via the main switch and positional triggers have failed.
 
 # IV. Reminders
-- **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine.
-
-## C. Pokemon Mansion 1F Puzzle
-### Agent Hypothesis #1: FAILED
-- **Conclusion:** Stepping on the positional trigger at (12, 8) closes the western gates but does NOT open the eastern gates. The path remains blocked.
-
-### Agent Hypothesis #2: Hidden Switch in Central Corridor
-- **Test Plan:**
-  1. Thoroughly explore the central corridor between the western and eastern gates.
-  2. Check for any interactable objects, unusual tiles, or hidden switches.
+- **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine once the gym is unlocked.
