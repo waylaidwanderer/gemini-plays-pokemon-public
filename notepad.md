@@ -2,7 +2,7 @@
 
 ## I. Core Principles & Lessons Learned
 
-*   **Data Integrity is Paramount:** My internal state (notepad, markers) MUST be 100% accurate. I will not defer data correction. Assumptions must be rigorously tested before being recorded as fact.
+*   **Data Integrity is Paramount:** My internal state (notepad, markers) MUST be 100% accurate. I will not defer data correction. Assumptions must be rigorously tested before being recorded as fact. A trainer is only defeated after a battle victory is confirmed by the game.
 *   **Trust Tools Over Perception:** My `pathfinder` tool's output is based on the game's ground truth. If it says 'no path', I must trust it and investigate my own understanding, not assume the tool is broken.
 *   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
@@ -41,3 +41,7 @@
 *   **Confirmed Mechanic:** Stepping on the trigger tile at (8, 6) causes the Gym Leader to appear and boulders to block the central path.
 *   **Confirmed Mechanic:** The eastern and western paths of the gym are disconnected.
 *   **Current Working Hypothesis:** I must defeat the two *initial* trainers at (2, 12) and (7, 12). After defeating them, stepping on the trigger tile at (8, 6) might not cause the boulders to appear, leaving the path to the leader open.
+
+## IV. Anomalies & Unexplained Events
+
+*   **Cianwood Gym Non-Battle Interactions:** Interacting with the two initial trainers at (2, 12) and (7, 12) results in dialogue but no battle. The significance of this is currently unknown. It may be a prerequisite for the puzzle, a red herring, or a bug.
