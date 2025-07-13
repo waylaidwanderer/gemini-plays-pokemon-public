@@ -30,13 +30,11 @@
 
 ### Cianwood Gym Puzzle
 *   **Core Mechanic:** The gym's state changes based on player movement on specific trigger tiles. The left and right platforms are physically separate.
-*   **Puzzle Trigger Tile:** Stepping on the tiles at (8, 6) or (4, 16) causes the Gym Leader (Chuck), several boulders, and trainers to appear, blocking the central path.
+*   **Puzzle Trigger Tiles:** Stepping on the tiles at (8, 6) or (4, 16), or interacting with the statues at (3, 15) and (6, 15), causes the Gym Leader (Chuck), several boulders, and trainers to appear, blocking the central path.
 *   **Puzzle Reset Mechanism:** Stepping on the central walkway (verified on tile (4, 8)) after the puzzle is triggered causes the boulders and Chuck to disappear, resetting the puzzle to its initial state.
-*   **Non-Battling NPCs:** Black Belt Yoshi (left) and Black Belt Lao (right) do not battle and seem to be part of the puzzle's state rather than obstacles.
-*   **Failed Hypothesis 1:** Pushing the boulders with STRENGTH is the solution. (Invalidated - stepping on the required tile to push them resets the puzzle).
-*   **Failed Hypothesis 2:** Interacting with the side trainers (Nob) after triggering the puzzle is the solution. (Invalidated - the platforms are disconnected).
-*   **Current Hypothesis:** The solution involves interacting with the statues. The right statue at (6, 15) did nothing. The next logical step is to interact with the left statue at (3, 15).
-*   **Test Plan:** 1. Navigate to (3, 14). 2. Face the statue at (3, 15). 3. Press 'A' to interact.
+*   **Non-Battling NPCs:** Black Belt Yoshi (left) has been confirmed to be a non-battling NPC.
+*   **Current Hypothesis:** The solution involves defeating all trainers. The next logical step is to defeat Black Belt Lao on the right platform.
+*   **Test Plan:** 1. Reset the puzzle. 2. Navigate to (7, 12). 3. Initiate a battle with Black Belt Lao.
 
 ## Map Corrections
 *   Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
