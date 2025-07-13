@@ -44,5 +44,4 @@
 
 # III. Solved Puzzles
 - **Pokemon Mansion - Trapped Room:** Was trapped in an isolated room at (27, 27). The game repeatedly gave 'hallucination' warnings. The solution was to take the warnings literally and walk through a tile marked 'impassable' at (27, 26).
-- **Pokemon Mansion - 1F West Wing Puzzle:** The statue at (3, 6) contains a hidden switch. Activating it is necessary to progress.
-- **Pokemon Mansion - 1F Gate Puzzle:** The mansion features 'Alternating Doors'. The switch on 2F at (3, 12) toggles one set of gates (e.g., opens the path to southern 2F and the gates at (17,8)/(18,8) on 1F). The switch on 1F at (3, 6) toggles a different set (e.g., opens the eastern gates at (25, 14)/(26, 14)). They must be used in the correct sequence to navigate the mansion.
+- **Pokemon Mansion - Alternating Doors Puzzle:** The mansion has at least two sets of gates controlled by two different switches. **Switch 1 (1F, (3, 6))** controls the western gates (e.g., at (17,8)). **Switch 2 (2F, (3, 12))** controls the eastern gates (e.g., at (25, 14)). Activating one switch appears to toggle its corresponding gates while potentially deactivating the other set. A specific sequence is needed to navigate the entire mansion.
