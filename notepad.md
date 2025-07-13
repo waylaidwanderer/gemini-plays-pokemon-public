@@ -3,20 +3,13 @@
 ## I. Current Strategy & Hypotheses
 
 ### Cianwood Gym - Boulder Puzzle
-*   **Current State:** Puzzle has been reset. I am at (4, 8).
+*   **Current State:** Actively solving.
 *   **Key Mechanics:**
     *   The tile at (8, 6) triggers the appearance of several boulders and trainers.
     *   The tile at (4, 8) resets the entire puzzle, including defeated trainers.
     *   Defeated trainers become impassable obstacles.
-    *   Exiting and re-entering the gym also seems to reset the boulders.
-*   **NEW STRATEGY (From `boulder_puzzle_strategist`):**
-    *   **Source:** A new `boulder_puzzle_strategist` tool provided a confirmed solution path.
-    *   **Plan:**
-        1. Trigger the puzzle at (8, 6).
-        2. Go to the boulder at (5, 5).
-        3. Push Boulder East from (5, 5) to (9, 5).
-        4. Push Boulder South from (9, 5) to (9, 7).
-    *   **Next Action:** Execute this plan step-by-step.
+*   **Strategy:** I will rely exclusively on my `cianwood_gym_solver` tool to determine the correct sequence of actions (BATTLE, PUSH, or MOVE). This is the only reliable method.
+*   **Status:** I have fixed a critical bug in `cianwood_gym_solver` and am now using it to navigate the puzzle. I have defeated the trainer at (5, 5).
 
 ## II. Game Systems & Mechanics
 
