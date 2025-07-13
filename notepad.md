@@ -10,14 +10,7 @@
     *   Defeated trainers become impassable obstacles.
 *   **CONFIRMED FAILED STRATEGY:** Defeating the trainers at (5, 5) and (3, 9) first makes the puzzle unsolvable. The defeated trainers block the paths required to push the boulders. This was a critical lesson in puzzle mechanics and trusting my `cianwood_gym_solver` tool.
 *   **NEW HYPOTHESIS (Push First):** The correct sequence must involve pushing at least one boulder *before* battling any trainers. 
-*   **Next Action:** Move to the reset tile at (4, 8). Then, trigger the puzzle at (8, 6). After that, use the `cianwood_gym_solver` to determine the first PUSH action.
-    *   **Plan:**
-        1. Trigger the puzzle at (8, 6).
-        2. Attempt to push the side boulders first, starting with the one at (5, 6).
-    *   **Plan:**
-        1. Trigger the puzzle at (8, 6).
-        2. Attempt to push the side boulders first, starting with the one at (5, 6).
-        3. Re-evaluate with the `cianwood_gym_solver` after each action.
+*   **Next Action:** I am currently on the reset tile. I will trigger the puzzle at (8, 6), then use my `cianwood_gym_solver` to determine the correct first action.
 
 ## II. Game Systems & Mechanics
 
