@@ -8,6 +8,7 @@
     2.  Immediately exit the gym.
     3.  Re-enter the gym. The boulders will be gone.
     4.  **CRITICAL:** Do NOT walk up the central path. The tile at (4, 8) is a trap that resets the puzzle, making the boulders reappear. You must use the side paths to reach the Gym Leader.
+    4.  **CRITICAL:** Do NOT walk up the central path. The tile at (4, 8) is a trap that resets the puzzle, making the boulders reappear. You must use the side paths to reach the Gym Leader.
 
 ### Primary Objective: Find the Secret Medicine
 *   **Problem:** The Ampharos in the Olivine Lighthouse is sick, blocking access. I need a 'SECRETMEDICINE' to cure it.
