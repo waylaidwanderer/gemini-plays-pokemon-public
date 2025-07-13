@@ -39,3 +39,6 @@
 *   **Conclusion 5:** FALSE. Interacting with both statues had no effect. The puzzle inside the gym seems unsolvable with current knowledge.
 *   **New Lead:** A Gym Guide mentioned the leader trains under a waterfall. I will now leave the gym to investigate this clue.
 *   **Impassable (Verified):** `BUOY`.
+
+## Agent & Tool Ideas
+*   `navigation_strategist` (Agent): An agent that could take my current goals and location to suggest the next major destination to travel to.
