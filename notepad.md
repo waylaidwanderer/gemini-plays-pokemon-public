@@ -39,23 +39,6 @@
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 *   **Map Corrections:** Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
 
-### Cianwood Gym - Boulder Puzzle Under Investigation (Update)
-*   **FAILED HYPOTHESIS (The "Bypass" Strategy - Attempt 1):** The puzzle can be solved by pushing the left boulder at (3,6) up first. 
-    *   **Outcome:** FAILED. Attempting to push the boulder from (3,7) was blocked, indicating a prerequisite has not been met.
-*   **FAILED HYPOTHESIS (The "Yoshi First" Strategy):** Failed. Black Belt Yoshi at (2, 12) is not a battlable trainer.
-*   FAILED HYPOTHESIS (The "Chain Reaction" Strategy - Attempt 2): Defeating Black Belt Nob unlocks the ability to push the leftmost boulder at (3, 6).
-    *   **Outcome:** FAILED. Attempting to push the boulder from (3, 7) was blocked.
-*   **CONFIRMED HYPOTHESIS (The "Chain Reaction" Strategy):** Defeating Black Belt Nob unlocked the ability to push the rightmost boulder at (5, 7).
-*   **CONFIRMED HYPOTHESIS (Chain Reaction Pt. 2):** Pushing the boulder at (5, 7) unlocked the ability to push the leftmost boulder at (3, 6).
-*   **CONFIRMED HYPOTHESIS (Chain Reaction Pt. 3):** Pushing the two side boulders unlocked the ability to battle the trainer at (5, 5).
-*   **Current Hypothesis (The Final Push):** The previous attempt to push the central boulder at (4,4) may have failed due to an execution error. The next logical step is to re-attempt pushing it from (4,5). If this fails, the puzzle state must be reset by stepping on the tile at (4,8) to explore alternative solution sequences.
-
-## IV. CRITICAL SITUATION: DIALOGUE LOOP
-*   **Status:** Soft-locked at Cianwood Gym (4, 5) by the persistent dialogue "Boulders may now be moved!".
-*   **Failed Actions:** All standard inputs (A, B, Start, Select) and movement have failed to clear the dialogue. Interacting with adjacent objects also failed.
-*   **Core Lesson:** My manual, repetitive attempts to solve the gym puzzle were inefficient and led to this state. I MUST prioritize using my custom tools like `cianwood_gym_solver` for their intended purpose.
-*   **Final Hypothesis:** The dialogue box is informational, not blocking. I must attempt to interact with the boulder at (4, 4) by pressing 'A' *while* the text is on screen.
-
 ## IV. Past Crises & Resolutions
 
 ### Cianwood Gym Dialogue Loop & Hallucination Cascade (Turns ~39578-39656)
