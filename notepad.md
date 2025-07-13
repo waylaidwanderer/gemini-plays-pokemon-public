@@ -25,3 +25,19 @@
 *   **Trust Automation:** My custom tools (`pathfinder`, `boulder_scanner`) are more reliable than my manual navigation and analysis. I must prioritize using them to avoid unforced errors.
 *   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
+
+## III. Current Plans & Investigations
+
+### Investigation: The Missing HM02 (Fly)
+*   **Anomaly:** After defeating Gym Leader Chuck, his wife gave me HM02 (Fly). However, the HM is not present in my bag's TM/HM pocket or any other pocket.
+*   **Hypothesis:** There might be a bug, a subsequent event caused its removal, or I misunderstood the event.
+*   **Plan:**
+    1.  Travel from Route 40 back to Cianwood City via Route 41.
+    2.  Enter the Cianwood Gym.
+    3.  Speak to Chuck's wife again to see if she offers the HM or provides new dialogue.
+
+### Route Plan: Route 40 -> Cianwood City
+1.  From current position (6, 11) on Route 40, enter the water at (6, 12).
+2.  Surf south to the map transition at (8, 35) which leads to Route 41.
+3.  On Route 41, surf west and south to the map transition which leads to Cianwood City.
+4.  Reach the shore in Cianwood City.
