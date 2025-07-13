@@ -46,7 +46,5 @@
 - **Pokemon Mansion - Trapped Room:** Was trapped in an isolated room at (27, 27). The game repeatedly gave 'hallucination' warnings. The solution was to take the warnings literally and walk through a tile marked 'impassable' at (27, 26).
 - **Pokemon Mansion - Alternating Doors Puzzle:** The mansion has at least two sets of gates controlled by two different switches. **Switch 1 (1F, (3, 6))** controls the western gates (e.g., at (17,8)). **Switch 2 (2F, (3, 12))** controls the eastern gates (e.g., at (25, 14)). Activating one switch appears to toggle its corresponding gates while potentially deactivating the other set. A specific sequence is needed to navigate the entire mansion.
 
-# Pokemon Mansion Puzzle Log
-- **Test 4 (Both Switches):** Activated the 2F switch at (3, 12), then navigated to and activated the 1F switch at (3, 6).
-- **Observation:** The western gates at (17, 8) closed, and the eastern gates at (25, 14) and (26, 14) opened.
-- **Conclusion:** The 'Alternating Doors' puzzle is confirmed. The 1F switch controls the western gates, and the 2F switch controls the eastern gates. To open one set, the corresponding switch must be ON, which closes the other set. To proceed, a specific sequence of activating and deactivating switches is required to navigate the entire mansion.
+# Pokemon Mansion - Alternating Doors Puzzle:
+- **Confirmed Solution:** The mansion has two sets of gates controlled by two switches. The switch on 1F (3,6) controls the western gates, and the switch on 2F (3,12) controls the eastern gates. To open the eastern gates and access the final area, BOTH switches must be activated simultaneously. Activating one switch closes the gates controlled by the other.
