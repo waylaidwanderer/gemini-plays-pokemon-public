@@ -45,9 +45,15 @@
 # III. Solved Puzzles
 - **Pokemon Mansion - Trapped Room:** Was trapped in an isolated room at (27, 27). The game repeatedly gave 'hallucination' warnings. The solution was to take the warnings literally and walk through a tile marked 'impassable' at (27, 26).
 - **Pokemon Mansion - 1F Gate Puzzle:** The mansion features 'Alternating Doors'. The switch on 2F at (3, 12) toggles one set of gates (e.g., opens the path to southern 2F and the gates at (17,8)/(18,8) on 1F). The switch on 1F at (3, 6) toggles a different set (e.g., opens the eastern gates at (25, 14)/(26, 14)). They must be used in the correct sequence to navigate the mansion.
+- **Pokemon Mansion - 1F West Wing Puzzle:** The statue at (3, 6) contains a hidden switch. Activating it is necessary to progress.
 
 # IV. Custom Tools & Agents
 
 ## A. Custom Tools
 - **path_converter:** Converts a comma-separated string of directional moves (Up,Down,Left,Right) from the pathfinder tool into a JSON array of coordinate objects for the 'path' command. Created to improve efficiency by automating a repetitive task.
-- **Pokemon Mansion - 1F West Wing Puzzle:** The statue at (3, 6) contains a hidden switch. Activating it is necessary to progress.
+
+## B. Custom Agents
+- **team_composition_advisor_agent:** Analyzes the player's roster to recommend an optimal team for major battles.
+- **battle_strategist_agent:** Provides turn-by-turn battle advice based on the current battle state.
+- **puzzle_solver_agent:** Analyzes puzzle descriptions and suggests testable hypotheses for solutions.
+- **code_debugger_agent:** Analyzes a failing Python script and its error message to suggest debugging steps.
