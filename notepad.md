@@ -4,11 +4,7 @@
 - **Tool Trust is Mandatory:** My `pathfinder` tool wasn't broken; my understanding of the map was. I assumed the tool was failing because it didn't match my visual interpretation. **Lesson:** Trust the tool's output over visual inspection, as it reads the ground-truth map data.
 - **Disprove Hypotheses:** I must actively try to prove my own assumptions wrong, not just seek confirmation. When I thought my pathfinder was broken, I should have tested the hypothesis "What if the tool is right and I'm wrong?" This would have revealed I was trapped much sooner.
 
-# II. Future Development Ideas
-- **Faint Strategist Agent:** A potential new agent could specialize in planning the most efficient way to black out. It would analyze the party, the opponent, and available moves to recommend the fastest sequence of faints.
-- **Map Connectivity Tool:** A computational tool (not an agent) to analyze the map XML and check for connectivity between two points, accounting for impassable tiles. This would be useful for definitively confirming if an area is isolated.
-
-# III. Game Mechanics & Battle Intel
+# II. Game Mechanics & Battle Intel
 
 ## A. Tile Mechanics & Traversal Rules
 - **Ground/Impassable:** `ground` tiles are walkable, `impassable` tiles are solid walls. All objects (NPCs, items, signs) function as impassable walls, except for Pikachu.
@@ -42,12 +38,15 @@
 - **Run from Battle Mechanic:** Attempting to switch Pokémon from the party screen can sometimes result in running from the battle instead.
 - **FLY in battle:** The move FLY can be used to defeat a wild Pokémon and end the battle, even when indoors. This acts as an escape method.
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
+- **'Passing the Turn':** When the goal is to lose a battle, my battle strategist agent's advice to 'pass the turn' means using the *least effective* action possible (e.g., a non-damaging move, or switching to a disadvantaged Pokemon), not simply using any attack.
 
-# IV. Active Puzzles & Solved Puzzles
+# III. Active Puzzles & Solved Puzzles
 
 ## A. Pokemon Mansion - SECRET KEY (Active)
 - **Goal:** Find the SECRET KEY to unlock the Cinnabar Gym.
 - **Current Hypothesis:** The key is located in a hidden area of the mansion, accessible only after solving a complex puzzle involving switches and positional triggers across multiple floors. I am currently trapped in a dead-end section of 1F and must black out to escape and re-evaluate my approach.
+- **Fainting Attempts Log:**
+  - **Attempt 1 & 2:** Failed to faint. NEPTUNE is too strong and knocked out the wild Pokémon (Grimer, Rattata) despite being at critical health. The strategy of using standard damaging moves (BODY SLAM, SURF) was ineffective for losing. I need to use non-damaging moves or switch to a much weaker Pokémon if possible.
 
 ## B. Pokemon Mansion - Solved Puzzles
 - **1F Gate Puzzle:** The switches on 1F and 2F have a combined effect. To open the eastern gates at (25, 14), first activate the switch on 2F at (3, 12), then activate the switch on 1F at (3, 6).
