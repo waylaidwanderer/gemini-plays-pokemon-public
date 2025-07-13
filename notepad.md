@@ -52,3 +52,18 @@
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
 - **Unusual Effectiveness:** RATICATE's DIG (Ground-type) was super-effective against SPARKY (Electric-type). This contradicts standard type matchups and needs further investigation.
 - **THUNDERBOLT vs. DIG:** THUNDERBOLT can hit an opponent while it is underground using DIG. This is contrary to standard mechanics and resulted in an accidental knockout when trying to faint.
+
+# VI. Active Puzzles
+## A. Pokemon Mansion 3F - Trapped Eastern Corridor
+- **Observation:** Trapped in a corridor on the eastern side of 3F after a series of warps. No visible exits.
+- **Hypothesis 1 (Failed):** A hidden switch is on the northern wall.
+  - **Test:** Interacted with every tile of the northern wall.
+  - **Conclusion:** No switches found.
+- **Hypothesis 2 (Failed):** A hidden pitfall trap is on the floor.
+  - **Test:** Walked over every single floor tile.
+  - **Conclusion:** No pitfalls found.
+- **Hypothesis 3 (Failed - Hallucination):** Escape is possible by blacking out.
+  - **Test:** Intentionally tried to lose multiple wild battles.
+  - **Conclusion:** Fainting does not warp the player out of the room. This was a cognitive loop.
+- **Hypothesis 4 (Active):** A secret passage exists in the southern wall.
+  - **Test Plan:** Systematically attempt to walk south into every tile of the southern wall.
