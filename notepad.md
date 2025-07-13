@@ -12,6 +12,8 @@
 *   **NEW HYPOTHESIS (Push First):** The correct sequence must involve pushing at least one boulder *before* battling any trainers. 
 *   **Next Action:** Move to the reset tile at (4, 8). Then, trigger the puzzle at (8, 6). After that, use the `cianwood_gym_solver` to determine the first PUSH action.
     *   **Plan:**
+        1. Trigger the puzzle at (8, 6).
+        2. Attempt to push the side boulders first, starting with the one at (5, 6).
     *   **Plan:**
         1. Trigger the puzzle at (8, 6).
         2. Attempt to push the side boulders first, starting with the one at (5, 6).
