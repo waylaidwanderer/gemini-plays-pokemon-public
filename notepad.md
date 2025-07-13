@@ -1,45 +1,43 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. Game Systems & Mechanics
+## I. Core Principles & Lessons Learned
+
+*   **Data Integrity is Paramount:** My internal state (notepad, markers) MUST be 100% accurate. I will not defer data correction. Assumptions must be rigorously tested before being recorded as fact.
+*   **Trust Tools Over Perception:** My `pathfinder` tool's output is based on the game's ground truth. If it says 'no path', I must trust it and investigate my own understanding, not assume the tool is broken.
+*   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
+*   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
+
+## II. Game Systems & Mechanics
 
 ### Tile Traversal Protocol
-- **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately.
-- **Movement Test:** Attempt to move *into* and *out of* the tile from all 4 cardinal directions. Document results.
-- **Interaction Test:** If movement fails, I must attempt to interact with the tile by facing it and pressing 'A'. Document results.
-- **Ledge Test:** For any ledge-like tile, I must attempt to move against the apparent direction of the ledge to confirm if it is a one-way path. Document results.
+*   **Testing Mandate:** When a new, reachable tile type is seen, I MUST test it immediately.
+*   **Movement Test:** Attempt to move *into* and *out of* the tile from all 4 cardinal directions.
+*   **Interaction Test:** If movement fails, I must attempt to interact with the tile by facing it and pressing 'A'.
+*   **Ledge Test:** For any ledge-like tile, I must attempt to move against the apparent direction of the ledge to confirm if it is a one-way path.
 
 ### Verified Tile Types
-*   **Impassable (Verified):** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD` (Farfetch'd), `MART_SHELF`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WEIRD_TREE`, `PRINTER`, `BUOY`, `VOID`.
-*   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `CUT_TREE` (becomes traversable after using CUT), `FLOOR`, `WATER` (Requires HM03 Surf).
-*   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE`, `WARP_CARPET_DOWN` (Move onto tile), `PIT` (Acts as a one-way warp when stepped on).
+*   **Impassable (Verified):** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD`, `MART_SHELF`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WEIRD_TREE`, `PRINTER`, `BUOY`, `ROCK`.
+*   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `FLOOR`, `WATER` (Requires HM03 Surf).
+*   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE`, `PIT` (One-way).
+*   **Special Warps (Verified):** 
+    *   `WARP_CARPET_DOWN`: To activate, stand on the tile and press **Down**.
 *   **One-Way Ledges (Verified):**
-    *   `LEDGE_HOP_DOWN`: A one-way ledge that can only be hopped **DOWN**.
-    *   `LEDGE_HOP_DOWN/RIGHT`: A one-way ledge that can only be hopped in the specified direction.
-    *   `LEDGE_HOP_LEFT`: A one-way ledge that can only be hopped **LEFT**.
+    *   `LEDGE_HOP_DOWN`: Can only be hopped **DOWN**.
+    *   `LEDGE_HOP_DOWN/RIGHT`: Can only be hopped in the specified direction.
+    *   `LEDGE_HOP_LEFT`: Can only be hopped **LEFT**.
 *   **Special Requirement (Verified):**
-    *   `BREAKABLE_ROCK` (Requires Rock Smash).
+    *   `CUT_TREE`: Becomes traversable after using CUT.
+    *   `BREAKABLE_ROCK`: Requires Rock Smash.
 *   **Special Requirement (Hypothesized):**
-    *   `WHIRLPOOL` (Requires HM): Impassable via normal movement and interaction.
+    *   `WHIRLPOOL` (Requires HM).
 
 ### Tiles Under Investigation (High Priority)
-*   `ROCK` (Route 41): Untested. Must investigate.
-*   `FLOOR_UP_WALL`: Attempting to move south from a `FLOOR` tile at (27, 45) onto this tile at (27, 46) failed. Interaction test also failed. Hypothesis: This is a one-way ledge that can only be hopped **DOWN** (south). Next step: Find a path to the upper level to test jumping down.
+*   `FLOOR_UP_WALL`: Attempting to move south from a `FLOOR` tile at (27, 45) onto this tile at (27, 46) failed. Hypothesis: This is a one-way ledge that can only be hopped **DOWN** (south). Test required: Find a path to the upper level to test jumping down.
 
-## II. Strategic Plans & Hypotheses
+## III. Strategic Plans & Hypotheses
 
-### Current Quest: The Secret Medicine
-*   **Goal:** Find the special medicine in Cianwood City to cure the sick Ampharos in the Olivine Lighthouse.
-*   **FAILED Hypothesis:** The Pharmacist in Cianwood Pharmacy has the Secret Medicine. This was proven false; he just runs a regular shop.
-*   **FAILED Hypothesis:** The Gym Leader, Chuck, is training under a waterfall somewhere *outside* the gym. This was proven false after exploring the city and finding the Photo Studio instead.
-
-### Cianwood Gym Puzzle Analysis
-*   **Initial State:** Two trainers are present at (2, 12) and (7, 12). The path to the leader is clear of boulders.
-*   **State Change Trigger:** Stepping on the tile at (8, 6) on the eastern path.
-*   **Triggered State:**
-    *   The two initial trainers disappear.
-    *   Two new trainers appear at (3, 9) and (5, 5).
-    *   The Gym Leader appears at (4, 1).
-    *   Boulders appear at (3, 7), (4, 7), and (5, 7), blocking the path to the leader.
-*   **Problem:** In the Triggered State, the player is trapped on a disconnected path and cannot reach the new trainers or the leader.
-*   **Reset Mechanism:** Exiting and re-entering the gym resets the puzzle to its Initial State.
-*   **Current Working Hypothesis:** The solution requires defeating the two *initial* trainers at (2, 12) and (7, 12). I must reset the gym to its Initial State to reach them.
+### Cianwood Gym Puzzle
+*   **Confirmed Mechanic:** The gym's state (trainers, boulders) is dynamic and changes based on player movement. Moving to the entrance area resets the gym to its initial state.
+*   **Confirmed Mechanic:** Stepping on the trigger tile at (8, 6) causes the Gym Leader to appear and boulders to block the central path.
+*   **Confirmed Mechanic:** The eastern and western paths of the gym are disconnected.
+*   **Current Working Hypothesis:** I must defeat the two *initial* trainers at (2, 12) and (7, 12). After defeating them, stepping on the trigger tile at (8, 6) might not cause the boulders to appear, leaving the path to the leader open.
