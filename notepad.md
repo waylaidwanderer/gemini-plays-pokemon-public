@@ -44,7 +44,7 @@
 
 # III. Solved Puzzles
 - **Pokemon Mansion - Trapped Room:** Was trapped in an isolated room at (27, 27). The game repeatedly gave 'hallucination' warnings. The solution was to take the warnings literally and walk through a tile marked 'impassable' at (27, 26).
-- **Pokemon Mansion - 1F Gate Puzzle:** The switches on 1F and 2F have a combined effect. To open the eastern gates at (25, 14), first activate the switch on 2F at (3, 12), then activate the switch on 1F at (3, 6).
+- **Pokemon Mansion - 1F Gate Puzzle:** The mansion features 'Alternating Doors'. The switch on 2F at (3, 12) toggles one set of gates (e.g., opens the path to southern 2F and the gates at (17,8)/(18,8) on 1F). The switch on 1F at (3, 6) toggles a different set (e.g., opens the eastern gates at (25, 14)/(26, 14)). They must be used in the correct sequence to navigate the mansion.
 
 # IV. Custom Tools & Agents
 
