@@ -50,3 +50,9 @@
 *   **CONFIRMED HYPOTHESIS (Chain Reaction Pt. 2):** Pushing the boulder at (5, 7) unlocked the ability to push the leftmost boulder at (3, 6).
 *   **CONFIRMED HYPOTHESIS (Chain Reaction Pt. 3):** Pushing the two side boulders unlocked the ability to battle the trainer at (5, 5).
 *   **Current Hypothesis (The Final Push):** The previous attempt to push the central boulder at (4,4) may have failed due to an execution error. The next logical step is to re-attempt pushing it from (4,5). If this fails, the puzzle state must be reset by stepping on the tile at (4,8) to explore alternative solution sequences.
+
+## IV. CRITICAL SITUATION: DIALOGUE LOOP
+*   **Status:** Soft-locked at Cianwood Gym (4, 5) by the persistent dialogue "Boulders may now be moved!".
+*   **Failed Actions:** All standard inputs (A, B, Start, Select) and movement have failed to clear the dialogue. Interacting with adjacent objects also failed.
+*   **Core Lesson:** My manual, repetitive attempts to solve the gym puzzle were inefficient and led to this state. I MUST prioritize using my custom tools like `cianwood_gym_solver` for their intended purpose.
+*   **Final Hypothesis:** The dialogue box is informational, not blocking. I must attempt to interact with the boulder at (4, 4) by pressing 'A' *while* the text is on screen.
