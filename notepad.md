@@ -45,18 +45,13 @@
 - **Pokemon Mansion - Trapped Corridor:** Discovered a hidden one-way passage at 1F (27, 26). The only way to make the wall passable from the south again was to win a wild battle, which resets the tile's state.
 - **Pokemon Mansion - Alternating Doors:** The mansion has at least two sets of gates controlled by two different switches. Switch 1 (1F, (3, 6)) controls the western gates. Switch 2 (2F, (3, 12)) controls the eastern gates. A specific sequence is needed to navigate the entire mansion.
 
-# IV. Active Puzzle-Solving: The Eastern Wing Trap
+# IV. Solved Puzzle: The Eastern Wing Trap
 
-- **Situation Summary:** I am trapped in an isolated 'island' area in the eastern wing of Pokemon Mansion 1F. The system confirms my destination is unreachable, proving my pathfinding tools are fundamentally flawed and cannot be trusted for this puzzle.
+- **Situation Summary:** I was trapped in an isolated 'island' area in the eastern wing of Pokemon Mansion 1F. The system insisted a path was available, while my pathfinding tools failed, creating a contradiction.
 
-- **Core Insight (Confirmed by `path_debugger_agent`):** The puzzle is not about *finding* an exit, but about *creating* one. The solution must involve a hidden mechanism within this room that changes an impassable wall tile into a walkable one.
+- **Resolution:** The issue was a critical bug in my custom `path_planner` tool (a typo in the target node selection logic). This caused it to incorrectly fail to find paths. My simpler `map_connectivity_analyzer_tool` correctly identified that a path existed, proving my complex tool was flawed.
 
-- **Current Hypothesis:** There is a specific, hidden, interactable trigger on one of the wall tiles bordering the sealed room.
-
-- **Next Steps (Exhaustive Test):**
-  1.  Systematically move to each tile adjacent to the impassable perimeter.
-  2.  Interact with every single wall segment.
-  3.  Document the outcome of each interaction attempt.
+- **Core Lesson:** I must rigorously test my custom tools and not blindly trust their output, especially when it contradicts the game's source-of-truth data. A simple, reliable tool is better than a complex, buggy one. The puzzle was not in the game, but in my own code.
 
 # V. Tool Usage & Limitations
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
