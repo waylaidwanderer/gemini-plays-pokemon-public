@@ -45,16 +45,14 @@
 - **Main Hypothesis:** Finding the key requires a specific sequence of activating switches across multiple floors to open a path to the basement area where the key is likely hidden.
 
 ## B. Pokemon Mansion - Puzzle Tracking
-### Hypothesis 1: 1F Switch Controls Gates on Multiple Floors
+### Hypothesis 2: 2F Switch Controls Gates on 2F
+- **Observation:** The Super Nerd at (5, 18) confirmed the 'alternating doors' mechanic. After pressing the switch at (3, 12), the gates at (10, 5) and (10, 6) became reachable.
 - **Test Plan:**
-  1. Go to 1F switch at (3,6).
-  2. Press switch to enter **State B (ON)**.
-  3. Go to 2F and observe status of North gates (10,5) and East gates (19,9).
-  4. Return to 1F and press switch again to enter **State A (OFF)**.
-  5. Go back to 2F and observe status of North gates (10,5) and East gates (19,9) to confirm toggle.
+  1. Navigate to the northern gates at (10, 5) and (10, 6) to confirm they are open.
+  2. Explore the newly accessible area.
+  3. If blocked, return to the switch at (3, 12), press it again, and re-observe the northern gates to confirm the 'alternating' behavior.
 - **Current Status:**
-  - **Step 2 COMPLETE:** Pressed switch at (3,6). Gates at (17,8) and (18,8) on 1F opened.
-  - **Next Step:** Proceeding to 2F to observe changes (Step 3).
+  - **Step 1 in progress:** Navigating to the northern gates.
 
 # IV. Reminders
 - **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine.
