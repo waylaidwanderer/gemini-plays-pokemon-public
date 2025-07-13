@@ -52,7 +52,9 @@
   3. Go to 2F and observe status of North gates (10,5) and East gates (19,9).
   4. Return to 1F and press switch again to enter **State A (OFF)**.
   5. Go back to 2F and observe status of North gates (10,5) and East gates (19,9) to confirm toggle.
-- **Current Status:** Starting Test Plan. Moving to 1F switch.
+- **Current Status:**
+  - **Step 2 COMPLETE:** Pressed switch at (3,6). Gates at (17,8) and (18,8) on 1F opened.
+  - **Next Step:** Proceeding to 2F to observe changes (Step 3).
 
 # IV. Reminders
 - **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine.
