@@ -53,17 +53,15 @@
 
 ## I. Current Strategy & Hypotheses (Update)
 
-### Cianwood Gym - Boulder Puzzle Analysis (v7 - Final Confirmed Plan)
-*   **Core Mechanics (Learned from Failure):**
-    1.  **Defeated trainers become impassable WALLS.**
-    2.  The `boulder_puzzle_strategist` report was correct, but I was using the wrong trigger. The correct trigger is at **(9, 7)**.
-*   **Confirmed Solution Path (from strategist report):**
-    1.  Trigger puzzle at (9, 7).
-    2.  Move to (4, 5).
-    3.  Push Boulder East from (5, 5) to (6, 5).
-    4.  Move to (5, 5).
-    5.  Push Boulder East from (6, 5) to (7, 5).
-    6.  Move to (6, 5).
+### Cianwood Gym - Boulder Puzzle Analysis (v9 - Final Plan)
+*   **Core Mechanics (Confirmed):**
+    1.  **Defeated trainers become impassable WALLS.** This is the most important rule.
+    2.  The `boulder_puzzle_strategist` report was completely wrong and has been misleading. It should not be trusted.
+*   **New Hypothesis:** The puzzle must be solved by pushing boulders in a specific sequence *before* battling any trainers. The boulder at (5, 6) is the most likely starting point.
+*   **Current Plan:**
+    1.  Move to (5, 7).
+    2.  Attempt to push the boulder at (5, 6) upwards to (5, 5).
+    3.  Re-evaluate based on the result.
     7.  Push Boulder East from (7, 5) to (8, 5).
     8.  Move to (7, 5).
     9.  Push Boulder East from (8, 5) to (9, 5).
