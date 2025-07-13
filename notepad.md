@@ -17,19 +17,11 @@
 
 ### Verified Tile Types
 *   **Impassable (Verified):** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `STATUE`, `TABLE`, `CHAIR`, `BIRD`, `MART_SHELF`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WEIRD_TREE`, `PRINTER`, `BUOY`, `ROCK`.
-*   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `FLOOR`, `WATER` (Requires HM03 Surf).
+*   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `FLOOR`, `WATER` (Requires HM03 Surf), `WARP_CARPET_DOWN`.
 *   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE`, `PIT` (One-way).
-*   **Special Warps (Verified):** 
-    *   `WARP_CARPET_DOWN`: To activate, stand on the tile and press **Down**.
-*   **One-Way Ledges (Verified):**
-    *   `LEDGE_HOP_DOWN`: Can only be hopped **DOWN**.
-    *   `LEDGE_HOP_DOWN/RIGHT`: Can only be hopped in the specified direction.
-    *   `LEDGE_HOP_LEFT`: Can only be hopped **LEFT**.
-*   **Special Requirement (Verified):**
-    *   `CUT_TREE`: Becomes traversable after using CUT.
-    *   `BREAKABLE_ROCK`: Requires Rock Smash.
-*   **Special Requirement (Hypothesized):**
-    *   `WHIRLPOOL` (Requires HM).
+*   **One-Way Ledges (Verified):** `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`.
+*   **Special Requirement (Verified):** `CUT_TREE`, `BREAKABLE_ROCK`.
+*   **Special Requirement (Hypothesized):** `WHIRLPOOL` (Requires HM).
 
 ### Tiles Under Investigation (High Priority)
 *   `FLOOR_UP_WALL`: Attempting to move south from a `FLOOR` tile at (27, 45) onto this tile at (27, 46) failed. Hypothesis: This is a one-way ledge that can only be hopped **DOWN** (south). Test required: Find a path to the upper level to test jumping down.
@@ -37,12 +29,15 @@
 ## III. Strategic Plans & Hypotheses
 
 ### Cianwood Gym Puzzle
-*   **Core Mechanic:** A sequence of actions is required to reach the Gym Leader.
-*   **Failed Hypothesis 1:** Defeating all trainers in the gym will clear the path. (Tested on turn 38864 - Lao and Yoshi only give dialogue and do not battle).
+*   **Core Mechanic:** A sequence of actions is required to reach the Gym Leader. The puzzle state resets upon leaving the gym.
+*   **Failed Hypothesis 1:** Defeating all trainers in the gym will clear the path. (Tested on turns 38864, 38868, 38870 - Lao and Yoshi only give dialogue and do not battle).
 *   **Failed Hypothesis 2:** Interacting with the left statue at (3, 15) after re-defeating Nob would solve the puzzle. (Tested on turn 38871 - only showed location banner).
 *   **Current Hypothesis:** Interacting with the *right* statue at (6, 15) is the correct trigger.
 *   **Test Plan:** Interact with the statue at (6, 15).
 *   **Puzzle State:** Black Belt Nob has been re-defeated. Black Belts Lao and Yoshi are present but non-combative.
+
+### Alternative Hypotheses (Falsification)
+*   **Cianwood Gym:** The solution might not be a single interaction, but a sequence of movements. After testing the right statue, if it fails, I will test specific movement patterns on the side paths to see if that triggers a change.
 
 ## Map Corrections
 *   Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
