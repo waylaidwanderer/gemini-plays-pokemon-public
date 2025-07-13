@@ -48,9 +48,6 @@
 # IV. Active Puzzle-Solving & Hypothesis Testing
 *This section is for actively working through complex puzzles. I log observations, form a single testable hypothesis, record the test, and its outcome.*
 
-# V. Tool Usage & Limitations
-- **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
-
 **Puzzle: Accessing East Wing of Pokemon Mansion 2F**
 
 **Attempt 1:**
@@ -61,4 +58,6 @@
 - **Conclusion:** Hypothesis is **false**. The switch at (3, 12) does not grant access to the east wing from the west side of the floor.
 
 **New Hypothesis:** The east wing of 2F must be accessed from a different floor, likely by falling through a specific hole on 3F.
-- **Gate Offscreen/Closed/Open:** Gates whose state (unknown, impassable, or passable) depends on whether they are on-screen and whether a controlling switch has been activated.
+
+# V. Tool Usage & Limitations
+- **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
