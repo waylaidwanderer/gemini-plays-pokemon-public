@@ -55,7 +55,8 @@
 - **Conclusion:** Hypothesis DENIED.
 
 - **New Hypothesis (Positional Battle Event):** The state of the gate is linked to a battle event (win or loss) that occurs while standing on a tile adjacent to the gate.
-- **Next Steps:** Pace on the tiles adjacent to the gate to trigger a wild encounter. The outcome of the battle (likely a loss, given my party's state) will be observed to see if it affects the gate.
+- **Test (Attempt 1 - ABORTED):** Attempted to lose to a wild Raticate but became stuck in a menu loop and ultimately won the battle. The hypothesis remains untested.
+- **Test (Attempt 2):** Pace in the available area to trigger a new wild encounter. Intentionally allow all remaining Pokémon in the party to faint. Observe if this returns me to the last used Pokémon Center.
 
 # V. Tool Usage & Limitations
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
