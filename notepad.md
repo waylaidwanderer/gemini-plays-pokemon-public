@@ -37,9 +37,9 @@
 ## III. Strategic Plans & Hypotheses
 
 ### Cianwood Gym Puzzle
-*   **Core Mechanic:** The puzzle requires using STRENGTH on boulders.
-*   **Hypothesis:** The intended solution is to deliberately trigger a trap by walking up the central path, which makes three boulders appear. These boulders must then be pushed with STRENGTH to clear a path to the Gym Leader.
-*   **Trap Trigger:** Stepping on tile (4, 13) causes the boulders to appear.
+*   **Core Mechanic:** The puzzle seems to involve defeating all trainers to progress.
+*   **Hypothesis:** Stepping on specific tiles reveals hidden trainers. Stepping on (4, 13) reveals Black Belt Nob at (3, 9). The boulders must be triggered by a different mechanism, possibly after all trainers are defeated.
+*   **Confirmed Non-Battling NPC:** Black Belt Yoshi at (2, 12) will not battle.
 *   **Confirmed Non-Battling NPC:** Black Belt Yoshi at (2, 12) will not battle.
 *   **Alternative Hypothesis (for falsification):** There may be another trigger tile that removes the boulders without requiring STRENGTH, or a special interaction with the statues after all trainers are defeated.
 
