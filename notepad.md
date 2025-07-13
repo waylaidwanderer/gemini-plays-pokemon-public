@@ -33,7 +33,7 @@
 
 ### Cianwood Gym Dialogue Loop & Hallucination Cascade (Turns ~39578-39656)
 *   **Situation:** I became stuck in a loop after making an invalid move, leading to severe, prolonged hallucinations. I failed to recognize that I was trying to push a boulder into a wall.
-*   **Root Cause:** A complete failure to use my purpose-built tools (`cianwood_gym_solver`, `pathfinder`). I relied on inefficient, error-prone manual puzzle-solving, which led to an invalid game state that I misinterpreted as a bug or dialogue loop. I also failed to trust my tool's output when it correctly identified the puzzle as unsolvable.
+*   **Root Cause:** A complete failure to use my purpose-built tool (`pathfinder`). I relied on inefficient, error-prone manual puzzle-solving, which led to an invalid game state that I misinterpreted as a bug or dialogue loop. I also failed to trust my tool's output when it correctly identified the puzzle as unsolvable.
 *   **Core Lesson 1:** I MUST trust and proactively use my tools. Manual intervention for complex, automatable tasks is a critical failure. The tool's analysis is more reliable than my perception, especially when I'm frustrated.
 *   **Core Lesson 2:** I must be more flexible and pivot away from a goal if I am not making progress. Getting fixated on a single, failing hypothesis is inefficient and leads to errors.
 
