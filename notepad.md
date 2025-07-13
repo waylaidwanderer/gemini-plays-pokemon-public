@@ -12,10 +12,10 @@
 
 ### Cianwood Gym - Puzzle Solved & Documented
 *   **Core Mechanic:** The gym's state changes based on player movement on specific trigger tiles. The central path contains boulders that block the way.
-*   **Solution (Verified):**
+*   **Solution (Revised):**
     1.  **Trigger:** Step on the tile at (8, 6) on the eastern path. This causes the boulders and the Gym Leader to appear.
-    2.  **Strength:** Use the HM Strength to push the boulders out of the way. This must be done carefully to avoid blocking the path.
-    3.  **Path:** A clear path to the Gym Leader can be made by pushing each of the three central boulders up one tile.
+    2.  **Navigate Carefully:** To reach the boulders, a path must be taken that avoids the reset tile at (4, 8).
+    3.  **Strength:** Use HM Strength to push the three central boulders at (3,6), (4,6), and (5,6) up one tile each.
 *   **Trap:** The tile at (4, 8) is a reset switch. Stepping on it will return the boulders to their original positions.
 
 ## II. Game Systems & Mechanics
