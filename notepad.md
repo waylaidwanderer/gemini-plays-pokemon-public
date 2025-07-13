@@ -28,13 +28,6 @@
 
 ## III. Current Plans & Investigations
 
-### Investigation: The Battle Tower
-*   **Objective:** Determine the purpose of the Battle Tower and if it contains any key items or story progression elements.
-*   **Current Status:** I have discovered a gatehouse leading to an exterior area with a large building. One warp led from the exterior back into the gatehouse. Another warp (a door) in the gatehouse remains unexplored and is the likely entrance.
-*   **Next Step:** Enter the unexplored door at (4, 0) in the Route40BattleTowerGate map.
-
-## IV. Archived Investigations
-
 ### Investigation: The Missing HM02 (Fly)
 *   **Status:** Investigation on hold. Current priority is the Battle Tower.
 *   **Anomaly:** After defeating Gym Leader Chuck, his wife gave me HM02 (Fly). However, after a thorough search of my bag, the HM is not present in my TM/HM pocket or any other pocket.
@@ -46,3 +39,8 @@
     1.  Travel from my current location on Route 40 back to Cianwood City via Route 41.
     2.  Upon arrival in Cianwood City, enter the Cianwood Gym.
     3.  Speak to Chuck's wife again.
+
+## IV. Archived Investigations
+
+### Investigation: The Battle Tower
+*   **Status:** Investigation complete. The Battle Tower appears to be a self-contained loop with no key items or story progression elements. All warps lead back to the gatehouse or the exterior area. No further investigation is warranted at this time.
