@@ -64,6 +64,8 @@
   - **Conclusion:** Fainting does not warp the player out of the room. This was a cognitive loop.
 - **Hypothesis 4 (Failed):** A secret passage exists in the southern wall.
   - **Test:** Systematically attempted to walk south into every tile of the southern wall from x=2 to x=6.
-  - **Conclusion:** The wall is solid. All simple hypotheses for escape have been exhausted.
-- **Hypothesis 5 (Active):** The southern wall is a one-way ledge that can be jumped down, as hinted by a scientist's dialogue about 'jumping off' things.
-  - **Test Plan:** Walk south into the southern wall at (2, 18).
+  - **Hypothesis 5 (Failed):** The southern wall is a one-way ledge.
+  - **Test:** Attempted to walk south into the impassable wall at (2, 18).
+  - **Conclusion:** The wall is impassable, not a ledge. The 'jumping off' hint may apply elsewhere or be metaphorical.
+- **Hypothesis 6 (Active):** The corridor is an intentional trap, requiring a field move like Dig to escape.
+  - **Test Plan:** Teach TM28 (Dig) to a compatible Pokémon and use it.
