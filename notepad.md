@@ -37,10 +37,11 @@
 ## III. Strategic Plans & Hypotheses
 
 ### Cianwood Gym Puzzle
-*   **Core Mechanic:** The puzzle seems to involve defeating all trainers to progress.
-*   **Hypothesis:** Stepping on specific tiles reveals hidden trainers. Stepping on (4, 13) reveals Black Belt Nob at (3, 9). The boulders must be triggered by a different mechanism, possibly after all trainers are defeated.
-*   **Confirmed Non-Battling NPC:** Black Belt Yoshi at (2, 12) will not battle.
-*   **Alternative Hypothesis (for falsification):** There may be another trigger tile that removes the boulders without requiring STRENGTH, or a special interaction with the statues after all trainers are defeated.
+*   **Core Mechanic:** A sequence of actions is required to reach the Gym Leader.
+*   **Failed Hypothesis 1:** Defeating all trainers in the gym will clear the path. (Tested on turn 38864 - Lao and Yoshi only give dialogue and do not battle).
+*   **Current Hypothesis:** Interacting with the gym statues after triggering the appearance of the trainers is the next required step.
+*   **Test Plan:** Interact with the statue at (3, 15).
+*   **Puzzle State:** Black Belt Nob has been re-defeated. Black Belts Lao and Yoshi are present but non-combative.
 
 ## Map Corrections
 *   Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
