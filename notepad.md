@@ -80,3 +80,5 @@
 *   **Conclusion 2:** Hypothesis 2 cannot be tested.
 *   **Agent Hypothesis 3:** The entry wall at (27, 26) has a hidden mechanism.
 *   **Test 3:** Move to (27, 26) and interact with the wall.
+- **Strategic Flexibility:** I must recognize when a strategy is failing (e.g., the blackout attempt failing due to RNG) and be willing to pivot or re-evaluate instead of getting stuck in a loop. I persisted with the blackout plan for too long without considering alternatives after the first failure.
+- **Combat Confirmation Bias:** When a test seems to confirm a hypothesis (e.g., the one-way wall), I must actively try to *disprove* it under different conditions (e.g., after a battle) instead of accepting the initial result as absolute truth.
