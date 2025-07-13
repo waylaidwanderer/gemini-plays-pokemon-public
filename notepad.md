@@ -47,12 +47,11 @@
 ## B. Pokemon Mansion - Puzzle Tracking
 ### Hypothesis 2: 2F Switch Controls Gates on 2F
 - **Observation:** The Super Nerd at (5, 18) confirmed the 'alternating doors' mechanic. After pressing the switch at (3, 12), the gates at (10, 5) and (10, 6) became reachable.
-- **Test Plan:**
-  1. Navigate to the northern gates at (10, 5) and (10, 6) to confirm they are open.
-  2. Explore the newly accessible area.
-  3. If blocked, return to the switch at (3, 12), press it again, and re-observe the northern gates to confirm the 'alternating' behavior.
-- **Current Status:**
-  - **Step 1 in progress:** Navigating to the northern gates.
+- **Conclusion:** The switch at (3, 12) does open the northern gates at (10, 5) and (10, 6), but the floor is divided into two sections. The western section (where the switch is) does not have a direct path to the northern gates.
+- **New Test Plan:**
+  1. Find a path to the eastern section of the floor. The warp at (8, 11) is the only remaining lead.
+  2. Navigate to the warp at (8, 11) and use it.
+  3. From the new location, attempt to navigate to the northern gates.
 
 # IV. Reminders
 - **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine.
