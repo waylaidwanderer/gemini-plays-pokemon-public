@@ -43,11 +43,7 @@
 ### Cianwood Gym - Boulder Puzzle Under Investigation (Update)
 *   **FAILED HYPOTHESIS (The "Bypass" Strategy - Attempt 1):** The puzzle can be solved by pushing the left boulder at (3,6) up first. 
     *   **Outcome:** FAILED. Attempting to push the boulder from (3,7) was blocked, indicating a prerequisite has not been met.
-*   **Current Hypothesis (The "Yoshi First" Strategy):** It's possible that all trainers in the gym must be defeated before the boulders can be moved. The final undefeated trainer is Yoshi at (2, 12).
-    *   **Plan:**
-        1. Navigate to (2, 11) and battle Yoshi at (2, 12).
-        2. After defeating him, return to the boulder area.
-        3. Re-attempt the 'Bypass' strategy by pushing the boulder at (3,6) up.
+*   **FAILED HYPOTHESIS (The "Yoshi First" Strategy):** Failed. Black Belt Yoshi at (2, 12) is not a battlable trainer.
 *   FAILED HYPOTHESIS (The "Chain Reaction" Strategy - Attempt 2): Defeating Black Belt Nob unlocks the ability to push the leftmost boulder at (3, 6).
     *   **Outcome:** FAILED. Attempting to push the boulder from (3, 7) was blocked.
 *   **CONFIRMED HYPOTHESIS (The "Chain Reaction" Strategy):** Defeating Black Belt Nob unlocked the ability to push the rightmost boulder at (5, 7).
