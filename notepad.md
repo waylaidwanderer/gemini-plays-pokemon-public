@@ -51,11 +51,11 @@
 
 - **Core Insight:** The puzzle is not about *finding* an exit, but about *creating* one. The solution must involve a hidden mechanism within this room that changes an impassable wall tile into a walkable one.
 
-- **Current Hypothesis:** There is a specific, hidden trigger or condition within this room that will make one of the surrounding impassable wall tiles walkable.
+- **Current Hypothesis:** There is a specific, hidden trigger or condition within this room that will make one of the surrounding impassable wall tiles walkable. The most direct way to test this is to interact with every single wall tile bordering the room.
 
 - **Next Steps:**
-  1.  Meticulously re-examine the `MapMemory` XML data for any anomalies or unusual properties among the impassable tiles bordering my current area.
-  2.  Formulate new, specific, testable hypotheses based on the map data analysis.
+  1.  Systematically interact with every wall tile bordering the trapped area.
+  2.  If that fails, meticulously re-examine the `MapMemory` XML data for any anomalies or unusual properties among the impassable tiles bordering my current area.
 
 # V. Tool Usage & Limitations
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
