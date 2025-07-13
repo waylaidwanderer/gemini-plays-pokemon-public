@@ -28,3 +28,11 @@
 
 ## III. Future Agent & Tool Ideas
 *   `puzzle_strategist` agent: Could take the output of `boulder_scanner` and the map layout to devise a multi-step solution for complex boulder puzzles.
+
+## Cianwood Gym Puzzle Log
+*   **Hypothesis 1:** Interacting with the boulder at (5, 6) is a global switch that makes all other boulders pushable by walking into them.
+*   **Test 1:** Interacted with boulder at (5, 6). Moved to (3, 7). Pushed 'Up' to move boulder at (3, 6).
+*   **Result 1:** Boulder at (3, 6) did not move.
+*   **Conclusion 1:** Hypothesis 1 is FALSE. The interaction at (5, 6) does not make other boulders pushable by walking.
+*   **Hypothesis 2:** STRENGTH must be activated by pressing 'A' while facing a movable boulder.
+*   **Test 2:** Stand at (3, 7) facing the boulder at (3, 6) and press 'A'.
