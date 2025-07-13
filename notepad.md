@@ -48,4 +48,9 @@
         1. Navigate to (2, 11) and battle Yoshi at (2, 12).
         2. After defeating him, return to the boulder area.
         3. Re-attempt the 'Bypass' strategy by pushing the boulder at (3,6) up.
-*   **Alternative Hypothesis (The "Chain Reaction" Strategy):** The puzzle may require a specific sequence of defeating trainers and pushing boulders. For example, defeating Yoshi might only unlock the ability to push the first boulder, which in turn reveals a path to another trainer or action. Test: After defeating Yoshi, I will immediately try to push the boulder at (3,6). If it moves, this hypothesis is supported. If not, another prerequisite is missing.
+*   FAILED HYPOTHESIS (The "Chain Reaction" Strategy - Attempt 2): Defeating Black Belt Nob unlocks the ability to push the leftmost boulder at (3, 6).
+    *   **Outcome:** FAILED. Attempting to push the boulder from (3, 7) was blocked.
+*   **Current Hypothesis (The "Chain Reaction" Strategy - Attempt 3):** Defeating Black Belt Nob unlocks the ability to push the rightmost boulder at (5, 7).
+    *   **Plan:**
+        1. Navigate to (5, 8).
+        2. Push the boulder at (5, 7) up.
