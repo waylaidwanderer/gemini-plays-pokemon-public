@@ -31,8 +31,8 @@
 ### Current Objective: Obtain SECRETMEDICINE
 *   **Status:** In progress.
 *   **Goal:** Travel to Cianwood City to obtain the SECRETMEDICINE for the sick Ampharos in the Olivine Lighthouse.
-*   **Current Plan:** My initial hypothesis that I could surf directly west from Route 40 was proven false by my `pathfinder` tool. My new hypothesis is that the landmass is isolated and the only way forward is to travel south from Route 40 to Route 41, and then find a path to Cianwood City from there.
-*   **Next Step:** Continue surfing west across Route 41 to reach the map transition to Cianwood City.
+*   **Current Plan:** The Pharmacist in Cianwood City did not have the SECRETMEDICINE. My new hypothesis is that the Pokefan F who promised a gift after I defeated the Gym Leader might have it.
+*   **Next Step:** Exit the Pharmacy and locate the Pokefan F in Cianwood City.
 
 ## IV. Archived Investigations
 
