@@ -41,3 +41,4 @@
     2. Face the boulder at (3, 7) and press 'A' to enable pushing.
     3. Push the boulder Up to (3, 6).
     4. Check if the path to Chuck is clear.
+*   **Special Requirement (Hypothesized):** `WHIRLPOOL` (Requires HM).
