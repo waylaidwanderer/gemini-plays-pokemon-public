@@ -8,12 +8,10 @@
     *   **Outcome:** FAILED. After pushing the central boulder and navigating to (5, 6), movement to (5, 5) to initiate the battle was blocked. This indicates re-battling the trainer is not the intended solution.
 *   **Current Hypothesis (The "Bypass" Strategy):** It's possible to solve the puzzle without fighting the trainer at (5,5) by pushing the boulders in a specific order.
     *   **Plan:**
-        1. Reset the puzzle via the tile at (4, 8).
-        2. Re-trigger the puzzle at (8, 6).
-        3. Push the boulder at (3,7) up first.
-        4. Push the boulder at (5,7) up next.
-        5. Finally, push the middle boulder at (4,7) up.
-        6. This sequence might open a path to the leader while avoiding the trainer.
+        1. Push the boulder at (3,6) up first.
+        2. Push the boulder at (5,7) up next.
+        3. Finally, push the middle boulder at (4,4) up.
+        4. This sequence might open a path to the leader while avoiding the trainer.
 
 ## II. Game Systems & Mechanics
 
