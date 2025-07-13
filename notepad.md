@@ -26,19 +26,5 @@
 *   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 
-## Cianwood Gym Puzzle Log
-*   **Hypothesis 1:** Interacting with the boulder at (5, 6) is a global switch that makes all other boulders pushable by walking into them.
-*   **Conclusion 1:** FALSE. The interaction at (5, 6) does not make other boulders pushable by walking.
-*   **Hypothesis 2:** STRENGTH must be activated by pressing 'A' while facing a movable boulder.
-*   **Conclusion 2:** FALSE. Pressing 'A' on a boulder seems to be a global switch, not a targeted push.
-*   **Hypothesis 3:** Pushing the boulders at (3, 7), (4, 7), and (5, 7) up will form a traversable bridge to the Gym Leader.
-*   **Conclusion 3:** FALSE. The pushed boulders do not form a traversable bridge and remain impassable objects.
-*   **Hypothesis 4:** Defeating the Black Belt at (5, 5) is the trigger to solve the puzzle.
-*   **Conclusion 4:** Untestable. Pathfinder confirmed the platforms are separate.
-*   **Hypothesis 5:** The statues at (6, 15) and (3, 15) are switches that alter the gym layout.
-*   **Conclusion 5:** FALSE. Interacting with both statues had no effect. The puzzle inside the gym seems unsolvable with current knowledge.
-*   **New Lead:** A Gym Guide mentioned the leader trains under a waterfall. I will now leave the gym to investigate this clue.
-*   **Impassable (Verified):** `BUOY`.
-
 ## Agent & Tool Ideas
 *   `navigation_strategist` (Agent): An agent that could take my current goals and location to suggest the next major destination to travel to.
