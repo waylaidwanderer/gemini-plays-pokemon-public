@@ -37,7 +37,7 @@
 - **Rock Tunnel B1F:** This area is divided into multiple isolated sections. The eastern ladder at (34, 26) is not accessible from the central corridor entrance.
 
 # II. Current Puzzles & Hypotheses
-- **Pokemon Mansion 1F - Escape the East Wing:** I am currently trapped in the eastern wing of the mansion. The exit appears to be a `closed_gate` at (27, 28) and (28, 28). There are no visible switches. Pikachu is standing at (28, 27). Hypothesis: The solution involves interacting with or moving through Pikachu.
+- **Pokemon Mansion 1F - Escape the East Wing:** I am currently trapped in the eastern wing of the mansion. The exit is a `closed_gate` at (27, 28) and (28, 28). **Failed Hypothesis:** Interacting with or moving through the Pikachu at (28, 27) does not open the gate. **Current Hypothesis:** Losing a battle within this trapped area will cause a blackout and warp me out of the mansion, allowing me to regroup and find the actual solution to obtaining the SECRET KEY.
 
 # V. Core Principles & Lessons Learned
 - **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. I failed at this by not immediately fixing my `pathfinder` tool and notepad.
