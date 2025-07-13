@@ -42,4 +42,4 @@
 ## IV. Methodology Improvements (Post-Reflection)
 *   **Tile Testing Protocol:** I will be more rigorous in testing new tile types. This includes attempting to move into and out of the tile from all four cardinal directions and documenting the results immediately.
 *   **Hypothesis Generation:** When faced with a complex puzzle, I will generate and document multiple, distinct hypotheses in my notepad before beginning testing. This will help me avoid fixation on a single, potentially incorrect, line of reasoning.
-*   `WARP_CARPET_DOWN`: Found in ManiasHouse (22_4). Appears to be an exit warp. Failed Hypotheses: 1) Stepping on the tile triggers the warp. 2) Pressing 'A' on the tile triggers the warp. 3) Walking DOWN onto the tile at (2, 7) from (2, 6) triggers the warp. Current Hypothesis: Walking DOWN onto the tile at (3, 7) from (3, 6) will trigger it.
+*   `WARP_CARPET_DOWN`: Found in ManiasHouse (22_4). Appears to be an exit warp. **Solution Found:** The warp is activated by standing on the tile and pressing the 'Down' button. This was confirmed by successfully exiting the house after pressing 'Down' on tile (3, 7).
