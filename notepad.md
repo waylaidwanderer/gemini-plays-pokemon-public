@@ -10,11 +10,14 @@
 
 ### Verified Tile Types
 *   **Impassable (Verified):** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `TABLE`, `CHAIR`, `BIRD`, `MART_SHELF`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WEIRD_TREE`, `PRINTER`, `BUOY`, `ROCK`.
-*   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `FLOOR`, `WATER` (Requires HM03 Surf).
+*   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `FLOOR`.
 *   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE`, `PIT` (One-way), `WARP_CARPET_DOWN` (Requires pressing 'Down' while standing on tile).
 *   **One-Way Ledges (Verified):** `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`.
-*   **Special Requirement (Verified):** `CUT_TREE` (Requires HM01 Cut), `BREAKABLE_ROCK` (Requires Rock Smash).
+*   **Special Requirement (Verified):** `CUT_TREE` (Requires HM01 Cut), `BREAKABLE_ROCK` (Requires Rock Smash), `WATER` (Requires HM03 Surf).
 *   **Special Requirement (Hypothesized):** `WHIRLPOOL` (Requires HM).
+
+### HM Usage (Outside of Battle)
+*   **Activation:** HMs like Surf must be activated manually from the Pokémon's move list in the party menu when used for traversal. Simply moving towards the obstacle is not sufficient.
 
 ### Tiles Under Investigation (High Priority)
 *   `FLOOR_UP_WALL`: Attempting to move south from a `FLOOR` tile at (27, 45) onto this tile at (27, 46) failed. Hypothesis: This is a one-way ledge that can only be hopped **DOWN** (south). Test required: Find a path to the upper level to test jumping down.
@@ -32,7 +35,7 @@
 *   **Status:** In progress.
 *   **Goal:** Travel to Cianwood City to obtain the SECRETMEDICINE for the sick Ampharos in the Olivine Lighthouse.
 *   **Current Plan:** My initial hypothesis that I could surf directly west from Route 40 was proven false by my `pathfinder` tool. My new hypothesis is that the landmass is isolated and the only way forward is to travel south from Route 40 to Route 41, and then find a path to Cianwood City from there.
-*   **Next Step:** Use `pathfinder` to confirm a path exists to the southern exit of Route 40 at (8, 35).
+*   **Next Step:** Continue surfing west across Route 41 to reach the map transition to Cianwood City.
 
 ## IV. Archived Investigations
 
@@ -44,5 +47,3 @@
 
 ### Investigation: The Battle Tower
 *   **Status:** Investigation complete. The Battle Tower appears to be a self-contained loop with no key items or story progression elements. All warps lead back to the gatehouse or the exterior area. No further investigation is warranted at this time.
-### HM Usage (Outside of Battle)
-*   **Activation:** HMs like Surf must be activated manually from the Pokémon's move list in the party menu when used for traversal. Simply moving towards the obstacle is not sufficient.
