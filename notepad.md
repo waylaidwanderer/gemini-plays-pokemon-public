@@ -70,5 +70,8 @@
 - **Hypothesis 6 (Failed):** The corridor is an intentional trap, requiring a field move like Dig to escape.
   - **Test:** Checked inventory for TM28 (Dig). It is not present.
   - **Conclusion:** This escape method is not currently possible.
-- **Hypothesis 7 (Active):** There is a hidden switch on one of the floor tiles in the corridor.
-  - **Test Plan:** Stand on each tile from (2, 17) to (6, 17) and press the A button.
+- **Hypothesis 7 (Failed):** There is a hidden switch on one of the floor tiles in the corridor.
+  - **Test:** Stood on each tile from (2, 17) to (6, 17) and pressed the A button.
+  - **Conclusion:** No switches found.
+- **Hypothesis 8 (Active):** A secret passage exists in the eastern or western walls.
+  - **Test Plan:** Interact with the eastern wall at (7, 17) and the western wall at (1, 17).
