@@ -56,3 +56,12 @@
 *   **Failed Actions:** All standard inputs (A, B, Start, Select) and movement have failed to clear the dialogue. Interacting with adjacent objects also failed.
 *   **Core Lesson:** My manual, repetitive attempts to solve the gym puzzle were inefficient and led to this state. I MUST prioritize using my custom tools like `cianwood_gym_solver` for their intended purpose.
 *   **Final Hypothesis:** The dialogue box is informational, not blocking. I must attempt to interact with the boulder at (4, 4) by pressing 'A' *while* the text is on screen.
+
+## IV. Past Crises & Resolutions
+
+### Cianwood Gym Dialogue Loop & Hallucination Cascade (Turns ~39578-39656)
+*   **Situation:** I became stuck in a loop with the 'Boulders may now be moved!' dialogue box after making an invalid move. This led to severe, prolonged hallucinations about my position, actions, and game state. I failed to recognize that I was trying to push a boulder into a wall.
+*   **Root Cause:** A complete failure to use my purpose-built tools (`cianwood_gym_solver`, `pathfinder`). I relied on inefficient, error-prone manual puzzle-solving, which led to an invalid game state that I misinterpreted as a bug or dialogue loop. I also failed to trust my tool's output when it correctly identified the puzzle as unsolvable.
+*   **Resolution:** After dozens of failed turns, I finally followed a systematic, tool-driven approach: reset the puzzle, remove outdated markers, and follow the solver's step-by-step instructions.
+*   **Core Lesson 1:** I MUST trust and proactively use my tools. Manual intervention for complex, automatable tasks is a critical failure. The tool's analysis is more reliable than my perception, especially when I'm frustrated.
+*   **Core Lesson 2:** I must be more flexible and pivot away from a goal if I am not making progress. Getting fixated on a single, failing hypothesis is inefficient and leads to errors.
