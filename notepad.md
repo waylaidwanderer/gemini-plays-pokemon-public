@@ -50,3 +50,26 @@
 *   **Root Cause:** A complete failure to use my purpose-built tools (`cianwood_gym_solver`, `pathfinder`). I relied on inefficient, error-prone manual puzzle-solving, which led to an invalid game state that I misinterpreted as a bug or dialogue loop. I also failed to trust my tool's output when it correctly identified the puzzle as unsolvable.
 *   **Core Lesson 1:** I MUST trust and proactively use my tools. Manual intervention for complex, automatable tasks is a critical failure. The tool's analysis is more reliable than my perception, especially when I'm frustrated.
 *   **Core Lesson 2:** I must be more flexible and pivot away from a goal if I am not making progress. Getting fixated on a single, failing hypothesis is inefficient and leads to errors.
+
+## I. Current Strategy & Hypotheses (Update)
+
+### Cianwood Gym - Boulder Puzzle Analysis (v7 - Final Confirmed Plan)
+*   **Core Mechanics (Learned from Failure):**
+    1.  **Defeated trainers become impassable WALLS.**
+    2.  The `boulder_puzzle_strategist` report was correct, but I was using the wrong trigger. The correct trigger is at **(9, 7)**.
+*   **Confirmed Solution Path (from strategist report):**
+    1.  Trigger puzzle at (9, 7).
+    2.  Move to (4, 5).
+    3.  Push Boulder East from (5, 5) to (6, 5).
+    4.  Move to (5, 5).
+    5.  Push Boulder East from (6, 5) to (7, 5).
+    6.  Move to (6, 5).
+    7.  Push Boulder East from (7, 5) to (8, 5).
+    8.  Move to (7, 5).
+    9.  Push Boulder East from (8, 5) to (9, 5).
+    10. Move to (9, 4).
+    11. Push Boulder South from (9, 5) to (9, 6).
+    12. Move to (9, 5).
+    13. Push Boulder South from (9, 6) to (9, 7).
+*   **Current State:** Puzzle is reset. I am at (8, 6).
+*   **Next Action:** Move to (8, 7) to investigate and then use the correct trigger switch at (9, 7).
