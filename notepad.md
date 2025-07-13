@@ -9,6 +9,14 @@
 - **Resolution:** The issue was a critical bug in my custom `path_planner` tool (a typo in the target node selection logic). This caused it to incorrectly fail to find paths. My simpler `map_connectivity_analyzer_tool` correctly identified that a path existed, proving my complex tool was flawed.
 - **Core Lesson:** I must rigorously test my custom tools and not blindly trust their output, especially when it contradicts the game's source-of-truth data. A simple, reliable tool is better than a complex, buggy one. The puzzle was not in the game, but in my own code.
 
+- **Hypothesis (Direct Interaction):** The gate at (25, 14) can be opened by interacting with it from an adjacent tile.
+- **Test:** Successfully navigated to (25, 13) and pressed 'A' while facing the gate.
+- **Outcome:** Interaction failed.
+- **Conclusion:** Hypothesis DENIED.
+
+- **New Hypothesis (Positional Battle Event):** The state of the gate is linked to a battle event (win or loss) that occurs while standing on a tile *adjacent* to the gate. This is based on the one-way wall mechanic that reset after a battle.
+- **Test:** Pace on the tiles adjacent to the gate to trigger a wild encounter. The outcome of the battle (likely a loss, given my party's state) will be observed to see if it affects the gate.
+
 # III. Game Mechanics & Battle Intel
 
 ## A. Tile Mechanics & Traversal Rules
