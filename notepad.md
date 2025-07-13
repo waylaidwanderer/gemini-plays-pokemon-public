@@ -53,5 +53,10 @@
 *   **Observation:** After being trapped in a room with 'hallucination' warnings, I discovered a hidden, one-way passage through the wall at (27, 26), leading into a new eastern corridor. The exit from this corridor appears to be a closed gate at (27, 28).
 *   **Hypothesis 1:** There is a switch or trigger within this new corridor that opens the gate at (27, 28).
 *   **Test 1:** Systematically explore the entire length of the eastern corridor, from (27, 20) to (27, 28), interacting with any potential objects or stepping on every tile.
-*   **Outcome 1:** [Pending]
-*   **Conclusion 1:** [Pending]
+*   **Outcome 1:** Reached the northern end of the corridor at (27, 20). Found no switches, items, or triggers. The path is a dead end.
+*   **Conclusion 1:** The hypothesis that a switch for the gate at (27, 28) is at the northern end of the corridor is incorrect.
+
+*   **Hypothesis 2:** A positional trigger that opens the gate at (27, 28) exists somewhere along the floor of the eastern corridor between (27, 20) and (27, 28).
+*   **Test 2:** Walk south along the entire length of the corridor, ensuring every tile is stepped on.
+*   **Outcome 2:** [Pending]
+*   **Conclusion 2:** [Pending]
