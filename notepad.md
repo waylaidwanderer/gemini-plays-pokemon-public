@@ -49,3 +49,6 @@
 
 # IV. Reminders
 - **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine once the gym is unlocked.
+
+# V. Future Development Ideas
+- **Agent Idea: `map_connectivity_analyzer_agent`**: Create an agent that takes start and end coordinates and provides a natural language explanation for why a path might not exist, identifying the specific types and locations of barriers. This would be useful for high-level analysis when the pathfinder returns 'No path found'.
