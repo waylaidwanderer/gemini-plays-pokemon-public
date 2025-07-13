@@ -38,3 +38,7 @@
 
 ## Map Corrections
 *   Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
+
+## IV. Methodology Improvements (Post-Reflection)
+*   **Tile Testing Protocol:** I will be more rigorous in testing new tile types. This includes attempting to move into and out of the tile from all four cardinal directions and documenting the results immediately.
+*   **Hypothesis Generation:** When faced with a complex puzzle, I will generate and document multiple, distinct hypotheses in my notepad before beginning testing. This will help me avoid fixation on a single, potentially incorrect, line of reasoning.
