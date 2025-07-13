@@ -38,19 +38,13 @@ My primary objective is to defeat Gym Leader Chuck. The main obstacle is the bou
 *   **Core Lesson 1:** I MUST trust and proactively use my tools. Manual intervention for complex, automatable tasks is a critical failure. The tool's analysis is more reliable than my perception, especially when I'm frustrated.
 *   **Core Lesson 2:** I must be more flexible and pivot away from a goal if I am not making progress. Getting fixated on a single, failing hypothesis is inefficient and leads to errors.
 
-## V. Cianwood Gym Strategy (Current)
+## IV. Cianwood Gym Strategy (Current)
 
-### Scientific Method Log
-*   **Core Confirmed Mechanics:**
-    1.  **Puzzle Trigger:** Stepping on the tile at (8, 6) activates the main puzzle, causing boulders and trainers to appear.
-    2.  **Puzzle Reset:** Stepping on the tile at (4, 8) resets the puzzle, returning all non-defeated elements to their starting positions.
-    3.  **Trainer Obstacles:** Defeated trainers become impassable obstacles. Battling must be avoided until a path is cleared.
-    4.  **Boulder Switch:** Interacting with the boulder at (3, 6) after the puzzle is triggered acts as a one-time switch, displaying the message "Boulders may now be moved!". It does not move the boulder itself.
+### Confirmed Mechanics
+1.  **Puzzle Trigger:** Stepping on the tile at (8, 6) activates the main puzzle, causing boulders and trainers to appear.
+2.  **Puzzle Reset:** Stepping on the tile at (4, 8) resets the puzzle, returning all non-defeated elements to their starting positions.
+3.  **Trainer Obstacles:** Defeated trainers become impassable obstacles. Battling must be avoided until a path is cleared.
+4.  **Boulder Switch:** Interacting with the boulder at (3, 6) after the puzzle is triggered acts as a one-time switch, displaying the message "Boulders may now be moved!". It does not move the boulder itself.
 
-*   **Current Hypothesis:** After triggering the puzzle and activating the boulder switch, specific boulders can be pushed to clear a path to Gym Leader Chuck.
-
-*   **Test Plan:**
-    1.  Ensure the puzzle is in its active, un-battled state.
-    2.  Activate the switch by interacting with the boulder at (3, 6).
-    3.  Use the `boulder_scanner` tool to identify all valid boulder pushes.
-    4.  Formulate a pathing plan based on the tool's output to reach and defeat Chuck.
+### Current Hypothesis
+My previous attempts failed because I either battled trainers too early (blocking paths) or pushed boulders into positions that trapped me. The correct solution likely involves a specific sequence of boulder pushes that must be completed *before* engaging any trainers.
