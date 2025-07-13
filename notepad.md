@@ -62,7 +62,7 @@
 ## Pokemon Mansion - Puzzle Tracking
 
 ### Hypothesis 1: 1F Switch Controls Gates on Multiple Floors
-- **State A (Switch OFF - Initial State):**
+- **State B (Switch ON - Active):**
   - **1F Gates (West, (17,8)):** [Status Unknown]
   - **1F Gates (East, (25,14)):** [Status Unknown]
   - **2F Gates (North, (10,5)):** [Status Unknown]
