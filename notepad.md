@@ -36,3 +36,9 @@
 *   **Test 2:** Stand at (3, 7) facing the boulder at (3, 6) and press 'A'.
 *   **Result 2:** Received 'Boulders may now be moved!' message. No boulder moved.
 *   **Conclusion 2:** Hypothesis 2 is FALSE. Pressing 'A' on a boulder seems to be a global switch, not a targeted push.
+*   **Hypothesis 3:** Pushing the left boulder at (3, 7) up will open a path to the Gym Leader, and this must be done without defeating the trainers at (3, 9) and (5, 5) first, as they become obstacles.
+*   **Test 3:** 
+    1. Navigate to (3, 8).
+    2. Face the boulder at (3, 7) and press 'A' to enable pushing.
+    3. Push the boulder Up to (3, 6).
+    4. Check if the path to Chuck is clear.
