@@ -40,7 +40,6 @@
 *   **Core Mechanic:** The puzzle seems to involve defeating all trainers to progress.
 *   **Hypothesis:** Stepping on specific tiles reveals hidden trainers. Stepping on (4, 13) reveals Black Belt Nob at (3, 9). The boulders must be triggered by a different mechanism, possibly after all trainers are defeated.
 *   **Confirmed Non-Battling NPC:** Black Belt Yoshi at (2, 12) will not battle.
-*   **Confirmed Non-Battling NPC:** Black Belt Yoshi at (2, 12) will not battle.
 *   **Alternative Hypothesis (for falsification):** There may be another trigger tile that removes the boulders without requiring STRENGTH, or a special interaction with the statues after all trainers are defeated.
 
 ## Map Corrections
