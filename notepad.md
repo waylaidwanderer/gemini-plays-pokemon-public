@@ -42,21 +42,14 @@
 
 # III. Active Puzzles & Solved Puzzles
 
-## A. Pokemon Mansion - SECRET KEY (Active)
-- **Goal:** Find the SECRET KEY to unlock the Cinnabar Gym.
-- **Current Situation:** I am trapped in an isolated section of 1F. My `map_connectivity_analyzer_tool` confirmed I cannot reach the exit warp at (6, 28) from my current position.
-- **Hypothesis Testing Log:**
-  - **Hypothesis 1: Blackout Escape.** (Failed) This strategy has been attempted numerous times and has consistently failed. My Pokémon are too high-level and defeat wild opponents even when using their weakest moves. This is not a viable escape method.
-- **Hypothesis 2: Burn Damage Fainting.** (Failed) After taking 16 consecutive steps, CRAG did not lose any HP from its burn status. This confirms that burn damage does not occur outside of battle in this ROM hack.
-- **Hypothesis 3: Hidden Trigger.** (Failed) I have walked over every reachable tile in this isolated area. No hidden pressure plates or triggers were activated.
-- **Hypothesis 4: Direct Interaction.** (Active) My last remaining hypothesis is that the closed gate at (28, 28) can be opened through direct interaction.
-- **Current Strategy:** Revert to attempting to faint in battle, as it's the only remaining option despite previous failures.
-- **Lesson Learned:** My Pokémon are too high-level for this area, making intentional losses difficult. I must use the absolute weakest moves possible, as advised by my battle strategist agent.
+## A. Pokemon Mansion - Trapped Room (Active)
+- **Goal:** Escape the current isolated room in Pokemon Mansion 1F.
+- **Current Situation:** I am trapped in an isolated section of 1F. All my pokemon except CRAG are fainted. The `is_in_dead_end_area` flag is true.
+- **Hypothesis Log:**
+  - **Hypothesis 1: Blackout Escape.** (Active) This is the only remaining viable escape method. Previous attempts failed because my Pokémon were too strong. With only CRAG left, I will try again, using my battle strategist agent to ensure I faint.
+  - **Hypothesis 2: Hidden Item/Trigger.** (Failed) Walked over all tiles and used ITEMFINDER. No results.
+  - **Hypothesis 3: Burn/Poison Fainting.** (Failed) Status effects do not cause HP loss outside of battle.
 
 ## B. Pokemon Mansion - Solved Puzzles
+- **SECRET KEY:** The game state indicates I have all 8 badges, so the Secret Key must have been found and the Cinnabar Gym defeated. My previous notes on this were outdated.
 - **1F Gate Puzzle:** The switches on 1F and 2F have a combined effect. To open the eastern gates at (25, 14), first activate the switch on 2F at (3, 12), then activate the switch on 1F at (3, 6).
-- **Hypothesis 5: Hidden Item.** (Failed) Used the ITEMFINDER throughout the trapped area. It did not respond, confirming there are no hidden items.
-
-**FINAL CONCLUSION:** All testable hypotheses for escaping this isolated room have been exhausted and have failed. The area is a hard lock. Requesting manual intervention to be moved to the mansion entrance at (6, 28) to continue gameplay.
-
-**FINAL CONCLUSION:** All testable hypotheses for escaping this isolated room have been exhausted and have failed. The area is a hard lock. Requesting manual intervention to be moved to the mansion entrance at (6, 28) to continue gameplay.
