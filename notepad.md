@@ -40,3 +40,4 @@
 
 ## IV. Tool Development & Maintenance
 *   **`boulder_puzzle_solver`:** This tool is currently broken. It returned a 'No path found' error on a fresh puzzle state, indicating a fundamental flaw in its logic. It does not account for the puzzle's hidden state-change mechanics. I will gather more data on the puzzle's rules through manual testing before attempting another fix.
+*   **Puzzle Reset Mechanic (New Insight):** The reset tile at (4, 8) does not remove the boulders from the gym once they have been triggered. It likely only resets their positions to the starting configuration. This means the boulders are a permanent part of the puzzle after stepping on the trigger at (8, 6).
