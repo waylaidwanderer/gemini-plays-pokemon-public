@@ -3,14 +3,18 @@
 ## I. Current Strategy & Hypotheses
 
 ### Cianwood Gym - Boulder Puzzle
-*   **Current State:** Puzzle needs to be reset. I am at (4, 9) and need to move to the reset tile at (4, 8).
-*   **Key Mechanics:**
-    *   The tile at (8, 6) triggers the puzzle.
-    *   The tile at (4, 8) resets the puzzle.
-    *   Defeated trainers become impassable obstacles.
-*   **CONFIRMED FAILED STRATEGY:** Defeating the trainers at (5, 5) and (3, 9) first makes the puzzle unsolvable. The defeated trainers block the paths required to push the boulders. This was a critical lesson in puzzle mechanics and trusting my `cianwood_gym_solver` tool.
-*   **NEW HYPOTHESIS (Push First):** The correct sequence must involve pushing at least one boulder *before* battling any trainers. 
-*   **Next Action:** Reset the puzzle by moving to (4, 8). Then, trigger the puzzle at (8, 6). After that, use the `cianwood_gym_solver` to determine the first PUSH action.
+*   **Confirmed Solution (from `boulder_puzzle_strategist`):**
+    *   Trigger puzzle at (8, 6).
+    *   The boulder to move starts at (5, 5).
+    *   **Path:**
+        1. Push Boulder East from (5, 5) to (6, 5)
+        2. Push Boulder East from (6, 5) to (7, 5)
+        3. Push Boulder East from (7, 5) to (8, 5)
+        4. Push Boulder East from (8, 5) to (9, 5)
+        5. Push Boulder South from (9, 5) to (9, 6)
+        6. Push Boulder South from (9, 6) to (9, 7)
+*   **Current State:** Puzzle is reset. I am at (5, 8).
+*   **Next Action:** Move to the trigger tile at (8, 6), then begin executing the confirmed solution.
 
 ## II. Game Systems & Mechanics
 
@@ -34,7 +38,7 @@
 ## III. Core Principles & Lessons Learned
 
 *   **Data Integrity is Paramount:** My internal state (notepad, markers) MUST be 100% accurate. I will not defer data correction. Assumptions must be rigorously tested before being recorded as fact. A trainer is only defeated after a battle victory is confirmed by the game.
-*   **Trust Tools Over Perception:** My custom tool output is based on the game's ground truth. If it says 'no path', I must trust it and investigate my own understanding, not assume the tool is broken.
+*   **Trust Verified Solutions Over Heuristics:** My custom solver tool used a flawed greedy algorithm. I must prioritize confirmed solutions (like from the `boulder_puzzle_strategist`) or systematic exploration over flawed, unverified tools.
 *   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 *   **Map Corrections:** Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
@@ -42,8 +46,7 @@
 ## IV. Past Crises & Resolutions
 
 ### Cianwood Gym Dialogue Loop & Hallucination Cascade (Turns ~39578-39656)
-*   **Situation:** I became stuck in a loop with the 'Boulders may now be moved!' dialogue box after making an invalid move. This led to severe, prolonged hallucinations about my position, actions, and game state. I failed to recognize that I was trying to push a boulder into a wall.
+*   **Situation:** I became stuck in a loop after making an invalid move, leading to severe, prolonged hallucinations. I failed to recognize that I was trying to push a boulder into a wall.
 *   **Root Cause:** A complete failure to use my purpose-built tools (`cianwood_gym_solver`, `pathfinder`). I relied on inefficient, error-prone manual puzzle-solving, which led to an invalid game state that I misinterpreted as a bug or dialogue loop. I also failed to trust my tool's output when it correctly identified the puzzle as unsolvable.
-*   **Resolution:** After dozens of failed turns, I finally followed a systematic, tool-driven approach: reset the puzzle, remove outdated markers, and follow the solver's step-by-step instructions.
 *   **Core Lesson 1:** I MUST trust and proactively use my tools. Manual intervention for complex, automatable tasks is a critical failure. The tool's analysis is more reliable than my perception, especially when I'm frustrated.
 *   **Core Lesson 2:** I must be more flexible and pivot away from a goal if I am not making progress. Getting fixated on a single, failing hypothesis is inefficient and leads to errors.
