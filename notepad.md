@@ -29,12 +29,18 @@
 ## III. Current Plans & Investigations
 
 ### Investigation: The Missing HM02 (Fly)
-*   **Anomaly:** After defeating Gym Leader Chuck, his wife gave me HM02 (Fly). However, the HM is not present in my bag's TM/HM pocket or any other pocket.
-*   **Hypothesis:** There might be a bug, a subsequent event caused its removal, or I misunderstood the event.
-*   **Plan:**
-    1.  Travel from Route 40 back to Cianwood City via Route 41.
-    2.  Enter the Cianwood Gym.
-    3.  Speak to Chuck's wife again to see if she offers the HM or provides new dialogue.
+*   **Anomaly:** After defeating Gym Leader Chuck, his wife gave me HM02 (Fly). However, after a thorough search of my bag, the HM is not present in my TM/HM pocket or any other pocket.
+*   **Hypotheses:**
+    1.  **Misunderstood Event:** I may have misinterpreted the dialogue, and she did not actually give me the HM. It could be a reward I receive later.
+    2.  **Temporary Item:** The HM might have been a temporary key item that was removed after a specific trigger I'm unaware of.
+    3.  **Game Bug:** It's possible a bug caused the item to not be added to my inventory correctly.
+*   **Verification Plan:**
+    1.  Travel from my current location on Route 40 back to Cianwood City via Route 41.
+    2.  Upon arrival in Cianwood City, enter the Cianwood Gym.
+    3.  Speak to Chuck's wife again. Her dialogue will be the deciding factor:
+        *   If she re-offers the HM, it confirms a bug or that I failed to receive it correctly the first time.
+        *   If she has new dialogue referencing the HM, it may provide a clue as to where it went or what I need to do next.
+        *   If her dialogue is unchanged from before I beat Chuck, it suggests the HM is obtained through another method entirely and my memory of the event is flawed.
 
 ### Route Plan: Route 40 -> Cianwood City
 1.  From current position (6, 11) on Route 40, enter the water at (6, 12).
