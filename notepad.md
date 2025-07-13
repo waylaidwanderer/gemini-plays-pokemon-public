@@ -29,12 +29,12 @@
 ## III. Strategic Plans & Hypotheses
 
 ### Cianwood Gym Puzzle
-*   **Core Mechanic:** A sequence of actions is required to reach the Gym Leader. The puzzle state resets upon leaving the gym.
-*   **Failed Hypothesis 1:** Defeating all trainers in the gym will clear the path. (Tested on turns 38864, 38868, 38870 - Lao and Yoshi only give dialogue and do not battle).
-*   **Failed Hypothesis 2:** Interacting with the left statue at (3, 15) after re-defeating Nob would solve the puzzle. (Tested on turn 38871 - only showed location banner).
-*   **Current Hypothesis:** Interacting with the *right* statue at (6, 15) is the correct trigger.
-*   **Test Plan:** Interact with the statue at (6, 15).
-*   **Puzzle State:** Black Belt Nob has been re-defeated. Black Belts Lao and Yoshi are present but non-combative.
+*   **Core Mechanic:** The gym's state changes based on player movement on specific trigger tiles.
+*   **Trigger Tile:** Stepping on the tile at (8, 6) causes the Gym Leader (Chuck) and three boulders to appear, blocking the central path. The side trainers also disappear.
+*   **Reset Mechanism:** Stepping on the central walkway (verified on tile (4, 8)) after the puzzle is triggered causes the boulders and Chuck to disappear, resetting the puzzle to its initial state.
+*   **Failed Hypothesis 1:** Pushing the boulders with STRENGTH from below is the solution. (Tested on turn 38920 - stepping on the required tile (4, 8) resets the puzzle).
+*   **Current Hypothesis:** After triggering the puzzle at (8, 6), the solution involves interacting with an object or NPC on the side paths, likely Black Belt Nob at (3, 9).
+*   **Test Plan:** 1. Step on (8, 6). 2. Navigate to (3, 9) without touching the central reset path. 3. Interact with Black Belt Nob.
 
 ### Alternative Hypotheses (Falsification)
 *   **Cianwood Gym:** The solution might not be a single interaction, but a sequence of movements. After testing the right statue, if it fails, I will test specific movement patterns on the side paths to see if that triggers a change.
