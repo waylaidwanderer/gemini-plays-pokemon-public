@@ -17,7 +17,7 @@
     *   `CUT_TREE` (Requires HM01 Cut).
     *   `BREAKABLE_ROCK` (Requires Rock Smash).
     *   `WATER` (Requires HM03 Surf, activated from party menu. Landing from SURF requires an adjacent, unobstructed FLOOR tile).
-    *   `WARP_CARPET_DOWN` / `Warp (FLOOR)` (Requires pressing 'Down' while standing on tile to activate).
+    *   Directional Warps (Requires pressing in the indicated direction to activate): WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT.
 *   **Special Requirement (Hypothesized):** `WHIRLPOOL` (Requires HM).
 
 ### Tiles Under Investigation (High Priority)
