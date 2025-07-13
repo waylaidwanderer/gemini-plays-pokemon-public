@@ -59,23 +59,23 @@
 - **Hypothesis 2 (Failed):** A hidden pitfall trap is on the floor.
   - **Test:** Walked over every single floor tile.
   - **Conclusion:** No pitfalls found.
-- **Hypothesis 3 (Failed - Hallucination):** Escape is possible by blacking out.
-  - **Test:** Intentionally tried to lose multiple wild battles.
-  - **Conclusion:** Fainting does not warp the player out of the room. This was a cognitive loop.
-- **Hypothesis 4 (Failed):** A secret passage exists in the southern wall.
+- **Hypothesis 3 (Failed):** A secret passage exists in the southern wall.
   - **Test:** Systematically attempted to walk south into every tile of the southern wall from x=2 to x=6.
-- **Hypothesis 5 (Failed):** The southern wall is a one-way ledge.
+  - **Conclusion:** The wall is solid. All simple hypotheses for escape have been exhausted.
+- **Hypothesis 4 (Failed):** The southern wall is a one-way ledge.
   - **Test:** Attempted to walk south into the impassable wall at (2, 18).
   - **Conclusion:** The wall is impassable, not a ledge. The 'jumping off' hint may apply elsewhere or be metaphorical.
-- **Hypothesis 6 (Failed):** The corridor is an intentional trap, requiring a field move like Dig to escape.
+- **Hypothesis 5 (Failed):** The corridor is an intentional trap, requiring a field move like Dig to escape.
   - **Test:** Checked inventory for TM28 (Dig). It is not present.
   - **Conclusion:** This escape method is not currently possible.
-- **Hypothesis 7 (Failed):** There is a hidden switch on one of the floor tiles in the corridor.
+- **Hypothesis 6 (Failed):** There is a hidden switch on one of the floor tiles in the corridor.
   - **Test:** Stood on each tile from (2, 17) to (6, 17) and pressed the A button.
   - **Conclusion:** No switches found.
-- **Hypothesis 8 (Failed):** A secret passage exists in the eastern or western walls.
+- **Hypothesis 7 (Failed):** A secret passage exists in the eastern or western walls.
   - **Test:** Interacted with the eastern wall at (7, 17) and the western wall at (1, 17).
   - **Conclusion:** No switches or passages found.
-- **Hypothesis 9 (Failed):** The 'black out' escape mechanic failed previously due to an unknown condition, but re-testing it is necessary as game states can change.
-  - **Test:** Found a wild Pokémon and deliberately lost the battle to trigger a 'black out'.
-  - **Conclusion:** Accidentally won the battle. The test is invalid and needs to be repeated.
+- **Hypothesis 8 (Failed):** Accidentally won the battle while trying to faint.
+  - **Test:** Found a wild Raticate and deliberately tried to lose the battle to trigger a 'black out'.
+  - **Conclusion:** The test is invalid and needs to be repeated.
+- **Hypothesis 9 (Active):** The 'black out' escape mechanic failed previously due to an unknown condition (accidentally winning), but re-testing it is necessary as game states can change.
+  - **Test Plan:** Find a wild Pokémon and deliberately lose the battle to trigger a 'black out'.
