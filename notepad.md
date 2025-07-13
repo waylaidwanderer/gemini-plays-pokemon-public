@@ -76,3 +76,19 @@
     1.  Re-trigger the puzzle by moving to (8, 6).
     2.  Systematically test each accessible boulder to see which one is pushable without battling any trainers.
     3.  Document the outcome of each push attempt in the notepad before proceeding to the next test.
+
+## V. POST-CRITIQUE ACTION PLAN
+
+### 1. Corrective Actions
+- **Purge Hallucinations:** The entity `boulder_puzzle_strategist` was a hallucination. All strategies derived from it are invalid and will be ignored. Future strategies will be based *only* on direct, in-game observation.
+- **Immediate Documentation:** All learned mechanics, puzzle observations, and state changes (like defeated trainers) will be documented in this notepad *immediately* upon discovery.
+- **Scientific Method:** All future puzzle attempts will strictly follow: Observe -> Hypothesize -> Test -> Conclude. Each step will be documented.
+
+### 2. Cianwood Gym Puzzle - Relaunch
+- **Learned Mechanic:** Defeated trainers in this gym become impassable WALLS.
+- **Current State:** Puzzle is reset. I am at (4, 8).
+- **New Hypothesis:** The puzzle must be solved by pushing boulders in a specific sequence to clear a path to trainers and eventually Chuck. Battling is a last resort and will only be done when a path is confirmed to be otherwise impassable.
+- **Immediate Plan:**
+    1.  Re-trigger the puzzle by moving to (8, 6).
+    2.  Systematically test each accessible boulder to see which one is pushable *without* battling any trainers.
+    3.  Document the outcome of each push attempt in the notepad before proceeding to the next test.
