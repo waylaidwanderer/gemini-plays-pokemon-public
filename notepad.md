@@ -47,3 +47,4 @@
 2.  Surf south to the map transition at (8, 35) which leads to Route 41.
 3.  On Route 41, surf west and south to the map transition which leads to Cianwood City.
 4.  Reach the shore in Cianwood City.
+*   `WARP_CARPET_DOWN`: Seen at (9, 1) and (10, 1). Hypothesis: Functions like a one-way warp when stepped on, possibly only when moving down. Must be tested.
