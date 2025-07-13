@@ -37,10 +37,12 @@
 ## III. Strategic Plans & Hypotheses
 
 ### Cianwood Gym Puzzle
-*   **Confirmed Solution:** The puzzle is solved in three steps:
-    1. Step on the trigger tile at (8, 6). This causes the Gym Leader and boulders to appear.
-    2. Exit and immediately re-enter the gym. This removes the boulders but leaves the Gym Leader.
-    3. Navigate to the Gym Leader using the side paths. The central path is a trap that makes the boulders reappear.
+*   **Hypothesis 1 (Side Paths - FAILED):** The initial hypothesis was that after resetting the boulders, a side path could be used to reach the Gym Leader. This was proven false by the `path_debugger` agent, which confirmed the northern and southern areas are disconnected.
+*   **Hypothesis 2 (Central Path Trap - UNDER INVESTIGATION):** The central path is the only route, but it contains a trap that respawns the boulders. The exact trigger tile(s) for this trap are unknown. 
+*   **Current Plan:**
+    1. Step on the trigger tile at (8, 6).
+    2. Exit and re-enter the gym to clear the boulders.
+    3. Systematically test each tile on the central path, moving one step at a time, to identify the exact location of the trap.
 
 ## IV. Anomalies & Unexplained Events
 
