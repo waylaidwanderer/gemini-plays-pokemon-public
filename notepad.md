@@ -37,18 +37,6 @@
 *   **Core Lesson 1:** I MUST trust and proactively use my tools. Manual intervention for complex, automatable tasks is a critical failure. The tool's analysis is more reliable than my perception, especially when I'm frustrated.
 *   **Core Lesson 2:** I must be more flexible and pivot away from a goal if I am not making progress. Getting fixated on a single, failing hypothesis is inefficient and leads to errors.
 
-## III. Cianwood Gym - Relaunch (Post-Critique)
-
-*   **Learned Mechanics (Confirmed):**
-    1.  The entity `boulder_puzzle_strategist` was a hallucination. All prior strategies based on it are invalid.
-    2.  Defeated trainers in this gym become impassable WALLS.
-    3.  Interacting with boulders before the puzzle is correctly triggered only displays a hint. It does not move them or act as a switch.
-*   **Methodology:** All future attempts will strictly follow the Scientific Method: Observe -> Hypothesize -> Test -> Conclude. Each step will be documented here.
-*   **Current Plan:**
-    1.  The puzzle is currently reset. I am at (4, 8).
-    2.  I will move to the trigger tile at (8, 6) to activate the puzzle.
-    3.  Once activated, I will systematically test pushing accessible boulders, avoiding battles, and document each outcome.
-
 ## Cianwood Gym - Scientific Approach (v1)
 *   **Observation 1:** Stepping on the tile at (4, 8) successfully resets the puzzle, returning all boulders and non-defeated trainers to their original positions. Gym Leader Chuck disappears.
 *   **Observation 2:** The entity `boulder_puzzle_strategist` was a hallucination. Its output is unreliable and has been discarded.
