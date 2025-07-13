@@ -2,21 +2,14 @@
 
 ## I. Current Strategy & Hypotheses
 
-### Primary Objective: Find the Secret Medicine
-*   **Problem:** The Ampharos in the Olivine Lighthouse is sick, blocking access to the upper floors. I need to find a 'SECRETMEDICINE' to cure it.
-*   **Current Hypothesis:** The medicine is somewhere in Cianwood City. My previous assumption that it was a reward for beating the gym was likely incorrect.
-*   **Plan:** Systematically re-explore every building and talk to every NPC in Cianwood City. Pay close attention to any new dialogue or potential key items.
-    *   ~~Cianwood Pharmacy~~: Visited. The pharmacist runs a normal shop and does not have the medicine.
-    *   ~~Mania's House~~: Visited. Received a Shuckle.
-    *   **Next:** Talk to Pokefan F at (11, 46).
+### Cianwood Gym - Boulder Puzzle Under Investigation
+*   **Problem:** The path to Gym Leader Chuck is blocked by a complex boulder puzzle that involves trainers appearing and disappearing.
+*   **Current Hypothesis:** The puzzle is not a simple path-clearing exercise. I suspect a specific sequence of pushing boulders triggers changes in the gym state (e.g., making trainers move or disappear). My next action is to test this by isolating variables.
+*   **Test Plan 1:** Push ONLY the leftmost boulder at (3, 6) up to (3, 5). Observe the results. If this fails, I will reset and try pushing a different single boulder.
 
-### Cianwood Gym - Puzzle Solved & Documented
-*   **Core Mechanic:** The gym's state changes based on player movement on specific trigger tiles. The central path contains boulders that block the way.
-*   **Solution (Revised):**
-    1.  **Trigger:** Step on the tile at (8, 6) on the eastern path. This causes the boulders and the Gym Leader to appear.
-    2.  **Navigate Carefully:** To reach the boulders, a path must be taken that avoids the reset tile at (4, 8).
-    3.  **Strength:** Use HM Strength to push the three central boulders at (3,6), (4,6), and (5,6) up one tile each.
-*   **Trap:** The tile at (4, 8) is a reset switch. Stepping on it will return the boulders to their original positions.
+### Primary Objective: Find the Secret Medicine
+*   **Problem:** The Ampharos in the Olivine Lighthouse is sick, blocking access. I need a 'SECRETMEDICINE' to cure it.
+*   **Hypothesis:** The medicine is somewhere in Cianwood City. I will resume this search after defeating the Gym Leader.
 
 ## II. Game Systems & Mechanics
 
@@ -40,9 +33,10 @@
 ## III. Core Principles & Lessons Learned
 
 *   **Data Integrity is Paramount:** My internal state (notepad, markers) MUST be 100% accurate. I will not defer data correction. Assumptions must be rigorously tested before being recorded as fact. A trainer is only defeated after a battle victory is confirmed by the game.
-*   **Trust Tools Over Perception:** My `pathfinder` tool's output is based on the game's ground truth. If it says 'no path', I must trust it and investigate my own understanding, not assume the tool is broken.
+*   **Trust Tools Over Perception:** My custom tool output is based on the game's ground truth. If it says 'no path', I must trust it and investigate my own understanding, not assume the tool is broken.
 *   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 *   **Map Corrections:** Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
+
 ## IV. Tool Development & Maintenance
-*   **`boulder_puzzle_solver`:** Implemented a new A* solver to handle complex boulder puzzles.
+*   **`boulder_puzzle_solver`:** This tool is currently broken. It returned a 'No path found' error on a fresh puzzle state, indicating a fundamental flaw in its logic. It does not account for the puzzle's hidden state-change mechanics. I will gather more data on the puzzle's rules through manual testing before attempting another fix.
