@@ -37,10 +37,11 @@
 ## III. Strategic Plans & Hypotheses
 
 ### Cianwood Gym Puzzle
-*   **Core Mechanic:** The puzzle cannot be solved by avoiding the central path. The intended solution is to deliberately trigger the trap by walking up the central path, which makes three boulders appear.
-*   **Trap Trigger:** Stepping on tile (4, 12) or (4, 13) causes the boulders to appear, blocking the path forward.
-*   **Solution:** After the boulders appear, the puzzle must be solved by pushing them with STRENGTH to clear a path to the remaining trainers and the Gym Leader. The correct pushing sequence is still under investigation.
+*   **Core Mechanic:** The puzzle requires using STRENGTH on boulders.
+*   **Hypothesis:** The intended solution is to deliberately trigger a trap by walking up the central path, which makes three boulders appear. These boulders must then be pushed with STRENGTH to clear a path to the Gym Leader.
+*   **Trap Trigger:** Stepping on tile (4, 13) causes the boulders to appear.
 *   **Confirmed Non-Battling NPC:** Black Belt Yoshi at (2, 12) will not battle.
+*   **Alternative Hypothesis (for falsification):** There may be another trigger tile that removes the boulders without requiring STRENGTH, or a special interaction with the statues after all trainers are defeated.
 
 ## Map Corrections
 *   Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
