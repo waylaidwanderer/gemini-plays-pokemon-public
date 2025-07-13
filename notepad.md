@@ -70,15 +70,12 @@
 *   **Outcome 4:** Movement was blocked by the game.
 *   **Conclusion 4:** Hypothesis 4 is incorrect. The gate is a solid obstacle. I am currently trapped in this corridor.
 
-*   **Agent Hypothesis 1:** The gate at (27, 28) has a hidden switch.
-*   **Test 1:** Interact with the gate.
-*   **Outcome 1:** Interacting with the gate had no effect.
-*   **Conclusion 1:** Hypothesis 1 is incorrect. The gate does not have a hidden switch.
-*   **Agent Hypothesis 2:** Use an Escape Rope.
-*   **Test 2:** Check inventory.
-*   **Outcome 2:** No Escape Rope in inventory.
-*   **Conclusion 2:** Hypothesis 2 cannot be tested.
-*   **Agent Hypothesis 3:** The entry wall at (27, 26) has a hidden mechanism.
-*   **Test 3:** Move to (27, 26) and interact with the wall.
+*   **Hypothesis 5 (Escape by Blackout):** I can escape this corridor by inducing a blackout (losing a wild battle).
+*   **Test 5:** Intentionally lose a wild battle against a Lv34 Rattata with my Lv49 Golem.
+*   **Outcome 5:** The Golem one-shotted the Rattata. The blackout strategy failed.
+*   **Conclusion 5:** The blackout strategy is unreliable as my active Pokémon is too strong. I must find another way out.
+
+*   **Hypothesis 6 (Post-Battle State Change):** The one-way nature of the wall at (27, 26) might reset or change after a battle, allowing me to pass back through it. This is based on my "Combat Confirmation Bias" lesson learned.
+*   **Test 6:** Attempt to walk north from (27, 27) onto the wall tile at (27, 26).
 - **Strategic Flexibility:** I must recognize when a strategy is failing (e.g., the blackout attempt failing due to RNG) and be willing to pivot or re-evaluate instead of getting stuck in a loop. I persisted with the blackout plan for too long without considering alternatives after the first failure.
 - **Combat Confirmation Bias:** When a test seems to confirm a hypothesis (e.g., the one-way wall), I must actively try to *disprove* it under different conditions (e.g., after a battle) instead of accepting the initial result as absolute truth.
