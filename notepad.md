@@ -42,3 +42,4 @@
     3. Push the boulder Up to (3, 6).
     4. Check if the path to Chuck is clear.
 *   **Special Requirement (Hypothesized):** `WHIRLPOOL` (Requires HM).
+*   `STATUE` (Found in Cianwood Gym): Untested.
