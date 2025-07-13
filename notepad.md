@@ -96,7 +96,8 @@
 *   **Test Plan (Phase 1 - Trigger):**
     1.  Move from the current position (4, 8) to the trigger tile at (8, 6).
     2.  Observe the resulting changes to the gym layout.
+*   **Observation 3 (CRITICAL):** Interacting with the boulder at (3, 6) after triggering the puzzle at (8, 6) does NOT push it. Instead, it acts as a one-time switch, displaying the message "Boulders may now be moved!".
+*   **New Hypothesis:** Now that the switch has been activated, the other boulders on the map are pushable.
 *   **Test Plan (Phase 2 - Boulder Pushing):**
-    1.  After triggering, systematically attempt to push each accessible boulder from a non-trainer-occupied tile.
-    2.  Prioritize boulders that can be pushed without getting trapped.
-    3.  Document each push attempt and its outcome.
+    1.  Attempt to push the boulder at (3, 6) again to see if it moves now.
+    2.  If it doesn't, systematically test other accessible boulders.
