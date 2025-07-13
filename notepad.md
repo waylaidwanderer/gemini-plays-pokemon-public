@@ -47,3 +47,6 @@
 
 # IV. Active Puzzle-Solving & Hypothesis Testing
 *This section is for actively working through complex puzzles. I log observations, form a single testable hypothesis, record the test, and its outcome.*
+
+# V. Tool Usage & Limitations
+- **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points.
