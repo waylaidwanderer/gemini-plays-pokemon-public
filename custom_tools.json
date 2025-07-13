@@ -1,22 +1,4 @@
 {
-  "gym_state_tester": {
-    "description": "Executes a sequence of button presses to test for state changes in a dynamic environment like a gym. This tool does not return data; its purpose is to trigger in-game events that must be observed on the following turn.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_sequence": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "move_sequence"
-      ]
-    },
-    "python_script": "print(f\"Executing gym state test. Sequence: {input_data['move_sequence']}. Observe the game state on the next turn for any changes.\")"
-  },
   "object_finder": {
     "description": "Finds a specific map object by its ID and returns its coordinates.",
     "input_schema": {
@@ -114,5 +96,24 @@
     "description": "Scans the current map XML and returns the coordinates of all warp tiles that do not have a map marker.",
     "input_schema": {},
     "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nunmarked_warps = []\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        if tile_elem.attrib.get('is-warp') == 'true':\n            has_marker = False\n            for child in tile_elem:\n                if child.tag == 'Marker':\n                    has_marker = True\n                    break\n            if not has_marker:\n                x = tile_elem.attrib['id']\n                y = row_elem.attrib['id']\n                unmarked_warps.append({'x': int(x), 'y': int(y)})\nprint(json.dumps({'unmarked_warps': unmarked_warps}))"
+  },
+  "boulder_puzzle_solver": {
+    "description": "Calculates a path to solve a boulder puzzle. (Currently under development)",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "goal_x": {
+          "type": "string"
+        },
+        "goal_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "goal_x",
+        "goal_y"
+      ]
+    },
+    "python_script": "import json\nprint(json.dumps({'error': 'Solver not yet implemented.'}))"
   }
 }
