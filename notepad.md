@@ -27,7 +27,6 @@
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 
 ## III. Future Agent & Tool Ideas
-*   `puzzle_strategist` agent: Could take the output of `boulder_scanner` and the map layout to devise a multi-step solution for complex boulder puzzles.
 
 ## Cianwood Gym Puzzle Log
 *   **Hypothesis 1:** Interacting with the boulder at (5, 6) is a global switch that makes all other boulders pushable by walking into them.
