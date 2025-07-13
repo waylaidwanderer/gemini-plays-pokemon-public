@@ -88,3 +88,12 @@
     1.  The puzzle is currently reset. I am at (4, 8).
     2.  I will move to the trigger tile at (8, 6) to activate the puzzle.
     3.  Once activated, I will systematically test pushing accessible boulders, avoiding battles, and document each outcome.
+
+## Cianwood Gym - Test Phase 1
+*   **Observation:** Puzzle is active. Boulders and trainers are present. Path to Chuck is blocked.
+*   **Hypothesis:** The boulder at (4, 4) is the first movable piece. It can be pushed right into the empty space at (5, 4).
+*   **Test:**
+    1.  Move to position (3, 4).
+    2.  Face right.
+    3.  Press 'A' to push the boulder at (4, 4).
+*   **Expected Outcome:** Boulder moves to (5, 4), clearing a new path or enabling the next move.
