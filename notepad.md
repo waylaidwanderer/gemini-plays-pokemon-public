@@ -4,14 +4,16 @@
 
 ### Cianwood Gym - Boulder Puzzle Under Investigation
 *   **Core Insight:** The reset tile at (4, 8) brings back ALL puzzle elements, including the boulders AND the trainers that appear with them. The trainer at (5, 5) is not permanently defeated. Exiting and re-entering the gym also seems to reset the boulders if they have been moved from their initial triggered position.
-*   **Current Hypothesis (The "Trainer First" Strategy - Attempt #5):** The puzzle requires defeating the trainer at (5, 5) *before* clearing the final path. This requires a specific sequence of boulder pushes.
+*   **FAILED HYPOTHESIS (The "Trainer First" Strategy):** The puzzle requires defeating the trainer at (5, 5) *before* clearing the final path. 
+    *   **Outcome:** FAILED. After pushing the central boulder and navigating to (5, 6), movement to (5, 5) to initiate the battle was blocked. This indicates re-battling the trainer is not the intended solution.
+*   **Current Hypothesis (The "Bypass" Strategy):** It's possible to solve the puzzle without fighting the trainer at (5,5) by pushing the boulders in a specific order.
     *   **Plan:**
-        1.  Ensure puzzle is triggered (boulders and trainers are present).
-        2.  From below the central boulder, push the boulder at (4, 7) up to (4, 6).
-        3.  Move to (4, 5) to battle and defeat the trainer at (5, 5).
-        4.  After the trainer is defeated, push the remaining boulders at (3, 7) and (5, 7) upwards to clear the path.
-        5.  Walk to the Gym Leader.
-    *   **CRITICAL:** Do NOT walk up the central path. The tile at (4, 8) is a trap that resets the puzzle. Use the side paths.
+        1. Reset the puzzle via the tile at (4, 8).
+        2. Re-trigger the puzzle at (8, 6).
+        3. Push the boulder at (3,7) up first.
+        4. Push the boulder at (5,7) up next.
+        5. Finally, push the middle boulder at (4,7) up.
+        6. This sequence might open a path to the leader while avoiding the trainer.
 *   **Alternative Hypothesis (The "Bypass" Strategy):** It may be possible to solve the puzzle without fighting the trainer at (5,5).
     *   **Plan:**
         1.  Push the boulder at (3,7) up first.
