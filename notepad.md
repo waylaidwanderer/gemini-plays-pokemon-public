@@ -2,10 +2,11 @@
 
 ## I. Current Strategy & Hypotheses
 
-### Cianwood Gym - Boulder Puzzle Under Investigation
-*   **Problem:** The path to Gym Leader Chuck is blocked by a complex boulder puzzle that involves trainers appearing and disappearing.
-*   **Current Hypothesis:** The puzzle is not a simple path-clearing exercise. I suspect a specific sequence of pushing boulders triggers changes in the gym state (e.g., making trainers move or disappear). My next action is to test this by isolating variables.
-*   **Test Plan 1:** Push ONLY the leftmost boulder at (3, 6) up to (3, 5). Observe the results. If this fails, I will reset and try pushing a different single boulder.
+### Cianwood Gym - Boulder Puzzle SOLVED
+*   **Solution:** The puzzle is solved by a specific sequence of actions that does not involve pushing the boulders.
+    1.  Step on the trigger tile at (8, 6) to make the boulders and the final trainers appear.
+    2.  Immediately exit the gym.
+    3.  Re-enter the gym. The boulders will be gone, clearing the path to the Gym Leader.
 
 ### Primary Objective: Find the Secret Medicine
 *   **Problem:** The Ampharos in the Olivine Lighthouse is sick, blocking access. I need a 'SECRETMEDICINE' to cure it.
