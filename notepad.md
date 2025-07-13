@@ -14,12 +14,6 @@
         4. Push the boulder at (5,7) up next.
         5. Finally, push the middle boulder at (4,7) up.
         6. This sequence might open a path to the leader while avoiding the trainer.
-*   **Alternative Hypothesis (The "Bypass" Strategy):** It may be possible to solve the puzzle without fighting the trainer at (5,5).
-    *   **Plan:**
-        1.  Push the boulder at (3,7) up first.
-        2.  Push the boulder at (5,7) up next.
-        3.  Finally, push the middle boulder at (4,7) up.
-        4.  This sequence might open a path to the leader while avoiding the trainer. This needs to be tested if the "Trainer First" strategy fails.
 
 ## II. Game Systems & Mechanics
 
@@ -47,7 +41,3 @@
 *   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 *   **Map Corrections:** Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
-
-## IV. Tool Development & Maintenance
-*   **Puzzle Reset Mechanic (New Insight):** The reset tile at (4, 8) does not remove the boulders from the gym once they have been triggered. It likely only resets their positions to the starting configuration. This means the boulders are a permanent part of the puzzle after stepping on the trigger at (8, 6).
-*   **Future Agent Idea:** A `boulder_puzzle_strategist` agent could be created to help reason through the logic of this puzzle, considering the state changes and documented hypotheses.
