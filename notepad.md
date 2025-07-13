@@ -49,3 +49,5 @@
 *   `STATUE` (Found in Cianwood Gym): Untested.
 *   **Hypothesis 4 Failure:** Pathfinder could not find a path to the Black Belt at (5, 5), confirming the platforms are separate. This hypothesis is currently untestable.
 *   **Hypothesis 5:** The statues at (3, 15) or (6, 15) are switches that alter the gym layout.
+*   **Hypothesis 5 Failure:** Interacting with the statue at (6, 15) had no effect. The statue is not a switch.
+*   **Hypothesis 6:** The statue at (3, 15) is the switch that alters the gym layout.
