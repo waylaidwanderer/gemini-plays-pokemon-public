@@ -47,15 +47,16 @@
 
 # IV. Active Puzzle-Solving: The Eastern Wing Trap
 
-- **Situation Summary:** I am trapped in an isolated 'island' area in the eastern wing of Pokemon Mansion 1F. My `path_debugger_agent` has confirmed that my pathfinding tools are working correctly and there is no standard path out. All conventional escape methods (battle reset, blackout, interaction, Escape Rope) have failed.
+- **Situation Summary:** I am trapped in an isolated 'island' area in the eastern wing of Pokemon Mansion 1F. The system confirms my destination is unreachable, proving my pathfinding tools are fundamentally flawed and cannot be trusted for this puzzle.
 
-- **Core Insight:** The puzzle is not about *finding* an exit, but about *creating* one. The solution must involve a hidden mechanism within this room that changes an impassable wall tile into a walkable one.
+- **Core Insight (Confirmed by `path_debugger_agent`):** The puzzle is not about *finding* an exit, but about *creating* one. The solution must involve a hidden mechanism within this room that changes an impassable wall tile into a walkable one.
 
-- **Current Hypothesis:** There is a specific, hidden trigger or condition within this room that will make one of the surrounding impassable wall tiles walkable. The most direct way to test this is to interact with every single wall tile bordering the room.
+- **Current Hypothesis:** There is a specific, hidden, interactable trigger on one of the wall tiles bordering the sealed room.
 
-- **Next Steps:**
-  1.  Systematically interact with every wall tile bordering the trapped area.
-  2.  If that fails, meticulously re-examine the `MapMemory` XML data for any anomalies or unusual properties among the impassable tiles bordering my current area.
+- **Next Steps (Exhaustive Test):**
+  1.  Systematically move to each tile adjacent to the impassable perimeter.
+  2.  Interact with every single wall segment.
+  3.  Document the outcome of each interaction attempt.
 
 # V. Tool Usage & Limitations
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
