@@ -30,7 +30,7 @@
 
 ### Cianwood Gym Puzzle
 *   **Core Mechanic:** The gym's state changes based on player movement on specific trigger tiles. The left and right platforms are physically separate.
-*   **Puzzle Trigger Tile:** Stepping on the tile at (8, 6) on the right platform causes the Gym Leader (Chuck), several boulders, and trainers to appear, blocking the central path.
+*   **Puzzle Trigger Tile:** Stepping on the tiles at (8, 6) or (4, 16) causes the Gym Leader (Chuck), several boulders, and trainers to appear, blocking the central path.
 *   **Puzzle Reset Mechanism:** Stepping on the central walkway (verified on tile (4, 8)) after the puzzle is triggered causes the boulders and Chuck to disappear, resetting the puzzle to its initial state.
 *   **Non-Battling NPCs:** Black Belt Yoshi (left) and Black Belt Lao (right) do not battle and seem to be part of the puzzle's state rather than obstacles.
 *   **Failed Hypothesis 1:** Pushing the boulders with STRENGTH is the solution. (Invalidated - stepping on the required tile to push them resets the puzzle).
