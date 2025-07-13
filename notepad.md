@@ -49,6 +49,4 @@
 *   **CONFIRMED HYPOTHESIS (The "Chain Reaction" Strategy):** Defeating Black Belt Nob unlocked the ability to push the rightmost boulder at (5, 7).
 *   **CONFIRMED HYPOTHESIS (Chain Reaction Pt. 2):** Pushing the boulder at (5, 7) unlocked the ability to push the leftmost boulder at (3, 6).
 *   **CONFIRMED HYPOTHESIS (Chain Reaction Pt. 3):** Pushing the two side boulders unlocked the ability to battle the trainer at (5, 5).
-*   **Current Hypothesis:** Defeating the trainer at (5, 5) has now unlocked the final, central boulder at (4, 4).
-*   **FAILED HYPOTHESIS (Chain Reaction Pt. 4):** Defeating the trainer at (5, 5) unlocks the final, central boulder at (4, 4).
-    *   **Outcome:** FAILED. Attempting to push the boulder from (4, 5) was blocked.
+*   **Current Hypothesis (The Final Push):** The previous attempt to push the central boulder at (4,4) may have failed due to an execution error. The next logical step is to re-attempt pushing it from (4,5). If this fails, the puzzle state must be reset by stepping on the tile at (4,8) to explore alternative solution sequences.
