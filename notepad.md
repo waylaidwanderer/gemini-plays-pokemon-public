@@ -45,7 +45,7 @@
 - **Conclusion:** This was a significant failure of observation caused by tunnel vision and confirmation bias. The puzzle was not to escape, but to simply look up and see the open path.
 
 # V. Core Principles & Lessons Learned
-- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. I failed at this by not immediately fixing my `pathfinder` tool and notepad.
+- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. Always trust tool output over visual inspection, as tools read the ground-truth map data. A systematic, evidence-based debugging process is essential.
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it.
 - **Confirmation Bias is Dangerous:** My `pathfinder` tool wasn't broken, my understanding of the map was. I assumed the tool was failing because it didn't match my visual interpretation, leading to wasted time. **Lesson:** Trust the tool's output over visual inspection, as it reads the ground-truth map data. A systematic, evidence-based debugging process (using diagnostic tools and agents) is essential.
 
