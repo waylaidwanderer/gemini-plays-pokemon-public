@@ -1,9 +1,14 @@
 # I. Core Principles & Lessons Learned
-- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. 
+- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure.
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it.
-- **Confirmation Bias is Dangerous:** My `pathfinder` tool wasn't broken; my understanding of the map was. I assumed the tool was failing because it didn't match my visual interpretation. **Lesson:** Trust the tool's output over visual inspection, as it reads the ground-truth map data.
+- **Tool Trust is Mandatory:** My `pathfinder` tool wasn't broken; my understanding of the map was. I assumed the tool was failing because it didn't match my visual interpretation. **Lesson:** Trust the tool's output over visual inspection, as it reads the ground-truth map data.
+- **Disprove Hypotheses:** I must actively try to prove my own assumptions wrong, not just seek confirmation. When I thought my pathfinder was broken, I should have tested the hypothesis "What if the tool is right and I'm wrong?" This would have revealed I was trapped much sooner.
 
-# II. Game Mechanics & Battle Intel
+# II. Future Development Ideas
+- **Faint Strategist Agent:** A potential new agent could specialize in planning the most efficient way to black out. It would analyze the party, the opponent, and available moves to recommend the fastest sequence of faints.
+- **Map Connectivity Tool:** A computational tool (not an agent) to analyze the map XML and check for connectivity between two points, accounting for impassable tiles. This would be useful for definitively confirming if an area is isolated.
+
+# III. Game Mechanics & Battle Intel
 
 ## A. Tile Mechanics & Traversal Rules
 - **Ground/Impassable:** `ground` tiles are walkable, `impassable` tiles are solid walls. All objects (NPCs, items, signs) function as impassable walls, except for Pikachu.
@@ -38,7 +43,7 @@
 - **FLY in battle:** The move FLY can be used to defeat a wild Pokémon and end the battle, even when indoors. This acts as an escape method.
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
 
-# III. Active Puzzles & Solved Puzzles
+# IV. Active Puzzles & Solved Puzzles
 
 ## A. Pokemon Mansion - SECRET KEY (Active)
 - **Goal:** Find the SECRET KEY to unlock the Cinnabar Gym.
@@ -46,7 +51,3 @@
 
 ## B. Pokemon Mansion - Solved Puzzles
 - **1F Gate Puzzle:** The switches on 1F and 2F have a combined effect. To open the eastern gates at (25, 14), first activate the switch on 2F at (3, 12), then activate the switch on 1F at (3, 6).
-
-# IV. Lessons from Reflection (Turn 68987)
-- **Disprove Hypotheses:** I must actively try to prove my own assumptions wrong, not just seek confirmation. When I thought my pathfinder was broken, I should have tested the hypothesis "What if the tool is right and I'm wrong?" This would have revealed I was trapped much sooner.
-- **Agent/Tool Idea - Faint Strategist:** A potential new agent could specialize in planning the most efficient way to black out. It would analyze the party, the opponent, and available moves to recommend the fastest sequence of faints.
