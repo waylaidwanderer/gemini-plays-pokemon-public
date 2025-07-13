@@ -2,20 +2,6 @@
 
 ## I. Current Strategy & Hypotheses
 
-### Cianwood Gym - Boulder Puzzle
-*   **Confirmed Solution (from `boulder_puzzle_strategist`):**
-    *   Trigger puzzle at (8, 6).
-    *   The boulder to move starts at (5, 5).
-    *   **Path:**
-        1. Push Boulder East from (5, 5) to (6, 5)
-        2. Push Boulder East from (6, 5) to (7, 5)
-        3. Push Boulder East from (7, 5) to (8, 5)
-        4. Push Boulder East from (8, 5) to (9, 5)
-        5. Push Boulder South from (9, 5) to (9, 6)
-        6. Push Boulder South from (9, 6) to (9, 7)
-*   **Current State:** Puzzle is reset. I am at (5, 8).
-*   **Next Action:** Move to the trigger tile at (8, 6), then begin executing the confirmed solution.
-
 ## II. Game Systems & Mechanics
 
 ### Tile Traversal Protocol
