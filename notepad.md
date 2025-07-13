@@ -52,3 +52,9 @@
 # VI. Reminders
 - **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine.
 - **Pokemon Mansion 2F - Super Nerd Confirmation:** Spoke to the Super Nerd at (5, 18). He confirmed the alternating door mechanic with the dialogue: 'Switches open and close alternating sets of doors!' This validates my existing puzzle hypothesis but offers no new clues about the SECRET KEY.
+
+# Pokemon Mansion 1F - Trapped Room Puzzle Log
+- **Hypothesis 1 (from puzzle_solver_agent):** A hidden switch in the scenery opens the southern gates.
+- **Test 1:** Interacted with statue at (26, 26).
+- **Result 1:** No effect. Hypothesis unconfirmed for this object.
+- **Next Step:** Test the statue at (29, 26).
