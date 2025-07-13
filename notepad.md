@@ -50,3 +50,4 @@
 
 ## A. Custom Tools
 - **path_converter:** Converts a comma-separated string of directional moves (Up,Down,Left,Right) from the pathfinder tool into a JSON array of coordinate objects for the 'path' command. Created to improve efficiency by automating a repetitive task.
+- **Pokemon Mansion - 1F West Wing Puzzle:** The statue at (3, 6) contains a hidden switch. Activating it is necessary to progress.
