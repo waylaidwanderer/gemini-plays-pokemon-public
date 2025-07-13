@@ -44,3 +44,4 @@
 *   **Hypothesis Generation:** When faced with a complex puzzle, I will generate and document multiple, distinct hypotheses in my notepad before beginning testing. This will help me avoid fixation on a single, potentially incorrect, line of reasoning.
 *   `WARP_CARPET_DOWN`: Found in ManiasHouse (22_4). Appears to be an exit warp. **Solution Found:** The warp is activated by standing on the tile and pressing the 'Down' button. This was confirmed by successfully exiting the house after pressing 'Down' on tile (3, 7).
 *   **STRENGTH Puzzle Failure:** After activating the puzzle and using STRENGTH, I was unable to push the boulder at (5, 6) from position (5, 7). Hypothesis: Pushing a boulder into a tile occupied by an NPC (Chuck at (5, 5)) is not possible.
+*   **Statue Interaction Failure:** Interacting with the statue at (3, 15) after resetting the puzzle did not change the puzzle state. It only displayed the gym's name. Hypothesis disproven.
