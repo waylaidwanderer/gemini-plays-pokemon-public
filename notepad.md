@@ -52,3 +52,6 @@
 
 # V. Future Development Ideas
 - **Agent Idea: `map_connectivity_analyzer_agent`**: Create an agent that takes start and end coordinates and provides a natural language explanation for why a path might not exist, identifying the specific types and locations of barriers. This would be useful for high-level analysis when the pathfinder returns 'No path found'.
+
+## B3. Wild Pokemon Intel
+- **Growlithe's ROAR:** Can end a wild battle by forcing the player's Pokémon to run away.
