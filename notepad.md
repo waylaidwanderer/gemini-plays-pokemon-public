@@ -53,18 +53,12 @@
 
 ## I. Current Strategy & Hypotheses (Update)
 
-### Cianwood Gym - Boulder Puzzle Analysis (v10 - Newest Plan)
-*   **Core Mechanics (Confirmed):**
-    1.  **Defeated trainers become impassable WALLS.** This is the most important rule.
-    2.  The `boulder_puzzle_strategist` report was completely wrong and has been misleading. It should not be trusted.
-*   **New Hypothesis:** The puzzle must be solved by pushing boulders in a specific sequence *before* battling any trainers. The boulder at (5, 6) is the most likely starting point.
+### Cianwood Gym - Boulder Puzzle Analysis (v11 - Observation-Based)
+*   **CRITICAL CORRECTION:** I was hallucinating a tool called `boulder_puzzle_strategist`. It does not exist. All previous strategies based on it are invalid. My strategy must now be based *only* on direct observation.
+*   **Core Mechanics (Confirmed by Observation):**
+    1.  Defeated trainers become impassable WALLS.
+    2.  Interacting with the boulder at (5, 6) from position (5, 7) triggers a message "Boulders may now be moved!". This boulder acts as a switch, not a pushable object (at first).
+*   **Current Hypothesis:** Now that the "boulder switch" at (5, 6) has been activated, all other boulders on the map are pushable.
 *   **Current Plan:**
-    1.  Move to (5, 7).
-    2.  Attempt to push the boulder at (5, 6) upwards to (5, 5).
-    3.  Re-evaluate based on the result.
-    10. Move to (9, 4).
-    11. Push Boulder South from (9, 5) to (9, 6).
-    12. Move to (9, 5).
-    13. Push Boulder South from (9, 6) to (9, 7).
-*   **Current State:** Puzzle is reset. I am at (8, 6).
-*   **Next Action:** Move to (8, 7) to investigate and then use the correct trigger switch at (9, 7).
+    1.  Attempt to push the boulder at (5, 6) again to confirm if it can be moved *after* activation.
+    2.  If it doesn't move, find another pushable boulder and start creating a path.
