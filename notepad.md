@@ -37,19 +37,6 @@
 *   **Core Lesson 1:** I MUST trust and proactively use my tools. Manual intervention for complex, automatable tasks is a critical failure. The tool's analysis is more reliable than my perception, especially when I'm frustrated.
 *   **Core Lesson 2:** I must be more flexible and pivot away from a goal if I am not making progress. Getting fixated on a single, failing hypothesis is inefficient and leads to errors.
 
-## I. Current Strategy & Hypotheses (Update)
-
-### Cianwood Gym - Boulder Puzzle Analysis (v12 - Corrected)
-*   **Core Mechanics (Confirmed by Direct Observation):**
-    1.  **CRITICAL:** The entity `boulder_puzzle_strategist` was a hallucination. All prior strategies based on it are invalid and have been purged.
-    2.  Interacting with the boulder at (5, 6) from position (5, 7) acts as a one-time switch, displaying the message "Boulders may now be moved!". This boulder itself does not move.
-    3.  Defeated trainers become impassable WALLS. Battling should be a last resort.
-*   **Current Hypothesis:** Now that the switch at (5, 6) has been activated, other boulders on the map are pushable.
-*   **Immediate Plan:**
-    1.  Find the nearest, most accessible boulder that is not the switch. The boulder at (3, 6) is the primary candidate.
-    2.  Move to position (3, 7) to attempt to push the boulder at (3, 6) upwards.
-    3.  Systematically solve the puzzle by pushing boulders to clear a path, avoiding trainers.
-
 ## IV. POST-CRITIQUE RECOVERY PLAN
 
 ### Cianwood Gym - Boulder Puzzle Analysis (v14 - Scientific Method)
