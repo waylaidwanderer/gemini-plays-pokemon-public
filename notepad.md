@@ -4,18 +4,7 @@
 - **Agent & Tool Trust is Mandatory:** I MUST trust my custom agents' and tools' advice. Their purpose is to perform complex reasoning and calculations I cannot. My failure to use the `puzzle_solver_agent` and my initial distrust of the `path_planner`'s output caused significant delays.
 - **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
 
-# II. The Eastern Wing Trap: A Case Study in Flawed Tooling
-- **Situation Summary:** I was trapped in an isolated 'island' area in Pokemon Mansion 1F. The system insisted a path was available, while my pathfinding tools failed, creating a contradiction.
-- **Resolution:** The issue was a critical bug in my custom `path_planner` tool (a typo in the target node selection logic). This caused it to incorrectly fail to find paths. My simpler `map_connectivity_analyzer_tool` correctly identified that a path existed, proving my complex tool was flawed.
-- **Core Lesson:** I must rigorously test my custom tools and not blindly trust their output, especially when it contradicts the game's source-of-truth data. A simple, reliable tool is better than a complex, buggy one. The puzzle was not in the game, but in my own code.
-
-- **Hypothesis (Direct Interaction):** The gate at (25, 14) can be opened by interacting with it from an adjacent tile.
-- **Test:** Successfully navigated to (25, 13) and pressed 'A' while facing the gate.
-- **Outcome:** Interaction failed.
-- **Conclusion:** Hypothesis DENIED.
-
-- **New Hypothesis (Positional Battle Event):** The state of the gate is linked to a battle event (win or loss) that occurs while standing on a tile *adjacent* to the gate. This is based on the one-way wall mechanic that reset after a battle.
-- **Test:** Pace on the tiles adjacent to the gate to trigger a wild encounter. The outcome of the battle (likely a loss, given my party's state) will be observed to see if it affects the gate.
+# II. Active Hypotheses
 
 # III. Game Mechanics & Battle Intel
 
@@ -57,6 +46,7 @@
 # IV. Solved Puzzles
 - **Pokemon Mansion - Trapped Corridor:** Discovered a hidden one-way passage at 1F (27, 26). The only way to make the wall passable from the south again was to win a wild battle, which resets the tile's state.
 - **Pokemon Mansion - Alternating Doors:** Confirmed by a Super Nerd on 2F. The mansion has at least two sets of gates controlled by two different switches. Switch 1 (1F, (3, 6)) controls one set of gates. Switch 2 (2F, (3, 12)) controls another set. Activating a switch toggles the state of its corresponding doors.
+- **Pokemon Mansion 1F - Eastern Wing Gate:** This gate at (25, 14) is controlled by the switch at (3, 6). Direct interaction with the gate does not work. Positional triggers or battle events do not affect it. 
 
 # V. Tool Usage & Limitations
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
