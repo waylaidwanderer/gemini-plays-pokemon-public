@@ -53,7 +53,7 @@
 
 ## I. Current Strategy & Hypotheses (Update)
 
-### Cianwood Gym - Boulder Puzzle Analysis (v9 - Final Plan)
+### Cianwood Gym - Boulder Puzzle Analysis (v10 - Newest Plan)
 *   **Core Mechanics (Confirmed):**
     1.  **Defeated trainers become impassable WALLS.** This is the most important rule.
     2.  The `boulder_puzzle_strategist` report was completely wrong and has been misleading. It should not be trusted.
@@ -62,9 +62,6 @@
     1.  Move to (5, 7).
     2.  Attempt to push the boulder at (5, 6) upwards to (5, 5).
     3.  Re-evaluate based on the result.
-    7.  Push Boulder East from (7, 5) to (8, 5).
-    8.  Move to (7, 5).
-    9.  Push Boulder East from (8, 5) to (9, 5).
     10. Move to (9, 4).
     11. Push Boulder South from (9, 5) to (9, 6).
     12. Move to (9, 5).
