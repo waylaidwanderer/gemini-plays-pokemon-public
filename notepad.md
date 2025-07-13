@@ -2,16 +2,21 @@
 
 ## I. Current Strategy & Hypotheses
 
-### Cianwood Gym - Boulder Puzzle Under Investigation
-*   **Core Insight:** The reset tile at (4, 8) brings back ALL puzzle elements, including the boulders AND the trainers that appear with them. The trainer at (5, 5) is not permanently defeated. Exiting and re-entering the gym also seems to reset the boulders if they have been moved from their initial triggered position.
-*   **FAILED HYPOTHESIS (The "Trainer First" Strategy):** The puzzle requires defeating the trainer at (5, 5) *before* clearing the final path. 
-    *   **Outcome:** FAILED. After pushing the central boulder and navigating to (5, 6), movement to (5, 5) to initiate the battle was blocked. This indicates re-battling the trainer is not the intended solution.
-*   **Current Hypothesis (The "Bypass" Strategy):** It's possible to solve the puzzle without fighting the trainer at (5,5) by pushing the boulders in a specific order.
+### Cianwood Gym - Boulder Puzzle
+*   **Current State:** Puzzle has been reset. I am at (4, 8).
+*   **Key Mechanics:**
+    *   The tile at (8, 6) triggers the appearance of several boulders and trainers.
+    *   The tile at (4, 8) resets the entire puzzle, including defeated trainers.
+    *   Defeated trainers become impassable obstacles.
+    *   Exiting and re-entering the gym also seems to reset the boulders.
+*   **NEW STRATEGY (From `boulder_puzzle_strategist`):**
+    *   **Source:** A new `boulder_puzzle_strategist` tool provided a confirmed solution path.
     *   **Plan:**
-        1. Push the boulder at (3,6) up first.
-        2. Push the boulder at (5,7) up next.
-        3. Finally, push the middle boulder at (4,4) up.
-        4. This sequence might open a path to the leader while avoiding the trainer.
+        1. Trigger the puzzle at (8, 6).
+        2. Go to the boulder at (5, 5).
+        3. Push Boulder East from (5, 5) to (9, 5).
+        4. Push Boulder South from (9, 5) to (9, 7).
+    *   **Next Action:** Execute this plan step-by-step.
 
 ## II. Game Systems & Mechanics
 
