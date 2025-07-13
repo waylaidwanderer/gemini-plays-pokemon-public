@@ -29,15 +29,14 @@
 ## III. Strategic Plans & Hypotheses
 
 ### Cianwood Gym Puzzle
-*   **Core Mechanic:** The gym's state changes based on player movement on specific trigger tiles.
-*   **Trigger Tile:** Stepping on the tile at (8, 6) causes the Gym Leader (Chuck) and three boulders to appear, blocking the central path. The side trainers also disappear.
-*   **Reset Mechanism:** Stepping on the central walkway (verified on tile (4, 8)) after the puzzle is triggered causes the boulders and Chuck to disappear, resetting the puzzle to its initial state.
-*   **Failed Hypothesis 1:** Pushing the boulders with STRENGTH from below is the solution. (Tested on turn 38920 - stepping on the required tile (4, 8) resets the puzzle).
-*   **Current Hypothesis:** After triggering the puzzle at (8, 6), the solution involves interacting with an object or NPC on the side paths, likely Black Belt Nob at (3, 9).
-*   **Test Plan:** 1. Step on (8, 6). 2. Navigate to (3, 9) without touching the central reset path. 3. Interact with Black Belt Nob.
-
-### Alternative Hypotheses (Falsification)
-*   **Cianwood Gym:** The solution might not be a single interaction, but a sequence of movements. After testing the right statue, if it fails, I will test specific movement patterns on the side paths to see if that triggers a change.
+*   **Core Mechanic:** The gym's state changes based on player movement on specific trigger tiles. The left and right platforms are physically separate.
+*   **Puzzle Trigger Tile:** Stepping on the tile at (8, 6) on the right platform causes the Gym Leader (Chuck), several boulders, and trainers to appear, blocking the central path.
+*   **Puzzle Reset Mechanism:** Stepping on the central walkway (verified on tile (4, 8)) after the puzzle is triggered causes the boulders and Chuck to disappear, resetting the puzzle to its initial state.
+*   **Non-Battling NPCs:** Black Belt Yoshi (left) and Black Belt Lao (right) do not battle and seem to be part of the puzzle's state rather than obstacles.
+*   **Failed Hypothesis 1:** Pushing the boulders with STRENGTH is the solution. (Invalidated - stepping on the required tile to push them resets the puzzle).
+*   **Failed Hypothesis 2:** Interacting with the side trainers (Nob) after triggering the puzzle is the solution. (Invalidated - the platforms are disconnected).
+*   **Current Hypothesis:** The solution involves interacting with the statues. The right statue at (6, 15) did nothing. The next logical step is to interact with the left statue at (3, 15).
+*   **Test Plan:** 1. Navigate to (3, 14). 2. Face the statue at (3, 15). 3. Press 'A' to interact.
 
 ## Map Corrections
 *   Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
