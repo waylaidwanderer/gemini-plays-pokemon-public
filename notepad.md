@@ -56,7 +56,7 @@
 
 # IV. Solved Puzzles
 - **Pokemon Mansion - Trapped Corridor:** Discovered a hidden one-way passage at 1F (27, 26). The only way to make the wall passable from the south again was to win a wild battle, which resets the tile's state.
-- **Pokemon Mansion - Alternating Doors:** The mansion has at least two sets of gates controlled by two different switches. Switch 1 (1F, (3, 6)) controls the western gates. Switch 2 (2F, (3, 12)) controls the eastern gates. A specific sequence is needed to navigate the entire mansion.
+- **Pokemon Mansion - Alternating Doors:** Confirmed by a Super Nerd on 2F. The mansion has at least two sets of gates controlled by two different switches. Switch 1 (1F, (3, 6)) controls one set of gates. Switch 2 (2F, (3, 12)) controls another set. Activating a switch toggles the state of its corresponding doors.
 
 # V. Tool Usage & Limitations
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
