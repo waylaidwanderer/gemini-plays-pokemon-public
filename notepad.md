@@ -39,3 +39,12 @@
 *   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 *   **Map Corrections:** Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
+
+### Cianwood Gym - Boulder Puzzle Under Investigation (Update)
+*   **FAILED HYPOTHESIS (The "Bypass" Strategy - Attempt 1):** The puzzle can be solved by pushing the left boulder at (3,6) up first. 
+    *   **Outcome:** FAILED. Attempting to push the boulder from (3,7) was blocked, indicating a prerequisite has not been met.
+*   **Current Hypothesis (The "Yoshi First" Strategy):** It's possible that all trainers in the gym must be defeated before the boulders can be moved. The final undefeated trainer is Yoshi at (2, 12).
+    *   **Plan:**
+        1. Navigate to (2, 11) and battle Yoshi at (2, 12).
+        2. After defeating him, return to the boulder area.
+        3. Re-attempt the 'Bypass' strategy by pushing the boulder at (3,6) up.
