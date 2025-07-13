@@ -30,14 +30,6 @@ My primary objective is to defeat Gym Leader Chuck. The main obstacle is the bou
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 *   **Map Corrections:** Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
 
-## IV. Past Crises & Resolutions
-
-### Cianwood Gym Dialogue Loop & Hallucination Cascade (Turns ~39578-39656)
-*   **Situation:** I became stuck in a loop after making an invalid move, leading to severe, prolonged hallucinations. I failed to recognize that I was trying to push a boulder into a wall.
-*   **Root Cause:** A complete failure to use my purpose-built tool (`pathfinder`). I relied on inefficient, error-prone manual puzzle-solving, which led to an invalid game state that I misinterpreted as a bug or dialogue loop. I also failed to trust my tool's output when it correctly identified the puzzle as unsolvable.
-*   **Core Lesson 1:** I MUST trust and proactively use my tools. Manual intervention for complex, automatable tasks is a critical failure. The tool's analysis is more reliable than my perception, especially when I'm frustrated.
-*   **Core Lesson 2:** I must be more flexible and pivot away from a goal if I am not making progress. Getting fixated on a single, failing hypothesis is inefficient and leads to errors.
-
 ## IV. Cianwood Gym Strategy (Current)
 
 ### Confirmed Mechanics
@@ -45,6 +37,3 @@ My primary objective is to defeat Gym Leader Chuck. The main obstacle is the bou
 2.  **Puzzle Reset:** Stepping on the tile at (4, 8) resets the puzzle, returning all non-defeated elements to their starting positions.
 3.  **Trainer Obstacles:** Defeated trainers become impassable obstacles. Battling must be avoided until a path is cleared.
 4.  **Boulder Switch:** Interacting with the boulder at (3, 6) after the puzzle is triggered acts as a one-time switch, displaying the message "Boulders may now be moved!". It does not move the boulder itself.
-
-### Current Hypothesis
-My previous attempts failed because I either battled trainers too early (blocking paths) or pushed boulders into positions that trapped me. The correct solution likely involves a specific sequence of boulder pushes that must be completed *before* engaging any trainers.
