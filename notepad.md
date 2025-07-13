@@ -77,18 +77,14 @@
     2.  Systematically test each accessible boulder to see which one is pushable without battling any trainers.
     3.  Document the outcome of each push attempt in the notepad before proceeding to the next test.
 
-## V. POST-CRITIQUE ACTION PLAN
+## III. Cianwood Gym - Relaunch (Post-Critique)
 
-### 1. Corrective Actions
-- **Purge Hallucinations:** The entity `boulder_puzzle_strategist` was a hallucination. All strategies derived from it are invalid and will be ignored. Future strategies will be based *only* on direct, in-game observation.
-- **Immediate Documentation:** All learned mechanics, puzzle observations, and state changes (like defeated trainers) will be documented in this notepad *immediately* upon discovery.
-- **Scientific Method:** All future puzzle attempts will strictly follow: Observe -> Hypothesize -> Test -> Conclude. Each step will be documented.
-
-### 2. Cianwood Gym Puzzle - Relaunch
-- **Learned Mechanic:** Defeated trainers in this gym become impassable WALLS.
-- **Current State:** Puzzle is reset. I am at (4, 8).
-- **New Hypothesis:** The puzzle must be solved by pushing boulders in a specific sequence to clear a path to trainers and eventually Chuck. Battling is a last resort and will only be done when a path is confirmed to be otherwise impassable.
-- **Immediate Plan:**
-    1.  Re-trigger the puzzle by moving to (8, 6).
-    2.  Systematically test each accessible boulder to see which one is pushable *without* battling any trainers.
-    3.  Document the outcome of each push attempt in the notepad before proceeding to the next test.
+*   **Learned Mechanics (Confirmed):**
+    1.  The entity `boulder_puzzle_strategist` was a hallucination. All prior strategies based on it are invalid.
+    2.  Defeated trainers in this gym become impassable WALLS.
+    3.  Interacting with boulders before the puzzle is correctly triggered only displays a hint. It does not move them or act as a switch.
+*   **Methodology:** All future attempts will strictly follow the Scientific Method: Observe -> Hypothesize -> Test -> Conclude. Each step will be documented here.
+*   **Current Plan:**
+    1.  The puzzle is currently reset. I am at (4, 8).
+    2.  I will move to the trigger tile at (8, 6) to activate the puzzle.
+    3.  Once activated, I will systematically test pushing accessible boulders, avoiding battles, and document each outcome.
