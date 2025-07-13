@@ -46,3 +46,15 @@
 # VI. Reminders
 - **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine.
 - **Pokemon Mansion 2F - Super Nerd Confirmation:** Spoke to the Super Nerd at (5, 18). He confirmed the alternating door mechanic with the dialogue: 'Switches open and close alternating sets of doors!' This validates my existing puzzle hypothesis but offers no new clues about the SECRET KEY.
+
+# III. Active Puzzles & Hypotheses
+
+## A. Pokemon Mansion - SECRET KEY
+- **Goal:** Find the SECRET KEY to unlock the Cinnabar Gym.
+- **Current Location:** Cinnabar Island (Healed party).
+- **Observations:**
+  - The mansion has multiple floors (1F, 2F, 3F, B1F).
+  - There are statues containing switches on multiple floors.
+  - There are positional triggers that open/close gates.
+  - The layout is a maze of interconnected rooms and corridors.
+- **Main Hypothesis:** Finding the key requires a specific sequence of activating switches across multiple floors to open a path to the basement area where the key is likely hidden.
