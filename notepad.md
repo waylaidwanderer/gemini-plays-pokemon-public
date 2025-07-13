@@ -66,3 +66,6 @@
     2.  Re-trigger the puzzle by moving to (8, 6).
     3.  Activate the switch by interacting with the boulder at (3, 6).
     4.  Systematically attempt to push the other accessible boulders, starting with the one at (4, 4), and document the results.
+
+## Tool Development Pipeline
+*   **TODO:** Define a `boulder_puzzle_solver` tool. The manual trial-and-error approach has failed repeatedly. A systematic, automated analysis is required.
