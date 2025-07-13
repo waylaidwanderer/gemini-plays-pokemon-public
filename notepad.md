@@ -64,9 +64,9 @@
 - **Test:** Used the ITEMFINDER.
 - **Conclusion:** Hypothesis DENIED. The ITEMFINDER did not respond.
 
-- **Current Hypothesis (Forced Blackout):** Having exhausted all other possibilities (hidden passages, battle resets, hidden interactions, hidden items, escape items/moves), the room is an intentional trap where the only escape is to 'black out' by losing a wild battle.
-- **Test (Attempt 1 - ABORTED):** Attempted to lose to a wild Raticate but became stuck in a menu loop and ultimately won the battle. The hypothesis remains untested.
-- **Test (Attempt 2):** Pace in the available area to trigger a new wild encounter. Intentionally allow all remaining Pokémon in the party to faint. Observe if this returns me to the last used Pokémon Center.
+- **Hypothesis (Forced Blackout - Attempt 2):** The room is an intentional trap where the only escape is to 'black out' by losing a wild battle.
+- **Test:** Intentionally lost a wild battle to trigger a blackout.
+- **Conclusion:** Hypothesis DENIED. Blacking out did not warp me to the last Pokémon Center. I respawned inside the trapped room. The puzzle's solution is not a forced blackout.
 
 # V. Tool Usage & Limitations
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
