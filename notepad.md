@@ -28,19 +28,19 @@
 
 ## III. Current Plans & Investigations
 
-### Investigation: The Missing HM02 (Fly)
-*   **Status:** Investigation on hold. Current priority is the Battle Tower.
-*   **Anomaly:** After defeating Gym Leader Chuck, his wife gave me HM02 (Fly). However, after a thorough search of my bag, the HM is not present in my TM/HM pocket or any other pocket.
-*   **Hypotheses:**
-    1.  **Misunderstood Event:** I may have misinterpreted the dialogue, and she did not actually give me the HM. It could be a reward I receive later.
-    2.  **Temporary Item:** The HM might have been a temporary key item that was removed after a specific trigger I'm unaware of.
-    3.  **Game Bug:** It's possible a bug caused the item to not be added to my inventory correctly.
-*   **Verification Plan:**
-    1.  Travel from my current location on Route 40 back to Cianwood City via Route 41.
-    2.  Upon arrival in Cianwood City, enter the Cianwood Gym.
-    3.  Speak to Chuck's wife again.
+### Current Objective: Obtain SECRETMEDICINE
+*   **Status:** In progress.
+*   **Goal:** Travel to Cianwood City to obtain the SECRETMEDICINE for the sick Ampharos in the Olivine Lighthouse.
+*   **Current Plan:** My initial hypothesis that I could surf directly west from Route 40 was proven false by my `pathfinder` tool. My new hypothesis is that the landmass is isolated and the only way forward is to travel south from Route 40 to Route 41, and then find a path to Cianwood City from there.
+*   **Next Step:** Use `pathfinder` to confirm a path exists to the southern exit of Route 40 at (8, 35).
 
 ## IV. Archived Investigations
+
+### Investigation: The Missing HM02 (Fly)
+*   **Status:** Investigation on hold. Current priority is obtaining the SECRETMEDICINE.
+*   **Anomaly:** After defeating Gym Leader Chuck, his wife gave me HM02 (Fly). However, the HM is not in my bag.
+*   **Hypothesis:** This was a misunderstood event, a temporary item, or a game bug.
+*   **Verification Plan:** After dealing with the Olivine Lighthouse, travel to Cianwood City and speak to Chuck's wife again.
 
 ### Investigation: The Battle Tower
 *   **Status:** Investigation complete. The Battle Tower appears to be a self-contained loop with no key items or story progression elements. All warps lead back to the gatehouse or the exterior area. No further investigation is warranted at this time.
