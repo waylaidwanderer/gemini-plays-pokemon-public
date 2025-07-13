@@ -37,15 +37,15 @@
 - **Run from Battle Mechanic:** Attempting to switch Pokémon from the party screen can sometimes result in running from the battle instead.
 - **FLY in battle:** The move FLY can be used to defeat a wild Pokémon and end the battle, even when indoors. This acts as an escape method.
 
-# III. Active Puzzles & Hypotheses
+# III. Active Puzzles & Solved Puzzles
 
-## A. Pokemon Mansion - SECRET KEY
+## A. Pokemon Mansion - SECRET KEY (Active)
 - **Goal:** Find the SECRET KEY to unlock the Cinnabar Gym.
 - **Current Hypothesis:** The key is located in a hidden area of the mansion, accessible only after solving a complex puzzle involving switches and positional triggers across multiple floors.
-- **Current Test Plan:** Systematically explore the central corridor of Pokemon Mansion 1F for a hidden switch or trigger, as previous attempts to open the eastern gates via the main switch and positional triggers have failed.
-
-# IV. Reminders
-- **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine once the gym is unlocked.
+- **Current Test Plan:** Explore the area behind the newly opened eastern gates on 1F.
 
 ## B. Pokemon Mansion - Solved Puzzles
 - **1F Gate Puzzle:** The switches on 1F and 2F have a combined effect. To open the eastern gates at (25, 14), first activate the switch on 2F at (3, 12), then activate the switch on 1F at (3, 6).
+
+# IV. Reminders
+- **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine once the gym is unlocked.
