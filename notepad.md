@@ -2,12 +2,15 @@
 
 ## I. Current Strategy & Hypotheses
 
-### Cianwood Gym - Boulder Puzzle SOLVED
-*   **Solution:** The puzzle is solved by a specific sequence of actions that does not involve pushing the boulders.
-    1.  Step on the trigger tile at (8, 6) to make the boulders and the final trainers appear.
-    2.  Immediately exit the gym.
-    3.  Re-enter the gym. The boulders will be gone.
-    4.  **CRITICAL:** Do NOT walk up the central path. The tile at (4, 8) is a trap that resets the puzzle, making the boulders reappear. You must use the side paths to reach the Gym Leader.
+### Cianwood Gym - Boulder Puzzle Under Investigation (Attempt #5)
+*   **Core Insight:** The reset tile at (4, 8) brings back ALL puzzle elements, including the boulders AND the trainers that appear with them. The trainer at (5, 5) is not permanently defeated.
+*   **Current Hypothesis (The "Trainer First" Strategy):** The puzzle requires defeating the trainer at (5, 5) *before* clearing the final path. This requires a specific sequence of boulder pushes.
+*   **Step-by-Step Plan:**
+    1.  Ensure puzzle is triggered (boulders and trainers are present).
+    2.  From below the central boulder, push the boulder at (4, 7) up to (4, 6).
+    3.  Move to (4, 5) to battle and defeat the trainer at (5, 5).
+    4.  After the trainer is defeated, push the remaining boulders at (3, 7) and (5, 7) upwards to clear the path.
+    5.  Walk to the Gym Leader.
     4.  **CRITICAL:** Do NOT walk up the central path. The tile at (4, 8) is a trap that resets the puzzle, making the boulders reappear. You must use the side paths to reach the Gym Leader.
 
 ### Primary Objective: Find the Secret Medicine
