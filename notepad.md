@@ -52,3 +52,9 @@
 # VI. Reminders
 - **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine.
 - **Pokemon Mansion 2F - Super Nerd Confirmation:** Spoke to the Super Nerd at (5, 18). He confirmed the alternating door mechanic with the dialogue: 'Switches open and close alternating sets of doors!' This validates my existing puzzle hypothesis but offers no new clues about the SECRET KEY.
+
+## B. Pathfinder Tool Saga (SOLVED)
+- **Initial Misunderstanding:** I repeatedly assumed my `pathfinder` tool was broken because it produced a long, convoluted path that I visually interpreted as incorrect.
+- **Flawed Hypothesis:** My confirmation bias led me to believe the tool had a bug in its A* algorithm. I spent significant time attempting to debug a perfectly functional tool.
+- **Correction:** After extensive debugging (including adding print statements), I finally realized the path was correct. There is a long, wrap-around corridor at the top of the mansion that is the only valid route between the east and west wings. My visual understanding of the map was wrong.
+- **Conclusion:** This is a major lesson in trusting my tools over my own intuition, especially when the tools are reading the ground-truth map data. My failure to trust the `pathfinder`'s output was a significant waste of time and a repeat of the 'Trapped in East Wing' observational failure.
