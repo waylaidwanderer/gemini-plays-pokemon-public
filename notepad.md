@@ -4,9 +4,7 @@
 - **Agent & Tool Trust is Mandatory:** I MUST trust my custom agents' and tools' advice. Their purpose is to perform complex reasoning and calculations I cannot. My failure to use the `puzzle_solver_agent` and my initial distrust of the `path_planner`'s output caused significant delays.
 - **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
 
-# II. Active Hypotheses
-
-# III. Game Mechanics & Battle Intel
+# II. Game Mechanics & Battle Intel
 
 ## A. Tile Mechanics & Traversal Rules
 - **Ground/Impassable:** `ground` tiles are walkable, `impassable` tiles are solid walls. All objects (NPCs, items, signs) function as impassable walls, except for Pikachu. **EXCEPTION:** Some `impassable` tiles can be walked through as part of a puzzle (e.g., Pokémon Mansion 1F).
@@ -43,17 +41,16 @@
 - **Weird Typing:** My LAPRAS (NEPTUNE) was displayed as a GHOST type in battle. This needs further investigation.
 - **'No Will to Fight':** After a Pokémon faints, attempting to switch in the next Pokémon can sometimes fail with the message 'There's no will to fight!'. The cause is unknown, but trying again on the next turn was successful.
 
-# IV. Solved Puzzles
+# III. Solved Puzzles
 - **Pokemon Mansion - Trapped Corridor:** Discovered a hidden one-way passage at 1F (27, 26). The only way to make the wall passable from the south again was to win a wild battle, which resets the tile's state.
 - **Pokemon Mansion - Alternating Doors:** Confirmed by a Super Nerd on 2F. The mansion has at least two sets of gates controlled by two different switches. Switch 1 (1F, (3, 6)) controls one set of gates. Switch 2 (2F, (3, 12)) controls another set. Activating a switch toggles the state of its corresponding doors.
 - **Pokemon Mansion 1F - Eastern Wing Gate & Positional Trigger:** The gate at (25, 14) is controlled by the switch at (3, 6). Additionally, a positional trigger at (12,10) on 1F closes the gates at (17,8) and (18,8). The switch at (3,6) re-opens them. Direct interaction with the gate does not work.
 
-# V. Tool Usage & Limitations
-- **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
-- **Unusual Effectiveness:** RATICATE's DIG (Ground-type) was super-effective against SPARKY (Electric-type). This contradicts standard type matchups and needs further investigation.
+# IV. Tool Usage & Limitations
+- **Type Matchup Correction:** Previously noted that RATICATE's DIG (Ground) being super-effective against SPARKY (Electric) was unusual. This is actually the standard, correct type matchup. My understanding was flawed.
 - **THUNDERBOLT vs. DIG:** THUNDERBOLT can hit an opponent while it is underground using DIG. This is contrary to standard mechanics and resulted in an accidental knockout when trying to faint.
 
-# VI. Active Puzzles
+# V. Active Puzzles
 ## A. Pokemon Mansion 3F - Trapped Eastern Corridor
 - **Observation:** Trapped in a corridor on the eastern side of 3F after a series of warps. No visible exits.
 - **Hypothesis 1 (Failed):** A hidden switch is on the northern wall.
@@ -65,5 +62,8 @@
 - **Hypothesis 3 (Failed - Hallucination):** Escape is possible by blacking out.
   - **Test:** Intentionally tried to lose multiple wild battles.
   - **Conclusion:** Fainting does not warp the player out of the room. This was a cognitive loop.
-- **Hypothesis 4 (Active):** A secret passage exists in the southern wall.
-  - **Test Plan:** Systematically attempt to walk south into every tile of the southern wall.
+- **Hypothesis 4 (Failed):** A secret passage exists in the southern wall.
+  - **Test:** Systematically attempted to walk south into every tile of the southern wall from x=2 to x=6.
+  - **Conclusion:** The wall is solid. All simple hypotheses for escape have been exhausted.
+- **Hypothesis 5 (Active):** The southern wall is a one-way ledge that can be jumped down, as hinted by a scientist's dialogue about 'jumping off' things.
+  - **Test Plan:** Walk south into the southern wall at (2, 18).
