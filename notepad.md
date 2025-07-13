@@ -48,3 +48,10 @@
 
 # IV. Active Puzzle-Solving & Hypothesis Testing
 *This section is for actively working through complex puzzles. I will log observations, form a single testable hypothesis, record the test, and its outcome.*
+
+# V. Pokemon Mansion 1F - Trapped Room Puzzle Log
+*   **Observation:** Trapped in an eastern corridor after entering through a hidden wall at (27, 26). Exit gate at (27, 28) is closed. Game gives repeated 'hallucination' warnings.
+*   **Hypothesis 1 (from agent):** The entrance is the exit. The corridor is a misdirection.
+*   **Test 1:** Attempt to walk west from (27, 26) back through the wall at (26, 26).
+*   **Outcome 1:** Failed. The path was blocked.
+*   **Conclusion 1:** Hypothesis 1 is denied. The hidden passage is one-way only.
