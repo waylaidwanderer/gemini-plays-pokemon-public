@@ -61,3 +61,5 @@
 
 # V. Tool Usage & Limitations
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
+
+**New Observation (Pokemon Mansion 1F):** While exploring the western area, the eastern gates at (17, 8) and (18, 8) opened unexpectedly. This suggests the switch at (3, 6) may have a delayed effect or is part of a more complex positional puzzle.
