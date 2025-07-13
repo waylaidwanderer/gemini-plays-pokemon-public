@@ -1,7 +1,7 @@
 # I. Core Principles & Lessons Learned
-- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. Always trust tool output over visual inspection, as tools read the ground-truth map data. A systematic, evidence-based debugging process is essential.
+- **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. 
 - **Agent Trust is Mandatory:** I MUST trust my custom agents' advice, even if it contradicts my own intuition. Their purpose is to perform complex reasoning I cannot. If an agent is wrong, I must refine it, not ignore it.
-- **Confirmation Bias is Dangerous:** My `pathfinder` tool wasn't broken, my understanding of the map was. I assumed the tool was failing because it didn't match my visual interpretation, leading to wasted time. **Lesson:** Trust the tool's output over visual inspection, as it reads the ground-truth map data.
+- **Confirmation Bias is Dangerous:** My `pathfinder` tool wasn't broken; my understanding of the map was. I assumed the tool was failing because it didn't match my visual interpretation. **Lesson:** Trust the tool's output over visual inspection, as it reads the ground-truth map data.
 
 # II. Game Mechanics & Battle Intel
 
@@ -17,7 +17,7 @@
 - **Elevated Ground:** Walkable ground at a different elevation, accessible only via `steps`.
 - **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
 - **Secret Switches:** Some statues contain hidden switches. Activating them can toggle the state of nearby gates, opening new paths. 
-- **Positional Triggers:** Specific tiles that, when stepped on, can open or close gates or trigger other events elsewhere on the map. The effect may be reversed by stepping off the tile, or it may be permanent until another trigger is activated. Example: Stepping on (11, 4) on Pokemon Mansion 3F opens the gates at (16, 5) and (16, 6).
+- **Positional Triggers:** Specific tiles that, when stepped on, can open or close gates or trigger other events elsewhere on the map. 
 - **Gate Offscreen/Closed/Open:** Gates whose state (unknown, impassable, or passable) depends on whether they are on-screen and whether a controlling switch has been activated.
 - **Scripted Event Tiles:** Some tiles trigger events. The tile in front of the Cinnabar Gym door (19, 5) pushes the player back and displays a 'locked' message. The water on Seafoam Islands B4F has a scripted current that prevents surfing south.
 - **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls.
@@ -36,22 +36,13 @@
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center.
 - **Run from Battle Mechanic:** Attempting to switch Pokémon from the party screen can sometimes result in running from the battle instead.
 - **FLY in battle:** The move FLY can be used to defeat a wild Pokémon and end the battle, even when indoors. This acts as an escape method.
+- **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
 
 # III. Active Puzzles & Solved Puzzles
 
 ## A. Pokemon Mansion - SECRET KEY (Active)
 - **Goal:** Find the SECRET KEY to unlock the Cinnabar Gym.
-- **Current Hypothesis:** The key is located in a hidden area of the mansion, accessible only after solving a complex puzzle involving switches and positional triggers across multiple floors.
-- **Current Test Plan:** Explore the area behind the newly opened eastern gates on 1F.
+- **Current Hypothesis:** The key is located in a hidden area of the mansion, accessible only after solving a complex puzzle involving switches and positional triggers across multiple floors. I am currently trapped in a dead-end section of 1F and must black out to escape and re-evaluate my approach.
 
 ## B. Pokemon Mansion - Solved Puzzles
 - **1F Gate Puzzle:** The switches on 1F and 2F have a combined effect. To open the eastern gates at (25, 14), first activate the switch on 2F at (3, 12), then activate the switch on 1F at (3, 6).
-
-# IV. Reminders
-- **Team Composition:** Use the `team_composition_advisor_agent` to prepare for the Cinnabar Gym battle against Blaine once the gym is unlocked.
-
-# V. Future Development Ideas
-- **Agent Idea: `map_connectivity_analyzer_agent`**: Create an agent that takes start and end coordinates and provides a natural language explanation for why a path might not exist, identifying the specific types and locations of barriers. This would be useful for high-level analysis when the pathfinder returns 'No path found'.
-
-## B3. Wild Pokemon Intel
-- **Growlithe's ROAR:** Can end a wild battle by forcing the player's Pokémon to run away.
