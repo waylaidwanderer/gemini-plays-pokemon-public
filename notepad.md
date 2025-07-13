@@ -54,12 +54,12 @@
 - **Core Lesson:** I must rigorously test my custom tools and not blindly trust their output, especially when it contradicts the game's source-of-truth data. A simple, reliable tool is better than a complex, buggy one. The puzzle was not in the game, but in my own code.
 
 - **Hypothesis (Direct Interaction):** The gate at (25, 14) can be opened by interacting with it from an adjacent tile.
-- **Test:** Use the corrected `path_planner` to navigate to (25, 13). Press 'A' while facing the gate.
-- **Outcome:** Pathing was successful. Interaction with the gate at (25, 14) did nothing.
+- **Test:** Successfully navigated to (25, 13) and pressed 'A' while facing the gate.
+- **Outcome:** Interaction failed.
 - **Conclusion:** Hypothesis DENIED.
 
-- **New Hypothesis (Positional Battle Event):** The state of the gate is linked to a battle event (win or loss) that occurs while standing on a tile adjacent to the gate.
-- **Next Steps:** Pace on the tiles adjacent to the gate to trigger a wild encounter. The outcome of the battle (likely a loss, given my party's state) will be observed to see if it affects the gate.
+- **New Hypothesis (Positional Battle Event):** The state of the gate is linked to a battle event (win or loss) that occurs while standing on a tile *adjacent* to the gate. This is based on the one-way wall mechanic that reset after a battle.
+- **Test:** Pace on the tiles adjacent to the gate to trigger a wild encounter. The outcome of the battle (likely a loss, given my party's state) will be observed to see if it affects the gate.
 
 # V. Tool Usage & Limitations
 - **path_planner:** This tool can only calculate paths on the *current* map. It cannot find routes that span across multiple maps or warp points. This was discovered after it failed to generate a path from the 'Cinnabar Lab Metronome Room' to the 'Cinnabar Lab Main Area'.
