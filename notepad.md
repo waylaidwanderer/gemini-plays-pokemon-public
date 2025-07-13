@@ -37,7 +37,10 @@
 - **Rock Tunnel B1F:** This area is divided into multiple isolated sections. The eastern ladder at (34, 26) is not accessible from the central corridor entrance.
 
 # II. Current Puzzles & Hypotheses
-- **Pokemon Mansion 1F - Escape the East Wing:** I am currently trapped in the eastern wing of the mansion. The exit is a `closed_gate` at (27, 28) and (28, 28). **Failed Hypothesis:** Interacting with or moving through the Pikachu at (28, 27) does not open the gate. **Current Hypothesis:** Losing a battle within this trapped area will cause a blackout and warp me out of the mansion, allowing me to regroup and find the actual solution to obtaining the SECRET KEY.
+- **Pokemon Mansion 1F - Escape the East Wing:** I am trapped in the eastern wing, with the exit blocked by closed gates at (27, 28) and (28, 28). There are no visible switches or exits.
+  - **Hypothesis:** Blacking out by losing a wild battle is the intended escape mechanism.
+  - **Test Plan:** 1. Trigger a wild encounter. 2. Intentionally lose the battle by using only non-damaging moves or switching between fainted/weak Pokémon. 3. Observe if a blackout warps me outside the mansion.
+  - **Previous Attempt (Failed):** The first test of this hypothesis failed because an accidental critical hit defeated the wild Pokémon. The hypothesis itself remains untested.
 
 # V. Core Principles & Lessons Learned
 - **Immediate Maintenance is Paramount:** I must be vigilant in performing maintenance tasks (notepad, agents, tools) immediately. Deferring them is a critical process failure. I failed at this by not immediately fixing my `pathfinder` tool and notepad.
