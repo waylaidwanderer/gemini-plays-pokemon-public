@@ -38,7 +38,8 @@
 
 ### Cianwood Gym Puzzle
 *   **Hypothesis 1 (Side Paths - FAILED):** The initial hypothesis was that after resetting the boulders, a side path could be used to reach the Gym Leader. This was proven false by the `path_debugger` agent, which confirmed the northern and southern areas are disconnected.
-*   **Hypothesis 2 (Central Path Trap - UNDER INVESTIGATION):** The central path is the only route, but it contains a trap that respawns the boulders. The exact trigger tile(s) for this trap are unknown. 
+*   **Hypothesis 2 (Statue Interaction - FAILED):** Interacting with the statue at (3, 15) had no effect on the gym's state. The puzzle does not seem to involve this statue.
+*   **Hypothesis 3 (Central Path Trap - UNDER INVESTIGATION):** The central path is the only route, but it contains a trap that respawns the boulders. The exact trigger tile(s) for this trap are unknown. 
 *   **Current Plan:**
     1. Step on the trigger tile at (8, 6).
     2. Exit and re-enter the gym to clear the boulders.
