@@ -30,7 +30,7 @@
 
 ### Current Objective: Obtain SECRETMEDICINE
 *   **Status:** In progress. Cianwood City has been confirmed as a dead end.
-*   **Goal:** Travel to Cianwood City to obtain the SECRETMEDICINE for the sick Ampharos in the Olivine Lighthouse.
+*   **Goal:** Obtain the SECRETMEDICINE for the sick Ampharos in the Olivine Lighthouse.
 *   **Current Plan:** All leads in Cianwood City have been exhausted. The Pharmacist did not have the SECRETMEDICINE, and multiple NPCs had bugged/unhelpful dialogue. My new plan is to return to Olivine City and re-investigate the Lighthouse and surrounding areas for clues.
 *   **Alternative Hypothesis:** If the re-investigation of Olivine City fails, it's possible that I must first resolve the events at the Lake of Rage (near Mahogany Town) to trigger the availability of the SECRETMEDICINE.
 
