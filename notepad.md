@@ -58,3 +58,5 @@
 - **Test 1:** Interacted with statue at (26, 26).
 - **Result 1:** No effect. Hypothesis unconfirmed for this object.
 - **Next Step:** Test the statue at (29, 26).
+- **Test 2:** Interacted with statue at (29, 26).
+- **Result 2:** No effect. Hypothesis unconfirmed. Concluding that hidden switches are not in the statues.
