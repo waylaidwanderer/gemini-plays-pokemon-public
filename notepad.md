@@ -60,3 +60,4 @@
 - **Next Step:** Test the statue at (29, 26).
 - **Test 2:** Interacted with statue at (29, 26).
 - **Result 2:** No effect. Hypothesis unconfirmed. Concluding that hidden switches are not in the statues.
+- **Closed Gate Nuance:** A `closed_gate` tile can be impassable even if it is also a warp tile. Interaction failed at (27, 28).
