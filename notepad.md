@@ -24,7 +24,7 @@
 ## III. Core Principles & Lessons Learned
 
 *   **Data Integrity is Paramount:** My internal state (notepad, markers) MUST be 100% accurate. I will not defer data correction. Assumptions must be rigorously tested before being recorded as fact. A trainer is only defeated after a battle victory is confirmed by the game.
-*   **Trust Verified Solutions Over Heuristics:** My custom solver tool used a flawed greedy algorithm. I must prioritize confirmed solutions (like from the `boulder_puzzle_strategist`) or systematic exploration over flawed, unverified tools.
+*   **Trust Verified Solutions Over Heuristics:** My previous attempts were based on flawed assumptions and unverified tools. I must prioritize confirmed solutions (like from the `boulder_puzzle_strategist`) or systematic exploration over flawed, unverified tools.
 *   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 *   **Map Corrections:** Map ID `20_1` is not just 'Pokecenter2F'. It also contains the Link Club and its associated record rooms. Interacting with a Link Receptionist can warp the player to one of these rooms. The visual content on screen is the only way to differentiate.
