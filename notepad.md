@@ -89,11 +89,14 @@
     2.  I will move to the trigger tile at (8, 6) to activate the puzzle.
     3.  Once activated, I will systematically test pushing accessible boulders, avoiding battles, and document each outcome.
 
-## Cianwood Gym - Test Phase 2
-*   **Observation:** All attempts to push boulders at (3, 6), (5, 6), and (4, 4) have failed, resulting only in a hint message. This falsifies the hypothesis that pushing a boulder is the first step.
-*   **New Hypothesis:** A trainer must be defeated to enable the boulders. The trainer at (3, 9) is the safest target, as defeating him is unlikely to block a critical path.
-*   **Test:**
-    1.  Move to position (4, 9).
-    2.  Face left.
-    3.  Press 'A' to battle the trainer at (3, 9).
-*   **Expected Outcome:** After the battle, one or more boulders will become pushable.
+## Cianwood Gym - Scientific Approach (v1)
+*   **Observation 1:** Stepping on the tile at (4, 8) successfully resets the puzzle, returning all boulders and non-defeated trainers to their original positions. Gym Leader Chuck disappears.
+*   **Observation 2:** The entity `boulder_puzzle_strategist` was a hallucination. Its output is unreliable and has been discarded.
+*   **Hypothesis:** The correct sequence to solve the puzzle is: 1. Trigger the puzzle by stepping on the tile at (8, 6). 2. Push the boulders in a specific sequence to create a path to Chuck *without* battling any trainers, as they become impassable walls upon defeat.
+*   **Test Plan (Phase 1 - Trigger):**
+    1.  Move from the current position (4, 8) to the trigger tile at (8, 6).
+    2.  Observe the resulting changes to the gym layout.
+*   **Test Plan (Phase 2 - Boulder Pushing):**
+    1.  After triggering, systematically attempt to push each accessible boulder from a non-trainer-occupied tile.
+    2.  Prioritize boulders that can be pushed without getting trapped.
+    3.  Document each push attempt and its outcome.
