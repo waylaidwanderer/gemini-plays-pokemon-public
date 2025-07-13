@@ -47,7 +47,5 @@
 *   FAILED HYPOTHESIS (The "Chain Reaction" Strategy - Attempt 2): Defeating Black Belt Nob unlocks the ability to push the leftmost boulder at (3, 6).
     *   **Outcome:** FAILED. Attempting to push the boulder from (3, 7) was blocked.
 *   **CONFIRMED HYPOTHESIS (The "Chain Reaction" Strategy):** Defeating Black Belt Nob unlocked the ability to push the rightmost boulder at (5, 7).
-*   **Current Hypothesis:** Pushing the boulder at (5, 7) has now unlocked the ability to push the leftmost boulder at (3, 6).
-    *   **Plan:**
-        1. Navigate to (3, 7).
-        2. Attempt to push the boulder at (3, 6) up.
+*   **CONFIRMED HYPOTHESIS (Chain Reaction Pt. 2):** Pushing the boulder at (5, 7) unlocked the ability to push the leftmost boulder at (3, 6).
+*   **Current Hypothesis:** Pushing the two side boulders has unlocked the final, central boulder at (4, 4).
