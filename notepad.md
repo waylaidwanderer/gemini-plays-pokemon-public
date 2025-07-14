@@ -1,6 +1,6 @@
 # I. Core Principles & Lessons Learned
-- **Immediate Maintenance & Escalation:** I must perform maintenance (notepad, agents) and fix tools *immediately* when a manual approach fails repeatedly. Deferring these actions is a critical process failure. My repeated failure to fix my `path_planner` and `battle_strategist_agent` are prime examples of this lapse.
-- **Combat Confirmation Bias:** I must actively try to *disprove* my hypotheses. I wasted significant time assuming my agents were correct because I was seeking confirmation, rather than testing their limits and questioning my own assumptions. My repeated attempts to RUN from battle in the mansion trap, despite it being counterproductive, is a key example of this failure.
+- **Immediate Maintenance & Escalation:** I must perform maintenance (notepad, agents) and fix tools *immediately* when a manual approach fails repeatedly. Deferring these actions is a critical process failure.
+- **Combat Confirmation Bias:** I must actively try to *disprove* my hypotheses. I wasted significant time assuming my agents were correct because I was seeking confirmation, rather than testing their limits and questioning my own assumptions.
 - **Agent & Tool Trust is Mandatory (but requires verification):** I MUST trust my custom agents' and tools' advice, but this trust must be earned through verification. When an agent fails, it must be refined immediately.
 - **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
 
@@ -35,17 +35,14 @@
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
 - **Item Use on Fainted Pokemon:** A FULL RESTORE will not work on a fainted Pokémon.
 
-# III. Gem's To-Do List
-- **High Priority:** My `gem_path_planner` tool is faulty. It incorrectly reported 'No path found' in turn 73134. I must debug and fix the logic, specifically how it handles target tiles that are themselves impassable.
-
-# IV. Active Puzzles
+# III. Active Puzzles
 - **Pokemon Mansion 1F - Eastern Corridor Trap 2:**
   - **Status:** Currently trapped in the eastern corridor after flipping the switch at (3, 6). The gates at (25, 14) and (26, 14) are now closed, blocking the exit.
   - **Hypothesis:** The only escape is to black out by losing a wild battle.
   - **Active Plan:** Intentionally faint the entire party against a wild Pokémon.
-    - Progress: SPARKY (fainted), SPOONBENDE (fainted). Currently battling with REVENANT.
+    - Progress: SPARKY (fainted), SPOONBENDE (fainted), REVENANT (fainted).
 
-# V. Solved Puzzles & Key Discoveries
+# IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion 1F - Eastern Corridor Trap 1:**
   - **Conclusion:** To escape the first corridor trap, the player's last conscious Pokémon must be poisoned. Then, in a subsequent battle, use a non-damaging move or item (like the POKé FLUTE) to waste turns, allowing the opponent to attack until the player's Pokémon faints, triggering a blackout.
 - **Pokemon Mansion 2F - Trapped Room:** Escaped by blacking out.
