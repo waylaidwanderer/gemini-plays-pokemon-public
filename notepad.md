@@ -48,3 +48,9 @@
 
 ### Verified Type Interactions
 *   **Water (Surf) vs. Gyarados (Water/Flying):** Observed as "not very effective". This contradicts standard type charts. Need to investigate further.
+
+## Route 43 Investigation Log
+*   **Hypothesis:** The eastern path of Route 43 is the correct way to Mahogany Town.
+*   **Test:** Attempted to pass the Super Nerd at (14, 7).
+*   **Result:** Encountered a dialogue loop that could not be broken by pressing A, B, or stunning the NPC. The path is impassable.
+*   **Conclusion:** The eastern path is currently a dead end. New plan is to explore the western path of Route 43.
