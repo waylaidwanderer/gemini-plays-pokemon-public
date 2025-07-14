@@ -43,7 +43,8 @@
 *   **Hypothesis 3 (Invalidated):** The bookshelf event changes the state of the Pharmacist at (4, 3). **Test Result:** After triggering the bookshelf event, interacting with the Pharmacist only opens his regular shop menu. This hypothesis is BUSTED.
 *   **Hypothesis 4 (Invalidated):** Interacting with the Black Belt at (1, 6) after the bookshelf event would open the passage. **Test Result:** The guard revealed he was Team Rocket and disappeared, but this did not activate the warp at (7, 3). This hypothesis is BUSTED.
 *   **Hypothesis 5 (Invalidated):** The Incense Burner at (6, 1) is the secret switch. **Test Result:** Interacting with it only produces flavor text. This hypothesis is BUSTED.
-*   **Hypothesis 6 (Validated):** The mart puzzle would cause the Fisher blocking the Mahogany Gym to move. **Test Result:** After solving the mart puzzle, the Fisher at (6, 14) disappeared, clearing the path to the gym. The puzzle's solution was to investigate the town for changes after completing the sequence inside the mart.
+*   **Hypothesis 6 (Invalidated):** The mart puzzle would cause the Fisher blocking the Mahogany Gym to move. **Test Result:** The Fisher at (6, 14) remains, blocking the path. This hypothesis is BUSTED.
+*   **New Conclusion & Plan:** The puzzle in the mart did not open the path to the gym. The only remaining possibility is that it cleared the path north on Route 43 to the Lake of Rage. The next step is to head to the gate at (9, 1) and proceed north.
 
 ## V. Future Development Ideas
 
