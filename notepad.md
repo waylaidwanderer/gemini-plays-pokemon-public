@@ -22,27 +22,28 @@
 
 *   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions, and disable the radio signal.
 *   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras. Both ladders on B1F are either dead ends or one-way exits. Interacting with Scientist Jed at (18, 12) causes him to move temporarily, but he blocks the path again.
-*   **Current Plan:** Use the `sequential_puzzle_solver` agent to determine the next step in the hidden floor puzzle. Mark each correct step with a map marker.
 
 ### Floor Puzzle - Team Rocket Hideout B1F
-*   **Mechanics:** This is a state-based sequence puzzle. Stepping on incorrect tiles may reset the puzzle or trigger traps. Stepping on correct tiles causes environmental changes (objects appearing/disappearing) that indicate progress. Backtracking along the correct path does not reset the puzzle.
-*   **Successful Sequence (so far):** (20, 7) -> (19, 7) -> (18, 7) -> (17, 7) -> (16, 7) -> (15, 7) -> (14, 7) -> (14, 6) -> (14, 5) -> (13, 5) -> (12, 5) -> (11, 5) -> (10, 5) -> (9, 5) -> (8, 5) -> (7, 5) -> (8, 5) -> (9, 5) -> (10, 5) -> (11, 5) -> (12, 5) -> (13, 5) -> (14, 5) -> (15, 5) -> (16, 5) -> (17, 5) -> (18, 5) -> (19, 5) -> (20, 5) -> (21, 5) -> (22, 5) -> (23, 5) -> (23, 6) -> (24, 6) -> (25, 6) -> (26, 6) -> (26, 7) -> (26, 8) -> (26, 9) -> (25, 9) -> (24, 9) -> (24, 10) -> (24, 11) -> (24, 12) -> (24, 13) -> (25, 13) -> (26, 13) -> (27, 13) -> (27, 12) -> (28, 12) -> (28, 11) -> (28, 10) -> (28, 9) -> (27, 9) -> (26, 9) -> (26, 8).
+*   **Mechanics:** This is a state-based sequence puzzle. Stepping on tiles in a specific order changes the state of objects in the room (e.g., Poke Balls appearing/disappearing). The path involves loops and state-toggling tiles.
+*   **Corrected Path Sequence:** The full path is a long, looping sequence. The critical segments are:
+    1.  **Initial Path:** `(20, 7) -> ... -> (23, 6) -> (24, 6) -> (25, 6) -> (26, 6)`
+    2.  **Southern Loop:** From (26, 6), the path proceeds through a large southern loop starting with `(26, 7) -> (26, 8) -> (26, 9)` and ending at `(27, 9)`.
+    3.  **Return Path:** After the southern loop, the path is `(27, 9) -> (26, 9) -> (26, 8) -> (26, 7)`. I am currently at (26, 7).
 *   **Key State Changes:**
     *   Stepping on (14, 7) makes the Poke Ball at (21, 12) disappear.
     *   Stepping on (14, 6) makes the Scientist at (18, 12) disappear.
     *   Stepping on (8, 5) makes the ROCKET grunt at (2, 4) disappear.
     *   Stepping on (21, 5) makes a Poke Ball appear at (27, 6).
-    *   Stepping on (26, 7) makes the Poke Ball at (21, 12) reappear.
     *   Stepping on (24, 12) makes the Poke Ball at (27, 6) disappear.
     *   Stepping on (27, 13) makes the Poke Ball at (21, 12) disappear.
     *   Stepping on (28, 11) makes the Poke Ball at (27, 6) reappear.
-    *   Stepping on (26, 9) makes the Poke Ball at (21, 12) reappear.
-    *   Stepping on (27, 9) makes the Poke Ball at (21, 12) disappear.
+    *   **Toggle 1:** Stepping on (26, 9) makes the Poke Ball at (21, 12) reappear.
+    *   **Toggle 2:** Stepping on (27, 9) makes the Poke Ball at (21, 12) disappear.
 *   **Failed Paths:** 
     *   The entire path starting with `(7, 5) -> (7, 6)` is a confirmed dead end.
     *   The step from `(23, 6) -> (23, 7)` is a TRAP that resets the puzzle state.
     *   The step from `(27, 12) -> (26, 12)` is a TRAP that resets the puzzle state.
-*   **Current Hypothesis:** The path continues downwards from (24, 12).
+*   **Current State & Hypothesis:** I am at (26, 7). Both Poke Balls at (21, 12) and (27, 6) are visible. I have seemingly explored all adjacent tiles. My hypothesis is that completing the full loop has triggered a change elsewhere on the map, or that I need to re-interact with something now that the puzzle is in this new state.
 
 ## IV. Battle Discoveries & Type Chart
 
