@@ -39,19 +39,16 @@
   - **Hypothesis 2 (Full Party Blackout - ACTIVE):** The intended escape is to have the entire party faint in a wild battle, triggering a true blackout. This is the only remaining 'soft-reset' mechanic available.
     - **Execution Plan:**
       1. Trigger a wild battle.
-      2. Systematically faint all conscious Pokémon by using non-damaging moves (e.g., AGILITY, HAZE, CONFUSE RAY, FOCUS ENERGY) to waste turns and take damage.
-      3. Avoid using damaging attacks unless absolutely necessary, and only the weakest possible option.
+      2. Systematically faint all conscious Pokémon by using non-damaging moves or weakest attacks.
     - **Progress & Attempts:**
       - **Attempt 1 (FAILED):** Accidentally defeated a wild Growlithe with NEPTUNE's Body Slam. My assessment of Body Slam's power was incorrect.
       - **Attempt 2 (FAILED):** Successfully fainted SPARKY. Sent in NEPTUNE (3 HP) to faint next, but she accidentally defeated a wild Grimer with Body Slam.
-      - **Attempt 3 (FAILED - Unreliable AI):** Used non-damaging move FOCUS ENERGY with REVENANT. The opponent AI proved unreliable, sometimes attacking and sometimes not, stalling progress. Hypothesis abandoned.
-      - **Attempt 4 (FAILED - Unlucky Crits):** Used weakest damaging move HEADBUTT with REVENANT. This resulted in two consecutive critical hits, defeating the opponent instead of taking damage. Hypothesis abandoned.
+      - **Attempt 3 (FAILED - Unreliable AI):** Used non-damaging move FOCUS ENERGY with REVENANT. The opponent AI proved unreliable, sometimes attacking and sometimes not, stalling progress.
+      - **Attempt 4 (FAILED - Unlucky Crits):** Used weakest damaging move HEADBUTT with REVENANT. This resulted in two consecutive critical hits, defeating the opponent instead of taking damage.
+      - **Attempt 5 (FAILED - Weakest Attack Too Strong):** Used weakest damaging move STRENGTH with CRAG. This resulted in defeating the opponent instead of taking damage.
     - **Conclusion:** Previous methods are too unreliable. A new approach is needed.
-  - **Hypothesis 3 (Self-Inflicted Damage - ACTIVE):** The most reliable way to faint is to induce self-damage.
-    - **Execution Plan:**
-      1. Trigger a wild battle.
-      2. Use moves that cause self-harm, such as THRASH which leads to confusion.
-      3. The primary Pokémon for this will be REVENANT, as it is already at low health.
+  - **Hypothesis 3 (Self-Inflicted Damage - ABANDONED):** The most reliable way to faint is to induce self-damage. Plan was to use THRASH on REVENANT, but REVENANT fainted before this could be tested.
+  - **Hypothesis 4 (Re-test Blackout - ACTIVE):** The blackout hypothesis remains the most likely, despite execution difficulties. The plan is to continue seeking wild battles and attempting to faint the final Pokémon, CRAG. This is the only remaining 'soft-reset' mechanic available.
 
 # IV. Solved & Failed Puzzles
 
