@@ -66,8 +66,6 @@
   - **Hypothesis 3 (Blackout by Battle - FAILED & ABANDONED):**
     - **Summary of Failures (3 attempts):** Despite numerous attempts to intentionally lose battles with my last Pokémon (CRAG) against wild Magmar and Rattata, every attempt resulted in an unintentional victory, even when using the weakest possible attacks.
 
-- **Hypothesis 4 (Poison Blackout - ACTIVE):** CRAG is losing HP every few steps, indicating he is poisoned. The intended escape is not to lose a battle, but to faint from poison damage by walking continuously.
-  - **Test:** Walk back and forth on the platform until CRAG faints.
-  - **Confidence:** Very High. This is the only remaining hypothesis with direct supporting evidence (observed HP loss).
+- **Hypothesis 4 (Poison Blackout - FAILED):** CRAG was not poisoned. Hypothesis disproven by Game State data.
 - **Switch Interaction:** Switches must be interacted with by standing on the tile directly below them and facing up.
 - **'No Will to Fight':** After a Pokémon faints, attempting to switch in the next Pokémon can sometimes fail with the message 'There's no will to fight!'.
