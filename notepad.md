@@ -70,3 +70,7 @@
     - **Test:** Attempted to walk east from (22, 15) into the wall at (23, 15).
     - **Outcome:** Movement was blocked.
     - **Conclusion:** Hypothesis is incorrect.
+  - **Hypothesis 3 (Agent):** The room is an intentional trap, and the only escape is to 'black out' by fainting.
+    - **Test:** Triggered a wild encounter and let one Pokémon faint, then declined to send another.
+    - **Outcome:** Ran from the battle ("Got away safely!"). Was not warped out of the room.
+    - **Conclusion:** This specific method of losing a battle does not solve the puzzle. The full "blackout" theory (all Pokémon fainting) remains untested.
