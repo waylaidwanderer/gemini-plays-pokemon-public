@@ -15,7 +15,7 @@
 - `cuttable`: A tree that can be cut with HM01 Cut.
 - `hole`: A tile that causes the player to fall to the floor below.
 - `spinner_up/down/left/right`: Forces movement in a specific direction.
-- `gate_offscreen`: Gates not on screen. Treated as potentially open for pathfinding.
+- `gate_offscreen`: A gate not currently on screen. Its state is unknown and treated as potentially open for pathfinding. Upon entering the screen, its state can be revealed as `open_gate` or `closed_gate`.
 - `closed_gate`: A gate that is visibly closed and acts as an impassable wall.
 - `open_gate`: A gate that is visibly open and acts as ground.
 - `Switch Interaction`: Switches can appear on impassable tiles. They must be interacted with by standing on an adjacent tile (usually below) and facing the switch.
@@ -45,9 +45,7 @@
 - **Pokemon Mansion 1F - Alternating Doors Puzzle:** The switch at (3, 6) on 1F and the switch at (3, 12) on 2F control a series of alternating gates, creating one-way paths and traps.
 - **Pokemon Mansion 1F - Secret Passage:** The eastern corridor "trap" is escaped by walking through a secret passage in the impassable wall. The `path_planner` tool can detect these.
 - **Gate/Warp Interaction:** A tile can be both a gate and a warp. Even if the gate is visually closed, the warp can still be reachable and usable if listed as such in the Game State Information.
-- `gate_offscreen`: A gate not currently on screen. Its state is unknown and treated as potentially open for pathfinding. Upon entering the screen, its state can be revealed as `open_gate` or `closed_gate`.
 
 # V. Mansion Diaries
 - **Diary 1 (2F):** "July 5. Guyana, South America. A new POKéMON was discovered deep in the jungle."
-- **Diary 2 (2F):** "July 10. We christened the newly discovered POKéMON, MEW."
 - **Diary 2 (2F):** "July 10. We christened the newly discovered POKéMON, MEW."
