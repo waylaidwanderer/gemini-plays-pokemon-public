@@ -58,9 +58,9 @@
     *   The Pharmacist is not the trigger. (Test confirmed)
     *   The incense burner at (6, 1) is not a switch. (Test confirmed, marker placed)
     *   The bookshelf at (7, 1) is not a switch. (Test confirmed, marker placed)
-*   **New Discovery & Correction:** The Black Belt at (1, 6) did NOT disappear. He reappeared after I attempted to move into his previous location. My hypothesis was incorrect.
-*   **New Hypothesis:** The puzzle involves a sequence of events that resets or changes based on my actions. The Black Belt's presence is a key part of this sequence, not a one-time event.
-*   **Next Step:** Interact with the Black Belt again from my current position to see if his dialogue has changed.
+*   **New Discovery & Correction:** The Black Belt at (1, 6) reappears if I get too close to his original location after he vanishes. This confirms the puzzle is sequential and time-sensitive.
+*   **New Hypothesis:** The correct sequence is to trigger the Black Belt's disappearance by interacting with the bookshelf, and then, while he is gone, immediately move to a different trigger point before he can reappear. The most likely secondary trigger is the warp at (7, 3).
+*   **Next Step:** I will return to the bookshelf to start the sequence again.
 
 ## VI. Immediate Tasks & Reminders
 
