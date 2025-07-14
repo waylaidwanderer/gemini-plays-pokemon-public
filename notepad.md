@@ -69,6 +69,7 @@
 
 ## Current Plan
 - Proceed through the now-open western gate at (17, 8) to explore the western side of the mansion.
+- Proceed through the now-open western gate at (17, 8) to explore the western side of the mansion.
   - **Conclusion:** Hypothesis confirmed.
   - **Conclusion:** Hypothesis confirmed.
 
@@ -117,6 +118,7 @@
   - **Conclusion:** Hypothesis confirmed.
 
 ## Current Plan
+- Proceed through the now-open western gate at (17, 8) to explore the western side of the mansion.
 - Proceed through the now-open western gate at (17, 8) to explore the western side of the mansion.
   - **Conclusion:** Hypothesis confirmed.
   - **Conclusion:** Hypothesis confirmed.
