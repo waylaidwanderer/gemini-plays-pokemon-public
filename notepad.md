@@ -26,6 +26,7 @@
 *   `BUOY`
 *   `CHAIR`
 *   `CHIMNEY`
+*   `COUNTER`
 *   `FENCE`
 *   `FLOWER`
 *   `INCENSE_BURNER`
@@ -52,7 +53,6 @@
 *   `WATER_EDGE_RIGHT`
 *   `WEIRD_TREE`
 *   `WINDOW`
-*   `COUNTER`
 
 **Warps:**
 *   `CAVE`
@@ -71,12 +71,13 @@
 *   `LEDGE_HOP_LEFT`
 *   `PIT` (One-way down)
 
-**Untested:**
-
 ## III. Current Investigation: Team Rocket Hideout
 
 *   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions, and disable the radio signal.
 *   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras. Both ladders on B1F are either dead ends or one-way exits. Interacting with Scientist Jed at (18, 12) causes him to move temporarily, but he blocks the path again.
+
+### Passwords
+*   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
 
 ### Floor Puzzle - Team Rocket Hideout B1F
 *   **Mechanics:** This is a state-based sequence puzzle. Stepping on tiles in a specific order changes the state of objects in the room (e.g., Poke Balls appearing/disappearing). The path involves loops and state-toggling tiles.
@@ -100,6 +101,14 @@
     *   The step from `(27, 12) -> (26, 12)` is a TRAP that resets the puzzle state.
 *   **Current State & Hypothesis:** I am at (26, 7). Both Poke Balls at (21, 12) and (27, 6) are visible. I have seemingly explored all adjacent tiles. My hypothesis is that completing the full loop has triggered a change elsewhere on the map, or that I need to re-interact with something now that the puzzle is in this new state.
 
+### Floor Puzzle - Team Rocket Hideout B2F
+*   **Mechanics:** This appears to be another state-based sequence puzzle. Stepping on specific tiles triggers changes to objects on the floor (Poke Balls, Voltorbs, and Grunts appearing/disappearing).
+*   **Known Triggers:**
+    *   Stepping from (1, 15) to (1, 16) makes the Poke Ball at (3, 10) disappear.
+    *   Stepping from (5, 16) to (5, 15) makes the Poke Ball at (3, 10) reappear.
+    *   Stepping from (8, 13) to (9, 13) makes the Poke Ball at (3, 10) disappear.
+    *   Stepping from (15, 13) to (14, 13) makes the ROCKET grunt at (21, 14) disappear.
+
 ## IV. Battle Discoveries & Type Chart
 
 ### Verified Type Interactions
@@ -113,12 +122,3 @@
 *   **Alternative Hypothesis #1:** The issue is story-related and will resolve after defeating the hideout's leader. **Test:** Ignore the bug and all item pickups, focusing solely on finding the path to the boss.
 *   **Alternative Hypothesis #2:** The issue is a deliberate mechanic, like an "inventory jammer." **Test:** Search for a machine, a generator, or a switch that could be responsible for this effect and interact with it.
 *   **Alternative Hypothesis #3:** The inventory issue is a temporary story mechanic, not a bug. It may resolve automatically after defeating the hideout's leader. **Test:** If other hypotheses fail, ignore all item pickups and focus solely on finding the path to the boss.
-
-### Floor Puzzle - Team Rocket Hideout B2F
-*   **Mechanics:** This appears to be another state-based sequence puzzle. Stepping on specific tiles triggers changes to objects on the floor (Poke Balls, Voltorbs, and Grunts appearing/disappearing).
-*   **Known Triggers:**
-    *   Stepping from (1, 15) to (1, 16) makes the Poke Ball at (3, 10) disappear.
-    *   Stepping from (5, 16) to (5, 15) makes the Poke Ball at (3, 10) reappear.
-    *   Stepping from (8, 13) to (9, 13) makes the Poke Ball at (3, 10) disappear.
-*   Stepping from (15, 13) to (14, 13) makes the ROCKET grunt at (21, 14) disappear.
-*   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
