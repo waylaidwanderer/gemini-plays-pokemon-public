@@ -48,7 +48,6 @@
 ### Tool & Agent Concepts (Brainstorm)
 *   `inventory_manager` (Agent): Could analyze my bag and suggest items to toss when it's full.
 *   `map_scanner` (Tool): A tool to scan the current map for specific objects (e.g., all item balls) or tile types to speed up exploration planning.
-*   **Special Warps (Verified):** `WARP_PANEL` (One-way teleporter).
 
 ## VII. Open Investigations
 
