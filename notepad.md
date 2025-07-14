@@ -93,61 +93,9 @@
 *   **Alternative Hypothesis #2:** The issue is a deliberate mechanic, like an "inventory jammer." **Test:** Search for a machine, a generator, or a switch that could be responsible for this effect and interact with it.
 *   **Alternative Hypothesis #3:** The inventory issue is a temporary story mechanic, not a bug. It may resolve automatically after defeating the hideout's leader. **Test:** If other hypotheses fail, ignore all item pickups and focus solely on finding the path to the boss.
 
-## III. Current Investigation: Team Rocket Hideout - B3F Puzzle
+## III. Current Investigation: Team Rocket Hideout - Floor Puzzle
 
-*   **Objective:** Find the second password for the boss's quarters.
-*   **Observation:** The eastern and western sections of this floor are separated by a wall. Movement along the Y=12 corridor in the eastern section triggers state changes (Poke Balls appearing/disappearing) in the western section.
-*   **Hypothesis 1:** Completing a specific sequence of movements along the Y=12 corridor will solve the puzzle.
-
-### Puzzle Log
-*   **Test 1:** Followed `sequential_puzzle_solver` agent's advice.
-    *   **Action:** Moved from (24, 12) to (25, 12).
-    *   **Observation:** The Poke Ball at (28, 9) remained visible. No other state change observed.
-    *   **Conclusion:** This step is part of the sequence, but not a primary trigger on its own.
-*   **Test 2:** Followed `sequential_puzzle_solver` agent's advice.
-    *   **Action:** Moved from (25, 12) to (26, 12).
-    *   **Observation:** The Poke Ball at (28, 9) remained visible. No other state change observed.
-    *   **Conclusion:** Reaching the end of the eastward path did not trigger a state change.
-*   **Test 3:** Followed `sequential_puzzle_solver` agent's advice.
-    *   **Action:** Moved from (26, 12) to (26, 11).
-    *   **Observation:** The Poke Ball at (28, 9) remained visible. No other state change observed.
-    *   **Conclusion:** Moving off the Y=12 corridor to the north did not trigger a state change.
-*   **Test 4:** Followed `sequential_puzzle_solver` agent's advice.
-    *   **Action:** Moved from (26, 11) to (25, 11).
-    *   **Observation:** The Poke Ball at (28, 9) remained visible. No other state change observed.
-    *   **Conclusion:** Moving along the parallel Y=11 corridor did not trigger a state change.
-*   **Test 5:** Followed `sequential_puzzle_solver` agent's advice.
-    *   **Action:** Moved from (25, 11) to (25, 12).
-    *   **Observation:** The Poke Ball at (28, 9) remained visible. No other state change observed.
-    *   **Conclusion:** Returning to the Y=12 corridor did not trigger a state change.
-*   **Test 6:** Followed `sequential_puzzle_solver` agent's advice.
-    *   **Action:** Moved from (25, 12) to (24, 12).
-    *   **Observation:** The Poke Ball at (28, 9) remained visible. No other state change observed.
-    *   **Conclusion:** Backtracking westward along the Y=12 corridor did not trigger a state change.
-*   **Test 7:** Followed `sequential_puzzle_solver` agent's advice.
-    *   **Action:** Moved from (24, 12) to (23, 12).
-    *   **Observation:** The Poke Ball at (28, 9) remained visible. No other state change observed.
-    *   **Conclusion:** Continuing to backtrack westward along the Y=12 corridor did not trigger a state change.
-*   **Test 8:** Followed `sequential_puzzle_solver` agent's advice.
-    *   **Action:** Moved from (23, 12) to (22, 12).
-    *   **Observation:** The Poke Ball at (28, 9) remained visible. No other state change observed.
-    *   **Conclusion:** Continuing to backtrack westward along the Y=12 corridor did not trigger a state change.
-*   **Test 9:** Followed `sequential_puzzle_solver` agent's advice.
-    *   **Action:** Moved from (22, 12) to (21, 12).
-    *   **Observation:** The Poke Ball at (28, 9) disappeared.
-    *   **Conclusion:** A specific tile on the Y=12 corridor (21, 12) acts as a trigger for the puzzle state.
-*   **Test 10:** Followed `sequential_puzzle_solver` agent's advice.
-    *   **Action:** Moved from (21, 12) to (20, 12).
-    *   **Observation:** The Poke Ball at (14, 10) appeared.
-    *   **Conclusion:** The tile at (20, 12) is another trigger in the sequence.
-*   **Test 11:** Followed `sequential_puzzle_solver` agent's advice.
-    *   **Action:** Moved from (19, 12) to (19, 11).
-    *   **Observation:** The Poke Ball at (14, 10) remained visible. No other state change observed.
-    *   **Conclusion:** Moving off the Y=12 corridor to the north did not trigger a state change.
-*   **Test 12:**
-    *   **Observation:** A new Poke Ball (ID 13) appeared at (17, 2).
-    *   **Conclusion:** A state change has occurred, likely triggered by a previous action. This new object is the next logical step in the puzzle.
-    *   **Next Step:** Navigate to and investigate the new Poke Ball.
-*   **Pathfinding Failure:** `smart_pathfinder` could not find a path to the new Poke Ball at (17, 2).
-*   **New Hypothesis:** The map is physically divided into eastern and western sections. The puzzle likely requires accessing the western section via a different route.
-*   **Next Step:** Investigate the unexplored warp (ladder) at (27, 2).
+*   **Objective:** Find the path through the trapped floor on B1F.
+*   **Key Information:** A grunt at (2, 4) said, "You'll just have to collect your courage and walk."
+*   **Current Hypothesis:** The puzzle is not a complex sequence, but a hidden path of safe tiles that must be discovered by walking over them. Incorrect steps likely trigger battles or reset the puzzle.
+*   **Plan:** Systematically test each tile starting from (14, 7) to map out the safe route.
