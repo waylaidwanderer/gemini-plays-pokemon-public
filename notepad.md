@@ -41,7 +41,8 @@
 *   **Hypothesis 1 (Invalidated):** The puzzle is a rapid, timed sequence. All attempts to interact with the warp tile (7, 3), the incense burner (6, 1), the pharmacist (4, 3), or the guard's original spot (1, 6) immediately after the guard disappears have failed because moving away from the bookshelf resets the puzzle. This entire line of reasoning is considered BUSTED.
 *   **Hypothesis 2 (Invalidated):** The bookshelf event enables the warp at (7, 3). Attempts to activate the warp by standing on it, pressing 'A', or pressing 'Down' have all failed. This hypothesis is BUSTED.
 *   **Hypothesis 3 (Invalidated):** The bookshelf event changes the state of the Pharmacist at (4, 3). **Test Result:** After triggering the bookshelf event, interacting with the Pharmacist only opens his regular shop menu. This hypothesis is BUSTED.
-*   **New Hypothesis (To Be Tested):** The bookshelf event changes the state of the Black Belt guard at (1, 6). Perhaps interacting with him after the bookshelf event triggers the next step. **Test Plan:** 1. Ensure bookshelf event has been triggered. 2. Go to (1, 5) and interact with the Black Belt.
+*   **Hypothesis 4 (Invalidated):** Interacting with the Black Belt at (1, 6) after the bookshelf event would open the passage. **Test Result:** The guard revealed he was Team Rocket and disappeared, but this did not activate the warp at (7, 3). This hypothesis is BUSTED.
+*   **New Hypothesis (To Be Tested):** The true entrance is the Incense Burner at (6, 1). Interacting with it after the guard disappears will reveal the passage. **Test Plan:** 1. Complete the bookshelf and guard interaction sequence. 2. Go to (6, 2) and interact with the Incense Burner.
 
 ## V. Future Development Ideas
 
