@@ -38,16 +38,6 @@
     *   Stepping on (28, 11) makes the Poke Ball at (27, 6) reappear.
     *   Stepping on (26, 9) makes the Poke Ball at (21, 12) reappear.
     *   Stepping on (27, 9) makes the Poke Ball at (21, 12) disappear.
-*   **Key State Changes:**
-    *   Stepping on (14, 7) makes the Poke Ball at (21, 12) disappear.
-    *   Stepping on (14, 6) makes the Scientist at (18, 12) disappear.
-    *   Stepping on (8, 5) makes the ROCKET grunt at (2, 4) disappear.
-    *   Stepping on (21, 5) makes a Poke Ball appear at (27, 6).
-    *   Stepping on (26, 7) makes the Poke Ball at (21, 12) reappear.
-    *   Stepping on (24, 12) makes the Poke Ball at (27, 6) disappear.
-    *   Stepping on (27, 13) makes the Poke Ball at (21, 12) disappear.
-    *   Stepping on (26, 12) makes the Poke Ball at (21, 12) reappear.
-    *   Stepping on (28, 11) makes the Poke Ball at (27, 6) reappear.
 *   **Failed Paths:** 
     *   The entire path starting with `(7, 5) -> (7, 6)` is a confirmed dead end.
     *   The step from `(23, 6) -> (23, 7)` is a TRAP that resets the puzzle state.
