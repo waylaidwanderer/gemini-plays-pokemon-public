@@ -21,39 +21,23 @@
 ## III. Current Investigation: Team Rocket Hideout
 
 *   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions, and disable the radio signal.
-*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras.
-*   **Untested Assumptions:**
-    1.  **Assumption:** The radio signal source is on a lower floor, guarded by a leader.
-        *   **Alternative Hypothesis:** The source is on B1F behind a secret passage, or is a Pokémon itself.
-        *   **Test:** Before descending, perform a final sweep of B1F, interacting with all suspicious walls/objects.
-    2.  **Assumption:** Defeating the leader automatically stops the broadcast.
-        *   **Alternative Hypothesis:** A separate interaction with a machine is required after the battle.
-        *   **Test:** After the leader battle, interact with any machinery in the room before leaving.
+*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras. Both ladders on B1F are either dead ends or one-way exits.
+*   **Current Plan:** Since all obvious paths have been exhausted, my next step is to systematically re-investigate the central area of B1F after using the warp panel at (5, 15). I will re-interact with all objects and NPCs to check for missed triggers.
 
-## V. Battle Discoveries & Type Chart
+## IV. Battle Discoveries & Type Chart
 
 ### Verified Type Interactions
 *   **Water (Surf) vs. Gyarados (Water/Flying):** Observed as "not very effective". This contradicts standard type charts. Need to investigate further.
 
-## VI. Ideas & Future Plans
+## V. Ideas & Future Plans
 
-### Tool Concepts
-*   **`battle_menu_navigator`:** A potential tool to automate move selection in simple, repetitive battles.
-*   **`exploration_advisor`:** An agent to analyze the map and suggest exploration priorities.
+### Tool & Agent Concepts
+*   **`exploration_advisor` (Tool):** A tool to parse the map XML and return a list of coordinates for reachable unseen tiles to guide exploration.
+*   **`item_scanner` (Tool):** A tool to scan the current map for all item balls to speed up collection planning.
 
-### Untested Hypotheses
-*   **Floor Trap State:** Are the floor traps random or on fixed tiles? **Test:** After clearing an area, walk back over a tile where a trap was previously triggered.
-*   **Camera Switch Scope:** Does the switch at (19, 11) disable *all* security cameras, or only those on B1F? **Test:** If I find cameras on other floors, I must test them by walking in front of them.
-
-### Tool & Agent Concepts (Brainstorm)
-*   `inventory_manager` (Agent): Could analyze my bag and suggest items to toss when it's full.
-*   `map_scanner` (Tool): A tool to scan the current map for specific objects (e.g., all item balls) or tile types to speed up exploration planning.
-
-## VII. Open Investigations
+## VI. Open Investigations
 
 ### Inventory Management Bug
 *   **Observation:** All menu-based attempts to free an inventory slot (`TOSS`, `GIVE`, `DEPOSIT`) have failed, resulting in a menu loop.
 *   **Current Hypothesis:** The only way to free an inventory slot is to consume an item during a battle.
-*   **Test:** Initiate a battle in the Team Rocket Hideout and attempt to use a Potion.
-*   **Alternative Hypothesis 1:** A different button (e.g., 'Select' or 'Start') is required for confirmation in inventory menus.
-*   **Alternative Hypothesis 2:** Inventory management is story-locked until Team Rocket is defeated in Mahogany.
+*   **Test:** Initiate a battle and attempt to use a Potion.
