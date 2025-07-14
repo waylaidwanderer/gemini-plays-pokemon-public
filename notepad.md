@@ -79,3 +79,4 @@
   - **Conclusion:** The test is invalid and needs to be repeated.
 - **Hypothesis 9 (Active):** The 'black out' escape mechanic failed previously due to an unknown condition (accidentally winning), but re-testing it is necessary as game states can change.
   - **Test Plan:** Find a wild Pokémon and deliberately lose the battle to trigger a 'black out'.
+- **New Immunity Observed:** POISON GAS (Poison) had no effect on REVENANT (MAROWAK, Ground-type).
