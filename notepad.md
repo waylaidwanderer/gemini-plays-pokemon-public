@@ -40,7 +40,7 @@
   - **Status:** Currently trapped. All agent-generated hypotheses have been tested and have failed.
   - **Failed Hypotheses Log:**
     - **Blackout (Weakest Attack):** FAILED (3 attempts). CRAG is too strong.
-    - **Blackout (Run/Fail):** FAILED (1 attempt). CRAG is too fast.
+    - **Blackout (Run/Fail):** FAILED (2 attempts). Successfully ran away, which defeats the purpose of fainting.
     - **Blackout (Waste Turn w/ Item):** FAILED (1 attempt). Accidentally caught the Pokémon.
     - **Escape Item/Move:** FAILED. No Escape Rope or Pokémon with Dig.
     - **Hidden Switch:** FAILED. Checked all tiles in the corridor.
