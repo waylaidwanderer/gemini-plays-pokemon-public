@@ -49,10 +49,13 @@
 *   **Hypothesis 1:** The switch is in the northern statue at (24, 1).
 *   **Test 1:** Interacted with the statue at (24, 1).
 *   **Conclusion 1:** Interaction revealed dialogue ('Its eyes are oddly shiny.') but did not flip a switch. Hypothesis is incorrect.
-### Team Rocket Hideout Security Puzzle (Update)
-*   **Observation 2:** The ROCKET Grunt at (2, 4) is not a battle encounter. He provides dialogue warning about floor traps that are randomly placed, stating "You'll just have to collect your courage and walk." This confirms the presence of a floor trap puzzle.
-*   **Hypothesis 2:** The switch is in the southern statue at (24, 5).
-*   **Next Step:** Navigate around the grunt at (2, 4) and proceed south to test the statue at (24, 5).
+### Team Rocket Hideout Security Puzzle (Solved)
+*   **Observation 2:** The ROCKET Grunt at (2, 4) provides dialogue warning about floor traps.
+*   **Observation 3:** A secret switch is located at (19, 11), behind a desk in a central room.
+*   **Hypothesis 2:** Activating the switch at (19, 11) will disable the security cameras.
+*   **Test 2:** Interacted with the switch at (19, 11).
+*   **Test 3:** Walked from (19, 12) to (23, 5), passing in front of the security camera at (24, 5). No battle was triggered.
+*   **Conclusion 2:** The switch at (19, 11) has successfully disabled the security cameras. The path is now safe from camera-triggered encounters.
 ### Team Rocket Hideout B2F
 *   **Status:** Arrived on B2F via a ladder. Lance is here, as is an item ball. This seems to be a significant area.
 ## VI. Ideas & Future Plans
