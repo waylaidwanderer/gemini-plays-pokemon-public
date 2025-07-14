@@ -47,11 +47,7 @@
   - **Immediate Plan:** Attempt to black out one more time to return to the last used Pokémon Center. From there, I will focus on finding a Pokémon that can learn Dig or finding the TM for Dig.
 
 # IV. Solved & Failed Puzzles
-- **Pokemon Mansion 1F - Switch at (3, 6) (Failed - Attempt 1):**
-    - **Hypothesis:** Pressing the switch at (3, 6) will open the eastern gates at (25, 14).
-    - **Test:** Stood at (4, 6) and pressed A to interact with the switch.
-    - **Outcome:** Nothing happened. No text appeared.
-    - **Conclusion:** This switch does not work in isolation.
+
 - **Pokemon Mansion B1F - Western Exploration (Failed - Attempt 1):**
     - **Hypothesis:** The solution to opening the eastern gates lies within the unexplored western section of the B1F floor.
     - **Test:** Attempted to pathfind to the western section.
