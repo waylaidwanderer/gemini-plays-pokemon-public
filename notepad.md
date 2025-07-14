@@ -39,36 +39,26 @@
 *   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions.
 *   **Route 43 Status:** The eastern path is blocked by a bugged Super Nerd at (14, 7); all attempts to pass have failed. The western path is the only viable route south.
 
+### Team Rocket Hideout Security Puzzle (Solved)
+*   **Observation:** The ROCKET Grunt at (2, 4) provides dialogue warning about floor traps. A secret switch is located at (19, 11), behind a desk in a central room.
+*   **Hypothesis:** Activating the switch at (19, 11) will disable the security cameras.
+*   **Test:** Interacted with the switch at (19, 11). Walked from (19, 12) to (23, 5), passing in front of the security camera at (24, 5). No battle was triggered.
+*   **Conclusion:** The switch at (19, 11) has successfully disabled the security cameras. The path is now safe from camera-triggered encounters.
+
+### Team Rocket Hideout B2F
+*   **Status:** Arrived on B2F via a ladder. Lance is here, as is an item ball. This seems to be a significant area.
+
 ## V. Battle Discoveries & Type Chart
 
 ### Verified Type Interactions
 *   **Water (Surf) vs. Gyarados (Water/Flying):** Observed as "not very effective". This contradicts standard type charts. Need to investigate further.
 
-### Team Rocket Hideout Security Puzzle (Solved)
-*   **Observation 2:** The ROCKET Grunt at (2, 4) provides dialogue warning about floor traps.
-*   **Observation 3:** A secret switch is located at (19, 11), behind a desk in a central room.
-*   **Hypothesis 2:** Activating the switch at (19, 11) will disable the security cameras.
-*   **Test 2:** Interacted with the switch at (19, 11).
-*   **Test 3:** Walked from (19, 12) to (23, 5), passing in front of the security camera at (24, 5). No battle was triggered.
-*   **Conclusion 2:** The switch at (19, 11) has successfully disabled the security cameras. The path is now safe from camera-triggered encounters.
-### Team Rocket Hideout Security Puzzle (Solved)
-*   **Observation 2:** The ROCKET Grunt at (2, 4) provides dialogue warning about floor traps.
-*   **Observation 3:** A secret switch is located at (19, 11), behind a desk in a central room.
-*   **Hypothesis 2:** Activating the switch at (19, 11) will disable the security cameras.
-*   **Test 2:** Interacted with the switch at (19, 11).
-*   **Test 3:** Walked from (19, 12) to (23, 5), passing in front of the security camera at (24, 5). No battle was triggered.
-*   **Conclusion 2:** The switch at (19, 11) has successfully disabled the security cameras. The path is now safe from camera-triggered encounters.
-### Team Rocket Hideout B2F
-*   **Status:** Arrived on B2F via a ladder. Lance is here, as is an item ball. This seems to be a significant area.
 ## VI. Ideas & Future Plans
 
 ### Tool Concepts
-*   **`battle_menu_navigator`:** A potential tool to automate move selection in simple, repetitive battles. It would take opponent type(s) and my current moveset as input and output the button presses to select the optimal attack. This would save time against floor traps.
+*   **`battle_menu_navigator`:** A potential tool to automate move selection in simple, repetitive battles.
+*   **`exploration_advisor`:** An agent to analyze the map and suggest exploration priorities.
 
 ### Untested Hypotheses
-*   **Floor Trap State:** Are the floor traps random or on fixed tiles? **Test:** After clearing an area, walk back over a tile where a trap was previously triggered. If it triggers again, the traps may be fixed. If not, they are likely random or on a cooldown.
-### Tool Concepts
-*   **`exploration_advisor`:** An agent to analyze the map and suggest exploration priorities based on unseen tiles, unmarked warps, and item balls.
-
-### Untested Hypotheses
+*   **Floor Trap State:** Are the floor traps random or on fixed tiles? **Test:** After clearing an area, walk back over a tile where a trap was previously triggered.
 *   **Camera Switch Scope:** Does the switch at (19, 11) disable *all* security cameras, or only those on B1F? **Test:** If I find cameras on other floors, I must test them by walking in front of them.
