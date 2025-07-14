@@ -48,12 +48,12 @@
 ## B. Current Plan
 **Attempt 1 (Failed):** Pressing the switch at (3, 12) a fifth time *closed* the gate at (8, 23), invalidating the hypothesis of a simple two-state cycle.
 
-**Attempt 3 (Revised):**
-1. **Observation:** I walked east and was stopped by an impassable wall at (15, 23).
-2. **Contradiction:** The game's validation check insists this is NOT a dead end.
-3. **Hypothesis:** The impassable wall at (15, 23) must be a secret passage.
-4. **Test:** Attempt to walk right, into the tile at (15, 23).
-5. **Expected Outcome:** I will pass through the wall, confirming the secret passage and opening the path to the eastern side of the floor.
+**Attempt 4 (Current):**
+1. **Observation:** Attempting to walk through the impassable wall at (15, 23) failed; my movement was blocked.
+2. **Contradiction:** The game's validation check *still* insists this is NOT a dead end.
+3. **Hypothesis:** The wall at (15, 23) is still the way forward, but it's not a simple walkable passage. It might require interaction.
+4. **Test:** Press 'A' while facing the wall at (15, 23).
+5. **Expected Outcome:** Interacting with the wall will trigger an event, open the passage, or reveal a clue.
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion 1F - Secret Passage:** The eastern corridor 'trap' is escaped by walking through a secret passage in an impassable wall. The `path_planner` tool can detect these.
