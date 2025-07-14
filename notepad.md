@@ -58,9 +58,9 @@
     *   The Pharmacist is not the trigger. (Test confirmed)
     *   The incense burner at (6, 1) is not a switch. (Test confirmed, marker placed)
     *   The bookshelf at (7, 1) is not a switch. (Test confirmed, marker placed)
-*   **New Discovery:** After testing the bookshelf, the Black Belt at (1, 6) has disappeared.
-*   **New Hypothesis:** The trigger for the secret passage is in the area previously blocked by the Black Belt.
-*   **Next Step:** Investigate the area around (1, 6).
+*   **New Discovery & Correction:** The Black Belt at (1, 6) did NOT disappear. He reappeared after I attempted to move into his previous location. My hypothesis was incorrect.
+*   **New Hypothesis:** The puzzle involves a sequence of events that resets or changes based on my actions. The Black Belt's presence is a key part of this sequence, not a one-time event.
+*   **Next Step:** Interact with the Black Belt again from my current position to see if his dialogue has changed.
 
 ## VI. Immediate Tasks & Reminders
 
