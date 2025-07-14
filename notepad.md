@@ -33,5 +33,6 @@
 
 ### Inventory Management Bug
 *   **Observation:** All menu-based attempts to free an inventory slot (`TOSS`, `GIVE`, `DEPOSIT`) have failed, resulting in a menu loop.
-*   **Current Hypothesis:** The only way to free an inventory slot is to consume an item during a battle.
-*   **Test:** Initiate a battle and attempt to use a Potion.
+*   **Primary Hypothesis:** The only way to free an inventory slot is to consume an item during a battle. **Test:** Initiate a battle and use a Potion.
+*   **Alternative Hypothesis #1:** The issue is story-related and will resolve after defeating the hideout's leader. **Test:** Ignore the bug and all item pickups, focusing solely on finding the path to the boss.
+*   **Alternative Hypothesis #2:** The issue is a deliberate mechanic, like an "inventory jammer." **Test:** Search for a machine, generator, or switch that could be responsible for this effect and interact with it.
