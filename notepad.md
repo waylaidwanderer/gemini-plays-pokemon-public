@@ -74,7 +74,7 @@
 ## III. Current Investigation: Team Rocket Hideout
 
 *   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions, and disable the radio signal.
-*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras. Both ladders on B1F are either dead ends or one-way exits. Interacting with Scientist Jed at (18, 12) causes him to move temporarily, but he blocks the path again.
+*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras. The floor on B1F has a hidden path of safe tiles that must be discovered by walking over them.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
@@ -89,13 +89,11 @@
 ### Inventory Management Bug
 *   **Observation:** All menu-based attempts to free an inventory slot (`TOSS`, `GIVE`, `DEPOSIT`) have failed, resulting in a menu loop.
 *   **Primary Hypothesis:** The only way to free an inventory slot is to consume an item during a battle. **Test:** Initiate a battle and use a Potion.
-*   **Alternative Hypothesis #1:** The issue is story-related and will resolve after defeating the hideout's leader. **Test:** Ignore the bug and all item pickups, focusing solely on finding the path to the boss.
-*   **Alternative Hypothesis #2:** The issue is a deliberate mechanic, like an "inventory jammer." **Test:** Search for a machine, a generator, or a switch that could be responsible for this effect and interact with it.
-*   **Alternative Hypothesis #3:** The inventory issue is a temporary story mechanic, not a bug. It may resolve automatically after defeating the hideout's leader. **Test:** If other hypotheses fail, ignore all item pickups and focus solely on finding the path to the boss.
 
-## III. Current Investigation: Team Rocket Hideout - Floor Puzzle
+### Untested Assumptions
+*   **Assumption:** The B1F floor puzzle is the only way to reach the boss.
+*   **Alternative Hypothesis:** The puzzle is optional, and the second password might be on B2F, or the boss door only requires one password.
+*   **Future Test:** After solving the current puzzle, re-explore B2F before proceeding to the boss.
 
-*   **Objective:** Find the path through the trapped floor on B1F.
-*   **Key Information:** A grunt at (2, 4) said, "You'll just have to collect your courage and walk."
-*   **Current Hypothesis:** The puzzle is not a complex sequence, but a hidden path of safe tiles that must be discovered by walking over them. Incorrect steps likely trigger battles or reset the puzzle.
-*   **Plan:** Systematically test each tile starting from (14, 7) to map out the safe route.
+### Tile Traversal Verification
+*   **Task:** Systematically test all tile types currently listed as 'Impassable' to confirm their behavior. Do not assume a tile is impassable based on its name.
