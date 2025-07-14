@@ -36,13 +36,8 @@
 ## IV. Puzzle Logs
 
 ### Mahogany Town & Route 43 Investigation
-*   **Objective:** Find the secret Team Rocket entrance.
-*   **Initial Hypothesis (Route 43):** The eastern path of Route 43 is the correct way to Mahogany Town.
-*   **Test:** Attempted to pass the Super Nerd at (14, 7).
-*   **Result:** Encountered a dialogue loop that could not be broken by pressing A, B, or stunning the NPC. The path is impassable.
-*   **Conclusion:** The eastern path is a dead end for now. The western path is the only way forward.
-*   **Hypothesis (Mahogany Mart):** The puzzle's purpose is not to open a passage *inside* the mart or to the gym. Its completion (triggering the bookshelf event, then speaking to the guard) must have triggered an event elsewhere.
-*   **Current Conclusion:** After speaking with Lance at the Lake of Rage, the next step is to find the source of the radio signal within Mahogany Town.
+*   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions.
+*   **Route 43 Status:** The eastern path is blocked by a bugged Super Nerd at (14, 7); all attempts to pass have failed. The western path is the only viable route south.
 
 ## V. Battle Discoveries & Type Chart
 
