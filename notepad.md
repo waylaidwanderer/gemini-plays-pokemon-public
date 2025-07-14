@@ -61,3 +61,4 @@
 # V. Mansion Diaries
 - **Diary 1 (2F):** "July 5. Guyana, South America. A new POKéMON was discovered deep in the jungle."
 - **Diary 2 (2F):** "July 10. We christened the newly discovered POKéMON, MEW."
+- `warp`: A tile that transports the player to another location, either on the same map or a different one.
