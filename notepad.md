@@ -25,12 +25,14 @@
 *   **Current Plan:** Use the `sequential_puzzle_solver` agent to determine the next step in the hidden floor puzzle. Mark each correct step with a map marker.
 
 ### Floor Puzzle - Team Rocket Hideout B1F
-*   **Mechanics:** This is a state-based sequence puzzle. Stepping on incorrect tiles resets the puzzle or triggers traps. Stepping on correct tiles causes environmental changes (objects appearing/disappearing) that indicate progress. Backtracking along the correct path does not reset the puzzle.
-*   **Successful Sequence (so far):** (20, 7) -> (19, 7) -> (18, 7) -> (17, 7) -> (16, 7) -> (15, 7) -> (14, 7) -> (14, 6) -> (14, 5) -> (13, 5) -> (12, 5) -> (11, 5) -> (10, 5) -> (9, 5) -> (8, 5) -> (7, 5).
-*   **Failed Steps:**
-    *   (7, 6) -> (7, 7) led to a dead end.
-    *   Agent `sequential_puzzle_solver` suggested `(7, 6) -> (6, 6)`, which failed as (6, 6) is a WALL. This confirms the agent needs map data to be effective.
-*   **New Hypothesis:** The step to (7, 6) was incorrect, likely resetting the puzzle without a visual cue. The correct path must deviate from (7, 5).
+*   **Mechanics:** State-based sequence puzzle. Stepping on incorrect tiles may reset the puzzle or trigger traps. Stepping on correct tiles causes environmental changes (objects appearing/disappearing) that indicate progress. Backtracking along the correct path does not reset the puzzle.
+*   **Successful Sequence (so far):** (20, 7) -> (19, 7) -> (18, 7) -> (17, 7) -> (16, 7) -> (15, 7) -> (14, 7) -> (14, 6) -> (14, 5) -> (13, 5) -> (12, 5) -> (11, 5) -> (10, 5) -> (9, 5) -> (7, 5) -> (8, 5).
+*   **Key State Changes:**
+    *   Stepping on (14, 7) makes the Poke Ball at (21, 12) disappear.
+    *   Stepping on (14, 6) makes the Scientist at (18, 12) disappear.
+    *   Stepping on (8, 5) makes the ROCKET grunt at (2, 4) disappear.
+*   **Failed Paths:** The entire path starting with `(7, 5) -> (7, 6)` is a confirmed dead end.
+*   **Current Hypothesis:** The path continues as a straight line to the right from (8, 5).
 
 ## IV. Battle Discoveries & Type Chart
 
