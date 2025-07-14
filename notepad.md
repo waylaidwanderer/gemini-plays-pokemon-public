@@ -89,7 +89,7 @@
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
 
 ### Floor Puzzle (B1F)
-*   **Conclusion:** My previous hypothesis that the arrow tiles formed a path was incorrect. This was a red herring. The true puzzle likely involves navigating the main floor area, which is filled with hidden traps, as hinted by a grunt.
+*   **Hypothesis 1:** The puzzle involves hidden floor traps. **Test:** Walked along the entirety of row 5. **Result:** No traps triggered. **Conclusion:** Row 5 is not trapped. The grunt's hint may apply to other rows or be a red herring.
 
 ## IV. Battle Discoveries & Type Chart
 
