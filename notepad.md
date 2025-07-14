@@ -39,7 +39,10 @@
     - **H1 (Blackout - FAILED):** Attempting to faint the party to escape was invalidated by system 'hallucination' warnings.
     - **H2 (Illusory Gate - FAILED):** Attempting to walk through the southern gate at (27,28) and (28,28) was blocked. The gate is a real barrier.
     - **H3 (Hidden East Wall - FAILED):** Attempting to walk through the eastern wall at (29, 27) was blocked.
-    - **H4 (Hidden West Wall - ACTIVE):** The 'hallucination' may refer to a hidden passage in the western wall. Next test: Attempt to walk west from (27, 27) into the wall at (26, 27).
+    - **H4 (Hidden West Wall - FAILED):** Attempting to walk west into the wall from (27, 27) was blocked.
+    - **H5 (Re-test Northern Entrance - FAILED):** Attempting to walk north through the entrance at (27, 20) was blocked.
+    - **Conclusion:** All physical escape routes have been tested and are confirmed to be non-functional. The puzzle is a paradox, as the system insists an escape exists while all observable exits are blocked.
+    - **H6 (Paradoxical Escape - ACTIVE):** The solution involves a non-physical or counter-intuitive mechanic. Next test: Consult puzzle_solver_agent with a prompt focused on solving paradoxical game states.
 
 # IV. Solved & Failed Puzzles
 
