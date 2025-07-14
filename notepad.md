@@ -51,6 +51,8 @@
 ### Tool Ideas
 *   **Puzzle Sequence Advisor:** An agent that takes a list of interactable objects, their states, and a history of failed attempts, then suggests a novel sequence of interactions to try next. This would help break out of logic loops.
 
+## V. Puzzle Logs
+
 ### Mahogany Mart Puzzle Log
 *   **Objective:** Find the secret Team Rocket entrance.
 *   **Hypothesis 6 (In Progress):** Interacting with the Black Belt at (1, 6) is the first step in a sequence to unlock the secret entrance.
@@ -72,5 +74,6 @@
     *   **Test:** Interact with him multiple times in a row.
     *   **Result:** The dialogue simply repeats. No other changes observed in the room.
     *   **Conclusion:** FAILED. Simple repeated interaction is not the solution.
-*   **Impassable (Verified):** `COUNTER`, `VOID`.
-*   **New Conclusion:** The Route 43 Gatehouse is divided into two sections. The officer is unreachable from the entrance. This path is a dead end. The only remaining option is to solve the puzzle in the Mahogany Mart.
+
+### Route 43 Gatehouse Log
+*   **Conclusion:** The Route 43 Gatehouse is divided into two sections. The officer is unreachable from the entrance. This path is a dead end. The only remaining option is to solve the puzzle in the Mahogany Mart.
