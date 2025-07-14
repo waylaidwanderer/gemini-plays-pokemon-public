@@ -50,40 +50,16 @@
 
 ## V. Puzzle Logs
 
-### Mahogany Mart Puzzle Log
+### Mahogany Mart Puzzle Log (Re-evaluation)
 *   **Objective:** Find the secret Team Rocket entrance.
-*   **Hypothesis 6 (In Progress):** Interacting with the Black Belt at (1, 6) is the first step in a sequence to unlock the secret entrance.
-    *   **Step 1 (Complete):** Interact with the Black Belt. Result: Triggers villain monologue. (Note: He does not disappear, correcting a previous faulty observation).
-    *   **Step 2 (Failed):** After the monologue, moved to the suspected warp at (7, 3) and attempted to use it by facing multiple directions and pressing 'A'. Result: No effect. Conclusion: The warp is not activated by simple presence or directional interaction.
-    *   **Hypothesis 7 (Failed):** The Black Belt's monologue enables a hidden switch on the bookshelf at (7, 1).
-    *   **Test:** Interact with the bookshelf at (7, 1).
-    *   **Result:** Displays flavor text about Pokémon magazines.
-    *   **Conclusion:** FAILED.
-*   **Hypothesis 8 (Current):** The Black Belt's monologue enables a hidden switch on the incense burner at (6, 1).
-    *   **Test:** Interact with the incense burner.
-*   **Hypothesis 2:** The Pharmacist at (4, 3) is the trigger.
-    *   **Test:** Interact with him.
-    *   **Result:** Opens the standard shop menu.
-    *   **Conclusion:** FAILED.
-*   **Hypothesis 3:** The warp at (7, 3) is a direct, usable entrance.
-    *   **Test:** Step on it, press A while on it, press A while facing it.
-    *   **Result:** No effect.
-    *   **Conclusion:** FAILED. Requires an external trigger.
-*   **Hypothesis 4:** The bookshelf at (7, 1) or incense burner at (6, 1) are hidden switches.
-    *   **Test:** Interact with both objects.
-    *   **Result:** Only flavor text is displayed.
-    *   **Conclusion:** FAILED.
-*   **Hypothesis 5:** Repeatedly interacting with the Black Belt will eventually trigger something new.
-    *   **Test:** Interact with him multiple times in a row.
-    *   **Result:** The dialogue simply repeats. No other changes observed in the room.
-    *   **Conclusion:** FAILED. Simple repeated interaction is not the solution.
-
-### Route 43 Gatehouse Log
-*   **Conclusion:** The Route 43 Gatehouse is divided into two sections. The officer is unreachable from the entrance. This path is a dead end. The only remaining option is to solve the puzzle in the Mahogany Mart.
-    *   **Hypothesis 8 (Failed):** The Black Belt's monologue enables a hidden switch on the incense burner at (6, 1).
-    *   **Test:** Interact with the incense burner.
-    *   **Result:** Displays flavor text about an incense burner.
-    *   **Conclusion:** FAILED. The mart puzzle is a complete dead end. The path forward must be outside in Mahogany Town.
+*   **New Conclusion:** My previous assessment that this puzzle was a "dead end" was incorrect. The trainers on Route 43 are a story block, confirming that the solution *must* be within this Mart. I need to re-examine all interactable objects and NPCs with a fresh perspective.
+*   **Recap of Failed Hypotheses:**
+    *   The warp at (7, 3) is not a direct entrance.
+    *   The Pharmacist is not the trigger.
+    *   The bookshelf at (7, 1) is not a switch.
+    *   The incense burner at (6, 1) is not a switch.
+    *   Repeatedly talking to the Black Belt at (1, 6) does not work.
+*   **Next Step:** Systematically re-test every interactable object in the room. There must be a hidden switch or trigger I missed. I will start by interacting with the Black Belt at (1,6) again, and then methodically checking every object.
 
 ## VI. Immediate Tasks & Reminders
 
