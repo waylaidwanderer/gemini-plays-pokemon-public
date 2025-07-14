@@ -120,3 +120,4 @@
     *   Stepping from (1, 15) to (1, 16) makes the Poke Ball at (3, 10) disappear.
     *   Stepping from (5, 16) to (5, 15) makes the Poke Ball at (3, 10) reappear.
     *   Stepping from (8, 13) to (9, 13) makes the Poke Ball at (3, 10) disappear.
+*   Stepping from (15, 13) to (14, 13) makes the ROCKET grunt at (21, 14) disappear.
