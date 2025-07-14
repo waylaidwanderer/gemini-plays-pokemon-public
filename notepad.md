@@ -38,7 +38,15 @@
 - **Intentional Fainting:** Purposely fainting the party is NEVER a valid strategy to escape a trapped area.
 
 # III. Current Objectives
-- **Pokemon Mansion - Find the Secret Key:** The mansion is a maze of switches and hidden passages. The key is likely hidden somewhere within. Current hypothesis: The diaries scattered throughout the mansion contain clues to the key's location or the final puzzle's solution. Test: Find and read all diaries.
+- **Pokemon Mansion - Find the Secret Key:** The mansion is a maze of switches and hidden passages. The key is likely hidden somewhere within.
+
+## Mansion Puzzle State
+- **1F Switch at (3, 6):** Controls the east/west gates. The state alternates with each press.
+  - *Current State:* West gates are CLOSED, East gates are OPEN (deduced).
+- **2F Switch at (3, 12):** This switch also seems to affect the gates, but its exact interaction with the 1F switch is still being tested.
+
+## Current Hypothesis
+- I am currently trapped in the central corridor of 1F. To escape, I must reach the switch at (3, 6) and flip it again. This should close the eastern gates and reopen the western gates, allowing me to explore a different path.
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion B1F - Gate Switch Puzzle:** Switch at (19, 26) opens northern and western gates.
