@@ -12,16 +12,16 @@
 *   **Impassable (Verified):** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `TABLE`, `CHAIR`, `BIRD`, `MART_SHELF`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WEIRD_TREE`, `PRINTER`, `BUOY`, `ROCK`, `WINDOW`.
 *   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `FLOOR`.
 *   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE`.
-*   **One-Way Traversal (Verified):** `PIT` (One-way down), `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`.
+*   **One-Way Traversal (Verified):** `PIT` (One-way down), `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`, `FLOOR_UP_WALL` (This is a one-way ledge that can only be hopped **DOWN** (south). Verified by observation of map structure).
+*   **Directional Warps (Verified):** `WARP_CARPET_DOWN`, `WARP_CARPET_LEFT`, `WARP_CARPET_RIGHT` (Requires pressing in the indicated direction to activate).
 *   **Special Requirement (Verified):** 
     *   `CUT_TREE` (Requires HM01 Cut).
     *   `BREAKABLE_ROCK` (Requires Rock Smash).
-    *   `WATER` (Hypothesis: Requires HM03 Surf. Activating from the party menu failed at Route 42. New Hypothesis: Must be activated from the overworld by facing the water and pressing 'A'. Test required.)
-    *   Directional Warps (Requires pressing in the indicated direction to activate): WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT.
-*   **Special Requirement (Hypothesized):** `WHIRLPOOL` (Requires HM).
 
 ### Tiles Under Investigation (High Priority)
-*   `FLOOR_UP_WALL`: Attempting to move south from a `FLOOR` tile at (27, 45) onto this tile at (27, 46) failed. Hypothesis: This is a one-way ledge that can only be hopped **DOWN** (south). Test required: Find a path to the upper level to test jumping down.
+*   **Special Requirement (Hypothesized):**
+    *   `WATER` (Hypothesis: Requires HM03 Surf. Activating from the party menu failed at Route 42. New Hypothesis: Must be activated from the overworld by facing the water and pressing 'A'. Test required.)
+    *   `WHIRLPOOL` (Requires HM).
 
 ## II. Core Principles & Lessons Learned
 
@@ -35,8 +35,8 @@
 ### Current Objective: Investigate the Lake of Rage
 *   **Status:** In progress.
 *   **Reasoning:** The Olivine Lighthouse proved to be a dead end. Multiple NPCs have mentioned a "rampage" or "conspiracy" at the Lake of Rage, which is a strong indicator of the main story path.
-*   **Current Plan:** Travel from Olivine City towards Mahogany Town to reach the Lake of Rage.
-*   **Alternative Hypothesis:** If the Lake of Rage is a side quest and does not unlock the path to the SECRETMEDICINE, I will need to systematically re-explore all previous routes for obstacles that can now be overcome with my current abilities (e.g., SURF).
+*   **Current Plan:** Travel from Ecruteak City towards Mahogany Town to reach the Lake of Rage. Currently exploring Mt. Mortar to see if it's the path forward.
+*   **Alternative Hypothesis:** If Mt. Mortar is a dead end, I will return to Route 42 and look for an alternative path east.
 
 ## IV. Archived Investigations
 
