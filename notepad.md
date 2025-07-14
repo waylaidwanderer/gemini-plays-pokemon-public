@@ -50,3 +50,4 @@
 - **Pokemon Mansion 2F - Trapped Room:** Escaped by blacking out.
 - **Pokemon Mansion B1F - Gate Switch Puzzle:** Switch at (19, 26) opens northern and western gates.
 - **Switch Interaction:** Switches must be interacted with by standing on the tile directly below them and facing up.
+  - **Attempt #5 (Hidden Switch):** FAILED. Systematically checked every tile in the corridor. No hidden switches found. All agent hypotheses are now exhausted. Re-attempting blackout strategy as the only remaining possibility.
