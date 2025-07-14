@@ -55,7 +55,8 @@
     - The bookshelf at (7, 1) is a direct switch. (Failed: No effect without the BB trigger).
     - The warp tile at (7, 3) is a direct trigger. (Failed: Stepping on it or interacting with it while facing Down, Up, or Left does nothing, even after the bookshelf event).
     - The BB's original spot at (1, 6) is a pressure plate. (Failed: Moving there resets the puzzle).
-*   **Next Hypothesis:** The final test for the warp tile at (7, 3) is to interact with it while facing Right after the bookshelf event.
+*   **Failed Hypothesis Log (cont.):** The warp tile at (7, 3) is the trigger. (Failed: Tested interacting with the tile after the bookshelf event while facing Down, Up, Left, and Right. None of these actions triggered the warp, and moving away resets the puzzle. This hypothesis is now fully invalidated.)
+*   **Next Hypothesis:** The sequence is `Trigger BB disappearance -> Interact with Bookshelf -> Interact with Incense Burner (6, 1)`. The incense burner might become an active switch only after the bookshelf event.
 
 ## V. Future Development Ideas
 
