@@ -61,3 +61,4 @@
 
 ### Test Plans
 *   **Mt. Mortar Waterfall:** After acquiring the `Waterfall` HM, I must return to Mt. Mortar to test if I can climb the waterfalls. This will confirm or deny my hypothesis that it is a completely optional area.
+*   `HEADBUTT_TREE` (Hypothesis: Can be interacted with using the move Headbutt to potentially find Pokémon or items. Traversability needs to be tested.)
