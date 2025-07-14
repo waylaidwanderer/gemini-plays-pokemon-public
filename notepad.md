@@ -52,6 +52,7 @@
 *   `WATER_EDGE_RIGHT`
 *   `WEIRD_TREE`
 *   `WINDOW`
+*   `COUNTER`
 
 **Warps:**
 *   `CAVE`
@@ -71,7 +72,6 @@
 *   `PIT` (One-way down)
 
 **Untested:**
-*   `COUNTER` - *Need to verify if this is impassable or interactable.*
 
 ## III. Current Investigation: Team Rocket Hideout
 
