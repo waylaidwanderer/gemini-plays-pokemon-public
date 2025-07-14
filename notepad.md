@@ -62,3 +62,7 @@
 ### Untested Hypotheses
 *   **Floor Trap State:** Are the floor traps random or on fixed tiles? **Test:** After clearing an area, walk back over a tile where a trap was previously triggered.
 *   **Camera Switch Scope:** Does the switch at (19, 11) disable *all* security cameras, or only those on B1F? **Test:** If I find cameras on other floors, I must test them by walking in front of them.
+
+### Tool & Agent Concepts (Brainstorm)
+*   `inventory_manager` (Agent): Could analyze my bag and suggest items to toss when it's full.
+*   `map_scanner` (Tool): A tool to scan the current map for specific objects (e.g., all item balls) or tile types to speed up exploration planning.
