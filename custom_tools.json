@@ -1,4 +1,28 @@
 {
+  "get_traversable_neighbors": {
+    "description": "Parses the map_xml_string to find all traversable neighbor tiles for a given (x, y) coordinate. It considers walls and objects as impassable.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "string"
+        },
+        "y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "x",
+        "y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef get_traversable_neighbors(x, y):\n    root = ET.fromstring(map_xml_string)\n    impassable_tiles = ['WALL', 'PILLAR', 'BOOKSHELF', 'TV', 'RADIO', 'TOWN_MAP', 'TABLE', 'CHAIR', 'BIRD', 'MART_SHELF', 'PC', 'LINK_CABLE', 'TRADE_MACHINE', 'INCENSE_BURNER', 'ROOF', 'CHIMNEY', 'SIGN', 'FLOWER', 'TREE_TOP', 'WATER_EDGE_UP', 'WATER_EDGE_DOWN', 'WATER_EDGE_LEFT', 'WATER_EDGE_RIGHT', 'VOID', 'COUNTER', 'FENCE', 'LINK_RECEPTIONIST', 'WEIRD_TREE', 'PRINTER', 'BUOY', 'ROCK', 'WINDOW']\n    neighbors = []\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = x + dx, y + dy\n        tile_element = root.find(f\".//Tile[@coordinate='({nx}, {ny})']\")\n        if tile_element is not None:\n            tile_type = tile_element.get('type')\n            has_object = tile_element.get('has-object') == 'true'\n            if tile_type not in impassable_tiles and not has_object:\n                neighbors.append({'x': nx, 'y': ny})\n    return neighbors\n\nx = int(input_data['x'])\ny = int(input_data['y'])\n\nresult = get_traversable_neighbors(x, y)\nprint(json.dumps(result))"
+  },
+  "impassable_tile_scanner": {
+    "description": "Scans the current map and returns a list of all impassable coordinates, including walls and all objects.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nimpassable_coords = []\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.attrib['id'])\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.attrib['id'])\n        tile_type = tile_elem.attrib['type']\n        has_object = tile_elem.find('Object') is not None\n        \n        if tile_type == 'WALL' or has_object:\n            impassable_coords.append({'x': x, 'y': y})\n\nprint(json.dumps(impassable_coords))"
+  },
   "object_finder": {
     "description": "Finds a specific map object by its ID and returns its coordinates.",
     "input_schema": {
@@ -13,11 +37,6 @@
       ]
     },
     "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntarget_id = input_data['object_id']\nroot = ET.fromstring(map_xml_string)\nfound = False\nfor row in root.findall('Row'):\n    y = row.get('id')\n    for tile in row.findall('Tile'):\n        x = tile.get('id')\n        for obj in tile.findall('Object'):\n            if obj.get('id') == target_id:\n                print(json.dumps({'x': x, 'y': y}))\n                found = True\n                break\n        if found:\n            break\n    if found:\n        break\n\nif not found:\n    print(json.dumps({'error': 'Object not found on screen.'}))"
-  },
-  "impassable_tile_scanner": {
-    "description": "Scans the current map and returns a list of all impassable coordinates, including walls and all objects.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nimpassable_coords = []\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.attrib['id'])\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.attrib['id'])\n        tile_type = tile_elem.attrib['type']\n        has_object = tile_elem.find('Object') is not None\n        \n        if tile_type == 'WALL' or has_object:\n            impassable_coords.append({'x': x, 'y': y})\n\nprint(json.dumps(impassable_coords))"
   },
   "smart_pathfinder": {
     "description": "A more robust pathfinder. It automatically avoids all on-screen objects and finds the nearest valid start tile if the player's current position is on a non-traversable tile. It now treats all ledge-type tiles and tiles containing 'WALL' in their type name as impassable and includes enhanced debugging.",
@@ -63,24 +82,5 @@
     "description": "Scans the current map XML and returns a list of coordinates for all unseen tiles.",
     "input_schema": {},
     "python_script": "import xml.etree.ElementTree as ET\n\nunseen_tiles = []\nroot = ET.fromstring(map_xml_string)\nfor row in root.findall('Row'):\n    for tile in row.findall('Tile'):\n        if tile.get('seen') == 'false':\n            unseen_tiles.append(tile.get('coordinate'))\nprint(unseen_tiles)"
-  },
-  "get_traversable_neighbors": {
-    "description": "Parses the map_xml_string to find all traversable neighbor tiles for a given (x, y) coordinate. It considers walls and objects as impassable.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "x": {
-          "type": "string"
-        },
-        "y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "x",
-        "y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef get_traversable_neighbors(x, y):\n    root = ET.fromstring(map_xml_string)\n    impassable_tiles = ['WALL', 'PILLAR', 'BOOKSHELF', 'TV', 'RADIO', 'TOWN_MAP', 'TABLE', 'CHAIR', 'BIRD', 'MART_SHELF', 'PC', 'LINK_CABLE', 'TRADE_MACHINE', 'INCENSE_BURNER', 'ROOF', 'CHIMNEY', 'SIGN', 'FLOWER', 'TREE_TOP', 'WATER_EDGE_UP', 'WATER_EDGE_DOWN', 'WATER_EDGE_LEFT', 'WATER_EDGE_RIGHT', 'VOID', 'COUNTER', 'FENCE', 'LINK_RECEPTIONIST', 'WEIRD_TREE', 'PRINTER', 'BUOY', 'ROCK', 'WINDOW']\n    neighbors = []\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = x + dx, y + dy\n        tile_element = root.find(f\".//Tile[@coordinate='({nx}, {ny})']\")\n        if tile_element is not None:\n            tile_type = tile_element.get('type')\n            has_object = tile_element.get('has-object') == 'true'\n            if tile_type not in impassable_tiles and not has_object:\n                neighbors.append({'x': nx, 'y': ny})\n    return neighbors\n\nx = int(input_data['x'])\ny = int(input_data['y'])\n\nresult = get_traversable_neighbors(x, y)\nprint(json.dumps(result))"
   }
 }
