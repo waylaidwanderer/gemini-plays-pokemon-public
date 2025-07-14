@@ -71,7 +71,7 @@
     *   **Test:** Interact with both objects.
     *   **Result:** Only flavor text is displayed.
     *   **Conclusion:** FAILED.
-*   **Hypothesis 5:** Repeatedly interacting with the Black Belt is the trigger.
-    *   **Test:** Interact with him multiple times.
-    *   **Result:** After several interactions, Lance the Pokémon Champion appeared at (3, 3)!
-    *   **Conclusion:** SUCCESS! This was the correct trigger. The next step is to talk to Lance.
+*   **Hypothesis 5:** Repeatedly interacting with the Black Belt will eventually trigger something new.
+    *   **Test:** Interact with him multiple times in a row.
+    *   **Result:** The dialogue simply repeats. No other changes observed in the room.
+    *   **Conclusion:** FAILED. Simple repeated interaction is not the solution.
