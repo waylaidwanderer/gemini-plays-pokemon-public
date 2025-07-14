@@ -48,10 +48,11 @@
 ## B. Current Plan
 **Attempt 1 (Failed):** Pressing the switch at (3, 12) a fifth time *closed* the gate at (8, 23), invalidating the hypothesis of a simple two-state cycle.
 
-**Attempt 2 (Current):**
-1. **Hypothesis:** The switch at (3, 12) operates on a cycle longer than two states.
-2. **Test:** Return to the switch and press it a sixth time.
-3. **Expected Outcome:** The gate at (8, 23) will open, allowing access to the eastern part of 2F.
+**Attempt 3 (Current):**
+1. **Observation:** The gate at (8, 23) is open, but the warp at (26, 15) and the area beyond are still unreachable.
+2. **Hypothesis:** There is an invisible barrier or trigger event somewhere in the eastern corridor after the gate.
+3. **Test:** Walk east down the corridor towards (14, 23) to locate the barrier.
+4. **Expected Outcome:** I will be stopped by an invisible wall, revealing its location and prompting a new puzzle-solving approach.
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion 1F - Secret Passage:** The eastern corridor 'trap' is escaped by walking through a secret passage in an impassable wall. The `path_planner` tool can detect these.
