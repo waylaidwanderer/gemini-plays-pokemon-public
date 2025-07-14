@@ -67,3 +67,8 @@
 
 ### Untested Hypotheses
 *   **Floor Trap State:** Are the floor traps random or on fixed tiles? **Test:** After clearing an area, walk back over a tile where a trap was previously triggered. If it triggers again, the traps may be fixed. If not, they are likely random or on a cooldown.
+### Tool Concepts
+*   **`exploration_advisor`:** An agent to analyze the map and suggest exploration priorities based on unseen tiles, unmarked warps, and item balls.
+
+### Untested Hypotheses
+*   **Camera Switch Scope:** Does the switch at (19, 11) disable *all* security cameras, or only those on B1F? **Test:** If I find cameras on other floors, I must test them by walking in front of them.
