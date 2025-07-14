@@ -46,10 +46,12 @@
 - **B1F Switch (19, 26):** Opens northern and western gates via a two-step 'prime and trigger' mechanic.
 
 ## B. Current Plan
-1. Return to the switch at (3, 12) on 2F.
-2. Press the switch a fifth time. 
-3. **Hypothesis:** This will reverse the effect of the fourth press, opening the gate at (8, 23).
-4. Proceed through the now-open gate to explore the eastern section of 2F.
+**Attempt 1 (Failed):** Pressing the switch at (3, 12) a fifth time *closed* the gate at (8, 23), invalidating the hypothesis of a simple two-state cycle.
+
+**Attempt 2 (Current):**
+1. **Hypothesis:** The switch at (3, 12) operates on a cycle longer than two states.
+2. **Test:** Return to the switch and press it a sixth time.
+3. **Expected Outcome:** The gate at (8, 23) will open, allowing access to the eastern part of 2F.
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion 1F - Secret Passage:** The eastern corridor 'trap' is escaped by walking through a secret passage in an impassable wall. The `path_planner` tool can detect these.
