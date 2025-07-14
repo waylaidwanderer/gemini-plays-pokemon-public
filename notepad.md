@@ -29,13 +29,7 @@
 ### Verified Type Interactions
 *   **Water (Surf) vs. Gyarados (Water/Flying):** Observed as "not very effective". This contradicts standard type charts. Need to investigate further.
 
-## V. Ideas & Future Plans
-
-### Tool & Agent Concepts
-*   **`exploration_advisor` (Tool):** A tool to parse the map XML and return a list of coordinates for reachable unseen tiles to guide exploration.
-*   **`item_scanner` (Tool):** A tool to scan the current map for all item balls to speed up collection planning.
-
-## VI. Open Investigations
+## V. Open Investigations
 
 ### Inventory Management Bug
 *   **Observation:** All menu-based attempts to free an inventory slot (`TOSS`, `GIVE`, `DEPOSIT`) have failed, resulting in a menu loop.
