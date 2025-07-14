@@ -79,28 +79,6 @@
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
 
-### Floor Puzzle - Team Rocket Hideout B1F
-*   **Mechanics:** This is a state-based sequence puzzle. Stepping on tiles in a specific order changes the state of objects in the room (e.g., Poke Balls appearing/disappearing). The path involves loops and state-toggling tiles.
-*   **Corrected Path Sequence:** The full path is a long, looping sequence. The critical segments are:
-    1.  **Initial Path:** `(20, 7) -> ... -> (23, 6) -> (24, 6) -> (25, 6) -> (26, 6)`
-    2.  **Southern Loop:** From (26, 6), the path proceeds through a large southern loop starting with `(26, 7) -> (26, 8) -> (26, 9)` and ending at `(27, 9)`.
-    3.  **Return Path:** After the southern loop, the path is `(27, 9) -> (26, 9) -> (26, 8) -> (26, 7)`. I am currently at (26, 7).
-*   **Key State Changes:**
-    *   Stepping on (14, 7) makes the Poke Ball at (21, 12) disappear.
-    *   Stepping on (14, 6) makes the Scientist at (18, 12) disappear.
-    *   Stepping on (8, 5) makes the ROCKET grunt at (2, 4) disappear.
-    *   Stepping on (21, 5) makes a Poke Ball appear at (27, 6).
-    *   Stepping on (24, 12) makes the Poke Ball at (27, 6) disappear.
-    *   Stepping on (27, 13) makes the Poke Ball at (21, 12) disappear.
-    *   Stepping on (28, 11) makes the Poke Ball at (27, 6) reappear.
-    *   **Toggle 1:** Stepping on (26, 9) makes the Poke Ball at (21, 12) reappear.
-    *   **Toggle 2:** Stepping on (27, 9) makes the Poke Ball at (21, 12) disappear.
-*   **Failed Paths:** 
-    *   The entire path starting with `(7, 5) -> (7, 6)` is a confirmed dead end.
-    *   The step from `(23, 6) -> (23, 7)` is a TRAP that resets the puzzle state.
-    *   The step from `(27, 12) -> (26, 12)` is a TRAP that resets the puzzle state.
-*   **Current State & Hypothesis:** I am at (26, 7). Both Poke Balls at (21, 12) and (27, 6) are visible. I have seemingly explored all adjacent tiles. My hypothesis is that completing the full loop has triggered a change elsewhere on the map, or that I need to re-interact with something now that the puzzle is in this new state.
-
 ### Floor Puzzle - Team Rocket Hideout B2F
 *   **Mechanics:** This appears to be another state-based sequence puzzle. Stepping on specific tiles triggers changes to objects on the floor (Poke Balls, Voltorbs, and Grunts appearing/disappearing).
 *   **Known Triggers:**
