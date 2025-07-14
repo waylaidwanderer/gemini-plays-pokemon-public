@@ -63,7 +63,6 @@
 *   **Mt. Mortar Waterfall:** After acquiring the `Waterfall` HM, I must return to Mt. Mortar to test if I can climb the waterfalls. This will confirm or deny my hypothesis that it is a completely optional area.
 *   `HEADBUTT_TREE` (Hypothesis: Can be interacted with using the move Headbutt to potentially find Pokémon or items. Traversability needs to be tested.)
 
-### Ledge Anomaly on Route 42 (East)
-*   **Observation:** Attempting to hop down from (57, 7) to (57, 8) over a `FLOOR_UP_WALL` tile was blocked. This contradicts previous successful traversals of this tile type.
-*   **Hypothesis:** Either this specific ledge is impassable, or there is an unknown condition for traversal.
-*   **Test Plan:** Attempt to jump down from adjacent points on the ledge at (58, 7) and (59, 7) to isolate the cause of the blockage.
+### Ledge Anomaly on Route 42 (East) - SOLVED
+*   **Observation:** Attempting to hop down from (57, 7), (58, 7), and (59, 7) over a `FLOOR_UP_WALL` tile was blocked.
+*   **Conclusion:** This specific ledge is impassable. The `FLOOR_UP_WALL` tile type is not universally a one-way ledge. Its function can vary by location. This northern path to Mahogany Town is a dead end.
