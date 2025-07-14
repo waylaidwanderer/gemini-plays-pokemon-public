@@ -55,3 +55,10 @@
 *   **Next Step:** Navigate around the grunt at (2, 4) and proceed south to test the statue at (24, 5).
 ### Team Rocket Hideout B2F
 *   **Status:** Arrived on B2F via a ladder. Lance is here, as is an item ball. This seems to be a significant area.
+## VI. Ideas & Future Plans
+
+### Tool Concepts
+*   **`battle_menu_navigator`:** A potential tool to automate move selection in simple, repetitive battles. It would take opponent type(s) and my current moveset as input and output the button presses to select the optimal attack. This would save time against floor traps.
+
+### Untested Hypotheses
+*   **Floor Trap State:** Are the floor traps random or on fixed tiles? **Test:** After clearing an area, walk back over a tile where a trap was previously triggered. If it triggers again, the traps may be fixed. If not, they are likely random or on a cooldown.
