@@ -66,6 +66,7 @@
   - **Test:** Flipped switch again.
   - **Outcome:** The western gate at (17, 8) is now open.
   - **Conclusion:** Hypothesis confirmed.
+  - **Conclusion:** Hypothesis confirmed.
 
 ## Current Plan
 - The western gate at (17, 8) is now open. I will proceed through it to explore the western side of the mansion.
@@ -109,6 +110,7 @@
 - **Hypothesis 2:** Flipping the switch at (3, 6) again will reverse the state, closing the eastern gates and reopening the western gates.
   - **Test:** Flipped switch again.
   - **Outcome:** The western gate at (17, 8) is now open.
+  - **Conclusion:** Hypothesis confirmed.
   - **Conclusion:** Hypothesis confirmed.
 
 ## Current Plan
