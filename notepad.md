@@ -57,7 +57,7 @@
     *   The warp at (7, 3) is not a direct entrance.
     *   The Pharmacist is not the trigger.
     *   The bookshelf at (7, 1) is not a switch.
-    *   The incense burner at (6, 1) is not a switch.
+    *   The incense burner at (6, 1) is not a switch. (Test confirmed, marker placed)
     *   Repeatedly talking to the Black Belt at (1, 6) does not work.
 *   **Next Step:** Systematically re-test every interactable object in the room. There must be a hidden switch or trigger I missed. I will start by interacting with the Black Belt at (1,6) again, and then methodically checking every object.
 
