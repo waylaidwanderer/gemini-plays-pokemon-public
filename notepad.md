@@ -52,3 +52,23 @@
 *   **Unseen Tile Scanner:** A tool to scan the `map_xml_string` and return a list of all unseen tile coordinates (`❓`). This would help ensure systematic exploration of each map.
 *   **Mahogany Gym:** The warp is at (6, 13). A Fisher is blocking entry until the Lake of Rage event is resolved.
 *   **Puzzle Sequence Advisor:** An agent that takes a list of interactable objects, their states, and a history of failed attempts, then suggests a novel sequence of interactions to try next. This would help break out of logic loops.
+
+### Mahogany Mart Puzzle Log
+*   **Objective:** Find the secret Team Rocket entrance.
+*   **Hypothesis 1:** The Black Belt at (1, 6) is the trigger.
+    *   **Test:** Interact with him.
+    *   **Result:** Repeatedly triggers the same villain monologue. No path opens.
+    *   **Conclusion:** FAILED. He is part of the puzzle, but simple interaction is not the solution.
+*   **Hypothesis 2:** The Pharmacist at (4, 3) is the trigger.
+    *   **Test:** Interact with him.
+    *   **Result:** Opens the standard shop menu.
+    *   **Conclusion:** FAILED.
+*   **Hypothesis 3:** The warp at (7, 3) is a direct, usable entrance.
+    *   **Test:** Step on it, press A while on it, press A while facing it.
+    *   **Result:** No effect.
+    *   **Conclusion:** FAILED. Requires an external trigger.
+*   **Hypothesis 4:** The bookshelf at (7, 1) or incense burner at (6, 1) are hidden switches.
+    *   **Test:** Interact with both objects.
+    *   **Result:** Only flavor text is displayed.
+    *   **Conclusion:** FAILED.
+*   **Current Hypothesis:** The room's state needs to be reset by leaving and re-entering.
