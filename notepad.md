@@ -50,3 +50,4 @@
 # V. Mansion Diaries
 - **Diary 1 (2F):** "July 5. Guyana, South America. A new POKéMON was discovered deep in the jungle."
 - **Diary 2 (2F):** "July 10. We christened the newly discovered POKéMON, MEW."
+- **Diary 2 (2F):** "July 10. We christened the newly discovered POKéMON, MEW."
