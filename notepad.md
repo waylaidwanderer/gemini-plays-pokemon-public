@@ -50,3 +50,14 @@
 
 ### Investigation: Olivine Lighthouse
 *   **Status:** Complete (for now). Exhausted all paths, pits, and trainers on all floors. Concluded that progression is not possible at this time and is likely gated behind another story event.
+
+## V. Future Development Ideas
+
+### Agent Ideas
+*   **Repel Advisor:** An agent to recommend when to use a Repel based on party level, current location, and goal (e.g., training vs. exploration).
+
+### Tool Ideas
+*   **Unseen Tile Scanner:** A tool to scan the `map_xml_string` and return a list of all unseen tile coordinates (`❓`). This would help ensure systematic exploration of each map.
+
+### Test Plans
+*   **Mt. Mortar Waterfall:** After acquiring the `Waterfall` HM, I must return to Mt. Mortar to test if I can climb the waterfalls. This will confirm or deny my hypothesis that it is a completely optional area.
