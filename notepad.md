@@ -19,11 +19,11 @@
     *   `CUT_TREE` (Requires HM01 Cut).
     *   `BREAKABLE_ROCK` (Requires Rock Smash).
 *   **Conditional Traversal (Verified):**
-    *   `FLOOR_UP_WALL`: A one-way ledge, hoppable from the top. If this tile is ever impassable, it is due to an external factor (e.g., an invisible event wall), not a change in the tile's intrinsic properties. My test on Route 42 confirmed this.
+    *   `FLOOR_UP_WALL`: A one-way ledge, hoppable from the top. My test on Route 42 confirmed this.
 
 ### Tiles Under Investigation (High Priority)
 *   **Special Requirement (Hypothesized):**
-    *   `WATER` (Hypothesis: Requires HM03 Surf. Must be activated from the overworld by facing the water and pressing 'A'.)
+    *   `WATER` (Hypothesis: Requires HM03 Surf.)
     *   `WHIRLPOOL` (Requires HM).
     *   `HEADBUTT_TREE` (Hypothesis: Can be interacted with using the move Headbutt.)
 
@@ -37,30 +37,29 @@
 ## III. Current Plans & Investigations
 
 ### Current Objective: Investigate the Lake of Rage
-*   **Status:** In progress.
-*   **Reasoning:** Multiple NPCs have mentioned a "rampage" or "conspiracy" at the Lake of Rage, which is a strong indicator of the main story path. I am currently in Mahogany Town, which is the gateway to the lake.
-*   **Hypothesis Testing:**
-    1.  **Impassable Ledge on Route 42:** Hypothesis: The ledge is blocked by an event flag. Test: After resolving the Lake of Rage events, I must return to Route 42 and attempt to jump the ledge again.
-    2.  **Fisher blocking Mahogany Gym:** Hypothesis: The Fisher will move after the Lake of Rage event. Test: After the event, I will return to the Gym and speak to the Fisher.
+*   **Status:** Paused. The path is blocked by trainers on Route 43, indicating the solution is in Mahogany Town.
+*   **Next Step:** Solve the Mahogany Mart puzzle to find the Team Rocket base, which should resolve the block on Route 43.
 
-## IV. Future Development Ideas
+## IV. Puzzle Logs
+
+### Mahogany Mart Puzzle Log
+*   **Objective:** Find the secret Team Rocket entrance.
+*   **Key Observation:** A Black Belt (BB) guard at (1, 6) disappears when I approach the bookshelf at (7, 1). He reappears if I move too far away, confirming the solution is localized and likely timed.
+*   **Current Hypothesis:** The bookshelf at (7, 1) becomes an interactable switch *only after* the BB has vanished.
+*   **Test Plan:** 
+    1. Move to (7, 2) to trigger the BB's disappearance.
+    2. Immediately face the bookshelf at (7, 1) and press 'A'.
+*   **Alternative Hypotheses (If current fails):**
+    1. The trigger is external. After the BB vanishes, an NPC's dialogue in Mahogany Town might change, providing the next clue.
+    2. The trigger is item-based. An item in my inventory needs to be used.
+*   **Failed Hypotheses Log:**
+    1. The Pharmacist is the trigger. (Failed: He's a normal shopkeeper, and moving to him resets the puzzle).
+    2. The incense burner or bookshelf are direct switches. (Failed: They only provide flavor text without the BB trigger).
+    3. The warp tile at (7, 3) is the trigger. (Failed: Stepping on it and interacting does nothing).
+    4. The BB's original spot (1, 6) is a pressure plate. (Failed: Moving there resets the puzzle).
+
+## V. Future Development Ideas
 
 ### Agent Ideas
-*   **Repel Advisor:** An agent to recommend when to use a Repel based on party level, current location, and goal (e.g., training vs. exploration).
-
-## V. Puzzle Logs
-
-### Mahogany Mart Puzzle Log (Re-evaluation)
-*   **Objective:** Find the secret Team Rocket entrance.
-*   **Conclusion:** The trainers on Route 43 are a story block, confirming the solution is here.
-*   **Key Observation:** The Black Belt (BB) at (1, 6) disappears when I approach the bookshelf at (7, 1). He reappears if I then approach his original spot. This proves the puzzle is sequential and likely has a timed component.
-*   **Failed Hypotheses Log:**
-    1.  **Hypothesis:** The Pharmacist is the trigger. **Result:** Failed. He is a normal shopkeeper.
-    2.  **Hypothesis:** The incense burner or bookshelf are direct switches. **Result:** Failed. They only provide flavor text.
-    3.  **Hypothesis:** After BB vanishes, the trigger is at his old spot (1, 6). **Result:** Failed. This only makes him reappear.
-*   **Current Hypothesis:** The puzzle requires a specific sequence of actions performed quickly. The correct sequence is likely: 1) Trigger the Black Belt's disappearance by approaching the bookshelf. 2) While he is gone, immediately move to the warp tile at (7, 3). This is the most logical second step and has not been tested in this specific, timed sequence.
-*   **Next Step:** Return to the bookshelf to restart the sequence and test the current hypothesis.
-
-## VI. Immediate Tasks & Reminders
-
-*   **Unmarked Warps on Route 43:** I must investigate the warps at (10, 51), (17, 35), and (18, 31) after resolving the Lake of Rage event.
+*   **Repel Advisor:** An agent to recommend when to use a Repel based on party level and goal.
+*   **Sequential Puzzle Agent:** An agent designed to solve state-dependent puzzles that require a specific, timed sequence of actions.
