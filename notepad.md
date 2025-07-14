@@ -53,10 +53,18 @@
 - **Hypothesis 1:** Flipping the switch at (3, 6) will open the eastern gates.
   - **Test:** Flipped switch.
   - **Outcome:** Eastern gates at (25, 14) opened, but triggered a trap closing other gates.
+## Hypothesis Log
+- **Hypothesis 1:** Flipping the switch at (3, 6) will open the eastern gates.
+  - **Test:** Flipped switch.
+  - **Outcome:** Eastern gates at (25, 14) opened, but triggered a trap closing other gates.
   - **Conclusion:** Hypothesis confirmed, but with a side effect.
 - **Hypothesis 2:** Flipping the switch at (3, 6) again will reverse the state, closing the eastern gates and reopening the western gates.
   - **Test:** Flipped switch again.
   - **Outcome:** The western gate at (17, 8) is now open.
+  - **Conclusion:** Hypothesis confirmed.
+
+## Current Plan
+- The western gate at (17, 8) is now open. I will proceed through it to explore the western side of the mansion.
   - **Conclusion:** Hypothesis confirmed.
 
 ## Current Plan
@@ -81,10 +89,18 @@
 - **Hypothesis 1:** Flipping the switch at (3, 6) will open the eastern gates.
   - **Test:** Flipped switch.
   - **Outcome:** Eastern gates at (25, 14) opened, but triggered a trap closing other gates.
+## Hypothesis Log
+- **Hypothesis 1:** Flipping the switch at (3, 6) will open the eastern gates.
+  - **Test:** Flipped switch.
+  - **Outcome:** Eastern gates at (25, 14) opened, but triggered a trap closing other gates.
   - **Conclusion:** Hypothesis confirmed, but with a side effect.
 - **Hypothesis 2:** Flipping the switch at (3, 6) again will reverse the state, closing the eastern gates and reopening the western gates.
   - **Test:** Flipped switch again.
   - **Outcome:** The western gate at (17, 8) is now open.
+  - **Conclusion:** Hypothesis confirmed.
+
+## Current Plan
+- The western gate at (17, 8) is now open. I will proceed through it to explore the western side of the mansion.
   - **Conclusion:** Hypothesis confirmed.
 
 ## Current Plan
