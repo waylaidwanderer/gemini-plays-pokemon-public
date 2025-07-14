@@ -37,40 +37,24 @@
 - **Item Use on Fainted Pokemon:** A FULL RESTORE will not work on a fainted Pokémon.
 - **Intentional Fainting:** Purposely fainting the party is NEVER a valid strategy to escape a trapped area.
 
-# III. Current Objectives
-- **Pokemon Mansion - Find the Secret Key:** The mansion is a maze of switches and hidden passages. The key is likely hidden somewhere within.
+# III. Current Objective: Find the Secret Key in the Pokemon Mansion
 
-## Mansion Puzzle State
-- **1F Switch at (3, 6):** Controls the east/west gates. The state alternates with each press.
-  - *Current State:* West gates are CLOSED, East gates are OPEN (deduced).
-- **2F Switch at (3, 12):** This switch also seems to affect the gates, but its exact interaction with the 1F switch is still being tested.
+## A. Mansion Puzzle State
+- **1F Switch (3, 6):** Controls east/west gates, alternates.
+- **2F Switch (3, 12):** Also controls gates. Pressed 4 times. The 4th press changed the gate at (8, 23) from OPEN to CLOSED. This implies a simple two-state cycle.
+- **3F Super Nerd (5, 12):** Blocks western path. Trigger to move him is unknown. The western part of 3F is a confirmed dead end.
+- **B1F Switch (19, 26):** Opens northern and western gates via a two-step 'prime and trigger' mechanic.
 
-## Mansion Puzzle State
-- **1F Switch at (3, 6):** Controls the east/west gates. The state alternates with each press.
-  - *Current State:* West gates are OPEN, East gates are CLOSED (deduced).
-- **2F Switch at (3, 12):** This switch also seems to affect the gates, but its exact interaction with the 1F switch is still being tested.
-- **3F Super Nerd at (5, 12):** Blocks the western path. The trigger to make him move is currently unknown. Stepping on (10, 11) does NOT work in the current puzzle state.
-
-## Current Plan
-- The current area on 3F is a dead end. I must backtrack to 2F via the warp at (8, 11) and re-evaluate my path.
+## B. Current Plan
+1. Return to the switch at (3, 12) on 2F.
+2. Press the switch a fifth time. 
+3. **Hypothesis:** This will reverse the effect of the fourth press, opening the gate at (8, 23).
+4. Proceed through the now-open gate to explore the eastern section of 2F.
 
 # IV. Solved Puzzles & Key Discoveries
+- **Pokemon Mansion 1F - Secret Passage:** The eastern corridor 'trap' is escaped by walking through a secret passage in an impassable wall. The `path_planner` tool can detect these.
 - **Pokemon Mansion B1F - Gate Switch Puzzle:** Switch at (19, 26) opens northern and western gates.
-## Mansion Puzzle State
-- **1F Switch at (3, 6):** Controls the east/west gates. The state alternates with each press.
-  - *Current State:* West gates are OPEN, East gates are CLOSED (deduced).
-- **2F Switch at (3, 12):** This switch also seems to affect the gates, but its exact interaction with the 1F switch is still being tested.
-
-## Mansion Puzzle State
-- **1F Switch at (3, 6):** Controls the east/west gates. The state alternates with each press.
-  - *Current State:* West gates are OPEN, East gates are CLOSED (deduced).
-- **2F Switch at (3, 12):** This switch also seems to affect the gates, but its exact interaction with the 1F switch is still being tested.
-- **3F Super Nerd at (5, 12):** Blocks the western path. The trigger to make him move is currently unknown. Stepping on (10, 11) does NOT work in the current puzzle state.
-
-## Current Plan
-- The current area on 3F is a dead end. I must backtrack to 2F via the warp at (8, 11) and re-evaluate my path.
-- **Pokemon Mansion 1F - Secret Passage:** The eastern corridor "trap" is escaped by walking through a secret passage in the impassable wall. The `path_planner` tool can detect these.
-- **Gate/Warp Interaction:** A tile can be both a gate and a warp. Even if the gate is visually closed, the warp can still be reachable and usable if listed as such in the Game State Information.
+- **Gate/Warp Interaction:** A tile can be both a gate and a warp. Even if a gate is visually closed, the warp can still be reachable and usable if listed as such in the Game State Information.
 
 # V. Mansion Diaries
 - **Diary 1 (2F):** "July 5. Guyana, South America. A new POKéMON was discovered deep in the jungle."
