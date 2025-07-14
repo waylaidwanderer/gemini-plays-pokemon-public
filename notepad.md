@@ -35,15 +35,16 @@
 - **THUNDERBOLT vs. DIG:** THUNDERBOLT can hit an opponent while it is underground using DIG.
 
 # III. Active Puzzles
-- **Pokemon Mansion - Trapped Room Escape:**
-  - **Goal:** Escape the isolated room on Pokemon Mansion 2F.
-  - **Wall-Passage Hypothesis (Failed):** Systematically tested every wall tile. None are passages.
-  - **Agent-Generated Hypotheses:**
-    1.  **Escape Rope:** *Untestable.* I do not have an Escape Rope in my inventory.
-    2.  **Dig/Teleport Move:** *Untestable.* No Pokémon in my conscious party knows these moves, and I cannot access the PC.
-    3.  **Special Hole:** *Untestable.* The holes on the floor below are physically unreachable from my platform.
-  - **Re-evaluation:** Given that all direct escape methods have failed or are untestable, the 'blackout' hypothesis, despite previous failures, is the most likely remaining solution. The puzzle is likely not 'if' I should black out, but 'how'.
-  - **New Immediate Plan:** Attempt to trigger another wild encounter and intentionally lose with my last remaining Pokémon, CRAG.
+
+- **Pokemon Mansion 1F - Eastern Corridor Trap:**
+  - **Status:** Trapped. Northern entrance at (27,18) is blocked, and southern warp gate at (27,28)/(28,28) is impassable (`reachable: no`).
+  - **Hypothesis 1 (Walk to end):** Failed. Walking to (27,27) and (28,27) did not trigger an escape.
+  - **Hypothesis 2 (Interact with gate):** Failed (2 attempts). Interacting with the gate had no effect.
+  - **Hypothesis 3 (Single-Pokemon Faint):** Failed (1 attempt). Fainting SPOONBENDE resulted in 'Got away safely!', not a blackout.
+  - **Hypothesis 4 (Full Party Blackout):** Failed (1 attempt). Accidentally defeated the wild Raticate with a critical hit.
+  - **Hypothesis 5 (Hidden Wall Switch - ACTIVE):** The intended escape is a hidden switch located on one of the corridor's walls.
+    - **Test Plan:** Systematically interact with every wall tile in the corridor.
+    - **Progress:** Tested (27,19) and (28,19). Both failed.
 
 # IV. Solved & Failed Puzzles
 
