@@ -44,3 +44,8 @@
 ### Agent Ideas
 *   **Repel Advisor:** An agent to recommend when to use a Repel based on party level and goal.
 *   **Sequential Puzzle Agent:** An agent designed to solve state-dependent puzzles that require a specific sequence of actions. This will be created this turn.
+
+## VI. Battle Discoveries & Type Chart
+
+### Verified Type Interactions
+*   **Water (Surf) vs. Gyarados (Water/Flying):** Observed as "not very effective". This contradicts standard type charts. Need to investigate further.
