@@ -28,7 +28,7 @@
 ### B1. Type Matchups & Immunities
 - **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire
 - **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground
-- **Immunities:** Flying-type immune to Ground-type moves; Ground-type Pokémon are immune to Electric-type moves; MUK immune to Poison-type moves; HYPNO immune to STUN SPORE (powder moves); MUK immune to THUNDER WAVE (Electric-type status move).
+- **Immunities:** Flying-type immune to Ground-type moves; Ground-type Pokémon are immune to Electric-type moves; MUK immune to Poison-type moves; HYPNO immune to STUN SPORE (powder moves); MUK immune to THUNDER WAVE (Electric-type status move); MAROWAK (Ground-type) immune to POISON GAS (Poison-type move).
 
 ### B2. Battle & Field Mechanics
 - **Evasion:** PSYWAVE and CONFUSE RAY can fail against targets with high evasion boosts.
@@ -40,43 +40,23 @@
 - **Item Use on Fainted Pokemon:** A FULL RESTORE will not work on a fainted Pokémon.
 - **Weird Typing:** My LAPRAS (NEPTUNE) was displayed as a GHOST type in battle. This needs further investigation.
 - **'No Will to Fight':** After a Pokémon faints, attempting to switch in the next Pokémon can sometimes fail with the message 'There's no will to fight!'. The cause is unknown, but trying again on the next turn was successful.
+- **THUNDERBOLT vs. DIG:** THUNDERBOLT can hit an opponent while it is underground using DIG. This is contrary to standard mechanics and resulted in an accidental knockout when trying to faint.
 
 # III. Solved Puzzles
 - **Pokemon Mansion - Trapped Corridor:** Discovered a hidden one-way passage at 1F (27, 26). The only way to make the wall passable from the south again was to win a wild battle, which resets the tile's state.
 - **Pokemon Mansion - Alternating Doors:** Confirmed by a Super Nerd on 2F. The mansion has at least two sets of gates controlled by two different switches. Switch 1 (1F, (3, 6)) controls one set of gates. Switch 2 (2F, (3, 12)) controls another set. Activating a switch toggles the state of its corresponding doors.
 - **Pokemon Mansion 1F - Eastern Wing Gate & Positional Trigger:** The gate at (25, 14) is controlled by the switch at (3, 6). Additionally, a positional trigger at (12,10) on 1F closes the gates at (17,8) and (18,8). The switch at (3,6) re-opens them. Direct interaction with the gate does not work.
 
-# IV. Tool Usage & Limitations
-- **Type Matchup Correction:** Previously noted that RATICATE's DIG (Ground) being super-effective against SPARKY (Electric) was unusual. This is actually the standard, correct type matchup. My understanding was flawed.
-- **THUNDERBOLT vs. DIG:** THUNDERBOLT can hit an opponent while it is underground using DIG. This is contrary to standard mechanics and resulted in an accidental knockout when trying to faint.
-
-# V. Active Puzzles
+# IV. Active Puzzles
 ## A. Pokemon Mansion 3F - Trapped Eastern Corridor
 - **Observation:** Trapped in a corridor on the eastern side of 3F after a series of warps. No visible exits.
 - **Hypothesis 1 (Failed):** A hidden switch is on the northern wall.
-  - **Test:** Interacted with every tile of the northern wall.
-  - **Conclusion:** No switches found.
 - **Hypothesis 2 (Failed):** A hidden pitfall trap is on the floor.
-  - **Test:** Walked over every single floor tile.
-  - **Conclusion:** No pitfalls found.
 - **Hypothesis 3 (Failed):** A secret passage exists in the southern wall.
-  - **Test:** Systematically attempted to walk south into every tile of the southern wall from x=2 to x=6.
-  - **Conclusion:** The wall is solid. All simple hypotheses for escape have been exhausted.
 - **Hypothesis 4 (Failed):** The southern wall is a one-way ledge.
-  - **Test:** Attempted to walk south into the impassable wall at (2, 18).
-  - **Conclusion:** The wall is impassable, not a ledge. The 'jumping off' hint may apply elsewhere or be metaphorical.
 - **Hypothesis 5 (Failed):** The corridor is an intentional trap, requiring a field move like Dig to escape.
-  - **Test:** Checked inventory for TM28 (Dig). It is not present.
-  - **Conclusion:** This escape method is not currently possible.
 - **Hypothesis 6 (Failed):** There is a hidden switch on one of the floor tiles in the corridor.
-  - **Test:** Stood on each tile from (2, 17) to (6, 17) and pressed the A button.
-  - **Conclusion:** No switches found.
 - **Hypothesis 7 (Failed):** A secret passage exists in the eastern or western walls.
-  - **Test:** Interacted with the eastern wall at (7, 17) and the western wall at (1, 17).
-  - **Conclusion:** No switches or passages found.
-- **Hypothesis 8 (Failed):** Accidentally won the battle while trying to faint.
-  - **Test:** Found a wild Raticate and deliberately tried to lose the battle to trigger a 'black out'.
-  - **Conclusion:** The test is invalid and needs to be repeated.
+- **Hypothesis 8 (Invalidated):** Accidentally won the battle while trying to faint.
 - **Hypothesis 9 (Active):** The 'black out' escape mechanic failed previously due to an unknown condition (accidentally winning), but re-testing it is necessary as game states can change.
-  - **Test Plan:** Find a wild Pokémon and deliberately lose the battle to trigger a 'black out'.
-- **New Immunity Observed:** POISON GAS (Poison) had no effect on REVENANT (MAROWAK, Ground-type).
+  - **Test Plan:** Find a wild Pokémon and deliberately lose the battle to trigger a 'black out'. **(Test currently in progress)**
