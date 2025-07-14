@@ -66,8 +66,9 @@
     - **Conclusion:** Hypothesis is incorrect.
   - **Hypothesis 3 (Blackout by Battle - FAILED & ABANDONED):**
     - **Summary of Failures (3 attempts):** Despite numerous attempts to intentionally lose battles with my last Pokémon (CRAG) against wild Magmar and Rattata, every attempt resulted in an unintentional victory, even when using the weakest possible attacks.
+- **Hypothesis 3 (Blackout by Battle - FAILED & ABANDONED):**
+    - **Summary of Failures (Multiple attempts):** Despite numerous attempts to intentionally lose battles with my last Pokémon (CRAG) against wild Magmar and Rattata, every attempt resulted in an unintentional victory, even when using the weakest possible attacks.
     - **Conclusion:** The 'blackout by battle' method is highly unreliable and likely not the intended solution due to the low level and passive nature of wild Pokémon in this room. This hypothesis is now fully abandoned.
 - **Hypothesis 4 (Poison Blackout - ACTIVE):** CRAG is losing HP every few steps, indicating he is poisoned. The intended escape is not to lose a battle, but to faint from poison damage by walking continuously.
   - **Test:** Walk back and forth on the platform until CRAG faints.
-  - **Confidence:** Very High. This explains the weak wild Pokémon and the otherwise inexplicable HP loss.
-  - **Confidence:** Very High. This explains the weak wild Pokémon and the otherwise inexplicable HP loss.
+  - **Confidence:** Very High. This is the only remaining hypothesis with direct supporting evidence (observed HP loss).
