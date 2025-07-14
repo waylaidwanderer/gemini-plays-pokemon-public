@@ -77,5 +77,7 @@
     - **Test (Attempt 2):** Triggered a wild encounter. Attempted to have REVENANT faint by using the non-damaging move FOCUS ENERGY.
     - **Outcome (Failed - 4 attempts):** FOCUS ENERGY failed repeatedly, and the opponent RATTATA did not attack, resulting in a battle stalemate.
     - **Conclusion:** Using non-damaging moves to facilitate a loss is not working in this specific encounter. A new strategy is required.
-    - **New Test Plan:** Use a weak damaging move (HEADBUTT) to try and provoke an attack from the opponent, risking a KO.
+    - **Test (Attempt 3):** Use a weak damaging move (HEADBUTT) to try and provoke an attack from the opponent.
+    - **Outcome (Failed):** The move resulted in a critical hit, knocking out the opponent RATTATA. The battle was won, not lost.
+    - **Conclusion:** The 'blackout' hypothesis remains untested due to the unusual passivity of the wild Pokémon. The only remaining option is to attempt to trigger another wild encounter and repeat the test.
 - **Weird Typing:** My LAPRAS (NEPTUNE) was displayed as a GHOST type in battle. This needs further investigation.
