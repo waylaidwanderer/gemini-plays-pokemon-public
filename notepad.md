@@ -52,15 +52,14 @@
 
 ### Mahogany Mart Puzzle Log (Re-evaluation)
 *   **Objective:** Find the secret Team Rocket entrance.
-*   **New Conclusion:** My previous assessment that this puzzle was a "dead end" was incorrect. The trainers on Route 43 are a story block, confirming that the solution *must* be within this Mart. I need to re-examine all interactable objects and NPCs with a fresh perspective.
-*   **Recap of Failed Hypotheses:**
-    *   The warp at (7, 3) is not a direct entrance.
-    *   The Pharmacist is not the trigger. (Test confirmed)
-    *   The incense burner at (6, 1) is not a switch. (Test confirmed, marker placed)
-    *   The bookshelf at (7, 1) is not a switch. (Test confirmed, marker placed)
-*   **New Discovery & Correction:** The Black Belt at (1, 6) reappears if I get too close to his original location after he vanishes. This confirms the puzzle is sequential and time-sensitive.
-*   **New Hypothesis:** The correct sequence is to trigger the Black Belt's disappearance by interacting with the bookshelf, and then, while he is gone, immediately move to a different trigger point before he can reappear. The most likely secondary trigger is the warp at (7, 3).
-*   **Next Step:** I will return to the bookshelf to start the sequence again.
+*   **Conclusion:** The trainers on Route 43 are a story block, confirming the solution is here.
+*   **Key Observation:** The Black Belt (BB) at (1, 6) disappears when I approach the bookshelf at (7, 1). He reappears if I then approach his original spot. This proves the puzzle is sequential and likely has a timed component.
+*   **Failed Hypotheses Log:**
+    1.  **Hypothesis:** The Pharmacist is the trigger. **Result:** Failed. He is a normal shopkeeper.
+    2.  **Hypothesis:** The incense burner or bookshelf are direct switches. **Result:** Failed. They only provide flavor text.
+    3.  **Hypothesis:** After BB vanishes, the trigger is at his old spot (1, 6). **Result:** Failed. This only makes him reappear.
+*   **Current Hypothesis:** The puzzle requires a specific sequence of actions performed quickly. The correct sequence is likely: 1) Trigger the Black Belt's disappearance by approaching the bookshelf. 2) While he is gone, immediately move to the warp tile at (7, 3). This is the most logical second step and has not been tested in this specific, timed sequence.
+*   **Next Step:** Return to the bookshelf to restart the sequence and test the current hypothesis.
 
 ## VI. Immediate Tasks & Reminders
 
