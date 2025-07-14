@@ -40,7 +40,8 @@
 *   **Key Observation:** A Black Belt guard at (1, 6) disappears when I approach the bookshelf at (7, 1). He reappears if I move away from this area, which seems to reset the puzzle state.
 *   **Hypothesis 1 (Invalidated):** The puzzle is a rapid, timed sequence. All attempts to interact with the warp tile (7, 3), the incense burner (6, 1), the pharmacist (4, 3), or the guard's original spot (1, 6) immediately after the guard disappears have failed because moving away from the bookshelf resets the puzzle. This entire line of reasoning is considered BUSTED.
 *   **Hypothesis 2 (Invalidated):** The bookshelf event enables the warp at (7, 3). Attempts to activate the warp by standing on it, pressing 'A', or pressing 'Down' have all failed. This hypothesis is BUSTED.
-*   **New Hypothesis (To Be Tested):** The bookshelf event changes the state of another object in the room. The next logical step is to interact with the Pharmacist at (4, 3). **Test Plan:** 1. Trigger bookshelf event. 2. Go to (4, 2) and interact with the Pharmacist.
+*   **Hypothesis 3 (Invalidated):** The bookshelf event changes the state of the Pharmacist at (4, 3). **Test Result:** After triggering the bookshelf event, interacting with the Pharmacist only opens his regular shop menu. This hypothesis is BUSTED.
+*   **New Hypothesis (To Be Tested):** The bookshelf event changes the state of the Black Belt guard at (1, 6). Perhaps interacting with him after the bookshelf event triggers the next step. **Test Plan:** 1. Ensure bookshelf event has been triggered. 2. Go to (1, 5) and interact with the Black Belt.
 
 ## V. Future Development Ideas
 
