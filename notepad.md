@@ -38,8 +38,12 @@
 - **Pokemon Mansion - Secret Key Puzzle:**
   - **Goal:** Find the Secret Key to unlock the Cinnabar Gym.
   - **Observation:** The key is likely behind the eastern gates on 1F at (25, 14). These gates are currently closed. There are two main switches: one on 1F at (3, 6) and one on 2F at (3, 12). There is also a positional trigger at (12, 10) on 1F that closes the gates at (17,8) and (18,8).
-  - **Current Hypothesis:** The solution involves a sequence of actions. The next hypothesis to test is that the 2F switch must be activated *before* the 1F switch.
-  - **Test Plan:** Go to 2F, press the switch at (3, 12), then return to 1F and press the switch at (3, 6), ensuring not to cross the positional trigger at (12, 10).
+  - **Failed Hypothesis (Attempt 1):** The 2F switch at (3, 12) must be activated *before* the 1F switch.
+    - **Test:** Stood at (4, 12) and pressed A to interact with the switch.
+    - **Outcome:** Nothing happened. No text appeared.
+    - **Conclusion:** This hypothesis is incorrect. The 2F switch does not seem to work in isolation or as the first step of a sequence.
+  - **Current Hypothesis:** The solution to the gate puzzle lies on the 3rd floor, accessed via the warps on this floor.
+  - **Test Plan:** Explore the 3rd floor thoroughly, starting with the warp at (8, 11).
 
 # IV. Solved & Failed Puzzles
 - **Pokemon Mansion 1F - Switch at (3, 6) (Failed - Attempt 1):**
