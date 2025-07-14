@@ -46,3 +46,6 @@
 - **Pokemon Mansion 1F - Secret Passage:** The eastern corridor "trap" is escaped by walking through a secret passage in the impassable wall. The `path_planner` tool can detect these.
 - **Gate/Warp Interaction:** A tile can be both a gate and a warp. Even if the gate is visually closed, the warp can still be reachable and usable if listed as such in the Game State Information.
 - `gate_offscreen`: A gate not currently on screen. Its state is unknown and treated as potentially open for pathfinding. Upon entering the screen, its state can be revealed as `open_gate` or `closed_gate`.
+
+# V. Mansion Diaries
+- **Diary 1 (2F):** "July 5. Guyana, South America. A new POKéMON was discovered deep in the jungle."
