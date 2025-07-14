@@ -36,10 +36,9 @@
 - **Pokemon Mansion 1F - Eastern Corridor Trap:**
   - **Status:** Trapped. Northern entrance at (27, 20) closed after entry. Southern warp gate at (27,28)/(28,28) is impassable.
   - **Hypothesis 1 (Hidden Wall Switch - FAILED):** Systematically interacting with every wall tile yielded no results after 5 attempts. Hypothesis abandoned.
-  - **Hypothesis 2 (Full Party Blackout - ACTIVE):** The intended escape is to have the entire party faint in a wild battle, triggering a true blackout. This is the only remaining 'soft-reset' mechanic available.
-    - **Execution Plan:**
-      1. Trigger a wild battle.
-      2. Systematically faint all conscious Pokémon by using non-damaging moves or weakest attacks.
+  - **Hypothesis 2 (Full Party Blackout - FAILED):** The system's 'hallucination' warning invalidates the blackout strategy. This is no longer a viable escape method.
+  - **Hypothesis 5 (Illusory Gate - FAILED):** Both sides of the southern gate at (27,28) are impassable. The 'hallucination' warning does not refer to the gate.
+  - **Hypothesis 6 (Hidden Wall Passage - ACTIVE):** The 'hallucination' refers to a hidden path through a seemingly solid wall. Test: Attempt to walk into the eastern wall at (29, 27).
     - **Progress & Attempts:**
       - **Attempt 1 (FAILED):** Accidentally defeated a wild Growlithe with NEPTUNE's Body Slam. My assessment of Body Slam's power was incorrect.
       - **Attempt 2 (FAILED):** Successfully fainted SPARKY. Sent in NEPTUNE (3 HP) to faint next, but she accidentally defeated a wild Grimer with Body Slam.
