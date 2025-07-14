@@ -49,3 +49,12 @@
 *   `inventory_manager` (Agent): Could analyze my bag and suggest items to toss when it's full.
 *   `map_scanner` (Tool): A tool to scan the current map for specific objects (e.g., all item balls) or tile types to speed up exploration planning.
 *   **Special Warps (Verified):** `WARP_PANEL` (One-way teleporter).
+
+## VII. Open Investigations
+
+### Inventory Management Bug
+*   **Observation:** All menu-based attempts to free an inventory slot (`TOSS`, `GIVE`, `DEPOSIT`) have failed, resulting in a menu loop.
+*   **Current Hypothesis:** The only way to free an inventory slot is to consume an item during a battle.
+*   **Test:** Initiate a battle in the Team Rocket Hideout and attempt to use a Potion.
+*   **Alternative Hypothesis 1:** A different button (e.g., 'Select' or 'Start') is required for confirmation in inventory menus.
+*   **Alternative Hypothesis 2:** Inventory management is story-locked until Team Rocket is defeated in Mahogany.
