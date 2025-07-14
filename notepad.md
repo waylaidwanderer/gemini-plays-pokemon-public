@@ -30,24 +30,22 @@
 ## III. Current Plans & Investigations
 
 ### Current Objective: Investigate the Lake of Rage
-*   **Status:** Paused. The path is blocked by trainers on Route 43, indicating the solution is in Mahogany Town.
-*   **Next Step:** Solve the Mahogany Mart puzzle to find the Team Rocket base, which should resolve the block on Route 43.
+*   **Status:** Believed to be accessible via Route 43. The path was previously blocked by trainers, but solving the puzzle in the Mahogany Mart is hypothesized to have cleared this blockage.
+*   **Next Step:** Proceed to the gate at Mahogany Town (9, 1) and travel north onto Route 43 to test this hypothesis.
 
 ## IV. Puzzle Logs
 
 ### Mahogany Mart Puzzle Log
 *   **Objective:** Find the secret Team Rocket entrance.
-*   **Key Observation:** A Black Belt guard at (1, 6) disappears when I approach the bookshelf at (7, 1). He reappears if I move away from this area, which seems to reset the puzzle state.
-*   **Hypothesis 1 (Invalidated):** The puzzle is a rapid, timed sequence. All attempts to interact with the warp tile (7, 3), the incense burner (6, 1), the pharmacist (4, 3), or the guard's original spot (1, 6) immediately after the guard disappears have failed because moving away from the bookshelf resets the puzzle. This entire line of reasoning is considered BUSTED.
-*   **Hypothesis 2 (Invalidated):** The bookshelf event enables the warp at (7, 3). Attempts to activate the warp by standing on it, pressing 'A', or pressing 'Down' have all failed. This hypothesis is BUSTED.
-*   **Hypothesis 3 (Invalidated):** The bookshelf event changes the state of the Pharmacist at (4, 3). **Test Result:** After triggering the bookshelf event, interacting with the Pharmacist only opens his regular shop menu. This hypothesis is BUSTED.
-*   **Hypothesis 4 (Invalidated):** Interacting with the Black Belt at (1, 6) after the bookshelf event would open the passage. **Test Result:** The guard revealed he was Team Rocket and disappeared, but this did not activate the warp at (7, 3). This hypothesis is BUSTED.
-*   **Hypothesis 5 (Invalidated):** The Incense Burner at (6, 1) is the secret switch. **Test Result:** Interacting with it only produces flavor text. This hypothesis is BUSTED.
-*   **Hypothesis 6 (Invalidated):** The mart puzzle would cause the Fisher blocking the Mahogany Gym to move. **Test Result:** The Fisher at (6, 14) remains, blocking the path. This hypothesis is BUSTED.
-*   **New Conclusion & Plan:** The puzzle in the mart did not open the path to the gym. The only remaining possibility is that it cleared the path north on Route 43 to the Lake of Rage. The next step is to head to the gate at (9, 1) and proceed north.
+*   **Key Discovery:** The puzzle is a sequence of events. 1) Approaching the bookshelf at (7, 1) causes a Black Belt guard at (1, 6) to disappear. 2) Interacting with the bookshelf triggers a scripted event. 3) Interacting with the Black Belt guard at (1, 6) after the bookshelf event causes him to reveal he is Team Rocket and then vanish.
+*   **Hypothesis 1 (Invalidated):** The secret entrance is the warp at (7, 3). **Test Result:** All attempts to activate the warp after the sequence failed.
+*   **Hypothesis 2 (Invalidated):** The Pharmacist at (4, 3) is involved. **Test Result:** His dialogue and function remain unchanged.
+*   **Hypothesis 3 (Invalidated):** The Incense Burner at (6, 1) is the switch. **Test Result:** It only produces flavor text.
+*   **Hypothesis 4 (Invalidated):** The puzzle opens the path to the Mahogany Gym. **Test Result:** The Fisher at (6, 14) remains, blocking the path.
+*   **Final Conclusion:** The puzzle's purpose is not to open a passage *inside* the mart or to the gym. Its completion must have triggered an event elsewhere, most likely clearing the path on Route 43.
 
 ## V. Future Development Ideas
 
 ### Agent Ideas
 *   **Repel Advisor:** An agent to recommend when to use a Repel based on party level and goal.
-*   **Sequential Puzzle Agent:** An agent designed to solve state-dependent puzzles that require a specific, timed sequence of actions. This would be ideal for puzzles like the Mahogany Mart one.
+*   **Sequential Puzzle Agent:** An agent designed to solve state-dependent puzzles that require a specific sequence of actions. This will be created this turn.
