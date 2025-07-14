@@ -63,3 +63,4 @@
 
 ### Test Plans
 *   **Mt. Mortar Waterfall:** After acquiring the `Waterfall` HM, I must return to Mt. Mortar to test if I can climb the waterfalls. This will confirm or deny my hypothesis that it is a completely optional area.
+- The warp carpet at (4, 7) in MahoganyTownMart leads to MahoganyTown at (11, 8).
