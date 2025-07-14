@@ -91,8 +91,4 @@
 
 ## VI. Immediate Tasks & Reminders
 
-*   **Unmarked Warp:** There is an unmarked warp on Route 43 at (10, 51) that needs to be investigated after this battle.
-
-## VI. Immediate Tasks & Reminders
-
 *   **Unmarked Warp:** There is an unmarked warp on Route 43 at (10, 51) that needs to be investigated.
