@@ -75,3 +75,4 @@
     *   **Test:** Interact with him multiple times in a row.
     *   **Result:** The dialogue simply repeats. No other changes observed in the room.
     *   **Conclusion:** FAILED. Simple repeated interaction is not the solution.
+*   **Impassable (Verified):** `COUNTER`, `VOID`.
