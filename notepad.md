@@ -113,3 +113,9 @@
 *   **Alternative Hypothesis #1:** The issue is story-related and will resolve after defeating the hideout's leader. **Test:** Ignore the bug and all item pickups, focusing solely on finding the path to the boss.
 *   **Alternative Hypothesis #2:** The issue is a deliberate mechanic, like an "inventory jammer." **Test:** Search for a machine, a generator, or a switch that could be responsible for this effect and interact with it.
 *   **Alternative Hypothesis #3:** The inventory issue is a temporary story mechanic, not a bug. It may resolve automatically after defeating the hideout's leader. **Test:** If other hypotheses fail, ignore all item pickups and focus solely on finding the path to the boss.
+
+### Floor Puzzle - Team Rocket Hideout B2F
+*   **Mechanics:** This appears to be another state-based sequence puzzle. Stepping on specific tiles triggers changes to objects on the floor (Poke Balls, Voltorbs, and Grunts appearing/disappearing).
+*   **Known Triggers:**
+    *   Stepping from (1, 15) to (1, 16) makes the Poke Ball at (3, 10) disappear.
+    *   Stepping from (5, 16) to (5, 15) makes the Poke Ball at (3, 10) reappear.
