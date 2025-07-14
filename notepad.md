@@ -67,4 +67,8 @@
     - **Outcome:** No triggers activated.
     - **Conclusion:** Hypothesis is incorrect.
   - **Hypothesis 2 (Agent):** There is a hidden passage through the eastern wall.
-    - **Test Plan:** Attempt to walk east from (22, 15) into the wall at (23, 15).
+    - **Test:** Attempted to walk east from (22, 15) into the wall at (23, 15).
+    - **Outcome:** Movement was blocked.
+    - **Conclusion:** Hypothesis is incorrect.
+  - **Hypothesis 3 (Agent):** The room is an intentional trap, and the only escape is to 'black out' by fainting.
+    - **Test Plan:** Trigger a wild encounter and intentionally lose the battle.
