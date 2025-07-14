@@ -42,3 +42,4 @@
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion B1F - Gate Switch Puzzle:** Switch at (19, 26) opens northern and western gates.
 - **Pokemon Mansion 1F - Alternating Doors Puzzle:** The switch at (3, 6) opens the eastern gates at (25, 14) and (26, 14) but closes the gates at (17, 8) and (18, 8) behind the player, creating a trap.
+- **Gate/Warp Interaction:** A tile can be both a gate and a warp. Even if the gate is visually closed, the warp can still be reachable and usable if listed as such in the Game State Information.
