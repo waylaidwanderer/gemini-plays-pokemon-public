@@ -63,3 +63,7 @@
 
 ## Tile Mechanics Update
 - **Switch Interaction:** Switches often appear on impassable tiles. They must be interacted with by standing on an adjacent tile (usually below) and facing the switch.
+
+# VI. Addendum from Turn 73094
+- **Switch Interaction:** Switches can appear on impassable tiles. They must be interacted with by standing on an adjacent tile (usually below) and facing the switch.
+- **gate_offscreen:** Gates that are not on screen are treated as potentially open for pathfinding purposes, but their actual state is unknown until they become visible.
