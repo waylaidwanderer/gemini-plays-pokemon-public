@@ -144,3 +144,7 @@
     *   **Action:** Moved from (19, 12) to (19, 11).
     *   **Observation:** The Poke Ball at (14, 10) remained visible. No other state change observed.
     *   **Conclusion:** Moving off the Y=12 corridor to the north did not trigger a state change.
+*   **Test 12:**
+    *   **Observation:** A new Poke Ball (ID 13) appeared at (17, 2).
+    *   **Conclusion:** A state change has occurred, likely triggered by a previous action. This new object is the next logical step in the puzzle.
+    *   **Next Step:** Navigate to and investigate the new Poke Ball.
