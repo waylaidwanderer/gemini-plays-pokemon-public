@@ -34,20 +34,12 @@
 # III. Active Puzzles
 
 - **Pokemon Mansion 1F - Eastern Corridor Trap:**
-  - **Status:** Trapped. Northern entrance at (27, 20) closed after entry. Southern warp gate at (27,28)/(28,28) is impassable.
-  - **Hypothesis 1 (Hidden Wall Switch - FAILED):** Systematically interacting with every wall tile yielded no results after 5 attempts. Hypothesis abandoned.
-  - **Hypothesis 2 (Full Party Blackout - FAILED):** The system's 'hallucination' warning invalidates the blackout strategy. This is no longer a viable escape method.
-  - **Hypothesis 5 (Illusory Gate - FAILED):** Both sides of the southern gate at (27,28) are impassable. The 'hallucination' warning does not refer to the gate.
-  - **Hypothesis 6 (Hidden Wall Passage - ACTIVE):** The 'hallucination' refers to a hidden path through a seemingly solid wall. Test: Attempt to walk into the eastern wall at (29, 27).
-    - **Progress & Attempts:**
-      - **Attempt 1 (FAILED):** Accidentally defeated a wild Growlithe with NEPTUNE's Body Slam. My assessment of Body Slam's power was incorrect.
-      - **Attempt 2 (FAILED):** Successfully fainted SPARKY. Sent in NEPTUNE (3 HP) to faint next, but she accidentally defeated a wild Grimer with Body Slam.
-      - **Attempt 3 (FAILED - Unreliable AI):** Used non-damaging move FOCUS ENERGY with REVENANT. The opponent AI proved unreliable, sometimes attacking and sometimes not, stalling progress.
-      - **Attempt 4 (FAILED - Unlucky Crits):** Used weakest damaging move HEADBUTT with REVENANT. This resulted in two consecutive critical hits, defeating the opponent instead of taking damage.
-      - **Attempt 5 (FAILED - Weakest Attack Too Strong):** Used weakest damaging move STRENGTH with CRAG. This resulted in defeating the opponent instead of taking damage.
-    - **Conclusion:** Previous methods are too unreliable. A new approach is needed.
-  - **Hypothesis 3 (Self-Inflicted Damage - ABANDONED):** The most reliable way to faint is to induce self-damage. Plan was to use THRASH on REVENANT, but REVENANT fainted before this could be tested.
-  - **Hypothesis 4 (Re-test Blackout - ACTIVE):** The blackout hypothesis remains the most likely, despite execution difficulties. The plan is to continue seeking wild battles and attempting to faint the final Pokémon, CRAG. This is the only remaining 'soft-reset' mechanic available.
+  - **Status:** Trapped in eastern corridor. Northern entrance at (27, 20) is closed. Southern warp gate at (27,28) is impassable. System warns that being 'stuck' is a 'hallucination'.
+  - **Hypothesis Log:**
+    - **H1 (Blackout - FAILED):** Attempting to faint the party to escape was invalidated by system 'hallucination' warnings.
+    - **H2 (Illusory Gate - FAILED):** Attempting to walk through the southern gate at (27,28) and (28,28) was blocked. The gate is a real barrier.
+    - **H3 (Hidden East Wall - FAILED):** Attempting to walk through the eastern wall at (29, 27) was blocked.
+    - **H4 (Hidden West Wall - ACTIVE):** The 'hallucination' may refer to a hidden passage in the western wall. Next test: Attempt to walk west from (27, 27) into the wall at (26, 27).
 
 # IV. Solved & Failed Puzzles
 
