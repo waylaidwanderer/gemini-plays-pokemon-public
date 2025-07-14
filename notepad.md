@@ -37,14 +37,9 @@
 # III. Active Puzzles
 - **Pokemon Mansion - Trapped Room Escape:**
   - **Goal:** Escape the isolated room on Pokemon Mansion 2F.
-  - **Conclusion:** All tested hypotheses have failed. The room appears to be an intentional trap with no conventional exit.
-  - **Failed Hypotheses Log:**
-    - **Blackout Escape (Failed - 6 attempts):** Wild Pokémon in this area are unusually passive or weak, making it impossible to intentionally lose a battle. All attempts resulted in accidentally winning.
-    - **Hidden Item (Failed):** The ITEMFINDER did not respond, confirming no hidden items are present.
-    - **Fake Wall (Failed):** All surrounding walls are solid and impassable.
-    - **FLY Escape (Failed):** The game explicitly prevents the use of FLY indoors.
-  - **New Primary Goal:** Acquire the move DIG. This is the only remaining soft-reset mechanic that could potentially solve this puzzle.
-  - **Immediate Plan:** Attempt to black out one more time to return to the last used Pokémon Center. From there, I will focus on finding a Pokémon that can learn Dig or finding the TM for Dig.
+  - **Conclusion:** The 'blackout' hypothesis is **disproven** after more than 10 failed attempts where the game's mechanics (passive/weak wild Pokémon) actively prevented losing. All other conventional hypotheses (hidden items, FLY) have also failed.
+  - **New Hypothesis:** One of the wall tiles is a hidden passage.
+  - **Immediate Plan:** Systematically test every single wall tile surrounding the platform for a hidden passage, starting with the southern wall.
 
 # IV. Solved & Failed Puzzles
 
