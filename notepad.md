@@ -33,32 +33,13 @@
 
 # III. Active Puzzles
 
-- **Pokemon Mansion 1F - Eastern Corridor Trap (SOLVED):** See map marker at (27, 28) for details on the timed gate mechanic.
+- **Pokemon Mansion 1F - Eastern Corridor Trap:**
+  - **Status:** Currently trapped. All physical exits are blocked.
+  - **Mechanic:** The southern gate at (27, 28) is controlled by a hidden trigger. My current hypothesis is that it's a step-counter that resets after a battle.
+  - **Active Plan:** Walk laps within the corridor to accumulate steps and test if the gate opens. Avoid wild battles.
 
-    - **SH2 (Waiting Game - ACTIVE):** Agent hypothesis. The 'hallucination' is a timed event that will dissipate if the player remains still.
-
-# IV. Solved & Failed Puzzles
-
-- **Pokemon Mansion B1F - Western Exploration (Failed - Attempt 1):**
-    - **Hypothesis:** The solution to opening the eastern gates lies within the unexplored western section of the B1F floor.
-    - **Test:** Attempted to pathfind to the western section.
-    - **Outcome:** Pathfinding failed; the area is physically disconnected from the eastern section.
-    - **Conclusion:** The western and eastern sections of B1F are separate. The solution is not in the west.
-- **Pokemon Mansion B1F - Gate Switch Puzzle (Solved):** The switch at (19, 26) opens the northern and western gates, but not the eastern ones.
-
-- **Diary Interaction:** Diaries must be interacted with from the side, not from below.
-  - **Observation (Trapped Room):** Fell from 3F into an inescapable room on 2F at (19, 15). No visible exits.
-  - **Hypothesis 1 (Agent):** The platform has a hidden trigger.
-    - **Test:** Walked over every tile of the L-shaped platform at (19-22, 15-16).
-    - **Outcome:** No triggers activated.
-    - **Conclusion:** Hypothesis is incorrect.
-  - **Hypothesis 2 (Agent):** There is a hidden passage through the eastern wall.
-    - **Test:** Attempted to walk east from (22, 15) into the wall at (23, 15).
-    - **Outcome:** Movement was blocked.
-    - **Conclusion:** Hypothesis is incorrect.
-  - **Hypothesis 3 (Blackout by Battle - FAILED & ABANDONED):**
-    - **Summary of Failures (3 attempts):** Despite numerous attempts to intentionally lose battles with my last Pokémon (CRAG) against wild Magmar and Rattata, every attempt resulted in an unintentional victory, even when using the weakest possible attacks.
-
-- **Hypothesis 4 (Poison Blackout - FAILED):** CRAG was not poisoned. Hypothesis disproven by Game State data.
+# IV. Solved Puzzles & Key Discoveries
+- **Pokemon Mansion 2F - Trapped Room (SOLVED):** Escaped by blacking out after the last party member fainted in a wild battle.
+- **Pokemon Mansion B1F - Gate Switch Puzzle (SOLVED):** The switch at (19, 26) opens the northern and western gates.
 - **Switch Interaction:** Switches must be interacted with by standing on the tile directly below them and facing up.
-- **'No Will to Fight':** After a Pokémon faints, attempting to switch in the next Pokémon can sometimes fail with the message 'There's no will to fight!'.
+- **Diary Interaction:** Diaries must be interacted with from the side, not from below.
