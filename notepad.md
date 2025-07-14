@@ -47,12 +47,6 @@
 *   **Anomaly:** After defeating Gym Leader Chuck, his wife gave me HM02 (Fly). However, the HM is not in my bag.
 *   **Verification Plan:** After dealing with the Lake of Rage, travel to Cianwood City and speak to Chuck's wife again.
 
-### Investigation: The Battle Tower
-*   **Status:** Complete. The Battle Tower is a self-contained loop with no key items or story progression elements. No further investigation is warranted.
-
-### Investigation: Olivine Lighthouse
-*   **Status:** Complete (for now). Exhausted all paths, pits, and trainers on all floors. Concluded that progression is not possible at this time and is likely gated behind another story event.
-
 ## V. Future Development Ideas
 
 ### Agent Ideas
