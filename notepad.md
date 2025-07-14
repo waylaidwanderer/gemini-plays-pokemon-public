@@ -76,3 +76,4 @@
     *   **Result:** The dialogue simply repeats. No other changes observed in the room.
     *   **Conclusion:** FAILED. Simple repeated interaction is not the solution.
 *   **Impassable (Verified):** `COUNTER`, `VOID`.
+*   **New Conclusion:** The Route 43 Gatehouse is divided into two sections. The officer is unreachable from the entrance. This path is a dead end. The only remaining option is to solve the puzzle in the Mahogany Mart.
