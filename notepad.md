@@ -87,3 +87,10 @@
     *   **Test:** Interact with the incense burner.
     *   **Result:** Displays flavor text about an incense burner.
     *   **Conclusion:** FAILED. The mart puzzle is a complete dead end. The path forward must be outside in Mahogany Town.
+
+## VI. Immediate Tasks & Reminders
+
+*   **Unmarked Warp:** There is an unmarked warp on Route 43 at (10, 51) that needs to be investigated after this battle.
+
+### Tool Ideas
+*   **Puzzle Sequence Advisor:** An agent that takes a list of interactable objects, their states, and a history of failed attempts, then suggests a novel sequence of interactions to try next. This would help break out of logic loops.
