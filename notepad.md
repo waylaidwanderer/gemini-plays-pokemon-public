@@ -71,4 +71,7 @@
     *   **Test:** Interact with both objects.
     *   **Result:** Only flavor text is displayed.
     *   **Conclusion:** FAILED.
-*   **Current Hypothesis:** The room's state needs to be reset by leaving and re-entering.
+*   **Hypothesis 5:** Repeatedly interacting with the Black Belt is the trigger.
+    *   **Test:** Interact with him multiple times.
+    *   **Result:** After several interactions, Lance the Pokémon Champion appeared at (3, 3)!
+    *   **Conclusion:** SUCCESS! This was the correct trigger. The next step is to talk to Lance.
