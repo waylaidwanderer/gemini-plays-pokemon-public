@@ -41,6 +41,7 @@
   - **Hypothesis 1 (Hidden Wall Switch - FAILED):** Systematically interacting with every wall tile yielded no results after 5 attempts. This hypothesis is now abandoned.
   - **Hypothesis 2 (Full Party Blackout - ACTIVE):** The intended escape is to have the *entire* party faint in a wild battle, triggering a true blackout. This is the only remaining 'soft-reset' mechanic available.
     - **Test Plan:** Initiate a wild battle and systematically faint all remaining conscious Pokemon.
+    - **Attempt 1 (FAILED):** Accidentally defeated a wild Growlithe with NEPTUNE's Body Slam. The blackout hypothesis remains active.
 
 # IV. Solved & Failed Puzzles
 
