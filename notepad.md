@@ -22,7 +22,12 @@
 
 *   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions, and disable the radio signal.
 *   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras. Both ladders on B1F are either dead ends or one-way exits. Interacting with Scientist Jed at (18, 12) causes him to move temporarily, but he blocks the path again.
-*   **Current Plan:** All paths on B1F have been exhausted. My new hypothesis is that I need to trigger a battle to solve the inventory bug, which is preventing me from picking up items that may be required for progress. I will re-enter the hideout and test if the security cameras can still trigger battles.
+*   **Current Plan:** Use the `sequential_puzzle_solver` agent to determine the next step in the hidden floor puzzle. Mark each correct step with a map marker.
+
+### Floor Puzzle - Team Rocket Hideout B1F
+*   **Mechanics:** This is a state-based sequence puzzle. Stepping on incorrect tiles resets the puzzle or triggers traps. Stepping on correct tiles causes environmental changes (objects appearing/disappearing) that indicate progress. Backtracking along the correct path does not reset the puzzle.
+*   **Successful Sequence (so far):** (20, 7) -> (19, 7) -> (18, 7) -> (17, 7) -> (16, 7) -> (15, 7) -> (14, 7) -> (14, 6) -> (14, 5) -> (13, 5) -> (12, 5) -> (11, 5) -> (10, 5) -> (9, 5) -> (8, 5) -> (7, 5).
+*   **Failed Steps:** (7, 6) -> (7, 7) led to a dead end.
 
 ## IV. Battle Discoveries & Type Chart
 
