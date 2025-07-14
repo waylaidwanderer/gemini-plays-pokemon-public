@@ -89,7 +89,7 @@
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
 
 ### Floor Puzzle (B1F)
-*   **Hypothesis 1:** The puzzle involves hidden floor traps. **Test:** Walked along the entirety of row 5. **Result:** No traps triggered. **Conclusion:** Row 5 is not trapped. The grunt's hint may apply to other rows or be a red herring.
+*   **Hypothesis 1:** The puzzle involves hidden floor traps. **Test 1:** Walked along row 5. **Result:** No traps triggered. **Test 2:** Walked along the western section of row 6. **Result:** No traps triggered. **Conclusion:** The grunt's hint about floor traps is likely a red herring or applies elsewhere. The central floor seems safe.
 
 ## IV. Battle Discoveries & Type Chart
 
