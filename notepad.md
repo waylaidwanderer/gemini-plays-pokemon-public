@@ -57,7 +57,8 @@
 *   **Objective:** Find the secret Team Rocket entrance.
 *   **Hypothesis 6 (In Progress):** Interacting with the Black Belt at (1, 6) is the first step in a sequence to unlock the secret entrance.
     *   **Step 1 (Complete):** Interact with the Black Belt. Result: Triggers villain monologue. (Note: He does not disappear, correcting a previous faulty observation).
-    *   **Step 2 (Current):** After the monologue, move to the suspected warp at (7, 3) and attempt to use it.
+    *   **Step 2 (Failed):** After the monologue, moved to the suspected warp at (7, 3) and attempted to use it by facing multiple directions and pressing 'A'. Result: No effect. Conclusion: The warp is not activated by simple presence or directional interaction.
+    *   **Hypothesis 7 (Current):** The Black Belt's monologue enables a hidden switch elsewhere in the room. Test: Interact with the bookshelf at (7, 1).
 *   **Hypothesis 2:** The Pharmacist at (4, 3) is the trigger.
     *   **Test:** Interact with him.
     *   **Result:** Opens the standard shop menu.
