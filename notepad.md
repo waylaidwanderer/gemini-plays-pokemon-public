@@ -61,3 +61,10 @@
 - **Pokemon Mansion B1F - Gate Switch Puzzle (Solved):** The switch at (19, 26) opens the northern and western gates, but not the eastern ones.
 - **Pokemon Mansion - Trapped Corridor (Solved):** The eastern corridor of 1F is an intentional trap. Escaped via a one-way warp at the southern end that activates after being trapped.
 - **Diary Interaction:** Diaries must be interacted with from the side, not from below.
+  - **Observation (Trapped Room):** Fell from 3F into an inescapable room on 2F at (19, 15). No visible exits.
+  - **Hypothesis 1 (Agent):** The platform has a hidden trigger.
+    - **Test:** Walked over every tile of the L-shaped platform at (19-22, 15-16).
+    - **Outcome:** No triggers activated.
+    - **Conclusion:** Hypothesis is incorrect.
+  - **Hypothesis 2 (Agent):** There is a hidden passage through the eastern wall.
+    - **Test Plan:** Attempt to walk east from (22, 15) into the wall at (23, 15).
