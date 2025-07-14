@@ -42,7 +42,10 @@
     - **H4 (Hidden West Wall - FAILED):** Attempting to walk west into the wall from (27, 27) was blocked.
     - **H5 (Re-test Northern Entrance - FAILED):** Attempting to walk north through the entrance at (27, 20) was blocked.
     - **Conclusion:** All physical escape routes have been tested and are confirmed to be non-functional. The puzzle is a paradox, as the system insists an escape exists while all observable exits are blocked.
-    - **H6 (Paradoxical Escape - ACTIVE):** The solution involves a non-physical or counter-intuitive mechanic. Next test: Consult puzzle_solver_agent with a prompt focused on solving paradoxical game states.
+    - **H6 (Paradoxical Escape - ACTIVE):** The solution involves a non-physical or counter-intuitive mechanic.
+  - **Sub-Hypothesis Log:**
+    - **SH1 (Save Game Event - FAILED):** Agent hypothesis tested. Saving the game proceeded normally and did not trigger any event.
+    - **SH2 (Waiting Game - ACTIVE):** Agent hypothesis. The 'hallucination' is a timed event that will dissipate if the player remains still.
 
 # IV. Solved & Failed Puzzles
 
