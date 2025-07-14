@@ -1,14 +1,19 @@
 # I. Core Principles & Lessons Learned
 - **Immediate Maintenance & Escalation:** I must perform maintenance (notepad, agents) and fix tools *immediately* when a manual approach fails repeatedly. Deferring these actions is a critical process failure. My repeated failure to fix my `path_planner` tool is a prime example of this lapse.
-- **Combat Confirmation Bias:** I must actively try to *disprove* my hypotheses. I wasted significant time assuming my `path_planner` was correct because I was seeking to confirm it worked, rather than testing its limits.
-- **Agent & Tool Trust is Mandatory:** I MUST trust my custom agents' and tools' advice. 
+- **Combat Confirmation Bias:** I must actively try to *disprove* my hypotheses. I wasted significant time assuming my `path_planner` was correct because I was seeking to confirm it worked, rather than testing its limits and questioning my own assumption that the map was fully connected.
+- **Agent & Tool Trust is Mandatory:** I MUST trust my custom agents' and tools' advice. My `puzzle_solver_agent` correctly identified the eastern corridor as a potential trap, which I initially dismissed.
 - **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
 
 # II. Game Mechanics & Battle Intel
 
 ## A. Tile Mechanics & Traversal
-- `gate_offscreen`: These tiles should be treated as walkable for pathfinding purposes to encourage exploration of routes that go off-screen.
+- `ground`: Standard walkable tile.
+- `impassable`: Walls, furniture, etc. Cannot be walked on.
+- `gate_offscreen`: These gates are not on screen. For pathfinding, they must be treated as potentially open to encourage exploration of routes that go off-screen.
+- `closed_gate`: A gate that is visibly closed and acts as an impassable wall.
 - `open_gate`: A gate that is visibly open and acts as ground.
+- `hole`: A tile that causes the player to fall to the floor below.
+- `water`: Requires SURF to traverse.
 
 ## B. Confirmed ROM Hack Changes
 ### B1. Type Matchups & Immunities
@@ -22,6 +27,7 @@
 - **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center.
 - **Run from Battle Mechanic:** Attempting to switch Pokémon from the party screen can sometimes result in running from the battle instead.
 - **FLY in battle:** The move FLY can be used to defeat a wild Pokémon and end the battle, even when indoors. This acts as an escape method.
+- **FLY in field:** Cannot be used indoors to escape a building.
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
 - **Item Use on Fainted Pokemon:** A FULL RESTORE will not work on a fainted Pokémon.
 - **Weird Typing:** My LAPRAS (NEPTUNE) was displayed as a GHOST type in battle. This needs further investigation.
@@ -29,17 +35,23 @@
 - **THUNDERBOLT vs. DIG:** THUNDERBOLT can hit an opponent while it is underground using DIG.
 
 # III. Active Puzzles
-- **Pokemon Mansion B1F - Gate Switch Puzzle:**
-  - **Observation:** There are three sets of gates: Northern, Western, and Eastern. A switch at (19, 26) seems to control them. There are also unseen tiles in the far west.
-  - **Current Hypothesis:** The solution to opening the eastern gates lies within the unexplored western section of the floor.
-  - **Test Plan:** Navigate to the unseen tiles in the west and explore the area for new switches or clues.
+- **Pokemon Mansion - Secret Key Puzzle:**
+  - **Goal:** Find the Secret Key to unlock the Cinnabar Gym.
+  - **Observation:** The key is likely behind the eastern gates on 1F at (25, 14). These gates are currently closed. There are two main switches: one on 1F at (3, 6) and one on 2F at (3, 12). There is also a positional trigger at (12, 10) on 1F that closes the gates at (17,8) and (18,8).
+  - **Current Hypothesis:** The solution involves a sequence of actions. The next hypothesis to test is that the 2F switch must be activated *before* the 1F switch.
+  - **Test Plan:** Go to 2F, press the switch at (3, 12), then return to 1F and press the switch at (3, 6), ensuring not to cross the positional trigger at (12, 10).
 
 # IV. Solved & Failed Puzzles
-- **Pokemon Mansion B1F - Switch Hypothesis (Failed):**
-    - **Hypothesis:** The switch at (19, 26) is multi-state. Pressing it a second time would open the eastern gates. 
-    - **Test:** Pressed the switch at (19, 26) twice. 
-    - **Outcome:** The first press opened the western gates. The second press did nothing. 
-    - **Conclusion:** The switch is not a simple toggle.
-- **Pokemon Mansion - Trapped Corridor:** Discovered a hidden one-way passage at 1F (27, 26). Winning a wild battle resets the tile's state.
-- **Pokemon Mansion 1F - Eastern Wing Gate & Positional Trigger:** The gate at (25, 14) is controlled by the switch at (3, 6). A positional trigger at (12,10) on 1F closes the gates at (17,8) and (18,8). The switch at (3,6) re-opens them.
+- **Pokemon Mansion 1F - Switch at (3, 6) (Failed - Attempt 1):**
+    - **Hypothesis:** Pressing the switch at (3, 6) will open the eastern gates at (25, 14).
+    - **Test:** Stood at (4, 6) and pressed A to interact with the switch.
+    - **Outcome:** Nothing happened. No text appeared.
+    - **Conclusion:** This switch does not work in isolation.
+- **Pokemon Mansion B1F - Western Exploration (Failed - Attempt 1):**
+    - **Hypothesis:** The solution to opening the eastern gates lies within the unexplored western section of the B1F floor.
+    - **Test:** Attempted to pathfind to the western section.
+    - **Outcome:** Pathfinding failed; the area is physically disconnected from the eastern section.
+    - **Conclusion:** The western and eastern sections of B1F are separate. The solution is not in the west.
+- **Pokemon Mansion B1F - Gate Switch Puzzle (Solved):** The switch at (19, 26) opens the northern and western gates, but not the eastern ones.
+- **Pokemon Mansion - Trapped Corridor (Solved):** The eastern corridor of 1F is an intentional trap. Escaped via a one-way warp at the southern end that activates after being trapped.
 - **Diary Interaction:** Diaries must be interacted with from the side, not from below.
