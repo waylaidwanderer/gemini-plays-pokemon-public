@@ -37,9 +37,13 @@
 # III. Active Puzzles
 - **Pokemon Mansion - Trapped Room Escape:**
   - **Goal:** Escape the isolated room on Pokemon Mansion 2F.
-  - **Conclusion:** The 'blackout' hypothesis is definitively disproven. After multiple attempts (at least 4 separate battles), the game's mechanics (passive/weak wild Pokémon) actively prevent the player from losing. This cannot be the intended solution.
-  - **New Hypothesis:** There is a hidden passage through one of the surrounding walls.
-  - **Immediate Plan:** Systematically test every single wall tile bordering the platform for a hidden passage. This is the only remaining logical hypothesis.
+  - **Wall-Passage Hypothesis (Failed):** Systematically tested every wall tile. None are passages.
+  - **Agent-Generated Hypotheses:**
+    1.  **Escape Rope:** *Untestable.* I do not have an Escape Rope in my inventory.
+    2.  **Dig/Teleport Move:** *Untestable.* No Pokémon in my conscious party knows these moves, and I cannot access the PC.
+    3.  **Special Hole:** *Untestable.* The holes on the floor below are physically unreachable from my platform.
+  - **Re-evaluation:** Given that all direct escape methods have failed or are untestable, the 'blackout' hypothesis, despite previous failures, is the most likely remaining solution. The puzzle is likely not 'if' I should black out, but 'how'.
+  - **New Immediate Plan:** Attempt to trigger another wild encounter and intentionally lose with my last remaining Pokémon, CRAG.
 
 # IV. Solved & Failed Puzzles
 
