@@ -1,6 +1,6 @@
 # I. Core Principles & Lessons Learned
 - **Immediate Maintenance & Escalation:** I must perform maintenance (notepad, agents) and fix tools *immediately* when a manual approach fails repeatedly. Deferring these actions is a critical process failure. My repeated failure to fix my `path_planner` and `battle_strategist_agent` are prime examples of this lapse.
-- **Combat Confirmation Bias:** I must actively try to *disprove* my hypotheses. I wasted significant time assuming my agents were correct because I was seeking confirmation, rather than testing their limits and questioning my own assumptions.
+- **Combat Confirmation Bias:** I must actively try to *disprove* my hypotheses. I wasted significant time assuming my agents were correct because I was seeking confirmation, rather than testing their limits and questioning my own assumptions. My repeated attempts to RUN from battle in the mansion trap, despite it being counterproductive, is a key example of this failure.
 - **Agent & Tool Trust is Mandatory (but requires verification):** I MUST trust my custom agents' and tools' advice, but this trust must be earned through verification. When an agent fails, it must be refined immediately.
 - **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
 
@@ -18,6 +18,7 @@
 - `gate_offscreen`: Gates not on screen. Treated as potentially open for pathfinding.
 - `closed_gate`: A gate that is visibly closed and acts as an impassable wall.
 - `open_gate`: A gate that is visibly open and acts as ground.
+- `Switch Interaction`: Switches can appear on impassable tiles. They must be interacted with by standing on an adjacent tile (usually below) and facing the switch.
 
 ## B. Confirmed ROM Hack Changes
 ### B1. Type Matchups & Immunities
@@ -53,17 +54,3 @@
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion 2F - Trapped Room:** Escaped by blacking out.
 - **Pokemon Mansion B1F - Gate Switch Puzzle:** Switch at (19, 26) opens northern and western gates.
-- **Switch Interaction:** Switches must be interacted with by standing on the tile directly below them and facing up.
-  - **Attempt #5 (Hidden Switch):** FAILED. Systematically checked every tile in the corridor. No hidden switches found. All agent hypotheses are now exhausted. Re-attempting blackout strategy as the only remaining possibility.
-
-# V. Addendum from Turn 73043
-
-## Core Principles Update
-- **Combat Confirmation Bias:** I must actively try to *disprove* my hypotheses. I wasted significant time assuming my agents were correct because I was seeking confirmation, rather than testing their limits and questioning my own assumptions. My repeated attempts to RUN from battle in the mansion trap, despite it being counterproductive, is a key example of this failure.
-
-## Tile Mechanics Update
-- **Switch Interaction:** Switches often appear on impassable tiles. They must be interacted with by standing on an adjacent tile (usually below) and facing the switch.
-
-# VI. Addendum from Turn 73094
-- **Switch Interaction:** Switches can appear on impassable tiles. They must be interacted with by standing on an adjacent tile (usually below) and facing the switch.
-- **gate_offscreen:** Gates that are not on screen are treated as potentially open for pathfinding purposes, but their actual state is unknown until they become visible.
