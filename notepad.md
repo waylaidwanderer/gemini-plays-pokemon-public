@@ -42,8 +42,9 @@
     - **Test:** Stood at (4, 12) and pressed A to interact with the switch.
     - **Outcome:** Nothing happened. No text appeared.
     - **Conclusion:** This hypothesis is incorrect. The 2F switch does not seem to work in isolation or as the first step of a sequence.
-  - **Current Hypothesis:** The solution to the gate puzzle lies on the 3rd floor.
-  - **Test Plan (Attempt 2):** The warp at (8, 11) appears to be blocked or exit-only. The warp at (7, 2) is also reachable. I will navigate to (7, 2) to access the 3rd floor.
+  - **Observation:** A gate at (16, 5) on 3F has opened. The game indicated this was from a switch pressed 'earlier'. This confirms a delayed reaction mechanic.
+  - **Current Hypothesis:** The newly opened path at (16, 5) leads to the solution.
+  - **Test Plan:** Navigate through the gate and explore the new area.
 
 # IV. Solved & Failed Puzzles
 - **Pokemon Mansion 1F - Switch at (3, 6) (Failed - Attempt 1):**
