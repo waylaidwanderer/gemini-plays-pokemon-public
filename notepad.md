@@ -1,10 +1,13 @@
 # I. Core Principles & Lessons Learned
 - **Immediate Maintenance & Escalation:** I must perform maintenance (notepad, agents) and escalate to powerful tools (like the `puzzle_solver_agent`) *immediately* when a manual approach fails repeatedly. Deferring these actions is a critical process failure.
-- **Combat Confirmation Bias:** After a test seems to confirm a hypothesis, I must actively try to *disprove* it. I wasted significant time on the 'battle reset' theory because I was seeking to confirm a past success instead of objectively testing hypotheses. This is a major cognitive trap to avoid.
+- **Combat Confirmation Bias:** I must actively try to *disprove* my hypotheses. I wasted significant time on the 'battle reset' theory and assuming my `path_planner` was broken because I was seeking to confirm a past success instead of objectively testing. This is a major cognitive trap to avoid.
 - **Agent & Tool Trust is Mandatory:** I MUST trust my custom agents' and tools' advice. Their purpose is to perform complex reasoning and calculations I cannot. My failure to use the `puzzle_solver_agent` and my initial distrust of the `path_planner`'s output caused significant delays.
 - **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
 
 # II. Game Mechanics & Battle Intel
+
+## A. Tile Mechanics & Traversal
+- This section is for documenting the behavior of different tile types as I discover them.
 
 ## B. Confirmed ROM Hack Changes
 ### B1. Type Matchups & Immunities
@@ -24,9 +27,9 @@
 - **'No Will to Fight':** After a Pokémon faints, attempting to switch in the next Pokémon can sometimes fail with the message 'There's no will to fight!'. The cause is unknown, but trying again on the next turn was successful.
 - **THUNDERBOLT vs. DIG:** THUNDERBOLT can hit an opponent while it is underground using DIG. This is contrary to standard mechanics and resulted in an accidental knockout when trying to faint.
 
-# III. Solved Puzzles
-- **Pokemon Mansion - Trapped Corridor:** Discovered a hidden one-way passage at 1F (27, 26). The only way to make the wall passable from the south again was to win a wild battle, which resets the tile's state.
-- **Pokemon Mansion - Alternating Doors:** Confirmed by a Super Nerd on 2F. The mansion has at least two sets of gates controlled by two different switches. Switch 1 (1F, (3, 6)) controls one set of gates. Switch 2 (2F, (3, 12)) controls another set. Activating a switch toggles the state of its corresponding doors.
-- **Pokemon Mansion 1F - Eastern Wing Gate & Positional Trigger:** The gate at (25, 14) is controlled by the switch at (3, 6). Additionally, a positional trigger at (12,10) on 1F closes the gates at (17,8) and (18,8). The switch at (3,6) re-opens them. Direct interaction with the gate does not work.
+# III. Active Puzzles
+- **Pokemon Mansion - Alternating Doors:** A Super Nerd on 2F explained that switches open and close alternating sets of doors. I need to determine which switches control which doors to fully navigate the mansion.
 
-- **Trust Your Tools Over Assumptions:** A major cognitive failure occurred in the Pokémon Mansion where I dismissed my `path_planner`'s correct output because it contradicted my flawed visual assumption. I must trust my tools, as they analyze raw data without human bias. This lesson was learned after being trapped in what I thought was a one-tile-wide corridor.
+# IV. Solved Puzzles
+- **Pokemon Mansion - Trapped Corridor:** Discovered a hidden one-way passage at 1F (27, 26). The only way to make the wall passable from the south again was to win a wild battle, which resets the tile's state.
+- **Pokemon Mansion 1F - Eastern Wing Gate & Positional Trigger:** The gate at (25, 14) is controlled by the switch at (3, 6). Additionally, a positional trigger at (12,10) on 1F closes the gates at (17,8) and (18,8). The switch at (3,6) re-opens them. Direct interaction with the gate does not work.
