@@ -44,7 +44,14 @@
     - **Progress & Attempts:**
       - **Attempt 1 (FAILED):** Accidentally defeated a wild Growlithe with NEPTUNE's Body Slam. My assessment of Body Slam's power was incorrect.
       - **Attempt 2 (FAILED):** Successfully fainted SPARKY. Sent in NEPTUNE (3 HP) to faint next, but she accidentally defeated a wild Grimer with Body Slam.
-    - **Conclusion:** The blackout hypothesis remains active, but execution must be more careful. The next Pokémon to faint will be ECHO using HAZE/CONFUSE RAY.
+      - **Attempt 3 (FAILED - Unreliable AI):** Used non-damaging move FOCUS ENERGY with REVENANT. The opponent AI proved unreliable, sometimes attacking and sometimes not, stalling progress. Hypothesis abandoned.
+      - **Attempt 4 (FAILED - Unlucky Crits):** Used weakest damaging move HEADBUTT with REVENANT. This resulted in two consecutive critical hits, defeating the opponent instead of taking damage. Hypothesis abandoned.
+    - **Conclusion:** Previous methods are too unreliable. A new approach is needed.
+  - **Hypothesis 3 (Self-Inflicted Damage - ACTIVE):** The most reliable way to faint is to induce self-damage.
+    - **Execution Plan:**
+      1. Trigger a wild battle.
+      2. Use moves that cause self-harm, such as THRASH which leads to confusion.
+      3. The primary Pokémon for this will be REVENANT, as it is already at low health.
 
 # IV. Solved & Failed Puzzles
 
