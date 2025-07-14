@@ -34,12 +34,11 @@
 - **FLY in field:** Cannot be used indoors to escape a building.
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
 - **Item Use on Fainted Pokemon:** A FULL RESTORE will not work on a fainted Pokémon.
+- **Intentional Fainting:** Purposely fainting the party is NEVER a valid strategy to escape a trapped area.
 
 # III. Active Puzzles
+- **Pokemon Mansion 1F - Trapped Eastern Corridor:** Currently trapped in the eastern section. All previous hypotheses (fainting, hidden wall switch) have failed. Current hypothesis: there is a hidden trigger on a floor tile. Test: Systematically walk over every tile in the enclosed area.
 
 # IV. Solved Puzzles & Key Discoveries
-- **Pokemon Mansion 1F - Eastern Corridor Traps:**
-  - **Conclusion:** Escaping the various trapped corridors in the mansion requires intentionally blacking out by fainting the entire party in a wild battle. This teleports the player to the last-used Pokémon Center.
-- **Pokemon Mansion 2F - Trapped Room:** Escaped by blacking out.
 - **Pokemon Mansion B1F - Gate Switch Puzzle:** Switch at (19, 26) opens northern and western gates.
 - **Pokemon Mansion 1F - Alternating Doors Puzzle:** The switch at (3, 6) opens the eastern gates at (25, 14) and (26, 14) but closes the gates at (17, 8) and (18, 8) behind the player, creating a trap.
