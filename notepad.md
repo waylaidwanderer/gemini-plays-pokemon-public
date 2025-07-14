@@ -75,3 +75,4 @@
     - **Outcome:** Ran from the battle ("Got away safely!"). Was not warped out of the room.
     - **Conclusion:** This specific method of losing a battle does not solve the puzzle. The full "blackout" theory (all Pokémon fainting) remains untested.
 - **Weird Typing:** My LAPRAS (NEPTUNE) was displayed as a GHOST type in battle. This needs further investigation.
+- **Weird Typing:** My LAPRAS (NEPTUNE) was displayed as a GHOST type in battle. This needs further investigation.
