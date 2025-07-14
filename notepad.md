@@ -83,3 +83,7 @@
 
 ### Route 43 Gatehouse Log
 *   **Conclusion:** The Route 43 Gatehouse is divided into two sections. The officer is unreachable from the entrance. This path is a dead end. The only remaining option is to solve the puzzle in the Mahogany Mart.
+    *   **Hypothesis 8 (Failed):** The Black Belt's monologue enables a hidden switch on the incense burner at (6, 1).
+    *   **Test:** Interact with the incense burner.
+    *   **Result:** Displays flavor text about an incense burner.
+    *   **Conclusion:** FAILED. The mart puzzle is a complete dead end. The path forward must be outside in Mahogany Town.
