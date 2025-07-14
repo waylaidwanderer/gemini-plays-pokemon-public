@@ -62,3 +62,4 @@
   - **Test Result:** After the second-to-last Pokémon fainted, selecting "NO" to sending out the final Pokémon resulted in 'Got away safely!', not a black out. The player is returned to the same spot in the corridor.
 - **Hypothesis 10 (Active):** An item like an Escape Rope is required to exit this intentional trap.
   - **Test Plan:** Check inventory for an Escape Rope and use it if available.
+- **Trust Your Tools:** My `path_planner` correctly identified a path out of the 'trapped' corridor, but I dismissed it due to my own incorrect assumption that the corridor was only one tile wide. This was a major cognitive failure. I must trust my tools' outputs, especially when they contradict my assumptions, as they analyze the raw data without human bias.
