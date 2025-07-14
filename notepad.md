@@ -44,11 +44,13 @@
 ### Verified Type Interactions
 *   **Water (Surf) vs. Gyarados (Water/Flying):** Observed as "not very effective". This contradicts standard type charts. Need to investigate further.
 
-### Team Rocket Hideout Security Puzzle
-*   **Observation:** Walking in front of security cameras at (24, 1) and (24, 5) summons two Rocket Grunts. A defeated grunt stated a secret switch in one of the statues disables the alarm.
-*   **Hypothesis 1:** The switch is in the northern statue at (24, 1).
-*   **Test 1:** Interacted with the statue at (24, 1).
-*   **Conclusion 1:** Interaction revealed dialogue ('Its eyes are oddly shiny.') but did not flip a switch. Hypothesis is incorrect.
+### Team Rocket Hideout Security Puzzle (Solved)
+*   **Observation 2:** The ROCKET Grunt at (2, 4) provides dialogue warning about floor traps.
+*   **Observation 3:** A secret switch is located at (19, 11), behind a desk in a central room.
+*   **Hypothesis 2:** Activating the switch at (19, 11) will disable the security cameras.
+*   **Test 2:** Interacted with the switch at (19, 11).
+*   **Test 3:** Walked from (19, 12) to (23, 5), passing in front of the security camera at (24, 5). No battle was triggered.
+*   **Conclusion 2:** The switch at (19, 11) has successfully disabled the security cameras. The path is now safe from camera-triggered encounters.
 ### Team Rocket Hideout Security Puzzle (Solved)
 *   **Observation 2:** The ROCKET Grunt at (2, 4) provides dialogue warning about floor traps.
 *   **Observation 3:** A secret switch is located at (19, 11), behind a desk in a central room.
