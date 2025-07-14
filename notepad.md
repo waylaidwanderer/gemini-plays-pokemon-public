@@ -34,9 +34,9 @@
 # III. Active Puzzles
 
 - **Pokemon Mansion 1F - Eastern Corridor Trap:**
-  - **Status:** Currently trapped. All physical exits are blocked.
-  - **Mechanic:** The southern gate at (27, 28) is controlled by a hidden trigger. My current hypothesis is that it's a step-counter that resets after a battle.
-  - **Active Plan:** Walk laps within the corridor to accumulate steps and test if the gate opens. Avoid wild battles.
+  - **Status:** Currently trapped. Blackout attempt #1 failed (CRAG one-shot the opponent).
+  - **Hypothesis:** The intended escape is to 'black out'.
+  - **Active Plan (Attempt #2):** Intentionally fail to run from a wild battle to take damage without attacking, leading to a faint.
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion 2F - Trapped Room (SOLVED):** Escaped by blacking out after the last party member fainted in a wild battle.
