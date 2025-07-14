@@ -45,50 +45,14 @@
   - *Current State:* West gates are CLOSED, East gates are OPEN (deduced).
 - **2F Switch at (3, 12):** This switch also seems to affect the gates, but its exact interaction with the 1F switch is still being tested.
 
-## Hypothesis Log
-- **Hypothesis 1:** Flipping the switch at (3, 6) will open the eastern gates.
-  - **Test:** Flipped switch.
-  - **Outcome:** Eastern gates at (25, 14) opened, but triggered a trap closing other gates.
-  ## Hypothesis Log
-- **Hypothesis 1:** Flipping the switch at (3, 6) will open the eastern gates.
-  - **Test:** Flipped switch.
-  - **Outcome:** Eastern gates at (25, 14) opened, but triggered a trap closing other gates.
-## Hypothesis Log
-- **Hypothesis 1:** Flipping the switch at (3, 6) will open the eastern gates.
-  - **Test:** Flipped switch.
-  - **Outcome:** Eastern gates at (25, 14) opened, but triggered a trap closing other gates.
-## Hypothesis Log
-- **Hypothesis 1:** Flipping the switch at (3, 6) will open the eastern gates.
-  - **Test:** Flipped switch.
-  - **Outcome:** Eastern gates at (25, 14) opened, but triggered a trap closing other gates.
-  - **Conclusion:** Hypothesis confirmed, but with a side effect.
-- **Hypothesis 2:** Flipping the switch at (3, 6) again will reverse the state, closing the eastern gates and reopening the western gates.
-  - **Test:** Flipped switch again.
-  - **Outcome:** The western gate at (17, 8) is now open.
-  - **Conclusion:** Hypothesis confirmed.
+## Mansion Puzzle State
+- **1F Switch at (3, 6):** Controls the east/west gates. The state alternates with each press.
+  - *Current State:* West gates are OPEN, East gates are CLOSED (deduced).
+- **2F Switch at (3, 12):** This switch also seems to affect the gates, but its exact interaction with the 1F switch is still being tested.
+- **3F Super Nerd at (5, 12):** Blocks the western path. The trigger to make him move is currently unknown. Stepping on (10, 11) does NOT work in the current puzzle state.
 
 ## Current Plan
-- Proceeded through the now-open western gate at (17, 8) to explore the western side of the mansion.
-- Proceed through the now-open western gate at (17, 8) to explore the western side of the mansion.
-- Proceed through the now-open western gate at (17, 8) to explore the western side of the mansion.
-- Proceed through the now-open western gate at (17, 8) to explore the western side of the mansion.
-  - **Conclusion:** Hypothesis confirmed.
-  - **Conclusion:** Hypothesis confirmed.
-
-## Current Plan
-- The western gate at (17, 8) is now open. I will proceed through it to explore the western side of the mansion.
-  - **Conclusion:** Hypothesis confirmed.
-
-## Current Plan
-- The western gate at (17, 8) is now open. I will proceed through it to explore the western side of the mansion.
-  - **Conclusion:** Hypothesis confirmed.
-
-## Current Plan
-- The western gate at (17, 8) is now open. I will proceed through it to explore the western side of the mansion.
-  - **Conclusion:** Hypothesis confirmed.
-
-## Current Plan
-- The western gate at (17, 8) is now open. I will proceed through it to explore the western side of the mansion.
+- The current area on 3F is a dead end. I must backtrack to 2F via the warp at (8, 11) and re-evaluate my path.
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion B1F - Gate Switch Puzzle:** Switch at (19, 26) opens northern and western gates.
@@ -97,50 +61,14 @@
   - *Current State:* West gates are OPEN, East gates are CLOSED (deduced).
 - **2F Switch at (3, 12):** This switch also seems to affect the gates, but its exact interaction with the 1F switch is still being tested.
 
-## Hypothesis Log
-- **Hypothesis 1:** Flipping the switch at (3, 6) will open the eastern gates.
-  - **Test:** Flipped switch.
-  - **Outcome:** Eastern gates at (25, 14) opened, but triggered a trap closing other gates.
-  ## Hypothesis Log
-- **Hypothesis 1:** Flipping the switch at (3, 6) will open the eastern gates.
-  - **Test:** Flipped switch.
-  - **Outcome:** Eastern gates at (25, 14) opened, but triggered a trap closing other gates.
-## Hypothesis Log
-- **Hypothesis 1:** Flipping the switch at (3, 6) will open the eastern gates.
-  - **Test:** Flipped switch.
-  - **Outcome:** Eastern gates at (25, 14) opened, but triggered a trap closing other gates.
-## Hypothesis Log
-- **Hypothesis 1:** Flipping the switch at (3, 6) will open the eastern gates.
-  - **Test:** Flipped switch.
-  - **Outcome:** Eastern gates at (25, 14) opened, but triggered a trap closing other gates.
-  - **Conclusion:** Hypothesis confirmed, but with a side effect.
-- **Hypothesis 2:** Flipping the switch at (3, 6) again will reverse the state, closing the eastern gates and reopening the western gates.
-  - **Test:** Flipped switch again.
-  - **Outcome:** The western gate at (17, 8) is now open.
-  - **Conclusion:** Hypothesis confirmed.
+## Mansion Puzzle State
+- **1F Switch at (3, 6):** Controls the east/west gates. The state alternates with each press.
+  - *Current State:* West gates are OPEN, East gates are CLOSED (deduced).
+- **2F Switch at (3, 12):** This switch also seems to affect the gates, but its exact interaction with the 1F switch is still being tested.
+- **3F Super Nerd at (5, 12):** Blocks the western path. The trigger to make him move is currently unknown. Stepping on (10, 11) does NOT work in the current puzzle state.
 
 ## Current Plan
-- Proceeded through the now-open western gate at (17, 8) to explore the western side of the mansion.
-- Proceed through the now-open western gate at (17, 8) to explore the western side of the mansion.
-- Proceed through the now-open western gate at (17, 8) to explore the western side of the mansion.
-- Proceed through the now-open western gate at (17, 8) to explore the western side of the mansion.
-  - **Conclusion:** Hypothesis confirmed.
-  - **Conclusion:** Hypothesis confirmed.
-
-## Current Plan
-- The western gate at (17, 8) is now open. I will proceed through it to explore the western side of the mansion.
-  - **Conclusion:** Hypothesis confirmed.
-
-## Current Plan
-- The western gate at (17, 8) is now open. I will proceed through it to explore the western side of the mansion.
-  - **Conclusion:** Hypothesis confirmed.
-
-## Current Plan
-- The western gate at (17, 8) is now open. I will proceed through it to explore the western side of the mansion.
-  - **Conclusion:** Hypothesis confirmed.
-
-## Current Plan
-- The western gate at (17, 8) is now open. I will proceed through it to explore the western side of the mansion.
+- The current area on 3F is a dead end. I must backtrack to 2F via the warp at (8, 11) and re-evaluate my path.
 - **Pokemon Mansion 1F - Secret Passage:** The eastern corridor "trap" is escaped by walking through a secret passage in the impassable wall. The `path_planner` tool can detect these.
 - **Gate/Warp Interaction:** A tile can be both a gate and a warp. Even if the gate is visually closed, the warp can still be reachable and usable if listed as such in the Game State Information.
 
