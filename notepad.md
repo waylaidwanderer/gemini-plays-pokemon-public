@@ -13,19 +13,12 @@
 *   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `FLOOR`.
 *   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE`.
 *   **One-Way Traversal (Verified):** `PIT` (One-way down), `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`.
-*   **Directional Warps (Verified):**
-    *   `WARP_CARPET_DOWN`: Requires pressing 'Down' to activate.
-*   **Special Requirement (Verified):** 
-    *   `CUT_TREE` (Requires HM01 Cut).
-    *   `BREAKABLE_ROCK` (Requires Rock Smash).
-*   **Conditional Traversal (Verified):**
-    *   `FLOOR_UP_WALL`: A one-way ledge, hoppable from the top. My test on Route 42 confirmed this.
+*   **Directional Warps (Verified):** `WARP_CARPET_DOWN` (Requires pressing 'Down' to activate).
+*   **Special Requirement (Verified):** `CUT_TREE` (Requires HM01 Cut), `BREAKABLE_ROCK` (Requires Rock Smash).
+*   **Conditional Traversal (Verified):** `FLOOR_UP_WALL` (A one-way ledge, hoppable from the top).
 
 ### Tiles Under Investigation (High Priority)
-*   **Special Requirement (Hypothesized):**
-    *   `WATER` (Hypothesis: Requires HM03 Surf.)
-    *   `WHIRLPOOL` (Requires HM).
-    *   `HEADBUTT_TREE` (Hypothesis: Can be interacted with using the move Headbutt.)
+*   **Special Requirement (Hypothesized):** `WATER` (Hypothesis: Requires HM03 Surf.), `WHIRLPOOL` (Requires HM), `HEADBUTT_TREE` (Hypothesis: Can be interacted with using the move Headbutt.)
 
 ## II. Core Principles & Lessons Learned
 
@@ -44,15 +37,12 @@
 
 ### Mahogany Mart Puzzle Log
 *   **Objective:** Find the secret Team Rocket entrance.
-*   **Key Observation:** A Black Belt (BB) guard at (1, 6) disappears when I approach the area near the bookshelf at (7, 1). He reappears if I move away from this area, confirming the solution is localized.
-*   **Hypothesis 1 (Invalidated):** The warp tile at (7, 3) is the trigger. Test: Interacted with the tile after the bookshelf event while facing Down, Up, Left, and Right. Result: None of these actions triggered the warp, and moving away resets the puzzle. Conclusion: Hypothesis is fully invalidated.
-*   **Hypothesis 2 (Invalidated):** The Incense Burner at (6, 1) is a switch activated by the sequence. Test: Triggered BB disappearance -> Interacted with Bookshelf -> Moved to Incense Burner. Result: Moving to the Incense Burner reset the puzzle. Conclusion: Hypothesis is invalidated.
-*   **Hypothesis 3 (Invalidated):** The BB's original spot at (1, 6) is a pressure plate. Test: Triggered BB disappearance -> Moved to (1, 6). Result: Moving to (1, 6) reset the puzzle. Conclusion: Hypothesis is invalidated.
-*   **Hypothesis 4 (Invalidated):** The Bookshelf at (7, 1) opens a secret passage behind it. Test: Triggered BB disappearance -> Interacted with Bookshelf -> Attempted to walk into the bookshelf. Result: Movement was blocked. Conclusion: Hypothesis is invalidated.
-*   **Current Hypothesis:** The bookshelf event creates a *permanent* change. The guard's reappearance is a red herring. Next Test: Trigger bookshelf event -> Let the puzzle reset -> Return to the warp tile at (7, 3) and test for activation.
+*   **Key Observation:** A Black Belt guard at (1, 6) disappears when I approach the bookshelf at (7, 1). He reappears if I move away from this area, which seems to reset the puzzle state.
+*   **Hypothesis 1 (Invalidated):** The puzzle is a rapid, timed sequence. All attempts to interact with the warp tile (7, 3), the incense burner (6, 1), the pharmacist (4, 3), or the guard's original spot (1, 6) immediately after the guard disappears have failed because moving away from the bookshelf resets the puzzle. This entire line of reasoning is considered BUSTED.
+*   **Current Hypothesis (To Be Tested):** The bookshelf interaction creates a *permanent change*. The guard's reappearance is a red herring. The warp tile at (7, 3) is likely a `WARP_CARPET_DOWN` that is only activated after the bookshelf event. **Test Plan:** 1. Trigger the guard's disappearance. 2. Trigger the bookshelf event. 3. Deliberately move away to let the puzzle visually reset. 4. Return to the warp tile at (7, 3) and press 'Down' to test for activation.
 
 ## V. Future Development Ideas
 
 ### Agent Ideas
 *   **Repel Advisor:** An agent to recommend when to use a Repel based on party level and goal.
-*   **Sequential Puzzle Agent:** An agent designed to solve state-dependent puzzles that require a specific, timed sequence of actions.
+*   **Sequential Puzzle Agent:** An agent designed to solve state-dependent puzzles that require a specific, timed sequence of actions. This would be ideal for puzzles like the Mahogany Mart one.
