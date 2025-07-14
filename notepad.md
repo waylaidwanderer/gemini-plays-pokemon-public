@@ -35,13 +35,7 @@
 
 - **Pokemon Mansion 1F - Eastern Corridor Trap:**
   - **Status:** SOLVED! The 'hallucination' was the belief that the corridor's state was static.
-- **Pokemon Mansion 1F - Eastern Corridor Trap:**
-  - **Status:** SOLVED! The 'hallucination' was the belief that the corridor's state was static.
-  - **Hypothesis Log:**
-    - **H1-H5 (Physical Escapes - FAILED):** All direct escape attempts (walls, gates) were blocked.
-    - **H6 (Save Game Event - FAILED):** Saving the game did not trigger an event.
-    - **H7 (Waiting Game - CONFIRMED):** Waiting for several turns caused the southern gate's tile type at (27, 28) to change from 'closed_gate' to 'gate_offscreen'.
-  - **Conclusion:** The puzzle required passively waiting for a timed event. However, entering a wild battle resets the gate to 'closed_gate'. The solution is to wait for the gate to open, then immediately pass through it before a battle can occur.
+
     - **SH2 (Waiting Game - ACTIVE):** Agent hypothesis. The 'hallucination' is a timed event that will dissipate if the player remains still.
 
 # IV. Solved & Failed Puzzles
