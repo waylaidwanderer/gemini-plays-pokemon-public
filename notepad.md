@@ -13,12 +13,13 @@
 *   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `FLOOR`.
 *   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE`.
 *   **One-Way Traversal (Verified):** `PIT` (One-way down), `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`.
-*   **Directional Warps (Verified):** `WARP_CARPET_DOWN`, `WARP_CARPET_LEFT`, `WARP_CARPET_RIGHT` (Requires pressing in the indicated direction to activate).
+*   **Directional Warps (Verified):**
+    *   `WARP_CARPET_DOWN`: Requires pressing 'Down' to activate.
 *   **Special Requirement (Verified):** 
     *   `CUT_TREE` (Requires HM01 Cut).
     *   `BREAKABLE_ROCK` (Requires Rock Smash).
 *   **Conditional Traversal (Verified):**
-    *   `FLOOR_UP_WALL`: A one-way ledge, hoppable from the top. If this tile is ever impassable, it is due to an external factor (e.g., an invisible event wall), not a change in the tile's intrinsic properties.
+    *   `FLOOR_UP_WALL`: A one-way ledge, hoppable from the top. If this tile is ever impassable, it is due to an external factor (e.g., an invisible event wall), not a change in the tile's intrinsic properties. My test on Route 42 confirmed this.
 
 ### Tiles Under Investigation (High Priority)
 *   **Special Requirement (Hypothesized):**
@@ -37,24 +38,16 @@
 
 ### Current Objective: Investigate the Lake of Rage
 *   **Status:** In progress.
-*   **Reasoning:** The Olivine Lighthouse proved to be a dead end. Multiple NPCs have mentioned a "rampage" or "conspiracy" at the Lake of Rage, which is a strong indicator of the main story path.
-*   **Current Plan:** Travel from Ecruteak City towards Mahogany Town. The northern path on Route 42 is a dead end. The only viable path appears to be through one of the Mt. Mortar caves to cross to the southern part of the route.
+*   **Reasoning:** Multiple NPCs have mentioned a "rampage" or "conspiracy" at the Lake of Rage, which is a strong indicator of the main story path. I am currently in Mahogany Town, which is the gateway to the lake.
+*   **Hypothesis Testing:**
+    1.  **Impassable Ledge on Route 42:** Hypothesis: The ledge is blocked by an event flag. Test: After resolving the Lake of Rage events, I must return to Route 42 and attempt to jump the ledge again.
+    2.  **Fisher blocking Mahogany Gym:** Hypothesis: The Fisher will move after the Lake of Rage event. Test: After the event, I will return to the Gym and speak to the Fisher.
 
-## IV. Archived Investigations
-
-### Investigation: The Missing HM02 (Fly)
-*   **Status:** On hold. Priority is the Lake of Rage.
-*   **Anomaly:** After defeating Gym Leader Chuck, his wife gave me HM02 (Fly). However, the HM is not in my bag.
-*   **Verification Plan:** After dealing with the Lake of Rage, travel to Cianwood City and speak to Chuck's wife again.
-
-## V. Future Development Ideas
+## IV. Future Development Ideas
 
 ### Agent Ideas
 *   **Repel Advisor:** An agent to recommend when to use a Repel based on party level, current location, and goal (e.g., training vs. exploration).
 
 ### Tool Ideas
+*   **Advanced Pathfinder:** A new pathfinding tool that can account for one-way traversal tiles (ledges) and mixed-terrain paths (e.g., land -> surf -> land).
 *   **Unseen Tile Scanner:** A tool to scan the `map_xml_string` and return a list of all unseen tile coordinates (`❓`). This would help ensure systematic exploration of each map.
-
-### Test Plans
-*   **Mt. Mortar Waterfall:** After acquiring the `Waterfall` HM, I must return to Mt. Mortar to test if I can climb the waterfalls. This will confirm or deny my hypothesis that it is a completely optional area.
-- The warp carpet at (4, 7) in MahoganyTownMart leads to MahoganyTown at (11, 8).
