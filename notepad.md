@@ -45,8 +45,10 @@
     - **Escape Item/Move:** FAILED. No Escape Rope or Pokémon with Dig.
     - **Hidden Switch:** FAILED. Checked all tiles in the corridor.
   - **Conclusion:** The only remaining possibility is a variation of the 'step-counter' gate hypothesis.
-  - **New Hypothesis:** The gate requires a long, *uninterrupted* duration of walking to open.
-  - **Active Plan:** Execute a long, continuous walking path within the corridor to test this new hypothesis.
+  - **Attempt #6 (Long Walk):** FAILED. A long, uninterrupted walk did not open the gate.
+  - **Conclusion:** All conventional escape hypotheses have been exhausted. The only remaining solution is an unconventional blackout.
+  - **New Hypothesis:** A specific wild Pokémon (Grimer) can inflict poison, allowing CRAG to faint from damage over time outside of battle.
+  - **Active Plan:** Find a wild Grimer, allow it to poison CRAG, run away, then walk until CRAG faints.
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion 2F - Trapped Room:** Escaped by blacking out.
