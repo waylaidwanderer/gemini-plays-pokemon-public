@@ -66,6 +66,9 @@
   - **Test:** Flipped switch again.
   - **Outcome:** The western gate at (17, 8) is now open.
   - **Conclusion:** Hypothesis confirmed.
+
+## Current Plan
+- Proceed through the now-open western gate at (17, 8) to explore the western side of the mansion.
   - **Conclusion:** Hypothesis confirmed.
   - **Conclusion:** Hypothesis confirmed.
 
@@ -112,6 +115,9 @@
   - **Test:** Flipped switch again.
   - **Outcome:** The western gate at (17, 8) is now open.
   - **Conclusion:** Hypothesis confirmed.
+
+## Current Plan
+- Proceed through the now-open western gate at (17, 8) to explore the western side of the mansion.
   - **Conclusion:** Hypothesis confirmed.
   - **Conclusion:** Hypothesis confirmed.
 
