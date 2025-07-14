@@ -140,3 +140,7 @@
     *   **Action:** Moved from (21, 12) to (20, 12).
     *   **Observation:** The Poke Ball at (14, 10) appeared.
     *   **Conclusion:** The tile at (20, 12) is another trigger in the sequence.
+*   **Test 11:** Followed `sequential_puzzle_solver` agent's advice.
+    *   **Action:** Moved from (19, 12) to (19, 11).
+    *   **Observation:** The Poke Ball at (14, 10) remained visible. No other state change observed.
+    *   **Conclusion:** Moving off the Y=12 corridor to the north did not trigger a state change.
