@@ -70,5 +70,3 @@
   - **Test:** Walk back and forth on the platform until CRAG faints.
   - **Confidence:** Very High. This is the only remaining hypothesis with direct supporting evidence (observed HP loss).
 - **Switch Interaction:** Switches must be interacted with by standing on the tile directly below them and facing up.
-- **Weird Typing:** My LAPRAS (NEPTUNE) was displayed as a GHOST type in battle. This needs further investigation.
-    - Tested (30, 21). Failed.
