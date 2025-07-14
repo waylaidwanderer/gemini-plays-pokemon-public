@@ -51,3 +51,4 @@
 ### Tool Ideas
 *   **Unseen Tile Scanner:** A tool to scan the `map_xml_string` and return a list of all unseen tile coordinates (`❓`). This would help ensure systematic exploration of each map.
 *   **Mahogany Gym:** The warp is at (6, 13). A Fisher is blocking entry until the Lake of Rage event is resolved.
+*   **Puzzle Sequence Advisor:** An agent that takes a list of interactable objects, their states, and a history of failed attempts, then suggests a novel sequence of interactions to try next. This would help break out of logic loops.
