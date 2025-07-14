@@ -28,7 +28,8 @@
 - **THUNDERBOLT vs. DIG:** THUNDERBOLT can hit an opponent while it is underground using DIG. This is contrary to standard mechanics and resulted in an accidental knockout when trying to faint.
 
 # III. Active Puzzles
-- **Pokemon Mansion - Alternating Doors:** A Super Nerd on 2F explained that switches open and close alternating sets of doors. I need to determine which switches control which doors to fully navigate the mansion.
+- **Pokemon Mansion B1F - Multi-State Gate Switch:** The western wing of B1F was a dead end. My new hypothesis is that the switch at (19, 26) is multi-state. 
+  - **Hypothesis:** Pressing the switch a second time will close the western gates and open the eastern gates at (27, 18) and (28, 18), revealing the path to the Secret Key.
 
 # IV. Solved Puzzles
 - **Pokemon Mansion - Trapped Corridor:** Discovered a hidden one-way passage at 1F (27, 26). The only way to make the wall passable from the south again was to win a wild battle, which resets the tile's state.
