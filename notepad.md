@@ -87,4 +87,4 @@
 
 ## VI. Immediate Tasks & Reminders
 
-*   **Unmarked Warp:** There is an unmarked warp on Route 43 at (10, 51) that needs to be investigated.
+*   **Unmarked Warps on Route 43:** I must investigate the warps at (10, 51), (17, 35), and (18, 31) after resolving the Lake of Rage event.
