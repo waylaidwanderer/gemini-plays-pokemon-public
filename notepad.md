@@ -53,7 +53,7 @@
     - **Outcome:** Pathfinding failed; the area is physically disconnected from the eastern section.
     - **Conclusion:** The western and eastern sections of B1F are separate. The solution is not in the west.
 - **Pokemon Mansion B1F - Gate Switch Puzzle (Solved):** The switch at (19, 26) opens the northern and western gates, but not the eastern ones.
-- **Pokemon Mansion - Trapped Corridor (Solved):** The eastern corridor of 1F is an intentional trap. Escaped via a one-way warp at the southern end that activates after being trapped.
+- **Pokemon Mansion - Eastern Corridor Trap (Solved):** The eastern corridor on 1F is an intentional trap. The escape is a one-way warp that appears at the southern end of the corridor at (27, 28) and (28, 28) only after the player walks to the end of the hallway.
 - **Diary Interaction:** Diaries must be interacted with from the side, not from below.
   - **Observation (Trapped Room):** Fell from 3F into an inescapable room on 2F at (19, 15). No visible exits.
   - **Hypothesis 1 (Agent):** The platform has a hidden trigger.
