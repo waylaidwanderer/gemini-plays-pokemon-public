@@ -3,7 +3,7 @@
 ## I. Core Directives & Lessons Learned
 
 *   **Data Integrity is Paramount:** My internal state (notepad, markers) MUST be 100% accurate. I will not defer data correction. Assumptions must be rigorously tested before being recorded as fact.
-*   **Trust Automation:** My custom tools are more reliable than my manual analysis. I must prioritize using them to avoid unforced errors.
+*   **Trust Automation:** My custom tools are more reliable than my manual analysis. I must prioritize using them to avoid unforced errors. I will use my `sequential_puzzle_solver` for puzzles like this in the future.
 *   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 
@@ -71,17 +71,25 @@
 *   `LEDGE_HOP_LEFT`
 *   `PIT` (One-way down)
 
+### Untested Tile Types (Requires Verification)
+*   `PERSIAN_STATUE_L`
+*   `PERSIAN_STATUE_R`
+*   `ARROW_TILE_UP`
+*   `ARROW_TILE_DOWN`
+*   `ARROW_TILE_LEFT`
+*   `ARROW_TILE_RIGHT`
+*   `COMPUTER`
+
 ## III. Current Investigation: Team Rocket Hideout
 
 *   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions, and disable the radio signal.
-*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras. B3F is split into two sections, requiring different paths to access each side.
+*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras. B2F and B3F appear to be dead ends for finding the second password, suggesting the path is on B1F.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
 
 ### Floor Puzzle (B1F)
-*   **Hypothesis:** The floor is a hidden path of safe tiles that must be discovered by walking over them. This is based on a hint from a Rocket Grunt.
-*   **Current Progress:** I have successfully mapped a long, winding path. The current endpoint is (1, 12).
+*   **Conclusion:** My previous hypothesis that the arrow tiles formed a path was incorrect. This was a red herring. The true puzzle likely involves navigating the main floor area, which is filled with hidden traps, as hinted by a grunt.
 
 ## IV. Battle Discoveries & Type Chart
 
@@ -93,7 +101,3 @@
 ### Inventory Management Bug
 *   **Observation:** All menu-based attempts to free an inventory slot (`TOSS`, `GIVE`, `DEPOSIT`) have failed, resulting in a menu loop.
 *   **Primary Hypothesis:** The only way to free an inventory slot is to consume an item during a battle. **Test:** Initiate a battle and use a Potion.
-
-### Untested Assumptions
-*   **Assumption:** The second password is on the western side of B3F.
-*   **Alternative Hypothesis:** The second password might be on B2F, or the boss door only requires one password. **Test:** After solving the current puzzle, re-explore B2F before proceeding to the boss.
