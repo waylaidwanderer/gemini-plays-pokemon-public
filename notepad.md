@@ -21,8 +21,8 @@
 ## III. Current Investigation: Team Rocket Hideout
 
 *   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions, and disable the radio signal.
-*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras. Both ladders on B1F are either dead ends or one-way exits.
-*   **Current Plan:** Since all obvious paths have been exhausted, my next step is to systematically re-investigate the central area of B1F after using the warp panel at (5, 15). I will re-interact with all objects and NPCs to check for missed triggers.
+*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras. Both ladders on B1F are either dead ends or one-way exits. Interacting with Scientist Jed at (18, 12) causes him to move temporarily, but he blocks the path again.
+*   **Current Plan:** All paths on B1F have been exhausted. My new hypothesis is that I need to trigger a battle to solve the inventory bug, which is preventing me from picking up items that may be required for progress. I will re-enter the hideout and test if the security cameras can still trigger battles.
 
 ## IV. Battle Discoveries & Type Chart
 
