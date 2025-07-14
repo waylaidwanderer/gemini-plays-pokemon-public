@@ -31,13 +31,20 @@
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
 - **Item Use on Fainted Pokemon:** A FULL RESTORE will not work on a fainted Pokémon.
 
-- **'No Will to Fight':** After a Pokémon faints, attempting to switch in the next Pokémon can sometimes fail with the message 'There's no will to fight!'.
-- **THUNDERBOLT vs. DIG:** THUNDERBOLT can hit an opponent while it is underground using DIG.
-
 # III. Active Puzzles
 
-    - **Attempt 1 (FAILED):** Accidentally defeated a wild Growlithe with NEPTUNE's Body Slam.
-    - **Refined Plan:** The blackout hypothesis remains active, but the method will be refined. For the next attempt, I will focus on fainting SPARKY first by repeatedly using his non-damaging move, AGILITY, as this is more reliable than attempting a weak attack with NEPTUNE.
+- **Pokemon Mansion 1F - Eastern Corridor Trap:**
+  - **Status:** Trapped. Northern entrance at (27, 20) closed after entry. Southern warp gate at (27,28)/(28,28) is impassable.
+  - **Hypothesis 1 (Hidden Wall Switch - FAILED):** Systematically interacting with every wall tile yielded no results after 5 attempts. Hypothesis abandoned.
+  - **Hypothesis 2 (Full Party Blackout - ACTIVE):** The intended escape is to have the entire party faint in a wild battle, triggering a true blackout. This is the only remaining 'soft-reset' mechanic available.
+    - **Execution Plan:**
+      1. Trigger a wild battle.
+      2. Systematically faint all conscious Pokémon by using non-damaging moves (e.g., AGILITY, HAZE, CONFUSE RAY, FOCUS ENERGY) to waste turns and take damage.
+      3. Avoid using damaging attacks unless absolutely necessary, and only the weakest possible option.
+    - **Progress & Attempts:**
+      - **Attempt 1 (FAILED):** Accidentally defeated a wild Growlithe with NEPTUNE's Body Slam. My assessment of Body Slam's power was incorrect.
+      - **Attempt 2 (FAILED):** Successfully fainted SPARKY. Sent in NEPTUNE (3 HP) to faint next, but she accidentally defeated a wild Grimer with Body Slam.
+    - **Conclusion:** The blackout hypothesis remains active, but execution must be more careful. The next Pokémon to faint will be ECHO using HAZE/CONFUSE RAY.
 
 # IV. Solved & Failed Puzzles
 
