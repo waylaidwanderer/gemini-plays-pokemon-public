@@ -16,7 +16,7 @@
 *   **Special Requirement (Verified):** 
     *   `CUT_TREE` (Requires HM01 Cut).
     *   `BREAKABLE_ROCK` (Requires Rock Smash).
-    *   `WATER` (Requires HM03 Surf, activated from party menu. Landing from SURF requires an adjacent, unobstructed FLOOR tile).
+    *   `WATER` (Hypothesis: Requires HM03 Surf. Activating from the party menu failed at Route 42. New Hypothesis: Must be activated from the overworld by facing the water and pressing 'A'. Test required.)
     *   Directional Warps (Requires pressing in the indicated direction to activate): WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT.
 *   **Special Requirement (Hypothesized):** `WHIRLPOOL` (Requires HM).
 
