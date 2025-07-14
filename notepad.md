@@ -74,10 +74,14 @@
 ## III. Current Investigation: Team Rocket Hideout
 
 *   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions, and disable the radio signal.
-*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras. The floor on B1F has a hidden path of safe tiles that must be discovered by walking over them.
+*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras. B3F is split into two sections, requiring different paths to access each side.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
+
+### Floor Puzzle (B1F)
+*   **Hypothesis:** The floor is a hidden path of safe tiles that must be discovered by walking over them. This is based on a hint from a Rocket Grunt.
+*   **Current Progress:** I have successfully mapped a long, winding path. The current endpoint is (1, 12).
 
 ## IV. Battle Discoveries & Type Chart
 
@@ -91,9 +95,5 @@
 *   **Primary Hypothesis:** The only way to free an inventory slot is to consume an item during a battle. **Test:** Initiate a battle and use a Potion.
 
 ### Untested Assumptions
-*   **Assumption:** The B1F floor puzzle is the only way to reach the boss.
-*   **Alternative Hypothesis:** The puzzle is optional, and the second password might be on B2F, or the boss door only requires one password.
-*   **Future Test:** After solving the current puzzle, re-explore B2F before proceeding to the boss.
-
-### Tile Traversal Verification
-*   **Task:** Systematically test all tile types currently listed as 'Impassable' to confirm their behavior. Do not assume a tile is impassable based on its name.
+*   **Assumption:** The second password is on the western side of B3F.
+*   **Alternative Hypothesis:** The second password might be on B2F, or the boss door only requires one password. **Test:** After solving the current puzzle, re-explore B2F before proceeding to the boss.
