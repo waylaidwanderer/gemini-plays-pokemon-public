@@ -30,7 +30,7 @@
 - **FLY in field:** Cannot be used indoors to escape a building.
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
 - **Item Use on Fainted Pokemon:** A FULL RESTORE will not work on a fainted Pokémon.
-- **Weird Typing:** My LAPRAS (NEPTUNE) was displayed as a GHOST type in battle. This needs further investigation.
+
 - **'No Will to Fight':** After a Pokémon faints, attempting to switch in the next Pokémon can sometimes fail with the message 'There's no will to fight!'.
 - **THUNDERBOLT vs. DIG:** THUNDERBOLT can hit an opponent while it is underground using DIG.
 
