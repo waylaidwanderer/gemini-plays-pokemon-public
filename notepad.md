@@ -36,11 +36,6 @@
 
 # III. Active Puzzles
 
-- **Pokemon Mansion 1F - Eastern Corridor Trap:**
-  - **Status:** Trapped. The northern entrance closed after entry, and the southern warp gate is impassable (`reachable: no` in game data).
-  - **Hypothesis 1 (Hidden Wall Switch - FAILED):** Systematically interacting with every wall tile yielded no results after 5 attempts. This hypothesis is now abandoned.
-  - **Hypothesis 2 (Full Party Blackout - ACTIVE):** The intended escape is to have the *entire* party faint in a wild battle, triggering a true blackout. This is the only remaining 'soft-reset' mechanic available.
-    - **Test Plan:** Initiate a wild battle and systematically faint all remaining conscious Pokemon.
     - **Attempt 1 (FAILED):** Accidentally defeated a wild Growlithe with NEPTUNE's Body Slam.
     - **Refined Plan:** The blackout hypothesis remains active, but the method will be refined. For the next attempt, I will focus on fainting SPARKY first by repeatedly using his non-damaging move, AGILITY, as this is more reliable than attempting a weak attack with NEPTUNE.
 
