@@ -6,24 +6,6 @@
 
 # II. Game Mechanics & Battle Intel
 
-## A. Tile Mechanics & Traversal Rules
-- **Ground/Impassable:** `ground` tiles are walkable, `impassable` tiles are solid walls. All objects (NPCs, items, signs) function as impassable walls, except for Pikachu. **EXCEPTION:** Some `impassable` tiles can be walked through as part of a puzzle (e.g., Pokémon Mansion 1F).
-- **Grass:** Walkable tiles where wild Pokémon can be encountered.
-- **Water:** Surfable tiles. To initiate SURF, I must be **facing the water** on a `ground` or `steps` tile and then use the move from the party menu.
-- **Ledges:** One-way only. Can be jumped down (from Y-1 to Y+2 in one move), but are impassable from below (Y+1) and from the sides (X-1, X+1).
-- **Spinner Tiles:** Force movement in a specific direction.
-- **Warp Tiles:** Instantaneous teleporters between maps or within the same map. Must step off and back on to reuse.
-- **Hole Tiles:** One-way warps that cause the player to fall to the floor below, often into isolated areas.
-- **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
-- **Elevated Ground:** Walkable ground at a different elevation, accessible only via `steps`.
-- **Cuttable:** A tree that can be cut with HM Cut. Becomes `ground` after cutting.
-- **Secret Switches:** Some statues contain hidden switches. Activating them can toggle the state of nearby gates, opening new paths.
-- **Positional Triggers:** Specific tiles that, when stepped on, can open or close gates or trigger other events elsewhere on the map.
-- **Gate Offscreen/Closed/Open:** Gates whose state (unknown, impassable, or passable) depends on whether they are on-screen and whether a controlling switch has been activated.
-- **Scripted Event Tiles:** Some tiles trigger events. The tile in front of the Cinnabar Gym door (19, 5) pushes the player back and displays a 'locked' message. The water on Seafoam Islands B4F has a scripted current that prevents surfing south.
-- **Hidden Passages:** Some maps contain hidden passages that allow traversal through what appear to be solid walls.
-- **Invisible Barriers:** Some areas contain invisible, impassable barriers that are not tied to a specific tile type.
-
 ## B. Confirmed ROM Hack Changes
 ### B1. Type Matchups & Immunities
 - **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire
