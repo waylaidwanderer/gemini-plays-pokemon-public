@@ -29,19 +29,5 @@
 - **Pokemon Mansion - Alternating Doors:** Confirmed by a Super Nerd on 2F. The mansion has at least two sets of gates controlled by two different switches. Switch 1 (1F, (3, 6)) controls one set of gates. Switch 2 (2F, (3, 12)) controls another set. Activating a switch toggles the state of its corresponding doors.
 - **Pokemon Mansion 1F - Eastern Wing Gate & Positional Trigger:** The gate at (25, 14) is controlled by the switch at (3, 6). Additionally, a positional trigger at (12,10) on 1F closes the gates at (17,8) and (18,8). The switch at (3,6) re-opens them. Direct interaction with the gate does not work.
 
-# IV. Active Puzzles
-## A. Pokemon Mansion 3F - Trapped Eastern Corridor
-- **Observation:** Trapped in a corridor on the eastern side of 3F after a series of warps. No visible exits.
-- **Hypothesis 1 (Failed):** A hidden switch is on the northern wall.
-- **Hypothesis 2 (Failed):** A hidden pitfall trap is on the floor.
-- **Hypothesis 3 (Failed):** A secret passage exists in the southern wall.
-- **Hypothesis 4 (Failed):** The southern wall is a one-way ledge.
-- **Hypothesis 5 (Failed):** The corridor is an intentional trap, requiring a field move like Dig to escape.
-- **Hypothesis 6 (Failed):** There is a hidden switch on one of the floor tiles in the corridor.
-- **Hypothesis 7 (Failed):** A secret passage exists in the eastern or western walls.
-- **Hypothesis 8 (Invalidated):** Accidentally won the battle while trying to faint.
-- **Hypothesis 9 (Failed):** The 'black out' escape mechanic will warp the player out.
-  - **Test Result:** After the second-to-last Pokémon fainted, selecting "NO" to sending out the final Pokémon resulted in 'Got away safely!', not a black out. The player is returned to the same spot in the corridor.
-- **Hypothesis 10 (Active):** An item like an Escape Rope is required to exit this intentional trap.
-  - **Test Plan:** Check inventory for an Escape Rope and use it if available.
+- **Pokemon Mansion 3F - Trapped Eastern Corridor:** My `path_planner` correctly identified a path out of the 'trapped' corridor, but I dismissed it due to my own incorrect assumption that the corridor was only one tile wide. The solution was to trust the tool's output, which analyzed the raw map data without my human bias.
 - **Trust Your Tools:** My `path_planner` correctly identified a path out of the 'trapped' corridor, but I dismissed it due to my own incorrect assumption that the corridor was only one tile wide. This was a major cognitive failure. I must trust my tools' outputs, especially when they contradict my assumptions, as they analyze the raw data without human bias.
