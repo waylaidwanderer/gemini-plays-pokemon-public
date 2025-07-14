@@ -31,26 +31,17 @@
 *   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 
-## III. Current Plans & Investigations
+## III. Current Investigation: Team Rocket Hideout
 
-### Current Objective: Investigate Mahogany Town
-*   **Status:** Lance confirmed a mysterious radio broadcast is originating from Mahogany Town, causing the Gyarados rampage. This is the location of the Team Rocket hideout.
-*   **Next Step:** Travel to Mahogany Town and locate the source of the broadcast.
-
-## IV. Puzzle Logs
-
-### Mahogany Town & Route 43 Investigation
-*   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions.
-*   **Route 43 Status:** The eastern path is blocked by a bugged Super Nerd at (14, 7); all attempts to pass have failed. The western path is the only viable route south.
-
-### Team Rocket Hideout Security Puzzle (Solved)
-*   **Observation:** The ROCKET Grunt at (2, 4) provides dialogue warning about floor traps. A secret switch is located at (19, 11), behind a desk in a central room.
-*   **Hypothesis:** Activating the switch at (19, 11) will disable the security cameras.
-*   **Test:** Interacted with the switch at (19, 11). Walked from (19, 12) to (23, 5), passing in front of the security camera at (24, 5). No battle was triggered.
-*   **Conclusion:** The switch at (19, 11) has successfully disabled the security cameras. The path is now safe from camera-triggered encounters.
-
-### Team Rocket Hideout B2F
-*   **Status:** Arrived on B2F via a ladder. Lance is here, as is an item ball. This seems to be a significant area.
+*   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions, and disable the radio signal.
+*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras.
+*   **Untested Assumptions:**
+    1.  **Assumption:** The radio signal source is on a lower floor, guarded by a leader.
+        *   **Alternative Hypothesis:** The source is on B1F behind a secret passage, or is a Pokémon itself.
+        *   **Test:** Before descending, perform a final sweep of B1F, interacting with all suspicious walls/objects.
+    2.  **Assumption:** Defeating the leader automatically stops the broadcast.
+        *   **Alternative Hypothesis:** A separate interaction with a machine is required after the battle.
+        *   **Test:** After the leader battle, interact with any machinery in the room before leaving.
 
 ## V. Battle Discoveries & Type Chart
 
