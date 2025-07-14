@@ -37,15 +37,11 @@
 # III. Active Puzzles
 
 - **Pokemon Mansion 1F - Eastern Corridor Trap:**
-  - **Status:** Trapped. Northern entrance is blocked, southern warp gate is impassable.
-  - **Failed Hypotheses:**
-    1. Walking to the end of the corridor.
-    2. Interacting with the southern gate.
-    3. Fainting a single Pokémon (resulted in 'Got away safely!').
-    4. Fainting the entire party (failed due to accidental win).
-  - **Active Hypothesis:** A hidden switch exists on one of the corridor's walls.
+  - **Status:** Trapped in the eastern corridor. The northern entrance at (27, 20) closed after entry, and the southern warp gate at (27,28)/(28,28) is impassable.
+  - **Active Hypothesis:** There is a hidden switch on one of the corridor's walls.
     - **Test Plan:** Systematically interact with every wall tile.
-    - **Progress:** Tested (27,19) and (28,19). Both failed.
+    - **Progress:** Tested (27,19), (28,19), (30,21). All failed. Currently moving to test (30, 24).
+  - **Fallback Hypothesis:** A full party blackout is required to escape. This has worked for a previous trap but failed here once due to an accidental win. It remains a last resort.
 
 # IV. Solved & Failed Puzzles
 
