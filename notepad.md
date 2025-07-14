@@ -40,7 +40,9 @@
   - **Status:** Currently trapped in the eastern corridor after flipping the switch at (3, 6). The gates at (25, 14) and (26, 14) are now closed, blocking the exit.
   - **Hypothesis:** The only escape is to black out by losing a wild battle.
   - **Active Plan:** Intentionally faint the entire party against a wild Pokémon.
-    - Progress: SPARKY (fainted), SPOONBENDE (fainted), REVENANT (fainted).
+    - Progress: SPARKY, SPOONBENDE, REVENANT, ECHO have fainted.
+    - Attempt 1 (Neptune vs Raticate): FAILED. BODY SLAM was too strong and defeated the Raticate. Must find another wild Pokémon.
+    - Refined Strategy: For the next wild encounter, if the opponent's HP gets low, use a non-damaging move or item (like the POKé FLUTE) to waste turns instead of risking an attack.
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion 1F - Eastern Corridor Trap 1:**
