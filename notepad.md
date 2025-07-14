@@ -55,3 +55,11 @@
 - **Pokemon Mansion B1F - Gate Switch Puzzle:** Switch at (19, 26) opens northern and western gates.
 - **Switch Interaction:** Switches must be interacted with by standing on the tile directly below them and facing up.
   - **Attempt #5 (Hidden Switch):** FAILED. Systematically checked every tile in the corridor. No hidden switches found. All agent hypotheses are now exhausted. Re-attempting blackout strategy as the only remaining possibility.
+
+# V. Addendum from Turn 73043
+
+## Core Principles Update
+- **Combat Confirmation Bias:** I must actively try to *disprove* my hypotheses. I wasted significant time assuming my agents were correct because I was seeking confirmation, rather than testing their limits and questioning my own assumptions. My repeated attempts to RUN from battle in the mansion trap, despite it being counterproductive, is a key example of this failure.
+
+## Tile Mechanics Update
+- **Switch Interaction:** Switches often appear on impassable tiles. They must be interacted with by standing on an adjacent tile (usually below) and facing the switch.
