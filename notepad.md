@@ -49,16 +49,13 @@
 *   **Repel Advisor:** An agent to recommend when to use a Repel based on party level, current location, and goal (e.g., training vs. exploration).
 
 ### Tool Ideas
-*   **Unseen Tile Scanner:** A tool to scan the `map_xml_string` and return a list of all unseen tile coordinates (`❓`). This would help ensure systematic exploration of each map.
-*   **Mahogany Gym:** The warp is at (6, 13). A Fisher is blocking entry until the Lake of Rage event is resolved.
 *   **Puzzle Sequence Advisor:** An agent that takes a list of interactable objects, their states, and a history of failed attempts, then suggests a novel sequence of interactions to try next. This would help break out of logic loops.
 
 ### Mahogany Mart Puzzle Log
 *   **Objective:** Find the secret Team Rocket entrance.
-*   **Hypothesis 1:** The Black Belt at (1, 6) is the trigger.
-    *   **Test:** Interact with him.
-    *   **Result:** Repeatedly triggers the same villain monologue. No path opens.
-    *   **Conclusion:** FAILED. He is part of the puzzle, but simple interaction is not the solution.
+*   **Hypothesis 6 (In Progress):** Interacting with the Black Belt at (1, 6) is the first step in a sequence to unlock the secret entrance.
+    *   **Step 1 (Complete):** Interact with the Black Belt. Result: Triggers villain monologue. (Note: He does not disappear, correcting a previous faulty observation).
+    *   **Step 2 (Current):** After the monologue, move to the suspected warp at (7, 3) and attempt to use it.
 *   **Hypothesis 2:** The Pharmacist at (4, 3) is the trigger.
     *   **Test:** Interact with him.
     *   **Result:** Opens the standard shop menu.
