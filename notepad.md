@@ -48,10 +48,6 @@
 ### Agent Ideas
 *   **Repel Advisor:** An agent to recommend when to use a Repel based on party level, current location, and goal (e.g., training vs. exploration).
 
-## VI. Immediate Tasks & Reminders
-
-*   **Unmarked Warp:** There is an unmarked warp on Route 43 at (10, 51) that needs to be investigated.
-
 ## V. Puzzle Logs
 
 ### Mahogany Mart Puzzle Log
