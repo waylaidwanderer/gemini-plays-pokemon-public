@@ -35,22 +35,19 @@
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
 - **Item Use on Fainted Pokemon:** A FULL RESTORE will not work on a fainted Pokémon.
 
-# III. Active Puzzles
+# III. Gem's To-Do List
+- **High Priority:** My `gem_path_planner` tool is faulty. It incorrectly reported 'No path found' in turn 73134. I must debug and fix the logic, specifically how it handles target tiles that are themselves impassable.
 
-- **Pokemon Mansion 1F - Eastern Corridor Trap:**
-  - **Status:** Currently trapped. All agent-generated hypotheses have been tested and have failed.
-  - **Failed Hypotheses Log:**
-    - **Blackout (Weakest Attack):** FAILED (3 attempts). CRAG is too strong.
-    - **Blackout (Run/Fail):** FAILED (2 attempts). Successfully ran away, which defeats the purpose of fainting.
-    - **Blackout (Waste Turn w/ Item):** FAILED (1 attempt). Accidentally caught the Pokémon.
-    - **Escape Item/Move:** FAILED. No Escape Rope or Pokémon with Dig.
-    - **Hidden Switch:** FAILED. Checked all tiles in the corridor.
-  - **Conclusion:** The only remaining possibility is a variation of the 'step-counter' gate hypothesis.
-  - **Attempt #6 (Long Walk):** FAILED. A long, uninterrupted walk did not open the gate.
-  - **Conclusion:** All conventional escape hypotheses have been exhausted. The only remaining solution is an unconventional blackout.
-  - **New Hypothesis:** A specific wild Pokémon (Grimer) can inflict poison, allowing CRAG to faint from damage over time outside of battle.
-  - **Active Plan:** SOLVED. The blackout strategy worked. To escape the corridor, the player's last conscious Pokémon must be poisoned. Then, in a subsequent battle, use a non-damaging move or item (like the POKé FLUTE) to waste turns, allowing the opponent to attack until the player's Pokémon faints.
+# IV. Active Puzzles
+- **Pokemon Mansion 1F - Eastern Corridor Trap 2:**
+  - **Status:** Currently trapped in the eastern corridor after flipping the switch at (3, 6). The gates at (25, 14) and (26, 14) are now closed, blocking the exit.
+  - **Hypothesis:** The only escape is to black out by losing a wild battle.
+  - **Active Plan:** Intentionally faint the entire party against a wild Pokémon.
+    - Progress: SPARKY (fainted), SPOONBENDE (fainted). Currently battling with REVENANT.
 
-# IV. Solved Puzzles & Key Discoveries
+# V. Solved Puzzles & Key Discoveries
+- **Pokemon Mansion 1F - Eastern Corridor Trap 1:**
+  - **Conclusion:** To escape the first corridor trap, the player's last conscious Pokémon must be poisoned. Then, in a subsequent battle, use a non-damaging move or item (like the POKé FLUTE) to waste turns, allowing the opponent to attack until the player's Pokémon faints, triggering a blackout.
 - **Pokemon Mansion 2F - Trapped Room:** Escaped by blacking out.
 - **Pokemon Mansion B1F - Gate Switch Puzzle:** Switch at (19, 26) opens northern and western gates.
+- **Pokemon Mansion 1F - Alternating Doors Puzzle:** The switch at (3, 6) opens the eastern gates at (25, 14) and (26, 14) but closes the gates at (17, 8) and (18, 8) behind the player, creating a trap.
