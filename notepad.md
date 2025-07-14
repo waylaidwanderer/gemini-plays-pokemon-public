@@ -35,17 +35,16 @@
 - **THUNDERBOLT vs. DIG:** THUNDERBOLT can hit an opponent while it is underground using DIG.
 
 # III. Active Puzzles
-- **Pokemon Mansion - Secret Key Puzzle:**
-  - **Goal:** Find the Secret Key to unlock the Cinnabar Gym.
-  - **Observation:** The key is likely behind the eastern gates on 1F at (25, 14). These gates are currently closed. There are two main switches: one on 1F at (3, 6) and one on 2F at (3, 12). There is also a positional trigger at (12, 10) on 1F that closes the gates at (17,8) and (18,8).
-  - **Failed Hypothesis (Attempt 1):** The 2F switch at (3, 12) must be activated *before* the 1F switch.
-    - **Test:** Stood at (4, 12) and pressed A to interact with the switch.
-    - **Outcome:** Nothing happened. No text appeared.
-    - **Conclusion:** This hypothesis is incorrect. The 2F switch does not seem to work in isolation or as the first step of a sequence.
-  - **Observation:** A gate at (16, 5) on 3F has opened. The game indicated this was from a switch pressed 'earlier'. This confirms a delayed reaction mechanic.
-  - **Observation (Attempt 2):** Jumping through the hole at (20, 15) on 3F leads to an isolated room on 2F at (19, 15). The only exit appears to be another set of holes.
-  - **Current Hypothesis:** The puzzle requires falling through multiple floors.
-  - **Test Plan:** Jump through the hole at (19, 17) on 2F.
+- **Pokemon Mansion - Trapped Room Escape:**
+  - **Goal:** Escape the isolated room on Pokemon Mansion 2F.
+  - **Conclusion:** All tested hypotheses have failed. The room appears to be an intentional trap with no conventional exit.
+  - **Failed Hypotheses Log:**
+    - **Blackout Escape (Failed - 6 attempts):** Wild Pokémon in this area are unusually passive or weak, making it impossible to intentionally lose a battle. All attempts resulted in accidentally winning.
+    - **Hidden Item (Failed):** The ITEMFINDER did not respond, confirming no hidden items are present.
+    - **Fake Wall (Failed):** All surrounding walls are solid and impassable.
+    - **FLY Escape (Failed):** The game explicitly prevents the use of FLY indoors.
+  - **New Primary Goal:** Acquire the move DIG. This is the only remaining soft-reset mechanic that could potentially solve this puzzle.
+  - **Immediate Plan:** Attempt to black out one more time to return to the last used Pokémon Center. From there, I will focus on finding a Pokémon that can learn Dig or finding the TM for Dig.
 
 # IV. Solved & Failed Puzzles
 - **Pokemon Mansion 1F - Switch at (3, 6) (Failed - Attempt 1):**
