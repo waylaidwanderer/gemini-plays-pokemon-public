@@ -58,5 +58,7 @@
 - **Hypothesis 6 (Failed):** There is a hidden switch on one of the floor tiles in the corridor.
 - **Hypothesis 7 (Failed):** A secret passage exists in the eastern or western walls.
 - **Hypothesis 8 (Invalidated):** Accidentally won the battle while trying to faint.
-- **Hypothesis 9 (Active):** The 'black out' escape mechanic failed previously due to an unknown condition (accidentally winning), but re-testing it is necessary as game states can change.
-  - **Test Plan:** Find a wild Pokémon and deliberately lose the battle to trigger a 'black out'. **(Test currently in progress)**
+- **Hypothesis 9 (Failed):** The 'black out' escape mechanic will warp the player out.
+  - **Test Result:** After the second-to-last Pokémon fainted, selecting "NO" to sending out the final Pokémon resulted in 'Got away safely!', not a black out. The player is returned to the same spot in the corridor.
+- **Hypothesis 10 (Active):** An item like an Escape Rope is required to exit this intentional trap.
+  - **Test Plan:** Check inventory for an Escape Rope and use it if available.
