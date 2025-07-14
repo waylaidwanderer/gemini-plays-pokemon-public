@@ -40,8 +40,11 @@
   - **Status:** Currently trapped. Goal is to black out.
   - **Hypothesis:** The intended escape is to 'black out'.
   - **Attempt #1 (Weakest Attack):** FAILED. CRAG one-shot the opponent Raticate with STRENGTH despite it being the weakest move.
-  - **Attempt #2 (Weakest Attack):** FAILED. CRAG one-shot the opponent Growlithe with STRENGTH.
-  - **Active Plan (Attempt #3):** Intentionally fail to run from a wild battle to take damage without attacking, leading to a faint.
+  - **Attempt #2 (Weakest Attack vs Raticate):** FAILED. CRAG one-shot the opponent Raticate with STRENGTH.
+  - **Attempt #3 (Run vs Growlithe):** FAILED (succeeded). Escaped the battle.
+  - **Attempt #4 (Weakest Attack vs Growlithe):** FAILED. CRAG one-shot the opponent Growlithe with STRENGTH.
+  - **Conclusion:** Both attacking and running are ineffective strategies for fainting. A new approach is required.
+  - **Active Plan (Attempt #5):** Consult the `puzzle_solver_agent` with the full context of the paradox (too strong to lose, too fast to fail to run) to generate new hypotheses.
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion 2F - Trapped Room:** Escaped by blacking out.
