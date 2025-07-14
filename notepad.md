@@ -46,15 +46,13 @@
 - **B1F Switch (19, 26):** Opens northern and western gates via a two-step 'prime and trigger' mechanic.
 
 ## B. Current Plan
-**Attempt 1 (Failed):** Pressing the switch at (3, 12) a fifth time *closed* the gate at (8, 23), invalidating the hypothesis of a simple two-state cycle.
+**Attempt 10 (Failed):** Toggling the 1F switch while the 2F switch was in its 6th-press state resulted in the gate at (8, 23) being closed.
 
-**Attempt 4 (Failed):** Interacting with the wall at (15, 23) did nothing. The 'not a dead end' validation likely just means I can backtrack.
-
-**Attempt 5 (Current):**
-1. **Observation:** All direct attempts to bypass the wall at (15, 23) on 2F have failed. The only interactive elements are the switches.
-2. **Hypothesis:** The state of the mansion's gates depends on a specific *combination* of the switches on 1F and 2F.
-3. **Test:** Return to 1F, toggle the switch at (3, 6), then come back to 2F to observe any changes.
-4. **Expected Outcome:** Changing the 1F switch's state will alter the 2F layout, potentially opening the path east.
+**Attempt 11 (Current):**
+1. **Observation:** The combination of (1F-toggled, 2F-6th press) resulted in a closed gate. The next logical step is to change one variable.
+2. **Hypothesis:** The mansion's gates require a specific combination of switch states. I will test the combination of (1F-original state, 2F-6th press state).
+3. **Test:** Return to 1F, toggle the switch at (3, 6) *again* to return it to its original state. Then, return to 2F to observe the state of the gate at (8, 23).
+4. **Expected Outcome:** This new combination will alter the 2F layout differently, hopefully opening the gate at (8, 23) and clearing the path beyond.
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion 1F - Secret Passage:** The eastern corridor 'trap' is escaped by walking through a secret passage in an impassable wall. The `path_planner` tool can detect these.
