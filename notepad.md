@@ -44,19 +44,18 @@
 
 ### Mahogany Mart Puzzle Log
 *   **Objective:** Find the secret Team Rocket entrance.
-*   **Key Observation:** A Black Belt (BB) guard at (1, 6) disappears when I approach the bookshelf at (7, 1). He reappears if I move too far away, confirming the solution is localized and likely timed.
-*   **Current Hypothesis:** The bookshelf at (7, 1) becomes an interactable switch *only after* the BB has vanished.
-*   **Test Plan:** 
-    1. Move to (7, 2) to trigger the BB's disappearance.
-    2. Immediately face the bookshelf at (7, 1) and press 'A'.
-*   **Alternative Hypotheses (If current fails):**
-    1. The trigger is external. After the BB vanishes, an NPC's dialogue in Mahogany Town might change, providing the next clue.
-    2. The trigger is item-based. An item in my inventory needs to be used.
+*   **Key Observation:** A Black Belt (BB) guard at (1, 6) disappears when I approach the area near the bookshelf at (7, 1). He reappears if I move away from this area, confirming the solution is localized.
+*   **Current Working Sequence:**
+    1. Stand at (7, 2) to make the BB disappear.
+    2. Face and interact with the bookshelf at (7, 1). This triggers a scripted screen-flash event.
+*   **Current Blockage:** After the screen-flash, no obvious path opens. The warp tile at (7, 3) remains inactive. Moving away from the area resets the puzzle.
 *   **Failed Hypotheses Log:**
-    1. The Pharmacist is the trigger. (Failed: He's a normal shopkeeper, and moving to him resets the puzzle).
-    2. The incense burner or bookshelf are direct switches. (Failed: They only provide flavor text without the BB trigger).
-    3. The warp tile at (7, 3) is the trigger. (Failed: Stepping on it and interacting does nothing).
-    4. The BB's original spot (1, 6) is a pressure plate. (Failed: Moving there resets the puzzle).
+    - The Pharmacist at (4, 3) is the next step. (Failed: Moving to him resets the puzzle).
+    - The incense burner at (6, 1) is a direct switch. (Failed: No effect).
+    - The bookshelf at (7, 1) is a direct switch. (Failed: No effect without the BB trigger).
+    - The warp tile at (7, 3) is a direct trigger. (Failed: Stepping on it or interacting with it while facing Down, Up, or Left does nothing, even after the bookshelf event).
+    - The BB's original spot at (1, 6) is a pressure plate. (Failed: Moving there resets the puzzle).
+*   **Next Hypothesis:** The final test for the warp tile at (7, 3) is to interact with it while facing Right after the bookshelf event.
 
 ## V. Future Development Ideas
 
