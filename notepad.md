@@ -60,7 +60,23 @@
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion B1F - Gate Switch Puzzle:** Switch at (19, 26) opens northern and western gates.
-- **Pokemon Mansion 1F - Alternating Doors Puzzle:** The switch at (3, 6) on 1F controls the east/west gates. Flipping it opens the western gates (like at 17,8) and closes the eastern ones, and vice-versa.
+## Mansion Puzzle State
+- **1F Switch at (3, 6):** Controls the east/west gates. The state alternates with each press.
+  - *Current State:* West gates are OPEN, East gates are CLOSED (deduced).
+- **2F Switch at (3, 12):** This switch also seems to affect the gates, but its exact interaction with the 1F switch is still being tested.
+
+## Hypothesis Log
+- **Hypothesis 1:** Flipping the switch at (3, 6) will open the eastern gates.
+  - **Test:** Flipped switch.
+  - **Outcome:** Eastern gates at (25, 14) opened, but triggered a trap closing other gates.
+  - **Conclusion:** Hypothesis confirmed, but with a side effect.
+- **Hypothesis 2:** Flipping the switch at (3, 6) again will reverse the state, closing the eastern gates and reopening the western gates.
+  - **Test:** Flipped switch again.
+  - **Outcome:** The western gate at (17, 8) is now open.
+  - **Conclusion:** Hypothesis confirmed.
+
+## Current Plan
+- The western gate at (17, 8) is now open. I will proceed through it to explore the western side of the mansion.
 - **Pokemon Mansion 1F - Secret Passage:** The eastern corridor "trap" is escaped by walking through a secret passage in the impassable wall. The `path_planner` tool can detect these.
 - **Gate/Warp Interaction:** A tile can be both a gate and a warp. Even if the gate is visually closed, the warp can still be reachable and usable if listed as such in the Game State Information.
 
