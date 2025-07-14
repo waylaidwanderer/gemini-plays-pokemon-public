@@ -37,12 +37,7 @@
 
 ### Mahogany Mart Puzzle Log
 *   **Objective:** Find the secret Team Rocket entrance.
-*   **Key Discovery:** The puzzle is a sequence of events. 1) Approaching the bookshelf at (7, 1) causes a Black Belt guard at (1, 6) to disappear. 2) Interacting with the bookshelf triggers a scripted event. 3) Interacting with the Black Belt guard at (1, 6) after the bookshelf event causes him to reveal he is Team Rocket and then vanish.
-*   **Hypothesis 1 (Invalidated):** The secret entrance is the warp at (7, 3). **Test Result:** All attempts to activate the warp after the sequence failed.
-*   **Hypothesis 2 (Invalidated):** The Pharmacist at (4, 3) is involved. **Test Result:** His dialogue and function remain unchanged.
-*   **Hypothesis 3 (Invalidated):** The Incense Burner at (6, 1) is the switch. **Test Result:** It only produces flavor text.
-*   **Hypothesis 4 (Invalidated):** The puzzle opens the path to the Mahogany Gym. **Test Result:** The Fisher at (6, 14) remains, blocking the path.
-*   **Final Conclusion:** The puzzle's purpose is not to open a passage *inside* the mart or to the gym. Its completion must have triggered an event elsewhere, most likely clearing the path on Route 43.
+*   **Final Conclusion:** The puzzle's purpose is not to open a passage *inside* the mart or to the gym. Its completion (triggering the bookshelf event, then speaking to the guard) must have triggered an event elsewhere. The gym path remains blocked by a Fisher. The only remaining possibility is that the path on Route 43 to the Lake of Rage has been cleared.
 
 ## V. Future Development Ideas
 
