@@ -34,30 +34,29 @@
 - **FLY in battle:** The move FLY can be used to defeat a wild Pokémon and end the battle, even when indoors. This acts as an escape method.
 - **FLY in field:** Cannot be used indoors to escape a building.
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
-- **Item Use on Fainted Pokemon:** A FULL RESTORE will not work on a fainted Pokémon.
-- **Intentional Fainting:** Purposely fainting the party is NEVER a valid strategy to escape a trapped area.
 
 # III. Current Objective: Find the Secret Key in the Pokemon Mansion
 
 ## A. Mansion Puzzle State
-- **1F Switch (3, 6):** Controls east/west gates, alternates. Has been toggled once from its original state.
-- **2F Switch (3, 12):** Also controls gates. Has been pressed 6 times. The 6th press changed the gate at (8, 23) from OPEN to CLOSED.
-- **3F Super Nerd (5, 12):** Blocks western path. Trigger to move him is unknown. The western part of 3F is a confirmed dead end.
-- **B1F Switch (19, 26):** Opens northern and western gates via a two-step 'prime and trigger' mechanic.
+- **1F Switch (3, 6):** Controls east/west gates, alternates. Current state: **Toggled once** from original.
+- **2F Switch (3, 12):** Also controls gates. Current state: **Pressed 6 times (original state)**.
+- **Gate at 2F (8, 23):** Currently **CLOSED**.
+- **3F:** Western area is a confirmed dead end.
 
-## B. Current Plan
-**Attempt 10 (Failed):** Toggling the 1F switch while the 2F switch was in its 6th-press state resulted in the gate at (8, 23) being closed.
-
-**Attempt 11 (Current):**
-1. **Observation:** The combination of (1F-toggled, 2F-6th press) resulted in a closed gate. The next logical step is to change one variable.
-2. **Hypothesis:** The mansion's gates require a specific combination of switch states. I will test the combination of (1F-original state, 2F-6th press state).
-3. **Test:** Return to 1F, toggle the switch at (3, 6) *again* to return it to its original state. Then, return to 2F to observe the state of the gate at (8, 23).
-4. **Expected Outcome:** This new combination will alter the 2F layout differently, hopefully opening the gate at (8, 23) and clearing the path beyond.
+## B. Current Plan (from `puzzle_solver_agent`)
+**Systematic Switch Combination Testing:**
+1.  **Hypothesis 1:** The 2F switch needs to be toggled from its original state.
+    - **Test:** Press the 2F switch at (3, 12) one more time (7th press).
+    - **Check:** Observe the gate at (8, 23).
+2.  **Hypothesis 2:** Both switches need to be in their original state.
+    - **Test:** Return to 1F and press the switch at (3, 6) again to return it to its original state.
+    - **Check:** Observe the gate at (8, 23).
+3.  **Hypothesis 3:** Cycle through all four unique combinations (1F-On/2F-On, 1F-On/2F-Off, 1F-Off/2F-On, 1F-Off/2F-Off), checking the gate after each change.
 
 # IV. Solved Puzzles & Key Discoveries
-- **Pokemon Mansion 1F - Secret Passage:** The eastern corridor 'trap' is escaped by walking through a secret passage in an impassable wall. The `path_planner` tool can detect these.
+- **Pokemon Mansion 1F - Secret Passage:** The eastern corridor 'trap' is escaped by walking through a secret passage in an impassable wall.
 - **Pokemon Mansion B1F - Gate Switch Puzzle:** Switch at (19, 26) opens northern and western gates.
-- **Gate/Warp Interaction:** A tile can be both a gate and a warp. Even if a gate is visually closed, the warp can still be reachable and usable if listed as such in the Game State Information.
+- **Gate/Warp Interaction:** A tile can be both a gate and a warp. Even if a gate is visually closed, the warp can still be reachable.
 
 # V. Mansion Diaries
 - **Diary 1 (2F):** "July 5. Guyana, South America. A new POKéMON was discovered deep in the jungle."
