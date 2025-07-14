@@ -10,13 +10,68 @@
 ## II. Game Systems & Mechanics
 
 ### Verified Tile Types
-*   **Impassable (Verified):** `WALL`, `PILLAR`, `BOOKSHELF`, `TV`, `RADIO`, `TOWN_MAP`, `TABLE`, `CHAIR`, `BIRD`, `MART_SHELF`, `PC`, `LINK_CABLE`, `TRADE_MACHINE`, `INCENSE_BURNER`, `ROOF`, `CHIMNEY`, `SIGN`, `FLOWER`, `TREE_TOP`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `VOID`, `COUNTER`, `FENCE`, `LINK_RECEPTIONIST`, `WEIRD_TREE`, `PRINTER`, `BUOY`, `ROCK`, `WINDOW`.
-*   **Traversable (Verified):** `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `FLOOR`.
-*   **Warps (Verified):** `DOOR`, `CAVE`, `LADDER`, `STAIRCASE`.
-*   **One-Way Traversal (Verified):** `PIT` (One-way down), `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`.
-*   **Directional Warps (Verified):** `WARP_CARPET_DOWN` (Requires pressing 'Down' to activate), `WARP_PANEL` (One-way teleporter).
-*   **Special Requirement (Verified):** `CUT_TREE` (Requires HM01 Cut), `BREAKABLE_ROCK` (Requires Rock Smash).
-*   **Conditional Traversal (Verified):** `FLOOR_UP_WALL` (A one-way ledge, hoppable from the top).
+
+**Traversable:**
+*   `FLOOR`
+*   `GRASS`
+*   `TALL_GRASS`
+*   `LONG_GRASS`
+*   `RAILING`
+*   `PIPE_HORIZONTAL`
+*   `PIPE_VERTICAL`
+
+**Impassable:**
+*   `BIRD`
+*   `BOOKSHELF`
+*   `BUOY`
+*   `CHAIR`
+*   `CHIMNEY`
+*   `FENCE`
+*   `FLOWER`
+*   `INCENSE_BURNER`
+*   `LINK_CABLE`
+*   `LINK_RECEPTIONIST`
+*   `MART_SHELF`
+*   `PC`
+*   `PILLAR`
+*   `PRINTER`
+*   `RADIO`
+*   `ROCK`
+*   `ROOF`
+*   `SIGN`
+*   `TABLE`
+*   `TOWN_MAP`
+*   `TRADE_MACHINE`
+*   `TREE_TOP`
+*   `TV`
+*   `VOID`
+*   `WALL`
+*   `WATER_EDGE_UP`
+*   `WATER_EDGE_DOWN`
+*   `WATER_EDGE_LEFT`
+*   `WATER_EDGE_RIGHT`
+*   `WEIRD_TREE`
+*   `WINDOW`
+
+**Warps:**
+*   `CAVE`
+*   `DOOR`
+*   `LADDER`
+*   `STAIRCASE`
+*   `WARP_CARPET_DOWN` (Requires 'Down' to activate)
+*   `WARP_PANEL` (One-way teleporter)
+
+**Conditional / One-Way:**
+*   `BREAKABLE_ROCK` (Requires Rock Smash)
+*   `CUT_TREE` (Requires HM01 Cut)
+*   `FLOOR_UP_WALL` (One-way ledge, hoppable from above)
+*   `LEDGE_HOP_DOWN`
+*   `LEDGE_HOP_DOWN/RIGHT`
+*   `LEDGE_HOP_LEFT`
+*   `PIT` (One-way down)
+
+**Untested:**
+*   `COUNTER` - *Need to verify if this is impassable or interactable.*
 
 ## III. Current Investigation: Team Rocket Hideout
 
