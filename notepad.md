@@ -92,3 +92,15 @@
 *   **Alternative Hypothesis #1:** The issue is story-related and will resolve after defeating the hideout's leader. **Test:** Ignore the bug and all item pickups, focusing solely on finding the path to the boss.
 *   **Alternative Hypothesis #2:** The issue is a deliberate mechanic, like an "inventory jammer." **Test:** Search for a machine, a generator, or a switch that could be responsible for this effect and interact with it.
 *   **Alternative Hypothesis #3:** The inventory issue is a temporary story mechanic, not a bug. It may resolve automatically after defeating the hideout's leader. **Test:** If other hypotheses fail, ignore all item pickups and focus solely on finding the path to the boss.
+
+## III. Current Investigation: Team Rocket Hideout - B3F Puzzle
+
+*   **Objective:** Find the second password for the boss's quarters.
+*   **Observation:** The eastern and western sections of this floor are separated by a wall. Movement along the Y=12 corridor in the eastern section triggers state changes (Poke Balls appearing/disappearing) in the western section.
+*   **Hypothesis 1:** Completing a specific sequence of movements along the Y=12 corridor will solve the puzzle.
+
+### Puzzle Log
+*   **Test 1:** Followed `sequential_puzzle_solver` agent's advice.
+    *   **Action:** Moved from (24, 12) to (25, 12).
+    *   **Observation:** The Poke Ball at (28, 9) remained visible. No other state change observed.
+    *   **Conclusion:** This step is part of the sequence, but not a primary trigger on its own.
