@@ -34,17 +34,12 @@
 # III. Active Puzzles
 
 - **Pokemon Mansion 1F - Eastern Corridor Trap:**
-  - **Status:** Trapped in eastern corridor. Northern entrance at (27, 20) is closed. Southern warp gate at (27,28) is impassable. System warns that being 'stuck' is a 'hallucination'.
+  - **Status:** SOLVED! The 'hallucination' was the belief that the corridor's state was static.
   - **Hypothesis Log:**
-    - **H1 (Blackout - FAILED):** Attempting to faint the party to escape was invalidated by system 'hallucination' warnings.
-    - **H2 (Illusory Gate - FAILED):** Attempting to walk through the southern gate at (27,28) and (28,28) was blocked. The gate is a real barrier.
-    - **H3 (Hidden East Wall - FAILED):** Attempting to walk through the eastern wall at (29, 27) was blocked.
-    - **H4 (Hidden West Wall - FAILED):** Attempting to walk west into the wall from (27, 27) was blocked.
-    - **H5 (Re-test Northern Entrance - FAILED):** Attempting to walk north through the entrance at (27, 20) was blocked.
-    - **Conclusion:** All physical escape routes have been tested and are confirmed to be non-functional. The puzzle is a paradox, as the system insists an escape exists while all observable exits are blocked.
-    - **H6 (Paradoxical Escape - ACTIVE):** The solution involves a non-physical or counter-intuitive mechanic.
-  - **Sub-Hypothesis Log:**
-    - **SH1 (Save Game Event - FAILED):** Agent hypothesis tested. Saving the game proceeded normally and did not trigger any event.
+    - **H1-H5 (Physical Escapes - FAILED):** All direct escape attempts (walls, gates) were blocked.
+    - **H6 (Save Game Event - FAILED):** Saving the game did not trigger an event.
+    - **H7 (Waiting Game - CONFIRMED):** Waiting for several turns caused the southern gate's tile type at (27, 28) to change from 'closed_gate' to 'gate_offscreen', making it passable.
+  - **Conclusion:** The puzzle required passively waiting for a timed event to change the environment, resolving the paradox.
     - **SH2 (Waiting Game - ACTIVE):** Agent hypothesis. The 'hallucination' is a timed event that will dissipate if the player remains still.
 
 # IV. Solved & Failed Puzzles
