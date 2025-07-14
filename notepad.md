@@ -50,13 +50,7 @@
     - **Outcome:** Pathfinding failed; the area is physically disconnected from the eastern section.
     - **Conclusion:** The western and eastern sections of B1F are separate. The solution is not in the west.
 - **Pokemon Mansion B1F - Gate Switch Puzzle (Solved):** The switch at (19, 26) opens the northern and western gates, but not the eastern ones.
-- **Pokemon Mansion 1F - Eastern Corridor Trap (Active Puzzle):**
-  - **Status:** Trapped. The northern entrance closed after entry, and the southern warp gate is impassable (`reachable: no` in game data).
-  - **Hypothesis 1 (Walk to end):** Failed. Walking to both (27,27) and (28,27) did not trigger an escape.
-  - **Hypothesis 2 (Interact with gate):** Failed. Interacting with the gate at (28,28) had no effect.
-  - **Hypothesis 3 (Single-Pokemon Faint):** Failed. Fainting one Pokemon (SPOONBENDE) resulted in 'Got away safely!' not a blackout.
-  - **Hypothesis 4 (Full Party Blackout - ACTIVE):** The intended escape is to have the *entire* party faint in a wild battle, triggering a true blackout. This is the only remaining 'soft-reset' mechanic available.
-  - **Test Plan:** Initiate a wild battle and systematically faint all remaining conscious Pokemon.
+
 - **Diary Interaction:** Diaries must be interacted with from the side, not from below.
   - **Observation (Trapped Room):** Fell from 3F into an inescapable room on 2F at (19, 15). No visible exits.
   - **Hypothesis 1 (Agent):** The platform has a hidden trigger.
