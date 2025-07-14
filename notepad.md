@@ -71,7 +71,11 @@
     - **Outcome:** Movement was blocked.
     - **Conclusion:** Hypothesis is incorrect.
   - **Hypothesis 3 (Agent):** The room is an intentional trap, and the only escape is to 'black out' by fainting.
-    - **Test:** Triggered a wild encounter and let one Pokémon faint, then declined to send another.
+    - **Test (Attempt 1):** Triggered a wild encounter and let one Pokémon faint, then declined to send another.
     - **Outcome:** Ran from the battle ("Got away safely!"). Was not warped out of the room.
-    - **Conclusion:** This specific method of losing a battle does not solve the puzzle. The full "blackout" theory (all Pokémon fainting) remains untested.
+    - **Conclusion:** This specific method of losing a battle does not solve the puzzle.
+    - **Test (Attempt 2):** Triggered a wild encounter. Attempted to have REVENANT faint by using the non-damaging move FOCUS ENERGY.
+    - **Outcome (Failed - 4 attempts):** FOCUS ENERGY failed repeatedly, and the opponent RATTATA did not attack, resulting in a battle stalemate.
+    - **Conclusion:** Using non-damaging moves to facilitate a loss is not working in this specific encounter. A new strategy is required.
+    - **New Test Plan:** Use a weak damaging move (HEADBUTT) to try and provoke an attack from the opponent, risking a KO.
 - **Weird Typing:** My LAPRAS (NEPTUNE) was displayed as a GHOST type in battle. This needs further investigation.
