@@ -26,7 +26,7 @@
 
 ### Floor Puzzle - Team Rocket Hideout B1F
 *   **Mechanics:** This is a state-based sequence puzzle. Stepping on incorrect tiles may reset the puzzle or trigger traps. Stepping on correct tiles causes environmental changes (objects appearing/disappearing) that indicate progress. Backtracking along the correct path does not reset the puzzle.
-*   **Successful Sequence (so far):** (20, 7) -> (19, 7) -> (18, 7) -> (17, 7) -> (16, 7) -> (15, 7) -> (14, 7) -> (14, 6) -> (14, 5) -> (13, 5) -> (12, 5) -> (11, 5) -> (10, 5) -> (9, 5) -> (8, 5) -> (7, 5) -> (8, 5) -> (9, 5) -> (10, 5) -> (11, 5) -> (12, 5) -> (13, 5) -> (14, 5) -> (15, 5) -> (16, 5) -> (17, 5) -> (18, 5) -> (19, 5) -> (20, 5) -> (21, 5) -> (22, 5) -> (23, 5) -> (23, 6) -> (24, 6) -> (25, 6) -> (26, 6) -> (26, 7) -> (26, 8) -> (26, 9) -> (25, 9) -> (24, 9) -> (24, 10) -> (24, 11) -> (24, 12) -> (24, 13) -> (25, 13) -> (26, 13) -> (27, 13) -> (27, 12) -> (28, 12).
+*   **Successful Sequence (so far):** (20, 7) -> (19, 7) -> (18, 7) -> (17, 7) -> (16, 7) -> (15, 7) -> (14, 7) -> (14, 6) -> (14, 5) -> (13, 5) -> (12, 5) -> (11, 5) -> (10, 5) -> (9, 5) -> (8, 5) -> (7, 5) -> (8, 5) -> (9, 5) -> (10, 5) -> (11, 5) -> (12, 5) -> (13, 5) -> (14, 5) -> (15, 5) -> (16, 5) -> (17, 5) -> (18, 5) -> (19, 5) -> (20, 5) -> (21, 5) -> (22, 5) -> (23, 5) -> (23, 6) -> (24, 6) -> (25, 6) -> (26, 6) -> (26, 7) -> (26, 8) -> (26, 9) -> (25, 9) -> (24, 9) -> (24, 10) -> (24, 11) -> (24, 12) -> (24, 13) -> (25, 13) -> (26, 13) -> (27, 13) -> (27, 12) -> (28, 12) -> (28, 11).
 *   **Key State Changes:**
     *   Stepping on (14, 7) makes the Poke Ball at (21, 12) disappear.
     *   Stepping on (14, 6) makes the Scientist at (18, 12) disappear.
@@ -36,6 +36,7 @@
     *   Stepping on (24, 12) makes the Poke Ball at (27, 6) disappear.
     *   Stepping on (27, 13) makes the Poke Ball at (21, 12) disappear.
     *   Stepping on (26, 12) makes the Poke Ball at (21, 12) reappear.
+    *   Stepping on (28, 11) makes the Poke Ball at (27, 6) reappear.
 *   **Failed Paths:** 
     *   The entire path starting with `(7, 5) -> (7, 6)` is a confirmed dead end.
     *   The step from `(23, 6) -> (23, 7)` is a TRAP that resets the puzzle state.
