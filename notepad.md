@@ -43,8 +43,9 @@
     - **Outcome:** Nothing happened. No text appeared.
     - **Conclusion:** This hypothesis is incorrect. The 2F switch does not seem to work in isolation or as the first step of a sequence.
   - **Observation:** A gate at (16, 5) on 3F has opened. The game indicated this was from a switch pressed 'earlier'. This confirms a delayed reaction mechanic.
-  - **Current Hypothesis:** The newly opened path at (16, 5) leads to the solution.
-  - **Test Plan:** Navigate through the gate and explore the new area.
+  - **Observation (Attempt 2):** Jumping through the hole at (20, 15) on 3F leads to an isolated room on 2F at (19, 15). The only exit appears to be another set of holes.
+  - **Current Hypothesis:** The puzzle requires falling through multiple floors.
+  - **Test Plan:** Jump through the hole at (19, 17) on 2F.
 
 # IV. Solved & Failed Puzzles
 - **Pokemon Mansion 1F - Switch at (3, 6) (Failed - Attempt 1):**
