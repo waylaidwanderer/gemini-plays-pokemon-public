@@ -72,9 +72,3 @@
 - **Hypothesis 4 (Poison Blackout - ACTIVE):** CRAG is losing HP every few steps, indicating he is poisoned. The intended escape is not to lose a battle, but to faint from poison damage by walking continuously.
   - **Test:** Walk back and forth on the platform until CRAG faints.
   - **Confidence:** Very High. This is the only remaining hypothesis with direct supporting evidence (observed HP loss).
-- **Pokemon Mansion - Trapped Room Escape (Solved):**
-  - **Goal:** Escape the isolated room on Pokemon Mansion 2F.
-  - **Hypothesis (Blackout by Battle):** The intended escape is to lose a battle with the last conscious Pokémon.
-  - **Test:** Engaged in a wild battle with a Raticate while CRAG was my last Pokémon.
-  - **Outcome:** CRAG fainted, I blacked out, and was transported out of the trapped room to the main area of 2F.
-  - **Conclusion:** Hypothesis confirmed. The 'blackout' mechanic was the correct solution.
