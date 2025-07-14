@@ -49,6 +49,5 @@
 *   **Repel Advisor:** An agent to recommend when to use a Repel based on party level, current location, and goal (e.g., training vs. exploration).
 
 ### Tool Ideas
-*   **Advanced Pathfinder:** A new pathfinding tool that can account for one-way traversal tiles (ledges) and mixed-terrain paths (e.g., land -> surf -> land).
 *   **Unseen Tile Scanner:** A tool to scan the `map_xml_string` and return a list of all unseen tile coordinates (`❓`). This would help ensure systematic exploration of each map.
 *   **Mahogany Gym:** The warp is at (6, 13). A Fisher is blocking entry until the Lake of Rage event is resolved.
