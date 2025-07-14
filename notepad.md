@@ -18,7 +18,7 @@
     *   `CUT_TREE` (Requires HM01 Cut).
     *   `BREAKABLE_ROCK` (Requires Rock Smash).
 *   **Conditional Traversal (Verified):**
-    *   `FLOOR_UP_WALL`: This tile's function varies. It can be a one-way ledge (hoppable from the top) or completely impassable, as observed on Route 42's northern path. Verification is required for each instance.
+    *   `FLOOR_UP_WALL`: A one-way ledge, hoppable from the top. If this tile is ever impassable, it is due to an external factor (e.g., an invisible event wall), not a change in the tile's intrinsic properties.
 
 ### Tiles Under Investigation (High Priority)
 *   **Special Requirement (Hypothesized):**
