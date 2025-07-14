@@ -39,11 +39,9 @@
 
 # III. Current Objective: Find the Secret Key in the Pokemon Mansion
 
-# III. Current Objective: Find the Secret Key in the Pokemon Mansion
-
 ## A. Mansion Puzzle State
-- **1F Switch (3, 6):** Controls east/west gates, alternates.
-- **2F Switch (3, 12):** Also controls gates. Pressed 6 times. The 6th press changed the gate at (8, 23) from OPEN to CLOSED.
+- **1F Switch (3, 6):** Controls east/west gates, alternates. Has been toggled once from its original state.
+- **2F Switch (3, 12):** Also controls gates. Has been pressed 6 times. The 6th press changed the gate at (8, 23) from OPEN to CLOSED.
 - **3F Super Nerd (5, 12):** Blocks western path. Trigger to move him is unknown. The western part of 3F is a confirmed dead end.
 - **B1F Switch (19, 26):** Opens northern and western gates via a two-step 'prime and trigger' mechanic.
 
@@ -63,5 +61,7 @@
 
 # V. Mansion Diaries
 - **Diary 1 (2F):** "July 5. Guyana, South America. A new POKéMON was discovered deep in the jungle."
+- **Diary 2 (2F):** "July 10. We christened the newly discovered POKéMON, MEW."
+- **Tile Mechanics:** `warp`: A tile that transports the player to another location, either on the same map or a different one.- **Diary 1 (2F):** "July 5. Guyana, South America. A new POKéMON was discovered deep in the jungle."
 - **Diary 2 (2F):** "July 10. We christened the newly discovered POKéMON, MEW."
 - `warp`: A tile that transports the player to another location, either on the same map or a different one.
