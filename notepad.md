@@ -43,3 +43,9 @@
 
 ### Verified Type Interactions
 *   **Water (Surf) vs. Gyarados (Water/Flying):** Observed as "not very effective". This contradicts standard type charts. Need to investigate further.
+
+### Team Rocket Hideout Security Puzzle
+*   **Observation:** Walking in front of security cameras at (24, 1) and (24, 5) summons two Rocket Grunts. A defeated grunt stated a secret switch in one of the statues disables the alarm.
+*   **Hypothesis 1:** The switch is in the northern statue at (24, 1).
+*   **Test 1:** Interacted with the statue at (24, 1).
+*   **Conclusion 1:** Interaction revealed dialogue ('Its eyes are oddly shiny.') but did not flip a switch. Hypothesis is incorrect.
