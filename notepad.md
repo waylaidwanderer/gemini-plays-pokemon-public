@@ -72,3 +72,4 @@
 - **Hypothesis 4 (Poison Blackout - ACTIVE):** CRAG is losing HP every few steps, indicating he is poisoned. The intended escape is not to lose a battle, but to faint from poison damage by walking continuously.
   - **Test:** Walk back and forth on the platform until CRAG faints.
   - **Confidence:** Very High. This is the only remaining hypothesis with direct supporting evidence (observed HP loss).
+- **Switch Interaction:** Switches must be interacted with by standing on the tile directly below them and facing up.
