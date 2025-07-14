@@ -39,9 +39,11 @@
 
 # III. Current Objective: Find the Secret Key in the Pokemon Mansion
 
+# III. Current Objective: Find the Secret Key in the Pokemon Mansion
+
 ## A. Mansion Puzzle State
 - **1F Switch (3, 6):** Controls east/west gates, alternates.
-- **2F Switch (3, 12):** Also controls gates. Pressed 4 times. The 4th press changed the gate at (8, 23) from OPEN to CLOSED. This implies a simple two-state cycle.
+- **2F Switch (3, 12):** Also controls gates. Pressed 6 times. The 6th press changed the gate at (8, 23) from OPEN to CLOSED.
 - **3F Super Nerd (5, 12):** Blocks western path. Trigger to move him is unknown. The western part of 3F is a confirmed dead end.
 - **B1F Switch (19, 26):** Opens northern and western gates via a two-step 'prime and trigger' mechanic.
 
