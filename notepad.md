@@ -33,8 +33,7 @@
 
 # III. Active Puzzles
 
-- **Pokemon Mansion 1F - Eastern Corridor Trap:**
-  - **Status:** SOLVED! The 'hallucination' was the belief that the corridor's state was static.
+- **Pokemon Mansion 1F - Eastern Corridor Trap (SOLVED):** See map marker at (27, 28) for details on the timed gate mechanic.
 
     - **SH2 (Waiting Game - ACTIVE):** Agent hypothesis. The 'hallucination' is a timed event that will dissipate if the player remains still.
 
