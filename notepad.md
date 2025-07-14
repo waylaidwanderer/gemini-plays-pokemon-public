@@ -45,18 +45,11 @@
 ### Mahogany Mart Puzzle Log
 *   **Objective:** Find the secret Team Rocket entrance.
 *   **Key Observation:** A Black Belt (BB) guard at (1, 6) disappears when I approach the area near the bookshelf at (7, 1). He reappears if I move away from this area, confirming the solution is localized.
-*   **Current Working Sequence:**
-    1. Stand at (7, 2) to make the BB disappear.
-    2. Face and interact with the bookshelf at (7, 1). This triggers a scripted screen-flash event.
-*   **Current Blockage:** After the screen-flash, no obvious path opens. The warp tile at (7, 3) remains inactive. Moving away from the area resets the puzzle.
-*   **Failed Hypotheses Log:**
-    - The Pharmacist at (4, 3) is the next step. (Failed: Moving to him resets the puzzle).
-    - The incense burner at (6, 1) is a direct switch. (Failed: No effect).
-    - The bookshelf at (7, 1) is a direct switch. (Failed: No effect without the BB trigger).
-    - The warp tile at (7, 3) is a direct trigger. (Failed: Stepping on it or interacting with it while facing Down, Up, or Left does nothing, even after the bookshelf event).
-    - The BB's original spot at (1, 6) is a pressure plate. (Failed: Moving there resets the puzzle).
-*   **Failed Hypothesis Log (cont.):** The warp tile at (7, 3) is the trigger. (Failed: Tested interacting with the tile after the bookshelf event while facing Down, Up, Left, and Right. None of these actions triggered the warp, and moving away resets the puzzle. This hypothesis is now fully invalidated.)
-*   **Next Hypothesis:** The sequence is `Trigger BB disappearance -> Interact with Bookshelf -> Interact with Incense Burner (6, 1)`. The incense burner might become an active switch only after the bookshelf event.
+*   **Hypothesis 1 (Invalidated):** The warp tile at (7, 3) is the trigger. Test: Interacted with the tile after the bookshelf event while facing Down, Up, Left, and Right. Result: None of these actions triggered the warp, and moving away resets the puzzle. Conclusion: Hypothesis is fully invalidated.
+*   **Hypothesis 2 (Invalidated):** The Incense Burner at (6, 1) is a switch activated by the sequence. Test: Triggered BB disappearance -> Interacted with Bookshelf -> Moved to Incense Burner. Result: Moving to the Incense Burner reset the puzzle. Conclusion: Hypothesis is invalidated.
+*   **Hypothesis 3 (Invalidated):** The BB's original spot at (1, 6) is a pressure plate. Test: Triggered BB disappearance -> Moved to (1, 6). Result: Moving to (1, 6) reset the puzzle. Conclusion: Hypothesis is invalidated.
+*   **Hypothesis 4 (Invalidated):** The Bookshelf at (7, 1) opens a secret passage behind it. Test: Triggered BB disappearance -> Interacted with Bookshelf -> Attempted to walk into the bookshelf. Result: Movement was blocked. Conclusion: Hypothesis is invalidated.
+*   **Current Hypothesis:** The bookshelf event creates a *permanent* change. The guard's reappearance is a red herring. Next Test: Trigger bookshelf event -> Let the puzzle reset -> Return to the warp tile at (7, 3) and test for activation.
 
 ## V. Future Development Ideas
 
