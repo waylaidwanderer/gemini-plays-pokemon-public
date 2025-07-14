@@ -29,28 +29,22 @@
 
 ## III. Current Plans & Investigations
 
-### Current Objective: Investigate the Lake of Rage
-*   **Status:** Believed to be accessible via Route 43. The path was previously blocked by trainers, but solving the puzzle in the Mahogany Mart is hypothesized to have cleared this blockage.
-*   **Next Step:** Proceed to the gate at Mahogany Town (9, 1) and travel north onto Route 43 to test this hypothesis.
+### Current Objective: Investigate Mahogany Town
+*   **Status:** Lance confirmed a mysterious radio broadcast is originating from Mahogany Town, causing the Gyarados rampage. This is the location of the Team Rocket hideout.
+*   **Next Step:** Travel to Mahogany Town and locate the source of the broadcast.
 
 ## IV. Puzzle Logs
 
-### Mahogany Mart Puzzle Log
+### Mahogany Town & Route 43 Investigation
 *   **Objective:** Find the secret Team Rocket entrance.
-*   **Final Conclusion:** The puzzle's purpose is not to open a passage *inside* the mart or to the gym. Its completion (triggering the bookshelf event, then speaking to the guard) must have triggered an event elsewhere. The gym path remains blocked by a Fisher. The only remaining possibility is that the path on Route 43 to the Lake of Rage has been cleared.
+*   **Initial Hypothesis (Route 43):** The eastern path of Route 43 is the correct way to Mahogany Town.
+*   **Test:** Attempted to pass the Super Nerd at (14, 7).
+*   **Result:** Encountered a dialogue loop that could not be broken by pressing A, B, or stunning the NPC. The path is impassable.
+*   **Conclusion:** The eastern path is a dead end for now. The western path is the only way forward.
+*   **Hypothesis (Mahogany Mart):** The puzzle's purpose is not to open a passage *inside* the mart or to the gym. Its completion (triggering the bookshelf event, then speaking to the guard) must have triggered an event elsewhere.
+*   **Current Conclusion:** After speaking with Lance at the Lake of Rage, the next step is to find the source of the radio signal within Mahogany Town.
 
-## V. Future Development Ideas
-
-### Agent Ideas
-*   **Repel Advisor:** An agent to recommend when to use a Repel based on party level and goal.
-
-## VI. Battle Discoveries & Type Chart
+## V. Battle Discoveries & Type Chart
 
 ### Verified Type Interactions
 *   **Water (Surf) vs. Gyarados (Water/Flying):** Observed as "not very effective". This contradicts standard type charts. Need to investigate further.
-
-## Route 43 Investigation Log
-*   **Hypothesis:** The eastern path of Route 43 is the correct way to Mahogany Town.
-*   **Test:** Attempted to pass the Super Nerd at (14, 7).
-*   **Result:** Encountered a dialogue loop that could not be broken by pressing A, B, or stunning the NPC. The path is impassable.
-*   **Conclusion:** The eastern path is currently a dead end. New plan is to explore the western path of Route 43.
