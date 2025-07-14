@@ -19,6 +19,7 @@
 - `closed_gate`: A gate that is visibly closed and acts as an impassable wall.
 - `open_gate`: A gate that is visibly open and acts as ground.
 - `Switch Interaction`: Switches can appear on impassable tiles. They must be interacted with by standing on an adjacent tile (usually below) and facing the switch.
+- `secret_passage`: Certain `impassable` wall tiles can be walked through. These are not visually distinct.
 
 ## B. Confirmed ROM Hack Changes
 ### B1. Type Matchups & Immunities
@@ -36,10 +37,11 @@
 - **Item Use on Fainted Pokemon:** A FULL RESTORE will not work on a fainted Pokémon.
 - **Intentional Fainting:** Purposely fainting the party is NEVER a valid strategy to escape a trapped area.
 
-# III. Active Puzzles
-- **Pokemon Mansion 1F - Trapped Eastern Corridor:** Currently trapped in the eastern section. All previous hypotheses (fainting, hidden wall switch) have failed. Current hypothesis: there is a hidden trigger on a floor tile. Test: Systematically walk over every tile in the enclosed area.
+# III. Current Objectives
+- **Pokemon Mansion - Find the Secret Key:** The mansion is a maze of switches and hidden passages. The key is likely hidden somewhere within. Current hypothesis: The diaries scattered throughout the mansion contain clues to the key's location or the final puzzle's solution. Test: Find and read all diaries.
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion B1F - Gate Switch Puzzle:** Switch at (19, 26) opens northern and western gates.
-- **Pokemon Mansion 1F - Alternating Doors Puzzle:** The switch at (3, 6) opens the eastern gates at (25, 14) and (26, 14) but closes the gates at (17, 8) and (18, 8) behind the player, creating a trap.
+- **Pokemon Mansion 1F - Alternating Doors Puzzle:** The switch at (3, 6) on 1F and the switch at (3, 12) on 2F control a series of alternating gates, creating one-way paths and traps.
+- **Pokemon Mansion 1F - Secret Passage:** The eastern corridor "trap" is escaped by walking through a secret passage in the impassable wall. The `path_planner` tool can detect these.
 - **Gate/Warp Interaction:** A tile can be both a gate and a warp. Even if the gate is visually closed, the warp can still be reachable and usable if listed as such in the Game State Information.
