@@ -72,3 +72,4 @@
   - **Test:** Walk back and forth on the platform until CRAG faints.
   - **Confidence:** Very High. This is the only remaining hypothesis with direct supporting evidence (observed HP loss).
 - **Switch Interaction:** Switches must be interacted with by standing on the tile directly below them and facing up.
+- **'No Will to Fight':** After a Pokémon faints, attempting to switch in the next Pokémon can sometimes fail with the message 'There's no will to fight!'.
