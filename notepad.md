@@ -48,7 +48,7 @@
   - **Attempt #6 (Long Walk):** FAILED. A long, uninterrupted walk did not open the gate.
   - **Conclusion:** All conventional escape hypotheses have been exhausted. The only remaining solution is an unconventional blackout.
   - **New Hypothesis:** A specific wild Pokémon (Grimer) can inflict poison, allowing CRAG to faint from damage over time outside of battle.
-  - **Active Plan:** Find a wild Grimer, allow it to poison CRAG, run away, then walk until CRAG faints.
+  - **Active Plan:** SOLVED. The blackout strategy worked. To escape the corridor, the player's last conscious Pokémon must be poisoned. Then, in a subsequent battle, use a non-damaging move or item (like the POKé FLUTE) to waste turns, allowing the opponent to attack until the player's Pokémon faints.
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion 2F - Trapped Room:** Escaped by blacking out.
