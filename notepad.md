@@ -75,3 +75,6 @@
     - **Test (Attempt 4):** Used weak attacking moves (BODY SLAM, STRENGTH) with CRAG to try and facilitate a loss.
     - **Outcome (Failed):** The move STRENGTH knocked out the opponent GRIMER. The battle was won, not lost.
     - **Conclusion:** The 'blackout' hypothesis remains untested. Wild Pokémon in this room appear to be unusually passive or weak, making it difficult to intentionally lose. The strategy of using weak attacks has also failed. I will try to trigger one more wild encounter to test the blackout theory. If that fails, I will abandon this hypothesis.
+- **Hypothesis 4 (Poison Blackout - NEW):** CRAG is losing HP every few steps, indicating he is poisoned. The intended escape is not to lose a battle, but to faint from poison damage by walking continuously.
+  - **Test:** Walk back and forth on the platform until CRAG faints.
+  - **Confidence:** Very High. This explains the weak wild Pokémon and the otherwise inexplicable HP loss.
