@@ -87,7 +87,7 @@
 
 *   **Primary Objective:** Find the Team Rocket Boss and disable the radio signal.
 *   **Current Blocker:** Navigating the Team Rocket Hideout.
-*   **Current Plan:** All previously explored paths and NPC interactions have been exhausted and led to dead ends. The game state reports a Voltorb at (7, 9) on B2F is on-screen, which contradicts my map memory showing a solid wall. The game state is the ultimate source of truth, therefore a hidden path must exist. My current hypothesis is that a specific tile in the wall at Y=12 is a hidden passage. I am systematically testing each wall tile from right to left to find it.
+*   **Current Plan:** My hypothesis that a hidden passage existed in the wall at Y=12 has been disproven after systematically testing every tile from (8, 12) to (3, 12). The contradiction of the on-screen Voltorb remains. My new hypothesis is that another object on the map is a switch or trigger. The most likely candidate is the Poke Ball at (3, 10). My immediate plan is to interact with this Poke Ball to test this new theory.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL
