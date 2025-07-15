@@ -87,7 +87,7 @@
 
 *   **Primary Objective:** Find the Team Rocket Boss and disable the radio signal.
 *   **Current Blocker:** Navigating the Team Rocket Hideout.
-*   **Current Plan:** All previously explored paths (eastern and western ladders on B1F) have led to dead ends. My previous assumption that the central arrow tiles were disabled was unverified and likely false. My new hypothesis is that the arrow tiles themselves are the intended path. I will now navigate to the central puzzle area and attempt to walk on an arrow tile to test this hypothesis.
+*   **Current Plan:** All previously explored paths (eastern and western ladders on B1F) have led to dead ends. My previous assumption that the central arrow tiles were disabled was unverified and likely false. My hypothesis that the arrow tiles would force movement was incorrect. Stepping on them simply moves me one tile. This area is a standard maze, likely with hidden floor traps. I will now carefully explore this central path.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL
