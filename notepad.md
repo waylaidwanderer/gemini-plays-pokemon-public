@@ -96,7 +96,7 @@
 *   **Password 2:** RATICATE TAIL
 
 ## IV. Tool Status
-*   **reliable_pathfinder:** This tool had a bug where it would fail if the player's starting tile was a non-standard traversable type (like a `LADDER` or `WARP_CARPET_DOWN`). I have implemented a fix to correct this. I need to re-test it in the `Route43MahoganyGate` to confirm the fix is robust.
+*   **reliable_pathfinder:** This tool had a bug where it would path through `WARP_PANEL` tiles, causing accidental teleportation. I have implemented a fix to treat `WARP_PANEL` as impassable.
 
 ## V. Contingency Plans
 *   **Team Rocket Hideout B1F:** If the current eastern corridor proves to be a dead end, the next step is to test the hypothesis that the switch at (19, 11) affected other floors. I must return to the ladder at (3, 14) and re-explore B2F to verify if it is still a dead end.
