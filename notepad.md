@@ -61,6 +61,7 @@
 *   `STAIRCASE`
 *   `WARP_CARPET_DOWN` (Requires 'Down' to activate)
 *   `WARP_PANEL` (One-way teleporter)
+*   `WARP_PANEL` (One-way teleporter)
 
 **Conditional / One-Way:**
 *   `BREAKABLE_ROCK` (Requires Rock Smash)
