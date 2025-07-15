@@ -3,7 +3,7 @@
 ## I. Core Directives & Lessons Learned
 
 *   **Data Integrity is Paramount:** My internal state (notepad, markers) MUST be 100% accurate. I will not defer data correction.
-*   **Trust Automation:** My custom tools are more reliable than my manual analysis. I must prioritize using them to avoid unforced errors.
+*   **Trust, But Verify:** My custom tools are powerful, but can have bugs. I must test their output and fix them immediately when they fail.
 *   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 
@@ -80,26 +80,18 @@
 *   `PERSIAN_STATUE_L`
 *   `PERSIAN_STATUE_R`
 
-## III. Current Investigation: Team Rocket Hideout
+### Menu Mechanics
+*   **Inventory Bug:** The 'TOSS' and 'GIVE' commands in the PACK menu are non-functional. They trigger a menu reset without performing the action. The only known way to free an inventory slot is to *use* an item in battle on a Pokémon that can be affected by it (e.g., using a Potion on a damaged Pokémon).
 
-*   **Objective:** Find the Team Rocket Boss and disable the radio signal.
-*   **Current Location:** Team Rocket Hideout, Floor B1F.
-*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The arrow tile puzzle on B1F can be disabled by a secret switch at (19, 11). The eastern and western sections of B2F and B3F are disconnected.
-*   **Current Hypothesis:** The trigger for progression is outside the hideout. I need to find Lance in Mahogany Town or at the Lake of Rage.
-*   **Alternative Hypothesis:** I missed a critical item or interaction within the hideout. I will collect all previously inaccessible items before leaving.
+## III. Current Objective: Un-stick Inventory & Progress
+
+*   **Primary Objective:** Find the Team Rocket Boss and disable the radio signal.
+*   **Current Blocker:** Full inventory and a bugged menu prevent me from picking up key items in the Team Rocket Hideout.
+*   **Current Plan:** Intentionally take damage in a wild battle on Route 43, then use a Potion to free up an inventory slot. Once a slot is free, I will return to the hideout to collect the items.
 
 ### Passwords
-*   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
-*   **Password 2:** RATICATE TAIL (from Rocket Grunt on B3F)
+*   **Password 1:** SLOWPOKETAIL
+*   **Password 2:** RATICATE TAIL
 
-## IV. Battle Discoveries & Type Chart
-
-### Verified Type Interactions
-*   **Water (Surf) vs. Gyarados (Water/Flying):** Observed as "not very effective". This contradicts standard type charts. Need to investigate further.
-
-### Menu Mechanics
-*   **Item Tossing Sequence:** To discard an item, select it from the PACK, press A, then move the cursor down twice to select 'TOSS' and press A again. Finally, confirm the quantity to discard.
-*   **Inventory Bug:** The 'TOSS' and 'GIVE' commands in the PACK menu are non-functional. They trigger a menu reset. The only known way to free an inventory slot is to *use* an item in battle.
-
-## Tool Failures
-*   **reliable_pathfinder:** Failed to find a path in `Route43MahoganyGate` from (4, 7) to (4, 0), despite a clear path existing. Manual movement confirmed the path is traversable. The tool needs to be debugged.
+## IV. Tool Status
+*   **reliable_pathfinder:** This tool had a bug where it would fail if the player's starting tile was a non-standard traversable type (like a `LADDER` or `WARP_CARPET_DOWN`). I have implemented a fix to correct this. I need to re-test it in the `Route43MahoganyGate` to confirm the fix is robust.
