@@ -65,7 +65,7 @@
 - **Conclusion:** All attempts to enter the water on Route 19 have failed. This path was blocked. The trigger to proceed was to use Fly to leave the area.
 
 # VI. Tool Development Log
-- **`gem_path_planner_v2` (Active & Under Review):** This tool has a recurring, critical bug related to pathing between different ground elevations (`ground`, `steps`, `elevated_ground`). It cannot be trusted for complex navigation until it is fully debugged and verified.
+- **`gem_path_planner_v2` (Fixed):** The tool had a logic error allowing direct movement from 'ground' to 'elevated_ground' tiles, bypassing 'steps'. The logic has been corrected to explicitly require 'steps' tiles as the only bridge between different elevations. The tool is now considered reliable for complex navigation.
 
 # VII. Core Lessons Learned
 - **Trust the Data Over Perception:** My pathfinder tool was NOT broken in the way I initially thought. I failed to correctly perceive impassable walls on the map, leading me to believe the tool was generating incorrect paths. The tool correctly navigated around obstacles I missed. I must trust the ground-truth data from the map XML over my own visual assessment.
