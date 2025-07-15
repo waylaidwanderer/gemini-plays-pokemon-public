@@ -65,5 +65,4 @@
 - **Conclusion:** All attempts to enter the water on Route 19 have failed. This path was blocked. The trigger to proceed was to use Fly to leave the area.
 
 # VI. Tool Development Log
-- **`gem_path_planner` (Deleted):** This tool was flawed as it did not account for movement type (walking vs. surfing). It has been deleted.
 - **`gem_path_planner_v2` (Active & Fixed):** This is the improved version of the pathfinder. It now correctly handles surfing-to-land transitions, land-to-land movement while surfing, and elevation changes via `steps` tiles.
