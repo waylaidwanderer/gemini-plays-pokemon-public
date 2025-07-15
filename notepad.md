@@ -3,9 +3,9 @@
 - **Combat Confirmation Bias:** I must actively try to *disprove* my hypotheses. I wasted significant time assuming my agents were correct because I was seeking confirmation, rather than testing their limits and questioning my own assumptions.
 - **Agent & Tool Trust is Mandatory (but requires verification):** I MUST trust my custom agents' and tools' advice, but this trust must be earned through verification. When an agent fails, it must be refined immediately.
 - **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
+- **Tool Input Debugging:** When a tool fails, my first step must be to systematically debug my own inputs, not to blame the tool.
 
 # II. Game Mechanics & Battle Intel
-
 ## A. Tile Mechanics & Traversal
 - `ground`: Standard walkable tile.
 - `impassable`: Walls, furniture, etc. Cannot be walked on.
@@ -35,25 +35,18 @@
 - **FLY in field:** Cannot be used indoors to escape a building.
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
 
-# III. Current Objective: Find the Secret Key in the Pokemon Mansion
+# III. Current Objective: Find the Secret Key to unlock the Cinnabar Gym
+- **Conclusion:** The Secret Key is NOT in the Pokemon Mansion. I have explored every floor (1F, 2F, 3F, B1F), toggled all switches in various combinations, and used the ITEMFINDER in the final accessible area. All paths have led to dead ends or previously explored areas.
+- **Current Plan:** Exit the Pokemon Mansion and re-evaluate my search for the key on Cinnabar Island.
 
-## A. Mansion Puzzle State
-- **1F Switch (3, 6):** Controls east/west gates, alternates. Current state: **Toggled twice** (back to original state).
-- **2F Switch (3, 12):** Also controls gates. Current state: **Pressed 6 times (original state)**.
-- **Gate at 2F (8, 23):** Currently **CLOSED**.
-- **3F:** Western area is a confirmed dead end.
-
-## B. Current Plan
-**Systematic Switch Combination Testing:**
-*   **1F Switch (3, 6):** Controls east/west gates. Current state: **Toggled twice** (back to original state).
-*   **2F Switch (3, 12):** Controls other gates. Current state: **Toggled once** (from original state).
-
-**Hypothesis 4 (Current):** Toggling the 1F switch back to its original state will reverse the western and eastern gates.
-    - **Test 1:** Check the western gates at (17, 8) and (18, 8).
-    - **Expected Outcome:** Gates are now CLOSED. **(Confirmed)**
-    - **Test 2:** Check the eastern gates at (25, 14) and (26, 14).
-    - **Expected Outcome:** Gates are now OPEN.
-
-# V. Mansion Diaries
+# IV. Archived Logs
+## Pokemon Mansion Puzzle Log
+- **1F Switch (3, 6):** Controls east/west gates, alternates.
+- **2F Switch (3, 12):** Also controls gates.
+- **Hypothesis Chain:** A series of switch toggles were tested, ultimately revealing that the switches open and close alternating sets of gates, allowing full access to the mansion. No combination revealed the Secret Key.
+- **Final Exploration:** The easternmost section of 1F was the last area explored. The ITEMFINDER yielded no results.
+## Mansion Diaries
 - **Diary 1 (2F):** "July 5. Guyana, South America. A new POKéMON was discovered deep in the jungle."
 - **Diary 2 (2F):** "July 10. We christened the newly discovered POKéMON, MEW."
+- **Diary 3 (3F):** "Feb 6. MEWTWO is far too powerful. We have failed to curb its vicious tendencies..."
+- **Diary 4 (B1F):** "Sep 1. MEWTWO escaped! We are closing the mansion... for good."
