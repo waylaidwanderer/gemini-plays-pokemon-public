@@ -35,3 +35,5 @@
 *   **Team Rocket Hideout B3F Layout:** Confirmed that B3F is split into two disconnected sections. The eastern section (accessed from the B2F ladder at (27, 14)) is separate from the western section containing the boss's door. The western section containing the boss's door is currently inaccessible. The ladder at (3, 14) on B2F leads up to B1F, not down to the western part of B3F.
 *   **H15 (Disproven):** Interacting with the scientist at (18, 12) from a different angle (below) will make him move. **Result:** He repeats the same dialogue and does not move.
 *   **H16 (Active):** The path forward involves using the warp panel at (5, 15), as hinted by the scientist.
+*   **H16 (Disproven):** The path forward involves using the warp panel at (5, 15). **Result:** The warp panel leads to an isolated exit area, confirming the scientist's dialogue that it's a way back to the entrance, not a path forward.
+*   **H17 (Active):** Flipping the switch at (19, 11) on B1F opened a new path on B2F, likely into the central maze.
