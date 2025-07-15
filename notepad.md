@@ -51,3 +51,4 @@
 - **Diary 3 (3F):** "Feb 6. MEWTWO is far too powerful. We have failed to curb its vicious tendencies..."
 - **Diary 4 (B1F):** "Sep 1. MEWTWO escaped! We are closing the mansion... for good."
 - `2x1 Warp Tiles`: Larger warps (like exit mats) require moving onto the tile and then pressing in the direction of the impassable boundary to activate.
+- `secret_passage`: Certain `impassable` wall tiles can be walked through. These are not visually distinct.
