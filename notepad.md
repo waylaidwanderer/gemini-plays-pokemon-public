@@ -81,19 +81,14 @@
 *   `ARROW_TILE_RIGHT`
 *   `COMPUTER`
 
-## III. Current Investigation: Team Rocket Hideout
+## III. Current Investigation: Team Rocket Hideout (B2F)
 
 *   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions, and disable the radio signal.
-*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. A switch at (19, 11) on B1F disables the security cameras. B2F and B3F appear to be dead ends for finding the second password, suggesting the path is on B1F.
+*   **Current Location:** Team Rocket Hideout, Floor B2F.
+*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The B1F floor puzzle was solved using the `smart_pathfinder` tool. I am now exploring B2F to find the second password needed to access the boss's room.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
-
-### Floor Puzzle (B1F)
-*   **Status:** Actively investigating. My previous conclusion that this was a red herring was incorrect. This puzzle is the only remaining path forward.
-*   **Hypothesis 1:** The floor is a sequence puzzle. Stepping on the correct tiles in order will unlock the path.
-*   **Test 1 (Failed):** Unsystematic exploration. Walked along row 5 and parts of row 6 with no effect. Also walked right from (7, 5) to (11, 5) with no effect.
-*   **Conclusion:** A systematic approach is required. Manual exploration is inefficient and prone to error. Will use `sequential_puzzle_solver` agent to determine the next logical step.
 
 ## IV. Battle Discoveries & Type Chart
 
