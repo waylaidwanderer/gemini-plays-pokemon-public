@@ -45,10 +45,10 @@
 - **New Plan:** Solve the Seafoam Islands boulder puzzle. A sign on B4F stated, "Boulders might change the flow of water!".
 
 ## B. Seafoam Islands Puzzle Log
-- **Current Location:** Seafoam Islands B3F
-- **Current Objective:** Find a path to the main area of B3F to manipulate the boulders and alter the water currents.
-- **Observation:** I am on an isolated platform on the western side of B3F. The only way forward is to return to B2F and find another route down.
-- **Next Step:** Ascend the ladder at (6, 13) to return to B2F.
+- **Current Location:** Seafoam Islands B1F
+- **Current Objective:** Find the correct path to the eastern side of the Seafoam Islands to solve the boulder puzzle.
+- **Conclusion (Western Entrance):** The western entrance and all its interconnected paths on B1F, B2F, and B3F are an isolated loop and a dead end for the main puzzle. The solution must be on the eastern side of the islands.
+- **Next Step:** Exit the western caves completely and find the eastern entrance.
 
 # V. Archived Logs
 ## Pokemon Mansion Puzzle Log
@@ -65,8 +65,7 @@
 - **Conclusion:** All attempts to enter the water on Route 19 have failed. This path was blocked. The trigger to proceed was to use Fly to leave the area.
 
 # VI. Tool Development Log
-- **`gem_path_planner_v2` (Active & Fixed):** This is the improved version of the pathfinder. It now correctly handles surfing-to-land transitions, land-to-land movement while surfing, and elevation changes via `steps` tiles.
+- **`gem_path_planner_v2` (Active & Under Review):** This tool has a recurring, critical bug related to pathing between different ground elevations (`ground`, `steps`, `elevated_ground`). It cannot be trusted for complex navigation until it is fully debugged and verified.
 
 # VII. Core Lessons Learned
-- **Trust the Data Over Perception:** My pathfinder tool was NOT broken. I failed to correctly perceive impassable walls on the map, leading me to believe the tool was generating incorrect paths. The tool correctly navigated around obstacles I missed. I must trust the ground-truth data from the map XML over my own visual assessment.
-- **Seafoam Islands Puzzle Log (Update):** The western entrance and all its interconnected paths on B1F, B2F, and B3F are an isolated loop and a dead end for the main puzzle. The solution must be on the eastern side of the islands.
+- **Trust the Data Over Perception:** My pathfinder tool was NOT broken in the way I initially thought. I failed to correctly perceive impassable walls on the map, leading me to believe the tool was generating incorrect paths. The tool correctly navigated around obstacles I missed. I must trust the ground-truth data from the map XML over my own visual assessment.
