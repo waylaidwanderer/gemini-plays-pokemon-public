@@ -9,9 +9,9 @@
 
 ## II. Game Systems & Mechanics
 
-### Verified Tile Types
+### Tile Mechanics
 
-**Traversable:**
+#### Traversable
 *   `FLOOR`
 *   `GRASS`
 *   `TALL_GRASS`
@@ -20,9 +20,9 @@
 *   `PIPE_HORIZONTAL`
 *   `PIPE_VERTICAL`
 
-**Impassable:**
+#### Impassable
 *   `BIRD`
-*   `BOOKSHELF` (Some are interactable puzzle elements)
+*   `BOOKSHELF`
 *   `BUOY`
 *   `CHAIR`
 *   `CHIMNEY`
@@ -54,7 +54,7 @@
 *   `WEIRD_TREE`
 *   `WINDOW`
 
-**Warps:**
+#### Warps
 *   `CAVE`
 *   `DOOR`
 *   `LADDER`
@@ -62,7 +62,7 @@
 *   `WARP_CARPET_DOWN` (Requires 'Down' to activate)
 *   `WARP_PANEL` (One-way teleporter)
 
-**Conditional / One-Way:**
+#### Conditional / One-Way
 *   `BREAKABLE_ROCK` (Requires Rock Smash)
 *   `CUT_TREE` (Requires HM01 Cut)
 *   `FLOOR_UP_WALL` (One-way ledge, hoppable from above)
@@ -71,14 +71,14 @@
 *   `LEDGE_HOP_LEFT`
 *   `PIT` (One-way down)
 
-### Untested Tile Types (Requires Verification)
-*   `PERSIAN_STATUE_L`
-*   `PERSIAN_STATUE_R`
+#### Untested
 *   `ARROW_TILE_UP`
 *   `ARROW_TILE_DOWN`
 *   `ARROW_TILE_LEFT`
 *   `ARROW_TILE_RIGHT`
 *   `COMPUTER`
+*   `PERSIAN_STATUE_L`
+*   `PERSIAN_STATUE_R`
 
 ## III. Current Investigation: Team Rocket Hideout
 
