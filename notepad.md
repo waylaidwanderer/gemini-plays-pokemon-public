@@ -36,7 +36,7 @@
 *   **H32 (Active):** Activating the arrow tiles on B1F will create a new path on B2F, leading to the Team Rocket Executive who must be defeated or spoken to in order to open the locked door at (14, 12).
 
 ### Future Plans & Strategy
-*   **Hideout Progression Plan (v5):**
+*   **Hideout Progression Plan (v6):**
     1.  Return to B1F via the ladder at (3, 14).
-    2.  Go to the switch at (19, 11) and turn it ON.
-    3.  Return to B2F and investigate the arrow tile maze to find a new path.
+    2.  Go to the switch at (19, 11) and ensure it is turned ON.
+    3.  Return to B2F and investigate for a newly revealed arrow tile maze.
