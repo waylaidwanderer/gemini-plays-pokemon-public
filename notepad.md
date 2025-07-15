@@ -22,31 +22,23 @@
 ## III. Team Rocket Hideout Puzzle Log
 
 *   **Objective:** Find the Team Rocket Boss and disable the radio signal.
-*   **Main Obstacle:** The path to the boss on B3F is inaccessible from the eastern side of the hideout.
+*   **Main Obstacle:** A password-locked door on B2F at (14, 12) is blocking progress.
 
 ### Confirmed Facts & Discoveries
-*   **B1F Switch:** Flipping the switch at (19, 11) on B1F disables the arrow tiles, opening the path into the central maze.
-*   **B1F Scientist (Jed):** The scientist at (18, 12) permanently blocks the path to the switch. Interacting with him yields dialogue but does not move him.
+*   **B1F Switch:** Flipping the switch at (19, 11) on B1F toggles the arrow tiles on and off.
+*   **B1F Scientist (Jed):** The scientist at (18, 12) stands near the path to the switch but does not block it.
 *   **B1F Warp Panel:** The warp panel at (5, 15) is a one-way teleporter to (25, 2), leading to an isolated exit area via the Mahogany Mart.
-*   **B2F Locked Door:** There is a password-locked door at (14, 12). The password trigger is not yet found.
-*   **B3F Layout:** B3F is split into two disconnected sections. The eastern section (accessed from B2F) is a dead end. The western section containing the boss is inaccessible from this route.
+*   **B2F Locked Door Interaction:** Interacting with the locked door at (14, 12) twice only yields the message "It needs a password to open." It does not prompt for input.
+*   **B3F Layout:** B3F is split into two disconnected sections. The western section containing the boss and Lance is inaccessible from the eastern ladder.
 *   **Passwords Found:** The two passwords are 'SLOWPOKETAIL' and 'RATICATE TAIL'.
 
-### Current Hypothesis
-*   **H23 (Disproven):** Lance was not waiting in the mart or on B2F. **Result:** No sign of Lance in the explored areas of the hideout.
-*   **H24 (Disproven):** Speaking to Lance on B3F is impossible, as the western section where he would be is inaccessible from the eastern ladder. The pathfinder confirms there is no route.
-
-### Confirmed Facts & Discoveries
-*   **B2F Locked Door Interaction:** Interacting with the locked door at (14, 12) twice only yields the message "It needs a password to open." It does not prompt for input.
-
-### Current Hypothesis
-*   **H25 (Disproven):** Speaking to Lance on B3F after learning the passwords does not trigger the door prompt, as he is in an inaccessible part of the floor.
-*   **H26 (Active):** There is a hidden switch or trigger on B1F or B2F that must be activated to open the locked door at (14, 12).
+### Hypotheses Log
+*   **H27 (Disproven):** Interacting with Scientist Jed at (18, 12) after collecting the passwords does not trigger a new event. He only repeats his dialogue about the warp panel at (5, 15).
+*   **H28 (Disproven):** Interacting with the switch at (19, 11) a second time does not trigger a new event. It only turns the arrow tiles off.
+*   **H29 (Active):** Lance is waiting on B2F. I must find him and he will help open the locked door at (14, 12).
 
 ### Future Plans & Strategy
-*   **Hideout Progression Plan (v3):**
-    1.  Return to B2F and systematically re-explore the entire floor for any missed interactive elements or hidden paths.
-    2.  If nothing is found on B2F, proceed to B1F and conduct a similar thorough search.
-    3.  Once the trigger is found, return to the locked door on B2F at (14, 12) and attempt to open it again.
-*   **H27 (Disproven):** Interacting with Scientist Jed at (18, 12) after collecting the passwords does not trigger a new event. He only repeats his dialogue about the warp panel at (5, 15).
-*   **H28 (Active):** The switch at (19, 11) must be interacted with a second time to trigger a new event.
+*   **Hideout Progression Plan (v4):**
+    1.  Return to B2F via the ladder at (3, 14).
+    2.  Locate Lance, who was last seen at (5, 13) on B2F.
+    3.  Interact with Lance to see if he triggers the event to open the locked door at (14, 12).
