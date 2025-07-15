@@ -33,3 +33,5 @@
 *   **Trap Discovered:** Stepping on tile (2, 7) in Team Rocket Hideout B1F (Map ID 3_49) triggers a warp to a corrupted glitch map.
 *   **Warp Panel Mechanics:** The warp panel at (5, 15) on B1F is a one-way teleporter to (25, 2). The tile at (25, 2) is only an arrival point.
 *   **Team Rocket Hideout B3F Layout:** Confirmed that B3F is split into two disconnected sections. The eastern section (accessed from the B2F ladder at (27, 14)) is separate from the western section containing the boss's door. The western section containing the boss's door is currently inaccessible. The ladder at (3, 14) on B2F leads up to B1F, not down to the western part of B3F.
+*   **H15 (Disproven):** Interacting with the scientist at (18, 12) from a different angle (below) will make him move. **Result:** He repeats the same dialogue and does not move.
+*   **H16 (Active):** The path forward involves using the warp panel at (5, 15), as hinted by the scientist.
