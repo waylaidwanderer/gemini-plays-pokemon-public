@@ -43,7 +43,7 @@
 ## B. Seafoam Islands Puzzle Log
 - **Current Location:** Cinnabar Island, preparing to re-enter the western Seafoam Islands cave.
 - **Failed Hypothesis:** The eastern entrance to Seafoam Islands, accessed via Route 19, was the correct path. This was proven false as the eastern water channel on Route 20 is a dead end, completely blocked by impassable rock formations.
-- **New Hypothesis:** The solution to the boulder puzzle lies within the western Seafoam Islands cave. I must have missed a crucial interaction or path during my initial exploration. The clue about the water flow was inside this cave, so the solution must be as well.
+- **Corrected Hypothesis:** Route 20 is split into two disconnected sea channels by the Seafoam Islands. The only way to travel between the eastern and western sections is by navigating through the Seafoam Islands cave system itself. My previous attempt to surf around the island was flawed. I must re-enter the eastern cave entrance and find the path that leads to the western exit to continue.
 
 # IV. Archived Logs
 ## Pokemon Mansion Puzzle Log
