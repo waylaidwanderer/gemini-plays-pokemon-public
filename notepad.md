@@ -43,21 +43,16 @@
 - **Gate at 2F (8, 23):** Currently **CLOSED**.
 - **3F:** Western area is a confirmed dead end.
 
-## B. Current Plan (from `puzzle_solver_agent`)
+## B. Current Plan
 **Systematic Switch Combination Testing:**
-1.  **Hypothesis 1 (SUCCESS):** The 2F switch needs to be toggled from its original state.
-    - **Test:** Pressed the 2F switch at (3, 12) a seventh time.
-    - **Outcome:** The gate at (8, 23) is now OPEN.
-    - **Conclusion:** The agent's first hypothesis was correct. The gate opened.
+*   **1F Switch (3, 6):** Controls east/west gates. Current state: **Toggled twice** (back to original state).
+*   **2F Switch (3, 12):** Controls other gates. Current state: **Toggled once** (from original state).
 
-**Hypothesis 2 (FAILED):** The impassable wall at (15, 23) is a secret passage.
-    - **Test:** Navigated to (14, 23) and attempted to walk right into (15, 23).
-    - **Outcome:** Movement was blocked. The wall is solid.
-    - **Conclusion:** The hypothesis is false. The wall is not a secret passage in this configuration.
-
-**Hypothesis 3 (Current):** The path forward involves falling through a hole from 3F into the eastern, hole-filled section of 2F.
-    - **Test:** Return to 3F via the warp at (8, 11) on 2F and search for a new hole to fall through.
-    - **Expected Outcome:** Find a hole on 3F that drops me into the area east of the impassable wall on 2F.
+**Hypothesis 4 (Current):** Toggling the 1F switch back to its original state will reverse the western and eastern gates.
+    - **Test 1:** Check the western gates at (17, 8) and (18, 8).
+    - **Expected Outcome:** Gates are now CLOSED.
+    - **Test 2:** Check the eastern gates at (25, 14) and (26, 14).
+    - **Expected Outcome:** Gates are now OPEN.
 
 # V. Mansion Diaries
 - **Diary 1 (2F):** "July 5. Guyana, South America. A new POKéMON was discovered deep in the jungle."
