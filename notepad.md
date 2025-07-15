@@ -42,21 +42,13 @@
 # III. Current Objective & Puzzle Logs
 ## A. Find the Secret Key to unlock the Cinnabar Gym
 - **Conclusion:** The Secret Key is NOT in the Cinnabar Lab or Pokemon Mansion. Both locations are fully explored and are dead ends for this objective.
-- **New Plan:** Reach the Seafoam Islands to solve the water current puzzle. A sign mentioned boulders could alter the flow, and this is my only remaining significant unexplored puzzle.
+- **New Plan:** Solve the Seafoam Islands boulder puzzle. A sign on B4F stated, "Boulders might change the flow of water!".
 
 ## B. Seafoam Islands Puzzle Log
-- **Location:** Seafoam Islands B3F, isolated water platform at (21, 18) and (22, 18).
-- **Problem:** Trapped on a platform with two warp tiles that appear to be non-functional. Tile info for both states "press Down to enter".
-- **Hypothesis 1:** The warp is activated by pressing 'Down'.
-- **Test 1 (Multiple Attempts):** Stood on both (21, 18) and (22, 18) and pressed 'Down'.
-- **Result 1:** Failed. Player bumped into impassable wall at Y+1.
-- **Hypothesis 2:** The warp is a standard 'step-on' warp.
-- **Test 2:** Moved off the warp tiles to (21, 17) and then stepped back onto (21, 18).
-- **Result 2:** Failed. Warp did not activate.
-- **Hypothesis 3 (from puzzle_solver_agent):** The platform is a soft-lock. The 'warps' are one-way waterfalls that require a current, which has been stopped. The only escape is via teleportation (Escape Rope, Dig) or fainting.
-- **Conclusion 3:** This contradicts core game rules ("can't be truly stuck", "fainting is not a valid strategy"). Therefore, another solution must exist.
-- **Hypothesis 4 (from puzzle_solver_agent):** Re-test the original action in case of a transient state change.
-- **Current Test:** Re-positioning to (22, 18) to attempt pressing 'Down' again.
+- **Current Location:** Seafoam Islands B1F (Western Section)
+- **Current Objective:** Explore the western side of the islands to find the remaining boulders and holes needed to alter the water currents.
+- **Observation:** I have successfully navigated to the western side of the Seafoam Islands after determining that Route 20 is split into two non-contiguous sections. My pathfinder tool has been fixed to handle elevation and surfing correctly.
+- **Next Step:** Navigate to the boulder at (15, 12) to see if it can be pushed into a nearby hole.
 
 # V. Archived Logs
 ## Pokemon Mansion Puzzle Log
@@ -74,11 +66,4 @@
 
 # VI. Tool Development Log
 - **`gem_path_planner` (Deleted):** This tool was flawed as it did not account for movement type (walking vs. surfing). It has been deleted.
-- **`gem_path_planner_v2` (Active):** This is the improved version of the pathfinder. It accepts a `movement_type` argument ('walking' or 'surfing') and correctly identifies impassable tiles for each mode, preventing pathing errors through water or over land when not appropriate.
-## Route 20 Navigation Puzzle
-- **Problem:** Arrived on the western side of Route 20 from Route 19, but `gem_path_planner_v2` still reports 'No path found' to the Seafoam Islands entrance at (49, 6).
-- **Hypothesis 1:** There is a persistent, subtle bug in the pathfinding logic.
-- **Test 1 (Failed):** Used `code_debugger_agent` and implemented its suggestions. The tool still failed.
-- **Hypothesis 2:** The `code_debugger_agent`'s first analysis was insufficient. There is a deeper bug.
-- **Test 2:** Use `code_debugger_agent` again for a more thorough analysis.
-- **Expected Outcome:** The agent will provide more specific debugging steps to uncover the root cause.
+- **`gem_path_planner_v2` (Active & Fixed):** This is the improved version of the pathfinder. It now correctly handles surfing-to-land transitions, land-to-land movement while surfing, and elevation changes via `steps` tiles.
