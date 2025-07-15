@@ -19,8 +19,6 @@
 ### Menu Mechanics
 *   **Inventory Bug (Confirmed):** The inventory is permanently locked. 'TOSS', 'GIVE', 'USE' (in battle), and 'SELL' commands are all non-functional for freeing inventory space. No new items can be picked up.
 
-## III. Team Rocket Hideout Puzzle
-
 ## III. Team Rocket Hideout Puzzle Log
 
 *   **Objective:** Find the Team Rocket Boss and disable the radio signal.
