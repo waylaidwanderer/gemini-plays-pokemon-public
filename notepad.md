@@ -28,4 +28,7 @@
 - **Current Plan:** Navigate the Seafoam Islands. The path seems to involve a series of boulder puzzles and water currents.
 - **Seafoam Islands Puzzle Log:**
   - **Observation:** The sign on B4F states "Boulders might change the flow of water!". The strong water current at (21,17) on B4F has not been stopped by the boulders I pushed from B1F and B2F.
-  - **Hypothesis:** To stop the current on B4F, I must push the boulders on B3F into the holes on B3F. The boulders are at (6, 15), (4, 16), (9, 15), and (10, 15). The holes are at (4, 17) and (7, 17).
+  - **Hypothesis 1:** To stop the current on B4F, I must push the boulders on B3F into the holes on B3F.
+  - **Test (Turn 75987):** Pushed boulders at (6,15) and (4,16) into holes at (7,17) and (4,17). Then, attempted to SURF on B4F.
+  - **Outcome:** Received message 'The current is much too fast!'.
+  - **Conclusion:** Hypothesis 1 is FALSE. The boulders on B3F do not stop the current on B4F.
