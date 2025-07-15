@@ -43,7 +43,7 @@
 ## B. Seafoam Islands Puzzle Log
 - **Current Location:** Cinnabar Island, preparing to re-enter the western Seafoam Islands cave.
 - **Failed Hypothesis:** The eastern entrance to Seafoam Islands, accessed via Route 19, was the correct path. This was proven false as the eastern water channel on Route 20 is a dead end, completely blocked by impassable rock formations.
-- **Corrected Hypothesis:** Route 20 is split into two disconnected sea channels by the Seafoam Islands. The only way to travel between the eastern and western sections is by navigating through the Seafoam Islands cave system itself. My previous attempt to surf around the island was flawed. I must re-enter the eastern cave entrance and find the path that leads to the western exit to continue.
+- **Critical Correction:** My previous analysis was flawed. While it's true I cannot surf *around* the Seafoam Islands, the system has confirmed I am NOT in a dead end. There is a reachable warp at (49, 6) on the western side of the island mass that provides a path forward. The eastern cave entrance at (59, 10) is not the correct path from this side. I must navigate to the western cave entrance.
 
 # IV. Archived Logs
 ## Pokemon Mansion Puzzle Log
