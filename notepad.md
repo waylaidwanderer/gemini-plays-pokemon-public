@@ -57,7 +57,7 @@
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion 1F - Secret Passage:** The eastern corridor 'trap' is escaped by walking through a secret passage in an impassable wall.
 - **Pokemon Mansion B1F - Gate Switch Puzzle:** Switch at (19, 26) opens northern and western gates.
-- **Gate/Warp Interaction:** A tile can be both a gate and a warp. Even if a gate is visually closed, the warp can still be reachable.
+- **Gate/Warp Interaction:** A tile can be both a gate and a warp. Even if a gate is visually closed, the warp can still be reachable and usable if listed as such in the Game State Information.
 
 # V. Mansion Diaries
 - **Diary 1 (2F):** "July 5. Guyana, South America. A new POKéMON was discovered deep in the jungle."
