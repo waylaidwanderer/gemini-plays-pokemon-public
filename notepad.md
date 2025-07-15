@@ -33,4 +33,3 @@
 
 # IV. Ideas & Future Plans
 - **Agent Idea:** Create a `multi_floor_puzzle_strategist_agent` that can analyze puzzle elements across different maps (e.g., Seafoam Islands) and devise a high-level, multi-step solution plan.
-  - **Pathfinder Flaw:** The pathfinder (`gem_path_planner`) incorrectly generates paths that attempt to walk directly from land tiles (`steps`) onto `water` tiles without using SURF. This needs to be fixed.
