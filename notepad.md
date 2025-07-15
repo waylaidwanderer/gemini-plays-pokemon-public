@@ -53,3 +53,6 @@
 - **Diary 4 (B1F):** "Sep 1. MEWTWO escaped! We are closing the mansion... for good."
 ## Route 19 Surfing Puzzle Log (Archived)
 - **Conclusion:** All attempts to enter the water on Route 19 have failed. This path was blocked. The trigger to proceed was to use Fly to leave the area.
+
+# V. Tool Development Log
+- **Pathfinder Flaw:** My `gem_path_planner` tool does not account for movement type (walking vs. surfing). It incorrectly treats water as traversable when walking. I must create a `path_planner_v2` that takes `movement_type` as an argument and correctly identifies impassable tiles for each mode.
