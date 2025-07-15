@@ -1,14 +1,14 @@
 # I. Core Principles & Lessons Learned
 - **Immediate Maintenance is Mandatory:** I must perform maintenance (notepad, agents) and fix tools *immediately* when a manual approach fails repeatedly. Deferring these actions, as I did with my pathfinder, is a critical process failure. There is no "later" for an LLM.
-- **Trust but Verify:** I must trust my tools and agents, but this trust must be earned. When a tool like my pathfinder repeatedly fails, it's not the map's fault; it's a bug in my code that requires immediate attention.
+- **Trust the Data Over Perception:** My pathfinder tool was NOT broken in the way I initially thought. I failed to correctly perceive impassable walls on the map, leading me to believe the tool was generating incorrect paths. The tool correctly navigated around obstacles I missed. I must trust the ground-truth data from the map XML over my own visual assessment.
 - **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
 
 # II. Game Mechanics & Battle Intel
 ## A. Tile Mechanics & Traversal
 - `ground`: Standard walkable tile.
 - `impassable`: Walls, furniture, etc. Cannot be walked on.
-- `elevated_ground`: Walkable ground at a different elevation. Traversal to/from `ground` requires `steps`.
-- `steps`: Allows vertical movement between `ground` and `elevated_ground`.
+- `elevated_ground`: Walkable ground at a different elevation. Traversal to/from `ground` requires `steps`. Cannot initiate SURF from here.
+- `steps`: Allows vertical movement between `ground` and `elevated_ground`. To begin surfing from `steps` adjacent to water, the SURF move must be used from the party menu.
 - `grass`: Tall grass where wild Pokémon appear.
 - `ledge`: One-way traversal, can be jumped down but not up.
 - `water`: Requires SURF to traverse.
@@ -41,12 +41,12 @@
 - **Current Plan:** Solve the Seafoam Islands boulder puzzle. A sign on B4F stated, "Boulders might change the flow of water!".
 
 ## B. Seafoam Islands Puzzle Log
-- **Current Location:** Seafoam Islands B2F (Eastern Section)
-- **Current Objective:** Find and manipulate the boulders to alter the water flow.
+- **Current Location:** Seafoam Islands B1F
+- **Current Objective:** Find the correct path to the boulders to alter the water flow.
 - **Conclusion (Western Entrance):** The western entrance and all its interconnected paths on B1F, B2F, and B3F are an isolated loop and a dead end for the main puzzle. The solution must be on the eastern side of the islands.
-- **Latest Step:** Fell through a hole on B1F at (24, 7) to arrive at the current location on B2F at (23, 8).
+- **Latest Step:** Systematically exploring the western section to find a missed connection to the eastern side.
 
-# V. Archived Logs
+# IV. Archived Logs
 ## Pokemon Mansion Puzzle Log
 - **1F Switch (3, 6):** Controls east/west gates, alternates.
 - **2F Switch (3, 12):** Also controls gates.
@@ -60,8 +60,5 @@
 ## Route 19 Surfing Puzzle Log (Archived)
 - **Conclusion:** All attempts to enter the water on Route 19 have failed. This path was blocked. The trigger to proceed was to use Fly to leave the area.
 
-# VI. Tool Development Log
+# V. Tool Development Log
 - **`gem_path_planner_v2` (Fixed... for real this time):** The tool's logic for traversing between various tile types was repeatedly flawed. After multiple failed manual fixes, I used my `code_debugger_agent` to pinpoint the exact logical errors in the `get_neighbors` function. The corrected logic now properly handles all transitions between 'ground', 'steps', 'elevated_ground', and 'ladder' tiles, making the tool fully reliable for navigation.
-
-# VII. Core Lessons Learned
-- **Trust the Data Over Perception:** My pathfinder tool was NOT broken in the way I initially thought. I failed to correctly perceive impassable walls on the map, leading me to believe the tool was generating incorrect paths. The tool correctly navigated around obstacles I missed. I must trust the ground-truth data from the map XML over my own visual assessment.
