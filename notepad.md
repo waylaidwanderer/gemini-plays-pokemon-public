@@ -24,7 +24,9 @@
 *   **Primary Objective:** Find the Team Rocket Boss and disable the radio signal.
 *   **Hypothesis Log:**
     *   **H1 (Disproven):** A hidden passage exists in the wall on B2F at Y=12. **Test:** Systematically interacted with every wall tile from (8, 12) to (3, 12). **Result:** No passage found. All tiles were solid walls.
-    *   **H2 (Current):** An alternate ladder on B1F leads to the northern section of B2F.
+    *   **H2 (Disproven):** An alternate ladder on B1F leads to the northern section of B2F. **Test:** All ladders on B1F have been explored. All lead to disconnected or previously explored sections.
+    *   **H3 (Disproven):** Stunning Scientist Jed allows passage. **Test:** Used stun_npc on Jed at (18, 12) but could not walk through his tile.
+    *   **H4 (Current):** Intentionally triggering the security cameras will unlock a new path.
 *   **Passwords:**
     *   Password 1: SLOWPOKETAIL
     *   Password 2: RATICATE TAIL
