@@ -1,6 +1,6 @@
 # I. Core Principles & Lessons Learned
-- **Immediate Maintenance is Mandatory:** I must perform maintenance (notepad, agents) and fix tools *immediately* when a manual approach fails repeatedly. Deferring these actions, as I did with my pathfinder, is a critical process failure. There is no "later" for an LLM.
-- **Trust the Data Over Perception:** My pathfinder tool was NOT broken in the way I initially thought. I failed to correctly perceive impassable walls on the map, leading me to believe the tool was generating incorrect paths. The tool correctly navigated around obstacles I missed. I must trust the ground-truth data from the map XML over my own visual assessment.
+- **Trust the Data:** I must trust my verified conclusions documented in the notepad and the output of my tools/agents over my own perception. My failure to trust my conclusion that the western Seafoam Islands was a dead end led to a significant waste of time.
+- **Immediate Maintenance is Mandatory:** I must perform maintenance (notepad, agents) and fix tools *immediately*. Deferring these actions is a critical process failure for an LLM.
 - **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
 
 # II. Game Mechanics & Battle Intel
@@ -15,7 +15,7 @@
 - `cuttable`: A tree that can be cut with HM01 Cut.
 - `hole`: A tile that causes the player to fall to the floor below.
 - `spinner_up/down/left/right`: Forces movement in a specific direction.
-- `ladder_up`/`ladder_down`: Warps that function as ladders between floors. Can connect different tile types (e.g., `elevated_ground` to `ground`).
+- `ladder_up`/`ladder_down`: Warps that function as ladders between floors.
 - `gate_offscreen`: A gate not currently on screen. Its state is unknown and treated as potentially open for pathfinding.
 - `closed_gate`: A gate that is visibly closed and acts as an impassable wall.
 - `open_gate`: A gate that is visibly open and acts as ground.
@@ -41,10 +41,9 @@
 - **Current Plan:** Solve the Seafoam Islands boulder puzzle. A sign on B4F stated, "Boulders might change the flow of water!".
 
 ## B. Seafoam Islands Puzzle Log
-- **Current Location:** Seafoam Islands B1F
-- **Current Objective:** Find the correct path to the boulders to alter the water flow.
-- **Conclusion (Western Entrance):** The western entrance and all its interconnected paths on B1F, B2F, and B3F are an isolated loop and a dead end for the main puzzle. The solution must be on the eastern side of the islands.
-- **Latest Step:** Systematically exploring the western section to find a missed connection to the eastern side.
+- **Current Location:** Seafoam Islands 1F (Western Entrance)
+- **Current Objective:** Exit the western cave and re-enter from the eastern entrance.
+- **Conclusion (Western Entrance):** The western entrance and all its interconnected paths on 1F, B1F, B2F, and B3F are an isolated loop and a dead end for the main puzzle. The solution must be on the eastern side of the islands.
 
 # IV. Archived Logs
 ## Pokemon Mansion Puzzle Log
@@ -57,8 +56,3 @@
 - **Diary 2 (2F):** "July 10. We christened the newly discovered POKéMON, MEW."
 - **Diary 3 (3F):** "Feb 6. MEWTWO is far too powerful. We have failed to curb its vicious tendencies..."
 - **Diary 4 (B1F):** "Sep 1. MEWTWO escaped! We are closing the mansion... for good."
-## Route 19 Surfing Puzzle Log (Archived)
-- **Conclusion:** All attempts to enter the water on Route 19 have failed. This path was blocked. The trigger to proceed was to use Fly to leave the area.
-
-# V. Tool Development Log
-- **`gem_path_planner_v2` (Fixed... for real this time):** The tool's logic for traversing between various tile types was repeatedly flawed. After multiple failed manual fixes, I used my `code_debugger_agent` to pinpoint the exact logical errors in the `get_neighbors` function. The corrected logic now properly handles all transitions between 'ground', 'steps', 'elevated_ground', and 'ladder' tiles, making the tool fully reliable for navigation.
