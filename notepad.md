@@ -38,7 +38,7 @@
 # III. Current Objective: Find the Secret Key in the Pokemon Mansion
 
 ## A. Mansion Puzzle State
-- **1F Switch (3, 6):** Controls east/west gates, alternates. Current state: **Toggled once** from original.
+- **1F Switch (3, 6):** Controls east/west gates, alternates. Current state: **Toggled twice** (back to original state).
 - **2F Switch (3, 12):** Also controls gates. Current state: **Pressed 6 times (original state)**.
 - **Gate at 2F (8, 23):** Currently **CLOSED**.
 - **3F:** Western area is a confirmed dead end.
