@@ -21,11 +21,11 @@
 
 ## III. Current Objective: Team Rocket Hideout
 
-### Mahogany Town Puzzle
-*   **Current State:** I am in the isolated eastern section of the Team Rocket Hideout B1F.
-*   **Clue:** A Pharmacist in the Mahogany Mart said "Arrgh… You found the secret stairway…" after I exposed him as a Rocket.
-*   **Current Hypothesis:** The Pharmacist NPC himself moved or disappeared after his dialogue, revealing the true entrance. I need to return to the mart to test this.
-*   **Alternative Hypothesis:** The entrance is not in the mart at all, and the event was a misdirection. The real path forward may be elsewhere in Mahogany Town, possibly past an NPC who was previously blocking a route.
+### Team Rocket Hideout Puzzle
+*   **Current State:** I am in the isolated eastern section of the Team Rocket Hideout B1F. This area is a one-way path from the main hideout, leading only to the Mahogany Mart. It's a red herring.
+*   **Clue:** Lance revealed a secret entrance inside the Mahogany Mart. I have not yet used this entrance.
+*   **Primary Hypothesis:** The solution to progressing lies within the main section of the Team Rocket Hideout B1F, which I must now properly explore by entering through the main entrance that Lance revealed.
+*   **Secondary Hypothesis:** I have missed a key interaction with a switch or NPC in the main B1F area, such as the security camera system or the arrow tile switch.
 
 ### General Hypothesis Log
 *   **H1 (Disproven):** A hidden passage exists in the wall on B2F. **Result:** No passage found.
