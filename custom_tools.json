@@ -18,11 +18,6 @@
     },
     "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef get_traversable_neighbors(x, y):\n    root = ET.fromstring(map_xml_string)\n    impassable_tiles = ['WALL', 'PILLAR', 'BOOKSHELF', 'TV', 'RADIO', 'TOWN_MAP', 'TABLE', 'CHAIR', 'BIRD', 'MART_SHELF', 'PC', 'LINK_CABLE', 'TRADE_MACHINE', 'INCENSE_BURNER', 'ROOF', 'CHIMNEY', 'SIGN', 'FLOWER', 'TREE_TOP', 'WATER_EDGE_UP', 'WATER_EDGE_DOWN', 'WATER_EDGE_LEFT', 'WATER_EDGE_RIGHT', 'VOID', 'COUNTER', 'FENCE', 'LINK_RECEPTIONIST', 'WEIRD_TREE', 'PRINTER', 'BUOY', 'ROCK', 'WINDOW']\n    neighbors = []\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = x + dx, y + dy\n        tile_element = root.find(f\".//Tile[@coordinate='({nx}, {ny})']\")\n        if tile_element is not None:\n            tile_type = tile_element.get('type')\n            has_object = tile_element.get('has-object') == 'true'\n            if tile_type not in impassable_tiles and not has_object:\n                neighbors.append({'x': nx, 'y': ny})\n    return neighbors\n\nx = int(input_data['x'])\ny = int(input_data['y'])\n\nresult = get_traversable_neighbors(x, y)\nprint(json.dumps(result))"
   },
-  "impassable_tile_scanner": {
-    "description": "Scans the current map and returns a list of all impassable coordinates, including walls and all objects.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nimpassable_coords = []\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.attrib['id'])\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.attrib['id'])\n        tile_type = tile_elem.attrib['type']\n        has_object = tile_elem.find('Object') is not None\n        \n        if tile_type == 'WALL' or has_object:\n            impassable_coords.append({'x': x, 'y': y})\n\nprint(json.dumps(impassable_coords))"
-  },
   "object_finder": {
     "description": "Finds a specific map object by its ID and returns its coordinates.",
     "input_schema": {
@@ -38,13 +33,8 @@
     },
     "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntarget_id = input_data['object_id']\nroot = ET.fromstring(map_xml_string)\nfound = False\nfor row in root.findall('Row'):\n    y = row.get('id')\n    for tile in row.findall('Tile'):\n        x = tile.get('id')\n        for obj in tile.findall('Object'):\n            if obj.get('id') == target_id:\n                print(json.dumps({'x': x, 'y': y}))\n                found = True\n                break\n        if found:\n            break\n    if found:\n        break\n\nif not found:\n    print(json.dumps({'error': 'Object not found on screen.'}))"
   },
-  "unseen_tile_scanner": {
-    "description": "Scans the current map XML and returns a list of coordinates for all unseen tiles.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\n\nunseen_tiles = []\nroot = ET.fromstring(map_xml_string)\nfor row in root.findall('Row'):\n    for tile in row.findall('Tile'):\n        if tile.get('seen') == 'false':\n            unseen_tiles.append(tile.get('coordinate'))\nprint(unseen_tiles)"
-  },
   "reliable_pathfinder": {
-    "description": "A reliable pathfinder using Breadth-First Search (BFS). It avoids walls, ledges, and all objects (including item balls). If the destination is impassable, it finds a path to an adjacent traversable tile.",
+    "description": "A reliable pathfinder using Breadth-First Search (BFS). It avoids walls, ledges, and all objects by parsing the entire map XML. Can optionally treat unseen tiles as traversable for exploration. If the destination is impassable, it finds a path to an adjacent traversable tile.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -63,9 +53,9 @@
         "traversable_tiles": {
           "type": "string"
         },
-        "on_screen_objects": {
+        "is_exploration": {
           "type": "string",
-          "description": "A JSON string of a list of objects currently on screen."
+          "description": "Set to 'true' to allow pathing through unseen tiles. Defaults to 'false'."
         }
       },
       "required": [
@@ -73,10 +63,32 @@
         "start_y",
         "end_x",
         "end_y",
-        "traversable_tiles",
-        "on_screen_objects"
+        "traversable_tiles"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path():\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    traversable_tile_types = input_data['traversable_tiles'].split(',')\n    on_screen_objects_json = input_data.get('on_screen_objects', '[]')\n    \n    try:\n        root = ET.fromstring(map_xml_string)\n        map_width = int(root.get('width'))\n        map_height = int(root.get('height'))\n    except Exception as e:\n        print(f\"Error parsing map XML: {e}\")\n        return\n\n    impassable = set()\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            y = int(row.get('id'))\n            if tile.get('seen') == 'false' or tile.get('type') not in traversable_tile_types:\n                impassable.add((x, y))\n            if tile.find('Object') is not None:\n                impassable.add((x, y))\n\n    try:\n        on_screen_objects = json.loads(on_screen_objects_json)\n        for obj in on_screen_objects:\n            pos = obj.get('position')\n            if pos:\n                impassable.add((pos['x'], pos['y']))\n    except (json.JSONDecodeError, KeyError):\n        pass\n        \n    start_node = (start_x, start_y)\n    end_node = (end_x, end_y)\n\n    target_destinations = [end_node]\n    if end_node in impassable:\n        target_destinations = []\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_node = (end_node[0] + dx, end_node[1] + dy)\n            if adj_node not in impassable:\n                 target_destinations.append(adj_node)\n        \n        if not target_destinations:\n            print(\"FAIL: Destination and all adjacent tiles are impassable.\")\n            return\n\n    queue = deque([[start_node]])\n    visited = {start_node}\n\n    while queue:\n        path = queue.popleft()\n        node = path[-1]\n\n        if node in target_destinations:\n            path_json = json.dumps([{\"x\": x, \"y\": y} for x, y in path])\n            print(path_json)\n            return\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (node[0] + dx, node[1] + dy)\n            \n            if not (1 <= neighbor[0] <= map_width and 1 <= neighbor[1] <= map_height):\n                continue\n            \n            if neighbor not in visited and neighbor not in impassable:\n                visited.add(neighbor)\n                new_path = list(path)\n                new_path.append(neighbor)\n                queue.append(new_path)\n\n    print(\"FAIL: No path found.\")\n\nfind_path()\n"
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path():\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    traversable_tile_types = input_data['traversable_tiles'].split(',')\n    is_exploration = input_data.get('is_exploration', 'false').lower() == 'true'\n\n    try:\n        root = ET.fromstring(map_xml_string)\n        map_width = int(root.get('width'))\n        map_height = int(root.get('height'))\n    except Exception as e:\n        print(f\"Error parsing map XML: {e}\")\n        return\n\n    impassable = set()\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            y = int(row.get('id'))\n            \n            if tile.get('seen') == 'false' and not is_exploration:\n                impassable.add((x, y))\n            elif tile.get('type') not in traversable_tile_types:\n                impassable.add((x, y))\n            \n            if tile.find('Object') is not None:\n                impassable.add((x, y))\n\n    start_node = (start_x, start_y)\n    end_node = (end_x, end_y)\n\n    target_destinations = []\n    if end_node in impassable:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_node = (end_node[0] + dx, end_node[1] + dy)\n            if adj_node not in impassable:\n                 target_destinations.append(adj_node)\n        \n        if not target_destinations:\n            print(\"FAIL: Destination and all adjacent tiles are impassable.\")\n            return\n    else:\n        target_destinations.append(end_node)\n\n    queue = deque([[start_node]])\n    visited = {start_node}\n\n    if start_node in impassable:\n        print(\"FAIL: Start node is impassable.\")\n        return\n\n    while queue:\n        path = queue.popleft()\n        node = path[-1]\n\n        if node in target_destinations:\n            path_json = json.dumps([{\"x\": x, \"y\": y} for x, y in path])\n            print(path_json)\n            return\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (node[0] + dx, node[1] + dy)\n            \n            if not (1 <= neighbor[0] <= map_width and 1 <= neighbor[1] <= map_height):\n                continue\n            \n            if neighbor not in visited and neighbor not in impassable:\n                visited.add(neighbor)\n                new_path = list(path)\n                new_path.append(neighbor)\n                queue.append(new_path)\n\n    print(\"FAIL: No path found.\")\n\nfind_path()\n"
+  },
+  "find_next_exploration_target": {
+    "description": "Scans the map XML for unseen tiles, finds the largest contiguous cluster of them, and returns the coordinate of the unseen tile in that cluster that is closest to the player.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "traversable_tiles": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "traversable_tiles"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef explore():\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    traversable_tile_types = input_data['traversable_tiles'].split(',')\n\n    try:\n        root = ET.fromstring(map_xml_string)\n        map_width = int(root.get('width'))\n        map_height = int(root.get('height'))\n    except Exception as e:\n        print(f\"Error parsing map XML: {e}\")\n        return\n\n    unseen_tiles = set()\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            if tile.get('seen') == 'false':\n                unseen_tiles.add((int(tile.get('id')), int(row.get('id'))))\n\n    if not unseen_tiles:\n        print(\"FAIL: No unseen tiles on the map.\")\n        return\n\n    visited_clusters = set()\n    all_clusters = []\n    for tile in unseen_tiles:\n        if tile not in visited_clusters:\n            cluster = []\n            q = deque([tile])\n            visited_clusters.add(tile)\n            while q:\n                curr_tile = q.popleft()\n                cluster.append(curr_tile)\n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    neighbor = (curr_tile[0] + dx, curr_tile[1] + dy)\n                    if neighbor in unseen_tiles and neighbor not in visited_clusters:\n                        visited_clusters.add(neighbor)\n                        q.append(neighbor)\n            all_clusters.append(cluster)\n\n    if not all_clusters:\n        print(\"FAIL: Could not form clusters from unseen tiles.\")\n        return\n\n    largest_cluster = max(all_clusters, key=len)\n\n    start_pos = (start_x, start_y)\n    closest_tile = None\n    min_dist = float('inf')\n\n    for tile in largest_cluster:\n        dist = abs(tile[0] - start_pos[0]) + abs(tile[1] - start_pos[1])\n        if dist < min_dist:\n            min_dist = dist\n            closest_tile = tile\n\n    if closest_tile:\n        print(json.dumps({\"x\": closest_tile[0], \"y\": closest_tile[1]}))\n    else:\n        print(\"FAIL: Could not find the closest tile in the largest cluster.\")\n\nexplore()\n"
   }
 }

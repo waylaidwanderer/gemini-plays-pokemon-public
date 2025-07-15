@@ -83,10 +83,10 @@
 ## III. Current Investigation: Team Rocket Hideout
 
 *   **Objective:** Find the Team Rocket Boss and disable the radio signal.
-*   **Current Location:** Team Rocket Hideout, Floor B3F.
-*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The ladder at (27, 2) on B1F is a one-way exit to the Mahogany Mart. Picking up an item with a full bag causes a dialogue loop. Defeated NPC sprites can block paths. The eastern and western halves of B3F are disconnected.
-*   **Current Hypothesis:** I missed a trigger on B1F or B2F that opens the path forward. My next step is to return to B2F to re-explore.
-*   **Alternative Hypothesis:** The `OathScript` bookshelves in the western part of B3F are a puzzle, but I need to find a different way to access them.
+*   **Current Location:** Team Rocket Hideout, Floor B2F.
+*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The ladder at (27, 2) on B1F is a one-way exit to the Mahogany Mart. Picking up an item with a full bag causes a dialogue loop. Defeated NPC sprites can block paths. The eastern and western halves of B3F are disconnected. The eastern section of B2F is a dead end.
+*   **Current Hypothesis:** The western area of B2F is a maze that must be navigated to reach an interactive element (computer or Voltorb) that will open the path to the boss's room on B3F.
+*   **Alternative Hypothesis:** The solution requires an interaction outside the maze. Perhaps an NPC like Lance must be spoken to again, or a previously defeated grunt holds a key.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
@@ -96,8 +96,3 @@
 
 ### Verified Type Interactions
 *   **Water (Surf) vs. Gyarados (Water/Flying):** Observed as "not very effective". This contradicts standard type charts. Need to investigate further.
-
-## Reflection & Strategy (Turn 44696)
-*   **Hypothesis:** The way forward on B3F is blocked by a switch/event on B2F.
-*   **Alternative Hypothesis:** Progress requires interacting with the computer terminals on B2F, or defeating all Voltorb sprites on the floor.
-*   **Plan:** Fully explore B2F. If no switch is found, test alternative hypotheses. I created a new tool, `find_next_exploration_target`, to make this exploration more systematic.
