@@ -8,8 +8,8 @@
 ## A. Tile Mechanics & Traversal
 - `ground`: Standard walkable tile.
 - `impassable`: Walls, furniture, etc. Cannot be walked on.
-- `elevated_ground`: Walkable ground at a different elevation. Traversal to/from `ground` requires `steps`. Cannot initiate SURF from here.
-- `steps`: Allows vertical movement between `ground` and `elevated_ground`. To begin surfing from `steps` adjacent to water, the SURF move must be used from the party menu.
+- `elevated_ground`: Walkable ground at a different elevation. Traversal to/from `ground` requires `steps`.
+- `steps`: Allows vertical movement *only* between adjacent `ground` and `elevated_ground` tiles. Cannot be used to transition between two `ground` tiles or two `elevated_ground` tiles.
 - `grass`: Tall grass where wild Pokémon appear.
 - `ledge`: One-way traversal, can be jumped down but not up.
 - `water`: Requires SURF to traverse.
@@ -17,24 +17,12 @@
 - `hole`: A tile that causes the player to fall to the floor below.
 - `spinner_up/down/left/right`: Forces movement in a specific direction.
 - `ladder_up`/`ladder_down`: Warps that function as ladders between floors.
-- `gate_offscreen`: A gate not currently on screen. Its state is unknown and treated as potentially open for pathfinding.
-- `closed_gate`: A gate that is visibly closed and acts as an impassable wall.
-- `open_gate`: A gate that is visibly open and acts as ground.
-- `secret_passage`: Certain `impassable` wall tiles can be walked through. These are not visually distinct.
+- `gate_offscreen`/`closed_gate`/`open_gate`: Gates that can block paths.
+- `secret_passage`: Certain `impassable` wall tiles can be walked through.
 
 ## B. Confirmed ROM Hack Changes
-### B1. Type Matchups & Immunities
-- **Super Effective:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire
-- **Not Very Effective:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground
-- **Immunities:** Flying-type immune to Ground-type moves; Ground-type Pokémon are immune to Electric-type moves; MUK immune to Poison-type moves; HYPNO immune to STUN SPORE (powder moves); MUK immune to THUNDER WAVE (Electric-type status move); MAROWAK (Ground-type) immune to POISON GAS (Poison-type move).
-
-### B2. Battle & Field Mechanics
-- **Evasion:** PSYWAVE and CONFUSE RAY can fail against targets with high evasion boosts.
-- **Safari Zone:** Has a time limit. When it expires, the player is warped back to the Safari Zone Gate.
-- **Gym Battle Loss:** Losing a battle inside a gym does NOT warp you to a Pokémon Center.
-- **FLY in battle:** The move FLY can be used to defeat a wild Pokémon and end the battle, even when indoors. This acts as an escape method.
-- **FLY in field:** Cannot be used indoors to escape a building.
-- **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
+- **Type Matchups & Immunities:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire; Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground; Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
+- **Battle & Field Mechanics:** PSYWAVE/CONFUSE RAY can miss. Safari Zone has a time limit. Losing in a gym does not warp you out. FLY can end wild battles indoors but cannot be used to escape buildings. ROAR can end wild battles.
 
 # III. Current Objective & Puzzle Logs
 ## A. Find the Secret Key to unlock the Cinnabar Gym
