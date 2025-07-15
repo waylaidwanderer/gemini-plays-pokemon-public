@@ -81,13 +81,13 @@
 *   `PERSIAN_STATUE_R`
 
 ### Menu Mechanics
-*   **Inventory Bug:** The 'TOSS', 'GIVE', and 'USE' (in battle) commands are all non-functional for freeing inventory space. They trigger a menu reset or fail without consuming the item. The only remaining hypothesis is that selling an item at a Poké Mart might work.
+*   **Inventory Bug (Confirmed):** The inventory is permanently locked. 'TOSS', 'GIVE', 'USE' (in battle), and 'SELL' commands are all non-functional for freeing inventory space. No new items can be picked up.
 
-## III. Current Objective: Un-stick Inventory & Progress
+## III. Current Objective: Progress Story
 
 *   **Primary Objective:** Find the Team Rocket Boss and disable the radio signal.
-*   **Current Blocker:** Full inventory and a bugged menu prevent me from picking up key items in the Team Rocket Hideout.
-*   **Current Plan:** Intentionally take damage in a wild battle on Route 43, then use a Potion to free up an inventory slot. Once a slot is free, I will return to the hideout to collect the items.
+*   **Current Blocker:** Navigating the Team Rocket Hideout.
+*   **Current Plan:** Explore the central corridor of B1F, which was previously blocked by arrow tiles, to find the correct path to the western section of the lower floors.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL
