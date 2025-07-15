@@ -94,5 +94,38 @@
       ]
     },
     "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef explore():\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    traversable_tile_types = input_data['traversable_tiles'].split(',')\n\n    try:\n        root = ET.fromstring(map_xml_string)\n        map_width = int(root.get('width'))\n        map_height = int(root.get('height'))\n    except Exception as e:\n        print(f\"Error parsing map XML: {e}\")\n        return\n\n    unseen_tiles = set()\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            if tile.get('seen') == 'false':\n                unseen_tiles.add((int(tile.get('id')), int(row.get('id'))))\n\n    if not unseen_tiles:\n        print(\"FAIL: No unseen tiles on the map.\")\n        return\n\n    visited_clusters = set()\n    all_clusters = []\n    for tile in unseen_tiles:\n        if tile not in visited_clusters:\n            cluster = []\n            q = deque([tile])\n            visited_clusters.add(tile)\n            while q:\n                curr_tile = q.popleft()\n                cluster.append(curr_tile)\n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    neighbor = (curr_tile[0] + dx, curr_tile[1] + dy)\n                    if neighbor in unseen_tiles and neighbor not in visited_clusters:\n                        visited_clusters.add(neighbor)\n                        q.append(neighbor)\n            all_clusters.append(cluster)\n\n    if not all_clusters:\n        print(\"FAIL: Could not form clusters from unseen tiles.\")\n        return\n\n    largest_cluster = max(all_clusters, key=len)\n\n    start_pos = (start_x, start_y)\n    closest_tile = None\n    min_dist = float('inf')\n\n    for tile in largest_cluster:\n        dist = abs(tile[0] - start_pos[0]) + abs(tile[1] - start_pos[1])\n        if dist < min_dist:\n            min_dist = dist\n            closest_tile = tile\n\n    if closest_tile:\n        print(json.dumps({\"x\": closest_tile[0], \"y\": closest_tile[1]}))\n    else:\n        print(\"FAIL: Could not find the closest tile in the largest cluster.\")\n\nexplore()\n"
+  },
+  "maze_navigator": {
+    "description": "Suggests the next move in a maze using the right-hand rule. It needs the player's current position, facing direction, and a list of known impassable tiles (traps).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_x": {
+          "type": "string"
+        },
+        "current_y": {
+          "type": "string"
+        },
+        "facing": {
+          "type": "string",
+          "enum": [
+            "up",
+            "down",
+            "left",
+            "right"
+          ]
+        },
+        "impassable_tiles": {
+          "type": "string",
+          "description": "A JSON string of a list of coordinates, e.g., '[{\"x\": 1, \"y\": 2}]'"
+        }
+      },
+      "required": [
+        "current_x",
+        "current_y",
+        "facing"
+      ]
+    },
+    "python_script": "import json\n\ndef get_next_move():\n    x = int(input_data['current_x'])\n    y = int(input_data['current_y'])\n    facing = input_data['facing']\n    impassable_tiles_json = input_data.get('impassable_tiles', '[]')\n    impassable = set()\n    try:\n        impassable_list = json.loads(impassable_tiles_json)\n        for tile in impassable_list:\n            impassable.add((tile['x'], tile['y']))\n    except json.JSONDecodeError:\n        print('FAIL: Invalid JSON for impassable_tiles.')\n        return\n\n    # Order of preference for turning: Right, Straight, Left, Back\n    directions = {\n        'up':    [('right', (x + 1, y)), ('up', (x, y - 1)), ('left', (x - 1, y)), ('down', (x, y + 1))],\n        'down':  [('left', (x - 1, y)), ('down', (x, y + 1)), ('right', (x + 1, y)), ('up', (x, y - 1))],\n        'left':  [('up', (x, y - 1)), ('left', (x - 1, y)), ('down', (x, y + 1)), ('right', (x + 1, y))],\n        'right': [('down', (x, y + 1)), ('right', (x + 1, y)), ('up', (x, y - 1)), ('left', (x - 1, y))]\n    }\n\n    # Check tile to the right of current facing direction first\n    turn_right_dir, turn_right_coord = directions[facing][0]\n    if turn_right_coord not in impassable:\n        print(json.dumps({'action': 'turn_and_move', 'direction': turn_right_dir}))\n        return\n\n    # If right is blocked, try to go straight\n    go_straight_dir, go_straight_coord = directions[facing][1]\n    if go_straight_coord not in impassable:\n        print(json.dumps({'action': 'move', 'direction': go_straight_dir}))\n        return\n\n    # If straight is blocked, try to turn left\n    turn_left_dir, turn_left_coord = directions[facing][2]\n    if turn_left_coord not in impassable:\n        print(json.dumps({'action': 'turn_and_move', 'direction': turn_left_dir}))\n        return\n\n    # If all else is blocked, turn around\n    turn_around_dir, _ = directions[facing][3]\n    print(json.dumps({'action': 'turn_around', 'direction': turn_around_dir}))\n\nget_next_move()"
   }
 }
