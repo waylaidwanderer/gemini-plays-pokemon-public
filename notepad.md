@@ -36,9 +36,16 @@
 *   **H23 (Disproven):** Lance was not waiting in the mart or on B2F. **Result:** No sign of Lance in the explored areas of the hideout.
 *   **H24 (Disproven):** Speaking to Lance on B3F is impossible, as the western section where he would be is inaccessible from the eastern ladder. The pathfinder confirms there is no route.
 
+### Confirmed Facts & Discoveries
+*   **B2F Locked Door Interaction:** Interacting with the locked door at (14, 12) twice only yields the message "It needs a password to open." It does not prompt for input.
+
+### Current Hypothesis
+*   **H24 (Disproven):** Speaking to Lance on B3F is impossible, as the western section where he would be is inaccessible from the eastern ladder. The pathfinder confirms there is no route.
+*   **H25 (Active):** I must speak with Lance on B3F *after* learning both passwords to trigger the password prompt at the door on B2F.
+
 ### Future Plans & Strategy
-*   **Hideout Progression Plan:**
-    1.  Interact with the locked door on B2F at (14, 12).
-    2.  Use the passwords 'SLOWPOKETAIL' and 'RATICATE TAIL' when prompted.
-    3.  If successful, proceed through the door to find the boss's room.
-    4.  If unsuccessful, re-evaluate the password source or look for another trigger.
+*   **Hideout Progression Plan (v2):**
+    1.  **Test H25:** Travel to B3F via the ladder at (27, 14) and speak with Lance.
+    2.  Return to the locked door on B2F at (14, 12) and interact with it.
+    3.  If a password prompt appears, enter 'SLOWPOKETAIL' and 'RATICATE TAIL'.
+    4.  If no prompt appears, H25 is disproven. Re-evaluate and search for other triggers on B1F, B2F, or B3F.
