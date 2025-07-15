@@ -37,3 +37,4 @@
 *   **H16 (Active):** The path forward involves using the warp panel at (5, 15), as hinted by the scientist.
 *   **H16 (Disproven):** The path forward involves using the warp panel at (5, 15). **Result:** The warp panel leads to an isolated exit area, confirming the scientist's dialogue that it's a way back to the entrance, not a path forward.
 *   **H17 (Active):** Flipping the switch at (19, 11) on B1F opened a new path on B2F, likely into the central maze.
+*   **H18 (Active):** The password prompt is not triggered by the door itself, but by interacting with the two ROCKET grunts guarding the boss's room on B3F.
