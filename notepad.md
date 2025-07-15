@@ -40,24 +40,6 @@
 - **Conclusion:** The Secret Key is NOT in the Cinnabar Lab or Pokemon Mansion. Both locations are fully explored and are dead ends for this objective.
 - **New Plan:** Reach the Seafoam Islands to solve the water current puzzle. A sign mentioned boulders could alter the flow, and this is my only remaining significant unexplored puzzle.
 
-# IV. Route 19 Surfing Puzzle Log
-- **Objective:** Get onto the water on Route 19 to travel to Route 20 and then the Seafoam Islands.
-- **Hypothesis 1:** I can use SURF from the menu while standing on land adjacent to water.
-- **Test 1:** Attempted to use SURF from various shoreline tiles on Route 19 ((10, 7), (14, 12), (5,12)).
-- **Outcome 1:** All attempts failed with the message "No SURFing on NEPTUNE here!". Hypothesis denied.
-- **Hypothesis 2:** I can initiate SURF by walking directly into a water tile.
-- **Test 2:** Attempted to walk from (14, 12) to the water tile at (14, 13).
-- **Outcome 2:** Movement was blocked by the game. Hypothesis denied.
-- **Hypothesis 3:** The Summer Beach House at (6, 10) contains a trigger to enable surfing.
-- **Test 3:** Re-entered the Summer Beach House, bypassed the invisible wall, and confirmed no new interactions with the Fishing Guru or other objects.
-- Hypothesis 4: An unconventional item, like the BICYCLE, is required to traverse the water on this specific route.
-- Test 4: Attempted to use the BICYCLE on a land tile and ride it into the water.
-- Outcome 4: Player was able to ride the BICYCLE on land, but could not enter the water. Hypothesis denied.
-- Hypothesis 5: A hidden item on the Route 19 landmass is required to proceed.
-- Test 5: Used the ITEMFINDER from various locations on the accessible land strip.
-- Outcome 5: The ITEMFINDER did not detect any items. Hypothesis denied.
-- Conclusion: All attempts to enter the water on Route 19 have failed. This path is currently blocked. The trigger to proceed must be located elsewhere. Abandoning this route and returning to Fuchsia City to re-evaluate the overall strategy.
-
 # V. Archived Logs
 ## Pokemon Mansion Puzzle Log
 - **1F Switch (3, 6):** Controls east/west gates, alternates.
