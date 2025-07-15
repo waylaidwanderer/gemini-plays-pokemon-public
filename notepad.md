@@ -25,9 +25,13 @@
 - **Battle & Field Mechanics:** PSYWAVE/CONFUSE RAY can miss. Safari Zone has a time limit. Losing in a gym does not warp you out. FLY can end wild battles indoors but cannot be used to escape buildings. ROAR can end wild battles.
 
 # III. Current Objective & Puzzle Logs
-## A. Find the Secret Key to unlock the Cinnabar Gym
-- **Conclusion:** The Secret Key is NOT in the Cinnabar Lab or Pokemon Mansion. Both locations are fully explored and are dead ends for this objective.
-- **Current Plan:** The only remaining path is through the Seafoam Islands. The game data confirms a reachable warp at (49, 6) on Route 20, which leads into the western side of the cave system. My pathfinding tool's traversal logic for water-to-land movement was flawed, causing it to fail. The game data confirming a reachable warp was correct.
+## A. Find the Secret Key (Cinnabar Gym)
+- **Current Plan:** Navigate the Seafoam Islands. The path seems to involve a series of boulder puzzles.
+- **Seafoam Islands Puzzle Log:**
+  - **B1F Boulder Puzzle:** Solved. Dropped two boulders through holes on B1F and B2F.
+  - **B4F Water Current:** The boulders did NOT stop the strong water current at (21,17). The direct path south is blocked.
+  - **Current Situation:** I am currently in a seemingly isolated eastern section of the cave, looping between B2F, B3F, and B4F. My previous attempts to reach the western side of the cave from here have failed.
+  - **New Hypothesis:** I must have missed an exit or puzzle solution within this eastern section. My immediate goal is to re-explore this area, starting with B3F, to find the correct path forward.
 
 # IV. Archived Logs
 ## Pokemon Mansion Puzzle Log
