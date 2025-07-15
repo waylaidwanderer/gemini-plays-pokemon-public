@@ -19,20 +19,16 @@
 ### Menu Mechanics
 *   **Inventory Bug (Confirmed):** The inventory is permanently locked. 'TOSS', 'GIVE', 'USE' (in battle), and 'SELL' commands are all non-functional for freeing inventory space. No new items can be picked up.
 
-## III. Current Objective: Team Rocket Hideout
+## III. Team Rocket Hideout Puzzle
 
-### Team Rocket Hideout Puzzle
-*   **Current State:** I have thoroughly investigated the Mahogany Mart and concluded it is a red herring. The secret entrance is not triggered by any object or NPC within it, and the ladder leads to an isolated, dead-end section of the hideout.
-*   **Clue:** Lance revealed a secret entrance inside this building. I initially found it but got sidetracked by an invisible maze and a different ladder.
-*   **Primary Hypothesis:** The solution to progressing lies within the main section of the Team Rocket Hideout B1F, which I must now properly explore by entering through the main entrance that Lance revealed. I simply need to find that entrance again.
-
-### General Hypothesis Log
+### Hypothesis Log
 *   **H1-H7 (Disproven):** Various theories about hidden passages and alternate ladders in the hideout.
 *   **H8-H10 (Disproven):** Various theories about a hidden switch in the Mahogany Mart (blue tile, radio, ladder destination change).
 *   **H11 (Disproven):** The Pharmacist moves after being exposed. **Result:** He does not move.
 *   **H12 (Disproven):** The Incense Burner or Bookshelf become switches after key events. **Result:** No effect.
+*   **H13 (Active):** There is a secret passage in the wall at Y=12 on B2F, as the northern area is otherwise inaccessible. Tests so far (walking into wall, pressing 'A') have failed.
 
 ## IV. Tool Status
 *   **Trap Discovered:** Stepping on tile (2, 7) in Team Rocket Hideout B1F (Map ID 3_49) triggers a warp to a corrupted glitch map.
 *   **Warp Panel Mechanics:** The warp panel at (5, 15) on B1F is a one-way teleporter to (25, 2). The tile at (25, 2) is only an arrival point.
-*   **Team Rocket Hideout B3F Layout:** Confirmed that B3F is split into two disconnected sections. The eastern section (accessed from the B2F ladder at (27, 14)) is separate from the western section containing the boss's door. Hypothesis: The western section must be accessed via the other ladder on B2F at (3, 14).
+*   **Team Rocket Hideout B3F Layout:** Confirmed that B3F is split into two disconnected sections. The eastern section (accessed from the B2F ladder at (27, 14)) is separate from the western section containing the boss's door. The western section must be accessed via the other ladder on B2F at (3, 14).
