@@ -21,21 +21,24 @@
 
 ## III. Current Objective: Team Rocket Hideout
 
-### B2F/B3F Puzzle
-*   **Current State:** I am on B1F at the start of the invisible maze. B2F (south) and B3F (east) are confirmed dead ends.
-*   **Current Hypothesis:** The way forward is a hidden path in the invisible maze on B1F that I missed previously.
+### Mahogany Town Puzzle
+*   **Current State:** I am in the isolated eastern section of the Team Rocket Hideout B1F.
+*   **Clue:** A Pharmacist in the Mahogany Mart said "Arrgh… You found the secret stairway…" after I exposed him as a Rocket.
+*   **Current Hypothesis:** The Pharmacist NPC himself moved or disappeared after his dialogue, revealing the true entrance. I need to return to the mart to test this.
+*   **Alternative Hypothesis:** The entrance is not in the mart at all, and the event was a misdirection. The real path forward may be elsewhere in Mahogany Town, possibly past an NPC who was previously blocking a route.
 
 ### General Hypothesis Log
-*   **H1 (Disproven):** A hidden passage exists in the wall on B2F at Y=12. **Test:** Systematically interacted with every wall tile from (8, 12) to (3, 12). **Result:** No passage found. All tiles were solid walls.
-*   **H2 (Disproven):** An alternate ladder on B1F leads to the northern section of B2F. **Test:** All ladders on B1F have been explored. All lead to disconnected or previously explored sections.
-*   **H3 (Disproven):** Stunning Scientist Jed allows passage. **Test:** Used stun_npc on Jed at (18, 12) but could not walk through his tile.
-*   **H4 (Disproven):** Intentionally triggering the security cameras will unlock a new path. **Test:** Systematically moved in front of multiple security cameras ((8, 15), (22, 15), (24, 5)). **Result:** No event was triggered.
-*   **H5 (Disproven):** The "arrow tile puzzle" does not exist. The tiles are impassable WALLs. My analysis was based on a hallucination.
-*   **H6 (Disproven):** The ROCKET at (2, 4) on B1F triggers a glitch. **Test:** Interacted with the ROCKET. **Result:** Triggered a scripted event with dialogue confirming an invisible trap maze. The warp was part of the script.
-*   **H7 (Confirmed):** There is an invisible maze of floor traps on B1F. I successfully navigated it to reach the switch at (19, 11).
-*   **H8 (Disproven):** The locked door at (14, 12) on B2F requires a password from Lance on B3F. **Test:** Explored the eastern section of B3F. **Result:** Found no sign of Lance or a path to the western section. The eastern part of B3F is a dead end.
+*   **H1 (Disproven):** A hidden passage exists in the wall on B2F. **Result:** No passage found.
+*   **H2 (Disproven):** An alternate ladder on B1F leads to a new section. **Result:** All ladders explored led to known areas.
+*   **H3 (Disproven):** Stunning Scientist Jed allows passage. **Result:** Could not walk through stunned NPC.
+*   **H4 (Disproven):** Triggering security cameras unlocks a path. **Result:** No event triggered.
+*   **H5 (Disproven):** Arrow tiles are a puzzle. **Result:** They are impassable WALLs.
+*   **H6 (Confirmed):** There is an invisible maze on B1F. I successfully navigated it.
+*   **H7 (Disproven):** The locked door on B2F requires a password from Lance on B3F. **Result:** B3F is a dead end.
+*   **H8 (Disproven):** The secret entrance is a hidden switch on the blue tile at (1, 2) in the mart. **Result:** Interaction and movement tests failed.
+*   **H9 (Disproven):** The Radio at (0, 1) in the mart is the switch. **Result:** Interaction opened the Pokédex.
+*   **H10 (Disproven):** The ladder at (7, 3) in the mart changes its destination after the Pharmacist dialogue. **Result:** It still leads to the isolated B1F area.
 
 ## IV. Tool Status
-*   **reliable_pathfinder:** This tool had a bug where it would path through `WARP_PANEL` tiles, causing accidental teleportation. I have implemented a fix to treat `WARP_PANEL` as impassable.
-*   **Trap Discovered:** Stepping on tile (2, 7) in Team Rocket Hideout B1F (Map ID 3_49) triggers a warp to a corrupted glitch map. This is a trap, not a path forward.
-*   **Warp Panel Mechanics:** The warp panel at (5, 15) is a one-way teleporter to (25, 2). The tile at (25, 2) is only an arrival point and not a return warp.
+*   **Trap Discovered:** Stepping on tile (2, 7) in Team Rocket Hideout B1F (Map ID 3_49) triggers a warp to a corrupted glitch map.
+*   **Warp Panel Mechanics:** The warp panel at (5, 15) is a one-way teleporter to (25, 2). The tile at (25, 2) is only an arrival point.
