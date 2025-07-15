@@ -33,13 +33,10 @@
 *   **Passwords Found:** The two passwords are 'SLOWPOKETAIL' and 'RATICATE TAIL'.
 
 ### Hypotheses Log
-*   **H27 (Disproven):** Interacting with Scientist Jed at (18, 12) after collecting the passwords does not trigger a new event. He only repeats his dialogue about the warp panel at (5, 15).
-*   **H28 (Disproven):** Interacting with the switch at (19, 11) a second time does not trigger a new event. It only turns the arrow tiles off.
-*   **H29 (Active):** Lance is waiting on B2F. I must find him and he will help open the locked door at (14, 12).
+*   **H32 (Active):** Activating the arrow tiles on B1F will create a new path on B2F, leading to the Team Rocket Executive who must be defeated or spoken to in order to open the locked door at (14, 12).
 
 ### Future Plans & Strategy
-*   **Hideout Progression Plan (v4):**
-    1.  Return to B2F via the ladder at (3, 14).
-    2.  Locate Lance, who was last seen at (5, 13) on B2F.
-    3.  Interact with Lance to see if he triggers the event to open the locked door at (14, 12).
-*   **H32 (Active):** Activating the arrow tiles on B1F will create a new path on B2F, leading to the Team Rocket Executive who must be defeated or spoken to in order to open the locked door at (14, 12).
+*   **Hideout Progression Plan (v5):**
+    1.  Return to B1F via the ladder at (3, 14).
+    2.  Go to the switch at (19, 11) and turn it ON.
+    3.  Return to B2F and investigate the arrow tile maze to find a new path.
