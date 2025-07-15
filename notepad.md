@@ -39,3 +39,6 @@
   - **Test (Turn 76098):** Attempted to move left from (21, 16) onto (20, 16). Movement was blocked.
   - **Conclusion:** Hypothesis 3 is FALSE. The wall is real.
   - **Hypothesis 5:** The 'reachable' status of the western tiles is due to the strong water current. Surfing *with* the current at (21, 17) will transport me to the western section of the map.
+  - **Test (Turn 76099):** Moved into the current at (21, 17). The game moved the player to (21, 17) and then immediately back to (21, 16).
+  - **Conclusion:** Hypothesis 5 is FALSE. The current is a hard barrier in both directions.
+  - **New Plan:** The western section of the map is reachable by surfing north and then west, circumnavigating the central landmass. The next step is to explore this western area to uncover the 15 unseen tiles.
