@@ -7,21 +7,19 @@
 ## A. Tile Mechanics & Traversal
 - `ground`: Standard walkable tile.
 - `impassable`: Walls, furniture, etc. Cannot be walked on.
-- `elevated_ground`: Walkable ground at a different elevation, often connected by `steps`.
+- `elevated_ground`: Walkable ground at a different elevation. Traversal to/from `ground` requires `steps`.
 - `steps`: Allows vertical movement between `ground` and `elevated_ground`.
 - `grass`: Tall grass where wild Pokémon appear.
 - `ledge`: One-way traversal, can be jumped down but not up.
-- `water`: Requires SURF to traverse. A `water` tile can also be a `warp` tile.
+- `water`: Requires SURF to traverse.
 - `cuttable`: A tree that can be cut with HM01 Cut.
 - `hole`: A tile that causes the player to fall to the floor below.
 - `spinner_up/down/left/right`: Forces movement in a specific direction.
-- `ladder_up`/`ladder_down`: Warps that function as ladders between floors.
-- `gate_offscreen`: A gate not currently on screen. Its state is unknown and treated as potentially open for pathfinding. Upon entering the screen, its state can be revealed as `open_gate` or `closed_gate`.
+- `ladder_up`/`ladder_down`: Warps that function as ladders between floors. Can connect different tile types (e.g., `elevated_ground` to `ground`).
+- `gate_offscreen`: A gate not currently on screen. Its state is unknown and treated as potentially open for pathfinding.
 - `closed_gate`: A gate that is visibly closed and acts as an impassable wall.
 - `open_gate`: A gate that is visibly open and acts as ground.
-- `Switch Interaction`: Switches can appear on impassable tiles. They must be interacted with by standing on an adjacent tile (usually below) and facing the switch.
 - `secret_passage`: Certain `impassable` wall tiles can be walked through. These are not visually distinct.
-- `2x1 Warp Tiles`: Larger warps (like exit mats) may require moving onto the tile and then pressing in the direction of the impassable boundary to activate. However, some may be standard step-on warps, requiring testing.
 
 ## B. Confirmed ROM Hack Changes
 ### B1. Type Matchups & Immunities
