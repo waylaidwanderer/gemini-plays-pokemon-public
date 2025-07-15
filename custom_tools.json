@@ -107,7 +107,7 @@
     "python_script": "import json\n\ntry:\n    inventory_list = json.loads(input_data['inventory_list'])\n    target_item = input_data['target_item']\n    found = False\n    for item in inventory_list:\n        if target_item.lower() in item.lower():\n            found = True\n            break\n    print(f'Item found: {found}')\nexcept Exception as e:\n    print(f'An error occurred: {e}')"
   },
   "menu_navigator": {
-    "description": "Calculates the optimal number of button presses (Up/Down) to navigate from a current selection to a target item in a list-based menu, like the Fly menu or inventory.",
+    "description": "Calculates the optimal number of button presses (Up/Down) to navigate from a current selection to a target item in a list-based menu. This version correctly handles non-wrapping menus.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -130,6 +130,6 @@
         "target_item"
       ]
     },
-    "python_script": "import json\n\ndef get_presses(menu_items_str, current_selection, target_item):\n    try:\n        menu_items = json.loads(menu_items_str)\n        current_idx = menu_items.index(current_selection)\n        target_idx = menu_items.index(target_item)\n    except (ValueError, json.JSONDecodeError) as e:\n        return {'error': str(e)}\n\n    n = len(menu_items)\n    down_presses = (target_idx - current_idx + n) % n\n    up_presses = (current_idx - target_idx + n) % n\n\n    if down_presses <= up_presses:\n        return {'direction': 'Down', 'presses': down_presses}\n    else:\n        return {'direction': 'Up', 'presses': up_presses}\n\nresult = get_presses(input_data['menu_items'], input_data['current_selection'], input_data['target_item'])\nprint(json.dumps(result))"
+    "python_script": "import json\n\ndef get_presses(menu_items, current_selection, target_item):\n    try:\n        current_idx = menu_items.index(current_selection)\n        target_idx = menu_items.index(target_item)\n    except ValueError:\n        return {'error': 'Item not found in menu list.'}\n\n    # Logic for non-wrapping menu\n    if target_idx > current_idx:\n        return {'direction': 'Down', 'presses': target_idx - current_idx}\n    elif target_idx < current_idx:\n        return {'direction': 'Up', 'presses': current_idx - target_idx}\n    else:\n        return {'direction': 'None', 'presses': 0}\n\n# Main execution\ntry:\n    menu_items_list = json.loads(input_data['menu_items'])\n    result = get_presses(menu_items_list, input_data['current_selection'], input_data['target_item'])\n    print(json.dumps(result))\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))"
   }
 }
