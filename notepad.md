@@ -40,12 +40,11 @@
 *   **B2F Locked Door Interaction:** Interacting with the locked door at (14, 12) twice only yields the message "It needs a password to open." It does not prompt for input.
 
 ### Current Hypothesis
-*   **H24 (Disproven):** Speaking to Lance on B3F is impossible, as the western section where he would be is inaccessible from the eastern ladder. The pathfinder confirms there is no route.
-*   **H25 (Active):** I must speak with Lance on B3F *after* learning both passwords to trigger the password prompt at the door on B2F.
+*   **H25 (Disproven):** Speaking to Lance on B3F after learning the passwords does not trigger the door prompt, as he is in an inaccessible part of the floor.
+*   **H26 (Active):** There is a hidden switch or trigger on B1F or B2F that must be activated to open the locked door at (14, 12).
 
 ### Future Plans & Strategy
-*   **Hideout Progression Plan (v2):**
-    1.  **Test H25:** Travel to B3F via the ladder at (27, 14) and speak with Lance.
-    2.  Return to the locked door on B2F at (14, 12) and interact with it.
-    3.  If a password prompt appears, enter 'SLOWPOKETAIL' and 'RATICATE TAIL'.
-    4.  If no prompt appears, H25 is disproven. Re-evaluate and search for other triggers on B1F, B2F, or B3F.
+*   **Hideout Progression Plan (v3):**
+    1.  Return to B2F and systematically re-explore the entire floor for any missed interactive elements or hidden paths.
+    2.  If nothing is found on B2F, proceed to B1F and conduct a similar thorough search.
+    3.  Once the trigger is found, return to the locked door on B2F at (14, 12) and attempt to open it again.
