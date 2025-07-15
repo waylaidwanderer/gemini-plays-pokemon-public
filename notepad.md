@@ -36,7 +36,8 @@
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
 
 # III. Current Objective: Find the Secret Key to unlock the Cinnabar Gym
-- **Conclusion:** The Secret Key is not in the Cinnabar Lab's Fossil Room. I have spoken to all scientists here. My new plan is to complete the Dewgong trade, as it is my only remaining lead on Cinnabar Island.
+- **Conclusion:** The Secret Key is NOT in the Cinnabar Lab. I have spoken to every NPC in all rooms. This location is a dead end. 
+- **New Plan:** Return to the Seafoam Islands to solve the water current puzzle. A sign mentioned boulders could alter the flow, and this is my only remaining significant unexplored puzzle.
 
 # IV. Archived Logs
 ## Pokemon Mansion Puzzle Log
