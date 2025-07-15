@@ -83,10 +83,10 @@
 ## III. Current Investigation: Team Rocket Hideout
 
 *   **Objective:** Find the Team Rocket Boss and disable the radio signal.
-*   **Current Location:** Team Rocket Hideout, Floor B2F.
-*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The ladder at (27, 2) on B1F is a one-way exit to the Mahogany Mart. Picking up an item with a full bag causes a dialogue loop. Defeated NPC sprites can block paths. The eastern and western halves of B3F are disconnected. The eastern section of B2F is a dead end.
-*   **Current Hypothesis:** The western area of B2F is a maze that must be navigated to reach an interactive element (computer or Voltorb) that will open the path to the boss's room on B3F.
-*   **Alternative Hypothesis:** The solution requires an interaction outside the maze. Perhaps an NPC like Lance must be spoken to again, or a previously defeated grunt holds a key.
+*   **Current Location:** Team Rocket Hideout, Floor B1F.
+*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The arrow tile puzzle on B1F can be disabled by a secret switch at (19, 11). The eastern and western sections of B2F and B3F are disconnected.
+*   **Current Hypothesis:** The trigger for progression is outside the hideout. I need to find Lance in Mahogany Town or at the Lake of Rage.
+*   **Alternative Hypothesis:** I missed a critical item or interaction within the hideout. I will collect all previously inaccessible items before leaving.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
