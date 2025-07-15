@@ -99,3 +99,4 @@
 
 ### Menu Mechanics
 *   **Item Tossing Sequence:** To discard an item, select it from the PACK, press A, then move the cursor down twice to select 'TOSS' and press A again. Finally, confirm the quantity to discard.
+*   **Inventory Bug:** The 'TOSS' and 'GIVE' commands in the PACK menu are non-functional. They trigger a menu reset. The only known way to free an inventory slot is to *use* an item in battle.
