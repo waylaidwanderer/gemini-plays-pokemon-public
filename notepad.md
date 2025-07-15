@@ -30,9 +30,7 @@
     *   **H5 (Disproven):** The "arrow tile puzzle" does not exist. The tiles are impassable WALLs. My analysis was based on a hallucination.
     *   **H6 (Disproven):** The ROCKET at (2, 4) triggers a glitch warp. **Test:** Interacted with the ROCKET. **Result:** Triggered a scripted event with dialogue confirming an invisible trap maze. The warp was part of the script, not a glitch.
 *   **H7 (Current):** There is an invisible maze of floor traps. I must navigate it to reach the switch at (19, 11). Evidence is the ROCKET's dialogue.
-*   **Passwords:**
-    *   Password 1: SLOWPOKETAIL
-    *   Password 2: RATICATE TAIL
+*   **Passwords:** None known.
 
 ## IV. Tool Status
 *   **reliable_pathfinder:** This tool had a bug where it would path through `WARP_PANEL` tiles, causing accidental teleportation. I have implemented a fix to treat `WARP_PANEL` as impassable.
