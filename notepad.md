@@ -84,7 +84,7 @@
 
 *   **Objective:** Find the Team Rocket Boss and disable the radio signal.
 *   **Current Location:** Team Rocket Hideout, Floor B3F.
-*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The ladder at (27, 2) on B1F is a one-way exit to the Mahogany Mart. Picking up an item with a full bag causes a dialogue loop.
+*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The ladder at (27, 2) on B1F is a one-way exit to the Mahogany Mart. Picking up an item with a full bag causes a dialogue loop. Defeated NPC sprites can block paths.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
