@@ -34,4 +34,5 @@
 
 ### Current Hypothesis
 *   **H20:** The correct path to the western section of the hideout must originate from a different, undiscovered route on B1F or B2F.
-*   **H22 (Active):** The password prompt for the B2F door is not triggered by the door itself. I must first interact with the transmitter machine located in the room north of the door (around coordinates 12,9 to 17,9). After interacting with the transmitter, the door will then accept the passwords.
+*   **H22 (Blocked):** The password prompt for the B2F door might be triggered by the transmitter, but the path to the transmitter room is blocked by a wall at (6, 16). This path is inaccessible.
+*   **H23 (Active):** The trigger for the B2F door requires interacting with another character, most likely Lance. He was last seen at the hideout entrance in the Mahogany Mart. I must return there to see if he has new dialogue.
