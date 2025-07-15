@@ -45,10 +45,10 @@
 - **New Plan:** Solve the Seafoam Islands boulder puzzle. A sign on B4F stated, "Boulders might change the flow of water!".
 
 ## B. Seafoam Islands Puzzle Log
-- **Current Location:** Seafoam Islands B1F (Western Section)
-- **Current Objective:** Explore the western side of the islands to find the remaining boulders and holes needed to alter the water currents.
-- **Observation:** I have successfully navigated to the western side of the Seafoam Islands after determining that Route 20 is split into two non-contiguous sections. My pathfinder tool has been fixed to handle elevation and surfing correctly.
-- **Next Step:** Navigate to the boulder at (15, 12) to see if it can be pushed into a nearby hole.
+- **Current Location:** Seafoam Islands B3F
+- **Current Objective:** Find a path to the main area of B3F to manipulate the boulders and alter the water currents.
+- **Observation:** I am on an isolated platform on the western side of B3F. The only way forward is to return to B2F and find another route down.
+- **Next Step:** Ascend the ladder at (6, 13) to return to B2F.
 
 # V. Archived Logs
 ## Pokemon Mansion Puzzle Log
