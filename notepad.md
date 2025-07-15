@@ -103,3 +103,5 @@
 
 ## VI. Future Strategy Notes
 *   For complex sequential puzzles, I should consider defining a `sequential_puzzle_solver` agent to avoid manual error and increase efficiency.
+### Team Rocket Hideout Navigation Notes
+* The ladder at (27, 2) on B1F is a one-way exit to the Mahogany Mart.
