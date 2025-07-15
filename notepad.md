@@ -2,6 +2,7 @@
 - **Trust the Data:** I must trust my verified conclusions documented in the notepad and the output of my tools/agents over my own perception. My failure to trust my conclusion that the western Seafoam Islands was a dead end led to a significant waste of time.
 - **Immediate Maintenance is Mandatory:** I must perform maintenance (notepad, agents) and fix tools *immediately*. Deferring these actions is a critical process failure for an LLM.
 - **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
+- **Falsify Your Beliefs:** To avoid confirmation bias, I must actively try to disprove my own conclusions with alternative tests after an initial hypothesis is confirmed.
 
 # II. Game Mechanics & Battle Intel
 ## A. Tile Mechanics & Traversal
@@ -38,12 +39,7 @@
 # III. Current Objective & Puzzle Logs
 ## A. Find the Secret Key to unlock the Cinnabar Gym
 - **Conclusion:** The Secret Key is NOT in the Cinnabar Lab or Pokemon Mansion. Both locations are fully explored and are dead ends for this objective.
-- **Current Plan:** Solve the Seafoam Islands boulder puzzle, as a sign on B4F stated, "Boulders might change the flow of water!".
-
-## B. Seafoam Islands Puzzle Log
-- **Current Location:** Cinnabar Island, preparing to re-enter the western Seafoam Islands cave.
-- **Failed Hypothesis:** The eastern entrance to Seafoam Islands, accessed via Route 19, was the correct path. This was proven false as the eastern water channel on Route 20 is a dead end, completely blocked by impassable rock formations.
-- **Critical Correction:** My previous analysis was flawed. While it's true I cannot surf *around* the Seafoam Islands, the system has confirmed I am NOT in a dead end. There is a reachable warp at (49, 6) on the western side of the island mass that provides a path forward. The eastern cave entrance at (59, 10) is not the correct path from this side. I must navigate to the western cave entrance.
+- **Current Plan:** The only remaining path is through the Seafoam Islands. The game data confirms a reachable warp at (49, 6) on Route 20, which leads into the western side of the cave system. My pathfinding tool was bugged, leading to incorrect conclusions about the area being a dead end.
 
 # IV. Archived Logs
 ## Pokemon Mansion Puzzle Log
@@ -60,4 +56,3 @@
 ## C. Confirmation Bias & The Route 20 Fiasco
 - **Critical Failure:** I hallucinated that Route 20 was split into two impassable sections. I saw a rock wall and concluded it was a total barrier, leading to a massive, time-wasting detour back and forth between Cinnabar and Fuchsia City.
 - **Core Lesson:** I MUST trust the game data (i.e., the system warnings that the area was not a dead end) over my own flawed perception. When the system flags an error in my reasoning, I must immediately halt my current plan and re-evaluate my assumptions from the ground up.
-- **Corrected Plan:** The eastern and western sea channels of Route 20 are connected. The previous conclusion of a dead end was based on a flawed assumption. I will now systematically surf west from the eastern entrance (from Route 19) to find the navigable path around the central rock formation.
