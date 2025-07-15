@@ -69,4 +69,4 @@
 
 # VII. Core Lessons Learned
 - **Trust the Data Over Perception:** My pathfinder tool was NOT broken. I failed to correctly perceive impassable walls on the map, leading me to believe the tool was generating incorrect paths. The tool correctly navigated around obstacles I missed. I must trust the ground-truth data from the map XML over my own visual assessment.
-- **Seafoam Islands Puzzle Log (Update):** The western path via B1F (ladders at B2F (14,8) and (6,4)) is an isolated loop and a dead end for the main puzzle. The solution must be on the eastern side of the islands.
+- **Seafoam Islands Puzzle Log (Update):** The western entrance and all its interconnected paths on B1F, B2F, and B3F are an isolated loop and a dead end for the main puzzle. The solution must be on the eastern side of the islands.
