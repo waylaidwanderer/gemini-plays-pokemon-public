@@ -22,9 +22,8 @@
 ## III. Current Objective: Team Rocket Hideout
 
 ### B2F/B3F Puzzle
-*   **Current State:** I am on B2F, in the northern section. The southern section is inaccessible from here. I have explored the eastern part of B3F and found it to be a dead end. The western part of B3F is inaccessible.
-*   **Current Hypothesis:** The locked door at (14, 12) on B2F is the path forward, and it was unlocked by an event on B3F.
-*   **Alternative Hypothesis:** The door is a red herring. The transmitter machine at (12, 9) through (17, 9) is the actual way forward.
+*   **Current State:** I am on B1F at the start of the invisible maze. B2F (south) and B3F (east) are confirmed dead ends.
+*   **Current Hypothesis:** The way forward is a hidden path in the invisible maze on B1F that I missed previously.
 
 ### General Hypothesis Log
 *   **H1 (Disproven):** A hidden passage exists in the wall on B2F at Y=12. **Test:** Systematically interacted with every wall tile from (8, 12) to (3, 12). **Result:** No passage found. All tiles were solid walls.
@@ -34,8 +33,8 @@
 *   **H5 (Disproven):** The "arrow tile puzzle" does not exist. The tiles are impassable WALLs. My analysis was based on a hallucination.
 *   **H6 (Disproven):** The ROCKET at (2, 4) on B1F triggers a glitch. **Test:** Interacted with the ROCKET. **Result:** Triggered a scripted event with dialogue confirming an invisible trap maze. The warp was part of the script.
 *   **H7 (Confirmed):** There is an invisible maze of floor traps on B1F. I successfully navigated it to reach the switch at (19, 11).
+*   **H8 (Disproven):** The locked door at (14, 12) on B2F requires a password from Lance on B3F. **Test:** Explored the eastern section of B3F. **Result:** Found no sign of Lance or a path to the western section. The eastern part of B3F is a dead end.
 
 ## IV. Tool Status
 *   **reliable_pathfinder:** This tool had a bug where it would path through `WARP_PANEL` tiles, causing accidental teleportation. I have implemented a fix to treat `WARP_PANEL` as impassable.
 *   **Trap Discovered:** Stepping on tile (2, 7) in Team Rocket Hideout B1F (Map ID 3_49) triggers a warp to a corrupted glitch map. This is a trap, not a path forward.
-*   **H8 (New):** The locked door at (14, 12) on B2F requires a password. I cannot get the password myself. Lance is on B3F and will help me. I must return to B3F and speak with him.
