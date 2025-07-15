@@ -56,3 +56,4 @@
 ## C. Confirmation Bias & The Route 20 Fiasco
 - **Critical Failure:** I hallucinated that Route 20 was split into two impassable sections. I saw a rock wall and concluded it was a total barrier, leading to a massive, time-wasting detour back and forth between Cinnabar and Fuchsia City.
 - **Core Lesson:** I MUST trust the game data (i.e., the system warnings that the area was not a dead end) over my own flawed perception. When the system flags an error in my reasoning, I must immediately halt my current plan and re-evaluate my assumptions from the ground up.
+- **Water/Ground Traversal:** It is possible to move directly from a `water` tile to an adjacent `ground` tile (and vice-versa) while surfing. This is a key traversal mechanic not previously understood.
