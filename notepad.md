@@ -101,3 +101,4 @@
 *   **Hypothesis:** The second password for the Team Rocket hideout is located on B3F.
 *   **Alternative Hypothesis:** The password is held by an NPC I've already encountered, or is in a previously explored area.
 *   **Test:** If B3F yields no password, I will systematically re-explore the entire hideout, talking to every NPC again.
+*   **Password 2:** RATICATE TAIL (from Rocket Grunt on B3F)
