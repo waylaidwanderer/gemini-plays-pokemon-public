@@ -81,7 +81,7 @@
 *   `PERSIAN_STATUE_R`
 
 ### Menu Mechanics
-*   **Inventory Bug:** The 'TOSS' and 'GIVE' commands in the PACK menu are non-functional. They trigger a menu reset without performing the action. The only known way to free an inventory slot is to *use* an item in battle on a Pokémon that can be affected by it (e.g., using a Potion on a damaged Pokémon).
+*   **Inventory Bug:** The 'TOSS', 'GIVE', and 'USE' (in battle) commands are all non-functional for freeing inventory space. They trigger a menu reset or fail without consuming the item. The only remaining hypothesis is that selling an item at a Poké Mart might work.
 
 ## III. Current Objective: Un-stick Inventory & Progress
 
