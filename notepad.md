@@ -26,6 +26,7 @@
 *   `BUOY`
 *   `CHAIR`
 *   `CHIMNEY`
+*   `COMPUTER`
 *   `COUNTER`
 *   `FENCE`
 *   `FLOWER`
@@ -34,6 +35,8 @@
 *   `LINK_RECEPTIONIST`
 *   `MART_SHELF`
 *   `PC`
+*   `PERSIAN_STATUE_L`
+*   `PERSIAN_STATUE_R`
 *   `PILLAR`
 *   `PRINTER`
 *   `RADIO`
@@ -60,7 +63,7 @@
 *   `LADDER`
 *   `STAIRCASE`
 *   `WARP_CARPET_DOWN` (Requires 'Down' to activate)
-*   `WARP_PANEL` (One-way teleporter)
+*   `WARP_PANEL` (One-way teleporter, now treated as impassable by pathfinder)
 
 #### Conditional / One-Way
 *   `BREAKABLE_ROCK` (Requires Rock Smash)
@@ -77,11 +80,6 @@
 *   `ARROW_TILE_LEFT` (Acts as a normal `FLOOR` tile)
 *   `ARROW_TILE_RIGHT` (Acts as a normal `FLOOR` tile)
 
-#### Untested
-*   `COMPUTER`
-*   `PERSIAN_STATUE_L`
-*   `PERSIAN_STATUE_R`
-
 ### Menu Mechanics
 *   **Inventory Bug (Confirmed):** The inventory is permanently locked. 'TOSS', 'GIVE', 'USE' (in battle), and 'SELL' commands are all non-functional for freeing inventory space. No new items can be picked up.
 
@@ -89,7 +87,7 @@
 
 *   **Primary Objective:** Find the Team Rocket Boss and disable the radio signal.
 *   **Current Blocker:** Navigating the Team Rocket Hideout.
-*   **Current Plan:** All previously explored paths (eastern and western ladders on B1F) have led to dead ends. My previous assumption that the central arrow tiles were disabled was unverified and likely false. My hypothesis that the arrow tiles would force movement was incorrect. Stepping on them simply moves me one tile. This area is a standard maze, likely with hidden floor traps. I will now carefully explore this central path.
+*   **Current Plan:** The eastern corridors on B1F and B2F have been confirmed as dead ends. My current hypothesis is that the path forward is through the western maze on B2F. I must explore this area thoroughly.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL
@@ -99,4 +97,4 @@
 *   **reliable_pathfinder:** This tool had a bug where it would path through `WARP_PANEL` tiles, causing accidental teleportation. I have implemented a fix to treat `WARP_PANEL` as impassable.
 
 ## V. Contingency Plans
-*   **Team Rocket Hideout B1F:** If the current eastern corridor proves to be a dead end, the next step is to test the hypothesis that the switch at (19, 11) affected other floors. I must return to the ladder at (3, 14) and re-explore B2F to verify if it is still a dead end.
+*   **Team Rocket Hideout B2F:** If the western maze on B2F proves to be a dead end, my alternative hypothesis is that I missed an interaction on B1F or B3F that changes the layout. I will need to return to those floors and re-interact with everything.
