@@ -96,3 +96,8 @@
 
 ### Verified Type Interactions
 *   **Water (Surf) vs. Gyarados (Water/Flying):** Observed as "not very effective". This contradicts standard type charts. Need to investigate further.
+
+## Reflection & Strategy (Turn 44696)
+*   **Hypothesis:** The way forward on B3F is blocked by a switch/event on B2F.
+*   **Alternative Hypothesis:** Progress requires interacting with the computer terminals on B2F, or defeating all Voltorb sprites on the floor.
+*   **Plan:** Fully explore B2F. If no switch is found, test alternative hypotheses. I created a new tool, `find_next_exploration_target`, to make this exploration more systematic.
