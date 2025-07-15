@@ -71,11 +71,13 @@
 *   `LEDGE_HOP_LEFT`
 *   `PIT` (One-way down)
 
+#### Standard Floor Tiles (Special Appearance)
+*   `ARROW_TILE_UP` (Acts as a normal `FLOOR` tile)
+*   `ARROW_TILE_DOWN` (Acts as a normal `FLOOR` tile)
+*   `ARROW_TILE_LEFT` (Acts as a normal `FLOOR` tile)
+*   `ARROW_TILE_RIGHT` (Acts as a normal `FLOOR` tile)
+
 #### Untested
-*   `ARROW_TILE_UP`
-*   `ARROW_TILE_DOWN`
-*   `ARROW_TILE_LEFT`
-*   `ARROW_TILE_RIGHT`
 *   `COMPUTER`
 *   `PERSIAN_STATUE_L`
 *   `PERSIAN_STATUE_R`
