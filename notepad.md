@@ -50,9 +50,14 @@
     - **Outcome:** The gate at (8, 23) is now OPEN.
     - **Conclusion:** The agent's first hypothesis was correct. The gate opened.
 
-**Hypothesis 2 (Current):** The path beyond the open gate is still blocked. The impassable wall at (15, 23) might be a secret passage that is only active in this specific switch configuration.
-    - **Test:** Navigate to the wall at (15, 23) and attempt to walk through it.
-    - **Expected Outcome:** The wall will now be passable.
+**Hypothesis 2 (FAILED):** The impassable wall at (15, 23) is a secret passage.
+    - **Test:** Navigated to (14, 23) and attempted to walk right into (15, 23).
+    - **Outcome:** Movement was blocked. The wall is solid.
+    - **Conclusion:** The hypothesis is false. The wall is not a secret passage in this configuration.
+
+**Hypothesis 3 (Current):** The path forward involves falling through a hole from 3F into the eastern, hole-filled section of 2F.
+    - **Test:** Return to 3F via the warp at (8, 11) on 2F and search for a new hole to fall through.
+    - **Expected Outcome:** Find a hole on 3F that drops me into the area east of the impassable wall on 2F.
 
 # V. Mansion Diaries
 - **Diary 1 (2F):** "July 5. Guyana, South America. A new POKéMON was discovered deep in the jungle."
