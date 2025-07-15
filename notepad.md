@@ -37,7 +37,7 @@
 
 # III. Current Objective: Find the Secret Key to unlock the Cinnabar Gym
 - **Conclusion:** The Secret Key is NOT in the Pokemon Mansion. I have explored every floor (1F, 2F, 3F, B1F), toggled all switches in various combinations, and used the ITEMFINDER in the final accessible area. All paths have led to dead ends or previously explored areas.
-- **Current Plan:** Exit the Pokemon Mansion and re-evaluate my search for the key on Cinnabar Island.
+- **Current Plan:** Systematically search the Cinnabar Lab, room by room, based on the 'scientists' clue from the Old Man. The Pokemon Mansion has been fully explored and is a dead end for the key.
 
 # IV. Archived Logs
 ## Pokemon Mansion Puzzle Log
