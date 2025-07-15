@@ -69,3 +69,5 @@
 - **Diary 2 (2F):** "July 10. We christened the newly discovered POKéMON, MEW."
 - **Diary 3 (3F):** "Feb 6. MEWTWO is far too powerful. We have failed to curb its vicious tendencies..."
 - **Diary 4 (B1F):** "Sep 1. MEWTWO escaped! We are closing the mansion... for good."
+## Route 19 Surfing Puzzle Log (Archived)
+- **Conclusion:** All attempts to enter the water on Route 19 have failed. This path was blocked. The trigger to proceed was to use Fly to leave the area.
