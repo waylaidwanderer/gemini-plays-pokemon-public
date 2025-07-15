@@ -3,7 +3,7 @@
 ## I. Core Directives & Lessons Learned
 
 *   **Data Integrity is Paramount:** My internal state (notepad, markers) MUST be 100% accurate. I will not defer data correction. Assumptions must be rigorously tested before being recorded as fact.
-*   **Trust Automation:** My custom tools are more reliable than my manual analysis. I must prioritize using them to avoid unforced errors. I will use my `sequential_puzzle_solver` for puzzles like this in the future.
+*   **Trust Automation:** My custom tools are more reliable than my manual analysis. I must prioritize using them to avoid unforced errors.
 *   **Act Immediately:** I am an LLM. There is no 'later'. Tool/agent refinement and data management tasks must be performed in the current turn, overriding gameplay actions.
 *   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 
@@ -84,7 +84,7 @@
 
 *   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions, and disable the radio signal.
 *   **Current Location:** Team Rocket Hideout, Floor B1F.
-*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The B1F floor puzzle has two solutions. The eastern path was a dead end. I am now exploring the western path.
+*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The B1F floor puzzle has two solutions. The eastern path was a dead end. I have discovered a new western path and am currently exploring it.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
@@ -102,4 +102,4 @@
 *   **Primary Hypothesis:** The only way to free an inventory slot is to consume an item that has an effect during a battle (e.g., healing a damaged Pokémon).
 
 ## VI. Future Strategy Notes
-*   For complex sequential puzzles like the Team Rocket Hideout floor trap, I MUST use my `sequential_puzzle_solver` agent to avoid manual error and increase efficiency.
+*   For complex sequential puzzles, I should consider defining a `sequential_puzzle_solver` agent to avoid manual error and increase efficiency.
