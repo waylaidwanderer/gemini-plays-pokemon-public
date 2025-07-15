@@ -1,9 +1,7 @@
 # I. Core Principles & Lessons Learned
-- **Immediate Maintenance & Escalation:** I must perform maintenance (notepad, agents) and fix tools *immediately* when a manual approach fails repeatedly. Deferring these actions is a critical process failure.
-- **Combat Confirmation Bias:** I must actively try to *disprove* my hypotheses. I wasted significant time assuming my agents were correct because I was seeking confirmation, rather than testing their limits and questioning my own assumptions.
-- **Agent & Tool Trust is Mandatory (but requires verification):** I MUST trust my custom agents' and tools' advice, but this trust must be earned through verification. When an agent fails, it must be refined immediately.
+- **Immediate Maintenance is Mandatory:** I must perform maintenance (notepad, agents) and fix tools *immediately* when a manual approach fails repeatedly. Deferring these actions, as I did with my pathfinder, is a critical process failure. There is no "later" for an LLM.
+- **Trust but Verify:** I must trust my tools and agents, but this trust must be earned. When a tool like my pathfinder repeatedly fails, it's not the map's fault; it's a bug in my code that requires immediate attention.
 - **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
-- **Tool Input Debugging:** When a tool fails, my first step must be to systematically debug my own inputs, not to blame the tool.
 
 # II. Game Mechanics & Battle Intel
 ## A. Tile Mechanics & Traversal
