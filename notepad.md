@@ -50,7 +50,7 @@
 
 **Hypothesis 4 (Current):** Toggling the 1F switch back to its original state will reverse the western and eastern gates.
     - **Test 1:** Check the western gates at (17, 8) and (18, 8).
-    - **Expected Outcome:** Gates are now CLOSED.
+    - **Expected Outcome:** Gates are now CLOSED. **(Confirmed)**
     - **Test 2:** Check the eastern gates at (25, 14) and (26, 14).
     - **Expected Outcome:** Gates are now OPEN.
 
