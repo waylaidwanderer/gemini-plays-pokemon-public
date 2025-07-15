@@ -42,3 +42,4 @@
     1.  Return to B2F via the ladder at (3, 14).
     2.  Locate Lance, who was last seen at (5, 13) on B2F.
     3.  Interact with Lance to see if he triggers the event to open the locked door at (14, 12).
+*   **H32 (Active):** Activating the arrow tiles on B1F will create a new path on B2F, leading to the Team Rocket Executive who must be defeated or spoken to in order to open the locked door at (14, 12).
