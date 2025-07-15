@@ -61,7 +61,6 @@
 *   `STAIRCASE`
 *   `WARP_CARPET_DOWN` (Requires 'Down' to activate)
 *   `WARP_PANEL` (One-way teleporter)
-*   `WARP_PANEL` (One-way teleporter)
 
 **Conditional / One-Way:**
 *   `BREAKABLE_ROCK` (Requires Rock Smash)
@@ -81,11 +80,11 @@
 *   `ARROW_TILE_RIGHT`
 *   `COMPUTER`
 
-## III. Current Investigation: Team Rocket Hideout (B2F)
+## III. Current Investigation: Team Rocket Hideout
 
 *   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions, and disable the radio signal.
-*   **Current Location:** Team Rocket Hideout, Floor B2F.
-*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The B1F floor puzzle was solved using the `smart_pathfinder` tool. I am now exploring B2F to find the second password needed to access the boss's room.
+*   **Current Location:** Team Rocket Hideout, Floor B1F.
+*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The B1F floor puzzle has two solutions. The eastern path was a dead end. I am now exploring the western path.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
@@ -99,7 +98,8 @@
 
 ### Inventory Management Bug
 *   **Observation:** All menu-based attempts to free an inventory slot (`TOSS`, `GIVE`, `DEPOSIT`) have failed, resulting in a menu loop.
-*   **Primary Hypothesis:** The only way to free an inventory slot is to consume an item during a battle. **Test:** Initiate a battle and use a Potion.
+*   **Hypothesis 1 (Disproven):** Using an item on a full-health Pokémon in battle will consume it. **Test Result:** The game prevents this action.
+*   **Primary Hypothesis:** The only way to free an inventory slot is to consume an item that has an effect during a battle (e.g., healing a damaged Pokémon).
 
 ## VI. Future Strategy Notes
 *   For complex sequential puzzles like the Team Rocket Hideout floor trap, I MUST use my `sequential_puzzle_solver` agent to avoid manual error and increase efficiency.
