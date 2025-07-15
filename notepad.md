@@ -26,7 +26,8 @@
 *   **H8-H10 (Disproven):** Various theories about a hidden switch in the Mahogany Mart (blue tile, radio, ladder destination change).
 *   **H11 (Disproven):** The Pharmacist moves after being exposed. **Result:** He does not move.
 *   **H12 (Disproven):** The Incense Burner or Bookshelf become switches after key events. **Result:** No effect.
-*   **H13 (Active):** There is a secret passage in the wall at Y=12 on B2F, as the northern area is otherwise inaccessible. Tests so far (walking into wall, pressing 'A') have failed.
+*   **H13 (Disproven):** There is a secret passage in the wall at Y=12 on B2F. **Result:** Systematically testing the wall from x=1 to x=5 by walking into it and pressing 'A' yielded no results. The wall is solid.
+*   **H14 (Active):** There is a missed switch or path on B1F that opens the way to the central maze on B2F.
 
 ## IV. Tool Status
 *   **Trap Discovered:** Stepping on tile (2, 7) in Team Rocket Hideout B1F (Map ID 3_49) triggers a warp to a corrupted glitch map.
