@@ -34,3 +34,5 @@
   - **Conclusion:** Hypothesis 1 is FALSE. The boulders on B3F that I could access did not stop the current. There are more boulders on a southern platform I cannot reach. I need to find a path to this southern area.
   - **Hypothesis 2:** The path to the southern platform on B3F is accessible from B2F.
   - **Lesson Learned (B1F):** Repeatedly failed to path north from (14,15) due to an impassable wall. This confirms the need to verify paths and avoid repeating failed actions.
+  - **Observation (B4F):** System states there are 15 reachable unseen tiles in the west. My pathfinder, based on the map XML, reports the west is unreachable due to an impassable wall at X=20.
+  - **Hypothesis 3:** The map XML is incorrect, and the `impassable` tile at (20, 16) is secretly traversable.
