@@ -48,3 +48,5 @@
     1.  Return to B2F and systematically re-explore the entire floor for any missed interactive elements or hidden paths.
     2.  If nothing is found on B2F, proceed to B1F and conduct a similar thorough search.
     3.  Once the trigger is found, return to the locked door on B2F at (14, 12) and attempt to open it again.
+*   **H27 (Disproven):** Interacting with Scientist Jed at (18, 12) after collecting the passwords does not trigger a new event. He only repeats his dialogue about the warp panel at (5, 15).
+*   **H28 (Active):** The switch at (19, 11) must be interacted with a second time to trigger a new event.
