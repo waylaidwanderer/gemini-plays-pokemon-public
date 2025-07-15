@@ -88,7 +88,7 @@
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
-*   **Password 2:** Unknown
+*   **Password 2:** RATICATE TAIL (from Rocket Grunt on B3F)
 
 ## IV. Battle Discoveries & Type Chart
 
