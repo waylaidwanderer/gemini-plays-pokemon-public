@@ -75,3 +75,8 @@
 # VI. Tool Development Log
 - **`gem_path_planner` (Deleted):** This tool was flawed as it did not account for movement type (walking vs. surfing). It has been deleted.
 - **`gem_path_planner_v2` (Active):** This is the improved version of the pathfinder. It accepts a `movement_type` argument ('walking' or 'surfing') and correctly identifies impassable tiles for each mode, preventing pathing errors through water or over land when not appropriate.
+## Route 20 Navigation Puzzle
+- **Problem:** Arrived on the western side of Route 20 from Route 19, but `gem_path_planner_v2` still reports 'No path found' to the Seafoam Islands entrance at (49, 6).
+- **Hypothesis 1:** There is a persistent, subtle bug in the pathfinding logic.
+- **Test 1:** Use `code_debugger_agent` to analyze the script and the 'No path found' output for a second time.
+- **Expected Outcome:** The agent will identify a logical flaw I missed.
