@@ -38,6 +38,7 @@
 *   **H16 (Disproven):** The path forward involves using the warp panel at (5, 15). **Result:** The warp panel leads to an isolated exit area, confirming the scientist's dialogue that it's a way back to the entrance, not a path forward.
 *   **H17 (Confirmed):** Flipping the switch at (19, 11) on B1F opens the path into the central maze on B2F. This maze leads to the ladder at (27, 14), which goes down to the eastern section of B3F.
 *   **H18 (Active):** The password prompt is not triggered by the door itself, but by interacting with the two ROCKET grunts guarding the boss's room on B3F.
-*   **H19 (Disproven):** Leaving and re-entering the hideout will move the scientist at (18, 12). **Result:** The scientist remains, blocking the path to the switch. The switch is not the current solution.
+*   **H19 (Confirmed):** Leaving, re-entering, or triggering new dialogue from the scientist at (18, 12) does not make him move. The path to the switch is permanently blocked.
+*   **H21 (Active):** The warp panel at (5, 15) is the correct path forward, despite the scientist's claim it's an exit.
 *   **H18 (Blocked):** The password prompt is likely triggered by the grunts on B3F, but the western section of B3F containing the boss's room is inaccessible from the eastern section. This path is a dead end.
 *   **H20 (Active):** The western section of B3F must be accessed via a different, undiscovered path, likely originating from B1F or B2F.
