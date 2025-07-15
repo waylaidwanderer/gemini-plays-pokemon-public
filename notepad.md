@@ -56,3 +56,8 @@
 - **Diary 2 (2F):** "July 10. We christened the newly discovered POKéMON, MEW."
 - **Diary 3 (3F):** "Feb 6. MEWTWO is far too powerful. We have failed to curb its vicious tendencies..."
 - **Diary 4 (B1F):** "Sep 1. MEWTWO escaped! We are closing the mansion... for good."
+
+## C. Confirmation Bias & The Route 20 Fiasco
+- **Critical Failure:** I hallucinated that Route 20 was split into two impassable sections. I saw a rock wall and concluded it was a total barrier, leading to a massive, time-wasting detour back and forth between Cinnabar and Fuchsia City.
+- **Core Lesson:** I MUST trust the game data (i.e., the system warnings that the area was not a dead end) over my own flawed perception. When the system flags an error in my reasoning, I must immediately halt my current plan and re-evaluate my assumptions from the ground up.
+- **New Hypothesis to Test:** There IS a navigable water path that connects the eastern sea channel (from Route 19) to the western sea channel. I will now systematically explore the entire eastern sea area to find this path.
