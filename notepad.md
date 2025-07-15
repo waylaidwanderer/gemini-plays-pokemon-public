@@ -53,10 +53,10 @@
 **Hypothesis 2 (Current):** The path beyond the open gate is still blocked. The impassable wall at (15, 23) might be a secret passage that is only active in this specific switch configuration.
     - **Test:** Navigate to the wall at (15, 23) and attempt to walk through it.
     - **Expected Outcome:** The wall will now be passable.
-2.  **Hypothesis 2:** Both switches need to be in their original state.
+2.  **Hypothesis 3:** Both switches need to be in their original state.
     - **Test:** Return to 1F and press the switch at (3, 6) again to return it to its original state.
     - **Check:** Observe the gate at (8, 23).
-3.  **Hypothesis 3:** Cycle through all four unique combinations (1F-On/2F-On, 1F-On/2F-Off, 1F-Off/2F-On, 1F-Off/2F-Off), checking the gate after each change.
+3.  **Hypothesis 4:** Cycle through all four unique combinations (1F-On/2F-On, 1F-On/2F-Off, 1F-Off/2F-On, 1F-Off/2F-Off), checking the gate after each change.
 
 # IV. Solved Puzzles & Key Discoveries
 - **Pokemon Mansion 1F - Secret Passage:** The eastern corridor 'trap' is escaped by walking through a secret passage in an impassable wall.
