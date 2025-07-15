@@ -31,4 +31,5 @@
   - **Hypothesis 1:** To stop the current on B4F, I must push the boulders on B3F into the holes on B3F.
   - **Test (Turn 75987):** Pushed boulders at (6,15) and (4,16) into holes at (7,17) and (4,17). Then, attempted to SURF on B4F.
   - **Outcome:** Received message 'The current is much too fast!'.
-  - **Conclusion:** Hypothesis 1 is FALSE. The boulders on B3F do not stop the current on B4F.
+  - **Conclusion:** Hypothesis 1 is FALSE. The boulders on B3F that I could access did not stop the current. There are more boulders on a southern platform I cannot reach. I need to find a path to this southern area.
+  - **Hypothesis 2:** The path to the southern platform on B3F is accessible from B2F.
