@@ -39,7 +39,7 @@
 # III. Current Objective & Puzzle Logs
 ## A. Find the Secret Key to unlock the Cinnabar Gym
 - **Conclusion:** The Secret Key is NOT in the Cinnabar Lab or Pokemon Mansion. Both locations are fully explored and are dead ends for this objective.
-- **Current Plan:** The only remaining path is through the Seafoam Islands. The game data confirms a reachable warp at (49, 6) on Route 20, which leads into the western side of the cave system. My pathfinding tool was bugged, leading to incorrect conclusions about the area being a dead end.
+- **Current Plan:** The only remaining path is through the Seafoam Islands. The game data confirms a reachable warp at (49, 6) on Route 20, which leads into the western side of the cave system. My pathfinding tool's traversal logic for water-to-land movement was flawed, causing it to fail. The game data confirming a reachable warp was correct.
 
 # IV. Archived Logs
 ## Pokemon Mansion Puzzle Log
