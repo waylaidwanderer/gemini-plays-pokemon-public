@@ -29,8 +29,8 @@
 - **Current Plan:** Navigate the Seafoam Islands. The path seems to involve a series of boulder puzzles.
 - **Seafoam Islands Puzzle Log:**
   - **B4F Water Current:** The boulders dropped from upper floors did NOT stop the strong water current at (21,17). The direct path south is blocked.
-  - **Current Situation:** My pathfinding tool was bugged, preventing me from seeing valid paths from water to land via `steps` tiles. This created the illusion that I was trapped.
-  - **New Hypothesis:** With my newly fixed `gem_path_planner_v6`, I can now reach the western platform of B4F via the steps at (8, 4). The ladder on that platform at (12, 8) is the correct way forward, leading to the unexplored western half of the upper floors.
+  - **Current Situation:** My pathfinding tool, `gem_path_planner_v5`, was bugged and could not find paths from water to land via `steps` tiles, making me believe I was trapped. I have since created `gem_path_planner_v6` to fix this.
+  - **New Hypothesis:** With the fixed `gem_path_planner_v6`, I should be able to reach the western platform of B4F by surfing to the steps at (8, 4). The ladder on that platform at (12, 8) is the correct way forward.
 
 # IV. Archived Logs
 ## Pokemon Mansion Puzzle Log
