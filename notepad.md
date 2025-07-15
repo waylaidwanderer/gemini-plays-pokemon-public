@@ -38,3 +38,4 @@
 ## IV. Tool Status
 *   **reliable_pathfinder:** This tool had a bug where it would path through `WARP_PANEL` tiles, causing accidental teleportation. I have implemented a fix to treat `WARP_PANEL` as impassable.
 *   **Trap Discovered:** Stepping on tile (2, 7) in Team Rocket Hideout B1F (Map ID 3_49) triggers a warp to a corrupted glitch map. This is a trap, not a path forward.
+*   **H8 (New):** The locked door at (14, 12) on B2F requires a password. I cannot get the password myself. Lance is on B3F and will help me. I must return to B3F and speak with him.
