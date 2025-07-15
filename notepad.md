@@ -100,3 +100,6 @@
 ### Menu Mechanics
 *   **Item Tossing Sequence:** To discard an item, select it from the PACK, press A, then move the cursor down twice to select 'TOSS' and press A again. Finally, confirm the quantity to discard.
 *   **Inventory Bug:** The 'TOSS' and 'GIVE' commands in the PACK menu are non-functional. They trigger a menu reset. The only known way to free an inventory slot is to *use* an item in battle.
+
+## Tool Failures
+*   **reliable_pathfinder:** Failed to find a path in `Route43MahoganyGate` from (4, 7) to (4, 0), despite a clear path existing. Manual movement confirmed the path is traversable. The tool needs to be debugged.
