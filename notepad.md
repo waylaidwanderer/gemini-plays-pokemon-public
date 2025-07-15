@@ -65,7 +65,3 @@
 
 # VII. Core Lessons Learned
 - **Trust the Data Over Perception:** My pathfinder tool was NOT broken in the way I initially thought. I failed to correctly perceive impassable walls on the map, leading me to believe the tool was generating incorrect paths. The tool correctly navigated around obstacles I missed. I must trust the ground-truth data from the map XML over my own visual assessment.
-
-# VII. Core Lessons Learned
-- **Trust the Data Over Perception:** My pathfinder tool was NOT broken in the way I initially thought. I failed to correctly perceive impassable walls on the map, leading me to believe the tool was generating incorrect paths. The tool correctly navigated around obstacles I missed. I must trust the ground-truth data from the map XML over my own visual assessment.
-- **Surfing from Land:** You cannot initiate SURF while standing on `elevated_ground`, even if adjacent to water. You must use `steps` to enter the water first before using the move.
