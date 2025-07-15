@@ -106,3 +106,6 @@
 *   **Observation:** All menu-based attempts to free an inventory slot (`TOSS`, `GIVE`, `DEPOSIT`) have failed, resulting in a menu loop.
 *   **Primary Hypothesis:** The only way to free an inventory slot is to consume an item during a battle. **Test:** Initiate a battle and use a Potion.
 *   **Test 2 (Failed):** Systematic pathfinding. Successfully navigated from (7, 5) to (23, 5). The path to the right is blocked by a WALL at (24, 5). An attempt to move down to (23, 6) failed, indicating it is a trap tile. The path does not continue down from this point.
+
+## VI. Future Strategy Notes
+*   For complex sequential puzzles like the Team Rocket Hideout floor trap, I MUST use my `sequential_puzzle_solver` agent to avoid manual error and increase efficiency.
