@@ -66,4 +66,4 @@
 
 # VI. Tool Development Log
 - **`gem_path_planner_v2` (Active & Fixed):** This is the improved version of the pathfinder. It now correctly handles surfing-to-land transitions, land-to-land movement while surfing, and elevation changes via `steps` tiles.
-- **`gem_path_planner_v2` Bug:** The tool's logic for traversing adjacent `elevated_ground` tiles is flawed, causing it to generate valid but extremely inefficient paths instead of taking direct routes across platforms. This must be fixed.
+- **`gem_path_planner_v2` Bug (Fixed):** The tool's logic was flawed, incorrectly allowing movement between `ground` and `elevated_ground` without using `steps` and generating inefficient paths on elevated platforms. The logic has been updated to be more specific and correct these issues.
