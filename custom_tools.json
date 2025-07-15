@@ -104,7 +104,7 @@
         "target_item"
       ]
     },
-    "python_script": "import json\n\ninventory_list_str = input_data.get('inventory_list', '[]')\ntarget_item = input_data.get('target_item', '')\n\ntry:\n    inventory_list = json.loads(inventory_list_str.replace(\"'\", '\"'))\nexcept json.JSONDecodeError:\n    print(json.dumps({'item_found': False, 'error': 'Invalid JSON format for inventory_list.'}))\n\nitem_found = False\nfor item in inventory_list:\n    # Check if the target item is a substring of the inventory item (e.g., 'ESCAPE ROPE' in 'ESCAPE ROPE x1')\n    if target_item.lower() in item.lower():\n        item_found = True\n        break\n\nprint(json.dumps({'item_found': item_found}))"
+    "python_script": "import json\n\ntry:\n    inventory_list = json.loads(input_data['inventory_list'])\n    target_item = input_data['target_item']\n    found = False\n    for item in inventory_list:\n        if target_item.lower() in item.lower():\n            found = True\n            break\n    print(f'Item found: {found}')\nexcept Exception as e:\n    print(f'An error occurred: {e}')"
   },
   "menu_navigator": {
     "description": "Calculates the optimal number of button presses (Up/Down) to navigate from a current selection to a target item in a list-based menu, like the Fly menu or inventory.",

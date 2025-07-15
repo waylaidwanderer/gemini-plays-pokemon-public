@@ -20,6 +20,7 @@
 - `open_gate`: A gate that is visibly open and acts as ground.
 - `Switch Interaction`: Switches can appear on impassable tiles. They must be interacted with by standing on an adjacent tile (usually below) and facing the switch.
 - `secret_passage`: Certain `impassable` wall tiles can be walked through. These are not visually distinct.
+- `2x1 Warp Tiles`: Larger warps (like exit mats) require moving onto the tile and then pressing in the direction of the impassable boundary to activate.
 
 ## B. Confirmed ROM Hack Changes
 ### B1. Type Matchups & Immunities
@@ -36,10 +37,23 @@
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
 
 # III. Current Objective: Find the Secret Key to unlock the Cinnabar Gym
-- **Conclusion:** The Secret Key is NOT in the Cinnabar Lab. I have spoken to every NPC in all rooms. This location is a dead end. 
-- **New Plan:** Return to the Seafoam Islands to solve the water current puzzle. A sign mentioned boulders could alter the flow, and this is my only remaining significant unexplored puzzle.
+- **Conclusion:** The Secret Key is NOT in the Cinnabar Lab or Pokemon Mansion. Both locations are fully explored and are dead ends for this objective.
+- **New Plan:** Reach the Seafoam Islands to solve the water current puzzle. A sign mentioned boulders could alter the flow, and this is my only remaining significant unexplored puzzle.
 
-# IV. Archived Logs
+# IV. Route 19 Surfing Puzzle Log
+- **Objective:** Get onto the water on Route 19 to travel to Route 20 and then the Seafoam Islands.
+- **Hypothesis 1:** I can use SURF from the menu while standing on land adjacent to water.
+- **Test 1:** Attempted to use SURF from various shoreline tiles on Route 19 ((10, 7), (14, 12), (5,12)).
+- **Outcome 1:** All attempts failed with the message "No SURFing on NEPTUNE here!". Hypothesis denied.
+- **Hypothesis 2:** I can initiate SURF by walking directly into a water tile.
+- **Test 2:** Attempted to walk from (14, 12) to the water tile at (14, 13).
+- **Outcome 2:** Movement was blocked by the game. Hypothesis denied.
+- **Hypothesis 3:** The Summer Beach House at (6, 10) contains a trigger to enable surfing.
+- **Test 3:** Re-entered the Summer Beach House, bypassed the invisible wall, and confirmed no new interactions with the Fishing Guru or other objects.
+- **Outcome 3:** No change. The house is a red herring. Hypothesis denied.
+- **Current Hypothesis:** An unconventional item, like the BICYCLE, is required to traverse the water on this specific route.
+
+# V. Archived Logs
 ## Pokemon Mansion Puzzle Log
 - **1F Switch (3, 6):** Controls east/west gates, alternates.
 - **2F Switch (3, 12):** Also controls gates.
@@ -50,5 +64,3 @@
 - **Diary 2 (2F):** "July 10. We christened the newly discovered POKéMON, MEW."
 - **Diary 3 (3F):** "Feb 6. MEWTWO is far too powerful. We have failed to curb its vicious tendencies..."
 - **Diary 4 (B1F):** "Sep 1. MEWTWO escaped! We are closing the mansion... for good."
-- `2x1 Warp Tiles`: Larger warps (like exit mats) require moving onto the tile and then pressing in the direction of the impassable boundary to activate.
-- `secret_passage`: Certain `impassable` wall tiles can be walked through. These are not visually distinct.
