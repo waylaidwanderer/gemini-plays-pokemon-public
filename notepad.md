@@ -35,3 +35,10 @@
 ### Current Hypothesis
 *   **H23 (Disproven):** Lance was not waiting in the mart or on B2F. **Result:** No sign of Lance in the explored areas of the hideout.
 *   **H24 (Disproven):** Speaking to Lance on B3F is impossible, as the western section where he would be is inaccessible from the eastern ladder. The pathfinder confirms there is no route.
+
+### Future Plans & Strategy
+*   **Hideout Progression Plan:**
+    1.  Interact with the locked door on B2F at (14, 12).
+    2.  Use the passwords 'SLOWPOKETAIL' and 'RATICATE TAIL' when prompted.
+    3.  If successful, proceed through the door to find the boss's room.
+    4.  If unsuccessful, re-evaluate the password source or look for another trigger.
