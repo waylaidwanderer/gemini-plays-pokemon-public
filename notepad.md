@@ -38,12 +38,12 @@
 # III. Current Objective & Puzzle Logs
 ## A. Find the Secret Key to unlock the Cinnabar Gym
 - **Conclusion:** The Secret Key is NOT in the Cinnabar Lab or Pokemon Mansion. Both locations are fully explored and are dead ends for this objective.
-- **Current Plan:** Solve the Seafoam Islands boulder puzzle. A sign on B4F stated, "Boulders might change the flow of water!".
+- **Current Plan:** Solve the Seafoam Islands boulder puzzle, as a sign on B4F stated, "Boulders might change the flow of water!".
 
 ## B. Seafoam Islands Puzzle Log
-- **Current Location:** Seafoam Islands 1F (Western Entrance)
-- **Current Objective:** Exit the western cave and re-enter from the eastern entrance.
-- **Conclusion (Western Entrance):** The western entrance and all its interconnected paths on 1F, B1F, B2F, and B3F are an isolated loop and a dead end for the main puzzle. The solution must be on the eastern side of the islands.
+- **Current Location:** Route 19, heading towards the eastern entrance of Seafoam Islands.
+- **Hypothesis:** The main boulder puzzle is located within the eastern section of the Seafoam Islands, which must be accessed by traveling from Fuchsia City south to Route 19, and then west to Route 20.
+- **Conclusion (Western Entrance):** The western entrance of Seafoam Islands is a navigational dead end for reaching the eastern side of the islands. The two sections of Route 20 are separated by impassable rock formations.
 
 # IV. Archived Logs
 ## Pokemon Mansion Puzzle Log
