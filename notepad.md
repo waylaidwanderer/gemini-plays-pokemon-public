@@ -36,3 +36,6 @@
   - **Lesson Learned (B1F):** Repeatedly failed to path north from (14,15) due to an impassable wall. This confirms the need to verify paths and avoid repeating failed actions.
   - **Observation (B4F):** System states there are 15 reachable unseen tiles in the west. My pathfinder, based on the map XML, reports the west is unreachable due to an impassable wall at X=20.
   - **Hypothesis 3:** The map XML is incorrect, and the `impassable` tile at (20, 16) is secretly traversable.
+  - **Test (Turn 76098):** Attempted to move left from (21, 16) onto (20, 16). Movement was blocked.
+  - **Conclusion:** Hypothesis 3 is FALSE. The wall is real.
+  - **Hypothesis 5:** The 'reachable' status of the western tiles is due to the strong water current. Surfing *with* the current at (21, 17) will transport me to the western section of the map.
