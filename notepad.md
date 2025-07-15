@@ -87,7 +87,7 @@
 
 *   **Primary Objective:** Find the Team Rocket Boss and disable the radio signal.
 *   **Current Blocker:** Navigating the Team Rocket Hideout.
-*   **Current Plan:** B1F, the western maze of B2F, and the eastern corridor of B2F have all been confirmed as dead ends. No new paths have opened. My new hypothesis is that I must speak to Lance on B3F again, now that I have both passwords, to get a new clue or trigger an event.
+*   **Current Plan:** After exhausting all paths, my new hypothesis is that obtaining both passwords has triggered a change in the western corridors of the hideout, which I have not revisited since. The plan is to re-enter the hideout from the main entrance and meticulously re-explore the western side of B1F and B2F.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL
@@ -95,6 +95,3 @@
 
 ## IV. Tool Status
 *   **reliable_pathfinder:** This tool had a bug where it would path through `WARP_PANEL` tiles, causing accidental teleportation. I have implemented a fix to treat `WARP_PANEL` as impassable.
-
-## V. Contingency Plans
-*   **Team Rocket Hideout B2F:** If the western maze on B2F proves to be a dead end, my alternative hypothesis is that I missed an interaction on B1F or B3F that changes the layout. I will need to return to those floors and re-interact with everything.
