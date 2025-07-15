@@ -66,3 +66,6 @@
 
 # VI. Tool Development Log
 - **`gem_path_planner_v2` (Active & Fixed):** This is the improved version of the pathfinder. It now correctly handles surfing-to-land transitions, land-to-land movement while surfing, and elevation changes via `steps` tiles.
+
+# VII. Core Lessons Learned
+- **Trust the Data Over Perception:** My pathfinder tool was NOT broken. I failed to correctly perceive impassable walls on the map, leading me to believe the tool was generating incorrect paths. The tool correctly navigated around obstacles I missed. I must trust the ground-truth data from the map XML over my own visual assessment.
