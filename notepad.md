@@ -21,16 +21,19 @@
 
 ## III. Current Objective: Team Rocket Hideout
 
-*   **Primary Objective:** Find the Team Rocket Boss and disable the radio signal.
-*   **Hypothesis Log:**
-    *   **H1 (Disproven):** A hidden passage exists in the wall on B2F at Y=12. **Test:** Systematically interacted with every wall tile from (8, 12) to (3, 12). **Result:** No passage found. All tiles were solid walls.
-    *   **H2 (Disproven):** An alternate ladder on B1F leads to the northern section of B2F. **Test:** All ladders on B1F have been explored. All lead to disconnected or previously explored sections.
-    *   **H3 (Disproven):** Stunning Scientist Jed allows passage. **Test:** Used stun_npc on Jed at (18, 12) but could not walk through his tile.
-    *   **H4 (Disproven):** Intentionally triggering the security cameras will unlock a new path. **Test:** Systematically moved in front of multiple security cameras ((8, 15), (22, 15), (24, 5)). **Result:** No event was triggered.
-    *   **H5 (Disproven):** The "arrow tile puzzle" does not exist. The tiles are impassable WALLs. My analysis was based on a hallucination.
-    *   **H6 (Disproven):** The ROCKET at (2, 4) triggers a glitch warp. **Test:** Interacted with the ROCKET. **Result:** Triggered a scripted event with dialogue confirming an invisible trap maze. The warp was part of the script, not a glitch.
-*   **H7 (Current):** There is an invisible maze of floor traps. I must navigate it to reach the switch at (19, 11). Evidence is the ROCKET's dialogue.
-*   **Passwords:** None known.
+### B2F/B3F Puzzle
+*   **Current State:** I am on B2F, in the northern section. The southern section is inaccessible from here. I have explored the eastern part of B3F and found it to be a dead end. The western part of B3F is inaccessible.
+*   **Current Hypothesis:** The locked door at (14, 12) on B2F is the path forward, and it was unlocked by an event on B3F.
+*   **Alternative Hypothesis:** The door is a red herring. The transmitter machine at (12, 9) through (17, 9) is the actual way forward.
+
+### General Hypothesis Log
+*   **H1 (Disproven):** A hidden passage exists in the wall on B2F at Y=12. **Test:** Systematically interacted with every wall tile from (8, 12) to (3, 12). **Result:** No passage found. All tiles were solid walls.
+*   **H2 (Disproven):** An alternate ladder on B1F leads to the northern section of B2F. **Test:** All ladders on B1F have been explored. All lead to disconnected or previously explored sections.
+*   **H3 (Disproven):** Stunning Scientist Jed allows passage. **Test:** Used stun_npc on Jed at (18, 12) but could not walk through his tile.
+*   **H4 (Disproven):** Intentionally triggering the security cameras will unlock a new path. **Test:** Systematically moved in front of multiple security cameras ((8, 15), (22, 15), (24, 5)). **Result:** No event was triggered.
+*   **H5 (Disproven):** The "arrow tile puzzle" does not exist. The tiles are impassable WALLs. My analysis was based on a hallucination.
+*   **H6 (Disproven):** The ROCKET at (2, 4) on B1F triggers a glitch. **Test:** Interacted with the ROCKET. **Result:** Triggered a scripted event with dialogue confirming an invisible trap maze. The warp was part of the script.
+*   **H7 (Confirmed):** There is an invisible maze of floor traps on B1F. I successfully navigated it to reach the switch at (19, 11).
 
 ## IV. Tool Status
 *   **reliable_pathfinder:** This tool had a bug where it would path through `WARP_PANEL` tiles, causing accidental teleportation. I have implemented a fix to treat `WARP_PANEL` as impassable.
