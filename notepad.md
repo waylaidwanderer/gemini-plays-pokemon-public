@@ -40,3 +40,8 @@
     1.  Return to the ladder at (3, 14) on B1F.
     2.  Descend to B2F.
     3.  Explore B2F for any new paths that have opened now that the arrow tiles are off.
+
+## IV. Future Testing & Verification Notes
+*   **Ledge Verification:** I have assumed all `LEDGE_HOP_...` tiles are one-way based on observation. I must explicitly try to move *up* a ledge at the next opportunity to scientifically confirm this is impossible.
+*   **Object Traversal:** I must test if it's possible to walk on object tiles like `BOOKSHELF` when they are not blocked by walls to confirm they are universally impassable.
+*   **Password Door Re-check:** After changing the state of the B1F switch, I must re-interact with the locked door on B2F at (14, 12). The switch may have changed the door's behavior, potentially allowing password entry now.
