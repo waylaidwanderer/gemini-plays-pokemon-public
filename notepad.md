@@ -41,9 +41,9 @@
 - **Current Plan:** Solve the Seafoam Islands boulder puzzle, as a sign on B4F stated, "Boulders might change the flow of water!".
 
 ## B. Seafoam Islands Puzzle Log
-- **Current Location:** Route 19, heading towards the eastern entrance of Seafoam Islands.
-- **Hypothesis:** The main boulder puzzle is located within the eastern section of the Seafoam Islands, which must be accessed by traveling from Fuchsia City south to Route 19, and then west to Route 20.
-- **Conclusion (Western Entrance):** The western entrance of Seafoam Islands is a navigational dead end for reaching the eastern side of the islands. The two sections of Route 20 are separated by impassable rock formations.
+- **Current Location:** Cinnabar Island, preparing to re-enter the western Seafoam Islands cave.
+- **Failed Hypothesis:** The eastern entrance to Seafoam Islands, accessed via Route 19, was the correct path. This was proven false as the eastern water channel on Route 20 is a dead end, completely blocked by impassable rock formations.
+- **New Hypothesis:** The solution to the boulder puzzle lies within the western Seafoam Islands cave. I must have missed a crucial interaction or path during my initial exploration. The clue about the water flow was inside this cave, so the solution must be as well.
 
 # IV. Archived Logs
 ## Pokemon Mansion Puzzle Log
