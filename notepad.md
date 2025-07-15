@@ -25,7 +25,7 @@
 *   **Main Obstacle:** A password-locked door on B2F at (14, 12) is blocking progress.
 
 ### Confirmed Facts & Discoveries
-*   **B1F Switch:** Flipping the switch at (19, 11) on B1F toggles the arrow tiles on and off.
+*   **B1F Switch:** Flipping the switch at (19, 11) on B1F toggles the arrow tiles on and off. It is currently OFF.
 *   **B1F Scientist (Jed):** The scientist at (18, 12) stands near the path to the switch but does not block it.
 *   **B1F Warp Panel:** The warp panel at (5, 15) is a one-way teleporter to (25, 2), leading to an isolated exit area via the Mahogany Mart.
 *   **B2F Locked Door Interaction:** Interacting with the locked door at (14, 12) twice only yields the message "It needs a password to open." It does not prompt for input.
@@ -33,10 +33,10 @@
 *   **Passwords Found:** The two passwords are 'SLOWPOKETAIL' and 'RATICATE TAIL'.
 
 ### Hypotheses Log
-*   **H32 (Active):** Activating the arrow tiles on B1F will create a new path on B2F, leading to the Team Rocket Executive who must be defeated or spoken to in order to open the locked door at (14, 12).
+*   **H33 (Active):** With the arrow tiles on B1F now disabled, a previously blocked path is now accessible. I must return to B2F to see if this has opened a new route.
 
 ### Future Plans & Strategy
-*   **Hideout Progression Plan (v6):**
-    1.  Return to B1F via the ladder at (3, 14).
-    2.  Go to the switch at (19, 11) and ensure it is turned ON.
-    3.  Return to B2F and investigate for a newly revealed arrow tile maze.
+*   **Hideout Progression Plan (v7):**
+    1.  Return to the ladder at (3, 14) on B1F.
+    2.  Descend to B2F.
+    3.  Explore B2F for any new paths that have opened now that the arrow tiles are off.
