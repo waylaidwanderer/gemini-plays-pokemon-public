@@ -39,9 +39,24 @@
 - **FLY in field:** Cannot be used indoors to escape a building.
 - **ROAR in battle:** Can end a wild battle by forcing the player's Pokémon to run away.
 
-# III. Current Objective: Find the Secret Key to unlock the Cinnabar Gym
+# III. Current Objective & Puzzle Logs
+## A. Find the Secret Key to unlock the Cinnabar Gym
 - **Conclusion:** The Secret Key is NOT in the Cinnabar Lab or Pokemon Mansion. Both locations are fully explored and are dead ends for this objective.
 - **New Plan:** Reach the Seafoam Islands to solve the water current puzzle. A sign mentioned boulders could alter the flow, and this is my only remaining significant unexplored puzzle.
+
+## B. Seafoam Islands Puzzle Log
+- **Location:** Seafoam Islands B3F, isolated water platform at (21, 18) and (22, 18).
+- **Problem:** Trapped on a platform with two warp tiles that appear to be non-functional. Tile info for both states "press Down to enter".
+- **Hypothesis 1:** The warp is activated by pressing 'Down'.
+- **Test 1 (Multiple Attempts):** Stood on both (21, 18) and (22, 18) and pressed 'Down'.
+- **Result 1:** Failed. Player bumped into impassable wall at Y+1.
+- **Hypothesis 2:** The warp is a standard 'step-on' warp.
+- **Test 2:** Moved off the warp tiles to (21, 17) and then stepped back onto (21, 18).
+- **Result 2:** Failed. Warp did not activate.
+- **Hypothesis 3 (from puzzle_solver_agent):** The platform is a soft-lock. The 'warps' are one-way waterfalls that require a current, which has been stopped. The only escape is via teleportation (Escape Rope, Dig) or fainting.
+- **Conclusion 3:** This contradicts core game rules ("can't be truly stuck", "fainting is not a valid strategy"). Therefore, another solution must exist.
+- **Hypothesis 4 (from puzzle_solver_agent):** Re-test the original action in case of a transient state change.
+- **Current Test:** Re-positioning to (22, 18) to attempt pressing 'Down' again.
 
 # V. Archived Logs
 ## Pokemon Mansion Puzzle Log
@@ -57,5 +72,6 @@
 ## Route 19 Surfing Puzzle Log (Archived)
 - **Conclusion:** All attempts to enter the water on Route 19 have failed. This path was blocked. The trigger to proceed was to use Fly to leave the area.
 
-# V. Tool Development Log
-- **Pathfinder Flaw:** My `gem_path_planner` tool does not account for movement type (walking vs. surfing). It incorrectly treats water as traversable when walking. I must create a `path_planner_v2` that takes `movement_type` as an argument and correctly identifies impassable tiles for each mode.
+# VI. Tool Development Log
+- **`gem_path_planner` (Deleted):** This tool was flawed as it did not account for movement type (walking vs. surfing). It has been deleted.
+- **`gem_path_planner_v2` (Active):** This is the improved version of the pathfinder. It accepts a `movement_type` argument ('walking' or 'surfing') and correctly identifies impassable tiles for each mode, preventing pathing errors through water or over land when not appropriate.
