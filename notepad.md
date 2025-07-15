@@ -28,10 +28,9 @@
 ## A. Find the Secret Key (Cinnabar Gym)
 - **Current Plan:** Navigate the Seafoam Islands. The path seems to involve a series of boulder puzzles.
 - **Seafoam Islands Puzzle Log:**
-  - **B1F Boulder Puzzle:** Solved. Dropped two boulders through holes on B1F and B2F.
-  - **B4F Water Current:** The boulders did NOT stop the strong water current at (21,17). The direct path south is blocked.
-  - **Current Situation:** The boulders dropped from B1F/B2F did *not* stop the strong water current on B4F. The path south to the warp at (22, 18) is blocked by this current. This confirms my previous hypothesis was incorrect.
-  - **New Hypothesis:** The solution is not to stop the current from this eastern section. The numerous unseen tiles suggest a large, unexplored western section of the cave. I must have missed a path on an upper floor (B1F, B2F, or B3F) that leads to the western half. My immediate goal is to ascend via the ladder at (26, 5) and systematically re-explore the upper floors to find the missed path to the west.
+  - **B4F Water Current:** The boulders dropped from upper floors did NOT stop the strong water current at (21,17). The direct path south is blocked.
+  - **Current Situation:** My pathfinding tool was bugged, preventing me from seeing valid paths from water to land via `steps` tiles. This created the illusion that I was trapped.
+  - **New Hypothesis:** With my newly fixed `gem_path_planner_v6`, I can now reach the western platform of B4F via the steps at (8, 4). The ladder on that platform at (12, 8) is the correct way forward, leading to the unexplored western half of the upper floors.
 
 # IV. Archived Logs
 ## Pokemon Mansion Puzzle Log
