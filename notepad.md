@@ -15,7 +15,6 @@
 - `cuttable`: A tree that can be cut with HM01 Cut.
 - `hole`: A tile that causes the player to fall to the floor below.
 - `spinner_up/down/left/right`: Forces movement in a specific direction.
-- `warp`: A tile that transports the player to another location, either on the same map or a different one.
 - `gate_offscreen`: A gate not currently on screen. Its state is unknown and treated as potentially open for pathfinding. Upon entering the screen, its state can be revealed as `open_gate` or `closed_gate`.
 - `closed_gate`: A gate that is visibly closed and acts as an impassable wall.
 - `open_gate`: A gate that is visibly open and acts as ground.
