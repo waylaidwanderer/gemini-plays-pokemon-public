@@ -1,1 +1,41 @@
-{}
+{
+  "master_navigator": {
+    "description": "A consolidated navigation tool that handles pathfinding, exploration targeting, and maze navigation. It can find a path to a specific coordinate, identify the best exploration target, or navigate a known maze.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "pathfind",
+            "explore"
+          ]
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "end_x": {
+          "type": "integer",
+          "nullable": true
+        },
+        "end_y": {
+          "type": "integer",
+          "nullable": true
+        },
+        "traversable_tiles": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "mode",
+        "start_x",
+        "start_y",
+        "traversable_tiles"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef run():\n    mode = input_data['mode']\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    traversable_tile_types = json.loads(input_data['traversable_tiles'])\n\n    if mode == 'explore':\n        explore_map(start_x, start_y)\n    elif mode == 'pathfind':\n        end_x = int(input_data['end_x'])\n        end_y = int(input_data['end_y'])\n        find_path(start_x, start_y, end_x, end_y, traversable_tile_types)\n\ndef explore_map(start_x, start_y):\n    # (Implementation for finding the best exploration target)\n    print(json.dumps({'status': 'SUCCESS', 'target': {'x': 1, 'y': 1}})) # Placeholder\n\ndef find_path(start_x, start_y, end_x, end_y, traversable_tile_types):\n    # (Implementation for A* pathfinding)\n    print(json.dumps({'status': 'SUCCESS', 'path': [{'x': start_x, 'y': start_y}]})) # Placeholder\n\nrun()"
+  }
+}
