@@ -34,3 +34,4 @@
 
 ### Current Hypothesis
 *   **H20:** The correct path to the western section of the hideout must originate from a different, undiscovered route on B1F or B2F.
+*   **H22 (Active):** The password prompt for the B2F door is not triggered by the door itself. I must first interact with the transmitter machine located in the room north of the door (around coordinates 12,9 to 17,9). After interacting with the transmitter, the door will then accept the passwords.
