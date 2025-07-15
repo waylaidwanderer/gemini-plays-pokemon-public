@@ -96,3 +96,6 @@
 
 ### Verified Type Interactions
 *   **Water (Surf) vs. Gyarados (Water/Flying):** Observed as "not very effective". This contradicts standard type charts. Need to investigate further.
+
+### Menu Mechanics
+*   **Item Tossing Sequence:** To discard an item, select it from the PACK, press A, then move the cursor down twice to select 'TOSS' and press A again. Finally, confirm the quantity to discard.

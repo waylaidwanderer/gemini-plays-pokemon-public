@@ -94,33 +94,5 @@
       ]
     },
     "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef explore():\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    traversable_tile_types = input_data['traversable_tiles'].split(',')\n\n    try:\n        root = ET.fromstring(map_xml_string)\n        map_width = int(root.get('width'))\n        map_height = int(root.get('height'))\n    except Exception as e:\n        print(f\"Error parsing map XML: {e}\")\n        return\n\n    unseen_tiles = set()\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            if tile.get('seen') == 'false':\n                unseen_tiles.add((int(tile.get('id')), int(row.get('id'))))\n\n    if not unseen_tiles:\n        print(\"FAIL: No unseen tiles on the map.\")\n        return\n\n    visited_clusters = set()\n    all_clusters = []\n    for tile in unseen_tiles:\n        if tile not in visited_clusters:\n            cluster = []\n            q = deque([tile])\n            visited_clusters.add(tile)\n            while q:\n                curr_tile = q.popleft()\n                cluster.append(curr_tile)\n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    neighbor = (curr_tile[0] + dx, curr_tile[1] + dy)\n                    if neighbor in unseen_tiles and neighbor not in visited_clusters:\n                        visited_clusters.add(neighbor)\n                        q.append(neighbor)\n            all_clusters.append(cluster)\n\n    if not all_clusters:\n        print(\"FAIL: Could not form clusters from unseen tiles.\")\n        return\n\n    largest_cluster = max(all_clusters, key=len)\n\n    start_pos = (start_x, start_y)\n    closest_tile = None\n    min_dist = float('inf')\n\n    for tile in largest_cluster:\n        dist = abs(tile[0] - start_pos[0]) + abs(tile[1] - start_pos[1])\n        if dist < min_dist:\n            min_dist = dist\n            closest_tile = tile\n\n    if closest_tile:\n        print(json.dumps({\"x\": closest_tile[0], \"y\": closest_tile[1]}))\n    else:\n        print(\"FAIL: Could not find the closest tile in the largest cluster.\")\n\nexplore()\n"
-  },
-  "maze_solver": {
-    "description": "Finds a path through a maze to the nearest of several target coordinates. It explores systematically using BFS and avoids known impassable tiles and objects.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "target_coords": {
-          "type": "string",
-          "description": "A JSON string of a list of target coordinates."
-        },
-        "traversable_tiles": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "target_coords",
-        "traversable_tiles"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve_maze():\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    traversable_tile_types = input_data['traversable_tiles'].split(',')\n    try:\n        target_coords = json.loads(input_data['target_coords'])\n        target_nodes = { (d['x'], d['y']) for d in target_coords }\n    except (json.JSONDecodeError, KeyError) as e:\n        print(f\"FAIL: Invalid target_coords JSON. {e}\")\n        return\n\n    try:\n        root = ET.fromstring(map_xml_string)\n        map_width = int(root.get('width'))\n        map_height = int(root.get('height'))\n    except Exception as e:\n        print(f\"Error parsing map XML: {e}\")\n        return\n\n    impassable = set()\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            y = int(row.get('id'))\n            if tile.get('type') not in traversable_tile_types:\n                impassable.add((x, y))\n            if tile.find('Object') is not None:\n                impassable.add((x, y))\n\n    start_node = (start_x, start_y)\n    queue = deque([[start_node]])\n    visited = {start_node}\n\n    if start_node in impassable:\n        print(\"FAIL: Start node is impassable.\")\n        return\n\n    while queue:\n        path = queue.popleft()\n        node = path[-1]\n\n        if node in target_nodes:\n            path_json = json.dumps([{\"x\": p[0], \"y\": p[1]} for p in path])\n            print(path_json)\n            return\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (node[0] + dx, node[1] + dy)\n            \n            if not (1 <= neighbor[0] <= map_width and 1 <= neighbor[1] <= map_height):\n                continue\n            \n            if neighbor not in visited and neighbor not in impassable:\n                visited.add(neighbor)\n                new_path = list(path)\n                new_path.append(neighbor)\n                queue.append(new_path)\n\n    print(\"FAIL: No path found to any target.\")\n\nsolve_maze()"
   }
 }
