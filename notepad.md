@@ -1,6 +1,6 @@
 # I. Core Principles & Lessons Learned
-- **Trust the Data:** I must trust my verified conclusions documented in the notepad and the output of my tools/agents over my own perception. My failure to trust my conclusion that the western Seafoam Islands was a dead end led to a significant waste of time.
-- **Immediate Maintenance is Mandatory:** I must perform maintenance (notepad, agents) and fix tools *immediately*. Deferring these actions is a critical process failure for an LLM.
+- **Trust the Data & Your Tools:** I must trust the game's data and the output of my verified tools over my own flawed perception. My failure to trust `gem_path_planner_v4`'s complex but correct path led to a significant waste of time trying to manually navigate, which was impossible. When a tool gives an unexpected result, the first step is to analyze *why* it might be correct, not to assume it's broken.
+- **Immediate Maintenance is Mandatory:** I must perform maintenance (notepad, agents) and fix tools *immediately*. Deferring these actions is a critical process failure. My delay in fixing the pathfinder was a major error.
 - **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
 - **Falsify Your Beliefs:** To avoid confirmation bias, I must actively try to disprove my own conclusions with alternative tests after an initial hypothesis is confirmed.
 
