@@ -82,12 +82,13 @@
 
 ## III. Current Investigation: Team Rocket Hideout
 
-*   **Objective:** Find the secret Team Rocket entrance in Mahogany Town, as per Lance's instructions, and disable the radio signal.
-*   **Current Location:** Team Rocket Hideout, Floor B1F.
-*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The B1F floor puzzle has two solutions. The eastern path was a dead end. I have discovered a new western path and am currently exploring it.
+*   **Objective:** Find the Team Rocket Boss and disable the radio signal.
+*   **Current Location:** Team Rocket Hideout, Floor B3F.
+*   **Key Discoveries:** The hideout entrance is in the Mahogany Mart. The ladder at (27, 2) on B1F is a one-way exit to the Mahogany Mart. Picking up an item with a full bag causes a dialogue loop.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL (from Rocket Girl on B3F)
+*   **Password 2:** Unknown
 
 ## IV. Battle Discoveries & Type Chart
 
@@ -96,12 +97,7 @@
 
 ## V. Open Investigations
 
-### Inventory Management Bug
-*   **Observation:** All menu-based attempts to free an inventory slot (`TOSS`, `GIVE`, `DEPOSIT`) have failed, resulting in a menu loop.
-*   **Hypothesis 1 (Disproven):** Using an item on a full-health Pokémon in battle will consume it. **Test Result:** The game prevents this action.
-*   **Primary Hypothesis:** The only way to free an inventory slot is to consume an item that has an effect during a battle (e.g., healing a damaged Pokémon).
-
-## VI. Future Strategy Notes
-*   For complex sequential puzzles, I should consider defining a `sequential_puzzle_solver` agent to avoid manual error and increase efficiency.
-### Team Rocket Hideout Navigation Notes
-* The ladder at (27, 2) on B1F is a one-way exit to the Mahogany Mart.
+### Untested Assumptions
+*   **Hypothesis:** The second password for the Team Rocket hideout is located on B3F.
+*   **Alternative Hypothesis:** The password is held by an NPC I've already encountered, or is in a previously explored area.
+*   **Test:** If B3F yields no password, I will systematically re-explore the entire hideout, talking to every NPC again.
