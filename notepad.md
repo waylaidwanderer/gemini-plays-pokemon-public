@@ -33,4 +33,5 @@
 *   **Passwords Found:** The two passwords are 'SLOWPOKETAIL' and 'RATICATE TAIL'.
 
 ### Current Hypothesis
-*   **H23 (Active):** Lance was not at the hideout entrance in the mart. He has likely gone inside the hideout. I must re-enter the hideout and find him there to trigger the next event.
+*   **H23 (Disproven):** Lance was not waiting in the mart or on B2F. **Result:** No sign of Lance in the explored areas of the hideout.
+*   **H24 (Active):** After obtaining the two passwords on B3F, I must speak to Lance again on that same floor to trigger the next event (e.g., him opening the door on B2F).
