@@ -38,3 +38,4 @@
 ## IV. Tool Status
 *   **reliable_pathfinder:** This tool had a bug where it would path through `WARP_PANEL` tiles, causing accidental teleportation. I have implemented a fix to treat `WARP_PANEL` as impassable.
 *   **Trap Discovered:** Stepping on tile (2, 7) in Team Rocket Hideout B1F (Map ID 3_49) triggers a warp to a corrupted glitch map. This is a trap, not a path forward.
+*   **Warp Panel Mechanics:** The warp panel at (5, 15) is a one-way teleporter to (25, 2). The tile at (25, 2) is only an arrival point and not a return warp.
