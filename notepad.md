@@ -87,7 +87,7 @@
 
 *   **Primary Objective:** Find the Team Rocket Boss and disable the radio signal.
 *   **Current Blocker:** Navigating the Team Rocket Hideout.
-*   **Current Plan:** The eastern corridors on B1F and B2F have been confirmed as dead ends. My current hypothesis is that the path forward is through the western maze on B2F. I must explore this area thoroughly.
+*   **Current Plan:** The western maze on B2F is disconnected by a solid wall at Y=12. The path forward is not here. My new hypothesis is that I missed something on B1F. I will return to B1F to re-explore.
 
 ### Passwords
 *   **Password 1:** SLOWPOKETAIL
