@@ -21,17 +21,19 @@
 *   **Objective:** Find the Team Rocket Boss and disable the radio signal.
 *   **Main Obstacle:** Navigating the multi-floor hideout.
 
+### Current Hypothesis
+*   **H77 (Current):** The Rocket Grunt at (24, 14) is a scripted event trigger. Interacting with him is the necessary step to progress.
+
 ### Confirmed Facts & Discoveries
 *   **Passwords Found:** The two passwords are 'SLOWPOKETAIL' and 'RATICATE TAIL'.
 *   **B2F/B3F Layout:** Both B2F and B3F are split into two disconnected eastern and western sections. This has been confirmed by the `master_navigator` tool.
-*   **B2F Connectivity:** The eastern and western sections of B2F are not connected by any walkable path. This was confirmed by the `master_navigator` tool.
 *   **Path Forward:** A hidden one-way warp tile at coordinate (27, 2) on B2F warps the player to B3F at (27, 2), providing access to the eastern section of B3F.
 *   **Locked Door:** The final objective is likely behind the locked door on B3F at coordinates (10, 9) and (11, 9).
 
-### Current Hypothesis
-*   **H74 (Falsified):** There is a hidden pitfall or warp tile on the floor of B3F's eastern section that leads to an otherwise inaccessible area (possibly the western section of B3F or B2F). (Result: Falsified after a systematic search of all reachable floor tiles yielded no results.)
-
 ### Archived Hypotheses (Solved/Falsified)
+*   **H76 (Falsified):** The true path forward is on B2F West, accessed via the ladder at (3, 14) on B1F, which requires re-entering the hideout. (Result: This was based on the incorrect assumption that the current room was a dead end.)
+*   **H75 (Falsified):** Interacting with the main computer console is the trigger to disable the radio signal. (Result: Falsified after 3 systematic interaction attempts at different locations on the console yielded no results.)
+*   **H74 (Falsified):** There is a hidden pitfall or warp tile on the floor of B3F's eastern section that leads to an otherwise inaccessible area (possibly the western section of B3F or B2F). (Result: Falsified after a systematic search of all reachable floor tiles yielded no results.)
 *   **H73 (Falsified):** The spin tile maze on B2F has an alternate path that leads to the western section of B2F, which in turn provides access to the western section of B3F. (Result: Falsified, as the `master_navigator` tool confirmed that the eastern and western sections of B2F are not connected by any walkable path, making the maze unreachable from the east.)
 *   **H72 (Falsified):** There is a hidden switch or warp tile in the eastern section of B3F. (Result: Falsified after a systematic search of all reachable wall tiles yielded no results.)
 *   **H71 (Falsified):** Leaving and re-entering this area via the ladder at (27, 2) will change the map state, opening a new path. (Result: Falsified by `master_navigator`, which confirmed no path exists after re-entry.)
@@ -53,13 +55,5 @@
 *   **H48 (Falsified):** Speaking to Lance on B3F after obtaining both passwords is the required trigger to open the locked door on B2F. (Result: Falsified. Lance is no longer on B3F.)
 *   **H47 (Falsified):** With the arrow tiles on B1F permanently disabled, a new path is now accessible within the central maze area. (Result: Falsified. The central maze area is a series of dead ends.)
 *   **H46 (Falsified):** The switch at (19, 11) on B1F can be toggled back on. (Result: Falsified. It's a one-time switch.)
-*   **H45 (Falsified):** The western corridor of B2F, accessed via the ladder at (3, 14), contains a path to the eastern section of the floor. (Result: Falsified. It's a dead end.)
-*   **H41 (Falsified):** The eastern corridor of B1F, accessed via the warp panel at (5, 15), contains a path to the boss. (Result: Falsified. It's a one-way exit.)
+*   **H45 (Falsified):** The western corridor of B1F, accessed via the warp panel at (5, 15), contains a path to the boss. (Result: Falsified. It's a one-way exit.)
 *   **H39 (Falsified):** The invisible floor maze near the entrance contains the primary path forward. (Result: Falsified. It's a series of dead ends or loops.)
-*   **B2F Locked Door Interaction:** Interacting with the locked door at (14, 12) on B2F does not prompt for a password.
-*   **Lance's Location:** Lance is not on B3F or B2F waiting to open any doors.
-*   **B1F Maze:** The central arrow-tile maze and the invisible floor maze on B1F are dead ends.
-*   **B2F/B3F Connectivity:** The eastern and western sections of B2F and B3F are not physically connected.
-*   **Bookshelf Puzzle:** Interacting with the 'Oath' bookshelves does not seem to trigger any immediate event or unlock any paths.
-*   **H76 (Current):** The true path forward is on B2F West, accessed via the ladder at (3, 14) on B1F, which requires re-entering the hideout.
-*   **H75 (Falsified):** The true path forward is back on B2F and requires navigating the spin tile maze in a specific, non-obvious sequence. (Result: This hypothesis is likely correct, but my attempt to reach it from the eastern section was flawed. Revising to H76.)
