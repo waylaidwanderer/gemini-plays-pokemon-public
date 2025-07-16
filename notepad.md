@@ -29,7 +29,7 @@
 - **Hypothesis 1 (Disproven):** The script is crashing silently.
 - **Test 1-5:** A series of minimal tests confirmed the execution environment is working, the XML parsing is successful, and the import statement is correct. The script is not crashing.
 - **Conclusion:** The error is not a crash, but a logical flaw.
-- **Hypothesis 2 (Current):** The grid generation logic is incorrectly marking a necessary tile as impassable, creating a disconnect between the start and end points.
+- **Hypothesis 2 (Current):** The A* algorithm's neighbor-checking logic has a subtle flaw.
 - **Test 6:** Ran a simplified version of the tool that only visualizes the grid. It ran successfully and showed a clear path.
-- **Conclusion:** The error is a subtle logical flaw in the full script's grid generation that wasn't present in the simplified visualizer. The A* search itself is likely fine, but it's being fed a bad map.
-- **Test 7:** [PENDING] Redefine the tool to *both* print the visual grid *and* run the full A* search. This will let me see the exact grid the failing algorithm is using and spot the error.
+- **Test 7:** Ran a version of the tool that both prints the visual grid and runs the full A* search. The visualization again showed a clear path, but the A* search failed. This confirms the error is in the A* logic itself, not the grid generation.
+- **Test 8:** [PENDING] Redefine the tool to add hyper-granular print statements *inside* the A* search loop to trace its exact path and decision-making process.
