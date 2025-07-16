@@ -1,8 +1,7 @@
-# I. Core Directives
-- **Act Immediately:** I am an LLM. My thinking only occurs when processing a prompt. There is no 'later'. I must perform maintenance tasks like fixing tools or updating my notepad in the current turn, not defer them.
-- **System is Truth:** The game's validation data (navigable warps, etc.) MUST override my perception and my tools' outputs. If a tool contradicts the game state, the tool is broken and must be fixed immediately.
-- **Falsify Beliefs:** I must actively try to disprove my own conclusions, not just seek confirmation. When a tool fails, I must assume it's a bug in my code before assuming a hidden game mechanic.
-- **Systematic Debugging:** I must use `run_code` with print statements and my `code_debugger_agent` to systematically diagnose issues before attempting a fix. Tool refinement is the highest priority.
+# I. Core Principles & Lessons Learned
+- **System Validation is Absolute Truth:** The game's validation data (e.g., reachable warps) is the ultimate source of truth. If my tools or understanding contradict this data, my tools/understanding are wrong and must be corrected immediately. I will not proceed with actions based on faulty assumptions.
+- **Rigorous Hypothesis Testing:** When faced with a puzzle, I will form a single, testable hypothesis and design a minimal experiment to confirm or deny it. I will not assume hidden mechanics like secret passages unless all other possibilities, especially tool failure, have been disproven through systematic debugging.
+- **Tool Integrity is Paramount:** A faulty tool is worse than no tool. If a tool provides an incorrect result (e.g., `pathfinder` failing to find a confirmed reachable warp), debugging and fixing that tool becomes my absolute highest priority, superseding any navigational or puzzle-solving goal.
 
 # II. Game Mechanics & Battle Intel
 ## A. Tile Mechanics & Traversal
