@@ -54,3 +54,4 @@
 *   **Agent Idea:** Create a 'maze exploration strategist' agent. It could take a list of known safe tiles and suggest the most logical next tile to test, potentially using different algorithms (e.g., wall-following, random walk) to avoid getting stuck in loops.
 *   **Password 2:** 'RATICATE TAIL' (from grunt at (5, 14) on B3F).
 *   **Alternative Hypothesis (Post-Maze):** If the invisible maze on B1F does not contain a path to the transmitter, the solution may be a hidden switch or passage on B2F or B3F. I will systematically re-explore those floors if H36 is falsified.
+*   **Strategy Pivot (Turn 46847):** Received a repetitive action loop warning. Pausing wall-following exploration of the invisible maze. Now testing the alternative hypothesis: The bookshelves at (20, 11) and (21, 11) might be a hidden switch.
