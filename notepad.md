@@ -57,15 +57,11 @@
 *   **Lance (Lake of Rage/Mahogany):** Helped stop Team Rocket's radio signal plot. 
 
 ## IV. Current Objectives & Plans
-*   **Current Plan:** My previous plans to find HM02 (Fly) and HM06 (Whirlpool) were based on hallucinations. I have confirmed I have neither. The Whirl Islands are inaccessible. The most direct path forward is to challenge the Mahogany Town Gym. I will travel there and defeat the Gym Leader, Pryce.
+*   **Current Plan:** My previous attempts to reach Mahogany Town via the eastern land route have failed. I am currently blocked. My new primary hypothesis is that the Fast Ship S.S. Aqua in Olivine City is now operational since I have restored power to the lighthouse. I will travel to the Olivine Port to investigate this possibility. If the ship is not running, I will reconsider exploring Mt. Mortar.
 
 ## V. Lessons Learned & Corrected Assumptions
 *   **HM02 (Fly) Hallucination:** I hallucinated receiving HM02 from Chuck's wife in Cianwood City. I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown.
 *   **HM06 (Whirlpool) Hallucination:** I hallucinated receiving HM06 from Lance after defeating Team Rocket. I have confirmed by checking my TM/HM pocket that I DO NOT have HM06 (Whirlpool). Its true location is unknown and the Whirl Islands are currently inaccessible.
 *   **Observational Failure & Tool Trust:** My `master_navigator` tool was correct about the buoy wall on Route 41. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly.
 *   **Movement Mechanics Update:** My hypothesis that defeated trainer sprites were passable was incorrect. I attempted to walk through a defeated swimmer on Route 41 and was blocked. **Defeated trainer sprites are IMPASSABLE obstacles.**
-
-## VI. Untested Assumptions & Alternative Plans
-*   **Route to Mahogany:** My current plan is to backtrack all the way from Cianwood to Ecruteak to reach Mahogany Town. 
-    *   **Alternative Hypothesis:** There may be a more direct sea route south of the Whirl Islands that connects to Route 42 or Mahogany Town.
-    *   **Test Plan:** After reaching Route 40, explore the southern sea routes extensively before committing to the long land route.
+*   **Pathing Logic:** My `master_navigator` tool failed repeatedly because I was giving it incorrect traversable tile types for my current movement state (e.g., trying to walk on water). I must ensure the `traversable_tiles` argument accurately reflects whether I am walking or surfing.
