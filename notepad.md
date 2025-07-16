@@ -38,10 +38,11 @@
 *   **H41:** The eastern corridor of B1F, accessed via the warp panel at (5, 15), contains a path to the boss. (Result: It's a one-way exit.)
 *   **H39:** The invisible floor maze near the entrance contains the primary path forward. (Result: It's a series of dead ends or loops.)
 
+*   **H49:** Lance has moved to the locked door on B2F and is waiting for me there. Interacting with him in front of the door will trigger the event. (Result: Falsified. Lance is not on B2F. Pathfinding confirms B2F is a closed loop, inaccessible from the eastern B3F ladder.)
+
 ### Current Hypothesis
-*   **H49:** Lance has moved to the locked door on B2F and is waiting for me there. Interacting with him in front of the door will trigger the event.
-*   **Test:** Navigate to the locked door on B2F at (14, 12) and see if Lance is present.
-*   **Falsification Plan:** If Lance is not at the door, I will systematically re-explore all floors of the hideout to find him or another trigger.
+*   **H52:** There is a hidden passage or switch in the outer corridor of B2F that provides access to the central area.
+*   **Test:** Systematically interact with every wall tile in the outer B2F corridor.
 
 ## IV. Future Testing & Verification Notes
 *   **Ledge Verification:** I must explicitly try to move *up* a ledge at the next opportunity to scientifically confirm this is impossible.
