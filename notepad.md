@@ -26,20 +26,18 @@
 
 ### Confirmed Facts & Discoveries
 *   **B1F Switch:** Flipping the switch at (19, 11) on B1F toggles the arrow tiles on and off. It is currently OFF.
-*   **B1F Scientist (Jed):** The scientist at (18, 12) stands near the path to the switch but does not block it.
+*   **Passwords Found:** The two passwords are 'SLOWPOKETAIL' and 'RATICATE TAIL'.
 *   **B1F Warp Panel:** The warp panel at (5, 15) is a one-way teleporter to (25, 2), leading to an isolated exit area via the Mahogany Mart.
 *   **B2F Locked Door Interaction:** Interacting with the locked door at (14, 12) twice only yields the message "It needs a password to open." It does not prompt for input.
 *   **B3F Layout:** B3F is split into two disconnected sections. The western section containing the boss and Lance is inaccessible from the eastern ladder.
-*   **Passwords Found:** The two passwords are 'SLOWPOKETAIL' and 'RATICATE TAIL'.
-*   **B2F West Corridor:** The western corridor of B2F, accessed via the ladder at (3, 14), is a dead end and does not connect to the main area.
 
-### Hypotheses Log
-### Hideout Progression Plan (v16 - Eastern Section Exploration)
-*   **Observation (H41 Confirmed):** The warp panel at (5, 15) teleported me to an isolated eastern section of B1F at (25, 2). This 'trap' was the correct path forward.
-*   **Hypothesis (H44):** The ladder at (27, 2) in this new section is the exit and will lead me closer to the Team Rocket boss.
-*   **Method:** I will explore this new area, starting with the ladder at (27, 2).
+### Hideout Progression Plan (v17 - B2F Exploration)
+*   **Hypothesis (H45):** The western corridor of B2F, accessed via the ladder at (3, 14), is not a dead end and contains a path to the eastern section of the floor.
+*   **Method:** Systematically explore all reachable unseen tiles in the western corridor of B2F, starting from my current position at (3, 13).
 
 ### Falsified Hypotheses
+*   H41: The eastern corridor of B1F, accessed via the warp panel at (5, 15), contains a path to the boss. (Result: It's a one-way exit.)
+*   H39: The invisible maze on B1F contains the primary path forward. (Result: It's a series of dead ends or loops.)
 *   H34: Navigating the invisible floor maze and reaching the door does not automatically trigger a password prompt.
 *   H35: The key to opening the door is not a direct interaction after learning the passwords. The transmitter area is also inaccessible from any known path on B2F.
 *   H33: Disabling the arrow tiles on B1F will open a new path on B2F.
@@ -49,8 +47,3 @@
 ## IV. Future Testing & Verification Notes
 *   **Ledge Verification:** I have assumed all `LEDGE_HOP_...` tiles are one-way based on observation. I must explicitly try to move *up* a ledge at the next opportunity to scientifically confirm this is impossible.
 *   **Object Traversal:** I must test if it's possible to walk on object tiles like `BOOKSHELF` when they are not blocked by walls to confirm they are universally impassable.
-*   **Password Door Re-check:** My `puzzle_master` agent recommended I try the passwords. I will do this as soon as I can reach the door.
-*   **Alternative Hypothesis (Post-Maze):** If the invisible maze on B1F does not contain a path to the transmitter, the solution may be a hidden switch or passage on B2F or B3F. I will systematically re-explore those floors if H39 is falsified.
-
-### Alternative Hypothesis (Post-Maze Exploration)
-*   **H40 (Contingency):** If a full circuit of the invisible maze using the right-hand rule does not reveal a new path or ladder and instead leads back to the start, the maze is likely a red herring. The true solution may involve a trigger elsewhere. The next step would be to systematically re-explore B2F and B3F to see if any NPC dialogue has changed or if a new path has opened now that I possess both passwords.
