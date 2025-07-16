@@ -64,3 +64,8 @@
 *   **HM06 (Whirlpool) Hallucination:** I hallucinated receiving HM06 from Lance after defeating Team Rocket. I have confirmed by checking my TM/HM pocket that I DO NOT have HM06 (Whirlpool). Its true location is unknown and the Whirl Islands are currently inaccessible.
 *   **Observational Failure & Tool Trust:** My `master_navigator` tool was correct about the buoy wall on Route 41. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly.
 *   **Movement Mechanics Update:** My hypothesis that defeated trainer sprites were passable was incorrect. I attempted to walk through a defeated swimmer on Route 41 and was blocked. **Defeated trainer sprites are IMPASSABLE obstacles.**
+
+## VI. Untested Assumptions & Alternative Plans
+*   **Route to Mahogany:** My current plan is to backtrack all the way from Cianwood to Ecruteak to reach Mahogany Town. 
+    *   **Alternative Hypothesis:** There may be a more direct sea route south of the Whirl Islands that connects to Route 42 or Mahogany Town.
+    *   **Test Plan:** After reaching Route 40, explore the southern sea routes extensively before committing to the long land route.
