@@ -1,6 +1,7 @@
 # I. Core Principles & Lessons Learned
 - **Systematic Debugging is Mandatory:** I must use `run_code` with print statements and my `code_debugger_agent` to systematically diagnose issues before attempting a fix. Tool refinement is the highest priority.
-- **Falsify Your Beliefs:** I must actively try to disprove my own conclusions. My assumption that the Seafoam Islands cave was a single interconnected dungeon was a major case of confirmation bias.
+- **Falsify Your Beliefs:** I must actively try to disprove my own conclusions, not just seek confirmation. My assumption that the Seafoam Islands cave was a single interconnected dungeon was a major case of confirmation bias.
+- **System Validation is Absolute Truth:** The game's validation data (navigable warps, unseen tiles) MUST override my own perception. If there is a discrepancy, my reasoning is flawed, not the data.
 
 # II. Game Mechanics & Battle Intel
 ## A. Tile Mechanics & Traversal
@@ -27,21 +28,19 @@
 ## A. Seafoam Islands Boulder Puzzle
 - **Goal:** Stop the strong water current on Seafoam Islands B4F.
 - **Current Hypothesis:** The Seafoam Islands consist of two separate, disconnected caves. The solution must involve manipulating boulders in both caves to affect the current on B4F.
-- **Current Plan:** Fully re-explore the western cave to confirm or deny that it is a dead end for the puzzle.
 - **Falsified Hypothesis Log:**
   1. The western and eastern sections of the cave are connected internally on any floor. (Failed, pathfinder confirmed no path exists on any floor).
   2. The eastern island on Route 20 is reachable by surfing directly from the western part of the route. (Failed, pathfinder v14 confirmed no path exists).
   3. The path to the eastern Seafoam Islands entrance is accessible from southern connections on Route 19. (Failed, both southern connections on Route 19 led to isolated, dead-end sections of Route 20).
 
-# IV. Untested Hypotheses & Future Plans
+# IV. Future Plans & Ideas
 - **Untested Hypotheses:**
   - Test suspicious rock walls for secret passages.
-- **Tool Development Ideas:**
+- **Tool & Agent Development Ideas:**
   - **Cove Detector Tool:** A tool that analyzes the surrounding map XML to determine if the player is in an enclosed space (e.g., a cove surrounded by impassable tiles on three sides).
-
-# I. Core Principles & Lessons Learned (NEW)
-- **System Validation is Absolute Truth:** The game's validation data (navigable warps, unseen tiles) MUST override my own perception. If there is a discrepancy, my reasoning is flawed, not the data. I must immediately trust and act on this data.
+  - **Multi-Floor Navigation Agent:** An agent that can create a high-level plan to navigate between floors in a complex area like a cave or building, providing a sequence of destinations (e.g., 'Go to Ladder A', 'Go to Hole B').
 
 # V. Tool Development & Debugging Log
 ## A. gem_path_planner_v19
 - **Failure (Turn 76938):** The tool generated a long, invalid path on Seafoam Islands B1F from (18, 5) to (8, 6), attempting to traverse impassable tiles and non-existent connections between elevated platforms. The path was completely nonsensical. Manual pathing was required.
+- **Failure (Turn 76941):** The tool generated an invalid path from (17,10) to (8,6) that attempted to move through an impassable tile at (16,10).
