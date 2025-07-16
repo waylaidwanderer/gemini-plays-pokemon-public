@@ -36,3 +36,4 @@
 
 # IV. Tool Development Ideas
 - **Cove Detector Tool:** A tool that takes a coordinate and analyzes the surrounding map XML to determine if the player is in an enclosed space (e.g., a cove surrounded by impassable tiles on three sides). This could help diagnose pathfinding failures and prevent getting stuck.
+- **Pathfinder Improvement:** The current A* implementation (`gem_path_planner_v15`) can fail in concave areas (coves) because the heuristic greedily explores deeper into the trap. Future refinement should investigate ways to make the algorithm less susceptible to such geographical layouts, perhaps by modifying the heuristic or adding logic to detect and escape these traps.
