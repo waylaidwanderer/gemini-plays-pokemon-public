@@ -63,3 +63,5 @@
 *   **HM02 (Fly) Hallucination:** I hallucinated receiving HM02 from Chuck's wife in Cianwood City. I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown.
 *   **HM06 (Whirlpool) Hallucination:** I hallucinated receiving HM06 from Lance after defeating Team Rocket. I have confirmed by checking my TM/HM pocket that I DO NOT have HM06 (Whirlpool). Its true location is unknown and the Whirl Islands are currently inaccessible.
 *   **Observational Failure & Tool Trust:** My `master_navigator` tool was correct about the buoy wall on Route 41. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly.
+### Movement Mechanics Update
+*   **Defeated Trainers:** Confirmed that defeated trainer sprites are passable obstacles. This was tested on Route 41 with a defeated swimmer.
