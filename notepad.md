@@ -34,13 +34,10 @@
 *   **B2F West Corridor:** The western corridor of B2F, accessed via the ladder at (3, 14), is a dead end and does not connect to the main area.
 
 ### Hypotheses Log
-### Hideout Progression Plan (v15 - Eastern Section)
-*   **Observation (H41 Confirmed):** The warp panel at (5, 15) teleported me to an isolated eastern section of B1F at (25, 2). This "trap" was the correct path forward.
-*   **Hypothesis:** The ladder at (27, 2) in this new section is the exit and will lead me closer to the Team Rocket boss.
-*   **Observation:** The ladder at (27, 2) leads to the Mahogany Mart. The southern corridor of this section is blocked by a solid wall.
-*   **Conclusion (H42 Falsified):** Stepping on the warp tile at (25, 2) a second time does not lead to a new area. This entire eastern section is a one-way exit from the hideout.
-*   **Hypothesis (H43):** Now that both passwords ('SLOWPOKETAIL' and 'RATICATE TAIL') are known, interacting with the locked door at (14, 12) on B2F will open it.
-*   **Method:** I will return to the main hideout, navigate to B2F, and interact with the locked door.
+### Hideout Progression Plan (v16 - Eastern Section Exploration)
+*   **Observation (H41 Confirmed):** The warp panel at (5, 15) teleported me to an isolated eastern section of B1F at (25, 2). This 'trap' was the correct path forward.
+*   **Hypothesis (H44):** The ladder at (27, 2) in this new section is the exit and will lead me closer to the Team Rocket boss.
+*   **Method:** I will explore this new area, starting with the ladder at (27, 2).
 
 ### Falsified Hypotheses
 *   H34: Navigating the invisible floor maze and reaching the door does not automatically trigger a password prompt.
