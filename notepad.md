@@ -46,3 +46,4 @@
   - **CRITICAL CORRECTION (Turn 76145):** Received a system warning: 'Reachable Unseen Tiles Count Mismatch'. The system reported 15 reachable unseen tiles, proving my conclusion that the western area is unreachable was **FALSE**. My map model is flawed. There must be a way to the west from my current location.
   - **Hypothesis 7:** The western wall contains a secret, traversable tile. I will now use SURF and systematically attempt to move left into every tile of the western rock face (column X=20) to find this passage.
 - `strong_current`: A water tile with a current that is too strong to SURF against. Boulders may affect its flow.
+- **Water Traversal:** You cannot SURF from a `water` tile directly onto an adjacent `elevated_ground` tile. Transitions between water and land seem to be restricted to `ground` or `grass` tiles.
