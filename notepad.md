@@ -59,3 +59,4 @@
 
 ## V. Failed Hypotheses & Corrected Misconceptions
 *   **Mahogany Gym Blockade:** The trigger for the Fisher to move is not defeating Team Rocket, buying a RAGECANDYBAR (the shop is fake), or talking to any of the local NPCs post-Team-Rocket.
+*   **TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
