@@ -28,7 +28,10 @@
 *   **Locked Door:** The final objective is likely behind the locked door on B3F at coordinates (10, 9) and (11, 9).
 
 ### Current Hypothesis
-*   **H57 (Current):** A path exists from my current location to the tile in front of the locked door at (10, 10). Interacting with the door after obtaining both passwords will open it.
+*   **H58 (Current):** There is a hidden switch or warp in the current western chamber of B3F that opens the path to the locked door.
+
+## V. Archived Hypotheses (Solved/Falsified)
+*   **H57:** A path exists from my current location to the tile in front of the locked door at (10, 10). (Result: Falsified. The `master_navigator` tool confirmed no path exists, indicating the western section of B3F is also split.)
 
 ## IV. Future Testing & Ideas
 *   **Agent Idea: `code_debugger`:** An agent that takes a Python script and an error message as input, and suggests a fix or the location of the bug. This could streamline tool debugging.
