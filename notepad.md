@@ -28,7 +28,7 @@
 *   **Locked Door:** The final objective is likely behind the locked door on B3F at coordinates (10, 9) and (11, 9).
 
 ### Current Hypothesis
-*   **H69 (Current):** Re-entering this area via the ladder at (27, 2) will change the map state, opening a path.
+*   **H71 (Current):** Leaving and re-entering this area via the ladder at (27, 2) will change the map state, opening a new path.
 
 ## IV. Future Testing & Ideas
 *   **Agent Idea: `hypothesis_generator`:** An agent that takes the current puzzle state (map description, failed hypotheses from notepad) and suggests new, testable hypotheses. This could formalize my brainstorming process.
@@ -37,6 +37,13 @@
 *   **Agent Idea: `log_summarizer`:** An agent that could periodically review turn history to extract key events and help identify patterns or missed clues.
 
 ## V. Archived Hypotheses (Solved/Falsified)
+*   **H70 (Falsified):** One of the floor tiles in the isolated eastern corridor of B2F is a hidden spin or arrow tile. (Result: Falsified. A systematic search of every floor tile in the corridor yielded no results.)
+*   **H69 (Falsified):** Re-entering this area via the ladder at (27, 2) will change the map state, opening a path. (Result: Falsified. A systematic search of all walls in the resulting corridor revealed no hidden switches.)
+*   **H68 (Falsified):** The ladder at (27, 2) is a two-way warp. Ascending from B3F at (27, 2) will lead to a new, accessible section of B2F. (Result: Falsified. A systematic search of all walls in the resulting corridor revealed no hidden switches.)
+*   **H67 (Falsified):** There is a missed interaction or hidden switch in the eastern section of B2F. (Result: Falsified by `master_navigator` tool, which confirmed no path exists to the transmitter from the eastern section.)
+*   **H65 (Falsified):** A hidden arrow tile maze on B3F is the key to crossing between the disconnected eastern and western sections. (Result: Falsified by `master_navigator` tool, which confirmed no path exists between the eastern and western sections of this floor.)
+*   **H63 (Falsified):** A path connecting the disconnected sections of B2F exists via the floor below, B3F. (Result: Falsified by `master_navigator` tool, which confirmed no path exists between the eastern and western sections of this floor.)
+*   **H62 (Falsified):** A 'spin tile maze' connects the eastern and western sections of B2F. (Result: Falsified by `puzzle_master` agent's suggestion being immediately disproven by the `master_navigator` tool, which confirmed no path exists between the two sections on this floor.)
 *   **H60 (Falsified):** Lance has moved to the locked door on B2F at coordinates (14, 12) and is waiting for me there. (Result: Falsified. Lance was not at the door, and it did not open.)
 *   **H59 (Falsified):** There is a hidden trigger on a wall or floor tile in the western chamber of B3F that opens the path to the locked door. (Result: Falsified. A systematic search of all walls and objects in the chamber yielded no results, and my `master_navigator` confirmed no path exists.)
 *   **H58 (Falsified):** The bookshelves in the western chamber of B3F contain a hidden switch. (Result: Falsified. Interacting with all accessible bookshelves yielded only flavor text.)
@@ -56,8 +63,3 @@
 *   **B1F Maze:** The central arrow-tile maze and the invisible floor maze on B1F are dead ends.
 *   **B2F/B3F Connectivity:** The eastern and western sections of B2F and B3F are not physically connected.
 *   **Bookshelf Puzzle:** Interacting with the 'Oath' bookshelves does not seem to trigger any immediate event or unlock any paths.
-*   **H62 (Falsified):** A 'spin tile maze' connects the eastern and western sections of B2F. (Result: Falsified by `puzzle_master` agent's suggestion being immediately disproven by the `master_navigator` tool, which confirmed no path exists between the two sections on this floor.)
-*   **H63 (Falsified):** A path connecting the disconnected sections of B2F exists via the floor below, B3F. (Result: Falsified by `master_navigator` tool, which confirmed no path exists between the eastern and western sections of this floor.)
-*   **H65 (Falsified):** A hidden arrow tile maze on B3F is the key to crossing between the disconnected eastern and western sections. (Result: Falsified by `master_navigator` tool, which confirmed no path exists between the eastern and western sections of this floor.)
-*   **H67 (Falsified):** There is a missed interaction or hidden switch in the eastern section of B2F. (Result: Falsified by `master_navigator` tool, which confirmed no path exists to the transmitter from the eastern section.)
-*   **H68 (Falsified):** The ladder at (27, 2) is a two-way warp. Ascending from B3F at (27, 2) will lead to a new, accessible section of B2F. (Result: Falsified. A systematic search of all walls in the resulting corridor revealed no hidden switches.)
