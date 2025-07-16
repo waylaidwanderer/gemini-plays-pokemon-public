@@ -60,12 +60,12 @@
 
 ## IV. Current Objectives & Plans
 *   **Primary Goal:** Defeat Pryce, the Mahogany Town Gym Leader, to earn the Glacier Badge.
-*   **Current Obstacle:** A Fisher is blocking the gym entrance at (6, 14).
-*   **Current Plan:** 
-    1. Travel to Mahogany Town.
-    2. Conduct a thorough sweep of the town: talk to every NPC again and re-check all buildings to test the hypothesis that the trigger is local.
-    3. If the local trigger hypothesis fails, proceed with the plan to acquire a Pokémon with Fly.
-    4. Test the alternative hypotheses: healing the Miltank on Route 39 or exploring the Whirl Islands.
+*   **Current Obstacle:** A Fisher is blocking the gym entrance at (6, 14) in Mahogany Town.
+*   **Current Plan:**
+    1.  Acquire a Pokémon that can learn Fly to improve travel efficiency. My Hoothoot in the PC is the primary candidate.
+    2.  Withdraw Hoothoot from the PC in Ecruteak City.
+    3.  Teach Hoothoot the move Fly.
+    4.  With Fly, I can more easily test my other hypotheses for unblocking the Mahogany Gym, such as healing the Miltank on Route 39 or further exploring the Whirl Islands.
 
 ## V. Failed Hypotheses & Corrected Misconceptions
 *   **Mahogany Gym Blockade:** The trigger for the Fisher to move is NOT defeating Team Rocket or talking to any of the local NPCs post-Team-Rocket (initial sweep).
