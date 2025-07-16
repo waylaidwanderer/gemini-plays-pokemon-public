@@ -44,3 +44,6 @@
 - ↕️: Stairs/Ladder (Bidirectional)
 - 🛬: Forced Arrival Point (Ledge/Hole)
 - 🔄: Switch/Puzzle Object
+- **H2:** The switch at `(3, 6)` toggles the state of the gates at `(25, 14)` and `(26, 14)`.
+  - **Test 1 (Turn 77437):** After pressing the switch a second time, observed gates at `(25, 14)` & `(26, 14)` are now closed.
+  - **Plan:** Return to the switch at `(3, 6)` and press it a third time to test if it reopens these gates.
