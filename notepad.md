@@ -1,7 +1,6 @@
 # I. Core Principles & Lessons Learned
-- **Immediate Maintenance is Mandatory:** I must perform maintenance (notepad, agents) and fix tools *immediately*. Deferring these actions is a critical process failure. My delay in fixing the pathfinder was a major error.
-- **Systematic Problem Solving:** For any puzzle, I must use my notepad to log observations, form a single testable hypothesis, record the test and its outcome, and then form a conclusion. This structured approach prevents chaos and tunnel vision.
-- **Falsify Your Beliefs:** To avoid confirmation bias, I must actively try to disprove my own conclusions with alternative tests after an initial hypothesis is confirmed.
+- **Systematic Debugging is Mandatory:** My previous brute-force method of fixing tools was a critical failure. I must use `run_code` with print statements and my `code_debugger_agent` to systematically diagnose issues before attempting a fix.
+- **Falsify Your Beliefs:** I must actively try to disprove my own conclusions with alternative tests after an initial hypothesis is confirmed. My assumption that B2F was disconnected was a major case of confirmation bias, which the system warnings corrected.
 
 # II. Game Mechanics & Battle Intel
 ## A. Tile Mechanics & Traversal
@@ -11,40 +10,27 @@
 - `steps`: Allows vertical movement *only* between adjacent `ground` and `elevated_ground` tiles.
 - `grass`: Tall grass where wild Pokémon appear.
 - `ledge`: One-way traversal, can be jumped down but not up.
-- `water`: Requires SURF to traverse.
+- `water`: Requires SURF to traverse. Transition to/from land is only possible on `ground`, `grass`, or `steps` tiles.
 - `cuttable`: A tree that can be cut with HM01 Cut.
 - `hole`: A tile that causes the player to fall to the floor below.
 - `spinner_up/down/left/right`: Forces movement in a specific direction.
 - `ladder_up`/`ladder_down`: Warps that function as ladders between floors.
 - `gate_offscreen`/`closed_gate`/`open_gate`: Gates that can block paths.
 - `secret_passage`: Certain `impassable` wall tiles can be walked through.
+- `strong_current`: A water tile with a current that is too strong to SURF against. Boulders may affect its flow.
 
 ## B. Confirmed ROM Hack Changes
 - **Type Matchups & Immunities:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire; Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground; Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 - **Battle & Field Mechanics:** PSYWAVE/CONFUSE RAY can miss. Safari Zone has a time limit. Losing in a gym does not warp you out. FLY can end wild battles indoors but cannot be used to escape buildings. ROAR can end wild battles.
 
-# III. Current Objective & Puzzle Logs
-## A. Find the Secret Key (Cinnabar Gym)
-- **Current Plan:** Navigate the Seafoam Islands. The path seems to involve a series of boulder puzzles and water currents.
-- **Seafoam Islands Puzzle Log:**
-  - **Observation:** The sign on B4F states "Boulders might change the flow of water!". The strong water current at (21,17) on B4F has not been stopped by the boulders I pushed from B1F and B2F.
-  - **Hypothesis 1:** To stop the current on B4F, I must push the boulders on B3F into the holes on B3F.
-  - **Test (Turn 75987):** Pushed boulders at (6,15) and (4,16) into holes at (7,17) and (4,17). Then, attempted to SURF on B4F.
-  - **Outcome:** Received message 'The current is much too fast!'.
-  - **Conclusion:** Hypothesis 1 is FALSE. The boulders on B3F that I could access did not stop the current. There are more boulders on a southern platform I cannot reach. I need to find a path to this southern area.
-  - **Hypothesis 2:** The path to the southern platform on B3F is accessible from B2F.
-  - **Lesson Learned (B1F):** Repeatedly failed to path north from (14,15) due to an impassable wall. This confirms the need to verify paths and avoid repeating failed actions.
-  - **Observation (B4F):** System states there are 15 reachable unseen tiles in the west. My pathfinder, based on the map XML, reports the west is unreachable due to an impassable wall at X=20.
-  - **Hypothesis 3:** The map XML is incorrect, and the `impassable` tile at (20, 16) is secretly traversable.
-  - **Test (Turn 76098):** Attempted to move left from (21, 16) onto (20, 16). Movement was blocked.
-  - **Conclusion:** Hypothesis 3 is FALSE. The wall is real.
-  - **Hypothesis 5:** The 'reachable' status of the western tiles is due to the strong water current. Surfing *with* the current at (21, 17) will transport me to the western section of the map.
-  - **Test (Turn 76099):** Moved into the current at (21, 17). The game moved the player to (21, 17) and then immediately back to (21, 16).
-  - **Conclusion:** Hypothesis 5 is FALSE. The current is a hard barrier in both directions.
-  - **New Plan (after Agent consultation and System Warnings):** The agent suggested a multi-floor boulder-dropping strategy, which is a sound fallback plan. However, critical system warnings indicate that the western area of B4F is reachable from my current position, despite the map showing a wall. This contradicts my previous tests and the output of my pathfinder.
-  - **Hypothesis 6:** There is a secret passage through the impassable wall separating the eastern and western sections of B4F. I will now test this hypothesis by attempting to surf through the wall at various points.
-  - **CRITICAL CORRECTION (Turn 76145):** Received a system warning: 'Reachable Unseen Tiles Count Mismatch'. The system reported 15 reachable unseen tiles, proving my conclusion that the western area is unreachable was **FALSE**. My map model is flawed. There must be a way to the west from my current location.
-  - **Hypothesis 7:** The western wall contains a secret, traversable tile. I will now use SURF and systematically attempt to move left into every tile of the western rock face (column X=20) to find this passage.
-- `strong_current`: A water tile with a current that is too strong to SURF against. Boulders may affect its flow.
-- **Water Traversal:** You cannot SURF from a `water` tile directly onto an adjacent `elevated_ground` tile. Transitions between water and land seem to be restricted to `ground` or `grass` tiles.
-- **Elevation Change:** You cannot move directly from a `ground` tile to an `elevated_ground` tile. Traversal requires `steps`.
+# III. Puzzle Logs & Future Development
+## A. Seafoam Islands Boulder Puzzle
+- **Goal:** Stop the strong water current on Seafoam Islands B4F.
+- **Current Hypothesis:** The solution involves a complex, multi-floor boulder puzzle. The system has confirmed that B2F is fully connected, meaning there is a path from the western platforms to the eastern platforms on that floor. I must find this path.
+- **Previous Failed Hypotheses:**
+  1. The boulders on B3F's eastern platform would stop the current. (Failed, couldn't reach the southern boulders).
+  2. The path to the southern B3F boulders was through 1F. (Failed, 1F is disconnected).
+  3. The western B2F ladder was a dead end. (Failed, system confirmed all B2F ladders are connected).
+
+## B. Future Development Ideas
+- Create a new agent, `debug_log_interpreter`, that can analyze the output of `run_code` with debugging print statements to identify the root cause of a script failure.
