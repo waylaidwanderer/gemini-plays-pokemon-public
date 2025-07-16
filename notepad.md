@@ -55,4 +55,9 @@
 *   **Password 2:** 'RATICATE TAIL' (from grunt at (5, 14) on B3F).
 *   **Alternative Hypothesis (Post-Maze):** If the invisible maze on B1F does not contain a path to the transmitter, the solution may be a hidden switch or passage on B2F or B3F. I will systematically re-explore those floors if H36 is falsified.
 *   **H37 (Falsified):** The bookshelves at (20, 11) and (21, 11) are a hidden switch. Both only contain flavor text.
-*   **Strategy Pivot (Turn 46859):** All leads on B1F have been exhausted. New Hypothesis (H38): Scientist Jed at (18, 12) may have new dialogue now that both passwords have been obtained. This is the next logical step.
+*   **H38 (Falsified):** Scientist Jed at (18, 12) only provided a hint about the warp panel being a trap, but no direct solution.
+*   **Strategy Pivot (Turn 46869):** All leads on B1F outside the main invisible maze are exhausted. Returning to the maze with a new exploration strategy.
+*   **H39 (Active):** The invisible maze contains a path that does not lead to the warp panel trap at (5, 15). The solution is likely a hidden ladder within the maze's interior.
+*   **Hideout Progression Plan (v10 - Maze Exploration 2.0):**
+    1.  Return to the maze entrance at (7, 5).
+    2.  Explore the central and western sections of the maze, starting by moving down from (7, 5) to (7, 6), a previously untested path.
