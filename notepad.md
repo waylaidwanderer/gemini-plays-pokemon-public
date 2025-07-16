@@ -69,3 +69,9 @@
     - **FLOOR_UP_WALL:** Test if this is a one-way impassable tile by attempting to move into it from all four directions.
     - **LEDGE_HOP_DOWN/RIGHT:** Verify these are one-way traversal tiles.
 *   **Hoothoot & Fly:** Verify that Hoothoot can learn Fly. If not, I need a new plan for a Fly user.
+
+## VI. Discoveries & Corrections
+*   **PC System:** 'BILL's PC' is for Pokémon Storage. 'G's PC' is for Item Storage. I was selecting the wrong one initially.
+
+## VII. High-Priority TODO
+*   **Fix `master_navigator`:** The core pathfinding logic is flawed. It fails to create paths that transition between different traversable tile types (e.g., WATER to FLOOR). This needs to be completely rewritten for reliability.
