@@ -58,3 +58,5 @@
 
 ## V. Failed Hypotheses & Corrected Misconceptions
 *   **HM06 Location:** I incorrectly believed I had received HM06 (Whirlpool) from Lance. I searched my bag (TM/HM and Key Items pockets) and checked my party's moves, but could not find it. **Conclusion:** HM06 is obtained *after* defeating the Mahogany Town Gym Leader, Pryce. The goal of exploring the Whirl Islands is currently impossible.
+*   **PC:** Impassable object. Interact with it from an adjacent tile (usually below, facing up).
+*   **COUNTER:** Impassable. Acts as a barrier, often with an NPC behind it.
