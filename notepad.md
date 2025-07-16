@@ -27,11 +27,15 @@
 - **Battle & Field Mechanics:** PSYWAVE/CONFUSE RAY can miss. Safari Zone has a time limit. Losing in a gym does not warp you out. FLY can end wild battles indoors but cannot be used to escape buildings. ROAR can end wild battles. SURF requires facing the water tile. Switches (e.g., in statues or hidden on posters) must be activated by standing on the tile directly below them, facing up, and pressing A.
 
 # III. Puzzle Logs
-## A. Pokémon Mansion
+## A. Pokémon Mansion: Master Plan
 - **Objective:** Find the SECRET KEY.
-- **Hypothesis Log (1F Switch at (3,6)):
-  - **H3 (IN PROGRESS - MORE COMPLEX THAN THOUGHT):** The switch at (3, 6) operates on a cycle controlling at least three sets of gates: Eastern `(17,8)/(18,8)`, Western `(25,14)/(26,14)`, and Central `(21,18)/(22,18)`.
-    - **State 1 (1st/4th press):** Eastern OPEN, Western CLOSED, Central UNKNOWN.
-    - **State 2 (2nd/5th press):** Western OPEN, Eastern CLOSED, Central CLOSED.
-    - **State 3 (3rd/6th press):** Switch pressed. Gate states unconfirmed.
-    - **Conclusion:** The puzzle is not fully understood. The pattern is not a simple toggle or a clear rotation. Further systematic testing is required by pressing the switch and observing all three gate sets after each press.
+- **Guiding Strategy (from multi_floor_puzzle_strategist_agent):** The puzzle requires activating a sequence of four switches across four floors to open all gates and access the key.
+- **Step 1 (Done):** On 1F, activate the switch at (3, 6).
+- **Step 2 (Done):** Ascend to 2F via stairs at (6, 11).
+- **Step 3 (Done):** On 2F, activate the switch at (3, 12).
+- **Step 4 (Done):** Ascend to 3F and activate the switch at (11, 6).
+- **Step 5 (Hypothesis):** The previous actions should have opened the Central Gates at (21, 18)/(22, 18).
+- **Step 6 (Test):** Go to 1F and check the Central Gates. If open, proceed through them to the warp at (22, 24) to reach B1F.
+- **Step 7:** On B1F, activate the final switch at (19, 26). This should open the Western Gates on 1F.
+- **Step 8:** Return to 1F via the warp at (24, 23).
+- **Step 9:** Navigate to the now-open Western Gates at (25, 14)/(26, 14) and retrieve the SECRET KEY.
