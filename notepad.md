@@ -25,3 +25,22 @@
 ## B. Confirmed ROM Hack Changes
 - **Type Matchups & Immunities:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire; Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground; Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 - **Battle & Field Mechanics:** PSYWAVE/CONFUSE RAY can miss. Safari Zone has a time limit. Losing in a gym does not warp you out. FLY can end wild battles indoors but cannot be used to escape buildings. ROAR can end wild battles. SURF requires facing the water tile. Switches in the Pokemon Mansion must be interacted with from below.
+
+# III. Puzzle Logs
+## A. Pokémon Mansion
+- **Objective:** Find the SECRET KEY.
+- **Hypothesis Log:**
+  - **H1:** The switch at (3, 6) on 1F controls the gates at (17, 8) and (18, 8).
+    - **Test 1 (Turn 77397):** Stood at (4, 6) and interacted with switch. Gates at (17, 8) & (18, 8) observed to be closed.
+    - **Test 2 (Turn 77399):** Stood at (3, 7) and interacted with switch. Gates at (17, 8) & (18, 8) observed to be open.
+    - **Conclusion:** Hypothesis confirmed. The switch at (3, 6) toggles the state of the eastern gates on 1F.
+
+# IV. Map Marker Key
+- ☠️: Defeated Trainer
+- ✅: Item Picked Up / Gate Observed Open
+- 🔴: Gate Observed Closed
+- 🚫: Dead End / Useless NPC/Warp
+- 🚪: Entrance/Exit
+- ↕️: Stairs/Ladder (Bidirectional)
+- 🛬: Forced Arrival Point (Ledge/Hole)
+- 🔄: Switch/Puzzle Object
