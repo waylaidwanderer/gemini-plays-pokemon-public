@@ -24,4 +24,5 @@
 - **Plan:** Navigate the newly opened eastern section of 1F. The Scientist at (18, 18) is the primary person of interest.
 
 # V. Untested Assumptions & Hypotheses
-- **Hypothesis 1:** The switch at (3, 6) on 1F may have more than one function. **Test:** Interact with it again and observe any changes to gates or other map features. **Status:** Pending.
+- **Hypothesis 1:** The switch at (3, 6) on 1F would open a path from the eastern corridor. **Status:** FAILED. **Conclusion:** The eastern corridor of 1F is isolated from the western section. The switch at (3, 6) does not affect it.
+- **Hypothesis 2:** The Secret Key is in the basement (B1F), accessible via the warp at (22, 24). I may have missed something, or the state of the basement may have changed. **Test:** Re-explore B1F thoroughly. **Status:** Pending.
