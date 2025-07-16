@@ -70,6 +70,3 @@
 ## V. Failed Hypotheses & Corrected Misconceptions
 *   **Mahogany Gym Blockade:** The trigger for the Fisher to move is NOT defeating Team Rocket or talking to any of the local NPCs post-Team-Rocket (initial sweep).
 *   **RAGECANDYBAR:** The Mahogany Town 'shop' is a front for Team Rocket and does not sell any items. The RAGECANDYBAR cannot be purchased to move the Fisher.
-
-## VI. Glitched Encounters
-*   **Route 42 Glitch:** While surfing on Route 42, I was pulled into a glitched battle on an unknown map (ID: 242_255). My party, Pokedex, and money were all corrupted. The opponent was a glitched, pink, unicorn-like Pokémon. After escaping, I was pulled into a normal battle with a Goldeen and my game state returned to normal.
