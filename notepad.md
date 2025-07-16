@@ -6,12 +6,12 @@
 
 # II. Game Intel
 ## A. Tile Mechanics
-- **`ground`**: Walkable tile.
-- **`impassable`**: Walls, counters, etc. Cannot be entered.
-- **`warp`**: Teleports the player to a new location.
-- **`open_gate`**: A gate that is visibly open and acts as `ground`.
-- **`closed_gate`**: A gate that is visibly closed and acts as `impassable`.
-- **`gate_offscreen`**: A gate whose state is unknown. Must be treated as potentially open for pathfinding unless a marker indicates otherwise.
+- `ground`: Walkable tile.
+- `impassable`: Walls, counters, etc. Cannot be entered.
+- `warp`: Teleports the player to a new location.
+- `open_gate`: A gate that is visibly open and acts as `ground`.
+- `closed_gate`: A gate that is visibly closed and acts as `impassable`.
+- `gate_offscreen`: A gate whose state is unknown. Must be treated as potentially open for pathfinding unless a marker indicates otherwise.
 - **Switches**: Must be activated by standing on the tile directly below them, facing up, and pressing A.
 
 ## B. Confirmed ROM Hack Mechanics
@@ -20,12 +20,10 @@
 - **Type Immunities:** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 - **Field/Battle Rules:** Switches require standing below and facing up. Losing in a gym does not warp you out. FLY can end wild battles indoors. ROAR can end wild battles.
 
-# III. Puzzle Logs & Hypotheses
-
 # III. Tool Debugging Logs
 ## A. Pathfinder Tool
 - **Status:** Critical Failure
-- **Symptom:** Tool produces no output, not even a 'Path not found' message.
+- **Symptom:** Tool produces no output, not even a 'Path not found' message or debug logs.
 - **Hypothesis 1:** The script is crashing silently due to a logic or parsing error.
 - **Test 1:** Overwrite the tool with a minimal script containing only a print statement.
 - **Result 1:** SUCCESS. The minimal script executed and printed its output. This confirms the tool's execution environment is working.
@@ -35,4 +33,8 @@
 - **Result 2:** FAILED. The script produced a `ModuleNotFoundError` for `xml.et`.
 - **Conclusion:** The error is not in the logic, but in the import statement itself.
 - **Hypothesis 3:** The import statement `import xml.et.ElementTree as ET` is incorrect and should be `import xml.etree.ElementTree as ET`.
-- **Test 3:** [PENDING] Correct the import statement in the `pathfinder` tool and re-run it.
+- **Test 3:** Correct the import statement in the `pathfinder` tool and re-run it.
+- **Result 3:** FAILED. The tool still produced no output, indicating another silent crash.
+- **Conclusion:** The typo was one problem, but not the only one.
+- **Hypothesis 4:** The `ET.fromstring(map_xml_string)` call is the source of the silent crash.
+- **Test 4:** [PENDING] Overwrite the tool with a script that *only* attempts to parse the XML and prints a success/failure message.
