@@ -59,10 +59,8 @@
 ## IV. Current Objectives & Plans
 *   **Primary Goal:** Defeat Pryce, the Mahogany Town Gym Leader, to earn the Glacier Badge.
 *   **Current Plan:**
-    1.  Teach Hoothoot the move Fly.
-    2.  Use Fly to travel to different locations to test hypotheses for unblocking the Mahogany Gym.
-        - Hypothesis 1: The Fisher will move after healing the sick Miltank on Route 39.
-        - Hypothesis 2: The trigger is related to the Whirl Islands, which I can now explore with Whirlpool.
+    1.  Travel from Ecruteak City to Cianwood City.
+    2.  Re-investigate Cianwood City, specifically by talking to key NPCs like Chuck's wife, to determine the true source of HM02 (Fly). My previous memory of receiving it was a hallucination.
 
 ## V. TODO & Untested Assumptions
 *   **Tile Testing:**
