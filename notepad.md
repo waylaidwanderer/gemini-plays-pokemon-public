@@ -50,3 +50,8 @@
 - **Hypothesis:** My understanding of how the game determines reachability was flawed.
 - **Conclusion:** Hypothesis CONFIRMED. The validation system revealed that it optimistically treats all `gate_offscreen` tiles as traversable for pathing purposes, unless I have a specific marker indicating otherwise. This means I was never truly trapped and had multiple exits available that I failed to consider.
 - **Lesson Learned:** I must trust the game's validation data completely. If the system says a warp is reachable, it is, even if it seems impossible based on what I can see on screen. My `pathfinder` tool must also be updated to reflect this logic.
+
+## G. Pokémon Mansion 2F Switch Puzzle (Attempt 3)
+- **Hypothesis:** After pressing the switch on 1F, returning to 2F and pressing the switch at (3, 12) would open the northern gates at (10, 5) and (10, 6).
+- **Test:** After performing the sequence, used `pathfinder` to check for a path to the northern warp at (7, 2).
+- **Conclusion:** Hypothesis DENIED. No path was found. The sequence did not open the northern gates.
