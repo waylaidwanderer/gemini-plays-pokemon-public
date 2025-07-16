@@ -38,7 +38,7 @@
   - Test suspicious rock walls for secret passages.
 - **Tool & Agent Development Ideas:**
   - **Cove Detector Tool:** A tool that analyzes the surrounding map XML to determine if the player is in an enclosed space (e.g., a cove surrounded by impassable tiles on three sides).
-  - **Multi-Floor Navigation Agent:** An agent that can create a high-level plan to navigate between floors in a complex area like a cave or building, providing a sequence of destinations (e.g., 'Go to Ladder A', 'Go to Hole B').
+  
 
 # V. Tool Development & Debugging Log
 ## A. gem_path_planner_v19
