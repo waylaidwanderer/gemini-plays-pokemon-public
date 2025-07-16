@@ -70,3 +70,6 @@
 
 ## VI. Glitched Encounters
 *   **Route 42 Glitch:** While surfing on Route 42, I was pulled into a glitched battle on an unknown map (ID: 242_255). My party, Pokedex, and money were all corrupted. The opponent was a glitched, pink, unicorn-like Pokémon.
+*   **WARP_CARPET_RIGHT:** (Hypothesis) A warp tile that likely moves the player right when activated.
+*   **LEDGE_HOP_DOWN:** (Hypothesis) A one-way traversal tile, allowing movement down but not up.
+*   **LEDGE_HOP_RIGHT:** (Hypothesis) A one-way traversal tile, allowing movement right but not left.
