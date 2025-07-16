@@ -26,21 +26,21 @@
 *   **Main Obstacle:** A password-locked door on B2F at (14, 12) is blocking progress.
 
 ### Confirmed Facts & Discoveries
-*   **B1F Switch:** Flipping the switch at (19, 11) on B1F toggles the arrow tiles off. It is a one-time use and cannot be turned back on.
 *   **Passwords Found:** The two passwords are 'SLOWPOKETAIL' and 'RATICATE TAIL'.
-*   **B1F Warp Panel:** The warp panel at (5, 15) is a one-way teleporter to (25, 2), leading to an isolated exit area via the Mahogany Mart.
 *   **B2F Locked Door Interaction:** Interacting with the locked door at (14, 12) twice only yields the message "It needs a password to open." It does not prompt for input.
 *   **B3F Layout:** B3F is split into two disconnected sections. The western section containing the boss and Lance is inaccessible from the eastern ladder.
 
-### Hideout Progression Plan (v18 - Arrow Tile Maze)
-*   H47: With the arrow tiles on B1F permanently disabled, a new path is now accessible within the central maze area that leads to the eastern section of B2F. (Result: The central maze area is a series of dead ends.)
-*   **Method:** Navigate to the entrance of the former arrow tile maze and systematically explore the area on foot.
-
 ### Falsified Hypotheses
-*   H46: The switch at (19, 11) can be toggled back on. (Result: It's a one-time switch.)
-*   H45: The western corridor of B2F, accessed via the ladder at (3, 14), contains a path to the eastern section of the floor. (Result: It's a dead end.)
-*   H41: The eastern corridor of B1F, accessed via the warp panel at (5, 15), contains a path to the boss. (Result: It's a one-way exit.)
-*   H39: The invisible floor maze near the entrance contains the primary path forward. (Result: It's a series of dead ends or loops.)
+*   **H47:** With the arrow tiles on B1F permanently disabled, a new path is now accessible within the central maze area that leads to the eastern section of B2F. (Result: The central maze area is a series of dead ends.)
+*   **H46:** The switch at (19, 11) on B1F can be toggled back on. (Result: It's a one-time switch.)
+*   **H45:** The western corridor of B2F, accessed via the ladder at (3, 14), contains a path to the eastern section of the floor. (Result: It's a dead end.)
+*   **H41:** The eastern corridor of B1F, accessed via the warp panel at (5, 15), contains a path to the boss. (Result: It's a one-way exit.)
+*   **H39:** The invisible floor maze near the entrance contains the primary path forward. (Result: It's a series of dead ends or loops.)
+
+### Current Hypothesis
+*   **H48:** Speaking to Lance on B3F after obtaining both passwords is the required trigger to open the locked door on B2F.
+*   **Test:** Navigate to Lance's last known position on B3F and interact with him.
+*   **Falsification Plan:** If interacting with Lance does not advance the puzzle, I will systematically interact with every background object on B2F and B3F to find the true trigger.
 
 ## IV. Future Testing & Verification Notes
 *   **Ledge Verification:** I must explicitly try to move *up* a ledge at the next opportunity to scientifically confirm this is impossible.
