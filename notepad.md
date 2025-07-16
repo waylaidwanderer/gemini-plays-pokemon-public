@@ -40,9 +40,11 @@
 
 *   **H49:** Lance has moved to the locked door on B2F and is waiting for me there. Interacting with him in front of the door will trigger the event. (Result: Falsified. Lance is not on B2F. Pathfinding confirms B2F is a closed loop, inaccessible from the eastern B3F ladder.)
 
+*   **H52:** There is a hidden passage or switch in the outer corridor of B2F. (Result: Falsified. Interacting with every wall tile in the eastern loop yielded no results.)
+
 ### Current Hypothesis
-*   **H52:** There is a hidden passage or switch in the outer corridor of B2F that provides access to the central area.
-*   **Test:** Systematically interact with every wall tile in the outer B2F corridor.
+*   **H54:** The eastern B2F/B3F section is a self-contained loop. The only way out is via a hidden one-way warp tile somewhere in the eastern B2F/B3F corridor.
+*   **Test:** Systematically walk over every floor tile in the eastern B2F corridor.
 
 ## IV. Future Testing & Verification Notes
 *   **Ledge Verification:** I must explicitly try to move *up* a ledge at the next opportunity to scientifically confirm this is impossible.
