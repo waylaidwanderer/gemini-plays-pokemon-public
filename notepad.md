@@ -46,4 +46,5 @@
 - 🔄: Switch/Puzzle Object
 - **H2:** The switch at `(3, 6)` toggles the state of the gates at `(25, 14)` and `(26, 14)`.
   - **Test 1 (Turn 77437):** After pressing the switch a second time, observed gates at `(25, 14)` & `(26, 14)` are now closed.
-  - **Plan:** Return to the switch at `(3, 6)` and press it a third time to test if it reopens these gates.
+  - **Test 2 (Turn 77452):** Pressed switch at `(3, 6)` a third time. This re-closed the gates at `(17, 8)` & `(18, 8)`.
+  - **Conclusion:** Hypothesis H2 is falsified. The switch at `(3, 6)` does not appear to be a simple toggle. Its behavior seems to alternate between controlling the eastern gates and the western gates on this floor.
