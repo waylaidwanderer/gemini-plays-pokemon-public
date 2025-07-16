@@ -72,6 +72,3 @@
 
 ## VI. Discoveries & Corrections
 *   **PC System:** 'BILL's PC' is for Pokémon Storage. 'G's PC' is for Item Storage. I was selecting the wrong one initially.
-
-## VII. High-Priority TODO
-*   **Fix `master_navigator`:** The core pathfinding logic is flawed. It fails to create paths that transition between different traversable tile types (e.g., WATER to FLOOR). This needs to be completely rewritten for reliability.
