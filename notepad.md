@@ -43,8 +43,7 @@
 *   **H52:** There is a hidden passage or switch in the outer corridor of B2F. (Result: Falsified. Interacting with every wall tile in the eastern loop yielded no results.)
 
 ### Current Hypothesis
-*   **H54:** The eastern B2F/B3F section is a self-contained loop. The only way out is via a hidden one-way warp tile somewhere in the eastern B2F/B3F corridor.
-*   **Test:** Systematically walk over every floor tile in the eastern B2F corridor.
+*   **CONFIRMED:** The eastern B2F corridor contains a one-way, hidden warp tile at coordinate (27, 2). Stepping on this tile warps the player to B3F at (27, 2), providing the true path forward.
 
 ## IV. Future Testing & Verification Notes
 *   **Ledge Verification:** I must explicitly try to move *up* a ledge at the next opportunity to scientifically confirm this is impossible.
