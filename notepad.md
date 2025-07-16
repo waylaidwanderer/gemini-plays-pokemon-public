@@ -38,3 +38,5 @@
 - **Conclusion:** The typo was one problem, but not the only one.
 - **Hypothesis 4:** The `ET.fromstring(map_xml_string)` call is the source of the silent crash.
 - **Test 4:** [PENDING] Overwrite the tool with a script that *only* attempts to parse the XML and prints a success/failure message.
+- `ledge`: Can be jumped down, but not climbed up. Acts as ground when approached from above (Y-1), but as a wall from all other directions.
+- `hole`: Warps the player to a lower floor, usually into an isolated area.
