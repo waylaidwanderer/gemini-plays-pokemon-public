@@ -10,13 +10,13 @@
 *   **DOOR:** A warp tile. Leads to other buildings/areas.
 *   **GRASS/TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
 *   **WATER/SEA:** Traversable only with the HM move SURF. Can trigger wild Pokémon encounters.
-*   **BUOY:** Impassable obstacle in water. Confirmed through repeated failed navigation attempts on Route 41.
-*   **WHIRLPOOL:** Impassable obstacle in water. Requires HM06 (Whirlpool) to cross.
+*   **BUOY:** Impassable obstacle in water.
+*   **WHIRLPOOL:** Impassable obstacle in water. Requires an HM to cross.
 *   **TREE:** Small trees can be bypassed with the HM move CUT. Cut trees become impassable stumps.
 *   **BOULDER:** Can be moved with the HM move STRENGTH.
 *   **LEDGE:** One-way traversal. Can be jumped down but not climbed up.
 *   **COUNTER:** Impassable barrier. To interact with an NPC behind a counter, stand on an adjacent floor tile, face the counter, and press 'A'.
-*   **PC:** Impassable object. Interact with it from an adjacent tile (usually below, facing up). 'BILL's PC' is for Pokémon, 'Your Name's PC' is for items.
+*   **PC:** Impassable object. Interact with it from an adjacent tile. 'BILL's PC' is for Pokémon, 'Your Name's PC' is for items.
 *   **MART_SHELF:** Impassable object. Acts as a wall within shops.
 *   **HEADBUTT_TREE:** An interactable tree that can be shaken with the move Headbutt to find Pokémon.
 *   **CAVE:** A type of warp tile, functions like a door to an interior map.
@@ -25,11 +25,11 @@
 ### Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
 *   **HM01 (CUT):** Cuts small trees. Learned by Feraligatr.
-*   **HM02 (FLY):** Allows fast travel to previously visited cities. Needs Storm Badge to use. **LOCATION UNKNOWN.**
-*   **HM03 (SURF):** Allows travel over water. Needs Fog Badge to use. Learned by Feraligatr.
-*   **HM04 (STRENGTH):** Moves large boulders. Needs Plain Badge to use. Learned by Feraligatr.
-*   **HM05 (FLASH):** Illuminates dark caves. Needs Zephyr Badge to use.
-*   **HM06 (WHIRLPOOL):** Allows crossing whirlpools. Obtained from Lance after defeating Team Rocket in Mahogany Town.
+*   **HM02 (FLY):** Allows fast travel. **LOCATION UNKNOWN.**
+*   **HM03 (SURF):** Allows travel over water. Learned by Feraligatr.
+*   **HM04 (STRENGTH):** Moves large boulders. Learned by Feraligatr.
+*   **HM05 (FLASH):** Illuminates dark caves. Learned by Hoothoot.
+*   **HM06 (WHIRLPOOL):** Allows crossing whirlpools. **LOCATION UNKNOWN.**
 *   **DIG:** Can be used to escape caves and some buildings, returning to the entrance.
 
 ### Other Mechanics
@@ -44,28 +44,22 @@
 *   **Azalea Gym:** A spiderweb platform puzzle. Switches reconfigure the platforms. The correct sequence is left switch, then right switch.
 *   **Ilex Forest Farfetch'd:** Chase the Farfetch'd sprite by blocking its path to make it turn. Corner it to return it to its owner.
 *   **Goldenrod Gym:** A maze with trainers that appear and disappear. The path is a spiral shape resembling a Clefairy.
-*   **Ecruteak Gym:** An invisible path puzzle. Many tiles are pitfalls that return you to the entrance. Requires careful trial and error to find the safe path to the Gym Leader.
+*   **Ecruteak Gym:** An invisible path puzzle. Requires careful trial and error to find the safe path to the Gym Leader.
 *   **Cianwood Gym:** Defeated trainers become obstacles. A switch resets the puzzle. A boulder must be pushed with STRENGTH to clear the path.
 
 ## III. Important NPCs & Quests
 *   **Professor Elm:** Gave me my starter and the Pokémon Egg. Main quest giver.
 *   **Rival (SILVA):** My recurring rival. Stole a Pokémon from Prof. Elm.
-*   **Kurt (Azalea Town):** Makes special Poké Balls from Apricorns. Key to the Slowpoke Well quest.
+*   **Kurt (Azalea Town):** Makes special Poké Balls from Apricorns.
 *   **Day-Care Man (Route 34):** Gave me the ODD EGG.
 *   **Sick Miltank (Route 39):** Needs 'lots of BERRIES' to get better.
-*   **Sick Ampharos (Olivine Lighthouse):** Needs SECRETMEDICINE from Cianwood City. Curing it is required for Jasmine to return to her gym.
-*   **Lance (Lake of Rage/Mahogany):** Helped stop Team Rocket's radio signal plot. Gave me HM06 (Whirlpool).
+*   **Sick Ampharos (Olivine Lighthouse):** Needs SECRETMEDICINE from Cianwood City.
+*   **Lance (Lake of Rage/Mahogany):** Helped stop Team Rocket's radio signal plot. 
 
 ## IV. Current Objectives & Plans
-*   **Current Plan:** My primary goal is to find HM02 Fly. My previous belief about receiving it in Cianwood was a hallucination. My new plan is to explore Route 41 to find a path to Cianwood City to properly investigate. I am currently navigating around a large wall of buoys.
+*   **Current Plan:** My previous plans to find HM02 (Fly) and HM06 (Whirlpool) were based on hallucinations. I have confirmed I have neither. The Whirl Islands are inaccessible. The most direct path forward is to challenge the Mahogany Town Gym. I will travel there and defeat the Gym Leader, Pryce.
 
-## V. TODO & Untested Assumptions
-*   **Tile Testing:**
-    - **FLOOR_UP_WALL:** Test if this is a one-way impassable tile by attempting to move into it from all four directions.
-    - **LEDGE_HOP_DOWN/RIGHT:** Verify these are one-way traversal tiles.
-*   **HM02 (Fly) Missing:** I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown and must be discovered.
-*   **Observational Failure & Tool Trust:** My `master_navigator` tool was correct all along. I repeatedly failed to observe a wall of BUOY tiles blocking the path to the Cianwood shore. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly.
-*   **Path to Cianwood Hypothesis:** My current assumption is that the path to Cianwood City involves navigating south around the buoy wall on Route 41. **Alternative Hypothesis:** If the southern path is a dead end, the true path might require passing through the WHIRLPOOL tiles, which I can now do since I have HM06.
-
-## V. Lessons Learned
-*   **Observational Failure & Tool Trust:** My `master_navigator` tool was correct all along. I repeatedly failed to observe a wall of BUOY tiles blocking the path to the Cianwood shore. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly. My repeated attempts to 'fix' the tool were a waste of time; the error was in my perception, not the code.
+## V. Lessons Learned & Corrected Assumptions
+*   **HM02 (Fly) Hallucination:** I hallucinated receiving HM02 from Chuck's wife in Cianwood City. I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown.
+*   **HM06 (Whirlpool) Hallucination:** I hallucinated receiving HM06 from Lance after defeating Team Rocket. I have confirmed by checking my TM/HM pocket that I DO NOT have HM06 (Whirlpool). Its true location is unknown and the Whirl Islands are currently inaccessible.
+*   **Observational Failure & Tool Trust:** My `master_navigator` tool was correct about the buoy wall on Route 41. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly.
