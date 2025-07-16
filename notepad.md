@@ -33,7 +33,7 @@
   - **H3 (IN PROGRESS - MORE COMPLEX THAN THOUGHT):** The switch at (3, 6) operates on a cycle controlling at least three sets of gates: Eastern `(17,8)/(18,8)`, Western `(25,14)/(26,14)`, and Central `(21,18)/(22,18)`.
     - **State 1 (1st/4th press):** Eastern OPEN, Western CLOSED, Central UNKNOWN.
     - **State 2 (2nd/5th press):** Western OPEN, Eastern CLOSED, Central CLOSED.
-    - **State 3 (3rd/6th press):** Eastern OPEN, Western CLOSED, Central CLOSED.
+    - **State 3 (3rd/6th press):** Switch pressed. Gate states unconfirmed.
     - **Conclusion:** The puzzle is not fully understood. The pattern is not a simple toggle or a clear rotation. Further systematic testing is required by pressing the switch and observing all three gate sets after each press.
 
 # IV. Map Marker Key
