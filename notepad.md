@@ -32,6 +32,6 @@
 - **Test 2 (New):** Add back the initial `try...except` block for variable parsing. [PENDING]
 - **Test 3 (New):** Add back the player position finding loop. [SUCCESS]
 - **Test 4 (New):** Add back the grid initialization. [SUCCESS]
-- **Test 5 (New):** Add back the grid population loop. [PENDING]
+- **Test 5 (New):** Add back the grid population loop. [SUCCESS]
 - **Test 6 (New):** Add back the A* initialization. [PENDING]
 - **Test 7 (New):** Add back the A* search loop. [PENDING]
