@@ -39,3 +39,8 @@
 - **Hypothesis:** The switch at (3, 6) is accessible through the gates at (17, 8) and (18, 8), which were opened by the switch on 2F.
 - **Test:** Use pathfinder to plot a course to (17, 8).
 - **Expected Outcome:** A valid path will be found.
+
+## E. Pokémon Mansion 1F Switch (West)
+- **Hypothesis:** Pressing the switch at (3, 6) will open the eastern gates at (25, 14) and (26, 14).
+- **Test:** After pressing the switch, used `pathfinder` to check for a path to (25, 14).
+- **Conclusion:** Hypothesis DENIED. No path was found. The switch does not open the eastern gates.
