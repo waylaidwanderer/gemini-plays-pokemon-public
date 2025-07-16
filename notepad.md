@@ -11,14 +11,11 @@
 - **Field/Battle Rules:** Switches require standing below and facing up. Losing in a gym does not warp you out. FLY can end wild battles indoors. ROAR can end wild battles.
 
 # III. Puzzle Logs & Hypotheses
+## A. Pokémon Mansion Multi-Floor Switch Puzzle
+- **Hypothesis (Confirmed):** The switch at (3, 6) on 1F and the switch at (3, 12) on 2F work together to control the gates on 1F.
+- **Test:** Activated both switches in sequence.
+- **Outcome:** Confirmed. The gates at (17, 8) and (18, 8) on 1F opened, granting access to the eastern section of the floor.
 
-  1. **(DONE)** Deleted the incorrect map markers.
-  2. **(DONE)** Used the `pathfinder` tool to calculate a path to the warp at (7, 2).
-  3. **(Next)** Follow the calculated path to finally exit this area and proceed to the third floor.
-
-## B. Dead End Hallucination (Pokemon Mansion 2F)
-
-## D. Pokémon Mansion 1F Switch Access
-- **Hypothesis:** The switch at (3, 6) is accessible through the gates at (17, 8) and (18, 8), which were opened by the switch on 2F.
-- **Test:** Use pathfinder to plot a course to (17, 8).
-- **Expected Outcome:** A valid path will be found.
+## B. Pokémon Mansion 1F Eastern Section
+- **Goal:** Explore the newly accessed eastern section of Pokemon Mansion 1F to find the Secret Key.
+- **Current Step:** Navigate to the Scientist at (18, 18) to see if they have any information.
