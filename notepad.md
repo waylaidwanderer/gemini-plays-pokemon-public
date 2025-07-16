@@ -50,3 +50,4 @@
 *   **Password Door Re-check:** My `puzzle_master` agent recommended I try the passwords. I will do this as soon as I can reach the door.
 *   **Bookshelf Switch Hypothesis:** If the invisible maze is a dead end, I will test the hypothesis that the bookshelves at (20, 11) and (21, 11) are a hidden switch.
 *   **Agent Idea:** Create a 'maze exploration strategist' agent. It could take a list of known safe tiles and suggest the most logical next tile to test, potentially using different algorithms (e.g., wall-following, random walk) to avoid getting stuck in loops.
+*   **Password 2:** 'RATICATE TAIL' (from grunt at (5, 14) on B3F).
