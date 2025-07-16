@@ -72,3 +72,6 @@
 *   **Route 42 Glitch:** While surfing on Route 42, I was pulled into a glitched battle on an unknown map (ID: 242_255). My party, Pokedex, and money were all corrupted. The opponent was a glitched, pink, unicorn-like Pokémon.
 ## VI. Glitched Encounters
 *   **Route 42 Glitch:** While surfing on Route 42, I was pulled into a glitched battle on an unknown map (ID: 242_255). My party, Pokedex, and money were all corrupted. The opponent was a glitched, pink, unicorn-like Pokémon.
+
+## VI. Glitched Encounters
+*   **Route 42 Glitch:** While surfing on Route 42, I was pulled into a glitched battle on an unknown map (ID: 242_255). My party, Pokedex, and money were all corrupted. The opponent was a glitched, pink, unicorn-like Pokémon.
