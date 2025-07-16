@@ -13,6 +13,8 @@
 - `closed_gate`: A gate that is visibly closed and acts as `impassable`.
 - `gate_offscreen`: A gate whose state is unknown. Must be treated as potentially open for pathfinding unless a marker indicates otherwise.
 - **Switches**: Must be activated by standing on the tile directly below them, facing up, and pressing A.
+- `ledge`: Can be jumped down, but not climbed up. Acts as ground when approached from above (Y-1), but as a wall from all other directions.
+- `hole`: Warps the player to a lower floor, usually into an isolated area.
 
 ## B. Confirmed ROM Hack Mechanics
 - **Type Matchups:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire.
@@ -37,6 +39,8 @@
 - **Result 3:** FAILED. The tool still produced no output, indicating another silent crash.
 - **Conclusion:** The typo was one problem, but not the only one.
 - **Hypothesis 4:** The `ET.fromstring(map_xml_string)` call is the source of the silent crash.
-- **Test 4:** [PENDING] Overwrite the tool with a script that *only* attempts to parse the XML and prints a success/failure message.
-- `ledge`: Can be jumped down, but not climbed up. Acts as ground when approached from above (Y-1), but as a wall from all other directions.
-- `hole`: Warps the player to a lower floor, usually into an isolated area.
+- **Test 4:** Overwrite the tool with a script that *only* attempts to parse the XML and prints a success/failure message.
+- **Result 4:** SUCCESS. The XML parsing script ran without error.
+- **Conclusion:** The silent crash occurs *after* the XML is parsed but *before* the A* search begins.
+- **Hypothesis 5:** The crash is occurring during the player position finding, grid generation, or A* initialization phases.
+- **Test 5:** [PENDING] Restore the full script with hyper-granular print statements at every stage of the setup process to pinpoint the exact line of failure.
