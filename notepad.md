@@ -64,3 +64,4 @@
     - **FLOOR_UP_WALL:** Test if this is a one-way impassable tile by attempting to move into it from all four directions.
     - **LEDGE_HOP_DOWN/RIGHT:** Verify these are one-way traversal tiles.
 *   **HM02 (Fly) Missing:** I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). My previous belief that I received it from Chuck's wife was a hallucination. Its true location is unknown and must be discovered.
+*   **Observational Failure:** My `master_navigator` tool was correct all along. I repeatedly failed to observe a wall of BUOY tiles blocking the path to the Cianwood shore. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly.
