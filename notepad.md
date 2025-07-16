@@ -33,7 +33,7 @@
 *   **B3F Layout:** B3F is split into two disconnected sections. The western section containing the boss and Lance is inaccessible from the eastern ladder.
 
 ### Hideout Progression Plan (v18 - Arrow Tile Maze)
-*   **Hypothesis (H47):** With the arrow tiles on B1F permanently disabled, a new path is now accessible within the central maze area that leads to the eastern section of B2F.
+*   H47: With the arrow tiles on B1F permanently disabled, a new path is now accessible within the central maze area that leads to the eastern section of B2F. (Result: The central maze area is a series of dead ends.)
 *   **Method:** Navigate to the entrance of the former arrow tile maze and systematically explore the area on foot.
 
 ### Falsified Hypotheses
