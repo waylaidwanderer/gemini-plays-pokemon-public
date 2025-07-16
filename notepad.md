@@ -1,5 +1,5 @@
 # I. Core Principles & Lessons Learned
-- **Systematic Debugging is Mandatory:** My previous brute-force method of fixing tools was a critical failure. I must use `run_code` with print statements and my `code_debugger_agent` to systematically diagnose issues before attempting a fix. Tool refinement is the highest priority.
+- **Systematic Debugging is Mandatory:** I must use `run_code` with print statements and my `code_debugger_agent` to systematically diagnose issues before attempting a fix. Tool refinement is the highest priority.
 - **Falsify Your Beliefs:** I must actively try to disprove my own conclusions. My assumption that the Seafoam Islands cave was a single interconnected dungeon was a major case of confirmation bias.
 
 # II. Game Mechanics & Battle Intel
@@ -27,13 +27,13 @@
 ## A. Seafoam Islands Boulder Puzzle
 - **Goal:** Stop the strong water current on Seafoam Islands B4F.
 - **Current Hypothesis:** The Seafoam Islands consist of two separate, disconnected caves. The western cave is a dead end for the puzzle. The solution must be in the eastern cave.
-- **Current Plan:** Having exhausted the southern sea routes, the new plan is to explore the sea routes east of Cinnabar Island to find the eastern cave entrance.
+- **Current Plan:** Explore the eastern cave from top to bottom, solving all boulder puzzles.
 - **Falsified Hypothesis Log:**
-  1. The western and eastern sections of the cave are connected internally. (Failed, pathfinder confirmed no path exists on any floor).
+  1. The western and eastern sections of the cave are connected internally on any floor. (Failed, pathfinder confirmed no path exists on any floor).
   2. The eastern island on Route 20 is reachable by surfing directly from the western part of the route. (Failed, pathfinder v14 confirmed no path exists).
   3. The path to the eastern Seafoam Islands entrance is accessible from southern connections on Route 19. (Failed, both southern connections on Route 19 led to isolated, dead-end sections of Route 20).
 - **SURF Field Move:** To use SURF, you must be standing on a valid land tile (e.g., `ground`) directly adjacent to a `water` tile and be *facing* the water before opening the menu to select the move.
 
 # IV. Tool Development Ideas
 - **Cove Detector Tool:** A tool that takes a coordinate and analyzes the surrounding map XML to determine if the player is in an enclosed space (e.g., a cove surrounded by impassable tiles on three sides). This could help diagnose pathfinding failures and prevent getting stuck.
-- **Pathfinder Improvement:** The current A* implementation (`gem_path_planner_v15`) can fail in concave areas (coves) because the heuristic greedily explores deeper into the trap. Future refinement should investigate ways to make the algorithm less susceptible to such geographical layouts, perhaps by modifying the heuristic or adding logic to detect and escape these traps.
+- **Pathfinder Improvement:** The current A* implementation (`gem_path_planner_v17`) can fail in concave areas (coves) because the heuristic greedily explores deeper into the trap. Future refinement should investigate ways to make the algorithm less susceptible to such geographical layouts, perhaps by modifying the heuristic or adding logic to detect and escape these traps.
