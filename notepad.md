@@ -34,11 +34,10 @@
 *   **B2F West Corridor:** The western corridor of B2F, accessed via the ladder at (3, 14), is a dead end and does not connect to the main area.
 
 ### Hypotheses Log
-*   **H39 (Active):** The invisible maze contains a path that does not lead to the warp panel trap at (5, 15). The solution is likely a hidden ladder within the maze's interior.
-*   **Hideout Progression Plan (v11 - Maze Navigation):**
-    1.  Systematically explore the main invisible floor maze on B1F using the `maze_navigator` tool.
-    2.  My goal is to test Hypothesis H39: Find a second, hidden ladder leading to the transmitter room.
-    3.  Method: The `maze_navigator` tool is unsuitable for an *unknown* invisible maze. I will explore manually using the right-hand-on-the-wall algorithm. I will attempt to move, and if blocked, I will treat that as a wall and adjust my path according to the algorithm.
+### Hideout Progression Plan (v12 - Maze Navigation)
+*   **Observation:** The ROCKET grunt at (2, 4) is a non-battle obstacle, blocking the direct path south.
+*   **Hypothesis:** The invisible maze path begins on a tile adjacent to the grunt.
+*   **Method:** I will begin systematically exploring the maze from my current position at (2, 3). I will attempt to move to adjacent tiles to map the path, starting with moving right to (3, 3).
 
 ### Falsified Hypotheses
 *   H34: Navigating the invisible floor maze and reaching the door does not automatically trigger a password prompt.
