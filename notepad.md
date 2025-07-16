@@ -66,3 +66,6 @@
 *   **HM02 (Fly) Missing:** I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown and must be discovered.
 *   **Observational Failure & Tool Trust:** My `master_navigator` tool was correct all along. I repeatedly failed to observe a wall of BUOY tiles blocking the path to the Cianwood shore. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly.
 *   **Path to Cianwood Hypothesis:** My current assumption is that the path to Cianwood City involves navigating south around the buoy wall on Route 41. **Alternative Hypothesis:** If the southern path is a dead end, the true path might require passing through the WHIRLPOOL tiles, which I can now do since I have HM06.
+
+## V. Lessons Learned
+*   **Observational Failure & Tool Trust:** My `master_navigator` tool was correct all along. I repeatedly failed to observe a wall of BUOY tiles blocking the path to the Cianwood shore. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly. My repeated attempts to 'fix' the tool were a waste of time; the error was in my perception, not the code.
