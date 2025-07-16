@@ -28,26 +28,26 @@
 *   **Locked Door:** The final objective is likely behind the locked door on B3F at coordinates (10, 9) and (11, 9).
 
 ### Current Hypothesis
-*   **H58 (Current):** There is a hidden switch or warp in the current western chamber of B3F that opens the path to the locked door.
-
-## V. Archived Hypotheses (Solved/Falsified)
-*   **H57:** A path exists from my current location to the tile in front of the locked door at (10, 10). (Result: Falsified. The `master_navigator` tool confirmed no path exists, indicating the western section of B3F is also split.)
+*   **H59 (Current):** There is a hidden trigger on a wall or floor tile in the western chamber of B3F that opens the path to the locked door.
 
 ## IV. Future Testing & Ideas
+*   **Agent Idea: `hypothesis_generator`:** An agent that takes the current puzzle state (map description, failed hypotheses from notepad) and suggests new, testable hypotheses. This could formalize my brainstorming process.
 *   **Agent Idea: `code_debugger`:** An agent that takes a Python script and an error message as input, and suggests a fix or the location of the bug. This could streamline tool debugging.
 *   **Alternative Hypothesis (Team Rocket Hideout):** If no path to the door exists, there might be another hidden warp tile or switch I have missed.
 
 ## V. Archived Hypotheses (Solved/Falsified)
-*   **H56:** The ladder at (27, 14) on B3F leads to the true path to the transmitter. (Result: Falsified. Leads to a dead-end section of B2F.)
-*   **H55:** The eastern and western sections of B2F are connected. (Result: Falsified. My `master_navigator` tool confirmed no path exists between (27, 2) and (5, 13).)
-*   **H52:** There is a hidden passage or switch in the outer corridor of B2F. (Result: Falsified. Interacting with every wall tile in the eastern loop yielded no results.)
-*   **H49:** Lance has moved to the locked door on B2F and is waiting for me there. (Result: Falsified. Lance is not on B2F.)
-*   **H48:** Speaking to Lance on B3F after obtaining both passwords is the required trigger to open the locked door on B2F. (Result: Falsified. Lance is no longer on B3F.)
-*   **H47:** With the arrow tiles on B1F permanently disabled, a new path is now accessible within the central maze area. (Result: Falsified. The central maze area is a series of dead ends.)
-*   **H46:** The switch at (19, 11) on B1F can be toggled back on. (Result: Falsified. It's a one-time switch.)
-*   **H45:** The western corridor of B2F, accessed via the ladder at (3, 14), contains a path to the eastern section of the floor. (Result: Falsified. It's a dead end.)
-*   **H41:** The eastern corridor of B1F, accessed via the warp panel at (5, 15), contains a path to the boss. (Result: Falsified. It's a one-way exit.)
-*   **H39:** The invisible floor maze near the entrance contains the primary path forward. (Result: Falsified. It's a series of dead ends or loops.)
+*   **H58 (Falsified):** The bookshelves in the western chamber of B3F contain a hidden switch. (Result: Falsified. Interacting with all accessible bookshelves yielded only flavor text.)
+*   **H57 (Falsified):** A path exists from my current location to the tile in front of the locked door at (10, 10). (Result: Falsified. The `master_navigator` tool confirmed no path exists, indicating the western section of B3F is also split.)
+*   **H56 (Falsified):** The ladder at (27, 14) on B3F leads to the true path to the transmitter. (Result: Falsified. Leads to a dead-end section of B2F.)
+*   **H55 (Falsified):** The eastern and western sections of B2F are connected. (Result: Falsified. My `master_navigator` tool confirmed no path exists between (27, 2) and (5, 13).)
+*   **H52 (Falsified):** There is a hidden passage or switch in the outer corridor of B2F. (Result: Falsified. Interacting with every wall tile in the eastern loop yielded no results.)
+*   **H49 (Falsified):** Lance has moved to the locked door on B2F and is waiting for me there. (Result: Falsified. Lance is not on B2F.)
+*   **H48 (Falsified):** Speaking to Lance on B3F after obtaining both passwords is the required trigger to open the locked door on B2F. (Result: Falsified. Lance is no longer on B3F.)
+*   **H47 (Falsified):** With the arrow tiles on B1F permanently disabled, a new path is now accessible within the central maze area. (Result: Falsified. The central maze area is a series of dead ends.)
+*   **H46 (Falsified):** The switch at (19, 11) on B1F can be toggled back on. (Result: Falsified. It's a one-time switch.)
+*   **H45 (Falsified):** The western corridor of B2F, accessed via the ladder at (3, 14), contains a path to the eastern section of the floor. (Result: Falsified. It's a dead end.)
+*   **H41 (Falsified):** The eastern corridor of B1F, accessed via the warp panel at (5, 15), contains a path to the boss. (Result: Falsified. It's a one-way exit.)
+*   **H39 (Falsified):** The invisible floor maze near the entrance contains the primary path forward. (Result: Falsified. It's a series of dead ends or loops.)
 *   **B2F Locked Door Interaction:** Interacting with the locked door at (14, 12) on B2F does not prompt for a password.
 *   **Lance's Location:** Lance is not on B3F or B2F waiting to open any doors.
 *   **B1F Maze:** The central arrow-tile maze and the invisible floor maze on B1F are dead ends.
