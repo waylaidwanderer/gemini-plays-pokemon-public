@@ -48,3 +48,11 @@
 ## IV. Future Testing & Verification Notes
 *   **Ledge Verification:** I must explicitly try to move *up* a ledge at the next opportunity to scientifically confirm this is impossible.
 *   **Object Traversal:** I must test if it's possible to walk on object tiles like `BOOKSHELF` when they are not blocked by walls to confirm they are universally impassable.
+
+## V. Team Rocket Hideout Bookshelf Puzzle
+
+*   **Hypothesis:** Interacting with all four 'Oath' bookshelves is required to progress.
+*   **Test Log:**
+    *   Bookshelf at (6, 13) interacted with. Result: Displayed 'TEAM ROCKET OATH'.
+    *   Bookshelf at (7, 13) interacted with. Result: Displayed 'TEAM ROCKET OATH'.
+    *   Bookshelf at (4, 13) interacted with. Result: Displayed 'TEAM ROCKET OATH'.
