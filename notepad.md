@@ -67,3 +67,4 @@
 
 ## VI. Discoveries & Corrections
 *   **PC System:** 'BILL's PC' is for Pokémon Storage. 'G's PC' is for Item Storage. I was selecting the wrong one initially.
+*   **Systematic Tile Testing:** I need to be more rigorous. For every new map, I will identify all unique tile types and create a plan to test their traversability from all four directions to confirm one-way paths, impassability, or special conditions. This includes tiles that appear to be simple walls or obstacles.
