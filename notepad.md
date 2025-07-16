@@ -32,10 +32,10 @@
 - **Hypothesis Log (1F Switch at (3,6)):**
   - **H1 (Falsified):** The switch is a simple toggle for the eastern gates. (Tested Turns 77397-77399)
   - **H2 (Falsified):** The switch is a simple toggle for the western gates. (Tested Turns 77437-77452)
-  - **H3 (Confirmed):** The switch at (3, 6) on 1F cycles through states controlling the eastern gates at (17,8)/(18,8) and the western gates at (25,14)/(26,14).
-    - **Test 1 (Turn 77471-77490):** Performed a 4th press.
-      - **Result:** Eastern gates at (17,8)/(18,8) are OPEN. Western gates at (25,14)/(26,14) are CLOSED.
-      - **Conclusion:** Hypothesis H3 is confirmed. The switch appears to have a cycle. To proceed through the western gates, I will need to press the switch again.
+  - **H3 (SOLVED):** The switch at (3, 6) on 1F operates on a two-state cycle.
+    - **State 1:** Eastern gates at (17,8)/(18,8) are OPEN. Western gates at (25,14)/(26,14) are CLOSED. (Observed after 1st and 4th press)
+    - **State 2:** Eastern gates at (17,8)/(18,8) are CLOSED. Western gates at (25,14)/(26,14) are OPEN. (Observed after 2nd and 5th press)
+    - **Conclusion:** The puzzle is solved. I can now reliably toggle the gates to access all areas on this floor.
 
 # IV. Map Marker Key
 - ☠️: Defeated Trainer
