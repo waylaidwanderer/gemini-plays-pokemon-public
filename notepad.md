@@ -26,12 +26,12 @@
 # III. Puzzle Logs
 ## A. Seafoam Islands Boulder Puzzle
 - **Goal:** Stop the strong water current on Seafoam Islands B4F.
-- **Current Hypothesis:** The Seafoam Islands consist of two separate, disconnected caves. The western cave is a dead end for the puzzle. The solution must be in the eastern cave. Access to the eastern section of Route 20 (and thus the eastern cave entrance) must be found by navigating the water routes from Route 19, not by direct surfing from the western part of Route 20.
-- **Current Plan:** The Route 19 path has been exhausted. The new plan is to travel to Cinnabar Island and explore the sea routes east of it.
+- **Current Hypothesis:** The Seafoam Islands consist of two separate, disconnected caves. The western cave is a dead end for the puzzle. The solution must be in the eastern cave.
+- **Current Plan:** Having exhausted the southern sea routes, the new plan is to explore the sea routes east of Cinnabar Island to find the eastern cave entrance.
 - **Falsified Hypothesis Log:**
   1. The western and eastern sections of the cave are connected internally. (Failed, pathfinder confirmed no path exists on any floor).
   2. The eastern island on Route 20 is reachable by surfing directly from the western part of the route. (Failed, pathfinder v14 confirmed no path exists).
-  3. The path to the eastern Seafoam Islands entrance is accessible from a southern connection on Route 19. (Failed, both southern connections on Route 19 led to isolated, dead-end sections of Route 20).
+  3. The path to the eastern Seafoam Islands entrance is accessible from southern connections on Route 19. (Failed, both southern connections on Route 19 led to isolated, dead-end sections of Route 20).
 - **SURF Field Move:** To use SURF, you must be standing on a valid land tile (e.g., `ground`) directly adjacent to a `water` tile and be *facing* the water before opening the menu to select the move.
 
 # IV. Tool Development Ideas
