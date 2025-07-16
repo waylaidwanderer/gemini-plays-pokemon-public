@@ -24,16 +24,3 @@
 ## B. Confirmed ROM Hack Changes
 - **Type Matchups & Immunities:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire; Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground; Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 - **Battle & Field Mechanics:** PSYWAVE/CONFUSE RAY can miss. Safari Zone has a time limit. Losing in a gym does not warp you out. FLY can end wild battles indoors but cannot be used to escape buildings. ROAR can end wild battles. SURF requires facing the water tile.
-
-# III. Puzzle Logs
-## A. Seafoam Islands Boulder Puzzle
-- **Goal:** Stop the strong water current on Seafoam Islands B4F.
-- **Current Hypothesis:** The puzzle must be solved by pushing boulders into holes on the upper floors of the *western* Seafoam Islands cave.
-- **Falsified Hypothesis Log:**
-  1. The western and eastern sections of the cave are connected internally on any floor. (Failed, pathfinder confirmed no path exists on any floor).
-  2. The eastern island on Route 20 is reachable by surfing directly from the western part of the route. (Failed, pathfinder confirmed no path exists).
-  3. The path to the eastern Seafoam Islands entrance is accessible from southern connections on Route 19. (Failed, both southern connections on Route 19 led to isolated, dead-end sections of Route 20).
-  4. Pushing a boulder into water on B3F (East) would solve the puzzle. (Failed, could not push boulder into adjacent water tile).
-  5. Flying to Cinnabar Island provides surf access to the western Seafoam Islands entrance. (Failed, pathfinder and system confirmed Route 20 is split by impassable terrain, blocking access from the west).
-  5. The path to the western Seafoam Islands is accessible by surfing west from Route 19. (Failed, the entire western edge of Route 19 is blocked by an impassable rock wall).
-  6. The path to the western Seafoam Islands is accessible by surfing south along the western edge of Route 19. (Failed, the southern path is blocked by impassable rocks).
