@@ -26,7 +26,8 @@
 # III. Puzzle Logs
 ## A. Seafoam Islands Boulder Puzzle
 - **Goal:** Stop the strong water current on Seafoam Islands B4F.
-- **Current Hypothesis:** The Seafoam Islands consist of two separate, disconnected caves. The western cave (which I have fully explored) is a dead end for the puzzle. The solution must be in the eastern cave, which I hypothesize is accessible from a separate entrance on Route 20.
-- **Current Plan:** Navigate the Route 20 water maze to find the eastern entrance. Enter the eastern cave and solve the boulder puzzle there.
+- **Current Hypothesis:** The Seafoam Islands consist of two separate, disconnected caves. The western cave is a dead end for the puzzle. The solution must be in the eastern cave. Access to the eastern section of Route 20 (and thus the eastern cave entrance) must be found by navigating the water routes from Route 19, not by direct surfing from the western part of Route 20.
+- **Current Plan:** Return to Route 19 and explore for a new path leading to the eastern section of Route 20.
 - **Falsified Hypothesis Log:**
   1. The western and eastern sections of the cave are connected internally. (Failed, pathfinder confirmed no path exists on any floor).
+  2. The eastern island on Route 20 is reachable by surfing directly from the western part of the route. (Failed, pathfinder v14 confirmed no path exists).
