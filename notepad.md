@@ -1,8 +1,8 @@
-# I. Core Principles & Lessons Learned
+# I. Core Directives
 - **Act Immediately:** I am an LLM. My thinking only occurs when processing a prompt. There is no 'later'. I must perform maintenance tasks like fixing tools or updating my notepad in the current turn, not defer them.
-- **System Validation is Absolute Truth:** The game's validation data (navigable warps, unseen tiles) MUST override my own perception and my tools' outputs. If a tool contradicts the game state, the tool is broken and must be fixed immediately.
-- **Falsify Your Beliefs:** I must actively try to disprove my own conclusions, not just seek confirmation. If a tool seems broken, I must prove it before assuming a hidden game mechanic.
-- **Systematic Debugging is Mandatory:** I must use `run_code` with print statements and my `code_debugger_agent` to systematically diagnose issues before attempting a fix. Tool refinement is the highest priority.
+- **System is Truth:** The game's validation data (navigable warps, etc.) MUST override my perception and my tools' outputs. If a tool contradicts the game state, the tool is broken and must be fixed immediately.
+- **Falsify Beliefs:** I must actively try to disprove my own conclusions, not just seek confirmation. When a tool fails, I must assume it's a bug in my code before assuming a hidden game mechanic.
+- **Systematic Debugging:** I must use `run_code` with print statements and my `code_debugger_agent` to systematically diagnose issues before attempting a fix. Tool refinement is the highest priority.
 
 # II. Game Mechanics & Battle Intel
 ## A. Tile Mechanics & Traversal
