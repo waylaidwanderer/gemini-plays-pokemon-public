@@ -68,3 +68,8 @@
 - **Hypothesis:** After the sequence `1F switch -> 2F switch -> 1F switch (again)`, the western gates on 1F will open.
 - **Test:** Navigate to and press the switch at (3, 6), then use pathfinder to check for a path to (17, 8).
 - **Expected Outcome:** A valid path will be found.
+
+## I. Pokémon Mansion Switch Puzzle (1F/2F/1F Sequence)
+- **Hypothesis:** After the sequence `1F switch -> 2F switch -> 1F switch (again)`, the western gates on 1F will open.
+- **Test:** Navigate to and press the switch at (3, 6), then use pathfinder to check for a path to (17, 8).
+- **Expected Outcome:** A valid path will be found.
