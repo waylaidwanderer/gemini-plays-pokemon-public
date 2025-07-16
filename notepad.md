@@ -66,3 +66,4 @@
 ## V. Failed Hypotheses & Corrected Misconceptions
 *   **Mahogany Gym Blockade:** The trigger for the Fisher to move is NOT defeating Team Rocket or talking to any of the local NPCs post-Team-Rocket.
 *   **RAGECANDYBAR:** The Mahogany Town 'shop' is a front for Team Rocket and does not sell any items. The RAGECANDYBAR cannot be purchased to move the Fisher.
+*   **FLOOR_UP_WALL:** A one-way impassable tile. Appears to be the top of a ledge, cannot be traversed from below.
