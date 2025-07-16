@@ -20,11 +20,9 @@
 *   **MART_SHELF:** Impassable object. Acts as a wall within shops.
 *   **HEADBUTT_TREE:** An interactable tree that can be shaken with the move Headbutt to find Pokémon.
 *   **CAVE:** A type of warp tile, functions like a door to an interior map.
-*   **WARP_CARPET_LEFT:** A warp tile that moves the player. Often requires a specific directional input (e.g., 'Down') to activate.
-*   **FLOOR_UP_WALL:** (Hypothesis) A one-way impassable tile. Appears to be the top of a ledge, cannot be traversed from below.
-*   **WARP_CARPET_RIGHT:** (Hypothesis) A warp tile that likely moves the player right when activated.
-*   **LEDGE_HOP_DOWN:** (Hypothesis) A one-way traversal tile, allowing movement down but not up.
-*   **LEDGE_HOP_RIGHT:** (Hypothesis) A one-way traversal tile, allowing movement right but not left.
+*   **WARP_CARPET_LEFT/RIGHT:** A warp tile that moves the player. Often requires a specific directional input to activate.
+*   **FLOOR_UP_WALL:** (Hypothesis) A one-way impassable tile. Appears to be the top of a ledge, cannot be traversed from below. **TODO:** Need to test this rigorously by attempting to move into it from all four directions.
+*   **LEDGE_HOP_DOWN/RIGHT:** (Hypothesis) A one-way traversal tile.
 
 ### Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
@@ -62,13 +60,15 @@
 
 ## IV. Current Objectives & Plans
 *   **Primary Goal:** Defeat Pryce, the Mahogany Town Gym Leader, to earn the Glacier Badge.
-*   **Current Obstacle:** A Fisher is blocking the gym entrance at (6, 14). All leads in Mahogany Town have been exhausted.
-*   **Hypothesis 1:** The trigger is exploring the Whirl Islands. This requires catching a Pokémon that can learn Fly.
-*   **Hypothesis 2 (Alternative):** The trigger is healing the sick Miltank on Route 39. This would require gathering berries.
-*   **Current Plan:** Travel to Mahogany Town to heal and buy Poké Balls. Return to Route 42 to catch a flying-type Pokémon. Once I can fly, I will test Hypothesis 2 by flying to Route 39 and healing the Miltank before attempting Hypothesis 1.
+*   **Current Obstacle:** A Fisher is blocking the gym entrance at (6, 14).
+*   **Current Plan:** 
+    1. Travel to Mahogany Town.
+    2. Conduct a thorough sweep of the town: talk to every NPC again and re-check all buildings to test the hypothesis that the trigger is local.
+    3. If the local trigger hypothesis fails, proceed with the plan to acquire a Pokémon with Fly.
+    4. Test the alternative hypotheses: healing the Miltank on Route 39 or exploring the Whirl Islands.
 
 ## V. Failed Hypotheses & Corrected Misconceptions
-*   **Mahogany Gym Blockade:** The trigger for the Fisher to move is NOT defeating Team Rocket or talking to any of the local NPCs post-Team-Rocket.
+*   **Mahogany Gym Blockade:** The trigger for the Fisher to move is NOT defeating Team Rocket or talking to any of the local NPCs post-Team-Rocket (initial sweep).
 *   **RAGECANDYBAR:** The Mahogany Town 'shop' is a front for Team Rocket and does not sell any items. The RAGECANDYBAR cannot be purchased to move the Fisher.
 
 ## VI. Glitched Encounters
