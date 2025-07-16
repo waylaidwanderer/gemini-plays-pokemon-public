@@ -40,7 +40,6 @@
 *   **Goldenrod Gym:** A maze with trainers that appear and disappear. The path is a spiral shape resembling a Clefairy.
 *   **Ecruteak Gym:** An invisible path puzzle. Many tiles are pitfalls that return you to the entrance. Requires careful trial and error to find the safe path to the Gym Leader.
 *   **Cianwood Gym:** Defeated trainers become obstacles. A switch resets the puzzle. A boulder must be pushed with STRENGTH to clear the path.
-*   **Team Rocket Hideout:** Disable the radio transmitter by getting two passwords ('SLOWPOKETAIL' and 'RATICATE TAIL') to open the boss's door on B3F. Lance's Dragonite destroys the machine.
 
 ## III. Important NPCs & Quests
 *   **Professor Elm:** Gave me my starter and the Pokémon Egg. Main quest giver.
