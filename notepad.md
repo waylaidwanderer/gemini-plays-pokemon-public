@@ -32,14 +32,10 @@
 - **Hypothesis Log (1F Switch at (3,6)):**
   - **H1 (Falsified):** The switch is a simple toggle for the eastern gates. (Tested Turns 77397-77399)
   - **H2 (Falsified):** The switch is a simple toggle for the western gates. (Tested Turns 77437-77452)
-  - **H3 (Current Hypothesis):** The switch at (3, 6) on 1F cycles through states controlling the eastern gates at (17,8)/(18,8) and the western gates at (25,14)/(26,14).
-    - **Test 1 (Turn 77471):** Perform a 4th press (equivalent to a 1st press from initial state).
-      - **Prediction:** Eastern gates will be OPEN, Western gates will be CLOSED.
-      - **Test Plan:**
-        1. Press switch at (3, 6).
-        2. Navigate to view eastern gates.
-        3. Navigate to view western gates.
-        4. Record results.
+  - **H3 (Confirmed):** The switch at (3, 6) on 1F cycles through states controlling the eastern gates at (17,8)/(18,8) and the western gates at (25,14)/(26,14).
+    - **Test 1 (Turn 77471-77490):** Performed a 4th press.
+      - **Result:** Eastern gates at (17,8)/(18,8) are OPEN. Western gates at (25,14)/(26,14) are CLOSED.
+      - **Conclusion:** Hypothesis H3 is confirmed. The switch appears to have a cycle. To proceed through the western gates, I will need to press the switch again.
 
 # IV. Map Marker Key
 - ☠️: Defeated Trainer
