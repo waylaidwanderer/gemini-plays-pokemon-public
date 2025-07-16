@@ -51,7 +51,7 @@
 *   **Object Traversal:** I must test if it's possible to walk on object tiles like `BOOKSHELF` when they are not blocked by walls to confirm they are universally impassable.
 *   **Password Door Re-check:** My `puzzle_master` agent recommended I try the passwords. I will do this as soon as I can reach the door.
 *   **Bookshelf Switch Hypothesis:** If the invisible maze is a dead end, I will test the hypothesis that the bookshelves at (20, 11) and (21, 11) are a hidden switch.
-*   **Agent Idea:** Create a 'maze exploration strategist' agent. It could take a list of known safe tiles and suggest the most logical next tile to test, potentially using different algorithms (e.g., wall-following, random walk) to avoid getting stuck in loops.
+*   **Maze Navigation:** I will use the `maze_navigator` tool to efficiently solve the invisible floor maze. It uses a right-hand wall-following algorithm.
 *   **Password 2:** 'RATICATE TAIL' (from grunt at (5, 14) on B3F).
 *   **Alternative Hypothesis (Post-Maze):** If the invisible maze on B1F does not contain a path to the transmitter, the solution may be a hidden switch or passage on B2F or B3F. I will systematically re-explore those floors if H36 is falsified.
 *   **H37 (Falsified):** The bookshelves at (20, 11) and (21, 11) are a hidden switch. Both only contain flavor text.
