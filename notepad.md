@@ -59,9 +59,6 @@
 # IV. Tile Mechanics
 - **gate_offscreen:** The game's validation system optimistically treats all `gate_offscreen` tiles as traversable for pathing purposes, unless I have a specific marker indicating otherwise. This means I might have more exits than are immediately apparent, and I should not assume I am trapped if the validation system says otherwise.
 
-# IV. Tile Mechanics
-- **gate_offscreen:** The game's validation system optimistically treats all `gate_offscreen` tiles as traversable for pathing purposes, unless I have a specific marker indicating otherwise. This means I might have more exits than are immediately apparent, and I should not assume I am trapped if the validation system says otherwise.
-
 ## H. Pokémon Mansion Switch Puzzle (1F/2F Sequence)
 - **Hypothesis:** After pressing the switch on 1F, then returning to 2F and pressing the switch there again, the western gates on 1F at (17, 8) and (18, 8) will re-open.
 - **Test:** Use pathfinder to check for a path to (17, 8).
