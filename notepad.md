@@ -39,3 +39,7 @@
 - **Step 7:** On B1F, activate the final switch at (19, 26). This should open the Western Gates on 1F.
 - **Step 8:** Return to 1F via the warp at (24, 23).
 - **Step 9:** Navigate to the now-open Western Gates at (25, 14)/(26, 14) and retrieve the SECRET KEY.
+
+## C. Tile Testing Protocol
+- **Objective:** Systematically test and document the properties of every unique tile type encountered.
+- **Method:** For any tile that appears impassable or has unknown properties, I will attempt to interact with it using various methods (walking into it, using Cut, etc.) and document the outcome.
