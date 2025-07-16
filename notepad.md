@@ -43,3 +43,8 @@
 ## C. Tile Testing Protocol
 - **Objective:** Systematically test and document the properties of every unique tile type encountered.
 - **Method:** For any tile that appears impassable or has unknown properties, I will attempt to interact with it using various methods (walking into it, using Cut, etc.) and document the outcome.
+## B. Gate Puzzle Hypothesis Log
+### Test 1
+- **Hypothesis:** Pressing the 2F switch at (3, 12) again will re-open the gates at (10, 5)/(10, 6).
+- **Test:** Navigate to (3, 13), activate the switch, then return to check the gates.
+- **Expected Outcome:** The gates at (10, 5)/(10, 6) will change from `closed_gate` to `open_gate`.
