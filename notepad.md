@@ -9,7 +9,7 @@
 ## II. Game Systems & Mechanics
 ### Tile Mechanics
 *   **Traversable:** `FLOOR`, `GRASS`, `TALL_GRASS`, `LONG_GRASS`, `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`, `ARROW_TILE_UP`, `ARROW_TILE_DOWN`, `ARROW_TILE_LEFT`, `ARROW_TILE_RIGHT`
-*   **Impassable:** `BIRD`, `BOOKSHELF`, `BUOY`, `CHAIR`, `CHIMNEY`, `COMPUTER`, `COUNTER`, `FENCE`, `FLOWER`, `INCENSE_BURNER`, `LINK_CABLE`, `LINK_RECEPTIONIST`, `MART_SHELF`, `PC`, `PERSIAN_STATUE_L`, `PERSIAN_STATUE_R`, `PILLAR`, `PRINTER`, `RADIO`, `ROCK`, `ROOF`, `SIGN`, `TABLE`, `TOWN_MAP`, `TRADE_MACHINE`, `TREE_TOP`, `TV`, `VOID`, `WALL`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `WEIRD_TREE`, `WINDOW`
+*   **Impassable:** `BIRD`, `BOOKSHELF`, `BUOY`, `CHAIR`, `CHIMNEY`, `COMPUTER`, `COUNTER`, `FENCE`, `FLOWER`, `INCENSE_BURNER`, `LINK_CABLE`, `LINK_RECEPTIONIST`, `MART_SHELF`, `PC`, `PERSIAN_STATUE_L`, `PERSIAN_STATUE_R`, `PILLAR`, `PRINTER`, `RADIO`, `ROCK`, `ROOF`, `SIGN`, `TABLE`, `TOWN_MAP`, `TRADE_MACHINE`, `TREE_TOP`, `TV`, `VOID`, `WALL`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `WEIRD_TREE`, `WINDOW`, `COUNTER`
 *   **Warps:** `CAVE`, `DOOR`, `LADDER`, `STAIRCASE`, `WARP_PANEL` (One-way)
 *   **Conditional/One-Way:** `BREAKABLE_ROCK` (Requires Rock Smash), `CUT_TREE` (Requires HM01 Cut), `FLOOR_UP_WALL` (One-way ledge), `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`, `PIT` (One-way down), `WARP_CARPET_DOWN` (Requires pressing 'Down' button while standing on tile)
 *   **Confirmed Obstacles:** Defeated trainer sprites are impassable objects.
@@ -28,12 +28,13 @@
 *   **Locked Door:** The final objective is likely behind the locked door on B3F at coordinates (10, 9) and (11, 9).
 
 ### Current Hypothesis
-*   **H63 (Falsified):** A path connecting the disconnected sections of B2F exists via the floor below, B3F. (Result: Falsified by `master_navigator` tool, which confirmed no path exists between the eastern and western sections of this floor.)
+*   **H69 (Current):** Re-entering this area via the ladder at (27, 2) will change the map state, opening a path.
 
 ## IV. Future Testing & Ideas
 *   **Agent Idea: `hypothesis_generator`:** An agent that takes the current puzzle state (map description, failed hypotheses from notepad) and suggests new, testable hypotheses. This could formalize my brainstorming process.
 *   **Agent Idea: `code_debugger`:** An agent that takes a Python script and an error message as input, and suggests a fix or the location of the bug. This could streamline tool debugging.
 *   **Alternative Hypothesis (Team Rocket Hideout):** If no path to the door exists, there might be another hidden warp tile or switch I have missed.
+*   **Agent Idea: `log_summarizer`:** An agent that could periodically review turn history to extract key events and help identify patterns or missed clues.
 
 ## V. Archived Hypotheses (Solved/Falsified)
 *   **H60 (Falsified):** Lance has moved to the locked door on B2F at coordinates (14, 12) and is waiting for me there. (Result: Falsified. Lance was not at the door, and it did not open.)
@@ -55,8 +56,8 @@
 *   **B1F Maze:** The central arrow-tile maze and the invisible floor maze on B1F are dead ends.
 *   **B2F/B3F Connectivity:** The eastern and western sections of B2F and B3F are not physically connected.
 *   **Bookshelf Puzzle:** Interacting with the 'Oath' bookshelves does not seem to trigger any immediate event or unlock any paths.
-*   **Agent Idea: `log_summarizer`:** An agent that could periodically review turn history to extract key events and help identify patterns or missed clues.
 *   **H62 (Falsified):** A 'spin tile maze' connects the eastern and western sections of B2F. (Result: Falsified by `puzzle_master` agent's suggestion being immediately disproven by the `master_navigator` tool, which confirmed no path exists between the two sections on this floor.)
+*   **H63 (Falsified):** A path connecting the disconnected sections of B2F exists via the floor below, B3F. (Result: Falsified by `master_navigator` tool, which confirmed no path exists between the eastern and western sections of this floor.)
 *   **H65 (Falsified):** A hidden arrow tile maze on B3F is the key to crossing between the disconnected eastern and western sections. (Result: Falsified by `master_navigator` tool, which confirmed no path exists between the eastern and western sections of this floor.)
 *   **H67 (Falsified):** There is a missed interaction or hidden switch in the eastern section of B2F. (Result: Falsified by `master_navigator` tool, which confirmed no path exists to the transmitter from the eastern section.)
-*   **H68 (Current):** The ladder at (27, 2) is a two-way warp. Ascending from B3F at (27, 2) will lead to a new, accessible section of B2F.
+*   **H68 (Falsified):** The ladder at (27, 2) is a two-way warp. Ascending from B3F at (27, 2) will lead to a new, accessible section of B2F. (Result: Falsified. A systematic search of all walls in the resulting corridor revealed no hidden switches.)
