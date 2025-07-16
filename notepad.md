@@ -16,13 +16,11 @@
 *   **BOULDER:** Can be moved with the HM move STRENGTH.
 *   **LEDGE:** One-way traversal. Can be jumped down but not climbed up.
 *   **COUNTER:** Impassable barrier. To interact with an NPC behind a counter, stand on an adjacent floor tile, face the counter, and press 'A'.
-*   **PC:** Impassable object. Interact with it from an adjacent tile (usually below, facing up).
+*   **PC:** Impassable object. Interact with it from an adjacent tile (usually below, facing up). 'BILL's PC' is for Pokémon, 'Your Name's PC' is for items.
 *   **MART_SHELF:** Impassable object. Acts as a wall within shops.
 *   **HEADBUTT_TREE:** An interactable tree that can be shaken with the move Headbutt to find Pokémon.
 *   **CAVE:** A type of warp tile, functions like a door to an interior map.
 *   **WARP_CARPET_LEFT/RIGHT:** A warp tile that moves the player. Often requires a specific directional input to activate.
-*   **FLOOR_UP_WALL:** (Hypothesis) A one-way impassable tile. Appears to be the top of a ledge, cannot be traversed from below. **TODO:** Need to test this rigorously by attempting to move into it from all four directions.
-*   **LEDGE_HOP_DOWN/RIGHT:** (Hypothesis) A one-way traversal tile.
 
 ### Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
@@ -60,14 +58,14 @@
 
 ## IV. Current Objectives & Plans
 *   **Primary Goal:** Defeat Pryce, the Mahogany Town Gym Leader, to earn the Glacier Badge.
-*   **Current Obstacle:** A Fisher is blocking the gym entrance at (6, 14) in Mahogany Town.
 *   **Current Plan:**
-    1.  Acquire a Pokémon that can learn Fly to improve travel efficiency. My Hoothoot in the PC is the primary candidate.
-    2.  Withdraw Hoothoot from the PC in Ecruteak City.
-    3.  Teach Hoothoot the move Fly.
-    4.  With Fly, I can more easily test my other hypotheses for unblocking the Mahogany Gym, such as healing the Miltank on Route 39 or further exploring the Whirl Islands.
+    1.  Teach Hoothoot the move Fly.
+    2.  Use Fly to travel to different locations to test hypotheses for unblocking the Mahogany Gym.
+        - Hypothesis 1: The Fisher will move after healing the sick Miltank on Route 39.
+        - Hypothesis 2: The trigger is related to the Whirl Islands, which I can now explore with Whirlpool.
 
-## V. Failed Hypotheses & Corrected Misconceptions
-*   **Mahogany Gym Blockade:** The trigger for the Fisher to move is NOT defeating Team Rocket or talking to any of the local NPCs post-Team-Rocket (initial sweep).
-*   **RAGECANDYBAR:** The Mahogany Town 'shop' is a front for Team Rocket and does not sell any items. The RAGECANDYBAR cannot be purchased to move the Fisher.
-*   **RAGECANDYBAR Purchase:** The Pokefan M in Mahogany Town offers to sell a RAGECANDYBAR, but the game gives a 'You don't have room for this' error, even when all inventory pockets have space. This is a scripted block, not a literal inventory issue. The candy bar is not the trigger for the Fisher.
+## V. TODO & Untested Assumptions
+*   **Tile Testing:**
+    - **FLOOR_UP_WALL:** Test if this is a one-way impassable tile by attempting to move into it from all four directions.
+    - **LEDGE_HOP_DOWN/RIGHT:** Verify these are one-way traversal tiles.
+*   **Hoothoot & Fly:** Verify that Hoothoot can learn Fly. If not, I need a new plan for a Fly user.
