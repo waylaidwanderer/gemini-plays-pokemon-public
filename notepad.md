@@ -50,3 +50,4 @@
 *   **Sick Ampharos (Olivine Lighthouse):** Needs SECRETMEDICINE from Cianwood City. Curing it is required for Jasmine to return to her gym.
 *   **Lance (Lake of Rage/Mahogany):** Helps to stop Team Rocket's radio signal plot.
 *   **Team Rocket Passwords:** 'SLOWPOKETAIL' and 'RATICATE TAIL' are needed for the boss's door in the Mahogany hideout.
+*   **Team Rocket Hideout (B1F):** An invisible floor maze with traps. Security cameras also trigger battles. The warp panel at (5, 15) connects the western and eastern sections of the floor.
