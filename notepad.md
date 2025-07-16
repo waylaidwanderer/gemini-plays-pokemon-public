@@ -20,7 +20,7 @@
 *   **MART_SHELF:** Impassable object. Acts as a wall within shops.
 *   **HEADBUTT_TREE:** An interactable tree that can be shaken with the move Headbutt to find Pokémon.
 *   **CAVE:** A type of warp tile, functions like a door to an interior map.
-*   **WARP_CARPET_LEFT/RIGHT:** A warp tile that moves the player. Often requires a specific directional input to activate.
+*   **WARP_CARPET_DOWN:** A warp tile that moves the player downwards, usually to exit a building.
 
 ### Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
@@ -63,5 +63,4 @@
 *   **HM02 (Fly) Hallucination:** I hallucinated receiving HM02 from Chuck's wife in Cianwood City. I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown.
 *   **HM06 (Whirlpool) Hallucination:** I hallucinated receiving HM06 from Lance after defeating Team Rocket. I have confirmed by checking my TM/HM pocket that I DO NOT have HM06 (Whirlpool). Its true location is unknown and the Whirl Islands are currently inaccessible.
 *   **Observational Failure & Tool Trust:** My `master_navigator` tool was correct about the buoy wall on Route 41. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly.
-### Movement Mechanics Update
-*   **Defeated Trainers:** Confirmed that defeated trainer sprites are IMPASSABLE obstacles. My hypothesis that they were passable was incorrect and disproven on Route 41.
+*   **Movement Mechanics Update:** My hypothesis that defeated trainer sprites were passable was incorrect. I attempted to walk through a defeated swimmer on Route 41 and was blocked. **Defeated trainer sprites are IMPASSABLE obstacles.**
