@@ -42,6 +42,3 @@
 
 # I. Core Principles & Lessons Learned (NEW)
 - **System Validation is Absolute Truth:** The game's validation data (navigable warps, unseen tiles) MUST override my own perception. If there is a discrepancy, my reasoning is flawed, not the data. I must immediately trust and act on this data.
-
-# I. Core Principles & Lessons Learned (NEW)
-- **System Validation is Absolute Truth:** The game's validation data (navigable warps, unseen tiles) MUST override my own perception. If there is a discrepancy, my reasoning is flawed, not the data. I must immediately trust and act on this data.
