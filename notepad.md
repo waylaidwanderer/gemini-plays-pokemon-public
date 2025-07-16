@@ -28,7 +28,8 @@
 *   **Locked Door:** The final objective is likely behind the locked door on B3F at coordinates (10, 9) and (11, 9).
 
 ### Current Hypothesis
-*   **H71 (Current):** Leaving and re-entering this area via the ladder at (27, 2) will change the map state, opening a new path.
+*   **H72 (Current):** There is a hidden switch or warp tile in the eastern section of B3F that provides a path to the western section.
+*   **H71 (Falsified):** Leaving and re-entering this area via the ladder at (27, 2) will change the map state, opening a new path. (Result: Falsified by `master_navigator`, which confirmed no path exists after re-entry.)
 
 ## IV. Future Testing & Ideas
 *   **Agent Idea: `hypothesis_generator`:** An agent that takes the current puzzle state (map description, failed hypotheses from notepad) and suggests new, testable hypotheses. This could formalize my brainstorming process.
