@@ -38,10 +38,8 @@
   - Test suspicious rock walls for secret passages.
 - **Tool & Agent Development Ideas:**
   - **Cove Detector Tool:** A tool that analyzes the surrounding map XML to determine if the player is in an enclosed space (e.g., a cove surrounded by impassable tiles on three sides).
-  
 
 # V. Tool Development & Debugging Log
 ## A. gem_path_planner_v19
 - **Failure (Turn 76938):** The tool generated a long, invalid path on Seafoam Islands B1F from (18, 5) to (8, 6), attempting to traverse impassable tiles and non-existent connections between elevated platforms. The path was completely nonsensical. Manual pathing was required.
 - **Failure (Turn 76941):** The tool generated an invalid path from (17,10) to (8,6) that attempted to move through an impassable tile at (16,10).
-  - **Multi-Floor Puzzle Strategist Agent:** An agent that analyzes descriptions of interconnected maps (like Seafoam Islands) to devise high-level, step-by-step puzzle solutions. It would take map names, key objects (boulders, holes), and connections (ladders) as input.
