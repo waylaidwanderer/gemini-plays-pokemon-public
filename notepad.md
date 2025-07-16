@@ -58,3 +58,6 @@
 
 # IV. Tile Mechanics
 - **gate_offscreen:** The game's validation system optimistically treats all `gate_offscreen` tiles as traversable for pathing purposes, unless I have a specific marker indicating otherwise. This means I might have more exits than are immediately apparent, and I should not assume I am trapped if the validation system says otherwise.
+
+# IV. Tile Mechanics
+- **gate_offscreen:** The game's validation system optimistically treats all `gate_offscreen` tiles as traversable for pathing purposes, unless I have a specific marker indicating otherwise. This means I might have more exits than are immediately apparent, and I should not assume I am trapped if the validation system says otherwise.
