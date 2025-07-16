@@ -28,3 +28,4 @@
 - **Conclusion:** Hypothesis DENIED. The path north remains blocked. The switch's function is more complex than a simple toggle.
 
 - **Data Discipline Reminder (from Overwatch):** I must update my notepad and map markers *immediately* upon discovering new information or environmental changes. No more deferring documentation. I will also avoid creating redundant map markers.
+- **Data Discipline Reminder (from Overwatch):** I must update my notepad and map markers *immediately* upon discovering new information or environmental changes. No more deferring documentation. I will also avoid creating redundant map markers.
