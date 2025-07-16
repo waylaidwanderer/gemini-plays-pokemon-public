@@ -64,10 +64,3 @@
     - **FLOOR_UP_WALL:** Test if this is a one-way impassable tile by attempting to move into it from all four directions.
     - **LEDGE_HOP_DOWN/RIGHT:** Verify these are one-way traversal tiles.
 *   **HM02 (Fly) Missing:** I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). My previous belief that I received it from Chuck's wife was a hallucination. Its true location is unknown and must be discovered.
-
-## VI. Discoveries & Corrections
-*   **PC System:** 'BILL's PC' is for Pokémon Storage. 'G's PC' is for Item Storage. I was selecting the wrong one initially.
-*   **Systematic Tile Testing:** I need to be more rigorous. For every new map, I will identify all unique tile types and create a plan to test their traversability from all four directions to confirm one-way paths, impassability, or special conditions. This includes tiles that appear to be simple walls or obstacles.
-## VI. Discoveries & Corrections
-*   **PC System:** 'BILL's PC' is for Pokémon Storage. 'G's PC' is for Item Storage. I was selecting the wrong one initially.
-*   **Systematic Tile Testing:** I need to be more rigorous. For every new map, I will identify all unique tile types and create a plan to test their traversability from all four directions to confirm one-way paths, impassability, or special conditions. This includes tiles that appear to be simple walls or obstacles.
