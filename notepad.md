@@ -55,3 +55,4 @@
 *   **B1F Maze:** The central arrow-tile maze and the invisible floor maze on B1F are dead ends.
 *   **B2F/B3F Connectivity:** The eastern and western sections of B2F and B3F are not physically connected.
 *   **Bookshelf Puzzle:** Interacting with the 'Oath' bookshelves does not seem to trigger any immediate event or unlock any paths.
+*   **Agent Idea: `log_summarizer`:** An agent that could periodically review turn history to extract key events and help identify patterns or missed clues.
