@@ -54,8 +54,3 @@
 ## G. Pokémon Mansion 2F Switch Puzzle (Attempt 3)
 - **Hypothesis:** After pressing the switch on 1F, returning to 2F and pressing the switch at (3, 12) would open the northern gates at (10, 5) and (10, 6).
 - **Test:** After performing the sequence, used `pathfinder` to check for a path to the northern warp at (7, 2).
-- **Conclusion:** Hypothesis DENIED. No path was found. The sequence did not open the northern gates.
-## H. Pokémon Mansion Switch Puzzle (1F/2F Sequence)
-- **Hypothesis:** After pressing the switch on 1F, then returning to 2F and pressing the switch there again, the western gates on 1F at (17, 8) and (18, 8) will re-open.
-- **Test:** Use pathfinder to check for a path to (17, 8).
-- **Conclusion:** DENIED. Path not found.
