@@ -35,8 +35,9 @@
 
 ### Hypotheses Log
 *   **H34 (Falsified):** Navigating the invisible floor maze and reaching the door does not automatically trigger a password prompt.
-*   **H35 (Active):** The key to opening the door is located elsewhere on B2F, likely related to the transmitter at Y=9.
+*   **H35 (Falsified):** The key to opening the door is not a direct interaction after learning the passwords. The transmitter area is also inaccessible from any known path on B2F.
 *   **H33 (Falsified):** Disabling the arrow tiles on B1F will open a new path on B2F.
+*   **H36 (Active):** The invisible maze on B1F contains a second, undiscovered ladder that leads to the area with the transmitter.
 
 ### Future Plans & Strategy
 *   **Hideout Progression Plan (v8):**
