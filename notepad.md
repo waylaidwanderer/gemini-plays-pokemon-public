@@ -10,7 +10,7 @@
 *   **DOOR:** A warp tile. Leads to other buildings/areas.
 *   **GRASS/TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
 *   **WATER/SEA:** Traversable only with the HM move SURF. Can trigger wild Pokémon encounters.
-*   **BUOY:** Impassable obstacle in water.
+*   **BUOY:** Impassable obstacle in water. Confirmed through repeated failed navigation attempts on Route 41.
 *   **WHIRLPOOL:** Impassable obstacle in water. Requires HM06 (Whirlpool) to cross.
 *   **TREE:** Small trees can be bypassed with the HM move CUT. Cut trees become impassable stumps.
 *   **BOULDER:** Can be moved with the HM move STRENGTH.
@@ -25,7 +25,7 @@
 ### Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
 *   **HM01 (CUT):** Cuts small trees. Learned by Feraligatr.
-*   **HM02 (FLY):** Allows fast travel to previously visited cities. Needs Storm Badge to use.
+*   **HM02 (FLY):** Allows fast travel to previously visited cities. Needs Storm Badge to use. **LOCATION UNKNOWN.**
 *   **HM03 (SURF):** Allows travel over water. Needs Fog Badge to use. Learned by Feraligatr.
 *   **HM04 (STRENGTH):** Moves large boulders. Needs Plain Badge to use. Learned by Feraligatr.
 *   **HM05 (FLASH):** Illuminates dark caves. Needs Zephyr Badge to use.
@@ -57,11 +57,12 @@
 *   **Lance (Lake of Rage/Mahogany):** Helped stop Team Rocket's radio signal plot. Gave me HM06 (Whirlpool).
 
 ## IV. Current Objectives & Plans
-*   **Current Plan:** The Dance Theater was a dead end for finding HM02 Fly. My new plan is to travel to Cianwood City to properly investigate my earlier hallucination about receiving the HM there. I will speak to key NPCs, starting with Chuck's wife, to verify events and find the true source of Fly.
+*   **Current Plan:** My primary goal is to find HM02 Fly. My previous belief about receiving it in Cianwood was a hallucination. My new plan is to explore Route 41 to find a path to Cianwood City to properly investigate. I am currently navigating around a large wall of buoys.
 
 ## V. TODO & Untested Assumptions
 *   **Tile Testing:**
     - **FLOOR_UP_WALL:** Test if this is a one-way impassable tile by attempting to move into it from all four directions.
     - **LEDGE_HOP_DOWN/RIGHT:** Verify these are one-way traversal tiles.
-*   **HM02 (Fly) Missing:** I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). My previous belief that I received it from Chuck's wife was a hallucination. Its true location is unknown and must be discovered.
-*   **Observational Failure:** My `master_navigator` tool was correct all along. I repeatedly failed to observe a wall of BUOY tiles blocking the path to the Cianwood shore. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly.
+*   **HM02 (Fly) Missing:** I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown and must be discovered.
+*   **Observational Failure & Tool Trust:** My `master_navigator` tool was correct all along. I repeatedly failed to observe a wall of BUOY tiles blocking the path to the Cianwood shore. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly.
+*   **Path to Cianwood Hypothesis:** My current assumption is that the path to Cianwood City involves navigating south around the buoy wall on Route 41. **Alternative Hypothesis:** If the southern path is a dead end, the true path might require passing through the WHIRLPOOL tiles, which I can now do since I have HM06.
