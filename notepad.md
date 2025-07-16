@@ -34,3 +34,4 @@
   2. The eastern island on Route 20 is reachable by surfing directly from the western part of the route. (Failed, pathfinder confirmed no path exists).
   3. The path to the eastern Seafoam Islands entrance is accessible from southern connections on Route 19. (Failed, both southern connections on Route 19 led to isolated, dead-end sections of Route 20).
   4. Pushing a boulder into water on B3F (East) would solve the puzzle. (Failed, could not push boulder into adjacent water tile).
+  5. Flying to Cinnabar Island provides surf access to the western Seafoam Islands entrance. (Failed, pathfinder and system confirmed Route 20 is split by impassable terrain, blocking access from the west).
