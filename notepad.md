@@ -22,14 +22,9 @@
 
 # III. Puzzle Logs & Hypotheses
 ## A. Pokémon Mansion Multi-Floor Switch Puzzle
-- **Status:** In Progress - Following Agent's Strategic Plan.
-- **Agent's Strategic Plan:**
-    1. **[DONE]** 1F: Activate switch at (3,6).
-    2. **[NEXT]** 1F: Proceed to warp at (6,11) to reach 2F.
-    3. 2F: Activate switch at (3,12).
-    4. 2F: Proceed to warp at (8,11) to reach 3F.
-    5. 3F: Activate switch at (11,6).
-    6. 3F: Intentionally fall through hole at (20,15).
-    7. 1F (New Area): Navigate to warp at (22,24) to reach B1F.
-    8. B1F: Activate final switch at (19,26).
-    9. B1F: Retrieve the Secret Key.
+- **Status:** In Progress
+- **Hypothesis 1 (Agent's Plan):** Following the agent's 9-step plan will solve the puzzle.
+- **Test 1:** Followed steps 1-4.
+- **Result 1:** FAILED. Step 4 was incorrect. The warp at 2F (8,11) leads back to 1F (6,11), not 3F. The agent's plan is invalid.
+- **Hypothesis 2:** The warp at 2F (7,2) is the correct path to 3F.
+- **Test 2:** [PENDING] Navigate to and use the warp at 2F (7,2).
