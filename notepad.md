@@ -34,10 +34,10 @@
 *   **B2F West Corridor:** The western corridor of B2F, accessed via the ladder at (3, 14), is a dead end and does not connect to the main area.
 
 ### Hypotheses Log
-### Hideout Progression Plan (v12 - Maze Navigation)
-*   **Observation:** The ROCKET grunt at (2, 4) is a non-battle obstacle, blocking the direct path south.
-*   **Hypothesis:** The invisible maze path begins on a tile adjacent to the grunt.
-*   **Method:** I will begin systematically exploring the maze from my current position at (2, 3). I will attempt to move to adjacent tiles to map the path, starting with moving right to (3, 3).
+### Hideout Progression Plan (v13 - Maze Navigation Reboot)
+*   **Observation:** Following the right-hand rule from the maze start at (2, 3) leads to a long, straight dead-end corridor to the east.
+*   **Hypothesis:** The correct path must branch off from the start in a different direction.
+*   **Method:** I will backtrack to (2, 3) and explore alternative paths, starting by trying to move left and down from the initial path tiles.
 
 ### Falsified Hypotheses
 *   H34: Navigating the invisible floor maze and reaching the door does not automatically trigger a password prompt.
