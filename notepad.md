@@ -34,4 +34,4 @@
 - **Test 4 (New):** Add back the grid initialization. [SUCCESS]
 - **Test 5 (New):** Add back the grid population loop. [SUCCESS]
 - **Test 6 (New):** Add back the A* initialization. [SUCCESS]
-- **Test 7 (New):** Add back the A* search loop. [PENDING]
+- **Test 7 (New):** Add back the A* search loop. [SUCCESS (Disproved silent crash theory)]
