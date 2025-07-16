@@ -58,32 +58,6 @@
 *   **H45 (Falsified):** The western corridor of B1F, accessed via the warp panel at (5, 15), contains a path to the boss. (Result: Falsified. It's a one-way exit.)
 *   **H39 (Falsified):** The invisible floor maze near the entrance contains the primary path forward. (Result: Falsified. It's a series of dead ends or loops.)
 
-## II. Game Systems & Mechanics
-
-### A. Inventory Management
-*   **Inventory Bug (Confirmed):** The inventory is permanently locked. 'TOSS', 'GIVE', 'USE' (in battle), and 'SELL' commands are all non-functional for freeing inventory space. No new items can be picked up.
-
-### B. Tile Mechanics & Traversal Log
-*This section logs the observed behavior of all encountered tile types. Every new tile type must be tested and documented here.*
-
-*   **Traversable:**
-    *   `FLOOR`: Standard walkable ground.
-    *   `GRASS`, `TALL_GRASS`, `LONG_GRASS`: Walkable, triggers wild encounters.
-    *   `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`: Walkable decorative tiles.
-    *   `ARROW_TILE_UP`, `ARROW_TILE_DOWN`, `ARROW_TILE_LEFT`, `ARROW_TILE_RIGHT`: Forced movement tiles. (Effect can be disabled by switches).
-*   **Impassable:**
-    *   `BIRD`, `BOOKSHELF`, `BUOY`, `CHAIR`, `CHIMNEY`, `COMPUTER`, `COUNTER`, `FENCE`, `FLOWER`, `INCENSE_BURNER`, `LINK_CABLE`, `LINK_RECEPTIONIST`, `MART_SHELF`, `PC`, `PERSIAN_STATUE_L`, `PERSIAN_STATUE_R`, `PILLAR`, `PRINTER`, `RADIO`, `ROCK`, `ROOF`, `SIGN`, `TABLE`, `TOWN_MAP`, `TRADE_MACHINE`, `TREE_TOP`, `TV`, `VOID`, `WALL`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `WEIRD_TREE`, `WINDOW`
-*   **Warps:**
-    *   `CAVE`, `DOOR`, `LADDER` (can be one-way or two-way, must be tested per instance), `STAIRCASE`
-    *   `WARP_PANEL`: One-way warp.
-*   **Conditional/One-Way:**
-    *   `BREAKABLE_ROCK`: Requires Rock Smash.
-    *   `CUT_TREE`: Requires HM01 Cut.
-    *   `FLOOR_UP_WALL`, `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`: One-way ledges.
-    *   `PIT`: One-way down.
-    *   `WARP_CARPET_DOWN`: Requires pressing 'Down' button while standing on tile.
-*   **Confirmed Obstacles:** Defeated trainer sprites are impassable objects.
-
 ## III. Current Puzzle: Team Rocket Hideout
 *   **Objective:** Find the Team Rocket Boss and disable the radio signal.
 *   **Main Obstacle:** Navigating the multi-floor hideout and finding the trigger to progress.
@@ -105,32 +79,6 @@
 *   **H77 (Falsified):** The Rocket Grunt at (24, 14) is a scripted event trigger. Interacting with him is the necessary step to progress. (Result: Repeated interactions yielded no new results.)
 *   **H76 (Falsified):** The true path forward is on B2F West, accessed via the ladder at (3, 14) on B1F, which requires re-entering the hideout. (Result: This was based on the incorrect assumption that the current room was a dead end.)
 *   **H75 (Falsified):** Interacting with the main computer console is the trigger to disable the radio signal. (Result: Falsified after 3 systematic interaction attempts at different locations on the console yielded no results.)
-
-## II. Game Systems & Mechanics
-
-### A. Inventory Management
-*   **Inventory Bug (Confirmed):** The inventory is permanently locked. 'TOSS', 'GIVE', 'USE' (in battle), and 'SELL' commands are all non-functional for freeing inventory space. No new items can be picked up.
-
-### B. Tile Mechanics & Traversal Log
-*This section logs the observed behavior of all encountered tile types. Every new tile type must be tested and documented here.*
-
-*   **Traversable:**
-    *   `FLOOR`: Standard walkable ground.
-    *   `GRASS`, `TALL_GRASS`, `LONG_GRASS`: Walkable, triggers wild encounters.
-    *   `RAILING`, `PIPE_HORIZONTAL`, `PIPE_VERTICAL`: Walkable decorative tiles.
-    *   `ARROW_TILE_UP`, `ARROW_TILE_DOWN`, `ARROW_TILE_LEFT`, `ARROW_TILE_RIGHT`: Forced movement tiles. (Effect can be disabled by switches).
-*   **Impassable:**
-    *   `BIRD`, `BOOKSHELF`, `BUOY`, `CHAIR`, `CHIMNEY`, `COMPUTER`, `COUNTER`, `FENCE`, `FLOWER`, `INCENSE_BURNER`, `LINK_CABLE`, `LINK_RECEPTIONIST`, `MART_SHELF`, `PC`, `PERSIAN_STATUE_L`, `PERSIAN_STATUE_R`, `PILLAR`, `PRINTER`, `RADIO`, `ROCK`, `ROOF`, `SIGN`, `TABLE`, `TOWN_MAP`, `TRADE_MACHINE`, `TREE_TOP`, `TV`, `VOID`, `WALL`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `WEIRD_TREE`, `WINDOW`
-*   **Warps:**
-    *   `CAVE`, `DOOR`, `LADDER` (can be one-way or two-way, must be tested per instance), `STAIRCASE`
-    *   `WARP_PANEL`: One-way warp.
-*   **Conditional/One-Way:**
-    *   `BREAKABLE_ROCK`: Requires Rock Smash.
-    *   `CUT_TREE`: Requires HM01 Cut.
-    *   `FLOOR_UP_WALL`, `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`: One-way ledges.
-    *   `PIT`: One-way down.
-    *   `WARP_CARPET_DOWN`: Requires pressing 'Down' button while standing on tile.
-*   **Confirmed Obstacles:** Defeated trainer sprites are impassable objects.
 
 ## III. Current Puzzle: Team Rocket Hideout
 *   **Objective:** Find the Team Rocket Boss and disable the radio signal.
