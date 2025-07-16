@@ -45,3 +45,4 @@
   - **Hypothesis 6:** There is a secret passage through the impassable wall separating the eastern and western sections of B4F. I will now test this hypothesis by attempting to surf through the wall at various points.
   - **CRITICAL CORRECTION (Turn 76145):** Received a system warning: 'Reachable Unseen Tiles Count Mismatch'. The system reported 15 reachable unseen tiles, proving my conclusion that the western area is unreachable was **FALSE**. My map model is flawed. There must be a way to the west from my current location.
   - **Hypothesis 7:** The western wall contains a secret, traversable tile. I will now use SURF and systematically attempt to move left into every tile of the western rock face (column X=20) to find this passage.
+- `strong_current`: A water tile with a current that is too strong to SURF against. Boulders may affect its flow.
