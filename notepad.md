@@ -27,9 +27,9 @@
 - **Status:** Critical Failure
 - **Symptom:** Tool finds no path for a valid route. The A* search completes but fails.
 - **Hypothesis 1 (Disproven):** The script is crashing silently.
-- **Test 1-4:** A series of minimal tests confirmed the execution environment is working, the XML parsing is successful, and the import statement is correct. The script is not crashing.
+- **Test 1-5:** A series of minimal tests confirmed the execution environment is working, the XML parsing is successful, and the import statement is correct. The script is not crashing.
 - **Conclusion:** The error is not a crash, but a logical flaw.
 - **Hypothesis 2 (Current):** The grid generation logic is incorrectly marking a necessary tile as impassable, creating a disconnect between the start and end points.
-- **Test 5:** Ran the full script with hyper-granular print statements at every stage. This confirmed that all setup steps complete without error, but the A* search still fails.
-- **Conclusion:** The problem lies within the generated `grid` data structure itself.
-- **Test 6:** [PENDING] Redefine the tool to print a visual representation of the entire `grid` after it is populated. This will allow for a manual inspection of the algorithm's map to find the incorrect blockage.
+- **Test 6:** Ran a simplified version of the tool that only visualizes the grid. It ran successfully and showed a clear path.
+- **Conclusion:** The error is a subtle logical flaw in the full script's grid generation that wasn't present in the simplified visualizer. The A* search itself is likely fine, but it's being fed a bad map.
+- **Test 7:** [PENDING] Redefine the tool to *both* print the visual grid *and* run the full A* search. This will let me see the exact grid the failing algorithm is using and spot the error.
