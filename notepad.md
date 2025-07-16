@@ -15,6 +15,7 @@
 *   **Impassable:** `BIRD`, `BOOKSHELF`, `BUOY`, `CHAIR`, `CHIMNEY`, `COMPUTER`, `COUNTER`, `FENCE`, `FLOWER`, `INCENSE_BURNER`, `LINK_CABLE`, `LINK_RECEPTIONIST`, `MART_SHELF`, `PC`, `PERSIAN_STATUE_L`, `PERSIAN_STATUE_R`, `PILLAR`, `PRINTER`, `RADIO`, `ROCK`, `ROOF`, `SIGN`, `TABLE`, `TOWN_MAP`, `TRADE_MACHINE`, `TREE_TOP`, `TV`, `VOID`, `WALL`, `WATER_EDGE_UP`, `WATER_EDGE_DOWN`, `WATER_EDGE_LEFT`, `WATER_EDGE_RIGHT`, `WEIRD_TREE`, `WINDOW`
 *   **Warps:** `CAVE`, `DOOR`, `LADDER`, `STAIRCASE`, `WARP_PANEL` (One-way)
 *   **Conditional/One-Way:** `BREAKABLE_ROCK` (Requires Rock Smash), `CUT_TREE` (Requires HM01 Cut), `FLOOR_UP_WALL` (One-way ledge), `LEDGE_HOP_DOWN`, `LEDGE_HOP_DOWN/RIGHT`, `LEDGE_HOP_LEFT`, `PIT` (One-way down), `WARP_CARPET_DOWN` (Requires pressing 'Down' button while standing on tile)
+*   **Confirmed Obstacles:** Defeated trainer sprites are impassable objects.
 
 ### Menu Mechanics
 *   **Inventory Bug (Confirmed):** The inventory is permanently locked. 'TOSS', 'GIVE', 'USE' (in battle), and 'SELL' commands are all non-functional for freeing inventory space. No new items can be picked up.
@@ -25,26 +26,22 @@
 *   **Main Obstacle:** A password-locked door on B2F at (14, 12) is blocking progress.
 
 ### Confirmed Facts & Discoveries
-*   **B1F Switch:** Flipping the switch at (19, 11) on B1F toggles the arrow tiles on and off. It is currently OFF.
+*   **B1F Switch:** Flipping the switch at (19, 11) on B1F toggles the arrow tiles off. It is a one-time use and cannot be turned back on.
 *   **Passwords Found:** The two passwords are 'SLOWPOKETAIL' and 'RATICATE TAIL'.
 *   **B1F Warp Panel:** The warp panel at (5, 15) is a one-way teleporter to (25, 2), leading to an isolated exit area via the Mahogany Mart.
 *   **B2F Locked Door Interaction:** Interacting with the locked door at (14, 12) twice only yields the message "It needs a password to open." It does not prompt for input.
 *   **B3F Layout:** B3F is split into two disconnected sections. The western section containing the boss and Lance is inaccessible from the eastern ladder.
 
-### Hideout Progression Plan (v17 - B2F Exploration)
-*   **Hypothesis (H45):** The western corridor of B2F, accessed via the ladder at (3, 14), is not a dead end and contains a path to the eastern section of the floor.
-*   **Method:** Systematically explore all reachable unseen tiles in the western corridor of B2F, starting from my current position at (3, 13).
+### Hideout Progression Plan (v18 - Arrow Tile Maze)
+*   **Hypothesis (H47):** With the arrow tiles on B1F permanently disabled, a new path is now accessible within the central maze area that leads to the eastern section of B2F.
+*   **Method:** Navigate to the entrance of the former arrow tile maze and systematically explore the area on foot.
 
 ### Falsified Hypotheses
+*   H46: The switch at (19, 11) can be toggled back on. (Result: It's a one-time switch.)
+*   H45: The western corridor of B2F, accessed via the ladder at (3, 14), contains a path to the eastern section of the floor. (Result: It's a dead end.)
 *   H41: The eastern corridor of B1F, accessed via the warp panel at (5, 15), contains a path to the boss. (Result: It's a one-way exit.)
-*   H39: The invisible maze on B1F contains the primary path forward. (Result: It's a series of dead ends or loops.)
-*   H34: Navigating the invisible floor maze and reaching the door does not automatically trigger a password prompt.
-*   H35: The key to opening the door is not a direct interaction after learning the passwords. The transmitter area is also inaccessible from any known path on B2F.
-*   H33: Disabling the arrow tiles on B1F will open a new path on B2F.
-*   H37: The bookshelves at (20, 11) and (21, 11) are a hidden switch.
-*   H38: Scientist Jed at (18, 12) only provided a hint about the warp panel being a trap, but no direct solution.
+*   H39: The invisible floor maze near the entrance contains the primary path forward. (Result: It's a series of dead ends or loops.)
 
 ## IV. Future Testing & Verification Notes
-*   **Ledge Verification:** I have assumed all `LEDGE_HOP_...` tiles are one-way based on observation. I must explicitly try to move *up* a ledge at the next opportunity to scientifically confirm this is impossible.
+*   **Ledge Verification:** I must explicitly try to move *up* a ledge at the next opportunity to scientifically confirm this is impossible.
 *   **Object Traversal:** I must test if it's possible to walk on object tiles like `BOOKSHELF` when they are not blocked by walls to confirm they are universally impassable.
-*   **Defeated Trainers:** Defeated trainer sprites remain on the map and act as impassable objects. You cannot walk through them.
