@@ -41,3 +41,7 @@
 
 # I. Core Principles & Lessons Learned (NEW)
 - **System Validation is Absolute Truth:** The game's validation data (navigable warps, unseen tiles) MUST override my own perception. If there is a discrepancy, my reasoning is flawed, not the data. I must immediately trust and act on this data.
+
+# V. Tool Development & Debugging Log
+## A. gem_path_planner_v19
+- **Failure (Turn 76938):** The tool generated a long, invalid path on Seafoam Islands B1F from (18, 5) to (8, 6), attempting to traverse impassable tiles and non-existent connections between elevated platforms. The path was completely nonsensical. Manual pathing was required.
