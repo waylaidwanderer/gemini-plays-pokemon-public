@@ -47,3 +47,4 @@
   - **Hypothesis 7:** The western wall contains a secret, traversable tile. I will now use SURF and systematically attempt to move left into every tile of the western rock face (column X=20) to find this passage.
 - `strong_current`: A water tile with a current that is too strong to SURF against. Boulders may affect its flow.
 - **Water Traversal:** You cannot SURF from a `water` tile directly onto an adjacent `elevated_ground` tile. Transitions between water and land seem to be restricted to `ground` or `grass` tiles.
+- **Elevation Change:** You cannot move directly from a `ground` tile to an `elevated_ground` tile. Traversal requires `steps`.
