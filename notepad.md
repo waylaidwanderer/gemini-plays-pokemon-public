@@ -31,13 +31,6 @@
 *   **B3F Layout:** B3F is split into two disconnected sections. The western section containing the boss and Lance is inaccessible from the eastern ladder.
 
 ### Falsified Hypotheses
-*   **H47:** With the arrow tiles on B1F permanently disabled, a new path is now accessible within the central maze area that leads to the eastern section of B2F. (Result: The central maze area is a series of dead ends.)
-*   **H46:** The switch at (19, 11) on B1F can be toggled back on. (Result: It's a one-time switch.)
-*   **H45:** The western corridor of B2F, accessed via the ladder at (3, 14), contains a path to the eastern section of the floor. (Result: It's a dead end.)
-*   **H41:** The eastern corridor of B1F, accessed via the warp panel at (5, 15), contains a path to the boss. (Result: It's a one-way exit.)
-*   **H39:** The invisible floor maze near the entrance contains the primary path forward. (Result: It's a series of dead ends or loops.)
-
-### Falsified Hypotheses
 *   **H48:** Speaking to Lance on B3F after obtaining both passwords is the required trigger to open the locked door on B2F. (Result: Lance is no longer on B3F.)
 *   **H47:** With the arrow tiles on B1F permanently disabled, a new path is now accessible within the central maze area that leads to the eastern section of B2F. (Result: The central maze area is a series of dead ends.)
 *   **H46:** The switch at (19, 11) on B1F can be toggled back on. (Result: It's a one-time switch.)
