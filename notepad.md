@@ -29,11 +29,17 @@
 # III. Puzzle Logs
 ## A. Pokémon Mansion
 - **Objective:** Find the SECRET KEY.
-- **Hypothesis Log:**
-  - **H1:** The switch at (3, 6) on 1F controls the gates at (17, 8) and (18, 8).
-    - **Test 1 (Turn 77397):** Stood at (4, 6) and interacted with switch. Gates at (17, 8) & (18, 8) observed to be closed.
-    - **Test 2 (Turn 77399):** Stood at (3, 7) and interacted with switch. Gates at (17, 8) & (18, 8) observed to be open.
-    - **Conclusion:** Hypothesis confirmed. The switch at (3, 6) toggles the state of the eastern gates on 1F.
+- **Hypothesis Log (1F Switch at (3,6)):**
+  - **H1 (Falsified):** The switch is a simple toggle for the eastern gates. (Tested Turns 77397-77399)
+  - **H2 (Falsified):** The switch is a simple toggle for the western gates. (Tested Turns 77437-77452)
+  - **H3 (Current Hypothesis):** The switch at (3, 6) on 1F cycles through states controlling the eastern gates at (17,8)/(18,8) and the western gates at (25,14)/(26,14).
+    - **Test 1 (Turn 77471):** Perform a 4th press (equivalent to a 1st press from initial state).
+      - **Prediction:** Eastern gates will be OPEN, Western gates will be CLOSED.
+      - **Test Plan:**
+        1. Press switch at (3, 6).
+        2. Navigate to view eastern gates.
+        3. Navigate to view western gates.
+        4. Record results.
 
 # IV. Map Marker Key
 - ☠️: Defeated Trainer
@@ -44,7 +50,3 @@
 - ↕️: Stairs/Ladder (Bidirectional)
 - 🛬: Forced Arrival Point (Ledge/Hole)
 - 🔄: Switch/Puzzle Object
-- **H2:** The switch at `(3, 6)` toggles the state of the gates at `(25, 14)` and `(26, 14)`.
-  - **Test 1 (Turn 77437):** After pressing the switch a second time, observed gates at `(25, 14)` & `(26, 14)` are now closed.
-  - **Test 2 (Turn 77452):** Pressed switch at `(3, 6)` a third time. This re-closed the gates at `(17, 8)` & `(18, 8)`.
-  - **Conclusion:** Hypothesis H2 is falsified. The switch at `(3, 6)` does not appear to be a simple toggle. Its behavior seems to alternate between controlling the eastern gates and the western gates on this floor.
