@@ -55,3 +55,6 @@
 - **Hypothesis:** After pressing the switch on 1F, returning to 2F and pressing the switch at (3, 12) would open the northern gates at (10, 5) and (10, 6).
 - **Test:** After performing the sequence, used `pathfinder` to check for a path to the northern warp at (7, 2).
 - **Conclusion:** Hypothesis DENIED. No path was found. The sequence did not open the northern gates.
+
+# IV. Tile Mechanics
+- **gate_offscreen:** The game's validation system optimistically treats all `gate_offscreen` tiles as traversable for pathing purposes, unless I have a specific marker indicating otherwise. This means I might have more exits than are immediately apparent, and I should not assume I am trapped if the validation system says otherwise.
