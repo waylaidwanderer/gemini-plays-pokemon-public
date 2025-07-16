@@ -3,27 +3,19 @@
 - **Rigorous Hypothesis Testing:** When faced with a puzzle, I will form a single, testable hypothesis and design a minimal experiment to confirm or deny it. I will not assume hidden mechanics like secret passages unless all other possibilities, especially tool failure, have been disproven through systematic debugging.
 - **Tool Integrity is Paramount:** A faulty tool is worse than no tool. If a tool provides an incorrect result (e.g., `pathfinder` failing to find a confirmed reachable warp), debugging and fixing that tool becomes my absolute highest priority, superseding any navigational or puzzle-solving goal.
 
-# II. Game Mechanics & Battle Intel
-## A. Tile Mechanics & Traversal
-- `ground`: Standard walkable tile.
-- `impassable`: Walls, furniture, etc. Cannot be walked on.
-- `elevated_ground`: Walkable ground at a different elevation. Traversal to/from `ground` requires `steps`.
-- `steps`: Allows vertical movement *only* between adjacent `ground` and `elevated_ground` tiles.
-- `grass`: Tall grass where wild Pokémon appear.
-- `ledge`: One-way traversal, can be jumped down but not up.
-- `water`: Requires SURF to traverse. Transition to/from land is only possible on `ground`, `grass`, or `steps` tiles.
-- `cuttable`: A tree that can be cut with HM01 Cut.
-- `hole`: A tile that causes the player to fall to the floor below.
-- `spinner_up/down/left/right`: Forces movement in a specific direction.
-- `ladder_up`/`ladder_down`: Warps that function as ladders between floors.
-- `gate_offscreen`/`closed_gate`/`open_gate`: Gates that can block paths. `gate_offscreen` should be treated as potentially open for pathfinding unless a map marker indicates it is closed.
-- `secret_passage`: Certain `impassable` wall tiles can be walked through.
-- `strong_current`: A water tile with a current that is too strong to SURF against. Boulders may affect its flow.
-- `boulder`: Can be pushed with STRENGTH. Pushing a boulder into a `hole` tile causes it to fall to the floor below, potentially altering the lower map.
+# II. Game Intel
+## A. Map Marker Legend (Strict)
+- **Warps:** ↕️ (Used), 🛬 (Arrival)
+- **Gates:** ✅ (Open), 🔴 (Closed)
+- **Switches:** 🔄 (Toggled)
+- **Items:** 💰 (Found), ❌ (Trap)
+- **Navigation:** 🚫 (Dead End), 🕳️ (Hole)
 
-## B. Confirmed ROM Hack Changes
-- **Type Matchups & Immunities:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire; Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground; Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
-- **Battle & Field Mechanics:** PSYWAVE/CONFUSE RAY can miss. Safari Zone has a time limit. Losing in a gym does not warp you out. FLY can end wild battles indoors but cannot be used to escape buildings. ROAR can end wild battles. SURF requires facing the water tile. Switches (e.g., in statues or hidden on posters) must be activated by standing on the tile directly below them, facing up, and pressing A.
+## B. Confirmed ROM Hack Mechanics
+- **Type Matchups:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire.
+- **Type Resistances:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground.
+- **Type Immunities:** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
+- **Field/Battle Rules:** Switches require standing below and facing up. Losing in a gym does not warp you out. FLY can end wild battles indoors. ROAR can end wild battles.
 
 # III. Puzzle Logs & Future Plans
 ## A. Pokémon Mansion: Master Plan
