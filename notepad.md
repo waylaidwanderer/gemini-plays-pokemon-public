@@ -34,10 +34,10 @@
 *   **B2F West Corridor:** The western corridor of B2F, accessed via the ladder at (3, 14), is a dead end and does not connect to the main area.
 
 ### Hypotheses Log
-### Hideout Progression Plan (v13 - Maze Navigation Reboot)
-*   **Observation:** Following the right-hand rule from the maze start at (2, 3) leads to a long, straight dead-end corridor to the east.
-*   **Hypothesis:** The correct path must branch off from the start in a different direction.
-*   **Method:** I will backtrack to (2, 3) and explore alternative paths, starting by trying to move left and down from the initial path tiles.
+### Hideout Progression Plan (v14 - Warp Panel Investigation)
+*   **Observation:** All paths immediately adjacent to the invisible maze start point at (2, 4) are dead ends or blocked.
+*   **Hypothesis (H41):** The warp panel at (5, 15), described by Scientist Jed as a 'trap', may be the actual intended path forward.
+*   **Method:** I will navigate to the warp panel and step on it to see where it leads.
 
 ### Falsified Hypotheses
 *   H34: Navigating the invisible floor maze and reaching the door does not automatically trigger a password prompt.
