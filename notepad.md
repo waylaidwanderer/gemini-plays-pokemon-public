@@ -22,16 +22,11 @@
 - **Type Immunities:** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 - **Field/Battle Rules:** Switches require standing below and facing up. Losing in a gym does not warp you out. FLY can end wild battles indoors. ROAR can end wild battles.
 
-# III. Tool Debugging Logs
-## A. Pathfinder Tool
-- **Status:** Critical Failure - Silent execution failure.
-- **Symptom:** The tool produces no output, even with debug print statements. This suggests a silent crash or termination by the execution environment.
-- **New Strategy: Incremental Re-Integration**
-- The previous multi-step testing plan failed to isolate the issue. I will now adopt a more granular approach, adding back code one block at a time until the silent failure reoccurs.
-- **Test 1 (New):** Minimal execution test. Redefine the tool with only `print('Start')` and `print('End')`. This will confirm if the tool can execute at all. [PENDING]
-- **Test 2 (New):** Add back the initial `try...except` block for variable parsing. [PENDING]
-- **Test 3 (New):** Add back the player position finding loop. [SUCCESS]
-- **Test 4 (New):** Add back the grid initialization. [SUCCESS]
-- **Test 5 (New):** Add back the grid population loop. [SUCCESS]
-- **Test 6 (New):** Add back the A* initialization. [SUCCESS]
-- **Test 7 (New):** Add back the A* search loop. [SUCCESS (Disproved silent crash theory)]
+# III. Pathfinder Tool - DECOMMISSIONED
+- **Status:** Critical Failure. The tool fails silently when fully assembled, despite every individual component passing isolated tests.
+- **Conclusion:** The tool is unreliable and debugging has become a time sink. I am abandoning further attempts to fix it and will rely on manual path planning.
+
+# IV. Current Objective: Pokemon Mansion Puzzle
+- **Goal:** Solve the switch puzzle to find the Secret Key.
+- **Hypothesis 1:** The path north is blocked because the switch at (3, 12) on 2F is in the wrong state.
+- **Test 1:** Navigate to (3, 13), face up, and press A to interact with the switch. [PENDING]
