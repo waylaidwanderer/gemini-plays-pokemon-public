@@ -12,12 +12,6 @@
 
 # III. Puzzle Logs & Hypotheses
 
-## A. Pokémon Mansion 2F Navigation
-- **Observation:** The game state consistently reported that the warp at (7, 2) was reachable. However, my `pathfinder` tool repeatedly failed to find a path.
-- **Hypothesis:** My `pathfinder` tool's logic was flawed.
-- **Test:** Debugged the tool by adding print statements.
-- **Conclusion:** Hypothesis DENIED. The tool's logic was sound. The failure was caused by my own outdated map markers, which incorrectly labeled a gate as 'Closed', creating an artificial wall. This confirms that data integrity (my markers) is as critical as tool logic.
-- **Current Plan:**
   1. **(DONE)** Deleted the incorrect map markers.
   2. **(DONE)** Used the `pathfinder` tool to calculate a path to the warp at (7, 2).
   3. **(Next)** Follow the calculated path to finally exit this area and proceed to the third floor.
