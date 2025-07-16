@@ -48,3 +48,8 @@
 - **Hypothesis:** Pressing the 2F switch at (3, 12) again will re-open the gates at (10, 5)/(10, 6).
 - **Test:** Navigate to (3, 13), activate the switch, then return to check the gates.
 - **Expected Outcome:** The gates at (10, 5)/(10, 6) will change from `closed_gate` to `open_gate`.
+### Pokémon Mansion 1F - Eastern Corridor Puzzle
+- **Problem:** I appear to be trapped in the eastern corridor. The `pathfinder` tool, even after a fix for `gate_offscreen` tiles, cannot find a path to the western section of the map where reachable warps exist.
+- **System Contradiction:** The game state insists this is NOT a dead end, while also stating my navigation goals in the west are unreachable.
+- **Hypothesis:** There must be a hidden passage that the map data labels as `impassable`. The `pathfinder` tool is therefore blind to the solution.
+- **Plan:** Systematically test every `impassable` tile along the wall separating the eastern and western corridors (primarily the wall at X=23) by attempting to walk into it.
