@@ -1,6 +1,6 @@
 # I. Core Principles & Lessons Learned
-- **Systematic Debugging is Mandatory:** My previous brute-force method of fixing tools was a critical failure. I must use `run_code` with print statements and my `code_debugger_agent` to systematically diagnose issues before attempting a fix.
-- **Falsify Your Beliefs:** I must actively try to disprove my own conclusions with alternative tests after an initial hypothesis is confirmed. My assumption that B2F was disconnected was a major case of confirmation bias, which the system warnings corrected.
+- **Systematic Debugging is Mandatory:** My previous brute-force method of fixing tools was a critical failure. I must use `run_code` with print statements and my `code_debugger_agent` to systematically diagnose issues before attempting a fix. Tool refinement is the highest priority.
+- **Falsify Your Beliefs:** I must actively try to disprove my own conclusions. My assumption that the Seafoam Islands cave was a single interconnected dungeon was a major case of confirmation bias.
 
 # II. Game Mechanics & Battle Intel
 ## A. Tile Mechanics & Traversal
@@ -23,18 +23,10 @@
 - **Type Matchups & Immunities:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire; Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground; Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 - **Battle & Field Mechanics:** PSYWAVE/CONFUSE RAY can miss. Safari Zone has a time limit. Losing in a gym does not warp you out. FLY can end wild battles indoors but cannot be used to escape buildings. ROAR can end wild battles.
 
-# III. Puzzle Logs & Future Development
+# III. Puzzle Logs
 ## A. Seafoam Islands Boulder Puzzle
 - **Goal:** Stop the strong water current on Seafoam Islands B4F.
-- **Current Hypothesis:** The solution involves a complex, multi-floor boulder puzzle. The system has confirmed that B2F is fully connected, meaning there is a path from the western platforms to the eastern platforms on that floor. I must find this path.
-- **Previous Failed Hypotheses:**
-  1. The boulders on B3F's eastern platform would stop the current. (Failed, couldn't reach the southern boulders).
-  2. The path to the southern B3F boulders was through 1F. (Failed, 1F is disconnected).
-  3. The western B2F ladder was a dead end. (Failed, system confirmed all B2F ladders are connected).
-
-## B. Future Development Ideas
-- Create a new agent, `debug_log_interpreter`, that can analyze the output of `run_code` with debugging print statements to identify the root cause of a script failure.
-## D. Seafoam Islands Puzzle Log
-- **Current Hypothesis:** The path connecting the western and eastern sections of the cave is on B2F. All other floors appear to be disconnected.
-- **Current Plan:** Use the pathfinder to check for a route from the western side of B2F to the eastern side.
-- **Failed Hypothesis #4 (B3F Connection):** The boulder puzzle on B3F could not be solved from the western access point. The ground level of B3F is disconnected, making the boulders unreachable. The pathfinder confirmed no walkable path to the eastern ladders exists from the west.
+- **Current Hypothesis:** The Seafoam Islands consist of two separate, disconnected caves. The western cave (which I have fully explored) is a dead end for the puzzle. The solution must be in the eastern cave, which I hypothesize is accessible from a separate entrance on Route 20.
+- **Current Plan:** Exit the western cave. Find the eastern entrance on Route 20 by surfing. Enter the eastern cave and solve the boulder puzzle there.
+- **Falsified Hypothesis Log:**
+  1. The western and eastern sections of the cave are connected internally. (Failed, pathfinder confirmed no path exists on any floor).
