@@ -39,3 +39,4 @@
 - **Tool Development Ideas:**
   - **Cove Detector Tool:** A tool that analyzes the surrounding map XML to determine if the player is in an enclosed space (e.g., a cove surrounded by impassable tiles on three sides).
   - **Pathfinder Improvement:** Investigate ways to make the algorithm less susceptible to concave traps, perhaps by modifying the heuristic or adding logic to detect and escape these traps.
+  - **Boulder-Hole Puzzle Agent:** An agent that can analyze maps with boulders and holes to devise a solution, as my current `boulder_puzzle_strategist` does not handle this puzzle type.
