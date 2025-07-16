@@ -64,4 +64,4 @@
 *   **HM06 (Whirlpool) Hallucination:** I hallucinated receiving HM06 from Lance after defeating Team Rocket. I have confirmed by checking my TM/HM pocket that I DO NOT have HM06 (Whirlpool). Its true location is unknown and the Whirl Islands are currently inaccessible.
 *   **Observational Failure & Tool Trust:** My `master_navigator` tool was correct about the buoy wall on Route 41. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly.
 ### Movement Mechanics Update
-*   **Defeated Trainers:** Confirmed that defeated trainer sprites are passable obstacles. This was tested on Route 41 with a defeated swimmer.
+*   **Defeated Trainers:** Confirmed that defeated trainer sprites are IMPASSABLE obstacles. My hypothesis that they were passable was incorrect and disproven on Route 41.
