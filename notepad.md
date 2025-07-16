@@ -56,3 +56,5 @@
     *   Bookshelf at (6, 13) interacted with. Result: Displayed 'TEAM ROCKET OATH'.
     *   Bookshelf at (7, 13) interacted with. Result: Displayed 'TEAM ROCKET OATH'.
     *   Bookshelf at (4, 13) interacted with. Result: Displayed 'TEAM ROCKET OATH'.
+*   **H55:** The eastern and western sections of B2F are connected. (Result: Falsified. My `master_navigator` tool confirmed no path exists between (27, 2) and (5, 13).)
+*   **H56 (Current):** The ladder at (27, 14) on B2F leads to the eastern, previously inaccessible part of B3F, which contains the true path to the transmitter.
