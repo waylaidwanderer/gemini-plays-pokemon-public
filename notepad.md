@@ -18,6 +18,9 @@
 *   **COUNTER:** Impassable. Acts as a barrier, often with an NPC behind it.
 *   **PC:** Impassable object. Interact with it from an adjacent tile (usually below, facing up).
 *   **MART_SHELF:** Impassable object. Acts as a wall within shops.
+*   **HEADBUTT_TREE:** An interactable tree that can be shaken with the move Headbutt to find Pokémon.
+*   **CAVE:** A type of warp tile, functions like a door to an interior map.
+*   **WARP_CARPET_LEFT:** A warp tile that moves the player. Often requires a specific directional input (e.g., 'Down') to activate.
 
 ### Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
@@ -55,8 +58,11 @@
 
 ## IV. Current Objectives & Plans
 *   **Primary Goal:** Defeat Pryce, the Mahogany Town Gym Leader, to earn the Glacier Badge.
-*   **Current Obstacle:** A Fisher is blocking the gym entrance at (6, 14). All leads in Mahogany Town have been exhausted. It is likely I need to complete an event elsewhere before he will move. The next logical step is to explore the Whirl Islands using HM06.
+*   **Current Obstacle:** A Fisher is blocking the gym entrance at (6, 14). All leads in Mahogany Town have been exhausted.
+*   **Hypothesis 1:** The trigger is exploring the Whirl Islands. This requires catching a Pokémon that can learn Fly.
+*   **Hypothesis 2 (Alternative):** The trigger is healing the sick Miltank on Route 39. This would require gathering berries.
+*   **Current Plan:** Travel to Mahogany Town to heal and buy Poké Balls. Return to Route 42 to catch a flying-type Pokémon. Once I can fly, I will test Hypothesis 2 by flying to Route 39 and healing the Miltank before attempting Hypothesis 1.
 
 ## V. Failed Hypotheses & Corrected Misconceptions
-*   **Mahogany Gym Blockade:** The trigger for the Fisher to move is not defeating Team Rocket, buying a RAGECANDYBAR (the shop is fake), or talking to any of the local NPCs post-Team-Rocket.
-*   **TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
+*   **Mahogany Gym Blockade:** The trigger for the Fisher to move is NOT defeating Team Rocket or talking to any of the local NPCs post-Team-Rocket.
+*   **RAGECANDYBAR:** The Mahogany Town 'shop' is a front for Team Rocket and does not sell any items. The RAGECANDYBAR cannot be purchased to move the Fisher.
