@@ -15,7 +15,7 @@
 *   **TREE:** Small trees can be bypassed with the HM move CUT. Cut trees become impassable stumps.
 *   **BOULDER:** Can be moved with the HM move STRENGTH.
 *   **LEDGE:** One-way traversal. Can be jumped down but not climbed up.
-*   **COUNTER:** Impassable. Acts as a barrier, often with an NPC behind it.
+*   **COUNTER:** Impassable barrier. To interact with an NPC behind a counter, stand on an adjacent floor tile, face the counter, and press 'A'.
 *   **PC:** Impassable object. Interact with it from an adjacent tile (usually below, facing up).
 *   **MART_SHELF:** Impassable object. Acts as a wall within shops.
 *   **HEADBUTT_TREE:** An interactable tree that can be shaken with the move Headbutt to find Pokémon.
