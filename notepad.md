@@ -21,6 +21,10 @@
 *   **HEADBUTT_TREE:** An interactable tree that can be shaken with the move Headbutt to find Pokémon.
 *   **CAVE:** A type of warp tile, functions like a door to an interior map.
 *   **WARP_CARPET_LEFT:** A warp tile that moves the player. Often requires a specific directional input (e.g., 'Down') to activate.
+*   **FLOOR_UP_WALL:** (Hypothesis) A one-way impassable tile. Appears to be the top of a ledge, cannot be traversed from below.
+*   **WARP_CARPET_RIGHT:** (Hypothesis) A warp tile that likely moves the player right when activated.
+*   **LEDGE_HOP_DOWN:** (Hypothesis) A one-way traversal tile, allowing movement down but not up.
+*   **LEDGE_HOP_RIGHT:** (Hypothesis) A one-way traversal tile, allowing movement right but not left.
 
 ### Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
@@ -66,13 +70,6 @@
 ## V. Failed Hypotheses & Corrected Misconceptions
 *   **Mahogany Gym Blockade:** The trigger for the Fisher to move is NOT defeating Team Rocket or talking to any of the local NPCs post-Team-Rocket.
 *   **RAGECANDYBAR:** The Mahogany Town 'shop' is a front for Team Rocket and does not sell any items. The RAGECANDYBAR cannot be purchased to move the Fisher.
-*   **FLOOR_UP_WALL:** A one-way impassable tile. Appears to be the top of a ledge, cannot be traversed from below.
 
 ## VI. Glitched Encounters
-*   **Route 42 Glitch:** While surfing on Route 42, I was pulled into a glitched battle on an unknown map (ID: 242_255). My party, Pokedex, and money were all corrupted. The opponent was a glitched, pink, unicorn-like Pokémon.
-*   **WARP_CARPET_RIGHT:** (Hypothesis) A warp tile that likely moves the player right when activated.
-*   **LEDGE_HOP_DOWN:** (Hypothesis) A one-way traversal tile, allowing movement down but not up.
-*   **LEDGE_HOP_RIGHT:** (Hypothesis) A one-way traversal tile, allowing movement right but not left.
-
-### Tasks
-*   Fix the `master_navigator` tool. It fails on simple indoor paths and must be debugged.
+*   **Route 42 Glitch:** While surfing on Route 42, I was pulled into a glitched battle on an unknown map (ID: 242_255). My party, Pokedex, and money were all corrupted. The opponent was a glitched, pink, unicorn-like Pokémon. After escaping, I was pulled into a normal battle with a Goldeen and my game state returned to normal.
