@@ -68,7 +68,7 @@
 *   **Tile Testing:**
     - **FLOOR_UP_WALL:** Test if this is a one-way impassable tile by attempting to move into it from all four directions.
     - **LEDGE_HOP_DOWN/RIGHT:** Verify these are one-way traversal tiles.
-*   **Hoothoot & Fly:** Verify that Hoothoot can learn Fly. If not, I need a new plan for a Fly user.
+*   **HM02 (Fly) Missing:** I do not possess HM02 (Fly). The assumption that I received it from Chuck's wife was incorrect. I must investigate its true location.
 
 ## VI. Discoveries & Corrections
 *   **PC System:** 'BILL's PC' is for Pokémon Storage. 'G's PC' is for Item Storage. I was selecting the wrong one initially.
