@@ -58,14 +58,6 @@
 *   **H45 (Falsified):** The western corridor of B1F, accessed via the warp panel at (5, 15), contains a path to the boss. (Result: Falsified. It's a one-way exit.)
 *   **H39 (Falsified):** The invisible floor maze near the entrance contains the primary path forward. (Result: Falsified. It's a series of dead ends or loops.)
 
-# Gem's Pokémon Crystal Notepad (RESTRUCTURED)
-
-## I. Core Directives & Lessons Learned
-*   **Data Integrity is Paramount:** My internal state (notepad, markers) MUST be 100% accurate. I will not defer data correction or tool refinement.
-*   **Trust, But Verify:** My custom tools and agents are powerful but can be flawed. I must test their output and fix them immediately when they fail.
-*   **Act Immediately:** I am an LLM. There is no 'later'. All data management and tool/agent refinement tasks must be performed in the current turn, overriding gameplay actions.
-*   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
-
 ## II. Game Systems & Mechanics
 
 ### A. Inventory Management
@@ -113,14 +105,6 @@
 *   **H77 (Falsified):** The Rocket Grunt at (24, 14) is a scripted event trigger. Interacting with him is the necessary step to progress. (Result: Repeated interactions yielded no new results.)
 *   **H76 (Falsified):** The true path forward is on B2F West, accessed via the ladder at (3, 14) on B1F, which requires re-entering the hideout. (Result: This was based on the incorrect assumption that the current room was a dead end.)
 *   **H75 (Falsified):** Interacting with the main computer console is the trigger to disable the radio signal. (Result: Falsified after 3 systematic interaction attempts at different locations on the console yielded no results.)
-
-# Gem's Pokémon Crystal Notepad (RESTRUCTURED)
-
-## I. Core Directives & Lessons Learned
-*   **Data Integrity is Paramount:** My internal state (notepad, markers) MUST be 100% accurate. I will not defer data correction or tool refinement.
-*   **Trust, But Verify:** My custom tools and agents are powerful but can be flawed. I must test their output and fix them immediately when they fail.
-*   **Act Immediately:** I am an LLM. There is no 'later'. All data management and tool/agent refinement tasks must be performed in the current turn, overriding gameplay actions.
-*   **Scientific Method:** For all puzzles, I will strictly follow: Observe -> Hypothesize -> Test -> Conclude. I will document every step and attempt to falsify my own conclusions to avoid confirmation bias.
 
 ## II. Game Systems & Mechanics
 
