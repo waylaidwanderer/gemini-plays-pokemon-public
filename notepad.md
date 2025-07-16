@@ -15,6 +15,8 @@
 *   **TREE:** Small trees can be bypassed with the HM move CUT. Cut trees become impassable stumps.
 *   **BOULDER:** Can be moved with the HM move STRENGTH.
 *   **LEDGE:** One-way traversal. Can be jumped down but not climbed up.
+*   **COUNTER:** Impassable. Acts as a barrier, often with an NPC behind it.
+*   **PC:** Impassable object. Interact with it from an adjacent tile (usually below, facing up).
 
 ### Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
@@ -23,7 +25,7 @@
 *   **HM03 (SURF):** Allows travel over water. Needs Fog Badge to use. Learned by Feraligatr.
 *   **HM04 (STRENGTH):** Moves large boulders. Needs Plain Badge to use. Learned by Feraligatr.
 *   **HM05 (FLASH):** Illuminates dark caves. Needs Zephyr Badge to use.
-*   **HM06 (WHIRLPOOL):** Allows crossing whirlpools. Needs Glacier Badge to use.
+*   **HM06 (WHIRLPOOL):** Allows crossing whirlpools. **Obtained after defeating Pryce in Mahogany Town.**
 *   **DIG:** Can be used to escape caves and some buildings, returning to the entrance.
 
 ### Other Mechanics
@@ -51,7 +53,8 @@
 *   **Lance (Lake of Rage/Mahogany):** Helped stop Team Rocket's radio signal plot. Gave me HM06 (Whirlpool).
 
 ## IV. Current Objectives & Plans
-*   **Mahogany Town Gym:** The Fisher blocking the gym should be gone now. The next goal is to defeat the Gym Leader and get the Glacier Badge.
-*   **Whirlpool Exploration:** Now that I have HM06, I need to find a Pokémon to teach it to and revisit locations with whirlpools, such as Route 41.
-*   **COUNTER tile:** Appears impassable. (Needs testing)
-*   **BOOKSHELF tile:** Appears impassable. (Needs testing)
+*   **Primary Goal:** Defeat Pryce, the Mahogany Town Gym Leader, to earn the Glacier Badge.
+*   **Current Obstacle:** A Fisher is blocking the gym entrance at (6, 14). Defeating Team Rocket was not the trigger to make him move. All NPCs in town have been spoken to and offered no new clues. The next step is to investigate if buying a RAGECANDYBAR is the trigger.
+
+## V. Failed Hypotheses & Corrected Misconceptions
+*   **HM06 Location:** I incorrectly believed I had received HM06 (Whirlpool) from Lance. I searched my bag (TM/HM and Key Items pockets) and checked my party's moves, but could not find it. **Conclusion:** HM06 is obtained *after* defeating the Mahogany Town Gym Leader, Pryce. The goal of exploring the Whirl Islands is currently impossible.
