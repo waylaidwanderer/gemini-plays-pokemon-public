@@ -12,6 +12,7 @@
 - **`open_gate`**: A gate that is visibly open and acts as `ground`.
 - **`closed_gate`**: A gate that is visibly closed and acts as `impassable`.
 - **`gate_offscreen`**: A gate whose state is unknown. Must be treated as potentially open for pathfinding unless a marker indicates otherwise.
+- **Switches**: Must be activated by standing on the tile directly below them, facing up, and pressing A.
 
 ## B. Confirmed ROM Hack Mechanics
 - **Type Matchups:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire.
@@ -21,15 +22,14 @@
 
 # III. Puzzle Logs & Hypotheses
 ## A. Pokémon Mansion Multi-Floor Switch Puzzle
-- **Status:** In Progress
-- **Knowns:** There are switches on 1F (3,6) and 2F (3,12). They control multiple sets of gates on 1F.
-- **Current Hypothesis:** The state of the 2F switch acts as a 'mode selector' for the 1F switch. The 1F switch will toggle different sets of gates depending on the 2F switch's state.
-- **Current State:** 2F switch has been toggled ON. Eastern gates at (17,8) are now closed. Southern gates at (25,14) are also closed.
-- **Test Plan (Confirmation):**
-    1. Interact with the 1F switch at (3,6) while the 2F switch is ON.
-    2. **Expected Outcome:** The southern gates at (25,14) will open.
-    3. **Action:** Proceed to the 1F switch now.
-- **Test Plan (Falsification):**
-    1. If the southern gates open, return to 2F and toggle the switch OFF.
-    2. Return to 1F and observe if the southern gates close again.
-    3. This will confirm the causal link.
+- **Status:** In Progress - Following Agent's Strategic Plan.
+- **Agent's Strategic Plan:**
+    1. **[DONE]** 1F: Activate switch at (3,6).
+    2. **[NEXT]** 1F: Proceed to warp at (6,11) to reach 2F.
+    3. 2F: Activate switch at (3,12).
+    4. 2F: Proceed to warp at (8,11) to reach 3F.
+    5. 3F: Activate switch at (11,6).
+    6. 3F: Intentionally fall through hole at (20,15).
+    7. 1F (New Area): Navigate to warp at (22,24) to reach B1F.
+    8. B1F: Activate final switch at (19,26).
+    9. B1F: Retrieve the Secret Key.
