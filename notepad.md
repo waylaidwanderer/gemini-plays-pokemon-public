@@ -34,7 +34,8 @@
 *   **B2F West Corridor:** The western corridor of B2F, accessed via the ladder at (3, 14), is a dead end and does not connect to the main area.
 
 ### Hypotheses Log
-*   **H34 (Active):** The invisible floor maze on B1F contains the ladder to the main section of B2F, which will grant access to the locked door.
+*   **H34 (Falsified):** Navigating the invisible floor maze and reaching the door does not automatically trigger a password prompt.
+*   **H35 (Active):** The key to opening the door is located elsewhere on B2F, likely related to the transmitter at Y=9.
 *   **H33 (Falsified):** Disabling the arrow tiles on B1F will open a new path on B2F.
 
 ### Future Plans & Strategy
