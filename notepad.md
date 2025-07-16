@@ -35,3 +35,8 @@
 - **Hypothesis:** My mental model of the map was incorrect, and I was not actually trapped.
 - **Conclusion:** Hypothesis CONFIRMED. The critique was correct. My failure to trust the game's validation data led to a hallucination. The path forward was blocked by newly closed gates, but other exits were still available. 
 - **Lesson Learned:** The game's validation data (e.g., `is_in_dead_end_area`, `navigable_warps`) is the absolute source of truth. If my understanding or tools contradict this data, they are wrong and must be corrected. I will no longer assume I am trapped if the system says otherwise.
+
+## D. Pokémon Mansion 1F Switch Access
+- **Hypothesis:** The switch at (3, 6) is accessible through the gates at (17, 8) and (18, 8), which were opened by the switch on 2F.
+- **Test:** Use pathfinder to plot a course to (17, 8).
+- **Expected Outcome:** A valid path will be found.
