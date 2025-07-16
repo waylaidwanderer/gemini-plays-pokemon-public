@@ -29,13 +29,13 @@
 # III. Puzzle Logs
 ## A. Pokémon Mansion
 - **Objective:** Find the SECRET KEY.
-- **Hypothesis Log (1F Switch at (3,6)):**
+- **Hypothesis Log (1F Switch at (3,6)):
   - **H1 (Falsified):** The switch is a simple toggle for the eastern gates. (Tested Turns 77397-77399)
   - **H2 (Falsified):** The switch is a simple toggle for the western gates. (Tested Turns 77437-77452)
-  - **H3 (IN PROGRESS):** The switch at (3, 6) on 1F operates on a cycle controlling multiple sets of gates.
+  - **H3 (IN PROGRESS - MORE COMPLEX THAN THOUGHT):** The switch at (3, 6) operates on a cycle controlling at least three sets of gates.
     - **State 1 (1st/4th press):** Eastern gates (17,8)/(18,8) OPEN. Western gates (25,14)/(26,14) CLOSED.
-    - **State 2 (2nd/5th press):** Eastern gates CLOSED. Western gates OPEN. Central gates (21,18)/(22,18) CLOSED.
-    - **Conclusion:** The puzzle is not fully understood. The switch controls at least three sets of gates. I need to determine the full cycle to solve this.
+    - **State 2 (2nd/5th press):** Western gates OPEN. Eastern gates (17,8)/(18,8) CLOSED. Central gates (21,18)/(22,18) CLOSED.
+    - **Conclusion:** The puzzle is not fully understood. The switch controls at least three sets of gates, and the state seems to change even after moving away from the switch. I need to re-test the entire cycle and observe all three gate sets after each press.
 
 # IV. Map Marker Key
 - ☠️: Defeated Trainer
