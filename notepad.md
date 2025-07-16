@@ -19,6 +19,7 @@
 - `gate_offscreen`/`closed_gate`/`open_gate`: Gates that can block paths.
 - `secret_passage`: Certain `impassable` wall tiles can be walked through.
 - `strong_current`: A water tile with a current that is too strong to SURF against. Boulders may affect its flow.
+- `boulder`: Can be pushed with STRENGTH. Pushing a boulder into a `hole` tile causes it to fall to the floor below, potentially altering the lower map.
 
 ## B. Confirmed ROM Hack Changes
 - **Type Matchups & Immunities:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire; Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground; Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
@@ -27,11 +28,9 @@
 # III. Puzzle Logs
 ## A. Seafoam Islands Boulder Puzzle
 - **Goal:** Stop the strong water current on Seafoam Islands B4F.
-- **Current Hypothesis:** The Seafoam Islands consist of two separate, disconnected caves. The solution must involve manipulating boulders in both caves to affect the current on B4F.
+- **Current Hypothesis:** The puzzle must be solved by pushing boulders into holes on the upper floors of the *western* Seafoam Islands cave.
 - **Falsified Hypothesis Log:**
   1. The western and eastern sections of the cave are connected internally on any floor. (Failed, pathfinder confirmed no path exists on any floor).
-  2. The eastern island on Route 20 is reachable by surfing directly from the western part of the route. (Failed, pathfinder v14 confirmed no path exists).
+  2. The eastern island on Route 20 is reachable by surfing directly from the western part of the route. (Failed, pathfinder confirmed no path exists).
   3. The path to the eastern Seafoam Islands entrance is accessible from southern connections on Route 19. (Failed, both southern connections on Route 19 led to isolated, dead-end sections of Route 20).
-
-# IV. Untested Hypotheses
-- Test suspicious rock walls for secret passages.
+  4. Pushing a boulder into water on B3F (East) would solve the puzzle. (Failed, could not push boulder into adjacent water tile).
