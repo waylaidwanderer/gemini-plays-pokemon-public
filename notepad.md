@@ -16,13 +16,6 @@
   2. **(DONE)** Used the `pathfinder` tool to calculate a path to the warp at (7, 2).
   3. **(Next)** Follow the calculated path to finally exit this area and proceed to the third floor.
 
-## C. Pokémon Mansion 2F Switch Puzzle (Attempt 2)
-- **Hypothesis:** The switch at (3, 12) is a simple toggle. Pressing it a second time should reopen the northern gates at (10, 5) and (10, 6).
-- **Test:** Pressed the switch at (3, 12) for a second time.
-- **Conclusion:** Hypothesis DENIED. The path north remains blocked. The switch's function is more complex than a simple toggle.
-
-- **Data Discipline Reminder (from Overwatch):** I must update my notepad and map markers *immediately* upon discovering new information or environmental changes. No more deferring documentation. I will also avoid creating redundant map markers.
-
 ## B. Dead End Hallucination (Pokemon Mansion 2F)
 
 ## D. Pokémon Mansion 1F Switch Access
