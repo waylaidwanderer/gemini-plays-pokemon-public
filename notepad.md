@@ -52,3 +52,6 @@
 *   **Object Traversal:** I must test if it's possible to walk on object tiles like `BOOKSHELF` when they are not blocked by walls to confirm they are universally impassable.
 *   **Password Door Re-check:** My `puzzle_master` agent recommended I try the passwords. I will do this as soon as I can reach the door.
 *   **Alternative Hypothesis (Post-Maze):** If the invisible maze on B1F does not contain a path to the transmitter, the solution may be a hidden switch or passage on B2F or B3F. I will systematically re-explore those floors if H39 is falsified.
+
+### Alternative Hypothesis (Post-Maze Exploration)
+*   **H40 (Contingency):** If a full circuit of the invisible maze using the right-hand rule does not reveal a new path or ladder and instead leads back to the start, the maze is likely a red herring. The true solution may involve a trigger elsewhere. The next step would be to systematically re-explore B2F and B3F to see if any NPC dialogue has changed or if a new path has opened now that I possess both passwords.
