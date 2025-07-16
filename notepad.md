@@ -51,3 +51,16 @@
 *   **Lance (Lake of Rage/Mahogany):** Helps to stop Team Rocket's radio signal plot.
 *   **Team Rocket Passwords:** 'SLOWPOKETAIL' and 'RATICATE TAIL' are needed for the boss's door in the Mahogany hideout.
 *   **Team Rocket Hideout (B1F):** An invisible floor maze with traps. Security cameras also trigger battles. The warp panel at (5, 15) connects the western and eastern sections of the floor.
+
+## IV. Current Plans & Hypotheses
+
+### Team Rocket Hideout Puzzle
+*   **Observation:** I'm stuck in a loop. The western ladder on B1F leads to a dead-end section of B2F. The eastern ladder on B1F is a one-way exit back to the mart. The main door on B2F won't open despite having the passwords.
+*   **Hypothesis 1 (Failed):** Interacting with the door on B2F directly will open it. (Result: Only generic text appears.)
+*   **Hypothesis 2 (Failed):** The trigger is in Mahogany Town or the Mart. (Result: Fisher still blocks gym, no new triggers in Mart.)
+*   **Hypothesis 3 (Current):** The main switch in the central camera room on B1F at (19, 11) is the primary trigger for the entire hideout. Activating it will likely disable security systems (like the arrow tiles) or open the boss's door.
+*   **Plan:**
+    1.  Navigate to the switch at (19, 11).
+    2.  Interact with the switch.
+    3.  Observe changes on B1F and B2F (arrow tiles, locked door).
+    4.  If successful, proceed to the boss's room on B2F. If not, re-evaluate.
