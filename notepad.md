@@ -5,7 +5,7 @@
 ### Tile Traversal Rules
 *   **WALL:** Impassable. Forms the boundaries of maps.
 *   **FLOOR:** Standard traversable tile.
-*   **LADDER:** A warp tile. Moves player between floors.
+*   **LADDER:** A traversable tile that also functions as a warp, moving the player between floors when stepped on.
 *   **WARP_PANEL:** A warp tile. Teleports the player to another location. Behavior seems to be one-way.
 *   **DOOR:** A warp tile. Leads to other buildings/areas.
 *   **GRASS/TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
