@@ -47,3 +47,4 @@
 *   **Ledge Verification:** I have assumed all `LEDGE_HOP_...` tiles are one-way based on observation. I must explicitly try to move *up* a ledge at the next opportunity to scientifically confirm this is impossible.
 *   **Object Traversal:** I must test if it's possible to walk on object tiles like `BOOKSHELF` when they are not blocked by walls to confirm they are universally impassable.
 *   **Password Door Re-check:** My `puzzle_master` agent recommended I try the passwords. I will do this as soon as I can reach the door.
+*   **Bookshelf Switch Hypothesis:** If the invisible maze is a dead end, I will test the hypothesis that the bookshelves at (20, 11) and (21, 11) are a hidden switch.
