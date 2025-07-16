@@ -57,7 +57,7 @@
 *   **Lance (Lake of Rage/Mahogany):** Helped stop Team Rocket's radio signal plot. Gave me HM06 (Whirlpool).
 
 ## IV. Current Objectives & Plans
-*   **Current Plan:** My previous plan to use Fly was based on a hallucination. My new, immediate objective is to travel to Cianwood City. I need to re-investigate the city, specifically by talking to key NPCs like Chuck's wife, to determine the true source of HM02 (Fly). My memory of receiving it was incorrect.
+*   **Current Plan:** The Dance Theater was a dead end for finding HM02 Fly. My new plan is to travel to Cianwood City to properly investigate my earlier hallucination about receiving the HM there. I will speak to key NPCs, starting with Chuck's wife, to verify events and find the true source of Fly.
 
 ## V. TODO & Untested Assumptions
 *   **Tile Testing:**
