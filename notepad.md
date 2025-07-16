@@ -29,7 +29,10 @@
 
 ### Current Hypothesis
 ### Current Hypothesis
-*   **H60 (Current):** Lance has moved to the locked door on B2F at coordinates (14, 12) and is waiting for me there.
+*   **H60 (Falsified):** Lance has moved to the locked door on B2F at coordinates (14, 12) and is waiting for me there. (Result: Falsified. Lance was not at the door, and it did not open.)
+
+### Current Hypothesis
+*   **H61 (Current):** The trigger for the main locked door is on another floor (B1F or B2F), likely related to the radio transmitter itself.
 
 ## V. Archived Hypotheses (Solved/Falsified)
 *   **H59 (Falsified):** There is a hidden trigger on a wall or floor tile in the western chamber of B3F that opens the path to the locked door. (Result: Falsified. A systematic search of all walls and objects in the chamber yielded no results, and my `master_navigator` confirmed no path exists.)
