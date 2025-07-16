@@ -32,9 +32,6 @@
   1. The western and eastern sections of the cave are connected internally. (Failed, pathfinder confirmed no path exists on any floor).
   2. The eastern island on Route 20 is reachable by surfing directly from the western part of the route. (Failed, pathfinder v14 confirmed no path exists).
   3. The path to the eastern Seafoam Islands entrance is accessible from a southern connection on Route 19. (Failed, both southern connections on Route 19 led to isolated, dead-end sections of Route 20).
-- **Falsified Hypothesis Log:**
-  1. The western and eastern sections of the cave are connected internally. (Failed, pathfinder confirmed no path exists on any floor).
-  2. The eastern island on Route 20 is reachable by surfing directly from the western part of the route. (Failed, pathfinder v14 confirmed no path exists).
 - **SURF Field Move:** To use SURF, you must be standing on a valid land tile (e.g., `ground`) directly adjacent to a `water` tile and be *facing* the water before opening the menu to select the move.
 
 # IV. Tool Development Ideas
