@@ -28,7 +28,12 @@
 *   **Locked Door:** The final objective is likely behind the locked door on B3F at coordinates (10, 9) and (11, 9).
 
 ### Current Hypothesis
-*   **H59 (Current):** There is a hidden trigger on a wall or floor tile in the western chamber of B3F that opens the path to the locked door.
+### Current Hypothesis
+*   **H60 (Current):** Lance has moved to the locked door on B2F at coordinates (14, 12) and is waiting for me there.
+
+## V. Archived Hypotheses (Solved/Falsified)
+*   **H59 (Falsified):** There is a hidden trigger on a wall or floor tile in the western chamber of B3F that opens the path to the locked door. (Result: Falsified. A systematic search of all walls and objects in the chamber yielded no results, and my `master_navigator` confirmed no path exists.)
+*   **H58 (Falsified):** The bookshelves in the western chamber of B3F contain a hidden switch. (Result: Falsified. Interacting with all accessible bookshelves yielded only flavor text.)
 
 ## IV. Future Testing & Ideas
 *   **Agent Idea: `hypothesis_generator`:** An agent that takes the current puzzle state (map description, failed hypotheses from notepad) and suggests new, testable hypotheses. This could formalize my brainstorming process.
