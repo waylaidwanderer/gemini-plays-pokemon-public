@@ -73,3 +73,6 @@
 *   **WARP_CARPET_RIGHT:** (Hypothesis) A warp tile that likely moves the player right when activated.
 *   **LEDGE_HOP_DOWN:** (Hypothesis) A one-way traversal tile, allowing movement down but not up.
 *   **LEDGE_HOP_RIGHT:** (Hypothesis) A one-way traversal tile, allowing movement right but not left.
+
+### Tasks
+*   Fix the `master_navigator` tool. It fails on simple indoor paths and must be debugged.
