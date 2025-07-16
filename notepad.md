@@ -27,8 +27,4 @@
 - **Test:** Pressed the switch at (3, 12) for a second time.
 - **Conclusion:** Hypothesis DENIED. The path north remains blocked. The switch's function is more complex than a simple toggle.
 
-# IV. Tile Mechanics & Object Interactions
-- **Switches:** Can have complex, non-toggle behaviors, affecting gates on the same or different floors. Their state needs to be observed directly.
-- **Gates (`open_gate`, `closed_gate`, `gate_offscreen`):** State can be changed by switches. Off-screen gates are assumed open by default but must be visually confirmed.
-- **Warp Tiles:** Standard floor-to-floor teleporters.
-- **Pikachu Interaction:** Attempts to interact with Pikachu on a warp tile yielded no result. The hypothesis that he disables warps by standing on them is DENIED.
+- **Data Discipline Reminder (from Overwatch):** I must update my notepad and map markers *immediately* upon discovering new information or environmental changes. No more deferring documentation. I will also avoid creating redundant map markers.
