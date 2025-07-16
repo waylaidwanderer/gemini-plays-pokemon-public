@@ -54,7 +54,7 @@
 
 ## IV. Current Objectives & Plans
 *   **Primary Goal:** Defeat Pryce, the Mahogany Town Gym Leader, to earn the Glacier Badge.
-*   **Current Obstacle:** A Fisher is blocking the gym entrance at (6, 14). Defeating Team Rocket was not the trigger to make him move. All NPCs in town have been spoken to and offered no new clues. The next step is to investigate if buying a RAGECANDYBAR is the trigger.
+*   **Current Obstacle:** A Fisher is blocking the gym entrance at (6, 14). Defeating Team Rocket was not the trigger to make him move. All NPCs in town have been spoken to and offered no new clues. Failed Hypothesis: Buying a RAGECANDYBAR was not the trigger. The 'shopkeeper' is part of the Team Rocket event and not a real merchant.
 
 ## V. Failed Hypotheses & Corrected Misconceptions
 *   **HM06 Location:** I incorrectly believed I had received HM06 (Whirlpool) from Lance. I searched my bag (TM/HM and Key Items pockets) and checked my party's moves, but could not find it. **Conclusion:** HM06 is obtained *after* defeating the Mahogany Town Gym Leader, Pryce. The goal of exploring the Whirl Islands is currently impossible.
