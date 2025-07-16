@@ -47,6 +47,3 @@
 
 ## F. Off-Screen Gate Hallucination
 - **Observation:** I received a `Dead End Area Mismatch` and `Navigable Warps Mismatch` critique. I believed I was trapped in the western part of Pokemon Mansion 1F.
-- **Hypothesis:** My understanding of how the game determines reachability was flawed.
-- **Conclusion:** Hypothesis CONFIRMED. The validation system revealed that it optimistically treats all `gate_offscreen` tiles as traversable for pathing purposes, unless I have a specific marker indicating otherwise. This means I was never truly trapped and had multiple exits available that I failed to consider.
-- **Lesson Learned:** I must trust the game's validation data completely. If the system says a warp is reachable, it is, even if it seems impossible based on what I can see on screen. My `pathfinder` tool must also be updated to reflect this logic.
