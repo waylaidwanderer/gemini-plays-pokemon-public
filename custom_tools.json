@@ -70,6 +70,6 @@
         "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nprint('--- Pathfinder Test 3: Player Position Finding ---')\ntry:\n    root = ET.fromstring(map_xml_string)\n    player_pos = None\n    for row_elem in root.findall('Row'):\n        for tile_elem in row_elem.findall('Tile'):\n            if tile_elem.get('has-player') == 'true':\n                player_pos = (int(tile_elem.get('id')), int(row_elem.get('id')))\n                break\n        if player_pos:\n            break\n    if player_pos:\n        print(f'SUCCESS: Player found at {player_pos}')\n    else:\n        print('FAILURE: Player not found after loop.')\nexcept Exception as e:\n    print(f'FAILURE: Error during player search: {e}')\nprint('--- End Test 3 ---')"
+    "python_script": "import xml.etree.ElementTree as ET\nprint('--- Pathfinder Test 4: Grid Initialization ---')\ntry:\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    grid = [[0 for _ in range(map_width + 1)] for _ in range(map_height + 1)]\n    print('SUCCESS: Grid initialized successfully.')\nexcept Exception as e:\n    print(f'FAILURE: Error during grid initialization: {e}')\nprint('--- End Test 4 ---')"
   }
 }

@@ -31,7 +31,7 @@
 - **Test 1 (New):** Minimal execution test. Redefine the tool with only `print('Start')` and `print('End')`. This will confirm if the tool can execute at all. [PENDING]
 - **Test 2 (New):** Add back the initial `try...except` block for variable parsing. [PENDING]
 - **Test 3 (New):** Add back the player position finding loop. [SUCCESS]
-- **Test 4 (New):** Add back the grid initialization. [PENDING]
+- **Test 4 (New):** Add back the grid initialization. [SUCCESS]
 - **Test 5 (New):** Add back the grid population loop. [PENDING]
 - **Test 6 (New):** Add back the A* initialization. [PENDING]
 - **Test 7 (New):** Add back the A* search loop. [PENDING]
