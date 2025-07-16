@@ -47,3 +47,4 @@
 ## IV. Future Testing & Verification Notes
 *   **Ledge Verification:** I have assumed all `LEDGE_HOP_...` tiles are one-way based on observation. I must explicitly try to move *up* a ledge at the next opportunity to scientifically confirm this is impossible.
 *   **Object Traversal:** I must test if it's possible to walk on object tiles like `BOOKSHELF` when they are not blocked by walls to confirm they are universally impassable.
+*   **Defeated Trainers:** Defeated trainer sprites remain on the map and act as impassable objects. You cannot walk through them.
