@@ -53,42 +53,6 @@
     },
     "python_script": "import json\n\ntry:\n    inventory_list = json.loads(input_data['inventory_list'])\n    target_item = input_data['target_item']\n    found = False\n    for item in inventory_list:\n        if target_item.lower() in item.lower():\n            found = True\n            break\n    print(f'Item found: {found}')\nexcept Exception as e:\n    print(f'An error occurred: {e}')"
   },
-  "gem_path_planner_v17": {
-    "description": "A custom pathfinding tool by Gem. This version removes the experimental penalty logic for stability and reverts to a simpler, more reliable A* implementation.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "target_x": {
-          "type": "string"
-        },
-        "target_y": {
-          "type": "string"
-        },
-        "current_movement_state": {
-          "type": "string",
-          "enum": [
-            "walking",
-            "biking",
-            "surfing"
-          ]
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "target_x",
-        "target_y",
-        "current_movement_state"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport heapq\nimport sys\n\nclass AStar:\n    def __init__(self, map_xml_string, movement_state):\n        self.root = ET.fromstring(map_xml_string)\n        self.movement_state = movement_state\n        max_x, max_y = 0, 0\n        rows = self.root.findall('Row')\n        if not rows: raise ValueError(\"Map XML has no Row elements\")\n        for row_elem in rows:\n            y = int(row_elem.get('id'))\n            if y > max_y: max_y = y\n            tiles = row_elem.findall('Tile')\n            if not tiles: continue\n            for tile_elem in tiles:\n                x = int(tile_elem.get('id'))\n                if x > max_x: max_x = x\n        self.width = max_x\n        self.height = max_y\n        self.grid = [[None for _ in range(self.width + 1)] for _ in range(self.height + 1)]\n        self.impassable_objects = set()\n\n        for row_elem in rows:\n            y = int(row_elem.get('id'))\n            for tile_elem in row_elem.findall('Tile'):\n                x = int(tile_elem.get('id'))\n                tile_type = tile_elem.get('type')\n                self.grid[y][x] = tile_type\n                if tile_elem.find('Object') is not None:\n                    obj = tile_elem.find('Object')\n                    if obj.get('id-name') != 'Pikachu':\n                        self.impassable_objects.add((x, y))\n\n    def heuristic(self, a, b):\n        return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\n    def get_neighbors(self, pos):\n        x, y = pos\n        neighbors = []\n        current_tile_type = self.grid[y][x]\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n\n            if not (1 <= nx <= self.width and 1 <= ny <= self.height):\n                continue\n\n            if (nx, ny) in self.impassable_objects:\n                continue\n\n            neighbor_tile_type = self.grid[ny][nx]\n            \n            if neighbor_tile_type in ['impassable', 'unknown', None]:\n                continue\n            \n            if neighbor_tile_type == 'ledge' and ny > y:\n                 pass # Allow moving down ledges\n            elif current_tile_type != 'ledge' and neighbor_tile_type == 'ledge':\n                 if dx != 0 or ny < y:\n                     continue\n\n            valid_transitions = {\n                'ground': {'ground', 'grass', 'steps', 'water', 'ladder_up', 'ladder_down', 'hole'},\n                'grass': {'ground', 'grass', 'steps', 'water'},\n                'elevated_ground': {'elevated_ground', 'steps', 'ladder_up', 'ladder_down', 'hole'},\n                'steps': {'ground', 'grass', 'elevated_ground', 'water'},\n                'water': {'water', 'ground', 'grass', 'steps'},\n                'ladder_up': {'ground', 'elevated_ground', 'ladder_up'},\n                'ladder_down': {'ground', 'elevated_ground', 'ladder_down'},\n                'hole': {'ground', 'elevated_ground'}\n            }\n            \n            if self.movement_state != 'surfing' and neighbor_tile_type == 'water':\n                continue\n            \n            if current_tile_type in valid_transitions and neighbor_tile_type in valid_transitions.get(current_tile_type, set()):\n                 neighbors.append((nx, ny))\n\n        return neighbors\n\n    def find_path(self, start, end):\n        open_set = []\n        heapq.heappush(open_set, (0, start))\n        came_from = {}\n        g_score = { (x,y): float('inf') for y in range(self.height + 1) for x in range(self.width + 1) }\n        g_score[start] = 0\n        f_score = { (x,y): float('inf') for y in range(self.height + 1) for x in range(self.width + 1) }\n        f_score[start] = self.heuristic(start, end)\n\n        while open_set:\n            _, current = heapq.heappop(open_set)\n\n            if current == end:\n                path = []\n                while current in came_from:\n                    path.append(current)\n                    current = came_from[current]\n                path.append(start)\n                return path[::-1]\n\n            for neighbor in self.get_neighbors(current):\n                tentative_g_score = g_score[current] + 1\n\n                if tentative_g_score < g_score.get(neighbor, float('inf')):\n                    came_from[neighbor] = current\n                    g_score[neighbor] = tentative_g_score\n                    f_score[neighbor] = g_score[neighbor] + self.heuristic(neighbor, end)\n                    if neighbor not in [i[1] for i in open_set]:\n                        heapq.heappush(open_set, (f_score[neighbor], neighbor))\n        return None\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    movement_state = input_data['current_movement_state']\n    \n    pathfinder = AStar(map_xml_string, movement_state)\n    path = pathfinder.find_path((start_x, start_y), (target_x, target_y))\n    \n    if path:\n        buttons = []\n        for i in range(len(path) - 1):\n            cx, cy = path[i]\n            nx, ny = path[i+1]\n            if nx > cx: buttons.append('Right')\n            elif nx < cx: buttons.append('Left')\n            elif ny > cy: buttons.append('Down')\n            elif ny < cy: buttons.append('Up')\n        print(','.join(buttons))\n    else:\n        adjacent_tiles = []\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            ax, ay = target_x + dx, target_y + dy\n            if 1 <= ax <= pathfinder.width and 1 <= ay <= pathfinder.height:\n                tile_type = pathfinder.grid[ay][ax]\n                if tile_type not in ['impassable', 'unknown', None] and (ax, ay) not in pathfinder.impassable_objects:\n                    adjacent_tiles.append((ax, ay))\n        \n        if adjacent_tiles:\n            adjacent_tiles.sort(key=lambda p: abs(p[0] - start_x) + abs(p[1] - start_y))\n            for adj_target in adjacent_tiles:\n                path = pathfinder.find_path((start_x, start_y), adj_target)\n                if path:\n                    buttons = []\n                    for i in range(len(path) - 1):\n                        cx, cy = path[i]\n                        nx, ny = path[i+1]\n                        if nx > cx: buttons.append('Right')\n                        elif nx < cx: buttons.append('Left')\n                        elif ny > cy: buttons.append('Down')\n                        elif ny < cy: buttons.append('Up')\n                    print(','.join(buttons))\n                    sys.exit(0)\n        \n        print('No path found')\nexcept Exception as e:\n    print(f\"An error occurred in pathfinder: {e}\", file=sys.stderr)\n    print('No path found')"
-  },
   "gem_path_planner_v18": {
     "description": "A custom pathfinding tool by Gem. This version fixes a critical bug where transitions using 'steps' tiles between 'ground' and 'elevated_ground' were not handled correctly.",
     "input_schema": {
@@ -127,6 +91,42 @@
   },
   "gem_path_planner_v19": {
     "description": "A custom pathfinding tool by Gem. This version fixes a critical bug where the planner would incorrectly path through non-target warp tiles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "target_x": {
+          "type": "string"
+        },
+        "target_y": {
+          "type": "string"
+        },
+        "current_movement_state": {
+          "type": "string",
+          "enum": [
+            "walking",
+            "biking",
+            "surfing"
+          ]
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y",
+        "current_movement_state"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport heapq\nimport sys\n\nclass AStar:\n    def __init__(self, map_xml_string, movement_state):\n        self.root = ET.fromstring(map_xml_string)\n        self.movement_state = movement_state\n        self.warps = set()\n        max_x, max_y = 0, 0\n        rows = self.root.findall('Row')\n        if not rows: raise ValueError(\"Map XML has no Row elements\")\n        for row_elem in rows:\n            y = int(row_elem.get('id'))\n            if y > max_y: max_y = y\n            tiles = row_elem.findall('Tile')\n            if not tiles: continue\n            for tile_elem in tiles:\n                x = int(tile_elem.get('id'))\n                if x > max_x: max_x = x\n                if tile_elem.get('is-warp') == 'true':\n                    self.warps.add((x, y))\n        self.width = max_x\n        self.height = max_y\n        self.grid = [[None for _ in range(self.width + 1)] for _ in range(self.height + 1)]\n        self.impassable_objects = set()\n\n        for row_elem in rows:\n            y = int(row_elem.get('id'))\n            for tile_elem in row_elem.findall('Tile'):\n                x = int(tile_elem.get('id'))\n                tile_type = tile_elem.get('type')\n                self.grid[y][x] = tile_type\n                if tile_elem.find('Object') is not None:\n                    obj = tile_elem.find('Object')\n                    if obj.get('id-name') != 'Pikachu':\n                        self.impassable_objects.add((x, y))\n\n    def heuristic(self, a, b):\n        return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\n    def get_neighbors(self, pos, end):\n        x, y = pos\n        neighbors = []\n        current_tile_type = self.grid[y][x]\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n\n            if not (1 <= nx <= self.width and 1 <= ny <= self.height):\n                continue\n\n            if (nx, ny) in self.impassable_objects:\n                continue\n\n            if (nx, ny) in self.warps and (nx, ny) != end:\n                continue\n\n            neighbor_tile_type = self.grid[ny][nx]\n            \n            if neighbor_tile_type in ['impassable', 'unknown', None]:\n                continue\n            \n            if neighbor_tile_type == 'ledge' and ny > y:\n                 pass\n            elif current_tile_type != 'ledge' and neighbor_tile_type == 'ledge':\n                 if dx != 0 or ny < y:\n                     continue\n\n            valid_transitions = {\n                'ground': {'ground', 'grass', 'steps', 'water', 'ladder_up', 'ladder_down', 'hole'},\n                'grass': {'ground', 'grass', 'steps', 'water'},\n                'elevated_ground': {'elevated_ground', 'steps', 'ladder_up', 'ladder_down', 'hole'},\n                'steps': {'ground', 'elevated_ground', 'grass', 'water'},\n                'water': {'water', 'ground', 'grass', 'steps'},\n                'ladder_up': {'ground', 'elevated_ground'},\n                'ladder_down': {'ground', 'elevated_ground'},\n                'hole': {'ground', 'elevated_ground'}\n            }\n            \n            if self.movement_state != 'surfing' and neighbor_tile_type == 'water':\n                continue\n            \n            if neighbor_tile_type in valid_transitions.get(current_tile_type, set()):\n                 neighbors.append((nx, ny))\n\n        return neighbors\n\n    def find_path(self, start, end):\n        open_set = []\n        heapq.heappush(open_set, (0, start))\n        came_from = {}\n        g_score = { (x,y): float('inf') for y in range(self.height + 1) for x in range(self.width + 1) }\n        g_score[start] = 0\n        f_score = { (x,y): float('inf') for y in range(self.height + 1) for x in range(self.width + 1) }\n        f_score[start] = self.heuristic(start, end)\n\n        while open_set:\n            _, current = heapq.heappop(open_set)\n\n            if current == end:\n                path = []\n                while current in came_from:\n                    path.append(current)\n                    current = came_from[current]\n                path.append(start)\n                return path[::-1]\n\n            for neighbor in self.get_neighbors(current, end):\n                tentative_g_score = g_score[current] + 1\n\n                if tentative_g_score < g_score.get(neighbor, float('inf')):\n                    came_from[neighbor] = current\n                    g_score[neighbor] = tentative_g_score\n                    f_score[neighbor] = g_score[neighbor] + self.heuristic(neighbor, end)\n                    if neighbor not in [i[1] for i in open_set]:\n                        heapq.heappush(open_set, (f_score[neighbor], neighbor))\n        return None\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    movement_state = input_data['current_movement_state']\n    \n    pathfinder = AStar(map_xml_string, movement_state)\n    path = pathfinder.find_path((start_x, start_y), (target_x, target_y))\n    \n    if path:\n        buttons = []\n        for i in range(len(path) - 1):\n            cx, cy = path[i]\n            nx, ny = path[i+1]\n            if nx > cx: buttons.append('Right')\n            elif nx < cx: buttons.append('Left')\n            elif ny > cy: buttons.append('Down')\n            elif ny < cy: buttons.append('Up')\n        print(','.join(buttons))\n    else:\n        adjacent_tiles = []\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            ax, ay = target_x + dx, target_y + dy\n            if 1 <= ax <= pathfinder.width and 1 <= ay <= pathfinder.height:\n                tile_type = pathfinder.grid[ay][ax]\n                if tile_type not in ['impassable', 'unknown', None] and (ax, ay) not in pathfinder.impassable_objects:\n                    adjacent_tiles.append((ax, ay))\n        \n        if adjacent_tiles:\n            adjacent_tiles.sort(key=lambda p: abs(p[0] - start_x) + abs(p[1] - start_y))\n            for adj_target in adjacent_tiles:\n                path = pathfinder.find_path((start_x, start_y), adj_target)\n                if path:\n                    buttons = []\n                    for i in range(len(path) - 1):\n                        cx, cy = path[i]\n                        nx, ny = path[i+1]\n                        if nx > cx: buttons.append('Right')\n                        elif nx < cx: buttons.append('Left')\n                        elif ny > cy: buttons.append('Down')\n                        elif ny < cy: buttons.append('Up')\n                    print(','.join(buttons))\n                    sys.exit(0)\n        \n        print('No path found')\nexcept Exception as e:\n    print(f\"An error occurred in pathfinder: {e}\", file=sys.stderr)\n    print('No path found')"
+  },
+  "gem_path_planner_v20": {
+    "description": "A custom pathfinding tool by Gem. This version fixes a critical bug where the planner would incorrectly reject valid transitions to special tile types like ladders and holes.",
     "input_schema": {
       "type": "object",
       "properties": {
