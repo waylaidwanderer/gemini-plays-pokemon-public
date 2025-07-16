@@ -21,19 +21,21 @@
 
 ## B. Confirmed ROM Hack Changes
 - **Type Matchups & Immunities:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire; Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground; Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
-- **Battle & Field Mechanics:** PSYWAVE/CONFUSE RAY can miss. Safari Zone has a time limit. Losing in a gym does not warp you out. FLY can end wild battles indoors but cannot be used to escape buildings. ROAR can end wild battles.
+- **Battle & Field Mechanics:** PSYWAVE/CONFUSE RAY can miss. Safari Zone has a time limit. Losing in a gym does not warp you out. FLY can end wild battles indoors but cannot be used to escape buildings. ROAR can end wild battles. SURF requires facing the water tile.
 
 # III. Puzzle Logs
 ## A. Seafoam Islands Boulder Puzzle
 - **Goal:** Stop the strong water current on Seafoam Islands B4F.
-- **Current Hypothesis:** The Seafoam Islands consist of two separate, disconnected caves. The western cave is a dead end for the puzzle. The solution must be in the eastern cave.
-- **Current Plan:** Explore the eastern cave from top to bottom, solving all boulder puzzles.
+- **Current Hypothesis:** The Seafoam Islands consist of two separate, disconnected caves. The solution must involve manipulating boulders in both caves to affect the current on B4F.
+- **Current Plan:** Fully re-explore the western cave to confirm or deny that it is a dead end for the puzzle.
 - **Falsified Hypothesis Log:**
   1. The western and eastern sections of the cave are connected internally on any floor. (Failed, pathfinder confirmed no path exists on any floor).
   2. The eastern island on Route 20 is reachable by surfing directly from the western part of the route. (Failed, pathfinder v14 confirmed no path exists).
   3. The path to the eastern Seafoam Islands entrance is accessible from southern connections on Route 19. (Failed, both southern connections on Route 19 led to isolated, dead-end sections of Route 20).
-- **SURF Field Move:** To use SURF, you must be standing on a valid land tile (e.g., `ground`) directly adjacent to a `water` tile and be *facing* the water before opening the menu to select the move.
 
-# IV. Tool Development Ideas
-- **Cove Detector Tool:** A tool that takes a coordinate and analyzes the surrounding map XML to determine if the player is in an enclosed space (e.g., a cove surrounded by impassable tiles on three sides). This could help diagnose pathfinding failures and prevent getting stuck.
-- **Pathfinder Improvement:** The current A* implementation (`gem_path_planner_v17`) can fail in concave areas (coves) because the heuristic greedily explores deeper into the trap. Future refinement should investigate ways to make the algorithm less susceptible to such geographical layouts, perhaps by modifying the heuristic or adding logic to detect and escape these traps.
+# IV. Untested Hypotheses & Future Plans
+- **Untested Hypotheses:**
+  - Test suspicious rock walls for secret passages.
+- **Tool Development Ideas:**
+  - **Cove Detector Tool:** A tool that analyzes the surrounding map XML to determine if the player is in an enclosed space (e.g., a cove surrounded by impassable tiles on three sides).
+  - **Pathfinder Improvement:** Investigate ways to make the algorithm less susceptible to concave traps, perhaps by modifying the heuristic or adding logic to detect and escape these traps.
