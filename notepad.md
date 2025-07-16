@@ -40,10 +40,11 @@
 *   **H36 (Active):** The invisible maze on B1F contains a second, undiscovered ladder that leads to the area with the transmitter.
 
 ### Future Plans & Strategy
-*   **Hideout Progression Plan (v8):**
-    1.  Navigate the invisible floor maze on B1F to find the ladder to B2F.
-    2.  Once on B2F, navigate to the locked door at (14, 12).
-    3.  Interact with the door and attempt to use the known passwords.
+*   **Hideout Progression Plan (v9 - Maze Exploration):**
+    1.  Systematically explore the main invisible floor maze on B1F (approx. X: 7-28, Y: 5-16).
+    2.  My goal is to test Hypothesis H36: Find a second, hidden ladder leading to the transmitter room.
+    3.  Method: Use a wall-following approach (always keeping a wall to my right) to ensure complete coverage and avoid getting lost or looping.
+    4.  Starting point for exploration will be entering the maze at (7, 5).
 
 ## IV. Future Testing & Verification Notes
 *   **Ledge Verification:** I have assumed all `LEDGE_HOP_...` tiles are one-way based on observation. I must explicitly try to move *up* a ledge at the next opportunity to scientifically confirm this is impossible.
