@@ -39,3 +39,6 @@
 - **Tool Development Ideas:**
   - **Cove Detector Tool:** A tool that analyzes the surrounding map XML to determine if the player is in an enclosed space (e.g., a cove surrounded by impassable tiles on three sides).
   - **Pathfinder Improvement:** Investigate ways to make the algorithm less susceptible to concave traps, perhaps by modifying the heuristic or adding logic to detect and escape these traps.
+
+# I. Core Principles & Lessons Learned (NEW)
+- **System Validation is Absolute Truth:** The game's validation data (navigable warps, unseen tiles) MUST override my own perception. If there is a discrepancy, my reasoning is flawed, not the data. I must immediately trust and act on this data.
