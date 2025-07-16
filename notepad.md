@@ -44,7 +44,7 @@
 ## II. Puzzles & Solutions
 *   **Sprout Tower:** Central pillar blocks direct ascent. Must go up the side ladders to the 3rd floor, then descend via the central ladder to reach the Elder.
 *   **Azalea Gym:** A spiderweb platform puzzle. Switches reconfigure the platforms. The correct sequence is left switch, then right switch.
-*   **Ilex Forest Farfetch'd:** Chase the Farfetch'd by stepping on twigs to make it turn. Corner it to return it to its owner.
+*   **Ilex Forest Farfetch'd:** Chase the Farfetch'd sprite by blocking its path to make it turn. Corner it to return it to its owner.
 *   **Goldenrod Gym:** A maze with trainers that appear and disappear. The path is a spiral shape resembling a Clefairy.
 *   **Ecruteak Gym:** An invisible path puzzle. Many tiles are pitfalls that return you to the entrance. Requires careful trial and error to find the safe path to the Gym Leader.
 *   **Cianwood Gym:** Defeated trainers become obstacles. A switch resets the puzzle. A boulder must be pushed with STRENGTH to clear the path.
