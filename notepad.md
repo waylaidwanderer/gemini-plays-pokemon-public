@@ -38,7 +38,7 @@
 *   **Hideout Progression Plan (v11 - Maze Navigation):**
     1.  Systematically explore the main invisible floor maze on B1F using the `maze_navigator` tool.
     2.  My goal is to test Hypothesis H39: Find a second, hidden ladder leading to the transmitter room.
-    3.  Method: Use the `maze_navigator` tool which uses a right-hand wall-following algorithm to ensure complete coverage and avoid getting lost or looping.
+    3.  Method: The `maze_navigator` tool is unsuitable for an *unknown* invisible maze. I will explore manually using the right-hand-on-the-wall algorithm. I will attempt to move, and if blocked, I will treat that as a wall and adjust my path according to the algorithm.
 
 ### Falsified Hypotheses
 *   H34: Navigating the invisible floor maze and reaching the door does not automatically trigger a password prompt.
