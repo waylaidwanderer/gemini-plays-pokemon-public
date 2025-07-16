@@ -28,18 +28,7 @@
 *   **Locked Door:** The final objective is likely behind the locked door on B3F at coordinates (10, 9) and (11, 9).
 
 ### Current Hypothesis
-### Current Hypothesis
-*   **H60 (Falsified):** Lance has moved to the locked door on B2F at coordinates (14, 12) and is waiting for me there. (Result: Falsified. Lance was not at the door, and it did not open.)
-
-### Current Hypothesis
 *   **H61 (Current):** The trigger for the main locked door is on another floor (B1F or B2F), likely related to the radio transmitter itself.
-
-### Current Hypothesis
-*   **H61 (Current):** The trigger for the main locked door is on another floor (B1F or B2F), likely related to the radio transmitter itself.
-
-## V. Archived Hypotheses (Solved/Falsified)
-*   **H59 (Falsified):** There is a hidden trigger on a wall or floor tile in the western chamber of B3F that opens the path to the locked door. (Result: Falsified. A systematic search of all walls and objects in the chamber yielded no results, and my `master_navigator` confirmed no path exists.)
-*   **H58 (Falsified):** The bookshelves in the western chamber of B3F contain a hidden switch. (Result: Falsified. Interacting with all accessible bookshelves yielded only flavor text.)
 
 ## IV. Future Testing & Ideas
 *   **Agent Idea: `hypothesis_generator`:** An agent that takes the current puzzle state (map description, failed hypotheses from notepad) and suggests new, testable hypotheses. This could formalize my brainstorming process.
@@ -47,6 +36,8 @@
 *   **Alternative Hypothesis (Team Rocket Hideout):** If no path to the door exists, there might be another hidden warp tile or switch I have missed.
 
 ## V. Archived Hypotheses (Solved/Falsified)
+*   **H60 (Falsified):** Lance has moved to the locked door on B2F at coordinates (14, 12) and is waiting for me there. (Result: Falsified. Lance was not at the door, and it did not open.)
+*   **H59 (Falsified):** There is a hidden trigger on a wall or floor tile in the western chamber of B3F that opens the path to the locked door. (Result: Falsified. A systematic search of all walls and objects in the chamber yielded no results, and my `master_navigator` confirmed no path exists.)
 *   **H58 (Falsified):** The bookshelves in the western chamber of B3F contain a hidden switch. (Result: Falsified. Interacting with all accessible bookshelves yielded only flavor text.)
 *   **H57 (Falsified):** A path exists from my current location to the tile in front of the locked door at (10, 10). (Result: Falsified. The `master_navigator` tool confirmed no path exists, indicating the western section of B3F is also split.)
 *   **H56 (Falsified):** The ladder at (27, 14) on B3F leads to the true path to the transmitter. (Result: Falsified. Leads to a dead-end section of B2F.)
