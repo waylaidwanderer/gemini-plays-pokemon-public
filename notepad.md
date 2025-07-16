@@ -1,10 +1,15 @@
-# I. Core Principles & Lessons Learned
+# I. Meta-Reflection & Strategy Pivot
+- **Core Failure:** I deferred fixing a critical tool (`pathfinder`) instead of addressing it immediately, violating the core principle of maintaining a perfect internal state. This led to a prolonged, unproductive loop.
+- **Goal Discipline:** My goals must be *outcomes* (e.g., 'Obtain the Secret Key'), not *methods* (e.g., 'Fix the tool'). Fixing tools is an immediate, non-negotiable action, not a deferred goal.
+- **Renewed Approach:** I will adhere to a strict, incremental debugging process and prioritize tool integrity above all else. I will not use a tool I know to be broken.
+
+# II. Core Principles & Lessons Learned
 - **System Validation is Absolute Truth:** The game's validation data is the ultimate source of truth. If my tools or understanding contradict this data, they are wrong and must be corrected immediately.
 - **Rigorous Hypothesis Testing:** When faced with a puzzle, I will form a single, testable hypothesis and design a minimal experiment to confirm or deny it. I will not assume hidden mechanics unless all other possibilities have been disproven.
 - **Tool Integrity is Paramount:** A faulty tool is worse than no tool. If a tool provides an incorrect result, debugging and fixing it becomes my absolute highest priority, superseding any other goal.
 - **Immediate Documentation:** All discoveries, plans, and state changes must be documented *immediately* in the notepad or with map markers to avoid hallucinations and redundant actions.
 
-# II. Game Intel
+# III. Game Intel
 ## A. Tile Mechanics
 - `ground`: Walkable tile.
 - `impassable`: Walls, counters, etc. Cannot be entered.
@@ -12,7 +17,6 @@
 - `open_gate`: A gate that is visibly open and acts as `ground`.
 - `closed_gate`: A gate that is visibly closed and acts as `impassable`.
 - `gate_offscreen`: A gate whose state is unknown. Must be treated as potentially open for pathfinding unless a marker indicates otherwise.
-- **Switches**: Must be activated by standing on the tile directly below them, facing up, and pressing A.
 - `ledge`: Can be jumped down, but not climbed up. Acts as ground when approached from above (Y-1), but as a wall from all other directions.
 - `hole`: Warps the player to a lower floor, usually into an isolated area.
 
@@ -22,11 +26,15 @@
 - **Type Immunities:** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 - **Field/Battle Rules:** Switches require standing below and facing up. Losing in a gym does not warp you out. FLY can end wild battles indoors. ROAR can end wild battles.
 
-# III. Pathfinder Tool - DECOMMISSIONED
-- **Status:** Critical Failure. The tool fails silently when fully assembled, despite every individual component passing isolated tests.
-- **Conclusion:** The tool is unreliable and debugging has become a time sink. I am abandoning further attempts to fix it and will rely on manual path planning.
-
-# IV. Current Objective: Pokemon Mansion Puzzle
-- **Goal:** Solve the switch puzzle to find the Secret Key.
-- **Hypothesis 1:** The path north is blocked because the switch at (3, 12) on 2F is in the wrong state.
-- **Test 1:** Navigate to (3, 13), face up, and press A to interact with the switch. [PENDING]
+# IV. Pathfinder Tool Debugging Log (V2 - Incremental)
+- **Hypothesis:** The `pathfinder` tool is failing due to a silent crash in the script.
+- **Plan:** Rebuild the tool incrementally, testing one code block at a time.
+- **Test 1:** Minimal execution (`print` statement only). **Result: SUCCESS.** The tool environment is working.
+- **Test 2:** Add variable parsing (`target_x`, `map_width`, etc.). **Result: SUCCESS.** Parsing is not the issue.
+- **Test 3:** Add player position finding loop. **Result: SUCCESS.** Player search loop is not the issue.
+- **Test 4:** Add grid initialization (`grid = [[...]]`). **Result: SUCCESS.** Grid initialization is not the issue.
+- **Test 5:** Add grid population loop (simplified). **Result: SUCCESS.** The loop structure is not the issue.
+- **Test 6:** Add A* data structure initialization. **Result: SUCCESS.** A* setup is not the issue.
+- **Test 7:** Add A* search loop (simplified grid). **Result: SUCCESS.** The `while` loop itself is not causing a silent crash. The problem MUST be the interaction between the fully populated grid and the A* search logic.
+- **Conclusion:** The silent crash hypothesis is definitively false. The tool executes fully but fails to find a path. The problem lies in the logic of the grid population or the A* search's interaction with it.
+- **Next Step (Final Test):** Re-run the fully assembled script. The methodical tests have proven every individual component is syntactically correct and doesn't cause a crash. The failure is logical, not structural.
