@@ -22,3 +22,6 @@
 # IV. Current Objectives
 - **Primary:** Find the Secret Key in the Pokémon Mansion.
 - **Plan:** Navigate the newly opened eastern section of 1F. The Scientist at (18, 18) is the primary person of interest.
+
+# V. Untested Assumptions & Hypotheses
+- **Hypothesis 1:** The switch at (3, 6) on 1F may have more than one function. **Test:** Interact with it again and observe any changes to gates or other map features. **Status:** Pending.
