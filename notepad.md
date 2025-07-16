@@ -33,13 +33,5 @@
   2. The eastern island on Route 20 is reachable by surfing directly from the western part of the route. (Failed, pathfinder v14 confirmed no path exists).
   3. The path to the eastern Seafoam Islands entrance is accessible from southern connections on Route 19. (Failed, both southern connections on Route 19 led to isolated, dead-end sections of Route 20).
 
-# IV. Future Plans & Ideas
-- **Untested Hypotheses:**
-  - Test suspicious rock walls for secret passages.
-- **Tool & Agent Development Ideas:**
-  - **Cove Detector Tool:** A tool that analyzes the surrounding map XML to determine if the player is in an enclosed space (e.g., a cove surrounded by impassable tiles on three sides).
-
-# V. Tool Development & Debugging Log
-## A. gem_path_planner_v19
-- **Failure (Turn 76938):** The tool generated a long, invalid path on Seafoam Islands B1F from (18, 5) to (8, 6), attempting to traverse impassable tiles and non-existent connections between elevated platforms. The path was completely nonsensical. Manual pathing was required.
-- **Failure (Turn 76941):** The tool generated an invalid path from (17,10) to (8,6) that attempted to move through an impassable tile at (16,10).
+# IV. Untested Hypotheses
+- Test suspicious rock walls for secret passages.
