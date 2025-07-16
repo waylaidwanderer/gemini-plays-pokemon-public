@@ -17,6 +17,7 @@
 *   **LEDGE:** One-way traversal. Can be jumped down but not climbed up.
 *   **COUNTER:** Impassable. Acts as a barrier, often with an NPC behind it.
 *   **PC:** Impassable object. Interact with it from an adjacent tile (usually below, facing up).
+*   **MART_SHELF:** Impassable object. Acts as a wall within shops.
 
 ### Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
@@ -25,7 +26,7 @@
 *   **HM03 (SURF):** Allows travel over water. Needs Fog Badge to use. Learned by Feraligatr.
 *   **HM04 (STRENGTH):** Moves large boulders. Needs Plain Badge to use. Learned by Feraligatr.
 *   **HM05 (FLASH):** Illuminates dark caves. Needs Zephyr Badge to use.
-*   **HM06 (WHIRLPOOL):** Allows crossing whirlpools. **Obtained after defeating Pryce in Mahogany Town.**
+*   **HM06 (WHIRLPOOL):** Allows crossing whirlpools. Obtained from Lance after defeating Team Rocket in Mahogany Town.
 *   **DIG:** Can be used to escape caves and some buildings, returning to the entrance.
 
 ### Other Mechanics
@@ -54,7 +55,7 @@
 
 ## IV. Current Objectives & Plans
 *   **Primary Goal:** Defeat Pryce, the Mahogany Town Gym Leader, to earn the Glacier Badge.
-*   **Current Obstacle:** A Fisher is blocking the gym entrance at (6, 14). Defeating Team Rocket was not the trigger to make him move. All NPCs in town have been spoken to and offered no new clues. Failed Hypothesis: Buying a RAGECANDYBAR was not the trigger. The 'shopkeeper' is part of the Team Rocket event and not a real merchant.
+*   **Current Obstacle:** A Fisher is blocking the gym entrance at (6, 14). All leads in Mahogany Town have been exhausted. It is likely I need to complete an event elsewhere before he will move. The next logical step is to explore the Whirl Islands using HM06.
 
 ## V. Failed Hypotheses & Corrected Misconceptions
-*   **HM06 Location:** I incorrectly believed I had received HM06 (Whirlpool) from Lance. I searched my bag (TM/HM and Key Items pockets) and checked my party's moves, but could not find it. **Conclusion:** HM06 is obtained *after* defeating the Mahogany Town Gym Leader, Pryce. The goal of exploring the Whirl Islands is currently impossible.
+*   **Mahogany Gym Blockade:** The trigger for the Fisher to move is not defeating Team Rocket, buying a RAGECANDYBAR (the shop is fake), or talking to any of the local NPCs post-Team-Rocket.
