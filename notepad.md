@@ -26,3 +26,9 @@
 - **Hypothesis:** The switch at (3, 12) is a simple toggle. Pressing it a second time should reopen the northern gates at (10, 5) and (10, 6).
 - **Test:** Pressed the switch at (3, 12) for a second time.
 - **Conclusion:** Hypothesis DENIED. The path north remains blocked. The switch's function is more complex than a simple toggle.
+
+# IV. Tile Mechanics & Object Interactions
+- **Switches:** Can have complex, non-toggle behaviors, affecting gates on the same or different floors. Their state needs to be observed directly.
+- **Gates (`open_gate`, `closed_gate`, `gate_offscreen`):** State can be changed by switches. Off-screen gates are assumed open by default but must be visually confirmed.
+- **Warp Tiles:** Standard floor-to-floor teleporters.
+- **Pikachu Interaction:** Attempts to interact with Pikachu on a warp tile yielded no result. The hypothesis that he disables warps by standing on them is DENIED.
