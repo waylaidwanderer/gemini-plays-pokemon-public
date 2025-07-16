@@ -4,18 +4,17 @@
 - **Tool Integrity is Paramount:** A faulty tool is worse than no tool. If a tool provides an incorrect result (e.g., `pathfinder` failing to find a confirmed reachable warp), debugging and fixing that tool becomes my absolute highest priority, superseding any navigational or puzzle-solving goal.
 
 # II. Game Intel
-## A. Map Marker Legend (Strict)
-- **Warps:** ↕️ (Used), 🛬 (Arrival)
-- **Gates:** ✅ (Open), 🔴 (Closed)
-- **Switches:** 🔄 (Toggled)
-- **Items:** 💰 (Found), ❌ (Trap)
-- **Navigation:** 🚫 (Dead End), 🕳️ (Hole)
-
-## B. Confirmed ROM Hack Mechanics
+## A. Confirmed ROM Hack Mechanics
 - **Type Matchups:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire.
 - **Type Resistances:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground.
 - **Type Immunities:** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 - **Field/Battle Rules:** Switches require standing below and facing up. Losing in a gym does not warp you out. FLY can end wild battles indoors. ROAR can end wild battles.
+
+## B. Tile Mechanics
+- **ground**: Walkable tile.
+- **impassable**: Cannot be walked on.
+- **gate_offscreen**: A gate that is not currently visible on the screen. Its state is unknown. For pathfinding purposes, this is treated as potentially open.
+- **warp**: A tile that transports the player to another location.
 
 # III. Puzzle Logs & Hypotheses
 
