@@ -28,7 +28,10 @@
 *   **Locked Door:** The final objective is likely behind the locked door on B3F at coordinates (10, 9) and (11, 9).
 
 ### Current Hypothesis
-*   **H72 (Current):** There is a hidden switch or warp tile in the eastern section of B3F that provides a path to the western section. I am currently performing a systematic search of all wall tiles to test this.
+*   **H73 (Current):** The spin tile maze on B2F has an alternate path that leads to the western section of B2F, which in turn provides access to the western section of B3F.
+
+### Archived Hypotheses (Solved/Falsified)
+*   **H72 (Falsified):** There is a hidden switch or warp tile in the eastern section of B3F. (Result: Falsified after a systematic search of all reachable wall tiles yielded no results.)
 
 ## IV. Future Testing & Ideas
 *   **Agent Idea: `hypothesis_generator`:** An agent that takes the current puzzle state (map description, failed hypotheses from notepad) and suggests new, testable hypotheses. This could formalize my brainstorming process.
