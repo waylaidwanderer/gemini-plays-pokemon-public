@@ -28,7 +28,6 @@
 - **Conclusion:** Hypothesis DENIED. The path north remains blocked. The switch's function is more complex than a simple toggle.
 
 - **Data Discipline Reminder (from Overwatch):** I must update my notepad and map markers *immediately* upon discovering new information or environmental changes. No more deferring documentation. I will also avoid creating redundant map markers.
-- **Data Discipline Reminder (from Overwatch):** I must update my notepad and map markers *immediately* upon discovering new information or environmental changes. No more deferring documentation. I will also avoid creating redundant map markers.
 
 ## B. Dead End Hallucination (Pokemon Mansion 2F)
 - **Observation:** I believed I was trapped in an area after flipping a switch, and my `pathfinder` tool failed. I received a `Dead End Area Mismatch` critique, which stated I was not in a dead end because 3 exits were still reachable.
