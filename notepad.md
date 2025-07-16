@@ -6,7 +6,7 @@
 *   **WALL:** Impassable. Forms the boundaries of maps.
 *   **FLOOR:** Standard traversable tile.
 *   **LADDER:** A warp tile. Moves player between floors.
-*   **WARP_PANEL:** A warp tile. Teleports the player to another location on the same floor.
+*   **WARP_PANEL:** A warp tile. Teleports the player to another location. Behavior seems to be one-way.
 *   **DOOR:** A warp tile. Leads to other buildings/areas.
 *   **GRASS/TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
 *   **WATER/SEA:** Traversable only with the HM move SURF. Can trigger wild Pokémon encounters.
@@ -39,7 +39,6 @@
 *   **Goldenrod Gym:** A maze with trainers that appear and disappear. The path is a spiral shape resembling a Clefairy.
 *   **Ecruteak Gym:** An invisible path puzzle. Many tiles are pitfalls that return you to the entrance. Requires careful trial and error to find the safe path to the Gym Leader.
 *   **Cianwood Gym:** Defeated trainers become obstacles. A switch resets the puzzle. A boulder must be pushed with STRENGTH to clear the path.
-*   **Team Rocket Hideout (B1F):** Features an invisible floor maze with traps that trigger battles. Security cameras also trigger battles if you walk in front of them. Arrow tiles can be disabled with a switch.
 
 ## III. Important NPCs & Quests
 *   **Professor Elm:** Gave me my starter and the Pokémon Egg. Main quest giver.
@@ -49,18 +48,12 @@
 *   **Sick Miltank (Route 39):** Needs 'lots of BERRIES' to get better.
 *   **Sick Ampharos (Olivine Lighthouse):** Needs SECRETMEDICINE from Cianwood City. Curing it is required for Jasmine to return to her gym.
 *   **Lance (Lake of Rage/Mahogany):** Helps to stop Team Rocket's radio signal plot.
-*   **Team Rocket Passwords:** 'SLOWPOKETAIL' and 'RATICATE TAIL' are needed for the boss's door in the Mahogany hideout.
-*   **Team Rocket Hideout (B1F):** An invisible floor maze with traps. Security cameras also trigger battles. The warp panel at (5, 15) connects the western and eastern sections of the floor.
 
 ## IV. Current Plans & Hypotheses
 
 ### Team Rocket Hideout Puzzle
-*   **Observation:** I'm stuck in a loop. The western ladder on B1F leads to a dead-end section of B2F. The eastern ladder on B1F is a one-way exit back to the mart. The main door on B2F won't open despite having the passwords.
-*   **Hypothesis 1 (Failed):** Interacting with the door on B2F directly will open it. (Result: Only generic text appears.)
-*   **Hypothesis 2 (Failed):** The trigger is in Mahogany Town or the Mart. (Result: Fisher still blocks gym, no new triggers in Mart.)
-*   **Hypothesis 3 (Current):** The main switch in the central camera room on B1F at (19, 11) is the primary trigger for the entire hideout. Activating it will likely disable security systems (like the arrow tiles) or open the boss's door.
-*   **Plan:**
-    1.  Navigate to the switch at (19, 11).
-    2.  Interact with the switch.
-    3.  Observe changes on B1F and B2F (arrow tiles, locked door).
-    4.  If successful, proceed to the boss's room on B2F. If not, re-evaluate.
+*   **Observation:** I am in the Team Rocket Hideout in Mahogany Town. The goal is to disable a radio signal. A locked door on B2F requires two passwords, which I have learned are 'SLOWPOKETAIL' and 'RATICATE TAIL'. The hideout has multiple floors and disconnected sections, connected by ladders and warp panels.
+*   **Hypothesis 1 (Failed):** The locked door on B2F opens through direct interaction after learning the passwords. (Result: Interaction only yields generic text. No password prompt.)
+*   **Hypothesis 2 (Current):** The main switch in the central camera room on B1F at (19, 11) is the primary trigger for the entire hideout. Activating it will disable security systems and open the boss's door.
+*   **Test 2a (Complete):** Navigate to the switch at (19, 11) and interact with it. (Result: The switch was turned off.)
+*   **Test 2b (Current Plan):** Return to the locked door on B2F at (14, 12) to see if it is now open or prompts for a password. If it remains locked, proceed to B3F to search for a new trigger, as the switch may have only disabled B1F systems.
