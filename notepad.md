@@ -36,3 +36,4 @@
   4. Pushing a boulder into water on B3F (East) would solve the puzzle. (Failed, could not push boulder into adjacent water tile).
   5. Flying to Cinnabar Island provides surf access to the western Seafoam Islands entrance. (Failed, pathfinder and system confirmed Route 20 is split by impassable terrain, blocking access from the west).
   5. The path to the western Seafoam Islands is accessible by surfing west from Route 19. (Failed, the entire western edge of Route 19 is blocked by an impassable rock wall).
+  6. The path to the western Seafoam Islands is accessible by surfing south along the western edge of Route 19. (Failed, the southern path is blocked by impassable rocks).
