@@ -70,3 +70,4 @@
 ## V. Failed Hypotheses & Corrected Misconceptions
 *   **Mahogany Gym Blockade:** The trigger for the Fisher to move is NOT defeating Team Rocket or talking to any of the local NPCs post-Team-Rocket (initial sweep).
 *   **RAGECANDYBAR:** The Mahogany Town 'shop' is a front for Team Rocket and does not sell any items. The RAGECANDYBAR cannot be purchased to move the Fisher.
+*   **RAGECANDYBAR Purchase:** The Pokefan M in Mahogany Town offers to sell a RAGECANDYBAR, but the game gives a 'You don't have room for this' error, even when all inventory pockets have space. This is a scripted block, not a literal inventory issue. The candy bar is not the trigger for the Fisher.
