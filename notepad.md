@@ -57,10 +57,7 @@
 *   **Lance (Lake of Rage/Mahogany):** Helped stop Team Rocket's radio signal plot. Gave me HM06 (Whirlpool).
 
 ## IV. Current Objectives & Plans
-*   **Primary Goal:** Defeat Pryce, the Mahogany Town Gym Leader, to earn the Glacier Badge.
-*   **Current Plan:**
-    1.  Travel from Ecruteak City to Cianwood City.
-    2.  Re-investigate Cianwood City, specifically by talking to key NPCs like Chuck's wife, to determine the true source of HM02 (Fly). My previous memory of receiving it was a hallucination.
+*   **Current Plan:** My previous plan to use Fly was based on a hallucination. My new, immediate objective is to travel to Cianwood City. I need to re-investigate the city, specifically by talking to key NPCs like Chuck's wife, to determine the true source of HM02 (Fly). My memory of receiving it was incorrect.
 
 ## V. TODO & Untested Assumptions
 *   **Tile Testing:**
