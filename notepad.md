@@ -97,7 +97,10 @@
 *   **Main Obstacle:** Navigating the multi-floor hideout and finding the trigger to progress.
 
 ### Current Hypothesis
-*   **H78 (Current):** There is a hidden switch on one of the `WALL` tiles of the main computer console at (20,10) through (25,10) on B3F. The impassable grunt at (24, 14) is a clue forcing this room-specific solution.
+*   **H79 (Current):** The Fisher blocking the Mahogany Town Gym has moved now that the Lake of Rage event is complete.
+
+### Archived Hypotheses (Solved/Falsified)
+*   **H78 (Falsified):** There is a hidden switch on one of the `WALL` tiles of the main computer console at (20,10) through (25,10) on B3F. (Result: A systematic test of every console wall tile yielded no results.)
 
 ### Confirmed Facts & Discoveries
 *   **Passwords Found:** The two passwords are 'SLOWPOKETAIL' and 'RATICATE TAIL'.
@@ -150,7 +153,10 @@
 *   **Main Obstacle:** Navigating the multi-floor hideout and finding the trigger to progress.
 
 ### Current Hypothesis
-*   **H78 (Current):** There is a hidden switch on one of the `WALL` tiles of the main computer console at (20,10) through (25,10) on B3F. The impassable grunt at (24, 14) is a clue forcing this room-specific solution.
+*   **H79 (Current):** The Fisher blocking the Mahogany Town Gym has moved now that the Lake of Rage event is complete.
+
+### Archived Hypotheses (Solved/Falsified)
+*   **H78 (Falsified):** There is a hidden switch on one of the `WALL` tiles of the main computer console at (20,10) through (25,10) on B3F. (Result: A systematic test of every console wall tile yielded no results.)
 
 ### Confirmed Facts & Discoveries
 *   **Passwords Found:** The two passwords are 'SLOWPOKETAIL' and 'RATICATE TAIL'.
