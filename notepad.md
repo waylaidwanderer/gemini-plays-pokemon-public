@@ -22,7 +22,8 @@
 
 # III. Pokémon Mansion Puzzle Strategy
 - **Current State:** I am on Pokemon Mansion B1F. The path west is blocked by closed gates at (10,7) and (10,8).
-- **Corrected Hypothesis (Attempt 1):** My previous assumption that switches on other floors control the B1F western gates was flawed and led to a repetitive loop. The two switches on B1F itself, at (19,26) and (21,4), are the most likely solution. My new hypothesis is that one of these switches directly controls the western gates.
+- **Failed Hypothesis (Attempt 2):** I incorrectly assumed the western gates at (10,7) and (10,8) opened on their own. This was proven false when they closed in front of me. I am now blocked.
+- **Revised Hypothesis (Attempt 3):** I am returning to my original theory. The switch at (19,26) is the most likely candidate to control the western gates. My next action is to test this switch.
 - **Systematic Test Plan:**
     1. Navigate to the switch at (19,26) and activate it.
     2. Observe and document any immediate changes to gates on B1F.
