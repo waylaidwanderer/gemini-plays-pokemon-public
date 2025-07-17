@@ -25,3 +25,4 @@
 # IV. Tool & Agent Development
 - **Known Bugs:** The `define_map_marker` tool is broken and cannot be fixed as it's a reserved name. Do not attempt to use it. Track spatial information in the notepad instead.
 - **Agent Idea:** Create a 'Puzzle State Analyst' agent to analyze map XML and propose puzzle-solving hypotheses.
+- Toggling the switch at (11,6) also opened the gate at (16,12).
