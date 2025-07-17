@@ -27,7 +27,7 @@
 - **Observation 3:** Moved near (10, 7), observed western gates at (10,7) and (10,8) close.
 - **Observation 4:** Moved near (14, 23), observed western gates at (14,23) and (14,24) open.
 - **Observation 5:** Pressed switch at (19, 26). Moved towards (14, 23). Observed western gates at (14,23) and (14,24) close, blocking the path.
-- **Conclusion:** The puzzle is controlled by proximity triggers, and the switches modify the behavior of those triggers (e.g., from 'open on approach' to 'close on approach'). The switches appear to be toggles.
+- **Conclusion:** The puzzle is controlled by proximity triggers. The switches at (19,26) and (21,4) modify the behavior of these triggers (e.g., from 'open on approach' to 'close on approach'). The switch at (19, 26) is a toggle that affects both the western and eastern gates.
 
 # IV. Tool & Agent Ideas
 - **Exploration Path Planner Tool:** A computational tool to solve the Traveling Salesperson Problem for a list of coordinates, finding the shortest path to visit all of them. This should be a high priority to create.
