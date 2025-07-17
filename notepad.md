@@ -81,5 +81,9 @@
 *   **SECRETMEDICINE Hypothesis:** My primary assumption is defeating Chuck will trigger the pharmacist to give me the medicine. Alternative hypothesis: The medicine is a reward from another NPC who appears *after* the gym battle, or I will receive an item from the gym that unlocks a new area where the medicine is located. Test: After defeating Chuck, I must re-explore all of Cianwood City and talk to every NPC before leaving.
 *   **Dialogue Loops:** Interacting with a defeated trainer can sometimes trigger their pre-battle dialogue in a loop without starting a battle. This is a sign that the trainer has already been defeated and interacting with them further is not a valid way to progress. Example: Black Belt Lung in Cianwood Gym.
 *   **Cianwood Gym Boulder Puzzle:**
-    *   **Attempt 1 Hypothesis:** The first move is to push the leftmost boulder (3, 6) upwards.
-    *   **Test:** Move to (3, 7) to push the boulder.
+    *   **Hypothesis 1:** Push the leftmost boulder (3, 6) upwards.
+    *   **Test 1:** Moved to (3, 7) to push. **Result: FAILED.** Path blocked by wall at (3, 5).
+    *   **Hypothesis 2:** Push the middle boulder (4, 5) upwards.
+    *   **Test 2:** Moved to (4, 6) to push. **Result: FAILED.** Path blocked by trainer at (5, 5).
+    *   **Hypothesis 3:** Interact with trainers *before* moving boulders.
+    *   **Test 3 (Pending):** Reset puzzle, trigger it, then attempt to speak with all trainers.
