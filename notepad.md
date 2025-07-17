@@ -15,9 +15,6 @@
 - **closed_gate:** An impassable gate that is currently visible on the screen.
 - **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding.
 
-# III. Known Bugs
-- The `define_map_marker` tool is confirmed broken after multiple consecutive failures. Do not attempt to use it. Track all spatial information, like gate states, in this notepad.
-
 # IV. Pokémon Mansion Puzzle Log
 - **Turn 79153:** On 3F, pressed switch at (11,6). Gates at (16,5), (16,6), (16,11), (16,12) closed. Path south blocked.
 - **Turn 79283:** On 3F, pressed switch at (11,6) again. Confirmed it's a toggle. Path south opened.
