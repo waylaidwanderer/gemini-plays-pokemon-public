@@ -27,8 +27,8 @@
 
 ## B. Cinnabar Gym (Systematic Analysis)
 - **Objective:** To map the puzzle's logic by logging every interaction and its outcome for the `puzzle_log_analyzer_agent`.
-- **Methodology:** Interact with each quiz machine and trainer. After each action, check the state of all gates on the map and record the observation.
-- **Log 1:**
+- **Methodology:** Interact with each quiz machine and trainer. After each action, use the `puzzle_state_analyzer` to get the current state of all gates and log the observation.
+- **Log:**
 
 # IV. Active Puzzles
 (No active puzzles)
