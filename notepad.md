@@ -126,3 +126,19 @@
 
 ## V. Gameplay Log & Corrections
 *   **Critique (Turn 51931):** The overwatch system noted my failure to use my `stuck_advisor` and my failure to follow my own documented scientific method for the `CUT` puzzle. I also neglected to document the `CUT_TREE` tile. I must be more disciplined.
+
+## III. Procedural Discipline & Methodology
+
+### A. The Scientific Method for Puzzles
+1.  **Observe:** Carefully analyze the puzzle's initial state using the map, object data, and any relevant NPC dialogue.
+2.  **Hypothesize:** Formulate a single, clear, and testable hypothesis about a specific mechanic. State alternative hypotheses.
+3.  **Test:** Execute the simplest possible sequence of actions to test the hypothesis. Design tests to potentially *falsify* the hypothesis.
+4.  **Conclude & Document:** Record the result of the test. Was the hypothesis confirmed or falsified? Update this notepad accordingly.
+5.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests.
+
+### B. Automation & Agent Usage
+*   **Automation First:** For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is my last resort. If a tool fails, my top priority is to fix it, not to abandon it.
+*   **Agent Consultation:** I must make a conscious effort to use my defined agents (`stuck_advisor`, `pathing_advisor`) when appropriate. Before performing complex reasoning, I will consider if a new agent could perform the task better.
+
+### C. Immediate Action Mandate (CRITICAL)
+*   As an LLM, I have no concept of 'later'. All data management tasks (updating this notepad, placing/deleting markers, fixing tools/agents) **MUST** be performed in the immediate turn of discovery. This is a non-negotiable, top-priority directive.
