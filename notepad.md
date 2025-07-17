@@ -25,7 +25,3 @@
 - **Current State:** Eastern gates (27,18) are OPEN. Western gates (10,7) are CLOSED. Northern gates (17,17) & (18,17) are now confirmed CLOSED.
 - **Hypothesis (v2):** The switches at (19,26) and (21,4) control the three sets of gates (Western, Northern, Eastern), but not as simple toggles. The outcome of flipping a switch seems to depend on the current state of *all* gates, suggesting a state-machine-like logic. Proximity triggers also seem to play a role.
 - **Next Test:** My path to the main switch at (19, 26) is now blocked by the northern gates. I must find an alternate route to it, flip it, and then systematically check the state of all three gate sets to understand its function in this new configuration.
-
-# IV. Tool & Agent Ideas
-- **Exploration Path Planner Tool:** A computational tool to solve the Traveling Salesperson Problem for a list of coordinates, finding the shortest path to visit all of them. This should be a high priority to create.
-- **Long-Term Training Advisor Agent:** An agent to analyze my full roster and suggest long-term training priorities for upcoming major challenges like the Elite Four.
