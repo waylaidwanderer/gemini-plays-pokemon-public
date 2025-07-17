@@ -37,4 +37,5 @@
 
 ## B. Cinnabar Gym
 - **Observation:** I am inside the Cinnabar Gym. The game state has confirmed there are 3 reachable unseen tiles to the west, meaning a path forward exists here. The eastern corridor is a confirmed dead end with looping trainers. The western corridor is blocked by closed gates at (13, 13) and (14, 13).
-- **Hypothesis:** The quiz machines in the gym control the gates. I need to figure out the correct sequence or combination of answers to open the western gates and access the unseen tiles.
+- **Hypothesis 1 (Failed):** The quiz machines are a simple toggle. (Outcome: Answering YES and NO both seem to only open the eastern gates).
+- **Hypothesis 2 (Current):** A specific sequence of answers on the quiz machine at (16, 8) is required to open the western gates. I will now test the sequence: YES, then NO.
