@@ -24,8 +24,8 @@
 
 ## A. Systematic Testing Plan
 - **Goal:** Fully understand the logic of the two main switches.
-- **Hypothesis 1:** The switches operate on a simple toggle state. Pressing a switch reverses its previous effect.
-- **Test 1.1 (Current Action):** Press the 1F switch at (3,6) again. **Expected Outcome:** The gates at (17,8)/(18,8) will close, and the gates at (25,14)/(26,14) will open.
+- **Hypothesis 1 (CONFIRMED):** The switches operate on a simple toggle state. Pressing a switch reverses its previous effect.
+- **Test 1.1 (Concluded):** Pressed the 1F switch at (3,6) again. **Outcome:** The gates at (25,14)/(26,14) **opened**. **Conclusion:** The 1F switch operates on a simple toggle, reversing the state of both western and eastern gate sets.
 - **Test 1.2 (Next Step):** Go to 2F and press the switch at (3,12). Observe the state of all known gates.
 - **Test 1.3 (Next Step):** Return to 1F and press the switch at (3,6) again. Observe the state of all known gates.
 - **Switch Interaction:** Switches must be activated by standing on the tile directly BELOW them (e.g., at (X, Y+1) for a switch at (X,Y)), facing UP, and then pressing A.
