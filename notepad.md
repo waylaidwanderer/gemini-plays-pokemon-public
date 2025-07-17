@@ -3,27 +3,17 @@
 ## I. Game Mechanics
 
 ### A. Tile Traversal Rules
-*   **WALL:** Impassable. Forms the boundaries of maps.
+*   **WALL/VOID:** Impassable boundary tiles.
 *   **FLOOR:** Standard traversable tile.
-*   **LADDER:** A traversable tile that also functions as a warp, moving the player between floors when stepped on.
-*   **WARP_PANEL:** A warp tile. Teleports the player to another location. Behavior seems to be one-way.
-*   **DOOR:** A warp tile. Leads to other buildings/areas.
-*   **GRASS/TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
-*   **WATER/SEA:** Traversable only with the HM move SURF. Can trigger wild Pokémon encounters.
-*   **BUOY:** Impassable obstacle in water.
-*   **WHIRLPOOL:** Impassable obstacle in water. Requires an HM to cross.
-*   **TREE:** Small trees can be bypassed with the HM move CUT. Cut trees become impassable stumps.
-*   **BOULDER:** Can be moved with the HM move STRENGTH.
-*   **LEDGE:** One-way traversal. Can be jumped down but not climbed up.
-*   **COUNTER:** Impassable barrier. To interact with an NPC behind a counter, stand on an adjacent floor tile, face the counter, and press 'A'.
-*   **PC:** Impassable object. Interact with it from an adjacent tile. 'BILL's PC' is for Pokémon, 'Your Name's PC' is for items.
-*   **MART_SHELF:** Impassable object. Acts as a wall within shops.
-*   **HEADBUTT_TREE:** An interactable tree that can be shaken with the move Headbutt to find Pokémon.
-*   **CAVE:** A type of warp tile, functions like a door to an interior map.
-*   **WARP_CARPET_DOWN:** A warp tile that moves the player downwards, usually to exit a building.
-*   **WARP_CARPET_UP:** A warp tile that moves the player upwards, usually to enter a building.
-*   **VOID:** An impassable boundary tile, functions like a WALL.
-*   **PIT:** A one-way tile that causes the player to fall to the floor below when stepped on.
+*   **GRASS/TALL_GRASS:** Traversable; can trigger wild encounters.
+*   **DOOR/CAVE/LADDER/WARP_PANEL/WARP_CARPET_UP/WARP_CARPET_DOWN:** Traversable warp tiles.
+*   **WATER/SEA:** Traversable only with SURF. Can trigger wild encounters.
+*   **LEDGE/FLOOR_UP_WALL:** One-way traversal. Can be jumped down but not climbed up. (Hypothesis for FLOOR_UP_WALL needs rigorous testing).
+*   **PIT:** One-way tile that causes a fall to the floor below.
+*   **COUNTER/PC/MART_SHELF/BUOY/WHIRLPOOL:** Impassable obstacles. Interaction with some (PC, counter NPCs) requires standing on an adjacent tile.
+*   **TREE:** Small trees can be cut with CUT, leaving an impassable stump.
+*   **BOULDER:** Can be moved with STRENGTH.
+*   **HEADBUTT_TREE:** Interactable tree for finding Pokémon.
 
 ### B. Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
