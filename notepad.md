@@ -27,5 +27,5 @@
 - **Hypothesis 1 (CONFIRMED):** The 1F switch operates on a simple toggle state. Pressing it reverses its previous effect on both western and eastern gate sets.
 - **Test 1.1 (Concluded):** Pressed the 1F switch. **Outcome:** Western gates at (17,8)/(18,8) opened. Then, pressed it again. **Outcome:** Western gates closed, eastern gates at (25,14)/(26,14) opened.
 - **Hypothesis 2:** The 2F switch also affects the gates.
-- **Test 1.2 (In Progress):** Pressed the 2F switch at (3,12).
+- **Test 1.2 (Current Action):** Pressed the 2F switch at (3,12).
 - **Next Step:** Observe the state of all gates on 1F to determine the effect of the 2F switch.
