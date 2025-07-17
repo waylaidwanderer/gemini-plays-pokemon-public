@@ -47,3 +47,9 @@
     - **State 3 (After 2nd press):** Northern gates closed. Western Entrance gates [(10,7), (10,8)] opened. The Western Corridor gates [(14,23), (14,24)] were also observed to be closed, initially appearing to block the path.
 - **Current State & System Override:** The system confirms there are 6 reachable unseen tiles in the western corridor, meaning a path MUST exist despite the closed Western Corridor gates. My previous conclusion of being trapped was a hallucination. The Northern gates at (17,17) & (18,17) are currently open.
 - **Current Hypothesis:** There is a way to navigate around the closed Western Corridor gates. The Secret Key is likely located within these 6 reachable unseen tiles. My priority is to explore this area.
+
+# IX. Pokémon Mansion Puzzle Log (v5 - Corrected & Consolidated)
+## B1F
+- **System Override:** The system confirms there are 6 reachable unseen tiles in the western corridor, meaning a path MUST exist, even though I have visually confirmed the Western Corridor gates at (14,23) & (14,24) are closed. My previous conclusions of being trapped were a hallucination.
+- **Current State:** The Northern gates at (17,17) & (18,17) are currently open. The Western Entrance gates at (10,7) & (10,8) are also open.
+- **Current Hypothesis:** There is a way to navigate around the closed Western Corridor gates. The Secret Key is likely located within these 6 reachable unseen tiles. My priority is to explore this area.
