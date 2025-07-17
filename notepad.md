@@ -76,3 +76,4 @@
 
 ### C. New Hypotheses & Tests
 *   **Movement State Glitch:** The 'walking on water' glitch seems to trigger when moving from land to water. Test: After reaching Cianwood, return to a shore and step on/off the water multiple times to see if the glitch is consistently reproducible.
+*   **Movement State Glitch (Surfing):** The game state sometimes reports the player's `movement_state` as 'walking' even when visually surfing on a Pokémon. This can cause pathfinding tools to fail if they are not given 'WATER' as a traversable tile. This seems to be a consistent quirk.
