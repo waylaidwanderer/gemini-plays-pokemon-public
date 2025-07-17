@@ -35,5 +35,6 @@
 - **Hypothesis 5 (Current):** Answering the quiz at (16, 8) incorrectly has changed the state of the trainer at (17, 9), making them battle-ready.
 - **Test 5:** Interact with the trainer at (17, 9).
 
-## B. Cinnabar Gym (Decoy)
-- **Conclusion:** This building is a decoy. The puzzle is a red herring with looping trainers and quiz machines that lead to dead ends. The game state confirms there are no reachable unseen tiles and the only exit is the entrance warp. The true solution to progressing in Cinnabar is to use the SECRET KEY on the locked gym door on the main island. Puzzle solved.
+## B. Cinnabar Gym
+- **Observation:** I am inside the Cinnabar Gym. The game state has confirmed there are 3 reachable unseen tiles to the west, meaning a path forward exists here. The eastern corridor is a confirmed dead end with looping trainers. The western corridor is blocked by closed gates at (13, 13) and (14, 13).
+- **Hypothesis:** The quiz machines in the gym control the gates. I need to figure out the correct sequence or combination of answers to open the western gates and access the unseen tiles.
