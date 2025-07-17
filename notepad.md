@@ -130,16 +130,11 @@
 *   **Cianwood Geography:** Cianwood City is split into two landmasses. The southern part where I initially arrived is an island. Progress to the northern part (where the gym is) requires using SURF.
 *   **Mahogany Gym Block:** The gym is blocked by a Fisher. My hypothesis is that a trigger at the Lake of Rage will move him. An alternative hypothesis is the trigger is elsewhere, possibly related to Schoolboy Alan on Route 36.
 
-### B. Known Tool Issues
-*   **`pathfinder` Flaw:** The current `pathfinder` tool cannot find a path to a traversable tile adjacent to an impassable destination. It will incorrectly report 'No path found.' This needs to be fixed. (ACTION: Fixing now)
-
 ## VI. Procedural Learnings & Hypotheses
 
 ### A. Procedural Discipline
 *   **Immediate Action:** I have previously deferred tasks like tool fixing and marker updates. This is an invalid strategy. All data management and tool refinement must be performed immediately upon discovery.
 
 ## VII. Future Development Ideas
-*   **Agent Idea ('Path Executor'):** Create an agent that takes the JSON output from a solver tool (like `pathfinder`) and executes the path turn-by-turn. If interrupted by a wild battle or other event, it should automatically re-run the `pathfinder` from the new current location to the original destination. This would automate tedious navigation and recovery from interruptions. (ACTION: Creating now)
 *   **Agent Idea ('Stuck Advisor'):** Create an agent that analyzes the current goal, recent failed actions, and game state to suggest alternative strategies or goals when progress is stalled. This would help prevent getting stuck in loops.
-
-## VIII. To-Do & Reminders
+*   **Agent Idea ('Data Integrity Checker'):** Create an agent that can be run periodically to scan my notepad and map markers for inconsistencies, such as completed to-do items or unmarked warps, to help maintain data accuracy.
