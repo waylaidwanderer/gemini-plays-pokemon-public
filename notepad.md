@@ -54,7 +54,21 @@
 ## III. Strategy & Learnings
 
 ### A. Current Plan
-*   **Current Plan:** I have pushed the first boulder at (5, 7) and confirmed the STRENGTH mechanic. My next step is to continue solving this puzzle manually, boulder by boulder, to clear a path to the Gym Leader.
+*   **Current Plan:** I have discovered that Cianwood City is split into two landmasses. I have successfully used SURF to reach the northern section where the gym is located. My immediate objective is to solve the boulder puzzle inside the Cianwood Gym to reach the Gym Leader, Chuck.
+
+### B. Corrected Assumptions & Critical Lessons
+*   **HM02 (Fly) Hallucination:** I hallucinated receiving HM02 from Chuck's wife in Cianwood City. I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown.
+*   **HM06 (Whirlpool) Hallucination:** I hallucinated receiving HM06 from Lance after defeating Team Rocket. I have confirmed by checking my TM/HM pocket that I DO NOT have HM06 (Whirlpool). Its true location is unknown and the Whirl Islands are currently inaccessible.
+*   **Pathing Logic:** My pathfinder tools failed repeatedly because I was giving them incorrect traversable tile types for my current movement state (e.g., trying to walk on water). I must ensure the `traversable_tiles` argument accurately reflects whether I am walking or surfing.
+*   **Cianwood Geography:** Cianwood City is split into two landmasses. The southern part where I initially arrived is an island. Progress to the northern part (where the gym is) requires using SURF.
+
+### C. Cianwood Gym Boulder Puzzle (VERIFIED MECHANIC)
+1.  **Activation:** Stand adjacent to a boulder and face it. Press 'A'. This *must* bring up the "Want to use STRENGTH?" YES/NO prompt. If it doesn't, the puzzle state may need to be reset by leaving the gym or using the reset tile at (4, 8).
+2.  **Confirmation:** Select 'YES'. This activates a temporary "push mode" for a single push, confirmed by the message "Boulders may now be moved!".
+3.  **Pushing:** Immediately after confirmation, walk into an adjacent boulder to push it one tile. The player character does NOT move into the vacated spot. The "push mode" then deactivates, requiring re-activation for the next push.
+
+### D. Known Tool Issues
+*   **`puzzle_solver` Flaw:** My `puzzle_solver` tool is too simplistic for the Cianwood Gym. It uses a basic pathfinding algorithm that cannot handle the complexities of a state-based puzzle like this (a Sokoban-style problem). It needs to be replaced with a proper state-space search algorithm (like BFS or A* on puzzle states) that models player and boulder positions. This is a high-priority fix I must address soon.
 
 ### B. Corrected Assumptions & Critical Lessons
 *   **HM02 (Fly) Hallucination:** I hallucinated receiving HM02 from Chuck's wife in Cianwood City. I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown.
