@@ -146,4 +146,3 @@
 ### A. Get Item from Schoolboy Alan (Route 36)
 1. **Fly to Route 36:** Travel to Route 36.
 2. **Speak to Alan:** Talk to Schoolboy Alan to receive the FIRE STONE.
-*   **Agent Idea ('Pathing Advisor'):** Create an agent that analyzes pathing failures. If path_executor fails X times on the same route, the agent could suggest a new strategy (e.g., 'try one-step-at-a-time' or 'investigate if the route is blocked'). This would help break out of loops faster.
