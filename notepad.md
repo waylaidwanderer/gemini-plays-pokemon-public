@@ -141,3 +141,6 @@
 ## VII. Future Development Ideas
 *   **Agent Idea ('Path Executor'):** Create an agent that takes the JSON output from a solver tool (like `pathfinder`) and executes the path turn-by-turn. If interrupted by a wild battle or other event, it should automatically re-run the `pathfinder` from the new current location to the original destination. This would automate tedious navigation and recovery from interruptions. (ACTION: Creating now)
 *   **Agent Idea ('Stuck Advisor'):** Create an agent that analyzes the current goal, recent failed actions, and game state to suggest alternative strategies or goals when progress is stalled. This would help prevent getting stuck in loops.
+
+## VIII. To-Do & Reminders
+*   Fix marker for Teacher in New Bark Town (needs object_id).
