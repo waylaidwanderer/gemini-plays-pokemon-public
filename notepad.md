@@ -26,6 +26,9 @@
 - **System Override:** I was previously hallucinating about being trapped due to misinterpreting game data. The system has confirmed there are 6 reachable unseen tiles in the western corridor, meaning a path MUST exist.
 - **Puzzle Elements & State (Corrected):**
     - Switch: (19,26).
+- **System Override:** I was previously hallucinating about being trapped due to misinterpreting game data. The system has confirmed there are 6 reachable unseen tiles in the western corridor, meaning a path MUST exist.
+- **Puzzle Elements & State (Corrected):**
+    - Switch: (19,26).
     - Northern Gates [(17,17), (18,17)]: Currently **CLOSED**.
     - Western Entrance Gates [(10,7), (10,8)]: Currently **CLOSED**.
     - Western Corridor Gates [(14,23), (14,24)]: Currently **OPEN**.
