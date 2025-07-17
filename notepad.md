@@ -17,18 +17,17 @@
 # III. Pokémon Mansion Puzzle Log
 - **Current Goal:** Find the Secret Key.
 - **Critical Lesson:** System warnings (e.g., 'not a dead end') are absolute truth, even if they contradict map data or pathfinding. This implies hidden passages or misleading tile types exist. I must trust the system over my own interpretation.
+- **Consolidated Event Log:**
+    - **3F:** Pressed switch at (11,6). This is a toggle.
+    - **1F:** Toggling 3F switch opened gates at (16,12) and (21,18).
+    - **B1F:** Arrived from 1F warp (22,24 -> 24,23).
+    - **B1F:** Pressed switch at (19,26). This is a toggle.
+    - **B1F:** Gates at (17,17) and (18,17) are now OPEN.
+    - **B1F:** Gates at (14,23) and (14,24) are now CLOSED.
+    - **1F:** Gates at (21,18) and (22,18) are now OPEN.
+    - **1F:** Gates at (25,14) and (26,14) are now CLOSED.
+    - **B1F:** Gates at (27,18) and (28,18) are now CLOSED, trapping me in the eastern section.
 
-# V. Pokémon Mansion Event Log (Consolidated - NEW)
-- **3F:** Pressed switch at (11,6). This is a toggle.
-- **B1F:** Gates at (27,18) and (28,18) are now CLOSED, trapping me in the eastern section.
-
-# V. Pokémon Mansion Event Log (Consolidated - NEW)
-- **3F:** Pressed switch at (11,6). This is a toggle.
-- **1F:** Toggling 3F switch opened gates at (16,12) and (21,18).
-- **B1F:** Arrived from 1F warp (22,24 -> 24,23).
-- **B1F:** Pressed switch at (19,26). This is a toggle.
-- **B1F:** Gates at (17,17) and (18,17) are now OPEN.
-- **B1F:** Gates at (14,23) and (14,24) are now CLOSED.
-- **1F:** Gates at (21,18) and (22,18) are now OPEN.
-- **1F:** Gates at (25,14) and (26,14) are now CLOSED.
-- **B1F:** Gates at (27,18) and (28,18) are now CLOSED, trapping me in the eastern section.
+# IV. Tool & Agent Development
+- **Known Bugs:** The `define_map_marker` tool is broken. Do not attempt to use it. Track spatial information in the notepad instead.
+- **Future Tool Idea:** Create a `puzzle_state_analyzer` tool to parse `map_xml_string` and output a summary of all puzzle objects (switches, gates, states, coordinates) to simplify analysis.
