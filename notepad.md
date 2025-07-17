@@ -125,3 +125,5 @@
 *   **Critique (Turn 51931):** The overwatch system noted my failure to use my `stuck_advisor` and my failure to follow my own documented scientific method for the `CUT` puzzle. I also neglected to document the `CUT_TREE` tile. I must be more disciplined.
 *   **WARP_CARPET_RIGHT/LEFT:** Directional warp tile. Activated by walking onto it from the opposite direction (e.g., walk left onto a WARP_CARPET_RIGHT tile).
 *   **FLOOR_UP_WALL:** Impassable from below, acts as a one-way ledge when approached from above.
+*   **WARP_CARPET_RIGHT/LEFT:** Directional warp tile. Activated by walking onto it from the opposite direction (e.g., walk left onto a WARP_CARPET_RIGHT tile).
+*   **FLOOR_UP_WALL:** Impassable from below, acts as a one-way ledge when approached from above.
