@@ -10,8 +10,6 @@
     - Not Very Effective (0.5x): Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground.
     - Immune (0x): Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 
-## B. Tile Mechanics & Movement Rules
-
 # IV. Tool & Agent Development
 - **Known Bugs:** The `define_map_marker` tool is confirmed broken after multiple consecutive failures. Do not attempt to use it. Track all spatial information, like gate states, in this notepad.
 - **Future Tool Idea:** Create a `puzzle_state_analyzer` tool to parse `map_xml_string` and output a summary of all puzzle objects (switches, gates, states, coordinates) to simplify analysis.
