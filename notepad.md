@@ -20,6 +20,6 @@
 - **Goal:** Fully understand the logic of the two main switches.
 - **Hypothesis 1 (CONFIRMED):** The 1F switch at (3,6) operates on a simple toggle state. Pressing it reverses its previous effect on both the western gates (17,8)/(18,8) and the eastern gates (25,14)/(26,14).
 - **Hypothesis 2:** The 2F switch at (3,12) also affects the gates.
-- **Test 1.2 (Partially Concluded):** Pressed the 2F switch. **Outcome (Part 1):** The western gates at (17,8)/(18,8) **closed**.
-- **Test 1.2 (Current Action):** Check the state of the eastern gates at (25,14)/(26,14) to see the full effect.
-- **Test 1.3 (Next Step):** Based on the outcome of 1.2, decide whether to press the 1F switch again or explore.
+- **Test 1.2 (CONCLUDED):** Pressed the 2F switch at (3,12). **Outcome:** The western gates at (17,8)/(18,8) **closed**, and the eastern gates at (25,14)/(26,14) **opened**.
+- **Conclusion:** The switch sequence (1F -> 2F -> 1F) toggles which set of gates (west or east) is open.
+- **Current Plan:** Explore the newly accessible eastern area beyond the gates at (25,14)/(26,14). The primary target is the warp at (22,24) which leads to B1F.
