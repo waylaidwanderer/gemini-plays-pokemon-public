@@ -17,11 +17,10 @@
 
 # III. Pokémon Mansion Puzzle Log
 - **Current Goal:** Find the Secret Key.
-- **Original Agent Plan:** A 10-step plan was provided by `multi_floor_puzzle_strategist_agent`.
-- **Status:** Plan failed at Step 5. Pressing the switch at (11,6) on 3F resulted in a dead end.
-- **Current Hypothesis (Confirmed):** The switch at (11,6) on 3F is a toggle. Pressing it a second time reopened the path south.
-- The hole at (20,15) on 3F leads to the isolated room on 1F at (17,15).
-- Toggling the switch at (11,6) on 3F also opened the gate at (16,12) and (21,18) on 1F.
+- **Mansion Switches:** Appear to operate on a toggle system. Pressing a switch reverses the state of associated gates. This needs further testing to confirm the exact interaction patterns between floors.
+
+# III. Pokémon Mansion Puzzle Log
+- **Current Goal:** Find the Secret Key.
 - **Critical Lesson:** System warnings (e.g., 'not a dead end') are absolute truth, even if they contradict map data or pathfinding. This implies hidden passages or misleading tile types exist. I must trust the system over my own interpretation.
 
 # V. Pokémon Mansion Event Log (Consolidated)
