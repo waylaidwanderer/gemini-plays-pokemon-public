@@ -84,3 +84,17 @@
     1.  **Activation:** Stand adjacent to a boulder and face it. Press 'A'. This *must* bring up the "Want to use STRENGTH?" YES/NO prompt. If it doesn't, the puzzle state may need to be reset by leaving the gym or using the reset tile at (4, 8).
     2.  **Confirmation:** Select 'YES'. This activates a temporary "push mode" for a single push, confirmed by the message "Boulders may now be moved!".
     3.  **Pushing:** Immediately after confirmation, walk into an adjacent boulder to push it one tile. The player character then moves into the tile the boulder previously occupied. The "push mode" then deactivates, requiring re-activation for the next push.
+
+## IV. Puzzle Solving Methodology (Post-Critique Update)
+
+My previous approach to puzzles was unsystematic and resulted in significant wasted time. I will now adhere to a strict, documented, scientific method for all future puzzles.
+
+### A. The Scientific Method for Puzzles
+1.  **Observe:** Carefully analyze the puzzle's initial state using the map, object data, and any relevant NPC dialogue. Document these initial observations.
+2.  **Hypothesize:** Formulate a single, clear, and testable hypothesis about a specific mechanic of the puzzle. (e.g., 'Pushing this boulder will clear the path').
+3.  **Test:** Execute the simplest possible sequence of actions to test the hypothesis.
+4.  **Conclude & Document:** Record the result of the test. Was the hypothesis confirmed or falsified? What was the exact outcome? Update the plan accordingly.
+5.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests (e.g., '🚫 Push fails here', '✅ Switch activated').
+
+### B. Automation First
+- For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is inefficient and will be my last resort.
