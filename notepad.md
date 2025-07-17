@@ -18,8 +18,14 @@
 - **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding unless a marker indicates otherwise.
 - **warp:** A tile that transports the player to another location.
 
-# IX. Pokémon Mansion Puzzle Log (v9 - Corrected)
-## B1F
-- **System Override & Hallucination Corrected:** I was hallucinating that the western corridor was accessible. System validation has confirmed there are 0 reachable unseen tiles and I am in a dead end.
-- **Puzzle State Conclusion:** The basement (B1F) is fully explored and offers no further progress in its current state. The western corridor is blocked by closed gates [(10,7), (10,8)] and the eastern corridor is a dead end.
-- **New Hypothesis:** The solution is not on this floor. Pressing the switch at (19,26) toggled gates on multiple floors. I must return to the upper floors via the warp at (24,23) to see what has changed and find the next step of the puzzle.
+# IX. Pokémon Mansion Puzzle Log (v10 - Corrected)
+## B1F Puzzle Elements & State (Corrected)
+- **Switches:**
+    - Switch 1: (21,4)
+    - Switch 2: (19,26) - This switch toggles gates on multiple floors.
+- **Gate Status:**
+    - Northern Gates [(17,17), (18,17)]: Currently **CLOSED**.
+    - Western Entrance Gates [(10,7), (10,8)]: Currently **CLOSED**.
+    - Western Corridor Gates [(14,23), (14,24)]: Currently **OPEN**.
+    - Eastern Gates [(27,18), (28,18)]: Currently **OPEN**.
+- **Current Hypothesis:** The western corridor contains the Secret Key. The path is now open and I must explore the 6 unseen tiles.
