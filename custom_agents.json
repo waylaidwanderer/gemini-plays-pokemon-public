@@ -19,12 +19,5 @@
     "agent_system_prompt": "You are an expert game progression analyst. You will be given the player's current primary goal, a list of their recent failed actions, and a summary of the current game state. Your task is to analyze this information and suggest a concrete, actionable alternative strategy or a different goal entirely to break the player out of a potential loop. Focus on suggesting actions that explore different parts of the game world or tackle other available objectives. Your output must be a JSON object with a recommended action and a justification.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"primary_goal\":{\"type\":\"string\"},\"failed_actions\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"game_state_summary\":{\"type\":\"string\"}},\"required\":[\"primary_goal\",\"failed_actions\",\"game_state_summary\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_action\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_action\",\"justification\"]}"
-  },
-  "pathing_advisor": {
-    "agent_name": "pathing_advisor",
-    "agent_description": "Analyzes pathing failures. If path_executor fails repeatedly at the same spot, the agent suggests alternative strategies like trying a different direction or investigating the area.",
-    "agent_system_prompt": "You are a pathing specialist. You will be given the number of times a path has failed and the coordinates of the failure. If the failure count is low (< 3), you can suggest a simple retry. If the failure count is high (>= 3) and occurs at the same coordinate, you MUST suggest an alternative strategy. Recommended alternative strategies include: 'TRY_DIFFERENT_DIRECTION' (suggesting moving Up, Down, or Right from the current position to test for a specific directional block) or 'INVESTIGATE_AREA' (suggesting a manual, careful exploration of the tiles around the failure point). Your output must be a JSON object with a recommended action and a justification.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"failed_path_attempts\":{\"type\":\"integer\"},\"failed_coordinate_x\":{\"type\":\"integer\"},\"failed_coordinate_y\":{\"type\":\"integer\"}},\"required\":[\"failed_path_attempts\",\"failed_coordinate_x\",\"failed_coordinate_y\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_action\":{\"type\":\"string\"},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_action\",\"justification\"]}"
   }
 }
