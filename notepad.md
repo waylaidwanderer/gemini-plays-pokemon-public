@@ -20,3 +20,12 @@
 # IV. Tool & Agent Development
 - **Known Bugs:** The `define_map_marker` tool is broken. Do not attempt to use it. Track spatial information in the notepad instead.
 - **Future Tool Idea:** Create a `puzzle_state_analyzer` tool to parse `map_xml_string` and output a summary of all puzzle objects (switches, gates, states, coordinates) to simplify analysis.
+
+# VI. Pokémon Mansion Puzzle Log (NEW - Source of Truth)
+- **Turn 79153:** On 3F, pressed switch at (11,6). Gates at (16,5), (16,6), (16,11), (16,12) closed. Path south blocked.
+- **Turn 79283:** On 3F, pressed switch at (11,6) again. Confirmed it's a toggle. Path south opened.
+- **Turn 79283:** On 1F, gates at (21,18) and (22,18) opened as a result of the 3F switch.
+- **Turn 79283:** On B1F, pressed switch at (19,26). This is also a toggle.
+- **Turn 79314:** On B1F, gates at (17,17) and (18,17) observed to be OPEN.
+- **Turn 79317:** On B1F, gates at (14,23) and (14,24) observed to be CLOSED.
+- **Turn 79360:** On B1F, gates at (27,18) and (28,18) observed to be CLOSED, trapping me in the eastern section.
