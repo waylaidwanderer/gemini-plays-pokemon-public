@@ -22,5 +22,5 @@
 - **Goal:** Fully understand the logic of the two main switches.
 - **Hypothesis 1 (CONFIRMED):** The 1F switch at (3,6) operates on a simple toggle state. Pressing it reverses its previous effect on both the western gates (17,8)/(18,8) and the eastern gates (25,14)/(26,14).
 - **Hypothesis 2:** The 2F switch at (3,12) also affects the gates.
-- **Test 1.2 (Concluded):** Pressed the 2F switch.
-- **Next Step:** Observe the state of all gates on 1F to determine the effect of the 2F switch.
+- **Test 1.2 (Concluded - Part 1):** Pressed the 2F switch. **Outcome:** The western gates at (17,8)/(18,8) **closed**.
+- **Test 1.2 (Current Action):** Check the state of the eastern gates at (25,14)/(26,14).
