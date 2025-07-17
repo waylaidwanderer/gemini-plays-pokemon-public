@@ -25,3 +25,4 @@
 
 # V. Pokémon Mansion Event Log (Consolidated)
 - **3F:** Pressed switch at (11,6). This is a toggle.
+- **B1F:** Gates at (27,18) and (28,18) are now CLOSED, trapping me in the eastern section.
