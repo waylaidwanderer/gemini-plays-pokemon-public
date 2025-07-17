@@ -80,8 +80,8 @@
 *   **Rival Blockade on Route 40:** I incorrectly assumed I had to battle SILVA to pass him on Route 40. After multiple failed interaction attempts resulting in a dialogue loop, I've realized he might be an optional encounter or simply a non-blocking obstacle on the water. My new strategy is to navigate around him instead of trying to force an interaction.
 *   **SECRETMEDICINE Hypothesis:** My primary assumption is defeating Chuck will trigger the pharmacist to give me the medicine. Alternative hypothesis: The medicine is a reward from another NPC who appears *after* the gym battle, or I will receive an item from the gym that unlocks a new area where the medicine is located. Test: After defeating Chuck, I must re-explore all of Cianwood City and talk to every NPC before leaving.
 *   **Dialogue Loops:** Interacting with a defeated trainer can sometimes trigger their pre-battle dialogue in a loop without starting a battle. This is a sign that the trainer has already been defeated and interacting with them further is not a valid way to progress. Example: Black Belt Lung in Cianwood Gym.
-*   **Cianwood Gym Boulder Puzzle (SOLVED - FINAL VERIFICATION):** The STRENGTH mechanic is a multi-step, recurring process that must be repeated for every single push.
-    1.  **Activation:** The player must stand adjacent to a boulder and face it. Using STRENGTH from the party menu does NOT work.
-    2.  **Interaction:** Press 'A' to bring up the "Want to use STRENGTH?" prompt.
-    3.  **Confirmation:** Select 'YES'. This activates a temporary "push mode", confirmed by the message "Boulders may now be moved!" and the `is HM Strength active` flag becoming `Yes`.
-    4.  **Pushing:** Immediately after activation, walk into an adjacent boulder to push it one tile. This action deactivates the "push mode" (`is HM Strength active` becomes `No`).
+*   **Cianwood Gym Boulder Puzzle (SOLVED - FINAL, FINAL VERIFICATION):** The STRENGTH mechanic is a multi-step, recurring process that must be repeated for every single push.
+    1.  **Activation:** The player must stand adjacent to a boulder and face it.
+    2.  **Interaction:** Press 'A'. This *must* bring up the "Want to use STRENGTH?" YES/NO prompt. If it doesn't, the puzzle state may need to be reset by leaving the gym or using the reset tile.
+    3.  **Confirmation:** Select 'YES'. This activates a temporary "push mode" for a single push, confirmed by the message "Boulders may now be moved!".
+    4.  **Pushing:** Immediately after confirmation, walk into an adjacent boulder to push it one tile. The player character then moves into the tile the boulder previously occupied. The "push mode" then deactivates, requiring re-activation for the next push.
