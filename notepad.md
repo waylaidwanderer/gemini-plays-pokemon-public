@@ -24,7 +24,7 @@
 - **Puzzle Elements & State (Corrected):**
     - Switch: (19,26).
     - Northern Gates [(17,17), (18,17)]: Currently **CLOSED**.
-    - Western Entrance Gates [(10,7), (10,8)]: State is `gate_offscreen`, assumed OPEN.
+    - Western Entrance Gates [(10,7), (10,8)]: Currently **CLOSED**.
     - Western Corridor Gates [(14,23), (14,24)]: Currently **OPEN**.
     - Eastern Gates [(27,18), (28,18)]: Currently **OPEN**.
 - **Current Hypothesis:** The western corridor contains the Secret Key. The path is now open and I must explore the 6 unseen tiles.
