@@ -34,3 +34,6 @@
 - **Hypothesis 4 (Failed):** Interacting with the quiz machine at (16, 8) and intentionally answering incorrectly might activate one of the previously looping trainers. (Outcome: Received 'Sorry! Bad call!' message, no other apparent change).
 - **Hypothesis 5 (Current):** Answering the quiz at (16, 8) incorrectly has changed the state of the trainer at (17, 9), making them battle-ready.
 - **Test 5:** Interact with the trainer at (17, 9).
+
+## C. Cinnabar Gym (Fake Entrance) - SOLVED
+- **Conclusion:** The quiz machines and trainers in this area are a red herring. The entire section is a dead end designed to mislead. The actual solution to entering the Cinnabar Gym is to use the SECRET KEY, which I already possess, on the locked gym door on Cinnabar Island. This entire puzzle was a self-inflicted waste of time due to ignoring my inventory.
