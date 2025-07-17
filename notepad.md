@@ -95,28 +95,32 @@
 
 # IX. Pokémon Mansion Puzzle Log (Consolidated)
 ## B1F
-- **Map Layout:** B1F is divided into at least two sections: a western corridor and a central/eastern area.
+- **Map Layout:** B1F is divided into at least three sections: a western corridor, a central area, and an eastern area.
 - **Puzzle Elements:**
     - Switch at (19,26).
     - Gates at (17,17) & (18,17) (Northern).
+    - Gates at (10,7) & (10,8) (Western Entrance).
+    - Gates at (14,23) & (14,24) (Western Corridor).
     - Gates at (27,18) & (28,18) (Eastern).
-    - Gates at (10,7) & (10,8) (Western).
 - **Puzzle Logic & History:**
     - **Action 1:** Pressed switch at (19,26). **Outcome:** Northern gates opened. Path was a dead end.
-    - **Action 2:** Pressed switch at (19,26) again. **Outcome:** Northern gates closed, Eastern gates remained closed. Western gates at (10,7) & (10,8) have now been observed as OPEN.
-- **Current State:** The western path is now accessible through the open gates at (10,7) & (10,8).
-- **Current Hypothesis:** The Secret Key is located in the now-accessible western section of B1F.
+    - **Action 2:** Pressed switch at (19,26) again. **Outcome:** Northern gates closed. Western Entrance gates opened.
+    - **Action 3:** Attempted to explore western corridor. **Outcome:** Revealed that the Western Corridor gates at (14,23) & (14,24) are closed, blocking the path.
+- **Current State:** Trapped in the central area. All paths are blocked by closed gates.
+- **Current Hypothesis:** The switch at (19,26) is a cyclical switch. Pressing it a third time is the only logical action and will hopefully change the gate configuration to open the Eastern gates.
 
 # IX. Pokémon Mansion Puzzle Log (Consolidated)
 ## B1F
-- **Map Layout:** B1F is divided into at least two sections: a western corridor and a central/eastern area.
+- **Map Layout:** B1F is divided into at least three sections: a western corridor, a central area, and an eastern area.
 - **Puzzle Elements:**
     - Switch at (19,26).
     - Gates at (17,17) & (18,17) (Northern).
+    - Gates at (10,7) & (10,8) (Western Entrance).
+    - Gates at (14,23) & (14,24) (Western Corridor).
     - Gates at (27,18) & (28,18) (Eastern).
-    - Gates at (10,7) & (10,8) (Western).
 - **Puzzle Logic & History:**
     - **Action 1:** Pressed switch at (19,26). **Outcome:** Northern gates opened. Path was a dead end.
-    - **Action 2:** Pressed switch at (19,26) again. **Outcome:** Northern gates closed, Eastern gates remained closed. Western gates at (10,7) & (10,8) have now been observed as OPEN.
-- **Current State:** The western path is now accessible through the open gates at (10,7) & (10,8).
-- **Current Hypothesis:** The Secret Key is located in the now-accessible western section of B1F.
+    - **Action 2:** Pressed switch at (19,26) again. **Outcome:** Northern gates closed. Western Entrance gates opened.
+    - **Action 3:** Attempted to explore western corridor. **Outcome:** Revealed that the Western Corridor gates at (14,23) & (14,24) are closed, blocking the path.
+- **Current State:** Trapped in the central area. All paths are blocked by closed gates.
+- **Current Hypothesis:** The switch at (19,26) is a cyclical switch. Pressing it a third time is the only logical action and will hopefully change the gate configuration to open the Eastern gates.
