@@ -12,13 +12,8 @@
 
 ## B. Tile Mechanics & Movement Rules
 
-# III. Pokémon Mansion Puzzle Log
-    - **1F:** Gates at (21,18) and (22,18) are now OPEN.
-    - **1F:** Gates at (25,14) and (26,14) are now CLOSED.
-    - **B1F:** Gates at (27,18) and (28,18) are now CLOSED, trapping me in the eastern section.
-
 # IV. Tool & Agent Development
-- **Known Bugs:** The `define_map_marker` tool is broken. Do not attempt to use it. Track spatial information in the notepad instead.
+- **Known Bugs:** The `define_map_marker` tool is confirmed broken after multiple consecutive failures. Do not attempt to use it. Track all spatial information, like gate states, in this notepad.
 - **Future Tool Idea:** Create a `puzzle_state_analyzer` tool to parse `map_xml_string` and output a summary of all puzzle objects (switches, gates, states, coordinates) to simplify analysis.
 
 # VI. Pokémon Mansion Puzzle Log (NEW - Source of Truth)
@@ -29,3 +24,4 @@
 - **Turn 79314:** On B1F, gates at (17,17) and (18,17) observed to be OPEN.
 - **Turn 79317:** On B1F, gates at (14,23) and (14,24) observed to be CLOSED.
 - **Turn 79360:** On B1F, gates at (27,18) and (28,18) observed to be CLOSED, trapping me in the eastern section.
+- **Turn 79427:** On B1F, gates at (17,17) and (18,17) re-confirmed OPEN.
