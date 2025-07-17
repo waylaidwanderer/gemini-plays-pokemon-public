@@ -22,14 +22,6 @@
 - **spinner_up/down/left/right:** Forces movement in the specified direction.
 
 # III. Pokémon Mansion Puzzle Log & Hypothesis
-- **Current State:** 
-    - Eastern gates (27,18) & (28,18) are OPEN.
-    - Western gates (14,23) & (14,24) are OPEN.
-    - Northern gates (17,17) & (18,17) are CLOSED.
-    - Central gates (10,7) & (10,8) are OPEN.
-    - Eastern gates (27,18) & (28,18) are now CLOSED.
-    - Eastern gates (27,18) & (28,18) are now CLOSED.
-    - Eastern gates (27,18) & (28,18) are now CLOSED.
-    - Eastern gates (27,18) & (28,18) are now CLOSED.
-- **Hypothesis (v6):** The puzzle involves two switches, S1 at (19,26) and S2 at (21,4), that control the gates in a complex, state-based manner, not as simple toggles. The final solution likely requires a specific sequence of activating both switches.
-- **Next Step:** Explore the newly opened western corridor, which is now fully accessible.
+- **Current State:** I am trapped on Pokemon Mansion 1F in the eastern section. Gates at (21, 18) & (22, 18) are CLOSED, blocking the path west.
+- **Hypothesis (v7):** The puzzle state is controlled by switches on multiple floors. To escape my current predicament, I must return to the basement (B1F) via the warp at (22, 24) and interact with the switches there to change the gate configuration on 1F.
+- **Next Step:** Take the warp at (22, 24) to go to Pokemon Mansion B1F.
