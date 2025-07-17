@@ -28,4 +28,4 @@
     - Western Entrance Gates [(10,7), (10,8)]: Currently **CLOSED**.
     - Western Corridor Gates [(14,23), (14,24)]: Currently **OPEN**.
     - Eastern Gates [(27,18), (28,18)]: Currently **OPEN**.
-- **Current Hypothesis:** The western corridor contains the Secret Key. The path is now open and I must explore the 6 unseen tiles.
+- **Current Hypothesis:** The basement switch at (19, 26) operates on a trade-off system, opening one set of gates while closing another. Since both the western and eastern corridors on this floor are dead ends in their respective configurations, the solution likely involves this switch affecting gates on the upper floors. The next step is to leave the basement and check the other floors for changes.
