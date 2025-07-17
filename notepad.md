@@ -54,7 +54,7 @@
 ## III. Strategy & Learnings
 
 ### A. Current Plan
-*   **Current Plan:** I have successfully used SURF to reach the northern part of Cianwood City and have re-entered the gym. My external trigger hypothesis was proven false. My new hypothesis is that the boulder puzzle is solvable from its initial state by correctly applying the multi-step STRENGTH mechanic I have documented. My immediate plan is to solve this puzzle manually, step-by-step, to reach Gym Leader Chuck.
+*   **Current Plan:** I have pushed the first boulder at (5, 7) and confirmed the STRENGTH mechanic. My next step is to continue solving this puzzle manually, boulder by boulder, to clear a path to the Gym Leader.
 
 ### B. Corrected Assumptions & Critical Lessons
 *   **HM02 (Fly) Hallucination:** I hallucinated receiving HM02 from Chuck's wife in Cianwood City. I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown.
