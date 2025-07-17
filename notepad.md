@@ -55,3 +55,9 @@
 - **Hypothesis 1 (Failed):** Secret Key is in the western corridor. **Test:** Explored the western corridor. **Outcome:** Confirmed it's a dead end. No items or exits. No remaining unseen tiles.
 - **Current State:** Trapped in the eastern section of B1F by closed gates at (27,18) & (28,18).
 - **Hypothesis 2 (Current):** Toggling the switch at (19,26) again is the only logical action to change the gate configuration and open a new path.
+
+# VI. Puzzle Log (Cleaned)
+- **B1F Switch at (19,26):** This is the only reachable puzzle element in the eastern section.
+- **Failed Hypothesis:** The Secret Key was in the western corridor. I have now fully explored this area and confirmed it is a dead end.
+- **Current State:** I am trapped in the eastern section of B1F by closed gates at (27,18) & (28,18).
+- **Current Hypothesis:** Toggling the switch at (19,26) is the only logical action to alter the gate configuration and open a path forward.
