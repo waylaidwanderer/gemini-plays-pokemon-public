@@ -35,5 +35,7 @@
 - **Hypothesis 5 (Current):** Answering the quiz at (16, 8) incorrectly has changed the state of the trainer at (17, 9), making them battle-ready.
 - **Test 5:** Interact with the trainer at (17, 9).
 
-## C. Cinnabar Gym (Fake Entrance) - SOLVED
-- **Conclusion:** The quiz machines and trainers in this area are a red herring. The entire section is a dead end designed to mislead. The actual solution to entering the Cinnabar Gym is to use the SECRET KEY, which I already possess, on the locked gym door on Cinnabar Island. This entire puzzle was a self-inflicted waste of time due to ignoring my inventory.
+## B. Cinnabar Gym
+- **Observation:** The gym is split into rooms separated by gates. The eastern corridor is a confirmed dead end with looping trainers. The western corridor is blocked by gates, but the game state indicates there are reachable unseen tiles behind them.
+- **Hypothesis (Current):** The quiz machine at (16, 8) is a binary switch. Answering correctly opens the eastern gates (confirmed). Answering incorrectly opens the western gates.
+- **Test:** Return to the quiz machine at (16, 8), answer incorrectly, and then attempt to pathfind into the western corridor.
