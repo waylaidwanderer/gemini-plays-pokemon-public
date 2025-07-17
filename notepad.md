@@ -92,3 +92,16 @@
 - **Current State:** Trapped in the central/eastern section of B1F by closed gates at (27,18) & (28,18).
 - **Action 2:** Confirmed pressing switch at (19,26) opens the northern gates at (17,17) & (18,17).
 - **Current Hypothesis:** Toggling the switch at (19,26) again will close the northern gates and potentially open the eastern gates at (27,18) & (28,18).
+
+# VIII. Pokémon Mansion Puzzle Log (Current)
+## B1F
+- **Map Layout:** B1F is divided into at least two isolated sections: a western corridor and a central/eastern area. The western section is currently unreachable from the central area.
+- **Puzzle Elements (Central/Eastern Area):**
+    - The only interactable puzzle element is the switch at (19,26).
+    - There are two sets of gates: Northern gates at (17,17) & (18,17) and Eastern gates at (27,18) & (28,18).
+- **Puzzle Logic & History:**
+    - **Initial State:** All gates were closed.
+    - **Action 1:** Pressed switch at (19,26).
+    - **Outcome 1:** Northern gates opened. The path beyond them was explored and confirmed to be a dead end. Eastern gates remained closed.
+    - **Current State:** I am in the central/eastern area. The Northern gates are OPEN. The Eastern gates are CLOSED.
+- **Current Hypothesis:** Toggling the switch at (19,26) again is the only possible action. This will likely close the Northern gates and open the Eastern gates, providing a new path forward.
