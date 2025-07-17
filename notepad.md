@@ -89,4 +89,4 @@
     *   **Test 3 (Pending):** Reset puzzle, trigger it, then attempt to speak with all trainers.
 *   **Hypothesis 4:** The puzzle reset switch at (4, 8) will remove the defeated trainers as obstacles, allowing the puzzle to be solved.
     *   **Test 4:** Moved to (4, 8) and stepped on the tile. **Result: FAILED.** The defeated trainers remained as obstacles. The switch had no visible effect.
-*   **Boulder Push Mechanic Correction:** To use STRENGTH, you must be adjacent to a boulder, face it, and press 'A'. Using STRENGTH from the party menu only confirms that the Pokémon has the ability, it does not activate the move. This misunderstanding was the root cause of all puzzle failures.
+*   **Boulder Push Mechanic Correction:** STRENGTH Mechanic Final Correction: To use STRENGTH, you must be adjacent to a boulder, face it, and press 'A'. This pushes the boulder one tile. The player character does NOT move with the boulder. This was the final piece of the puzzle.
