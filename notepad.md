@@ -15,8 +15,7 @@
 - **gate_offscreen:** The state of these gates can change based on switch presses on any floor. Their state is only revealed when they come on-screen.
 
 # III. Pokémon Mansion Puzzle Log
-- **Current Goal:** Find the Secret Key.
-- **Critical Lesson:** System warnings (e.g., 'not a dead end') are absolute truth, even if they contradict map data or pathfinding. This implies hidden passages or misleading tile types exist. I must trust the system over my own interpretation.
+
 - **Consolidated Event Log:**
     - **3F:** Pressed switch at (11,6). This is a toggle.
     - **1F:** Toggling 3F switch opened gates at (16,12) and (21,18).
