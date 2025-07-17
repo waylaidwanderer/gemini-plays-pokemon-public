@@ -48,5 +48,3 @@
 
 - The gates at (27, 18) and (28, 18) on B1F are now confirmed closed after pressing a switch.
 - The gates at (17, 17) and (18, 17) on B1F are now confirmed open after a switch press.
-- The gates at (17, 17) and (18, 17) on B1F are now confirmed open after a switch press.
-- The gates at (17, 17) and (18, 17) on B1F are now confirmed open after a switch press.
