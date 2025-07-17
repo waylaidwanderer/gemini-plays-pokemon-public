@@ -50,19 +50,6 @@
 - **Step 9:** (B1F) Activate the switch at (19,26).
 - **Step 10:** (B1F) Navigate through the now-open gates to find and retrieve the Secret Key.
 
-# Pokémon Mansion Puzzle Strategy (Agent-Devised)
-- **Goal:** Find the Secret Key
-- **Step 1:** (1F) Activate the switch at (3,6).
-- **Step 2:** (1F) Use the warp at (6,11) to travel to 2F.
-- **Step 3:** (2F) Activate the switch at (3,12).
-- **Step 4 (FAILED):** Agent's plan to use warp at (8,11) on 2F was incorrect. It leads back to 1F.
-- **Step 5:** (3F) Activate the switch at (11,6).
-- **Step 6:** (3F) Intentionally fall through the 'Hole to 2F'.
-- **Step 7:** (2F) From the new landing zone, fall through the 'Hole to 1F'.
-- **Step 8:** (1F) Proceed to the warp at (22,24) and travel to the basement.
-- **Step 9:** (B1F) Activate the switch at (19,26).
-- **Step 10:** (B1F) Navigate through the now-open gates to find and retrieve the Secret Key.
-
 # Pokémon Mansion Puzzle Corrections
 - The warp at (8,11) on 2F leads to 1F, not 3F.
 - The warp at (7,2) on 2F also leads to 1F.
