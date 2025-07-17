@@ -21,7 +21,5 @@
 - **teleport:** Instant warp tile within the same logical location (e.g., inside a building).
 - **spinner_up/down/left/right:** Forces movement in the specified direction.
 
-# III. Pokémon Mansion Puzzle Log & Hypothesis
-- **Current State:** I am on Pokemon Mansion B1F. I was previously trapped on 1F because the gates at (21, 18) & (22, 18) closed behind me.
-- **Hypothesis (v8):** The two switches in the basement (at (21, 4) and (19, 26)) control the gates on all floors. I have now pressed both. My next step is to return to 1F to observe the new gate configuration and see if a path to the exit is now open.
-- **Untested Assumption:** The switches are simple toggles. I need to test if the order of presses matters to confirm this isn't a sequential puzzle.
+# III. Pokémon Mansion Puzzle Log & Conclusion
+- **Conclusion:** The two switches in the basement (at (21, 4) and (19, 26)) control the gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated. The puzzle is now solved.
