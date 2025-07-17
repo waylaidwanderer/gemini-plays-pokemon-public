@@ -31,3 +31,6 @@
 - **Step 8:** In the new area on 1F, take the Warp to B1F at (22,24).
 - **Step 9:** In the basement, press the final Switch at (19,26).
 - **Step 10:** Explore the newly accessible rooms to find the Secret Key.
+
+# IV. Known Bugs & Tool Issues
+- **`define_map_marker` is broken:** The tool consistently fails with an 'invalid emoji' error, even with standard ASCII characters. Do not attempt to use this tool until it is fixed. Rely on notepad for spatial tracking.
