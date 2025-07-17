@@ -62,3 +62,8 @@
 - **Step 8:** (1F) Proceed to the warp at (22,24) and travel to the basement.
 - **Step 9:** (B1F) Activate the switch at (19,26).
 - **Step 10:** (B1F) Navigate through the now-open gates to find and retrieve the Secret Key.
+
+# Pokémon Mansion Puzzle Corrections
+- The warp at (8,11) on 2F leads to 1F, not 3F.
+- The warp at (7,2) on 2F also leads to 1F.
+- The agent's plan is therefore invalid from Step 4 onwards. A new path to 3F is required.
