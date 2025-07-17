@@ -21,9 +21,14 @@
 - **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding unless a marker indicates otherwise.
 
 # III. Pokémon Mansion Puzzle Strategy
-- **Current State:** I am on Pokemon Mansion B1F. The path west is blocked by closed gates at (10,7) and (10,8).
 - **Failed Hypothesis (Attempt 2):** I incorrectly assumed the western gates at (10,7) and (10,8) opened on their own. This was proven false when they closed in front of me. I am now blocked.
 - **Revised Hypothesis (Attempt 3):** I am returning to my original theory. The switch at (19,26) is the most likely candidate to control the western gates. My next action is to test this switch.
+- **Systematic Test Plan:**
+    1. Navigate to the switch at (19,26) and activate it.
+    2. Observe and document any immediate changes to gates on B1F.
+    3. Attempt to reach the western corridor. If successful, the hypothesis is partially confirmed.
+    4. If unsuccessful, return to the switch at (19,26), press it again to reset its state, and then proceed to test the switch at (21,4).
+    5. Log every action and its outcome to feed into the `puzzle_log_analyzer_agent` if the logic is not immediately obvious.
 - **Systematic Test Plan:**
     1. Navigate to the switch at (19,26) and activate it.
     2. Observe and document any immediate changes to gates on B1F.
