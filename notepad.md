@@ -23,6 +23,7 @@
 *   **WARP_CARPET_DOWN:** A warp tile that moves the player downwards, usually to exit a building.
 *   **WARP_CARPET_UP:** A warp tile that moves the player upwards, usually to enter a building.
 *   **VOID:** An impassable boundary tile, functions like a WALL.
+*   **PIT:** A one-way tile that causes the player to fall to the floor below when stepped on.
 
 ### B. Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
@@ -63,7 +64,7 @@
 ## III. Strategy & Learnings
 
 ### A. Current Plan
-*   **Current Plan:** My previous attempts to reach Mahogany Town via the eastern land route have failed. I am currently blocked. My new primary hypothesis is that the Fast Ship S.S. Aqua in Olivine City is now operational since I have restored power to the lighthouse. I will travel to the Olivine Port to investigate this possibility. If the ship is not running, I will reconsider exploring Mt. Mortar.
+*   **Current Plan:** My primary goal is to find Gym Leader Jasmine. The Gym Guide confirmed she is at the top of the Olivine Lighthouse tending to a sick Ampharos. I must ascend the lighthouse to reach her.
 
 ### B. Corrected Assumptions & Critical Lessons
 *   **HM02 (Fly) Hallucination:** I hallucinated receiving HM02 from Chuck's wife in Cianwood City. I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown.
