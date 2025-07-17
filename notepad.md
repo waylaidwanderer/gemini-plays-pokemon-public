@@ -73,7 +73,7 @@
 *   **Cianwood Gym Boulder Puzzle (VERIFIED MECHANIC):**
     1.  **Activation:** Stand adjacent to a boulder and face it. Press 'A'. This *must* bring up the "Want to use STRENGTH?" YES/NO prompt. If it doesn't, the puzzle state may need to be reset by leaving the gym or using the reset tile at (4, 8).
     2.  **Confirmation:** Select 'YES'. This activates a temporary "push mode" for a single push, confirmed by the message "Boulders may now be moved!".
-    3.  **Pushing:** Immediately after confirmation, walk into an adjacent boulder to push it one tile. The player character then moves into the tile the boulder previously occupied. The "push mode" then deactivates, requiring re-activation for the next push.
+    3.  **Pushing:** Immediately after confirmation, walk into an adjacent boulder to push it one tile. The player character does NOT move into the vacated spot. The "push mode" then deactivates, requiring re-activation for the next push.
 
 ## IV. Puzzle Solving Methodology (Post-Critique Update)
 
