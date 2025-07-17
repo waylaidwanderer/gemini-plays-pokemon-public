@@ -30,3 +30,4 @@
 - **Critical Lesson:** System warnings (e.g., 'not a dead end') are absolute truth, even if they contradict map data or pathfinding. This implies hidden passages or misleading tile types exist. I must trust the system over my own interpretation.
 - Toggling the switch at (11,6) on 3F also opened the gate at (21,18) on 1F.
 - Toggling the switch at (11,6) on 3F also opened the gate at (21,18) on 1F.
+- Toggling the switch at (11,6) on 3F also opened the gate at (21,18) on 1F.
