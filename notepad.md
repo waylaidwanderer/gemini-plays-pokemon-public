@@ -5,7 +5,7 @@
 ### A. Active Quests & Blockers
 *   **Get FIRE STONE from Schoolboy Alan:** I have a free inventory slot. I need to get to Route 36 and speak to him. The Fly command is unreliable, so I must walk.
 *   **Heal the Sick Miltank (Route 39):** The Miltank in the barn needs 'lots of BERRIES'. I need to find a source of berries.
-*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. He insists I go to the Lake of Rage. An alternative hypothesis is that another, unrelated event is the trigger.
+*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. He insists I go to the Lake of Rage. This has been tested and did not work. **New Hypothesis:** The trigger is defeating the next Gym Leader, Pryce. **Test:** After obtaining the Glacier Badge, return to Mahogany Town and speak to the Fisher.
 
 ### B. Key NPCs
 *   **Professor Elm:** My quest giver in New Bark Town.
@@ -35,7 +35,7 @@
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
 *   **LEDGE_HOP_RIGHT:** One-way traversal. Can be jumped right but not entered from the left.
 *   **PIT:** One-way tile that causes a fall to the floor below.
-*   **COUNTER/PC/MART_SHELF/BUOY/WHIRLPOOL:** Impassable obstacles. Interaction with some (PC, counter NPCs) requires standing on an adjacent tile.
+*   **COUNTER/PC/MART_SHELF/BUOY/WHIRLPOOL:** Assumed impassable. **MUST TEST** by attempting to walk into them when next encountered.
 *   **TREE:** Small trees can be cut with CUT, leaving an impassable stump.
 *   **BOULDER:** Can be moved with STRENGTH.
 *   **HEADBUTT_TREE:** Interactable tree for finding Pokémon.
@@ -44,7 +44,7 @@
 ### B. Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
 *   **HM01 (CUT):** Cuts small trees. Learned by Feraligatr.
-*   **HM02 (FLY):** Allows instant travel to previously visited towns. Received from Chuck's wife in Cianwood City. Currently seems to be bugged or blocked by a story event.
+*   **HM02 (FLY):** Allows instant travel to previously visited towns. Received from Chuck's wife in Cianwood City. **Currently Unreliable:** Using Fly causes unexpected warps to random locations. **Hypothesis:** This is a story-based block, not a bug, possibly related to the Radio Tower or Lake of Rage events. **Test:** After the next major story progression (e.g., Mahogany Gym), attempt to use Fly again.
 *   **HM03 (SURF):** Allows travel over water. Learned by Feraligatr.
 *   **HM04 (STRENGTH):** Moves large boulders.
 *   **HM05 (FLASH):** Illuminates dark caves. Learned by Hoothoot.
@@ -57,17 +57,21 @@
 *   **Day/Night Cycle:** Affects which Pokémon appear.
 *   **Bug-Catching Contest:** Held on Tuesdays, Thursdays, and Saturdays in the National Park.
 
-## III. Puzzle Solving Methodology
+## III. Procedural Discipline & Methodology
 
 ### A. The Scientific Method for Puzzles
 1.  **Observe:** Carefully analyze the puzzle's initial state using the map, object data, and any relevant NPC dialogue.
-2.  **Hypothesize:** Formulate a single, clear, and testable hypothesis about a specific mechanic.
-3.  **Test:** Execute the simplest possible sequence of actions to test the hypothesis.
+2.  **Hypothesize:** Formulate a single, clear, and testable hypothesis about a specific mechanic. State alternative hypotheses.
+3.  **Test:** Execute the simplest possible sequence of actions to test the hypothesis. Design tests to potentially *falsify* the hypothesis.
 4.  **Conclude & Document:** Record the result of the test. Was the hypothesis confirmed or falsified? Update this notepad accordingly.
 5.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests.
 
-### B. Automation First
-*   For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is my last resort. If a tool fails, my top priority is to fix it, not to abandon it.
+### B. Automation & Agent Usage
+*   **Automation First:** For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is my last resort. If a tool fails, my top priority is to fix it, not to abandon it.
+*   **Agent Consultation:** I must make a conscious effort to use my defined agents (`stuck_advisor`, `pathing_advisor`) when appropriate. Before performing complex reasoning, I will consider if a new agent could perform the task better.
+
+### C. Immediate Action Mandate (CRITICAL)
+*   As an LLM, I have no concept of 'later'. All data management tasks (updating this notepad, placing/deleting markers, fixing tools/agents) **MUST** be performed in the immediate turn of discovery. This is a non-negotiable, top-priority directive.
 
 ## IV. Battle and Pokemon Information
 
@@ -116,18 +120,3 @@
 
 ### D. PC Storage
 *   **Items:** PSNCUREBERRY (x1), ICE BERRY (x1), MINT BERRY (x1), BURNT BERRY (x1), GREAT BALL (x1), ANTIDOTE (x1), PARLYZ HEAL (x1), AWAKENING (x1), POTION (x1), GUARD SPEC. (x1), X ATTACK (x1), X DEFEND (x1), X SPEED (x1), X SPECIAL (x1), DIRE HIT (x1), POKE BALL (x1), REPEL (x1), ESCAPE ROPE (x1), ETHER (x1), MAX ETHER (x1), REVIVE (x1), NUGGET (x1), PROTEIN (x1), IRON (x1), CARBOS (x1), CALCIUM (x1), HP UP (x1), RARE CANDY (x1), TM39 (SWIFT), TM13 (SNORE), TM41 (THUNDERPUNCH), TM48 (FIRE PUNCH), TM02 (HEADBUTT), TM08 (ROCK SMASH), TM45 (ATTRACT), TM21 (FRUSTRATION), TM27 (RETURN), TM12 (SWEET SCENT), TM35 (SLEEP TALK), TM49 (FURY CUTTER).
-
-## V. Strategy & Learnings
-
-### A. Corrected Assumptions & Critical Lessons
-*   **HM06 (Whirlpool) Hallucination:** I previously hallucinated receiving this HM. Its true location is unknown.
-*   **Pathing Logic:** My pathfinder tools failed repeatedly because I was giving them incorrect traversable tile types. I must ensure the `traversable_tiles` argument accurately reflects my current movement state (walking or surfing).
-*   **Cianwood Geography:** Cianwood City is split into two landmasses. The southern part where I initially arrived is an island. Progress to the northern part (where the gym is) requires using SURF.
-*   **Fly Malfunction:** The Fly command is currently unreliable, causing unexpected warps. **Hypothesis:** This is a story-based block, not a bug. **Test:** After the next major story progression (e.g., Mahogany Gym), attempt to use Fly again.
-
-### B. Procedural Discipline (Reinforced)
-*   **Immediate Action Mandate:** Deferring tasks (item management, tool fixing, data updates) is an invalid strategy. All such actions must be performed in the immediate turn of discovery. This is a critical lesson from past failures.
-*   **Rigorous Tile Testing:** I must explicitly test seemingly impassable tiles and objects to confirm they cannot be traversed. Assumptions are not enough.
-
-## VI. Active Plans
-*   **Walk to Cherrygrove City:** The first leg of the journey to Route 36.
