@@ -27,7 +27,4 @@
 - **Hypothesis 2 (CONFIRMED):** The switches control the gates in a cyclical manner.
 - **Test 2 Result:** The sequence `1F -> 2F -> 1F` successfully opened the gates at (17, 8) and (18, 8) on 1F.
 - **Next Step:** Explore the area behind the newly opened gates.
-
-    2. (COMPLETE) Travel to 2F via the warp at (6,11).
-    3. (COMPLETE) Activate the switch at (3,12) on 2F.
     4. (IN PROGRESS) Observe any changes to the gates on 2F, specifically the ones at (10,5) and (10,6).
