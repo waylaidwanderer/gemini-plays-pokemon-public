@@ -24,7 +24,6 @@
 - **Type Matchups:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire.
 - **Type Resistances:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground.
 - **Type Immunities:** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
-- **Field/Battle Rules:** Switches require standing below and facing up. Losing in a gym does not warp you out. FLY can end wild battles indoors. ROAR can end wild battles.
 
 # III. Pokémon Mansion Puzzle Log
 - **Current Goal:** Find the Secret Key.
@@ -35,6 +34,9 @@
 - **Hypothesis 1 (Active):** The order of switch activations is the key to solving the puzzle. Activating the 1F switch *before* the 2F switch will produce a different outcome.
 - **Test 1 Plan:**
     1. (COMPLETE) Activate the switch at (3,6) on 1F. This action closed the eastern gates at (17,8) and (18,8).
+    2. (NEXT) Travel to 2F via the warp at (6,11).
+    3. Activate the switch at (3,12) on 2F.
+    4. Observe any changes to the gates on 2F, specifically the ones at (10,5) and (10,6).
     2. (NEXT) Travel to 2F via the warp at (6,11).
     3. Activate the switch at (3,12) on 2F.
     4. Observe any changes to the gates on 2F, specifically the ones at (10,5) and (10,6).
