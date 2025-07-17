@@ -143,6 +143,7 @@
 ## VIII. Active Plans
 
 ### A. Get Item from Schoolboy Alan (Route 36)
-1.  **Travel to Violet City:** Complete. Flew from New Bark Town.
-2.  **Navigate to Route 36:** Exit Violet City to the west at (0, 9).
-3.  **Find Alan:** Locate Schoolboy Alan on Route 36 and interact with him to receive the item.
+1.  **Speak to Alan:** Complete. He tried to give me a FIRE STONE.
+2.  **Problem:** My ITEM POCKET is full.
+3.  **Solution:** Fly to the nearest Pokémon Center (Violet City) and store items in the PC.
+4.  **Return:** Fly back to Route 36 and speak to Alan again to receive the FIRE STONE.
