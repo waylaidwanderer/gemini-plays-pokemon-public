@@ -30,3 +30,9 @@
 
 ## B. Next Step: Analysis
 - My next action is to feed this log into the `puzzle_log_analyzer_agent` to deduce the underlying logic. I will not attempt any more manual exploration until I have a data-driven hypothesis from my agent.
+- **closed_gate:** An impassable gate that is currently visible on the screen.
+- **unknown:** A tile that has not been seen. Treat as impassable until explored.
+
+# IV. Tool & Agent Ideas
+- **Exploration Agent:** An agent to suggest an optimal path for exploring all `Reachable Unseen Tiles`.
+- **Exploration Path Planner Tool:** A computational tool to solve the Traveling Salesperson Problem for a list of coordinates, finding the shortest path to visit all of them.
