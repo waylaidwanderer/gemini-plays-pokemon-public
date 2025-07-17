@@ -18,14 +18,17 @@
 - **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding unless a marker indicates otherwise.
 - **warp:** A tile that transports the player to another location.
 
-# IX. Pokémon Mansion Puzzle Log (v10 - Corrected)
-## B1F Puzzle Elements & State (Corrected)
-- **Switches:**
-    - Switch 1: (21,4)
-    - Switch 2: (19,26) - This switch toggles gates on multiple floors.
-- **Gate Status:**
-    - Northern Gates [(17,17), (18,17)]: Currently **CLOSED**.
-    - Western Entrance Gates [(10,7), (10,8)]: Currently **CLOSED**.
-    - Western Corridor Gates [(14,23), (14,24)]: Currently **OPEN**.
-    - Eastern Gates [(27,18), (28,18)]: Currently **OPEN**.
-- **Current Hypothesis:** The basement switch at (19, 26) is a toggle that has now opened the eastern gates at (27,18) and (28,18). I will explore this new path first before attempting to re-open the western corridor.
+# IX. Pokémon Mansion Puzzle Log (Agent v1)
+## Agent's Strategic Plan
+1.  On 1F, press the Switch at (3,6).
+2.  Take the warp at (6,11) to 2F.
+3.  On 2F, press the Switch at (3,12).
+4.  Take the main warp at (7,2) to 3F.
+5.  On 3F, press the Switch at (11,6).
+6.  Descend by taking the warp at (7,3) to 2F, then the warp at (6,12) on 2F to return to 1F.
+7.  On 1F, navigate to the warp at (22,24) to access the basement.
+8.  **Hypothesis Test:** To resolve the paradox of the reachable but closed-off western corridor, interact with the wall directly south of the closed Western Entrance Gates at (10,7) and (10,8). This wall may be a hidden passage.
+9.  Explore the basement, using the newly discovered hidden passage if necessary, to find and press the Switch at (19,26).
+10. Continue exploring the basement to find and press the Switch at (21,4).
+11. With the basement switches activated, the Northern Gates at (17,17) & (18,17) should now be open. Proceed through them.
+12. Find and collect the Secret Key from the area behind the Northern Gates.
