@@ -31,3 +31,4 @@
 - **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding.
 - **Turn 79450:** Used warp at (24, 23) on B1F, arrived at (22, 25) on 1F. This confirms the warp connection between B1F and 1F.
 - **Turn 79454:** On 1F, gates at (21,18) and (22,18) observed to be OPEN after returning from B1F.
+- **Turn 79457:** On 1F, gates at (25,14) and (26,14) observed to be CLOSED after moving into the central chamber.
