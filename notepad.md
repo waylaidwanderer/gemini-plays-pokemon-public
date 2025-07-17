@@ -72,3 +72,7 @@
 *   **Observational Failure & Tool Trust:** My `master_navigator` tool was correct about the buoy wall on Route 41. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly.
 *   **Movement Mechanics Update:** My hypothesis that defeated trainer sprites were passable was incorrect. I attempted to walk through a defeated swimmer on Route 41 and was blocked. **Defeated trainer sprites are IMPASSABLE obstacles.**
 *   **Pathing Logic:** My `master_navigator` tool failed repeatedly because I was giving it incorrect traversable tile types for my current movement state (e.g., trying to walk on water). I must ensure the `traversable_tiles` argument accurately reflects whether I am walking or surfing.
+*   **BUOY:** Impassable obstacle in water.
+
+### C. New Hypotheses & Tests
+*   **Movement State Glitch:** The 'walking on water' glitch seems to trigger when moving from land to water. Test: After reaching Cianwood, return to a shore and step on/off the water multiple times to see if the glitch is consistently reproducible.
