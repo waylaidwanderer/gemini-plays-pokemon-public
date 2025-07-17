@@ -138,3 +138,13 @@
 ## VII. Future Development Ideas
 *   **Agent Idea ('Stuck Advisor'):** Create an agent that analyzes the current goal, recent failed actions, and game state to suggest alternative strategies or goals when progress is stalled. This would help prevent getting stuck in loops.
 *   **Agent Idea ('Data Integrity Checker'):** Create an agent that can be run periodically to scan my notepad and map markers for inconsistencies, such as completed to-do items or unmarked warps, to help maintain data accuracy.
+
+## VIII. Active Plans
+
+### A. Get Item from Schoolboy Alan (Route 36)
+1. Finish exploring Elm's House to rule it out as a story trigger.
+2. Exit Elm's House to New Bark Town.
+3. **CRITICAL:** Mark the warp at (11, 13) in New Bark Town leading to Elm's House.
+4. Use Fly to travel to Violet City.
+5. Exit Violet City to the west to enter Route 36.
+6. Find Schoolboy Alan on Route 36 and interact with him.
