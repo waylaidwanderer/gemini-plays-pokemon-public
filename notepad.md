@@ -144,7 +144,5 @@
 ## VIII. Active Plans
 
 ### A. Get Item from Schoolboy Alan (Route 36)
-1.  **Speak to Alan:** Complete. He tried to give me a FIRE STONE.
-2.  **Problem:** My ITEM POCKET is full.
-3.  **Solution:** Fly to the nearest Pokémon Center (Violet City) and store items in the PC.
-4.  **Return:** Fly back to Route 36 and speak to Alan again to receive the FIRE STONE.
+1. **Fly to Route 36:** Travel to Route 36.
+2. **Speak to Alan:** Talk to Schoolboy Alan to receive the FIRE STONE.
