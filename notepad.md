@@ -29,3 +29,4 @@
 - The hole at (20,15) on 3F leads to the isolated room on 1F at (17,15).
 - **Critical Lesson:** System warnings (e.g., 'not a dead end') are absolute truth, even if they contradict map data or pathfinding. This implies hidden passages or misleading tile types exist. I must trust the system over my own interpretation.
 - Toggling the switch at (11,6) on 3F also opened the gate at (21,18) on 1F.
+- Toggling the switch at (11,6) on 3F also opened the gate at (21,18) on 1F.
