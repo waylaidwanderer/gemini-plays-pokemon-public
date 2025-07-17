@@ -76,7 +76,7 @@
 
 ### C. Cianwood Gym Boulder Puzzle (VERIFIED MECHANICS)
 1.  **Strength Activation (Multi-Step Process):** To push a boulder, you must first be standing on a tile adjacent to it and facing it. Then, press 'A' to bring up the 'Want to use STRENGTH?' YES/NO prompt. Select 'YES' to activate the HM. This puts you in a temporary 'push mode' for a single push, confirmed by the message 'Boulders may now be moved!'.
-2.  **The Push:** After confirmation, you must walk into the boulder to push it one tile. **CRITICAL: The player character DOES NOT move from their position after the push.** The 'push mode' deactivates immediately, requiring the entire activation process to be repeated for the next push.
+2.  **The Push:** After confirmation, you must walk into the boulder to push it one tile. **CRITICAL: The player character MOVES INTO THE BOULDER'S PREVIOUS SPOT after a push.** The 'push mode' deactivates immediately, requiring the entire activation process to be repeated for the next push.
 3.  **Puzzle Trigger:** Walking onto the tile at (8, 6) triggers the appearance of Black Belts who block paths, making the puzzle unsolvable. This tile must be avoided until the boulders are in their final positions.
 4.  **Reset Mechanics:** The puzzle has two reset methods.
     *   **Boulder Reset:** Stepping on the tile at (4, 8) resets **only** the boulders to their initial positions.
