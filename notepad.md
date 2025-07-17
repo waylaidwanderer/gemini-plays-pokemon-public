@@ -18,26 +18,17 @@
 - **open_gate:** A previously closed gate that is now open and acts as `ground`.
 - **closed_gate:** An impassable gate that is currently visible on the screen.
 - **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding.
+- **teleport:** Instant warp tile within the same logical location (e.g., inside a building).
+- **spinner_up/down/left/right:** Forces movement in the specified direction.
 
-# III. Pokémon Mansion Puzzle Strategy
-## A. Puzzle Observation Log
+# III. Pokémon Mansion Puzzle Log
 - **Observation 1:** Moved near (27, 18), observed eastern gates at (27,18) and (28,18) open.
 - **Observation 2:** Moved near (18, 17), observed northern gates at (18,17) and (17,17) close.
 - **Observation 3:** Moved near (10, 7), observed western gates at (10,7) and (10,8) close.
 - **Observation 4:** Moved near (14, 23), observed western gates at (14,23) and (14,24) open.
-
-## B. Agent Analysis & New Hypothesis
-- **Agent Deduction:** The puzzle is controlled by proximity triggers, not switches. Moving to a specific coordinate opens or closes a pair of gates.
-- **Hypothesis (Attempt 4):** The switches at (19, 26) and (21, 4) modify the behavior of the proximity-based gate triggers.
 - **Observation 5:** Pressed switch at (19, 26). Moved towards (14, 23). Observed western gates at (14,23) and (14,24) close, blocking the path.
-- **Conclusion (Attempt 4):** The hypothesis that the switch modifies the trigger's behavior is supported. It changed the trigger from "open on approach" to "close on approach."
-- **Revised Hypothesis (Attempt 5):** The switches are toggles. Pressing the switch at (19, 26) a second time should revert the proximity trigger at (14, 23) to its original "open on approach" state.
-- **New Test Plan:**
-    1. Return to the switch at (19, 26) and activate it again.
-    2. Navigate back to the proximity trigger area near (14, 23).
-    3. Observe if the western gates open upon approach.
-    4. Record the outcome.
+- **Conclusion:** The puzzle is controlled by proximity triggers, and the switches modify the behavior of those triggers (e.g., from 'open on approach' to 'close on approach'). The switches appear to be toggles.
 
 # IV. Tool & Agent Ideas
-- **Exploration Agent:** An agent to suggest an optimal path for exploring all `Reachable Unseen Tiles`.
-- **Exploration Path Planner Tool:** A computational tool to solve the Traveling Salesperson Problem for a list of coordinates, finding the shortest path to visit all of them.
+- **Exploration Path Planner Tool:** A computational tool to solve the Traveling Salesperson Problem for a list of coordinates, finding the shortest path to visit all of them. This should be a high priority to create.
+- **Long-Term Training Advisor Agent:** An agent to analyze my full roster and suggest long-term training priorities for upcoming major challenges like the Elite Four.
