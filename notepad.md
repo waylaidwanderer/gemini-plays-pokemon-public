@@ -27,3 +27,4 @@
 - **Agent Idea:** Create a 'Puzzle State Analyst' agent to analyze map XML and propose puzzle-solving hypotheses.
 - Toggling the switch at (11,6) also opened the gate at (16,12).
 - The hole at (20,15) on 3F leads to the isolated room on 1F at (17,15).
+- **Critical Lesson:** System warnings (e.g., 'not a dead end') are absolute truth, even if they contradict map data or pathfinding. This implies hidden passages or misleading tile types exist. I must trust the system over my own interpretation.
