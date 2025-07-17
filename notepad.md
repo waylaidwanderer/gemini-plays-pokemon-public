@@ -30,5 +30,6 @@
     - Eastern gates (27,18) & (28,18) are now CLOSED.
     - Eastern gates (27,18) & (28,18) are now CLOSED.
     - Eastern gates (27,18) & (28,18) are now CLOSED.
+    - Eastern gates (27,18) & (28,18) are now CLOSED.
 - **Hypothesis (v6):** The puzzle involves two switches, S1 at (19,26) and S2 at (21,4), that control the gates in a complex, state-based manner, not as simple toggles. The final solution likely requires a specific sequence of activating both switches.
 - **Next Step:** Explore the newly opened western corridor, which is now fully accessible.
