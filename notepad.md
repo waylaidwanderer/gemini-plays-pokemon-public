@@ -25,18 +25,8 @@
 ## A. Pokémon Mansion
 - **Conclusion:** The two switches in the basement (at (21, 4) and (19, 26)) control the gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated. The puzzle is now solved.
 
-# IV. Active Puzzles
-## A. Cinnabar Gym
-- **Observation:** The gym is split into rooms separated by gates. I've explored both the eastern and western corridors and hit dead ends in both. The trainers in the eastern room at (12, 5) and (17, 9) are stuck in dialogue loops, and the western room is blocked by closed gates I cannot open.
-- **Hypothesis 1 (Failed):** Answering the first quiz correctly will open the left gate. (Outcome: opened right gate).
-- **Hypothesis 2 (Failed):** The trainer at (12, 5) is the next step. (Outcome: Stuck in dialogue loop).
-- **Hypothesis 3 (Failed):** Defeating the trainer at (17, 9) is the next step. (Outcome: Stuck in pre-battle dialogue loop).
-- **Hypothesis 4 (Failed):** Interacting with the quiz machine at (16, 8) and intentionally answering incorrectly might activate one of the previously looping trainers. (Outcome: Received 'Sorry! Bad call!' message, no other apparent change).
-- **Hypothesis 5 (Current):** Answering the quiz at (16, 8) incorrectly has changed the state of the trainer at (17, 9), making them battle-ready.
-- **Test 5:** Interact with the trainer at (17, 9).
-
-## B. Cinnabar Gym
-- **Observation:** I am inside the Cinnabar Gym. The game state has confirmed there are 3 reachable unseen tiles to the west, meaning a path forward exists here. The eastern corridor is a confirmed dead end with looping trainers. The western corridor is blocked by closed gates at (13, 13) and (14, 13).
-- **Hypothesis 1 (Failed):** The quiz machine at (16, 8) is a simple toggle. (Outcome: This only seems to control the eastern gates and looping trainers).
 ## B. Cinnabar Gym
 - **Conclusion:** The Cinnabar Gym puzzle is sequential and requires answering all quiz questions correctly to open the gates to the Gym Leader. The puzzle is now solved.
+
+# IV. Active Puzzles
+(No active puzzles)
