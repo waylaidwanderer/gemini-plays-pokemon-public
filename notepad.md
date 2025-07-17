@@ -102,3 +102,4 @@ My previous approach to puzzles was unsystematic and resulted in significant was
 ### C. Cianwood Gym Boulder Puzzle (New Findings)
 - My `puzzle_solver` tool has confirmed that from the initial puzzle state (after stepping on the trigger at (8, 6)), there is **no possible solution** to reach the Gym Leader. 
 - **New Hypothesis:** There must be a hidden switch or event within the gym that alters the puzzle state, making it solvable. My next course of action is to systematically re-investigate every interactable object in the gym to find this trigger.
+*   **Cianwood Gym Puzzle (External Trigger):** After exhausting all options inside the gym, my new hypothesis is that an external event or NPC interaction in Cianwood City is required to alter the boulder puzzle, making it solvable. I will now leave the gym and re-explore the entire city.
