@@ -10,8 +10,6 @@
     - Immune (0x): Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 
 ## B. Tile Mechanics & Movement Rules
-- **Switches:** Interactable background objects. Activating them can toggle the state of gates, potentially across multiple floors.
-- **Gates (`open_gate`, `closed_gate`, `gate_offscreen`):** Barriers whose state is controlled by switches. Their state can change even when they are off-screen, but the visual update only occurs when they are on-screen.
 - **Switch Interaction:** Switches must be activated by standing on the tile directly BELOW them (e.g., at (X, Y+1) for a switch at (X,Y)), facing UP, and then pressing A.
 
 # III. Pokémon Mansion Puzzle Log
