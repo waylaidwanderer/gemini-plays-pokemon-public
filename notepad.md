@@ -12,7 +12,6 @@
 
 # IV. Tool & Agent Development
 - **Known Bugs:** The `define_map_marker` tool is confirmed broken after multiple consecutive failures. Do not attempt to use it. Track all spatial information, like gate states, in this notepad.
-- **Future Tool Idea:** Create a `puzzle_state_analyzer` tool to parse `map_xml_string` and output a summary of all puzzle objects (switches, gates, states, coordinates) to simplify analysis.
 
 # VI. Pokémon Mansion Puzzle Log (NEW - Source of Truth)
 - **Turn 79153:** On 3F, pressed switch at (11,6). Gates at (16,5), (16,6), (16,11), (16,12) closed. Path south blocked.
