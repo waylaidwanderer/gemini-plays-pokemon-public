@@ -146,3 +146,4 @@
 ### A. Get Item from Schoolboy Alan (Route 36)
 1. **Fly to Route 36:** Travel to Route 36.
 2. **Speak to Alan:** Talk to Schoolboy Alan to receive the FIRE STONE.
+*   **LEDGE_HOP_RIGHT:** One-way traversal. Can be jumped right but not entered from the left.
