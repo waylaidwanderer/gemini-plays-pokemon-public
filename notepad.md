@@ -16,18 +16,15 @@
 - **warp:** A tile that transports the player to another location.
 - **hole:** A warp tile that leads to a lower map area. Typically a one-way trip down.
 - **open_gate:** A previously closed gate that is now open and acts as `ground`.
-- **closed_gate:** An impassable gate that is currently visible on the screen.
+- **closed_gate:** An impassable gate that is currently visible on the screen. Treat as a wall.
 - **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding.
 - **teleport:** Instant warp tile within the same logical location (e.g., inside a building).
 - **spinner_up/down/left/right:** Forces movement in the specified direction.
 
-# III. Pokémon Mansion Puzzle Log
-- **Observation 1:** Moved near (27, 18), observed eastern gates at (27,18) and (28,18) open.
-- **Observation 2:** Moved near (18, 17), observed northern gates at (18,17) and (17,17) close.
-- **Observation 3:** Moved near (10, 7), observed western gates at (10,7) and (10,8) close.
-- **Observation 4:** Moved near (14, 23), observed western gates at (14,23) and (14,24) open.
-- **Observation 5:** Pressed switch at (19, 26). Moved towards (14, 23). Observed western gates at (14,23) and (14,24) close, blocking the path.
-- **Conclusion:** The puzzle is controlled by proximity triggers. The switches at (19,26) and (21,4) modify the behavior of these triggers (e.g., from 'open on approach' to 'close on approach'). The switch at (19, 26) is a toggle that affects both the western and eastern gates.
+# III. Pokémon Mansion Puzzle Log & Hypothesis
+- **Current State:** Eastern gates (27,18) are OPEN. Western gates (10,7) are CLOSED. Northern gates (17,17) are CLOSED.
+- **Hypothesis:** The puzzle involves multiple switches that interact in a complex way, not a simple toggle. The switch at (19,26) and the one at (21,4) likely control different sets of gates or modify each other's behavior. Proximity triggers also seem to play a role.
+- **Next Test:** Return to the switch at (19, 26), flip it, and then systematically check the state of all three gate sets (Western, Northern, Eastern) to isolate this switch's function.
 
 # IV. Tool & Agent Ideas
 - **Exploration Path Planner Tool:** A computational tool to solve the Traveling Salesperson Problem for a list of coordinates, finding the shortest path to visit all of them. This should be a high priority to create.
