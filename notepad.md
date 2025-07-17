@@ -1,31 +1,30 @@
-# I. Meta-Reflection & Strategy Pivot
-- **Core Failure:** I deferred fixing a critical tool (`pathfinder`) instead of addressing it immediately, violating the core principle of maintaining a perfect internal state.
-- **Goal Discipline:** My goals must be *outcomes* (e.g., 'Obtain the Secret Key'), not *methods* (e.g., 'Fix the tool'). Fixing tools is an immediate, non-negotiable action, not a deferred goal.
-- **Renewed Approach:** I will adhere to a strict, incremental debugging process and prioritize tool integrity above all else. I will not use a tool I know to be broken.
+# I. Core Principles & Lessons Learned
+- **Immediate Action is Non-Negotiable:** Deferring tasks like tool fixes, agent creation, or documentation is a critical failure. All such actions must be performed in the current turn.
+- **Systematic Testing:** When faced with a puzzle, I must form single, testable hypotheses and design minimal experiments to confirm or deny them. I will rigorously document each test and its outcome to avoid confirmation bias and repeated failures.
+- **Tool & Agent Integrity is Paramount:** A faulty tool or agent is worse than none. Debugging and refining them is my absolute highest priority, superseding any other goal.
 
-# II. Core Principles & Lessons Learned
-- **System Validation is Absolute Truth:** The game's validation data is the ultimate source of truth. If my tools or understanding contradict this data, they are wrong and must be corrected immediately.
-- **Rigorous Hypothesis Testing:** When faced with a puzzle, I will form a single, testable hypothesis and design a minimal experiment to confirm or deny it. I will not assume hidden mechanics unless all other possibilities have been disproven.
-- **Tool Integrity is Paramount:** A faulty tool is worse than no tool. If a tool provides an incorrect result, debugging and fixing it becomes my absolute highest priority, superseding any other goal.
-- **Immediate Documentation:** All discoveries, plans, and state changes must be documented *immediately* in the notepad or with map markers to avoid hallucinations and redundant actions.
-
-# III. Game Intel
+# II. Game Intel
 ## A. Confirmed ROM Hack Mechanics
-- **Type Matchups:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire.
-- **Type Resistances:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground.
-- **Type Immunities:** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
+- **Type Effectiveness:**
+    - Super Effective (2x): Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire.
+    - Not Very Effective (0.5x): Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground.
+    - Immune (0x): Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 
-# IV. Pokémon Mansion Puzzle Log
+## B. Tile Mechanics & Movement Rules
+- **Switches:** Interactable background objects. Activating them can toggle the state of gates, potentially across multiple floors.
+- **Gates (`open_gate`, `closed_gate`, `gate_offscreen`):** Barriers whose state is controlled by switches. Their state can change even when they are off-screen, but the visual update only occurs when they are on-screen.
+
+# III. Pokémon Mansion Puzzle Log
 - **Current Goal:** Find the Secret Key.
-- **Key Discoveries:**
-    - The mansion contains a multi-floor switch puzzle. The state of gates depends on the sequence and location of switch activations.
-    - The warps on 2F at (8,11) and (7,2) both lead back to 1F, not to 3F.
-    - Interacting with the Super Nerd at (4,18) on 2F was a necessary puzzle trigger.
-- **Hypothesis 1 (Concluded):** The switch activation order `1F -> 2F` opens the eastern gates on 2F.
-- **Test 1 Result:** This sequence resulted in the gates at (10,5) and (10,6) on 2F being **closed**. Hypothesis denied.
-- **Hypothesis 2 (CONFIRMED):** The switches control the gates in a cyclical manner.
-- **Test 2 Result:** The sequence `1F -> 2F -> 1F` successfully opened the gates at (17, 8) and (18, 8) on 1F.
-- **Next Step:** Explore the area behind the newly opened gates.
+- **Key Discoveries:** The mansion contains a multi-floor switch puzzle. The state of gates depends on the sequence of switch activations.
+- **Puzzle State:**
+    - 1F Switch at (3,6)
+    - 2F Switch at (3,12)
+- **Confirmed Sequence:** `1F Switch -> 2F Switch -> 1F Switch` opens the gates at (17, 8) and (18, 8) on 1F, but closes the gates at (25, 14) and (26, 14).
 
-# V. Discovered Game Mechanics
-- **Switch Puzzles:** Switches can control gates on multiple floors. The activation sequence is critical. The mansion puzzle appears to be cyclical (`1F -> 2F -> 1F` opened a new path).
+## A. Systematic Testing Plan
+- **Goal:** Fully understand the logic of the two main switches.
+- **Hypothesis 1:** The switches operate on a simple toggle state. Pressing a switch reverses its previous effect.
+- **Test 1.1 (Current Action):** Press the 1F switch at (3,6) again. **Expected Outcome:** The gates at (17,8)/(18,8) will close, and the gates at (25,14)/(26,14) will open.
+- **Test 1.2 (Next Step):** Go to 2F and press the switch at (3,12). Observe the state of all known gates.
+- **Test 1.3 (Next Step):** Return to 1F and press the switch at (3,6) again. Observe the state of all known gates.
