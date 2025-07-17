@@ -1,6 +1,7 @@
 # I. Core Principles & Lessons Learned
 - **Immediate Action is Non-Negotiable:** Deferring tasks like tool fixes, agent creation, or documentation is a critical failure. All such actions must be performed in the current turn.
 - **Systematic Testing:** When faced with a puzzle, I must form single, testable hypotheses and design minimal experiments to confirm or deny them. I will rigorously document each test and its outcome to avoid confirmation bias and repeated failures.
+- **Trust The Agent:** I have powerful custom agents for a reason. I must trust their analysis and plans over my own manual trial-and-error, especially for complex, multi-stage problems.
 
 # II. Game Intel
 ## A. Confirmed ROM Hack Mechanics
@@ -11,15 +12,20 @@
 
 ## B. Tile Mechanics & Movement Rules
 - **Switch Interaction:** Switches must be activated by standing on the tile directly BELOW them (e.g., at (X, Y+1) for a switch at (X,Y)), facing UP, and then pressing A.
+- **gate_offscreen:** The state of these gates can change based on switch presses on any floor. Their state is only revealed when they come on-screen.
 
 # III. Pokémon Mansion Puzzle Log
 - **Current Goal:** Find the Secret Key.
-- **Key Discoveries:** The mansion contains a multi-floor switch puzzle. The state of gates depends on the sequence of switch activations.
+- **Overarching Strategy:** I will follow the 10-step plan provided by the `multi_floor_puzzle_strategist_agent`.
 
-## A. Systematic Testing Plan
-- **Goal:** Fully understand the logic of the two main switches.
-- **Hypothesis 1 (CONFIRMED):** The 1F switch at (3,6) operates on a simple toggle state. Pressing it reverses its previous effect on both the western gates (17,8)/(18,8) and the eastern gates (25,14)/(26,14).
-- **Hypothesis 2:** The 2F switch at (3,12) also affects the gates.
-- **Test 1.2 (CONCLUDED):** Pressed the 2F switch at (3,12). **Outcome:** The western gates at (17,8)/(18,8) **closed**, and the eastern gates at (25,14)/(26,14) **opened**.
-- **Conclusion:** The switch sequence (1F -> 2F -> 1F) toggles which set of gates (west or east) is open.
-- **Current Plan:** Explore the newly accessible eastern area beyond the gates at (25,14)/(26,14). The primary target is the warp at (22,24) which leads to B1F.
+## A. Agent-Guided Strategic Plan
+- **Step 1 (In Progress):** Start on 1F and press the Switch at (3,6).
+- **Step 2:** Proceed to the Warp to 2F at (6,11).
+- **Step 3:** On 2F, press the Switch at (3,12).
+- **Step 4:** Take a warp to 3F (e.g., at (8,11)).
+- **Step 5:** On 3F, press the Switch at (11,6).
+- **Step 6:** Use the Hole to 2F at (20,15).
+- **Step 7:** From the new area on 2F, use the Hole to 1F at (17,15).
+- **Step 8:** In the new area on 1F, take the Warp to B1F at (22,24).
+- **Step 9:** In the basement, press the final Switch at (19,26).
+- **Step 10:** Explore the newly accessible rooms to find the Secret Key.
