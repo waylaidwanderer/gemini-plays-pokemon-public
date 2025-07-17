@@ -60,8 +60,7 @@
 *   **Cianwood Geography:** Cianwood City is split into two landmasses. The southern part where I initially arrived is an island. Progress to the northern part (where the gym is) requires using SURF.
 
 ### B. Future Development Ideas
-*   **Agent Idea:** Create a 'Puzzle Guide' agent that takes the output from a solver tool (like `sokoban_solver`) and breaks it down into a turn-by-turn sequence of explicit button presses and movements for me to execute.
-*   **Tool Idea:** Create a 'Solution Executor' tool that takes a solution plan (e.g., from `sokoban_solver`) and automatically generates the full sequence of `buttons_to_press` for an entire puzzle, which I could then execute.
+*   **Agent Idea ('Puzzle Executioner'):** Create an agent that takes the JSON output from a solver tool (like `sokoban_solver`) and provides turn-by-turn instructions. For a 'move' step, it would specify the target coordinate. For a 'push' step, it would detail which boulder to face, the need to press 'A' to activate the HM, and the final push direction. This would offload the cognitive burden of tracking and executing complex plans, reducing manual error.
 
 ## IV. Puzzle Solving Methodology
 
@@ -75,15 +74,16 @@
 ### B. Automation First
 - For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is my last resort. If a tool fails, my top priority is to fix it, not to abandon it.
 
-### C. Cianwood Gym Boulder Puzzle (VERIFIED MECHANIC)
-1.  **Activation:** Stand adjacent to a boulder and face it. Press 'A'. This brings up the 'Want to use STRENGTH?' YES/NO prompt.
-2.  **Confirmation:** Select 'YES'. This activates a temporary 'push mode' for a single push, confirmed by the message 'Boulders may now be moved!'.
-3.  **Pushing:** After confirmation, walk into the adjacent boulder to push it one tile. The player character **DOES NOT MOVE** from their position. The 'push mode' then deactivates, requiring re-activation for the next push.
-4.  **Puzzle Trigger:** Walking onto the tile at (8, 6) triggers the appearance of Black Belts, making the puzzle unsolvable. This tile must be avoided.
-5.  **Cianwood Gym Reset Mechanics:** Leaving the gym only resets the spawned trainers, not the boulder positions. Stepping on the tile at (4, 8) resets the boulders to their initial positions.
+### C. Cianwood Gym Boulder Puzzle (VERIFIED MECHANICS)
+1.  **Strength Activation (Multi-Step Process):** To push a boulder, you must first be standing on a tile adjacent to it and facing it. Then, press 'A' to bring up the 'Want to use STRENGTH?' YES/NO prompt. Select 'YES' to activate the HM. This puts you in a temporary 'push mode' for a single push, confirmed by the message 'Boulders may now be moved!'.
+2.  **The Push:** After confirmation, you must walk into the boulder to push it one tile. **CRITICAL: The player character DOES NOT move from their position after the push.** The 'push mode' deactivates immediately, requiring the entire activation process to be repeated for the next push.
+3.  **Puzzle Trigger:** Walking onto the tile at (8, 6) triggers the appearance of Black Belts who block paths, making the puzzle unsolvable. This tile must be avoided until the boulders are in their final positions.
+4.  **Reset Mechanics:** The puzzle has two reset methods.
+    *   **Boulder Reset:** Stepping on the tile at (4, 8) resets **only** the boulders to their initial positions.
+    *   **Full Gym Reset:** Leaving the gym and re-entering resets **only** the spawned trainers, not the boulder positions.
 
 ## V. Known Tool Issues
-*   **`sokoban_solver` Flaw:** My `sokoban_solver` tool has shown repeated issues. It is likely not correctly modeling the player's movement (or lack thereof) during a push.
+*   **`sokoban_solver` Flaw:** My `sokoban_solver` tool has shown repeated issues. It was not correctly modeling the player's movement (or lack thereof) during a push. This has been corrected.
 
 ## VI. Battle and Pokemon Information
 
