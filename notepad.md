@@ -27,8 +27,13 @@
 - **Field/Battle Rules:** Switches require standing below and facing up. Losing in a gym does not warp you out. FLY can end wild battles indoors. ROAR can end wild battles.
 
 # V. Pokémon Mansion Puzzle Log
-- **Hypothesis 1:** The switches on 1F and 2F operate on a toggle system, affecting gates on their respective floors.
-- **Test 1:** Flipped 2F switch, then 1F switch.
-- **Conclusion 1:** Gates on 1F at (17,8) and (18,8) opened, but path east was still blocked by a wall. Hypothesis partially confirmed (switches toggle gates) but incomplete.
-- **Hypothesis 2:** The switch on 1F also affects the state of gates on 2F.
-- **Test 2:** Return to 2F after flipping the 1F switch to observe the gates at (10,5) and (10,6). (Current step)
+- **Observation:** The mansion puzzle involves interconnected switches on 1F and 2F.
+- **Hypothesis 1 (Failed):** Flipping the 2F switch, then the 1F switch, will open a path to the Secret Key.
+- **Test 1:** Flipped 2F switch at (3,12). Went to 1F. Flipped 1F switch at (3,6).
+- **Conclusion 1:** Gates at (17,8) and (18,8) on 1F opened, but the path east is blocked by a wall at (17,11). This path is a dead end. Hypothesis failed.
+- **Hypothesis 2 (Current):** The solution requires a different sequence. Flipping the 1F switch again (to reset it) and then the 2F switch might yield a different result.
+- **Test 2 Plan:**
+    1. Go to 1F switch at (3,6) and flip it.
+    2. Go to 2F via warp at (6,11).
+    3. Go to 2F switch at (3,12) and flip it.
+    4. Return to 1F and observe changes.
