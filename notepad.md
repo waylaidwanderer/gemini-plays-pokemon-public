@@ -78,11 +78,12 @@
 ### C. Cianwood Gym Boulder Puzzle (VERIFIED MECHANIC)
 1.  **Activation:** Stand adjacent to a boulder and face it. Press 'A'. This brings up the 'Want to use STRENGTH?' YES/NO prompt.
 2.  **Confirmation:** Select 'YES'. This activates a temporary 'push mode' for a single push, confirmed by the message 'Boulders may now be moved!'.
-3.  **Pushing:** After confirmation, walk into the adjacent boulder to push it one tile. The player character **MOVES INTO** the spot the boulder just vacated. The 'push mode' then deactivates, requiring re-activation for the next push.
+3.  **Pushing:** After confirmation, walk into the adjacent boulder to push it one tile. The player character **DOES NOT MOVE** from their position. The 'push mode' then deactivates, requiring re-activation for the next push.
 4.  **Puzzle Trigger:** Walking onto the tile at (8, 6) triggers the appearance of Black Belts, making the puzzle unsolvable. This tile must be avoided.
+5.  **Cianwood Gym Reset Mechanics:** Leaving the gym only resets the spawned trainers, not the boulder positions. Stepping on the tile at (4, 8) resets the boulders to their initial positions.
 
 ## V. Known Tool Issues
-*   **`sokoban_solver` Flaw:** My original `sokoban_solver` tool was critically flawed. I have redefined the tool with more accurate logic for how the player moves after pushing a boulder.
+*   **`sokoban_solver` Flaw:** My `sokoban_solver` tool has shown repeated issues. It is likely not correctly modeling the player's movement (or lack thereof) during a push.
 
 ## VI. Battle and Pokemon Information
 
@@ -131,5 +132,3 @@
 
 ### D. PC Storage
 *   **Items:** BERRY (x1), PSNCUREBERRY (x1), ICE BERRY (x1), MINT BERRY (x1), BURNT BERRY (x1), GREAT BALL (x1), ANTIDOTE (x1), PARLYZ HEAL (x1), AWAKENING (x1), POTION (x1), GUARD SPEC. (x1), X ATTACK (x1), X DEFEND (x1), X SPEED (x1), X SPECIAL (x1), DIRE HIT (x1), POKE BALL (x1), REPEL (x1), ESCAPE ROPE (x1), ETHER (x1), MAX ETHER (x1), REVIVE (x1), NUGGET (x1), PROTEIN (x1), IRON (x1), CARBOS (x1), CALCIUM (x1), HP UP (x1), RARE CANDY (x1), TM39 (SWIFT), TM13 (SNORE), TM41 (THUNDERPUNCH), TM48 (FIRE PUNCH), TM02 (HEADBUTT), TM08 (ROCK SMASH), TM45 (ATTRACT), TM21 (FRUSTRATION), TM27 (RETURN), TM12 (SWEET SCENT), TM35 (SLEEP TALK), TM49 (FURY CUTTER).
-*   **Pokemon:** N/A
-*   **Cianwood Gym Reset Mechanics:** Leaving the gym only resets the spawned trainers, not the boulder positions. Stepping on the tile at (4, 8) resets the boulders to their initial positions.
