@@ -26,7 +26,8 @@
 - **Conclusion:** The two switches in the basement (at (21, 4) and (19, 26)) control the gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated. The puzzle is now solved.
 
 ## B. Cinnabar Gym (Systematic Analysis)
-- **Objective:** To map the puzzle's logic by logging every interaction and its outcome.
+- **Objective:** To map the puzzle's logic by logging every interaction and its outcome for the `puzzle_log_analyzer_agent`.
+- **Methodology:** Interact with each quiz machine and trainer. After each action, check the state of all gates on the map and record the observation.
 - **Log 1:**
 
 # IV. Active Puzzles
