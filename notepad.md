@@ -22,6 +22,6 @@
 - **spinner_up/down/left/right:** Forces movement in the specified direction.
 
 # III. Pokémon Mansion Puzzle Log & Hypothesis
-- **Current State:** Eastern gates (27,18) are OPEN. Western gates (10,7) are CLOSED. Northern gates (17,17) & (18,17) are now confirmed CLOSED.
-- **Hypothesis (v2):** The switches at (19,26) and (21,4) control the three sets of gates (Western, Northern, Eastern), but not as simple toggles. The outcome of flipping a switch seems to depend on the current state of *all* gates, suggesting a state-machine-like logic. Proximity triggers also seem to play a role.
-- **Next Test:** My path to the main switch at (19, 26) is now blocked by the northern gates. I must find an alternate route to it, flip it, and then systematically check the state of all three gate sets to understand its function in this new configuration.
+- **Current State:** Eastern gates (27,18) are OPEN. Western gates (14,23) & (14,24) are now OPEN. Northern gates (17,17) & (18,17) are CLOSED.
+- **Hypothesis (v3):** The switch at (19,26) cycles through at least three states, controlling the three sets of gates (Western, Northern, Eastern) in a complex sequence. The last flip opened the Western gates while keeping the Eastern ones open and the Northern ones closed. A new path to the west is now open.
+- **Next Test:** Explore the newly opened western area to reach the final unseen tiles on this floor.
