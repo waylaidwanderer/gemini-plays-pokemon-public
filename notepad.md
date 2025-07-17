@@ -37,5 +37,4 @@
 - **Turn 79483:** On B1F, gates at (27,18) and (28,18) observed to be CLOSED, trapping me in the eastern section.
 - **Turn 79486:** On B1F, gates at (17,17) and (18,17) observed to be OPEN.
 - **Turn 79487:** On B1F, gates at (17,17) and (18,17) re-confirmed OPEN.
-- Turn 79490: Trapped in eastern B1F. Hypothesis: Toggling the switch at (19, 26) will open a new path. Test: Navigate to (19, 27) and press the switch.
-- Turn 79493: Gates at (17,17) and (18,17) opened, revealing a path to the west. Old hypothesis about needing the switch is discarded. New Plan: Explore the western corridor to reach the unseen tiles.
+- **Turn 79493:** Gates at (17,17) and (18,17) opened, revealing a path to the west. Old hypothesis about needing the switch is discarded. New Plan: Explore the western corridor to reach the unseen tiles.
