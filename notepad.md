@@ -11,17 +11,20 @@
     - Immune (0x): Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 
 ## B. Tile Mechanics & Movement Rules
+- **ground:** Standard walkable tile.
+- **impassable:** Walls, objects, and other barriers. Cannot be entered.
 - **open_gate:** A previously closed gate that is now open and acts as `ground`.
 - **closed_gate:** An impassable gate that is currently visible on the screen.
-- **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding.
+- **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding unless a marker indicates otherwise.
+- **warp:** A tile that transports the player to another location.
 
-# IX. Pokémon Mansion Puzzle Log (v6 - Final Consolidated)
+# IX. Pokémon Mansion Puzzle Log (v7 - Updated)
 ## B1F
 - **System Override:** I was previously hallucinating about being trapped due to misinterpreting game data. The system has confirmed there are 6 reachable unseen tiles in the western corridor, meaning a path MUST exist.
-- **Puzzle Elements & State:**
+- **Puzzle Elements & State (Corrected):**
     - Switch: (19,26).
-    - Northern Gates [(17,17), (18,17)]: Currently CLOSED.
-    - Western Entrance Gates [(10,7), (10,8)]: Currently OPEN.
-    - Western Corridor Gates [(14,23), (14,24)]: Visually confirmed CLOSED.
-    - Eastern Gates [(27,18), (28,18)]: Visually confirmed CLOSED.
-- **Current Hypothesis:** Despite the visual blockage from the Western Corridor gates, there must be a navigable path to the 6 unseen tiles in the western section. My top priority is to explore this guaranteed path and find the Secret Key.
+    - Northern Gates [(17,17), (18,17)]: Currently **CLOSED**.
+    - Western Entrance Gates [(10,7), (10,8)]: State is `gate_offscreen`, assumed OPEN.
+    - Western Corridor Gates [(14,23), (14,24)]: Currently **OPEN**.
+    - Eastern Gates [(27,18), (28,18)]: Currently **OPEN**.
+- **Current Hypothesis:** The western corridor contains the Secret Key. The path is now open and I must explore the 6 unseen tiles.
