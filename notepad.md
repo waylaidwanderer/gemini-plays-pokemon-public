@@ -29,6 +29,11 @@
     3. Attempt to reach the western corridor. If successful, the hypothesis is partially confirmed.
     4. If unsuccessful, return to the switch at (19,26), press it again to reset its state, and then proceed to test the switch at (21,4).
     5. Log every action and its outcome to feed into the `puzzle_log_analyzer_agent` if the logic is not immediately obvious.
+    1. Navigate to the switch at (19,26) and activate it.
+    2. Observe and document any immediate changes to gates on B1F.
+    3. Attempt to reach the western corridor. If successful, the hypothesis is partially confirmed.
+    4. If unsuccessful, return to the switch at (19,26), press it again to reset its state, and then proceed to test the switch at (21,4).
+    5. Log every action and its outcome to feed into the `puzzle_log_analyzer_agent` if the logic is not immediately obvious.
 - **Systematic Test Plan:**
     1. Navigate to the switch at (19,26) and activate it.
     2. Observe and document any immediate changes to gates on B1F.
