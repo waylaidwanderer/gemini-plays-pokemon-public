@@ -15,10 +15,9 @@
 - **impassable:** Walls, objects, and other barriers. Cannot be entered.
 - **warp:** A tile that transports the player to another location.
 - **hole:** A warp tile that leads to a lower map area. Typically a one-way trip down.
-- **puzzle_switch:** An interactable object that changes the state of other elements on the map, usually gates.
 - **open_gate:** A previously closed gate that is now open and acts as `ground`.
 - **closed_gate:** An impassable gate that is currently visible on the screen.
-- **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding unless a marker indicates otherwise.
+- **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding.
 
 # III. Pokémon Mansion Puzzle Strategy
 ## A. Puzzle Observation Log
@@ -26,10 +25,15 @@
 - **Observation 2:** Moved near (18, 17), observed northern gates at (18,17) and (17,17) close.
 - **Observation 3:** Moved near (10, 7), observed western gates at (10,7) and (10,8) close.
 - **Observation 4:** Moved near (14, 23), observed western gates at (14,23) and (14,24) open.
+
 ## B. Agent Analysis & New Hypothesis
 - **Agent Deduction:** The puzzle is controlled by proximity triggers, not switches. Moving to a specific coordinate opens or closes a pair of gates.
-- **New Hypothesis:** I must find the proximity trigger that opens the western gates at (10,7) and (10,8) to access the unseen tiles.
-- **Plan:** Systematically explore the accessible area, starting with the westernmost edge, to find this trigger.
+- **Hypothesis (Attempt 4):** The switches at (19, 26) and (21, 4) modify the behavior of the proximity-based gate triggers.
+- **Test Plan:**
+    1. Navigate to the switch at (19, 26) and activate it.
+    2. Return to a known proximity trigger, such as (14, 23).
+    3. Observe if the trigger's behavior has changed (e.g., does it still open the gates, or does it do nothing/something else?).
+    4. Record the outcome in the observation log.
 
 # IV. Tool & Agent Ideas
 - **Exploration Agent:** An agent to suggest an optimal path for exploring all `Reachable Unseen Tiles`.
