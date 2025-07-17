@@ -41,7 +41,7 @@
 *   **Ilex Forest Farfetch'd:** Chase the Farfetch'd sprite by blocking its path to make it turn. Corner it to return it to its owner.
 *   **Goldenrod Gym:** A maze with trainers that appear and disappear. The path is a spiral shape resembling a Clefairy.
 *   **Ecruteak Gym:** An invisible path puzzle. Requires careful trial and error to find the safe path to the Gym Leader.
-*   **Cianwood Gym Boulder Puzzle:** Solved by understanding the multi-step STRENGTH activation and that the player moves into the boulder's previous spot. Trainers blocking the path required a gym reset.
+*   **Cianwood Gym Boulder Puzzle & Bug:** The post-battle dialogue with Chuck is bugged, preventing reward acquisition. Progress is gated by speaking to his wife outside the gym, who provides HM02 (FLY). The boulder puzzle itself requires a multi-step STRENGTH activation for each push, and the player moves into the boulder's previous spot. The gym must be reset by leaving and re-entering to clear blocking trainers.
 
 ### B. Key NPCs & Quests
 *   **Professor Elm:** Gave me my starter and the Pokémon Egg. Main quest giver.
