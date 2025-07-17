@@ -26,21 +26,10 @@
 - **Type Immunities:** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 - **Field/Battle Rules:** Switches require standing below and facing up. Losing in a gym does not warp you out. FLY can end wild battles indoors. ROAR can end wild battles.
 
-# IV. Pokémon Mansion Puzzle Log & Strategy
+# IV. Pokémon Mansion Puzzle Log
 - **Current Goal:** Find the Secret Key.
 - **Confirmed Mechanic:** The switch at (3,6) on 1F toggles the state of the eastern gates at (17,8) and (18,8).
-- **Failed Agent Plan:** The agent's multi-step plan was invalidated. The warps on 2F at (8,11) and (7,2) both lead back to 1F, not to 3F as the plan suggested. This entire strategy is abandoned.
-- **Current Hypothesis:** I am missing an interaction or another switch. I will re-explore all accessible areas.
-- **Immediate Plan:** Talk to the Super Nerd at (4, 18) on 2F for a potential clue.
-- **Step 4 (FAILED):** Agent's plan to use warp at (8,11) on 2F was incorrect. It leads back to 1F.
-- **Step 5:** (3F) Activate the switch at (11,6).
-- **Step 6:** (3F) Intentionally fall through the 'Hole to 2F'.
-- **Step 7:** (2F) From the new landing zone, fall through the 'Hole to 1F'.
-- **Step 8:** (1F) Proceed to the warp at (22,24) and travel to the basement.
-- **Step 9:** (B1F) Activate the switch at (19,26).
-- **Step 10:** (B1F) Navigate through the now-open gates to find and retrieve the Secret Key.
-
-# Pokémon Mansion Puzzle Corrections
-- The warp at (8,11) on 2F leads to 1F, not 3F.
-- The warp at (7,2) on 2F also leads to 1F.
-- The agent's plan is therefore invalid from Step 4 onwards. A new path to 3F is required.
+- **Key Discovery:** The warps on 2F at (8,11) and (7,2) both lead back to 1F, not to 3F. The agent's plan was therefore invalid.
+- **Strange Event:** Interacting with the Super Nerd at (4,18) on 2F caused him to vanish and me to swap positions with him. The effect of this is unknown.
+- **Current Hypothesis:** I am missing an interaction or a different path to 3F. The strange event with the Super Nerd may have altered the state of the puzzle, possibly affecting the switch at (3,12).
+- **Immediate Plan:** Investigate the switch at (3,12) on 2F to see if its behavior has changed.
