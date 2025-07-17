@@ -33,3 +33,4 @@
 - **Turn 79454:** On 1F, gates at (21,18) and (22,18) observed to be OPEN after returning from B1F.
 - **Turn 79457:** On 1F, gates at (25,14) and (26,14) observed to be CLOSED after moving into the central chamber.
 - **Turn 79458:** On 1F, gates at (25,14) and (26,14) observed to be CLOSED after entering the central chamber.
+- **Turn 79459:** On 1F, gates at (25,14) and (26,14) confirmed CLOSED, trapping me in the central chamber. Only exit is the warp back to B1F at (22, 24).
