@@ -8,9 +8,10 @@
 *   **Kurt (Azalea Town):** Makes special Poké Balls from Apricorns.
 *   **Day-Care Man (Route 34):** Gave me the ODD EGG.
 *   **Sick Miltank (Route 39):** Needs 'lots of BERRIES' to get better.
-*   **Sick Ampharos (Olivine Lighthouse):** Needs SECRETMEDICINE from Cianwood City.
+*   **Sick Ampharos (Olivine Lighthouse):** Needs SECRETMEDICINE from Cianwood City. (Resolved)
 *   **Lance (Lake of Rage/Mahogany):** Helped stop Team Rocket's radio signal plot.
-*   **Alan (Route 36):** Has an item for me.
+*   **Schoolboy Alan (Route 36):** Has an item for me. (Current objective)
+*   **Fisher (Mahogany Town):** Blocking the gym. Says to go to Lake of Rage.
 
 ### B. Solved Puzzles
 *   **Sprout Tower:** Central pillar blocks direct ascent. Must go up the side ladders to the 3rd floor, then descend via the central ladder to reach the Elder.
