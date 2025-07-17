@@ -31,3 +31,14 @@
     - **State 3 (After 2nd press):** Northern gates close. Western Entrance gates open, but Western Corridor gates are closed, blocking the path.
 - **Current Situation & System Override:** My previous belief that the western corridor was reachable was a hallucination caused by the system's optimistic pathing for off-screen gates. I have now visually confirmed all exits from the central area are blocked by closed gates. I am trapped.
 - **Current Hypothesis:** The switch at (19,26) is a cyclical switch. Pressing it a third time is the only logical action and will hopefully change the gate configuration to open a new path, likely the Eastern gates.
+
+# IX. Pokémon Mansion Puzzle Log (v4 - Final Consolidated)
+## B1F
+- **Current Situation:** I am confirmed to be trapped in the central/eastern area of B1F. All potential exits are visually blocked by closed gates.
+- **Puzzle Element:** The only reachable interactive object is the switch at (19,26).
+- **Confirmed Puzzle Logic:** The switch at (19,26) is a cyclical switch that controls multiple sets of gates throughout B1F.
+- **History:**
+    - **State 1 (Initial):** All gates closed.
+    - **State 2 (After 1st press):** Opened Northern gates [(17,17), (18,17)]. This path was explored and is a dead end.
+    - **State 3 (After 2nd press):** Closed Northern gates. Opened Western Entrance gates [(10,7), (10,8)], but the path was blocked by the closed Western Corridor gates [(14,23), (14,24)].
+- **Current Hypothesis:** Pressing the switch a third time is the only logical action. This will cycle the gates to a new, fourth state, which will hopefully open the Eastern gates at (27,18) & (28,18) and allow me to proceed.
