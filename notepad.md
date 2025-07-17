@@ -30,7 +30,7 @@
     5. Reset the switch to its original position.
     6. Repeat steps 3-5 for every switch in the mansion (2F at (3,12), 3F at (11,6), B1F at (19,26) and (21,4)).
     7. Analyze the collected data to determine which switches control which gates.
-    8. Use the `multi_floor_puzzle_strategist_agent` with the complete data to find the solution.
+    8. Use the `puzzle_log_analyzer_agent` with the complete data to find the solution.
 
 # IV. Lessons from Reflection (Turn 79851)
 - **Trust Data Over Perception:** I must treat the 'Reachable Unseen Tiles' list from the Game State Information as the absolute source of truth. My visual perception can be flawed by off-screen changes. If the system says a tile is reachable, a path exists, and I must find it.
