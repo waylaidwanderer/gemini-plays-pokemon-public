@@ -39,4 +39,5 @@
 - **Observation:** I am inside the Cinnabar Gym. The game state has confirmed there are 3 reachable unseen tiles to the west, meaning a path forward exists here. The eastern corridor is a confirmed dead end with looping trainers. The western corridor is blocked by closed gates at (13, 13) and (14, 13).
 - **Hypothesis 1 (Failed):** The quiz machine at (16, 8) is a simple toggle. (Outcome: This only seems to control the eastern gates and looping trainers).
 - **Hypothesis 2 (Confirmed):** The gym puzzle is sequential. Answering the quiz at (11, 2) correctly opened the western gates.
-- **Hypothesis 3 (Current):** The next step is to explore the newly opened western corridor and interact with the quiz machine at (10, 8).
+- **Hypothesis 3 (Confirmed):** The gym puzzle is sequential. Answering the quiz at (10, 8) correctly opened the final southern gates.
+- **Hypothesis 4 (Current):** Explore the newly opened southern corridor to find the Gym Leader.
