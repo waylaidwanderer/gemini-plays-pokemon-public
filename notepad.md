@@ -34,3 +34,4 @@
 - **Turn 79458:** On 1F, gates at (25,14) and (26,14) observed to be CLOSED after entering the central chamber.
 - **Turn 79459:** On 1F, gates at (25,14) and (26,14) confirmed CLOSED, trapping me in the central chamber. Only exit is the warp back to B1F at (22, 24).
 - **Turn 79465:** Warped from 1F (22,24) to B1F (24,23). Confirmed this is a two-way connection.
+- Turn 79483: On B1F, gates at (27,18) and (28,18) observed to be CLOSED, trapping me in the eastern section.
