@@ -36,3 +36,6 @@
 
 # IV. Discovered Game Mechanics
 - **Switch Puzzles:** Switches can control gates on multiple floors. The activation sequence is critical. The mansion puzzle appears to be cyclical (`1F -> 2F -> 1F` opened a new path).
+
+# IV. Discovered Game Mechanics
+- **Switch Puzzles:** Switches can control gates on multiple floors. The activation sequence is critical. The mansion puzzle appears to be cyclical (`1F -> 2F -> 1F` opened a new path).
