@@ -27,3 +27,6 @@
 - **Hypothesis 2 (CONFIRMED):** The switches control the gates in a cyclical manner.
 - **Test 2 Result:** The sequence `1F -> 2F -> 1F` successfully opened the gates at (17, 8) and (18, 8) on 1F.
 - **Next Step:** Explore the area behind the newly opened gates.
+
+# IV. Discovered Game Mechanics
+- **Switch Puzzles:** Switches can control gates on multiple floors. The activation sequence is critical. The mansion puzzle appears to be cyclical (`1F -> 2F -> 1F` opened a new path).
