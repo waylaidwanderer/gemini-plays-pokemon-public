@@ -22,9 +22,9 @@
 - **spinner_up/down/left/right:** Forces movement in the specified direction.
 
 # III. Pokémon Mansion Puzzle Log & Hypothesis
-- **Current State:** Eastern gates (27,18) are OPEN. Western gates (10,7) are CLOSED. Northern gates (17,17) are CLOSED.
-- **Hypothesis:** The puzzle involves multiple switches that interact in a complex way, not a simple toggle. The switch at (19,26) and the one at (21,4) likely control different sets of gates or modify each other's behavior. Proximity triggers also seem to play a role.
-- **Next Test:** Return to the switch at (19, 26), flip it, and then systematically check the state of all three gate sets (Western, Northern, Eastern) to isolate this switch's function.
+- **Current State:** Eastern gates (27,18) are OPEN. Western gates (10,7) are CLOSED. Northern gates (17,17) & (18,17) are now confirmed CLOSED.
+- **Hypothesis (v2):** The switches at (19,26) and (21,4) control the three sets of gates (Western, Northern, Eastern), but not as simple toggles. The outcome of flipping a switch seems to depend on the current state of *all* gates, suggesting a state-machine-like logic. Proximity triggers also seem to play a role.
+- **Next Test:** My path to the main switch at (19, 26) is now blocked by the northern gates. I must find an alternate route to it, flip it, and then systematically check the state of all three gate sets to understand its function in this new configuration.
 
 # IV. Tool & Agent Ideas
 - **Exploration Path Planner Tool:** A computational tool to solve the Traveling Salesperson Problem for a list of coordinates, finding the shortest path to visit all of them. This should be a high priority to create.
