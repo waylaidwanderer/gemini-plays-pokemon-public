@@ -68,7 +68,7 @@
 3.  **Pushing:** Immediately after confirmation, walk into an adjacent boulder to push it one tile. The player character does NOT move into the vacated spot. The "push mode" then deactivates, requiring re-activation for the next push.
 
 ### D. Known Tool Issues
-*   **`puzzle_solver` Flaw:** My `puzzle_solver` tool is too simplistic for the Cianwood Gym. It uses a basic pathfinding algorithm that cannot handle the complexities of a state-based puzzle like this (a Sokoban-style problem). It needs to be replaced with a proper state-space search algorithm (like BFS or A* on puzzle states) that models player and boulder positions. This is a high-priority fix I must address soon.
+*   **`puzzle_solver` Flaw:** My `puzzle_solver` tool was too simplistic for the Cianwood Gym. I have now replaced it with a proper state-space search tool that should be capable of solving complex Sokoban-style puzzles.
 
 ### B. Corrected Assumptions & Critical Lessons
 *   **HM02 (Fly) Hallucination:** I hallucinated receiving HM02 from Chuck's wife in Cianwood City. I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown.
@@ -82,7 +82,7 @@
 3.  **Pushing:** Immediately after confirmation, walk into an adjacent boulder to push it one tile. The player character does NOT move into the vacated spot. The "push mode" then deactivates, requiring re-activation for the next push.
 
 ### D. Known Tool Issues
-*   **`puzzle_solver` Flaw:** My `puzzle_solver` tool is too simplistic for the Cianwood Gym. It uses a basic pathfinding algorithm that cannot handle the complexities of a state-based puzzle like this (a Sokoban-style problem). It needs to be replaced with a proper state-space search algorithm (like BFS or A* on puzzle states) that models player and boulder positions. This is a high-priority fix I must address soon.
+*   **`puzzle_solver` Flaw:** My `puzzle_solver` tool was too simplistic for the Cianwood Gym. I have now replaced it with a proper state-space search tool that should be capable of solving complex Sokoban-style puzzles.
 
 ## IV. Puzzle Solving Methodology (Post-Critique Update)
 
