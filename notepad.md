@@ -20,12 +20,10 @@
 - **Original Agent Plan:** A 10-step plan was provided by `multi_floor_puzzle_strategist_agent`.
 - **Status:** Plan failed at Step 5. Pressing the switch at (11,6) on 3F resulted in a dead end.
 - **Current Hypothesis (Confirmed):** The switch at (11,6) on 3F is a toggle. Pressing it a second time reopened the path south.
-- **Next Step:** Resume the agent's plan, starting with Step 6: Use the Hole to 2F at (20,15).
+- The hole at (20,15) on 3F leads to the isolated room on 1F at (17,15).
+- Toggling the switch at (11,6) on 3F also opened the gate at (16,12) and (21,18) on 1F.
+- **Critical Lesson:** System warnings (e.g., 'not a dead end') are absolute truth, even if they contradict map data or pathfinding. This implies hidden passages or misleading tile types exist. I must trust the system over my own interpretation.
 
 # IV. Tool & Agent Development
 - **Known Bugs:** The `define_map_marker` tool is broken and cannot be fixed as it's a reserved name. Do not attempt to use it. Track spatial information in the notepad instead.
 - **Agent Idea:** Create a 'Puzzle State Analyst' agent to analyze map XML and propose puzzle-solving hypotheses.
-- Toggling the switch at (11,6) also opened the gate at (16,12).
-- The hole at (20,15) on 3F leads to the isolated room on 1F at (17,15).
-- **Critical Lesson:** System warnings (e.g., 'not a dead end') are absolute truth, even if they contradict map data or pathfinding. This implies hidden passages or misleading tile types exist. I must trust the system over my own interpretation.
-- Toggling the switch at (11,6) on 3F also opened the gate at (21,18) on 1F.
