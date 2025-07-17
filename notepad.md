@@ -34,8 +34,8 @@
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
 *   **LEDGE_HOP_RIGHT:** One-way traversal. Can be jumped right but not entered from the left.
 *   **PIT:** One-way tile that causes a fall to the floor below.
-*   **COUNTER/MART_SHELF/BUOY/WHIRLPOOL:** Impassable. This has been verified.
-*   **PC:** Impassable. Interacted with by standing on the tile below it and facing up.
+*   **COUNTER/MART_SHELF/BUOY/WHIRLPOOL:** Impassable. Interacting with NPCs behind counters requires facing the counter tile, not the NPC.
+*   **PC:** Impassable. Interacted with by standing on the tile below it, facing up, and pressing 'A'.
 *   **TREE/CUT_TREE:** Small trees can be cut with CUT, leaving an impassable stump. To use CUT, the player must be standing on an adjacent tile and facing the tree directly.
 *   **BOULDER:** Can be moved with STRENGTH.
 *   **HEADBUTT_TREE:** Interactable tree for finding Pokémon. Impassable.
