@@ -27,10 +27,9 @@
 
 # IV. Active Puzzles
 ## A. Cinnabar Gym
-- **Observation:** The gym is split into rooms separated by gates. Each room has trainers and a quiz machine. The first quiz machine at (16, 8) opens the gate to the eastern room regardless of the answer. The eastern room contains two trainers, one at (12, 5) and one at (17, 9), who initially appear to be in dialogue loops. The western room is blocked by closed gates.
-- **Hypothesis 1 (Failed):** Answering the first quiz correctly will open the left gate, while answering incorrectly will open the right gate.
-- **Test 1:** Answered quiz correctly. **Outcome:** Right gate opened. **Conclusion:** Hypothesis is false. The path is linear to the right.
-- **Hypothesis 2 (Failed):** The trainer at (12, 5) is the next step.
-- **Test 2:** Interacted with trainer at (12, 5). **Outcome:** Stuck in a dialogue loop. **Conclusion:** Hypothesis is false.
-- **Hypothesis 3 (Current):** The pre-battle dialogue for the trainer at (17, 9) was mistaken for a loop. The battle must be initiated and won to open the gates to the next section of the gym.
-- **Test 3:** Initiate battle with the trainer at (17, 9).
+- **Observation:** The gym is split into rooms separated by gates. I've explored both the eastern and western corridors and hit dead ends in both. The trainers in the eastern room at (12, 5) and (17, 9) are stuck in dialogue loops, and the western room is blocked by closed gates I cannot open.
+- **Hypothesis 1 (Failed):** Answering the first quiz correctly will open the left gate. (Outcome: opened right gate).
+- **Hypothesis 2 (Failed):** The trainer at (12, 5) is the next step. (Outcome: Stuck in dialogue loop).
+- **Hypothesis 3 (Failed):** Defeating the trainer at (17, 9) is the next step. (Outcome: Stuck in pre-battle dialogue loop).
+- **Hypothesis 4 (Current):** I am completely stuck. The state of the gym must be changed. Interacting with the very first quiz machine at (16, 8) again and intentionally answering incorrectly might activate one of the previously looping trainers.
+- **Test 4:** Return to the quiz machine at (16, 8), answer incorrectly, then check the trainers at (12, 5) and (17, 9) again.
