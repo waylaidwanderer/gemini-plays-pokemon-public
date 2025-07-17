@@ -141,10 +141,6 @@
 ### A. Procedural Discipline
 *   **Immediate Action:** I have previously deferred tasks like tool fixing and marker updates. This is an invalid strategy. All data management and tool refinement must be performed immediately upon discovery.
 
-## VII. Future Development Ideas
-*   **Agent Idea ('Stuck Advisor'):** Create an agent that analyzes the current goal, recent failed actions, and game state to suggest alternative strategies or goals when progress is stalled. This would help prevent getting stuck in loops.
-*   **Agent Idea ('Data Integrity Checker'):** Create an agent that can be run periodically to scan my notepad and map markers for inconsistencies, such as completed to-do items or unmarked warps, to help maintain data accuracy.
-
 ## VIII. Active Plans
 
 ### A. Get Item from Schoolboy Alan (Route 36)
