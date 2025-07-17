@@ -23,6 +23,8 @@
 - **Turn 79317:** On B1F, gates at (14,23) and (14,24) observed to be CLOSED.
 - **Turn 79360:** On B1F, gates at (27,18) and (28,18) observed to be CLOSED, trapping me in the eastern section.
 - **Turn 79427:** On B1F, gates at (17,17) and (18,17) re-confirmed OPEN.
+- **Turn 79438:** On B1F, gates at (27,18) and (28,18) confirmed CLOSED, blocking path.
+
 ## B. Tile Mechanics & Movement Rules
 - **open_gate:** A previously closed gate that is now open and acts as `ground`.
 - **closed_gate:** An impassable gate that is currently visible on the screen.
