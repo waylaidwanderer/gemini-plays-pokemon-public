@@ -25,12 +25,12 @@
 ## A. Pokémon Mansion
 - **Conclusion:** The two switches in the basement (at (21, 4) and (19, 26)) control the gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated. The puzzle is now solved.
 
-## B. Cinnabar Gym
-- **Hypothesis 1:** Answering a quiz question correctly will open the gate to the left, while answering incorrectly will force a battle and open the gate to the right.
-- **Test 1:** Answered the quiz at (16, 8) correctly ('YES').
-- **Outcome 1:** The gate to the right opened. The left gate remained closed.
-- **Conclusion 1:** Hypothesis 1 is **false**. The gym's path is linear. Answering a quiz correctly OR winning the subsequent battle opens the path to the next section.
-
-## C. Cinnabar Gym (Continued)
-- **Hypothesis 2:** I am stuck in a dialogue loop with the Super Nerd at (12, 5). This is likely because he is not the intended interaction. Instead, I must defeat the other accessible trainer on this floor, the Super Nerd at (17, 9), to trigger an event that will open the path forward (e.g., make the blocking NPC move).
-- **Test 2:** Navigate to and battle the Super Nerd at (17, 9).
+# IV. Active Puzzles
+## A. Cinnabar Gym
+- **Observation:** The gym is split into rooms separated by gates. Each room has trainers and a quiz machine. The first quiz machine at (16, 8) opens the gate to the eastern room regardless of the answer. The eastern room contains two trainers, one at (12, 5) and one at (17, 9), who initially appear to be in dialogue loops. The western room is blocked by closed gates.
+- **Hypothesis 1 (Failed):** Answering the first quiz correctly will open the left gate, while answering incorrectly will open the right gate.
+- **Test 1:** Answered quiz correctly. **Outcome:** Right gate opened. **Conclusion:** Hypothesis is false. The path is linear to the right.
+- **Hypothesis 2 (Failed):** The trainer at (12, 5) is the next step.
+- **Test 2:** Interacted with trainer at (12, 5). **Outcome:** Stuck in a dialogue loop. **Conclusion:** Hypothesis is false.
+- **Hypothesis 3 (Current):** The pre-battle dialogue for the trainer at (17, 9) was mistaken for a loop. The battle must be initiated and won to open the gates to the next section of the gym.
+- **Test 3:** Initiate battle with the trainer at (17, 9).
