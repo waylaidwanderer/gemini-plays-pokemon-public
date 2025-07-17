@@ -87,3 +87,5 @@
     *   **Test 2:** Moved to (4, 6) to push. **Result: FAILED.** Path blocked by trainer at (5, 5).
     *   **Hypothesis 3:** Interact with trainers *before* moving boulders.
     *   **Test 3 (Pending):** Reset puzzle, trigger it, then attempt to speak with all trainers.
+*   **Hypothesis 4:** The puzzle reset switch at (4, 8) will remove the defeated trainers as obstacles, allowing the puzzle to be solved.
+    *   **Test 4 (Pending):** Move to (4, 8) to trigger the reset.
