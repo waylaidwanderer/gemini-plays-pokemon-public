@@ -3,9 +3,9 @@
 ## I. World & Story
 
 ### A. Active Quests & Blockers
-*   **Get FIRE STONE from Schoolboy Alan:** I have a free inventory slot. I need to get to Route 36 and speak to him. The Fly command is unreliable, so I must walk.
+*   **Get FIRE STONE (Route 36):** My item bag is full. I must go to a Pokémon Center, use the PC to clear a space, and then return to Schoolboy Alan.
 *   **Heal the Sick Miltank (Route 39):** The Miltank in the barn needs 'lots of BERRIES'. I need to find a source of berries.
-*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. He insists I go to the Lake of Rage. This has been tested and did not work. **New Hypothesis:** The trigger is defeating the next Gym Leader, Pryce. **Test:** After obtaining the Glacier Badge, return to Mahogany Town and speak to the Fisher.
+*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. My initial hypothesis about needing to go to the Lake of Rage was incorrect. **New Hypothesis:** The trigger is defeating the next Gym Leader, Pryce, or another major story event in the region. **Test:** After the next major story progression, return to Mahogany Town and speak to the Fisher.
 
 ### B. Key NPCs
 *   **Professor Elm:** My quest giver in New Bark Town.
@@ -34,7 +34,7 @@
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
 *   **LEDGE_HOP_RIGHT:** One-way traversal. Can be jumped right but not entered from the left.
 *   **PIT:** One-way tile that causes a fall to the floor below.
-*   **COUNTER/MART_SHELF/BUOY/WHIRLPOOL:** Assumed impassable. **MUST TEST** by attempting to walk into them when next encountered.
+*   **COUNTER/MART_SHELF/BUOY/WHIRLPOOL:** Impassable. This has been verified.
 *   **PC:** Impassable. Interacted with by standing on the tile below it and facing up.
 *   **TREE/CUT_TREE:** Small trees can be cut with CUT, leaving an impassable stump. To use CUT, the player must be standing on an adjacent tile and facing the tree directly.
 *   **BOULDER:** Can be moved with STRENGTH.
@@ -46,7 +46,7 @@
 ### B. Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
 *   **HM01 (CUT):** Cuts small trees. Learned by Feraligatr.
-*   **HM02 (FLY):** Allows instant travel to previously visited towns. Received from Chuck's wife in Cianwood City. **Currently Unreliable.** **Hypothesis:** This is a story-based block, not a bug, possibly related to the Radio Tower or Lake of Rage events. **Test:** After the next major story progression (e.g., Mahogany Gym), attempt to use Fly again.
+*   **HM02 (FLY):** Allows instant travel to previously visited towns. Received from Chuck's wife in Cianwood City. **Currently Unreliable.** **Hypothesis:** This is a story-based block, not a bug, possibly related to the Radio Tower or the Mahogany Town Gym. **Test:** After defeating the Mahogany Gym Leader, attempt to use Fly again.
 *   **HM03 (SURF):** Allows travel over water. Learned by Feraligatr.
 *   **HM04 (STRENGTH):** Moves large boulders.
 *   **HM05 (FLASH):** Illuminates dark caves. Learned by Hoothoot.
@@ -72,9 +72,7 @@
 ### B. Automation & Agent Usage
 *   **Automation First:** For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is my last resort. If a tool fails, my top priority is to fix it, not to abandon it.
 *   **Agent Consultation:** I must make a conscious effort to use my defined agents when appropriate. Before performing complex reasoning, I will consider if a new agent could perform the task better.
-
-### C. Immediate Action Mandate (CRITICAL)
-*   As an LLM, I have no concept of 'later'. All data management tasks (updating this notepad, placing/deleting markers, fixing tools/agents) **MUST** be performed in the immediate turn of discovery. This is a non-negotiable, top-priority directive.
+*   **Immediate Action Mandate (CRITICAL):** As an LLM, I have no concept of 'later'. All data management tasks (updating this notepad, placing/deleting markers, fixing tools/agents) **MUST** be performed in the immediate turn of discovery. This is a non-negotiable, top-priority directive.
 
 ## IV. Battle and Pokemon Information
 
