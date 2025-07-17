@@ -37,5 +37,6 @@
 
 ## B. Cinnabar Gym
 - **Observation:** The gym is split into rooms separated by gates. The eastern corridor is a confirmed dead end with looping trainers. The western corridor is blocked by gates, but the game state indicates there are reachable unseen tiles behind them.
-- **Hypothesis (Current):** The quiz machine at (16, 8) is a binary switch. Answering correctly opens the eastern gates (confirmed). Answering incorrectly opens the western gates.
-- **Test:** Return to the quiz machine at (16, 8), answer incorrectly, and then attempt to pathfind into the western corridor.
+- **Hypothesis 1 (Failed):** The quiz machine at (16, 8) is a binary switch for the east/west gates. (Outcome: Answering incorrectly did not open the western gates.)
+- **Hypothesis 2 (Current):** Answering the quiz at (16, 8) incorrectly has changed the state of the *other* looping trainer at (12, 5), making them battle-ready.
+- **Test 2:** Pathfind to the trainer at (12, 5) and interact with them.
