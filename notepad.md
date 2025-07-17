@@ -145,3 +145,9 @@
 ## VII. Future Development Ideas
 *   **Agent Idea ('Puzzle Executioner'):** Create an agent that takes the JSON output from a solver tool (like `sokoban_solver`) and provides turn-by-turn instructions. For a 'move' step, it would specify the target coordinate. For a 'push' step, it would detail which boulder to face, the need to press 'A' to activate the HM, and the final push direction. This would offload the cognitive burden of tracking and executing complex plans, reducing manual error. (PRIORITY)
 *   **Agent Idea ('Stuck Advisor'):** Create an agent that analyzes the current goal, recent failed actions, and game state to suggest alternative strategies or goals when progress is stalled. This would help prevent getting stuck in loops.
+
+*   **LEDGE_HOP_DOWN:** One-way traversal. Can be jumped down but not climbed up.
+*   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
+
+## VIII. Future Development Ideas
+*   **Agent Idea ('Path Executor'):** Create an agent that takes the JSON output from a solver tool (like `pathfinder`) and executes the path turn-by-turn. If interrupted by a wild battle or other event, it should automatically re-run the `pathfinder` from the new current location to the original destination. This would automate tedious navigation and recovery from interruptions.
