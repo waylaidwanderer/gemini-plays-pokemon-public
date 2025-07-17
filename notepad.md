@@ -10,16 +10,6 @@
 - **Immediate Documentation:** All discoveries, plans, and state changes must be documented *immediately* in the notepad or with map markers to avoid hallucinations and redundant actions.
 
 # III. Game Intel
-## A. Tile Mechanics
-- `ground`: Walkable tile.
-- `impassable`: Walls, counters, etc. Cannot be entered.
-- `warp`: Teleports the player to a new location.
-- `open_gate`: A gate that is visibly open and acts as `ground`.
-- `closed_gate`: A gate that is visibly closed and acts as `impassable`.
-- `gate_offscreen`: A gate whose state is unknown. Must be treated as potentially open for pathfinding unless a marker indicates otherwise.
-- `ledge`: Can be jumped down, but not climbed up. Acts as ground when approached from above (Y-1), but as a wall from all other directions.
-- `hole`: Warps the player to a lower floor, usually into an isolated area.
-
 ## B. Confirmed ROM Hack Mechanics
 - **Type Matchups:** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire.
 - **Type Resistances:** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground.
