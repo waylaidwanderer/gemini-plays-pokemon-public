@@ -88,4 +88,4 @@
     *   **Hypothesis 3:** Interact with trainers *before* moving boulders.
     *   **Test 3 (Pending):** Reset puzzle, trigger it, then attempt to speak with all trainers.
 *   **Hypothesis 4:** The puzzle reset switch at (4, 8) will remove the defeated trainers as obstacles, allowing the puzzle to be solved.
-    *   **Test 4 (Pending):** Move to (4, 8) to trigger the reset.
+    *   **Test 4:** Moved to (4, 8) and stepped on the tile. **Result: FAILED.** The defeated trainers remained as obstacles. The switch had no visible effect.
