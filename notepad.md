@@ -28,3 +28,4 @@
 - **Known Bugs:** The `define_map_marker` tool is broken and cannot be fixed as it's a reserved name. Do not attempt to use it. Track spatial information in the notepad instead.
 - **Agent Idea:** Create a 'Puzzle State Analyst' agent to analyze map XML and propose puzzle-solving hypotheses.
 - The gate at (21, 18) on 1F is now confirmed open after toggling the switch on 3F.
+- The gate at (22, 18) on 1F is also confirmed open.
