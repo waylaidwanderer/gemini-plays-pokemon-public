@@ -34,10 +34,11 @@
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
 *   **LEDGE_HOP_RIGHT:** One-way traversal. Can be jumped right but not entered from the left.
 *   **PIT:** One-way tile that causes a fall to the floor below.
-*   **COUNTER/PC/MART_SHELF/BUOY/WHIRLPOOL:** Assumed impassable. **MUST TEST** by attempting to walk into them when next encountered.
+*   **COUNTER/MART_SHELF/BUOY/WHIRLPOOL:** Assumed impassable. **MUST TEST** by attempting to walk into them when next encountered.
+*   **PC:** Impassable. Interacted with by standing on the tile below it and facing up.
 *   **TREE/CUT_TREE:** Small trees can be cut with CUT, leaving an impassable stump. To use CUT, the player must be standing on an adjacent tile and facing the tree directly.
 *   **BOULDER:** Can be moved with STRENGTH.
-*   **HEADBUTT_TREE:** Interactable tree for finding Pokémon.
+*   **HEADBUTT_TREE:** Interactable tree for finding Pokémon. Impassable.
 *   **ROCK_SMASH_BOULDER:** Can be crushed with the move ROCK SMASH.
 *   **WARP_CARPET_DOWN/RIGHT/LEFT:** Directional warp tile. Activated by walking onto it from the opposite direction (e.g., walk left onto a WARP_CARPET_RIGHT tile).
 *   **FLOOR_UP_WALL:** Impassable from below, acts as a one-way ledge when approached from above.
@@ -49,6 +50,7 @@
 *   **HM03 (SURF):** Allows travel over water. Learned by Feraligatr.
 *   **HM04 (STRENGTH):** Moves large boulders.
 *   **HM05 (FLASH):** Illuminates dark caves. Learned by Hoothoot.
+*   **HM08 (ROCK SMASH):** Can be used to break certain rocks. Received from a Fisher on Route 36.
 *   **DIG:** Can be used to escape caves and some buildings, returning to the entrance. Disabled in Cianwood Gym.
 
 ### C. Other Systems
@@ -58,7 +60,7 @@
 *   **Day/Night Cycle:** Affects which Pokémon appear.
 *   **Bug-Catching Contest:** Held on Tuesdays, Thursdays, and Saturdays in the National Park.
 
-## III. Procedural Discipline & Methodology
+## III. Methodology & Automation
 
 ### A. The Scientific Method for Puzzles & Unknowns
 1.  **Observe:** Carefully analyze the situation's initial state using the map, object data, and any relevant NPC dialogue.
@@ -69,7 +71,7 @@
 
 ### B. Automation & Agent Usage
 *   **Automation First:** For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is my last resort. If a tool fails, my top priority is to fix it, not to abandon it.
-*   **Agent Consultation:** I must make a conscious effort to use my defined agents (`stuck_advisor`, `navigation_advisor`) when appropriate. Before performing complex reasoning, I will consider if a new agent could perform the task better.
+*   **Agent Consultation:** I must make a conscious effort to use my defined agents when appropriate. Before performing complex reasoning, I will consider if a new agent could perform the task better.
 
 ### C. Immediate Action Mandate (CRITICAL)
 *   As an LLM, I have no concept of 'later'. All data management tasks (updating this notepad, placing/deleting markers, fixing tools/agents) **MUST** be performed in the immediate turn of discovery. This is a non-negotiable, top-priority directive.
@@ -120,4 +122,4 @@
 *   **Route 42:** Mankey, Mareep, Flaaffy, Spearow, Fearow
 
 ### D. PC Storage
-*   **Items:** PSNCUREBERRY (x1), ICE BERRY (x1), MINT BERRY (x1), BURNT BERRY (x1), GREAT BALL (x1), ANTIDOTE (x1), PARLYZ HEAL (x1), AWAKENING (x1), POTION (x1), GUARD SPEC. (x1), X ATTACK (x1), X DEFEND (x1), X SPEED (x1), X SPECIAL (x1), DIRE HIT (x1), POKE BALL (x1), REPEL (x1), ESCAPE ROPE (x1), ETHER (x1), MAX ETHER (x1), REVIVE (x1), NUGGET (x1), PROTEIN (x1), IRON (x1), CARBOS (x1), CALCIUM (x1), HP UP (x1), RARE CANDY (x1), TM39 (SWIFT), TM13 (SNORE), TM41 (THUNDERPUNCH), TM48 (FIRE PUNCH), TM02 (HEADBUTT), TM08 (ROCK SMASH), TM45 (ATTRACT), TM21 (FRUSTRATION), TM27 (RETURN), TM12 (SWEET SCENT), TM35 (SLEEP TALK), TM49 (FURY CUTTER).
+*   **Items:** PSNCUREBERRY (x1), ICE BERRY (x1), MINT BERRY (x1), BURNT BERRY (x1), GREAT BALL (x1), ANTIDOTE (x1), PARLYZ HEAL (x1), AWAKENING (x1), POTION (x1), GUARD SPEC. (x1), X ATTACK (x1), X DEFEND (x1), X SPEED (x1), X SPECIAL (x1), DIRE HIT (x1), POKE BALL (x1), REPEL (x1), ESCAPE ROPE (x1), ETHER (x1), MAX ETHER (x1), REVIVE (x1), NUGGET (x1), PROTEIN (x1), IRON (x1), CARBOS (x1), CALCIUM (x1), HP UP (x1), RARE CANDY (x1), TM39 (SWIFT), TM13 (SNORE), TM41 (THUNDERPUNCH), TM48 (FIRE PUNCH), TM02 (HEADBUTT), TM45 (ATTRACT), TM21 (FRUSTRATION), TM27 (RETURN), TM12 (SWEET SCENT), TM35 (SLEEP TALK), TM49 (FURY CUTTER).
