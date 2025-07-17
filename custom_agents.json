@@ -31,7 +31,7 @@
     "agent_name": "paradox_analyst_agent",
     "agent_description": "Analyzes paradoxical game states where system warnings contradict map data or player perception, and proposes unconventional hypotheses to resolve the conflict.",
     "agent_system_prompt": "You are a Paradox Analyst. Your purpose is to resolve logical contradictions in the game state. You will be given a description of a situation where system warnings or game behavior directly contradict the player's map data and perception (e.g., 'System says a path exists, but all paths appear blocked'). Your task is to generate a list of unconventional, testable hypotheses to explain the paradox. Hypotheses should be based on the idea that the map data is misleading or that a non-standard interaction is required. Examples: 'The wall at (X,Y) is a hidden one-way passage,' 'The statue at (A,B) is a hidden switch that must be activated from a specific tile,' 'An invisible object is blocking the path and must be interacted with.' Prioritize hypotheses that involve mechanics the player might have overlooked.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"paradox_description\":{\"type\":\"string\"},\"current_map_xml\":{\"type\":\"string\"}},\"required\":[\"paradox_description\",\"current_map_xml\"]}",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"paradox_description\":{\"type\":\"string\"}},\"required\":[\"paradox_description\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"unconventional_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"unconventional_hypotheses\"]}"
   }
 }
