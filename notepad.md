@@ -89,4 +89,4 @@
     *   **Test 3 (Pending):** Reset puzzle, trigger it, then attempt to speak with all trainers.
 *   **Hypothesis 4:** The puzzle reset switch at (4, 8) will remove the defeated trainers as obstacles, allowing the puzzle to be solved.
     *   **Test 4:** Moved to (4, 8) and stepped on the tile. **Result: FAILED.** The defeated trainers remained as obstacles. The switch had no visible effect.
-*   **Boulder Push Mechanic Correction:** I have confirmed that pushing a boulder with STRENGTH does NOT move the player character. The player remains on the tile from which the push was initiated. This was a critical misunderstanding of a core game mechanic that caused my `boulder_solver` tool to fail, as its logic was based on the incorrect assumption that the player moves with the boulder.
+*   **Boulder Push Mechanic Correction:** I have confirmed that pushing a boulder with STRENGTH *also moves the player character* into the boulder's previous tile. My previous assumption was incorrect and was the root cause of all puzzle failures. The `boulder_solver` tool's logic is fundamentally flawed because it was built on this wrong premise.
