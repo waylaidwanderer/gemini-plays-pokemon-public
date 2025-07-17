@@ -15,11 +15,12 @@
 - **impassable:** Walls, objects, and other barriers. Cannot be entered.
 - **warp:** A tile that transports the player to another location.
 - **hole:** A warp tile that leads to a lower map area. Typically a one-way trip down.
-- **open_gate:** A previously closed gate that is now open and acts as `ground`.
-- **closed_gate:** An impassable gate that is currently visible on the screen. Treat as a wall.
-- **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding.
 - **teleport:** Instant warp tile within the same logical location (e.g., inside a building).
 - **spinner_up/down/left/right:** Forces movement in the specified direction.
+- **closed_gate:** An impassable gate that is currently visible on the screen. Treat as a wall.
+- **open_gate:** A previously closed gate that is now open and acts as `ground`.
+- **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding.
 
-# III. Pokémon Mansion Puzzle Log & Conclusion
+# III. Solved Puzzles
+## A. Pokémon Mansion
 - **Conclusion:** The two switches in the basement (at (21, 4) and (19, 26)) control the gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated. The puzzle is now solved.
