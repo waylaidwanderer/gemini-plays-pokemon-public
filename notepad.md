@@ -22,6 +22,6 @@
 - **spinner_up/down/left/right:** Forces movement in the specified direction.
 
 # III. Pokémon Mansion Puzzle Log & Hypothesis
-- **Current State:** Eastern gates (27,18) are OPEN. Western gates (14,23) & (14,24) are now OPEN. Northern gates (17,17) & (18,17) are CLOSED.
-- **Hypothesis (v3):** The switch at (19,26) cycles through at least three states, controlling the three sets of gates (Western, Northern, Eastern) in a complex sequence. The last flip opened the Western gates while keeping the Eastern ones open and the Northern ones closed. A new path to the west is now open.
+- **Current State:** Eastern gates (27,18) & (28,18) are OPEN. Western gates (14,23) & (14,24) are OPEN. Northern gates (17,17) & (18,17) are CLOSED. Central gates (10,7) & (10,8) are CLOSED.
+- **Hypothesis (v4):** The switch at (19,26) cycles through at least four states, controlling the four sets of gates (Western, Northern, Eastern, Central) in a complex sequence. The last flip opened the Western gates, and now another has opened the Eastern gates. The path to the west is the only remaining unexplored area.
 - **Next Test:** Explore the newly opened western area to reach the final unseen tiles on this floor.
