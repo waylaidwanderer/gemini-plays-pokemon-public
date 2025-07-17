@@ -13,15 +13,17 @@
 ## B. Tile Mechanics & Movement Rules
 - **Switch Interaction:** Switches must be activated by standing on the tile directly BELOW them (e.g., at (X, Y+1) for a switch at (X,Y)), facing UP, and then pressing A.
 - **gate_offscreen:** The state of these gates can change based on switch presses on any floor. Their state is only revealed when they come on-screen.
+- **Mansion Switches (1F & 2F):** These appear to operate on a toggle system. Pressing one switch opens one set of gates (e.g., western gates) while closing another (e.g., eastern gates). Pressing it again reverses this state.
+- **Mansion Gates (3F):** These appear to open and close automatically based on the player's position, independent of switches.
 
 # III. Pokémon Mansion Puzzle Log
 - **Current Goal:** Find the Secret Key.
 - **Overarching Strategy:** I will follow the 10-step plan provided by the `multi_floor_puzzle_strategist_agent`.
 
 ## A. Agent-Guided Strategic Plan
-- **Step 1 (In Progress):** Start on 1F and press the Switch at (3,6).
-- **Step 2:** Proceed to the Warp to 2F at (6,11).
-- **Step 3:** On 2F, press the Switch at (3,12).
+- **Step 1 (Complete):** Start on 1F and press the Switch at (3,6).
+- **Step 2 (Complete):** Proceed to the Warp to 2F at (6,11).
+- **Step 3 (In Progress):** On 2F, press the Switch at (3,12).
 - **Step 4:** Take a warp to 3F (e.g., at (8,11)).
 - **Step 5:** On 3F, press the Switch at (11,6).
 - **Step 6:** Use the Hole to 2F at (20,15).
