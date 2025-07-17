@@ -95,3 +95,4 @@ My previous approach to puzzles was unsystematic and resulted in significant was
     *   **Test:** Systematically explore Cianwood City and talk to every NPC.
 *   **Alternative Hypothesis:** The trigger is not in Cianwood. Progress in another quest (e.g., healing the Ampharos) might be required first. If the current test fails, I will pursue the SECRETMEDICINE quest.
 *   **SECRETMEDICINE:** My assumption is that defeating Chuck will make the Pharmacist provide the medicine. If not, I must re-explore the city for another trigger.
+*   **ROCK_SMASH_BOULDER:** Can be crushed with the move ROCK SMASH. (Hint from Cianwood Pokefan M)
