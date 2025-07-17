@@ -3,9 +3,9 @@
 ## I. World & Story
 
 ### A. Active Quests & Blockers
-*   **Get FIRE STONE from Schoolboy Alan:** My ITEM POCKET is full. I need to fly to a Pokémon Center, store items in the PC, and then return to him on Route 36.
+*   **Get FIRE STONE from Schoolboy Alan:** I have a free inventory slot. I need to fly to Route 36 and speak to him.
 *   **Heal the Sick Miltank (Route 39):** The Miltank in the barn needs 'lots of BERRIES'. I need to find a source of berries.
-*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. He insists I go to the Lake of Rage. I have already defeated the Red Gyarados and stopped Team Rocket, but he remains. My hypothesis that the Lake of Rage was the trigger is likely incorrect.
+*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. He insists I go to the Lake of Rage. My hypothesis that the Lake of Rage was the trigger is incorrect. An alternative hypothesis is that another, unrelated event is the trigger.
 
 ### B. Key NPCs
 *   **Professor Elm:** My quest giver in New Bark Town.
@@ -32,9 +32,6 @@
 *   **WARP_CARPET_DOWN:** Warp tile that requires facing down to activate.
 *   **WATER/SEA:** Traversable only with SURF. Can trigger wild encounters.
 *   **LEDGE/FLOOR_UP_WALL/LEDGE_HOP_DOWN:** One-way traversal. Can be jumped down but not climbed up.
-*   **LEDGE_HOP_DOWN:** One-way tile that can be jumped down but not climbed up.
-*   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
-*   **LEDGE_HOP_DOWN:** One-way tile that can be jumped down but not climbed up.
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
 *   **LEDGE_HOP_RIGHT:** One-way traversal. Can be jumped right but not entered from the left.
 *   **PIT:** One-way tile that causes a fall to the floor below.
@@ -126,7 +123,7 @@
 *   **Route 42:** Mankey, Mareep, Flaaffy, Spearow, Fearow
 
 ### D. PC Storage
-*   **Items:** BERRY (x1), PSNCUREBERRY (x1), ICE BERRY (x1), MINT BERRY (x1), BURNT BERRY (x1), GREAT BALL (x1), ANTIDOTE (x1), PARLYZ HEAL (x1), AWAKENING (x1), POTION (x1), GUARD SPEC. (x1), X ATTACK (x1), X DEFEND (x1), X SPEED (x1), X SPECIAL (x1), DIRE HIT (x1), POKE BALL (x1), REPEL (x1), ESCAPE ROPE (x1), ETHER (x1), MAX ETHER (x1), REVIVE (x1), NUGGET (x1), PROTEIN (x1), IRON (x1), CARBOS (x1), CALCIUM (x1), HP UP (x1), RARE CANDY (x1), TM39 (SWIFT), TM13 (SNORE), TM41 (THUNDERPUNCH), TM48 (FIRE PUNCH), TM02 (HEADBUTT), TM08 (ROCK SMASH), TM45 (ATTRACT), TM21 (FRUSTRATION), TM27 (RETURN), TM12 (SWEET SCENT), TM35 (SLEEP TALK), TM49 (FURY CUTTER).
+*   **Items:** PSNCUREBERRY (x1), ICE BERRY (x1), MINT BERRY (x1), BURNT BERRY (x1), GREAT BALL (x1), ANTIDOTE (x1), PARLYZ HEAL (x1), AWAKENING (x1), POTION (x1), GUARD SPEC. (x1), X ATTACK (x1), X DEFEND (x1), X SPEED (x1), X SPECIAL (x1), DIRE HIT (x1), POKE BALL (x1), REPEL (x1), ESCAPE ROPE (x1), ETHER (x1), MAX ETHER (x1), REVIVE (x1), NUGGET (x1), PROTEIN (x1), IRON (x1), CARBOS (x1), CALCIUM (x1), HP UP (x1), RARE CANDY (x1), TM39 (SWIFT), TM13 (SNORE), TM41 (THUNDERPUNCH), TM48 (FIRE PUNCH), TM02 (HEADBUTT), TM08 (ROCK SMASH), TM45 (ATTRACT), TM21 (FRUSTRATION), TM27 (RETURN), TM12 (SWEET SCENT), TM35 (SLEEP TALK), TM49 (FURY CUTTER).
 
 ## V. Strategy & Learnings
 
@@ -134,14 +131,13 @@
 *   **HM06 (Whirlpool) Hallucination:** I previously hallucinated receiving this HM. Its true location is unknown.
 *   **Pathing Logic:** My pathfinder tools failed repeatedly because I was giving them incorrect traversable tile types. I must ensure the `traversable_tiles` argument accurately reflects my current movement state (walking or surfing).
 *   **Cianwood Geography:** Cianwood City is split into two landmasses. The southern part where I initially arrived is an island. Progress to the northern part (where the gym is) requires using SURF.
-*   **Mahogany Gym Block:** The gym is blocked by a Fisher. My hypothesis is that a trigger at the Lake of Rage will move him. An alternative hypothesis is the trigger is elsewhere, possibly related to Schoolboy Alan on Route 36.
+*   **Mahogany Gym Block:** The gym is blocked by a Fisher. My hypothesis is that a trigger at the Lake of Rage will move him. An alternative hypothesis is the trigger is elsewhere, possibly related to another major quest.
 
-## VI. Procedural Learnings & Hypotheses
+### B. Procedural Discipline (Reinforced)
+*   **Immediate Action Mandate:** Deferring tasks (item management, tool fixing, data updates) is an invalid strategy. All such actions must be performed in the immediate turn of discovery. This is a critical lesson from past failures.
+*   **Rigorous Tile Testing:** I must explicitly test seemingly impassable tiles and objects to confirm they cannot be traversed. Assumptions are not enough.
 
-### A. Procedural Discipline
-*   **Immediate Action:** I have previously deferred tasks like tool fixing and marker updates. This is an invalid strategy. All data management and tool refinement must be performed immediately upon discovery.
-
-## VIII. Active Plans
+## VI. Active Plans
 
 ### A. Get Item from Schoolboy Alan (Route 36)
 1. **Fly to Route 36:** Travel to Route 36.
