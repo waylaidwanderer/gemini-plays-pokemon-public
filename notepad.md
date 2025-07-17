@@ -80,13 +80,5 @@
 *   **Rival Blockade on Route 40:** I incorrectly assumed I had to battle SILVA to pass him on Route 40. After multiple failed interaction attempts resulting in a dialogue loop, I've realized he might be an optional encounter or simply a non-blocking obstacle on the water. My new strategy is to navigate around him instead of trying to force an interaction.
 *   **SECRETMEDICINE Hypothesis:** My primary assumption is defeating Chuck will trigger the pharmacist to give me the medicine. Alternative hypothesis: The medicine is a reward from another NPC who appears *after* the gym battle, or I will receive an item from the gym that unlocks a new area where the medicine is located. Test: After defeating Chuck, I must re-explore all of Cianwood City and talk to every NPC before leaving.
 *   **Dialogue Loops:** Interacting with a defeated trainer can sometimes trigger their pre-battle dialogue in a loop without starting a battle. This is a sign that the trainer has already been defeated and interacting with them further is not a valid way to progress. Example: Black Belt Lung in Cianwood Gym.
-*   **Cianwood Gym Boulder Puzzle:**
-    *   **Hypothesis 1:** Push the leftmost boulder (3, 6) upwards.
-    *   **Test 1:** Moved to (3, 7) to push. **Result: FAILED.** Path blocked by wall at (3, 5).
-    *   **Hypothesis 2:** Push the middle boulder (4, 5) upwards.
-    *   **Test 2:** Moved to (4, 6) to push. **Result: FAILED.** Path blocked by trainer at (5, 5).
-    *   **Hypothesis 3:** Interact with trainers *before* moving boulders.
-    *   **Test 3 (Pending):** Reset puzzle, trigger it, then attempt to speak with all trainers.
-*   **Hypothesis 4:** The puzzle reset switch at (4, 8) will remove the defeated trainers as obstacles, allowing the puzzle to be solved.
-    *   **Test 4:** Moved to (4, 8) and stepped on the tile. **Result: FAILED.** The defeated trainers remained as obstacles. The switch had no visible effect.
+*   **Cianwood Gym Boulder Puzzle:** The puzzle is solved by pushing the central boulder at (4,7) upwards without triggering the extra trainers at (8,6). This requires approaching the boulder from below at (4,8) and using STRENGTH.
 *   **Boulder Push Mechanic Correction:** STRENGTH Mechanic Final Correction: To use STRENGTH, you must be adjacent to a boulder, face it, and press 'A'. This pushes the boulder one tile. The player character does NOT move with the boulder. This was the final piece of the puzzle.
