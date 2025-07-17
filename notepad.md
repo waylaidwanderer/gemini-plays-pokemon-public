@@ -33,6 +33,7 @@
 *   **WATER/SEA:** Traversable only with SURF. Can trigger wild encounters.
 *   **LEDGE/FLOOR_UP_WALL/LEDGE_HOP_DOWN:** One-way traversal. Can be jumped down but not climbed up.
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
+*   **LEDGE_HOP_RIGHT:** One-way traversal. Can be jumped right but not entered from the left.
 *   **PIT:** One-way tile that causes a fall to the floor below.
 *   **COUNTER/PC/MART_SHELF/BUOY/WHIRLPOOL:** Impassable obstacles. Interaction with some (PC, counter NPCs) requires standing on an adjacent tile.
 *   **TREE:** Small trees can be cut with CUT, leaving an impassable stump.
@@ -146,4 +147,3 @@
 ### A. Get Item from Schoolboy Alan (Route 36)
 1. **Fly to Route 36:** Travel to Route 36.
 2. **Speak to Alan:** Talk to Schoolboy Alan to receive the FIRE STONE.
-*   **LEDGE_HOP_RIGHT:** One-way traversal. Can be jumped right but not entered from the left.
