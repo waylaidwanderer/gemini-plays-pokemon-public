@@ -143,9 +143,6 @@
 ## VIII. Active Plans
 
 ### A. Get Item from Schoolboy Alan (Route 36)
-1. Finish exploring Elm's House to rule it out as a story trigger.
-2. Exit Elm's House to New Bark Town.
-3. **CRITICAL:** Mark the warp at (11, 13) in New Bark Town leading to Elm's House.
-4. Use Fly to travel to Violet City.
-5. Exit Violet City to the west to enter Route 36.
-6. Find Schoolboy Alan on Route 36 and interact with him.
+1.  **Travel to Violet City:** Complete. Flew from New Bark Town.
+2.  **Navigate to Route 36:** Exit Violet City to the west at (0, 9).
+3.  **Find Alan:** Locate Schoolboy Alan on Route 36 and interact with him to receive the item.
