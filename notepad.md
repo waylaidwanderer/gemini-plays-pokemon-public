@@ -27,3 +27,7 @@
 # IV. Cinnabar Gym Puzzle
 - The Cinnabar Gym is a 'Quiz Gym'.
 - Interacting with quiz machines triggers a question. Answering correctly opens the path forward without a battle. Answering incorrectly forces a battle with the associated trainer.
+
+# IV. Cinnabar Gym Puzzle
+- The Cinnabar Gym is a 'Quiz Gym'.
+- Interacting with quiz machines triggers a question. Answering correctly opens the path forward without a battle. Answering incorrectly forces a battle with the associated trainer.
