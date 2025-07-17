@@ -38,3 +38,4 @@
 - **Turn 79486:** On B1F, gates at (17,17) and (18,17) observed to be OPEN.
 - **Turn 79487:** On B1F, gates at (17,17) and (18,17) re-confirmed OPEN.
 - **Turn 79493:** Gates at (17,17) and (18,17) opened, revealing a path to the west. Old hypothesis about needing the switch is discarded. New Plan: Explore the western corridor to reach the unseen tiles.
+- **Turn 79509:** Movement interrupted, but it revealed that the gates at (17,17) and (18,17) are now OPEN. This is a huge breakthrough and confirms a new path to the west is available. All previous plans are obsolete. The new hypothesis is that the Secret Key is located in the unexplored western corridor.
