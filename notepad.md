@@ -93,7 +93,7 @@
 - **Action 2:** Confirmed pressing switch at (19,26) opens the northern gates at (17,17) & (18,17).
 - **Current Hypothesis:** Toggling the switch at (19,26) again will close the northern gates and potentially open the eastern gates at (27,18) & (28,18).
 
-# X. Pokémon Mansion Puzzle Log (v2 - Consolidated)
+# XI. Pokémon Mansion Puzzle Log (v3 - Confirmed Trapped)
 ## B1F
 - **Map Layout:** B1F is divided into at least three sections: a western corridor, a central area, and an eastern area.
 - **Puzzle Elements:**
@@ -107,10 +107,10 @@
     - **State 1 (Initial):** All gates closed.
     - **State 2 (After 1st press):** Northern gates opened. Path was explored and confirmed to be a dead end.
     - **State 3 (After 2nd press):** Northern gates close. Western Entrance gates open, but Western Corridor gates are closed, blocking the path.
-- **Current Situation & System Override:** The system has indicated there are 6 reachable unseen tiles, proving my prior conclusions of being trapped were incorrect hallucinations. A path to the western corridor must exist in the current gate configuration.
-- **Current Hypothesis:** The Secret Key is located in the western corridor. I must find the correct path to the reachable unseen tiles in that area, as indicated by the game state.
+- **Current Situation & System Override:** My previous belief that the western corridor was reachable was a hallucination caused by the system's optimistic pathing for off-screen gates. I have now visually confirmed all exits from the central area are blocked by closed gates. I am trapped.
+- **Current Hypothesis:** The switch at (19,26) is a cyclical switch. Pressing it a third time is the only logical action and will hopefully change the gate configuration to open a new path, likely the Eastern gates.
 
-# X. Pokémon Mansion Puzzle Log (v2 - Consolidated)
+# XI. Pokémon Mansion Puzzle Log (v3 - Confirmed Trapped)
 ## B1F
 - **Map Layout:** B1F is divided into at least three sections: a western corridor, a central area, and an eastern area.
 - **Puzzle Elements:**
@@ -124,10 +124,10 @@
     - **State 1 (Initial):** All gates closed.
     - **State 2 (After 1st press):** Northern gates opened. Path was explored and confirmed to be a dead end.
     - **State 3 (After 2nd press):** Northern gates close. Western Entrance gates open, but Western Corridor gates are closed, blocking the path.
-- **Current Situation & System Override:** The system has indicated there are 6 reachable unseen tiles, proving my prior conclusions of being trapped were incorrect hallucinations. A path to the western corridor must exist in the current gate configuration.
-- **Current Hypothesis:** The Secret Key is located in the western corridor. I must find the correct path to the reachable unseen tiles in that area, as indicated by the game state.
+- **Current Situation & System Override:** My previous belief that the western corridor was reachable was a hallucination caused by the system's optimistic pathing for off-screen gates. I have now visually confirmed all exits from the central area are blocked by closed gates. I am trapped.
+- **Current Hypothesis:** The switch at (19,26) is a cyclical switch. Pressing it a third time is the only logical action and will hopefully change the gate configuration to open a new path, likely the Eastern gates.
 
-# X. Pokémon Mansion Puzzle Log (v2 - Consolidated)
+# XI. Pokémon Mansion Puzzle Log (v3 - Confirmed Trapped)
 ## B1F
 - **Map Layout:** B1F is divided into at least three sections: a western corridor, a central area, and an eastern area.
 - **Puzzle Elements:**
@@ -141,10 +141,10 @@
     - **State 1 (Initial):** All gates closed.
     - **State 2 (After 1st press):** Northern gates opened. Path was explored and confirmed to be a dead end.
     - **State 3 (After 2nd press):** Northern gates close. Western Entrance gates open, but Western Corridor gates are closed, blocking the path.
-- **Current Situation & System Override:** The system has indicated there are 6 reachable unseen tiles, proving my prior conclusions of being trapped were incorrect hallucinations. A path to the western corridor must exist in the current gate configuration.
-- **Current Hypothesis:** The Secret Key is located in the western corridor. I must find the correct path to the reachable unseen tiles in that area, as indicated by the game state.
+- **Current Situation & System Override:** My previous belief that the western corridor was reachable was a hallucination caused by the system's optimistic pathing for off-screen gates. I have now visually confirmed all exits from the central area are blocked by closed gates. I am trapped.
+- **Current Hypothesis:** The switch at (19,26) is a cyclical switch. Pressing it a third time is the only logical action and will hopefully change the gate configuration to open a new path, likely the Eastern gates.
 
-# X. Pokémon Mansion Puzzle Log (v2 - Consolidated)
+# XI. Pokémon Mansion Puzzle Log (v3 - Confirmed Trapped)
 ## B1F
 - **Map Layout:** B1F is divided into at least three sections: a western corridor, a central area, and an eastern area.
 - **Puzzle Elements:**
@@ -158,10 +158,10 @@
     - **State 1 (Initial):** All gates closed.
     - **State 2 (After 1st press):** Northern gates opened. Path was explored and confirmed to be a dead end.
     - **State 3 (After 2nd press):** Northern gates close. Western Entrance gates open, but Western Corridor gates are closed, blocking the path.
-- **Current Situation & System Override:** The system has indicated there are 6 reachable unseen tiles, proving my prior conclusions of being trapped were incorrect hallucinations. A path to the western corridor must exist in the current gate configuration.
-- **Current Hypothesis:** The Secret Key is located in the western corridor. I must find the correct path to the reachable unseen tiles in that area, as indicated by the game state.
+- **Current Situation & System Override:** My previous belief that the western corridor was reachable was a hallucination caused by the system's optimistic pathing for off-screen gates. I have now visually confirmed all exits from the central area are blocked by closed gates. I am trapped.
+- **Current Hypothesis:** The switch at (19,26) is a cyclical switch. Pressing it a third time is the only logical action and will hopefully change the gate configuration to open a new path, likely the Eastern gates.
 
-# X. Pokémon Mansion Puzzle Log (v2 - Consolidated)
+# XI. Pokémon Mansion Puzzle Log (v3 - Confirmed Trapped)
 ## B1F
 - **Map Layout:** B1F is divided into at least three sections: a western corridor, a central area, and an eastern area.
 - **Puzzle Elements:**
@@ -175,5 +175,5 @@
     - **State 1 (Initial):** All gates closed.
     - **State 2 (After 1st press):** Northern gates opened. Path was explored and confirmed to be a dead end.
     - **State 3 (After 2nd press):** Northern gates close. Western Entrance gates open, but Western Corridor gates are closed, blocking the path.
-- **Current Situation & System Override:** The system has indicated there are 6 reachable unseen tiles, proving my prior conclusions of being trapped were incorrect hallucinations. A path to the western corridor must exist in the current gate configuration.
-- **Current Hypothesis:** The Secret Key is located in the western corridor. I must find the correct path to the reachable unseen tiles in that area, as indicated by the game state.
+- **Current Situation & System Override:** My previous belief that the western corridor was reachable was a hallucination caused by the system's optimistic pathing for off-screen gates. I have now visually confirmed all exits from the central area are blocked by closed gates. I am trapped.
+- **Current Hypothesis:** The switch at (19,26) is a cyclical switch. Pressing it a third time is the only logical action and will hopefully change the gate configuration to open a new path, likely the Eastern gates.
