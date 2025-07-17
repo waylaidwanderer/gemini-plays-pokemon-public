@@ -2,16 +2,17 @@
 
 ## I. World & Story
 
-### A. Key NPCs & Quests
-*   **Professor Elm:** Gave me my starter and the Pokémon Egg. Main quest giver.
-*   **Rival (SILVA):** My recurring rival. Stole a Pokémon from Prof. Elm.
-*   **Kurt (Azalea Town):** Makes special Poké Balls from Apricorns.
-*   **Day-Care Man (Route 34):** Gave me the ODD EGG.
-*   **Sick Miltank (Route 39):** Needs 'lots of BERRIES' to get better.
-*   **Sick Ampharos (Olivine Lighthouse):** Needs SECRETMEDICINE from Cianwood City. (Resolved)
-*   **Lance (Lake of Rage/Mahogany):** Helped stop Team Rocket's radio signal plot.
-*   **Schoolboy Alan (Route 36):** Has an item for me. (Current objective)
-*   **Fisher (Mahogany Town):** Blocking the gym. Says to go to Lake of Rage.
+### A. Active Quests & Blockers
+*   **Get FIRE STONE from Schoolboy Alan:** My ITEM POCKET is full. I need to fly to a Pokémon Center, store items in the PC, and then return to him on Route 36.
+*   **Heal the Sick Miltank (Route 39):** The Miltank in the barn needs 'lots of BERRIES'. I need to find a source of berries.
+*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. He insists I go to the Lake of Rage. I have already defeated the Red Gyarados and stopped Team Rocket, but he remains. My hypothesis that the Lake of Rage was the trigger is likely incorrect.
+
+### B. Key NPCs
+*   **Professor Elm:** My quest giver in New Bark Town.
+*   **Rival (SILVA):** My main rival.
+*   **Kurt (Azalea Town):** Crafts special Poké Balls from Apricorns.
+*   **Lance:** The Pokémon Champion. Helped me stop Team Rocket in Mahogany Town.
+*   **Day-Care Couple (Route 34):** They gave me the ODD EGG.
 
 ### B. Solved Puzzles
 *   **Sprout Tower:** Central pillar blocks direct ascent. Must go up the side ladders to the 3rd floor, then descend via the central ladder to reach the Elder.
