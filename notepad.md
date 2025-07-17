@@ -13,11 +13,9 @@
 ## B. Tile Mechanics & Movement Rules
 - **Switch Interaction:** Switches must be activated by standing on the tile directly BELOW them (e.g., at (X, Y+1) for a switch at (X,Y)), facing UP, and then pressing A.
 - **gate_offscreen:** The state of these gates can change based on switch presses on any floor. Their state is only revealed when they come on-screen.
-- **Mansion Switches:** Appear to operate on a toggle system. Pressing a switch reverses the state of associated gates. This needs further testing to confirm the exact interaction patterns between floors.
 
 # III. Pokémon Mansion Puzzle Log
 - **Current Goal:** Find the Secret Key.
-- **Mansion Switches:** Appear to operate on a toggle system. Pressing a switch reverses the state of associated gates. This needs further testing to confirm the exact interaction patterns between floors.
 
 # III. Pokémon Mansion Puzzle Log
 - **Current Goal:** Find the Secret Key.
