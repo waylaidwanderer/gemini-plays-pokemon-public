@@ -22,6 +22,6 @@
 - **spinner_up/down/left/right:** Forces movement in the specified direction.
 
 # III. Pokémon Mansion Puzzle Log & Hypothesis
-- **Current State:** I am trapped on Pokemon Mansion 1F in the eastern section. Gates at (21, 18) & (22, 18) are CLOSED, blocking the path west.
-- **Hypothesis (v7):** The puzzle state is controlled by switches on multiple floors. To escape my current predicament, I must return to the basement (B1F) via the warp at (22, 24) and interact with the switches there to change the gate configuration on 1F.
-- **Next Step:** Take the warp at (22, 24) to go to Pokemon Mansion B1F.
+- **Current State:** I am on Pokemon Mansion B1F. I was previously trapped on 1F because the gates at (21, 18) & (22, 18) closed behind me.
+- **Hypothesis (v8):** The two switches in the basement (at (21, 4) and (19, 26)) control the gates on all floors. I have now pressed both. My next step is to return to 1F to observe the new gate configuration and see if a path to the exit is now open.
+- **Untested Assumption:** The switches are simple toggles. I need to test if the order of presses matters to confirm this isn't a sequential puzzle.
