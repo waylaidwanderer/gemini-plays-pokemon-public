@@ -87,6 +87,7 @@
 - **Current Hypothesis:** Toggling the switch at (19,26) is the only logical action to alter the gate configuration and open a path forward.
 
 # VII. Puzzle Log (Consolidated)
-- **Current State:** Trapped in the eastern section of B1F by closed gates at (27,18) & (28,18).
-- **Failed Hypothesis:** The western corridor, accessed by opening gates at (17,17) & (18,17), was a dead end. No items or exits were found.
-- **Current Hypothesis:** The only reachable puzzle element is the switch at (19,26). Toggling this switch is the only logical action to alter the gate configuration and open a new path.
+- **Action:** Pressed switch at (19,26). **Outcome:** Northern gates at (17,17) & (18,17) opened, confirming it's a toggle switch for that set of gates. Eastern gates remained closed.
+- **Failed Hypothesis:** The western corridor, accessed by opening the northern gates, was confirmed to be a dead end.
+- **Current State:** Trapped in the central/eastern section of B1F by closed gates at (27,18) & (28,18).
+- **Current Hypothesis:** Toggling the switch at (19,26) *again* is the only logical action. This should close the northern gates and potentially open the eastern gates, changing the overall puzzle state.
