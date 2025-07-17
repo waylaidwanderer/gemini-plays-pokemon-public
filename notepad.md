@@ -21,12 +21,14 @@
     - The mansion contains a multi-floor switch puzzle. The state of gates depends on the sequence and location of switch activations.
     - The warps on 2F at (8,11) and (7,2) both lead back to 1F, not to 3F.
     - Interacting with the Super Nerd at (4,18) on 2F caused him to vanish and me to swap positions with him. This appears to have been a necessary trigger for the puzzle.
-- **Hypothesis 1 (Active):** The order of switch activations is the key to solving the puzzle. Activating the 1F switch *before* the 2F switch will produce a different outcome.
-- **Test 1 Plan:**
-    1. (COMPLETE) Activate the switch at (3,6) on 1F. This action closed the eastern gates at (17,8) and (18,8).
-    2. (COMPLETE) Travel to 2F via the warp at (6,11).
-    3. (COMPLETE) Activate the switch at (3,12) on 2F.
-    4. (IN PROGRESS) Observe any changes to the gates on 2F, specifically the ones at (10,5) and (10,6).
+- **Hypothesis 1 (Concluded):** The order of switch activations is the key to solving the puzzle.
+- **Test 1 Result:** Activating the 1F switch, then the 2F switch, resulted in the gates at (10,5) and (10,6) on 2F being **closed**. This path is blocked. Hypothesis is either incorrect or incomplete.
+
+- **Hypothesis 2 (Active):** The switches control the gates in a cyclical or combined state-based manner. A different sequence of activations is required.
+- **Test 2 Plan:**
+    1. (COMPLETE) State from Test 1: 1F switch activated, then 2F switch activated.
+    2. (IN PROGRESS) Travel back to 1F and activate the switch at (3,6) again.
+    3. Travel to 2F and observe the gates at (10,5) and (10,6).
 
     2. (COMPLETE) Travel to 2F via the warp at (6,11).
     3. (COMPLETE) Activate the switch at (3,12) on 2F.
