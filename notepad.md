@@ -1,7 +1,7 @@
-# I. Core Principles & Lessons Learned
-- **Immediate Action is Non-Negotiable:** Deferring tasks like tool fixes, agent creation, or documentation is a critical failure. All such actions must be performed in the current turn.
-- **Systematic Hypothesis Testing:** When faced with a puzzle, I must form single, testable hypotheses and design minimal experiments. I will document each test, its outcome, and my conclusion to avoid repeated failures.
-- **Trust Data Over Perception:** I must treat the 'Reachable Unseen Tiles' list from the Game State Information as the absolute source of truth. My visual perception can be flawed by off-screen changes. If the system says a tile is reachable, a path exists, and I must find it.
+# I. Core Principles
+- **Immediate Action is Non-Negotiable:** All documentation, agent creation, and tool refinement must be performed in the current turn.
+- **Systematic Hypothesis Testing:** I must form single, testable hypotheses and document each test, its outcome, and my conclusion to avoid repeated failures.
+- **Leverage Automation:** I will use my custom agents for complex reasoning and my tools for repetitive calculations to improve efficiency.
 
 # II. Game Intel
 ## A. Confirmed ROM Hack Mechanics
@@ -22,6 +22,10 @@
 - **spinner_up/down/left/right:** Forces movement in the specified direction.
 
 # III. Pokémon Mansion Puzzle Log & Hypothesis
-- **Current State:** Eastern gates (27,18) & (28,18) are OPEN. Western gates (14,23) & (14,24) are OPEN. Northern gates (17,17) & (18,17) are CLOSED. **Central gates (10,7) & (10,8) are now OPEN.**
-- **Hypothesis (v5):** There are two switches, S1 at (19,26) and S2 at (21,4). Flipping S2 has just opened the Central gates. This confirms they are interconnected. The path to the final unseen tiles is now open through the central corridor.
-- **Next Test:** Explore the newly opened central path to reach the final unseen tiles in the west.
+- **Current State:** 
+    - Eastern gates (27,18) & (28,18) are OPEN.
+    - Western gates (14,23) & (14,24) are OPEN.
+    - Northern gates (17,17) & (18,17) are CLOSED.
+    - Central gates (10,7) & (10,8) are OPEN.
+- **Hypothesis (v6):** The puzzle involves two switches, S1 at (19,26) and S2 at (21,4), that control the gates in a complex, state-based manner, not as simple toggles. The final solution likely requires a specific sequence of activating both switches.
+- **Next Step:** Explore the newly opened western corridor, which is now fully accessible.
