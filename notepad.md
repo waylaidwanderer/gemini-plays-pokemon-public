@@ -89,7 +89,9 @@ My previous approach to puzzles was unsystematic and resulted in significant was
 ### B. Automation First
 - For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is inefficient and will be my last resort.
 
-### C. Cianwood Gym Boulder Puzzle (New Findings)
-- My `puzzle_solver` tool has confirmed that from the initial puzzle state (after stepping on the trigger at (8, 6)), there is **no possible solution** to reach the Gym Leader. 
-- **New Hypothesis:** There must be a hidden switch or event within the gym that alters the puzzle state, making it solvable. My next course of action is to systematically re-investigate every interactable object in the gym to find this trigger.
-*   **Cianwood Gym Puzzle (External Trigger):** After exhausting all options inside the gym, my new hypothesis is that an external event or NPC interaction in Cianwood City is required to alter the boulder puzzle, making it solvable. I will now leave the gym and re-explore the entire city.
+### A. Current Plan & Hypotheses
+*   **Primary Goal:** Defeat Gym Leader Chuck. The boulder puzzle is currently unsolvable from within the gym.
+*   **Current Hypothesis:** An external event or NPC interaction in Cianwood City is required to alter the boulder puzzle, making it solvable.
+    *   **Test:** Systematically explore Cianwood City and talk to every NPC.
+*   **Alternative Hypothesis:** The trigger is not in Cianwood. Progress in another quest (e.g., healing the Ampharos) might be required first. If the current test fails, I will pursue the SECRETMEDICINE quest.
+*   **SECRETMEDICINE:** My assumption is that defeating Chuck will make the Pharmacist provide the medicine. If not, I must re-explore the city for another trigger.
