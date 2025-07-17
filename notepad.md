@@ -143,4 +143,3 @@
 *   **Agent Idea ('Stuck Advisor'):** Create an agent that analyzes the current goal, recent failed actions, and game state to suggest alternative strategies or goals when progress is stalled. This would help prevent getting stuck in loops.
 
 ## VIII. To-Do & Reminders
-*   Fix marker for Teacher in New Bark Town (needs object_id).
