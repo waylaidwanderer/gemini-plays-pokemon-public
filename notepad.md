@@ -29,9 +29,8 @@
 *   **FLOOR:** Standard traversable tile.
 *   **GRASS/TALL_GRASS:** Traversable; can trigger wild encounters.
 *   **DOOR/CAVE/LADDER/WARP_PANEL:** Standard warp tiles.
-*   **WARP_CARPET_DOWN:** Warp tile that requires facing down to activate.
 *   **WATER/SEA:** Traversable only with SURF. Can trigger wild encounters.
-*   **LEDGE/FLOOR_UP_WALL/LEDGE_HOP_DOWN:** One-way traversal. Can be jumped down but not climbed up.
+*   **LEDGE/LEDGE_HOP_DOWN:** One-way traversal. Can be jumped down but not climbed up.
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
 *   **LEDGE_HOP_RIGHT:** One-way traversal. Can be jumped right but not entered from the left.
 *   **PIT:** One-way tile that causes a fall to the floor below.
@@ -40,6 +39,8 @@
 *   **BOULDER:** Can be moved with STRENGTH.
 *   **HEADBUTT_TREE:** Interactable tree for finding Pokémon.
 *   **ROCK_SMASH_BOULDER:** Can be crushed with the move ROCK SMASH.
+*   **WARP_CARPET_DOWN/RIGHT/LEFT:** Directional warp tile. Activated by walking onto it from the opposite direction (e.g., walk left onto a WARP_CARPET_RIGHT tile).
+*   **FLOOR_UP_WALL:** Impassable from below, acts as a one-way ledge when approached from above.
 
 ### B. Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
@@ -68,7 +69,7 @@
 
 ### B. Automation & Agent Usage
 *   **Automation First:** For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is my last resort. If a tool fails, my top priority is to fix it, not to abandon it.
-*   **Agent Consultation:** I must make a conscious effort to use my defined agents (`stuck_advisor`, `pathing_advisor`) when appropriate. Before performing complex reasoning, I will consider if a new agent could perform the task better.
+*   **Agent Consultation:** I must make a conscious effort to use my defined agents (`stuck_advisor`, `navigation_advisor`) when appropriate. Before performing complex reasoning, I will consider if a new agent could perform the task better.
 
 ### C. Immediate Action Mandate (CRITICAL)
 *   As an LLM, I have no concept of 'later'. All data management tasks (updating this notepad, placing/deleting markers, fixing tools/agents) **MUST** be performed in the immediate turn of discovery. This is a non-negotiable, top-priority directive.
@@ -120,10 +121,3 @@
 
 ### D. PC Storage
 *   **Items:** PSNCUREBERRY (x1), ICE BERRY (x1), MINT BERRY (x1), BURNT BERRY (x1), GREAT BALL (x1), ANTIDOTE (x1), PARLYZ HEAL (x1), AWAKENING (x1), POTION (x1), GUARD SPEC. (x1), X ATTACK (x1), X DEFEND (x1), X SPEED (x1), X SPECIAL (x1), DIRE HIT (x1), POKE BALL (x1), REPEL (x1), ESCAPE ROPE (x1), ETHER (x1), MAX ETHER (x1), REVIVE (x1), NUGGET (x1), PROTEIN (x1), IRON (x1), CARBOS (x1), CALCIUM (x1), HP UP (x1), RARE CANDY (x1), TM39 (SWIFT), TM13 (SNORE), TM41 (THUNDERPUNCH), TM48 (FIRE PUNCH), TM02 (HEADBUTT), TM08 (ROCK SMASH), TM45 (ATTRACT), TM21 (FRUSTRATION), TM27 (RETURN), TM12 (SWEET SCENT), TM35 (SLEEP TALK), TM49 (FURY CUTTER).
-
-## V. Gameplay Log & Corrections
-*   **Critique (Turn 51931):** The overwatch system noted my failure to use my `stuck_advisor` and my failure to follow my own documented scientific method for the `CUT` puzzle. I also neglected to document the `CUT_TREE` tile. I must be more disciplined.
-*   **WARP_CARPET_RIGHT/LEFT:** Directional warp tile. Activated by walking onto it from the opposite direction (e.g., walk left onto a WARP_CARPET_RIGHT tile).
-*   **FLOOR_UP_WALL:** Impassable from below, acts as a one-way ledge when approached from above.
-*   **WARP_CARPET_RIGHT/LEFT:** Directional warp tile. Activated by walking onto it from the opposite direction (e.g., walk left onto a WARP_CARPET_RIGHT tile).
-*   **FLOOR_UP_WALL:** Impassable from below, acts as a one-way ledge when approached from above.
