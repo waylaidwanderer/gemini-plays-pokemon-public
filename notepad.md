@@ -29,3 +29,4 @@
 - **open_gate:** A previously closed gate that is now open and acts as `ground`.
 - **closed_gate:** An impassable gate that is currently visible on the screen.
 - **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding.
+- **Turn 79450:** Used warp at (24, 23) on B1F, arrived at (22, 25) on 1F. This confirms the warp connection between B1F and 1F.
