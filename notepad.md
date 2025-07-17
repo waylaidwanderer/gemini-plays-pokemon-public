@@ -133,3 +133,19 @@
 ### D. PC Storage
 *   **Items:** BERRY (x1), PSNCUREBERRY (x1), ICE BERRY (x1), MINT BERRY (x1), BURNT BERRY (x1), GREAT BALL (x1), ANTIDOTE (x1), PARLYZ HEAL (x1), AWAKENING (x1), POTION (x1), GUARD SPEC. (x1), X ATTACK (x1), X DEFEND (x1), X SPEED (x1), X SPECIAL (x1), DIRE HIT (x1), POKE BALL (x1), REPEL (x1), ESCAPE ROPE (x1), ETHER (x1), MAX ETHER (x1), REVIVE (x1), NUGGET (x1), PROTEIN (x1), IRON (x1), CARBOS (x1), CALCIUM (x1), HP UP (x1), RARE CANDY (x1), TM39 (SWIFT), TM13 (SNORE), TM41 (THUNDERPUNCH), TM48 (FIRE PUNCH), TM02 (HEADBUTT), TM08 (ROCK SMASH), TM45 (ATTRACT), TM21 (FRUSTRATION), TM27 (RETURN), TM12 (SWEET SCENT), TM35 (SLEEP TALK), TM49 (FURY CUTTER).
 *   **Alan (Route 36):** Has an item for me.
+
+## VII. Reflection Learnings (Turn 51039)
+
+### A. Procedural Discipline
+*   **Immediate Action:** I have previously deferred tasks like tool fixing and marker updates. This is an invalid strategy. All data management and tool refinement must be performed immediately upon discovery.
+
+### B. New Tile Mechanics to Document
+*   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
+
+### C. New Development Ideas
+*   **Agent Idea ('Stuck Advisor'):** Create an agent that analyzes the current goal, recent failed actions, and game state to suggest alternative strategies or goals when progress is stalled. This would help prevent getting stuck in loops.
+
+### D. Current Hypotheses & Tests
+*   **Primary Hypothesis:** Defeating the Mahogany Town Gym Leader is the trigger to unblock westward travel from the town (either by moving an NPC or fixing the Fly HM).
+*   **Test:** Immediately after defeating the Gym Leader, I will attempt to walk west out of town and then attempt to use Fly. If either works, the hypothesis is confirmed. If not, it is falsified.
+*   **Alternative Hypothesis:** The progression blocker is unrelated to the gym and is instead a missing key item or an un-talked-to NPC elsewhere in the world.
