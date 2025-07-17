@@ -45,3 +45,4 @@
 - Turn 79524: Explored the western corridor on B1F; it's a dead end. Hypothesis that the Secret Key was there is incorrect. New Hypothesis: The switch at (19, 26) must be toggled to change the gate states.
 - Turn 79524: Explored the western corridor on B1F; it's a dead end. Hypothesis that the Secret Key was there is incorrect. New Hypothesis: The switch at (19, 26) must be toggled to change the gate states.
 - Turn 79526: Gates at (27,18) and (28,18) are now CLOSED, trapping me in the eastern section. Western corridor is a dead end. New Hypothesis: Toggling the switch at (19, 26) is the only way to open a path forward.
+- Turn 79528: Explored the western corridor on B1F; it's a dead end. Hypothesis that the Secret Key was there is incorrect. New Hypothesis: The switch at (19, 26) must be toggled to change the gate states.
