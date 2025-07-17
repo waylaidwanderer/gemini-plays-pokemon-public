@@ -6,7 +6,8 @@
 *   **WALL/VOID:** Impassable boundary tiles.
 *   **FLOOR:** Standard traversable tile.
 *   **GRASS/TALL_GRASS:** Traversable; can trigger wild encounters.
-*   **DOOR/CAVE/LADDER/WARP_PANEL/WARP_CARPET_UP/WARP_CARPET_DOWN:** Traversable warp tiles. `WARP_CARPET_DOWN` requires facing down to activate.
+*   **DOOR/CAVE/LADDER/WARP_PANEL:** Standard warp tiles.
+*   **WARP_CARPET_DOWN:** Warp tile that requires facing down to activate.
 *   **WATER/SEA:** Traversable only with SURF. Can trigger wild encounters.
 *   **LEDGE/FLOOR_UP_WALL:** One-way traversal. Can be jumped down but not climbed up.
 *   **PIT:** One-way tile that causes a fall to the floor below.
@@ -59,9 +60,9 @@
 *   **Cianwood Geography:** Cianwood City is split into two landmasses. The southern part where I initially arrived is an island. Progress to the northern part (where the gym is) requires using SURF.
 
 ### B. Known Tool Issues
-*   **`sokoban_solver` Flaw:** My `sokoban_solver` tool was critically flawed, assuming the player moved with the boulder. I have redefined the tool with the correct logic: the player stays in place after a push.
+*   **`sokoban_solver` Flaw:** My `sokoban_solver` tool was critically flawed. I have redefined the tool with the correct logic: the player stays in place after a push.
 
-## IV. Puzzle Solving Methodology (Post-Critique Update)
+## IV. Puzzle Solving Methodology
 
 ### A. The Scientific Method for Puzzles
 1.  **Observe:** Carefully analyze the puzzle's initial state using the map, object data, and any relevant NPC dialogue. Document these initial observations.
