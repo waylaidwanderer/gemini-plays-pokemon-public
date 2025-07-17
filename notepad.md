@@ -23,3 +23,14 @@
 - The hole at (20,15) on 3F leads to the isolated room on 1F at (17,15).
 - Toggling the switch at (11,6) on 3F also opened the gate at (16,12) and (21,18) on 1F.
 - **Critical Lesson:** System warnings (e.g., 'not a dead end') are absolute truth, even if they contradict map data or pathfinding. This implies hidden passages or misleading tile types exist. I must trust the system over my own interpretation.
+
+# V. Pokémon Mansion Event Log (Consolidated)
+- **3F:** Pressed switch at (11,6). This is a toggle.
+- **1F:** Toggling 3F switch opened gates at (16,12) and (21,18).
+- **B1F:** Arrived from 1F warp (22,24 -> 24,23).
+- **B1F:** Pressed switch at (19,26). This is a toggle.
+- **B1F:** Gates at (17,17) and (18,17) are now OPEN.
+- **B1F:** Gates at (14,23) and (14,24) are now CLOSED.
+- **1F:** Gates at (21,18) and (22,18) are now OPEN.
+- **1F:** Gates at (25,14) and (26,14) are now CLOSED.
+- **B1F:** Gates at (27,18) and (28,18) are now CLOSED.
