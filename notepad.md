@@ -30,6 +30,7 @@
 - **Test 1:** Answered the quiz at (16, 8) correctly ('YES').
 - **Outcome 1:** The gate to the right opened. The left gate remained closed.
 - **Conclusion 1:** Hypothesis 1 is **false**. The gym's path is linear. Answering a quiz correctly OR winning the subsequent battle opens the path to the next section.
+
 ## C. Cinnabar Gym (Continued)
 - **Hypothesis 2:** I am stuck in a dialogue loop with the Super Nerd at (12, 5). This is likely because he is not the intended interaction. Instead, I must defeat the other accessible trainer on this floor, the Super Nerd at (17, 9), to trigger an event that will open the path forward (e.g., make the blocking NPC move).
 - **Test 2:** Navigate to and battle the Super Nerd at (17, 9).
