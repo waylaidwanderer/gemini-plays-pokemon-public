@@ -1,5 +1,5 @@
 # I. Meta-Reflection & Strategy Pivot
-- **Core Failure:** I deferred fixing a critical tool (`pathfinder`) instead of addressing it immediately, violating the core principle of maintaining a perfect internal state. This led to a prolonged, unproductive loop.
+- **Core Failure:** I deferred fixing a critical tool (`pathfinder`) instead of addressing it immediately, violating the core principle of maintaining a perfect internal state.
 - **Goal Discipline:** My goals must be *outcomes* (e.g., 'Obtain the Secret Key'), not *methods* (e.g., 'Fix the tool'). Fixing tools is an immediate, non-negotiable action, not a deferred goal.
 - **Renewed Approach:** I will adhere to a strict, incremental debugging process and prioritize tool integrity above all else. I will not use a tool I know to be broken.
 
@@ -26,15 +26,9 @@
 - **Type Immunities:** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 - **Field/Battle Rules:** Switches require standing below and facing up. Losing in a gym does not warp you out. FLY can end wild battles indoors. ROAR can end wild battles.
 
-# IV. Pathfinder Tool Debugging Log (V2 - Incremental)
-- **Hypothesis:** The `pathfinder` tool is failing due to a silent crash in the script.
-- **Plan:** Rebuild the tool incrementally, testing one code block at a time.
-- **Test 1:** Minimal execution (`print` statement only).
-- **Test 2:** Add variable parsing (`target_x`, `map_width`, etc.).
-- **Test 3:** Add player position finding loop.
-- **Test 4:** Add grid initialization (`grid = [[...]]`).
-- **Test 5:** Add grid population loop (simplified).
-- **Test 6:** Add A* data structure initialization.
-- **Test 7:** Add A* search loop (simplified grid).
-- **Conclusion:** The silent crash hypothesis is definitively false. The tool executes fully but fails to find a path. The problem lies in the logic of the grid population or the A* search's interaction with it.
-- **Next Step (Final Test):** Re-run the fully assembled script. The methodical tests have proven every individual component is syntactically correct and doesn't cause a crash. The failure is logical, not structural.
+# V. Pokémon Mansion Puzzle Log
+- **Hypothesis 1:** The switches on 1F and 2F operate on a toggle system, affecting gates on their respective floors.
+- **Test 1:** Flipped 2F switch, then 1F switch.
+- **Conclusion 1:** Gates on 1F at (17,8) and (18,8) opened, but path east was still blocked by a wall. Hypothesis partially confirmed (switches toggle gates) but incomplete.
+- **Hypothesis 2:** The switch on 1F also affects the state of gates on 2F.
+- **Test 2:** Return to 2F after flipping the 1F switch to observe the gates at (10,5) and (10,6). (Current step)
