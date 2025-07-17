@@ -64,7 +64,7 @@
 ## III. Strategy & Learnings
 
 ### A. Current Plan
-*   **Current Plan:** My primary goal is to find Gym Leader Jasmine. The Gym Guide confirmed she is at the top of the Olivine Lighthouse tending to a sick Ampharos. I must ascend the lighthouse to reach her.
+*   **Current Plan:** My primary goal is to obtain the SECRETMEDICINE from Cianwood City. I have been unable to ascend the Olivine Lighthouse, and I recall from a previous hint that the medicine is needed to heal the sick Ampharos, which will likely trigger an event with Jasmine. I must exit the lighthouse and travel west across the sea to Cianwood City.
 
 ### B. Corrected Assumptions & Critical Lessons
 *   **HM02 (Fly) Hallucination:** I hallucinated receiving HM02 from Chuck's wife in Cianwood City. I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown.
