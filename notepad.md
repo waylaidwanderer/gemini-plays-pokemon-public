@@ -26,22 +26,12 @@
 - **Type Immunities:** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 - **Field/Battle Rules:** Switches require standing below and facing up. Losing in a gym does not warp you out. FLY can end wild battles indoors. ROAR can end wild battles.
 
-# V. Pokémon Mansion Puzzle Log
-- **Observation:** The mansion puzzle involves interconnected switches on 1F and 2F.
-- **Hypothesis 1 (Failed):** Flipping the 2F switch, then the 1F switch, will open a path to the Secret Key.
-- **Test 1:** Flipped 2F switch at (3,12). Went to 1F. Flipped 1F switch at (3,6).
-- **Conclusion 2:** Attempts to use the 2F switch resulted in a loop. The solution does not appear to involve the 2F switch in this way. Hypothesis failed.
-- **Hypothesis 3 (Confirmed):** The switch at (3,6) on 1F toggles the state of the gates at (17,8) and (18,8).
-- **Conclusion 3:** The path forward is through the eastern gates, but the path is blocked by a wall at (17,11).
-- **Hypothesis 4 (Current):** I am missing an interaction or another switch. I will re-explore the entire accessible area of 1F.
-- **Test 4 Plan:**
-    1. Systematically explore all reachable areas on 1F to look for any missed clues or switches.
-
-# III. Pokémon Mansion Puzzle Strategy (Agent-Devised)
-- **Goal:** Find the Secret Key
-- **Step 1:** (1F) Activate the switch at (3,6).
-- **Step 2:** (1F) Use the warp at (6,11) to travel to 2F.
-- **Step 3:** (2F) Activate the switch at (3,12).
+# IV. Pokémon Mansion Puzzle Log & Strategy
+- **Current Goal:** Find the Secret Key.
+- **Confirmed Mechanic:** The switch at (3,6) on 1F toggles the state of the eastern gates at (17,8) and (18,8).
+- **Failed Agent Plan:** The agent's multi-step plan was invalidated. The warps on 2F at (8,11) and (7,2) both lead back to 1F, not to 3F as the plan suggested. This entire strategy is abandoned.
+- **Current Hypothesis:** I am missing an interaction or another switch. I will re-explore all accessible areas.
+- **Immediate Plan:** Talk to the Super Nerd at (4, 18) on 2F for a potential clue.
 - **Step 4 (FAILED):** Agent's plan to use warp at (8,11) on 2F was incorrect. It leads back to 1F.
 - **Step 5:** (3F) Activate the switch at (11,6).
 - **Step 6:** (3F) Intentionally fall through the 'Hole to 2F'.
