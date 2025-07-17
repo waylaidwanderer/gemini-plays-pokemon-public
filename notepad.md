@@ -35,8 +35,5 @@
 - **Hypothesis 5 (Current):** Answering the quiz at (16, 8) incorrectly has changed the state of the trainer at (17, 9), making them battle-ready.
 - **Test 5:** Interact with the trainer at (17, 9).
 
-## B. Cinnabar Gym
-- **Observation:** The gym is split into rooms separated by gates. The eastern corridor is a confirmed dead end with looping trainers. The western corridor is blocked by gates, but the game state indicates there are reachable unseen tiles behind them.
-- **Hypothesis 1 (Failed):** The quiz machine at (16, 8) is a binary switch for the east/west gates. (Outcome: Answering incorrectly did not open the western gates.)
-- **Hypothesis 2 (Current):** Answering the quiz at (16, 8) incorrectly has changed the state of the *other* looping trainer at (12, 5), making them battle-ready.
-- **Test 2:** Pathfind to the trainer at (12, 5) and interact with them.
+## C. Cinnabar Gym (Decoy)
+- **Conclusion:** The gym entered via the warp at (19, 4) is a complete red herring designed to waste time. It is an inescapable dead end. The true solution to entering the Cinnabar Gym is to find the SECRET KEY in the Pokémon Mansion and use it on the locked door on Cinnabar Island. This puzzle is now considered solved by this realization.
