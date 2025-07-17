@@ -20,5 +20,6 @@
 - **Goal:** Fully understand the logic of the two main switches.
 - **Hypothesis 1 (CONFIRMED):** The 1F switch at (3,6) operates on a simple toggle state. Pressing it reverses its previous effect on both the western gates (17,8)/(18,8) and the eastern gates (25,14)/(26,14).
 - **Hypothesis 2:** The 2F switch at (3,12) also affects the gates.
-- **Test 1.2 (Concluded - Part 1):** Pressed the 2F switch. **Outcome:** The western gates at (17,8)/(18,8) **closed**.
-- **Test 1.2 (Current Action):** Check the state of the eastern gates at (25,14)/(26,14).
+- **Test 1.2 (Concluded):** Pressed the 2F switch. **Outcome:** The western gates at (17,8)/(18,8) **closed**, and the eastern gates at (25,14)/(26,14) **opened**.
+- **Conclusion:** The switches are interconnected. The sequence `1F switch -> 2F switch` results in a unique gate state (Western closed, Eastern open), which allows access to the basement warp.
+- **Test 1.3 (Next Step):** Return to 1F and press the switch at (3,6) again. Observe the state of all known gates (including southern and exit gates).
