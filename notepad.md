@@ -43,3 +43,4 @@
 - Turn 79521: The gates at (17,17) and (18,17) are now OPEN, revealing a path to the west. My previous hypothesis about the switch is discarded. My new hypothesis is that the Secret Key is in this unexplored western corridor.
 - Turn 79521: The gates at (17,17) and (18,17) are now OPEN, revealing a path to the west. My previous hypothesis about the switch is discarded. My new hypothesis is that the Secret Key is in this unexplored western corridor.
 - Turn 79524: Explored the western corridor on B1F; it's a dead end. Hypothesis that the Secret Key was there is incorrect. New Hypothesis: The switch at (19, 26) must be toggled to change the gate states.
+- Turn 79524: Explored the western corridor on B1F; it's a dead end. Hypothesis that the Secret Key was there is incorrect. New Hypothesis: The switch at (19, 26) must be toggled to change the gate states.
