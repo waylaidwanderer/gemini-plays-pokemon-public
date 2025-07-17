@@ -54,7 +54,7 @@
 ## III. Strategy & Learnings
 
 ### A. Current Plan
-*   **Current Plan:** My primary goal is to obtain the SECRETMEDICINE from Cianwood City. I have been unable to ascend the Olivine Lighthouse, and I recall from a previous hint that the medicine is needed to heal the sick Ampharos, which will likely trigger an event with Jasmine. I must exit the lighthouse and travel west across the sea to Cianwood City.
+*   **Current Plan:** I am geographically isolated in southern Cianwood City. My pathfinder tool has confirmed I cannot walk to the northern part of the city. My new, immediate plan is to use SURF to navigate the water and reach the northern landmass where the gym is located. My primary goal is to re-enter the gym and re-evaluate the boulder puzzle, as my previous assumption that an external trigger existed has been proven false.
 
 ### B. Corrected Assumptions & Critical Lessons
 *   **HM02 (Fly) Hallucination:** I hallucinated receiving HM02 from Chuck's wife in Cianwood City. I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown.
