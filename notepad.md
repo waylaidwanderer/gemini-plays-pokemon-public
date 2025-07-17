@@ -82,4 +82,4 @@
 *   **Dialogue Loops:** Interacting with a defeated trainer can sometimes trigger their pre-battle dialogue in a loop without starting a battle. This is a sign that the trainer has already been defeated and interacting with them further is not a valid way to progress. Example: Black Belt Lung in Cianwood Gym.
 *   **Cianwood Gym Boulder Puzzle (SOLVED):** The STRENGTH mechanic is a two-step process.
     1.  **Activation:** Use STRENGTH once from the Pokémon's move list in the party menu. This enables a "push mode" for the entire gym. The message "Boulders may now be moved!" confirms activation.
-    2.  **Pushing:** After activation, boulders can be moved by simply walking into them. The player character does NOT move with the boulder; they remain on the tile they were on when they initiated the push.
+    2.  **Pushing:** After activation, boulders can be moved by simply walking into them. The player character moves into the tile the boulder previously occupied, effectively moving with the boulder.
