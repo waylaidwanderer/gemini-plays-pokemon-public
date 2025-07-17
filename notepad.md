@@ -3,9 +3,9 @@
 ## I. World & Story
 
 ### A. Active Quests & Blockers
-*   **Get FIRE STONE from Schoolboy Alan:** I have a free inventory slot. I need to fly to Route 36 and speak to him.
+*   **Get FIRE STONE from Schoolboy Alan:** I have a free inventory slot. I need to get to Route 36 and speak to him. The Fly command is unreliable, so I must walk.
 *   **Heal the Sick Miltank (Route 39):** The Miltank in the barn needs 'lots of BERRIES'. I need to find a source of berries.
-*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. He insists I go to the Lake of Rage. My hypothesis that the Lake of Rage was the trigger is incorrect. An alternative hypothesis is that another, unrelated event is the trigger.
+*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. He insists I go to the Lake of Rage. An alternative hypothesis is that another, unrelated event is the trigger.
 
 ### B. Key NPCs
 *   **Professor Elm:** My quest giver in New Bark Town.
@@ -14,7 +14,7 @@
 *   **Lance:** The Pokémon Champion. Helped me stop Team Rocket in Mahogany Town.
 *   **Day-Care Couple (Route 34):** They gave me the ODD EGG.
 
-### B. Solved Puzzles
+### C. Solved Puzzles
 *   **Sprout Tower:** Central pillar blocks direct ascent. Must go up the side ladders to the 3rd floor, then descend via the central ladder to reach the Elder.
 *   **Azalea Gym:** A spiderweb platform puzzle. Switches reconfigure the platforms. The correct sequence is left switch, then right switch.
 *   **Ilex Forest Farfetch'd:** Chase the Farfetch'd sprite by blocking its path to make it turn. Corner it to return it to its owner.
@@ -44,9 +44,9 @@
 ### B. Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
 *   **HM01 (CUT):** Cuts small trees. Learned by Feraligatr.
-*   **HM02 (FLY):** Allows instant travel to previously visited towns. Received from Chuck's wife in Cianwood City after defeating him.
+*   **HM02 (FLY):** Allows instant travel to previously visited towns. Received from Chuck's wife in Cianwood City. Currently seems to be bugged or blocked by a story event.
 *   **HM03 (SURF):** Allows travel over water. Learned by Feraligatr.
-*   **HM04 (STRENGTH):** Moves large boulders. See puzzle methodology for usage.
+*   **HM04 (STRENGTH):** Moves large boulders.
 *   **HM05 (FLASH):** Illuminates dark caves. Learned by Hoothoot.
 *   **DIG:** Can be used to escape caves and some buildings, returning to the entrance. Disabled in Cianwood Gym.
 
@@ -68,14 +68,6 @@
 
 ### B. Automation First
 *   For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is my last resort. If a tool fails, my top priority is to fix it, not to abandon it.
-
-### C. Cianwood Gym Boulder Puzzle (VERIFIED MECHANICS)
-1.  **Strength Activation (Multi-Step Process):** To push a boulder, you must first be standing on a tile adjacent to it and facing it. Then, press 'A' to bring up the 'Want to use STRENGTH?' YES/NO prompt. Select 'YES' to activate the HM. This puts you in a temporary 'push mode' for a single push, confirmed by the message 'Boulders may now be moved!'.
-2.  **The Push:** After confirmation, you must walk into the boulder to push it one tile. **CRITICAL: The player character MOVES INTO THE BOULDER'S PREVIOUS SPOT after a push.** The 'push mode' deactivates immediately, requiring the entire activation process to be repeated for the next push.
-3.  **Puzzle Trigger:** Walking onto the tile at (8, 6) triggers the appearance of Black Belts who block paths, making the puzzle unsolvable. This tile must be avoided until the boulders are in their final positions.
-4.  **Reset Mechanics:** The puzzle has two reset methods.
-    *   **Boulder Reset:** Stepping on the tile at (4, 8) resets **only** the boulders to their initial positions.
-    *   **Full Gym Reset:** Leaving the gym and re-entering resets **only** the spawned trainers, not the boulder positions.
 
 ## IV. Battle and Pokemon Information
 
@@ -100,7 +92,7 @@
 *   **Chuck's POLIWRATH:** Hypnosis, Mind Reader, Dynamicpunch
 
 ### C. Pokémon Locations
-*   **Route 29:** Sentret, Pidgey, Hoothoot
+*   **Route 29:** Sentret, Pidgey, Hoothoot, Hoppip, Rattata
 *   **Route 30:** Pidgey, Rattata, Caterpie, Metapod, Weedle, Kakuna, Ledyba
 *   **Route 31:** Pidgey, Rattata, Bellsprout, Gastly, Hoppip
 *   **Dark Cave:** Geodude, Zubat
@@ -131,14 +123,11 @@
 *   **HM06 (Whirlpool) Hallucination:** I previously hallucinated receiving this HM. Its true location is unknown.
 *   **Pathing Logic:** My pathfinder tools failed repeatedly because I was giving them incorrect traversable tile types. I must ensure the `traversable_tiles` argument accurately reflects my current movement state (walking or surfing).
 *   **Cianwood Geography:** Cianwood City is split into two landmasses. The southern part where I initially arrived is an island. Progress to the northern part (where the gym is) requires using SURF.
-*   **Mahogany Gym Block:** The gym is blocked by a Fisher. My hypothesis is that a trigger at the Lake of Rage will move him. An alternative hypothesis is the trigger is elsewhere, possibly related to another major quest.
+*   **Fly Malfunction:** The Fly command is currently unreliable, causing unexpected warps. **Hypothesis:** This is a story-based block, not a bug. **Test:** After the next major story progression (e.g., Mahogany Gym), attempt to use Fly again.
 
 ### B. Procedural Discipline (Reinforced)
 *   **Immediate Action Mandate:** Deferring tasks (item management, tool fixing, data updates) is an invalid strategy. All such actions must be performed in the immediate turn of discovery. This is a critical lesson from past failures.
 *   **Rigorous Tile Testing:** I must explicitly test seemingly impassable tiles and objects to confirm they cannot be traversed. Assumptions are not enough.
 
 ## VI. Active Plans
-
-### A. Get Item from Schoolboy Alan (Route 36)
-1. **Fly to Route 36:** Travel to Route 36.
-2. **Speak to Alan:** Talk to Schoolboy Alan to receive the FIRE STONE.
+*   **Walk to Cherrygrove City:** The first leg of the journey to Route 36.
