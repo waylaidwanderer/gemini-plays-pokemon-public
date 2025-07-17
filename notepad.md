@@ -16,9 +16,6 @@
 
 # III. Pokémon Mansion Puzzle Log
 - **Current Goal:** Find the Secret Key.
-
-# III. Pokémon Mansion Puzzle Log
-- **Current Goal:** Find the Secret Key.
 - **Critical Lesson:** System warnings (e.g., 'not a dead end') are absolute truth, even if they contradict map data or pathfinding. This implies hidden passages or misleading tile types exist. I must trust the system over my own interpretation.
 
 # V. Pokémon Mansion Event Log (Consolidated)
