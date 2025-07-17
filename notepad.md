@@ -28,4 +28,4 @@
     - Western Entrance Gates [(10,7), (10,8)]: Currently **CLOSED**.
     - Western Corridor Gates [(14,23), (14,24)]: Currently **OPEN**.
     - Eastern Gates [(27,18), (28,18)]: Currently **OPEN**.
-- **Current Hypothesis:** The basement switch at (19, 26) is a toggle that has now opened the eastern gates at (27,18) and (28,18). I will explore this new path first before attempting to re-open the western corridor.
+- **Current Hypothesis:** I was hallucinating that I was trapped. The system confirms there are 6 reachable unseen tiles in the western corridor. This must be the correct path to the Secret Key.
