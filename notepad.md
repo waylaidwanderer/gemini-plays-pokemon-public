@@ -37,6 +37,7 @@
     2. (NEXT) Travel to 2F via the warp at (6,11).
     3. Activate the switch at (3,12) on 2F.
     4. Observe any changes to the gates on 2F, specifically the ones at (10,5) and (10,6).
+
     2. (NEXT) Travel to 2F via the warp at (6,11).
     3. Activate the switch at (3,12) on 2F.
     4. Observe any changes to the gates on 2F, specifically the ones at (10,5) and (10,6).
