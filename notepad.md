@@ -20,6 +20,7 @@
 ### B. Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
 *   **HM01 (CUT):** Cuts small trees. Learned by Feraligatr.
+*   **HM02 (FLY):** Allows instant travel to previously visited towns. Received from Chuck's wife in Cianwood City after defeating him.
 *   **HM03 (SURF):** Allows travel over water. Learned by Feraligatr.
 *   **HM04 (STRENGTH):** Moves large boulders. See puzzle methodology for usage.
 *   **HM05 (FLASH):** Illuminates dark caves. Learned by Hoothoot.
@@ -54,7 +55,7 @@
 ## III. Strategy & Learnings
 
 ### A. Corrected Assumptions & Critical Lessons
-*   **HM02 (Fly) & HM06 (Whirlpool) Hallucinations:** I repeatedly hallucinated receiving these HMs. I have confirmed by checking my inventory that I DO NOT have them. Their true locations are unknown.
+*   **HM06 (Whirlpool) Hallucination:** I previously hallucinated receiving this HM. Its true location is unknown.
 *   **Pathing Logic:** My pathfinder tools failed repeatedly because I was giving them incorrect traversable tile types. I must ensure the `traversable_tiles` argument accurately reflects my current movement state (walking or surfing).
 *   **Cianwood Geography:** Cianwood City is split into two landmasses. The southern part where I initially arrived is an island. Progress to the northern part (where the gym is) requires using SURF.
 
