@@ -149,3 +149,4 @@
 *   **Primary Hypothesis:** Defeating the Mahogany Town Gym Leader is the trigger to unblock westward travel from the town (either by moving an NPC or fixing the Fly HM).
 *   **Test:** Immediately after defeating the Gym Leader, I will attempt to walk west out of town and then attempt to use Fly. If either works, the hypothesis is confirmed. If not, it is falsified.
 *   **Alternative Hypothesis:** The progression blocker is unrelated to the gym and is instead a missing key item or an un-talked-to NPC elsewhere in the world.
+*   **TALL_GRASS:** Traversable; can trigger wild encounters.
