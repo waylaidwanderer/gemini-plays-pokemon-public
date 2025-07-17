@@ -1,7 +1,7 @@
 # I. Core Principles & Lessons Learned
 - **Immediate Action is Non-Negotiable:** Deferring tasks like tool fixes, agent creation, or documentation is a critical failure. All such actions must be performed in the current turn.
-- **Systematic Testing:** When faced with a puzzle, I must form single, testable hypotheses and design minimal experiments to confirm or deny them. I will rigorously document each test and its outcome to avoid confirmation bias and repeated failures.
-- **Trust The Agent:** I have powerful custom agents for a reason. I must trust their analysis and plans over my own manual trial-and-error, especially for complex, multi-stage problems.
+- **Systematic Hypothesis Testing:** When faced with a puzzle, I must form single, testable hypotheses and design minimal experiments. I will document each test, its outcome, and my conclusion to avoid repeated failures.
+- **Trust But Verify Agents:** Agents provide powerful plans, but they may lack complete information. Follow their plans, but be prepared to pivot and gather more data when a plan fails.
 
 # II. Game Intel
 ## A. Confirmed ROM Hack Mechanics
@@ -13,24 +13,15 @@
 ## B. Tile Mechanics & Movement Rules
 - **Switch Interaction:** Switches must be activated by standing on the tile directly BELOW them (e.g., at (X, Y+1) for a switch at (X,Y)), facing UP, and then pressing A.
 - **gate_offscreen:** The state of these gates can change based on switch presses on any floor. Their state is only revealed when they come on-screen.
-- **Mansion Switches (1F & 2F):** These appear to operate on a toggle system. Pressing one switch opens one set of gates (e.g., western gates) while closing another (e.g., eastern gates). Pressing it again reverses this state.
-- **Mansion Gates (3F):** These appear to open and close automatically based on the player's position, independent of switches.
+- **Mansion Switches:** Appear to operate on a toggle system. Pressing a switch reverses the state of associated gates. This needs further testing to confirm the exact interaction patterns between floors.
 
 # III. Pokémon Mansion Puzzle Log
 - **Current Goal:** Find the Secret Key.
-- **Overarching Strategy:** I will follow the 10-step plan provided by the `multi_floor_puzzle_strategist_agent`.
+- **Original Agent Plan:** A 10-step plan was provided by `multi_floor_puzzle_strategist_agent`.
+- **Status:** Plan failed at Step 5. Pressing the switch at (11,6) on 3F resulted in a dead end.
+- **Current Hypothesis (Confirmed):** The switch at (11,6) on 3F is a toggle. Pressing it a second time reopened the path south.
+- **Next Step:** Resume the agent's plan, starting with Step 6: Use the Hole to 2F at (20,15).
 
-## A. Agent-Guided Strategic Plan
-- **Step 1 (Complete):** Start on 1F and press the Switch at (3,6).
-- **Step 2 (Complete):** Proceed to the Warp to 2F at (6,11).
-- **Step 3 (In Progress):** On 2F, press the Switch at (3,12).
-- **Step 4:** Take a warp to 3F (e.g., at (8,11)).
-- **Step 5:** On 3F, press the Switch at (11,6).
-- **Step 6:** Use the Hole to 2F at (20,15).
-- **Step 7:** From the new area on 2F, use the Hole to 1F at (17,15).
-- **Step 8:** In the new area on 1F, take the Warp to B1F at (22,24).
-- **Step 9:** In the basement, press the final Switch at (19,26).
-- **Step 10:** Explore the newly accessible rooms to find the Secret Key.
-
-# IV. Known Bugs & Tool Issues
-- **`define_map_marker` is broken:** The tool consistently fails with an 'invalid emoji' error, even with standard ASCII characters. Do not attempt to use this tool until it is fixed. Rely on notepad for spatial tracking.
+# IV. Tool & Agent Development
+- **Known Bugs:** The `define_map_marker` tool is broken and cannot be fixed as it's a reserved name. Do not attempt to use it. Track spatial information in the notepad instead.
+- **Agent Idea:** Create a 'Puzzle State Analyst' agent to analyze map XML and propose puzzle-solving hypotheses.
