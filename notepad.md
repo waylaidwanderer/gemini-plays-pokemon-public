@@ -29,7 +29,7 @@
 *   **DOOR/CAVE/LADDER/WARP_PANEL:** Standard warp tiles.
 *   **WARP_CARPET_DOWN:** Warp tile that requires facing down to activate.
 *   **WATER/SEA:** Traversable only with SURF. Can trigger wild encounters.
-*   **LEDGE/FLOOR_UP_WALL:** One-way traversal. Can be jumped down but not climbed up.
+*   **LEDGE/FLOOR_UP_WALL/LEDGE_HOP_DOWN:** One-way traversal. Can be jumped down but not climbed up.
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
 *   **PIT:** One-way tile that causes a fall to the floor below.
 *   **COUNTER/PC/MART_SHELF/BUOY/WHIRLPOOL:** Impassable obstacles. Interaction with some (PC, counter NPCs) requires standing on an adjacent tile.
@@ -128,26 +128,16 @@
 *   **HM06 (Whirlpool) Hallucination:** I previously hallucinated receiving this HM. Its true location is unknown.
 *   **Pathing Logic:** My pathfinder tools failed repeatedly because I was giving them incorrect traversable tile types. I must ensure the `traversable_tiles` argument accurately reflects my current movement state (walking or surfing).
 *   **Cianwood Geography:** Cianwood City is split into two landmasses. The southern part where I initially arrived is an island. Progress to the northern part (where the gym is) requires using SURF.
+*   **Mahogany Gym Block:** The gym is blocked by a Fisher. My hypothesis is that a trigger at the Lake of Rage will move him. An alternative hypothesis is the trigger is elsewhere, possibly related to Schoolboy Alan on Route 36.
 
 ### B. Known Tool Issues
-*   **`pathfinder` Flaw:** The current `pathfinder` tool cannot find a path to a traversable tile adjacent to an impassable destination. It will incorrectly report 'No path found.' This needs to be fixed.
+*   **`pathfinder` Flaw:** The current `pathfinder` tool cannot find a path to a traversable tile adjacent to an impassable destination. It will incorrectly report 'No path found.' This needs to be fixed. (ACTION: Fixing now)
 
 ## VI. Procedural Learnings & Hypotheses
 
 ### A. Procedural Discipline
 *   **Immediate Action:** I have previously deferred tasks like tool fixing and marker updates. This is an invalid strategy. All data management and tool refinement must be performed immediately upon discovery.
 
-### B. Current Hypotheses & Tests
-*   **Primary Hypothesis:** Defeating the Mahogany Town Gym Leader is the trigger to unblock westward travel from the town (either by moving an NPC or fixing the Fly HM).
-*   **Test:** Immediately after defeating the Gym Leader, I will attempt to walk west out of town and then attempt to use Fly. If either works, the hypothesis is confirmed. If not, it is falsified.
-*   **Alternative Hypothesis:** The progression blocker is unrelated to the gym and is instead a missing key item or an un-talked-to NPC elsewhere in the world.
-
 ## VII. Future Development Ideas
-*   **Agent Idea ('Puzzle Executioner'):** Create an agent that takes the JSON output from a solver tool (like `sokoban_solver`) and provides turn-by-turn instructions. For a 'move' step, it would specify the target coordinate. For a 'push' step, it would detail which boulder to face, the need to press 'A' to activate the HM, and the final push direction. This would offload the cognitive burden of tracking and executing complex plans, reducing manual error. (PRIORITY)
+*   **Agent Idea ('Path Executor'):** Create an agent that takes the JSON output from a solver tool (like `pathfinder`) and executes the path turn-by-turn. If interrupted by a wild battle or other event, it should automatically re-run the `pathfinder` from the new current location to the original destination. This would automate tedious navigation and recovery from interruptions. (ACTION: Creating now)
 *   **Agent Idea ('Stuck Advisor'):** Create an agent that analyzes the current goal, recent failed actions, and game state to suggest alternative strategies or goals when progress is stalled. This would help prevent getting stuck in loops.
-
-*   **LEDGE_HOP_DOWN:** One-way traversal. Can be jumped down but not climbed up.
-*   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
-
-## VIII. Future Development Ideas
-*   **Agent Idea ('Path Executor'):** Create an agent that takes the JSON output from a solver tool (like `pathfinder`) and executes the path turn-by-turn. If interrupted by a wild battle or other event, it should automatically re-run the `pathfinder` from the new current location to the original destination. This would automate tedious navigation and recovery from interruptions.
