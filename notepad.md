@@ -21,14 +21,11 @@
 - **open_gate:** A previously closed gate that is now open and acts as `ground`.
 - **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding.
 
-# III. Solved Puzzles
-## A. Pokémon Mansion
-- **Conclusion:** The two switches in the basement (at (21, 4) and (19, 26)) control the gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated. The puzzle is now solved.
+# III. Puzzle Log
+## A. Pokémon Mansion (Solved)
+- **Conclusion:** The two switches in the basement (at (21, 4) and (19, 26)) control the gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated.
 
-## B. Cinnabar Gym (Systematic Analysis)
-- **Objective:** To map the puzzle's logic by logging every interaction and its outcome for the `puzzle_log_analyzer_agent`.
+## B. Cinnabar Gym (Current Investigation)
+- **Objective:** To map the puzzle's logic by systematically logging every interaction and its outcome for the `puzzle_log_analyzer_agent`.
 - **Methodology:** Interact with each quiz machine and trainer. After each action, use the `puzzle_state_analyzer` to get the current state of all gates and log the observation.
 - **Log:**
-
-# IV. Active Puzzles
-(No active puzzles)
