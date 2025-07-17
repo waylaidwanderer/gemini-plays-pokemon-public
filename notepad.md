@@ -20,11 +20,9 @@
 ### B. Key Items & HM Usage
 *   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
 *   **HM01 (CUT):** Cuts small trees. Learned by Feraligatr.
-*   **HM02 (FLY):** Allows fast travel. **LOCATION UNKNOWN.**
 *   **HM03 (SURF):** Allows travel over water. Learned by Feraligatr.
 *   **HM04 (STRENGTH):** Moves large boulders. See puzzle methodology for usage.
 *   **HM05 (FLASH):** Illuminates dark caves. Learned by Hoothoot.
-*   **HM06 (WHIRLPOOL):** Allows crossing whirlpools. **LOCATION UNKNOWN.**
 *   **DIG:** Can be used to escape caves and some buildings, returning to the entrance. Disabled in Cianwood Gym.
 
 ### C. Other Systems
@@ -42,6 +40,7 @@
 *   **Ilex Forest Farfetch'd:** Chase the Farfetch'd sprite by blocking its path to make it turn. Corner it to return it to its owner.
 *   **Goldenrod Gym:** A maze with trainers that appear and disappear. The path is a spiral shape resembling a Clefairy.
 *   **Ecruteak Gym:** An invisible path puzzle. Requires careful trial and error to find the safe path to the Gym Leader.
+*   **Cianwood Gym Boulder Puzzle:** Solved by understanding the multi-step STRENGTH activation and that the player moves into the boulder's previous spot. Trainers blocking the path required a gym reset.
 
 ### B. Key NPCs & Quests
 *   **Professor Elm:** Gave me my starter and the Pokémon Egg. Main quest giver.
@@ -55,12 +54,12 @@
 ## III. Strategy & Learnings
 
 ### A. Corrected Assumptions & Critical Lessons
-*   **HM02 (Fly) & HM06 (Whirlpool) Hallucinations:** I hallucinated receiving these HMs. I have confirmed by checking my inventory that I DO NOT have them. Their true locations are unknown.
+*   **HM02 (Fly) & HM06 (Whirlpool) Hallucinations:** I repeatedly hallucinated receiving these HMs. I have confirmed by checking my inventory that I DO NOT have them. Their true locations are unknown.
 *   **Pathing Logic:** My pathfinder tools failed repeatedly because I was giving them incorrect traversable tile types. I must ensure the `traversable_tiles` argument accurately reflects my current movement state (walking or surfing).
 *   **Cianwood Geography:** Cianwood City is split into two landmasses. The southern part where I initially arrived is an island. Progress to the northern part (where the gym is) requires using SURF.
 
 ### B. Future Development Ideas
-*   **Agent Idea ('Puzzle Executioner'):** Create an agent that takes the JSON output from a solver tool (like `sokoban_solver`) and provides turn-by-turn instructions. For a 'move' step, it would specify the target coordinate. For a 'push' step, it would detail which boulder to face, the need to press 'A' to activate the HM, and the final push direction. This would offload the cognitive burden of tracking and executing complex plans, reducing manual error.
+*   **Agent Idea ('Puzzle Executioner'):** Create an agent that takes the JSON output from a solver tool (like `sokoban_solver`) and provides turn-by-turn instructions. For a 'move' step, it would specify the target coordinate. For a 'push' step, it would detail which boulder to face, the need to press 'A' to activate the HM, and the final push direction. This would offload the cognitive burden of tracking and executing complex plans, reducing manual error. (PRIORITY)
 
 ## IV. Puzzle Solving Methodology
 
@@ -83,7 +82,7 @@
     *   **Full Gym Reset:** Leaving the gym and re-entering resets **only** the spawned trainers, not the boulder positions.
 
 ## V. Known Tool Issues
-*   **`sokoban_solver` Flaw:** My `sokoban_solver` tool has shown repeated issues. It was not correctly modeling the player's movement (or lack thereof) during a push. This has been corrected.
+*   **`pathfinder` Flaw:** The current `pathfinder` tool cannot find a path to a traversable tile adjacent to an impassable destination. It will incorrectly report 'No path found.' This needs to be fixed.
 
 ## VI. Battle and Pokemon Information
 
