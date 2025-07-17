@@ -31,6 +31,22 @@
     },
     "python_script": "effectiveness_map = {\"super effective\": \">\", \"not very effective\": \"!>\", \"no effect\": \"x>\"}\nsymbol = effectiveness_map[input_data[\"effectiveness\"]]\ndefender_type2_str = f'/{input_data[\"defender_type2\"]}' if input_data.get(\"defender_type2\") else \"\"\nlog_entry = f'- {input_data[\"attacker_type\"]} {symbol} {input_data[\"defender_type1\"]}{defender_type2_str}'\nprint(log_entry)"
   },
+  "exploration_path_planner": {
+    "description": "Calculates an efficient path to visit a list of coordinates, starting from the player's current position. Uses a nearest-neighbor greedy algorithm. The input should be a comma-separated string of coordinates, e.g., 'x1,y1,x2,y2'.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "coordinates": {
+          "type": "string",
+          "description": "Comma-separated list of target coordinates, e.g., x1,y1,x2,y2"
+        }
+      },
+      "required": [
+        "coordinates"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport math\n\ndef exploration_planner(map_xml_string, input_data):\n    root = ET.fromstring(map_xml_string)\n    player_pos = None\n    for row_elem in root.findall('Row'):\n        for tile_elem in row_elem.findall('Tile'):\n            if tile_elem.get('has-player') == 'true':\n                player_pos = (int(tile_elem.get('id')), int(row_elem.get('id')))\n                break\n        if player_pos:\n            break\n\n    if not player_pos:\n        print(\"Exploration Planner Error: Player position not found.\")\n        return\n\n    try:\n        coords_str = input_data['coordinates']\n        parts = [int(c.strip()) for c in coords_str.split(',')]\n        target_coords = list(zip(parts[0::2], parts[1::2]))\n    except (ValueError, KeyError, IndexError) as e:\n        print(f\"Exploration Planner Error: Invalid coordinates input. {e}\")\n        return\n\n    unvisited = set(target_coords)\n    path = []\n    current_pos = player_pos\n\n    while unvisited:\n        def manhattan_distance(p1, p2):\n            return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])\n\n        nearest_coord = min(unvisited, key=lambda p: manhattan_distance(current_pos, p))\n        path.append(nearest_coord)\n        unvisited.remove(nearest_coord)\n        current_pos = nearest_coord\n\n    path_str = ','.join([f'({p[0]},{p[1]})' for p in path])\n    print(f\"Optimal exploration path: [{path_str}]\")\n\nexploration_planner(map_xml_string, input_data)"
+  },
   "inventory_scanner": {
     "description": "Scans the player's inventory list for a target item and returns whether it was found.",
     "input_schema": {
@@ -76,21 +92,5 @@
     "description": "Parses the map_xml_string to find all puzzle-related objects (switches, gates) and reports their current state (open, closed, offscreen) and coordinates. This helps in analyzing complex, multi-map puzzles.",
     "input_schema": {},
     "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef puzzle_analyzer(map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    map_name = root.get('name')\n    \n    puzzle_elements = {\n        \"switches\": [],\n        \"gates\": []\n    }\n\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            tile_type = tile_elem.get('type')\n            \n            # Find gates\n            if 'gate' in tile_type:\n                puzzle_elements[\"gates\"].append({\n                    \"coordinate\": f\"({x}, {y})\",\n                    \"status\": tile_type\n                })\n            \n            # Find switches\n            # This looks for any object associated with the switch script name\n            switch_obj = tile_elem.find(\"./Object[@name='Mansion4Script_Switches']\")\n            if switch_obj is not None:\n                puzzle_elements[\"switches\"].append({\n                    \"coordinate\": f\"({x}, {y})\"\n                })\n\n    print(json.dumps({map_name: puzzle_elements}, indent=2))\n\npuzzle_analyzer(map_xml_string)"
-  },
-  "exploration_path_planner": {
-    "description": "Calculates an efficient path to visit a list of coordinates, starting from the player's current position. Uses a nearest-neighbor greedy algorithm. The input should be a comma-separated string of coordinates, e.g., 'x1,y1,x2,y2'.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "coordinates": {
-          "type": "string",
-          "description": "Comma-separated list of target coordinates, e.g., x1,y1,x2,y2"
-        }
-      },
-      "required": [
-        "coordinates"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport math\n\ndef exploration_planner(map_xml_string, input_data):\n    root = ET.fromstring(map_xml_string)\n    player_pos = None\n    for row_elem in root.findall('Row'):\n        for tile_elem in row_elem.findall('Tile'):\n            if tile_elem.get('has-player') == 'true':\n                player_pos = (int(tile_elem.get('id')), int(row_elem.get('id')))\n                break\n        if player_pos:\n            break\n\n    if not player_pos:\n        print(\"Exploration Planner Error: Player position not found.\")\n        return\n\n    try:\n        coords_str = input_data['coordinates']\n        parts = [int(c.strip()) for c in coords_str.split(',')]\n        target_coords = list(zip(parts[0::2], parts[1::2]))\n    except (ValueError, KeyError, IndexError) as e:\n        print(f\"Exploration Planner Error: Invalid coordinates input. {e}\")\n        return\n\n    unvisited = set(target_coords)\n    path = []\n    current_pos = player_pos\n\n    while unvisited:\n        def manhattan_distance(p1, p2):\n            return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])\n\n        nearest_coord = min(unvisited, key=lambda p: manhattan_distance(current_pos, p))\n        path.append(nearest_coord)\n        unvisited.remove(nearest_coord)\n        current_pos = nearest_coord\n\n    path_str = ','.join([f'({p[0]},{p[1]})' for p in path])\n    print(f\"Optimal exploration path: [{path_str}]\")\n\nexploration_planner(map_xml_string, input_data)"
   }
 }

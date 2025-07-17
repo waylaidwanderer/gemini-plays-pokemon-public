@@ -24,3 +24,9 @@
 # III. Solved Puzzles
 ## A. Pokémon Mansion
 - **Conclusion:** The two switches in the basement (at (21, 4) and (19, 26)) control the gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated. The puzzle is now solved.
+
+## B. Cinnabar Gym
+- **Hypothesis 1:** Answering a quiz question correctly will open the gate to the left, while answering incorrectly will force a battle and open the gate to the right.
+- **Test 1:** Answered the quiz at (16, 8) correctly ('YES').
+- **Outcome 1:** The gate to the right opened. The left gate remained closed.
+- **Conclusion 1:** Hypothesis 1 is **false**. The gym's path is linear. Answering a quiz correctly OR winning the subsequent battle opens the path to the next section.
