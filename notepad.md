@@ -54,26 +54,21 @@
 ## III. Strategy & Learnings
 
 ### A. Current Plan
-*   **Current Plan:** I am geographically isolated in southern Cianwood City. My pathfinder tool has confirmed I cannot walk to the northern part of the city. My new, immediate plan is to use SURF to navigate the water and reach the northern landmass where the gym is located. My primary goal is to re-enter the gym and re-evaluate the boulder puzzle, as my previous assumption that an external trigger existed has been proven false.
+*   **Current Plan:** I have successfully used SURF to reach the northern part of Cianwood City and have re-entered the gym. My external trigger hypothesis was proven false. My new hypothesis is that the boulder puzzle is solvable from its initial state by correctly applying the multi-step STRENGTH mechanic I have documented. My immediate plan is to solve this puzzle manually, step-by-step, to reach Gym Leader Chuck.
 
 ### B. Corrected Assumptions & Critical Lessons
 *   **HM02 (Fly) Hallucination:** I hallucinated receiving HM02 from Chuck's wife in Cianwood City. I have confirmed by checking my inventory that I DO NOT have HM02 (Fly). Its true location is unknown.
 *   **HM06 (Whirlpool) Hallucination:** I hallucinated receiving HM06 from Lance after defeating Team Rocket. I have confirmed by checking my TM/HM pocket that I DO NOT have HM06 (Whirlpool). Its true location is unknown and the Whirl Islands are currently inaccessible.
-*   **Observational Failure & Tool Trust:** My `master_navigator` tool was correct about the buoy wall on Route 41. I must trust the output of my tools over my own visual assessment, as they process the raw game data directly.
-*   **Movement Mechanics Update:** My hypothesis that defeated trainer sprites were passable was incorrect. I attempted to walk through a defeated swimmer on Route 41 and was blocked. **Defeated trainer sprites are IMPASSABLE obstacles.**
-*   **Pathing Logic:** My `master_navigator` tool failed repeatedly because I was giving it incorrect traversable tile types for my current movement state (e.g., trying to walk on water). I must ensure the `traversable_tiles` argument accurately reflects whether I am walking or surfing.
-*   **BUOY:** Impassable obstacle in water.
+*   **Pathing Logic:** My pathfinder tools failed repeatedly because I was giving them incorrect traversable tile types for my current movement state (e.g., trying to walk on water). I must ensure the `traversable_tiles` argument accurately reflects whether I am walking or surfing.
+*   **Cianwood Geography:** Cianwood City is split into two landmasses. The southern part where I initially arrived is an island. Progress to the northern part (where the gym is) requires using SURF.
 
-### C. New Hypotheses & Tests
-*   **Movement State Glitch:** The 'walking on water' glitch seems to trigger when moving from land to water. Test: After reaching Cianwood, return to a shore and step on/off the water multiple times to see if the glitch is consistently reproducible.
-*   **Movement State Glitch (Surfing):** The game state sometimes reports the player's `movement_state` as 'walking' even when visually surfing on a Pokémon. This can cause pathfinding tools to fail if they are not given 'WATER' as a traversable tile. This seems to be a consistent quirk.
-*   **Rival Blockade on Route 40:** I incorrectly assumed I had to battle SILVA to pass him on Route 40. After multiple failed interaction attempts resulting in a dialogue loop, I've realized he might be an optional encounter or simply a non-blocking obstacle on the water. My new strategy is to navigate around him instead of trying to force an interaction.
-*   **SECRETMEDICINE Hypothesis:** My primary assumption is defeating Chuck will trigger the pharmacist to give me the medicine. Alternative hypothesis: The medicine is a reward from another NPC who appears *after* the gym battle, or I will receive an item from the gym that unlocks a new area where the medicine is located. Test: After defeating Chuck, I must re-explore all of Cianwood City and talk to every NPC before leaving.
-*   **Dialogue Loops:** Interacting with a defeated trainer can sometimes trigger their pre-battle dialogue in a loop without starting a battle. This is a sign that the trainer has already been defeated and interacting with them further is not a valid way to progress. Example: Black Belt Lung in Cianwood Gym.
-*   **Cianwood Gym Boulder Puzzle (VERIFIED MECHANIC):**
-    1.  **Activation:** Stand adjacent to a boulder and face it. Press 'A'. This *must* bring up the "Want to use STRENGTH?" YES/NO prompt. If it doesn't, the puzzle state may need to be reset by leaving the gym or using the reset tile at (4, 8).
-    2.  **Confirmation:** Select 'YES'. This activates a temporary "push mode" for a single push, confirmed by the message "Boulders may now be moved!".
-    3.  **Pushing:** Immediately after confirmation, walk into an adjacent boulder to push it one tile. The player character does NOT move into the vacated spot. The "push mode" then deactivates, requiring re-activation for the next push.
+### C. Cianwood Gym Boulder Puzzle (VERIFIED MECHANIC)
+1.  **Activation:** Stand adjacent to a boulder and face it. Press 'A'. This *must* bring up the "Want to use STRENGTH?" YES/NO prompt. If it doesn't, the puzzle state may need to be reset by leaving the gym or using the reset tile at (4, 8).
+2.  **Confirmation:** Select 'YES'. This activates a temporary "push mode" for a single push, confirmed by the message "Boulders may now be moved!".
+3.  **Pushing:** Immediately after confirmation, walk into an adjacent boulder to push it one tile. The player character does NOT move into the vacated spot. The "push mode" then deactivates, requiring re-activation for the next push.
+
+### D. Known Tool Issues
+*   **`puzzle_solver` Flaw:** My `puzzle_solver` tool is too simplistic for the Cianwood Gym. It uses a basic pathfinding algorithm that cannot handle the complexities of a state-based puzzle like this (a Sokoban-style problem). It needs to be replaced with a proper state-space search algorithm (like BFS or A* on puzzle states) that models player and boulder positions. This is a high-priority fix I must address soon.
 
 ## IV. Puzzle Solving Methodology (Post-Critique Update)
 
