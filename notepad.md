@@ -98,3 +98,7 @@ My previous approach to puzzles was unsystematic and resulted in significant was
 
 ### B. Automation First
 - For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is inefficient and will be my last resort.
+
+### C. Cianwood Gym Boulder Puzzle (New Findings)
+- My `puzzle_solver` tool has confirmed that from the initial puzzle state (after stepping on the trigger at (8, 6)), there is **no possible solution** to reach the Gym Leader. 
+- **New Hypothesis:** There must be a hidden switch or event within the gym that alters the puzzle state, making it solvable. My next course of action is to systematically re-investigate every interactable object in the gym to find this trigger.
