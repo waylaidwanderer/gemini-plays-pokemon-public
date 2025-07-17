@@ -31,7 +31,6 @@
 - The gate at (22, 18) on 1F is also confirmed open.
 - The warp at (22,24) on 1F is a two-way connection to (24,23) on B1F.
 - The switch at (19, 26) on B1F is a toggle. Pressing it closed the gates at (27, 18) and (28, 18).
-- The switch at (19, 26) on B1F is a toggle. Pressing it closed the gates at (27, 18) and (28, 18).
 - The gates at (17, 17) and (18, 17) on B1F are now confirmed open after pressing a switch on a different floor.
 - The gates at (14, 23) and (14, 24) on B1F are now confirmed closed after pressing a switch.
 - The gates at (21, 18) and (22, 18) on 1F are now confirmed open after pressing a switch.
@@ -43,7 +42,6 @@
 - The gates at (21, 18) and (22, 18) on 1F are now confirmed open after pressing a switch.
 - The gates at (25, 14) and (26, 14) on 1F are now confirmed closed after pressing a switch.
 - The gates at (25, 14) and (26, 14) on 1F are now confirmed closed after pressing a switch.
-- The switch at (19, 26) on B1F is a toggle. Pressing it closed the gates at (27, 18) and (28, 18).
 - The switch at (19, 26) on B1F is a toggle. Pressing it closed the gates at (27, 18) and (28, 18).
 - The gates at (17, 17) and (18, 17) on B1F are now confirmed open after pressing a switch on a different floor.
 - The gates at (17, 17) and (18, 17) on B1F are now confirmed open after pressing a switch on a different floor.
