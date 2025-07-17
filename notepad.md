@@ -32,3 +32,4 @@
 10. Continue exploring the basement to find and press the Switch at (21,4).
 11. With the basement switches activated, the Northern Gates at (17,17) & (18,17) should now be open. Proceed through them.
 12. Find and collect the Secret Key from the area behind the Northern Gates.
+- **hole:** A warp tile that leads to a lower map area.
