@@ -44,3 +44,4 @@
 - The gates at (25, 14) and (26, 14) on 1F are now confirmed closed after pressing a switch.
 - The gates at (25, 14) and (26, 14) on 1F are now confirmed closed after pressing a switch.
 - The switch at (19, 26) on B1F is a toggle. Pressing it closed the gates at (27, 18) and (28, 18).
+- The switch at (19, 26) on B1F is a toggle. Pressing it closed the gates at (27, 18) and (28, 18).
