@@ -18,7 +18,7 @@
 - **Current Goal:** Find the Secret Key.
 - **Critical Lesson:** System warnings (e.g., 'not a dead end') are absolute truth, even if they contradict map data or pathfinding. This implies hidden passages or misleading tile types exist. I must trust the system over my own interpretation.
 
-# V. Pokémon Mansion Event Log (Consolidated)
+# V. Pokémon Mansion Event Log (Consolidated - NEW)
 - **3F:** Pressed switch at (11,6). This is a toggle.
 - **B1F:** Gates at (27,18) and (28,18) are now CLOSED, trapping me in the eastern section.
 
