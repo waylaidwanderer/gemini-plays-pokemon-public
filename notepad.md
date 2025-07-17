@@ -36,3 +36,4 @@
 - **Turn 79465:** Warped from 1F (22,24) to B1F (24,23). Confirmed this is a two-way connection.
 - Turn 79483: On B1F, gates at (27,18) and (28,18) observed to be CLOSED, trapping me in the eastern section.
 - Turn 79486: On B1F, gates at (17,17) and (18,17) observed to be OPEN.
+- Turn 79487: On B1F, gates at (17,17) and (18,17) re-confirmed OPEN.
