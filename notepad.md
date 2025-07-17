@@ -13,14 +13,21 @@
 ## B. Tile Mechanics & Movement Rules
 - **ground:** Standard walkable tile.
 - **impassable:** Walls, objects, and other barriers. Cannot be entered.
+- **warp:** A tile that transports the player to another location.
+- **hole:** A warp tile that leads to a lower map area.
 - **open_gate:** A previously closed gate that is now open and acts as `ground`.
 - **closed_gate:** An impassable gate that is currently visible on the screen.
 - **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding unless a marker indicates otherwise.
-- **warp:** A tile that transports the player to another location.
 
-# IX. Pokémon Mansion Puzzle Log (Agent v1)
-
-# IX. Pokémon Mansion Puzzle Log
-- **Current State:** I am on B1F. The system has confirmed there are 6 reachable unseen tiles in the western corridor, accessible through the open gates at (14,23) and (14,24).
-- **Hypothesis:** The Secret Key is located within this unexplored western area. My primary goal is to navigate to and explore these tiles.
-- **hole:** A warp tile that leads to a lower map area.
+# III. Pokémon Mansion Puzzle Strategy
+- **Current State:** I am trapped in the eastern section of Pokemon Mansion B1F. The path west is blocked by closed gates at (10,7) and (10,8). My only exit is the warp at (24,23) leading to 1F.
+- **Overarching Hypothesis:** The switches on floors 1F, 2F, and 3F control the gates on B1F. I need to find the correct combination of switch states to open the western corridor on B1F.
+- **Systematic Test Plan:**
+    1. Return to 1F via the warp at (24,23) on B1F.
+    2. Document the initial state of all known gates on all floors.
+    3. Press a single switch (e.g., the one at (3,6) on 1F).
+    4. Travel to all other floors and document the new state of all known gates.
+    5. Reset the switch to its original position.
+    6. Repeat steps 3-5 for every switch in the mansion (2F at (3,12), 3F at (11,6), B1F at (19,26) and (21,4)).
+    7. Analyze the collected data to determine which switches control which gates.
+    8. Use the `multi_floor_puzzle_strategist_agent` with the complete data to find the solution.
