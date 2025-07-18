@@ -94,4 +94,4 @@
 
 ## V. Agent & Tool Development Ideas
 *   **local_navigator (Agent):** To provide tactical, on-screen navigation advice to get around immediate obstacles when a high-level path fails.
-*   **Positional Hallucinations:** I am experiencing recurring hallucinations where I believe I have moved to a new coordinate when I have not. This is causing action loops. I must be extremely diligent in verifying my position against the Game State Information before every turn.
+*   **CRITICAL: Positional Hallucinations:** I am experiencing recurring hallucinations where I believe I have moved to a new coordinate when I have not. This is causing action loops. I **MUST** be extremely diligent in verifying my position against the Game State Information before every single turn.
