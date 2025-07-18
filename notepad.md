@@ -108,3 +108,6 @@
 
 ## V. Immediate Tasks & Fixes
 *   **Bug Catcher Wade Marker (Route 31):** The marker at (20, 13) is not linked to his object ID. I must redefine it with the correct `object_id` the next time he is on screen.
+
+## VI. Reflection Notes (Turn 54107)
+*   **Fly HM Investigation:** The 'Fly' HM appears bugged, causing random warps. **Hypothesis:** This might be a consistent mechanic, not a random bug. **Test:** Systematically use Fly from different cities/routes and document the destination for each origin point to identify any patterns.
