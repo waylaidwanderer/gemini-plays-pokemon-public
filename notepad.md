@@ -99,3 +99,6 @@
 *   **local_navigator (Agent):** To provide tactical, on-screen navigation advice to get around immediate obstacles when a high-level path fails.
 *   **stuck_advisor (Agent):** To provide structured hypotheses and tests when I'm stuck, analyzing failed moves and system warnings.
 *   **path_tester (Tool):** To systematically test movement in all directions from a point to map invisible walls.
+
+### F. Tool Usage Strategy (Self-Correction)
+*   **Prioritize Specialized Tools:** I must remember to check for and use pre-existing specialized tools (e.g., `puzzle_solver`, `sokoban_solver`) for their intended puzzles before attempting manual solutions or building new tools.
