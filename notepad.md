@@ -16,9 +16,9 @@
 
 ### C. Tile Traversal Rules (Verified)
 *   **Impassable:** WALL, VOID, COUNTER, MART_SHELF, BUOY, WHIRLPOOL, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut)
-*   **Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS
+*   **Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
-*   **HM Required:** WATER/SEA (SURF), BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH)
+*   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH)
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT (verified), LEDGE_HOP_LEFT (verified), LEDGE_HOP_DOWN (verified)
 
 ### D. HM Usage Rules (Verified)
@@ -73,13 +73,11 @@
 *   **Chuck's PRIMEAPE:** Leer, Rage, Karate Chop
 *   **Chuck's POLIWRATH:** Hypnosis, Mind Reader, Dynamicpunch
 
-## IV. Future Development & Testing
+## IV. Future Development
 
 ### A. Agent & Tool Ideas
 *   **inventory_manager (Agent):** To help decide which items to discard when my bag is full.
-*   **path_tester (Tool):** To systematically test the traversability of tiles around a given coordinate to map out invisible walls or complex collision.
 *   **path_debugger (Agent):** To analyze pathfinder failures and suggest potential causes.
-*   **quest_tracker (Agent):** To parse NPC dialogue and help manage active quests.
 
 ### B. Pending Investigations
 *   **Objective:** Re-investigate the 'Invisible Barrier' on Route 42.
@@ -94,7 +92,3 @@
 ### D. Tool Limitations & Strategy
 *   **pathfinder:** Previously had a bug where it treated unseen tiles as obstacles. Also had an issue with how I was passing arguments. Also had an issue with ledge traversal logic. All are now believed to be fixed.
 *   **Prioritize Specialized Tools:** I must remember to check for and use pre-existing specialized tools (e.g., `puzzle_solver`, `sokoban_solver`) for their intended puzzles before attempting manual solutions or building new tools.
-
-### C. New Agent Ideas (Post-Reflection)
-*   **quest_advisor (Agent):** To parse NPC dialogue and help manage active quests, suggesting next steps based on available information. This would be useful for situations like the current Mahogany Town gym block.
-*   **local_navigator (Agent):** To provide tactical, on-screen navigation advice to get around immediate obstacles when a high-level path fails, like when I was repeatedly bumping into walls trying to reach the Cooltrainer F.
