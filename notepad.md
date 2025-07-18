@@ -9,6 +9,13 @@
 - **Not Very Effective (0.5x):** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground; Normal !> Rock.
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 
+## B. Tile Traversal Rules
+- **ground:** Standard walkable tile.
+- **grass:** Walkable tile with wild Pokémon encounters.
+- **water:** Traversable only with SURF.
+- **impassable:** Cannot be entered (walls, objects, etc.).
+- **cuttable:** A tree that can be removed with the field move CUT.
+
 # III. Puzzle & Progression Log
 ## A. Pokémon Mansion (Solved)
 - **Conclusion:** The two switches in the basement (at (21, 4) and (19, 26)) control other gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated.
@@ -25,3 +32,6 @@
 - **Dugtrio (Lv53):** Knows Rock Slide.
 - **Nidoqueen (Lv54):** Knows Body Slam, Earthquake.
 - **Persian (Lv55):** Knows Bubblebeam (Water), Slash.
+
+# V. Agent & Tool Development Ideas
+- **Pathing Assistant Agent:** An agent that can analyze the map XML when the main `pathfinder` tool fails (e.g., due to complex obstacles or land/water transitions). It could suggest a sequence of intermediate, manually-navigable goals to circumvent the issue. For example: 'Goal: Cross water. Suggestion: Walk to (X,Y), then use SURF.'
