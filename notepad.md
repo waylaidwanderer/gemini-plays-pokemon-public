@@ -10,6 +10,7 @@
 - **Dugtrio (Lv53):** Knows Rock Slide, Earthquake.
 - **Nidoqueen (Lv54):** Knows Body Slam, Earthquake, Thunderbolt, Ice Beam.
 - **Persian (Lv55):** Knows Bubblebeam (Water), Slash, Hyper Beam (Normal), Thunderbolt (Electric).
+- **Nidoking (Lv54):** Knows Blizzard.
 
 ### Beauty (Route 15)
 - **Golduck (Lv 35):** Knows Confusion.
