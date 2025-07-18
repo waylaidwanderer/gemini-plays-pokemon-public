@@ -14,7 +14,8 @@
     - `impassable`: Cannot be walked on.
     - `grass`: Walkable, triggers wild encounters.
     - `warp`: Teleports player to another location.
-    - `spinner`: Forces movement in a specific direction.
+    - `spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`: Forces movement in the specified direction.
+    - `spinner_stop`: A safe tile that stops spinner momentum.
     - `ledge`: Can be jumped down (one-way).
     - `cuttable`: Tree that can be cut with HM Cut.
     - `water`: Crossable using HM Surf.
@@ -34,16 +35,5 @@
 ## B. Cinnabar Gym (Solved)
 - **Conclusion:** The gym puzzle is sequential. You must defeat trainers or solve quizzes in each isolated section to open the gates to the next. The final quiz at (2, 8) opens the gate to Blaine.
 
-## D. Viridian Gym (Manual Exploration)
-- **Problem:** The `spinner_maze_solver` tool is too inefficient and times out. 
-- **New Strategy:** I will manually test each spinner tile, one by one, to map out the connections within the maze. I will record the start and end coordinates of each spinner path I discover.
-- **Test #1 (Completed):** Spinner at (14, 18) leads to (2, 18).
-- **Test #2 (Completed):** Spinner at (2, 16) leads to (2, 10).
-- **Test #3 (Completed):** Spinner at (5, 7) leads to (5, 14).
-- **Test #4 (Completed):** Spinner at (6, 14) leads to (14, 14).
-- **Test #5 (Completed):** The spinner_stop tile at (14, 15) is safe and does not trigger movement.
-- **Test #6 (Completed):** The spinner at (14, 17) leads to (8, 17).
-- **Test #7 (Completed):** The spinner at (1, 16) leads to (1, 8).
-
-## E. Viridian Gym (Solved)
+## C. Viridian Gym (Solved)
 - **Conclusion:** The maze is solved. The correct path to Giovanni from the entrance is: (14, 18) -> (2, 18) -> (2, 16) -> (2, 10) -> (5, 7) -> (5, 14) -> (6, 14) -> (14, 14). From (14, 14), navigate west and north past the defeated trainers to reach Giovanni at (3, 2).
