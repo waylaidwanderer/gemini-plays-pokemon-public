@@ -42,4 +42,5 @@
 - **Test #3 (Completed):** Spinner at (5, 7) leads to (5, 14).
 - **Test #4 (Completed):** Spinner at (6, 14) leads to (14, 14).
 - **Test #5 (Completed):** The spinner_stop tile at (14, 15) is safe and does not trigger movement.
-- **Test #6 Plan:** Test the spinner at (14, 17).
+- **Test #6 (Completed):** The spinner at (14, 17) leads to (8, 17).
+- **Test #7 Plan:** Test the spinner at (5, 15).
