@@ -21,7 +21,7 @@
 *   **Conditional:** PIT (one-way fall)
 
 ### D. Tile Mechanics (Pending Tests)
-*   **LEDGE/LEDGE_HOP:** Believed to be one-way. **Test:** Attempt to move up/sideways against a ledge at the next opportunity.
+*   **LEDGE/LEDGE_HOP:** Believed to be one-way. **Test:** At the next opportunity, attempt to move up, down, left, and right against a ledge to confirm one-way traversal.
 *   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity.
 *   **HEADBUTT_TREE:** Believed to be impassable. **Test:** Attempt to walk into a HEADBUTT_TREE tile at the next opportunity.
 
