@@ -40,9 +40,10 @@
     *   **Hypothesis 2 (Failed):** A missed event trigger exists at the Lake of Rage. **Result:** All NPCs have repeating dialogue, and Lance is gone.
 
 ### C. System Bugs & Glitches
-*   **PC Item Management:** 'DEPOSIT ITEM' and 'TOSS ITEM' are bugged in Violet City. Hypothesis: This bug may be PC-specific or item-specific. **Test:** Attempt to deposit/toss different item types at the next available PC.
-*   **Toss Item from Pack:** Function is bugged and does not remove items.
-*   **Giving Items:** Swaps items instead of freeing an inventory slot.
+*   **PC Item Management (Mahogany & Violet):** 'DEPOSIT ITEM' and 'TOSS ITEM' from the PC menu are bugged.
+*   **Toss Item from Pack (Bugged):** Function is bugged and does not remove items.
+*   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
+*   **Fly HM (Bugged):** The Fly map is unresponsive, preventing destination selection.
 *   **Self-Correction:** My own positional tracking errors have led to navigation issues, which I previously misidentified as game glitches. I must be more diligent in verifying my coordinates before acting.
 
 ## III. Battle and Pokemon Information
@@ -73,21 +74,11 @@
 
 ## IV. Future Development & Testing
 
-### A. Agent Ideas
-*   **inventory_manager:** An agent to help decide which items to discard when my bag is full. It would analyze my current inventory and goals and recommend the least valuable or useful item to toss.
+### A. Agent & Tool Ideas
+*   **inventory_manager (Agent):** To help decide which items to discard when my bag is full.
+*   **path_tester (Tool):** To systematically test the traversability of tiles around a given coordinate to map out invisible walls or complex collision.
 
 ### B. Pending Investigations
 *   **Objective:** Re-investigate the 'Invisible Barrier' on Route 42.
 *   **Hypothesis:** The barrier is not a true invisible wall, but a result of flawed pathing or a misunderstanding of water tile traversal.
 *   **Method:** Return to the marked coordinates at (35, 6), (35, 7), and (35, 8). Systematically attempt to move onto each of these three tiles from all adjacent, traversable water tiles to the south, west, and east. Document the result of each attempt to map the exact collision boundaries and disprove the 'invisible wall' theory.
-*   **Toss Item from Pack (Bugged):** Function is bugged and does not remove items.
-*   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
-
-### D. Tile Mechanics (Pending Tests)
-*   **HEADBUTT_TREE:** Believed to be impassable. **Test:** Attempt to walk into a HEADBUTT_TREE tile at the next opportunity.
-*   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity.
-
-## IV. Future Development & Testing
-
-### A. Tool Ideas
-*   **path_tester:** A tool to systematically test the traversability of tiles around a given coordinate to map out invisible walls or complex collision.
