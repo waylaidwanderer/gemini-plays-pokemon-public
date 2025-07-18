@@ -40,7 +40,7 @@
     *   **Hypothesis 2 (Failed):** A missed event trigger exists at the Lake of Rage. **Result:** All NPCs have repeating dialogue, and Lance is gone.
 
 ### C. System Bugs & Glitches
-*   **PC Item Management:** 'DEPOSIT ITEM' and 'TOSS ITEM' are bugged in Violet City.
+*   **PC Item Management:** 'DEPOSIT ITEM' and 'TOSS ITEM' are bugged in Violet City. Hypothesis: This bug may be PC-specific or item-specific. **Test:** Attempt to deposit/toss different item types at the next available PC.
 *   **Toss Item from Pack:** Function is bugged and does not remove items.
 *   **Giving Items:** Swaps items instead of freeing an inventory slot.
 *   **Self-Correction:** My own positional tracking errors have led to navigation issues, which I previously misidentified as game glitches. I must be more diligent in verifying my coordinates before acting.
@@ -54,9 +54,7 @@
 *   **Rival SILVA:** Uses a Croconaw.
 *   **Gym Leaders:** Falkner (Flying), Bugsy (Bug), Whitney (Normal), Morty (Ghost), Jasmine (Steel), Chuck (Fighting).
 
-## IV. Appendices & Data
-
-### A. Observed Movesets
+### C. Observed Movesets
 *   **Youngster Joey's RATTATA:** Tackle, Tail Whip
 *   **Falkner's PIDGEY:** Tackle
 *   **Falkner's PIDGEOTTO:** Tackle, Gust
@@ -73,25 +71,10 @@
 *   **Chuck's PRIMEAPE:** Leer, Rage, Karate Chop
 *   **Chuck's POLIWRATH:** Hypnosis, Mind Reader, Dynamicpunch
 
-### B. Pokémon Locations (Summary)
-*   **Early Routes (29-31):** Common Normal/Flying/Bug types.
-*   **Caves (Dark, Union, Mt. Mortar):** Rock/Ground/Poison types (Geodude, Zubat, Onix).
-*   **Forests (Ilex):** Bug/Grass types.
-*   **Mid Routes (34-39):** More variety, including Fire, Psychic, and Steel types.
-*   **Water Routes (40-41, Lake of Rage):** Water types (Tentacool, Magikarp, Gyarados).
-*   **Late Routes (42-43):** Electric and Psychic types appear more frequently.
-
-### C. PC Storage
-*   **Items:** PSNCUREBERRY (x1), ICE BERRY (x1), MINT BERRY (x1), BURNT BERRY (x1), GREAT BALL (x1), ANTIDOTE (x1), PARLYZ HEAL (x1), AWAKENING (x1), POTION (x1), GUARD SPEC. (x1), X ATTACK (x1), X DEFEND (x1), X SPEED (x1), X SPECIAL (x1), DIRE HIT (x1), POKE BALL (x1), REPEL (x1), ESCAPE ROPE (x1), ETHER (x1), MAX ETHER (x1), REVIVE (x1), NUGGET (x1), PROTEIN (x1), IRON (x1), CARBOS (x1), CALCIUM (x1), HP UP (x1), RARE CANDY (x1), TM39 (SWIFT), TM13 (SNORE), TM41 (THUNDERPUNCH), TM48 (FIRE PUNCH), TM02 (HEADBUTT), TM45 (ATTRACT), TM21 (FRUSTRATION), TM27 (RETURN), TM12 (SWEET SCENT), TM35 (SLEEP TALK), TM49 (FURY CUTTER).
-
-## V. Pending Mechanic Tests
-*   **Objective:** Verify the behavior of `LEDGE` and `FLOOR_UP_WALL` tiles.
-*   **Method:** At the next encounter with these tiles, attempt to move against their presumed one-way direction and document the result.
-
-## VI. Future Development & Testing
+## IV. Future Development & Testing
 
 ### A. Agent Ideas
-*   **inventory_manager:** An agent to help decide which items to discard when my bag is full. It would analyze my current inventory and recommend the least valuable or useful item to toss.
+*   **inventory_manager:** An agent to help decide which items to discard when my bag is full. It would analyze my current inventory and goals and recommend the least valuable or useful item to toss.
 
 ### B. Pending Investigations
 *   **Objective:** Re-investigate the 'Invisible Barrier' on Route 42.
