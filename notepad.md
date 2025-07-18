@@ -115,3 +115,6 @@
 ### C. Process Failures & Lessons Learned
 *   **Goal Rigidity (Fly Command Loop, Turns ~52548-52598):** I failed to be flexible when my primary method (using Fly) was clearly not working. I persisted for dozens of turns instead of pivoting to a new strategy (walking). Lesson: If a plan fails more than 2-3 times, I must abandon it and formulate a new one.
 *   **Failure of Immediate Documentation (Fly Command Loop):** I did not document the Fly glitch immediately. This led to repeated failed attempts. Lesson: Any unexpected behavior, bug, or obstacle must be documented in this notepad on the turn it is discovered.
+
+## V. Reminders & Corrections
+*   **Delete Incorrect Marker:** I hallucinated my location and placed an incorrect marker at (7, 53) on Route 30. I need to delete this as soon as I get there.
