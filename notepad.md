@@ -14,3 +14,7 @@
 ### Beauty (Route 15)
 - **Golduck (Lv 35):** Knows Confusion.
 - **Wigglytuff (Lv 35):** Knows Defense Curl.
+
+# III. Viridian Gym Spinner Map
+- Spinner at (19, 3) leads to (19, 12).
+- Spinner at (20, 12) leads to (20, 3).
