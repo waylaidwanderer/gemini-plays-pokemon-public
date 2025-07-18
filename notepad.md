@@ -26,4 +26,4 @@
 # III. Viridian Gym Spinner Map Notes
 - This is a complex spinner maze. Defeated trainers become impassable obstacles.
 - The combination of one-way spinner tiles and defeated trainers becoming permanent obstacles makes manual pathing extremely difficult and prone to error.
-- A specialized tool, `spinner_maze_solver`, was created to navigate this puzzle reliably. Manual attempts are not recommended.
+- Manual pathing is extremely difficult and prone to error. A systematic approach is required.
