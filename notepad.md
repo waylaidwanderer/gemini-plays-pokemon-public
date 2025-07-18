@@ -84,3 +84,14 @@
 ### D. Tool Limitations & Strategy
 *   **pathfinder:** Previously had multiple bugs related to coordinate handling and ledge traversal. All are now believed to be fixed.
 *   **Prioritize Specialized Tools:** I must remember to check for and use pre-existing specialized tools (e.g., `puzzle_solver`, `sokoban_solver`) for their intended puzzles before attempting manual solutions or building new tools.
+
+## IV. Self-Correction & Improvement
+
+### A. Core Directives (Violations & Learnings)
+*   **Tool Refinement (VIOLATION):** I failed to immediately fix the `pathfinder` tool after it failed on Route 43 (turns 54633 & 54703), resorting to manual navigation instead. **Correction:** Faulty tools must be fixed immediately, as this is a higher priority than any gameplay action.
+
+### B. Future Agent/Tool Ideas
+*   **`local_navigator` (Agent Idea):** An agent that can suggest simple, evasive maneuvers when pathing is blocked by a local obstacle (e.g., a single wall tile or NPC). It would take the current position, failed move, and surrounding tile data as input.
+
+### C. Pending Mechanic Tests (Updated)
+*   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity to confirm if it's a one-way ledge or fully impassable from other directions.
