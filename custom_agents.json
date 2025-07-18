@@ -26,12 +26,5 @@
     "agent_system_prompt": "You are a Puzzle Logic Deduction Specialist. You will be given a log of actions (switch presses at specific locations) and their observed outcomes (gate states changing at other locations). Your task is to analyze this log to identify patterns, dependencies, and the underlying logic of the puzzle. Determine which switches control which gates and if the switches are simple toggles, part of a sequence, or have other complex behaviors. Your output should be a clear summary of your deductions and a confidence score in your analysis.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"puzzle_log\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"puzzle_log\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"deductions\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"confidence_score\":{\"type\":\"number\",\"minimum\":0,\"maximum\":1}},\"required\":[\"deductions\",\"confidence_score\"]}"
-  },
-  "puzzle_solver": {
-    "agent_name": "puzzle_solver",
-    "agent_description": "Analyzes the state of a puzzle and provides the next optimal step to solve it.",
-    "agent_system_prompt": "You are a Puzzle Solver AI. Your goal is to guide the player through complex puzzles by providing the next logical step. You will be given the player's current location, a list of interactable puzzle elements (like quiz machines) with their locations and solved status. Your task is to identify the nearest unsolved puzzle element and provide the coordinates to interact with it. Prioritize proximity to the player's current location.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"},\"puzzle_elements\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"},\"is_solved\":{\"type\":\"boolean\"}},\"required\":[\"x\",\"y\",\"is_solved\"]}}},\"required\":[\"player_x\",\"player_y\",\"puzzle_elements\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"next_target_x\":{\"type\":\"integer\"},\"next_target_y\":{\"type\":\"integer\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"next_target_x\",\"next_target_y\",\"reasoning\"]}"
   }
 }
