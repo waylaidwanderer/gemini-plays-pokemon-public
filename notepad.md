@@ -20,17 +20,6 @@
 - **Cinnabar Gym:** The puzzle is sequential. Defeat trainers or solve quizzes to open gates to the next section.
 - **Viridian Gym:** The spinner maze is solved. The path to Giovanni is known and recorded in past logs.
 
-# IV. Tile Mechanics & Movement Rules
-- **`ground`**: Standard walkable tile.
-- **`grass`**: Walkable tile where wild Pokémon can be encountered.
-- **`water`**: Traversable only with the Surf field move.
-- **`impassable`**: Walls, objects, and other solid barriers.
-- **`cuttable`**: A tree that can be removed with the Cut field move.
-- **`ledge`**: Can be jumped down, but not climbed up.
-- **`spinner`**: Forces movement in a specific direction.
-- **`warp`**: A tile that teleports the player to another location (e.g., doors, stairs).
-- **`steps`**: Allows vertical movement between different ground elevations.
-
 # V. Active Plans & Hypotheses
 ## A. Route 13 Exploration
 - **Objective:** Navigate the Route 13 maze and reach the western exit to Route 14.
