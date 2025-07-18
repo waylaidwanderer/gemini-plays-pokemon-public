@@ -87,3 +87,13 @@
 ## V. Pending Mechanic Tests
 *   **Objective:** Verify the behavior of `LEDGE` and `FLOOR_UP_WALL` tiles.
 *   **Method:** At the next encounter with these tiles, attempt to move against their presumed one-way direction and document the result.
+
+## VI. Future Development & Testing
+
+### A. Agent Ideas
+*   **inventory_manager:** An agent to help decide which items to discard when my bag is full. It would analyze my current inventory and recommend the least valuable or useful item to toss.
+
+### B. Pending Investigations
+*   **Objective:** Re-investigate the 'Invisible Barrier' on Route 42.
+*   **Hypothesis:** The barrier is not a true invisible wall, but a result of flawed pathing or a misunderstanding of water tile traversal.
+*   **Method:** Return to the marked coordinates at (35, 6), (35, 7), and (35, 8). Systematically attempt to move onto each of these three tiles from all adjacent, traversable water tiles to the south, west, and east. Document the result of each attempt to map the exact collision boundaries and disprove the 'invisible wall' theory.
