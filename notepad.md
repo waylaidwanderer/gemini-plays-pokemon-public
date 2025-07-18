@@ -11,17 +11,17 @@
 
 ### B. Automation & Agent Usage
 *   **Automation First:** For any recurring puzzle type, my first step is to use my available custom tools (`pathfinder`). If a tool fails, my top priority is to fix it.
+*   **Agent Consultation:** I must use my defined agents when appropriate, especially `navigation_advisor` when stuck.
 ### B. Tile Traversal Rules (Verified)
 *   **Impassable:** WALL, VOID, COUNTER, MART_SHELF, BUOY, WHIRLPOOL, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut)
 *   **Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS
-*   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN (directional), WARP_CARPET_LEFT, WARP_CARPET_RIGHT
+*   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN (directional, requires 'Down' press), WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** WATER/SEA (SURF), BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH)
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT (verified), LEDGE_HOP_LEFT (verified), LEDGE_HOP_DOWN (verified)
 
 ### D. Tile Mechanics (Pending Tests)
 *   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity.
 *   **HEADBUTT_TREE:** Believed to be impassable. **Test:** Attempt to walk into a HEADBUTT_TREE tile at the next opportunity.
-*   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity.
 *   **HEADBUTT_TREE:** Believed to be impassable. **Test:** Attempt to walk into a HEADBUTT_TREE tile at the next opportunity.
 
 ## II. World & Story
