@@ -10,7 +10,7 @@
 5.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests. **CRITICAL:** I must consult existing markers *before* forming a plan to avoid repeating actions or battling defeated trainers.
 
 ### B. Automation & Agent Usage
-*   **Automation First:** For any recurring puzzle type, my first step will be to use my available custom tools (`pathfinder`, `puzzle_solver`, `sokoban_solver`). If a tool fails, my top priority is to fix it, not to abandon it.
+*   **Automation First:** For any recurring puzzle type, my first step will be to use my available custom tools (`pathfinder`, `puzzle_solver`). If a tool fails, my top priority is to fix it, not to abandon it.
 *   **Agent Consultation:** I must make a conscious effort to use my defined agents when appropriate, especially my `navigation_advisor` and `menu_navigator` when I feel stuck. This is a critical step to avoid repeating failed manual actions.
 
 ### C. Process Failures (To Be Corrected)
@@ -44,7 +44,7 @@
 *   **GRASS/TALL_GRASS:** Traversable; can trigger wild encounters.
 *   **DOOR/CAVE/LADDER/WARP_PANEL:** Standard warp tiles.
 *   **WATER/SEA:** Traversable only with SURF.
-*   **LEDGE/LEDGE_HOP_DOWN/LEFT/RIGHT:** One-way traversal.
+*   **LEDGE/LEDGE_HOP_DOWN/LEFT/RIGHT:** Believed to be one-way traversal. (NEEDS VERIFICATION: Attempt to move in all directions at the next opportunity).
 *   **PIT:** One-way tile that causes a fall to the floor below.
 *   **TREE/CUT_TREE/HEADBUTT_TREE:** Impassable. Small trees can be cut with CUT. Headbutt can be used on some trees.
 *   **BOULDER/ROCK_SMASH_BOULDER:** Can be moved with STRENGTH or broken with ROCK SMASH respectively.
