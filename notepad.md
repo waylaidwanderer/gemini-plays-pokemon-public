@@ -86,3 +86,13 @@
 
 ### B. Future Agent/Tool Ideas
 *   **`local_navigator` (Agent Idea):** An agent that can suggest simple, evasive maneuvers when pathing is blocked by a local obstacle (e.g., a single wall tile or NPC). It would take the current position, failed move, and surrounding tile data as input.
+
+## V. To-Do & Fixes
+*   **Fix Unlinked Map Markers:**
+    *   Route 42: Fisher Tully (object_id: 1) at (40, 10).
+    *   Route 42: Pokefan M (object_id: 2) at (51, 9).
+    *   Route 42: SUPER_NERD (object_id: 3) at (47, 8).
+    *   Next time I am on Route 42, I must delete the old markers and create new ones linked to their object_ids.
+*   **Pathfinder Tool Limitations:**
+    *   The tool does not currently understand HM usage (e.g., SURF, CUT). I must manually navigate these transitions for now.
+    *   The tool is only as good as the visible map data. For long paths, I must be aware that off-screen objects won't be accounted for unless I have a marker for them.
