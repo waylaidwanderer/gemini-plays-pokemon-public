@@ -22,7 +22,7 @@
 
 # III. Puzzle Log
 ## A. Pokémon Mansion (Solved)
-- **Conclusion:** The mansion contains multiple switch-based puzzles. The switch at (3, 6) on 1F toggles the gates at (17, 8) and (18, 8). The two switches in the basement (at (21, 4) and (19, 26)) control other gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated.
+- **Conclusion:** The mansion contains multiple switch-based puzzles. The switch at (3, 6) on 1F controls the gates at (17, 8) and (18, 8). The two switches in the basement (at (21, 4) and (19, 26)) control other gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated.
 
 ## B. Cinnabar Gym (Solved)
 - **Conclusion:** The gym puzzle is sequential. You must defeat trainers or solve quizzes in each isolated section to open the gates to the next. The final quiz at (2, 8) opens the gate to Blaine.
