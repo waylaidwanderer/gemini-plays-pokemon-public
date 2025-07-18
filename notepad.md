@@ -27,3 +27,10 @@
 
 ## B. Cinnabar Gym (Solved)
 - **Conclusion:** The gym puzzle is sequential. You must defeat trainers or solve quizzes in each isolated section to open the gates to the next. The final quiz at (2, 8) opens the gate to Blaine.
+
+# IV. Viridian Gym Puzzle Log
+- Spinner at (14, 17) -> (8, 17)
+- Spinner at (14, 18) -> (2, 18)
+- Spinner at (2, 16) -> (2, 10)
+- Spinner at (5, 7) -> (5, 14)
+- Spinner at (6, 14) -> (14, 14)
