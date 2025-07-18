@@ -38,3 +38,9 @@
     - (5, 7) -> (5, 14)
     - (6, 14) -> (14, 14)
 - **Strategy Idea:** Create a `Spinner Maze Solver` tool to automate pathfinding.
+
+# IV. Tool Development Plan
+- **Spinner Maze Solver:** Create a tool to parse `map_xml_string`, identify all `spinner_*` tiles and their `end-coordinate` attributes, and then use a pathfinding algorithm (like Breadth-First Search) to find the sequence of spinners needed to get from a start coordinate to a target coordinate.
+
+# V. Agent Refinement Plan
+- **Battle Strategist Type Chart:** The agent's reasoning for Rhyhorn was flawed (calculated 2x instead of a likely 4x weakness). I need to experimentally verify the effectiveness of Water vs. Rock and Ice vs. Rock and then update the agent's system prompt with the confirmed multipliers to improve its accuracy.
