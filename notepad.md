@@ -36,3 +36,5 @@
 - **Test 1:** Defeated Super Nerd at (12, 5).
   - **Outcome:** Gates at (13, 7) & (14, 7) opened.
   - **Conclusion:** Hypothesis confirmed. Defeating bypassed trainers opens new paths.
+  - Quiz at (2, 8): Solved. Opened gates at (5, 7) & (6, 7).
+- **Conclusion:** The gym puzzle is sequential. You must defeat trainers or solve quizzes in each isolated section to open the gates to the next. The final quiz at (2, 8) opens the gate to Blaine.
