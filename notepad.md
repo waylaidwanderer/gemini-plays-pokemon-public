@@ -117,3 +117,7 @@
 
 ### D. PC Storage
 *   **Items:** PSNCUREBERRY (x1), ICE BERRY (x1), MINT BERRY (x1), BURNT BERRY (x1), GREAT BALL (x1), ANTIDOTE (x1), PARLYZ HEAL (x1), AWAKENING (x1), POTION (x1), GUARD SPEC. (x1), X ATTACK (x1), X DEFEND (x1), X SPEED (x1), X SPECIAL (x1), DIRE HIT (x1), POKE BALL (x1), REPEL (x1), ESCAPE ROPE (x1), ETHER (x1), MAX ETHER (x1), REVIVE (x1), NUGGET (x1), PROTEIN (x1), IRON (x1), CARBOS (x1), CALCIUM (x1), HP UP (x1), RARE CANDY (x1), TM39 (SWIFT), TM13 (SNORE), TM41 (THUNDERPUNCH), TM48 (FIRE PUNCH), TM02 (HEADBUTT), TM45 (ATTRACT), TM21 (FRUSTRATION), TM27 (RETURN), TM12 (SWEET SCENT), TM35 (SLEEP TALK), TM49 (FURY CUTTER).
+
+*   **PC Item Management (Violet City):** The 'DEPOSIT ITEM' and 'TOSS ITEM' functions appear to be bugged. When selected, they only allow interaction with the first item in the bag (e.g., MOON STONE) and provide no way to select other items. This makes the PC unreliable for general inventory management. The only viable workaround is to have a Pokémon hold an item to free up a slot.
+
+**Reflection (Turn 52322):** I got stuck in a loop trying to use the faulty PC in Violet City and completely forgot to consult my `navigation_advisor` agent. This is a major process failure. I must remember to use my agents when I encounter obstacles or feel stuck, instead of just brute-forcing a solution.
