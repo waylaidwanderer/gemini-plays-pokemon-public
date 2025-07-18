@@ -102,3 +102,6 @@
 
 ### F. Tool Usage Strategy (Self-Correction)
 *   **Prioritize Specialized Tools:** I must remember to check for and use pre-existing specialized tools (e.g., `puzzle_solver`, `sokoban_solver`) for their intended puzzles before attempting manual solutions or building new tools.
+
+## V. Immediate Tasks & Fixes
+*   **Bug Catcher Wade Marker (Route 31):** The marker at (20, 13) is not linked to his object ID. I must redefine it with the correct `object_id` the next time he is on screen.
