@@ -15,10 +15,12 @@
 - **Golduck (Lv 35):** Knows Confusion.
 - **Wigglytuff (Lv 35):** Knows Defense Curl.
 
-# III. Viridian Gym Spinner Map
-- Spinner at (19, 3) leads to (19, 12).
-- Spinner at (20, 12) leads to (20, 3).
-- Spinner at (20, 2) leads to (12, 2).
-- Spinner at (12, 3) leads to (18, 3).
-- Spinner at (20, 12) leads to (20, 3).
-- Spinner at (19, 3) leads to (19, 12).
+# II. Game Mechanics & Tile Types
+
+- **`ground`**: Standard walkable tile.
+- **`impassable`**: Walls, objects, cannot be traversed.
+- **`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`**: Forces movement in the specified direction until a `spinner_stop` tile or another obstacle is hit.
+- **`spinner_stop`**: Stops movement from a spinner tile.
+
+# III. Viridian Gym Spinner Map Notes
+- This is a complex spinner maze. Defeated trainers become impassable obstacles. Manual pathing is unreliable; a specialized solver is needed.
