@@ -27,5 +27,3 @@
 
 ## B. Cinnabar Gym (Solved)
 - **Conclusion:** The gym puzzle is sequential. You must defeat trainers or solve quizzes in each isolated section to open the gates to the next. The final quiz at (2, 8) opens the gate to Blaine.
-- **spinner_stop:** A tile that halts movement from a spinner tile.
-- **spinner_stop:** A tile that halts movement from a spinner tile.
