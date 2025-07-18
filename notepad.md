@@ -8,6 +8,7 @@
 3.  **Test:** Execute the simplest possible action to test the hypothesis.
 4.  **Conclude & Document:** Record the result and update this notepad.
 5.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests.
+6.  **Thorough Debugging:** When a tool fails, I must be more thorough in my analysis, checking not just the code's logic but also the inputs and potential engine-side interactions before redefining it.
 
 ### B. Automation & Agent Usage
 *   **Automation First:** For any recurring puzzle type, my first step is to use my available custom tools (`pathfinder`). If a tool fails, my top priority is to fix it.
@@ -21,7 +22,7 @@
 
 ### D. Tile Mechanics (Pending Tests)
 *   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity.
-*   **HEADBUTT_TREE:** Believed to be impassable. **Test:** Attempt to walk into a HEADBUTT_TREE tile at the next opportunity.
+*   **CUT_TREE (cut):** Believed to be impassable after being cut. **Test:** Attempt to walk onto a cut tree stump.
 
 ## II. World & Story
 
@@ -30,7 +31,7 @@
     *   **Active Hypothesis:** The trigger is resolving the Team Rocket situation at the Goldenrod Radio Tower. **Test:** Fly to Goldenrod City and investigate the Radio Tower.
     *   **Alternative Hypothesis:** The trigger might involve speaking to another key NPC, like Kurt in Azalea Town, after clearing the hideout.
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
-*   **Schoolboy Alan (Route 36) Bug:** NPC script is stuck. I need to test if tossing an item resolves it.
+*   **Schoolboy Alan (Route 36) Bug:** NPC script is stuck. I need to test if tossing an item resolves it. Alternative hypothesis: it's a puzzle, not a bug, and requires a specific condition to be met.
 
 ### B. Archived Hypotheses
 *   **Mahogany Town Gym Block:**
@@ -75,25 +76,21 @@
 ### A. Agent & Tool Ideas
 *   **inventory_manager (Agent):** To help decide which items to discard when my bag is full.
 *   **path_tester (Tool):** To systematically test the traversability of tiles around a given coordinate to map out invisible walls or complex collision.
+*   **path_debugger (Agent):** To analyze pathfinder failures and suggest potential causes.
+*   **quest_tracker (Agent):** To parse NPC dialogue and help manage active quests.
 
 ### B. Pending Investigations
 *   **Objective:** Re-investigate the 'Invisible Barrier' on Route 42.
 *   **Hypothesis:** The barrier is not a true invisible wall, but a result of flawed pathing or a misunderstanding of water tile traversal.
 *   **Method:** Return to the marked coordinates at (35, 6), (35, 7), and (35, 8). Systematically attempt to move onto each of these three tiles from all adjacent, traversable water tiles to the south, west, and east. Document the result of each attempt to map the exact collision boundaries and disprove the 'invisible wall' theory.
-*   **Impassable:** BOOKSHELF
 
-### D. Passwords & Keys
+### C. Passwords & Keys
 *   **Team Rocket Hideout (Boss's Room):**
     1. SLOWPOKETAIL
     2. RATICATE TAIL
 
 ### D. Tool Limitations
-*   **pathfinder:** Cannot distinguish between on-screen and off-screen objects. It treats all previously seen objects from the map XML as permanent obstacles, making it unreliable for pathing through areas with moved or temporary NPCs/objects.
-
-### E. Pending Tile Tests
-*   **LEDGE_HOP_LEFT:** Believed to be one-way. **Test:** Attempt to move right onto a `LEDGE_HOP_LEFT` tile.
-*   **LEDGE_HOP_DOWN:** Believed to be one-way. **Test:** Attempt to move up onto a `LEDGE_HOP_DOWN` tile.
-*   **HEADBUTT_TREE:** Believed to be impassable. **Test:** Attempt to walk into a `HEADBUTT_TREE` tile.
+*   **pathfinder:** Previously had a bug where it treated unseen tiles as obstacles. Also had an issue with how I was passing arguments. Both are now believed to be fixed.
 
 ## V. Agent & Tool Development Ideas
 *   **local_navigator (Agent):** To provide tactical, on-screen navigation advice to get around immediate obstacles when a high-level path fails.
