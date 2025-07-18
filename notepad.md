@@ -21,44 +21,34 @@
     *   **Alternative:** The bug is specific to the Violet City Pokémon Center PC or certain items.
     *   **Test:** At the next available Pokémon Center, I will attempt to use the PC to deposit and toss various items.
 
-## II. Game Mechanics
+## III. Game Mechanics
 
-### A. Tile Traversal Rules
-*   **WALL/VOID:** Impassable boundary tiles.
+### A. Tile Traversal Rules (Verified)
+*   **WALL/VOID/COUNTER/MART_SHELF/BUOY/WHIRLPOOL/PC:** Impassable boundary tiles.
 *   **FLOOR:** Standard traversable tile.
 *   **GRASS/TALL_GRASS:** Traversable; can trigger wild encounters.
-*   **DOOR/CAVE/LADDER/WARP_PANEL:** Standard warp tiles. LADDER is a standard two-way warp. DOOR is a standard warp tile that is sometimes locked or blocked by story events.
-*   **WATER/SEA:** Traversable only with SURF. Can trigger wild encounters.
-*   **LEDGE/LEDGE_HOP_DOWN:** One-way traversal. Can be jumped down but not climbed up.
-*   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
-*   **LEDGE_HOP_RIGHT:** One-way traversal. Can be jumped right but not entered from the left.
+*   **DOOR/CAVE/LADDER/WARP_PANEL:** Standard warp tiles.
+*   **WATER/SEA:** Traversable only with SURF.
+*   **LEDGE/LEDGE_HOP_DOWN/LEFT/RIGHT:** One-way traversal.
 *   **PIT:** One-way tile that causes a fall to the floor below.
-*   **COUNTER/MART_SHELF/BUOY/WHIRLPOOL:** Impassable. Interacting with NPCs behind counters requires facing the counter tile, not the NPC.
-*   **PC:** Impassable. Interacted with by standing on the tile below it, facing up, and pressing 'A'.
-*   **TREE/CUT_TREE:** Small trees can be cut with CUT, leaving an impassable stump. To use CUT, the player must be standing on an adjacent tile and facing the tree directly.
-*   **BOULDER:** Can be moved with STRENGTH.
-*   **HEADBUTT_TREE:** Interactable tree for finding Pokémon. Impassable.
-*   **ROCK_SMASH_BOULDER:** Can be crushed with the move ROCK SMASH.
-*   **WARP_CARPET_DOWN/RIGHT/LEFT:** Directional warp tile. **Confirmed Mechanic:** Activated by standing on the tile and pressing the corresponding direction button (e.g., 'Down' for WARP_CARPET_DOWN).
-*   **FLOOR_UP_WALL:** Impassable from below, acts as a one-way ledge when approached from above.
+*   **TREE/CUT_TREE/HEADBUTT_TREE:** Impassable. Small trees can be cut with CUT.
+*   **BOULDER/ROCK_SMASH_BOULDER:** Can be moved with STRENGTH or broken with ROCK SMASH respectively.
+*   **WARP_CARPET_DOWN/RIGHT/LEFT:** Directional warp tile, activated by standing on it and pressing the corresponding direction.
+*   **FLOOR_UP_WALL:** Impassable from below. Believed to be one-way.
 
 ### B. Key Items & HM Usage
-*   **SQUIRTBOTTLE:** Used to wake up the Sudowoodo blocking Route 36.
+*   **SQUIRTBOTTLE:** Used to wake Sudowoodo.
 *   **HM01 (CUT):** Cuts small trees. Learned by Feraligatr.
-*   **HM02 (FLY):** Allows instant travel to previously visited towns. Received from Chuck's wife in Cianwood City. **Currently Unreliable.** **Hypothesis:** This is a story-based block, not a bug, possibly related to the Radio Tower or the Mahogany Town Gym. **Test:** After defeating the Mahogany Gym Leader, attempt to use Fly again.
 *   **HM03 (SURF):** Allows travel over water. Learned by Feraligatr.
 *   **HM04 (STRENGTH):** Moves large boulders.
 *   **HM05 (FLASH):** Illuminates dark caves. Learned by Hoothoot.
-*   **HM08 (ROCK SMASH):** Can be used to break certain rocks. Received from a Fisher on Route 36.
-*   **DIG:** Can be used to escape caves and some buildings, returning to the entrance. Disabled in Cianwood Gym.
+*   **HM08 (ROCK SMASH):** Breaks certain rocks.
+*   **DIG:** Can be used to escape caves.
 
-### C. Other Systems
-*   **Everstone:** A Pokémon holding this item will not evolve.
-*   **Phone Calls:** NPCs can call to offer hints, battle rematches, or flavor text.
-*   **Happiness:** Increased by haircuts and using items on Pokémon. Required for some evolutions (like Togepi).
-*   **Day/Night Cycle:** Affects which Pokémon appear.
-*   **Bug-Catching Contest:** Held on Tuesdays, Thursdays, and Saturdays in the National Park.
-*   **PC Item Deposit:** The menu navigation seems to be bugged or have a non-intuitive control scheme. **Hypothesis:** The game is returning to the item list without finalizing the deposit. The correct sequence may involve pressing 'B' after confirming quantity, or a specific item cannot be deposited. **Test:** Attempt to deposit a different item (e.g., BERRY).
+### C. Inventory & PC System
+*   **PC (Violet City):** The 'DEPOSIT ITEM' and 'TOSS ITEM' functions are faulty. They only allow interaction with the first item in the bag (e.g., MOON STONE) and provide no way to select other items.
+*   **Giving Items:** Giving an item to a Pokémon that is already holding one will swap the items, it does not free up an inventory slot.
+*   **Tossing from Pack:** This seems to be the only reliable way to clear a specific inventory slot, but it failed on Route 36. Needs further testing.
 
 ## I. Methodology & Automation
 
