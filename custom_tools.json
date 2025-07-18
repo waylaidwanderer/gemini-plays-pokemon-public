@@ -31,22 +31,6 @@
     },
     "python_script": "effectiveness_map = {\"super effective\": \">\", \"not very effective\": \"!>\", \"no effect\": \"x>\"}\nsymbol = effectiveness_map[input_data[\"effectiveness\"]]\ndefender_type2_str = f'/{input_data[\"defender_type2\"]}' if input_data.get(\"defender_type2\") else \"\"\nlog_entry = f'- {input_data[\"attacker_type\"]} {symbol} {input_data[\"defender_type1\"]}{defender_type2_str}'\nprint(log_entry)"
   },
-  "exploration_path_planner": {
-    "description": "Calculates an efficient path to visit a list of coordinates, starting from the player's current position. Uses a nearest-neighbor greedy algorithm. The input should be a comma-separated string of coordinates, e.g., 'x1,y1,x2,y2'.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "coordinates": {
-          "type": "string",
-          "description": "Comma-separated list of target coordinates, e.g., x1,y1,x2,y2"
-        }
-      },
-      "required": [
-        "coordinates"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport math\n\ndef exploration_planner(map_xml_string, input_data):\n    root = ET.fromstring(map_xml_string)\n    player_pos = None\n    for row_elem in root.findall('Row'):\n        for tile_elem in row_elem.findall('Tile'):\n            if tile_elem.get('has-player') == 'true':\n                player_pos = (int(tile_elem.get('id')), int(row_elem.get('id')))\n                break\n        if player_pos:\n            break\n\n    if not player_pos:\n        print(\"Exploration Planner Error: Player position not found.\")\n        return\n\n    try:\n        coords_str = input_data['coordinates']\n        parts = [int(c.strip()) for c in coords_str.split(',')]\n        target_coords = list(zip(parts[0::2], parts[1::2]))\n    except (ValueError, KeyError, IndexError) as e:\n        print(f\"Exploration Planner Error: Invalid coordinates input. {e}\")\n        return\n\n    unvisited = set(target_coords)\n    path = []\n    current_pos = player_pos\n\n    while unvisited:\n        def manhattan_distance(p1, p2):\n            return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])\n\n        nearest_coord = min(unvisited, key=lambda p: manhattan_distance(current_pos, p))\n        path.append(nearest_coord)\n        unvisited.remove(nearest_coord)\n        current_pos = nearest_coord\n\n    path_str = ','.join([f'({p[0]},{p[1]})' for p in path])\n    print(f\"Optimal exploration path: [{path_str}]\")\n\nexploration_planner(map_xml_string, input_data)"
-  },
   "inventory_scanner": {
     "description": "Scans the player's inventory list for a target item and returns whether it was found.",
     "input_schema": {
@@ -92,5 +76,43 @@
     "description": "Parses the map_xml_string to find all puzzle-related objects (switches, gates) and reports their current state (open, closed, offscreen) and coordinates. This helps in analyzing complex, multi-map puzzles.",
     "input_schema": {},
     "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef analyze_puzzle_state(map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    puzzle_elements = {'gates': [], 'switches': []}\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            tile_type = tile_elem.get('type')\n            if 'gate' in tile_type:\n                puzzle_elements['gates'].append({'x': x, 'y': y, 'type': tile_type, 'state': tile_type.replace('_gate', '')})\n            bg_object = tile_elem.find('Object[@name=\"PrintCinnabarQuiz\"]')\n            if bg_object is not None:\n                puzzle_elements['switches'].append({'x': x, 'y': y, 'type': 'quiz_machine'})\n    print(json.dumps(puzzle_elements, indent=2))\n\nanalyze_puzzle_state(map_xml_string)"
+  },
+  "find_nearest_unsolved_puzzle": {
+    "description": "Takes player coordinates and a list of unsolved puzzle coordinates. Uses an A* pathfinding algorithm to find the puzzle with the shortest actual travel path and returns its coordinates.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_x": {
+          "type": "integer"
+        },
+        "player_y": {
+          "type": "integer"
+        },
+        "unsolved_puzzles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "integer"
+              },
+              "y": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ]
+          }
+        }
+      },
+      "required": [
+        "player_x",
+        "player_y",
+        "unsolved_puzzles"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport heapq\nimport json\n\ndef find_shortest_path_a_star(start, end, grid, map_width, map_height):\n    open_set = []\n    heapq.heappush(open_set, (0, start))\n    came_from = {}\n    g_score = { (c,r): float('inf') for r in range(map_height + 2) for c in range(map_width + 2) }\n    g_score[start] = 0\n    f_score = { (c,r): float('inf') for r in range(map_height + 2) for c in range(map_width + 2) }\n    f_score[start] = abs(start[0] - end[0]) + abs(start[1] - end[1])\n\n    while open_set:\n        _, current = heapq.heappop(open_set)\n        if current == end:\n            path = []\n            while current in came_from:\n                path.append(current)\n                current = came_from[current]\n            return len(path)\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (current[0] + dx, current[1] + dy)\n            if not (1 <= neighbor[0] <= map_width and 1 <= neighbor[1] <= map_height):\n                continue\n            if grid[neighbor[1]][neighbor[0]] == 1:\n                continue\n            tentative_g_score = g_score[current] + 1\n            if tentative_g_score < g_score.get(neighbor, float('inf')):\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g_score\n                f_score[neighbor] = tentative_g_score + (abs(neighbor[0] - end[0]) + abs(neighbor[1] - end[1]))\n                heapq.heappush(open_set, (f_score[neighbor], neighbor))\n    return float('inf')\n\nroot = ET.fromstring(map_xml_string)\nmap_width = int(root.get('width'))\nmap_height = int(root.get('height'))\nplayer_x = int(input_data['player_x'])\nplayer_y = int(input_data['player_y'])\nunsolved_puzzles = input_data['unsolved_puzzles']\n\ngrid = [[0 for _ in range(map_width + 1)] for _ in range(map_height + 1)]\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        is_pikachu = tile_elem.find(\"./Object[@id-name='Pikachu']\") is not None\n        has_object = tile_elem.find('Object') is not None\n        is_warp = tile_elem.get('is-warp') == 'true'\n        is_impassable = False\n        impassable_types = ['impassable', 'boulder_barrier', 'closed_gate', 'unknown', 'gate_offscreen']\n        if tile_type in impassable_types or (has_object and not is_pikachu) or (is_warp and not (x == player_x and y == player_y)):\n            is_impassable = True\n        if is_impassable:\n            grid[y][x] = 1\n\nshortest_path = float('inf')\nbest_target = None\n\nfor puzzle in unsolved_puzzles:\n    target_x = puzzle['x']\n    target_y = puzzle['y']\n    \n    # Target the tile below the quiz machine for interaction\n    interaction_x, interaction_y = target_x, target_y + 1\n\n    if grid[interaction_y][interaction_x] == 1:\n        continue\n\n    path_length = find_shortest_path_a_star((player_x, player_y), (interaction_x, interaction_y), grid, map_width, map_height)\n    if path_length < shortest_path:\n        shortest_path = path_length\n        best_target = {'x': target_x, 'y': target_y}\n\nif best_target:\n    print(json.dumps(best_target))\nelse:\n    print(json.dumps({'error': 'No reachable unsolved puzzles found.'}))"
   }
 }

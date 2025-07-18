@@ -19,7 +19,7 @@
 - **spinner_up/down/left/right:** Forces movement in the specified direction.
 - **closed_gate:** An impassable gate that is currently visible on the screen. Treat as a wall.
 - **open_gate:** A previously closed gate that is now open and acts as `ground`.
-- **gate_offscreen:** A gate (either open or closed) that is not currently visible. Treat as potentially open for pathfinding.
+- **gate_offscreen:** A gate not currently on screen. Its state is unknown and can change based on puzzle triggers. Treat as impassable for pathfinding unless game state implies it is open.
 
 # III. Puzzle Log
 ## A. Pokémon Mansion (Solved)
@@ -27,10 +27,9 @@
 
 ## B. Cinnabar Gym (Current Investigation)
 - **Overarching Hypothesis:** Correctly answering every quiz question in the gym is required to open the final gates to Blaine's chamber.
-- **Methodology:** Use the `puzzle_solver` agent to identify the next unsolved quiz machine. Navigate to it, answer the question, and log the outcome. Repeat until all quizzes are solved.
+- **Methodology:** Use the `find_nearest_unsolved_puzzle` tool to identify the next solvable quiz machine. Navigate to it, answer the question, and log the outcome. Repeat until all quizzes are solved or a new hypothesis is needed.
 - **Log of Solved Quizzes:**
   - Quiz at (16, 8): Solved.
   - Quiz at (2, 14): Solved.
   - Quiz at (10, 8): Solved.
   - Quiz at (11, 2): Solved.
-- **gate_offscreen:** A gate not currently on screen. Its state is unknown and can change based on puzzle triggers. Treat as impassable for pathfinding unless game state implies it is open.
