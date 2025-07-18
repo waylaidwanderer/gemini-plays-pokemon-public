@@ -20,7 +20,7 @@
 - **spinner_stop:** Tile that stops spinner movement.
 - **closed_gate:** An impassable gate that is currently visible on the screen. Treat as a wall.
 - **open_gate:** A previously closed gate that is now open and acts as `ground`.
-- **gate_offscreen:** A gate not currently on screen. Its state is unknown. For pathfinding purposes, this is treated as potentially open to encourage exploration.
+- **gate_offscreen:** A gate not currently on screen. Its state is unknown. For pathfinding purposes, this is treated as potentially open.
 
 # III. Puzzle Log
 ## A. Pokémon Mansion (Solved)
@@ -29,9 +29,12 @@
 ## B. Cinnabar Gym (Solved)
 - **Conclusion:** The gym puzzle is sequential. You must defeat trainers or solve quizzes in each isolated section to open the gates to the next. The final quiz at (2, 8) opens the gate to Blaine.
 
-## C. Viridian Gym
-- Spinner at (14, 17) -> (8, 17)
-- Spinner at (14, 18) -> (2, 18)
-- Spinner at (2, 16) -> (2, 10)
-- Spinner at (5, 7) -> (5, 14)
-- Spinner at (6, 14) -> (14, 14)
+## C. Viridian Gym (In Progress)
+- **Goal:** Navigate the spinner maze to reach the Gym Leader.
+- **Known Spinner Paths:**
+    - (14, 17) -> (8, 17)
+    - (14, 18) -> (2, 18)
+    - (2, 16) -> (2, 10)
+    - (5, 7) -> (5, 14)
+    - (6, 14) -> (14, 14)
+- **Strategy Idea:** Create a `Spinner Maze Solver` tool to automate pathfinding.
