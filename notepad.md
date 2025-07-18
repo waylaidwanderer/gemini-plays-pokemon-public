@@ -22,7 +22,7 @@
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT (verified), LEDGE_HOP_LEFT (verified), LEDGE_HOP_DOWN (verified)
 
 ### D. HM Usage Rules (Verified)
-*   **Fly:** Cannot be used indoors. This is a standard game mechanic, not a bug.
+*   **Fly:** Using Fly from the party menu is bugged. Attempting to use it can result in an unexpected warp to a different location (e.g., New Bark Town). It does not function as a standard fast-travel move.
 
 ### E. Tile Mechanics (Pending Tests)
 *   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity.
