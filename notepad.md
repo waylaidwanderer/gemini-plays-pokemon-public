@@ -28,3 +28,6 @@
 
 # V. Future Development Ideas
 - **Menu Navigator Agent:** An agent that takes the current menu state (from screen text/annotations) and a goal (e.g., 'teach HM01 to BELLADONNA') and outputs the precise, optimal sequence of button presses to achieve it. This would prevent fumbling in complex menus.
+
+# V. Future Development Ideas
+- **Pathfinder Tool Bug:** The current pathfinder logic incorrectly treats water as impassable when the player is on a land tile. It needs to be updated to allow moving from a land tile to an adjacent water tile to initiate surfing.
