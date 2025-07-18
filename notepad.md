@@ -33,3 +33,4 @@
   - Quiz at (2, 14): Solved.
   - Quiz at (10, 8): Solved.
   - Quiz at (11, 2): Solved.
+- **gate_offscreen:** A gate not currently on screen. Its state is unknown and can change based on puzzle triggers. Treat as impassable for pathfinding unless game state implies it is open.
