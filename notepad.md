@@ -37,3 +37,8 @@
 
 ## C. Viridian Gym (Solved)
 - **Conclusion:** The maze is solved. The correct path to Giovanni from the entrance is: (14, 18) -> (2, 18) -> (2, 16) -> (2, 10) -> (5, 7) -> (5, 14) -> (6, 14) -> (14, 14). From (14, 14), navigate west and north past the defeated trainers to reach Giovanni at (3, 2).
+
+# IV. Battle Intel
+## A. Trainer Rosters & Movesets
+### Giovanni (Viridian Gym)
+- Persian (Lv55): Knows Bubblebeam (Water).
