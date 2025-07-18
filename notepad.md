@@ -88,3 +88,6 @@
 *   **Team Rocket Hideout (Boss's Room):**
     1. SLOWPOKETAIL
     2. RATICATE TAIL
+
+### D. Tool Limitations
+*   **pathfinder:** Cannot distinguish between on-screen and off-screen objects. It treats all previously seen objects from the map XML as permanent obstacles, making it unreliable for pathing through areas with moved or temporary NPCs/objects.
