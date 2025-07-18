@@ -32,8 +32,7 @@
 
 ### A. Active Quests & Blockers
 *   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance.
-    *   **Active Hypothesis:** The trigger is resolving the Team Rocket situation at the Goldenrod Radio Tower. **Test:** Fly to Goldenrod City and investigate the Radio Tower.
-    *   **Alternative Hypothesis:** The trigger might involve speaking to another key NPC, like Kurt in Azalea Town, or Lance, after clearing the hideout.
+    *   **Active Hypothesis (CONFIRMED HINT):** The Fisher explicitly told me to go to the Lake of Rage. Resolving the event there should make him move. **Test:** Travel north to the Lake of Rage.
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
 *   **Schoolboy Alan (Route 36) Blocker (CONFIRMED):** NPC is in a dialogue loop ('I'll call you when I find something'). This is confirmed to be a story-gated event, not a bag issue. Do not interact again until after major story progression (e.g., clearing Goldenrod Radio Tower).
 
