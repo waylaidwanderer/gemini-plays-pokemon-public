@@ -29,3 +29,10 @@
 2.  **Assemble Team:** Go to the Pokémon Center PC and withdraw the recommended Pokémon.
 3.  **Navigate Gym:** Use the `spinner_maze_solver` tool to find the fastest path to Giovanni at (3, 2).
 4.  **Battle Strategy:** In battle, use the `battle_strategist_agent` for turn-by-turn advice, leveraging the known weaknesses and movesets.
+
+## B. Plan to Train for Giovanni
+1.  **Level Goal:** Train the entire party (REVENANT, CRAG, NEPTUNE, LEGION, TITANESS) to the level cap of 55.
+2.  **Location Scouting:** My current assumption is that Route 22 is the best training spot. I must verify this.
+    - **Hypothesis:** Other high-level areas may offer better EXP per battle.
+    - **Test:** Battle several wild Pokémon on Route 22 and note the average EXP gain. Then, Fly to other potential locations (e.g., Route 15, Seafoam Islands) and repeat the process.
+    - **Conclusion:** Determine the most time-efficient location and focus training efforts there.
