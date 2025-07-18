@@ -44,3 +44,4 @@
 
 # V. Agent Refinement Plan
 - **Battle Strategist Type Chart:** The agent's reasoning for Rhyhorn was flawed (calculated 2x instead of a likely 4x weakness). I need to experimentally verify the effectiveness of Water vs. Rock and Ice vs. Rock and then update the agent's system prompt with the confirmed multipliers to improve its accuracy.
+    - (2, 16) -> (2, 10) (Confirmed)
