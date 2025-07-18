@@ -21,6 +21,7 @@
 *   **Goldenrod Gym:** A maze with trainers that appear and disappear. The path is a spiral shape resembling a Clefairy.
 *   **Ecruteak Gym:** An invisible path puzzle. Requires careful trial and error to find the safe path to the Gym Leader.
 *   **Cianwood Gym Boulder Puzzle & Bug:** The post-battle dialogue with Chuck is bugged, preventing reward acquisition. Progress is gated by speaking to his wife outside the gym, who provides HM02 (FLY). The boulder puzzle itself requires a multi-step STRENGTH activation for each push, and the player moves into the boulder's previous spot. The gym must be reset by leaving and re-entering to clear blocking trainers.
+*   **Violet City Pokémon Center Exit:** The `WARP_CARPET_DOWN` tile is not activated by walking onto it. **Confirmed Mechanic:** Activated by standing on the tile and pressing the 'Down' button.
 
 ## II. Game Mechanics
 
@@ -28,7 +29,7 @@
 *   **WALL/VOID:** Impassable boundary tiles.
 *   **FLOOR:** Standard traversable tile.
 *   **GRASS/TALL_GRASS:** Traversable; can trigger wild encounters.
-*   **DOOR/CAVE/LADDER/WARP_PANEL:** Standard warp tiles. LADDER is a standard two-way warp.
+*   **DOOR/CAVE/LADDER/WARP_PANEL:** Standard warp tiles. LADDER is a standard two-way warp. DOOR is a standard warp tile.
 *   **WATER/SEA:** Traversable only with SURF. Can trigger wild encounters.
 *   **LEDGE/LEDGE_HOP_DOWN:** One-way traversal. Can be jumped down but not climbed up.
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
@@ -40,7 +41,7 @@
 *   **BOULDER:** Can be moved with STRENGTH.
 *   **HEADBUTT_TREE:** Interactable tree for finding Pokémon. Impassable.
 *   **ROCK_SMASH_BOULDER:** Can be crushed with the move ROCK SMASH.
-*   **WARP_CARPET_DOWN/RIGHT/LEFT:** Directional warp tile. **Hypothesis 1 (FALSIFIED):** Activated by walking onto it from the opposite direction. **Hypothesis 2 (FALSIFIED):** Activated by walking across the mat. **Confirmed Mechanic:** Activated by standing on the tile and pressing the 'Down' button.
+*   **WARP_CARPET_DOWN/RIGHT/LEFT:** Directional warp tile. **Confirmed Mechanic:** Activated by standing on the tile and pressing the corresponding direction button (e.g., 'Down' for WARP_CARPET_DOWN).
 *   **FLOOR_UP_WALL:** Impassable from below, acts as a one-way ledge when approached from above.
 
 ### B. Key Items & HM Usage
@@ -68,6 +69,7 @@
 3.  **Test:** Execute the simplest possible sequence of actions to test the hypothesis. Design tests to potentially *falsify* the hypothesis.
 4.  **Conclude & Document:** Record the result of the test. Was the hypothesis confirmed or falsified? Update this notepad accordingly.
 5.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests.
+6.  **Verify Implementation:** After documenting a mechanic, ensure any related automation (tools/agents) correctly implements the discovered logic.
 
 ### B. Automation & Agent Usage
 *   **Automation First:** For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is my last resort. If a tool fails, my top priority is to fix it, not to abandon it.
