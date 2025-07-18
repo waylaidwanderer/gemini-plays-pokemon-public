@@ -118,3 +118,7 @@
 
 ## V. Reminders & Corrections
 *   **Hallucination Note:** Corrected a severe location hallucination around turn 52633. The incorrect marker note has been resolved.
+*   **Fly Command Glitch Test Plan:**
+    *   **Hypothesis:** The Fly command is bugged and fails when directional inputs are used on the map screen.
+    *   **Alternative Hypothesis:** The bug is intermittent and state-dependent.
+    *   **Test to Falsify:** At the next opportunity when I am in a Pokémon Center (fully healed, no status effects), I will attempt to Fly to a nearby location that requires minimal map navigation (e.g., Violet City to Route 36). If this works, the bug is not universal.
