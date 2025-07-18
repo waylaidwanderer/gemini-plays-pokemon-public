@@ -40,4 +40,5 @@
 - **Test #1 (Completed):** Spinner at (14, 18) leads to (2, 18).
 - **Test #2 (Completed):** Spinner at (2, 16) leads to (2, 10).
 - **Test #3 (Completed):** Spinner at (5, 7) leads to (5, 14).
-- **Test #4 Plan:** Test the spinner at (6, 14).
+- **Test #4 (Completed):** Spinner at (6, 14) leads to (14, 14).
+- **Test #5 Plan:** Test the spinner_stop tile at (14, 15).
