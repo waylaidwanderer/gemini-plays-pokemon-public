@@ -13,12 +13,12 @@
 *   **Automation First:** For any recurring puzzle type, my first step is to use my available custom tools (`pathfinder`). If a tool fails, my top priority is to fix it.
 *   **Agent Consultation:** I must use my defined agents when appropriate, especially `navigation_advisor` when stuck.
 
-### C. Tile Traversal Rules (Verified)
-*   **Impassable:** WALL, VOID, COUNTER, MART_SHELF, BUOY, WHIRLPOOL, PC
+### B. Tile Traversal Rules (Verified)
+*   **Impassable:** WALL, VOID, COUNTER, MART_SHELF, BUOY, WHIRLPOOL, PC, BOOKSHELF, HEADBUTT_TREE
 *   **Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN (directional, requires 'Down' press), WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** WATER/SEA (SURF), CUT_TREE (CUT), BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH)
-*   **Conditional:** PIT (one-way fall)
+*   **Conditional:** PIT (one-way fall), LEDGE_HOP_RIGHT (one-way, impassable from left), LEDGE_HOP_LEFT (one-way, impassable from right)
 
 ### D. Tile Mechanics (Pending Tests)
 *   **LEDGE_HOP_RIGHT:** One-way, impassable from the left. (Verified on Route 29)
