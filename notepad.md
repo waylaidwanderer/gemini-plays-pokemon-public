@@ -27,8 +27,8 @@
   - **Observation:** A single switch at (3, 6) on 1F appears to control two sets of gates.
   - **Hypothesis (Test #1):** The switch at (3, 6) is an alternating toggle. Pressing it opens the northern gates at (17, 8) & (18, 8) while simultaneously closing the southern gates at (25, 14) & (26, 14), and vice-versa.
   - **Current State:** Northern gates are OPEN, Southern gates are CLOSED.
-  - **Next Test:** Return to the switch at (3, 6) and press it.
-  - **Expected Outcome:** The northern gates will close, and the southern gates will open, allowing access to the rest of the eastern corridor.
+  - **Next Test (Attempt #2):** Return to the switch at (3, 6) and press it again.
+  - **Expected Outcome:** The northern gates at (17, 8) will close, and the southern gates at (25, 14) will open, allowing access to the unexplored southern corridor.
 
 ## B. Cinnabar Gym (Solved)
 - **Conclusion:** The gym puzzle is sequential. You must defeat trainers or solve quizzes in each isolated section to open the gates to the next. The final quiz at (2, 8) opens the gate to Blaine.
