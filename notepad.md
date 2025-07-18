@@ -41,4 +41,6 @@
 # IV. Battle Intel
 ## A. Trainer Rosters & Movesets
 ### Giovanni (Viridian Gym)
-- Persian (Lv55): Knows Bubblebeam (Water).
+- **Dugtrio (Lv53):** Knows Rock Slide.
+- **Nidoqueen (Lv54):** Knows Body Slam, Earthquake.
+- **Persian (Lv55):** Knows Bubblebeam (Water), Slash.
