@@ -36,3 +36,5 @@
     - **Hypothesis:** Other high-level areas may offer better EXP per battle.
     - **Test:** Battle several wild Pokémon on Route 22 and note the average EXP gain. Then, Fly to other potential locations (e.g., Route 15, Seafoam Islands) and repeat the process.
     - **Conclusion:** Determine the most time-efficient location and focus training efforts there.
+- `water`: Can be traversed with HM Surf.
+- `grass`: Tall grass with wild Pokémon.
