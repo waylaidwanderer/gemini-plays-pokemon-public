@@ -117,4 +117,4 @@
 *   **Failure of Immediate Documentation (Fly Command Loop):** I did not document the Fly glitch immediately. This led to repeated failed attempts. Lesson: Any unexpected behavior, bug, or obstacle must be documented in this notepad on the turn it is discovered.
 
 ## V. Reminders & Corrections
-*   **Delete Incorrect Marker:** I hallucinated my location and placed an incorrect marker at (7, 53) on Route 30. I need to delete this as soon as I get there.
+*   **Hallucination Note:** Corrected a severe location hallucination around turn 52633. The incorrect marker note has been resolved.
