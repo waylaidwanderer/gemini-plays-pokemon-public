@@ -20,25 +20,6 @@
 - **Cinnabar Gym:** The puzzle is sequential. Defeat trainers or solve quizzes to open gates to the next section.
 - **Viridian Gym:** The spinner maze is solved. The path to Giovanni is known and recorded in past logs.
 
-# V. Active Plans & Hypotheses
-## A. Route 13 Exploration
-- **Objective:** Navigate the Route 13 maze and reach the western exit to Route 14.
-- **Hypothesis 1:** The marker at (1, 7) 'To Route 14 (Dead End)' is incorrect. The game state indicates it's a valid connection.
-  - **Test:** Navigate to the western exit of Route 13 and attempt to transition to Route 14.
-  - **Plan:** 
-    1. Navigate the eastern section of the maze, defeating any remaining trainers.
-    2. Find the path that leads to the western section.
-    3. Systematically explore the western section until the exit at (1, 9) or (1, 7) is reached.
-    4. Attempt to walk west into the map connection.
-- **Conclusion:** (To be filled in after test)
-
-## B. Untested Assumptions (Route 14)
-- **Hypothesis 2:** The cuttable tree at (4, 43) is the only way to access the western portion of Route 14.
-  - **Test:** Use Cut on the tree. Observe if a new path opens.
-  - **Conclusion:** (To be filled in)
-- **Hypothesis 3:** All Biker trainers on this route are hostile and will initiate a battle.
-  - **Test:** Approach each Biker that is not marked as defeated.
-  - **Conclusion:** (To be filled in)
 ### Beauty (Route 15)
 - **Golduck (Lv 35):** Knows Confusion.
 - **Wigglytuff (Lv 35):** Knows Defense Curl.
