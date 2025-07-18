@@ -27,7 +27,7 @@
 ## II. World & Story
 
 ### A. Active Quests & Blockers
-*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. **Hypothesis:** Defeating Team Rocket in their hideout was the trigger. **Test:** Speak to the Fisher at (6, 14) in Mahogany Town after arriving.
+*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. **Hypothesis 1 (Failed):** Defeating Team Rocket in their hideout was the trigger. **Result:** The Fisher still blocks the path and gives the same dialogue. **Hypothesis 2:** There is a missed event trigger at the Lake of Rage. **Test:** Return to the Lake of Rage and search for new NPC interactions or changes.
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
 *   **Schoolboy Alan (Route 36) Bug:** NPC script is stuck. I need to test if tossing an item resolves it.
 
