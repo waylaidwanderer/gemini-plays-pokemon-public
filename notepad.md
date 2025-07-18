@@ -95,3 +95,6 @@
 
 ### C. Pending Mechanic Tests (Updated)
 *   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity to confirm if it's a one-way ledge or fully impassable from other directions.
+
+### F. Map Marker Best Practices
+*   **Link to object_id:** For any on-screen object (especially moving NPCs), I MUST link the map marker to its `object_id`. This ensures the marker stays with the object if it moves, preventing outdated and misleading information. Unlinked markers for mobile objects are a critical failure in data management.
