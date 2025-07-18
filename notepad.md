@@ -35,3 +35,5 @@
     - **Hypothesis:** Other high-level areas may offer better EXP per battle.
     - **Test:** Battle several wild Pokémon on Route 22 and note the average EXP gain. Then, Fly to other potential locations (e.g., Route 15, Seafoam Islands) and repeat the process.
     - **Conclusion:** Determine the most time-efficient location and focus training efforts there.
+- `grass`: Tall grass where wild Pokémon can be encountered.
+- `warp`: Teleportation tile that moves the player to a new location, often on a different map.
