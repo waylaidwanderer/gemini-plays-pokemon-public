@@ -13,6 +13,7 @@
 ### B. Automation & Agent Usage
 *   **Automation First:** For any recurring puzzle type, my first step is to use my available custom tools (`pathfinder`). If a tool fails, my top priority is to fix it.
 *   **Agent Consultation:** I must use my defined agents when appropriate, especially `navigation_advisor` when stuck.
+
 ### C. Tile Traversal Rules (Verified)
 *   **Impassable:** WALL, VOID, COUNTER, MART_SHELF, BUOY, WHIRLPOOL, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut)
 *   **Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS
