@@ -16,11 +16,11 @@
 *   **Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN (directional), WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** WATER/SEA (SURF), BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH)
-*   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT, LEDGE_HOP_LEFT, LEDGE_HOP_DOWN
+*   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT (verified), LEDGE_HOP_LEFT (verified), LEDGE_HOP_DOWN (verified)
 
 ### D. Tile Mechanics (Pending Tests)
-*   **LEDGE_HOP_RIGHT:** One-way, impassable from the left. (Verified on Route 29)
-*   **LEDGE/LEDGE_HOP (General):** Believed to be one-way. **Test:** At the next opportunity, attempt to move against `LEDGE_HOP_LEFT` and `LEDGE_HOP_DOWN` to confirm one-way traversal.
+*   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity.
+*   **HEADBUTT_TREE:** Believed to be impassable. **Test:** Attempt to walk into a HEADBUTT_TREE tile at the next opportunity.
 *   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity.
 *   **HEADBUTT_TREE:** Believed to be impassable. **Test:** Attempt to walk into a HEADBUTT_TREE tile at the next opportunity.
 
