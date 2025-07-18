@@ -9,20 +9,6 @@
 - **Not Very Effective (0.5x):** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground; Normal !> Rock.
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
 
-## B. Tile Traversal Rules
-- `ground`: Walkable.
-- `impassable`: Cannot be walked on.
-- `grass`: Walkable, triggers wild encounters.
-- `warp`: Teleports player to another location.
-- `spinner_*`: Forces movement in the specified direction.
-- `spinner_stop`: A safe tile that stops spinner momentum.
-- `ledge`: Can be jumped down (one-way).
-- `cuttable`: Tree that can be cut with HM Cut.
-- `water`: Crossable using HM Surf.
-- `closed_gate`: An impassable gate.
-- `gate_offscreen`: A gate whose state is unknown. Treat as potentially open for pathfinding.
-- `unknown`: Tile not yet seen; treat as impassable until explored.
-
 # III. Puzzle & Progression Log
 ## A. Pokémon Mansion (Solved)
 - **Conclusion:** The two switches in the basement (at (21, 4) and (19, 26)) control other gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated.
