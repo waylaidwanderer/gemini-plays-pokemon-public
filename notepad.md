@@ -89,3 +89,11 @@
 
 ### D. Tool Limitations
 *   **pathfinder:** Cannot distinguish between on-screen and off-screen objects. It treats all previously seen objects from the map XML as permanent obstacles, making it unreliable for pathing through areas with moved or temporary NPCs/objects.
+
+### E. Pending Tile Tests
+*   **LEDGE_HOP_LEFT:** Believed to be one-way. **Test:** Attempt to move right onto a `LEDGE_HOP_LEFT` tile.
+*   **LEDGE_HOP_DOWN:** Believed to be one-way. **Test:** Attempt to move up onto a `LEDGE_HOP_DOWN` tile.
+*   **HEADBUTT_TREE:** Believed to be impassable. **Test:** Attempt to walk into a `HEADBUTT_TREE` tile.
+
+## V. Agent & Tool Development Ideas
+*   **local_navigator (Agent):** To provide tactical, on-screen navigation advice to get around immediate obstacles when a high-level path fails.
