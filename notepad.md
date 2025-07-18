@@ -97,3 +97,5 @@
 
 ## V. Agent & Tool Development Ideas
 *   **local_navigator (Agent):** To provide tactical, on-screen navigation advice to get around immediate obstacles when a high-level path fails.
+*   **stuck_advisor (Agent):** To provide structured hypotheses and tests when I'm stuck, analyzing failed moves and system warnings.
+*   **path_tester (Tool):** To systematically test movement in all directions from a point to map invisible walls.
