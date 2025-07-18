@@ -33,3 +33,6 @@
   - Quiz at (2, 14): Solved.
   - Quiz at (10, 8): Solved.
   - Quiz at (11, 2): Solved.
+- **Test 1:** Defeated Super Nerd at (12, 5).
+  - **Outcome:** Gates at (13, 7) & (14, 7) opened.
+  - **Conclusion:** Hypothesis confirmed. Defeating bypassed trainers opens new paths.
