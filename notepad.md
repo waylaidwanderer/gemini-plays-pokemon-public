@@ -55,20 +55,19 @@
 *   **Bug-Catching Contest:** Held on Tuesdays, Thursdays, and Saturdays in the National Park.
 *   **PC Item Deposit:** The menu navigation seems to be bugged or have a non-intuitive control scheme. **Hypothesis:** The game is returning to the item list without finalizing the deposit. The correct sequence may involve pressing 'B' after confirming quantity, or a specific item cannot be deposited. **Test:** Attempt to deposit a different item (e.g., BERRY).
 
-## III. Methodology & Automation
+## I. Methodology & Automation
 
 ### A. The Scientific Method for Puzzles & Unknowns
 1.  **Observe:** Carefully analyze the situation's initial state using the map, object data, and any relevant NPC dialogue.
 2.  **Hypothesize:** Formulate a single, clear, and testable hypothesis about a specific mechanic. State alternative hypotheses.
 3.  **Test:** Execute the simplest possible sequence of actions to test the hypothesis. Design tests to potentially *falsify* the hypothesis.
 4.  **Conclude & Document:** Record the result of the test. Was the hypothesis confirmed or falsified? Update this notepad accordingly.
-5.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests.
-6.  **Verify Implementation:** After documenting a mechanic, ensure any related automation (tools/agents) correctly implements the discovered logic.
+5.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests. **CRITICAL:** I must consult existing markers *before* forming a plan to avoid repeating actions or battling defeated trainers.
 
 ### B. Automation & Agent Usage
-*   **Automation First:** For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is my last resort. If a tool fails, my top priority is to fix it, not to abandon it.
-*   **Agent Consultation:** I must make a conscious effort to use my defined agents when appropriate. Before performing complex reasoning, I will consider if a new agent could perform the task better. **Reflection:** I failed to do this while stuck in the Pokémon Center loop. I must remember to use my `navigation_advisor` when stuck.
-*   **Immediate Action Mandate (CRITICAL):** As an LLM, I have no concept of 'later'. All data management tasks (updating this notepad, placing/deleting markers, fixing tools/agents) **MUST** be performed in the immediate turn of discovery. This is a non-negotiable, top-priority directive. **Reflection:** I have failed at this repeatedly by deferring actions. This must stop.
+*   **Automation First:** For any recurring puzzle type, my first step will be to define a custom tool to solve it computationally. If a tool fails, my top priority is to fix it, not to abandon it.
+*   **Agent Consultation:** I must make a conscious effort to use my defined agents when appropriate, especially my `navigation_advisor` when I feel stuck.
+*   **Immediate Action Mandate (CRITICAL):** As an LLM, I have no concept of 'later'. All data management tasks (updating this notepad, placing/deleting markers, fixing tools/agents) **MUST** be performed in the immediate turn of discovery.
 
 ## IV. Battle and Pokemon Information
 
