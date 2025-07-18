@@ -32,7 +32,6 @@
     *   **Hypothesis 2 (Failed):** A missed event trigger exists at the Lake of Rage. **Result:** All NPCs have repeating dialogue, and Lance is gone.
     *   **Hypothesis 3 (Active):** The trigger is resolving the Team Rocket situation at the Goldenrod Radio Tower. **Test:** Fly to Goldenrod City and investigate the Radio Tower.
     *   **Alternative Hypothesis:** The trigger might involve speaking to another key NPC, like Kurt in Azalea Town, after clearing the hideout.
-    *   **Hypothesis 2:** There is a missed event trigger at the Lake of Rage. **Test:** Return to the Lake of Rage and search for new NPC interactions or changes.
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
 *   **Schoolboy Alan (Route 36) Bug:** NPC script is stuck. I need to test if tossing an item resolves it.
 
