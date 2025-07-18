@@ -96,3 +96,7 @@
 ### D. Tool Limitations & Strategy
 *   **pathfinder:** Previously had a bug where it treated unseen tiles as obstacles. Also had an issue with how I was passing arguments. Also had an issue with ledge traversal logic. All are now believed to be fixed.
 *   **Prioritize Specialized Tools:** I must remember to check for and use pre-existing specialized tools (e.g., `puzzle_solver`, `sokoban_solver`) for their intended puzzles before attempting manual solutions or building new tools.
+
+### C. New Agent Ideas (Post-Reflection)
+*   **quest_advisor (Agent):** To parse NPC dialogue and help manage active quests, suggesting next steps based on available information. This would be useful for situations like the current Mahogany Town gym block.
+*   **local_navigator (Agent):** To provide tactical, on-screen navigation advice to get around immediate obstacles when a high-level path fails, like when I was repeatedly bumping into walls trying to reach the Cooltrainer F.
