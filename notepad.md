@@ -111,3 +111,7 @@
 
 ### D. PC Storage
 *   **Items:** PSNCUREBERRY (x1), ICE BERRY (x1), MINT BERRY (x1), BURNT BERRY (x1), GREAT BALL (x1), ANTIDOTE (x1), PARLYZ HEAL (x1), AWAKENING (x1), POTION (x1), GUARD SPEC. (x1), X ATTACK (x1), X DEFEND (x1), X SPEED (x1), X SPECIAL (x1), DIRE HIT (x1), POKE BALL (x1), REPEL (x1), ESCAPE ROPE (x1), ETHER (x1), MAX ETHER (x1), REVIVE (x1), NUGGET (x1), PROTEIN (x1), IRON (x1), CARBOS (x1), CALCIUM (x1), HP UP (x1), RARE CANDY (x1), TM39 (SWIFT), TM13 (SNORE), TM41 (THUNDERPUNCH), TM48 (FIRE PUNCH), TM02 (HEADBUTT), TM45 (ATTRACT), TM21 (FRUSTRATION), TM27 (RETURN), TM12 (SWEET SCENT), TM35 (SLEEP TALK), TM49 (FURY CUTTER).
+
+### C. Process Failures & Lessons Learned
+*   **Goal Rigidity (Fly Command Loop, Turns ~52548-52598):** I failed to be flexible when my primary method (using Fly) was clearly not working. I persisted for dozens of turns instead of pivoting to a new strategy (walking). Lesson: If a plan fails more than 2-3 times, I must abandon it and formulate a new one.
+*   **Failure of Immediate Documentation (Fly Command Loop):** I did not document the Fly glitch immediately. This led to repeated failed attempts. Lesson: Any unexpected behavior, bug, or obstacle must be documented in this notepad on the turn it is discovered.
