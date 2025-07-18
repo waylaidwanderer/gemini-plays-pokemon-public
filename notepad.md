@@ -42,3 +42,11 @@
     3. Systematically explore the western section until the exit at (1, 9) or (1, 7) is reached.
     4. Attempt to walk west into the map connection.
 - **Conclusion:** (To be filled in after test)
+
+## B. Untested Assumptions (Route 14)
+- **Hypothesis 2:** The cuttable tree at (4, 43) is the only way to access the western portion of Route 14.
+  - **Test:** Use Cut on the tree. Observe if a new path opens.
+  - **Conclusion:** (To be filled in)
+- **Hypothesis 3:** All Biker trainers on this route are hostile and will initiate a battle.
+  - **Test:** Approach each Biker that is not marked as defeated.
+  - **Conclusion:** (To be filled in)
