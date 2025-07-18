@@ -9,7 +9,7 @@
 ### Giovanni (Viridian Gym)
 - **Dugtrio (Lv53):** Knows Rock Slide.
 - **Nidoqueen (Lv54):** Knows Body Slam, Earthquake.
-- **Persian (Lv55):** Knows Bubblebeam (Water), Slash.
+- **Persian (Lv55):** Knows Bubblebeam (Water), Slash, Hyper Beam (Normal), Thunderbolt (Electric).
 
 ### Beauty (Route 15)
 - **Golduck (Lv 35):** Knows Confusion.
