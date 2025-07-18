@@ -30,5 +30,4 @@
 ## C. Viridian Gym (In Progress)
 - **Goal:** Navigate the spinner maze to reach the Gym Leader.
 - **Strategy:** Use the `spinner_maze_solver` custom tool to find the optimal path.
-    - `gate_offscreen`: A gate whose state (open/closed) is unknown because it's not on screen. Treat as potentially open for pathfinding.
-    - `gate_offscreen`: A gate whose state (open/closed) is unknown because it's not on screen. Treat as potentially open for pathfinding.
+        - `gate_offscreen`: A gate whose state (open/closed) is unknown because it's not on screen. Treat as potentially open for pathfinding.
