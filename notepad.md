@@ -33,11 +33,11 @@
 - **Goal:** Navigate the spinner maze to reach the Gym Leader.
 - **Known Spinner Paths:**
     - (14, 17) -> (8, 17) (Confirmed)
-    - (14, 18) -> (2, 18)
+    - (14, 18) -> (2, 18) (Confirmed)
     - (2, 16) -> (2, 10) (Confirmed)
     - (5, 7) -> (5, 14) (Confirmed)
     - (6, 14) -> (14, 14) (Confirmed)
     - (17, 11) -> (17, 13) (Confirmed)
     - (20, 12) -> (20, 3) (Confirmed)
     - (19, 3) -> (19, 12) (Confirmed)
-- **Strategy Idea:** Create a `Spinner Maze Solver` tool to automate pathfinding.
+    - (20, 2) -> (12, 2) (Confirmed)
