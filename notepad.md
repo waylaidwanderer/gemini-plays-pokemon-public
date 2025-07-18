@@ -16,7 +16,7 @@
 ### C. Tile Traversal Rules (Verified)
 *   **Impassable:** WALL, VOID, COUNTER, MART_SHELF, BUOY, WHIRLPOOL, PC
 *   **Traversable:** FLOOR, GRASS, TALL_GRASS
-*   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN (directional, requires 'Down' press)
+*   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN (directional, requires 'Down' press), WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** WATER/SEA (SURF), CUT_TREE (CUT), BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH)
 *   **Conditional:** PIT (one-way fall)
 
