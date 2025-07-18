@@ -3,18 +3,11 @@
 - **Systematic Hypothesis Testing:** I must form single, testable hypotheses and document each test, its outcome, and my conclusion to avoid repeated failures.
 - **Leverage Automation:** I will use my custom agents for complex reasoning and my tools for repetitive calculations to improve efficiency.
 
-# II. Game Mechanics & Intel
+# II. Battle Intel
 ## A. Type Effectiveness Chart (Verified)
 - **Super Effective (2x):** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire; Fighting > Rock; Flying > Fighting; Water > Fire.
 - **Not Very Effective (0.5x):** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground; Normal !> Rock.
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
-
-## B. Tile Traversal Rules
-- **ground:** Standard walkable tile.
-- **grass:** Walkable tile with wild Pokémon encounters.
-- **water:** Traversable only with SURF.
-- **impassable:** Cannot be entered (walls, objects, etc.).
-- **cuttable:** A tree that can be removed with the field move CUT.
 
 # III. Puzzle & Progression Log
 ## A. Pokémon Mansion (Solved)
