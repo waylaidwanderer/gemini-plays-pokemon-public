@@ -11,7 +11,7 @@
 
 ### B. Automation & Agent Usage
 *   **Automation First:** For any recurring puzzle type, my first step is to use my available custom tools (`pathfinder`). If a tool fails, my top priority is to fix it.
-*   **Agent Consultation:** I must use my defined agents when appropriate, especially `navigation_advisor` when stuck and `pathing_monitor` to detect loops.
+*   **Agent Consultation:** I must use my defined agents when appropriate, especially `navigation_advisor` when stuck.
 
 ### C. Tile Traversal Rules (Verified)
 *   **Impassable:** WALL, VOID, COUNTER, MART_SHELF, BUOY, WHIRLPOOL, PC
@@ -40,7 +40,7 @@
 *   **PC Item Management:** 'DEPOSIT ITEM' and 'TOSS ITEM' are bugged in Violet City.
 *   **Toss Item from Pack:** Function is bugged and does not remove items.
 *   **Giving Items:** Swaps items instead of freeing an inventory slot.
-*   **Fly Command:** Using Fly can cause a game-breaking glitch/hallucination. Avoid using it unless absolutely necessary.
+*   **Self-Correction:** My own positional tracking errors have led to navigation issues, which I previously misidentified as game glitches. I must be more diligent in verifying my coordinates before acting.
 
 ## III. Battle and Pokemon Information
 
