@@ -22,7 +22,7 @@
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT (verified), LEDGE_HOP_LEFT (verified), LEDGE_HOP_DOWN (verified)
 
 ### D. HM Usage Rules (Verified)
-*   **Fly:** Using Fly from the party menu is bugged. Attempting to use it can result in an unexpected warp to a different location (e.g., New Bark Town). It does not function as a standard fast-travel move.
+*   **Fly:** Using Fly from the party menu appears to be bugged, causing unexpected warps to different locations (e.g., New Bark Town, Lake of Rage). It does not function as a standard fast-travel move. **Hypothesis:** This might be a consistent mechanic, not a random bug. **Test:** Systematically use Fly from different cities/routes and document the destination for each origin point to identify any patterns.
 
 ### E. Tile Mechanics (Pending Tests)
 *   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity.
@@ -33,7 +33,7 @@
 ### A. Active Quests & Blockers
 *   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance.
     *   **Active Hypothesis:** The trigger is resolving the Team Rocket situation at the Goldenrod Radio Tower. **Test:** Fly to Goldenrod City and investigate the Radio Tower.
-    *   **Alternative Hypothesis:** The trigger might involve speaking to another key NPC, like Kurt in Azalea Town, after clearing the hideout.
+    *   **Alternative Hypothesis:** The trigger might involve speaking to another key NPC, like Kurt in Azalea Town, or Lance, after clearing the hideout.
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
 *   **Schoolboy Alan (Route 36) Blocker (CONFIRMED):** NPC is in a dialogue loop ('I'll call you when I find something'). This is confirmed to be a story-gated event, not a bag issue. Do not interact again until after major story progression (e.g., clearing Goldenrod Radio Tower).
 
@@ -81,6 +81,8 @@
 *   **path_tester (Tool):** To systematically test the traversability of tiles around a given coordinate to map out invisible walls or complex collision.
 *   **path_debugger (Agent):** To analyze pathfinder failures and suggest potential causes.
 *   **quest_tracker (Agent):** To parse NPC dialogue and help manage active quests.
+*   **local_navigator (Agent):** To provide tactical, on-screen navigation advice to get around immediate obstacles when a high-level path fails.
+*   **stuck_advisor (Agent):** To provide structured hypotheses and tests when I'm stuck, analyzing failed moves and system warnings.
 
 ### B. Pending Investigations
 *   **Objective:** Re-investigate the 'Invisible Barrier' on Route 42.
@@ -92,16 +94,6 @@
     1. SLOWPOKETAIL
     2. RATICATE TAIL
 
-### D. Tool Limitations
-*   **pathfinder:** Previously had a bug where it treated unseen tiles as obstacles. Also had an issue with how I was passing arguments. Both are now believed to be fixed.
-
-## V. Agent & Tool Development Ideas
-*   **local_navigator (Agent):** To provide tactical, on-screen navigation advice to get around immediate obstacles when a high-level path fails.
-*   **stuck_advisor (Agent):** To provide structured hypotheses and tests when I'm stuck, analyzing failed moves and system warnings.
-*   **path_tester (Tool):** To systematically test movement in all directions from a point to map invisible walls.
-
-### F. Tool Usage Strategy (Self-Correction)
+### D. Tool Limitations & Strategy
+*   **pathfinder:** Previously had a bug where it treated unseen tiles as obstacles. Also had an issue with how I was passing arguments. Also had an issue with ledge traversal logic. All are now believed to be fixed.
 *   **Prioritize Specialized Tools:** I must remember to check for and use pre-existing specialized tools (e.g., `puzzle_solver`, `sokoban_solver`) for their intended puzzles before attempting manual solutions or building new tools.
-
-## VI. Reflection Notes (Turn 54107)
-*   **Fly HM Investigation:** The 'Fly' HM appears bugged, causing random warps. **Hypothesis:** This might be a consistent mechanic, not a random bug. **Test:** Systematically use Fly from different cities/routes and document the destination for each origin point to identify any patterns.
