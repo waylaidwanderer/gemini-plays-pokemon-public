@@ -18,7 +18,9 @@
     - `ledge`: Can be jumped down (one-way).
     - `cuttable`: Tree that can be cut with HM Cut.
     - `water`: Crossable using HM Surf.
-    - `unknown`: Tile not yet seen.
+    - `closed_gate`: A gate that is currently closed and impassable.
+    - `gate_offscreen`: A gate whose state (open/closed) is unknown because it's not on screen. Treat as potentially open for pathfinding.
+    - `unknown`: Tile not yet seen; treat as impassable until explored.
 
 # III. Puzzle Log
 ## A. Pokémon Mansion (Solved)
@@ -26,9 +28,8 @@
 - **Alternating Switch Puzzle (1F):**
   - **Observation:** A single switch at (3, 6) on 1F appears to control two sets of gates.
   - **Hypothesis (Test #1):** The switch at (3, 6) is an alternating toggle. Pressing it opens the northern gates at (17, 8) & (18, 8) while simultaneously closing the southern gates at (25, 14) & (26, 14), and vice-versa.
-  - **Current State:** Northern gates are OPEN, Southern gates are CLOSED.
-  - **Next Test (Attempt #2):** Return to the switch at (3, 6) and press it again.
-  - **Expected Outcome:** The northern gates at (17, 8) will close, and the southern gates at (25, 14) will open, allowing access to the unexplored southern corridor.
+  - **Current State:** Northern gates are CLOSED, Southern gates are OPEN.
+  - **Conclusion:** This southern corridor is a dead end, blocked by a closed gate at (27, 28). The search for Weepinbell here is over.
 
 ## B. Cinnabar Gym (Solved)
 - **Conclusion:** The gym puzzle is sequential. You must defeat trainers or solve quizzes in each isolated section to open the gates to the next. The final quiz at (2, 8) opens the gate to Blaine.
@@ -36,4 +37,3 @@
 ## C. Viridian Gym (In Progress)
 - **Goal:** Navigate the spinner maze to reach the Gym Leader.
 - **Strategy:** Use the `spinner_maze_solver` custom tool to find the optimal path.
-        - `gate_offscreen`: A gate whose state (open/closed) is unknown because it's not on screen. Treat as potentially open for pathfinding.
