@@ -32,7 +32,7 @@
 ## C. Viridian Gym (In Progress)
 - **Goal:** Navigate the spinner maze to reach the Gym Leader.
 - **Known Spinner Paths:**
-    - (14, 17) -> (8, 17)
+    - (14, 17) -> (8, 17) (Confirmed)
     - (14, 18) -> (2, 18)
     - (2, 16) -> (2, 10)
     - (5, 7) -> (5, 14)
