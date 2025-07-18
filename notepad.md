@@ -32,4 +32,4 @@
 - **Action:** Interacted with quiz machine at (2, 14).
 - **Question:** 'POKéMON of the same kind and level are not identical.'
 - **Answer:** YES
-- **Outcome:** Gates at (5, 13) & (6, 13) opened. This appears to grant access to Blaine's chamber.
+- **Outcome:** Gates at (5, 13) & (6, 13) opened. This does NOT grant access to Blaine's chamber, as the gates at (5, 7) and (6, 7) remain closed.
