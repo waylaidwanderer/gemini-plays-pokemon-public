@@ -82,3 +82,4 @@
 *   **Objective:** Re-investigate the 'Invisible Barrier' on Route 42.
 *   **Hypothesis:** The barrier is not a true invisible wall, but a result of flawed pathing or a misunderstanding of water tile traversal.
 *   **Method:** Return to the marked coordinates at (35, 6), (35, 7), and (35, 8). Systematically attempt to move onto each of these three tiles from all adjacent, traversable water tiles to the south, west, and east. Document the result of each attempt to map the exact collision boundaries and disprove the 'invisible wall' theory.
+*   **Impassable:** BOOKSHELF
