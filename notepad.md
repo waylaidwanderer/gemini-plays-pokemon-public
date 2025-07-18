@@ -1,20 +1,25 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. World & Story
+## II. World & Story
 
 ### A. Active Quests & Blockers
-*   **Get FIRE STONE (Route 36):** My item bag is full. I must go to a Pokémon Center, use the PC to clear a space, and then return to Schoolboy Alan.
+*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance.
 *   **Heal the Sick Miltank (Route 39):** The Miltank in the barn needs 'lots of BERRIES'. I need to find a source of berries.
-*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. My initial hypothesis about needing to go to the Lake of Rage was incorrect. 
-    *   **Hypothesis 1:** The trigger is defeating the next Gym Leader, Pryce, or another major story event in the region. **Test:** After the next major story progression, return to Mahogany Town and speak to the Fisher.
-    *   **Hypothesis 2 (Alternative):** There is a hidden switch or NPC interaction in Mahogany Town that I missed after clearing the Team Rocket Hideout. **Test:** Return to Mahogany Town and systematically re-interact with all objects and NPCs.
+*   **Get FIRE STONE (Route 36):** My item bag is full due to a complex inventory bug. This quest is on hold.
 
-### B. Key NPCs
-*   **Professor Elm:** My quest giver in New Bark Town.
-*   **Rival (SILVA):** My main rival.
-*   **Kurt (Azalea Town):** Crafts special Poké Balls from Apricorns.
-*   **Lance:** The Pokémon Champion. Helped me stop Team Rocket in Mahogany Town.
-*   **Day-Care Couple (Route 34):** They gave me the ODD EGG.
+### B. Untested Assumptions & Hypotheses
+*   **HM02 (Fly):**
+    *   **Hypothesis:** The HM is obtained from Chuck's wife in Cianwood City after defeating him, but the event was bugged.
+    *   **Alternative:** The HM is obtained elsewhere. The interaction with Chuck's wife was misremembered or for a different item.
+    *   **Test:** After defeating Chuck, if I still don't have Fly, I will speak to every NPC in Cianwood City. If that fails, I will search other locations.
+*   **Mahogany Town Gym Block:**
+    *   **Hypothesis:** The Fisher will move after I defeat the next Gym Leader (Chuck).
+    *   **Alternative:** The trigger is related to the Goldenrod Radio Tower plotline.
+    *   **Test:** After defeating Chuck, I will immediately check the Fisher. If he's still there, I will investigate the Radio Tower.
+*   **Inventory/PC Bug:**
+    *   **Hypothesis:** The bug preventing depositing/tossing specific items is universal.
+    *   **Alternative:** The bug is specific to the Violet City Pokémon Center PC or certain items.
+    *   **Test:** At the next available Pokémon Center, I will attempt to use the PC to deposit and toss various items.
 
 ## II. Game Mechanics
 
