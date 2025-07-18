@@ -19,7 +19,7 @@
 - **spinner_up/down/left/right:** Forces movement in the specified direction.
 - **closed_gate:** An impassable gate that is currently visible on the screen. Treat as a wall.
 - **open_gate:** A previously closed gate that is now open and acts as `ground`.
-- **gate_offscreen:** A gate not currently on screen. Its state is unknown and can change based on puzzle triggers. Treat as impassable for pathfinding unless game state implies it is open.
+- **gate_offscreen:** A gate not currently on screen. Its state is unknown. For pathfinding purposes, this is treated as potentially open to encourage exploration.
 
 # III. Puzzle Log
 ## A. Pokémon Mansion (Solved)
