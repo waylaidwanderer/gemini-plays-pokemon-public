@@ -7,7 +7,7 @@
 
 ## B. Trainer Rosters & Movesets
 ### Giovanni (Viridian Gym)
-- **Dugtrio (Lv53):** Knows Rock Slide.
+- **Dugtrio (Lv53):** Knows Rock Slide, Earthquake.
 - **Nidoqueen (Lv54):** Knows Body Slam, Earthquake.
 - **Persian (Lv55):** Knows Bubblebeam (Water), Slash, Hyper Beam (Normal), Thunderbolt (Electric).
 
@@ -23,4 +23,6 @@
 - **`spinner_stop`**: Stops movement from a spinner tile.
 
 # III. Viridian Gym Spinner Map Notes
-- This is a complex spinner maze. Defeated trainers become impassable obstacles. Manual pathing is unreliable; a specialized solver is needed.
+- This is a complex spinner maze. Defeated trainers become impassable obstacles.
+- The combination of one-way spinner tiles and defeated trainers becoming permanent obstacles makes manual pathing extremely difficult and prone to error.
+- A specialized tool, `spinner_maze_solver`, was created to navigate this puzzle reliably. Manual attempts are not recommended.
