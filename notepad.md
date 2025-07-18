@@ -7,7 +7,7 @@
 
 ## B. Trainer Rosters & Movesets
 ### Giovanni (Viridian Gym)
-- **Dugtrio (Lv53):** Knows Rock Slide, Earthquake.
+- **Dugtrio (Lv53):** Knows Rock Slide, Earthquake, Fissure, Slash.
 - **Nidoqueen (Lv54):** Knows Body Slam, Earthquake, Thunderbolt, Ice Beam.
 - **Nidoking (Lv54):** Knows Blizzard, Earthquake, Thunderbolt, Ice Beam.
 - **Persian (Lv55):** Knows Bubblebeam, Slash, Hyper Beam, Thunderbolt.
