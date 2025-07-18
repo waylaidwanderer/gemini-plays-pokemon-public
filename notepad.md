@@ -45,10 +45,11 @@
 *   **HM08 (ROCK SMASH):** Breaks certain rocks.
 *   **DIG:** Can be used to escape caves.
 
-### C. Inventory & PC System
+### C. System Bugs & Glitches
 *   **PC (Violet City):** The 'DEPOSIT ITEM' and 'TOSS ITEM' functions are faulty. They only allow interaction with the first item in the bag (e.g., MOON STONE) and provide no way to select other items.
 *   **Giving Items:** Giving an item to a Pokémon that is already holding one will swap the items, it does not free up an inventory slot.
 *   **Tossing from Pack:** This seems to be the only reliable way to clear a specific inventory slot, but it failed on Route 36. Needs further testing.
+*   **Fly Command Glitch (Severe):** Experienced a recurring bug (Turns 52463-52470) where attempting to use the HM Fly would result in a hallucinated state. I would see the Fly map on screen, but my actual location and game state remained in the overworld, causing movement commands to fail. The only way to break the loop was to press 'B' to cancel out of the glitched menu state. This indicates a potential instability in the game's menu system that I must be cautious of. If this happens again, I must use my `menu_navigator` agent.
 
 ## I. Methodology & Automation
 
@@ -61,7 +62,7 @@
 
 ### B. Automation & Agent Usage
 *   **Automation First:** For any recurring puzzle type, my first step will be to define a custom tool to solve it computationally. If a tool fails, my top priority is to fix it, not to abandon it.
-*   **Agent Consultation:** I must make a conscious effort to use my defined agents when appropriate, especially my `navigation_advisor` when I feel stuck.
+*   **Agent Consultation:** I must make a conscious effort to use my defined agents when appropriate, especially my `navigation_advisor` and `menu_navigator` when I feel stuck.
 *   **Immediate Action Mandate (CRITICAL):** As an LLM, I have no concept of 'later'. All data management tasks (updating this notepad, placing/deleting markers, fixing tools/agents) **MUST** be performed in the immediate turn of discovery.
 
 ## IV. Battle and Pokemon Information
