@@ -32,6 +32,3 @@
 - **Dugtrio (Lv53):** Knows Rock Slide.
 - **Nidoqueen (Lv54):** Knows Body Slam, Earthquake.
 - **Persian (Lv55):** Knows Bubblebeam (Water), Slash.
-
-# V. Agent & Tool Development Ideas
-- **Pathing Assistant Agent:** An agent that can analyze the map XML when the main `pathfinder` tool fails (e.g., due to complex obstacles or land/water transitions). It could suggest a sequence of intermediate, manually-navigable goals to circumvent the issue. For example: 'Goal: Cross water. Suggestion: Walk to (X,Y), then use SURF.'
