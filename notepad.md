@@ -9,6 +9,13 @@
     - Super Effective (2x): Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire; Fighting > Rock; Flying > Fighting.
     - Not Very Effective (0.5x): Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground; Normal !> Rock.
     - Immune (0x): Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
+- **Tile Mechanics:**
+    - `ground`: Walkable.
+    - `impassable`: Cannot be walked on.
+    - `grass`: Walkable, triggers wild encounters.
+    - `warp`: Teleports player to another location.
+    - `spinner`: Forces movement in a specific direction.
+    - `ledge`: Can be jumped down (one-way).
 
 # III. Puzzle Log
 ## A. Pokémon Mansion (Solved)
