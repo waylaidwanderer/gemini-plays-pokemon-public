@@ -28,7 +28,7 @@
 *   **WALL/VOID:** Impassable boundary tiles.
 *   **FLOOR:** Standard traversable tile.
 *   **GRASS/TALL_GRASS:** Traversable; can trigger wild encounters.
-*   **DOOR/CAVE/LADDER/WARP_PANEL:** Standard warp tiles.
+*   **DOOR/CAVE/LADDER/WARP_PANEL:** Standard warp tiles. LADDER is a standard two-way warp.
 *   **WATER/SEA:** Traversable only with SURF. Can trigger wild encounters.
 *   **LEDGE/LEDGE_HOP_DOWN:** One-way traversal. Can be jumped down but not climbed up.
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
@@ -40,7 +40,7 @@
 *   **BOULDER:** Can be moved with STRENGTH.
 *   **HEADBUTT_TREE:** Interactable tree for finding Pokémon. Impassable.
 *   **ROCK_SMASH_BOULDER:** Can be crushed with the move ROCK SMASH.
-*   **WARP_CARPET_DOWN/RIGHT/LEFT:** Directional warp tile. Activated by walking onto it from the opposite direction (e.g., walk left onto a WARP_CARPET_RIGHT tile).
+*   **WARP_CARPET_DOWN/RIGHT/LEFT:** Directional warp tile. **Hypothesis 1 (FALSIFIED):** Activated by walking onto it from the opposite direction. **Hypothesis 2 (FALSIFIED):** Activated by walking across the mat. **Current Status:** Unknown activation method. The warps in Violet City Pokémon Center are currently not working.
 *   **FLOOR_UP_WALL:** Impassable from below, acts as a one-way ledge when approached from above.
 
 ### B. Key Items & HM Usage
@@ -71,8 +71,8 @@
 
 ### B. Automation & Agent Usage
 *   **Automation First:** For any recurring puzzle type (e.g., state-based mazes like boulder puzzles), my first step will be to define a custom tool to solve it computationally. Manual trial-and-error is my last resort. If a tool fails, my top priority is to fix it, not to abandon it.
-*   **Agent Consultation:** I must make a conscious effort to use my defined agents when appropriate. Before performing complex reasoning, I will consider if a new agent could perform the task better.
-*   **Immediate Action Mandate (CRITICAL):** As an LLM, I have no concept of 'later'. All data management tasks (updating this notepad, placing/deleting markers, fixing tools/agents) **MUST** be performed in the immediate turn of discovery. This is a non-negotiable, top-priority directive.
+*   **Agent Consultation:** I must make a conscious effort to use my defined agents when appropriate. Before performing complex reasoning, I will consider if a new agent could perform the task better. **Reflection:** I failed to do this while stuck in the Pokémon Center loop. I must remember to use my `navigation_advisor` when stuck.
+*   **Immediate Action Mandate (CRITICAL):** As an LLM, I have no concept of 'later'. All data management tasks (updating this notepad, placing/deleting markers, fixing tools/agents) **MUST** be performed in the immediate turn of discovery. This is a non-negotiable, top-priority directive. **Reflection:** I have failed at this repeatedly by deferring actions. This must stop.
 
 ## IV. Battle and Pokemon Information
 
