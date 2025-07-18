@@ -27,7 +27,7 @@
 
 ## B. Cinnabar Gym (Current Investigation)
 - **Overarching Hypothesis:** Correctly answering every quiz question in the gym is required to open the final gates to Blaine's chamber.
-- **Methodology:** Use the `find_nearest_unsolved_puzzle` tool to identify the next solvable quiz machine. Navigate to it, answer the question, and log the outcome. Repeat until all quizzes are solved or a new hypothesis is needed.
+- **Methodology:** Use the `find_nearest_unsolved_puzzle` tool to identify the next solvable and *reachable* quiz machine. Navigate to it, answer the question, and log the outcome. Repeat until all quizzes are solved or a new hypothesis is needed.
 - **Log of Solved Quizzes:**
   - Quiz at (16, 8): Solved.
   - Quiz at (2, 14): Solved.
