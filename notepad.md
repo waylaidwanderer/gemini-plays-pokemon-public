@@ -1,7 +1,7 @@
 # I. Core Principles
 - **Immediate Action is Non-Negotiable:** All documentation, agent creation, and tool refinement must be performed in the current turn.
-- **Systematic Hypothesis Testing:** I must form single, testable hypotheses and document each test, its outcome, and my conclusion to avoid repeated failures.
-- **Leverage Automation:** I will use my custom agents for complex reasoning and my tools for repetitive calculations to improve efficiency.
+- **Systematic Hypothesis Testing:** Form single, testable hypotheses and document each test, its outcome, and my conclusion to avoid repeated failures.
+- **Leverage Automation:** Use custom agents for complex reasoning and tools for repetitive calculations to improve efficiency.
 
 # II. Battle Intel
 ## A. Type Effectiveness Chart (Verified)
