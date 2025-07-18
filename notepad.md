@@ -25,16 +25,5 @@
 ## A. Pokémon Mansion (Solved)
 - **Conclusion:** The two switches in the basement (at (21, 4) and (19, 26)) control the gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated.
 
-## B. Cinnabar Gym (Current Investigation)
-- **Overarching Hypothesis:** Correctly answering every quiz question in the gym is required to open the final gates to Blaine's chamber.
-- **Methodology:** Use the `find_nearest_unsolved_puzzle` tool to identify the next solvable and *reachable* quiz machine. Navigate to it, answer the question, and log the outcome. Repeat until all quizzes are solved or a new hypothesis is needed.
-- **Log of Solved Quizzes:**
-  - Quiz at (16, 8): Solved.
-  - Quiz at (2, 14): Solved.
-  - Quiz at (10, 8): Solved.
-  - Quiz at (11, 2): Solved.
-- **Test 1:** Defeated Super Nerd at (12, 5).
-  - **Outcome:** Gates at (13, 7) & (14, 7) opened.
-  - **Conclusion:** Hypothesis confirmed. Defeating bypassed trainers opens new paths.
-  - Quiz at (2, 8): Solved. Opened gates at (5, 7) & (6, 7).
+## B. Cinnabar Gym (Solved)
 - **Conclusion:** The gym puzzle is sequential. You must defeat trainers or solve quizzes in each isolated section to open the gates to the next. The final quiz at (2, 8) opens the gate to Blaine.
