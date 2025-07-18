@@ -1,29 +1,31 @@
 # I. Battle Intel
 
 ## A. Type Effectiveness Chart (Verified)
-- **Super Effective (2x):** Psychic > Ghost/Poison; Ghost > Psychic; Electric > Rock/Water; CUT (Normal) > VICTREEBEL (Grass/Poison); Flying > Grass/Poison; Psychic > Flying; Ice > Ground; Ground > Poison; Ground > Fire; Rock > Fire; Fighting > Rock; Flying > Fighting; Water > Fire; Rock > Ice.
-- **Not Very Effective (0.5x):** Normal !> Psychic; Electric !> Grass; Rock !> Ground; Psychic !> Psychic; Bite (Normal) !> HAUNTER (Ghost/Poison); Ice !> Gyarados (Water/Flying); Poison !> Poison; Ice !> Water; Poison !> Ground; Normal !> Rock.
-- **Immune (0x):** Flying immune to Ground; Ground immune to Electric; MUK immune to Poison; HYPNO immune to STUN SPORE; MUK immune to THUNDER WAVE; MAROWAK immune to POISON GAS.
+- **Super Effective (2x):** Psychic > Ghost, Poison; Ghost > Psychic; Electric > Rock, Water; Flying > Grass, Poison, Fighting; Ice > Ground, Grass, Flying, Dragon; Ground > Poison, Fire, Electric, Rock; Rock > Fire, Ice, Flying, Bug; Fighting > Normal, Rock, Ice; Water > Fire, Ground, Rock; Grass > Water, Ground, Rock; Bug > Grass, Poison, Psychic; Poison > Grass, Bug.
+- **Not Very Effective (0.5x):** Normal !> Rock; Electric !> Grass, Electric, Dragon; Rock !> Ground, Fighting; Psychic !> Psychic; Poison !> Poison, Ground, Rock, Ghost; Ice !> Water, Ice, Fire; Fighting !> Poison, Flying, Psychic, Bug; Water !> Water, Grass, Dragon; Grass !> Fire, Grass, Poison, Flying, Bug, Dragon.
+- **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting.
 
 ## B. Trainer Rosters & Movesets
 ### Giovanni (Viridian Gym)
 - **Dugtrio (Lv53):** Knows Rock Slide, Earthquake.
 - **Nidoqueen (Lv54):** Knows Body Slam, Earthquake, Thunderbolt, Ice Beam.
-- **Persian (Lv55):** Knows Bubblebeam (Water), Slash, Hyper Beam (Normal), Thunderbolt (Electric).
-- **Nidoking (Lv54):** Knows Blizzard.
-
-### Beauty (Route 15)
-- **Golduck (Lv 35):** Knows Confusion.
-- **Wigglytuff (Lv 35):** Knows Defense Curl.
+- **Nidoking (Lv54):** Knows Blizzard, Earthquake, Thunderbolt, Ice Beam.
+- **Persian (Lv55):** Knows Bubblebeam, Slash, Hyper Beam, Thunderbolt.
 
 # II. Game Mechanics & Tile Types
+- `ground`: Standard walkable tile.
+- `impassable`: Walls, objects, cannot be traversed.
+- `cuttable`: Tree that can be cut with HM Cut.
+- `ledge`: One-way traversal, can be jumped down but not up.
+- `water`: Can be traversed with HM Surf.
+- `grass`: Tall grass with wild Pokémon.
+- `spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`: Forces movement in the specified direction.
+- `spinner_stop`: Stops movement from a spinner tile.
 
-- **`ground`**: Standard walkable tile.
-- **`impassable`**: Walls, objects, cannot be traversed.
-- **`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`**: Forces movement in the specified direction until a `spinner_stop` tile or another obstacle is hit.
-- **`spinner_stop`**: Stops movement from a spinner tile.
+# III. Strategic Plans
 
-# III. Viridian Gym Spinner Map Notes
-- This is a complex spinner maze. Defeated trainers become impassable obstacles.
-- The combination of one-way spinner tiles and defeated trainers becoming permanent obstacles makes manual pathing extremely difficult and prone to error.
-- Manual pathing is extremely difficult and prone to error. A systematic approach is required.
+## A. Plan to Defeat Giovanni
+1.  **Analyze Roster:** Use the `team_composition_advisor_agent` to get an optimal team recommendation based on my entire Pokémon roster and Giovanni's known team.
+2.  **Assemble Team:** Go to the Pokémon Center PC and withdraw the recommended Pokémon.
+3.  **Navigate Gym:** Use the `spinner_maze_solver` tool to find the fastest path to Giovanni at (3, 2).
+4.  **Battle Strategy:** In battle, use the `battle_strategist_agent` for turn-by-turn advice, leveraging the known weaknesses and movesets.
