@@ -82,6 +82,7 @@
 *   **Team Rocket Hideout (Boss's Room):**
     1. SLOWPOKETAIL
     2. RATICATE TAIL
+    3. HAIL GIOVANNI
 
 ### D. Tool Limitations & Strategy
 *   **pathfinder:** Previously had a bug where it treated unseen tiles as obstacles. Also had an issue with how I was passing arguments. Also had an issue with ledge traversal logic. All are now believed to be fixed.
