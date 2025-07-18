@@ -33,3 +33,4 @@
 - **Question:** 'POKéMON of the same kind and level are not identical.'
 - **Answer:** YES
 - **Outcome:** Gates at (5, 13) & (6, 13) opened. This does NOT grant access to Blaine's chamber, as the gates at (5, 7) and (6, 7) remain closed.
+- **Conclusion:** The gym's puzzle requires correctly answering every quiz question. Each correct answer opens a corresponding gate, and solving all of them unlocks the final gates to Blaine's chamber.
