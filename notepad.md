@@ -40,7 +40,7 @@
 *   **BOULDER:** Can be moved with STRENGTH.
 *   **HEADBUTT_TREE:** Interactable tree for finding Pokémon. Impassable.
 *   **ROCK_SMASH_BOULDER:** Can be crushed with the move ROCK SMASH.
-*   **WARP_CARPET_DOWN/RIGHT/LEFT:** Directional warp tile. **Hypothesis 1 (FALSIFIED):** Activated by walking onto it from the opposite direction. **Hypothesis 2 (FALSIFIED):** Activated by walking across the mat. **Current Status:** Unknown activation method. The warps in Violet City Pokémon Center are currently not working.
+*   **WARP_CARPET_DOWN/RIGHT/LEFT:** Directional warp tile. **Hypothesis 1 (FALSIFIED):** Activated by walking onto it from the opposite direction. **Hypothesis 2 (FALSIFIED):** Activated by walking across the mat. **Confirmed Mechanic:** Activated by standing on the tile and pressing the 'Down' button.
 *   **FLOOR_UP_WALL:** Impassable from below, acts as a one-way ledge when approached from above.
 
 ### B. Key Items & HM Usage
