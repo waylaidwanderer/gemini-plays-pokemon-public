@@ -10,7 +10,7 @@
 5.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests.
 
 ### B. Automation & Agent Usage
-*   **Automation First:** For any recurring puzzle type, my first step is to use my available custom tools. If a tool fails, my top priority is to fix it.
+*   **Automation First:** For any recurring puzzle type, my first step is to use my available custom tools (`pathfinder`, `puzzle_solver`, `sokoban_solver`). If a tool fails, my top priority is to fix it.
 *   **Agent Consultation:** I must use my defined agents when appropriate, especially `navigation_advisor` when stuck and my new `pathing_monitor` to detect loops.
 
 ### C. Tile Traversal Rules (Verified)
