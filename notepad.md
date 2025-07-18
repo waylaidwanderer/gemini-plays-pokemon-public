@@ -35,7 +35,7 @@
     - (14, 17) -> (8, 17) (Confirmed)
     - (14, 18) -> (2, 18)
     - (2, 16) -> (2, 10)
-    - (5, 7) -> (5, 14)
+    - (5, 7) -> (5, 14) (Confirmed)
     - (6, 14) -> (14, 14) (Confirmed)
 - **Strategy Idea:** Create a `Spinner Maze Solver` tool to automate pathfinding.
 
