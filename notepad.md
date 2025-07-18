@@ -26,7 +26,7 @@
 ## A. Plan to Defeat Giovanni
 1.  **Analyze Roster:** Use the `team_composition_advisor_agent` to get an optimal team recommendation based on my entire Pokémon roster and Giovanni's known team.
 2.  **Assemble Team:** Go to the Pokémon Center PC and withdraw the recommended Pokémon.
-3.  **Navigate Gym:** Use the `spinner_maze_solver` tool to find the path to Giovanni at (3, 2).
+3.  **Navigate Gym:** Find the path to Giovanni at (3, 2).
 4.  **Battle Strategy:** In battle, use the `battle_strategist_agent` for turn-by-turn advice, leveraging the known weaknesses and movesets.
 
 ## B. Plan to Train for Giovanni
