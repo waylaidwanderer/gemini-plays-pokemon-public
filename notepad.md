@@ -90,3 +90,16 @@
 
 ### C. PC Storage
 *   **Items:** PSNCUREBERRY (x1), ICE BERRY (x1), MINT BERRY (x1), BURNT BERRY (x1), GREAT BALL (x1), ANTIDOTE (x1), PARLYZ HEAL (x1), AWAKENING (x1), POTION (x1), GUARD SPEC. (x1), X ATTACK (x1), X DEFEND (x1), X SPEED (x1), X SPECIAL (x1), DIRE HIT (x1), POKE BALL (x1), REPEL (x1), ESCAPE ROPE (x1), ETHER (x1), MAX ETHER (x1), REVIVE (x1), NUGGET (x1), PROTEIN (x1), IRON (x1), CARBOS (x1), CALCIUM (x1), HP UP (x1), RARE CANDY (x1), TM39 (SWIFT), TM13 (SNORE), TM41 (THUNDERPUNCH), TM48 (FIRE PUNCH), TM02 (HEADBUTT), TM45 (ATTRACT), TM21 (FRUSTRATION), TM27 (RETURN), TM12 (SWEET SCENT), TM35 (SLEEP TALK), TM49 (FURY CUTTER).
+
+## V. Current Exploration Plans
+
+### A. Route 42 Invisible Barrier
+*   **Objective:** Systematically map the boundaries of the invisible barrier at x=35.
+*   **Method:**
+    1.  Move along the x=34 column, attempting to move right into x=35 at each y-coordinate.
+    2.  Mark each confirmed impassable tile at x=35 with a '🚫' marker.
+    3.  Once the southern and northern extents of the barrier are found, search for a path around it.
+
+### B. Pending Mechanic Tests
+*   **Objective:** Verify the behavior of `LEDGE` and `FLOOR_UP_WALL` tiles.
+*   **Method:** At the next encounter with these tiles, attempt to move against their presumed one-way direction and document the result.
