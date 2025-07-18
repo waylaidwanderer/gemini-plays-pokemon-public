@@ -80,3 +80,14 @@
 *   **Objective:** Re-investigate the 'Invisible Barrier' on Route 42.
 *   **Hypothesis:** The barrier is not a true invisible wall, but a result of flawed pathing or a misunderstanding of water tile traversal.
 *   **Method:** Return to the marked coordinates at (35, 6), (35, 7), and (35, 8). Systematically attempt to move onto each of these three tiles from all adjacent, traversable water tiles to the south, west, and east. Document the result of each attempt to map the exact collision boundaries and disprove the 'invisible wall' theory.
+*   **Toss Item from Pack (Bugged):** Function is bugged and does not remove items.
+*   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
+
+### D. Tile Mechanics (Pending Tests)
+*   **HEADBUTT_TREE:** Believed to be impassable. **Test:** Attempt to walk into a HEADBUTT_TREE tile at the next opportunity.
+*   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity.
+
+## IV. Future Development & Testing
+
+### A. Tool Ideas
+*   **path_tester:** A tool to systematically test the traversability of tiles around a given coordinate to map out invisible walls or complex collision.
