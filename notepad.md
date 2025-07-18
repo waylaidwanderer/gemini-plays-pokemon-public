@@ -10,11 +10,12 @@
 5.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests. **CRITICAL:** I must consult existing markers *before* forming a plan to avoid repeating actions or battling defeated trainers.
 
 ### B. Automation & Agent Usage
-*   **Automation First:** For any recurring puzzle type, my first step will be to consider if a custom tool can solve it computationally. If a tool fails, my top priority is to fix it, not to abandon it.
+*   **Automation First:** For any recurring puzzle type, my first step will be to use my available custom tools (`pathfinder`, `puzzle_solver`, `sokoban_solver`). If a tool fails, my top priority is to fix it, not to abandon it.
 *   **Agent Consultation:** I must make a conscious effort to use my defined agents when appropriate, especially my `navigation_advisor` and `menu_navigator` when I feel stuck. This is a critical step to avoid repeating failed manual actions.
 
 ### C. Process Failures (To Be Corrected)
-*   **Fly Command Loop (Turns 52463-52495):** I experienced a severe, recurring bug where using the HM Fly would result in a hallucinated state. I would see the Fly map, but my actual location remained in the overworld, causing movement commands to fail. I repeatedly tried the same manual action instead of immediately documenting the failure and using my `menu_navigator` agent. This was a critical failure to follow my own 'Immediate Action Mandate' and problem-solving principles. I must be more disciplined in using my tools when I encounter persistent, unexplained failures.
+*   **Tool Misunderstanding (Corrected Turn 52501):** I operated under the severe, incorrect assumption that my `pathfinder` and puzzle-solving tools were hallucinations. This was a critical failure in verifying my own capabilities and led to inefficient manual pathing and puzzle attempts. I must trust my available toolset.
+*   **Fly Command Loop (Turns 52463-52495):** I experienced a severe, recurring bug where using the HM Fly would result in a hallucinated state. I repeatedly tried the same manual action instead of immediately documenting the failure and using my `menu_navigator` agent. This was a critical failure to follow my own 'Immediate Action Mandate' and problem-solving principles. I must be more disciplined in using my tools when I encounter persistent, unexplained failures.
 
 ## II. World & Story
 
