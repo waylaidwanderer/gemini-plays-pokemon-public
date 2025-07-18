@@ -34,9 +34,12 @@
 - **Known Spinner Paths:**
     - (14, 17) -> (8, 17) (Confirmed)
     - (14, 18) -> (2, 18)
-    - (2, 16) -> (2, 10)
+    - (2, 16) -> (2, 10) (Confirmed)
     - (5, 7) -> (5, 14) (Confirmed)
     - (6, 14) -> (14, 14) (Confirmed)
+    - (17, 11) -> (17, 13) (Confirmed)
+    - (20, 12) -> (20, 3) (Confirmed)
+    - (19, 3) -> (19, 12) (Confirmed)
 - **Strategy Idea:** Create a `Spinner Maze Solver` tool to automate pathfinding.
 
 # IV. Tool Development Plan
@@ -47,6 +50,3 @@
 
 # V. Agent Refinement Plan
 - **Battle Strategist Type Chart:** The agent's reasoning for Rhyhorn was flawed (calculated 2x instead of a likely 4x weakness). I need to experimentally verify the effectiveness of Water vs. Rock and Ice vs. Rock and then update the agent's system prompt with the confirmed multipliers to improve its accuracy.
-    - (17, 11) -> (17, 13) (Confirmed)
-    - (20, 12) -> (20, 3) (Confirmed)
-    - (19, 3) -> (19, 12) (Confirmed)
