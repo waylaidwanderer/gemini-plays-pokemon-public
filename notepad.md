@@ -19,3 +19,4 @@
 - Spinner at (19, 3) leads to (19, 12).
 - Spinner at (20, 12) leads to (20, 3).
 - Spinner at (20, 2) leads to (12, 2).
+- Spinner at (12, 3) leads to (18, 3).
