@@ -32,7 +32,7 @@
     *   **Active Hypothesis:** The trigger is resolving the Team Rocket situation at the Goldenrod Radio Tower. **Test:** Fly to Goldenrod City and investigate the Radio Tower.
     *   **Alternative Hypothesis:** The trigger might involve speaking to another key NPC, like Kurt in Azalea Town, after clearing the hideout.
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
-*   **Schoolboy Alan (Route 36) Blocker:** NPC is in a dialogue loop ('I'll call you when I find something'). This is likely a story-gated event, not a bug or a full bag issue. The 'bag full' hypothesis is likely incorrect. Will check back after major story progression.
+*   **Schoolboy Alan (Route 36) Blocker (CONFIRMED):** NPC is in a dialogue loop ('I'll call you when I find something'). This is confirmed to be a story-gated event, not a bag issue. Do not interact again until after major story progression (e.g., clearing Goldenrod Radio Tower).
 
 ### B. Archived Hypotheses
 *   **Mahogany Town Gym Block:**
