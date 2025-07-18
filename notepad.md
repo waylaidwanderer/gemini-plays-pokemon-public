@@ -21,7 +21,10 @@
 *   **HM Required:** WATER/SEA (SURF), BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH)
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT (verified), LEDGE_HOP_LEFT (verified), LEDGE_HOP_DOWN (verified)
 
-### D. Tile Mechanics (Pending Tests)
+### D. HM Usage Rules (Verified)
+*   **Fly:** Cannot be used indoors. This is a standard game mechanic, not a bug.
+
+### E. Tile Mechanics (Pending Tests)
 *   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity.
 *   **CUT_TREE (cut):** Believed to be impassable after being cut. **Test:** Attempt to walk onto a cut tree stump.
 
@@ -43,7 +46,6 @@
 *   **PC Item Management (Mahogany & Violet):** 'DEPOSIT ITEM' and 'TOSS ITEM' from the PC menu are bugged.
 *   **Toss Item from Pack (Bugged):** VERIFIED - Function is bugged and does not remove items. Selecting 'TOSS' and confirming the quantity simply returns to the item list without discarding anything.
 *   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
-*   **Fly HM (Bugged):** The Fly map is unresponsive, preventing destination selection. **Alternative Hypothesis:** The bug might be location-specific. **Test:** Attempt to use Fly in a different city.
 *   **Self-Correction:** My own positional tracking errors have led to navigation issues, which I previously misidentified as game glitches. I must be more diligent in verifying my coordinates before acting.
 
 ## III. Battle and Pokemon Information
