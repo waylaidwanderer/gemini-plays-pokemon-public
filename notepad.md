@@ -26,11 +26,10 @@
 - **Conclusion:** The two switches in the basement (at (21, 4) and (19, 26)) control the gates on all floors. To open the main path on 1F at (21, 18) & (22, 18), both basement switches must be activated.
 
 ## B. Cinnabar Gym (Current Investigation)
-- **Objective:** To map the puzzle's logic by systematically logging every interaction and its outcome for the `puzzle_log_analyzer_agent`.
-- **Methodology:** Interact with each quiz machine and trainer. After each action, use the `puzzle_state_analyzer` to get the current state of all gates and log the observation.
-- **Log:**
-- **Action:** Interacted with quiz machine at (2, 14).
-- **Question:** 'POKéMON of the same kind and level are not identical.'
-- **Answer:** YES
-- **Outcome:** Gates at (5, 13) & (6, 13) opened. This does NOT grant access to Blaine's chamber, as the gates at (5, 7) and (6, 7) remain closed.
-- **Conclusion:** The gym's puzzle requires correctly answering every quiz question. Each correct answer opens a corresponding gate, and solving all of them unlocks the final gates to Blaine's chamber.
+- **Overarching Hypothesis:** Correctly answering every quiz question in the gym is required to open the final gates to Blaine's chamber.
+- **Methodology:** Use the `puzzle_solver` agent to identify the next unsolved quiz machine. Navigate to it, answer the question, and log the outcome. Repeat until all quizzes are solved.
+- **Log of Solved Quizzes:**
+  - Quiz at (16, 8): Solved.
+  - Quiz at (2, 14): Solved.
+  - Quiz at (10, 8): Solved.
+  - Quiz at (11, 2): Solved.
