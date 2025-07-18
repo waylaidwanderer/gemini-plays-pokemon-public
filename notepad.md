@@ -39,3 +39,6 @@
 - **Hypothesis 3:** All Biker trainers on this route are hostile and will initiate a battle.
   - **Test:** Approach each Biker that is not marked as defeated.
   - **Conclusion:** (To be filled in)
+### Beauty (Route 15)
+- **Golduck (Lv 35):** Knows Confusion.
+- **Wigglytuff (Lv 35):** Knows Defense Curl.
