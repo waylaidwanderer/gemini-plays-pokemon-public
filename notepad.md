@@ -86,3 +86,4 @@
 ### D. Tool Limitations & Strategy
 *   **pathfinder:** Previously had a bug where it treated unseen tiles as obstacles. Also had an issue with how I was passing arguments. Also had an issue with ledge traversal logic. All are now believed to be fixed.
 *   **Prioritize Specialized Tools:** I must remember to check for and use pre-existing specialized tools (e.g., `puzzle_solver`, `sokoban_solver`) for their intended puzzles before attempting manual solutions or building new tools.
+*   **Rocket Grunt (TeamRocketBaseB2F):** RATTATA (x2), ZUBAT
