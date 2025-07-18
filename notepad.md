@@ -122,3 +122,4 @@
     *   **Hypothesis:** The Fly command is bugged and fails when directional inputs are used on the map screen.
     *   **Alternative Hypothesis:** The bug is intermittent and state-dependent.
     *   **Test to Falsify:** At the next opportunity when I am in a Pokémon Center (fully healed, no status effects), I will attempt to Fly to a nearby location that requires minimal map navigation (e.g., Violet City to Route 36). If this works, the bug is not universal.
+*   **Toss Item Bug (Verified Turn 52711):** The 'TOSS' function in the inventory is bugged. Selecting it and confirming the number to toss results in no item being removed from the bag. This was tested with both POTION and BERRY items.
