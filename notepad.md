@@ -37,3 +37,8 @@
 ## C. Viridian Gym (In Progress)
 - **Goal:** Navigate the spinner maze to reach the Gym Leader.
 - **Strategy:** Use the `spinner_maze_solver` custom tool to find the optimal path.
+
+## D. Viridian Gym (Manual Exploration)
+- **Problem:** The `spinner_maze_solver` tool is too inefficient and times out. 
+- **New Strategy:** I will manually test each spinner tile, one by one, to map out the connections within the maze. I will record the start and end coordinates of each spinner path I discover.
+- **Test #1 Plan:** Start with the spinner closest to the entrance at (14, 18).
