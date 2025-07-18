@@ -11,7 +11,7 @@
 6.  **Thorough Debugging:** When a tool fails, I must be more thorough in my analysis, checking not just the code's logic but also the inputs and potential engine-side interactions before redefining it.
 
 ### B. Automation & Agent Usage
-*   **Automation First:** For any recurring puzzle type, my first step is to use my available custom tools (`pathfinder`). If a tool fails, my top priority is to fix it.
+*   **Automation First:** For any recurring puzzle type, my first step is to use my available custom tools (`pathfinder`). If a tool fails, my top priority is to fix it **immediately**.
 *   **Agent Consultation:** I must use my defined agents when appropriate, especially `navigation_advisor` when stuck.
 
 ### C. Tile Traversal Rules (Verified)
@@ -24,17 +24,22 @@
 ### D. HM Usage Rules (Verified)
 *   **Fly:** Using Fly from the party menu appears to be bugged, causing unexpected warps to different locations (e.g., New Bark Town, Lake of Rage). It does not function as a standard fast-travel move. **Hypothesis:** This might be a consistent mechanic, not a random bug. **Test:** Systematically use Fly from different cities/routes and document the destination for each origin point to identify any patterns.
 
+### E. Map Marker Best Practices
+*   **Link to object_id:** For any on-screen object (especially moving NPCs), I MUST link the map marker to its `object_id`. This ensures the marker stays with the object if it moves, preventing outdated and misleading information. Unlinked markers for mobile objects are a critical failure in data management.
+
 ## II. World & Story
 
 ### A. Active Quests & Blockers
 *   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance.
     *   **Active Hypothesis (CONFIRMED HINT):** The Fisher explicitly told me to go to the Lake of Rage. Resolving the event there should make him move. **Current Action:** Re-investigating the Lake of Rage.
+*   **RED SCALE Investigation:** Mr. Pokémon is the primary person of interest.
+    *   **Alternative Hypothesis:** The RED SCALE is for a different NPC (like Lance) or is a use-item for a Pokémon.
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
 *   **Schoolboy Alan (Route 36) Blocker (CONFIRMED):** NPC is in a dialogue loop ('I'll call you when I find something'). This is confirmed to be a story-gated event, not a bag issue. Do not interact again until after major story progression (e.g., clearing Goldenrod Radio Tower).
 *   **Invisible Barrier on Route 42:** Re-investigate the supposed barrier at (35, 6), (35, 7), and (35, 8). Systematically test movement from all adjacent water tiles to map the exact collision.
 
 ### B. Pending Mechanic Tests
-*   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity.
+*   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity to confirm if it's a one-way ledge or fully impassable from other directions.
 *   **CUT_TREE (cut):** Believed to be impassable after being cut. **Test:** Attempt to walk onto a cut tree stump.
 
 ### C. Passwords & Keys
@@ -43,15 +48,10 @@
     2. RATICATE TAIL
     3. HAIL GIOVANNI
 
-### D. Archived Hypotheses
-*   **Mahogany Town Gym Block:**
-    *   **Hypothesis 1 (Failed):** Defeating Team Rocket in their hideout was the trigger. **Result:** The Fisher still blocks the path.
-
-### E. System Bugs & Glitches
+### D. System Bugs & Glitches
 *   **PC Item Management (Mahogany & Violet):** 'DEPOSIT ITEM' and 'TOSS ITEM' from the PC menu are bugged.
 *   **Toss Item from Pack (Bugged):** VERIFIED - Function is bugged and does not remove items. Selecting 'TOSS' and confirming the quantity simply returns to the item list without discarding anything.
 *   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
-*   **Self-Correction:** My own positional tracking errors have led to navigation issues, which I previously misidentified as game glitches. I must be more diligent in verifying my coordinates before acting.
 
 ## III. Battle and Pokemon Information
 
@@ -61,8 +61,6 @@
 ### B. Key Trainer/Pokemon Info
 *   **Rival SILVA:** Uses a Croconaw.
 *   **Gym Leaders:** Falkner (Flying), Bugsy (Bug), Whitney (Normal), Morty (Ghost), Jasmine (Steel), Chuck (Fighting).
-*   **Rocket Grunt (TeamRocketBaseB2F):** RATTATA (x2), ZUBAT
-*   **Rocket Executive (TeamRocketBaseB3F):** ZUBAT (Lv22), RATICATE (Lv24), KOFFING (Lv22)
 
 ### C. Observed Movesets
 *   **Youngster Joey's RATTATA:** Tackle, Tail Whip
@@ -81,10 +79,6 @@
 *   **Chuck's PRIMEAPE:** Leer, Rage, Karate Chop
 *   **Chuck's POLIWRATH:** Hypnosis, Mind Reader, Dynamicpunch
 
-### D. Tool Limitations & Strategy
-*   **pathfinder:** Previously had multiple bugs related to coordinate handling and ledge traversal. All are now believed to be fixed.
-*   **Prioritize Specialized Tools:** I must remember to check for and use pre-existing specialized tools (e.g., `puzzle_solver`, `sokoban_solver`) for their intended puzzles before attempting manual solutions or building new tools.
-
 ## IV. Self-Correction & Improvement
 
 ### A. Core Directives (Violations & Learnings)
@@ -92,9 +86,3 @@
 
 ### B. Future Agent/Tool Ideas
 *   **`local_navigator` (Agent Idea):** An agent that can suggest simple, evasive maneuvers when pathing is blocked by a local obstacle (e.g., a single wall tile or NPC). It would take the current position, failed move, and surrounding tile data as input.
-
-### C. Pending Mechanic Tests (Updated)
-*   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity to confirm if it's a one-way ledge or fully impassable from other directions.
-
-### F. Map Marker Best Practices
-*   **Link to object_id:** For any on-screen object (especially moving NPCs), I MUST link the map marker to its `object_id`. This ensures the marker stays with the object if it moves, preventing outdated and misleading information. Unlinked markers for mobile objects are a critical failure in data management.
