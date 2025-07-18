@@ -21,7 +21,8 @@
 *   **Conditional:** PIT (one-way fall)
 
 ### D. Tile Mechanics (Pending Tests)
-*   **LEDGE/LEDGE_HOP:** Believed to be one-way. **Test:** At the next opportunity, attempt to move up, down, left, and right against a ledge to confirm one-way traversal.
+*   **LEDGE_HOP_RIGHT:** One-way, impassable from the left. (Verified on Route 29)
+*   **LEDGE/LEDGE_HOP (General):** Believed to be one-way. **Test:** At the next opportunity, attempt to move against `LEDGE_HOP_LEFT` and `LEDGE_HOP_DOWN` to confirm one-way traversal.
 *   **FLOOR_UP_WALL:** Impassable from below. **Test:** Attempt to move onto from above/sides at the next opportunity.
 *   **HEADBUTT_TREE:** Believed to be impassable. **Test:** Attempt to walk into a HEADBUTT_TREE tile at the next opportunity.
 
