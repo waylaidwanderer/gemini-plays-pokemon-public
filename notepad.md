@@ -73,12 +73,6 @@
 *   **Chuck's PRIMEAPE:** Leer, Rage, Karate Chop
 *   **Chuck's POLIWRATH:** Hypnosis, Mind Reader, Dynamicpunch
 
-## IV. Future Development
-
-### A. Agent & Tool Ideas
-*   **inventory_manager (Agent):** To help decide which items to discard when my bag is full.
-*   **path_debugger (Agent):** To analyze pathfinder failures and suggest potential causes.
-
 ### B. Pending Investigations
 *   **Objective:** Re-investigate the 'Invisible Barrier' on Route 42.
 *   **Hypothesis:** The barrier is not a true invisible wall, but a result of flawed pathing or a misunderstanding of water tile traversal.
