@@ -14,15 +14,3 @@
 ### Beauty (Route 15)
 - **Golduck (Lv 35):** Knows Confusion.
 - **Wigglytuff (Lv 35):** Knows Defense Curl.
-
-# II. Game Mechanics & Tile Rules
-- **`ground`**: Standard walkable tile.
-- **`grass`**: Walkable tile where wild Pokémon can be encountered.
-- **`water`**: Traversable only with the Surf field move.
-- **`impassable`**: Walls, objects, and other solid barriers.
-- **`cuttable`**: A tree that can be removed with the Cut field move.
-- **`ledge`**: Can be jumped down from above, but not climbed up.
-- **`spinner_up/down/left/right`**: Forces movement in a specific direction.
-- **`spinner_stop`**: Stops movement from a spinner tile.
-- **`warp`**: A tile that teleports the player to another location (e.g., doors, stairs).
-- **`steps`**: Allows vertical movement between different ground elevations.
