@@ -16,6 +16,9 @@
     - `warp`: Teleports player to another location.
     - `spinner`: Forces movement in a specific direction.
     - `ledge`: Can be jumped down (one-way).
+    - `cuttable`: Tree that can be cut with HM Cut.
+    - `water`: Crossable using HM Surf.
+    - `unknown`: Tile not yet seen.
 
 # III. Puzzle Log
 ## A. Pokémon Mansion (Solved)
@@ -27,6 +30,3 @@
 ## C. Viridian Gym (In Progress)
 - **Goal:** Navigate the spinner maze to reach the Gym Leader.
 - **Strategy:** Use the `spinner_maze_solver` custom tool to find the optimal path.
-    - `cuttable`: Tree that can be cut with HM Cut.
-    - `water`: Crossable using HM Surf.
-    - `unknown`: Tile not yet seen.
