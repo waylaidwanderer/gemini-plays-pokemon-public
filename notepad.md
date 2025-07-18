@@ -5,7 +5,9 @@
 ### A. Active Quests & Blockers
 *   **Get FIRE STONE (Route 36):** My item bag is full. I must go to a Pokémon Center, use the PC to clear a space, and then return to Schoolboy Alan.
 *   **Heal the Sick Miltank (Route 39):** The Miltank in the barn needs 'lots of BERRIES'. I need to find a source of berries.
-*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. My initial hypothesis about needing to go to the Lake of Rage was incorrect. **New Hypothesis:** The trigger is defeating the next Gym Leader, Pryce, or another major story event in the region. **Test:** After the next major story progression, return to Mahogany Town and speak to the Fisher.
+*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. My initial hypothesis about needing to go to the Lake of Rage was incorrect. 
+    *   **Hypothesis 1:** The trigger is defeating the next Gym Leader, Pryce, or another major story event in the region. **Test:** After the next major story progression, return to Mahogany Town and speak to the Fisher.
+    *   **Hypothesis 2 (Alternative):** There is a hidden switch or NPC interaction in Mahogany Town that I missed after clearing the Team Rocket Hideout. **Test:** Return to Mahogany Town and systematically re-interact with all objects and NPCs.
 
 ### B. Key NPCs
 *   **Professor Elm:** My quest giver in New Bark Town.
@@ -14,22 +16,13 @@
 *   **Lance:** The Pokémon Champion. Helped me stop Team Rocket in Mahogany Town.
 *   **Day-Care Couple (Route 34):** They gave me the ODD EGG.
 
-### C. Solved Puzzles
-*   **Sprout Tower:** Central pillar blocks direct ascent. Must go up the side ladders to the 3rd floor, then descend via the central ladder to reach the Elder.
-*   **Azalea Gym:** A spiderweb platform puzzle. Switches reconfigure the platforms. The correct sequence is left switch, then right switch.
-*   **Ilex Forest Farfetch'd:** Chase the Farfetch'd sprite by blocking its path to make it turn. Corner it to return it to its owner.
-*   **Goldenrod Gym:** A maze with trainers that appear and disappear. The path is a spiral shape resembling a Clefairy.
-*   **Ecruteak Gym:** An invisible path puzzle. Requires careful trial and error to find the safe path to the Gym Leader.
-*   **Cianwood Gym Boulder Puzzle & Bug:** The post-battle dialogue with Chuck is bugged, preventing reward acquisition. Progress is gated by speaking to his wife outside the gym, who provides HM02 (FLY). The boulder puzzle itself requires a multi-step STRENGTH activation for each push, and the player moves into the boulder's previous spot. The gym must be reset by leaving and re-entering to clear blocking trainers.
-*   **Violet City Pokémon Center Exit:** The `WARP_CARPET_DOWN` tile is not activated by walking onto it. **Confirmed Mechanic:** Activated by standing on the tile and pressing the 'Down' button.
-
 ## II. Game Mechanics
 
 ### A. Tile Traversal Rules
 *   **WALL/VOID:** Impassable boundary tiles.
 *   **FLOOR:** Standard traversable tile.
 *   **GRASS/TALL_GRASS:** Traversable; can trigger wild encounters.
-*   **DOOR/CAVE/LADDER/WARP_PANEL:** Standard warp tiles. LADDER is a standard two-way warp. DOOR is a standard warp tile.
+*   **DOOR/CAVE/LADDER/WARP_PANEL:** Standard warp tiles. LADDER is a standard two-way warp. DOOR is a standard warp tile that is sometimes locked or blocked by story events.
 *   **WATER/SEA:** Traversable only with SURF. Can trigger wild encounters.
 *   **LEDGE/LEDGE_HOP_DOWN:** One-way traversal. Can be jumped down but not climbed up.
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can be jumped left but not entered from the right.
@@ -60,6 +53,7 @@
 *   **Happiness:** Increased by haircuts and using items on Pokémon. Required for some evolutions (like Togepi).
 *   **Day/Night Cycle:** Affects which Pokémon appear.
 *   **Bug-Catching Contest:** Held on Tuesdays, Thursdays, and Saturdays in the National Park.
+*   **PC Item Deposit:** The menu navigation seems to be bugged or have a non-intuitive control scheme. **Hypothesis:** The game is returning to the item list without finalizing the deposit. The correct sequence may involve pressing 'B' after confirming quantity, or a specific item cannot be deposited. **Test:** Attempt to deposit a different item (e.g., BERRY).
 
 ## III. Methodology & Automation
 
