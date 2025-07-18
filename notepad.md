@@ -80,8 +80,6 @@
 *   **path_tester (Tool):** To systematically test the traversability of tiles around a given coordinate to map out invisible walls or complex collision.
 *   **path_debugger (Agent):** To analyze pathfinder failures and suggest potential causes.
 *   **quest_tracker (Agent):** To parse NPC dialogue and help manage active quests.
-*   **local_navigator (Agent):** To provide tactical, on-screen navigation advice to get around immediate obstacles when a high-level path fails.
-*   **stuck_advisor (Agent):** To provide structured hypotheses and tests when I'm stuck, analyzing failed moves and system warnings.
 
 ### B. Pending Investigations
 *   **Objective:** Re-investigate the 'Invisible Barrier' on Route 42.
