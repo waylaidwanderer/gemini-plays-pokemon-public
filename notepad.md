@@ -37,21 +37,6 @@
 
 # III. Game Mechanics & Discoveries
 
-## A. Tile Mechanics
-- **ground:** Walkable.
-- **elevated_ground:** Walkable, often requires `steps` to access.
-- **steps:** Allows vertical movement between `ground` and `elevated_ground`.
-- **water:** Crossable using Surf.
-- **impassable:** Walls, rocks, etc. Cannot be entered.
-- **ledge:** One-way downward traversal.
-- **hole:** Warps to a lower floor.
-- **ladder_up / ladder_down:** Warps between floors.
-- **boulder:** Movable with Strength.
-- **cuttable:** Tree that can be cut with HM Cut.
-- **spinner_up/down/left/right:** Forces movement in a direction.
-- **boulder_switch:** A floor switch activated by a boulder.
-- **boulder_barrier:** A wall that is removed by a `boulder_switch`.
-
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu outside of battle.
