@@ -13,7 +13,7 @@
 
 ### B. Automation & Agent Usage
 *   **Automation First:** For any recurring puzzle type, my first step is to use my available custom tools (`pathfinder`). If a tool fails, my top priority is to fix it **immediately**.
-*   **Agent Consultation:** I must use my defined agents when appropriate, especially `navigation_advisor` when stuck and `local_navigator` for minor pathing issues.
+*   **Agent Consultation:** I must use my defined agents when appropriate, especially `navigation_advisor` when stuck.
 
 ### C. Tile Traversal Rules (Verified)
 *   **Impassable:** WALL, COUNTER, MART_SHELF, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, RADIO, BOOKSHELF, TV, RADIO
