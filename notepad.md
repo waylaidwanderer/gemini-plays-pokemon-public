@@ -88,7 +88,6 @@
 *   **Test Plan:** 
     1. Move onto a new arrow tile and record the starting coordinate, input direction, and resulting coordinate.
     2. After mapping a tile's behavior, I must re-test it later by returning to the start coordinate and using the same input direction to confirm the outcome is identical. This will rule out more complex logic where tile behavior might change.
-2.  After mapping a tile's behavior, I must re-test it later by returning to the start coordinate and using the same input direction to confirm the outcome is identical. This will rule out more complex logic where tile behavior might change.
 *   **Arrow Tile Data (Verified):**
     *   (3, 6) + Down -> (3, 7) (Normal movement, not an arrow tile)
     *   (3, 7) + Left -> (2, 7) (Normal movement, not an arrow tile)
@@ -112,6 +111,5 @@
     *   (1, 10) + Down -> (1, 11) (Normal movement, not an arrow tile)
     *   (1, 11) + Down -> (1, 12) (Normal movement, not an arrow tile)
     *   (1, 12) + Down -> (1, 13) (Normal movement, not an arrow tile)
-    *   (1, 13) + Down -> (1, 14) (Normal movement, not an arrow tile)
     *   (1, 13) + Down -> (1, 14) (Normal movement, not an arrow tile)
     *   (1, 14) + Down -> (1, 15) (Normal movement, not an arrow tile)
