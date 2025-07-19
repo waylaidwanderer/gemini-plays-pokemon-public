@@ -28,6 +28,7 @@
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT (verified), LEDGE_HOP_LEFT (verified), LEDGE_HOP_DOWN (verified)
 *   **VOID (Impassable - verified)**
+*   **Untested:** RADIO, INCENSE_BURNER
 
 ### D. HM Usage Rules (Verified)
 *   **Fly:** Using Fly from the party menu appears to be bugged, causing unexpected warps to different locations. It does not function as a standard fast-travel move.
