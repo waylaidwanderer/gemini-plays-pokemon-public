@@ -16,9 +16,9 @@
 
 ## A. Plan to Defeat Giovanni
 1.  **Level Goal:** Train the party to the level cap of 55.
-2.  **Location:** Seafoam Islands is the current training location.
-3.  **Assemble Team:** Once leveled, use `team_composition_advisor_agent` for an optimal team recommendation.
-4.  **Navigate Gym:** Find the path to Giovanni at (3, 2) in Viridian Gym.
+2.  **Location:** Seafoam Islands is the current training location, as advised by `training_spot_advisor_agent`.
+3.  **Team Assembly:** Once leveled, use `team_composition_advisor_agent` for an optimal team recommendation.
+4.  **Gym Navigation:** Find the path to Giovanni at (3, 2) in Viridian Gym.
 5.  **Battle Strategy:** Use `battle_strategist_agent` for turn-by-turn advice.
 
 # III. Game Mechanics & Discoveries
@@ -26,7 +26,7 @@
 ## A. Verified Tile Mechanics
 - **Ledge:** Can be jumped down (one-way). Moving down into a ledge tile moves the player two tiles down.
 - **Cuttable Tree:** Requires HM Cut to pass. Respawns on map change.
-- **Water:** Requires HM Surf to traverse.
+- **Water:** Requires HM Surf to traverse. To use Surf from a land tile, you must be standing on a ground tile that is adjacent to a water tile, and you must be facing the water tile.
 - **Boulder:** Requires HM Strength to move.
 - **Hole:** Warps player to a lower floor.
 - **Ladder (Up/Down):** Warps player between floors. Some ladders require stepping off and back on the tile to function.
@@ -35,5 +35,4 @@
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu outside of battle.
-- **Surfing:** To use Surf from a land tile, you must be standing on a ground tile that is adjacent to a water tile, and you must be facing the water tile.
 - **Party Planning:** Always confirm all required HMs (Fly, Surf, Strength, Cut) are present in the party *before* leaving a Pokémon Center to travel to a new area.
