@@ -12,20 +12,12 @@
 - **Nidoking (Lv54):** Knows Blizzard, Earthquake, Thunderbolt, Ice Beam.
 - **Persian (Lv55):** Knows Bubblebeam, Slash, Hyper Beam, Thunderbolt.
 
-# II. Strategic Plans & Checklists
-
-## A. Plan to Earn the Earth Badge
-1.  **Level Goal:** Train the party to the level cap of 55.
-2.  **Location Finding:** Find the most efficient training spot. Seafoam Islands has potential but also many low-level encounters. I need to test its efficiency or find an alternative.
-3.  **Team Assembly:** Once leveled, use `team_composition_advisor_agent` for an optimal team recommendation against Giovanni.
-4.  **Battle Strategy:** Use `battle_strategist_agent` for turn-by-turn advice during the gym battle.
-
-## B. Future Agent Ideas
-- **Grinding Session Analyst:** An agent to determine if a training location is efficient based on EXP gain over time, factoring in encounter rate and battle length.
-
-# III. Game Mechanics & Discoveries
+# II. Game Mechanics & Discoveries
 
 ## A. Verified Tile Mechanics
+- **Ground:** Standard walkable tile.
+- **Impassable:** Walls, objects, etc. Cannot be entered.
+- **Grass:** Tall grass for wild Pokémon encounters.
 - **Ledge:** Can be jumped down (one-way). Moving down into a ledge tile moves the player two tiles down.
 - **Cuttable Tree:** Requires HM Cut to pass. Respawns on map change.
 - **Water:** Requires HM Surf to traverse. To use Surf from a land tile, you must be standing on a ground tile that is adjacent to a water tile, and you must be facing the water tile.
@@ -33,15 +25,20 @@
 - **Hole:** Warps player to a lower floor.
 - **Ladder (Up/Down):** Warps player between floors. Some ladders require stepping off and back on the tile to function.
 - **Steps:** Allows vertical and horizontal movement between 'steps' and adjacent 'ground' or 'elevated_ground' tiles.
+- **Spinner:** Forces movement in a specific direction.
 
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu outside of battle.
 - **Party Planning:** Always confirm all required HMs (Fly, Surf, Strength, Cut) are present in the party *before* leaving a Pokémon Center to travel to a new area.
 
-# IV. Tool Development & Debugging
+# III. Tool Development & Debugging
 
 ## A. `pathfinder` Tool
 - **Bug Identified (Turn 85081):** The tool fails to find paths in areas with 'steps' tiles (e.g., Seafoam Islands 1F). 
-- **Hypothesis:** The `is_walkable` function does not correctly identify 'steps' tiles as traversable from adjacent 'ground' or 'elevated_ground' tiles.
-- **Action:** Must update the script to include logic for 'steps' traversal.
+- **Hypothesis:** The `is_walkable` function did not correctly identify 'steps' tiles as traversable from adjacent 'ground' or 'elevated_ground' tiles.
+- **Action (Turn 85088):** Updated the script to include logic for 'steps' traversal. The tool needs further rigorous testing.
+
+## B. Future Agent & Tool Ideas
+- **Grinding Session Analyst:** An agent to determine if a training location is efficient based on EXP gain over time, factoring in encounter rate and battle length.
+- **Self Reflection Agent:** An agent that could analyze my last 50 turns and provide a critique based on my core principles, automating the reflection process.
