@@ -37,7 +37,7 @@
     *   **Active Hypothesis (CONFIRMED HINT):** The Fisher explicitly told me to go to the Lake of Rage. Resolving the event there should make him move. **Current Action:** Travel to the Lake of Rage.
 *   **RED SCALE Investigation:** Mr. Pokémon is the primary person of interest.
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
-*   **Secret Potion Location:** My primary hypothesis, based on an NPC hint, is that the Secret Potion is in Cianwood City. I have checked the pharmacy with no success. An alternative is that the hint was incomplete or misleading, and the item is elsewhere, or requires a specific event trigger in Cianwood I have not yet found.
+*   **Secret Potion Location (Hypothesis Debunked):** The NPC hint pointing to Cianwood City was incorrect. I have verified that the Pharmacist runs a regular shop and does NOT have the Secret Potion. The item must be located elsewhere or require a different trigger.
 
 ### B. Passwords & Keys
 *   **Team Rocket Hideout (Boss's Room):**
