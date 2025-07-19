@@ -31,17 +31,16 @@
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu outside of battle.
 - **Party Planning:** Always confirm all required HMs (Fly, Surf, Strength, Cut) are present in the party *before* leaving a Pokémon Center to travel to a new area.
-- **Dynamic Map Elements:** Some map elements, like trees, can appear dynamically based on player movement or other triggers (e.g., Fuchsia City at (19,20)).
+- **Dynamic Map Elements:** Some map elements, like trees, can appear dynamically based on player movement or other triggers (e.g., Fuchsia City at (19,20) and (17,12)).
 
-# III. Tool Development & Debugging
+# III. Tool Development & Usage
 
-## A. `pathfinder` Tool Development
-- **Status:** CRITICAL FAILURE. The current approach of using `run_code` with a temporary script is inefficient and error-prone. This violates core principles.
-- **Action Required:** The immediate, top-priority task is to define a robust, reusable `pathfinder` tool using `define_tool`. The script must be properly debugged to handle scope, syntax, and data structure issues that have caused repeated failures.
+## A. `pathfinder` Tool
+- **Status:** Implemented and refined. The tool can now find paths that include `cuttable` trees.
+- **Usage Note:** The tool correctly identifies paths through HM obstacles, but I must manually stop and use the HM from the menu when I reach the obstacle tile before continuing along the path.
 
 ## B. Agent & Tool Usage Notes
-- **`training_spot_advisor_agent`:** This agent is underutilized. I need to create an opportunity to use it to validate its effectiveness, especially since training is a current goal.
-- **Debugging Best Practices:** In case of tool failure, the first step must be to use `run_code` with detailed print statements to trace execution. Avoid repeated, blind redefinitions. Use `code_debugger_agent` to analyze errors.
+- **`training_spot_advisor_agent`:** I need to use this agent to plan my training strategy for Giovanni. This is a high priority.
 
 # IV. Puzzle-Solving Hypotheses
 
@@ -52,3 +51,10 @@
 - **Result 1:** Reading the sign displayed information about Omanyte. No other observable effect.
 - **Test 2:** Read the Kangaskhan sign at (14, 8).
 - **Result 2:** Reading the sign displayed information about Kangaskhan. No other observable effect.
+- **Hypothesis 2 (Alternative):** Interaction with the Pokémon in the enclosures is required, not the signs.
+- **Hypothesis 3 (Alternative):** A specific Pokémon must be in the party to trigger an event.
+
+# V. Training Plan
+
+## A. Goal: Train party to level cap 55 for Giovanni.
+- **Action:** Use `training_spot_advisor_agent` to identify the best training locations. Potential locations to consider: Seafoam Islands, Victory Road (once accessible), Route 22.
