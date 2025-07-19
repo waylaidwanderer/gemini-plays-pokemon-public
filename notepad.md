@@ -103,3 +103,5 @@
 *   **Hypothesis:** The Fisher blocking the Mahogany Town Gym will move after I resolve the event with Lance at the Lake of Rage.
 *   **Falsification Test:** If, after completing the Lake of Rage event, the Fisher is still blocking the gym, this hypothesis is false. The trigger must be something else. At that point, I must abandon this line of thinking and begin a systematic search for new clues in Mahogany Town and its surrounding routes.
 *   **Fishing Guru (Lake of Rage):** Confirmed that "men wearing black" (Team Rocket) are causing the disturbance at the lake.
+*   **Special Warps:**
+    *   `WARP_CARPET_DOWN`: Activated by standing on the tile and pressing the 'Down' button. (Verified in Lake of Rage Magikarp House)
