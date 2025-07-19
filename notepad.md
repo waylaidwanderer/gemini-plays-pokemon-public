@@ -37,7 +37,7 @@
 # III. Tool Development & Usage
 
 ## A. `pathfinder` Tool
-- **Status:** The tool is now considered reliable after a bug fix that improved the `get_neighbors` function and logic for handling impassable targets.
+- **Status:** The tool is considered reliable. It correctly handles impassable targets and prevents pathing from land to water, which requires manual HM usage.
 - **Game Mechanic Limitation:** The tool plans paths over traversable terrain. It does not account for game mechanics that require manual intervention, such as using an HM like Surf or Cut from the party menu. I must manually use HMs when at the edge of an obstacle to transition to a new terrain type (e.g., ground to water).
 
 ## B. Agent & Tool Usage Notes
