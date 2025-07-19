@@ -49,3 +49,6 @@
 ## C. Future Agent & Tool Ideas
 - **Grinding Session Analyst:** An agent to determine if a training location is efficient based on EXP gain over time, factoring in encounter rate and battle length.
 - **Self Reflection Agent:** An agent that could analyze my last 50 turns and provide a critique based on my core principles, automating the reflection process.
+
+# IV. Map Discoveries & Oddities
+- **Fuchsia City:** A tree at (19, 20) appeared after I walked past it. This suggests some map elements might be dynamic and change based on player movement or other triggers.
