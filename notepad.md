@@ -39,7 +39,7 @@
 
 ### A. Active Quests & Blockers
 *   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance.
-    *   **Active Hypothesis (CONFIRMED HINT):** The Fisher explicitly told me to go to the Lake of Rage. Resolving the event there should make him move. **Current Action:** Travel to the Lake of Rage.
+    *   **Hypothesis (DEBUNKED):** Resolving the Red Gyarados event at the Lake of Rage does NOT make the Fisher move. His dialogue remains unchanged. **New Hypothesis:** I must find and speak to Lance at the Lake of Rage to progress the story.
 *   **RED SCALE Investigation:** Mr. Pokémon is the primary person of interest.
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
 *   **Secret Potion Location (Hypothesis Debunked):** The NPC hint pointing to Cianwood City was incorrect. I have verified that the Pharmacist runs a regular shop and does NOT have the Secret Potion. The item must be located elsewhere or require a different trigger.
