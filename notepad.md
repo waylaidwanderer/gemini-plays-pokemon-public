@@ -98,3 +98,4 @@
     1. Move onto a new arrow tile and record the starting coordinate, input direction, and resulting coordinate.
     2. After mapping a tile's behavior, I must re-test it later by returning to the start coordinate and using the same input direction to confirm the outcome is identical. This will rule out more complex logic where tile behavior might change.
 *   **Arrow Tile Data (Verified):**
+    *   (3, 6) + Down -> (3, 7) (Normal movement, not an arrow tile)
