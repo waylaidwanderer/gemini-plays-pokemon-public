@@ -24,25 +24,27 @@
 - **Boulder:** Requires HM Strength to move.
 - **Hole:** Warps player to a lower floor.
 - **Ladder (Up/Down):** Warps player between floors.
+- **Warp:** An instant transition point between maps or areas within a map (e.g., doors, cave entrances).
 - **Steps:** Allows vertical and horizontal movement between 'steps' and adjacent 'ground' or 'elevated_ground' tiles.
 - **Spinner:** Forces movement in a specific direction.
-- **Elevated Ground:** Walkable ground at a different elevation. HM Surf cannot be initiated from this tile type.
+- **Elevated Ground:** Walkable ground at a different elevation. HM Surf cannot be initiated from this tile type. Movement between `elevated_ground` and `ground` is only possible via `steps`.
+- **Gate (`gate_offscreen`, `closed_gate`):** Barriers that may open or close based on game events. Off-screen gates are treated as potentially open for pathfinding unless proven otherwise.
 
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
-- **HM Usage:** HMs are used from the party menu outside of battle. The game does not automatically use an HM when you walk into an obstacle; you must manually stop and use it from the menu.
-- **Party Planning:** Always confirm all required HMs (Fly, Surf, Strength, Cut) are present in the party *before* leaving a Pokémon Center to travel to a new area.
-- **Dynamic Map Elements:** Some map elements, like trees, can appear dynamically based on player movement or other triggers (e.g., Fuchsia City at (19,20) and (17,12)).
+- **HM Usage:** HMs are used from the party menu outside of battle.
+- **Party Planning:** Always confirm all required HMs (Fly, Surf, Strength, Cut) are present in the party *before* leaving a Pokémon Center.
+- **Dynamic Map Elements:** Some map elements, like trees, can appear dynamically (e.g., Fuchsia City at (19,20)).
 
 # III. Tool Development & Usage
 
 ## A. Custom Tools
-- **`pathfinder`:** The tool has been through extensive debugging. It initially failed to correctly handle dismounting from Surf, then had a silent failure due to a missing function call, and finally an `AttributeError` due to incorrect parsing of move data. All known bugs are now fixed.
+- **`pathfinder`:** This tool underwent a lengthy and painful debugging process due to multiple critical failures. The issues included incorrect Surf dismount logic, silent failures, AttributeErrors, and ignoring impassable tiles. All known bugs are now fixed.
 - **`spinner_maze_solver`:** Untested. I MUST use this tool at the next spinner maze encountered (Viridian Gym) to validate its functionality.
 
 ## B. Agent & Tool Usage Notes
 - Proximity of recommended locations from agents should be considered for efficiency.
-- I must fix failing tools immediately instead of deferring the task.
+- I must fix failing tools immediately using my `code_debugger_agent` instead of deferring the task or attempting manual fixes.
 
 # IV. Puzzles & Hypotheses
 
@@ -52,18 +54,20 @@
 - **Hypothesis 2 (Untested):** Interaction with the Pokémon in the enclosures is required, not the signs.
 - **Hypothesis 3 (Untested):** A specific Pokémon must be in the party to trigger an event.
 
-# V. Strategic Plans
+## B. Seafoam Islands Puzzle
+- **Observation:** The Seafoam Islands are split into eastern and western sections on every floor explored so far (1F, B1F, B2F). Direct horizontal travel between them is impossible.
+- **Hypothesis 1 (Confirmed):** The connection between the east and west sections is on a lower floor (B3F). I successfully navigated this by surfing from the eastern side on B3F.
+
+## C. Untested Assumptions
+- **Assumption 1:** Pokémon Mansion 1F is the most efficient spot for grinding EXP.
+- **Test Plan:** After the next few battles, explore 2F, 3F, and B1F to compare wild Pokémon levels and EXP gains.
+
+# V. Strategic Plans & Lessons Learned
 
 ## A. Training for Giovanni (Level Cap: 55)
-- **Current Plan:** Travel to the western section of Seafoam Islands to train. The high-level wild Pokémon on floors B3F and B4F are ideal.
-- **Navigation Plan:** Fly to Cinnabar Island, then surf EAST to Route 20. The western entrance to Seafoam Islands is on this route. The western sea routes do not connect.
+- **Current Plan:** Grind in Pokémon Mansion until the party reaches the level cap.
 
-## C. Overwatch System Feedback
-- **Agent Usage:** Leverage `team_composition_advisor_agent` and `training_spot_advisor_agent` more frequently.
-- **Tool Usage:** Must use the `spinner_maze_solver` at the next opportunity to validate it.
-- **Notepad:** Maintain zero-latency updates. Record information on the turn it is confirmed.
-
-## F. Seafoam Islands Puzzle
-- **Observation:** The Seafoam Islands are split into eastern and western sections on every floor explored so far (1F, B1F, B2F). Direct horizontal travel between them is impossible.
-- **Hypothesis 1 (Active):** The connection between the east and west sections is on a lower floor (B3F or B4F). The current strategy is to descend as far as possible on the eastern side to find this connection.
-- **Hypothesis 2 (Untested):** This is a multi-floor boulder puzzle. Pushing boulders into holes on upper floors will alter the water currents on lower floors, creating a path. This can be tested after fully exploring the eastern descent.
+## B. Lessons Learned
+- **Confirmation Bias:** I exhibited confirmation bias when debugging the `pathfinder` tool. I assumed it was still broken after a fix and ignored evidence to the contrary. I must actively try to disprove my own assumptions and trust the data.
+- **Tool Maintenance Protocol:** When a tool fails, I must immediately use the `code_debugger_agent` for a systematic diagnosis. Manual, incremental fixes are inefficient and error-prone. Tool reliability is a higher priority than immediate gameplay progression.
+- **Real-Time Documentation:** All discoveries, failures, plans, and lessons learned must be documented in the notepad on the turn they occur, not summarized later.
