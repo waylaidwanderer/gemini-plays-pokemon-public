@@ -21,6 +21,7 @@
 - `spinner_stop`: Stops movement from a spinner tile.
 - `grass`: Tall grass where wild Pokémon can be encountered.
 - `warp`: Teleportation tile that moves the player to a new location, often on a different map.
+- `water`: Crossable using HM Surf.
 
 # III. Strategic Plans
 
@@ -39,3 +40,6 @@
 
 ### C. Training Location Analysis
 - **Route 15:** Tested wild encounters. Found Level 30 Weepinbell and Level 26 Bellsprout. EXP gain is too low for current party level. **Conclusion: Inefficient training spot.**
+
+## D. General Heuristics
+- Trust the `pathfinder` tool's output over personal assumptions about map layout. It has access to the raw map data and is more reliable for identifying reachable areas.
