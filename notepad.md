@@ -38,3 +38,10 @@
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu outside of battle.
 - **Party Planning:** Always confirm all required HMs (Fly, Surf, Strength, Cut) are present in the party *before* leaving a Pokémon Center to travel to a new area.
+
+# IV. Tool Development & Debugging
+
+## A. `pathfinder` Tool
+- **Bug Identified (Turn 85081):** The tool fails to find paths in areas with 'steps' tiles (e.g., Seafoam Islands 1F). 
+- **Hypothesis:** The `is_walkable` function does not correctly identify 'steps' tiles as traversable from adjacent 'ground' or 'elevated_ground' tiles.
+- **Action:** Must update the script to include logic for 'steps' traversal.
