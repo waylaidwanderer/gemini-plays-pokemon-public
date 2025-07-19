@@ -45,7 +45,7 @@
 *   **Team Rocket Hideout (Boss's Room):**
     1. SLOWPOKETAIL (Confirmed)
     2. RATICATE TAIL
-    3. HAIL GIOVANNI
+    3. HAIL GIOVANNI (Confirmed)
 
 ### C. Solved Puzzles & Key Discoveries
 *   **Cianwood City Stuck Spot:** Was stuck on tile (10, 28). Solution was to trigger and complete the back-to-back phone calls (Mom, then Liz).
