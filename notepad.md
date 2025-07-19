@@ -96,3 +96,10 @@
 *   **Pathfinder Tool Limitations:**
     *   The tool does not currently understand HM usage (e.g., SURF, CUT). I must manually navigate these transitions for now.
     *   The tool is only as good as the visible map data. For long paths, I must be aware that off-screen objects won't be accounted for unless I have a marker for them.
+
+## VI. Reflection (Turn 54887)
+*   **Procedural Failures:** I have been deferring tool fixes (`pathfinder`) and data management (unlinked markers on Route 42), which violates core directives. This must be corrected immediately when opportunities arise.
+*   **Untested Assumptions:**
+    *   **Mahogany Fisher:** Assumed he only moves after the Gyarados event. **Alternative:** He might move after a different story trigger (e.g., Radio Tower) or badge count. **Test:** Return to Mahogany periodically to check on him after other major events.
+    *   **Fly HM:** Assumed it's a random bug. **Alternative:** The destination might be predictable based on game state (last-used Pokécenter, location, etc.). **Test:** Systematically use Fly from multiple locations and record origin/destination pairs to find a pattern.
+*   **Tool Improvement Plan:** The `pathfinder` tool needs to be updated to understand HM requirements (Surf, Cut) and to automatically detect on-screen NPCs as obstacles.
