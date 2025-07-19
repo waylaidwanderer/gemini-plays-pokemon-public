@@ -36,7 +36,7 @@
 # III. Tool Development & Usage
 
 ## A. `pathfinder` Tool
-- **Limitation:** The tool cannot account for using HMs from the menu (e.g., land-to-water transitions require manual Surf usage). This is a game mechanic limitation, not a bug.
+- **Limitation:** The tool only plans the path. I must manually stop and use the required HM from the menu when I reach the obstacle tile before continuing along the path.
 - **Limitation:** The tool only plans the path. I must manually stop and use the required HM from the menu when I reach the obstacle tile before continuing along the path.
 
 ## B. Agent & Tool Usage Notes
