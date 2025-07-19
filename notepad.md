@@ -22,20 +22,24 @@
 
 ## B. Plan to Train for Giovanni
 1.  **Level Goal:** Train the party to the level cap of 55.
-2.  **Location Scouting:** My `training_spot_advisor_agent` recommended Seafoam Islands as the top priority. I am currently investigating this.
-    - **Hypothesis:** Seafoam Islands contains high-level wild Pokémon suitable for training.
-    - **Test:** Explore the area, battle wild Pokémon, and check their levels and EXP yield.
+2.  **Location Scouting:** My `training_spot_advisor_agent` recommended Seafoam Islands. My initial approach was flawed.
+    - **Flawed Hypothesis (Disproven):** The path to Seafoam Islands is through Route 21 and the western part of Route 20. I attempted this multiple times and confirmed the western part of Route 20 is an isolated dead-end.
+    - **New Hypothesis:** The correct path to the main part of Seafoam Islands is via Route 19, south of Fuchsia City.
+    - **Test:** Travel to Fuchsia City, surf south on Route 19, and see if it connects to the main, eastern part of Route 20 where the cave entrance is located.
 
-## C. Plan to Explore Seafoam Islands
-1.  **Travel to the Western Entrance:**
-    - **Discovery:** Route 20 is split into two non-contiguous water channels. The eastern entrance leads to a dead end, and the western channel is also isolated. The correct path must be through a different route.
-    - **New Hypothesis:** The correct path to the western part of Route 20 and the main Seafoam Islands entrance is by surfing south from Pallet Town via Route 21.
-    - **Current Path:** Cinnabar Island -> Fly to Pallet Town -> Surf south on Route 21.
-2.  **Enter and Solve Puzzles:**
-    - **Objective:** Navigate to the cave entrance at (49, 6) on Route 20.
-    - **Strategy:** Use Strength with CRAG to solve the boulder and water current puzzles. Find any items, trainers, or special Pokémon.
+## C. Current Plan: Correcting Course to Seafoam Islands
+1.  **Return to Cinnabar:** Navigate from the current position on Route 20 back to Cinnabar Island.
+2.  **Fly to Fuchsia City:** Use Fly to travel to Fuchsia City.
+3.  **Surf South:** Take the southern map connection from Fuchsia City to Route 19 and begin surfing.
+4.  **Explore Route 19/20:** Navigate the eastern sea route to find the main entrance to Seafoam Islands.
 
 # III. Game Mechanics & Discoveries
+
+## A. Verified Tile Mechanics
+- **Ledge:** Can be jumped down (one-way). Moving down into a ledge tile moves the player two tiles down.
+- **Cuttable Tree:** Requires HM Cut to pass. Respawns on map change.
+- **Water:** Requires HM Surf to traverse.
+- **Boulder:** Requires HM Strength to move.
 
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
