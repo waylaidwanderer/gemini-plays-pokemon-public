@@ -85,8 +85,7 @@
 ## V. Automation & Tool Development
 
 ### A. Pathfinder Tool Issues & Strategy
-*   **Known Bug:** The `pathfinder` tool currently fails on long, complex paths, especially those involving multiple terrain transitions (e.g., land -> water -> land).
-*   **Current Workaround:** I must break down long-distance navigation into smaller, simpler segments.
+*   **FIXED:** The `pathfinder` tool has been updated. It now correctly handles HM usage (e.g., SURF, CUT) and recognizes on-screen objects/NPCs as obstacles.
 
 ### B. Future Tool Ideas
 *   **Maze Solver:** A tool to systematically explore and map out unknown mazes with special tile mechanics, like the invisible arrow tiles in the Team Rocket Base.
