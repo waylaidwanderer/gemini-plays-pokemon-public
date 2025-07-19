@@ -23,7 +23,7 @@
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT, LEDGE_HOP_LEFT, LEDGE_HOP_DOWN
-*   **Untested:** RADIO, INCENSE_BURNER, unknown (warp tile)
+*   **Untested:** RADIO, INCENSE_BURNER, FLOOR_UP_WALL
 
 ### B. System Bugs & Glitches (Verified)
 *   **Item Management:**
