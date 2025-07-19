@@ -105,3 +105,5 @@
 *   **Fishing Guru (Lake of Rage):** Confirmed that "men wearing black" (Team Rocket) are causing the disturbance at the lake.
 *   **Special Warps:**
     *   `WARP_CARPET_DOWN`: Activated by standing on the tile and pressing the 'Down' button. (Verified in Lake of Rage Magikarp House)
+*   **Special Warps:**
+    *   `WARP_CARPET_DOWN`: Activated by standing on the tile and pressing the 'Down' button. (Verified in Lake of Rage Magikarp House)
