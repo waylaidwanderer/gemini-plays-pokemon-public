@@ -95,3 +95,4 @@
 *   (2, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
 *   (3, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
 *   (5, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
+*   (6, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
