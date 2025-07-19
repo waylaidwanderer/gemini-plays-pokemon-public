@@ -27,7 +27,7 @@
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT (verified), LEDGE_HOP_LEFT (verified), LEDGE_HOP_DOWN (verified)
-*   **VOID (Hypothesis: Impassable - AWAITING TEST)**
+*   **VOID (Impassable - verified)**
 
 ### D. HM Usage Rules (Verified)
 *   **Fly:** Using Fly from the party menu appears to be bugged, causing unexpected warps to different locations. It does not function as a standard fast-travel move.
