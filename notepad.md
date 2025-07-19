@@ -27,16 +27,13 @@
     - **Test:** Explore the area, battle wild Pokémon, and check their levels and EXP yield.
 
 ## C. Plan to Explore Seafoam Islands
-1.  **Assemble HM Team (Fuchsia City PC):**
-    - **CURRENT STEP:** Assemble the required party.
-    - **Required Pokémon:** GALE (Fly), CRAG (Strength), NEPTUNE (Surf).
-    - **Party Composition:** REVENANT, NEPTUNE, LEGION, BELLADONNA, GALE, CRAG.
-2.  **Travel to Islands:**
-    - Fly to Route 20 (closest point to Seafoam Islands).
+1.  **Travel to Islands:**
+    - Fly to Cinnabar Island.
     - Surf to the cave entrance at (59, 10) and enter.
-3.  **Solve Puzzles & Explore:**
+2.  **Solve Puzzles & Explore:**
+    - **CURRENT STEP:** Navigate the interconnected floors of the islands.
     - Use Strength with CRAG to solve the boulder and water current puzzles.
-    - Navigate all floors (1F, B1F, B2F, B3F, B4F) to find any items, trainers, or special Pokémon.
+    - Find any items, trainers, or special Pokémon.
 
 # III. Game Mechanics & Discoveries
 
