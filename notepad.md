@@ -93,3 +93,12 @@
     *   **Hypothesis 1 (Debunked):** Using a healing item (Potion, Antidote) on a healthy Pokémon is not allowed.
     *   **Hypothesis 2 (Debunked):** The 'GIVE' item function fails if the target Pokémon is already holding an item. This was confirmed when attempting to give a BERRY to Feraligatr. The game prompts for a swap, but this does not free an inventory slot.
     *   **Alternative Hypothesis:** If no Pokémon can hold an item, I must re-test the 'TOSS' function to be 100% certain it's unusable in all contexts.
+
+## VI. Future Development
+### A. Agent Concepts
+*   **Tool Debugger Agent:** An agent that takes Python code, an error message, and the context of the problem to suggest a specific, logical fix. This would streamline the tool refinement process and make it more efficient than my manual trial-and-error approach.
+
+## VII. Hypotheses & Tests
+### A. Mahogany Gym Blocker
+*   **Hypothesis:** The Fisher blocking the Mahogany Town Gym will move after I resolve the event with Lance at the Lake of Rage.
+*   **Falsification Test:** If, after completing the Lake of Rage event, the Fisher is still blocking the gym, this hypothesis is false. The trigger must be something else. At that point, I must abandon this line of thinking and begin a systematic search for new clues in Mahogany Town and its surrounding routes.
