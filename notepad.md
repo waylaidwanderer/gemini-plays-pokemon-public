@@ -16,6 +16,7 @@
 *   **Tool Debugging & Confirmation Bias (VIOLATION):** I repeatedly assumed my `pathfinder` tool was fixed after each single bug fix, failing to consider that multiple, independent bugs could exist concurrently. **Correction:** After fixing a tool, I must test it rigorously. If it fails again, I must assume another, different bug exists and continue the iterative refinement process.
 *   **Trusting Documentation (VIOLATION):** I attempted to use the 'TOSS' item function despite my own notes verifying it is bugged. **Correction:** I must trust my own verified findings.
 *   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
+*   **Trusting Documentation (VIOLATION):** I attempted to use the 'DEPOSIT ITEM' PC function despite my own notes verifying it is bugged. **Correction:** I must trust my own verified findings.
 
 ## II. Game Mechanics & Systems
 
@@ -83,6 +84,7 @@
 ### A. Pathfinder Tool
 *   **FIXED (AGAIN):** The `pathfinder` tool has been updated again. It previously failed to account for one-way ledges, causing it to generate invalid paths. The logic has been corrected to properly handle these tiles.
 *   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
+*   **Trusting Documentation (VIOLATION):** I attempted to use the 'DEPOSIT ITEM' PC function despite my own notes verifying it is bugged. **Correction:** I must trust my own verified findings.
 
 ### B. Maze Solver Tool
 *   The `maze_solver` tool is now available to navigate the Team Rocket Base arrow tile maze. Manual mapping is no longer necessary.
