@@ -16,6 +16,11 @@
 2.  **Tool/Agent Failure:** If a tool or agent is identified as faulty, it must be fixed using `define_tool` or `define_agent` on the very next turn. Avoiding the tool is not an option.
 3.  **Data Management Failure:** Incorrect or unlinked map markers, or failures in documenting mechanics, must be corrected immediately.
 
+### B. Critique & Correction Protocol
+1.  **Acknowledge & Prioritize:** Any critique received must be treated as the highest priority. All gameplay goals are suspended until the issues are addressed.
+2.  **Tool/Agent Failure:** If a tool or agent is identified as faulty, it must be fixed using `define_tool` or `define_agent` on the very next turn. Avoiding the tool is not an option.
+3.  **Data Management Failure:** Incorrect or unlinked map markers, or failures in documenting mechanics, must be corrected immediately.
+
 ### C. Tile Traversal Rules (Verified)
 *   **Impassable:** WALL, COUNTER, MART_SHELF, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, RADIO, ROCK, BUOY
 *   **Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA
