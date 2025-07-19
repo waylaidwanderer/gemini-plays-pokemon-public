@@ -31,7 +31,7 @@
     - Fly to Cinnabar Island.
     - Surf to the cave entrance at (59, 10) and enter.
 2.  **Solve Puzzles & Explore:**
-    - **CURRENT STEP:** The eastern and western sections of Seafoam Islands 1F are separate. I must exit via the eastern entrance, surf west on Route 20, and re-enter through the western cave entrance to access the main puzzle area.
+    - **CURRENT STEP:** I have confirmed the eastern and western sections of Seafoam Islands are separate. I am now exiting the eastern section to find the western entrance on Route 20.
     - Use Strength with CRAG to solve the boulder and water current puzzles.
     - Find any items, trainers, or special Pokémon.
 
