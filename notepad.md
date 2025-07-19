@@ -16,9 +16,6 @@
 *   **Tool Debugging & Confirmation Bias (VIOLATION):** I repeatedly assumed my `pathfinder` tool was fixed after each single bug fix, failing to consider that multiple, independent bugs could exist concurrently. **Correction:** After fixing a tool, I must test it rigorously. If it fails again, I must assume another, different bug exists and continue the iterative refinement process.
 *   **Trusting Documentation (VIOLATION):** I attempted to use the 'TOSS' item function despite my own notes verifying it is bugged. **Correction:** I must trust my own verified findings.
 *   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
-*   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
-*   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
-*   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
 
 ## II. Game Mechanics & Systems
 
@@ -28,14 +25,15 @@
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT, LEDGE_HOP_LEFT, LEDGE_HOP_DOWN
-*   **Untested:** RADIO, INCENSE_BURNER, FLOOR_UP_WALL
+*   **Special Cases:**
+    *   **unknown (TeamRocketBaseB3F):** Tile type at (28, 11) was traversable, behaving like a standard FLOOR tile.
+*   **Untested:** RADIO, INCENSE_BURNER, FLOOR_UP_WALL, unknown
 
 ### B. System Bugs & Glitches (Verified)
 *   **Item Management:**
     *   'DEPOSIT ITEM' and 'TOSS ITEM' from PC are bugged.
     *   'TOSS ITEM' from PACK is bugged.
     *   'FLY' HM is bugged and causes unpredictable warps.
-*   **Toss Item from Pack (Bugged):** VERIFIED - Function is bugged and does not remove items.
 *   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
 
 ## III. World & Story
@@ -90,14 +88,6 @@
 
 ### B. Maze Solver Tool
 *   The `maze_solver` tool is now available to navigate the Team Rocket Base arrow tile maze. Manual mapping is no longer necessary.
-*   **Untested:** RADIO, INCENSE_BURNER, FLOOR_UP_WALL
-*   **unknown (warp tile):** The 'unknown' tile type at (28, 11) on TeamRocketBaseB3F was traversable and behaved like a standard FLOOR tile.
-
-### C. Solved Puzzles & Key Discoveries
-*   **Inventory Management Deadlock:** With a full bag, and the 'TOSS' function bugged, I cannot pick up new items. 
-    *   **Hypothesis 1 (Debunked):** Using a healing item (Potion, Antidote) on a healthy Pokémon is not allowed.
-    *   **Hypothesis 2 (Debunked):** The 'GIVE' item function fails if the target Pokémon is already holding an item. This was confirmed when attempting to give a BERRY to Feraligatr. The game prompts for a swap, but this does not free an inventory slot.
-    *   **Alternative Hypothesis:** If no Pokémon can hold an item, I must re-test the 'TOSS' function to be 100% certain it's unusable in all contexts.
 
 ## VI. Future Development
 ### A. Agent Concepts
