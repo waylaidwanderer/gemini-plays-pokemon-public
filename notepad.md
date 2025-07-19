@@ -34,3 +34,4 @@
 - **Ledge Traversal:** Jumping down a ledge is a one-way trip.
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
 - **HM Usage:** HMs like Surf and Fly are used from the party menu outside of battle.
+- **Route 19 Surfing:** Surfing is not possible from every shoreline tile. Specific locations must be used.
