@@ -36,8 +36,8 @@
 # III. Tool Development & Usage
 
 ## A. `pathfinder` Tool
-- **Limitation:** The tool only plans the path. I must manually stop and use the required HM from the menu when I reach an obstacle tile (e.g., Surf at water's edge) before continuing along the path.
-- **Limitation:** The tool only plans the path. I must manually stop and use the required HM from the menu when I reach an obstacle tile (e.g., Surf at water's edge) before continuing along the path.
+- **Limitation:** The tool only plans the path. The tool does not account for using HMs from the menu, which is a game mechanic. I must manually use HMs like Surf or Cut from the party menu when at the edge of an obstacle.
+- **Limitation:** The tool only plans the path. The tool does not account for using HMs from the menu, which is a game mechanic. I must manually use HMs like Surf or Cut from the party menu when at the edge of an obstacle.
 
 ## B. Agent & Tool Usage Notes
 - Proximity of recommended locations from agents should be considered for efficiency.
