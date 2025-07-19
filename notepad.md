@@ -26,6 +26,7 @@
 - **Ladder (Up/Down):** Warps player between floors.
 - **Steps:** Allows vertical and horizontal movement between 'steps' and adjacent 'ground' or 'elevated_ground' tiles.
 - **Spinner:** Forces movement in a specific direction.
+- **Elevated Ground:** Walkable ground at a different elevation. HM Surf cannot be initiated from this tile type.
 
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
@@ -36,8 +37,7 @@
 # III. Tool Development & Usage
 
 ## A. `pathfinder` Tool
-- **Limitation:** The tool only plans the path. The tool does not account for using HMs from the menu, which is a game mechanic. I must manually use HMs like Surf or Cut from the party menu when at the edge of an obstacle.
-- **Limitation:** The tool only plans the path. The tool does not account for using HMs from the menu, which is a game mechanic. I must manually use HMs like Surf or Cut from the party menu when at the edge of an obstacle.
+- **Game Mechanic Limitation:** The tool plans paths over traversable terrain. It does not account for game mechanics that require manual intervention, such as using an HM like Surf or Cut from the party menu. I must manually use HMs when at the edge of an obstacle to transition to a new terrain type (e.g., ground to water).
 
 ## B. Agent & Tool Usage Notes
 - Proximity of recommended locations from agents should be considered for efficiency.
