@@ -57,3 +57,8 @@
 ## A. Training for Giovanni (Level Cap: 55)
 - **Current Plan:** Travel to the western section of Seafoam Islands to train. The high-level wild Pokémon on floors B3F and B4F are ideal.
 - **Navigation Plan:** Fly to Fuchsia City, then travel south to Route 19. From Route 19, surf west to Route 20, which should lead to the correct (western) entrance of Seafoam Islands.
+
+## C. Overwatch System Feedback
+- **Agent Usage:** Leverage `team_composition_advisor_agent` and `training_spot_advisor_agent` more frequently.
+- **Tool Usage:** Must use the `spinner_maze_solver` at the next opportunity to validate it.
+- **Notepad:** Maintain zero-latency updates. Record information on the turn it is confirmed.
