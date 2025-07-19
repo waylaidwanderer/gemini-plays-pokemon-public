@@ -89,3 +89,4 @@
 ### C. Arrow Tile Maze (Team Rocket Base)
 *   This section will document the confirmed behavior of each arrow tile.
 *   Maze solution is being calculated by `maze_solver`.
+*   **Team Rocket Base B2F Layout (Correction):** My previous assumption that the northern and southern corridors were separate was incomplete. The entire western section of B2F is isolated from the eastern section, accessible only via a separate ladder from B1F.
