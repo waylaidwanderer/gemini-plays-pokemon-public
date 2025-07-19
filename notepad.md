@@ -58,3 +58,10 @@
 
 ## A. Goal: Train party to level cap 55 for Giovanni.
 - **Action:** Use `training_spot_advisor_agent` to identify the best training locations. The agent recommended Seafoam Islands as the top priority, with Route 19 as a secondary option. I will investigate Route 19 first due to its proximity, then proceed to Seafoam Islands.
+
+# VI. Future Development Ideas
+
+## A. `dungeon_solver` Tool
+- **Concept:** A tool that can find the optimal path through a multi-floor dungeon. 
+- **Inputs:** Starting map ID/coordinates and ending map ID/coordinates.
+- **Functionality:** Would need to parse multiple map XMLs and build a graph that connects them via warps (ladders, holes, etc.) to find the shortest path between any two points in the dungeon complex.
