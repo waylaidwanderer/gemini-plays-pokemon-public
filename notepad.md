@@ -39,7 +39,7 @@
 # III. Tool Development & Usage
 
 ## A. Custom Tools
-- **`pathfinder`:** This tool underwent a lengthy and painful debugging process due to multiple critical failures. The issues included incorrect Surf dismount logic, silent failures, AttributeErrors, and ignoring impassable tiles. All known bugs are now fixed.
+- **`pathfinder`:** This tool has been updated to correctly handle all traversal logic, including HMs, and now outputs a JSON array of coordinates for the path_plan, making it more reliable.
 - **`spinner_maze_solver`:** Untested. I MUST use this tool at the next spinner maze encountered (Viridian Gym) to validate its functionality.
 
 ## B. Agent & Tool Usage Notes
