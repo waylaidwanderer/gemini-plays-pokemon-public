@@ -118,3 +118,4 @@
     *   (3, 9) + Down -> (3, 10) (Normal movement, not an arrow tile)
     *   (3, 10) + Down -> (3, 11) (Normal movement, not an arrow tile)
     *   (3, 11) + Down -> (3, 12) (Normal movement, not an arrow tile)
+    *   (3, 12) + Down -> (3, 13) (Normal movement, not an arrow tile)
