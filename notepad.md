@@ -9,12 +9,12 @@
 4.  **Conclude & Document:** Record the result and update this notepad immediately.
 5.  **Consider Non-Obvious Triggers:** When stuck, especially if movement is locked on a normally traversable tile, consider that the solution may be a non-movement scripted event (e.g., a phone call, using a key item, etc.).
 6.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests.
-7.  **Thorough Debugging:** When a tool fails, I must be more thorough in my analysis, checking not just the code's logic but also the inputs and potential engine-side interactions before redefining it.
-8.  **Rigorous Tile Testing:** When a new tile type is encountered, I must test movement from all four directions (Up, Down, Left, Right) to fully understand its properties and document them here.
+7.  **Rigorous Tile Testing:** When a new tile type is encountered, I must test movement from all four directions (Up, Down, Left, Right) to fully understand its properties and document them here. The test must be performed IMMEDIATELY upon discovery.
 
-### B. Automation & Agent Usage
-*   **Automation First:** For any recurring puzzle type, my first step is to use my available custom tools (`pathfinder`). If a tool fails, my top priority is to fix it **immediately**.
-*   **Agent Consultation:** I must use my defined agents when appropriate, especially `navigation_advisor` when stuck.
+### B. Critique & Correction Protocol
+1.  **Acknowledge & Prioritize:** Any critique received must be treated as the highest priority. All gameplay goals are suspended until the issues are addressed.
+2.  **Tool/Agent Failure:** If a tool or agent is identified as faulty, it must be fixed using `define_tool` or `define_agent` on the very next turn. Avoiding the tool is not an option.
+3.  **Data Management Failure:** Incorrect or unlinked map markers, or failures in documenting mechanics, must be corrected immediately.
 
 ### C. Tile Traversal Rules (Verified)
 *   **Impassable:** WALL, COUNTER, MART_SHELF, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, RADIO, ROCK, BUOY
@@ -22,18 +22,15 @@
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT (verified), LEDGE_HOP_LEFT (verified), LEDGE_HOP_DOWN (verified)
-*   VOID (Hypothesis: Impassable)
+*   **VOID (Hypothesis: Impassable - AWAITING TEST)**
 
 ### D. HM Usage Rules (Verified)
-*   **Fly:** Using Fly from the party menu appears to be bugged, causing unexpected warps to different locations (e.g., New Bark Town, Lake of Rage). It does not function as a standard fast-travel move. **Hypothesis:** This might be a consistent mechanic, not a random bug. **Test:** Systematically use Fly from different cities/routes and document the destination for each origin point to identify any patterns.
+*   **Fly:** Using Fly from the party menu appears to be bugged, causing unexpected warps to different locations. It does not function as a standard fast-travel move.
 
 ### E. Map Marker Best Practices
 *   **Link to object_id:** For any on-screen object (especially moving NPCs), I MUST link the map marker to its `object_id`. This ensures the marker stays with the object if it moves, preventing outdated and misleading information. Unlinked markers for mobile objects are a critical failure in data management.
 
-### F. Debugging & Tool Usage (New Methodology)
-*   **Tool Failure Protocol:** If a tool fails (e.g., `pathfinder` returns no path), my IMMEDIATE first step is to perform a simple manual test to confirm the task is possible. For pathfinding, this means attempting to walk a few steps in the intended direction. This will prevent wasting time debugging a tool for a task that is impossible due to map layout or other in-game constraints.
-*   **Future Agent Idea:** `tool_debugger` - an agent that takes code and an error description to suggest debugging steps or code modifications.
-*   **Future Agent Idea:** `trip_planner` - an agent that takes a start and end city/route name and outputs a high-level sequence of maps to traverse. This would handle macro-level navigation planning.
+## II. World & Story
 
 ## II. World & Story
 
