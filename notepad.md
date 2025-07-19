@@ -17,6 +17,7 @@
 *   **Trusting Documentation (VIOLATION):** I attempted to use the 'TOSS' item function despite my own notes verifying it is bugged. **Correction:** I must trust my own verified findings.
 *   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
 *   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
+*   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
 
 ## II. Game Mechanics & Systems
 
