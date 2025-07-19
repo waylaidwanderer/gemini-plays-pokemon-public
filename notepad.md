@@ -28,11 +28,11 @@
 
 ## C. Plan to Explore Seafoam Islands
 1.  **Travel to the Western Entrance:**
-    - **Discovery:** Route 20 is split. The eastern entrance leads to a dead end. The main puzzle area must be accessed from the western entrance.
-    - **Path:** Pallet Town -> Route 21 -> Cinnabar Island -> Route 20 (West).
-    - **Status:** COMPLETE. I am now on the western part of Route 20.
+    - **Discovery:** Route 20 is split into two non-contiguous water channels. The eastern entrance leads to a dead end, and the western channel is also isolated. The correct path must be through a different route.
+    - **New Hypothesis:** The correct path to the western part of Route 20 and the main Seafoam Islands entrance is by surfing south from Pallet Town via Route 21.
+    - **Current Path:** Cinnabar Island -> Fly to Pallet Town -> Surf south on Route 21.
 2.  **Enter and Solve Puzzles:**
-    - **Objective:** Navigate to the cave entrance at (49, 6).
+    - **Objective:** Navigate to the cave entrance at (49, 6) on Route 20.
     - **Strategy:** Use Strength with CRAG to solve the boulder and water current puzzles. Find any items, trainers, or special Pokémon.
 
 # III. Game Mechanics & Discoveries
