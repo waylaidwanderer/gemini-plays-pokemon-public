@@ -16,7 +16,7 @@
 
 ## A. Plan to Earn the Earth Badge
 1.  **Level Goal:** Train the party to the level cap of 55 to prepare for the Viridian Gym.
-2.  **Location:** Seafoam Islands is the current training location.
+2.  **Location:** Seafoam Islands is the current training location. I later used the `training_spot_advisor_agent` which confirmed this was a good choice.
 3.  **Team Assembly:** Once leveled, use `team_composition_advisor_agent` for an optimal team recommendation against Giovanni.
 4.  **Gym Navigation:** The path to Giovanni at (3, 2) in Viridian Gym has been solved.
 5.  **Battle Strategy:** Use `battle_strategist_agent` for turn-by-turn advice during the gym battle.
