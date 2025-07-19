@@ -43,3 +43,10 @@
 ## B. General Heuristics
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu outside of battle.
+
+## C. Plan to Explore Seafoam Islands
+1.  **Assemble HM Team:** From Fuchsia City PC, withdraw both GALE (Fly) and CRAG (Strength).
+2.  **Travel to Islands:** Fly to Route 20 (closest point to Seafoam Islands).
+3.  **Enter Cave:** Surf to the cave entrance at (59, 10) and enter.
+4.  **Solve Puzzles:** Use Strength with CRAG to solve the boulder and water current puzzles.
+5.  **Explore Fully:** Navigate all floors (1F, B1F, B2F, B3F, B4F) to find any items, trainers, or special Pokémon.
