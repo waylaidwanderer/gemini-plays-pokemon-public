@@ -64,7 +64,6 @@
 - **Notepad:** Maintain zero-latency updates. Record information on the turn it is confirmed.
 
 ## F. Seafoam Islands Puzzle
-- **Observation:** The eastern and western sections of the Seafoam Islands are separated. Direct traversal on B3F is blocked.
-- **Hypothesis 1 (Failed):** Water warps on B3F at (21,18) and (22,18) connect the two sides. (Pathfinder confirmed unreachable).
-- **Hypothesis 2 (Active):** The 'steps' tile on B3F at (24, 10) is the key. I must descend the steps to reach the lower ground level, from which I can use Surf to cross the water to the western section of the floor.
-- **Hypothesis 3 (Untested):** This is a multi-floor boulder puzzle. I must go back to the upper floors (B1F/1F) to push boulders into holes, which will likely alter the water currents or create paths on the lower floors (B3F/B4F), allowing access to the western section.
+- **Observation:** The Seafoam Islands are split into eastern and western sections on every floor explored so far (1F, B1F, B2F). Direct horizontal travel between them is impossible.
+- **Hypothesis 1 (Active):** The connection between the east and west sections is on a lower floor (B3F or B4F). The current strategy is to descend as far as possible on the eastern side to find this connection.
+- **Hypothesis 2 (Untested):** This is a multi-floor boulder puzzle. Pushing boulders into holes on upper floors will alter the water currents on lower floors, creating a path. This can be tested after fully exploring the eastern descent.
