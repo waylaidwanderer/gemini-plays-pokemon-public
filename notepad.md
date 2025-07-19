@@ -57,7 +57,7 @@
 # V. Training Plan
 
 ## A. Goal: Train party to level cap 55 for Giovanni.
-- **Strategy:** My initial exploration of the Seafoam Islands from the eastern entrance was a bust, as it seemed to be a dead end. However, since the western entrance is unreachable, I must have missed something. My new plan is to return to the eastern entrance and re-explore it thoroughly to find the correct path forward for training.
+- **Strategy:** The eastern entrance of Seafoam Islands provides access to the lower floors (B3F and B4F), which contain high-level wild Pokémon suitable for training. I will use this area to train my party to the level cap of 55.
 
 # VI. Future Development Ideas
 
