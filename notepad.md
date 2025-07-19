@@ -51,6 +51,8 @@
 - **Result 1:** Reading the sign displayed information about Omanyte. No other observable effect.
 - **Test 2:** Read the Kangaskhan sign at (14, 8).
 - **Result 2:** Reading the sign displayed information about Kangaskhan. No other observable effect.
+- **Test 3:** Read the Slowpoke sign at (32, 14).
+- **Result 3:** Reading the sign displayed information about Slowpoke. No other observable effect.
 - **Hypothesis 2 (Alternative):** Interaction with the Pokémon in the enclosures is required, not the signs.
 - **Hypothesis 3 (Alternative):** A specific Pokémon must be in the party to trigger an event.
 
