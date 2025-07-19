@@ -42,6 +42,7 @@
 
 ### C. Solved Puzzles
 *   **Cianwood City Stuck Spot (SOLVED):** Was stuck on tile (10, 28). Solution was to trigger and complete the back-to-back phone calls (Mom, then Liz).
+*   **Team Rocket Base Arrow Maze (In Progress):** Safe tiles found so far: (5, 3), (5, 4), (4, 4), (3, 4), (3, 3), (2, 3), (1, 3), (1, 2), (1, 1).
 
 ### D. System Bugs & Glitches
 *   **PC Item Management (Mahogany & Violet):** 'DEPOSIT ITEM' and 'TOSS ITEM' from the PC menu are bugged.
