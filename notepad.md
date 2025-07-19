@@ -83,11 +83,5 @@
 *   **FIXED:** The `pathfinder` tool has been updated. It now correctly handles HM usage (e.g., SURF, CUT) and recognizes on-screen objects/NPCs as obstacles.
 *   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
 
-### B. Maze Solver Tool & Arrow Tile Maze (Team Rocket Base)
-*   This section will document the confirmed behavior of each arrow tile.
-*   **Hypothesis:** The arrow tiles have a consistent, repeatable effect (e.g., stepping 'Down' on tile X always results in moving to tile Y).
-*   **Test Plan:** 
-    1. Move onto a new arrow tile and record the starting coordinate, input direction, and resulting coordinate.
-    2. After mapping a tile's behavior, I must re-test it later by returning to the start coordinate and using the same input direction to confirm the outcome is identical. This will rule out more complex logic where tile behavior might change.
-*   **Arrow Tile Data (Verified):**
-    *   This section is for recording the confirmed, repeatable behavior of arrow tiles after systematic testing.
+### B. Maze Solver Tool
+*   The `maze_solver` tool is now available to navigate the Team Rocket Base arrow tile maze. Manual mapping is no longer necessary.
