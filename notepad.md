@@ -37,7 +37,7 @@
 # III. Tool Development & Usage
 
 ## A. Custom Tools
-- **`pathfinder`:** The tool is now considered reliable. It correctly handles impassable targets and prevents pathing from land to water. The `AttributeError` bug related to parsing `party_data` has been fixed.
+- **`pathfinder`:** The tool has been through extensive debugging. It initially failed to correctly handle dismounting from Surf, then had a silent failure due to a missing function call, and finally an `AttributeError` due to incorrect parsing of move data. All known bugs are now fixed.
 - **`spinner_maze_solver`:** I have this tool but need to remember to use it for future spinner mazes.
 
 ## B. Agent & Tool Usage Notes
