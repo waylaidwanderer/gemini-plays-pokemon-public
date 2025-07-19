@@ -30,7 +30,7 @@
 - **Boulder:** Requires HM Strength to move.
 - **Hole:** Warps player to a lower floor.
 - **Ladder (Up/Down):** Warps player between floors. Some ladders require stepping off and back on the tile to function.
-- **Steps:** Allows vertical movement between 'ground' and 'elevated_ground' tiles.
+- **Steps:** Allows vertical and horizontal movement between 'steps' and adjacent 'ground' or 'elevated_ground' tiles.
 
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
