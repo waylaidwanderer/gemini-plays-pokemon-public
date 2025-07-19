@@ -85,7 +85,7 @@
 
 ### B. Maze Solver Tool
 *   The `maze_solver` tool is now available to navigate the Team Rocket Base arrow tile maze. Manual mapping is no longer necessary.
-*   **Untested:** RADIO, INCENSE_BURNER, unknown
+*   **Untested:** RADIO, INCENSE_BURNER, FLOOR_UP_WALL
 *   **unknown (warp tile):** The 'unknown' tile type at (28, 11) on TeamRocketBaseB3F was traversable and behaved like a standard FLOOR tile.
 
 ### C. Solved Puzzles & Key Discoveries
