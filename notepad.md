@@ -91,3 +91,8 @@
 
 ### B. Future Agent/Tool Ideas
 *   **Untested:** ROCK
+
+## V. Untested Assumptions & Hypotheses
+*   **Mahogany Gym Block:** My primary hypothesis is that resolving the Red Gyarados event at the Lake of Rage will cause the Fisher to move. An alternative is that another, unknown trigger exists within Mahogany Town or requires a different story flag.
+*   **Secret Potion Location:** My primary hypothesis, based on an NPC hint, is that the Secret Potion is in Cianwood City. I have checked the pharmacy with no success. An alternative is that the hint was incomplete or misleading, and the item is elsewhere, or requires a specific event trigger in Cianwood I have not yet found.
+*   **ROCK Tile:** I need to test the traversability of the ROCK tile type at the next available opportunity.
