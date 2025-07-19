@@ -15,20 +15,11 @@
 # II. Strategic Plans & Checklists
 
 ## A. Plan to Defeat Giovanni
-1.  **Level Goal:** Train the party to the level cap of 55. This is the top priority.
-2.  **Location Scouting:** Seafoam Islands is the primary candidate for a training spot.
+1.  **Level Goal:** Train the party to the level cap of 55.
+2.  **Location:** Seafoam Islands is the current training location.
 3.  **Assemble Team:** Once leveled, use `team_composition_advisor_agent` for an optimal team recommendation.
-4.  **Navigate Gym:** Find the path to Giovanni at (3, 2).
+4.  **Navigate Gym:** Find the path to Giovanni at (3, 2) in Viridian Gym.
 5.  **Battle Strategy:** Use `battle_strategist_agent` for turn-by-turn advice.
-
-## B. Plan to Explore Seafoam Islands for Training
-1.  **Hypothesis:** The main part of Seafoam Islands, containing the boulder puzzles and likely better training spots, is accessed via the western entrance on Route 20. The eastern entrance (accessed from Route 19) is a separate, dead-end section.
-2.  **Test:**
-    - Exit the current eastern section of the cave.
-    - Fly to Cinnabar Island.
-    - Surf east to the western part of Route 20.
-    - Find and enter the western cave entrance.
-    - Explore this new area for high-level wild Pokémon.
 
 # III. Game Mechanics & Discoveries
 
@@ -37,6 +28,9 @@
 - **Cuttable Tree:** Requires HM Cut to pass. Respawns on map change.
 - **Water:** Requires HM Surf to traverse.
 - **Boulder:** Requires HM Strength to move.
+- **Hole:** Warps player to a lower floor.
+- **Ladder (Up/Down):** Warps player between floors. Some ladders require stepping off and back on the tile to function.
+- **Steps:** Allows vertical movement between 'ground' and 'elevated_ground' tiles.
 
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
