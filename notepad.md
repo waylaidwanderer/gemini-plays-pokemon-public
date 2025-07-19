@@ -82,17 +82,8 @@
 *   **FIXED:** The `pathfinder` tool has been updated. It now correctly handles HM usage (e.g., SURF, CUT) and recognizes on-screen objects/NPCs as obstacles.
 *   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
 
-### B. Maze Solver Tool
-*   **Hypothesis:** The arrow tiles in the Team Rocket Base have a consistent, repeatable effect.
-*   **Test Plan:** After mapping a tile's behavior, I must re-test it later to confirm the outcome is identical. This will rule out more complex puzzle logic where tile behavior might change.
-
-### C. Arrow Tile Maze (Team Rocket Base)
+### B. Maze Solver Tool & Arrow Tile Maze (Team Rocket Base)
 *   This section will document the confirmed behavior of each arrow tile.
-*   Maze solution is being calculated by `maze_solver`.
-*   **Untested:** RADIO, INCENSE_BURNER, unknown (warp tile)
-*   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
-
-### C. Arrow Tile Maze (Team Rocket Base)
 *   **Hypothesis:** The arrow tiles have a consistent, repeatable effect (e.g., stepping 'Down' on tile X always results in moving to tile Y).
 *   **Test Plan:** 
     1. Move onto a new arrow tile and record the starting coordinate, input direction, and resulting coordinate.
