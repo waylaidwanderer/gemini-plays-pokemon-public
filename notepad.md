@@ -24,16 +24,16 @@
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT (verified), LEDGE_HOP_LEFT (verified), LEDGE_HOP_DOWN (verified)
 *   **Untested:** VOID (must test when reachable)
 
-### F. Debugging & Tool Usage (New Methodology)
-*   **Tool Failure Protocol:** If a tool fails (e.g., `pathfinder` returns no path), my IMMEDIATE first step is to perform a simple manual test to confirm the task is possible. For pathfinding, this means attempting to walk a few steps in the intended direction. This will prevent wasting time debugging a tool for a task that is impossible due to map layout or other in-game constraints.
-*   **Future Agent Idea:** `tool_debugger` - an agent that takes code and an error description to suggest debugging steps or code modifications.
-*   **Future Agent Idea:** `trip_planner` - an agent that takes a start and end city/route name and outputs a high-level sequence of maps to traverse. This would handle macro-level navigation planning.
-
 ### D. HM Usage Rules (Verified)
 *   **Fly:** Using Fly from the party menu appears to be bugged, causing unexpected warps to different locations (e.g., New Bark Town, Lake of Rage). It does not function as a standard fast-travel move. **Hypothesis:** This might be a consistent mechanic, not a random bug. **Test:** Systematically use Fly from different cities/routes and document the destination for each origin point to identify any patterns.
 
 ### E. Map Marker Best Practices
 *   **Link to object_id:** For any on-screen object (especially moving NPCs), I MUST link the map marker to its `object_id`. This ensures the marker stays with the object if it moves, preventing outdated and misleading information. Unlinked markers for mobile objects are a critical failure in data management.
+
+### F. Debugging & Tool Usage (New Methodology)
+*   **Tool Failure Protocol:** If a tool fails (e.g., `pathfinder` returns no path), my IMMEDIATE first step is to perform a simple manual test to confirm the task is possible. For pathfinding, this means attempting to walk a few steps in the intended direction. This will prevent wasting time debugging a tool for a task that is impossible due to map layout or other in-game constraints.
+*   **Future Agent Idea:** `tool_debugger` - an agent that takes code and an error description to suggest debugging steps or code modifications.
+*   **Future Agent Idea:** `trip_planner` - an agent that takes a start and end city/route name and outputs a high-level sequence of maps to traverse. This would handle macro-level navigation planning.
 
 ## II. World & Story
 
