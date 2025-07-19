@@ -12,18 +12,7 @@
 - **Nidoking (Lv54):** Knows Blizzard, Earthquake, Thunderbolt, Ice Beam.
 - **Persian (Lv55):** Knows Bubblebeam, Slash, Hyper Beam, Thunderbolt.
 
-# II. Game Mechanics & Tile Types
-- `ground`: Standard walkable tile.
-- `impassable`: Walls, objects, cannot be traversed.
-- `cuttable`: Tree that can be cut with HM Cut.
-- `ledge`: One-way traversal. Can be jumped down (from Y-1 to Y+2 in one step), but not climbed up.
-- `spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`: Forces movement in the specified direction.
-- `spinner_stop`: Stops movement from a spinner tile.
-- `grass`: Tall grass where wild Pokémon can be encountered.
-- `warp`: Teleportation tile that moves the player to a new location, often on a different map.
-- `water`: Crossable using HM Surf.
-
-# III. Strategic Plans
+# II. Strategic Plans
 
 ## A. Plan to Defeat Giovanni
 1.  **Analyze Roster:** Use the `team_composition_advisor_agent` to get an optimal team recommendation based on my entire Pokémon roster and Giovanni's known team.
