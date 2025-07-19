@@ -12,7 +12,7 @@
 - **Nidoking (Lv54):** Knows Blizzard, Earthquake, Thunderbolt, Ice Beam.
 - **Persian (Lv55):** Knows Bubblebeam, Slash, Hyper Beam, Thunderbolt.
 
-# II. Strategic Plans
+# II. Strategic Plans & Checklists
 
 ## A. Plan to Defeat Giovanni
 1.  **Analyze Roster:** Use `team_composition_advisor_agent` for an optimal team recommendation.
@@ -26,6 +26,18 @@
     - **Hypothesis:** Seafoam Islands contains high-level wild Pokémon suitable for training.
     - **Test:** Explore the area, battle wild Pokémon, and check their levels and EXP yield.
 
+## C. Plan to Explore Seafoam Islands
+1.  **Assemble HM Team (Fuchsia City PC):**
+    - **CURRENT STEP:** Assemble the required party.
+    - **Required Pokémon:** GALE (Fly), CRAG (Strength), NEPTUNE (Surf).
+    - **Party Composition:** REVENANT, NEPTUNE, LEGION, BELLADONNA, GALE, CRAG.
+2.  **Travel to Islands:**
+    - Fly to Route 20 (closest point to Seafoam Islands).
+    - Surf to the cave entrance at (59, 10) and enter.
+3.  **Solve Puzzles & Explore:**
+    - Use Strength with CRAG to solve the boulder and water current puzzles.
+    - Navigate all floors (1F, B1F, B2F, B3F, B4F) to find any items, trainers, or special Pokémon.
+
 # III. Game Mechanics & Discoveries
 
 ## A. Tile Mechanics
@@ -38,15 +50,9 @@
 - **hole:** Warps to a lower floor.
 - **ladder_up / ladder_down:** Warps between floors.
 - **boulder:** Movable with Strength.
-- **Route 19 Surfing:** Surfing is not possible from every shoreline tile. Specific locations must be used.
 
-## B. General Heuristics
+## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu outside of battle.
-
-## C. Plan to Explore Seafoam Islands
-1.  **Assemble HM Team:** From Fuchsia City PC, withdraw both GALE (Fly) and CRAG (Strength).
-2.  **Travel to Islands:** Fly to Route 20 (closest point to Seafoam Islands).
-3.  **Enter Cave:** Surf to the cave entrance at (59, 10) and enter.
-4.  **Solve Puzzles:** Use Strength with CRAG to solve the boulder and water current puzzles.
-5.  **Explore Fully:** Navigate all floors (1F, B1F, B2F, B3F, B4F) to find any items, trainers, or special Pokémon.
+- **Surfing on Route 19:** Surfing is only possible from a specific tile at (13, 12), not from every shoreline tile.
+- **Party Planning:** Always confirm all required HMs (Fly, Surf, Strength, Cut) are present in the party *before* leaving a Pokémon Center to travel to a new area.
