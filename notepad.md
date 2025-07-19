@@ -21,14 +21,16 @@
 4.  **Battle Strategy:** In battle, use the `battle_strategist_agent` for turn-by-turn advice, leveraging the known weaknesses and movesets.
 
 ## B. Plan to Train for Giovanni
-1.  **Level Goal:** Train the entire party (REVENANT, CRAG, NEPTUNE, LEGION, TITANESS) to the level cap of 55.
-2.  **Location Scouting:** My current assumption is that Route 22 is the best training spot. I must verify this.
-    - **Hypothesis:** Other high-level areas may offer better EXP per battle.
-    - **Test:** Battle several wild Pokémon on Route 22 and note the average EXP gain. Then, Fly to other potential locations (e.g., Route 15, Seafoam Islands) and repeat the process.
-    - **Conclusion:** Determine the most time-efficient location and focus training efforts there.
+1.  **Level Goal:** Train the entire party to the level cap of 55.
+2.  **Location Scouting:** My `training_spot_advisor_agent` recommended Seafoam Islands as the top priority. I will head there.
+    - **Hypothesis:** Wild Pokémon on the way (Route 19 & 20) might offer comparable or better EXP.
+    - **Test:** Battle several wild Pokémon on Route 19 and 20 to check their levels and EXP yield before committing fully to Seafoam Islands.
 
 ### C. Training Location Analysis
 - **Route 15:** Tested wild encounters. Found Level 30 Weepinbell and Level 26 Bellsprout. EXP gain is too low for current party level. **Conclusion: Inefficient training spot.**
 
-## D. General Heuristics
-- Trust the `pathfinder` tool's output over personal assumptions about map layout. It has access to the raw map data and is more reliable for identifying reachable areas.
+## D. General Heuristics & Game Mechanics
+- Trust the `pathfinder` tool's output over personal assumptions about map layout.
+- **Ledge Traversal:** Jumping down a ledge is a one-way trip.
+- **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
+- **HM Usage:** HMs like Surf and Fly are used from the party menu outside of battle.
