@@ -35,7 +35,6 @@
 ### A. Active Quests & Blockers
 *   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance.
     *   **Active Hypothesis (CONFIRMED HINT):** The Fisher explicitly told me to go to the Lake of Rage. Resolving the event there should make him move. **Current Action:** Travel to the Lake of Rage.
-    *   **Alternative Hypothesis:** There is another trigger for the Fisher, such as talking to a different NPC in Mahogany Town.
 *   **RED SCALE Investigation:** Mr. Pokémon is the primary person of interest.
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
 
@@ -49,6 +48,7 @@
 *   **PC Item Management (Mahogany & Violet):** 'DEPOSIT ITEM' and 'TOSS ITEM' from the PC menu are bugged.
 *   **Toss Item from Pack (Bugged):** VERIFIED - Function is bugged and does not remove items. Selecting 'TOSS' and confirming the quantity simply returns to the item list without discarding anything.
 *   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
+*   **Cianwood City Stuck Spot:** Completely stuck on tile (10, 28). Unable to move in any direction. Fly is also bugged from this location. This is likely due to an invisible event trigger or object, not a bug with the FLOOR tile itself. My current hypothesis is that the ongoing phone call is the event I must complete.
 
 ## III. Battle and Pokemon Information
 
@@ -89,23 +89,14 @@
 *   **Tool Refinement (VIOLATION):** I failed to immediately fix the `pathfinder` tool after it failed on Route 43. **Correction:** Faulty tools must be fixed immediately, as this is a higher priority than any gameplay action.
 *   **Pathfinder Tool Limitations:** The tool does not currently understand HM usage (e.g., SURF, CUT) or automatically detect on-screen NPCs as obstacles. I must manually navigate these transitions for now until the tool is improved.
 *   **Schoolboy Alan (Route 36):** My hypothesis that he had an item for me was incorrect. He is in a dialogue loop, which confirms he is a story-gated event. I will not interact with him again until major story progression (e.g., clearing Goldenrod Radio Tower).
-
-### B. Future Agent/Tool Ideas
-*   **Untested:** ROCK
-
-## V. Untested Assumptions & Hypotheses
-*   **Mahogany Gym Block:** My primary hypothesis is that resolving the Red Gyarados event at the Lake of Rage will cause the Fisher to move. An alternative is that another, unknown trigger exists within Mahogany Town or requires a different story flag.
-*   **Secret Potion Location:** My primary hypothesis, based on an NPC hint, is that the Secret Potion is in Cianwood City. I have checked the pharmacy with no success. An alternative is that the hint was incomplete or misleading, and the item is elsewhere, or requires a specific event trigger in Cianwood I have not yet found.
-*   **ROCK Tile:** I need to test the traversability of the ROCK tile type at the next available opportunity.
+*   **Tile Type Hallucination (CORRECTION):** My previous assumption that a FLOOR tile could be impassable was incorrect. Tile collision types are consistent. Being stuck at (10, 28) must be due to an invisible event, object, or game state flag, not a faulty tile.
 *   **Pathing Assumptions (VIOLATION):** I incorrectly assumed a land path existed on Route 40. **Correction:** I must trust my `pathfinder` tool's output. If it reports no path, I must test my assumptions by trying alternative routes (e.g., water vs. land) or breaking the problem into smaller, verifiable steps instead of assuming the tool is broken.
 
-## VI. Immediate Tasks & Tests
-*   **Test ROCK Tile:** The overwatch system noted 'ROCK' is untested. I must navigate to a ROCK tile in Cianwood City and attempt to move into it from all four directions to verify its traversability.
+### B. Future Agent/Tool Ideas
+*   **Unstuck Advisor Agent:** An agent to help diagnose and suggest solutions when movement is blocked. It would take current position, a list of failed actions, and surrounding map data to propose a systematic troubleshooting plan.
 
-## II. World & Story (Update)
-### C. System Bugs & Glitches
-*   **Cianwood City Stuck Spot:** Completely stuck on tile (10, 28). Unable to move in any direction. Fly is also bugged from this location. This is likely due to an invisible event trigger or object, not a bug with the FLOOR tile itself.
-
-## IV. Self-Correction & Improvement (Update)
-### A. Core Directives (Violations & Learnings)
-*   **Tile Type Hallucination (CORRECTION):** My previous assumption that a FLOOR tile could be impassable was incorrect. Tile collision types are consistent. Being stuck at (10, 28) must be due to an invisible event, object, or game state flag, not a faulty tile.
+## V. Untested Assumptions & Hypotheses
+*   **Mahogany Gym Block:** My primary hypothesis is that resolving the Red Gyarados event at the Lake of Rage will cause the Fisher to move.
+*   **Secret Potion Location:** My primary hypothesis, based on an NPC hint, is that the Secret Potion is in Cianwood City. I have checked the pharmacy with no success. An alternative is that the hint was incomplete or misleading, and the item is elsewhere, or requires a specific event trigger in Cianwood I have not yet found.
+*   **ROCK Tile:** I need to test the traversability of the ROCK tile type at the next available opportunity.
+*   **Cianwood Stuck Event:** My current hypothesis is that the phone call with Mom is the event I must complete to get unstuck. An alternative hypothesis is that I need to re-interact with a specific NPC in Cianwood now that I have defeated the Gym Leader.
