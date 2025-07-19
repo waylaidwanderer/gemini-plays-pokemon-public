@@ -28,10 +28,9 @@
 
 ## C. Plan to Explore Seafoam Islands
 1.  **Travel to Islands:**
-    - Fly to Cinnabar Island.
-    - Surf to the cave entrance at (59, 10) and enter.
+    - I've confirmed Route 20 is split. The western section, leading to the main Seafoam Islands entrance, must be accessed via Cinnabar Island.
+    - **CURRENT STEP:** Surf west on Route 20 to the Cinnabar Island connection.
 2.  **Solve Puzzles & Explore:**
-    - **CURRENT STEP:** I have confirmed the eastern and western sections of Seafoam Islands are separate. I am now exiting the eastern section to find the western entrance on Route 20.
     - Use Strength with CRAG to solve the boulder and water current puzzles.
     - Find any items, trainers, or special Pokémon.
 
@@ -51,5 +50,5 @@
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu outside of battle.
-- **Surfing on Route 19:** Surfing is only possible from a specific tile at (13, 12), not from every shoreline tile.
+- **Surfing:** To use Surf from a land tile, you must be standing adjacent to and facing a water tile.
 - **Party Planning:** Always confirm all required HMs (Fly, Surf, Strength, Cut) are present in the party *before* leaving a Pokémon Center to travel to a new area.
