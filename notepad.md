@@ -7,10 +7,10 @@
 
 ## B. Trainer Rosters & Movesets
 ### Giovanni (Viridian Gym)
-- **Dugtrio (Lv53):** Knows Rock Slide, Earthquake, Fissure, Slash.
-- **Nidoqueen (Lv54):** Knows Body Slam, Earthquake, Thunderbolt, Ice Beam.
-- **Nidoking (Lv54):** Knows Blizzard, Earthquake, Thunderbolt, Ice Beam.
-- **Persian (Lv55):** Knows Bubblebeam, Slash, Hyper Beam, Thunderbolt.
+- **Dugtrio (Lv53):** Rock Slide, Earthquake, Fissure, Slash.
+- **Nidoqueen (Lv54):** Body Slam, Earthquake, Thunderbolt, Ice Beam.
+- **Nidoking (Lv54):** Blizzard, Earthquake, Thunderbolt, Ice Beam.
+- **Persian (Lv55):** Bubblebeam, Slash, Hyper Beam, Thunderbolt.
 
 # II. Game Mechanics & Discoveries
 
@@ -36,14 +36,15 @@
 
 # III. Tool Development & Usage
 
-## A. `pathfinder` Tool
-- **Status:** The tool is considered reliable. It correctly handles impassable targets and prevents pathing from land to water, which requires manual HM usage.
-- **Game Mechanic Limitation:** The tool plans paths over traversable terrain. It does not account for game mechanics that require manual intervention, such as using an HM like Surf or Cut from the party menu. I must manually use HMs when at the edge of an obstacle to transition to a new terrain type (e.g., ground to water).
+## A. Custom Tools
+- **`pathfinder`:** The tool is now considered reliable. It correctly handles impassable targets and prevents pathing from land to water. The `AttributeError` bug related to parsing `party_data` has been fixed.
+- **`spinner_maze_solver`:** I have this tool but need to remember to use it for future spinner mazes.
 
 ## B. Agent & Tool Usage Notes
 - Proximity of recommended locations from agents should be considered for efficiency.
+- I must fix failing tools immediately instead of deferring the task.
 
-# IV. Puzzle-Solving Hypotheses
+# IV. Puzzles & Hypotheses
 
 ## A. Fuchsia City Secret Pokémon (at (26, 7))
 - **Observation:** An item ball at (26, 7) is in an enclosed area. A Youngster at (25, 9) states, "That item ball in there is really a POKéMON."
@@ -51,7 +52,8 @@
 - **Hypothesis 2 (Untested):** Interaction with the Pokémon in the enclosures is required, not the signs.
 - **Hypothesis 3 (Untested):** A specific Pokémon must be in the party to trigger an event.
 
-# V. Strategic Notes
+# V. Strategic Plans
 
-## A. Training for Giovanni
-- **Strategy:** The lower floors of Seafoam Islands (B3F and B4F) contain high-level wild Pokémon suitable for training the party to the level cap of 55.
+## A. Training for Giovanni (Level Cap: 55)
+- **Current Plan:** Travel to the western section of Seafoam Islands to train. The high-level wild Pokémon on floors B3F and B4F are ideal.
+- **Navigation Plan:** Fly to Fuchsia City, then travel south to Route 19. From Route 19, surf west to Route 20, which should lead to the correct (western) entrance of Seafoam Islands.
