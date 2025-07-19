@@ -98,3 +98,6 @@
 ### F. Debugging & Tool Usage (New Methodology)
 *   **Tool Failure Protocol:** If a tool fails (e.g., `pathfinder` returns no path), my IMMEDIATE first step is to perform a simple manual test to confirm the task is possible. For pathfinding, this means attempting to walk a few steps in the intended direction. This will prevent wasting time debugging a tool for a task that is impossible due to map layout or other in-game constraints.
 *   **Future Agent Idea:** `tool_debugger` - an agent that takes code and an error description to suggest debugging steps or code modifications.
+### F. Debugging & Tool Usage (New Methodology)
+*   **Tool Failure Protocol:** If a tool fails (e.g., `pathfinder` returns no path), my IMMEDIATE first step is to perform a simple manual test to confirm the task is possible. For pathfinding, this means attempting to walk a few steps in the intended direction. This will prevent wasting time debugging a tool for a task that is impossible due to map layout or other in-game constraints.
+*   **Future Agent Idea:** `tool_debugger` - an agent that takes code and an error description to suggest debugging steps or code modifications.
