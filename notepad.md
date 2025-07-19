@@ -40,11 +40,11 @@
   - Initial hypotheses pointed to logic errors in the `is_walkable` function (e.g., handling 'steps' tiles). Multiple redefinitions failed to resolve the issue.
   - **Successful Test (Turn 85141):** Executing the tool's script directly with `run_code` and extensive debug logging was successful. The pathfinding logic itself is confirmed to be sound.
 - **Conclusion:** The issue is not with the Python script's logic but likely with the environment or wrapper used by `define_tool`, which causes an unhandled exception leading to a silent crash.
-- **Current Strategy:** Use `run_code` as a reliable workaround for pathfinding until the root cause of the `define_tool` issue can be properly investigated. This is a high-priority investigation.
+- **Current Strategy:** Use `run_code` as a reliable workaround for pathfinding. The script has had data-passing errors that need to be fixed.
 
 ## B. Agent & Tool Usage Notes
 - **`training_spot_advisor_agent`:** Usage has been low. I need to create opportunities to use this agent to validate its effectiveness and identify areas for refinement.
-- **Debugging Best Practices:** In case of tool failure, especially silent ones, the first step must be to use `run_code` with detailed print statements to trace execution. Avoid repeated, blind redefinitions.
+- **Debugging Best Practices:** In case of tool failure, especially silent ones, the first step must be to use `run_code` with detailed print statements to trace execution. Avoid repeated, blind redefinitions. Use `code_debugger_agent` to analyze errors.
 
 ## C. Future Agent & Tool Ideas
 - **Grinding Session Analyst:** An agent to determine if a training location is efficient based on EXP gain over time, factoring in encounter rate and battle length.
