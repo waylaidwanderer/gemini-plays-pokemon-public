@@ -90,3 +90,4 @@
 *   This section will document the confirmed behavior of each arrow tile.
 *   Maze solution is being calculated by `maze_solver`.
 *   **Untested:** RADIO, INCENSE_BURNER, unknown (warp tile)
+*   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
