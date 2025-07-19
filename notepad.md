@@ -59,8 +59,7 @@
 - **Hypothesis 1 (Confirmed):** The connection between the east and west sections is on a lower floor (B3F). I successfully navigated this by surfing from the eastern side on B3F.
 
 ## C. Untested Assumptions
-- **Assumption 1:** Pokémon Mansion 1F is the most efficient spot for grinding EXP.
-- **Test Plan:** After the next few battles, explore 2F, 3F, and B1F to compare wild Pokémon levels and EXP gains.
+- **Conclusion:** Pokémon Mansion 2F is a more efficient grinding spot than 1F due to higher-level and more varied encounters like Magmar yielding more EXP.
 
 # V. Strategic Plans & Lessons Learned
 
