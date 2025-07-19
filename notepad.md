@@ -103,3 +103,6 @@
 *   **Secret Potion Location:** My primary hypothesis, based on an NPC hint, is that the Secret Potion is in Cianwood City. I have checked the pharmacy with no success. An alternative is that the hint was incomplete or misleading, and the item is elsewhere, or requires a specific event trigger in Cianwood I have not yet found.
 *   **ROCK Tile:** I need to test the traversability of the ROCK tile type at the next available opportunity.
 *   **Cianwood Stuck Event:** My current hypothesis is that the phone call with Mom is the event I must complete to get unstuck. An alternative hypothesis is that I need to re-interact with a specific NPC in Cianwood now that I have defeated the Gym Leader.
+
+### B. Future Agent/Tool Ideas
+*   **Unstuck Advisor Agent:** An agent to help diagnose and suggest solutions when movement is blocked. It would take current position, a list of failed actions, and surrounding map data to propose a systematic troubleshooting plan.
