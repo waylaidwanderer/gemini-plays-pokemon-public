@@ -91,3 +91,4 @@
 *   Maze solution is being calculated by `maze_solver`.
 ### D. Future Agent Ideas
 *   **dungeon_navigator:** An agent that analyzes map data for multiple floors of a dungeon to suggest the optimal path to unexplored areas.
+*   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
