@@ -37,6 +37,7 @@
 # III. Tool Development & Usage
 
 ## A. `pathfinder` Tool
+- **Status:** The tool is now considered reliable after a bug fix that improved the `get_neighbors` function and logic for handling impassable targets.
 - **Game Mechanic Limitation:** The tool plans paths over traversable terrain. It does not account for game mechanics that require manual intervention, such as using an HM like Surf or Cut from the party menu. I must manually use HMs when at the edge of an obstacle to transition to a new terrain type (e.g., ground to water).
 
 ## B. Agent & Tool Usage Notes
@@ -61,4 +62,3 @@
 - **Concept:** A tool that can find the optimal path through a multi-floor dungeon. 
 - **Inputs:** Starting map ID/coordinates and ending map ID/coordinates.
 - **Functionality:** Would need to parse multiple map XMLs and build a graph that connects them via warps (ladders, holes, etc.) to find the shortest path between any two points in the dungeon complex.
-- **Pathfinder Bug Fix:** The `pathfinder` tool was generating invalid paths. I have rewritten the `get_neighbors` function and improved the logic for handling impassable targets. The tool should now be more reliable.
