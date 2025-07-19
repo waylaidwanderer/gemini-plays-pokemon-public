@@ -12,7 +12,7 @@
 
 ### B. Automation & Agent Usage
 *   **Automation First:** For any recurring puzzle type, my first step is to use my available custom tools (`pathfinder`). If a tool fails, my top priority is to fix it **immediately**.
-*   **Agent Consultation:** I must use my defined agents when appropriate, especially `navigation_advisor` when stuck.
+*   **Agent Consultation:** I must use my defined agents when appropriate, especially `navigation_advisor` when stuck and `local_navigator` for minor pathing issues.
 
 ### C. Tile Traversal Rules (Verified)
 *   **Impassable:** WALL, VOID, COUNTER, MART_SHELF, BUOY, WHIRLPOOL, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, RADIO
@@ -82,24 +82,8 @@
 ## IV. Self-Correction & Improvement
 
 ### A. Core Directives (Violations & Learnings)
-*   **Tool Refinement (VIOLATION):** I failed to immediately fix the `pathfinder` tool after it failed on Route 43 (turns 54633 & 54703), resorting to manual navigation instead. **Correction:** Faulty tools must be fixed immediately, as this is a higher priority than any gameplay action.
+*   **Tool Refinement (VIOLATION):** I failed to immediately fix the `pathfinder` tool after it failed on Route 43. **Correction:** Faulty tools must be fixed immediately, as this is a higher priority than any gameplay action.
+*   **Pathfinder Tool Limitations:** The tool does not currently understand HM usage (e.g., SURF, CUT) or automatically detect on-screen NPCs as obstacles. I must manually navigate these transitions for now until the tool is improved.
 
 ### B. Future Agent/Tool Ideas
 *   **`local_navigator` (Agent Idea):** An agent that can suggest simple, evasive maneuvers when pathing is blocked by a local obstacle (e.g., a single wall tile or NPC). It would take the current position, failed move, and surrounding tile data as input.
-
-## V. To-Do & Fixes
-*   **Fix Unlinked Map Markers:**
-    *   Route 42: Fisher Tully (object_id: 1) at (40, 10).
-    *   Route 42: Pokefan M (object_id: 2) at (51, 9).
-    *   Route 42: SUPER_NERD (object_id: 3) at (47, 8).
-    *   Next time I am on Route 42, I must delete the old markers and create new ones linked to their object_ids.
-*   **Pathfinder Tool Limitations:**
-    *   The tool does not currently understand HM usage (e.g., SURF, CUT). I must manually navigate these transitions for now.
-    *   The tool is only as good as the visible map data. For long paths, I must be aware that off-screen objects won't be accounted for unless I have a marker for them.
-
-## VI. Reflection (Turn 54887)
-*   **Procedural Failures:** I have been deferring tool fixes (`pathfinder`) and data management (unlinked markers on Route 42), which violates core directives. This must be corrected immediately when opportunities arise.
-*   **Untested Assumptions:**
-    *   **Mahogany Fisher:** Assumed he only moves after the Gyarados event. **Alternative:** He might move after a different story trigger (e.g., Radio Tower) or badge count. **Test:** Return to Mahogany periodically to check on him after other major events.
-    *   **Fly HM:** Assumed it's a random bug. **Alternative:** The destination might be predictable based on game state (last-used Pokécenter, location, etc.). **Test:** Systematically use Fly from multiple locations and record origin/destination pairs to find a pattern.
-*   **Tool Improvement Plan:** The `pathfinder` tool needs to be updated to understand HM requirements (Surf, Cut) and to automatically detect on-screen NPCs as obstacles.
