@@ -55,10 +55,3 @@
 
 ## A. Training for Giovanni
 - **Strategy:** The lower floors of Seafoam Islands (B3F and B4F) contain high-level wild Pokémon suitable for training the party to the level cap of 55.
-
-# VI. Future Development Ideas
-
-## A. `dungeon_solver` Tool
-- **Concept:** A tool that can find the optimal path through a multi-floor dungeon. 
-- **Inputs:** Starting map ID/coordinates and ending map ID/coordinates.
-- **Functionality:** Would need to parse multiple map XMLs and build a graph that connects them via warps (ladders, holes, etc.) to find the shortest path between any two points in the dungeon complex.
