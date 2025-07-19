@@ -89,3 +89,4 @@
 ### C. Arrow Tile Maze (Team Rocket Base)
 *   This section will document the confirmed behavior of each arrow tile.
 *   Maze solution is being calculated by `maze_solver`.
+*   **Untested:** RADIO, INCENSE_BURNER, unknown (warp tile)
