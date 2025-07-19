@@ -16,7 +16,7 @@
 - `ground`: Standard walkable tile.
 - `impassable`: Walls, objects, cannot be traversed.
 - `cuttable`: Tree that can be cut with HM Cut.
-- `ledge`: One-way traversal, can be jumped down but not up.
+- `ledge`: One-way traversal. Can be jumped down (from Y-1 to Y+2 in one step), but not climbed up.
 - `spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`: Forces movement in the specified direction.
 - `spinner_stop`: Stops movement from a spinner tile.
 - `grass`: Tall grass where wild Pokémon can be encountered.
