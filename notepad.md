@@ -85,3 +85,6 @@
 ### B. Maze Solver Tool
 *   **Hypothesis:** The arrow tiles in the Team Rocket Base have a consistent, repeatable effect.
 *   **Test Plan:** After mapping a tile's behavior, I must re-test it later to confirm the outcome is identical. This will rule out more complex puzzle logic where tile behavior might change.
+
+### C. Arrow Tile Maze (Team Rocket Base)
+*   This section will document the confirmed behavior of each arrow tile.
