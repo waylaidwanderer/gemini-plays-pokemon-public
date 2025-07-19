@@ -88,23 +88,4 @@
 
 ### C. Arrow Tile Maze (Team Rocket Base)
 *   This section will document the confirmed behavior of each arrow tile.
-*   (2, 3): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (1, 3): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (1, 4): Dead end. Path blocked by walls and ROCKET grunt.
-*   (1, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (2, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (3, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (5, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (6, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (7, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (8, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (9, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (10, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (11, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (12, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (17, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (18, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (19, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (21, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (22, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
-*   (23, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
+*   Maze solution is being calculated by `maze_solver`.
