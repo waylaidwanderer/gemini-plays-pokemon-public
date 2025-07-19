@@ -85,11 +85,11 @@
 
 ### B. Maze Solver Tool
 *   The `maze_solver` tool is now available to navigate the Team Rocket Base arrow tile maze. Manual mapping is no longer necessary.
-*   **Untested:** RADIO, INCENSE_BURNER
+*   **Untested:** RADIO, INCENSE_BURNER, unknown
 *   **unknown (warp tile):** The 'unknown' tile type at (28, 11) on TeamRocketBaseB3F was traversable and behaved like a standard FLOOR tile.
 
 ### C. Solved Puzzles & Key Discoveries
 *   **Inventory Management Deadlock:** With a full bag, and the 'TOSS' function bugged, I cannot pick up new items. 
     *   **Hypothesis 1 (Debunked):** Using a healing item (Potion, Antidote) on a healthy Pokémon is not allowed.
-    *   **Hypothesis 2 (Debunked):** All five party members (G, HOOTIN, OM, ROCKY, DYNAMO) were checked and are holding items, making the strategy of giving an item to a Pokémon to hold not viable.
+    *   **Hypothesis 2 (Debunked):** The 'GIVE' item function fails if the target Pokémon is already holding an item. This was confirmed when attempting to give a BERRY to Feraligatr. The game prompts for a swap, but this does not free an inventory slot.
     *   **Alternative Hypothesis:** If no Pokémon can hold an item, I must re-test the 'TOSS' function to be 100% certain it's unusable in all contexts.
