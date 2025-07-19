@@ -94,5 +94,36 @@
       ]
     },
     "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\n# --- Helper Functions ---\ndef parse_map_xml(xml_string):\n    root = ET.fromstring(xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    grid = [['' for _ in range(width)] for _ in range(height)]\n    boulders = []\n    player_pos = None\n\n    for y, row_elem in enumerate(root.findall('Row')):\n        for x, tile_elem in enumerate(row_elem.findall('Tile')):\n            grid[y][x] = tile_elem.attrib['type']\n            if tile_elem.find('Player') is not None:\n                player_pos = (x, y)\n            if tile_elem.find('Object[@id-name=\"BOULDER\"]') is not None:\n                boulders.append((x, y))\n    return grid, tuple(sorted(boulders)), player_pos, width, height\n\ndef is_valid_move(grid, x, y, width, height):\n    return 0 <= x < width and 0 <= y < height and grid[y][x] not in ['WALL', 'COUNTER', 'PC', 'MART_SHELF', 'ROCK_SMASH_BOULDER', 'TREE']\n\n# --- Main Solver Logic ---\n\n# Parse Inputs\nplayer_start_x = int(input_data['player_start_x']) - 1\nplayer_start_y = int(input_data['player_start_y']) - 1\nplayer_goal_x = int(input_data['player_goal_x']) - 1\nplayer_goal_y = int(input_data['player_goal_y']) - 1\n\n# Parse Map\ngrid, initial_boulders, _, width, height = parse_map_xml(map_xml_string)\n\n# BFS Initialization\ninitial_state = ((player_start_x, player_start_y), initial_boulders)\nqueue = deque([(initial_state, [])])\nvisited = {initial_state}\n\npath_found = False\n\nwhile queue:\n    (current_pos, current_boulders), path = queue.popleft()\n    px, py = current_pos\n\n    if (px, py) == (player_goal_x, player_goal_y):\n        print(f'{{\"status\": \"success\", \"path\": {path}}}')\n        path_found = True\n        break\n\n    for move, (dx, dy) in {'Up': (0, -1), 'Down': (0, 1), 'Left': (-1, 0), 'Right': (1, 0)}.items():\n        nx, ny = px + dx, py + dy\n\n        if not is_valid_move(grid, nx, ny, width, height):\n            continue\n\n        # Case 1: Move to an empty space\n        if (nx, ny) not in current_boulders:\n            new_state = ((nx, ny), current_boulders)\n            if new_state not in visited:\n                visited.add(new_state)\n                queue.append((new_state, path + [move]))\n            continue\n\n        # Case 2: Push a boulder\n        boulder_to_push = (nx, ny)\n        push_to_x, push_to_y = nx + dx, ny + dy\n\n        if is_valid_move(grid, push_to_x, push_to_y, width, height) and (push_to_x, push_to_y) not in current_boulders:\n            new_boulders = list(current_boulders)\n            new_boulders.remove(boulder_to_push)\n            new_boulders.append((push_to_x, push_to_y))\n            new_boulders_tuple = tuple(sorted(new_boulders))\n\n            # Player moves into the boulder's old spot\n            new_player_pos = (nx, ny)\n            new_state = (new_player_pos, new_boulders_tuple)\n\n            if new_state not in visited:\n                visited.add(new_state)\n                # The action is a 'Push' followed by the direction\n                queue.append((new_state, path + [f'Push {move}']))\n\nif not path_found:\n    print('{\"status\": \"failure\", \"reason\": \"No solution found\"}')"
+  },
+  "maze_solver": {
+    "description": "Solves invisible arrow tile mazes. It simulates movement from a starting point and explores the maze using a Breadth-First Search, returning the sequence of directional inputs to reach a target coordinate. It requires the map XML and a list of known arrow tile behaviors.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        },
+        "arrow_tiles_json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y",
+        "arrow_tiles_json"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef solve_maze(start_x, start_y, end_x, end_y, arrow_tiles_json):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    obstacles = set()\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.attrib['id'])\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.attrib['id'])\n            if tile_elem.attrib.get('type') not in ['FLOOR', 'WARP_PANEL'] or tile_elem.attrib.get('has-object') == 'true':\n                obstacles.add((x, y))\n\n    arrow_tiles = json.loads(arrow_tiles_json)\n    arrow_map = { (t['x'], t['y']): t['effect'] for t in arrow_tiles }\n\n    start_node = (start_x, start_y)\n    end_node = (end_x, end_y)\n    \n    queue = deque([(start_node, [])])\n    visited = {start_node}\n\n    while queue:\n        (cx, cy), path = queue.popleft()\n\n        if (cx, cy) == end_node:\n            return json.dumps(path)\n\n        for move, (dx, dy) in {'Up': (0, -1), 'Down': (0, 1), 'Left': (-1, 0), 'Right': (1, 0)}.items():\n            nx, ny = cx + dx, cy + dy\n            \n            if not (1 <= nx <= width and 1 <= ny <= height) or (nx, ny) in obstacles:\n                continue\n\n            final_x, final_y = nx, ny\n            if (nx, ny) in arrow_map:\n                effect = arrow_map[(nx, ny)]\n                if effect == 'Up': final_y -= 1\n                elif effect == 'Down': final_y += 1\n                elif effect == 'Left': final_x -= 1\n                elif effect == 'Right': final_x += 1\n\n            if (final_x, final_y) not in visited:\n                visited.add((final_x, final_y))\n                new_path = path + [move]\n                queue.append(((final_x, final_y), new_path))\n\n    return json.dumps(None)\n\ntry:\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    arrow_tiles_json = input_data['arrow_tiles_json']\n    result = solve_maze(start_x, start_y, end_x, end_y, arrow_tiles_json)\n    print(result)\nexcept Exception as e:\n    print(f'DEBUG: Error in maze_solver: {e}')"
   }
 }
