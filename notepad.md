@@ -94,3 +94,4 @@
     *   (2, 7) + Up -> (2, 6) (Normal movement, not an arrow tile)
     *   (2, 6) + Right -> (3, 6) (Normal movement, not an arrow tile)
     *   (3, 6) + Right -> (4, 6) (Normal movement, not an arrow tile)
+    *   (4, 6) + Right -> (5, 6) (Normal movement, not an arrow tile)
