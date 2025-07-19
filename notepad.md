@@ -99,9 +99,3 @@
 *   **Schoolboy Alan (Route 36):** My hypothesis that he had an item for me was incorrect. He is in a dialogue loop, which confirms he is a story-gated event. I will not interact with him again until major story progression (e.g., clearing Goldenrod Radio Tower).
 *   **Tile Type Hallucination (CORRECTION):** My previous assumption that a FLOOR tile could be impassable was incorrect. Tile collision types are consistent. Being stuck at (10, 28) must be due to an invisible event, object, or game state flag, not a faulty tile.
 *   **Pathing Assumptions (VIOLATION):** I incorrectly assumed a land path existed on Route 40. **Correction:** I must trust my `pathfinder` tool's output. If it reports no path, I must test my assumptions by trying alternative routes (e.g., water vs. land) or breaking the problem into smaller, verifiable steps instead of assuming the tool is broken.
-
-### E. Warp Tile Mechanics (Verified)
-*   **WARP_CARPET_LEFT (Ilex Forest Azalea Gate):** Activated by moving left *onto* the tile. Other directional movements or pressing 'A' do not work.
-
-### E. Warp Tile Mechanics (Verified)
-*   **WARP_CARPET_LEFT (Ilex Forest Azalea Gate):** Activated by moving left *onto* the tile. Other directional movements or pressing 'A' do not work.
