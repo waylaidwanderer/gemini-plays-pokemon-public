@@ -79,6 +79,13 @@
 *   **Chuck's PRIMEAPE:** Leer, Rage, Karate Chop
 *   **Chuck's POLIWRATH:** Hypnosis, Mind Reader, Dynamicpunch
 
+### D. Party Held Items
+*   **G (FERALIGATR):** BERRY (Assumed)
+*   **OM (TOGEPI):** POTION (Verified)
+*   **ROCKY (ONIX):** None
+*   **DYNAMO (ELEKID):** None
+*   **HOOTIN (HOOTHOOT):** None
+
 ## IV. Self-Correction & Improvement
 
 ### A. Core Directives (Violations & Learnings)
