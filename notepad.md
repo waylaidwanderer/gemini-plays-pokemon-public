@@ -101,3 +101,11 @@
 
 ## VI. Immediate Tasks & Tests
 *   **Test ROCK Tile:** The overwatch system noted 'ROCK' is untested. I must navigate to a ROCK tile in Cianwood City and attempt to move into it from all four directions to verify its traversability.
+
+## II. World & Story (Update)
+### C. System Bugs & Glitches
+*   **Cianwood City Stuck Spot:** Completely stuck on tile (10, 28). Unable to move in any direction. Fly is also bugged from this location. This is likely due to an invisible event trigger or object, not a bug with the FLOOR tile itself.
+
+## IV. Self-Correction & Improvement (Update)
+### A. Core Directives (Violations & Learnings)
+*   **Tile Type Hallucination (CORRECTION):** My previous assumption that a FLOOR tile could be impassable was incorrect. Tile collision types are consistent. Being stuck at (10, 28) must be due to an invisible event, object, or game state flag, not a faulty tile.
