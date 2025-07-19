@@ -38,7 +38,7 @@
 
 ## A. Custom Tools
 - **`pathfinder`:** The tool has been through extensive debugging. It initially failed to correctly handle dismounting from Surf, then had a silent failure due to a missing function call, and finally an `AttributeError` due to incorrect parsing of move data. All known bugs are now fixed.
-- **`spinner_maze_solver`:** I have this tool but need to remember to use it for future spinner mazes.
+- **`spinner_maze_solver`:** Untested. I MUST use this tool at the next spinner maze encountered (Viridian Gym) to validate its functionality.
 
 ## B. Agent & Tool Usage Notes
 - Proximity of recommended locations from agents should be considered for efficiency.
