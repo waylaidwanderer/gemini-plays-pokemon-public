@@ -90,3 +90,4 @@
 
 ### B. Future Tool Ideas
 *   **Maze Solver:** A tool to systematically explore and map out unknown mazes with special tile mechanics, like the invisible arrow tiles in the Team Rocket Base.
+*   **Team Rocket Arrow Maze (Hypothesis):** The arrow tiles have a consistent, repeatable effect. **Test:** After mapping a tile's behavior, I must re-test it later to confirm the outcome is identical. This will rule out more complex puzzle logic where tile behavior might change.
