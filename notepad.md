@@ -91,3 +91,4 @@
 *   **Arrow Tile Data (Verified):**
     *   (3, 6) + Down -> (3, 7) (Normal movement, not an arrow tile)
     *   (3, 7) + Left -> (2, 7) (Normal movement, not an arrow tile)
+    *   (2, 7) + Up -> (2, 6) (Normal movement, not an arrow tile)
