@@ -102,3 +102,6 @@
 
 ### E. Warp Tile Mechanics (Verified)
 *   **WARP_CARPET_LEFT (Ilex Forest Azalea Gate):** Activated by moving left *onto* the tile. Other directional movements or pressing 'A' do not work.
+
+### E. Warp Tile Mechanics (Verified)
+*   **WARP_CARPET_LEFT (Ilex Forest Azalea Gate):** Activated by moving left *onto* the tile. Other directional movements or pressing 'A' do not work.
