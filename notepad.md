@@ -101,3 +101,10 @@
 *   **Pathing Assumptions (VIOLATION):** I incorrectly assumed a land path existed on Route 40. **Correction:** I must trust my `pathfinder` tool's output. If it reports no path, I must test my assumptions by trying alternative routes (e.g., water vs. land) or breaking the problem into smaller, verifiable steps instead of assuming the tool is broken.
 *   **Ilex Forest Shrine:** A Lass in the Route 34 Gate mentioned a shrine honoring a grass-type protector of the forest.
 *   **TM12 (Sweet Scent):** Given by Teacher in Route 34 Ilex Forest Gate. Attracts wild Pokémon.
+
+## V. Automation & Tool Development
+
+### A. Pathfinder Tool Issues & Strategy
+*   **Known Bug:** The `pathfinder` tool currently fails on long, complex paths, especially those involving multiple terrain transitions (e.g., land -> water -> land).
+*   **Current Workaround:** I must break down long-distance navigation into smaller, simpler segments. This has proven to be a reliable, albeit slower, method.
+*   **Future Goal:** Investigate a more robust pathfinding algorithm or debug the existing A* implementation to handle complex paths in a single call.
