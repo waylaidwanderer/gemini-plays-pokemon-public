@@ -27,16 +27,13 @@
     - **Test:** Explore the area, battle wild Pokémon, and check their levels and EXP yield.
 
 ## C. Plan to Explore Seafoam Islands
-1.  **Travel to Islands:**
-    - I've confirmed Route 20 is split. The western section, leading to the main Seafoam Islands entrance, must be accessed via Cinnabar Island.
-    - I have successfully traveled from the eastern part of Route 20 to Cinnabar Island.
-    - **CURRENT STEP:** From Cinnabar Island, surf to the western part of Route 20 and find the Seafoam Islands entrance.
-2.  **Solve Puzzles & Explore:**
-    - Use Strength with CRAG to solve the boulder and water current puzzles.
-    - Find any items, trainers, or special Pokémon.
-2.  **Solve Puzzles & Explore:**
-    - Use Strength with CRAG to solve the boulder and water current puzzles.
-    - Find any items, trainers, or special Pokémon.
+1.  **Travel to the Western Entrance:**
+    - **Discovery:** Route 20 is split. The eastern entrance leads to a dead end. The main puzzle area must be accessed from the western entrance.
+    - **Path:** Pallet Town -> Route 21 -> Cinnabar Island -> Route 20 (West).
+    - **Status:** COMPLETE. I am now on the western part of Route 20.
+2.  **Enter and Solve Puzzles:**
+    - **Objective:** Navigate to the cave entrance at (49, 6).
+    - **Strategy:** Use Strength with CRAG to solve the boulder and water current puzzles. Find any items, trainers, or special Pokémon.
 
 # III. Game Mechanics & Discoveries
 
@@ -50,6 +47,10 @@
 - **hole:** Warps to a lower floor.
 - **ladder_up / ladder_down:** Warps between floors.
 - **boulder:** Movable with Strength.
+- **cuttable:** Tree that can be cut with HM Cut.
+- **spinner_up/down/left/right:** Forces movement in a direction.
+- **boulder_switch:** A floor switch activated by a boulder.
+- **boulder_barrier:** A wall that is removed by a `boulder_switch`.
 
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
