@@ -83,7 +83,7 @@
 *   **G (FERALIGATR):** BERRY (Assumed)
 *   **OM (TOGEPI):** POTION (Verified)
 *   **ROCKY (ONIX):** BERRY (Assumed, based on switch prompt)
-*   **DYNAMO (ELEKID):** None
+*   **DYNAMO (ELEKID):** BERRY (Verified)
 *   **HOOTIN (HOOTHOOT):** None
 
 ## IV. Self-Correction & Improvement
