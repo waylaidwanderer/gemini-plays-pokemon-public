@@ -90,3 +90,4 @@
     2. After mapping a tile's behavior, I must re-test it later by returning to the start coordinate and using the same input direction to confirm the outcome is identical. This will rule out more complex logic where tile behavior might change.
 *   **Arrow Tile Data (Verified):**
     *   (3, 6) + Down -> (3, 7) (Normal movement, not an arrow tile)
+    *   (3, 7) + Left -> (2, 7) (Normal movement, not an arrow tile)
