@@ -6,10 +6,11 @@
 1.  **Observe:** Analyze the situation's initial state.
 2.  **Hypothesize:** Formulate a single, clear, and testable hypothesis.
 3.  **Test:** Execute the simplest possible action to test the hypothesis.
-4.  **Conclude & Document:** Record the result and update this notepad.
-5.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests.
-6.  **Thorough Debugging:** When a tool fails, I must be more thorough in my analysis, checking not just the code's logic but also the inputs and potential engine-side interactions before redefining it.
-7.  **Rigorous Tile Testing:** When a new tile type is encountered, I must test movement from all four directions (Up, Down, Left, Right) to fully understand its properties and document them here.
+4.  **Conclude & Document:** Record the result and update this notepad immediately.
+5.  **Consider Non-Obvious Triggers:** When stuck, especially if movement is locked on a normally traversable tile, consider that the solution may be a non-movement scripted event (e.g., a phone call, using a key item, etc.).
+6.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests.
+7.  **Thorough Debugging:** When a tool fails, I must be more thorough in my analysis, checking not just the code's logic but also the inputs and potential engine-side interactions before redefining it.
+8.  **Rigorous Tile Testing:** When a new tile type is encountered, I must test movement from all four directions (Up, Down, Left, Right) to fully understand its properties and document them here.
 
 ### B. Automation & Agent Usage
 *   **Automation First:** For any recurring puzzle type, my first step is to use my available custom tools (`pathfinder`). If a tool fails, my top priority is to fix it **immediately**.
