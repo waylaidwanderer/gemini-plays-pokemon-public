@@ -15,22 +15,31 @@
 # II. Strategic Plans
 
 ## A. Plan to Defeat Giovanni
-1.  **Analyze Roster:** Use the `team_composition_advisor_agent` to get an optimal team recommendation based on my entire Pokémon roster and Giovanni's known team.
-2.  **Assemble Team:** Go to the Pokémon Center PC and withdraw the recommended Pokémon.
+1.  **Analyze Roster:** Use `team_composition_advisor_agent` for an optimal team recommendation.
+2.  **Assemble Team:** Withdraw recommended Pokémon from the PC.
 3.  **Navigate Gym:** Find the path to Giovanni at (3, 2).
-4.  **Battle Strategy:** In battle, use the `battle_strategist_agent` for turn-by-turn advice, leveraging the known weaknesses and movesets.
+4.  **Battle Strategy:** Use `battle_strategist_agent` for turn-by-turn advice.
 
 ## B. Plan to Train for Giovanni
-1.  **Level Goal:** Train the entire party to the level cap of 55.
-2.  **Location Scouting:** My `training_spot_advisor_agent` recommended Seafoam Islands as the top priority. I will head there.
-    - **Hypothesis:** Wild Pokémon on the way (Route 19 & 20) might offer comparable or better EXP.
-    - **Test:** Battle several wild Pokémon on Route 19 and 20 to check their levels and EXP yield before committing fully to Seafoam Islands.
+1.  **Level Goal:** Train the party to the level cap of 55.
+2.  **Location Scouting:** My `training_spot_advisor_agent` recommended Seafoam Islands as the top priority. I am currently investigating this.
+    - **Hypothesis:** Seafoam Islands contains high-level wild Pokémon suitable for training.
+    - **Test:** Explore the area, battle wild Pokémon, and check their levels and EXP yield.
 
-### C. Training Location Analysis
-- **Route 15:** Tested wild encounters. Found Level 30 Weepinbell and Level 26 Bellsprout. EXP gain is too low for current party level. **Conclusion: Inefficient training spot.**
+# III. Game Mechanics & Discoveries
 
-## D. General Heuristics & Game Mechanics
-- Trust the `pathfinder` tool's output over personal assumptions about map layout.
-- **Ledge Traversal:** Jumping down a ledge is a one-way trip.
+## A. Tile Mechanics
+- **ground:** Walkable.
+- **elevated_ground:** Walkable, often requires `steps` to access.
+- **steps:** Allows vertical movement between `ground` and `elevated_ground`.
+- **water:** Crossable using Surf.
+- **impassable:** Walls, rocks, etc. Cannot be entered.
+- **ledge:** One-way downward traversal.
+- **hole:** Warps to a lower floor.
+- **ladder_up / ladder_down:** Warps between floors.
+- **boulder:** Movable with Strength.
+- **Route 19 Surfing:** Surfing is not possible from every shoreline tile. Specific locations must be used.
+
+## B. General Heuristics
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
-- **HM Usage:** HMs like Surf and Fly are used from the party menu outside of battle.
+- **HM Usage:** HMs are used from the party menu outside of battle.
