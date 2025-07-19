@@ -48,6 +48,7 @@
 ## A. Fuchsia City Secret Pokémon (at (26, 7))
 - **Observation:** An item ball at (26, 7) is in an enclosed area. A Youngster at (25, 9) states, "That item ball in there is really a POKéMON."
 - **Hypothesis 1:** The signs next to the other Pokémon exhibits must be read in a specific order to unlock the enclosure.
-- **Test 1:** I will systematically visit and read each sign, starting with the Fossil sign at (8, 8), and check the enclosure after each interaction.
+- **Test 1:** Read the Fossil sign at (8, 8).
 - **Result 1:** Reading the sign displayed information about Omanyte. No other observable effect.
-- **Conclusion 1:** TBD.
+- **Test 2:** Read the Kangaskhan sign at (14, 8).
+- **Result 2:** Reading the sign displayed information about Kangaskhan. No other observable effect.
