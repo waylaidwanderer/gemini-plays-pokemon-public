@@ -29,7 +29,11 @@
 ## C. Plan to Explore Seafoam Islands
 1.  **Travel to Islands:**
     - I've confirmed Route 20 is split. The western section, leading to the main Seafoam Islands entrance, must be accessed via Cinnabar Island.
-    - **CURRENT STEP:** Surf west on Route 20 to the Cinnabar Island connection.
+    - I have successfully traveled from the eastern part of Route 20 to Cinnabar Island.
+    - **CURRENT STEP:** From Cinnabar Island, surf to the western part of Route 20 and find the Seafoam Islands entrance.
+2.  **Solve Puzzles & Explore:**
+    - Use Strength with CRAG to solve the boulder and water current puzzles.
+    - Find any items, trainers, or special Pokémon.
 2.  **Solve Puzzles & Explore:**
     - Use Strength with CRAG to solve the boulder and water current puzzles.
     - Find any items, trainers, or special Pokémon.
