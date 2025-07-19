@@ -15,23 +15,20 @@
 # II. Strategic Plans & Checklists
 
 ## A. Plan to Defeat Giovanni
-1.  **Analyze Roster:** Use `team_composition_advisor_agent` for an optimal team recommendation.
-2.  **Assemble Team:** Withdraw recommended Pokémon from the PC.
-3.  **Navigate Gym:** Find the path to Giovanni at (3, 2).
-4.  **Battle Strategy:** Use `battle_strategist_agent` for turn-by-turn advice.
+1.  **Level Goal:** Train the party to the level cap of 55. This is the top priority.
+2.  **Location Scouting:** Seafoam Islands is the primary candidate for a training spot.
+3.  **Assemble Team:** Once leveled, use `team_composition_advisor_agent` for an optimal team recommendation.
+4.  **Navigate Gym:** Find the path to Giovanni at (3, 2).
+5.  **Battle Strategy:** Use `battle_strategist_agent` for turn-by-turn advice.
 
-## B. Plan to Train for Giovanni
-1.  **Level Goal:** Train the party to the level cap of 55.
-2.  **Location Scouting:** My `training_spot_advisor_agent` recommended Seafoam Islands. My initial approach was flawed.
-    - **Flawed Hypothesis (Disproven):** The path to Seafoam Islands is through Route 21 and the western part of Route 20. I attempted this multiple times and confirmed the western part of Route 20 is an isolated dead-end.
-    - **New Hypothesis:** The correct path to the main part of Seafoam Islands is via Route 19, south of Fuchsia City.
-    - **Test:** Travel to Fuchsia City, surf south on Route 19, and see if it connects to the main, eastern part of Route 20 where the cave entrance is located.
-
-## C. Current Plan: Correcting Course to Seafoam Islands
-1.  **Return to Cinnabar:** Navigate from the current position on Route 20 back to Cinnabar Island.
-2.  **Fly to Fuchsia City:** Use Fly to travel to Fuchsia City.
-3.  **Surf South:** Take the southern map connection from Fuchsia City to Route 19 and begin surfing.
-4.  **Explore Route 19/20:** Navigate the eastern sea route to find the main entrance to Seafoam Islands.
+## B. Plan to Explore Seafoam Islands for Training
+1.  **Hypothesis:** The main part of Seafoam Islands, containing the boulder puzzles and likely better training spots, is accessed via the western entrance on Route 20. The eastern entrance (accessed from Route 19) is a separate, dead-end section.
+2.  **Test:**
+    - Exit the current eastern section of the cave.
+    - Fly to Cinnabar Island.
+    - Surf east to the western part of Route 20.
+    - Find and enter the western cave entrance.
+    - Explore this new area for high-level wild Pokémon.
 
 # III. Game Mechanics & Discoveries
 
