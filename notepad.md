@@ -17,13 +17,11 @@
 *   **Agent Consultation:** I must use my defined agents when appropriate, especially `navigation_advisor` when stuck.
 
 ### C. Tile Traversal Rules (Verified)
-*   **Impassable:** WALL, COUNTER, MART_SHELF, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, RADIO, BOOKSHELF, TV, RADIO
+*   **Impassable:** WALL, COUNTER, MART_SHELF, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, RADIO, BOOKSHELF, TV, RADIO, ROCK, BUOY
 *   **Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT (verified), LEDGE_HOP_LEFT (verified), LEDGE_HOP_DOWN (verified)
-*   **Impassable (Verified):** ROCK
-*   **Impassable (Verified):** ROCK, BUOY
 *   **Untested:** FLOOR_UP_WALL, VOID
 
 ### D. HM Usage Rules (Verified)
@@ -39,6 +37,7 @@
     *   **Active Hypothesis (CONFIRMED HINT):** The Fisher explicitly told me to go to the Lake of Rage. Resolving the event there should make him move. **Current Action:** Travel to the Lake of Rage.
 *   **RED SCALE Investigation:** Mr. Pokémon is the primary person of interest.
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
+*   **Secret Potion Location:** My primary hypothesis, based on an NPC hint, is that the Secret Potion is in Cianwood City. I have checked the pharmacy with no success. An alternative is that the hint was incomplete or misleading, and the item is elsewhere, or requires a specific event trigger in Cianwood I have not yet found.
 
 ### B. Passwords & Keys
 *   **Team Rocket Hideout (Boss's Room):**
@@ -95,15 +94,3 @@
 *   **Schoolboy Alan (Route 36):** My hypothesis that he had an item for me was incorrect. He is in a dialogue loop, which confirms he is a story-gated event. I will not interact with him again until major story progression (e.g., clearing Goldenrod Radio Tower).
 *   **Tile Type Hallucination (CORRECTION):** My previous assumption that a FLOOR tile could be impassable was incorrect. Tile collision types are consistent. Being stuck at (10, 28) must be due to an invisible event, object, or game state flag, not a faulty tile.
 *   **Pathing Assumptions (VIOLATION):** I incorrectly assumed a land path existed on Route 40. **Correction:** I must trust my `pathfinder` tool's output. If it reports no path, I must test my assumptions by trying alternative routes (e.g., water vs. land) or breaking the problem into smaller, verifiable steps instead of assuming the tool is broken.
-
-### B. Future Agent/Tool Ideas
-*   **Unstuck Advisor Agent:** An agent to help diagnose and suggest solutions when movement is blocked. It would take current position, a list of failed actions, and surrounding map data to propose a systematic troubleshooting plan.
-
-## V. Untested Assumptions & Hypotheses
-*   **Mahogany Gym Block:** My primary hypothesis is that resolving the Red Gyarados event at the Lake of Rage will cause the Fisher to move.
-*   **Secret Potion Location:** My primary hypothesis, based on an NPC hint, is that the Secret Potion is in Cianwood City. I have checked the pharmacy with no success. An alternative is that the hint was incomplete or misleading, and the item is elsewhere, or requires a specific event trigger in Cianwood I have not yet found.
-*   **ROCK Tile:** I need to test the traversability of the ROCK tile type at the next available opportunity.
-*   **Cianwood Stuck Event:** My current hypothesis is that the phone call with Mom is the event I must complete to get unstuck. An alternative hypothesis is that I need to re-interact with a specific NPC in Cianwood now that I have defeated the Gym Leader.
-
-### B. Future Agent/Tool Ideas
-*   **Unstuck Advisor Agent:** An agent to help diagnose and suggest solutions when movement is blocked. It would take current position, a list of failed actions, and surrounding map data to propose a systematic troubleshooting plan.
