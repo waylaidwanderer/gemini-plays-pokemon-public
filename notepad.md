@@ -44,11 +44,13 @@
     2. RATICATE TAIL
     3. HAIL GIOVANNI
 
-### C. System Bugs & Glitches
+### C. Solved Puzzles
+*   **Cianwood City Stuck Spot (SOLVED):** Was stuck on tile (10, 28). Solution was to trigger and complete the back-to-back phone calls (Mom, then Liz). This confirms it was a scripted event, not a bug.
+
+### D. System Bugs & Glitches
 *   **PC Item Management (Mahogany & Violet):** 'DEPOSIT ITEM' and 'TOSS ITEM' from the PC menu are bugged.
 *   **Toss Item from Pack (Bugged):** VERIFIED - Function is bugged and does not remove items. Selecting 'TOSS' and confirming the quantity simply returns to the item list without discarding anything.
 *   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
-*   **Cianwood City Stuck Spot (SOLVED):** Was stuck on tile (10, 28). Solution was to trigger and complete the back-to-back phone calls (Mom, then Liz). This confirms it was a scripted event, not a bug.
 
 ## III. Battle and Pokemon Information
 
