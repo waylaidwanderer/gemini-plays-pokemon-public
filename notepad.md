@@ -90,3 +90,4 @@
 *   This section will document the confirmed behavior of each arrow tile.
 *   (2, 3): Stepping on this tile does not cause forced movement. Player must choose a direction.
 *   (1, 3): Stepping on this tile does not cause forced movement. Player must choose a direction.
+*   (1, 4): Dead end. Path blocked by walls and ROCKET grunt.
