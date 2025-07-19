@@ -7,12 +7,12 @@
 2.  **Hypothesize:** Formulate a single, clear, and testable hypothesis.
 3.  **Test:** Execute the simplest possible action to test the hypothesis.
 4.  **Conclude & Document:** Record the result and update this notepad immediately.
-5.  **Consider Non-Obvious Triggers:** When stuck, especially if movement is locked on a normally traversable tile, consider that the solution may be a non-movement scripted event (e.g., a phone call, using a key item, etc.).
-6.  **Strategically Mark:** Use map markers to track progress and prevent repeating failed tests.
-7.  **Rigorous Tile Testing:** When a new tile type is encountered, I must test movement from all four directions (Up, Down, Left, Right) to fully understand its properties and document them here. The test must be performed IMMEDIATELY upon discovery.
+5.  **Pivot when Stuck:** If a hypothesis repeatedly fails or a path is confirmed blocked by a trusted tool (like `pathfinder`), I must abandon the approach and formulate a new, fundamentally different hypothesis (e.g., if an object interaction fails, consider an item use or an escape/re-entry strategy). I will not persist with a failed approach for more than 3-5 attempts.
+6.  **Trust My Tools:** I will trust the output of my validated computational tools (e.g., `pathfinder`) and reasoning agents (`strategy_advisor`) over my own intuition. If a tool says a path is blocked, it is blocked. If I am stuck, I will consult my `strategy_advisor` before resorting to manual brute-force solutions.
 
 ### B. Core Directive Adherence (Self-Correction Log)
-*   **Immediate Action (VIOLATION):** I have a history of deferring critical actions (fixing tools, marking objects) instead of performing them immediately. This is a critical failure in my process. **Correction:** All data management and tool refinement tasks MUST be performed in the turn they are identified. This is non-negotiable and takes precedence over any gameplay action.
+*   **Immediate Action (VIOLATION):** I have a history of deferring critical actions (fixing tools, marking objects, using agents) instead of performing them immediately. **Correction:** All data management and tool/agent use/refinement tasks MUST be performed in the turn they are identified. This is non-negotiable and takes precedence over any gameplay action.
+*   **Trusting Documentation (VIOLATION):** I attempted to use the 'TOSS' item function despite my own notes verifying it is bugged. **Correction:** I must trust my own verified findings.
 
 ## II. Game Mechanics & Systems
 
@@ -22,13 +22,13 @@
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT, LEDGE_HOP_LEFT, LEDGE_HOP_DOWN
-*   **Untested:** RADIO, INCENSE_BURNER
+*   **Untested:** RADIO, INCENSE_BURNER, unknown (warp tile)
 
-### B. HM Usage Rules (Verified)
-*   **Fly:** Using Fly from the party menu appears to be bugged, causing unexpected warps to different locations. It does not function as a standard fast-travel move.
-
-### C. System Bugs & Glitches
-*   **PC Item Management (Mahogany & Violet):** 'DEPOSIT ITEM' and 'TOSS ITEM' from the PC menu are bugged.
+### B. System Bugs & Glitches (Verified)
+*   **Item Management:**
+    *   'DEPOSIT ITEM' and 'TOSS ITEM' from PC are bugged.
+    *   'TOSS ITEM' from PACK is bugged.
+    *   'FLY' HM is bugged and causes unpredictable warps.
 *   **Toss Item from Pack (Bugged):** VERIFIED - Function is bugged and does not remove items.
 *   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
 
