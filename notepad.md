@@ -92,3 +92,4 @@
 *   (1, 3): Stepping on this tile does not cause forced movement. Player must choose a direction.
 *   (1, 4): Dead end. Path blocked by walls and ROCKET grunt.
 *   (1, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
+*   (2, 2): Stepping on this tile does not cause forced movement. Player must choose a direction.
