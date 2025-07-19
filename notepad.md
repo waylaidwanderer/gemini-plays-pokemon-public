@@ -97,3 +97,6 @@
 *   **Secret Potion Location:** My primary hypothesis, based on an NPC hint, is that the Secret Potion is in Cianwood City. I have checked the pharmacy with no success. An alternative is that the hint was incomplete or misleading, and the item is elsewhere, or requires a specific event trigger in Cianwood I have not yet found.
 *   **ROCK Tile:** I need to test the traversability of the ROCK tile type at the next available opportunity.
 *   **Pathing Assumptions (VIOLATION):** I incorrectly assumed a land path existed on Route 40. **Correction:** I must trust my `pathfinder` tool's output. If it reports no path, I must test my assumptions by trying alternative routes (e.g., water vs. land) or breaking the problem into smaller, verifiable steps instead of assuming the tool is broken.
+
+## VI. Immediate Tasks & Tests
+*   **Test ROCK Tile:** The overwatch system noted 'ROCK' is untested. I must navigate to a ROCK tile in Cianwood City and attempt to move into it from all four directions to verify its traversability.
