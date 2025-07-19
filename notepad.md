@@ -12,7 +12,8 @@
 6.  **Trust My Tools:** I will trust the output of my validated computational tools (e.g., `pathfinder`) and reasoning agents (`strategy_advisor`) over my own intuition. If a tool says a path is blocked, it is blocked. If I am stuck, I will consult my `strategy_advisor` before resorting to manual brute-force solutions.
 
 ### B. Core Directive Adherence (Self-Correction Log)
-*   **Immediate Action (VIOLATION):** I have a history of deferring critical actions (fixing tools, marking objects, using agents) instead of performing them immediately. **Correction:** All data management and tool/agent use/refinement tasks MUST be performed in the turn they are identified. This is non-negotiable and takes precedence over any gameplay action.
+*   **Immediate Action (VIOLATION):** I have a history of deferring critical actions (fixing tools, marking objects) instead of performing them immediately. **Correction:** All data management and tool/agent use/refinement tasks MUST be performed in the turn they are identified. This is non-negotiable and takes precedence over any gameplay action.
+*   **Tool Debugging & Confirmation Bias (VIOLATION):** I repeatedly assumed my `pathfinder` tool was fixed after each single bug fix, failing to consider that multiple, independent bugs could exist concurrently. **Correction:** After fixing a tool, I must test it rigorously. If it fails again, I must assume another, different bug exists and continue the iterative refinement process.
 *   **Trusting Documentation (VIOLATION):** I attempted to use the 'TOSS' item function despite my own notes verifying it is bugged. **Correction:** I must trust my own verified findings.
 
 ## II. Game Mechanics & Systems
