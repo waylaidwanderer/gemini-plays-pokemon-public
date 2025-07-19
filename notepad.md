@@ -80,7 +80,7 @@
 ## V. Automation & Tool Development
 
 ### A. Pathfinder Tool
-*   **FIXED:** The `pathfinder` tool has been updated. It now correctly handles HM usage (e.g., SURF, CUT) and recognizes on-screen objects/NPCs as obstacles.
+*   **FIXED (AGAIN):** The `pathfinder` tool has been updated again. It previously failed to account for one-way ledges, causing it to generate invalid paths. The logic has been corrected to properly handle these tiles.
 *   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
 
 ### B. Maze Solver Tool
