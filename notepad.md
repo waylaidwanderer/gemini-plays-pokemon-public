@@ -60,21 +60,14 @@
 
 ## III. Battle and Pokemon Information
 
-### A. Party Held Items
-*   **G (FERALIGATR):** BERRY (Assumed)
-*   **OM (TOGEPI):** POTION (Verified)
-*   **ROCKY (ONIX):** BERRY (Verified)
-*   **DYNAMO (ELEKID):** BERRY (Verified)
-*   **HOOTIN (HOOTHOOT):** None
-
-### B. Type Effectiveness Chart (Verified in-game)
+### A. Type Effectiveness Chart (Verified in-game)
 *   Water (Surf) vs. Water/Flying (Gyarados) -> Not Very Effective
 
-### C. Key Trainer/Pokemon Info
+### B. Key Trainer/Pokemon Info
 *   **Rival SILVA:** Uses a Croconaw.
 *   **Gym Leaders:** Falkner (Flying), Bugsy (Bug), Whitney (Normal), Morty (Ghost), Jasmine (Steel), Chuck (Fighting).
 
-### D. Observed Movesets
+### C. Observed Movesets
 *   **Youngster Joey's RATTATA:** Tackle, Tail Whip
 *   **Falkner's PIDGEY:** Tackle
 *   **Falkner's PIDGEOTTO:** Tackle, Gust
