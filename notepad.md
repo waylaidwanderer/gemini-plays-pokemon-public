@@ -53,10 +53,8 @@
 - **Result 2:** Reading the sign displayed information about Kangaskhan. No other observable effect.
 - **Test 3:** Read the Slowpoke sign at (32, 14).
 - **Result 3:** Reading the sign displayed information about Slowpoke. No other observable effect.
-- **Test 3:** Read the Slowpoke sign at (32, 14).
-- **Result 3:** Reading the sign displayed information about Slowpoke. No other observable effect.
-- **Test 3:** Read the Slowpoke sign at (32, 14).
-- **Result 3:** Reading the sign displayed information about Slowpoke. No other observable effect.
+- **Test 4:** Read the Chansey sign at (34, 8).
+- **Result 4:** Reading the sign displayed information about Chansey. No other observable effect.
 - **Hypothesis 2 (Alternative):** Interaction with the Pokémon in the enclosures is required, not the signs.
 - **Hypothesis 3 (Alternative):** A specific Pokémon must be in the party to trigger an event.
 
