@@ -20,7 +20,7 @@
 - **Grass:** Tall grass for wild Pokémon encounters.
 - **Ledge:** Can be jumped down (one-way). Moving down into a ledge tile moves the player two tiles down.
 - **Cuttable Tree:** Requires HM Cut to pass. Becomes `ground` after cutting, but respawns on map change.
-- **Water:** Requires HM Surf to traverse. To use Surf from a land tile, you must be standing on a ground tile that is adjacent to a water tile, and you must be facing the water tile.
+- **Water:** Requires HM Surf to traverse. To use Surf from a land tile, you must be standing on a ground tile that is adjacent to a water tile, face the water, and use the HM from the party menu.
 - **Boulder:** Requires HM Strength to move.
 - **Hole:** Warps player to a lower floor.
 - **Ladder (Up/Down):** Warps player between floors.
@@ -36,7 +36,7 @@
 # III. Tool Development & Usage
 
 ## A. `pathfinder` Tool
-- **Status:** Implemented and refined. The tool can now find paths that include `cuttable` trees.
+- **Status:** Buggy. The tool does not correctly handle land-to-water transitions, requiring a fix.
 - **Limitation:** The tool only plans the path. I must manually stop and use the required HM from the menu when I reach the obstacle tile before continuing along the path.
 
 ## B. Agent & Tool Usage Notes
@@ -47,17 +47,13 @@
 ## A. Fuchsia City Secret Pokémon (at (26, 7))
 - **Observation:** An item ball at (26, 7) is in an enclosed area. A Youngster at (25, 9) states, "That item ball in there is really a POKéMON."
 - **Hypothesis 1 (Failed):** The signs next to the other Pokémon exhibits must be read in a specific order to unlock the enclosure.
-  - **Test 1:** Read the Fossil sign at (8, 8). **Result:** Displayed Omanyte info. No effect.
-  - **Test 2:** Read the Kangaskhan sign at (14, 8). **Result:** Displayed Kangaskhan info. No effect.
-  - **Test 3:** Read the Slowpoke sign at (32, 14). **Result:** Displayed Slowpoke info. No effect.
-  - **Test 4:** Read the Chansey sign at (34, 8). **Result:** Displayed Chansey info. No effect.
-- **Hypothesis 2 (Untested):** Interaction with the Pokémon in the enclosures is required, not the signs. I was unable to reach the Lapras enclosure to test this.
+- **Hypothesis 2 (Untested):** Interaction with the Pokémon in the enclosures is required, not the signs.
 - **Hypothesis 3 (Untested):** A specific Pokémon must be in the party to trigger an event.
 
-# V. Training Plan
+# V. Strategic Notes
 
-## A. Goal: Train party to level cap 55 for Giovanni.
-- **Strategy:** The eastern entrance of Seafoam Islands provides access to the lower floors (B3F and B4F), which contain high-level wild Pokémon suitable for training. I will use this area to train my party to the level cap of 55.
+## A. Training for Giovanni
+- **Strategy:** The lower floors of Seafoam Islands (B3F and B4F) contain high-level wild Pokémon suitable for training the party to the level cap of 55.
 
 # VI. Future Development Ideas
 
