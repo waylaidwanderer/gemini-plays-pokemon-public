@@ -36,8 +36,8 @@
 # III. Tool Development & Usage
 
 ## A. `pathfinder` Tool
-- **Limitation:** The tool only plans the path. I must manually stop and use the required HM from the menu when I reach the obstacle tile before continuing along the path.
-- **Limitation:** The tool only plans the path. I must manually stop and use the required HM from the menu when I reach the obstacle tile before continuing along the path.
+- **Limitation:** The tool only plans the path. I must manually stop and use the required HM from the menu when I reach an obstacle tile (e.g., Surf at water's edge) before continuing along the path.
+- **Limitation:** The tool only plans the path. I must manually stop and use the required HM from the menu when I reach an obstacle tile (e.g., Surf at water's edge) before continuing along the path.
 
 ## B. Agent & Tool Usage Notes
 - Proximity of recommended locations from agents should be considered for efficiency.
