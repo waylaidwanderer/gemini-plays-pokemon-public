@@ -31,24 +31,23 @@
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu outside of battle.
 - **Party Planning:** Always confirm all required HMs (Fly, Surf, Strength, Cut) are present in the party *before* leaving a Pokémon Center to travel to a new area.
+- **Dynamic Map Elements:** Some map elements, like trees, can appear dynamically based on player movement or other triggers (e.g., Fuchsia City at (19,20)).
 
 # III. Tool Development & Debugging
 
-## A. `pathfinder` Tool
-- **Issue:** The tool, when defined via `define_tool`, experiences repeated, silent failures.
-- **Debugging Analysis:**
-  - Initial hypotheses pointed to logic errors in the `is_walkable` function (e.g., handling 'steps' tiles). Multiple redefinitions failed to resolve the issue.
-  - **Successful Test (Turn 85141):** Executing the tool's script directly with `run_code` and extensive debug logging was successful. The pathfinding logic itself is confirmed to be sound.
-- **Conclusion:** The issue is not with the Python script's logic but likely with the environment or wrapper used by `define_tool`, which causes an unhandled exception leading to a silent crash.
-- **Current Strategy:** Use `run_code` as a reliable workaround for pathfinding. The script has had data-passing errors that need to be fixed.
+## A. `pathfinder` Tool Development
+- **Status:** CRITICAL FAILURE. The current approach of using `run_code` with a temporary script is inefficient and error-prone. This violates core principles.
+- **Action Required:** The immediate, top-priority task is to define a robust, reusable `pathfinder` tool using `define_tool`. The script must be properly debugged to handle scope, syntax, and data structure issues that have caused repeated failures.
 
 ## B. Agent & Tool Usage Notes
-- **`training_spot_advisor_agent`:** Usage has been low. I need to create opportunities to use this agent to validate its effectiveness and identify areas for refinement.
-- **Debugging Best Practices:** In case of tool failure, especially silent ones, the first step must be to use `run_code` with detailed print statements to trace execution. Avoid repeated, blind redefinitions. Use `code_debugger_agent` to analyze errors.
+- **`training_spot_advisor_agent`:** This agent is underutilized. I need to create an opportunity to use it to validate its effectiveness, especially since training is a current goal.
+- **Debugging Best Practices:** In case of tool failure, the first step must be to use `run_code` with detailed print statements to trace execution. Avoid repeated, blind redefinitions. Use `code_debugger_agent` to analyze errors.
 
-## C. Future Agent & Tool Ideas
-- **Grinding Session Analyst:** An agent to determine if a training location is efficient based on EXP gain over time, factoring in encounter rate and battle length.
-- **Self Reflection Agent:** An agent that could analyze my last 50 turns and provide a critique based on my core principles, automating the reflection process.
+# IV. Puzzle-Solving Hypotheses
 
-# IV. Map Discoveries & Oddities
-- **Fuchsia City:** A tree at (19, 20) appeared after I walked past it. This suggests some map elements might be dynamic and change based on player movement or other triggers.
+## A. Fuchsia City Secret Pokémon (at (26, 7))
+- **Observation:** An item ball at (26, 7) is in an enclosed area. A Youngster at (25, 9) states, "That item ball in there is really a POKéMON."
+- **Hypothesis 1:** The signs next to the other Pokémon exhibits must be read in a specific order to unlock the enclosure.
+- **Test 1:** I will systematically visit and read each sign, starting with the Fossil sign at (8, 8), and check the enclosure after each interaction.
+- **Result 1:** TBD.
+- **Conclusion 1:** TBD.
