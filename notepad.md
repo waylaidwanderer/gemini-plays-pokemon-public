@@ -89,3 +89,5 @@
 ### C. Arrow Tile Maze (Team Rocket Base)
 *   This section will document the confirmed behavior of each arrow tile.
 *   Maze solution is being calculated by `maze_solver`.
+### D. Future Agent Ideas
+*   **dungeon_navigator:** An agent that analyzes map data for multiple floors of a dungeon to suggest the optimal path to unexplored areas.
