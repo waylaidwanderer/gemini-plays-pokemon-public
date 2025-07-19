@@ -99,11 +99,3 @@
 *   **Schoolboy Alan (Route 36):** My hypothesis that he had an item for me was incorrect. He is in a dialogue loop, which confirms he is a story-gated event. I will not interact with him again until major story progression (e.g., clearing Goldenrod Radio Tower).
 *   **Tile Type Hallucination (CORRECTION):** My previous assumption that a FLOOR tile could be impassable was incorrect. Tile collision types are consistent. Being stuck at (10, 28) must be due to an invisible event, object, or game state flag, not a faulty tile.
 *   **Pathing Assumptions (VIOLATION):** I incorrectly assumed a land path existed on Route 40. **Correction:** I must trust my `pathfinder` tool's output. If it reports no path, I must test my assumptions by trying alternative routes (e.g., water vs. land) or breaking the problem into smaller, verifiable steps instead of assuming the tool is broken.
-
-### F. Debugging & Tool Usage (New Methodology)
-*   **Tool Failure Protocol:** If a tool fails (e.g., `pathfinder` returns no path), my IMMEDIATE first step is to perform a simple manual test to confirm the task is possible. For pathfinding, this means attempting to walk a few steps in the intended direction. This will prevent wasting time debugging a tool for a task that is impossible due to map layout or other in-game constraints.
-*   **Future Agent Idea:** `tool_debugger` - an agent that takes code and an error description to suggest debugging steps or code modifications.
-### F. Debugging & Tool Usage (New Methodology)
-*   **Tool Failure Protocol:** If a tool fails (e.g., `pathfinder` returns no path), my IMMEDIATE first step is to perform a simple manual test to confirm the task is possible. For pathfinding, this means attempting to walk a few steps in the intended direction. This will prevent wasting time debugging a tool for a task that is impossible due to map layout or other in-game constraints.
-*   **Future Agent Idea:** `tool_debugger` - an agent that takes code and an error description to suggest debugging steps or code modifications.
-*   **Future Agent Idea:** `trip_planner` - an agent that takes a start and end city/route name and outputs a high-level sequence of maps to traverse. This would handle macro-level navigation planning.
