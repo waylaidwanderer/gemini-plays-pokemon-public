@@ -91,3 +91,10 @@
 *   Maze solution is being calculated by `maze_solver`.
 *   **Untested:** RADIO, INCENSE_BURNER, unknown (warp tile)
 *   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
+
+### C. Arrow Tile Maze (Team Rocket Base)
+*   **Hypothesis:** The arrow tiles have a consistent, repeatable effect (e.g., stepping 'Down' on tile X always results in moving to tile Y).
+*   **Test Plan:** 
+    1. Move onto a new arrow tile and record the starting coordinate, input direction, and resulting coordinate.
+    2. After mapping a tile's behavior, I must re-test it later by returning to the start coordinate and using the same input direction to confirm the outcome is identical. This will rule out more complex logic where tile behavior might change.
+*   **Arrow Tile Data (Verified):**
