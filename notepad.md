@@ -40,7 +40,7 @@
 - **Limitation:** The tool only plans the path. I must manually stop and use the required HM from the menu when I reach the obstacle tile before continuing along the path.
 
 ## B. Agent & Tool Usage Notes
-- **`training_spot_advisor_agent`:** I will use this agent to plan my training strategy. Proximity of the recommended location should be considered for efficiency.
+- Proximity of recommended locations from agents should be considered for efficiency.
 
 # IV. Puzzle-Solving Hypotheses
 
@@ -57,7 +57,7 @@
 # V. Training Plan
 
 ## A. Goal: Train party to level cap 55 for Giovanni.
-- **Action:** Use `training_spot_advisor_agent` to identify the best training locations. The agent recommended Seafoam Islands as the top priority, with Route 19 as a secondary option. I will investigate Route 19 first due to its proximity, then proceed to Seafoam Islands.
+- **Strategy:** I will use the `training_spot_advisor_agent` to identify the best training locations. The agent recommended Seafoam Islands as the top priority, with Route 19 as a secondary option. I will investigate Route 19 first due to its proximity, then proceed to Seafoam Islands.
 
 # VI. Future Development Ideas
 
