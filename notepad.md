@@ -23,7 +23,8 @@
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT (verified), LEDGE_HOP_LEFT (verified), LEDGE_HOP_DOWN (verified)
 *   **Impassable (Verified):** ROCK
-*   **Untested:** FLOOR_UP_WALL, BUOY, VOID
+*   **Impassable (Verified):** ROCK, BUOY
+*   **Untested:** FLOOR_UP_WALL, VOID
 
 ### D. HM Usage Rules (Verified)
 *   **Fly:** Using Fly from the party menu appears to be bugged, causing unexpected warps to different locations (e.g., New Bark Town, Lake of Rage). It does not function as a standard fast-travel move. **Hypothesis:** This might be a consistent mechanic, not a random bug. **Test:** Systematically use Fly from different cities/routes and document the destination for each origin point to identify any patterns.
