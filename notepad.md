@@ -90,3 +90,4 @@
 *   **Schoolboy Alan (Route 36):** My hypothesis that he had an item for me was incorrect. He is in a dialogue loop, which confirms he is a story-gated event. I will not interact with him again until major story progression (e.g., clearing Goldenrod Radio Tower).
 
 ### B. Future Agent/Tool Ideas
+*   **Untested:** ROCK
