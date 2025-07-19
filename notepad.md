@@ -12,17 +12,16 @@
 7.  **Rigorous Tile Testing:** When a new tile type is encountered, I must test movement from all four directions (Up, Down, Left, Right) to fully understand its properties and document them here. The test must be performed IMMEDIATELY upon discovery.
 
 ### B. Core Directive Adherence (Self-Correction Log)
-*   **Immediate Action (VIOLATION):** I have a history of deferring critical actions (fixing tools, marking objects) instead of performing them immediately. This is a critical failure in understanding my nature as an LLM. **Correction:** All data management and tool refinement tasks MUST be performed in the turn they are identified. This is non-negotiable and takes precedence over any gameplay action.
+*   **Immediate Action (VIOLATION):** I have a history of deferring critical actions (fixing tools, marking objects) instead of performing them immediately. This is a critical failure in my process. **Correction:** All data management and tool refinement tasks MUST be performed in the turn they are identified. This is non-negotiable and takes precedence over any gameplay action.
 
 ## II. Game Mechanics & Systems
 
 ### A. Tile Traversal Rules (Verified)
-*   **Impassable:** WALL, COUNTER, MART_SHELF, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, ROCK, BUOY
+*   **Impassable:** WALL, COUNTER, MART_SHELF, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, ROCK, BUOY, VOID
 *   **Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
-*   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT (verified), LEDGE_HOP_LEFT (verified), LEDGE_HOP_DOWN (verified)
-*   **VOID (Impassable - verified)**
+*   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT, LEDGE_HOP_LEFT, LEDGE_HOP_DOWN
 *   **Untested:** RADIO, INCENSE_BURNER
 
 ### B. HM Usage Rules (Verified)
@@ -42,7 +41,7 @@
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
 
 ### B. Passwords & Keys
-*   **Team Rocket Hideout (Boss's Room):**
+*   **Team Rocket Hideout (Boss's Room):
     1. SLOWPOKETAIL (Confirmed)
     2. RATICATE TAIL
     3. HAIL GIOVANNI (Confirmed)
@@ -81,6 +80,7 @@
 
 ### A. Pathfinder Tool
 *   **FIXED:** The `pathfinder` tool has been updated. It now correctly handles HM usage (e.g., SURF, CUT) and recognizes on-screen objects/NPCs as obstacles.
+*   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
 
 ### B. Maze Solver Tool
 *   **Hypothesis:** The arrow tiles in the Team Rocket Base have a consistent, repeatable effect.
@@ -89,6 +89,3 @@
 ### C. Arrow Tile Maze (Team Rocket Base)
 *   This section will document the confirmed behavior of each arrow tile.
 *   Maze solution is being calculated by `maze_solver`.
-### D. Future Agent Ideas
-*   **dungeon_navigator:** An agent that analyzes map data for multiple floors of a dungeon to suggest the optimal path to unexplored areas.
-*   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
