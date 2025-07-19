@@ -82,7 +82,7 @@
 ### D. Party Held Items
 *   **G (FERALIGATR):** BERRY (Assumed)
 *   **OM (TOGEPI):** POTION (Verified)
-*   **ROCKY (ONIX):** None
+*   **ROCKY (ONIX):** BERRY (Assumed, based on switch prompt)
 *   **DYNAMO (ELEKID):** None
 *   **HOOTIN (HOOTHOOT):** None
 
