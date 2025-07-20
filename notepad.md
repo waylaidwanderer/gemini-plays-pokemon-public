@@ -26,7 +26,7 @@
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT, LEDGE_HOP_LEFT, LEDGE_HOP_DOWN, FLOOR_UP_WALL (move 'Up' only)
-*   **Untested:** RADIO, INCENSE_BURNER, unknown (TeamRocketBaseB3F, traversable), unknown (MahoganyPokecenter1F), unknown (LakeOfRage)
+*   **Untested:** RADIO, INCENSE_BURNER, unknown (TeamRocketBaseB3F, traversable), unknown (MahoganyPokecenter1F), unknown (LakeOfRage), COMPUTER, BED, CABINET, SINK, PLANT
 
 ### B. System Bugs & Glitches (Verified)
 *   **Item Management:**
@@ -56,6 +56,7 @@
 *   **Schoolboy Alan (Route 36):** My hypothesis that he had an item for me was incorrect. He is in a dialogue loop, which confirms he is a story-gated event.
 *   **Ilex Forest Shrine:** A Lass in the Route 34 Gate mentioned a shrine honoring a grass-type protector of the forest.
 *   **TM12 (Sweet Scent):** Given by Teacher in Route 34 Ilex Forest Gate. Attracts wild Pokémon.
+*   **Team Rocket Base B1F Secret Passage:** The 'door' at (10, 9) is a secret passage, not a locked door. It is opened by activating the Secret Switch at (19, 11).
 
 ## IV. Battle and Pokemon Information
 
@@ -93,8 +94,10 @@
 *   The `maze_solver` tool is now available to navigate the Team Rocket Base arrow tile maze. Manual mapping is no longer necessary.
 
 ## VI. Future Development
-### A. Agent Concepts
+### A. Agent & Tool Concepts
 *   **Party Checker Tool:** A tool to check which Pokémon in my party are holding items. This would have prevented my recent inventory-solving failures.
+*   **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies. This could have helped me break out of the Mt. Mortar cycle much faster.
+*   **Dungeon Analyst Tool:** A tool that takes warp data from multiple floors as input to identify partitioned areas and suggest optimal routes through complex, multi-level dungeons.
 
 ## VII. Hypotheses & Tests
 ### A. Mahogany Gym Blocker
@@ -106,13 +109,3 @@
 
 ## VIII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
-
-### B. Agent Concepts (New)
-*   **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies. This could have helped me break out of the Mt. Mortar cycle much faster.
-
-### C. Tile Testing To-Do
-*   Test traversability of RADIO and INCENSE_BURNER tiles.
-*   **Untested (TeamRocketBaseB3F):** COMPUTER, BED, CABINET, SINK, PLANT
-*   **Team Rocket Base B1F Secret Passage:** The 'door' at (10, 9) is a secret passage, not a locked door. It is opened by activating the Secret Switch at (19, 11).
-### D. Agent Concepts (New)
-*   **Dungeon Analyst:** An agent that takes warp data from multiple floors as input to identify partitioned areas and suggest optimal routes through complex, multi-level dungeons.
