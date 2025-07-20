@@ -41,7 +41,7 @@
 ## A. Custom Tools & Agents
 - My agents (`battle_strategist_agent`, etc.) are for high-level reasoning.
 - My tools (`pathfinder`, etc.) are for complex computational tasks.
-- **Tool Limitations:** My `pathfinder` tool cannot account for scripted environmental barriers (like the strong current in Seafoam Islands). For such puzzles, I must rely on manual exploration and hypothesis testing.
+- **Tool Development:** My `pathfinder` tool is now fixed. It correctly handles transitions from water to land, which was a major bug. It still cannot account for scripted barriers like the strong current, so manual exploration is sometimes needed.
 
 ## B. Future Development Ideas
 - **Boulder Puzzle Solver Tool:** A tool to analyze map XML and provide step-by-step solutions for boulder puzzles.
