@@ -104,3 +104,4 @@
 ### C. Recent Failures (Self-Correction Log)
 *   **Goal Adherence (VIOLATION):** I failed to consult my notepad and traveled to the Lake of Rage and then south towards Mahogany Town, when my primary goal (delivering the RED SCALE) required me to travel north-east towards Route 30. This was a critical failure of strategic planning. **Correction:** I must ALWAYS consult my goals and documentation before planning a major travel route.
 *   **Immediate Action (VIOLATION):** I have repeatedly failed to perform data management tasks (like marking warps or fixing tools) in the same turn they are identified, deferring them to a later turn. **Correction:** All data management tasks are top priority and must be performed immediately.
+*   **FLOOR_UP_WALL:** Can only be traversed by moving 'Up' onto the tile. (Verified on Route 42)
