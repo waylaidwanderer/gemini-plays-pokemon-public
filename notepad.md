@@ -22,7 +22,8 @@
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu outside of battle. Fainted Pokémon can use field moves.
 - **"No Will to Fight" Message (Correction):** This message appears only when the cursor in the party menu is on an already fainted Pokémon. It is a UI error, not a gameplay mechanic.
-- **Confirmation Bias Warning:** The game's feedback (e.g., being unable to move) is the ultimate source of truth. If a tool's output (like a path plan) contradicts the game's behavior, the tool is flawed and must be debugged. Do not repeatedly attempt an action that the game has shown to be invalid.
+- **Confirmation Bias Warning:** The game's feedback (e.g., being unable to move, system warnings) is the ultimate source of truth. If a tool's output (like a path plan) contradicts the game's behavior, the tool is flawed and must be debugged. Do not repeatedly attempt an action that the game has shown to be invalid.
+- **Surf Mechanic:** You cannot initiate Surf from an `elevated_ground` tile. You must be on a `ground`, `steps`, or `grass` tile adjacent to water.
 
 # II. Battle Intel
 
@@ -40,30 +41,23 @@
 - **Seafoam Islands B3F Water Current (East):** The strong water current on B4F is disabled by pushing a single, isolated boulder at (20, 7) on B3F into a hole at (20, 6).
 
 ## B. Ongoing Puzzles & Investigations
-- **Seafoam Islands B4F Western Water Current:** The current at (8, 12) is too strong to SURF against. The solution is likely on an upper floor (B1F or B2F). **Hypothesis Failed:** Exploration of B1F and B2F revealed no solution. New hypothesis: The main boulder puzzle on B3F is the key.
+- **Seafoam Islands B4F Western Water Current:** The current at (8, 12) is too strong to SURF against. The solution is the main boulder puzzle on B3F.
 - **NPC Kris (B4F):** The NPC Kris at (8, 3) on B4F has information relevant to progressing. (Currently inaccessible due to water current).
-- **Seafoam Islands B3F Main Boulder Puzzle:** The `boulder_puzzle_solver` tool confirmed this is unsolvable from the western platform. This conclusion needs re-evaluation, as the tool itself may be bugged.
+- **Seafoam Islands B3F Main Boulder Puzzle:** The `boulder_puzzle_solver` tool initially failed, but has since been fixed. The puzzle is now the primary objective to test the tool's new logic.
 
 # IV. Tool Development & Strategy
 
 ## A. Development Log
 - **Pathfinder Tool (Invalid Path - Elevated Ground):** The tool generated a path from `ground` to `elevated_ground`, which is an invalid move. The `is_traversable` function was updated to correctly restrict movement between `ground` and `elevated_ground` unless `steps` are used.
-- **Pathfinder Tool (Invalid Path - Water):** The tool generated a path from a `ground` tile directly into a `water` tile. This is an invalid move as it requires using Surf from the menu.
-  - **Fix:** Modified the logic to prevent any pathing from a land tile (`ground`, `grass`, etc.) directly to a `water` tile. The tool should only path between adjacent water tiles or from a water tile to an adjacent land tile.
-- **Boulder Puzzle Solver (Failure):** The `boulder_puzzle_solver` returned 'No solution found' for the western B3F puzzle. This is likely due to a flaw in the tool's internal player pathfinding logic (`player_a_star`), which may not be correctly identifying a path for the player to get into a position to push the boulders. This needs to be debugged before re-attempting the puzzle.
+- **Pathfinder Tool (Invalid Path - Water):** The tool generated a path from a `ground` tile directly into a `water` tile. This is an invalid move as it requires using Surf from the menu. **Limitation:** The tool cannot currently plan multi-stage paths that involve starting on land, using an HM like Surf, and then navigating on water.
+- **Boulder Puzzle Solver (Failure & Fix):** The `boulder_puzzle_solver` returned 'No solution found' for the western B3F puzzle. This was due to two bugs: an incorrect initial check in the `player_a_star` function and improper handling of movement between `ground` and `elevated_ground`. The tool has been updated with a corrected script and now requires testing on the original puzzle.
 
 ## B. Future Tool/Agent Ideas
+- **Advanced Pathfinder Tool:** Enhance the `pathfinder` to handle multi-stage navigation, including the use of HMs like Surf or Cut from the menu to transition between terrain types (e.g., land -> water).
 - **Cave Navigator Agent:** Could generate high-level, multi-floor navigation plans for complex dungeons.
 - **Puzzle Element Finder Tool:** Could parse map XML to automatically identify coordinates of puzzle elements like boulders and switches.
 
 ## C. Self-Correction & Lessons Learned
 - **User Error vs. Tool Error:** When a tool appears to fail, first consider if the failure was due to user error (e.g., using an outdated path after an interruption) before assuming the tool itself is bugged. Verify the context before debugging.
-
-## D. Navigational Insights
-- **Route 22 & 15 Layout:** These routes are split by one-way ledges. The southern sections do not provide access to the northern sections containing the main patches of tall grass. The northern sections are likely only accessible after obtaining all 8 badges and passing through the Pokémon League Reception Gate.
-- **Surf Mechanic:** You cannot initiate Surf from an `elevated_ground` tile. You must be on a `ground`, `steps`, or `grass` tile adjacent to water.
-- **Seafoam Islands Eastern Path (Conclusion):** The eastern entrances on Route 20 lead to an isolated, dead-end section of the cave. The path down from 1F -> B1F -> B2F -> B3F does not connect to the main western puzzle area.
-- **Seafoam Islands B3F Connection:** The eastern and western sections of B3F are connected via a water path. The steps at (24, 10) lead to the water, allowing access to the warps at (21, 18) and (22, 18) which lead to the central puzzle area.
-
-## C. Self-Correction & Lessons Learned
-- **Overwatch Critique (Tool Refinement):** Received a critical critique for not immediately fixing the `boulder_puzzle_solver` tool after it failed. Core directive is to prioritize tool maintenance. **Plan:** Exit Seafoam Islands to a safe location (e.g., Pokémon Center), then immediately dedicate turns to debugging and fixing the tool's `player_a_star` logic. This is now the highest priority task once I am out of this high-encounter area.
+- **Overwatch Critique (Tool Refinement):** Received a critical critique for not immediately fixing the `boulder_puzzle_solver` tool after it failed. Core directive is to prioritize tool maintenance. This mistake has been corrected, and the tool was fixed at the next safe opportunity.
+- **Dead End Misidentification:** Incorrectly concluded that Seafoam Islands B2F was a dead end after one path failed, ignoring other reachable warps. I must be more thorough and trust system data over hasty assumptions.
