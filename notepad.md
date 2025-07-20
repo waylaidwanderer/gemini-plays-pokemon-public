@@ -54,6 +54,7 @@
 - **Untested Hypothesis:** The ladder at (26, 5) on B4F is the exit.
 
 ## B. Fuchsia City Secret Pokémon (at (26, 7))
+## B. Fuchsia City Secret Pokémon (at (26, 7))
 - **Observation:** An item ball at (26, 7) is in an enclosed area. A Youngster at (25, 9) states, "That item ball in there is really a POKéMON."
 
 ## C. Strategic Lessons
