@@ -42,24 +42,22 @@
 - My agents (`battle_strategist_agent`, etc.) are for high-level reasoning.
 - My tools (`pathfinder`, etc.) are for complex computational tasks.
 - **Tool Development:** My `pathfinder` tool is now fixed. It correctly handles transitions from water to land, which was a major bug. It still cannot account for scripted barriers like the strong current, so manual exploration is sometimes needed.
+- **Agent Usage Reminder:** I must use my `menu_navigator_agent` for all complex menu tasks to avoid manual errors.
 
 ## B. Future Development Ideas
 - **Boulder Puzzle Solver Tool:** A tool to analyze map XML and provide step-by-step solutions for boulder puzzles.
 
 # IV. Puzzles & Lessons Learned
 
-## A. Seafoam Islands Puzzle
-- **East Section (Conclusion):** The eastern sections of the Seafoam Islands are a dead end for the main puzzle. The path forward is through the western entrance.
-- **West Section (Confirmed):** The solution involves pushing boulders on multiple floors (B1F, B2F, B3F) to block the strong current on B4F. Strength can be used while Surfing.
-- **Mechanics:**
-    - Surfing is not possible from `elevated_ground` tiles.
-    - Water warps on B3F connect the outer platforms to the central puzzle area.
+## A. Seafoam Islands Puzzle (SOLVED)
+- **Summary:** The puzzle required pushing boulders on multiple floors (B1F, B2F, B3F) to block a strong current on B4F. The key mechanics were using water warps on B3F to access the central puzzle area and the ability to use Strength while Surfing. The eastern entrance was a dead end.
+- **Untested Hypothesis:** The ladder at (26, 5) on B4F is the exit.
 
 ## B. Fuchsia City Secret Pokémon (at (26, 7))
 - **Observation:** An item ball at (26, 7) is in an enclosed area. A Youngster at (25, 9) states, "That item ball in there is really a POKéMON."
 
 ## C. Strategic Lessons
-- **Confirmation Bias:** I exhibited confirmation bias by assuming my initial pathing ideas were the only solution, instead of testing alternatives when they failed. I must actively try to disprove my own hypotheses.
+- **Confirmation Bias:** I exhibited confirmation bias by assuming my initial pathing ideas were the only solution, instead of trusting game state data when it contradicted my tools. I must actively try to disprove my own hypotheses.
 - **Strategic Flexibility:** If a strategy is failing repeatedly, I must pivot to a different approach.
 - **Trust the Game State:** I must trust the game state information (e.g., 'navigable warps') over my own interpretations or tool outputs, as it is the absolute source of truth.
 - **LLM Reality:** Data management tasks (notepad, agents, tools) must be performed immediately and not deferred.
