@@ -6,7 +6,7 @@
 - **Grass:** Tall grass for wild Pokémon encounters.
 - **Ledge:** Can be jumped down (one-way). Moving down into a ledge tile moves the player two tiles down.
 - **Cuttable Tree:** Requires HM Cut to pass. Becomes `ground` after cutting, but respawns on map change.
-- **Water:** Requires HM Surf to traverse. To use Surf from a land tile, you must be standing on a 'ground', 'water', or 'steps' tile adjacent to water, face the water, and use the HM from the party menu.
+- **Water:** Requires HM Surf to traverse. To use Surf from a land tile, you must be standing on a 'ground', 'water', or 'steps' tile adjacent to water, face the water, and use the HM from the party menu. Strength can be used while surfing.
 - **Boulder:** Requires HM Strength to move.
 - **Hole:** Warps player to a lower floor or a specific spot on the same/different floor.
 - **Ladder (Up/Down):** Warps player between floors.
@@ -40,7 +40,7 @@
 - **Seafoam Islands B3F Layout:** Discovered that the eastern and western sections of B3F are not connected. The main boulder puzzle area is only accessible from a specific ladder on B4F (the eastern one), not the ladder connected to the western side.
 
 ## B. Failed Puzzle Attempts
-*This section is for puzzles that remain unsolved.*
+- **Seafoam Islands B3F Boulder Puzzle (West):** The `boulder_puzzle_solver` tool confirmed that the puzzle in the isolated western section is unsolvable with the current configuration of boulders and holes. It is a red herring.
 
 ## C. Solved Development Issues
 - **Boulder Puzzle Solver Refinement:** The `boulder_puzzle_solver` tool has been updated to incorporate A* pathfinding for player reachability checks. This prevents it from failing when the player is in an isolated area, which was confirmed on B3F.
