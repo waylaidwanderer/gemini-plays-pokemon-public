@@ -106,3 +106,9 @@
 
 ## VIII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
+
+### B. Agent Concepts (New)
+*   **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies. This could have helped me break out of the Mt. Mortar cycle much faster.
+
+### C. Tile Testing To-Do
+*   Test traversability of RADIO and INCENSE_BURNER tiles.
