@@ -16,6 +16,7 @@
 - **Spinner Stop:** A tile that halts movement from a spinner.
 - **Elevated Ground:** Walkable ground at a different elevation. Movement between `ground` and `elevated_ground` is only possible via `steps`.
 - **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close based on game events. `gate_offscreen` is treated as open for pathfinding.
+- **Boulder Switch & Barrier:** `boulder_switch` tiles are activated when a boulder is pushed onto them, which typically changes a `boulder_barrier` tile into a `cleared_boulder_barrier` tile (effectively `ground`). Will test further upon next encounter.
 
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
@@ -41,15 +42,15 @@
 ## B. Ongoing Puzzles & Investigations
 - **Seafoam Islands B4F Western Water Current:** The current at (8, 12) is too strong to SURF against. The solution is likely on an upper floor (B1F or B2F). **Hypothesis Failed:** Exploration of B1F and B2F revealed no solution. New hypothesis: The main boulder puzzle on B3F is the key.
 - **NPC Kris (B4F):** The NPC Kris at (8, 3) on B4F has information relevant to progressing. (Currently inaccessible due to water current).
-- **Seafoam Islands B3F Main Boulder Puzzle:** The `boulder_puzzle_solver` tool confirmed this is unsolvable from the western platform (turn #88200). **Re-evaluating this conclusion.** It's possible the tool was flawed or the input was incorrect.
+- **Seafoam Islands B3F Main Boulder Puzzle:** The `boulder_puzzle_solver` tool confirmed this is unsolvable from the western platform. This conclusion needs re-evaluation, as the tool itself may be bugged.
 
 # IV. Tool Development & Strategy
 
 ## A. Development Log
 - **Pathfinder Tool (Invalid Path - Elevated Ground):** The tool generated a path from `ground` to `elevated_ground`, which is an invalid move. The `is_traversable` function was updated to correctly restrict movement between `ground` and `elevated_ground` unless `steps` are used.
-- **Seafoam Islands B4F Western Water Current (Hypothesis #2 Failed):** Pushing the isolated boulder at (20, 7) on B3F into the hole at (20, 6) did NOT stop the western water current. New hypothesis: The NPC Kris at (8, 3) has the solution.
 - **Pathfinder Tool (Invalid Path - Water):** The tool generated a path from a `ground` tile directly into a `water` tile. This is an invalid move as it requires using Surf from the menu.
-  - **Fix:** Modified the logic to prevent any pathing from a land tile (`ground`, `grass`, etc.) directly to a `water` tile. The tool should only path between adjacent water tiles or from a water tile to an adjacent land tile. Land-to-water transitions must be handled as a separate, multi-step action.
+  - **Fix:** Modified the logic to prevent any pathing from a land tile (`ground`, `grass`, etc.) directly to a `water` tile. The tool should only path between adjacent water tiles or from a water tile to an adjacent land tile.
+- **Boulder Puzzle Solver (Failure):** The `boulder_puzzle_solver` returned 'No solution found' for the western B3F puzzle. This is likely due to a flaw in the tool's internal player pathfinding logic (`player_a_star`), which may not be correctly identifying a path for the player to get into a position to push the boulders. This needs to be debugged before re-attempting the puzzle.
 
 ## B. Future Tool/Agent Ideas
 - **Cave Navigator Agent:** Could generate high-level, multi-floor navigation plans for complex dungeons.
@@ -61,10 +62,5 @@
 ## D. Navigational Insights
 - **Route 22 & 15 Layout:** These routes are split by one-way ledges. The southern sections do not provide access to the northern sections containing the main patches of tall grass. The northern sections are likely only accessible after obtaining all 8 badges and passing through the Pokémon League Reception Gate.
 - **Surf Mechanic:** You cannot initiate Surf from an `elevated_ground` tile. You must be on a `ground`, `steps`, or `grass` tile adjacent to water.
-- **Seafoam Islands Eastern Path (Hypothesis Failed):** The eastern entrances on Route 20 lead to an isolated, dead-end section of the cave. The path down from 1F -> B1F -> B2F -> B3F does not connect to the main western puzzle area. The true path forward must be through the western entrance on Route 20.
-- **Seafoam Islands Eastern Path (Hypothesis Failed):** The eastern entrances on Route 20 lead to an isolated, dead-end section of the cave. The path down from 1F -> B1F -> B2F -> B3F does not connect to the main western puzzle area. The true path forward must be through the western entrance on Route 20.
-- **Seafoam Islands Eastern Path (Hypothesis Failed):** The eastern entrances on Route 20 lead to an isolated, dead-end section of the cave. The path down from 1F -> B1F -> B2F -> B3F does not connect to the main western puzzle area. The true path forward must be through the western entrance on Route 20.
-- **Seafoam Islands Eastern Path (Hypothesis Failed):** The eastern entrances on Route 20 lead to an isolated, dead-end section of the cave. The path down from 1F -> B1F -> B2F -> B3F does not connect to the main western puzzle area. The true path forward must be through the western entrance on Route 20.
-- **Seafoam Islands Eastern Path (Hypothesis Failed):** The eastern entrances on Route 20 lead to an isolated, dead-end section of the cave. The path down from 1F -> B1F -> B2F -> B3F does not connect to the main western puzzle area. The true path forward must be through the western entrance on Route 20.
-- **Seafoam Islands B3F Connection (Correction):** The eastern and western sections of B3F are connected via a water path. The steps at (24, 10) lead to the water, allowing access to the warps at (21, 18) and (22, 18) which lead to the central puzzle area.
-- **Seafoam Islands B3F Connection (Correction):** The eastern and western sections of B3F are connected via a water path. The steps at (24, 10) lead to the water, allowing access to the warps at (21, 18) and (22, 18) which lead to the central puzzle area.
+- **Seafoam Islands Eastern Path (Conclusion):** The eastern entrances on Route 20 lead to an isolated, dead-end section of the cave. The path down from 1F -> B1F -> B2F -> B3F does not connect to the main western puzzle area.
+- **Seafoam Islands B3F Connection:** The eastern and western sections of B3F are connected via a water path. The steps at (24, 10) lead to the water, allowing access to the warps at (21, 18) and (22, 18) which lead to the central puzzle area.
