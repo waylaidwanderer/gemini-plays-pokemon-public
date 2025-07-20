@@ -126,3 +126,7 @@
 *   **Youngster Joey (Route 30):** Wants a rematch.
 *   **Untested:** ... unknown (EcruteakMart)
 *   **Camper Todd (Route 36):** Wants a rematch on Route 34.
+
+### F. Pathfinder v2 Destination Tile Bug
+*   **Hypothesis:** The `pathfinder_v2` tool fails to path to (42, 8) because the tile has a hidden property that makes it impassable from the water, despite being a 'FLOOR' type.
+*   **Falsification Test:** Once I reach the eastern shore, I will attempt to walk onto the tile at (42, 8) from an adjacent land tile like (42, 9) or (43, 8). If I can step on it, the hypothesis is false, and the bug is purely within the pathfinder's logic. If I cannot, the tile is indeed special.
