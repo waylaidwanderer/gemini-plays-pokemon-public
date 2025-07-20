@@ -65,3 +65,4 @@
 - **Wild Encounter:** Encountered a wild SLOWPOKE (Lv35) at (5, 13) on Seafoam Islands 1F.
 - **Wild Encounter:** Encountered a wild KRABBY (Lv32) at (7, 7) on Seafoam Islands 1F.
 - **Wild Encounter:** Encountered a wild ZUBAT (Lv27) at (7, 11) on Seafoam Islands B1F.
+- **Wild Encounter:** Encountered a wild KRABBY (Lv26) at (10, 14) on Seafoam Islands B1F.
