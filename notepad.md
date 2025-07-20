@@ -64,3 +64,4 @@
 - **Pathfinder Tool (Impassable Target):** The tool failed to find a path to an impassable target because the logic for finding an adjacent, reachable goal was flawed. It incorrectly used `is_traversable` from the impassable tile itself. The logic has been updated to check if the adjacent tile is a valid standing tile, then lets A* find the path.
 - **Wild Encounter:** Encountered a wild SLOWPOKE (Lv35) at (5, 13) on Seafoam Islands 1F.
 - **Wild Encounter:** Encountered a wild KRABBY (Lv32) at (7, 7) on Seafoam Islands 1F.
+- **Wild Encounter:** Encountered a wild ZUBAT (Lv27) at (7, 11) on Seafoam Islands B1F.
