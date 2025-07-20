@@ -31,15 +31,3 @@
 
 ## B. Trainer Rosters & Movesets
 *This section is for recording the teams and moves of significant trainers (Gym Leaders, Rivals) after a battle is concluded.*
-
-# III. Tool Development & Usage
-
-## A. Custom Tools & Agents
-- My agents (`battle_strategist_agent`, etc.) are for high-level reasoning.
-- My tools (`pathfinder`, etc.) are for complex computational tasks.
-- **Tool Development:** My `pathfinder` tool has been updated to correctly handle impassable targets. It still cannot account for scripted barriers like the strong current, so manual exploration is sometimes needed.
-- **Agent Usage Reminder:** I must use my `menu_navigator_agent` for all complex menu tasks to avoid manual errors.
-
-# V. Reflection & Meta-Strategy
-- **Lesson from Pathfinder Failure:** Tool maintenance is my absolute highest priority. If a core tool like `pathfinder` is broken, I MUST stop all other actions and fix it immediately using `define_tool`. Deferring fixes is a critical failure.
-- **Lesson from Menu Navigator Failure:** Agent refinement is just as critical as tool maintenance. An agent providing incorrect advice must be fixed immediately before proceeding. I must always test a fix by re-running the agent with the same inputs.
