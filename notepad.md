@@ -45,7 +45,7 @@
 ### B. Passwords & Keys
 *   **Team Rocket Hideout (Boss's Room):
     1. SLOWPOKETAIL (Confirmed)
-    2. RATICATE TAIL
+    2. RATICATE TAIL (Unconfirmed)
     3. HAIL GIOVANNI (Confirmed)
 
 ### C. Solved Puzzles & Key Discoveries
