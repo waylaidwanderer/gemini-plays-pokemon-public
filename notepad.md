@@ -118,3 +118,4 @@
 *   (1, 4) -> Forces movement 'Up' to (1, 3).
 *   (1, 3) -> Normal floor tile.
 *   (2, 3) -> Normal floor tile.
+*   (3, 3) -> Normal floor tile.
