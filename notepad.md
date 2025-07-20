@@ -40,6 +40,7 @@
 - **Seafoam Islands B1F:** ZUBAT (Lv27) at (7, 11), KRABBY (Lv26) at (10, 14).
 - **Seafoam Islands B2F:** KINGLER (Lv38) at (12, 8), SLOWPOKE (Lv35) at (7, 9).
 - **Seafoam Islands B3F:** SEEL (Lv34) at (7, 5).
+- **Seafoam Islands B4F:** SEEL (Lv34) at (25, 5).
 
 # III. Puzzles & Exploration
 
@@ -69,4 +70,3 @@
 - **Overwatch Critique (Tool Refinement):** Received a critical critique for not immediately fixing the `boulder_puzzle_solver` tool after it failed. Core directive is to prioritize tool maintenance. This mistake has been corrected, and the tool was fixed at the next safe opportunity.
 - **Dead End Misidentification:** Incorrectly concluded that Seafoam Islands B2F was a dead end after one path failed, ignoring other reachable warps. I must be more thorough and trust system data over hasty assumptions.
 - **Boulder Puzzle Solver (User Error):** The tool correctly returned 'No solution found' because I was attempting to solve the puzzle from a location where the player could not physically reach the boulders. The tool requires the player to be in the correct area before it can find a solution. This is a user error, not a tool bug.
-- **Seafoam Islands B4F:** SEEL (Lv34) at (25, 5).
