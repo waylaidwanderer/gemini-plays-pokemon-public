@@ -124,3 +124,6 @@
 ### E. Team Rocket B1F Arrow Maze
 *   (1, 4) -> Forces movement UP to (1, 3).
 *   (1, 3) -> Normal floor tile (tested Left and Right).
+### F. Team Rocket B1F Maze Progression
+*   **Hypothesis:** The invisible arrow tile maze is the only path to the boss.
+*   **Falsification Test:** If solving the maze leads to a dead end or only an item, this hypothesis is false. The alternative is that another hidden switch or interaction exists elsewhere in the hideout, requiring a full re-exploration of all interactable objects.
