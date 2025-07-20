@@ -9,7 +9,7 @@
 4.  **Conclude & Document:** Record the result and update this notepad immediately.
 5.  **Pivot when Stuck:** If a hypothesis repeatedly fails or a path is confirmed blocked by a trusted tool (like `pathfinder`), I must abandon the approach and formulate a new, fundamentally different hypothesis (e.g., if an object interaction fails, consider an item use or an escape/re-entry strategy). I will not persist with a failed approach for more than 3-5 attempts.
 6.  **Falsify Hypotheses:** To avoid confirmation bias, after a test confirms a hypothesis (e.g., an arrow tile's behavior), I must attempt to disprove it. A key test will be to return to the same tile later and repeat the same action to ensure the outcome is consistent.
-6.  **Trust My Tools:** I will trust the output of my validated computational tools (e.g., `pathfinder`) and reasoning agents (`strategy_advisor`) over my own intuition. If a tool says a path is blocked, it is blocked. If I am stuck, I will consult my `strategy_advisor` before resorting to manual brute-force solutions.
+7.  **Trust My Tools:** I will trust the output of my validated computational tools (e.g., `pathfinder`) and reasoning agents (`strategy_advisor`) over my own intuition. If a tool says a path is blocked, it is blocked. If I am stuck, I will consult my `strategy_advisor` before resorting to manual brute-force solutions.
 
 ### B. Core Directive Adherence (Self-Correction Log)
 *   **Immediate Action (VIOLATION):** I have a history of deferring critical actions (fixing tools, marking objects) instead of performing them immediately. **Correction:** All data management and tool/agent use/refinement tasks MUST be performed in the turn they are identified. This is non-negotiable and takes precedence over any gameplay action.
@@ -92,6 +92,7 @@
 ## VI. Future Development
 ### A. Agent Concepts
 *   **Tool Debugger Agent:** An agent that takes Python code, an error message, and the context of the problem to suggest a specific, logical fix. This would streamline the tool refinement process and make it more efficient than my manual trial-and-error approach.
+*   **Party Checker Tool:** A tool to check which Pokémon in my party are holding items. This would have prevented my recent inventory-solving failures.
 
 ## VII. Hypotheses & Tests
 ### A. Mahogany Gym Blocker
