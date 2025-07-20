@@ -63,3 +63,6 @@
 
 ## C. Self-Correction & Lessons Learned
 - **User Error vs. Tool Error:** When a tool appears to fail, first consider if the failure was due to user error (e.g., using an outdated path after an interruption) before assuming the tool itself is bugged. Verify the context before debugging.
+
+## D. Navigational Insights
+- **Route 22 Layout:** This route is split by one-way ledges. The southern section, accessible from Viridian City, does not provide access to the northern section containing the main patch of tall grass. The northern section is likely only accessible after obtaining all 8 badges and passing through the Pokémon League Reception Gate.
