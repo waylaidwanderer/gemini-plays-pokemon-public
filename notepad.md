@@ -117,10 +117,15 @@
 *   **Falsification Test:** After clearing inventory in Ecruteak, return to Route 42. Check if the Super Nerd at (47, 8) has moved or if there is an alternative way to access the northern water route. If another path exists, the hypothesis is false.
 
 ### D. Team Rocket B1F Maze Progression
-*   **Current State:** The dialogue from the Grunt at (2, 4) confirms the existence of an invisible arrow tile maze ('traps'). My systematic testing of all tiles adjacent to the Grunt, and the Grunt tile itself, has confirmed they are not the start of the maze.
-*   **Current Hypothesis:** The maze starts on a floor tile somewhere in this room.
-*   **Current Plan:** Systematically test every floor tile in this room by moving onto it and attempting to move in a cardinal direction. Record any forced movements.
-*   **Falsification Test:** If I test every floor tile and none trigger forced movement, this hypothesis is false. The alternative is that another hidden switch or interaction exists elsewhere in the hideout, which would require a full re-exploration of all interactable objects (statues, computers, etc.) on all floors.
+*   **Current State:** The dialogue from the Grunt at (2, 4) confirms the existence of invisible 'traps'. My systematic exploration has revealed that these are not forced-movement arrow tiles, but likely one-way pitfall warps.
+*   **Evolving Hypothesis:** The traps are floor tiles that warp the player to B2F, but only when entered from specific directions.
+*   **Verified Behavior (Current Turn):**
+    *   Moving DOWN onto tile (2, 13) from (2, 12) does NOT trigger a warp. This falsifies my previous assumption that this was a guaranteed pitfall.
+*   **Revised Plan:**
+    1. For each tile in the maze area, I must test entry from all four cardinal directions (North, South, East, West) to confirm the trigger conditions.
+    2. I will move to an adjacent tile, then move back onto the test tile.
+    3. I will record the outcome (warp or no warp) for each directional entry.
+*   **Current Test:** I am at (2, 13). I have confirmed entry from the North is safe. I will now test entry from the East by moving to (3, 13) and then moving Left back to (2, 13).
 
 ## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
