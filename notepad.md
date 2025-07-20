@@ -32,3 +32,4 @@
 ## B. Trainer Rosters & Movesets
 *This section is for recording the teams and moves of significant trainers (Gym Leaders, Rivals) after a battle is concluded.*
 - **Hypothesis 8:** The warp at (21, 18) and (22, 18) is not a standard warp, but a strong water current. It is likely disabled by solving a boulder puzzle, possibly the one in the western part of B3F.
+- **Trust the Data:** I incorrectly concluded the western 1F platform was a dead end. The system critique revealed other reachable warps were available. I must always trust the `navigable_warps` data over my visual assessment of the map.
