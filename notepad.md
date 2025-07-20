@@ -89,7 +89,10 @@
 3.  **Iterative Refinement:** Assume that multiple, independent bugs may exist. If a tool fails after a fix, a new, unrelated bug is the most likely cause. The debugging process must be iterative and persistent.
 
 ### B. Pathfinder Tool (FUNCTIONAL)
-*   **Status:** The tool is working correctly. My repeated failures to trust its output were a major process violation. The tool correctly identified an impassable wall at Y=12 on TeamRocketBaseB2F that I had failed to see.
+*   **Status:** The tool is working correctly. My repeated failures to trust its output were a major process violation.
+*   **Incident Log:**
+    *   **TeamRocketBaseB2F:** The tool correctly identified an impassable wall at Y=12 that I had failed to see.
+    *   **TeamRocketBaseB3F:** The tool correctly identified an impassable WALL tile at (15, 8). I spent multiple turns debugging a functional tool because my own visual assessment of the map was wrong.
 *   **Action Plan:** I must trust the output of my validated tools over my own intuition. The `map_debugger` tool was critical in diagnosing my own flawed perception, not a flaw in the tool.
 
 ### C. Agent & Tool Concepts (New)
