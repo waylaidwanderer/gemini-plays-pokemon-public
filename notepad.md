@@ -41,7 +41,7 @@
 
 ## A. Custom Tools
 - **`pathfinder`:** This tool has been updated to correctly handle all traversal logic, including HMs, and now outputs a JSON array of coordinates for the path_plan, making it more reliable.
-- **`spinner_maze_solver`:** This tool calculates paths in spinner mazes. It was used in Viridian Gym, but the path was interrupted by the spinner mechanic. Must re-run from new positions after being moved by a spinner.
+- **`spinner_maze_solver`:** This tool calculates paths in spinner mazes. It was buggy, but has been successfully fixed and is now reliable for navigating spinner puzzles.
 
 ## B. Agent & Tool Usage Notes
 - I must fix failing tools immediately using my `code_debugger_agent` instead of deferring the task or attempting manual fixes.
