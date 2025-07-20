@@ -46,6 +46,7 @@
 ## B. Agent & Tool Usage Notes
 - I must fix failing tools immediately using my `code_debugger_agent` instead of deferring the task or attempting manual fixes.
 - Proximity of recommended locations from agents should be considered for efficiency.
+- I will proactively use my `training_spot_advisor_agent` the next time training becomes a relevant goal.
 
 # IV. Puzzles & Hypotheses
 
@@ -61,13 +62,10 @@
 # V. Strategic Plans & Lessons Learned
 
 ## A. Viridian Gym Strategy (Level Cap: 55)
-- **Current Plan:** Challenge Giovanni in the Viridian City Gym. The gym is a spinner maze. I will use the `spinner_maze_solver` tool to navigate it. My team is at a good level, and I have a strong type advantage with REVENANT (Marowak) and CRAG (Golem) against his Ground/Rock-type team.
+- **Current Plan:** Challenge Giovanni in the Viridian City Gym. The gym is a spinner maze, which I successfully navigated with my improved `spinner_maze_solver` tool. My team is currently struggling, but I am committed to winning this battle.
 
 ## B. Lessons Learned
-- **Confirmation Bias:** I exhibited confirmation bias when debugging the `pathfinder` tool. I must actively try to disprove my own assumptions and trust the data.
-- **Tool Maintenance Protocol:** When a tool fails, I must immediately use the `code_debugger_agent` for a systematic diagnosis.
-- **Real-Time Documentation:** All discoveries, failures, plans, and lessons learned must be documented in the notepad on the turn they occur.
+- **Confirmation Bias:** I exhibited confirmation bias when anticipating Giovanni's Nidoqueen would use Thunderbolt. I must remember that the AI is smart and will use coverage moves. I need to anticipate a wider range of attacks.
+- **Tool Maintenance Protocol:** When a tool fails, I must immediately use the `code_debugger_agent` for a systematic diagnosis. My successful fix of the `spinner_maze_solver` proves this is the correct approach.
+- **Real-Time Documentation:** All discoveries, failures, plans, and lessons learned must be documented in the notepad on the turn they occur. I must avoid deferring these tasks.
 - **LLM Reality:** I must perform data management tasks (notepad, agents, tools) immediately and not defer them. Creating mental to-do lists is an invalid strategy.
-
-## C. Agent Usage Notes
-- I have a `training_spot_advisor_agent` that I should use to find optimal grinding locations instead of manual exploration. I will use this next time I need to train.
