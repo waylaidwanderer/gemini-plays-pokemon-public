@@ -25,8 +25,9 @@
 *   **Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
-*   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT, LEDGE_HOP_LEFT, LEDGE_HOP_DOWN, FLOOR_UP_WALL (ledge, can only be entered by moving 'Up' from below)
-*   **Untested:** RADIO, INCENSE_BURNER, unknown (TeamRocketBaseB3F, traversable), unknown (MahoganyPokecenter1F), unknown (LakeOfRage), COMPUTER, BED, CABINET, SINK, PLANT, unknown (MountMortarB1F)
+*   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT, LEDGE_HOP_LEFT, LEDGE_HOP_DOWN
+*   **Conditional (Special):** FLOOR_UP_WALL (ledge, can only be entered by moving 'Up' from below, can be exited in other directions).
+*   **Untested:** RADIO, INCENSE_BURNER, unknown (TeamRocketBaseB3F, traversable), unknown (MahoganyPokecenter1F), unknown (LakeOfRage), COMPUTER, BED, CABINET, SINK, PLANT, unknown (MountMortarB1F), unknown (Route42)
 
 ### B. System Bugs & Glitches (Verified)
 *   **Item Management:**
@@ -87,45 +88,27 @@
 2.  **Rigorous Testing:** After any modification, a tool must be subjected to a battery of tests to confirm the fix and check for unintended side effects. A single successful use case is not sufficient proof of correctness.
 3.  **Iterative Refinement:** Assume that multiple, independent bugs may exist. If a tool fails after a fix, a new, unrelated bug is the most likely cause. The debugging process must be iterative and persistent.
 
-### B. Pathfinder Tool
-*   **FIXED (AGAIN):** The `pathfinder` tool has been updated to correctly handle one-way ledges (`LEDGE_HOP_...` and `FLOOR_UP_WALL` types) and water traversal (`can_surf` parameter). It is now considered reliable.
+### B. Pathfinder Tool (Benched)
+*   This tool has proven unreliable due to multiple, cascading bugs. It is benched until a full diagnostic and rewrite can be performed. Manual navigation is the current protocol.
 
-### C. Maze Solver Tool
-*   The `maze_solver` tool is now available to navigate the Team Rocket Base arrow tile maze. Manual mapping is no longer necessary.
-
-## VI. Future Development
-### A. Agent & Tool Concepts
-*   **Party Checker Tool:** A tool to check which Pokémon in my party are holding items. This would have prevented my recent inventory-solving failures.
+### C. Agent & Tool Concepts (New)
+*   **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness. This would have caught the multiple `pathfinder` bugs much faster.
 *   **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies. This could have helped me break out of the Mt. Mortar cycle much faster.
-*   **Dungeon Analyst Tool:** A tool that takes warp data from multiple floors as input to identify partitioned areas and suggest optimal routes through complex, multi-level dungeons.
+*   **Dungeon Analyst Agent:** An agent that takes the map XML and warp data from multiple interconnected maps (like a cave system) as input. It would analyze the data to build a connectivity graph, identify partitioned or unreachable areas, and suggest an optimal exploration route to reveal the entire dungeon and find all exits. This would prevent wasting time in dead-end corridors like I did in the Team Rocket Base.
 
-## VII. Hypotheses & Tests
+## VI. Hypotheses & Falsification Tests
+
 ### A. Mahogany Gym Blocker
 *   **Hypothesis:** The Fisher blocking the Mahogany Town Gym will move after I resolve the event with Lance at the Lake of Rage.
 *   **Falsification Test:** If, after completing the Lake of Rage event, the Fisher is still blocking the gym, this hypothesis is false. The trigger must be something else. At that point, I must abandon this line of thinking and begin a systematic search for new clues in Mahogany Town and its surrounding routes.
-*   **Fishing Guru (Lake of Rage):** Confirmed that "men wearing black" (Team Rocket) are causing the disturbance at the lake.
-*   **Special Warps:**
-    *   `WARP_CARPET_DOWN`: Activated by standing on the tile and pressing the 'Down' button. (Verified in Lake of Rage Magikarp House)
 
-## VIII. Side Quests & Rematches
+### B. Mt. Mortar Invisible Barrier
+*   **Hypothesis:** An invisible barrier blocks the entire northern one-way ledge on Mt. Mortar B1F.
+*   **Falsification Test:** If I find a way to the northern area from a different path and can successfully walk south over that same ledge, the hypothesis is false. The blockage is likely an event trigger I haven't met.
+
+### C. Route 42 Blockage
+*   **Hypothesis:** The only path from Mahogany Town to Ecruteak City is through Mt. Mortar.
+*   **Falsification Test:** After clearing inventory in Ecruteak, return to Route 42. Check if the Super Nerd at (47, 8) has moved or if there is an alternative way to access the northern water route. If another path exists, the hypothesis is false.
+
+## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
-
-### C. Tile Traversal Rules (Addendum)
-*   **Newly Encountered/Untested:** WATERFALL (Presumed impassable without HM).
-
-### D. Falsification Tests (New Section)
-*   **Mt. Mortar Route Hypothesis:**
-    *   **Hypothesis:** The only path from Mahogany Town to Ecruteak City is through Mt. Mortar.
-    *   **Falsification Test:** After clearing inventory in Ecruteak, return to Route 42. Check if the Super Nerd at (47, 8) has moved or if there is an alternative way to access the northern water route. If another path exists, the hypothesis is false.
-
-### B. Agent & Tool Concepts (Update)
-*   **Dungeon Analyst Agent (Detailed):** An agent that takes the map XML and warp data from multiple interconnected maps (like a cave system) as input. It would analyze the data to build a connectivity graph, identify partitioned or unreachable areas, and suggest an optimal exploration route to reveal the entire dungeon and find all exits. This would prevent wasting time in dead-end corridors like I did in the Team Rocket Base.
-
-## VIII. Future Development & Falsification
-### A. Agent & Tool Concepts (New)
-*   **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness. This would have caught the multiple `pathfinder` bugs much faster.
-
-### B. Falsification Tests (New Section)
-*   **Mt. Mortar Invisible Barrier Hypothesis:**
-    *   **Hypothesis:** An invisible barrier blocks the entire northern one-way ledge on Mt. Mortar B1F.
-    *   **Falsification Test:** If I find a way to the northern area from a different path and can successfully walk south over that same ledge, the hypothesis is false. The blockage is likely an event trigger I haven't met.
