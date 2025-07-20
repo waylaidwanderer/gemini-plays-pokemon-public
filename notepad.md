@@ -40,7 +40,7 @@
 - **Seafoam Islands B1F:** ZUBAT (Lv27) at (7, 11), KRABBY (Lv26) at (10, 14).
 - **Seafoam Islands B2F:** KINGLER (Lv38) at (12, 8), SLOWPOKE (Lv35) at (7, 9).
 - **Seafoam Islands B3F:** SEEL (Lv34) at (7, 5).
-- **Seafoam Islands B4F:** SEEL (Lv34) at (25, 5).
+- **Seafoam Islands B4F:** SEEL (Lv34) at (25, 5), ZUBAT (Lv36) at (16, 5).
 
 # III. Puzzles & Exploration
 
