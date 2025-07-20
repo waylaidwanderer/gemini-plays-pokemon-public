@@ -62,3 +62,7 @@
 - **Strategic Flexibility:** If a strategy is failing repeatedly, I must pivot to a different approach.
 - **Trust the Game State:** I must trust the game state information (e.g., 'navigable warps') over my own interpretations or tool outputs, as it is the absolute source of truth.
 - **LLM Reality:** Data management tasks (notepad, agents, tools) must be performed immediately and not deferred.
+
+# V. Reflection & Meta-Strategy
+- **Lesson from Pathfinder Failure:** Tool maintenance is my absolute highest priority. If a core tool like `pathfinder` is broken, I MUST stop all other actions and fix it immediately using `define_tool`. Deferring fixes is a critical failure.
+- **Untested Link:** I am currently assuming that solving the second boulder puzzle on the upper floors will stop the western current on B4F. This link is not yet proven and must be tested after the puzzle is solved.
