@@ -14,7 +14,7 @@
 - **Steps:** Allows vertical and horizontal movement between 'steps' and adjacent 'ground' or 'elevated_ground' tiles.
 - **Spinner (up, down, left, right):** Forces movement in a specific direction.
 - **Spinner Stop:** A tile that halts movement from a spinner.
-- **Elevated Ground:** Walkable ground at a different elevation. Movement between `elevated_ground` and `ground` is only possible via `steps`.
+- **Elevated Ground:** Walkable ground at a different elevation. Movement between `ground` and `elevated_ground` is only possible via `steps`.
 - **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close based on game events. `gate_offscreen` is treated as open for pathfinding.
 
 ## B. General Heuristics & Rules
@@ -39,12 +39,11 @@
 - **Seafoam Islands B3F Water Current (East):** The strong water current on B4F is disabled by pushing a single, isolated boulder at (20, 7) on B3F into a hole at (20, 6).
 
 ## B. Ongoing Puzzles & Investigations
-- **Seafoam Islands B4F Western Water Current:** The current at (8, 12) is too strong to SURF against. The boulder pushed on B2F did not affect it. The solution is unknown.
-- **Seafoam Islands B3F Main Boulder Puzzle:** The `boulder_puzzle_solver` tool confirmed this is unsolvable from the western platform, even with SURF capability. The purpose of this puzzle remains unknown.
+- **Seafoam Islands B4F Western Water Current:** The current at (8, 12) is too strong to SURF against. The solution is likely on an upper floor (B1F or B2F).
+- **NPC Kris (B4F):** The NPC Kris at (8, 3) on B4F has information relevant to progressing. (Currently inaccessible due to water current).
 
-## C. Untested Assumptions
-1. **SURF from 'steps' tile:** Assumption that SURF can be used while standing on a 'steps' tile. (Failed attempts from 'ground' tile).
-2. **NPC Kris provides a clue:** Assumption that the NPC Kris at (8, 3) on B4F has information relevant to progressing. (Currently attempting to reach her).
+## C. Confirmed Unsolvable / Dead Ends
+- **Seafoam Islands B3F Main Boulder Puzzle:** The `boulder_puzzle_solver` tool confirmed this is unsolvable from the western platform (turn #88200). The purpose of this puzzle remains unknown. It does not appear to affect the water currents.
 
 # IV. Tool Development & Strategy
 
