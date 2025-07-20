@@ -41,19 +41,17 @@
 ## A. Custom Tools & Agents
 - My agents (`battle_strategist_agent`, etc.) are for high-level reasoning.
 - My tools (`pathfinder`, etc.) are for complex computational tasks.
-- **Tool Development:** My `pathfinder` tool is now fixed. It correctly handles transitions from water to land, which was a major bug. It still cannot account for scripted barriers like the strong current, so manual exploration is sometimes needed.
+- **Tool Development:** My `pathfinder` tool is buggy. It incorrectly generates paths through impassable tiles. It still cannot account for scripted barriers like the strong current, so manual exploration is sometimes needed.
 - **Agent Usage Reminder:** I must use my `menu_navigator_agent` for all complex menu tasks to avoid manual errors.
-
-## B. Future Development Ideas
-- **Boulder Puzzle Solver Tool:** A tool to analyze map XML and provide step-by-step solutions for boulder puzzles.
+- **Future Development Ideas:** A tool to analyze map XML and provide step-by-step solutions for boulder puzzles.
 
 # IV. Puzzles & Lessons Learned
 
-## A. Seafoam Islands Puzzle (SOLVED)
-- **Summary:** The puzzle required pushing boulders on multiple floors (B1F, B2F, B3F) to block a strong current on B4F. The key mechanics were using water warps on B3F to access the central puzzle area and the ability to use Strength while Surfing. The eastern entrance was a dead end.
+## A. Seafoam Islands Puzzle
+- **Hypothesis 1 (Disproven):** The exit is on the eastern side of the cave. This was disproven when the path was blocked by a strong current on B4F.
+- **Hypothesis 2 (Active):** I need to solve a second boulder puzzle on the upper floors (B1F, B2F, B3F) to stop the western current on B4F.
 - **Untested Hypothesis:** The ladder at (26, 5) on B4F is the exit.
 
-## B. Fuchsia City Secret Pokémon (at (26, 7))
 ## B. Fuchsia City Secret Pokémon (at (26, 7))
 - **Observation:** An item ball at (26, 7) is in an enclosed area. A Youngster at (25, 9) states, "That item ball in there is really a POKéMON."
 
