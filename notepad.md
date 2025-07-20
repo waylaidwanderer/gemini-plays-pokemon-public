@@ -114,3 +114,5 @@
 *   Test traversability of RADIO and INCENSE_BURNER tiles.
 *   **Untested (TeamRocketBaseB3F):** COMPUTER, BED, CABINET, SINK, PLANT
 *   **Team Rocket Base B1F Secret Passage:** The 'door' at (10, 9) is a secret passage, not a locked door. It is opened by activating the Secret Switch at (19, 11).
+### D. Agent Concepts (New)
+*   **Dungeon Analyst:** An agent that takes warp data from multiple floors as input to identify partitioned areas and suggest optimal routes through complex, multi-level dungeons.
