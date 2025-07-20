@@ -44,7 +44,7 @@
 - **Tool Limitations:** My `pathfinder` tool cannot account for scripted environmental barriers (like the strong current in Seafoam Islands). For such puzzles, I must rely on manual exploration and hypothesis testing.
 
 ## B. Future Development Ideas
-- **Boulder Puzzle Solver Agent:** An agent to analyze map XML and provide step-by-step solutions for boulder puzzles.
+- **Boulder Puzzle Solver Tool:** A tool to analyze map XML and provide step-by-step solutions for boulder puzzles. (Critique noted this is a computational task, better for a tool than an agent).
 
 # IV. Puzzles & Hypotheses
 
@@ -52,7 +52,7 @@
 - **Observation:** The Seafoam Islands dungeon is split into non-contiguous eastern and western sections on each floor.
 - **Observation (B4F):** Attempting to use Surf from the steps at (8, 12) is blocked by the message 'The current is much too fast!'.
 - **Hypothesis 1:** The boulders on the floors must be pushed into holes to alter the current.
-- **Hypothesis 2:** The western boulder puzzle area is inaccessible from the eastern ladders. The correct path requires finding an alternate route from a higher floor.
+- **Hypothesis 2 (Confirmed):** The western boulder puzzle area is inaccessible from the eastern ladders. The correct path requires finding an alternate route from a higher floor.
 - **Test (Hypothesis: Surf from Elevated Ground):** Attempted to use Surf from `elevated_ground` tile at (8, 7) on B4F. **Result:** Failed. The game message 'No SURFing on [Pokemon] here!' appeared. **Conclusion:** Surfing is not possible from `elevated_ground`.
 - **Test (Hypothesis: Hidden Wall Passage on B4F):** Systematically attempted to walk through the western 'impassable' wall on the eastern B4F platform. **Result:** Failed. All tiles were impassable as marked. **Conclusion:** There is no hidden passage in that wall.
 
