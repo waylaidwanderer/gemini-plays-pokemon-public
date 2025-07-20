@@ -88,8 +88,9 @@
 2.  **Rigorous Testing:** After any modification, a tool must be subjected to a battery of tests to confirm the fix and check for unintended side effects. A single successful use case is not sufficient proof of correctness.
 3.  **Iterative Refinement:** Assume that multiple, independent bugs may exist. If a tool fails after a fix, a new, unrelated bug is the most likely cause. The debugging process must be iterative and persistent.
 
-### B. Pathfinder Tool (Benched)
-*   This tool has proven unreliable due to multiple, cascading bugs. It is benched until a full diagnostic and rewrite can be performed. Manual navigation is the current protocol.
+### B. Pathfinder Tool (Under Active Refinement)
+*   **Issue Identified (Turn 58350):** The tool incorrectly planned a path through an on-screen NPC at (51, 9) on Route 42. This indicates the `is_valid_and_traversable` function is not correctly identifying all objects as impassable.
+*   **Action Plan:** I will immediately refine the tool. The updated script will parse all `<Object>` coordinates from the map XML into a set and use this set to explicitly block pathing through any on-screen object, ensuring robust obstacle avoidance.
 
 ### C. Agent & Tool Concepts (New)
 *   **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness. This would have caught the multiple `pathfinder` bugs much faster.
