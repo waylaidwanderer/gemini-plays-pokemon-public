@@ -24,7 +24,7 @@
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT, LEDGE_HOP_LEFT, LEDGE_HOP_DOWN
-*   **Conditional (Special):** FLOOR_UP_WALL (ledge, can only be entered by moving 'Up' from below, can be exited in other directions).
+*   **Conditional (Special):** FLOOR_UP_WALL (ledge, can only be entered by moving 'Up' from the tile below it. It is impassable from above, left, and right, effectively a one-way 'up' ledge).
 *   **Untested:** RADIO, INCENSE_BURNER, unknown (TeamRocketBaseB2F), unknown (MahoganyPokecenter1F), unknown (LakeOfRage), COMPUTER, BED, CABINET, SINK, PLANT, unknown (MountMortarB1F)
 
 ### B. System Bugs & Glitches (Verified)
