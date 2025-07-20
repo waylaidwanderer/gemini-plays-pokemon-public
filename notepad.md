@@ -87,13 +87,16 @@
 2.  **Rigorous Testing:** After any modification, a tool must be subjected to a battery of tests to confirm the fix and check for unintended side effects. A single successful use case is not sufficient proof of correctness.
 3.  **Iterative Refinement:** Assume that multiple, independent bugs may exist. If a tool fails after a fix, a new, unrelated bug is the most likely cause. The debugging process must be iterative and persistent.
 
-### B. Pathfinder Tool (FUNCTIONAL)
-*   **Status:** The tool is working correctly. My repeated failures to trust its output were a major process violation.
+### B. Pathfinder Tool (UNDER REPAIR)
+*   **Status:** The tool is critically flawed. It has repeatedly generated invalid paths or failed to find obvious ones. It is currently unreliable and must be validated before further use.
 *   **Incident Log:**
+    *   **TeamRocketBaseB3F (Failure 1):** Generated a path through a solid WALL tile at (21, 15).
+    *   **TeamRocketBaseB3F (Failure 2):** Generated a path through a solid WALL tile at (18, 11).
+    *   **TeamRocketBaseB3F (Failure 3 & 4):** Returned 'No path found' for a simple, visually unobstructed path from (15, 12) to (10, 10). Debugging revealed a flawed A* implementation.
     *   **TeamRocketBaseB2F:** The tool correctly identified an impassable wall at Y=12 that I had failed to see.
-    *   **TeamRocketBaseB3F:** The tool correctly identified an impassable WALL tile at (15, 8). I spent multiple turns debugging a functional tool because my own visual assessment of the map was wrong.
-    *   **TeamRocketBaseB3F (Partitioned Map):** The tool's repeated failure to find a path between the eastern and western corridors confirmed that this floor is partitioned. My manual path tracing was flawed. The tool correctly identified that the sections are not connected on this floor.
-*   **Action Plan:** I must trust the output of my validated tools over my own intuition. The `tool_debugger_agent` was critical in diagnosing my own flawed perception, not a flaw in the tool.
+    *   **TeamRocketBaseB3F (Old):** The tool correctly identified an impassable WALL tile at (15, 8).
+    *   **TeamRocketBaseB3F (Partitioned Map - Old):** The tool's repeated failure to find a path between the eastern and western corridors confirmed that this floor is partitioned.
+*   **Action Plan:** The tool has undergone multiple debugging cycles. The latest fix addresses a core A* logic flaw. I MUST validate this fix with a simple path test before trusting it for any navigation.
 
 ### C. Future Automation & Development Queue
 1.  **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness.
