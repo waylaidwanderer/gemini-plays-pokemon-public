@@ -41,8 +41,6 @@
 ## B. Ongoing Puzzles & Investigations
 - **Seafoam Islands B4F Western Water Current:** The current at (8, 12) is too strong to SURF against. The solution is likely on an upper floor (B1F or B2F). **Hypothesis Failed:** Exploration of B1F and B2F revealed no solution. New hypothesis: The main boulder puzzle on B3F is the key.
 - **NPC Kris (B4F):** The NPC Kris at (8, 3) on B4F has information relevant to progressing. (Currently inaccessible due to water current).
-
-## C. Confirmed Unsolvable / Dead Ends
 - **Seafoam Islands B3F Main Boulder Puzzle:** The `boulder_puzzle_solver` tool confirmed this is unsolvable from the western platform (turn #88200). **Re-evaluating this conclusion.** It's possible the tool was flawed or the input was incorrect.
 
 # IV. Tool Development & Strategy
@@ -51,11 +49,7 @@
 - **Pathfinder Tool (Invalid Path - Elevated Ground):** The tool generated a path from `ground` to `elevated_ground`, which is an invalid move. The `is_traversable` function was updated to correctly restrict movement between `ground` and `elevated_ground` unless `steps` are used.
 - **Seafoam Islands B4F Western Water Current (Hypothesis #2 Failed):** Pushing the isolated boulder at (20, 7) on B3F into the hole at (20, 6) did NOT stop the western water current. New hypothesis: The NPC Kris at (8, 3) has the solution.
 - **Pathfinder Tool (Invalid Path - Water):** The tool generated a path from a `ground` tile directly into a `water` tile. This is an invalid move as it requires using Surf from the menu.
-  - **Debugging Plan:** The `is_traversable` function will be updated.
-  - **Fix:** Modify the logic to prevent any pathing from a land tile (`ground`, `grass`, etc.) directly to a `water` tile. The tool should only path between adjacent water tiles or from a water tile to an adjacent land tile. Land-to-water transitions must be handled as a separate, multi-step action (e.g., via a future agent) and should not be part of a simple path plan.
-
-## C. Critical Discoveries
-- **Surf Mechanic:** You cannot initiate Surf from an `elevated_ground` tile. You must be on a `ground`, `steps`, or `grass` tile adjacent to water.
+  - **Fix:** Modified the logic to prevent any pathing from a land tile (`ground`, `grass`, etc.) directly to a `water` tile. The tool should only path between adjacent water tiles or from a water tile to an adjacent land tile. Land-to-water transitions must be handled as a separate, multi-step action.
 
 ## B. Future Tool/Agent Ideas
 - **Cave Navigator Agent:** Could generate high-level, multi-floor navigation plans for complex dungeons.
@@ -65,7 +59,5 @@
 - **User Error vs. Tool Error:** When a tool appears to fail, first consider if the failure was due to user error (e.g., using an outdated path after an interruption) before assuming the tool itself is bugged. Verify the context before debugging.
 
 ## D. Navigational Insights
-- **Route 22 Layout:** This route is split by one-way ledges. The southern section, accessible from Viridian City, does not provide access to the northern section containing the main patch of tall grass. The northern section is likely only accessible after obtaining all 8 badges and passing through the Pokémon League Reception Gate.
-
-## D. Navigational Insights
-- **Route 22 Layout:** This route is split by one-way ledges. The southern section, accessible from Viridian City, does not provide access to the northern section containing the main patch of tall grass. The northern section is likely only accessible after obtaining all 8 badges and passing through the Pokémon League Reception Gate.
+- **Route 22 & 15 Layout:** These routes are split by one-way ledges. The southern sections do not provide access to the northern sections containing the main patches of tall grass. The northern sections are likely only accessible after obtaining all 8 badges and passing through the Pokémon League Reception Gate.
+- **Surf Mechanic:** You cannot initiate Surf from an `elevated_ground` tile. You must be on a `ground`, `steps`, or `grass` tile adjacent to water.
