@@ -113,3 +113,6 @@
 
 ## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
+
+### C. Team Rocket Base B1F Arrow Maze (Verified)
+*   (1, 4) -> Forces movement 'Up' to (1, 3).
