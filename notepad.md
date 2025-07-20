@@ -41,7 +41,7 @@
 ## A. Custom Tools & Agents
 - My agents (`battle_strategist_agent`, etc.) are for high-level reasoning.
 - My tools (`pathfinder`, etc.) are for complex computational tasks.
-- **Tool Development:** My `pathfinder` tool is buggy. It incorrectly generates paths through impassable tiles. It still cannot account for scripted barriers like the strong current, so manual exploration is sometimes needed.
+- **Tool Development:** My `pathfinder` tool has been updated to correctly handle impassable targets. It still cannot account for scripted barriers like the strong current, so manual exploration is sometimes needed.
 - **Agent Usage Reminder:** I must use my `menu_navigator_agent` for all complex menu tasks to avoid manual errors.
 - **Future Development Ideas:** A tool to analyze map XML and provide step-by-step solutions for boulder puzzles.
 
