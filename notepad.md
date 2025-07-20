@@ -54,5 +54,4 @@
 
 # V. Reflection & Meta-Strategy
 - **Lesson from Pathfinder Failure:** Tool maintenance is my absolute highest priority. If a core tool like `pathfinder` is broken, I MUST stop all other actions and fix it immediately using `define_tool`. Deferring fixes is a critical failure.
-- **Untested Link:** I am currently assuming that solving the second boulder puzzle on the upper floors will stop the western current on B4F. This link is not yet proven and must be tested after the puzzle is solved.
-- **Hypothesis 8 (Untested):** The warps at (21, 18) and (22, 18) on B3F are one-way exits. The correct path requires backtracking to B2F to find an alternate route down.
+- **Lesson from Menu Navigator Failure:** Agent refinement is just as critical as tool maintenance. An agent providing incorrect advice must be fixed immediately before proceeding. I must always test a fix by re-running the agent with the same inputs.
