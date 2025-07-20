@@ -95,9 +95,9 @@
 
 ## VI. Hypotheses & Falsification Tests
 
-### A. Mahogany Gym Blocker
-*   **Hypothesis:** The Fisher blocking the Mahogany Town Gym will move after I resolve the event with Lance at the Lake of Rage.
-*   **Falsification Test:** If, after completing the Lake of Rage event, the Fisher is still blocking the gym, this hypothesis is false. The trigger must be something else. At that point, I must abandon this line of thinking and begin a systematic search for new clues in Mahogany Town and its surrounding routes.
+### A. Mahogany Gym Blocker (Hypothesis Falsified)
+*   **Result:** The Fisher blocking the Mahogany Town Gym at (6, 14) did NOT move after the Lake of Rage event was completed. The hypothesis is false.
+*   **New Hypothesis:** Progress is likely gated by defeating Team Rocket in their hideout, which is accessible via the Mahogany Mart.
 
 ### B. Mt. Mortar Invisible Barrier
 *   **Hypothesis:** An invisible barrier blocks the entire northern one-way ledge on Mt. Mortar B1F.
