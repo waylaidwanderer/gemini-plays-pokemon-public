@@ -49,3 +49,4 @@
 
 ## A. Development Log
 - **Pathfinder Tool (Invalid Path - Elevated Ground):** The tool generated a path from `ground` to `elevated_ground`, which is an invalid move. The `is_traversable` function was updated to correctly restrict movement between `ground` and `elevated_ground` unless `steps` are used.
+- **Seafoam Islands B4F Western Water Current (Hypothesis #2 Failed):** Pushing the isolated boulder at (20, 7) on B3F into the hole at (20, 6) did NOT stop the western water current. New hypothesis: The NPC Kris at (8, 3) has the solution.
