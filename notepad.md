@@ -26,7 +26,7 @@
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
 *   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT, LEDGE_HOP_LEFT, LEDGE_HOP_DOWN
-*   **Untested:** RADIO, INCENSE_BURNER, FLOOR_UP_WALL, unknown (TeamRocketBaseB3F, traversable), unknown (MahoganyPokecenter1F)
+*   **Untested:** RADIO, INCENSE_BURNER, FLOOR_UP_WALL, unknown (TeamRocketBaseB3F, traversable), unknown (MahoganyPokecenter1F), unknown (LakeOfRage)
 
 ### B. System Bugs & Glitches (Verified)
 *   **Item Management:**
@@ -104,7 +104,3 @@
 ### C. Recent Failures (Self-Correction Log)
 *   **Goal Adherence (VIOLATION):** I failed to consult my notepad and traveled to the Lake of Rage and then south towards Mahogany Town, when my primary goal (delivering the RED SCALE) required me to travel north-east towards Route 30. This was a critical failure of strategic planning. **Correction:** I must ALWAYS consult my goals and documentation before planning a major travel route.
 *   **Immediate Action (VIOLATION):** I have repeatedly failed to perform data management tasks (like marking warps or fixing tools) in the same turn they are identified, deferring them to a later turn. **Correction:** All data management tasks are top priority and must be performed immediately.
-
-## VII. Future Development
-### B. Agent Concepts (New)
-*   **Interruption Handler Agent:** An agent to help decide the best course of action after a path is interrupted by an NPC or a wild battle. It would take the context of the interruption and the current goal to recommend re-pathing, fighting, or running.
