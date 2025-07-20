@@ -95,3 +95,11 @@
 
 ## C. Self-Correction & Lessons Learned
 - **Confirmation Bias (Boulder Puzzle):** I incorrectly assumed the B3F boulder puzzle could be solved with Strength alone. I repeated attempts from different land positions instead of questioning my fundamental hypothesis. The tool's repeated, correct failures forced me to reconsider. I must be more willing to challenge my core assumptions earlier in the problem-solving process.
+
+## B. Future Tool/Agent Ideas
+- **Advanced Pathfinder Tool:** Enhance the `pathfinder` to handle multi-stage navigation, including the use of HMs like Surf or Cut from the menu to transition between terrain types (e.g., land -> water).
+- **Cave Navigator Agent:** Could generate high-level, multi-floor navigation plans for complex dungeons.
+- **Puzzle Element Finder Tool:** Could parse map XML to automatically identify coordinates of puzzle elements like boulders and switches.
+
+## C. Self-Correction & Lessons Learned
+- **Confirmation Bias (Boulder Puzzle):** I incorrectly assumed the B3F boulder puzzle could be solved with Strength alone. I repeated attempts from different land positions instead of questioning my fundamental hypothesis. The tool's repeated, correct failures forced me to reconsider. I must be more willing to challenge my core assumptions earlier in the problem-solving process.
