@@ -42,11 +42,14 @@
 *   **Team Rocket Base B1F Secret Passage:** The 'door' at (10, 9) is opened by the Secret Switch at (19, 11).
 *   **Team Rocket Base B1F Hidden Revive (Unobtainable):** Item at (3, 11) is currently unobtainable, likely story-gated.
 *   **Team Rocket Base B2F Layout:** Northern and southern corridors are separate. Access to the north must be from a different warp on B1F.
+*   **Mahogany Town:** No shop exists. The mart is a Team Rocket front, and the Poké Center has no vendor. Travel to another city is required for inventory management.
+*   **Mahogany Town Story Lock:** FLY is disabled, forcing progression towards the Lake of Rage.
 
 ### B. Falsified Hypotheses & Dead Ends
 *   **Mahogany Gym Blocker:** The Fisher did NOT move after the Lake of Rage event. Hypothesis that Lance's presence was the trigger is false.
 *   **Secret Potion Location:** The hint for Cianwood City was incorrect; the Pharmacist runs a regular shop.
 *   **Team Rocket B2F Southern Corridor:** The ROCKET at (21, 14) has non-progressive dialogue, confirming this path is a dead end.
+*   **Pathfinder v2 Destination Tile Bug:** Once I reach the eastern shore, I will attempt to walk onto the tile at (42, 8) from an adjacent land tile like (42, 9) or (43, 8). If I can step on it, the hypothesis is false, and the bug is purely within the pathfinder's logic. If I cannot, the tile is indeed special.
 
 ### C. Passwords & Keys
 *   **Team Rocket Hideout (Boss's Room):** SLOWPOKETAIL (Confirmed), HAIL GIOVANNI (Confirmed), RATICATE TAIL (Unconfirmed).
@@ -96,14 +99,6 @@
 *   **Youngster Joey (Route 30):** Wants a rematch.
 *   **Camper Todd (Route 36):** Wants a rematch on Route 34.
 
-### F. Pathfinder v2 Destination Tile Bug
-*   **Hypothesis:** The `pathfinder_v2` tool fails to path to (42, 8) because the tile has a hidden property that makes it impassable from the water, despite being a 'FLOOR' type.
-*   **Falsification Test:** Once I reach the eastern shore, I will attempt to walk onto the tile at (42, 8) from an adjacent land tile like (42, 9) or (43, 8). If I can step on it, the hypothesis is false, and the bug is purely within the pathfinder's logic. If I cannot, the tile is indeed special.
-
-### F. Team Rocket B2F Southern Corridor (Hypothesis Falsified)
-*   **Result:** The ROCKET at (21, 14) did not request a password. His dialogue is a non-progressive loop, confirming this path is a dead end.
-*   **Conclusion:** The southern corridor of B2F is a dead end. The path forward must be found by returning to B1F and finding a different route.
-
 ## VIII. Future Development & Reminders
 
 ### A. Agent Ideas
@@ -118,8 +113,3 @@
     *   **Assumption:** Defeating Team Rocket in their hideout will make the Fisher blocking the gym move.
     *   **Alternative Hypothesis:** The Fisher's movement is tied to a different, unknown story event.
     *   **Test:** After clearing the hideout, immediately check the gym entrance. If the Fisher is still there, the assumption is false.
-
-### C. To-Do List
-*   Place a map marker on `MahoganyTown` at (15, 13) pointing to the Poké Center entrance.
-*   **Mahogany Town Shop:** Confirmed no shop exists in Mahogany Town. The mart is a front, and the Poké Center has no vendor. Must travel to another city to manage inventory.
-*   **Mahogany Town Story Lock:** Unable to use FLY out of Mahogany Town. The game is forcing progression towards the Lake of Rage event.
