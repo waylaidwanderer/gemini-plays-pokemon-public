@@ -52,7 +52,8 @@
 - **Hypothesis 2 (Disproven):** I can access the second boulder puzzle on B2F by traversing the eastern side of the cave. This was disproven when I arrived on the eastern platform of B2F and found it was isolated from the western side where the boulder is.
 - **Hypothesis 3 (Disproven):** The path to the second boulder puzzle requires me to find a way to cross from the eastern side of B1F to the western side of B1F. From there, I can take the western ladder down to B2F and access the puzzle. This was disproven when I arrived on the western platform of B2F and found it was isolated from the platform with the boulder.
 - **Hypothesis 4 (Disproven):** The path to the boulder puzzle on B2F is accessed by taking the western ladder at (6, 14) down to B3F, and then finding a new ladder that leads up to the correct, isolated platform on B2F. This was disproven by exploring all ladders on the western side of B1F and B2F.
-- **Hypothesis 5 (Active):** The path to the boulder puzzle on B2F is accessed by falling through the hole at (23, 7) on 1F.
+- **Hypothesis 5 (Disproven):** The path to the boulder puzzle on B2F is accessed by falling through the hole at (23, 7) on 1F. This leads to an isolated eastern platform on B2F, not the western one with the puzzle.
+- **Hypothesis 6 (Active):** The path to the western boulder puzzle involves navigating from the eastern platform of B2F, down the ladder at (26, 4) to B3F, and finding a new route from there.
 - **Untested Hypothesis:** The ladder at (26, 5) on B4F is the exit.
 
 ## B. Fuchsia City Secret Pokémon (at (26, 7))
