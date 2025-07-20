@@ -39,18 +39,13 @@
 - **Seafoam Islands B3F Water Current (East):** The strong water current on B4F is disabled by pushing a single, isolated boulder at (20, 7) on B3F into a hole at (20, 6).
 
 ## B. Ongoing Puzzles & Investigations
-- **Seafoam Islands B4F Western Water Current:** The current at (8, 12) is too strong to SURF against. The solution is likely on an upper floor (B1F or B2F).
+- **Seafoam Islands B4F Western Water Current:** The current at (8, 12) is too strong to SURF against. The solution is likely on an upper floor (B1F or B2F). **Hypothesis Failed:** Exploration of B1F and B2F revealed no solution. New hypothesis: The main boulder puzzle on B3F is the key.
 - **NPC Kris (B4F):** The NPC Kris at (8, 3) on B4F has information relevant to progressing. (Currently inaccessible due to water current).
 
 ## C. Confirmed Unsolvable / Dead Ends
-- **Seafoam Islands B3F Main Boulder Puzzle:** The `boulder_puzzle_solver` tool confirmed this is unsolvable from the western platform (turn #88200). The purpose of this puzzle remains unknown. It does not appear to affect the water currents.
+- **Seafoam Islands B3F Main Boulder Puzzle:** The `boulder_puzzle_solver` tool confirmed this is unsolvable from the western platform (turn #88200). **Re-evaluating this conclusion.** It's possible the tool was flawed or the input was incorrect.
 
 # IV. Tool Development & Strategy
 
 ## A. Development Log
-- **Pathfinder Tool (Invalid Path):** The tool generated multiple invalid paths that attempted to move through 'impassable' tiles. The root cause was flawed traversal logic in the `is_traversable` function that did not correctly account for all tile transition rules. The tool has been rewritten with more robust logic.
-- **Boulder Puzzle Solver (SURF Inability):** The tool was unable to account for SURF when pathfinding to boulders, leading to incorrect 'No solution found' results. The tool has been upgraded to include SURF logic in its internal pathfinder.
 - **Pathfinder Tool (Invalid Path - Elevated Ground):** The tool generated a path from `ground` to `elevated_ground`, which is an invalid move. The `is_traversable` function was updated to correctly restrict movement between `ground` and `elevated_ground` unless `steps` are used.
-
-## B. Brainstorming: New Agents
-- **Hypothesis Generator Agent:** An agent that takes a failed action and the current game state as input, and outputs a list of new, testable hypotheses to investigate. This could help structure problem-solving and avoid repetitive loops.
