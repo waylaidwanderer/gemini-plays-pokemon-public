@@ -52,9 +52,6 @@
 - **Hypothesis 7 (Confirmed):** The correct path to the western boulder puzzle on B3F is to take the ladder from B4F at (12, 8) up to the western elevated platform on B3F. From there, a long, winding path around the room's perimeter leads down to the ground level where the boulders are.
 - **Untested Hypothesis:** The ladder at (26, 5) on B4F is the exit.
 
-## B. Fuchsia City Secret Pokémon (at (26, 7))
-- **Observation:** An item ball at (26, 7) is in an enclosed area. A Youngster at (25, 9) states, "That item ball in there is really a POKéMON."
-
 ## C. Strategic Lessons
 - **Confirmation Bias:** I exhibited confirmation bias by assuming my initial pathing ideas were the only solution, instead of trusting game state data when it contradicted my tools. I must actively try to disprove my own hypotheses.
 - **Strategic Flexibility:** If a strategy is failing repeatedly, I must pivot to a different approach.
