@@ -61,3 +61,4 @@
 ## D. Navigational Insights
 - **Route 22 & 15 Layout:** These routes are split by one-way ledges. The southern sections do not provide access to the northern sections containing the main patches of tall grass. The northern sections are likely only accessible after obtaining all 8 badges and passing through the Pokémon League Reception Gate.
 - **Surf Mechanic:** You cannot initiate Surf from an `elevated_ground` tile. You must be on a `ground`, `steps`, or `grass` tile adjacent to water.
+- **Seafoam Islands Eastern Path (Hypothesis Failed):** The eastern entrances on Route 20 lead to an isolated, dead-end section of the cave. The path down from 1F -> B1F -> B2F -> B3F does not connect to the main western puzzle area. The true path forward must be through the western entrance on Route 20.
