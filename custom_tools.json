@@ -115,18 +115,34 @@
     },
     "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\n# --- Helper Functions ---\ndef parse_map_xml(xml_string):\n    root = ET.fromstring(xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    grid = [['' for _ in range(width)] for _ in range(height)]\n    boulders = []\n    player_pos = None\n\n    for y, row_elem in enumerate(root.findall('Row')):\n        for x, tile_elem in enumerate(row_elem.findall('Tile')):\n            grid[y][x] = tile_elem.attrib['type']\n            if tile_elem.find('Player') is not None:\n                player_pos = (x, y)\n            if tile_elem.find('Object[@id-name=\"BOULDER\"]') is not None:\n                boulders.append((x, y))\n    return grid, tuple(sorted(boulders)), player_pos, width, height\n\ndef is_valid_move(grid, x, y, width, height):\n    return 0 <= x < width and 0 <= y < height and grid[y][x] not in ['WALL', 'COUNTER', 'PC', 'MART_SHELF', 'ROCK_SMASH_BOULDER', 'TREE']\n\n# --- Main Solver Logic ---\n\n# Parse Inputs\nplayer_start_x = int(input_data['player_start_x']) - 1\nplayer_start_y = int(input_data['player_start_y']) - 1\nplayer_goal_x = int(input_data['player_goal_x']) - 1\nplayer_goal_y = int(input_data['player_goal_y']) - 1\n\n# Parse Map\ngrid, initial_boulders, _, width, height = parse_map_xml(map_xml_string)\n\n# BFS Initialization\ninitial_state = ((player_start_x, player_start_y), initial_boulders)\nqueue = deque([(initial_state, [])])\nvisited = {initial_state}\n\npath_found = False\n\nwhile queue:\n    (current_pos, current_boulders), path = queue.popleft()\n    px, py = current_pos\n\n    if (px, py) == (player_goal_x, player_goal_y):\n        print(f'{{\"status\": \"success\", \"path\": {path}}}')\n        path_found = True\n        break\n\n    for move, (dx, dy) in {'Up': (0, -1), 'Down': (0, 1), 'Left': (-1, 0), 'Right': (1, 0)}.items():\n        nx, ny = px + dx, py + dy\n\n        if not is_valid_move(grid, nx, ny, width, height):\n            continue\n\n        # Case 1: Move to an empty space\n        if (nx, ny) not in current_boulders:\n            new_state = ((nx, ny), current_boulders)\n            if new_state not in visited:\n                visited.add(new_state)\n                queue.append((new_state, path + [move]))\n            continue\n\n        # Case 2: Push a boulder\n        boulder_to_push = (nx, ny)\n        push_to_x, push_to_y = nx + dx, ny + dy\n\n        if is_valid_move(grid, push_to_x, push_to_y, width, height) and (push_to_x, push_to_y) not in current_boulders:\n            new_boulders = list(current_boulders)\n            new_boulders.remove(boulder_to_push)\n            new_boulders.append((push_to_x, push_to_y))\n            new_boulders_tuple = tuple(sorted(new_boulders))\n\n            # Player moves into the boulder's old spot\n            new_player_pos = (nx, ny)\n            new_state = (new_player_pos, new_boulders_tuple)\n\n            if new_state not in visited:\n                visited.add(new_state)\n                # The action is a 'Push' followed by the direction\n                queue.append((new_state, path + [f'Push {move}']))\n\nif not path_found:\n    print('{\"status\": \"failure\", \"reason\": \"No solution found\"}')"
   },
-  "map_debugger": {
-    "description": "A diagnostic tool that visualizes the internal grid used by pathfinding. It parses the map_xml_string and prints a text-based grid to the console, marking impassable tiles with 'X' and passable tiles with '.'. This helps debug pathfinding issues by revealing exactly which tiles the script considers obstacles.",
+  "dungeon_analyst": {
+    "description": "Analyzes the connectivity of interconnected maps (like a dungeon) using their XML data. It builds a graph of all warps to identify partitioned areas, dead ends, and suggests an optimal exploration route to uncover the entire dungeon.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "can_surf": {
-          "type": "boolean",
-          "default": false
+        "maps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "map_id": {
+                "type": "string"
+              },
+              "map_xml": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "map_id",
+              "map_xml"
+            ]
+          }
         }
       },
-      "required": []
+      "required": [
+        "maps"
+      ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\n\ndef parse_map_xml_for_debug(xml_string):\n    root = ET.fromstring(xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    grid_types = [['' for _ in range(width)] for _ in range(height)]\n    objects = []\n\n    for y, row_elem in enumerate(root.findall('Row')):\n        for x, tile_elem in enumerate(row_elem.findall('Tile')):\n            grid_types[y][x] = tile_elem.get('type')\n            if len(tile_elem) > 0:\n                objects.append((x, y))\n    return grid_types, objects, width, height\n\ndef is_impassable_for_debug(tile_type, pos, objects, can_surf):\n    if pos in objects:\n        return True\n    impassable_types = ['WALL', 'COUNTER', 'PC', 'BOOKSHELF', 'TV', 'ROCK', 'CUT_TREE', 'BOULDER']\n    if not can_surf:\n        impassable_types.append('WATER')\n    return tile_type in impassable_types\n\ncan_surf_arg = input_data.get('can_surf', 'false').lower() == 'true'\ngrid_data, object_data, map_width, map_height = parse_map_xml_for_debug(map_xml_string)\n\noutput_grid = []\nfor y in range(map_height):\n    row_str = ''\n    for x in range(map_width):\n        tile_type = grid_data[y][x]\n        if is_impassable_for_debug(tile_type, (x, y), object_data, can_surf_arg):\n            row_str += 'X'\n        else:\n            row_str += '.'\n    output_grid.append(row_str)\n\nfor row in output_grid:\n    print(row)"
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nmaps_data = json.loads(input_data['maps'])\ngraph = {}\nmap_names = {m['map_id']: ET.fromstring(m['map_xml']).get('name') for m in maps_data}\n\nfor map_info in maps_data:\n    map_id = map_info['map_id']\n    root = ET.fromstring(map_info['map_xml'])\n    if map_id not in graph:\n        graph[map_id] = []\n    for warp in root.findall('.//Warp'):\n        dest_map_id = warp.get('dest_map_id')\n        if dest_map_id:\n            graph[map_id].append(dest_map_id)\n\n# Basic analysis for now, will be improved\nstart_map = maps_data[0]['map_id']\nqueue = [start_map]\nvisited = {start_map}\nexploration_route = [map_names[start_map]]\n\nwhile queue:\n    current_map = queue.pop(0)\n    for neighbor in graph.get(current_map, []):\n        if neighbor not in visited:\n            visited.add(neighbor)\n            queue.append(neighbor)\n            exploration_route.append(map_names[neighbor])\n\nall_maps = set(map_names.keys())\nunreachable = all_maps - visited\n\nanalysis = f\"Reachable maps: {[map_names[m] for m in visited]}. \"\nif unreachable:\n    analysis += f\"Unreachable maps: {[map_names[m] for m in unreachable]}.\"\nelse:\n    analysis += \"All maps are connected.\"\n\nprint(json.dumps({'connectivity_analysis': analysis, 'optimal_exploration_route': exploration_route}))"
   }
 }
