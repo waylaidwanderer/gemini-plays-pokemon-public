@@ -123,3 +123,4 @@
 *   **Falsification Test:** The grunt's dialogue ('Who knows? Go look for yourself.') suggests the boss might be hidden elsewhere. If no switch or key is found to open this door, the alternative hypothesis is that the boss is located on a different floor or in a less obvious room. A full re-exploration of all other paths would be required to test this.
 ### E. Team Rocket B1F Arrow Maze
 *   (1, 4) -> Forces movement UP to (1, 3).
+*   (1, 3) -> Normal floor tile (tested Left and Right).
