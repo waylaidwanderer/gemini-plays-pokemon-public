@@ -50,7 +50,9 @@
 ## A. Development Log
 - **Pathfinder Tool (Invalid Path - Elevated Ground):** The tool generated a path from `ground` to `elevated_ground`, which is an invalid move. The `is_traversable` function was updated to correctly restrict movement between `ground` and `elevated_ground` unless `steps` are used.
 - **Seafoam Islands B4F Western Water Current (Hypothesis #2 Failed):** Pushing the isolated boulder at (20, 7) on B3F into the hole at (20, 6) did NOT stop the western water current. New hypothesis: The NPC Kris at (8, 3) has the solution.
-- **Pathfinder Tool (Invalid Path - Water):** The tool generated a path from a `ground` tile directly into a `water` tile without initiating Surf. The `is_traversable` function needs to be updated to prevent this.
+- **Pathfinder Tool (Invalid Path - Water):** The tool generated a path from a `ground` tile directly into a `water` tile. This is an invalid move as it requires using Surf from the menu.
+  - **Debugging Plan:** The `is_traversable` function will be updated.
+  - **Fix:** Modify the logic to prevent any pathing from a land tile (`ground`, `grass`, etc.) directly to a `water` tile. The tool should only path between adjacent water tiles or from a water tile to an adjacent land tile. Land-to-water transitions must be handled as a separate, multi-step action (e.g., via a future agent) and should not be part of a simple path plan.
 
 ## C. Critical Discoveries
 - **Surf Mechanic:** You cannot initiate Surf from an `elevated_ground` tile. You must be on a `ground`, `steps`, or `grass` tile adjacent to water.
