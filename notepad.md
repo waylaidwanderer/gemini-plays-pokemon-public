@@ -88,10 +88,12 @@
 2.  **Rigorous Testing:** After any modification, a tool must be subjected to a battery of tests to confirm the fix and check for unintended side effects. A single successful use case is not sufficient proof of correctness.
 3.  **Iterative Refinement:** Assume that multiple, independent bugs may exist. If a tool fails after a fix, a new, unrelated bug is the most likely cause. The debugging process must be iterative and persistent.
 
-### B. Pathfinder Tool (Under Reconstruction)
-*   **Status:** The original `pathfinder` tool was retired due to critical, unresolvable flaws. A new version, `pathfinder_v2`, is being developed to provide reliable A* pathfinding.
-*   **CRITICAL FAILURE (Turn 59436):** The tool is now ignoring on-screen WALL tiles, generating paths that lead directly into them. It is completely unreliable and cannot be used.
-*   **Action Plan:** Abandon tool use for this route. Proceed with manual navigation.
+### B. Pathfinder v3 Tool (Under Review)
+*   **Status:** The `pathfinder_v3` tool is the current A* pathfinding implementation.
+*   **CRITICAL FAILURE (Turn 59519):** The tool failed to find a path from (55, 9) to (60, 10) on Route 42. It returned `null`.
+*   **Root Cause Analysis:** The tool does not understand conditional traversal tiles like `FLOOR_UP_WALL`. It likely treats it as a standard traversable tile, but the game engine blocks downward movement. This leads the algorithm to fail when it cannot find a valid path.
+*   **Immediate Action Plan:** The tool is unreliable and will not be used until fixed. Navigation will be performed manually.
+*   **Long-Term Fix:** The pathfinding algorithm needs to be updated to incorporate directional traversal rules. As a temporary fix, `FLOOR_UP_WALL` and other one-way tiles will be added to the `impassable_types` list to prevent invalid path generation, even though this will block valid paths in the opposite direction.
 
 ### C. Tool Debugger Agent (Under Review)
 *   **Status:** The agent has repeatedly failed to identify the root cause of the pathfinder's bugs. It requires review and potential redesign.
