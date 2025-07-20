@@ -40,7 +40,7 @@
 
 ### A. Active Quests & Blockers
 *   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. Hypothesis: I must find and speak to Lance at the Lake of Rage to progress the story.
-*   **Team Rocket Hideout:** Find the boss and use the passwords to disrupt their radio signal operation. The entrance is a secret stairway in the Mahogany Mart, revealed by interacting with the Pharmacist. The entrance is a secret stairway in the Mahogany Mart, revealed by interacting with the Pharmacist.
+*   **Team Rocket Hideout:** Find the boss and use the passwords to disrupt their radio signal operation. The entrance is a secret stairway in the Mahogany Mart, revealed by interacting with the Pharmacist. The northern and southern corridors are separated by a wall and are not connected on this floor. Access to the northern section must be from a different warp on B1F. The entrance is a secret stairway in the Mahogany Mart, revealed by interacting with the Pharmacist.
 *   **RED SCALE Investigation:** Mr. Pokémon is the primary person of interest.
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
 
