@@ -141,3 +141,7 @@
 
 ### C. Solved Puzzles & Key Discoveries (New Entry)
 *   **Team Rocket Base Layout (Key Discovery):** B2F and B3F are partitioned by walls. The eastern and western corridors are not connected on these floors. Access to the western sections must be from a different warp on B1F.
+
+## VIII. Methodology Corrections (Post-Critique)
+*   **Trust My Tools (Non-Negotiable):** The `pathfinder` and `map_debugger` tools have repeatedly proven correct, while my own visual assessment has been flawed. The output of a validated computational tool is an extension of the game's ground truth. It MUST be trusted over my own intuition, ALWAYS. If a tool says a path is blocked, it is BLOCKED. My first action upon receiving such an output will be to accept it as fact and re-evaluate my strategic approach, not to assume the tool is broken.
+*   **Goal Flexibility (Mandatory Pivot):** I have demonstrated a tendency toward goal fixation, particularly in exploring areas confirmed to be dead ends. If a primary goal is demonstrably blocked after 3-5 distinct, documented hypotheses fail, I MUST pivot to a secondary or exploratory goal. Progress must be maintained.
