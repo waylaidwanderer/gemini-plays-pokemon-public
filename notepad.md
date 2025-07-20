@@ -55,7 +55,3 @@
 ## F. Ongoing Development Issues
 *This section is for puzzles that remain unsolved.*
 - **Strong Current:** Acts as an event-based impassable tile. Cannot be entered with SURF even from an adjacent tile.
-
-## F. Future Development Ideas
-- **Puzzle Identifier Tool:** Create a tool that parses the `map_xml_string` to automatically identify puzzles (like boulder/switch combos or spinner mazes) and output their key coordinates. This would streamline using solver tools.
-- **Tool Debug Assistant Agent:** An agent that takes a traceback and failing code to suggest specific, granular debugging steps, like where to insert print statements.
