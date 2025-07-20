@@ -102,7 +102,7 @@
 4.  **Battle Advisor:** An agent to suggest moves based on known opponent rosters.
 5.  **Area Scanner:** A computational tool that takes start/end coordinates for a rectangle and systematically moves through it, reporting back any tiles that cause forced movement (e.g., arrow tiles).
 6.  **Pathfinder Refinement:** Investigate and refine the `pathfinder` tool's logic to improve pathing efficiency (see turn 59073).
-6.  **Pathfinder Refinement:** Investigate and refine the `pathfinder` tool's logic to improve pathing efficiency (see turn 59073).
+7.  **Maze Explorer:** A tool to automate the systematic, one-tile-at-a-time exploration of invisible trap mazes, taking known hazards into account.
 
 ## VI. Hypotheses & Falsification Tests
 
@@ -120,14 +120,8 @@
 
 ### D. Team Rocket B1F Maze Progression
 *   **Current State:** The dialogue from the Grunt at (2, 4) confirms the existence of invisible 'traps'. My systematic exploration has revealed that these are not forced-movement arrow tiles, but likely one-way pitfall warps.
-*   **Evolving Hypothesis:** The traps are floor tiles that warp the player to B2F, but only when entered from specific directions.
-*   **Verified Behavior (Current Turn):**
-    *   Moving DOWN onto tile (2, 13) from (2, 12) does NOT trigger a warp. This falsifies my previous assumption that this was a guaranteed pitfall.
-*   **Revised Plan:**
-    1. For each tile in the maze area, I must test entry from all four cardinal directions (North, South, East, West) to confirm the trigger conditions.
-    2. I will move to an adjacent tile, then move back onto the test tile.
-    3. I will record the outcome (warp or no warp) for each directional entry.
-*   **Current Test:** I am at (2, 13). I have confirmed entry from the North is safe. I will now test entry from the East by moving to (3, 13) and then moving Left back to (2, 13).
+*   **Current Progress:** I have confirmed pitfalls at (2, 13) and (3, 13). I have successfully navigated south along the western wall to (1, 14).
+*   **Current Plan:** Continue systematic, one-tile-at-a-time exploration south and east from my current position at (1, 14) to find a safe path to the ladder at (3, 14).
 
 ## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
