@@ -103,3 +103,21 @@
 ### F. Team Rocket B2F Southern Corridor (Hypothesis Falsified)
 *   **Result:** The ROCKET at (21, 14) did not request a password. His dialogue is a non-progressive loop, confirming this path is a dead end.
 *   **Conclusion:** The southern corridor of B2F is a dead end. The path forward must be found by returning to B1F and finding a different route.
+
+## VIII. Future Development & Reminders
+
+### A. Agent Ideas
+*   **Party vs. Gym Leader Analyst:** An agent that takes my current party and a gym leader's known Pokémon and suggests the optimal lead and battle strategy.
+
+### B. Untested Assumptions & Falsification Tests
+*   **Mahogany Town Shop:**
+    *   **Assumption:** There is a Poké Mart or vendor in Mahogany Town.
+    *   **Alternative Hypothesis:** There is no shop. The game might require traveling to another town to manage inventory.
+    *   **Test:** If talking to all NPCs in the Poké Center yields no shop, I will fly to another city to sell items.
+*   **Mahogany Gym Blocker:**
+    *   **Assumption:** Defeating Team Rocket in their hideout will make the Fisher blocking the gym move.
+    *   **Alternative Hypothesis:** The Fisher's movement is tied to a different, unknown story event.
+    *   **Test:** After clearing the hideout, immediately check the gym entrance. If the Fisher is still there, the assumption is false.
+
+### C. To-Do List
+*   Place a map marker on `MahoganyTown` at (15, 13) pointing to the Poké Center entrance.
