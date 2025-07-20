@@ -64,3 +64,6 @@
 - **Surf Mechanic:** You cannot initiate Surf from an `elevated_ground` tile. You must be on a `ground`, `steps`, or `grass` tile adjacent to water.
 - **Seafoam Islands Eastern Path (Conclusion):** The eastern entrances on Route 20 lead to an isolated, dead-end section of the cave. The path down from 1F -> B1F -> B2F -> B3F does not connect to the main western puzzle area.
 - **Seafoam Islands B3F Connection:** The eastern and western sections of B3F are connected via a water path. The steps at (24, 10) lead to the water, allowing access to the warps at (21, 18) and (22, 18) which lead to the central puzzle area.
+
+## C. Self-Correction & Lessons Learned
+- **Overwatch Critique (Tool Refinement):** Received a critical critique for not immediately fixing the `boulder_puzzle_solver` tool after it failed. Core directive is to prioritize tool maintenance. **Plan:** Exit Seafoam Islands to a safe location (e.g., Pokémon Center), then immediately dedicate turns to debugging and fixing the tool's `player_a_star` logic. This is now the highest priority task once I am out of this high-encounter area.
