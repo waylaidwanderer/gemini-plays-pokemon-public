@@ -109,3 +109,14 @@
 
 ## VIII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
+
+### C. Tile Traversal Rules (Addendum)
+*   **Newly Encountered/Untested:** WATERFALL (Presumed impassable without HM).
+
+### D. Falsification Tests (New Section)
+*   **Mt. Mortar Route Hypothesis:**
+    *   **Hypothesis:** The only path from Mahogany Town to Ecruteak City is through Mt. Mortar.
+    *   **Falsification Test:** After clearing inventory in Ecruteak, return to Route 42. Check if the Super Nerd at (47, 8) has moved or if there is an alternative way to access the northern water route. If another path exists, the hypothesis is false.
+
+### B. Agent & Tool Concepts (Update)
+*   **Dungeon Analyst Agent (Detailed):** An agent that takes the map XML and warp data from multiple interconnected maps (like a cave system) as input. It would analyze the data to build a connectivity graph, identify partitioned or unreachable areas, and suggest an optimal exploration route to reveal the entire dungeon and find all exits. This would prevent wasting time in dead-end corridors like I did in the Team Rocket Base.
