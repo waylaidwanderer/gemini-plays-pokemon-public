@@ -69,3 +69,6 @@
 - **Strategic Flexibility:** I got stuck in a loop of trying to fix my `pathfinder` tool. If a strategy is failing repeatedly, I must pivot to a different approach, such as manual navigation or testing a new hypothesis, to maintain progress.
 - **Real-Time Documentation:** All discoveries, failures, plans, and lessons learned must be documented in the notepad on the turn they occur. I must avoid deferring these tasks.
 - **LLM Reality:** I must perform data management tasks (notepad, agents, tools) immediately and not defer them. Creating mental to-do lists is an invalid strategy.
+## C. Seafoam Islands Strong Current
+- **Observation:** Attempting to use Surf from the steps at (8, 12) on B4F is blocked by the message 'The current is much too fast!'.
+- **Hypothesis:** The boulders on this floor must be pushed into the water to alter the current and allow passage.
