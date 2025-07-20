@@ -67,44 +67,37 @@
 
 ## V. Automation & Tool Development
 
-### A. Tool Refinement Methodology
-1.  **Immediate Action:** Any identified bug, flaw, or opportunity for improvement in a tool or agent MUST be addressed in the *immediate* turn. This task takes absolute precedence over any gameplay action.
-2.  **Rigorous Testing:** After any modification, a tool must be subjected to a battery of tests to confirm the fix and check for unintended side effects. A single successful use case is not sufficient proof of correctness.
-3.  **Iterative Refinement:** Assume that multiple, independent bugs may exist. If a tool fails after a fix, a new, unrelated bug is the most likely cause. The debugging process must be iterative and persistent.
+### A. Tool Refinement Log & Status
+*   **Pathfinder v3 Tool (Under Active Debugging):** Critical bug identified where it fails to calculate paths involving one-way tiles (ledges). This is the highest priority bug to fix.
+*   **Contingency:** While `pathfinder_v3` is being fixed, use `manual_path_planner` for simple routes and `maze_solver` for complex mazes.
 
-### B. Pathfinder v3 Tool (Under Active Debugging)
-*   **Status:** Critical bug identified. The tool fails to correctly calculate paths involving one-way tiles (ledges). This is the highest priority bug to fix.
-*   **Action Plan:**
-    1. Refine the `tool_debugger_agent` to improve its analytical capabilities.
-    2. Use the improved agent to diagnose the root cause of the pathing failure.
-    3. Implement the corrected script and perform rigorous testing.
-*   **Contingency:** While `pathfinder_v3` is being fixed, navigation will be handled by the `manual_path_planner` tool for simple routes and the `maze_solver` tool for complex mazes. Manual pathing is a last resort.
+### B. Agent Development Log & Status
+*   **Tool Debugger Agent (Under Review):** Has repeatedly failed to identify the root cause of the pathfinder's bugs. Requires review and potential redesign.
 
-### C. Tool Debugger Agent (Under Review)
-*   **Status:** The agent has repeatedly failed to identify the root cause of the pathfinder's bugs. It requires review and potential redesign.
+## VI. Open Hypotheses & Tests
 
-## VI. Hypotheses & Falsification Tests
-
-### A. Mahogany Gym Blocker (Hypothesis Falsified)
-*   **Result:** The Fisher blocking the Mahogany Town Gym at (6, 14) did NOT move after the Lake of Rage event was completed. The hypothesis is false.
-*   **New Hypothesis:** Progress is likely gated by defeating Team Rocket in their hideout, which is accessible via the Mahogany Mart.
+### A. Mahogany Gym Blocker
+*   **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
 
 ### B. Mt. Mortar Invisible Barrier
-*   **Hypothesis:** An invisible barrier blocks the entire northern one-way ledge on Mt. Mortar B1F.
-*   **Falsification Test:** If I find a way to the northern area from a different path and can successfully walk south over that same ledge, the hypothesis is false. The blockage is likely an event trigger I haven't met.
+*   **Hypothesis:** An invisible barrier blocks the northern one-way ledge on Mt. Mortar B1F.
+*   **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
 
 ### C. Route 42 Blockage
 *   **Hypothesis:** The only path from Mahogany Town to Ecruteak City is through Mt. Mortar.
-*   **Falsification Test:** After clearing inventory in Ecruteak, return to Route 42. Check if the Super Nerd at (47, 8) has moved or if there is an alternative way to access the northern water route. If another path exists, the hypothesis is false.
+*   **Falsification Test:** Return to Route 42 after clearing inventory. Check if the Super Nerd at (47, 8) has moved or if an alternate path exists.
 
 ### D. Team Rocket B1F Maze Progression
-*   **Current State:** The dialogue from the Grunt at (2, 4) confirms the existence of invisible 'traps'. My systematic exploration has revealed that these are not forced-movement arrow tiles, but likely one-way pitfall warps.
-*   **Current Progress:** I have confirmed pitfalls at (2, 13) and (3, 13). I have successfully navigated south along the western wall to (1, 14).
-*   **Current Plan:** Continue systematic, one-tile-at-a-time exploration south and east from my current position at (1, 14) to find a safe path to the ladder at (3, 14).
+*   **Hypothesis:** The 'traps' are one-way pitfall warps.
+*   **Current Plan:** Continue systematic exploration south and east from (1, 14) to find a safe path to the ladder at (3, 14).
 
 ### E. Team Rocket Boss Location
-*   **Hypothesis:** The Team Rocket boss is located behind the locked door at (10, 9) on B3F.
-*   **Falsification Test:** If, after reaching the door, there is no password prompt, no visible switch, and no interaction possible, this hypothesis is false. The path forward must be on a different floor or via a hidden passage I have missed. My next step would be a full, systematic re-exploration of B1F and B2F.
+*   **Hypothesis:** The boss is behind the locked door at (10, 9) on B3F.
+*   **Falsification Test:** If no password prompt or interaction is possible at the door, the path is elsewhere. Next step: full re-exploration of B1F/B2F.
+
+### F. Pathfinder v2 Destination Tile Bug
+*   **Hypothesis:** The tile at (42, 8) on Route 42 is impassable from the water due to a hidden property.
+*   **Falsification Test:** Attempt to walk onto the tile from an adjacent land tile. If successful, the bug is in the pathfinder's logic.
 
 ## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
