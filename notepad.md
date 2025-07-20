@@ -141,3 +141,6 @@
 1. **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness. This would have caught the multiple `pathfinder` bugs much faster.
 2. **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies. This could have helped me break out of the Mt. Mortar cycle much faster.
 3. **Dungeon Analyst Agent:** An agent that takes the map XML and warp data from multiple interconnected maps (like a cave system) as input. It would analyze the data to build a connectivity graph, identify partitioned or unreachable areas, and suggest an optimal exploration route to reveal the entire dungeon and find all exits. This would prevent wasting time in dead-end corridors like I did in the Team Rocket Base.
+
+### C. Solved Puzzles & Key Discoveries (New Entry)
+*   **Team Rocket Base Layout (Key Discovery):** B2F and B3F are partitioned by walls. The eastern and western corridors are not connected on these floors. Access to the western sections must be from a different warp on B1F.
