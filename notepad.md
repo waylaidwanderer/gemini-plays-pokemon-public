@@ -36,14 +36,10 @@
 # III. Puzzles & Exploration
 
 ## A. Solved Puzzles
-- **Seafoam Islands B3F Water Current:** The strong water current on B3F is disabled by solving a boulder puzzle on the western side of B3F.
+- **Seafoam Islands B3F Water Current:** The strong water current on B4F is disabled by pushing a single, isolated boulder at (20, 7) on B3F into a hole at (20, 6). This was discovered after 5 failed attempts to use the `boulder_puzzle_solver` tool on the main cluster of boulders, proving the tool was insufficient and direct observation was required.
 
 ## B. Failed Puzzle Attempts
-- **Seafoam Islands B3F Boulder Puzzle (Attempt 1):**
-  - **Hypothesis:** The `boulder_puzzle_solver` tool can find a solution from the player's current position (6, 13).
-  - **Test:** Ran the tool with boulder and hole coordinates.
-  - **Result:** The tool returned "No solution found."
-  - **Conclusion:** Hypothesis denied. The player cannot reach the boulders from the elevated platform at (6, 13). The tool failed because it doesn't account for map elevation and reachability. I must find another path to the ground level where the boulders are located. The likely path is the ladder down to B4F at (9, 7).
+*This section is for puzzles that remain unsolved.*
 
 ## C. Future Development Ideas
 - **Puzzle Identifier Tool:** Create a tool that parses the `map_xml_string` to automatically identify puzzles (like boulder/switch combos or spinner mazes) and output their key coordinates. This would streamline using solver tools. (Correction: This must be a tool, not an agent, because it involves parsing raw XML data, which is a computational task.)
