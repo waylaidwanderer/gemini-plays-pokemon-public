@@ -66,3 +66,6 @@
 
 ## D. Navigational Insights
 - **Route 22 Layout:** This route is split by one-way ledges. The southern section, accessible from Viridian City, does not provide access to the northern section containing the main patch of tall grass. The northern section is likely only accessible after obtaining all 8 badges and passing through the Pokémon League Reception Gate.
+
+## D. Navigational Insights
+- **Route 22 Layout:** This route is split by one-way ledges. The southern section, accessible from Viridian City, does not provide access to the northern section containing the main patch of tall grass. The northern section is likely only accessible after obtaining all 8 badges and passing through the Pokémon League Reception Gate.
