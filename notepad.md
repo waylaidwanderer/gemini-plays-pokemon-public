@@ -37,7 +37,7 @@
 
 ### A. Active Quests & Blockers
 *   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. Hypothesis: I must find and speak to Lance at the Lake of Rage to progress the story.
-*   **Team Rocket Hideout:** Find the boss and use the passwords to disrupt their radio signal operation. The entrance is a secret stairway in the Mahogany Mart, revealed by interacting with the Pharmacist. The northern and southern corridors are separated by a wall and are not connected on this floor. Access to the northern section must be from a different warp on B1F. The entrance is a secret stairway in the Mahogany Mart, revealed by interacting with the Pharmacist.
+*   **Team Rocket Hideout:** Find the boss and use the passwords to disrupt their radio signal operation. The entrance is a secret stairway in the Mahogany Mart, revealed by interacting with the Pharmacist.
 *   **RED SCALE Investigation:** Mr. Pokémon is the primary person of interest.
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
 
@@ -113,10 +113,6 @@
 
 ## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
-
-## VIII. Methodology Corrections (Post-Critique)
-*   **Trust My Tools (Non-Negotiable):** The `pathfinder` and `map_debugger` tools have repeatedly proven correct, while my own visual assessment has been flawed. The output of a validated computational tool is an extension of the game's ground truth. It MUST be trusted over my own intuition, ALWAYS. If a tool says a path is blocked, it is BLOCKED. My first action upon receiving such an output will be to accept it as fact and re-evaluate my strategic approach, not to assume the tool is broken.
-*   **Goal Flexibility (Mandatory Pivot):** I have demonstrated a tendency toward goal fixation, particularly in exploring areas confirmed to be dead ends. If a primary goal is demonstrably blocked after 3-5 distinct, documented hypotheses fail, I MUST pivot to a secondary or exploratory goal. Progress must be maintained.
 
 ### D. Team Rocket Boss Location
 *   **Hypothesis:** The boss is behind the locked door at (14, 12) and (15, 12) on B2F.
