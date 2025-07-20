@@ -14,6 +14,7 @@
 ### B. Core Directive Adherence (Self-Correction Log)
 *   **Tool Distrust (CRITICAL VIOLATION):** I have repeatedly refused to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. This was a critical failure of my scientific method and resulted in dozens of wasted turns. **Correction:** This behavior is unacceptable and will not be repeated. From now on, validated tool output is ground truth.
 *   **Goal Fixation (VIOLATION):** I remained fixated on exploring the partitioned eastern loop for too long, despite overwhelming evidence it was a dead end. **Correction:** If a primary goal is demonstrably blocked after 3-5 distinct, documented hypotheses fail, I MUST pivot to a secondary or exploratory goal. Progress must be maintained.
+*   **Deferred Documentation (VIOLATION):** I failed to immediately update my notepad's incident log after each of the `pathfinder` tool's catastrophic failures. This is a critical process violation. **Correction:** All tool failures must be documented immediately to maintain an accurate internal state.
 
 ## II. Game Mechanics & Systems
 
@@ -99,11 +100,12 @@
 *   **Status:** The agent has repeatedly failed to identify the root cause of the pathfinder's bugs, providing multiple incorrect 'fixes'. It is currently unreliable for debugging complex code.
 
 ### D. Future Automation & Development Queue
-1.  **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness.
-2.  **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies.
-3.  **Exploration Tool:** A tool to auto-path to unseen tiles.
-4.  **Battle Advisor:** An agent to suggest moves based on known opponent rosters.
-5.  **Area Scanner:** A computational tool that takes start/end coordinates for a rectangle and systematically moves through it, reporting back any tiles that cause forced movement (e.g., arrow tiles).
+1.  **Debugging Orchestrator Agent:** An agent that can manage the entire debugging loop: take a failing tool and a test case, use the debugger agent to get a fix, apply the fix, and re-test, reporting the final outcome. This would automate the tedious process I just went through.
+2.  **Systematic Debugger Agent:** A more advanced version of the current debugger agent with a more structured prompt, forcing it to check for common error classes in a specific order (e.g., syntax, data parsing, logical fallacies) to avoid getting stuck on surface-level fixes.
+3.  **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness.
+4.  **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies.
+5.  **Exploration Tool:** A tool to auto-path to unseen tiles.
+6.  **Battle Advisor:** An agent to suggest moves based on known opponent rosters.
 
 ## VI. Hypotheses & Falsification Tests
 
@@ -123,6 +125,10 @@
 *   **Current State:** The dialogue from the Grunt at (2, 4) confirms the existence of invisible 'traps'. My systematic exploration has revealed that these are not forced-movement arrow tiles, but likely one-way pitfall warps.
 *   **Current Progress:** I have confirmed pitfalls at (2, 13) and (3, 13). I have successfully navigated south along the western wall to (1, 14).
 *   **Current Plan:** Continue systematic, one-tile-at-a-time exploration south and east from my current position at (1, 14) to find a safe path to the ladder at (3, 14).
+
+### E. Team Rocket Boss Location
+*   **Hypothesis:** The Team Rocket boss is located behind the locked door at (10, 9) on B3F.
+*   **Falsification Test:** If, after reaching the door, there is no password prompt, no visible switch, and no interaction possible, this hypothesis is false. The path forward must be on a different floor or via a hidden passage I have missed. My next step would be a full, systematic re-exploration of B1F and B2F.
 
 ## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
