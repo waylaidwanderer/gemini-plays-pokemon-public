@@ -26,13 +26,14 @@
 - **Ladder (Up/Down):** Warps player between floors.
 - **Warp:** An instant transition point between maps or areas within a map (e.g., doors, cave entrances).
 - **Steps:** Allows vertical and horizontal movement between 'steps' and adjacent 'ground' or 'elevated_ground' tiles.
-- **Spinner:** Forces movement in a specific direction.
+- **Spinner (up, down, left, right):** Forces movement in a specific direction until a `spinner_stop` tile or another obstacle is hit.
+- **Spinner Stop:** A tile that halts movement from a spinner.
 - **Elevated Ground:** Walkable ground at a different elevation. HM Surf cannot be initiated from this tile type. Movement between `elevated_ground` and `ground` is only possible via `steps`.
 - **Gate (`gate_offscreen`, `closed_gate`):** Barriers that may open or close based on game events. Off-screen gates are treated as potentially open for pathfinding unless proven otherwise.
 
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
-- **HM Usage:** HMs are used from the party menu outside of battle.
+- **HM Usage:** HMs are used from the party menu outside of battle. Fainted Pokémon can use field moves.
 - **Party Planning:** Always confirm all required HMs (Fly, Surf, Strength, Cut) are present in the party *before* leaving a Pokémon Center.
 - **Dynamic Map Elements:** Some map elements, like trees, can appear dynamically (e.g., Fuchsia City at (19,20)).
 
@@ -40,11 +41,11 @@
 
 ## A. Custom Tools
 - **`pathfinder`:** This tool has been updated to correctly handle all traversal logic, including HMs, and now outputs a JSON array of coordinates for the path_plan, making it more reliable.
-- **`spinner_maze_solver`:** Untested. I MUST use this tool at the next spinner maze encountered (Viridian Gym) to validate its functionality.
+- **`spinner_maze_solver`:** This tool calculates paths in spinner mazes. It was used in Viridian Gym, but the path was interrupted by the spinner mechanic. Must re-run from new positions after being moved by a spinner.
 
 ## B. Agent & Tool Usage Notes
-- Proximity of recommended locations from agents should be considered for efficiency.
 - I must fix failing tools immediately using my `code_debugger_agent` instead of deferring the task or attempting manual fixes.
+- Proximity of recommended locations from agents should be considered for efficiency.
 
 # IV. Puzzles & Hypotheses
 
@@ -54,27 +55,19 @@
 - **Hypothesis 2 (Untested):** Interaction with the Pokémon in the enclosures is required, not the signs.
 - **Hypothesis 3 (Untested):** A specific Pokémon must be in the party to trigger an event.
 
-## B. Seafoam Islands Puzzle
-- **Observation:** The Seafoam Islands are split into eastern and western sections on every floor explored so far (1F, B1F, B2F). Direct horizontal travel between them is impossible.
-- **Hypothesis 1 (Confirmed):** The connection between the east and west sections is on a lower floor (B3F). I successfully navigated this by surfing from the eastern side on B3F.
-
-## C. Untested Assumptions
-- **Conclusion:** Pokémon Mansion 2F is a more efficient grinding spot than 1F due to higher-level and more varied encounters like Magmar yielding more EXP.
+## B. Secret Key Location
+- **Discovery:** I already possessed the Secret Key, likely obtained from Giovanni in the Rocket Hideout. The search in the Pokémon Mansion was unnecessary.
 
 # V. Strategic Plans & Lessons Learned
 
 ## A. Viridian Gym Strategy (Level Cap: 55)
-- **Current Plan:** Challenge Giovanni, the Viridian City Gym Leader. My team is at a good level, and I have a strong type advantage with REVENANT (Marowak) and CRAG (Golem) against his likely Ground/Rock-type team.
+- **Current Plan:** Challenge Giovanni in the Viridian City Gym. The gym is a spinner maze. I will use the `spinner_maze_solver` tool to navigate it. My team is at a good level, and I have a strong type advantage with REVENANT (Marowak) and CRAG (Golem) against his Ground/Rock-type team.
 
 ## B. Lessons Learned
-- **Confirmation Bias:** I exhibited confirmation bias when debugging the `pathfinder` tool. I assumed it was still broken after a fix and ignored evidence to the contrary. I must actively try to disprove my own assumptions and trust the data.
-- **Tool Maintenance Protocol:** When a tool fails, I must immediately use the `code_debugger_agent` for a systematic diagnosis. Manual, incremental fixes are inefficient and error-prone. Tool reliability is a higher priority than immediate gameplay progression.
-- **Real-Time Documentation:** All discoveries, failures, plans, and lessons learned must be documented in the notepad on the turn they occur, not summarized later.
+- **Confirmation Bias:** I exhibited confirmation bias when debugging the `pathfinder` tool. I must actively try to disprove my own assumptions and trust the data.
+- **Tool Maintenance Protocol:** When a tool fails, I must immediately use the `code_debugger_agent` for a systematic diagnosis.
+- **Real-Time Documentation:** All discoveries, failures, plans, and lessons learned must be documented in the notepad on the turn they occur.
+- **LLM Reality:** I must perform data management tasks (notepad, agents, tools) immediately and not defer them. Creating mental to-do lists is an invalid strategy.
 
 ## C. Agent Usage Notes
 - I have a `training_spot_advisor_agent` that I should use to find optimal grinding locations instead of manual exploration. I will use this next time I need to train.
-
-# VI. Major Discoveries & Corrections
-
-## A. Secret Key Location
-- **Correction:** I discovered I already had the Secret Key in my inventory, likely obtained from Giovanni in the Rocket Hideout. My prolonged search in the Pokémon Mansion was unnecessary.
