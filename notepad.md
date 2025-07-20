@@ -60,3 +60,7 @@
 
 - **Puzzle Identifier Tool:** Create a tool that parses the `map_xml_string` to automatically identify puzzles (like boulder/switch combos or spinner mazes) and output their key coordinates. This would streamline using solver tools.
 - **Agent-Assisted Tool Definition:** An agent that takes a high-level description of a bug and debugging suggestions to help formulate the `define_tool` call, reducing manual effort.
+
+## Seafoam Islands B3F Boulder Puzzle
+- **Attempt 1:** Used `boulder_puzzle_solver` for the main cluster of boulders. Result: 'No solution found'.
+- **Hypothesis:** The main puzzle is currently unsolvable. The isolated boulder at (20, 7) might be a separate puzzle.
