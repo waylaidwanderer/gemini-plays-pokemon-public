@@ -60,14 +60,4 @@
 - **Boulder Puzzle Solver (Failure & Fix):** The `boulder_puzzle_solver` returned 'No solution found' for the western B3F puzzle. This was due to two bugs: an incorrect initial check in the `player_a_star` function and improper handling of movement between `ground` and `elevated_ground`. The tool has been updated with a corrected script and now requires testing on the original puzzle.
 - **Pathfinder Tool (Impassable Target):** The tool failed to find a path to an impassable target because the logic for finding an adjacent, reachable goal was flawed. It incorrectly used `is_traversable` from the impassable tile itself. The logic has been updated to check if the adjacent tile is a valid standing tile, then lets A* find the path.
 
-## B. Future Tool/Agent Ideas
-- **Advanced Pathfinder Tool:** Enhance the `pathfinder` to handle multi-stage navigation, including the use of HMs like Surf or Cut from the menu to transition between terrain types (e.g., land -> water).
-- **Cave Navigator Agent:** Could generate high-level, multi-floor navigation plans for complex dungeons.
-- **Puzzle Element Finder Tool:** Could parse map XML to automatically identify coordinates of puzzle elements like boulders and switches.
-
-## C. Self-Correction & Lessons Learned
-- **User Error vs. Tool Error:** When a tool appears to fail, first consider if the failure was due to user error (e.g., using an outdated path after an interruption) before assuming the tool itself is bugged. Verify the context before debugging.
-- **Overwatch Critique (Tool Refinement):** Received a critical critique for not immediately fixing the `boulder_puzzle_solver` tool after it failed. Core directive is to prioritize tool maintenance. This mistake has been corrected, and the tool was fixed at the next safe opportunity.
-- **Dead End Misidentification:** Incorrectly concluded that Seafoam Islands B2F was a dead end after one path failed, ignoring other reachable warps. I must be more thorough and trust system data over hasty assumptions.
-- **Boulder Puzzle Solver (User Error):** The tool correctly returned 'No solution found' because I was attempting to solve the puzzle from a location where the player could not physically reach the boulders. The tool requires the player to be in the correct area before it can find a solution. This is a user error, not a tool bug.
 - **Confirmation Bias (Boulder Puzzle):** I incorrectly assumed the B3F boulder puzzle could be solved with Strength alone. I repeated attempts from different land positions instead of questioning my fundamental hypothesis. The tool's repeated, correct failures forced me to reconsider. I must be more willing to challenge my core assumptions earlier in the problem-solving process.
