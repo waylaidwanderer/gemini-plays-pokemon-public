@@ -68,3 +68,4 @@
 - **Wild Encounter:** Encountered a wild KRABBY (Lv26) at (10, 14) on Seafoam Islands B1F.
 - **Wild Encounter:** Encountered a wild KINGLER (Lv38) at (12, 8) on Seafoam Islands B2F.
 - **Wild Encounter:** Encountered a wild SLOWPOKE (Lv35) at (7, 9) on Seafoam Islands B2F.
+- **Boulder Puzzle Solver (User Error):** The tool correctly returned 'No solution found' because I was attempting to solve the puzzle from a location where the player could not physically reach the boulders. The tool requires the player to be in the correct area before it can find a solution. This is a user error, not a tool bug.
