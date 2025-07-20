@@ -91,7 +91,6 @@
 
 ## VI. Future Development
 ### A. Agent Concepts
-*   **Tool Debugger Agent:** An agent that takes Python code, an error message, and the context of the problem to suggest a specific, logical fix. This would streamline the tool refinement process and make it more efficient than my manual trial-and-error approach.
 *   **Party Checker Tool:** A tool to check which Pokémon in my party are holding items. This would have prevented my recent inventory-solving failures.
 
 ## VII. Hypotheses & Tests
