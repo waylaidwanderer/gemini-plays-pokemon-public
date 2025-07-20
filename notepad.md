@@ -121,3 +121,4 @@
 
 ### C. To-Do List
 *   Place a map marker on `MahoganyTown` at (15, 13) pointing to the Poké Center entrance.
+*   **Mahogany Town Shop:** Confirmed no shop exists in Mahogany Town. The mart is a front, and the Poké Center has no vendor. Must travel to another city to manage inventory.
