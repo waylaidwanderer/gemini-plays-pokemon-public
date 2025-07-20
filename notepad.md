@@ -69,3 +69,12 @@
 - **Tool Maintenance Protocol:** When a tool fails, I must immediately use the `code_debugger_agent` for a systematic diagnosis. My successful fix of the `spinner_maze_solver` proves this is the correct approach.
 - **Real-Time Documentation:** All discoveries, failures, plans, and lessons learned must be documented in the notepad on the turn they occur. I must avoid deferring these tasks.
 - **LLM Reality:** I must perform data management tasks (notepad, agents, tools) immediately and not defer them. Creating mental to-do lists is an invalid strategy.
+
+# VI. New Discoveries & Mechanics
+## "No Will to Fight" Mechanic
+- During the battle with Giovanni, after BELLADONNA fainted, I tried to send in my paralyzed REVENANT. The game displayed the message "There's no will to fight!" and prevented me from sending it in.
+- **Hypothesis:** A Pokémon may refuse to enter a battle under certain conditions. This could be related to:
+    - Status condition (paralysis).
+    - Low HP relative to the opponent.
+    - A unique mechanic for this specific boss fight.
+- This needs further testing to understand the exact trigger.
