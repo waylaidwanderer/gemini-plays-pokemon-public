@@ -82,3 +82,6 @@
   - **NIDOQUEEN (Lv54):** Known moves: Ice Beam, Earthquake, Thunderbolt, Body Slam.
   - **PERSIAN (Lv55):** Known moves: Bubblebeam, Slash, Hyper Beam, Thunderbolt.
 - **Outcome:** Lost the battle. My team was underleveled and I made several strategic errors, particularly with my `battle_strategist_agent` providing flawed advice. I need to train my team to the level cap (55) and develop a more robust counter-strategy.
+
+# VII. Future Development Ideas
+- **Utility Party Composition Agent:** An agent that can analyze the PC box and suggest optimal party compositions for non-battle tasks, such as an 'HM-focused' team for exploration or a team with specific field moves for puzzles.
