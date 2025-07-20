@@ -53,3 +53,10 @@
 
 ## C. Critical Discoveries
 - **Surf Mechanic:** You cannot initiate Surf from an `elevated_ground` tile. You must be on a `ground`, `steps`, or `grass` tile adjacent to water.
+
+## B. Future Tool/Agent Ideas
+- **Cave Navigator Agent:** Could generate high-level, multi-floor navigation plans for complex dungeons.
+- **Puzzle Element Finder Tool:** Could parse map XML to automatically identify coordinates of puzzle elements like boulders and switches.
+
+## C. Self-Correction & Lessons Learned
+- **User Error vs. Tool Error:** When a tool appears to fail, first consider if the failure was due to user error (e.g., using an outdated path after an interruption) before assuming the tool itself is bugged. Verify the context before debugging.
