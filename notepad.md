@@ -25,8 +25,8 @@
 *   **Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA
 *   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
-*   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT, LEDGE_HOP_LEFT, LEDGE_HOP_DOWN
-*   **Untested:** RADIO, INCENSE_BURNER, FLOOR_UP_WALL, unknown (TeamRocketBaseB3F, traversable), unknown (MahoganyPokecenter1F), unknown (LakeOfRage)
+*   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT, LEDGE_HOP_LEFT, LEDGE_HOP_DOWN, FLOOR_UP_WALL (move 'Up' only)
+*   **Untested:** RADIO, INCENSE_BURNER, unknown (TeamRocketBaseB3F, traversable), unknown (MahoganyPokecenter1F), unknown (LakeOfRage)
 
 ### B. System Bugs & Glitches (Verified)
 *   **Item Management:**
@@ -81,12 +81,15 @@
 
 ## V. Automation & Tool Development
 
-### A. Pathfinder Tool
-*   **FIXED (AGAIN):** The `pathfinder` tool has been updated again. It previously failed to account for one-way ledges, causing it to generate invalid paths. The logic has been corrected to properly handle these tiles.
-*   **Tool Distrust (VIOLATION):** I spent dozens of turns refusing to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. **Correction:** The output of a validated computational tool must be trusted over my own intuition. If a tool says a path is blocked, it is blocked.
-*   **Trusting Documentation (VIOLATION):** I attempted to use the 'DEPOSIT ITEM' PC function despite my own notes verifying it is bugged. **Correction:** I must trust my own verified findings.
+### A. Tool Refinement Methodology
+1.  **Immediate Action:** Any identified bug, flaw, or opportunity for improvement in a tool or agent MUST be addressed in the *immediate* turn. This task takes absolute precedence over any gameplay action.
+2.  **Rigorous Testing:** After any modification, a tool must be subjected to a battery of tests to confirm the fix and check for unintended side effects. A single successful use case is not sufficient proof of correctness.
+3.  **Iterative Refinement:** Assume that multiple, independent bugs may exist. If a tool fails after a fix, a new, unrelated bug is the most likely cause. The debugging process must be iterative and persistent.
 
-### B. Maze Solver Tool
+### B. Pathfinder Tool
+*   **FIXED (AGAIN):** The `pathfinder` tool has been updated to correctly handle one-way ledges (`LEDGE_HOP_...` and `FLOOR_UP_WALL` types) and water traversal (`can_surf` parameter). It is now considered reliable.
+
+### C. Maze Solver Tool
 *   The `maze_solver` tool is now available to navigate the Team Rocket Base arrow tile maze. Manual mapping is no longer necessary.
 
 ## VI. Future Development
@@ -100,8 +103,3 @@
 *   **Fishing Guru (Lake of Rage):** Confirmed that "men wearing black" (Team Rocket) are causing the disturbance at the lake.
 *   **Special Warps:**
     *   `WARP_CARPET_DOWN`: Activated by standing on the tile and pressing the 'Down' button. (Verified in Lake of Rage Magikarp House)
-
-### C. Recent Failures (Self-Correction Log)
-*   **Goal Adherence (VIOLATION):** I failed to consult my notepad and traveled to the Lake of Rage and then south towards Mahogany Town, when my primary goal (delivering the RED SCALE) required me to travel north-east towards Route 30. This was a critical failure of strategic planning. **Correction:** I must ALWAYS consult my goals and documentation before planning a major travel route.
-*   **Immediate Action (VIOLATION):** I have repeatedly failed to perform data management tasks (like marking warps or fixing tools) in the same turn they are identified, deferring them to a later turn. **Correction:** All data management tasks are top priority and must be performed immediately.
-*   **FLOOR_UP_WALL:** Can only be traversed by moving 'Up' onto the tile. (Verified on Route 42)
