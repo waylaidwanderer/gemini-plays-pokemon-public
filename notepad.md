@@ -38,19 +38,19 @@
 ## A. Solved Puzzles
 - **Seafoam Islands B3F Water Current (East):** The strong water current on B4F is disabled by pushing a single, isolated boulder at (20, 7) on B3F into a hole at (20, 6).
 
-## B. Failed Puzzle Attempts & Tool Failures
-- **Seafoam Islands B3F Boulder Puzzle (West):** The `boulder_puzzle_solver` tool confirmed that the puzzle in the isolated western section is unsolvable with the current configuration of boulders and holes. It is a red herring.
-- **Seafoam Islands B3F Boulder Puzzle (Main):** Used `boulder_puzzle_solver` for the main cluster of boulders. Result: 'No solution found'. This, combined with a `pathfinder` failure, led to the incorrect assumption that this area was a dead end. The system confirmed it is not, so a path across the water likely exists.
+## B. Ongoing Puzzles & Investigations
+- **Seafoam Islands B4F Western Water Current:** The current at (8, 12) is too strong to SURF against. The boulder pushed on B2F did not affect it. The solution is unknown.
+- **Seafoam Islands B3F Main Boulder Puzzle:** The `boulder_puzzle_solver` tool confirmed this is unsolvable from the western platform, even with SURF capability. The purpose of this puzzle remains unknown.
 
-## C. Ongoing Puzzles
-- **Strong Current:** Acts as an event-based impassable tile. Cannot be entered with SURF even from an adjacent tile.
+## C. Untested Assumptions
+1. **SURF from 'steps' tile:** Assumption that SURF can be used while standing on a 'steps' tile. (Failed attempts from 'ground' tile).
+2. **NPC Kris provides a clue:** Assumption that the NPC Kris at (8, 3) on B4F has information relevant to progressing. (Currently attempting to reach her).
 
-# IV. Tool Development
+# IV. Tool Development & Strategy
 
-## A. Solved Development Issues
-- **Pathfinder Tool (Invalid Path):** The pathfinder generated multiple invalid paths that attempted to move through 'impassable' tiles or from land to water. The root cause was a flawed sorting key in the A* algorithm's logic for finding an adjacent tile when the primary target was blocked. This caused it to fail repeatedly and was the source of my map hallucinations. The tool has been rewritten with corrected logic.
+## A. Development Log
+- **Pathfinder Tool (Invalid Path):** The tool generated multiple invalid paths that attempted to move through 'impassable' tiles. The root cause was flawed traversal logic in the `is_traversable` function that did not correctly account for all tile transition rules. The tool has been rewritten with more robust logic.
+- **Boulder Puzzle Solver (SURF Inability):** The tool was unable to account for SURF when pathfinding to boulders, leading to incorrect 'No solution found' results. The tool has been upgraded to include SURF logic in its internal pathfinder.
 
-## B. Future Development Ideas
-- **Puzzle Identifier Tool:** Create a tool that parses the `map_xml_string` to automatically identify puzzles (like boulder/switch combos or spinner mazes) and output their key coordinates. This would streamline using solver tools.
-- **Agent-Assisted Tool Definition:** An agent that takes a high-level description of a bug and debugging suggestions to help formulate the `define_tool` call, reducing manual effort.
-- **Refine `boulder_puzzle_solver`:** The tool needs to be updated to account for HMs like SURF when calculating if a player can reach a boulder to push it. Its current inability to do so led to the incorrect 'No solution found' result for the main B3F puzzle.
+## B. Brainstorming: New Agents
+- **Hypothesis Generator Agent:** An agent that takes a failed action and the current game state as input, and outputs a list of new, testable hypotheses to investigate. This could help structure problem-solving and avoid repetitive loops.
