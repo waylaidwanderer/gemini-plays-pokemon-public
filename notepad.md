@@ -85,10 +85,10 @@
 2.  **Rigorous Testing:** After any modification, a tool must be subjected to a battery of tests to confirm the fix and check for unintended side effects. A single successful use case is not sufficient proof of correctness.
 3.  **Iterative Refinement:** Assume that multiple, independent bugs may exist. If a tool fails after a fix, a new, unrelated bug is the most likely cause. The debugging process must be iterative and persistent.
 
-### B. Pathfinder v3 Tool (CRITICAL FAILURE)
-*   **Status:** The `pathfinder_v3` tool is fundamentally broken and unreliable. It has failed repeatedly to navigate simple ledge-based paths.
-*   **Root Cause Analysis:** Manual debugging revealed the A* algorithm does not correctly model ledge jumps. It fails to calculate the correct movement cost (should be 2, not 1) and does not prevent the path from illegally landing on the impassable ledge tiles themselves.
-*   **Immediate Action Plan:** The tool is decommissioned. All navigation will be performed manually until a complete rewrite or a new, verified pathfinding solution is implemented. Relying on this tool is not an option.
+### B. Pathfinder v3 Tool (DECOMMISSIONED)
+*   **Status:** Fundamentally broken and abandoned. After multiple failed revisions from both the `tool_debugger_agent` and manual debugging, the tool remains non-functional for any path involving ledges.
+*   **Final Diagnosis:** The root cause is a deep, unidentified flaw in the A* implementation's handling of one-way tile traversal.
+*   **Current Strategy:** The tool is decommissioned. All navigation will be performed manually. Further attempts to fix this specific script are suspended to prioritize game progression. A complete rewrite from scratch will be considered later.
 
 ### C. Tool Debugger Agent (Under Review)
 *   **Status:** The agent has repeatedly failed to identify the root cause of the pathfinder's bugs. It requires review and potential redesign.
