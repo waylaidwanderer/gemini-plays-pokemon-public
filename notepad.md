@@ -113,3 +113,5 @@
     *   **Assumption:** Defeating Team Rocket in their hideout will make the Fisher blocking the gym move.
     *   **Alternative Hypothesis:** The Fisher's movement is tied to a different, unknown story event.
     *   **Test:** After clearing the hideout, immediately check the gym entrance. If the Fisher is still there, the assumption is false.
+### E. Tile Testing Protocol
+*   **New Tile Discovery:** When a new, unknown tile type is encountered, I must systematically test its properties. This includes attempting to walk on it from all four directions and documenting whether it's traversable, a one-way path, or requires a specific item or action to pass.
