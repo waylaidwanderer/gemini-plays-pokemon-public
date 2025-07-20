@@ -128,6 +128,7 @@
 ### E. Team Rocket B1F Arrow Maze
 * (1, 3) & (1, 4) -> Confirmed to be normal floor tiles. My hypothesis about a one-way path here was incorrect. The maze must start elsewhere.
 * (1, 2), (2, 1), (2, 2), (2, 3), (3, 2), (3, 4), (4, 4), (3, 5), (4, 5), (5, 5), (4, 6), (5, 6): Confirmed normal floor tiles. My systematic testing of this area continues.
+* (4, 5): Confirmed normal floor tile.
 ### F. Team Rocket B1F Maze Progression
 *   **Hypothesis:** The invisible arrow tile maze is the only path to the boss.
 *   **Falsification Test:** If solving the maze leads to a dead end or only an item, this hypothesis is false. The alternative is that another hidden switch or interaction exists elsewhere in the hideout, requiring a full re-exploration of all interactable objects.
