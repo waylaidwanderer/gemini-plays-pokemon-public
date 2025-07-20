@@ -112,3 +112,4 @@
 
 ### C. Tile Testing To-Do
 *   Test traversability of RADIO and INCENSE_BURNER tiles.
+*   **Untested (TeamRocketBaseB3F):** COMPUTER, BED, CABINET, SINK, PLANT
