@@ -85,12 +85,10 @@
 2.  **Rigorous Testing:** After any modification, a tool must be subjected to a battery of tests to confirm the fix and check for unintended side effects. A single successful use case is not sufficient proof of correctness.
 3.  **Iterative Refinement:** Assume that multiple, independent bugs may exist. If a tool fails after a fix, a new, unrelated bug is the most likely cause. The debugging process must be iterative and persistent.
 
-### B. Pathfinder v3 Tool (Under Review)
-*   **Status:** The `pathfinder_v3` tool is the current A* pathfinding implementation.
-*   **CRITICAL FAILURE (Turn 59519):** The tool failed to find a path from (55, 9) to (60, 10) on Route 42. It returned `null`.
-*   **Root Cause Analysis:** The tool does not understand conditional traversal tiles like `FLOOR_UP_WALL`. It likely treats it as a standard traversable tile, but the game engine blocks downward movement. This leads the algorithm to fail when it cannot find a valid path.
-*   **Immediate Action Plan:** The tool is unreliable and will not be used until fixed. Navigation will be performed manually.
-*   **Long-Term Fix:** The pathfinding algorithm needs to be updated to incorporate directional traversal rules. As a temporary fix, `FLOOR_UP_WALL` and other one-way tiles will be added to the `impassable_types` list to prevent invalid path generation, even though this will block valid paths in the opposite direction.
+### B. Pathfinder v3 Tool (CRITICAL FAILURE)
+*   **Status:** The `pathfinder_v3` tool is fundamentally broken and unreliable. It has failed repeatedly to navigate simple ledge-based paths.
+*   **Root Cause Analysis:** Manual debugging revealed the A* algorithm does not correctly model ledge jumps. It fails to calculate the correct movement cost (should be 2, not 1) and does not prevent the path from illegally landing on the impassable ledge tiles themselves.
+*   **Immediate Action Plan:** The tool is decommissioned. All navigation will be performed manually until a complete rewrite or a new, verified pathfinding solution is implemented. Relying on this tool is not an option.
 
 ### C. Tool Debugger Agent (Under Review)
 *   **Status:** The agent has repeatedly failed to identify the root cause of the pathfinder's bugs. It requires review and potential redesign.
