@@ -50,3 +50,6 @@
 
 ## E. Unverified Hypotheses
 - **Normal-type effectiveness:** Normal (observed from CUT) might be super-effective against Grass and/or Psychic types (vs. LEGION the EXEGGCUTE).
+
+## F. Ongoing Development Issues
+- **Boulder Puzzle Solver (Invalid Solution):** The solver generated a solution for the western B3F puzzle that is impossible to execute. The first step requires pushing a boulder from a position that is an impassable tile. The solver's internal pathfinder correctly pathed to an *adjacent* tile, but the main logic didn't invalidate the move. **Hypothesis:** The `get_boulder_neighbors` function must be modified to ensure the `player_a_star` path's destination matches the required push position exactly.
