@@ -46,4 +46,4 @@
   - **Conclusion:** Hypothesis denied. The player cannot reach the boulders from the elevated platform at (6, 13). The tool failed because it doesn't account for map elevation and reachability. I must find another path to the ground level where the boulders are located. The likely path is the ladder down to B4F at (9, 7).
 
 ## C. Future Development Ideas
-- **Puzzle Identifier Agent:** Create an agent that parses the `map_xml_string` to automatically identify puzzles (like boulder/switch combos or spinner mazes) and output their key coordinates. This would streamline using solver tools.
+- **Puzzle Identifier Tool:** Create a tool that parses the `map_xml_string` to automatically identify puzzles (like boulder/switch combos or spinner mazes) and output their key coordinates. This would streamline using solver tools. (Correction: This must be a tool, not an agent, because it involves parsing raw XML data, which is a computational task.)
