@@ -6,11 +6,11 @@
 - **Grass:** Tall grass for wild Pokémon encounters.
 - **Ledge:** Can be jumped down (one-way). Moving down into a ledge tile moves the player two tiles down.
 - **Cuttable Tree:** Requires HM Cut to pass. Becomes `ground` after cutting, but respawns on map change.
-- **Water:** Requires HM Surf to traverse. To use Surf from a land tile, you must be standing on a 'ground', 'water', or 'steps' tile adjacent to water, face the water, and use the HM from the party menu. Strength can be used while surfing.
+- **Water:** Requires HM Surf to traverse. To use Surf, you must be standing on a 'ground', 'water', or 'steps' tile adjacent to water, face the water, and use the HM from the party menu. It is not a standard walking move from land.
 - **Boulder:** Requires HM Strength to move.
-- **Hole:** Warps player to a lower floor or a specific spot on the same/different floor.
+- **Hole:** Warps player to a lower floor or a specific spot.
 - **Ladder (Up/Down):** Warps player between floors.
-- **Warp:** An instant transition point between maps or areas within a map.
+- **Warp:** An instant transition point between maps or areas.
 - **Steps:** Allows vertical and horizontal movement between 'steps' and adjacent 'ground' or 'elevated_ground' tiles.
 - **Spinner (up, down, left, right):** Forces movement in a specific direction.
 - **Spinner Stop:** A tile that halts movement from a spinner.
@@ -21,7 +21,7 @@
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu outside of battle. Fainted Pokémon can use field moves.
 - **"No Will to Fight" Message (Correction):** This message appears only when the cursor in the party menu is on an already fainted Pokémon. It is a UI error, not a gameplay mechanic.
-- **Trust the Data:** I incorrectly concluded the western 1F platform was a dead end. The system critique revealed other reachable warps were available. I must always trust the `navigable_warps` data over my visual assessment of the map.
+- **Confirmation Bias Warning:** The game's feedback (e.g., being unable to move) is the ultimate source of truth. If a tool's output (like a path plan) contradicts the game's behavior, the tool is flawed and must be debugged. Do not repeatedly attempt an action that the game has shown to be invalid.
 
 # II. Battle Intel
 
@@ -37,18 +37,17 @@
 
 ## A. Solved Puzzles
 - **Seafoam Islands B3F Water Current (East):** The strong water current on B4F is disabled by pushing a single, isolated boulder at (20, 7) on B3F into a hole at (20, 6).
-- **Seafoam Islands B3F Layout:** Discovered that the eastern and western sections of B3F are not connected. The main boulder puzzle area is only accessible from a specific ladder on B4F (the eastern one), not the ladder connected to the western side.
+- **Seafoam Islands B3F Layout:** Discovered that the eastern and western sections of B3F are not connected. The main boulder puzzle area is only accessible from a specific ladder on B4F (the eastern one).
 
 ## B. Failed Puzzle Attempts
 - **Seafoam Islands B3F Boulder Puzzle (West):** The `boulder_puzzle_solver` tool confirmed that the puzzle in the isolated western section is unsolvable with the current configuration of boulders and holes. It is a red herring.
 
 ## C. Solved Development Issues
-- **Boulder Puzzle Solver Refinement:** The `boulder_puzzle_solver` tool has been updated to incorporate A* pathfinding for player reachability checks. This prevents it from failing when the player is in an isolated area, which was confirmed on B3F.
-- **Boulder Puzzle Solver (Invalid/Hanging):** The solver had multiple issues. First, it produced an invalid solution by failing to verify that the player could reach the exact push position. This was fixed by removing the 'find adjacent goal' logic from the inner `player_a_star`. Second, it would hang indefinitely due to a `NameError` and then due to the inner `player_a_star` lacking a timeout. Both issues were resolved, and the tool is now functional.
-- **Pathfinder Tool (Invalid Path):** The pathfinder generated multiple invalid paths that attempted to move through 'impassable' tiles. This was caused by a logical flaw in the `is_traversable` function, which did not correctly prioritize the 'impassable' check and had incomplete logic for movement between special tile types like 'steps' and 'ladders'. The function was rewritten with a clear hierarchy of checks to resolve the issue.
+- **Pathfinder Tool (Invalid Path):** The pathfinder generated multiple invalid paths that attempted to move through 'impassable' tiles or from land to water. The root cause was a flawed sorting key in the A* algorithm's logic for finding an adjacent tile when the primary target was blocked. This caused it to fail repeatedly and was the source of my map hallucinations. The tool has been rewritten with corrected logic.
 
 ## D. Future Development Ideas
-- **Puzzle Identifier Tool:** Create a tool that parses the `map_xml_string` to automatically identify puzzles (like boulder/switch combos or spinner mazes) and output their key coordinates. This would streamline using solver tools. (Correction: This must be a tool, not an agent, because it involves parsing raw XML data, which is a computational task.)
+- **Puzzle Identifier Tool:** Create a tool that parses the `map_xml_string` to automatically identify puzzles (like boulder/switch combos or spinner mazes) and output their key coordinates. This would streamline using solver tools.
+- **Agent-Assisted Tool Definition:** An agent that takes a high-level description of a bug and debugging suggestions to help formulate the `define_tool` call, reducing manual effort.
 
 ## E. Unverified Hypotheses
 - **Normal-type effectiveness:** Normal (observed from CUT) might be super-effective against Grass and/or Psychic types (vs. LEGION the EXEGGCUTE).
