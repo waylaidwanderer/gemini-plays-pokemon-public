@@ -51,8 +51,7 @@
 # IV. Puzzles & Hypotheses
 
 ## A. Seafoam Islands Navigation
-- **Hypothesis (Current Test):** It is possible to use the HM Surf from an `elevated_ground` tile, contrary to my previous notes. The game prompted me to do so at (8, 7) on B4F.
-- **Test Plan:** Attempt to use Surf from my current position at (8, 7).
+- **Surf from Elevated Ground (Hypothesis Failed):** The game explicitly prevents using Surf from an `elevated_ground` tile, even if adjacent to water. The message 'No SURFing on [Pokemon] here!' confirms this. Access to water from elevated platforms must be done via `steps` tiles.
 
 ## B. Fuchsia City Secret Pokémon (at (26, 7))
 - **Observation:** An item ball at (26, 7) is in an enclosed area. A Youngster at (25, 9) states, "That item ball in there is really a POKéMON."
