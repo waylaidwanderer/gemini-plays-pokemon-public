@@ -44,6 +44,8 @@
 
 ## C. Solved Development Issues
 - **Boulder Puzzle Solver Refinement:** The `boulder_puzzle_solver` tool has been updated to incorporate A* pathfinding for player reachability checks. This prevents it from failing when the player is in an isolated area, which was confirmed on B3F.
+- **Pathfinder Tool (Invalid Path):** The pathfinder generated multiple invalid paths that attempted to move through 'impassable' tiles. This was caused by a logical flaw in the `is_traversable` function, which did not correctly prioritize the 'impassable' check and had incomplete logic for movement between special tile types like 'steps' and 'ladders'. The function was rewritten with a clear hierarchy of checks to resolve the issue.
+- **Boulder Puzzle Solver (Invalid/Hanging):** The solver had multiple issues. First, it produced an invalid solution by failing to verify that the player could reach the exact push position. This was fixed by removing the 'find adjacent goal' logic from the inner `player_a_star`. Second, it would hang indefinitely due to a `NameError` and then due to the inner `player_a_star` lacking a timeout. Both issues were resolved, and the tool is now functional.
 
 ## D. Future Development Ideas
 - **Puzzle Identifier Tool:** Create a tool that parses the `map_xml_string` to automatically identify puzzles (like boulder/switch combos or spinner mazes) and output their key coordinates. This would streamline using solver tools. (Correction: This must be a tool, not an agent, because it involves parsing raw XML data, which is a computational task.)
@@ -52,4 +54,4 @@
 - **Normal-type effectiveness:** Normal (observed from CUT) might be super-effective against Grass and/or Psychic types (vs. LEGION the EXEGGCUTE).
 
 ## F. Ongoing Development Issues
-- **Boulder Puzzle Solver (Invalid Solution):** The solver generated a solution for the western B3F puzzle that is impossible to execute. The first step requires pushing a boulder from a position that is an impassable tile. The solver's internal pathfinder correctly pathed to an *adjacent* tile, but the main logic didn't invalidate the move. **Hypothesis:** The `get_boulder_neighbors` function must be modified to ensure the `player_a_star` path's destination matches the required push position exactly.
+*This section is for puzzles that remain unsolved.*
