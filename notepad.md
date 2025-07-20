@@ -63,8 +63,8 @@
 
 # V. Strategic Plans & Lessons Learned
 
-## A. Training for Giovanni (Level Cap: 55)
-- **Current Plan:** Grind in Pokémon Mansion until the party reaches the level cap.
+## A. Viridian Gym Strategy (Level Cap: 55)
+- **Current Plan:** Challenge Giovanni, the Viridian City Gym Leader. My team is at a good level, and I have a strong type advantage with REVENANT (Marowak) and CRAG (Golem) against his likely Ground/Rock-type team.
 
 ## B. Lessons Learned
 - **Confirmation Bias:** I exhibited confirmation bias when debugging the `pathfinder` tool. I assumed it was still broken after a fix and ignored evidence to the contrary. I must actively try to disprove my own assumptions and trust the data.
