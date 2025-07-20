@@ -96,6 +96,7 @@
 ### C. Future Automation & Development Queue
 1.  **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness. This would have caught the multiple `pathfinder` bugs much faster.
 2.  **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies. This could have helped me break out of the Mt. Mortar cycle much faster.
+3.  **Arrow Maze Solver:** A computational tool to solve the invisible arrow tile maze.
 
 ## VI. Hypotheses & Falsification Tests
 
@@ -110,6 +111,10 @@
 ### C. Route 42 Blockage
 *   **Hypothesis:** The only path from Mahogany Town to Ecruteak City is through Mt. Mortar.
 *   **Falsification Test:** After clearing inventory in Ecruteak, return to Route 42. Check if the Super Nerd at (47, 8) has moved or if there is an alternative way to access the northern water route. If another path exists, the hypothesis is false.
+
+### F. Team Rocket B1F Maze Progression
+*   **Hypothesis:** The invisible arrow tile maze is the only path to the boss.
+*   **Falsification Test:** If solving the maze leads to a dead end or only an item, this hypothesis is false. The alternative is that another hidden switch or interaction exists elsewhere in the hideout, requiring a full re-exploration of all interactable objects.
 
 ## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
