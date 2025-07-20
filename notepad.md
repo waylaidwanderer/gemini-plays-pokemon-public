@@ -99,6 +99,8 @@
 1.  **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness. This would have caught the multiple `pathfinder` bugs much faster.
 2.  **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies. This could have helped me break out of the Mt. Mortar cycle much faster.
 3.  **Arrow Maze Solver:** A computational tool to solve the invisible arrow tile maze.
+4.  **Exploration Tool:** A tool to auto-path to unseen tiles.
+5.  **Battle Advisor:** An agent to suggest moves based on known opponent rosters.
 
 ## VI. Hypotheses & Falsification Tests
 
