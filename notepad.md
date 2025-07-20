@@ -90,7 +90,8 @@
 
 ### B. Pathfinder Tool (Under Reconstruction)
 *   **Status:** The original `pathfinder` tool was retired due to critical, unresolvable flaws. A new version, `pathfinder_v2`, is being developed to provide reliable A* pathfinding.
-*   **Action Plan:** Define and validate `pathfinder_v2`.
+*   **CRITICAL FAILURE (Turn 59436):** The tool is now ignoring on-screen WALL tiles, generating paths that lead directly into them. It is completely unreliable and cannot be used.
+*   **Action Plan:** Abandon tool use for this route. Proceed with manual navigation.
 
 ### C. Tool Debugger Agent (Under Review)
 *   **Status:** The agent has repeatedly failed to identify the root cause of the pathfinder's bugs. It requires review and potential redesign.
