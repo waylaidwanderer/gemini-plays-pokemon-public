@@ -56,6 +56,7 @@
 *   **Ilex Forest Shrine:** A Lass in the Route 34 Gate mentioned a shrine honoring a grass-type protector of the forest.
 *   **TM12 (Sweet Scent):** Given by Teacher in Route 34 Ilex Forest Gate. Attracts wild Pokémon.
 *   **Team Rocket Base B1F Secret Passage:** The 'door' at (10, 9) is a secret passage, not a locked door. It is opened by activating the Secret Switch at (19, 11).
+*   **Team Rocket Base B1F Hidden Revive (Unobtainable):** The hidden Revive at (3, 11) is currently unobtainable. Systematic testing from all adjacent tiles and facings failed to trigger the item pickup, suggesting a story flag or other unmet condition is required.
 
 ## IV. Battle and Pokemon Information
 
