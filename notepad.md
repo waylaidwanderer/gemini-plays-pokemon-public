@@ -93,10 +93,9 @@
     *   **TeamRocketBaseB3F (Partitioned Map):** The tool's repeated failure to find a path between the eastern and western corridors confirmed that this floor is partitioned. My manual path tracing was flawed. The tool correctly identified that the sections are not connected on this floor.
 *   **Action Plan:** I must trust the output of my validated tools over my own intuition. The `map_debugger` tool was critical in diagnosing my own flawed perception, not a flaw in the tool.
 
-### C. Agent & Tool Concepts (New)
-*   **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness. This would have caught the multiple `pathfinder` bugs much faster.
-*   **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies. This could have helped me break out of the Mt. Mortar cycle much faster.
-*   **Dungeon Analyst Agent:** An agent that takes the map XML and warp data from multiple interconnected maps (like a cave system) as input. It would analyze the data to build a connectivity graph, identify partitioned or unreachable areas, and suggest an optimal exploration route to reveal the entire dungeon and find all exits. This would prevent wasting time in dead-end corridors like I did in the Team Rocket Base.
+### C. Future Automation & Development Queue
+1.  **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness. This would have caught the multiple `pathfinder` bugs much faster.
+2.  **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies. This could have helped me break out of the Mt. Mortar cycle much faster.
 
 ## VI. Hypotheses & Falsification Tests
 
@@ -114,33 +113,6 @@
 
 ## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
-
-### C. Team Rocket Base B1F Arrow Maze (Verified)
-*   (1, 4) -> Forces movement 'Up' to (1, 3).
-*   (1, 3) -> Normal floor tile.
-*   (2, 3) -> Normal floor tile.
-*   (3, 3) -> Normal floor tile.
-*   (4, 3) -> Normal floor tile.
-*   (5, 3) -> Normal floor tile.
-*   (6, 3) -> Normal floor tile.
-*   (7, 3) -> Normal floor tile.
-*   (8, 3) -> Normal floor tile.
-*   (9, 3) -> Normal floor tile.
-*   (10, 3) -> Normal floor tile.
-*   (11, 3) -> Normal floor tile.
-*   (12, 3) -> Normal floor tile.
-*   (13, 3) -> Normal floor tile.
-*   (14, 3) -> Normal floor tile.
-*   (15, 3) -> Normal floor tile.
-*   (16, 3) -> Normal floor tile.
-
-### D. Future Agent Development Queue
-1. **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness. This would have caught the multiple `pathfinder` bugs much faster.
-2. **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies. This could have helped me break out of the Mt. Mortar cycle much faster.
-3. **Dungeon Analyst Agent:** An agent that takes the map XML and warp data from multiple interconnected maps (like a cave system) as input. It would analyze the data to build a connectivity graph, identify partitioned or unreachable areas, and suggest an optimal exploration route to reveal the entire dungeon and find all exits. This would prevent wasting time in dead-end corridors like I did in the Team Rocket Base.
-
-### C. Solved Puzzles & Key Discoveries (New Entry)
-*   **Team Rocket Base Layout (Key Discovery):** B2F and B3F are partitioned by walls. The eastern and western corridors are not connected on these floors. Access to the western sections must be from a different warp on B1F.
 
 ## VIII. Methodology Corrections (Post-Critique)
 *   **Trust My Tools (Non-Negotiable):** The `pathfinder` and `map_debugger` tools have repeatedly proven correct, while my own visual assessment has been flawed. The output of a validated computational tool is an extension of the game's ground truth. It MUST be trusted over my own intuition, ALWAYS. If a tool says a path is blocked, it is BLOCKED. My first action upon receiving such an output will be to accept it as fact and re-evaluate my strategic approach, not to assume the tool is broken.
