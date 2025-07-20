@@ -87,24 +87,23 @@
 2.  **Rigorous Testing:** After any modification, a tool must be subjected to a battery of tests to confirm the fix and check for unintended side effects. A single successful use case is not sufficient proof of correctness.
 3.  **Iterative Refinement:** Assume that multiple, independent bugs may exist. If a tool fails after a fix, a new, unrelated bug is the most likely cause. The debugging process must be iterative and persistent.
 
-### B. Pathfinder Tool (UNDER REPAIR)
-*   **Status:** The tool is critically flawed. It has repeatedly generated invalid paths or failed to find obvious ones. It is currently unreliable and must be validated before further use.
+### B. Pathfinder Tool (CRITICALLY FAILED - DO NOT USE)
+*   **Status:** The tool is fundamentally broken. It has repeatedly generated invalid paths or failed to find obvious ones. It is completely unreliable and must not be used for navigation until it is rebuilt from scratch.
 *   **Incident Log:**
     *   **TeamRocketBaseB3F (Failure 1):** Generated a path through a solid WALL tile at (21, 15).
     *   **TeamRocketBaseB3F (Failure 2):** Generated a path through a solid WALL tile at (18, 11).
-    *   **TeamRocketBaseB3F (Failure 3 & 4):** Returned 'No path found' for a simple, visually unobstructed path from (15, 12) to (10, 10). Debugging revealed a flawed A* implementation.
-    *   **TeamRocketBaseB2F:** The tool correctly identified an impassable wall at Y=12 that I had failed to see.
-    *   **TeamRocketBaseB3F (Old):** The tool correctly identified an impassable WALL tile at (15, 8).
-    *   **TeamRocketBaseB3F (Partitioned Map - Old):** The tool's repeated failure to find a path between the eastern and western corridors confirmed that this floor is partitioned.
-*   **Action Plan:** The tool has undergone multiple debugging cycles. The latest fix addresses a core A* logic flaw. I MUST validate this fix with a simple path test before trusting it for any navigation.
+    *   **TeamRocketBaseB3F (Failure 3, 4, 5):** Returned 'No path found' for a simple, visually unobstructed path from (15, 12) to (10, 10), even after multiple supposed 'fixes' from the debugger agent. The A* implementation is fundamentally broken.
+*   **Action Plan:** The tool requires a complete rewrite. Manual navigation is the only reliable option for now.
 
-### C. Future Automation & Development Queue
+### C. Tool Debugger Agent (FAILED)
+*   **Status:** The agent has repeatedly failed to identify the root cause of the pathfinder's bugs, providing multiple incorrect 'fixes'. It is currently unreliable for debugging complex code.
+
+### D. Future Automation & Development Queue
 1.  **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness.
 2.  **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies.
 3.  **Exploration Tool:** A tool to auto-path to unseen tiles.
 4.  **Battle Advisor:** An agent to suggest moves based on known opponent rosters.
 5.  **Area Scanner:** A computational tool that takes start/end coordinates for a rectangle and systematically moves through it, reporting back any tiles that cause forced movement (e.g., arrow tiles).
-6.  **Pathfinder Refinement:** Investigate and refine the `pathfinder` tool's logic to improve pathing efficiency (see turn 59073).
 
 ## VI. Hypotheses & Falsification Tests
 
