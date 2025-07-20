@@ -123,3 +123,4 @@
 *   (5, 3) -> Normal floor tile.
 *   (6, 3) -> Normal floor tile.
 *   (7, 3) -> Normal floor tile.
+*   (8, 3) -> Normal floor tile.
