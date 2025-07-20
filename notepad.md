@@ -50,7 +50,7 @@
 
 ## A. Seafoam Islands Puzzle
 - **East Section (Conclusion):** The eastern sections of the Seafoam Islands are a dead end for the main puzzle. The path forward is through the western entrance.
-- **West Section (Current Hypothesis):** The solution involves pushing boulders on multiple floors (B1F, B2F, B3F) to block the strong current on B4F. It appears Strength can be used while Surfing.
+- **West Section (Confirmed):** The solution involves pushing boulders on multiple floors (B1F, B2F, B3F) to block the strong current on B4F. Strength can be used while Surfing.
 - **Mechanics:**
     - Surfing is not possible from `elevated_ground` tiles.
     - Water warps on B3F connect the outer platforms to the central puzzle area.
