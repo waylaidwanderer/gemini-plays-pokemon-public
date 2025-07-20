@@ -49,7 +49,8 @@
 
 ## A. Seafoam Islands Puzzle
 - **Hypothesis 1 (Disproven):** The exit is on the eastern side of the cave. This was disproven when the path was blocked by a strong current on B4F.
-- **Hypothesis 2 (Active):** I need to solve a second boulder puzzle on the upper floors (B1F, B2F, B3F) to stop the western current on B4F.
+- **Hypothesis 2 (Disproven):** I can access the second boulder puzzle on B2F by traversing the eastern side of the cave. This was disproven when I arrived on the eastern platform of B2F and found it was isolated from the western side where the boulder is.
+- **Hypothesis 3 (Active):** The path to the second boulder puzzle requires me to find a way to cross from the eastern side of B1F to the western side of B1F. From there, I can take the western ladder down to B2F and access the puzzle.
 - **Untested Hypothesis:** The ladder at (26, 5) on B4F is the exit.
 
 ## B. Fuchsia City Secret Pokémon (at (26, 7))
