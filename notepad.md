@@ -83,13 +83,19 @@
 
 ## V. Automation & Tool Development
 
-### A. Tool Status
-*   **pathfinder (BROKEN):** The tool is fundamentally broken. Multiple patching attempts, even with the `tool_debugger_agent`, have failed. **Action Plan:** Do not use. I will proceed with manual navigation until a more robust debugging and validation process can be developed.
+### A. Tool Refinement Methodology
+1.  **Immediate Action:** Any identified bug, flaw, or opportunity for improvement in a tool or agent MUST be addressed in the *immediate* turn. This task takes absolute precedence over any gameplay action.
+2.  **Rigorous Testing:** After any modification, a tool must be subjected to a battery of tests to confirm the fix and check for unintended side effects. A single successful use case is not sufficient proof of correctness.
+3.  **Iterative Refinement:** Assume that multiple, independent bugs may exist. If a tool fails after a fix, a new, unrelated bug is the most likely cause. The debugging process must be iterative and persistent.
 
-### B. Future Development Ideas
-*   **Tool: maze_solver:** A tool to automatically solve invisible arrow tile mazes by taking map XML and known tile behaviors as input.
-*   **Agent: dungeon_analyst:** An agent to analyze connectivity between multiple maps in a dungeon to identify dead ends and optimal exploration routes.
-*   **Agent: tool_validation_agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) to rigorously verify correctness after a fix.
+### B. Pathfinder Tool (BROKEN)
+*   **Status:** The tool is fundamentally broken. Multiple patching attempts have failed to fix core logical errors related to obstacle detection and one-way tile navigation.
+*   **Action Plan:** The tool is benched. I will now use my existing `tool_debugger_agent` to systematically diagnose and fix the `pathfinder` tool's issues. Blind patching has proven ineffective.
+
+### C. Agent & Tool Concepts (New)
+*   **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness. This would have caught the multiple `pathfinder` bugs much faster.
+*   **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies. This could have helped me break out of the Mt. Mortar cycle much faster.
+*   **Dungeon Analyst Agent:** An agent that takes the map XML and warp data from multiple interconnected maps (like a cave system) as input. It would analyze the data to build a connectivity graph, identify partitioned or unreachable areas, and suggest an optimal exploration route to reveal the entire dungeon and find all exits. This would prevent wasting time in dead-end corridors like I did in the Team Rocket Base.
 
 ## VI. Hypotheses & Falsification Tests
 
