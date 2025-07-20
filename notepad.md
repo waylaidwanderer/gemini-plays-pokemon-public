@@ -124,3 +124,4 @@
 *   **Item Usage (HP Restore):** HP-restoring items (like POTION) can be used on a Pokémon that has taken any amount of damage, but not one at full HP.
 *   **Youngster Joey (Route 30):** Wants a rematch.
 *   **Untested:** ... unknown (EcruteakMart)
+*   **Camper Todd (Route 36):** Wants a rematch on Route 34.
