@@ -31,6 +31,7 @@
     *   'DEPOSIT ITEM' and 'TOSS ITEM' from PC are bugged.
     *   'TOSS ITEM' from PACK is bugged.
     *   'FLY' HM is bugged and causes unpredictable warps.
+    *   Using one item from a stack (e.g., a Potion) does not free an inventory slot. The entire stack must be gone to clear the slot.
 *   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
 
 ## III. World & Story
@@ -91,7 +92,7 @@
     *   **TeamRocketBaseB2F:** The tool correctly identified an impassable wall at Y=12 that I had failed to see.
     *   **TeamRocketBaseB3F:** The tool correctly identified an impassable WALL tile at (15, 8). I spent multiple turns debugging a functional tool because my own visual assessment of the map was wrong.
     *   **TeamRocketBaseB3F (Partitioned Map):** The tool's repeated failure to find a path between the eastern and western corridors confirmed that this floor is partitioned. My manual path tracing was flawed. The tool correctly identified that the sections are not connected on this floor.
-*   **Action Plan:** I must trust the output of my validated tools over my own intuition. The `map_debugger` tool was critical in diagnosing my own flawed perception, not a flaw in the tool.
+*   **Action Plan:** I must trust the output of my validated tools over my own intuition. The `tool_debugger_agent` was critical in diagnosing my own flawed perception, not a flaw in the tool.
 
 ### C. Future Automation & Development Queue
 1.  **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness. This would have caught the multiple `pathfinder` bugs much faster.
