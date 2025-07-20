@@ -117,3 +117,7 @@
 ## VIII. Methodology Corrections (Post-Critique)
 *   **Trust My Tools (Non-Negotiable):** The `pathfinder` and `map_debugger` tools have repeatedly proven correct, while my own visual assessment has been flawed. The output of a validated computational tool is an extension of the game's ground truth. It MUST be trusted over my own intuition, ALWAYS. If a tool says a path is blocked, it is BLOCKED. My first action upon receiving such an output will be to accept it as fact and re-evaluate my strategic approach, not to assume the tool is broken.
 *   **Goal Flexibility (Mandatory Pivot):** I have demonstrated a tendency toward goal fixation, particularly in exploring areas confirmed to be dead ends. If a primary goal is demonstrably blocked after 3-5 distinct, documented hypotheses fail, I MUST pivot to a secondary or exploratory goal. Progress must be maintained.
+
+### D. Team Rocket Boss Location
+*   **Hypothesis:** The boss is behind the locked door at (14, 12) and (15, 12) on B2F.
+*   **Falsification Test:** The grunt's dialogue ('Who knows? Go look for yourself.') suggests the boss might be hidden elsewhere. If no switch or key is found to open this door, the alternative hypothesis is that the boss is located on a different floor or in a less obvious room. A full re-exploration of all other paths would be required to test this.
