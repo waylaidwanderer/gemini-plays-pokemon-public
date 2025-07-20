@@ -44,4 +44,6 @@
 ## C. Future Development Ideas
 - **Puzzle Identifier Tool:** Create a tool that parses the `map_xml_string` to automatically identify puzzles (like boulder/switch combos or spinner mazes) and output their key coordinates. This would streamline using solver tools. (Correction: This must be a tool, not an agent, because it involves parsing raw XML data, which is a computational task.)
 - **Boulder Puzzle Solver Refinement:** The `boulder_puzzle_solver` tool should be updated to incorporate reachability checks (e.g., using A* pathfinding) to confirm the player can actually access the boulders and switches before attempting to find a solution. This will prevent it from failing when the player is on a different elevation or in an isolated area.
-- **Unverified:** Normal (observed from CUT) might be super-effective against Grass and/or Psychic types (vs. LEGION the EXEGGCUTE).
+
+## C. Unverified Hypotheses
+- **Normal-type effectiveness:** Normal (observed from CUT) might be super-effective against Grass and/or Psychic types (vs. LEGION the EXEGGCUTE).
