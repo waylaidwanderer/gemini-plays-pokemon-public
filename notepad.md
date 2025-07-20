@@ -70,3 +70,6 @@
 - **Confirmation Bias:** I exhibited confirmation bias when debugging the `pathfinder` tool. I assumed it was still broken after a fix and ignored evidence to the contrary. I must actively try to disprove my own assumptions and trust the data.
 - **Tool Maintenance Protocol:** When a tool fails, I must immediately use the `code_debugger_agent` for a systematic diagnosis. Manual, incremental fixes are inefficient and error-prone. Tool reliability is a higher priority than immediate gameplay progression.
 - **Real-Time Documentation:** All discoveries, failures, plans, and lessons learned must be documented in the notepad on the turn they occur, not summarized later.
+
+## C. Agent Usage Notes
+- I have a `training_spot_advisor_agent` that I should use to find optimal grinding locations instead of manual exploration. I will use this next time I need to train.
