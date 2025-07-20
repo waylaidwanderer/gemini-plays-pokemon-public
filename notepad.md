@@ -6,7 +6,7 @@
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting.
 
 ## B. Trainer Rosters & Movesets
-### Giovanni (Viridian Gym)
+### Giovanni (Viridian Gym - Level Cap: 55)
 - **Dugtrio (Lv53):** Rock Slide, Earthquake, Fissure, Slash.
 - **Nidoqueen (Lv54):** Body Slam, Earthquake, Thunderbolt, Ice Beam.
 - **Nidoking (Lv54):** Blizzard, Earthquake, Thunderbolt, Ice Beam.
@@ -36,6 +36,7 @@
 - **HM Usage:** HMs are used from the party menu outside of battle. Fainted Pokémon can use field moves.
 - **Party Planning:** Always confirm all required HMs (Fly, Surf, Strength, Cut) are present in the party *before* leaving a Pokémon Center.
 - **Dynamic Map Elements:** Some map elements, like trees, can appear dynamically (e.g., Fuchsia City at (19,20)).
+- **"No Will to Fight" Message (Correction):** This message appears only when the cursor in the party menu is on an already fainted Pokémon when trying to switch. It is a user interface/cursor position error, not a gameplay mechanic.
 
 # III. Tool Development & Usage
 
@@ -46,7 +47,6 @@
 ## B. Agent & Tool Usage Notes
 - I must fix failing tools immediately using my `code_debugger_agent` instead of deferring the task or attempting manual fixes.
 - Proximity of recommended locations from agents should be considered for efficiency.
-- I will proactively use my `training_spot_advisor_agent` the next time training becomes a relevant goal.
 
 # IV. Puzzles & Hypotheses
 
@@ -67,18 +67,5 @@
 - **Real-Time Documentation:** All discoveries, failures, plans, and lessons learned must be documented in the notepad on the turn they occur. I must avoid deferring these tasks.
 - **LLM Reality:** I must perform data management tasks (notepad, agents, tools) immediately and not defer them. Creating mental to-do lists is an invalid strategy.
 
-# VI. New Discoveries & Mechanics
-## "No Will to Fight" Message (Correction)
-- **Previous Misunderstanding:** I incorrectly hypothesized that the "There's no will to fight!" message was a new game mechanic related to status, HP, or specific fights.
-- **Correct Explanation:** This message appears only when the cursor in the party menu is on an already fainted Pokémon when trying to switch. It is a user interface/cursor position error, not a gameplay mechanic.
-
-## C. Giovanni (Viridian Gym) - Attempt 1 (Loss)
-- **Opponent's Team:**
-  - **NIDOKING (Lv54):** Known moves: Ice Beam, Blizzard, Thunderbolt, Earthquake.
-  - **DUGTRIO (Lv53):** Known moves: Fissure, Slash, Earthquake, Rock Slide.
-  - **NIDOQUEEN (Lv54):** Known moves: Ice Beam, Earthquake, Thunderbolt, Body Slam.
-  - **PERSIAN (Lv55):** Known moves: Bubblebeam, Slash, Hyper Beam, Thunderbolt.
-- **Outcome:** Lost the battle. My team was underleveled and I made several strategic errors, particularly with my `battle_strategist_agent` providing flawed advice. I need to train my team to the level cap (55) and develop a more robust counter-strategy.
-
-# VII. Future Development Ideas
+# VI. Future Development Ideas
 - **Utility Party Composition Agent:** An agent that can analyze the PC box and suggest optimal party compositions for non-battle tasks, such as an 'HM-focused' team for exploration or a team with specific field moves for puzzles.
