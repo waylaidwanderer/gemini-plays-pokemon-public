@@ -2,7 +2,7 @@
 
 ## A. Type Effectiveness Chart (Verified)
 - **Super Effective (2x):** Psychic > Ghost, Poison; Ghost > Psychic; Electric > Rock, Water; Flying > Grass, Poison, Fighting; Ice > Ground, Grass, Flying, Dragon; Ground > Poison, Fire, Electric, Rock; Rock > Fire, Ice, Flying, Bug; Fighting > Normal, Rock, Ice; Water > Fire, Ground, Rock; Grass > Water, Ground, Rock; Bug > Grass, Poison, Psychic; Poison > Grass, Bug.
-- **Not Very Effective (0.5x):** Normal !> Rock; Electric !> Grass, Electric, Dragon; Rock !> Ground, Fighting; Psychic !> Psychic; Poison !> Poison, Ground, Rock, Ghost; Ice !> Water, Ice, Fire; Fighting !> Poison, Flying, Psychic, Bug; Water !> Water, Grass, Dragon; Grass !> Fire, Grass, Poison, Flying, Bug, Dragon.
+- **Not Very Effective (0.5x):** Normal !> Rock; Electric !> Grass, Electric, Dragon; Rock !> Psychic; Psychic !> Psychic; Poison !> Poison, Ground, Rock, Ghost; Ice !> Water, Ice, Fire; Fighting !> Poison, Flying, Psychic, Bug; Water !> Water, Grass, Dragon; Grass !> Fire, Grass, Poison, Flying, Bug, Dragon.
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting.
 
 ## B. Trainer Rosters & Movesets
@@ -56,13 +56,10 @@
 - **Hypothesis 2 (Untested):** Interaction with the Pokémon in the enclosures is required, not the signs.
 - **Hypothesis 3 (Untested):** A specific Pokémon must be in the party to trigger an event.
 
-## B. Secret Key Location
-- **Discovery:** I already possessed the Secret Key, likely obtained from Giovanni in the Rocket Hideout. The search in the Pokémon Mansion was unnecessary.
-
 # V. Strategic Plans & Lessons Learned
 
-## A. Viridian Gym Strategy (Level Cap: 55)
-- **Current Plan:** Challenge Giovanni in the Viridian City Gym. The gym is a spinner maze, which I successfully navigated with my improved `spinner_maze_solver` tool. My team is currently struggling, but I am committed to winning this battle.
+## A. Viridian Gym - Next Attempt Prep (Level Cap: 55)
+- **Current Plan:** My team is underleveled for the fight against Giovanni. The immediate goal is to train my party to the level cap of 55 at Seafoam Islands before attempting the gym again.
 
 ## B. Lessons Learned
 - **Confirmation Bias:** I exhibited confirmation bias when anticipating Giovanni's Nidoqueen would use Thunderbolt. I must remember that the AI is smart and will use coverage moves. I need to anticipate a wider range of attacks.
