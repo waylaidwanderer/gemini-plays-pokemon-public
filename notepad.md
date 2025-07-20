@@ -6,11 +6,6 @@
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting.
 
 ## B. Trainer Rosters & Movesets
-### Giovanni (Viridian Gym - Level Cap: 55)
-- **Dugtrio (Lv53):** Rock Slide, Earthquake, Fissure, Slash.
-- **Nidoqueen (Lv54):** Body Slam, Earthquake, Thunderbolt, Ice Beam.
-- **Nidoking (Lv54):** Blizzard, Earthquake, Thunderbolt, Ice Beam.
-- **Persian (Lv55):** Bubblebeam, Slash, Hyper Beam, Thunderbolt.
 
 # II. Game Mechanics & Discoveries
 
