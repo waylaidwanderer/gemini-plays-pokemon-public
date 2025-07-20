@@ -1,36 +1,37 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. Methodology & Self-Correction
+## I. Game State & Objectives
 
-### A. Core Principles
-1.  **Notepad First:** Before any manual navigation or complex interaction, I MUST consult this notepad to review established facts, failed hypotheses, and known impassable areas.
-2.  **Immediate Documentation:** All observations, test results, tool outputs (especially failures), and new hypotheses must be documented in this notepad *immediately* after they occur. No deferrals.
-3.  **Hypothesize, Test, Document:** For any unknown, I will form a single, testable hypothesis, execute the simplest possible test, and document the result before proceeding.
-4.  **Pivot, Don't Persist:** If a hypothesis fails 3 times, or a tool confirms a path is blocked, I MUST abandon the approach and formulate a new, fundamentally different one.
+### A. Primary Questline
+*   **Mahogany Town Gym:** Obtain the 6th Gym Badge.
+*   **Team Rocket Hideout:** Find the boss and use the passwords to disrupt their radio signal operation. The entrance is a secret stairway in the Mahogany Mart.
+*   **RED SCALE Investigation:** Mr. Pokémon is the primary person of interest.
 
-### B. Tool & Data Integrity Protocol
-1.  **Zero-Tolerance for Tool Bugs:** Any identified tool malfunction (e.g., `pathfinder` failure) is a "stop-the-world" event. This becomes the absolute top priority. I will not use a known-buggy tool for any purpose other than active debugging.
-2.  **Ground Truth:** Validated tool output (e.g., from a trusted `pathfinder`) and documented facts in this notepad are considered ground truth, overriding my own intuition.
-3.  **Data Management is Paramount:** Failures to give/toss items or manage inventory are critical data integrity issues. These must be logged and a workaround established immediately.
+### B. Active Side Quests
+*   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
+*   **Rematch List:** Picnicker Liz (Route 32), Youngster Joey (Route 30), Camper Todd (Route 34).
 
-## II. Game Mechanics & Systems
+### C. Known Blockers & Story Gates
+*   **Mahogany Town Gym:** A Fisher blocks the entrance at (6, 14).
+*   **Schoolboy Alan (Route 36):** In a dialogue loop, likely a story-gated event.
 
-### A. Tile Traversal Rules (Verified)
-*   **Impassable:** WALL, COUNTER, MART_SHELF, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, ROCK, BUOY, VOID
-*   **Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA, unknown (TeamRocketBaseB3F), unknown (Route42 - Confirmed traversable up/down, appears to function like FLOOR)
-*   **Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT
-*   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL
-*   **Conditional (One-Way):** PIT (fall), LEDGE_HOP_RIGHT, LEDGE_HOP_LEFT, LEDGE_HOP_DOWN
-*   **Conditional (Special):** FLOOR_UP_WALL (ledge, can only be entered by moving 'Up' from the tile below it. It is impassable from above, left, and right, effectively a one-way 'up' ledge).
-*   **Untested:** RADIO, INCENSE_BURNER, unknown (TeamRocketBaseB2F), unknown (MahoganyPokecenter1F), unknown (LakeOfRage), COMPUTER, BED, CABINET, SINK, PLANT, unknown (MountMortarB1F)
+## II. Game Mechanics
+
+### A. Tile Traversal Rules
+*   **Verified Impassable:** WALL, COUNTER, MART_SHELF, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, ROCK, BUOY, VOID.
+*   **Verified Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA, unknown (TeamRocketBaseB3F), unknown (Route42).
+*   **Verified Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN/LEFT/RIGHT.
+*   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL.
+*   **One-Way:** PIT (fall), LEDGE_HOP_RIGHT/LEFT/DOWN, FLOOR_UP_WALL (one-way 'up' ledge).
+*   **Untested:** RADIO, INCENSE_BURNER, unknown (TeamRocketBaseB2F), unknown (MahoganyPokecenter1F), unknown (LakeOfRage), COMPUTER, BED, CABINET, SINK, PLANT, unknown (MountMortarB1F).
 
 ### B. System Bugs & Glitches (Verified)
-*   **Item Management:**
-    *   'DEPOSIT ITEM' and 'TOSS ITEM' from PC are bugged.
-    *   'TOSS ITEM' from PACK is bugged.
-    *   'FLY' HM is bugged and causes unpredictable warps.
-    *   Using one item from a stack (e.g., a Potion) does not free an inventory slot. The entire stack must be gone to clear the slot.
-*   **Giving Items (Bugged):** Giving an item to a Pokémon that is already holding one initiates a swap prompt, but does not free an inventory slot.
+*   **Item Management:** 'DEPOSIT ITEM' & 'TOSS ITEM' (from PC & PACK) are bugged. 'FLY' HM is bugged. Using one item from a stack does not free an inventory slot.
+*   **Giving Items:** Giving an item to a Pokémon does not free an inventory slot.
+
+### C. Item Usage Rules
+*   **Status Heal:** Cannot be used on a Pokémon not afflicted with that status.
+*   **HP Restore:** Can be used on any damaged Pokémon, but not one at full HP.
 
 ## III. World & Story
 
