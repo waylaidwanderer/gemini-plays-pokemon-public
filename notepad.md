@@ -118,8 +118,7 @@
 *   **Hypothesis:** The boss is behind the locked door at (14, 12) and (15, 12) on B2F.
 *   **Falsification Test:** The grunt's dialogue ('Who knows? Go look for yourself.') suggests the boss might be hidden elsewhere. If no switch or key is found to open this door, the alternative hypothesis is that the boss is located on a different floor or in a less obvious room. A full re-exploration of all other paths would be required to test this.
 ### E. Team Rocket B1F Arrow Maze
-*   (1, 4) -> Forces movement UP to (1, 3).
-*   (1, 3) -> Normal floor tile (tested Left and Right).
+*   (1, 3) -> Forces movement DOWN to (1, 4). (Hypothesis: This is a one-way tile. Test by attempting to move up from (1,4) to (1,3).)
 ### F. Team Rocket B1F Maze Progression
 *   **Hypothesis:** The invisible arrow tile maze is the only path to the boss.
 *   **Falsification Test:** If solving the maze leads to a dead end or only an item, this hypothesis is false. The alternative is that another hidden switch or interaction exists elsewhere in the hideout, requiring a full re-exploration of all interactable objects.
