@@ -35,6 +35,12 @@
 ## B. Trainer Rosters & Movesets
 *This section is for recording the teams and moves of significant trainers (Gym Leaders, Rivals) after a battle is concluded.*
 
+## C. Wild Encounters Log
+- **Seafoam Islands 1F:** SLOWPOKE (Lv35) at (5, 13), KRABBY (Lv32) at (7, 7).
+- **Seafoam Islands B1F:** ZUBAT (Lv27) at (7, 11), KRABBY (Lv26) at (10, 14).
+- **Seafoam Islands B2F:** KINGLER (Lv38) at (12, 8), SLOWPOKE (Lv35) at (7, 9).
+- **Seafoam Islands B3F:** SEEL (Lv34) at (7, 5).
+
 # III. Puzzles & Exploration
 
 ## A. Solved Puzzles
@@ -51,6 +57,7 @@
 - **Pathfinder Tool (Invalid Path - Elevated Ground):** The tool generated a path from `ground` to `elevated_ground`, which is an invalid move. The `is_traversable` function was updated to correctly restrict movement between `ground` and `elevated_ground` unless `steps` are used.
 - **Pathfinder Tool (Invalid Path - Water):** The tool generated a path from a `ground` tile directly into a `water` tile. This is an invalid move as it requires using Surf from the menu. **Limitation:** The tool cannot currently plan multi-stage paths that involve starting on land, using an HM like Surf, and then navigating on water.
 - **Boulder Puzzle Solver (Failure & Fix):** The `boulder_puzzle_solver` returned 'No solution found' for the western B3F puzzle. This was due to two bugs: an incorrect initial check in the `player_a_star` function and improper handling of movement between `ground` and `elevated_ground`. The tool has been updated with a corrected script and now requires testing on the original puzzle.
+- **Pathfinder Tool (Impassable Target):** The tool failed to find a path to an impassable target because the logic for finding an adjacent, reachable goal was flawed. It incorrectly used `is_traversable` from the impassable tile itself. The logic has been updated to check if the adjacent tile is a valid standing tile, then lets A* find the path.
 
 ## B. Future Tool/Agent Ideas
 - **Advanced Pathfinder Tool:** Enhance the `pathfinder` to handle multi-stage navigation, including the use of HMs like Surf or Cut from the menu to transition between terrain types (e.g., land -> water).
@@ -61,12 +68,4 @@
 - **User Error vs. Tool Error:** When a tool appears to fail, first consider if the failure was due to user error (e.g., using an outdated path after an interruption) before assuming the tool itself is bugged. Verify the context before debugging.
 - **Overwatch Critique (Tool Refinement):** Received a critical critique for not immediately fixing the `boulder_puzzle_solver` tool after it failed. Core directive is to prioritize tool maintenance. This mistake has been corrected, and the tool was fixed at the next safe opportunity.
 - **Dead End Misidentification:** Incorrectly concluded that Seafoam Islands B2F was a dead end after one path failed, ignoring other reachable warps. I must be more thorough and trust system data over hasty assumptions.
-- **Pathfinder Tool (Impassable Target):** The tool failed to find a path to an impassable target because the logic for finding an adjacent, reachable goal was flawed. It incorrectly used `is_traversable` from the impassable tile itself. The logic has been updated to check if the adjacent tile is a valid standing tile, then lets A* find the path.
-- **Wild Encounter:** Encountered a wild SLOWPOKE (Lv35) at (5, 13) on Seafoam Islands 1F.
-- **Wild Encounter:** Encountered a wild KRABBY (Lv32) at (7, 7) on Seafoam Islands 1F.
-- **Wild Encounter:** Encountered a wild ZUBAT (Lv27) at (7, 11) on Seafoam Islands B1F.
-- **Wild Encounter:** Encountered a wild KRABBY (Lv26) at (10, 14) on Seafoam Islands B1F.
-- **Wild Encounter:** Encountered a wild KINGLER (Lv38) at (12, 8) on Seafoam Islands B2F.
-- **Wild Encounter:** Encountered a wild SLOWPOKE (Lv35) at (7, 9) on Seafoam Islands B2F.
 - **Boulder Puzzle Solver (User Error):** The tool correctly returned 'No solution found' because I was attempting to solve the puzzle from a location where the player could not physically reach the boulders. The tool requires the player to be in the correct area before it can find a solution. This is a user error, not a tool bug.
-- **Wild Encounter:** Encountered a wild SEEL (Lv34) at (7, 5) on Seafoam Islands B3F.
