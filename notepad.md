@@ -96,10 +96,11 @@
 *   **Action Plan:** I must trust the output of my validated tools over my own intuition. The `tool_debugger_agent` was critical in diagnosing my own flawed perception, not a flaw in the tool.
 
 ### C. Future Automation & Development Queue
-1.  **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness. This would have caught the multiple `pathfinder` bugs much faster.
-2.  **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies. This could have helped me break out of the Mt. Mortar cycle much faster.
+1.  **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness.
+2.  **Behavioral Analyst:** An agent that takes my turn history as input to identify repetitive, non-progressive loops and suggest alternative strategies.
 3.  **Exploration Tool:** A tool to auto-path to unseen tiles.
 4.  **Battle Advisor:** An agent to suggest moves based on known opponent rosters.
+5.  **Area Scanner:** A computational tool that takes start/end coordinates for a rectangle and systematically moves through it, reporting back any tiles that cause forced movement (e.g., arrow tiles).
 
 ## VI. Hypotheses & Falsification Tests
 
@@ -115,20 +116,11 @@
 *   **Hypothesis:** The only path from Mahogany Town to Ecruteak City is through Mt. Mortar.
 *   **Falsification Test:** After clearing inventory in Ecruteak, return to Route 42. Check if the Super Nerd at (47, 8) has moved or if there is an alternative way to access the northern water route. If another path exists, the hypothesis is false.
 
-### F. Team Rocket B1F Maze Progression
-*   **Hypothesis:** The invisible arrow tile maze is the only path to the boss.
-*   **Falsification Test:** If solving the maze leads to a dead end or only an item, this hypothesis is false. The alternative is that another hidden switch or interaction exists elsewhere in the hideout, requiring a full re-exploration of all interactable objects.
+### D. Team Rocket B1F Maze Progression
+*   **Current State:** The dialogue from the Grunt at (2, 4) confirms the existence of an invisible arrow tile maze ('traps'). My systematic testing of all tiles adjacent to the Grunt, and the Grunt tile itself, has confirmed they are not the start of the maze.
+*   **Current Hypothesis:** The maze starts on a floor tile somewhere in this room.
+*   **Current Plan:** Systematically test every floor tile in this room by moving onto it and attempting to move in a cardinal direction. Record any forced movements.
+*   **Falsification Test:** If I test every floor tile and none trigger forced movement, this hypothesis is false. The alternative is that another hidden switch or interaction exists elsewhere in the hideout, which would require a full re-exploration of all interactable objects (statues, computers, etc.) on all floors.
 
 ## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
-
-### D. Team Rocket Boss Location
-*   **Hypothesis:** The boss is behind the locked door at (14, 12) and (15, 12) on B2F.
-*   **Falsification Test:** The grunt's dialogue ('Who knows? Go look for yourself.') suggests the boss might be hidden elsewhere. If no switch or key is found to open this door, the alternative hypothesis is that the boss is located on a different floor or in a less obvious room. A full re-exploration of all other paths would be required to test this.
-### E. Team Rocket B1F Arrow Maze
-* (1, 3) & (1, 4) -> Confirmed to be normal floor tiles. My hypothesis about a one-way path here was incorrect. The maze must start elsewhere.
-* (1, 2), (2, 1), (2, 2), (2, 3), (3, 2), (3, 4), (4, 4), (3, 5), (4, 5), (5, 5), (4, 6), (5, 6): Confirmed normal floor tiles. My systematic testing of this area continues.
-* (4, 5): Confirmed normal floor tile.
-### F. Team Rocket B1F Maze Progression
-*   **Hypothesis:** The invisible arrow tile maze is the only path to the boss.
-*   **Falsification Test:** If solving the maze leads to a dead end or only an item, this hypothesis is false. The alternative is that another hidden switch or interaction exists elsewhere in the hideout, requiring a full re-exploration of all interactable objects.
