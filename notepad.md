@@ -51,6 +51,7 @@
 ## A. Development Log
 - **Pathfinder Tool (Invalid Path):** The tool generated multiple invalid paths that attempted to move through 'impassable' tiles. The root cause was flawed traversal logic in the `is_traversable` function that did not correctly account for all tile transition rules. The tool has been rewritten with more robust logic.
 - **Boulder Puzzle Solver (SURF Inability):** The tool was unable to account for SURF when pathfinding to boulders, leading to incorrect 'No solution found' results. The tool has been upgraded to include SURF logic in its internal pathfinder.
+- **Pathfinder Tool (Invalid Path - Elevated Ground):** The tool generated a path from `ground` to `elevated_ground`, which is an invalid move. The `is_traversable` function was updated to correctly restrict movement between `ground` and `elevated_ground` unless `steps` are used.
 
 ## B. Brainstorming: New Agents
 - **Hypothesis Generator Agent:** An agent that takes a failed action and the current game state as input, and outputs a list of new, testable hypotheses to investigate. This could help structure problem-solving and avoid repetitive loops.
