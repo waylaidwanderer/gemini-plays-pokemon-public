@@ -44,29 +44,19 @@
 - **Tool Limitations:** My `pathfinder` tool cannot account for scripted environmental barriers (like the strong current in Seafoam Islands). For such puzzles, I must rely on manual exploration and hypothesis testing.
 
 ## B. Future Development Ideas
-- **Boulder Puzzle Solver Tool:** A tool to analyze map XML and provide step-by-step solutions for boulder puzzles. (Critique noted this is a computational task, better for a tool than an agent).
+- **Boulder Puzzle Solver Tool:** A tool to analyze map XML and provide step-by-step solutions for boulder puzzles.
 
-# IV. Puzzles & Hypotheses
+# IV. Puzzles & Lessons Learned
 
 ## A. Seafoam Islands Puzzle
-- **Observation:** The Seafoam Islands dungeon is split into non-contiguous eastern and western sections on each floor.
-- **Observation (B4F):** Attempting to use Surf from the steps at (8, 12) is blocked by the message 'The current is much too fast!'.
-- **Hypothesis 1:** The boulders on the floors must be pushed into holes to alter the current.
-- **Hypothesis 2 (Confirmed):** The western boulder puzzle area is inaccessible from the eastern ladders. The correct path requires finding an alternate route from a higher floor.
-- **Test (Hypothesis: Surf from Elevated Ground):** Attempted to use Surf from `elevated_ground` tile at (8, 7) on B4F. **Result:** Failed. The game message 'No SURFing on [Pokemon] here!' appeared. **Conclusion:** Surfing is not possible from `elevated_ground`.
-- **Test (Hypothesis: Hidden Wall Passage on B4F):** Systematically attempted to walk through the western 'impassable' wall on the eastern B4F platform. **Result:** Failed. All tiles were impassable as marked. **Conclusion:** There is no hidden passage in that wall.
+- **Conclusion:** The Seafoam Islands dungeon is split into non-contiguous eastern and western sections on each floor. The correct path to the central boulder puzzle on B3F is via water warps, not by descending ladders on the outer platforms. The strong current on B4F is the central puzzle element to be solved by dropping boulders into holes from the floors above.
+- **Conclusion (Surf Mechanics):** Surfing is not possible from `elevated_ground` tiles.
 
 ## B. Fuchsia City Secret Pokémon (at (26, 7))
 - **Observation:** An item ball at (26, 7) is in an enclosed area. A Youngster at (25, 9) states, "That item ball in there is really a POKéMON."
-- **Hypothesis (Untested):** Interaction with the Pokémon in the enclosures is required, not the signs.
 
-# V. Strategic Plans & Lessons Learned
-
-## A. Current Plan: Seafoam Islands Exploration
-- **Immediate Goal:** Backtrack to B2F to find an alternate route to the western section of the lower floors to solve the boulder puzzle.
-
-## B. Lessons Learned
-- **Confirmation Bias:** I exhibited confirmation bias by repeatedly trying to fix my `pathfinder` tool for a scripted event it couldn't handle, instead of accepting the evidence and changing my strategy.
-- **Strategic Flexibility:** If a strategy is failing repeatedly (like trying to cross the strong current), I must pivot to a different approach (like backtracking) to maintain progress.
-- **Trust the Game State:** I must trust the game state information (e.g., 'reachable unseen tiles') over my own visual perception, as it may reveal paths or possibilities I have missed.
+## C. Strategic Lessons
+- **Confirmation Bias:** I exhibited confirmation bias by assuming my initial pathing ideas were the only solution, instead of testing alternatives when they failed. I must actively try to disprove my own hypotheses.
+- **Strategic Flexibility:** If a strategy is failing repeatedly, I must pivot to a different approach.
+- **Trust the Game State:** I must trust the game state information (e.g., 'navigable warps') over my own interpretations or tool outputs, as it is the absolute source of truth.
 - **LLM Reality:** Data management tasks (notepad, agents, tools) must be performed immediately and not deferred.
