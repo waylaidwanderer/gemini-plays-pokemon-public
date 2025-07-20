@@ -33,51 +33,37 @@
 *   **Status Heal:** Cannot be used on a Pokémon not afflicted with that status.
 *   **HP Restore:** Can be used on any damaged Pokémon, but not one at full HP.
 
-## III. World & Story
+## III. World Knowledge
 
-### A. Active Quests & Blockers
-*   **Mahogany Town Gym Block:** A Fisher is blocking the gym entrance. Hypothesis: I must find and speak to Lance at the Lake of Rage to progress the story.
-*   **Team Rocket Hideout:** Find the boss and use the passwords to disrupt their radio signal operation. The entrance is a secret stairway in the Mahogany Mart, revealed by interacting with the Pharmacist.
-*   **RED SCALE Investigation:** Mr. Pokémon is the primary person of interest.
-*   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
+### A. Solved Puzzles & Key Discoveries
+*   **Cianwood City Stuck Spot:** Resolved by triggering back-to-back phone calls (Mom, then Liz) on tile (10, 28).
+*   **Ilex Forest Shrine:** A Lass in the Route 34 Gate mentioned a shrine honoring a grass-type protector.
+*   **TM12 (Sweet Scent):** Given by Teacher in Route 34 Ilex Forest Gate.
+*   **Team Rocket Base B1F Secret Passage:** The 'door' at (10, 9) is opened by the Secret Switch at (19, 11).
+*   **Team Rocket Base B1F Hidden Revive (Unobtainable):** Item at (3, 11) is currently unobtainable, likely story-gated.
+*   **Team Rocket Base B2F Layout:** Northern and southern corridors are separate. Access to the north must be from a different warp on B1F.
 
-### B. Passwords & Keys
-*   **Team Rocket Hideout (Boss's Room):
-    1. SLOWPOKETAIL (Confirmed)
-    2. RATICATE TAIL (Unconfirmed)
-    3. HAIL GIOVANNI (Confirmed)
+### B. Falsified Hypotheses & Dead Ends
+*   **Mahogany Gym Blocker:** The Fisher did NOT move after the Lake of Rage event. Hypothesis that Lance's presence was the trigger is false.
+*   **Secret Potion Location:** The hint for Cianwood City was incorrect; the Pharmacist runs a regular shop.
+*   **Team Rocket B2F Southern Corridor:** The ROCKET at (21, 14) has non-progressive dialogue, confirming this path is a dead end.
 
-### C. Solved Puzzles & Key Discoveries
-*   **Cianwood City Stuck Spot:** Was stuck on tile (10, 28). Solution was to trigger and complete the back-to-back phone calls (Mom, then Liz).
-*   **Team Rocket Base B2F Layout:** The northern and southern corridors are separated by a wall and are not connected on this floor. Access to the northern section must be from a different warp on B1F.
-*   **Secret Potion Location (Hypothesis Debunked):** The NPC hint pointing to Cianwood City was incorrect. The Pharmacist runs a regular shop and does NOT have the Secret Potion.
-*   **Schoolboy Alan (Route 36):** My hypothesis that he had an item for me was incorrect. He is in a dialogue loop, which confirms he is a story-gated event.
-*   **Ilex Forest Shrine:** A Lass in the Route 34 Gate mentioned a shrine honoring a grass-type protector of the forest.
-*   **TM12 (Sweet Scent):** Given by Teacher in Route 34 Ilex Forest Gate. Attracts wild Pokémon.
-*   **Team Rocket Base B1F Secret Passage:** The 'door' at (10, 9) is a secret passage, not a locked door. It is opened by activating the Secret Switch at (19, 11).
-*   **Team Rocket Base B1F Hidden Revive (Unobtainable):** The hidden Revive at (3, 11) is currently unobtainable. Systematic testing from all adjacent tiles and facings failed to trigger the item pickup, suggesting a story flag or other unmet condition is required.
+### C. Passwords & Keys
+*   **Team Rocket Hideout (Boss's Room):** SLOWPOKETAIL (Confirmed), HAIL GIOVANNI (Confirmed), RATICATE TAIL (Unconfirmed).
 
-## IV. Battle and Pokemon Information
+## IV. Battle Intel
 
-### A. Type Effectiveness Chart (Verified in-game)
+### A. Type Effectiveness Chart (Verified)
 *   Water (Surf) vs. Water/Flying (Gyarados) -> Not Very Effective
 
-### B. Observed Movesets
-*   **Youngster Joey's RATTATA:** Tackle, Tail Whip
-*   **Falkner's PIDGEY:** Tackle
-*   **Falkner's PIDGEOTTO:** Tackle, Gust
-*   **Bugsy's METAPOD:** Harden
-*   **Bugsy's KAKUNA:** Harden
-*   **Bugsy's SCYTHER:** Fury Cutter, Leer
-*   **Whitney's CLEFAIRY:** Doubleslap, Encore
-*   **Whitney's MILTANK:** Rollout, Stomp, Attract
-*   **Morty's GASTLY:** Lick, Spite
-*   **Morty's HAUNTER:** Curse, Hypnosis, Dream Eater
-*   **Morty's GENGAR:** Shadow Ball, Hypnosis, Dream Eater
-*   **Jasmine's MAGNEMITE:** Thunderbolt, Thunder Wave, Supersonic
-*   **Jasmine's STEELIX:** Iron Tail, Screech, Rock Throw
-*   **Chuck's PRIMEAPE:** Leer, Rage, Karate Chop
-*   **Chuck's POLIWRATH:** Hypnosis, Mind Reader, Dynamicpunch
+### B. Observed Trainer/Gym Leader Movesets
+*   **Youngster Joey:** RATTATA (Tackle, Tail Whip)
+*   **Falkner:** PIDGEY (Tackle), PIDGEOTTO (Tackle, Gust)
+*   **Bugsy:** METAPOD (Harden), KAKUNA (Harden), SCYTHER (Fury Cutter, Leer)
+*   **Whitney:** CLEFAIRY (Doubleslap, Encore), MILTANK (Rollout, Stomp, Attract)
+*   **Morty:** GASTLY (Lick, Spite), HAUNTER (Curse, Hypnosis, Dream Eater), GENGAR (Shadow Ball, Hypnosis, Dream Eater)
+*   **Jasmine:** MAGNEMITE (Thunderbolt, Thunder Wave, Supersonic), STEELIX (Iron Tail, Screech, Rock Throw)
+*   **Chuck:** PRIMEAPE (Leer, Rage, Karate Chop), POLIWRATH (Hypnosis, Mind Reader, Dynamicpunch)
 
 ## V. Automation & Tool Development
 
