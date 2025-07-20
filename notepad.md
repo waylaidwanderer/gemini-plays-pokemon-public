@@ -63,4 +63,4 @@
 
 ## Seafoam Islands B3F Boulder Puzzle
 - **Attempt 1:** Used `boulder_puzzle_solver` for the main cluster of boulders. Result: 'No solution found'.
-- **Hypothesis:** The main puzzle is currently unsolvable. The isolated boulder at (20, 7) might be a separate puzzle.
+- **Hypothesis:** The main puzzle seems unsolvable from the western platform. The isolated boulder at (20, 7) might be a separate puzzle, or I need to approach the main puzzle from a different angle.
