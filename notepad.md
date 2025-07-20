@@ -20,55 +20,53 @@
 - **Grass:** Tall grass for wild Pokémon encounters.
 - **Ledge:** Can be jumped down (one-way). Moving down into a ledge tile moves the player two tiles down.
 - **Cuttable Tree:** Requires HM Cut to pass. Becomes `ground` after cutting, but respawns on map change.
-- **Water:** Requires HM Surf to traverse. To use Surf from a land tile, you must be standing on a ground tile that is adjacent to a water tile, face the water, and use the HM from the party menu.
+- **Water:** Requires HM Surf to traverse. To use Surf from a land tile, you must be standing on a 'ground', 'water', or 'steps' tile adjacent to water, face the water, and use the HM from the party menu.
 - **Boulder:** Requires HM Strength to move.
 - **Hole:** Warps player to a lower floor.
 - **Ladder (Up/Down):** Warps player between floors.
-- **Warp:** An instant transition point between maps or areas within a map (e.g., doors, cave entrances).
+- **Warp:** An instant transition point between maps or areas within a map.
 - **Steps:** Allows vertical and horizontal movement between 'steps' and adjacent 'ground' or 'elevated_ground' tiles.
-- **Spinner (up, down, left, right):** Forces movement in a specific direction until a `spinner_stop` tile or another obstacle is hit.
+- **Spinner (up, down, left, right):** Forces movement in a specific direction.
 - **Spinner Stop:** A tile that halts movement from a spinner.
 - **Elevated Ground:** Walkable ground at a different elevation. Movement between `elevated_ground` and `ground` is only possible via `steps`.
-- **Gate (`gate_offscreen`, `closed_gate`):** Barriers that may open or close based on game events. Off-screen gates are treated as potentially open for pathfinding unless proven otherwise.
+- **Gate (`gate_offscreen`, `closed_gate`):** Barriers that may open or close based on game events.
 
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu outside of battle. Fainted Pokémon can use field moves.
-- **Party Planning:** Always confirm all required HMs (Fly, Surf, Strength, Cut) are present in the party *before* leaving a Pokémon Center.
-- **Dynamic Map Elements:** Some map elements, like trees, can appear dynamically (e.g., Fuchsia City at (19,20)).
-- **"No Will to Fight" Message (Correction):** This message appears only when the cursor in the party menu is on an already fainted Pokémon when trying to switch. It is a user interface/cursor position error, not a gameplay mechanic.
+- **"No Will to Fight" Message (Correction):** This message appears only when the cursor in the party menu is on an already fainted Pokémon. It is a UI error, not a gameplay mechanic.
 
 # III. Tool Development & Usage
 
 ## A. Custom Tools & Agents
-- My agents (`battle_strategist_agent`, `code_debugger_agent`, `menu_navigator_agent`, etc.) are for high-level reasoning and decision-making.
-- My tools (`pathfinder`, `spinner_maze_solver`, etc.) are for complex computational tasks like pathfinding.
-- I must fix failing tools immediately using my `code_debugger_agent` instead of deferring the task.
+- My agents (`battle_strategist_agent`, etc.) are for high-level reasoning.
+- My tools (`pathfinder`, etc.) are for complex computational tasks.
+- **Tool Limitations:** My `pathfinder` tool cannot account for scripted environmental barriers (like the strong current in Seafoam Islands). For such puzzles, I must rely on manual exploration and hypothesis testing.
 
 ## B. Future Development Ideas
-- **Navigation Assistant Agent:** An agent that can analyze the map XML and a goal to provide a high-level navigation plan, considering potential tool failures and suggesting alternative routes.
+- **Boulder Puzzle Solver Agent:** An agent to analyze map XML and provide step-by-step solutions for boulder puzzles.
 
 # IV. Puzzles & Hypotheses
 
-## A. Seafoam Islands Navigation
-- **Surf from Elevated Ground (Hypothesis Failed):** The game explicitly prevents using Surf from an `elevated_ground` tile, even if adjacent to water. The message 'No SURFing on [Pokemon] here!' confirms this. Access to water from elevated platforms must be done via `steps` tiles.
+## A. Seafoam Islands Puzzle
+- **Observation:** The Seafoam Islands dungeon is split into non-contiguous eastern and western sections on each floor.
+- **Observation (B4F):** Attempting to use Surf from the steps at (8, 12) is blocked by the message 'The current is much too fast!'.
+- **Hypothesis 1:** The boulders on the floors must be pushed into holes to alter the current.
+- **Hypothesis 2:** The western boulder puzzle area is inaccessible from the eastern ladders. The correct path requires finding an alternate route from a higher floor.
+- **Test (Hypothesis: Surf from Elevated Ground):** Attempted to use Surf from `elevated_ground` tile at (8, 7) on B4F. **Result:** Failed. The game message 'No SURFing on [Pokemon] here!' appeared. **Conclusion:** Surfing is not possible from `elevated_ground`.
+- **Test (Hypothesis: Hidden Wall Passage on B4F):** Systematically attempted to walk through the western 'impassable' wall on the eastern B4F platform. **Result:** Failed. All tiles were impassable as marked. **Conclusion:** There is no hidden passage in that wall.
 
 ## B. Fuchsia City Secret Pokémon (at (26, 7))
 - **Observation:** An item ball at (26, 7) is in an enclosed area. A Youngster at (25, 9) states, "That item ball in there is really a POKéMON."
-- **Hypothesis 1 (Failed):** The signs next to the other Pokémon exhibits must be read in a specific order to unlock the enclosure.
-- **Hypothesis 2 (Untested):** Interaction with the Pokémon in the enclosures is required, not the signs.
-- **Hypothesis 3 (Untested):** A specific Pokémon must be in the party to trigger an event.
+- **Hypothesis (Untested):** Interaction with the Pokémon in the enclosures is required, not the signs.
 
 # V. Strategic Plans & Lessons Learned
 
-## A. Viridian Gym - Next Attempt Prep (Level Cap: 55)
-- **Current Plan:** My team is underleveled for the fight against Giovanni. The immediate goal is to train my party to the level cap of 55 at Seafoam Islands before attempting the gym again.
+## A. Current Plan: Seafoam Islands Exploration
+- **Immediate Goal:** Backtrack to B2F to find an alternate route to the western section of the lower floors to solve the boulder puzzle.
 
 ## B. Lessons Learned
-- **Confirmation Bias:** I exhibited confirmation bias when anticipating Giovanni's Nidoqueen would use Thunderbolt and when trusting my own broken `pathfinder` tool. I must be more skeptical and try to disprove my own assumptions.
-- **Strategic Flexibility:** I got stuck in a loop of trying to fix my `pathfinder` tool. If a strategy is failing repeatedly, I must pivot to a different approach, such as manual navigation or testing a new hypothesis, to maintain progress.
-- **Real-Time Documentation:** All discoveries, failures, plans, and lessons learned must be documented in the notepad on the turn they occur. I must avoid deferring these tasks.
-- **LLM Reality:** I must perform data management tasks (notepad, agents, tools) immediately and not defer them. Creating mental to-do lists is an invalid strategy.
-## C. Seafoam Islands Strong Current
-- **Observation:** Attempting to use Surf from the steps at (8, 12) on B4F is blocked by the message 'The current is much too fast!'.
-- **Hypothesis:** The boulders on this floor must be pushed into the water to alter the current and allow passage.
+- **Confirmation Bias:** I exhibited confirmation bias by repeatedly trying to fix my `pathfinder` tool for a scripted event it couldn't handle, instead of accepting the evidence and changing my strategy.
+- **Strategic Flexibility:** If a strategy is failing repeatedly (like trying to cross the strong current), I must pivot to a different approach (like backtracking) to maintain progress.
+- **Trust the Game State:** I must trust the game state information (e.g., 'reachable unseen tiles') over my own visual perception, as it may reveal paths or possibilities I have missed.
+- **LLM Reality:** Data management tasks (notepad, agents, tools) must be performed immediately and not deferred.
