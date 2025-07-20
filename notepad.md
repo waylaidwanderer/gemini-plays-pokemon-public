@@ -49,8 +49,11 @@
 # IV. Puzzles & Lessons Learned
 
 ## A. Seafoam Islands Puzzle
-- **Conclusion:** The Seafoam Islands dungeon is split into non-contiguous eastern and western sections on each floor. The correct path to the central boulder puzzle on B3F is via water warps, not by descending ladders on the outer platforms. The strong current on B4F is the central puzzle element to be solved by dropping boulders into holes from the floors above.
-- **Conclusion (Surf Mechanics):** Surfing is not possible from `elevated_ground` tiles.
+- **East Section (Conclusion):** The eastern sections of the Seafoam Islands are a dead end for the main puzzle. The path forward is through the western entrance.
+- **West Section (Current Hypothesis):** The solution involves pushing boulders on multiple floors (B1F, B2F, B3F) to block the strong current on B4F. It appears Strength can be used while Surfing.
+- **Mechanics:**
+    - Surfing is not possible from `elevated_ground` tiles.
+    - Water warps on B3F connect the outer platforms to the central puzzle area.
 
 ## B. Fuchsia City Secret Pokémon (at (26, 7))
 - **Observation:** An item ball at (26, 7) is in an enclosed area. A Youngster at (25, 9) states, "That item ball in there is really a POKéMON."
