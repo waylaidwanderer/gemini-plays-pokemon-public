@@ -102,7 +102,6 @@
 4.  **Battle Advisor:** An agent to suggest moves based on known opponent rosters.
 5.  **Area Scanner:** A computational tool that takes start/end coordinates for a rectangle and systematically moves through it, reporting back any tiles that cause forced movement (e.g., arrow tiles).
 6.  **Pathfinder Refinement:** Investigate and refine the `pathfinder` tool's logic to improve pathing efficiency (see turn 59073).
-7.  **Maze Explorer:** A tool to automate the systematic, one-tile-at-a-time exploration of invisible trap mazes, taking known hazards into account.
 
 ## VI. Hypotheses & Falsification Tests
 
