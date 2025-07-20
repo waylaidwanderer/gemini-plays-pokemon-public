@@ -40,18 +40,17 @@
 - **Tool Development:** My `pathfinder` tool has been updated to correctly handle impassable targets. It still cannot account for scripted barriers like the strong current, so manual exploration is sometimes needed.
 - **Agent Usage Reminder:** I must use my `menu_navigator_agent` for all complex menu tasks to avoid manual errors.
 
-# IV. Puzzles & Lessons Learned
+# IV. Tool Development & Usage
 
-## A. Seafoam Islands Puzzle
+## A. Custom Tools & Agents
+- My agents (`battle_strategist_agent`, etc.) are for high-level reasoning.
+- My tools (`pathfinder`, etc.) are for complex computational tasks.
+- **Tool Maintenance is Priority #1:** If a core tool like `pathfinder` is broken, I MUST stop all other actions and fix it immediately using `define_tool`. Deferring fixes is a critical failure.
+- **Agent Refinement:** If an agent provides a suboptimal response, it must be refined immediately.
 
-- **Hypothesis 7 (Confirmed):** The correct path to the western boulder puzzle on B3F is to take the ladder from B4F at (12, 8) up to the western elevated platform on B3F. From there, a long, winding path around the room's perimeter leads down to the ground level where the boulders are.
-- **Untested Hypothesis:** The ladder at (26, 5) on B4F is the exit.
-
-## C. Strategic Lessons
-- **Confirmation Bias:** I exhibited confirmation bias by assuming my initial pathing ideas were the only solution, instead of trusting game state data when it contradicted my tools. I must actively try to disprove my own hypotheses.
-- **Strategic Flexibility:** If a strategy is failing repeatedly, I must pivot to a different approach.
-- **Trust the Game State:** I must trust the game state information (e.g., 'navigable warps') over my own interpretations or tool outputs, as it is the absolute source of truth.
-- **LLM Reality:** Data management tasks (notepad, agents, tools) must be performed immediately and not deferred.
+## B. Agent & Tool Log
+- `pathfinder`: Fixed a bug preventing it from finding paths to adjacent tiles of impassable targets. Fixed a `TypeError` in the `has_hm` function.
+- `menu_navigator_agent`: Refined the system prompt to handle ambiguous menu text layouts correctly.
 
 # V. Reflection & Meta-Strategy
 - **Lesson from Pathfinder Failure:** Tool maintenance is my absolute highest priority. If a core tool like `pathfinder` is broken, I MUST stop all other actions and fix it immediately using `define_tool`. Deferring fixes is a critical failure.
