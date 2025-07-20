@@ -120,5 +120,3 @@
 
 ### B. Agent & Tool Concepts (Update)
 *   **Dungeon Analyst Agent (Detailed):** An agent that takes the map XML and warp data from multiple interconnected maps (like a cave system) as input. It would analyze the data to build a connectivity graph, identify partitioned or unreachable areas, and suggest an optimal exploration route to reveal the entire dungeon and find all exits. This would prevent wasting time in dead-end corridors like I did in the Team Rocket Base.
-*   **Untested:** ... unknown (MountMortarB1F)
-*   unknown (MountMortarB1F, traversable)
