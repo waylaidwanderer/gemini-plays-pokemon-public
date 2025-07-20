@@ -28,7 +28,7 @@
 - **Steps:** Allows vertical and horizontal movement between 'steps' and adjacent 'ground' or 'elevated_ground' tiles.
 - **Spinner (up, down, left, right):** Forces movement in a specific direction until a `spinner_stop` tile or another obstacle is hit.
 - **Spinner Stop:** A tile that halts movement from a spinner.
-- **Elevated Ground:** Walkable ground at a different elevation. HM Surf cannot be initiated from this tile type. Movement between `elevated_ground` and `ground` is only possible via `steps`.
+- **Elevated Ground:** Walkable ground at a different elevation. Movement between `elevated_ground` and `ground` is only possible via `steps`.
 - **Gate (`gate_offscreen`, `closed_gate`):** Barriers that may open or close based on game events. Off-screen gates are treated as potentially open for pathfinding unless proven otherwise.
 
 ## B. General Heuristics & Rules
@@ -40,17 +40,21 @@
 
 # III. Tool Development & Usage
 
-## A. Custom Tools
-- **`pathfinder`:** This tool has been updated to correctly handle all traversal logic, including HMs, and now outputs a JSON array of coordinates for the path_plan, making it more reliable.
-- **`spinner_maze_solver`:** This tool calculates paths in spinner mazes. It was buggy, but has been successfully fixed and is now reliable for navigating spinner puzzles.
+## A. Custom Tools & Agents
+- My agents (`battle_strategist_agent`, `code_debugger_agent`, `menu_navigator_agent`, etc.) are for high-level reasoning and decision-making.
+- My tools (`pathfinder`, `spinner_maze_solver`, etc.) are for complex computational tasks like pathfinding.
+- I must fix failing tools immediately using my `code_debugger_agent` instead of deferring the task.
 
-## B. Agent & Tool Usage Notes
-- I must fix failing tools immediately using my `code_debugger_agent` instead of deferring the task or attempting manual fixes.
-- Proximity of recommended locations from agents should be considered for efficiency.
+## B. Future Development Ideas
+- **Navigation Assistant Agent:** An agent that can analyze the map XML and a goal to provide a high-level navigation plan, considering potential tool failures and suggesting alternative routes.
 
 # IV. Puzzles & Hypotheses
 
-## A. Fuchsia City Secret Pokémon (at (26, 7))
+## A. Seafoam Islands Navigation
+- **Hypothesis (Current Test):** It is possible to use the HM Surf from an `elevated_ground` tile, contrary to my previous notes. The game prompted me to do so at (8, 7) on B4F.
+- **Test Plan:** Attempt to use Surf from my current position at (8, 7).
+
+## B. Fuchsia City Secret Pokémon (at (26, 7))
 - **Observation:** An item ball at (26, 7) is in an enclosed area. A Youngster at (25, 9) states, "That item ball in there is really a POKéMON."
 - **Hypothesis 1 (Failed):** The signs next to the other Pokémon exhibits must be read in a specific order to unlock the enclosure.
 - **Hypothesis 2 (Untested):** Interaction with the Pokémon in the enclosures is required, not the signs.
@@ -62,10 +66,7 @@
 - **Current Plan:** My team is underleveled for the fight against Giovanni. The immediate goal is to train my party to the level cap of 55 at Seafoam Islands before attempting the gym again.
 
 ## B. Lessons Learned
-- **Confirmation Bias:** I exhibited confirmation bias when anticipating Giovanni's Nidoqueen would use Thunderbolt. I must remember that the AI is smart and will use coverage moves. I need to anticipate a wider range of attacks.
-- **Tool Maintenance Protocol:** When a tool fails, I must immediately use the `code_debugger_agent` for a systematic diagnosis. My successful fix of the `spinner_maze_solver` proves this is the correct approach.
+- **Confirmation Bias:** I exhibited confirmation bias when anticipating Giovanni's Nidoqueen would use Thunderbolt and when trusting my own broken `pathfinder` tool. I must be more skeptical and try to disprove my own assumptions.
+- **Strategic Flexibility:** I got stuck in a loop of trying to fix my `pathfinder` tool. If a strategy is failing repeatedly, I must pivot to a different approach, such as manual navigation or testing a new hypothesis, to maintain progress.
 - **Real-Time Documentation:** All discoveries, failures, plans, and lessons learned must be documented in the notepad on the turn they occur. I must avoid deferring these tasks.
 - **LLM Reality:** I must perform data management tasks (notepad, agents, tools) immediately and not defer them. Creating mental to-do lists is an invalid strategy.
-
-# VI. Future Development Ideas
-- **Utility Party Composition Agent:** An agent that can analyze the PC box and suggest optimal party compositions for non-battle tasks, such as an 'HM-focused' team for exploration or a team with specific field moves for puzzles.
