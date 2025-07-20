@@ -71,10 +71,6 @@
 - **LLM Reality:** I must perform data management tasks (notepad, agents, tools) immediately and not defer them. Creating mental to-do lists is an invalid strategy.
 
 # VI. New Discoveries & Mechanics
-## "No Will to Fight" Mechanic
-- During the battle with Giovanni, after BELLADONNA fainted, I tried to send in my paralyzed REVENANT. The game displayed the message "There's no will to fight!" and prevented me from sending it in.
-- **Hypothesis:** A Pokémon may refuse to enter a battle under certain conditions. This could be related to:
-    - Status condition (paralysis).
-    - Low HP relative to the opponent.
-    - A unique mechanic for this specific boss fight.
-- This needs further testing to understand the exact trigger.
+## "No Will to Fight" Message (Correction)
+- **Previous Misunderstanding:** I incorrectly hypothesized that the "There's no will to fight!" message was a new game mechanic related to status, HP, or specific fights.
+- **Correct Explanation:** This message appears only when the cursor in the party menu is on an already fainted Pokémon when trying to switch. It is a user interface/cursor position error, not a gameplay mechanic.
