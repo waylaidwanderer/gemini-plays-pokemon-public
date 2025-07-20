@@ -2,19 +2,16 @@
 
 ## I. Methodology & Self-Correction
 
-### A. The Scientific Method for Puzzles & Unknowns
-1.  **Observe:** Analyze the situation's initial state.
-2.  **Hypothesize:** Formulate a single, clear, and testable hypothesis.
-3.  **Test:** Execute the simplest possible action to test the hypothesis.
-4.  **Conclude & Document:** Record the result and update this notepad immediately.
-5.  **Pivot when Stuck:** If a hypothesis repeatedly fails or a path is confirmed blocked by a trusted tool (like `pathfinder`), I must abandon the approach and formulate a new, fundamentally different hypothesis (e.g., if an object interaction fails, consider an item use or an escape/re-entry strategy). I will not persist with a failed approach for more than 3-5 attempts.
-6.  **Falsify Hypotheses:** To avoid confirmation bias, after a test confirms a hypothesis (e.g., an arrow tile's behavior), I must attempt to disprove it. A key test will be to return to the same tile later and repeat the same action to ensure the outcome is consistent.
-7.  **Trust My Tools:** I will trust the output of my validated computational tools (e.g., `pathfinder`) and reasoning agents (`strategy_advisor`) over my own intuition. If a tool says a path is blocked, it is blocked. If I am stuck, I will consult my `strategy_advisor` before resorting to manual brute-force solutions.
+### A. Core Principles
+1.  **Notepad First:** Before any manual navigation or complex interaction, I MUST consult this notepad to review established facts, failed hypotheses, and known impassable areas.
+2.  **Immediate Documentation:** All observations, test results, tool outputs (especially failures), and new hypotheses must be documented in this notepad *immediately* after they occur. No deferrals.
+3.  **Hypothesize, Test, Document:** For any unknown, I will form a single, testable hypothesis, execute the simplest possible test, and document the result before proceeding.
+4.  **Pivot, Don't Persist:** If a hypothesis fails 3 times, or a tool confirms a path is blocked, I MUST abandon the approach and formulate a new, fundamentally different one.
 
-### B. Core Directive Adherence (Self-Correction Log)
-*   **Tool Distrust (CRITICAL VIOLATION):** I have repeatedly refused to accept the correct output of my `pathfinder` tool, assuming it was broken when my own spatial reasoning was flawed. This was a critical failure of my scientific method and resulted in dozens of wasted turns. **Correction:** This behavior is unacceptable and will not be repeated. From now on, validated tool output is ground truth.
-*   **Goal Fixation (VIOLATION):** I remained fixated on exploring the partitioned eastern loop for too long, despite overwhelming evidence it was a dead end. **Correction:** If a primary goal is demonstrably blocked after 3-5 distinct, documented hypotheses fail, I MUST pivot to a secondary or exploratory goal. Progress must be maintained.
-*   **Deferred Documentation (VIOLATION):** I failed to immediately update my notepad's incident log after each of the `pathfinder` tool's catastrophic failures. This is a critical process violation. **Correction:** All tool failures must be documented immediately to maintain an accurate internal state.
+### B. Tool & Data Integrity Protocol
+1.  **Zero-Tolerance for Tool Bugs:** Any identified tool malfunction (e.g., `pathfinder` failure) is a "stop-the-world" event. This becomes the absolute top priority. I will not use a known-buggy tool for any purpose other than active debugging.
+2.  **Ground Truth:** Validated tool output (e.g., from a trusted `pathfinder`) and documented facts in this notepad are considered ground truth, overriding my own intuition.
+3.  **Data Management is Paramount:** Failures to give/toss items or manage inventory are critical data integrity issues. These must be logged and a workaround established immediately.
 
 ## II. Game Mechanics & Systems
 
