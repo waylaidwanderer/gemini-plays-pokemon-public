@@ -29,7 +29,7 @@
 - **Spinner (up, down, left, right):** Forces movement in a specific direction.
 - **Spinner Stop:** A tile that halts movement from a spinner.
 - **Elevated Ground:** Walkable ground at a different elevation. Movement between `elevated_ground` and `ground` is only possible via `steps`.
-- **Gate (`gate_offscreen`, `closed_gate`):** Barriers that may open or close based on game events.
+- **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close based on game events. `gate_offscreen` is treated as open for pathfinding.
 
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
