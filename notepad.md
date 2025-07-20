@@ -91,20 +91,9 @@
 *   **Hypothesis:** The 'traps' are one-way pitfall warps.
 *   **Current Plan:** Continue systematic exploration south and east from (1, 14) to find a safe path to the ladder at (3, 14).
 
-### E. Team Rocket Boss Location
-*   **Hypothesis:** The boss is behind the locked door at (10, 9) on B3F.
-*   **Falsification Test:** If no password prompt or interaction is possible at the door, the path is elsewhere. Next step: full re-exploration of B1F/B2F.
-
-### F. Pathfinder v2 Destination Tile Bug
-*   **Hypothesis:** The tile at (42, 8) on Route 42 is impassable from the water due to a hidden property.
-*   **Falsification Test:** Attempt to walk onto the tile from an adjacent land tile. If successful, the bug is in the pathfinder's logic.
-
 ## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
-*   **Item Usage (Status Heal):** Status-healing items (like PARLYZ HEAL) cannot be used on a Pokémon that is not afflicted with that status. The game will display an 'It won't have any effect.' message and the item will not be consumed.
-*   **Item Usage (HP Restore):** HP-restoring items (like POTION) can be used on a Pokémon that has taken any amount of damage, but not one at full HP.
 *   **Youngster Joey (Route 30):** Wants a rematch.
-*   **Untested:** ... unknown (EcruteakMart)
 *   **Camper Todd (Route 36):** Wants a rematch on Route 34.
 
 ### F. Pathfinder v2 Destination Tile Bug
