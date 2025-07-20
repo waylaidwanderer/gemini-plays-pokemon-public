@@ -73,3 +73,8 @@
 
 ## C. Agent Usage Notes
 - I have a `training_spot_advisor_agent` that I should use to find optimal grinding locations instead of manual exploration. I will use this next time I need to train.
+
+# VI. Major Discoveries & Corrections
+
+## A. Secret Key Location
+- **Correction:** I discovered I already had the Secret Key in my inventory, likely obtained from Giovanni in the Rocket Hideout. My prolonged search in the Pokémon Mansion was unnecessary.
