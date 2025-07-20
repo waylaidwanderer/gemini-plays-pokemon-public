@@ -120,3 +120,12 @@
 
 ### B. Agent & Tool Concepts (Update)
 *   **Dungeon Analyst Agent (Detailed):** An agent that takes the map XML and warp data from multiple interconnected maps (like a cave system) as input. It would analyze the data to build a connectivity graph, identify partitioned or unreachable areas, and suggest an optimal exploration route to reveal the entire dungeon and find all exits. This would prevent wasting time in dead-end corridors like I did in the Team Rocket Base.
+
+## VIII. Future Development & Falsification
+### A. Agent & Tool Concepts (New)
+*   **Tool Validation Agent:** An agent that takes a tool's code and a set of test cases (inputs and expected outputs) and runs them to verify the tool's correctness. This would have caught the multiple `pathfinder` bugs much faster.
+
+### B. Falsification Tests (New Section)
+*   **Mt. Mortar Invisible Barrier Hypothesis:**
+    *   **Hypothesis:** An invisible barrier blocks the entire northern one-way ledge on Mt. Mortar B1F.
+    *   **Falsification Test:** If I find a way to the northern area from a different path and can successfully walk south over that same ledge, the hypothesis is false. The blockage is likely an event trigger I haven't met.
