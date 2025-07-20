@@ -116,3 +116,4 @@
 
 ### C. Team Rocket Base B1F Arrow Maze (Verified)
 *   (1, 4) -> Forces movement 'Up' to (1, 3).
+*   (1, 3) -> Normal floor tile.
