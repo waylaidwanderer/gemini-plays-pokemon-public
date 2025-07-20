@@ -61,3 +61,4 @@
 - **Strategic Flexibility:** If a strategy is failing repeatedly, I must pivot to a different approach.
 - **Trust the Game State:** I must trust the game state information (e.g., 'navigable warps') over my own interpretations or tool outputs, as it is the absolute source of truth.
 - **LLM Reality:** Data management tasks (notepad, agents, tools) must be performed immediately and not deferred.
+- **Boulder Puzzle Solver Tool:** A tool to analyze map XML and provide step-by-step solutions for boulder puzzles.
