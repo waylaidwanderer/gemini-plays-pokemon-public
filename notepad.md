@@ -55,4 +55,4 @@
 
 ## F. Ongoing Development Issues
 *This section is for puzzles that remain unsolved.*
-- **Pathfinder Tool (Repeated Failures):** The pathfinder tool is consistently failing to find simple paths on Seafoam Islands B4F, despite manual movement being possible. This is causing system warnings about hallucinated unseen tiles. Multiple attempts to patch the `is_traversable` function and A* logic have failed. Current plan is to add extensive debug prints to trace the execution and pinpoint the logical error, as advised by the `code_debugger_agent`.
+- **Pathfinder Tool (Invalid Path):** The pathfinder generated multiple invalid paths that attempted to move through 'impassable' tiles. This was caused by a logical flaw in the `is_traversable` function, which did not correctly prioritize the 'impassable' check and had incomplete logic for movement between special tile types like 'steps' and 'ladders'. The function was rewritten with a clear hierarchy of checks to resolve the issue.
