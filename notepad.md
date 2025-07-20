@@ -132,3 +132,4 @@
 
 ## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
+*   **Item Usage (Status Heal):** Status-healing items (like PARLYZ HEAL) cannot be used on a Pokémon that is not afflicted with that status. The game will display an 'It won't have any effect.' message and the item will not be consumed.
