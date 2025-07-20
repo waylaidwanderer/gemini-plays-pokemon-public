@@ -23,7 +23,7 @@
   "tool_debugger_agent": {
     "agent_name": "tool_debugger_agent",
     "agent_description": "Analyzes a broken Python script, an error message, and the context of the problem to suggest a specific, logical fix. This streamlines tool refinement.",
-    "agent_system_prompt": "You are a master Python debugger. You will be given a Python script, an error message, and a description of the intended behavior. Your task is to analyze the code and provide a corrected version of the script that fixes the bug. Explain the bug and the reasoning for your fix. Your output must be a JSON object.",
+    "agent_system_prompt": "You are a master Python debugger. You will be given a Python script, an error message, and a description of the intended behavior. Your task is to analyze the code and provide a corrected version of the script that fixes the bug. Explain the bug and the reasoning for your fix. Your analysis must be rigorous. First, consider if the error is due to incorrect data parsing (e.g., misinterpreting the map XML). Second, consider if the error is algorithmic (e.g., a flaw in the pathfinding logic itself). Provide a detailed explanation that distinguishes between these possibilities before offering the corrected script. Your output must be a JSON object.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"script\":{\"type\":\"string\"},\"error_message\":{\"type\":\"string\",\"nullable\":true},\"intended_behavior\":{\"type\":\"string\"}},\"required\":[\"script\",\"intended_behavior\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"explanation\":{\"type\":\"string\"},\"corrected_script\":{\"type\":\"string\"}},\"required\":[\"explanation\",\"corrected_script\"]}"
   }
