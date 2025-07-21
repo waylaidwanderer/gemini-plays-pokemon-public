@@ -87,9 +87,9 @@
     *   **Methodology:** Use the `maze_mapper` tool to systematically explore every floor tile. If a tile is a pitfall, record start/end coordinates. Compile a JSON string of all discovered pitfalls and use the `maze_solver` tool to find the path to an exit.
     *   **Known Pitfalls:** (3, 13) on B1F -> (3, 14) on B2F.
 *   **Nugget at (14, 15) on B1F:**
-    *   **Hypothesis:** It's a standard item.
-    *   **Alternative Hypothesis:** Picking it up is an event trigger.
-    *   **Test:** Return and pick it up once bag space is available.
+    *   **Hypothesis:** It's a standard item. **(Confirmed)**
+    *   **Alternative Hypothesis:** Picking it up is an event trigger. **(Falsified)**
+    *   **Test:** Attempted to pick up, but bag was full. Plan is to take damage, use a Potion, then return to collect it.
 
 ### E. Untested Assumptions & Falsification Tests
 *   **HEADBUTT_TREE Traversal:** **Assumption:** Impassable. **Test:** Attempt to walk into it from all four directions.
