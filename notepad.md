@@ -44,13 +44,7 @@
 ## C. Battle Lessons
 - **Level Disparity vs. Type Immunity:** A massive level gap can be more dangerous than type disadvantage. Switching in a low-level Pokémon (e.g., Lv 17 GALE) against a high-level opponent (e.g., Lv 53 Dugtrio) is extremely risky, even if the low-level Pokémon has type immunity to the opponent's primary STAB moves. Neutral coverage moves can still result in a one-hit KO if the level difference is significant. Survivability must be assessed holistically, considering HP, defensive stats, and the level gap, not just type matchups.
 
-# III. Puzzles & Exploration
-
-## A. Seafoam Islands Puzzle Mechanics
-- **Core Concept:** The primary puzzle involves pushing boulders on upper floors (1F, B1F, B2F) into specific holes. These boulders then fall to lower floors (B3F, B4F), where they act as barriers to redirect or block strong water currents, allowing access to new areas.
-- **Current Status:** An initial attempt to stop the western current by dropping boulders from the eastern side of 1F failed. The eastern caves proved to be a dead end. The solution must involve the boulders on the western side of the caves.
-
-# IV. Strategic Lessons & Reflections
+# III. Strategic Lessons & Reflections
 
 ## A. CRITICAL FAILURE ANALYSIS: Confirmation Bias in Seafoam Islands (Turns ~89480-89516)
 - **The Failure:** I wasted significant time exploring the eastern side of the Seafoam Islands based on a flawed hypothesis. I repeatedly descended into isolated, dead-end rooms, ignoring system warnings, my own tool's output, and map data that indicated these paths were not viable for crossing the cave system.
@@ -62,16 +56,6 @@
 - **Boulder Puzzle Solver Failures (1F):** The solver repeatedly timed out or failed on the 1F puzzle. This was not a tool bug, but a signal that my hypothesis was wrong. I assumed the puzzle was solvable immediately. **The lesson is to treat repeated tool failures not as a sign to keep trying, but as evidence that my fundamental understanding of the puzzle's state is incorrect. I must be more willing to abandon a failing hypothesis and pivot to exploration.**
 - **Pathfinder Bug Fix (Turn 89499):** The `pathfinder` tool was unable to find a path to a 'hole' tile because the `is_traversable` function did not recognize 'hole' as a valid land tile to move onto from 'ground'. I updated the `is_traversable` function to include 'hole' in the set of `valid_land_types` and added a condition to allow movement between 'ground' and 'hole' tiles. The lesson is that my custom tools need to be robust enough to handle all known tile types.
 
-# V. Puzzle Hypotheses Log
-
-## A. Seafoam Islands
-- **B3F Puzzle (West Platform):**
-  - **Hypothesis 1:** Push boulder at (6, 15) into hole at (7, 17).
-    - **Result:** FAILED. `boulder_puzzle_solver` reported 'No solution found'. Player cannot reach the required push position.
-  - **Hypothesis 2:** Push boulders at (9, 15) & (10, 15) into holes at (4, 17) & (7, 17).
-    - **Result:** FAILED. `boulder_puzzle_solver` reported 'No solution found'.
-  - **Conclusion:** The puzzle on the western B3F platform is unsolvable from that platform alone. The solution must lie elsewhere.
-
-# V. Strategic Reflections (Post-Turn 89880)
+# IV. Strategic Reflections (Post-Turn 89880)
 - **Menu Efficiency:** Cycling through the Fly menu was inefficient. I must be more systematic in menu navigation to avoid wasting turns, concluding an option is unavailable after one full cycle rather than repeated presses.
 - **Assumption Testing:** I am assuming Victory Road is the best training location. This is an unverified assumption. **Test:** Upon arrival, I will assess the wild Pokémon levels and EXP yield to confirm this hypothesis. If it's not optimal, I will seek alternative locations.
