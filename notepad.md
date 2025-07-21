@@ -46,11 +46,15 @@
 
 ### C. Mahogany Gym Ice Puzzle Analysis
 *   **Problem:** Navigate the Mahogany Gym ice puzzle to reach the Gym Leader, Pryce.
-*   **Tool Development Log:** The `ice_puzzle_solver` has failed multiple times due to a flawed slide simulation. The bug is that the slide logic does not correctly stop on `FLOOR` tiles. I am now implementing a corrected version.
-*   **Hypothesis 1 (ACTIVE):** The puzzle's state must be changed to connect the two islands. This change is likely triggered by defeating one of the un-battled trainers near the gym entrance (ROCKER at (0, 17) or BEAUTY at (9, 17)).
-    *   **Test 1.1 (Next Step):** Use the newly fixed `ice_puzzle_solver` to find a path to the ROCKER at (0, 17).
-    *   **Test 1.2 (If 1.1 succeeds):** Battle and defeat the ROCKER.
-    *   **Test 1.3 (If 1.2 succeeds):** Re-run the solver to see if a path to the Gym Leader's island has been created. If not, repeat the process for the BEAUTY at (9, 17).
+*   **Tool Development Log:** The `ice_puzzle_solver` tool is fundamentally bugged and unreliable. It has repeatedly failed to find valid paths that can be traced manually. I will not use it for this puzzle.
+*   **Current Plan (Manual Pathing):** I will navigate the puzzle manually, one step at a time, documenting each step. This is a multi-stage path.
+    *   **Stage 1: Reach the Northern Island**
+        *   **Step 1 (Next):** From (5, 15), walk to (4, 15).
+        *   **Step 2:** From (4, 15), slide Up. Expected landing: (4, 14).
+        *   **Step 3:** From (4, 14), slide Right. Expected landing: (5, 14).
+        *   **Step 4:** From (5, 14), slide Up. Expected landing: (5, 10).
+    *   **Stage 2: Navigate the Northern Island to Pryce**
+        *   This stage will be planned after successfully reaching (5, 10).
 
 ## III. Battle Intel
 
