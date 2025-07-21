@@ -24,3 +24,6 @@
 *   **One-Way Traversal:**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from the tile above it.
 *   `WATER`: Requires SURF to traverse.
+
+# Major Discoveries
+*   **Kanto Region:** Route 27 is the entry point to the Kanto region from Johto.
