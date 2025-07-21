@@ -45,7 +45,7 @@
 
 ## A. Solved Puzzles
 - **Seafoam Islands B3F Water Current (East):** The strong water current on B4F is disabled by pushing a single, isolated boulder at (20, 7) on B3F into a hole at (20, 6).
-- **Seafoam Islands Eastern Section (Dead End):** The entire eastern portion of Seafoam Islands (accessed from the eastern entrance on Route 20) is an isolated dead-end. The ladders within only loop between floors of this section. The only way to reach the main western puzzle area is to exit the cave and re-enter from the western entrance on Route 20.
+- **Seafoam Islands Eastern Section (Correction):** I was incorrect about this being a complete dead end. My hypothesis is that solving the eastern water current puzzle on B3F has opened a path on B4F that connects to the western part of the islands. I must investigate B4F.
 
 ## B. Ongoing Puzzles & Investigations
 - **Seafoam Islands B4F Western Water Current:** The current at (8, 12) is too strong to SURF against. The solution is the main boulder puzzle on B3F.
