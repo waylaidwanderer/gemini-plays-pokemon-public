@@ -19,7 +19,7 @@
 - **Boulder Switch & Barrier:** `boulder_switch` tiles are activated when a boulder is pushed onto them, which typically changes a `boulder_barrier` tile into a `cleared_boulder_barrier` tile (effectively `ground`).
 
 ## B. General Heuristics & Rules
-- **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'.
+- **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'. The 'B' button is the universal 'back' or 'cancel' command in PC menus.
 - **HM Usage:** HMs are used from the party menu outside of battle. Fainted Pokémon can use field moves.
 - **"No Will to Fight" Message (Correction):** This message appears only when the cursor in the party menu is on an already fainted Pokémon. It is a UI error, not a gameplay mechanic.
 - **Surf Mechanic:** You cannot initiate Surf from an `elevated_ground` tile. You must be on a `ground`, `steps`, or `grass` tile adjacent to water.
@@ -33,7 +33,13 @@
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting.
 
 ## B. Trainer Rosters & Movesets
-*This section is for recording the teams and moves of significant trainers (Gym Leaders, Rivals) after a battle is concluded.*
+
+### Giovanni (Viridian Gym Leader)
+- **Team:**
+  - NIDOKING (Lv54) - Moves: Ice Beam, Blizzard, Thunderbolt, Earthquake
+  - DUGTRIO (Lv53) - Moves: Fissure, Slash, Earthquake, Rock Slide
+  - NIDOQUEEN (Lv54) - Moves: Ice Beam, Earthquake, Thunderbolt, Body Slam
+  - PERSIAN (Lv55) - Moves: Bubblebeam, Slash, Hyper Beam, Thunderbolt
 
 ## C. Battle Lessons
 - **Level Disparity vs. Type Immunity:** A massive level gap can be more dangerous than type disadvantage. Switching in a low-level Pokémon (e.g., Lv 17 GALE) against a high-level opponent (e.g., Lv 53 Dugtrio) is extremely risky, even if the low-level Pokémon has type immunity to the opponent's primary STAB moves. Neutral coverage moves can still result in a one-hit KO if the level difference is significant. Survivability must be assessed holistically, considering HP, defensive stats, and the level gap, not just type matchups.
@@ -60,27 +66,15 @@
 - **Procedural Failures (Turn 90331 & 90537):** I violated my core instructions by deferring tool-fixing as a goal instead of taking immediate action. My debugging process was also inefficient, relying on repeated small changes instead of a more systematic approach to find the root cause.
 - **Procedural Flaw - Tool Maintenance (Turn 90810):** I have a critical flaw in my tool maintenance process. After fixing a fundamental logic error (e.g., handling SURF traversal) in one tool (`find_closest_unseen_tile`), I failed to proactively audit my other tools (`pathfinder`) for the same bug. This led to a predictable, time-wasting failure.
 - **Corrective Action:** All tool refinement and critical data correction must be my immediate, highest-priority action, never a deferred goal. When a core logic bug is found and fixed in one tool, I MUST immediately audit all other tools that share similar logic and apply the fix. I need to adopt a holistic maintenance strategy to prevent recurring errors.
-- **Critical Hallucination (Turn 91005):** I completely hallucinated my location, believing I had already exited the Viridian Pokémon Center and was in Viridian City. This led to a failed `pathfinder` call because it was operating on the wrong map data. This is a severe state-tracking failure. I must ground my actions in the provided game state, not my assumptions, and trust tool failures as indicators of my own misunderstanding.
+- **Critical Hallucination (Turn 91005 & 91138):** I have repeatedly hallucinated my location. I must ground my actions in the provided game state, not my assumptions, and trust tool failures as indicators of my own misunderstanding.
 
 # IV. Ideas & Future Plans
 
 ## A. Agent Development Ideas
 - **Code Debugger Agent v2:** An agent that analyzes my own common coding errors (e.g., typos, forgetting function calls) to provide more targeted debugging suggestions.
 - **Code Fixer Agent:** An agent that takes failing code and an error message, then proposes a specific, corrected code snippet. This would be a significant upgrade from simply suggesting debugging steps.
+- **Long-Term Battle Planner:** An agent that can help strategize for multi-stage fights or entire gyms, going beyond the turn-by-turn advice of the current `battle_strategist_agent`.
 
 ## B. Tool Development Ideas
 - **Pathfinding Diagnostics Tool:** A tool that takes a failing pathfinder call (start, end, impassable coords) and the map XML, then systematically analyzes the intended path tile-by-tile to pinpoint the exact coordinate and traversal rule that is failing. This would automate the manual debugging process I currently perform.
-
-## C. New Ideas from Reflection (Turn 91075)
-- **Agent Idea:** A long-term battle planning agent that can help strategize for multi-stage fights or entire gyms, going beyond the turn-by-turn advice of the current `battle_strategist_agent`.
-- **Tool Idea:** An inventory management tool that can categorize items, identify redundancies, and suggest items to store or sell to free up space.
-
-## C. Trainer Rosters & Movesets
-
-### Giovanni (Viridian Gym Leader)
-- **Team:**
-  - NIDOKING (Lv54) - Moves: Ice Beam, Blizzard, Thunderbolt, Earthquake
-  - DUGTRIO (Lv53) - Moves: Fissure, Slash, Earthquake, Rock Slide
-  - NIDOQUEEN (Lv54) - Moves: Ice Beam, Earthquake, Thunderbolt, Body Slam
-  - PERSIAN (Lv55) - Moves: Bubblebeam, Slash, Hyper Beam, Thunderbolt
-- **Critical Hallucination (Turn 91138):** I believed I had already exited the Viridian Pokémon Center and was in Viridian City. This caused my `pathfinder` tool to fail because it was using the wrong map data. This is another severe state-tracking failure. I must ground my actions in the provided game state, not my assumptions. Tool failures are often indicators of my own misunderstanding.
+- **Inventory Management Tool:** A tool that can categorize items, identify redundancies, and suggest items to store or sell to free up space.
