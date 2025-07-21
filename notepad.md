@@ -30,8 +30,7 @@
 *   **One-Way Traversal (Verified):**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
-*   **To Be Verified:**
-    *   `BUOY`: Assumed impassable. **Test Plan:** Attempt to move onto the BUOY at (26, 14).
+*   `BUOY`: Confirmed impassable after attempting to move onto the tile at (27, 16).
 
 # Misc Notes
 *   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) until a slot is freed.
