@@ -81,3 +81,16 @@
 *   **Hypothesis:** This is a scripted event, not a glitch. The solution is tied to the last major story clue: the Team Rocket radio broadcast.
 *   **Current Plan:** Access the Radio function of the PokéGear.
 *   **Untested Tile Mechanics:** Currently standing on `unknown` tile type at Violet City (31, 26). Must test its properties once mobile.
+
+## IV. Maintenance & Status Log
+
+### A. Tool Bugs & Status
+*   **`bfs_pathfinder`:** CRITICAL FLAW - Fails on one-way tiles. The logic for entering/exiting tiles like `LEDGE_HOP_DOWN` is incorrect. **DO NOT USE UNTIL FIXED.**
+*   **`ice_puzzle_solver`:** UNRELIABLE. Overwatch feedback indicates it may be buggy. Needs testing and debugging before use.
+*   **Hallucinated Tools:** `stun_npc` does not exist. Do not attempt to use.
+
+### B. Current Predicament: The 'Stuck' State
+*   **Observation:** After a failed Fly attempt from Mahogany, I was warped to Violet City (31, 26). I am unable to move or use any warp items/moves.
+*   **Hypothesis:** This is a scripted event, not a glitch. The solution is tied to the last major story clue: the Team Rocket radio broadcast.
+*   **Current Plan:** Access the Radio function of the PokéGear.
+*   **Untested Tile Mechanics:** Currently standing on `unknown` tile type at Violet City (31, 26). Must test its properties once mobile.
