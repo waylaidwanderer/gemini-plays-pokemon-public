@@ -49,7 +49,8 @@
     1.  Start at `(0, 2)`.
     2.  Execute one slide at a time and record the result.
     3.  1. Start at (0, 2), slide Down -> Landed at (0, 8).
-    2. Next move: Slide Right.
+    2. From (0, 8), slide Right -> Landed at (7, 8).
+    3. Next move: Slide Up.
 
 ## III. Battle Intel
 
