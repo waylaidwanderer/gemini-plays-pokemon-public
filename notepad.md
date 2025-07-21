@@ -81,5 +81,4 @@
 - **Test Plan:** Upon entering Victory Road, I will battle several wild Pokémon to assess their level and EXP yield. If it's not a significant improvement, I will use the `training_spot_advisor_agent` to find a better location.
 
 ## C. New Development Ideas
-- **`python_code_refactor_agent`:** An agent that takes a broken script, an error, and a goal, and proposes a corrected version of the code.
 - **`navigation_summary_agent`:** An agent that takes a path from `pathfinder` and provides a high-level, human-readable summary of the route.
