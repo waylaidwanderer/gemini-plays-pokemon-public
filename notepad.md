@@ -112,6 +112,3 @@
 
 ### C. Tile Testing Protocol
 *   **New Tile Discovery:** When a new, unknown tile type is encountered, I must systematically test its properties. This includes attempting to walk on it from all four directions and documenting whether it's traversable, a one-way path, or requires a specific item or action to pass.
-
-### D. Team Rocket B1F Maze Pitfalls
-*   Pitfall at (3, 13) on B1F leads to (3, 9) on B2F.
