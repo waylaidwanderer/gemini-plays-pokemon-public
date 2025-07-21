@@ -63,3 +63,4 @@
 
 ## A. Agent Development
 - **Code Debugger Agent v2:** Consider creating a new agent or refining the existing `code_debugger_agent` to specifically analyze my own coding patterns. It could be trained on my common mistakes (e.g., typos in module names, forgetting imports) to provide even faster, more targeted suggestions for debugging my custom tools.
+- **Code Fixer Agent:** An agent that takes my failing code and the error message and *proposes a specific code change* to fix it, rather than just suggesting debugging steps. This would be a major upgrade to my workflow.
