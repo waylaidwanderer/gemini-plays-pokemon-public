@@ -4,30 +4,29 @@
 # Side Quests & Rematches
 *   **Camper Todd:** Wants a rematch on Route 34.
 
-# Current Puzzle: Tohjo Falls
-*   **Status:** Stuck on the lower level after coming down the waterfall.
-*   **Hypothesis 1 (Failed):** The western island contains the path forward. **Result:** Dead end. Path is blocked by a MOON STONE I cannot pick up because my bag is full and the 'TOSS' command appears to be non-functional.
-*   **Hypothesis 2 (Failed):** The `WARP_CARPET_DOWN` at (13, 15) is the exit. **Result:** The warp is unresponsive to all attempts to activate it.
-*   **Current Hypothesis:** There is a hidden path behind the waterfall.
-
 # Game Systems & Tools
-*   **`bfs_pathfinder` Tool:** Appears to work for basic navigation but has failed on complex paths. Reliability is still under evaluation.
+*   **`bfs_pathfinder` Tool:** 
+    *   **Status:** Unreliable. Fails on paths with unseen tiles.
+    *   **Refinement Plan:** Modify the code to handle unseen tiles, perhaps by pathing to the edge of the seen area in the desired direction instead of failing completely.
 *   **`strategy_advisor` Agent:** Its system prompt was refined to forbid suggesting fainting. Needs to be tested to confirm the fix.
-*   **Future Agent Idea:** A `debugging_assistant` agent could be created to analyze tool code and debug logs to provide systematic suggestions for fixes.
+*   **Future Agent Idea:** An `exploration_planner` agent could analyze the map's seen/unseen tiles to suggest the most efficient exploration targets.
 
-# Tile Mechanics
-*   **General:**
-    *   `FLOOR`: Traversable.
-    *   `TALL_GRASS`: Traversable, triggers wild encounters.
-    *   `WALL`/`VOID`/`BUOY`: Impassable barriers.
-    *   `WATER`: Requires SURF to traverse.
-    *   `WATERFALL`: Traversable downwards. Requires the Waterfall HM to ascend.
+# Tile Mechanics (Verified & To Be Verified)
+*   **Verified Traversable:**
+    *   `FLOOR`: Standard ground.
+    *   `TALL_GRASS`: Triggers wild encounters.
+    *   `WATER`: Requires SURF.
+    *   `WATERFALL`: Traversable downwards. Requires Waterfall HM to ascend.
     *   `CAVE`: Warp point.
-    *   `WARP_CARPET_DOWN`: Warp point. Note: The one at Tohjo Falls (13, 15) is unresponsive.
-*   **One-Way Traversal:**
+*   **Verified Impassable:**
+    *   `WALL`/`VOID`: Standard barriers.
+    *   `HEADBUTT_TREE`: Impassable, can be headbutted.
+*   **One-Way Traversal (Verified):**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
-    *   `FLOOR_UP_WALL`: A one-way ledge. Can only be moved up from the tile below it.
+    *   `FLOOR_UP_WALL`: Can only be moved up from the tile below it.
+*   **To Be Verified:**
+    *   `BUOY`: Assumed impassable, but needs to be tested by attempting to move onto it.
 
-## Bag Mechanics
-*   **Tossing Items (Under Investigation):** My attempts to toss items to free an inventory slot have all failed, regardless of item, stack size, or bag pocket. The 'TOSS' function may be bugged or have a very specific, undiscovered condition for use. My hypothesis that the entire stack must be tossed was not validated.
+# Bag Mechanics
+*   **Tossing Items:** My hypothesis that the entire stack must be tossed was incorrect. Selling a single, non-stacked item successfully freed up an inventory slot. The exact conditions for the 'TOSS' command failing remain unknown, but selling seems to be a reliable workaround for a full bag.
