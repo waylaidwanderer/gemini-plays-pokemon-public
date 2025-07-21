@@ -10,7 +10,7 @@
 *   **One-Way:** PIT (fall), LEDGE_HOP_RIGHT/LEFT/DOWN, FLOOR_UP_WALL (one-way 'up' ledge).
 *   **Special Movement:** 
     *   ICE: Slides the player in a cardinal direction until an obstacle is hit.
-    *   FLOOR (on Ice Maps): Acts as a safe stopping point. Player can stand on a FLOOR tile and choose their next slide direction without being forced into movement.
+    *   FLOOR (on Ice Maps): Acts as a safe stopping point. Player can stand on a FLOOR tile and choose their next slide direction without being forced into movement. A slide initiated on an ICE tile will also stop upon reaching a FLOOR tile.
 *   **Untested:** COMPUTER, BED, CABINET, SINK, PLANT, unknown, and any tile type with `unknown` in its name. My protocol is to test these by attempting to walk into them from all four directions when first encountered.
 
 ### B. System Bugs & Glitches (Verified)
@@ -46,12 +46,8 @@
 
 ### C. Mahogany Gym Ice Puzzle Analysis (REVISED)
 *   **Problem:** Navigate the Mahogany Gym ice puzzle to reach the Gym Leader, Pryce.
-*   **Tool Development Log (Critical Failure & Insight):** My custom tool, `ice_puzzle_solver`, repeatedly failed. My attempts to debug its logic were misguided. The tool's logic is sound, but its world model is flawed. It can only process on-screen objects from the `map_xml_string` and is blind to off-screen obstacles like defeated trainers. This makes it unreliable for this specific puzzle. I must abandon it and proceed with a manual, documented approach.
-*   **Current State:** I am on an isolated 'island' of two floor tiles: (5, 10) and (2, 10). I am trapped here because my previous pathing did not account for defeated trainers at (5, 9) and (2, 4) acting as permanent, off-screen walls.
-*   **New Manual Plan:** I have identified a valid escape route. I will execute the following sequence of slides:
-    1.  From (5, 10), slide Left to (2, 10).
-    2.  From (2, 10), slide Down to (2, 14).
-    3.  This will return me to the main entrance area, where I can re-evaluate and find the correct path to the trainers and Pryce.
+*   **Tool Development Log (BUG IDENTIFIED):** My `ice_puzzle_solver` was failing due to a fundamental misunderstanding of the ice puzzle mechanics. The bug was in the slide simulation logic. It did not account for the fact that a slide stops *on* a `FLOOR` tile. The tool was correctly processing the map data, but my model of the game physics was wrong.
+*   **Current Plan (Tool Redeployment):** I have rewritten the slide simulation logic to correctly stop on `FLOOR` tiles. My immediate priority is to redefine the tool with this corrected code and then test it by finding a path from my current location to the Gym Leader. I will not proceed manually.
 
 ## III. Battle Intel
 
