@@ -43,21 +43,18 @@
 
 # III. Puzzles & Exploration
 
-## A. Solved Puzzles
-- **Seafoam Islands B3F Water Current (East):** The strong water current on B4F is disabled by pushing a single, isolated boulder at (20, 7) on B3F into a hole at (20, 6).
+## A. Current Objective: Seafoam Islands
+- **Primary Goal:** Solve the main boulder puzzle on Seafoam Islands B3F (West).
+- **Current Location:** Trapped in the *eastern* section of the Seafoam Islands.
+- **Corrective Action:** This eastern section is a confirmed dead-end loop. The only way to progress is to exit the cave via the eastern entrance and re-enter from the western cave entrance on Route 20.
 
-## B. Ongoing Puzzles & Investigations
-- **Seafoam Islands B4F Western Water Current:** The current at (8, 12) is too strong to SURF against. The solution is the main boulder puzzle on B3F.
-- **NPC Kris (B4F):** The NPC Kris at (8, 3) on B4F has information relevant to progressing. (Currently inaccessible due to water current).
-- **Seafoam Islands B3F Main Boulder Puzzle:** This puzzle is located in the western part of the floor, accessible only from the western cave entrance on Route 20.
+# IV. Strategic Lessons & Tool Development
 
-# IV. Tool Development & Strategy
+## A. CRITICAL FAILURE ANALYSIS: The Seafoam Islands Loop (Turns ~88900-89050)
+- **The Failure:** I wasted over 150 turns trapped in a cognitive and physical loop in the eastern Seafoam Islands. I vacillated between two incorrect hypotheses: 1) The area was a dead end, and 2) The eastern and western sections were connected. The first hypothesis was correct, but I abandoned it due to misinterpreting system feedback.
+- **Root Cause - Confirmation Bias & Poor Data Management:** My most critical error was ignoring overwhelming evidence that contradicted my flawed second hypothesis. My `pathfinder` tool repeatedly reported "No path found," and the system issued multiple warnings about being in a dead end. Instead of accepting this data as fact, I assumed my tool was bugged and persisted with a flawed strategy. I also failed to update my notepad immediately with the correct "dead end" conclusion, which led me to repeat the same mistakes.
+- **The Lesson:** **A tool's failure is a data point about the world, not just a bug.** Repeated failures are strong evidence that my underlying assumption is incorrect. I MUST learn to trust my tools and the game's feedback over my own intuition. All data management, especially correcting my understanding of the map, must be performed IMMEDIATELY to prevent repeating errors.
 
-## A. Development Log
-- **Pathfinder Tool (Invalid Path - Elevated Ground):** The tool generated a path from `ground` to `elevated_ground`, which is an invalid move. The `is_traversable` function was updated to correctly restrict movement between `ground` and `elevated_ground` unless `steps` are used.
-- **Pathfinder Tool (Invalid Path - Water):** The tool generated a path from a `ground` tile directly into a `water` tile. This is an invalid move as it requires using Surf from the menu. **Limitation:** The tool cannot currently plan multi-stage paths that involve starting on land, using an HM like Surf, and then navigating on water.
-- **Boulder Puzzle Solver (Failure & Fix):** The `boulder_puzzle_solver` returned 'No solution found' for the western B3F puzzle. This was due to two bugs: an incorrect initial check in the `player_a_star` function and improper handling of movement between `ground` and `elevated_ground`. The tool has been updated and requires testing.
-- **Pathfinder Tool (Impassable Target):** The tool failed to find a path to an impassable target because the logic for finding an adjacent, reachable goal was flawed. The logic has been updated to check if the adjacent tile is a valid standing tile, then lets A* find the path.
-
-## B. Strategic Lessons Learned
-- **Confirmation Bias Warning (CRITICAL):** The game's feedback (e.g., being unable to move, system warnings, repeated tool failures) is the ultimate source of truth. If a tool's output (like a path plan) contradicts a personal hypothesis, the hypothesis is almost certainly wrong. Do not repeatedly attempt an action that the game has shown to be invalid. **Case Study: Seafoam Islands East.** My biggest failure was persisting with the hypothesis that a path connected the eastern and western sections. I ignored over 70 turns of repeated failures from my `pathfinder` tool and multiple system warnings, which were correctly reporting no path. I must treat repeated tool failures not as a bug, but as strong evidence that my underlying hypothesis about the map is wrong. The eastern cave entrance leads to a completely isolated dead-end. I have now learned that stopping the eastern current on B3F *did* open a path on B4F, connecting the two sections. My previous conclusion was wrong, and I must trust the game's feedback that I am not in a dead end.
+## B. Tool Development Log
+- **Pathfinder Tool:** Has been updated multiple times to handle `steps` and impassable targets better. Its failures in Seafoam were due to my incorrect hypotheses, not bugs.
+- **Boulder Puzzle Solver:** Requires testing on the western B3F puzzle once it is accessible.
