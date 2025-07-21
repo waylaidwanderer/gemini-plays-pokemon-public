@@ -51,9 +51,6 @@
 - **Pathfinder & Boulder Puzzle Solver:** Both tools initially had a bug where their internal pathfinding logic couldn't handle land-to-water SURF transitions. This has been fixed.
 - **Boulder Puzzle Solver Failures (1F):** The solver repeatedly timed out or failed on the 1F puzzle. This was not a tool bug, but a signal that my hypothesis was wrong. I assumed the puzzle was solvable immediately. **The lesson is to treat repeated tool failures not as a sign to keep trying, but as evidence that my fundamental understanding of the puzzle's state is incorrect. I must be more willing to abandon a failing hypothesis and pivot to exploration.**
 
-## C. Reflection (Post-Turn 89516)
-- **Hypothesis Status:** My initial test of the western current hypothesis (dropping boulders from the eastern side of 1F) failed. After thoroughly exploring the eastern caves and confirming they are a series of dead ends, I have concluded that my pivot to an 'eastern current' hypothesis was a strategic error caused by confirmation bias. I am now returning to the original hypothesis: the solution involves the boulders on the western side of the caves, and I need to re-investigate that area to find the correct way to stop the western current on B4F.
-
 # V. Puzzle Hypotheses Log
 
 ## A. Seafoam Islands
