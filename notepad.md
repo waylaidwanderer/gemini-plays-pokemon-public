@@ -23,6 +23,7 @@
 - **HM Usage:** HMs are used from the party menu outside of battle. Fainted Pokémon can use field moves.
 - **"No Will to Fight" Message (Correction):** This message appears only when the cursor in the party menu is on an already fainted Pokémon. It is a UI error, not a gameplay mechanic.
 - **Surf Mechanic:** You cannot initiate Surf from an `elevated_ground` tile. You must be on a `ground`, `steps`, or `grass` tile adjacent to water.
+- **Level Cap:** The level cap with 8 badges is 65.
 
 # II. Battle Intel
 
@@ -33,7 +34,7 @@
 
 ## B. Trainer Rosters & Movesets
 *This section is for recording the teams and moves of significant trainers (Gym Leaders, Rivals) after a battle is concluded.*
-*(No recent significant trainer battles to record.)*
+- **Giovanni (Viridian Gym):** NIDOKING (Lv54, Ice Beam, Blizzard, Thunderbolt, Earthquake), DUGTRIO (Lv53, Fissure, Slash, Earthquake, Rock Slide), NIDOQUEEN (Lv54, Ice Beam, Earthquake, Thunderbolt, Body Slam), PERSIAN (Lv55, Bubblebeam, Slash, Hyper Beam, Thunderbolt).
 
 ## C. Battle Lessons
 - **Level Disparity vs. Type Immunity:** A massive level gap can be more dangerous than type disadvantage. Switching in a low-level Pokémon (e.g., Lv 17 GALE) against a high-level opponent (e.g., Lv 53 Dugtrio) is extremely risky, even if the low-level Pokémon has type immunity to the opponent's primary STAB moves. Neutral coverage moves can still result in a one-hit KO if the level difference is significant. Survivability must be assessed holistically, considering HP, defensive stats, and the level gap, not just type matchups.
@@ -59,5 +60,5 @@
 - **Corrective Action:** All tool refinement and critical data correction (like this one) must be my immediate, highest-priority action, never a deferred goal. I must improve my debugging methodology to be more decisive and effective.
 
 ## E. Untested Assumptions
-- **Assumption:** Victory Road is the optimal training location for the Giovanni rematch.
+- **Assumption:** Victory Road is the optimal training location for the Elite Four.
 - **Test Plan:** Upon entering Victory Road, I will battle several wild Pokémon to assess their level and EXP yield. If it's not a significant improvement, I will use the `training_spot_advisor_agent` to find a better location.
