@@ -72,3 +72,6 @@
   - DUGTRIO: Fissure, Slash, Earthquake, Rock Slide
   - NIDOQUEEN: Ice Beam, Earthquake, Thunderbolt, Body Slam
   - PERSIAN: Bubblebeam, Slash, Hyper Beam, Thunderbolt
+
+## D. Battle Lessons
+- **Level Disparity vs. Type Immunity:** A massive level gap can be more dangerous than type disadvantage. Switching in a low-level Pokémon (e.g., Lv 17 GALE) against a high-level opponent (e.g., Lv 53 Dugtrio) is extremely risky, even if the low-level Pokémon has type immunity to the opponent's primary STAB moves. Neutral coverage moves can still result in a one-hit KO if the level difference is significant. Survivability must be assessed holistically, considering HP, defensive stats, and the level gap, not just type matchups.
