@@ -44,13 +44,6 @@
 *   **Team Rocket B1F Switch Function:** The switch at (19, 11) is not a toggle for the invisible maze. Interacting with the ROCKET at (2, 4) produces the same result regardless of the switch's on/off state.
 *   **Team Rocket B1F Maze (Simple Pitfall):** Systematically exploring every floor tile in the western maze area revealed no pitfalls or warps other than the known dead-end ladder. Hypothesis that a simple pitfall was the solution is false.
 
-### C. Mahogany Gym Ice Puzzle Analysis (Final)
-*   **Problem:** Navigate the Mahogany Gym ice puzzle to reach the Gym Leader, Pryce.
-*   **Tool Development Log (Final Conclusion):** The `ice_puzzle_solver` is fundamentally unreliable for this puzzle. Its logic is sound, but its data source (`map_xml_string`) only includes on-screen objects. It is blind to off-screen defeated trainers who act as permanent obstacles, leading it to calculate impossible paths or fail to find valid ones. The correct strategic decision is to abandon the tool for this specific puzzle and proceed with a verified manual path.
-*   **Correct Manual Path (Hypothesis v3 - Based on corrected mechanics):**
-    1.  Start on the ice at (9, 5).
-    2.  Slide Down -> land on (9, 16) (stopped by Beauty at (9,17)).
-    3.  From (9, 16), slide Left -> land on (2, 16).
-    4.  From (2, 16), slide Up -> land on (2, 10).
-    5.  From (2, 10), slide Right -> land on (5, 10).
-    6.  From (5, 10), slide Up -> land on (5, 4), in front of Pryce.
+### C. Solved Puzzles & Key Discoveries (Continued)
+*   **Mahogany Gym Ice Puzzle:** Solved using a manual path. Defeated Gym Leader Pryce and obtained the Glacier Badge and TM16 (Icy Wind).
+*   **Mysterious Radio Broadcast:** After defeating Pryce, received a call from Prof. Elm about a strange broadcast. The PokéGear radio confirms a Team Rocket broadcast. Next objective is to investigate the Goldenrod Radio Tower.
