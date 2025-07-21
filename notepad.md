@@ -8,6 +8,7 @@
 *   **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN/LEFT/RIGHT, WARP_PANEL.
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL.
 *   **One-Way:** PIT (fall), LEDGE_HOP_RIGHT/LEFT/DOWN, FLOOR_UP_WALL (one-way 'up' ledge).
+*   **Special Movement:** ICE (slide in one direction until an obstacle is hit).
 *   **Untested:** COMPUTER, BED, CABINET, SINK, PLANT, unknown, and any tile type with `unknown` in its name. My protocol is to test these by attempting to walk into them from all four directions when first encountered.
 
 ### B. System Bugs & Glitches (Verified)
@@ -40,9 +41,14 @@
 *   **Team Rocket B1F Eastern Corridor:** The secret passage at (10, 9) and the entire eastern corridor lead to a dead-end loop.
 *   **Team Rocket B1F Switch Function:** The switch at (19, 11) is not a toggle for the invisible maze. Interacting with the ROCKET at (2, 4) produces the same result regardless of the switch's on/off state.
 *   **Team Rocket B1F Maze (Simple Pitfall):** Systematically exploring every floor tile in the western maze area revealed no pitfalls or warps other than the known dead-end ladder. Hypothesis that a simple pitfall was the solution is false.
+
 ### C. Active Hypotheses & Tests
 *   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
 *   **Team Rocket Hideout Progression:** **FALSIFIED HYPOTHESIS:** The eastern corridor is the exit. **REASON:** Pathing attempts failed repeatedly, leading to dead ends. **NEW HYPOTHESIS (from strategy_advisor):** The correct exit is one of the unexplored warps on the western side of the map at (3, 2) or (3, 6).
+*   **Mahogany Gym Puzzle:** **Hypothesis:** The puzzle is purely navigational. A correct sequence of slides can bypass trainers. **Test Plan (Iterative):**
+    1.  Start at `(0, 2)`.
+    2.  Execute one slide at a time and record the result.
+    3.  First move: Slide Down.
 
 ## III. Battle Intel
 
@@ -57,5 +63,3 @@
 *   **Morty:** GASTLY (Lick, Spite), HAUNTER (Curse, Hypnosis, Dream Eater), GENGAR (Shadow Ball, Hypnosis, Dream Eater)
 *   **Jasmine:** MAGNEMITE (Thunderbolt, Thunder Wave, Supersonic), STEELIX (Iron Tail, Screech, Rock Throw)
 *   **Chuck:** PRIMEAPE (Leer, Rage, Karate Chop), POLIWRATH (Hypnosis, Mind Reader, Dynamicpunch)
-*   **Special Movement:** ICE (slide in one direction until an obstacle is hit).
-*   **Mahogany Gym Puzzle:** **Hypothesis:** The puzzle is purely navigational. A correct sequence of slides can bypass trainers. **Test Plan:** Systematically explore paths manually to reach Pryce at (5, 3). The remaining BEAUTY at (4, 6) is likely an optional battle. Old path from (2,5) [Right, Up] failed. New manual path from (0,2): Down -> Right -> Up -> Left -> Down -> Right -> Up -> Down -> Left -> Up -> Up.
