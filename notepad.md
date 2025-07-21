@@ -83,3 +83,4 @@
   - DUGTRIO (Lv53) - Moves: Fissure, Slash, Earthquake, Rock Slide
   - NIDOQUEEN (Lv54) - Moves: Ice Beam, Earthquake, Thunderbolt, Body Slam
   - PERSIAN (Lv55) - Moves: Bubblebeam, Slash, Hyper Beam, Thunderbolt
+- **Critical Hallucination (Turn 91138):** I believed I had already exited the Viridian Pokémon Center and was in Viridian City. This caused my `pathfinder` tool to fail because it was using the wrong map data. This is another severe state-tracking failure. I must ground my actions in the provided game state, not my assumptions. Tool failures are often indicators of my own misunderstanding.
