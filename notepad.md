@@ -81,6 +81,5 @@
 
 # V. Agent & Tool Refinement Log
 
-## A. Battle Strategist Agent - To-Do
-- **CRITICAL REFINEMENT NEEDED:** The agent currently undervalues the importance of Speed and level discrepancies. It recommended switching a slow, underleveled Pokémon (NEPTUNE) into a fast, high-level attacker (Dugtrio) with a super-effective move.
-- **Action Item:** After this battle, I MUST update the agent's system prompt to explicitly instruct it to heavily weigh Speed stats and level gaps when recommending switches. A switch is only safe if the incoming Pokémon can survive a worst-case scenario attack (super-effective critical hit) or is guaranteed to move first and secure a KO.
+## A. Battle Strategist Agent - Completed Refinements
+- **Refinement (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor. This was done after it provided flawed advice in the battle against Giovanni's Dugtrio.
