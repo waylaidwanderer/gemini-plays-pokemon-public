@@ -44,14 +44,15 @@
 
 ### C. Mahogany Gym Ice Puzzle Analysis
 *   **Problem:** Navigate the Mahogany Gym ice puzzle to reach the Gym Leader, Pryce.
-*   **Hypothesis 1 (FALSIFIED):** A direct path exists from my current location to the island of floor tiles where the Gym Leader and BEAUTY trainer are located.
-    *   **Test 1.1:** Use `ice_puzzle_solver` to find a path from reachable `FLOOR` tiles on my island ((5, 10), (2, 10)) to target `FLOOR` tiles on the other island ((3, 4), (5, 4), (4, 7)).
+*   **Hypothesis 1 (FALSIFIED):** A direct path exists from the central island of floor tiles to the island where the Gym Leader and BEAUTY trainer are located.
+    *   **Test 1.1:** Use `ice_puzzle_solver` to find a path from reachable `FLOOR` tiles on the central island ((5, 10), (2, 10)) to target `FLOOR` tiles on the other island ((3, 4), (5, 4), (4, 7)).
     *   **Result 1.1:** The solver returned 'No path found' for all combinations.
     *   **Conclusion 1.1:** The two islands of `FLOOR` tiles are not directly connected by a simple slide path. The hypothesis is false.
 *   **Hypothesis 2 (NEW):** The puzzle's state must be changed to connect the two islands. This change is likely triggered by defeating one of the un-battled trainers near the gym entrance (ROCKER at (0, 17) or BEAUTY at (9, 17)).
-    *   **Test 2.1:** Use `ice_puzzle_solver` to find a path from the current location (5, 10) to an adjacent `FLOOR` tile for each of the un-battled trainers.
-    *   **Test 2.2:** If a path is found, battle the trainer.
-    *   **Test 2.3:** After the battle, re-run Test 1.1 to see if a path to the Gym Leader's island has been created.
+    *   **Test 2.1 (NEW):** Reset position to the main floor area at the gym entrance by intentionally sliding into a wall.
+    *   **Test 2.2 (NEW):** Use `ice_puzzle_solver` to find a path to the ROCKER at (0, 17).
+    *   **Test 2.3 (NEW):** Battle and defeat the ROCKER.
+    *   **Test 2.4 (NEW):** Re-run Test 1.1 to see if a path to the Gym Leader's island has been created. If not, repeat the process for the BEAUTY at (9, 17).
     *   **Conclusion 2:** (Pending test results).
 
 ## III. Battle Intel
