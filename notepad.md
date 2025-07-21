@@ -51,9 +51,8 @@
 - **Pathfinder & Boulder Puzzle Solver:** Both tools initially had a bug where their internal pathfinding logic couldn't handle land-to-water SURF transitions. This has been fixed.
 - **Boulder Puzzle Solver Failures (1F):** The solver repeatedly timed out or failed on the 1F puzzle. This was not a tool bug, but a signal that my hypothesis was wrong. I assumed the puzzle was solvable immediately. **The lesson is to treat repeated tool failures not as a sign to keep trying, but as evidence that my fundamental understanding of the puzzle's state is incorrect. I must be more willing to abandon a failing hypothesis and pivot to exploration.**
 
-## C. Reflection (Turn 89361)
-- **Data Management:** I have been diligent in my immediate data management recently. No deferred tasks identified.
-- **Hypothesis Testing:** My biggest recent failure was not trusting my tools and succumbing to confirmation bias regarding the layout of the eastern Seafoam Islands. My current hypothesis is that the boulders I've pushed have stopped the western current on B4F. I am about to test this. I must remain vigilant about testing, not just confirming, my beliefs.
+## C. Reflection (Post-Turn 89366)
+- **Hypothesis Status:** My hypothesis that the boulders stopped the western current on B4F was tested and proven false on turn 89366. My current hypothesis, based on my notepad and recent exploration, is that the boulders stopped the *eastern* current. I am currently navigating back to the eastern side of B4F to test this.
 
 # V. Puzzle Hypotheses Log
 
