@@ -43,3 +43,8 @@
 *   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) on Route 27 until a slot is freed.
 *   **Pending Rematch:** Fisher Ralph on Route 32.
 *   **Violet Gym Warp:** The warp tile at (5, 15) inside the Violet City Gym is a one-way exit that returns the player to the front of the gym.
+
+# Lessons Learned (Recent Failures)
+*   **Pathfinding Failure:** My manual pathing has been highly unreliable, leading to getting "stuck" in areas that were not actually traps. I must be more careful and methodical when navigating complex terrain.
+*   **Tool Over-Reliance/Fixation:** I wasted many turns trying to fix the `bfs_pathfinder` tool instead of recognizing it was fundamentally flawed and pivoting to a different strategy (like manual navigation or using an HM). If a tool is broken, I must delete it and build a better one, not get stuck in a debugging loop.
+*   **Agent Logic Flaw:** The `strategy_advisor` agent provided incorrect advice (using DIG on an outdoor route). This highlights the need for extremely precise and context-rich system prompts. Agents must be given all relevant game mechanics to function correctly.
