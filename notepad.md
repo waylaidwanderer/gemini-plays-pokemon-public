@@ -63,3 +63,8 @@
   - **Hypothesis 2:** Push boulders at (9, 15) & (10, 15) into holes at (4, 17) & (7, 17).
     - **Result:** FAILED. `boulder_puzzle_solver` reported 'No solution found'.
   - **Conclusion:** The puzzle on the western B3F platform is unsolvable from that platform alone. The solution must lie elsewhere.
+
+## C. Pathfinder Bug Fix (Turn 89499)
+- **The Bug:** The `pathfinder` tool was unable to find a path to a 'hole' tile because the `is_traversable` function did not recognize 'hole' as a valid land tile to move onto from 'ground'.
+- **The Fix:** I updated the `is_traversable` function to include 'hole' in the set of `valid_land_types` and added a condition to allow movement between 'ground' and 'hole' tiles.
+- **The Lesson:** My custom tools need to be robust enough to handle all known tile types. When a tool fails on a seemingly simple task, it's a strong indicator of a logic bug that needs immediate attention.
