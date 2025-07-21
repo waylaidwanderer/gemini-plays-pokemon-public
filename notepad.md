@@ -53,7 +53,7 @@
 *   **Team Rocket B1F Eastern Corridor:** The secret passage at (10, 9) leads to a dead-end corridor.
 
 ### C. Passwords & Keys
-*   **Team Rocket Hideout (Boss's Room):** SLOWPOKETAIL (Confirmed), HAIL GIOVANNI (Confirmed), RATICATE TAIL (Unconfirmed).
+*   **Team Rocket Hideout Passwords:** SLOWPOKETAIL (from ROCKET_GIRL on B3F), HAIL GIOVANNI (from Moltres statue on B3F). RATICATE TAIL is an unconfirmed password.
 
 ## IV. Battle Intel
 
