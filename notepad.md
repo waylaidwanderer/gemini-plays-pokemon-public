@@ -35,18 +35,18 @@
 *This section is for recording the teams and moves of significant trainers (Gym Leaders, Rivals) after a battle is concluded.*
 
 ## C. Wild Encounters Log
-- **Seafoam Islands 1F:** SLOWPOKE (Lv35) at (5, 13), KRABBY (Lv32) at (7, 7).
-- **Seafoam Islands B1F:** ZUBAT (Lv27) at (7, 11), KRABBY (Lv26) at (10, 14).
-- **Seafoam Islands B2F:** KINGLER (Lv38) at (12, 8), SLOWPOKE (Lv35) at (7, 9), ZUBAT (Lv27).
-- **Seafoam Islands B3F:** SEEL (Lv34) at (7, 5).
-- **Seafoam Islands B4F:** SEEL (Lv34) at (25, 5), ZUBAT (Lv36) at (16, 5).
+- **Seafoam Islands 1F:** SLOWPOKE (Lv35), KRABBY (Lv32).
+- **Seafoam Islands B1F:** ZUBAT (Lv27), KRABBY (Lv26).
+- **Seafoam Islands B2F:** KINGLER (Lv38), SLOWPOKE (Lv35), ZUBAT (Lv27), GOLBAT (Lv36-37).
+- **Seafoam Islands B3F:** SEEL (Lv34-35).
+- **Seafoam Islands B4F:** SEEL (Lv34), ZUBAT (Lv36).
 
 # III. Puzzles & Exploration
 
 ## A. Current Objective: Seafoam Islands
 - **Primary Goal:** Solve the main boulder puzzle on Seafoam Islands B3F (West).
-- **Current Location:** Eastern section of the Seafoam Islands.
-- **Strategy:** The eastern section is a confirmed dead-end loop. The only way to progress is to exit the cave via the eastern entrance and re-enter from the western cave entrance on Route 20.
+- **Current Location:** Western section of the Seafoam Islands.
+- **Strategy:** The eastern section is a confirmed dead-end loop. The only way to progress is to exit the cave via the eastern entrance and re-enter from the western cave entrance on Route 20. I am now exploring the western side, which seems to be the correct path.
 
 # IV. Strategic Lessons & Tool Development
 
@@ -56,5 +56,5 @@
 - **The Lesson:** **A tool's failure is a data point about the world, not just a bug.** Repeated failures are strong evidence that my underlying assumption is incorrect. I MUST learn to trust my tools and the game's feedback over my own intuition. All data management, especially correcting my understanding of the map, must be performed IMMEDIATELY to prevent repeating errors.
 
 ## B. Tool Development Log
-- **Pathfinder Tool:** Its failures in Seafoam were due to my incorrect hypotheses, not bugs.
-- **Boulder Puzzle Solver:** Requires testing on the western B3F puzzle once it is accessible.
+- **Pathfinder Tool:** Its failures in Seafoam were due to my incorrect hypotheses, not bugs. **UPDATE:** The tool had a bug where it couldn't handle land-to-water SURF transitions. This has been fixed.
+- **Boulder Puzzle Solver:** Its initial failures were also due to a bug in its internal pathfinding logic, which couldn't handle SURF. This has been fixed.
