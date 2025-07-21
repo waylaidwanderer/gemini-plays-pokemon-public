@@ -48,10 +48,18 @@
 *   **Mahogany Gym Puzzle:** **Hypothesis:** The puzzle is purely navigational. A correct sequence of slides can bypass trainers. **Test Plan (Iterative):**
     1.  Start at `(0, 2)`.
     2.  Execute one slide at a time and record the result.
-    3.  **Mahogany Gym Puzzle Solution:**
-1. Navigate the outer loop to reach the safe floor tile at (6, 2).
-2. Walk left one step onto the ice tile at (5, 2).
-3. This triggers a slide down, which is blocked by Pryce, landing you at (5, 4).
+    3.  *   **Mahogany Gym Puzzle:**
+    *   **Hypothesis 1 (FAILED):** A specific slide from (6, 2) leads to Pryce. **Reason:** Sliding left from (6, 2) enters a loop.
+    *   **Hypothesis 2 (NEW):** Defeating the BEAUTY trainer at (4, 6) is required.
+    *   **Test Plan (Iterative):**
+        1. From (0, 2), slide Down to (0, 8).
+        2. From (0, 8), slide Right to (7, 8).
+        3. From (7, 8), slide Up to (7, 2).
+        4. From (7, 2), slide Left to (6, 2).
+        5. From (6, 2), slide Down to (6, 5).
+        6. From (6, 5), slide Left to (3, 5).
+        7. From (3, 5), slide Up to (3, 4).
+        8. Walk to (4, 4) and slide Down to (4, 7) to face the trainer.
 
 ## III. Battle Intel
 
