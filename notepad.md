@@ -45,12 +45,6 @@
 ### C. Active Hypotheses & Tests
 *   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
 *   **Team Rocket Hideout Progression:** **FALSIFIED HYPOTHESIS:** The eastern corridor is the exit. **REASON:** Pathing attempts failed repeatedly, leading to dead ends. **NEW HYPOTHESIS (from strategy_advisor):** The correct exit is one of the unexplored warps on the western side of the map at (3, 2) or (3, 6).
-*   **Mahogany Gym Puzzle:** **Hypothesis:** The puzzle is purely navigational. A correct sequence of slides can bypass trainers. **Test Plan (Iterative):**
-    1.  Start at `(0, 2)`.
-    2.  Execute one slide at a time and record the result.
-    3.  *   **Mahogany Gym Puzzle:**
-    *   **Hypothesis 1 (FAILED):** A specific slide from (6, 2) leads to Pryce. **Reason:** Sliding left from (6, 2) enters a loop.
-    *   **Hypothesis 3 (FAILED):** The path `(2, 5) -> Right -> (6, 5) -> Left -> (2, 5)` was tested and confirmed to be a loop.
 *   **Mahogany Gym Puzzle Analysis:**
     *   **Problem:** Navigate the Mahogany Gym ice puzzle to reach the Gym Leader, Pryce.
     *   **Initial Observation:** The gym consists of `ICE` tiles that cause sliding until an obstacle is hit, and `FLOOR` tiles that stop movement. Obstacles include `WALL` tiles and NPCs.
