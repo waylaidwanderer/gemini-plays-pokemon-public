@@ -34,7 +34,6 @@
 
 ## B. Trainer Rosters & Movesets
 *This section is for recording the teams and moves of significant trainers (Gym Leaders, Rivals) after a battle is concluded.*
-- **Giovanni (Viridian Gym):** NIDOKING (Lv54, Ice Beam, Blizzard, Thunderbolt, Earthquake), DUGTRIO (Lv53, Fissure, Slash, Earthquake, Rock Slide), NIDOQUEEN (Lv54, Ice Beam, Earthquake, Thunderbolt, Body Slam), PERSIAN (Lv55, Bubblebeam, Slash, Hyper Beam, Thunderbolt).
 
 ## C. Battle Lessons
 - **Level Disparity vs. Type Immunity:** A massive level gap can be more dangerous than type disadvantage. Switching in a low-level Pokémon (e.g., Lv 17 GALE) against a high-level opponent (e.g., Lv 53 Dugtrio) is extremely risky, even if the low-level Pokémon has type immunity to the opponent's primary STAB moves. Neutral coverage moves can still result in a one-hit KO if the level difference is significant. Survivability must be assessed holistically, considering HP, defensive stats, and the level gap, not just type matchups.
@@ -50,6 +49,7 @@
 - **Pathfinder & Boulder Puzzle Solver:** Both tools initially had a bug where their internal pathfinding logic couldn't handle land-to-water SURF transitions. This has been fixed.
 - **Pathfinder Bug Fix (Route 23):** The `pathfinder` tool was unable to find paths on Route 23 due to a logical flaw in the `is_traversable` function. It was incorrectly blocking movement between different valid land types. I have since rewritten the function to be more robust.
 - **`find_closest_unseen_tile` Failures (FIXED):** This tool repeatedly failed on Route 23. The root cause was a bug in the `is_traversable` function that prevented movement between adjacent water tiles, causing the BFS to fail when exploring while surfing. The logic has been corrected. Additionally, the tool was failing because it was being called with incomplete `party_data` that lacked move information, preventing the `has_hm` check from working. I will now provide the complete party data, including HMs, when calling this tool.
+- **`spinner_maze_solver` Fix (Turn 90597):** Rewrote the path reconstruction logic to correctly store and use the 'trigger step' for each spinner segment, fixing a critical bug that produced incorrect paths in the Viridian Gym.
 
 ## C. Strategic Reflections
 - **Menu Efficiency:** Cycling through the Fly menu was inefficient. I must be more systematic in menu navigation to avoid wasting turns, concluding an option is unavailable after one full cycle rather than repeated presses.
