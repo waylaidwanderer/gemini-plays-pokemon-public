@@ -51,9 +51,12 @@
     3.  *   **Mahogany Gym Puzzle:**
     *   **Hypothesis 1 (FAILED):** A specific slide from (6, 2) leads to Pryce. **Reason:** Sliding left from (6, 2) enters a loop.
     *   **Hypothesis 3 (FAILED):** The path `(2, 5) -> Right -> (6, 5) -> Left -> (2, 5)` was tested and confirmed to be a loop.
-*   **Hypothesis 4 (NEW):** Reaching and defeating the un-battled BEAUTY trainer at (4, 6) may be required to progress.
-    *   **Test Plan (Iterative):**
-        1. From (2, 5), slide Down.
+*   **Mahogany Gym Puzzle Analysis:**
+    *   **Problem:** Navigate the Mahogany Gym ice puzzle to reach the Gym Leader, Pryce.
+    *   **Initial Observation:** The gym consists of `ICE` tiles that cause sliding until an obstacle is hit, and `FLOOR` tiles that stop movement. Obstacles include `WALL` tiles and NPCs.
+    *   **Hypothesis 1:** A reliable, automated tool can find the optimal path.
+    *   **Test Plan 1:** Debug and fix the `ice_puzzle_solver` tool. If successful, use it to find the path from the current position to the tile in front of Pryce at (5, 4).
+    *   **Conclusion 1:** (Pending test results).
 
 ## III. Battle Intel
 
