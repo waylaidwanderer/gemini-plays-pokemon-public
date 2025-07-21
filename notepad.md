@@ -83,11 +83,10 @@
 ### D. Open Hypotheses & Tests
 *   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
 *   **Mt. Mortar Invisible Barrier:** **Hypothesis:** An invisible barrier blocks the northern one-way ledge on Mt. Mortar B1F. **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
-*   **Team Rocket B1F Maze Progression:** 
-    *   **Primary Hypothesis:** The 'traps' are one-way pitfall warps caused by invisible arrow tiles that lead to the northern section of B2F.
-    *   **Methodology:** Use the `maze_mapper` tool to systematically explore every floor tile to find all pitfalls. The `maze_mapper` suggests the next unexplored adjacent tile. Once all pitfalls are found, I will use the `maze_solver` tool, providing it with the list of pitfall warp coordinates, to calculate the correct path through the maze.
-    
-    *   **Falsification Test:** If systematic mapping reveals no path, the hypothesis is wrong. The alternative is that another trigger exists on the map. I would need to re-explore the entire floor looking for other interactable objects.
+*   **Team Rocket B1F Maze Progression (NEW HYPOTHESIS):**
+    *   **Agent `strategy_advisor` Recommendation:** My previous hypotheses (simple pitfall, switch-based change) were falsified after exhaustive testing. The agent advised that the ROCKET Grunt's dialogue ('collect your courage and walk') implies the 'traps' are not confined to the western maze but could be anywhere on the floor.
+    *   **New Hypothesis:** The path forward is triggered by stepping on a specific 'trap' tile located in the central or eastern corridors of B1F.
+    *   **Methodology:** Systematically explore every floor tile in the central and eastern corridors, starting from the central area entrance at (7, 3), using the `maze_mapper` tool to ensure complete coverage.
 
 ### E. Untested Assumptions & Falsification Tests
 *   **BOOKSHELF Tile Traversal:** **Assumption:** Impassable. **Test:** Navigate to (20, 10) and attempt to walk into the bookshelf at (20, 11) and (21, 11) from all four cardinal directions.
