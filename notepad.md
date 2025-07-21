@@ -62,10 +62,9 @@
 # IV. Active Plans & Objectives
 
 ## A. Route 23 Exploration Plan
-- **Problem:** Route 23 is a complex maze with many unseen tiles. My `pathfinder` and `find_closest_unseen_tile` tools have proven unreliable here.
-- **Strategy:** Abandon automated pathing and commit to a systematic, manual exploration.
+- **Problem:** Route 23 is a complex maze. My `find_closest_unseen_tile` tool is critically bugged and unable to find reachable unseen tiles, hindering efficient exploration. My `pathfinder` tool is functional.
+- **Strategy:** Prioritize fixing the `find_closest_unseen_tile` tool. Manual exploration is inefficient and should only be a last resort.
 - **Execution Plan:**
-  1.  Start from the entrance of the western path at (6, 135).
-  2.  Systematically explore every branching path, prioritizing revealing unseen tiles.
-  3.  Mark dead ends and key junctions with map markers to avoid getting lost.
-  4.  Continue until all reachable unseen tiles in this area are explored.
+  1.  **Immediate Priority:** Debug and redefine the `find_closest_unseen_tile` tool until it correctly identifies reachable unseen tiles on this map.
+  2.  Once the tool is fixed, use it to systematically explore all reachable unseen areas.
+  3.  Continue using `pathfinder` for direct navigation and `define_map_marker` to track progress.
