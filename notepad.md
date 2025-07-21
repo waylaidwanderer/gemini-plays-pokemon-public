@@ -34,19 +34,16 @@
 ## B. Trainer Rosters & Movesets
 *This section is for recording the teams and moves of significant trainers (Gym Leaders, Rivals) after a battle is concluded.*
 
-## C. Wild Encounters Log
-- **Seafoam Islands 1F:** SLOWPOKE (Lv35), KRABBY (Lv32).
-- **Seafoam Islands B1F:** ZUBAT (Lv27), KRABBY (Lv26).
-- **Seafoam Islands B2F:** KINGLER (Lv38), SLOWPOKE (Lv35), ZUBAT (Lv27), GOLBAT (Lv36-37).
-- **Seafoam Islands B3F:** SEEL (Lv34-35).
-- **Seafoam Islands B4F:** SEEL (Lv34), ZUBAT (Lv36).
+## C. Recent Wild Encounters Log
+- **Seafoam Islands 1F:** KRABBY (Lv30-32), SLOWPOKE (Lv35).
+- **Seafoam Islands B1F:** ZUBAT (Lv27), KRABBY (Lv26), KINGLER (Lv38).
+- **Seafoam Islands B2F:** KINGLER (Lv38), SLOWPOKE (Lv35), ZUBAT (Lv27), GOLBAT (Lv36-37), KRABBY (Lv26).
 
 # III. Puzzles & Exploration
 
 ## A. Current Objective: Seafoam Islands
-- **Primary Goal:** Solve the Seafoam Islands puzzles by manipulating water currents.
-- **Current Location:** Western section of the Seafoam Islands.
-- **Strategy:** The eastern section is a confirmed dead-end loop. The correct path is through the western cave entrance. The puzzle involves pushing boulders on upper floors (like B2F and 1F) into holes to stop strong water currents on the lower floors (B3F and B4F), which unlocks new paths. My current focus is to explore the interconnected western sections of all floors to find and solve these boulder puzzles.
+- **Primary Goal:** Solve the Seafoam Islands puzzles.
+- **Current Strategy:** The core mechanic is pushing boulders on upper floors (1F, B1F, B2F) into holes to block strong water currents on lower floors (B3F, B4F). This opens new paths. My current focus is to systematically backtrack through the western cave section to observe the effects of the boulders I have already pushed.
 
 # IV. Strategic Lessons & Tool Development
 
@@ -56,5 +53,5 @@
 - **The Lesson:** **A tool's failure is a data point about the world, not just a bug.** Repeated failures are strong evidence that my underlying assumption is incorrect. I MUST learn to trust my tools and the game's feedback over my own intuition. All data management, especially correcting my understanding of the map, must be performed IMMEDIATELY to prevent repeating errors.
 
 ## B. Tool Development Log
-- **Pathfinder Tool:** Its failures in Seafoam were due to my incorrect hypotheses, not bugs. **UPDATE:** The tool had a bug where it couldn't handle land-to-water SURF transitions. This has been fixed.
-- **Boulder Puzzle Solver:** Its initial failures were also due to a bug in its internal pathfinding logic, which couldn't handle SURF. This has been fixed.
+- **Pathfinder & Boulder Puzzle Solver:** Both tools initially had a bug where their internal pathfinding logic couldn't handle land-to-water SURF transitions. This has been fixed.
+- **Boulder Puzzle Solver Failures (1F):** The solver repeatedly timed out or failed on the 1F puzzle. This was not a tool bug, but a signal that my hypothesis was wrong. I assumed the puzzle was solvable immediately. **The lesson is to treat repeated tool failures not as a sign to keep trying, but as evidence that my fundamental understanding of the puzzle's state is incorrect. I must be more willing to abandon a failing hypothesis and pivot to exploration.**
