@@ -41,9 +41,9 @@
   - PERSIAN (Lv55) - Moves: Bubblebeam, Slash, Hyper Beam, Thunderbolt
 
 ## C. Battle Lessons
-- **Level Disparity vs. Type Immunity:** A massive level gap can be more dangerous than type disadvantage. Switching in a low-level Pokémon (e.g., Lv 17 GALE) against a high-level opponent (e.g., Lv 53 Dugtrio) is extremely risky, even if the low-level Pokémon has type immunity to the opponent's primary STAB moves. Neutral coverage moves can still result in a one-hit KO if the level difference is significant. Survivability must be assessed holistically, considering HP, defensive stats, and the level gap, not just type matchups.
-- **Misleading Battle Text:** The on-screen text for move effectiveness (e.g., "It's super effective!") can be incorrect. The actual damage calculation appears to follow my verified type chart. For example, Dugtrio's Rock Slide (Rock) against ECHO (Poison/Flying) displayed as super-effective, but dealt neutral damage (1x) as expected from Rock (2x) vs. Flying and Rock (0.5x) vs. Poison.
-- **Ground-Type Immunity Extension:** Verified that Ground-types are immune to Electric-type *status* moves (like THUNDER WAVE), not just damaging moves. (Observed: SPARKY's THUNDER WAVE failed against Giovanni's NIDOQUEEN).
+- **Level Disparity:** A large level gap can be more dangerous than type immunity.
+- **Misleading Battle Text:** The on-screen text for move effectiveness can be incorrect. The actual damage calculation follows my verified type chart.
+- **Ground-Type Immunity Extension:** Ground-types are immune to Electric-type *status* moves (like THUNDER WAVE).
 
 # III. Strategic Lessons & Reflections
 
