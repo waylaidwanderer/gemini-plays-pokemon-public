@@ -45,8 +45,8 @@
 
 ## A. Current Objective: Seafoam Islands
 - **Primary Goal:** Solve the main boulder puzzle on Seafoam Islands B3F (West).
-- **Current Location:** Trapped in the *eastern* section of the Seafoam Islands.
-- **Corrective Action:** This eastern section is a confirmed dead-end loop. The only way to progress is to exit the cave via the eastern entrance and re-enter from the western cave entrance on Route 20.
+- **Current Location:** Eastern section of the Seafoam Islands.
+- **Strategy:** The eastern section is a confirmed dead-end loop. The only way to progress is to exit the cave via the eastern entrance and re-enter from the western cave entrance on Route 20.
 
 # IV. Strategic Lessons & Tool Development
 
@@ -56,5 +56,5 @@
 - **The Lesson:** **A tool's failure is a data point about the world, not just a bug.** Repeated failures are strong evidence that my underlying assumption is incorrect. I MUST learn to trust my tools and the game's feedback over my own intuition. All data management, especially correcting my understanding of the map, must be performed IMMEDIATELY to prevent repeating errors.
 
 ## B. Tool Development Log
-- **Pathfinder Tool:** Has been updated multiple times to handle `steps` and impassable targets better. Its failures in Seafoam were due to my incorrect hypotheses, not bugs.
+- **Pathfinder Tool:** Its failures in Seafoam were due to my incorrect hypotheses, not bugs.
 - **Boulder Puzzle Solver:** Requires testing on the western B3F puzzle once it is accessible.
