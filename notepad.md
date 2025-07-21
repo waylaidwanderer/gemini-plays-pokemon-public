@@ -115,3 +115,11 @@
     *   **Test:** After clearing the hideout, immediately check the gym entrance. If the Fisher is still there, the assumption is false.
 ### E. Tile Testing Protocol
 *   **New Tile Discovery:** When a new, unknown tile type is encountered, I must systematically test its properties. This includes attempting to walk on it from all four directions and documenting whether it's traversable, a one-way path, or requires a specific item or action to pass.
+
+### B. Untested Assumptions & Falsification Tests
+*   **HEADBUTT_TREE Traversal:**
+    *   **Assumption:** Impassable.
+    *   **Test:** Attempt to walk into it from all four directions.
+
+### C. Agent Ideas
+*   **Multi-Map Travel Planner:** An agent that takes a high-level destination (e.g., 'Mr. Pokémon's House') and generates a step-by-step route across multiple maps, accounting for known warps and obstacles.
