@@ -48,7 +48,8 @@
 *   **Mahogany Gym Puzzle:** **Hypothesis:** The puzzle is purely navigational. A correct sequence of slides can bypass trainers. **Test Plan (Iterative):**
     1.  Start at `(0, 2)`.
     2.  Execute one slide at a time and record the result.
-    3.  First move: Slide Down.
+    3.  1. Start at (0, 2), slide Down -> Landed at (0, 8).
+    2. Next move: Slide Right.
 
 ## III. Battle Intel
 
