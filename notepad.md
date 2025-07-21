@@ -62,12 +62,11 @@
 
 # IV. Active Plans & Objectives
 
-## A. Current Plan: Giovanni Rematch
-- **Problem:** I cannot defeat Giovanni. My current team composition and levels are insufficient.
-- **Strategy:** I will abandon the exploration of Route 23 for now and return to Viridian City. I will focus on training my Pokémon to the level cap (55) and re-evaluating my team composition for a better matchup against Giovanni's team.
+## A. Current Plan: Explore Route 23
+- **Status:** The `find_closest_unseen_tile` tool has been successfully repaired.
+- **Strategy:** I will now use my fixed tool to systematically explore Route 23 and locate the entrance to Victory Road.
 - **Execution Plan:**
-  1.  Fly to Viridian City.
-  2.  Identify a suitable training location.
-  3.  Train party members to level 55.
-  4.  Use `team_composition_advisor_agent` to build an optimal team from my full roster.
-  5.  Re-challenge Giovanni.
+  1.  Use `find_closest_unseen_tile` to identify the next exploration target.
+  2.  Use `pathfinder` to generate a path to an adjacent, reachable tile.
+  3.  Execute the path.
+  4.  Repeat this cycle until the path to Victory Road is clear.
