@@ -94,3 +94,4 @@
 
 ### F. Tile Testing Protocol
 *   **New Tile Discovery:** When a new, unknown tile type is encountered, I must systematically test its properties. This includes attempting to walk on it from all four directions and documenting whether it's traversable, a one-way path, or requires a specific item or action to pass.
+*   **BOOKSHELF Tile Traversal:** **Assumption:** Impassable. **Test:** Navigate to (20, 10) and attempt to walk into the bookshelf at (20, 11) and (21, 11) from all four cardinal directions.
