@@ -41,7 +41,7 @@
 *   **Ilex Forest Shrine:** A Lass in the Route 34 Gate mentioned a shrine honoring a grass-type protector.
 *   **TM12 (Sweet Scent):** Given by Teacher in Route 34 Ilex Forest Gate.
 *   **Team Rocket Base B1F Secret Passage:** The 'door' at (10, 9) is opened by the Secret Switch at (19, 11).
-*   **Team Rocket Base B1F Hidden Revive (Unobtainable):** Item at (3, 11) is currently unobtainable, likely story-gated.
+
 *   **Team Rocket Base B2F Layout:** Northern and southern corridors are separate. Access to the north must be from a different warp on B1F.
 *   **Mahogany Town:** No shop exists. The mart is a Team Rocket front, and the Poké Center has no vendor. Travel to another city is required for inventory management.
 *   **Mahogany Town Story Lock:** FLY is disabled, forcing progression towards the Lake of Rage.
