@@ -58,4 +58,4 @@
 *   **Jasmine:** MAGNEMITE (Thunderbolt, Thunder Wave, Supersonic), STEELIX (Iron Tail, Screech, Rock Throw)
 *   **Chuck:** PRIMEAPE (Leer, Rage, Karate Chop), POLIWRATH (Hypnosis, Mind Reader, Dynamicpunch)
 *   **Special Movement:** ICE (slide in one direction until an obstacle is hit).
-*   **Mahogany Gym Puzzle:** **Hypothesis:** Defeating all trainers is required to reach Pryce. **Alternative Hypothesis:** The puzzle is purely navigational, and a correct sequence of slides can bypass trainers. **Test:** After defeating Boarder Douglas, the path is still complex. My new `ice_puzzle_solver` tool will find the optimal path to Pryce at (5, 4). The remaining BEAUTY at (4, 6) might be an optional battle.
+*   **Mahogany Gym Puzzle:** **Hypothesis:** The puzzle is purely navigational. A correct sequence of slides can bypass trainers. **Test Plan:** Systematically explore paths manually to reach Pryce at (5, 3). The remaining BEAUTY at (4, 6) is likely an optional battle. Path to Pryce from (2,5) is Right then Up.
