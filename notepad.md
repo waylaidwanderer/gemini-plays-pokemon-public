@@ -9,7 +9,7 @@
     *   **Hypothesis 1:** The `is_valid_move` function logic is still flawed, despite multiple attempts to fix it. It might be misinterpreting specific ledge interactions.
     *   **Hypothesis 2:** I might be providing incorrect start/end coordinates, causing the tool to fail. (Tested and corrected, but the tool still failed).
     *   **Hypothesis 3:** The tool is not correctly parsing the map XML, leading to an inaccurate internal representation of the map.
-    *   **Status:** The tool is currently unreliable and abandoned in favor of manual navigation until it can be definitively fixed.
+    *   **Status:** The tool has been recreated and fixed multiple times. It now seems to handle basic navigation and one-way ledges correctly, but its reliability for complex, long-distance paths is still under evaluation.
 *   **`strategy_advisor` Agent Flaw:** The agent suggested fainting the party as a solution to being stuck, a violation of core directives.
     *   **Action Taken:** Refined the agent's system prompt to explicitly forbid this strategy. The agent needs to be tested again in a similar situation to confirm the fix.
 
