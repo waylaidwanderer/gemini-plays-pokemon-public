@@ -51,6 +51,7 @@
 *   **Secret Potion Location:** The hint for Cianwood City was incorrect; the Pharmacist runs a regular shop.
 *   **Team Rocket B2F Southern Corridor:** The ROCKET at (21, 14) has non-progressive dialogue, confirming this path is a dead end.
 *   **Team Rocket B1F Eastern Corridor:** The secret passage at (10, 9) and the entire eastern corridor lead to a dead-end loop.
+*   **Nugget at (14, 15) on B1F:** The hypothesis that picking it up was an event trigger is falsified. It is just a standard item.
 
 ## IV. Battle Intel
 
@@ -69,7 +70,7 @@
 ## V. Automation & Tool Development
 
 ### A. Tool Refinement Log & Status
-*   **Pathfinder v3 Tool (Active):** Critical bug fixed where it failed to calculate paths to impassable destinations or through complex paths. Tool is now fully operational.
+*   **Pathfinder v3 Tool (Active):** Critical coordinate system bug fixed. Tool is now fully operational.
 *   **Manual Path Planner Tool (Deleted):** Became redundant after `pathfinder_v3` was fixed.
 *   **To-Do:** Update the vague marker label for the object at (21, 12) on map 3_49 when it's next on screen.
 
@@ -86,17 +87,13 @@
     *   **Hypothesis:** The 'traps' are one-way pitfall warps caused by invisible arrow tiles that lead to the northern section of B2F.
     *   **Methodology:** Use the `maze_mapper` tool to systematically explore every floor tile. If a tile is a pitfall, record start/end coordinates. Compile a JSON string of all discovered pitfalls and use the `maze_solver` tool to find the path to an exit.
     *   **Known Pitfalls:** (3, 13) on B1F -> (3, 14) on B2F.
-*   **Nugget at (14, 15) on B1F:**
-    *   **Hypothesis:** It's a standard item. **(Confirmed)**
-    *   **Alternative Hypothesis:** Picking it up is an event trigger. **(Falsified)**
-    *   **Test:** Attempted to pick up, but bag was full. Plan is to take damage, use a Potion, then return to collect it.
+*   **Secret Switch at (19, 11) on B1F:**
+    *   **Primary Hypothesis:** It only opened the door at (10, 9).
+    *   **Alternative Hypothesis:** It had another, unseen effect (e.g., toggling some of the arrow tiles).
+    *   **Falsification Test:** If the arrow tile maze proves to be a complete dead end, I must return to the switch, press it again, and then re-explore the base to check for any changes.
 
 ### E. Untested Assumptions & Falsification Tests
-*   **HEADBUTT_TREE Traversal:** **Assumption:** Impassable. **Test:** Attempt to walk into it from all four directions.
-*   **Secret Switch at (19, 11) on B1F:**
-    *   **Hypothesis:** It only opened the door at (10, 9).
-    *   **Alternative Hypothesis:** It had another, unseen effect.
-    *   **Test:** If the maze proves to be a dead end, revisit the switch and re-explore the base for other changes.
+*   **HEADBUTT_TREE Traversal:** **Assumption:** Impassable. **Test:** Attempt to walk into it from all four directions. (Confirmed Impassable).
 
 ### F. Tile Testing Protocol
 *   **New Tile Discovery:** When a new, unknown tile type is encountered, I must systematically test its properties. This includes attempting to walk on it from all four directions and documenting whether it's traversable, a one-way path, or requires a specific item or action to pass.
