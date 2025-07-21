@@ -52,6 +52,7 @@
 *   **Secret Potion Location:** The hint for Cianwood City was incorrect; the Pharmacist runs a regular shop.
 *   **Team Rocket B2F Southern Corridor:** The ROCKET at (21, 14) has non-progressive dialogue, confirming this path is a dead end.
 *   **Team Rocket B1F Eastern Corridor:** The secret passage at (10, 9) and the entire eastern corridor lead to a dead-end loop.
+*   **Team Rocket B1F Switch Function:** The switch at (19, 11) is not a toggle for the invisible maze. Interacting with the ROCKET at (2, 4) produces the same result regardless of the switch's on/off state.
 
 ## IV. Battle Intel
 
@@ -75,6 +76,7 @@
 ### B. Agent Development Log & Status
 *   **Tool Debugger Agent v2 (Active):** A specialized agent created to diagnose and fix pathfinding scripts. Successfully identified and helped correct bugs in `pathfinder_v3`.
 *   **Inventory Solver Agent (Active):** Created to provide step-by-step plans to free up inventory slots, accounting for known bugs.
+*   **Strategy Advisor (Active):** Consolidated strategic advisor that provides high-level planning.
 
 ### C. Agent Ideas
 
@@ -82,21 +84,13 @@
 *   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
 *   **Mt. Mortar Invisible Barrier:** **Hypothesis:** An invisible barrier blocks the northern one-way ledge on Mt. Mortar B1F. **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
 *   **Team Rocket B1F Maze Progression:** 
-    *   **Hypothesis:** The 'traps' are one-way pitfall warps caused by invisible arrow tiles that lead to the northern section of B2F.
+    *   **Primary Hypothesis:** The 'traps' are one-way pitfall warps caused by invisible arrow tiles that lead to the northern section of B2F.
     *   **Methodology:** Use the `maze_mapper` tool to systematically explore every floor tile. If a tile is a pitfall, record start/end coordinates. Compile a JSON string of all discovered pitfalls and use the `maze_solver` tool to find the path to an exit.
     *   **Known Pitfalls:** (3, 13) on B1F -> (3, 14) on B2F.
-*   **Secret Switch at (19, 11) on B1F:**
-    *   **Primary Hypothesis:** It only opened the door at (10, 9).
-    *   **Alternative Hypothesis:** It had another, unseen effect (e.g., toggling some of the arrow tiles).
-    *   **Falsification Test:** If the arrow tile maze proves to be a complete dead end, I must return to the switch, press it again, and then re-explore the base to check for any changes.
+    *   **Falsification Test:** If systematic mapping reveals no path, the hypothesis is wrong. The alternative is that another trigger exists on the map. I would need to re-explore the entire floor looking for other interactable objects.
 
 ### E. Untested Assumptions & Falsification Tests
-*   **HEADBUTT_TREE Traversal:** **Assumption:** Impassable. **Test:** Attempt to walk into it from all four directions. (Confirmed Impassable).
+*   **BOOKSHELF Tile Traversal:** **Assumption:** Impassable. **Test:** Navigate to (20, 10) and attempt to walk into the bookshelf at (20, 11) and (21, 11) from all four cardinal directions.
 
 ### F. Tile Testing Protocol
 *   **New Tile Discovery:** When a new, unknown tile type is encountered, I must systematically test its properties. This includes attempting to walk on it from all four directions and documenting whether it's traversable, a one-way path, or requires a specific item or action to pass.
-
-### F. New Falsification Tests
-*   **Team Rocket B1F Maze Progression:** If exploring every floor tile reveals no pitfalls or exits, the primary hypothesis (pitfall maze) is wrong. **Test:** Return to the switch at (19, 11), interact with it again, then re-map the entire maze to check for changes. This tests the alternative hypothesis that the switch toggles the maze state.
-*   **BOOKSHELF Tile Traversal:** **Assumption:** Impassable. **Test:** Attempt to walk into it from all four directions.
-*   **BOOKSHELF Tile Traversal:** **Assumption:** Impassable. **Test:** After toggling the switch at (19, 11), I will move to (20, 10) and attempt to walk into the bookshelf at (20, 11) from all four directions.
