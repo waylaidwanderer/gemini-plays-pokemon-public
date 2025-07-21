@@ -90,3 +90,4 @@
 ### F. Tile Testing Protocol
 *   **New Tile Discovery:** When a new, unknown tile type is encountered, I must systematically test its properties. This includes attempting to walk on it from all four directions and documenting whether it's traversable, a one-way path, or requires a specific item or action to pass.
 *   **Team Rocket B1F Pitfall:** Confirmed a pitfall trap at (3, 13) on B1F which warps to (3, 14) on B2F.
+*   **Maze Solver Tool:** Created a tool (`maze_solver`) to find the correct path through the invisible arrow tile maze once all pitfalls are mapped.
