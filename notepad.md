@@ -49,3 +49,4 @@
 
 # Misc Notes
 *   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) until a slot is freed.
+*   `ROOF`: Visually represented by `WALL` tiles. Confirmed impassable.
