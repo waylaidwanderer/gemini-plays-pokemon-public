@@ -44,9 +44,9 @@
 # III. Puzzles & Exploration
 
 ## A. Current Objective: Seafoam Islands
-- **Primary Goal:** Solve the main boulder puzzle on Seafoam Islands B3F (West).
+- **Primary Goal:** Solve the Seafoam Islands puzzles by manipulating water currents.
 - **Current Location:** Western section of the Seafoam Islands.
-- **Strategy:** The eastern section is a confirmed dead-end loop. The only way to progress is to exit the cave via the eastern entrance and re-enter from the western cave entrance on Route 20. I am now exploring the western side, which seems to be the correct path.
+- **Strategy:** The eastern section is a confirmed dead-end loop. The correct path is through the western cave entrance. The puzzle involves pushing boulders on upper floors (like B2F and 1F) into holes to stop strong water currents on the lower floors (B3F and B4F), which unlocks new paths. My current focus is to explore the interconnected western sections of all floors to find and solve these boulder puzzles.
 
 # IV. Strategic Lessons & Tool Development
 
