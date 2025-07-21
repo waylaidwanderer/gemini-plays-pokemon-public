@@ -34,16 +34,11 @@
 ## B. Trainer Rosters & Movesets
 *This section is for recording the teams and moves of significant trainers (Gym Leaders, Rivals) after a battle is concluded.*
 
-## C. Recent Wild Encounters Log
-- **Seafoam Islands 1F:** KRABBY (Lv30-32), SLOWPOKE (Lv35).
-- **Seafoam Islands B1F:** ZUBAT (Lv27), KRABBY (Lv26), KINGLER (Lv38).
-- **Seafoam Islands B2F:** KINGLER (Lv38), SLOWPOKE (Lv35), ZUBAT (Lv27), GOLBAT (Lv36-37), KRABBY (Lv26).
-
 # III. Puzzles & Exploration
 
 ## A. Current Objective: Seafoam Islands
 - **Primary Goal:** Solve the Seafoam Islands puzzles.
-- **Current Strategy:** The core mechanic is pushing boulders on upper floors (1F, B1F, B2F) into holes to block strong water currents on lower floors (B3F, B4F). This opens new paths. My current focus is to systematically backtrack through the western cave section to observe the effects of the boulders I have already pushed.
+- **Current Strategy:** The core mechanic is pushing boulders on upper floors (1F, B1F, B2F) into holes to block strong water currents on lower floors (B3F, B4F). The message 'The current is much too fast!' on B4F confirms I have missed a boulder. My current focus is to systematically backtrack to B3F to fully explore the eastern island section I previously abandoned.
 
 # IV. Strategic Lessons & Tool Development
 
