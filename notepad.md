@@ -31,3 +31,6 @@
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
     *   `FLOOR_UP_WALL`: A one-way ledge. Can only be moved up from the tile below it; confirmed impassable from above, left, and right.
+
+## Bag Mechanics
+*   **Tossing Items:** To free up an inventory slot, you must toss the **entire stack** of an item (e.g., "Potion x5"). Tossing a single item from a stack (e.g., reducing it to "Potion x4") does not free up a slot.
