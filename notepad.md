@@ -11,3 +11,4 @@
     *   `HEADBUTT_TREE`: Impassable barrier.
     *   `WALL`: Impassable barrier.
     *   `LEDGE_HOP_DOWN`: One-way traversal. Can only be moved down from the tile above it.
+*   `VOID`: Impassable barrier, represents out-of-bounds areas.
