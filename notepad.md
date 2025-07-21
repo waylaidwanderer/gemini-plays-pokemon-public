@@ -76,9 +76,9 @@
 ### B. Agent Development Log & Status
 *   **Tool Debugger Agent v2 (Active):** A specialized agent created to diagnose and fix pathfinding scripts. Successfully identified and helped correct bugs in `pathfinder_v3`.
 *   **Inventory Solver Agent (Active):** Created to provide step-by-step plans to free up inventory slots, accounting for known bugs.
+*   **Multi-Map Travel Planner (Active):** An agent that takes a high-level destination (e.g., 'Mr. Pokémon's House') and generates a step-by-step route across multiple maps, accounting for known warps and obstacles.
 
 ### C. Agent Ideas
-*   **Multi-Map Travel Planner:** An agent that takes a high-level destination (e.g., 'Mr. Pokémon's House') and generates a step-by-step route across multiple maps, accounting for known warps and obstacles.
 
 ### D. Open Hypotheses & Tests
 *   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
