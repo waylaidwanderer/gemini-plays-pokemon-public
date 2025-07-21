@@ -66,11 +66,11 @@
 
 # IV. Active Plans & Objectives
 
-## A. Current Plan: Explore Route 23
-- **Status:** Both `find_closest_unseen_tile` and `pathfinder` tools have been successfully repaired.
-- **Strategy:** I will now use my fixed tools to systematically explore Route 23 and locate the entrance to Victory Road.
+## A. Current Plan: Debug Pathfinder (Final Attempt)
+- **Problem:** The `pathfinder` tool failed verification again. Its A* algorithm cannot find a path to a location that the `find_closest_unseen_tile` tool's BFS confirms is reachable. This points to a subtle bug in the `pathfinder`'s `is_traversable` implementation.
+- **Strategy:** I will meticulously copy the known-working `is_traversable` function from `find_closest_unseen_tile` into `pathfinder` to ensure logical parity.
 - **Execution Plan:**
-  1.  Use `find_closest_unseen_tile` to identify the next exploration target.
-  2.  Use `pathfinder` to generate a path to an adjacent, reachable tile.
-  3.  Execute the path.
+  1.  Redefine the `pathfinder` tool with the copied logic.
+  2.  Re-run the verification test by pathing to the target provided by `find_closest_unseen_tile`.
+  3.  Do not proceed until the `pathfinder` is 100% successful.
   4.  Repeat this cycle until the path to Victory Road is clear.
