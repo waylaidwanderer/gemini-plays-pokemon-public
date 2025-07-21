@@ -40,3 +40,4 @@
 # Misc Notes & Reminders
 *   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) on Route 27 until a slot is freed.
 *   **Pending Rematch:** Fisher Ralph on Route 32.
+*   **Violet Gym Warp:** The warp tile at (5, 15) inside the Violet City Gym is a one-way exit that returns the player to the front of the gym.
