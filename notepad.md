@@ -14,7 +14,7 @@
 
 # Game Systems & Tools
 *   **`bfs_pathfinder` Tool:** 
-    *   **Status:** Refined and working. Successfully handles unseen tiles and pathing to adjacent traversable tiles.
+    *   **Status:** Fully operational. The refined logic correctly handles unseen tiles and pathing to the map edge.
 *   **`strategy_advisor` Agent:** Its system prompt was refined to forbid suggesting fainting. Needs to be tested to confirm the fix.
 *   **Future Agent Idea:** An `exploration_planner` agent could analyze the map's seen/unseen tiles to suggest the most efficient exploration targets.
 
