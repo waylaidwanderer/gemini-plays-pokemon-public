@@ -55,3 +55,13 @@
 ## B. Tool Development Log
 - **Pathfinder & Boulder Puzzle Solver:** Both tools initially had a bug where their internal pathfinding logic couldn't handle land-to-water SURF transitions. This has been fixed.
 - **Boulder Puzzle Solver Failures (1F):** The solver repeatedly timed out or failed on the 1F puzzle. This was not a tool bug, but a signal that my hypothesis was wrong. I assumed the puzzle was solvable immediately. **The lesson is to treat repeated tool failures not as a sign to keep trying, but as evidence that my fundamental understanding of the puzzle's state is incorrect. I must be more willing to abandon a failing hypothesis and pivot to exploration.**
+
+# V. Puzzle Hypotheses Log
+
+## A. Seafoam Islands
+- **B3F Puzzle (West Platform):**
+  - **Hypothesis 1:** Push boulder at (6, 15) into hole at (7, 17).
+    - **Result:** FAILED. `boulder_puzzle_solver` reported 'No solution found'. Player cannot reach the required push position.
+  - **Hypothesis 2:** Push boulders at (9, 15) & (10, 15) into holes at (4, 17) & (7, 17).
+    - **Result:** FAILED. `boulder_puzzle_solver` reported 'No solution found'.
+  - **Conclusion:** The puzzle on the western B3F platform is unsolvable from that platform alone. The solution must lie elsewhere.
