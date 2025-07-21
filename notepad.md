@@ -30,9 +30,9 @@
 # Major Discoveries
 *   **Kanto Region:** Route 27 is the entry point to the Kanto region from Johto.
 *   `WARP_CARPET_DOWN`: A warp point that transports the player.
-*   `FLOOR_UP_WALL`: Can only be moved up from the tile below it.
+*   `FLOOR_UP_WALL`: A one-way ledge. Can only be moved up from the tile below it; impassable from above.
 
 # Tile Mechanics (Addendum)
 *   `WATERFALL`: Impassable barrier. (Assumption: likely requires HM Waterfall).
 *   `WARP_CARPET_DOWN`: A warp point that transports the player.
-*   `FLOOR_UP_WALL`: Can only be moved up from the tile below it.
+*   `FLOOR_UP_WALL`: A one-way ledge. Can only be moved up from the tile below it; impassable from above.
