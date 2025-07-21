@@ -10,7 +10,7 @@
 
 # Game Systems & Tools
 *   **`bfs_pathfinder` Tool:** 
-    *   **Status:** Needs fixing. The current logic does not correctly identify all impassable tiles, leading to pathing errors. Will be updated this turn.
+    *   **Status:** Fixed and operational. The logic now correctly identifies 'WALL' as an impassable tile type.
 *   **`strategy_advisor` Agent:** Its system prompt was refined to forbid suggesting fainting. Needs to be tested to confirm the fix.
 *   **Future Agent Idea:** An `exploration_planner` agent could analyze the map's seen/unseen tiles to suggest the most efficient exploration targets.
 
