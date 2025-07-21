@@ -48,9 +48,10 @@
 *   **Mahogany Gym Puzzle Analysis:**
     *   **Problem:** Navigate the Mahogany Gym ice puzzle to reach the Gym Leader, Pryce.
     *   **Initial Observation:** The gym consists of `ICE` tiles that cause sliding until an obstacle is hit, and `FLOOR` tiles that stop movement. Obstacles include `WALL` tiles and NPCs.
-    *   **Hypothesis 1:** A reliable, automated tool can find the optimal path.
-    *   **Test Plan 1:** Debug and fix the `ice_puzzle_solver` tool. If successful, use it to find the path from the current position to the tile in front of Pryce at (5, 4).
-    *   **Conclusion 1:** (Pending test results).
+    *   **Hypothesis 1 (FALSIFIED):** A simple slide-simulation tool can solve the puzzle. **REASON:** The tool failed multiple times, indicating its model of the puzzle is too simple.
+    *   **Hypothesis 2 (NEW):** The puzzle is a graph problem where `FLOOR` tiles are the nodes and slide sequences are the edges. Movement must be planned from `FLOOR` tile to `FLOOR` tile.
+    *   **Test Plan 2:** Redefine the `ice_puzzle_solver` tool with a new algorithm that models the gym as a graph of `FLOOR` tiles. Use the new tool to find the path to Pryce.
+    *   **Conclusion 2:** (Pending test results).
 
 ## III. Battle Intel
 
