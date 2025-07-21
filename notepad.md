@@ -50,7 +50,8 @@
     2.  Execute one slide at a time and record the result.
     3.  1. Start at (0, 2), slide Down -> Landed at (0, 8).
     2. From (0, 8), slide Right -> Landed at (7, 8).
-    3. Next move: Slide Up.
+    3. From (7, 8), slide Up -> Landed at (7, 2).
+    4. Next move: Slide Left.
 
 ## III. Battle Intel
 
