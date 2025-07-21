@@ -20,10 +20,10 @@
 ### A. Tile Traversal Rules
 *   **Verified Impassable:** WALL, COUNTER, MART_SHELF, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, ROCK, BUOY, VOID.
 *   **Verified Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA (with Surf), unknown (TeamRocketBaseB3F).
-*   **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN/LEFT/RIGHT.
+*   **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN/LEFT/RIGHT, WARP_PANEL.
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL.
 *   **One-Way:** PIT (fall), LEDGE_HOP_RIGHT/LEFT/DOWN, FLOOR_UP_WALL (one-way 'up' ledge).
-*   **Untested:** RADIO (Test by walking into), INCENSE_BURNER (Test by walking into), unknown (TeamRocketBaseB2F), unknown (LakeOfRage), COMPUTER, BED, CABINET, SINK, PLANT, unknown (MountMortarB1F), unknown (Route43), WARP_PANEL.
+*   **Untested:** RADIO (Test by walking into), INCENSE_BURNER (Test by walking into), unknown (TeamRocketBaseB2F), unknown (LakeOfRage), COMPUTER, BED, CABINET, SINK, PLANT, unknown (MountMortarB1F), unknown (Route43).
 
 ### B. System Bugs & Glitches (Verified)
 *   **Item Management:** 'DEPOSIT ITEM' & 'TOSS ITEM' (from PC & PACK) are bugged. 'FLY' HM is bugged. Using one item from a stack does not free an inventory slot.
@@ -50,6 +50,7 @@
 *   **Mahogany Gym Blocker:** The Fisher did NOT move after the Lake of Rage event. Hypothesis that Lance's presence was the trigger is false.
 *   **Secret Potion Location:** The hint for Cianwood City was incorrect; the Pharmacist runs a regular shop.
 *   **Team Rocket B2F Southern Corridor:** The ROCKET at (21, 14) has non-progressive dialogue, confirming this path is a dead end.
+*   **Team Rocket B1F Eastern Corridor:** The secret passage at (10, 9) leads to a dead-end corridor.
 
 ### C. Passwords & Keys
 *   **Team Rocket Hideout (Boss's Room):** SLOWPOKETAIL (Confirmed), HAIL GIOVANNI (Confirmed), RATICATE TAIL (Unconfirmed).
@@ -71,7 +72,8 @@
 ## V. Automation & Tool Development
 
 ### A. Tool Refinement Log & Status
-*   **Pathfinder v3 Tool (Active):** Critical bug identified and fixed where it failed to calculate paths to impassable destinations. Tool is now fully operational.
+*   **Pathfinder v3 Tool (Active):** Critical bug fixed where it failed to calculate paths to impassable destinations. Tool is now fully operational.
+*   **Manual Path Planner Tool (Deleted):** Became redundant after `pathfinder_v3` was fixed.
 
 ### B. Agent Development Log & Status
 *   **Tool Debugger Agent v2 (Active):** A specialized agent created to diagnose and fix pathfinding scripts. Successfully identified and helped correct bugs in `pathfinder_v3`.
@@ -86,8 +88,12 @@
 *   **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
 
 ### C. Team Rocket B1F Maze Progression
-*   **Hypothesis:** The 'traps' are one-way pitfall warps caused by invisible arrow tiles.
-*   **Current Plan:** Systematically map the invisible arrow tiles to solve the maze. Methodology: 1. Step on each unknown tile in the maze area. 2. If a tile forces movement, record the start and end coordinates. 3. Compile these coordinates into a JSON string. 4. Use the `maze_solver` tool with the compiled data to find the path to the warp panel at (5, 15).
+*   **Hypothesis:** The 'traps' are one-way pitfall warps caused by invisible arrow tiles that lead to the northern section of B2F.
+*   **Methodology:** 
+    1. Systematically step on each unknown floor tile in the maze area.
+    2. If a tile forces movement (a pitfall), record the start and end coordinates.
+    3. Compile a JSON string of all discovered pitfalls: `[{"start_x": X1, "start_y": Y1, "end_x": X2, "end_y": Y2, "direction": "up/down/left/right"}, ...]`
+    4. Use the `maze_solver` tool with the compiled data to find the path to the warp panel at (5, 15) or any other identified exit point.
 
 ## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
