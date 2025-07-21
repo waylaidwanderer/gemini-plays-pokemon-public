@@ -4,35 +4,30 @@
 # Side Quests & Rematches
 *   **Camper Todd:** Wants a rematch on Route 34.
 
-# Current Hypotheses & Investigations
-*   **`bfs_pathfinder` Tool Bug:** The tool has repeatedly failed, generating invalid paths that ignore one-way ledges.
-    *   **Hypothesis 1:** The `is_valid_move` function logic is still flawed, despite multiple attempts to fix it. It might be misinterpreting specific ledge interactions.
-    *   **Hypothesis 2:** I might be providing incorrect start/end coordinates, causing the tool to fail. (Tested and corrected, but the tool still failed).
-    *   **Hypothesis 3:** The tool is not correctly parsing the map XML, leading to an inaccurate internal representation of the map.
-    *   **Status:** The tool has been recreated and fixed multiple times. It now seems to handle basic navigation and one-way ledges correctly, but its reliability for complex, long-distance paths is still under evaluation.
-*   **`strategy_advisor` Agent Flaw:** The agent suggested fainting the party as a solution to being stuck, a violation of core directives.
-    *   **Action Taken:** Refined the agent's system prompt to explicitly forbid this strategy. The agent needs to be tested again in a similar situation to confirm the fix.
+# Current Puzzle: Tohjo Falls
+*   **Status:** Currently stuck on the entrance level. All paths are blocked by one-way ledges or impassable terrain, confirmed by `bfs_pathfinder`.
+*   **Hypothesis 1:** The `WARP_CARPET_DOWN` at (13, 15) is the only way forward.
+    *   **Test 1:** Stepping on the warp. **Result:** Failed.
+    *   **Test 2:** Stepping on from above. **Result:** Failed.
+    *   **Test 3:** Pressing 'A' on the warp while facing right. **Result:** Failed.
+    *   **Next Test:** Press 'A' on the warp while facing up.
+*   **Hypothesis 2:** It is possible to travel *down* `WATERFALL` tiles.
+    *   **Status:** Untested. `bfs_pathfinder` reports the area above the waterfall is unreachable from my current position.
+
+# Game Systems & Tools
+*   **`bfs_pathfinder` Tool:** Recreated after accidental deletion. The tool appears to correctly handle basic navigation, wall collision, and one-way ledges for short paths. However, it has failed on longer, more complex paths, suggesting potential undiscovered bugs or map features it cannot parse. Its reliability is still under evaluation.
+*   **`strategy_advisor` Agent:** The agent previously violated a core directive by suggesting fainting. Its system prompt has been refined to explicitly forbid this. It needs to be tested in a similar situation to confirm the fix.
+*   **Future Agent Idea:** A `debugging_assistant` agent could be created to analyze tool code and debug logs to provide systematic suggestions for fixes.
 
 # Tile Mechanics
 *   **General:**
-    *   `FLOOR`: Standard traversable ground.
+    *   `FLOOR`: Traversable.
     *   `TALL_GRASS`: Traversable, triggers wild encounters.
-    *   `HEADBUTT_TREE`: Impassable barrier.
-    *   `WALL`: Impassable barrier.
-    *   `VOID`: Impassable barrier, represents out-of-bounds areas.
-    *   `BUOY`: Impassable barrier.
-    *   `CAVE`: A warp point to another map.
+    *   `WALL`/`VOID`/`BUOY`: Impassable barriers.
+    *   `WATER`: Requires SURF to traverse.
+    *   `WATERFALL`: Impassable barrier. (Hypothesis: May be traversable downwards).
+    *   `CAVE`/`WARP_CARPET_DOWN`: Warp points.
 *   **One-Way Traversal:**
-    *   `LEDGE_HOP_DOWN`: Can only be moved down from the tile above it.
-    *   `LEDGE_HOP_LEFT`: Can only be moved left from the tile to its right.
-*   `WATER`: Requires SURF to traverse.
-
-# Major Discoveries
-*   **Kanto Region:** Route 27 is the entry point to the Kanto region from Johto.
-*   `WARP_CARPET_DOWN`: A warp point that transports the player.
-*   `FLOOR_UP_WALL`: A one-way ledge. Can only be moved up from the tile below it; impassable from above.
-
-# Tile Mechanics (Addendum)
-*   `WATERFALL`: Impassable barrier. (Assumption: likely requires HM Waterfall).
-*   `WARP_CARPET_DOWN`: A warp point that transports the player.
-*   `FLOOR_UP_WALL`: A one-way ledge. Can only be moved up from the tile below it; impassable from above.
+    *   `LEDGE_HOP_DOWN`: Can only be moved down from.
+    *   `LEDGE_HOP_LEFT`: Can only be moved left from.
+    *   `FLOOR_UP_WALL`: A one-way ledge. Can only be moved up from the tile below it; confirmed impassable from above, left, and right.
