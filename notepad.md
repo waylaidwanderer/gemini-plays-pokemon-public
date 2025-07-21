@@ -50,17 +50,11 @@
     2.  Execute one slide at a time and record the result.
     3.  *   **Mahogany Gym Puzzle:**
     *   **Hypothesis 1 (FAILED):** A specific slide from (6, 2) leads to Pryce. **Reason:** Sliding left from (6, 2) enters a loop.
-    *   **Hypothesis 2 (REVISED):** Defeating the BEAUTY trainer at (4, 6) is required.
+    *   **Hypothesis 3 (NEW):** A specific sequence of slides and walking on floor tiles is required to reach Pryce.
     *   **Test Plan (Iterative):**
-        1. From (0, 2), slide Down to (0, 8). (Completed)
-        2. From (0, 8), slide Right to (7, 8). (Completed)
-        3. From (7, 8), slide Up to (7, 2). (Completed)
-        4. From (7, 2), slide Left to (6, 2). (Completed)
-        5. From (6, 2), slide Down to (6, 5). (Completed)
-        6. From (6, 5), slide Left to (2, 5). (Completed, unexpected result)
-        7. From (2, 5), slide Up to (3, 4).
-        8. From (3, 4), walk to (4, 4).
-        9. From (4, 4), slide Down to (4, 7) to face the trainer.
+        1. From (2, 5), slide Right to (6, 5).
+        2. From (6, 5), walk Left to (5, 5).
+        3. From (5, 5), slide Up to (5, 4).
 
 ## III. Battle Intel
 
