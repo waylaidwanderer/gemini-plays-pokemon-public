@@ -33,6 +33,9 @@
     *   `ROOF`/`TV`: Impassable.
     *   `COUNTER`: Confirmed impassable after attempting to move onto the tile at (3, 2).
     *   `WALL`: Standard impassable tile.
+*   **Special Interaction:**
+    *   `FRUIT_TREE`: Can be interacted with by facing it and pressing 'A' to receive a BERRY.
+
 *   **One-Way Traversal:**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
