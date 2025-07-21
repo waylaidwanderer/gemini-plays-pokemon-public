@@ -20,10 +20,10 @@
 ### A. Tile Traversal Rules
 *   **Verified Impassable:** WALL, COUNTER, MART_SHELF, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, ROCK, BUOY, VOID.
 *   **Verified Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA (with Surf), unknown (TeamRocketBaseB3F).
-*   **Verified Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN/LEFT/RIGHT.
+*   **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN/LEFT/RIGHT.
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL.
 *   **One-Way:** PIT (fall), LEDGE_HOP_RIGHT/LEFT/DOWN, FLOOR_UP_WALL (one-way 'up' ledge).
-*   **Untested:** RADIO (Test by walking into), INCENSE_BURNER (Test by walking into), unknown (TeamRocketBaseB2F), unknown (LakeOfRage), COMPUTER, BED, CABINET, SINK, PLANT, unknown (MountMortarB1F), unknown (Route43).
+*   **Untested:** RADIO (Test by walking into), INCENSE_BURNER (Test by walking into), unknown (TeamRocketBaseB2F), unknown (LakeOfRage), COMPUTER, BED, CABINET, SINK, PLANT, unknown (MountMortarB1F), unknown (Route43), WARP_PANEL.
 
 ### B. System Bugs & Glitches (Verified)
 *   **Item Management:** 'DEPOSIT ITEM' & 'TOSS ITEM' (from PC & PACK) are bugged. 'FLY' HM is bugged. Using one item from a stack does not free an inventory slot.
@@ -71,11 +71,10 @@
 ## V. Automation & Tool Development
 
 ### A. Tool Refinement Log & Status
-*   **Pathfinder v3 Tool (Under Active Debugging):** Critical bug identified where it fails to calculate paths over water when walking. This is the highest priority bug to fix.
-*   **Contingency:** While `pathfinder_v3` is being fixed, use `manual_path_planner` for simple routes.
+*   **Pathfinder v3 Tool (Active):** Critical bug identified and fixed where it failed to calculate paths to impassable destinations. Tool is now fully operational.
 
 ### B. Agent Development Log & Status
-*   **Tool Debugger Agent v2 (Active):** A specialized agent created to diagnose and fix pathfinding scripts. Successfully identified and helped correct bugs in `manual_path_planner` and `pathfinder_v3`.
+*   **Tool Debugger Agent v2 (Active):** A specialized agent created to diagnose and fix pathfinding scripts. Successfully identified and helped correct bugs in `pathfinder_v3`.
 
 ## VI. Open Hypotheses & Tests
 
@@ -87,8 +86,8 @@
 *   **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
 
 ### C. Team Rocket B1F Maze Progression
-*   **Hypothesis:** The 'traps' are one-way pitfall warps.
-*   **Current Plan:** Continue systematic exploration south and east from (1, 14) to find a safe path to the ladder at (3, 14).
+*   **Hypothesis:** The 'traps' are one-way pitfall warps caused by invisible arrow tiles.
+*   **Current Plan:** Systematically map the invisible arrow tiles to solve the maze. Methodology: 1. Step on each unknown tile in the maze area. 2. If a tile forces movement, record the start and end coordinates. 3. Compile these coordinates into a JSON string. 4. Use the `maze_solver` tool with the compiled data to find the path to the warp panel at (5, 15).
 
 ## VII. Side Quests & Rematches
 *   **Picnicker Liz (Route 34):** Wants a rematch on Route 32.
