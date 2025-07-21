@@ -44,28 +44,16 @@
 *   **Team Rocket B1F Switch Function:** The switch at (19, 11) is not a toggle for the invisible maze. Interacting with the ROCKET at (2, 4) produces the same result regardless of the switch's on/off state.
 *   **Team Rocket B1F Maze (Simple Pitfall):** Systematically exploring every floor tile in the western maze area revealed no pitfalls or warps other than the known dead-end ladder. Hypothesis that a simple pitfall was the solution is false.
 
-### C. Mahogany Gym Ice Puzzle Analysis
+### C. Mahogany Gym Ice Puzzle Analysis (REVISED)
 *   **Problem:** Navigate the Mahogany Gym ice puzzle to reach the Gym Leader, Pryce.
-*   **Tool Development Log:** The `ice_puzzle_solver` tool is fundamentally bugged and unreliable. It has repeatedly failed to find valid paths that can be traced manually. I will not use it for this puzzle.
-*   **Current Plan (Manual Pathing):** I will navigate the puzzle manually, one step at a time, documenting each step. This is a multi-stage path.
-    *   **Stage 1: Reach the Northern Island**
-        *   **Step 1 (Next):** From (5, 15), walk to (4, 15).
-        *   **Step 2:** From (4, 15), slide Up. Expected landing: (4, 14).
-        *   **Step 3:** From (4, 14), slide Right. Expected landing: (5, 14).
-        *   **Step 4:** From (5, 14), slide Up. Expected landing: (5, 10).
-    *   **Stage 2: Navigate the Northern Island to Pryce**
-        *   This stage will be planned after successfully reaching (5, 10).
+*   **Tool Development Log (Critical Failure):** My custom tool, `ice_puzzle_solver`, has repeatedly failed to find a valid path, even when one is manually traceable. My previous attempts to fix it were insufficient, and abandoning it was a critical error in judgment. The tool's logic is fundamentally flawed.
+*   **Current Plan (Tool Debugging):** My highest priority is to fix the `ice_puzzle_solver`. I will not proceed with manual pathing. My plan is as follows:
+    1.  **Hypothesis:** The bug lies in how the tool's graph model connects `FLOOR` tiles. The adjacency list (`adj`) is likely being built incorrectly.
+    2.  **Test:** I will execute a debug version of the script using `run_code` with extensive print statements to trace the creation of the adjacency list and the BFS search.
+    3.  **Analysis:** I will analyze the debug output to pinpoint the exact logical error.
+    4.  **Resolution:** Once the bug is identified, I will redefine the tool with the corrected code.
 
 ## III. Battle Intel
 
 ### A. Type Effectiveness Chart (Verified)
 *   Water (Surf) vs. Water/Flying (Gyarados) -> Not Very Effective
-
-### B. Observed Trainer/Gym Leader Movesets
-*   **Youngster Joey:** RATTATA (Tackle, Tail Whip)
-*   **Falkner:** PIDGEY (Tackle), PIDGEOTTO (Tackle, Gust)
-*   **Bugsy:** METAPOD (Harden), KAKUNA (Harden), SCYTHER (Fury Cutter, Leer)
-*   **Whitney:** CLEFAIRY (Doubleslap, Encore), MILTANK (Rollout, Stomp, Attract)
-*   **Morty:** GASTLY (Lick, Spite), HAUNTER (Curse, Hypnosis, Dream Eater), GENGAR (Shadow Ball, Hypnosis, Dream Eater)
-*   **Jasmine:** MAGNEMITE (Thunderbolt, Thunder Wave, Supersonic), STEELIX (Iron Tail, Screech, Rock Throw)
-*   **Chuck:** PRIMEAPE (Leer, Rage, Karate Chop), POLIWRATH (Hypnosis, Mind Reader, Dynamicpunch)
