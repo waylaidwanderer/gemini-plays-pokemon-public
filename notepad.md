@@ -11,9 +11,6 @@
 
 # Tile Mechanics Testing
 *This section tracks experiments to understand how different tiles work.*
-*   **Hypothesis: `COUNTER` tiles are impassable.**
-    *   **Test:** Attempt to walk into a `COUNTER` tile.
-    *   **Status:** Untested.
 *   **Hypothesis: `PC` tiles are impassable.**
     *   **Test:** Attempt to walk into a `PC` tile.
     *   **Status:** Untested.
@@ -32,12 +29,13 @@
     *   `HEADBUTT_TREE`: Impassable, can be headbutted.
     *   `BUOY`: Confirmed impassable after attempting to move onto the tile at (27, 16).
     *   `ROOF`/`TV`: Impassable.
-    *   `COUNTER`/`PC`: Assumed impassable. Need to verify by attempting to walk into them.
+    *   `COUNTER`: Confirmed impassable after attempting to move onto the tile at (3, 2).
 *   **One-Way Traversal (Verified):**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
 *   **Needs Further Testing:**
     *   `WARP_CARPET_DOWN`: Appears to be a warp tile. Need to test if it can be entered from the sides or only from above.
+    *   `PC`: Assumed impassable. Need to verify by attempting to walk into it.
 
 # Misc Notes & Reminders
 *   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) on Route 27 until a slot is freed.
