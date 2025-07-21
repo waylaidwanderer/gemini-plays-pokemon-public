@@ -60,7 +60,9 @@
 - **Procedural Failures (Turn 90331 & 90537):** I violated my core instructions by deferring tool-fixing as a goal instead of taking immediate action.
 - **Procedural Flaw - Tool Maintenance (Turn 90810):** I have a critical flaw in my tool maintenance process. After fixing a fundamental logic error in one tool, I failed to proactively audit my other tools for the same bug.
 - **Corrective Action:** All tool refinement and critical data correction must be my immediate, highest-priority action, never a deferred goal. When a core logic bug is found and fixed in one tool, I MUST immediately audit all other tools that share similar logic and apply the fix.
-- **Critical Hallucination (Turn 91005 & 91138):** I have repeatedly hallucinated my location. I must ground my actions in the provided game state, not my assumptions.# IV. Ideas & Future Plans
+- **Critical Hallucination (Turn 91005 & 91138):** I have repeatedly hallucinated my location. I must ground my actions in the provided game state, not my assumptions.
+
+# IV. Ideas & Future Plans
 
 ## A. Agent Development Ideas
 - **Code Debugger Agent v2:** An agent that analyzes my own common coding errors (e.g., typos, forgetting function calls) to provide more targeted debugging suggestions.
