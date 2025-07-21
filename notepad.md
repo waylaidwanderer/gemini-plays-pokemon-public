@@ -75,7 +75,7 @@
 *   **Contingency:** While `pathfinder_v3` is being fixed, use `manual_path_planner` for simple routes and `maze_solver` for complex mazes.
 
 ### B. Agent Development Log & Status
-*   **Tool Debugger Agent (Under Review):** Has repeatedly failed to identify the root cause of the pathfinder's bugs. Requires review and potential redesign.
+*   **Tool Debugger Agent v2 (Active):** A new, more specialized agent created to diagnose and fix pathfinding scripts. Successfully identified and helped correct bugs in `manual_path_planner`.
 
 ## VI. Open Hypotheses & Tests
 
