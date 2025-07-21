@@ -1,26 +1,3 @@
-# Gem's Pokémon Crystal Notepad
-
-## I. Game Mechanics & Systems
-
-### A. Tile Traversal Rules
-*   **Verified Impassable:** WALL, COUNTER, MART_SHELF, PC, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, ROCK, BUOY, VOID, RADIO, INCENSE_BURNER, BOOKSHELF.
-*   **Verified Traversable:** GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA (with Surf).
-*   **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN/LEFT/RIGHT, WARP_PANEL.
-*   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL.
-*   **One-Way:** PIT (fall), LEDGE_HOP_RIGHT/LEFT/DOWN, FLOOR_UP_WALL (one-way 'up' ledge).
-*   **Special Movement (Corrected):** 
-    *   ICE: A player on an ICE tile will slide in a chosen direction until they reach the tile immediately preceding an obstacle (WALL, Object, VOID). `FLOOR` tiles are not obstacles and will be slid over.
-    *   FLOOR (on Ice Maps): Acts as a safe starting point. A player can stand on a `FLOOR` tile and choose their direction of movement without sliding. If a slide starts from a `FLOOR` tile (by walking onto an adjacent `ICE` tile), the slide will stop on the next `FLOOR` tile it encounters.
-*   **Untested:** COMPUTER, BED, CABINET, SINK, PLANT, unknown, and any tile type with `unknown` in its name. My protocol is to test these by attempting to walk into them from all four directions when first encountered.
-
-### B. System Bugs & Glitches (Verified)
-*   **Item Management:** 'DEPOSIT ITEM' & 'TOSS ITEM' (from PC & PACK) are bugged. 'FLY' HM is bugged. Using one item from a stack does not free an inventory slot.
-*   **Giving Items:** Giving an item to a Pokémon does not free an inventory slot.
-
-### C. Item Usage Rules
-*   **Status Heal:** Cannot be used on a Pokémon not afflicted with that status.
-*   **HP Restore:** Can be used on any damaged Pokémon, but not one at full HP.
-
 ## II. World Knowledge & Puzzles
 
 ### A. Solved Puzzles & Key Discoveries
