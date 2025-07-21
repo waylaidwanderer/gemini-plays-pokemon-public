@@ -46,15 +46,11 @@
 
 ### C. Mahogany Gym Ice Puzzle Analysis
 *   **Problem:** Navigate the Mahogany Gym ice puzzle to reach the Gym Leader, Pryce.
-*   **Hypothesis 1 (FALSIFIED):** A direct path exists from the central island of floor tiles to the island where the Gym Leader and BEAUTY trainer are located.
-    *   **Test 1.1:** Use `ice_puzzle_solver` to find a path from reachable `FLOOR` tiles on the central island ((5, 10), (2, 10)) to target `FLOOR` tiles on the other island ((3, 4), (5, 4), (4, 7)).
-    *   **Result 1.1:** The solver returned 'No path found' for all combinations.
-    *   **Conclusion 1.1:** The two islands of `FLOOR` tiles are not directly connected by a simple slide path. The hypothesis is false.
-*   **Hypothesis 2 (ACTIVE):** The puzzle's state must be changed to connect the two islands. This change is likely triggered by defeating one of the un-battled trainers near the gym entrance (ROCKER at (0, 17) or BEAUTY at (9, 17)).
-    *   **Test 2.1 (Current Step):** Reset position to the main floor area at the gym entrance by intentionally sliding into a wall.
-    *   **Test 2.2 (Next Step):** Use `ice_puzzle_solver` to find a path to the ROCKER at (0, 17).
-    *   **Test 2.3 (Next Step):** Battle and defeat the ROCKER.
-    *   **Test 2.4 (Next Step):** Re-run Test 1.1 to see if a path to the Gym Leader's island has been created. If not, repeat the process for the BEAUTY at (9, 17).
+*   **Tool Development Log:** The `ice_puzzle_solver` has failed multiple times due to a flawed slide simulation. The bug is that the slide logic does not correctly stop on `FLOOR` tiles. I am now implementing a corrected version.
+*   **Hypothesis 1 (ACTIVE):** The puzzle's state must be changed to connect the two islands. This change is likely triggered by defeating one of the un-battled trainers near the gym entrance (ROCKER at (0, 17) or BEAUTY at (9, 17)).
+    *   **Test 1.1 (Next Step):** Use the newly fixed `ice_puzzle_solver` to find a path to the ROCKER at (0, 17).
+    *   **Test 1.2 (If 1.1 succeeds):** Battle and defeat the ROCKER.
+    *   **Test 1.3 (If 1.2 succeeds):** Re-run the solver to see if a path to the Gym Leader's island has been created. If not, repeat the process for the BEAUTY at (9, 17).
 
 ## III. Battle Intel
 
