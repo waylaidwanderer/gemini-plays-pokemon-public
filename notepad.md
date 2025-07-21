@@ -3,14 +3,6 @@
 *   **Secondary:** Find a rematch with Camper Todd on Route 34.
 *   **Tertiary:** Retrieve the Rare Candy from Route 27 after clearing bag space.
 
-# Current Objective: Cherrygrove Detour
-*   **Situation:** Unexpectedly warped to Cherrygrove City (29, 4) after attempting to use FLY from New Bark Town. Now on Pokecenter2F.
-*   **Immediate Goal:** Investigate the reason for this scripted event.
-*   **Hypothesis Log:**
-    1.  **Hypothesis:** The event trigger is on the first floor. **Result:** Failed. All NPCs gave generic dialogue.
-    2.  **Hypothesis:** The event trigger is one of the Link Receptionists. **Result:** Failed. The receptionists at (5, 2) and (9, 2) gave generic dialogue.
-    3.  **Current Hypothesis:** The trigger is the third Link Receptionist at (13, 3). If that fails, my next hypothesis will be to use the PC at (2, 2).
-
 # Game Systems & Tools
 *   **`bfs_pathfinder` Tool:** 
     *   **Status:** Fixed and operational. The logic now correctly identifies 'WALL' as an impassable tile type.
