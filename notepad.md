@@ -30,3 +30,4 @@
 # Major Discoveries
 *   **Kanto Region:** Route 27 is the entry point to the Kanto region from Johto.
 *   `WARP_CARPET_DOWN`: A warp point that transports the player.
+*   `FLOOR_UP_WALL`: Can only be moved up from the tile below it.
