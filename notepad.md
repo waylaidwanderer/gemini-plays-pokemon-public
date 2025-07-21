@@ -43,11 +43,11 @@
 ### C. Active Hypotheses & Tests
 *   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
 *   **Mt. Mortar Invisible Barrier:** **Hypothesis:** An invisible barrier blocks the northern one-way ledge on Mt. Mortar B1F. **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
-*   **Team Rocket B1F Progression (NEW HYPOTHESIS):**
-    *   **Agent `strategy_advisor` Recommendation:** My previous hypotheses (simple pitfall, switch-based change) were falsified after exhaustive testing. The agent advised that the ROCKET Grunt's dialogue ('collect your courage and walk') implies the 'traps' are not confined to the western maze but could be anywhere on the floor.
-    *   **New Hypothesis:** The path forward is triggered by stepping on a specific 'trap' tile located in the central or eastern corridors of B1F.
-    *   **Methodology:** Systematically explore every floor tile in the central and eastern corridors, starting from the central area entrance at (7, 3), using the `maze_mapper` tool to ensure complete coverage.
-    *   **Alternative Hypothesis:** The solution requires a two-step process: flipping the switch at (19, 11) to a specific state ('on' or 'off') AND THEN stepping on a specific floor tile elsewhere.
+*   **Team Rocket B1F Progression (AGENT-ASSISTED HYPOTHESIS):**
+    *   **Falsification:** My `maze_mapper` tool confirmed that every reachable floor tile in the central and western corridors has been explored. This falsifies the hypothesis that a simple floor trap was the solution.
+    *   **Agent `strategy_advisor` Recommendation:** The agent analyzed the ROCKET Grunt's dialogue ('Collect your courage and walk!') and suggested the solution is to walk through what appears to be a wall at a dead end.
+    *   **New Hypothesis:** An invisible, walkable path exists through a WALL tile at one of the map's dead ends.
+    *   **Methodology:** Systematically attempt to walk into the final wall tile of each dead-end corridor, starting with the central corridor's dead end at (6, 1).
 
 ## III. Battle Intel
 
