@@ -42,20 +42,17 @@
 *   **Team Rocket B1F Switch Function:** The switch at (19, 11) is not a toggle for the invisible maze. Interacting with the ROCKET at (2, 4) produces the same result regardless of the switch's on/off state.
 *   **Team Rocket B1F Maze (Simple Pitfall):** Systematically exploring every floor tile in the western maze area revealed no pitfalls or warps other than the known dead-end ladder. Hypothesis that a simple pitfall was the solution is false.
 
-### C. Active Hypotheses & Tests
-*   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
-*   **Team Rocket Hideout Progression:** **FALSIFIED HYPOTHESIS:** The eastern corridor is the exit. **REASON:** Pathing attempts failed repeatedly, leading to dead ends. **NEW HYPOTHESIS (from strategy_advisor):** The correct exit is one of the unexplored warps on the western side of the map at (3, 2) or (3, 6).
-*   **Mahogany Gym Puzzle Analysis:**
-    *   **Problem:** Navigate the Mahogany Gym ice puzzle to reach the Gym Leader, Pryce.
-    *   **Initial Observation:** The gym consists of `ICE` tiles that cause sliding until an obstacle is hit, and `FLOOR` tiles that stop movement. Obstacles include `WALL` tiles and NPCs.
-    *   **Hypothesis 1 (FALSIFIED):** A simple slide-simulation tool can solve the puzzle. **REASON:** The tool failed multiple times, indicating its model of the puzzle is too simple.
-    *   **Hypothesis 2 (FALSIFIED):** A direct path exists to the Gym Leader or the BEAUTY trainer. **REASON:** The `ice_puzzle_solver` tool, which models the puzzle as a graph of FLOOR tiles, consistently returns 'No path found' for these destinations. This indicates they are on a separate, unreachable 'island' of floor tiles from my current position.
-    *   **Hypothesis 3 (NEW):** To reach the target island, I must find a specific starting `FLOOR` tile on my current island that has a slide-path connecting to the target island.
-    *   **Test Plan 3 (Multi-step):**
-        1.  **Identify Reachable Nodes:** Use `run_code` to execute a script that performs a BFS from the player's current position to find all reachable `FLOOR` tiles.
-        2.  **Systematic Pathfinding:** For each reachable `FLOOR` tile identified in Step 1, use the `ice_puzzle_solver` to attempt to find a path to each of the target `FLOOR` tiles: (3, 4), (5, 4), and (4, 7).
-        3.  **Execution:** Execute the first valid path found by the solver.
-    *   **Conclusion 3:** (Pending test results).
+### C. Mahogany Gym Ice Puzzle Analysis
+*   **Problem:** Navigate the Mahogany Gym ice puzzle to reach the Gym Leader, Pryce.
+*   **Hypothesis 1 (FALSIFIED):** A direct path exists from my current location to the island of floor tiles where the Gym Leader and BEAUTY trainer are located.
+    *   **Test 1.1:** Use `ice_puzzle_solver` to find a path from reachable `FLOOR` tiles on my island ((5, 10), (2, 10)) to target `FLOOR` tiles on the other island ((3, 4), (5, 4), (4, 7)).
+    *   **Result 1.1:** The solver returned 'No path found' for all combinations.
+    *   **Conclusion 1.1:** The two islands of `FLOOR` tiles are not directly connected by a simple slide path. The hypothesis is false.
+*   **Hypothesis 2 (NEW):** The puzzle's state must be changed to connect the two islands. This change is likely triggered by defeating one of the un-battled trainers near the gym entrance (ROCKER at (0, 17) or BEAUTY at (9, 17)).
+    *   **Test 2.1:** Use `ice_puzzle_solver` to find a path from the current location (5, 10) to an adjacent `FLOOR` tile for each of the un-battled trainers.
+    *   **Test 2.2:** If a path is found, battle the trainer.
+    *   **Test 2.3:** After the battle, re-run Test 1.1 to see if a path to the Gym Leader's island has been created.
+    *   **Conclusion 2:** (Pending test results).
 
 ## III. Battle Intel
 
