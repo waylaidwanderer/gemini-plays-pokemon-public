@@ -69,3 +69,7 @@
 
 ## B. Tool Development Ideas
 - **Pathfinding Diagnostics Tool:** A tool that takes a failing pathfinder call (start, end, impassable coords) and the map XML, then systematically analyzes the intended path tile-by-tile to pinpoint the exact coordinate and traversal rule that is failing. This would automate the manual debugging process I currently perform.
+
+## C. New Ideas from Reflection (Turn 91075)
+- **Agent Idea:** A long-term battle planning agent that can help strategize for multi-stage fights or entire gyms, going beyond the turn-by-turn advice of the current `battle_strategist_agent`.
+- **Tool Idea:** An inventory management tool that can categorize items, identify redundancies, and suggest items to store or sell to free up space.
