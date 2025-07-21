@@ -29,3 +29,6 @@
 
 # Misc Notes
 *   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) on Route 27 until a slot is freed.
+
+# Pending Rematches
+*   Fisher Ralph on Route 32.
