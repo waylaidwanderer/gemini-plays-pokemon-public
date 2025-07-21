@@ -3,14 +3,9 @@
 *   **Secondary:** Find a rematch with Camper Todd on Route 34.
 *   **Tertiary:** Retrieve the Rare Candy from Route 27 after clearing bag space.
 
-# Game Systems & Tools
-*   **`bfs_pathfinder` Tool:** 
-    *   **Status:** DELETED. The tool was fundamentally flawed and failed multiple debugging attempts. Manual navigation is required until a new, reliable pathfinding tool can be created.
-*   **`strategy_advisor` Agent:** Its system prompt was refined to forbid suggesting fainting. Needs to be tested to confirm the fix.
-
 # Future Development Pipeline
-*   **New Pathfinding Tool:** The highest priority is to develop a new, robust pathfinding tool. The previous tool's failure was a major roadblock. The new tool must be built with a more rigorous testing process.
-*   **`scripted_event_solver` Agent:** An agent that can analyze NPC dialogue, item descriptions, and map info to suggest the next logical interaction to trigger a scripted event. This would be invaluable for overcoming story-based roadblocks.
+*   **New Pathfinding Tool:** HIGHEST PRIORITY. The lack of a reliable pathfinder is a major handicap. The new tool must be built from the ground up with rigorous testing.
+*   **`scripted_event_solver` Agent:** An agent that can analyze NPC dialogue, item descriptions, and map info to suggest the next logical interaction to trigger a scripted event.
 
 # Tile Mechanics Testing
 *This section tracks experiments to understand how different tiles work.*
