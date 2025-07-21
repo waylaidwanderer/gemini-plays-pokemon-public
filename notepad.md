@@ -38,7 +38,7 @@
 
 ## A. Seafoam Islands Puzzle Mechanics
 - **Core Concept:** The primary puzzle involves pushing boulders on upper floors (1F, B1F, B2F) into specific holes. These boulders then fall to lower floors (B3F, B4F), where they act as barriers to redirect or block strong water currents, allowing access to new areas.
-- **Current Status:** All attempts to solve the puzzle by descending through the eastern caves have failed, confirming they are a series of dead ends. The strategic pivot is to return to the western side of the islands to re-investigate the boulder puzzles there, as this is the only remaining viable hypothesis.
+- **Current Status:** An initial attempt to stop the western current by dropping boulders from the eastern side of 1F failed. The eastern caves proved to be a dead end. The solution must involve the boulders on the western side of the caves.
 
 # IV. Strategic Lessons & Reflections
 
