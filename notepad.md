@@ -70,3 +70,4 @@
 ## E. Overwatch Feedback Analysis (Turn 90810)
 - **Procedural Flaw - Tool Maintenance:** I have a critical flaw in my tool maintenance process. After fixing a fundamental logic error (e.g., handling SURF traversal) in one tool (`find_closest_unseen_tile`), I failed to proactively audit my other tools (`pathfinder`) for the same bug. This led to a predictable, time-wasting failure.
 - **Corrective Action:** When a core logic bug is found and fixed in one tool, I MUST immediately audit all other tools that share similar logic and apply the fix. I need to adopt a holistic maintenance strategy to prevent recurring errors.
+- **Pathfinding Diagnostics Agent:** An agent that takes a failing pathfinder call (start, end, impassable coords) and the map XML, then systematically analyzes the intended path tile-by-tile to pinpoint the exact coordinate and traversal rule that is failing. This would automate the debugging process I've been doing manually.
