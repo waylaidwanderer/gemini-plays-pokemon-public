@@ -5,14 +5,17 @@
 
 # Current Objective: Cherrygrove Detour
 *   **Situation:** Unexpectedly warped to Cherrygrove City (29, 4) after attempting to use FLY from New Bark Town. Now on Pokecenter2F.
-*   **Immediate Goal:** Investigate the reason for this scripted event, starting with the Pokémon Center's second floor.
-*   **Hypothesis:** The event trigger is on the second floor, likely involving the Link Receptionist.
+*   **Immediate Goal:** Investigate the reason for this scripted event.
+*   **Hypothesis Log:**
+    1.  **Hypothesis:** The event trigger is on the first floor. **Result:** Failed. All NPCs gave generic dialogue.
+    2.  **Hypothesis:** The event trigger is one of the Link Receptionists. **Result:** Failed. The receptionists at (5, 2) and (9, 2) gave generic dialogue.
+    3.  **Current Hypothesis:** The trigger is the third Link Receptionist at (13, 3). If that fails, my next hypothesis will be to use the PC at (2, 2).
 
 # Game Systems & Tools
 *   **`bfs_pathfinder` Tool:** 
     *   **Status:** Fixed and operational. The logic now correctly identifies 'WALL' as an impassable tile type.
 *   **`strategy_advisor` Agent:** Its system prompt was refined to forbid suggesting fainting. Needs to be tested to confirm the fix.
-*   **Future Agent Idea:** An `exploration_planner` agent could analyze the map's seen/unseen tiles to suggest the most efficient exploration targets.
+*   **Future Agent Idea:** An `scripted_event_solver` agent could analyze NPC dialogue and map info to suggest the next logical interaction to try.
 
 # Tile Mechanics
 *   **Verified Traversable:**
@@ -25,6 +28,7 @@
     *   `HEADBUTT_TREE`: Impassable, can be headbutted.
     *   `BUOY`: Confirmed impassable after attempting to move onto the tile at (27, 16).
     *   `ROOF`/`TV`: Impassable.
+    *   `COUNTER`/`PC`: Assumed impassable. Need to verify by attempting to walk into them.
 *   **One-Way Traversal (Verified):**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
@@ -32,4 +36,4 @@
     *   `WARP_CARPET_DOWN`: Appears to be a warp tile. Need to test if it can be entered from the sides or only from above.
 
 # Misc Notes
-*   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) until a slot is freed.
+*   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) on Route 27 until a slot is freed.
