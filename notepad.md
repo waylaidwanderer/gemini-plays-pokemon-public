@@ -33,6 +33,16 @@
 
 ## B. Trainer Rosters & Movesets
 *This section is for recording the teams and moves of significant trainers (Gym Leaders, Rivals) after a battle is concluded.*
+### Viridian Gym - Giovanni (Rematch)
+- **Team:** NIDOKING (Lv54), DUGTRIO (Lv53), NIDOQUEEN (Lv54), PERSIAN (Lv55)
+- **Observed Moves:**
+  - NIDOKING: Ice Beam, Blizzard, Thunderbolt, Earthquake
+  - DUGTRIO: Fissure, Slash, Earthquake, Rock Slide
+  - NIDOQUEEN: Ice Beam, Earthquake, Thunderbolt, Body Slam
+  - PERSIAN: Bubblebeam, Slash, Hyper Beam, Thunderbolt
+
+## C. Battle Lessons
+- **Level Disparity vs. Type Immunity:** A massive level gap can be more dangerous than type disadvantage. Switching in a low-level Pokémon (e.g., Lv 17 GALE) against a high-level opponent (e.g., Lv 53 Dugtrio) is extremely risky, even if the low-level Pokémon has type immunity to the opponent's primary STAB moves. Neutral coverage moves can still result in a one-hit KO if the level difference is significant. Survivability must be assessed holistically, considering HP, defensive stats, and the level gap, not just type matchups.
 
 # III. Puzzles & Exploration
 
@@ -50,6 +60,7 @@
 ## B. Tool Development Log
 - **Pathfinder & Boulder Puzzle Solver:** Both tools initially had a bug where their internal pathfinding logic couldn't handle land-to-water SURF transitions. This has been fixed.
 - **Boulder Puzzle Solver Failures (1F):** The solver repeatedly timed out or failed on the 1F puzzle. This was not a tool bug, but a signal that my hypothesis was wrong. I assumed the puzzle was solvable immediately. **The lesson is to treat repeated tool failures not as a sign to keep trying, but as evidence that my fundamental understanding of the puzzle's state is incorrect. I must be more willing to abandon a failing hypothesis and pivot to exploration.**
+- **Pathfinder Bug Fix (Turn 89499):** The `pathfinder` tool was unable to find a path to a 'hole' tile because the `is_traversable` function did not recognize 'hole' as a valid land tile to move onto from 'ground'. I updated the `is_traversable` function to include 'hole' in the set of `valid_land_types` and added a condition to allow movement between 'ground' and 'hole' tiles. The lesson is that my custom tools need to be robust enough to handle all known tile types.
 
 # V. Puzzle Hypotheses Log
 
@@ -60,18 +71,3 @@
   - **Hypothesis 2:** Push boulders at (9, 15) & (10, 15) into holes at (4, 17) & (7, 17).
     - **Result:** FAILED. `boulder_puzzle_solver` reported 'No solution found'.
   - **Conclusion:** The puzzle on the western B3F platform is unsolvable from that platform alone. The solution must lie elsewhere.
-
-## C. Pathfinder Bug Fix (Turn 89499)
-- **The Bug:** The `pathfinder` tool was unable to find a path to a 'hole' tile because the `is_traversable` function did not recognize 'hole' as a valid land tile to move onto from 'ground'.
-- **The Fix:** I updated the `is_traversable` function to include 'hole' in the set of `valid_land_types` and added a condition to allow movement between 'ground' and 'hole' tiles.
-- **The Lesson:** My custom tools need to be robust enough to handle all known tile types. When a tool fails on a seemingly simple task, it's a strong indicator of a logic bug that needs immediate attention.
-## C. Viridian Gym - Giovanni (Rematch)
-- **Team:** NIDOKING (Lv54), DUGTRIO (Lv53), NIDOQUEEN (Lv54), PERSIAN (Lv55)
-- **Observed Moves:**
-  - NIDOKING: Ice Beam, Blizzard, Thunderbolt, Earthquake
-  - DUGTRIO: Fissure, Slash, Earthquake, Rock Slide
-  - NIDOQUEEN: Ice Beam, Earthquake, Thunderbolt, Body Slam
-  - PERSIAN: Bubblebeam, Slash, Hyper Beam, Thunderbolt
-
-## D. Battle Lessons
-- **Level Disparity vs. Type Immunity:** A massive level gap can be more dangerous than type disadvantage. Switching in a low-level Pokémon (e.g., Lv 17 GALE) against a high-level opponent (e.g., Lv 53 Dugtrio) is extremely risky, even if the low-level Pokémon has type immunity to the opponent's primary STAB moves. Neutral coverage moves can still result in a one-hit KO if the level difference is significant. Survivability must be assessed holistically, considering HP, defensive stats, and the level gap, not just type matchups.
