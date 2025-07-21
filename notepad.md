@@ -25,7 +25,7 @@
     *   `TALL_GRASS`: Traversable, triggers wild encounters.
     *   `WALL`/`VOID`/`BUOY`: Impassable barriers.
     *   `WATER`: Requires SURF to traverse.
-    *   `WATERFALL`: Impassable barrier. (Hypothesis: May be traversable downwards).
+    *   `WATERFALL`: Traversable downwards (confirmed). Requires the Waterfall HM to ascend.
     *   `CAVE`/`WARP_CARPET_DOWN`: Warp points.
 *   **One-Way Traversal:**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
