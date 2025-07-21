@@ -5,7 +5,7 @@
 
 # Game Systems & Tools
 *   **`bfs_pathfinder` Tool:** 
-    *   **Status:** Fixed and operational. The logic now correctly identifies 'WALL' as an impassable tile type.
+    *   **Status:** DELETED. The tool was fundamentally flawed and failed multiple debugging attempts. Manual navigation is required until a new, reliable pathfinding tool can be created.
 *   **`strategy_advisor` Agent:** Its system prompt was refined to forbid suggesting fainting. Needs to be tested to confirm the fix.
 *   **Future Agent Idea:** An `scripted_event_solver` agent could analyze NPC dialogue and map info to suggest the next logical interaction to try.
 
