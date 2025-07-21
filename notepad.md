@@ -58,3 +58,14 @@
 ## C. Strategic Reflections (Post-Turn 89880)
 - **Menu Efficiency:** Cycling through the Fly menu was inefficient. I must be more systematic in menu navigation to avoid wasting turns, concluding an option is unavailable after one full cycle rather than repeated presses.
 - **Assumption Testing:** I am assuming Victory Road is the best training location. This is an unverified assumption. **Test:** Upon arrival, I will assess the wild Pokémon levels and EXP yield to confirm this hypothesis. If it's not optimal, I will seek alternative locations.
+
+# IV. Active Plans & Objectives
+
+## A. Route 23 Exploration Plan
+- **Problem:** Route 23 is a complex maze with many unseen tiles. My `pathfinder` and `find_closest_unseen_tile` tools have proven unreliable here.
+- **Strategy:** Abandon automated pathing and commit to a systematic, manual exploration.
+- **Execution Plan:**
+  1.  Start from the entrance of the western path at (6, 135).
+  2.  Systematically explore every branching path, prioritizing revealing unseen tiles.
+  3.  Mark dead ends and key junctions with map markers to avoid getting lost.
+  4.  Continue until all reachable unseen tiles in this area are explored.
