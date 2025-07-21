@@ -96,3 +96,7 @@
 
 ### F. Tile Testing Protocol
 *   **New Tile Discovery:** When a new, unknown tile type is encountered, I must systematically test its properties. This includes attempting to walk on it from all four directions and documenting whether it's traversable, a one-way path, or requires a specific item or action to pass.
+
+### F. New Falsification Tests
+*   **Team Rocket B1F Maze Progression:** If exploring every floor tile reveals no pitfalls or exits, the primary hypothesis (pitfall maze) is wrong. **Test:** Return to the switch at (19, 11), interact with it again, then re-map the entire maze to check for changes. This tests the alternative hypothesis that the switch toggles the maze state.
+*   **BOOKSHELF Tile Traversal:** **Assumption:** Impassable. **Test:** Attempt to walk into it from all four directions.
