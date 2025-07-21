@@ -22,7 +22,7 @@
     "python_script": "import json\n\ntry:\n    inventory_list = json.loads(input_data['inventory_list'])\n    target_item = input_data['target_item']\n    found = False\n    for item in inventory_list:\n        if target_item.lower() in item.lower():\n            found = True\n            break\n    print(f'Item found: {found}')\nexcept Exception as e:\n    print(f'An error occurred: {e}')"
   },
   "pathfinder": {
-    "description": "Calculates the shortest path from the player's current position to a target coordinate. This version includes extensive debugging.",
+    "description": "Calculates the shortest path from the player's current position to a target coordinate. This version includes the corrected traversal logic.",
     "input_schema": {
       "type": "object",
       "properties": {
