@@ -58,4 +58,4 @@
 *   **Jasmine:** MAGNEMITE (Thunderbolt, Thunder Wave, Supersonic), STEELIX (Iron Tail, Screech, Rock Throw)
 *   **Chuck:** PRIMEAPE (Leer, Rage, Karate Chop), POLIWRATH (Hypnosis, Mind Reader, Dynamicpunch)
 *   **Special Movement:** ICE (slide in one direction until an obstacle is hit).
-*   **Mahogany Gym Puzzle:** **Hypothesis:** The puzzle is purely navigational. A correct sequence of slides can bypass trainers. **Test Plan:** Systematically explore paths manually to reach Pryce at (5, 3). The remaining BEAUTY at (4, 6) is likely an optional battle. Path to Pryce from (2,5) is Right then Up.
+*   **Mahogany Gym Puzzle:** **Hypothesis:** The puzzle is purely navigational. A correct sequence of slides can bypass trainers. **Test Plan:** Systematically explore paths manually to reach Pryce at (5, 3). The remaining BEAUTY at (4, 6) is likely an optional battle. Old path from (2,5) [Right, Up] failed. New manual path from (0,2): Down -> Right -> Up -> Left -> Down -> Right -> Up -> Down -> Left -> Up -> Up.
