@@ -123,5 +123,36 @@
       ]
     },
     "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\n# 1. Load state from input_data. Default to empty lists if not provided.\ninput_visited_str = input_data.get('visited', '[]')\ninput_queue_str = input_data.get('queue', '[]')\n\ninput_visited = json.loads(input_visited_str)\ninput_queue = json.loads(input_queue_str)\n\n# 2. Convert loaded lists into the required Python data structures.\n# JSON converts tuples to lists, so we must convert them back to tuples for the set.\nvisited = set(tuple(item) for item in input_visited)\nqueue = deque(tuple(item) for item in input_queue)\n\naction = input_data.get('action')\n\nif action == 'reset':\n    visited.clear()\n    queue.clear()\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    start_coord = (start_x, start_y)\n    \n    visited.add(start_coord)\n    queue.append(start_coord)\n    \n    # 3. Return the initial state.\n    output_state = {\n        'status': 'Maze mapper reset and seeded.',\n        'visited': list(visited),\n        'queue': list(queue)\n    }\n    print(json.dumps(output_state))\n    exit()\n\n# If not resetting, it's an 'explore' action.\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\n\nimpassable_tiles = set()\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        tile_type = tile.attrib['type']\n        if tile_type in ['WALL', 'COUNTER'] or tile.find('Object') is not None:\n            impassable_tiles.add((x, y))\n\nif not queue:\n    # This now correctly signifies that the exploration is complete.\n    output_error = {\n        'error': 'Queue is empty. The maze is fully explored or no path exists.',\n        'visited': list(visited),\n        'queue': list(queue)\n    }\n    print(json.dumps(output_error))\n    exit()\n\n# Pop a tile to explore.\ncurrent_x, current_y = queue.popleft()\n\n# Find its neighbors and add them to the queue for next time.\nfor dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n    next_x, next_y = current_x + dx, current_y + dy\n\n    if not (1 <= next_x <= width and 1 <= next_y <= height):\n        continue\n\n    neighbor_coord = (next_x, next_y)\n\n    if neighbor_coord not in visited and neighbor_coord not in impassable_tiles:\n        visited.add(neighbor_coord)\n        queue.append(neighbor_coord)\n\n# 3. Return the explored tile location and the updated state for the next call.\noutput_data = {\n    'x': current_x,\n    'y': current_y,\n    'visited': sorted(list(visited)), # Convert to a sorted list for consistent output\n    'queue': list(queue)             # Convert deque to list for JSON serialization\n}\nprint(json.dumps(output_data))\n"
+  },
+  "bfs_pathfinder": {
+    "description": "A simple but robust pathfinding tool using Breadth-First Search. Finds a path from a start to an end coordinate, avoiding impassable tiles. Less efficient than A* but more reliable and less prone to implementation bugs.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        },
+        "can_surf": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\nimpassable_tiles = set()\n\ncan_surf = input_data.get('can_surf', False)\n\nfor row in root.findall('Row'):\n    y = int(row.attrib['id']) - 1\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id']) - 1\n        tile_type = tile.attrib['type']\n        if tile_type in ['WALL', 'COUNTER', 'MART_SHELF', 'PC', 'BOOKSHELF', 'HEADBUTT_TREE', 'CUT_TREE', 'TV', 'TOWN_MAP', 'WINDOW', 'ROCK', 'BUOY', 'VOID']:\n            impassable_tiles.add((x, y))\n        if not can_surf and tile_type in ['WATER', 'SEA']:\n            impassable_tiles.add((x, y))\n        if tile.find('Object') is not None:\n            impassable_tiles.add((x, y))\n\nstart_x = int(input_data['start_x']) - 1\nstart_y = int(input_data['start_y']) - 1\nend_x = int(input_data['end_x']) - 1\nend_y = int(input_data['end_y']) - 1\n\nqueue = deque([[(start_x, start_y)]])\nvisited = set([(start_x, start_y)])\n\n# Goal check for adjacent tiles\ngoal_coords = set()\nif (end_x, end_y) not in impassable_tiles:\n    goal_coords.add((end_x, end_y))\nelse:\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        adj_x, adj_y = end_x + dx, end_y + dy\n        if 0 <= adj_x < width and 0 <= adj_y < height and (adj_x, adj_y) not in impassable_tiles:\n            goal_coords.add((adj_x, adj_y))\n\nif not goal_coords:\n    print('No path found')\n    exit()\n\nwhile queue:\n    path = queue.popleft()\n    x, y = path[-1]\n\n    if (x, y) in goal_coords:\n        output_path = []\n        for coord in path:\n            output_path.append({'x': coord[0] + 1, 'y': coord[1] + 1})\n        print(json.dumps(output_path))\n        exit()\n\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        neighbor_x, neighbor_y = x + dx, y + dy\n\n        if 0 <= neighbor_x < width and 0 <= neighbor_y < height and (neighbor_x, neighbor_y) not in impassable_tiles and (neighbor_x, neighbor_y) not in visited:\n            visited.add((neighbor_x, neighbor_y))\n            new_path = list(path)\n            new_path.append((neighbor_x, neighbor_y))\n            queue.append(new_path)\n\nprint('No path found')"
   }
 }
