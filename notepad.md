@@ -40,6 +40,7 @@
 *   **Cianwood City Stuck Spot:** Resolved by triggering back-to-back phone calls (Mom, then Liz) on tile (10, 28).
 *   **Ilex Forest Shrine:** A Lass in the Route 34 Gate mentioned a shrine honoring a grass-type protector.
 *   **TM12 (Sweet Scent):** Given by Teacher in Route 34 Ilex Forest Gate.
+*   **Team Rocket Base Passwords:** SLOWPOKETAIL, HAIL GIOVANNI.
 *   **Team Rocket Base B1F Secret Passage:** The 'door' at (10, 9) is opened by the Secret Switch at (19, 11).
 *   **Team Rocket Base B2F Layout:** Northern and southern corridors are separate. Access to the north must be from a different warp on B1F.
 *   **Mahogany Town:** No shop exists. The mart is a Team Rocket front, and the Poké Center has no vendor. Travel to another city is required for inventory management.
@@ -50,9 +51,6 @@
 *   **Secret Potion Location:** The hint for Cianwood City was incorrect; the Pharmacist runs a regular shop.
 *   **Team Rocket B2F Southern Corridor:** The ROCKET at (21, 14) has non-progressive dialogue, confirming this path is a dead end.
 *   **Team Rocket B1F Eastern Corridor:** The secret passage at (10, 9) and the entire eastern corridor lead to a dead-end loop.
-
-### C. Passwords & Keys
-*   **Team Rocket Hideout Passwords:** SLOWPOKETAIL (from ROCKET_GIRL on B3F), HAIL GIOVANNI (from Moltres statue on B3F). RATICATE TAIL is an unconfirmed password.
 
 ## IV. Battle Intel
 
@@ -83,7 +81,7 @@
 ### D. Open Hypotheses & Tests
 *   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
 *   **Mt. Mortar Invisible Barrier:** **Hypothesis:** An invisible barrier blocks the northern one-way ledge on Mt. Mortar B1F. **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
-*   **Team Rocket B1F Maze Progression:** **Hypothesis:** The 'traps' are one-way pitfall warps caused by invisible arrow tiles that lead to the northern section of B2F. **Methodology:** Systematically step on each unknown floor tile. If a tile forces movement (a pitfall), record the start and end coordinates. Compile a JSON string of all discovered pitfalls and use the `maze_solver` tool to find the path to an exit.
+*   **Team Rocket B1F Maze Progression:** **Hypothesis:** The 'traps' are one-way pitfall warps caused by invisible arrow tiles that lead to the northern section of B2F. **Methodology:** Use the `maze_mapper` tool to systematically explore every floor tile. If a tile is a pitfall, record start/end coordinates. Compile a JSON string of all discovered pitfalls and use the `maze_solver` tool to find the path to an exit.
 
 ### E. Untested Assumptions & Falsification Tests
 *   **HEADBUTT_TREE Traversal:** **Assumption:** Impassable. **Test:** Attempt to walk into it from all four directions.
