@@ -85,7 +85,7 @@
 *   **Mt. Mortar Invisible Barrier:** **Hypothesis:** An invisible barrier blocks the northern one-way ledge on Mt. Mortar B1F. **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
 *   **Team Rocket B1F Maze Progression:** 
     *   **Primary Hypothesis:** The 'traps' are one-way pitfall warps caused by invisible arrow tiles that lead to the northern section of B2F.
-    *   **Methodology:** Use the `maze_mapper` tool to systematically explore every floor tile. If a tile is a pitfall, record start/end coordinates. Compile a JSON string of all discovered pitfalls and use the `maze_solver` tool to find the path to an exit.
+    *   **Methodology:** Use the `maze_mapper` tool to systematically explore every floor tile to find all pitfalls. The `maze_mapper` suggests the next unexplored adjacent tile. Once all pitfalls are found, I will use the `maze_solver` tool, providing it with the list of pitfall warp coordinates, to calculate the correct path through the maze.
     *   **Known Pitfalls:** (3, 13) on B1F -> (3, 14) on B2F.
     *   **Falsification Test:** If systematic mapping reveals no path, the hypothesis is wrong. The alternative is that another trigger exists on the map. I would need to re-explore the entire floor looking for other interactable objects.
 
