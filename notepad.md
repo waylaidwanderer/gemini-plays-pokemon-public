@@ -62,11 +62,11 @@
 
 # IV. Active Plans & Objectives
 
-## A. Current Plan: Final Tool Repair and Verification
-- **Problem:** My `pathfinder` tool is critically bugged, using outdated traversal logic. My attempts to fix it and my notepad simultaneously have led to a repetitive failure loop.
-- **Strategy:** I will break the loop by addressing one problem at a time. My sole focus is now on methodical tool repair and verification.
+## A. Current Plan: Explore Route 23
+- **Status:** All custom navigation tools (`find_closest_unseen_tile` and `pathfinder`) have been successfully debugged and verified. They are now fully operational.
+- **Strategy:** With my tools working, I can now systematically explore Route 23. My immediate goal is to uncover all unseen tiles to fully map the area. This will help me find the entrance to Victory Road and identify potential training spots.
 - **Execution Plan:**
-  1.  **Step 1 (This Turn):** Correct this notepad entry to reflect the new, focused plan.
-  2.  **Step 2 (Next Turn):** Redefine the `pathfinder` tool by meticulously copying the known-working `is_traversable` function from `find_closest_unseen_tile`.
-  3.  **Step 3 (Following Turn):** Verify both tools are functional by first running `find_closest_unseen_tile` to get a target, then running the newly defined `pathfinder` to generate a path to that target.
-  4.  **Step 4:** Only after successful verification will exploration of Route 23 resume.
+  1. Use `find_closest_unseen_tile` to identify the next exploration target.
+  2. Use `pathfinder` to generate a path to that target.
+  3. Follow the path to explore the new area.
+  4. Repeat this process until all of Route 23 is explored.
