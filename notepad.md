@@ -3,17 +3,14 @@
 *   **Secondary:** Find a rematch with Camper Todd on Route 34.
 *   **Tertiary:** Retrieve the Rare Candy from Route 27 after clearing bag space.
 
-# Current Objective: Leaving Home
-*   **Situation:** After being blocked from using FLY, a scripted event warped me back to my house and forced a dialogue with Mom.
-*   **Immediate Goal:** Exit the house and proceed to Goldenrod City.
-*   **Hypothesis:** The warp at (7, 7) is non-functional. The warp at (6, 7) should work.
-*   **Plan:**
-    1.  Move to tile (6, 7) to attempt to trigger the warp.
-    2.  If successful, fly to Goldenrod City.
+# Current Objective: Cherrygrove Detour
+*   **Situation:** Unexpectedly warped to Cherrygrove City (29, 4) after attempting to use FLY from New Bark Town. Now on Pokecenter2F.
+*   **Immediate Goal:** Investigate the reason for this scripted event, starting with the Pokémon Center's second floor.
+*   **Hypothesis:** The event trigger is on the second floor, likely involving the Link Receptionist.
 
 # Game Systems & Tools
 *   **`bfs_pathfinder` Tool:** 
-    *   **Status:** Fully operational. The refined logic correctly handles unseen tiles and pathing to the map edge.
+    *   **Status:** Needs fixing. The current logic does not correctly identify all impassable tiles, leading to pathing errors. Will be updated this turn.
 *   **`strategy_advisor` Agent:** Its system prompt was refined to forbid suggesting fainting. Needs to be tested to confirm the fix.
 *   **Future Agent Idea:** An `exploration_planner` agent could analyze the map's seen/unseen tiles to suggest the most efficient exploration targets.
 
@@ -22,7 +19,7 @@
     *   `FLOOR`: Standard ground.
     *   `TALL_GRASS`: Triggers wild encounters.
     *   `WATER`: Requires SURF. Can only be entered by facing the tile and pressing 'A'.
-    *   `CAVE`/`DOOR`/`STAIRCASE`: Warp point.
+    *   `CAVE`/`DOOR`/`STAIRCASE`/`LADDER`: Warp point.
 *   **Verified Impassable:**
     *   `WALL`/`VOID`: Standard barriers.
     *   `HEADBUTT_TREE`: Impassable, can be headbutted.
@@ -36,7 +33,3 @@
 
 # Misc Notes
 *   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) until a slot is freed.
-
-# Cherrygrove City Detour
-*   **Event:** Unexpectedly warped to Cherrygrove City (29, 4) after attempting to use FLY from New Bark Town.
-*   **Immediate Goal:** Investigate the reason for this scripted event, starting with the Pokémon Center.
