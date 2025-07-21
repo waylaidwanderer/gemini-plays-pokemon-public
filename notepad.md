@@ -71,3 +71,7 @@
   - **Hypothesis 2:** Push boulders at (9, 15) & (10, 15) into holes at (4, 17) & (7, 17).
     - **Result:** FAILED. `boulder_puzzle_solver` reported 'No solution found'.
   - **Conclusion:** The puzzle on the western B3F platform is unsolvable from that platform alone. The solution must lie elsewhere.
+
+# V. Strategic Reflections (Post-Turn 89880)
+- **Menu Efficiency:** Cycling through the Fly menu was inefficient. I must be more systematic in menu navigation to avoid wasting turns, concluding an option is unavailable after one full cycle rather than repeated presses.
+- **Assumption Testing:** I am assuming Victory Road is the best training location. This is an unverified assumption. **Test:** Upon arrival, I will assess the wild Pokémon levels and EXP yield to confirm this hypothesis. If it's not optimal, I will seek alternative locations.
