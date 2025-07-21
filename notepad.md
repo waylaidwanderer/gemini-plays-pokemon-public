@@ -43,11 +43,7 @@
 ### C. Active Hypotheses & Tests
 *   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
 *   **Mt. Mortar Invisible Barrier:** **Hypothesis:** An invisible barrier blocks the northern one-way ledge on Mt. Mortar B1F. **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
-*   **Team Rocket B1F Progression (AGENT-ASSISTED HYPOTHESIS):**
-    *   **Falsification:** My `maze_mapper` tool confirmed that every reachable floor tile in the central and western corridors has been explored. This falsifies the hypothesis that a simple floor trap was the solution.
-    *   **Agent `strategy_advisor` Recommendation:** The agent analyzed the ROCKET Grunt's dialogue ('Collect your courage and walk!') and suggested the solution is to walk through what appears to be a wall at a dead end.
-    *   **New Hypothesis:** An invisible, walkable path exists through a WALL tile at one of the map's dead ends.
-    *   **Methodology:** Systematically attempt to walk into the final wall tile of each dead-end corridor, starting with the central corridor's dead end at (6, 1).
+*   **Team Rocket B1F Maze (Disguised Path):** The solution, hinted at by the ROCKET Grunt's dialogue ('Collect your courage and walk!'), is not a path through a wall, but a FLOOR tile at (3, 5) disguised to look like a wall. This creates a secret northern passage in the western maze area.
 
 ## III. Battle Intel
 
