@@ -7,7 +7,10 @@
 *   **`bfs_pathfinder` Tool:** 
     *   **Status:** DELETED. The tool was fundamentally flawed and failed multiple debugging attempts. Manual navigation is required until a new, reliable pathfinding tool can be created.
 *   **`strategy_advisor` Agent:** Its system prompt was refined to forbid suggesting fainting. Needs to be tested to confirm the fix.
-*   **Future Agent Idea:** An `scripted_event_solver` agent could analyze NPC dialogue and map info to suggest the next logical interaction to try.
+
+# Future Development Pipeline
+*   **New Pathfinding Tool:** The highest priority is to develop a new, robust pathfinding tool. The previous tool's failure was a major roadblock. The new tool must be built with a more rigorous testing process.
+*   **`scripted_event_solver` Agent:** An agent that can analyze NPC dialogue, item descriptions, and map info to suggest the next logical interaction to trigger a scripted event. This would be invaluable for overcoming story-based roadblocks.
 
 # Tile Mechanics Testing
 *This section tracks experiments to understand how different tiles work.*
@@ -16,7 +19,8 @@
     *   **Status:** Untested.
 *   **Hypothesis: `WARP_CARPET_DOWN` has specific entry requirements.**
     *   **Test 1 (Entry from Above):** Moving from (17,30) to (17,31) did not trigger the warp.
-    *   **Next Test (Entry from Side):** Will attempt to enter from (16,31).
+    *   **Test 2 (Entry from Side):** Moving from (16,31) to (17,31) did not trigger the warp.
+    *   **Conclusion:** The warp at (17, 31) in Union Cave 1F seems to be a one-way exit from Route 33. Will test entry from the Route 33 side when possible.
 
 # Verified Tile Mechanics
 *   **Verified Traversable:**
@@ -33,9 +37,7 @@
 *   **One-Way Traversal (Verified):**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
-*   **Needs Further Testing:**
-    *   `WARP_CARPET_DOWN`: Appears to be a warp tile. Need to test if it can be entered from the sides or only from above.
-    *   `PC`: Assumed impassable. Need to verify by attempting to walk into it.
+    *   `FLOOR_UP_WALL`: Can only be entered by moving up from the tile below.
 
 # Misc Notes & Reminders
 *   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) on Route 27 until a slot is freed.
