@@ -23,7 +23,7 @@
 *   **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN/LEFT/RIGHT, WARP_PANEL.
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL.
 *   **One-Way:** PIT (fall), LEDGE_HOP_RIGHT/LEFT/DOWN, FLOOR_UP_WALL (one-way 'up' ledge).
-*   **Untested:** COMPUTER, BED, CABINET, SINK, PLANT, BOOKSHELF, and any tile type with `unknown` in its name. My protocol is to test these by attempting to walk into them from all four directions when first encountered.
+*   **Untested:** COMPUTER, BED, CABINET, SINK, PLANT, BOOKSHELF, unknown, and any tile type with `unknown` in its name. My protocol is to test these by attempting to walk into them from all four directions when first encountered.
 
 ### B. System Bugs & Glitches (Verified)
 *   **Item Management:** 'DEPOSIT ITEM' & 'TOSS ITEM' (from PC & PACK) are bugged. 'FLY' HM is bugged. Using one item from a stack does not free an inventory slot.
@@ -45,6 +45,7 @@
 *   **Team Rocket Base B2F Layout:** Northern and southern corridors are separate. Access to the north must be from a different warp on B1F.
 *   **Mahogany Town:** No shop exists. The mart is a Team Rocket front, and the Poké Center has no vendor. Travel to another city is required for inventory management.
 *   **Mahogany Town Story Lock:** FLY is disabled, forcing progression towards the Lake of Rage.
+*   **Mahogany Mart Secret Ladder:** The warp to the hideout is not triggered by interaction, but by stepping onto the ladder tile at (7, 3).
 
 ### B. Falsified Hypotheses & Dead Ends
 *   **Mahogany Gym Blocker:** The Fisher did NOT move after the Lake of Rage event. Hypothesis that Lance's presence was the trigger is false.
@@ -71,8 +72,6 @@
 ### A. Tool Refinement Log & Status
 *   **Pathfinder v3 Tool (Active):** Critical coordinate system bug fixed on turn 60614. Tool is now fully operational.
 *   **Manual Path Planner Tool (Deleted):** Became redundant after `pathfinder_v3` was fixed.
-*   **To-Do:** Update the vague marker label for the object at (21, 12) on map 3_49 when it's next on screen.
-*   **To-Do:** Place warp markers on maps 2_7, 9_3, and 9_5 to document the path to/from Route 43.
 
 ### B. Agent Development Log & Status
 *   **Tool Debugger Agent v2 (Active):** A specialized agent created to diagnose and fix pathfinding scripts. Successfully identified and helped correct bugs in `pathfinder_v3`.
