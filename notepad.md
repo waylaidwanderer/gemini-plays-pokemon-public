@@ -5,18 +5,14 @@
 *   **Camper Todd:** Wants a rematch on Route 34.
 
 # Current Puzzle: Tohjo Falls
-*   **Status:** Currently stuck on the entrance level. All paths are blocked by one-way ledges or impassable terrain, confirmed by `bfs_pathfinder`.
-*   **Hypothesis 1:** The `WARP_CARPET_DOWN` at (13, 15) is the only way forward.
-    *   **Test 1:** Stepping on the warp. **Result:** Failed.
-    *   **Test 2:** Stepping on from above. **Result:** Failed.
-    *   **Test 3:** Pressing 'A' on the warp while facing right. **Result:** Failed.
-    *   **Next Test:** Press 'A' on the warp while facing up.
-*   **Hypothesis 2:** It is possible to travel *down* `WATERFALL` tiles.
-    *   **Status:** Untested. `bfs_pathfinder` reports the area above the waterfall is unreachable from my current position.
+*   **Status:** Stuck on the lower level after coming down the waterfall.
+*   **Hypothesis 1 (Failed):** The western island contains the path forward. **Result:** Dead end. Path is blocked by a MOON STONE I cannot pick up because my bag is full and the 'TOSS' command appears to be non-functional.
+*   **Hypothesis 2 (Failed):** The `WARP_CARPET_DOWN` at (13, 15) is the exit. **Result:** The warp is unresponsive to all attempts to activate it.
+*   **Current Hypothesis:** There is a hidden path behind the waterfall.
 
 # Game Systems & Tools
-*   **`bfs_pathfinder` Tool:** Recreated after accidental deletion. The tool appears to correctly handle basic navigation, wall collision, and one-way ledges for short paths. However, it has failed on longer, more complex paths, suggesting potential undiscovered bugs or map features it cannot parse. Its reliability is still under evaluation.
-*   **`strategy_advisor` Agent:** The agent previously violated a core directive by suggesting fainting. Its system prompt has been refined to explicitly forbid this. It needs to be tested in a similar situation to confirm the fix.
+*   **`bfs_pathfinder` Tool:** Appears to work for basic navigation but has failed on complex paths. Reliability is still under evaluation.
+*   **`strategy_advisor` Agent:** Its system prompt was refined to forbid suggesting fainting. Needs to be tested to confirm the fix.
 *   **Future Agent Idea:** A `debugging_assistant` agent could be created to analyze tool code and debug logs to provide systematic suggestions for fixes.
 
 # Tile Mechanics
@@ -25,12 +21,13 @@
     *   `TALL_GRASS`: Traversable, triggers wild encounters.
     *   `WALL`/`VOID`/`BUOY`: Impassable barriers.
     *   `WATER`: Requires SURF to traverse.
-    *   `WATERFALL`: Traversable downwards (confirmed). Requires the Waterfall HM to ascend.
-    *   `CAVE`/`WARP_CARPET_DOWN`: Warp points.
+    *   `WATERFALL`: Traversable downwards. Requires the Waterfall HM to ascend.
+    *   `CAVE`: Warp point.
+    *   `WARP_CARPET_DOWN`: Warp point. Note: The one at Tohjo Falls (13, 15) is unresponsive.
 *   **One-Way Traversal:**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
-    *   `FLOOR_UP_WALL`: A one-way ledge. Can only be moved up from the tile below it; confirmed impassable from above, left, and right.
+    *   `FLOOR_UP_WALL`: A one-way ledge. Can only be moved up from the tile below it.
 
 ## Bag Mechanics
-*   **Tossing Items:** To free up an inventory slot, you must toss the **entire stack** of an item (e.g., "Potion x5"). Tossing a single item from a stack (e.g., reducing it to "Potion x4") does not free up a slot.
+*   **Tossing Items (Under Investigation):** My attempts to toss items to free an inventory slot have all failed, regardless of item, stack size, or bag pocket. The 'TOSS' function may be bugged or have a very specific, undiscovered condition for use. My hypothesis that the entire stack must be tossed was not validated.
