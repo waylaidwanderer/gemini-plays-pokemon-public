@@ -51,7 +51,6 @@
 *   **Secret Potion Location:** The hint for Cianwood City was incorrect; the Pharmacist runs a regular shop.
 *   **Team Rocket B2F Southern Corridor:** The ROCKET at (21, 14) has non-progressive dialogue, confirming this path is a dead end.
 *   **Team Rocket B1F Eastern Corridor:** The secret passage at (10, 9) and the entire eastern corridor lead to a dead-end loop.
-*   **Team Rocket B1F Hidden Revive:** Repeated attempts to pick up the hidden Revive at (3, 11) by standing on the tile and facing multiple directions failed. The item is currently unobtainable.
 
 ## IV. Battle Intel
 
