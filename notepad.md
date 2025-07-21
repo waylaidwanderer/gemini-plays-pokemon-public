@@ -49,9 +49,13 @@
     *   **Problem:** Navigate the Mahogany Gym ice puzzle to reach the Gym Leader, Pryce.
     *   **Initial Observation:** The gym consists of `ICE` tiles that cause sliding until an obstacle is hit, and `FLOOR` tiles that stop movement. Obstacles include `WALL` tiles and NPCs.
     *   **Hypothesis 1 (FALSIFIED):** A simple slide-simulation tool can solve the puzzle. **REASON:** The tool failed multiple times, indicating its model of the puzzle is too simple.
-    *   **Hypothesis 2 (NEW):** The puzzle is a graph problem where `FLOOR` tiles are the nodes and slide sequences are the edges. Movement must be planned from `FLOOR` tile to `FLOOR` tile.
-    *   **Test Plan 2:** Redefine the `ice_puzzle_solver` tool with a new algorithm that models the gym as a graph of `FLOOR` tiles. Use the new tool to find the path to Pryce.
-    *   **Conclusion 2:** (Pending test results).
+    *   **Hypothesis 2 (FALSIFIED):** A direct path exists to the Gym Leader or the BEAUTY trainer. **REASON:** The `ice_puzzle_solver` tool, which models the puzzle as a graph of FLOOR tiles, consistently returns 'No path found' for these destinations. This indicates they are on a separate, unreachable 'island' of floor tiles from my current position.
+    *   **Hypothesis 3 (NEW):** To reach the target island, I must find a specific starting `FLOOR` tile on my current island that has a slide-path connecting to the target island.
+    *   **Test Plan 3 (Multi-step):**
+        1.  **Identify Reachable Nodes:** Use `run_code` to execute a script that performs a BFS from the player's current position to find all reachable `FLOOR` tiles.
+        2.  **Systematic Pathfinding:** For each reachable `FLOOR` tile identified in Step 1, use the `ice_puzzle_solver` to attempt to find a path to each of the target `FLOOR` tiles: (3, 4), (5, 4), and (4, 7).
+        3.  **Execution:** Execute the first valid path found by the solver.
+    *   **Conclusion 3:** (Pending test results).
 
 ## III. Battle Intel
 
