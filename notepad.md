@@ -100,3 +100,4 @@
 ### F. New Falsification Tests
 *   **Team Rocket B1F Maze Progression:** If exploring every floor tile reveals no pitfalls or exits, the primary hypothesis (pitfall maze) is wrong. **Test:** Return to the switch at (19, 11), interact with it again, then re-map the entire maze to check for changes. This tests the alternative hypothesis that the switch toggles the maze state.
 *   **BOOKSHELF Tile Traversal:** **Assumption:** Impassable. **Test:** Attempt to walk into it from all four directions.
+*   **BOOKSHELF Tile Traversal:** **Assumption:** Impassable. **Test:** After toggling the switch at (19, 11), I will move to (20, 10) and attempt to walk into the bookshelf at (20, 11) from all four directions.
