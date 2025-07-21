@@ -14,9 +14,9 @@
 *   **Hypothesis: `PC` tiles are impassable.**
     *   **Test:** Attempt to walk into a `PC` tile.
     *   **Status:** Untested.
-*   **Hypothesis: `WARP_CARPET_DOWN` can only be entered from above.**
-    *   **Test:** Attempt to walk onto the tile from the sides and below.
-    *   **Status:** Untested.
+*   **Hypothesis: `WARP_CARPET_DOWN` has specific entry requirements.**
+    *   **Test 1 (Entry from Above):** Moving from (17,30) to (17,31) did not trigger the warp.
+    *   **Next Test (Entry from Side):** Will attempt to enter from (16,31).
 
 # Verified Tile Mechanics
 *   **Verified Traversable:**
