@@ -57,30 +57,6 @@
     },
     "python_script": "import collections\nimport xml.etree.ElementTree as ET\n\n# Parse map data\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\n\nwalls = set()\nboulders = []\nplayer_start = None\n\nfor r_idx, row_elem in enumerate(root.findall('Row')):\n    y = r_idx + 1\n    for t_idx, tile_elem in enumerate(row_elem.findall('Tile')):\n        x = t_idx + 1\n        tile_type = tile_elem.get('type')\n        if tile_type == 'WALL':\n            walls.add((x, y))\n        if tile_elem.find('Object[@id-name=\"BOULDER\"]') is not None:\n            boulders.append((x, y))\n        if tile_elem.find('Player') is not None:\n            player_start = (x, y)\n\n# Override start position if provided\nif 'start_x' in input_data and input_data['start_x'] is not None:\n    player_start = (int(input_data['start_x']), int(input_data['start_y']))\n\ngoal_pos = (int(input_data['goal_x']), int(input_data['goal_y']))\n\n# --- BFS Solver ---\ninitial_state = (player_start, tuple(sorted(boulders)))\nqueue = collections.deque([(initial_state, [])])\nvisited = {initial_state}\n\npath_found = False\nwhile queue:\n    (current_player, current_boulders), path = queue.popleft()\n\n    # Check for goal state\n    if goal_pos in current_boulders:\n        print(f\"Solution found: {path}\")\n        path_found = True\n        break\n\n    # Explore neighbors\n    for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n        next_player_pos = (current_player[0] + dx, current_player[1] + dy)\n\n        # Simple move (no push)\n        if next_player_pos not in walls and next_player_pos not in current_boulders:\n            new_state = (next_player_pos, current_boulders)\n            if new_state not in visited:\n                visited.add(new_state)\n                queue.append((new_state, path + [move]))\n            continue\n\n        # Boulder push\n        if next_player_pos in current_boulders:\n            boulder_to_push = next_player_pos\n            next_boulder_pos = (boulder_to_push[0] + dx, boulder_to_push[1] + dy)\n\n            if next_boulder_pos not in walls and next_boulder_pos not in current_boulders:\n                new_boulders = list(current_boulders)\n                new_boulders.remove(boulder_to_push)\n                new_boulders.append(next_boulder_pos)\n                new_boulders_tuple = tuple(sorted(new_boulders))\n                \n                new_state = (next_player_pos, new_boulders_tuple)\n                if new_state not in visited:\n                    visited.add(new_state)\n                    queue.append((new_state, path + [f\"Push {move}\"])) \n\nif not path_found:\n    print(\"No solution found.\")"
   },
-  "maze_mapper": {
-    "description": "Systematically explores a grid-based maze from a starting point. It takes the player's current coordinates and a list of already visited/tested coordinates. It uses a breadth-first search approach on unseen tiles to suggest the next logical tile to explore, prioritizing adjacent tiles. This helps to methodically map out an area without missing tiles.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "visited_coords": {
-          "type": "string",
-          "description": "A JSON string of a list of [x, y] coordinates that have already been visited."
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "visited_coords"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nvisited_coords_str = input_data['visited_coords']\nvisited = set(tuple(coord) for coord in json.loads(visited_coords_str))\n\nimpassable_tiles = set()\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        tile_type = tile.attrib['type']\n        if tile_type in ['WALL', 'COUNTER'] or tile.find('Object') is not None:\n            impassable_tiles.add((x, y))\n\nqueue = deque([(start_x, start_y)])\n\n# Keep track of tiles in the current BFS queue to avoid re-adding them\nqueue_set = {(start_x, start_y)}\n\nwhile queue:\n    current_x, current_y = queue.popleft()\n\n    # Explore neighbors: Up, Down, Left, Right\n    for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n        next_x, next_y = current_x + dx, current_y + dy\n\n        # Check boundaries\n        if not (1 <= next_x <= width and 1 <= next_y <= height):\n            continue\n\n        neighbor_coord = (next_x, next_y)\n\n        # If the neighbor is our target, return it\n        if neighbor_coord not in visited and neighbor_coord not in impassable_tiles:\n            print(json.dumps({'x': next_x, 'y': next_y}))\n            exit()\n        \n        # If the neighbor is explorable and not already in the queue, add it\n        if neighbor_coord not in impassable_tiles and neighbor_coord not in queue_set and neighbor_coord not in visited:\n            queue.append(neighbor_coord)\n            queue_set.add(neighbor_coord)\n\nprint(json.dumps({'error': 'No explorable adjacent tiles found.'}))"
-  },
   "maze_mapper_v2": {
     "description": "Systematically explores a grid-based maze from a starting point. This version persists its own state of visited coordinates and a queue by passing them in and out. Use the 'reset' action with start coordinates to clear the memory and begin a new maze. Use the 'explore' action to get the next tile, passing in the state from the previous call.",
     "input_schema": {
@@ -154,5 +130,32 @@
       ]
     },
     "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\nimpassable_tiles = set()\n\ncan_surf = str(input_data.get('can_surf', 'false')).lower() == 'true'\n\nfor row in root.findall('Row'):\n    y = int(row.attrib['id']) - 1\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id']) - 1\n        tile_type = tile.attrib['type']\n        if tile_type in ['WALL', 'COUNTER', 'MART_SHELF', 'PC', 'BOOKSHELF', 'HEADBUTT_TREE', 'CUT_TREE', 'TV', 'TOWN_MAP', 'WINDOW', 'ROCK', 'BUOY', 'VOID']:\n            impassable_tiles.add((x, y))\n        if not can_surf and tile_type in ['WATER', 'SEA']:\n            impassable_tiles.add((x, y))\n        if tile.find('Object') is not None:\n            impassable_tiles.add((x, y))\n\nstart_x = int(input_data['start_x']) - 1\nstart_y = int(input_data['start_y']) - 1\nend_x = int(input_data['end_x']) - 1\nend_y = int(input_data['end_y']) - 1\n\nif (start_x, start_y) in impassable_tiles:\n    print('No path found')\n    exit()\n\nqueue = deque([[(start_x, start_y)]])\nvisited = set([(start_x, start_y)])\n\ngoal_coords = set()\nif (end_x, end_y) not in impassable_tiles:\n    goal_coords.add((end_x, end_y))\nelse:\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        adj_x, adj_y = end_x + dx, end_y + dy\n        if 0 <= adj_x < width and 0 <= adj_y < height and (adj_x, adj_y) not in impassable_tiles:\n            goal_coords.add((adj_x, adj_y))\n\nif not goal_coords:\n    print('No path found')\n    exit()\n\nwhile queue:\n    path = queue.popleft()\n    x, y = path[-1]\n\n    if (x, y) in goal_coords:\n        output_path = []\n        for coord in path:\n            output_path.append({'x': coord[0] + 1, 'y': coord[1] + 1})\n        print(json.dumps(output_path))\n        exit()\n\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        neighbor_x, neighbor_y = x + dx, y + dy\n\n        if 0 <= neighbor_x < width and 0 <= neighbor_y < height and (neighbor_x, neighbor_y) not in impassable_tiles and (neighbor_x, neighbor_y) not in visited:\n            visited.add((neighbor_x, neighbor_y))\n            new_path = list(path)\n            new_path.append((neighbor_x, neighbor_y))\n            queue.append(new_path)\n\nprint('No path found')"
+  },
+  "ice_puzzle_solver": {
+    "description": "Solves ice slide puzzles. It simulates movement from a starting point and explores the maze using a Breadth-First Search, returning the sequence of directional inputs to reach a target coordinate.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\n\nobstacles = set()\n\nfor r_idx, row in enumerate(root.findall('Row')):\n    for t_idx, tile in enumerate(row.findall('Tile')):\n        if tile.attrib['type'] in ['WALL', 'ROCK'] or tile.find('Object') is not None:\n            obstacles.add((t_idx, r_idx))\n\nstart_x = int(input_data['start_x']) - 1\nstart_y = int(input_data['start_y']) - 1\nend_x = int(input_data['end_x']) - 1\nend_y = int(input_data['end_y']) - 1\n\nqueue = deque([(((start_x, start_y), []), [])])\nvisited = { (start_x, start_y) }\n\nwhile queue:\n    (pos, path), history = queue.popleft()\n    x, y = pos\n\n    if x == end_x and y == end_y:\n        print(json.dumps(path))\n        exit()\n\n    for move, (dx, dy) in {'Up': (0, -1), 'Down': (0, 1), 'Left': (-1, 0), 'Right': (1, 0)}.items():\n        final_x, final_y = x, y\n        while True:\n            next_x, next_y = final_x + dx, final_y + dy\n            if not (0 <= next_x < width and 0 <= next_y < height and (next_x, next_y) not in obstacles):\n                break\n            final_x, final_y = next_x, next_y\n        \n        final_pos = (final_x, final_y)\n\n        if final_pos != pos and final_pos not in visited:\n            visited.add(final_pos)\n            new_path = path + [move]\n            new_history = history + [final_pos]\n            queue.append(((final_pos, new_path), new_history))\n\nprint('No path found')"
   }
 }
