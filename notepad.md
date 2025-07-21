@@ -33,20 +33,6 @@
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
 
-# Tile Mechanics
-*   **Verified Traversable:**
-    *   `FLOOR`: Standard ground.
-    *   `TALL_GRASS`: Triggers wild encounters.
-    *   `WATER`: Requires SURF. Can only be entered by facing the tile and pressing 'A'.
-    *   `CAVE`/`DOOR`: Warp point.
-*   **Verified Impassable:**
-    *   `WALL`/`VOID`: Standard barriers.
-    *   `HEADBUTT_TREE`: Impassable, can be headbutted.
-*   **One-Way Traversal (Verified):**
-    *   `LEDGE_HOP_DOWN`: Can only be moved down from.
-    *   `LEDGE_HOP_LEFT`: Can only be moved left from.
-*   `BUOY`: Confirmed impassable after attempting to move onto the tile at (27, 16).
-
 # Misc Notes
 *   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) until a slot is freed.
 *   `ROOF`: Visually represented by `WALL` tiles. Confirmed impassable.
