@@ -36,3 +36,7 @@
 
 # Misc Notes
 *   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) until a slot is freed.
+
+# Cherrygrove City Detour
+*   **Event:** Unexpectedly warped to Cherrygrove City (29, 4) after attempting to use FLY from New Bark Town.
+*   **Immediate Goal:** Investigate the reason for this scripted event, starting with the Pokémon Center.
