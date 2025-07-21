@@ -47,5 +47,6 @@
 ### C. Solved Puzzles & Key Discoveries (Continued)
 *   **Mahogany Gym Ice Puzzle:** Solved using a manual path. Defeated Gym Leader Pryce and obtained the Glacier Badge and TM16 (Icy Wind).
 *   **Mysterious Radio Broadcast:** After defeating Pryce, received a call from Prof. Elm about a strange broadcast. The PokéGear radio confirms a Team Rocket broadcast. Next objective is to investigate the Goldenrod Radio Tower.
-### D. Tool Flaws & Bugs
+
+### D. Tool Development & Bugs
 *   **bfs_pathfinder:** This tool is currently flawed. It does not correctly interpret one-way tiles like `LEDGE_HOP_DOWN` or `FLOOR_UP_WALL`, treating them as normal traversable tiles in any direction. This can cause it to fail to find a valid path or suggest an impossible one. It needs to be updated to account for tile-specific movement restrictions.
