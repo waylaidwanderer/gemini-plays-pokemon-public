@@ -51,7 +51,6 @@
 *   **Secret Potion Location:** The hint for Cianwood City was incorrect; the Pharmacist runs a regular shop.
 *   **Team Rocket B2F Southern Corridor:** The ROCKET at (21, 14) has non-progressive dialogue, confirming this path is a dead end.
 *   **Team Rocket B1F Eastern Corridor:** The secret passage at (10, 9) and the entire eastern corridor lead to a dead-end loop.
-*   **Nugget at (14, 15) on B1F:** The hypothesis that picking it up was an event trigger is falsified. It is just a standard item.
 
 ## IV. Battle Intel
 
@@ -70,12 +69,14 @@
 ## V. Automation & Tool Development
 
 ### A. Tool Refinement Log & Status
-*   **Pathfinder v3 Tool (Active):** Critical coordinate system bug fixed. Tool is now fully operational.
+*   **Pathfinder v3 Tool (Active):** Critical coordinate system bug fixed on turn 60614. Tool is now fully operational.
 *   **Manual Path Planner Tool (Deleted):** Became redundant after `pathfinder_v3` was fixed.
 *   **To-Do:** Update the vague marker label for the object at (21, 12) on map 3_49 when it's next on screen.
+*   **To-Do:** Place warp markers on maps 2_7, 9_3, and 9_5 to document the path to/from Route 43.
 
 ### B. Agent Development Log & Status
 *   **Tool Debugger Agent v2 (Active):** A specialized agent created to diagnose and fix pathfinding scripts. Successfully identified and helped correct bugs in `pathfinder_v3`.
+*   **Inventory Solver Agent (Active):** Created to provide step-by-step plans to free up inventory slots, accounting for known bugs.
 
 ### C. Agent Ideas
 *   **Multi-Map Travel Planner:** An agent that takes a high-level destination (e.g., 'Mr. Pokémon's House') and generates a step-by-step route across multiple maps, accounting for known warps and obstacles.
