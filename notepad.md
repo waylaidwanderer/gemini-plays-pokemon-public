@@ -9,7 +9,19 @@
 *   **`strategy_advisor` Agent:** Its system prompt was refined to forbid suggesting fainting. Needs to be tested to confirm the fix.
 *   **Future Agent Idea:** An `scripted_event_solver` agent could analyze NPC dialogue and map info to suggest the next logical interaction to try.
 
-# Tile Mechanics
+# Tile Mechanics Testing
+*This section tracks experiments to understand how different tiles work.*
+*   **Hypothesis: `COUNTER` tiles are impassable.**
+    *   **Test:** Attempt to walk into a `COUNTER` tile.
+    *   **Status:** Untested.
+*   **Hypothesis: `PC` tiles are impassable.**
+    *   **Test:** Attempt to walk into a `PC` tile.
+    *   **Status:** Untested.
+*   **Hypothesis: `WARP_CARPET_DOWN` can only be entered from above.**
+    *   **Test:** Attempt to walk onto the tile from the sides and below.
+    *   **Status:** Untested.
+
+# Verified Tile Mechanics
 *   **Verified Traversable:**
     *   `FLOOR`: Standard ground.
     *   `TALL_GRASS`: Triggers wild encounters.
@@ -27,11 +39,6 @@
 *   **Needs Further Testing:**
     *   `WARP_CARPET_DOWN`: Appears to be a warp tile. Need to test if it can be entered from the sides or only from above.
 
-# Misc Notes
+# Misc Notes & Reminders
 *   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) on Route 27 until a slot is freed.
-
-# Pending Rematches
-*   Fisher Ralph on Route 32.
-
-# Pending Rematches
-*   Fisher Ralph on Route 32.
+*   **Pending Rematch:** Fisher Ralph on Route 32.
