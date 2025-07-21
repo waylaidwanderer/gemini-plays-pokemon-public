@@ -57,42 +57,6 @@
     },
     "python_script": "import collections\nimport xml.etree.ElementTree as ET\n\n# Parse map data\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\n\nwalls = set()\nboulders = []\nplayer_start = None\n\nfor r_idx, row_elem in enumerate(root.findall('Row')):\n    y = r_idx + 1\n    for t_idx, tile_elem in enumerate(row_elem.findall('Tile')):\n        x = t_idx + 1\n        tile_type = tile_elem.get('type')\n        if tile_type == 'WALL':\n            walls.add((x, y))\n        if tile_elem.find('Object[@id-name=\"BOULDER\"]') is not None:\n            boulders.append((x, y))\n        if tile_elem.find('Player') is not None:\n            player_start = (x, y)\n\n# Override start position if provided\nif 'start_x' in input_data and input_data['start_x'] is not None:\n    player_start = (int(input_data['start_x']), int(input_data['start_y']))\n\ngoal_pos = (int(input_data['goal_x']), int(input_data['goal_y']))\n\n# --- BFS Solver ---\ninitial_state = (player_start, tuple(sorted(boulders)))\nqueue = collections.deque([(initial_state, [])])\nvisited = {initial_state}\n\npath_found = False\nwhile queue:\n    (current_player, current_boulders), path = queue.popleft()\n\n    # Check for goal state\n    if goal_pos in current_boulders:\n        print(f\"Solution found: {path}\")\n        path_found = True\n        break\n\n    # Explore neighbors\n    for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n        next_player_pos = (current_player[0] + dx, current_player[1] + dy)\n\n        # Simple move (no push)\n        if next_player_pos not in walls and next_player_pos not in current_boulders:\n            new_state = (next_player_pos, current_boulders)\n            if new_state not in visited:\n                visited.add(new_state)\n                queue.append((new_state, path + [move]))\n            continue\n\n        # Boulder push\n        if next_player_pos in current_boulders:\n            boulder_to_push = next_player_pos\n            next_boulder_pos = (boulder_to_push[0] + dx, boulder_to_push[1] + dy)\n\n            if next_boulder_pos not in walls and next_boulder_pos not in current_boulders:\n                new_boulders = list(current_boulders)\n                new_boulders.remove(boulder_to_push)\n                new_boulders.append(next_boulder_pos)\n                new_boulders_tuple = tuple(sorted(new_boulders))\n                \n                new_state = (next_player_pos, new_boulders_tuple)\n                if new_state not in visited:\n                    visited.add(new_state)\n                    queue.append((new_state, path + [f\"Push {move}\"])) \n\nif not path_found:\n    print(\"No solution found.\")"
   },
-  "pathfinder_v3": {
-    "description": "Finds the shortest path on the current map using A*. It avoids impassable tiles and can handle impassable destinations by finding a path to an adjacent traversable tile. This version is updated to treat one-way ledges as impassable and correctly handles coordinate systems. It now also accepts a list of coordinates to avoid.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "end_x": {
-          "type": "integer"
-        },
-        "end_y": {
-          "type": "integer"
-        },
-        "can_surf": {
-          "type": "boolean",
-          "default": false
-        },
-        "avoid_coords": {
-          "type": "string",
-          "description": "A JSON string of a list of [x, y] coordinates to avoid.",
-          "default": "[]"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import heapq\nimport xml.etree.ElementTree as ET\nimport json\n\nclass Node:\n    def __init__(self, x, y, g_cost=0, h_cost=0, parent=None):\n        self.x = x\n        self.y = y\n        self.g_cost = g_cost\n        self.h_cost = h_cost\n        self.f_cost = g_cost + h_cost\n        self.parent = parent\n\n    def __lt__(self, other):\n        if self.f_cost == other.f_cost:\n            return self.h_cost < other.h_cost\n        return self.f_cost < other.f_cost\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\ngrid = [['' for _ in range(width)] for _ in range(height)]\nimpassable_tiles = set()\n\navoid_coords_str = input_data.get('avoid_coords', '[]')\ntry:\n    coords_to_avoid = json.loads(avoid_coords_str)\n    for x, y in coords_to_avoid:\n        impassable_tiles.add((x - 1, y - 1))\nexcept json.JSONDecodeError:\n    pass\n\ncan_surf = input_data.get('can_surf', 'false').lower() == 'true'\n\nfor row in root.findall('Row'):\n    y = int(row.attrib['id']) - 1\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id']) - 1\n        if 0 <= x < width and 0 <= y < height:\n            tile_type = tile.attrib['type']\n            grid[y][x] = tile_type\n            if tile_type in ['WALL', 'COUNTER', 'MART_SHELF', 'PC', 'BOOKSHELF', 'HEADBUTT_TREE', 'CUT_TREE', 'TV', 'TOWN_MAP', 'WINDOW', 'ROCK', 'BUOY', 'VOID']:\n                impassable_tiles.add((x, y))\n            if not can_surf and tile_type in ['WATER', 'SEA']:\n                impassable_tiles.add((x,y))\n            if tile.find('Object') is not None:\n                impassable_tiles.add((x, y))\n\nstart_x = int(input_data['start_x']) - 1\nstart_y = int(input_data['start_y']) - 1\nend_x = int(input_data['end_x']) - 1\nend_y = int(input_data['end_y']) - 1\n\nstart_node = Node(start_x, start_y)\nend_node = Node(end_x, end_y)\n\ngoal_coords = set()\nif 0 <= end_x < width and 0 <= end_y < height and (end_x, end_y) not in impassable_tiles:\n    goal_coords.add((end_x, end_y))\nelse:\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        adj_x, adj_y = end_x + dx, end_y + dy\n        if (0 <= adj_x < width and 0 <= adj_y < height and (adj_x, adj_y) not in impassable_tiles):\n            goal_coords.add((adj_x, adj_y))\n\nif not goal_coords:\n    print('No path found')\n    exit()\n\nopen_list = []\nclosed_list = set()\nheapq.heappush(open_list, start_node)\n\nwhile open_list:\n    current_node = heapq.heappop(open_list)\n\n    if (current_node.x, current_node.y) in goal_coords:\n        path = []\n        while current_node:\n            path.append({'x': current_node.x + 1, 'y': current_node.y + 1})\n            current_node = current_node.parent\n        print(json.dumps(path[::-1]))\n        exit()\n\n    if (current_node.x, current_node.y) in closed_list:\n        continue\n    closed_list.add((current_node.x, current_node.y))\n\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        neighbor_x, neighbor_y = current_node.x + dx, current_node.y + dy\n\n        if not (0 <= neighbor_x < width and 0 <= neighbor_y < height):\n            continue\n\n        if (neighbor_x, neighbor_y) in impassable_tiles:\n            continue\n        \n        if (neighbor_x, neighbor_y) in closed_list:\n            continue\n\n        current_tile_type = grid[current_node.y][current_node.x]\n        if current_tile_type.startswith('LEDGE_HOP_'):\n            ledge_direction = current_tile_type.split('_')[-1].lower()\n            if (ledge_direction == 'down' and (dx, dy) != (0, 1)) or \\\n               (ledge_direction == 'up' and (dx, dy) != (0, -1)) or \\\n               (ledge_direction == 'left' and (dx, dy) != (-1, 0)) or \\\n               (ledge_direction == 'right' and (dx, dy) != (1, 0)):\n                continue\n\n        g_cost = current_node.g_cost + 1\n        h_cost = abs(neighbor_x - end_node.x) + abs(neighbor_y - end_node.y)\n        neighbor_node = Node(neighbor_x, neighbor_y, g_cost, h_cost, current_node)\n        heapq.heappush(open_list, neighbor_node)\n\nprint('No path found')"
-  },
   "maze_mapper": {
     "description": "Systematically explores a grid-based maze from a starting point. It takes the player's current coordinates and a list of already visited/tested coordinates. It uses a breadth-first search approach on unseen tiles to suggest the next logical tile to explore, prioritizing adjacent tiles. This helps to methodically map out an area without missing tiles.",
     "input_schema": {
