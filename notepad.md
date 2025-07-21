@@ -61,14 +61,14 @@
 
 # IV. Active Plans & Objectives
 
-## A. Current Plan: Explore Route 23
-- **Status:** All custom navigation tools (`find_closest_unseen_tile` and `pathfinder`) have been successfully debugged and verified. They are now fully operational.
-- **Strategy:** With my tools working, I can now systematically explore Route 23. My immediate goal is to uncover all unseen tiles to fully map the area. This will help me find the entrance to Victory Road and identify potential training spots.
+## A. Current Plan: Manual Exploration of Route 23
+- **Status:** The `find_closest_unseen_tile` tool has proven to be unreliable on this map despite multiple debugging attempts. The prolonged failure loop has been counterproductive.
+- **Strategy Pivot:** In accordance with my core principles and system feedback, I am abandoning the automated exploration strategy for this area. I will now proceed with manual exploration to break the loop and make forward progress.
 - **Execution Plan:**
-  1. Use `find_closest_unseen_tile` to identify the next exploration target.
-  2. Use `pathfinder` to generate a path to that target.
-  3. Follow the path to explore the new area.
-  4. Repeat this process until all of Route 23 is explored.
+  1. Systematically walk through all reachable paths on Route 23.
+  2. My priority is to move generally northward, as that is the likely direction of Victory Road.
+  3. I will reveal as many unseen tiles as possible to fully map the area.
+  4. While exploring, I will engage in wild battles to train my team for the Giovanni rematch.
 
 # V. 50-Turn Reflection (Turn 90297)
 
