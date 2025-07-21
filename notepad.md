@@ -48,7 +48,7 @@
 ## B. Tool Development Log
 - **Pathfinder & Boulder Puzzle Solver:** Both tools initially had a bug where their internal pathfinding logic couldn't handle land-to-water SURF transitions. This has been fixed.
 - **Pathfinder Bug Fix (Route 23):** The `pathfinder` tool was unable to find paths on Route 23 due to a logical flaw in the `is_traversable` function. It was incorrectly blocking movement between different valid land types. I have since rewritten the function to be more robust.
-- **`find_closest_unseen_tile` Failures:** This tool has repeatedly failed on Route 23. The `is_traversable` logic is too restrictive, failing to account for complex terrain with steps and elevations, and incorrectly treating passable NPCs (like badge guards) as impassable walls. This has prevented the BFS algorithm from finding any of the known reachable unseen tiles.
+- **`find_closest_unseen_tile` Failures (FIXED):** This tool repeatedly failed on Route 23. The root cause was a bug in the `is_traversable` function that prevented movement between adjacent water tiles, causing the BFS to fail when exploring while surfing. The logic has been corrected. Additionally, the tool was failing because it was being called with incomplete `party_data` that lacked move information, preventing the `has_hm` check from working. I will now provide the complete party data, including HMs, when calling this tool.
 
 ## C. Strategic Reflections
 - **Menu Efficiency:** Cycling through the Fly menu was inefficient. I must be more systematic in menu navigation to avoid wasting turns, concluding an option is unavailable after one full cycle rather than repeated presses.
