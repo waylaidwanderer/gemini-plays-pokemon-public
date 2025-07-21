@@ -64,9 +64,11 @@
 
 # IV. Active Plans & Objectives
 
+# IV. Active Plans & Objectives
+
 ## A. Current Plan: Explore Route 23
-- **Status:** The `find_closest_unseen_tile` tool has been successfully repaired.
-- **Strategy:** I will now use my fixed tool to systematically explore Route 23 and locate the entrance to Victory Road.
+- **Status:** Both `find_closest_unseen_tile` and `pathfinder` tools have been successfully repaired.
+- **Strategy:** I will now use my fixed tools to systematically explore Route 23 and locate the entrance to Victory Road.
 - **Execution Plan:**
   1.  Use `find_closest_unseen_tile` to identify the next exploration target.
   2.  Use `pathfinder` to generate a path to an adjacent, reachable tile.
