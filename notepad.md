@@ -8,7 +8,9 @@
 *   **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN/LEFT/RIGHT, WARP_PANEL.
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL.
 *   **One-Way:** PIT (fall), LEDGE_HOP_RIGHT/LEFT/DOWN, FLOOR_UP_WALL (one-way 'up' ledge).
-*   **Special Movement:** ICE (slide in one direction until an obstacle is hit).
+*   **Special Movement:** 
+    *   ICE: Slides the player in a cardinal direction until an obstacle is hit.
+    *   FLOOR (on Ice Maps): Acts as a safe stopping point. Player can stand on a FLOOR tile and choose their next slide direction without being forced into movement.
 *   **Untested:** COMPUTER, BED, CABINET, SINK, PLANT, unknown, and any tile type with `unknown` in its name. My protocol is to test these by attempting to walk into them from all four directions when first encountered.
 
 ### B. System Bugs & Glitches (Verified)
@@ -48,12 +50,11 @@
     *   **Test 1.1:** Use `ice_puzzle_solver` to find a path from reachable `FLOOR` tiles on the central island ((5, 10), (2, 10)) to target `FLOOR` tiles on the other island ((3, 4), (5, 4), (4, 7)).
     *   **Result 1.1:** The solver returned 'No path found' for all combinations.
     *   **Conclusion 1.1:** The two islands of `FLOOR` tiles are not directly connected by a simple slide path. The hypothesis is false.
-*   **Hypothesis 2 (NEW):** The puzzle's state must be changed to connect the two islands. This change is likely triggered by defeating one of the un-battled trainers near the gym entrance (ROCKER at (0, 17) or BEAUTY at (9, 17)).
-    *   **Test 2.1 (NEW):** Reset position to the main floor area at the gym entrance by intentionally sliding into a wall.
-    *   **Test 2.2 (NEW):** Use `ice_puzzle_solver` to find a path to the ROCKER at (0, 17).
-    *   **Test 2.3 (NEW):** Battle and defeat the ROCKER.
-    *   **Test 2.4 (NEW):** Re-run Test 1.1 to see if a path to the Gym Leader's island has been created. If not, repeat the process for the BEAUTY at (9, 17).
-    *   **Conclusion 2:** (Pending test results).
+*   **Hypothesis 2 (ACTIVE):** The puzzle's state must be changed to connect the two islands. This change is likely triggered by defeating one of the un-battled trainers near the gym entrance (ROCKER at (0, 17) or BEAUTY at (9, 17)).
+    *   **Test 2.1 (Current Step):** Reset position to the main floor area at the gym entrance by intentionally sliding into a wall.
+    *   **Test 2.2 (Next Step):** Use `ice_puzzle_solver` to find a path to the ROCKER at (0, 17).
+    *   **Test 2.3 (Next Step):** Battle and defeat the ROCKER.
+    *   **Test 2.4 (Next Step):** Re-run Test 1.1 to see if a path to the Gym Leader's island has been created. If not, repeat the process for the BEAUTY at (9, 17).
 
 ## III. Battle Intel
 
