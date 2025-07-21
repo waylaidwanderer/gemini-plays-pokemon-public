@@ -23,3 +23,4 @@
     *   `VOID`: Impassable barrier, represents out-of-bounds areas.
 *   **One-Way Traversal:**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from the tile above it.
+*   `WATER`: Requires SURF to traverse.
