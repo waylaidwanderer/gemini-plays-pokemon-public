@@ -74,3 +74,12 @@
 ## C. New Ideas from Reflection (Turn 91075)
 - **Agent Idea:** A long-term battle planning agent that can help strategize for multi-stage fights or entire gyms, going beyond the turn-by-turn advice of the current `battle_strategist_agent`.
 - **Tool Idea:** An inventory management tool that can categorize items, identify redundancies, and suggest items to store or sell to free up space.
+
+## C. Trainer Rosters & Movesets
+
+### Giovanni (Viridian Gym Leader)
+- **Team:**
+  - NIDOKING (Lv54) - Moves: Ice Beam, Blizzard, Thunderbolt, Earthquake
+  - DUGTRIO (Lv53) - Moves: Fissure, Slash, Earthquake, Rock Slide
+  - NIDOQUEEN (Lv54) - Moves: Ice Beam, Earthquake, Thunderbolt, Body Slam
+  - PERSIAN (Lv55) - Moves: Bubblebeam, Slash, Hyper Beam, Thunderbolt
