@@ -59,6 +59,3 @@
 *   **Chuck:** PRIMEAPE (Leer, Rage, Karate Chop), POLIWRATH (Hypnosis, Mind Reader, Dynamicpunch)
 
 ## IV. Automation & Tool Development
-
-### A. Agent Ideas
-*   **Hypothesis Generator:** An agent that takes a falsified hypothesis, the reason for falsification, and key environmental clues (like NPC dialogue) to suggest a new, logical, and testable hypothesis. This could help prevent getting stuck in a problem-solving loop.
