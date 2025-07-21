@@ -5,24 +5,23 @@
 - **Impassable:** Walls, objects, etc. Cannot be entered.
 - **Grass:** Tall grass for wild Pokémon encounters.
 - **Ledge:** Can be jumped down (one-way). Moving down into a ledge tile moves the player two tiles down.
-- **Cuttable Tree:** Requires HM Cut to pass. Becomes `ground` after cutting, but respawns on map change.
-- **Water:** Requires HM Surf to traverse. To use Surf, you must be standing on a 'ground', 'water', or 'steps' tile adjacent to water, face the water, and use the HM from the party menu.
+- **Cuttable Tree:** Requires HM Cut to pass. Respawn on map change.
+- **Water:** Requires HM Surf to traverse. Surf is initiated from the party menu while adjacent to water.
 - **Boulder:** Requires HM Strength to move.
-- **Hole:** Warps player to a lower floor or a specific spot.
+- **Hole:** Warps player to a lower floor.
 - **Ladder (Up/Down):** Warps player between floors.
-- **Warp:** An instant transition point between maps or areas.
-- **Steps:** Allows vertical and horizontal movement between 'steps' and adjacent 'ground' or 'elevated_ground' tiles.
-- **Spinner (up, down, left, right):** Forces movement in a specific direction.
-- **Spinner Stop:** A tile that halts movement from a spinner.
-- **Elevated Ground:** Walkable ground at a different elevation. Movement between `ground` and `elevated_ground` is only possible via `steps`.
-- **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close based on game events. `gate_offscreen` is treated as open for pathfinding.
-- **Boulder Switch & Barrier:** `boulder_switch` tiles are activated when a boulder is pushed onto them, which typically changes a `boulder_barrier` tile into a `cleared_boulder_barrier` tile (effectively `ground`).
+- **Warp:** An instant transition point between maps.
+- **Steps:** Allows movement between different ground elevations.
+- **Spinner (up, down, left, right):** Forces movement.
+- **Spinner Stop:** A tile that halts spinner movement.
+- **Elevated Ground:** Walkable ground at a different elevation.
+- **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close.
+- **Boulder Switch & Barrier:** `boulder_switch` tiles are activated by boulders, which changes a `boulder_barrier` tile into a `cleared_boulder_barrier` tile.
 
 ## B. General Heuristics & Rules
-- **PC Interaction:** To use a PC, stand on the tile directly below it, face up, and press 'A'. The 'B' button is the universal 'back' or 'cancel' command in PC menus.
-- **HM Usage:** HMs are used from the party menu outside of battle. Fainted Pokémon can use field moves.
-- **"No Will to Fight" Message (Correction):** This message appears only when the cursor in the party menu is on an already fainted Pokémon. It is a UI error, not a gameplay mechanic.
-- **Surf Mechanic:** You cannot initiate Surf from an `elevated_ground` tile. You must be on a `ground`, `steps`, or `grass` tile adjacent to water.
+- **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
+- **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
+- **"No Will to Fight" Message (Correction):** Appears when the party menu cursor is on a fainted Pokémon.
 - **Level Cap:** The level cap with 7 badges is 55.
 
 # II. Battle Intel
