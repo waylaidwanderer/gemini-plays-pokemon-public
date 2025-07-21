@@ -3,9 +3,9 @@
 ## I. Game State & Objectives
 
 ### A. Primary Questline
-*   **Mahogany Town Gym:** Obtain the 6th Gym Badge.
-*   **Team Rocket Hideout:** Find the boss and use the passwords to disrupt their radio signal operation. The entrance is a secret stairway in the Mahogany Mart.
 *   **RED SCALE Investigation:** Mr. Pokémon is the primary person of interest.
+*   **Team Rocket Hideout:** Find the boss and use the passwords to disrupt their radio signal operation. The entrance is a secret stairway in the Mahogany Mart.
+*   **Mahogany Town Gym:** Obtain the 6th Gym Badge.
 
 ### B. Active Side Quests
 *   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
@@ -19,7 +19,7 @@
 
 ### A. Tile Traversal Rules
 *   **Verified Impassable:** WALL, COUNTER, MART_SHELF, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, ROCK, BUOY, VOID.
-*   **Verified Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA, unknown (TeamRocketBaseB3F), unknown (Route42).
+*   **Verified Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA (with Surf), unknown (TeamRocketBaseB3F).
 *   **Verified Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN/LEFT/RIGHT.
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL.
 *   **One-Way:** PIT (fall), LEDGE_HOP_RIGHT/LEFT/DOWN, FLOOR_UP_WALL (one-way 'up' ledge).
@@ -36,6 +36,7 @@
 ## III. World Knowledge
 
 ### A. Solved Puzzles & Key Discoveries
+*   **Red Gyarados Event (Lake of Rage):** Defeated the red Gyarados and obtained the RED SCALE.
 *   **Cianwood City Stuck Spot:** Resolved by triggering back-to-back phone calls (Mom, then Liz) on tile (10, 28).
 *   **Ilex Forest Shrine:** A Lass in the Route 34 Gate mentioned a shrine honoring a grass-type protector.
 *   **TM12 (Sweet Scent):** Given by Teacher in Route 34 Ilex Forest Gate.
@@ -70,11 +71,11 @@
 ## V. Automation & Tool Development
 
 ### A. Tool Refinement Log & Status
-*   **Pathfinder v3 Tool (Under Active Debugging):** Critical bug identified where it fails to calculate paths involving one-way tiles (ledges). This is the highest priority bug to fix.
-*   **Contingency:** While `pathfinder_v3` is being fixed, use `manual_path_planner` for simple routes and `maze_solver` for complex mazes.
+*   **Pathfinder v3 Tool (Under Active Debugging):** Critical bug identified where it fails to calculate paths over water when walking. This is the highest priority bug to fix.
+*   **Contingency:** While `pathfinder_v3` is being fixed, use `manual_path_planner` for simple routes.
 
 ### B. Agent Development Log & Status
-*   **Tool Debugger Agent v2 (Active):** A new, more specialized agent created to diagnose and fix pathfinding scripts. Successfully identified and helped correct bugs in `manual_path_planner`.
+*   **Tool Debugger Agent v2 (Active):** A specialized agent created to diagnose and fix pathfinding scripts. Successfully identified and helped correct bugs in `manual_path_planner` and `pathfinder_v3`.
 
 ## VI. Open Hypotheses & Tests
 
@@ -85,11 +86,7 @@
 *   **Hypothesis:** An invisible barrier blocks the northern one-way ledge on Mt. Mortar B1F.
 *   **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
 
-### C. Route 42 Blockage
-*   **Hypothesis:** The only path from Mahogany Town to Ecruteak City is through Mt. Mortar.
-*   **Falsification Test:** Return to Route 42 after clearing inventory. Check if the Super Nerd at (47, 8) has moved or if an alternate path exists.
-
-### D. Team Rocket B1F Maze Progression
+### C. Team Rocket B1F Maze Progression
 *   **Hypothesis:** The 'traps' are one-way pitfall warps.
 *   **Current Plan:** Continue systematic exploration south and east from (1, 14) to find a safe path to the ladder at (3, 14).
 
@@ -101,7 +98,6 @@
 ## VIII. Future Development & Reminders
 
 ### A. Agent Ideas
-*   **Party vs. Gym Leader Analyst:** An agent that takes my current party and a gym leader's known Pokémon and suggests the optimal lead and battle strategy.
 *   **Multi-Map Travel Planner:** An agent that takes a high-level destination (e.g., 'Mr. Pokémon's House') and generates a step-by-step route across multiple maps, accounting for known warps and obstacles.
 
 ### B. Untested Assumptions & Falsification Tests
