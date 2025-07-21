@@ -4,13 +4,13 @@
 
 ### A. Tile Traversal Rules
 *   **Verified Impassable:** WALL, COUNTER, MART_SHELF, PC, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, ROCK, BUOY, VOID, RADIO, INCENSE_BURNER, BOOKSHELF.
-*   **Verified Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA (with Surf).
+*   **Verified Traversable:** GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA (with Surf).
 *   **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN/LEFT/RIGHT, WARP_PANEL.
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL.
 *   **One-Way:** PIT (fall), LEDGE_HOP_RIGHT/LEFT/DOWN, FLOOR_UP_WALL (one-way 'up' ledge).
-*   **Special Movement:** 
-    *   ICE: Slides the player in a cardinal direction until an obstacle is hit.
-    *   FLOOR (on Ice Maps): Acts as a safe stopping point. Player can stand on a FLOOR tile and choose their next slide direction without being forced into movement.
+*   **Special Movement (Corrected):** 
+    *   ICE: A player on an ICE tile will slide in a chosen direction until they reach the tile immediately preceding an obstacle (WALL, Object, VOID). `FLOOR` tiles are not obstacles and will be slid over.
+    *   FLOOR (on Ice Maps): Acts as a safe starting point. A player can stand on a `FLOOR` tile and choose their direction of movement without sliding. If a slide starts from a `FLOOR` tile (by walking onto an adjacent `ICE` tile), the slide will stop on the next `FLOOR` tile it encounters.
 *   **Untested:** COMPUTER, BED, CABINET, SINK, PLANT, unknown, and any tile type with `unknown` in its name. My protocol is to test these by attempting to walk into them from all four directions when first encountered.
 
 ### B. System Bugs & Glitches (Verified)
@@ -47,20 +47,10 @@
 ### C. Mahogany Gym Ice Puzzle Analysis (Final)
 *   **Problem:** Navigate the Mahogany Gym ice puzzle to reach the Gym Leader, Pryce.
 *   **Tool Development Log (Final Conclusion):** The `ice_puzzle_solver` is fundamentally unreliable for this puzzle. Its logic is sound, but its data source (`map_xml_string`) only includes on-screen objects. It is blind to off-screen defeated trainers who act as permanent obstacles, leading it to calculate impossible paths or fail to find valid ones. The correct strategic decision is to abandon the tool for this specific puzzle and proceed with a verified manual path.
-*   **Correct Manual Path:** Based on a manual trace that accounts for all defeated trainers as obstacles, the following path is confirmed to be correct:
-    1.  Start at entrance floor area (e.g., (4, 15)).
-    2.  Slide Up from (4, 15) -> land on (4, 14).
-    3.  Walk Right to (5, 14).
-    4.  Slide Up from (5, 14) -> land on (5, 10).
-    5.  Slide Left from (5, 10) -> land on (2, 10).
-    6.  Slide Up from (2, 10) -> stopped by defeated trainer at (2, 4), land on ice at (2, 5).
-    7.  Slide Right from (2, 5) -> land on (6, 5).
-    8.  Slide Down from (6, 5) -> land on (6, 13).
-    9.  Slide Left from (6, 13) -> land on (3, 13).
-    10. Slide Up from (3, 13) -> land on (3, 4).
-    11. Slide Right from (3, 4) -> land on (5, 4), in front of Pryce.
-
-## III. Battle Intel
-
-### A. Type Effectiveness Chart (Verified)
-*   Water (Surf) vs. Water/Flying (Gyarados) -> Not Very Effective
+*   **Correct Manual Path (Hypothesis v3 - Based on corrected mechanics):**
+    1.  Start on the ice at (9, 5).
+    2.  Slide Down -> land on (9, 16) (stopped by Beauty at (9,17)).
+    3.  From (9, 16), slide Left -> land on (2, 16).
+    4.  From (2, 16), slide Up -> land on (2, 10).
+    5.  From (2, 10), slide Right -> land on (5, 10).
+    6.  From (5, 10), slide Up -> land on (5, 4), in front of Pryce.
