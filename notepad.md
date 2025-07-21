@@ -18,12 +18,12 @@
 ## II. Game Mechanics
 
 ### A. Tile Traversal Rules
-*   **Verified Impassable:** WALL, COUNTER, MART_SHELF, PC, BOOKSHELF, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, ROCK, BUOY, VOID, RADIO, INCENSE_BURNER.
+*   **Verified Impassable:** WALL, COUNTER, MART_SHELF, PC, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, ROCK, BUOY, VOID, RADIO, INCENSE_BURNER.
 *   **Verified Traversable:** FLOOR, GRASS, TALL_GRASS, LONG_GRASS, WATER/SEA (with Surf).
 *   **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN/LEFT/RIGHT, WARP_PANEL.
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL.
 *   **One-Way:** PIT (fall), LEDGE_HOP_RIGHT/LEFT/DOWN, FLOOR_UP_WALL (one-way 'up' ledge).
-*   **Untested:** COMPUTER, BED, CABINET, SINK, PLANT, and any tile type with `unknown` in its name. My protocol is to test these by attempting to walk into them from all four directions when first encountered.
+*   **Untested:** COMPUTER, BED, CABINET, SINK, PLANT, BOOKSHELF, and any tile type with `unknown` in its name. My protocol is to test these by attempting to walk into them from all four directions when first encountered.
 
 ### B. System Bugs & Glitches (Verified)
 *   **Item Management:** 'DEPOSIT ITEM' & 'TOSS ITEM' (from PC & PACK) are bugged. 'FLY' HM is bugged. Using one item from a stack does not free an inventory slot.
@@ -82,12 +82,21 @@
 ### D. Open Hypotheses & Tests
 *   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
 *   **Mt. Mortar Invisible Barrier:** **Hypothesis:** An invisible barrier blocks the northern one-way ledge on Mt. Mortar B1F. **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
-*   **Team Rocket B1F Maze Progression:** **Hypothesis:** The 'traps' are one-way pitfall warps caused by invisible arrow tiles that lead to the northern section of B2F. **Methodology:** Use the `maze_mapper` tool to systematically explore every floor tile. If a tile is a pitfall, record start/end coordinates. Compile a JSON string of all discovered pitfalls and use the `maze_solver` tool to find the path to an exit.
+*   **Team Rocket B1F Maze Progression:** 
+    *   **Hypothesis:** The 'traps' are one-way pitfall warps caused by invisible arrow tiles that lead to the northern section of B2F.
+    *   **Methodology:** Use the `maze_mapper` tool to systematically explore every floor tile. If a tile is a pitfall, record start/end coordinates. Compile a JSON string of all discovered pitfalls and use the `maze_solver` tool to find the path to an exit.
+    *   **Known Pitfalls:** (3, 13) on B1F -> (3, 14) on B2F.
+*   **Nugget at (14, 15) on B1F:**
+    *   **Hypothesis:** It's a standard item.
+    *   **Alternative Hypothesis:** Picking it up is an event trigger.
+    *   **Test:** Return and pick it up once bag space is available.
 
 ### E. Untested Assumptions & Falsification Tests
 *   **HEADBUTT_TREE Traversal:** **Assumption:** Impassable. **Test:** Attempt to walk into it from all four directions.
+*   **Secret Switch at (19, 11) on B1F:**
+    *   **Hypothesis:** It only opened the door at (10, 9).
+    *   **Alternative Hypothesis:** It had another, unseen effect.
+    *   **Test:** If the maze proves to be a dead end, revisit the switch and re-explore the base for other changes.
 
 ### F. Tile Testing Protocol
 *   **New Tile Discovery:** When a new, unknown tile type is encountered, I must systematically test its properties. This includes attempting to walk on it from all four directions and documenting whether it's traversable, a one-way path, or requires a specific item or action to pass.
-*   **Team Rocket B1F Pitfall:** Confirmed a pitfall trap is triggered when landing on tile (3, 13) on B1F, which warps the player to (3, 14) on B2F.
-*   **Maze Solver Tool:** Created a tool (`maze_solver`) to find a path through the invisible arrow tile maze using a list of *known* pitfalls. It can be used iteratively as more traps are discovered.
