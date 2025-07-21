@@ -42,10 +42,10 @@
 
 # IV. Strategic Lessons & Reflections
 
-## A. CRITICAL FAILURE ANALYSIS: The Seafoam Islands Loop (Turns ~88900-89050)
-- **The Failure:** I wasted over 150 turns trapped in a cognitive and physical loop in the eastern Seafoam Islands. I vacillated between two incorrect hypotheses: 1) The area was a dead end, and 2) The eastern and western sections were connected. The first hypothesis was correct, but I abandoned it due to misinterpreting system feedback.
-- **Root Cause - Confirmation Bias & Poor Data Management:** My most critical error was ignoring overwhelming evidence that contradicted my flawed second hypothesis. My `pathfinder` tool repeatedly reported "No path found," and the system issued multiple warnings about being in a dead end. Instead of accepting this data as fact, I assumed my tool was bugged and persisted with a flawed strategy. I also failed to update my notepad immediately with the correct "dead end" conclusion, which led me to repeat the same mistakes.
-- **The Lesson:** **A tool's failure is a data point about the world, not just a bug.** Repeated failures are strong evidence that my underlying assumption is incorrect. I MUST learn to trust my tools and the game's feedback over my own intuition. All data management, especially correcting my understanding of the map, must be performed IMMEDIATELY to prevent repeating errors.
+## A. CRITICAL FAILURE ANALYSIS: Confirmation Bias in Seafoam Islands (Turns ~89480-89516)
+- **The Failure:** I wasted significant time exploring the eastern side of the Seafoam Islands based on a flawed hypothesis. I repeatedly descended into isolated, dead-end rooms, ignoring system warnings, my own tool's output, and map data that indicated these paths were not viable for crossing the cave system.
+- **Root Cause - Confirmation Bias:** I became fixated on the idea that the eastern descent was the solution and failed to abandon the hypothesis after the first few failed tests. Instead of accepting the dead ends and repeated `pathfinder` failures as proof my hypothesis was wrong, I treated them as minor setbacks or tool bugs and kept looking for another eastern path. This is a classic case of confirmation bias.
+- **The Lesson:** A single failed test is strong evidence against a hypothesis. Multiple failures are conclusive proof. I must be more willing to abandon a failing strategy immediately and pivot to a new one. I must trust the data (map, system warnings, tool outputs) over my own intuition. All data management, especially correcting my understanding of the map, must be performed IMMEDIATELY to prevent repeating errors.
 
 ## B. Tool Development Log
 - **Pathfinder & Boulder Puzzle Solver:** Both tools initially had a bug where their internal pathfinding logic couldn't handle land-to-water SURF transitions. This has been fixed.
@@ -68,8 +68,3 @@
 - **The Bug:** The `pathfinder` tool was unable to find a path to a 'hole' tile because the `is_traversable` function did not recognize 'hole' as a valid land tile to move onto from 'ground'.
 - **The Fix:** I updated the `is_traversable` function to include 'hole' in the set of `valid_land_types` and added a condition to allow movement between 'ground' and 'hole' tiles.
 - **The Lesson:** My custom tools need to be robust enough to handle all known tile types. When a tool fails on a seemingly simple task, it's a strong indicator of a logic bug that needs immediate attention.
-
-## D. The Eastern Seafoam Dead End & Confirmation Bias (Turns ~89480-89516)
-- **The Failure:** I wasted significant time exploring the eastern side of the Seafoam Islands based on a flawed hypothesis. I repeatedly descended into isolated, dead-end rooms, ignoring system warnings and map data that indicated these paths were not viable for crossing the cave system.
-- **Root Cause - Confirmation Bias:** I became fixated on the idea that the eastern descent was the solution and failed to abandon the hypothesis after the first few failed tests. Instead of accepting the dead ends as proof my hypothesis was wrong, I treated them as minor setbacks and kept looking for another eastern path. This is a classic case of confirmation bias.
-- **The Lesson:** A single failed test is strong evidence against a hypothesis. Multiple failures are conclusive proof. I must be more willing to abandon a failing strategy immediately and pivot to a new one, rather than trying to force a solution that the evidence contradicts. Trust the data (map, system warnings, tool outputs) over intuition.
