@@ -39,11 +39,13 @@
 *   **Team Rocket B1F Eastern Corridor:** The secret passage at (10, 9) and the entire eastern corridor lead to a dead-end loop.
 *   **Team Rocket B1F Switch Function:** The switch at (19, 11) is not a toggle for the invisible maze. Interacting with the ROCKET at (2, 4) produces the same result regardless of the switch's on/off state.
 *   **Team Rocket B1F Maze (Simple Pitfall):** Systematically exploring every floor tile in the western maze area revealed no pitfalls or warps other than the known dead-end ladder. Hypothesis that a simple pitfall was the solution is false.
+*   **Team Rocket B1F Floor Pitfall:** The tile at (2, 13) is a FLOOR tile, not a PIT or WARP. Hypothesis that regular floor tiles are pitfalls is false (verified by system warning).
 
 ### C. Active Hypotheses & Tests
 *   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
 *   **Mt. Mortar Invisible Barrier:** **Hypothesis:** An invisible barrier blocks the northern one-way ledge on Mt. Mortar B1F. **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
 *   **Team Rocket B1F Maze (Disguised Path):** The solution, hinted at by the ROCKET Grunt's dialogue ('Collect your courage and walk!'), is not a path through a wall, but a FLOOR tile at (3, 5) disguised to look like a wall. This creates a secret northern passage in the western maze area.
+*   **Team Rocket B1F Arrow Tile Pitfall:** **Hypothesis:** Specific arrow tiles in the invisible maze act as pitfalls to the northern section of B2F. **Test:** Systematically step on every tile in the invisible maze area, starting from the entrance.
 
 ## III. Battle Intel
 
@@ -62,13 +64,6 @@
 ## IV. Automation & Tool Development
 
 ### A. Agent Ideas
-*   **Visited Coordinates Manager:** An agent to automatically manage and update the `visited_coords` list for the `maze_mapper` tool based on player movement history, reducing manual input and potential for error.
 
 ### B. Tool Refinement Ideas
 *   **`maze_mapper` v2:** Refine the tool to persist its own state of visited coordinates, so I don't have to manually pass the list each time. This would streamline the exploration process significantly.
-
-### D. Falsified Hypotheses & Dead Ends (New)
-*   **Team Rocket B1F Floor Pitfall:** The tile at (2, 13) is a FLOOR tile, not a PIT or WARP. Hypothesis that regular floor tiles are pitfalls is false (verified by system warning).
-
-### E. Active Hypotheses & Tests (New)
-*   **Team Rocket B1F Arrow Tile Pitfall:** **Hypothesis:** Specific arrow tiles in the invisible maze act as pitfalls to the northern section of B2F. **Test:** Systematically step on every tile in the invisible maze area, starting from the entrance.
