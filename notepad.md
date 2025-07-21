@@ -29,6 +29,7 @@
     *   `BUOY`: Confirmed impassable after attempting to move onto the tile at (27, 16).
     *   `ROOF`/`TV`: Impassable.
     *   `COUNTER`: Confirmed impassable after attempting to move onto the tile at (3, 2).
+    *   `CUT_TREE`: Impassable, but can be cleared with HM01 CUT.
 *   **One-Way Traversal (Verified):**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
@@ -41,6 +42,6 @@
 
 # Lessons Learned (Recent Failures)
 *   **Pathfinding Failure:** My manual pathing has been highly unreliable. I must be more methodical. An alternative hypothesis for pathing failures is a bug in long path execution, not just moving NPCs. Test with short, simple paths.
-*   **Tool Over-Reliance/Fixation:** Wasted turns trying to fix the `bfs_pathfinder` tool. If a tool is broken, I must delete it and build a better one, not get stuck in a debugging loop.
+*   **Tool Hallucination:** I hallucinated a `bfs_pathfinder` tool that does not exist. I must only rely on tools confirmed to be in my available tool list.
 *   **Agent Logic Flaw:** The `strategy_advisor` agent provided incorrect advice (using DIG on an outdoor route). Agents must be given all relevant game mechanics to function correctly.
 *   **Re-evaluate Route 29 Markers:** The 'Dead end (ledge north)' and 'Impassable NPC barrier' markers are likely incorrect results of my own pathing failures. Must revisit and verify.
