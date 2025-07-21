@@ -71,7 +71,6 @@
 
 ### A. Tool Refinement Log & Status
 *   **Pathfinder v3 Tool (Active):** Critical coordinate system bug fixed on turn 60614. Tool is now fully operational.
-*   **Manual Path Planner Tool (Deleted):** Became redundant after `pathfinder_v3` was fixed.
 
 ### B. Agent Development Log & Status
 *   **Tool Debugger Agent v2 (Active):** A specialized agent created to diagnose and fix pathfinding scripts. Successfully identified and helped correct bugs in `pathfinder_v3`.
