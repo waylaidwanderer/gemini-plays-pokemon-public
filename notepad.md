@@ -3,14 +3,14 @@
 *   **Secondary:** Cross Route 27 to reach the main part of Johto.
 *   **Tertiary:** Find a rematch with Camper Todd on Route 34.
 
-# Exploration Plan: Route 27
-*   **Current Location:** Dead-end island at (52, 12).
-*   **Immediate Goal:** Get back on the water at (51, 12) by facing the water and using SURF.
-*   **Hypothesis:** The southern water channel is the main path forward.
-*   **Plan:** 
-    1.  Surf east along the southern channel.
-    2.  **Test `BUOY` tile:** Navigate to the `BUOY` at (26, 14) and attempt to move onto it to confirm if it's impassable.
-    3.  Continue exploring eastward to find the route's exit or a path to the upper ledge.
+# Current Objective: Mom's Savings
+*   **Situation:** After being blocked from using FLY, a scripted event warped me back to my house.
+*   **Immediate Goal:** Complete the money-saving interaction with Mom.
+*   **Hypothesis:** Completing this dialogue is required to unlock progression and allow me to travel again.
+*   **Plan:**
+    1.  Deposit a nominal amount of money to satisfy the script.
+    2.  After the dialogue, attempt to use FLY to reach Goldenrod City again.
+    3.  If still blocked, proceed to Professor Elm's Lab in New Bark Town.
 
 # Game Systems & Tools
 *   **`bfs_pathfinder` Tool:** 
