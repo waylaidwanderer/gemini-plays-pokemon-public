@@ -23,7 +23,7 @@
 *   **Verified Warps:** DOOR, CAVE, LADDER, WARP_PANEL, WARP_CARPET_DOWN/LEFT/RIGHT.
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL.
 *   **One-Way:** PIT (fall), LEDGE_HOP_RIGHT/LEFT/DOWN, FLOOR_UP_WALL (one-way 'up' ledge).
-*   **Untested:** RADIO, INCENSE_BURNER, unknown (TeamRocketBaseB2F), unknown (LakeOfRage), COMPUTER, BED, CABINET, SINK, PLANT, unknown (MountMortarB1F).
+*   **Untested:** RADIO, INCENSE_BURNER, unknown (TeamRocketBaseB2F), unknown (LakeOfRage), COMPUTER, BED, CABINET, SINK, PLANT, unknown (MountMortarB1F), unknown (Route43).
 
 ### B. System Bugs & Glitches (Verified)
 *   **Item Management:** 'DEPOSIT ITEM' & 'TOSS ITEM' (from PC & PACK) are bugged. 'FLY' HM is bugged. Using one item from a stack does not free an inventory slot.
@@ -49,7 +49,6 @@
 *   **Mahogany Gym Blocker:** The Fisher did NOT move after the Lake of Rage event. Hypothesis that Lance's presence was the trigger is false.
 *   **Secret Potion Location:** The hint for Cianwood City was incorrect; the Pharmacist runs a regular shop.
 *   **Team Rocket B2F Southern Corridor:** The ROCKET at (21, 14) has non-progressive dialogue, confirming this path is a dead end.
-*   **Pathfinder v2 Destination Tile Bug:** Once I reach the eastern shore, I will attempt to walk onto the tile at (42, 8) from an adjacent land tile like (42, 9) or (43, 8). If I can step on it, the hypothesis is false, and the bug is purely within the pathfinder's logic. If I cannot, the tile is indeed special.
 
 ### C. Passwords & Keys
 *   **Team Rocket Hideout (Boss's Room):** SLOWPOKETAIL (Confirmed), HAIL GIOVANNI (Confirmed), RATICATE TAIL (Unconfirmed).
@@ -103,23 +102,12 @@
 
 ### A. Agent Ideas
 *   **Party vs. Gym Leader Analyst:** An agent that takes my current party and a gym leader's known Pokémon and suggests the optimal lead and battle strategy.
-
-### B. Untested Assumptions & Falsification Tests
-*   **Mahogany Town Shop:**
-    *   **Assumption:** There is a Poké Mart or vendor in Mahogany Town.
-    *   **Alternative Hypothesis:** There is no shop. The game might require traveling to another town to manage inventory.
-    *   **Test:** If talking to all NPCs in the Poké Center yields no shop, I will fly to another city to sell items.
-*   **Mahogany Gym Blocker:**
-    *   **Assumption:** Defeating Team Rocket in their hideout will make the Fisher blocking the gym move.
-    *   **Alternative Hypothesis:** The Fisher's movement is tied to a different, unknown story event.
-    *   **Test:** After clearing the hideout, immediately check the gym entrance. If the Fisher is still there, the assumption is false.
-### E. Tile Testing Protocol
-*   **New Tile Discovery:** When a new, unknown tile type is encountered, I must systematically test its properties. This includes attempting to walk on it from all four directions and documenting whether it's traversable, a one-way path, or requires a specific item or action to pass.
+*   **Multi-Map Travel Planner:** An agent that takes a high-level destination (e.g., 'Mr. Pokémon's House') and generates a step-by-step route across multiple maps, accounting for known warps and obstacles.
 
 ### B. Untested Assumptions & Falsification Tests
 *   **HEADBUTT_TREE Traversal:**
     *   **Assumption:** Impassable.
     *   **Test:** Attempt to walk into it from all four directions.
 
-### C. Agent Ideas
-*   **Multi-Map Travel Planner:** An agent that takes a high-level destination (e.g., 'Mr. Pokémon's House') and generates a step-by-step route across multiple maps, accounting for known warps and obstacles.
+### C. Tile Testing Protocol
+*   **New Tile Discovery:** When a new, unknown tile type is encountered, I must systematically test its properties. This includes attempting to walk on it from all four directions and documenting whether it's traversable, a one-way path, or requires a specific item or action to pass.
