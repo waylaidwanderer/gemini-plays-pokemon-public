@@ -23,7 +23,19 @@
 *   **Verified Warps:** DOOR, CAVE, LADDER, WARP_CARPET_DOWN/LEFT/RIGHT, WARP_PANEL.
 *   **HM Required:** BOULDER (STRENGTH), ROCK_SMASH_BOULDER (ROCK SMASH), WHIRLPOOL.
 *   **One-Way:** PIT (fall), LEDGE_HOP_RIGHT/LEFT/DOWN, FLOOR_UP_WALL (one-way 'up' ledge).
-*   **Untested:** RADIO (Test by walking into), INCENSE_BURNER (Test by walking into), unknown (TeamRocketBaseB2F), unknown (LakeOfRage), COMPUTER, BED, CABINET, SINK, PLANT, unknown (MountMortarB1F), unknown (Route43), unknown (TeamRocketBaseB1F).
+*   **Untested:** RADIO, INCENSE_BURNER, COMPUTER, BED, CABINET, SINK, PLANT, and any tile type with `unknown` in its name. My protocol is to test these by attempting to walk into them from all four directions when first encountered.
+
+## VI. Automation & Tool Development
+
+### A. Tool Refinement Log & Status
+*   **Pathfinder v3 Tool (Active):** Critical bug fixed where it failed to calculate paths to impassable destinations. Tool is now fully operational.
+*   **Manual Path Planner Tool (Deleted):** Became redundant after `pathfinder_v3` was fixed.
+
+### B. Agent Development Log & Status
+*   **Tool Debugger Agent v2 (Active):** A specialized agent created to diagnose and fix pathfinding scripts. Successfully identified and helped correct bugs in `pathfinder_v3`.
+
+### C. Future Tool Ideas
+*   **Pitfall Maze Solver:** A tool that takes a list of known safe tiles and pitfall locations (start and end coordinates) and systematically guides exploration of the remaining unknown tiles to fully map the maze.
 
 ### B. System Bugs & Glitches (Verified)
 *   **Item Management:** 'DEPOSIT ITEM' & 'TOSS ITEM' (from PC & PACK) are bugged. 'FLY' HM is bugged. Using one item from a stack does not free an inventory slot.
