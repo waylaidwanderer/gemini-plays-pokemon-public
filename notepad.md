@@ -5,7 +5,6 @@
 *   **Camper Todd:** Wants a rematch on Route 34.
 
 # Current Hypotheses & Investigations
-*   **Route 29 Navigation:** My Fly was glitched, dropping me on the southern path of Route 29. My current hypothesis is that this entire southern section is a one-way path forcing eastward travel towards New Bark Town due to numerous ledges. All attempts to find a path west back to Cherrygrove have failed. The current plan is to complete the long detour through New Bark Town.
 *   **`bfs_pathfinder` Tool Bug:** The tool has repeatedly failed, generating invalid paths that ignore one-way ledges.
     *   **Hypothesis 1:** The `is_valid_move` function logic is still flawed, despite multiple attempts to fix it. It might be misinterpreting specific ledge interactions.
     *   **Hypothesis 2:** I might be providing incorrect start/end coordinates, causing the tool to fail. (Tested and corrected, but the tool still failed).
@@ -21,8 +20,11 @@
     *   `HEADBUTT_TREE`: Impassable barrier.
     *   `WALL`: Impassable barrier.
     *   `VOID`: Impassable barrier, represents out-of-bounds areas.
+    *   `BUOY`: Impassable barrier.
+    *   `CAVE`: A warp point to another map.
 *   **One-Way Traversal:**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from the tile above it.
+    *   `LEDGE_HOP_LEFT`: Can only be moved left from the tile to its right.
 *   `WATER`: Requires SURF to traverse.
 
 # Major Discoveries
