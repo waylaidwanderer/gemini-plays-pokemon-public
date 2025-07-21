@@ -31,6 +31,7 @@
 *   **Mahogany Town:** No shop exists. The mart is a Team Rocket front, and the Poké Center has no vendor. Travel to another city is required for inventory management.
 *   **Mahogany Town Story Lock:** FLY is disabled, forcing progression towards the Lake of Rage.
 *   **Mahogany Mart Secret Ladder:** The warp to the hideout is not triggered by interaction, but by stepping onto the ladder tile at (7, 3).
+*   **Team Rocket B1F Maze (Disguised Path):** The solution, hinted at by the ROCKET Grunt's dialogue ('Collect your courage and walk!'), is not a path through a wall, but a FLOOR tile at (3, 5) disguised to look like a wall. This creates a secret northern passage in the western maze area.
 
 ### B. Falsified Hypotheses & Dead Ends
 *   **Mahogany Gym Blocker:** The Fisher did NOT move after the Lake of Rage event. Hypothesis that Lance's presence was the trigger is false.
@@ -44,7 +45,6 @@
 ### C. Active Hypotheses & Tests
 *   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
 *   **Mt. Mortar Invisible Barrier:** **Hypothesis:** An invisible barrier blocks the northern one-way ledge on Mt. Mortar B1F. **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
-*   **Team Rocket B1F Maze (Disguised Path):** The solution, hinted at by the ROCKET Grunt's dialogue ('Collect your courage and walk!'), is not a path through a wall, but a FLOOR tile at (3, 5) disguised to look like a wall. This creates a secret northern passage in the western maze area.
 *   **Team Rocket B1F Arrow Tile Pitfall:** **Hypothesis:** Specific arrow tiles in the invisible maze act as pitfalls to the northern section of B2F. **Test:** Systematically step on every tile in the invisible maze area, starting from the entrance.
 
 ## III. Battle Intel
@@ -64,6 +64,4 @@
 ## IV. Automation & Tool Development
 
 ### A. Agent Ideas
-
-### B. Tool Refinement Ideas
-*   **`maze_mapper` v2:** Refine the tool to persist its own state of visited coordinates, so I don't have to manually pass the list each time. This would streamline the exploration process significantly.
+*   **Hypothesis Generator:** An agent that takes a falsified hypothesis, the reason for falsification, and key environmental clues (like NPC dialogue) to suggest a new, logical, and testable hypothesis. This could help prevent getting stuck in a problem-solving loop.
