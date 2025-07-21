@@ -1,21 +1,6 @@
 # Gem's Pokémon Crystal Notepad
 
-## I. Game State & Objectives
-
-### A. Primary Questline
-*   **Team Rocket Hideout:** Find the boss and use the passwords to disrupt their radio signal operation. The entrance is a secret stairway in the Mahogany Mart.
-*   **Mahogany Town Gym:** Obtain the 6th Gym Badge.
-*   **RED SCALE Investigation:** Mr. Pokémon is the primary person of interest.
-
-### B. Active Side Quests & Rematches
-*   **Heal the Sick Miltank (Route 39):** Needs 'lots of BERRIES'.
-*   **Rematch List:** Picnicker Liz (Route 32), Youngster Joey (Route 30), Camper Todd (Route 34).
-
-### C. Known Blockers & Story Gates
-*   **Mahogany Town Gym:** A Fisher blocks the entrance at (6, 14).
-*   **Schoolboy Alan (Route 36):** In a dialogue loop, likely a story-gated event.
-
-## II. Game Mechanics
+## I. Game Mechanics & Systems
 
 ### A. Tile Traversal Rules
 *   **Verified Impassable:** WALL, COUNTER, MART_SHELF, PC, HEADBUTT_TREE, CUT_TREE (uncut), TV, TOWN_MAP, WINDOW, ROCK, BUOY, VOID, RADIO, INCENSE_BURNER, BOOKSHELF.
@@ -33,7 +18,7 @@
 *   **Status Heal:** Cannot be used on a Pokémon not afflicted with that status.
 *   **HP Restore:** Can be used on any damaged Pokémon, but not one at full HP.
 
-## III. World Knowledge
+## II. World Knowledge & Puzzles
 
 ### A. Solved Puzzles & Key Discoveries
 *   **Red Gyarados Event (Lake of Rage):** Defeated the red Gyarados and obtained the RED SCALE.
@@ -53,8 +38,18 @@
 *   **Team Rocket B2F Southern Corridor:** The ROCKET at (21, 14) has non-progressive dialogue, confirming this path is a dead end.
 *   **Team Rocket B1F Eastern Corridor:** The secret passage at (10, 9) and the entire eastern corridor lead to a dead-end loop.
 *   **Team Rocket B1F Switch Function:** The switch at (19, 11) is not a toggle for the invisible maze. Interacting with the ROCKET at (2, 4) produces the same result regardless of the switch's on/off state.
+*   **Team Rocket B1F Maze (Simple Pitfall):** Systematically exploring every floor tile in the western maze area revealed no pitfalls or warps other than the known dead-end ladder. Hypothesis that a simple pitfall was the solution is false.
 
-## IV. Battle Intel
+### C. Active Hypotheses & Tests
+*   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
+*   **Mt. Mortar Invisible Barrier:** **Hypothesis:** An invisible barrier blocks the northern one-way ledge on Mt. Mortar B1F. **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
+*   **Team Rocket B1F Progression (NEW HYPOTHESIS):**
+    *   **Agent `strategy_advisor` Recommendation:** My previous hypotheses (simple pitfall, switch-based change) were falsified after exhaustive testing. The agent advised that the ROCKET Grunt's dialogue ('collect your courage and walk') implies the 'traps' are not confined to the western maze but could be anywhere on the floor.
+    *   **New Hypothesis:** The path forward is triggered by stepping on a specific 'trap' tile located in the central or eastern corridors of B1F.
+    *   **Methodology:** Systematically explore every floor tile in the central and eastern corridors, starting from the central area entrance at (7, 3), using the `maze_mapper` tool to ensure complete coverage.
+    *   **Alternative Hypothesis:** The solution requires a two-step process: flipping the switch at (19, 11) to a specific state ('on' or 'off') AND THEN stepping on a specific floor tile elsewhere.
+
+## III. Battle Intel
 
 ### A. Type Effectiveness Chart (Verified)
 *   Water (Surf) vs. Water/Flying (Gyarados) -> Not Very Effective
@@ -68,28 +63,10 @@
 *   **Jasmine:** MAGNEMITE (Thunderbolt, Thunder Wave, Supersonic), STEELIX (Iron Tail, Screech, Rock Throw)
 *   **Chuck:** PRIMEAPE (Leer, Rage, Karate Chop), POLIWRATH (Hypnosis, Mind Reader, Dynamicpunch)
 
-## V. Automation & Tool Development
+## IV. Automation & Tool Development
 
-### A. Tool Refinement Log & Status
-*   **Pathfinder v3 Tool (Active):** Critical coordinate system bug fixed on turn 60614. Tool is now fully operational.
+### A. Agent Ideas
+*   **Visited Coordinates Manager:** An agent to automatically manage and update the `visited_coords` list for the `maze_mapper` tool based on player movement history, reducing manual input and potential for error.
 
-### B. Agent Development Log & Status
-*   **Tool Debugger Agent v2 (Active):** A specialized agent created to diagnose and fix pathfinding scripts. Successfully identified and helped correct bugs in `pathfinder_v3`.
-*   **Inventory Solver Agent (Active):** Created to provide step-by-step plans to free up inventory slots, accounting for known bugs.
-*   **Strategy Advisor (Active):** Consolidated strategic advisor that provides high-level planning.
-
-### C. Agent Ideas
-
-### D. Open Hypotheses & Tests
-*   **Mahogany Gym Blocker:** **Hypothesis:** Progress is gated by defeating Team Rocket in their hideout.
-*   **Mt. Mortar Invisible Barrier:** **Hypothesis:** An invisible barrier blocks the northern one-way ledge on Mt. Mortar B1F. **Falsification Test:** Find an alternate route to the northern area and attempt to walk south over the same ledge.
-*   **Team Rocket B1F Maze Progression (NEW HYPOTHESIS):**
-    *   **Agent `strategy_advisor` Recommendation:** My previous hypotheses (simple pitfall, switch-based change) were falsified after exhaustive testing. The agent advised that the ROCKET Grunt's dialogue ('collect your courage and walk') implies the 'traps' are not confined to the western maze but could be anywhere on the floor.
-    *   **New Hypothesis:** The path forward is triggered by stepping on a specific 'trap' tile located in the central or eastern corridors of B1F.
-    *   **Methodology:** Systematically explore every floor tile in the central and eastern corridors, starting from the central area entrance at (7, 3), using the `maze_mapper` tool to ensure complete coverage.
-
-### E. Untested Assumptions & Falsification Tests
-*   **BOOKSHELF Tile Traversal:** **Assumption:** Impassable. **Test:** Navigate to (20, 10) and attempt to walk into the bookshelf at (20, 11) and (21, 11) from all four cardinal directions.
-
-### F. Tile Testing Protocol
-*   **New Tile Discovery:** When a new, unknown tile type is encountered, I must systematically test its properties. This includes attempting to walk on it from all four directions and documenting whether it's traversable, a one-way path, or requires a specific item or action to pass.
+### B. Tool Refinement Ideas
+*   **`maze_mapper` v2:** Refine the tool to persist its own state of visited coordinates, so I don't have to manually pass the list each time. This would streamline the exploration process significantly.
