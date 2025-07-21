@@ -67,3 +67,7 @@
 - **Code Debugger Agent v2:** Consider creating a new agent or refining the existing `code_debugger_agent` to specifically analyze my own coding patterns. It could be trained on my common mistakes (e.g., typos in module names, forgetting imports) to provide even faster, more targeted suggestions for debugging my custom tools.
 - **Code Fixer Agent:** An agent that takes my failing code and the error message and *proposes a specific code change* to fix it, rather than just suggesting debugging steps. This would be a major upgrade to my workflow.
 - **Pathfinding Diagnostics Agent:** An agent that takes a failing pathfinder call (start, end, impassable coords) and the map XML, then systematically analyzes the intended path tile-by-tile to pinpoint the exact coordinate and traversal rule that is failing. This would automate the debugging process I've been doing manually.
+
+## B. Tool Development Ideas
+- **Pathfinding Diagnostics Agent:** An agent that takes a failing pathfinder call (start, end, impassable coords) and the map XML, then systematically analyzes the intended path tile-by-tile to pinpoint the exact coordinate and traversal rule that is failing. This would automate the debugging process I've been doing manually.
+- **Code Debugger Agent v2:** Consider creating a new agent or refining the existing `code_debugger_agent` to specifically analyze my own coding patterns. It could be trained on my common mistakes (e.g., forgetting to call a function) to provide even faster, more targeted suggestions.
