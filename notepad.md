@@ -40,7 +40,7 @@
 *   **Special Interaction:**
     *   `FRUIT_TREE`: Can be interacted with by facing it and pressing 'A' to receive a BERRY.
 *   **One-Way Traversal:**
-    *   `LEDGE_HOP_DOWN`: Can only be moved down from.
+    *   `LEDGE_HOP_DOWN`: This tile is one-way. It can only be entered by moving down from the tile above. Attempting to move up onto it from below is impossible.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
     *   `FLOOR_UP_WALL`: Can only be entered by moving up from the tile below.
     *   `LEDGE_HOP_RIGHT`: This tile is one-way. It can only be entered by moving right from the tile to its left. Attempting to move left onto it from the right is impossible.
