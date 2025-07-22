@@ -97,6 +97,5 @@
 - **Giovanni Prep:** Before the next attempt against Giovanni, I will use the `team_composition_advisor_agent` to verify my team is optimal.
 
 # VII. Future Agent & Tool Ideas
-
 - **Tool Diagnostician Agent:** An agent that takes a tool's name and error message as input. It would hypothesize the cause of the error and suggest a debugging plan, such as creating a minimal diagnostic tool. This would formalize and potentially speed up my debugging process.
 - **Self-Reflection Agent:** An agent to streamline the mandatory reflection process by taking the questions and recent turn history as input to generate a preliminary analysis.
