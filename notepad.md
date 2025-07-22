@@ -62,20 +62,16 @@
 - **Corrective Action:** All tool refinement and critical data correction must be my immediate, highest-priority action, never a deferred goal. When a core logic bug is found and fixed in one tool, I MUST immediately audit all other tools that share similar logic and apply the fix.
 - **Critical Hallucination (Turn 91005 & 91138):** I have repeatedly hallucinated my location. I must ground my actions in the provided game state, not my assumptions.
 
-# IV. Ideas & Future Plans
+# IV. Active Development Goals
 
-## A. Agent Development Ideas
-- **Grind Session Manager Agent:** An agent that takes my party data and goals and recommends which Pokémon to lead with and what level to aim for before the next major battle.
-- **Code Debugger Agent v2:** An agent that analyzes my own common coding errors (e.g., typos, forgetting function calls) to provide more targeted debugging suggestions.
-- **Code Fixer Agent:** An agent that takes failing code and an error message, then proposes a specific, corrected code snippet.
-- **Long-Term Battle Planner:** An agent that can help strategize for multi-stage fights or entire gyms, going beyond the turn-by-turn advice of the current `battle_strategist_agent`.
-- **Training Plan Advisor:** An agent that takes my full party roster and a target level, then suggests an optimal training order and potentially specific wild Pokémon to target for efficient leveling.
+## A. Agent Development
+- **Advanced Battle Planner:** An agent to help strategize for multi-stage fights (like Gyms), combining team composition, move planning, and long-term resource management. This would evolve from the current `battle_strategist_agent`.
+- **Training & Grind Manager:** An agent that takes my full party roster, a target level, and potential locations, then suggests an optimal training order and party lead to maximize efficiency.
+- **Advanced Code Debugger:** A single, powerful agent that can analyze failing code, error messages, and my common mistake patterns to provide both diagnostic steps and specific code correction suggestions. (Consolidates previous 'Debugger v2' and 'Fixer' ideas).
 
-## B. Tool Development Ideas
-- **Mansion Puzzle Solver Tool:** A computational tool that can analyze the mansion's XML, identify switches and gates, and suggest an optimal sequence of actions to navigate the puzzles.
-- **Gate Puzzle Simulator Tool:** A tool to simulate the effects of a switch flip based on a hypothesized rule set, allowing for faster testing of puzzle logic.
-- **Pathfinding Diagnostics Tool:** A tool that takes a failing pathfinder call (start, end, impassable coords) and the map XML, then systematically analyzes the intended path tile-by-tile to pinpoint the exact coordinate and traversal rule that is failing.
-- **Inventory Management Tool:** A tool that can categorize items, identify redundancies, and suggest items to store or sell to free up space.
+## B. Tool Development
+- **Pathfinding Diagnostics Tool:** A computational tool to analyze a failing `pathfinder` call by dissecting the map XML and pathing logic to pinpoint the exact point of failure.
+- **Inventory Management Tool:** A tool to categorize items, identify redundancies, and suggest items to store or sell, helping manage the limited bag space.
 
 # V. Agent & Tool Refinement Log
 
