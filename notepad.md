@@ -75,3 +75,8 @@
     *   **Alternative Hypothesis:** Toggling the secret switch at (19, 11) a second time might open a new, previously unseen path, bypassing the maze entirely.
     *   **Test:** Return to the switch and interact with it again. Observe if any environmental changes occur on the map.
     *   **Status:** Untested.
+
+## Item Collection Mechanics
+*   **Hypothesis:** Reloading a map will cause items previously missed due to a full inventory to reappear.
+    *   **Test:** Attempted to pick up the FULL HEAL at (28, 9) on TeamRocketBaseB3F. Failed. Left the map and immediately returned. Attempted to pick up the item again.
+    *   **Conclusion:** Failed. The item did not reappear. Items missed due to a full bag are likely permanently lost.
