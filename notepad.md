@@ -1,6 +1,6 @@
 # Game Objectives
 *   **Primary:** Investigate the mysterious radio broadcast.
-*   **Secondary:** Travel to Blackthorn City and challenge the Gym Leader.
+*   **Secondary:** Explore Dark Cave to find a new path.
 *   **Tertiary:** Train my lower-level Pokémon.
 
 # Core Lessons
@@ -22,9 +22,6 @@
 *   **Hypothesis: `HEADBUTT_TREE` can be interacted with using the move Headbutt.**
     *   **Test:** Stand next to a `HEADBUTT_TREE` and use Headbutt from the party menu.
     *   **Status:** Untested.
-*   **`LEDGE_HOP_RIGHT` Investigation:**
-    *   **Conclusion:** This tile is one-way. It can only be entered by moving right from the tile to its left. Attempting to move left onto it from the right is impossible.
-    *   **Verified Test:** Movement blocked when attempting to move from (14, 6) to (13, 6).
 
 ### Verified Tile Mechanics
 *   **Traversable:**
@@ -46,6 +43,7 @@
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
     *   `FLOOR_UP_WALL`: Can only be entered by moving up from the tile below.
+    *   `LEDGE_HOP_RIGHT`: This tile is one-way. It can only be entered by moving right from the tile to its left. Attempting to move left onto it from the right is impossible.
 *   **`WARP_CARPET_LEFT` Investigation:**
     *   **Conclusion:** All attempts to use this tile as an *entrance* have failed. It is highly likely a one-way *exit* from the connected area.
     *   **Failed Tests:**
