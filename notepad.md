@@ -71,3 +71,8 @@
 # V. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
 - **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored.
+
+# VI. Future Strategy & Planning
+
+- **Training Efficiency:** If training on Route 21 becomes inefficient, I will test other high-level areas like Route 23 or Cinnabar Volcano to compare EXP gain.
+- **Giovanni Prep:** Before the next attempt against Giovanni, I will use the `team_composition_advisor_agent` to verify my team is optimal.
