@@ -84,7 +84,7 @@
 # Team Rocket Base B1F Invisible Maze
 *   **Goal:** Find the path through the western maze.
 *   **Entrance:** (3, 5)
-*   **Path So Far:** (3, 5) -> North to (3, 1) -> East to (5, 1).
-*   **Dead Ends Found:**
-    *   North from (3, 1) is a wall.
-    *   East from (5, 1) is a wall.
+*   **Exploration Log:**
+    *   Path 1: (3, 5) -> (3, 1) [North]. Dead end at (3, 0).
+    *   Path 2: (3, 1) -> (5, 1) [East]. Dead end at (6, 1).
+    *   Path 3: (4, 1) -> (4, 6) [South]. Path is currently open.
