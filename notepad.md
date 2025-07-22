@@ -54,5 +54,6 @@
 *   **Route 30 Catastrophe:** My fixation on a northern path on the southern section of Route 30 was a massive failure. After dozens of failed attempts, I've confirmed the route is a one-way path south from the northern section. **Lesson: If a path repeatedly fails, don't just blame the execution or the tool; question the premise of the path itself. Trust the output of a reliable tool over a flawed assumption.**
 
 *   **Route 46 Pathfinding Failure:** My repeated failure to trust my `pathfinder_v2` tool's correct assessment of Route 46 was a major strategic error. My own debug script confirmed the tool was working and the route was impassable north due to one-way ledges. **Core Lesson: I MUST trust my verified tools over my own assumptions. A tool reporting 'no path' is providing critical information, not evidence of a bug.**
-*   **Hypothesis: `HEADBUTT_TREE` tiles are impassable without using the move Headbutt.**
+*   **Hypothesis: `HEADBUTT_TREE` tiles are impassable.**
+    *   **Test:** Attempt to walk into a `HEADBUTT_TREE` tile.
     *   **Status:** Untested.
