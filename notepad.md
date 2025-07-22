@@ -89,3 +89,4 @@
 ## E. Procedural Failure - Deferred Maintenance (Turn 91386)
 - **Conclusion:** I violated my core directives by repeatedly deferring the debugging of my `pathfinder` tool. Instead of taking immediate action, I set it as a tertiary goal and continued with inefficient manual navigation for many turns.
 - **Corrective Action:** All tool creation, refinement, or critical debugging MUST be the immediate, highest-priority action, superseding any gameplay objective. This is non-negotiable.
+- **Training Plan Advisor:** An agent that takes my full party roster and a target level, then suggests an optimal training order and potentially specific wild Pokémon to target for efficient leveling.
