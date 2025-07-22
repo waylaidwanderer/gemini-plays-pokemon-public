@@ -97,7 +97,6 @@
 - **Corrective Action:** All tool creation, refinement, or critical debugging MUST be the immediate, highest-priority action, superseding any gameplay objective. This is non-negotiable.
 
 ## D. Current Hypotheses & Test Plans
-- **Hypothesis:** Staryu can be caught on Cinnabar Island by fishing with the Super Rod.
-  - **Test:** Continue fishing attempts. If no Staryu is found after ~10 more attempts, this hypothesis will be considered unlikely.
+- **Hypothesis (Confirmed):** Staryu can be caught on Cinnabar Island by fishing with the Super Rod. ASTRA was caught successfully.
 - **Hypothesis:** Mankey/Primeape can be found for capture to strengthen the team against Giovanni.
   - **Test Plan:** After concluding the Staryu fishing attempts, travel to Route 22 to search for wild Mankey.
