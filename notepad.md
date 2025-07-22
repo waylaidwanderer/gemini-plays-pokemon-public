@@ -102,3 +102,4 @@
 - **Reachable Shoreline Finder:** A tool that analyzes the `map_xml_string` to identify all reachable water-adjacent tiles from the player's current position. This would streamline finding spots to start surfing.
 - **Procedural Flaw - Tool Maintenance (Turn 93508):** I have a critical flaw in my tool maintenance process. After fixing a fundamental logic error in one tool (elevation handling in `robust_pathfinder`), I failed to proactively audit my other tools (`boulder_puzzle_solver`) for the same bug. This led to a predictable failure. 
 - **Corrective Action:** When a core logic bug is found and fixed in one tool, I MUST immediately audit all other tools that share similar logic and apply the fix.
+- **Training Route Planner Agent:** An agent that takes my party's levels and a route's trainer data as input. It would suggest an optimal order to fight the trainers and which Pokémon to lead with for each battle to maximize EXP gain for specific party members.
