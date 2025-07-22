@@ -32,6 +32,7 @@
     *   Conclusion: Confirmed impassable from the right side (east). Hypothesis: This is a one-way ledge allowing travel from left to right (west to east).
 *   **LEDGE_HOP_DOWN:**
     *   Untested. Hypothesis: Allows downward travel over the ledge.
+*   **WARP_CARPET_DOWN:** Requires pressing 'Down' while standing on the tile to activate.
 
 ## Progress Tracking & Corrections
 * **Failed Hypothesis:** The Cooltrainer at (50, 12) is not a required battle and does not block progress. His dialogue is generic.
@@ -47,10 +48,3 @@
 *   **PC:** Untested.
 *   **TV:** Untested.
 *   **WINDOW:** Untested.
-*   **WARP_CARPET_DOWN:** Untested.
-*   **WARP_CARPET_DOWN:**
-    *   Test 1: Stepped on tile (2, 7) in ElmsHouse. Result: No warp.
-    *   Test 2: Pressed 'A' on tile (2, 7). Result: No warp.
-    *   Test 3: Stepped on tile (3, 7). Result: No warp.
-    *   Test 4: Pressed 'Down' on tile (3, 7). Result: Warped to NewBarkTown.
-    *   Conclusion: Requires pressing 'Down' to activate.
