@@ -66,3 +66,9 @@
 
 # Corrections
 *   **Verified:** Tile (31, 26) in Violet City is a standard `FLOOR` tile. My previous belief of it being a 'glitched warp' was a hallucination.
+*   **Hypothesis 3:** Reading the Bug-Catching Contest sign is required.
+    *   **Test:** Interacted with the sign at (6, 0).
+    *   **Conclusion:** Failed. Provided only informational text.
+*   **Hypothesis 4:** The Officer must be interacted with from a different position (not across the counter).
+    *   **Test:** Plot a path around the counter to (2, 2) and interact with the Officer.
+    *   **Status:** Untested.
