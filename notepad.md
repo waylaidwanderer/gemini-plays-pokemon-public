@@ -9,7 +9,6 @@
 *   **Tertiary:** Earn the Glacier Badge from Pryce in Mahogany Town.
 
 # Development Pipeline
-*   **Pathfinding Tool:** My `pathfinder_v2` tool has been debugged and verified. It correctly handles impassable terrain and one-way ledges.
 
 # Tile Mechanics Testing
 *This section tracks experiments to understand how different tiles work.*
