@@ -52,3 +52,4 @@
     * WINDOW: Impassable.
     * TALL_GRASS: Traversable, wild Pokémon may appear.
     * HEADBUTT_TREE: Impassable for now. Might require a special move.
+    * LEDGE_HOP_RIGHT: Appears to be a one-way ledge. Can likely be jumped down from the left, but not climbed up from the right.
