@@ -42,3 +42,9 @@
 ### Untested Mechanics:
 *   **HEADBUTT_TREE:** Requires full directional testing.
 *   **LEDGE_HOP_DOWN:** Requires full directional testing.
+*   **STAIRS:** Untested.
+*   **BOOKSHELF:** Untested.
+*   **PC:** Untested.
+*   **TV:** Untested.
+*   **WINDOW:** Untested.
+*   **WARP_CARPET_DOWN:** Untested.
