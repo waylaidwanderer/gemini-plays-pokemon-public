@@ -4,9 +4,9 @@
 *   **Be Flexible:** Fixating on a single path or strategy in the face of repeated failure is inefficient. I must be quicker to abandon a failed hypothesis and explore alternatives.
 
 # Game Objectives
-*   **Primary:** Investigate the red Gyarados at the Lake of Rage.
-*   **Secondary:** Defeat Team Rocket in the Mahogany Town hideout.
-*   **Tertiary:** Earn the Glacier Badge from Pryce in Mahogany Town.
+*   **Primary:** Investigate the mysterious radio broadcast.
+*   **Secondary:** Travel to Blackthorn City and challenge the Gym Leader.
+*   **Tertiary:** Train my lower-level Pokémon.
 
 # Development Pipeline
 
