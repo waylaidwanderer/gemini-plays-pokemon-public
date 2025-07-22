@@ -41,3 +41,5 @@
     * BOOKSHELF: Impassable.
     * TOWN_MAP: Impassable.
     * TV: Impassable.
+    * DOOR: Warp point.
+    * WATER: Impassable without Surf.
