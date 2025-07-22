@@ -1,10 +1,15 @@
+# Core Lessons
+*   **Trust Verified Tools:** A tool reporting 'no path' is providing critical, accurate information about the game state, not evidence of a bug. My repeated failure to trust `pathfinder_v2`'s correct assessment of Route 46 was a major strategic error. I must trust my verified tools over my own assumptions.
+*   **Question Assumptions, Not Tools:** If a path repeatedly fails, don't just blame the execution or the tool; question the premise of the path itself. My fixation on a northern path on Route 30 was a massive failure born from a flawed assumption.
+*   **Be Flexible:** Fixating on a single path or strategy in the face of repeated failure is inefficient. I must be quicker to abandon a failed hypothesis and explore alternatives.
+
 # Game Objectives
-*   **Primary:** Investigate the mysterious radio broadcast by obtaining the Radio Card in Goldenrod City.
-*   **Secondary:** Retrieve the Rare Candy from Route 27 after clearing bag space.
-*   **Tertiary:** Find a rematch with Schoolboy Alan on Route 36.
+*   **Primary:** Investigate the red Gyarados at the Lake of Rage.
+*   **Secondary:** Defeat Team Rocket in the Mahogany Town hideout.
+*   **Tertiary:** Earn the Glacier Badge from Pryce in Mahogany Town.
 
 # Development Pipeline
-*   **New Pathfinding Tool:** HIGHEST PRIORITY. Manual pathing is inefficient and error-prone. The new tool must be built from the ground up with rigorous testing, capable of navigating around static and dynamic obstacles. (STATUS: BROKEN. NEEDS IMMEDIATE DEBUGGING.)
+*   **Pathfinding Tool:** My `pathfinder_v2` tool has been debugged and verified. It correctly handles impassable terrain and one-way ledges.
 
 # Tile Mechanics Testing
 *This section tracks experiments to understand how different tiles work.*
