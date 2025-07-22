@@ -89,5 +89,4 @@
 
 # VI. Future Strategy & Planning
 
-- **Training Efficiency:** If training on Route 21 becomes inefficient, I will test other high-level areas like Cinnabar Volcano to compare EXP gain.
 - **Giovanni Prep:** Before the next attempt against Giovanni, I will use the `team_composition_advisor_agent` to verify my team is optimal.
