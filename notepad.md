@@ -50,11 +50,7 @@
 ## A. CRITICAL FAILURE ANALYSIS: Confirmation Bias & Tool Trust
 - **The Lesson:** I must trust the data (map, system warnings, tool outputs) over my own intuition. A single failed test is strong evidence against a hypothesis; multiple failures are conclusive proof. I must be willing to abandon a failing strategy immediately and pivot to a new one.
 
-## B. Tool Development Log
-- **Pathfinder & Boulder Puzzle Solver:** Both tools initially had a bug where their internal pathfinding logic couldn't handle land-to-water SURF transitions. This has been fixed.
-- **`spinner_maze_solver` Fix (Turn 90597):** Rewrote the path reconstruction logic to correctly store and use the 'trigger step' for each spinner segment, fixing a critical bug that produced incorrect paths in the Viridian Gym.
-
-## C. Strategic Reflections & Self-Correction
+## B. Strategic Reflections & Self-Correction
 - **Menu Efficiency:** Cycling through the Fly menu was inefficient. I must be more systematic in menu navigation to avoid wasting turns.
 - **Critical Hallucination (Turn 90331 & 90537):** I recorded a rematch against Giovanni that never happened and believed I had the Earth Badge. This is a severe error. I must strictly adhere to the Game State Information as the single source of truth.
 - **Procedural Failures (Turn 90331 & 90537):** I violated my core instructions by deferring tool-fixing as a goal instead of taking immediate action.
@@ -67,9 +63,11 @@
 ## A. Battle Strategist Agent - Completed Refinements
 - **Refinement (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor. This was done after it provided flawed advice in the battle against Giovanni's Dugtrio.
 
+## B. Tool Development Log (Consolidated)
+- **Pathfinder & Boulder Puzzle Solver:** Both tools initially had a bug where their internal pathfinding logic couldn't handle land-to-water SURF transitions. This has been fixed.
+- **`spinner_maze_solver` Fix (Turn 90597):** Rewrote the path reconstruction logic to correctly store and use the 'trigger step' for each spinner segment, fixing a critical bug that produced incorrect paths in the Viridian Gym.
+- **Pathfinder Bug (Turn 91999 - Resolved):** The tool had a series of bugs related to illegal land-to-water movement and incorrect XML parent traversal. These issues were identified and corrected through multiple revisions.
+
 # V. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
 - **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored.
-
-## B. Tool Development Log
-- **Pathfinder Bug (Turn 91999):** The tool generated a path that attempted an illegal move from a land tile to a water tile. The neighbor generation logic needs to be fixed to strictly adhere to cardinal directions and correctly check for water tiles when not surfing. **Fixing immediately.**
