@@ -24,7 +24,7 @@
     *   **Conclusion:** Failed. Provided only informational text.
 *   **Hypothesis 4:** The Officer must be interacted with from a different position (not across the counter).
     *   **Test:** Attempted to plot a path around the counter to (2, 2).
-    *   **Conclusion:** Failed. `path_plotter` confirmed no path exists behind the counter.
+    *   **Conclusion:** Failed. I could not find a path behind the counter.
 *   **Overall Conclusion:** The gatehouse is currently a dead end. The path to the National Park must be elsewhere.
 
 # Tile Mechanics Testing
