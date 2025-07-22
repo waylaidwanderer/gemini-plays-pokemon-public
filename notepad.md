@@ -72,3 +72,13 @@
 
 # Known Issues & Peculiarities
 *   **`stun_npc` Ineffectiveness:** The `stun_npc` tool is ineffective on Youngster (ID 2) on Route 31. The stun was either overridden by a script or is ineffective on this specific NPC. Avoid using `stun_npc` on him.
+
+### Additional Verified Tile Mechanics
+*   `BOOKSHELF`: Impassable.
+*   `WARP_PANEL`: Warp point, teleports player to another location on the same map.
+
+# Untested Assumptions & Alternative Hypotheses
+*   **Hypothesis: The only way forward is through the central maze.**
+    *   **Alternative Hypothesis:** Toggling the secret switch at (19, 11) a second time might open a new, previously unseen path, bypassing the maze entirely.
+    *   **Test:** Return to the switch and interact with it again. Observe if any environmental changes occur on the map.
+    *   **Status:** Untested.
