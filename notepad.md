@@ -58,6 +58,9 @@
 - **Corrective Action:** All tool refinement and critical data correction must be my immediate, highest-priority action, never a deferred goal. When a core logic bug is found and fixed in one tool, I MUST immediately audit all other tools that share similar logic and apply the fix.
 - **Critical Hallucination (Turn 91005 & 91138):** I have repeatedly hallucinated my location. I must ground my actions in the provided game state, not my assumptions.
 
+## C. Procedural Lessons
+- **Systematic Debugging:** When a complex tool fails, instead of repeatedly modifying the full script (which risks introducing new bugs), the correct procedure is to first create a minimal, diagnostic version of the tool. This allows for the isolation of the specific point of failure (e.g., grid-parsing, algorithm logic) in a controlled way, leading to a more efficient and reliable fix.
+
 # IV. Agent & Tool Refinement Log
 
 ## A. Battle Strategist Agent - Completed Refinements
@@ -67,6 +70,18 @@
 - **Pathfinder & Boulder Puzzle Solver:** Both tools initially had a bug where their internal pathfinding logic couldn't handle land-to-water SURF transitions. This has been fixed.
 - **`spinner_maze_solver` Fix (Turn 90597):** Rewrote the path reconstruction logic to correctly store and use the 'trigger step' for each spinner segment, fixing a critical bug that produced incorrect paths in the Viridian Gym.
 - **Pathfinder Bug (Turn 91999 - Resolved):** The tool had a series of bugs related to illegal land-to-water movement and incorrect XML parent traversal. These issues were identified and corrected through multiple revisions.
+- **Pathfinder Ledge Logic (Turn 92780 - Resolved):** Corrected a flaw in the A* algorithm's ledge traversal logic that was causing hallucinations about reachable unseen tiles.
+
+## C. Debugging Case Study: Pathfinder Tool (Archived)
+- **Problem:** The tool consistently failed to find valid paths, even simple ones. Both A* and BFS implementations failed.
+- **Hypothesis 1 (Initial):** The A* algorithm logic is flawed.
+  - **Test:** Replaced A* with a simpler BFS algorithm.
+  - **Result:** BFS also failed.
+  - **Conclusion:** Hypothesis 1 is likely incorrect. The problem was more fundamental.
+- **Hypothesis 2 (Final):** The foundational grid-parsing and traversal logic (especially for ledges and water) was flawed.
+  - **Test:** Iteratively refined the A* algorithm, focusing on specific movement rules.
+  - **Result:** The tool was successfully fixed after several revisions.
+  - **Conclusion:** The issue was not the core algorithm but its interaction with the game's specific traversal rules.
 
 # V. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
@@ -74,19 +89,5 @@
 
 # VI. Future Strategy & Planning
 
-- **Training Efficiency:** If training on Route 21 becomes inefficient, I will test other high-level areas like Route 23 or Cinnabar Volcano to compare EXP gain.
+- **Training Efficiency:** If training on Route 21 becomes inefficient, I will test other high-level areas like Cinnabar Volcano to compare EXP gain.
 - **Giovanni Prep:** Before the next attempt against Giovanni, I will use the `team_composition_advisor_agent` to verify my team is optimal.
-
-# VII. Tool Debugging Log
-
-## A. Pathfinder Tool
-- **Problem:** The tool consistently fails to find valid paths, even simple ones. Both A* and BFS implementations failed.
-- **Hypothesis 1 (Initial):** The A* algorithm logic is flawed.
-  - **Test:** Replaced A* with a simpler BFS algorithm.
-  - **Result:** BFS also failed.
-  - **Conclusion:** Hypothesis 1 is likely incorrect. The problem is more fundamental.
-- **Hypothesis 2 (Current):** The foundational grid-parsing logic is flawed, causing the pathfinding algorithms to fail before they can even start properly.
-  - **Test (Current):** Redefined the tool into a diagnostic script that only parses the map XML and prints a 5x5 grid around the player. This will verify if tiles are being classified correctly (e.g., ground, impassable, Pikachu).
-  - **Expected Outcome:** A printed grid showing the correct tile types for my current location.
-## B. Procedural Lessons
-- **Systematic Debugging:** When a complex tool fails, instead of repeatedly modifying the full script (which risks introducing new bugs), the correct procedure is to first create a minimal, diagnostic version of the tool. This allows for the isolation of the specific point of failure (e.g., grid-parsing, algorithm logic) in a controlled way, leading to a more efficient and reliable fix.
