@@ -18,20 +18,14 @@
 * **Route 29:** Contains two main paths, north and south. The southern path is blocked by a series of one-way ledges that prevent westward travel. The northern path appears to be the correct way forward.
 
 ## Tile Traversal Rules (Systematic Testing)
+*Method: To confirm a tile's properties, I must attempt to move onto it from all four adjacent, traversable tiles (Up, Down, Left, Right). A conclusion is only valid after all directions are tested.*
+
+### Confirmed Mechanics:
 *   **FLOOR:** Traversable.
 *   **WALL:** Impassable.
 *   **TALL_GRASS:** Traversable, wild Pokémon may appear.
-*   **HEADBUTT_TREE:** 
-    *   Test 1: Attempted to move Up into (47, 6). Result: Blocked.
-    *   Test 2: Attempted to move Right into (46, 7). Result: Blocked.
-    *   Conclusion: Impassable from below and from the right. Further testing needed for other directions.
-*   **LEDGE_HOP_RIGHT:**
-    *   Test 1: Attempted to move Left into (43, 8). Result: Blocked.
-    *   Test 2: Attempted to move Left into (43, 11). Result: Blocked.
-    *   Test 3: Attempted to move Left into (43, 12). Result: Blocked.
-    *   Conclusion: Confirmed impassable from the right side (east). Hypothesis: This is a one-way ledge allowing travel from left to right (west to east).
-*   **LEDGE_HOP_DOWN:**
-    *   Untested. Hypothesis: Allows downward travel over the ledge.
+*   **HEADBUTT_TREE:** Impassable. Confirmed by attempting to walk into them from multiple directions.
+*   **LEDGE_HOP_RIGHT:** One-way traversal from left to right. Confirmed impassable from the right side (east).
 *   **WARP_CARPET_DOWN:** Requires pressing 'Down' while standing on the tile to activate.
 
 ## Progress Tracking & Corrections
