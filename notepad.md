@@ -23,8 +23,8 @@
     *   **Test:** Stand next to a `HEADBUTT_TREE` and use Headbutt from the party menu.
     *   **Status:** Untested.
 *   **Hypothesis: `LEDGE_HOP_RIGHT` is one-way.**
-    *   **Test:** Attempt to move left onto a `LEDGE_HOP_RIGHT` tile from an adjacent `FLOOR` tile.
-    *   **Status:** Untested.
+    *   **Test:** Attempt to move left onto a `LEDGE_HOP_RIGHT` tile from an adjacent `FLOOR` tile. 
+    *   **Status:** Untested. Must test at next opportunity.
 
 ### Verified Tile Mechanics
 *   **Traversable:**
