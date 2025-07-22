@@ -50,3 +50,6 @@
 *   **Hypothesis: `WARP_CARPET_LEFT` requires facing up and pressing 'A' to activate.**
     *   **Test:** Move to (4,7), face up, and press 'A'.
     *   **Status:** Untested.
+*   **Hypothesis: `WARP_CARPET_LEFT` requires facing up and pressing 'A' to activate.**
+    *   **Test:** Moved to (4,6), faced up, and pressed 'A'.
+    *   **Status:** Failed. The warp did not activate.
