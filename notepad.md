@@ -24,6 +24,9 @@
 - **"No Will to Fight" Message (Correction):** Appears when the party menu cursor is on a fainted Pokémon.
 - **Level Cap:** The level cap with 7 badges is 55.
 
+## C. Area-Specific Discoveries
+- **Route 23 Earth Badge Check:** A guard at (5, 36) blocks the main path. Furthermore, an invisible trigger line along Y=36 prevents any northward movement in the western maze area, effectively blocking exploration until the Earth Badge is obtained.
+
 # II. Battle Intel
 
 ## A. Type Effectiveness Chart (Verified)
@@ -92,5 +95,3 @@
 # VI. Future Strategy & Planning
 
 - **Giovanni Prep:** Before the next attempt against Giovanni, I will use the `team_composition_advisor_agent` to verify my team is optimal.
-## D. Navigation Puzzles & Blockers
-- **Route 23 Earth Badge Check:** A guard at (5, 36) blocks the main path. Furthermore, an invisible trigger line along Y=36 prevents any northward movement in the western maze area, effectively blocking exploration until the Earth Badge is obtained.
