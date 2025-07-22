@@ -13,6 +13,15 @@
 # Game Mechanics & Systems
 *   **Inventory Management:** To free up an inventory slot, you must toss the *entire stack* of an item. Tossing a single item from a stack of multiple does not free up a slot.
 
+# Puzzles
+## National Park Gate Puzzle (Route 36)
+*   **Hypothesis 1:** The warp at (0, 4) is the entrance.
+    *   **Test:** Attempted to move left onto the warp tile.
+    *   **Conclusion:** Failed. This seems to be a one-way exit.
+*   **Hypothesis 2:** Talking to the Officer at (3, 2) opens the path.
+    *   **Test:** Spoke to the Officer.
+    *   **Conclusion:** Failed. He only provided flavor text.
+
 # Tool Development
 *   **path_plotter:** A BFS pathfinding tool. It has been refined to account for on-screen objects as impassable obstacles.
 
@@ -49,7 +58,7 @@
 *   `LEDGE_HOP_LEFT`: Can only be moved left from.
 *   `FLOOR_UP_WALL`: Can only be entered by moving up from the tile below.
 *   `LEDGE_HOP_RIGHT`: This tile is one-way. It can only be entered by moving right from the tile to its left. Attempting to move left onto it from the right is impossible.
-*   `WARP_CARPET_LEFT`: Confirmed one-way *exit*. Attempts to use as an entrance have failed.
+*   `WARP_CARPET_LEFT`: Confirmed one-way *exit* at Route36NationalParkGate (0, 4). Attempts to use as an entrance have failed.
 *   `WARP_CARPET_DOWN`: Confirmed one-way exit.
 
 # Known Issues & Peculiarities
