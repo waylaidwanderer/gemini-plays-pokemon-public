@@ -88,3 +88,5 @@
 - **Hypothesis 2 (Current):** The foundational grid-parsing logic is flawed, causing the pathfinding algorithms to fail before they can even start properly.
   - **Test (Current):** Redefined the tool into a diagnostic script that only parses the map XML and prints a 5x5 grid around the player. This will verify if tiles are being classified correctly (e.g., ground, impassable, Pikachu).
   - **Expected Outcome:** A printed grid showing the correct tile types for my current location.
+## B. Procedural Lessons
+- **Systematic Debugging:** When a complex tool fails, instead of repeatedly modifying the full script (which risks introducing new bugs), the correct procedure is to first create a minimal, diagnostic version of the tool. This allows for the isolation of the specific point of failure (e.g., grid-parsing, algorithm logic) in a controlled way, leading to a more efficient and reliable fix.
