@@ -22,9 +22,9 @@
 *   **Hypothesis: `HEADBUTT_TREE` can be interacted with using the move Headbutt.**
     *   **Test:** Stand next to a `HEADBUTT_TREE` and use Headbutt from the party menu.
     *   **Status:** Untested.
-*   **Hypothesis: `LEDGE_HOP_RIGHT` is one-way.**
-    *   **Test:** Attempt to move left onto a `LEDGE_HOP_RIGHT` tile from an adjacent `FLOOR` tile. 
-    *   **Status:** Untested. Must test at next opportunity.
+*   **`LEDGE_HOP_RIGHT` Investigation:**
+    *   **Conclusion:** This tile is one-way. It can only be entered by moving right from the tile to its left. Attempting to move left onto it from the right is impossible.
+    *   **Verified Test:** Movement blocked when attempting to move from (14, 6) to (13, 6).
 
 ### Verified Tile Mechanics
 *   **Traversable:**
