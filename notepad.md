@@ -98,3 +98,6 @@
 - **Giovanni Prep:** Before the next attempt against Giovanni, I will use the `team_composition_advisor_agent` to verify my team is optimal.
 - **Procedural Flaw - Tool Maintenance (Turn 93508):** I have a critical flaw in my tool maintenance process. After fixing a fundamental logic error in one tool (elevation handling in `robust_pathfinder`), I failed to proactively audit my other tools (`boulder_puzzle_solver`) for the same bug. This led to a predictable failure. 
 - **Corrective Action:** When a core logic bug is found and fixed in one tool, I MUST immediately audit all other tools that share similar logic and apply the fix.
+
+# VII. Open Questions & Strategic Pivots
+- **Route 21 Viability:** The wild encounters on Route 21 so far have been very low-level (Lv10-20). If, after systematically exploring the entire water area, no higher-level Pokémon are found, I must conclude this route is not a viable training location and pivot to exploring either the Pokémon Mansion or Seafoam Islands for grinding.
