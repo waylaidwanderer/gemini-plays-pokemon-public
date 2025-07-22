@@ -34,3 +34,10 @@
 ## Progress Tracking & Corrections
 * Misunderstandings & Corrections:
 * Failed Hypotheses:
+* Tile Traversal Rules:
+    * FLOOR: Traversable.
+    * WALL: Impassable.
+    * STAIRCASE: Warp point.
+    * BOOKSHELF: Impassable.
+    * TOWN_MAP: Impassable.
+    * TV: Impassable.
