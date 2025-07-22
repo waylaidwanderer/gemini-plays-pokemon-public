@@ -28,10 +28,9 @@
 *   **Overall Conclusion:** The gatehouse is currently a dead end. The path to the National Park must be elsewhere.
 
 ## Mahogany Town Navigation
-*   **Goal:** Find a way to progress the story.
-*   **Analysis:** The southern section of Mahogany Town is physically isolated from the northern section by a continuous line of one-way `LEDGE_HOP_DOWN` tiles at y=11. It is impossible to walk from the south to the north.
-*   **Unverified Paths:** The only remaining exit from Mahogany Town that has not been personally verified is the eastern path to Route 44.
-*   **Plan:** The next logical step is to attempt to walk to the eastern exit of town to confirm if it is a viable path forward.
+*   **Goal:** Investigate the mysterious radio broadcast in Mahogany Town.
+*   **Analysis:** My previous conclusion of being trapped in southern Mahogany Town was incorrect. My `path_navigator` tool successfully found a path to the northern section. The eastern path to Route 44 is now blocked by a POKEFAN_M NPC, indicating a story-based roadblock.
+*   **Plan:** The most logical step is to investigate other changes in town. A new 'Gramps' NPC has appeared at (7, 9). I will interact with him to see if he provides a clue to progress.
 
 # Tile Mechanics Testing
 *This section tracks experiments to understand how different tiles work.*

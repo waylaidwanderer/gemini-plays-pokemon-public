@@ -88,8 +88,27 @@
     "description": "A reliable pathfinding tool built incrementally. Finds a path from a start to an end coordinate, avoiding impassable tiles.",
     "input_schema": {
       "type": "object",
-      "properties": {}
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
     },
-    "python_script": "def path_navigator(input_data):\n    print(\"--- Path Navigator v0.1: Execution Confirmed ---\")"
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef path_navigator(start_x, start_y, end_x, end_y, map_xml):\n    try:\n        root = ET.fromstring(map_xml)\n    except ET.ParseError as e:\n        print(f\"Error parsing map XML: {e}\")\n        return\n\n    impassable_tiles = {'WALL', 'VOID', 'ROOF', 'TV', 'COUNTER', 'HEADBUTT_TREE', 'BUOY'}\n    one_way_tiles = {\n        'LEDGE_HOP_DOWN': (0, 1),\n        'LEDGE_HOP_LEFT': (-1, 0),\n        'LEDGE_HOP_RIGHT': (1, 0),\n        'FLOOR_UP_WALL': (0, -1)\n    }\n\n    grid = {}\n    objects = set()\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib.get('type')\n            grid[(x, y)] = tile_type\n            if tile.find('Object') is not None:\n                objects.add((x, y))\n\n    queue = deque([[(start_x, start_y)]])\n    visited = {(start_x, start_y)}\n\n    while queue:\n        path = queue.popleft()\n        x, y = path[-1]\n\n        if x == end_x and y == end_y:\n            moves = []\n            for i in range(len(path) - 1):\n                cx, cy = path[i]\n                nx, ny = path[i+1]\n                if nx == cx + 1: moves.append('Right')\n                elif nx == cx - 1: moves.append('Left')\n                elif ny == cy + 1: moves.append('Down')\n                elif ny == cy - 1: moves.append('Up')\n            print(','.join(moves))\n            return\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n\n            if (nx, ny) in visited or not (1 <= nx <= width and 1 <= ny <= height):\n                continue\n\n            current_tile_type = grid.get((x, y))\n            next_tile_type = grid.get((nx, ny))\n\n            # Logic for moving FROM a one-way tile\n            if current_tile_type in one_way_tiles:\n                allowed_dx, allowed_dy = one_way_tiles[current_tile_type]\n                if (dx, dy) != (allowed_dx, allowed_dy):\n                    continue\n            \n            # Logic for moving ONTO a one-way tile\n            if next_tile_type in one_way_tiles:\n                allowed_dx, allowed_dy = one_way_tiles[next_tile_type]\n                if (dx, dy) != (allowed_dx, allowed_dy):\n                     continue\n\n            if next_tile_type not in impassable_tiles and (nx, ny) not in objects:\n                new_path = list(path)\n                new_path.append((nx, ny))\n                queue.append(new_path)\n                visited.add((nx, ny))\n\n    print(\"No path found\")\n\npath_navigator(int(input_data['start_x']), int(input_data['start_y']), int(input_data['end_x']), int(input_data['end_y']), map_xml_string)"
   }
 }
