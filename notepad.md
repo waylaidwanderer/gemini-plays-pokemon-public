@@ -54,7 +54,7 @@
 # Strategic Plans
 *   **Route to Lake of Rage:**
     1.  Travel north from Cherrygrove City to Route 30.
-    2.  Head east through Route 31 to Violet City. (Currently on Route 31)
+    2.  Head east through Route 31 to Violet City.
     3.  Continue south through Route 32, Union Cave, and Route 33 to Azalea Town.
     4.  Pass through Ilex Forest to Route 34.
     5.  Travel north through Goldenrod City, Route 35, and the National Park to Route 36.
