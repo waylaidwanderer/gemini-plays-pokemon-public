@@ -44,3 +44,6 @@
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
     *   `LEDGE_HOP_RIGHT`: Can only be moved right from.
     *   `FLOOR_UP_WALL`: Can only be entered by moving up from the tile below.
+*   **Hypothesis: `WARP_CARPET_LEFT` must be entered by walking onto it from the right.**
+    *   **Test:** Move to the tile to the right of the warp carpet and then walk left onto it.
+    *   **Status:** Untested.
