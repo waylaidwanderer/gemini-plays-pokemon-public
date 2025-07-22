@@ -76,6 +76,7 @@
 - **`spinner_maze_solver` Fix (Turn 90597):** Rewrote the path reconstruction logic to correctly store and use the 'trigger step' for each spinner segment, fixing a critical bug that produced incorrect paths in the Viridian Gym.
 - **Pathfinder Bug (Turn 91999 - Resolved):** The tool had a series of bugs related to illegal land-to-water movement and incorrect XML parent traversal. These issues were identified and corrected through multiple revisions.
 - **Pathfinder Ledge Logic (Turn 92780 - Resolved):** Corrected a flaw in the A* algorithm's ledge traversal logic that was causing hallucinations about reachable unseen tiles.
+- **`reachable_shoreline_finder` (Turn 93692):** Created to systematically identify all valid tiles to initiate Surf from, successfully resolving inefficient trial-and-error attempts on Cinnabar Island.
 - **Proactive Auditing Mandate:** Following a critical failure analysis, it is now mandatory to proactively audit all custom tools for similar logic flaws immediately after a bug is discovered and fixed in any single tool. This prevents cascading, predictable failures.
 
 ## C. Debugging Case Study: Pathfinder Tool (Archived)
@@ -100,10 +101,6 @@
 # VII. Future Agent & Tool Ideas
 - **Tool Diagnostician Agent:** An agent that takes a tool's name and error message as input. It would hypothesize the cause of the error and suggest a debugging plan, such as creating a minimal diagnostic tool. This would formalize and potentially speed up my debugging process.
 - **Self-Reflection Agent:** An agent to streamline the mandatory reflection process by taking the questions and recent turn history as input to generate a preliminary analysis.
-- **Reachable Shoreline Finder:** A tool that analyzes the `map_xml_string` to identify all reachable water-adjacent tiles from the player's current position. This would streamline finding spots to start surfing.
 - **Procedural Flaw - Tool Maintenance (Turn 93508):** I have a critical flaw in my tool maintenance process. After fixing a fundamental logic error in one tool (elevation handling in `robust_pathfinder`), I failed to proactively audit my other tools (`boulder_puzzle_solver`) for the same bug. This led to a predictable failure. 
 - **Corrective Action:** When a core logic bug is found and fixed in one tool, I MUST immediately audit all other tools that share similar logic and apply the fix.
 - **Training Route Planner Agent:** An agent that takes my party's levels and a route's trainer data as input. It would suggest an optimal order to fight the trainers and which Pokémon to lead with for each battle to maximize EXP gain for specific party members.
-
-# VIII. Procedural Improvements & Future Development
-- **Tool Prioritization:** The `Reachable Shoreline Finder` tool should be prioritized for development to streamline finding spots to start surfing.
