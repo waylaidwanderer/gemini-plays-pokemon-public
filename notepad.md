@@ -22,6 +22,9 @@
 *   **Hypothesis: `HEADBUTT_TREE` can be interacted with using the move Headbutt.**
     *   **Test:** Stand next to a `HEADBUTT_TREE` and use Headbutt from the party menu.
     *   **Status:** Untested.
+*   **Hypothesis: `LEDGE_HOP_RIGHT` is one-way.**
+    *   **Test:** Attempt to move left onto a `LEDGE_HOP_RIGHT` tile from an adjacent `FLOOR` tile.
+    *   **Status:** Untested.
 
 ### Verified Tile Mechanics
 *   **Traversable:**
@@ -42,14 +45,10 @@
 *   **One-Way Traversal:**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
-    *   `LEDGE_HOP_RIGHT`: Can only be moved right from.
     *   `FLOOR_UP_WALL`: Can only be entered by moving up from the tile below.
-*   **Hypothesis: `WARP_CARPET_LEFT` must be entered by walking onto it from the right.**
-    *   **Test:** Moved to (5,7) and then left to (4,7).
-    *   **Status:** Failed. The warp did not activate.
-*   **Hypothesis: `WARP_CARPET_LEFT` requires facing up and pressing 'A' to activate.**
-    *   **Test:** Move to (4,7), face up, and press 'A'.
-    *   **Status:** Untested.
-*   **Hypothesis: `WARP_CARPET_LEFT` requires facing up and pressing 'A' to activate.**
-    *   **Test:** Moved to (4,6), faced up, and pressed 'A'.
-    *   **Status:** Failed. The warp did not activate.
+*   **`WARP_CARPET_LEFT` Investigation:**
+    *   **Conclusion:** All attempts to use this tile as an *entrance* have failed. It is highly likely a one-way *exit* from the connected area.
+    *   **Failed Tests:**
+        *   Walking onto the tile from the right.
+        *   Standing on the tile, facing up, and pressing 'A'.
+        *   Simply pressing 'A' on the tile.
