@@ -64,7 +64,7 @@
 ## C. Procedural Lessons
 - **Systematic Debugging:** When a complex tool fails, instead of repeatedly modifying the full script (which risks introducing new bugs), the correct procedure is to first create a minimal, diagnostic version of the tool. This allows for the isolation of the specific point of failure (e.g., grid-parsing, algorithm logic) in a controlled way, leading to a more efficient and reliable fix.
 - **Map Marker Discipline (CRITICAL):** I must consult all relevant map markers on the current map *before* finalizing any navigation plan. Ignoring my own data leads to wasted turns and strategic failure, as seen with the Route 23 guard.
-- **Proactive Testing:** I must be more proactive in testing tiles that appear impassable to confirm their status, rather than assuming. The results of these tests should be documented.
+- **Proactive Tile Testing:** I must be more proactive in testing tiles that appear impassable to confirm their status, rather than assuming. The results of these tests should be documented.
 
 # IV. Agent & Tool Refinement Log
 
@@ -76,6 +76,7 @@
 - **`spinner_maze_solver` Fix (Turn 90597):** Rewrote the path reconstruction logic to correctly store and use the 'trigger step' for each spinner segment, fixing a critical bug that produced incorrect paths in the Viridian Gym.
 - **Pathfinder Bug (Turn 91999 - Resolved):** The tool had a series of bugs related to illegal land-to-water movement and incorrect XML parent traversal. These issues were identified and corrected through multiple revisions.
 - **Pathfinder Ledge Logic (Turn 92780 - Resolved):** Corrected a flaw in the A* algorithm's ledge traversal logic that was causing hallucinations about reachable unseen tiles.
+- **Proactive Auditing Mandate:** Following a critical failure analysis, it is now mandatory to proactively audit all custom tools for similar logic flaws immediately after a bug is discovered and fixed in any single tool. This prevents cascading, predictable failures.
 
 ## C. Debugging Case Study: Pathfinder Tool (Archived)
 - **Problem:** The tool consistently failed to find valid paths, even simple ones. Both A* and BFS implementations failed.
@@ -105,5 +106,4 @@
 - **Training Route Planner Agent:** An agent that takes my party's levels and a route's trainer data as input. It would suggest an optimal order to fight the trainers and which Pokémon to lead with for each battle to maximize EXP gain for specific party members.
 
 # VIII. Procedural Improvements & Future Development
-- **Proactive Tile Testing:** I must be more proactive in testing tiles that appear impassable to confirm their status, rather than assuming. The results of these tests should be documented.
 - **Tool Prioritization:** The `Reachable Shoreline Finder` tool should be prioritized for development to streamline finding spots to start surfing.
