@@ -1,11 +1,11 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## Current Plan
-- Get the item ball on Route 29.
-- Find the correct path through Route 29 to reach Cherrygrove City.
-- Buy Poké Balls in Cherrygrove City.
-- Find Mr. Pokémon's house, which is past Cherrygrove.
-- Get the item from Mr. Pokémon and return to Professor Elm.
+1. Get the item ball at (48, 2) on Route 29.
+2. Find the correct path through Route 29 to reach Cherrygrove City.
+3. Buy Poké Balls in Cherrygrove City.
+4. Find Mr. Pokémon's house, which is past Cherrygrove.
+5. Get the item from Mr. Pokémon and return to Professor Elm.
 
 ## Game Mechanics & Systems
 * **Money & Economy:** Currently have ¥3000.
