@@ -95,3 +95,9 @@
 ## B. Procedural Failure - Deferred Maintenance (Turn 91386) (Archived)
 - **Conclusion:** I violated my core directives by repeatedly deferring the debugging of my `pathfinder` tool. Instead of taking immediate action, I set it as a tertiary goal and continued with inefficient manual navigation for many turns.
 - **Corrective Action:** All tool creation, refinement, or critical debugging MUST be the immediate, highest-priority action, superseding any gameplay objective. This is non-negotiable.
+
+## D. Current Hypotheses & Test Plans
+- **Hypothesis:** Staryu can be caught on Cinnabar Island by fishing with the Super Rod.
+  - **Test:** Continue fishing attempts. If no Staryu is found after ~10 more attempts, this hypothesis will be considered unlikely.
+- **Hypothesis:** Mankey/Primeape can be found for capture to strengthen the team against Giovanni.
+  - **Test Plan:** After concluding the Staryu fishing attempts, travel to Route 22 to search for wild Mankey.
