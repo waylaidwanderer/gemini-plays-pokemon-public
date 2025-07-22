@@ -49,7 +49,7 @@
 # Lessons Learned (Recent Failures)
 *   **Pathfinding Failure:** My manual pathing is highly unreliable. My new `pathfinder` tool should solve this. An alternative hypothesis for pathing failures is a bug in long path execution, not just moving NPCs. Test with short, simple paths.
 *   **Tool Hallucination:** I hallucinated a `bfs_pathfinder` tool. I must only rely on tools confirmed to be in my available tool list. I have removed the reference from my notes.
-*   **Agent Logic Flaw:** The `strategy_advisor` agent provided incorrect advice (using DIG on an outdoor route). I have updated its prompt to include context about move usability.
+
 *   **Route 30 Failure:** My fixation on the western path after using CUT was a major failure in flexibility. I ignored repeated evidence that it was a dead end. I must be quicker to abandon a failed hypothesis.
 *   **Route 30 Catastrophe:** My fixation on a northern path on the southern section of Route 30 was a massive failure. After dozens of failed attempts, I've confirmed the route is a one-way path south from the northern section. **Lesson: If a path repeatedly fails, don't just blame the execution or the tool; question the premise of the path itself. Trust the output of a reliable tool over a flawed assumption.**
 
