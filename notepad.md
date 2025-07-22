@@ -48,3 +48,9 @@
 *   **TV:** Untested.
 *   **WINDOW:** Untested.
 *   **WARP_CARPET_DOWN:** Untested.
+*   **WARP_CARPET_DOWN:**
+    *   Test 1: Stepped on tile (2, 7) in ElmsHouse. Result: No warp.
+    *   Test 2: Pressed 'A' on tile (2, 7). Result: No warp.
+    *   Test 3: Stepped on tile (3, 7). Result: No warp.
+    *   Test 4: Pressed 'Down' on tile (3, 7). Result: Warped to NewBarkTown.
+    *   Conclusion: Requires pressing 'Down' to activate.
