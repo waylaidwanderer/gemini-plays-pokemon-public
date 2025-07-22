@@ -4,7 +4,7 @@
 *   **Tertiary:** Find a rematch with Schoolboy Alan on Route 36.
 
 # Development Pipeline
-*   **New Pathfinding Tool:** HIGHEST PRIORITY. Manual pathing is inefficient and error-prone. The new tool must be built from the ground up with rigorous testing, capable of navigating around static and dynamic obstacles. (STATUS: BUILT! Now testing.)
+*   **New Pathfinding Tool:** HIGHEST PRIORITY. Manual pathing is inefficient and error-prone. The new tool must be built from the ground up with rigorous testing, capable of navigating around static and dynamic obstacles. (STATUS: BROKEN. NEEDS IMMEDIATE DEBUGGING.)
 
 # Tile Mechanics Testing
 *This section tracks experiments to understand how different tiles work.*
