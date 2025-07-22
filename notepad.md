@@ -50,3 +50,6 @@
         *   Walking onto the tile from the right.
         *   Standing on the tile, facing up, and pressing 'A'.
         *   Simply pressing 'A' on the tile.
+*   **Hypothesis: `WARP_CARPET_DOWN` is a one-way exit.**
+    *   **Test:** Attempt to walk onto the tile from various directions.
+    *   **Status:** Untested (but likely true based on context).
