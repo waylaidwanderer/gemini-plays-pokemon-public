@@ -43,17 +43,17 @@
 *   **One-Way Traversal:**
     *   `LEDGE_HOP_DOWN`: Can only be moved down from.
     *   `LEDGE_HOP_LEFT`: Can only be moved left from.
+    *   `LEDGE_HOP_RIGHT`: Can only be moved right from.
     *   `FLOOR_UP_WALL`: Can only be entered by moving up from the tile below.
 
 # Misc Notes & Reminders
-*   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) on Route 27 until a slot is freed.
 *   **Pending Rematch:** Fisher Ralph on Route 32.
 *   **Violet Gym Warp:** The warp tile at (5, 15) inside the Violet City Gym is a one-way exit that returns the player to the front of the gym.
 
 # Strategic Plans
 *   **Route to Lake of Rage:**
-    1.  Travel north from Cherrygrove City to Route 30.
-    2.  Head east through Route 31 to Violet City. (Currently on Route 31)
+    1.  Travel north from Cherrygrove City to Route 30. (Complete)
+    2.  Head east through Route 31 to Violet City. (Currently on Route 31, eastern section)
     3.  Continue south through Route 32, Union Cave, and Route 33 to Azalea Town.
     4.  Pass through Ilex Forest to Route 34.
     5.  Travel north through Goldenrod City, Route 35, and the National Park to Route 36.
