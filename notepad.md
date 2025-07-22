@@ -60,6 +60,8 @@
 
 ## C. Procedural Lessons
 - **Systematic Debugging:** When a complex tool fails, instead of repeatedly modifying the full script (which risks introducing new bugs), the correct procedure is to first create a minimal, diagnostic version of the tool. This allows for the isolation of the specific point of failure (e.g., grid-parsing, algorithm logic) in a controlled way, leading to a more efficient and reliable fix.
+- **Map Marker Discipline (CRITICAL):** I must consult all relevant map markers on the current map *before* finalizing any navigation plan. Ignoring my own data leads to wasted turns and strategic failure, as seen with the Route 23 guard.
+- **Proactive Testing:** I must be more proactive in testing tiles that appear impassable to confirm their status, rather than assuming. The results of these tests should be documented.
 
 # IV. Agent & Tool Refinement Log
 
