@@ -54,3 +54,6 @@
 
 # Game Mechanics & Systems
 *   **Inventory Management:** To free up an inventory slot, you must toss the *entire stack* of an item. Tossing a single item from a stack of multiple does not free up a slot.
+*   **Hypothesis: `LEDGE_HOP_RIGHT` tiles are one-way ledges.**
+    *   **Test 1:** Attempt to move left from (14, 8) onto the ledge at (13, 8).
+    *   **Status:** Pending.
