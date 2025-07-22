@@ -3,6 +3,7 @@
 ## Current Plan
 - Go to Route 29, west of New Bark Town.
 - Travel through Route 29 to reach Cherrygrove City.
+- Buy Poké Balls in Cherrygrove City.
 - Find Mr. Pokémon's house, which is past Cherrygrove.
 - Get the item from Mr. Pokémon and return to Professor Elm.
 
