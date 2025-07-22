@@ -45,5 +45,8 @@
     *   `LEDGE_HOP_RIGHT`: Can only be moved right from.
     *   `FLOOR_UP_WALL`: Can only be entered by moving up from the tile below.
 *   **Hypothesis: `WARP_CARPET_LEFT` must be entered by walking onto it from the right.**
-    *   **Test:** Move to the tile to the right of the warp carpet and then walk left onto it.
+    *   **Test:** Moved to (5,7) and then left to (4,7).
+    *   **Status:** Failed. The warp did not activate.
+*   **Hypothesis: `WARP_CARPET_LEFT` requires facing up and pressing 'A' to activate.**
+    *   **Test:** Move to (4,7), face up, and press 'A'.
     *   **Status:** Untested.
