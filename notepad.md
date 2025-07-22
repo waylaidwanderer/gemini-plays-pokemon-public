@@ -28,10 +28,10 @@
 *   **Overall Conclusion:** The gatehouse is currently a dead end. The path to the National Park must be elsewhere.
 
 ## Mahogany Town Navigation
-*   **Goal:** Access the northern part of Mahogany Town.
-*   **Initial Flawed Hypothesis:** I was trapped in the southern section. This was incorrect.
-*   **Correct Observation:** The map memory shows a `FLOOR_UP_WALL` tile at (0, 8). This is a one-way path that provides access to the northern section of town.
-*   **Plan:** Navigate to (0, 9) and move up to use this path. This will allow access to the Mahogany Mart and the likely source of the radio broadcast.
+*   **Goal:** Find a way to progress the story.
+*   **Analysis:** The southern section of Mahogany Town is physically isolated from the northern section by a continuous line of one-way `LEDGE_HOP_DOWN` tiles at y=11. It is impossible to walk from the south to the north.
+*   **Unverified Paths:** The only remaining exit from Mahogany Town that has not been personally verified is the eastern path to Route 44.
+*   **Plan:** The next logical step is to attempt to walk to the eastern exit of town to confirm if it is a viable path forward.
 
 # Tile Mechanics Testing
 *This section tracks experiments to understand how different tiles work.*
