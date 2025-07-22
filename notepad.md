@@ -71,3 +71,6 @@
 # V. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
 - **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored.
+
+# VI. Future Agent & Tool Ideas
+- **`tool_refinement_coordinator` Agent:** An agent to automate the debugging and refinement process. It would take a failing tool's name and error, coordinate with the `advanced_code_debugger`, and construct the final `define_tool` call to apply the fix. This would streamline the now-manual debugging loop.
