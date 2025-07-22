@@ -92,3 +92,5 @@
 # VI. Future Strategy & Planning
 
 - **Giovanni Prep:** Before the next attempt against Giovanni, I will use the `team_composition_advisor_agent` to verify my team is optimal.
+## D. Navigation Puzzles & Blockers
+- **Route 23 Earth Badge Check:** A guard at (5, 36) blocks the main path. Furthermore, an invisible trigger line along Y=36 prevents any northward movement in the western maze area, effectively blocking exploration until the Earth Badge is obtained.
