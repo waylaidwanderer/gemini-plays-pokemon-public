@@ -50,15 +50,3 @@
 *   **Bag is Full:** Cannot pick up the Rare Candy at (53, 12) on Route 27 until a slot is freed.
 *   **Pending Rematch:** Fisher Ralph on Route 32.
 *   **Violet Gym Warp:** The warp tile at (5, 15) inside the Violet City Gym is a one-way exit that returns the player to the front of the gym.
-
-# Lessons Learned (Recent Failures)
-*   **Pathfinding Failure:** My manual pathing is highly unreliable. My new `pathfinder` tool should solve this. An alternative hypothesis for pathing failures is a bug in long path execution, not just moving NPCs. Test with short, simple paths.
-*   **Tool Hallucination:** I hallucinated a `bfs_pathfinder` tool. I must only rely on tools confirmed to be in my available tool list. I have removed the reference from my notes.
-
-*   **Route 30 Failure:** My fixation on the western path after using CUT was a major failure in flexibility. I ignored repeated evidence that it was a dead end. I must be quicker to abandon a failed hypothesis.
-*   **Route 30 Catastrophe:** My fixation on a northern path on the southern section of Route 30 was a massive failure. After dozens of failed attempts, I've confirmed the route is a one-way path south from the northern section. **Lesson: If a path repeatedly fails, don't just blame the execution or the tool; question the premise of the path itself. Trust the output of a reliable tool over a flawed assumption.**
-
-*   **Route 46 Pathfinding Failure:** My repeated failure to trust my `pathfinder_v2` tool's correct assessment of Route 46 was a major strategic error. My own debug script confirmed the tool was working and the route was impassable north due to one-way ledges. **Core Lesson: I MUST trust my verified tools over my own assumptions. A tool reporting 'no path' is providing critical information, not evidence of a bug.**
-*   **Hypothesis: `HEADBUTT_TREE` tiles are impassable.**
-    *   **Test:** Attempt to walk into a `HEADBUTT_TREE` tile.
-    *   **Status:** Untested.
