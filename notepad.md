@@ -71,8 +71,3 @@
 # V. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
 - **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored.
-
-# VI. Future Agent & Tool Ideas
-
-- **`fallback_battle_agent`**: A simpler agent that provides basic type-effectiveness advice if the main `battle_strategist_agent` fails due to server errors. This would prevent getting stuck waiting for the main agent.
-- **`meta_agent_manager`**: An agent that could manage other agents. For example, if an agent call fails, it could automatically retry a few times before calling a fallback agent or returning control to me. This would make the system more resilient to temporary failures.
