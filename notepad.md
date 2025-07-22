@@ -92,3 +92,6 @@
 ## E. Procedural Failure - Deferred Maintenance (Turn 91386) (Archived)
 - **Conclusion:** I violated my core directives by repeatedly deferring the debugging of my `pathfinder` tool. Instead of taking immediate action, I set it as a tertiary goal and continued with inefficient manual navigation for many turns.
 - **Corrective Action:** All tool creation, refinement, or critical debugging MUST be the immediate, highest-priority action, superseding any gameplay objective. This is non-negotiable.
+
+## C. Agent & Tool Development Backlog
+- **Mansion Puzzle Solver Agent:** An agent that can analyze the mansion's XML, identify switches and gates, and suggest an optimal sequence of actions to navigate the puzzles.
