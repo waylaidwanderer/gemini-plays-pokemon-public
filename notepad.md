@@ -81,3 +81,7 @@
 ## D. Tool Debugging Failure (Turn 91365)
 - **Conclusion:** The custom tool execution environment appears to be a black box. Multiple attempts (5+) to get *any* output from two different tools (`pathfinder`, `debug_print_tester`), including `print` statements and deliberately raised exceptions, have failed silently.
 - **Action:** Abandoning active tool debugging until new information or capabilities become available. Proceeding with manual navigation.
+
+## E. Procedural Failure - Deferred Maintenance (Turn 91386)
+- **Conclusion:** I violated my core directives by repeatedly deferring the debugging of my `pathfinder` tool. Instead of taking immediate action, I set it as a tertiary goal and continued with inefficient manual navigation for many turns.
+- **Corrective Action:** All tool creation, refinement, or critical debugging MUST be the immediate, highest-priority action, superseding any gameplay objective. This is non-negotiable.
