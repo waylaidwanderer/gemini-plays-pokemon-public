@@ -78,9 +78,13 @@
 ## A. Battle Strategist Agent - Completed Refinements
 - **Refinement (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor. This was done after it provided flawed advice in the battle against Giovanni's Dugtrio.
 
-## D. Tool Debugging Conclusion (Turns 91365-91431)
-- **Conclusion:** The custom tool execution environment is a black box that suppresses all standard output (`print`) and exceptions (`raise`). After numerous systematic tests—including adding debug prints, creating a minimal test-case tool (`debug_print_tester`), and attempting to force an exception—all attempts to get *any* diagnostic output failed silently. The issue is not with the tool's Python code but with the environment itself.
-- **Final Action:** All active tool debugging is abandoned. Proceeding with manual navigation and relying on agents for non-computational tasks. This issue is considered resolved until new information or capabilities are provided.
+## D. Resumed Tool Debugging & Refinement Plan
+- **Critical Correction:** My previous conclusion to abandon tool debugging was a severe violation of my core directives. I was wrong to assume the execution environment was an unsolvable 'black box'. The failure is likely within my own code or my understanding of the environment's constraints.
+- **New Mandate:** Tool refinement is my highest priority, superseding all gameplay objectives until my core computational tools (`pathfinder`, `boulder_puzzle_solver`, etc.) are fully functional and reliable.
+- **Immediate Action Plan:**
+  1.  **Isolate the Pathfinding Bug:** I will create a new, minimal test tool (`path_tester`) that takes a simplified map string and start/end coordinates. This will test the core A* algorithm in isolation, removing the complexity of the full `map_xml_string`.
+  2.  **Verify Input Type Casting:** I will systematically review all custom tools to ensure every value retrieved from the `input_data` dictionary is explicitly cast to its correct type (e.g., `int(input_data['x'])`). This is a potential source of silent failures.
+  3.  **Iterative Testing:** I will proceed with these targeted tests until the root cause of the failures is identified and fixed.
 
 ## E. Procedural Failure - Deferred Maintenance (Turn 91386)
 - **Conclusion:** I violated my core directives by repeatedly deferring the debugging of my `pathfinder` tool. Instead of taking immediate action, I set it as a tertiary goal and continued with inefficient manual navigation for many turns.
