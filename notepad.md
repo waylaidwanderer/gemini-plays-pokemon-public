@@ -50,3 +50,7 @@
 *   `LEDGE_HOP_RIGHT`: This tile is one-way. It can only be entered by moving right from the tile to its left. Attempting to move left onto it from the right is impossible.
 *   `WARP_CARPET_LEFT`: Likely a one-way *exit*. Attempts to use as an entrance have failed.
 *   `WARP_CARPET_DOWN`: Likely a one-way exit.
+*   **Hypothesis: `stun_npc` tool is ineffective on Youngster (ID 2) on Route 31.**
+    *   **Test:** Used `stun_npc` on the Youngster.
+    *   **Result:** The tool confirmed the stun, but the game state showed the NPC moved immediately after. 
+    *   **Conclusion:** The stun was either overridden by a script or is ineffective on this specific NPC. Avoid using `stun_npc` on him.
