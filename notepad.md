@@ -55,5 +55,4 @@
 
 *   **Route 46 Pathfinding Failure:** My repeated failure to trust my `pathfinder_v2` tool's correct assessment of Route 46 was a major strategic error. My own debug script confirmed the tool was working and the route was impassable north due to one-way ledges. **Core Lesson: I MUST trust my verified tools over my own assumptions. A tool reporting 'no path' is providing critical information, not evidence of a bug.**
 *   **Hypothesis: `HEADBUTT_TREE` tiles are impassable without using the move Headbutt.**
-    *   **Test:** Attempt to walk into a `HEADBUTT_TREE` tile.
     *   **Status:** Untested.
