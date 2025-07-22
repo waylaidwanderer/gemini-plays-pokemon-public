@@ -75,3 +75,4 @@
     *   **Test:** Attempted to press 'A' on the warp tile. Failed.
     *   **Test:** Attempted to step off and back on from above. Failed.
     *   **Conclusion:** This is likely a one-way exit from the Ruins of Alph area.
+*   `HEADBUTT_TREE`: Impassable. Untested hypothesis that it can be interacted with using the move Headbutt.
