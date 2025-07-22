@@ -54,3 +54,8 @@
     *   **Test:** Used `stun_npc` on the Youngster.
     *   **Result:** The tool confirmed the stun, but the game state showed the NPC moved immediately after. 
     *   **Conclusion:** The stun was either overridden by a script or is ineffective on this specific NPC. Avoid using `stun_npc` on him.
+
+# Future Tests
+*   **Hypothesis: `HEADBUTT_TREE` can be interacted with using the move Headbutt.**
+    *   **Test:** Find a Pokémon that can learn Headbutt, teach it the move, stand next to a `HEADBUTT_TREE`, and use the move from the party menu.
+    *   **Status:** Untested. Need to find the Headbutt TM/Tutor.
