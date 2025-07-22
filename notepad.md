@@ -50,3 +50,4 @@
     * WATER: Impassable without Surf.
     * PC: Impassable.
     * WINDOW: Impassable.
+    * TALL_GRASS: Traversable, wild Pokémon may appear.
