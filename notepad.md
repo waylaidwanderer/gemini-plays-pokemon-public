@@ -80,3 +80,11 @@
 *   **Hypothesis:** Reloading a map will cause items previously missed due to a full inventory to reappear.
     *   **Test:** Attempted to pick up the FULL HEAL at (28, 9) on TeamRocketBaseB3F. Failed. Left the map and immediately returned. Attempted to pick up the item again.
     *   **Conclusion:** Failed. The item did not reappear. Items missed due to a full bag are likely permanently lost.
+
+# Team Rocket Base B1F Invisible Maze
+*   **Goal:** Find the path through the western maze.
+*   **Entrance:** (3, 5)
+*   **Path So Far:** (3, 5) -> North to (3, 1) -> East to (5, 1).
+*   **Dead Ends Found:**
+    *   North from (3, 1) is a wall.
+    *   East from (5, 1) is a wall.
