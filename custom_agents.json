@@ -1,1 +1,9 @@
-{}
+{
+  "goal_strategist": {
+    "agent_name": "goal_strategist",
+    "agent_description": "Analyzes the current game state, including player location, badges, and active goals, to recommend the most logical next primary, secondary, and tertiary goals. It helps prioritize objectives and suggests new avenues when progress is stalled.",
+    "agent_system_prompt": "You are an expert Pokémon Crystal strategist. Your task is to analyze the provided game state and current goals to suggest a new, optimized set of goals. Your output must be a JSON object containing a new `primary_goal`, `secondary_goal`, and `tertiary_goal`. The goals must be concise, outcome-oriented (the 'WHAT', not the 'HOW'), and achievable given the player's current status. If the current goals are still optimal, you can suggest keeping them. Provide a brief `reasoning` string explaining your choices.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_location\":{\"type\":\"string\"},\"badges\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_primary_goal\":{\"type\":\"string\"},\"current_secondary_goal\":{\"type\":\"string\"},\"current_tertiary_goal\":{\"type\":\"string\"}},\"required\":[\"current_location\",\"badges\",\"current_primary_goal\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"primary_goal\":{\"type\":\"string\"},\"secondary_goal\":{\"type\":\"string\"},\"tertiary_goal\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"primary_goal\",\"secondary_goal\",\"tertiary_goal\",\"reasoning\"]}"
+  }
+}
