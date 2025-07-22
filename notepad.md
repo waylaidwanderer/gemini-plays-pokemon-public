@@ -77,3 +77,7 @@
 
 ## A. Battle Strategist Agent - Completed Refinements
 - **Refinement (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor. This was done after it provided flawed advice in the battle against Giovanni's Dugtrio.
+
+## D. Tool Debugging Failure (Turn 91365)
+- **Conclusion:** The custom tool execution environment appears to be a black box. Multiple attempts (5+) to get *any* output from two different tools (`pathfinder`, `debug_print_tester`), including `print` statements and deliberately raised exceptions, have failed silently.
+- **Action:** Abandoning active tool debugging until new information or capabilities become available. Proceeding with manual navigation.
