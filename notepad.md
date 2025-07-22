@@ -68,3 +68,10 @@
 
 # Known Issues & Peculiarities
 *   **`stun_npc` Ineffectiveness:** The `stun_npc` tool is ineffective on Youngster (ID 2) on Route 31. The stun was either overridden by a script or is ineffective on this specific NPC. Avoid using `stun_npc` on him.
+## Route 36 Ruins of Alph Gate
+*   **Goal:** Enter the Ruins of Alph.
+*   **Hypothesis 1:** The warp at (47, 13) is the entrance.
+    *   **Test:** Attempted to move down onto the warp tile. Failed.
+    *   **Test:** Attempted to press 'A' on the warp tile. Failed.
+    *   **Test:** Attempted to step off and back on from above. Failed.
+    *   **Conclusion:** This is likely a one-way exit from the Ruins of Alph area.
