@@ -62,25 +62,11 @@
 - **Corrective Action:** All tool refinement and critical data correction must be my immediate, highest-priority action, never a deferred goal. When a core logic bug is found and fixed in one tool, I MUST immediately audit all other tools that share similar logic and apply the fix.
 - **Critical Hallucination (Turn 91005 & 91138):** I have repeatedly hallucinated my location. I must ground my actions in the provided game state, not my assumptions.
 
-# IV. Active Development Goals
-
-## A. Agent Development
-- **Advanced Battle Planner:** An agent to help strategize for multi-stage fights (like Gyms), combining team composition, move planning, and long-term resource management. This would evolve from the current `battle_strategist_agent`.
-- **Training & Grind Manager:** An agent that takes my full party roster, a target level, and potential locations, then suggests an optimal training order and party lead to maximize efficiency.
-- **Advanced Code Debugger:** A single, powerful agent that can analyze failing code, error messages, and my common mistake patterns to provide both diagnostic steps and specific code correction suggestions. (Consolidates previous 'Debugger v2' and 'Fixer' ideas).
-
-## B. Tool Development
-- **Pathfinding Diagnostics Tool:** A computational tool to analyze a failing `pathfinder` call by dissecting the map XML and pathing logic to pinpoint the exact point of failure.
-- **Inventory Management Tool:** A tool to categorize items, identify redundancies, and suggest items to store or sell, helping manage the limited bag space.
-
-# V. Agent & Tool Refinement Log
+# IV. Agent & Tool Refinement Log
 
 ## A. Battle Strategist Agent - Completed Refinements
 - **Refinement (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor. This was done after it provided flawed advice in the battle against Giovanni's Dugtrio.
 
-# VI. Known Issues & Tool Limitations
-- The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji. Multiple attempts with the raw emoji and various shortcodes have failed.
+# V. Known Issues & Tool Limitations
+- The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
 - **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored.
-
-## A. Agent Development
-- **Training Manager:** An agent to automate the repetitive process of training a Pokémon. It would take a Pokémon, a target level, and a location, then output a sequence of actions (walk, use move, use RECOVER, etc.).
