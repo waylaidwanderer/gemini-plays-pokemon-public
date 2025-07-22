@@ -103,3 +103,7 @@
 # VII. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji. Multiple attempts with the raw emoji and various shortcodes have failed.
 - **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored. This resolves the data inconsistency issue highlighted by the overwatch system.
+
+## C. Agent & Tool Development Backlog
+- **Mansion Puzzle Solver Agent:** An agent that can analyze the mansion's XML, identify switches and gates, and suggest an optimal sequence of actions to navigate the puzzles.
+- **Gate Puzzle Simulator Tool:** A tool to simulate the effects of a switch flip based on a hypothesized rule set, allowing for faster testing of puzzle logic.
