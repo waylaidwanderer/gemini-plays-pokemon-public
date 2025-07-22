@@ -27,6 +27,12 @@
     *   **Conclusion:** Failed. I could not find a path behind the counter.
 *   **Overall Conclusion:** The gatehouse is currently a dead end. The path to the National Park must be elsewhere.
 
+## Mahogany Town Navigation
+*   **Goal:** Access the northern part of Mahogany Town.
+*   **Initial Flawed Hypothesis:** I was trapped in the southern section. This was incorrect.
+*   **Correct Observation:** The map memory shows a `FLOOR_UP_WALL` tile at (0, 8). This is a one-way path that provides access to the northern section of town.
+*   **Plan:** Navigate to (0, 9) and move up to use this path. This will allow access to the Mahogany Mart and the likely source of the radio broadcast.
+
 # Tile Mechanics Testing
 *This section tracks experiments to understand how different tiles work.*
 
@@ -34,14 +40,12 @@
 *   **Hypothesis: `HEADBUTT_TREE` can be interacted with using the move Headbutt.**
     *   **Test:** Find a Pokémon that can learn Headbutt, teach it the move, stand next to a `HEADBUTT_TREE`, and use the move from the party menu.
     *   **Status:** Untested. Need to find the Headbutt TM/Tutor.
-*   **Hypothesis: `HEADBUTT_TREE` tiles are impassable.**
-    *   **Test:** Attempt to walk into a `HEADBUTT_TREE` tile.
-    *   **Status:** Untested.
 
 ## Verified Tile Mechanics
 ### Traversable
 *   `FLOOR`: Standard ground.
 *   `TALL_GRASS`: Triggers wild encounters.
+*   `ICE`: Slides player in the direction of movement until an obstacle is hit.
 
 ### Requires HM/Interaction
 *   `WATER`: Requires SURF. Can only be entered by facing the tile and pressing 'A'.
@@ -54,6 +58,7 @@
 *   `ROOF`/`TV`: Impassable.
 *   `COUNTER`: Confirmed impassable after attempting to move onto the tile.
 *   `WALL`: Standard impassable tile.
+*   `HEADBUTT_TREE`: Impassable.
 
 ### Special Interaction
 *   `FRUIT_TREE`: Can be interacted with by facing it and pressing 'A' to receive a BERRY.
@@ -68,11 +73,3 @@
 
 # Known Issues & Peculiarities
 *   **`stun_npc` Ineffectiveness:** The `stun_npc` tool is ineffective on Youngster (ID 2) on Route 31. The stun was either overridden by a script or is ineffective on this specific NPC. Avoid using `stun_npc` on him.
-## Route 36 Ruins of Alph Gate
-*   **Goal:** Enter the Ruins of Alph.
-*   **Hypothesis 1:** The warp at (47, 13) is the entrance.
-    *   **Test:** Attempted to move down onto the warp tile. Failed.
-    *   **Test:** Attempted to press 'A' on the warp tile. Failed.
-    *   **Test:** Attempted to step off and back on from above. Failed.
-    *   **Conclusion:** This is likely a one-way exit from the Ruins of Alph area.
-*   `HEADBUTT_TREE`: Impassable. Untested hypothesis that it can be interacted with using the move Headbutt.
