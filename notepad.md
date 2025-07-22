@@ -70,3 +70,6 @@
 # V. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
 - **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored.
+
+## B. Tool Development Log
+- **Pathfinder Bug (Turn 91999):** The tool generated a path that attempted an illegal move from a land tile to a water tile. The neighbor generation logic needs to be fixed to strictly adhere to cardinal directions and correctly check for water tiles when not surfing. **Fixing immediately.**
