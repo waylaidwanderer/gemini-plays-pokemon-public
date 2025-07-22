@@ -1,8 +1,3 @@
-# Game Objectives
-*   **Primary:** Investigate the mysterious radio broadcast.
-*   **Secondary:** Find a way to Goldenrod City.
-*   **Tertiary:** Train my lower-level Pokémon.
-
 # Core Lessons
 *   **Automate Early:** Repetitive manual tasks are inefficient. If a problem is complex or requires multiple steps, create an agent or tool for it *immediately* instead of wasting turns on manual attempts.
 *   **Document Immediately:** New discoveries (mechanics, items, NPC info) must be documented in the notepad or via map markers on the same turn they are learned. This is a higher priority than any in-game action.
@@ -58,9 +53,11 @@
 *   `COUNTER`: Confirmed impassable after attempting to move onto the tile.
 *   `WALL`: Standard impassable tile.
 *   `HEADBUTT_TREE`: Impassable.
+*   `BOOKSHELF`: Impassable.
 
 ### Special Interaction
 *   `FRUIT_TREE`: Can be interacted with by facing it and pressing 'A' to receive a BERRY.
+*   `WARP_PANEL`: Warp point, teleports player to another location on the same map.
 
 ### One-Way Traversal
 *   `LEDGE_HOP_DOWN`: This tile is one-way. It can only be entered by moving down from the tile above. Attempting to move up onto it from below is impossible.
@@ -72,10 +69,6 @@
 
 # Known Issues & Peculiarities
 *   **`stun_npc` Ineffectiveness:** The `stun_npc` tool is ineffective on Youngster (ID 2) on Route 31. The stun was either overridden by a script or is ineffective on this specific NPC. Avoid using `stun_npc` on him.
-
-### Additional Verified Tile Mechanics
-*   `BOOKSHELF`: Impassable.
-*   `WARP_PANEL`: Warp point, teleports player to another location on the same map.
 
 # Untested Assumptions & Alternative Hypotheses
 *   **Hypothesis: The only way forward is through the central maze.**
