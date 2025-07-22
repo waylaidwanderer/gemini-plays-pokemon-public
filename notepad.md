@@ -10,20 +10,22 @@
 *   **Be Flexible:** Fixating on a single path or strategy in the face of repeated failure is inefficient. Be quick to abandon a failed hypothesis and explore alternatives. If progress stalls, pivot to a different goal.
 *   **No Glitches:** Never assume a game mechanic is a glitch. Investigate unexpected behavior with a scientific mindset to understand the underlying rules.
 
-# Game Mechanics & Systems
-*   **Inventory Management:** To free up an inventory slot, you must toss the *entire stack* of an item. Tossing a single item from a stack of multiple does not free up a slot.
-
 # Puzzles
-## National Park Gate Puzzle (Route 36)
-*   **Hypothesis 1:** The warp at (0, 4) is the entrance.
-    *   **Test:** Attempted to move left onto the warp tile.
-    *   **Conclusion:** Failed. This seems to be a one-way exit.
-*   **Hypothesis 2:** Talking to the Officer at (3, 2) opens the path.
-    *   **Test:** Spoke to the Officer.
+## Route 36 National Park Gate
+*   **Goal:** Enter the National Park.
+*   **Hypothesis 1:** The warp at (0, 4) and (0, 5) is the entrance.
+    *   **Test:** Attempted to move left onto the warp tile. Failed. Attempted to step off and back on. Failed.
+    *   **Conclusion:** This is a one-way exit from the National Park, confirmed by multiple failed entry attempts.
+*   **Hypothesis 2:** Talking to the Officer at (3, 2) from across the counter opens the path.
+    *   **Test:** Spoke to the Officer from (3, 4).
     *   **Conclusion:** Failed. He only provided flavor text.
-
-# Tool Development
-*   **path_plotter:** A BFS pathfinding tool. It has been refined to account for on-screen objects as impassable obstacles.
+*   **Hypothesis 3:** Reading the Bug-Catching Contest sign at (6, 0) is required.
+    *   **Test:** Interacted with the sign from (6, 1).
+    *   **Conclusion:** Failed. Provided only informational text.
+*   **Hypothesis 4:** The Officer must be interacted with from a different position (not across the counter).
+    *   **Test:** Attempted to plot a path around the counter to (2, 2).
+    *   **Conclusion:** Failed. `path_plotter` confirmed no path exists behind the counter.
+*   **Overall Conclusion:** The gatehouse is currently a dead end. The path to the National Park must be elsewhere.
 
 # Tile Mechanics Testing
 *This section tracks experiments to understand how different tiles work.*
@@ -32,6 +34,9 @@
 *   **Hypothesis: `HEADBUTT_TREE` can be interacted with using the move Headbutt.**
     *   **Test:** Find a Pokémon that can learn Headbutt, teach it the move, stand next to a `HEADBUTT_TREE`, and use the move from the party menu.
     *   **Status:** Untested. Need to find the Headbutt TM/Tutor.
+*   **Hypothesis: `HEADBUTT_TREE` tiles are impassable.**
+    *   **Test:** Attempt to walk into a `HEADBUTT_TREE` tile.
+    *   **Status:** Untested.
 
 ## Verified Tile Mechanics
 ### Traversable
@@ -58,17 +63,8 @@
 *   `LEDGE_HOP_LEFT`: Can only be moved left from.
 *   `FLOOR_UP_WALL`: Can only be entered by moving up from the tile below.
 *   `LEDGE_HOP_RIGHT`: This tile is one-way. It can only be entered by moving right from the tile to its left. Attempting to move left onto it from the right is impossible.
-*   `WARP_CARPET_LEFT`: Confirmed one-way *exit* at Route36NationalParkGate (0, 4). Attempts to use as an entrance have failed.
+*   `WARP_CARPET_LEFT`: Confirmed one-way *exit* at Route36NationalParkGate (0, 4) & (0, 5). Attempts to use as an entrance have failed.
 *   `WARP_CARPET_DOWN`: Confirmed one-way exit.
 
 # Known Issues & Peculiarities
 *   **`stun_npc` Ineffectiveness:** The `stun_npc` tool is ineffective on Youngster (ID 2) on Route 31. The stun was either overridden by a script or is ineffective on this specific NPC. Avoid using `stun_npc` on him.
-
-# Corrections
-*   **Verified:** Tile (31, 26) in Violet City is a standard `FLOOR` tile. My previous belief of it being a 'glitched warp' was a hallucination.
-*   **Hypothesis 3:** Reading the Bug-Catching Contest sign is required.
-    *   **Test:** Interacted with the sign at (6, 0).
-    *   **Conclusion:** Failed. Provided only informational text.
-*   **Hypothesis 4:** The Officer must be interacted with from a different position (not across the counter).
-    *   **Test:** Plot a path around the counter to (2, 2) and interact with the Officer.
-    *   **Status:** Untested.
