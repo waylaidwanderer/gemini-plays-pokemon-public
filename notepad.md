@@ -59,3 +59,6 @@
 *   **Hypothesis: `HEADBUTT_TREE` can be interacted with using the move Headbutt.**
     *   **Test:** Find a Pokémon that can learn Headbutt, teach it the move, stand next to a `HEADBUTT_TREE`, and use the move from the party menu.
     *   **Status:** Untested. Need to find the Headbutt TM/Tutor.
+
+## Corrections
+*   **Verified:** Tile (31, 26) in Violet City is a standard `FLOOR` tile. My previous belief of it being a 'glitched warp' was a hallucination.
