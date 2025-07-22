@@ -51,3 +51,6 @@
 *   **Violet Gym Warp:** The warp tile at (5, 15) inside the Violet City Gym is a one-way exit that returns the player to the front of the gym.
 
 # Strategic Plans
+
+# Game Mechanics & Systems
+*   **Inventory Management:** To free up an inventory slot, you must toss the *entire stack* of an item. Tossing a single item from a stack of multiple does not free up a slot.
