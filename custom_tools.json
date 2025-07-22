@@ -76,5 +76,40 @@
     "description": "Analyzes the map_xml_string to identify all reachable water-adjacent ground tiles from the player's current position. This streamlines finding spots to start surfing.",
     "input_schema": {},
     "python_script": "import xml.etree.ElementTree as ET\nimport collections\n\n# Parse the map XML\nroot = ET.fromstring(map_xml_string)\nmap_width = int(root.attrib['width'])\nmap_height = int(root.attrib['height'])\n\n# Create a grid representation\ngrid = {}\nplayer_start = None\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.attrib['id'])\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.attrib['id'])\n        tile_type = tile_elem.attrib['type']\n        has_object = tile_elem.find('Object') is not None\n        is_impassable = tile_type in ['impassable', 'boulder_barrier', 'closed_gate'] or has_object\n        \n        if has_object:\n            obj = tile_elem.find('Object')\n            if obj.attrib.get('id-name') == 'Pikachu':\n                is_impassable = False\n\n        grid[(x, y)] = {'type': tile_type, 'impassable': is_impassable}\n        if tile_elem.find('Player') is not None:\n            player_start = (x, y)\n\nif not player_start:\n    print(\"Error: Player position not found.\")\nelse:\n    # BFS to find all reachable tiles\n    queue = collections.deque([player_start])\n    visited = {player_start}\n    reachable_ground = set()\n\n    while queue:\n        cx, cy = queue.popleft()\n        \n        # Consider walkable tiles for pathing\n        current_tile_type = grid.get((cx, cy), {}).get('type')\n        if current_tile_type == 'ground':\n            reachable_ground.add((cx,cy))\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            neighbor_coord = (nx, ny)\n            if 1 <= nx <= map_width and 1 <= ny <= map_height:\n                if neighbor_coord not in visited and not grid[neighbor_coord]['impassable']:\n                    visited.add(neighbor_coord)\n                    queue.append(neighbor_coord)\n\n    # Find shoreline tiles from the set of reachable ground tiles\n    shoreline_tiles = []\n    for x, y in sorted(list(reachable_ground)):\n        is_shore = False\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if 1 <= nx <= map_width and 1 <= ny <= map_height:\n                if grid.get((nx, ny), {}).get('type') == 'water':\n                    is_shore = True\n                    break\n        if is_shore:\n            shoreline_tiles.append((x, y))\n\n    if shoreline_tiles:\n        print(f\"Reachable shoreline tiles found: {shoreline_tiles}\")\n    else:\n        print(\"No reachable shoreline tiles found from the current position.\")"
+  },
+  "connectivity_checker": {
+    "description": "Checks if two points on the current map are in the same contiguous, reachable area, respecting walls, water (if not surfing), and other obstacles. Useful for validating if a path is possible before calling a pathfinder.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "x1": {
+          "type": "integer"
+        },
+        "y1": {
+          "type": "integer"
+        },
+        "x2": {
+          "type": "integer"
+        },
+        "y2": {
+          "type": "integer"
+        },
+        "movement_state": {
+          "type": "string",
+          "enum": [
+            "walking",
+            "surfing"
+          ]
+        }
+      },
+      "required": [
+        "x1",
+        "y1",
+        "x2",
+        "y2",
+        "movement_state"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef check_connectivity(map_xml_string, input_data):\n    try:\n        root = ET.fromstring(map_xml_string)\n        map_width = int(root.get('width'))\n        map_height = int(root.get('height'))\n\n        walls = set()\n        water_tiles = set()\n        for tile in root.findall('.//Tile'):\n            x, y = int(tile.get('id')), int(tile.get('coordinate').split(',')[1].strip(')'))\n            tile_type = tile.get('type')\n            obj = tile.find('Object')\n            is_impassable_obj = obj is not None and obj.get('id-name') != 'Pikachu'\n            if tile_type in ['impassable', 'boulder_barrier', 'closed_gate', 'unknown'] or is_impassable_obj:\n                walls.add((x, y))\n            elif tile_type == 'water':\n                water_tiles.add((x, y))\n\n        start_node = (int(input_data['x1']), int(input_data['y1']))\n        end_node = (int(input_data['x2']), int(input_data['y2']))\n        movement_state = input_data['movement_state']\n\n        q = deque([start_node])\n        visited = {start_node}\n\n        while q:\n            current_x, current_y = q.popleft()\n\n            if (current_x, current_y) == end_node:\n                print(json.dumps({'connected': True}))\n                return\n\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                next_x, next_y = current_x + dx, current_y + dy\n                neighbor = (next_x, next_y)\n\n                if not (1 <= next_x <= map_width and 1 <= next_y <= map_height):\n                    continue\n                if neighbor in visited:\n                    continue\n                if neighbor in walls:\n                    continue\n                if movement_state == 'walking' and neighbor in water_tiles:\n                    continue\n                if movement_state == 'surfing' and neighbor not in water_tiles:\n                    continue\n                \n                visited.add(neighbor)\n                q.append(neighbor)\n\n        print(json.dumps({'connected': False}))\n\n    except Exception as e:\n        import traceback\n        print(json.dumps({'error': str(e), 'traceback': traceback.format_exc()}))\n\ncheck_connectivity(map_xml_string, input_data)\n"
   }
 }
