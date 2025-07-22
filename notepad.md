@@ -43,3 +43,5 @@
     * TV: Impassable.
     * DOOR: Warp point.
     * WATER: Impassable without Surf.
+    * PC: Impassable.
+    * WINDOW: Impassable.
