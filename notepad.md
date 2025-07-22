@@ -71,24 +71,11 @@
 ## A. Battle Strategist Agent - Completed Refinements
 - **Refinement (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor. This was done after it provided flawed advice in the battle against Giovanni's Dugtrio.
 
-## B. Tool Development Log (Consolidated)
-- **Pathfinder & Boulder Puzzle Solver:** Both tools initially had a bug where their internal pathfinding logic couldn't handle land-to-water SURF transitions. This has been fixed.
-- **`spinner_maze_solver` Fix (Turn 90597):** Rewrote the path reconstruction logic to correctly store and use the 'trigger step' for each spinner segment, fixing a critical bug that produced incorrect paths in the Viridian Gym.
-- **Pathfinder Bug (Turn 91999 - Resolved):** The tool had a series of bugs related to illegal land-to-water movement and incorrect XML parent traversal. These issues were identified and corrected through multiple revisions.
-- **Pathfinder Ledge Logic (Turn 92780 - Resolved):** Corrected a flaw in the A* algorithm's ledge traversal logic that was causing hallucinations about reachable unseen tiles.
-- **`reachable_shoreline_finder` (Turn 93692):** Created to systematically identify all valid tiles to initiate Surf from, successfully resolving inefficient trial-and-error attempts on Cinnabar Island.
-- **Proactive Auditing Mandate:** Following a critical failure analysis, it is now mandatory to proactively audit all custom tools for similar logic flaws immediately after a bug is discovered and fixed in any single tool. This prevents cascading, predictable failures.
-
-## C. Debugging Case Study: Pathfinder Tool (Archived)
-- **Problem:** The tool consistently failed to find valid paths, even simple ones. Both A* and BFS implementations failed.
-- **Hypothesis 1 (Initial):** The A* algorithm logic is flawed.
-  - **Test:** Replaced A* with a simpler BFS algorithm.
-  - **Result:** BFS also failed.
-  - **Conclusion:** Hypothesis 1 is likely incorrect. The problem was more fundamental.
-- **Hypothesis 2 (Final):** The foundational grid-parsing and traversal logic (especially for ledges and water) was flawed.
-  - **Test:** Iteratively refined the A* algorithm, focusing on specific movement rules.
-  - **Result:** The tool was successfully fixed after several revisions.
-  - **Conclusion:** The issue was not the core algorithm but its interaction with the game's specific traversal rules.
+## B. Tool Development Log
+- **Pathfinder & Boulder Puzzle Solver:** Fixed a bug preventing land-to-water SURF transitions and corrected ledge traversal logic.
+- **`spinner_maze_solver`:** Rewrote path reconstruction logic to fix a critical bug.
+- **`reachable_shoreline_finder`:** Created to systematically identify valid SURF starting points.
+- **`connectivity_checker`:** Created to validate if a path is possible before calling a pathfinder.
 
 # V. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
