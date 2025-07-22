@@ -1,1 +1,21 @@
-{}
+{
+  "find_path": {
+    "description": "Finds the shortest path from the player's current position to a target coordinate using the A* algorithm. It considers WALLs and Objects as obstacles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import heapq\nimport xml.etree.ElementTree as ET\n\ndef parse_map(xml_string):\n    root = ET.fromstring(xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    grid = [[0 for _ in range(width + 1)] for _ in range(height + 1)]\n    player_pos = None\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib['type']\n            if tile_type in ['WALL', 'HEADBUTT_TREE'] or tile.find('Object') is not None:\n                grid[y][x] = 1 # Mark as obstacle\n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n    return grid, player_pos\n\ndef heuristic(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\ndef a_star_search(grid, start, goal):\n    if not grid or not start or not goal:\n        return None\n    \n    rows, cols = len(grid), len(grid[0])\n    if not (0 <= start[1] < rows and 0 <= start[0] < cols and 0 <= goal[1] < rows and 0 <= goal[0] < cols):\n        return None # Start or goal is out of bounds\n        \n    if grid[start[1]][start[0]] == 1 or grid[goal[1]][goal[0]] == 1:\n        return None # Start or goal is an obstacle\n\n    neighbors = [(0, 1), (0, -1), (1, 0), (-1, 0)]\n    close_set = set()\n    came_from = {}\n    gscore = {start: 0}\n    fscore = {start: heuristic(start, goal)}\n    oheap = []\n\n    heapq.heappush(oheap, (fscore[start], start))\n    \n    while oheap:\n        current = heapq.heappop(oheap)[1]\n\n        if current == goal:\n            data = []\n            while current in came_from:\n                data.append(current)\n                current = came_from[current]\n            data.append(start)\n            return data[::-1]\n\n        close_set.add(current)\n        for i, j in neighbors:\n            neighbor = current[0] + i, current[1] + j\n            if not (0 <= neighbor[1] < rows and 0 <= neighbor[0] < cols):\n                continue\n\n            if grid[neighbor[1]][neighbor[0]] == 1:\n                continue\n                \n            tentative_g_score = gscore[current] + 1\n\n            if neighbor in close_set and tentative_g_score >= gscore.get(neighbor, 0):\n                continue\n                \n            if  tentative_g_score < gscore.get(neighbor, 0) or neighbor not in [i[1]for i in oheap]:\n                came_from[neighbor] = current\n                gscore[neighbor] = tentative_g_score\n                fscore[neighbor] = tentative_g_score + heuristic(neighbor, goal)\n                heapq.heappush(oheap, (fscore[neighbor], neighbor))\n                \n    return None\n\ntry:\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n\n    grid, player_pos = parse_map(map_xml_string)\n\n    if player_pos:\n        start_pos = player_pos\n        goal_pos = (target_x, target_y)\n        path = a_star_search(grid, start_pos, goal_pos)\n        if path:\n            print(f'Path found: {path}')\n        else:\n            print('No path found.')\n    else:\n        print('Player position not found on the map.')\nexcept Exception as e:\n    print(f'An error occurred: {e}')"
+  }
+}

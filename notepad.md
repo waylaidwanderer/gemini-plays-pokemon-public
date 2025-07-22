@@ -55,3 +55,4 @@
     * HEADBUTT_TREE: Impassable for now. Might require a special move.
     * LEDGE_HOP_RIGHT: Confirmed impassable from the right side. Hypothesis: This is a one-way ledge allowing downward travel to the right.
     * LEDGE_HOP_DOWN: Likely the bottom of a one-way ledge. Can't be climbed up.
+* Failed Hypothesis: The Cooltrainer at (50, 12) is not a required battle and does not block progress. His dialogue is generic.
