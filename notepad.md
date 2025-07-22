@@ -35,3 +35,10 @@
 
 ## Progress Tracking & Corrections
 * **Failed Hypothesis:** The Cooltrainer at (50, 12) is not a required battle and does not block progress. His dialogue is generic.
+
+## Hypotheses & Systematic Testing
+*Method: To confirm a tile's properties, I must attempt to move onto it from all four adjacent, traversable tiles (Up, Down, Left, Right). A conclusion is only valid after all directions are tested.*
+
+### Untested Mechanics:
+*   **HEADBUTT_TREE:** Requires full directional testing.
+*   **LEDGE_HOP_DOWN:** Requires full directional testing.
