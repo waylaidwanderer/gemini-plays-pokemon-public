@@ -1,6 +1,6 @@
 # Game Objectives
 *   **Primary:** Investigate the mysterious radio broadcast.
-*   **Secondary:** Explore Dark Cave to find a new path.
+*   **Secondary:** Find a way to Goldenrod City.
 *   **Tertiary:** Train my lower-level Pokémon.
 
 # Core Lessons
@@ -12,44 +12,41 @@
 # Game Mechanics & Systems
 *   **Inventory Management:** To free up an inventory slot, you must toss the *entire stack* of an item. Tossing a single item from a stack of multiple does not free up a slot.
 
+# Tool Development
+*   **path_plotter:** A BFS pathfinding tool. Currently in development.
+
 # Tile Mechanics Testing
 *This section tracks experiments to understand how different tiles work.*
 
-### Untested Hypotheses
-*   **Hypothesis: `PC` tiles are impassable.**
-    *   **Test:** Attempt to walk into a `PC` tile.
-    *   **Status:** Untested.
+## Untested Hypotheses
 *   **Hypothesis: `HEADBUTT_TREE` can be interacted with using the move Headbutt.**
     *   **Test:** Stand next to a `HEADBUTT_TREE` and use Headbutt from the party menu.
     *   **Status:** Untested.
 
-### Verified Tile Mechanics
-*   **Traversable:**
-    *   `FLOOR`: Standard ground.
-    *   `TALL_GRASS`: Triggers wild encounters.
-*   **Requires HM/Interaction:**
-    *   `WATER`: Requires SURF. Can only be entered by facing the tile and pressing 'A'.
-    *   `CUT_TREE`: Impassable, but can be cleared with HM01 CUT.
-    *   `CAVE`/`DOOR`/`STAIRCASE`/`LADDER`: Warp point.
-*   **Impassable:**
-    *   `VOID`: Standard barrier.
-    *   `BUOY`: Confirmed impassable after attempting to move onto the tile at (27, 16).
-    *   `ROOF`/`TV`: Impassable.
-    *   `COUNTER`: Confirmed impassable after attempting to move onto the tile at (3, 2).
-    *   `WALL`: Standard impassable tile.
-*   **Special Interaction:**
-    *   `FRUIT_TREE`: Can be interacted with by facing it and pressing 'A' to receive a BERRY.
-*   **One-Way Traversal:**
-    *   `LEDGE_HOP_DOWN`: This tile is one-way. It can only be entered by moving down from the tile above. Attempting to move up onto it from below is impossible.
-    *   `LEDGE_HOP_LEFT`: Can only be moved left from.
-    *   `FLOOR_UP_WALL`: Can only be entered by moving up from the tile below.
-    *   `LEDGE_HOP_RIGHT`: This tile is one-way. It can only be entered by moving right from the tile to its left. Attempting to move left onto it from the right is impossible.
-*   **`WARP_CARPET_LEFT` Investigation:**
-    *   **Conclusion:** All attempts to use this tile as an *entrance* have failed. It is highly likely a one-way *exit* from the connected area.
-    *   **Failed Tests:**
-        *   Walking onto the tile from the right.
-        *   Standing on the tile, facing up, and pressing 'A'.
-        *   Simply pressing 'A' on the tile.
-*   **Hypothesis: `WARP_CARPET_DOWN` is a one-way exit.**
-    *   **Test:** Attempt to walk onto the tile from various directions.
-    *   **Status:** Untested (but likely true based on context).
+## Verified Tile Mechanics
+### Traversable
+*   `FLOOR`: Standard ground.
+*   `TALL_GRASS`: Triggers wild encounters.
+
+### Requires HM/Interaction
+*   `WATER`: Requires SURF. Can only be entered by facing the tile and pressing 'A'.
+*   `CUT_TREE`: Impassable, but can be cleared with HM01 CUT.
+*   `CAVE`/`DOOR`/`STAIRCASE`/`LADDER`: Warp point.
+
+### Impassable
+*   `VOID`: Standard barrier.
+*   `BUOY`: Confirmed impassable after attempting to move onto the tile.
+*   `ROOF`/`TV`: Impassable.
+*   `COUNTER`: Confirmed impassable after attempting to move onto the tile.
+*   `WALL`: Standard impassable tile.
+
+### Special Interaction
+*   `FRUIT_TREE`: Can be interacted with by facing it and pressing 'A' to receive a BERRY.
+
+### One-Way Traversal
+*   `LEDGE_HOP_DOWN`: This tile is one-way. It can only be entered by moving down from the tile above. Attempting to move up onto it from below is impossible.
+*   `LEDGE_HOP_LEFT`: Can only be moved left from.
+*   `FLOOR_UP_WALL`: Can only be entered by moving up from the tile below.
+*   `LEDGE_HOP_RIGHT`: This tile is one-way. It can only be entered by moving right from the tile to its left. Attempting to move left onto it from the right is impossible.
+*   `WARP_CARPET_LEFT`: Likely a one-way *exit*. Attempts to use as an entrance have failed.
+*   `WARP_CARPET_DOWN`: Likely a one-way exit.
