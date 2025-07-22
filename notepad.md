@@ -51,3 +51,4 @@
     * PC: Impassable.
     * WINDOW: Impassable.
     * TALL_GRASS: Traversable, wild Pokémon may appear.
+    * HEADBUTT_TREE: Impassable for now. Might require a special move.
