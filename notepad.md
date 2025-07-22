@@ -68,6 +68,7 @@
 - **Code Debugger Agent v2:** An agent that analyzes my own common coding errors (e.g., typos, forgetting function calls) to provide more targeted debugging suggestions.
 - **Code Fixer Agent:** An agent that takes failing code and an error message, then proposes a specific, corrected code snippet. This would be a significant upgrade from simply suggesting debugging steps.
 - **Long-Term Battle Planner:** An agent that can help strategize for multi-stage fights or entire gyms, going beyond the turn-by-turn advice of the current `battle_strategist_agent`.
+- **Training Plan Advisor:** An agent that takes my full party roster and a target level, then suggests an optimal training order and potentially specific wild Pokémon to target for efficient leveling.
 
 ## B. Tool Development Ideas
 - **Pathfinding Diagnostics Tool:** A tool that takes a failing pathfinder call (start, end, impassable coords) and the map XML, then systematically analyzes the intended path tile-by-tile to pinpoint the exact coordinate and traversal rule that is failing. This would automate the manual debugging process I currently perform.
@@ -78,7 +79,9 @@
 ## A. Battle Strategist Agent - Completed Refinements
 - **Refinement (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor. This was done after it provided flawed advice in the battle against Giovanni's Dugtrio.
 
-## D. Resumed Tool Debugging & Refinement Plan
+# VI. Archived Plans & Past Self-Corrections
+
+## D. Resumed Tool Debugging & Refinement Plan (Archived)
 - **Critical Correction:** My previous conclusion to abandon tool debugging was a severe violation of my core directives. I was wrong to assume the execution environment was an unsolvable 'black box'. The failure is likely within my own code or my understanding of the environment's constraints.
 - **New Mandate:** Tool refinement is my highest priority, superseding all gameplay objectives until my core computational tools (`pathfinder`, `boulder_puzzle_solver`, etc.) are fully functional and reliable.
 - **Immediate Action Plan:**
@@ -86,7 +89,6 @@
   2.  **Verify Input Type Casting:** I will systematically review all custom tools to ensure every value retrieved from the `input_data` dictionary is explicitly cast to its correct type (e.g., `int(input_data['x'])`). This is a potential source of silent failures.
   3.  **Iterative Testing:** I will proceed with these targeted tests until the root cause of the failures is identified and fixed.
 
-## E. Procedural Failure - Deferred Maintenance (Turn 91386)
+## E. Procedural Failure - Deferred Maintenance (Turn 91386) (Archived)
 - **Conclusion:** I violated my core directives by repeatedly deferring the debugging of my `pathfinder` tool. Instead of taking immediate action, I set it as a tertiary goal and continued with inefficient manual navigation for many turns.
 - **Corrective Action:** All tool creation, refinement, or critical debugging MUST be the immediate, highest-priority action, superseding any gameplay objective. This is non-negotiable.
-- **Training Plan Advisor:** An agent that takes my full party roster and a target level, then suggests an optimal training order and potentially specific wild Pokémon to target for efficient leveling.
