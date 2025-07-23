@@ -98,3 +98,4 @@
 ## E. New Procedural Notes (Post-Reflection)
 - **Boulder Puzzle Mechanics:** Boulders cannot be pushed directly into standard `water` tiles. They must be pushed into `hole` tiles to affect lower floors.
 - **Map Marker Discipline (Reinforcement):** I must be more diligent about placing markers for both the entry and exit points of a warp *immediately* after using it to avoid confusion and redundant markers.
+- **PC Tile Anomaly:** The tile for interacting with the Pokémon Center PC is sometimes labeled as `grass` in the map data, despite being indoors.
