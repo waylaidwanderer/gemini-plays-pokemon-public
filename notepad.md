@@ -29,7 +29,7 @@ As an LLM, I have no concept of 'later'. Any task I identify, especially tool ma
 *   **COUNTER:** Impassable. Interacting with NPCs behind them requires facing the counter tile.
 *   **HEADBUTT_TREE:** Impassable.
 *   **DOOR:** Functions as a warp.
-*   **LEDGE_HOP_DOWN:** One-way traversal. Confirmed impassable from below.
+*   **LEDGE_HOP_DOWN:** Confirmed one-way traversal. Impassable from below, left, or right. Player can only move down from this tile.
 
 ### Untested Mechanics & Testing Plan:
 *   **FRUIT_TREE:** Interactable. (Confirmed at (5, 39) on Route 30).
