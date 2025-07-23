@@ -86,3 +86,7 @@
 2.  **Puzzle Orchestrator Agent:** Create an agent that can manage multi-step puzzles, like the ones in Victory Road. It would take the overall goal (e.g., 'open the northern barrier') and use my existing `boulder_puzzle_solver` and `gem_pathfinder` tools to generate and execute the full sequence of moves and pushes required.
 3.  **Pokedex Analysis (Review):** Overwatch noted potential overlap with the 'team_composition_advisor_agent'. Review existing agent's capabilities before creating a new one to avoid redundancy.
 - **Elixer Mechanic (Correction):** Elixers only restore PP, not HP. This was verified on Turn 96074 with CRAG in Victory Road 2F.
+
+# V. Urgent Tasks
+
+- **`retreat_planner_agent` Refinement (High Priority):** The agent recommended using an Escape Rope, but I don't have one. I must update its system prompt to require it to check the player's inventory before suggesting item-based solutions. It should provide a walking path if no fast-travel item is available.
