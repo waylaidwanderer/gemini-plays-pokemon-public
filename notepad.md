@@ -107,3 +107,4 @@
     - **Test:** Systematically attempt to use SURF from every accessible `ground` tile adjacent to the water. If all fail, re-explore the western land path to confirm it is a dead end.
   - **Hypothesis 2:** My `robust_pathfinder` has a fundamental bug related to this map's layout.
     - **Test:** After exiting the menu, attempt to pathfind to a simple, adjacent, reachable tile like (12, 105). If it fails, it confirms a deep issue with the tool's logic for this map that needs immediate debugging.
+- **Systematic Debugging:** When a complex tool fails, instead of repeatedly modifying the full script (which risks introducing new bugs), the correct procedure is to first create a minimal, diagnostic version of the tool. This allows for the isolation of the specific point of failure (e.g., grid-parsing, algorithm logic) in a controlled way, leading to a more efficient and reliable fix.
