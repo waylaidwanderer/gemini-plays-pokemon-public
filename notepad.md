@@ -31,3 +31,4 @@
 *   **TALL_GRASS:** Appears fully traversable, but needs confirmation from all directions. *Plan: Walk into a patch from all 4 sides.*
 *   **LEDGE_HOP_LEFT/RIGHT:** Hypothesis: Allows one-way travel over the ledge. I have observed being unable to move onto these from the wrong direction. *Plan: Find an appropriate ledge and test movement from all four directions to confirm.*
 *   **VOID:** Appears impassable. *Plan: Attempt to walk into it from an adjacent tile to confirm.*
+*   **WATER:** Hypothesis: Impassable without Surf. *Plan: Test by attempting to walk into it from an adjacent tile.*
