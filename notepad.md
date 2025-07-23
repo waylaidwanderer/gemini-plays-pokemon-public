@@ -94,7 +94,8 @@
 - **`spinner_maze_solver`:** Rewrote path reconstruction logic to fix a critical bug.
 - **`reachable_shoreline_finder`:** Created to systematically identify valid SURF starting points. Updated on Turn 94090 to handle elevation changes via 'steps' tiles.
 - **`connectivity_checker`:** Deleted due to redundancy with robust pathfinder.
-- **`boulder_puzzle_solver`:** Created on Turn 95239 to solve boulder puzzles by finding a sequence of player movements and boulder pushes.
+- **`boulder_puzzle_solver` (Turn 95239):** Created to solve boulder puzzles by finding a sequence of player movements and boulder pushes.
+- **`boulder_puzzle_solver` (Turn 95271):** Corrected a critical bug in player position tracking after a push, ensuring accurate path generation.
 
 ## C. Agent & Tool Development Ideas
 - **Team Composition Advisor Agent Usage:** Test the existing `team_composition_advisor_agent` for planning a team for multi-battle areas like Victory Road. The agent is already capable of this if given the correct context (treating the area as a multi-stage opponent), so creating a new agent would be redundant.
@@ -121,10 +122,8 @@
 - **Result:** Pathfinding failed repeatedly, indicating the western area is unreachable from the current position.
 - **Conclusion:** The boulder at (3, 11) cannot be used for the switch at (18, 14) from this area.
 
-### Hypothesis 3 (Current)
+### Hypothesis 3 (Active)
 - **Hypothesis:** The boulder at (6, 16) is the correct one for the switch at (18, 14), and there is a complex path to move it there.
-- **Test 3 Plan:**
-  - **Objective:** Move Boulder 1 from (6, 16) to the switch at (18, 14).
-  - **Methodology:** The manual path is too complex and error-prone. I created a dedicated tool, `boulder_puzzle_solver`, to find the optimal sequence of moves.
-  - **Step 1 (Completed):** Called `boulder_puzzle_solver` with the boulder and switch coordinates. The tool returned a valid sequence of moves.
-  - **Step 2 (In Progress):** Execute the sequence of moves provided by the tool.
+- **Methodology:** The manual path is too complex and error-prone. I created and refined a dedicated tool, `boulder_puzzle_solver`, to find the optimal sequence of moves.
+- **Step 1 (Completed):** Called `boulder_puzzle_solver` with the boulder and switch coordinates. The tool returned a valid sequence of moves.
+- **Step 2 (In Progress):** Execute the sequence of moves provided by the tool.
