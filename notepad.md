@@ -114,3 +114,16 @@
 *   **Test Plan:**
     1.  Move Down from (7, 8) to (7, 9).
     2.  Attempt to move Up from (7, 9) to (7, 8).
+
+## XII. NPC Interaction Log
+*   **Youngster (Route 31, ID 2):** Interaction only triggers dialogue about finding a Pokémon in Dark Cave to take on Falkner. Does not initiate a battle. Marker updated to reflect this.
+
+## XIII. Immediate Tile Testing Plan (Route 31)
+*   **Target 1: `CUT_TREE` at (13, 5).**
+    *   **Hypothesis:** Impassable without HM Cut.
+    *   **Alternative Hypothesis:** Standard impassable object.
+    *   **Test:** Attempt to walk into it. Interact with it using 'A'.
+*   **Target 2: `HEADBUTT_TREE` at (13, 4).**
+    *   **Hypothesis:** Impassable but interactable with Headbutt.
+    *   **Alternative Hypothesis:** Standard impassable object.
+    *   **Test:** Attempt to walk into it. Interact with it using 'A'.
