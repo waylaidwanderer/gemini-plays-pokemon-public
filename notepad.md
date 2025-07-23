@@ -64,6 +64,7 @@
 - **Critical Hallucination (Turn 91005 & 91138):** I have repeatedly hallucinated my location. I must ground my actions in the provided game state, not my assumptions.
 - **Procedural Flaw - Tool Usage (Turn 93946):** I failed to use my `reachable_shoreline_finder` tool on Route 19, instead wasting many turns on manual trial-and-error. I must consult my available tools before attempting manual solutions.
 - **Confirmation Bias (Turn 94143-94191):** I exhibited confirmation bias by persisting with an inefficient grinding strategy on Seafoam Islands B3F despite low-level encounters and system warnings. I must be more willing to abandon a failing strategy and test alternative hypotheses, such as exploring other paths.
+- **Procedural Flaw - Tool Debugging (Turn 95293-95310):** I became stuck in a loop of submitting identical, non-functional code while trying to fix a simple typo in my `boulder_puzzle_solver`. This is a critical failure. I must be more meticulous in reviewing my code and the error tracebacks before redefining tools.
 
 ## C. Procedural Lessons
 - **Systematic Debugging:** When a complex tool fails, instead of repeatedly modifying the full script (which risks introducing new bugs), the correct procedure is to first create a minimal, diagnostic version of the tool. This allows for the isolation of the specific point of failure (e.g., grid-parsing, algorithm logic) in a controlled way, leading to a more efficient and reliable fix.
@@ -94,8 +95,9 @@
 - **`spinner_maze_solver`:** Rewrote path reconstruction logic to fix a critical bug.
 - **`reachable_shoreline_finder`:** Created to systematically identify valid SURF starting points. Updated on Turn 94090 to handle elevation changes via 'steps' tiles.
 - **`connectivity_checker`:** Deleted due to redundancy with robust pathfinder.
-- **`boulder_puzzle_solver` (Turn 95239):** Created to solve boulder puzzles by finding a sequence of player movements and boulder pushes.
-- **`boulder_puzzle_solver` (Turn 95271):** Corrected a critical bug in player position tracking after a push, ensuring accurate path generation.
+- **`boulder_puzzle_solver` (Turn 95239-95310):** Created to solve boulder puzzles. The tool underwent several critical fixes:
+  - Corrected player position tracking logic after a push (initially assumed player moved into the old space, then corrected to player remaining at the push spot).
+  - Fixed multiple `NameError` crashes due to typos in variable names (`new_boulder_pos`, `current_boulder_pos`).
 
 ## C. Agent & Tool Development Ideas
 - **Team Composition Advisor Agent Usage:** Test the existing `team_composition_advisor_agent` for planning a team for multi-battle areas like Victory Road. The agent is already capable of this if given the correct context (treating the area as a multi-stage opponent), so creating a new agent would be redundant.
