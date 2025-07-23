@@ -112,7 +112,15 @@
 ### Hypothesis 1 (Turn 95221)
 - Pushing a boulder onto the switch at (18, 14) will open the boulder barrier at (10, 13).
 
-### Test 1 Plan (Turn 95221)
-- **Objective:** Move Boulder 1 from (6, 16) to the switch at (18, 14).
-- **Step 1:** Navigate from current position to an adjacent tile to Boulder 1. (Completed)
-- **Step 2:** Push the boulder right to begin moving it into the open area.
+### Test 1 (FAILED)
+- **Action:** Attempted to push Boulder 1 at (6, 16) to the right.
+- **Result:** Push failed. The boulder did not move.
+- **Conclusion:** Hypothesis 1 cannot be tested with Boulder 1, as it is blocked by an impassable wall at (7, 16).
+
+### Hypothesis 2 (Current)
+- The boulder at (3, 11) is the correct one for the switch at (18, 14).
+
+### Test 2 Plan
+- **Objective:** Move Boulder 2 from (3, 11) to the switch at (18, 14).
+- **Step 1:** Navigate to an adjacent tile to Boulder 2, such as (3, 10).
+- **Step 2:** Push the boulder down into the open area to begin maneuvering it.
