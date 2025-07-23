@@ -116,3 +116,4 @@
 - **Objective:** Move the boulder from (13, 15) to the switch at (18, 14).
 - **Methodology:** The manual path was too complex. I used my `boulder_puzzle_solver` tool to generate the optimal sequence of moves.
 - **Status:** The plan was successfully generated and is currently being executed.
+- **Strength HM Usage:** Unlike the original games, HM04 (Strength) must be activated from the party menu before *each individual push* of a boulder. It is not a persistent effect.
