@@ -52,7 +52,7 @@
 *   **CAVE:** Functions as a warp. *Plan: Verify if it's two-way.*
 
 ## V. Untested Assumptions & Disproof Plans
-*   **Assumption:** The Super Nerd at (24, 12) is a non-trainer NPC.
+*   **Assumption:** The Super Nerd at (25, 12) is a non-trainer NPC.
     *   **Alternative Hypothesis:** He is a trainer who will battle if I talk to him.
     *   **Test:** Move to an adjacent tile and interact with him.
 
