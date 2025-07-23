@@ -17,6 +17,7 @@
 - **Elevated Ground:** Walkable ground at a different elevation. Cannot use Surf from this tile type.
 - **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close.
 - **Boulder Switch & Barrier:** `boulder_switch` tiles are activated by boulders, which changes a `boulder_barrier` tile into a `cleared_boulder_barrier` tile.
+- **Cleared Boulder Barrier:** Can function as a ramp between different elevations.
 
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
@@ -50,15 +51,16 @@
 - **Misleading Battle Text:** The on-screen text for move effectiveness can be incorrect. The actual damage calculation follows my verified type chart.
 - **Ground-Type Immunity Extension:** Ground-types are immune to Electric-type *status* moves (like THUNDER WAVE).
 
-# III. Strategic Lessons & Reflections (Archive)
+# III. Strategic Lessons & Reflections (New)
+- **Confirmation Bias on Route 23 (Turn 95544):** I repeatedly failed to find a land-only path to Victory Road but persisted with workarounds instead of accepting the tool's output, which indicated a water crossing was mandatory. This wasted significant time. Lesson: Trust the data from my tools over my own assumptions, and if a hypothesis is repeatedly falsified, abandon it immediately.
 
+# IV. Strategic Lessons & Reflections (Archive)
 *This section contains a log of past failures and corrected procedural flaws. It serves as a reminder of lessons learned to prevent repeating them.*
-
 - **Core Lesson:** Trust data (game state, tool outputs) over intuition. Abandon failing strategies immediately. Adhere to the scientific method for all puzzles (Observe, Hypothesize, Test, Conclude, Experiment).
 - **Procedural Mandates:** All tool/agent maintenance and data correction are the immediate, highest-priority action. When a core logic bug is found, audit all other tools for the same flaw. Consult map markers and available tools before acting. Use systematic, minimal tests for debugging complex tools.
 - **Past Hallucinations:** I have a history of hallucinating game state (location, battle outcomes, badge count). I must strictly ground all actions and reasoning in the provided Game State Information as the single source of truth.
 
-# IV. Agent & Tool Refinement Log
+# V. Agent & Tool Refinement Log
 
 ## A. Completed Refinements
 - **Battle Strategist Agent (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor. This was done after it provided flawed advice in the battle against Giovanni's Dugtrio.
@@ -76,8 +78,9 @@
 
 ## C. Agent & Tool Development Ideas
 - **Team Composition Advisor Agent Usage:** Test the existing `team_composition_advisor_agent` for planning a team for multi-battle areas like Victory Road. The agent is already capable of this if given the correct context (treating the area as a multi-stage opponent), so creating a new agent would be redundant.
+- **Pokedex Analysis Agent:** Create an agent that analyzes the Pokedex and suggests which Pokémon to target for capture based on type needs for upcoming battles or areas.
 
-# V. Puzzles
+# VI. Puzzles
 
 ## Victory Road 1F Boulder Puzzle
 
@@ -95,7 +98,3 @@
 
 ### Boulder Puzzle 1 Conclusion (Corrected on Turn 95388)
 - **HYPOTHESIS CONFIRMED:** Pushing the boulder at (13, 15) onto the switch at (18, 14) successfully opened the `boulder_barrier` at (10, 13), changing it to `cleared_boulder_barrier`. My previous conclusion on Turn 95374 was a critical hallucination. The path north is now open.
-
-# V. Strategic Lessons & Reflections (New)
-
-- **Confirmation Bias on Route 23 (Turn 95544):** I repeatedly failed to find a land-only path to Victory Road but persisted with workarounds instead of accepting the tool's output, which indicated a water crossing was mandatory. This wasted significant time. Lesson: Trust the data from my tools over my own assumptions, and if a hypothesis is repeatedly falsified, abandon it immediately.
