@@ -50,38 +50,13 @@
 - **Misleading Battle Text:** The on-screen text for move effectiveness can be incorrect. The actual damage calculation follows my verified type chart.
 - **Ground-Type Immunity Extension:** Ground-types are immune to Electric-type *status* moves (like THUNDER WAVE).
 
-# III. Strategic Lessons & Reflections
+# III. Strategic Lessons & Reflections (Archive)
 
-## A. CRITICAL FAILURE ANALYSIS: Confirmation Bias & Tool Trust
-- **The Lesson:** I must trust the data (map, system warnings, tool outputs) over my own intuition. A single failed test is strong evidence against a hypothesis; multiple failures are conclusive proof. I must be willing to abandon a failing strategy immediately and pivot to a new one.
+*This section contains a log of past failures and corrected procedural flaws. It serves as a reminder of lessons learned to prevent repeating them.*
 
-## B. Strategic Reflections & Self-Correction
-- **Menu Efficiency:** Cycling through the Fly menu was inefficient. I must be more systematic in menu navigation to avoid wasting turns.
-- **Critical Hallucination (Turn 90331 & 90537):** I recorded a rematch against Giovanni that never happened and believed I had the Earth Badge. This is a severe error. I must strictly adhere to the Game State Information as the single source of truth.
-- **Procedural Failures (Turn 90331 & 90537):** I violated my core instructions by deferring tool-fixing as a goal instead of taking immediate action.
-- **Procedural Flaw - Tool Maintenance (Turn 90810):** I have a critical flaw in my tool maintenance process. After fixing a fundamental logic error in one tool, I failed to proactively audit my other tools for the same bug.
-- **Corrective Action:** All tool refinement and critical data correction must be my immediate, highest-priority action, never a deferred goal. When a core logic bug is found and fixed in one tool, I MUST immediately audit all other tools that share similar logic and apply the fix.
-- **Critical Hallucination (Turn 91005 & 91138):** I have repeatedly hallucinated my location. I must ground my actions in the provided game state, not my assumptions.
-- **Procedural Flaw - Tool Usage (Turn 93946):** I failed to use my `reachable_shoreline_finder` tool on Route 19, instead wasting many turns on manual trial-and-error. I must consult my available tools before attempting manual solutions.
-- **Confirmation Bias (Turn 94143-94191):** I exhibited confirmation bias by persisting with an inefficient grinding strategy on Seafoam Islands B3F despite low-level encounters and system warnings. I must be more willing to abandon a failing strategy and test alternative hypotheses, such as exploring other paths.
-- **Procedural Flaw - Tool Debugging (Turn 95293-95310):** I became stuck in a loop of submitting identical, non-functional code while trying to fix a simple typo in my `boulder_puzzle_solver`. This is a critical failure. I must be more meticulous in reviewing my code and the error tracebacks before redefining tools.
-
-## C. Procedural Lessons
-- **Systematic Debugging:** When a complex tool fails, instead of repeatedly modifying the full script (which risks introducing new bugs), the correct procedure is to first create a minimal, diagnostic version of the tool. This allows for the isolation of the specific point of failure (e.g., grid-parsing, algorithm logic) in a controlled way, leading to a more efficient and reliable fix.
-- **Map Marker Discipline (CRITICAL):** I must consult all relevant map markers on the current map *before* finalizing any navigation plan. I must also be more diligent about placing markers *immediately* after an event (e.g., using a warp).
-- **Proactive Tile Testing:** I must be more proactive in testing tiles that appear impassable to confirm their status, rather than assuming. The results of these tests should be documented.
-- **Immediate Action Mandate (CRITICAL):** As an LLM, I have no 'later'. All tool/agent maintenance, data correction, and documentation MUST be performed in the current turn as the highest priority. Deferring tasks is a critical failure.
-- **Map Marker Discipline (Reinforcement):** I must be more diligent about placing markers for both the entry and exit points of a warp *immediately* after using it to avoid confusion and redundant markers.
-
-## D. Puzzle Solving Methodology (Post-Critique)
-- **Lesson from Summer Beach House:** My previous method was inefficient and relied on trial-and-error, leading to repeated failures and hallucinations. 
-- **New Procedure:** For all future puzzles, I will follow a strict scientific method:
-  1. **Observe:** Document the initial state of the puzzle in my notepad.
-  2. **Hypothesize:** Formulate a single, clear, testable hypothesis.
-  3. **Test:** Execute the simplest possible action to test the hypothesis.
-  4. **Conclude:** Record the result and whether the hypothesis was confirmed or falsified.
-  5. **Experiment:** After confirming a hypothesis, I will try to disprove it or test edge cases to avoid making broad assumptions from a single data point.
-- This structured approach will prevent looping and ensure I am building on my knowledge systematically.
+- **Core Lesson:** Trust data (game state, tool outputs) over intuition. Abandon failing strategies immediately. Adhere to the scientific method for all puzzles (Observe, Hypothesize, Test, Conclude, Experiment).
+- **Procedural Mandates:** All tool/agent maintenance and data correction are the immediate, highest-priority action. When a core logic bug is found, audit all other tools for the same flaw. Consult map markers and available tools before acting. Use systematic, minimal tests for debugging complex tools.
+- **Past Hallucinations:** I have a history of hallucinating game state (location, battle outcomes, badge count). I must strictly ground all actions and reasoning in the provided Game State Information as the single source of truth.
 
 # IV. Agent & Tool Refinement Log
 
