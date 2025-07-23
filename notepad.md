@@ -43,6 +43,7 @@
   - DUGTRIO (Lv53) - Moves: Fissure, Slash, Earthquake, Rock Slide
   - NIDOQUEEN (Lv54) - Moves: Ice Beam, Earthquake, Thunderbolt, Body Slam
   - PERSIAN (Lv55) - Moves: Bubblebeam, Slash, Hyper Beam, Thunderbolt
+  - RHYDON (Lv55) - Moves: Rock Slide, Earthquake
 
 ## C. Battle Lessons
 - **Level Disparity:** A large level gap can be more dangerous than type immunity.
