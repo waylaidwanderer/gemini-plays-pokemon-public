@@ -129,3 +129,9 @@
 - **Methodology:** The manual path is too complex and error-prone. I created and refined a dedicated tool, `boulder_puzzle_solver`, to find the optimal sequence of moves.
 - **Step 1 (Completed):** Called `boulder_puzzle_solver` with the boulder and switch coordinates. The tool returned a valid sequence of moves.
 - **Step 2 (In Progress):** Execute the sequence of moves provided by the tool.
+
+### Hypothesis 4 (Active)
+- **Hypothesis:** The boulder at (13, 15) is the correct one for the switch at (18, 14).
+- **Methodology:** The manual path is too complex and error-prone. I will use my dedicated tool, `boulder_puzzle_solver`, to find the optimal sequence of moves.
+- **Step 1 (In Progress):** Call `boulder_puzzle_solver` with the boulder at (13, 15) and switch at (18, 14).
+- **Step 2 (Pending):** Execute the sequence of moves provided by the tool.
