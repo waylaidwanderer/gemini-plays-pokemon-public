@@ -1,6 +1,6 @@
-# I. Game Mechanics & Discoveries
+# I. Game Mechanics
 
-## A. Verified Tile Mechanics
+## A. Tile Mechanics
 - **Ground:** Standard walkable tile.
 - **Impassable:** Walls, objects, etc. Cannot be entered.
 - **Grass:** Tall grass for wild Pokémon encounters.
