@@ -98,3 +98,20 @@
 ## C. Agent & Tool Development Ideas
 - **Team Composition Advisor Agent Usage:** Test the existing `team_composition_advisor_agent` for planning a team for multi-battle areas like Victory Road. The agent is already capable of this if given the correct context (treating the area as a multi-stage opponent), so creating a new agent would be redundant.
 - **`boulder_puzzle_solver_tool`:** Create a new tool to solve the boulder puzzles in Victory Road. It would take the map XML as input and output a sequence of moves to push the boulder(s) to the target switch(es).
+
+# V. Puzzles
+
+## Victory Road 1F Boulder Puzzle
+
+### Observation (Turn 95221)
+- Boulder 1 at (6, 16).
+- Boulder 2 at (3, 11).
+- Boulder Switch at (18, 14).
+- Boulder Barrier at (10, 13), blocking path north.
+
+### Hypothesis 1 (Turn 95221)
+- Pushing a boulder onto the switch at (18, 14) will open the boulder barrier at (10, 13).
+
+### Test 1 Plan (Turn 95221)
+- **Objective:** Move Boulder 1 from (6, 16) to the switch at (18, 14).
+- **Step 1:** Navigate from current position (14, 15) to an adjacent tile to Boulder 1, such as (5, 16).
