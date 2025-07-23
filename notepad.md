@@ -43,3 +43,5 @@ As an LLM, I have no concept of 'later'. Any task I identify, especially tool ma
 ## Agent Ideas (Future Development)
 *   **Strategy Agent:** Could take party/opponent info and suggest battle plans.
 *   **Exploration Agent:** Could prioritize navigation goals based on a list of unseen tiles and primary objectives.
+*   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal from right to left. Impassable from the left.
+*   **WARP_CARPET_DOWN:** Functions as a two-way warp.
