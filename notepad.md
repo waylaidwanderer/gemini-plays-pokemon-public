@@ -53,3 +53,4 @@
 *   **LEDGE_HOP_LEFT/RIGHT:** Hypothesis: One-way traversal. *Plan: Attempt to walk onto it from the opposing direction.*
 *   **WATER:** Hypothesis: Impassable without HM Surf. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **CAVE:** Functions as a warp. *Plan: Verify if it's two-way.*
+*   **SPROUT TOWER:** Mentioned by the Officer in the Route 31 Gatehouse. Sounds important.
