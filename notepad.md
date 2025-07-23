@@ -84,23 +84,6 @@
 
 # VI. Puzzles
 
-## Victory Road 1F Boulder Puzzle
-
-### Observation (Turn 95221)
-- Boulder 1 at (6, 16).
-- Boulder 2 at (3, 11).
-- Boulder Switch at (18, 14).
-- Boulder Barrier at (10, 13), blocking path north.
-
-### Solution (Turn 95330)
-- **Objective:** Move the boulder from (13, 15) to the switch at (18, 14).
-- **Methodology:** The manual path was too complex. I used my `boulder_puzzle_solver` tool to generate the optimal sequence of moves.
-- **Status:** The plan was successfully generated and is currently being executed.
-- **Strength HM Usage:** Unlike the original games, HM04 (Strength) must be activated from the party menu before *each individual push* of a boulder. It is not a persistent effect.
-
-### Boulder Puzzle 1 Conclusion (Corrected on Turn 95388)
-- **HYPOTHESIS CONFIRMED:** Pushing the boulder at (13, 15) onto the switch at (18, 14) successfully opened the `boulder_barrier` at (10, 13), changing it to `cleared_boulder_barrier`. My previous conclusion on Turn 95374 was a critical hallucination. The path north is now open.
-
 ### Cool Trainer M (Victory Road 1F)
 - **Team:**
   - ELECTABUZZ (Lv53)
