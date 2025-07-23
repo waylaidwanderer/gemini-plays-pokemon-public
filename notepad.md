@@ -94,3 +94,7 @@
 # V. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
 - **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored.
+
+## E. New Procedural Notes (Post-Reflection)
+- **Boulder Puzzle Mechanics:** Boulders cannot be pushed directly into standard `water` tiles. They must be pushed into `hole` tiles to affect lower floors.
+- **Map Marker Discipline (Reinforcement):** I must be more diligent about placing markers for both the entry and exit points of a warp *immediately* after using it to avoid confusion and redundant markers.
