@@ -72,6 +72,7 @@
 - **Battle Strategist Agent (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor.
 - **Battle Strategist Agent (Turn 94114):** Updated agent prompt to correctly interpret the 'training' goal, prioritizing EXP gain for lower-level party members over simply winning with the strongest Pokémon.
 - **`delete_map_marker` Tool (Turn 95077):** Standardized gate markers to use '✅' for open and '⛔' for closed.
+- **`retreat_planner_agent` (Turn 96236):** Refined the agent's system prompt to require it to check the player's inventory before suggesting item-based solutions. It will now provide a walking path if no fast-travel item is available.
 
 ## B. Tool Development Log
 - **Pathfinder & Boulder Puzzle Solver:** Fixed a bug preventing land-to-water SURF transitions and corrected ledge traversal logic. Consolidated redundant tools.
@@ -82,11 +83,6 @@
 - **`boulder_puzzle_solver` (Turn 95239-95310):** Created and refined to solve boulder puzzles, correcting multiple logic and crash bugs.
 
 ## C. Future Development Ideas (Prioritized)
-- **Retreat Planner Agent:** Created to generate safe retreat paths to Pokémon Centers.
-2.  **Puzzle Orchestrator Agent:** Create an agent that can manage multi-step puzzles, like the ones in Victory Road. It would take the overall goal (e.g., 'open the northern barrier') and use my existing `boulder_puzzle_solver` and `gem_pathfinder` tools to generate and execute the full sequence of moves and pushes required.
-3.  **Pokedex Analysis (Review):** Overwatch noted potential overlap with the 'team_composition_advisor_agent'. Review existing agent's capabilities before creating a new one to avoid redundancy.
+- **Puzzle Orchestrator Agent:** Create an agent that can manage multi-step puzzles, like the ones in Victory Road. It would take the overall goal (e.g., 'open the northern barrier') and use my existing `boulder_puzzle_solver` and `gem_pathfinder` tools to generate and execute the full sequence of moves and pushes required.
+- **Pokedex Analysis (Review):** Overwatch noted potential overlap with the 'team_composition_advisor_agent'. Review existing agent's capabilities before creating a new one to avoid redundancy.
 - **Elixer Mechanic (Correction):** Elixers only restore PP, not HP. This was verified on Turn 96074 with CRAG in Victory Road 2F.
-
-# V. Urgent Tasks
-
-- **`retreat_planner_agent` Refinement (High Priority):** The agent recommended using an Escape Rope, but I don't have one. I must update its system prompt to require it to check the player's inventory before suggesting item-based solutions. It should provide a walking path if no fast-travel item is available.
