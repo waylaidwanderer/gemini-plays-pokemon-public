@@ -81,7 +81,7 @@
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
 - **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored.
 
-# V. Future Strategy
+# VI. Future Strategy
 - **Giovanni Prep:** Use `team_composition_advisor_agent` before the next attempt.
 - **Training Location:** Seafoam Islands is the current target for grinding after finding Route 21 unsuitable.
 
