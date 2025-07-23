@@ -3,7 +3,7 @@
 ## Current Plan
 1. I am in the Guide Gent's house in Cherrygrove City.
 2. My immediate goal is to talk to GRAMPS.
-3. After, I will leave and explore the final building in the city, the Poké Mart at (31, 11).
+3. After, I will leave and explore the final building in the city, the Poké Mart at (23, 3).
 
 ## Key NPCs and Locations
 *   **Professor Elm:** Gave me my starter, Vulcan. Wants me to find Mr. Pokémon.
