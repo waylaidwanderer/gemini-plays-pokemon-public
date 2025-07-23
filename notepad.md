@@ -66,3 +66,7 @@
         *   Miasma (Gastly, Ghost/Poison): Resistant to Normal-type attacks, but vulnerable to Flying. Lick won't work on Pidgey/Pidgeotto (Normal/Flying). Hypnosis could be useful.
         *   Warden (Hoothoot, Normal/Flying): No clear advantage or disadvantage.
     *   **Plan:** Lead with Vulcan to sweep with Ember. Keep Miasma in reserve for status effects if needed.
+
+## Turn 2203 Reflection
+*   **Agent Failure:** `battle_strategist` failed with a server error. I am refining its prompt to be more aware of stat changes.
+*   **Gym Puzzle Hypothesis:** My current assumption is that defeating all trainers is the only way to reach the leader. An alternative hypothesis is that there is a hidden switch or puzzle. I will test this by interacting with the gym statues after defeating the trainers.
