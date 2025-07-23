@@ -43,3 +43,4 @@ To ensure a complete understanding of game mechanics, I will systematically test
 *   **VOID:** *Plan: Attempt to walk into it from an adjacent traversable tile.*
 *   **WATER/WATER_EDGE:** *Plan: Attempt to walk into it from an adjacent traversable tile.*
 *   **BOOKSHELF/RADIO/TV/WINDOW/TOWN_MAP:** *Plan: Attempt to walk into each from all available adjacent tiles to confirm they are impassable walls.*
+*   **LEDGE_HOP_DOWN:** One-way traversal. Confirmed impassable from below.
