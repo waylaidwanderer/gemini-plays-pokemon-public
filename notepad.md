@@ -21,3 +21,17 @@
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above. (Test at Route 31 (7, 9) confirmed).
+
+## XV. Grinding Log (Route 31)
+*   **Battle Log:**
+    *   Defeated wild Bellsprout (Lv. 5).
+    *   Defeated wild Caterpie (Lv. 4). Miasma grew to Lv. 12.
+    *   Defeated wild Bellsprout (Lv. 5).
+    *   Defeated wild Ledyba (Lv. 4).
+    *   Defeated wild Bellsprout (Lv. 5).
+    *   Defeated wild Pidgey (Lv. 5).
+    *   Defeated wild Ledyba (Lv. 4).
+    *   Defeated wild Bellsprout (Lv. 5).
+    *   Defeated wild Weedle (Lv. 4). Miasma grew to Lv. 13 and learned MEAN LOOK.
+    *   Defeated wild Bellsprout (Lv. 5).
+    *   Defeated wild Ledyba (Lv. 4).
