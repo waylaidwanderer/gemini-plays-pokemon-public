@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## Current Plan
-1. I am on Route 30, exploring the path north.
-2. A new item has appeared! My immediate goal is to go get the Poké Ball at (8, 35).
-3. After getting the item, I will continue north to find Mr. Pokémon.
+1. A battle between two trainers is blocking the main path north. I will investigate by approaching the spectator Youngster at (5, 26).
+2. My primary objective is to find Mr. Pokémon's house, which is believed to be north of this point.
+3. I will continue to systematically test new tile mechanics as I encounter them.
 
 ## Key NPCs and Locations
 *   **Professor Elm:** Gave me my starter, Vulcan. Wants me to find Mr. Pokémon.
