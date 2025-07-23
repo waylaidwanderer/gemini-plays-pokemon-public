@@ -2,7 +2,7 @@
 
 ## Current Plan
 1. Interact with the Youngster on Route 29.
-2. Test the `find_path` tool to navigate west towards Cherrygrove City.
+2. Test the `find_path_bfs` tool to navigate west towards Cherrygrove City.
 3. Find Mr. Pokémon's house, which is past Cherrygrove.
 4. Get the item from Mr. Pokémon and return to Professor Elm.
 
@@ -30,4 +30,3 @@
 *   **LEDGE_HOP_DOWN:** Hypothesis: Allows downward travel over the ledge. *Plan: Find a ledge and attempt to move down onto it, then attempt to move back up.*
 *   **LEDGE_HOP_LEFT:** Hypothesis: Allows leftward travel over the ledge. *Plan: Find a ledge and attempt to move left onto it, then attempt to move back right.*
 *   **VOID:** Appears impassable. *Plan: Attempt to walk into it from an adjacent tile.*
-* **Stun Mechanic:** Interacting with a stunned NPC appears to automatically unstun them.
