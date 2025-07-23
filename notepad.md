@@ -93,7 +93,4 @@
 
 ## XI. Agent Development & Refinement
 
-### Future Agent Ideas (From Reflection)
-*   **Team Composition Advisor:** An agent that takes my current party and PC box Pokémon and suggests an optimal team for upcoming challenges like Gyms.
-*   **Nickname Generator:** A creative agent to suggest fun, unique nicknames for newly caught Pokémon, to enhance the stream experience.
 *   **Stall Battle Analyst:** An agent to help manage long, attrition-based battles by tracking sleep turns, PP usage, and calculating success probability.
