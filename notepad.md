@@ -21,7 +21,8 @@
 *   **FLOOR:** Traversable.
 *   **WALL:** Impassable.
 *   **HEADBUTT_TREE:** Impassable.
-*   **LEDGE_HOP_RIGHT:** One-way traversal from left to right. Confirmed impassable from the right side (east).
+*   **LEDGE_HOP_RIGHT:** One-way traversal from left to right. Impassable from right, above, or below.
+*   **LEDGE_HOP_DOWN:** One-way traversal from top to bottom. Impassable from below, left, or right.
 *   **WARP_CARPET_DOWN:** Requires pressing 'Down' while standing on the tile to activate.
 
 ### Untested Mechanics & Testing Plan:
