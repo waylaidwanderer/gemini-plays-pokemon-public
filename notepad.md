@@ -51,3 +51,9 @@
 
 ## V. Future Development Ideas & Tasks
 *   **Task: `marker_fix`:** The marker for the Sage at (12, 3) on SproutTower2F is not linked to its object ID. Must re-define the marker with the correct `object_id` as soon as the Sage is on-screen again.
+## VI. Hypothesis Testing
+*   **Sprout Tower 1F Exit (Turn 2124):**
+    *   **Hypothesis:** The Sage at (3, 5) is a trainer blocking the exit path.
+    *   **Test:** Interacted with the Sage.
+    *   **Result:** The Sage only provided dialogue ('All living beings coexist...'). He did not initiate a battle.
+    *   **Conclusion:** Hypothesis is **false**. The path is not blocked by a trainer battle at this location.
