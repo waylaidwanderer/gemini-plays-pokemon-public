@@ -1,41 +1,4 @@
 {
-  "find_reachable_unseen_tiles": {
-    "description": "Analyzes the current map to find all unseen tiles that are adjacent to seen, traversable tiles and determines which of them are actually reachable from the player's current position by pathing only through seen tiles. Outputs a JSON list of coordinate dictionaries for reachable unseen tiles.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ntree = ET.fromstring(map_xml_string)\nmap_width = int(tree.get('width'))\nmap_height = int(tree.get('height'))\n\ngrid = [[None for _ in range(map_width + 1)] for _ in range(map_height + 1)]\nplayer_pos = None\n\nfor row_elem in tree.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        grid[y][x] = tile_elem\n        if tile_elem.find('Player') is not None:\n            player_pos = (x, y)\n\nif not player_pos:\n    print(json.dumps([]))\n    exit()\n\nTRAVERSABLE_TILES = {\n    'FLOOR', 'TALL_GRASS', 'DOOR', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT',\n    'WARP_CARPET_RIGHT', 'LONG_GRASS', 'STAIRS'\n}\n\nONE_WAY_TILES = {\n    'LEDGE_HOP_DOWN': (0, 1),\n    'LEDGE_HOP_LEFT': (-1, 0),\n    'LEDGE_HOP_RIGHT': (1, 0)\n}\n\ndef is_traversable(x, y, from_x, from_y, grid):\n    if not (1 <= y < len(grid) and 1 <= x < len(grid[0])):\n        return False\n    tile = grid[y][x]\n    if tile is None or tile.get('seen') == 'false':\n        return False\n    tile_type = tile.get('type')\n    if tile.get('has-object') == 'true':\n        return False\n    if tile_type in TRAVERSABLE_TILES:\n        return True\n    if tile_type in ONE_WAY_TILES:\n        dx, dy = ONE_WAY_TILES[tile_type]\n        if x == from_x + dx and y == from_y + dy:\n            return True\n    return False\n\n# 1. Find all reachable 'seen' tiles from player position\nqueue = deque([player_pos])\nreachable_seen_tiles = {player_pos}\n\nwhile queue:\n    current_x, current_y = queue.popleft()\n    for move_dx, move_dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        next_x, next_y = current_x + move_dx, current_y + move_dy\n        if (next_x, next_y) not in reachable_seen_tiles and is_traversable(next_x, next_y, current_x, current_y, grid):\n            reachable_seen_tiles.add((next_x, next_y))\n            queue.append((next_x, next_y))\n\n# 2. Identify all unseen tiles adjacent to any traversable seen tile\nunseen_targets = []\nfor y in range(1, map_height + 1):\n    for x in range(1, map_width + 1):\n        tile = grid[y][x]\n        if tile is not None and tile.get('seen') == 'false':\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                adj_x, adj_y = x + dx, y + dy\n                if (adj_x, adj_y) in reachable_seen_tiles:\n                    unseen_targets.append({'x': x, 'y': y})\n                    break\n\nunique_reachable = [dict(t) for t in {tuple(d.items()) for d in unseen_targets}]\nprint(json.dumps(unique_reachable))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool performs a BFS from the player's position to every unseen tile that is adjacent to a seen, traversable tile. This will automate exploration and ensure no paths are missed.",
-        "timestamp": "2025-07-23T08:08:37.279Z",
-        "action_counter": 1217
-      },
-      {
-        "commit_message": "fix: Prevent pathfinding through unseen tiles. The previous version of the tool was incorrectly finding paths through unseen areas, leading to invalid suggestions of unreachable tiles. This update incorporates the same seen-tile-only logic from the main pathfinder to ensure it only identifies truly reachable unseen tiles.",
-        "timestamp": "2025-07-23T10:04:20.643Z",
-        "action_counter": 1421
-      },
-      {
-        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool performs a BFS from the player's position to every unseen tile that is adjacent to a seen, traversable tile. This will automate exploration and ensure no paths are missed.",
-        "timestamp": "2025-07-23T15:50:21.504Z",
-        "action_counter": 2100
-      },
-      {
-        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool performs a BFS from the player's position to every unseen tile that is adjacent to a seen, traversable tile. This will automate exploration and ensure no paths are missed.",
-        "timestamp": "2025-07-23T18:33:41.575Z",
-        "action_counter": 2411
-      },
-      {
-        "commit_message": "fix: Correct tuple unpacking in BFS loop. The loop was attempting to unpack a 3-item tuple into 2 variables, causing a ValueError. It now correctly unpacks into 3 variables and uses the direction name for path construction.",
-        "timestamp": "2025-07-23T18:35:08.239Z",
-        "action_counter": 2413
-      },
-      {
-        "commit_message": "fix: Refactor to use a single BFS for efficiency. The previous version ran a pathfinding check for every potential unseen tile, which was inefficient and buggy. This new version runs a single BFS from the player's position to find all reachable 'seen' tiles, then identifies which unseen tiles are adjacent to that set. This is a more robust and correct approach.",
-        "timestamp": "2025-07-23T19:31:47.636Z",
-        "action_counter": 2513
-      }
-    ]
-  },
   "find_path_to_target": {
     "description": "Finds the shortest path from the player's current position to a specified target coordinate using a Breadth-First Search algorithm. It correctly handles one-way ledges and will find a path to a tile adjacent to the target if the target itself is impassable. It will not traverse unseen tiles.",
     "input_schema": {
@@ -79,6 +42,43 @@
         "commit_message": "fix: Add PC to impassable tiles. The pathfinder was incorrectly routing through PC terminals, causing movement to fail. This update adds 'PC' to the list of impassable tile types, ensuring the tool generates valid paths in areas like Pokémon Centers.",
         "timestamp": "2025-07-23T12:32:35.999Z",
         "action_counter": 1733
+      }
+    ]
+  },
+  "find_reachable_unseen_tiles": {
+    "description": "Analyzes the current map to find all unseen tiles that are adjacent to seen, traversable tiles and determines which of them are actually reachable from the player's current position by pathing only through seen tiles. Outputs a JSON list of coordinate dictionaries for reachable unseen tiles.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ntree = ET.fromstring(map_xml_string)\nmap_width = int(tree.get('width'))\nmap_height = int(tree.get('height'))\n\ngrid = [[None for _ in range(map_width + 1)] for _ in range(map_height + 1)]\nplayer_pos = None\n\nfor row_elem in tree.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        grid[y][x] = tile_elem\n        if tile_elem.find('Player') is not None:\n            player_pos = (x, y)\n\nif not player_pos:\n    print(json.dumps([]))\n    exit()\n\nTRAVERSABLE_TILES = {\n    'FLOOR', 'TALL_GRASS', 'DOOR', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT',\n    'WARP_CARPET_RIGHT', 'LONG_GRASS', 'STAIRS'\n}\n\nONE_WAY_TILES = {\n    'LEDGE_HOP_DOWN': (0, 1),\n    'LEDGE_HOP_LEFT': (-1, 0),\n    'LEDGE_HOP_RIGHT': (1, 0)\n}\n\ndef is_traversable(x, y, from_x, from_y, grid):\n    if not (1 <= y < len(grid) and 1 <= x < len(grid[0])):\n        return False\n    tile = grid[y][x]\n    if tile is None or tile.get('seen') == 'false':\n        return False\n    tile_type = tile.get('type')\n    if tile.get('has-object') == 'true':\n        return False\n    if tile_type in TRAVERSABLE_TILES:\n        return True\n    if tile_type in ONE_WAY_TILES:\n        dx, dy = ONE_WAY_TILES[tile_type]\n        if x == from_x + dx and y == from_y + dy:\n            return True\n    return False\n\n# 1. Find all reachable 'seen' tiles from player position\nqueue = deque([player_pos])\nreachable_seen_tiles = {player_pos}\n\nwhile queue:\n    current_x, current_y = queue.popleft()\n    for move_dx, move_dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        next_x, next_y = current_x + move_dx, current_y + move_dy\n        if (next_x, next_y) not in reachable_seen_tiles and is_traversable(next_x, next_y, current_x, current_y, grid):\n            reachable_seen_tiles.add((next_x, next_y))\n            queue.append((next_x, next_y))\n\n# 2. Identify all unseen tiles adjacent to any traversable seen tile\nunseen_targets = []\nfor y in range(1, map_height + 1):\n    for x in range(1, map_width + 1):\n        tile = grid[y][x]\n        if tile is not None and tile.get('seen') == 'false':\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                adj_x, adj_y = x + dx, y + dy\n                if (adj_x, adj_y) in reachable_seen_tiles:\n                    unseen_targets.append({'x': x, 'y': y})\n                    break\n\nunique_reachable = [dict(t) for t in {tuple(d.items()) for d in unseen_targets}]\nprint(json.dumps(unique_reachable))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool performs a BFS from the player's position to every unseen tile that is adjacent to a seen, traversable tile. This will automate exploration and ensure no paths are missed.",
+        "timestamp": "2025-07-23T08:08:37.279Z",
+        "action_counter": 1217
+      },
+      {
+        "commit_message": "fix: Prevent pathfinding through unseen tiles. The previous version of the tool was incorrectly finding paths through unseen areas, leading to invalid suggestions of unreachable tiles. This update incorporates the same seen-tile-only logic from the main pathfinder to ensure it only identifies truly reachable unseen tiles.",
+        "timestamp": "2025-07-23T10:04:20.643Z",
+        "action_counter": 1421
+      },
+      {
+        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool performs a BFS from the player's position to every unseen tile that is adjacent to a seen, traversable tile. This will automate exploration and ensure no paths are missed.",
+        "timestamp": "2025-07-23T15:50:21.504Z",
+        "action_counter": 2100
+      },
+      {
+        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool performs a BFS from the player's position to every unseen tile that is adjacent to a seen, traversable tile. This will automate exploration and ensure no paths are missed.",
+        "timestamp": "2025-07-23T18:33:41.575Z",
+        "action_counter": 2411
+      },
+      {
+        "commit_message": "fix: Correct tuple unpacking in BFS loop. The loop was attempting to unpack a 3-item tuple into 2 variables, causing a ValueError. It now correctly unpacks into 3 variables and uses the direction name for path construction.",
+        "timestamp": "2025-07-23T18:35:08.239Z",
+        "action_counter": 2413
+      },
+      {
+        "commit_message": "fix: Refactor to use a single BFS for efficiency. The previous version ran a pathfinding check for every potential unseen tile, which was inefficient and buggy. This new version runs a single BFS from the player's position to find all reachable 'seen' tiles, then identifies which unseen tiles are adjacent to that set. This is a more robust and correct approach.",
+        "timestamp": "2025-07-23T19:31:47.636Z",
+        "action_counter": 2513
       }
     ]
   }

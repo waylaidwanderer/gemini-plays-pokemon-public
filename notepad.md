@@ -35,3 +35,8 @@
     *   Defeated wild Weedle (Lv. 4). Miasma grew to Lv. 13 and learned MEAN LOOK.
     *   Defeated wild Bellsprout (Lv. 5).
     *   Defeated wild Ledyba (Lv. 4).
+
+## XV. Post-Reflection Tile Additions
+*   **WATER:** Hypothesis: Impassable without HM Surf. *Plan: Attempt to walk into it from an adjacent tile.*
+*   **CAVE:** Functions as a warp. *Plan: Verify if it's two-way.*
+*   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal. *Plan: Attempt to walk onto it from the opposing direction.*
