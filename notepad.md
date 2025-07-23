@@ -45,8 +45,3 @@ As an LLM, I have no concept of 'later'. Any task I identify, especially tool ma
 *   **CUT_TREE:** Hypothesis: Impassable without HM Cut. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal from right to left. *Plan: Attempt to walk onto it from the left.*
 *   **WATER:** Hypothesis: Impassable without HM Surf. *Plan: Attempt to walk into it from an adjacent tile.*
-
-## Agent Ideas (Future Development)
-*   **Strategy Agent:** Could take party/opponent info and suggest battle plans.
-*   **Exploration Agent:** Could prioritize navigation goals based on a list of unseen tiles and primary objectives.
-*   **Pathfinding Tool:** The `find_path` tool has been created to handle navigation.
