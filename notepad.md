@@ -95,11 +95,5 @@
   - CHARIZARD (Lv52) - Moves: Flamethrower, Slam
   - MAGNETON (Lv52)
 
-### Cool Trainer M (Victory Road 3F)
-- **Location:** (29, 6)
-- **Team:**
-  - CHARIZARD (Lv52) - Moves: Flamethrower, Slam
-  - MAGNETON (Lv52)
-
 # V. Tool Development Backlog
 - **`gem_pathfinder` Bug:** The tool generates paths that transition from land to water even when the target is on land, causing movement to fail. It needs to be updated to handle land-only pathing correctly, possibly by adding a state for 'walking' vs 'surfing' or by disallowing land-to-water transitions when the final destination is on land.
