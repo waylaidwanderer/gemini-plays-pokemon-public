@@ -120,7 +120,14 @@
 ### Hypothesis 2 (Current)
 - The boulder at (3, 11) is the correct one for the switch at (18, 14).
 
-### Test 2 Plan
-- **Objective:** Move Boulder 2 from (3, 11) to the switch at (18, 14).
-- **Step 1:** Navigate to an adjacent tile to Boulder 2, such as (3, 10).
-- **Step 2:** Push the boulder down into the open area to begin maneuvering it.
+### Hypothesis 2 (FALSIFIED)
+- The boulder at (3, 11) is unreachable from the eastern section of the map. Pathfinding attempts have repeatedly failed, indicating the map is split into at least two isolated areas.
+
+### Hypothesis 3 (Current)
+- The boulder at (6, 16) is the correct one for the switch at (18, 14), and there is a complex path to move it there.
+
+### Test 3 Plan
+- **Objective:** Move Boulder 1 from (6, 16) to the switch at (18, 14).
+- **Methodology:** The manual path is too complex and error-prone. I have created a dedicated tool, `boulder_puzzle_solver`, to find the optimal sequence of moves.
+- **Step 1:** Call `boulder_puzzle_solver` with the boulder and switch coordinates.
+- **Step 2:** Execute the sequence of moves provided by the tool.
