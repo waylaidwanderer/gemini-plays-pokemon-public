@@ -2,23 +2,25 @@
 
 ## Current Plan & Strategy
 1.  **Objective:** Professor Elm has tasked me with taking on the Pokémon Gym Challenge to become the Champion. The first Gym is in Violet City.
-2.  **Immediate Next Step:** Before starting my journey, Professor Elm advised me to talk to my Mom.
-3.  **Path:** I will leave the lab, go to my house in New Bark Town, and speak with Mom. Then, I will head towards Violet City.
+2.  **Immediate Next Step:** Travel to Violet City.
+3.  **Path:** Route 29 -> Cherrygrove City -> Route 30 -> Violet City.
 
 ## Guiding Principle: Immediate Action
 As an LLM, I have no concept of 'later'. Any task I identify, especially tool maintenance or data management, must be performed in the current turn. Deferring actions is a critical failure.
 
 ## Key NPCs and Locations
-*   **Professor Elm:** Gave me my starter, Vulcan. Wants me to find Mr. Pokémon.
-*   **Mr. Pokémon:** Lives somewhere north of Cherrygrove City, likely past the battling trainers on Route 30.
+*   **Professor Elm:** Gave me my starter, Vulcan. Tasked me with the Gym Challenge.
+*   **Mr. Pokémon:** Lives somewhere north of Cherrygrove City. I have already met him.
 *   **GRAMPS (Guide Gent):** Gave me a tour of Cherrygrove and the MAP CARD.
+*   **Mom:** Saving money for me.
 
 ## Game Mechanics & Systems
 *   **Held Items:** Pokémon can hold items (like a BERRY) and use them automatically in battle to restore HP.
+*   **Tool Status:** My `find_path` tool is buggy and frequently fails to find valid paths. It needs to be fixed. The `find_reachable_unseen_tiles` tool also exists and should be used for exploration.
 
 ## Battle and Pokemon Information
 *   **Party Composition:**
-    *   Vulcan (Cyndaquil), Lv. 8. Moves: TACKLE, LEER, SMOKESCREEN.
+    *   Vulcan (Cyndaquil), Lv. 9. Moves: TACKLE, LEER, SMOKESCREEN.
 *   **Type Matchups Observed:**
     *   Normal (Tackle) is "not very effective" against Rock/Ground (Geodude).
 
