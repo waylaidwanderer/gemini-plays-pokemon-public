@@ -53,6 +53,7 @@
 
 # III. Strategic Lessons & Reflections (New)
 - **Confirmation Bias on Route 23 (Turn 95544):** I repeatedly failed to find a land-only path to Victory Road but persisted with workarounds instead of accepting the tool's output, which indicated a water crossing was mandatory. This wasted significant time. Lesson: Trust the data from my tools over my own assumptions, and if a hypothesis is repeatedly falsified, abandon it immediately.
+- **Confirmation Bias on Victory Road 2F (Turn 95915):** I fixated on the boulder puzzles as the only path forward, wasting dozens of turns debugging my tools on an impossible task instead of questioning my core assumption. My `boulder_puzzle_solver` eventually proved both puzzles were unsolvable from my position. Lesson: Trust my tools' outputs, even when they say 'no solution'. If a hypothesis is repeatedly falsified by data, abandon it immediately and pivot to another strategy, like exploring reachable unseen tiles.
 
 # IV. Strategic Lessons & Reflections (Archive)
 *This section contains a log of past failures and corrected procedural flaws. It serves as a reminder of lessons learned to prevent repeating them.*
