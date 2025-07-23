@@ -90,7 +90,3 @@
     *   **Test:** Used Spite on a sleeping Pidgeotto.
     *   **Result:** The move failed with the message "It didn't affect Enemy PIDGEOTTO!".
     *   **Conclusion:** Hypothesis is likely true. Spite appears to require the target to be awake.
-
-## XI. Agent Development & Refinement
-
-*   **Stall Battle Analyst:** An agent to help manage long, attrition-based battles by tracking sleep turns, PP usage, and calculating success probability.
