@@ -79,13 +79,15 @@
   2. **Hypothesize:** Formulate a single, clear, testable hypothesis.
   3. **Test:** Execute the simplest possible action to test the hypothesis.
   4. **Conclude:** Record the result and whether the hypothesis was confirmed or falsified.
+  5. **Experiment:** After confirming a hypothesis, I will try to disprove it or test edge cases to avoid making broad assumptions from a single data point.
 - This structured approach will prevent looping and ensure I am building on my knowledge systematically.
 
 # IV. Agent & Tool Refinement Log
 
-## A. Battle Strategist Agent - Completed Refinements
-- **Refinement (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor. This was done after it provided flawed advice in the battle against Giovanni's Dugtrio.
-- **Refinement (Turn 94114):** Updated agent prompt to correctly interpret the 'training' goal, prioritizing EXP gain for lower-level party members over simply winning with the strongest Pokémon.
+## A. Completed Refinements
+- **Battle Strategist Agent (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor. This was done after it provided flawed advice in the battle against Giovanni's Dugtrio.
+- **Battle Strategist Agent (Turn 94114):** Updated agent prompt to correctly interpret the 'training' goal, prioritizing EXP gain for lower-level party members over simply winning with the strongest Pokémon.
+- **`delete_map_marker` Tool (Turn 95077):** Standardized gate markers to use '✅' for open and '⛔' for closed, as the tool cannot delete '🟢'. The old marker will be ignored.
 
 ## B. Tool Development Log
 - **Pathfinder & Boulder Puzzle Solver:** Fixed a bug preventing land-to-water SURF transitions and corrected ledge traversal logic. Consolidated redundant tools.
@@ -93,15 +95,11 @@
 - **`reachable_shoreline_finder`:** Created to systematically identify valid SURF starting points. Updated on Turn 94090 to handle elevation changes via 'steps' tiles.
 - **`connectivity_checker`:** Deleted due to redundancy with robust pathfinder.
 
-# V. Known Issues & Tool Limitations
-- The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
-- **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored.
-
 ## C. Agent & Tool Development Ideas
 - **Team Composition Advisor Agent Usage:** Test the existing `team_composition_advisor_agent` for planning a team for multi-battle areas like Victory Road. The agent is already capable of this if given the correct context (treating the area as a multi-stage opponent), so creating a new agent would be redundant.
+- **`boulder_puzzle_solver_tool`:** Create a new tool to solve the boulder puzzles in Victory Road. It would take the map XML as input and output a sequence of moves to push the boulder(s) to the target switch(es).
 
 ## D. Reflection & Procedural Corrections (Turn 94921)
-
 - **Procedural Flaw - Tool Maintenance:** I have a critical flaw in my process. I repeatedly used manual navigation on Route 23 after my `robust_pathfinder` failed, instead of immediately stopping to fix the tool. This is inefficient and violates my core instructions. **Corrective Action:** All tool refinement MUST be my immediate, highest-priority action, never a deferred goal.
 - **New Mechanic Discovery (SURF):** The message 'No SURFing on NEPTUNE here!' indicates that not all `ground` tiles adjacent to `water` are valid starting points for using SURF. This needs further testing.
 - **Untested Assumptions (Route 23):**
