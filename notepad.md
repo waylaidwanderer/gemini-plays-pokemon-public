@@ -99,3 +99,7 @@
 ## D. Technical Debt
 - **`gem_pathfinder` Water Logic:** The tool's logic for transitioning from land to water is still flawed. It generates invalid paths that start by moving directly into water. Needs a proper fix to check if the starting tile is a valid shoreline for using Surf.
 - **`find_closest_unseen_tile` Elevation Bug:** The tool is hallucinating reachable tiles because its pathfinding logic does not account for elevation differences between tiles. This was confirmed when it identified (10, 9) as reachable, but the system and `gem_pathfinder` (which has correct elevation logic) confirmed it was not. Needs a proper fix to incorporate elevation checks.
+
+# V. Strategic Lessons & Reflections (New)
+
+- **Confirmation Bias on Route 23 (Turn 95544):** I repeatedly failed to find a land-only path to Victory Road but persisted with workarounds instead of accepting the tool's output, which indicated a water crossing was mandatory. This wasted significant time. Lesson: Trust the data from my tools over my own assumptions, and if a hypothesis is repeatedly falsified, abandon it immediately.
