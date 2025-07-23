@@ -33,6 +33,7 @@
 - **Super Effective (2x):** Psychic > Ghost, Poison; Ghost > Psychic; Electric > Rock, Water; Flying > Grass, Poison, Fighting; Ice > Ground, Grass, Flying, Dragon; Ground > Poison, Fire, Electric, Rock; Rock > Fire, Ice, Flying, Bug; Fighting > Normal, Rock, Ice; Water > Fire, Ground, Rock; Grass > Water, Ground, Rock; Bug > Grass, Poison, Psychic; Poison > Grass, Bug.
 - **Not Very Effective (0.5x):** Normal !> Rock; Electric !> Grass, Electric, Dragon; Rock !> Psychic; Psychic !> Psychic; Poison !> Poison, Ground, Rock, Ghost; Ice !> Water, Ice, Fire; Fighting > Poison, Flying, Psychic, Bug; Water !> Water, Grass, Dragon; Grass !> Fire, Grass, Poison, Flying, Bug, Dragon.
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting.
+- **Type Correction (Psychic vs. Rock):** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon, not 'not very effective' as previously assumed. This was verified in the battle against Pixel's Alakazam vs. my Golem (CRAG).
 
 ## B. Trainer Rosters & Movesets
 
@@ -69,6 +70,7 @@
 - **Map Marker Discipline (CRITICAL):** I must consult all relevant map markers on the current map *before* finalizing any navigation plan. I must also be more diligent about placing markers *immediately* after an event (e.g., using a warp).
 - **Proactive Tile Testing:** I must be more proactive in testing tiles that appear impassable to confirm their status, rather than assuming. The results of these tests should be documented.
 - **Immediate Action Mandate (CRITICAL):** As an LLM, I have no 'later'. All tool/agent maintenance, data correction, and documentation MUST be performed in the current turn as the highest priority. Deferring tasks is a critical failure.
+- **Map Marker Discipline (Reinforcement):** I must be more diligent about placing markers for both the entry and exit points of a warp *immediately* after using it to avoid confusion and redundant markers.
 
 ## D. Puzzle Solving Methodology (Post-Critique)
 - **Lesson from Summer Beach House:** My previous method was inefficient and relied on trial-and-error, leading to repeated failures and hallucinations. 
@@ -94,10 +96,3 @@
 # V. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
 - **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored.
-
-## E. New Procedural Notes (Post-Reflection)
-- **Boulder Puzzle Mechanics:** Boulders cannot be pushed directly into standard `water` tiles. They must be pushed into `hole` tiles to affect lower floors.
-- **Map Marker Discipline (Reinforcement):** I must be more diligent about placing markers for both the entry and exit points of a warp *immediately* after using it to avoid confusion and redundant markers.
-- **PC Tile Anomaly:** The tile for interacting with the Pokémon Center PC is sometimes labeled as `grass` in the map data, despite being indoors.
-- **Type Correction (Psychic vs. Rock):** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon, not 'not very effective' as previously assumed. This was verified in the battle against Pixel's Alakazam vs. my Golem (CRAG).
-- **Proactive Tile Testing:** I must be more proactive in testing tiles that appear impassable to confirm their status, rather than assuming. The results of these tests should be documented.
