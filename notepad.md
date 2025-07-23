@@ -92,10 +92,6 @@
 - **`connectivity_checker`:** Created to validate if a path is possible before calling a pathfinder.
 - **`robust_pathfinder`:** Corrected a bug preventing water-to-land transitions and a syntax error.
 
-## C. Future Tool Refinements
-- **Pathfinding Tool Consolidation:** Consolidate the redundant `boulder_puzzle_solver` and `robust_pathfinder` into a single tool.
-- **Tool Audit:** Use or delete the `connectivity_checker` tool.
-
 # V. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
 - **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored.
