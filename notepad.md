@@ -91,3 +91,10 @@
     *   **Result:** The move failed with the message "It didn't affect Enemy PIDGEOTTO!".
     *   **Conclusion:** Hypothesis is likely true. Spite appears to require the target to be awake.
 *   **CRITICAL HALLUCINATION (Turn 2375):** I hallucinated being in a battle when I was not. **LESSON:** Double-check the game state before taking any action. The system warnings are a source of truth.
+
+## XI. Reflection & Maintenance Log (Turn 2411)
+*   **Data Management Failure:** I have been deferring marker updates and clean-up. This is a critical error. All data management must be done immediately.
+*   **Marker Cleanup:** Deleted redundant 'Fruit Tree' marker and inaccurate 'Unbeaten Trainer' marker.
+*   **Tool Creation:** Created `find_reachable_unseen_tiles` to automate exploration planning.
+*   **Agent Refinement:** Updated `battle_strategist` prompt to better evaluate strategic switching, preventing sacrifices of low-level Pokémon.
+*   **Untested Assumptions:** My belief that certain tiles are impassable without HM moves is untested. I must systematically test all tile types on this route.
