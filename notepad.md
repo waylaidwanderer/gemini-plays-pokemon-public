@@ -33,3 +33,13 @@
 *   **VOID:** Appears impassable. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **WATER/WATER_EDGE:** Hypothesis: Impassable without Surf. *Plan: Test by attempting to walk into it from an adjacent tile.*
 *   **BOOKSHELF/RADIO/TV/WINDOW/TOWN_MAP:** Hypothesis: Impassable scenery. *Plan: Attempt to walk into them from adjacent tiles.*
+
+## Tile Testing Protocol
+To ensure a complete understanding of game mechanics, I will systematically test every new tile type encountered. For each tile, I will attempt to enter it from all four cardinal directions (where possible) and document the result. This includes tiles that appear impassable, such as scenery, to confirm they are not interactable in a non-obvious way.
+
+### Untested Tiles & Test Plan:
+*   **TALL_GRASS:** Already confirmed traversable. *Final check: Confirm entry from all 4 sides is possible without issue.*
+*   **LEDGE_HOP_DOWN/LEFT/RIGHT:** *Plan: Find an example and attempt to move Up/Left/Right against the ledge direction. Then, move with the ledge direction to confirm one-way travel.*
+*   **VOID:** *Plan: Attempt to walk into it from an adjacent traversable tile.*
+*   **WATER/WATER_EDGE:** *Plan: Attempt to walk into it from an adjacent traversable tile.*
+*   **BOOKSHELF/RADIO/TV/WINDOW/TOWN_MAP:** *Plan: Attempt to walk into each from all available adjacent tiles to confirm they are impassable walls.*
