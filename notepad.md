@@ -52,9 +52,7 @@
 *   **CAVE:** Functions as a warp. *Plan: Verify if it's two-way.*
 
 ## V. Untested Assumptions & Disproof Plans
-*   **Assumption:** The Super Nerd at (25, 12) is a non-trainer NPC.
-    *   **Alternative Hypothesis:** He is a trainer who will battle if I talk to him.
-    *   **Test:** Move to an adjacent tile and interact with him.
+*   **Conclusion on Super Nerd (ID 3):** This NPC is intentionally elusive, moving away whenever I approach. After 4 failed attempts to interact, I conclude that chasing him is not the correct way to trigger an event. I will stop pursuing him and focus on exploration.
 
 ## VI. Future Development Ideas
 *   **Tool Idea: `exploration_ranker`:** A tool to replace the flawed `exploration_strategist` agent. It would take the output of `find_reachable_unseen_tiles` and rank the tiles based on heuristics like cluster size, proximity, and potential to open new paths. This is a computational task, perfect for a tool.
