@@ -94,3 +94,9 @@
 - **Team:**
   - CHARIZARD (Lv52) - Moves: Flamethrower, Slam
   - MAGNETON (Lv52)
+
+### Cool Trainer M (Victory Road 3F)
+- **Location:** (29, 6)
+- **Team:**
+  - CHARIZARD (Lv52) - Moves: Flamethrower, Slam
+  - MAGNETON (Lv52)
