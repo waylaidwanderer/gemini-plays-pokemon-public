@@ -40,3 +40,7 @@
 
 ### Inconsistent Mechanics:
 *   **WARP_CARPET_LEFT:** Behavior is inconsistent. Moving left onto the tile worked once but has failed repeatedly since. Interaction by pressing 'A' has also failed. The exact trigger condition is unknown and requires further, systematic testing.
+
+# III. Reminders & Housekeeping
+*   **Systematic Testing:** Must test all unknown tile mechanics (`WATER`, `CAVE`) as soon as possible.
+*   **Trainer Marking:** Must mark all defeated trainers with '☠️' immediately after battle to avoid confusion.
