@@ -61,5 +61,56 @@
         "action_counter": 94472
       }
     ]
+  },
+  "spinner_maze_pathfinder": {
+    "description": "A pathfinding tool specifically designed to solve spinner mazes by treating spinner tiles as forced-movement warps to their specified end-coordinates.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import heapq\nimport xml.etree.ElementTree as ET\nimport json\n\ndef heuristic(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\ndef solve_maze(start, goal, grid, map_width, map_height):\n    open_set = []\n    heapq.heappush(open_set, (heuristic(start, goal), 0, start))\n    came_from = {start: None}\n    g_score = {start: 0}\n\n    while open_set:\n        _, current_g, current = heapq.heappop(open_set)\n\n        if current == goal:\n            path = []\n            while current:\n                path.append(current)\n                current = came_from[current]\n            return path[::-1]\n\n        neighbors = []\n        current_tile_info = grid.get(current, {})\n        \n        if current_tile_info.get('spinner_end'):\n            neighbors.append(current_tile_info['spinner_end'])\n        else:\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                neighbor = (current[0] + dx, current[1] + dy)\n                if 1 <= neighbor[0] <= map_width and 1 <= neighbor[1] <= map_height:\n                    neighbor_tile_info = grid.get(neighbor, {})\n                    if not neighbor_tile_info.get('impassable', True):\n                        neighbors.append(neighbor)\n\n        for neighbor in neighbors:\n            new_g = current_g + 1\n            if neighbor not in g_score or new_g < g_score[neighbor]:\n                g_score[neighbor] = new_g\n                f_score = new_g + heuristic(neighbor, goal)\n                heapq.heappush(open_set, (f_score, new_g, neighbor))\n                came_from[neighbor] = current\n                \n    return None\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    map_width = int(root.get('width'))\n    map_height = int(root.get('height'))\n    \n    player_pos = None\n    grid = {}\n\n    for tile in root.findall('.//Tile'):\n        coords_raw = tile.get('coordinate')\n        coords_clean = coords_raw.replace('(', '').replace(')', '')\n        coords_parts = coords_clean.split(',')\n        x, y = int(coords_parts[0]), int(coords_parts[1])\n        tile_type = tile.get('type')\n        obj = tile.find('Object')\n        is_impassable_obj = obj is not None and obj.get('id-name') != 'Pikachu'\n        impassable = tile_type in ['impassable', 'boulder_barrier', 'closed_gate', 'unknown'] or is_impassable_obj\n        \n        spinner_end = None\n        spinner_tag = tile.find('Spinner')\n        if spinner_tag is not None and spinner_tag.get('end-coordinate'):\n            end_coords_raw = spinner_tag.get('end-coordinate')\n            end_coords_clean = end_coords_raw.replace('(', '').replace(')', '')\n            end_coords_parts = end_coords_clean.split(',')\n            spinner_end = (int(end_coords_parts[0]), int(end_coords_parts[1]))\n\n        grid[(x, y)] = {'type': tile_type, 'impassable': impassable, 'spinner_end': spinner_end}\n        \n        if tile.find('Player') is not None:\n            player_pos = (x, y)\n\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    goal_pos = (target_x, target_y)\n\n    if not player_pos:\n        print(json.dumps({'error': 'Player position not found.'}))\n    else:\n        if grid.get(goal_pos, {}).get('impassable', True):\n            adjacent_goals = []\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                adj_pos = (goal_pos[0] + dx, goal_pos[1] + dy)\n                if 1 <= adj_pos[0] <= map_width and 1 <= adj_pos[1] <= map_height and not grid.get(adj_pos, {}).get('impassable', True):\n                    heapq.heappush(adjacent_goals, (heuristic(player_pos, adj_pos), adj_pos))\n            \n            path = None\n            while adjacent_goals and not path:\n                _, new_goal = heapq.heappop(adjacent_goals)\n                path = solve_maze(player_pos, new_goal, grid, map_width, map_height)\n        else:\n            path = solve_maze(player_pos, goal_pos, grid, map_width, map_height)\n\n        if path:\n            print(json.dumps([{'x': x, 'y': y} for x, y in path]))\n        else:\n            print(json.dumps({'error': 'No path found.'}))\n\nexcept Exception as e:\n    import traceback\n    print(json.dumps({'error': str(e), 'traceback': traceback.format_exc()}))",
+    "history": [
+      {
+        "commit_message": "feat: Create spinner_maze_pathfinder. This new tool is specifically designed to handle spinner mazes by correctly interpreting spinner tiles as forced-movement warps. The existing `robust_pathfinder` fails in these scenarios, causing movement loops. This tool will provide accurate paths through spinner-heavy areas like the Viridian Gym.",
+        "timestamp": "2025-07-23T05:15:29.896Z",
+        "action_counter": 94565
+      },
+      {
+        "commit_message": "fix: Correct coordinate parsing. The tool was crashing due to a `ValueError` when converting the coordinate string to an integer. This was caused by incorrect string manipulation that failed to remove parentheses. The parsing logic has been fixed to correctly strip characters before conversion.",
+        "timestamp": "2025-07-23T05:16:22.794Z",
+        "action_counter": 94567
+      },
+      {
+        "commit_message": "fix: Correct coordinate parsing. The tool was crashing due to a `ValueError` when converting the coordinate string to an integer. This was caused by incorrect string manipulation that failed to remove parentheses. The parsing logic has been fixed to correctly strip characters before conversion.",
+        "timestamp": "2025-07-23T05:16:54.687Z",
+        "action_counter": 94568
+      },
+      {
+        "commit_message": "fix: Implement robust coordinate parsing. The tool was repeatedly crashing due to a `ValueError` when converting coordinate strings to integers. The previous `.strip()` method was unreliable. This commit replaces it with a more robust `.replace()` method to definitively remove parentheses before parsing, which should prevent any further crashes from this issue.",
+        "timestamp": "2025-07-23T05:18:43.652Z",
+        "action_counter": 94571
+      },
+      {
+        "commit_message": "fix: Correct spinner end-coordinate parsing. The tool was crashing due to a `ValueError` because the coordinate string for spinner destinations was not being properly cleaned. The fix applies the same robust `.replace()` logic to the `end-coordinate` attribute, which should finally resolve the issue and allow for correct pathfinding in spinner mazes.",
+        "timestamp": "2025-07-23T05:20:06.270Z",
+        "action_counter": 94573
+      },
+      {
+        "commit_message": "fix: Correct spinner end-coordinate parsing. The tool was crashing due to a `ValueError` because the coordinate string for spinner destinations was not being properly cleaned. The fix applies the same robust `.replace()` logic to the `end-coordinate` attribute, which should finally resolve the issue and allow for correct pathfinding in spinner mazes.",
+        "timestamp": "2025-07-23T05:20:40.802Z",
+        "action_counter": 94574
+      }
+    ]
   }
 }
