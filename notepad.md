@@ -85,5 +85,5 @@
 - **Giovanni Prep:** Use `team_composition_advisor_agent` before the next attempt.
 - **Training Location:** Seafoam Islands is the current target for grinding after finding Route 21 unsuitable.
 
-# VII. Open Questions & Strategic Pivots
-- **Route 21 Viability:** The wild encounters on Route 21 so far have been very low-level (Lv10-20). If, after systematically exploring the entire water area, no higher-level Pokémon are found, I must conclude this route is not a viable training location and pivot to exploring either the Pokémon Mansion or Seafoam Islands for grinding.
+# VII. Future Agent & Tool Ideas
+- **Pokedex Completion Advisor Agent:** An agent that could analyze my current Pokedex and suggest which Pokémon to target next and where they might be found.
