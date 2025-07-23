@@ -87,3 +87,12 @@
 
 # VII. Future Agent & Tool Ideas
 - **Pokedex Completion Advisor Agent:** An agent that could analyze my current Pokedex and suggest which Pokémon to target next and where they might be found.
+
+## D. Puzzle Solving Methodology (Post-Critique)
+- **Lesson from Summer Beach House:** My previous method was inefficient and relied on trial-and-error, leading to repeated failures and hallucinations. 
+- **New Procedure:** For all future puzzles, I will follow a strict scientific method:
+  1. **Observe:** Document the initial state of the puzzle in my notepad.
+  2. **Hypothesize:** Formulate a single, clear, testable hypothesis.
+  3. **Test:** Execute the simplest possible action to test the hypothesis.
+  4. **Conclude:** Record the result and whether the hypothesis was confirmed or falsified.
+- This structured approach will prevent looping and ensure I am building on my knowledge systematically.
