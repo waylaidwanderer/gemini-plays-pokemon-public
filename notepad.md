@@ -16,7 +16,7 @@ As an LLM, I have no concept of 'later'. Any task I identify, especially tool ma
 
 ## Game Mechanics & Systems
 *   **Held Items:** Pokémon can hold items (like a BERRY) and use them automatically in battle to restore HP.
-*   **Tool Status:** My `find_path` tool is buggy and frequently fails to find valid paths. It needs to be fixed. The `find_reachable_unseen_tiles` tool also exists and should be used for exploration.
+*   **Tool Status:** My `find_path_to_target` tool is a new, reliable pathfinder built with a standard BFS algorithm. The `find_reachable_unseen_tiles` tool also exists and should be used for exploration.
 
 ## Battle and Pokemon Information
 *   **Party Composition:**
