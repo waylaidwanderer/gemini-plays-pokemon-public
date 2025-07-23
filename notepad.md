@@ -62,11 +62,13 @@
 - **Corrective Action:** All tool refinement and critical data correction must be my immediate, highest-priority action, never a deferred goal. When a core logic bug is found and fixed in one tool, I MUST immediately audit all other tools that share similar logic and apply the fix.
 - **Critical Hallucination (Turn 91005 & 91138):** I have repeatedly hallucinated my location. I must ground my actions in the provided game state, not my assumptions.
 - **Procedural Flaw - Tool Usage (Turn 93946):** I failed to use my `reachable_shoreline_finder` tool on Route 19, instead wasting many turns on manual trial-and-error. I must consult my available tools before attempting manual solutions.
+- **Confirmation Bias (Turn 94143-94191):** I exhibited confirmation bias by persisting with an inefficient grinding strategy on Seafoam Islands B3F despite low-level encounters and system warnings. I must be more willing to abandon a failing strategy and test alternative hypotheses, such as exploring other paths.
 
 ## C. Procedural Lessons
 - **Systematic Debugging:** When a complex tool fails, instead of repeatedly modifying the full script (which risks introducing new bugs), the correct procedure is to first create a minimal, diagnostic version of the tool. This allows for the isolation of the specific point of failure (e.g., grid-parsing, algorithm logic) in a controlled way, leading to a more efficient and reliable fix.
-- **Map Marker Discipline (CRITICAL):** I must consult all relevant map markers on the current map *before* finalizing any navigation plan. Ignoring my own data leads to wasted turns and strategic failure, as seen with the Route 23 guard.
+- **Map Marker Discipline (CRITICAL):** I must consult all relevant map markers on the current map *before* finalizing any navigation plan. I must also be more diligent about placing markers *immediately* after an event (e.g., using a warp).
 - **Proactive Tile Testing:** I must be more proactive in testing tiles that appear impassable to confirm their status, rather than assuming. The results of these tests should be documented.
+- **Immediate Action Mandate (CRITICAL):** As an LLM, I have no 'later'. All tool/agent maintenance, data correction, and documentation MUST be performed in the current turn as the highest priority. Deferring tasks is a critical failure.
 
 ## D. Puzzle Solving Methodology (Post-Critique)
 - **Lesson from Summer Beach House:** My previous method was inefficient and relied on trial-and-error, leading to repeated failures and hallucinations. 
@@ -81,11 +83,12 @@
 
 ## A. Battle Strategist Agent - Completed Refinements
 - **Refinement (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor. This was done after it provided flawed advice in the battle against Giovanni's Dugtrio.
+- **Refinement (Turn 94114):** Updated agent prompt to correctly interpret the 'training' goal, prioritizing EXP gain for lower-level party members over simply winning with the strongest Pokémon.
 
 ## B. Tool Development Log
 - **Pathfinder & Boulder Puzzle Solver:** Fixed a bug preventing land-to-water SURF transitions and corrected ledge traversal logic.
 - **`spinner_maze_solver`:** Rewrote path reconstruction logic to fix a critical bug.
-- **`reachable_shoreline_finder`:** Created to systematically identify valid SURF starting points.
+- **`reachable_shoreline_finder`:** Created to systematically identify valid SURF starting points. Updated on Turn 94090 to handle elevation changes via 'steps' tiles.
 - **`connectivity_checker`:** Created to validate if a path is possible before calling a pathfinder.
 
 # V. Known Issues & Tool Limitations
@@ -94,16 +97,8 @@
 
 # VI. Future Strategy
 - **Giovanni Prep:** Use `team_composition_advisor_agent` before the next attempt.
-- **Training Location:** Seafoam Islands is the current target for grinding after finding Route 21 unsuitable.
+- **Training Location:** Seafoam Islands is the current target for grinding after finding Route 21 unsuitable. The central water area on B3F seems better than the initial spot.
 
 # VII. Future Agent & Tool Ideas
 - **Pokedex Completion Advisor Agent:** An agent that could analyze my current Pokedex and suggest which Pokémon to target next and where they might be found.
-
-# VIII. Reflection Insights (Turn 94142)
-
-## A. Procedural Failures & Corrections
-- **Immediate Action Mandate:** I have a recurring flaw of deferring tool/agent maintenance instead of performing it immediately. This violates my core directives. All such tasks MUST be my highest priority. (e.g., `reachable_shoreline_finder` fix was delayed from turn 94079 to 94090).
-- **Rigorous Testing:** I must be more proactive in testing tiles that appear impassable to confirm their status and document the results. I should also more actively try to disprove my own hypotheses to avoid confirmation bias.
-
-## B. New Agent & Tool Ideas
-- **Training Spot Efficiency Agent:** An agent that could analyze a training spot's efficiency by tracking encounter rate and EXP yield over a set number of turns to determine if it's a good grinding location.
+- **Training Spot Efficiency Agent/Tool:** An agent or tool that could analyze a training spot's efficiency by tracking encounter rate and EXP yield over a set number of turns to determine if it's a good grinding location.
