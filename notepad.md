@@ -1,11 +1,10 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## Current Plan
-1. Interact with the Fruit Tree at (12, 2) for a potential item.
-2. Challenge the Cooltrainer M at (13, 4).
-3. Use `find_reachable_unseen_tiles` to clear the rest of Route 29.
-4. Proceed west through Route 29 to Cherrygrove City.
-5. Find Mr. Pokémon's house.
+1. I am on a lower path separated by one-way ledges and cannot reach the Cooltrainer M at (13, 4).
+2. Use `find_reachable_unseen_tiles` to explore the current lower path of Route 29.
+3. Proceed west through Route 29 to Cherrygrove City.
+4. Find Mr. Pokémon's house.
 
 ## Future Plans
 *   Consider creating a 'battle strategy' agent for more complex fights.
@@ -32,5 +31,5 @@
 
 ### Untested Mechanics & Testing Plan:
 *   **TALL_GRASS:** Appears fully traversable, but needs confirmation from all directions. *Plan: Walk into a patch from all 4 sides.*
-*   **LEDGE_HOP_LEFT/RIGHT:** Hypothesis: Allows one-way travel over the ledge. *Plan: Find an appropriate ledge and test movement from all four directions.*
+*   **LEDGE_HOP_LEFT/RIGHT:** Hypothesis: Allows one-way travel over the ledge. I have observed being unable to move onto these from the wrong direction. *Plan: Find an appropriate ledge and test movement from all four directions to confirm.*
 *   **VOID:** Appears impassable. *Plan: Attempt to walk into it from an adjacent tile to confirm.*
