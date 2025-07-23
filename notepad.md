@@ -3,7 +3,8 @@
 ## Current Plan & Strategy
 1.  **Objective:** Professor Elm has tasked me with taking on the Pokémon Gym Challenge to become the Champion. The first Gym is in Violet City.
 2.  **Immediate Next Step:** Travel to Violet City.
-3.  **Path:** Route 29 -> Cherrygrove City -> Route 30 -> Violet City.
+3.  **Path:** Route 29 -> Cherrygrove City -> Route 30 -> Route 31 -> Violet City.
+4.  **Future Improvement:** Consider creating an 'exploration_strategist' agent to suggest optimal exploration targets.
 
 ## Guiding Principle: Immediate Action
 As an LLM, I have no concept of 'later'. Any task I identify, especially tool maintenance or data management, must be performed in the current turn. Deferring actions is a critical failure.
@@ -16,11 +17,12 @@ As an LLM, I have no concept of 'later'. Any task I identify, especially tool ma
 
 ## Game Mechanics & Systems
 *   **Held Items:** Pokémon can hold items (like a BERRY) and use them automatically in battle to restore HP.
-*   **Tool Status:** My `find_path_to_target` tool is a new, reliable pathfinder built with a standard BFS algorithm. The `find_reachable_unseen_tiles` tool also exists and should be used for exploration.
+*   **Tool Status:** My `find_path_to_target` tool is a new, reliable pathfinder built with a standard BFS algorithm. The `find_reachable_unseen_tiles` tool is also reliable after a recent bug fix.
 
 ## Battle and Pokemon Information
 *   **Party Composition:**
-    *   Vulcan (Cyndaquil), Lv. 9. Moves: TACKLE, LEER, SMOKESCREEN.
+    *   Vulcan (Cyndaquil), Lv. 10. Moves: TACKLE, LEER, SMOKESCREEN.
+    *   Warden (Hoothoot), Lv. 3. Moves: TACKLE, GROWL.
 *   **Type Matchups Observed:**
     *   Normal (Tackle) is "not very effective" against Rock/Ground (Geodude).
 
@@ -40,7 +42,7 @@ As an LLM, I have no concept of 'later'. Any task I identify, especially tool ma
 *   **FRUIT_TREE:** Impassable. Can be interacted with for items.
 
 ### Partially Traversable / Special Mechanics:
-*   **LEDGE_HOP_DOWN:** One-way traversal. Can only move Down off this tile. *Further testing needed: Can I move left/right while on it?*
+*   **LEDGE_HOP_DOWN:** One-way traversal. Can only move Down off this tile. *Plan: The next time I am on a ledge, I must attempt to move left and right before jumping down to test for sideways movement.*
 
 ### Untested / Hypotheses:
 *   **CUT_TREE:** Hypothesis: Impassable without HM Cut. *Plan: Attempt to walk into it from an adjacent tile.*
