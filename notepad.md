@@ -1,26 +1,20 @@
 # Gem's Pokémon Crystal Adventure Log
 
-## I. Current Objectives & Strategy
-1.  **Primary Goal:** Become the Pokémon League Champion, starting with the Violet City Gym.
-2.  **Path:** Route 29 -> Cherrygrove City -> Route 30 -> Route 31 -> Violet City.
-3.  **Exploration Strategy:** I will use my `find_reachable_unseen_tiles` tool and `exploration_strategist` agent to guide my exploration of new areas.
-
-## II. Guiding Principles
-*   **Immediate Action:** As an LLM, I have no concept of 'later'. Any task I identify, especially tool maintenance or data management, must be performed in the current turn. Deferring actions is a critical failure.
-*   **Verify, Don't Assume:** My memory is fallible. I must ALWAYS verify my assumptions against the game state information and map memory before acting.
-
-## III. Critical Lessons & Errors
+## I. Critical Lessons & Errors
 *   **CRITICAL HALLUCINATION (Turn 1621):** I hallucinated finding a Poké Ball at (19, 15) on Route 31. The item was actually at (29, 5). I failed to verify the item's existence. **LESSON:** ALWAYS verify game state information against the map memory source of truth. NEVER assume an action was successful without confirmation.
-*   **DEFERRED DATA MANAGEMENT (Turn 1621-1628):** I failed to immediately update map markers after believing I had collected an item, waiting until after a long battle. **LESSON:** Data management (markers, notepad) must be performed in the same turn a discovery is made. It is the highest priority.
+*   **DEFERRED DATA MANAGEMENT (Turn 1621-1683):** I have repeatedly failed to immediately update map markers or my notepad after discoveries, especially after battles or when in menus. This is a critical failure of my core programming. **LESSON:** Data management (markers, notepad) must be performed in the same turn a discovery is made. It is the highest priority.
+*   **FAILED INTERACTION HYPOTHESIS (Turns 1676-1680):** I assumed stunning a moving NPC would guarantee a battle interaction. My attempts to battle the Youngster on Route 31 failed even when he was stunned, proving my hypothesis incorrect. He is likely not a standard trainer. **LESSON:** Do not persist with a failed hypothesis. If an interaction doesn't work after a few systematic attempts, pivot to a new strategy.
 
-## IV. Key NPCs and Locations
+## II. Key NPCs and Locations
 *   **Professor Elm:** Gave me my starter, Vulcan. Tasked me with the Gym Challenge.
 *   **Mr. Pokémon:** Lives somewhere north of Cherrygrove City. I have already met him.
 *   **GRAMPS (Guide Gent):** Gave me a tour of Cherrygrove and the MAP CARD.
 *   **Mom:** Saving money for me.
 *   **WADE (Bug Catcher):** Met on Route 31. Not a trainer. Gave me his phone number.
+*   **FALKNER:** Violet City Gym Leader.
+*   **SPROUT TOWER:** Mentioned by the Officer in the Route 31 Gatehouse. Sounds important.
 
-## V. Battle and Pokemon Information
+## III. Battle and Pokemon Information
 *   **Party Composition:**
     *   Miasma (Gastly), Lv. 5. Moves: HYPNOSIS, LICK.
     *   Warden (Hoothoot), Lv. 3. Moves: TACKLE, GROWL. (Asleep)
@@ -30,7 +24,7 @@
     *   Normal (Tackle) has no effect on Ghost (Gastly).
     *   Ghost (Lick) has no effect on Normal (Hoothoot).
 
-## VI. Tile Traversal Rules (Systematic Testing)
+## IV. Tile Traversal Rules (Systematic Testing)
 *Method: To confirm a tile's properties, I must attempt to move onto it from all four adjacent, traversable tiles (Up, Down, Left, Right). A conclusion is only valid after all directions are tested.*
 
 ### Confirmed Traversable:
@@ -53,4 +47,7 @@
 *   **LEDGE_HOP_LEFT/RIGHT:** Hypothesis: One-way traversal. *Plan: Attempt to walk onto it from the opposing direction.*
 *   **WATER:** Hypothesis: Impassable without HM Surf. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **CAVE:** Functions as a warp. *Plan: Verify if it's two-way.*
-*   **SPROUT TOWER:** Mentioned by the Officer in the Route 31 Gatehouse. Sounds important.
+*   **WARP_CARPET_LEFT/RIGHT:** Functions as a warp. *Plan: Verify if they are two-way by attempting to re-enter from the destination.*
+
+## V. Future Development Ideas
+*   **Agent Idea: `interaction_strategist`:** An agent to devise a sequence of actions (e.g., stun, move, turn, interact) to successfully interact with tricky or moving NPCs. This would automate the manual hypothesis testing I performed on the Route 31 Youngster.
