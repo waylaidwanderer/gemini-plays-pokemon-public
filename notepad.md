@@ -94,10 +94,10 @@
 - **`spinner_maze_solver`:** Rewrote path reconstruction logic to fix a critical bug.
 - **`reachable_shoreline_finder`:** Created to systematically identify valid SURF starting points. Updated on Turn 94090 to handle elevation changes via 'steps' tiles.
 - **`connectivity_checker`:** Deleted due to redundancy with robust pathfinder.
+- **`boulder_puzzle_solver`:** Created on Turn 95239 to solve boulder puzzles by finding a sequence of player movements and boulder pushes.
 
 ## C. Agent & Tool Development Ideas
 - **Team Composition Advisor Agent Usage:** Test the existing `team_composition_advisor_agent` for planning a team for multi-battle areas like Victory Road. The agent is already capable of this if given the correct context (treating the area as a multi-stage opponent), so creating a new agent would be redundant.
-- **`boulder_puzzle_solver_tool`:** Create a new tool to solve the boulder puzzles in Victory Road. It would take the map XML as input and output a sequence of moves to push the boulder(s) to the target switch(es).
 
 # V. Puzzles
 
@@ -109,25 +109,22 @@
 - Boulder Switch at (18, 14).
 - Boulder Barrier at (10, 13), blocking path north.
 
-### Hypothesis 1 (Turn 95221)
-- Pushing a boulder onto the switch at (18, 14) will open the boulder barrier at (10, 13).
-
-### Test 1 (FAILED)
-- **Action:** Attempted to push Boulder 1 at (6, 16) to the right.
+### Hypothesis 1 (FALSIFIED)
+- **Hypothesis:** Pushing a boulder onto the switch at (18, 14) will open the boulder barrier at (10, 13).
+- **Test 1 Action:** Attempted to push Boulder 1 at (6, 16) to the right.
 - **Result:** Push failed. The boulder did not move.
 - **Conclusion:** Hypothesis 1 cannot be tested with Boulder 1, as it is blocked by an impassable wall at (7, 16).
 
-### Hypothesis 2 (Current)
-- The boulder at (3, 11) is the correct one for the switch at (18, 14).
-
 ### Hypothesis 2 (FALSIFIED)
-- The boulder at (3, 11) is unreachable from the eastern section of the map. Pathfinding attempts have repeatedly failed, indicating the map is split into at least two isolated areas.
+- **Hypothesis:** The boulder at (3, 11) is the correct one for the switch at (18, 14).
+- **Test 2 Action:** Attempted to pathfind to the boulder at (3, 11).
+- **Result:** Pathfinding failed repeatedly, indicating the western area is unreachable from the current position.
+- **Conclusion:** The boulder at (3, 11) cannot be used for the switch at (18, 14) from this area.
 
 ### Hypothesis 3 (Current)
-- The boulder at (6, 16) is the correct one for the switch at (18, 14), and there is a complex path to move it there.
-
-### Test 3 Plan
-- **Objective:** Move Boulder 1 from (6, 16) to the switch at (18, 14).
-- **Methodology:** The manual path is too complex and error-prone. I have created a dedicated tool, `boulder_puzzle_solver`, to find the optimal sequence of moves.
-- **Step 1:** Call `boulder_puzzle_solver` with the boulder and switch coordinates.
-- **Step 2:** Execute the sequence of moves provided by the tool.
+- **Hypothesis:** The boulder at (6, 16) is the correct one for the switch at (18, 14), and there is a complex path to move it there.
+- **Test 3 Plan:**
+  - **Objective:** Move Boulder 1 from (6, 16) to the switch at (18, 14).
+  - **Methodology:** The manual path is too complex and error-prone. I created a dedicated tool, `boulder_puzzle_solver`, to find the optimal sequence of moves.
+  - **Step 1 (Completed):** Called `boulder_puzzle_solver` with the boulder and switch coordinates. The tool returned a valid sequence of moves.
+  - **Step 2 (In Progress):** Execute the sequence of moves provided by the tool.
