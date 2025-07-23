@@ -98,8 +98,3 @@
 # VI. Future Strategy
 - **Giovanni Prep:** Use `team_composition_advisor_agent` before the next attempt.
 - **Seafoam Islands:** The current plan is to test the 'steps' tile at (24, 10) on B3F as a potential surf entry point to access the main puzzle area.
-
-# VII. Future Agent & Tool Ideas
-- **Pokedex Completion Advisor Agent:** An agent that could analyze my current Pokedex and suggest which Pokémon to target next and where they might be found.
-- **Training Spot Efficiency Agent/Tool:** An agent or tool that could analyze a training spot's efficiency by tracking encounter rate and EXP yield over a set number of turns to determine if it's a good grinding location.
-- **Boulder Puzzle Solver Tool:** A computational tool that can analyze the map XML for boulders, holes, and switches, and output a sequence of moves to solve the puzzle. This would require diligent map marking of each boulder's properties.
