@@ -24,6 +24,7 @@
     *   Normal (Tackle) is "not very effective" against Rock/Ground (Geodude).
     *   Normal (Tackle) has no effect on Ghost (Gastly).
     *   Ghost (Lick) has no effect on Normal (Hoothoot).
+    *   Normal has no effect on Ghost (Confirmed by NPC).
 
 ## IV. Tile Traversal Rules (Systematic Testing)
 *Method: To confirm a tile's properties, I must attempt to move onto it from all four adjacent, traversable tiles (Up, Down, Left, Right). A conclusion is only valid after all directions are tested.*
