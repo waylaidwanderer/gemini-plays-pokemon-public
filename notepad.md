@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## Current Plan
-1. I am currently on Route 29, having just healed Vulcan.
-2. My next immediate goal is to challenge Cooltrainer M (West) at (13, 4).
-3. After the battle, I will use my `find_reachable_unseen_tiles` tool to explore the remaining parts of Route 29.
+1. I am on the lower path of Route 29, separated from the upper path by ledges. The Cooltrainer M (West) is unreachable from here.
+2. My immediate goal is to explore the rest of this lower path westward.
+3. I will use `find_reachable_unseen_tiles` to identify all explorable areas on this path.
 4. Proceed west through Route 29 to Cherrygrove City.
 5. Find Mr. Pokémon's house.
 
