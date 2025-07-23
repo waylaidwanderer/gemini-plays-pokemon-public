@@ -22,21 +22,18 @@
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above. (Test at Route 31 (7, 9) confirmed).
 
-## XV. Grinding Log (Route 31)
-*   **Battle Log:**
-    *   Defeated wild Bellsprout (Lv. 5).
-    *   Defeated wild Caterpie (Lv. 4). Miasma grew to Lv. 12.
-    *   Defeated wild Bellsprout (Lv. 5).
-    *   Defeated wild Ledyba (Lv. 4).
-    *   Defeated wild Bellsprout (Lv. 5).
-    *   Defeated wild Pidgey (Lv. 5).
-    *   Defeated wild Ledyba (Lv. 4).
-    *   Defeated wild Bellsprout (Lv. 5).
-    *   Defeated wild Weedle (Lv. 4). Miasma grew to Lv. 13 and learned MEAN LOOK.
-    *   Defeated wild Bellsprout (Lv. 5).
-    *   Defeated wild Ledyba (Lv. 4).
+# II. Current Objectives & Strategy
 
-## XV. Post-Reflection Tile Additions
+## A. Falkner Gym Battle Plan
+*   **Primary Goal:** Defeat Falkner and obtain the Zephyr Badge.
+*   **Target Level:** Train Vulcan to at least Lv. 15.
+*   **Strategy:**
+    *   Lead with Vulcan (Quilava). Its Fire-type move, Ember, will be super-effective against Falkner's Flying-type Pokémon (likely Pidgey and Pidgeotto).
+    *   Miasma (Gastly) is a backup. Its Ghost-type gives it immunity to Normal attacks, but Lick has 0 PP and is not super-effective. Hypnosis could be useful if Vulcan is in trouble.
+    *   Warden (Hoothoot) is too low-level and will not be used in the battle.
+*   **Training Status:** Currently grinding on Route 31.
+
+## B. Future Tile Mechanic Tests
 *   **WATER:** Hypothesis: Impassable without HM Surf. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **CAVE:** Functions as a warp. *Plan: Verify if it's two-way.*
 *   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal. *Plan: Attempt to walk onto it from the opposing direction.*
