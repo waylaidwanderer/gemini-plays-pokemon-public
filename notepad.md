@@ -1,17 +1,17 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## Current Plan
-1. I am on a lower path separated by one-way ledges and cannot reach the Cooltrainer M at (13, 4).
-2. Use `find_reachable_unseen_tiles` to explore the current lower path of Route 29.
-3. Proceed west through Route 29 to Cherrygrove City.
-4. Find Mr. Pokémon's house.
+1. I am currently on Route 29, having just healed Vulcan.
+2. My next immediate goal is to challenge Cooltrainer M (West) at (13, 4).
+3. After the battle, I will use my `find_reachable_unseen_tiles` tool to explore the remaining parts of Route 29.
+4. Proceed west through Route 29 to Cherrygrove City.
+5. Find Mr. Pokémon's house.
 
 ## Future Plans
 *   Consider creating a 'battle strategy' agent for more complex fights.
 
 ## Game Mechanics & Systems
-*   **Held Items:** Pokémon can hold items and use them automatically in battle (e.g., Vulcan used a BERRY to restore HP).
-*   **Money & Economy:** Currently have ¥3000.
+*   **Held Items:** Pokémon can hold items (like a BERRY) and use them automatically in battle to restore HP.
 
 ## Battle and Pokemon Information
 *   **Party Composition:**
@@ -26,7 +26,6 @@
 *   **COUNTER:** Impassable. Interacting with NPCs behind them requires facing the counter tile.
 *   **HEADBUTT_TREE:** Impassable.
 *   **LEDGE_HOP_DOWN:** One-way traversal from top to bottom. Impassable from below, left, or right.
-*   **WARP_CARPET_DOWN:** Requires pressing 'Down' while standing on the tile to activate.
 *   **DOOR:** Functions as a warp.
 
 ### Untested Mechanics & Testing Plan:
