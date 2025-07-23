@@ -98,3 +98,9 @@
 *   **Tool Creation:** Created `find_reachable_unseen_tiles` to automate exploration planning.
 *   **Agent Refinement:** Updated `battle_strategist` prompt to better evaluate strategic switching, preventing sacrifices of low-level Pokémon.
 *   **Untested Assumptions:** My belief that certain tiles are impassable without HM moves is untested. I must systematically test all tile types on this route.
+
+## XI. Ledge Traversal Test (Route 31)
+*   **Hypothesis:** The `LEDGE_HOP_DOWN` tile at (7, 9) is a one-way traversal point. It can be entered from above (from (7, 8)), but not from below (cannot move from (7, 9) to (7, 8)).
+*   **Test Plan:**
+    1.  Move Down from (7, 8) to (7, 9).
+    2.  Attempt to move Up from (7, 9) to (7, 8).
