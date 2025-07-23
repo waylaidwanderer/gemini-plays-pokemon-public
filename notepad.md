@@ -45,3 +45,7 @@
 *   **Systematic Testing:** Must test all unknown tile mechanics (`WATER`, `CAVE`) as soon as possible.
 *   **Trainer Marking:** Must mark all defeated trainers with '☠️' immediately after battle to avoid confusion.
 *   **SIGN:** Impassable. Functions as an object that can be interacted with for text.
+
+# IV. Badges & TMs
+*   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM FLASH outside of battle.
+*   **TM31 (Mud-Slap):** Received from Falkner. A Ground-type move that damages the opponent and lowers their accuracy. It can only be used once.
