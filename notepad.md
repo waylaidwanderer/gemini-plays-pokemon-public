@@ -22,11 +22,10 @@
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **"No Will to Fight" Message (Correction):** Appears when the party menu cursor is on a fainted Pokémon.
-- **Level Cap:** The level cap with 7 badges is 55.
+- **Level Cap:** The level cap with 8 badges is 65.
 - **Special NPC Interaction:** Certain puzzles may require walking *through* an NPC rather than interacting with them (e.g., Summer Beach House).
-
-## C. Area-Specific Discoveries
-- **Route 23 Earth Badge Check:** A guard at (5, 36) blocks the main path. Furthermore, an invisible trigger line along Y=36 prevents any northward movement in the western maze area, effectively blocking exploration until the Earth Badge is obtained.
+- **Boulder Puzzle Mechanics:** Boulders cannot be pushed directly into standard `water` tiles. They must be pushed into `hole` tiles to affect lower floors.
+- **PC Tile Anomaly:** The tile for interacting with the Pokémon Center PC is sometimes labeled as `grass` in the map data, despite being indoors.
 
 # II. Battle Intel
 
