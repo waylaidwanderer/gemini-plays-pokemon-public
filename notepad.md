@@ -4,7 +4,7 @@
 1.  **Objective:** Professor Elm has tasked me with taking on the Pokémon Gym Challenge to become the Champion. The first Gym is in Violet City.
 2.  **Immediate Next Step:** Travel to Violet City.
 3.  **Path:** Route 29 -> Cherrygrove City -> Route 30 -> Route 31 -> Violet City.
-4.  **Future Improvement:** Consider creating an 'exploration_strategist' agent to suggest optimal exploration targets.
+4.  **Exploration Strategy:** I have created an 'exploration_strategist' agent to analyze unseen tiles and suggest the most promising exploration targets.
 
 ## Guiding Principle: Immediate Action
 As an LLM, I have no concept of 'later'. Any task I identify, especially tool maintenance or data management, must be performed in the current turn. Deferring actions is a critical failure.
