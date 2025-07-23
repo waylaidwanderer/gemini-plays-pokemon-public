@@ -114,4 +114,5 @@
 
 ### Test 1 Plan (Turn 95221)
 - **Objective:** Move Boulder 1 from (6, 16) to the switch at (18, 14).
-- **Step 1:** Navigate from current position (14, 15) to an adjacent tile to Boulder 1, such as (5, 16).
+- **Step 1:** Navigate from current position to an adjacent tile to Boulder 1. (Completed)
+- **Step 2:** Push the boulder right to begin moving it into the open area.
