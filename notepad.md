@@ -37,3 +37,6 @@
 *   **WATER:** Hypothesis: Impassable without HM Surf. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **CAVE:** Functions as a warp. *Plan: Verify if it's two-way.*
 *   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal. *Plan: Attempt to walk onto it from the opposing direction.*
+
+### Inconsistent Mechanics:
+*   **WARP_CARPET_LEFT:** Behavior is inconsistent. Moving left onto the tile worked once but has failed repeatedly since. Interaction by pressing 'A' has also failed. The exact trigger condition is unknown and requires further, systematic testing.
