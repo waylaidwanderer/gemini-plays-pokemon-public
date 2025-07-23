@@ -30,7 +30,7 @@
 *   **WATER:** Hypothesis: Impassable without HM Surf.
 *   **CAVE:** Hypothesis: Functions as a warp. Needs testing to see if it's one-way or two-way.
 *   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal. Needs testing.
-*   **BLACKBOARD:** Hypothesis: Impassable. Functions as an object that can be interacted with for text. (Currently testing).
+*   **BLACKBOARD:** Impassable. Functions as an object that can be interacted with for text.
 
 # II. Reminders & Housekeeping
 *   **Systematic Testing:** Must test all unknown tile mechanics immediately upon entering a new area.
