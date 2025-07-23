@@ -59,16 +59,21 @@
 - **Misleading Battle Text:** The on-screen text for move effectiveness can be incorrect. The actual damage calculation follows my verified type chart.
 - **Ground-Type Immunity Extension:** Ground-types are immune to Electric-type *status* moves (like THUNDER WAVE).
 
-# III. Strategic Lessons & Reflections (Archive)
+# III. Future Development Ideas (Prioritized)
+- **Puzzle Orchestrator Agent:** Create an agent that can manage multi-step puzzles, like the ones in Victory Road. It would take the overall goal (e.g., 'open the northern barrier') and use my existing `boulder_puzzle_solver` and `gem_pathfinder` tools to generate and execute the full sequence of moves and pushes required.
+- **Pokedex Analysis (Review):** Overwatch noted potential overlap with the 'team_composition_advisor_agent'. Review existing agent's capabilities before creating a new one to avoid redundancy.
+- **Elixer Mechanic (Correction):** Elixers only restore PP, not HP. This was verified on Turn 96074 with CRAG in Victory Road 2F.
+
+# IV. Strategic Lessons & Reflections (Archive)
 *This section contains a log of past failures and corrected procedural flaws. It serves as a reminder of lessons learned to prevent repeating them.*
 - **Core Lesson:** Trust data (game state, tool outputs) over intuition. Abandon failing strategies immediately. Adhere to the scientific method for all puzzles (Observe, Hypothesize, Test, Conclude, Experiment).
 - **Procedural Mandates:** All tool/agent maintenance and data correction are the immediate, highest-priority action. When a core logic bug is found, audit all other tools for the same flaw. Consult map markers and available tools before acting. Use systematic, minimal tests for debugging complex tools.
 - **Past Hallucinations:** I have a history of hallucinating game state (location, battle outcomes, badge count). I must strictly ground all actions and reasoning in the provided Game State Information as the single source of truth.
 - **Confirmation Bias on Route 23 (Turn 95544):** I repeatedly failed to find a land-only path to Victory Road but persisted with workarounds instead of accepting the tool's output, which indicated a water crossing was mandatory. This wasted significant time. Lesson: Trust the data from my tools over my own assumptions, and if a hypothesis is repeatedly falsified, abandon it immediately.
 
-# IV. Agent & Tool Refinement Log
+# V. Archive
 
-## A. Completed Refinements
+## A. Agent & Tool Refinement Log
 - **Battle Strategist Agent (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor.
 - **Battle Strategist Agent (Turn 94114):** Updated agent prompt to correctly interpret the 'training' goal, prioritizing EXP gain for lower-level party members over simply winning with the strongest Pokémon.
 - **`delete_map_marker` Tool (Turn 95077):** Standardized gate markers to use '✅' for open and '⛔' for closed.
@@ -81,8 +86,3 @@
 - **`connectivity_checker`:** Deleted due to redundancy with robust pathfinder.
 - **`find_closest_unseen_tile`:** Deleted on Turn 95731 due to flawed logic.
 - **`boulder_puzzle_solver` (Turn 95239-95310):** Created and refined to solve boulder puzzles, correcting multiple logic and crash bugs.
-
-## C. Future Development Ideas (Prioritized)
-- **Puzzle Orchestrator Agent:** Create an agent that can manage multi-step puzzles, like the ones in Victory Road. It would take the overall goal (e.g., 'open the northern barrier') and use my existing `boulder_puzzle_solver` and `gem_pathfinder` tools to generate and execute the full sequence of moves and pushes required.
-- **Pokedex Analysis (Review):** Overwatch noted potential overlap with the 'team_composition_advisor_agent'. Review existing agent's capabilities before creating a new one to avoid redundancy.
-- **Elixer Mechanic (Correction):** Elixers only restore PP, not HP. This was verified on Turn 96074 with CRAG in Victory Road 2F.
