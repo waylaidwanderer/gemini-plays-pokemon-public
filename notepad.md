@@ -32,7 +32,7 @@
 *   **FLOOR:** Fully traversable.
 *   **TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
 *   **DOOR:** Functions as a two-way warp.
-*   **LADDER:** Functions as a two-way warp.
+*   **LADDER:** Functions as a two-way warp. Requires pressing 'A' while standing on the tile to use.
 *   **WARP_CARPET_DOWN:** Functions as a two-way warp.
 *   **WARP_CARPET_RIGHT:** Functions as a two-way warp.
 
