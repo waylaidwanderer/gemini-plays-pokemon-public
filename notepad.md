@@ -1,8 +1,8 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## Current Plan
-1. A battle between two trainers is blocking the main path north. I will investigate by approaching the spectator Youngster at (5, 26).
-2. My primary objective is to find Mr. Pokémon's house, which is believed to be north of this point.
+1. I have realized the battling trainers are not blocking the entire path. A clear path exists to the left of them.
+2. My primary objective is to find Mr. Pokémon's house by proceeding north along this path.
 3. I will continue to systematically test new tile mechanics as I encounter them.
 
 ## Key NPCs and Locations
