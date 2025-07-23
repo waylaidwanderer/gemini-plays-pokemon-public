@@ -1,11 +1,10 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## Current Plan
-1. I am on the lower path of Route 29, separated from the upper path by ledges. The Cooltrainer M (West) is unreachable from here.
-2. My immediate goal is to explore the rest of this lower path westward.
-3. I will use `find_reachable_unseen_tiles` to identify all explorable areas on this path.
-4. Proceed west through Route 29 to Cherrygrove City.
-5. Find Mr. Pokémon's house.
+1. I am in Cherrygrove City. My goal is to find Mr. Pokémon's house.
+2. I will start by exploring the city, investigating buildings and talking to NPCs.
+3. The Pokémon Center is at (29, 3). I should visit it to heal and mark the warp.
+4. Another unmarked building is at (31, 11).
 
 ## Future Plans
 *   Consider creating a 'battle strategy' agent for more complex fights.
