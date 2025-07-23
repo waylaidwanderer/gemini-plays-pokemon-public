@@ -112,26 +112,7 @@
 - Boulder Switch at (18, 14).
 - Boulder Barrier at (10, 13), blocking path north.
 
-### Hypothesis 1 (FALSIFIED)
-- **Hypothesis:** Pushing a boulder onto the switch at (18, 14) will open the boulder barrier at (10, 13).
-- **Test 1 Action:** Attempted to push Boulder 1 at (6, 16) to the right.
-- **Result:** Push failed. The boulder did not move.
-- **Conclusion:** Hypothesis 1 cannot be tested with Boulder 1, as it is blocked by an impassable wall at (7, 16).
-
-### Hypothesis 2 (FALSIFIED)
-- **Hypothesis:** The boulder at (3, 11) is the correct one for the switch at (18, 14).
-- **Test 2 Action:** Attempted to pathfind to the boulder at (3, 11).
-- **Result:** Pathfinding failed repeatedly, indicating the western area is unreachable from the current position.
-- **Conclusion:** The boulder at (3, 11) cannot be used for the switch at (18, 14) from this area.
-
-### Hypothesis 3 (Active)
-- **Hypothesis:** The boulder at (6, 16) is the correct one for the switch at (18, 14), and there is a complex path to move it there.
-- **Methodology:** The manual path is too complex and error-prone. I created and refined a dedicated tool, `boulder_puzzle_solver`, to find the optimal sequence of moves.
-- **Step 1 (Completed):** Called `boulder_puzzle_solver` with the boulder and switch coordinates. The tool returned a valid sequence of moves.
-- **Step 2 (In Progress):** Execute the sequence of moves provided by the tool.
-
-### Hypothesis 4 (Active)
-- **Hypothesis:** The boulder at (13, 15) is the correct one for the switch at (18, 14).
-- **Methodology:** The manual path is too complex and error-prone. I will use my dedicated tool, `boulder_puzzle_solver`, to find the optimal sequence of moves.
-- **Step 1 (In Progress):** Call `boulder_puzzle_solver` with the boulder at (13, 15) and switch at (18, 14).
-- **Step 2 (Pending):** Execute the sequence of moves provided by the tool.
+### Solution (Turn 95330)
+- **Objective:** Move the boulder from (13, 15) to the switch at (18, 14).
+- **Methodology:** The manual path was too complex. I used my `boulder_puzzle_solver` tool to generate the optimal sequence of moves.
+- **Status:** The plan was successfully generated and is currently being executed.
