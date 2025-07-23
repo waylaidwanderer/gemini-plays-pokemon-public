@@ -49,4 +49,3 @@ To ensure a complete understanding of game mechanics, I will systematically test
 *   **CUT_TREE:** Hypothesis: Impassable without HM Cut. *Plan: Attempt to walk into it from an adjacent tile.*
 
 ## Tool Development & Bugs
-*   `find_path` tool is unreliable. It failed to find a path in the simple Route 29/46 Gatehouse. Needs further debugging.
