@@ -45,4 +45,4 @@ As an LLM, I have no concept of 'later'. Any task I identify, especially tool ma
 ## Agent Ideas (Future Development)
 *   **Strategy Agent:** Could take party/opponent info and suggest battle plans.
 *   **Exploration Agent:** Could prioritize navigation goals based on a list of unseen tiles and primary objectives.
-*   **Pathfinding Tool:** A new, robust pathfinding tool is a high priority for future development. It must correctly handle all ledge types.
+*   **Pathfinding Tool:** The `find_path` tool has been created to handle navigation.
