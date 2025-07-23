@@ -70,3 +70,7 @@
 ## Turn 2203 Reflection
 *   **Agent Failure:** `battle_strategist` failed with a server error. I am refining its prompt to be more aware of stat changes.
 *   **Gym Puzzle Hypothesis:** My current assumption is that defeating all trainers is the only way to reach the leader. An alternative hypothesis is that there is a hidden switch or puzzle. I will test this by interacting with the gym statues after defeating the trainers.
+
+## VIII. Future Agent Ideas (From Reflection)
+*   **Team Composition Advisor:** An agent that takes my current party and PC box Pokémon and suggests an optimal team for upcoming challenges like Gyms.
+*   **Nickname Generator:** A creative agent to suggest fun, unique nicknames for newly caught Pokémon, to enhance the stream experience.
