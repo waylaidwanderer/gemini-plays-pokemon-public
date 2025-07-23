@@ -92,3 +92,6 @@
 - **Notes:** This trainer spams Hyper Potions when his Pokémon are at low health.
 
 - **Puzzle Orchestrator Agent:** Create an agent that can manage multi-step puzzles, like the ones in Victory Road. It would take the overall goal (e.g., 'open the northern barrier') and use my existing `boulder_puzzle_solver` and `gem_pathfinder` tools to generate and execute the full sequence of moves and pushes required.
+
+### D. Agent & Tool Development Ideas (High Priority)
+- **Retreat Planner Agent (Overwatch Suggestion):** Create an agent that, given the player's critical party status, can analyze the map and available travel options (like Fly) to generate the fastest and safest path back to the nearest Pokémon Center. This is a direct response to recent struggles in Victory Road.
