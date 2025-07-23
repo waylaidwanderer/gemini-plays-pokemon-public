@@ -29,3 +29,4 @@
 *   **LEDGE_HOP_DOWN:** Hypothesis: Allows downward travel over the ledge. *Plan: Find a ledge and attempt to move down onto it, then attempt to move back up.*
 *   **LEDGE_HOP_LEFT:** Hypothesis: Allows leftward travel over the ledge. *Plan: Find a ledge and attempt to move left onto it, then attempt to move back right.*
 *   **VOID:** Appears impassable. *Plan: Attempt to walk into it from an adjacent tile.*
+* **Stun Mechanic:** Interacting with a stunned NPC appears to automatically unstun them.
