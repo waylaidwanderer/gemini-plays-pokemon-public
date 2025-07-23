@@ -124,7 +124,8 @@
     *   **Test:** Attempted to walk into the tree from (12, 5).
     *   **Result:** Movement was blocked.
     *   **Conclusion:** Confirmed that `CUT_TREE` is an impassable tile. It likely requires a special ability like HM Cut to remove, but this remains unverified.
-*   **Target 2: `HEADBUTT_TREE` at (13, 4).**
-    *   **Hypothesis:** Impassable but interactable with Headbutt.
-    *   **Alternative Hypothesis:** Standard impassable object.
-    *   **Test:** Attempt to walk into it. Interact with it using 'A'.
+*   **`HEADBUTT_TREE` at (13, 4) - Test Complete:**
+    *   **Hypothesis:** Impassable but potentially interactable.
+    *   **Test 1:** Attempted to walk into the tree from (12, 4). Result: Movement blocked.
+    *   **Test 2:** Interacted with the tree using 'A'. Result: No interaction occurred.
+    *   **Conclusion:** Confirmed that `HEADBUTT_TREE` is an impassable and non-interactive tile. It likely requires a special ability like HM Headbutt, but this remains unverified.
