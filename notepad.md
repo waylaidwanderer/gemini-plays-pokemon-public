@@ -17,7 +17,7 @@
 - **Elevated Ground:** Walkable ground at a different elevation. Cannot use Surf from this tile type.
 - **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close.
 - **Boulder Switch & Barrier:** `boulder_switch` tiles are activated by boulders, which changes a `boulder_barrier` tile into a `cleared_boulder_barrier` tile.
-- **Cleared Boulder Barrier (Updated):** Functions as a one-way ramp. It can only be entered from a `steps` tile when moving from `ground` to `elevated_ground`. It is impassable from adjacent `ground` tiles and cannot be used to move down from `elevated_ground` to `ground`. This was confirmed on Victory Road 2F (Turn 95901).
+- **Cleared Boulder Barrier (Corrected):** Functions as a one-way ramp. It can only be entered from a `steps` tile when moving from `ground` to `elevated_ground`. It is impassable from adjacent `ground` tiles and cannot be used to move down from `elevated_ground` to `ground`. This mechanic was fully confirmed and the pathfinder was corrected on Turn 95901.
 
 ## B. General Heuristics & Rules
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
