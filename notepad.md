@@ -94,7 +94,3 @@
 # V. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
 - **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored.
-
-# VI. Future Strategy
-- **Giovanni Prep:** Use `team_composition_advisor_agent` before the next attempt.
-- **Seafoam Islands:** The current plan is to test the 'steps' tile at (24, 10) on B3F as a potential surf entry point to access the main puzzle area.
