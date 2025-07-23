@@ -85,3 +85,4 @@
 1.  **Retreat Planner Agent (High Priority - Overwatch Suggestion):** Create an agent that, given a critical party status, can analyze the map and available travel options (like Fly) to generate the fastest and safest path back to the nearest Pokémon Center. This is a direct response to recent struggles in Victory Road.
 2.  **Puzzle Orchestrator Agent:** Create an agent that can manage multi-step puzzles, like the ones in Victory Road. It would take the overall goal (e.g., 'open the northern barrier') and use my existing `boulder_puzzle_solver` and `gem_pathfinder` tools to generate and execute the full sequence of moves and pushes required.
 3.  **Pokedex Analysis Agent:** Create an agent that analyzes the Pokedex and suggests which Pokémon to target for capture based on type needs for upcoming battles or areas.
+- **Elixer Mechanic (Correction):** Elixers only restore PP, not HP. This was verified on Turn 96074 with CRAG in Victory Road 2F.
