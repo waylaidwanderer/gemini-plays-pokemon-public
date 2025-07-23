@@ -96,3 +96,6 @@
 # V. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
 - **Resolution:** I will standardize all future gate markers to use '✅' for open and '⛔' for closed. The existing '🟢' markers will be treated as legacy data and ignored.
+
+## C. Agent & Tool Development Ideas
+- **Victory Road Team Planner Agent:** Consider creating a new agent that analyzes my entire PC box to recommend an optimal team for a multi-battle area like Victory Road or the Elite Four, considering endurance and type coverage across multiple fights.
