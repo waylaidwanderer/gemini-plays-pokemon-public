@@ -43,7 +43,17 @@
 *   **LADDER:** Hypothesis: Functions as a two-way warp. *Plan: Attempt to use from both ends.*
 *   **CUT_TREE:** Hypothesis: Impassable without HM Cut. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **HEADBUTT_TREE:** Hypothesis: Impassable. *Plan: Attempt to walk into it from an adjacent tile.*
-*   **LEDGE_HOP_DOWN/LEFT/RIGHT:** Hypothesis: One-way traversal. *Plan: Attempt to walk onto it from the opposing direction.*
+### Confirmed One-Way:
+*   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
+
+### Untested / Hypotheses:
+*   **LADDER:** Hypothesis: Functions as a two-way warp. *Plan: Attempt to use from both ends.*
+*   **CUT_TREE:** Hypothesis: Impassable without HM Cut. *Plan: Attempt to walk into it from an adjacent tile.*
+*   **HEADBUTT_TREE:** Hypothesis: Impassable. *Plan: Attempt to walk into it from an adjacent tile.*
+*   **LEDGE_HOP_LEFT/RIGHT:** Hypothesis: One-way traversal. *Plan: Attempt to walk onto it from the opposing direction.*
+*   **WATER:** Hypothesis: Impassable without HM Surf. *Plan: Attempt to walk into it from an adjacent tile.*
+*   **CAVE:** Functions as a warp. *Plan: Verify if it's two-way.*
+*   **STATUE:** Hypothesis: Non-interactive decoration. *Plan: Interact with a statue to test for any effect.*
 *   **WATER:** Hypothesis: Impassable without HM Surf. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **CAVE:** Functions as a warp. *Plan: Verify if it's two-way.*
 *   **STATUE:** Hypothesis: Non-interactive decoration. *Plan: Interact with a statue to test for any effect.*
