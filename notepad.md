@@ -72,6 +72,7 @@
 - **`spinner_maze_solver`:** Rewrote path reconstruction logic to fix a critical bug.
 - **`reachable_shoreline_finder`:** Created to systematically identify valid SURF starting points. Updated on Turn 94090 to handle elevation changes via 'steps' tiles.
 - **`connectivity_checker`:** Deleted due to redundancy with robust pathfinder.
+- **`find_closest_unseen_tile`:** Deleted on Turn 95731. The tool's logic was flawed as it only calculated Manhattan distance and did not account for actual path traversability, leading to incorrect navigation suggestions.
 - **`boulder_puzzle_solver` (Turn 95239-95310):** Created to solve boulder puzzles. The tool underwent several critical fixes:
   - Corrected player position tracking logic after a push (initially assumed player moved into the old space, then corrected to player remaining at the push spot).
   - Fixed multiple `NameError` crashes due to typos in variable names (`new_boulder_pos`, `current_boulder_pos`).
