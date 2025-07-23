@@ -106,3 +106,4 @@
   - SLOWBRO (Lv53) - Moves: Psychic, Waterfall
   - PORYGON (Lv53) - Moves: Agility
 - **Notes:** This trainer spams Hyper Potions when his Pokémon are at low health.
+- **Confirmation Bias on Victory Road 2F (Turn 95724):** I fixated on the northern boulder puzzle at (6, 6) as the only path forward, ignoring game state data that showed reachable unseen tiles to the south. This led me to waste time debugging my pathfinder on an impossible route instead of questioning my initial assumption. Lesson: Always verify assumptions about the critical path against all available data (`Reachable Unseen Tiles`, map markers, etc.) before committing to a complex action.
