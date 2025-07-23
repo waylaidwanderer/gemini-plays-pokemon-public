@@ -26,21 +26,25 @@ As an LLM, I have no concept of 'later'. Any task I identify, especially tool ma
 ## Tile Traversal Rules (Systematic Testing)
 *Method: To confirm a tile's properties, I must attempt to move onto it from all four adjacent, traversable tiles (Up, Down, Left, Right). A conclusion is only valid after all directions are tested.*
 
-### Confirmed Mechanics:
-*   **FLOOR:** Traversable.
-*   **WALL:** Impassable.
-*   **COUNTER:** Impassable. Interacting with NPCs behind them requires facing the counter tile.
-*   **HEADBUTT_TREE:** Impassable.
+### Confirmed Traversable:
+*   **FLOOR:** Fully traversable.
+*   **TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
 *   **DOOR:** Functions as a warp.
-*   **LEDGE_HOP_DOWN:** Confirmed one-way traversal. Impassable from below. Player can only move down from this tile.
+*   **WARP_CARPET_DOWN:** Functions as a two-way warp.
 
-### Confirmed Mechanics:
+### Confirmed Impassable:
+*   **WALL:** Impassable.
+*   **COUNTER:** Impassable. Interact with NPCs from the front.
+*   **HEADBUTT_TREE:** Impassable.
 *   **FRUIT_TREE:** Impassable. Can be interacted with for items.
+
+### Partially Traversable / Special Mechanics:
+*   **LEDGE_HOP_DOWN:** One-way traversal. Can only move Down off this tile. *Further testing needed: Can I move left/right while on it?*
+
+### Untested / Hypotheses:
 *   **CUT_TREE:** Hypothesis: Impassable without HM Cut. *Plan: Attempt to walk into it from an adjacent tile.*
-*   **TALL_GRASS:** Confirmed traversable.
 *   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal from right to left. *Plan: Attempt to walk onto it from the left.*
-*   **WARP_CARPET_DOWN:** Appears to function as a two-way warp. *Plan: Confirm by attempting to walk back up from the destination map.*
-*   **FLOOR_UP_WALL:** Encountered on Route 46. Hypothesis: A floor tile that appears visually connected to a wall above it. *Plan: Test traversability from all sides.*
+*   **WATER:** Hypothesis: Impassable without HM Surf. *Plan: Attempt to walk into it from an adjacent tile.*
 
 ## Agent Ideas (Future Development)
 *   **Strategy Agent:** Could take party/opponent info and suggest battle plans.
