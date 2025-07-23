@@ -95,3 +95,6 @@
 
 ### Boulder Puzzle 1 Conclusion (Corrected on Turn 95388)
 - **HYPOTHESIS CONFIRMED:** Pushing the boulder at (13, 15) onto the switch at (18, 14) successfully opened the `boulder_barrier` at (10, 13), changing it to `cleared_boulder_barrier`. My previous conclusion on Turn 95374 was a critical hallucination. The path north is now open.
+
+## D. Technical Debt
+- **`gem_pathfinder` Water Logic:** The tool's logic for transitioning from land to water is still flawed. It generates invalid paths that start by moving directly into water. Needs a proper fix to check if the starting tile is a valid shoreline for using Surf.
