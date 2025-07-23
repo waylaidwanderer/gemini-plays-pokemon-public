@@ -129,3 +129,11 @@
     *   **Test 1:** Attempted to walk into the tree from (12, 4). Result: Movement blocked.
     *   **Test 2:** Interacted with the tree using 'A'. Result: No interaction occurred.
     *   **Conclusion:** Confirmed that `HEADBUTT_TREE` is an impassable and non-interactive tile. It likely requires a special ability like HM Headbutt, but this remains unverified.
+
+## XIV. Tool Development & Route 31 Status (Turns 2513-2516)
+*   **Tool Failure (`find_reachable_unseen_tiles`):** The tool initially failed, returning an empty list.
+*   **Hypothesis:** The tool's logic was flawed, using an inefficient per-tile pathfinding check.
+*   **Refinement (Turn 2513):** I rewrote the tool to use a single, more efficient BFS to find all reachable 'seen' tiles first, then identify adjacent unseen tiles.
+*   **Tool Test (Turn 2514):** The fixed tool returned an empty list again.
+*   **Conclusion:** The tool is likely working correctly. This result confirms I am in an isolated section of Route 31, cut off by ledges I jumped down.
+*   **Current Strategy:** Since exploration is impossible from this location, I will focus on grinding levels in this contained area to prepare for the Violet City Gym.
