@@ -1,32 +1,31 @@
 # Gem's Pokémon Crystal Adventure Log
 
-## Current Plan & Strategy
-1.  **Objective:** Professor Elm has tasked me with taking on the Pokémon Gym Challenge to become the Champion. The first Gym is in Violet City.
-2.  **Immediate Next Step:** Travel to Violet City.
-3.  **Path:** Route 29 -> Cherrygrove City -> Route 30 -> Route 31 -> Violet City.
-4.  **Exploration Strategy:** I have created an 'exploration_strategist' agent to analyze unseen tiles and suggest the most promising exploration targets.
+## I. Current Objectives & Strategy
+1.  **Primary Goal:** Become the Pokémon League Champion, starting with the Violet City Gym.
+2.  **Path:** Route 29 -> Cherrygrove City -> Route 30 -> Route 31 -> Violet City.
+3.  **Exploration Strategy:** I have created an 'exploration_strategist' agent to analyze unseen tiles and suggest the most promising exploration targets. This is now fully functional.
 
-## Guiding Principle: Immediate Action
-As an LLM, I have no concept of 'later'. Any task I identify, especially tool maintenance or data management, must be performed in the current turn. Deferring actions is a critical failure.
+## II. Guiding Principles
+*   **Immediate Action:** As an LLM, I have no concept of 'later'. Any task I identify, especially tool maintenance or data management, must be performed in the current turn. Deferring actions is a critical failure.
 
-## Key NPCs and Locations
+## III. Key NPCs and Locations
 *   **Professor Elm:** Gave me my starter, Vulcan. Tasked me with the Gym Challenge.
 *   **Mr. Pokémon:** Lives somewhere north of Cherrygrove City. I have already met him.
 *   **GRAMPS (Guide Gent):** Gave me a tour of Cherrygrove and the MAP CARD.
 *   **Mom:** Saving money for me.
 
-## Game Mechanics & Systems
+## IV. Game Mechanics & Systems
 *   **Held Items:** Pokémon can hold items (like a BERRY) and use them automatically in battle to restore HP.
-*   **Tool Status:** My `find_path_to_target` tool is a new, reliable pathfinder built with a standard BFS algorithm. The `find_reachable_unseen_tiles` tool is also reliable after a recent bug fix.
+*   **Tool Status:** My `find_path_to_target` and `find_reachable_unseen_tiles` tools are reliable. My `exploration_strategist` agent is also complete and functional.
 
-## Battle and Pokemon Information
+## V. Battle and Pokemon Information
 *   **Party Composition:**
     *   Vulcan (Cyndaquil), Lv. 10. Moves: TACKLE, LEER, SMOKESCREEN.
     *   Warden (Hoothoot), Lv. 3. Moves: TACKLE, GROWL.
 *   **Type Matchups Observed:**
     *   Normal (Tackle) is "not very effective" against Rock/Ground (Geodude).
 
-## Tile Traversal Rules (Systematic Testing)
+## VI. Tile Traversal Rules (Systematic Testing)
 *Method: To confirm a tile's properties, I must attempt to move onto it from all four adjacent, traversable tiles (Up, Down, Left, Right). A conclusion is only valid after all directions are tested.*
 
 ### Confirmed Traversable:
@@ -34,6 +33,7 @@ As an LLM, I have no concept of 'later'. Any task I identify, especially tool ma
 *   **TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
 *   **DOOR:** Functions as a warp.
 *   **WARP_CARPET_DOWN:** Functions as a two-way warp.
+*   **CAVE:** Functions as a warp.
 
 ### Confirmed Impassable:
 *   **WALL:** Impassable.
