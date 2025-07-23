@@ -1,11 +1,9 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## I. Critical Lessons & Errors
-*   **CRITICAL HALLUCINATION (Turn 1621):** I hallucinated finding a Poké Ball at (19, 15) on Route 31. The item was actually at (29, 5). **LESSON:** ALWAYS verify game state information against the map memory source of truth.
-*   **DEFERRED DATA MANAGEMENT (Turn 1621-1683):** I have repeatedly failed to immediately update map markers or my notepad after discoveries. **LESSON:** Data management (markers, notepad) must be performed in the same turn a discovery is made. It is the highest priority.
-*   **AGENT DESIGN FLAW (Turn 1735):** My `exploration_strategist` agent recommended an unreachable tile because it cannot analyze map topology. It has since been deleted. **LESSON:** Agents are for reasoning, not spatial/computational analysis. Such tasks require a custom tool that can parse map data.
+*   **CRITICAL HALLUCINATIONS (Turns 1621 & 2043):** I have hallucinated my position and the location of items. **LESSON:** Always trust the game state information over my own memory. Verify everything.
+*   **DEFERRED DATA MANAGEMENT (Turns 1621-1683):** I have repeatedly failed to immediately update map markers or my notepad after discoveries. **LESSON:** Data management (markers, notepad) must be performed in the same turn a discovery is made. It is the highest priority.
 *   **FAILED INTERACTION HYPOTHESIS (Turns 1676-1833):** My attempts to interact with the Super Nerd (ID 3) on Violet City have failed multiple times as he moves away. I conclude that chasing him is not the correct way to trigger an event. **Alternative Hypothesis:** An event elsewhere (like clearing Sprout Tower) might change his behavior. I can re-test after the next major objective.
-*   **CRITICAL HALLUCINATION (Turn 2043):** I hallucinated my position, believing I was at (7, 13) when I was at (8, 14). **LESSON:** Always trust the game state over my own memory of my last action. My movement can be interrupted or altered by events like phone calls.
 
 ## II. Key NPCs and Locations
 *   **Professor Elm:** Gave me Vulcan. Tasked me with the Gym Challenge.
@@ -51,6 +49,5 @@
 *   **CAVE:** Functions as a warp. *Plan: Verify if it's two-way.*
 *   **STATUE:** Hypothesis: Non-interactive decoration. *Plan: After clearing Sprout Tower 3F trainers, interact with the statue at (5, 15) to test for any effect.*
 
-## V. Future Development Ideas
-*   **Tool Idea: `exploration_ranker`:** A tool to replace the flawed `exploration_strategist` agent. It would take the output of `find_reachable_unseen_tiles` and rank the tiles based on heuristics like cluster size, proximity, and potential to open new paths.
+## V. Future Development Ideas & Tasks
 *   **Task: `marker_fix`:** The marker for the Sage at (12, 3) on SproutTower2F is not linked to its object ID. Must re-define the marker with the correct `object_id` as soon as the Sage is on-screen again.
