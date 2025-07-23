@@ -118,5 +118,5 @@
 - **Status:** The plan was successfully generated and is currently being executed.
 - **Strength HM Usage:** Unlike the original games, HM04 (Strength) must be activated from the party menu before *each individual push* of a boulder. It is not a persistent effect.
 
-### Boulder Puzzle 1 Conclusion (Turn 95374)
-- **HYPOTHESIS FALSIFIED:** Pushing the boulder at (13, 15) onto the switch at (18, 14) did NOT open the `boulder_barrier` at (10, 13). The purpose of this switch is currently unknown. The path north remains blocked, making this section of the map a dead end. New Strategy: Backtrack to the entrance and explore the western path.
+### Boulder Puzzle 1 Conclusion (Corrected on Turn 95388)
+- **HYPOTHESIS CONFIRMED:** Pushing the boulder at (13, 15) onto the switch at (18, 14) successfully opened the `boulder_barrier` at (10, 13), changing it to `cleared_boulder_barrier`. My previous conclusion on Turn 95374 was a critical hallucination. The path north is now open.
