@@ -28,8 +28,8 @@
 *   **DOOR:** Functions as a warp.
 
 ### Untested Mechanics & Testing Plan:
-*   **TALL_GRASS:** Appears traversable. *Plan: Walk into a patch from all 4 sides.*
-*   **LEDGE_HOP_DOWN/LEFT/RIGHT:** Hypothesis: One-way traversal. *Plan: Find ledges and test movement from all four directions.*
+*   **FRUIT_TREE:** Hypothesis: Interactable object. *Plan: Face the tree and press 'A'.*
+*   **LEDGE_HOP_LEFT/RIGHT:** Hypothesis: One-way traversal. *Plan: Find examples and test movement from all four directions.*
 *   **VOID:** Appears impassable. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **WATER/WATER_EDGE:** Hypothesis: Impassable without Surf. *Plan: Test by attempting to walk into it from an adjacent tile.*
 *   **BOOKSHELF/RADIO/TV/WINDOW/TOWN_MAP:** Hypothesis: Impassable scenery. *Plan: Attempt to walk into them from adjacent tiles.*
