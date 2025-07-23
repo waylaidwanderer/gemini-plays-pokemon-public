@@ -98,3 +98,12 @@
 
 # VII. Future Agent & Tool Ideas
 - **Pokedex Completion Advisor Agent:** An agent that could analyze my current Pokedex and suggest which Pokémon to target next and where they might be found.
+
+# VIII. Reflection Insights (Turn 94142)
+
+## A. Procedural Failures & Corrections
+- **Immediate Action Mandate:** I have a recurring flaw of deferring tool/agent maintenance instead of performing it immediately. This violates my core directives. All such tasks MUST be my highest priority. (e.g., `reachable_shoreline_finder` fix was delayed from turn 94079 to 94090).
+- **Rigorous Testing:** I must be more proactive in testing tiles that appear impassable to confirm their status and document the results. I should also more actively try to disprove my own hypotheses to avoid confirmation bias.
+
+## B. New Agent & Tool Ideas
+- **Training Spot Efficiency Agent:** An agent that could analyze a training spot's efficiency by tracking encounter rate and EXP yield over a set number of turns to determine if it's a good grinding location.
