@@ -6,15 +6,15 @@
 - **Grass:** Tall grass for wild Pokémon encounters.
 - **Ledge:** Can be jumped down (one-way). Moving down into a ledge tile moves the player two tiles down.
 - **Cuttable Tree:** Requires HM Cut to pass. Respawn on map change.
-- **Water:** Requires HM Surf to traverse. Surf is initiated from the party menu while adjacent to water.
+- **Water:** Requires HM Surf to traverse. 
 - **Boulder:** Requires HM Strength to move.
 - **Hole:** Warps player to a lower floor.
 - **Ladder (Up/Down):** Warps player between floors.
 - **Warp:** An instant transition point between maps.
-- **Steps:** Allows movement between different ground elevations.
+- **Steps:** Allows movement between different ground elevations and can act as a valid entry point to water for Surfing.
 - **Spinner (up, down, left, right):** Forces movement.
 - **Spinner Stop:** A tile that halts spinner movement.
-- **Elevated Ground:** Walkable ground at a different elevation.
+- **Elevated Ground:** Walkable ground at a different elevation. Cannot use Surf from this tile type.
 - **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close.
 - **Boulder Switch & Barrier:** `boulder_switch` tiles are activated by boulders, which changes a `boulder_barrier` tile into a `cleared_boulder_barrier` tile.
 
@@ -32,7 +32,7 @@
 
 ## A. Type Effectiveness Chart (Verified)
 - **Super Effective (2x):** Psychic > Ghost, Poison; Ghost > Psychic; Electric > Rock, Water; Flying > Grass, Poison, Fighting; Ice > Ground, Grass, Flying, Dragon; Ground > Poison, Fire, Electric, Rock; Rock > Fire, Ice, Flying, Bug; Fighting > Normal, Rock, Ice; Water > Fire, Ground, Rock; Grass > Water, Ground, Rock; Bug > Grass, Poison, Psychic; Poison > Grass, Bug.
-- **Not Very Effective (0.5x):** Normal !> Rock; Electric !> Grass, Electric, Dragon; Rock !> Psychic; Psychic !> Psychic; Poison !> Poison, Ground, Rock, Ghost; Ice !> Water, Ice, Fire; Fighting !> Poison, Flying, Psychic, Bug; Water !> Water, Grass, Dragon; Grass !> Fire, Grass, Poison, Flying, Bug, Dragon.
+- **Not Very Effective (0.5x):** Normal !> Rock; Electric !> Grass, Electric, Dragon; Rock !> Psychic; Psychic !> Psychic; Poison !> Poison, Ground, Rock, Ghost; Ice !> Water, Ice, Fire; Fighting > Poison, Flying, Psychic, Bug; Water !> Water, Grass, Dragon; Grass !> Fire, Grass, Poison, Flying, Bug, Dragon.
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting.
 
 ## B. Trainer Rosters & Movesets
@@ -86,11 +86,10 @@
 - **Refinement (Turn 94114):** Updated agent prompt to correctly interpret the 'training' goal, prioritizing EXP gain for lower-level party members over simply winning with the strongest Pokémon.
 
 ## B. Tool Development Log
-- **Pathfinder & Boulder Puzzle Solver:** Fixed a bug preventing land-to-water SURF transitions and corrected ledge traversal logic.
+- **Pathfinder & Boulder Puzzle Solver:** Fixed a bug preventing land-to-water SURF transitions and corrected ledge traversal logic. Consolidated redundant tools.
 - **`spinner_maze_solver`:** Rewrote path reconstruction logic to fix a critical bug.
 - **`reachable_shoreline_finder`:** Created to systematically identify valid SURF starting points. Updated on Turn 94090 to handle elevation changes via 'steps' tiles.
-- **`connectivity_checker`:** Created to validate if a path is possible before calling a pathfinder.
-- **`robust_pathfinder`:** Corrected a bug preventing water-to-land transitions and a syntax error.
+- **`connectivity_checker`:** Deleted due to redundancy with robust pathfinder.
 
 # V. Known Issues & Tool Limitations
 - The `delete_map_marker` tool is unable to recognize and delete the '🟢' emoji.
@@ -98,8 +97,9 @@
 
 # VI. Future Strategy
 - **Giovanni Prep:** Use `team_composition_advisor_agent` before the next attempt.
-- **Exploration & Training:** The previous grinding spot on Seafoam Islands B3F was inefficient. The new plan is to explore the western part of the Seafoam Islands, accessible via the ladder at (9, 7) on B3F, in search of better training opportunities or a path forward.
+- **Seafoam Islands:** The current plan is to test the 'steps' tile at (24, 10) on B3F as a potential surf entry point to access the main puzzle area.
 
 # VII. Future Agent & Tool Ideas
 - **Pokedex Completion Advisor Agent:** An agent that could analyze my current Pokedex and suggest which Pokémon to target next and where they might be found.
 - **Training Spot Efficiency Agent/Tool:** An agent or tool that could analyze a training spot's efficiency by tracking encounter rate and EXP yield over a set number of turns to determine if it's a good grinding location.
+- **Boulder Puzzle Solver Tool:** A computational tool that can analyze the map XML for boulders, holes, and switches, and output a sequence of moves to solve the puzzle. This would require diligent map marking of each boulder's properties.
