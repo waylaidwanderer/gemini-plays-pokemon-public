@@ -28,7 +28,7 @@
 *   **DOOR:** Functions as a warp.
 
 ### Untested Mechanics & Testing Plan:
-*   **FRUIT_TREE:** Hypothesis: Interactable object. *Plan: Face the tree and press 'A'.*
+*   **FRUIT_TREE:** Interactable. Can yield items like BERRIES. (Confirmed by interacting with the tree at (5, 39) on Route 30).
 *   **LEDGE_HOP_LEFT/RIGHT:** Hypothesis: One-way traversal. *Plan: Find examples and test movement from all four directions.*
 *   **VOID:** Appears impassable. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **WATER/WATER_EDGE:** Hypothesis: Impassable without Surf. *Plan: Test by attempting to walk into it from an adjacent tile.*
