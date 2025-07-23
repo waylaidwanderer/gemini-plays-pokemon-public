@@ -13,6 +13,7 @@
 *   **Mr. Pokémon:** Lives somewhere north of Cherrygrove City. I have already met him.
 *   **GRAMPS (Guide Gent):** Gave me a tour of Cherrygrove and the MAP CARD.
 *   **Mom:** Saving money for me.
+*   **WADE (Bug Catcher):** Met on Route 31. Gave me his phone number.
 
 ## IV. Game Mechanics & Systems
 *   **Held Items:** Pokémon can hold items (like a BERRY) and use them automatically in battle to restore HP.
@@ -20,10 +21,13 @@
 
 ## V. Battle and Pokemon Information
 *   **Party Composition:**
-    *   Vulcan (Cyndaquil), Lv. 10. Moves: TACKLE, LEER, SMOKESCREEN.
+    *   Vulcan (Cyndaquil), Lv. 11. Moves: TACKLE, LEER, SMOKESCREEN.
     *   Warden (Hoothoot), Lv. 3. Moves: TACKLE, GROWL.
+    *   Miasma (Gastly), Lv. 5. Moves: HYPNOSIS, LICK.
 *   **Type Matchups Observed:**
     *   Normal (Tackle) is "not very effective" against Rock/Ground (Geodude).
+    *   Normal (Tackle) has no effect on Ghost (Gastly).
+    *   Ghost (Lick) has no effect on Normal (Hoothoot).
 
 ## VI. Tile Traversal Rules (Systematic Testing)
 *Method: To confirm a tile's properties, I must attempt to move onto it from all four adjacent, traversable tiles (Up, Down, Left, Right). A conclusion is only valid after all directions are tested.*
@@ -48,3 +52,6 @@
 *   **CUT_TREE:** Hypothesis: Impassable without HM Cut. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal from right to left. *Plan: Attempt to walk onto it from the left.*
 *   **WATER:** Hypothesis: Impassable without HM Surf. *Plan: Attempt to walk into it from an adjacent tile.*
+
+## VII. Critical Lessons & Errors
+*   **CRITICAL HALLUCINATION (Turn 1621):** I hallucinated finding a Poké Ball at (19, 15) on Route 31. The item was actually at (29, 5). I failed to verify the item's existence and my marker deletion attempt. **LESSON:** ALWAYS verify game state information against the map memory source of truth. NEVER assume an action was successful without confirmation.
