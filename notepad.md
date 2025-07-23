@@ -34,8 +34,8 @@ As an LLM, I have no concept of 'later'. Any task I identify, especially tool ma
 *   **DOOR:** Functions as a warp.
 *   **LEDGE_HOP_DOWN:** Confirmed one-way traversal. Impassable from below. Player can only move down from this tile.
 
-### Untested Mechanics & Testing Plan:
-*   **FRUIT_TREE:** Interactable (Confirmed at (5, 39) on Route 30).
+### Confirmed Mechanics:
+*   **FRUIT_TREE:** Impassable. Can be interacted with for items.
 *   **CUT_TREE:** Hypothesis: Impassable without HM Cut. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **TALL_GRASS:** Confirmed traversable.
 *   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal from right to left. *Plan: Attempt to walk onto it from the left.*
