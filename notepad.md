@@ -90,3 +90,4 @@
     *   **Test:** Used Spite on a sleeping Pidgeotto.
     *   **Result:** The move failed with the message "It didn't affect Enemy PIDGEOTTO!".
     *   **Conclusion:** Hypothesis is likely true. Spite appears to require the target to be awake.
+*   **CRITICAL HALLUCINATION (Turn 2375):** I hallucinated being in a battle when I was not. **LESSON:** Double-check the game state before taking any action. The system warnings are a source of truth.
