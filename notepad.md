@@ -23,6 +23,7 @@
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **"No Will to Fight" Message (Correction):** Appears when the party menu cursor is on a fainted Pokémon.
 - **Level Cap:** The level cap with 7 badges is 55.
+- **Special NPC Interaction:** Certain puzzles may require walking *through* an NPC rather than interacting with them (e.g., Summer Beach House).
 
 ## C. Area-Specific Discoveries
 - **Route 23 Earth Badge Check:** A guard at (5, 36) blocks the main path. Furthermore, an invisible trigger line along Y=36 prevents any northward movement in the western maze area, effectively blocking exploration until the Earth Badge is obtained.
@@ -60,11 +61,21 @@
 - **Procedural Flaw - Tool Maintenance (Turn 90810):** I have a critical flaw in my tool maintenance process. After fixing a fundamental logic error in one tool, I failed to proactively audit my other tools for the same bug.
 - **Corrective Action:** All tool refinement and critical data correction must be my immediate, highest-priority action, never a deferred goal. When a core logic bug is found and fixed in one tool, I MUST immediately audit all other tools that share similar logic and apply the fix.
 - **Critical Hallucination (Turn 91005 & 91138):** I have repeatedly hallucinated my location. I must ground my actions in the provided game state, not my assumptions.
+- **Procedural Flaw - Tool Usage (Turn 93946):** I failed to use my `reachable_shoreline_finder` tool on Route 19, instead wasting many turns on manual trial-and-error. I must consult my available tools before attempting manual solutions.
 
 ## C. Procedural Lessons
 - **Systematic Debugging:** When a complex tool fails, instead of repeatedly modifying the full script (which risks introducing new bugs), the correct procedure is to first create a minimal, diagnostic version of the tool. This allows for the isolation of the specific point of failure (e.g., grid-parsing, algorithm logic) in a controlled way, leading to a more efficient and reliable fix.
 - **Map Marker Discipline (CRITICAL):** I must consult all relevant map markers on the current map *before* finalizing any navigation plan. Ignoring my own data leads to wasted turns and strategic failure, as seen with the Route 23 guard.
 - **Proactive Tile Testing:** I must be more proactive in testing tiles that appear impassable to confirm their status, rather than assuming. The results of these tests should be documented.
+
+## D. Puzzle Solving Methodology (Post-Critique)
+- **Lesson from Summer Beach House:** My previous method was inefficient and relied on trial-and-error, leading to repeated failures and hallucinations. 
+- **New Procedure:** For all future puzzles, I will follow a strict scientific method:
+  1. **Observe:** Document the initial state of the puzzle in my notepad.
+  2. **Hypothesize:** Formulate a single, clear, testable hypothesis.
+  3. **Test:** Execute the simplest possible action to test the hypothesis.
+  4. **Conclude:** Record the result and whether the hypothesis was confirmed or falsified.
+- This structured approach will prevent looping and ensure I am building on my knowledge systematically.
 
 # IV. Agent & Tool Refinement Log
 
@@ -87,12 +98,3 @@
 
 # VII. Future Agent & Tool Ideas
 - **Pokedex Completion Advisor Agent:** An agent that could analyze my current Pokedex and suggest which Pokémon to target next and where they might be found.
-
-## D. Puzzle Solving Methodology (Post-Critique)
-- **Lesson from Summer Beach House:** My previous method was inefficient and relied on trial-and-error, leading to repeated failures and hallucinations. 
-- **New Procedure:** For all future puzzles, I will follow a strict scientific method:
-  1. **Observe:** Document the initial state of the puzzle in my notepad.
-  2. **Hypothesize:** Formulate a single, clear, testable hypothesis.
-  3. **Test:** Execute the simplest possible action to test the hypothesis.
-  4. **Conclude:** Record the result and whether the hypothesis was confirmed or falsified.
-- This structured approach will prevent looping and ensure I am building on my knowledge systematically.
