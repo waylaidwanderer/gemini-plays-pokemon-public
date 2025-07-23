@@ -1,9 +1,12 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## Current Plan
-1. I have realized the battling trainers are not blocking the entire path. A clear path exists to the left of them.
-2. My primary objective is to find Mr. Pokémon's house by proceeding north along this path.
+1. I am currently on Route 46. My pathfinding tool is now fixed, but my immediate goal is to explore this new route manually to test tile mechanics.
+2. My primary objective is still to find Mr. Pokémon. I hypothesize that Route 46 will connect to the northern part of Route 30, bypassing the battling trainers.
 3. I will continue to systematically test new tile mechanics as I encounter them.
+
+## Guiding Principle: Immediate Action
+As an LLM, I have no concept of 'later'. Any task I identify, especially tool maintenance or data management, must be performed in the current turn. Deferring actions is a critical failure.
 
 ## Key NPCs and Locations
 *   **Professor Elm:** Gave me my starter, Vulcan. Wants me to find Mr. Pokémon.
@@ -15,7 +18,7 @@
 
 ## Battle and Pokemon Information
 *   **Party Composition:**
-    *   Vulcan (Cyndaquil), Lv. 6. Moves: TACKLE, LEER, SMOKESCREEN.
+    *   Vulcan (Cyndaquil), Lv. 8. Moves: TACKLE, LEER, SMOKESCREEN.
 
 ## Tile Traversal Rules (Systematic Testing)
 *Method: To confirm a tile's properties, I must attempt to move onto it from all four adjacent, traversable tiles (Up, Down, Left, Right). A conclusion is only valid after all directions are tested.*
@@ -26,26 +29,17 @@
 *   **COUNTER:** Impassable. Interacting with NPCs behind them requires facing the counter tile.
 *   **HEADBUTT_TREE:** Impassable.
 *   **DOOR:** Functions as a warp.
+*   **LEDGE_HOP_DOWN:** One-way traversal. Confirmed impassable from below.
 
 ### Untested Mechanics & Testing Plan:
-*   **FRUIT_TREE:** Interactable. Can yield items like BERRIES. (Confirmed by interacting with the tree at (5, 39) on Route 30).
-*   **LEDGE_HOP_LEFT/RIGHT:** Hypothesis: One-way traversal. *Plan: Find examples and test movement from all four directions.*
-*   **VOID:** Appears impassable. *Plan: Attempt to walk into it from an adjacent tile.*
-*   **WATER/WATER_EDGE:** Hypothesis: Impassable without Surf. *Plan: Test by attempting to walk into it from an adjacent tile.*
-*   **BOOKSHELF/RADIO/TV/WINDOW/TOWN_MAP:** Hypothesis: Impassable scenery. *Plan: Attempt to walk into them from adjacent tiles.*
-
-## Tile Testing Protocol
-To ensure a complete understanding of game mechanics, I will systematically test every new tile type encountered. For each tile, I will attempt to enter it from all four cardinal directions (where possible) and document the result. This includes tiles that appear impassable, such as scenery, to confirm they are not interactable in a non-obvious way.
-
-### Untested Tiles & Test Plan:
-*   **TALL_GRASS:** Already confirmed traversable. *Final check: Confirm entry from all 4 sides is possible without issue.*
-*   **LEDGE_HOP_DOWN/LEFT/RIGHT:** *Plan: Find an example and attempt to move Up/Left/Right against the ledge direction. Then, move with the ledge direction to confirm one-way travel.*
-*   **VOID:** *Plan: Attempt to walk into it from an adjacent traversable tile.*
-*   **WATER/WATER_EDGE:** *Plan: Attempt to walk into it from an adjacent traversable tile.*
-*   **BOOKSHELF/RADIO/TV/WINDOW/TOWN_MAP:** *Plan: Attempt to walk into each from all available adjacent tiles to confirm they are impassable walls.*
-*   **LEDGE_HOP_DOWN:** One-way traversal. Confirmed impassable from below.
-## Exploration Notes
-* System alert: Potentially reachable unseen tiles detected. I will investigate these after completing my current immediate objective.
+*   **FRUIT_TREE:** Interactable. (Confirmed at (5, 39) on Route 30).
 *   **CUT_TREE:** Hypothesis: Impassable without HM Cut. *Plan: Attempt to walk into it from an adjacent tile.*
+*   **TALL_GRASS:** Already confirmed traversable. *Final check: Confirm entry from all 4 sides is possible without issue.*
+*   **WARP_CARPET_DOWN:** Functions as a warp. *Plan: Test if it is one-way by attempting to walk back up from Route 46.*
 
-## Tool Development & Bugs
+## Exploration Hypotheses
+*   **Route 30 Blockage:** The battling trainers are a scripted event. My current hypothesis is that the path forward is via Route 46. An alternative hypothesis is that a trigger I missed elsewhere (e.g., in Cherrygrove) is required to clear the battle.
+
+## Agent Ideas (Future Development)
+*   **Strategy Agent:** Could take party/opponent info and suggest battle plans.
+*   **Exploration Agent:** Could prioritize navigation goals based on a list of unseen tiles and primary objectives.
