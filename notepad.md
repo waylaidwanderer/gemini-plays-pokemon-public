@@ -44,3 +44,4 @@
 # III. Reminders & Housekeeping
 *   **Systematic Testing:** Must test all unknown tile mechanics (`WATER`, `CAVE`) as soon as possible.
 *   **Trainer Marking:** Must mark all defeated trainers with '☠️' immediately after battle to avoid confusion.
+*   **SIGN:** Impassable. Functions as an object that can be interacted with for text.
