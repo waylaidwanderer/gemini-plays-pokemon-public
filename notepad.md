@@ -11,7 +11,7 @@
 *   **Mom:** Saving my money.
 *   **WADE (Bug Catcher):** Met on Route 31. Gives phone calls.
 *   **FALKNER:** Violet City Gym Leader.
-*   **SPROUT TOWER:** Currently exploring. A giant Bellsprout is the central pillar.
+*   **SPROUT TOWER:** Cleared! The Elder gave me an HM.
 *   **EARL'S POKéMON ACADEMY:** Located in northern Violet City.
 
 ## III. Battle and Pokemon Information
@@ -30,7 +30,6 @@
 *   **FLOOR:** Fully traversable.
 *   **TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
 *   **DOOR:** Functions as a two-way warp.
-*   **LADDER:** Functions as a two-way warp.
 *   **WARP_CARPET_DOWN:** Functions as a two-way warp.
 *   **WARP_CARPET_RIGHT:** Functions as a two-way warp.
 
@@ -42,12 +41,13 @@
 *   **VOID:** Impassable. Appears as a black abyss.
 
 ### Untested / Hypotheses:
+*   **LADDER:** Hypothesis: Functions as a two-way warp. *Plan: Attempt to use from both ends.*
 *   **CUT_TREE:** Hypothesis: Impassable without HM Cut. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **HEADBUTT_TREE:** Hypothesis: Impassable. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **LEDGE_HOP_DOWN/LEFT/RIGHT:** Hypothesis: One-way traversal. *Plan: Attempt to walk onto it from the opposing direction.*
 *   **WATER:** Hypothesis: Impassable without HM Surf. *Plan: Attempt to walk into it from an adjacent tile.*
 *   **CAVE:** Functions as a warp. *Plan: Verify if it's two-way.*
-*   **STATUE:** Hypothesis: Non-interactive decoration. *Plan: After clearing Sprout Tower 3F trainers, interact with the statue at (5, 15) to test for any effect.*
+*   **STATUE:** Hypothesis: Non-interactive decoration. *Plan: Interact with a statue to test for any effect.*
 
 ## V. Future Development Ideas & Tasks
 *   **Task: `marker_fix`:** The marker for the Sage at (12, 3) on SproutTower2F is not linked to its object ID. Must re-define the marker with the correct `object_id` as soon as the Sage is on-screen again.
