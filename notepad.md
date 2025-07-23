@@ -83,3 +83,21 @@
     *   **Test:** Used Spite on a sleeping Pidgeotto.
     *   **Result:** The move failed with the message "It didn't affect Enemy PIDGEOTTO!".
     *   **Conclusion:** The hypothesis is likely true. Spite seems to require the target to be awake or to have just used a move.
+
+## X. Battle Mechanics (Hypotheses & Findings)
+*   **Spite Failure (Turn 2294):**
+    *   **Hypothesis:** Spite fails to affect a sleeping target.
+    *   **Test:** Used Spite on a sleeping Pidgeotto.
+    *   **Result:** The move failed with the message "It didn't affect Enemy PIDGEOTTO!".
+    *   **Conclusion:** Hypothesis is likely true. Spite appears to require the target to be awake.
+
+## XI. Agent Development & Refinement
+
+### `battle_strategist` Refinement Log
+*   **Flaw (Turn 2275):** The agent recommended switching to a Lv 3 Warden to 'preserve' a damaged Miasma. This is a strategic error, as it would sacrifice Warden for no gain. The preservation rule is too rigid and lacks strategic context.
+*   **Refinement (Turn 2281):** Updated the agent's prompt to consider the strategic value of a sacrifice. It should weigh the level and potential of the Pokémon being switched in against the risk to the current Pokémon. A low-level, non-viable Pokémon should not be considered a safe switch.
+
+### Future Agent Ideas (From Reflection)
+*   **Team Composition Advisor:** An agent that takes my current party and PC box Pokémon and suggests an optimal team for upcoming challenges like Gyms.
+*   **Nickname Generator:** A creative agent to suggest fun, unique nicknames for newly caught Pokémon, to enhance the stream experience.
+*   **Stall Battle Analyst:** An agent to help manage long, attrition-based battles by tracking sleep turns, PP usage, and calculating success probability.
