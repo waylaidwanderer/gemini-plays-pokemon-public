@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Adventure Log
 
 ## Current Plan
-1. I am inside the Cherrygrove Poké Mart.
-2. My immediate goal is to see what the clerk has for sale.
-3. After, I will leave and head north to Route 30 to find Mr. Pokémon.
+1. I am on Route 30, exploring the path north.
+2. A new item has appeared! My immediate goal is to go get the Poké Ball at (8, 35).
+3. After getting the item, I will continue north to find Mr. Pokémon.
 
 ## Key NPCs and Locations
 *   **Professor Elm:** Gave me my starter, Vulcan. Wants me to find Mr. Pokémon.
