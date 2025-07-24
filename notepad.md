@@ -51,43 +51,31 @@
 # III. Active Plans & Puzzles
 
 ## Victory Road 1F Puzzle (Resetting)
-- **Objective:** Push the boulder from (6, 16) to the switch at (18, 14).
-- **Status:** Resetting puzzle after soft-lock. Must follow solver plan precisely.
-- **Solver's Plan (Full Sequence):**
-  1. Move to (6, 15), push boulder Down to (6, 17).
-  2. Move to (5, 17), push boulder Right to (7, 17).
-  3. Move to (6, 17), push boulder Right to (8, 17).
-  4. Move to (9, 18), then to (8, 18), push boulder Up to (8, 16).
-  5. Move to (8, 16), then to (7, 16), push boulder Right to (9, 16).
-  6. Move to (10, 17), then to (9, 17), push boulder Up to (9, 15).
-  7. Move to (10, 15), push boulder Right to (11, 15).
-  8. Move to (11, 15), push boulder Right to (12, 15).
-  9. Move to (12, 15), push boulder Right to (13, 15).
-  10. Move to (13, 15), push boulder Right to (14, 15).
-  11. Move to (14, 15), push boulder Right to (15, 15).
-  12. Move to (15, 15), push boulder Right to (16, 15).
-  13. Move to (17, 16), push boulder Up to (17, 15).
-  14. Move to (17, 15), push boulder Up to (17, 14).
-  15. Move to (16, 13), push boulder Right to (17, 13).
-  16. Move to (18, 12), push boulder Down to (18, 13).
+- **Objective:** Reset the puzzle after soft-locking it by following a faulty tool-generated plan.
+- **Status:** Backtracking to the entrance at (9, 18) to leave and re-enter the map.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools like the pathfinder is a major strategic error. Faulty tools must be addressed immediately.
-- **Trust Tool Outputs:** Deviating from a valid, tool-generated plan can lead to soft-locks and wasted time. I must trust my solver's output and follow its steps precisely.
+- **Verify Tool Outputs Before Trusting:** A faulty plan is worse than no plan. My `boulder_puzzle_solver` generated a plan that led to a soft-lock because it did not correctly account for impassable tiles. I must verify the key steps of any complex plan before executing it.
 - **Archived Puzzle Solutions:** Puzzles can reset upon re-entering a map. Archived solutions may be outdated. Always observe the current state of a puzzle before acting.
 - **Trust the Game State:** My own assumptions about my position or game mechanics can be wrong. The Game State Information is the absolute source of truth and must be trusted over my memory or intuition.
 - **Break Unproductive Loops:** If a strategy fails repeatedly (e.g., getting interrupted by wild battles), it's better to change the approach or goal than to persist in an inefficient loop.
 - **Confirmation Bias:** I must be wary of trying to prove my own assumptions right. It's important to trust system warnings and evidence that contradicts my beliefs.
 
-# V. Tool/Agent Development Ideas
+# V. Tool/Agent Development & Debugging
+
+## A. Development Ideas
 - **`plan_executor_agent`:** An agent that takes a multi-step plan from the notepad and outputs the next single action. This would help manage complex sequences without losing track.
+
+## B. Active Debugging Tasks
+- **`boulder_puzzle_solver`:** The tool is critically flawed. It generated a plan that required moving to an impassable tile (`(7, 16)`), causing a soft-lock. I need to add debugging to its pathfinding logic to understand why it's failing to check tile validity correctly.
 
 # VI. Archives
 
 ## A. Archived Puzzle Solutions
-### Victory Road 1F Puzzle (Initial)
-- **Objective:** Push the boulder from (13, 15) to the switch at (18, 14).
-- **Status:** Complete. (Reset upon map re-entry)
+### Victory Road 1F Puzzle (Initial) - FAILED
+- **Objective:** Push the boulder from (6, 16) to the switch at (18, 14).
+- **Status:** Soft-locked due to a faulty plan from `boulder_puzzle_solver`. Puzzle reset required.
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
 - **Status:** Complete.
