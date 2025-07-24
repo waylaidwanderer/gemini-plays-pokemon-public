@@ -62,12 +62,7 @@
 - **Break Unproductive Loops:** If a strategy fails repeatedly, it's better to change the approach or goal than to persist in an inefficient loop.
 - **Confirmation Bias:** I must be wary of trying to prove my own assumptions right. It's important to trust system warnings and evidence that contradicts my beliefs.
 
-# V. Tool/Agent Development & Debugging
-
-## A. Development Ideas
-- **`puzzle_advisor_agent`:** An agent that analyzes the current state of a puzzle and suggests the next single, logical step. This could help break down complex problems and avoid getting stuck.
-
-# VI. Archives
+# V. Archives
 
 ## A. Completed Puzzles
 ### Victory Road 2F Puzzle
@@ -76,6 +71,3 @@
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
-
-## B. Agent Refinement Log
-- **`puzzle_advisor_agent` (Idea):** An agent that analyzes the current state of a puzzle (potentially across multiple floors using map XMLs) and suggests the next single, logical step. This could help break down complex problems like the Victory Road multi-floor puzzle and prevent getting stuck in unproductive loops. To be developed.
