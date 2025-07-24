@@ -61,3 +61,6 @@
 # VI. New Discoveries & Lessons
 *   **Ruins of Alph is Mandatory:** My previous assumption that this area was a side quest has been proven false, as all known exits are blocked or inactive. This is now considered the main path forward, and I must explore it thoroughly to find the true exit.
 *   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
+
+## C. 50-Turn Reflection Takeaways (Turn 5372)
+*   **Immediate Action Mandate (Reaffirmed):** I have again violated my core principle of immediate action. I deferred fixing my `kabuto_puzzle_solver` tool in favor of failed manual attempts and did not immediately mark discovered warps, despite system warnings. This is a critical failure. All data management, tool refinement, and agent work MUST be performed in the turn they are identified, overriding any gameplay objective.
