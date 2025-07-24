@@ -76,3 +76,6 @@
 *   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
 *   **Agent Idea:** Create a `debug_log_analyzer` to parse large debug outputs and identify the root cause of tool failures.
 *   **Ruins of Alph Gatehouse:** Remember to check the unexplored warp at (0, 5).
+
+# VIII. Untested Assumptions & Hypotheses
+*   **Ruins of Alph Path:** The current assumption is that these ruins are the main path to Azalea Town. An alternative hypothesis is that this is a side area, and the true path lies elsewhere, possibly requiring an item I don't have. If this area is a dead end, I must return to Route 32/33 to re-evaluate.
