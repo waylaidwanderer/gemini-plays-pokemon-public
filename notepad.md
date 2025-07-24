@@ -75,12 +75,9 @@
 
 # V. Active Plans
 
-## Victory Road 1F Progression
-- **Hypothesis:** The map state was bugged and would not update from local movement. Leaving the map entirely and re-entering should force a hard reset of the puzzle.
-- **Status:** Confirmed. Re-entering the map has reset the puzzle.
-- **Plan:**
-  1. Re-solve the boulder puzzle using the documented plan from the `boulder_puzzle_solver`.
-  2. Navigate to the ladder at (2, 2).
+## Victory Road 1F Puzzle
+- **Objective:** Solve the boulder puzzle using the archived plan and proceed to the ladder at (2, 2).
+- **Status:** In progress. Strength has been activated.
 
 # VI. Tool & Agent Development Ideas
 - **`brute_force_explorer` Fix:** The tool's internal pathfinder (`find_path_bfs`) is buggy and generated an invalid path, attempting to move into an impassable tile. It needs to be updated with the more robust traversal logic from `gem_pathfinder` before it can be used again.
