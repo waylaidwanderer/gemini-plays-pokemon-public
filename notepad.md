@@ -78,3 +78,11 @@
 
 ## B. Development Backlog
 *No outstanding bugs. All tools are currently functional.*
+
+## C. Tile Mechanics & Traversal
+- **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
+
+## IV. Agent & Tool Development
+
+### A. Future Development Ideas
+- **Puzzle Executor Tool:** Create a tool to take a `boulder_puzzle_solver` solution and generate the full sequence of button presses to execute it automatically, including menuing to reactivate Strength. This would automate tedious, repetitive puzzle-solving.
