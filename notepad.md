@@ -77,3 +77,6 @@
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
+
+## B. Agent Refinement Log
+- **`puzzle_advisor_agent` (Idea):** An agent that analyzes the current state of a puzzle (potentially across multiple floors using map XMLs) and suggests the next single, logical step. This could help break down complex problems like the Victory Road multi-floor puzzle and prevent getting stuck in unproductive loops. To be developed.
