@@ -75,7 +75,3 @@
 
 # VIII. Untested Assumptions & Hypotheses
 *   **Ruins of Alph Path:** The previous assumption that this was a side area has been proven false, as all known exits are blocked or inactive. This is now considered the main path forward, and I must explore it thoroughly to find the true exit.
-
-[This section has been deprecated and will be removed.]
-
-[This section has been deprecated and will be removed.]
