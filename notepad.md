@@ -52,14 +52,7 @@
   - EEVEE: Jump Kick
 
 # III. Active Plans & Puzzles
-
-### Victory Road 2F Puzzle
-- **Objective:** Solve the boulder puzzle at (2, 17).
-- **Status:** The boulder is at (3, 17). I need to push it left onto the switch at (2, 17).
-- **Plan:**
-  1. Move to (4, 17) to position for the push.
-  2. Push the boulder from (3, 17) to (2, 17).
-- **Current Step:** At (6, 11), need to execute step 1.
+- No active plans. My next objective is to navigate to the ladder to Victory Road 3F at (24, 8).
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
