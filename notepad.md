@@ -57,7 +57,7 @@
 - **Method:** I will execute the step-by-step solution provided by my `boulder_puzzle_solver` tool. I must reactivate Strength from the party menu before every individual push.
 - **Solver Plan:**
   1. Push boulder at (10, 15) right to (11, 15). **(Complete)**
-  2. Push boulder at (11, 15) right to (12, 15).
+  2. Push boulder at (11, 15) right to (12, 15). **(Complete)**
   3. Push boulder at (12, 15) right to (13, 15).
   4. Push boulder at (13, 15) right to (14, 15).
   5. Push boulder at (14, 15) right to (15, 15).
