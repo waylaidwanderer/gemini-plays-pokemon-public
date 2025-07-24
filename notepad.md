@@ -96,3 +96,4 @@
 - **`connectivity_checker`:** Deleted due to redundancy.
 - **`find_closest_unseen_tile`:** Deleted due to flawed logic.
 - **`boulder_puzzle_solver` (Turn 95239-95310):** Created and refined to solve boulder puzzles.
+- **Hole:** A tile that likely serves as a target for boulder puzzles, causing the boulder to drop to a lower floor.
