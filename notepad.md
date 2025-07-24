@@ -53,7 +53,7 @@
 ## Victory Road 1F Puzzle - Boulder at (17, 15)
 - **Objective:** Push the boulder from its current position at (17, 15) to the switch at (18, 14).
 - **Status:** In progress. Following a new, reliable plan from the fixed `boulder_puzzle_solver`.
-- **Plan:** `[{"action": "push", "direction": "Up"}, {"action": "push", "direction": "Up"}, {"action": "move", "target": [18, 14]}, {"action": "move", "target": [18, 13]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [17, 12]}, {"action": "move", "target": [16, 12]}, {"action": "push", "direction": "Down"}, {"action": "move", "target": [15, 13]}, {"action": "move", "target": [15, 14]}, {"action": "push", "direction": "Right"}, {"action": "push", "direction": "Right"}]`
+- **Plan:** `[{"action": "push", "direction": "Up"}, {"action": "move", "target": [18, 14]}, {"action": "move", "target": [18, 13]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [17, 12]}, {"action": "move", "target": [16, 12]}, {"action": "push", "direction": "Down"}, {"action": "move", "target": [15, 13]}, {"action": "move", "target": [15, 14]}, {"action": "push", "direction": "Right"}, {"action": "push", "direction": "Right"}]`
 - **Current Step:** `{"action": "push", "direction": "Up"}`
 
 # IV. Core Gameplay Lessons
@@ -79,5 +79,5 @@
 ## Victory Road 1F Puzzle - Boulder at (17, 15)
 - **Objective:** Push the boulder from its current position at (17, 15) to the switch at (18, 14).
 - **Status:** In progress. Following a new, reliable plan from the fixed `boulder_puzzle_solver`.
-- **Plan:** `[{"action": "push", "direction": "Up"}, {"action": "push", "direction": "Up"}, {"action": "move", "target": [18, 14]}, {"action": "move", "target": [18, 13]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [17, 12]}, {"action": "move", "target": [16, 12]}, {"action": "push", "direction": "Down"}, {"action": "move", "target": [15, 13]}, {"action": "move", "target": [15, 14]}, {"action": "push", "direction": "Right"}, {"action": "push", "direction": "Right"}]`
+- **Plan:** `[{"action": "push", "direction": "Up"}, {"action": "move", "target": [18, 14]}, {"action": "move", "target": [18, 13]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [17, 12]}, {"action": "move", "target": [16, 12]}, {"action": "push", "direction": "Down"}, {"action": "move", "target": [15, 13]}, {"action": "move", "target": [15, 14]}, {"action": "push", "direction": "Right"}, {"action": "push", "direction": "Right"}]`
 - **Current Step:** `{"action": "push", "direction": "Up"}`
