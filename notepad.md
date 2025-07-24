@@ -7,7 +7,7 @@
 - **Boulder Barrier:** An impassable barrier that becomes a `cleared_boulder_barrier` tile when the corresponding switch is activated.
 - **Cleared Boulder Barrier:** A traversable ground tile that appears after a boulder puzzle is solved. It allows movement between different elevations, acting like a ramp.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
-- **Ladders (`ladder_up`, `ladder_down`):** Function as warps between different floors or map areas.
+- **Ladders (`ladder_up`, `ladder_down`):** Warps between floors. `ladder_up` leads to a higher floor, `ladder_down` leads to a lower floor.
 - **Spinner (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Forces movement in the specified direction.
 - **Hole:** A tile that functions as a warp, dropping the player to a lower floor.
 
