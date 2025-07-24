@@ -73,18 +73,11 @@
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
 
-# IV. Archives
-
-## A. Completed Puzzle Plans
-### Victory Road 1F Puzzle
-- **Objective:** Push the boulder from (10, 15) to the switch at (18, 14).
-- **Status:** Complete.
-
 # V. Active Plans
 
 ## A. Victory Road 1F Puzzle (Attempt 1)
 - **Objective:** Push the boulder from (13, 15) to the switch at (18, 14).
-- **Plan (from `boulder_puzzle_solver`):**
+- **Plan (from `boulder_puzzle_solver`):
   1.  Move to (12, 15). **(current step)**
   2.  Push boulder at (13, 15) right to (14, 15).
   3.  Move to (13, 15).
