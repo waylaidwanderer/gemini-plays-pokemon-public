@@ -22,6 +22,8 @@
 *   **HEADBUTT_TREE:** Impassable. Likely requires HM Headbutt.
 *   **SIGN:** Impassable. Functions as an object that can be interacted with for text.
 *   **BOOKSHELF:** Impassable. Functions as an object that can be interacted with for text.
+*   **BLACKBOARD:** Impassable. Functions as an object that can be interacted with for text.
+*   **MART_SHELF:** Impassable. Functions as a wall.
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
@@ -30,7 +32,6 @@
 *   **WATER:** Hypothesis: Impassable without HM Surf.
 *   **CAVE:** Hypothesis: Functions as a warp. Needs testing to see if it's one-way or two-way.
 *   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal. Needs testing.
-*   **BLACKBOARD:** Impassable. Functions as an object that can be interacted with for text.
 
 # II. Reminders & Housekeeping
 *   **Systematic Testing:** Must test all unknown tile mechanics immediately upon entering a new area.
@@ -42,4 +43,3 @@
 
 # IV. Future Exploration Plans
 *   **Violet City Exits:** If the path south from Violet City leads to a dead end, systematically re-investigate the city's boundaries for other potential exits, possibly requiring HMs like Surf or Cut.
-*   **MART_SHELF:** Impassable. Functions as a wall.
