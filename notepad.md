@@ -66,4 +66,8 @@
 # VII. Puzzle Solutions
 
 ## A. Ruins of Alph (Kabuto Puzzle)
-*   **Hypothesis:** The puzzle is solved by arranging the 16 pieces in numerical order (1-16) into the central 4x4 grid, forming the image of a Kabuto. The outer border must remain empty.
+*   **Hypothesis 1 (Failed):** The puzzle is solved by arranging the 16 pieces in numerical order (1-16) into the central 4x4 grid. 
+    *   **Test:** All pieces were arranged correctly.
+    *   **Result:** The game did not automatically exit the puzzle screen.
+    *   **Conclusion:** This hypothesis is incorrect.
+*   **Hypothesis 2:** After arranging the pieces, the 'Start' button must be pressed to confirm the solution.
