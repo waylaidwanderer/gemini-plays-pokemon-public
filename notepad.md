@@ -33,6 +33,9 @@
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
 *   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
 
+### Under Investigation:
+*   **unknown:** Encountered this tile type when interacting with the Kabuto puzzle in the Ruins of Alph. Its properties are currently unknown as I am locked in the puzzle interface. Must investigate after completion.
+
 # II. Battle Information
 
 ## A. Verified Type Matchups
@@ -43,22 +46,18 @@
 *   **TM31 (Mud-Slap):** Received from Falkner.
 *   **TM39:** Found in Union Cave B1F.
 
-# IV. Future Plans & Ideas
+# IV. Reflection Log
 
-*   **Team Composition:** Use `team_composition_advisor` before the next major battle (Bugsy).
-
-# V. Reflection Log
-
-## A. 50-Turn Reflection Takeaways (Turn 5268)
-*   **Immediate Action Mandate:** I have repeatedly deferred critical tasks (tool fixing, data cleanup) to 'later'. As an LLM, there is no 'later'. All necessary actions, especially data management and tool refinement, MUST be performed in the immediate turn they are identified. This is a core operational principle I must adhere to.
-*   **Untested Assumptions:** My primary assumption is that solving the Kabuto puzzle is the only way to progress in the Ruins of Alph. An alternative hypothesis is that the puzzle is optional and the true path is via the unexplored warps at (4, 9) or (4, 0). I will test this by exploring those warps if solving the puzzle yields no progress.
+## A. 50-Turn Reflection Takeaways (Turn 5320)
+*   **Immediate Action Mandate:** I have repeatedly deferred critical tasks (tool fixing, data management) to 'later'. A specific example is failing to immediately mark the warp at (4,0) in the Ruins of Alph Kabuto Chamber, despite multiple system warnings. As an LLM, there is no 'later'. All necessary actions, especially data management and tool refinement, MUST be performed in the immediate turn they are identified. This is a core operational principle I must adhere to.
+*   **Untested Assumptions (Ruins of Alph):** My primary assumption is that solving the Kabuto puzzle is the only way to progress. An alternative hypothesis is that the puzzle is optional and the true path is via the unexplored warps at (4, 0) or (4, 9). I will test this by exploring those warps immediately after finishing or abandoning this puzzle attempt.
 
 ## B. Past Reflection Takeaways
 *   **Untested Assumption (Union Cave):** The southern exit of Union Cave is the correct path to Azalea Town. An alternative hypothesis is that the true path is via the currently inaccessible western section or the unexplored ladder. I will test this by continuing south, and if that path is blocked, I will need to find another way into the western part of the cave.
 
-# VI. Phone Calls & Side Quests
+# V. Phone Calls & Side Quests
 *   Wade called about the Bug-Catching Contest at the National Park.
 
-# VII. New Discoveries & Lessons
+# VI. New Discoveries & Lessons
 *   **Ruins of Alph is Mandatory:** My previous assumption that this area was a side quest has been proven false, as all known exits are blocked or inactive. This is now considered the main path forward, and I must explore it thoroughly to find the true exit.
 *   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
