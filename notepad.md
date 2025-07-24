@@ -79,3 +79,6 @@
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (4, 17) to the switch at (2, 17).
 - **Status:** Complete.
+### Victory Road 3F Puzzle
+- **Hypothesis:** This floor also uses the delayed barrier-opening mechanic.
+- **Test:** Solve the next boulder puzzle and observe if the corresponding barrier opens immediately or only after moving away.
