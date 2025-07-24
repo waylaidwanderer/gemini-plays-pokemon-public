@@ -56,3 +56,7 @@
 *   **Secondary Assumption:** The Poke Ball at (6, 53) contains a valuable item.
 *   **Alternative Hypothesis:** It could be a common item like a Potion or Poke Ball.
 *   **Test:** Find a path to the item and retrieve it. This is currently blocked.
+*   **LADDER:** Hypothesis: Functions as a two-way warp between floors. Test: Walk onto it and press A. (Status: Partially tested, need formal documentation)
+
+# V. Future Plans & Ideas
+*   **Agent Idea:** Create a `pokedex_advisor` agent to suggest catching priorities for better team composition and type coverage.
