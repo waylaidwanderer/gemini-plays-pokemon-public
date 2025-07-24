@@ -224,5 +224,41 @@
         "action_counter": 96522
       }
     ]
+  },
+  "brute_force_explorer": {
+    "description": "Systematically explores all reachable ground tiles in the current map area. For each reachable tile, it generates a path to it and then interacts with all four adjacent directions (north, south, east, west) to test for hidden mechanics. This is for use in confirmed dead-end areas where standard progression has failed. Returns a JSON list of button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "start_facing": {
+          "type": "string",
+          "enum": [
+            "up",
+            "down",
+            "left",
+            "right"
+          ]
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "start_facing"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef find_path_bfs(grid, objects, start, end):\n    queue = deque([(start, [])])\n    visited = {start}\n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == end:\n            return path\n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if 1 <= nx < len(grid[0]) and 1 <= ny < len(grid) and grid[ny][nx] == 'ground' and (nx, ny) not in objects and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                new_path = list(path)\n                new_path.append(move)\n                queue.append(((nx, ny), new_path))\n    return None\n\ndef get_turn_moves(current_facing, target_direction):\n    if current_facing == target_direction: return []\n    if current_facing == 'up':\n        return {'down': ['Down', 'Down'], 'left': ['Left'], 'right': ['Right']}[target_direction]\n    if current_facing == 'down':\n        return {'up': ['Up', 'Up'], 'left': ['Right'], 'right': ['Left']}[target_direction]\n    if current_facing == 'left':\n        return {'up': ['Right'], 'down': ['Left'], 'right': ['Right', 'Right']}[target_direction]\n    if current_facing == 'right':\n        return {'up': ['Left'], 'down': ['Right'], 'left': ['Left', 'Left']}[target_direction]\n    return []\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\ngrid = [['' for _ in range(width + 1)] for _ in range(height + 1)]\nobjects = set()\n\nfor r in root.findall('Row'):\n    y = int(r.get('id'))\n    for t in r.findall('Tile'):\n        x = int(t.get('id'))\n        grid[y][x] = t.get('type')\n        if t.find('Object') is not None and t.find('Object').get('id-name') != 'Pikachu':\n            objects.add((x, y))\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ncurrent_facing = input_data['start_facing']\n\nreachable_q = deque([(start_x, start_y)])\nreachable_visited = {(start_x, start_y)}\n\nwhile reachable_q:\n    x, y = reachable_q.popleft()\n    for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n        nx, ny = x + dx, y + dy\n        if 1 <= nx <= width and 1 <= ny <= height and grid[ny][nx] == 'ground' and (nx, ny) not in objects and (nx, ny) not in reachable_visited:\n            reachable_visited.add((nx, ny))\n            reachable_q.append((nx, ny))\n\nreachable_tiles = sorted(list(reachable_visited), key=lambda p: (p[1], p[0]))\n\nfull_sequence = []\ncurrent_pos = (start_x, start_y)\n\nfor tile in reachable_tiles:\n    path_to_tile = find_path_bfs(grid, objects, current_pos, tile)\n    if path_to_tile is not None:\n        full_sequence.extend(path_to_tile)\n        if path_to_tile:\n            last_move = path_to_tile[-1]\n            if last_move == 'Up': current_facing = 'up'\n            elif last_move == 'Down': current_facing = 'down'\n            elif last_move == 'Left': current_facing = 'left'\n            elif last_move == 'Right': current_facing = 'right'\n        current_pos = tile\n\n    for direction in ['up', 'down', 'left', 'right']:\n        turn_moves = get_turn_moves(current_facing, direction)\n        full_sequence.extend(turn_moves)\n        full_sequence.append('A')\n        current_facing = direction\n\nprint(json.dumps(full_sequence))",
+    "history": [
+      {
+        "commit_message": "feat: Create brute_force_explorer tool. This tool automates the process of systematically exploring a dead-end area by visiting every reachable tile and interacting with all four adjacent walls. This was created in response to an Overwatch critique pointing out the inefficiency of performing this task manually. This tool will significantly speed up the process of testing for hidden mechanics in the current Victory Road puzzle area.",
+        "timestamp": "2025-07-24T02:22:42.246Z",
+        "action_counter": 96721
+      }
+    ]
   }
 }
