@@ -2,8 +2,7 @@
 
 # I. Game Mechanics & Systems
 
-## A. Tile Traversal Rules (Systematic Testing)
-*Method: To confirm a tile's properties, I must attempt to move onto it from all four adjacent, traversable tiles (Up, Down, Left, Right). A conclusion is only valid after all directions are tested.*
+## A. Tile Traversal Rules
 
 ### Confirmed Traversable:
 *   **FLOOR:** Fully traversable.
@@ -24,22 +23,21 @@
 *   **BOOKSHELF:** Impassable. Functions as an object that can be interacted with for text.
 *   **BLACKBOARD:** Impassable. Functions as an object that can be interacted with for text.
 *   **MART_SHELF:** Impassable. Functions as a wall.
-*   **FLOOR_UP_WALL:** Impassable from above.
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
+*   **FLOOR_UP_WALL:** One-way traversal. Can only be entered from below (impassable from above).
 
 ### Hypotheses to Test:
 *   **WATER:** Hypothesis: Impassable without HM Surf.
-*   **CAVE:** Hypothesis: Functions as a warp. Needs testing to see if it's one-way or two-way.
+*   **CAVE:** Hypothesis: Functions as a warp. Needs testing.
 *   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal. Needs testing.
-*   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal. Can only be entered from the right. Needs testing.
+*   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal. Needs testing.
 *   **unknown:** Hypothesis: Impassable. Needs testing.
 *   **INCENSE_BURNER:** Hypothesis: Impassable object. Needs testing.
 *   **RADIO:** Hypothesis: Impassable object. May be interactable. Needs testing.
 
 # II. Reminders & Housekeeping
-*   **Systematic Testing:** Must test all unknown tile mechanics immediately upon entering a new area.
 *   **Data Hygiene:** Must mark all defeated trainers, new NPCs, and warps (both sides) immediately. Trust Game State Info over memory.
 
 # III. Badges & TMs
@@ -48,15 +46,12 @@
 
 # IV. Goal-Oriented Planning
 
-## A. Primary Goal: Find and defeat the next Gym Leader
-
-*   **Hypothesis:** The path forward is through this gatehouse to Route 31, which should lead to the next town and gym.
+## A. Primary Goal: Find the next town and challenge its Gym Leader
+*   **Hypothesis:** The path forward is south or west out of Violet City.
 *   **Plan:**
-    1.  Interact with the NPCs in this gatehouse for any potential clues.
-    2.  Exit the gatehouse to the east, onto Route 31.
-    3.  Explore Route 31 thoroughly to find the path to the next city.
-    4.  Train my Pokémon on Route 31 to prepare for the next Gym Leader. VULCAN and MIASma are my primary fighters.
-    5.  Once in the new city, locate the Gym and challenge the leader.
+    1.  Fully explore Violet City to find the exit.
+    2.  Use my newly-fixed `find_reachable_unseen_tiles` tool to guide exploration.
+    3.  Once the exit is found, proceed to the next route.
 
 # V. Future Plans & Ideas
 *   **Agent Idea:** Create an `exploration_strategist` agent that takes the output of `find_reachable_unseen_tiles` and suggests the most optimal tile to explore next based on current goals.
