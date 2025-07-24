@@ -74,8 +74,6 @@
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
 
-## Victory Road 1F Puzzle - Boulder at (15, 15)
-- **Objective:** Push the boulder from (15, 15) to the switch at (18, 14).
-- **Status:** In progress. Following a structured plan from the `boulder_puzzle_solver` tool.
-- **Status:** The `boulder_puzzle_solver` tool produced a flawed plan that required pushing a boulder from a non-adjacent tile. The tool must be fixed. Abandoning the current plan.
-- **Next Logical Step:** Move to (10, 18) to push the boulder up.
+## Victory Road 1F Puzzle - Boulder at (17, 15)
+- **Objective:** Push the boulder from its current position at (17, 15) to the switch at (18, 14).
+- **Status:** **FAILED.** The `boulder_puzzle_solver` tool is generating impossible plans. The immediate priority is to debug and fix the tool's logic before proceeding.
