@@ -77,3 +77,4 @@
 ### Victory Road 3F Puzzle
 - **Objective:** Solve the floor's puzzle to proceed.
 - **Solution:** The puzzles on this floor were a red herring. The true path forward was a secret, unmarked ladder at (3, 1) discovered by exploring an unseen tile. This ladder leads to a new area of Victory Road 2F.
+- **Trust System Data Over Intuition:** The system's 'is_in_dead_end_area' flag and 'reachable_unseen_tiles' count are sources of truth. If they indicate a path exists, trust them over personal assumptions about being trapped. The system may see connections (like through elevated terrain) that are not immediately obvious.
