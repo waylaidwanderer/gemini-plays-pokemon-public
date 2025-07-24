@@ -52,10 +52,24 @@
 # III. World Navigation & Puzzles
 
 ## A. Current Strategy: Victory Road 1F Puzzle
-- **Conclusion (Southern Area):** My brute-force exploration hypothesis for the southern puzzle area has been exhaustively tested and has failed. The validation error confirmed my hallucination about a reachable warp. This southern section is a confirmed, inescapable dead end. Persisting is illogical.
-- **New Plan:** The only viable path forward is to solve the main boulder puzzle on this floor.
-- **Objective:** Push the boulder from (6, 17) onto the switch at (18, 14). This will clear the boulder barrier at (10, 13) and open the path to the next floor.
-- **Method:** I will navigate to the boulder and then use my `boulder_puzzle_solver` tool to determine the correct sequence of moves.
+- **Conclusion (Southern Area):** The southern puzzle area is a confirmed, inescapable dead end. Persisting is illogical.
+- **Objective:** Push the boulder from its current position to the switch at (18, 14). This will clear the boulder barrier at (10, 13) and open the path to the next floor.
+- **Method:** I will execute the step-by-step solution provided by my `boulder_puzzle_solver` tool. I must reactivate Strength from the party menu before every individual push.
+- **Solver Plan:**
+  1. Push boulder at (10, 15) right to (11, 15). **(Complete)**
+  2. Push boulder at (11, 15) right to (12, 15).
+  3. Push boulder at (12, 15) right to (13, 15).
+  4. Push boulder at (13, 15) right to (14, 15).
+  5. Push boulder at (14, 15) right to (15, 15).
+  6. Push boulder at (15, 15) right to (16, 15).
+  7. Push boulder at (16, 15) right to (17, 15).
+  8. Move to (17, 16).
+  9. Push boulder at (17, 15) up to (17, 14).
+  10. Push boulder at (17, 14) up to (17, 13).
+  11. Move to (16, 13).
+  12. Push boulder at (17, 13) right to (18, 13).
+  13. Move to (18, 12).
+  14. Push boulder at (18, 13) down to (18, 14).
 
 # IV. Agent & Tool Development
 
