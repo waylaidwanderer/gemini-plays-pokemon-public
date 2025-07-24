@@ -33,7 +33,7 @@
 *   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal, only enterable from the left. Test: Attempt to move left from it.
 *   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal, only enterable from the right. Test: Attempt to move right from it.
 *   **WATER:** Hypothesis: Impassable without HM Surf. Test: Walk up to it and try to move onto it / press A. (Status: Untested)
-*   **LADDER:** Hypothesis: Functions as a two-way warp between floors. Test: Walk onto it and press A. (Status: Untested)
+*   **LADDER:** Hypothesis: Functions as a two-way warp between floors. Test: Walk onto it and press A. (Status: Partially tested, need formal documentation)
 
 # II. Battle Information
 
@@ -46,8 +46,10 @@
 
 # IV. Future Plans & Ideas
 *   **Agent Idea:** Create a `debugging_assistant` agent that can analyze faulty code and suggest fixes or debugging steps.
+*   **Agent Idea:** Create a `pokedex_advisor` agent to suggest catching priorities for better team composition and type coverage.
+*   **Team Composition:** Use `team_composition_advisor` before the next major battle.
 
-# V. Reflection Log (Turn 3866)
+# V. Reflection Log
 
 ## A. Untested Assumptions
 *   **Primary Assumption:** The path south on Route 32 leads directly to the next town.
@@ -56,7 +58,3 @@
 *   **Secondary Assumption:** The Poke Ball at (6, 53) contains a valuable item.
 *   **Alternative Hypothesis:** It could be a common item like a Potion or Poke Ball.
 *   **Test:** Find a path to the item and retrieve it. This is currently blocked.
-*   **LADDER:** Hypothesis: Functions as a two-way warp between floors. Test: Walk onto it and press A. (Status: Partially tested, need formal documentation)
-
-# V. Future Plans & Ideas
-*   **Agent Idea:** Create a `pokedex_advisor` agent to suggest catching priorities for better team composition and type coverage.
