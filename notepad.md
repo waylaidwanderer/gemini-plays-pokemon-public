@@ -44,7 +44,7 @@
 *   **TM39:** Found in Union Cave B1F.
 
 # IV. Future Plans & Ideas
-*   **Agent Idea:** Create a `puzzle_solver` agent for logic puzzles like the one in the Ruins of Alph.
+
 *   **Team Composition:** Use `team_composition_advisor` before the next major battle (Bugsy).
 
 # V. Reflection Log
