@@ -8,6 +8,8 @@
 - **Cleared Boulder Barrier:** A traversable ground tile that appears after a boulder puzzle is solved. It allows movement between different elevations, acting like a ramp.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
 - **Ladders (`ladder_up`, `ladder_down`):** Function as warps between different floors or map areas.
+- **Spinner (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Forces movement in the specified direction.
+- **Hole:** A tile that functions as a warp, dropping the player to a lower floor.
 
 ## B. General Rules & Heuristics
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
@@ -52,9 +54,5 @@
 
 # IV. Agent & Tool Development
 
-## A. Development Backlog
-- **Puzzle Executor Tool:** Create a tool to take a `boulder_puzzle_solver` solution and generate the full sequence of button presses to execute it automatically, including menuing to reactivate Strength. This would automate tedious, repetitive puzzle-solving.
-- **Agent Redundancy**: Consider merging `training_spot_advisor_agent` into `goal_prioritization_agent` to streamline toolset.
-
-## B. Completed Development
+## A. Completed Development
 *No outstanding bugs. All tools are currently functional.*
