@@ -50,10 +50,9 @@
 
 # III. Active Plans & Puzzles
 
-## Victory Road - Full Reset
-- **Objective:** Re-solve the multi-floor Victory Road puzzle from the beginning.
-- **Status:** The path on 1F is confirmed to be blocked. I must exit the cave to reset all puzzles and re-approach from 2F and 3F to correctly solve the interconnected puzzle.
-- **Confirmation:** A system validation warning confirmed the exit warp on 1F is reachable, validating this reset strategy.
+## Victory Road - Fresh Attempt
+- **Objective:** Re-enter Victory Road and solve the multi-floor puzzle from a fresh, reset state.
+- **Status:** Successfully exited the cave to reset all puzzles. Now preparing to re-enter and solve it correctly from the start.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
