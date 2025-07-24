@@ -29,7 +29,7 @@
 
 ## B. Known Trainer Rosters & Movesets
 
-### Cool Trainer M (Victory Road 3F)
+### Cool Trainer M (Victory Road 3F) - DEFEATED
 - **Location:** (29, 6)
 - **Team:** CHARIZARD (Lv52), MAGNETON (Lv52), TENTACRUEL (Lv52)
 
@@ -54,6 +54,7 @@
 
 ## A. Development Backlog
 - **Puzzle Executor Tool:** Create a tool to take a `boulder_puzzle_solver` solution and generate the full sequence of button presses to execute it automatically, including menuing to reactivate Strength. This would automate tedious, repetitive puzzle-solving.
+- **Agent Redundancy**: Consider merging `training_spot_advisor_agent` into `goal_prioritization_agent` to streamline toolset.
 
 ## B. Completed Development
 *No outstanding bugs. All tools are currently functional.*
