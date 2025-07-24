@@ -35,6 +35,15 @@
 - **Location:** (29, 6)
 - **Team:** CHARIZARD (Lv52), MAGNETON (Lv52), TENTACRUEL (Lv52)
 
+### Cool Trainer F (Victory Road 3F)
+- **Location:** (14, 4)
+- **Team:** WIGGLYTUFF (Lv54), CLEFABLE (Lv54), CHANSEY (Lv54), EEVEE (Lv57)
+- **Observed Moves:**
+  - WIGGLYTUFF: Lovely Kiss, Body Slam, Double-Edge
+  - CLEFABLE: Body Slam, Light Screen, Metronome, Sing
+  - CHANSEY: Double-Edge, Mega Punch
+  - EEVEE: Jump Kick
+
 ## C. Battle Lessons & Insights
 - **Level Disparity:** A large level gap can be more dangerous than type immunity.
 - **Misleading Battle Text:** On-screen text for move effectiveness can be incorrect. The actual damage calculation follows my verified type chart.
@@ -54,22 +63,5 @@
 
 # IV. Agent & Tool Development
 
-## A. Completed Development
-*No outstanding bugs. All tools are currently functional.*
-
-### Cool Trainer F (Victory Road 3F)
-- **Location:** (14, 4)
-- **Team:** WIGGLYTUFF (Lv54), CLEFABLE (Lv54), CHANSEY (Lv54), EEVEE (Lv57)
-- **Observed Moves:**
-  - WIGGLYTUFF: Lovely Kiss, Body Slam, Double-Edge
-  - CLEFABLE: Body Slam, Light Screen, Metronome, Sing
-  - CHANSEY: Double-Edge, Mega Punch
-  - EEVEE: Jump Kick
-### Cool Trainer F (Victory Road 3F)
-- **Location:** (14, 4)
-- **Team:** WIGGLYTUFF (Lv54), CLEFABLE (Lv54), CHANSEY (Lv54), EEVEE (Lv57)
-- **Observed Moves:**
-  - WIGGLYTUFF: Lovely Kiss, Body Slam, Double-Edge
-  - CLEFABLE: Body Slam, Light Screen, Metronome, Sing
-  - CHANSEY: Double-Edge, Mega Punch
-  - EEVEE: Jump Kick
+## A. Development Backlog
+* **Agent Consolidation:** The `goal_prioritization_agent` and `training_spot_advisor_agent` have overlapping responsibilities. I should consolidate them into a single, more comprehensive agent to reduce redundancy and improve strategic coherence.
