@@ -50,22 +50,23 @@
 
 # III. Active Plans & Puzzles
 
-## Victory Road 1F Puzzle
-- **Objective:** Push the boulder from (6, 16) to its corresponding switch.
-- **Current Boulder Location:** (6, 16)
-- **Switch Location:** Unknown.
-- **Status:** In progress. The area needs to be explored to find the switch.
+## Victory Road 1F Puzzle (Attempt 2)
+- **Objective:** Push the boulder from (6, 16) to the switch at (18, 14).
+- **Status:** Soft-locked. Must reset by leaving and re-entering the map.
+- **Solver's Plan:**
+  1. Move to (6, 15) and push boulder Down to (6, 17).
+  2. Move to (5, 17) and push boulder Right to (7, 17).
+  3. Move to (6, 17) and push boulder Right to (8, 17).
+  4. Move to (8, 18) and push boulder Up to (8, 16).
+  5. Move to (7, 16) and push boulder Right to (9, 16).
+  6. Continue following solver's multi-push sequence to the switch.
 
-# IV. Tool Development & Maintenance
-
-## A. Future Ideas
-- **`puzzle_deadlock_analyzer` Agent Idea:** Create an agent that analyzes situations where progress is stalled despite an apparent solution (e.g., a puzzle is solved but the path remains blocked). The agent would take the context and suggest a ranked list of hypotheses to test, such as 'map state update lag (test with local movement)', 'map state bug (test by leaving and re-entering map)', or 'hidden secondary mechanic (test with exhaustive interaction)'. This would help structure my problem-solving when I get stuck.
-
-# V. Core Gameplay Lessons
+# IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools like the pathfinder is a major strategic error. Faulty tools must be addressed immediately, as they are foundational to efficient gameplay. I wasted significant time manually pathing and retrying because I didn't fix the tool right away.
+- **Trust Tool Outputs:** Deviating from a valid, tool-generated plan can lead to soft-locks and wasted time. I must trust my solver's output and follow its steps precisely.
 - **Archived Puzzle Solutions:** Puzzles can reset upon re-entering a map. Archived solutions may be outdated. Always observe the current state of a puzzle before acting on old information.
 
-# VI. Archives
+# V. Archives
 
 ## A. Archived Puzzle Solutions
 ### Victory Road 1F Puzzle (Initial)
