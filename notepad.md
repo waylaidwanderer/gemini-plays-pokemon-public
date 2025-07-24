@@ -84,6 +84,6 @@
 
 ## Victory Road 1F Puzzle - Boulder at (6, 16)
 - **Objective:** Push the boulder from its current position to the switch at (18, 14).
-- **Status:** Puzzle in progress. The pre-calculated plan from the solver seems to have diverged from the actual game state. Proceeding with logical step-by-step moves instead.
-- **Current State:** Player at (7, 17), Boulder at (9, 17).
-- **Next Logical Step:** Move to (8, 17) to prepare to push the boulder right.
+- **Status:** Puzzle in progress. Proceeding with logical step-by-step moves instead.
+- **Current State:** Player at (8, 17), Boulder at (9, 17).
+- **Next Logical Step:** Push boulder at (9, 17) right.
