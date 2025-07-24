@@ -24,10 +24,6 @@
 
 ## B. Current Trainer Rosters & Movesets
 
-### Cool Trainer M (Victory Road 1F)
-- **Team:** ELECTABUZZ (Lv53), SNORLAX (Lv53), SLOWBRO (Lv53), PORYGON (Lv53)
-- **Notes:** Spams Hyper Potions.
-
 ### Cool Trainer M (Victory Road 3F)
 - **Location:** (29, 6)
 - **Team:** CHARIZARD (Lv52), MAGNETON (Lv52)
