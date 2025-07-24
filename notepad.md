@@ -79,7 +79,7 @@
   6. Push boulder at (15, 15) right to (16, 15). **(Complete)**
   7. Push boulder at (16, 15) right to (17, 15). **(Complete)**
   8. Move to (17, 16). **(Complete)**
-  9. Push boulder at (17, 15) up to (17, 14).
+  9. Push boulder at (17, 15) up to (17, 14). **(Complete)**
   10. Push boulder at (17, 14) up to (17, 13).
   11. Move to (16, 13).
   12. Push boulder at (17, 13) right to (18, 13).
