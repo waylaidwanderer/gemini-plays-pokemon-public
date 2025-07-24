@@ -40,6 +40,7 @@
 
 ## A. Verified Type Matchups
 *   Ghost-type Pokémon are immune to Normal-type moves.
+*   Unown's Hidden Power can be super-effective against Fire-type Pokémon (observed against Vulcan). The specific type is unknown, but could be Water, Rock, or Ground.
 
 # III. Badges & TMs
 *   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
@@ -80,16 +81,10 @@
     *   **Conclusion:** The puzzle is either optional, or the solution is not simply arranging the pieces. Abandoning the puzzle to explore other paths.
 
 # VIII. Custom Tools & Agents
-*   **find_reachable_unseen_tiles:** Finds all unseen tiles that are reachable from the player's current position.
-*   **kabuto_puzzle_solver:** Solves the Ruins of Alph Kabuto puzzle from a raw grid input.
-*   **battle_strategist:** Recommends the best action in a battle.
-*   **team_composition_advisor:** Recommends a team composition for a specific opponent type.
-*   **script_debugger:** Analyzes faulty Python scripts and provides debugging plans.
-*   **exploration_strategist:** Recommends the next best tile to explore based on the primary goal.
-
-# IX. Tool Usage Reminder
-*I must remember to use the tools I build to avoid wasting time on manual tasks. My custom tools are: `find_path_to_target`, `find_reachable_unseen_tiles`, and `kabuto_puzzle_solver`.*
-
-# X. Untested Hypotheses
-*   **Ruins of Alph (Statues - FAILED):** Interacting with the statues in the inner chamber does not activate inactive warps. It only provides flavor text.
-*   Unown's Hidden Power can be super-effective against Fire-type Pokémon (observed against Vulcan). The specific type is unknown, but could be Water, Rock, or Ground.
+*   `find_path_to_target`: Finds the shortest path from the player's current position to a specified target coordinate.
+*   `find_reachable_unseen_tiles`: Finds all unseen tiles that are reachable from the player's current position.
+*   `kabuto_puzzle_solver`: Solves the Ruins of Alph Kabuto puzzle from a raw grid input.
+*   `battle_strategist`: Recommends the best action in a battle.
+*   `team_composition_advisor`: Recommends a team composition for a specific opponent type.
+*   `script_debugger`: Analyzes faulty Python scripts and provides debugging plans.
+*   `exploration_strategist`: Recommends the next best tile to explore based on the primary goal.
