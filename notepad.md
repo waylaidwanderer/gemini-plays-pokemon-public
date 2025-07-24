@@ -53,8 +53,8 @@
   10. Push boulder at (17, 14) up to (17, 13). **(Complete)**
   11. Move to (16, 13). **(Complete)**
   12. Push boulder at (17, 13) right to (18, 13). **(Complete)**
-  13. Move to (18, 12).
-  14. Push boulder at (18, 13) down to (18, 14).
+  13. Move to (18, 12). **(Complete)**
+  14. Push boulder at (18, 13) down to (18, 14). **(Complete)**
 
 # IV. Agent & Tool Development
 
