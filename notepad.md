@@ -1,6 +1,6 @@
-# I. Game Mechanics
+# I. Core Game Mechanics
 
-## A. Tile Mechanics (Advanced)
+## A. Tile Mechanics
 - **Ledge:** Can be jumped down (one-way). Moving down into a ledge tile moves the player two tiles down.
 - **Cuttable Tree:** Requires HM Cut to pass. Respawn on map change.
 - **Water:** Requires HM Surf to traverse.
@@ -14,9 +14,9 @@
 - **Elevated Ground:** Walkable ground at a different elevation. Cannot use Surf from this tile type.
 - **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close.
 - **Boulder Switch & Barrier:** `boulder_switch` tiles are activated by boulders, which changes a `boulder_barrier` tile into a `cleared_boulder_barrier` tile.
-- **Cleared Boulder Barrier (Corrected):** Functions as a one-way ramp. It can only be entered from a `steps` tile when moving from `ground` to `elevated_ground`. It is impassable from adjacent `ground` tiles and cannot be used to move down from `elevated_ground` to `ground`. This mechanic was fully confirmed and the pathfinder was corrected on Turn 95901.
+- **Cleared Boulder Barrier (Corrected):** Functions as a one-way ramp. It can only be entered from a `steps` tile when moving from `ground` to `elevated_ground`. It is impassable from adjacent `ground` tiles and cannot be used to move down from `elevated_ground` to `ground`.
 
-## B. General Heuristics & Rules
+## B. General Rules & Heuristics
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **"No Will to Fight" Message (Correction):** Appears when the party menu cursor is on a fainted Pokémon.
@@ -31,30 +31,26 @@
 - **Super Effective (2x):** Psychic > Ghost, Poison; Ghost > Psychic; Electric > Rock, Water; Flying > Grass, Poison, Fighting; Ice > Ground, Grass, Flying, Dragon; Ground > Poison, Fire, Electric, Rock; Rock > Fire, Ice, Flying, Bug; Fighting > Normal, Rock, Ice; Water > Fire, Ground, Rock; Grass > Water, Ground, Rock; Bug > Grass, Poison, Psychic; Poison > Grass, Bug.
 - **Not Very Effective (0.5x):** Normal !> Rock; Electric !> Grass, Electric, Dragon; Rock !> Psychic; Psychic !> Psychic; Poison !> Poison, Ground, Rock, Ghost; Ice !> Water, Ice, Fire; Fighting > Poison, Flying, Psychic, Bug; Water !> Water, Grass, Dragon; Grass !> Fire, Grass, Poison, Flying, Bug, Dragon.
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting.
-- **Type Correction (Psychic vs. Rock):** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon, not 'not very effective' as previously assumed. This was verified in the battle against Pixel's Alakazam vs. my Golem (CRAG).
+- **Type Correction (Psychic vs. Rock):** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon, not 'not very effective' as previously assumed.
 
 ## B. Trainer Rosters & Movesets
 
 ### Giovanni (Viridian Gym Leader)
-- **Team:**
-  - NIDOKING (Lv54) - Moves: Ice Beam, Blizzard, Thunderbolt, Earthquake
-  - DUGTRIO (Lv53) - Moves: Fissure, Slash, Earthquake, Rock Slide
-  - NIDOQUEEN (Lv54) - Moves: Ice Beam, Earthquake, Thunderbolt, Body Slam
-  - PERSIAN (Lv55) - Moves: Bubblebeam, Slash, Hyper Beam, Thunderbolt
-  - RHYDON (Lv55) - Moves: Rock Slide, Earthquake
+- **Team:** NIDOKING (Lv54), DUGTRIO (Lv53), NIDOQUEEN (Lv54), PERSIAN (Lv55), RHYDON (Lv55)
 
 ### Cool Trainer M (Victory Road 1F)
-- **Team:**
-  - ELECTABUZZ (Lv53)
-  - SNORLAX (Lv53) - Moves: Harden
-  - SLOWBRO (Lv53) - Moves: Psychic, Waterfall
-  - PORYGON (Lv53) - Moves: Agility
-- **Notes:** This trainer spams Hyper Potions when his Pokémon are at low health.
+- **Team:** ELECTABUZZ (Lv53), SNORLAX (Lv53), SLOWBRO (Lv53), PORYGON (Lv53)
+- **Notes:** Spams Hyper Potions.
 
-## C. Battle Lessons
+### Cool Trainer M (Victory Road 3F)
+- **Location:** (29, 6)
+- **Team:** CHARIZARD (Lv52), MAGNETON (Lv52)
+
+## C. Battle Lessons & Insights
 - **Level Disparity:** A large level gap can be more dangerous than type immunity.
-- **Misleading Battle Text:** The on-screen text for move effectiveness can be incorrect. The actual damage calculation follows my verified type chart.
+- **Misleading Battle Text:** On-screen text for move effectiveness can be incorrect. The actual damage calculation follows my verified type chart.
 - **Ground-Type Immunity Extension:** Ground-types are immune to Electric-type *status* moves (like THUNDER WAVE).
+- **Elixer Mechanic (Correction):** Elixers only restore PP, not HP.
 
 # III. Future Development Ideas (Prioritized)
 - **Puzzle Orchestrator Agent:** Create an agent that can manage multi-step puzzles, like the ones in Victory Road. It would take the overall goal (e.g., 'open the northern barrier') and use my existing `boulder_puzzle_solver` and `gem_pathfinder` tools to generate and execute the full sequence of moves and pushes required.
