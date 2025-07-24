@@ -64,3 +64,14 @@
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
+
+# IV. Current Plans & Hypotheses
+
+## Victory Road 2F - Trapped Exploration Plan
+- **Situation:** Trapped in an isolated section of Victory Road 2F. Party is critically injured. REVENANT revived with MAX REVIVE.
+- **Hypothesis:** An exit must exist within the 16 reachable unseen tiles.
+- **Plan:**
+  1. Navigate to the steps at (6, 11) to access the northern elevated platform.
+  2. Systematically explore all unseen tiles in this area.
+  3. Flee from ALL wild encounters to preserve REVENANT's HP.
+- **Objective:** Find the hidden exit.
