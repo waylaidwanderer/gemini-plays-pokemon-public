@@ -5,7 +5,7 @@
 - **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close.
 - **Boulder Switch:** A floor switch activated by a boulder. Is a traversable tile.
 - **Boulder Barrier:** An impassable barrier that becomes a `cleared_boulder_barrier` tile when the corresponding switch is activated.
-- **Cleared Boulder Barrier (Corrected):** Functions as a one-way ramp. It can only be entered from a `steps` tile when moving from `ground` to `elevated_ground`. It is impassable from adjacent `ground` tiles and cannot be used to move down from `elevated_ground` to `ground`.
+- **Cleared Boulder Barrier (Corrected):** A traversable ground tile that appears after a boulder puzzle is solved. It allows movement between different elevations, acting like a ramp.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
 - **Ladders (`ladder_up`, `ladder_down`):** Function as warps between different floors or map areas.
 
@@ -31,7 +31,7 @@
 
 ### Cool Trainer M (Victory Road 3F)
 - **Location:** (29, 6)
-- **Team:** CHARIZARD (Lv52), MAGNETON (Lv52)
+- **Team:** CHARIZARD (Lv52), MAGNETON (Lv52), TENTACRUEL (Lv52)
 
 ## C. Battle Lessons & Insights
 - **Level Disparity:** A large level gap can be more dangerous than type immunity.
@@ -42,16 +42,9 @@
 
 # III. World Navigation & Puzzles
 
-## A. Current Strategy: Victory Road 2F Puzzle
-- **Objective:** Solve a two-part boulder puzzle to clear the barriers at (8, 9) and (8, 10).
-
-### Part 1: West Boulder (Completed)
-- **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
+## A. Current Strategy: Victory Road 2F Puzzle (Completed)
+- **Objective:** Solve a boulder puzzle to clear the barriers at (8, 9) and (8, 10).
 - **Status:** Complete.
-
-### Part 2: East Boulder (In Progress)
-- **Objective:** Push the boulder from (6, 6) to the switch at (10, 17).
-- **Status:** Not started.
 
 ## B. Archived Puzzle Plans
 ### Victory Road 1F Puzzle (Completed)
@@ -75,9 +68,8 @@
 
 # IV. Agent & Tool Development
 
-## A. Future Development Ideas
+## A. Development Backlog
 - **Puzzle Executor Tool:** Create a tool to take a `boulder_puzzle_solver` solution and generate the full sequence of button presses to execute it automatically, including menuing to reactivate Strength. This would automate tedious, repetitive puzzle-solving.
-- **Pokedex Analysis (Review):** Review `team_composition_advisor_agent` capabilities before creating a new Pokedex agent to avoid redundancy.
 
-## B. Development Backlog
+## B. Completed Development
 *No outstanding bugs. All tools are currently functional.*
