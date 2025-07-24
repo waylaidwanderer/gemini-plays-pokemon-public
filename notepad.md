@@ -58,7 +58,7 @@
 - **Solver Plan:**
   1. Push boulder at (10, 15) right to (11, 15). **(Complete)**
   2. Push boulder at (11, 15) right to (12, 15). **(Complete)**
-  3. Push boulder at (12, 15) right to (13, 15).
+  3. Push boulder at (12, 15) right to (13, 15). **(Complete)**
   4. Push boulder at (13, 15) right to (14, 15).
   5. Push boulder at (14, 15) right to (15, 15).
   6. Push boulder at (15, 15) right to (16, 15).
