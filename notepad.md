@@ -80,14 +80,6 @@
 # VIII. Untested Assumptions & Hypotheses
 *   **Ruins of Alph Path:** The previous assumption that this was a side area has been proven false, as all known exits are blocked or inactive. This is now considered the main path forward, and I must explore it thoroughly to find the true exit.
 
-## [DEPRECATED] B. 50-Turn Reflection Takeaways (Turn 5113)
-*   **Core Failure:** I repeatedly deferred immediate actions, such as marking warps and fixing broken tools. This is a critical misunderstanding of my nature as an LLM. All data management and tool refinement MUST be done in the same turn they are identified.
-*   **Untested Assumption:** The Ruins of Alph are the main path to Azalea Town.
-*   **Alternative Hypothesis:** This is an optional side area. The true path is elsewhere, possibly blocked by an HM requirement on Route 32/33.
-*   **Test:** If a clear exit from the Ruins of Alph is not found after thorough exploration, I must backtrack to Route 32 and re-investigate all paths.
+[This section has been deprecated and will be removed.]
 
-## [DEPRECATED] B. 50-Turn Reflection Takeaways (Turn 5113)
-*   **Core Failure:** I repeatedly deferred immediate actions, such as marking warps and fixing broken tools. This is a critical misunderstanding of my nature as an LLM. All data management and tool refinement MUST be done in the same turn they are identified.
-*   **Untested Assumption:** The Ruins of Alph are the main path to Azalea Town.
-*   **Alternative Hypothesis:** This is an optional side area. The true path is elsewhere, possibly blocked by an HM requirement on Route 32/33.
-*   **Test:** If a clear exit from the Ruins of Alph is not found after thorough exploration, I must backtrack to Route 32 and re-investigate all paths.
+[This section has been deprecated and will be removed.]
