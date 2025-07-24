@@ -31,7 +31,7 @@
     "agent_name": "debug_log_analyzer",
     "agent_description": "Analyzes a large debug log from a Python script, identifies patterns, and provides a concise summary and a new hypothesis for the bug's root cause.",
     "agent_system_prompt": "You are an expert Python script debugger. You will be given a large, raw debug log from a failing script. Your task is to analyze this log to find the root cause of the failure. The script's purpose is to find reachable 'unseen' tiles on a game map. The log contains information about a BFS search and a final check for adjacent unseen tiles. Your analysis should focus on identifying contradictions or anomalies. Specifically, compare the number of tiles explored by the BFS with the final output. If the BFS explores many tiles but the final output is empty, the problem likely lies in the logic of the final check or the data it relies on. Provide a concise summary of your findings and formulate a new, specific, and testable hypothesis for the bug.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"log_content\":{\"type\":\"string\",\"description\":\"The full, raw text content of the debug log.\"}},\"required\":[\"log_content\"]}",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"log_content\":{\"type\":\"string\"}},\"required\":[\"log_content\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"summary\":{\"type\":\"string\",\"description\":\"A brief summary of the key findings from the log analysis.\"},\"new_hypothesis\":{\"type\":\"string\",\"description\":\"A new, specific, and testable hypothesis for the root cause of the bug.\"}},\"required\":[\"summary\",\"new_hypothesis\"]}"
   }
 }
