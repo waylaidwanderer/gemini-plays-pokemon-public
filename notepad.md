@@ -92,3 +92,22 @@
 - **`find_closest_unseen_tile`:** Deleted due to flawed logic.
 - **`boulder_puzzle_solver` (Turn 95239-95310):** Created and refined to solve boulder puzzles.
 - **Hole:** A tile that likely serves as a target for boulder puzzles, causing the boulder to drop to a lower floor.
+
+## C. Victory Road 1F Boulder Solution
+- **Status:** In Progress
+- **Plan:**
+  1. Move to (9, 15).
+  2. Push boulder at (10, 15) right to (11, 15).
+  3. Push boulder at (11, 15) right to (12, 15).
+  4. Push boulder at (12, 15) right to (13, 15).
+  5. Push boulder at (13, 15) right to (14, 15).
+  6. Push boulder at (14, 15) right to (15, 15).
+  7. Push boulder at (15, 15) right to (16, 15).
+  8. Push boulder at (16, 15) right to (17, 15).
+  9. Move to (17, 16).
+  10. Push boulder at (17, 15) up to (17, 14).
+  11. Push boulder at (17, 14) up to (17, 13).
+  12. Move to (16, 13).
+  13. Push boulder at (17, 13) right to (18, 13).
+  14. Move to (18, 12).
+  15. Push boulder at (18, 13) down to (18, 14).
