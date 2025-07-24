@@ -55,3 +55,4 @@
     3.  Explore Route 31 thoroughly to find the path to the next city.
     4.  Train my Pokémon on Route 31 to prepare for the next Gym Leader. VULCAN and MIASma are my primary fighters.
     5.  Once in the new city, locate the Gym and challenge the leader.
+*   **Cleanup Task:** Delete incorrect warp marker on Route 31 (map 26_10) at (4, 6) which was placed due to a hallucination.
