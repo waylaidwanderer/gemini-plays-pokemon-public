@@ -51,8 +51,7 @@
   - EEVEE: Jump Kick
 
 # III. Active Plans
-- **Current Objective:** Escape Victory Road and heal my Pokémon.
-- **Next Step:** Navigate to the exit at Victory Road 1F and fly to a Pokémon Center.
+- **Current Objective:** Survive the current battle against the wild Machamp. My only remaining Pokémon is ECHO, who is paralyzed. I must win this fight to avoid a blackout and continue my escape from Victory Road.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
