@@ -63,3 +63,9 @@
 
 # VI. Phone Calls & Side Quests
 *   Wade called and offered to share BERRIES. He is waiting on Route 31.
+
+# VII. New Discoveries & Lessons
+*   **SUPER_NERD at (4, 21) is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
+*   **Union Cave B1F is a dead end.** The only way out is back up the ladder. My `find_reachable_unseen_tiles` tool was correct all along. I need to trust my tools more.
+*   **Found TM39 in Union Cave B1F.** I need to check what move it is and which Pokémon can learn it.
+*   **Overwatch critique takeaways:** I must use `team_composition_advisor` before the next major battle. I must also be more disciplined with map markers and use targeted notepad edits instead of large overwrites. I must verify I have an item before planning to use it.
