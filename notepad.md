@@ -50,15 +50,15 @@
 
 # III. Active Plans & Puzzles
 
-## Victory Road 1F Puzzle - Boulder at (17, 14)
-- **Objective:** Push the boulder from (17, 14) to the switch at (18, 14).
+## Victory Road 1F Puzzle - Boulder at (17, 13)
+- **Objective:** Push the boulder from (17, 13) to the switch at (18, 14).
 - **Status:** In progress. Following a new, reliable plan from the fixed `boulder_puzzle_solver`.
 - **Plan:** `[{"action": "move", "target": [17, 15]}, {"action": "push", "direction": "Up"}, {"action": "move", "target": [16, 15]}, {"action": "move", "target": [15, 15]}, {"action": "move", "target": [15, 14]}, {"action": "move", "target": [15, 13]}, {"action": "move", "target": [16, 13]}, {"action": "push", "direction": "Right"}, {"action": "move", "target": [16, 12]}, {"action": "move", "target": [17, 12]}, {"action": "move", "target": [18, 12]}, {"action": "push", "direction": "Down"}]`
-- **Current Step:** `{"action": "move", "target": [17, 15]}`
+- **Current Step:** `{"action": "move", "target": [16, 13]}`
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
-- **Verify Tool Outputs Before Trusting:** A faulty plan is worse than no plan. My tools can have bugs, and I must verify their outputs before blindly following them.
+- **Verify Tool Outputs Before Trusting:** A faulty plan is worse than no plan. My tools can have bugs, and I must verify their outputs before blindly following them. This is especially true after correcting a tool's logic.
 - **Archived Puzzle Solutions:** Puzzles can reset upon re-entering a map. Archived solutions may be outdated. Always observe the current state of a puzzle before acting.
 - **Trust the Game State:** My own assumptions can be wrong. The Game State Information is the absolute source of truth and must be trusted over my memory or intuition.
 - **Break Unproductive Loops:** If a strategy fails repeatedly, it's better to change the approach or goal than to persist in an inefficient loop.
@@ -75,9 +75,3 @@
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
-
-## Victory Road 1F Puzzle - Boulder at (17, 14)
-- **Objective:** Push the boulder from (17, 14) to the switch at (18, 14).
-- **Status:** In progress. Following a new, reliable plan from the fixed `boulder_puzzle_solver`.
-- **Plan:** `[{"action": "move", "target": [17, 15]}, {"action": "push", "direction": "Up"}, {"action": "move", "target": [16, 15]}, {"action": "move", "target": [15, 15]}, {"action": "move", "target": [15, 14]}, {"action": "move", "target": [15, 13]}, {"action": "move", "target": [16, 13]}, {"action": "push", "direction": "Right"}, {"action": "move", "target": [16, 12]}, {"action": "move", "target": [17, 12]}, {"action": "move", "target": [18, 12]}, {"action": "push", "direction": "Down"}]`
-- **Current Step:** `{"action": "move", "target": [17, 15]}`
