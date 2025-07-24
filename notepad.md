@@ -78,7 +78,7 @@
 *   **Ruins of Alph Gatehouse:** Remember to check the unexplored warp at (0, 5).
 
 # VIII. Untested Assumptions & Hypotheses
-*   **Ruins of Alph Path:** The current assumption is that these ruins are the main path to Azalea Town. An alternative hypothesis is that this is a side area, and the true path lies elsewhere, possibly requiring an item I don't have. If this area is a dead end, I must return to Route 32/33 to re-evaluate.
+*   **Ruins of Alph Path:** The previous assumption that this was a side area has been proven false, as all known exits are blocked or inactive. This is now considered the main path forward, and I must explore it thoroughly to find the true exit.
 
 ## [DEPRECATED] B. 50-Turn Reflection Takeaways (Turn 5113)
 *   **Core Failure:** I repeatedly deferred immediate actions, such as marking warps and fixing broken tools. This is a critical misunderstanding of my nature as an LLM. All data management and tool refinement MUST be done in the same turn they are identified.
