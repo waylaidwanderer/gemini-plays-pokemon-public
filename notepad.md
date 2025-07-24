@@ -21,7 +21,7 @@
 - **"No Will to Fight" Message (Correction):** Appears when the party menu cursor is on a fainted Pokémon.
 - **Level Cap:** The level cap with 8 badges is 65.
 - **Special NPC Interaction:** Certain puzzles may require walking *through* an NPC rather than interacting with them (e.g., Summer Beach House).
-- **Pushing Boulders (Mechanic Corrected):** Pushing a boulder does NOT move the player. The player character remains in the tile from which the push was initiated.
+- **Pushing Boulders (Mechanic Corrected):** Pushing a boulder moves the player into the tile the boulder previously occupied.
 - **PC Tile Anomaly:** The tile for interacting with the Pokémon Center PC is sometimes labeled as `grass` in the map data, despite being indoors.
 
 ## C. Puzzle Mechanics
