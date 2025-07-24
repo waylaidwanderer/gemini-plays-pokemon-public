@@ -50,21 +50,31 @@
 
 # III. Active Plans & Puzzles
 
-## Victory Road 1F Puzzle (Attempt 2)
+## Victory Road 1F Puzzle (Resetting)
 - **Objective:** Push the boulder from (6, 16) to the switch at (18, 14).
-- **Status:** Soft-locked. Must reset by leaving and re-entering the map.
-- **Solver's Plan:**
-  1. Move to (6, 15) and push boulder Down to (6, 17).
-  2. Move to (5, 17) and push boulder Right to (7, 17).
-  3. Move to (6, 17) and push boulder Right to (8, 17).
-  4. Move to (8, 18) and push boulder Up to (8, 16).
-  5. Move to (7, 16) and push boulder Right to (9, 16).
-  6. Continue following solver's multi-push sequence to the switch.
+- **Status:** Resetting puzzle after soft-lock. Must follow solver plan precisely.
+- **Solver's Plan (Full Sequence):**
+  1. Move to (6, 15), push boulder Down to (6, 17).
+  2. Move to (5, 17), push boulder Right to (7, 17).
+  3. Move to (6, 17), push boulder Right to (8, 17).
+  4. Move to (9, 18), then to (8, 18), push boulder Up to (8, 16).
+  5. Move to (8, 16), then to (7, 16), push boulder Right to (9, 16).
+  6. Move to (10, 17), then to (9, 17), push boulder Up to (9, 15).
+  7. Move to (10, 15), push boulder Right to (11, 15).
+  8. Move to (11, 15), push boulder Right to (12, 15).
+  9. Move to (12, 15), push boulder Right to (13, 15).
+  10. Move to (13, 15), push boulder Right to (14, 15).
+  11. Move to (14, 15), push boulder Right to (15, 15).
+  12. Move to (15, 15), push boulder Right to (16, 15).
+  13. Move to (17, 16), push boulder Up to (17, 15).
+  14. Move to (17, 15), push boulder Up to (17, 14).
+  15. Move to (16, 13), push boulder Right to (17, 13).
+  16. Move to (18, 12), push boulder Down to (18, 13).
 
 # IV. Core Gameplay Lessons
-- **Immediate Tool Refinement:** Deferring fixes for critical tools like the pathfinder is a major strategic error. Faulty tools must be addressed immediately, as they are foundational to efficient gameplay. I wasted significant time manually pathing and retrying because I didn't fix the tool right away.
+- **Immediate Tool Refinement:** Deferring fixes for critical tools like the pathfinder is a major strategic error. Faulty tools must be addressed immediately.
 - **Trust Tool Outputs:** Deviating from a valid, tool-generated plan can lead to soft-locks and wasted time. I must trust my solver's output and follow its steps precisely.
-- **Archived Puzzle Solutions:** Puzzles can reset upon re-entering a map. Archived solutions may be outdated. Always observe the current state of a puzzle before acting on old information.
+- **Archived Puzzle Solutions:** Puzzles can reset upon re-entering a map. Archived solutions may be outdated. Always observe the current state of a puzzle before acting.
 
 # V. Archives
 
