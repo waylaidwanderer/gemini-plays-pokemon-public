@@ -60,3 +60,6 @@
 # VI. 50-Turn Reflection Takeaways
 *   **Agent Usage:** I must use the `team_composition_advisor` before the next significant trainer battle to test its effectiveness.
 *   **Untested Assumption:** The southern exit of Union Cave is the correct path to Azalea Town. An alternative hypothesis is that the true path is via the currently inaccessible western section or the unexplored ladder. I will test this by continuing south, and if that path is blocked, I will need to find another way into the western part of the cave.
+
+## B. Tile Traversal Test Results
+*   **FLOOR_UP_WALL at (11, 34):** Test: Moved down from (11, 33). Result: Movement blocked. Conclusion: Impassable from above. This partially confirms the one-way hypothesis.
