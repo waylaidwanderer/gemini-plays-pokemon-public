@@ -54,8 +54,9 @@
 # III. Active Plans & Puzzles
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
-- **Plan:** `[{"action": "move", "target": [1, 10]}, {"action": "move", "target": [2, 10]}, {"action": "move", "target": [2, 11]}, {"action": "move", "target": [2, 12]}, {"action": "move", "target": [3, 12]}, {"action": "move", "target": [3, 13]}, {"action": "move", "target": [3, 14]}, {"action": "move", "target": [4, 14]}, {"action": "move", "target": [5, 14]}, {"action": "push", "direction": "Down"}, {"action": "move", "target": [5, 15]}, {"action": "move", "target": [6, 15]}, {"action": "move", "target": [6, 16]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [5, 16]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [4, 16]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [4, 15]}, {"action": "move", "target": [3, 15]}, {"action": "move", "target": [2, 15]}, {"action": "push", "direction": "Down"}]`
-- **Current Step:** `{"action": "push", "direction": "Left"}`
+- **Status:** Halted. `boulder_puzzle_solver` tool is bugged.
+- **Bug:** The tool does not check if the destination tile for a push is traversable, leading to impossible plans (e.g., pushing into a wall).
+- **Plan:** Fix the tool, then regenerate the puzzle solution.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
