@@ -33,10 +33,7 @@
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting.
 - **Type Correction (Psychic vs. Rock):** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon, not 'not very effective' as previously assumed.
 
-## B. Trainer Rosters & Movesets
-
-### Giovanni (Viridian Gym Leader)
-- **Team:** NIDOKING (Lv54), DUGTRIO (Lv53), NIDOQUEEN (Lv54), PERSIAN (Lv55), RHYDON (Lv55)
+## B. Current Trainer Rosters & Movesets
 
 ### Cool Trainer M (Victory Road 1F)
 - **Team:** ELECTABUZZ (Lv53), SNORLAX (Lv53), SLOWBRO (Lv53), PORYGON (Lv53)
@@ -82,13 +79,17 @@
 - **Past Hallucinations:** I must strictly ground all actions and reasoning in the provided Game State Information as the single source of truth.
 - **Confirmation Bias on Route 23 (Turn 95544):** I repeatedly failed to find a land-only path to Victory Road but persisted with workarounds instead of accepting the tool's output, which indicated a water crossing was mandatory. Lesson: Trust the data from my tools over my own assumptions, and if a hypothesis is repeatedly falsified, abandon it immediately.
 
-## B. Agent & Tool Refinement Log
+## B. Archived Trainer Rosters
+### Giovanni (Viridian Gym Leader)
+- **Team:** NIDOKING (Lv54), DUGTRIO (Lv53), NIDOQUEEN (Lv54), PERSIAN (Lv55), RHYDON (Lv55)
+
+## C. Agent & Tool Refinement Log
 - **Battle Strategist Agent (Turn 91179):** Updated to prioritize survival by assuming worst-case scenarios and weighing level disparity.
 - **Battle Strategist Agent (Turn 94114):** Updated to correctly interpret the 'training' goal.
 - **`delete_map_marker` Tool (Turn 95077):** Standardized gate markers.
 - **`retreat_planner_agent` (Turn 96236):** Refined to check inventory before suggesting item-based solutions.
 
-## C. Tool Development Log
+## D. Tool Development Log
 - **Pathfinder & Boulder Puzzle Solver:** Fixed SURF transitions, ledge logic, and consolidated tools.
 - **`spinner_maze_solver`:** Rewrote path reconstruction logic.
 - **`reachable_shoreline_finder`:** Created to find valid SURF starting points.
