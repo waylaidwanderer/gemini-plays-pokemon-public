@@ -48,47 +48,34 @@
   - CHANSEY: Double-Edge, Mega Punch
   - EEVEE: Jump Kick
 
-## C. Battle Lessons & Insights
-- **Level Disparity:** A large level gap can be more dangerous than type immunity.
-- **Misleading Battle Text:** On-screen text for move effectiveness can be incorrect. The actual damage calculation follows my verified type chart.
-- **Ground-Type Immunity Extension:** Ground-types are immune to Electric-type *status* moves (like THUNDER WAVE).
-- **Elixer Mechanic (Correction):** Elixers only restore PP, not HP.
-- **Delayed Game State Updates:** After solving a puzzle (e.g., a boulder puzzle), the map's traversability might not update visually or in the game state data until the player character moves. This can be fixed by leaving and re-entering the map.
+# III. Active Plans & Puzzles
 
-# III. Future Plans & Lessons Learned
+## Victory Road 1F Puzzle
+- **Objective:** Push the boulder from (6, 16) to its corresponding switch.
+- **Current Boulder Location:** (6, 16)
+- **Switch Location:** Unknown.
+- **Status:** In progress. The area needs to be explored to find the switch.
 
-## B. Core Gameplay Lessons
+# IV. Tool Development & Maintenance
+
+## A. Immediate Tasks
+- **`brute_force_explorer` Fix:** The tool's internal pathfinder (`find_path_bfs`) is buggy and generated an invalid path, attempting to move into an impassable tile. It needs to be updated with the more robust traversal logic from `gem_pathfinder` before it can be used again. This is a high-priority fix.
+
+## B. Future Ideas
+- **`puzzle_deadlock_analyzer` Agent Idea:** Create an agent that analyzes situations where progress is stalled despite an apparent solution (e.g., a puzzle is solved but the path remains blocked). The agent would take the context and suggest a ranked list of hypotheses to test, such as 'map state update lag (test with local movement)', 'map state bug (test by leaving and re-entering map)', or 'hidden secondary mechanic (test with exhaustive interaction)'. This would help structure my problem-solving when I get stuck.
+
+# V. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools like the pathfinder is a major strategic error. Faulty tools must be addressed immediately, as they are foundational to efficient gameplay. I wasted significant time manually pathing and retrying because I didn't fix the tool right away.
 
-# IV. Archives
+# VI. Archives
 
 ## A. Archived Puzzle Solutions
+### Victory Road 1F Puzzle (Initial)
+- **Objective:** Push the boulder from (13, 15) to the switch at (18, 14).
+- **Status:** Complete. (Reset upon map re-entry)
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
 - **Status:** Complete.
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
-
-# V. Active Plans
-
-## Victory Road 1F Puzzle
-- **Objective:** Push the boulder from (13, 15) to the switch at (18, 14).
-- **Plan:**
-  1. Move to (12, 15).
-  2. Push boulder at (13, 15) right to (14, 15). Player moves to (13, 15).
-  3. Push boulder at (14, 15) right to (15, 15). Player moves to (14, 15).
-  4. Push boulder at (15, 15) right to (16, 15). Player moves to (15, 15).
-  5. Push boulder at (16, 15) right to (17, 15). Player moves to (16, 15).
-  6. Move from (16, 15) to (17, 16). Path: Down, Right.
-  7. Push boulder at (17, 15) up to (17, 14). Player moves to (17, 15).
-  8. Push boulder at (17, 14) up to (17, 13). Player moves to (17, 14).
-  9. Move from (17, 14) to (16, 13). Path: Left, Up.
-  10. Push boulder at (17, 13) right to (18, 13). Player moves to (17, 13).
-  11. Move from (17, 13) to (18, 12). Path: Up, Right.
-  12. Push boulder at (18, 13) down to (18, 14). Player moves to (18, 13).
-- **Status:** In progress. Strength is active. Player is at (12, 15).
-
-# VI. Tool & Agent Development Ideas
-- **`brute_force_explorer` Fix:** The tool's internal pathfinder (`find_path_bfs`) is buggy and generated an invalid path, attempting to move into an impassable tile. It needs to be updated with the more robust traversal logic from `gem_pathfinder` before it can be used again.
-- **`puzzle_deadlock_analyzer` Agent Idea:** Create an agent that analyzes situations where progress is stalled despite an apparent solution (e.g., a puzzle is solved but the path remains blocked). The agent would take the context and suggest a ranked list of hypotheses to test, such as 'map state update lag (test with local movement)', 'map state bug (test by leaving and re-entering map)', or 'hidden secondary mechanic (test with exhaustive interaction)'. This would help structure my problem-solving when I get stuck.
