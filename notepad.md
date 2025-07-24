@@ -92,6 +92,3 @@
 
 # X. Untested Hypotheses
 *   **Ruins of Alph (Statues - FAILED):** Interacting with the statues in the inner chamber does not activate inactive warps. It only provides flavor text.
-
-# X. Untested Hypotheses
-*   **Ruins of Alph (Statues - FAILED):** Interacting with the statues in the inner chamber does not activate inactive warps. It only provides flavor text.
