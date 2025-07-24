@@ -21,7 +21,7 @@
 - **"No Will to Fight" Message (Correction):** Appears when the party menu cursor is on a fainted Pokémon.
 - **Level Cap:** The level cap with 8 badges is 65.
 - **Special NPC Interaction:** Certain puzzles may require walking *through* an NPC rather than interacting with them (e.g., Summer Beach House).
-- **Pushing Boulders (Mechanic Corrected):** Pushing a boulder moves the player into the tile the boulder previously occupied.
+- **Pushing Boulders (Mechanic Corrected):** Pushing a boulder does NOT move the player. The player remains on the tile from which the push was initiated.
 - **PC Tile Anomaly:** The tile for interacting with the Pokémon Center PC is sometimes labeled as `grass` in the map data, despite being indoors.
 
 ## C. Puzzle Mechanics
@@ -52,11 +52,15 @@
   - EEVEE: Jump Kick
 
 # III. Active Plans & Puzzles
-### Victory Road 2F Puzzle
-- **Objective:** Push the boulder from (4, 16) to the switch at (2, 17).
-- **Status:** In Progress
-- **Plan:** `[{"action": "move", "target": [5, 15]}, {"action": "move", "target": [4, 15]}, {"action": "push", "direction": "Down"}, {"action": "move", "target": [5, 16]}, {"action": "move", "target": [5, 17]}, {"action": "push", "direction": "Left"}, {"action": "push", "direction": "Left"}]`
-- **Current Step:** `{"action": "move", "target": [5, 15]}`
+
+### Victory Road 2F Puzzle (Manual Plan)
+- **Objective:** Push the boulder from (4, 17) to the switch at (2, 17).
+- **Status:** In Progress.
+- **Plan:**
+  1. Push boulder at (4, 17) Left to (3, 17).
+  2. Move to (4, 17) to push Left again.
+  3. Push boulder at (3, 17) Left to (2, 17).
+- **Current Step:** In position at (5, 17) to perform step 1.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
