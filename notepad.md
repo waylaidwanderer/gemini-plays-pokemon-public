@@ -58,4 +58,3 @@
 *   **Secondary Assumption:** The Poke Ball at (6, 53) contains a valuable item.
 *   **Alternative Hypothesis:** It could be a common item like a Potion or Poke Ball.
 *   **Test:** Find a path to the item and retrieve it. This is currently blocked.
-* Fisher in Union Cave (14, 16) mentioned strange roars deep in the cave on weekends. This might be a hint for a special event.
