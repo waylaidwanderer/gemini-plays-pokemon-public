@@ -54,3 +54,8 @@
 # V. Future Plans & Ideas
 *   **Agent Idea:** Create a `team_composition_advisor` to suggest party changes for upcoming Gym battles.
 *   **Agent Idea:** Create a `debugging_assistant` agent that can analyze faulty code and suggest fixes or debugging steps.
+
+# VI. Battle Information
+
+## A. Verified Type Matchups
+*   Ghost-type Pokémon are immune to Normal-type moves.
