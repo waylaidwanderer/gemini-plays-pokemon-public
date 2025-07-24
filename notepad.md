@@ -60,7 +60,7 @@
   1. Push boulder at (4, 17) Left to (3, 17).
   2. Move to (4, 17) to push Left again.
   3. Push boulder at (3, 17) Left to (2, 17).
-- **Current Step:** In position at (5, 17) to perform step 1.
+- **Current Step:** Move to (4, 17) to perform step 2.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
