@@ -50,12 +50,6 @@
 
 # III. Active Plans & Puzzles
 
-## Victory Road 1F Puzzle - Boulder at (17, 13)
-- **Objective:** Push the boulder from (17, 13) to the switch at (18, 14).
-- **Status:** In progress. Following a new, reliable plan from the fixed `boulder_puzzle_solver`.
-- **Plan:** `[{"action": "move", "target": [17, 15]}, {"action": "push", "direction": "Up"}, {"action": "move", "target": [16, 15]}, {"action": "move", "target": [15, 15]}, {"action": "move", "target": [15, 14]}, {"action": "move", "target": [15, 13]}, {"action": "move", "target": [16, 13]}, {"action": "push", "direction": "Right"}, {"action": "move", "target": [16, 12]}, {"action": "move", "target": [17, 12]}, {"action": "move", "target": [18, 12]}, {"action": "push", "direction": "Down"}]`
-- **Current Step:** `{"action": "move", "target": [17, 12]}`
-
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
 - **Verify Tool Outputs Before Trusting:** A faulty plan is worse than no plan. My tools can have bugs, and I must verify their outputs before blindly following them. This is especially true after correcting a tool's logic.
@@ -69,6 +63,9 @@
 # V. Archives
 
 ## A. Completed Puzzles
+### Victory Road 1F Puzzle
+- **Objective:** Push the boulder from (17, 13) to the switch at (18, 14).
+- **Status:** Complete.
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
 - **Status:** Complete.
