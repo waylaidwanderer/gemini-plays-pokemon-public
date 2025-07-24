@@ -51,7 +51,7 @@
   - EEVEE: Jump Kick
 
 # III. Active Plans
-- **Current Objective:** Survive the current battle against the wild Machamp. My only remaining Pokémon is ECHO, who is paralyzed. I must win this fight to avoid a blackout and continue my escape from Victory Road.
+- **Current Objective:** After blacking out in Victory Road, I have returned to Viridian City. The immediate plan is to travel back through Route 22 and Route 23 to re-enter Victory Road and continue my journey to the Pokémon League.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
