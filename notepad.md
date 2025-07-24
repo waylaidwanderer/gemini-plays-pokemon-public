@@ -45,15 +45,12 @@
 # IV. Goal-Oriented Planning
 
 ## A. Primary Goal: Find the next town and challenge its Gym Leader
-*   **Hypothesis:** The path forward is south on Route 31.
+*   **Hypothesis:** The path forward is through the gatehouse west of Route 31.
 *   **Plan:**
-    1.  Fully explore Route 31 to find the connection to the main area.
-    2.  Use my `find_reachable_unseen_tiles` and `exploration_strategist` tools once in the main area.
+    1.  Navigate through Route 31 to the gatehouse leading to Violet City.
+    2.  Explore the area west of the gatehouse.
     3.  Interact with any new NPCs for clues.
 
 # V. Future Plans & Ideas
-*   **Agent Idea:** Create an `exploration_strategist` agent that takes the output of `find_reachable_unseen_tiles` and suggests the most optimal tile to explore next based on current goals.
+*   **Agent Idea:** Create a `team_composition_advisor` to suggest party changes for upcoming Gym battles.
 *   **Agent Idea:** Create a `debugging_assistant` agent that can analyze faulty code and suggest fixes or debugging steps.
-
-## Route 31 Exploration Update
-*   My tools have confirmed I'm in an isolated section of the route. The only path forward is to explore the eastern path past the Cooltrainer, which leads north towards the Dark Cave. I must follow this path to find a connection to the main area of the route.
