@@ -65,3 +65,11 @@
   - CLEFABLE: Body Slam, Light Screen, Metronome, Sing
   - CHANSEY: Double-Edge, Mega Punch
   - EEVEE: Jump Kick
+### Cool Trainer F (Victory Road 3F)
+- **Location:** (14, 4)
+- **Team:** WIGGLYTUFF (Lv54), CLEFABLE (Lv54), CHANSEY (Lv54), EEVEE (Lv57)
+- **Observed Moves:**
+  - WIGGLYTUFF: Lovely Kiss, Body Slam, Double-Edge
+  - CLEFABLE: Body Slam, Light Screen, Metronome, Sing
+  - CHANSEY: Double-Edge, Mega Punch
+  - EEVEE: Jump Kick
