@@ -72,3 +72,17 @@
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
+
+# V. Active Plans
+
+## Victory Road 1F Progression (Attempt 2)
+- **Hypothesis:** The map state is bugged and will not update from local movement. Leaving the map entirely and re-entering should force a hard reset of the puzzle.
+- **Plan:**
+  1. Navigate to the exit warp at (9, 18).
+  2. Exit to Route 23.
+  3. Re-enter Victory Road 1F.
+  4. Re-solve the boulder puzzle using the documented plan.
+  5. Attempt to path to the ladder at (2, 2).
+
+## Tool Development Notes
+- `brute_force_explorer` is buggy. Its internal pathfinder (`find_path_bfs`) generated an invalid path, attempting to move into an impassable tile. It needs to be updated with the more robust traversal logic from `gem_pathfinder` before it can be used again.
