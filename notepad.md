@@ -10,7 +10,6 @@
 - **Ladders (`ladder_up`, `ladder_down`):** Function as instant 1x1 warps between floors. `ladder_up` leads to a higher floor, `ladder_down` leads to a lower floor.
 - **Hole:** A tile that functions as a warp, dropping the player to a lower floor. Boulders can be pushed into these to affect puzzles on the floor below.
 - **Spinner (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Forces movement in the specified direction.
-- **Hole:** A tile that functions as a warp, dropping the player to a lower floor.
 
 ## B. General Rules & Heuristics
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
@@ -52,7 +51,18 @@
 - **Elixer Mechanic (Correction):** Elixers only restore PP, not HP.
 - **Delayed Game State Updates:** After solving a puzzle (e.g., a boulder puzzle), the map's traversability might not update visually or in the game state data until the player character moves. This can cause pathfinders to fail temporarily.
 
-# III. Archives
+# III. Current Plans & Hypotheses
+
+## Victory Road 2F - Trapped Exploration Plan
+- **Situation:** Trapped in an isolated section of Victory Road 2F. Party is critically injured. REVENANT revived with MAX REVIVE.
+- **Hypothesis:** An exit must exist within the 8 reachable unseen tiles.
+- **Plan:**
+  1. Systematically explore all unseen tiles in this eastern area.
+  2. Flee from ALL wild encounters to preserve HP.
+  3. Survive the current trainer battle.
+- **Objective:** Find the hidden exit.
+
+# IV. Archives
 
 ## A. Completed Puzzle Plans
 ### Victory Road 1F Puzzle
@@ -64,14 +74,3 @@
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
-
-# IV. Current Plans & Hypotheses
-
-## Victory Road 2F - Trapped Exploration Plan
-- **Situation:** Trapped in an isolated section of Victory Road 2F. Party is critically injured. REVENANT revived with MAX REVIVE.
-- **Hypothesis:** An exit must exist within the 16 reachable unseen tiles.
-- **Plan:**
-  1. Navigate to the steps at (6, 11) to access the northern elevated platform.
-  2. Systematically explore all unseen tiles in this area.
-  3. Flee from ALL wild encounters to preserve REVENANT's HP.
-- **Objective:** Find the hidden exit.
