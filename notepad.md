@@ -52,7 +52,14 @@
 
 ## Victory Road - Fresh Attempt
 - **Objective:** Re-enter Victory Road and solve the multi-floor puzzle from a fresh, reset state.
-- **Status:** Successfully exited the cave to reset all puzzles. Now preparing to re-enter and solve it correctly from the start.
+- **Status:** Currently on 1F. Puzzles are reset.
+
+## Victory Road 1F Puzzle - Boulder at (6, 16)
+- **Objective:** Push the boulder from (6, 16) to the switch at (18, 14).
+- **Status:** **FAILED.** The `boulder_puzzle_solver` tool failed to find a solution after multiple fixes and debug attempts (5+ failures). This puzzle may be a red herring or require a different approach. Abandoning for now.
+
+## Victory Road 1F - New Approach
+- **Objective:** Investigate the other reachable boulder at (3, 11) to see if it's part of a solvable puzzle.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
@@ -61,6 +68,8 @@
 - **Trust the Game State:** My own assumptions can be wrong. The Game State Information is the absolute source of truth and must be trusted over my memory or intuition.
 - **Break Unproductive Loops:** If a strategy fails repeatedly, it's better to change the approach or goal than to persist in an inefficient loop.
 - **Confirmation Bias:** I must be wary of trying to prove my own assumptions right. It's important to trust system warnings and evidence that contradicts my beliefs.
+- **Efficient Debugging:** When a tool fails, the first step should be to add extensive logging/debugging to understand its internal state. Trial-and-error fixes are inefficient and should be avoided.
+- **No Premature Documentation:** Do not document an event or status in the notepad until it has been confirmed by the game state. Recording intentions as facts is a form of hallucination.
 
 # V. Archives
 
@@ -71,7 +80,3 @@
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
-
-### Victory Road 1F Puzzle
-- **Objective:** Push the boulder from (6, 16) to the switch at (18, 14).
-- **Status:** Plan generated. Awaiting execution.
