@@ -51,8 +51,8 @@
   - EEVEE: Jump Kick
 
 # III. Active Plans
-- **Current Objective:** Defeat or capture the legendary Pokémon Moltres on Victory Road 2F.
-- **Next Step:** Use Rock Slide with CRAG to deal super-effective damage.
+- **Current Objective:** Navigate Victory Road 3F and find the exit to the Indigo Plateau.
+- **Next Step:** Take the ladder at (24, 8) to return to Victory Road 2F and find the main path forward.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
