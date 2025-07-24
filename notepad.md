@@ -64,9 +64,6 @@
 *   **Agent Usage:** I must use the `team_composition_advisor` before the next significant trainer battle to test its effectiveness.
 *   **Untested Assumption:** The southern exit of Union Cave is the correct path to Azalea Town. An alternative hypothesis is that the true path is via the currently inaccessible western section or the unexplored ladder. I will test this by continuing south, and if that path is blocked, I will need to find another way into the western part of the cave.
 *   **Overwatch critique takeaways:** I must use `team_composition_advisor` before the next major battle. I must also be more disciplined with map markers and use targeted notepad edits instead of large overwrites. I must verify I have an item before planning to use it. I need to trust my tools more, especially `find_reachable_unseen_tiles` which correctly identified Union Cave B1F as a dead end.
-*   **Ruins of Alph Puzzle Assumption:** The stone panel puzzle is the only way to progress deeper into the ruins.
-*   **Alternative Hypothesis:** The main path could be through the other warp at (0, 5) in the gatehouse.
-*   **Test:** After attempting the puzzle, explore the warp at (0, 5).
 
 # VI. Phone Calls & Side Quests
 *   Wade called and offered to share BERRIES. He is waiting on Route 31.
