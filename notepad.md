@@ -32,6 +32,7 @@
 *   **WATER:** Hypothesis: Impassable without HM Surf.
 *   **CAVE:** Hypothesis: Functions as a warp. Needs testing to see if it's one-way or two-way.
 *   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal. Needs testing.
+*   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal. Can only be entered from the right. Needs testing.
 *   **unknown:** Hypothesis: Impassable. Needs testing.
 *   **INCENSE_BURNER:** Hypothesis: Impassable object. Needs testing.
 *   **RADIO:** Hypothesis: Impassable object. May be interactable. Needs testing.
