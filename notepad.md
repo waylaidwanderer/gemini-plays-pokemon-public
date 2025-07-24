@@ -51,9 +51,11 @@
   - EEVEE: Jump Kick
 
 # III. Active Plans & Puzzles
-### Victory Road 2F Navigation
-- **Status:** Complete. The barrier at (8, 9) opened after moving away from the puzzle area.
-- **Plan:** Proceed to the ladder at (24, 8).
+### Victory Road 3F Puzzles
+- **Hypothesis:** This floor also uses the delayed barrier-opening mechanic.
+- **Test:** Solve the boulder puzzles and observe if the corresponding barriers open immediately or only after moving away.
+- **Eastern Puzzle:** Push boulder from (23, 4) to switch at (23, 7).
+- **Western Puzzle:** Push boulder from (14, 13) into the hole at (14, 15) to affect the floor below. This requires re-confirming the hole's existence.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
@@ -70,15 +72,8 @@
 ## A. Completed Puzzles
 ### Victory Road 1F Puzzle
 - **Objective:** Push the boulder from (17, 13) to the switch at (18, 14).
-- **Status:** Complete.
-
-### Victory Road 3F Puzzle
-- **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
-- **Status:** Complete.
+- **Status:** Complete. Barrier at (10, 13) opens with delay.
 
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (4, 17) to the switch at (2, 17).
-- **Status:** Complete.
-### Victory Road 3F Puzzle
-- **Hypothesis:** This floor also uses the delayed barrier-opening mechanic.
-- **Test:** Solve the next boulder puzzle and observe if the corresponding barrier opens immediately or only after moving away.
+- **Status:** Complete. Barrier at (8, 9) opens with delay.
