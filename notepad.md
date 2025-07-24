@@ -92,3 +92,4 @@
 
 # X. Untested Hypotheses
 *   **Ruins of Alph (Statues - FAILED):** Interacting with the statues in the inner chamber does not activate inactive warps. It only provides flavor text.
+*   Unown's Hidden Power can be super-effective against Fire-type Pokémon (observed against Vulcan). The specific type is unknown, but could be Water, Rock, or Ground.
