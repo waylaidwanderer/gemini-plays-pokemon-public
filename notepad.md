@@ -64,7 +64,7 @@
 
 ## A. Completed Puzzle Plans
 ### Victory Road 1F Puzzle
-- **Objective:** Push the boulder from (10, 15) to the switch at (18, 14).
+- **Objective:** Push the boulder from (13, 15) to the switch at (18, 14).
 - **Status:** Complete.
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
@@ -75,14 +75,13 @@
 
 # V. Active Plans
 
-## Victory Road 1F Progression (Attempt 2)
-- **Hypothesis:** The map state is bugged and will not update from local movement. Leaving the map entirely and re-entering should force a hard reset of the puzzle.
+## Victory Road 1F Progression
+- **Hypothesis:** The map state was bugged and would not update from local movement. Leaving the map entirely and re-entering should force a hard reset of the puzzle.
+- **Status:** Confirmed. Re-entering the map has reset the puzzle.
 - **Plan:**
-  1. Navigate to the exit warp at (9, 18).
-  2. Exit to Route 23.
-  3. Re-enter Victory Road 1F.
-  4. Re-solve the boulder puzzle using the documented plan.
-  5. Attempt to path to the ladder at (2, 2).
+  1. Re-solve the boulder puzzle using the documented plan from the `boulder_puzzle_solver`.
+  2. Navigate to the ladder at (2, 2).
 
-## Tool Development Notes
-- `brute_force_explorer` is buggy. Its internal pathfinder (`find_path_bfs`) generated an invalid path, attempting to move into an impassable tile. It needs to be updated with the more robust traversal logic from `gem_pathfinder` before it can be used again.
+# VI. Tool & Agent Development Ideas
+- **`brute_force_explorer` Fix:** The tool's internal pathfinder (`find_path_bfs`) is buggy and generated an invalid path, attempting to move into an impassable tile. It needs to be updated with the more robust traversal logic from `gem_pathfinder` before it can be used again.
+- **`puzzle_deadlock_analyzer` Agent Idea:** Create an agent that analyzes situations where progress is stalled despite an apparent solution (e.g., a puzzle is solved but the path remains blocked). The agent would take the context and suggest a ranked list of hypotheses to test, such as 'map state update lag (test with local movement)', 'map state bug (test by leaving and re-entering map)', or 'hidden secondary mechanic (test with exhaustive interaction)'. This would help structure my problem-solving when I get stuck.
