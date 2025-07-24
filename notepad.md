@@ -82,8 +82,11 @@
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
 
-## Victory Road 1F Puzzle - Boulder at (6, 16)
-- **Objective:** Push the boulder from its current position to the switch at (18, 14).
-- **Status:** Puzzle in progress. Proceeding with logical step-by-step moves instead.
-- **Current State:** Player at (8, 17), Boulder at (9, 17).
-- **Next Logical Step:** Push boulder at (9, 17) right.
+## Victory Road 1F Puzzle - Boulder Push Mechanic Test
+- **Observation:** When at (8, 17), pressing 'Right' moved the boulder from (9, 17) to (10, 17). This suggests a remote push mechanic.
+- **Hypothesis 1:** It is possible to push a boulder from one tile away.
+- **Test 1:**
+  - **Setup:** Player at (8, 17), Boulder at (10, 17).
+  - **Action:** Press 'Right'.
+  - **Expected Outcome:** Boulder moves to (11, 17).
+- **Current Status:** Ready to perform Test 1.
