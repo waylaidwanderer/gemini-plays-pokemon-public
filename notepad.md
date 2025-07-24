@@ -27,16 +27,17 @@
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
-*   **FLOOR_UP_WALL:** One-way traversal. Can only be entered from below (impassable from above).
-*   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
-*   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
 
 ### Hypotheses to Test:
-*   **WATER:** Hypothesis: Impassable without HM Surf.
+*   **WATER:** Hypothesis: Impassable without HM Surf. Test: Walk up to it and try to move onto it / press A.
+*   **FLOOR_UP_WALL:** Hypothesis: One-way traversal, only enterable from below. Test: Attempt to enter from sides.
+*   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal, only enterable from the left. Test: Attempt to move left from it.
+*   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal, only enterable from the right. Test: Attempt to move right from it.
 
-# II. Reminders & Housekeeping
-*   **Data Hygiene:** Must mark all defeated trainers, new NPCs, and warps (both sides) immediately. Trust Game State Info over memory.
-*   **Marker Hygiene:** All moving NPCs MUST be marked with their `object_id`.
+# II. Battle Information
+
+## A. Verified Type Matchups
+*   Ghost-type Pokémon are immune to Normal-type moves.
 
 # III. Badges & TMs
 *   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
@@ -44,9 +45,9 @@
 
 # IV. Future Plans & Ideas
 *   **Agent Idea:** Create a `debugging_assistant` agent that can analyze faulty code and suggest fixes or debugging steps.
-*   **Agent Refinement Idea:** Refine the `battle_strategist` to provide more detailed switching advice, considering the entire party's composition and the opponent's likely moves. This is more efficient than creating a new, redundant agent.
+*   **Agent Refinement Idea:** Refine the `battle_strategist` to provide more detailed switching advice, considering the entire party's composition and the opponent's likely moves.
 
-# V. Battle Information
-
-## A. Verified Type Matchups
-*   Ghost-type Pokémon are immune to Normal-type moves.
+# V. Reflection Log (Turn 3815)
+*   **Untested Assumption:** The next town is directly south. 
+*   **Alternative Hypothesis:** The path south could be a dead end, and the true path is elsewhere.
+*   **Test:** Follow the agent's recommendation to the southernmost point. If it's a dead end, re-evaluate exploration priorities.
