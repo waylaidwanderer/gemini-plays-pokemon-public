@@ -54,3 +54,6 @@
 # V. Future Plans & Ideas
 *   **Agent Idea:** Create an `exploration_strategist` agent that takes the output of `find_reachable_unseen_tiles` and suggests the most optimal tile to explore next based on current goals.
 *   **Agent Idea:** Create a `debugging_assistant` agent that can analyze faulty code and suggest fixes or debugging steps.
+
+## Route 31 Exploration Update
+*   My tools have confirmed I'm in an isolated section of the route. The only path forward is to explore the eastern path past the Cooltrainer, which leads north towards the Dark Cave. I must follow this path to find a connection to the main area of the route.
