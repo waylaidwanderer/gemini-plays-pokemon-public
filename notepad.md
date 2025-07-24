@@ -91,7 +91,7 @@
 *I must remember to use the tools I build to avoid wasting time on manual tasks. My custom tools are: `find_path_to_target`, `find_reachable_unseen_tiles`, and `kabuto_puzzle_solver`.*
 
 # X. Untested Hypotheses
-*   **Ruins of Alph:** The statues in the inner chamber must be interacted with to activate the currently inactive warps.
+*   **Ruins of Alph (Statues - FAILED):** Interacting with the statues in the inner chamber does not activate inactive warps. It only provides flavor text.
 
 # X. Untested Hypotheses
-*   **Ruins of Alph:** The statues in the inner chamber must be interacted with to activate the currently inactive warps.
+*   **Ruins of Alph (Statues - FAILED):** Interacting with the statues in the inner chamber does not activate inactive warps. It only provides flavor text.
