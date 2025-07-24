@@ -56,3 +56,10 @@
     4.  Train my Pokémon on Route 31 to prepare for the next Gym Leader. VULCAN and MIASma are my primary fighters.
     5.  Once in the new city, locate the Gym and challenge the leader.
 *   **Cleanup Task:** Delete incorrect warp marker on Route 31 (map 26_10) at (4, 6) which was placed due to a hallucination.
+
+# V. Future Plans & Ideas
+*   **Agent Idea:** Create an `exploration_strategist` agent that takes the output of `find_reachable_unseen_tiles` and suggests the most optimal tile to explore next based on current goals.
+*   **Mechanics to Test on Route 31:**
+    1.  Test WATER tiles to confirm if they are impassable without Surf.
+    2.  Test the CAVE entrance at (34, 5) to confirm it's a warp.
+    3.  Test the LEDGE_HOP_RIGHT tiles at (13, 7) and (13, 8) to confirm they are one-way only.
