@@ -8,11 +8,13 @@
 *   **FLOOR:** Fully traversable.
 *   **TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
 *   **DOOR:** Functions as a two-way warp.
-*   **WARP_CARPET_DOWN:** Functions as a warp. Requires pressing 'Down' on the tile to activate.
-*   **WARP_CARPET_LEFT:** Functions as a two-way warp.
-*   **WARP_CARPET_RIGHT:** Functions as a two-way warp.
 *   **CAVE:** Functions as a warp.
 *   **LADDER:** Functions as a two-way warp between floors.
+
+### Warp Tiles:
+*   **WARP_CARPET_DOWN:** One-way warp. Activated by pressing 'Down'.
+*   **WARP_CARPET_LEFT:** One-way warp. Activated by moving onto the tile from the right.
+*   **WARP_CARPET_RIGHT:** One-way warp. Activated by moving onto the tile from the left.
 
 ### Confirmed Impassable:
 *   **WALL:** Impassable.
@@ -47,8 +49,8 @@
 
 # IV. Future Plans & Ideas
 *   **Agent Idea:** Create a `goal_deconstructor` agent to break down high-level goals into smaller, navigable steps.
-
 *   **Agent Idea:** Create a `pokedex_advisor` agent to suggest catching priorities for better team composition and type coverage.
+*   **Agent Idea:** Create a `puzzle_solver` agent for logic puzzles like the one in the Ruins of Alph.
 *   **Team Composition:** Use `team_composition_advisor` before the next major battle (Bugsy).
 
 # V. Reflection Log
@@ -62,6 +64,9 @@
 *   **Agent Usage:** I must use the `team_composition_advisor` before the next significant trainer battle to test its effectiveness.
 *   **Untested Assumption:** The southern exit of Union Cave is the correct path to Azalea Town. An alternative hypothesis is that the true path is via the currently inaccessible western section or the unexplored ladder. I will test this by continuing south, and if that path is blocked, I will need to find another way into the western part of the cave.
 *   **Overwatch critique takeaways:** I must use `team_composition_advisor` before the next major battle. I must also be more disciplined with map markers and use targeted notepad edits instead of large overwrites. I must verify I have an item before planning to use it. I need to trust my tools more, especially `find_reachable_unseen_tiles` which correctly identified Union Cave B1F as a dead end.
+*   **Ruins of Alph Puzzle Assumption:** The stone panel puzzle is the only way to progress deeper into the ruins.
+*   **Alternative Hypothesis:** The main path could be through the other warp at (0, 5) in the gatehouse.
+*   **Test:** After attempting the puzzle, explore the warp at (0, 5).
 
 # VI. Phone Calls & Side Quests
 *   Wade called and offered to share BERRIES. He is waiting on Route 31.
@@ -70,5 +75,4 @@
 # VII. New Discoveries & Lessons
 *   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
 *   **Agent Idea:** Create a `debug_log_analyzer` to parse large debug outputs and identify the root cause of tool failures.
-*   **Ruins of Alph Gatehouse:** Remember to check the unexplored warp at (0, 5).
 *   **Ruins of Alph Gatehouse:** Remember to check the unexplored warp at (0, 5).
