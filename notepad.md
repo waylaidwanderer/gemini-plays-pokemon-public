@@ -92,3 +92,6 @@
 
 # X. Untested Hypotheses
 *   **Ruins of Alph:** The statues in the inner chamber must be interacted with to activate the currently inactive warps.
+
+# X. Untested Hypotheses
+*   **Ruins of Alph:** The statues in the inner chamber must be interacted with to activate the currently inactive warps.
