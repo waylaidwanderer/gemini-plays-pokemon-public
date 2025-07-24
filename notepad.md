@@ -35,7 +35,7 @@
 - **Location:** (29, 6)
 - **Team:** CHARIZARD (Lv52), MAGNETON (Lv52), TENTACRUEL (Lv52)
 
-### Cool Trainer F (Victory Road 3F)
+### Cool Trainer F (Victory Road 3F) - DEFEATED
 - **Location:** (14, 4)
 - **Team:** WIGGLYTUFF (Lv54), CLEFABLE (Lv54), CHANSEY (Lv54), EEVEE (Lv57)
 - **Observed Moves:**
@@ -51,17 +51,12 @@
 - **Elixer Mechanic (Correction):** Elixers only restore PP, not HP.
 - **Delayed Game State Updates:** After solving a puzzle (e.g., a boulder puzzle), the map's traversability might not update visually or in the game state data until the player character moves. This can cause pathfinders to fail temporarily.
 
-# III. World Navigation & Puzzles
+# III. Archives
 
-## A. Archived Puzzle Plans
-### Victory Road 1F Puzzle (Completed)
+## A. Completed Puzzle Plans
+### Victory Road 1F Puzzle
 - **Objective:** Push the boulder from (10, 15) to the switch at (18, 14).
 - **Status:** Complete.
-### Victory Road 2F Puzzle (Completed)
+### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
 - **Status:** Complete.
-
-# IV. Agent & Tool Development
-
-## A. Development Backlog
-* **Agent Consolidation:** The `goal_prioritization_agent` and `training_spot_advisor_agent` have overlapping responsibilities. I should consolidate them into a single, more comprehensive agent to reduce redundancy and improve strategic coherence.
