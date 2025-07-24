@@ -51,16 +51,12 @@
 
 # III. World Navigation & Puzzles
 
-## A. Victory Road 1F Navigation Log
-**Objective:** Solve the main boulder puzzle (boulder at (15,3), switch at (18,14)).
-
-**Attempt 1:** Used `boulder_puzzle_solver` from (7,12). **Outcome:** Failed. Player cannot reach boulder.
-**Attempt 2:** Used `gem_pathfinder` from (6,14) to (14,3). **Outcome:** Failed. Path not found.
-**Attempt 3:** Used `gem_pathfinder` from (9,18) to (14,3) after fixing 'boulder_switch' bug. **Outcome:** Failed. Target unreachable.
-**Attempt 4:** Re-entered from (9,18), used `gem_pathfinder` to (14,3). **Outcome:** Failed. Path not found.
-**Conclusion:** The southern entrance area is completely isolated from the northern puzzle area.
-
-**New Hypothesis:** The isolated southern area has its own puzzle involving the boulders at (3,11) and (6,16). Solving this puzzle will likely open the path to the ladder at (2,2), which leads to Victory Road 2F.
+## A. Current Strategy: Victory Road 1F Puzzle
+- **Conclusion:** The southern boulder puzzle is confirmed unsolvable by standard mechanics (`boulder_puzzle_solver` and `gem_pathfinder` fail). The area is a dead end.
+- **Current Hypothesis:** A hidden, non-standard mechanic exists to resolve the puzzle.
+- **Test Plan:** Systematic brute-force exploration. Visit every reachable tile in the southern area and interact with all four adjacent walls/objects.
+- **Search Grid:** (2,13)-(4,13), (1,14)-(3,14), (1,15)-(2,15), (4,16)-(6,16), (3,17)-(8,17), (7,18)-(10,18).
+- **Progress:** All walls around (2,13) and (3,11) have been checked with no results.
 
 # IV. Agent & Tool Development
 
