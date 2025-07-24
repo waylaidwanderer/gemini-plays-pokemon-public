@@ -66,3 +66,6 @@
 
 # VI. Phone Calls & Side Quests
 *   Wade called and offered to share BERRIES. He is waiting on Route 31.
+
+# VII. Agent Usage Reminders
+*   **Team Composition:** Use `team_composition_advisor` before the next major battle (Bugsy).
