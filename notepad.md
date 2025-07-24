@@ -64,3 +64,17 @@
 
 ## B. Development Backlog
 *No outstanding bugs. All tools are currently functional.*
+
+### Victory Road 2F Puzzle
+- **Objective:** Push the boulder from (5, 15) to the switch at (2, 17) to clear the barrier at (8, 9) and (8, 10).
+- **Solver Plan:**
+  1. Move to (5, 14).
+  2. Push boulder at (5, 15) down to (5, 16).
+  3. Move to (6, 16).
+  4. Push boulder at (5, 16) left to (4, 16).
+  5. Move to (4, 15).
+  6. Push boulder at (4, 16) down to (4, 17).
+  7. Move to (5, 17).
+  8. Push boulder at (4, 17) left to (3, 17).
+  9. Move to (4, 17).
+  10. Push boulder at (3, 17) left to (2, 17).
