@@ -50,38 +50,29 @@
 
 # III. Active Plans & Puzzles
 
-## Victory Road 1F Puzzle (Resetting)
-- **Objective:** Reset the puzzle after soft-locking it by following a faulty tool-generated plan.
-- **Status:** Backtracking to the entrance at (9, 18) to leave and re-enter the map.
+## Victory Road - Full Reset
+- **Objective:** Re-solve the multi-floor Victory Road puzzle from the beginning.
+- **Status:** The path on 1F is confirmed to be blocked. I must exit the cave to reset all puzzles and re-approach from 2F and 3F to correctly solve the interconnected puzzle.
 
 # IV. Core Gameplay Lessons
-- **Immediate Tool Refinement:** Deferring fixes for critical tools like the pathfinder is a major strategic error. Faulty tools must be addressed immediately.
-- **Verify Tool Outputs Before Trusting:** A faulty plan is worse than no plan. My `boulder_puzzle_solver` generated a plan that led to a soft-lock because it did not correctly account for impassable tiles. I must verify the key steps of any complex plan before executing it.
+- **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
+- **Verify Tool Outputs Before Trusting:** A faulty plan is worse than no plan. My tools can have bugs, and I must verify their outputs before blindly following them.
 - **Archived Puzzle Solutions:** Puzzles can reset upon re-entering a map. Archived solutions may be outdated. Always observe the current state of a puzzle before acting.
-- **Trust the Game State:** My own assumptions about my position or game mechanics can be wrong. The Game State Information is the absolute source of truth and must be trusted over my memory or intuition.
-- **Break Unproductive Loops:** If a strategy fails repeatedly (e.g., getting interrupted by wild battles), it's better to change the approach or goal than to persist in an inefficient loop.
+- **Trust the Game State:** My own assumptions can be wrong. The Game State Information is the absolute source of truth and must be trusted over my memory or intuition.
+- **Break Unproductive Loops:** If a strategy fails repeatedly, it's better to change the approach or goal than to persist in an inefficient loop.
 - **Confirmation Bias:** I must be wary of trying to prove my own assumptions right. It's important to trust system warnings and evidence that contradicts my beliefs.
 
 # V. Tool/Agent Development & Debugging
 
 ## A. Development Ideas
-- **`plan_executor_agent`:** An agent that takes a multi-step plan from the notepad and outputs the next single action. This would help manage complex sequences without losing track.
-
-## B. Active Debugging Tasks
-- **`boulder_puzzle_solver`:** The tool is now fully operational. After identifying a critical flaw where it failed to account for elevation, I successfully implemented a fix. The tool's internal pathfinder now correctly handles 'ground', 'elevated_ground', and 'steps' tiles, preventing it from generating invalid paths. It is now capable of solving the complex, multi-level puzzles in Victory Road.
+- **`puzzle_advisor_agent`:** An agent that analyzes the current state of a puzzle and suggests the next single, logical step. This could help break down complex problems and avoid getting stuck.
 
 # VI. Archives
 
-## A. Archived Puzzle Solutions
-### Victory Road 1F Puzzle (Initial) - FAILED
-- **Objective:** Push the boulder from (6, 16) to the switch at (18, 14).
-- **Status:** Soft-locked due to a faulty plan from `boulder_puzzle_solver`. Puzzle reset required.
+## A. Completed Puzzles
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
 - **Status:** Complete.
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
-### Victory Road 1F Puzzle (In Progress)
-- **Objective:** Reach the ladder to 2F at (2, 2).
-- **Status:** Successfully pushed the boulder at (3, 11) to (3, 10), clearing the initial blockage.
