@@ -45,7 +45,7 @@
 
 # IV. Future Plans & Ideas
 *   **Agent Idea:** Create a `debugging_assistant` agent that can analyze faulty code and suggest fixes or debugging steps.
-*   **Agent Idea:** Create a `switch_advisor` agent that provides detailed recommendations on which Pokémon to switch to during battle, going beyond the simple 'PKMN' action suggestion from the `battle_strategist`.
+*   **Agent Refinement Idea:** Refine the `battle_strategist` to provide more detailed switching advice, considering the entire party's composition and the opponent's likely moves. This is more efficient than creating a new, redundant agent.
 
 # V. Battle Information
 
