@@ -81,7 +81,7 @@
     *   **Conclusion:** The puzzle is either optional, or the solution is not simply arranging the pieces. Abandoning the puzzle to explore other paths.
 
 # VIII. Custom Tools & Agents
-*   `find_path_to_target`: Finds the shortest path from the player's current position to a specified target coordinate.
+
 *   `find_reachable_unseen_tiles`: Finds all unseen tiles that are reachable from the player's current position.
 *   `kabuto_puzzle_solver`: Solves the Ruins of Alph Kabuto puzzle from a raw grid input.
 *   `battle_strategist`: Recommends the best action in a battle.
