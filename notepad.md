@@ -70,4 +70,8 @@
     *   **Test:** All pieces were arranged correctly.
     *   **Result:** The game did not automatically exit the puzzle screen.
     *   **Conclusion:** This hypothesis is incorrect.
-*   **Hypothesis 2:** After arranging the pieces, the 'Start' button must be pressed to confirm the solution.
+*   **Hypothesis 2 (Failed):** After arranging the pieces, the 'Start' button must be pressed to confirm the solution.
+    *   **Test:** Pressed 'Start' after arranging all pieces.
+    *   **Result:** The puzzle interface did not close, and the puzzle was not solved.
+    *   **Conclusion:** This hypothesis is incorrect.
+*   **Hypothesis 3:** The 'B' button must be pressed to exit the puzzle interface.
