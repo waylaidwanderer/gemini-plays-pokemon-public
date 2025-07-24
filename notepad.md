@@ -53,13 +53,13 @@
 
 # III. Active Plans & Puzzles
 
-### Victory Road 2F Navigation
-- **Objective:** Reach the ladder to Victory Road 3F.
-- **Status:** The boulder puzzle at (2,17) is solved, which should have opened the barrier at (8,9) and (8,10). The direct path to the 3F ladder is blocked.
+### Victory Road 2F Puzzle
+- **Objective:** Solve the boulder puzzle at (2, 17).
+- **Status:** The boulder is at (3, 17). I need to push it left onto the switch at (2, 17).
 - **Plan:**
-  1. Navigate to the steps at (6, 11) to reach the western elevated platform.
-  2. Cross the now-cleared barrier to the eastern platform.
-  3. Find the path to the ladder at (24, 8).
+  1. Move to (4, 17) to position for the push.
+  2. Push the boulder from (3, 17) to (2, 17).
+- **Current Step:** At (6, 11), need to execute step 1.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
