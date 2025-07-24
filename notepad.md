@@ -42,11 +42,10 @@
 
 # III. World Navigation & Puzzles
 
-## A. Current Strategy: Victory Road 2F Puzzle (Completed)
+## A. Archived Puzzle Plans
+### Victory Road 2F Puzzle (Completed)
 - **Objective:** Solve a boulder puzzle to clear the barriers at (8, 9) and (8, 10).
 - **Status:** Complete.
-
-## B. Archived Puzzle Plans
 ### Victory Road 1F Puzzle (Completed)
 - **Objective:** Push the boulder from its current position to the switch at (18, 14). This will clear the boulder barrier at (10, 13) and open the path to the next floor.
 - **Method:** I must reactivate Strength from the party menu before every individual push.
