@@ -74,54 +74,24 @@
 ## B. Development Backlog
 *No outstanding bugs. All tools are currently functional.*
 
+# V. Archive
+
+## A. Strategic Lessons & Reflections
+- **Core Lesson:** Trust data (game state, tool outputs) over intuition. Adhere to the scientific method for all puzzles (Observe, Hypothesize, Test, Conclude, Experiment).
+- **Procedural Mandates:** All tool/agent maintenance and data correction are the immediate, highest-priority action. When a core logic bug is found, audit all other tools for the same flaw. Consult map markers and available tools before acting. Use systematic, minimal tests for debugging complex tools.
+- **Past Hallucinations:** I must strictly ground all actions and reasoning in the provided Game State Information as the single source of truth.
+- **Confirmation Bias on Route 23 (Turn 95544):** I repeatedly failed to find a land-only path to Victory Road but persisted with workarounds instead of accepting the tool's output, which indicated a water crossing was mandatory. Lesson: Trust the data from my tools over my own assumptions, and if a hypothesis is repeatedly falsified, abandon it immediately.
+
 ## B. Agent & Tool Refinement Log
-- **Battle Strategist Agent (Turn 91179):** Updated the agent's system prompt to force it to prioritize survival by assuming a worst-case scenario (a super-effective critical hit from the opponent's best move) and to heavily weigh level disparity as a key risk factor.
-- **Battle Strategist Agent (Turn 94114):** Updated agent prompt to correctly interpret the 'training' goal, prioritizing EXP gain for lower-level party members over simply winning with the strongest Pokémon.
-- **`delete_map_marker` Tool (Turn 95077):** Standardized gate markers to use '✅' for open and '⛔' for closed.
-- **`retreat_planner_agent` (Turn 96236):** Refined the agent's system prompt to require it to check the player's inventory before suggesting item-based solutions. It will now provide a walking path if no fast-travel item is available.
+- **Battle Strategist Agent (Turn 91179):** Updated to prioritize survival by assuming worst-case scenarios and weighing level disparity.
+- **Battle Strategist Agent (Turn 94114):** Updated to correctly interpret the 'training' goal.
+- **`delete_map_marker` Tool (Turn 95077):** Standardized gate markers.
+- **`retreat_planner_agent` (Turn 96236):** Refined to check inventory before suggesting item-based solutions.
 
 ## C. Tool Development Log
-- **Pathfinder & Boulder Puzzle Solver:** Fixed a bug preventing land-to-water SURF transitions and corrected ledge traversal logic. Consolidated redundant tools.
-- **`spinner_maze_solver`:** Rewrote path reconstruction logic to fix a critical bug.
-- **`reachable_shoreline_finder`:** Created to systematically identify valid SURF starting points. Updated on Turn 94090 to handle elevation changes via 'steps' tiles.
-- **`connectivity_checker`:** Deleted due to redundancy with robust pathfinder.
-- **`find_closest_unseen_tile`:** Deleted on Turn 95731 due to flawed logic.
-- **`boulder_puzzle_solver` (Turn 95239-95310):** Created and refined to solve boulder puzzles, correcting multiple logic and crash bugs.
-
-## D. Basic Tile Mechanics (Archive)
-- **Ground:** Standard walkable tile.
-- **Impassable:** Walls, objects, etc. Cannot be entered.
-- **Grass:** Tall grass for wild Pokémon encounters.
-
-### Cool Trainer M (Victory Road 3F)
-- **Location:** (29, 6)
-- **Team:**
-  - CHARIZARD (Lv52) - Moves: Flamethrower, Slam
-  - MAGNETON (Lv52)
-
-# V. Tool Development Backlog
-*No outstanding bugs. All tools are currently functional.*
-
-# VI. Victory Road 1F Navigation Log
-
-**Objective:** Solve the main boulder puzzle (boulder at (15,3), switch at (18,14)).
-
-**Attempt 1:** Used `boulder_puzzle_solver` from current position (7,12). 
-- **Outcome:** Failed. Tool could not find a path for the player to the boulder.
-- **Conclusion:** I am not in the correct area to solve the puzzle.
-
-**Attempt 2:** Used `gem_pathfinder` to navigate from (6,14) to (14,3) to get adjacent to the boulder.
-- **Outcome:** Failed. Tool reported 'path not found'.
-- **Conclusion:** The northern section is inaccessible from my current location on the lower west side.
-
-**New Hypothesis:** The steps at (8,8) will grant access to the central elevated platform, which connects to the northern puzzle area.
-
-**Attempt 3:** Used `gem_pathfinder` to navigate from (9,18) to (14,3) after fixing the 'boulder_switch' bug.
-- **Outcome:** Failed. System warning confirmed the target is unreachable from my current location.
-- **Conclusion:** The southern entrance area is isolated from the northern puzzle area.
-
-**Attempt 4:** Re-entered Victory Road 1F from the main entrance at (9,18). Used `gem_pathfinder` to navigate to (14,3) to access the northern boulder puzzle.
-- **Outcome:** Failed. Path not found. System warnings confirmed the area is a dead end.
-- **Conclusion:** The southern entrance area is completely isolated from the northern puzzle area.
-
-**New Hypothesis:** The isolated southern area has its own puzzle involving the boulders at (3,11) and (6,16). Solving this puzzle will likely open the path to the ladder at (2,2), which leads to Victory Road 2F.
+- **Pathfinder & Boulder Puzzle Solver:** Fixed SURF transitions, ledge logic, and consolidated tools.
+- **`spinner_maze_solver`:** Rewrote path reconstruction logic.
+- **`reachable_shoreline_finder`:** Created to find valid SURF starting points.
+- **`connectivity_checker`:** Deleted due to redundancy.
+- **`find_closest_unseen_tile`:** Deleted due to flawed logic.
+- **`boulder_puzzle_solver` (Turn 95239-95310):** Created and refined to solve boulder puzzles.
