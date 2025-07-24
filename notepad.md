@@ -55,8 +55,7 @@
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (4, 16) to the switch at (2, 17).
 - **Status:** In Progress
-- **Tool Status:** MAJOR BUG FOUND! The solver's pathfinder doesn't account for the boulder's new position in subsequent steps, generating impossible plans. Will fix next turn.
-- **Generated (Flawed) Plan:** `[{"action": "move", "target": [5, 15]}, {"action": "move", "target": [4, 15]}, {"action": "push", "direction": "Down"}, {"action": "move", "target": [4, 17]}, {"action": "move", "target": [5, 17]}, {"action": "push", "direction": "Left"}, {"action": "push", "direction": "Left"}]`
+- **Plan:** `[{"action": "move", "target": [5, 15]}, {"action": "move", "target": [4, 15]}, {"action": "push", "direction": "Down"}, {"action": "move", "target": [5, 16]}, {"action": "move", "target": [5, 17]}, {"action": "push", "direction": "Left"}, {"action": "push", "direction": "Left"}]`
 - **Current Step:** `{"action": "move", "target": [5, 15]}`
 
 # IV. Core Gameplay Lessons
