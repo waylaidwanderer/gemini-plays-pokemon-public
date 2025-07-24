@@ -51,18 +51,7 @@
 - **Elixer Mechanic (Correction):** Elixers only restore PP, not HP.
 - **Delayed Game State Updates:** After solving a puzzle (e.g., a boulder puzzle), the map's traversability might not update visually or in the game state data until the player character moves. This can cause pathfinders to fail temporarily.
 
-# III. Current Plans & Hypotheses
-
-## Victory Road 2F - Trapped Exploration Plan
-- **Situation:** Trapped in an isolated section of Victory Road 2F. Party is critically injured. REVENANT revived with MAX REVIVE.
-- **Hypothesis:** An exit must exist within the 8 reachable unseen tiles.
-- **Plan:**
-  1. Systematically explore all unseen tiles in this eastern area.
-  2. Flee from ALL wild encounters to preserve HP.
-  3. Survive the current trainer battle.
-- **Objective:** Find the hidden exit.
-
-# IV. Archives
+# III. Archives
 
 ## A. Completed Puzzle Plans
 ### Victory Road 1F Puzzle
