@@ -57,9 +57,6 @@
 
 # III. Future Plans & Lessons Learned
 
-## A. Tool Development Pipeline
-- **Pathfinder Debugger Tool:** Create a new tool (`pathfinder_debugger`) that takes the same inputs as `gem_pathfinder` but instead of a path, it outputs a detailed, step-by-step log of the A* algorithm's execution. This will help diagnose failures by showing which nodes are being explored, which are being discarded, and why.
-
 ## B. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools like the pathfinder is a major strategic error. Faulty tools must be addressed immediately, as they are foundational to efficient gameplay. I wasted significant time manually pathing and retrying because I didn't fix the tool right away.
 
