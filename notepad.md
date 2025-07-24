@@ -33,12 +33,10 @@
 *   **CAVE:** Hypothesis: Functions as a warp. Needs testing.
 *   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal. Needs testing.
 *   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal. Needs testing.
-*   **unknown:** Hypothesis: Impassable. Needs testing.
-*   **INCENSE_BURNER:** Hypothesis: Impassable object. Needs testing.
-*   **RADIO:** Hypothesis: Impassable object. May be interactable. Needs testing.
 
 # II. Reminders & Housekeeping
 *   **Data Hygiene:** Must mark all defeated trainers, new NPCs, and warps (both sides) immediately. Trust Game State Info over memory.
+*   **Marker Hygiene:** All moving NPCs MUST be marked with their `object_id` to ensure their markers track them. Static markers for moving objects are unreliable.
 
 # III. Badges & TMs
 *   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
@@ -47,11 +45,11 @@
 # IV. Goal-Oriented Planning
 
 ## A. Primary Goal: Find the next town and challenge its Gym Leader
-*   **Hypothesis:** The path forward is south or west out of Violet City.
+*   **Hypothesis:** The path forward is south out of Violet City.
 *   **Plan:**
-    1.  Fully explore Violet City to find the exit.
+    1.  Fully explore the southern section of Violet City to find the exit.
     2.  Use my newly-fixed `find_reachable_unseen_tiles` tool to guide exploration.
-    3.  Once the exit is found, proceed to the next route.
+    3.  Interact with any NPCs in the area for clues.
 
 # V. Future Plans & Ideas
 *   **Agent Idea:** Create an `exploration_strategist` agent that takes the output of `find_reachable_unseen_tiles` and suggests the most optimal tile to explore next based on current goals.
