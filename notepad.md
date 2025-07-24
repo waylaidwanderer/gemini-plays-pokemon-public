@@ -92,9 +92,3 @@
 - **`find_closest_unseen_tile`:** Deleted due to flawed logic.
 - **`boulder_puzzle_solver` (Turn 95239-95310):** Created and refined to solve boulder puzzles.
 - **Hole:** A tile that likely serves as a target for boulder puzzles, causing the boulder to drop to a lower floor.
-
-**New Strategy: Brute-Force Exploration**
-**Conclusion:** All tool-assisted and hypothesis-driven attempts to solve the southern boulder puzzle have failed. The current state is confirmed to be a dead end by all standard mechanics.
-**New Hypothesis:** A hidden, non-standard mechanic exists to resolve the puzzle from its current state.
-**Test Plan:** Systematically visit every reachable tile in the southern area and interact with all four adjacent walls/objects. I will track my progress here to ensure complete coverage.
-- **Search Grid:** (2,13)-(4,13), (1,14)-(3,14), (1,15)-(2,15), (4,16)-(6,16), (3,17)-(8,17), (7,18)-(10,18).
