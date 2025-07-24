@@ -97,3 +97,17 @@
 
 # V. Tool Development Backlog
 - **`gem_pathfinder` Bug:** The tool generates paths that transition from land to water even when the target is on land, causing movement to fail. It needs to be updated to handle land-only pathing correctly, possibly by adding a state for 'walking' vs 'surfing' or by disallowing land-to-water transitions when the final destination is on land.
+
+# VI. Victory Road 1F Navigation Log
+
+**Objective:** Solve the main boulder puzzle (boulder at (15,3), switch at (18,14)).
+
+**Attempt 1:** Used `boulder_puzzle_solver` from current position (7,12). 
+- **Outcome:** Failed. Tool could not find a path for the player to the boulder.
+- **Conclusion:** I am not in the correct area to solve the puzzle.
+
+**Attempt 2:** Used `gem_pathfinder` to navigate from (6,14) to (14,3) to get adjacent to the boulder.
+- **Outcome:** Failed. Tool reported 'path not found'.
+- **Conclusion:** The northern section is inaccessible from my current location on the lower west side.
+
+**New Hypothesis:** The steps at (8,8) will grant access to the central elevated platform, which connects to the northern puzzle area.
