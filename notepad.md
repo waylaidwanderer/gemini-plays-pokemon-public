@@ -53,7 +53,7 @@
 - **Misleading Battle Text:** On-screen text for move effectiveness can be incorrect. The actual damage calculation follows my verified type chart.
 - **Ground-Type Immunity Extension:** Ground-types are immune to Electric-type *status* moves (like THUNDER WAVE).
 - **Elixer Mechanic (Correction):** Elixers only restore PP, not HP.
-- **Delayed Game State Updates:** After solving a puzzle (e.g., a boulder puzzle), the map's traversability might not update visually or in the game state data until the player character moves. This can cause pathfinders to fail temporarily.
+- **Delayed Game State Updates:** After solving a puzzle (e.g., a boulder puzzle), the map's traversability might not update visually or in the game state data until the player character moves. This can be fixed by leaving and re-entering the map.
 
 # III. Future Plans & Lessons Learned
 
@@ -62,10 +62,7 @@
 
 # IV. Archives
 
-## A. Completed Puzzle Plans
-### Victory Road 1F Puzzle
-- **Objective:** Push the boulder from (13, 15) to the switch at (18, 14).
-- **Status:** Complete.
+## A. Archived Puzzle Solutions
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
 - **Status:** Complete.
@@ -76,8 +73,21 @@
 # V. Active Plans
 
 ## Victory Road 1F Puzzle
-- **Objective:** Solve the boulder puzzle using the archived plan and proceed to the ladder at (2, 2).
-- **Status:** In progress. Strength has been activated.
+- **Objective:** Push the boulder from (13, 15) to the switch at (18, 14).
+- **Plan:**
+  1. Move to (12, 15).
+  2. Push boulder at (13, 15) right to (14, 15). Player moves to (13, 15).
+  3. Push boulder at (14, 15) right to (15, 15). Player moves to (14, 15).
+  4. Push boulder at (15, 15) right to (16, 15). Player moves to (15, 15).
+  5. Push boulder at (16, 15) right to (17, 15). Player moves to (16, 15).
+  6. Move from (16, 15) to (17, 16). Path: Down, Right.
+  7. Push boulder at (17, 15) up to (17, 14). Player moves to (17, 15).
+  8. Push boulder at (17, 14) up to (17, 13). Player moves to (17, 14).
+  9. Move from (17, 14) to (16, 13). Path: Left, Up.
+  10. Push boulder at (17, 13) right to (18, 13). Player moves to (17, 13).
+  11. Move from (17, 13) to (18, 12). Path: Up, Right.
+  12. Push boulder at (18, 13) down to (18, 14). Player moves to (18, 13).
+- **Status:** In progress. Strength is active. Player is at (12, 15).
 
 # VI. Tool & Agent Development Ideas
 - **`brute_force_explorer` Fix:** The tool's internal pathfinder (`find_path_bfs`) is buggy and generated an invalid path, attempting to move into an impassable tile. It needs to be updated with the more robust traversal logic from `gem_pathfinder` before it can be used again.
