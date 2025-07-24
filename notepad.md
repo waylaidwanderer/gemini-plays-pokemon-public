@@ -38,6 +38,7 @@
 - **Level Cap:** The level cap with 8 badges is 65.
 - **Special NPC Interaction:** Certain puzzles may require walking *through* an NPC rather than interacting with them (e.g., Summer Beach House).
 - **Boulder Puzzle Mechanics:** Boulders cannot be pushed directly into standard `water` tiles. They must be pushed into `hole` tiles to affect lower floors.
+- **Pushing Boulders (Movement Anomaly):** Pushing a boulder does not always move the player character into the boulder's previous position. The player's position must be verified after every push.
 - **PC Tile Anomaly:** The tile for interacting with the Pokémon Center PC is sometimes labeled as `grass` in the map data, despite being indoors.
 
 # II. Battle Intel
