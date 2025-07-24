@@ -46,7 +46,6 @@
 
 # IV. Future Plans & Ideas
 *   **Agent Idea:** Create a `debugging_assistant` agent that can analyze faulty code and suggest fixes or debugging steps.
-*   **Agent Refinement Idea:** Refine the `battle_strategist` to provide more detailed switching advice, considering the entire party's composition and the opponent's likely moves.
 
 # V. Reflection Log (Turn 3866)
 
