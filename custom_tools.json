@@ -124,6 +124,16 @@
         "commit_message": "fix: Add 'boulder_switch' to the list of traversable tiles. The pathfinder was incorrectly treating boulder switches as impassable, causing it to fail to find valid paths in puzzle areas like Victory Road. This critical fix adds 'boulder_switch' to the `traversable_walking` list, restoring the tool's ability to navigate these areas correctly.",
         "timestamp": "2025-07-24T00:36:31.135Z",
         "action_counter": 96547
+      },
+      {
+        "commit_message": "fix: Prevent land-to-water pathing for land-based targets. The tool was generating invalid paths by allowing transitions from land to water even when the final destination was on land. This commit adds a check to only permit land-to-water transitions if the target is not on a land tile, preventing the tool from creating routes that require unnecessary surfing.",
+        "timestamp": "2025-07-24T09:36:40.634Z",
+        "action_counter": 97501
+      },
+      {
+        "commit_message": "fix: Revert faulty land-to-water pathing restriction. The previous commit prevented the tool from finding paths that required crossing water to connect two landmasses, such as on Route 23. This commit removes the `is_target_on_land` check, restoring the tool's ability to correctly explore all valid surf transitions and find the optimal path.",
+        "timestamp": "2025-07-24T09:42:16.339Z",
+        "action_counter": 97507
       }
     ]
   },

@@ -1,6 +1,10 @@
 # I. Game Mechanics & World Rules
 
 ## A. Tile Mechanics & Traversal
+- **Ground:** Standard walkable tile.
+- **Grass:** Walkable tile where wild Pokémon can be encountered.
+- **Water:** Can be crossed using the SURF HM.
+- **Impassable:** Walls, trees, and other objects that block movement.
 - **Elevated Ground:** Walkable ground at a different elevation. Cannot use Surf from this tile type.
 - **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close.
 - **Boulder Switch:** A floor switch activated by a boulder. Is a traversable tile.
@@ -51,7 +55,15 @@
 - **Elixer Mechanic (Correction):** Elixers only restore PP, not HP.
 - **Delayed Game State Updates:** After solving a puzzle (e.g., a boulder puzzle), the map's traversability might not update visually or in the game state data until the player character moves. This can cause pathfinders to fail temporarily.
 
-# III. Archives
+# III. Future Plans & Lessons Learned
+
+## A. Tool Development Pipeline
+- **Pathfinder Debugger Tool:** Create a new tool (`pathfinder_debugger`) that takes the same inputs as `gem_pathfinder` but instead of a path, it outputs a detailed, step-by-step log of the A* algorithm's execution. This will help diagnose failures by showing which nodes are being explored, which are being discarded, and why.
+
+## B. Core Gameplay Lessons
+- **Immediate Tool Refinement:** Deferring fixes for critical tools like the pathfinder is a major strategic error. Faulty tools must be addressed immediately, as they are foundational to efficient gameplay. I wasted significant time manually pathing and retrying because I didn't fix the tool right away.
+
+# IV. Archives
 
 ## A. Completed Puzzle Plans
 ### Victory Road 1F Puzzle
