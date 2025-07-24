@@ -71,3 +71,8 @@
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
+
+## Victory Road 1F Puzzle Plan
+- **Objective:** Push the boulder at (6, 16) to the switch at (18, 14).
+- **Hypothesis:** This will clear the boulder barrier at (10, 13) and open the path to the ladder leading to 2F.
+- **Method:** Use the `boulder_puzzle_solver` to calculate the optimal move sequence.
