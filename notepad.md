@@ -43,18 +43,11 @@
 *   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
 *   **TM31 (Mud-Slap):** Received from Falkner. A Ground-type move that damages the opponent and lowers their accuracy. It can only be used once.
 
-# IV. Goal-Oriented Planning
-
-## A. Primary Goal: Travel south to find the next town and its Gym Leader
-*   **Plan:**
-    1.  Exit Violet City to the south.
-    2.  Explore the new route.
-    3.  Look for signs or NPCs that indicate the way to the next town.
-
-# V. Future Plans & Ideas
+# IV. Future Plans & Ideas
 *   **Agent Idea:** Create a `debugging_assistant` agent that can analyze faulty code and suggest fixes or debugging steps.
+*   **Agent Idea:** Create a `switch_advisor` agent that provides detailed recommendations on which Pokémon to switch to during battle, going beyond the simple 'PKMN' action suggestion from the `battle_strategist`.
 
-# VI. Battle Information
+# V. Battle Information
 
 ## A. Verified Type Matchups
 *   Ghost-type Pokémon are immune to Normal-type moves.
