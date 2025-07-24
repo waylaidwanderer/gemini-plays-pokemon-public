@@ -25,7 +25,7 @@
 - **PC Tile Anomaly:** The tile for interacting with the Pokémon Center PC is sometimes labeled as `grass` in the map data, despite being indoors.
 
 ## C. Puzzle Mechanics
-- **Delayed Boulder Barrier Opening:** The barriers on both Victory Road 1F and 2F do not open immediately after the corresponding switch is activated. The change triggers after moving a certain distance away from the puzzle area.
+- **Delayed Boulder Barrier Opening:** The barriers on Victory Road 1F, 2F, and 3F do not open immediately after the corresponding switch is activated. The change triggers after moving a certain distance away from the puzzle area.
 
 # II. Battle Intel
 
@@ -50,12 +50,9 @@
   - CHANSEY: Double-Edge, Mega Punch
   - EEVEE: Jump Kick
 
-# III. Active Plans & Puzzles
-### Victory Road 3F Puzzles
-- **Hypothesis:** This floor also uses the delayed barrier-opening mechanic.
-- **Test:** Solve the boulder puzzles and observe if the corresponding barriers open immediately or only after moving away.
-- **Eastern Puzzle:** Push boulder from (23, 4) to switch at (23, 7).
-- **Western Puzzle:** The hole at (14, 15) does not exist. The purpose of this boulder is currently unknown. The boulder has been moved from (14, 13) to (14, 14).
+# III. Active Plans
+- **Current Objective:** Defeat or capture the legendary Pokémon Moltres on Victory Road 2F.
+- **Next Step:** Use Rock Slide with CRAG to deal super-effective damage.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
@@ -77,3 +74,7 @@
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (4, 17) to the switch at (2, 17).
 - **Status:** Complete. Barrier at (8, 9) opens with delay.
+
+### Victory Road 3F Puzzle
+- **Objective:** Solve the floor's puzzle to proceed.
+- **Solution:** The puzzles on this floor were a red herring. The true path forward was a secret, unmarked ladder at (3, 1) discovered by exploring an unseen tile. This ladder leads to a new area of Victory Road 2F.
