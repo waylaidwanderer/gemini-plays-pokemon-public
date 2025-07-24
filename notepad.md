@@ -82,8 +82,8 @@
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
 
-## Victory Road 1F Puzzle - Boulder at (6, 16) - Solution Execution
-- **Objective:** Push the boulder from (6, 16) to the switch at (18, 14).
-- **Status:** Executing step-by-step plan from `boulder_puzzle_solver`.
-- **Plan:** `[[5, 15], [6, 15], "Down", [5, 15], [5, 16], [5, 17], "Right", [6, 17], "Right", [7, 17], "Right", [8, 17], "Right", [8, 18], [9, 18], [10, 18], "Up", [10, 17], "Up", [9, 17], [9, 16], [9, 15], "Right", [10, 15], "Right", [11, 15], "Right", [12, 15], "Right", [13, 15], "Right", [14, 15], "Right", [15, 15], "Right", [15, 16], [16, 16], [17, 16], "Up", [17, 15], "Up", [16, 15], [15, 15], [15, 14], [15, 13], [16, 13], "Right", [16, 12], [17, 12], [18, 12], "Down"]`
-- **Current Step:** Push "Right".
+## Victory Road 1F Puzzle - Boulder at (6, 16)
+- **Objective:** Push the boulder from its current position to the switch at (18, 14).
+- **Status:** Puzzle in progress. The pre-calculated plan from the solver seems to have diverged from the actual game state. Proceeding with logical step-by-step moves instead.
+- **Current State:** Player at (7, 17), Boulder at (9, 17).
+- **Next Logical Step:** Move to (8, 17) to prepare to push the boulder right.
