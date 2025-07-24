@@ -26,6 +26,7 @@
 
 ## C. Puzzle Mechanics
 - **Delayed Boulder Barrier Opening:** Some boulder barriers may not open immediately after the corresponding switch is activated. The change might only trigger after moving a certain distance away from the switch/barrier area. (Observed in Victory Road 1F)
+- **Immediate Boulder Barrier Opening:** Unlike the puzzle on 1F, the barrier on Victory Road 2F opens immediately upon solving the corresponding boulder puzzle. (Observed in Victory Road 2F)
 
 # II. Battle Intel
 
@@ -51,7 +52,10 @@
   - EEVEE: Jump Kick
 
 # III. Active Plans & Puzzles
-*(None at the moment)*
+### Victory Road 2F Puzzle
+- **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
+- **Plan:** `[{"action": "move", "target": [1, 10]}, {"action": "move", "target": [2, 10]}, {"action": "move", "target": [2, 11]}, {"action": "move", "target": [2, 12]}, {"action": "move", "target": [3, 12]}, {"action": "move", "target": [3, 13]}, {"action": "move", "target": [3, 14]}, {"action": "move", "target": [4, 14]}, {"action": "move", "target": [5, 14]}, {"action": "push", "direction": "Down"}, {"action": "move", "target": [5, 15]}, {"action": "move", "target": [6, 15]}, {"action": "move", "target": [6, 16]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [5, 16]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [4, 16]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [4, 15]}, {"action": "move", "target": [3, 15]}, {"action": "move", "target": [2, 15]}, {"action": "push", "direction": "Down"}]`
+- **Current Step:** `{"action": "move", "target": [6, 16]}`
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
@@ -74,9 +78,3 @@
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
-
-### Victory Road 2F Puzzle
-- **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
-- **Plan:** `[{"action": "move", "target": [1, 10]}, {"action": "move", "target": [2, 10]}, {"action": "move", "target": [2, 11]}, {"action": "move", "target": [2, 12]}, {"action": "move", "target": [3, 12]}, {"action": "move", "target": [3, 13]}, {"action": "move", "target": [3, 14]}, {"action": "move", "target": [4, 14]}, {"action": "move", "target": [5, 14]}, {"action": "push", "direction": "Down"}, {"action": "move", "target": [5, 15]}, {"action": "move", "target": [6, 15]}, {"action": "move", "target": [6, 16]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [5, 16]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [4, 16]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [4, 15]}, {"action": "move", "target": [3, 15]}, {"action": "move", "target": [2, 15]}, {"action": "push", "direction": "Down"}]`
-- **Current Step:** `{"action": "move", "target": [6, 15]}`
-- **Immediate Boulder Barrier Opening:** Unlike the puzzle on 1F, the barrier on Victory Road 2F opens immediately upon solving the corresponding boulder puzzle. (Observed in Victory Road 2F)
