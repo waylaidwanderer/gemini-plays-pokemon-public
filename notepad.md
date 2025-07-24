@@ -54,13 +54,11 @@
 - **Objective:** Re-enter Victory Road and solve the multi-floor puzzle from a fresh, reset state.
 - **Status:** Currently on 1F. Puzzles are reset.
 
-## Victory Road 1F Puzzle - Boulder at (6, 16)
-- **Objective:** Push the boulder from (6, 16) to the switch at (18, 14).
-- **Status:** **FAILED.** The `boulder_puzzle_solver` tool failed to find a solution after multiple fixes and debug attempts (5+ failures). This puzzle may be a red herring or require a different approach. Abandoning for now.
-
-## Victory Road 1F - Boulder at (3, 11)
-- **Objective:** Investigate the boulder at (3, 11).
-- **Status:** Pushed boulder from (3, 11) to (3, 10). This appears to be a red herring, as it does not open any paths or trigger any switches. The boulder is now stuck. Abandoning this puzzle.
+## Victory Road 1F Puzzle - Boulder at (15, 15)
+- **Objective:** Push the boulder from (15, 15) to the switch at (18, 14).
+- **Status:** In progress. Following a structured plan from the `boulder_puzzle_solver` tool.
+- **Plan:** `[{"action": "push", "direction": "Right"}, {"action": "move", "target": [15, 15]}, {"action": "push", "direction": "Right"}, {"action": "move", "target": [15, 16]}, {"action": "move", "target": [16, 16]}, {"action": "move", "target": [17, 16]}, {"action": "push", "direction": "Up"}, {"action": "move", "target": [17, 15]}, {"action": "push", "direction": "Up"}, {"action": "move", "target": [16, 15]}, {"action": "move", "target": [15, 15]}, {"action": "move", "target": [15, 14]}, {"action": "move", "target": [15, 13]}, {"action": "move", "target": [16, 13]}, {"action": "push", "direction": "Right"}, {"action": "move", "target": [16, 12]}, {"action": "move", "target": [17, 12]}, {"action": "move", "target": [18, 12]}, {"action": "push", "direction": "Down"}]`
+- **Current Step:** `{"action": "push", "direction": "Right"}`
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
