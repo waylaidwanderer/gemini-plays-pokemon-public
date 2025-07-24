@@ -25,8 +25,7 @@
 - **PC Tile Anomaly:** The tile for interacting with the Pokémon Center PC is sometimes labeled as `grass` in the map data, despite being indoors.
 
 ## C. Puzzle Mechanics
-- **Delayed Boulder Barrier Opening:** Some boulder barriers may not open immediately after the corresponding switch is activated. The change might only trigger after moving a certain distance away from the switch/barrier area. (Observed in Victory Road 1F)
-- **Immediate Boulder Barrier Opening:** Unlike the puzzle on 1F, the barrier on Victory Road 2F opens immediately upon solving the corresponding boulder puzzle. (Observed in Victory Road 2F)
+- **Delayed Boulder Barrier Opening:** The barriers on both Victory Road 1F and 2F do not open immediately after the corresponding switch is activated. The change triggers after moving a certain distance away from the puzzle area.
 
 # II. Battle Intel
 
@@ -52,7 +51,14 @@
   - EEVEE: Jump Kick
 
 # III. Active Plans & Puzzles
-- No active plans. My next objective is to navigate to the ladder to Victory Road 3F at (24, 8).
+### Victory Road 2F Navigation
+- **Hypothesis:** The barrier at (8, 9) and (8, 10) will open after moving away from the puzzle area.
+- **Plan:** 
+  1. Navigate to the steps at (6, 11).
+  2. Ascend to the western elevated platform.
+  3. Walk east towards the barrier to check if it has opened.
+  4. If open, cross to the eastern platform and proceed to the ladder at (24, 8).
+- **Current Step:** Move to the steps at (6, 11).
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
@@ -70,7 +76,6 @@
 ### Victory Road 1F Puzzle
 - **Objective:** Push the boulder from (17, 13) to the switch at (18, 14).
 - **Status:** Complete.
-- **Solution Note:** Activating the switch does not immediately open the barrier at (10, 13). The barrier opens after moving away from the puzzle area.
 
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
@@ -79,4 +84,3 @@
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (4, 17) to the switch at (2, 17).
 - **Status:** Complete.
-- **Solution Note:** Opens the barrier at (8, 9) and (8, 10), connecting the two elevated platforms.
