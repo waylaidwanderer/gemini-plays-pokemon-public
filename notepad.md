@@ -8,10 +8,11 @@
 *   **FLOOR:** Fully traversable.
 *   **TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
 *   **DOOR:** Functions as a two-way warp.
-*   **WARP_CARPET_DOWN:** Functions as a two-way warp.
+*   **WARP_CARPET_DOWN:** Functions as a warp. Requires pressing 'Down' on the tile to activate.
 *   **WARP_CARPET_LEFT:** Functions as a two-way warp.
 *   **WARP_CARPET_RIGHT:** Functions as a two-way warp.
 *   **CAVE:** Functions as a warp.
+*   **LADDER:** Functions as a two-way warp between floors.
 
 ### Confirmed Impassable:
 *   **WALL:** Impassable.
@@ -33,7 +34,6 @@
 *   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal, only enterable from the left. Test: Attempt to move left from it.
 *   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal, only enterable from the right. Test: Attempt to move right from it.
 *   **WATER:** Hypothesis: Impassable without HM Surf. Test: Walk up to it and try to move onto it / press A. (Status: Untested)
-*   **LADDER:** Functions as a two-way warp between floors.
 
 # II. Battle Information
 
@@ -45,6 +45,7 @@
 *   **TM31 (Mud-Slap):** Received from Falkner. A Ground-type move that damages the opponent and lowers their accuracy. It can only be used once.
 
 # IV. Future Plans & Ideas
+*   **Agent Idea:** Create a `goal_deconstructor` agent to break down high-level goals into smaller, navigable steps.
 *   **Agent Idea:** Create a `debugging_assistant` agent that can analyze faulty code and suggest fixes or debugging steps.
 *   **Agent Idea:** Create a `pokedex_advisor` agent to suggest catching priorities for better team composition and type coverage.
 *   **Team Composition:** Use `team_composition_advisor` before the next major battle.
@@ -53,8 +54,5 @@
 
 ## A. Untested Assumptions
 *   **Primary Assumption:** The path south on Route 32 leads directly to the next town.
-*   **Alternative Hypothesis:** The path could lead to a different area, like the Union Cave, or be a long route with many trainers before reaching a town.
-*   **Test:** Continue exploring the southern path. The outcome will validate or invalidate the assumption.
-*   **Secondary Assumption:** The Poke Ball at (6, 53) contains a valuable item.
-*   **Alternative Hypothesis:** It could be a common item like a Potion or Poke Ball.
-*   **Test:** Find a path to the item and retrieve it. This is currently blocked.
+*   **Alternative Hypothesis:** The path could lead to a different area, or be blocked by an item/event requirement. The `CUT_TREE` at (10, 19) could block an alternate path.
+*   **Test:** Explore all reachable paths on Route 32. Interact with all NPCs. Attempt to walk past the `CUT_TREE`.
