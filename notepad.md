@@ -52,10 +52,7 @@
 
 ## Victory Road 1F Puzzle - Boulder at (15, 15)
 - **Objective:** Push the boulder from (15, 15) to the switch at (18, 14).
-- **Status:** In progress. Following a structured plan from the `boulder_puzzle_solver` tool.
-- **Plan:** `[{"action": "move", "target": [15, 16]}, {"action": "move", "target": [15, 15]}, {"action": "move", "target": [15, 16]}, {"action": "move", "target": [15, 16]}, {"action": "move", "target": [16, 16]}, {"action": "move", "target": [17, 16]}, {"action": "push", "direction": "Up"}, {"action": "move", "target": [17, 15]}, {"action": "push", "direction": "Up"}, {"action": "move", "target": [16, 15]}, {"action": "move", "target": [15, 15]}, {"action": "move", "target": [15, 14]}, {"action": "move", "target": [15, 13]}, {"action": "move", "target": [16, 13]}, {"action": "move", "target": [15, 16]}, {"action": "move", "target": [16, 12]}, {"action": "move", "target": [17, 12]}, {"action": "move", "target": [18, 12]}, {"action": "push", "direction": "Down"}]`
-- **Current Step:** `{"action": "move", "target": [16, 16]}`
-- **Current Step:** `{"action": "move", "target": [16, 16]}`
+- **Status:** The `boulder_puzzle_solver` tool is flawed and generated an impossible plan. My top priority is to fix this tool before proceeding.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
