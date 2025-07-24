@@ -69,3 +69,4 @@
 
 # VII. New Discoveries & Lessons
 *   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
+*   **Agent Idea:** Create a `debug_log_analyzer` to parse large debug outputs and identify the root cause of tool failures.
