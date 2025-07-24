@@ -1,8 +1,13 @@
+# I. Game Mechanics & World Rules
+
+## A. Tile Mechanics & Traversal
 - **Elevated Ground:** Walkable ground at a different elevation. Cannot use Surf from this tile type.
 - **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close.
 - **Boulder Switch:** A floor switch activated by a boulder. Is a traversable tile.
 - **Boulder Barrier:** An impassable barrier that becomes a `cleared_boulder_barrier` tile when the corresponding switch is activated.
 - **Cleared Boulder Barrier (Corrected):** Functions as a one-way ramp. It can only be entered from a `steps` tile when moving from `ground` to `elevated_ground`. It is impassable from adjacent `ground` tiles and cannot be used to move down from `elevated_ground` to `ground`.
+- **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
+- **Ladders (`ladder_up`, `ladder_down`):** Function as warps between different floors or map areas.
 
 ## B. General Rules & Heuristics
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
@@ -33,6 +38,7 @@
 - **Misleading Battle Text:** On-screen text for move effectiveness can be incorrect. The actual damage calculation follows my verified type chart.
 - **Ground-Type Immunity Extension:** Ground-types are immune to Electric-type *status* moves (like THUNDER WAVE).
 - **Elixer Mechanic (Correction):** Elixers only restore PP, not HP.
+- **Delayed Game State Updates:** After solving a puzzle (e.g., a boulder puzzle), the map's traversability might not update visually or in the game state data until the player character moves. This can cause pathfinders to fail temporarily.
 
 # III. World Navigation & Puzzles
 
@@ -70,11 +76,8 @@
 # IV. Agent & Tool Development
 
 ## A. Future Development Ideas
-- **Puzzle Executor Agent:** Create an agent to take a `boulder_puzzle_solver` solution and generate the full sequence of button presses to execute it automatically, including menuing to reactivate Strength. This would automate tedious, repetitive puzzle-solving.
+- **Puzzle Executor Tool:** Create a tool to take a `boulder_puzzle_solver` solution and generate the full sequence of button presses to execute it automatically, including menuing to reactivate Strength. This would automate tedious, repetitive puzzle-solving.
 - **Pokedex Analysis (Review):** Review `team_composition_advisor_agent` capabilities before creating a new Pokedex agent to avoid redundancy.
 
 ## B. Development Backlog
 *No outstanding bugs. All tools are currently functional.*
-
-## C. Tile Mechanics & Traversal
-- **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
