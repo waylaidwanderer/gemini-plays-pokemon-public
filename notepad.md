@@ -78,5 +78,5 @@
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
 - **Plan:** `[{"action": "move", "target": [1, 10]}, {"action": "move", "target": [2, 10]}, {"action": "move", "target": [2, 11]}, {"action": "move", "target": [2, 12]}, {"action": "move", "target": [3, 12]}, {"action": "move", "target": [3, 13]}, {"action": "move", "target": [3, 14]}, {"action": "move", "target": [4, 14]}, {"action": "move", "target": [5, 14]}, {"action": "push", "direction": "Down"}, {"action": "move", "target": [5, 15]}, {"action": "move", "target": [6, 15]}, {"action": "move", "target": [6, 16]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [5, 16]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [4, 16]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [4, 15]}, {"action": "move", "target": [3, 15]}, {"action": "move", "target": [2, 15]}, {"action": "push", "direction": "Down"}]`
-- **Current Step:** `{"action": "push", "direction": "Down"}`
+- **Current Step:** `{"action": "move", "target": [5, 15]}`
 - **Immediate Boulder Barrier Opening:** Unlike the puzzle on 1F, the barrier on Victory Road 2F opens immediately upon solving the corresponding boulder puzzle. (Observed in Victory Road 2F)
