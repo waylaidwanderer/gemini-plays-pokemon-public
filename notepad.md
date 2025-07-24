@@ -78,3 +78,11 @@
     *   **Test:** Pressed 'B' after arranging all pieces.
     *   **Result:** The puzzle interface closed, returning me to the chamber. The puzzle was not marked as solved.
     *   **Conclusion:** The puzzle is either optional, or the solution is not simply arranging the pieces. Abandoning the puzzle to explore other paths.
+
+# VIII. Custom Tools & Agents
+*   **find_reachable_unseen_tiles:** Finds all unseen tiles that are reachable from the player's current position.
+*   **kabuto_puzzle_solver:** Solves the Ruins of Alph Kabuto puzzle from a raw grid input.
+*   **battle_strategist:** Recommends the best action in a battle.
+*   **team_composition_advisor:** Recommends a team composition for a specific opponent type.
+*   **script_debugger:** Analyzes faulty Python scripts and provides debugging plans.
+*   **exploration_strategist:** Recommends the next best tile to explore based on the primary goal.
