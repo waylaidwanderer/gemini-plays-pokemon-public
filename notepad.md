@@ -82,3 +82,6 @@
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
+### Victory Road 1F Puzzle (In Progress)
+- **Objective:** Reach the ladder to 2F at (2, 2).
+- **Status:** Successfully pushed the boulder at (3, 11) to (3, 10), clearing the initial blockage.
