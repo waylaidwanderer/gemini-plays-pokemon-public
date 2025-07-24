@@ -63,3 +63,6 @@
 
 ## B. Tile Traversal Test Results
 *   **FLOOR_UP_WALL at (11, 34):** Test: Moved down from (11, 33). Result: Movement blocked. Conclusion: Impassable from above. This partially confirms the one-way hypothesis.
+
+# VI. Phone Calls & Side Quests
+*   Wade called and offered to share BERRIES. He is waiting on Route 31.
