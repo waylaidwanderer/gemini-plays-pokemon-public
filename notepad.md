@@ -47,7 +47,7 @@
 
 # IV. Future Plans & Ideas
 *   **Agent Idea:** Create a `goal_deconstructor` agent to break down high-level goals into smaller, navigable steps.
-*   **Agent Idea:** Create a `debugging_assistant` agent that can analyze faulty code and suggest fixes or debugging steps.
+
 *   **Agent Idea:** Create a `pokedex_advisor` agent to suggest catching priorities for better team composition and type coverage.
 *   **Team Composition:** Use `team_composition_advisor` before the next major battle (Bugsy).
 
