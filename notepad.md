@@ -11,6 +11,7 @@
 *   **WARP_CARPET_DOWN:** Functions as a two-way warp.
 *   **WARP_CARPET_LEFT:** Functions as a two-way warp.
 *   **WARP_CARPET_RIGHT:** Functions as a two-way warp.
+*   **CAVE:** Functions as a warp.
 
 ### Confirmed Impassable:
 *   **WALL:** Impassable.
@@ -27,12 +28,11 @@
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
 *   **FLOOR_UP_WALL:** One-way traversal. Can only be entered from below (impassable from above).
+*   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
+*   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
 
 ### Hypotheses to Test:
 *   **WATER:** Hypothesis: Impassable without HM Surf.
-*   **CAVE:** Hypothesis: Functions as a warp. Needs testing.
-*   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal. Needs testing.
-*   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal. Needs testing.
 
 # II. Reminders & Housekeeping
 *   **Data Hygiene:** Must mark all defeated trainers, new NPCs, and warps (both sides) immediately. Trust Game State Info over memory.
@@ -45,11 +45,12 @@
 # IV. Goal-Oriented Planning
 
 ## A. Primary Goal: Find the next town and challenge its Gym Leader
-*   **Hypothesis:** The path forward is south out of Violet City.
+*   **Hypothesis:** The path forward is south on Route 31.
 *   **Plan:**
-    1.  Fully explore the southern section of Violet City to find the exit.
-    2.  Use my newly-fixed `find_reachable_unseen_tiles` tool to guide exploration.
-    3.  Interact with any NPCs in the area for clues.
+    1.  Fully explore Route 31 to find the connection to the main area.
+    2.  Use my `find_reachable_unseen_tiles` and `exploration_strategist` tools once in the main area.
+    3.  Interact with any new NPCs for clues.
 
 # V. Future Plans & Ideas
 *   **Agent Idea:** Create an `exploration_strategist` agent that takes the output of `find_reachable_unseen_tiles` and suggests the most optimal tile to explore next based on current goals.
+*   **Agent Idea:** Create a `debugging_assistant` agent that can analyze faulty code and suggest fixes or debugging steps.
