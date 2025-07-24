@@ -25,16 +25,15 @@
 *   **BOOKSHELF:** Impassable. Functions as an object that can be interacted with for text.
 *   **BLACKBOARD:** Impassable. Functions as an object that can be interacted with for text.
 *   **MART_SHELF:** Impassable. Functions as a wall.
+*   **WATER:** Confirmed impassable. Blocks movement entirely.
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
+*   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
 
 ### Hypotheses to Test:
-*   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
 *   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal, only enterable from the left. Test: Attempt to move left from it.
 *   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal, only enterable from the right. Test: Attempt to move right from it.
-*   **WATER:** Confirmed impassable. Blocks movement entirely.
-*   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
 
 # II. Battle Information
 
@@ -49,7 +48,7 @@
 *   **Agent Idea:** Create a `goal_deconstructor` agent to break down high-level goals into smaller, navigable steps.
 *   **Agent Idea:** Create a `debugging_assistant` agent that can analyze faulty code and suggest fixes or debugging steps.
 *   **Agent Idea:** Create a `pokedex_advisor` agent to suggest catching priorities for better team composition and type coverage.
-*   **Team Composition:** Use `team_composition_advisor` before the next major battle.
+*   **Team Composition:** Use `team_composition_advisor` before the next major battle (Bugsy).
 
 # V. Reflection Log
 
@@ -62,11 +61,5 @@
 *   **Agent Usage:** I must use the `team_composition_advisor` before the next significant trainer battle to test its effectiveness.
 *   **Untested Assumption:** The southern exit of Union Cave is the correct path to Azalea Town. An alternative hypothesis is that the true path is via the currently inaccessible western section or the unexplored ladder. I will test this by continuing south, and if that path is blocked, I will need to find another way into the western part of the cave.
 
-## B. Tile Traversal Test Results
-*   **FLOOR_UP_WALL at (11, 34):** Test: Moved down from (11, 33). Result: Movement blocked. Conclusion: Impassable from above. This partially confirms the one-way hypothesis.
-
 # VI. Phone Calls & Side Quests
 *   Wade called and offered to share BERRIES. He is waiting on Route 31.
-
-# VII. Agent Usage Reminders
-*   **Team Composition:** Use `team_composition_advisor` before the next major battle (Bugsy).
