@@ -75,8 +75,14 @@
 - **Immediate Tool Refinement:** Deferring fixes for critical tools like the pathfinder is a major strategic error. Faulty tools must be addressed immediately.
 - **Trust Tool Outputs:** Deviating from a valid, tool-generated plan can lead to soft-locks and wasted time. I must trust my solver's output and follow its steps precisely.
 - **Archived Puzzle Solutions:** Puzzles can reset upon re-entering a map. Archived solutions may be outdated. Always observe the current state of a puzzle before acting.
+- **Trust the Game State:** My own assumptions about my position or game mechanics can be wrong. The Game State Information is the absolute source of truth and must be trusted over my memory or intuition.
+- **Break Unproductive Loops:** If a strategy fails repeatedly (e.g., getting interrupted by wild battles), it's better to change the approach or goal than to persist in an inefficient loop.
+- **Confirmation Bias:** I must be wary of trying to prove my own assumptions right. It's important to trust system warnings and evidence that contradicts my beliefs.
 
-# V. Archives
+# V. Tool/Agent Development Ideas
+- **`plan_executor_agent`:** An agent that takes a multi-step plan from the notepad and outputs the next single action. This would help manage complex sequences without losing track.
+
+# VI. Archives
 
 ## A. Archived Puzzle Solutions
 ### Victory Road 1F Puzzle (Initial)
