@@ -52,7 +52,7 @@
 
 # III. Active Plans
 - **Current Objective:** Navigate Victory Road 3F and find the exit to the Indigo Plateau.
-- **Next Step:** Take the ladder at (24, 8) to return to Victory Road 2F and find the main path forward.
+- **Next Step:** Explore the eastern section of Victory Road 2F to find the path to the Indigo Plateau.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
