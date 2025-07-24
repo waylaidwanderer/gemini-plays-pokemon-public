@@ -72,3 +72,10 @@
 ### Victory Road 3F Puzzle
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
+
+# IV. Archives
+
+## A. Completed Puzzle Plans
+### Victory Road 1F Puzzle
+- **Objective:** Push the boulder from (10, 15) to the switch at (18, 14).
+- **Status:** Complete.
