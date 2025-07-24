@@ -117,3 +117,9 @@
 - **Conclusion:** The southern entrance area is isolated from the northern puzzle area.
 
 **New Hypothesis:** The steps at (8,8) will grant access to the central elevated platform, which connects to the northern puzzle area.
+
+**Attempt 4:** Re-entered Victory Road 1F from the main entrance at (9,18). Used `gem_pathfinder` to navigate to (14,3) to access the northern boulder puzzle.
+- **Outcome:** Failed. System warning confirmed the target is unreachable from my current location.
+- **Conclusion:** The southern entrance area is completely isolated from the northern puzzle area.
+
+**New Hypothesis:** The isolated southern area has its own puzzle involving the boulders at (3,11) and (6,16). Solving this puzzle will likely open the path to the ladder at (2,2), which leads to Victory Road 2F.
