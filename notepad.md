@@ -5,7 +5,7 @@
 - **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close.
 - **Boulder Switch:** A floor switch activated by a boulder. Is a traversable tile.
 - **Boulder Barrier:** An impassable barrier that becomes a `cleared_boulder_barrier` tile when the corresponding switch is activated.
-- **Cleared Boulder Barrier (Corrected):** A traversable ground tile that appears after a boulder puzzle is solved. It allows movement between different elevations, acting like a ramp.
+- **Cleared Boulder Barrier:** A traversable ground tile that appears after a boulder puzzle is solved. It allows movement between different elevations, acting like a ramp.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
 - **Ladders (`ladder_up`, `ladder_down`):** Function as warps between different floors or map areas.
 
@@ -27,7 +27,7 @@
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting.
 - **Type Correction (Psychic vs. Rock):** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon, not 'not very effective' as previously assumed.
 
-## B. Current Trainer Rosters & Movesets
+## B. Known Trainer Rosters & Movesets
 
 ### Cool Trainer M (Victory Road 3F)
 - **Location:** (29, 6)
@@ -43,27 +43,12 @@
 # III. World Navigation & Puzzles
 
 ## A. Archived Puzzle Plans
-### Victory Road 2F Puzzle (Completed)
-- **Objective:** Solve a boulder puzzle to clear the barriers at (8, 9) and (8, 10).
-- **Status:** Complete.
 ### Victory Road 1F Puzzle (Completed)
-- **Objective:** Push the boulder from its current position to the switch at (18, 14). This will clear the boulder barrier at (10, 13) and open the path to the next floor.
-- **Method:** I must reactivate Strength from the party menu before every individual push.
-- **Solver Plan:**
-  1. Push boulder at (10, 15) right to (11, 15). **(Complete)**
-  2. Push boulder at (11, 15) right to (12, 15). **(Complete)**
-  3. Push boulder at (12, 15) right to (13, 15). **(Complete)**
-  4. Push boulder at (13, 15) right to (14, 15). **(Complete)**
-  5. Push boulder at (14, 15) right to (15, 15). **(Complete)**
-  6. Push boulder at (15, 15) right to (16, 15). **(Complete)**
-  7. Push boulder at (16, 15) right to (17, 15). **(Complete)**
-  8. Move to (17, 16). **(Complete)**
-  9. Push boulder at (17, 15) up to (17, 14). **(Complete)**
-  10. Push boulder at (17, 14) up to (17, 13). **(Complete)**
-  11. Move to (16, 13). **(Complete)**
-  12. Push boulder at (17, 13) right to (18, 13). **(Complete)**
-  13. Move to (18, 12). **(Complete)**
-  14. Push boulder at (18, 13) down to (18, 14). **(Complete)**
+- **Objective:** Push the boulder from (10, 15) to the switch at (18, 14).
+- **Status:** Complete.
+### Victory Road 2F Puzzle (Completed)
+- **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
+- **Status:** Complete.
 
 # IV. Agent & Tool Development
 
