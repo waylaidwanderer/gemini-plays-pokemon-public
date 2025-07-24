@@ -37,7 +37,6 @@
 # II. Reminders & Housekeeping
 *   **Data Hygiene:** Must mark all defeated trainers, new NPCs, and warps (both sides) immediately. Trust Game State Info over memory.
 *   **Marker Hygiene:** All moving NPCs MUST be marked with their `object_id`.
-*   **HIGH PRIORITY To-Do:** Revisit Violet City and update all NPC markers (Super Nerd, Gramps, Fisher, Youngster, Lass) to link them with their `object_id`.
 
 # III. Badges & TMs
 *   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
