@@ -11,7 +11,7 @@
 *   **DOOR:** Functions as a two-way warp.
 *   **WARP_CARPET_DOWN:** Functions as a two-way warp.
 *   **WARP_CARPET_LEFT:** Functions as a two-way warp.
-*   **WARP_CARPET_RIGHT:** Functions as a two-way warp. 
+*   **WARP_CARPET_RIGHT:** Functions as a two-way warp.
 
 ### Confirmed Impassable:
 *   **WALL:** Impassable.
@@ -32,15 +32,14 @@
 *   **WATER:** Hypothesis: Impassable without HM Surf.
 *   **CAVE:** Hypothesis: Functions as a warp. Needs testing to see if it's one-way or two-way.
 *   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal. Needs testing.
+*   **unknown:** Hypothesis: Impassable. Needs testing.
+*   **INCENSE_BURNER:** Hypothesis: Impassable object. Needs testing.
+*   **RADIO:** Hypothesis: Impassable object. May be interactable. Needs testing.
 
 # II. Reminders & Housekeeping
 *   **Systematic Testing:** Must test all unknown tile mechanics immediately upon entering a new area.
-*   **Trainer Marking:** Must mark all defeated trainers with '☠️' immediately after battle.
+*   **Data Hygiene:** Must mark all defeated trainers, new NPCs, and warps (both sides) immediately. Trust Game State Info over memory.
 
 # III. Badges & TMs
 *   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
 *   **TM31 (Mud-Slap):** Received from Falkner. A Ground-type move that damages the opponent and lowers their accuracy. It can only be used once.
-
-# IV. Future Exploration Plans
-*   **Violet City Exits:** If the path south from Violet City leads to a dead end, systematically re-investigate the city's boundaries for other potential exits, possibly requiring HMs like Surf or Cut.
-*   **unknown:** Hypothesis: Impassable. Needs testing.
