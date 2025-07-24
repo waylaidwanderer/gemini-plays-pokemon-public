@@ -30,7 +30,7 @@
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
 
 ### Hypotheses to Test:
-*   **FLOOR_UP_WALL:** Confirmed impassable from above. Full one-way traversal (only enterable from below) is still a hypothesis.
+*   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
 *   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal, only enterable from the left. Test: Attempt to move left from it.
 *   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal, only enterable from the right. Test: Attempt to move right from it.
 *   **WATER:** Hypothesis: Impassable without HM Surf. Test: Walk up to it and try to move onto it / press A. (Status: Untested)
