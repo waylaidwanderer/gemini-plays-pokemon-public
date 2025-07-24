@@ -87,4 +87,5 @@
 - **Status:** Puzzle in progress. Proceeding with logical step-by-step moves.
 - **Correction:** The 'remote push' hypothesis was incorrect and based on a hallucination. The boulder mechanic is standard.
 - **Current State:** Player at (9, 17), Boulder at (10, 17).
-- **Next Logical Step:** Push boulder at (10, 17) right.
+- **Current State:** Player at (9, 17), Boulder at (10, 17).
+- **Next Logical Step:** Move to (10, 18) to push the boulder up.
