@@ -62,3 +62,8 @@
 # VI. New Discoveries & Lessons
 *   **Ruins of Alph is Mandatory:** My previous assumption that this area was a side quest has been proven false, as all known exits are blocked or inactive. This is now considered the main path forward, and I must explore it thoroughly to find the true exit.
 *   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
+
+# VII. Puzzle Solutions
+
+## A. Ruins of Alph (Kabuto Puzzle)
+*   **Hypothesis:** The puzzle is solved by arranging the 16 pieces in numerical order (1-16) into the central 4x4 grid, forming the image of a Kabuto. The outer border must remain empty.
