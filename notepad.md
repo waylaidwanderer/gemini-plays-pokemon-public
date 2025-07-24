@@ -36,7 +36,8 @@
 
 # II. Reminders & Housekeeping
 *   **Data Hygiene:** Must mark all defeated trainers, new NPCs, and warps (both sides) immediately. Trust Game State Info over memory.
-*   **Marker Hygiene:** All moving NPCs MUST be marked with their `object_id` to ensure their markers track them. Static markers for moving objects are unreliable.
+*   **Marker Hygiene:** All moving NPCs MUST be marked with their `object_id`.
+*   **To-Do:** Revisit Violet City NPCs (Super Nerd, Gramps, Fisher, Youngster, Lass) and update their markers with `object_id`.
 
 # III. Badges & TMs
 *   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
@@ -44,15 +45,13 @@
 
 # IV. Goal-Oriented Planning
 
-## A. Primary Goal: Find the next town and challenge its Gym Leader
-*   **Hypothesis:** The path forward is through the gatehouse west of Route 31.
+## A. Primary Goal: Travel south to find the next town and its Gym Leader
 *   **Plan:**
-    1.  Navigate through Route 31 to the gatehouse leading to Violet City.
-    2.  Explore the area west of the gatehouse.
-    3.  Interact with any new NPCs for clues.
+    1.  Exit Violet City to the south.
+    2.  Explore the new route.
+    3.  Look for signs or NPCs that indicate the way to the next town.
 
 # V. Future Plans & Ideas
-*   **Agent Idea:** Create a `team_composition_advisor` to suggest party changes for upcoming Gym battles.
 *   **Agent Idea:** Create a `debugging_assistant` agent that can analyze faulty code and suggest fixes or debugging steps.
 
 # VI. Battle Information
