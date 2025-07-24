@@ -13,7 +13,8 @@
 - **Spinner Stop:** A tile that halts spinner movement.
 - **Elevated Ground:** Walkable ground at a different elevation. Cannot use Surf from this tile type.
 - **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close.
-- **Boulder Switch & Barrier:** `boulder_switch` tiles are activated by boulders, which changes a `boulder_barrier` tile into a `cleared_boulder_barrier` tile.
+- **Boulder Switch:** A floor switch activated by a boulder. Is a traversable tile.
+- **Boulder Barrier:** An impassable barrier that becomes a `cleared_boulder_barrier` tile when the corresponding switch is activated.
 - **Cleared Boulder Barrier (Corrected):** Functions as a one-way ramp. It can only be entered from a `steps` tile when moving from `ground` to `elevated_ground`. It is impassable from adjacent `ground` tiles and cannot be used to move down from `elevated_ground` to `ground`.
 
 ## B. General Rules & Heuristics
@@ -54,16 +55,16 @@
 ## A. Current Strategy: Victory Road 1F Puzzle
 - **Conclusion (Southern Area):** The southern puzzle area is a confirmed, inescapable dead end. Persisting is illogical.
 - **Objective:** Push the boulder from its current position to the switch at (18, 14). This will clear the boulder barrier at (10, 13) and open the path to the next floor.
-- **Method:** I will execute the step-by-step solution provided by my `boulder_puzzle_solver` tool. I must reactivate Strength from the party menu before every individual push.
+- **Method:** I must reactivate Strength from the party menu before every individual push.
 - **Solver Plan:**
   1. Push boulder at (10, 15) right to (11, 15). **(Complete)**
   2. Push boulder at (11, 15) right to (12, 15). **(Complete)**
   3. Push boulder at (12, 15) right to (13, 15). **(Complete)**
-  4. Push boulder at (13, 15) right to (14, 15).
-  5. Push boulder at (14, 15) right to (15, 15).
-  6. Push boulder at (15, 15) right to (16, 15).
-  7. Push boulder at (16, 15) right to (17, 15).
-  8. Move to (17, 16).
+  4. Push boulder at (13, 15) right to (14, 15). **(Complete)**
+  5. Push boulder at (14, 15) right to (15, 15). **(Complete)**
+  6. Push boulder at (15, 15) right to (16, 15). **(Complete)**
+  7. Push boulder at (16, 15) right to (17, 15). **(Complete)**
+  8. Move to (17, 16). **(Complete)**
   9. Push boulder at (17, 15) up to (17, 14).
   10. Push boulder at (17, 14) up to (17, 13).
   11. Move to (16, 13).
@@ -74,7 +75,7 @@
 # IV. Agent & Tool Development
 
 ## A. Future Development Ideas
-- **Puzzle Orchestrator Agent:** Create an agent to manage multi-step puzzles in Victory Road, using existing `boulder_puzzle_solver` and `gem_pathfinder` tools.
+- **Puzzle Executor Agent:** Create an agent to take a `boulder_puzzle_solver` solution and generate the full sequence of button presses to execute it automatically, including menuing to reactivate Strength. This would automate tedious, repetitive puzzle-solving.
 - **Pokedex Analysis (Review):** Review `team_composition_advisor_agent` capabilities before creating a new Pokedex agent to avoid redundancy.
 
 ## B. Development Backlog
