@@ -42,3 +42,4 @@
 
 # IV. Future Exploration Plans
 *   **Violet City Exits:** If the path south from Violet City leads to a dead end, systematically re-investigate the city's boundaries for other potential exits, possibly requiring HMs like Surf or Cut.
+*   **MART_SHELF:** Impassable. Functions as a wall.
