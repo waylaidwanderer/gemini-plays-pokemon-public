@@ -55,7 +55,7 @@
 - **Hypothesis:** This floor also uses the delayed barrier-opening mechanic.
 - **Test:** Solve the boulder puzzles and observe if the corresponding barriers open immediately or only after moving away.
 - **Eastern Puzzle:** Push boulder from (23, 4) to switch at (23, 7).
-- **Western Puzzle:** Push boulder from (14, 13) into the hole at (14, 15) to affect the floor below. This requires re-confirming the hole's existence.
+- **Western Puzzle:** The hole at (14, 15) does not exist. The purpose of this boulder is currently unknown. The boulder has been moved from (14, 13) to (14, 14).
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
