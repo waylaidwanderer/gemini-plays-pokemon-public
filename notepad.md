@@ -51,8 +51,8 @@
   - EEVEE: Jump Kick
 
 # III. Active Plans
-- **Current Objective:** Navigate Victory Road and reach the Indigo Plateau.
-- **Next Step:** Defeat the Juggler on Victory Road 2F and then explore the eastern section to find the path to the Indigo Plateau.
+- **Current Objective:** Escape Victory Road and heal my Pokémon.
+- **Next Step:** Navigate to the exit at Victory Road 1F and fly to a Pokémon Center.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
