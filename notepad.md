@@ -111,3 +111,9 @@
 - **Conclusion:** The northern section is inaccessible from my current location on the lower west side.
 
 **New Hypothesis:** The steps at (8,8) will grant access to the central elevated platform, which connects to the northern puzzle area.
+
+**Attempt 3:** Used `gem_pathfinder` to navigate from (9,18) to (14,3) after fixing the 'boulder_switch' bug.
+- **Outcome:** Failed. System warning confirmed the target is unreachable from my current location.
+- **Conclusion:** The southern entrance area is isolated from the northern puzzle area.
+
+**New Hypothesis:** The steps at (8,8) will grant access to the central elevated platform, which connects to the northern puzzle area.
