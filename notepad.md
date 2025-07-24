@@ -50,11 +50,11 @@
 
 # III. Active Plans & Puzzles
 
-## Victory Road 1F Puzzle - Boulder at (17, 15)
-- **Objective:** Push the boulder from its current position at (17, 15) to the switch at (18, 14).
-- **Status:** In progress. Following a new, reliable plan from the fixed `boulder_puzzle_solver`.
-- **Plan:** `[{"action": "push", "direction": "Up"}, {"action": "move", "target": [18, 14]}, {"action": "move", "target": [18, 13]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [17, 12]}, {"action": "move", "target": [16, 12]}, {"action": "push", "direction": "Down"}, {"action": "move", "target": [15, 13]}, {"action": "move", "target": [15, 14]}, {"action": "push", "direction": "Right"}, {"action": "push", "direction": "Right"}]`
-- **Current Step:** `{"action": "push", "direction": "Up"}`
+## Victory Road 1F Puzzle - Boulder at (17, 14)
+- **Objective:** Push the boulder from its current position at (17, 14) to the switch at (18, 14).
+- **Status:** **FAILED.** The `boulder_puzzle_solver` tool is still broken due to a misunderstanding of the core push mechanic.
+- **Corrected Boulder Mechanic (Confirmed):** Pushing a boulder does NOT move the player. The player remains in the tile from which the push was initiated. This is confirmed by repeated `Position Mismatch` warnings.
+- **Next Step:** Fix the `boulder_puzzle_solver` tool with the correct logic. This is the highest priority.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
@@ -76,8 +76,8 @@
 - **Objective:** Push the boulder from (23, 4) to the switch at (23, 7).
 - **Status:** Complete.
 
-## Victory Road 1F Puzzle - Boulder at (17, 15)
-- **Objective:** Push the boulder from its current position at (17, 15) to the switch at (18, 14).
-- **Status:** In progress. Following a new, reliable plan from the fixed `boulder_puzzle_solver`.
-- **Plan:** `[{"action": "push", "direction": "Up"}, {"action": "move", "target": [18, 14]}, {"action": "move", "target": [18, 13]}, {"action": "push", "direction": "Left"}, {"action": "move", "target": [17, 12]}, {"action": "move", "target": [16, 12]}, {"action": "push", "direction": "Down"}, {"action": "move", "target": [15, 13]}, {"action": "move", "target": [15, 14]}, {"action": "push", "direction": "Right"}, {"action": "push", "direction": "Right"}]`
-- **Current Step:** `{"action": "push", "direction": "Up"}`
+## Victory Road 1F Puzzle - Boulder at (17, 14)
+- **Objective:** Push the boulder from its current position at (17, 14) to the switch at (18, 14).
+- **Status:** **FAILED.** The `boulder_puzzle_solver` tool is still broken due to a misunderstanding of the core push mechanic.
+- **Corrected Boulder Mechanic (Confirmed):** Pushing a boulder does NOT move the player. The player remains in the tile from which the push was initiated. This is confirmed by repeated `Position Mismatch` warnings.
+- **Next Step:** Fix the `boulder_puzzle_solver` tool with the correct logic. This is the highest priority.
