@@ -61,11 +61,9 @@
 ## A. Future Ideas
 - **`puzzle_deadlock_analyzer` Agent Idea:** Create an agent that analyzes situations where progress is stalled despite an apparent solution (e.g., a puzzle is solved but the path remains blocked). The agent would take the context and suggest a ranked list of hypotheses to test, such as 'map state update lag (test with local movement)', 'map state bug (test by leaving and re-entering map)', or 'hidden secondary mechanic (test with exhaustive interaction)'. This would help structure my problem-solving when I get stuck.
 
-## B. Completed Tasks
-- **`brute_force_explorer` Fix:** The tool's internal pathfinder (`find_path_bfs`) was buggy and generated an invalid path. It has been updated with the more robust traversal logic from `gem_pathfinder`.
-
 # V. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools like the pathfinder is a major strategic error. Faulty tools must be addressed immediately, as they are foundational to efficient gameplay. I wasted significant time manually pathing and retrying because I didn't fix the tool right away.
+- **Archived Puzzle Solutions:** Puzzles can reset upon re-entering a map. Archived solutions may be outdated. Always observe the current state of a puzzle before acting on old information.
 
 # VI. Archives
 
