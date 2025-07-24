@@ -21,9 +21,11 @@
 - **"No Will to Fight" Message (Correction):** Appears when the party menu cursor is on a fainted Pokémon.
 - **Level Cap:** The level cap with 8 badges is 65.
 - **Special NPC Interaction:** Certain puzzles may require walking *through* an NPC rather than interacting with them (e.g., Summer Beach House).
-- **Boulder Puzzle Mechanics:** Boulders cannot be pushed directly into standard `water` tiles. They must be pushed into `hole` tiles to affect lower floors.
 - **Pushing Boulders (Mechanic Corrected):** Pushing a boulder does NOT move the player. The player character remains in the tile from which the push was initiated.
 - **PC Tile Anomaly:** The tile for interacting with the Pokémon Center PC is sometimes labeled as `grass` in the map data, despite being indoors.
+
+## C. Puzzle Mechanics
+- **Delayed Boulder Barrier Opening:** Some boulder barriers may not open immediately after the corresponding switch is activated. The change might only trigger after moving a certain distance away from the switch/barrier area. (Observed in Victory Road 1F)
 
 # II. Battle Intel
 
@@ -49,6 +51,7 @@
   - EEVEE: Jump Kick
 
 # III. Active Plans & Puzzles
+*(None at the moment)*
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
@@ -66,6 +69,7 @@
 ### Victory Road 1F Puzzle
 - **Objective:** Push the boulder from (17, 13) to the switch at (18, 14).
 - **Status:** Complete.
+- **Solution Note:** Activating the switch does not immediately open the barrier at (10, 13). The barrier opens after moving away from the puzzle area.
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
 - **Status:** Complete.
