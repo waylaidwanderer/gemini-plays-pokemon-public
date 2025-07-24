@@ -43,6 +43,7 @@
 # III. Badges & TMs
 *   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
 *   **TM31 (Mud-Slap):** Received from Falkner. A Ground-type move that damages the opponent and lowers their accuracy. It can only be used once.
+*   **TM39:** Found in Union Cave B1F. Need to check what move it is.
 
 # IV. Future Plans & Ideas
 *   **Agent Idea:** Create a `goal_deconstructor` agent to break down high-level goals into smaller, navigable steps.
@@ -57,18 +58,14 @@
 *   **Alternative Hypothesis:** The path could lead to a different area, or be blocked by an item/event requirement. The `CUT_TREE` at (10, 19) could block an alternate path.
 *   **Test:** Explore all reachable paths on Route 32. Interact with all NPCs. Attempt to walk past the `CUT_TREE`.
 
-# VI. 50-Turn Reflection Takeaways
+## B. 50-Turn Reflection Takeaways
 *   **Agent Usage:** I must use the `team_composition_advisor` before the next significant trainer battle to test its effectiveness.
 *   **Untested Assumption:** The southern exit of Union Cave is the correct path to Azalea Town. An alternative hypothesis is that the true path is via the currently inaccessible western section or the unexplored ladder. I will test this by continuing south, and if that path is blocked, I will need to find another way into the western part of the cave.
+*   **Overwatch critique takeaways:** I must use `team_composition_advisor` before the next major battle. I must also be more disciplined with map markers and use targeted notepad edits instead of large overwrites. I must verify I have an item before planning to use it. I need to trust my tools more, especially `find_reachable_unseen_tiles` which correctly identified Union Cave B1F as a dead end.
 
 # VI. Phone Calls & Side Quests
 *   Wade called and offered to share BERRIES. He is waiting on Route 31.
+*   Wade called about the Bug-Catching Contest at the National Park.
 
 # VII. New Discoveries & Lessons
-*   **SUPER_NERD at (4, 21) is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
-*   **Union Cave B1F is a dead end.** The only way out is back up the ladder. My `find_reachable_unseen_tiles` tool was correct all along. I need to trust my tools more.
-*   **Found TM39 in Union Cave B1F.** I need to check what move it is and which Pokémon can learn it.
-*   **Overwatch critique takeaways:** I must use `team_composition_advisor` before the next major battle. I must also be more disciplined with map markers and use targeted notepad edits instead of large overwrites. I must verify I have an item before planning to use it.
-
-# VIII. Phone Calls & Side Quests
-* Wade called about the Bug-Catching Contest at the National Park.
+*   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
