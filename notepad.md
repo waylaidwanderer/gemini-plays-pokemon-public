@@ -68,7 +68,7 @@
 - **`plan_executor_agent`:** An agent that takes a multi-step plan from the notepad and outputs the next single action. This would help manage complex sequences without losing track.
 
 ## B. Active Debugging Tasks
-- **`boulder_puzzle_solver`:** The tool is critically flawed. It generated a plan that required moving to an impassable tile (`(7, 16)`), causing a soft-lock. I need to add debugging to its pathfinding logic to understand why it's failing to check tile validity correctly.
+- **`boulder_puzzle_solver`:** This tool has been significantly improved. I fixed a critical XML parsing error and added elevation awareness to its internal pathfinder. It now correctly handles 'ground', 'elevated_ground', and 'steps' tiles, preventing it from generating invalid paths that ignore elevation changes. It should now be capable of solving the complex puzzles in Victory Road.
 
 # VI. Archives
 
