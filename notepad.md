@@ -37,18 +37,15 @@
 # III. World Navigation & Puzzles
 
 ## A. Current Strategy: Victory Road 2F Puzzle
-- **Objective:** Push the boulder from (5, 15) to the switch at (2, 17) to clear the barrier at (8, 9) and (8, 10).
-- **Solver Plan:**
-  1. Move to (5, 14).
-  2. Push boulder at (5, 15) down to (5, 16). **(Complete)**
-  3. Move to (6, 16).
-  4. Push boulder at (5, 16) left to (4, 16).
-  5. Move to (4, 15).
-  6. Push boulder at (4, 16) down to (4, 17).
-  7. Move to (5, 17).
-  8. Push boulder at (4, 17) left to (3, 17).
-  9. Move to (4, 17).
-  10. Push boulder at (3, 17) left to (2, 17).
+- **Objective:** Solve a two-part boulder puzzle to clear the barriers at (8, 9) and (8, 10).
+
+### Part 1: West Boulder (Completed)
+- **Objective:** Push the boulder from (5, 15) to the switch at (2, 17).
+- **Status:** Complete.
+
+### Part 2: East Boulder (In Progress)
+- **Objective:** Push the boulder from (6, 6) to the switch at (10, 17).
+- **Status:** Not started.
 
 ## B. Archived Puzzle Plans
 ### Victory Road 1F Puzzle (Completed)
