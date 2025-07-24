@@ -51,9 +51,9 @@
 # III. Active Plans & Puzzles
 
 ## Victory Road 1F Puzzle - Boulder at (17, 14)
-- **Objective:** Push the boulder from its current position at (17, 14) to the switch at (18, 14).
+- **Objective:** Push the boulder from (17, 14) to the switch at (18, 14).
 - **Status:** **FAILED.** The `boulder_puzzle_solver` tool is still broken due to a misunderstanding of the core push mechanic.
-- **Corrected Boulder Mechanic (Confirmed):** Pushing a boulder does NOT move the player. The player remains in the tile from which the push was initiated. This is confirmed by repeated `Position Mismatch` warnings.
+- **Corrected Boulder Mechanic (Game State Confirmed):** Pushing a boulder does NOT move the player. The player remains in the tile from which the push was initiated. This is confirmed by repeated `Position Mismatch` warnings.
 - **Next Step:** Fix the `boulder_puzzle_solver` tool with the correct logic. This is the highest priority.
 
 # IV. Core Gameplay Lessons
@@ -77,7 +77,7 @@
 - **Status:** Complete.
 
 ## Victory Road 1F Puzzle - Boulder at (17, 14)
-- **Objective:** Push the boulder from its current position at (17, 14) to the switch at (18, 14).
+- **Objective:** Push the boulder from (17, 14) to the switch at (18, 14).
 - **Status:** **FAILED.** The `boulder_puzzle_solver` tool is still broken due to a misunderstanding of the core push mechanic.
-- **Corrected Boulder Mechanic (Confirmed):** Pushing a boulder does NOT move the player. The player remains in the tile from which the push was initiated. This is confirmed by repeated `Position Mismatch` warnings.
+- **Corrected Boulder Mechanic (Game State Confirmed):** Pushing a boulder does NOT move the player. The player remains in the tile from which the push was initiated. This is confirmed by repeated `Position Mismatch` warnings.
 - **Next Step:** Fix the `boulder_puzzle_solver` tool with the correct logic. This is the highest priority.
