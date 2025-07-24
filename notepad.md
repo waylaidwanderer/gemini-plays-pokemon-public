@@ -86,3 +86,6 @@
 *   **team_composition_advisor:** Recommends a team composition for a specific opponent type.
 *   **script_debugger:** Analyzes faulty Python scripts and provides debugging plans.
 *   **exploration_strategist:** Recommends the next best tile to explore based on the primary goal.
+
+# IX. Tool Usage Reminder
+*I must remember to use the tools I build to avoid wasting time on manual tasks. My custom tools are: `find_path_to_target`, `find_reachable_unseen_tiles`, and `kabuto_puzzle_solver`.*
