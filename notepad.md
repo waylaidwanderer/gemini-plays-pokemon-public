@@ -43,3 +43,15 @@
 # III. Badges & TMs
 *   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
 *   **TM31 (Mud-Slap):** Received from Falkner. A Ground-type move that damages the opponent and lowers their accuracy. It can only be used once.
+
+# IV. Goal-Oriented Planning
+
+## A. Primary Goal: Find and defeat the next Gym Leader
+
+*   **Hypothesis:** The path forward is through this gatehouse to Route 31, which should lead to the next town and gym.
+*   **Plan:**
+    1.  Interact with the NPCs in this gatehouse for any potential clues.
+    2.  Exit the gatehouse to the east, onto Route 31.
+    3.  Explore Route 31 thoroughly to find the path to the next city.
+    4.  Train my Pokémon on Route 31 to prepare for the next Gym Leader. VULCAN and MIASma are my primary fighters.
+    5.  Once in the new city, locate the Gym and challenge the leader.
