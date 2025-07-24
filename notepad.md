@@ -58,8 +58,9 @@
 - **Objective:** Push the boulder from (6, 16) to the switch at (18, 14).
 - **Status:** **FAILED.** The `boulder_puzzle_solver` tool failed to find a solution after multiple fixes and debug attempts (5+ failures). This puzzle may be a red herring or require a different approach. Abandoning for now.
 
-## Victory Road 1F - New Approach
-- **Objective:** Investigate the other reachable boulder at (3, 11) to see if it's part of a solvable puzzle.
+## Victory Road 1F - Boulder at (3, 11)
+- **Objective:** Investigate the boulder at (3, 11).
+- **Status:** Pushed boulder from (3, 11) to (3, 10). This appears to be a red herring, as it does not open any paths or trigger any switches. The boulder is now stuck. Abandoning this puzzle.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
