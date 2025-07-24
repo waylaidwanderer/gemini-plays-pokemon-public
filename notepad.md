@@ -33,10 +33,6 @@
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
 *   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
 
-### Hypotheses to Test:
-*   **LEDGE_HOP_RIGHT:** Hypothesis: One-way traversal, only enterable from the left. Test: Attempt to move left from it.
-*   **LEDGE_HOP_LEFT:** Hypothesis: One-way traversal, only enterable from the right. Test: Attempt to move right from it.
-
 # II. Battle Information
 
 ## A. Verified Type Matchups
@@ -44,34 +40,25 @@
 
 # III. Badges & TMs
 *   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
-*   **TM31 (Mud-Slap):** Received from Falkner. A Ground-type move that damages the opponent and lowers their accuracy. It can only be used once.
-*   **TM39:** Found in Union Cave B1F. Need to check what move it is.
+*   **TM31 (Mud-Slap):** Received from Falkner.
+*   **TM39:** Found in Union Cave B1F.
 
 # IV. Future Plans & Ideas
-*   **Agent Idea:** Create a `goal_deconstructor` agent to break down high-level goals into smaller, navigable steps.
-*   **Agent Idea:** Create a `pokedex_advisor` agent to suggest catching priorities for better team composition and type coverage.
 *   **Agent Idea:** Create a `puzzle_solver` agent for logic puzzles like the one in the Ruins of Alph.
 *   **Team Composition:** Use `team_composition_advisor` before the next major battle (Bugsy).
 
 # V. Reflection Log
 
-## A. Untested Assumptions
-*   **Primary Assumption:** The path south on Route 32 leads directly to the next town.
-*   **Alternative Hypothesis:** The path could lead to a different area, or be blocked by an item/event requirement. The `CUT_TREE` at (10, 19) could block an alternate path.
-*   **Test:** Explore all reachable paths on Route 32. Interact with all NPCs. Attempt to walk past the `CUT_TREE`.
+## A. 50-Turn Reflection Takeaways (Turn 5268)
+*   **Immediate Action Mandate:** I have repeatedly deferred critical tasks (tool fixing, data cleanup) to 'later'. As an LLM, there is no 'later'. All necessary actions, especially data management and tool refinement, MUST be performed in the immediate turn they are identified. This is a core operational principle I must adhere to.
+*   **Untested Assumptions:** My primary assumption is that solving the Kabuto puzzle is the only way to progress in the Ruins of Alph. An alternative hypothesis is that the puzzle is optional and the true path is via the unexplored warps at (4, 9) or (4, 0). I will test this by exploring those warps if solving the puzzle yields no progress.
 
-## B. 50-Turn Reflection Takeaways
-*   **Agent Usage:** I must use the `team_composition_advisor` before the next significant trainer battle to test its effectiveness.
-*   **Untested Assumption:** The southern exit of Union Cave is the correct path to Azalea Town. An alternative hypothesis is that the true path is via the currently inaccessible western section or the unexplored ladder. I will test this by continuing south, and if that path is blocked, I will need to find another way into the western part of the cave.
+## B. Past Reflection Takeaways
+*   **Untested Assumption (Union Cave):** The southern exit of Union Cave is the correct path to Azalea Town. An alternative hypothesis is that the true path is via the currently inaccessible western section or the unexplored ladder. I will test this by continuing south, and if that path is blocked, I will need to find another way into the western part of the cave.
 
 # VI. Phone Calls & Side Quests
-*   Wade called and offered to share BERRIES. He is waiting on Route 31.
 *   Wade called about the Bug-Catching Contest at the National Park.
 
 # VII. New Discoveries & Lessons
+*   **Ruins of Alph is Mandatory:** My previous assumption that this area was a side quest has been proven false, as all known exits are blocked or inactive. This is now considered the main path forward, and I must explore it thoroughly to find the true exit.
 *   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
-
-*   **Ruins of Alph Gatehouse:** Remember to check the unexplored warp at (0, 5).
-
-# VIII. Untested Assumptions & Hypotheses
-*   **Ruins of Alph Path:** The previous assumption that this was a side area has been proven false, as all known exits are blocked or inactive. This is now considered the main path forward, and I must explore it thoroughly to find the true exit.
