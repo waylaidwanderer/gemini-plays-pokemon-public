@@ -66,8 +66,8 @@
 # VII. Puzzle Solutions
 
 ## A. Ruins of Alph (Kabuto Puzzle)
-*   **Hypothesis 1 (Failed):** The puzzle is solved by arranging the 16 pieces in numerical order (1-16) into the central 4x4 grid. 
-    *   **Test:** All pieces were arranged correctly.
+*   **Hypothesis 1 (Failed):** The puzzle is solved by arranging the 16 pieces to form an image of the Pokémon Kabuto. 
+    *   **Test:** All pieces were arranged correctly into the Kabuto image.
     *   **Result:** The game did not automatically exit the puzzle screen.
     *   **Conclusion:** This hypothesis is incorrect.
 *   **Hypothesis 2 (Failed):** After arranging the pieces, the 'Start' button must be pressed to confirm the solution.
