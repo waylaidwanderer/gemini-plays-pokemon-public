@@ -4,7 +4,7 @@
 - **Ground:** Standard walkable tile.
 - **Grass:** Walkable tile where wild Pokémon can be encountered.
 - **Water:** Can be crossed using the SURF HM.
-- **Impassable:** Walls, trees, and other objects that block movement.
+- **Impassable:** Walls, trees, and other objects that block movement. Interacting with them does nothing.
 - **Elevated Ground:** Walkable ground at a different elevation. Cannot use Surf from this tile type.
 - **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close.
 - **Boulder Switch:** A floor switch activated by a boulder. Is a traversable tile.
@@ -68,10 +68,9 @@
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
-# VI. Victory Road 1F Boulder Puzzle Hypothesis
-- **Observation:** The boulder at (17, 14) needs to get to the switch at (18, 14). However, the tile required to push it, (16, 14), is impassable. My previous plans failed.
-- **Hypothesis #1:** The switch at (18, 14) can be activated by direct interaction (pressing 'A') now that the boulder is adjacent to it.
-- **Test Plan:**
-  1. Navigate to (18, 13), adjacent to the switch.
-  2. Face down and press 'A' to interact with the switch.
-- **Expected Outcome:** The boulder_barrier at (10, 13) will open.
+# VI. Victory Road 1F Boulder Puzzle
+- **Status:** Stuck. All direct hypotheses have failed.
+- **Current Strategy:** Executing a systematic, brute-force exploration of the area using the `brute_force_explorer` tool to find any hidden switches or mechanics.
+
+# VII. Tool Improvement Backlog
+- The `puzzle_solver_tool` is too basic. It should be upgraded to analyze puzzle component relationships and suggest a solution plan, not just list their locations.
