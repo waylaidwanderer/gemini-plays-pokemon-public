@@ -14,11 +14,8 @@
 ### Warp Tiles:
 *   **WARP_CARPET_DOWN:** One-way warp. Activated by pressing 'Down'.
 *   **WARP_CARPET_LEFT:** (Route 31 Gatehouse)
-    *   **Status:** Under Investigation.
-    *   **Hypothesis 1 (Failed):** Activated by moving onto the tile from the right. Test: Moved from (5, 6) to (4, 6). Result: No warp.
-    *   **Hypothesis 2 (Failed):** Activated by pressing 'A' while standing on the top tile (4, 6). Test: Stood on (4, 6) and pressed 'A'. Result: No warp.
-    *   **Hypothesis 3 (Failed):** Activated by moving onto the bottom tile from the right. Test: Moved from (5, 7) to (4, 7). Result: No warp.
-    *   **Next Test:** Interact with the bottom half of the warp tile at (4, 7) with 'A'.
+    *   **Status:** Confirmed impassable from Route 31 side.
+    *   **Conclusion:** This is a one-way exit from the gatehouse. All attempts to enter from this side have failed (moving from right, interacting with 'A'). This path is a dead end.
 *   **WARP_CARPET_RIGHT:** One-way warp. Activated by moving onto the tile from the left.
 
 ### Confirmed Impassable:
