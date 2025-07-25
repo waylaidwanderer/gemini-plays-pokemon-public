@@ -35,6 +35,7 @@
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
 *   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
+*   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
 *   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
 
 ### Under Investigation:
@@ -72,7 +73,7 @@
 *   **Hypothesis 4 (Confirmed):** The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces. This led to the inner chamber where Unown appeared.
 
 # VII. Custom Tools & Agents
-*   `find_path_to_target`: A Python tool that finds the shortest path from the player's current position to a specified target coordinate using a Breadth-First Search (BFS) algorithm. It correctly handles one-way ledges and will find a path to a tile adjacent to the target if the target itself is impassable.
+*   `find_path_to_target`: A Python tool that finds the shortest path from the player's current position to a specified target coordinate using a Breadth-First Search (BFS) algorithm. It correctly handles one-way ledges and will find a path to a tile adjacent to the target if the target itself is impassable. **STATUS: CRITICALLY BROKEN. DO NOT USE.**
 *   `find_reachable_unseen_tiles`: A Python tool that finds all unseen tiles that are reachable from the player's current position by performing a single BFS across all passable tiles, both seen and unseen.
 *   `battle_strategist`: An agent that analyzes the current battle state and recommends the optimal action (FIGHT, PKMN, PACK, RUN) based on strategic priorities like PP conservation and avoiding unfavorable wild battles.
 *   `exploration_strategist`: An agent that takes a list of reachable unseen tiles and the primary goal, then recommends the most strategic tile to explore next.
@@ -85,12 +86,7 @@
 # IX. Exploration Notes
 *   **Route 32 Pier:** This area is a dead end. My verified `find_path_to_target` tool confirmed that the southern part of the route is unreachable from the northern section.
 
-# X. Strategic Reminders
-*   **Agent Usage:** I must remember to use the `team_composition_advisor` agent before the next major battle and the `procedural_overseer` agent before making significant strategic pivots.
-*   **Map Markers:** I need to use more descriptive labels for my markers and link them to their `object_id` when possible to improve long-term tracking.
-*   **Marker Update Needed:** When returning to Route32RuinsOfAlphGate, update the marker for the warp at (9, 5) to point to Route 32.
-
-# XI. Untested Assumptions & Falsification Tests
+# X. Untested Assumptions & Falsification Tests
 *   **Pokefan M in Route 32 Gatehouse (Confirmed):**
     *   **Hypothesis (Falsified):** Interacting with the Pokefan M at (8, 3) will cause him to move.
     *   **Test:** Stunned the NPC at (8, 3) and initiated dialogue.
@@ -99,11 +95,3 @@
     *   **Assumption:** The warps at (0, 5) and (9, 5) are non-essential side rooms.
     *   **Alternative Hypothesis:** One of these warps is the correct path forward.
     *   **Test:** If I become stuck after exploring the Ruins of Alph, I must return to this gatehouse and investigate these warps.
-
-# XII. Mandatory Reflection (Turn 6980)
-*   **Tool Failure:** My `find_reachable_unseen_tiles` tool is confirmed broken. It returned an empty list on Route 33, but the system correctly identified adjacent unseen tiles. This is a critical failure in my exploration toolkit that must be fixed immediately.
-*   **Tile Mechanics:** I have not yet documented `LEDGE_HOP_LEFT`. I need to add it to my investigation list.
-*   **Agent Usage:** I will make a more concerted effort to use my `procedural_overseer` agent if I find myself repeating actions without success.
-
-# Data Management (Turn 6982)
-*   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
