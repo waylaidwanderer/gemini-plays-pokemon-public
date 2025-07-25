@@ -52,6 +52,7 @@
 **Secondary Goal:** Solve the Victory Road boulder puzzles to reach the exit.
 
 # IV. Core Gameplay Lessons
+- **Plan Boulder Routes First:** Before pushing any boulder, use the pathfinder to verify the *entire* planned route for both the player and the boulder. This will prevent soft-locking the puzzle by revealing impassable tiles or dead ends early.
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
 - **Verify Tool Outputs Before Trusting:** A faulty plan is worse than no plan. My tools can have bugs, and I must verify their outputs before blindly following them.
 - **Trust the Game State:** My own assumptions can be wrong. The Game State Information is the absolute source of truth and must be trusted over my memory or intuition.
@@ -67,50 +68,40 @@
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
-## B. Archived/Failed Plans
-### Victory Road 1F Puzzle - Attempt 5 (FAILED)
-- **Hypothesis:** A brute-force exploration of the area would reveal a hidden mechanic.
-- **Conclusion:** The `brute_force_explorer` tool was also broken and failed to navigate around obstacles correctly. The attempt was aborted.
-
-### Victory Road 1F Puzzle - Attempt 4 (FAILED)
-- **Hypothesis:** The 'impassable' tile at (16, 14) was a secret passage.
-- **Conclusion:** This was based on a complete hallucination. I never even reached the tile to test it. The path is blocked.
-
-### Victory Road 1F Puzzle - Attempt 3 (FAILED)
-- **Hypothesis:** The boulder at (3, 10) was the correct starting point.
-- **Conclusion:** This was incorrect. The boulder is blocked from being pushed north by an impassable wall at (3, 9).
-
-### Victory Road 1F Puzzle - Attempt 2 (FAILED)
-- **Hypothesis:** The boulder starting at (6, 17) could be pushed to the switch at (18, 14).
-- **Conclusion:** This was incorrect. The path is blocked by an impassable wall at (16, 14).
-
-### Victory Road 1F Puzzle - Attempt 1 (FAILED)
-- **Hypothesis:** The boulder at (3, 11) was the first step.
-- **Conclusion:** This was incorrect. The area with this boulder is inaccessible until the barrier at (10, 13) is opened.
-
 # VI. Tool & Agent Ideas
 - **Puzzle Strategist Agent:** An agent that takes the output of the `puzzle_solver_tool` (a list of puzzle components) and suggests a logical, sequential plan to solve the puzzle. This would be the next step after getting a reliable component list.
 
-# VII. Tool Refinement Notes
-- **`brute_force_explorer`:** The current implementation generates a single, massive list of button presses which is often truncated by the system. It should be modified to return a list of smaller, sequential action chunks to be executed one at a time.
+# VII. Victory Road 1F Puzzle Attempts
 
-### Victory Road 1F Puzzle - Attempt 6 (FAILED)
+### Attempt 1 (FAILED)
+- **Hypothesis:** The boulder at (3, 11) was the first step.
+- **Conclusion:** This was incorrect. The area with this boulder is inaccessible until the barrier at (10, 13) is opened.
+
+### Attempt 2 (FAILED)
+- **Hypothesis:** The boulder starting at (6, 17) could be pushed to the switch at (18, 14).
+- **Conclusion:** This was incorrect. The path is blocked by an impassable wall at (16, 14).
+
+### Attempt 3 (FAILED)
+- **Hypothesis:** The boulder at (3, 10) was the correct starting point.
+- **Conclusion:** This was incorrect. The boulder is blocked from being pushed north by an impassable wall at (3, 9).
+
+### Attempt 4 (FAILED)
+- **Hypothesis:** The 'impassable' tile at (16, 14) was a secret passage.
+- **Conclusion:** This was based on a complete hallucination. I never even reached the tile to test it. The path is blocked.
+
+### Attempt 5 (FAILED)
+- **Hypothesis:** A brute-force exploration of the area would reveal a hidden mechanic.
+- **Conclusion:** The `brute_force_explorer` tool was also broken and failed to navigate around obstacles correctly. The attempt was aborted.
+
+### Attempt 6 (FAILED)
 - **Hypothesis:** Push the boulder at (6, 17) all the way to (17, 17), then push it up.
 - **Conclusion:** Failed. The path is blocked by an impassable wall at (11, 17).
 
-### Victory Road 1F Puzzle - Attempt 8 (FAILED)
+### Attempt 8 (FAILED)
 - **Hypothesis:** Push the boulder at (6, 17) right to (10, 17), then up to (10, 14), then right to the switch.
 - **Conclusion:** Failed. The path to push the boulder sideways from (10, 14) is blocked by impassable tiles. The tile at (9, 14) is unreachable.
 
-# VIII. Core Gameplay Lessons
-- **Plan Boulder Routes First:** Before pushing any boulder, use the pathfinder to verify the *entire* planned route for both the player and the boulder. This will prevent soft-locking the puzzle by revealing impassable tiles or dead ends early.
-- **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
-- **Verify Tool Outputs Before Trusting:** A faulty plan is worse than no plan. My tools can have bugs, and I must verify their outputs before blindly following them.
-- **Trust the Game State:** My own assumptions can be wrong. The Game State Information is the absolute source of truth and must be trusted over my memory or intuition.
-- **Confirmation Bias:** I must be wary of trying to prove my own assumptions right. It's important to trust system warnings and evidence that contradicts my beliefs.
-- **Efficient Debugging:** When a tool fails, the first step should be to add extensive logging/debugging to understand its internal state. Trial-and-error fixes are inefficient.
-
-### Victory Road 1F Puzzle - Attempt 9 (Current)
+### Attempt 9 (Current)
 - **Hypothesis:** The boulder at (11, 15) on the lower level can be pushed to the switch at (18, 14) to open the barrier at (10, 13) on the upper level.
 - **Plan (Corrected):**
   1. Push boulder from its current position right to (17, 15).
