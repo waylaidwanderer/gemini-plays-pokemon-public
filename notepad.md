@@ -121,3 +121,8 @@
   - **Test to Disprove:** If I cannot find a path to the Elder after thoroughly exploring all options in Sprout Tower, I will abandon this goal and pivot to investigating the Route 36 tree.
 - **The strange tree on Route 36 requires a key item.**
   - **Test:** After this gym, re-talk to key NPCs before searching for an item.
+### Newly Documented Tiles:
+*   **LONG_GRASS:** Traversable, can trigger wild Pokémon encounters. Appears functionally identical to TALL_GRASS.
+*   **BUOY:** Impassable. Functions as a wall in water.
+*   **WARP_CARPET_LEFT:** One-way warp. Activated by pressing 'Left'.
+*   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
