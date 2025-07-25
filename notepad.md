@@ -67,5 +67,6 @@
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
 # VI. Victory Road 1F Puzzle Status
-- **Objective:** Reach the ladder to 2F at (2, 2).
-- **Breakthrough:** The lower boulder puzzle and the barrier at (10, 13) are a misdirection. The true path is to ascend the steps at (6, 14) to the upper platform, which provides access to the ladder.
+- **Objective:** Open the boulder barrier at (10, 13) to access the ladder at (2, 2).
+- **Current Hypothesis:** The boulder starting at (6, 16) must be pushed onto the switch at (18, 14).
+- **Progress:** Boulder pushed from (6, 16) to (6, 17).
