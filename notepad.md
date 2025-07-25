@@ -75,7 +75,6 @@
 
 *   `find_path_to_target`: Finds the shortest path from the player's current position to a specified target coordinate.
 *   `find_reachable_unseen_tiles`: Finds all unseen tiles that are reachable from the player's current position.
-*   `filter_reachable_tiles`: Filters a list of coordinates to return only those reachable from the player's position.
 *   `kabuto_puzzle_solver`: Solves the Ruins of Alph Kabuto puzzle from a raw grid input.
 *   `battle_strategist`: Recommends the best action in a battle.
 *   `team_composition_advisor`: Recommends a team composition for a specific opponent type.
