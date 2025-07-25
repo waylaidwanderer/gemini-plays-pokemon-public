@@ -13,7 +13,11 @@
 
 ### Warp Tiles:
 *   **WARP_CARPET_DOWN:** One-way warp. Activated by pressing 'Down'.
-*   **WARP_CARPET_LEFT:** One-way warp. Activated by moving onto the tile from the right.
+*   **WARP_CARPET_LEFT:** (Route 31 Gatehouse)
+    *   **Status:** Under Investigation.
+    *   **Hypothesis 1 (Failed):** Activated by moving onto the tile from the right. Test: Moved from (5, 6) to (4, 6). Result: No warp.
+    *   **Hypothesis 2 (Failed):** Activated by pressing 'A' while standing on the tile. Test: Stood on (4, 6) and pressed 'A'. Result: No warp.
+    *   **Next Test:** Move onto the bottom half of the warp tile at (4, 7) from the right.
 *   **WARP_CARPET_RIGHT:** One-way warp. Activated by moving onto the tile from the left.
 
 ### Confirmed Impassable:
