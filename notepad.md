@@ -48,13 +48,13 @@
   - EEVEE: Jump Kick
 
 # III. Core Gameplay Lessons
-- **Core Principle: Fix, Don't Defer.** Critical tools with known bugs MUST be fixed immediately. Deferring fixes is a strategic failure.
+- **Core Principle: Fix, Don't Defer.** Critical tools with known bugs MUST be fixed immediately. Deferring fixes is a strategic failure. Repeatedly submitting identical, broken code is a critical error.
 - **Core Principle: Address critiques immediately.** When a tool is identified as faulty by an external check (like the overwatch system), fixing it becomes the absolute highest priority. Do not defer or make repeated, identical failed attempts.
 - **Core Principle: Verify, Then Trust.** Tool outputs and personal assumptions are hypotheses, not facts. They must be verified against the game state before being trusted. The Game State Information is the only source of truth.
 - **Core Principle: Agent vs. Tool.** Agents are for reasoning and planning. Tools are for computation and data processing. A task that can be solved with code (like simulating a puzzle) MUST be a tool, not an agent.
 - **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points (like ladders, stairs, or puzzle elements) are actually reachable from the current position to avoid building strategies on flawed assumptions.
 - **Boulder Puzzle Strategy:** Before pushing any boulder, use the pathfinder to verify the entire route for both the player and the boulder to prevent soft-locking.
-- **Debugging Strategy:** When a tool fails, add extensive logging to understand its internal state before attempting a fix.
+- **Debugging Strategy:** When a tool fails, add extensive logging to understand its internal state before attempting a fix. Or, manually test the game mechanics to gather ground-truth data.
 
 # IV. Archives
 
@@ -68,14 +68,9 @@
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
-# V. Current Objective: Victory Road 1F Puzzle
+# V. Current Puzzle: Victory Road 1F
 
-## Failed Hypotheses
-1. Pushing boulder at (6, 16) north blocks the path. (Attempt 1)
-2. Pushing boulder at (3, 11) to (3, 10) does not open the barrier at (10, 13). (Attempt 1)
-
-## New Plan
-**Hypothesis:** Solving the eastern boulder puzzle will open the barrier at (10, 13), granting access to the ladder at (2, 2).
+**Hypothesis:** The western platform is a dead-end/misdirection. The true solution involves solving the eastern boulder puzzle.
 
 **Test Plan:**
 1. Navigate to the eastern boulder at (15, 3).
