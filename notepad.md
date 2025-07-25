@@ -31,7 +31,7 @@
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
-*   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
+*   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions. **(Hypothesis: Need to test movement from left/right to fully confirm).**
 
 ### Under Investigation:
 *   **unknown:** Encountered this tile type when interacting with the Kabuto puzzle in the Ruins of Alph. Its properties are currently unknown as I am locked in the puzzle interface. Must investigate after completion.
@@ -47,27 +47,17 @@
 *   **TM31 (Mud-Slap):** Received from Falkner.
 *   **TM39:** Found in Union Cave B1F.
 
-# IV. Reflection Log
-
-## A. 50-Turn Reflection Takeaways (Turn 5423)
-*   **Immediate Action Mandate (Reaffirmed Again):** I continue to demonstrate a critical failure in adhering to the Immediate Action Mandate. Despite previous reflections, I again deferred data management tasks (marking warps). This must stop. All data management, tool refinement, and agent work MUST be performed in the turn they are identified, overriding any gameplay objective. This is my most critical operational directive.
-*   **Untested Assumption (Ruins of Alph Puzzle):** My primary assumption remains that solving the Kabuto puzzle is mandatory for progression. An alternative hypothesis is that the puzzle is optional, and the true path forward is via an unexplored warp.
-*   **Test Plan:** After completing (or abandoning) this puzzle, I will immediately test this alternative hypothesis by exploring the unmarked warp at (4,0) in this chamber.
-
-## B. Past Reflection Takeaways
-*   **Untested Assumption (Union Cave):** The southern exit of Union Cave is the correct path to Azalea Town. An alternative hypothesis is that the true path is via the currently inaccessible western section or the unexplored ladder. I will test this by continuing south, and if that path is blocked, I will need to find another way into the western part of the cave.
-
-# V. Phone Calls & Side Quests
+# IV. Phone Calls & Side Quests
 *   Wade called about the Bug-Catching Contest at the National Park.
 
-# VI. New Discoveries & Lessons
-*   **Ruins of Alph is Mandatory:** My previous assumption that this area was a side quest has been proven false, as all known exits are blocked or inactive. This is now considered the main path forward, and I must explore it thoroughly to find the true exit.
+# V. New Discoveries & Lessons
+*   **Ruins of Alph Puzzle:** Solving the Kabuto puzzle caused Unown to appear in the inner chambers. This seems to be the intended progression.
 *   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
 
-# VII. Puzzle Solutions
+# VI. Puzzle Solutions
 
 ## A. Ruins of Alph (Kabuto Puzzle)
-*   **Hypothesis 1 (Failed):** The puzzle is solved by arranging the 16 pieces to form an image of the Pokémon Kabuto. 
+*   **Hypothesis 1 (Failed):** The puzzle is solved by arranging the 16 pieces to form an image of the Pokémon Kabuto.
     *   **Test:** All pieces were arranged correctly into the Kabuto image.
     *   **Result:** The game did not automatically exit the puzzle screen.
     *   **Conclusion:** This hypothesis is incorrect.
@@ -79,8 +69,9 @@
     *   **Test:** Pressed 'B' after arranging all pieces.
     *   **Result:** The puzzle interface closed, returning me to the chamber. The puzzle was not marked as solved.
     *   **Conclusion:** The puzzle is either optional, or the solution is not simply arranging the pieces. Abandoning the puzzle to explore other paths.
+*   **Hypothesis 4 (Confirmed):** The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces. This led to the inner chamber where Unown appeared.
 
-# VIII. Custom Tools & Agents
+# VII. Custom Tools & Agents
 
 *   `find_path_to_target`: Finds the shortest path from the player's current position to a specified target coordinate.
 *   `find_reachable_unseen_tiles`: Finds all unseen tiles that are reachable from the player's current position.
@@ -92,9 +83,13 @@
 *   `exploration_strategist`: Recommends the next best tile to explore based on the primary goal.
 *   `puzzle_solver_assistant`: Analyzes a puzzle room and proposes a plan of hypotheses to test.
 
-# IX. Reflection Takeaways (Turn 5683)
-*   **Repetitive Action Loop (CRITICAL):** The system identified a major failure where I was stuck in a repetitive loop in the Ruins of Alph Inner Chamber. My assumption that the solution *must* be in that chamber was incorrect. I must be more willing to abandon a failing hypothesis and change my entire approach. My new plan is to exit this area and explore other paths.
-*   **Immediate Action Mandate (Reinforced):** I continue to fail to mark warps and other discoveries *immediately*. All data management tasks must be performed in the same turn as the discovery. This is non-negotiable.
-*   **Untested Assumption (Ruins of Alph):** My primary assumption is that the Ruins of Alph is the mandatory path to Azalea Town.
-    *   **Alternative Hypothesis:** The Ruins of Alph is an optional side-dungeon, and the true path is south from the Pokémon Center on Route 32.
-    *   **Test Plan:** After fully exploring the `RuinsOfAlphOutside` area, if no path forward is found, I will return to Route 32 and explore south.
+# VIII. Reflection Log & Untested Assumptions
+
+## A. 50-Turn Reflection (Turn 5735)
+*   **Immediate Action Mandate (Failure):** I continue to fail to perform data management tasks immediately. I deferred marking the Research Center warp and fixing my pathfinder. This must be my top priority to correct.
+*   **Untested Assumption 1:** The main path to Azalea Town is south from Route 32.
+    *   **Alternative Hypothesis:** The path is through a different, unexplored part of Union Cave or the Ruins of Alph.
+    *   **Test:** Proceed south on Route 32. If a dead end is reached, the assumption is false.
+*   **Untested Assumption 2:** The unmarked warp at (7, 5) on the Ruins of Alph Outside map is just another puzzle chamber.
+    *   **Alternative Hypothesis:** It is a shortcut or the main path forward.
+    *   **Test:** Enter the warp.
