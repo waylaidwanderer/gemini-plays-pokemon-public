@@ -32,7 +32,7 @@
 *   **BUOY:** Impassable. Functions as a wall in water.
 *   **TV:** Impassable object. (Hypothesis)
 *   **TOWN_MAP:** Impassable object. (Hypothesis)
-*   **RADIO:** Impassable object. (Hypothesis - To be tested this turn)
+*   **RADIO:** Impassable object. Can be interacted with for text.
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
