@@ -95,3 +95,4 @@
 
 # IX. Story Clues & Hints
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
+* Wade called again about the Bug-Catching Contest at the National Park today.
