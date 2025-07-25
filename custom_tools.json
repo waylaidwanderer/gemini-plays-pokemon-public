@@ -172,6 +172,16 @@
         "commit_message": "feat: Add map marker awareness to pathfinder. The tool will now read map markers from the XML and treat tiles with object-linked markers (excluding defeated trainers and collected items) as impassable. This prevents the tool from generating invalid paths that run through known obstacles that are currently off-screen, addressing a critical pathing failure.",
         "timestamp": "2025-07-25T01:52:48.446Z",
         "action_counter": 5840
+      },
+      {
+        "commit_message": "debug: Add print statements to test whitespace hypothesis. This commit adds logging to check the raw `tile_type` string for tile (57, 6) and the result of the `in IMPASSABLE_TILE_TYPES` check. This directly implements the debugging plan from the `script_debugger` agent to diagnose why the tool is routing through a known impassable tile.",
+        "timestamp": "2025-07-25T01:57:45.293Z",
+        "action_counter": 5844
+      },
+      {
+        "commit_message": "refactor: Remove debug prints. The whitespace hypothesis was incorrect, and the debug prints are no longer needed. This restores the tool to a clean state for further, more methodical testing.",
+        "timestamp": "2025-07-25T01:59:13.761Z",
+        "action_counter": 5846
       }
     ]
   },
