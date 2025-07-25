@@ -67,3 +67,18 @@
 
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
+
+# V. Current Objective: Victory Road 1F Puzzle
+
+## Failed Hypotheses
+1. Pushing boulder at (6, 16) north blocks the path. (Attempt 1)
+2. Pushing boulder at (3, 11) to (3, 10) does not open the barrier at (10, 13). (Attempt 1)
+
+## New Plan
+**Hypothesis:** Solving the eastern boulder puzzle will open the barrier at (10, 13), granting access to the ladder at (2, 2).
+
+**Test Plan:**
+1. Navigate to the eastern boulder at (15, 3).
+2. Push the boulder onto the switch at (18, 14).
+3. Navigate to (9, 13) to check if the barrier at (10, 13) is open.
+4. If open, proceed to the ladder at (2, 2).
