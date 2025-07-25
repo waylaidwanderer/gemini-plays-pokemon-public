@@ -99,3 +99,4 @@
     3.  Moved onto lower tile (4, 7) from the right.
     4.  Interacted with lower tile (4, 7) with 'A'.
     5.  Re-entered upper tile (4,6) from the right.
+*   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left. (Hypothesis, needs testing by attempting to move left onto it).
