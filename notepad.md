@@ -59,12 +59,13 @@
 - **Status:** In Progress.
 - **Goal:** Reach the ladder at (2, 2) to ascend to Victory Road 2F.
 - **Conclusion (from failed tests):** The western platform is a dead end. Ascending the steps at (6, 14) before solving the eastern puzzle results in a soft-lock. The ladder at (2, 2) is unreachable until the barrier at (10, 13) is cleared.
-- **Correct Plan:**
-  1. Exit Victory Road 1F to reset the puzzle state.
-  2. Re-enter and navigate to the eastern steps at (8, 8).
-  3. Ascend and solve the eastern boulder puzzle to clear the barrier at (10, 13).
-  4. Cross over to the now-accessible western platform and solve its boulder puzzle.
-  5. Ascend the ladder at (2, 2).
+- **Correct Plan (v2):**
+  1. Push the boulder at (6, 16) north to (6, 15) to unblock the main path.
+  2. Navigate to the eastern steps at (8, 8) and ascend.
+  3. Solve the eastern boulder puzzle to clear the barrier at (10, 13).
+  4. Cross over to the western platform.
+  5. Solve the western boulder puzzle to unblock the ladder.
+  6. Ascend the ladder at (2, 2).
 
 # V. Archives
 
