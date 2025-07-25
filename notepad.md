@@ -58,11 +58,11 @@
 # IV. Current Objective: Victory Road 1F Puzzle
 - **Status:** In Progress.
 - **Goal:** Reach the ladder at (2, 2) to ascend to Victory Road 2F.
-- **Current Plan (FINAL, FINAL CORRECTED):**
-  1. From the entrance, navigate to the western steps at (6, 14).
-  2. Ascend to the western platform.
-  3. Push the boulder at (3, 11) to clear the path to the ladder.
-  4. Ascend the ladder at (2, 2).
+- **Hypothesis:** The system reports the ladder at (2, 2) as unreachable because the boulder at (3, 11) is currently blocking the path. Solving this puzzle will make the ladder accessible.
+- **Test Plan:**
+  1. Ascend the western steps at (6, 14).
+  2. Push the boulder at (3, 11) south to (3, 12).
+  3. Attempt to navigate to the ladder at (2, 2).
 
 # V. Archives
 
