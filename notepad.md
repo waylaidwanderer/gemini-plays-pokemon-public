@@ -97,3 +97,4 @@
 # IX. High-Priority Tasks
 *   Verify if the Team Rocket markers in Azalea Town are still relevant or if the NPCs have disappeared.
 *   Test seemingly impassable objects like bookshelves and radios to confirm they are not interactable in a meaningful way.
+*   **Ilex Forest:** There's an unmarked warp at (3, 43) that needs investigation.
