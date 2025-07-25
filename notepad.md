@@ -88,7 +88,6 @@
     *   **Conclusion:** The replicas are not interactive post-puzzle. This chamber appears to be fully explored.
 *   **Route 36 (Eastern Section):** Confirmed dead end. The strange tree at (35, 9) blocks the main path west. The reachable area is an 'island' with no access to the western part of the route.
 *   **Unseen Tiles on Route 30 & New Bark Town:** My `find_reachable_unseen_tiles` tool has confirmed that all unseen tiles on these maps are on inaccessible islands across the water. They are not currently reachable.
-*   **select_battle_option Misunderstanding (CRITICAL):** I repeatedly failed to use the existing `select_battle_option` tool, incorrectly believing it was a hallucination. This is a critical failure to consult my available tools. I MUST use this tool for all main battle menu selections to ensure reliability.
 
 # XI. Puzzles & Blockages
 
