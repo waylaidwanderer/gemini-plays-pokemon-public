@@ -82,6 +82,7 @@
 *   **Kurt's Location:** I assume this house (CharcoalKiln) belongs to Kurt. **Test:** Find an NPC who identifies as Kurt.
 *   **Moltres Sprite:** I assume the Moltres sprite is decorative. **Alternative:** It's an interactable object/switch. **Test:** Interact with it after speaking to all human NPCs.
 *   **Slowpoke Well:** I assume the well is the key to the town's problem. **Alternative:** The 'forest's protector' is the real key. **Test:** Find a way past the Rocket Grunt, likely by advancing the Kurt plotline.
+*   **Rocket Grunt Blockage:** I assume getting past the Rocket Grunt requires interacting with Kurt. **Alternative:** Another trigger exists in town. **Test:** Systematically re-explore all buildings and talk to all NPCs if the Kurt plotline stalls.
 
 # IX. High-Priority Tasks
 *   Use `team_composition_advisor` before challenging the Azalea Town Gym.
@@ -90,4 +91,4 @@
 *   **COUNTER:** Impassable. To interact with an NPC behind a counter, stand on the tile directly in front of them and press A.
 
 ## C. Map Marker Mechanics
-*   **Static Nature:** Markers linked to an `object_id` do NOT move with the object. They are static. To track a moving object, the old marker must be deleted and a new one created at the new coordinates.
+*   **Dynamic Nature:** Markers linked to an `object_id` WILL move with the object. This is useful for tracking moving NPCs.
