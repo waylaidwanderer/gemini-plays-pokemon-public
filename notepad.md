@@ -69,4 +69,5 @@
 # VI. Victory Road 1F Puzzle Status
 - **Status:** In Progress
 - **Failed Hypothesis (Attempt 1):** The boulder at (6, 16) was a red herring; pushing it made it disappear.
-- **New Hypothesis:** The boulder at (9, 17) must be pushed onto the switch at (18, 14) to open the boulder barrier at (10, 13).
+- **Failed Hypothesis (Attempt 2):** The boulder at (9, 17) must be pushed onto the switch at (18, 14). Pushing it north to (10, 15) soft-locks it, as the path is blocked by impassable tiles.
+- **New Plan:** The puzzle must be reset by leaving and re-entering the map. There must be another solution I am missing.
