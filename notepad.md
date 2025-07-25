@@ -50,20 +50,15 @@
 # III. Core Gameplay Lessons
 - **Core Principle: Fix, Don't Defer.** Critical tools with known bugs MUST be fixed immediately. Deferring fixes is a strategic failure.
 - **Core Principle: Verify, Then Trust.** Tool outputs and personal assumptions are hypotheses, not facts. They must be verified against the game state before being trusted. The Game State Information is the only source of truth.
+- **Core Principle: Agent vs. Tool.** Agents are for reasoning and planning. Tools are for computation and data processing. A task that can be solved with code (like simulating a puzzle) MUST be a tool, not an agent.
+- **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points (like ladders, stairs, or puzzle elements) are actually reachable from the current position to avoid building strategies on flawed assumptions.
 - **Boulder Puzzle Strategy:** Before pushing any boulder, use the pathfinder to verify the entire route for both the player and the boulder to prevent soft-locking.
 - **Debugging Strategy:** When a tool fails, add extensive logging to understand its internal state before attempting a fix.
 
 # IV. Current Objective: Victory Road 1F Puzzle
-
-- **Status:** In Progress. Confirmed to be isolated in the western section of the map.
-- **Key Insight:** The solution cannot be solved from 1F alone and must involve Victory Road 2F.
-- **Generated Hypotheses (from Agent):**
-  1. A boulder on 2F can be pushed through a hole, landing on the switch at (18, 14) on 1F.
-  2. A separate path on 2F leads to a different ladder/hole that descends to the eastern section of 1F.
-  3. One of the boulders on 1F must be pushed onto a hidden, unmarked switch tile.
-  4. The boulder configuration on 1F affects the puzzle state on 2F.
-- **Current Hypothesis (Abandoned):** Pushing a boulder onto a hidden switch in the western section. This was based on the flawed assumption of being trapped. The area is a confirmed dead-end with an exit warp.
-- **Next Step:** Exit Victory Road 1F and re-enter to solve the puzzle from the beginning, focusing on the main path.
+- **Status:** In Progress.
+- **Goal:** Reach the ladder at (2, 2) to ascend to Victory Road 2F.
+- **Current Plan:** The path is blocked by the boulder at (6, 16). I must push this boulder north to unblock the path to the eastern side of the map. From there, I can access the steps at (8, 8) to solve the main boulder puzzle involving the switch at (18, 14).
 
 # V. Archives
 
