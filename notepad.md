@@ -104,3 +104,6 @@
 *   **Tool Failure:** My `find_reachable_unseen_tiles` tool is confirmed broken. It returned an empty list on Route 33, but the system correctly identified adjacent unseen tiles. This is a critical failure in my exploration toolkit that must be fixed immediately.
 *   **Tile Mechanics:** I have not yet documented `LEDGE_HOP_LEFT`. I need to add it to my investigation list.
 *   **Agent Usage:** I will make a more concerted effort to use my `procedural_overseer` agent if I find myself repeating actions without success.
+
+# Data Management (Turn 6982)
+*   **Overwatch Critique:** Must delete redundant '📍 POKE_BALL' marker at (4, 17) in Union Cave 1F upon return.
