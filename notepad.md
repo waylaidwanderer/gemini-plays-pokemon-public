@@ -116,3 +116,8 @@
 - **Hypothesis:** The tile at (16, 14), currently marked as `impassable`, might be a secret passage or a walk-through wall. All other avenues for solving this puzzle have been exhausted.
 - **Test:** Path to (16, 15) and attempt to walk north into (16, 14).
 - **Status:** In progress.
+
+### Attempt 11 (FAILED)
+- **Hypothesis:** The tile at (16, 14), marked as `impassable`, was a secret passage.
+- **Test:** Navigated to (16, 15) and attempted to walk north.
+- **Conclusion:** The tile is a solid wall. The hypothesis is incorrect. All direct paths to push the boulder at (17, 14) onto the switch are blocked.
