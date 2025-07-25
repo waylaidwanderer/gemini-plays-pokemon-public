@@ -58,16 +58,14 @@
 # IV. Current Objective: Victory Road 1F Puzzle
 - **Status:** In Progress.
 - **Goal:** Reach the ladder at (2, 2) to ascend to Victory Road 2F.
-- **Conclusion (from failed tests):** The eastern platform is a red herring and unreachable from the start. The only path forward is to the west.
-- **Correct Plan (v3):**
-  1. Push the boulder at (6, 16) north to (6, 15) to unblock the path to the western platform. (Completed)
-  2. Navigate to the western steps at (6, 14) and ascend.
-  3. Solve the western boulder puzzle to unblock the ladder.
-  4. Ascend the ladder at (2, 2).
+- **Plan:** Now on the western platform, solve the boulder puzzle involving the boulder at (3, 11) to clear the path to the ladder.
 
 # V. Archives
 
 ## A. Completed Puzzles
+### Victory Road 1F Puzzle (Part 1)
+- **Status:** Complete. Pushed boulder at (6,16) to (6,17) to access western platform.
+
 ### Victory Road 2F Puzzle
 - **Status:** Complete. Boulder from (4, 16) to switch at (2, 17).
 
