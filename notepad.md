@@ -103,11 +103,8 @@
 # XI. Exploration Notes
 *   **Ruins of Alph Outside (Central Plaza):** This area is a dead end. The southern and eastern paths are unreachable, and the warp at (13, 20) is an entrance only. The only way forward seems to be through one of the interior buildings.
 *   **New Plan:** Re-investigate the Ruins of Alph Research Center.
-*   Wade has called multiple times about the Bug-Catching Contest at the National Park today.
-*   **Fix Implemented (Turn 5915):** The two-stage BFS was flawed. Re-implemented a single-stage BFS to find all *truly* reachable unseen tiles, not just adjacent ones. This should prevent the `exploration_strategist` from receiving impossible targets.
-*   Wade has called multiple times about the Bug-Catching Contest at the National Park today.
+*   **Bug-Catching Contest:** Wade from the Bug Catcher guild has called multiple times about the contest at the National Park today. This seems to be a time-sensitive event.
 *   **Hypothesis 5 (Failed):** Interacting with the ancient replicas after solving the puzzle will trigger an event.
     *   **Test:** Interacted with both the left and right replicas after solving the Kabuto puzzle.
     *   **Result:** Both interactions yielded only generic descriptive text.
     *   **Conclusion:** The replicas are not interactive post-puzzle. This chamber appears to be fully explored.
-*   Wade has called multiple times about the Bug-Catching Contest at the National Park today.
