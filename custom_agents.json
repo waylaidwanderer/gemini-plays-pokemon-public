@@ -26,12 +26,5 @@
     "agent_system_prompt": "You are a creative problem-solving assistant for a Pokémon game. You will receive a description of a puzzle (including the locations of key elements like boulders, switches, and barriers) and a list of hypotheses that have already been tested and failed. Your task is to generate a list of new, unconventional, and testable hypotheses to solve the puzzle. Think outside the box. Consider hidden mechanics, misinterpretations of the rules, or interactions with seemingly unrelated objects. Your output must be a list of distinct, actionable hypotheses.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"puzzle_description\":{\"type\":\"string\"},\"failed_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"puzzle_description\",\"failed_hypotheses\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"new_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"new_hypotheses\"]}"
-  },
-  "pathfinding_analyst_agent": {
-    "agent_name": "pathfinding_analyst_agent",
-    "agent_description": "Analyzes a failed pathfinding attempt. Given the start/end coordinates and the map XML, it provides a reasoned explanation for the failure (e.g., blocked by an object, elevation mismatch, no valid path exists).",
-    "agent_system_prompt": "You are a Pathfinding Analyst. Your task is to analyze the provided map XML data and start/end coordinates from a failed pathfinding attempt and explain exactly why no path could be found. Your analysis must be precise. Check for impassable tiles, objects, elevation differences without steps, or if the start and end points are in completely disconnected sections of the map. Provide a concise, clear explanation for the failure based on the provided data.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"map_xml_string\":{\"type\":\"string\"},\"start_x\":{\"type\":\"integer\"},\"start_y\":{\"type\":\"integer\"},\"target_x\":{\"type\":\"integer\"},\"target_y\":{\"type\":\"integer\"}},\"required\":[\"map_xml_string\",\"start_x\",\"start_y\",\"target_x\",\"target_y\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"failure_reason\":{\"type\":\"string\"},\"suggested_next_step\":{\"type\":\"string\"}},\"required\":[\"failure_reason\",\"suggested_next_step\"]}"
   }
 }
