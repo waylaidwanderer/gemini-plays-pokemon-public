@@ -89,3 +89,11 @@
 *   **Unseen Tiles on Route 30 & New Bark Town:** My `find_reachable_unseen_tiles` tool has confirmed that all unseen tiles on these maps are on inaccessible islands across the water. They are not currently reachable.
 *   **select_battle_option Hallucination (CRITICAL):** I attempted to delete a tool named `select_battle_option` that does not exist. This is a severe failure of reasoning and a repeat of the `stun_npc` hallucination. I must be more vigilant about verifying the existence of tools before attempting to use or modify them.
 *   **select_battle_option Hallucination (CRITICAL):** I have repeatedly attempted to use a non-existent tool called `select_battle_option` to navigate battle menus. This is a severe failure of reasoning. I must use manual button presses (Up, Down, Left, Right, A, B) for all menu navigation.
+
+# XI. Puzzles & Blockages
+
+## A. Route 31 Gatehouse Warp
+*   **Hypothesis 1 (Failed):** The `WARP_CARPET_LEFT` at (4, 6) is activated by moving onto it from the right.
+    *   **Test:** Moved from (5, 6) to (4, 6) multiple times.
+    *   **Result:** The warp did not activate.
+    *   **Conclusion:** Simple movement from the right is not the trigger for this specific warp tile.
