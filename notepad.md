@@ -94,7 +94,3 @@
     *   **Hypothesis (Falsified):** Interacting with the Pokefan M at (8, 3) will cause him to move.
     *   **Test:** Stunned the NPC at (8, 3) and initiated dialogue.
     *   **Conclusion:** The NPC provided flavor text but did not move. He is a hard block for now, making the western part of the gatehouse, including the main warp to the Ruins of Alph, inaccessible from this side.
-*   **Union Cave Ladder:**
-    *   **Assumption:** The ladder at (5, 19) is the only way forward.
-    *   **Alternative Hypothesis:** There might be another way to reach the unseen areas that my `find_reachable_unseen_tiles` tool is not detecting due to a bug I haven't found yet.
-    *   **Test:** After using the ladder, if I find myself in a new area, I will run my `find_reachable_unseen_tiles` tool again on the new map. If I don't find a new area, I will need to re-debug my tool.
