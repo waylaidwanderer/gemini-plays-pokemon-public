@@ -54,6 +54,7 @@
 *   **stun_npc Hallucination (CRITICAL):** I hallucinated the existence of a `stun_npc` tool on turns 5974 and 5977. This is a major failure in reasoning. I must rely only on the tools explicitly available to me.
 *   **Ruins of Alph Puzzle:** Solving the Kabuto puzzle caused Unown to appear in the inner chambers. This seems to be the intended progression.
 *   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
+*   **Tool Development Failures:** I have repeatedly failed to perform data management and tool refinement immediately. My `find_reachable_unseen_tiles` tool was broken for over 200 turns. This is a severe violation of core directives and must not happen again.
 
 # VI. Puzzle Solutions
 
