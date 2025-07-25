@@ -112,9 +112,10 @@
 
 ### Victory Road 1F Puzzle - Attempt 9 (Current)
 - **Hypothesis:** The boulder at (11, 15) on the lower level can be pushed to the switch at (18, 14) to open the barrier at (10, 13) on the upper level.
-- **Plan:**
-  1. Move to (10, 15).
-  2. Push boulder from (11, 15) right to (18, 15).
-  3. Path to (18, 16).
-  4. Push boulder from (18, 15) up to the switch at (18, 14).
-- **Note:** Observed strange mechanic where pushing the boulder from (10,15) to (11,15) did not move the player from (9,15).
+- **Plan (Corrected):**
+  1. Push boulder from its current position right to (17, 15).
+  2. Path to (17, 16).
+  3. Push boulder from (17, 15) up to (17, 14).
+  4. Path to (16, 14).
+  5. Push boulder from (17, 14) right to the switch at (18, 14).
+- **Note:** The standard boulder-pushing mechanic (player moves into the boulder's old space) seems to be working again. The previous observation might have been an anomaly.
