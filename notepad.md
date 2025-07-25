@@ -71,15 +71,11 @@
 
 ## Failed Hypotheses Log:
 - **Attempt 1:** Pushing the boulder at (15, 3) to the switch at (18, 14). **Result:** FAILED. Boulder is unreachable.
-- **Attempt 2:** Pushing the boulder at (6, 16) to the switch at (18, 14). **Result:** FAILED. The boulder got stuck at (6, 15) because it cannot be pushed onto the 'steps' tile at (6, 14) or into the wall at (7, 15).
+- **Attempt 2:** Pushing the boulder at (6, 16) *up* to (6, 15). **Result:** FAILED. The boulder got stuck at (6, 15) because it cannot be pushed onto the 'steps' tile at (6, 14) or into the wall at (7, 15).
 - **Attempt 3:** Pushing the boulder at (3, 11) to the switch at (18, 14). **Result:** FAILED. Got stuck in a small alcove with no way to continue pushing.
 - **Attempt 4:** Using ITEMFINDER to find a hidden switch. **Result:** FAILED. ITEMFINDER did not respond.
+- **Attempt 5:** Pathing to the 2F ladder at (2, 2) is impossible from the current area. This confirms the solution must be on 1F.
 
-## New Hypotheses (from Agent):
-1. The solution involves a hole on Victory Road 2F.
-2. The barrier can be destroyed with a field move (e.g., Rock Smash). (Invalid - no such move)
-3. The puzzle requires interaction between boulders. (Low Priority)
-4. Leaving and re-entering the map will reset the boulders. (Fallback plan)
-5. The player character activates the switch. (Low Priority - already tested standing on it)
-
-- **Current Plan:** Test Hypothesis #1 (find a hole on 2F). This requires finding a path to the 2F ladder.
+## New Hypothesis
+- **Hypothesis #6:** Pushing the boulder at (6, 16) *down* to (6, 17) is the correct first step.
+- **Current Plan:** Navigate to (6, 15) to test Hypothesis #6.
