@@ -15,6 +15,7 @@
 ### Warp Tiles:
 *   **WARP_CARPET_DOWN:** One-way warp. Activated by pressing 'Down'.
 *   **WARP_CARPET_LEFT:** One-way warp. Activated by pressing 'Left'.
+*   **WARP_CARPET_RIGHT:** One-way warp. Activated by pressing 'Right'.
 
 ### Confirmed Impassable:
 *   **WALL:** Confirmed impassable. Blocks movement from all directions.
@@ -87,6 +88,7 @@
 # X. Strategic Reminders
 *   **Agent Usage:** I must remember to use the `team_composition_advisor` agent before the next major battle and the `procedural_overseer` agent before making significant strategic pivots.
 *   **Map Markers:** I need to use more descriptive labels for my markers and link them to their `object_id` when possible to improve long-term tracking.
+*   **Marker Update Needed:** When returning to Route32RuinsOfAlphGate, update the marker for the warp at (9, 5) to point to Route 32.
 
 # XI. Untested Assumptions & Falsification Tests
 *   **Pokefan M in Route 32 Gatehouse (Confirmed):**
@@ -97,6 +99,3 @@
     *   **Assumption:** The warps at (0, 5) and (9, 5) are non-essential side rooms.
     *   **Alternative Hypothesis:** One of these warps is the correct path forward.
     *   **Test:** If I become stuck after exploring the Ruins of Alph, I must return to this gatehouse and investigate these warps.
-*   **WARP_CARPET_RIGHT Tile:**
-    *   **Assumption:** This tile functions identically to WARP_CARPET_LEFT, activated by pressing 'Right'.
-    *   **Test:** Stand on the tile at (9, 4) or (9, 5) and press 'Right'.
