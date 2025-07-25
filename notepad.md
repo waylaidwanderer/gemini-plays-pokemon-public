@@ -78,3 +78,4 @@
 - **Attempt 6:** Pushing the boulder at (6, 16) *down* to (6, 17). **Result:** FAILED. Soft-locked in a small area, unable to continue pushing.
 - **Attempt 7:** Pushing the boulder at (3, 11) *north* to (3, 10). **Result:** FAILED. Soft-locked, blocking path to other areas.
 - **Attempt 8:** Using FLY to escape the map and reset the puzzle. **Result:** FAILED. The game message "ECHO can't FLY here" appeared.
+- **Attempt 8:** Using FLY to escape the map and reset the puzzle. **Result:** FAILED. The game message "ECHO can't FLY here" appeared.
