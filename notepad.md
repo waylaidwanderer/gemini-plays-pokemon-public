@@ -104,3 +104,4 @@
 # XI. Exploration Notes
 *   **Ruins of Alph Outside (Central Plaza):** This area is a dead end. The southern and eastern paths are unreachable, and the warp at (13, 20) is an entrance only. The only way forward seems to be through one of the interior buildings.
 *   **New Plan:** Re-investigate the Ruins of Alph Research Center.
+*   Wade has called multiple times about the Bug-Catching Contest at the National Park today.
