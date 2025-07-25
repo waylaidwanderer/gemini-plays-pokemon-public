@@ -70,7 +70,7 @@
 - **Current State:** Trapped in the western section. Boulders at (6,17) and (3,10) block progress.
 
 ## Current Hypotheses (from Agent)
-- The boulder starting at (6, 16) must be pushed to the switch at (18, 14). This requires a sequence of pushes: South, then East repeatedly.
+- A hidden item is under the boulder at (6, 17), findable with the Itemfinder.
 - The solution requires a specific sequence of pushes on the boulder at (6, 17).
 - A hidden item is under the boulder at (6, 17), findable with the Itemfinder.
 
