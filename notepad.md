@@ -20,7 +20,7 @@
 ### Confirmed Impassable:
 *   **WALL:** Confirmed impassable. Blocks movement from all directions.
 *   **WINDOW:** Impassable. Functions as a wall.
-*   **COUNTER:** Impassable. Interact with NPCs from the front.
+
 *   **PC:** Impassable. Functions as an object.
 *   **VOID:** Impassable. Appears as a black abyss.
 *   **CUT_TREE:** Impassable. Likely requires HM Cut.
@@ -82,4 +82,3 @@
 # IX. High-Priority Tasks
 *   **Pathfinder Trust:** My `find_path_to_target` tool correctly identified that the warp at (5, 0) on Pokecenter2F was unreachable. I initially assumed the tool was broken, but the path is blocked by an NPC. I must trust my tool's output and verify the map layout before concluding a tool is faulty.
 *   HM moves can be used even if the Pokémon is fainted.
-*   **COUNTER:** Impassable. Interact with NPCs from the front.
