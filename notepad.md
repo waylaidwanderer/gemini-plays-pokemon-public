@@ -80,7 +80,7 @@
 *   `team_composition_advisor`: Recommends a team composition for a specific opponent type.
 *   `script_debugger`: Analyzes faulty Python scripts and provides debugging plans.
 *   `exploration_strategist`: Recommends the next best tile to explore based on the primary goal.
-*   `puzzle_solver_assistant`: Proposes a plan of hypotheses to solve puzzles.
+*   `puzzle_solver_assistant`: Analyzes the current situation in a puzzle room and proposes a structured plan of hypotheses to test in a logical order to find the solution.
 
 # VIII. Reflection Log & Untested Assumptions
 
