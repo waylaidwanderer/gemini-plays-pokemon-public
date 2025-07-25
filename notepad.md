@@ -50,23 +50,23 @@
 # III. Current Objective: Victory Road
 **Primary Goal:** Navigate through Victory Road to reach the Pokémon League.
 
-## A. Victory Road 1F Puzzle Plan 2.0
-**Current State:** The boulder barrier at (10, 13) is closed. My pathfinder tool is bugged, and my previous plan was based on a flawed assumption.
-**Puzzle Components (from `puzzle_solver_tool`):
-- Boulders: (15, 3), (3, 11), (17, 14)
-- Switch: (18, 14)
-- Barrier: (10, 13)
-**New Hypothesis:** One of the three boulders must be pushed onto the switch. The previous attempt with the boulder at (17, 14) failed because the path is blocked by an impassable wall at (16, 14).
-**Current Step:** First, I must fix my `gem_pathfinder` tool. Once the tool is reliable, I will use it to test the reachability of the other two boulders at (15, 3) and (3, 11). This will determine the correct starting point for the puzzle.
+## A. Victory Road 1F Puzzle - New Plan: Exhaustive Search
+**Current State:** I have systematically proven that all three boulders on this floor—(17, 14), (15, 3), and (3, 10)—are impossible to move onto the switch at (18, 14) due to physical blockages or unreachability. My previous hypotheses were all incorrect, and my pathfinder tool is unreliable.
+**New Hypothesis:** There must be a hidden mechanic or secret passage in this area that I am missing.
+**Next Step:** I will deploy the `brute_force_explorer` tool. This tool will systematically navigate to every single reachable tile in this area and interact with all adjacent tiles (Up, Down, Left, Right). This exhaustive search is designed to uncover any hidden interactions that are not apparent from the map data alone. This is my last resort before concluding I am fundamentally misunderstanding the map's layout.
 
 ## B. Archived/Failed Plans
-### Victory Road 1F Puzzle - Attempt 2 (FAILED)
-- **Hypothesis:** The boulder starting at (6, 17) could be pushed to the switch at (18, 14).
-- **Conclusion:** This was incorrect. The path is blocked by an impassable wall at (16, 14), which I failed to notice due to a hallucination and a faulty pathfinder. This highlights the danger of confirmation bias and the need to trust the map data over intuition.
+### Victory Road 1F Puzzle - Attempt 4 (FAILED)
+- **Hypothesis:** The 'impassable' tile at (16, 14) was a secret passage.
+- **Conclusion:** This was based on a complete hallucination. I never even reached the tile to test it. The path is blocked.
 
 ### Victory Road 1F Puzzle - Attempt 3 (FAILED)
-- **Hypothesis:** The boulder at (3, 11) was the correct starting point.
-- **Conclusion:** This was incorrect. The boulder at (3, 10) is blocked from being pushed north by an impassable wall at (3, 9). This path is impossible.
+- **Hypothesis:** The boulder at (3, 10) was the correct starting point.
+- **Conclusion:** This was incorrect. The boulder is blocked from being pushed north by an impassable wall at (3, 9).
+
+### Victory Road 1F Puzzle - Attempt 2 (FAILED)
+- **Hypothesis:** The boulder starting at (6, 17) could be pushed to the switch at (18, 14).
+- **Conclusion:** This was incorrect. The path is blocked by an impassable wall at (16, 14).
 
 ### Victory Road 1F Puzzle - Attempt 1 (FAILED)
 - **Hypothesis:** The boulder at (3, 11) was the first step.
@@ -90,7 +90,3 @@
 
 # VI. Tool & Agent Ideas
 - **Puzzle Strategist Agent:** An agent that takes the output of the `puzzle_solver_tool` (a list of puzzle components) and suggests a logical, sequential plan to solve the puzzle. This would be the next step after getting a reliable component list.
-
-### Victory Road 1F Puzzle - Attempt 4 (Desperation)
-- **Hypothesis:** The 'impassable' tile at (16, 14) is secretly traversable, allowing access to push the boulder at (17, 14) onto the switch.
-- **Test:** Navigate to the adjacent tile (15, 14) and attempt to walk right into (16, 14).
