@@ -85,3 +85,9 @@
 
 # IX. High-Priority Tasks
 *   Use `team_composition_advisor` before challenging the Azalea Town Gym.
+
+### Impassable with Interaction:
+*   **COUNTER:** Impassable. To interact with an NPC behind a counter, stand on the tile directly in front of them and press A.
+
+## C. Map Marker Mechanics
+*   **Static Nature:** Markers linked to an `object_id` do NOT move with the object. They are static. To track a moving object, the old marker must be deleted and a new one created at the new coordinates.
