@@ -111,3 +111,8 @@
 - **Hypothesis:** The boulder switch at (18, 14) opens the boulder barrier at (10, 13).
 - **Test:** Push a boulder onto the switch.
 - **Status:** Currently unable to test as no reachable boulder has a clear path to the switch.
+
+### Attempt 10 (Current)
+- **Hypothesis:** The tile at (16, 14), currently marked as `impassable`, might be a secret passage or a walk-through wall. All other avenues for solving this puzzle have been exhausted.
+- **Test:** Path to (16, 15) and attempt to walk north into (16, 14).
+- **Status:** In progress.
