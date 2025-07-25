@@ -63,7 +63,7 @@
 
 ## A. Completed Puzzles
 ### Victory Road 2F Puzzle
-- **Status:** Complete. Boulder from (4, 17) to switch at (2, 17).
+- **Status:** Complete. Boulder from (4, 16) to switch at (2, 17).
 
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
