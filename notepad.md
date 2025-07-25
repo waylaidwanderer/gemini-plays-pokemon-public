@@ -81,3 +81,4 @@
 
 # IX. High-Priority Tasks
 *   **CRITICAL:** Mark the warp on Route 33 at (0, 15) leading to Azalea Town. This was a failure to follow core directives.
+*   **CRITICAL (Warp Marking):** Mark the warp on Route 33 at (0, 15) leading to Azalea Town. This was a failure to follow core directives.
