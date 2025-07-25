@@ -91,8 +91,6 @@
 # VI. Tool & Agent Ideas
 - **Puzzle Strategist Agent:** An agent that takes the output of the `puzzle_solver_tool` (a list of puzzle components) and suggests a logical, sequential plan to solve the puzzle. This would be the next step after getting a reliable component list.
 
-- **Ladder (`ladder_up`, `ladder_down`):** Functions as an instant 1x1 warp between floors.
-
 # VII. Tool Refinement Notes
 - **`brute_force_explorer`:** The current implementation generates a single, massive list of button presses which is often truncated by the system. It should be modified to return a list of smaller, sequential action chunks to be executed one at a time.
 
