@@ -10,7 +10,7 @@
 - **Boulder Switch:** A floor switch activated by a boulder. Is a traversable tile.
 - **Boulder Barrier:** An impassable barrier that becomes a `cleared_boulder_barrier` tile when the corresponding switch is activated.
 - **Cleared Boulder Barrier:** A traversable ground tile that appears after a boulder puzzle is solved. It allows movement between different elevations, acting like a ramp.
-- **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles.
+- **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles. Pushing boulders onto them is not possible.
 - **Ladders (`ladder_up`, `ladder_down`):** Function as instant 1x1 warps between floors. `ladder_up` leads to a higher floor, `ladder_down` leads to a lower floor.
 - **Hole:** A tile that functions as a warp, dropping the player to a lower floor. Boulders can be pushed into these to affect puzzles on the floor below.
 - **Spinner (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Forces movement in the specified direction.
@@ -53,6 +53,17 @@
 # III. Active Plans
 - **Current Objective:** Navigate through Victory Road to reach the Pokémon League.
 
+### Victory Road 1F Puzzle Plan
+**Objective:** Push the boulder at (3, 11) to the switch at (18, 14).
+**Hypothesis:** The correct path for the boulder is up to row 10, then right to column 18, then down to the switch.
+**Steps:**
+1. Move to (3, 12).
+2. Push boulder at (3, 11) up to (3, 10).
+3. Reposition to (2, 10).
+4. Push boulder right repeatedly to (18, 10).
+5. Reposition to (18, 9).
+6. Push boulder down repeatedly to (18, 14).
+
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
 - **Verify Tool Outputs Before Trusting:** A faulty plan is worse than no plan. My tools can have bugs, and I must verify their outputs before blindly following them. This is especially true after correcting a tool's logic.
@@ -78,14 +89,3 @@
 - **Objective:** Solve the floor's puzzle to proceed.
 - **Solution:** The puzzles on this floor were a red herring. The true path forward was a secret, unmarked ladder at (3, 1) discovered by exploring an unseen tile. This ladder leads to a new area of Victory Road 2F.
 - **Trust System Data Over Intuition:** The system's 'is_in_dead_end_area' flag and 'reachable_unseen_tiles' count are sources of truth. If they indicate a path exists, trust them over personal assumptions about being trapped. The system may see connections (like through elevated terrain) that are not immediately obvious.
-
-## VICTORY ROAD 1F PUZZLE - NEW PLAN
-**Objective:** Push the boulder at (3, 11) to the switch at (18, 14).
-**Hypothesis:** The correct path for the boulder is up to row 10, then right to column 18, then down to the switch.
-**Steps:**
-1. Move to (3, 12).
-2. Push boulder at (3, 11) up to (3, 10).
-3. Reposition to (2, 10).
-4. Push boulder right repeatedly to (18, 10).
-5. Reposition to (18, 9).
-6. Push boulder down repeatedly to (18, 14).
