@@ -98,9 +98,7 @@
 # X. Tool Development & Debugging Log
 
 ## A. `find_reachable_unseen_tiles`
-*   **Logical Flaw Identified (Turn 5867):** The tool's two-stage BFS was incorrect. It found unseen tiles *adjacent* to reachable tiles, not unseen tiles that are *themselves* reachable. This provided flawed data to the `exploration_strategist`, leading to impossible navigation goals.
-*   **Fix Implemented (Turn 5867):** Rewrote the tool to use a single, unified BFS that traverses all passable tiles (both seen and unseen) and filters the result for only the unseen tiles. This should provide accurate data.
-*   **Logical Flaw Identified (Turn 5872):** The single-stage BFS was flawed because it returned unreachable tiles as valid targets. Reverting to a two-stage BFS to find only unseen tiles adjacent to the known reachable area.
+*   **Logical Flaw Identified (Turn 6001):** The single-stage BFS logic is critically flawed, returning all theoretically passable unseen tiles, including those on inaccessible 'islands'. This led to impossible navigation goals. The tool is being rewritten to use a two-stage BFS to find only the unseen tiles bordering the currently known, reachable area.
 
 # XI. Exploration Notes
 *   **Ruins of Alph Outside (Central Plaza):** This area is a dead end. The southern and eastern paths are unreachable, and the warp at (13, 20) is an entrance only. The only way forward seems to be through one of the interior buildings.
