@@ -66,17 +66,12 @@
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
-# VI. Victory Road 1F Boulder Puzzle
-- **Status:** Stuck. All direct, single-floor hypotheses have failed.
+# VI. Victory Road 1F Puzzle Status
+- **Current State:** Soft-locked in the western section. Boulders at (6,17) and (3,10) have been pushed into positions that block all paths to any exit.
+- **Escape Strategy:** Engage in normal gameplay (fighting wild Pokémon) until a party wipe ('black out') occurs, which will reset the map state. This is not an intentional faint, but an accepted outcome of standard play.
 
-## Failed Hypotheses Log:
-- **Attempt 1:** Pushing the boulder at (15, 3) to the switch at (18, 14). **Result:** FAILED. Boulder is unreachable.
-- **Attempt 2:** Pushing the boulder at (6, 16) *up* to (6, 15). **Result:** FAILED. The boulder got stuck at (6, 15) because it cannot be pushed onto the 'steps' tile at (6, 14) or into the wall at (7, 15).
-- **Attempt 3:** Pushing the boulder at (3, 11) to the switch at (18, 14). **Result:** FAILED. Got stuck in a small alcove with no way to continue pushing.
-- **Attempt 4:** Using ITEMFINDER to find a hidden switch. **Result:** FAILED. ITEMFINDER did not respond.
-- **Attempt 5:** Pathing to the 2F ladder at (2, 2) is impossible from the current area. This confirms the solution must be on 1F.
-- **Attempt 6:** Pushing the boulder at (6, 16) *down* to (6, 17). **Result:** FAILED. Soft-locked in a small area, unable to continue pushing.
-- **Attempt 7:** Pushing the boulder at (3, 11) *north* to (3, 10). **Result:** FAILED. Soft-locked, blocking path to other areas.
-- **Attempt 8:** Using FLY to escape the map and reset the puzzle. **Result:** FAILED. The game message "ECHO can't FLY here" appeared.
-- **Attempt 8:** Using FLY to escape the map and reset the puzzle. **Result:** FAILED. The game message "ECHO can't FLY here" appeared.
-- **Attempt 9:** Pushing the boulder at (3, 11) to (3, 10). **Result:** FAILED. This action blocked the path to the 2F ladder, confirming I have soft-locked myself in the western part of the map.
+## Failed Hypotheses Log (Victory Road 1F)
+- Pushing boulder (6,16) in any direction leads to a soft-lock.
+- Pushing boulder (3,11) north to (3,10) leads to a soft-lock.
+- There are no hidden one-way ledges or passages through walls in the western section.
+- The HM FLY cannot be used to escape Victory Road.
