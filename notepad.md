@@ -31,7 +31,7 @@
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
-*   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions. **(Hypothesis: Need to test movement from left/right to fully confirm).**
+*   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
 
 ### Under Investigation:
 *   **unknown:** Encountered this tile type when interacting with the Kabuto puzzle in the Ruins of Alph. Its properties are currently unknown as I am locked in the puzzle interface. Must investigate after completion.
@@ -75,11 +75,10 @@
 
 *   `find_path_to_target`: Finds the shortest path from the player's current position to a specified target coordinate.
 *   `find_reachable_unseen_tiles`: Finds all unseen tiles that are reachable from the player's current position.
-*   `kabuto_puzzle_solver`: Solves the Ruins of Alph Kabuto puzzle from a raw grid input.
 *   `battle_strategist`: Recommends the best action in a battle.
+*   `exploration_strategist`: Recommends the next best tile to explore based on the primary goal.
 *   `team_composition_advisor`: Recommends a team composition for a specific opponent type.
 *   `script_debugger`: Analyzes faulty Python scripts and provides debugging plans.
-*   `exploration_strategist`: Recommends the next best tile to explore based on the primary goal.
 
 # VIII. Reflection Log & Untested Assumptions
 
@@ -95,7 +94,6 @@
 # IX. Story Clues & Hints
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
 * Wade called again about the Bug-Catching Contest at the National Park today.
-*   `pathfinding_debugger`: Analyzes a failed pathfinding attempt and proposes a targeted debugging plan.
 
 # X. Tool Development & Debugging Log
 
