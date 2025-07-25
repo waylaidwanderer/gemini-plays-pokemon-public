@@ -359,6 +359,16 @@
         "commit_message": "debug: Add diagnostic prints to two-stage BFS. This adds print statements to isolate the failure to either Stage 1 (finding reachable tiles) or Stage 2 (finding unseen neighbors). This is a targeted diagnostic step to break the current unproductive debugging loop.",
         "timestamp": "2025-07-25T01:24:44.694Z",
         "action_counter": 5798
+      },
+      {
+        "commit_message": "fix: Re-implement correct two-stage BFS. The previous single-stage BFS was logically flawed and could not identify impassable map boundaries. This version reverts to the robust two-stage logic: Stage 1 finds all reachable passable tiles, and Stage 2 finds all unseen neighbors of that set. This addresses the core issue identified by the `script_debugger` and overwatch critique.",
+        "timestamp": "2025-07-25T01:26:48.499Z",
+        "action_counter": 5801
+      },
+      {
+        "commit_message": "debug: Add diagnostic prints to two-stage BFS. This adds print statements to isolate the failure to either Stage 1 (finding reachable tiles) or Stage 2 (finding unseen neighbors). This is a targeted diagnostic step to break the current unproductive debugging loop.",
+        "timestamp": "2025-07-25T01:31:57.308Z",
+        "action_counter": 5807
       }
     ]
   },
