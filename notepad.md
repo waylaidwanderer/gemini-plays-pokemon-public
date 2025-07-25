@@ -96,17 +96,15 @@
 # VII. Tool Refinement Notes
 - **`brute_force_explorer`:** The current implementation generates a single, massive list of button presses which is often truncated by the system. It should be modified to return a list of smaller, sequential action chunks to be executed one at a time.
 
-# V. Current Puzzle Plan: Victory Road 1F (Agent-Generated)
+# V. Current Puzzle Plan: Victory Road 1F (Manual Plan #1)
 - **Goal:** Move boulder from (6, 17) to switch at (18, 14).
-- **Status:** In Progress
+- **Status:** Not Started
 - **Plan:**
-  1. MOVE_TO (6, 18) to position south of the boulder.
-  2. PUSH_BOULDER at (6, 17) UP to (6, 16).
-  3. PUSH_BOULDER at (6, 16) UP to (6, 15).
-  4. PUSH_BOULDER at (6, 15) UP to (6, 14).
-  5. MOVE_TO (5, 14) to position west of the boulder.
-  6. PUSH_BOULDER at (6, 14) RIGHT (repeat 12 times until it reaches (18, 14)).
-
-### Victory Road 1F Puzzle - Agent Plan (FAILED)
-- **Hypothesis:** The `puzzle_strategist_agent` would provide a valid, executable plan.
-- **Conclusion:** The agent's plan was logically flawed, requiring movement to impassable tiles. The agent does not account for map traversability and is currently unreliable for this task.
+  1. Descend steps at (6, 14) to reach the lower level.
+  2. Navigate to (5, 17).
+  3. Activate Strength.
+  4. Push boulder from (6, 17) right until it reaches (17, 17).
+  5. Reposition to (17, 18).
+  6. Push boulder from (17, 17) up until it reaches (17, 14).
+  7. Reposition to (16, 14).
+  8. Push boulder from (17, 14) right onto the switch at (18, 14).
