@@ -53,16 +53,16 @@
 # III. Active Plans
 - **Current Objective:** Navigate through Victory Road to reach the Pokémon League.
 
-### Victory Road 1F Puzzle Plan
+### Victory Road 1F Puzzle Plan (v2 - Corrected)
 **Objective:** Push the boulder at (3, 11) to the switch at (18, 14).
-**Hypothesis:** The correct path for the boulder is up to row 10, then right to column 18, then down to the switch.
+**Hypothesis:** The previous plan failed because it didn't account for repositioning after the first push. This new plan includes the necessary movement to get into position for each subsequent push.
 **Steps:**
-1. Move to (3, 12).
-2. Push boulder at (3, 11) up to (3, 10).
-3. Reposition to (2, 10).
-4. Push boulder right repeatedly to (18, 10).
-5. Reposition to (18, 9).
-6. Push boulder down repeatedly to (18, 14).
+1.  **Start:** Player at (3, 12). Boulder at (3, 11).
+2.  **Push Up:** Push boulder from (3, 11) to (3, 10). Player will be at (3, 11).
+3.  **Reposition for Right Push:** Path from (3, 11) to (2, 10).
+4.  **Push Right:** Push boulder from (3, 10) all the way right to (18, 10).
+5.  **Reposition for Down Push:** Path from (17, 10) to (18, 9).
+6.  **Push Down:** Push boulder from (18, 10) down onto the switch at (18, 14).
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
