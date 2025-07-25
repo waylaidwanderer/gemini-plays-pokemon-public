@@ -80,5 +80,3 @@
 *   **Union Cave B1F:** This area is a dead end, accessible from a ladder on 1F. The path is blocked by one-way walls.
 
 # IX. High-Priority Tasks
-*   **CRITICAL:** Mark the warp on Route 33 at (0, 15) leading to Azalea Town. This was a failure to follow core directives.
-*   **CRITICAL (Warp Marking):** Mark the warp on Route 33 at (0, 15) leading to Azalea Town. This was a failure to follow core directives.
