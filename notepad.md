@@ -68,9 +68,10 @@
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
-# VI. Victory Road 1F Boulder Puzzle Plan
-- **Objective:** Move the boulder at (17, 15) onto the switch at (18, 14).
-- **Step 1:** Navigate to tile (17, 16).
-- **Step 2:** Push the boulder at (17, 15) NORTH to (17, 14).
-- **Step 3:** Navigate to tile (18, 13).
-- **Step 4:** Push the boulder at (17, 14) EAST to (18, 14), activating the switch.
+# VI. Victory Road 1F Boulder Puzzle Hypothesis
+- **Observation:** The boulder at (17, 14) needs to get to the switch at (18, 14). However, the tile required to push it, (16, 14), is impassable. My previous plans failed.
+- **Hypothesis #1:** The switch at (18, 14) can be activated by direct interaction (pressing 'A') now that the boulder is adjacent to it.
+- **Test Plan:**
+  1. Navigate to (18, 13), adjacent to the switch.
+  2. Face down and press 'A' to interact with the switch.
+- **Expected Outcome:** The boulder_barrier at (10, 13) will open.
