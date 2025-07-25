@@ -65,7 +65,6 @@
 # V. Critical Failures & Lessons Learned
 *   **stun_npc Tool Correction:** I previously believed `stun_npc` was a hallucination. This was a critical failure to consult my available tools list. `stun_npc` is a real tool and can be used to freeze NPCs.
 *   **select_battle_option Tool Correction:** I previously believed `select_battle_option` was a hallucination. This was a critical failure to consult my available tools list. `select_battle_option` is a real tool and must be used for battle menu selections.
-*   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
 *   **Tool Development Failures:** I have repeatedly failed to perform data management and tool refinement immediately. My `find_path_to_target` tool was broken for many turns. This is a severe violation of core directives and must not happen again.
 *   **Diagnostic Methodology Failure:** I repeatedly concluded my pathfinding tool was broken when it was correctly identifying that my requested paths were impossible due to map layout (e.g., walls, NPCs). I must trust my tool's output and analyze the map more carefully before assuming a bug.
 
@@ -95,3 +94,7 @@
     *   **Hypothesis (Falsified):** Interacting with the Pokefan M at (8, 3) will cause him to move.
     *   **Test:** Stunned the NPC at (8, 3) and initiated dialogue.
     *   **Conclusion:** The NPC provided flavor text but did not move. He is a hard block for now, making the western part of the gatehouse, including the main warp to the Ruins of Alph, inaccessible from this side.
+*   **Union Cave Ladder:**
+    *   **Assumption:** The ladder at (5, 19) is the only way forward.
+    *   **Alternative Hypothesis:** There might be another way to reach the unseen areas that my `find_reachable_unseen_tiles` tool is not detecting due to a bug I haven't found yet.
+    *   **Test:** After using the ladder, if I find myself in a new area, I will run my `find_reachable_unseen_tiles` tool again on the new map. If I don't find a new area, I will need to re-debug my tool.
