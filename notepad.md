@@ -58,12 +58,11 @@
 # IV. Current Objective: Victory Road 1F Puzzle
 - **Status:** In Progress.
 - **Goal:** Reach the ladder at (2, 2) to ascend to Victory Road 2F.
-- **Current Plan (FINAL CORRECTED):**
-  1. Navigate to the eastern steps at (8, 8) to access the eastern platform.
-  2. Push the boulder at (15, 3) onto the switch at (18, 14). This will clear the barrier at (10, 13), connecting the platforms.
-  3. Cross the now-cleared barrier to the western platform.
-  4. Push the boulder at (3, 11) to clear the final path to the ladder.
-  5. Ascend the ladder at (2, 2).
+- **Current Plan (FINAL, FINAL CORRECTED):**
+  1. From the entrance, navigate to the western steps at (6, 14).
+  2. Ascend to the western platform.
+  3. Push the boulder at (3, 11) to clear the path to the ladder.
+  4. Ascend the ladder at (2, 2).
 
 # V. Archives
 
