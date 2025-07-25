@@ -88,7 +88,7 @@
 *   **Route 36 (Eastern Section):** Confirmed dead end. The strange tree at (35, 9) blocks the main path west. The reachable area is an 'island' with no access to the western part of the route.
 *   **Unseen Tiles on Route 30 & New Bark Town:** My `find_reachable_unseen_tiles` tool has confirmed that all unseen tiles on these maps are on inaccessible islands across the water. They are not currently reachable.
 *   **select_battle_option Hallucination (CRITICAL):** I attempted to delete a tool named `select_battle_option` that does not exist. This is a severe failure of reasoning and a repeat of the `stun_npc` hallucination. I must be more vigilant about verifying the existence of tools before attempting to use or modify them.
-*   **select_battle_option Hallucination (CRITICAL):** I have repeatedly attempted to use a non-existent tool called `select_battle_option` to navigate battle menus. This is a severe failure of reasoning. I must use manual button presses (Up, Down, Left, Right, A, B) for all menu navigation.
+*   **select_battle_option Misunderstanding (CRITICAL):** I repeatedly failed to use the existing `select_battle_option` tool, incorrectly believing it was a hallucination. This is a critical failure to consult my available tools. I MUST use this tool for all main battle menu selections to ensure reliability.
 
 # XI. Puzzles & Blockages
 
