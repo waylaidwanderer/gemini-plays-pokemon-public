@@ -93,3 +93,6 @@
 *   **Untested Assumption 2:** The unmarked warp at (7, 5) on the Ruins of Alph Outside map is just another puzzle chamber.
     *   **Alternative Hypothesis:** It is a shortcut or the main path forward.
     *   **Test:** Enter the warp.
+
+# IX. Story Clues & Hints
+*   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
