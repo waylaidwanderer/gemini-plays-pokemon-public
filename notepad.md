@@ -53,9 +53,11 @@
 # III. Active Plans
 - **Current Objective:** Navigate through Victory Road to reach the Pokémon League.
 
-### Victory Road 1F Puzzle Plan (v3 - In Development)
-**Objective:** Push the boulder at (3, 11) to the switch at (18, 14).
-**Status:** Attempt v2 failed on turn 99038. Pushing the boulder up to (3, 10) traps it against impassable walls at (2, 10) and (3, 9). This plan is invalid. Resetting puzzle to formulate v3.
+### Victory Road 1F Puzzle Plan
+**Objective:** Open the boulder barrier at (10, 13).
+**Mechanism:** Push a boulder onto the switch at (18, 14).
+**Current Status:** The presumed correct boulder at (3, 10) is currently stuck. Leaving and returning to the map via Route 23 did not reset its position.
+**Next Step:** Attempt a 'hard reset' of the map state by flying to a distant location (Viridian City) and returning to Victory Road to see if the boulder resets to its original position.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
@@ -70,10 +72,6 @@
 # V. Archives
 
 ## A. Completed Puzzles
-### Victory Road 1F Puzzle
-- **Objective:** Push the boulder from (17, 13) to the switch at (18, 14).
-- **Status:** Complete. Barrier at (10, 13) opens with delay.
-
 ### Victory Road 2F Puzzle
 - **Objective:** Push the boulder from (4, 17) to the switch at (2, 17).
 - **Status:** Complete. Barrier at (8, 9) opens with delay.
