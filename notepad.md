@@ -33,12 +33,19 @@
 *   **TV:** Impassable object. (Hypothesis)
 *   **TOWN_MAP:** Impassable object. (Hypothesis)
 *   **RADIO:** Impassable object. Can be interacted with for text.
+*   **INCENSE_BURNER:** Impassable object. (Hypothesis - needs testing).
+
+### Impassable with Interaction:
+*   **COUNTER:** Impassable. To interact with an NPC behind a counter, stand on the tile directly in front of them and press A.
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
 *   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
 *   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
+
+## B. Map Marker Mechanics
+*   **Dynamic Nature:** Markers linked to an `object_id` WILL move with the object. This is useful for tracking moving NPCs.
 
 # II. Battle Information
 
@@ -56,13 +63,17 @@
 *   **EVERSTONE:** Received from Professor Elm. Prevents a Pokémon holding it from evolving.
 *   **PSNCUREBERRY:** Found on Route 33.
 
-# IV. Story Clues & Hints
+# IV. Story Progression
+
+## A. Confirmed Leads
+*   **The Charcoal Man:** A Youngster at (6, 9) in Azalea Town mentioned that the 'CHARCOAL MAN's POKéMON can CUT down trees.' This is a strong lead for getting HM Cut and likely progressing through Ilex Forest. He is almost certainly in the Charcoal Kiln.
+*   **Kurt's Intervention:** Kurt has confirmed TEAM ROCKET is cutting off SLOWPOKETAILs at the well to sell them. He has run off to the well to confront them himself. This is the trigger to advance the plot.
+
+## B. Past Clues & Hints
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
-*   **Azalea Town Trouble:** Multiple NPCs have confirmed SLOWPOKE have disappeared and a Team Rocket grunt is blocking the well.
-*   **Kurt the Ballmaker:** A Teacher in Azalea mentioned a man named KURT who makes special Poké Balls. This house is likely his.
 
 # V. Critical Failures & Lessons Learned
-*   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like marking warps or updating my notepad) instead of performing them immediately, especially on Azalea Pokecenter 2F. This is a violation of core directives and must be corrected. I must act immediately on new information.
+*   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like marking warps or updating my notepad) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
 *   **Tool Distrust:** I have repeatedly failed to trust my `find_path_to_target` tool's output, assuming it was broken when it correctly identified blocked paths (e.g., by NPCs). I must trust my tool's output and analyze the map more carefully before assuming a bug.
 *   **HM moves can be used even if the Pokémon is fainted.** This is a key mechanic learned from the Gentleman in the Charcoal Kiln.
 *   **stun_npc Tool Correction:** I previously believed `stun_npc` was a hallucination. This was a critical failure to consult my available tools list. `stun_npc` is a real tool and can be used to freeze NPCs.
@@ -79,22 +90,10 @@
 *   **Azalea Pokecenter 2F:** This entire floor is a dead end for now. All warps are blocked by NPCs or walls.
 
 # VIII. Untested Assumptions & Hypotheses
-*   **Kurt's Location:** I assume this house (CharcoalKiln) belongs to Kurt. **Test:** Find an NPC who identifies as Kurt.
 *   **Moltres Sprite:** I assume the Moltres sprite is decorative. **Alternative:** It's an interactable object/switch. **Test:** Interact with it after speaking to all human NPCs.
-*   **Slowpoke Well:** I assume the well is the key to the town's problem. **Alternative:** The 'forest's protector' is the real key. **Test:** Find a way past the Rocket Grunt, likely by advancing the Kurt plotline.
-*   **Rocket Grunt Blockage:** I assume getting past the Rocket Grunt requires interacting with Kurt. **Alternative:** Another trigger exists in town. **Test:** Systematically re-explore all buildings and talk to all NPCs if the Kurt plotline stalls.
+*   **Charcoal Man's Location:** I assume the 'Charcoal Man' is the other person in the Charcoal Kiln. **Alternative:** 'Charcoal Man' is a nickname for Kurt, and the clue was about his past. **Test:** If the other NPC in the kiln does not provide HM Cut, this lead needs re-evaluation.
+*   **Ilex Forest Access:** I assume getting HM Cut is the only requirement to pass through Ilex Forest. **Alternative:** Another story-based barrier exists beyond the trees. **Test:** After (potentially) getting Cut, I must go to the forest entrance to verify passage.
 
 # IX. High-Priority Tasks
 *   Use `team_composition_advisor` before challenging the Azalea Town Gym.
-
-### Impassable with Interaction:
-*   **COUNTER:** Impassable. To interact with an NPC behind a counter, stand on the tile directly in front of them and press A.
-
-## C. Map Marker Mechanics
-*   **Dynamic Nature:** Markers linked to an `object_id` WILL move with the object. This is useful for tracking moving NPCs.
-
-# X. New Leads
-*   **The Charcoal Man:** A Youngster at (6, 9) in Azalea Town mentioned that the 'CHARCOAL MAN's POKéMON can CUT down trees.' This is a strong lead for getting HM Cut and likely progressing through Ilex Forest. He is almost certainly in the Charcoal Kiln.
-
-# XI. Kurt's Intervention
-*   Kurt has confirmed TEAM ROCKET is cutting off SLOWPOKETAILs at the well to sell them. He has run off to the well to confront them himself. This is the trigger to advance the plot.
+*   Test seemingly impassable objects like bookshelves and radios to confirm they are not interactable in a meaningful way.
