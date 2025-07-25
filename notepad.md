@@ -77,6 +77,7 @@
 *   `battle_strategist`: Recommends the best action in a battle.
 *   `exploration_strategist`: Recommends the next best tile to explore based on the primary goal.
 *   `team_composition_advisor`: Recommends a team composition for a specific opponent type.
+*   `kabuto_puzzle_solver`: Analyzes the Kabuto puzzle grid from a raw text input and provides the full sequence of moves to solve it.
 *   `script_debugger`: Analyzes faulty Python scripts and provides debugging plans.
 
 # VIII. Reflection Log & Untested Assumptions
