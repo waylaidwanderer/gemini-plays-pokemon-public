@@ -67,7 +67,7 @@
 - **Archived Puzzle Solutions:** Puzzles can reset upon re-entering a map. Archived solutions may be outdated. Always observe the current state of a puzzle before acting.
 - **Trust the Game State:** My own assumptions can be wrong. The Game State Information is the absolute source of truth and must be trusted over my memory or intuition.
 - **Break Unproductive Loops:** If a strategy fails repeatedly, it's better to change the approach or goal than to persist in an inefficient loop.
-- **Confirmation Bias:** I must be wary of trying to prove my own assumptions right. It's important to trust system warnings and evidence that contradicts my beliefs.
+- **Confirmation Bias:** I must be wary of trying to prove my own assumptions right. It's important to trust system warnings and evidence that contradicts my beliefs. My attempt to 'hard reset' the Victory Road boulder was a prime example of confirmation bias; I pursued a flawed solution for dozens of turns without first verifying that my initial premise (that the northern boulder was the correct first step) was even correct.
 - **Efficient Debugging:** When a tool fails, the first step should be to add extensive logging/debugging to understand its internal state. Trial-and-error fixes are inefficient and should be avoided.
 - **No Premature Documentation:** Do not document an event or status in the notepad until it has been confirmed by the game state. Recording intentions as facts is a form of hallucination.
 
@@ -85,3 +85,4 @@
 
 # VI. Tool & Agent Ideas
 - **Puzzle Diagnostics Agent:** An agent that takes a description of a failed puzzle and suggests troubleshooting hypotheses (e.g., map reset, hard reset, hidden switch).
+- **Puzzle Strategist Agent:** An agent that takes the output of the `puzzle_solver_tool` (a list of puzzle components) and suggests a logical, sequential plan to solve the puzzle, prioritizing accessible components first.
