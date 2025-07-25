@@ -51,7 +51,7 @@
   - EEVEE: Jump Kick
 
 # III. Active Plans
-- **Current Objective:** After blacking out in Victory Road, I have returned to Viridian City. The immediate plan is to travel back through Route 22 and Route 23 to re-enter Victory Road and continue my journey to the Pokémon League.
+- **Current Objective:** Navigate through Victory Road to reach the Pokémon League.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
