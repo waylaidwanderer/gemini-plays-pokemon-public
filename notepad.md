@@ -36,7 +36,7 @@
 *   **INCENSE_BURNER:** Impassable object. (Confirmed by attempting to walk into it).
 
 ### Impassable with Interaction:
-*   **COUNTER:** Impassable. To interact with an NPC behind a counter, stand on the tile directly in front of them and press A.
+*   **COUNTER:** Confirmed impassable. Functions as a wall.
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
