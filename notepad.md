@@ -113,3 +113,6 @@
 *   **New Plan:** The current path is blocked. A strong potential story progression is to show the newly hatched Togepi to Professor Elm in New Bark Town. I will backtrack there immediately.
 *   **LEDGE_HOP_RIGHT:** Seen on ASCII map legend, properties unconfirmed.
 *   **BUOY:** Seen on ASCII map legend, properties unconfirmed.
+
+# XI. Exploration Notes
+*   **Unseen Tiles on Route 30:** The system detected potentially reachable unseen tiles at (19, 50), (19, 51), (19, 52), and (19, 53). I will investigate these after my tools are fixed.
