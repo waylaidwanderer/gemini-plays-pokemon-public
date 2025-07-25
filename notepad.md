@@ -47,17 +47,13 @@
   - CHANSEY: Double-Edge, Mega Punch
   - EEVEE: Jump Kick
 
-# III. Current Objective: Victory Road & The Pokémon League
-**Primary Goal:** Defeat the Elite Four and become the Pokémon League Champion.
-**Secondary Goal:** Solve the Victory Road boulder puzzles to reach the exit.
-
-# IV. Core Gameplay Lessons
+# III. Core Gameplay Lessons
 - **Core Principle: Fix, Don't Defer.** Critical tools with known bugs MUST be fixed immediately. Deferring fixes is a strategic failure.
 - **Core Principle: Verify, Then Trust.** Tool outputs and personal assumptions are hypotheses, not facts. They must be verified against the game state before being trusted. The Game State Information is the only source of truth.
 - **Boulder Puzzle Strategy:** Before pushing any boulder, use the pathfinder to verify the entire route for both the player and the boulder to prevent soft-locking.
 - **Debugging Strategy:** When a tool fails, add extensive logging to understand its internal state before attempting a fix.
 
-# V. Archives
+# IV. Archives
 
 ## A. Completed Puzzles
 ### Victory Road 2F Puzzle
@@ -66,7 +62,7 @@
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
-# VI. Victory Road 1F Puzzle Status
+# V. Victory Road 1F Puzzle Status
 - **Status:** In Progress
 - **Failed Hypothesis (Attempt 1):** The boulder at (6, 16) was a red herring; pushing it made it disappear.
 - **Failed Hypothesis (Attempt 2):** The boulder at (9, 17) must be pushed onto the switch at (18, 14). Pushing it north to (10, 15) soft-locks it, as the path is blocked by impassable tiles.
