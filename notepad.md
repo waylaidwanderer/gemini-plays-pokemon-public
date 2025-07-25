@@ -64,6 +64,10 @@
 - **Hypothesis:** The boulder starting at (6, 17) could be pushed to the switch at (18, 14).
 - **Conclusion:** This was incorrect. The path is blocked by an impassable wall at (16, 14), which I failed to notice due to a hallucination and a faulty pathfinder. This highlights the danger of confirmation bias and the need to trust the map data over intuition.
 
+### Victory Road 1F Puzzle - Attempt 3 (FAILED)
+- **Hypothesis:** The boulder at (3, 11) was the correct starting point.
+- **Conclusion:** This was incorrect. The boulder at (3, 10) is blocked from being pushed north by an impassable wall at (3, 9). This path is impossible.
+
 ### Victory Road 1F Puzzle - Attempt 1 (FAILED)
 - **Hypothesis:** The boulder at (3, 11) was the first step.
 - **Conclusion:** This was incorrect. The area with this boulder is inaccessible until the barrier at (10, 13) is opened.
