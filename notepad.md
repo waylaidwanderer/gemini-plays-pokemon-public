@@ -68,8 +68,9 @@
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
-# VI. Agent Performance & Refinement
-
-## A. Puzzle Strategist Agent
-- **Initial Test (Victory Road 1F):** FAILED. The agent's first plan was to push the boulder at (17, 14) from (16, 14). However, testing confirmed the tile at (16, 14) is impassable, making the plan impossible.
-- **Conclusion:** The agent's initial logic is too simplistic as it does not account for map traversability. It cannot be relied upon for complex path-dependent puzzles without modification or a different approach.
+# VI. Victory Road 1F Boulder Puzzle Plan
+- **Objective:** Move the boulder at (17, 15) onto the switch at (18, 14).
+- **Step 1:** Navigate to tile (17, 16).
+- **Step 2:** Push the boulder at (17, 15) NORTH to (17, 14).
+- **Step 3:** Navigate to tile (18, 13).
+- **Step 4:** Push the boulder at (17, 14) EAST to (18, 14), activating the switch.
