@@ -67,8 +67,17 @@
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
 # VI. Victory Road 1F Puzzle Status
-- **Current State:** Soft-locked in the western section. Boulders at (6,17) and (3,10) have been pushed into positions that block all paths to any exit.
-- **Escape Strategy:** Engage in normal gameplay (fighting wild Pokémon) until a party wipe ('black out') occurs, which will reset the map state. This is not an intentional faint, but an accepted outcome of standard play.
+- **Current State:** Trapped in the western section. Boulders at (6,17) and (3,10) block progress.
+
+## Current Hypotheses (from Agent)
+- The boulder at (6, 17) must be pushed onto a hidden, unmarked switch tile.
+- The solution requires a specific sequence of pushes on the boulder at (6, 17).
+- A hidden item is under the boulder at (6, 17), findable with the Itemfinder.
+
+## Invalidated Hypotheses (from Agent)
+- Using 'Dig' or 'Teleport' to escape (Cannot access PC).
+- Intentionally losing a battle to 'white out' (Against core rules).
+- Puzzle requires a pre-emptive solution (Cannot reset to previous save).
 
 ## Failed Hypotheses Log (Victory Road 1F)
 - Pushing boulder (6,16) in any direction leads to a soft-lock.
