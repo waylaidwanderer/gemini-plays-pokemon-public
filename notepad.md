@@ -93,19 +93,10 @@
 # XI. Puzzles & Blockages
 
 ## A. Route 31 Gatehouse Warp
-*   **Hypothesis 1 (Failed):** The `WARP_CARPET_LEFT` at (4, 6) is activated by moving onto it from the right.
-    *   **Test:** Moved from (5, 6) to (4, 6) multiple times.
-    *   **Result:** The warp did not activate.
-    *   **Conclusion:** Simple movement from the right is not the trigger for this specific warp tile.
-*   **Hypothesis 2 (Failed):** The warp at (4, 6) is activated by interaction.
-    *   **Test:** Stood on tile (4, 6) and pressed 'A'.
-    *   **Result:** The warp did not activate.
-    *   **Conclusion:** Pressing 'A' is not the trigger.
-*   **Hypothesis 4 (Failed):** The warp at (4, 7) is activated by moving onto it from the right.
-    *   **Test:** Moved from (5, 7) to (4, 7).
-    *   **Result:** The warp did not activate.
-    *   **Conclusion:** Simple movement from the right is not the trigger for this specific tile either. My understanding of the `WARP_CARPET_LEFT` mechanic may be incorrect or incomplete.
-*   **Hypothesis 5 (Failed):** The warp at (4, 7) is activated by interaction.
-    *   **Test:** Stood on tile (4, 7) and pressed 'A'.
-    *   **Result:** The warp did not activate.
-    *   **Conclusion:** Pressing 'A' is not the trigger for this tile either. I am fundamentally misunderstanding this puzzle.
+*   **Status:** Currently impassable. I am fundamentally misunderstanding the mechanic.
+*   **Failed Attempts (5):**
+    1.  Moved onto upper tile (4, 6) from the right.
+    2.  Interacted with upper tile (4, 6) with 'A'.
+    3.  Moved onto lower tile (4, 7) from the right.
+    4.  Interacted with lower tile (4, 7) with 'A'.
+    5.  Re-entered upper tile (4,6) from the right.
