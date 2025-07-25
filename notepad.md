@@ -14,6 +14,7 @@
 - **Ladders (`ladder_up`, `ladder_down`):** Function as instant 1x1 warps between floors. `ladder_up` leads to a higher floor, `ladder_down` leads to a lower floor.
 - **Hole:** A tile that functions as a warp, dropping the player to a lower floor. Boulders can be pushed into these to affect puzzles on the floor below.
 - **Spinner (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Forces movement in the specified direction.
+- **Pushing Boulders (Mechanic Corrected):** Pushing a boulder moves the boulder one tile but does NOT move the player. The player remains on the tile from which the push was initiated. To push a boulder, Strength must be active, and you must walk into the boulder.
 
 ## B. General Rules & Heuristics
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
@@ -21,11 +22,7 @@
 - **"No Will to Fight" Message (Correction):** Appears when the party menu cursor is on a fainted Pokémon.
 - **Level Cap:** The level cap with 8 badges is 65.
 - **Special NPC Interaction:** Certain puzzles may require walking *through* an NPC rather than interacting with them (e.g., Summer Beach House).
-- **Pushing Boulders (Mechanic Corrected):** Pushing a boulder does NOT move the player. The player remains on the tile from which the push was initiated.
 - **PC Tile Anomaly:** The tile for interacting with the Pokémon Center PC is sometimes labeled as `grass` in the map data, despite being indoors.
-
-## C. Puzzle Mechanics
-- **Delayed Boulder Barrier Opening:** The barriers on Victory Road 1F, 2F, and 3F do not open immediately after the corresponding switch is activated. The change triggers after moving a certain distance away from the puzzle area.
 
 # II. Battle Intel
 
@@ -50,16 +47,18 @@
   - CHANSEY: Double-Edge, Mega Punch
   - EEVEE: Jump Kick
 
-# III. Active Plans
-- **Current Objective:** Navigate through Victory Road to reach the Pokémon League.
+# III. Current Objective: Victory Road
+**Primary Goal:** Navigate through Victory Road to reach the Pokémon League.
 
-### Victory Road 1F Puzzle Plan (Corrected)
-**Objective:** Open the boulder barrier at (10, 13).
-**Hypothesis (Attempt 1 - FAILED):** The boulder at (3, 11) was stuck, and a 'hard reset' of the map by flying far away would fix it.
-**Conclusion:** The hypothesis was flawed. The boulder at (3, 11) is in an area that is currently inaccessible *because* the barrier at (10, 13) is closed. The 'hard reset' was unnecessary as I was trying to solve the puzzle out of order.
+## A. Victory Road 1F Puzzle Plan
+**Current State:** The boulder barrier at (10, 13) is closed, blocking access to the western part of the map.
+**Hypothesis:** The boulder at (6, 17) in the southern area must be pushed onto the switch at (18, 14) to open the barrier.
+**Current Step:** Navigate to the southern area to position myself to push the boulder at (6, 17) towards the switch.
 
-**New Hypothesis (Attempt 2):** The correct sequence is to first solve a different puzzle to open the barrier. The boulder at (6, 16) in the southern part of the map must be pushed onto the switch at (18, 14). This will open the barrier at (10, 13), granting access to the western section of the map and the boulder at (3, 11).
-**Next Step:** Navigate to the southern area and push the boulder from (6, 16) to (18, 14).
+## B. Archived/Failed Plans
+### Victory Road 1F Puzzle - Attempt 1 (FAILED)
+- **Hypothesis:** The boulder at (3, 11) was the first step.
+- **Conclusion:** This was incorrect. The area with this boulder is inaccessible until the barrier at (10, 13) is opened. My attempts to "hard reset" the map were based on a flawed premise. This was an example of confirmation bias.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
