@@ -111,3 +111,5 @@
     *   **Conclusion:** The replicas are not interactive post-puzzle. This chamber appears to be fully explored.
 *   **Route 36 (Eastern Section):** Confirmed dead end. The strange tree at (35, 9) blocks the main path west. The reachable area is an 'island' with no access to the western part of the route.
 *   **New Plan:** The current path is blocked. A strong potential story progression is to show the newly hatched Togepi to Professor Elm in New Bark Town. I will backtrack there immediately.
+*   **LEDGE_HOP_RIGHT:** Seen on ASCII map legend, properties unconfirmed.
+*   **BUOY:** Seen on ASCII map legend, properties unconfirmed.
