@@ -98,12 +98,6 @@
 - **Hypothesis:** Push the boulder at (6, 17) all the way to (17, 17), then push it up.
 - **Conclusion:** Failed. The path is blocked by an impassable wall at (11, 17).
 
-# V. Current Puzzle Plan: Victory Road 1F (Manual Plan #2)
-- **Goal:** Move boulder from (6, 17) to switch at (18, 14).
-- **Status:** In Progress
-- **Plan:**
-  1. Push boulder at (6, 17) right until it is at (10, 17).
-  2. Navigate to (10, 18).
-  3. Push boulder up from (10, 17) to (10, 14).
-  4. Navigate to (9, 14).
-  5. Push boulder right from (10, 14) to the switch at (18, 14).
+### Victory Road 1F Puzzle - Attempt 7 (FAILED)
+- **Hypothesis:** Push the boulder at (6, 17) right to (10, 17), then up to (10, 14), then right to the switch.
+- **Conclusion:** Failed. The path to push the boulder sideways from (10, 14) is blocked by impassable tiles. The tile at (9, 14) is unreachable.
