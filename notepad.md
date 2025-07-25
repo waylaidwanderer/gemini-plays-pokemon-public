@@ -42,17 +42,17 @@
 *   Ghost-type Pokémon are immune to Normal-type moves.
 *   Unown's Hidden Power can be super-effective against Fire-type Pokémon (observed against Vulcan). The specific type is unknown, but could be Water, Rock, or Ground.
 
-# III. Badges & TMs
+# III. Badges & Items
 *   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
 *   **TM31 (Mud-Slap):** Received from Falkner.
 *   **TM39:** Found in Union Cave B1F.
+*   **EVERSTONE:** Received from Professor Elm. Prevents a Pokémon holding it from evolving.
 
 # IV. Phone Calls & Side Quests
 *   Wade has called multiple times about the Bug-Catching Contest at the National Park, which seems to be a time-sensitive event happening today.
 
 # V. Critical Failures & Lessons Learned
 *   **stun_npc Hallucination (CRITICAL):** I hallucinated the existence of a `stun_npc` tool on turns 5974 and 5977. This is a major failure in reasoning. I must rely only on the tools explicitly available to me.
-*   **Ruins of Alph Puzzle:** Solving the Kabuto puzzle caused Unown to appear in the inner chambers. This seems to be the intended progression.
 *   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
 *   **Tool Development Failures:** I have repeatedly failed to perform data management and tool refinement immediately. My `find_reachable_unseen_tiles` tool was broken for over 200 turns. This is a severe violation of core directives and must not happen again.
 
@@ -79,7 +79,6 @@
 *   `battle_strategist`: Recommends the best action in a battle.
 *   `exploration_strategist`: Recommends the next best tile to explore based on the primary goal.
 *   `team_composition_advisor`: Recommends a team composition for a specific opponent type.
-*   `kabuto_puzzle_solver`: Analyzes the Kabuto puzzle grid from a raw text input and provides the full sequence of moves to solve it.
 *   `script_debugger`: Analyzes faulty Python scripts and provides debugging plans.
 
 # VIII. Reflection Log & Untested Assumptions
@@ -95,23 +94,12 @@
 
 # IX. Story Clues & Hints
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
-*   **Bug-Catching Contest:** Wade has called multiple times about the Bug-Catching Contest at the National Park today. This seems to be a time-sensitive event.
 
-# X. Tool Development & Debugging Log
-
-## A. `find_reachable_unseen_tiles`
-*   **Logical Flaw Identified (Turn 6001):** The single-stage BFS logic is critically flawed, returning all theoretically passable unseen tiles, including those on inaccessible 'islands'. This led to impossible navigation goals. The tool is being rewritten to use a two-stage BFS to find only the unseen tiles bordering the currently known, reachable area.
-
-# XI. Exploration Notes
+# X. Exploration Notes
 *   **Ruins of Alph Outside (Central Plaza):** This area is a dead end. The southern and eastern paths are unreachable, and the warp at (13, 20) is an entrance only. The only way forward seems to be through one of the interior buildings.
-*   **New Plan:** Re-investigate the Ruins of Alph Research Center.
-*   **Bug-Catching Contest:** Wade from the Bug Catcher guild has called multiple times about the contest at the National Park today. This seems to be a time-sensitive event.
 *   **Hypothesis 5 (Failed):** Interacting with the ancient replicas after solving the puzzle will trigger an event.
     *   **Test:** Interacted with both the left and right replicas after solving the Kabuto puzzle.
     *   **Result:** Both interactions yielded only generic descriptive text.
     *   **Conclusion:** The replicas are not interactive post-puzzle. This chamber appears to be fully explored.
 *   **Route 36 (Eastern Section):** Confirmed dead end. The strange tree at (35, 9) blocks the main path west. The reachable area is an 'island' with no access to the western part of the route.
-*   **New Plan:** The current path is blocked. A strong potential story progression is to show the newly hatched Togepi to Professor Elm in New Bark Town. I will backtrack there immediately.
-
-# XI. Exploration Notes
-*   **Unseen Tiles on Route 30:** The system detected potentially reachable unseen tiles at (19, 50), (19, 51), (19, 52), and (19, 53). I will investigate these after my tools are fixed.
+*   **Unseen Tiles on Route 30 & New Bark Town:** My `find_reachable_unseen_tiles` tool has confirmed that all unseen tiles on these maps are on inaccessible islands across the water. They are not currently reachable.
