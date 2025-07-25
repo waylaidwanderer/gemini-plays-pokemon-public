@@ -78,3 +78,14 @@
 - **Objective:** Solve the floor's puzzle to proceed.
 - **Solution:** The puzzles on this floor were a red herring. The true path forward was a secret, unmarked ladder at (3, 1) discovered by exploring an unseen tile. This ladder leads to a new area of Victory Road 2F.
 - **Trust System Data Over Intuition:** The system's 'is_in_dead_end_area' flag and 'reachable_unseen_tiles' count are sources of truth. If they indicate a path exists, trust them over personal assumptions about being trapped. The system may see connections (like through elevated terrain) that are not immediately obvious.
+
+## VICTORY ROAD 1F PUZZLE - NEW PLAN
+**Objective:** Push the boulder at (3, 11) to the switch at (18, 14).
+**Hypothesis:** The correct path for the boulder is up to row 10, then right to column 18, then down to the switch.
+**Steps:**
+1. Move to (3, 12).
+2. Push boulder at (3, 11) up to (3, 10).
+3. Reposition to (2, 10).
+4. Push boulder right repeatedly to (18, 10).
+5. Reposition to (18, 9).
+6. Push boulder down repeatedly to (18, 14).
