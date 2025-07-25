@@ -14,7 +14,7 @@
 - **Ladders (`ladder_up`, `ladder_down`):** Function as instant 1x1 warps between floors.
 - **Hole:** A tile that functions as a warp, dropping the player to a lower floor. Boulders can be pushed into these to affect puzzles on the floor below.
 - **Spinner (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Forces movement in the specified direction.
-- **Pushing Boulders (Mechanic Corrected):** Pushing a boulder moves the boulder one tile but does NOT move the player. The player remains on the tile from which the push was initiated.
+- **Pushing Boulders (Mechanic Corrected... Again):** Pushing a boulder moves the boulder one tile AND also moves the player into the boulder's now-vacant tile.
 
 ## B. General Rules & Heuristics
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
