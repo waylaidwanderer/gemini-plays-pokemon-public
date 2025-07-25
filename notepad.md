@@ -41,6 +41,7 @@
 ### Under Investigation:
 *   **Ruins of Alph `unknown` tile:** Properties unknown. Must investigate upon returning to the puzzle chamber.
 *   **Violet Pokecenter `unknown` tile:** Tile at (9, 2) is traversable but its properties are unclear. Must investigate upon returning to Violet City's Pokémon Center.
+*   **Route 33 `unknown` tile:** Tile at (7, 16) is traversable but its properties are unclear. It appears to be a grassy tile, but is not TALL_GRASS. Must investigate further.
 
 # II. Battle Information
 
@@ -56,6 +57,7 @@
 *   **TM31 (Mud-Slap):** Received from Falkner.
 *   **TM39:** Found in Union Cave B1F.
 *   **EVERSTONE:** Received from Professor Elm. Prevents a Pokémon holding it from evolving.
+*   **PSNCUREBERRY:** Found on Route 33.
 
 # IV. Phone Calls & Side Quests
 *   Wade has called multiple times about the Bug-Catching Contest at the National Park, which seems to be a time-sensitive event happening today.
@@ -73,7 +75,7 @@
 *   **Hypothesis 4 (Confirmed):** The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces. This led to the inner chamber where Unown appeared.
 
 # VII. Custom Tools & Agents
-*   `find_path_to_target`: A Python tool that finds the shortest path from the player's current position to a specified target coordinate using a Breadth-First Search (BFS) algorithm. It correctly handles one-way ledges and will find a path to a tile adjacent to the target if the target itself is impassable. **STATUS: CRITICALLY BROKEN. DO NOT USE.**
+*   `find_path_to_target`: A Python tool that finds the shortest path from the player's current position to a specified target coordinate using a Breadth-First Search (BFS) algorithm. It attempts to handle one-way ledges and path to adjacent tiles, but is currently non-functional. **STATUS: CRITICALLY BROKEN. DO NOT USE.**
 *   `find_reachable_unseen_tiles`: A Python tool that finds all unseen tiles that are reachable from the player's current position by performing a single BFS across all passable tiles, both seen and unseen.
 *   `battle_strategist`: An agent that analyzes the current battle state and recommends the optimal action (FIGHT, PKMN, PACK, RUN) based on strategic priorities like PP conservation and avoiding unfavorable wild battles.
 *   `exploration_strategist`: An agent that takes a list of reachable unseen tiles and the primary goal, then recommends the most strategic tile to explore next.
