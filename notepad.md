@@ -75,7 +75,7 @@
   4. Leaving and re-entering the map will reset the boulders. (Fallback plan)
   5. The player character activates the switch. (Low Priority - already tested standing on it)
   6. There is a hidden switch discoverable with the Item Finder. (Testable)
-- **Current Plan:** Test Hypothesis #1. Ascend to Victory Road 2F and search for a hole.
+- **Current Plan:** Test Hypothesis #4 (reset boulders) to allow access to the ladder to 2F. Then, test Hypothesis #1 (find a hole on 2F).
 
 ### Victory Road 1F Puzzle - Attempt 2
 - **Hypothesis:** Pushing the boulder at (6, 16) to the switch at (18, 14) will solve the puzzle.
