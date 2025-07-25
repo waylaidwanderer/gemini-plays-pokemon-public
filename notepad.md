@@ -94,15 +94,16 @@
 # VII. Tool Refinement Notes
 - **`brute_force_explorer`:** The current implementation generates a single, massive list of button presses which is often truncated by the system. It should be modified to return a list of smaller, sequential action chunks to be executed one at a time.
 
-# V. Current Puzzle Plan: Victory Road 1F (Manual Plan #1)
+### Victory Road 1F Puzzle - Attempt 6 (FAILED)
+- **Hypothesis:** Push the boulder at (6, 17) all the way to (17, 17), then push it up.
+- **Conclusion:** Failed. The path is blocked by an impassable wall at (11, 17).
+
+# V. Current Puzzle Plan: Victory Road 1F (Manual Plan #2)
 - **Goal:** Move boulder from (6, 17) to switch at (18, 14).
-- **Status:** Not Started
+- **Status:** In Progress
 - **Plan:**
-  1. Descend steps at (6, 14) to reach the lower level.
-  2. Navigate to (5, 17).
-  3. Activate Strength.
-  4. Push boulder from (6, 17) right until it reaches (17, 17).
-  5. Reposition to (17, 18).
-  6. Push boulder from (17, 17) up until it reaches (17, 14).
-  7. Reposition to (16, 14).
-  8. Push boulder from (17, 14) right onto the switch at (18, 14).
+  1. Push boulder at (6, 17) right until it is at (10, 17).
+  2. Navigate to (10, 18).
+  3. Push boulder up from (10, 17) to (10, 14).
+  4. Navigate to (9, 14).
+  5. Push boulder right from (10, 14) to the switch at (18, 14).
