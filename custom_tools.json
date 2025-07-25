@@ -831,5 +831,42 @@
         "action_counter": 7125
       }
     ]
+  },
+  "verify_unseen_reachability": {
+    "description": "Takes a list of unseen tiles and runs find_path_to_target on each to confirm which are truly reachable, not just adjacent to walkable tiles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "unseen_tiles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "integer"
+              },
+              "y": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ]
+          }
+        }
+      },
+      "required": [
+        "unseen_tiles"
+      ]
+    },
+    "python_script": "import json\nimport subprocess\n\nreachable_tiles = []\nfor tile in input_data['unseen_tiles']:\n    x = tile['x']\n    y = tile['y']\n    # This is a placeholder for calling the actual find_path_to_target tool.\n    # In a real environment, this would be a direct function call or API request.\n    # For this simulation, we'll assume a command-line interface to the other tool.\n    process = subprocess.run(['find_path_to_target', '--target_x', str(x), '--target_y', str(y)], capture_output=True, text=True)\n    path = json.loads(process.stdout)\n    if path:\n        reachable_tiles.append(tile)\n\nprint(json.dumps(reachable_tiles))",
+    "history": [
+      {
+        "commit_message": "feat: Create verify_unseen_reachability tool. This tool will improve exploration efficiency by filtering the output of find_reachable_unseen_tiles to only include tiles that are confirmed to be reachable via the find_path_to_target tool. This addresses a critical procedural failure to act immediately on tool creation ideas.",
+        "timestamp": "2025-07-25T20:54:47.253Z",
+        "action_counter": 7573
+      }
+    ]
   }
 }

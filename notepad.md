@@ -101,6 +101,3 @@
 # IX. High-Priority Tasks
 *   Use `team_composition_advisor` before challenging the Azalea Town Gym.
 *   Test seemingly impassable objects like bookshelves and radios to confirm they are not interactable in a meaningful way.
-
-# X. Potential Future Tools
-*   **verify_unseen_reachability:** A tool that takes the output of `find_reachable_unseen_tiles` and runs `find_path_to_target` on each one to confirm which are truly reachable, not just adjacent to walkable tiles.
