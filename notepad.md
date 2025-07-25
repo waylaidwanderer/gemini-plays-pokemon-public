@@ -75,7 +75,6 @@
 - **Attempt 3:** Pushing the boulder at (3, 11) to the switch at (18, 14). **Result:** FAILED. Got stuck in a small alcove with no way to continue pushing.
 - **Attempt 4:** Using ITEMFINDER to find a hidden switch. **Result:** FAILED. ITEMFINDER did not respond.
 - **Attempt 5:** Pathing to the 2F ladder at (2, 2) is impossible from the current area. This confirms the solution must be on 1F.
-
-## New Hypothesis
-- **Hypothesis #6:** Pushing the boulder at (6, 16) *down* to (6, 17) is the correct first step.
-- **Current Plan:** Navigate to (6, 15) to test Hypothesis #6.
+- **Attempt 6:** Pushing the boulder at (6, 16) *down* to (6, 17). **Result:** FAILED. Soft-locked in a small area, unable to continue pushing.
+- **Attempt 7:** Pushing the boulder at (3, 11) *north* to (3, 10). **Result:** FAILED. Soft-locked, blocking path to other areas.
+- **Attempt 8:** Using FLY to escape the map and reset the puzzle. **Result:** FAILED. The game message "ECHO can't FLY here" appeared.
