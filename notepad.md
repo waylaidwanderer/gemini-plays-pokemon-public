@@ -67,19 +67,15 @@
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
 # VI. Victory Road 1F Boulder Puzzle
-- **Status:** Stuck. All direct hypotheses have failed.
-
-### Victory Road 1F Puzzle - Attempt 1
-- **Hypothesis:** Pushing the boulder at (15, 3) to the switch at (18, 14) will solve the puzzle.
-- **Status:** FAILED. The boulder is unreachable.
-
-### Victory Road 1F Puzzle - Attempt 2
-- **Hypothesis:** Pushing the boulder at (6, 16) to the switch at (18, 14) will solve the puzzle.
-- **Status:** FAILED. The boulder got stuck at (6, 15) because it cannot be pushed onto the 'steps' tile at (6, 14) or into the wall at (7, 15).
-
-### Victory Road 1F Puzzle - Attempt 3
-- **Hypothesis:** Pushing the boulder at (3, 11) to the switch at (18, 14) will solve the puzzle.
-- **Status:** FAILED. After pushing it to (3, 10), there is no path to get around it and continue pushing.
+- **Status:** Stuck. All direct, single-floor hypotheses have failed.
+- **New Hypotheses (from Agent):**
+  1. The solution involves a hole on Victory Road 2F.
+  2. The barrier can be destroyed with a field move (e.g., Rock Smash). (Invalid - no such move)
+  3. The puzzle requires interaction between boulders. (Low Priority)
+  4. Leaving and re-entering the map will reset the boulders. (Fallback plan)
+  5. The player character activates the switch. (Low Priority - already tested standing on it)
+  6. There is a hidden switch discoverable with the Item Finder. (Testable)
+- **Current Plan:** Test Hypothesis #1. Ascend to Victory Road 2F and search for a hole.
 
 ### Victory Road 1F Puzzle - Attempt 2
 - **Hypothesis:** Pushing the boulder at (6, 16) to the switch at (18, 14) will solve the puzzle.
