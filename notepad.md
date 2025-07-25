@@ -95,3 +95,14 @@
 
 # VII. Tool Refinement Notes
 - **`brute_force_explorer`:** The current implementation generates a single, massive list of button presses which is often truncated by the system. It should be modified to return a list of smaller, sequential action chunks to be executed one at a time.
+
+# V. Current Puzzle Plan: Victory Road 1F (Agent-Generated)
+- **Goal:** Move boulder from (6, 17) to switch at (18, 14).
+- **Status:** In Progress
+- **Plan:**
+  1. MOVE_TO (6, 18) to position south of the boulder.
+  2. PUSH_BOULDER at (6, 17) UP to (6, 16).
+  3. PUSH_BOULDER at (6, 16) UP to (6, 15).
+  4. PUSH_BOULDER at (6, 15) UP to (6, 14).
+  5. MOVE_TO (5, 14) to position west of the boulder.
+  6. PUSH_BOULDER at (6, 14) RIGHT (repeat 12 times until it reaches (18, 14)).
