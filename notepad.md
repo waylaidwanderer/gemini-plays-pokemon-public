@@ -107,3 +107,4 @@
 
 # Data Management (Turn 6982)
 *   **Overwatch Critique:** Must delete redundant '📍 POKE_BALL' marker at (4, 17) in Union Cave 1F upon return.
+*   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
