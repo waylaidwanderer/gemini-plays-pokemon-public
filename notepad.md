@@ -100,3 +100,6 @@
     4.  Interacted with lower tile (4, 7) with 'A'.
     5.  Re-entered upper tile (4,6) from the right.
 *   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left. (Hypothesis, needs testing by attempting to move left onto it).
+
+# XII. Strategic Reminders
+*   **Team Composition:** I must remember to use the `team_composition_advisor` agent before the next major battle (e.g., the next Gym Leader) to test its effectiveness and get strategic advice.
