@@ -68,4 +68,5 @@
 
 # VI. Victory Road 1F Puzzle Status
 - **Status:** In Progress
-- **Current Hypothesis:** The boulder at (6, 16) must be pushed onto the switch at (18, 14) to open the boulder barrier at (10, 13). This is the only logical solution that uses all puzzle elements.
+- **Failed Hypothesis (Attempt 1):** The boulder at (6, 16) was a red herring; pushing it made it disappear.
+- **New Hypothesis:** The boulder at (9, 17) must be pushed onto the switch at (18, 14) to open the boulder barrier at (10, 13).
