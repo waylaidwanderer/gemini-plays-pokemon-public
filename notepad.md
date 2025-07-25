@@ -30,10 +30,10 @@
 *   **MART_SHELF:** Impassable. Functions as a wall.
 *   **WATER:** Confirmed impassable. Blocks movement entirely.
 *   **BUOY:** Impassable. Functions as a wall in water.
-*   **TV:** Impassable object. (Hypothesis)
-*   **TOWN_MAP:** Impassable object. (Hypothesis)
+*   **TV:** Impassable object.
+*   **TOWN_MAP:** Impassable object.
 *   **RADIO:** Impassable object. Can be interacted with for text.
-*   **INCENSE_BURNER:** Impassable object. (Hypothesis - needs testing).
+*   **INCENSE_BURNER:** Impassable object. (Confirmed by attempting to walk into it).
 
 ### Impassable with Interaction:
 *   **COUNTER:** Impassable. To interact with an NPC behind a counter, stand on the tile directly in front of them and press A.
@@ -50,7 +50,8 @@
 # II. Battle Information
 
 ## A. Verified Type Matchups
-*   Ghost-type Pokémon are immune to Normal-type moves.
+*   Ghost-type moves have NO EFFECT on Normal-type Pokémon.
+*   Normal-type moves have NO EFFECT on Ghost-type Pokémon.
 *   Unown's Hidden Power can be super-effective against Fire-type Pokémon (observed against Vulcan). The specific type is unknown, but could be Water, Rock, or Ground.
 
 ## B. Gym Leader Teams
@@ -65,11 +66,13 @@
 
 # IV. Story Progression
 
-## A. Confirmed Leads
-*   **The Charcoal Man:** A Youngster at (6, 9) in Azalea Town mentioned that the 'CHARCOAL MAN's POKéMON can CUT down trees.' This is a strong lead for getting HM Cut and likely progressing through Ilex Forest. He is almost certainly in the Charcoal Kiln.
-*   **Kurt's Intervention:** Kurt confronted TEAM ROCKET at the well but fell and injured his back. He has asked me to defeat them in his place. This is the main quest.
+## A. Current Quest
+*   **Kurt's Request:** Kurt confronted TEAM ROCKET at the well but fell and injured his back. He has asked me to defeat them in his place. This is the main quest.
 
-## B. Past Clues & Hints
+## B. Confirmed Leads
+*   **The Charcoal Man:** A Youngster at (6, 9) in Azalea Town mentioned that the 'CHARCOAL MAN's POKéMON can CUT down trees.' This is a strong lead for getting HM Cut and likely progressing through Ilex Forest. He is almost certainly in the Charcoal Kiln.
+
+## C. Past Clues & Hints
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
 
 # V. Critical Failures & Lessons Learned
@@ -90,10 +93,14 @@
 *   **Azalea Pokecenter 2F:** This entire floor is a dead end for now. All warps are blocked by NPCs or walls.
 
 # VIII. Untested Assumptions & Hypotheses
-*   **Moltres Sprite:** I assume the Moltres sprite is decorative. **Alternative:** It's an interactable object/switch. **Test:** Interact with it after speaking to all human NPCs.
-*   **Charcoal Man's Location:** I assume the 'Charcoal Man' is the other person in the Charcoal Kiln. **Alternative:** 'Charcoal Man' is a nickname for Kurt, and the clue was about his past. **Test:** If the other NPC in the kiln does not provide HM Cut, this lead needs re-evaluation.
-*   **Ilex Forest Access:** I assume getting HM Cut is the only requirement to pass through Ilex Forest. **Alternative:** Another story-based barrier exists beyond the trees. **Test:** After (potentially) getting Cut, I must go to the forest entrance to verify passage.
+*   **Item Ball in Slowpoke Well:** I assume the item ball at (10, 3) contains a useful item. **Alternative:** It could be a trap (e.g., a Voltorb). **Test:** Interact with it after the current battle.
+*   **Slowpoke Well Resolution:** I assume defeating all the Rocket Grunts in this well will resolve the Slowpoke issue. **Alternative:** There's a leader or a switch I need to find. **Test:** Explore the entire well after defeating all visible grunts.
+*   **Kurt's Reward:** I assume Kurt will give me something (like HM Cut) after I help him. **Alternative:** He will just thank me and the story will progress in a different way. **Test:** Talk to Kurt after defeating Team Rocket.
+*   **Rocket Grunt's Motivation:** I assume the Rocket Grunt is blocking the well to guard it. **Alternative:** He's just a loiterer and will move after a certain event is triggered elsewhere. **Test:** If defeating the Rockets inside the well doesn't make him move, I must search for another trigger.
 
 # IX. High-Priority Tasks
 *   Use `team_composition_advisor` before challenging the Azalea Town Gym.
 *   Test seemingly impassable objects like bookshelves and radios to confirm they are not interactable in a meaningful way.
+
+# X. Potential Future Tools
+*   **verify_unseen_reachability:** A tool that takes the output of `find_reachable_unseen_tiles` and runs `find_path_to_target` on each one to confirm which are truly reachable, not just adjacent to walkable tiles.
