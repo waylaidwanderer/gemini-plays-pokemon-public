@@ -67,7 +67,7 @@
 # IV. Story Progression
 
 ## A. Current Quest
-*   **Kurt's Request:** Kurt confronted TEAM ROCKET at the well but fell and injured his back. He has asked me to defeat them in his place. This is the main quest.
+*   **Kurt's Request:** Completed. Defeated Team Rocket in the Slowpoke Well. Kurt is now making a LURE BALL.
 
 ## B. Confirmed Leads
 *   **The Charcoal Man:** A Youngster at (6, 9) in Azalea Town mentioned that the 'CHARCOAL MAN's POKéMON can CUT down trees.' This is a strong lead for getting HM Cut and likely progressing through Ilex Forest. He is almost certainly in the Charcoal Kiln.
@@ -93,13 +93,10 @@
 *   **Azalea Pokecenter 2F:** This entire floor is a dead end for now. All warps are blocked by NPCs or walls.
 
 # VIII. Untested Assumptions & Hypotheses
-*   **Item Ball in Slowpoke Well:** I assume the item ball at (10, 3) contains a useful item. **Alternative:** It could be a trap (e.g., a Voltorb). **Test:** Interact with it after the current battle.
-*   **Slowpoke Well Resolution:** I assume defeating all the Rocket Grunts in this well will resolve the Slowpoke issue. **Alternative:** There's a leader or a switch I need to find. **Test:** Explore the entire well after defeating all visible grunts.
-*   **Kurt's Reward:** I assume Kurt will give me something (like HM Cut) after I help him. **Alternative:** He will just thank me and the story will progress in a different way. **Test:** Talk to Kurt after defeating Team Rocket.
-*   **Rocket Grunt's Motivation:** I assume the Rocket Grunt is blocking the well to guard it. **Alternative:** He's just a loiterer and will move after a certain event is triggered elsewhere. **Test:** If defeating the Rockets inside the well doesn't make him move, I must search for another trigger.
+*   **Item Ball in Slowpoke Well:** I assume the item ball at (10, 3) contains a useful item. **Alternative:** It could be a trap (e.g., a Voltorb). **Test:** Interact with it after clearing Azalea Town.
+*   **Azalea Gym Puzzle:** I assume defeating trainers on switches moves the bug platforms. **Alternative:** The platforms move based on a specific sequence of switch activations, not just defeating trainers. **Test:** After this battle, try interacting with the switches again to see if they can be toggled without a battle.
 
 # IX. High-Priority Tasks
-*   Use `team_composition_advisor` before challenging the Azalea Town Gym.
 *   Test seemingly impassable objects like bookshelves and radios to confirm they are not interactable in a meaningful way.
 
 ## X. Game Quirks & Oddities
