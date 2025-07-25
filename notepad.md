@@ -55,15 +55,15 @@
 
 # IV. Current Objective: Victory Road 1F Puzzle
 
-- **Status:** In Progress. Currently isolated in the western section of the map.
-- **Key Insight:** The system has confirmed I am not soft-locked, therefore a solution must exist within the accessible area.
-- **Summary of Failed Hypotheses:**
-  1.  **Lower-Level Boulder Puzzles:** All direct and complex attempts to push the boulders at (6, 17) and (3, 11) to the switch at (18, 14) have been proven invalid by the `boulder_puzzle_solver_agent` or impassable terrain.
-  2.  **Player-Activated Switch:** Stepping on the switch at (18, 14) does not affect the barrier at (10, 13).
-  3.  **Hidden Item:** The ITEMFINDER did not detect any hidden items in the area.
-  4.  **Trainer Battle Trigger:** This hypothesis is currently untestable as the remaining trainers are on the unreachable eastern side of the map.
-- **Current Hypothesis:** The solution involves accessing the upper platform and interacting with the boulder at (15, 3). My `gem_pathfinder` tool is currently bugged and preventing me from testing this.
-- **Next Step:** Debug and fix the pathfinder's elevation logic.
+- **Status:** In Progress. Confirmed to be isolated in the western section of the map.
+- **Key Insight:** The solution cannot be solved from 1F alone and must involve Victory Road 2F.
+- **Generated Hypotheses (from Agent):**
+  1. A boulder on 2F can be pushed through a hole, landing on the switch at (18, 14) on 1F.
+  2. A separate path on 2F leads to a different ladder/hole that descends to the eastern section of 1F.
+  3. One of the boulders on 1F must be pushed onto a hidden, unmarked switch tile.
+  4. The boulder configuration on 1F affects the puzzle state on 2F.
+- **Current Hypothesis (Testing):** Hypothesis #1 - A boulder from 2F can be dropped onto the switch on 1F.
+- **Next Step:** Ascend to Victory Road 2F via the ladder at (2, 2) and search for a corresponding boulder/hole puzzle.
 
 # V. Archives
 
