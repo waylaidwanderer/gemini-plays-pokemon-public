@@ -106,3 +106,8 @@
   4. Path to (16, 14).
   5. Push boulder from (17, 14) right to the switch at (18, 14).
 - **Note:** The standard boulder-pushing mechanic (player moves into the boulder's old space) seems to be working again. The previous observation might have been an anomaly.
+
+### Untested Assumption
+- **Hypothesis:** The boulder switch at (18, 14) opens the boulder barrier at (10, 13).
+- **Test:** Push a boulder onto the switch.
+- **Status:** Currently unable to test as no reachable boulder has a clear path to the switch.
