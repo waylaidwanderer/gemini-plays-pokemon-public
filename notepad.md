@@ -95,3 +95,6 @@
 
 # X. New Leads
 *   **The Charcoal Man:** A Youngster at (6, 9) in Azalea Town mentioned that the 'CHARCOAL MAN's POKéMON can CUT down trees.' This is a strong lead for getting HM Cut and likely progressing through Ilex Forest. He is almost certainly in the Charcoal Kiln.
+
+# XI. Kurt's Intervention
+*   Kurt has confirmed TEAM ROCKET is cutting off SLOWPOKETAILs at the well to sell them. He has run off to the well to confront them himself. This is the trigger to advance the plot.
