@@ -67,6 +67,7 @@
 *   **select_battle_option Tool Correction:** I previously believed `select_battle_option` was a hallucination. This was a critical failure to consult my available tools list. `select_battle_option` is a real tool and must be used for battle menu selections.
 *   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
 *   **Tool Development Failures:** I have repeatedly failed to perform data management and tool refinement immediately. My `find_path_to_target` tool was broken for many turns. This is a severe violation of core directives and must not happen again.
+*   **Diagnostic Methodology Failure:** I repeatedly concluded my pathfinding tool was broken when it was correctly identifying that my requested paths were impossible due to map layout (e.g., walls, NPCs). I must trust my tool's output and analyze the map more carefully before assuming a bug.
 
 # VI. Puzzle Solutions
 
@@ -75,25 +76,22 @@
 *   **Hypothesis 4 (Confirmed):** The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces. This led to the inner chamber where Unown appeared.
 
 # VII. Custom Tools & Agents
-*   `find_path_to_target`: A Python tool that finds the shortest path from the player's current position to a specified target coordinate using a Breadth-First Search (BFS) algorithm. It correctly handles one-way ledges and will find a path to a tile adjacent to the target if the target itself is impassable. **STATUS: Functional.**
-*   `find_reachable_unseen_tiles`: A Python tool that finds all unseen tiles that are reachable from the player's current position by performing a single BFS across all passable tiles, both seen and unseen.
-*   `battle_strategist`: An agent that analyzes the current battle state and recommends the optimal action (FIGHT, PKMN, PACK, RUN) based on strategic priorities like PP conservation and avoiding unfavorable wild battles.
-*   `exploration_strategist`: An agent that takes a list of reachable unseen tiles and the primary goal, then recommends the most strategic tile to explore next.
-*   `team_composition_advisor`: An agent that analyzes the player's party and an opponent's primary type to recommend an effective team composition.
-*   `script_debugger`: An agent that analyzes a faulty Python script. It generates a debugging plan if no log is provided, or analyzes a log to find the root cause and provide a new hypothesis.
+*   **`find_path_to_target`:** A Python tool that finds the shortest path using a Breadth-First Search (BFS) algorithm. It correctly handles one-way ledges and impassable objects. **STATUS: Functional.** Previous failures were due to user error (requesting impossible paths), not bugs.
+*   **`find_reachable_unseen_tiles`:** A Python tool that finds all reachable unseen tiles. **STATUS: Functional.**
+*   **`battle_strategist`:** An agent that recommends the optimal battle action.
+*   **`exploration_strategist`:** An agent that recommends the most strategic tile to explore next.
+*   **`team_composition_advisor`:** An agent that recommends an effective team composition for a given opponent.
+*   **`script_debugger`:** An agent that analyzes and provides debugging plans for faulty Python scripts.
 
 # VIII. Story Clues & Hints
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
 
 # IX. Exploration Notes
 *   **Route 32 Pier:** This area is a dead end. My verified `find_path_to_target` tool confirmed that the southern part of the route is unreachable from the northern section.
+*   **Route 33 Pathing:** The route is split by a line of walls and ledges. The northern section is blocked by Hiker Anthony, making it a dead end. The only way to proceed to Azalea Town is likely back through Union Cave.
 
 # X. Untested Assumptions & Falsification Tests
 *   **Pokefan M in Route 32 Gatehouse (Confirmed):**
     *   **Hypothesis (Falsified):** Interacting with the Pokefan M at (8, 3) will cause him to move.
     *   **Test:** Stunned the NPC at (8, 3) and initiated dialogue.
     *   **Conclusion:** The NPC provided flavor text but did not move. He is a hard block for now, making the western part of the gatehouse, including the main warp to the Ruins of Alph, inaccessible from this side.
-*   **Unexplored Warps in Route 32 Gatehouse:**
-    *   **Assumption:** The warps at (0, 5) and (9, 5) are non-essential side rooms.
-    *   **Alternative Hypothesis:** One of these warps is the correct path forward.
-    *   **Test:** If I become stuck after exploring the Ruins of Alph, I must return to this gatehouse and investigate these warps.
