@@ -106,3 +106,4 @@
 *   **New Plan:** Re-investigate the Ruins of Alph Research Center.
 *   Wade has called multiple times about the Bug-Catching Contest at the National Park today.
 *   **Fix Implemented (Turn 5915):** The two-stage BFS was flawed. Re-implemented a single-stage BFS to find all *truly* reachable unseen tiles, not just adjacent ones. This should prevent the `exploration_strategist` from receiving impossible targets.
+*   Wade has called multiple times about the Bug-Catching Contest at the National Park today.
