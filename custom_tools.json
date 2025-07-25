@@ -314,47 +314,5 @@
         "action_counter": 99250
       }
     ]
-  },
-  "puzzle_solver_tool": {
-    "description": "A tool to analyze puzzle maps (like Victory Road) by identifying key components (boulders, switches) and their relationships. It provides a hypothesis-driven plan to solve the puzzle based on component proximity.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport math\n\ndef analyze_puzzle(map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    \n    boulders = []\n    switches = []\n    barriers = []\n\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            \n            if tile_elem.find('Boulder') is not None:\n                boulders.append({'x': x, 'y': y})\n            if tile_elem.get('type') == 'boulder_switch':\n                switches.append({'x': x, 'y': y})\n            if tile_elem.get('type') == 'boulder_barrier':\n                barriers.append({'x': x, 'y': y})\n\n    result = {\n        \"summary\": \"No complete puzzle found (boulders, switches, and barriers).\",\n        \"components\": {\n            \"boulders\": boulders,\n            \"switches\": switches,\n            \"barriers\": barriers\n        },\n        \"suggested_plans\": []\n    }\n\n    if not boulders or not switches or not barriers:\n        print(json.dumps(result, indent=2))\n        return\n\n    result[\"summary\"] = \"Analyzed puzzle components. Here are the suggested solution plans based on proximity.\"\n\n    for barrier in barriers:\n        if not switches:\n            continue\n        nearest_switch = min(switches, key=lambda s: math.hypot(s['x'] - barrier['x'], s['y'] - barrier['y']))\n        \n        if not boulders:\n            continue\n        nearest_boulder = min(boulders, key=lambda b: math.hypot(b['x'] - nearest_switch['x'], b['y'] - nearest_switch['y']))\n\n        plan = {\n            \"goal\": f\"Clear barrier at ({barrier['x']}, {barrier['y']})\",\n            \"hypothesis\": f\"The barrier at ({barrier['x']}, {barrier['y']}) is likely controlled by the nearest switch at ({nearest_switch['x']}, {nearest_switch['y']}).\",\n            \"suggested_action\": f\"Try pushing the boulder from ({nearest_boulder['x']}, {nearest_boulder['y']}) to the switch at ({nearest_switch['x']}, {nearest_switch['y']}).\",\n            \"note\": \"This plan is based on proximity and does not guarantee a valid path exists. Please verify the path with a pathfinder tool before attempting.\"\n        }\n        result[\"suggested_plans\"].append(plan)\n\n    print(json.dumps(result, indent=2))\n\nanalyze_puzzle(map_xml_string)",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-07-24T14:57:54.399Z",
-        "action_counter": 98011
-      },
-      {
-        "commit_message": "feat: Create puzzle_solver_tool. This tool analyzes the map XML to identify all boulders, switches, and barriers, providing a comprehensive overview of the puzzle components. This is necessary because my manual assessment of the Victory Road puzzle was incorrect, and I need a systematic way to understand the full puzzle before attempting to solve it.",
-        "timestamp": "2025-07-24T17:37:20.499Z",
-        "action_counter": 98266
-      },
-      {
-        "commit_message": "feat: Create puzzle_solver_tool. This tool analyzes the map XML to identify all boulders, switches, and barriers, providing a comprehensive overview of the puzzle components. This is necessary because my manual assessment of the Victory Road puzzle was incorrect, and I need a systematic way to understand the full puzzle before attempting to solve it.",
-        "timestamp": "2025-07-24T21:11:52.594Z",
-        "action_counter": 98611
-      },
-      {
-        "commit_message": "feat: Create puzzle_solver_tool. This tool analyzes the map XML to identify all boulders, switches, and barriers, providing a comprehensive overview of the puzzle components. This is necessary because my manual assessment of the Victory Road puzzle was incorrect, and I need a systematic way to understand the full puzzle before attempting to solve it.",
-        "timestamp": "2025-07-24T21:12:30.291Z",
-        "action_counter": 98612
-      },
-      {
-        "commit_message": "feat: Overhaul tool to provide hypothesis-driven plans. In response to a critical overwatch review, this commit fundamentally changes the tool's function. Instead of merely listing puzzle component locations, it now analyzes the spatial relationships between barriers, switches, and boulders. It generates a testable, hypothesis-based plan by identifying the nearest switch to a barrier and the nearest boulder to that switch. This provides actionable strategic advice, directly addressing the critique that the tool was too basic and that tool maintenance was being deferred.",
-        "timestamp": "2025-07-25T14:33:34.309Z",
-        "action_counter": 99871
-      },
-      {
-        "commit_message": "feat: Overhaul tool to provide hypothesis-driven plans. In response to a critical overwatch review, this commit fundamentally changes the tool's function. Instead of merely listing puzzle component locations, it now analyzes the spatial relationships between barriers, switches, and boulders. It generates a testable, hypothesis-based plan by identifying the nearest switch to a barrier and the nearest boulder to that switch. This provides actionable strategic advice, directly addressing the critique that the tool was too basic and that tool maintenance was being deferred.",
-        "timestamp": "2025-07-25T14:35:30.078Z",
-        "action_counter": 99873
-      },
-      {
-        "commit_message": "feat: Overhaul tool to provide hypothesis-driven plans. In response to a critical overwatch review, this commit fundamentally changes the tool's function. Instead of merely listing puzzle component locations, it now analyzes the spatial relationships between barriers, switches, and boulders. It generates a testable, hypothesis-based plan by identifying the nearest switch to a barrier and the nearest boulder to that switch. This provides actionable strategic advice, directly addressing the critique that the tool was too basic and that tool maintenance was being deferred.",
-        "timestamp": "2025-07-25T14:36:32.009Z",
-        "action_counter": 99874
-      }
-    ]
   }
 }
