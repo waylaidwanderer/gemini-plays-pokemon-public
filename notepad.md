@@ -103,3 +103,7 @@
 *   **Logical Flaw Identified (Turn 5867):** The tool's two-stage BFS was incorrect. It found unseen tiles *adjacent* to reachable tiles, not unseen tiles that are *themselves* reachable. This provided flawed data to the `exploration_strategist`, leading to impossible navigation goals.
 *   **Fix Implemented (Turn 5867):** Rewrote the tool to use a single, unified BFS that traverses all passable tiles (both seen and unseen) and filters the result for only the unseen tiles. This should provide accurate data.
 *   **Logical Flaw Identified (Turn 5872):** The single-stage BFS was flawed because it returned unreachable tiles as valid targets. Reverting to a two-stage BFS to find only unseen tiles adjacent to the known reachable area.
+
+# XI. Exploration Notes
+*   **Ruins of Alph Outside (Central Plaza):** The southern path starting near (5, 14) and the eastern path near (14, 3) are unreachable from the central plaza area accessible from the Route 36 gatehouse. This area appears to be a dead end.
+*   **New Plan:** Backtrack through the gatehouse at (13, 20) to Route 32 and attempt to proceed south towards Union Cave.
