@@ -101,14 +101,16 @@
 # X. Puzzles & Blockages
 
 ## A. Route 31 Gatehouse Warp
-*   **Status:** Currently impassable. I am fundamentally misunderstanding the mechanic.
-*   **Failed Attempts (5):**
+*   **Status:** Currently impassable. The map data says this is a valid warp, but I cannot figure out how to activate it.
+*   **Failed Attempts (7):**
     1.  Moved onto upper tile (4, 6) from the right.
     2.  Interacted with upper tile (4, 6) with 'A'.
     3.  Moved onto lower tile (4, 7) from the right.
     4.  Interacted with lower tile (4, 7) with 'A'.
     5.  Re-entered upper tile (4,6) from the right.
-*   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left. (Hypothesis, needs testing by attempting to move left onto it).
+    6.  Interacted with upper tile (4, 6) from the right at (5, 6).
+    7.  Moved onto lower tile (4, 7) from the right at (5, 7).
+*   **Conclusion:** After 7 failed attempts, it is highly likely this is a one-way exit from the gatehouse and cannot be entered from Route 31.
 
 # XI. Strategic Reminders
 *   **Team Composition:** I must remember to use the `team_composition_advisor` agent before the next major battle (e.g., the next Gym Leader) to test its effectiveness and get strategic advice.
