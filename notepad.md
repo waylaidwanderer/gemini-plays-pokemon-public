@@ -7,15 +7,16 @@
 ### Confirmed Traversable:
 *   **FLOOR:** Fully traversable.
 *   **TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
+*   **LONG_GRASS:** Traversable, can trigger wild Pokémon encounters. Appears functionally identical to TALL_GRASS.
 *   **DOOR:** Functions as a two-way warp.
 *   **CAVE:** Functions as a warp.
 *   **LADDER:** Functions as a two-way warp between floors.
 
 ### Warp Tiles:
 *   **WARP_CARPET_DOWN:** One-way warp. Activated by pressing 'Down'.
+*   **WARP_CARPET_LEFT:** One-way warp. Activated by pressing 'Left'.
 
 ### Confirmed Impassable:
-*   **WALL:** Impassable.
 *   **WINDOW:** Impassable. Functions as a wall.
 *   **COUNTER:** Impassable. Interact with NPCs from the front.
 *   **PC:** Impassable. Functions as an object.
@@ -27,14 +28,16 @@
 *   **BLACKBOARD:** Impassable. Functions as an object that can be interacted with for text.
 *   **MART_SHELF:** Impassable. Functions as a wall.
 *   **WATER:** Confirmed impassable. Blocks movement entirely.
+*   **BUOY:** Impassable. Functions as a wall in water.
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
+*   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
 *   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
 
 ### Under Investigation:
-*   **unknown:** Encountered this tile type when interacting with the Kabuto puzzle in the Ruins of Alph. Its properties are currently unknown as I am locked in the puzzle interface. Must investigate after completion.
-*   **unknown (VioletPokecenter1F, (9, 2)):** Game state reports I am standing on this tile type in front of the PC, though map memory shows it as FLOOR. This tile is traversable. Need to investigate this discrepancy and the tile's properties further.
+*   **Ruins of Alph `unknown` tile:** Properties unknown. Must investigate upon returning to the puzzle chamber.
+*   **Violet Pokecenter `unknown` tile:** Tile at (9, 2) is traversable but its properties are unclear. Must investigate upon returning to Violet City's Pokémon Center.
 
 # II. Battle Information
 
@@ -71,7 +74,7 @@
 *   `find_reachable_unseen_tiles`: A Python tool that finds all unseen tiles that are reachable from the player's current position by performing a single BFS across all passable tiles, both seen and unseen.
 *   `battle_strategist`: An agent that analyzes the current battle state and recommends the optimal action (FIGHT, PKMN, PACK, RUN) based on strategic priorities like PP conservation and avoiding unfavorable wild battles.
 *   `exploration_strategist`: An agent that takes a list of reachable unseen tiles and the primary goal, then recommends the most strategic tile to explore next.
-*   `team_composition_advisor`: An agent that analyzes the player's party and an opponent's primary type to recommend an effective team composition. **Reminder:** Use this before the next major battle.
+*   `team_composition_advisor`: An agent that analyzes the player's party and an opponent's primary type to recommend an effective team composition.
 *   `script_debugger`: An agent that analyzes a faulty Python script. It generates a debugging plan if no log is provided, or analyzes a log to find the root cause and provide a new hypothesis.
 
 # VIII. Story Clues & Hints
@@ -89,19 +92,11 @@
 # X. Puzzles & Blockages
 
 ## A. Route 31 Gatehouse Warp
-*   **Status:** Currently impassable. The map data says this is a valid warp, but I cannot figure out how to activate it.
-*   **Failed Attempts (7):**
-    1.  Moved onto upper tile (4, 6) from the right.
-    2.  Interacted with upper tile (4, 6) with 'A'.
-    3.  Moved onto lower tile (4, 7) from the right.
-    4.  Interacted with lower tile (4, 7) with 'A'.
-    5.  Re-entered upper tile (4,6) from the right.
-    6.  Interacted with upper tile (4, 6) from the right at (5, 6).
-    7.  Moved onto lower tile (4, 7) from the right at (5, 7).
-*   **Conclusion:** After 7 failed attempts, it is highly likely this is a one-way exit from the gatehouse and cannot be entered from Route 31.
+*   **Status:** Confirmed one-way exit from the gatehouse. Cannot be entered from Route 31.
 
 # XI. Strategic Reminders
-*   **Team Composition:** I must remember to use the `team_composition_advisor` agent before the next major battle (e.g., the next Gym Leader) to test its effectiveness and get strategic advice.
+*   **Agent Usage:** I must remember to use the `team_composition_advisor` agent before the next major battle (e.g., the next Gym Leader) and the `procedural_overseer` agent before making significant strategic pivots to ensure my plans are sound.
+*   **Map Markers:** When possible, I need to link map markers for NPCs to their `object_id` and use more descriptive labels to improve long-term tracking.
 
 # XII. Exploration Tests & Conclusions
 
@@ -113,16 +108,11 @@
 *   **Conclusion:** The unseen tiles are confirmed to be currently unreachable, likely located across the large body of water. I will ignore future system alerts for this map unless I gain a new traversal ability like Surf.
 
 # XIII. Falsification Tests & Untested Assumptions
-- **Hypothesis:** `WALL` tiles are always impassable.
-  - **Test:** Attempt to walk into a `WALL` tile from all four directions.
-  - **Status:** Untested.
-- **The Elder has HM05 Flash:** My primary goal is based on this assumption.
-  - **Alternative Hypothesis:** The Elder gives a different item, or nothing, and Flash is acquired elsewhere (e.g., related to the Route 36 tree).
-  - **Test to Disprove:** If I cannot find a path to the Elder after thoroughly exploring all options in Sprout Tower, I will abandon this goal and pivot to investigating the Route 36 tree.
-- **The strange tree on Route 36 requires a key item.**
-  - **Test:** After this gym, re-talk to key NPCs before searching for an item.
-### Newly Documented Tiles:
-*   **LONG_GRASS:** Traversable, can trigger wild Pokémon encounters. Appears functionally identical to TALL_GRASS.
-*   **BUOY:** Impassable. Functions as a wall in water.
-*   **WARP_CARPET_LEFT:** One-way warp. Activated by pressing 'Left'.
-*   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
+*   **Hypothesis:** `WALL` tiles are always impassable.
+  *   **Test:** Attempt to walk into a `WALL` tile from all four directions.
+  *   **Status:** Untested.
+*   **The Elder has HM05 Flash:** My primary goal is based on this assumption.
+  *   **Alternative Hypothesis:** The Elder gives a different item, or nothing, and Flash is acquired elsewhere (e.g., related to the Route 36 tree).
+  *   **Test to Disprove:** If I cannot find a path to the Elder after thoroughly exploring all options in Sprout Tower, I will abandon this goal and pivot to investigating the Route 36 tree.
+*   **The strange tree on Route 36 requires a key item.**
+  *   **Test:** After this gym, re-talk to key NPCs before searching for an item.
