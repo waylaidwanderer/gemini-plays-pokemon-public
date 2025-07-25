@@ -94,3 +94,6 @@
     *   **Hypothesis (Falsified):** Interacting with the Pokefan M at (8, 3) will cause him to move.
     *   **Test:** Stunned the NPC at (8, 3) and initiated dialogue.
     *   **Conclusion:** The NPC provided flavor text but did not move. He is a hard block for now, making the western part of the gatehouse, including the main warp to the Ruins of Alph, inaccessible from this side.
+
+# XI. High-Priority Tasks
+*   **CRITICAL:** Mark the warp on Route 33 at (0, 15) leading to Azalea Town. This was a failure to follow core directives.
