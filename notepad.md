@@ -89,10 +89,10 @@
 *   **Map Markers:** I need to use more descriptive labels for my markers and link them to their `object_id` when possible to improve long-term tracking.
 
 # XI. Untested Assumptions & Falsification Tests
-*   **Pokefan M in Route 32 Gatehouse:**
-    *   **Assumption:** He is a normal NPC who will move or provide information upon interaction.
-    *   **Alternative Hypothesis:** He is a permanent obstacle or requires a specific event/item to move, making the western part of the gatehouse currently inaccessible.
-    *   **Test:** Interact with him. If he does not move and provides no useful information, and the path remains blocked, the alternative hypothesis is more likely.
+*   **Pokefan M in Route 32 Gatehouse (Confirmed):**
+    *   **Hypothesis (Falsified):** Interacting with the Pokefan M at (8, 3) will cause him to move.
+    *   **Test:** Stunned the NPC at (8, 3) and initiated dialogue.
+    *   **Conclusion:** The NPC provided flavor text but did not move. He is a hard block for now, making the western part of the gatehouse, including the main warp to the Ruins of Alph, inaccessible from this side.
 *   **Unexplored Warps in Route 32 Gatehouse:**
     *   **Assumption:** The warps at (0, 5) and (9, 5) are non-essential side rooms.
     *   **Alternative Hypothesis:** One of these warps is the correct path forward.
