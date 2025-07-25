@@ -67,6 +67,5 @@
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
 # VI. Victory Road 1F Puzzle Status
-- **Status:** SOLVED.
-- **Realization:** The lower boulder puzzle involving the boulder at (6, 16) is a red herring and likely for an optional item. I was stuck due to a critical reasoning error, assuming the defeated Youngster at (7, 11) was still an impassable obstacle.
-- **Correct Path:** The true path is to ascend the steps at (6, 14), walk past the defeated Youngster at (7, 11), and proceed to the ladder at (2, 2) to reach the next floor.
+- **Status:** In Progress
+- **Current Hypothesis:** The lower boulder puzzle is a red herring. The true path is up the steps at (6, 14). The defeated Youngster at (7, 11) must be ignorable, allowing access to the upper platform and the ladder at (2, 2). My previous pathfinder attempts failed because the tool incorrectly treats the defeated trainer as a solid wall.
