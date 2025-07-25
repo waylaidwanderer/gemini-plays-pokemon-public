@@ -18,6 +18,7 @@
 
 ### Confirmed Impassable:
 *   **WALL:** Impassable.
+*   **WINDOW:** Impassable. Functions as a wall.
 *   **COUNTER:** Impassable. Interact with NPCs from the front.
 *   **PC:** Impassable. Functions as an object.
 *   **VOID:** Impassable. Appears as a black abyss.
@@ -78,19 +79,13 @@
 *   `find_reachable_unseen_tiles`: Finds all unseen tiles that are reachable from the player's current position.
 *   `battle_strategist`: Recommends the best action in a battle.
 *   `exploration_strategist`: Recommends the next best tile to explore based on the primary goal.
-*   `team_composition_advisor`: Recommends a team composition for a specific opponent type.
+*   `team_composition_advisor`: Recommends a team composition for a specific opponent type. **Reminder:** Use this before the next major battle.
 *   `script_debugger`: Analyzes faulty Python scripts and provides debugging plans.
 
-# VIII. Reflection Log & Untested Assumptions
-
-## A. 50-Turn Reflection (Turn 5735)
-*   **Immediate Action Mandate (Failure):** I continue to fail to perform data management tasks immediately. I deferred marking the Research Center warp and fixing my pathfinder. This must be my top priority to correct.
-*   **Untested Assumption 1:** The main path to Azalea Town is south from Route 32.
-    *   **Alternative Hypothesis:** The path is through a different, unexplored part of Union Cave or the Ruins of Alph.
-    *   **Test:** Proceed south on Route 32. If a dead end is reached, the assumption is false.
-*   **Untested Assumption 2:** The unmarked warp at (7, 5) on the Ruins of Alph Outside map is just another puzzle chamber.
-    *   **Alternative Hypothesis:** It is a shortcut or the main path forward.
-    *   **Test:** Enter the warp.
+# VIII. Untested Assumptions
+*   **The Strange Tree is the only path forward:** My current primary goal is based on the assumption that dealing with the strange tree on Route 36 is the intended progression.
+    *   **Alternative Hypothesis:** The main path forward is through an undiscovered section of Union Cave or another route, possibly requiring an HM I don't have yet (like Surf or Strength).
+    *   **Test to Disprove:** If I acquire a new HM, I will re-explore previous areas, especially Union Cave, to check for new paths before continuing to focus on the tree.
 
 # IX. Story Clues & Hints
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
