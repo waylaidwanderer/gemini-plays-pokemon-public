@@ -99,3 +99,8 @@
     *   **Assumption:** The warps at (0, 5) and (9, 5) are non-essential side rooms.
     *   **Alternative Hypothesis:** One of these warps is the correct path forward.
     *   **Test:** If I become stuck after exploring the Ruins of Alph, I must return to this gatehouse and investigate these warps.
+
+# XII. Mandatory Reflection (Turn 6980)
+*   **Tool Failure:** My `find_reachable_unseen_tiles` tool is confirmed broken. It returned an empty list on Route 33, but the system correctly identified adjacent unseen tiles. This is a critical failure in my exploration toolkit that must be fixed immediately.
+*   **Tile Mechanics:** I have not yet documented `LEDGE_HOP_LEFT`. I need to add it to my investigation list.
+*   **Agent Usage:** I will make a more concerted effort to use my `procedural_overseer` agent if I find myself repeating actions without success.
