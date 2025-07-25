@@ -67,6 +67,6 @@
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
 # VI. Victory Road 1F Puzzle Status
-- **Objective:** Open the boulder barrier at (10, 13) to access the ladder at (2, 2).
-- **Current Hypothesis:** The boulder starting at (6, 16) must be pushed onto the switch at (18, 14).
-- **Progress:** Boulder pushed from (6, 16) to (6, 17).
+- **Status:** SOLVED.
+- **Realization:** The lower boulder puzzle involving the boulder at (6, 16) is a red herring and likely for an optional item. I was stuck due to a critical reasoning error, assuming the defeated Youngster at (7, 11) was still an impassable obstacle.
+- **Correct Path:** The true path is to ascend the steps at (6, 14), walk past the defeated Youngster at (7, 11), and proceed to the ladder at (2, 2) to reach the next floor.
