@@ -75,12 +75,12 @@
 *   **Hypothesis 4 (Confirmed):** The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces. This led to the inner chamber where Unown appeared.
 
 # VII. Custom Tools & Agents
-*   `find_path_to_target`: Finds the shortest path from the player's current position to a specified target coordinate.
-*   `find_reachable_unseen_tiles`: Finds all unseen tiles that are reachable from the player's current position.
-*   `battle_strategist`: Recommends the best action in a battle.
-*   `exploration_strategist`: Recommends the next best tile to explore based on the primary goal.
-*   `team_composition_advisor`: Recommends a team composition for a specific opponent type. **Reminder:** Use this before the next major battle.
-*   `script_debugger`: Analyzes faulty Python scripts and provides debugging plans.
+*   `find_path_to_target`: A Python tool that finds the shortest path from the player's current position to a specified target coordinate using a Breadth-First Search (BFS) algorithm. It correctly handles one-way ledges and will find a path to a tile adjacent to the target if the target itself is impassable.
+*   `find_reachable_unseen_tiles`: A Python tool that finds all unseen tiles that are reachable from the player's current position by performing a single BFS across all passable tiles, both seen and unseen.
+*   `battle_strategist`: An agent that analyzes the current battle state and recommends the optimal action (FIGHT, PKMN, PACK, RUN) based on strategic priorities like PP conservation and avoiding unfavorable wild battles.
+*   `exploration_strategist`: An agent that takes a list of reachable unseen tiles and the primary goal, then recommends the most strategic tile to explore next.
+*   `team_composition_advisor`: An agent that analyzes the player's party and an opponent's primary type to recommend an effective team composition. **Reminder:** Use this before the next major battle.
+*   `script_debugger`: An agent that analyzes a faulty Python script. It generates a debugging plan if no log is provided, or analyzes a log to find the root cause and provide a new hypothesis.
 
 # VIII. Untested Assumptions
 *   **The Strange Tree is the only path forward:** My current primary goal is based on the assumption that dealing with the strange tree on Route 36 is the intended progression.
