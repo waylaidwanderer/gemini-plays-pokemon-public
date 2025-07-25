@@ -92,3 +92,6 @@
 
 ## C. Map Marker Mechanics
 *   **Dynamic Nature:** Markers linked to an `object_id` WILL move with the object. This is useful for tracking moving NPCs.
+
+# X. New Leads
+*   **The Charcoal Man:** A Youngster at (6, 9) in Azalea Town mentioned that the 'CHARCOAL MAN's POKéMON can CUT down trees.' This is a strong lead for getting HM Cut and likely progressing through Ilex Forest. He is almost certainly in the Charcoal Kiln.
