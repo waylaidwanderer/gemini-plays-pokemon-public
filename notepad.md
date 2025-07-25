@@ -59,20 +59,19 @@
 
 # III. Badges & Items
 *   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
+*   **Hive Badge:** Acquired from Bugsy. Allows use of HM01 (Cut) outside of battle and makes traded Pokémon up to Lv30 obey.
 *   **TM31 (Mud-Slap):** Received from Falkner.
 *   **TM39:** Found in Union Cave B1F.
+*   **TM49 (Fury Cutter):** Received from Bugsy.
 *   **EVERSTONE:** Received from Professor Elm. Prevents a Pokémon holding it from evolving.
 *   **PSNCUREBERRY:** Found on Route 33.
 
 # IV. Story Progression
 
 ## A. Current Quest
-*   **Kurt's Request:** Completed. Defeated Team Rocket in the Slowpoke Well. Kurt is now making a LURE BALL.
+*   **Rescue the Apprentice:** The Charcoal Man's apprentice is lost in Ilex Forest. Finding him is the primary lead to obtaining HM01 (Cut).
 
-## B. Confirmed Leads
-*   **The Charcoal Man:** A Youngster at (6, 9) in Azalea Town mentioned that the 'CHARCOAL MAN's POKéMON can CUT down trees.' This is a strong lead for getting HM Cut and likely progressing through Ilex Forest. He is almost certainly in the Charcoal Kiln.
-
-## C. Past Clues & Hints
+## B. Past Clues & Hints
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
 
 # V. Critical Failures & Lessons Learned
@@ -92,12 +91,6 @@
 *   **Union Cave B1F:** This area is a dead end, accessible from a ladder on 1F. The path is blocked by one-way walls.
 *   **Azalea Pokecenter 2F:** This entire floor is a dead end for now. All warps are blocked by NPCs or walls.
 
-# VIII. Untested Assumptions & Hypotheses
-*   **Item Ball in Slowpoke Well:** I assume the item ball at (10, 3) contains a useful item. **Alternative:** It could be a trap (e.g., a Voltorb). **Test:** Interact with it after clearing Azalea Town.
-*   **Azalea Gym Puzzle:** I assume defeating trainers on switches moves the bug platforms. **Alternative:** The platforms move based on a specific sequence of switch activations, not just defeating trainers. **Test:** After this battle, try interacting with the switches again to see if they can be toggled without a battle.
-
-# IX. High-Priority Tasks
+# VIII. High-Priority Tasks
+*   Verify if the Team Rocket markers in Azalea Town are still relevant or if the NPCs have disappeared.
 *   Test seemingly impassable objects like bookshelves and radios to confirm they are not interactable in a meaningful way.
-
-## X. Game Quirks & Oddities
-*   **Duplicate Trainer Names:** There are two trainers named 'BUG CATCHER BENNY' in the Azalea Gym. One is at (0, 2) and the other is at (5, 3).
