@@ -129,3 +129,12 @@
   - **Test:** Observe his full team during this battle.
 - **Hypothesis:** The strange tree on Route 36 requires a key item.
   - **Test:** After this gym, re-talk to key NPCs before searching for an item.
+
+# XIII. Exploration Tests & Conclusions
+
+## A. Unseen Tile Investigation (Violet City)
+*   **Hypothesis:** The unseen tiles flagged by the system are unreachable.
+*   **Test 1:** Ran `find_reachable_unseen_tiles` multiple times from different locations. Result was always empty.
+*   **Test 2 (Falsification Attempt):** Used the verified `find_path_to_target` tool to attempt a path to a specific unseen tile, (31, 8).
+*   **Result:** The tool failed to find a path.
+*   **Conclusion:** The unseen tiles are confirmed to be currently unreachable, likely located across the large body of water. I will ignore future system alerts for this map unless I gain a new traversal ability like Surf.
