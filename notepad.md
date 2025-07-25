@@ -79,3 +79,4 @@
 - **Attempt 7:** Pushing the boulder at (3, 11) *north* to (3, 10). **Result:** FAILED. Soft-locked, blocking path to other areas.
 - **Attempt 8:** Using FLY to escape the map and reset the puzzle. **Result:** FAILED. The game message "ECHO can't FLY here" appeared.
 - **Attempt 8:** Using FLY to escape the map and reset the puzzle. **Result:** FAILED. The game message "ECHO can't FLY here" appeared.
+- **Attempt 9:** Pushing the boulder at (3, 11) to (3, 10). **Result:** FAILED. This action blocked the path to the 2F ladder, confirming I have soft-locked myself in the western part of the map.
