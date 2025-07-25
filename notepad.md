@@ -74,11 +74,6 @@
 - The solution requires a specific sequence of pushes on the boulder at (6, 17).
 - A hidden item is under the boulder at (6, 17), findable with the Itemfinder.
 
-## Invalidated Hypotheses (from Agent)
-- Using 'Dig' or 'Teleport' to escape (Cannot access PC).
-- Intentionally losing a battle to 'white out' (Against core rules).
-- Puzzle requires a pre-emptive solution (Cannot reset to previous save).
-
 ## Victory Road 1F Puzzle Log
 - **Discovery:** The boulder at its starting position of (6, 17) can be pushed east to (7, 17). This invalidates the 'soft-locked' theory.
 
