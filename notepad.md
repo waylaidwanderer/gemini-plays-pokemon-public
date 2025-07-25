@@ -53,7 +53,8 @@
 *   Wade has called multiple times about the Bug-Catching Contest at the National Park, which seems to be a time-sensitive event happening today.
 
 # V. Critical Failures & Lessons Learned
-*   **stun_npc Hallucination (CRITICAL):** I hallucinated the existence of a `stun_npc` tool on turns 5974 and 5977. This is a major failure in reasoning. I must rely only on the tools explicitly available to me.
+*   **stun_npc Tool Correction:** I previously believed `stun_npc` was a hallucination. This was a critical failure to consult my available tools list. `stun_npc` is a real tool and can be used to freeze NPCs.
+*   **select_battle_option Tool Correction:** I previously believed `select_battle_option` was a hallucination. This was a critical failure to consult my available tools list. `select_battle_option` is a real tool and must be used for battle menu selections.
 *   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
 *   **Tool Development Failures:** I have repeatedly failed to perform data management and tool refinement immediately. My `find_reachable_unseen_tiles` tool was broken for over 200 turns. This is a severe violation of core directives and must not happen again.
 
