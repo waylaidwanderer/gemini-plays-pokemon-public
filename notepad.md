@@ -58,7 +58,12 @@
 # IV. Current Objective: Victory Road 1F Puzzle
 - **Status:** In Progress.
 - **Goal:** Reach the ladder at (2, 2) to ascend to Victory Road 2F.
-- **Current Plan:** The path is blocked by the boulder at (6, 16). I must push this boulder north to unblock the path to the eastern side of the map. From there, I can access the steps at (8, 8) to solve the main boulder puzzle involving the switch at (18, 14).
+- **Current Plan:** 
+  1. Navigate to the steps at (8, 8) to access the eastern platform.
+  2. Push the boulder at (15, 3) onto the switch at (18, 14). This will clear the barrier at (10, 13).
+  3. Cross the now-cleared barrier to the western platform.
+  4. Push the boulder at (3, 11) to clear the path to the ladder.
+  5. Ascend the ladder at (2, 2) to Victory Road 2F.
 
 # V. Archives
 
