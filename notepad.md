@@ -34,8 +34,6 @@
 *   **TOWN_MAP:** Impassable object.
 *   **RADIO:** Impassable object. Can be interacted with for text.
 *   **INCENSE_BURNER:** Impassable object. (Confirmed by attempting to walk into it).
-
-### Impassable with Interaction:
 *   **COUNTER:** Confirmed impassable. Functions as a wall.
 
 ### Confirmed One-Way:
@@ -74,23 +72,28 @@
 ## B. Past Clues & Hints
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
 
-# V. Critical Failures & Lessons Learned
+# V. Untested Assumptions & Hypotheses
+*   The 'strange tree' on Route 36 can be removed with a specific key item or HM.
+*   The unmarked warp at (3, 43) in Ilex Forest is a shortcut or leads to a hidden area.
+
+# VI. Critical Failures & Lessons Learned
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like marking warps or updating my notepad) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
 *   **Tool Distrust:** I have repeatedly failed to trust my `find_path_to_target` tool's output, assuming it was broken when it correctly identified blocked paths (e.g., by NPCs). I must trust my tool's output and analyze the map more carefully before assuming a bug.
 *   **HM moves can be used even if the Pokémon is fainted.** This is a key mechanic learned from the Gentleman in the Charcoal Kiln.
 *   **stun_npc Tool Correction:** I previously believed `stun_npc` was a hallucination. This was a critical failure to consult my available tools list. `stun_npc` is a real tool and can be used to freeze NPCs.
 *   **select_battle_option Tool Correction:** I previously believed `select_battle_option` was a hallucination. This was a critical failure to consult my available tools list. `select_battle_option` is a real tool and must be used for battle menu selections.
+*   **Agent Underutilization:** I am not consistently using my `team_composition_advisor` and `procedural_overseer` agents. I need to integrate them into my regular workflow to improve strategic planning and avoid repetitive mistakes.
 
-# VI. Puzzle Solutions
+# VII. Puzzle Solutions
 
 ## A. Ruins of Alph (Kabuto Puzzle)
 *   The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces.
 
-# VII. Exploration Notes
+# VIII. Exploration Notes
 *   **Route 32 Pier:** This area is a dead end. The southern part of the route is unreachable from the northern section.
 *   **Union Cave B1F:** This area is a dead end, accessible from a ladder on 1F. The path is blocked by one-way walls.
 *   **Azalea Pokecenter 2F:** This entire floor is a dead end for now. All warps are blocked by NPCs or walls.
 
-# VIII. High-Priority Tasks
+# IX. High-Priority Tasks
 *   Verify if the Team Rocket markers in Azalea Town are still relevant or if the NPCs have disappeared.
 *   Test seemingly impassable objects like bookshelves and radios to confirm they are not interactable in a meaningful way.
