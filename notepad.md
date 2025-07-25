@@ -7,7 +7,7 @@
 ### Confirmed Traversable:
 *   **FLOOR:** Fully traversable.
 *   **TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
-*   **LONG_GRASS:** Traversable, can trigger wild Pokémon encounters. Appears functionally identical to TALL_GRASS.
+*   **LONG_GRASS:** Traversable, can trigger wild Pokémon encounters.
 *   **DOOR:** Functions as a two-way warp.
 *   **CAVE:** Functions as a warp.
 *   **LADDER:** Functions as a two-way warp between floors.
@@ -62,7 +62,7 @@
 *   **stun_npc Tool Correction:** I previously believed `stun_npc` was a hallucination. This was a critical failure to consult my available tools list. `stun_npc` is a real tool and can be used to freeze NPCs.
 *   **select_battle_option Tool Correction:** I previously believed `select_battle_option` was a hallucination. This was a critical failure to consult my available tools list. `select_battle_option` is a real tool and must be used for battle menu selections.
 *   **SUPER_NERD at (4, 21) in Union Cave is not a trainer.** He is an NPC who gives a hint about Pokémon roars on Fridays. The western path is currently blocked by him.
-*   **Tool Development Failures:** I have repeatedly failed to perform data management and tool refinement immediately. My `find_reachable_unseen_tiles` tool was broken for over 200 turns. This is a severe violation of core directives and must not happen again.
+*   **Tool Development Failures:** I have repeatedly failed to perform data management and tool refinement immediately. My `find_path_to_target` tool was broken for many turns. This is a severe violation of core directives and must not happen again.
 
 # VI. Puzzle Solutions
 
@@ -82,35 +82,21 @@
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
 
 # IX. Exploration Notes
-*   **Ruins of Alph Outside (Central Plaza):** This area is a dead end. The southern and eastern paths are unreachable, and the warp at (13, 20) is an entrance only. The only way forward seems to be through one of the interior buildings.
-*   **Hypothesis 5 (Failed):** Interacting with the ancient replicas after solving the puzzle will trigger an event.
-    *   **Test:** Interacted with both the left and right replicas after solving the Kabuto puzzle.
-    *   **Result:** Both interactions yielded only generic descriptive text.
-    *   **Conclusion:** The replicas are not interactive post-puzzle. This chamber appears to be fully explored.
-*   **Route 36 (Eastern Section):** Confirmed dead end. The strange tree at (35, 9) blocks the main path west. The reachable area is an 'island' with no access to the western part of the route.
-*   **Unseen Tiles on Route 30 & New Bark Town:** My `find_reachable_unseen_tiles` tool has confirmed that all unseen tiles on these maps are on inaccessible islands across the water. They are not currently reachable.
+*   **Route 32 Pier:** This area is a dead end. My verified `find_path_to_target` tool confirmed that the southern part of the route is unreachable from the northern section.
 
-# X. Puzzles & Blockages
+# X. Strategic Reminders
+*   **Agent Usage:** I must remember to use the `team_composition_advisor` agent before the next major battle and the `procedural_overseer` agent before making significant strategic pivots.
+*   **Map Markers:** I need to use more descriptive labels for my markers and link them to their `object_id` when possible to improve long-term tracking.
 
-## A. Route 31 Gatehouse Warp
-*   **Status:** Confirmed one-way exit from the gatehouse. Cannot be entered from Route 31.
-
-# XI. Strategic Reminders
-*   **Agent Usage:** I must remember to use the `team_composition_advisor` agent before the next major battle (e.g., the next Gym Leader) and the `procedural_overseer` agent before making significant strategic pivots to ensure my plans are sound.
-*   **Map Markers:** When possible, I need to link map markers for NPCs to their `object_id` and use more descriptive labels to improve long-term tracking.
-
-# XII. Exploration Tests & Conclusions
-
-## A. Unseen Tile Investigation (Violet City)
-*   **Hypothesis:** The unseen tiles flagged by the system are unreachable.
-*   **Test 1:** Ran `find_reachable_unseen_tiles` multiple times from different locations. Result was always empty.
-*   **Test 2 (Falsification Attempt):** Used the verified `find_path_to_target` tool to attempt a path to a specific unseen tile, (31, 8).
-*   **Result:** The tool failed to find a path.
-*   **Conclusion:** The unseen tiles are confirmed to be currently unreachable, likely located across the large body of water. I will ignore future system alerts for this map unless I gain a new traversal ability like Surf.
-
-# XIII. Falsification Tests & Untested Assumptions
-*   **The Elder has HM05 Flash:** My primary goal is based on this assumption.
-  *   **Alternative Hypothesis:** The Elder gives a different item, or nothing, and Flash is acquired elsewhere (e.g., related to the Route 36 tree).
-  *   **Test to Disprove:** If I cannot find a path to the Elder after thoroughly exploring all options in Sprout Tower, I will abandon this goal and pivot to investigating the Route 36 tree.
-*   **The strange tree on Route 36 requires a key item.**
-  *   **Test:** After this gym, re-talk to key NPCs before searching for an item.
+# XI. Untested Assumptions & Falsification Tests
+*   **Pokefan M in Route 32 Gatehouse:**
+    *   **Assumption:** He is a normal NPC who will move or provide information upon interaction.
+    *   **Alternative Hypothesis:** He is a permanent obstacle or requires a specific event/item to move, making the western part of the gatehouse currently inaccessible.
+    *   **Test:** Interact with him. If he does not move and provides no useful information, and the path remains blocked, the alternative hypothesis is more likely.
+*   **Unexplored Warps in Route 32 Gatehouse:**
+    *   **Assumption:** The warps at (0, 5) and (9, 5) are non-essential side rooms.
+    *   **Alternative Hypothesis:** One of these warps is the correct path forward.
+    *   **Test:** If I become stuck after exploring the Ruins of Alph, I must return to this gatehouse and investigate these warps.
+*   **WARP_CARPET_RIGHT Tile:**
+    *   **Assumption:** This tile functions identically to WARP_CARPET_LEFT, activated by pressing 'Right'.
+    *   **Test:** Stand on the tile at (9, 4) or (9, 5) and press 'Right'.
