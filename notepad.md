@@ -98,6 +98,14 @@
 - **Hypothesis:** Push the boulder at (6, 17) all the way to (17, 17), then push it up.
 - **Conclusion:** Failed. The path is blocked by an impassable wall at (11, 17).
 
-### Victory Road 1F Puzzle - Attempt 7 (FAILED)
+### Victory Road 1F Puzzle - Attempt 8 (FAILED)
 - **Hypothesis:** Push the boulder at (6, 17) right to (10, 17), then up to (10, 14), then right to the switch.
 - **Conclusion:** Failed. The path to push the boulder sideways from (10, 14) is blocked by impassable tiles. The tile at (9, 14) is unreachable.
+
+# VIII. Core Gameplay Lessons
+- **Plan Boulder Routes First:** Before pushing any boulder, use the pathfinder to verify the *entire* planned route for both the player and the boulder. This will prevent soft-locking the puzzle by revealing impassable tiles or dead ends early.
+- **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
+- **Verify Tool Outputs Before Trusting:** A faulty plan is worse than no plan. My tools can have bugs, and I must verify their outputs before blindly following them.
+- **Trust the Game State:** My own assumptions can be wrong. The Game State Information is the absolute source of truth and must be trusted over my memory or intuition.
+- **Confirmation Bias:** I must be wary of trying to prove my own assumptions right. It's important to trust system warnings and evidence that contradicts my beliefs.
+- **Efficient Debugging:** When a tool fails, the first step should be to add extensive logging/debugging to understand its internal state. Trial-and-error fixes are inefficient.
