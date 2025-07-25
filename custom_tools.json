@@ -314,5 +314,17 @@
         "action_counter": 99250
       }
     ]
+  },
+  "get_impassable_coords": {
+    "description": "Parses the map_xml_string to find all impassable tiles and boulder locations, then returns them as a JSON list. This is a helper tool for puzzle-solving agents.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET; import json; root = ET.fromstring(map_xml_string); impassable_coords = []; for row_elem in root.findall('Row'): y = int(row_elem.get('id')); for tile_elem in row_elem.findall('Tile'): x = int(tile_elem.get('id')); if tile_elem.get('type') == 'impassable' or tile_elem.find('Boulder') is not None: impassable_coords.append({'x': x, 'y': y}); print(json.dumps(impassable_coords))",
+    "history": [
+      {
+        "commit_message": "feat: Create get_impassable_coords tool. This automates a repetitive task (extracting impassable tile data) that was previously done with `run_code`. This will streamline the input gathering process for puzzle-solving agents like `boulder_puzzle_solver_agent`.",
+        "timestamp": "2025-07-25T20:22:21.507Z",
+        "action_counter": 100430
+      }
+    ]
   }
 }
