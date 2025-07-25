@@ -97,15 +97,10 @@
 - **Hypothesis:** Push the boulder at (6, 17) right to (10, 17), then up to (10, 14), then right to the switch.
 - **Conclusion:** Failed. The path to push the boulder sideways from (10, 14) is blocked by impassable tiles. The tile at (9, 14) is unreachable.
 
-### Attempt 9 (Current)
-- **Hypothesis:** The boulder at (11, 15) on the lower level can be pushed to the switch at (18, 14) to open the barrier at (10, 13) on the upper level.
-- **Plan (Corrected):
-  1. Push boulder from its current position right to (17, 15).
-  2. Path to (17, 16).
-  3. Push boulder from (17, 15) up to (17, 14).
-  4. Path to (16, 14).
-  5. Push boulder from (17, 14) right to the switch at (18, 14).
-- **Note:** The standard boulder-pushing mechanic (player moves into the boulder's old space) seems to be working again. The previous observation might have been an anomaly.
+### Attempt 12 (FAILED)
+- **Hypothesis:** The boulder at (3, 10) could be pushed to the switch.
+- **Test:** Navigated to the western area.
+- **Conclusion:** The boulder at (3, 10) is boxed in by impassable tiles at (3, 9) and (2, 10). It cannot be moved into a useful position. This path is a dead end.
 
 ### Untested Assumption
 - **Hypothesis:** The boulder switch at (18, 14) opens the boulder barrier at (10, 13).
