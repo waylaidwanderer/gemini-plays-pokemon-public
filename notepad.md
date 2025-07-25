@@ -79,8 +79,10 @@
 - Intentionally losing a battle to 'white out' (Against core rules).
 - Puzzle requires a pre-emptive solution (Cannot reset to previous save).
 
-## Failed Hypotheses Log (Victory Road 1F)
-- Pushing boulder (6,16) in any direction leads to a soft-lock.
+## Victory Road 1F Puzzle Log
+- **Discovery:** The boulder at its starting position of (6, 17) can be pushed east to (7, 17). This invalidates the 'soft-locked' theory.
+
+### Failed Hypotheses
 - Pushing boulder (3,11) north to (3,10) leads to a soft-lock.
 - There are no hidden one-way ledges or passages through walls in the western section.
 - The HM FLY cannot be used to escape Victory Road.
