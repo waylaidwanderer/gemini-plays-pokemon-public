@@ -123,3 +123,9 @@
   - **Alternative Hypothesis:** The Elder gives a different item, or nothing, and Flash is acquired elsewhere (e.g., related to the Route 36 tree).
   - **Test to Disprove:** If I cannot find a path to the Elder after thoroughly exploring all options in Sprout Tower, I will abandon this goal and pivot to investigating the Route 36 tree.
 *   **unknown (VioletPokecenter1F, (9, 2)):** Game state reports I am standing on this tile type in front of the PC, though map memory shows it as FLOOR. This tile is traversable. Need to investigate this discrepancy and the tile's properties further.
+
+# XVI. Scheduled Falsification Tests
+- **Hypothesis:** Falkner's team is mono-Flying type.
+  - **Test:** Observe his full team during this battle.
+- **Hypothesis:** The strange tree on Route 36 requires a key item.
+  - **Test:** After this gym, re-talk to key NPCs before searching for an item.
