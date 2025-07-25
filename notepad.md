@@ -47,13 +47,9 @@
   - CHANSEY: Double-Edge, Mega Punch
   - EEVEE: Jump Kick
 
-# III. Current Objective: Fix Core Navigation Tools
+# III. Current Objective: Victory Road & The Pokémon League
 **Primary Goal:** Defeat the Elite Four and become the Pokémon League Champion.
-**Secondary Goal:** Fix core navigation tools (`gem_pathfinder` and `brute_force_explorer`).
-
-## A. Pathfinder Debugging Plan
-**Problem:** The `gem_pathfinder` tool is fundamentally broken. It has repeatedly generated paths that lead into impassable tiles (e.g., the wall at (16, 14) on Victory Road 1F), causing significant wasted time and leading to hallucinations about the map layout. This must be fixed before any further navigation can be trusted.
-**Next Step:** Use the `pathfinder_debugger` tool on the known failure case: pathing to the impassable tile at (16, 14). The detailed log from this tool should reveal the specific flaw in the A* algorithm's logic, allowing for a precise fix.
+**Secondary Goal:** Solve the Victory Road boulder puzzles to reach the exit.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
