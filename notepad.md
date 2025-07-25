@@ -10,7 +10,7 @@
 - **Boulder Switch:** A traversable floor switch activated by a boulder.
 - **Boulder Barrier:** An impassable barrier that becomes a `cleared_boulder_barrier` tile when the corresponding switch is activated.
 - **Cleared Boulder Barrier:** A traversable ground tile that appears after a boulder puzzle is solved. It allows movement between different elevations, acting like a ramp.
-- **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles. Pushing boulders onto them is not possible.
+- **Steps:** Allows two-way vertical movement between `ground` and `elevated_ground` tiles. Pushing boulders onto them is not possible.
 - **Ladders (`ladder_up`, `ladder_down`):** Function as instant 1x1 warps between floors.
 - **Hole:** A tile that functions as a warp, dropping the player to a lower floor. Boulders can be pushed into these to affect puzzles on the floor below.
 - **Spinner (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Forces movement in the specified direction.
@@ -55,12 +55,13 @@
 - **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points (like ladders, stairs, or puzzle elements) are actually reachable from the current position to avoid building strategies on flawed assumptions.
 - **Boulder Puzzle Strategy:** Before pushing any boulder, use the pathfinder to verify the entire route for both the player and the boulder to prevent soft-locking.
 - **Debugging Strategy:** When a tool fails, add extensive logging to understand its internal state before attempting a fix. Or, manually test the game mechanics to gather ground-truth data.
+- **Victory Road 1F Western Platform:** Confirmed to be a dead-end trap. The puzzle involving pushing the boulder at (6,17) only serves to let you escape the area, not to progress.
 
 # IV. Archives
 
 ## A. Completed Puzzles
-### Victory Road 1F Puzzle (Part 1)
-- **Status:** Complete. Pushed boulder at (6,16) to (6,17) to access western platform.
+### Victory Road 1F Puzzle (Western Trap)
+- **Status:** Escaped. Pushed boulder at (6,17) to (8,17) to access southern exit.
 
 ### Victory Road 2F Puzzle
 - **Status:** Complete. Boulder from (4, 16) to switch at (2, 17).
@@ -68,12 +69,13 @@
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
-# V. Current Puzzle: Victory Road 1F
+# V. Current Puzzle: Victory Road 1F (Eastern Section)
 
-**Hypothesis:** The western platform is a dead-end/misdirection. The true solution involves solving the eastern boulder puzzle.
+**Hypothesis:** The eastern boulder puzzle is the correct path forward.
 
 **Test Plan:**
-1. Navigate to the eastern boulder at (15, 3).
-2. Push the boulder onto the switch at (18, 14).
-3. Navigate to (9, 13) to check if the barrier at (10, 13) is open.
-4. If open, proceed to the ladder at (2, 2).
+1. Re-enter Victory Road 1F from the main entrance at (9, 18).
+2. Navigate to the eastern boulder at (15, 3).
+3. Push the boulder onto the switch at (18, 14).
+4. Navigate to (9, 13) to check if the barrier at (10, 13) is open.
+5. If open, proceed to the main ladder at (2, 2).
