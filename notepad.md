@@ -75,6 +75,3 @@
   1. Navigate to (18, 13), adjacent to the switch.
   2. Face down and press 'A' to interact with the switch.
 - **Expected Outcome:** The boulder_barrier at (10, 13) will open.
-
-# VII. Pending Tasks
-- **Verify Trainer Status (Victory Road 1F):** Check trainers at (8, 6), (16, 6), and (20, 9) to confirm if they have been defeated.
