@@ -72,7 +72,6 @@
 *   **Hypothesis 4 (Confirmed):** The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces. This led to the inner chamber where Unown appeared.
 
 # VII. Custom Tools & Agents
-
 *   `find_path_to_target`: Finds the shortest path from the player's current position to a specified target coordinate.
 *   `find_reachable_unseen_tiles`: Finds all unseen tiles that are reachable from the player's current position.
 *   `battle_strategist`: Recommends the best action in a battle.
@@ -93,7 +92,7 @@
 
 # IX. Story Clues & Hints
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
-* Wade called again about the Bug-Catching Contest at the National Park today.
+*   Wade has called multiple times about the Bug-Catching Contest at the National Park today.
 
 # X. Tool Development & Debugging Log
 
@@ -103,5 +102,5 @@
 *   **Logical Flaw Identified (Turn 5872):** The single-stage BFS was flawed because it returned unreachable tiles as valid targets. Reverting to a two-stage BFS to find only unseen tiles adjacent to the known reachable area.
 
 # XI. Exploration Notes
-*   **Ruins of Alph Outside (Central Plaza):** The southern path starting near (5, 14) and the eastern path near (14, 3) are unreachable from the central plaza area accessible from the Route 36 gatehouse. This area appears to be a dead end.
-*   **New Plan:** Backtrack through the gatehouse at (13, 20) to Route 32 and attempt to proceed south towards Union Cave.
+*   **Ruins of Alph Outside (Central Plaza):** This area is a dead end. The southern and eastern paths are unreachable, and the warp at (13, 20) is an entrance only. The only way forward seems to be through one of the interior buildings.
+*   **New Plan:** Re-investigate the Ruins of Alph Research Center.
