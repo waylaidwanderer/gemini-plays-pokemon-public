@@ -14,14 +14,17 @@
 ### Warp Tiles:
 *   **WARP_CARPET_DOWN:** One-way warp. Activated by pressing 'Down'.
 ## A. Route 31 Gatehouse Warp
-*   **Status:** Currently impassable. I am fundamentally misunderstanding the mechanic.
-*   **Failed Attempts (5):**
+*   **Status:** Currently impassable. The map data says this is a valid warp, but I cannot figure out how to activate it.
+*   **Failed Attempts (7):**
     1.  Moved onto upper tile (4, 6) from the right.
     2.  Interacted with upper tile (4, 6) with 'A'.
     3.  Moved onto lower tile (4, 7) from the right.
     4.  Interacted with lower tile (4, 7) with 'A'.
     5.  Re-entered upper tile (4,6) from the right.
-*   **WARP_CARPET_RIGHT:** One-way warp. Activated by moving onto the tile from the left.
+    6.  Interacted with upper tile (4, 6) from the right at (5, 6).
+    7.  Moved onto lower tile (4, 7) from the right at (5, 7).
+*   **Hypothesis 8:** The warp is activated by interacting with it from an adjacent tile.
+    *   **Test:** Move to (5, 7), face left, and press 'A'.
 
 ### Confirmed Impassable:
 *   **WALL:** Impassable.
