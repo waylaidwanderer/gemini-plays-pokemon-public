@@ -17,6 +17,7 @@
 *   **WARP_CARPET_LEFT:** One-way warp. Activated by pressing 'Left'.
 
 ### Confirmed Impassable:
+*   **WALL:** Confirmed impassable. Blocks movement from all directions.
 *   **WINDOW:** Impassable. Functions as a wall.
 *   **COUNTER:** Impassable. Interact with NPCs from the front.
 *   **PC:** Impassable. Functions as an object.
@@ -108,9 +109,6 @@
 *   **Conclusion:** The unseen tiles are confirmed to be currently unreachable, likely located across the large body of water. I will ignore future system alerts for this map unless I gain a new traversal ability like Surf.
 
 # XIII. Falsification Tests & Untested Assumptions
-*   **Hypothesis:** `WALL` tiles are always impassable.
-  *   **Test:** Attempt to walk into a `WALL` tile from all four directions.
-  *   **Status:** Untested.
 *   **The Elder has HM05 Flash:** My primary goal is based on this assumption.
   *   **Alternative Hypothesis:** The Elder gives a different item, or nothing, and Flash is acquired elsewhere (e.g., related to the Route 36 tree).
   *   **Test to Disprove:** If I cannot find a path to the Elder after thoroughly exploring all options in Sprout Tower, I will abandon this goal and pivot to investigating the Route 36 tree.
