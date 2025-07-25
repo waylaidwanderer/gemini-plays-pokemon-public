@@ -11,10 +11,10 @@
 - **Boulder Barrier:** An impassable barrier that becomes a `cleared_boulder_barrier` tile when the corresponding switch is activated.
 - **Cleared Boulder Barrier:** A traversable ground tile that appears after a boulder puzzle is solved. It allows movement between different elevations, acting like a ramp.
 - **Steps:** Allows vertical movement between `ground` and `elevated_ground` tiles. Pushing boulders onto them is not possible.
-- **Ladders (`ladder_up`, `ladder_down`):** Function as instant 1x1 warps between floors. `ladder_up` leads to a higher floor, `ladder_down` leads to a lower floor.
+- **Ladders (`ladder_up`, `ladder_down`):** Function as instant 1x1 warps between floors.
 - **Hole:** A tile that functions as a warp, dropping the player to a lower floor. Boulders can be pushed into these to affect puzzles on the floor below.
 - **Spinner (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Forces movement in the specified direction.
-- **Pushing Boulders (Mechanic Corrected):** Pushing a boulder moves the boulder one tile but does NOT move the player. The player remains on the tile from which the push was initiated. To push a boulder, Strength must be active, and you must walk into the boulder.
+- **Pushing Boulders (Mechanic Corrected):** Pushing a boulder moves the boulder one tile but does NOT move the player. The player remains on the tile from which the push was initiated.
 
 ## B. General Rules & Heuristics
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
@@ -50,38 +50,39 @@
 # III. Current Objective: Victory Road
 **Primary Goal:** Navigate through Victory Road to reach the Pokémon League.
 
-## A. Victory Road 1F Puzzle Plan
-**Current State:** The boulder barrier at (10, 13) is closed, blocking access to the western part of the map.
-**Hypothesis:** The boulder at (6, 17) in the southern area must be pushed onto the switch at (18, 14) to open the barrier.
-**Current Step:** Navigate to the southern area to position myself to push the boulder at (6, 17) towards the switch.
+## A. Victory Road 1F Puzzle Plan 2.0
+**Current State:** The boulder barrier at (10, 13) is closed. My pathfinder tool is bugged, and my previous plan was based on a flawed assumption.
+**Puzzle Components (from `puzzle_solver_tool`):
+- Boulders: (15, 3), (3, 11), (17, 14)
+- Switch: (18, 14)
+- Barrier: (10, 13)
+**New Hypothesis:** One of the three boulders must be pushed onto the switch. The previous attempt with the boulder at (17, 14) failed because the path is blocked by an impassable wall at (16, 14).
+**Current Step:** First, I must fix my `gem_pathfinder` tool. Once the tool is reliable, I will use it to test the reachability of the other two boulders at (15, 3) and (3, 11). This will determine the correct starting point for the puzzle.
 
 ## B. Archived/Failed Plans
+### Victory Road 1F Puzzle - Attempt 2 (FAILED)
+- **Hypothesis:** The boulder starting at (6, 17) could be pushed to the switch at (18, 14).
+- **Conclusion:** This was incorrect. The path is blocked by an impassable wall at (16, 14), which I failed to notice due to a hallucination and a faulty pathfinder. This highlights the danger of confirmation bias and the need to trust the map data over intuition.
+
 ### Victory Road 1F Puzzle - Attempt 1 (FAILED)
 - **Hypothesis:** The boulder at (3, 11) was the first step.
-- **Conclusion:** This was incorrect. The area with this boulder is inaccessible until the barrier at (10, 13) is opened. My attempts to "hard reset" the map were based on a flawed premise. This was an example of confirmation bias.
+- **Conclusion:** This was incorrect. The area with this boulder is inaccessible until the barrier at (10, 13) is opened.
 
 # IV. Core Gameplay Lessons
 - **Immediate Tool Refinement:** Deferring fixes for critical tools is a major strategic error. Faulty tools must be addressed immediately.
-- **Verify Tool Outputs Before Trusting:** A faulty plan is worse than no plan. My tools can have bugs, and I must verify their outputs before blindly following them. This is especially true after correcting a tool's logic.
-- **Archived Puzzle Solutions:** Puzzles can reset upon re-entering a map. Archived solutions may be outdated. Always observe the current state of a puzzle before acting.
+- **Verify Tool Outputs Before Trusting:** A faulty plan is worse than no plan. My tools can have bugs, and I must verify their outputs before blindly following them.
 - **Trust the Game State:** My own assumptions can be wrong. The Game State Information is the absolute source of truth and must be trusted over my memory or intuition.
-- **Break Unproductive Loops:** If a strategy fails repeatedly, it's better to change the approach or goal than to persist in an inefficient loop.
-- **Confirmation Bias:** I must be wary of trying to prove my own assumptions right. It's important to trust system warnings and evidence that contradicts my beliefs. My attempt to 'hard reset' the Victory Road boulder was a prime example of confirmation bias; I pursued a flawed solution for dozens of turns without first verifying that my initial premise (that the northern boulder was the correct first step) was even correct.
-- **Efficient Debugging:** When a tool fails, the first step should be to add extensive logging/debugging to understand its internal state. Trial-and-error fixes are inefficient and should be avoided.
-- **No Premature Documentation:** Do not document an event or status in the notepad until it has been confirmed by the game state. Recording intentions as facts is a form of hallucination.
+- **Confirmation Bias:** I must be wary of trying to prove my own assumptions right. It's important to trust system warnings and evidence that contradicts my beliefs.
+- **Efficient Debugging:** When a tool fails, the first step should be to add extensive logging/debugging to understand its internal state. Trial-and-error fixes are inefficient.
 
 # V. Archives
 
 ## A. Completed Puzzles
 ### Victory Road 2F Puzzle
-- **Objective:** Push the boulder from (4, 17) to the switch at (2, 17).
-- **Status:** Complete. Barrier at (8, 9) opens with delay.
+- **Status:** Complete. Boulder from (4, 17) to switch at (2, 17).
 
 ### Victory Road 3F Puzzle
-- **Objective:** Solve the floor's puzzle to proceed.
-- **Solution:** The puzzles on this floor were a red herring. The true path forward was a secret, unmarked ladder at (3, 1) discovered by exploring an unseen tile. This ladder leads to a new area of Victory Road 2F.
-- **Trust System Data Over Intuition:** The system's 'is_in_dead_end_area' flag and 'reachable_unseen_tiles' count are sources of truth. If they indicate a path exists, trust them over personal assumptions about being trapped. The system may see connections (like through elevated terrain) that are not immediately obvious.
+- **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
 # VI. Tool & Agent Ideas
-- **Puzzle Diagnostics Agent:** An agent that takes a description of a failed puzzle and suggests troubleshooting hypotheses (e.g., map reset, hard reset, hidden switch).
-- **Puzzle Strategist Agent:** An agent that takes the output of the `puzzle_solver_tool` (a list of puzzle components) and suggests a logical, sequential plan to solve the puzzle, prioritizing accessible components first.
+- **Puzzle Strategist Agent:** An agent that takes the output of the `puzzle_solver_tool` (a list of puzzle components) and suggests a logical, sequential plan to solve the puzzle. This would be the next step after getting a reliable component list.
