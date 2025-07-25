@@ -68,4 +68,4 @@
 
 # VI. Victory Road 1F Puzzle Status
 - **Status:** In Progress
-- **Current Hypothesis:** The lower boulder puzzle is a red herring. The true path is up the steps at (6, 14). The defeated Youngster at (7, 11) must be ignorable, allowing access to the upper platform and the ladder at (2, 2). My previous pathfinder attempts failed because the tool incorrectly treats the defeated trainer as a solid wall.
+- **Current Hypothesis:** The boulder at (6, 16) must be pushed onto the switch at (18, 14) to open the boulder barrier at (10, 13). This is the only logical solution that uses all puzzle elements.
