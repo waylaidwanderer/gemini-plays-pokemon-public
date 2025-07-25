@@ -67,16 +67,9 @@
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
 # VI. Victory Road 1F Puzzle Status
-- **Current State:** Trapped in the western section. Boulders at (6,17) and (3,10) block progress.
-
-## Current Hypotheses (from Agent)
-
-- The solution requires a specific sequence of pushes on the boulder at (6, 17).
-
-## Victory Road 1F Puzzle Log
-- **Discovery:** The boulder at its starting position of (6, 17) can be pushed east to (7, 17). This invalidates the 'soft-locked' theory.
-
-### Failed Hypotheses
-- Pushing boulder (3,11) north to (3,10) leads to a soft-lock.
-- There are no hidden one-way ledges or passages through walls in the western section.
-- The HM FLY cannot be used to escape Victory Road.
+- **Objective:** Open the boulder barrier at (10, 13).
+- **Current Hypothesis:** The boulder at its starting position of (6, 16) must be pushed onto the switch located at (18, 14).
+- **Current Plan:** 
+  1. Push boulder at (6, 16) one tile south to (6, 17).
+  2. Push boulder from (6, 17) east until it reaches (18, 17).
+  3. Push boulder from (18, 17) north until it reaches the switch at (18, 14).
