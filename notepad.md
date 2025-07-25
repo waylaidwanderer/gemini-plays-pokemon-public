@@ -101,3 +101,7 @@
     *   **Test:** Stood on tile (4, 6) and pressed 'A'.
     *   **Result:** The warp did not activate.
     *   **Conclusion:** Pressing 'A' is not the trigger.
+*   **Hypothesis 4 (Failed):** The warp at (4, 7) is activated by moving onto it from the right.
+    *   **Test:** Moved from (5, 7) to (4, 7).
+    *   **Result:** The warp did not activate.
+    *   **Conclusion:** Simple movement from the right is not the trigger for this specific tile either. My understanding of the `WARP_CARPET_LEFT` mechanic may be incorrect or incomplete.
