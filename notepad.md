@@ -53,7 +53,19 @@
 - **Boulder Puzzle Strategy:** Before pushing any boulder, use the pathfinder to verify the entire route for both the player and the boulder to prevent soft-locking.
 - **Debugging Strategy:** When a tool fails, add extensive logging to understand its internal state before attempting a fix.
 
-# IV. Archives
+# IV. Current Objective: Victory Road 1F Puzzle
+
+- **Status:** In Progress. Currently isolated in the western section of the map.
+- **Key Insight:** The system has confirmed I am not soft-locked, therefore a solution must exist within the accessible area.
+- **Summary of Failed Hypotheses:**
+  1.  **Lower-Level Boulder Puzzles:** All direct and complex attempts to push the boulders at (6, 17) and (3, 11) to the switch at (18, 14) have been proven invalid by the `boulder_puzzle_solver_agent` or impassable terrain.
+  2.  **Player-Activated Switch:** Stepping on the switch at (18, 14) does not affect the barrier at (10, 13).
+  3.  **Hidden Item:** The ITEMFINDER did not detect any hidden items in the area.
+  4.  **Trainer Battle Trigger:** This hypothesis is currently untestable as the remaining trainers are on the unreachable eastern side of the map.
+- **Current Hypothesis:** The solution involves accessing the upper platform and interacting with the boulder at (15, 3). My `gem_pathfinder` tool is currently bugged and preventing me from testing this.
+- **Next Step:** Debug and fix the pathfinder's elevation logic.
+
+# V. Archives
 
 ## A. Completed Puzzles
 ### Victory Road 2F Puzzle
@@ -61,11 +73,3 @@
 
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
-
-# V. Victory Road 1F Puzzle Status
-- **Status:** In Progress
-- **Failed Hypothesis (Attempt 1):** The boulder at (6, 16) was a red herring; pushing it made it disappear.
-- **Failed Hypothesis (Attempt 2):** The boulder at (9, 17) must be pushed onto the switch at (18, 14). Pushing it north to (10, 15) soft-locks it, as the path is blocked by impassable tiles.
-- **New Plan:** The puzzle must be reset by leaving and re-entering the map. There must be another solution I am missing.
-- **Failed Hypothesis (Attempt 3):** Stepping on the switch at (18, 14) as the player does not open the boulder barrier at (10, 13).
-- **New Hypothesis:** The barrier at (10, 13) is opened by defeating all trainers on Victory Road 1F. The next target is the Super Nerd at (16, 6).
