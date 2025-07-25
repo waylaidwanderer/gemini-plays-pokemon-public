@@ -67,3 +67,5 @@
 - **Failed Hypothesis (Attempt 1):** The boulder at (6, 16) was a red herring; pushing it made it disappear.
 - **Failed Hypothesis (Attempt 2):** The boulder at (9, 17) must be pushed onto the switch at (18, 14). Pushing it north to (10, 15) soft-locks it, as the path is blocked by impassable tiles.
 - **New Plan:** The puzzle must be reset by leaving and re-entering the map. There must be another solution I am missing.
+- **Failed Hypothesis (Attempt 3):** Stepping on the switch at (18, 14) as the player does not open the boulder barrier at (10, 13).
+- **New Hypothesis:** The barrier at (10, 13) is opened by defeating all trainers on Victory Road 1F. The next target is the Super Nerd at (16, 6).
