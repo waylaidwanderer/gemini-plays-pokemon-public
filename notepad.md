@@ -87,7 +87,7 @@
 
 # IX. Exploration Notes
 *   **Route 32 Pier:** This area is a dead end. My verified `find_path_to_target` tool confirmed that the southern part of the route is unreachable from the northern section.
-*   **Route 33 Pathing:** The route is split by a line of walls and ledges. The northern section is blocked by Hiker Anthony, making it a dead end. The only way to proceed to Azalea Town is likely back through Union Cave.
+*   **Route 33 Pathing:** The route is split by ledges. The eastern upper level is inaccessible from the entrance from Union Cave. The only path forward appears to be west, past Hiker Anthony.
 
 # X. Untested Assumptions & Falsification Tests
 *   **Pokefan M in Route 32 Gatehouse (Confirmed):**
