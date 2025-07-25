@@ -96,3 +96,9 @@
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
 * Wade called again about the Bug-Catching Contest at the National Park today.
 *   `pathfinding_debugger`: Analyzes a failed pathfinding attempt and proposes a targeted debugging plan.
+
+# X. Tool Development & Debugging Log
+
+## A. `find_reachable_unseen_tiles`
+*   **Logical Flaw Identified (Turn 5867):** The tool's two-stage BFS was incorrect. It found unseen tiles *adjacent* to reachable tiles, not unseen tiles that are *themselves* reachable. This provided flawed data to the `exploration_strategist`, leading to impossible navigation goals.
+*   **Fix Implemented (Turn 5867):** Rewrote the tool to use a single, unified BFS that traverses all passable tiles (both seen and unseen) and filters the result for only the unseen tiles. This should provide accurate data.
