@@ -101,3 +101,6 @@
 # IX. High-Priority Tasks
 *   Use `team_composition_advisor` before challenging the Azalea Town Gym.
 *   Test seemingly impassable objects like bookshelves and radios to confirm they are not interactable in a meaningful way.
+
+## X. Game Quirks & Oddities
+*   **Duplicate Trainer Names:** There are two trainers named 'BUG CATCHER BENNY' in the Azalea Gym. One is at (0, 2) and the other is at (5, 3).
