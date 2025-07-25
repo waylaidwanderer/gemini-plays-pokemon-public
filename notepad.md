@@ -111,9 +111,10 @@
 - **Efficient Debugging:** When a tool fails, the first step should be to add extensive logging/debugging to understand its internal state. Trial-and-error fixes are inefficient.
 
 ### Victory Road 1F Puzzle - Attempt 9 (Current)
-- **Hypothesis:** The boulder at (10, 15) on the lower level can be pushed to the switch at (18, 14) to open the barrier at (10, 13) on the upper level.
+- **Hypothesis:** The boulder at (11, 15) on the lower level can be pushed to the switch at (18, 14) to open the barrier at (10, 13) on the upper level.
 - **Plan:**
-  1. Path to (9, 15).
-  2. Push boulder from (10, 15) right to (18, 15).
+  1. Move to (10, 15).
+  2. Push boulder from (11, 15) right to (18, 15).
   3. Path to (18, 16).
   4. Push boulder from (18, 15) up to the switch at (18, 14).
+- **Note:** Observed strange mechanic where pushing the boulder from (10,15) to (11,15) did not move the player from (9,15).
