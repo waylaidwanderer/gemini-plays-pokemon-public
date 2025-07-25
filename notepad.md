@@ -107,3 +107,7 @@
 *   Wade has called multiple times about the Bug-Catching Contest at the National Park today.
 *   **Fix Implemented (Turn 5915):** The two-stage BFS was flawed. Re-implemented a single-stage BFS to find all *truly* reachable unseen tiles, not just adjacent ones. This should prevent the `exploration_strategist` from receiving impossible targets.
 *   Wade has called multiple times about the Bug-Catching Contest at the National Park today.
+*   **Hypothesis 5 (Failed):** Interacting with the ancient replicas after solving the puzzle will trigger an event.
+    *   **Test:** Interacted with both the left and right replicas after solving the Kabuto puzzle.
+    *   **Result:** Both interactions yielded only generic descriptive text.
+    *   **Conclusion:** The replicas are not interactive post-puzzle. This chamber appears to be fully explored.
