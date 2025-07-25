@@ -60,18 +60,7 @@
 # VI. Puzzle Solutions
 
 ## A. Ruins of Alph (Kabuto Puzzle)
-*   **Hypothesis 1 (Failed):** The puzzle is solved by arranging the 16 pieces to form an image of the Pokémon Kabuto.
-    *   **Test:** All pieces were arranged correctly into the Kabuto image.
-    *   **Result:** The game did not automatically exit the puzzle screen.
-    *   **Conclusion:** This hypothesis is incorrect.
-*   **Hypothesis 2 (Failed):** After arranging the pieces, the 'Start' button must be pressed to confirm the solution.
-    *   **Test:** Pressed 'Start' after arranging all pieces.
-    *   **Result:** The puzzle interface did not close, and the puzzle was not solved.
-    *   **Conclusion:** This hypothesis is incorrect.
-*   **Hypothesis 3 (Confirmed):** The 'B' button exits the puzzle interface without solving it.
-    *   **Test:** Pressed 'B' after arranging all pieces.
-    *   **Result:** The puzzle interface closed, returning me to the chamber. The puzzle was not marked as solved.
-    *   **Conclusion:** The puzzle is either optional, or the solution is not simply arranging the pieces. Abandoning the puzzle to explore other paths.
+*   **Initial Hypotheses (Failed):** Early attempts to solve the puzzle by arranging the pieces and pressing Start, or by simply exiting with B, were unsuccessful. The puzzle is not solved by just completing the image.
 *   **Hypothesis 4 (Confirmed):** The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces. This led to the inner chamber where Unown appeared.
 
 # VII. Custom Tools & Agents
