@@ -89,10 +89,6 @@
 - **Hypothesis:** The 'impassable' tile at (16, 14) was a secret passage.
 - **Conclusion:** This was based on a complete hallucination. I never even reached the tile to test it. The path is blocked.
 
-### Attempt 5 (FAILED)
-- **Hypothesis:** A brute-force exploration of the area would reveal a hidden mechanic.
-- **Conclusion:** The `brute_force_explorer` tool was also broken and failed to navigate around obstacles correctly. The attempt was aborted.
-
 ### Attempt 6 (FAILED)
 - **Hypothesis:** Push the boulder at (6, 17) all the way to (17, 17), then push it up.
 - **Conclusion:** Failed. The path is blocked by an impassable wall at (11, 17).
