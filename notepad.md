@@ -62,8 +62,8 @@
   2. A separate path on 2F leads to a different ladder/hole that descends to the eastern section of 1F.
   3. One of the boulders on 1F must be pushed onto a hidden, unmarked switch tile.
   4. The boulder configuration on 1F affects the puzzle state on 2F.
-- **Current Hypothesis (Testing):** Hypothesis #3 - One of the boulders on 1F must be pushed onto a hidden, unmarked switch tile.
-- **Next Step:** Systematically push the boulders at (6, 17) and (3, 10) onto every accessible ground tile to test for a hidden switch.
+- **Current Hypothesis (Abandoned):** Pushing a boulder onto a hidden switch in the western section. This was based on the flawed assumption of being trapped. The area is a confirmed dead-end with an exit warp.
+- **Next Step:** Exit Victory Road 1F and re-enter to solve the puzzle from the beginning, focusing on the main path.
 
 # V. Archives
 
