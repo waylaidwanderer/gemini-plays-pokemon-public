@@ -97,3 +97,7 @@
     *   **Test:** Moved from (5, 6) to (4, 6) multiple times.
     *   **Result:** The warp did not activate.
     *   **Conclusion:** Simple movement from the right is not the trigger for this specific warp tile.
+*   **Hypothesis 2 (Failed):** The warp at (4, 6) is activated by interaction.
+    *   **Test:** Stood on tile (4, 6) and pressed 'A'.
+    *   **Result:** The warp did not activate.
+    *   **Conclusion:** Pressing 'A' is not the trigger.
