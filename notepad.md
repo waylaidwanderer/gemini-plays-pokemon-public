@@ -77,7 +77,7 @@
 *   **Disappearing:** Interacting from certain directions can cause Farfetch'd to disappear and reappear elsewhere.
 
 ## B. Confirmed Interaction Log
-1.  **Start State:** (15, 25). Interact from North (15, 24) -> Moves to (15, 29).
+1.  **Start State (15, 25):** Interact from North (15, 24) -> Shows dialogue 'Kwaa!', then moves to (15, 29) after dialogue is dismissed.
 2.  **Start State:** (15, 25). Interact from South (15, 26) -> Moves to (20, 24).
 3.  **State:** (15, 29). Interact from East (16, 29) -> Moves to (15, 25) (Loop).
 4.  **State:** (15, 29). Interact from West (14, 29) -> Disappears, reappears at (22, 31).
