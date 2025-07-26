@@ -113,4 +113,4 @@
     *   Unseen tiles at the south of Ilex Forest, starting around (20, 36).
 *   **Deferred Tool Fixing:** In turn 8073, I identified that my `farfetchd_puzzle_solver` tool was faulty but deferred fixing it. This is a major violation of core directives and must not be repeated. Faulty tools must be fixed immediately.
 *   **Procedural Overseer Reminder:** I must make it a habit to use the `procedural_overseer` agent before committing to any long path to check for repetitive, failing loops (like being constantly interrupted by wild battles).
-5. State: (22, 31). Interact from South (22, 32) -> Disappeared from screen.
+5. State: (22, 31). Interact from South (22, 32) -> Moves to (15, 29).
