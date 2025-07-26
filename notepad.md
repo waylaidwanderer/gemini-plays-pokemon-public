@@ -57,5 +57,3 @@
 - **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points (like ladders, stairs, or puzzle elements) are actually reachable from the current position to avoid building strategies on flawed assumptions.
 
 - **Victory Road 1F Puzzle (Western Section):** Confirmed a soft-lock state on the western side. The upper platform is a dead end. The only solution is to reset the puzzle by leaving and re-entering the map.
-- **Victory Road 1F Puzzle (Western Section):** Confirmed a soft-lock state on the western side. The upper platform is a dead end. The only solution is to reset the puzzle by leaving and re-entering the map.
-- **Victory Road 1F Puzzle (Western Section):** Confirmed a soft-lock state on the western side. The upper platform is a dead end. The only solution is to reset the puzzle by leaving and re-entering the map.
