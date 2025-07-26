@@ -76,22 +76,27 @@
 
 # V. Ilex Forest Puzzle: Farfetch'd Herding
 ## A. Confirmed Mechanics
-*   Goal: Herd Farfetch'd to the apprentice at (7, 28).
-*   Movement: The Farfetch'd's movement is triggered by interaction from an adjacent tile. It appears to follow a state-based sequence rather than a simple flee mechanic.
-## B. Confirmed Sequence Log
-1.  Start: (15, 25). Interact from North (15, 24) -> Moves to (15, 29).
-2.  State: (15, 29). Interact from East (16, 29) -> Moves to (15, 25).
-3.  State: (15, 25). Interact from South (15, 26) -> Moves to (20, 24).
-4.  State: (20, 24). Interact from East (21, 24) -> Resets to (15, 25).
-## C. Confirmed Deviation from sequence
-*   **Attempt 5 (Turn 8271):**
-    *   State: (15, 29). Interact from West (14, 29) -> Farfetch'd disappeared from screen.
-    *   **Conclusion:** This did NOT solve the puzzle. Speaking to the apprentice at (7, 28) confirms he is still waiting for the Farfetch'd.
-## D. Current Hypothesis & Plan
-*   **Hypothesis:** The puzzle involves breaking the established four-step loop, but the deviation at (14, 29) was not the solution. Since the Farfetch'd disappeared, it has likely reset to its starting position.
-*   **Current State:** Farfetch'd location is unknown.
-*   **Next Test Plan:**
-    1.  Travel to the Farfetch'd's starting position (15, 25) to confirm if it has reset.
+*   **Goal:** Herd Farfetch'd to the apprentice at (7, 28).
+*   **Movement:** Interacting with Farfetch'd from an adjacent tile causes it to move. The direction of interaction is key.
+*   **Disappearing:** Interacting from certain directions can cause Farfetch'd to disappear and reappear elsewhere.
+
+## B. Confirmed Interaction Log
+1.  **Start State:** (15, 25)
+    *   Interact from North (15, 24) -> Moves to (15, 29).
+    *   Interact from South (15, 26) -> Moves to (20, 24).
+2.  **State:** (15, 29)
+    *   Interact from East (16, 29) -> Moves to (15, 25) (Loop).
+    *   Interact from West (14, 29) -> Disappears, reappears at (22, 31).
+3.  **State:** (20, 24)
+    *   Interact from East (21, 24) -> Moves to (15, 25) (Loop).
+4.  **State:** (22, 31)
+    *   Interact from South (22, 32) -> Moves to (15, 29).
+    *   Interact from North (22, 30) -> Moves to (28, 31).
+5.  **Current State:** (28, 31)
+    *   **Last Action:** Interacted from East (29, 31). Awaiting result.
+
+## C. Current Hypothesis
+*   The puzzle requires a specific sequence of directional interactions to guide the Farfetch'd towards the apprentice. My next step is to observe the result of interacting from the east at (28, 31).
 
 # VI. Critical Failures & Lessons Learned
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like updating my notepad or linking map markers) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
