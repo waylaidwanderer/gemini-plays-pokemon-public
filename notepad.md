@@ -58,13 +58,13 @@
 - **Debugging Strategy:** When a tool fails, add extensive logging to understand its internal state before attempting a fix. Or, manually test the game mechanics to gather ground-truth data.
 - **Reflection (Turn 101158):** My biggest failure was trusting my flawed `gem_pathfinder` tool, which incorrectly reported no path existed and led me to believe I was trapped for dozens of turns. This was a severe case of confirmation bias. The lesson is to distrust tool output when it contradicts a reasonable assessment of the game state and to prioritize fixing faulty tools immediately. I also need to be more flexible and abandon failing hypotheses faster.
 
-# IV. Current Objective: Solve Victory Road 1F Puzzle (Attempt #3 - Corrected Logic)
+# IV. Current Objective: Solve Victory Road 1F Puzzle (Attempt #4 - New Approach)
 
 - **The Goal:** Reach the ladder at (2, 2).
-- **The Plan (Revised):** The puzzles are interconnected in a specific order.
-  1. **Northern Puzzle (SOLVED):** Push the boulder at (3, 11) to the switch at (3, 10). **Conclusion:** This opens the path to the eastern puzzle by clearing the barrier at (10, 13).
-  2. **Eastern Puzzle:** Navigate to the eastern section. Push the boulder at (15, 3) to the switch at (18, 14). This should clear the northern barrier at (8, 6).
-  3. **Proceed to Ladder:** With the northern barrier cleared, navigate to the ladder at (2, 2).
+- **Hypothesis #1 (FAILED):** Solving the northern puzzle at (3, 10) opens the eastern path.
+  - **Conclusion:** The barrier at (10, 13) remains. The northern puzzle does not open the main path forward.
+- **Hypothesis #2 (Current):** The western boulder puzzle, starting with the boulder at (6, 16), is the correct next step.
+  - **Plan:** Investigate the western area by manipulating the boulder at (6, 16).
 
 # V. Archives
 
