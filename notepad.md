@@ -148,3 +148,6 @@
 *   **Assumption:** The northern unseen tiles are permanently inaccessible from the south.
     *   **Alternative Hypothesis:** Solving the Farfetch'd puzzle might trigger a script or event that opens the path.
     *   **Test Plan:** After successfully solving the Farfetch'd puzzle, I will immediately run `find_reachable_unseen_tiles` to check if the path has opened.
+
+# X. To-Do & Reminders
+* Reminder (from Overwatch): Consolidate redundant Rocket Grunt markers at (10, 16) in Azalea Town next time I'm there.
