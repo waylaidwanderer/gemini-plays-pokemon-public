@@ -24,7 +24,7 @@
 - **`hole`**: Drops to a lower floor.
 - **`spinner`**: Forces movement.
 - **`ladder_up`**: Warp tile that leads to a higher floor.
-- **Elevation Change:** Only possible on `steps` or `cleared_boulder_barrier` tiles. Moving from `elevated_ground` to `ground` is not possible without these tiles.
+- **Elevation Change (CRITICAL):** Movement between elevations is ONLY possible if one of the tiles is a `steps` or `cleared_boulder_barrier` tile. My hypothesis that one can step down from `elevated_ground` to `ground` was tested and proven false by the game engine.
 
 # II. Battle Intel
 
@@ -58,11 +58,6 @@
   - Ghost immune to Normal, Fighting
 - **Type Correction (Psychic vs. Rock):** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
-## B. Known Trainer Rosters
-### Victory Road 3F
-- **Cool Trainer M (DEFEATED @ 29,6):** CHARIZARD (Lv52), MAGNETON (Lv52), TENTACRUEL (Lv52)
-- **Cool Trainer F (DEFEATED @ 14,4):** WIGGLYTUFF (Lv54), CLEFABLE (Lv54), CHANSEY (Lv54), EEVEE (Lv57)
-
 # III. Puzzle Solutions & Learnings
 
 - **Victory Road 1F Puzzle - Hypothesis History**
@@ -73,7 +68,6 @@
   - **H5 (Hidden Switch/Passage):** Searched for a hidden pressure plate or secret passage on the western platform. **CONCLUSION: FAILED.** The Overwatch system confirmed this was a hallucination, as no such objects exist in the game state.
   - **H6 (All Defeated Trainers Traversable):** The defeated Cool Trainer M at (4,3) is also a traversable object, which is why pathfinding to the ladder at (2,2) previously failed. **CONCLUSION: FAILED.** The pathfinder, even with ignorable coordinates, could not find a path, indicating another blockage.
 - **Boulder Puzzle Reset:** Leaving and re-entering a floor resets all boulders to their original positions. This is a core mechanic for solving boulder puzzles and escaping self-inflicted traps.
-- **Elevation Change (Correction):** My hypothesis that one can step down from `elevated_ground` to `ground` was tested and proven false by the game engine. Movement between elevations is only possible on `steps` or `cleared_boulder_barrier` tiles.
 - **Puzzle Solving Insight (Confirmation Bias):** My current hypotheses all assume activating switches is the solution. If these fail, I must test hypotheses where switches are deliberately left *unactivated* or boulders are used to block paths elsewhere.
 
 # IV. Future Agent & Tool Ideas
