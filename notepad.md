@@ -101,6 +101,7 @@
     *   From E (29, 31) -> Disappears [Reset].
     *   From W (27, 31) -> Disappears [Reset].
     *   From S (28, 32) -> Disappears [New Location Unknown, potential progress] [Verified].
+    *   From N (28, 30) -> No movement ['Kwaa!'] [Verified].
 *   **State (29, 22):**
     *   From W (28, 22) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
     *   From S (29, 23) -> Disappears [Reset].
