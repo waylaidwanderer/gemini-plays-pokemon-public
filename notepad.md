@@ -64,7 +64,7 @@
 
 ## E. Current Puzzles & Hypotheses
 ### Victory Road 1F Boulder Puzzle
-- **Hypothesis 1 (Failed - 11 attempts):** Push the eastern boulder at (6, 17) to the switch at (18, 14). The `boulder_puzzle_solver` tool, once fixed, confirmed no solution exists from my current position.
+- **Hypothesis 1 (Failed - 14 attempts):** Push the eastern boulder at (6, 17) to the switch at (18, 14). The `boulder_puzzle_solver` tool failed repeatedly (JSON error, NameError, Timeout) and is unreliable for this puzzle. The switch is confirmed to be unreachable from my current position. Abandoning automated solving.
 - **Hypothesis 2 (Active):** The western switch at (3, 10) must be activated first. The immediate goal is to solve this puzzle by pushing the boulder at (3, 11) onto the switch.
 
 ## F. Agent Ideas
