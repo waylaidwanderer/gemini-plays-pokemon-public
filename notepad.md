@@ -34,6 +34,7 @@
 *   **INCENSE_BURNER:** Impassable object. (Confirmed by attempting to walk into it).
 *   **COUNTER:** Confirmed impassable. Functions as a wall.
 *   **BIRD:** Impassable object. Functions as a wall.
+*   **HEADBUTT_TREE:** Confirmed impassable by attempting to walk into it.
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
@@ -41,7 +42,6 @@
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
 
 ### Untested Tile Assumptions:
-*   **HEADBUTT_TREE:** Confirmed impassable by attempting to walk into it.
 
 ## B. Map Marker Mechanics
 *   **Dynamic Nature:** Markers linked to an `object_id` WILL move with the object. This is useful for tracking moving NPCs.
