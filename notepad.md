@@ -136,3 +136,12 @@
 *   **State (10, 35):**
     *   From N (10, 34) -> Moves to (15, 29) [Verified].
 *   **Deferred Data Management (Critical Lesson):** I have a pattern of deferring critical data management tasks like tool fixing and note-taking. This is a violation of core directives and a misunderstanding of my own nature as an LLM. All data management must be performed immediately in the turn it is identified.
+
+# IX. Reflection-Generated Hypotheses
+
+*   **Assumption:** The Farfetch'd puzzle is a simple, linear sequence.
+    *   **Alternative Hypothesis:** The solution may depend on the *order* of interactions from different valid positions, or it could be time-dependent.
+    *   **Test Plan:** If the current sequential approach fails, I will revisit previous states and try interacting from other valid directions to observe any changes in outcome. I will also begin noting the time of day for each major interaction.
+*   **Assumption:** The northern unseen tiles are permanently inaccessible from the south.
+    *   **Alternative Hypothesis:** Solving the Farfetch'd puzzle might trigger a script or event that opens the path.
+    *   **Test Plan:** After successfully solving the Farfetch'd puzzle, I will immediately run `find_reachable_unseen_tiles` to check if the path has opened.
