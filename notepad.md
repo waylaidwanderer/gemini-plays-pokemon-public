@@ -4,15 +4,15 @@
 - **Ground:** Standard walkable tile.
 - **Grass:** Walkable tile where wild Pokémon can be encountered.
 - **Water:** Can be crossed using the SURF HM.
-- **Impassable:** Walls, trees, and other objects that block movement. Interacting with them does nothing.
-- **Elevated Ground:** Walkable ground at a different elevation. Cannot use Surf from this tile type.
+- **Impassable:** Walls, trees, and other objects that block movement.
+- **Elevated Ground:** Walkable ground at a different elevation.
 - **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close.
 - **Boulder Switch:** A traversable floor switch activated by a boulder.
 - **Boulder Barrier:** An impassable barrier that becomes a `cleared_boulder_barrier` tile when the corresponding switch is activated.
-- **Cleared Boulder Barrier:** A traversable ground tile that appears after a boulder puzzle is solved. It allows movement between different elevations, acting like a ramp.
-- **Steps:** Allows two-way vertical movement between `ground` and `elevated_ground` tiles. Pushing boulders onto them is not possible.
+- **Cleared Boulder Barrier:** A traversable ground tile that appears after a boulder puzzle is solved.
+- **Steps:** Allows two-way vertical movement between `ground` and `elevated_ground` tiles.
 - **Ladders (`ladder_up`, `ladder_down`):** Function as instant 1x1 warps between floors.
-- **Hole:** A tile that functions as a warp, dropping the player to a lower floor. Boulders can be pushed into these to affect puzzles on the floor below.
+- **Hole:** A tile that functions as a warp, dropping the player to a lower floor.
 - **Spinner (`spinner_`...):** Forces movement in the specified direction.
 - **Boulder Pushing Mechanic (CORRECTED):** To push a boulder, use Strength, then stand on a tile adjacent to the boulder and face it. Pressing the directional button towards the boulder will move it one tile. The player character **remains on the tile they pushed from** and does not move into the boulder's old space.
 - **Elevation Traversal (Correction):** Movement between 'elevated_ground' and 'ground' is ONLY possible via 'steps' tiles. It is not possible to 'step down' from a ledge-like edge of an elevated area.
@@ -22,8 +22,7 @@
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **"No Will to Fight" Message (Correction):** Appears when the party menu cursor is on a fainted Pokémon.
 - **Level Cap:** The level cap with 8 badges is 65.
-- **Special NPC Interaction:** Certain puzzles may require walking *through* an NPC rather than interacting with them (e.g., Summer Beach House).
-- **PC Tile Anomaly:** The tile for interacting with the Pokémon Center PC is sometimes labeled as `grass` in the map data, despite being indoors.
+- **Special NPC Interaction:** Certain puzzles may require walking *through* an NPC rather than interacting with them (e.g., Summer Beach House, Rock Tunnel Super Nerd).
 
 # II. Battle Intel
 
@@ -42,16 +41,13 @@
 ### Cool Trainer F (Victory Road 3F) - DEFEATED
 - **Location:** (14, 4)
 - **Team:** WIGGLYTUFF (Lv54), CLEFABLE (Lv54), CHANSEY (Lv54), EEVEE (Lv57)
-- **Observed Moves:**
-  - WIGGLYTUFF: Lovely Kiss, Body Slam, Double-Edge
-  - CLEFABLE: Body Slam, Light Screen, Metronome, Sing
-  - CHANSEY: Double-Edge, Mega Punch
-  - EEVEE: Jump Kick
 
 # III. Core Gameplay Lessons & Reflections
 
-- **Core Principle: Fix, Don't Defer.** Critical tools with known bugs MUST be fixed immediately. Deferring fixes is a strategic failure. Repeatedly submitting identical, broken code is a critical error.
-- **Core Principle: Address critiques immediately.** When a tool is identified as faulty by an external check (like the overwatch system), fixing it becomes the absolute highest priority. Do not defer or make repeated, identical failed attempts.
-- **Core Principle: Verify, Then Trust.** Tool outputs and personal assumptions are hypotheses, not facts. They must be verified against the game state before being trusted. The Game State Information is the only source of truth.
-- **Core Principle: Agent vs. Tool.** Agents are for reasoning and planning. Tools are for computation and data processing. A task that can be solved with code (like simulating a puzzle) MUST be a tool, not an agent.
-- **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points (like ladders, stairs, or puzzle elements) are actually reachable from the current position to avoid building strategies on flawed assumptions.
+- **Core Principle: Fix, Don't Defer.** Critical tools with known bugs MUST be fixed immediately. Deferring fixes is a strategic failure.
+- **Core Principle: Address critiques immediately.** When a tool is identified as faulty by an external check (like the overwatch system), fixing it becomes the absolute highest priority.
+- **Core Principle: Verify, Then Trust.** Tool outputs and personal assumptions are hypotheses, not facts. They must be verified against the game state before being trusted.
+- **Core Principle: Agent vs. Tool.** Agents are for reasoning and planning. Tools are for computation and data processing. A task that can be solved with code MUST be a tool, not an agent.
+- **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points are actually reachable to avoid building strategies on flawed assumptions.
+
+- **Victory Road 1F Puzzle (Western Section):** Confirmed a soft-lock state on the western side. The upper platform is a dead end. The only solution is to reset the puzzle by leaving and re-entering the map.
