@@ -68,6 +68,6 @@
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
-# V. Current Puzzle: Victory Road 1F (Resetting the floor)
+# V. Current Puzzle: Victory Road 1F (Main Area)
 
-**Current Plan:** I am currently in the western section. I need to push the boulder at (6, 17) to clear the path to the southern exit warps. I will then exit the map to reset all the boulders. After resetting, my main hypothesis is that the eastern boulder puzzle is the true solution.
+**Hypothesis:** I am in the central area. The western platform is a confirmed trap. I cannot reach the eastern puzzle. Pushing the boulder at (3, 11) to (3, 10) did NOT visually open the barrier at (10, 13). However, system hints suggest the barrier is reachable. My plan is to navigate to (9, 13) and test if the barrier is functionally open.
