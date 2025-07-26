@@ -67,6 +67,7 @@
 
 - **Victory Road 1F Puzzle (CORRECTION):** My previous notes were incorrect. There is no switch at (3, 10). Pushing the boulder there was a mistake that led to a dead end. The assumption that the puzzle must be solved without leaving the map is now also in question. New plan is to reset the puzzle by exiting and re-entering.
 - **Elevation Change (Correction):** My hypothesis that one can step down from `elevated_ground` to `ground` was tested and proven false by the game engine. Movement between elevations is only possible on `steps` or `cleared_boulder_barrier` tiles.
+
 ### B. Unconventional Escape Hypotheses (from Agent)
 - Use an Escape Rope or a move like Dig/Teleport.
 - Leaving and re-entering the floor resets boulders.
