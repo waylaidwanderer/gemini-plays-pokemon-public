@@ -60,3 +60,7 @@
     *   **Hypothesis A (Deactivation):** The boulder on the switch at (3, 10) must be *removed* first. This might reconfigure the puzzle, possibly opening a new path for another boulder.
     *   **Hypothesis B (Verticality):** The boulder at (15, 3) on the elevated platform needs to be pushed off a ledge or through a hidden hole to the ground floor.
     *   **Hypothesis C (Red Herring):** The boulder barrier at (10, 13) is a distraction. The real solution involves activating the switch at (18, 14) to open a different, hidden path.
+
+# V. Tool Development Backlog
+
+- **`boulder_puzzle_solver` (CRITICAL PRIORITY):** Current implementation is a non-functional placeholder that has been reverted multiple times. Manual solving is a temporary workaround. A robust, generalized, algorithm-based solver that can parse map data is required to prevent future roadblocks. This is the #1 development priority after clearing the current Victory Road 1F puzzle.
