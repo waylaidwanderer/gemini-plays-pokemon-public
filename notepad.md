@@ -57,8 +57,8 @@
 - **Hypothesis 1 (Failed):** Pushing the eastern boulder at (6, 17) to the switch at (18, 14) is impossible. Abandoned.
 - **Hypothesis 2 (CONFIRMED):** Pushed the boulder at (3, 11) onto the switch at (3, 10).
 - **Hypothesis 3 (FAILED):** Activating the western switch did NOT open the barrier at (10, 13).
-- **Hypothesis 4 (FAILED):** I am trapped in a dead end. Resetting by leaving the map is the only option.
-- **Hypothesis 5 (ACTIVE - from Agent):** The western switch opened a secret, non-obvious passage nearby. I will explore the current area thoroughly before resetting the map.
+- **Hypothesis 4 (FAILED - from Agent):** The switch opened a secret passage on the western platform. After a full sweep of the area, this was proven false. The area is a confirmed dead end.
+- **Hypothesis 5 (ACTIVE):** I have soft-locked myself by pushing the boulders in the wrong order. I must exit Victory Road and re-enter to reset the puzzle state.
 
 ## F. Agent Ideas
 - **Puzzle Hypothesis Tester:** An agent that takes hypotheses from the generator and uses tools like `boulder_puzzle_solver` to programmatically test them.
