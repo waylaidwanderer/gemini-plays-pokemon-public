@@ -65,6 +65,6 @@
 
 # III. Puzzle Solutions & Learnings
 
-- **Victory Road 1F Puzzle (Active Investigation):** Pushing the boulder at (3, 11) onto the switch at (3, 10) has made the central boulder barrier at (10, 13) reachable. The next step is to navigate across the western elevated platform to the tile adjacent to the barrier, (9, 13), to confirm it is now passable.
+- **Victory Road 1F Puzzle (Hypothesis 2 - Toggle Switch):** **HYPOTHESIS 1 FAILED:** Pushing the boulder at (3, 11) onto the switch at (3, 10) made the central barrier at (10, 13) reachable, but the barrier itself remained impassable. The western platform is a dead end. **NEW HYPOTHESIS:** The switch at (3, 10) is a toggle. Pushing the boulder *off* the switch may be required to open the correct path. Next step is to navigate to (3, 9) and push the boulder south.
 - **Boulder Puzzle Reset:** Leaving and re-entering a floor resets all boulders to their original positions. This is a core mechanic for solving boulder puzzles and escaping self-inflicted traps.
 - **Elevation Change (Correction):** My hypothesis that one can step down from `elevated_ground` to `ground` was tested and proven false by the game engine. Movement between elevations is only possible on `steps` or `cleared_boulder_barrier` tiles.
