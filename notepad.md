@@ -83,7 +83,7 @@
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like updating my notepad or linking map markers) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
 *   **Tool Distrust:** I have repeatedly failed to trust my `find_path_to_target` tool's output, assuming it was broken when it correctly identified blocked paths. I must trust my tool's output and analyze the map more carefully before assuming a bug.
 *   **HM moves can be used even if the Pokémon is fainted.** This is a key mechanic learned from the Gentleman in the Charcoal Kiln.
-*   **Incorrect Agent Design:** My `puzzle_solver` agent was designed to perform computational data parsing, which is a task for a tool. It has been deleted. I must create a `puzzle_solver_tool` to handle this kind of logic-based puzzle.
+*   **Incorrect Agent Design (Resolved):** My original `puzzle_solver` agent was designed to perform computational data parsing, which is a task for a tool. It has since been deleted and replaced with the `farfetchd_puzzle_solver` tool, which correctly handles map analysis.
 *   **Agent Underutilization:** I am not consistently using my `procedural_overseer` agent. I need to integrate it into my regular workflow to prevent repetitive mistakes.
 *   **Inconsistent Marker Linking:** I have failed to link markers to object IDs immediately upon discovery (e.g., Lost Apprentice, Item Ball). This is a critical data management failure that must be rectified.
 
