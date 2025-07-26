@@ -91,3 +91,11 @@
 29. Push Down
 30. Push Down
 31. Push Down
+
+# VI. New Hypotheses (Victory Road 1F)
+- **Source:** hypothesis_generator_agent
+- **Hypothesis 1:** The boulder on the switch at (3, 10) must be removed. This will reconfigure the puzzle, possibly opening a path for the boulder at (6, 15).
+- **Hypothesis 2:** The boulder at (15, 3) needs to be pushed off a ledge or through a hidden hole on the elevated platform to the ground floor.
+- **Hypothesis 3:** The boulder barrier at (10, 13) is a red herring. Activating the switch at (18, 14) opens a different, hidden path.
+- **Hypothesis 4:** The boulder at (6, 15) is not for the switch, but must be pushed into a different, unmarked location on the floor to trigger a hidden mechanism.
+- **Hypothesis 5:** The player character must stand on the switch at (18, 14) to activate it.
