@@ -75,5 +75,9 @@
 - **Result:** Movement was blocked. The barrier is impassable.
 - **Conclusion:** Hypothesis is incorrect. This path is a dead end. The only solution is to leave and re-enter the map to reset the puzzle.
 
-**Hypothesis 2 (Current):** Pushing the boulder at (6, 16) is the first step in a sequence that solves the puzzle. The eastern and western platforms are red herrings.
-- **Plan:** Push the boulder at (6, 16) north to (6, 15), then re-evaluate the map for changes, likely checking the barrier at (10, 13) again.
+**Hypothesis 2 (Failed):** Pushing the boulder at (6, 16) north to (6, 15) would open a path.
+- **Test:** Pushed the boulder to (6, 15).
+- **Result:** This blocked access to the steps at (6, 14) and opened no new paths, creating a soft-lock.
+- **Conclusion:** Hypothesis is incorrect. The boulder must not be pushed north.
+
+**Hypothesis 3 (Current):** Pushing the boulder at (6, 16) SOUTH is the correct first step.
