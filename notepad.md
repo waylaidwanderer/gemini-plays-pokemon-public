@@ -73,7 +73,15 @@
 - **Hypothesis 3 (FAILED):** Having the Strength user in the lead had no effect.
 - **Hypothesis 5 (FAILED):** There is a hidden, unmarked jump-down point. System confirmed pathing to edges is impossible, falsifying this.
 - **Hypothesis 6 (FAILED):** The barrier is a standard boulder that can be pushed sideways.
-- **Next Step:** All hypotheses have been exhausted. Generating new hypotheses.
+- **New Hypotheses from Agent (Round 3):**
+  1. Push the boulder OFF of the switch at (3, 10). The switch being un-pressed may be the trigger.
+  2. Intentionally lose a battle to 'black out', which will reset the puzzle state.
+  3. Use the move 'Dig' or an 'Escape Rope' to exit the area.
+  4. The boulder must be pushed to a specific, unmarked tile on the platform.
+  5. The switch at (3, 10) operates on a timer.
+  6. The switch at (3, 10) must be toggled (pushed on and then off).
+  7. The barrier is removed by a delayed NPC event on the other side.
+- **Active Hypothesis:** Push the boulder OFF of the switch at (3, 10).
 
 # V. Future Development
 - **`boulder_puzzle_solver` v2:** The deleted tool was unreliable. A new, robust, algorithm-based tool needs to be developed to handle multi-boulder and multi-stage puzzles. This is a high-priority development task for the future.
