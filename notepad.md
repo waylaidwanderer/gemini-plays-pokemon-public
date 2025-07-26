@@ -82,3 +82,4 @@
 - **Hypothesis #3 (FAILED):** Pushing the western boulder onto the warp at (10, 18) opens the eastern path.
   - **Test:** Pushed boulder to (10, 18). Navigated to (9, 13) to observe the barrier.
   - **Conclusion:** The barrier at (10, 13) remains. This hypothesis is incorrect.
+- **Elevation Traversal (Correction):** Movement between 'elevated_ground' and 'ground' is ONLY possible via 'steps' tiles. It is not possible to 'step down' from a ledge-like edge of an elevated area.
