@@ -73,3 +73,10 @@
 - **Hidden Path:** The first switch unlocks a secret path elsewhere on the map, not directly related to the second switch.
 - **Remote Activation:** The second switch is activated by a field move or item from a distance.
 - **B1F Interaction:** A switch on the floor below alters the 1F layout.
+
+# IV. New Hypotheses (from Agent)
+- **Hole from 2F:** The switch at (18, 14) is activated by a boulder pushed from a hole on the floor above.
+- **Toggle Switch:** The switch at (3, 10) has multiple states (on/off) that might reveal a new path.
+- **Hidden Path:** The first switch unlocks a secret path elsewhere on the map, not directly related to the second switch.
+- **Remote Activation:** The second switch is activated by a field move or item from a distance.
+- **B1F Interaction:** A switch on the floor below alters the 1F layout.
