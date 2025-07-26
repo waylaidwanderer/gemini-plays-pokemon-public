@@ -41,8 +41,6 @@
 *   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
 
-### Untested Tile Assumptions:
-
 ## B. Map Marker Mechanics
 *   **Dynamic Nature:** Markers linked to an `object_id` WILL move with the object. This is useful for tracking moving NPCs.
 
@@ -79,52 +77,41 @@
 *   **Disappearing:** Interacting from certain directions can cause Farfetch'd to disappear and reappear elsewhere.
 
 ## B. Confirmed Interaction Log
-1.  **Start State:** (15, 25)
-    *   Interact from North (15, 24) -> Moves to (15, 29).
-    *   Interact from South (15, 26) -> Moves to (20, 24).
-2.  **State:** (15, 29)
-    *   Interact from East (16, 29) -> Moves to (15, 25) (Loop).
-    *   Interact from West (14, 29) -> Disappears, reappears at (22, 31).
-3.  **State:** (20, 24)
-    *   Interact from East (21, 24) -> Moves to (15, 25) (Loop).
-4.  **State:** (22, 31)
-    *   Interact from South (22, 32) -> Moves to (15, 29).
-    *   Interact from North (22, 30) -> Moves to (28, 31).
-5.  **State:** (28, 31)
-    *   Interact from East (29, 31) -> Disappeared.
-
-11. State: (20, 24). Interact from North (20, 23) -> Disappeared.
+1.  **Start State:** (15, 25). Interact from North (15, 24) -> Moves to (15, 29).
+2.  **Start State:** (15, 25). Interact from South (15, 26) -> Moves to (20, 24).
+3.  **State:** (15, 29). Interact from East (16, 29) -> Moves to (15, 25) (Loop).
+4.  **State:** (15, 29). Interact from West (14, 29) -> Disappears, reappears at (22, 31).
+5.  **State:** (20, 24). Interact from East (21, 24) -> Moves to (15, 25) (Loop).
+6.  **State:** (22, 31). Interact from South (22, 32) -> Moves to (15, 29).
+7.  **State:** (22, 31). Interact from North (22, 30) -> Moves to (28, 31).
+8.  **State:** (28, 31). Interact from East (29, 31) -> Disappeared.
+9.  **State:** (20, 24). Interact from North (20, 23) -> Disappeared.
+10. **State:** (22, 31). Interact from East (23, 31) -> Moves to (24, 35).
+11. **State:** (24, 35). Interact from West (23, 35) -> Moves to (28, 31).
+12. **State:** (28, 31). Interact from West (27, 31) -> Moved off-screen.
+13. **State:** (29, 22). Interact from South (29, 23) -> Disappeared.
+14. **State:** (20, 24). Interact from North (20, 23) -> Disappeared.
 
 ## C. Current Hypothesis
-*   The puzzle requires a specific sequence of directional interactions, some of which cause the Farfetch'd to disappear and relocate. It has disappeared again. My next step is to search for it, starting near the apprentice's location at (7, 28).
+*   The puzzle requires a specific sequence of directional interactions. I have a new lead on an interaction point at (28, 22) and will test it.
+
+## D. Northern Blockage Hypothesis
+*   **Primary Hypothesis:** The northern area of Ilex Forest is unreachable from the south.
+*   **Evidence:** Both `find_path_to_target` and the now-fixed `find_reachable_unseen_tiles` tools report no path.
+*   **Alternative Hypothesis:** There is a hidden path or event-based trigger that my tools cannot detect.
+*   **Contingency Plan:** If I become completely stuck on the Farfetch'd puzzle, I will manually walk to the northernmost reachable tiles and attempt to move north into every adjacent tile to definitively confirm or deny the blockage.
 
 # VI. Critical Failures & Lessons Learned
-*   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like updating my notepad or linking map markers) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
-*   **Tool Distrust:** I have repeatedly failed to trust my `find_path_to_target` tool's output, assuming it was broken when it correctly identified blocked paths. I must trust my tool's output and analyze the map more carefully before assuming a bug.
+*   **Data Management Deferral:** I have a pattern of deferring critical data management tasks. This is a violation of core directives and must be corrected.
+*   **Tool Distrust:** I have repeatedly failed to trust my `find_path_to_target` tool's output, assuming it was broken when it correctly identified blocked paths.
 *   **HM moves can be used even if the Pokémon is fainted.** This is a key mechanic learned from the Gentleman in the Charcoal Kiln.
-*   **Incorrect Agent Design (Resolved):** My original `puzzle_solver` agent was designed to perform computational data parsing, which is a task for a tool. It has since been deleted and replaced with the `farfetchd_puzzle_solver` tool, which correctly handles map analysis.
-*   **Agent Underutilization:** I am not consistently using my `procedural_overseer` agent. I need to integrate it into my regular workflow to prevent repetitive mistakes.
-*   **Inconsistent Marker Linking:** I have failed to link markers to object IDs immediately upon discovery (e.g., Lost Apprentice, Item Ball). This is a critical data management failure that must be rectified.
+*   **Incorrect Agent Design (Resolved):** My original `puzzle_solver` agent was designed for computational data parsing, a task for a tool. It has been replaced with the `farfetchd_puzzle_solver` tool.
+*   **Agent Underutilization:** I am not consistently using my `procedural_overseer` agent. I must integrate it into my regular workflow to prevent repetitive mistakes.
+*   **Inconsistent Marker Linking:** I have failed to link markers to object IDs immediately upon discovery.
+*   **Repetitive Tool Failures (Critical Failure):** I repeatedly failed to update a tool (turns 8737-8742) by submitting an identical script. This is a critical failure loop that could have been prevented by using my `procedural_overseer` agent. This is a lesson in mindfulness and checking my work before submission.
+*   **Deferred Tool Fixing (Critical Failure):** I incorrectly deferred fixing a broken tool by making it a tertiary goal. Tool maintenance is an immediate, high-priority action that must be completed before any other gameplay objective.
 
 # VII. Puzzle Solutions
 
 ## A. Ruins of Alph (Kabuto Puzzle)
 *   The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces.
-
-# VIII. Exploration Notes
-*   **Dead Ends:** Route 32 Pier, Union Cave B1F (from 1F ladder), Azalea Pokecenter 2F are all confirmed dead ends for now.
-*   **Unexplored Areas:** 
-    *   Unexplored Warp at (3, 43) in Ilex Forest.
-    *   Unseen tiles at the south of Ilex Forest, starting around (20, 36).
-*   **Deferred Tool Fixing:** In turn 8073, I identified that my `farfetchd_puzzle_solver` tool was faulty but deferred fixing it. This is a major violation of core directives and must not be repeated. Faulty tools must be fixed immediately.
-*   **Procedural Overseer Reminder:** I must make it a habit to use the `procedural_overseer` agent before committing to any long path to check for repetitive, failing loops (like being constantly interrupted by wild battles).
-5. State: (22, 31). Interact from South (22, 32) -> Moves to (15, 29).
-6. State: (15, 29). Interact from West (14, 29) -> Disappeared.
-7. State: (22, 31). Interact from North (22, 30) -> Moves to (28, 31).
-*   **Repetitive Tool Failures:** I repeatedly failed to update a tool (turns 8437-8441) because I was submitting an identical script. This is a critical failure loop that could have been prevented by using my `procedural_overseer` agent. I must use this agent to check for repetitive, failing actions in the future.
-*   **Procedural Overseer Underutilization:** The overwatch system and my own reflection confirmed a critical failure in my process: I repeatedly failed to update a tool (turns 8437-8441) because I was submitting an identical script. This is a clear failure loop that could have been prevented by using my `procedural_overseer` agent. I must integrate this agent into my regular workflow to check for repetitive, failing actions before committing to them.
-*   **State:** (22, 31)
-    *   Interact from East (23, 31) -> Moves to (24, 35).
-8. State: (24, 35). Interact from West (23, 35) -> Moves to (28, 31).
-9. State: (28, 31). Interact from West (27, 31) -> Moved off-screen.
-10. State: (29, 22). Interact from South (29, 23) -> Disappeared.
