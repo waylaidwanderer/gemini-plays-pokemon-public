@@ -56,7 +56,8 @@
 ### Victory Road 1F Boulder Puzzle
 - **Hypothesis 1 (Failed):** Pushing the eastern boulder at (6, 17) to the switch at (18, 14) is impossible. Abandoned.
 - **Hypothesis 2 (CONFIRMED):** Pushed the boulder at (3, 11) onto the switch at (3, 10).
-- **Hypothesis 3 (CONFIRMED):** Activating the western switch has cleared the boulder barrier at (10, 13). My next step is to navigate there and continue.
+- **Hypothesis 3 (FAILED):** Activating the western switch did NOT open the barrier at (10, 13). I am now trapped.
+- **Hypothesis 4 (ACTIVE):** I am in a dead end. I must exit Victory Road and re-enter to reset the puzzle state. Then I will attempt the puzzle again with a new strategy.
 
 ## F. Agent Ideas
 - **Puzzle Hypothesis Tester:** An agent that takes hypotheses from the generator and uses tools like `boulder_puzzle_solver` to programmatically test them.
