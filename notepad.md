@@ -71,7 +71,8 @@
   5. Find a hidden, unmarked jump-down point.
   6. The barrier is now a standard boulder that can be pushed sideways.
 - **Hypothesis 3 (FAILED):** Having the Strength user in the lead had no effect.
-- **Active Hypothesis (from Agent #5):** There is a hidden, unmarked jump-down point on the platform. I will systematically walk along every edge tile to find it.
+- **Hypothesis 5 (FAILED):** There is a hidden, unmarked jump-down point. System confirmed pathing to edges is impossible, falsifying this.
+- **Active Hypothesis (from Agent #1):** Use an Escape Rope or the move Dig to reset the puzzle. I will attempt to use Dig.
 
 # V. Future Development
 - **`boulder_puzzle_solver` v2:** The deleted tool was unreliable. A new, robust, algorithm-based tool needs to be developed to handle multi-boulder and multi-stage puzzles. This is a high-priority development task for the future.
