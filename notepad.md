@@ -90,7 +90,7 @@
     *   From W (14, 29) -> Moves to (22, 31).
 *   **State (20, 24):**
     *   From E (21, 24) -> Disappears [Reset].
-    *   From N (20, 23) -> Disappears [Reset].
+    *   From N (20, 23) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
 *   **State (22, 31):**
     *   From S (22, 32) -> Moves to (15, 29).
     *   From N (22, 30) -> Moves to (28, 31) [Verified].
