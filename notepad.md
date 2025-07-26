@@ -126,6 +126,3 @@
     *   Interact from East (23, 31) -> Moves to (24, 35).
 8. State: (24, 35). Interact from West (23, 35) -> Moves to (28, 31).
 9. State: (28, 31). Interact from West (27, 31) -> Moved off-screen.
-
-*   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
-*   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
