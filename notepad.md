@@ -74,3 +74,7 @@
 - Misplaced boulder might have opened a path elsewhere.
 - A save/reload quirk could reset the puzzle.
 - The tile the player stands on might have a unique item interaction.
+### C. Unconventional Escape Hypotheses (from Agent - Second Set)
+- Intentionally losing a battle to a wild Pokémon will cause a 'white out' and reset the player's position to the last visited Pokémon Center, thus resetting the puzzle.
+- The Pokémon move 'Dig' can be used from the party menu to exit the cave, functioning as an alternative to an Escape Rope.
+- Saving the game, completely closing the game application, and then reloading the save file might reset the positions of all boulders on the floor.
