@@ -5,7 +5,7 @@
 - **"No Will to Fight" Message:** Appears when the party menu cursor is on a fainted Pokémon.
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
-- **Defeated Trainers:** Often become impassable objects, but this is not a universal rule (e.g., Super Nerd in Rock Tunnel was traversable).
+- **Defeated Trainers:** Some defeated trainers are traversable objects (e.g., Youngster in Victory Road 1F).
 
 ## B. Boulder Pushing
 - **Activation:** Activate Strength from the party menu.
@@ -23,6 +23,7 @@
 - **`boulder_barrier`**: Impassable barrier linked to a boulder switch. Tested and confirmed impassable at (10, 13).
 - **`hole`**: Drops to a lower floor.
 - **`spinner`**: Forces movement.
+- **`ladder_up`**: Warp tile that leads to a higher floor.
 - **Elevation Change:** Only possible on `steps` or `cleared_boulder_barrier` tiles. Moving from `elevated_ground` to `ground` is not possible without these tiles.
 
 # II. Battle Intel
@@ -67,8 +68,3 @@
 - **Victory Road 1F Puzzle (Corrected Solution):** The puzzle is a sequential, multi-step process. 1. Push the southern boulder at (6, 16) SOUTH to (6, 17). 2. This unblocks the path to the steps at (6, 14). 3. Ascend the steps to the western elevated platform. 4. Navigate past the defeated Youngster at (7, 11), who is traversable. 5. Solve the western puzzle by pushing the boulder at (3, 11) NORTH to the switch at (3, 10). 6. This action opens the central boulder barrier at (10, 13), granting access to the eastern half of the map and the second boulder puzzle.
 - **Boulder Puzzle Reset:** Leaving and re-entering a floor resets all boulders to their original positions. This is a core mechanic for solving boulder puzzles and escaping self-inflicted traps.
 - **Elevation Change (Correction):** My hypothesis that one can step down from `elevated_ground` to `ground` was tested and proven false by the game engine. Movement between elevations is only possible on `steps` or `cleared_boulder_barrier` tiles.
-
-# IV. Future Development Ideas
-
-- **Systematic Search Manager Agent:** Create an agent to manage the process of systematically testing tiles (e.g., for hidden passages). It would take a list of target coordinates, track which have been tested, and suggest the next logical target to ensure a complete and efficient search.
-- **Soft-Lock Analyzer Tool:** Develop a tool that programmatically analyzes the `map_xml_string` to check for escape routes. It could test paths to all exits considering all known traversal mechanics, including unconventional ones like Dig or checking for required items like Escape Ropes.
