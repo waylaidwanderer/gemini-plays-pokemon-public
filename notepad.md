@@ -87,3 +87,11 @@
 - **Hypothesis #4 (FAILED):** A trigger is based on the player's position. After solving the other puzzles, the player must step on the now-empty northern switch at (3, 10) to open the barrier.
   - **Test:** Solved western puzzle, then northern puzzle. Navigated to (3,10) and stepped on the switch. Navigated to (9,13) to observe.
   - **Conclusion:** The barrier at (10, 13) remains. This hypothesis is incorrect.
+
+# VI. New Hypotheses (Agent Generated)
+- **Hypothesis #6:** Pushing the boulder at (6, 16) onto the warp tile at (10, 18) teleports that same boulder to the previously unreachable eastern puzzle area, making it solvable. All three puzzles must then be solved to open the barrier.
+- **Hypothesis #7:** After pushing the boulder at (6, 16) onto the warp tile at (10, 18), the player must also step on the warp tile.
+- **Hypothesis #8:** After solving both the northern and western puzzles, the barrier at (10, 13) becomes destructible and can be removed using an HM move like Rock Smash.
+- **Hypothesis #9:** Solving both the northern and western puzzles causes a hidden switch to appear somewhere on the floor. The Itemfinder must be used to find and activate this new switch.
+- **Hypothesis #10:** The northern switch at (3, 10) is a pressure plate that must be stood on by the player, not the boulder, after the western puzzle has been solved.
+- **Hypothesis #11:** The boulder from the northern puzzle must be pushed off the switch at (3, 10) and then pushed back on, but only after the western puzzle has been completed.
