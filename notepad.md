@@ -88,10 +88,13 @@
 *   **Attempt 3 (Turn 8209):**
     *   **State:** Farfetch'd at (15, 25). Player at (15, 26).
     *   **Result:** Farfetch'd moved Northeast to (20, 24).
+*   **Attempt 4 (Turn 8222):**
+    *   **State:** Farfetch'd at (20, 24). Player at (21, 24).
+    *   **Result:** Farfetch'd moved to an unknown location (disappeared from screen).
 ## C. Current Hypothesis & Plan
-*   **Hypothesis:** The direction the Farfetch'd moves is determined by the direction it turns to face the player *before* it moves. Each interaction spot might trigger a specific, pre-determined move.
-*   **Current State:** Farfetch'd is at (20, 24) facing Right.
-*   **Next Test:** Systematically test all interaction points around the new position to map out its behavior. I will start by using `farfetchd_puzzle_solver` to find the valid spots.
+*   **Hypothesis:** The Farfetch'd follows a set sequence of locations. My interactions are just triggers to make it move to the next spot in the sequence. It might have reset or moved to a completely new area.
+*   **Current State:** Farfetch'd location is unknown.
+*   **Next Test:** I need to find the Farfetch'd. I will start by returning to its original starting position at (15, 25) to see if it has reset. If not there, I will systematically explore the puzzle area.
 
 # VI. Critical Failures & Lessons Learned
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like updating my notepad or linking map markers) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
