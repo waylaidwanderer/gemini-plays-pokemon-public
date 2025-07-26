@@ -65,6 +65,6 @@
 
 # III. Puzzle Solutions & Learnings
 
-- **Victory Road 1F Puzzle (Learning & New Hypothesis):** **ATTEMPT FAILED**: The previously documented 'Corrected Solution' is WRONG. Following steps 1-5 leads to a soft-lock where the central barrier at (10, 13) remains closed, trapping the player in the western section with no way to progress. A map reset (leaving and re-entering) is required to escape. **New Hypothesis**: The puzzle sequence is reversed. The eastern puzzle must be solved *first*. This likely involves pushing the boulder at (15, 3) to the switch at (18, 14). This action should open the central barrier, allowing access to the western platform and the second boulder puzzle.
+- **Victory Road 1F Puzzle (Active Investigation):** The `boulder_puzzle_solver_agent` was a flawed approach and has been deleted. Pushing the boulder at (3, 11) onto the switch at (3, 10) did not open the path to the ladder. **New Hypothesis**: This action has opened the central boulder barrier at (10, 13), making it reachable. The next step is to navigate to the barrier to confirm this.
 - **Boulder Puzzle Reset:** Leaving and re-entering a floor resets all boulders to their original positions. This is a core mechanic for solving boulder puzzles and escaping self-inflicted traps.
 - **Elevation Change (Correction):** My hypothesis that one can step down from `elevated_ground` to `ground` was tested and proven false by the game engine. Movement between elevations is only possible on `steps` or `cleared_boulder_barrier` tiles.
