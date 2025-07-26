@@ -62,7 +62,9 @@
 # IV. Current Objective: Solve Victory Road 1F Puzzle
 
 - **The Goal:** Reach the ladder at (2, 2).
-- **Hypothesis #5 (NEW):** The puzzles must be solved in a specific order: first the western puzzle (pushing the boulder at (6,16) to the warp at (10,18)), and THEN the northern puzzle (pushing the boulder at (3,11) to the switch at (3,10)). This sequence might unlock the barrier at (10, 13).
+- **Hypothesis #5 (FAILED):** The puzzles must be solved in a specific order (west then north).
+  - **Test:** Solved western puzzle, then northern puzzle. Navigated to (9,13) to observe.
+  - **Conclusion:** The barrier at (10, 13) remains. This hypothesis is incorrect.
 
 # V. Archives
 
