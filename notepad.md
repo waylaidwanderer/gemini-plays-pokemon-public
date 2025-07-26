@@ -84,7 +84,8 @@
   - (1, 16): Failed.
   - (2, 17): Failed.
   - (3, 18): Failed.
-  - (4, 18): To be tested.
+  - (4, 18): Failed.
+  - (5, 18): To be tested.
 
 # IV. Future Development Ideas
 
