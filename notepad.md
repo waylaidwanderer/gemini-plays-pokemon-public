@@ -15,7 +15,7 @@
 ### Warp Tiles:
 *   **WARP_CARPET_DOWN:** One-way warp. Activated by pressing 'Down'.
 *   **WARP_CARPET_LEFT:** One-way warp. Activated by pressing 'Left'.
-*   **WARP_CARPET_RIGHT:** Functions as a one-way warp, likely activated by pressing 'Right'. Needs confirmation.
+*   **WARP_CARPET_RIGHT:** One-way warp. Activated by pressing 'Right'.
 
 ### Confirmed Impassable:
 *   **WALL:** Confirmed impassable. Blocks movement from all directions.
