@@ -95,7 +95,6 @@
 *   **Azalea Pokecenter 2F:** This entire floor is a dead end for now. All warps are blocked by NPCs or walls.
 
 # IX. High-Priority Tasks
-*   Verify if the Team Rocket markers in Azalea Town are still relevant or if the NPCs have disappeared.
-*   Test seemingly impassable objects like bookshelves and radios to confirm they are not interactable in a meaningful way.
-*   **Ilex Forest:** There's an unmarked warp at (3, 43) that needs investigation.
-*   **Ilex Forest:** Potentially reachable unseen tiles around (27, 22), (22, 29), (22, 32), (28, 29), (29, 29), (28, 31), (20, 34), (21, 34), and (22, 34) need investigation.
+*   Verify object IDs for 'Lost Apprentice?' and 'Item Ball' markers when they are on screen.
+*   Investigate the unexplored warp at (3, 43).
+*   Investigate reachable unseen tiles: (28, 29), (29, 29), (28, 31), (20, 34), (21, 34), (22, 34).
