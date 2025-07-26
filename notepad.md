@@ -23,7 +23,6 @@
 *   **PC:** Impassable. Functions as an object.
 *   **VOID:** Impassable. Appears as a black abyss.
 *   **CUT_TREE:** Impassable. Likely requires HM Cut.
-*   **HEADBUTT_TREE:** Impassable. Likely requires HM Headbutt.
 *   **SIGN:** Impassable. Functions as an object that can be interacted with for text.
 *   **BOOKSHELF:** Impassable. Functions as an object that can be interacted with for text.
 *   **BLACKBOARD:** Impassable. Functions as an object that can be interacted with for text.
@@ -43,6 +42,9 @@
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
 *   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
 
+### Untested Tile Assumptions:
+*   **HEADBUTT_TREE:** Assumed impassable, but requires explicit verification by attempting to walk into it.
+
 ## B. Map Marker Mechanics
 *   **Dynamic Nature:** Markers linked to an `object_id` WILL move with the object. This is useful for tracking moving NPCs.
 
@@ -55,38 +57,35 @@
 
 ## B. Gym Leader Teams
 *   **Falkner (Violet City):** Pidgey (Lv7), Pidgeotto (Lv9). Primarily Normal/Flying type.
+*   **Bugsy (Azalea Town):** Metapod (Lv14), Kakuna (Lv14), Scyther (Lv16).
 
 # III. Badges & Items
 *   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
 *   **Hive Badge:** Acquired from Bugsy. Allows use of HM01 (Cut) outside of battle and makes traded Pokémon up to Lv30 obey.
 *   **TM31 (Mud-Slap):** Received from Falkner.
-*   **TM39:** Found in Union Cave B1F.
 *   **TM49 (Fury Cutter):** Received from Bugsy.
 *   **EVERSTONE:** Received from Professor Elm. Prevents a Pokémon holding it from evolving.
-*   **PSNCUREBERRY:** Found on Route 33.
 
 # IV. Story Progression
 
 ## A. Current Quest
-*   **Rescue the Apprentice:** The Charcoal Man's apprentice is lost in Ilex Forest. Finding him is the primary lead to obtaining HM01 (Cut).
+*   **Rescue the Apprentice:** The Charcoal Man's apprentice is lost in Ilex Forest. Finding his runaway Farfetch'd is the primary lead to obtaining HM01 (Cut).
 
 ## B. Past Clues & Hints
-*   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward.
+*   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward to Goldenrod City.
 
 # V. Untested Assumptions & Hypotheses
-*   The 'strange tree' on Route 36 can be removed with a specific key item or HM.
-*   **Alternative Hypothesis for HM01:** The Farfetch'd puzzle may not be the only way to obtain HM01 (Cut). It could be found elsewhere, or another path to Goldenrod City might exist. **Test:** If the puzzle becomes impossible, I must explore all other paths, including the Unexplored Warp at (3, 43), to their absolute ends.
+*   **Primary Hypothesis for HM01:** The Farfetch'd puzzle is a sequential teleportation puzzle that, when solved, will yield HM01 (Cut).
+*   **Alternative Hypothesis for HM01:** The Farfetch'd puzzle is a red herring or optional. An alternative path to Goldenrod City or another method of obtaining HM01 exists. 
+    *   **Test:** If the puzzle becomes impossible or I get stuck in a loop, I must explore all other paths to their absolute ends. This includes the Unexplored Warp at (3, 43) and the unseen tiles at the south of the forest (20, 36) through (28, 36).
 
 # VI. Critical Failures & Lessons Learned
-*   **Notepad Proactivity Failure:** I waited for an external critique to clean up outdated notes. I must proactively maintain the accuracy of my notepad without prompting.
-*   **Proactive Marking Failure:** I have failed to proactively mark significant discoveries like unvisited warps. I must be more diligent in marking all key points of interest as soon as they are discovered.
-*   **Marker Linking Failure:** I failed to link the Item Ball marker to its object ID, which is a core data management task. I must be more consistent in linking markers to objects.
-*   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like marking warps or updating my notepad) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
-*   **Tool Distrust:** I have repeatedly failed to trust my `find_path_to_target` tool's output, assuming it was broken when it correctly identified blocked paths (e.g., by NPCs). I must trust my tool's output and analyze the map more carefully before assuming a bug.
+*   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like updating my notepad or linking map markers) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
+*   **Tool Distrust:** I have repeatedly failed to trust my `find_path_to_target` tool's output, assuming it was broken when it correctly identified blocked paths. I must trust my tool's output and analyze the map more carefully before assuming a bug.
 *   **HM moves can be used even if the Pokémon is fainted.** This is a key mechanic learned from the Gentleman in the Charcoal Kiln.
-*   **stun_npc Tool Correction:** I previously believed `stun_npc` was a hallucination. This was a critical failure to consult my available tools list. `stun_npc` is a real tool and can be used to freeze NPCs.
-*   **select_battle_option Tool Correction:** I previously believed `select_battle_option` was a hallucination. This was a critical failure to consult my available tools list. `select_battle_option` is a real tool and must be used for battle menu selections.
-*   **Agent Underutilization:** I am not consistently using my `procedural_overseer` agent. I need to integrate it into my regular workflow to improve strategic planning and avoid repetitive mistakes.
+*   **Incorrect Agent Design:** My `puzzle_solver` agent was designed to perform computational data parsing, which is a task for a tool. It has been deleted. I must create a `puzzle_solver_tool` to handle this kind of logic-based puzzle.
+*   **Agent Underutilization:** I am not consistently using my `procedural_overseer` agent. I need to integrate it into my regular workflow to prevent repetitive mistakes.
+*   **Inconsistent Marker Linking:** I have failed to link markers to object IDs immediately upon discovery (e.g., Lost Apprentice, Item Ball). This is a critical data management failure that must be rectified.
 
 # VII. Puzzle Solutions
 
@@ -94,14 +93,7 @@
 *   The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces.
 
 # VIII. Exploration Notes
-*   **Route 32 Pier:** This area is a dead end. The southern part of the route is unreachable from the northern section.
-*   **Union Cave B1F:** This area is a dead end, accessible from a ladder on 1F. The path is blocked by one-way walls.
-*   **Azalea Pokecenter 2F:** This entire floor is a dead end for now. All warps are blocked by NPCs or walls.
-*   **Unseen Tiles in Ilex Forest:** System detected potentially reachable unseen tiles: (20, 36), (21, 36), (22, 36), (23, 36), (24, 36), (25, 36), (26, 36), (27, 36), (28, 36). Need to investigate these if the Farfetch'd puzzle proves to be a dead end.
-
-# IX. High-Priority Tasks
-*   **Verify Object IDs:**
-    *   Confirm the object ID for the `Item Ball` at (20, 32) and link its marker.
-    *   Verify the object ID for the 'Lost Apprentice?' marker at (7, 28) when it is on screen.
-*   **Investigate Unexplored Warp:** Check the warp at (3, 43).
-*   **Investigate Unseen Tiles:** Consolidated list: (20, 36), (21, 36), (22, 36), (23, 36), (24, 36), (25, 36), (26, 36), (27, 36), (28, 36).
+*   **Dead Ends:** Route 32 Pier, Union Cave B1F (from 1F ladder), Azalea Pokecenter 2F are all confirmed dead ends for now.
+*   **Unexplored Areas:** 
+    *   Unexplored Warp at (3, 43) in Ilex Forest.
+    *   Unseen tiles at the south of Ilex Forest, starting around (20, 36).
