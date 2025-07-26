@@ -138,3 +138,4 @@
     *   From W (28, 22) -> Disappears, reappears at (28, 31).
 *   **State (28, 31) [Continued]:**
     *   From N (28, 30) -> Moves to (24, 35) [Verified].
+*   **Hypothesis 6 (New):** The puzzle requires a combination of 'moving' and 'non-moving' ('Kwaa!') interactions. The non-moving interactions might be used to orient the Farfetch'd correctly before a push that moves it.
