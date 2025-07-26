@@ -135,3 +135,4 @@
 
 ## A. Ruins of Alph (Kabuto Puzzle)
 *   The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces.
+*   **State (Unknown):** After disappearing from (22, 31), checked (28, 31) and (24, 35). Farfetch'd not found at either location. [Failed Search]
