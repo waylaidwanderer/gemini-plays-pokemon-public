@@ -112,7 +112,7 @@
 ## D. Northern Blockage
 *   **Status:** The northern path starting at (3, 23) is confirmed to be unreachable from the south. This has been verified by pathfinding tools and manual attempts.
 
-# VI. Critical Failures & Lessons Learned
+# VII. Critical Failures & Lessons Learned (Consolidated)
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks. This is a violation of core directives and must be corrected.
 *   **Tool Distrust:** I have repeatedly failed to trust my `find_path_to_target` tool's output, assuming it was broken when it correctly identified blocked paths.
 *   **HM moves can be used even if the Pokémon is fainted.** This is a key mechanic learned from the Gentleman in the Charcoal Kiln.
