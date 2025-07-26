@@ -111,8 +111,9 @@
 *   **Alternative Hypothesis 1:** The puzzle solution is time-dependent (e.g., requires specific time of day).
 *   **Alternative Hypothesis 2:** The puzzle requires a key item I don't possess yet.
 
-## D. Northern Blockage
-*   **Status:** The northern path at Y=23 is definitively confirmed to be unreachable from the southern part of the forest. This has been repeatedly verified by my `verify_reachability_of_tiles` tool, which found no valid path. The system alerts are misleading.
+## D. Confirmed Blockages
+*   **Northern Path (Y=23):** The northern path is definitively confirmed to be unreachable from the southern part of the forest. This has been repeatedly verified by my `verify_reachability_of_tiles` tool, which found no valid path. The system alerts are misleading.
+*   **Western Path (Y=23):** The western path from (0,23) to (9,23) is confirmed to be unreachable from the central forest area. Verified with `verify_reachability_of_tiles` tool (Turn 9919).
 
 # VI. Critical Failures & Lessons Learned (Consolidated)
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks. This is a violation of core directives and must be corrected.
