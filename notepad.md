@@ -56,14 +56,5 @@
 - **Core Principle: Agent vs. Tool.** Agents are for reasoning and planning. Tools are for computation and data processing. A task that can be solved with code (like simulating a puzzle) MUST be a tool, not an agent.
 - **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points (like ladders, stairs, or puzzle elements) are actually reachable from the current position to avoid building strategies on flawed assumptions.
 
-  - A hidden one-way ledge exists.
-  - An item like Escape Rope or a move like Dig/Teleport has special functionality in the room.
-  - Re-challenging an NPC with a specific item triggers a reset.
-
-  - **Conclusion:** The barrier at (10, 13) remains. This hypothesis is incorrect.
-- **Hypothesis #8 (FAILED):** After solving the northern puzzle, the western boulder at (6, 16) must be pushed onto the warp tile at (9, 18).
-  - **Test:** Solved northern puzzle. Pushed western boulder to (9, 18). Navigated to (9, 13) to observe.
-  - **Conclusion:** The barrier at (10, 13) remains. This hypothesis is incorrect.
-- **Hypothesis #9 (FAILED):** After solving the northern puzzle and pushing the western boulder onto the warp at (9, 18), the player must step on the adjacent warp tile at (10, 18).
-  - **Test:** Pushed boulder to (9, 18), then stepped on warp at (10, 18).
-  - **Conclusion:** This action warps the player out of Victory Road to Route 23. The barrier at (10, 13) remains. This hypothesis is incorrect.
+- **Victory Road 1F Puzzle (Western Section):** Multiple hypotheses tested and failed.
+  - **Summary of Failures:** Activating single switches, using warp tiles with boulders, 'solving and un-solving' the puzzle, and re-interacting with NPCs have all failed to open the barrier at (10, 13) or reveal a path forward. The western upper platform is a confirmed dead end. The area is a soft-lock unless a hidden mechanic is discovered.
