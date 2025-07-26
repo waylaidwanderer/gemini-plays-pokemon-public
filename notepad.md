@@ -95,18 +95,17 @@
     *   From S (22, 32) -> Moves to (15, 29).
     *   From N (22, 30) -> Moves to (28, 31) [Verified].
     *   From E (23, 31) -> Moves to (24, 35).
-*   **State (24, 35):**
-    *   From W (23, 35) -> Moves to (28, 31).
 *   **State (28, 31):**
     *   From E (29, 31) -> Disappears [Reset].
     *   From W (27, 31) -> Disappears [Reset].
     *   From S (28, 32) -> No movement ['Kwaa!'] [Verified].
     *   From N (28, 30) -> Moves to (24, 35) [Verified].
-*   **State (24, 35) [Continued]:**
-    *   From E (25, 35) -> Moves to (22, 31) [Verified].
+*   **State (24, 35):**
+    *   From W (23, 35) -> Moves to (28, 31).
     *   From E (25, 35) -> No movement ['Kwaa!'] [Verified].
+    *   After 'Kwaa!', clearing dialogue -> Moves to (22, 31) [NEW DISCOVERY!].
 *   **State (29, 22):**
-    *   From W (28, 22) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
+    *   From W (28, 22) -> Disappears, reappears at (28, 31).
     *   From S (29, 23) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
 
 ## C. Puzzle Hypotheses
@@ -115,6 +114,7 @@
 *   **Hypothesis 3 (Alternative):** The puzzle requires a key item I don't possess yet.
 *   **Hypothesis 4 (Alternative):** The puzzle's solution may not just be about the direction of interaction, but also about other cues, such as the sounds the Farfetch'd makes ('Kwaa!') or the direction it faces after being pushed. I need to pay closer attention to these details.
 *   **Hypothesis 5 (Current):** Leaving and re-entering Ilex Forest may reset the Farfetch'd puzzle, allowing for a fresh attempt.
+*   **Hypothesis 6 (Confirmed):** The puzzle state is changed by 'Kwaa!' interactions. A non-moving 'Kwaa!' interaction, followed by clearing the dialogue box, can trigger a move. This is a complex, state-based mechanic.
 
 ## D. Confirmed Blockages
 *   **Northern Path (Y=23):** The northern path is definitively confirmed to be unreachable from the southern part of the forest. This has been repeatedly verified by my `verify_reachability_of_tiles` tool, which found no valid path. The system alerts are misleading.
@@ -135,8 +135,3 @@
 
 ## A. Ruins of Alph (Kabuto Puzzle)
 *   The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces.
-*   **State (29, 22) [Continued]:**
-    *   From W (28, 22) -> Disappears, reappears at (28, 31).
-*   **State (28, 31) [Continued]:**
-    *   From N (28, 30) -> Moves to (24, 35) [Verified].
-*   **Hypothesis 6 (New):** The puzzle requires a combination of 'moving' and 'non-moving' ('Kwaa!') interactions. The non-moving interactions might be used to orient the Farfetch'd correctly before a push that moves it.
