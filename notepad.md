@@ -24,7 +24,7 @@
 - **`hole`**: Drops to a lower floor.
 - **`spinner`**: Forces movement.
 - **`ladder_up`**: Warp tile that leads to a higher floor.
-- **Elevation Change (CRITICAL):** Movement between elevations generally requires a `steps` or `cleared_boulder_barrier` tile. However, one-way step-downs from `elevated_ground` to an adjacent `ground` tile are a valid mechanic, confirmed on Victory Road 1F.
+- **Elevation Change (CRITICAL & VERIFIED):** Movement between elevations generally requires a `steps` or `cleared_boulder_barrier` tile. However, one-way step-downs from `elevated_ground` to an adjacent `ground` tile are a valid mechanic, confirmed on Victory Road 1F.
 
 # II. Battle Intel
 
