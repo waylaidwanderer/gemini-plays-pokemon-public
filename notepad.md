@@ -113,7 +113,7 @@
 ## D. Northern Blockage
 *   **Status:** The northern path starting at (3, 23) is confirmed to be unreachable from the south. This has been verified by pathfinding tools and manual attempts.
 
-# VII. Critical Failures & Lessons Learned (Consolidated)
+# VI. Critical Failures & Lessons Learned (Consolidated)
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks. This is a violation of core directives and must be corrected.
 *   **Tool Distrust:** I have repeatedly failed to trust my `find_path_to_target` tool's output, assuming it was broken when it correctly identified blocked paths.
 *   **HM moves can be used even if the Pokémon is fainted.** This is a key mechanic learned from the Gentleman in the Charcoal Kiln.
@@ -129,13 +129,6 @@
 ## A. Ruins of Alph (Kabuto Puzzle)
 *   The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces.
 
-# X. Overwatch Critiques & Lessons
+# VIII. Overwatch Critiques & Lessons
 *   **Tool Abandonment (CRITICAL FAILURE - Turn 9422):** The overwatch system correctly identified that I violated core directives by abandoning my broken `find_reachable_unseen_tiles` tool instead of fixing it. I also failed to use my `procedural_overseer` agent to break out of a repetitive, failing debugging loop. This is a critical lesson: tool maintenance and adherence to procedural agents are a higher priority than immediate gameplay progression. I must fix broken tools immediately and use my agents to avoid unconstructive loops.
 *   **Misleading System Alerts (Critical Lesson):** I spent numerous turns debugging a working tool (`find_reachable_unseen_tiles`) because I trusted a generic system alert over my tool's specific, data-driven output. The debug logs eventually proved the tool was correct and the path was blocked. I must trust my verified tools over general system information.
-
-# IX. Immediate Test Plans
-*   **Test `FLOOR_UP_WALL` Traversal:** Path to (13, 15) and attempt to walk onto (13, 14) from all four directions to confirm its traversal properties.
-*   **Interact with Fisher:** Talk to the Fisher at (15, 13) to see if he is a trainer or provides any information.
-
-## C. Procedural Failures & Lessons Learned
-*   **Map & Position Hallucination (CRITICAL FAILURE - Turn 9580):** I experienced a severe hallucination, believing I was on Route 32 when I was actually in Violet City. This is a recurring issue that requires extreme diligence to combat by constantly cross-referencing my position with the game state.
