@@ -59,16 +59,10 @@
 # IV. Archives
 
 ## A. Completed Puzzles
-### Victory Road 1F Puzzle (Western Trap)
-- **Status:** Escaped. The western platform is a confirmed red herring/trap. The puzzle is to push the boulder at (6,16) south to access the southern exit warp at (9,18) to leave the map and reset the floor's state.
+- **Victory Road 2F Puzzle:** Complete. Boulder from (4, 16) to switch at (2, 17).
+- **Victory Road 3F Puzzle:** Complete. Secret ladder at (3, 1) was the true path.
 
-### Victory Road 2F Puzzle
-- **Status:** Complete. Boulder from (4, 16) to switch at (2, 17).
-
-### Victory Road 3F Puzzle
-- **Status:** Complete. Secret ladder at (3, 1) was the true path.
-
-# IV. Current Puzzle: Victory Road 1F
+# V. Current Puzzle: Victory Road 1F
 
 ## A. Overview
 The puzzle on this floor involves multiple boulders and switches. The main goal is to reach the ladder to 2F at (2, 2).
