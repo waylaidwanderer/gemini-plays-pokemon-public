@@ -115,3 +115,4 @@
 *   **Procedural Overseer Reminder:** I must make it a habit to use the `procedural_overseer` agent before committing to any long path to check for repetitive, failing loops (like being constantly interrupted by wild battles).
 5. State: (22, 31). Interact from South (22, 32) -> Moves to (15, 29).
 6. State: (15, 29). Interact from West (14, 29) -> Disappeared.
+7. State: (22, 31). Interact from North (22, 30) -> Moves to (28, 31).
