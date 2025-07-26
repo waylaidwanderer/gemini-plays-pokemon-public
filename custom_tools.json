@@ -370,7 +370,7 @@
         "switches"
       ]
     },
-    "python_script": "import json\n\n# This is a placeholder script. A real implementation would use a search algorithm\n# like A* or BFS to find a path for the player to push the boulder.\n# For now, it returns a hardcoded solution for the first Victory Road puzzle.\n\n# The hardcoded solution assumes:\n# Player is at (x, y)\n# Boulder is at (x, y+1)\n# Switch is at (x, y-1)\n\nplayer_start = [int(i) for i in input_data['player_start'].strip('[]').split(',')]\nboulders_start_str = input_data['boulders_start'].replace('[', '').replace(']', '').split(',')\nboulders_start = [[int(boulders_start_str[i]), int(boulders_start_str[i+1])] for i in range(0, len(boulders_start_str), 2)]\nswitches_str = input_data['switches'].replace('[', '').replace(']', '').split(',')\nswitches = [[int(switches_str[i]), int(switches_str[i+1])] for i in range(0, len(switches_str), 2)]\n\n# Simple hardcoded example\nif boulders_start == [[3, 11]] and switches == [[3, 10]]:\n    solution = {\n        \"message\": \"Hardcoded solution for Northern Puzzle\",\n        \"player_moves\": [\n            {\"action\": \"move_to\", \"coords\": [3, 12]}\n        ],\n        \"boulder_pushes\": [\n            {\"boulder_index\": 0, \"direction\": \"Up\"}\n        ]\n    }\n    print(json.dumps(solution))\nelse:\n    print(json.dumps({\"error\": \"No hardcoded solution found for this configuration.\"}))\n",
+    "python_script": "# This tool is a placeholder for a future, more robust boulder puzzle solver.\n# The current implementation is hardcoded for the first Victory Road puzzle.\n# TODO: Implement a generalized A* or similar search algorithm.\nplayer_pos = tuple(input_data['player_start'])\nboulder_pos = tuple(input_data['boulders_start'][0])\nswitch_pos = tuple(input_data['switches'][0])\n\nif boulder_pos == (17, 13) and switch_pos == (18, 14):\n    # This is a known, simple puzzle.\n    solution = {\n        \"player_moves\": [\n            [17, 14],\n        ],\n        \"boulder_pushes\": [\n            {\"from\": [17, 14], \"to\": [18, 14], \"direction\": \"Right\"}\n        ]\n    }\n    print(json.dumps(solution))\nelse:\n    print(json.dumps({\"error\": \"This puzzle is not yet supported by the solver.\"}))\n",
     "history": [
       {
         "commit_message": "feat: Create boulder_puzzle_solver tool. This tool replaces the functionality of the deleted `boulder_puzzle_solver_agent`, adhering to the core principle that computational tasks should be tools, not agents. This initial version contains a hardcoded solution for the first Victory Road puzzle to provide immediate utility while a more generalized, algorithm-based solution is developed.",
@@ -401,6 +401,11 @@
         "commit_message": "feat: Create placeholder for boulder_puzzle_solver. This tool will eventually automate the solving of boulder puzzles, which is a repetitive and computational task. This initial version is a placeholder to establish the tool's interface while the core logic is developed. This adheres to the principle of offloading complex, repeatable tasks to tools.",
         "timestamp": "2025-07-26T06:55:30.119Z",
         "action_counter": 101573
+      },
+      {
+        "commit_message": "feat: Create placeholder for boulder_puzzle_solver. This tool will eventually automate the solving of boulder puzzles, which is a repetitive and computational task. This initial version is a placeholder to establish the tool's interface while the core logic is developed. This adheres to the principle of offloading complex, repeatable tasks to tools.",
+        "timestamp": "2025-07-26T07:16:20.209Z",
+        "action_counter": 101614
       }
     ]
   },
