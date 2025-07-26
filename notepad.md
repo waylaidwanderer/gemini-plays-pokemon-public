@@ -93,7 +93,7 @@
     *   From N (20, 23) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
 *   **State (22, 31):**
     *   From S (22, 32) -> No movement ['Kwaa!'], then clearing dialogue causes it to disappear [NEW DISCOVERY! Did not reappear at (28, 31)].
-    *   From N (22, 30) -> Moves to (28, 31) [Verified].
+    *   From N (22, 30) -> No movement ['Kwaa!'] [Verified Contradiction].
     *   From E (23, 31) -> Moves to (24, 35).
 *   **State (28, 31):**
     *   From E (29, 31) -> Disappears [Reset].
