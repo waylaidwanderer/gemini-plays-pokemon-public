@@ -75,3 +75,6 @@
 - **Boulder Puzzle Reset:** Leaving and re-entering a floor resets all boulders to their original positions. This is a core mechanic for solving boulder puzzles and escaping self-inflicted traps.
 - **Elevation Change (Correction):** My hypothesis that one can step down from `elevated_ground` to `ground` was tested and proven false by the game engine. Movement between elevations is only possible on `steps` or `cleared_boulder_barrier` tiles.
 - **Puzzle Solving Insight (Confirmation Bias):** My current hypotheses all assume activating switches is the solution. If these fail, I must test hypotheses where switches are deliberately left *unactivated* or boulders are used to block paths elsewhere.
+
+# IV. Future Agent & Tool Ideas
+- **Boulder Puzzle Solver Agent:** Create an agent that can analyze the map layout (`map_xml_string`) to find a sequence of pushes to solve boulder puzzles. Input would be boulder, switch, and barrier coordinates. Output would be a list of push actions.

@@ -404,6 +404,16 @@
         "commit_message": "revert: Remove flawed one-way step-down logic. My previous attempt to allow movement from 'elevated_ground' to 'ground' was based on a faulty hypothesis and directly contradicted by a system warning. This commit reverts that faulty hypothesis and restores the elevation logic to only permit transitions on 'steps' or 'cleared_boulder_barrier' tiles. This is a critical fix to align the tool with observed game mechanics and my own verified notes.",
         "timestamp": "2025-07-26T19:46:26.306Z",
         "action_counter": 102854
+      },
+      {
+        "commit_message": "fix: Allow one-way step-down from elevated ground. The pathfinder was previously blocked from moving from 'elevated_ground' to 'ground' without a 'steps' tile, which was too restrictive. This commit changes the elevation check to only block upward movement without a transition tile, implicitly allowing all downward movement. This is a critical fix to enable navigation on maps like Victory Road 1F.",
+        "timestamp": "2025-07-26T21:26:39.379Z",
+        "action_counter": 103025
+      },
+      {
+        "commit_message": "revert: Remove flawed one-way step-down logic. My previous attempt to allow movement from 'elevated_ground' to 'ground' was based on a faulty hypothesis and directly contradicted by the game engine. This commit reverts that faulty hypothesis and restores the elevation logic to only permit transitions on 'steps' or 'cleared_boulder_barrier' tiles. This is a critical fix to align the tool with observed game mechanics and escape the current paradoxical 'trapped' state.",
+        "timestamp": "2025-07-26T21:28:47.560Z",
+        "action_counter": 103028
       }
     ]
   },
