@@ -74,7 +74,6 @@
 
 # V. Untested Assumptions & Hypotheses
 *   The 'strange tree' on Route 36 can be removed with a specific key item or HM.
-*   The unmarked warp at (3, 43) in Ilex Forest is a shortcut or leads to a hidden area.
 
 # VI. Critical Failures & Lessons Learned
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like marking warps or updating my notepad) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
