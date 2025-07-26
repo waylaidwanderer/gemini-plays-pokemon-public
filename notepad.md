@@ -121,3 +121,4 @@
 5. State: (22, 31). Interact from South (22, 32) -> Moves to (15, 29).
 6. State: (15, 29). Interact from West (14, 29) -> Disappeared.
 7. State: (22, 31). Interact from North (22, 30) -> Moves to (28, 31).
+*   **Repetitive Tool Failures:** I repeatedly failed to update a tool (turns 8437-8441) because I was submitting an identical script. This is a critical failure loop that could have been prevented by using my `procedural_overseer` agent. I must use this agent to check for repetitive, failing actions in the future.
