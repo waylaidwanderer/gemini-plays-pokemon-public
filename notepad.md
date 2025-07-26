@@ -24,7 +24,7 @@
 - **`hole`**: Drops to a lower floor.
 - **`spinner`**: Forces movement.
 - **`ladder_up`**: Warp tile that leads to a higher floor.
-- **Elevation Change (CRITICAL & VERIFIED):** Movement between elevations is ONLY possible if one of the tiles is a `steps` or `cleared_boulder_barrier` tile. One-way step-downs from `elevated_ground` are NOT a valid mechanic.
+- **Elevation Change (CRITICAL & VERIFIED):** Movement between elevations generally requires a `steps` or `cleared_boulder_barrier` tile. However, one-way step-downs from `elevated_ground` to an adjacent `ground` tile are a valid mechanic, confirmed on Victory Road 1F.
 
 # II. Battle Intel
 
@@ -66,7 +66,7 @@
   - **H3 (Western Switch Only):** Pushed ONLY the western boulder (from 3,11 to 3,10) onto its switch. RESULT: The barrier at (10,13) remained closed. **CONCLUSION: FAILED.**
   - **H4 (Talk to defeated Youngster):** After getting trapped by pushing the boulder to (6, 17), talked to the defeated Youngster at (7, 11) again. RESULT: He repeated his post-battle dialogue. No event was triggered. **CONCLUSION: FAILED.**
   - **H5 (Hidden Switch/Passage):** Searched for a hidden pressure plate or secret passage on the western platform. **CONCLUSION: FAILED.** The Overwatch system confirmed this was a hallucination, as no such objects exist in the game state.
-- **Key Finding (Defeated Trainers Traversable):** The defeated Cool Trainer M at (4,3) and the Youngster at (7,11) are traversable objects. Ignoring these trainers when pathfinding is necessary to find the correct path to the ladder at (2,2).
+  - **H6 (Defeated Trainers Traversable):** The defeated Cool Trainer M at (4,3) and the Youngster at (7,11) are traversable objects. My initial test of this hypothesis failed due to a separate, critical bug in my pathfinder's elevation logic. **CONCLUSION: CORRECT.** Ignoring these trainers is necessary to find the path to the ladder at (2,2).
 - **Boulder Puzzle Reset:** Leaving and re-entering a floor resets all boulders to their original positions. This is a core mechanic for solving boulder puzzles and escaping self-inflicted traps.
 - **Puzzle Solving Insight (Confirmation Bias):** My current hypotheses all assume activating switches is the solution. If these fail, I must test hypotheses where switches are deliberately left *unactivated* or boulders are used to block paths elsewhere.
 
