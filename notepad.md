@@ -56,5 +56,4 @@
 - **Core Principle: Agent vs. Tool.** Agents are for reasoning and planning. Tools are for computation and data processing. A task that can be solved with code (like simulating a puzzle) MUST be a tool, not an agent.
 - **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points (like ladders, stairs, or puzzle elements) are actually reachable from the current position to avoid building strategies on flawed assumptions.
 
-- **Victory Road 1F Puzzle (Western Section):** Multiple hypotheses tested and failed.
-  - **Summary of Failures:** Activating single switches, using warp tiles with boulders, 'solving and un-solving' the puzzle, and re-interacting with NPCs have all failed to open the barrier at (10, 13) or reveal a path forward. The western upper platform is a confirmed dead end. The area is a soft-lock unless a hidden mechanic is discovered.
+- **Victory Road 1F Puzzle (Western Section):** This area is a soft-lock if boulders are pushed incorrectly. I confirmed through extensive testing (including pathfinder debugging) that the upper western platform is a dead end and does not provide access to the 2F ladder. The solution likely involves a multi-step process or an interaction on another floor, requiring a full reset of the puzzle by leaving and re-entering the map.
