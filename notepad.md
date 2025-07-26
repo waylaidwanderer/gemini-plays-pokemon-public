@@ -99,7 +99,7 @@
     *   From E (29, 31) -> Disappears [Reset].
     *   From W (27, 31) -> Disappears [Reset].
     *   From S (28, 32) -> No movement ['Kwaa!'] [Verified].
-    *   From N (28, 30) -> Moves to (24, 35) [Verified].
+    *   From N (28, 30) -> No movement ['Kwaa!'] [NEW DISCOVERY - Contradicts previous log].
 *   **State (24, 35):**
     *   From W (23, 35) -> Moves to (28, 31).
     *   From E (25, 35) -> No movement ['Kwaa!'] [Verified].
