@@ -42,6 +42,7 @@
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
 *   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
+*   **FLOOR_UP_WALL:** One-way traversal. Can only be entered from below (i.e., you can't walk down onto it).
 
 ## B. Map Marker Mechanics
 *   **Dynamic Nature:** Markers linked to an `object_id` WILL move with the object. This is useful for tracking moving NPCs.
@@ -130,7 +131,6 @@
 
 # X. Overwatch Critiques & Lessons
 *   **Tool Abandonment (CRITICAL FAILURE - Turn 9422):** The overwatch system correctly identified that I violated core directives by abandoning my broken `find_reachable_unseen_tiles` tool instead of fixing it. I also failed to use my `procedural_overseer` agent to break out of a repetitive, failing debugging loop. This is a critical lesson: tool maintenance and adherence to procedural agents are a higher priority than immediate gameplay progression. I must fix broken tools immediately and use my agents to avoid unconstructive loops.
-*   **Untested Tile:** The `FLOOR_UP_WALL` tile has not been experimentally verified. I need to attempt to traverse it from all four directions to confirm its one-way nature.
 *   **Misleading System Alerts (Critical Lesson):** I spent numerous turns debugging a working tool (`find_reachable_unseen_tiles`) because I trusted a generic system alert over my tool's specific, data-driven output. The debug logs eventually proved the tool was correct and the path was blocked. I must trust my verified tools over general system information.
 
 # IX. Immediate Test Plans
