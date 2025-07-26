@@ -75,26 +75,22 @@
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward to Goldenrod City.
 
 # V. Ilex Forest Puzzle: Farfetch'd Herding
-## A. Observations
+## A. Confirmed Mechanics
 *   **Goal:** Herd Farfetch'd to the apprentice at (7, 28).
-*   **Mechanic:** Interacting with Farfetch'd from an adjacent tile causes it to move. The direction is complex and not a simple flee.
-## B. Attempt Log
-*   **Attempt 1 (Turn 8196):**
-    *   **State:** Farfetch'd at (15, 25). Player at (15, 24).
-    *   **Result:** Farfetch'd moved South to (15, 29).
-*   **Attempt 2 (Turn 8203):**
-    *   **State:** Farfetch'd at (15, 29). Player at (16, 29).
-    *   **Result:** Farfetch'd moved North to (15, 25).
-*   **Attempt 3 (Turn 8209):**
-    *   **State:** Farfetch'd at (15, 25). Player at (15, 26).
-    *   **Result:** Farfetch'd moved Northeast to (20, 24).
-*   **Attempt 4 (Turn 8222):**
-    *   **State:** Farfetch'd at (20, 24). Player at (21, 24).
-    *   **Result:** Farfetch'd moved to an unknown location (disappeared from screen).
-## C. Current Hypothesis & Plan
-*   **Hypothesis:** The Farfetch'd follows a set sequence of locations. My interactions are just triggers to make it move to the next spot in the sequence. It might have reset or moved to a completely new area.
-*   **Current State:** Farfetch'd location is unknown.
-*   **Next Test:** I need to find the Farfetch'd. I will start by returning to its original starting position at (15, 25) to see if it has reset. If not there, I will systematically explore the puzzle area.
+*   **Movement:** The Farfetch'd follows a fixed, four-step sequential path when interacted with. After the fourth interaction, it resets to its starting position.
+## B. Confirmed Sequence Log
+1.  **Start:** (15, 25). Interact from North (15, 24) -> Moves to (15, 29).
+2.  **State:** (15, 29). Interact from East (16, 29) -> Moves to (15, 25).
+3.  **State:** (15, 25). Interact from South (15, 26) -> Moves to (20, 24).
+4.  **State:** (20, 24). Interact from East (21, 24) -> Resets to (15, 25).
+## C. New Hypothesis & Plan
+*   **Hypothesis:** If I physically block the tile the Farfetch'd intends to move to, it will be forced to choose an alternate path, hopefully one that leads west toward the apprentice.
+*   **Current State:** Farfetch'd has reset to (15, 25). I am at (15, 24).
+*   **Next Test Plan:**
+    1.  Interact from my current position (15, 24) to push the Farfetch'd to (15, 29).
+    2.  Move my character to stand on tile (15, 25), blocking its path back north.
+    3.  Move to (16, 29) and interact from the east. 
+    4.  **Expected Result:** With its northward path blocked, the Farfetch'd will move west.
 
 # VI. Critical Failures & Lessons Learned
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like updating my notepad or linking map markers) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
