@@ -858,44 +858,33 @@
     ]
   },
   "farfetchd_puzzle_solver": {
-    "description": "Solves the Farfetch'd herding puzzle by determining the next interaction point. It takes the current locations of the player, Farfetch'd, and the apprentice, and returns the coordinate the player should move to for the next interaction.",
+    "description": "Analyzes the tiles adjacent to the Farfetch'd and returns a list of valid, traversable coordinates from which to interact with it.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "player_x": {
-          "type": "string"
-        },
-        "player_y": {
-          "type": "string"
-        },
         "farfetchd_x": {
           "type": "string"
         },
         "farfetchd_y": {
           "type": "string"
-        },
-        "apprentice_x": {
-          "type": "string"
-        },
-        "apprentice_y": {
-          "type": "string"
         }
       },
       "required": [
-        "player_x",
-        "player_y",
         "farfetchd_x",
-        "farfetchd_y",
-        "apprentice_x",
-        "apprentice_y"
+        "farfetchd_y"
       ]
     },
-    "python_script": "import json\n\ndef solve_puzzle():\n    player_x = int(input_data['player_x'])\n    player_y = int(input_data['player_y'])\n    farfetchd_x = int(input_data['farfetchd_x'])\n    farfetchd_y = int(input_data['farfetchd_y'])\n    apprentice_x = int(input_data['apprentice_x'])\n    apprentice_y = int(input_data['apprentice_y'])\n\n    # Determine the direction to herd the Farfetch'd\n    delta_x = farfetchd_x - apprentice_x\n    delta_y = farfetchd_y - apprentice_y\n\n    # Prioritize moving it along the axis it's furthest from the target on\n    if abs(delta_x) > abs(delta_y):\n        if delta_x > 0: # Farfetch'd is to the east of apprentice, needs to go west\n            next_move_x = farfetchd_x + 1\n            next_move_y = farfetchd_y\n        else: # Farfetch'd is to the west of apprentice, needs to go east\n            next_move_x = farfetchd_x - 1\n            next_move_y = farfetchd_y\n    else:\n        if delta_y > 0: # Farfetch'd is to the south of apprentice, needs to go north\n            next_move_x = farfetchd_x\n            next_move_y = farfetchd_y + 1\n        else: # Farfetch'd is to the north of apprentice, needs to go south\n            next_move_x = farfetchd_x\n            next_move_y = farfetchd_y - 1\n\n    print(json.dumps({'x': next_move_x, 'y': next_move_y}))\n\nsolve_puzzle()",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef solve_puzzle():\n    farfetchd_x = int(input_data['farfetchd_x'])\n    farfetchd_y = int(input_data['farfetchd_y'])\n\n    root = ET.fromstring(map_xml_string)\n    \n    IMPASSABLE_TILE_TYPES = ['WALL', 'WATER', 'COUNTER', 'HEADBUTT_TREE', 'CUT_TREE', 'PC', 'MART_SHELF', 'VOID', 'BUOY', 'CAVE']\n\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            grid[(x, y)] = {'type': tile.get('type'), 'has_object': tile.get('has-object') == 'true'}\n\n    valid_interaction_points = []\n    for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]: # Up, Down, Left, Right\n        check_x, check_y = farfetchd_x + dx, farfetchd_y + dy\n        tile_info = grid.get((check_x, check_y))\n        if tile_info and tile_info['type'] not in IMPASSABLE_TILE_TYPES and not tile_info['has_object']:\n            valid_interaction_points.append({'x': check_x, 'y': check_y})\n\n    print(json.dumps({'valid_points': valid_interaction_points}))\n\nsolve_puzzle()\n",
     "history": [
       {
         "commit_message": "feat: Create Farfetch'd puzzle solver tool. This tool replaces the functionality of the deleted `puzzle_solver` agent. It takes the coordinates of the player, Farfetch'd, and apprentice, and calculates the next optimal position for the player to interact with the Farfetch'd to herd it towards the apprentice. This addresses the critique about using agents for computational tasks.",
         "timestamp": "2025-07-26T01:42:04.837Z",
         "action_counter": 8073
+      },
+      {
+        "commit_message": "refactor: Rewrite tool logic to find valid interaction points. The previous version was based on an incorrect herding assumption and did not check for traversable tiles, causing it to suggest invalid moves. This new version reads the map_xml_string to identify adjacent, passable, and unoccupied tiles around the Farfetch'd, returning a list of valid coordinates to interact from. This addresses the critical failure identified by the overwatch system and provides a robust tool for systematically testing puzzle hypotheses.",
+        "timestamp": "2025-07-26T01:59:58.757Z",
+        "action_counter": 8102
       }
     ]
   }
