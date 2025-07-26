@@ -82,7 +82,7 @@
 *   **HM moves can be used even if the Pokémon is fainted.** This is a key mechanic learned from the Gentleman in the Charcoal Kiln.
 *   **stun_npc Tool Correction:** I previously believed `stun_npc` was a hallucination. This was a critical failure to consult my available tools list. `stun_npc` is a real tool and can be used to freeze NPCs.
 *   **select_battle_option Tool Correction:** I previously believed `select_battle_option` was a hallucination. This was a critical failure to consult my available tools list. `select_battle_option` is a real tool and must be used for battle menu selections.
-*   **Agent Underutilization:** I am not consistently using my `team_composition_advisor` and `procedural_overseer` agents. I need to integrate them into my regular workflow to improve strategic planning and avoid repetitive mistakes.
+*   **Agent Underutilization:** I am not consistently using my `procedural_overseer` agent. I need to integrate it into my regular workflow to improve strategic planning and avoid repetitive mistakes.
 
 # VII. Puzzle Solutions
 
