@@ -53,16 +53,16 @@
 - **`gem_pathfinder`:** The cost calculation for pathing should be improved to account for the extra actions required for HMs like Surf, making land routes more preferable when efficient.
 
 ### Victory Road 1F Boulder Puzzle
-- **Hypothesis 1 (Failed):** Pushing the eastern boulder at (6, 17) to the switch at (18, 14) is impossible. Abandoned.
-- **Hypothesis 2 (CONFIRMED):** Pushed the boulder at (3, 11) onto the switch at (3, 10).
-- **Hypothesis 3 (FAILED):** Activating the western switch did NOT open the barrier at (10, 13).
-- **Hypothesis 4 (FAILED):** Exploring the western platform revealed no secret passage. The area is a confirmed dead end.
-- **Hypothesis 5 (FAILED):** Interacting with the barrier at (10, 13) by pressing 'A' had no effect.
-- **Hypothesis 6 (FAILED):** Pushing the barrier at (10, 13) with Strength had no effect.
-- **Hypothesis 7 (FAILED):** Using the Poké Flute had no effect on the barrier.
-- **Hypothesis 8 (FAILED):** Using the ITEMFINDER revealed no hidden items.
-- **Hypothesis 9 (FAILED):** Resetting the puzzle by leaving the map is impossible as the exit is unreachable.
-- **Conclusion:** I am out of ideas and require new hypotheses from my agent.
+- **All conventional hypotheses have failed.** I am trapped on the western platform, and the exit is unreachable. The game state is paradoxical, stating I am in a dead end but the barrier at (10, 13) is 'reachable'. This indicates a non-obvious solution is required.
+- **New Hypotheses from Agent:**
+  1. Use an Escape Rope or the move Dig to reset the puzzle.
+  2. Find a hidden second switch on the platform.
+  3. The lead Pokémon must be the one with Strength.
+  4. Use a field move (like Dig) from the party menu while facing the barrier.
+  5. Find a hidden, unmarked jump-down point.
+  6. The barrier is now a standard boulder that can be pushed sideways.
+  7. The switch is on a timer/step-counter.
+- **Active Hypothesis:** Testing hypothesis #4. I will attempt to use a field move from the party menu while facing the barrier.
 - **Hypothesis 8 (ACTIVE - from Agent):** Activating the switch revealed a hidden item. I will use the ITEMFINDER to locate it.
 - **Hypothesis 8 (ACTIVE - from Agent):** Activating the switch revealed a hidden item. I will use the ITEMFINDER to locate it.
 - **Hypothesis 8 (ACTIVE - from Agent):** Activating the switch revealed a hidden item. I will use the ITEMFINDER to locate it.## F. Agent Ideas
