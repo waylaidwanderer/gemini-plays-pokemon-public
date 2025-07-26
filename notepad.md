@@ -43,7 +43,7 @@
 *   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
 
 ### Untested Tile Assumptions:
-*   **HEADBUTT_TREE:** Assumed impassable, but requires explicit verification by attempting to walk into it.
+*   **HEADBUTT_TREE:** Confirmed impassable by attempting to walk into it.
 
 ## B. Map Marker Mechanics
 *   **Dynamic Nature:** Markers linked to an `object_id` WILL move with the object. This is useful for tracking moving NPCs.
