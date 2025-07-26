@@ -137,3 +137,5 @@
 *   The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces.
 *   **State (Unknown):** After disappearing from (22, 31), checked (28, 31) and (24, 35). Farfetch'd not found at either location. [Failed Search]
 *   **Misleading System Alerts (Critical Lesson):** I spent numerous turns debugging a working tool (`verify_reachability_of_tiles`) because I trusted a generic system alert over my tool's specific, data-driven output. The debug logs eventually proved the tool was correct and the path was blocked by one-way ledges. I must trust my verified tools over general system information.
+*   **State (15, 29):**
+    *   After 'Kwaa!' from W (14, 29), clearing dialogue -> Disappears [NEW DISCOVERY! Location unknown].
