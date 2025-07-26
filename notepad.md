@@ -50,17 +50,5 @@
 - **Core Principle: Agent vs. Tool.** Agents are for reasoning and planning. Tools are for computation and data processing. A task that can be solved with code MUST be a tool, not an agent.
 - **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points are actually reachable to avoid building strategies on flawed assumptions.
 
-# IV. Current Plans & Hypotheses
-
-## Victory Road 1F Puzzle Strategy
-**Current State:** Stuck. All direct attempts to solve the puzzle have failed. My custom solver tool was flawed.
-**New Plan:**
-1.  **Strategic Reset:** Exit Victory Road 1F to Route 23 and re-enter. This will reset all boulders to their starting positions.
-2.  **Re-evaluate with New Hypotheses:** Approach the reset puzzle with the following fresh hypotheses, to be tested one by one:
-    *   **Hypothesis A (Deactivation):** The boulder on the switch at (3, 10) must be *removed* first. This might reconfigure the puzzle, possibly opening a new path for another boulder.
-    *   **Hypothesis B (Verticality):** The boulder at (15, 3) on the elevated platform needs to be pushed off a ledge or through a hidden hole to the ground floor.
-    *   **Hypothesis C (Red Herring):** The boulder barrier at (10, 13) is a distraction. The real solution involves activating the switch at (18, 14) to open a different, hidden path.
-
-# V. Tool Development Backlog
-
-- **`boulder_puzzle_solver` (CRITICAL PRIORITY):** Current implementation is a non-functional placeholder that has been reverted multiple times. Manual solving is a temporary workaround. A robust, generalized, algorithm-based solver that can parse map data is required to prevent future roadblocks. This is the #1 development priority after clearing the current Victory Road 1F puzzle.
+# IV. Current Objective: Tool Development
+**Priority:** Develop a functional `boulder_puzzle_solver` tool immediately. Manual solving is inefficient and has led to repeated failures. A robust, generalized, algorithm-based solver that can parse map data is required to prevent future roadblocks. This is the #1 development priority.
