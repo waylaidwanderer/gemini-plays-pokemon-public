@@ -77,24 +77,21 @@
 # V. Ilex Forest Puzzle: Farfetch'd Herding
 ## A. Observations
 *   **Goal:** Herd Farfetch'd to the apprentice at (7, 28).
-*   **Mechanic:** Interacting with Farfetch'd from an adjacent tile causes it to move. The direction seems complex.
+*   **Mechanic:** Interacting with Farfetch'd from an adjacent tile causes it to move. The direction is complex and not a simple flee.
 ## B. Attempt Log
 *   **Attempt 1 (Turn 8196):**
-    *   **State:** Farfetch'd at (15, 25) facing South. Player at (15, 24).
-    *   **Action:** Interact.
+    *   **State:** Farfetch'd at (15, 25). Player at (15, 24).
     *   **Result:** Farfetch'd moved South to (15, 29).
-    *   **Conclusion:** Appeared to be a simple "flee" mechanic.
 *   **Attempt 2 (Turn 8203):**
-    *   **State:** Farfetch'd at (15, 29) facing Left. Player at (16, 29).
-    *   **Action:** Interact.
+    *   **State:** Farfetch'd at (15, 29). Player at (16, 29).
     *   **Result:** Farfetch'd moved North to (15, 25).
-    *   **Conclusion:** "Flee" hypothesis disproven. It did not move West.
-*   **Current State (Turn 8205):** Farfetch'd is at (15, 25) facing Up.
+*   **Attempt 3 (Turn 8209):**
+    *   **State:** Farfetch'd at (15, 25). Player at (15, 26).
+    *   **Result:** Farfetch'd moved Northeast to (20, 24).
 ## C. Current Hypothesis & Plan
-*   **Hypothesis:** The puzzle is not a simple flee mechanic. The direction of movement is complex, likely based on how it turns to face the player.
-*   **Next Test:** Interact from the South at (15, 26).
-    *   **Reasoning:** This is the other valid interaction point. I need to test all possibilities to understand the pattern.
-    *   **Goal:** Observe the resulting movement to refine the hypothesis.
+*   **Hypothesis:** The direction the Farfetch'd moves is determined by the direction it turns to face the player *before* it moves. Each interaction spot might trigger a specific, pre-determined move.
+*   **Current State:** Farfetch'd is at (20, 24) facing Right.
+*   **Next Test:** Systematically test all interaction points around the new position to map out its behavior. I will start by using `farfetchd_puzzle_solver` to find the valid spots.
 
 # VI. Critical Failures & Lessons Learned
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like updating my notepad or linking map markers) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
