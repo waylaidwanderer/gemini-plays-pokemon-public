@@ -44,12 +44,6 @@
 
 - **Core Principle: Fix, Don't Defer.** Critical tools with known bugs MUST be fixed immediately. Deferring fixes is a strategic failure.
 - **Core Principle: Address critiques immediately.** When a tool is identified as faulty by an external check (like the overwatch system), fixing it becomes the absolute highest priority.
-- **Core Principle: Verify, Then Trust.** Tool outputs and personal assumptions are hypotheses, not facts. They must be verified against the game state before being trusted.
-- **Core principle: Agent vs. Tool.** Agents are for reasoning and planning. Tools are for computation and data processing. A task that can be solved with code MUST be a tool, not an agent.
-- **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points are actually reachable to avoid building strategies on flawed assumptions.
-
-## F. Agent Ideas
-- **Puzzle Hypothesis Tester:** An agent that takes hypotheses from the generator and uses tools to programmatically test them.
 
 # VI. Puzzle Learnings
 - **Victory Road 1F Puzzle Solution:** The barrier at (10, 13) is opened by activating two switches simultaneously. The key is to solve both the eastern boulder puzzle (pushing the boulder at (17,13) to the switch at (18,14)) and the western boulder puzzle (pushing the boulder at (3,11) to the switch at (3,10)) *without leaving the map*. Leaving the map resets the puzzle state, causing one of the switches to deactivate and closing the barrier, which can lead to getting trapped on the western platform if the puzzles are solved in the wrong order. Fainting or using escape items is not the intended solution.
