@@ -370,7 +370,7 @@
         "switches"
       ]
     },
-    "python_script": "import json\n\n# This is a hardcoded solution for the western boulder puzzle on Victory Road 1F.\n# It assumes the player wants to move the boulder at (3, 11) to the switch at (3, 10).\n# It will need to be replaced with a generalized A* or similar algorithm later.\n\npath_to_boulder = [\n    {\"x\": 9, \"y\": 17},\n    {\"x\": 8, \"y\": 17},\n    {\"x\": 7, \"y\": 17},\n    {\"x\": 6, \"y\": 17},\n    {\"x\": 5, \"y\": 17},\n    {\"x\": 4, \"y\": 17},\n    {\"x\": 3, \"y\": 17},\n    {\"x\": 2, \"y\": 17},\n    {\"x\": 2, \"y\": 16},\n    {\"x\": 2, \"y\": 15},\n    {\"x\": 1, \"y\": 15},\n    {\"x\": 1, \"y\": 14},\n    {\"x\": 2, \"y\": 14},\n    {\"x\": 2, \"y\": 13},\n    {\"x\": 3, \"y\": 13},\n    {\"x\": 4, \"y\": 13},\n    {\"x\": 4, \"y\": 12},\n    {\"x\": 3, \"y\": 12} # Arrive south of the boulder\n]\n\npush_sequence = [\n    {\"action\": \"activate_strength\"},\n    {\"action\": \"move\", \"direction\": \"Up\"} # Push boulder from (3,11) to (3,10)\n]\n\nfull_solution = {\n    \"path_to_boulder\": path_to_boulder,\n    \"push_sequence\": push_sequence\n}\n\nprint(json.dumps(full_solution))",
+    "python_script": "import json\n# This is a placeholder script.\n# The previous hardcoded path implementation was flawed.\n# Future development will focus on a generalized solver that parses map_xml_string.\nprint(json.dumps({'error': 'This tool is currently a placeholder and cannot solve the puzzle. Please solve manually.'}))",
     "history": [
       {
         "commit_message": "feat: Create boulder_puzzle_solver tool. This tool replaces the functionality of the deleted `boulder_puzzle_solver_agent`, adhering to the core principle that computational tasks should be tools, not agents. This initial version contains a hardcoded solution for the first Victory Road puzzle to provide immediate utility while a more generalized, algorithm-based solution is developed.",
@@ -441,6 +441,11 @@
         "commit_message": "feat: Implement hardcoded solution for VR1F Western Puzzle. In direct response to overwatch feedback demanding functional tool development, this commit replaces the placeholder script with a hardcoded solution for the specific boulder puzzle on Victory Road 1F. This is a first step towards creating a generalized, algorithm-based solver and demonstrates a commitment to prioritizing automation over manual, repetitive tasks.",
         "timestamp": "2025-07-26T07:56:52.376Z",
         "action_counter": 101678
+      },
+      {
+        "commit_message": "refactor: Revert boulder_puzzle_solver to a safe placeholder. The previous hardcoded path implementation was flawed and caused navigation errors. Acknowledging the overwatch critique, this commit reverts the tool to a non-functional state to prevent further issues. Future development will focus on creating a robust, generalized solver that parses the map_xml_string to generate valid paths, rather than relying on brittle hardcoded solutions.",
+        "timestamp": "2025-07-26T08:07:21.218Z",
+        "action_counter": 101701
       }
     ]
   },
