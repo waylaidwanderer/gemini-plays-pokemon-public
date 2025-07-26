@@ -74,10 +74,27 @@
 ## B. Past Clues & Hints
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward to Goldenrod City.
 
-# V. Untested Assumptions & Hypotheses
-*   **Primary Hypothesis for HM01:** The Farfetch'd puzzle is a sequential teleportation puzzle that, when solved, will yield HM01 (Cut).
-*   **Alternative Hypothesis for HM01:** The Farfetch'd puzzle is a red herring or optional. An alternative path to Goldenrod City or another method of obtaining HM01 exists. 
-    *   **Test:** If the puzzle becomes impossible or I get stuck in a loop, I must explore all other paths to their absolute ends. This includes the Unexplored Warp at (3, 43) and the unseen tiles at the south of the forest (20, 36) through (28, 36).
+# V. Ilex Forest Puzzle: Farfetch'd Herding
+## A. Observations
+*   **Goal:** Herd Farfetch'd to the apprentice at (7, 28).
+*   **Mechanic:** Interacting with Farfetch'd from an adjacent tile causes it to move. The direction seems complex.
+## B. Attempt Log
+*   **Attempt 1 (Turn 8196):**
+    *   **State:** Farfetch'd at (15, 25) facing South. Player at (15, 24).
+    *   **Action:** Interact.
+    *   **Result:** Farfetch'd moved South to (15, 29).
+    *   **Conclusion:** Appeared to be a simple "flee" mechanic.
+*   **Attempt 2 (Turn 8203):**
+    *   **State:** Farfetch'd at (15, 29) facing Left. Player at (16, 29).
+    *   **Action:** Interact.
+    *   **Result:** Farfetch'd moved North to (15, 25).
+    *   **Conclusion:** "Flee" hypothesis disproven. It did not move West.
+*   **Current State (Turn 8205):** Farfetch'd is at (15, 25) facing Up.
+## C. Current Hypothesis & Plan
+*   **Hypothesis:** The puzzle is not a simple flee mechanic. The direction of movement is complex, likely based on how it turns to face the player.
+*   **Next Test:** Interact from the South at (15, 26).
+    *   **Reasoning:** This is the other valid interaction point. I need to test all possibilities to understand the pattern.
+    *   **Goal:** Observe the resulting movement to refine the hypothesis.
 
 # VI. Critical Failures & Lessons Learned
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like updating my notepad or linking map markers) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
