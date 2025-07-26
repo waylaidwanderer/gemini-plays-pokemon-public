@@ -98,3 +98,7 @@
 *   Verify if the Team Rocket markers in Azalea Town are still relevant or if the NPCs have disappeared.
 *   Test seemingly impassable objects like bookshelves and radios to confirm they are not interactable in a meaningful way.
 *   **Ilex Forest:** There's an unmarked warp at (3, 43) that needs investigation.
+
+# X. High-Priority Tasks (Immediate)
+*   Investigate the unmarked warp at (3, 43) in Ilex Forest as soon as the Farfetch'd puzzle is solved.
+*   Investigate the potentially reachable unseen tiles around (27, 22) and (22, 29) in Ilex Forest.
