@@ -61,8 +61,8 @@
 # IV. Current Objective: Solve Victory Road 1F Puzzle (Attempt #4 - New Approach)
 
 - **The Goal:** Reach the ladder at (2, 2).
-- **Hypothesis #1 (FAILED):** Solving the northern puzzle at (3, 10) opens the eastern path.
-  - **Conclusion:** The barrier at (10, 13) remains. The northern puzzle does not open the main path forward.
+- **Hypothesis #1 (FAILED - Re-tested):** Solving the northern puzzle at (3, 10) opens the eastern path.
+  - **Conclusion:** The barrier at (10, 13) remains even after a full map reset and re-solving the puzzle. This hypothesis is definitively incorrect.
 - **Hypothesis #4 (Agent-generated):** A trigger is based on the player's position. After solving the other puzzles, the player must step on the now-empty northern switch at (3, 10) to open the barrier.
   - **Plan:** Navigate to (3, 10) and step on the switch, then return to (9, 13) to observe the barrier.
 
