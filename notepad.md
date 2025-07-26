@@ -62,10 +62,7 @@
   5. Find a hidden, unmarked jump-down point.
   6. The barrier is now a standard boulder that can be pushed sideways.
   7. The switch is on a timer/step-counter.
-- **Active Hypothesis:** I will test hypothesis #3 from the new list: put the Pokémon with Strength in the lead of the party and try pushing the barrier again.
-- **Hypothesis 8 (ACTIVE - from Agent):** Activating the switch revealed a hidden item. I will use the ITEMFINDER to locate it.
-- **Hypothesis 8 (ACTIVE - from Agent):** Activating the switch revealed a hidden item. I will use the ITEMFINDER to locate it.
-- **Hypothesis 8 (ACTIVE - from Agent):** Activating the switch revealed a hidden item. I will use the ITEMFINDER to locate it.## F. Agent Ideas
+- **Active Hypothesis:** I will test hypothesis #3 from the new list: put the Pokémon with Strength in the lead of the party and try pushing the barrier again.## F. Agent Ideas
 - **Puzzle Hypothesis Tester:** An agent that takes hypotheses from the generator and uses tools like `boulder_puzzle_solver` to programmatically test them.
 
 # V. Future Development
