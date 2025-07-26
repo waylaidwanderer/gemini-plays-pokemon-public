@@ -50,4 +50,6 @@
 - **Core Principle: Agent vs. Tool.** Agents are for reasoning and planning. Tools are for computation and data processing. A task that can be solved with code MUST be a tool, not an agent.
 - **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points are actually reachable to avoid building strategies on flawed assumptions.
 
+# IV. Current Plans & Hypotheses
+
 - **Victory Road 1F Puzzle (Western Section):** Confirmed a soft-lock state on the western side. The upper platform is a dead end. The only solution is to reset the puzzle by leaving and re-entering the map.
