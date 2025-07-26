@@ -93,8 +93,10 @@
 5.  **State:** (28, 31)
     *   Interact from East (29, 31) -> Disappeared.
 
+11. State: (20, 24). Interact from North (20, 23) -> Disappeared.
+
 ## C. Current Hypothesis
-*   The puzzle requires a specific sequence of directional interactions. The Farfetch'd has disappeared again. My next step is to search for it, starting near the apprentice's location.
+*   The puzzle requires a specific sequence of directional interactions, some of which cause the Farfetch'd to disappear and relocate. It has disappeared again. My next step is to search for it, starting near the apprentice's location at (7, 28).
 
 # VI. Critical Failures & Lessons Learned
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like updating my notepad or linking map markers) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
