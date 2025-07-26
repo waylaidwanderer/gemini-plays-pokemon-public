@@ -55,13 +55,12 @@
 - **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points (like ladders, stairs, or puzzle elements) are actually reachable from the current position to avoid building strategies on flawed assumptions.
 - **Boulder Puzzle Strategy:** Before pushing any boulder, use the pathfinder to verify the entire route for both the player and the boulder to prevent soft-locking.
 - **Debugging Strategy:** When a tool fails, add extensive logging to understand its internal state before attempting a fix. Or, manually test the game mechanics to gather ground-truth data.
-- **Victory Road 1F Western Platform:** Confirmed to be a dead-end trap. The puzzle involving pushing the boulder at (6,17) only serves to let you escape the area, not to progress.
 
 # IV. Archives
 
 ## A. Completed Puzzles
 ### Victory Road 1F Puzzle (Western Trap)
-- **Status:** Escaped. The western platform is a red herring. The puzzle is to push the boulder at (6,16) south to access the southern exit warp at (9,18) to leave the map and reset the floor's state.
+- **Status:** Escaped. The western platform is a confirmed red herring/trap. The puzzle is to push the boulder at (6,16) south to access the southern exit warp at (9,18) to leave the map and reset the floor's state.
 
 ### Victory Road 2F Puzzle
 - **Status:** Complete. Boulder from (4, 16) to switch at (2, 17).
@@ -69,6 +68,6 @@
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
-# V. Current Puzzle: Victory Road 1F (Main Area)
+# V. Current Puzzle: Victory Road 1F (Resetting the floor)
 
-**Hypothesis:** The true solution to this floor is the eastern boulder puzzle. I must leave the map to reset the boulders to their original positions, then re-enter and find a path to the eastern section.
+**Current Plan:** I am currently in the western section. I need to push the boulder at (6, 17) to clear the path to the southern exit warps. I will then exit the map to reset all the boulders. After resetting, my main hypothesis is that the eastern boulder puzzle is the true solution.
