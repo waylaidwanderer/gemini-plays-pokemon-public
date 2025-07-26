@@ -47,7 +47,8 @@
   - CHANSEY: Double-Edge, Mega Punch
   - EEVEE: Jump Kick
 
-# III. Core Gameplay Lessons
+# III. Core Gameplay Lessons & Reflections
+
 - **Core Principle: Fix, Don't Defer.** Critical tools with known bugs MUST be fixed immediately. Deferring fixes is a strategic failure. Repeatedly submitting identical, broken code is a critical error.
 - **Core Principle: Address critiques immediately.** When a tool is identified as faulty by an external check (like the overwatch system), fixing it becomes the absolute highest priority. Do not defer or make repeated, identical failed attempts.
 - **Core Principle: Verify, Then Trust.** Tool outputs and personal assumptions are hypotheses, not facts. They must be verified against the game state before being trusted. The Game State Information is the only source of truth.
@@ -55,14 +56,13 @@
 - **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points (like ladders, stairs, or puzzle elements) are actually reachable from the current position to avoid building strategies on flawed assumptions.
 - **Boulder Puzzle Strategy:** Before pushing any boulder, use the pathfinder to verify the entire route for both the player and the boulder to prevent soft-locking.
 - **Debugging Strategy:** When a tool fails, add extensive logging to understand its internal state before attempting a fix. Or, manually test the game mechanics to gather ground-truth data.
+- **Reflection (Turn 101158):** My biggest failure was trusting my flawed `gem_pathfinder` tool, which incorrectly reported no path existed and led me to believe I was trapped for dozens of turns. This was a severe case of confirmation bias. The lesson is to distrust tool output when it contradicts a reasonable assessment of the game state and to prioritize fixing faulty tools immediately. I also need to be more flexible and abandon failing hypotheses faster.
 
 # IV. Current Objective: Solve Victory Road Puzzles
 
-## A. Victory Road 1F Puzzle Analysis
-- **Failed Hypothesis #1:** The path to the exit ladder at (2, 2) is via the western elevated platform.
-  - **Test:** Pushed the boulder at (6, 16) to (6, 17), then ascended the steps at (6, 14) to the western platform.
-  - **Result:** The path on the platform is blocked by an impassable wall at (3, 9). This platform is a dead-end trap.
-  - **Conclusion:** This route is incorrect. The game state confirms this is a dead end. I am currently trapped on this platform.
+## A. Victory Road 1F Puzzle (SOLVED - Awaiting Reset)
+- **The Goal:** Reach the ladder at (2, 2).
+- **The *Actual* Solution:** The western platform is a dead-end trap. The correct path involves solving the two boulder puzzles in the eastern and northern sections of the map. I must leave the map to reset the puzzles and attempt the correct solution.
 
 # V. Archives
 
