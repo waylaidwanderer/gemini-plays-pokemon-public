@@ -35,23 +35,10 @@
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting.
 - **Type Correction (Psychic vs. Rock):** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
-## B. Known Trainer Rosters & Movesets
-
-### Victory Road
-
-#### Victory Road 1F
-*(No trainers defeated yet)*
-
-#### Victory Road 2F
-*(No trainers defeated yet)*
-
-#### Victory Road 3F
-- **Cool Trainer M (DEFEATED)**
-  - **Location:** (29, 6)
-  - **Team:** CHARIZARD (Lv52), MAGNETON (Lv52), TENTACRUEL (Lv52)
-- **Cool Trainer F (DEFEATED)**
-  - **Location:** (14, 4)
-  - **Team:** WIGGLYTUFF (Lv54), CLEFABLE (Lv54), CHANSEY (Lv54), EEVEE (Lv57)
+## B. Known Trainer Rosters
+### Victory Road 3F
+- **Cool Trainer M (DEFEATED @ 29,6):** CHARIZARD (Lv52), MAGNETON (Lv52), TENTACRUEL (Lv52)
+- **Cool Trainer F (DEFEATED @ 14,4):** WIGGLYTUFF (Lv54), CLEFABLE (Lv54), CHANSEY (Lv54), EEVEE (Lv57)
 
 # III. Core Gameplay Lessons & Reflections
 
