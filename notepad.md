@@ -1,21 +1,24 @@
-# I. Game Mechanics & World Rules
+# I. Core Knowledge Base
 
-## A. Tile Mechanics & Traversal
-- **Ground:** Standard walkable tile.
-- **Grass:** Walkable tile where wild Pokémon can be encountered.
-- **Water:** Can be crossed using the SURF HM.
-- **Impassable:** Walls, trees, and other objects that block movement.
-- **Elevated Ground:** Walkable ground at a different elevation.
-- **Gate (`gate_offscreen`, `closed_gate`, `open_gate`):** Barriers that may open or close.
-- **Boulder Switch:** A traversable floor switch activated by a boulder.
-- **Boulder Barrier:** An impassable barrier that becomes a `cleared_boulder_barrier` tile when the corresponding switch is activated.
-- **Cleared Boulder Barrier:** A traversable ground tile that appears after a boulder puzzle is solved.
-- **Steps:** Allows two-way vertical movement between `ground` and `elevated_ground` tiles.
-- **Ladders (`ladder_up`, `ladder_down`):** Function as instant 1x1 warps between floors.
-- **Hole:** A tile that functions as a warp, dropping the player to a lower floor.
-- **Spinner (`spinner_`...):** Forces movement in the specified direction.
-- **Boulder Pushing Mechanic (FINAL CORRECTION):** After activating Strength, stand adjacent to a boulder and face it. Pressing the directional button towards the boulder pushes it one tile. The player character **remains in their original position** and does NOT move into the boulder's previous space.
-- **Elevation Traversal (Correction):** Movement between 'elevated_ground' and 'ground' is ONLY possible via 'steps' or 'cleared_boulder_barrier' tiles. It is not possible to 'step down' from a ledge-like edge of an elevated area.
+## A. Game Mechanics & Traversal
+- **Boulder Pushing:** Activate Strength, face the boulder, and press the directional button. The player does not move.
+- **Elevation Change:** Only possible on `steps` or `cleared_boulder_barrier` tiles.
+- **Defeated Trainers:** Often become impassable objects.
+- **Special NPC Interaction:** Some puzzles require walking *through* an NPC.
+- **"No Will to Fight" Message:** Cursor is on a fainted Pokémon in the party menu.
+
+## B. Tile Glossary
+- **`ground`**: Standard walkable tile.
+- **`grass`**: Wild Pokémon encounters.
+- **`water`**: Requires SURF.
+- **`impassable`**: Wall.
+- **`elevated_ground`**: Walkable, different elevation.
+- **`steps`**: Allows movement between elevations.
+- **`boulder_switch`**: Floor switch for boulders.
+- **`boulder_barrier`**: Impassable until switch is activated.
+- **`cleared_boulder_barrier`**: Walkable, acts as a ramp.
+- **`hole`**: Drops to a lower floor.
+- **`spinner`**: Forces movement.
 
 ## B. General Rules & Heuristics
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
