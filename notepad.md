@@ -64,7 +64,7 @@
 
 # III. Puzzle Solutions & Learnings
 
-- **Victory Road 1F Puzzle (Learning):** The correct solution requires solving both the western and eastern boulder puzzles to clear the barrier at (10, 13). The western puzzle involves pushing the boulder at (3, 11) to the switch at (3, 10). The eastern puzzle requires pushing the boulder from the upper platform to its switch. This confirms that complex, multi-step solutions are possible.
+- **Victory Road 1F Puzzle (Corrected Solution):** The puzzle is a sequential, multi-step process. 1. Push the southern boulder at (6, 16) SOUTH to (6, 17). 2. This unblocks the path to the steps at (6, 14). 3. Ascend the steps to the western elevated platform. 4. Navigate past the defeated Youngster at (7, 11), who is traversable. 5. Solve the western puzzle by pushing the boulder at (3, 11) NORTH to the switch at (3, 10). 6. This action opens the central boulder barrier at (10, 13), granting access to the eastern half of the map and the second boulder puzzle.
 - **Boulder Puzzle Reset:** Leaving and re-entering a floor resets all boulders to their original positions. This is a core mechanic for solving boulder puzzles and escaping self-inflicted traps.
 - **Elevation Change (Correction):** My hypothesis that one can step down from `elevated_ground` to `ground` was tested and proven false by the game engine. Movement between elevations is only possible on `steps` or `cleared_boulder_barrier` tiles.
 
