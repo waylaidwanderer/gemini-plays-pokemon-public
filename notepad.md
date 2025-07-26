@@ -116,3 +116,4 @@
 ## A. Ruins of Alph (Kabuto Puzzle)
 *   The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces.
 15. **State:** (29, 22). Interact from West (28, 22) -> Disappeared.
+*   **Tool-Fixing Failure Loop (Critical Failure):** On turns 8737-8742, I repeatedly submitted the same broken script for the `find_reachable_unseen_tiles` tool. This was a critical failure in mindfulness and a direct result of not using my `procedural_overseer` agent, which is designed to prevent such loops. This is a severe violation of my core directives and must not be repeated.
