@@ -85,3 +85,6 @@
 5. **Hypothesis (Walk-Through NPC):** The Youngster at (7, 11) can be walked through, similar to a previous puzzle.
     - **Test:** Attempted to move left from (8, 11) onto the Youngster's tile.
     - **Conclusion:** FAILED (1 attempt). The Youngster acts as a solid object.
+6. **Hypothesis (Complex Trigger):** The Youngster at (7, 11) is the final switch. He will only move or change dialogue after BOTH the eastern boulder is on its switch (3, 10) AND the western boulder is on its presumed pressure plate (6, 17).
+    - **Test:** With both boulders in position, navigate to (7, 12) and interact with the Youngster.
+    - **Conclusion:** PENDING.
