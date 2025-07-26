@@ -59,7 +59,8 @@
 - **Hypothesis 3 (FAILED):** Activating the western switch did NOT open the barrier at (10, 13).
 - **Hypothesis 4 (FAILED - from Agent):** The switch opened a secret passage on the western platform. After a full sweep of the area, this was proven false. The area is a confirmed dead end.
 - **Hypothesis 5 (FAILED):** My attempt to reset the puzzle by leaving the map was blocked; the exit is unreachable. This confirms I am not soft-locked.
-- **Hypothesis 6 (ACTIVE):** The system states the barrier at (10, 13) is reachable, but I cannot walk through it. My new hypothesis is that activating the western switch changed the barrier's properties, and now it must be interacted with (e.g., by pressing 'A') from an adjacent tile.
+- **Hypothesis 6 (FAILED):** Interacting with the barrier at (10, 13) by pressing 'A' had no effect.
+- **Hypothesis 7 (ACTIVE):** The barrier itself can be pushed using Strength, like a boulder. I will attempt to push it.
 
 ## F. Agent Ideas
 - **Puzzle Hypothesis Tester:** An agent that takes hypotheses from the generator and uses tools like `boulder_puzzle_solver` to programmatically test them.
