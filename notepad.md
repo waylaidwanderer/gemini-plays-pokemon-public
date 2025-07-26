@@ -11,6 +11,7 @@
 - **Boulder Barrier:** An impassable barrier that becomes a `cleared_boulder_barrier` tile when the corresponding switch is activated.
 - **Cleared Boulder Barrier:** A traversable ground tile that appears after a boulder puzzle is solved.
 - **Steps:** Allows two-way vertical movement between `ground` and `elevated_ground` tiles.
+- **Ladders (`ladder_up`, `ladder_down`):** Function as instant 1x1 warps between floors.
 - **Hole:** A tile that functions as a warp, dropping the player to a lower floor.
 - **Spinner (`spinner_`...):** Forces movement in the specified direction.
 - **Boulder Pushing Mechanic (FINAL CORRECTION):** After activating Strength, stand adjacent to a boulder and face it. Pressing the directional button towards the boulder pushes it one tile. The player character **remains in their original position** and does NOT move into the boulder's previous space.
@@ -63,7 +64,7 @@
 
 ## E. Current Puzzles & Hypotheses
 ### Victory Road 1F Boulder Puzzle
-- **Hypothesis 1 (Failed - 9 attempts):** Push the eastern boulder at (6, 17) to the switch at (18, 14). The `boulder_puzzle_solver` tool, once fixed, confirmed no solution exists from my current position.
+- **Hypothesis 1 (Failed - 10 attempts):** Push the eastern boulder at (6, 17) to the switch at (18, 14). The `boulder_puzzle_solver` tool, once fixed, confirmed no solution exists from my current position.
 - **Hypothesis 2 (Active):** The western switch at (3, 10) must be activated first. The immediate goal is to solve this puzzle by pushing the boulder at (3, 11) onto the switch.
 
 ## F. Agent Ideas
