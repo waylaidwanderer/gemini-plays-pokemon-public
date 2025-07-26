@@ -856,5 +856,47 @@
         "action_counter": 7917
       }
     ]
+  },
+  "farfetchd_puzzle_solver": {
+    "description": "Solves the Farfetch'd herding puzzle by determining the next interaction point. It takes the current locations of the player, Farfetch'd, and the apprentice, and returns the coordinate the player should move to for the next interaction.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_x": {
+          "type": "string"
+        },
+        "player_y": {
+          "type": "string"
+        },
+        "farfetchd_x": {
+          "type": "string"
+        },
+        "farfetchd_y": {
+          "type": "string"
+        },
+        "apprentice_x": {
+          "type": "string"
+        },
+        "apprentice_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "player_x",
+        "player_y",
+        "farfetchd_x",
+        "farfetchd_y",
+        "apprentice_x",
+        "apprentice_y"
+      ]
+    },
+    "python_script": "import json\n\ndef solve_puzzle():\n    player_x = int(input_data['player_x'])\n    player_y = int(input_data['player_y'])\n    farfetchd_x = int(input_data['farfetchd_x'])\n    farfetchd_y = int(input_data['farfetchd_y'])\n    apprentice_x = int(input_data['apprentice_x'])\n    apprentice_y = int(input_data['apprentice_y'])\n\n    # Determine the direction to herd the Farfetch'd\n    delta_x = farfetchd_x - apprentice_x\n    delta_y = farfetchd_y - apprentice_y\n\n    # Prioritize moving it along the axis it's furthest from the target on\n    if abs(delta_x) > abs(delta_y):\n        if delta_x > 0: # Farfetch'd is to the east of apprentice, needs to go west\n            next_move_x = farfetchd_x + 1\n            next_move_y = farfetchd_y\n        else: # Farfetch'd is to the west of apprentice, needs to go east\n            next_move_x = farfetchd_x - 1\n            next_move_y = farfetchd_y\n    else:\n        if delta_y > 0: # Farfetch'd is to the south of apprentice, needs to go north\n            next_move_x = farfetchd_x\n            next_move_y = farfetchd_y + 1\n        else: # Farfetch'd is to the north of apprentice, needs to go south\n            next_move_x = farfetchd_x\n            next_move_y = farfetchd_y - 1\n\n    print(json.dumps({'x': next_move_x, 'y': next_move_y}))\n\nsolve_puzzle()",
+    "history": [
+      {
+        "commit_message": "feat: Create Farfetch'd puzzle solver tool. This tool replaces the functionality of the deleted `puzzle_solver` agent. It takes the coordinates of the player, Farfetch'd, and apprentice, and calculates the next optimal position for the player to interact with the Farfetch'd to herd it towards the apprentice. This addresses the critique about using agents for computational tasks.",
+        "timestamp": "2025-07-26T01:42:04.837Z",
+        "action_counter": 8073
+      }
+    ]
   }
 }
