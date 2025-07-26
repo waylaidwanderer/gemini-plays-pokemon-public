@@ -58,7 +58,8 @@
 - **Hypothesis 2 (CONFIRMED):** Pushed the boulder at (3, 11) onto the switch at (3, 10).
 - **Hypothesis 3 (FAILED):** Activating the western switch did NOT open the barrier at (10, 13).
 - **Hypothesis 4 (FAILED - from Agent):** The switch opened a secret passage on the western platform. After a full sweep of the area, this was proven false. The area is a confirmed dead end.
-- **Hypothesis 5 (ACTIVE):** I have soft-locked myself by pushing the boulders in the wrong order. I must exit Victory Road and re-enter to reset the puzzle state.
+- **Hypothesis 5 (FAILED):** My attempt to reset the puzzle by leaving the map was blocked; the exit is unreachable. This confirms I am not soft-locked.
+- **Hypothesis 6 (ACTIVE):** The system states the barrier at (10, 13) is reachable, but I cannot walk through it. My new hypothesis is that activating the western switch changed the barrier's properties, and now it must be interacted with (e.g., by pressing 'A') from an adjacent tile.
 
 ## F. Agent Ideas
 - **Puzzle Hypothesis Tester:** An agent that takes hypotheses from the generator and uses tools like `boulder_puzzle_solver` to programmatically test them.
