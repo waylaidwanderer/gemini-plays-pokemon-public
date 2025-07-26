@@ -90,3 +90,6 @@
 
 # V. Future Development
 - **`boulder_puzzle_solver` v2:** The deleted tool was unreliable. A new, robust, algorithm-based tool needs to be developed to handle multi-boulder and multi-stage puzzles. This is a high-priority development task for the future.
+
+# VI. Puzzle Learnings
+- **Victory Road 1F Trap:** The western platform, accessed via the steps at (6, 14), is a deliberate trap. It is impossible to navigate to the boulder at (3, 10) from this platform due to impassable map geometry. The only way to escape this trap is to use a field move like Dig/Escape Rope or to intentionally faint the party to be warped back to a Pokémon Center. This establishes that some puzzles in this hack may have designed fail-states that require meta-game mechanics to resolve.
