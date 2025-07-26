@@ -13,7 +13,7 @@
 - **Steps:** Allows two-way vertical movement between `ground` and `elevated_ground` tiles. Pushing boulders onto them is not possible.
 - **Ladders (`ladder_up`, `ladder_down`):** Function as instant 1x1 warps between floors.
 - **Hole:** A tile that functions as a warp, dropping the player to a lower floor. Boulders can be pushed into these to affect puzzles on the floor below.
-- **Spinner (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Forces movement in the specified direction.
+- **Spinner (`spinner_`...):** Forces movement in the specified direction.
 - **Boulder Pushing Mechanic (CORRECTED):** To push a boulder, use Strength, then stand on a tile adjacent to the boulder and face it. Pressing the directional button towards the boulder will move it one tile. The player character **remains on the tile they pushed from** and does not move into the boulder's old space.
 - **Elevation Traversal (Correction):** Movement between 'elevated_ground' and 'ground' is ONLY possible via 'steps' tiles. It is not possible to 'step down' from a ledge-like edge of an elevated area.
 
