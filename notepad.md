@@ -71,16 +71,9 @@
 # V. Current Puzzle: Victory Road 1F (Main Area)
 
 **Hypothesis 1 (Failed):** Pushing the boulder at (3, 11) to (3, 10) opens the barrier at (10, 13).
-- **Test:** Navigated to (9, 13) and attempted to walk through the barrier at (10, 13).
+- **Test (Attempt 1 & 2):** Navigated to (9, 13) and attempted to walk through the barrier at (10, 13).
 - **Result:** Movement was blocked. The barrier is impassable.
-- **Conclusion:** This path is a dead end.
+- **Conclusion:** Hypothesis is incorrect. This path is a dead end. The only solution is to leave and re-enter the map to reset the puzzle.
 
-**New Plan:** The current area is a confirmed dead end. I need to leave Victory Road via the southern warp at (9, 18) to reset the map's state, then re-enter and try a new puzzle-solving approach.
-- **Result:** Movement was blocked. The barrier is impassable.
-- **Conclusion:** This path is a dead end.
-
-**New Plan:** The current area is a confirmed dead end. I need to leave Victory Road via the southern warp at (9, 18) to reset the map's state, then re-enter and try a new puzzle-solving approach.
-- **Result:** Movement was blocked. The barrier is impassable.
-- **Conclusion:** Hypothesis is incorrect. This path is a dead end.
-
-**New Plan:** The current area is a confirmed dead end. I need to leave Victory Road via the southern warp at (9, 18) to reset the map's state, then re-enter and try a new puzzle-solving approach.
+**Hypothesis 2 (Current):** Pushing the boulder at (6, 16) is the first step in a sequence that solves the puzzle. The eastern and western platforms are red herrings.
+- **Plan:** Push the boulder at (6, 16) north to (6, 15), then re-evaluate the map for changes, likely checking the barrier at (10, 13) again.
