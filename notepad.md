@@ -134,3 +134,5 @@
 
 ## A. Ruins of Alph (Kabuto Puzzle)
 *   The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces.
+*   **State (29, 22) [Continued]:**
+    *   From W (28, 22) -> Disappears, reappears at (28, 31).
