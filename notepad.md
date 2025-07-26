@@ -56,3 +56,38 @@
   - **Switch 1:** The boulder at (3, 11) must be pushed onto the switch at (3, 10).
   - **Switch 2:** The boulder at (6, 16) must be pushed onto the switch at (18, 14).
   - This requires careful, sequential pushing and repositioning to avoid soft-locking. The western platform is a confirmed dead end and should be avoided.
+
+# V. Puzzle Solutions
+
+## Victory Road 1F Boulder Puzzle (Solver Output)
+1. Path to (3, 12)
+2. Push Up
+3. Path to (6, 17)
+4. Push Up
+5. Push Up
+6. Path to (7, 12)
+7. Push Right
+8. Path to (8, 12)
+9. Push Right
+10. Path to (9, 12)
+11. Push Right
+12. Path to (10, 12)
+13. Push Right
+14. Path to (11, 12)
+15. Push Right
+16. Path to (12, 12)
+17. Push Right
+18. Path to (13, 12)
+19. Push Right
+20. Path to (14, 12)
+21. Push Right
+22. Path to (15, 12)
+23. Push Right
+24. Path to (16, 12)
+25. Push Right
+26. Path to (17, 12)
+27. Push Right
+28. Path to (18, 11)
+29. Push Down
+30. Push Down
+31. Push Down
