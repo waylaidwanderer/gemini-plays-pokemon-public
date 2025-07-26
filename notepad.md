@@ -15,6 +15,7 @@
 ### Warp Tiles:
 *   **WARP_CARPET_DOWN:** One-way warp. Activated by pressing 'Down'.
 *   **WARP_CARPET_LEFT:** One-way warp. Activated by pressing 'Left'.
+*   **WARP_CARPET_RIGHT:** Functions as a one-way warp, likely activated by pressing 'Right'. Needs confirmation.
 
 ### Confirmed Impassable:
 *   **WALL:** Confirmed impassable. Blocks movement from all directions.
@@ -71,35 +72,41 @@
 *   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward to Goldenrod City.
 
 # V. Ilex Forest Puzzle: Farfetch'd Herding
-## A. Confirmed Mechanics
-*   **Goal:** Herd Farfetch'd to the apprentice at (7, 28).
-*   **Movement:** Interacting with Farfetch'd from an adjacent tile causes it to move. The direction of interaction is key.
-*   **Disappearing:** Interacting from certain directions can cause Farfetch'd to disappear and reappear elsewhere.
 
-## B. Confirmed Interaction Log
-1.  **Start State (15, 25):** Interact from North (15, 24) -> Shows dialogue 'Kwaa!', then moves to (15, 29) after dialogue is dismissed.
-2.  **Start State:** (15, 25). Interact from South (15, 26) -> Moves to (20, 24).
-3.  **State:** (15, 29). Interact from East (16, 29) -> Moves to (15, 25) (Loop).
-4.  **State:** (15, 29). Interact from West (14, 29) -> Disappears, reappears at (22, 31).
-5.  **State:** (20, 24). Interact from East (21, 24) -> Moves to (15, 25) (Loop).
-6.  **State:** (22, 31). Interact from South (22, 32) -> Moves to (15, 29).
-7.  **State:** (22, 31). Interact from North (22, 30) -> Moves to (28, 31).
-8.  **State:** (28, 31). Interact from East (29, 31) -> Disappeared.
-9.  **State:** (20, 24). Interact from North (20, 23) -> Disappeared.
-10. **State:** (22, 31). Interact from East (23, 31) -> Moves to (24, 35).
-11. **State:** (24, 35). Interact from West (23, 35) -> Moves to (28, 31).
-12. **State:** (28, 31). Interact from West (27, 31) -> Moved off-screen.
-13. **State:** (29, 22). Interact from South (29, 23) -> Turns to face player, says 'Kwaa!', but does not move.
-14. **State:** (20, 24). Interact from North (20, 23) -> Disappeared.
+## A. General Mechanics
+*   **Goal:** Herd Farfetch'd to the apprentice at (7, 28).
+*   **Interaction:** Approaching from an adjacent tile and pressing 'A' causes a reaction.
+*   **Puzzle Reset:** The Farfetch'd disappears and resets the puzzle if an incorrect action is taken or after certain wild battles.
+
+## B. Confirmed State Behaviors
+*   **State 1: Farfetch'd at (15, 25)**
+    *   Interact from North (15, 24) -> Moves to (15, 29) after 'Kwaa!' dialogue.
+    *   Interact from South (15, 26) -> Moves to (20, 24).
+*   **State 2: Farfetch'd at (15, 29)**
+    *   Interact from East (16, 29) -> Moves to (15, 25) [Loop].
+    *   Interact from West (14, 29) -> Moves to (22, 31).
+*   **State 3: Farfetch'd at (20, 24)**
+    *   Interact from East (21, 24) -> 'Kwaa!' dialogue, then disappears [Reset].
+    *   Interact from North (20, 23) -> Disappears [Reset].
+*   **State 4: Farfetch'd at (22, 31)**
+    *   Interact from South (22, 32) -> Moves to (15, 29).
+    *   Interact from North (22, 30) -> Moves to (28, 31).
+    *   Interact from East (23, 31) -> Moves to (24, 35).
+*   **State 5: Farfetch'd at (24, 35)**
+    *   Interact from West (23, 35) -> Moves to (28, 31).
+*   **State 6: Farfetch'd at (28, 31)**
+    *   Interact from East (29, 31) -> Disappears [Reset].
+    *   Interact from West (27, 31) -> Moves off-screen [Reset].
+*   **State 7: Farfetch'd at (29, 22)**
+    *   Interact from West (28, 22) -> No reaction.
+    *   Interact from South (29, 23) -> 'Kwaa!' dialogue, then disappears [Reset].
 
 ## C. Current Hypothesis
-*   The puzzle requires a specific sequence of directional interactions. I have a new lead on an interaction point at (28, 22) and will test it.
+*   Since the Farfetch'd has vanished from the forest entirely, it may have returned to its owner at the Charcoal Kiln in Azalea Town. This is the current active lead.
 
 ## D. Northern Blockage Hypothesis
 *   **Primary Hypothesis:** The northern area of Ilex Forest is unreachable from the south.
-*   **Evidence:** Both `find_path_to_target` and the now-fixed `find_reachable_unseen_tiles` tools report no path.
-*   **Alternative Hypothesis:** There is a hidden path or event-based trigger that my tools cannot detect.
-*   **Contingency Plan:** If I become completely stuck on the Farfetch'd puzzle, I will manually walk to the northernmost reachable tiles and attempt to move north into every adjacent tile to definitively confirm or deny the blockage.
+*   **Evidence:** Both `find_path_to_target` and `find_reachable_unseen_tiles` tools report no path. This has also been manually verified by attempting to walk north.
 
 # VI. Critical Failures & Lessons Learned
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks. This is a violation of core directives and must be corrected.
@@ -115,12 +122,6 @@
 
 ## A. Ruins of Alph (Kabuto Puzzle)
 *   The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces.
-15. **State:** (29, 22). Interact from West (28, 22) -> No reaction.
-*   **Tool-Fixing Failure Loop (Critical Failure):** On turns 8737-8742, I repeatedly submitted the same broken script for the `find_reachable_unseen_tiles` tool. This was a critical failure in mindfulness and a direct result of not using my `procedural_overseer` agent, which is designed to prevent such loops. This is a severe violation of my core directives and must not be repeated.
-16. **State:** (28, 31). Interact from West (27, 31) -> Disappeared.
-16. **State:** (29, 22). Interact from South (29, 23) -> Turns to face player, says 'Kwaa!', but does not move.
-### New Tile Types Discovered:
-*   **WARP_CARPET_RIGHT:** Functions as a one-way warp, likely activated by pressing 'Right'. Needs confirmation.
 
 # VIII. Untested Assumptions & Alternative Hypotheses
 *   **Assumption 1:** The Farfetch'd puzzle is solvable with current knowledge.
