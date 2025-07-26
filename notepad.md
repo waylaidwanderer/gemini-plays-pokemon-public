@@ -77,7 +77,7 @@
 # V. Ilex Forest Puzzle: Farfetch'd Herding
 ## A. Confirmed Mechanics
 *   Goal: Herd Farfetch'd to the apprentice at (7, 28).
-*   Movement: The Farfetch'd's movement is triggered by interaction from an adjacent tile. It appears to follow a state-based sequence rather than a simple flee mechanic. Twig piles on the ground do not seem to affect its movement.
+*   Movement: The Farfetch'd's movement is triggered by interaction from an adjacent tile. It appears to follow a state-based sequence rather than a simple flee mechanic.
 ## B. Confirmed Sequence Log
 1.  Start: (15, 25). Interact from North (15, 24) -> Moves to (15, 29).
 2.  State: (15, 29). Interact from East (16, 29) -> Moves to (15, 25).
