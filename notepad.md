@@ -53,7 +53,16 @@
 - **`gem_pathfinder`:** The cost calculation for pathing should be improved to account for the extra actions required for HMs like Surf, making land routes more preferable when efficient.
 
 ### Victory Road 1F Boulder Puzzle
-- **All conventional and unconventional hypotheses have failed.** I am trapped on the western platform, and the exit is unreachable. The game state is paradoxical, stating I am in a dead end but the barrier at (10, 13) is 'reachable'. This indicates a non-obvious solution is required.
+- **Current State:** I am trapped on the western platform. The game state is paradoxical: it is a confirmed dead end, but the barrier at (10, 13) is listed as 'reachable'. This implies a non-obvious solution exists that the pathfinder cannot see.
+- **Failed Hypotheses (Documented):**
+  - Push eastern boulder to eastern switch (Impossible)
+  - Activating western switch opens barrier (False)
+  - Secret passage on western platform (False)
+  - Reset puzzle by leaving map (Exit unreachable)
+  - Interact with barrier with 'A' button (No effect)
+  - Push barrier with Strength (No effect)
+  - Use Poké Flute on barrier (No effect)
+  - Use ITEMFINDER near barrier (No item found)
 - **New Hypotheses from Agent (Round 2):**
   1. Use an Escape Rope or the move Dig to reset the puzzle.
   2. Find a hidden second switch on the platform.
