@@ -13,13 +13,6 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"reachable_unseen_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"primary_goal\":{\"type\":\"string\"}},\"required\":[\"reachable_unseen_tiles\",\"primary_goal\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_tile\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"justification\":{\"type\":\"string\"}},\"required\":[\"recommended_tile\",\"justification\"]}"
   },
-  "script_debugger": {
-    "agent_name": "script_debugger",
-    "agent_description": "Analyzes a faulty Python script. If no log is provided, it generates a step-by-step debugging plan. If a debug log is provided, it analyzes the log to find the root cause and provides a new hypothesis.",
-    "agent_system_prompt": "You are an expert Python debugging assistant. You will be given a Python script that has failed or is producing incorrect output, and optionally, a debug log.\n**If NO debug log is provided:**\n1. Analyze the code and identify potential points of failure.\n2. Formulate a primary hypothesis for why the code is failing.\n3. Provide a clear, actionable, step-by-step debugging plan using specific `print()` statements.\n**If a debug log IS provided:**\n1. Analyze the log to find the root cause of the failure.\n2. Identify contradictions or anomalies in the log output.\n3. Provide a concise summary of your findings and formulate a new, specific, and testable hypothesis for the bug.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"faulty_script\":{\"type\":\"string\"},\"log_content\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"faulty_script\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"summary\":{\"type\":\"string\",\"nullable\":true},\"hypothesis\":{\"type\":\"string\"},\"debugging_plan\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"nullable\":true}},\"required\":[\"hypothesis\"]}"
-  },
   "procedural_overseer": {
     "agent_name": "procedural_overseer",
     "agent_description": "Analyzes a proposed action against recent turn history to identify and prevent repetitive, unconstructive behavior loops.",
