@@ -136,3 +136,6 @@
 # IX. Immediate Test Plans
 *   **Test `FLOOR_UP_WALL` Traversal:** Path to (13, 15) and attempt to walk onto (13, 14) from all four directions to confirm its traversal properties.
 *   **Interact with Fisher:** Talk to the Fisher at (15, 13) to see if he is a trainer or provides any information.
+
+## C. Procedural Failures & Lessons Learned
+*   **Map & Position Hallucination (CRITICAL FAILURE - Turn 9580):** I experienced a severe hallucination, believing I was on Route 32 when I was actually in Violet City. This is a recurring issue that requires extreme diligence to combat by constantly cross-referencing my position with the game state.
