@@ -52,3 +52,19 @@
 
 # IV. Current Objective: Tool Development
 **Priority:** Develop a functional `boulder_puzzle_solver` tool immediately. Manual solving is inefficient and has led to repeated failures. A robust, generalized, algorithm-based solver that can parse map data is required to prevent future roadblocks. This is the #1 development priority.
+
+# V. Puzzle Plans & Hypotheses
+
+## Victory Road 1F Boulder Puzzle (Attempt #1)
+**Hypothesis:** The puzzle must be solved sequentially, west then east.
+**Plan:**
+1.  **Phase 1: West Boulder**
+    - Navigate to (3, 12).
+    - Activate Strength.
+    - Push boulder at (3, 11) to switch at (3, 10).
+2.  **Phase 2: East Boulder**
+    - Navigate to position to push boulder at (6, 16).
+    - Systematically push boulder at (6, 16) towards the switch at (18, 14).
+3.  **Phase 3: Verification**
+    - Check if the boulder barrier at (10, 13) is cleared.
+    - If clear, proceed to the ladder at (2, 2).
