@@ -15,6 +15,7 @@
 - **Hole:** A tile that functions as a warp, dropping the player to a lower floor. Boulders can be pushed into these to affect puzzles on the floor below.
 - **Spinner (`spinner_up`, `spinner_down`, `spinner_left`, `spinner_right`):** Forces movement in the specified direction.
 - **Boulder Pushing Mechanic:** To push a boulder, use Strength, then stand on a tile adjacent to the boulder and face it. Pressing the directional button towards the boulder will move it one tile. The player character remains on the tile they pushed from.
+- **Elevation Traversal (Correction):** Movement between 'elevated_ground' and 'ground' is ONLY possible via 'steps' tiles. It is not possible to 'step down' from a ledge-like edge of an elevated area.
 
 ## B. General Rules & Heuristics
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
@@ -58,13 +59,10 @@
 - **Debugging Strategy:** When a tool fails, add extensive logging to understand its internal state before attempting a fix. Or, manually test the game mechanics to gather ground-truth data.
 - **Reflection (Turn 101158):** My biggest failure was trusting my flawed `gem_pathfinder` tool, which incorrectly reported no path existed and led me to believe I was trapped for dozens of turns. This was a severe case of confirmation bias. The lesson is to distrust tool output when it contradicts a reasonable assessment of the game state and to prioritize fixing faulty tools immediately. I also need to be more flexible and abandon failing hypotheses faster.
 
-# IV. Current Objective: Solve Victory Road 1F Puzzle (Attempt #4 - New Approach)
+# IV. Current Objective: Solve Victory Road 1F Puzzle
 
 - **The Goal:** Reach the ladder at (2, 2).
-- **Hypothesis #1 (FAILED - Re-tested):** Solving the northern puzzle at (3, 10) opens the eastern path.
-  - **Conclusion:** The barrier at (10, 13) remains even after a full map reset and re-solving the puzzle. This hypothesis is definitively incorrect.
-- **Hypothesis #4 (Agent-generated):** A trigger is based on the player's position. After solving the other puzzles, the player must step on the now-empty northern switch at (3, 10) to open the barrier.
-  - **Plan:** Navigate to (3, 10) and step on the switch, then return to (9, 13) to observe the barrier.
+- **Hypothesis #5 (NEW):** The puzzles must be solved in a specific order: first the western puzzle (pushing the boulder at (6,16) to the warp at (10,18)), and THEN the northern puzzle (pushing the boulder at (3,11) to the switch at (3,10)). This sequence might unlock the barrier at (10, 13).
 
 # V. Archives
 
@@ -79,7 +77,11 @@
   - A hidden one-way ledge exists.
   - An item like Escape Rope or a move like Dig/Teleport has special functionality in the room.
   - Re-challenging an NPC with a specific item triggers a reset.
+- **Hypothesis #1 (FAILED - Re-tested):** Solving the northern puzzle at (3, 10) opens the eastern path.
+  - **Conclusion:** The barrier at (10, 13) remains even after a full map reset and re-solving the puzzle. This hypothesis is definitively incorrect.
 - **Hypothesis #3 (FAILED):** Pushing the western boulder onto the warp at (10, 18) opens the eastern path.
   - **Test:** Pushed boulder to (10, 18). Navigated to (9, 13) to observe the barrier.
   - **Conclusion:** The barrier at (10, 13) remains. This hypothesis is incorrect.
-- **Elevation Traversal (Correction):** Movement between 'elevated_ground' and 'ground' is ONLY possible via 'steps' tiles. It is not possible to 'step down' from a ledge-like edge of an elevated area.
+- **Hypothesis #4 (FAILED):** A trigger is based on the player's position. After solving the other puzzles, the player must step on the now-empty northern switch at (3, 10) to open the barrier.
+  - **Test:** Solved western puzzle, then northern puzzle. Navigated to (3,10) and stepped on the switch. Navigated to (9,13) to observe.
+  - **Conclusion:** The barrier at (10, 13) remains. This hypothesis is incorrect.
