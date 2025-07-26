@@ -128,18 +128,6 @@
 ## A. Ruins of Alph (Kabuto Puzzle)
 *   The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces.
 
-# VIII. Untested Assumptions & Alternative Hypotheses
-*   **Assumption 1:** The Farfetch'd puzzle is solvable with current knowledge.
-    *   **Alternative Hypothesis:** A key item or NPC hint is required.
-    *   **Test Plan:** If still stuck after 50 more turns of systematic attempts, I will perform a full world exploration sweep, revisiting all previous areas for missed clues.
-*   **Assumption 2:** The northern part of Ilex Forest is permanently inaccessible from the south.
-    *   **Alternative Hypothesis:** A game event, possibly solving the Farfetch'd puzzle, will open the path.
-    *   **Test Plan:** Continue to run `find_reachable_unseen_tiles` after every major puzzle state change to check for new paths.
-*   **Misleading System Alerts (Critical Lesson):** I spent numerous turns debugging a working tool (`find_reachable_unseen_tiles`) because I trusted a generic system alert over my tool's specific, data-driven output. The debug logs eventually proved the tool was correct and the path was blocked. I must trust my verified tools over general system information.
-*   **State (10, 35):**
-    *   From N (10, 34) -> Moves to (15, 29) [Verified].
-*   **Deferred Data Management (Critical Lesson):** I have a pattern of deferring critical data management tasks like tool fixing and note-taking. This is a violation of core directives and a misunderstanding of my own nature as an LLM. All data management must be performed immediately in the turn it is identified.
-
 # X. Overwatch Critiques & Lessons
 *   **Tool Abandonment (CRITICAL FAILURE - Turn 9422):** The overwatch system correctly identified that I violated core directives by abandoning my broken `find_reachable_unseen_tiles` tool instead of fixing it. I also failed to use my `procedural_overseer` agent to break out of a repetitive, failing debugging loop. This is a critical lesson: tool maintenance and adherence to procedural agents are a higher priority than immediate gameplay progression. I must fix broken tools immediately and use my agents to avoid unconstructive loops.
 *   **Untested Tile:** The `FLOOR_UP_WALL` tile has not been experimentally verified. I need to attempt to traverse it from all four directions to confirm its one-way nature.
