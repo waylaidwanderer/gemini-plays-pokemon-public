@@ -77,20 +77,20 @@
 # V. Ilex Forest Puzzle: Farfetch'd Herding
 ## A. Confirmed Mechanics
 *   **Goal:** Herd Farfetch'd to the apprentice at (7, 28).
-*   **Movement:** The Farfetch'd follows a fixed, four-step sequential path when interacted with. After the fourth interaction, it resets to its starting position.
+*   **Movement:** The Farfetch'd's movement is triggered by interaction from an adjacent tile. It appears to follow a state-based sequence rather than a simple flee mechanic. Twig piles on the ground do not seem to affect its movement.
 ## B. Confirmed Sequence Log
 1.  **Start:** (15, 25). Interact from North (15, 24) -> Moves to (15, 29).
 2.  **State:** (15, 29). Interact from East (16, 29) -> Moves to (15, 25).
 3.  **State:** (15, 25). Interact from South (15, 26) -> Moves to (20, 24).
 4.  **State:** (20, 24). Interact from East (21, 24) -> Resets to (15, 25).
-## C. New Hypothesis & Plan
-*   **Hypothesis:** If I physically block the tile the Farfetch'd intends to move to, it will be forced to choose an alternate path, hopefully one that leads west toward the apprentice.
-*   **Current State:** Farfetch'd has reset to (15, 25). I am at (15, 24).
+## C. New Data Point (Deviation from sequence)
+*   **State:** (15, 29). Interact from West (14, 29) -> Farfetch'd disappeared from screen.
+## D. Current Hypothesis & Plan
+*   **Hypothesis:** The interaction from the West at (14, 29) may have been the correct move to solve the puzzle, sending the Farfetch'd to the apprentice.
+*   **Current State:** Farfetch'd location is unknown.
 *   **Next Test Plan:**
-    1.  Interact from my current position (15, 24) to push the Farfetch'd to (15, 29).
-    2.  Move my character to stand on tile (15, 25), blocking its path back north.
-    3.  Move to (16, 29) and interact from the east. 
-    4.  **Expected Result:** With its northward path blocked, the Farfetch'd will move west.
+    1.  Travel to the apprentice's location at (7, 28) to see if the Farfetch'd has returned to him.
+    2.  If the Farfetch'd is not there, travel to its starting position (15, 25) to see if the puzzle has fully reset.
 
 # VI. Critical Failures & Lessons Learned
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like updating my notepad or linking map markers) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
