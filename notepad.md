@@ -65,7 +65,7 @@
 
 # III. Puzzle Solutions & Learnings
 
-- **Victory Road 1F Puzzle:** The barrier at (10, 13) is opened by activating two switches simultaneously. The key is to solve both the eastern boulder puzzle (pushing the boulder at (17,13) to the switch at (18,14)) and the western boulder puzzle (pushing the boulder at (3,11) to the switch at (3,10)) *without leaving the map*. Leaving the map resets the puzzle state, causing one of the switches to deactivate and closing the barrier.
+- **Victory Road 1F Puzzle (CORRECTION):** My previous notes were incorrect. There is no switch at (3, 10). Pushing the boulder there was a mistake that led to a dead end. The assumption that the puzzle must be solved without leaving the map is now also in question. New plan is to reset the puzzle by exiting and re-entering.
 
 # IV. New Hypotheses (from Agent)
 - **Hole from 2F:** The switch at (18, 14) is activated by a boulder pushed from a hole on the floor above.
