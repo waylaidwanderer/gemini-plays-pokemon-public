@@ -35,6 +35,7 @@
 *   **RADIO:** Impassable object. Can be interacted with for text.
 *   **INCENSE_BURNER:** Impassable object. (Confirmed by attempting to walk into it).
 *   **COUNTER:** Confirmed impassable. Functions as a wall.
+*   **BIRD:** Impassable object. Functions as a wall.
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
