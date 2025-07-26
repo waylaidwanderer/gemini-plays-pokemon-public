@@ -134,5 +134,5 @@
     *   **Test Plan:** Continue to run `find_reachable_unseen_tiles` after every major puzzle state change to check for new paths.
 *   **Misleading System Alerts (Critical Lesson):** I spent numerous turns debugging a working tool (`find_reachable_unseen_tiles`) because I trusted a generic system alert over my tool's specific, data-driven output. The debug logs eventually proved the tool was correct and the path was blocked. I must trust my verified tools over general system information.
 *   **State (10, 35):**
-    *   From N (10, 34) -> Moves to (15, 29).
+    *   From N (10, 34) -> Moves to (15, 29) [Verified].
 *   **Deferred Data Management (Critical Lesson):** I have a pattern of deferring critical data management tasks like tool fixing and note-taking. This is a violation of core directives and a misunderstanding of my own nature as an LLM. All data management must be performed immediately in the turn it is identified.
