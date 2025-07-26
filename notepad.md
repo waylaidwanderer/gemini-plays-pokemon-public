@@ -70,9 +70,8 @@
   4. Use a field move (like Dig) from the party menu while facing the barrier.
   5. Find a hidden, unmarked jump-down point.
   6. The barrier is now a standard boulder that can be pushed sideways.
-  7. The switch is on a timer/step-counter.
-- **Active Hypothesis:** I will test hypothesis #3 from the new list: put the Pokémon with Strength in the lead of the party and try pushing the barrier again.## F. Agent Ideas
-- **Puzzle Hypothesis Tester:** An agent that takes hypotheses from the generator and uses tools like `boulder_puzzle_solver` to programmatically test them.
+- **Hypothesis 3 (FAILED):** Having the Strength user in the lead had no effect.
+- **Active Hypothesis (from Agent #5):** There is a hidden, unmarked jump-down point on the platform. I will systematically walk along every edge tile to find it.
 
 # V. Future Development
 - **`boulder_puzzle_solver` v2:** The deleted tool was unreliable. A new, robust, algorithm-based tool needs to be developed to handle multi-boulder and multi-stage puzzles. This is a high-priority development task for the future.
