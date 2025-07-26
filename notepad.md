@@ -77,8 +77,10 @@
 *   **Alternative Hypothesis for HM01:** The Farfetch'd puzzle may not be the only way to obtain HM01 (Cut). It could be found elsewhere, or another path to Goldenrod City might exist. **Test:** If the puzzle becomes impossible, I must explore all other paths, including the Unexplored Warp at (3, 43), to their absolute ends.
 
 # VI. Critical Failures & Lessons Learned
-*   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like marking warps or updating my notepad) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
+*   **Notepad Proactivity Failure:** I waited for an external critique to clean up outdated notes. I must proactively maintain the accuracy of my notepad without prompting.
 *   **Proactive Marking Failure:** I have failed to proactively mark significant discoveries like unvisited warps. I must be more diligent in marking all key points of interest as soon as they are discovered.
+*   **Marker Linking Failure:** I failed to link the Item Ball marker to its object ID, which is a core data management task. I must be more consistent in linking markers to objects.
+*   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like marking warps or updating my notepad) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
 *   **Tool Distrust:** I have repeatedly failed to trust my `find_path_to_target` tool's output, assuming it was broken when it correctly identified blocked paths (e.g., by NPCs). I must trust my tool's output and analyze the map more carefully before assuming a bug.
 *   **HM moves can be used even if the Pokémon is fainted.** This is a key mechanic learned from the Gentleman in the Charcoal Kiln.
 *   **stun_npc Tool Correction:** I previously believed `stun_npc` was a hallucination. This was a critical failure to consult my available tools list. `stun_npc` is a real tool and can be used to freeze NPCs.
