@@ -91,7 +91,7 @@
     *   From N (20, 23) -> Disappears [Reset].
 *   **State (22, 31):**
     *   From S (22, 32) -> Moves to (15, 29).
-    *   From N (22, 30) -> Moves to (28, 31).
+    *   From N (22, 30) -> Moves to (28, 31) [Verified].
     *   From E (23, 31) -> Moves to (24, 35).
 *   **State (24, 35):**
     *   From W (23, 35) -> Moves to (28, 31).
