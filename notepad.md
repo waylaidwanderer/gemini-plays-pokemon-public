@@ -95,5 +95,4 @@
   - **Conclusion:** The barrier at (10, 13) remains. This hypothesis is incorrect.
 - **Hypothesis #8:** After solving both the northern and western puzzles, the barrier at (10, 13) becomes destructible and can be removed using an HM move like Rock Smash.
 - **Hypothesis #9:** Solving both the northern and western puzzles causes a hidden switch to appear somewhere on the floor. The Itemfinder must be used to find and activate this new switch.
-- **Hypothesis #10:** The northern switch at (3, 10) is a pressure plate that must be stood on by the player, not the boulder, after the western puzzle has been solved.
-- **Hypothesis #11:** The boulder from the northern puzzle must be pushed off the switch at (3, 10) and then pushed back on, but only after the western puzzle has been completed.
+- **Hypothesis #10 & #11 (UNTESTABLE):** These hypotheses require moving the northern boulder off its switch at (3,10). However, all adjacent tiles needed to push from are impassable. Therefore, these hypotheses cannot be tested.
