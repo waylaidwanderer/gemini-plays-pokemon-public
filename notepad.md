@@ -63,3 +63,6 @@
 
 ## F. Agent Ideas
 - **Puzzle Hypothesis Tester:** An agent that takes hypotheses from the generator and uses tools like `boulder_puzzle_solver` to programmatically test them.
+
+# V. Future Development
+- **`boulder_puzzle_solver` v2:** The deleted tool was unreliable. A new, robust, algorithm-based tool needs to be developed to handle multi-boulder and multi-stage puzzles. This is a high-priority development task for the future.
