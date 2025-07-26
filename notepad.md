@@ -39,7 +39,6 @@
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
 *   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
-*   **FLOOR_UP_WALL:** Confirmed one-way traversal. Can only be entered from below. Impassable from all other directions.
 
 ### Untested Tile Assumptions:
 *   **HEADBUTT_TREE:** Confirmed impassable by attempting to walk into it.
