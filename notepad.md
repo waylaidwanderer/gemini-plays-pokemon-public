@@ -119,3 +119,13 @@
 *   **Tool-Fixing Failure Loop (Critical Failure):** On turns 8737-8742, I repeatedly submitted the same broken script for the `find_reachable_unseen_tiles` tool. This was a critical failure in mindfulness and a direct result of not using my `procedural_overseer` agent, which is designed to prevent such loops. This is a severe violation of my core directives and must not be repeated.
 16. **State:** (28, 31). Interact from West (27, 31) -> Disappeared.
 16. **State:** (29, 22). Interact from South (29, 23) -> Turns to face player, says 'Kwaa!', but does not move.
+### New Tile Types Discovered:
+*   **WARP_CARPET_RIGHT:** Functions as a one-way warp, likely activated by pressing 'Right'. Needs confirmation.
+
+# VIII. Untested Assumptions & Alternative Hypotheses
+*   **Assumption 1:** The Farfetch'd puzzle is solvable with current knowledge.
+    *   **Alternative Hypothesis:** A key item or NPC hint is required.
+    *   **Test Plan:** If still stuck after 50 more turns of systematic attempts, I will perform a full world exploration sweep, revisiting all previous areas for missed clues.
+*   **Assumption 2:** The northern part of Ilex Forest is permanently inaccessible from the south.
+    *   **Alternative Hypothesis:** A game event, possibly solving the Farfetch'd puzzle, will open the path.
+    *   **Test Plan:** Continue to run `find_reachable_unseen_tiles` after every major puzzle state change to check for new paths.
