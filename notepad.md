@@ -100,7 +100,7 @@
   - **Test:** Used Itemfinder at (9, 13) after both puzzles were solved.
   - **Conclusion:** The Itemfinder did not respond. This hypothesis is incorrect.
 - **Hypothesis #10 & #11 (UNTESTABLE):** These hypotheses require moving the northern boulder off its switch at (3,10). However, all adjacent tiles needed to push from are impassable. Therefore, these hypotheses cannot be tested.
-- **Hypothesis #12 (FAILED):** The defeated Youngster at (7, 11) can be walked through to reach the ladder.
+- **Hypothesis #12 (FAILED - VERIFIED):** The defeated Youngster at (7, 11) can be walked through to reach the ladder.
   - **Test:** Navigated to (7, 12) and attempted to move up.
   - **Conclusion:** The Youngster is an impassable object. The western platform is a confirmed dead end.
 
