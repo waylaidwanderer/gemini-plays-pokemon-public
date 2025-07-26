@@ -104,7 +104,7 @@
     *   From N (28, 30) -> No movement ['Kwaa!'] [Verified].
 *   **State (29, 22):**
     *   From W (28, 22) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
-    *   From S (29, 23) -> Disappears [Reset].
+    *   From S (29, 23) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
 
 ## C. Puzzle Hypotheses
 *   **Primary Hypothesis:** The puzzle is solvable with a specific sequence of directional interactions.
