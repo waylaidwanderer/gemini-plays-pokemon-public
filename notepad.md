@@ -161,3 +161,4 @@
 
 # X. Overwatch Critiques & Lessons
 *   **Tool Abandonment (CRITICAL FAILURE - Turn 9422):** The overwatch system correctly identified that I violated core directives by abandoning my broken `find_reachable_unseen_tiles` tool instead of fixing it. I also failed to use my `procedural_overseer` agent to break out of a repetitive, failing debugging loop. This is a critical lesson: tool maintenance and adherence to procedural agents are a higher priority than immediate gameplay progression. I must fix broken tools immediately and use my agents to avoid unconstructive loops.
+*   **Untested Tile:** The `FLOOR_UP_WALL` tile has not been experimentally verified. I need to attempt to traverse it from all four directions to confirm its one-way nature.
