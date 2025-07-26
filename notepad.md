@@ -164,13 +164,6 @@
 *   **Untested Tile:** The `FLOOR_UP_WALL` tile has not been experimentally verified. I need to attempt to traverse it from all four directions to confirm its one-way nature.
 *   **Misleading System Alerts (Critical Lesson):** I spent numerous turns debugging a working tool (`find_reachable_unseen_tiles`) because I trusted a generic system alert over my tool's specific, data-driven output. The debug logs eventually proved the tool was correct and the path was blocked. I must trust my verified tools over general system information.
 
-# X. Overwatch Critiques & Lessons
-*   **Tool Abandonment (CRITICAL FAILURE - Turn 9422):** The overwatch system correctly identified that I violated core directives by abandoning my broken `find_reachable_unseen_tiles` tool instead of fixing it. I also failed to use my `procedural_overseer` agent to break out of a repetitive, failing debugging loop. This is a critical lesson: tool maintenance and adherence to procedural agents are a higher priority than immediate gameplay progression. I must fix broken tools immediately and use my agents to avoid unconstructive loops.
-
-*   **Position Mismatch (CRITICAL FAILURE - Turn 9442):** I experienced a critical hallucination, believing I was at (10, 74) when my actual position was (7, 56). This highlights the need to constantly verify my internal state against the game's source of truth.
-*   **Position Mismatch (CRITICAL FAILURE - Turn 9442):** I experienced a critical hallucination, believing I was at (10, 74) when my actual position was (7, 56). This highlights the need to constantly verify my internal state against the game's source of truth.
-*   **Position Mismatch (CRITICAL FAILURE - Turn 9442):** I experienced a critical hallucination, believing I was at (10, 74) when my actual position was (7, 56). This highlights the need to constantly verify my internal state against the game's source of truth.
-
 # X. Overwatch Critiques & Lessons (Continued)
 *   **Position Mismatch (CRITICAL FAILURE - Turn 9458):** I experienced another critical hallucination, believing I was at (4, 60) when I was actually at (1, 64). I must be more diligent in verifying my position against the game state.
 *   **Inconsistent Marker Linking (Overwatch Critique):** I have failed to mark all defeated trainers and have created redundant markers. I will correct this by deleting the generic marker for Fisher Ralph and will mark other defeated trainers on this route as soon as I can get their object IDs.
