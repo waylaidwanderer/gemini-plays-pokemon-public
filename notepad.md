@@ -69,17 +69,15 @@
 - **Elevation Change (Correction):** My hypothesis that one can step down from `elevated_ground` to `ground` was tested and proven false by the game engine. Movement between elevations is only possible on `steps` or `cleared_boulder_barrier` tiles.
 - **Boulder Puzzle Reset:** Leaving and re-entering a floor resets all boulders to their original positions. This is a core mechanic for solving boulder puzzles.
 
-### B. Unconventional Escape Hypotheses (from Agent)
+## Unconventional Escape Hypotheses (from Agent)
 - Use an Escape Rope or a move like Dig/Teleport.
 - Misplaced boulder might have opened a path elsewhere.
 - A save/reload quirk could reset the puzzle.
 - The tile the player stands on might have a unique item interaction.
-### C. Unconventional Escape Hypotheses (from Agent - Second Set)
 - Intentionally losing a battle to a wild Pokémon will cause a 'white out' and reset the player's position to the last visited Pokémon Center, thus resetting the puzzle.
 - The Pokémon move 'Dig' can be used from the party menu to exit the cave, functioning as an alternative to an Escape Rope.
-- Saving the game, completely closing the game application, and then reloading the save file might reset the positions of all boulders on the floor.
 
-### Victory Road 1F Soft-Lock Paradox
+## Victory Road 1F Soft-Lock Paradox
 - **Situation:** I have created a soft-lock by pushing the boulder at (3, 10) against an impassable wall at (3, 9). This blocks the path to the only exit (the ladder at (2, 2)).
 - **Paradox:** The game rules state there are no soft-locks, yet I am trapped. Conclusion: A hidden mechanic or path must exist.
 - **New Plan:** Systematically test every impassable wall tile in the trapped area for a hidden passage.
