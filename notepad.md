@@ -34,20 +34,28 @@
 
 ## B. Known Trainer Rosters & Movesets
 
-### Cool Trainer M (Victory Road 3F) - DEFEATED
-- **Location:** (29, 6)
-- **Team:** CHARIZARD (Lv52), MAGNETON (Lv52), TENTACRUEL (Lv52)
+### Victory Road
 
-### Cool Trainer F (Victory Road 3F) - DEFEATED
-- **Location:** (14, 4)
-- **Team:** WIGGLYTUFF (Lv54), CLEFABLE (Lv54), CHANSEY (Lv54), EEVEE (Lv57)
+#### Victory Road 1F
+*(No trainers defeated yet)*
+
+#### Victory Road 2F
+*(No trainers defeated yet)*
+
+#### Victory Road 3F
+- **Cool Trainer M (DEFEATED)**
+  - **Location:** (29, 6)
+  - **Team:** CHARIZARD (Lv52), MAGNETON (Lv52), TENTACRUEL (Lv52)
+- **Cool Trainer F (DEFEATED)**
+  - **Location:** (14, 4)
+  - **Team:** WIGGLYTUFF (Lv54), CLEFABLE (Lv54), CHANSEY (Lv54), EEVEE (Lv57)
 
 # III. Core Gameplay Lessons & Reflections
 
 - **Core Principle: Fix, Don't Defer.** Critical tools with known bugs MUST be fixed immediately. Deferring fixes is a strategic failure.
 - **Core Principle: Address critiques immediately.** When a tool is identified as faulty by an external check (like the overwatch system), fixing it becomes the absolute highest priority.
 - **Core Principle: Verify, Then Trust.** Tool outputs and personal assumptions are hypotheses, not facts. They must be verified against the game state before being trusted.
-- **Core Principle: Agent vs. Tool.** Agents are for reasoning and planning. Tools are for computation and data processing. A task that can be solved with code MUST be a tool, not an agent.
+- **Core principle: Agent vs. Tool.** Agents are for reasoning and planning. Tools are for computation and data processing. A task that can be solved with code MUST be a tool, not an agent.
 - **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points are actually reachable to avoid building strategies on flawed assumptions.
 
 # IV. Tool Development Notes
