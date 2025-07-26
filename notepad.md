@@ -98,4 +98,4 @@
 *   Verify if the Team Rocket markers in Azalea Town are still relevant or if the NPCs have disappeared.
 *   Test seemingly impassable objects like bookshelves and radios to confirm they are not interactable in a meaningful way.
 *   **Ilex Forest:** There's an unmarked warp at (3, 43) that needs investigation.
-*   **Ilex Forest:** There are potentially reachable unseen tiles around (27, 22), (22, 29), and (22, 32) that need investigation.
+*   **Ilex Forest:** Potentially reachable unseen tiles around (27, 22), (22, 29), (22, 32), (28, 29), (29, 29), (28, 31), (20, 34), (21, 34), and (22, 34) need investigation.
