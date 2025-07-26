@@ -112,3 +112,5 @@
 - **Hypothesis #E:** Pushing the western boulder onto the warp at (10, 18) teleports it to a hidden, secondary switch. The northern and eastern puzzles must be solved after this teleportation event occurs.
 - **Hypothesis #F:** The defeated trainer at (7, 11) is not an obstacle, but a guide. Talking to him after attempting to solve each puzzle will yield a new clue.
 - **Hypothesis #G:** The northern boulder must be pushed one tile PAST the switch at (3,10), not directly onto it, to trigger the mechanism correctly.
+- **Hypothesis #D (IN PROGRESS):** After solving the northern and western puzzles, the player must leave Victory Road 1F and then re-enter for the barrier at (10, 13) to be removed.
+  - **Test:** Northern puzzle solved. Western puzzle solved (boulder pushed onto warp at (10, 18)). Now leaving the map via the southern exit.
