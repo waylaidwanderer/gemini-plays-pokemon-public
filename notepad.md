@@ -98,6 +98,7 @@
 *   **State (28, 31):**
     *   From E (29, 31) -> Disappears [Reset].
     *   From W (27, 31) -> Disappears [Reset].
+    *   From S (28, 32) -> Disappears [New Location Unknown, potential progress].
 *   **State (29, 22):**
     *   From W (28, 22) -> No reaction.
     *   From S (29, 23) -> Disappears [Reset].
