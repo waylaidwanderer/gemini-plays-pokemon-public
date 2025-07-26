@@ -92,11 +92,11 @@
 4.  **State:** (22, 31)
     *   Interact from South (22, 32) -> Moves to (15, 29).
     *   Interact from North (22, 30) -> Moves to (28, 31).
-5.  **Current State:** (28, 31)
-    *   **Last Action:** Interacted from East (29, 31). Awaiting result.
+5.  **State:** (28, 31)
+    *   Interact from East (29, 31) -> Disappeared.
 
 ## C. Current Hypothesis
-*   The puzzle requires a specific sequence of directional interactions to guide the Farfetch'd towards the apprentice. My next step is to observe the result of interacting from the east at (28, 31).
+*   The puzzle requires a specific sequence of directional interactions. The Farfetch'd has disappeared again. My next step is to search for it, starting near the apprentice's location.
 
 # VI. Critical Failures & Lessons Learned
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like updating my notepad or linking map markers) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
