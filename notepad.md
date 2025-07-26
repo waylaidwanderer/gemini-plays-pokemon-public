@@ -52,4 +52,7 @@
 
 # IV. Current Plans & Hypotheses
 
-- **Victory Road 1F Puzzle (Western Section):** Confirmed a soft-lock state on the western side. The upper platform is a dead end. The only solution is to reset the puzzle by leaving and re-entering the map.
+- **Victory Road 1F Puzzle (CORRECTED HYPOTHESIS):** To clear the boulder barrier at (10, 13), BOTH switches on the floor must be activated. 
+  - **Switch 1:** The boulder at (3, 11) must be pushed onto the switch at (3, 10).
+  - **Switch 2:** The boulder at (6, 16) must be pushed onto the switch at (18, 14).
+  - This requires careful, sequential pushing and repositioning to avoid soft-locking. The western platform is a confirmed dead end and should be avoided.
