@@ -15,7 +15,6 @@
 ### Warp Tiles:
 *   **WARP_CARPET_DOWN:** One-way warp. Activated by pressing 'Down'.
 *   **WARP_CARPET_LEFT:** One-way warp. Activated by pressing 'Left'.
-*   **WARP_CARPET_RIGHT:** One-way warp. Activated by pressing 'Right'.
 
 ### Confirmed Impassable:
 *   **WALL:** Confirmed impassable. Blocks movement from all directions.
@@ -128,6 +127,5 @@
 8. State: (24, 35). Interact from West (23, 35) -> Moves to (28, 31).
 9. State: (28, 31). Interact from West (27, 31) -> Moved off-screen.
 
-*   **WARP_CARPET_RIGHT:** One-way warp. Activated by pressing 'Right'.
 *   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
 *   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
