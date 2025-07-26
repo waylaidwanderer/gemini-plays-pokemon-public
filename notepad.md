@@ -96,7 +96,8 @@
 *   **Azalea Pokecenter 2F:** This entire floor is a dead end for now. All warps are blocked by NPCs or walls.
 
 # IX. High-Priority Tasks
-*   Verify object ID for 'Lost Apprentice?' marker when it is on screen.
-*   Investigate the unexplored warp at (3, 43).
-*   Investigate newly detected unseen tiles. Consolidated list: (28, 29), (29, 29), (28, 31), (20, 34), (21, 34), (22, 34), (20, 36), (21, 36), (22, 36), (23, 36), (24, 36), (25, 36), (26, 36), (27, 36), (28, 36).
-- Investigate newly detected unseen tiles: (20, 36), (21, 36), (22, 36), (23, 36), (24, 36), (25, 36), (26, 36), (27, 36), (28, 36).
+*   **Verify Object IDs:**
+    *   Confirm the object ID for the `Item Ball` at (20, 32) and link its marker.
+    *   Verify the object ID for the 'Lost Apprentice?' marker at (7, 28) when it is on screen.
+*   **Investigate Unexplored Warp:** Check the warp at (3, 43).
+*   **Investigate Unseen Tiles:** Consolidated list: (20, 36), (21, 36), (22, 36), (23, 36), (24, 36), (25, 36), (26, 36), (27, 36), (28, 36).
