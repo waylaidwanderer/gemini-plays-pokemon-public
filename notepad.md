@@ -68,16 +68,18 @@
 ### Victory Road 3F Puzzle
 - **Status:** Complete. Secret ladder at (3, 1) was the true path.
 
-# V. Current Puzzle: Victory Road 1F (Main Area)
+# IV. Current Puzzle: Victory Road 1F
 
-**Hypothesis 1 (Failed):** Pushing the boulder at (3, 11) to (3, 10) opens the barrier at (10, 13).
-- **Test (Attempt 1 & 2):** Navigated to (9, 13) and attempted to walk through the barrier at (10, 13).
-- **Result:** Movement was blocked. The barrier is impassable.
-- **Conclusion:** Hypothesis is incorrect. This path is a dead end. The only solution is to leave and re-enter the map to reset the puzzle.
+## A. Overview
+The puzzle on this floor involves multiple boulders and switches. The main goal is to reach the ladder to 2F at (2, 2).
 
-**Hypothesis 2 (Failed):** Pushing the boulder at (6, 16) north to (6, 15) would open a path.
-- **Test:** Pushed the boulder to (6, 15).
-- **Result:** This blocked access to the steps at (6, 14) and opened no new paths, creating a soft-lock.
-- **Conclusion:** Hypothesis is incorrect. The boulder must not be pushed north.
+## B. Tested Hypotheses
+1.  **Hypothesis (Eastern Path):** Pushing the boulder at (3, 11) to (3, 10) opens the eastern barrier at (10, 13).
+    - **Status:** FAILED (2 attempts). The barrier remains impassable. The eastern platform is a dead end.
+2.  **Hypothesis (Western Path - Part 1):** Pushing the boulder at (6, 16) NORTH to (6, 15) is the first step.
+    - **Status:** FAILED (1 attempt). This action blocks access to the western platform steps, creating a soft-lock.
+3.  **Hypothesis (Western Path - Part 2):** Pushing the boulder at (6, 16) SOUTH to (6, 17) opens the path on the western platform by clearing the impassable tile at (5, 13).
+    - **Status:** FAILED (2 attempts). The boulder was pushed to (6, 17), blocking the southern exit. However, the tile at (5, 13) remained impassable.
 
-**Hypothesis 3 (Current):** Pushing the boulder at (6, 16) SOUTH is the correct first step.
+## C. Current Hypothesis
+- **Hypothesis (The Forced Path):** Pushing the boulder to (6, 17) and blocking the southern exit was the *intended* action. The game is forcing me to find an alternative route. Since the eastern path is a confirmed dead end, the solution MUST be on the western platform, despite my previous failures to navigate it. I must have missed a path around the impassable tile at (5, 13). My goal is to re-explore the western platform thoroughly.
