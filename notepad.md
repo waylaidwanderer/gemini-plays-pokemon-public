@@ -11,7 +11,6 @@
 - **Boulder Barrier:** An impassable barrier that becomes a `cleared_boulder_barrier` tile when the corresponding switch is activated.
 - **Cleared Boulder Barrier:** A traversable ground tile that appears after a boulder puzzle is solved.
 - **Steps:** Allows two-way vertical movement between `ground` and `elevated_ground` tiles.
-- **Ladders (`ladder_up`, `ladder_down`):** Function as instant 1x1 warps between floors.
 - **Hole:** A tile that functions as a warp, dropping the player to a lower floor.
 - **Spinner (`spinner_`...):** Forces movement in the specified direction.
 - **Boulder Pushing Mechanic (FINAL CORRECTION):** After activating Strength, stand adjacent to a boulder and face it. Pressing the directional button towards the boulder pushes it one tile. The player character **remains in their original position** and does NOT move into the boulder's previous space.
