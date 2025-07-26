@@ -151,3 +151,4 @@
 
 # X. To-Do & Reminders
 * Reminder (from Overwatch): Consolidate redundant Rocket Grunt markers at (10, 16) in Azalea Town next time I'm there.
+*   **FLOOR_UP_WALL:** Untested. Appears to be a one-way tile that can only be traversed from below.
