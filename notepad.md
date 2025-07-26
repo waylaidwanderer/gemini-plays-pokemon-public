@@ -89,7 +89,7 @@
 10. **State:** (22, 31). Interact from East (23, 31) -> Moves to (24, 35).
 11. **State:** (24, 35). Interact from West (23, 35) -> Moves to (28, 31).
 12. **State:** (28, 31). Interact from West (27, 31) -> Moved off-screen.
-13. **State:** (29, 22). Interact from South (29, 23) -> Disappeared.
+13. **State:** (29, 22). Interact from South (29, 23) -> Turns to face player, says 'Kwaa!', but does not move.
 14. **State:** (20, 24). Interact from North (20, 23) -> Disappeared.
 
 ## C. Current Hypothesis
