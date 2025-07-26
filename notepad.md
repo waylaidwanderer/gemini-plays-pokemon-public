@@ -96,6 +96,7 @@
 *   **Route 32 Pier:** This area is a dead end. The southern part of the route is unreachable from the northern section.
 *   **Union Cave B1F:** This area is a dead end, accessible from a ladder on 1F. The path is blocked by one-way walls.
 *   **Azalea Pokecenter 2F:** This entire floor is a dead end for now. All warps are blocked by NPCs or walls.
+*   **Unseen Tiles in Ilex Forest:** System detected potentially reachable unseen tiles: (20, 36), (21, 36), (22, 36), (23, 36), (24, 36), (25, 36), (26, 36), (27, 36), (28, 36). Need to investigate these if the Farfetch'd puzzle proves to be a dead end.
 
 # IX. High-Priority Tasks
 *   **Verify Object IDs:**
