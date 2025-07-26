@@ -61,5 +61,7 @@
   - Re-challenging an NPC with a specific item triggers a reset.
 
   - **Conclusion:** The barrier at (10, 13) remains. This hypothesis is incorrect.
-- **Hypothesis #8 (Testing):** After solving the northern puzzle, the western boulder at (6, 16) must be pushed onto the warp tile at (9, 18).
-  - **Test:** Solved northern puzzle. Pushed western boulder to (9, 18). Navigating to (9, 13) to observe.
+- **Hypothesis #8 (FAILED):** After solving the northern puzzle, the western boulder at (6, 16) must be pushed onto the warp tile at (9, 18).
+  - **Test:** Solved northern puzzle. Pushed western boulder to (9, 18). Navigated to (9, 13) to observe.
+  - **Conclusion:** The barrier at (10, 13) remains. This hypothesis is incorrect.
+- **Hypothesis #9 (Testing):** After solving the northern puzzle and pushing the western boulder onto the warp at (9, 18), the player must step on the adjacent warp tile at (10, 18).
