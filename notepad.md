@@ -104,6 +104,7 @@
     *   From N (28, 30) -> Moves to (24, 35) [Verified].
 *   **State (24, 35) [Continued]:**
     *   From E (25, 35) -> Moves to (22, 31) [Verified].
+    *   From E (25, 35) -> No movement ['Kwaa!'] [Verified].
 *   **State (29, 22):**
     *   From W (28, 22) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
     *   From S (29, 23) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
