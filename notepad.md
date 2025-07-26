@@ -57,11 +57,11 @@
 - **Hypothesis 1 (Failed):** Pushing the eastern boulder at (6, 17) to the switch at (18, 14) is impossible. Abandoned.
 - **Hypothesis 2 (CONFIRMED):** Pushed the boulder at (3, 11) onto the switch at (3, 10).
 - **Hypothesis 3 (FAILED):** Activating the western switch did NOT open the barrier at (10, 13).
-- **Hypothesis 4 (FAILED - from Agent):** The switch opened a secret passage on the western platform. After a full sweep of the area, this was proven false. The area is a confirmed dead end.
-- **Hypothesis 5 (FAILED):** My attempt to reset the puzzle by leaving the map was blocked; the exit is unreachable. This confirms I am not soft-locked.
-- **Hypothesis 6 (FAILED):** Interacting with the barrier at (10, 13) by pressing 'A' had no effect.
-- **Hypothesis 7 (FAILED):** Pushing the barrier at (10, 13) with Strength had no effect. All conventional methods have failed. My agent has provided new hypotheses.
-- **Hypothesis 8 (ACTIVE - from Agent):** The 'boulder_barrier' is a sleeping Pokémon that can be awakened with the Poké Flute. I will test this now.
+- **Hypothesis 4 (FAILED):** Exploring the western platform revealed no secret passage. The area is a confirmed dead end.
+- **Hypothesis 5 (FAILED):** Interacting with the barrier at (10, 13) by pressing 'A' had no effect.
+- **Hypothesis 6 (FAILED):** Pushing the barrier at (10, 13) with Strength had no effect.
+- **Hypothesis 7 (FAILED):** Using the Poké Flute had no effect on the barrier.
+- **Hypothesis 8 (ACTIVE - from Agent):** Activating the switch revealed a hidden item. I will use the ITEMFINDER to locate it.
 
 ## F. Agent Ideas
 - **Puzzle Hypothesis Tester:** An agent that takes hypotheses from the generator and uses tools like `boulder_puzzle_solver` to programmatically test them.
