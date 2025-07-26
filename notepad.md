@@ -52,37 +52,6 @@
 - **`boulder_puzzle_solver`:** Current version is only for single-boulder puzzles. A future version needs to handle multi-boulder, multi-stage puzzles like the one on Victory Road 1F.
 - **`gem_pathfinder`:** The cost calculation for pathing should be improved to account for the extra actions required for HMs like Surf, making land routes more preferable when efficient.
 
-### Victory Road 1F Boulder Puzzle
-- **Current State:** I am trapped on the western platform. The game state is paradoxical: it is a confirmed dead end, but the barrier at (10, 13) is listed as 'reachable'. This implies a non-obvious solution exists that the pathfinder cannot see.
-- **Failed Hypotheses (Documented):**
-  - Push eastern boulder to eastern switch (Impossible)
-  - Activating western switch opens barrier (False)
-  - Secret passage on western platform (False)
-  - Reset puzzle by leaving map (Exit unreachable)
-  - Interact with barrier with 'A' button (No effect)
-  - Push barrier with Strength (No effect)
-  - Use Poké Flute on barrier (No effect)
-  - Use ITEMFINDER near barrier (No item found)
-- **New Hypotheses from Agent (Round 2):**
-  1. Use an Escape Rope or the move Dig to reset the puzzle.
-  2. Find a hidden second switch on the platform.
-  3. The lead Pokémon must be the one with Strength.
-  4. Use a field move (like Dig) from the party menu while facing the barrier.
-  5. Find a hidden, unmarked jump-down point.
-  6. The barrier is now a standard boulder that can be pushed sideways.
-- **Hypothesis 3 (FAILED):** Having the Strength user in the lead had no effect.
-- **Hypothesis 5 (FAILED):** There is a hidden, unmarked jump-down point. System confirmed pathing to edges is impossible, falsifying this.
-- **Hypothesis 6 (FAILED):** The barrier is a standard boulder that can be pushed sideways.
-- **New Hypotheses from Agent (Round 3):**
-  1. Push the boulder OFF of the switch at (3, 10). The switch being un-pressed may be the trigger.
-  2. Intentionally lose a battle to 'black out', which will reset the puzzle state.
-  3. Use the move 'Dig' or an 'Escape Rope' to exit the area.
-  4. The boulder must be pushed to a specific, unmarked tile on the platform.
-  5. The switch at (3, 10) operates on a timer.
-  6. The switch at (3, 10) must be toggled (pushed on and then off).
-  7. The barrier is removed by a delayed NPC event on the other side.
-- **Active Hypothesis:** Push the boulder OFF of the switch at (3, 10).
-
 # V. Future Development
 - **`boulder_puzzle_solver` v2:** The deleted tool was unreliable. A new, robust, algorithm-based tool needs to be developed to handle multi-boulder and multi-stage puzzles. This is a high-priority development task for the future.
 ## F. Agent Ideas
