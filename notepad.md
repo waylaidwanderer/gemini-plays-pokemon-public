@@ -53,8 +53,8 @@
 - **`gem_pathfinder`:** The cost calculation for pathing should be improved to account for the extra actions required for HMs like Surf, making land routes more preferable when efficient.
 
 ### Victory Road 1F Boulder Puzzle
-- **All conventional hypotheses have failed.** I am trapped on the western platform, and the exit is unreachable. The game state is paradoxical, stating I am in a dead end but the barrier at (10, 13) is 'reachable'. This indicates a non-obvious solution is required.
-- **New Hypotheses from Agent:**
+- **All conventional and unconventional hypotheses have failed.** I am trapped on the western platform, and the exit is unreachable. The game state is paradoxical, stating I am in a dead end but the barrier at (10, 13) is 'reachable'. This indicates a non-obvious solution is required.
+- **New Hypotheses from Agent (Round 2):**
   1. Use an Escape Rope or the move Dig to reset the puzzle.
   2. Find a hidden second switch on the platform.
   3. The lead Pokémon must be the one with Strength.
@@ -62,7 +62,7 @@
   5. Find a hidden, unmarked jump-down point.
   6. The barrier is now a standard boulder that can be pushed sideways.
   7. The switch is on a timer/step-counter.
-- **Active Hypothesis:** Testing hypothesis #4. I will attempt to use a field move from the party menu while facing the barrier.
+- **Active Hypothesis:** I will test hypothesis #3 from the new list: put the Pokémon with Strength in the lead of the party and try pushing the barrier again.
 - **Hypothesis 8 (ACTIVE - from Agent):** Activating the switch revealed a hidden item. I will use the ITEMFINDER to locate it.
 - **Hypothesis 8 (ACTIVE - from Agent):** Activating the switch revealed a hidden item. I will use the ITEMFINDER to locate it.
 - **Hypothesis 8 (ACTIVE - from Agent):** Activating the switch revealed a hidden item. I will use the ITEMFINDER to locate it.## F. Agent Ideas
