@@ -72,8 +72,8 @@
   6. The barrier is now a standard boulder that can be pushed sideways.
 - **Hypothesis 3 (FAILED):** Having the Strength user in the lead had no effect.
 - **Hypothesis 5 (FAILED):** There is a hidden, unmarked jump-down point. System confirmed pathing to edges is impossible, falsifying this.
-- **Active Hypothesis (from Agent #6):** The barrier is now a standard boulder that can be pushed sideways.
-- **Hypothesis (Pending):** Use an Escape Rope or the move Dig to reset the puzzle.
+- **Hypothesis 6 (FAILED):** The barrier is a standard boulder that can be pushed sideways.
+- **Next Step:** All hypotheses have been exhausted. Generating new hypotheses.
 
 # V. Future Development
 - **`boulder_puzzle_solver` v2:** The deleted tool was unreliable. A new, robust, algorithm-based tool needs to be developed to handle multi-boulder and multi-stage puzzles. This is a high-priority development task for the future.
