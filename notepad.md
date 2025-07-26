@@ -5,8 +5,7 @@
 - **"No Will to Fight" Message:** Appears when the party menu cursor is on a fainted Pokémon.
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
-- **Defeated Trainers:** Often become impassable objects.
-- **Special NPC Interaction:** Certain puzzles may require walking *through* an NPC rather than interacting with them.
+- **Defeated Trainers:** Often become impassable objects, but this is not a universal rule (e.g., Super Nerd in Rock Tunnel was traversable).
 
 ## B. Boulder Pushing
 - **Activation:** Activate Strength from the party menu.
