@@ -101,7 +101,7 @@
     *   From W (27, 31) -> Disappears [Reset].
     *   From S (28, 32) -> Disappears [New Location Unknown, potential progress] [Verified].
 *   **State (29, 22):**
-    *   From W (28, 22) -> No reaction.
+    *   From W (28, 22) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
     *   From S (29, 23) -> Disappears [Reset].
 
 ## C. Puzzle Hypotheses
