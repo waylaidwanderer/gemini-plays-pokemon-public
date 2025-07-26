@@ -74,9 +74,11 @@
 
 # V. Untested Assumptions & Hypotheses
 *   The 'strange tree' on Route 36 can be removed with a specific key item or HM.
+*   **Alternative Hypothesis for HM01:** The Farfetch'd puzzle may not be the only way to obtain HM01 (Cut). It could be found elsewhere, or another path to Goldenrod City might exist. **Test:** If the puzzle becomes impossible, I must explore all other paths, including the Unexplored Warp at (3, 43), to their absolute ends.
 
 # VI. Critical Failures & Lessons Learned
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks (like marking warps or updating my notepad) instead of performing them immediately. This is a violation of core directives and must be corrected. I must act immediately on new information.
+*   **Proactive Marking Failure:** I have failed to proactively mark significant discoveries like unvisited warps. I must be more diligent in marking all key points of interest as soon as they are discovered.
 *   **Tool Distrust:** I have repeatedly failed to trust my `find_path_to_target` tool's output, assuming it was broken when it correctly identified blocked paths (e.g., by NPCs). I must trust my tool's output and analyze the map more carefully before assuming a bug.
 *   **HM moves can be used even if the Pokémon is fainted.** This is a key mechanic learned from the Gentleman in the Charcoal Kiln.
 *   **stun_npc Tool Correction:** I previously believed `stun_npc` was a hallucination. This was a critical failure to consult my available tools list. `stun_npc` is a real tool and can be used to freeze NPCs.
@@ -96,6 +98,4 @@
 # IX. High-Priority Tasks
 *   Verify object ID for 'Lost Apprentice?' marker when it is on screen.
 *   Investigate the unexplored warp at (3, 43).
-*   Investigate newly detected unseen tiles: (28, 29), (29, 29), (28, 31), (20, 34), (21, 34), (22, 34).
-- High-Priority: Investigate newly detected unseen tiles: (20, 36), (21, 36), (22, 36), (23, 36), (24, 36), (25, 36), (26, 36), (27, 36), (28, 36).
-- High-Priority: Investigate newly detected unseen tiles: (20, 36), (21, 36), (22, 36), (23, 36), (24, 36), (25, 36), (26, 36), (27, 36), (28, 36).
+*   Investigate newly detected unseen tiles. Consolidated list: (28, 29), (29, 29), (28, 31), (20, 34), (21, 34), (22, 34), (20, 36), (21, 36), (22, 36), (23, 36), (24, 36), (25, 36), (26, 36), (27, 36), (28, 36).
