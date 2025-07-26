@@ -101,44 +101,36 @@
     *   From E (29, 31) -> Disappears [Reset].
     *   From W (27, 31) -> Disappears [Reset].
     *   From S (28, 32) -> No movement ['Kwaa!'] [Verified].
-    *   From N (28, 30) -> No movement ['Kwaa!'] [Verified].
+    *   From N (28, 30) -> Moves to (24, 35) [Verified].
+*   **State (24, 35) [Continued]:**
+    *   From E (25, 35) -> Moves to (22, 31) [Verified].
 *   **State (29, 22):**
     *   From W (28, 22) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
     *   From S (29, 23) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
 
 ## C. Puzzle Hypotheses
-*   **Primary Hypothesis:** The puzzle is solvable with a specific sequence of directional interactions.
-*   **Alternative Hypothesis 1:** The puzzle solution is time-dependent (e.g., requires specific time of day).
-*   **Alternative Hypothesis 2:** The puzzle requires a key item I don't possess yet.
+*   **Hypothesis 1 (Primary):** The puzzle is solvable with a specific sequence of directional interactions.
+*   **Hypothesis 2 (Alternative):** The puzzle solution is time-dependent (e.g., requires specific time of day).
+*   **Hypothesis 3 (Alternative):** The puzzle requires a key item I don't possess yet.
+*   **Hypothesis 4 (Alternative):** The puzzle's solution may not just be about the direction of interaction, but also about other cues, such as the sounds the Farfetch'd makes ('Kwaa!') or the direction it faces after being pushed. I need to pay closer attention to these details.
+*   **Hypothesis 5 (Current):** Leaving and re-entering Ilex Forest may reset the Farfetch'd puzzle, allowing for a fresh attempt.
 
 ## D. Confirmed Blockages
 *   **Northern Path (Y=23):** The northern path is definitively confirmed to be unreachable from the southern part of the forest. This has been repeatedly verified by my `verify_reachability_of_tiles` tool, which found no valid path. The system alerts are misleading.
 *   **Western Path (Y=23):** The western path from (0,23) to (9,23) is confirmed to be unreachable from the central forest area. Verified with `verify_reachability_of_tiles` tool (Turn 9919).
 
 # VI. Critical Failures & Lessons Learned (Consolidated)
-*   **Data Management Deferral:** I have a pattern of deferring critical data management tasks. This is a violation of core directives and must be corrected.
+*   **Data Management Deferral:** I have a pattern of deferring critical data management tasks, such as immediately updating map markers and notepad entries upon discovery. This is a violation of core directives and must be corrected.
 *   **Tool Distrust:** I have repeatedly failed to trust my `find_path_to_target` tool's output, assuming it was broken when it correctly identified blocked paths.
 *   **HM moves can be used even if the Pokémon is fainted.** This is a key mechanic learned from the Gentleman in the Charcoal Kiln.
-
 *   **Agent Underutilization:** I am not consistently using my `procedural_overseer` agent. I must integrate it into my regular workflow to prevent repetitive mistakes.
 *   **Inconsistent Marker Linking:** I have failed to link markers to object IDs immediately upon discovery.
 *   **Repetitive Tool Failures (Critical Failure):** I repeatedly failed to update a tool (turns 8737-8742) by submitting an identical script. This is a critical failure loop that could have been prevented by using my `procedural_overseer` agent. This is a lesson in mindfulness and checking my work before submission.
 *   **Deferred Tool Fixing (Critical Failure):** I incorrectly deferred fixing a broken tool by making it a tertiary goal. Tool maintenance is an immediate, high-priority action that must be completed before any other gameplay objective.
-*   **Tool Underutilization (Overwatch Critique):** The overwatch system noted a failure to use my `farfetchd_puzzle_solver` tool. The overwatch system noted a failure to use my `farfetchd_puzzle_solver` tool. The critique was valid, and I have since located the Farfetch'd, making the tool usable again.
+*   **Tool Underutilization (Overwatch Critique):** I failed to use my `farfetchd_puzzle_solver` tool when it was applicable, a valid critique from the overwatch system.
+*   **Misleading System Alerts (Critical Lesson):** I spent numerous turns debugging a working tool (`find_reachable_unseen_tiles`) because I trusted a generic system alert over my tool's specific, data-driven output. The debug logs eventually proved the tool was correct and the path was blocked. I must trust my verified tools over general system information.
 
 # VII. Puzzle Solutions
 
 ## A. Ruins of Alph (Kabuto Puzzle)
 *   The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces.
-
-# VIII. Overwatch Critiques & Lessons
-*   **Tool Abandonment (CRITICAL FAILURE - Turn 9422):** The overwatch system correctly identified that I violated core directives by abandoning my broken `find_reachable_unseen_tiles` tool instead of fixing it. I also failed to use my `procedural_overseer` agent to break out of a repetitive, failing debugging loop. This is a critical lesson: tool maintenance and adherence to procedural agents are a higher priority than immediate gameplay progression. I must fix broken tools immediately and use my agents to avoid unconstructive loops.
-*   **Misleading System Alerts (Critical Lesson):** I spent numerous turns debugging a working tool (`find_reachable_unseen_tiles`) because I trusted a generic system alert over my tool's specific, data-driven output. The debug logs eventually proved the tool was correct and the path was blocked. I must trust my verified tools over general system information.
-*   **State (28, 31) [Continued]:**
-    *   From N (28, 30) -> Moves to (24, 35) [Verified].
-*   **State (24, 35):**
-*   **State (24, 35) [Continued]:**
-    *   From E (25, 35) -> Moves to (22, 31) [Verified].
-*   **Alternative Hypothesis 3 (from reflection):** The puzzle's solution may not just be about the direction of interaction, but also about other cues, such as the sounds the Farfetch'd makes ('Kwaa!') or the direction it faces after being pushed. I need to pay closer attention to these details.
-*   **State (29, 22):**
-*   **Hypothesis:** Leaving and re-entering Ilex Forest may reset the Farfetch'd puzzle, allowing for a fresh attempt.
