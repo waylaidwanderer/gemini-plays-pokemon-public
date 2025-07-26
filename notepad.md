@@ -56,27 +56,29 @@
 - **Boulder Puzzle Strategy:** Before pushing any boulder, use the pathfinder to verify the entire route for both the player and the boulder to prevent soft-locking.
 - **Debugging Strategy:** When a tool fails, add extensive logging to understand its internal state before attempting a fix. Or, manually test the game mechanics to gather ground-truth data.
 
-# IV. Archives
+# IV. Current Objective: Solve Victory Road 1F Puzzle
+
+## A. Situation Summary
+- I am currently trapped on Victory Road 1F. I cannot reach the exit warp at (9, 18) to reset the map.
+- The boulder at (6, 17) blocks the southern path.
+- The boulder at (3, 10) does not appear to open the eastern barrier at (10, 13).
+
+## B. Failed Hypotheses Log
+1.  **Hypothesis (Eastern Path):** Pushing the boulder at (3, 11) to (3, 10) opens the eastern barrier at (10, 13).
+    - **Status:** FAILED (3 attempts). The barrier remains impassable. The eastern path is a confirmed dead end.
+2.  **Hypothesis (Western Path - Part 1):** Pushing the boulder at (6, 16) NORTH to (6, 15) is the first step.
+    - **Status:** FAILED (1 attempt). This action blocks access to the western platform steps, creating a soft-lock.
+3.  **Hypothesis (Western Path - Part 2):** Pushing the boulder at (6, 16) SOUTH to (6, 17) opens a path on the western platform.
+    - **Status:** FAILED (2 attempts). This action blocks the southern exit, and no new path on the platform was found.
+4. **Hypothesis (NPC Dialogue Change):** An NPC's dialogue will change after the player gets trapped, offering a solution.
+    - **Test:** Trapped myself by pushing the boulder to (6, 17), then spoke to the Youngster at (7, 11).
+    - **Conclusion:** FAILED (1 attempt). The Youngster's dialogue was unchanged.
+
+## C. Current Working Hypothesis
+- **Hypothesis (Misinterpreted Path):** My initial assessment that the western platform is a dead end after pushing the boulder to (6, 17) was incorrect. The game cannot be soft-locked, therefore a path MUST exist on that platform that I have previously missed. My goal is to return to the western platform and re-explore it thoroughly.
+
+# V. Archives
 
 ## A. Completed Puzzles
 - **Victory Road 2F Puzzle:** Complete. Boulder from (4, 16) to switch at (2, 17).
 - **Victory Road 3F Puzzle:** Complete. Secret ladder at (3, 1) was the true path.
-
-# V. Current Puzzle: Victory Road 1F
-
-## A. Overview
-The puzzle on this floor involves multiple boulders and switches. The main goal is to reach the ladder to 2F at (2, 2).
-
-## B. Tested Hypotheses
-1.  **Hypothesis (Eastern Path):** Pushing the boulder at (3, 11) to (3, 10) opens the eastern barrier at (10, 13).
-    - **Status:** FAILED (2 attempts). The barrier remains impassable. The eastern platform is a dead end.
-2.  **Hypothesis (Western Path - Part 1):** Pushing the boulder at (6, 16) NORTH to (6, 15) is the first step.
-    - **Status:** FAILED (1 attempt). This action blocks access to the western platform steps, creating a soft-lock.
-3.  **Hypothesis (Western Path - Part 2):** Pushing the boulder at (6, 16) SOUTH to (6, 17) opens the path on the western platform by clearing the impassable tile at (5, 13).
-    - **Status:** FAILED (2 attempts). The boulder was pushed to (6, 17), blocking the southern exit. However, the tile at (5, 13) remained impassable.
-
-## C. Current Hypothesis
-- **Hypothesis (The Forced Path):** Pushing the boulder to (6, 17) and blocking the southern exit was the *intended* action. The game is forcing me to find an alternative route. Since the eastern path is a confirmed dead end, the solution MUST be on the western platform, despite my previous failures to navigate it. I must have missed a path around the impassable tile at (5, 13). My goal is to re-explore the western platform thoroughly.
-4. **Hypothesis (NPC Dialogue Change):** An NPC's dialogue will change after the player gets trapped, offering a solution.
-    - **Test:** Trapped myself by pushing the boulder to (6, 17), then spoke to the Youngster at (7, 11).
-    - **Conclusion:** FAILED (1 attempt). The Youngster's dialogue was unchanged. This hypothesis is false.
