@@ -15,7 +15,7 @@
 - **Hole:** A tile that functions as a warp, dropping the player to a lower floor.
 - **Spinner (`spinner_`...):** Forces movement in the specified direction.
 - **Boulder Pushing Mechanic (FINAL CORRECTION):** After activating Strength, stand adjacent to a boulder and face it. Pressing the directional button towards the boulder pushes it one tile. The player character **remains in their original position** and does NOT move into the boulder's previous space.
-- **Elevation Traversal (Correction):** Movement between 'elevated_ground' and 'ground' is ONLY possible via 'steps' tiles. It is not possible to 'step down' from a ledge-like edge of an elevated area.
+- **Elevation Traversal (Correction):** Movement between 'elevated_ground' and 'ground' is ONLY possible via 'steps' or 'cleared_boulder_barrier' tiles. It is not possible to 'step down' from a ledge-like edge of an elevated area.
 
 ## B. General Rules & Heuristics
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
@@ -50,21 +50,6 @@
 - **Core Principle: Agent vs. Tool.** Agents are for reasoning and planning. Tools are for computation and data processing. A task that can be solved with code MUST be a tool, not an agent.
 - **Core Principle: Verify Reachability.** Before forming a complex navigation plan, use the pathfinder to verify that key points are actually reachable to avoid building strategies on flawed assumptions.
 
-# IV. Current Objective: Tool Development
-**Priority:** Develop a functional `boulder_puzzle_solver` tool immediately. Manual solving is inefficient and has led to repeated failures. A robust, generalized, algorithm-based solver that can parse map data is required to prevent future roadblocks. This is the #1 development priority.
-
-# V. Puzzle Plans & Hypotheses
-
-## Victory Road 1F Boulder Puzzle (Attempt #1)
-**Hypothesis:** The puzzle must be solved sequentially, west then east.
-**Plan:**
-1.  **Phase 1: West Boulder**
-    - Navigate to (3, 12).
-    - Activate Strength.
-    - Push boulder at (3, 11) to switch at (3, 10).
-2.  **Phase 2: East Boulder**
-    - Navigate to position to push boulder at (6, 16).
-    - Systematically push boulder at (6, 16) towards the switch at (18, 14).
-3.  **Phase 3: Verification**
-    - Check if the boulder barrier at (10, 13) is cleared.
-    - If clear, proceed to the ladder at (2, 2).
+# IV. Tool Development Notes
+- **`boulder_puzzle_solver`:** Current version is only for single-boulder puzzles. A future version needs to handle multi-boulder, multi-stage puzzles like the one on Victory Road 1F.
+- **`gem_pathfinder`:** The cost calculation for pathing should be improved to account for the extra actions required for HMs like Surf, making land routes more preferable when efficient.
