@@ -73,40 +73,41 @@
 
 # V. Ilex Forest Puzzle: Farfetch'd Herding
 
-## A. General Mechanics
-*   **Goal:** Herd Farfetch'd to the apprentice at (7, 28).
-*   **Interaction:** Approaching from an adjacent tile and pressing 'A' causes a reaction.
-*   **Puzzle Reset:** The Farfetch'd disappears and resets the puzzle if an incorrect action is taken or after certain wild battles.
+## A. Goal & Mechanics
+*   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28).
+*   **Interaction:** Pressing 'A' on an adjacent tile to the Farfetch'd causes it to react.
+*   **Reset Condition:** The puzzle resets if an incorrect action is taken or sometimes after a wild battle.
 
-## B. Confirmed State Behaviors
-*   **State 1: Farfetch'd at (15, 25)**
-    *   Interact from North (15, 24) -> Moves to (15, 29) after 'Kwaa!' dialogue.
-    *   Interact from South (15, 26) -> Moves to (20, 24).
-*   **State 2: Farfetch'd at (15, 29)**
-    *   Interact from East (16, 29) -> Moves to (15, 25) [Loop].
-    *   Interact from West (14, 29) -> Moves to (22, 31).
-*   **State 3: Farfetch'd at (20, 24)**
-    *   Interact from East (21, 24) -> 'Kwaa!' dialogue, then disappears [Reset].
-    *   Interact from North (20, 23) -> Disappears [Reset].
-*   **State 4: Farfetch'd at (22, 31)**
-    *   Interact from South (22, 32) -> Moves to (15, 29).
-    *   Interact from North (22, 30) -> Moves to (28, 31).
-    *   Interact from East (23, 31) -> Moves to (24, 35).
-*   **State 5: Farfetch'd at (24, 35)**
-    *   Interact from West (23, 35) -> Moves to (28, 31).
-*   **State 6: Farfetch'd at (28, 31)**
-    *   Interact from East (29, 31) -> Disappears [Reset].
-    *   Interact from West (27, 31) -> Moves off-screen [Reset].
-*   **State 7: Farfetch'd at (29, 22)**
-    *   Interact from West (28, 22) -> No reaction.
-    *   Interact from South (29, 23) -> 'Kwaa!' dialogue, then disappears [Reset].
+## B. Interaction Log (State -> Player Action -> Result)
+*   **State (15, 25):**
+    *   From N (15, 24) -> Moves to (15, 29).
+    *   From S (15, 26) -> Moves to (20, 24).
+*   **State (15, 29):**
+    *   From E (16, 29) -> Moves to (15, 25) [Loop].
+    *   From W (14, 29) -> Moves to (22, 31).
+*   **State (20, 24):**
+    *   From E (21, 24) -> Disappears [Reset].
+    *   From N (20, 23) -> Disappears [Reset].
+*   **State (22, 31):**
+    *   From S (22, 32) -> Moves to (15, 29).
+    *   From N (22, 30) -> Moves to (28, 31).
+    *   From E (23, 31) -> Moves to (24, 35).
+*   **State (24, 35):**
+    *   From W (23, 35) -> Moves to (28, 31).
+*   **State (28, 31):**
+    *   From E (29, 31) -> Disappears [Reset].
+    *   From W (27, 31) -> Disappears [Reset].
+*   **State (29, 22):**
+    *   From W (28, 22) -> No reaction.
+    *   From S (29, 23) -> Disappears [Reset].
 
-## C. Current Hypothesis
-*   Since the Farfetch'd has vanished from the forest entirely, it may have returned to its owner at the Charcoal Kiln in Azalea Town. This is the current active lead.
+## C. Puzzle Hypotheses
+*   **Primary Hypothesis:** The puzzle is solvable with a specific sequence of directional interactions.
+*   **Alternative Hypothesis 1:** The puzzle solution is time-dependent (e.g., requires specific time of day).
+*   **Alternative Hypothesis 2:** The puzzle requires a key item I don't possess yet.
 
-## D. Northern Blockage Hypothesis
-*   **Primary Hypothesis:** The northern area of Ilex Forest is unreachable from the south.
-*   **Evidence:** Both `find_path_to_target` and `find_reachable_unseen_tiles` tools report no path. This has also been manually verified by attempting to walk north.
+## D. Northern Blockage
+*   **Status:** The northern path starting at (3, 23) is confirmed to be unreachable from the south. This has been verified by pathfinding tools and manual attempts.
 
 # VI. Critical Failures & Lessons Learned
 *   **Data Management Deferral:** I have a pattern of deferring critical data management tasks. This is a violation of core directives and must be corrected.
