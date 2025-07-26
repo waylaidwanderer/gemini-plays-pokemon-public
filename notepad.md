@@ -82,3 +82,6 @@
 ## A. Completed Puzzles
 - **Victory Road 2F Puzzle:** Complete. Boulder from (4, 16) to switch at (2, 17).
 - **Victory Road 3F Puzzle:** Complete. Secret ladder at (3, 1) was the true path.
+5. **Hypothesis (Walk-Through NPC):** The Youngster at (7, 11) can be walked through, similar to a previous puzzle.
+    - **Test:** Attempted to move left from (8, 11) onto the Youngster's tile.
+    - **Conclusion:** FAILED (1 attempt). The Youngster acts as a solid object.
