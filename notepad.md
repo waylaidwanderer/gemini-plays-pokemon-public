@@ -132,3 +132,5 @@
     *   **Alternative Hypothesis:** A game event, possibly solving the Farfetch'd puzzle, will open the path.
     *   **Test Plan:** Continue to run `find_reachable_unseen_tiles` after every major puzzle state change to check for new paths.
 *   **Misleading System Alerts (Critical Lesson):** I spent numerous turns debugging a working tool (`find_reachable_unseen_tiles`) because I trusted a generic system alert over my tool's specific, data-driven output. The debug logs eventually proved the tool was correct and the path was blocked. I must trust my verified tools over general system information.
+*   **State (10, 35):**
+    *   From N (10, 34) -> No reaction.
