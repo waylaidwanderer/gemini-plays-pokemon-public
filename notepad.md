@@ -136,3 +136,5 @@
 *   **State (28, 31) [Continued]:**
     *   From N (28, 30) -> Moves to (24, 35) [Verified].
 *   **State (24, 35):**
+*   **State (24, 35) [Continued]:**
+    *   From E (25, 35) -> No movement ['Kwaa!'] [Verified].
