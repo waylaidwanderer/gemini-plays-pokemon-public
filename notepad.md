@@ -79,3 +79,6 @@
   - A hidden one-way ledge exists.
   - An item like Escape Rope or a move like Dig/Teleport has special functionality in the room.
   - Re-challenging an NPC with a specific item triggers a reset.
+- **Hypothesis #3 (FAILED):** Pushing the western boulder onto the warp at (10, 18) opens the eastern path.
+  - **Test:** Pushed boulder to (10, 18). Navigated to (9, 13) to observe the barrier.
+  - **Conclusion:** The barrier at (10, 13) remains. This hypothesis is incorrect.
