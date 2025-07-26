@@ -36,6 +36,7 @@
 *   **COUNTER:** Confirmed impassable. Functions as a wall.
 *   **BIRD:** Impassable object. Functions as a wall.
 *   **HEADBUTT_TREE:** Confirmed impassable by attempting to walk into it.
+*   **VOID:** Confirmed impassable by observation.
 
 ### Confirmed One-Way:
 *   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
@@ -98,7 +99,7 @@
 *   **State (28, 31):**
     *   From E (29, 31) -> Disappears [Reset].
     *   From W (27, 31) -> Disappears [Reset].
-    *   From S (28, 32) -> Disappears [New Location Unknown, potential progress].
+    *   From S (28, 32) -> Disappears [New Location Unknown, potential progress] [Verified].
 *   **State (29, 22):**
     *   From W (28, 22) -> No reaction.
     *   From S (29, 23) -> Disappears [Reset].
@@ -120,6 +121,7 @@
 *   **Inconsistent Marker Linking:** I have failed to link markers to object IDs immediately upon discovery.
 *   **Repetitive Tool Failures (Critical Failure):** I repeatedly failed to update a tool (turns 8737-8742) by submitting an identical script. This is a critical failure loop that could have been prevented by using my `procedural_overseer` agent. This is a lesson in mindfulness and checking my work before submission.
 *   **Deferred Tool Fixing (Critical Failure):** I incorrectly deferred fixing a broken tool by making it a tertiary goal. Tool maintenance is an immediate, high-priority action that must be completed before any other gameplay objective.
+*   **Tool Underutilization (Overwatch Critique):** The overwatch system noted a failure to use my `farfetchd_puzzle_solver` tool. While the critique is valid in principle, the tool requires the Farfetch'd to be on-screen to get its coordinates. Since the bird is currently missing, the tool is unusable. This highlights that locating the puzzle element is a necessary prerequisite to using a solver tool. My systematic search is the correct course of action.
 
 # VII. Puzzle Solutions
 
