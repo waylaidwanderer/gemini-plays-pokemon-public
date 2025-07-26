@@ -61,3 +61,7 @@
 # IV. Tool Development Notes
 - **`boulder_puzzle_solver`:** Current version is only for single-boulder puzzles. A future version needs to handle multi-boulder, multi-stage puzzles like the one on Victory Road 1F.
 - **`gem_pathfinder`:** The cost calculation for pathing should be improved to account for the extra actions required for HMs like Surf, making land routes more preferable when efficient.
+- **Ladder (`ladder_up`, `ladder_down`):** Functions as an instant 1x1 warp between floors.
+
+## E. Agent Ideas
+- **Puzzle Hypothesis Tester:** An agent that takes hypotheses from the generator and uses tools like `boulder_puzzle_solver` to programmatically test them.
