@@ -84,3 +84,5 @@
 - **Paradox:** The game rules state there are no soft-locks, yet I am trapped. Conclusion: A hidden mechanic or path must exist.
 - **New Plan:** Systematically test every impassable wall tile in the trapped area for a hidden passage.
 - **Test Log:**
+- (3, 15): Failed.
+- (4, 14): Failed.
