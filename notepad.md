@@ -63,8 +63,8 @@
 - **The Goal:** Reach the ladder at (2, 2).
 - **Hypothesis #1 (FAILED):** Solving the northern puzzle at (3, 10) opens the eastern path.
   - **Conclusion:** The barrier at (10, 13) remains. The northern puzzle does not open the main path forward.
-- **Hypothesis #2 (Current):** The western boulder puzzle, starting with the boulder at (6, 16), is the correct next step.
-  - **Plan:** Investigate the western area by manipulating the boulder at (6, 16).
+- **Hypothesis #4 (Agent-generated):** A trigger is based on the player's position. After solving the other puzzles, the player must step on the now-empty northern switch at (3, 10) to open the barrier.
+  - **Plan:** Navigate to (3, 10) and step on the switch, then return to (9, 13) to observe the barrier.
 
 # V. Archives
 
