@@ -127,3 +127,7 @@
     *   Interact from East (23, 31) -> Moves to (24, 35).
 8. State: (24, 35). Interact from West (23, 35) -> Moves to (28, 31).
 9. State: (28, 31). Interact from West (27, 31) -> Moved off-screen.
+*   **Procedural Overseer Underutilization (Turns 8437-8441):** The 50-turn reflection and overwatch critique confirmed a critical failure in my process: I repeatedly failed to update a tool because I was submitting an identical script. This is a clear failure loop that could have been prevented by using my `procedural_overseer` agent. I must integrate this agent into my regular workflow to check for repetitive, failing actions before committing to them.
+*   **WARP_CARPET_RIGHT:** One-way warp. Activated by pressing 'Right'.
+*   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
+*   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
