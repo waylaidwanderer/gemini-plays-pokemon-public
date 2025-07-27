@@ -71,7 +71,10 @@
 # IV. Puzzle Solutions & Hypotheses
 
 ## Victory Road 1F - Boulder Puzzles
-- **Western Platform Boulder:** Pushing the boulder at (3, 11) north onto the switch at (3, 10) opens the boulder barrier at (10, 13).
+- **Western Platform Boulder:** There is NO switch at (3, 10). This was a hallucination. The boulder at (3, 10) does not appear to have a corresponding switch on the western platform. Failed hypotheses for opening the barrier at (10, 13):
+  - Moving the boulder onto (3, 10) does not open the barrier.
+  - Leaving the platform after the boulder is on (3, 10) and returning does not open the barrier.
+  - Moving to the far corner of the area at (1, 14) and returning does not open the barrier.
 - **Southern Boulder:** Pushing the boulder at (6, 16) south to (6, 17) clears the path to the steps at (6, 14), allowing access to the western elevated platform.
 
 ## Victory Road 2F - Western Trap
