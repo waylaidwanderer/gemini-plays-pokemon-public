@@ -81,7 +81,7 @@
 *   **Interact from W (28, 22):** Disappears, reappears at (28, 31).
 
 ## C. Confirmed Blockages
-*   **Western Path (Y=23):** The western path from (0,23) to (9,23) is confirmed to be unreachable from the central forest area. Verified with `verify_reachability_of_tiles` tool (Turn 10666). The system alert can be ignored.
+*   **Western Path (Y=23):** The western path from (0,23) to (9,23) is likely unreachable from the central forest area due to one-way ledges, but this needs proper verification with a valid tool.
 
 # VI. Future Improvements & Hypotheses
 
