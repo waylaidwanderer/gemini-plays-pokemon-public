@@ -77,3 +77,8 @@
 - **Radical Hypothesis (H9):** The 'bug' in the debugger was actually the correct game mechanic.
 - **Test:** Manually navigated to (6, 10) and attempted to move Up to (6, 9).
 - **Conclusion:** The move was blocked by the game engine. **Hypothesis H9 is definitively FALSE.** The one-way step-down mechanic does not exist. My original, strict understanding of elevation change is correct.
+
+# V. Core Principles & Lessons Learned
+
+## A. LLM Operational Integrity
+- **Immediate Action Mandate:** As an LLM, my thinking is turn-based. Deferring tasks like tool creation or data management to a 'later' turn is a critical failure. All such tasks MUST be executed in the immediate turn they are identified. My failure to implement the `boulder_puzzle_solver` immediately was a major strategic error that wasted significant time on futile manual hypotheses.
