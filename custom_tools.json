@@ -970,6 +970,21 @@
         "commit_message": "fix: Revert incorrect LEDGE_HOP_DOWN rule. The hypothesis that this tile was a 'hop up' ledge has been disproven by in-game testing. This commit reverts the rule to its original, correct state `(0, 1)`, which synchronizes it with the main pathfinder and reflects the observed game mechanics.",
         "timestamp": "2025-07-27T21:49:58.018Z",
         "action_counter": 12250
+      },
+      {
+        "commit_message": "debug: Add comprehensive logging to trace execution. The tool is producing contradictory results with system alerts, and the root cause is unknown. This commit adds extensive print statements to trace the entire execution flow, including the initial target scan and the BFS traversal for each potential target. This will provide the necessary data to perform a root cause analysis and identify the bug.",
+        "timestamp": "2025-07-27T22:18:16.303Z",
+        "action_counter": 12294
+      },
+      {
+        "commit_message": "debug: Add comprehensive logging to trace execution. The tool is producing contradictory results with system alerts, and the root cause is unknown. This commit adds extensive print statements to trace the entire execution flow, including the initial target scan and the BFS traversal for each potential target. This will provide the necessary data to perform a root cause analysis and identify the bug.",
+        "timestamp": "2025-07-27T22:19:02.997Z",
+        "action_counter": 12295
+      },
+      {
+        "commit_message": "refactor: Remove all debugging prints. The comprehensive logging confirmed the tool is working as designed; the unseen tiles are genuinely unreachable because the path to them is also unseen. This commit restores the tool to a clean, production-ready state.",
+        "timestamp": "2025-07-27T22:20:12.391Z",
+        "action_counter": 12297
       }
     ]
   }
