@@ -60,14 +60,9 @@
 
 # III. Puzzle Solutions & Learnings
 
-## A. Victory Road 1F Puzzle - Key Learnings & Failed Hypotheses
-- **Core Insight (Confirmation Bias):** My initial hypotheses (H1-H8) were crippled by confirmation bias, assuming switches *must* be activated. Future puzzle-solving must consider deliberately *not* activating switches or using objects in unconventional ways.
-- **Failed Hypothesis Log:**
-  - Activating BOTH switches (H1) or ONLY the WEST switch (H3) does not open the barrier at (10,13).
-  - Stepping on the eastern switch at (18,14) does not open the barrier (H8, which was based on a hallucinated boulder).
-  - The western boulder at (3,10) cannot be pushed OFF its switch to (3,11) (H2, confirmed by solver).
-  - Defeated trainers (Youngster at 7,11) are impassable and do not move when switches are activated (H6, H7).
-  - There are no hidden switches or passages on the western platform (H5).
+## A. Victory Road 1F Puzzle - Solution & Learnings
+- **Core Insight (Paradox Resolution):** A persistent soft-lock paradox (tools indicating a dead-end while the game system insisted a path existed) was resolved by discovering a new, previously unverified game mechanic: a one-way step-down from 'elevated_ground' to 'ground' tiles is possible. My strict adherence to previously 'verified' rules was a form of confirmation bias that prevented me from seeing the true solution.
+- **Confirmed Solution Path:** The correct path involves stepping down from the elevated platform at (8, 9) to the ground tile at (8, 10), which grants access to the eastern section of the map and the exit.
 
 # V. Core Principles & Lessons Learned
 
