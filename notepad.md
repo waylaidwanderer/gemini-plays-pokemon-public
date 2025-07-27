@@ -58,7 +58,7 @@
 - **Type Correction (Psychic vs. Rock):** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
 ## B. Trainer Rosters
-- **Burglar (Victory Road 1F):** FLAREON (Lv53), TENTACRUEL (Lv53), NINETALES (Lv53), DEWGONG (Lv53)
+- **Super Nerd (Victory Road 1F):** FLAREON (Lv53), TENTACRUEL (Lv53), NINETALES (Lv53), DEWGONG (Lv53)
 
 # III. Core Principles & Lessons Learned
 
