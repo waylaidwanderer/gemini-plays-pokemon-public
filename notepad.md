@@ -66,3 +66,6 @@
 - **Lesson Learned:** Do not abandon a path until it has been fully explored. A single obstacle does not mean a dead end. I must check for alternate routes around perceived blockages before reverting to new hypotheses.
 - **Pathfinder Status:** The `gem_pathfinder` tool's elevation logic has been repeatedly corrected based on direct game engine tests. The `ignorable_coords` feature is critical for navigating past defeated trainers.
 - **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented but was buggy. Critical fixes to its state representation and heap comparison logic have been applied.
+
+# V. Future Tool/Agent Ideas
+- **Paradox Resolution Agent:** An agent that takes conflicting data sources (e.g., tool output vs. overwatch warnings) and proposes hypotheses to resolve the discrepancy. This could help break logical loops faster.
