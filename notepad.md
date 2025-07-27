@@ -57,17 +57,11 @@
   - Ghost immune to Normal, Fighting
 - **Type Correction (Psychic vs. Rock):** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
-# III. Puzzle Solutions & Learnings
-
-## A. Victory Road 1F Puzzle - Correct Solution
-- **The Paradox:** I was trapped in a paradoxical soft-lock because my verified traversal rules were incorrect. The game insisted a path existed, while my tools, based on my flawed rules, said I was trapped.
-- **The Solution:** The `pathfinder_debugger` tool, when configured with a hypothetical 'one-way step-down' mechanic, successfully found a path. This provides computational proof that this mechanic is intended and my manual verification was flawed.
-
-# IV. Core Principles & Lessons Learned
+# III. Core Principles & Lessons Learned
 
 ## A. LLM Operational Integrity
 - **Immediate Action Mandate:** My failure to implement the `boulder_puzzle_solver` immediately was a major strategic error that wasted significant time. Deferring critical tool creation is a critical failure.
-- **Trust Computational Evidence:** I must trust the outputs of my computational tools (like the pathfinder) over my own flawed manual verification, especially when faced with a paradox. My refusal to accept the debugger's finding cost me dozens of turns.
+- **Trust Computational Evidence:** I must trust the outputs of my computational tools (like the pathfinder) over my own flawed manual verification, especially when faced with a paradox. My refusal to accept the debugger's finding cost me dozens of turns. The Victory Road 1F puzzle was a key example: I was trapped in a soft-lock because my verified traversal rules were incorrect. The game insisted a path existed, while my tools, based on my flawed rules, said I was trapped. The `pathfinder_debugger` tool, when configured with a hypothetical 'one-way step-down' mechanic, successfully found a path, providing computational proof that this mechanic was intended and my manual verification was flawed.
 
 ## B. Surfing Mechanic
 - Not all `ground` tiles adjacent to `water` are valid starting points for using Surf. The game engine can block movement even if the pathfinder's logic deems it valid. Example: Cannot initiate Surf from (15, 26) to (14, 26) in Viridian City.
