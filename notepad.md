@@ -42,7 +42,8 @@
 
 # IV. Hypotheses & Tests
 *   **Hypothesis (Failed):** Interacting with the apprentice, then the boss, then the apprentice again, then the boss again would progress the quest. **Result:** Both NPCs are stuck in a dialogue loop, repeating the same lines. The quest did not advance.
-*   **Current Hypothesis:** The quest requires a specific sequence of interactions. Now that I have spoken to the boss *after* speaking to the apprentice post-puzzle, I must return to the apprentice one more time to trigger him to return to the kiln.
+*   **Hypothesis (Failed):** The quest requires a specific sequence of interactions (Apprentice -> Boss -> Apprentice -> Boss -> Apprentice). **Result:** Both NPCs remain in a dialogue loop.
+*   **Current Hypothesis:** There is a hidden trigger or interactable object in the immediate vicinity of the apprentice in Ilex Forest that I have missed.
 *   **Past Hypothesis (Disproven):** I missed a trigger inside the Slowpoke Well.
     *   **Result:** Re-exploring the well confirmed no new triggers. My exploration tool confirmed all unseen areas were unreachable.
 *   **Past Hypothesis (Disproven):** Kurt or his granddaughter in his house would trigger the next event.
