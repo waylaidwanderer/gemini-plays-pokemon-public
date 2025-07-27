@@ -41,7 +41,8 @@
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
 
 # IV. Hypotheses & Tests
-*   **Current Hypothesis:** The quest for HM01 Cut is not stalled. I must re-interact with both the apprentice's boss in the Charcoal Kiln and the apprentice in Ilex Forest to verify if their dialogue has changed after completing the Farfetch'd puzzle.
+*   **Hypothesis (Failed):** Interacting with the apprentice, then the boss, then the apprentice again, then the boss again would progress the quest. **Result:** Both NPCs are stuck in a dialogue loop, repeating the same lines. The quest did not advance.
+*   **Current Hypothesis:** The quest requires a specific sequence of interactions. Now that I have spoken to the boss *after* speaking to the apprentice post-puzzle, I must return to the apprentice one more time to trigger him to return to the kiln.
 *   **Past Hypothesis (Disproven):** I missed a trigger inside the Slowpoke Well.
     *   **Result:** Re-exploring the well confirmed no new triggers. My exploration tool confirmed all unseen areas were unreachable.
 *   **Past Hypothesis (Disproven):** Kurt or his granddaughter in his house would trigger the next event.
