@@ -15,7 +15,7 @@
     *   WARP_CARPET_DOWN: Requires pressing 'Down'.
     *   WARP_CARPET_LEFT: Requires pressing 'Left'.
 *   **To Be Tested:**
-    *   FRUIT_TREE: Need to test if this is a traversable tile or an impassable object. There's one on Route 33 I can test when I pass through.
+    *   FRUIT_TREE: Confirmed impassable object.
 
 ## B. Key Mechanics & Lessons Learned
 *   **HM Usage:** HM moves can be used by fainted Pokémon.
