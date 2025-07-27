@@ -45,20 +45,6 @@
 
 ## B. Interaction Log (Grouped by Farfetch'd Position)
 
-### State: (24, 35)
-*   **Interact from W (23, 35):** Moves to (28, 31).
-*   **Interact from E (25, 35):** 'Kwaa!', then clearing dialogue -> Moves to (22, 31).
-
-### State: (28, 31)
-*   **Interact from N (28, 30):** 'Kwaa!', then clearing dialogue -> Moves to (24, 35).
-*   **Interact from S (28, 32):** No movement ['Kwaa!'].
-*   **Interact from E (29, 31):** Disappears [Reset].
-*   **Interact from W (27, 31):** Disappears [Reset].
-
-### State: (29, 22)
-*   **Interact from S (29, 23):** 'Kwaa!', then clearing dialogue -> Disappears [New Location Unknown].
-*   **Interact from W (28, 22):** Disappears, reappears at (28, 31).
-
 ## B. Quest Stalled
 * The apprentice and his boss are in a dialogue loop. The quest for HM01 Cut is currently blocked.
 
