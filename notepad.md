@@ -1,23 +1,20 @@
 # I. Game Mechanics & Traversal
 
-## A. Core Principles
-- **Game Engine is Truth:** The game engine's behavior is the ultimate source of truth. If a tool or hypothesis is contradicted by the engine (e.g., a blocked movement), the tool/hypothesis is wrong and must be corrected immediately. 
-
-## B. Core Rules
+## A. Core Rules
 - **Level Cap:** The level cap with 8 badges is 65.
-- **"No Will to Fight" Message:** Appears when the party menu cursor is on a fainted Pokémon.
+- **"No Will to Fight" Message:** Appears when the party menu cursor is on a fainted Pokémon. It is a cursor error, not a refusal to battle.
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
-- **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
+- **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points for SURF.
 - **Boulder Pushing:** Activate Strength from the party menu. Face the boulder and press the directional button. The boulder moves one tile, but the player's position does not change.
 - **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 
-## C. Tile Glossary & Movement Rules
+## B. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile.
 - `grass`: Wild Pokémon encounters.
 - `water`: Requires SURF.
 - `impassable`: Wall.
-- `elevated_ground`: Walkable, different elevation. Movement between `elevated_ground` and lower elevations is only possible via `steps` tiles. Stepping down directly to `ground` is not possible.
+- `elevated_ground`: Walkable, different elevation. Movement to a lower elevation is *only* possible via `steps` tiles or by stepping down onto a `cleared_boulder_barrier` tile. Direct movement to a lower `ground` tile is not possible.
 - `steps`: Allows movement between elevations.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
@@ -39,28 +36,16 @@
 
 # III. Puzzle Mechanics & Key Discoveries
 
-- **Victory Road 1F - Western Dead End:** The western section of this floor, accessed from the main entrance, is a dead end. The ladder at (2, 2) is unreachable from here. The purpose of the two boulders in this area is unknown, but they do not provide immediate access to the rest of the floor. The only exit is back to Route 23.
+- **Victory Road 1F - Western Platform:** This area is a dead end. The ladder at (2, 2) is unreachable from here. The purpose of the two boulders in this area is unconfirmed, but they do not open the central barrier at (10, 13).
 - **Victory Road 2F - Western Trap:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below, affecting a puzzle there.
 
-# IV. Tool Status & Development
-
-- **Pathfinder Status:** The `gem_pathfinder` is undergoing iterative repair. After a complete overhaul, it still suffers from bugs (e.g., syntax errors) and unreliability on complex maps like Victory Road. Fixing this tool remains a top priority.
-- **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented but its internal pathfinder may also be flawed, preventing it from solving puzzles on this map.
-
-# V. Future Tool/Agent Ideas
-
-- **Paradox Resolution Agent:** An agent that takes conflicting data sources (e.g., tool output vs. overwatch warnings) and proposes hypotheses to resolve the discrepancy. This could help break logical loops faster.
-
-# V. Current Plan & Hypotheses
+# IV. Current Plan & Hypotheses
 
 ## Victory Road 1F Puzzle
-- **Hypothesis (Attempt 1 - FAILED):** The western platform puzzle is a 'prime and trigger' mechanic.
+- **Hypothesis (Disproven):** The western platform puzzle is a 'prime and trigger' mechanic to open the central barrier.
   - **Test:** Pushed boulder at (3, 11) onto switch at (3, 10), then left and re-entered the map.
   - **Result:** The central boulder barrier at (10, 13) remained closed.
-  - **Conclusion:** This hypothesis is disproven. The western puzzle does not open the central barrier.
-
-- **Hypothesis (Attempt 2):** There is a direct path to the ladder at (2, 2) from the western platform, and the path is only blocked by the defeated Youngster at (7, 11).
+- **Hypothesis (Current):** The path to the ladder at (2, 2) from the western platform is only blocked by the defeated Youngster at (7, 11).
   - **Test:** Use the `gem_pathfinder` tool to find a path to (2, 2), using `ignorable_coords` to bypass the trainer.
-  - **Expected Outcome:** The tool will find a valid path.
-  - **Current Action:** Executing this test.
+  - **Status:** The tool is currently failing, returning an 'unreachable' error. This indicates a flaw in the tool's logic or an undiscovered obstacle.
