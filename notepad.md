@@ -59,9 +59,8 @@
 
 # III. Puzzle Solutions & Learnings
 
-## A. Victory Road 1F Puzzle - Solution & Learnings
-- **Core Insight (Paradox Resolution):** A persistent soft-lock paradox (tools indicating a dead-end while the game system insisted a path existed) was resolved by discovering a new, previously unverified game mechanic: a one-way step-down from 'elevated_ground' to 'ground' tiles is possible. My strict adherence to previously 'verified' rules was a form of confirmation bias that prevented me from seeing the true solution.
-- **Confirmed Solution Path:** The correct path involves stepping down from the elevated platform at (8, 9) to the ground tile at (8, 10), which grants access to the eastern section of the map and the exit.
+## A. Victory Road 1F Puzzle - In Progress
+- **Current Status:** Attempting to solve the boulder puzzles. Previous hypotheses about a 'one-way step-down' mechanic were based on a faulty debugger and have been disproven by in-game testing. The path forward remains unclear, but I am now operating with corrected tools and a more rigorous, evidence-based approach.
 
 # V. Core Principles & Lessons Learned
 
