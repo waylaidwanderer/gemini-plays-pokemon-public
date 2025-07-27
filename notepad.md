@@ -90,3 +90,4 @@
 
 ## D. Surfing Mechanic (New Discovery)
 - Not all `ground` tiles adjacent to `water` are valid starting points for using Surf. The game engine can block movement even if the pathfinder's logic deems it valid. Example: Cannot initiate Surf from (15, 26) to (14, 26) in Viridian City.
+  - Activating ONLY the WEST switch at (3,10) does not open the barrier at (10,13). (Tested at turn 103624)
