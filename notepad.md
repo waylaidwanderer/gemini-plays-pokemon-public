@@ -74,9 +74,6 @@
 **Failed Hypothesis #1:** Solving the western boulder puzzle (pushing boulder to switch at (2, 17)) opens the eastern barrier at (8, 9).
 *   **Result:** False. Pathfinding tools confirm the barrier remains closed.
 
-**Current Hypothesis #1 (from agent):** The barrier at (8, 9) opens after leaving and re-entering the map with the western boulder on its switch.
-*   **Test Plan:**
-    1.  Navigate to the ladder at (1, 9) leading to Victory Road 1F.
-    2.  Descend to 1F.
-    3.  Immediately ascend back to 2F.
-    4.  Check if the barrier at (8, 9) is open.
+## Victory Road 2F - Western Trap
+
+**Solution:** Pushing the boulder at (4,16) to the switch at (2,17) primes a trap. Leaving the floor and re-entering with the boulder on the switch opens the barrier at (8,9) and (8,10).
