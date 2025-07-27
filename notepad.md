@@ -71,3 +71,4 @@
 
 ## B. Puzzle Solving Insight (Confirmation Bias)
 My previous hypotheses all assumed activating switches is the solution. If these fail, I must test hypotheses where switches are deliberately left *unactivated* or boulders are used to block paths elsewhere.
+- `ladder_up`: Warp tile that leads to a higher floor.
