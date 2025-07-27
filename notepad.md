@@ -87,3 +87,6 @@
 - **Hypothesis:** After pushing the southern boulder (6,16) out of the way, the eastern boulder (15,3) can be pushed onto its switch (18,14).
 - **Test:** Used `boulder_puzzle_solver` to find a path for this sequence.
 - **Conclusion:** The solver returned 'No solution found'. This computationally proves that this specific sequence is impossible and my hypothesis was incorrect. The puzzle likely requires a more complex interaction between the boulders, or I am missing a key mechanic. This confirms that simply activating switches is not the sole objective.
+
+## D. Surfing Mechanic (New Discovery)
+- Not all `ground` tiles adjacent to `water` are valid starting points for using Surf. The game engine can block movement even if the pathfinder's logic deems it valid. Example: Cannot initiate Surf from (15, 26) to (14, 26) in Viridian City.
