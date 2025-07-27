@@ -8,7 +8,7 @@
 
 ## B. Boulder Pushing (Corrected)
 - **Activation:** Activate Strength from the party menu.
-- **Execution:** Face the boulder and press the directional button. This action moves the player into the boulder's previous space.
+- **Execution:** Face the boulder and press the directional button. The boulder moves one tile, but the player's position does not change.
 - **Reset Mechanic:** Leaving and re-entering a floor resets all boulders to their original positions.
 
 ## C. Tile Glossary & Movement
