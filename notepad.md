@@ -13,6 +13,7 @@
 *   **Warp Carpets:** One-way warps activated by pressing the corresponding direction.
     *   WARP_CARPET_RIGHT: Requires pressing 'Right'.
     *   WARP_CARPET_DOWN: Requires pressing 'Down'.
+    *   WARP_CARPET_LEFT: Requires pressing 'Left'.
 
 ## B. Key Mechanics & Lessons Learned
 *   **HM Usage:** HM moves can be used by fainted Pokémon.
