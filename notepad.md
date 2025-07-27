@@ -66,3 +66,4 @@
 ## B. Surfing Mechanic
 - Not all `ground` tiles adjacent to `water` are valid starting points for using Surf. The game engine can block movement even if the pathfinder's logic deems it valid. Example: Cannot initiate Surf from (15, 26) to (14, 26) in Viridian City.
 - **Process Failure:** I failed to use the `pathfinding_logic_validator_agent` to analyze the pathfinding paradox, instead relying solely on the debugger. This was a procedural error. I must prioritize using newly created tools to test their effectiveness and refine my processes.
+- `ladder_down`: Warp tile that leads to a lower floor.
