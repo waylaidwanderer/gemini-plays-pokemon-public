@@ -91,3 +91,6 @@
 ## C. NPC Dialogue Updates
 *   A Super Nerd in Union Cave 1F at (4, 21) confirms that POKéMON roars can be heard from deep inside the cave every Friday. This corroborates the Fisher's hint.
 *   **WALL:** Confirmed impassable by attempting to move from (3, 22) to (2, 22).
+
+# X. Failed Hypotheses (Turn 12353)
+*   **Water Traversal:** Attempting to move from (4, 27) to the WATER tile at (4, 28) failed. This confirms that WATER tiles are impassable without a specific ability like Surf.
