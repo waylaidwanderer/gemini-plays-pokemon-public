@@ -45,7 +45,7 @@
 
 # IV. Tool Status & Development
 
-- **Pathfinder Status:** The `gem_pathfinder` tool is currently unreliable on Victory Road 1F and requires a complete overhaul. Its elevation and pathing logic is flawed.
+- **Pathfinder Status:** The `gem_pathfinder` tool remains unreliable. A recent overhaul attempt failed to resolve its core issues, and it still cannot be trusted for complex navigation on maps like Victory Road.
 - **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented but its internal pathfinder may also be flawed, preventing it from solving puzzles on this map.
 
 # V. Future Tool/Agent Ideas
