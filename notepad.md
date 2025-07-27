@@ -69,15 +69,6 @@
   - Defeated trainers (Youngster at 7,11) are impassable and do not move when switches are activated (H6, H7).
   - There are no hidden switches or passages on the western platform (H5).
 
-# IV. Radical Hypothesis Log (Victory Road 1F)
-
-## A. One-Way Step-Down Mechanic (FAILED)
-- **Observation:** All verified tools (`gem_pathfinder`, `boulder_puzzle_solver`) confirmed I was in a soft-locked, inescapable position on the western platform of Victory Road 1F. This violates core game principles.
-- **Paradox:** The `pathfinder_debugger`, when operating with what I previously identified as 'buggy' logic, found a path to the exit ladder. The key move in this path was a step-down from `elevated_ground` (6, 10) to `ground` (6, 9).
-- **Radical Hypothesis (H9):** The 'bug' in the debugger was actually the correct game mechanic.
-- **Test:** Manually navigated to (6, 10) and attempted to move Up to (6, 9).
-- **Conclusion:** The move was blocked by the game engine on a second, deliberate test (Turn 103714). **Hypothesis H9 is definitively FALSE.** The one-way step-down mechanic does not exist. My original, strict understanding of elevation change is correct. The paradox of being in a soft-locked state remains unresolved.
-
 # V. Core Principles & Lessons Learned
 
 ## A. LLM Operational Integrity
