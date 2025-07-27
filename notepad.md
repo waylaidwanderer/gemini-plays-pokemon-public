@@ -52,7 +52,8 @@
 *   **State (15, 29):**
     *   From N (15, 28) -> Disappears [New Location Unknown].
     *   From E (16, 29) -> Moves to (15, 25) [Loop].
-    *   From W (14, 29) -> No movement ['Kwaa!'] [Verified].
+    *   From W (14, 29) -> 'Kwaa!' then clearing dialogue -> Disappears [NEW DISCOVERY! Location unknown].
+    *   From S (15, 30) -> 'Kwaa!', then clearing dialogue -> Moves to (15, 25) [NEW DISCOVERY!].
 *   **State (20, 24):**
     *   From E (21, 24) -> 'Kwaa!' [Verified, pending dialogue clear].
     *   From N (20, 23) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
@@ -73,12 +74,8 @@
     *   From S (29, 23) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
 
 ## C. Puzzle Hypotheses
-*   **Hypothesis 1 (Primary):** The puzzle is solvable with a specific sequence of directional interactions.
-*   **Hypothesis 2 (Alternative):** The puzzle solution is time-dependent (e.g., requires specific time of day).
-*   **Hypothesis 3 (Alternative):** The puzzle requires a key item I don't possess yet.
-*   **Hypothesis 4 (Alternative):** The puzzle's solution may not just be about the direction of interaction, but also about other cues, such as the sounds the Farfetch'd makes ('Kwaa!') or the direction it faces after being pushed. I need to pay closer attention to these details.
-*   **Hypothesis 5 (Current):** Leaving and re-entering Ilex Forest may reset the Farfetch'd puzzle, allowing for a fresh attempt.
-*   **Hypothesis 6 (Confirmed):** The puzzle state is changed by 'Kwaa!' interactions. A non-moving 'Kwaa!' interaction, followed by clearing the dialogue box, can trigger a move. This is a complex, state-based mechanic.
+*   **Hypothesis 1 (Confirmed):** The puzzle state is changed by 'Kwaa!' interactions. A non-moving 'Kwaa!' interaction, followed by clearing the dialogue box, can trigger a move. This is a complex, state-based mechanic.
+*   **Hypothesis 2 (Current):** The puzzle is solvable with a specific sequence of directional interactions. I need to continue methodically testing interaction points.
 
 ## D. Confirmed Blockages
 *   **Northern Path (Y=23):** The northern path is definitively confirmed to be unreachable from the southern part of the forest. This has been repeatedly verified by my `verify_reachability_of_tiles` tool, which found no valid path. The system alerts are misleading.
