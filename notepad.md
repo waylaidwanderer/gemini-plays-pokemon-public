@@ -95,3 +95,7 @@
 
 ## A. Agent Concepts
 - **Puzzle Strategist Agent:** An agent that could analyze the map to suggest the most logical next step in a multi-part puzzle, like identifying the optimal boulder-and-switch pairing in Victory Road.
+
+# VI. Tool Development & Maintenance
+- **PRIORITY:** The `gem_pathfinder` tool has a critical bug in its elevation logic (`steps` tiles) and must be fixed immediately. It is unreliable for navigation in Victory Road.
+- **PRIORITY:** The `boulder_puzzle_solver` tool is only a placeholder and needs to be fully implemented with a proper search algorithm (like A*) to be useful.
