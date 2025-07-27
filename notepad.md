@@ -71,8 +71,8 @@
 # IV. Puzzle Solutions & Hypotheses
 
 ## A. Victory Road 1F - Boulder Puzzles
-- **Western Boulder Puzzle:** The boulder at (3, 11) must be pushed north onto the switch at (3, 10) to open a path. My previous assessment of this being a dead end was incorrect.
-- **Southern Boulder:** This boulder at (6, 16) is the key to accessing the rest of the map. It must be pushed South once, then East multiple times to clear the path.
+- **Western Boulder:** This boulder at (3, 11) is a red herring and does not need to be moved. The western path is a dead end.
+- **Southern Boulder:** Pushing the boulder at (6, 16) south once to (6, 17) clears the path to the steps at (6, 14), which lead to the eastern platform.
 - **Eastern Boulder:** The boulder at (15, 3) must be pushed to the switch at (18, 14) to open the barrier at (10, 13).
 
 ## Victory Road 2F - Western Trap
