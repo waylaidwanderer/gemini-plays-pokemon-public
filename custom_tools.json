@@ -782,5 +782,22 @@
         "action_counter": 104682
       }
     ]
+  },
+  "get_puzzle_elements": {
+    "description": "Parses the map_xml_string to find all boulder, switch, and barrier locations, then returns them as a JSON object. This is a helper tool for the puzzle_strategist_agent.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nboulders = []\nswitches = []\nbarriers = []\n\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        x = tile_elem.get('id')\n        y = row_elem.get('id')\n        \n        if tile_elem.find('Boulder') is not None:\n            boulders.append({'x': int(x), 'y': int(y)})\n        \n        if tile_elem.get('type') == 'boulder_switch':\n            switches.append({'x': int(x), 'y': int(y)})\n\n        if tile_elem.get('type') == 'boulder_barrier':\n            barriers.append({'x': int(x), 'y': int(y)})\n            \nprint(json.dumps({\n    'boulders': boulders,\n    'switches': switches,\n    'barriers': barriers\n}))",
+    "history": [
+      {
+        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
+        "timestamp": "2025-07-27T14:43:28.323Z",
+        "action_counter": 104732
+      },
+      {
+        "commit_message": "feat: Create get_puzzle_elements tool. This tool extracts the coordinates of boulders, switches, and barriers from the map XML. It's a necessary helper to provide structured data to the `puzzle_strategist_agent`, addressing the misuse error and following the proper tool/agent workflow.",
+        "timestamp": "2025-07-27T14:44:06.282Z",
+        "action_counter": 104733
+      }
+    ]
   }
 }
