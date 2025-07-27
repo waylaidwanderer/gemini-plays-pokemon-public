@@ -56,3 +56,6 @@
 - **Lesson Learned:** Do not abandon a path until it has been fully explored. A single obstacle does not mean a dead end. I must check for alternate routes around perceived blockages before reverting to new hypotheses.
 - **Pathfinder Status:** The `gem_pathfinder` tool's elevation logic has been repeatedly corrected based on direct game engine tests. The `ignorable_coords` feature is critical for navigating past defeated trainers.
 - **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented but was buggy. A critical fix to its player position tracking logic has been applied.
+
+## C. Trainer Battle Rules
+- **No Respawns:** Defeated trainers do NOT respawn after leaving and re-entering a map. They become permanent, impassable obstacles.
