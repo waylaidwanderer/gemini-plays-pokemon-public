@@ -57,8 +57,12 @@
 # V. Current Plan & Hypotheses
 
 ## Victory Road 1F Puzzle
-- **Hypothesis (Attempt 1):** The western platform puzzle is a 'prime and trigger' mechanic, similar to the one on 2F.
-  - **Prime Step:** Push the boulder at (3, 11) onto the switch at (3, 10). (Status: COMPLETED)
-  - **Trigger Step:** Leave Victory Road 1F and re-enter.
-  - **Expected Outcome:** The central boulder barrier at (10, 13) will be open upon re-entry, granting access to the eastern puzzle area.
-  - **Current Action:** Navigating to the exit to perform the trigger step.
+- **Hypothesis (Attempt 1 - FAILED):** The western platform puzzle is a 'prime and trigger' mechanic.
+  - **Test:** Pushed boulder at (3, 11) onto switch at (3, 10), then left and re-entered the map.
+  - **Result:** The central boulder barrier at (10, 13) remained closed.
+  - **Conclusion:** This hypothesis is disproven. The western puzzle does not open the central barrier.
+
+- **Hypothesis (Attempt 2):** There is a direct path to the ladder at (2, 2) from the western platform, and the path is only blocked by the defeated Youngster at (7, 11).
+  - **Test:** Use the `gem_pathfinder` tool to find a path to (2, 2), using `ignorable_coords` to bypass the trainer.
+  - **Expected Outcome:** The tool will find a valid path.
+  - **Current Action:** Executing this test.
