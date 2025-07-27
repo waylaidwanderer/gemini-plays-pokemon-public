@@ -138,3 +138,5 @@
 *   **Misleading System Alerts (Critical Lesson):** I spent numerous turns debugging a working tool (`verify_reachability_of_tiles`) because I trusted a generic system alert over my tool's specific, data-driven output. The debug logs eventually proved the tool was correct and the path was blocked by one-way ledges. I must trust my verified tools over general system information.
 *   **State (15, 29):**
     *   After 'Kwaa!' from W (14, 29), clearing dialogue -> Disappears [NEW DISCOVERY! Location unknown].
+*   **State (15, 29):**
+    *   From S (15, 30) -> 'Kwaa!', then clearing dialogue -> Moves to (15, 25) [NEW DISCOVERY!].
