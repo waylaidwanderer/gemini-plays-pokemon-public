@@ -37,13 +37,12 @@
 ## B. Trainer Rosters
 - **Super Nerd (Victory Road 1F):** FLAREON (Lv53), TENTACRUEL (Lv53), NINETALES (Lv53), DEWGONG (Lv53)
 
-# III. Puzzle Solutions & Hypotheses
+# III. Puzzle Solutions & Hypotheses (Agent-Assisted Plan)
 
-## A. Victory Road 1F - Boulder Puzzles
-- **Western Boulder (3, 11):** This boulder is a red herring. The western path is a dead end.
-- **Southern Boulder (6, 16):** Pushing this boulder south to (6, 17) is necessary to clear the path to the steps at (6, 14), which lead to the western elevated platform.
-- **Eastern Boulder (15, 3):** This boulder must be pushed to the switch at (18, 14) to open the barrier at (10, 13).
-- **Barrier Hypothesis:** The barrier at (10, 13) may require a 'prime and reset' mechanic. Pushing a specific boulder (e.g., the southern one) and then re-entering the map might trigger it to open. *Status: Currently testing this hypothesis.*
+## A. Victory Road 1F - Barrier Puzzle
+- **Agent Analysis:** My `puzzle_strategist_agent` has identified a logical paradox: the switch at (18, 14) that opens the barrier at (10, 13) is located *behind* the barrier itself.
+- **Step 1 - Prime the Puzzle:** The agent recommends interacting with the western boulder at (3, 11) as the only logical first step. This is the current objective.
+- **Step 2 - Re-evaluate:** After interacting with the western boulder, I must re-assess the path to the eastern section of the map to see what has changed.
 
 ## B. Victory Road 2F - Western Trap
 - **Solution:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
