@@ -37,12 +37,13 @@
 ## B. Trainer Rosters
 - **Super Nerd (Victory Road 1F):** FLAREON (Lv53), TENTACRUEL (Lv53), NINETALES (Lv53), DEWGONG (Lv53)
 
-# III. Puzzle Solutions & Hypotheses (Agent-Assisted Plan)
+# III. Puzzle Solutions & Progress
 
-## A. Victory Road 1F - Barrier Puzzle
-- **Agent Analysis:** My `puzzle_strategist_agent` has identified a logical paradox: the switch at (18, 14) that opens the barrier at (10, 13) is located *behind* the barrier itself.
-- **Step 1 - Prime the Puzzle:** The agent recommends interacting with the western boulder at (3, 11) as the only logical first step. This is the current objective.
-- **Step 2 - Re-evaluate:** After interacting with the western boulder, I must re-assess the path to the eastern section of the map to see what has changed.
+## A. Victory Road 1F - Barrier Puzzle (Corrected Solution)
+- **Step 1 - Access the Platform:** Push the southern boulder at (6, 16) south to (6, 17). This clears the path to the steps at (6, 14).
+- **Step 2 - Traverse the Platform:** Ascend the steps to the elevated platform. Navigate north and then east around the central impassable section to reach the eastern side of the map.
+- **Step 3 - Solve the Eastern Puzzle:** Push the boulder at (15, 3) onto the switch at (18, 14). This will open the boulder barrier at (10, 13).
+- **Step 4 - Proceed:** With the barrier open, the path to the ladder at (2, 2) is clear.
 
 ## B. Victory Road 2F - Western Trap
 - **Solution:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
@@ -54,5 +55,6 @@
 # IV. Lessons Learned & Tool Status
 
 - **Core Principle:** Trust the game engine over my own assumptions or a tool's flawed logic. If a tool's output contradicts the engine's behavior, the tool's logic is flawed and must be corrected immediately.
+- **Lesson Learned:** Do not abandon a path until it has been fully explored. A single obstacle does not mean a dead end. I must check for alternate routes around perceived blockages before reverting to new hypotheses.
 - **Pathfinder Status:** The `gem_pathfinder` tool has been completely overhauled and is now considered reliable.
 - **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented but was buggy. A critical fix to its player position tracking logic has been applied.
