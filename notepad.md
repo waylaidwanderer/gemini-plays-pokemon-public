@@ -79,6 +79,10 @@
 - **Puzzle:** A boulder at (14, 13) blocks a hole at (14, 15).
 - **Solution:** Push the boulder south two times into the hole. This causes a change on the floor below (Victory Road 2F).
 
+## Victory Road 3F - Northern Boulder
+- **Puzzle:** A boulder at (23, 4) blocks the path to a switch at (23, 7).
+- **Solution:** Push the boulder south three times onto the switch. This opens the boulder barrier at (8, 11).
+
 # V. Tool Development Log
 
 ## `boulder_puzzle_solver`
