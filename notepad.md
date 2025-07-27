@@ -21,7 +21,7 @@
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
 - `hole`: Drops to a lower floor. Pushing a boulder into one causes it to appear on the floor below, potentially landing on a switch or creating a new path.
-- `cleared_boulder_barrier`: Acts as a one-way ramp, allowing movement from `elevated_ground` to `ground` but not the reverse.
+
 - `spinner`: Forces movement.
 - `ladder_up`: Warp tile that leads to a higher floor.
 - `ladder_down`: Warp tile that leads to a lower floor.
@@ -78,7 +78,6 @@
 ## Victory Road 3F - Central Boulder
 - **Puzzle:** A boulder at (14, 13) blocks a hole at (14, 15).
 - **Solution:** Push the boulder south two times into the hole. This causes a change on the floor below (Victory Road 2F).
-- `cleared_boulder_barrier`: Acts as a one-way ramp, allowing movement from `elevated_ground` to `ground` but not the reverse.
 
 # V. Tool Development Log
 
