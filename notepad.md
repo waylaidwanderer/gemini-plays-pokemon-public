@@ -3,14 +3,16 @@
 # I. Game Mechanics & Systems
 
 ## A. Tile Traversal Rules
-*   **Traversable:** FLOOR, TALL_GRASS, LONG_GRASS, DOOR, CAVE, LADDER, WARP_CARPET_RIGHT.
+*   **Traversable:** FLOOR, TALL_GRASS, LONG_GRASS, DOOR, CAVE, LADDER.
 *   **Impassable:** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, WATER, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE.
 *   **One-Way Traversal:**
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
     *   FLOOR_UP_WALL: Can only be entered from below.
-*   **Warp Carpets:** One-way warps activated by pressing the corresponding direction (e.g., WARP_CARPET_DOWN requires pressing 'Down', WARP_CARPET_RIGHT requires pressing 'Right').
+*   **Warp Carpets:** One-way warps activated by pressing the corresponding direction.
+    *   WARP_CARPET_RIGHT: Requires pressing 'Right'.
+    *   WARP_CARPET_DOWN: Requires pressing 'Down'.
 
 ## B. Key Mechanics & Lessons Learned
 *   **HM Usage:** HM moves can be used by fainted Pokémon.
@@ -33,18 +35,10 @@
 # III. Story & Quests
 
 ## A. Current Quest
-*   **Rescue the Apprentice:** Solve the Farfetch'd herding puzzle in Ilex Forest to get HM01 (Cut).
+*   **Investigate the Strange Tree:** A strange tree on Route 36 is blocking the way to Goldenrod City. This is my main path forward.
 
-## B. Side Quests & Leads
-*   **The Strange Tree:** A strange tree on Route 36 is blocking the way to Goldenrod City. This is my main path forward after Ilex Forest.
-
-# V. Ilex Forest Puzzle: Farfetch'd Herding
-
-## A. Puzzle Summary
-*   The Farfetch'd herding portion of the Ilex Forest puzzle has been solved.
-
-## B. Quest Stalled
-* The apprentice and his boss are in a dialogue loop. The quest for HM01 Cut is currently blocked.
+## B. Stalled Quests
+*   **Rescue the Apprentice (HM01 Cut):** The Farfetch'd herding portion of the puzzle in Ilex Forest is complete, but the apprentice and his boss are in a dialogue loop, blocking the quest reward.
 
 # VI. Tool Development
 *   The hyper-specific `puzzle_strategist` agent was deleted. It has been replaced by the more general-purpose `get_adjacent_traversable_tiles` tool, which can be used for any future interaction-based puzzles.
