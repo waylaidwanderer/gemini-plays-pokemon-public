@@ -38,7 +38,7 @@
 - **Super Nerd (Victory Road 1F):** FLAREON (Lv53), TENTACRUEL (Lv53), NINETALES (Lv53), DEWGONG (Lv53)
 
 ## C. Trainer Battle Rules
-- **No Respawns:** Defeated trainers do NOT respawn after leaving and re-entering a map. They become permanent, impassable obstacles.
+- **No Respawns:** Defeated trainers do NOT respawn. They become permanent obstacles that are impassable by normal movement, but can be bypassed by using the `gem_pathfinder` tool with the `ignorable_coords` parameter.
 
 # III. Puzzle Solutions & Progress
 
