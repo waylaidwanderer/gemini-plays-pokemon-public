@@ -55,3 +55,6 @@
 
 # V. Key Items & HMs
 *   **OLD ROD:** Received from the Fishing Guru in the Route 32 Pokémon Center. Allows fishing in bodies of water.
+
+# VI. Held Items
+*   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
