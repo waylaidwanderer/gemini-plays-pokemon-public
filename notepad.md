@@ -77,3 +77,12 @@
 ## Victory Road 3F - Central Boulder
 - **Puzzle:** A boulder at (14, 13) blocks a hole at (14, 15).
 - **Solution:** Push the boulder south two times into the hole. This causes a change on the floor below (Victory Road 2F).
+- `cleared_boulder_barrier`: Acts as a one-way ramp, allowing movement from `elevated_ground` to `ground` but not the reverse.
+
+# V. Tool Development Log
+
+## `boulder_puzzle_solver`
+- **Issue:** Timed out repeatedly on Victory Road 2F puzzle (Target: (8,15)->(10,17)).
+- **Attempt 1 (Turn 104135):** Upgraded from BFS to A*. **Result:** Timeout.
+- **Attempt 2 (Turn 104170):** Optimized A* with BFS reachability check. **Result:** Timeout.
+- **Attempt 3 (Turn 104172):** Re-ran. **Result:** 'No solution found', indicating a logic error, not a performance issue.
