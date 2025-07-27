@@ -78,8 +78,8 @@
 *   **Interact from S (29, 23):** 'Kwaa!', then clearing dialogue -> Disappears [New Location Unknown].
 *   **Interact from W (28, 22):** Disappears, reappears at (28, 31).
 
-## C. Pathing Note
-*   The western area of Ilex Forest was confirmed to be unreachable from the south due to one-way ledges. Access may be possible from another route in the future.
+## B. Quest Stalled
+* The apprentice and his boss are in a dialogue loop. The quest for HM01 Cut is currently blocked.
 
 # VI. Tool Development
 *   The hyper-specific `puzzle_strategist` agent was deleted. It has been replaced by the more general-purpose `get_adjacent_traversable_tiles` tool, which can be used for any future interaction-based puzzles.
