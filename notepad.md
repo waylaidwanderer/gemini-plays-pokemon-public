@@ -48,7 +48,7 @@
 ## B. Disproven Hypotheses
 *   **Ilex Forest Path:** The winding eastern path in Ilex Forest is a dead end and not the exit to Route 34.
 *   **Azalea Town NPCs (Post-Well):** Neither Kurt nor the Charcoal Man had new dialogue immediately after clearing the Slowpoke Well and solving the Farfetch'd puzzle.
-*   **Apprentice/Boss Dialogue Loop:** Repeatedly talking to the apprentice and his boss in different sequences does not break their dialogue loop or advance the HM01 Cut quest.
+*   **Apprentice/Boss Dialogue Loop (Failed):** Repeatedly talking to the apprentice and his boss in different sequences, and even causing the Farfetch'd to disappear, does not break their dialogue loop or advance the HM01 Cut quest.
 *   **Slowpoke Well:** Re-exploration confirmed no missed triggers or reachable unseen areas.
 
 ## C. Technical Investigations
