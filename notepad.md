@@ -72,3 +72,4 @@
 
 # IV. Future Agent & Tool Ideas
 - **Boulder Puzzle Solver Tool:** Create a custom tool that can analyze the map layout (`map_xml_string`) to find a sequence of pushes to solve boulder puzzles. This is a computational task, not a reasoning one, so a tool is the correct implementation. Input would be boulder, switch, and barrier coordinates. Output would be a list of push actions.
+  - **H7 (Western Switch moves Youngster):** Pushed the western boulder (from 3,11 to 3,10) onto its switch. RESULT: The defeated Youngster at (7,11) did not move. **CONCLUSION: FAILED.**
