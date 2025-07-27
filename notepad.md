@@ -37,6 +37,9 @@
 ## B. Trainer Rosters
 - **Super Nerd (Victory Road 1F):** FLAREON (Lv53), TENTACRUEL (Lv53), NINETALES (Lv53), DEWGONG (Lv53)
 
+## C. Trainer Battle Rules
+- **No Respawns:** Defeated trainers do NOT respawn after leaving and re-entering a map. They become permanent, impassable obstacles.
+
 # III. Puzzle Solutions & Progress
 
 ## A. Victory Road 1F - Path to Ladder (Hypothesis 1 - FAILED)
@@ -44,7 +47,7 @@
 - **Conclusion:** This solution is incorrect. The puzzle must be solved differently. The next step is to reset the puzzle by leaving and re-entering the map.
 
 ## B. Victory Road 2F - Western Trap
-- **Solution:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
+- **Solution:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering the triggers the event, opening the barrier at (8, 9) and (8, 10).
 
 ## C. Victory Road 3F Puzzles
 - **Central Boulder (14, 13):** Push south two times into the hole at (14, 15). This affects the floor below.
@@ -56,9 +59,3 @@
 - **Lesson Learned:** Do not abandon a path until it has been fully explored. A single obstacle does not mean a dead end. I must check for alternate routes around perceived blockages before reverting to new hypotheses.
 - **Pathfinder Status:** The `gem_pathfinder` tool's elevation logic has been repeatedly corrected based on direct game engine tests. The `ignorable_coords` feature is critical for navigating past defeated trainers.
 - **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented but was buggy. A critical fix to its player position tracking logic has been applied.
-
-## C. Trainer Battle Rules
-- **No Respawns:** Defeated trainers do NOT respawn after leaving and re-entering a map. They become permanent, impassable obstacles.
-
-## C. Trainer Battle Rules
-- **No Respawns:** Defeated trainers do NOT respawn after leaving and re-entering a map. They become permanent, impassable obstacles.
