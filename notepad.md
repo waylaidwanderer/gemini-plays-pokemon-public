@@ -63,11 +63,11 @@
 ## A. Victory Road 1F Puzzle - Key Learnings & Failed Hypotheses
 - **Core Insight (Confirmation Bias):** My initial hypotheses (H1-H8) were crippled by confirmation bias, assuming switches *must* be activated. Future puzzle-solving must consider deliberately *not* activating switches or using objects in unconventional ways.
 - **Failed Hypothesis Log:**
-  - Activating BOTH switches (H1), ONLY the WEST switch (H3), or ONLY the EAST switch (H8) does not open the barrier at (10,13).
+  - Activating BOTH switches (H1) or ONLY the WEST switch (H3) does not open the barrier at (10,13).
+  - Stepping on the eastern switch at (18,14) does not open the barrier (H8, which was based on a hallucinated boulder).
   - The western boulder at (3,10) cannot be pushed OFF its switch (H2).
   - Defeated trainers (Youngster at 7,11) are impassable and do not move when switches are activated (H6, H7).
   - There are no hidden switches or passages on the western platform (H5).
 
 ## B. Puzzle Solving Insight (Confirmation Bias)
 My previous hypotheses all assumed activating switches is the solution. If these fail, I must test hypotheses where switches are deliberately left *unactivated* or boulders are used to block paths elsewhere.
-- **H8 (Eastern Switch Only):** Push ONLY the eastern boulder (from 17,13 to 18,14) onto its switch. HYPOTHESIS: This will open the barrier at (10,13).
