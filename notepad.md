@@ -45,15 +45,6 @@
 
 ## B. Interaction Log (Grouped by Farfetch'd Position)
 
-### State: (20, 24)
-*   **Interact from N (20, 23):** 'Kwaa!', then clearing dialogue -> Disappears [Confirmed].
-*   **Interact from E (21, 24):** 'Kwaa!', then clearing dialogue -> Disappears [New Location Unknown].
-
-### State: (22, 31)
-*   **Interact from N (22, 30):** 'Kwaa!', then clearing dialogue -> Moves to (28, 31).
-*   **Interact from S (22, 32):** 'Kwaa!', then clearing dialogue -> Moves to (15, 29).
-*   **Interact from E (23, 31):** Moves to (24, 35).
-
 ### State: (24, 35)
 *   **Interact from W (23, 35):** Moves to (28, 31).
 *   **Interact from E (25, 35):** 'Kwaa!', then clearing dialogue -> Moves to (22, 31).
