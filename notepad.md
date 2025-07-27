@@ -18,6 +18,7 @@
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
     *   FLOOR_UP_WALL: Can only be entered from below (upward). Verified in Union Cave B1F.
+    *   FLOOR_UP_WALL: Can only be entered from below (upward). Verified in Union Cave B1F.
     *   FLOOR_UP_WALL: Can only be entered from below. It is a one-way tile that acts as a ledge you jump up. It is a one-way tile that acts as a ledge you jump up.
 *   **Warp Carpets:** Generally activated by pressing the corresponding direction (e.g., `WARP_CARPET_RIGHT` requires pressing 'Right'). However, some, like the one at Union Cave (17, 3), may be one-way entrances and cannot be activated from the exit side.
 
