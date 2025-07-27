@@ -40,10 +40,8 @@
 
 # V. Ilex Forest Puzzle: Farfetch'd Herding
 
-## A. Goal & Mechanics
-*   **Objective:** Herd the Farfetch'd to the apprentice at (7, 28).
-*   **Interaction:** Pressing 'A' on an adjacent tile to the Farfetch'd causes it to react. A non-moving 'Kwaa!' interaction, followed by clearing the dialogue box, can trigger a move.
-*   **Reset Condition:** The puzzle resets if an incorrect action is taken or sometimes after a wild battle.
+## A. Puzzle Summary
+*   The Ilex Forest puzzle has been solved.
 
 ## B. Interaction Log (Grouped by Farfetch'd Position)
 
