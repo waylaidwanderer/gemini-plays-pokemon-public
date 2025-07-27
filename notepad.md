@@ -56,3 +56,6 @@
 
 # VII. New Agent Ideas
 *   **Exploration Validator:** An agent that takes the output of `find_reachable_unseen_tiles`, automatically runs `get_adjacent_traversable_tiles` on each, and then uses `find_path_to_target` to return a final, verified list of reachable exploration targets. This would automate my entire validation loop.
+
+## C. NPC Hints
+*   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
