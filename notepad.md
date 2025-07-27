@@ -78,3 +78,15 @@
 ## D. Technical Debt
 *   **HIGH PRIORITY - Tool Refactoring:** My `find_path_to_target` and `find_reachable_unseen_tiles` tools contain redundant pathfinding code. This led to them becoming desynchronized. I need to refactor them to use a single, centralized pathfinding function to ensure they are always consistent.
 *   A Super Nerd in Union Cave at (4, 21) confirmed that POKéMON roars can be heard from deep inside the cave every Friday.
+
+# IX. Overwatch Critique & New Tasks (Turn 12331)
+
+## A. Core Lessons
+*   **Immediate Data Management:** I failed to record the Ground vs. Fire type matchup immediately after learning it. All new information MUST be recorded in the turn it is discovered to maintain an accurate knowledge base.
+*   **Prioritize In-Game Tests:** I spent dozens of turns modifying tools based on a flawed hypothesis about `LEDGE_HOP_DOWN` tiles. A simple, one-turn in-game test would have immediately disproven it. I must prioritize direct, in-game experiments to verify mechanics before undertaking complex tool modifications.
+
+## B. Technical Debt
+*   **CRITICAL PRIORITY - Tool Refactoring:** My `find_path_to_target` and `find_reachable_unseen_tiles` tools contain redundant pathfinding code. This has been the root cause of multiple bugs and desynchronized logic. I MUST refactor them to use a single, centralized pathfinding function to ensure they are always consistent. This is my highest technical priority.
+
+## C. NPC Dialogue Updates
+*   A Super Nerd in Union Cave 1F at (4, 21) confirms that POKéMON roars can be heard from deep inside the cave every Friday. This corroborates the Fisher's hint.
