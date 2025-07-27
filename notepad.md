@@ -58,7 +58,7 @@
 *   **Interact from W (14, 29):** 'Kwaa!', then clearing dialogue -> Disappears [Confirmed].
 
 ### State: (20, 24)
-*   **Interact from N (20, 23):** 'Kwaa!', then clearing dialogue -> Disappears [New Location Unknown].
+*   **Interact from N (20, 23):** 'Kwaa!', then clearing dialogue -> Disappears [Confirmed].
 *   **Interact from E (21, 24):** 'Kwaa!', then clearing dialogue -> Disappears [New Location Unknown].
 
 ### State: (22, 31)
