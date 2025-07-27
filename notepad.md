@@ -80,10 +80,3 @@
 ## D. Confirmed Blockages
 *   **Northern Path (Y=23):** The northern path is **definitively confirmed** to be unreachable from the southern part of the forest. My `verify_reachability_of_tiles` tool found no valid path on Turn 10430, proving the persistent system alerts are false positives. This conclusion is now considered absolute and will not be re-tested.
 *   **Western Path (Y=23):** The western path from (0,23) to (9,23) is confirmed to be unreachable from the central forest area. Verified with `verify_reachability_of_tiles` tool (Turn 9919).
-
-# VI. Critical Lessons Learned
-*   **Data Management MUST Be Immediate:** Deferring notepad updates or marker placement is a critical failure. All new information must be recorded in the same turn it is discovered.
-*   **Trust Verified Tools Over Alerts:** My custom tools that analyze game data are more reliable than generic system alerts. I must trust their output, especially when they confirm a path is blocked.
-*   **Agent Integration:** I must consistently use my `procedural_overseer` agent to prevent getting stuck in repetitive, failing loops.
-*   **Resource Management:** I must not let my lead Pokémon's PP for attacking moves run out while in a dungeon. Retreating to heal is a valid and necessary strategy.
-*   **HM Mechanics:** HM moves can be used by fainted Pokémon, a key piece of information for puzzle-solving.
