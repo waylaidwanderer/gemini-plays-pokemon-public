@@ -71,3 +71,4 @@
 
 ## B. Puzzle Solving Insight (Confirmation Bias)
 My previous hypotheses all assumed activating switches is the solution. If these fail, I must test hypotheses where switches are deliberately left *unactivated* or boulders are used to block paths elsewhere.
+- **H8 (Eastern Switch Only):** Push ONLY the eastern boulder (from 17,13 to 18,14) onto its switch. HYPOTHESIS: This will open the barrier at (10,13).
