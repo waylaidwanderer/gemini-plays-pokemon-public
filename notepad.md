@@ -49,3 +49,10 @@
 *   **Idea:** Create a 'debugging_assistant' agent. It would take a failing tool's code and a hypothesis for the failure, then generate a series of `run_code` tests to methodically isolate the bug.
 *   **Idea:** Create a 'reflection_assistant' agent. It would take the 50-turn reflection questions and my recent turn history as input, then generate a preliminary analysis of my performance, forcing me to confront any strategic loops or unaddressed issues more directly.
 *   **Tool Synchronization:** Tools with shared logic (like pathfinding and exploration) MUST be updated together. A failure to synchronize them can lead to contradictory results and wasted time.
+
+# V. Lessons Learned
+*   **Tool Synchronization is CRITICAL:** My `find_path_to_target` and `find_reachable_unseen_tiles` tools fell out of sync. A bug fix in one was not applied to the other, leading to contradictory outputs and wasted turns. Shared logic must be updated everywhere simultaneously.
+*   **Trust Verified Tools Over General Alerts:** The system's 'unseen tile' alert only indicates *potential* reachability. My verified tools correctly determined these tiles were unreachable. I must trust my own verified data over general system hints.
+
+# VII. New Agent Ideas
+*   **Exploration Validator:** An agent that takes the output of `find_reachable_unseen_tiles`, automatically runs `get_adjacent_traversable_tiles` on each, and then uses `find_path_to_target` to return a final, verified list of reachable exploration targets. This would automate my entire validation loop.
