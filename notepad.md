@@ -76,7 +76,7 @@
 - **Paradox:** The `pathfinder_debugger`, when operating with what I previously identified as 'buggy' logic, found a path to the exit ladder. The key move in this path was a step-down from `elevated_ground` (6, 10) to `ground` (6, 9).
 - **Radical Hypothesis (H9):** The 'bug' in the debugger was actually the correct game mechanic.
 - **Test:** Manually navigated to (6, 10) and attempted to move Up to (6, 9).
-- **Conclusion:** The move was blocked by the game engine. **Hypothesis H9 is definitively FALSE.** The one-way step-down mechanic does not exist. My original, strict understanding of elevation change is correct.
+- **Conclusion:** The move was blocked by the game engine on a second, deliberate test (Turn 103670). **Hypothesis H9 is definitively FALSE.** The one-way step-down mechanic does not exist. My original, strict understanding of elevation change is correct. The paradox of being in a soft-locked state remains unresolved.
 
 # V. Core Principles & Lessons Learned
 
@@ -87,6 +87,11 @@
 - **Hypothesis:** After pushing the southern boulder (6,16) out of the way, the eastern boulder (15,3) can be pushed onto its switch (18,14).
 - **Test:** Used `boulder_puzzle_solver` to find a path for this sequence.
 - **Conclusion:** The solver returned 'No solution found'. This computationally proves that this specific sequence is impossible and my hypothesis was incorrect. The puzzle likely requires a more complex interaction between the boulders, or I am missing a key mechanic. This confirms that simply activating switches is not the sole objective.
+
+## C. Victory Road 1F Puzzle - Attempt 3 (FAILED)
+- **Hypothesis:** The boulder on the western switch (3,10) must be pushed *off* the switch to (3,11) to solve the puzzle.
+- **Test:** Used `boulder_puzzle_solver` to find a path for this sequence (Turn 103671).
+- **Conclusion:** The solver returned 'No solution found'. This computationally proves that this specific sequence is impossible from the current map state and my hypothesis was incorrect.
 
 ## D. Surfing Mechanic (New Discovery)
 - Not all `ground` tiles adjacent to `water` are valid starting points for using Surf. The game engine can block movement even if the pathfinder's logic deems it valid. Example: Cannot initiate Surf from (15, 26) to (14, 26) in Viridian City.
