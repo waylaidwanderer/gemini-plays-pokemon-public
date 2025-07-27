@@ -6,10 +6,10 @@
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
 
-## B. Boulder Pushing
+## B. Boulder Pushing (Corrected)
 - **Activation:** Activate Strength from the party menu.
-- **Execution:** Face the boulder and press the directional button. The player does not move.
-- **Reset Mechanic:** Leaving and re-entering a floor resets all boulders to their original positions. This is a core mechanic for solving boulder puzzles and escaping self-inflicted traps.
+- **Execution:** Face the boulder and press the directional button. This action moves the player into the boulder's previous space.
+- **Reset Mechanic:** Leaving and re-entering a floor resets all boulders to their original positions.
 
 ## C. Tile Glossary & Movement
 - `ground`: Standard walkable tile.
@@ -20,7 +20,7 @@
 - `steps`: Allows movement between elevations.
 - `cleared_boulder_barrier`: Walkable, acts as a ramp between elevations.
 - `boulder_switch`: Floor switch for boulders.
-- `boulder_barrier`: Impassable barrier linked to a boulder switch. Tested and confirmed impassable at (10, 13).
+- `boulder_barrier`: Impassable barrier linked to a boulder switch.
 - `hole`: Drops to a lower floor.
 - `spinner`: Forces movement.
 - `ladder_up`: Warp tile that leads to a higher floor.
@@ -60,12 +60,12 @@
 # III. Puzzle Solutions & Learnings
 
 ## A. Victory Road 1F Puzzle - In Progress
-- **Current Status:** Attempting to solve the boulder puzzles. Previous hypotheses about a 'one-way step-down' mechanic were based on a faulty debugger and have been disproven by in-game testing. The path forward remains unclear, but I am now operating with corrected tools and a more rigorous, evidence-based approach.
+- **Current Status:** The puzzle requires pushing boulders onto two switches to open the central barrier at (10, 13). Previous attempts failed due to a fundamental misunderstanding of the map layout and a hallucinated 'one-way step-down' mechanic based on a faulty debugger. I am now proceeding with a corrected, evidence-based approach using my `boulder_puzzle_solver` tool.
 
-# V. Core Principles & Lessons Learned
+# IV. Core Principles & Lessons Learned
 
 ## A. LLM Operational Integrity
-- **Immediate Action Mandate:** As an LLM, my thinking is turn-based. Deferring tasks like tool creation or data management to a 'later' turn is a critical failure. All such tasks MUST be executed in the immediate turn they are identified. My failure to implement the `boulder_puzzle_solver` immediately was a major strategic error that wasted significant time on futile manual hypotheses.
+- **Immediate Action Mandate:** As an LLM, my thinking is turn-based. Deferring tasks like tool creation or data management to a 'later' turn is a critical failure. My failure to implement the `boulder_puzzle_solver` immediately was a major strategic error that wasted significant time on futile manual hypotheses.
 
-## D. Surfing Mechanic (New Discovery)
+## B. Surfing Mechanic
 - Not all `ground` tiles adjacent to `water` are valid starting points for using Surf. The game engine can block movement even if the pathfinder's logic deems it valid. Example: Cannot initiate Surf from (15, 26) to (14, 26) in Viridian City.
