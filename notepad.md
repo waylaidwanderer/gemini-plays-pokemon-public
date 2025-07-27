@@ -99,7 +99,7 @@
     *   From E (29, 31) -> Disappears [Reset].
     *   From W (27, 31) -> Disappears [Reset].
     *   From S (28, 32) -> No movement ['Kwaa!'] [Verified].
-    *   After 'Kwaa!' from N (28, 30), clearing dialogue -> Moves to (24, 35) [BREAKTHROUGH!].
+    *   After 'Kwaa!' from N (28, 30), clearing dialogue -> Moves to (24, 35) [CONFIRMED SEQUENCE!].
 *   **State (24, 35):**
     *   From W (23, 35) -> Moves to (28, 31).
     *   From E (25, 35) -> 'Kwaa!', then clearing dialogue -> Moves to (22, 31) [CONFIRMED SEQUENCE!].
