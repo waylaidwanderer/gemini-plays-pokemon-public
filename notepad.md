@@ -55,7 +55,7 @@
 *   **Interact from N (15, 28):** Disappears [New Location Unknown].
 *   **Interact from S (15, 30):** 'Kwaa!', then clearing dialogue -> Moves to (15, 25).
 *   **Interact from E (16, 29):** Moves to (15, 25) [Loop].
-*   **Interact from W (14, 29):** 'Kwaa!', then clearing dialogue -> Disappears [New Location Unknown]
+*   **Interact from W (14, 29):** 'Kwaa!', then clearing dialogue -> Disappears [Confirmed].
 
 ### State: (20, 24)
 *   **Interact from N (20, 23):** 'Kwaa!', then clearing dialogue -> Disappears [New Location Unknown].
