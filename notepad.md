@@ -102,7 +102,7 @@
     *   After 'Kwaa!' from N (28, 30), clearing dialogue -> Moves to (24, 35) [BREAKTHROUGH!].
 *   **State (24, 35):**
     *   From W (23, 35) -> Moves to (28, 31).
-    *   From E (25, 35) -> 'Kwaa!', then clearing dialogue -> Moves to (22, 31) [BREAKTHROUGH!].
+    *   From E (25, 35) -> 'Kwaa!', then clearing dialogue -> Moves to (22, 31) [CONFIRMED SEQUENCE!].
 *   **State (29, 22):**
     *   From W (28, 22) -> Disappears, reappears at (28, 31).
     *   From S (29, 23) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
