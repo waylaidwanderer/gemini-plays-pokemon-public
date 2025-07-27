@@ -62,4 +62,4 @@
 
 # VII. Untested Assumptions & Future Experiments
 *   **Tile Impassability:** I have assumed several tile types are impassable based on their names (e.g., BUOY, TV, RADIO) without direct testing. I must verify these assumptions by attempting to walk into them when the opportunity arises.
-*   **Systematic Debugging:** The recent pathfinding issues highlight the need for a more systematic debugging process. I should consider creating a dedicated debugging agent or tool that can analyze tool code and suggest targeted tests to isolate bugs more efficiently.
+*   **Tool Refactoring:** My pathfinding tools contain redundant code, which led to desynchronized logic. I need to refactor them to use a single, centralized pathfinding function to ensure they are always consistent.
