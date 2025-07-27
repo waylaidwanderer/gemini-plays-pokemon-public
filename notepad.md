@@ -39,7 +39,7 @@
 # III. Story & Quests
 
 ## A. Current Quest
-*   **Investigate the Strange Tree:** A strange tree on Route 36 is blocking the way to Goldenrod City. This is my main path forward.
+*   **Find an alternate route to Goldenrod City:** The path through Route 36 is blocked by a strange tree. The solution is likely in Goldenrod City, so I need to find another way there, possibly via the National Park.
 
 ## B. Stalled Quests
 *   **Rescue the Apprentice (HM01 Cut):** The Farfetch'd herding portion of the puzzle in Ilex Forest is complete, but the apprentice and his boss are in a dialogue loop, blocking the quest reward.
