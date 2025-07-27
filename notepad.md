@@ -50,3 +50,4 @@
 ## B. Technical Investigations
 *   **CRITICAL HALLUCINATION (Turn 11733):** I believed I had already transitioned to Route 33 and was trying to pathfind from there. The system corrected me; I was still at the exit of Azalea Town (39, 15). This highlights the need to always verify my current location before planning.
 *   **CRITICAL HALLUCINATION (Turn 11840):** I incorrectly assumed the map exit at Route 33 (0, 15) was a warp. I must verify all warps in the game state data before setting them as navigation goals.
+*   **Route 33 North Path (Confirmed Blocked):** Manually attempting to move north from (9, 10) confirmed that the tile at (9, 9) is an impassable wall. My pathfinding tools were correct; the northern unseen area is unreachable from this side due to one-way ledges.
