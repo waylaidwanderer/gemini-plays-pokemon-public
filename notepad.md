@@ -21,7 +21,6 @@
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
 - `hole`: Drops to a lower floor. Pushing a boulder into one causes it to appear on the floor below, potentially landing on a switch or creating a new path.
-
 - `spinner`: Forces movement.
 - `ladder_up`: Warp tile that leads to a higher floor.
 - `ladder_down`: Warp tile that leads to a lower floor.
@@ -68,6 +67,10 @@
 
 # IV. Puzzle Solutions & Hypotheses
 
+## Victory Road 1F - Resetting Barrier
+- **Observation:** The boulder barrier at (10, 13) reset itself after I left and re-entered the floor.
+- **Hypothesis:** This barrier might reset every time I leave and re-enter Victory Road 1F. This needs to be tested to understand the puzzle mechanics of this area fully.
+
 ## Victory Road 2F - Western Trap
 - **Puzzle:** A barrier at (8, 9) and (8, 10) blocks eastward progress.
 - **Failed Hypothesis:** Pushing the western boulder at (4, 16) to the switch at (2, 17) would immediately open the barrier. This was proven false.
@@ -81,10 +84,5 @@
 - **Puzzle:** A boulder at (23, 4) blocks the path to a switch at (23, 7).
 - **Solution:** Push the boulder south three times onto the switch. This opens the boulder barrier at (8, 11).
 
-# V. Tool Development Log
-
-## `boulder_puzzle_solver`
-- **Issue:** Timed out repeatedly on Victory Road 2F puzzle (Target: (8,15)->(10,17)).
-- **Attempt 1 (Turn 104135):** Upgraded from BFS to A*. **Result:** Timeout.
-- **Attempt 2 (Turn 104170):** Optimized A* with BFS reachability check. **Result:** Timeout.
-- **Attempt 3 (Turn 104172):** Re-ran. **Result:** 'No solution found', indicating a logic error, not a performance issue.
+# V. Future Development Ideas
+- **`inventory_manager_agent`:** Create an agent to suggest which items to discard when my bag is full. It could analyze item value, rarity, and current utility to make optimal recommendations, preventing frustrating loops like the one on Victory Road 2F.
