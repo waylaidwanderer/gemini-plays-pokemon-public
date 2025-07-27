@@ -19,7 +19,7 @@
 
 ## B. Key Mechanics & Lessons Learned
 *   **HM Usage:** HM moves can be used by fainted Pokémon.
-*   **Tool Trust:** My custom tools, especially pathfinders, are more reliable than my own perception. I must trust their output, as they analyze the direct game data, and use them to verify my assumptions, not the other way around.
+*   **Tool Trust:** My custom tools, especially pathfinders, are more reliable than my own perception. I must trust their output, as they analyze the direct game data, and use them to verify my assumptions, not the other way around. Blaming the tool should be a last resort.
 *   **Data Management:** All data management tasks (notepad updates, marker placement) MUST be performed immediately in the turn of discovery. Deferring these tasks is a critical failure.
 *   **Agent Utilization:** I must consistently use my `procedural_overseer` agent to prevent repetitive, failing loops.
 *   **PP Management:** I must not allow my lead Pokémon to run out of all attacking moves while in a dungeon. Retreating to heal is crucial for resource management.
