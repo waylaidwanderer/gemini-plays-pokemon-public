@@ -1,29 +1,25 @@
 # Gem's Pokémon Crystal Adventure Log
 
-# I. Game Mechanics & Systems
+# I. Core Gameplay & Strategy
 
-## A. Tile Traversal Rules
+## A. Key Lessons & Behavioral Directives
+*   **Data Management is Paramount:** All data management tasks (notepad updates, marker placement, tool fixes) MUST be performed IMMEDIATELY in the turn of discovery. Deferring these tasks is a critical failure. I must use smaller, targeted edits (`replace`, `append`) if a full `overwrite` fails.
+*   **Trust Verified Tools:** My custom tools are more reliable than my perception or general system alerts. Once a tool's output is verified (e.g., confirming tiles are unreachable), I must trust that result until new information suggests otherwise. Repeatedly re-verifying a trusted tool is inefficient.
+*   **Efficient Agent Use:** I must use my reasoning agents (`battle_strategist`, etc.) for complex situations, not trivial ones. My own judgment is sufficient for simple encounters.
+*   **Tool Synchronization is CRITICAL:** Tools with shared logic (like pathfinding and exploration) MUST be updated together. A failure to synchronize them leads to contradictory results and wasted time.
+*   **Scientific Method:** When debugging or solving puzzles, I must form a clear hypothesis and test it methodically. Jumping to conclusions leads to wasted time.
+*   **PP Management:** I must not allow my lead Pokémon to run out of all attacking moves while in a dungeon. Retreating to heal is crucial for resource management.
+*   **HM Usage:** HM moves can be used by fainted Pokémon.
+
+## B. Tile Traversal Rules
 *   **Traversable:** FLOOR, TALL_GRASS, LONG_GRASS, DOOR, CAVE, LADDER.
-*   **Impassable:** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, WATER, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE.
+*   **Impassable:** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, WATER, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE, FRUIT_TREE.
 *   **One-Way Traversal:**
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
-    *   FLOOR_UP_WALL: Can only be entered from below. It is a one-way tile that acts as a ledge you jump up. You cannot move back down (which is moving Up on the map) from it.
-*   **Warp Carpets:** One-way warps activated by pressing the corresponding direction.
-    *   WARP_CARPET_RIGHT: Requires pressing 'Right'.
-    *   WARP_CARPET_DOWN: Requires pressing 'Down'.
-    *   WARP_CARPET_LEFT: Requires pressing 'Left'.
-*   **To Be Tested:**
-    *   FRUIT_TREE: Confirmed impassable object.
-
-## B. Key Mechanics & Lessons Learned
-*   **HM Usage:** HM moves can be used by fainted Pokémon.
-*   **Tool Trust:** My custom tools are more reliable than my perception. I must trust their output to verify my assumptions, not the other way around. Blaming the tool should be a last resort after all environmental possibilities have been exhausted.
-*   **Scientific Method:** When debugging or solving puzzles, I must form a clear hypothesis and test it methodically. Jumping to conclusions (e.g., assuming a tool is bugged when the path is simply blocked) leads to wasted time.
-*   **Data Management:** All data management tasks (notepad updates, marker placement) MUST be performed immediately in the turn of discovery. Deferring these tasks is a critical failure.
-*   **Agent Utilization:** I must consistently use my `procedural_overseer` agent to prevent repetitive, failing loops.
-*   **PP Management:** I must not allow my lead Pokémon to run out of all attacking moves while in a dungeon. Retreating to heal is crucial for resource management.
+    *   FLOOR_UP_WALL: Can only be entered from below. It is a one-way tile that acts as a ledge you jump up.
+*   **Warp Carpets:** One-way warps activated by pressing the corresponding direction (e.g., WARP_CARPET_RIGHT requires pressing 'Right').
 
 # II. Battle Information
 
@@ -39,30 +35,23 @@
 # III. Story & Quests
 
 ## A. Current Quest
-*   **Find an alternate route to Goldenrod City:** The path through Route 36 is blocked by a strange tree. The solution is likely in Goldenrod City, so I need to find another way there, possibly via the National Park.
+*   **Find a way past the strange tree on Route 36.** The solution seems tied to the events in Azalea Town.
 
 ## B. Stalled Quests
 *   **Rescue the Apprentice (HM01 Cut):** The Farfetch'd herding portion of the puzzle in Ilex Forest is complete, but the apprentice and his boss are in a dialogue loop, blocking the quest reward.
 
-# VI. Tool Development
-*   The hyper-specific `puzzle_strategist` agent was deleted. It has been replaced by the more general-purpose `get_adjacent_traversable_tiles` tool, which can be used for any future interaction-based puzzles.
-*   **Idea:** Create a 'debugging_assistant' agent. It would take a failing tool's code and a hypothesis for the failure, then generate a series of `run_code` tests to methodically isolate the bug.
-*   **Idea:** Create a 'reflection_assistant' agent. It would take the 50-turn reflection questions and my recent turn history as input, then generate a preliminary analysis of my performance, forcing me to confront any strategic loops or unaddressed issues more directly.
-*   **Tool Synchronization:** Tools with shared logic (like pathfinding and exploration) MUST be updated together. A failure to synchronize them can lead to contradictory results and wasted time.
-
-# V. Lessons Learned
-*   **Tool Synchronization is CRITICAL:** My `find_path_to_target` and `find_reachable_unseen_tiles` tools fell out of sync. A bug fix in one was not applied to the other, leading to contradictory outputs and wasted turns. Shared logic must be updated everywhere simultaneously.
-*   **Trust Verified Tools Over General Alerts:** The system's 'unseen tile' alert only indicates *potential* reachability. My verified tools correctly determined these tiles were unreachable. I must trust my own verified data over general system hints.
-
-# VII. New Agent Ideas
-*   **Exploration Validator:** An agent that takes the output of `find_reachable_unseen_tiles`, automatically runs `get_adjacent_traversable_tiles` on each, and then uses `find_path_to_target` to return a final, verified list of reachable exploration targets. This would automate my entire validation loop.
-
-## C. NPC Hints
+## C. NPC Hints & Lore
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
 
-# VI. Hypotheses & Tests
-*   **Hypothesis:** The solution to the strange tree on Route 36 is in Azalea Town or Ilex Forest.
-    *   **Alternative:** The solution requires an item from an area I can't access yet, possibly behind a Cut tree elsewhere.
-    *   **Test:** Fully explore Azalea and Ilex Forest. If no solution is found, I must backtrack to other blocked paths.
-*   **Hypothesis:** FRUIT_TREE tiles are impassable objects.
-    *   **Test:** Attempt to walk into the FRUIT_TREE at (8, 2) in Azalea Town.
+# IV. Hypotheses & Tests
+*   **Current Hypothesis:** I missed a trigger inside the Slowpoke Well.
+    *   **Test:** Re-explore the well, starting by interacting with the Slowpoke at (7, 4).
+*   **Past Hypothesis (Disproven):** Kurt or his granddaughter in his house would trigger the next event.
+    *   **Result:** They gave generic dialogue.
+*   **Past Hypothesis (Disproven):** The unseen areas of Slowpoke Well are reachable.
+    *   **Result:** Multiple tool checks confirmed they are blocked by water and boulders.
+
+# V. Tool Development & Ideas
+*   **Agent Idea - Exploration Validator:** An agent that takes the output of `find_reachable_unseen_tiles`, automatically runs `get_adjacent_traversable_tiles` on each, and then uses `find_path_to_target` to return a final, verified list of reachable exploration targets. This would automate my entire validation loop.
+*   **Agent Idea - Debugging Assistant:** It would take a failing tool's code and a hypothesis for the failure, then generate a series of `run_code` tests to methodically isolate the bug.
+*   **Agent Idea - Reflection Assistant:** It would take the 50-turn reflection questions and my recent turn history as input, then generate a preliminary analysis of my performance, forcing me to confront any strategic loops or unaddressed issues more directly.
