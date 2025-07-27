@@ -140,3 +140,4 @@
     *   After 'Kwaa!' from W (14, 29), clearing dialogue -> Disappears [NEW DISCOVERY! Location unknown].
 *   **State (15, 29):**
     *   From S (15, 30) -> 'Kwaa!', then clearing dialogue -> Moves to (15, 25) [NEW DISCOVERY!].
+*   **PP Management Failure:** I allowed my lead Pokémon, Vulcan, to run out of PP for all attacking moves while deep in Ilex Forest. This created a high-risk situation where any wild encounter could have been a potential party wipe. This is a critical failure in resource management and must not be repeated. Always retreat to heal before PP runs critically low.
