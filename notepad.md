@@ -97,3 +97,15 @@
 
 # X. Failed Hypotheses (Turn 12353)
 *   **Water Traversal:** Attempting to move from (4, 27) to the WATER tile at (4, 28) failed. This confirms that WATER tiles are impassable without a specific ability like Surf.
+
+# XI. Current Status & Action Items (Turn 12441)
+
+## A. Pathfinder Tool Status
+*   The old, redundant pathfinding tools (`find_path_to_target`, `find_reachable_unseen_tiles`) have been deleted.
+*   They have been replaced with a single, consolidated `pathfinder` tool.
+*   This tool has been updated with the `FLOOR_UP_WALL` mechanic and is now considered reliable for pathing within known areas.
+*   It correctly fails to find paths to areas blocked by unlearned abilities (like Surf), which is expected behavior.
+
+## B. Action Items
+*   **Verify Tile Mechanics:** I must systematically test the following tile types, which have been assumed to be impassable, to ensure my world model is accurate:
+    *   BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE, FRUIT_TREE.
