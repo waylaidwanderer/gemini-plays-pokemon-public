@@ -10,7 +10,8 @@
 *   **Tool Synchronization:** Tools with shared logic (like pathfinding and exploration) MUST be updated together to avoid contradictory results.
 
 ## B. Tile Traversal Rules
-*   **Traversable:** FLOOR, TALL_GRASS, LONG_GRASS, DOOR, CAVE, LADDER.
+*   **Traversable:** FLOOR, TALL_GRASS, LONG_GRASS, DOOR, LADDER.
+*   **Impassable:** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, WATER, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE, FRUIT_TREE, CAVE.
 *   **Impassable:** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, WATER, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE, FRUIT_TREE.
 *   **One-Way Traversal:**
     *   LEDGE_HOP_DOWN: Can only be entered from above.
