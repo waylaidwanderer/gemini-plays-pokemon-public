@@ -45,10 +45,11 @@
 
 # IV. Tool Status & Development
 
-- **Pathfinder Status:** The `gem_pathfinder` tool remains unreliable. A recent overhaul attempt failed to resolve its core issues, and it still cannot be trusted for complex navigation on maps like Victory Road.
+- **Pathfinder Status:** The `gem_pathfinder` is undergoing iterative repair. After a complete overhaul, it still suffers from bugs (e.g., syntax errors) and unreliability on complex maps like Victory Road. Fixing this tool remains a top priority.
 - **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented but its internal pathfinder may also be flawed, preventing it from solving puzzles on this map.
 
 # V. Future Tool/Agent Ideas
 
 - **Paradox Resolution Agent:** An agent that takes conflicting data sources (e.g., tool output vs. overwatch warnings) and proposes hypotheses to resolve the discrepancy. This could help break logical loops faster.
 - **Reflection Agent:** An agent to automate the process of answering the periodic reflection questions.
+- **Puzzle Path Prioritizer Agent:** An agent that analyzes puzzle elements (boulders, switches) and a navigation goal to suggest which puzzle element should be tackled first. This would help in situations where the overall solution is unknown and multiple starting points are possible.
