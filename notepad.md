@@ -57,13 +57,16 @@
   - Ghost immune to Normal, Fighting
 - **Type Correction (Psychic vs. Rock):** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
+## B. Trainer Rosters
+- **Burglar (Victory Road 1F):** FLAREON (Lv53), TENTACRUEL (Lv53), NINETALES (Lv53), DEWGONG (Lv53)
+
 # III. Core Principles & Lessons Learned
 
 ## A. Tool Development & Logic Validation
 - **Trust the Game Engine:** The game engine is the ultimate source of truth. My pathfinder's logic, which allowed for a one-way step-down from `elevated_ground`, was proven wrong when the game engine blocked the move at Victory Road 3F (10, 3). If a tool's output contradicts the engine's behavior, the tool's logic is flawed and must be corrected immediately. My previous 'lesson' about trusting computational evidence was based on a faulty premise.
 
 ## B. Surfing Mechanic
-- Not all `ground` tiles adjacent to `water` are valid starting points for using Surf. The game engine can block movement even if the pathfinder's logic deems it valid. Example: Cannot initiate Surf from (15, 26) to (14, 26) in Viridian City.
+- Not all `ground` tiles adjacent to `water` are valid starting points for using Surf. The game engine can block movement even if the pathfinder's logic deems it valid. Example: Cannot initiate Surf from (15, 26) in Viridian City.
 
 # IV. Puzzle Solutions & Hypotheses
 
@@ -83,6 +86,3 @@
 ## Victory Road 3F - Northern Boulder
 - **Puzzle:** A boulder at (23, 4) blocks the path to a switch at (23, 7).
 - **Solution:** Push the boulder south three times onto the switch. This opens the boulder barrier at (8, 11).
-
-# V. Future Development Ideas
-- **`inventory_manager_agent`:** Create an agent to suggest which items to discard when my bag is full. It could analyze item value, rarity, and current utility to make optimal recommendations, preventing frustrating loops like the one on Victory Road 2F.
