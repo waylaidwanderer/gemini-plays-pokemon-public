@@ -90,3 +90,8 @@
 ## D. Victory Road 2F - One-Way Ramp
 - **Observation:** The game engine blocked movement from `ground` at (8, 8) to `cleared_boulder_barrier` at (8, 9).
 - **Conclusion:** `cleared_boulder_barrier` tiles act as one-way ramps. It is only possible to move DOWN from an elevated area onto this tile, not UP from a lower area.
+
+# V. Future Development Ideas
+
+## A. Agent Concepts
+- **Puzzle Strategist Agent:** An agent that could analyze the map to suggest the most logical next step in a multi-part puzzle, like identifying the optimal boulder-and-switch pairing in Victory Road.
