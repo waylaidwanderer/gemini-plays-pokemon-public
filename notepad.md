@@ -76,7 +76,7 @@
 - **Paradox:** The `pathfinder_debugger`, when operating with what I previously identified as 'buggy' logic, found a path to the exit ladder. The key move in this path was a step-down from `elevated_ground` (6, 10) to `ground` (6, 9).
 - **Radical Hypothesis (H9):** The 'bug' in the debugger was actually the correct game mechanic.
 - **Test:** Manually navigated to (6, 10) and attempted to move Up to (6, 9).
-- **Conclusion:** The move was blocked by the game engine on a second, deliberate test (Turn 103670). **Hypothesis H9 is definitively FALSE.** The one-way step-down mechanic does not exist. My original, strict understanding of elevation change is correct. The paradox of being in a soft-locked state remains unresolved.
+- **Conclusion:** The move was blocked by the game engine on a second, deliberate test (Turn 103714). **Hypothesis H9 is definitively FALSE.** The one-way step-down mechanic does not exist. My original, strict understanding of elevation change is correct. The paradox of being in a soft-locked state remains unresolved.
 
 # V. Core Principles & Lessons Learned
 
