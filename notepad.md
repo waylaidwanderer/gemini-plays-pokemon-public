@@ -50,8 +50,6 @@
   - Push boulder (3, 11) to switch (3, 10).
 - **Result:** The boulder barrier at (10, 13) remains closed, and the path to the ladder at (2, 2) is blocked.
 - **New Goal:** Must reset the puzzle by exiting and re-entering the map to formulate a new solution.
-- **New Goal:** Must reset the puzzle by exiting and re-entering the map to formulate a new solution.
-- **New Goal:** Must reset the puzzle by exiting and re-entering the map to formulate a new solution.
 
 ## B. Victory Road 2F - Western Trap
 - **Solution:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering the triggers the event, opening the barrier at (8, 9) and (8, 10).
