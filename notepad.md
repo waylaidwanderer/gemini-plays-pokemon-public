@@ -42,12 +42,14 @@
 
 # III. Puzzle Solutions & Progress
 
-## A. Victory Road 1F - Path to Ladder
-- **Goal:** Reach the ladder at (2, 2).
-- **Step 1:** Push the boulder at (6, 16) south to (6, 17).
-- **Step 2:** Ascend the steps at (6, 14) to the western upper platform.
-- **Step 3:** Push the boulder at (3, 11) onto the switch at (3, 10).
-- **Step 4:** Navigate past the defeated trainers to the ladder.
+## A. Victory Road 1F - Path to Ladder (INCORRECT - DO NOT USE)
+- **Status:** This documented solution has been tested and is INCORRECT. Following these steps leads to an unsolvable state where the player is trapped.
+- **Failed Steps:**
+  - Push boulder (6, 16) to (6, 17).
+  - Ascend steps (6, 14).
+  - Push boulder (3, 11) to switch (3, 10).
+- **Result:** The boulder barrier at (10, 13) remains closed, and the path to the ladder at (2, 2) is blocked.
+- **New Goal:** Must reset the puzzle by exiting and re-entering the map to formulate a new solution.
 
 ## B. Victory Road 2F - Western Trap
 - **Solution:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering the triggers the event, opening the barrier at (8, 9) and (8, 10).
