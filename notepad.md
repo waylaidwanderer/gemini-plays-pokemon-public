@@ -66,9 +66,6 @@
 *   **Tile Impassability:** I have assumed several tile types are impassable based on their names (e.g., BUOY, TV, RADIO) without direct testing. I must verify these assumptions by attempting to walk into them when the opportunity arises.
 *   **Tool Refactoring:** My pathfinding tools contain redundant code, which led to desynchronized logic. I need to refactor them to use a single, centralized pathfinding function to ensure they are always consistent.
 
-# X. Failed Hypotheses (Turn 12353)
-*   **Water Traversal:** Attempting to move from (4, 27) to the WATER tile at (4, 28) failed. This confirms that WATER tiles are impassable without a specific ability like Surf.
-
 # XI. Current Status & Action Items (Turn 12441)
 
 ## A. Pathfinder Tool Status
