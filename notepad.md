@@ -22,20 +22,13 @@
 # II. Battle Information
 
 ## A. Verified Type Matchups
-*   Ghost-type moves have NO EFFECT on Normal-type Pokémon.
-*   Normal-type moves have NO EFFECT on Ghost-type Pokémon.
-*   Unown's Hidden Power can be super-effective against Fire-type Pokémon (observed against Vulcan). The specific type is unknown, but could be Water, Rock, or Ground.
+*   Ghost has NO EFFECT on Normal.
+*   Normal has NO EFFECT on Ghost.
+*   Unown's Hidden Power (type unknown) can be super-effective against Fire.
 
 ## B. Gym Leader Teams
-*   **Falkner (Violet City):** Pidgey (Lv7), Pidgeotto (Lv9). Primarily Normal/Flying type.
+*   **Falkner (Violet City):** Pidgey (Lv7), Pidgeotto (Lv9).
 *   **Bugsy (Azalea Town):** Metapod (Lv14), Kakuna (Lv14), Scyther (Lv16).
-
-# III. Badges & Items
-*   **Zephyr Badge:** Acquired from Falkner. Raises Pokémon's attack power and allows the use of HM05 (Flash) outside of battle.
-*   **Hive Badge:** Acquired from Bugsy. Allows use of HM01 (Cut) outside of battle and makes traded Pokémon up to Lv30 obey.
-*   **TM31 (Mud-Slap):** Received from Falkner.
-*   **TM49 (Fury Cutter):** Received from Bugsy.
-*   **EVERSTONE:** Received from Professor Elm. Prevents a Pokémon holding it from evolving.
 
 # IV. Story Progression
 
