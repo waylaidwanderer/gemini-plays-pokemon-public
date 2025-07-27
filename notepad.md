@@ -3,49 +3,21 @@
 # I. Game Mechanics & Systems
 
 ## A. Tile Traversal Rules
+*   **Traversable:** FLOOR, TALL_GRASS, LONG_GRASS, DOOR, CAVE, LADDER.
+*   **Impassable:** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, WATER, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE.
+*   **One-Way Traversal:**
+    *   LEDGE_HOP_DOWN: Can only be entered from above.
+    *   LEDGE_HOP_RIGHT: Can only be entered from the left.
+    *   LEDGE_HOP_LEFT: Can only be entered from the right.
+    *   FLOOR_UP_WALL: Can only be entered from below.
+*   **Warp Carpets:** One-way warps activated by pressing the corresponding direction (e.g., WARP_CARPET_DOWN requires pressing 'Down').
 
-### Confirmed Traversable:
-*   **FLOOR:** Fully traversable.
-*   **TALL_GRASS:** Traversable. Can trigger wild Pokémon encounters.
-*   **LONG_GRASS:** Traversable, can trigger wild Pokémon encounters.
-*   **DOOR:** Functions as a two-way warp.
-*   **CAVE:** Functions as a warp.
-*   **LADDER:** Functions as a two-way warp between floors.
-
-### Warp Tiles:
-*   **WARP_CARPET_DOWN:** One-way warp. Activated by pressing 'Down'.
-*   **WARP_CARPET_LEFT:** One-way warp. Activated by pressing 'Left'.
-*   **WARP_CARPET_RIGHT:** One-way warp. Activated by pressing 'Right'.
-
-### Confirmed Impassable:
-*   **WALL:** Confirmed impassable. Blocks movement from all directions.
-*   **WINDOW:** Impassable. Functions as a wall.
-*   **PC:** Impassable. Functions as an object.
-*   **VOID:** Impassable. Appears as a black abyss.
-*   **CUT_TREE:** Impassable. Likely requires HM Cut.
-*   **SIGN:** Impassable. Functions as an object that can be interacted with for text.
-*   **BOOKSHELF:** Impassable. Functions as an object that can be interacted with for text.
-*   **BLACKBOARD:** Impassable. Functions as an object that can be interacted with for text.
-*   **MART_SHELF:** Impassable. Functions as a wall.
-*   **WATER:** Confirmed impassable. Blocks movement entirely.
-*   **BUOY:** Impassable. Functions as a wall in water.
-*   **TV:** Impassable object.
-*   **TOWN_MAP:** Impassable object.
-*   **RADIO:** Impassable object. Can be interacted with for text.
-*   **INCENSE_BURNER:** Impassable object. (Confirmed by attempting to walk into it).
-*   **COUNTER:** Confirmed impassable. Functions as a wall.
-*   **BIRD:** Impassable object. Functions as a wall.
-*   **HEADBUTT_TREE:** Confirmed impassable by attempting to walk into it.
-*   **VOID:** Confirmed impassable by observation.
-
-### Confirmed One-Way:
-*   **LEDGE_HOP_DOWN:** One-way traversal. Can only be entered from above.
-*   **LEDGE_HOP_RIGHT:** One-way traversal. Can only be entered from the left.
-*   **LEDGE_HOP_LEFT:** One-way traversal. Can only be entered from the right.
-*   **FLOOR_UP_WALL:** One-way traversal. Can only be entered from below (i.e., you can't walk down onto it).
-
-## B. Map Marker Mechanics
-*   **Dynamic Nature:** Markers linked to an `object_id` WILL move with the object. This is useful for tracking moving NPCs.
+## B. Key Mechanics & Lessons Learned
+*   **HM Usage:** HM moves can be used by fainted Pokémon.
+*   **Tool Trust:** My custom tools, especially pathfinders, are more reliable than generic system alerts. I must trust their output, as they analyze the direct game data.
+*   **Data Management:** All data management tasks (notepad updates, marker placement) MUST be performed immediately in the turn of discovery. Deferring these tasks is a critical failure.
+*   **Agent Utilization:** I must consistently use my `procedural_overseer` agent to prevent repetitive, failing loops.
+*   **PP Management:** I must not allow my lead Pokémon to run out of all attacking moves while in a dungeon. Retreating to heal is crucial for resource management.
 
 # II. Battle Information
 
