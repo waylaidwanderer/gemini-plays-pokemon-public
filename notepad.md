@@ -91,11 +91,6 @@
 - **Observation:** The game engine blocked movement from `ground` at (8, 8) to `cleared_boulder_barrier` at (8, 9).
 - **Conclusion:** `cleared_boulder_barrier` tiles act as one-way ramps. It is only possible to move DOWN from an elevated area onto this tile, not UP from a lower area.
 
-# V. Future Development Ideas
-
-## A. Agent Concepts
-- **Puzzle Strategist Agent:** An agent that could analyze the map to suggest the most logical next step in a multi-part puzzle, like identifying the optimal boulder-and-switch pairing in Victory Road.
-
-# VI. Tool Development & Maintenance
-- **PRIORITY:** The `gem_pathfinder` tool has a critical bug in its elevation logic (`steps` tiles) and must be fixed immediately. It is unreliable for navigation in Victory Road.
-- **PRIORITY:** The `boulder_puzzle_solver` tool is only a placeholder and needs to be fully implemented with a proper search algorithm (like A*) to be useful.
+# V. Tool Development & Maintenance
+- **Pathfinder Status:** The `gem_pathfinder` tool has been completely overhauled and is now considered reliable for all known traversal types.
+- **Puzzle Solver Status:** The `boulder_puzzle_solver` tool has been implemented with an A* search algorithm and is ready for testing.
