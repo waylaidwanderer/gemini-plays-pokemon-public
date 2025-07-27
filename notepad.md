@@ -86,3 +86,7 @@
 ## Victory Road 3F - Northern Boulder
 - **Puzzle:** A boulder at (23, 4) blocks the path to a switch at (23, 7).
 - **Solution:** Push the boulder south three times onto the switch. This opens the boulder barrier at (8, 11).
+
+## D. Victory Road 2F - One-Way Ramp
+- **Observation:** The game engine blocked movement from `ground` at (8, 8) to `cleared_boulder_barrier` at (8, 9).
+- **Conclusion:** `cleared_boulder_barrier` tiles act as one-way ramps. It is only possible to move DOWN from an elevated area onto this tile, not UP from a lower area.
