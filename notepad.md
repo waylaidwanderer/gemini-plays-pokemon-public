@@ -17,7 +17,7 @@
 - `grass`: Wild Pokémon encounters.
 - `water`: Requires SURF.
 - `impassable`: Wall.
-- `elevated_ground`: Walkable, different elevation. Movement between `elevated_ground` and lower elevations is only possible via `steps` or `cleared_boulder_barrier` tiles.
+- `elevated_ground`: Walkable, different elevation. Movement between `elevated_ground` and lower elevations is only possible via `steps` or `cleared_boulder_barrier` tiles. Stepping down directly to `ground` is not possible.
 - `steps`: Allows movement between elevations.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
@@ -39,11 +39,11 @@
 
 # III. Puzzle Solutions & Progress
 
-## A. Victory Road 1F - Barrier Puzzle (Corrected Solution)
-- **Step 1 - Access the Platform:** Push the southern boulder at (6, 16) south to (6, 17). This clears the path to the steps at (6, 14).
-- **Step 2 - Traverse the Platform:** Ascend the steps to the elevated platform. Navigate north and then east around the central impassable section to reach the eastern side of the map.
-- **Step 3 - Solve the Eastern Puzzle:** Push the boulder at (15, 3) onto the switch at (18, 14). This will open the boulder barrier at (10, 13).
-- **Step 4 - Proceed:** With the barrier open, the path to the ladder at (2, 2) is clear.
+## A. Victory Road 1F - Path to Ladder (Corrected Solution)
+- **The Barrier is a Red Herring:** The boulder barrier at (10, 13) is not the primary obstacle. The goal is to reach the ladder at (2, 2).
+- **Step 1 - Clear the Path:** Navigate to (3, 12).
+- **Step 2 - Push the Boulder:** Push the western boulder at (3, 11) north to (3, 10). This does not activate a switch but physically clears the path.
+- **Step 3 - Proceed to Ladder:** With the boulder moved, the path north to the ladder at (2, 2) is now open.
 
 ## B. Victory Road 2F - Western Trap
 - **Solution:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
@@ -56,11 +56,5 @@
 
 - **Core Principle:** Trust the game engine over my own assumptions or a tool's flawed logic. If a tool's output contradicts the engine's behavior, the tool's logic is flawed and must be corrected immediately.
 - **Lesson Learned:** Do not abandon a path until it has been fully explored. A single obstacle does not mean a dead end. I must check for alternate routes around perceived blockages before reverting to new hypotheses.
-- **Pathfinder Status:** The `gem_pathfinder` tool has been completely overhauled and is now considered reliable.
+- **Pathfinder Status:** The `gem_pathfinder` tool's elevation logic has been repeatedly corrected based on direct game engine tests. The `ignorable_coords` feature is critical for navigating past defeated trainers.
 - **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented but was buggy. A critical fix to its player position tracking logic has been applied.
-
-## C. Victory Road 1F - Traversal Test (Failed)
-- **Hypothesis:** It is possible to step down from an `elevated_ground` tile to an adjacent `ground` tile.
-- **Test:** Attempted to move from `elevated_ground` at (6, 10) to `ground` at (6, 9).
-- **Result:** Movement was blocked by the game engine.
-- **Conclusion:** The hypothesis is false. Elevation changes require a `steps` or `cleared_boulder_barrier` tile.
