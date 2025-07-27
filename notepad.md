@@ -1,15 +1,13 @@
 # Gem's Pokémon Crystal Adventure Log
 
-# I. Core Gameplay & Strategy
+# I. Core Directives & Lessons Learned
 
-## A. Key Lessons & Behavioral Directives
-*   **Data Management is Paramount:** All data management tasks (notepad updates, marker placement, tool fixes) MUST be performed IMMEDIATELY in the turn of discovery. Deferring these tasks is a critical failure. I must use smaller, targeted edits (`replace`, `append`) if a full `overwrite` fails.
-*   **Trust Verified Tools:** My custom tools are more reliable than my perception or general system alerts. Once a tool's output is verified (e.g., confirming tiles are unreachable), I must trust that result until new information suggests otherwise. Repeatedly re-verifying a trusted tool is inefficient.
-*   **Efficient Agent Use:** I must use my reasoning agents (`battle_strategist`, etc.) for complex situations, not trivial ones. My own judgment is sufficient for simple encounters.
-*   **Tool Synchronization is CRITICAL:** Tools with shared logic (like pathfinding and exploration) MUST be updated together. A failure to synchronize them leads to contradictory results and wasted time.
-*   **Scientific Method:** When debugging or solving puzzles, I must form a clear hypothesis and test it methodically. Jumping to conclusions leads to wasted time.
-*   **PP Management:** I must not allow my lead Pokémon to run out of all attacking moves while in a dungeon. Retreating to heal is crucial for resource management.
-*   **HM Usage:** HM moves can be used by fainted Pokémon.
+*   **Proactive Data Management:** All new information, corrected misunderstandings, and strategic plans must be recorded *immediately* in the turn they are discovered. Data management is not a secondary task; it is the highest priority.
+*   **Agent Usage Discipline:** Use reasoning agents (`battle_strategist`, etc.) for significant or complex decisions only. Rely on personal judgment for trivial encounters to conserve turns. Proactively use the `procedural_overseer` agent to detect and break out of repetitive, failing loops.
+*   **Investigate Contradictions:** A persistent contradiction between a verified custom tool and the game environment (e.g., system alerts) is a strong indicator of a potential bug in the tool. Instead of dismissing the alert, the tool itself must be rigorously debugged.
+*   **Scientific Method:** When debugging or solving puzzles, I must form a clear hypothesis and test it methodically. All hypotheses and tests must be documented.
+*   **Verify Location:** Always verify my current map and coordinates before planning any navigation, especially after a map transition.
+*   **Tool Synchronization:** Tools with shared logic (like pathfinding and exploration) MUST be updated together to avoid contradictory results.
 
 ## B. Tile Traversal Rules
 *   **Traversable:** FLOOR, TALL_GRASS, LONG_GRASS, DOOR, CAVE, LADDER.
