@@ -59,3 +59,10 @@
 
 ## C. NPC Hints
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
+
+# VI. Hypotheses & Tests
+*   **Hypothesis:** The solution to the strange tree on Route 36 is in Azalea Town or Ilex Forest.
+    *   **Alternative:** The solution requires an item from an area I can't access yet, possibly behind a Cut tree elsewhere.
+    *   **Test:** Fully explore Azalea and Ilex Forest. If no solution is found, I must backtrack to other blocked paths.
+*   **Hypothesis:** FRUIT_TREE tiles are impassable objects.
+    *   **Test:** Attempt to walk into the FRUIT_TREE at (8, 2) in Azalea Town.
