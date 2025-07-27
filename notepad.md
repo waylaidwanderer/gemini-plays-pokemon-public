@@ -60,3 +60,7 @@
 # VI. Held Items
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
 *   **Fisher Henry (Route 32):** Poliwag (Lv8), Poliwag (Lv8).
+
+# VII. Untested Assumptions & Future Experiments
+*   **Tile Impassability:** I have assumed several tile types are impassable based on their names (e.g., BUOY, TV, RADIO) without direct testing. I must verify these assumptions by attempting to walk into them when the opportunity arises.
+*   **Southern Route 32:** I assume the unseen tiles to the far south are unreachable. An alternative hypothesis is that there is a hidden path or a different one-way ledge mechanic I haven't discovered yet. I will test this after exploring the northern cluster.
