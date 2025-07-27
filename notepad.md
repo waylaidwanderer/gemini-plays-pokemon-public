@@ -71,7 +71,7 @@
 # IV. Puzzle Solutions & Hypotheses
 
 ## A. Victory Road 1F - Boulder Puzzles
-- **Western Path:** This path is a **CONFIRMED DEAD END**. The boulder puzzle on the western platform is a red herring. My previous hypothesis about a switch at (3, 10) was a **HALLUCINATION**.
+- **Western Boulder Puzzle:** The boulder at (3, 11) must be pushed north onto the switch at (3, 10) to open a path. My previous assessment of this being a dead end was incorrect.
 - **Southern Boulder:** This boulder at (6, 16) is the key to accessing the rest of the map. It must be pushed South once, then East multiple times to clear the path.
 - **Eastern Boulder:** The boulder at (15, 3) must be pushed to the switch at (18, 14) to open the barrier at (10, 13).
 
