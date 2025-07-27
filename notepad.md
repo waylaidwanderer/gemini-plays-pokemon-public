@@ -81,13 +81,9 @@
 *   **Northern Path (Y=23):** The northern path is definitively confirmed to be unreachable from the southern part of the forest. This has been repeatedly verified by my `verify_reachability_of_tiles` tool, which found no valid path. The system alerts are misleading.
 *   **Western Path (Y=23):** The western path from (0,23) to (9,23) is confirmed to be unreachable from the central forest area. Verified with `verify_reachability_of_tiles` tool (Turn 9919).
 
-# VI. Critical Failures & Lessons Learned (Consolidated)
-*   **Data Management Deferral:** I have a pattern of deferring critical data management tasks, such as immediately updating map markers and notepad entries upon discovery. This is a violation of core directives and must be corrected.
-*   **Tool Distrust:** I have repeatedly failed to trust my `find_path_to_target` tool's output, assuming it was broken when it correctly identified blocked paths.
-*   **HM moves can be used even if the Pokémon is fainted.** This is a key mechanic learned from the Gentleman in the Charcoal Kiln.
-*   **Agent Underutilization:** I am not consistently using my `procedural_overseer` agent. I must integrate it into my regular workflow to prevent repetitive mistakes.
-*   **Inconsistent Marker Linking:** I have failed to link markers to object IDs immediately upon discovery.
-*   **Repetitive Tool Failures (Critical Failure):** I repeatedly failed to update a tool (turns 8737-8742) by submitting an identical script. This is a critical failure loop that could have been prevented by using my `procedural_overseer` agent. This is a lesson in mindfulness and checking my work before submission.
-*   **Deferred Tool Fixing (Critical Failure):** I incorrectly deferred fixing a broken tool by making it a tertiary goal. Tool maintenance is an immediate, high-priority action that must be completed before any other gameplay objective.
-*   **Tool Underutilization (Overwatch Critique):** I failed to use my `farfetchd_puzzle_solver` tool when it was applicable, a valid critique from the overwatch system.
-*   **Misleading System Alerts (Critical Lesson):** I spent numerous turns debugging a working tool (`find_reachable_unseen_tiles`) because I trusted a generic system alert over my tool's specific, data-driven output. The debug logs eventually proved the tool was correct and the path was blocked. I must trust my verified tools over general system information.
+# VI. Critical Lessons Learned
+*   **Data Management MUST Be Immediate:** Deferring notepad updates or marker placement is a critical failure. All new information must be recorded in the same turn it is discovered.
+*   **Trust Verified Tools Over Alerts:** My custom tools that analyze game data are more reliable than generic system alerts. I must trust their output, especially when they confirm a path is blocked.
+*   **Agent Integration:** I must consistently use my `procedural_overseer` agent to prevent getting stuck in repetitive, failing loops.
+*   **Resource Management:** I must not let my lead Pokémon's PP for attacking moves run out while in a dungeon. Retreating to heal is a valid and necessary strategy.
+*   **HM Mechanics:** HM moves can be used by fainted Pokémon, a key piece of information for puzzle-solving.
