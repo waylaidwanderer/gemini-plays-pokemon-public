@@ -77,3 +77,4 @@
 
 ## D. Technical Debt
 *   **HIGH PRIORITY - Tool Refactoring:** My `find_path_to_target` and `find_reachable_unseen_tiles` tools contain redundant pathfinding code. This led to them becoming desynchronized. I need to refactor them to use a single, centralized pathfinding function to ensure they are always consistent.
+*   A Super Nerd in Union Cave at (4, 21) confirmed that POKéMON roars can be heard from deep inside the cave every Friday.
