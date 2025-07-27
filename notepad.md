@@ -39,7 +39,7 @@
 
 # III. Puzzle Mechanics & Key Discoveries
 
-- **Victory Road 1F - Western Puzzle:** This puzzle involves two boulders on the western platform. Solving it appears to be a red herring and does not directly open the path forward. It may be a prerequisite for a 'prime and trigger' mechanic.
+- **Victory Road 1F - Western Dead End:** The western section of this floor, accessed from the main entrance, is a dead end. The ladder at (2, 2) is unreachable from here. The purpose of the two boulders in this area is unknown, but they do not provide immediate access to the rest of the floor. The only exit is back to Route 23.
 - **Victory Road 2F - Western Trap:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below, affecting a puzzle there.
 
