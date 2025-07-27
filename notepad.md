@@ -80,3 +80,11 @@
 ## D. Confirmed Blockages
 *   **Northern Path (Y=23):** The northern path is **definitively confirmed** to be unreachable from the southern part of the forest. My `verify_reachability_of_tiles` tool found no valid path on Turn 10430, proving the persistent system alerts are false positives. This conclusion is now considered absolute and will not be re-tested.
 *   **Western Path (Y=23):** The western path from (0,23) to (9,23) is confirmed to be unreachable from the central forest area. Verified with `verify_reachability_of_tiles` tool (Turn 9919).
+
+# VI. Future Improvements & Hypotheses
+
+## A. Tool Development Ideas
+*   **General Puzzle Tool:** The `farfetchd_puzzle_solver` is too specific. Consider creating a more general tool, like `get_adjacent_traversable_tiles`, that can be used for any object or puzzle element.
+
+## B. New Puzzle Hypotheses
+*   **Ilex Forest Puzzle (Non-Linearity):** My current assumption is that the Farfetch'd puzzle is strictly linear. An alternative hypothesis is that it's non-linear, or that wild battles reset it to a specific *intermediate* state, not always the beginning. If my current approach fails, I should test this by intentionally triggering a battle after a successful move to observe the reset behavior.
