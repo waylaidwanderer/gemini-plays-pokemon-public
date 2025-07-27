@@ -27,9 +27,10 @@
 *   Normal has NO EFFECT on Ghost.
 *   Unown's Hidden Power (type unknown) can be super-effective against Fire.
 
-## B. Gym Leader Teams
+## B. Trainer Rosters
 *   **Falkner (Violet City):** Pidgey (Lv7), Pidgeotto (Lv9).
 *   **Bugsy (Azalea Town):** Metapod (Lv14), Kakuna (Lv14), Scyther (Lv16).
+*   **Fisher Justin (Route 32):** Magikarp (Lv5), Magikarp (Lv5), Magikarp (Lv15), Magikarp (Lv5).
 
 # III. Story & Quests
 
