@@ -1,21 +1,18 @@
 # I. Game Mechanics & Traversal
 
 ## A. Core Principles
-- **Trust the Game Engine:** The game engine's behavior is the ultimate source of truth. If a tool's output or a personal hypothesis is contradicted by the engine (e.g., a blocked movement), the tool/hypothesis is wrong and must be corrected immediately. My repeated attempts to implement a one-way step-down mechanic for 'elevated_ground' failed because the engine consistently blocked it, proving the mechanic does not exist.
+- **Game Engine is Truth:** The game engine's behavior is the ultimate source of truth. If a tool or hypothesis is contradicted by the engine (e.g., a blocked movement), the tool/hypothesis is wrong and must be corrected immediately. 
 
 ## B. Core Rules
 - **Level Cap:** The level cap with 8 badges is 65.
 - **"No Will to Fight" Message:** Appears when the party menu cursor is on a fainted Pokémon.
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
-- **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points. The game engine can block movement even if a path seems clear.
+- **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points.
+- **Boulder Pushing:** Activate Strength from the party menu. Face the boulder and press the directional button. The boulder moves one tile, but the player's position does not change.
+- **Puzzle Resets:** Leaving and re-entering a floor resets all boulders to their original positions.
 
-## C. Boulder Pushing
-- **Activation:** Activate Strength from the party menu.
-- **Execution:** Face the boulder and press the directional button. The boulder moves one tile, but the player's position does not change.
-- **Reset Mechanic:** Leaving and re-entering a floor resets all boulders to their original positions.
-
-## D. Tile Glossary & Movement Rules
+## C. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile.
 - `grass`: Wild Pokémon encounters.
 - `water`: Requires SURF.
@@ -37,36 +34,21 @@
 - **Immune (0x):** Flying immune to Ground; Ground immune to Electric; Ghost immune to Normal, Fighting
 - **Correction:** Psychic-type moves deal NEUTRAL (1x) damage to Rock-type Pokémon.
 
-## B. Trainer Rosters
-- **Super Nerd (Victory Road 1F):** FLAREON (Lv53), TENTACRUEL (Lv53), NINETALES (Lv53), DEWGONG (Lv53)
-
-## C. Trainer Battle Rules
+## B. Trainer Battle Rules
 - **No Respawns:** Defeated trainers do NOT respawn. They become permanent obstacles that are impassable by normal movement, but can be bypassed by using the `gem_pathfinder` tool with the `ignorable_coords` parameter.
 
-# III. Puzzle Solutions & Progress
+# III. Puzzle Mechanics & Key Discoveries
 
-## A. Victory Road 1F - Puzzle Analysis
-- **Status:** All hypotheses involving the southern/western areas have failed. The path to the western ladder at (2, 2) is a confirmed dead end. The solution must lie on the eastern side of the map.
-- **Objective:** Find a path to the eastern elevated platform and re-evaluate the puzzle from there.
-- **Key Elements:**
-  - Boulder 1: (6, 16)
-  - Boulder 2: (15, 3) (on isolated upper platform)
-  - Boulder 3: (3, 11)
-  - Switch: (18, 14)
-  - Barrier: (10, 13)
-- **Current Hypothesis:** The boulder at (15, 3) on the eastern platform is the key to solving the puzzle.
-
-## B. Victory Road 2F - Western Trap
-- **Solution:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering the triggers the event, opening the barrier at (8, 9) and (8, 10).
-
-## C. Victory Road 3F Puzzles
-- **Central Boulder (14, 13):** Push south two times into the hole at (14, 15). This affects the floor below.
-- **Northern Boulder (23, 4):** Push south three times onto the switch at (23, 7). This opens the boulder barrier at (8, 11).
+- **Victory Road 2F - Western Trap:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
+- **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below, affecting a puzzle there.
 
 # IV. Tool Status & Development
 
 - **Pathfinder Status:** The `gem_pathfinder` tool's elevation logic has been repeatedly corrected based on direct game engine tests. The `ignorable_coords` feature is critical for navigating past defeated trainers.
-- **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented but was buggy. Critical fixes to its state representation and heap comparison logic have been applied.
+- **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented and functional after several critical bug fixes.
 
 # V. Future Tool/Agent Ideas
+
 - **Paradox Resolution Agent:** An agent that takes conflicting data sources (e.g., tool output vs. overwatch warnings) and proposes hypotheses to resolve the discrepancy. This could help break logical loops faster.
+- **Reflection Agent:** An agent to automate the process of answering the periodic reflection questions.
+- **Puzzle Strategist Agent:** An agent that uses the output of `get_puzzle_elements` to formulate a high-level, multi-step strategy for complex puzzle rooms.
