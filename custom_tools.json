@@ -487,6 +487,16 @@
         "commit_message": "fix: Add FLOOR_UP_WALL to impassable tiles. The tool was generating invalid paths by trying to move onto these one-way ledges from the wrong direction. This fix treats them as walls for now, preventing pathing errors.",
         "timestamp": "2025-07-26T19:11:41.369Z",
         "action_counter": 9636
+      },
+      {
+        "commit_message": "debug: Add comprehensive logging to trace BFS execution. The tool has produced contradictory results, indicating a bug in its traversal logic. This commit adds extensive print statements to track the start/target coordinates, the calculated destination tiles, the queue, visited nodes, and the logic for handling one-way tiles. This will provide a complete execution log to diagnose the bug.",
+        "timestamp": "2025-07-27T05:58:05.794Z",
+        "action_counter": 10712
+      },
+      {
+        "commit_message": "refactor: Remove all debugging prints. The extensive logging has served its purpose in verifying the tool's logic against unreachable areas. This commit removes all `print` statements to restore the tool to a clean, production-ready state.",
+        "timestamp": "2025-07-27T05:59:51.682Z",
+        "action_counter": 10715
       }
     ]
   },
