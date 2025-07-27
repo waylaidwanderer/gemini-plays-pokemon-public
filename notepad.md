@@ -93,4 +93,4 @@
 
 # V. Tool Development & Maintenance
 - **Pathfinder Status:** The `gem_pathfinder` tool has been completely overhauled and is now considered reliable for all known traversal types.
-- **Puzzle Solver Status:** The `boulder_puzzle_solver` tool has been implemented with an A* search algorithm and is ready for testing.
+- **Puzzle Solver Status:** The `boulder_puzzle_solver` tool has been implemented, but a bug was found where it incorrectly tracked the player's position after a push. This bug has now been fixed.
