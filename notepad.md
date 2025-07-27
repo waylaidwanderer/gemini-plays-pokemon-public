@@ -66,3 +66,17 @@
 ## B. Surfing Mechanic
 - Not all `ground` tiles adjacent to `water` are valid starting points for using Surf. The game engine can block movement even if the pathfinder's logic deems it valid. Example: Cannot initiate Surf from (15, 26) to (14, 26) in Viridian City.
 - **Process Failure:** I failed to use the `pathfinding_logic_validator_agent` to analyze the pathfinding paradox, instead relying solely on the debugger. This was a procedural error. I must prioritize using newly created tools to test their effectiveness and refine my processes.
+
+# IV. Puzzle Solutions & Hypotheses
+
+## Victory Road 2F - Western Trap
+
+**Failed Hypothesis #1:** Solving the western boulder puzzle (pushing boulder to switch at (2, 17)) opens the eastern barrier at (8, 9).
+*   **Result:** False. Pathfinding tools confirm the barrier remains closed.
+
+**Current Hypothesis #1 (from agent):** The barrier at (8, 9) opens after leaving and re-entering the map with the western boulder on its switch.
+*   **Test Plan:**
+    1.  Navigate to the ladder at (1, 9) leading to Victory Road 1F.
+    2.  Descend to 1F.
+    3.  Immediately ascend back to 2F.
+    4.  Check if the barrier at (8, 9) is open.
