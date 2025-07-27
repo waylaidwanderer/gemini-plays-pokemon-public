@@ -41,15 +41,13 @@
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
 
 # IV. Hypotheses & Tests
-*   **Hypothesis (Failed):** Interacting with the apprentice, then the boss, then the apprentice again, then the boss again would progress the quest. **Result:** Both NPCs are stuck in a dialogue loop, repeating the same lines. The quest did not advance.
-*   **Hypothesis (Failed):** The quest requires a specific sequence of interactions (Apprentice -> Boss -> Apprentice -> Boss -> Apprentice). **Result:** Both NPCs remain in a dialogue loop.
-*   **Current Hypothesis:** There is a hidden trigger or interactable object in the immediate vicinity of the apprentice in Ilex Forest that I have missed.
-*   **Past Hypothesis (Disproven):** I missed a trigger inside the Slowpoke Well.
-    *   **Result:** Re-exploring the well confirmed no new triggers. My exploration tool confirmed all unseen areas were unreachable.
-*   **Past Hypothesis (Disproven):** Kurt or his granddaughter in his house would trigger the next event.
-    *   **Result:** They gave generic dialogue.
-*   **Past Hypothesis (Disproven):** The unseen areas of Slowpoke Well are reachable.
-    *   **Result:** Multiple tool checks confirmed they are blocked by water and boulders.
+*   **Hypothesis (Failed):** There is a hidden trigger or interactable object in the immediate vicinity of the apprentice in Ilex Forest that I have missed. **Result:** My `find_reachable_unseen_tiles` tool confirmed there are no reachable unseen tiles in the area.
+*   **Current Hypothesis:** Having cleared Team Rocket from the Slowpoke Well and solved the Farfetch'd puzzle, speaking to Kurt in Azalea Town again may unlock new dialogue or progress the story.
+*   **Past Hypothesis (Failed):** Interacting with the apprentice, then the boss, then the apprentice again, then the boss again would progress the quest. **Result:** Both NPCs are stuck in a dialogue loop, repeating the same lines. The quest did not advance.
+*   **Past Hypothesis (Failed):** The quest requires a specific sequence of interactions (Apprentice -> Boss -> Apprentice -> Boss -> Apprentice). **Result:** Both NPCs remain in a dialogue loop.
+*   **Past Hypothesis (Disproven):** I missed a trigger inside the Slowpoke Well. **Result:** Re-exploring the well confirmed no new triggers. My exploration tool confirmed all unseen areas were unreachable.
+*   **Past Hypothesis (Disproven):** Kurt or his granddaughter in his house would trigger the next event. **Result:** They gave generic dialogue.
+*   **Past Hypothesis (Disproven):** The unseen areas of Slowpoke Well are reachable. **Result:** Multiple tool checks confirmed they are blocked by water and boulders.
 
 ### E. Tile Mechanics To Test
 *   **FLOOR_UP_WALL:** My pathfinder previously treated this as a one-way tile. I removed this rule for debugging. I need to conduct a systematic in-game test to determine its actual traversal properties (e.g., can it be entered from below? from the sides? can it be exited in any direction?).
