@@ -52,7 +52,6 @@
 
 - **Paradox Resolution Agent:** An agent that takes conflicting data sources (e.g., tool output vs. overwatch warnings) and proposes hypotheses to resolve the discrepancy. This could help break logical loops faster.
 - **Reflection Agent:** An agent to automate the process of answering the periodic reflection questions.
-- **Puzzle Path Prioritizer Agent:** An agent that analyzes puzzle elements (boulders, switches) and a navigation goal to suggest which puzzle element should be tackled first. This would help in situations where the overall solution is unknown and multiple starting points are possible.
 
 # V. Current Plan & Hypotheses
 
