@@ -60,14 +60,13 @@
 
 # III. Puzzle Solutions & Learnings
 
-## A. Victory Road 1F Puzzle - Hypothesis History
-- **H1 (Both Switches ON):** Pushing both the western boulder (at 3,11 to 3,10) and the eastern boulder (at 17,13 to 18,14) onto their switches resulted in the barrier at (10,13) remaining closed. **CONCLUSION: FAILED.**
-- **H2 (Toggle Switch):** The switch at (3,10) is a toggle, and the boulder must be pushed off it. **CONCLUSION: UNTESTABLE/FAILED.** It is physically impossible to push the boulder off the switch at (3,10) as the required push positions are impassable walls.
-- **H3 (Western Switch Only):** Pushed ONLY the western boulder (from 3,11 to 3,10) onto its switch. RESULT: The barrier at (10,13) remained closed. **CONCLUSION: FAILED.**
-- **H4 (Talk to defeated Youngster):** After getting trapped by pushing the boulder to (6, 17), talked to the defeated Youngster at (7, 11) again. RESULT: He repeated his post-battle dialogue. No event was triggered. **CONCLUSION: FAILED.**
-- **H5 (Hidden Switch/Passage):** Searched for a hidden pressure plate or secret passage on the western platform. **CONCLUSION: FAILED.** The Overwatch system confirmed this was a hallucination, as no such objects exist in the game state.
-- **H6 (Defeated Trainers Traversable):** The defeated Cool Trainer M at (4,3) and the Youngster at (7,11) are traversable objects. **CONCLUSION: FAILED.** Attempting to walk onto the Youngster at (7,11) was blocked by the game engine, proving defeated trainers are impassable obstacles. This invalidates the entire western path solution.
-- **H7 (Western Switch moves Youngster):** Pushed the western boulder (from 3,11 to 3,10) onto its switch. RESULT: The defeated Youngster at (7,11) did not move. **CONCLUSION: FAILED.**
+## A. Victory Road 1F Puzzle - Key Learnings & Failed Hypotheses
+- **Core Insight (Confirmation Bias):** My initial hypotheses (H1-H8) were crippled by confirmation bias, assuming switches *must* be activated. Future puzzle-solving must consider deliberately *not* activating switches or using objects in unconventional ways.
+- **Failed Hypothesis Log:**
+  - Activating BOTH switches (H1), ONLY the WEST switch (H3), or ONLY the EAST switch (H8) does not open the barrier at (10,13).
+  - The western boulder at (3,10) cannot be pushed OFF its switch (H2).
+  - Defeated trainers (Youngster at 7,11) are impassable and do not move when switches are activated (H6, H7).
+  - There are no hidden switches or passages on the western platform (H5).
 
 ## B. Puzzle Solving Insight (Confirmation Bias)
 My previous hypotheses all assumed activating switches is the solution. If these fail, I must test hypotheses where switches are deliberately left *unactivated* or boulders are used to block paths elsewhere.
