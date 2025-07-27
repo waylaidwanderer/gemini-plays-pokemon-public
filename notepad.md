@@ -68,3 +68,11 @@
   - The western boulder at (3,10) cannot be pushed OFF its switch to (3,11) (H2, confirmed by solver).
   - Defeated trainers (Youngster at 7,11) are impassable and do not move when switches are activated (H6, H7).
   - There are no hidden switches or passages on the western platform (H5).
+
+# IV. Radical Hypothesis Log (Victory Road 1F)
+
+## A. One-Way Step-Down Mechanic
+- **Observation:** All verified tools (`gem_pathfinder`, `boulder_puzzle_solver`) confirm I am in a soft-locked, inescapable position on the western platform of Victory Road 1F. This violates core game principles.
+- **Paradox:** The `pathfinder_debugger`, when operating with what I previously identified as 'buggy' logic, found a path to the exit ladder. The key move in this path was a step-down from `elevated_ground` (6, 10) to `ground` (6, 9).
+- **Radical Hypothesis (H9):** The 'bug' in the debugger is actually the correct game mechanic. It is possible to perform a one-way step-down from an `elevated_ground` tile to an adjacent `ground` tile without a `steps` or `cleared_boulder_barrier` tile.
+- **Test Plan:** Manually navigate to (6, 10) and attempt to move Up to (6, 9). If successful, this hypothesis is confirmed, and my core understanding of elevation mechanics is wrong and must be updated.
