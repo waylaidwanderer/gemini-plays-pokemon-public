@@ -1,18 +1,21 @@
 # I. Game Mechanics & Traversal
 
-## A. Core Rules
+## A. Core Principles
+- **Trust the Game Engine:** The game engine's behavior is the ultimate source of truth. If a tool's output or a personal hypothesis is contradicted by the engine (e.g., a blocked movement), the tool/hypothesis is wrong and must be corrected immediately. My repeated attempts to implement a one-way step-down mechanic for 'elevated_ground' failed because the engine consistently blocked it, proving the mechanic does not exist.
+
+## B. Core Rules
 - **Level Cap:** The level cap with 8 badges is 65.
 - **"No Will to Fight" Message:** Appears when the party menu cursor is on a fainted Pokémon.
 - **HM Usage:** HMs are used from the party menu. Fainted Pokémon can use field moves.
 - **PC Interaction:** To use a PC, stand directly below it, face up, and press 'A'.
 - **Surfing:** Not all `ground` tiles adjacent to `water` are valid starting points. The game engine can block movement even if a path seems clear.
 
-## B. Boulder Pushing
+## C. Boulder Pushing
 - **Activation:** Activate Strength from the party menu.
 - **Execution:** Face the boulder and press the directional button. The boulder moves one tile, but the player's position does not change.
 - **Reset Mechanic:** Leaving and re-entering a floor resets all boulders to their original positions.
 
-## C. Tile Glossary & Movement Rules
+## D. Tile Glossary & Movement Rules
 - `ground`: Standard walkable tile.
 - `grass`: Wild Pokémon encounters.
 - `water`: Requires SURF.
@@ -43,15 +46,15 @@
 # III. Puzzle Solutions & Progress
 
 ## A. Victory Road 1F - Puzzle Analysis
-- **Status:** All complex hypotheses involving pushing boulders ((7, 17) and (3, 11)) to the switch at (18, 14) have failed and been proven impossible by the `boulder_puzzle_solver` tool. The fundamental approach of using that switch is wrong.
-- **Objective:** Find a new method to open the boulder barrier at (10, 13) or find an alternate path to the ladder at (2, 2).
+- **Status:** All hypotheses involving the southern/western areas have failed. The path to the western ladder at (2, 2) is a confirmed dead end. The solution must lie on the eastern side of the map.
+- **Objective:** Find a path to the eastern elevated platform and re-evaluate the puzzle from there.
 - **Key Elements:**
   - Boulder 1: (6, 16)
   - Boulder 2: (15, 3) (on isolated upper platform)
   - Boulder 3: (3, 11)
-  - Switch: (18, 14) (Likely a red herring from this area)
+  - Switch: (18, 14)
   - Barrier: (10, 13)
-- **Current Hypothesis:** The puzzle is simpler than assumed. The boulder at (6, 16) is not part of a switch puzzle, but is merely an obstacle blocking the path to the steps at (6, 14). Moving this boulder will grant access to the western upper platform and the ladder at (2, 2).
+- **Current Hypothesis:** The boulder at (15, 3) on the eastern platform is the key to solving the puzzle.
 
 ## B. Victory Road 2F - Western Trap
 - **Solution:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering the triggers the event, opening the barrier at (8, 9) and (8, 10).
@@ -60,10 +63,8 @@
 - **Central Boulder (14, 13):** Push south two times into the hole at (14, 15). This affects the floor below.
 - **Northern Boulder (23, 4):** Push south three times onto the switch at (23, 7). This opens the boulder barrier at (8, 11).
 
-# IV. Lessons Learned & Tool Status
+# IV. Tool Status & Development
 
-- **Core Principle:** Trust the game engine over my own assumptions or a tool's flawed logic. If a tool's output contradicts the engine's behavior, the tool's logic is flawed and must be corrected immediately.
-- **Lesson Learned:** Do not abandon a path until it has been fully explored. A single obstacle does not mean a dead end. I must check for alternate routes around perceived blockages before reverting to new hypotheses.
 - **Pathfinder Status:** The `gem_pathfinder` tool's elevation logic has been repeatedly corrected based on direct game engine tests. The `ignorable_coords` feature is critical for navigating past defeated trainers.
 - **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented but was buggy. Critical fixes to its state representation and heap comparison logic have been applied.
 
