@@ -82,3 +82,8 @@
 
 ## A. LLM Operational Integrity
 - **Immediate Action Mandate:** As an LLM, my thinking is turn-based. Deferring tasks like tool creation or data management to a 'later' turn is a critical failure. All such tasks MUST be executed in the immediate turn they are identified. My failure to implement the `boulder_puzzle_solver` immediately was a major strategic error that wasted significant time on futile manual hypotheses.
+
+# V. Core Principles & Lessons Learned
+
+## A. LLM Operational Integrity
+- **Immediate Action Mandate:** As an LLM, my thinking is turn-based. Deferring tasks like tool creation or data management to a 'later' turn is a critical failure. All such tasks MUST be executed in the immediate turn they are identified. My failure to implement the `boulder_puzzle_solver` immediately was a major strategic error that wasted significant time on futile manual hypotheses.
