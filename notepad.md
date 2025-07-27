@@ -51,3 +51,4 @@
 
 ### E. Tile Mechanics To Test
 *   **FLOOR_UP_WALL:** My pathfinder previously treated this as a one-way tile. I removed this rule for debugging. I need to conduct a systematic in-game test to determine its actual traversal properties (e.g., can it be entered from below? from the sides? can it be exited in any direction?).
+*   **Hypothesis (Failed):** After clearing Team Rocket from the Slowpoke Well and solving the Farfetch'd puzzle, speaking to Kurt in Azalea Town again will unlock new dialogue or progress the story. **Result:** Kurt repeated his standard dialogue about making Poké Balls from Apricorns. The quest did not advance.
