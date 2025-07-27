@@ -87,3 +87,7 @@
 - **Attempt 1 (Turn 104135):** Upgraded from BFS to A*. **Result:** Timeout.
 - **Attempt 2 (Turn 104170):** Optimized A* with BFS reachability check. **Result:** Timeout.
 - **Attempt 3 (Turn 104172):** Re-ran. **Result:** 'No solution found', indicating a logic error, not a performance issue.
+
+## Victory Road 3F - Northern Boulder
+- **Puzzle:** A boulder at (23, 4) blocks the path to a switch at (23, 7).
+- **Solution:** Push the boulder south three times onto the switch. This opens the boulder barrier at (8, 11).
