@@ -88,10 +88,5 @@
 - **Test:** Used `boulder_puzzle_solver` to find a path for this sequence.
 - **Conclusion:** The solver returned 'No solution found'. This computationally proves that this specific sequence is impossible and my hypothesis was incorrect. The puzzle likely requires a more complex interaction between the boulders, or I am missing a key mechanic. This confirms that simply activating switches is not the sole objective.
 
-## C. Victory Road 1F Puzzle - Attempt 3 (FAILED)
-- **Hypothesis:** The boulder on the western switch (3,10) must be pushed *off* the switch to (3,11) to solve the puzzle.
-- **Test:** Used `boulder_puzzle_solver` to find a path for this sequence (Turn 103671).
-- **Conclusion:** The solver returned 'No solution found'. This computationally proves that this specific sequence is impossible from the current map state and my hypothesis was incorrect.
-
 ## D. Surfing Mechanic (New Discovery)
 - Not all `ground` tiles adjacent to `water` are valid starting points for using Surf. The game engine can block movement even if the pathfinder's logic deems it valid. Example: Cannot initiate Surf from (15, 26) to (14, 26) in Viridian City.
