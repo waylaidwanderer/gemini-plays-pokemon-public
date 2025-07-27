@@ -48,7 +48,7 @@
 ## B. Interaction Log (State -> Player Action -> Result)
 *   **State (15, 25):**
     *   From N (15, 24) -> Moves to (15, 29).
-    *   From S (15, 26) -> Moves to (20, 24).
+    *   From S (15, 26) -> 'Kwaa!', then clearing dialogue -> Moves to (20, 24) [CONFIRMED SEQUENCE!].
 *   **State (15, 29):**
     *   From N (15, 28) -> Disappears [New Location Unknown].
     *   From E (16, 29) -> Moves to (15, 25) [Loop].
