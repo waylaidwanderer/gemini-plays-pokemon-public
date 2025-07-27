@@ -35,7 +35,7 @@
 # III. Story & Quests
 
 ## A. Current Quest
-*   **Find a way past the strange tree on Route 36.** The solution seems tied to the events in Azalea Town.
+*   **Current Quest:** Get HM01 Cut by having the apprentice in Ilex Forest return to his boss.
 
 ## B. NPC Hints & Lore
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
