@@ -37,15 +37,13 @@
 ## A. Current Quest
 *   **Find a way past the strange tree on Route 36.** The solution seems tied to the events in Azalea Town.
 
-## B. Stalled Quests
-*   **Rescue the Apprentice (HM01 Cut):** The Farfetch'd herding portion of the puzzle in Ilex Forest is complete, but the apprentice and his boss are in a dialogue loop, blocking the quest reward.
-
-## C. NPC Hints & Lore
+## B. NPC Hints & Lore
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
 
 # IV. Hypotheses & Tests
-*   **Current Hypothesis:** I missed a trigger inside the Slowpoke Well.
-    *   **Test:** Re-explore the well, starting by interacting with the Slowpoke at (7, 4).
+*   **Current Hypothesis:** The quest for HM01 Cut is not stalled. I must re-interact with both the apprentice's boss in the Charcoal Kiln and the apprentice in Ilex Forest to verify if their dialogue has changed after completing the Farfetch'd puzzle.
+*   **Past Hypothesis (Disproven):** I missed a trigger inside the Slowpoke Well.
+    *   **Result:** Re-exploring the well confirmed no new triggers. My exploration tool confirmed all unseen areas were unreachable.
 *   **Past Hypothesis (Disproven):** Kurt or his granddaughter in his house would trigger the next event.
     *   **Result:** They gave generic dialogue.
 *   **Past Hypothesis (Disproven):** The unseen areas of Slowpoke Well are reachable.
