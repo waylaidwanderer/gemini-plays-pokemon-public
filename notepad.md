@@ -51,7 +51,7 @@
   - Boulder 3: (3, 11)
   - Switch: (18, 14)
   - Barrier: (10, 13)
-- **Current Hypothesis:** A new strategy is required. The solution may involve a different mechanic or an element I have overlooked. Beginning exploratory phase.
+- **Current Hypothesis:** The puzzle's solution is not to get a boulder to the switch at (18, 14). Both accessible boulders have been tested and cannot reach it. The new hypothesis is that the boulder at (6, 16) is an obstacle blocking the path to the steps at (6, 14). Moving this boulder will grant access to the western upper platform and the ladder at (2, 2).
 
 ## B. Victory Road 2F - Western Trap
 - **Solution:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering the triggers the event, opening the barrier at (8, 9) and (8, 10).
