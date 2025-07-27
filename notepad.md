@@ -3,14 +3,14 @@
 # I. Game Mechanics & Systems
 
 ## A. Tile Traversal Rules
-*   **Traversable:** FLOOR, TALL_GRASS, LONG_GRASS, DOOR, CAVE, LADDER.
+*   **Traversable:** FLOOR, TALL_GRASS, LONG_GRASS, DOOR, CAVE, LADDER, WARP_CARPET_RIGHT.
 *   **Impassable:** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, WATER, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE.
 *   **One-Way Traversal:**
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
     *   FLOOR_UP_WALL: Can only be entered from below.
-*   **Warp Carpets:** One-way warps activated by pressing the corresponding direction (e.g., WARP_CARPET_DOWN requires pressing 'Down').
+*   **Warp Carpets:** One-way warps activated by pressing the corresponding direction (e.g., WARP_CARPET_DOWN requires pressing 'Down', WARP_CARPET_RIGHT requires pressing 'Right').
 
 ## B. Key Mechanics & Lessons Learned
 *   **HM Usage:** HM moves can be used by fainted Pokémon.
@@ -41,9 +41,7 @@
 # V. Ilex Forest Puzzle: Farfetch'd Herding
 
 ## A. Puzzle Summary
-*   The Ilex Forest puzzle has been solved.
-
-## B. Interaction Log (Grouped by Farfetch'd Position)
+*   The Farfetch'd herding portion of the Ilex Forest puzzle has been solved.
 
 ## B. Quest Stalled
 * The apprentice and his boss are in a dialogue loop. The quest for HM01 Cut is currently blocked.
