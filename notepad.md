@@ -88,3 +88,4 @@
 
 ## B. New Puzzle Hypotheses
 *   **Ilex Forest Puzzle (Non-Linearity):** My current assumption is that the Farfetch'd puzzle is strictly linear. An alternative hypothesis is that it's non-linear, or that wild battles reset it to a specific *intermediate* state, not always the beginning. If my current approach fails, I should test this by intentionally triggering a battle after a successful move to observe the reset behavior.
+*   **Western Path (Y=23):** The western path from (0,23) to (9,23) is confirmed to be unreachable from the central forest area. Verified with `verify_reachability_of_tiles` tool (Turn 10611).
