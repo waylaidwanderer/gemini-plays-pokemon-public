@@ -30,13 +30,13 @@
 *   **Falkner (Violet City):** Pidgey (Lv7), Pidgeotto (Lv9).
 *   **Bugsy (Azalea Town):** Metapod (Lv14), Kakuna (Lv14), Scyther (Lv16).
 
-# IV. Story Progression
+# III. Story & Quests
 
 ## A. Current Quest
-*   **Rescue the Apprentice:** The Charcoal Man's apprentice is lost in Ilex Forest. Finding his runaway Farfetch'd is the primary lead to obtaining HM01 (Cut).
+*   **Rescue the Apprentice:** Solve the Farfetch'd herding puzzle in Ilex Forest to get HM01 (Cut).
 
-## B. Past Clues & Hints
-*   **Strange Tree:** Gramps in the Route 36 Gatehouse mentioned a 'strange tree' blocking a road, which might be why fewer people are visiting the Ruins of Alph. This could be the path forward to Goldenrod City.
+## B. Side Quests & Leads
+*   **The Strange Tree:** A strange tree on Route 36 is blocking the way to Goldenrod City. This is my main path forward after Ilex Forest.
 
 # V. Ilex Forest Puzzle: Farfetch'd Herding
 
