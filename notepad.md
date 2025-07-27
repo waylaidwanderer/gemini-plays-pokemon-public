@@ -51,7 +51,6 @@
 # V. Future Tool/Agent Ideas
 
 - **Paradox Resolution Agent:** An agent that takes conflicting data sources (e.g., tool output vs. overwatch warnings) and proposes hypotheses to resolve the discrepancy. This could help break logical loops faster.
-- **Reflection Agent:** An agent to automate the process of answering the periodic reflection questions.
 
 # V. Current Plan & Hypotheses
 
