@@ -46,3 +46,4 @@
 
 # VI. Tool Development
 *   The hyper-specific `puzzle_strategist` agent was deleted. It has been replaced by the more general-purpose `get_adjacent_traversable_tiles` tool, which can be used for any future interaction-based puzzles.
+*   **Idea:** Create a 'debugging_assistant' agent. It would take a failing tool's code and a hypothesis for the failure, then generate a series of `run_code` tests to methodically isolate the bug.
