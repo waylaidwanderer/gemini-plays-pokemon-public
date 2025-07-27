@@ -43,15 +43,15 @@
 # III. Puzzle Solutions & Progress
 
 ## A. Victory Road 1F - Puzzle Analysis
-- **Status:** Previous attempts to solve this puzzle were based on incorrect assumptions and have failed. The boulder at (3,10) is not on a switch.
-- **Objective:** The goal is to open the boulder barrier at (10, 13) to access the eastern part of the map, or find the correct path to the ladder at (2, 2).
+- **Status:** Both hypotheses about pushing the lower-level boulders ((6, 16) and (3, 11)) to the switch at (18, 14) have failed. The boulder_puzzle_solver tool confirmed no path exists for either. The fundamental approach is wrong.
+- **Objective:** Find a new method to open the boulder barrier at (10, 13) or find an alternate path to the ladder at (2, 2).
 - **Key Elements:**
-  - Boulder 1: (7, 17)
+  - Boulder 1: (6, 16)
   - Boulder 2: (15, 3) (on isolated upper platform)
-  - Boulder 3: (3, 10)
+  - Boulder 3: (3, 11)
   - Switch: (18, 14)
   - Barrier: (10, 13)
-- **Current Hypothesis:** The puzzle likely involves pushing one of the accessible boulders on the lower level (at (7, 17) or (3, 10)) onto the switch at (18, 14).
+- **Current Hypothesis:** A new strategy is required. The solution may involve a different mechanic or an element I have overlooked. Beginning exploratory phase.
 
 ## B. Victory Road 2F - Western Trap
 - **Solution:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering the triggers the event, opening the barrier at (8, 9) and (8, 10).
