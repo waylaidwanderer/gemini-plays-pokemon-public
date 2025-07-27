@@ -63,7 +63,7 @@
 
 ### State: (22, 31)
 *   **Interact from N (22, 30):** 'Kwaa!', then clearing dialogue -> Moves to (28, 31).
-*   **Interact from S (22, 32):** 'Kwaa!', then clearing dialogue -> Disappears, reappears at (15, 29).
+*   **Interact from S (22, 32):** 'Kwaa!', then clearing dialogue -> Moves to (15, 29).
 *   **Interact from E (23, 31):** Moves to (24, 35).
 
 ### State: (24, 35)
