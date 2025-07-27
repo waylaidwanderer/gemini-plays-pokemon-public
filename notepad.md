@@ -76,3 +76,4 @@ My previous hypotheses all assumed activating switches is the solution. If these
 - `ladder_up`: Warp tile that leads to a higher floor.
 - `ladder_up`: Warp tile that leads to a higher floor.
 - `ladder_up`: Warp tile that leads to a higher floor.
+- `ladder_up`: Warp tile that leads to a higher floor.
