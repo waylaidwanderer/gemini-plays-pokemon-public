@@ -78,13 +78,8 @@
 *   **Interact from S (29, 23):** 'Kwaa!', then clearing dialogue -> Disappears [New Location Unknown].
 *   **Interact from W (28, 22):** Disappears, reappears at (28, 31).
 
-## C. Confirmed Blockages
-*   **Western Path (Y=23):** The western path from (0,23) to (9,23) is likely unreachable from the central forest area due to one-way ledges, but this needs proper verification with a valid tool.
+## C. Pathing Note
+*   The western area of Ilex Forest was confirmed to be unreachable from the south due to one-way ledges. Access may be possible from another route in the future.
 
-# VI. Future Improvements & Hypotheses
-
-## A. Tool Development Ideas
-*   **General Puzzle Tool:** The `farfetchd_puzzle_solver` is too specific. Consider creating a more general tool, like `get_adjacent_traversable_tiles`, that can be used for any object or puzzle element.
-
-## B. New Puzzle Hypotheses
-*   **Ilex Forest Puzzle (Non-Linearity):** My current assumption is that the Farfetch'd puzzle is strictly linear. An alternative hypothesis is that it's non-linear, or that wild battles reset it to a specific *intermediate* state, not always the beginning. If my current approach fails, I should test this by intentionally triggering a battle after a successful move to observe the reset behavior.
+# VI. Tool Development
+*   The hyper-specific `puzzle_strategist` agent was deleted. It has been replaced by the more general-purpose `get_adjacent_traversable_tiles` tool, which can be used for any future interaction-based puzzles.
