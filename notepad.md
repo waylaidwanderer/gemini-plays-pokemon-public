@@ -55,7 +55,7 @@
     *   From W (14, 29) -> 'Kwaa!' then clearing dialogue -> Disappears [NEW DISCOVERY! Location unknown].
     *   From S (15, 30) -> 'Kwaa!', then clearing dialogue -> Moves to (15, 25) [NEW DISCOVERY!].
 *   **State (20, 24):**
-    *   From E (21, 24) -> 'Kwaa!' [Verified, pending dialogue clear].
+    *   From E (21, 24) -> 'Kwaa!', then clearing dialogue -> Disappears [CONFIRMED SEQUENCE! Location unknown].
     *   From N (20, 23) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
 *   **State (22, 31):**
     *   From S (22, 32) -> 'Kwaa!', then clearing dialogue -> Disappears, reappears at (15, 29) [CONFIRMED SEQUENCE!].
