@@ -53,3 +53,12 @@
 - **Paradox Resolution Agent:** An agent that takes conflicting data sources (e.g., tool output vs. overwatch warnings) and proposes hypotheses to resolve the discrepancy. This could help break logical loops faster.
 - **Reflection Agent:** An agent to automate the process of answering the periodic reflection questions.
 - **Puzzle Path Prioritizer Agent:** An agent that analyzes puzzle elements (boulders, switches) and a navigation goal to suggest which puzzle element should be tackled first. This would help in situations where the overall solution is unknown and multiple starting points are possible.
+
+# V. Current Plan & Hypotheses
+
+## Victory Road 1F Puzzle
+- **Hypothesis (Attempt 1):** The western platform puzzle is a 'prime and trigger' mechanic, similar to the one on 2F.
+  - **Prime Step:** Push the boulder at (3, 11) onto the switch at (3, 10). (Status: COMPLETED)
+  - **Trigger Step:** Leave Victory Road 1F and re-enter.
+  - **Expected Outcome:** The central boulder barrier at (10, 13) will be open upon re-entry, granting access to the eastern puzzle area.
+  - **Current Action:** Navigating to the exit to perform the trigger step.
