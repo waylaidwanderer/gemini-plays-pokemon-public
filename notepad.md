@@ -17,7 +17,7 @@
 - `grass`: Wild Pokémon encounters.
 - `water`: Requires SURF.
 - `impassable`: Wall.
-- `elevated_ground`: Walkable, different elevation. Movement between `elevated_ground` and lower elevations is only possible via `steps` or `cleared_boulder_barrier` tiles. Stepping down directly to `ground` is not possible.
+- `elevated_ground`: Walkable, different elevation. Movement between `elevated_ground` and lower elevations is only possible via `steps` tiles. Stepping down directly to `ground` is not possible.
 - `steps`: Allows movement between elevations.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
@@ -39,16 +39,16 @@
 
 # III. Puzzle Mechanics & Key Discoveries
 
+- **Victory Road 1F - Western Puzzle:** This puzzle involves two boulders on the western platform. Solving it appears to be a red herring and does not directly open the path forward. It may be a prerequisite for a 'prime and trigger' mechanic.
 - **Victory Road 2F - Western Trap:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below, affecting a puzzle there.
 
 # IV. Tool Status & Development
 
-- **Pathfinder Status:** The `gem_pathfinder` tool's elevation logic has been repeatedly corrected based on direct game engine tests. The `ignorable_coords` feature is critical for navigating past defeated trainers.
-- **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented and functional after several critical bug fixes.
+- **Pathfinder Status:** The `gem_pathfinder` tool is currently unreliable on Victory Road 1F and requires a complete overhaul. Its elevation and pathing logic is flawed.
+- **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented but its internal pathfinder may also be flawed, preventing it from solving puzzles on this map.
 
 # V. Future Tool/Agent Ideas
 
 - **Paradox Resolution Agent:** An agent that takes conflicting data sources (e.g., tool output vs. overwatch warnings) and proposes hypotheses to resolve the discrepancy. This could help break logical loops faster.
 - **Reflection Agent:** An agent to automate the process of answering the periodic reflection questions.
-- **Puzzle Strategist Agent:** An agent that uses the output of `get_puzzle_elements` to formulate a high-level, multi-step strategy for complex puzzle rooms.
