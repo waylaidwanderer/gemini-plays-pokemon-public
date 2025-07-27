@@ -39,11 +39,9 @@
 
 # III. Puzzle Solutions & Progress
 
-## A. Victory Road 1F - Path to Ladder (Corrected Solution)
-- **The Barrier is a Red Herring:** The boulder barrier at (10, 13) is not the primary obstacle. The goal is to reach the ladder at (2, 2).
-- **Step 1 - Clear the Path:** Navigate to (3, 12).
-- **Step 2 - Push the Boulder:** Push the western boulder at (3, 11) north to (3, 10). This does not activate a switch but physically clears the path.
-- **Step 3 - Proceed to Ladder:** With the boulder moved, the path north to the ladder at (2, 2) is now open.
+## A. Victory Road 1F - Path to Ladder (Hypothesis 1 - FAILED)
+- **Observation:** Pushing the boulder from (3, 11) to (3, 10) blocks the direct northern path to the ladder, trapping the player in the western section.
+- **Conclusion:** This solution is incorrect. The puzzle must be solved differently. The next step is to reset the puzzle by leaving and re-entering the map.
 
 ## B. Victory Road 2F - Western Trap
 - **Solution:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier at (8, 9) and (8, 10).
