@@ -91,15 +91,3 @@
 *   **Deferred Tool Fixing (Critical Failure):** I incorrectly deferred fixing a broken tool by making it a tertiary goal. Tool maintenance is an immediate, high-priority action that must be completed before any other gameplay objective.
 *   **Tool Underutilization (Overwatch Critique):** I failed to use my `farfetchd_puzzle_solver` tool when it was applicable, a valid critique from the overwatch system.
 *   **Misleading System Alerts (Critical Lesson):** I spent numerous turns debugging a working tool (`find_reachable_unseen_tiles`) because I trusted a generic system alert over my tool's specific, data-driven output. The debug logs eventually proved the tool was correct and the path was blocked. I must trust my verified tools over general system information.
-
-# VII. Puzzle Solutions
-
-## A. Ruins of Alph (Kabuto Puzzle)
-*   The true solution was to use the unmarked warp at (4, 0) in the puzzle chamber after arranging the pieces.
-*   **State (Unknown):** After disappearing from (22, 31), checked (28, 31) and (24, 35). Farfetch'd not found at either location. [Failed Search]
-*   **Misleading System Alerts (Critical Lesson):** I spent numerous turns debugging a working tool (`verify_reachability_of_tiles`) because I trusted a generic system alert over my tool's specific, data-driven output. The debug logs eventually proved the tool was correct and the path was blocked by one-way ledges. I must trust my verified tools over general system information.
-*   **State (15, 29):**
-    *   After 'Kwaa!' from W (14, 29), clearing dialogue -> Disappears [NEW DISCOVERY! Location unknown].
-*   **State (15, 29):**
-    *   From S (15, 30) -> 'Kwaa!', then clearing dialogue -> Moves to (15, 25) [NEW DISCOVERY!].
-*   **PP Management Failure:** I allowed my lead Pokémon, Vulcan, to run out of PP for all attacking moves while deep in Ilex Forest. This created a high-risk situation where any wild encounter could have been a potential party wipe. This is a critical failure in resource management and must not be repeated. Always retreat to heal before PP runs critically low.
