@@ -59,3 +59,6 @@
 
 ## C. Trainer Battle Rules
 - **No Respawns:** Defeated trainers do NOT respawn after leaving and re-entering a map. They become permanent, impassable obstacles.
+
+## C. Trainer Battle Rules
+- **No Respawns:** Defeated trainers do NOT respawn after leaving and re-entering a map. They become permanent, impassable obstacles.
