@@ -63,3 +63,17 @@
 # VII. Untested Assumptions & Future Experiments
 *   **Tile Impassability:** I have assumed several tile types are impassable based on their names (e.g., BUOY, TV, RADIO) without direct testing. I must verify these assumptions by attempting to walk into them when the opportunity arises.
 *   **Tool Refactoring:** My pathfinding tools contain redundant code, which led to desynchronized logic. I need to refactor them to use a single, centralized pathfinding function to ensure they are always consistent.
+
+# VIII. New Lessons & Tasks (Turn 12285)
+
+## A. Core Lessons
+*   **Prioritize In-Game Tests:** My debugging process for the `LEDGE_HOP_DOWN` tile was inefficient. I spent many turns modifying tools based on a flawed hypothesis. A simple, direct in-game test would have immediately disproven it. I must prioritize simple experiments to verify mechanics before undertaking complex tool modifications.
+
+## B. New Battle Data
+*   **Type Matchup:** Ground is SUPER-EFFECTIVE against Fire; Fire is NOT VERY EFFECTIVE against Ground (Learned from Sandshrew encounter).
+
+## C. Concluded Investigations
+*   **Route 32 Northern Path:** The path north from (16, 16) is a confirmed dead end, blocked by one-way `LEDGE_HOP_DOWN` ledges. This has been marked on the map.
+
+## D. Technical Debt
+*   **HIGH PRIORITY - Tool Refactoring:** My `find_path_to_target` and `find_reachable_unseen_tiles` tools contain redundant pathfinding code. This led to them becoming desynchronized. I need to refactor them to use a single, centralized pathfinding function to ensure they are always consistent.
