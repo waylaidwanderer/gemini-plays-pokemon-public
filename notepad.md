@@ -90,3 +90,4 @@
 
 ## C. NPC Dialogue Updates
 *   A Super Nerd in Union Cave 1F at (4, 21) confirms that POKéMON roars can be heard from deep inside the cave every Friday. This corroborates the Fisher's hint.
+*   **WALL:** Confirmed impassable by attempting to move from (3, 22) to (2, 22).
