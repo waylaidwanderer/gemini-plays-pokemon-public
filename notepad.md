@@ -18,7 +18,7 @@
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
     *   FLOOR_UP_WALL: Can only be entered from below. It is a one-way tile that acts as a ledge you jump up.
-*   **Warp Carpets:** Generally activated by pressing the corresponding direction (e.g., `WARP_CARPET_RIGHT` requires pressing 'Right'). However, some, like the one at Union Cave (17, 3), may be one-way entrances and cannot be activated from the exit side. However, some, like the one at Union Cave (17, 3), may be one-way entrances and cannot be activated from the exit side.
+*   **Warp Carpets:** Generally activated by pressing the corresponding direction (e.g., `WARP_CARPET_RIGHT` requires pressing 'Right'). However, some, like the one at Union Cave (17, 3), may be one-way entrances and cannot be activated from the exit side.
 
 # II. Battle Information
 
@@ -34,26 +34,19 @@
 # III. Story & Quests
 
 ## A. Current Quest
-*   **Current Quest:** Get HM01 Cut by having the apprentice in Ilex Forest return to his boss.
+*   **Current Quest:** Investigate the strange tree on Route 36.
 
 ## B. NPC Hints & Lore
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
 
-# IV. Investigations & Hypotheses
+# IV. Concluded Investigations
 
-## A. Current Hypothesis
-*   **Hypothesis:** Having explored Ilex Forest to a dead end, I may have missed a story trigger in Azalea Town. 
-*   **Test:** Systematically re-interact with all NPCs in Azalea Town, starting with Kurt, to check for new dialogue.
-
-## B. Disproven Hypotheses
-*   **Ilex Forest Path:** The winding eastern path in Ilex Forest is a dead end and not the exit to Route 34.
+*   **Ilex Forest (Stalled):** The HM01 Cut quest is stalled. The apprentice's dialogue remains unchanged even after the Farfetch'd he was looking for has disappeared. The northern section of the forest is inaccessible from the south due to one-way ledges.
 *   **Azalea Town NPCs (Post-Well):** Neither Kurt nor the Charcoal Man had new dialogue immediately after clearing the Slowpoke Well and solving the Farfetch'd puzzle.
-*   **Ilex Forest HM01 Quest (Stalled):** The quest for HM01 Cut is stalled. The apprentice's dialogue remains unchanged even after the Farfetch'd he was looking for has disappeared. This path is a dead end.
 *   **Slowpoke Well:** Re-exploration confirmed no missed triggers or reachable unseen areas.
+*   **Union Cave Unseen Tiles:** The western section of the cave, containing the unseen tiles, is physically disconnected from the eastern section by walls and water. The unseen tiles are genuinely unreachable from either entrance.
+*   **Union Cave Warp (Failed):** The WARP_CARPET_DOWN at (17, 3) cannot be activated with 'A' or by pressing 'Down'. It appears to be a one-way entrance from Route 32.
 
-## C. Technical Investigations
-*   **FLOOR_UP_WALL:** The traversal properties of this tile need to be systematically tested in-game to confirm if it is a one-way ledge.
+## B. Technical Investigations
 *   **CRITICAL HALLUCINATION (Turn 11733):** I believed I had already transitioned to Route 33 and was trying to pathfind from there. The system corrected me; I was still at the exit of Azalea Town (39, 15). This highlights the need to always verify my current location before planning.
-*   **Union Cave Unseen Tiles (Concluded):** The system repeatedly alerted about unseen tiles. My `find_reachable_unseen_tiles` tool initially returned empty lists. To investigate this contradiction, I added extensive debugging logs and ran the tool from both the southern and northern entrances. The debug logs confirmed the tool's logic is sound. A manual trace on the map confirms that the western section of the cave, containing the unseen tiles, is physically disconnected from the eastern section by walls and water. **Conclusion:** The unseen tiles are genuinely unreachable from either entrance. The system alert is a red herring.
-*   **Union Cave Warp (Failed):** The WARP_CARPET_DOWN at (17, 3) cannot be activated with 'A' or by pressing 'Down' (blocked by a wall). It appears to be a one-way entrance from Route 32.
 *   **CRITICAL HALLUCINATION (Turn 11840):** I incorrectly assumed the map exit at Route 33 (0, 15) was a warp. I must verify all warps in the game state data before setting them as navigation goals.
