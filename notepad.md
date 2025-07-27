@@ -59,3 +59,4 @@
 
 # VI. Held Items
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
+*   **Fisher Henry (Route 32):** Poliwag (Lv8), Poliwag (Lv8).
