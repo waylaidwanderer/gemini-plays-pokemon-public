@@ -9,7 +9,7 @@
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
-    *   FLOOR_UP_WALL: Can only be entered from below.
+    *   FLOOR_UP_WALL: Can only be entered from below. It is a one-way tile that acts as a ledge you jump up. You cannot move back down (which is moving Up on the map) from it.
 *   **Warp Carpets:** One-way warps activated by pressing the corresponding direction.
     *   WARP_CARPET_RIGHT: Requires pressing 'Right'.
     *   WARP_CARPET_DOWN: Requires pressing 'Down'.
