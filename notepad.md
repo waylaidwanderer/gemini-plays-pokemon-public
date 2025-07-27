@@ -20,9 +20,10 @@
 - `steps`: Allows movement between elevations.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
-- `hole`: Drops to a lower floor.
+- `hole`: Drops to a lower floor. Pushing a boulder into one can affect the map below.
 - `spinner`: Forces movement.
 - `ladder_up`: Warp tile that leads to a higher floor.
+- `ladder_down`: Warp tile that leads to a lower floor.
 
 # II. Battle Intel
 
@@ -72,3 +73,7 @@
 - **Puzzle:** A barrier at (8, 9) and (8, 10) blocks eastward progress.
 - **Failed Hypothesis:** Pushing the western boulder at (4, 16) to the switch at (2, 17) would immediately open the barrier. This was proven false.
 - **Solution:** The puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier.
+
+## Victory Road 3F - Central Boulder
+- **Puzzle:** A boulder at (14, 13) blocks a hole at (14, 15).
+- **Solution:** Push the boulder south two times into the hole. This causes a change on the floor below (Victory Road 2F).
