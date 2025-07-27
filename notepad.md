@@ -69,10 +69,6 @@
 # IV. Puzzle Solutions & Hypotheses
 
 ## Victory Road 2F - Western Trap
-
-**Failed Hypothesis #1:** Solving the western boulder puzzle (pushing boulder to switch at (2, 17)) opens the eastern barrier at (8, 9).
-*   **Result:** False. Pathfinding tools confirm the barrier remains closed.
-
-## Victory Road 2F - Western Trap
-
-**Solution:** Pushing the boulder at (4,16) to the switch at (2,17) primes a trap. Leaving the floor and re-entering with the boulder on the switch opens the barrier at (8,9) and (8,10).
+- **Puzzle:** A barrier at (8, 9) and (8, 10) blocks eastward progress.
+- **Failed Hypothesis:** Pushing the western boulder at (4, 16) to the switch at (2, 17) would immediately open the barrier. This was proven false.
+- **Solution:** The puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering triggers the event, opening the barrier.
