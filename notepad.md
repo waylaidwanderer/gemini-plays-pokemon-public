@@ -16,7 +16,7 @@
 - `grass`: Wild Pokémon encounters.
 - `water`: Requires SURF.
 - `impassable`: Wall.
-- `elevated_ground`: Walkable, different elevation. Movement between `elevated_ground` and lower elevations is only possible via `steps` or `cleared_boulder_barrier` tiles. One-way step-downs are NOT possible.
+- `elevated_ground`: Walkable, different elevation. Movement between `elevated_ground` and lower elevations is only possible via `steps` or `cleared_boulder_barrier` tiles. One-way step-downs from `elevated_ground` are NOT possible.
 - `steps`: Allows movement between elevations.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
@@ -60,13 +60,11 @@
 
 # III. Core Principles & Lessons Learned
 
-## A. LLM Operational Integrity
-- **Immediate Action Mandate:** My failure to implement the `boulder_puzzle_solver` immediately was a major strategic error that wasted significant time. Deferring critical tool creation is a critical failure.
-- **Trust Computational Evidence:** I must trust the outputs of my computational tools (like the pathfinder) over my own flawed manual verification, especially when faced with a paradox. My refusal to accept the debugger's finding cost me dozens of turns. The Victory Road 1F puzzle was a key example: I was trapped in a soft-lock because my verified traversal rules were incorrect. The game insisted a path existed, while my tools, based on my flawed rules, said I was trapped. The `pathfinder_debugger` tool, when configured with a hypothetical 'one-way step-down' mechanic, successfully found a path, providing computational proof that this mechanic was intended and my manual verification was flawed.
+## A. Tool Development & Logic Validation
+- **Trust the Game Engine:** The game engine is the ultimate source of truth. My pathfinder's logic, which allowed for a one-way step-down from `elevated_ground`, was proven wrong when the game engine blocked the move at Victory Road 3F (10, 3). If a tool's output contradicts the engine's behavior, the tool's logic is flawed and must be corrected immediately. My previous 'lesson' about trusting computational evidence was based on a faulty premise.
 
 ## B. Surfing Mechanic
 - Not all `ground` tiles adjacent to `water` are valid starting points for using Surf. The game engine can block movement even if the pathfinder's logic deems it valid. Example: Cannot initiate Surf from (15, 26) to (14, 26) in Viridian City.
-- **Process Failure:** I failed to use the `pathfinding_logic_validator_agent` to analyze the pathfinding paradox, instead relying solely on the debugger. This was a procedural error. I must prioritize using newly created tools to test their effectiveness and refine my processes.
 
 # IV. Puzzle Solutions & Hypotheses
 
@@ -90,7 +88,3 @@
 - **Attempt 1 (Turn 104135):** Upgraded from BFS to A*. **Result:** Timeout.
 - **Attempt 2 (Turn 104170):** Optimized A* with BFS reachability check. **Result:** Timeout.
 - **Attempt 3 (Turn 104172):** Re-ran. **Result:** 'No solution found', indicating a logic error, not a performance issue.
-
-## Victory Road 3F - Northern Boulder
-- **Puzzle:** A boulder at (23, 4) blocks the path to a switch at (23, 7).
-- **Solution:** Push the boulder south three times onto the switch. This opens the boulder barrier at (8, 11).
