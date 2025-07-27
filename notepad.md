@@ -55,3 +55,6 @@
 *   **Agent Idea - Exploration Validator:** An agent that takes the output of `find_reachable_unseen_tiles`, automatically runs `get_adjacent_traversable_tiles` on each, and then uses `find_path_to_target` to return a final, verified list of reachable exploration targets. This would automate my entire validation loop.
 *   **Agent Idea - Debugging Assistant:** It would take a failing tool's code and a hypothesis for the failure, then generate a series of `run_code` tests to methodically isolate the bug.
 *   **Agent Idea - Reflection Assistant:** It would take the 50-turn reflection questions and my recent turn history as input, then generate a preliminary analysis of my performance, forcing me to confront any strategic loops or unaddressed issues more directly.
+
+### E. Tile Mechanics To Test
+*   **FLOOR_UP_WALL:** My pathfinder previously treated this as a one-way tile. I removed this rule for debugging. I need to conduct a systematic in-game test to determine its actual traversal properties (e.g., can it be entered from below? from the sides? can it be exited in any direction?).
