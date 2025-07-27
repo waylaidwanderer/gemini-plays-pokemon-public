@@ -89,7 +89,7 @@
     *   From E (16, 29) -> Moves to (15, 25) [Loop].
     *   From W (14, 29) -> No movement ['Kwaa!'] [Verified].
 *   **State (20, 24):**
-    *   From E (21, 24) -> Disappears [Reset].
+    *   From E (21, 24) -> 'Kwaa!' [Verified, pending dialogue clear].
     *   From N (20, 23) -> Disappears [New Location Unknown, 'Kwaa!'] [Verified].
 *   **State (22, 31):**
     *   From S (22, 32) -> No movement ['Kwaa!'], then clearing dialogue causes it to disappear [NEW DISCOVERY! Did not reappear at (28, 31)].
