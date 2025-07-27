@@ -43,15 +43,15 @@
 # III. Puzzle Solutions & Progress
 
 ## A. Victory Road 1F - Puzzle Analysis
-- **Status:** Both hypotheses about pushing the lower-level boulders ((6, 16) and (3, 11)) to the switch at (18, 14) have failed. The boulder_puzzle_solver tool confirmed no path exists for either. The fundamental approach is wrong.
+- **Status:** All complex hypotheses involving pushing boulders ((7, 17) and (3, 11)) to the switch at (18, 14) have failed and been proven impossible by the `boulder_puzzle_solver` tool. The fundamental approach of using that switch is wrong.
 - **Objective:** Find a new method to open the boulder barrier at (10, 13) or find an alternate path to the ladder at (2, 2).
 - **Key Elements:**
   - Boulder 1: (6, 16)
   - Boulder 2: (15, 3) (on isolated upper platform)
   - Boulder 3: (3, 11)
-  - Switch: (18, 14)
+  - Switch: (18, 14) (Likely a red herring from this area)
   - Barrier: (10, 13)
-- **Current Hypothesis:** The puzzle's solution is not to get a boulder to the switch at (18, 14). Both accessible boulders have been tested and cannot reach it. The new hypothesis is that the boulder at (6, 16) is an obstacle blocking the path to the steps at (6, 14). Moving this boulder will grant access to the western upper platform and the ladder at (2, 2).
+- **Current Hypothesis:** The puzzle is simpler than assumed. The boulder at (6, 16) is not part of a switch puzzle, but is merely an obstacle blocking the path to the steps at (6, 14). Moving this boulder will grant access to the western upper platform and the ladder at (2, 2).
 
 ## B. Victory Road 2F - Western Trap
 - **Solution:** This puzzle requires a two-step "prime and trigger" mechanic. Pushing the boulder onto the switch at (2, 17) primes the trap. Leaving the floor and re-entering the triggers the event, opening the barrier at (8, 9) and (8, 10).
@@ -65,4 +65,4 @@
 - **Core Principle:** Trust the game engine over my own assumptions or a tool's flawed logic. If a tool's output contradicts the engine's behavior, the tool's logic is flawed and must be corrected immediately.
 - **Lesson Learned:** Do not abandon a path until it has been fully explored. A single obstacle does not mean a dead end. I must check for alternate routes around perceived blockages before reverting to new hypotheses.
 - **Pathfinder Status:** The `gem_pathfinder` tool's elevation logic has been repeatedly corrected based on direct game engine tests. The `ignorable_coords` feature is critical for navigating past defeated trainers.
-- **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented but was buggy. A critical fix to its player position tracking logic has been applied.
+- **Puzzle Solver Status:** The `boulder_puzzle_solver` is implemented but was buggy. Critical fixes to its state representation and heap comparison logic have been applied.
