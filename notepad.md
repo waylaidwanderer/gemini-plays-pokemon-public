@@ -96,3 +96,6 @@
 *   **Hypothesis 2:** The warp is movement-based, triggered by stepping onto it.
     *   **Test 2.1:** Move from (3, 41) down to (3, 42). **Result: FAILED.**
     *   **Test 2.2:** Move from (2, 42) right to (3, 42). **Result: FAILED.**
+*   **Hypothesis 3:** The warp is triggered by facing the correct direction (`Right`) while standing on the tile, and then pressing the same direction again.
+    *   **Test 3.1:** Stand on (3, 43), press `Right` to face the wall. **Result: SUCCESSFUL WARP.**
+*   **Conclusion:** `WARP_CARPET_RIGHT` requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
