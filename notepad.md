@@ -77,3 +77,4 @@
 - **Test:** Pushed the boulder, reset the map, and attempted to walk through the barrier at (10, 13).
 - **Conclusion:** **FALSE.** The barrier remains closed. The switch at (3, 10) does not control the barrier at (10, 13).
 - **New Hypothesis:** The boulder at (15, 3) must be pushed onto the switch at (18, 14) to open the barrier. I need to find a way to access that area.
+- **Hypothesis #3:** The path to the eastern boulder at (15, 3) is blocked on 1F. The solution must involve an action on a different floor, likely related to the boulder pushed down the hole from 3F. **Next Step:** Go to 2F to investigate.
