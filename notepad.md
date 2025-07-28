@@ -38,7 +38,7 @@
 
 # III. Puzzle Mechanics & Key Discoveries
 
-- **Victory Road 1F - Western Platform:** This area contains the ladder to 2F at (2, 2).
+- **Victory Road 1F - Western Platform:** The ladder to 2F is located at (2, 2), but it is inaccessible from the main part of the western platform. The path is blocked by the impassable Youngster at (7, 11).
 - **Victory Road 2F - Western Trap:** Pushing the boulder onto the switch at (2, 17) primes a trap that opens the barrier at (8, 9) and (8, 10) after leaving and re-entering the floor.
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below.
 
