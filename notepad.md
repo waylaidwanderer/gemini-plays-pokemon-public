@@ -63,3 +63,12 @@
 - **Western Path Conclusion (Final):** The western path is a **confirmed dead end**. The boulder at (3, 10) is immovable, and the defeated trainer at (7, 11) is an impassable obstacle. The game state's claim that the ladder was reachable was a red herring.
 - **Eastern Path Conclusion:** The eastern boulder puzzle is the only remaining viable path to progress to Victory Road 2F.
 - **New Plan:** Solve the eastern boulder puzzle to proceed.
+
+## Victory Road 2F - Western Boulder Puzzle Solution
+- **Goal:** Move boulder from (5, 15) to switch at (2, 17).
+- **Plan:**
+  1. Move to (5, 14), push boulder at (5, 15) Down to (5, 16).
+  2. Move to (6, 16), push boulder at (5, 16) Left to (4, 16).
+  3. Move to (4, 15), push boulder at (4, 16) Down to (4, 17).
+  4. Move to (5, 17), push boulder at (4, 17) Left to (3, 17).
+  5. Move to (4, 17), push boulder at (3, 17) Left to (2, 17).
