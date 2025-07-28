@@ -56,6 +56,7 @@
 ## B. `FLOOR_UP_WALL` Traversal Test Log
 *   **Test (Basement):** Cannot move DOWN from a `FLOOR_UP_WALL` tile at (7, 18) in UnionCaveB1F. Attempting to do so resulted in a warp back to 1F. **Conclusion: Downward movement *from* this tile type is blocked.**
 *   **Test (1F):** Cannot move DOWN from a `FLOOR` tile at (15, 3) to a `FLOOR_UP_WALL` tile at (15, 4). **Conclusion: Entry *from above* is blocked.**
+*   **Test (1F):** Cannot move DOWN from a `FLOOR` tile at (15, 3) to a `FLOOR_UP_WALL` tile at (15, 4). **Conclusion: Entry *from above* is blocked.**
 
 # V. Stalled Quests & Concluded Investigations
 
