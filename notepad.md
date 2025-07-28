@@ -69,3 +69,6 @@
 - **Conclusion:** All paths out of Azalea Town (Route 33, Ilex Forest) are currently blocked. Kurt's dialogue is unchanged. The back room of his house is a dead end.
 - **New Hypothesis:** The only remaining lead is to re-check the Charcoal Kiln to see if the apprentice's boss has new dialogue now that time has passed since the Farfetch'd quest.
 - **Data Management Note:** Deferring cleanup of duplicated notepad entries to prioritize forward progress and break the current failure loop.
+
+# VII. Stalled Quests & Dead Ends
+*   **HM01 Cut Quest (Stalled):** Both the Charcoal Man in Azalea Town and his apprentice in Ilex Forest are in a dialogue loop. Speaking to either after solving the Farfetch'd puzzle does not advance the quest. The path forward is blocked until a new trigger is found.
