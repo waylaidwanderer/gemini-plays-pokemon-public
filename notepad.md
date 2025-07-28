@@ -57,3 +57,4 @@
 
 # VI. Tool Development Bugs & Fixes
 - **Defeated Trainer Impassability Bug:** Both gem_pathfinder and boulder_puzzle_solver incorrectly treat tiles with any <Object> as impassable. This includes defeated trainers. This bug prevents the tools from finding valid paths that go through the space previously occupied by a defeated trainer. This must be fixed by modifying the obstacle detection logic to ignore defeated trainers.
+- **Victory Road 1F - Boulder/Steps Interaction:** Boulders cannot be pushed onto `steps` tiles. This was confirmed when attempting to push the boulder at (6, 15) north onto the steps at (6, 14).
