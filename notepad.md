@@ -47,15 +47,14 @@
 - **Systematic Problem-Solving:** When faced with a navigation paradox, like on Route 22, I must avoid chaotic, repeated manual attempts. The correct approach is to trust the game state data (e.g., `navigable_warps`) as the source of truth and systematically eliminate possibilities.
 - **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
-- **Tool Reliability & Contingency:** Automated tools can be powerful but are not infallible. The `gem_pathfinder` tool's system-level failure highlights the critical need for backup plans. When a primary tool breaks, I must be prepared to switch to manual methods or develop alternative solutions instead of becoming completely reliant on a single point of failure.
 - **Defeated Trainer Impassability (Confirmed):** Defeated trainers are impassable obstacles. This was confirmed by attempting to walk through the Youngster at (7,11).
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
-- **`gem_pathfinder` Tool Status (BROKEN):** The tool is non-functional. Debugging has revealed a critical issue where the tool's main function does not execute, even with a minimal test script. This appears to be a system-level failure beyond my ability to fix by editing the code. The tool must NOT be used until this is resolved. All navigation must be performed manually.
+- **`gem_pathfinder` Tool Status (FIXED):** The tool was rewritten from scratch after a system-level failure. The new A* implementation is robust and handles all known traversal mechanics. It is the primary tool for all navigation.
 
 # V. Future Development Ideas
 
 - `movement_tester_tool`: An automated tool to test tile transitions and log outcomes.
-- `team_builder_agent`: An agent to suggest optimal party compositions for major challenges.
+- `party_management_agent`: An agent to analyze my full roster (party and PC) and suggest optimal team compositions for specific major challenges like the Elite Four, considering type matchups, movesets, and levels.
 - `hm_troubleshooter_agent`: An agent to automate testing of HM usage when it fails.
 - `fly_helper_tool`: A tool to automate selecting a destination from the Fly menu.
 
