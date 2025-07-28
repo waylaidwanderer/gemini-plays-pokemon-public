@@ -74,3 +74,16 @@
 *   **Hypothesis:** Route 33 is a one-way path from east to west.
 *   **Evidence:** The entrance from Union Cave is at (11, 9). The path leads west over a series of `LEDGE_HOP_LEFT` and `LEDGE_HOP_DOWN` tiles. My own testing confirms these are one-way. It is impossible to travel east along the northern path from Azalea Town.
 *   **Conclusion:** The northern unseen tiles flagged by the system are unreachable from the southern half of the route. The alerts can be safely ignored when entering from Azalea Town.
+
+# VII. Methodical Mechanics Testing (Pathfinder Debugging)
+
+## A. Pathfinder Debugging Plan - Union Cave
+*   **Objective:** Fully understand the traversal rules for the `FLOOR_UP_WALL` tile type to fix the `pathfinder` tool.
+*   **Location:** Union Cave 1F, northern section (accessible from Route 32).
+*   **Procedure:**
+    1.  Travel to the `FLOOR_UP_WALL` tiles located near (15, 4).
+    2.  **Test 1 (Entry from Below):** Stand on a `FLOOR` tile at (15, 5) and attempt to move UP to the `FLOOR_UP_WALL` at (15, 4). Document result.
+    3.  **Test 2 (Exit Downwards):** From (15, 4), attempt to move DOWN to (15, 5). Document result.
+    4.  **Test 3 (Exit Upwards):** From (15, 4), attempt to move UP to the `WALL` at (15, 3). Document result (expected to fail).
+    5.  **Test 4 (Sideways Movement):** From (15, 4), attempt to move RIGHT to (16, 4) and LEFT to (14, 4). Document results.
+*   **Conclusion:** Only after all tests are complete and documented will I attempt to modify the `pathfinder` tool's code.
