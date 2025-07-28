@@ -18,10 +18,12 @@
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
-*   **Special Interaction (Warp):
+*   **Special Interaction (Warp):**
     *   **CAVE:** Can act as a one-way warp. The tile at Route 33 (11, 9) is a confirmed one-way entrance to Union Cave (17, 31). The tile at Route 32 (6, 79) is a confirmed one-way entrance to Union Cave (17, 3). Should be treated as impassable for pathfinding.
     *   **WARP_CARPET_RIGHT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
     *   **WARP_CARPET_LEFT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
+*   **Special Interaction (Weird Walls):**
+    *   **FLOOR_UP_WALL:** A special tile type found in Union Cave. It acts as a wall if approached from below (Y+1), but can be walked on from the sides or above. Essentially, it's a one-way ledge from above.
 *   **Special Interaction (Fishing):**
     *   WATER: Impassable to walk on, but can be fished in with a rod.
 
@@ -61,6 +63,7 @@
 ## A. Untested Hypotheses
 *   **Union Cave Connectivity:** An alternative hypothesis for the disconnected nature of the cave is that a hidden switch or event must be triggered to open a new path. This is currently untestable without full exploration.
 *   **Route 32 North Path:** The path north is blocked by trees and walls. An alternative hypothesis is that there is a hidden switch or event that clears this path. This is untestable until I have HMs like Cut.
+*   **Ruins of Alph East Entrance:** My current assumption is that the east entrance is the correct path forward. An alternative hypothesis is that this entrance is also a dead end or requires a key item, and the true path forward is to continue south on Route 32. I will test this by attempting to enter the east entrance. If it fails, I will systematically explore south.
 
 ## B. Technical Investigations & Hallucinations
 *   **CRITICAL HALLUCINATION (Turn 11733):** I believed I had already transitioned to Route 33 and was trying to pathfind from there. The system corrected me; I was still at the exit of Azalea Town (39, 15). This highlights the need to always verify my current location before planning.
@@ -83,10 +86,7 @@
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
 *   **MIRACLE SEED:** Received from Cooltrainer M on Route 32. Boosts the power of grass-type moves.
 
-# IX. Current Strategy & Tool Status (as of Turn 14211)
+# IX. Current Strategy & Tool Status
 *   **Tool Deprecation:** The `find_reachable_unseen_tiles` tool has been deleted due to redundant and faulty logic. All navigation and reachability checks now rely solely on the verified `pathfinder` tool.
 *   **Pathfinder Status:** The `pathfinder` tool is now considered fully reliable. Any failure to find a path will be treated as confirmation that the destination is genuinely unreachable from the current location.
-*   **Current Investigation (Ruins of Alph Research Center):** I am abandoning the repetitive chase of the moving scientist. My new hypothesis is that the progression trigger is a different, static object in the room. I will now systematically interact with all other objects: the stationary scientist at (4, 5), the computer at (3, 4), the printer at (7, 1), and the bookshelf at (6, 5).
-
-# X. To-Do & Untested Leads
-*   **Route 32 Gatehouse Warp:** Overwatch noted I missed investigating the warp at (4, 3). I need to check this on my next visit.
+*   **Current Investigation (Ruins of Alph):** After determining the first gatehouse led to dead ends, my new strategy is to investigate the east entrance to the Ruins of Alph, located on Route 32.
