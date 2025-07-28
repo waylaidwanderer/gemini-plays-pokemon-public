@@ -10,7 +10,8 @@
 *   **Verify Location:** Always verify my current map and coordinates before planning any navigation, especially after a map transition.
 
 ## B. Tile Traversal Rules
-*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_LEFT, WARP_CARPET_DOWN, LADDER, FLOOR, CAVE.
+*   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_LEFT, WARP_CARPET_DOWN, LADDER, FLOOR.
+*   **Special Interaction (Warp):** CAVE.
 *   **Impassable (to walk on):** WALL, WINDOW, PC, VOID, CUT_TREE, SIGN, BOOKSHELF, BLACKBOARD, MART_SHELF, BUOY, TV, TOWN_MAP, RADIO, INCENSE_BURNER, COUNTER, BIRD, HEADBUTT_TREE, FRUIT_TREE. The `WALL` tile at Route 32 (4, 36) is confirmed impassable.
 *   **One-Way Traversal:**
     *   LEDGE_HOP_DOWN: Can only be entered from above.
