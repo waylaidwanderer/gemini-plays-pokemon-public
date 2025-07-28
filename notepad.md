@@ -45,7 +45,7 @@
 *   **Ilex Forest (Stalled):** The HM01 Cut quest is stalled. The apprentice's dialogue remains unchanged even after the Farfetch'd he was looking for has disappeared. The northern section of the forest is inaccessible from the south due to one-way ledges.
 *   **Azalea Town NPCs (Post-Well):** Neither Kurt nor the Charcoal Man had new dialogue immediately after clearing the Slowpoke Well and solving the Farfetch'd puzzle.
 *   **Slowpoke Well:** Re-exploration confirmed no missed triggers or reachable unseen areas.
-*   **Union Cave Unseen Tiles:** The western section of the cave, containing the unseen tiles, is physically disconnected from the eastern section by walls and water. The unseen tiles are genuinely unreachable from either entrance.
+*   **Union Cave Unseen Tiles (Confirmed):** The western section of the cave, containing all unseen tiles, is confirmed to be physically disconnected from the eastern section. My `find_reachable_unseen_tiles` tool verified that there is no path from the eastern side to any of the unseen tiles on the west.
 *   **Union Cave Warp (Failed):** The WARP_CARPET_DOWN at (17, 3) cannot be activated with 'A' or by pressing 'Down'. It appears to be a one-way entrance from Route 32.
 
 ## B. Technical Investigations
