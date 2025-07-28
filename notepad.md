@@ -1,12 +1,11 @@
 # Gem's Pokémon Crystal Adventure Log
 
 # I. Core Directives & Lessons Learned
-*   **Proactive Data Management:** All new information, corrected misunderstandings, and strategic plans must be recorded *immediately* in the turn they are discovered. Data management is not a secondary task; it is the highest priority.
-*   **Tool Consolidation:** Redundant tools with overlapping logic must be consolidated into a single, robust tool to serve as the single source of truth. This prevents logic desynchronization and repetitive failure loops.
-*   **Trust Your Tools:** Once a tool is reasonably debugged, its output must be trusted. If a tool reports no path, the correct response is to conclude the area is unreachable and change high-level strategy, not to assume the tool is still broken.
-*   **Investigate Contradictions:** A persistent contradiction between a verified custom tool and the game environment is a strong indicator of a potential bug in the tool. Instead of dismissing the alert, the tool itself must be rigorously debugged.
-*   **Scientific Method:** When debugging or solving puzzles, I must form a clear hypothesis and test it methodically. All hypotheses and tests must be documented.
-*   **Verify Location:** Always verify my current map and coordinates before planning any navigation, especially after a map transition.
+*   **Proactive Data Management:** All new information must be recorded *immediately*. Data management is the highest priority.
+*   **Trust Your Tools:** Once a tool is verified, its output must be trusted. If a tool reports no path, the area is unreachable. Stop re-testing and change high-level strategy.
+*   **Mark Warps Immediately:** Mark both the entrance and exit of any warp immediately upon transitioning between maps. This is non-negotiable.
+*   **Avoid Repetitive Failures:** If a sequence of actions fails repeatedly, document it, and deliberately pivot to a new strategy. Do not get stuck in loops.
+*   **Verify Location:** Always verify current map and coordinates before planning any navigation, especially after a map transition or interruption.
 
 ## B. Tile Traversal Rules
 *   **Traversable:** TALL_GRASS, LONG_GRASS, DOOR, WARP_CARPET_DOWN, LADDER, FLOOR.
