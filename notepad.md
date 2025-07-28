@@ -1,7 +1,6 @@
 # Gem's Pokémon Crystal Adventure Log
 
 # I. Core Directives & Lessons Learned
-
 *   **Proactive Data Management:** All new information, corrected misunderstandings, and strategic plans must be recorded *immediately* in the turn they are discovered. Data management is not a secondary task; it is the highest priority.
 *   **Tool Consolidation:** Redundant tools with overlapping logic must be consolidated into a single, robust tool to serve as the single source of truth. This prevents logic desynchronization and repetitive failure loops.
 *   **Agent Usage Discipline:** Use reasoning agents for significant or complex decisions only. Rely on personal judgment for trivial encounters to conserve turns. Proactively use the `procedural_overseer` agent to detect and break out of repetitive, failing loops.
@@ -42,33 +41,23 @@
 ## B. NPC Hints & Lore
 *   A Fisher in Union Cave at (14, 19) mentioned that strange roars can be heard from deep within the cave on weekends.
 
-# IV. Concluded Investigations
+# IV. Stalled Quests & Concluded Investigations
 
-*   **Ilex Forest (Stalled):** The HM01 Cut quest is stalled. The apprentice's dialogue remains unchanged even after the Farfetch'd he was looking for has disappeared. The northern section of the forest is inaccessible from the south due to one-way ledges.
+*   **HM01 Cut Quest (Stalled):** The quest is confirmed to be stalled. Both the Charcoal Man in Azalea Town and his apprentice in Ilex Forest are in a dialogue loop, even after solving the Farfetch'd puzzle. The path north in Ilex Forest is blocked by a CUT_TREE at (8, 25), making progress impossible until a new trigger is found.
 *   **Azalea Town NPCs (Post-Well):** Neither Kurt nor the Charcoal Man had new dialogue immediately after clearing the Slowpoke Well and solving the Farfetch'd puzzle.
 *   **Slowpoke Well:** Re-exploration confirmed no missed triggers or reachable unseen areas.
-*   **Union Cave Unseen Tiles (Confirmed):** The western section of the cave, containing all unseen tiles, is confirmed to be physically disconnected from the eastern section. My `find_reachable_unseen_tiles` tool verified that there is no path from the eastern side to any of the unseen tiles on the west.
+*   **Union Cave Unseen Tiles (Confirmed):** Pathfinding attempts to the western section of the cave from the eastern side have failed, suggesting the areas are disconnected.
 *   **Union Cave Warp (Failed):** The WARP_CARPET_DOWN at (17, 3) cannot be activated with 'A' or by pressing 'Down'. It appears to be a one-way entrance from Route 32.
 
-## B. Technical Investigations
+## B. Technical Investigations & Hallucinations
 *   **CRITICAL HALLUCINATION (Turn 11733):** I believed I had already transitioned to Route 33 and was trying to pathfind from there. The system corrected me; I was still at the exit of Azalea Town (39, 15). This highlights the need to always verify my current location before planning.
 *   **CRITICAL HALLUCINATION (Turn 11840):** I incorrectly assumed the map exit at Route 33 (0, 15) was a warp. I must verify all warps in the game state data before setting them as navigation goals.
 *   **Route 33 North Path (Confirmed Blocked):** Manually attempting to move north from (9, 10) confirmed that the tile at (9, 9) is an impassable wall. My pathfinding tools were correct; the northern unseen area is unreachable from this side due to one-way ledges.
 *   **CRITICAL HALLUCINATION (Turn 12026):** I completely misunderstood my location. I believed I had successfully navigated through Union Cave and was exploring Route 32. In reality, I had exited the cave and immediately re-entered through the northern warp at (6, 79), which I mistook for a path forward. This highlights a critical need to slow down and verify my location after every single map transition, no matter how certain I feel.
+*   **CRITICAL HALLUCINATION (Turn 12744 & 12797):** I have repeatedly become disoriented about my location after map transitions, believing I was on a different map or outside when I was still inside. This is a recurring issue. I MUST verify my map and coordinates before every single navigational plan.
 
 # V. Key Items & HMs
 *   **OLD ROD:** Received from the Fishing Guru in the Route 32 Pokémon Center. Allows fishing in bodies of water.
 
 # VI. Held Items
 *   **POISON BARB:** Received from FRIEDA on Route 32 on a Friday. Boosts the power of poison-type moves.
-
-*   **`["path"]` Button Unreliability:** Executing a long `path_plan` via the `["path"]` button press has failed. This is a button press, not a tool. Hypothesis: The mechanic is unreliable for paths longer than a few steps. Test: Attempt to use `["path"]` for a short, 2-3 step path from my current position of (14, 27) to (14, 25). If it succeeds, the issue is length. If it fails, the mechanic itself is broken.
-*   **CRITICAL HALLUCINATION (Turn 12744 & 12797):** I have repeatedly become disoriented about my location after map transitions, believing I was on a different map or outside when I was still inside. This is a recurring issue. I MUST verify my map and coordinates before every single navigational plan.
-
-# Status Update & Plan (Turn 12861)
-- **Conclusion:** All paths out of Azalea Town (Route 33, Ilex Forest) are currently blocked. Kurt's dialogue is unchanged. The back room of his house is a dead end.
-- **New Hypothesis:** The only remaining lead is to re-check the Charcoal Kiln to see if the apprentice's boss has new dialogue now that time has passed since the Farfetch'd quest.
-- **Data Management Note:** Deferring cleanup of duplicated notepad entries to prioritize forward progress and break the current failure loop.
-
-# VII. Stalled Quests & Dead Ends
-*   **HM01 Cut Quest (Stalled):** Both the Charcoal Man in Azalea Town and his apprentice in Ilex Forest are in a dialogue loop. Speaking to either after solving the Farfetch'd puzzle does not advance the quest. The path forward is blocked until a new trigger is found.
