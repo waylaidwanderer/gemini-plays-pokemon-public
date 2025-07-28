@@ -108,3 +108,4 @@
 *   **Conclusion:** `WARP_CARPET_RIGHT` tiles require facing the direction of the warp, then pressing that direction again to activate.
 *   **CRITICAL HALLUCINATION (Turn 13949):** I was convinced I had already warped into the Route32RuinsOfAlphGate (10_12) and was at (9, 4). The system corrected me: I was still on Route32 (10_1) at (4, 2). This demonstrates a persistent failure to verify my location after a map transition, leading to invalid navigation goals and failed actions.
 *   **Impassable (Untested Assumption):** COMPUTER, PRINTER.
+*   **CRITICAL HALLUCINATION (Turn 13982):** I had a turn number mismatch, reporting 13980 when the turn was 13981. This is a recurring issue with my internal state tracking.
