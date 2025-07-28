@@ -50,7 +50,7 @@
 - **Victory Road 1F - Boulder/Steps Interaction (Confirmed):** Boulders cannot be pushed onto `steps` tiles. This was confirmed after multiple failed attempts to push the boulder at (6, 15) north onto the steps at (6, 14).
 
 # V. Future Development Ideas & Discoveries
-- **Hypothesis: Victory Road 2F - Eastern Puzzle:** The boulder at (5, 15) must be moved to the switch at (10, 17) to open the barrier at (24, 15).
+- **Hypothesis (Disproven): Victory Road 2F - Eastern Puzzle:** The boulder at (5, 15) cannot be moved to the switch at (10, 17) as the path is blocked by an impassable tile at (9, 17).
 - `movement_tester_tool`: An automated tool to test tile transitions and log outcomes.
 - `party_management_agent`: An agent to analyze my full roster (party and PC) and suggest optimal team compositions for specific major challenges like the Elite Four, considering type matchups, movesets, and levels.
 - `hm_troubleshooter_agent`: An agent to automate testing of HM usage when it fails.
