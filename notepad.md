@@ -56,5 +56,5 @@
 # VI. Tool & Agent Development
 
 ## A. Pathfinder Status
-- **Status:** The `pathfinder_lite` tool is CRITICALLY UNRELIABLE and UNTRUSTWORTHY. It has repeatedly generated invalid paths into walls, water tiles, and through NPCs.
-- **Current Debugging Focus:** The issue is not in the initial identification of obstacles (impassable tiles, water, NPCs), which my tests confirm is working. The bug lies within the A* search loop, which is failing to correctly use the set of identified obstacles to prune invalid paths.
+- **Status:** The `pathfinder_lite` tool is CRITICALLY UNRELIABLE and UNTRUSTWORTHY. It has repeatedly generated invalid paths into walls, water tiles, and through NPCs. It also fails to find valid paths that are known to exist, as demonstrated on Route 22 (Turn 106502). The refactoring in Turn 106496 did not solve the underlying issue.
+- **Current Debugging Focus:** The bug is not simple obstacle identification. It's a deeper logical flaw within the A* search loop or the tile validation logic that incorrectly prunes valid nodes from the search space.
