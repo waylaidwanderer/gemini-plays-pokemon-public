@@ -108,3 +108,4 @@
 *   **WARP_CARPET_DOWN:** Acts as a warp. Traversable.
 *   **VOID:** Impassable tile type, acts as a wall.
 *   **WARP_CARPET_LEFT:** Requires being on the tile, facing the direction of the warp, and then pressing the directional button again.
+*   WADE on Route 31 will share BERRIES if I visit him.
