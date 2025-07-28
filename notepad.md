@@ -63,3 +63,8 @@
 - **Western Path Conclusion (Final):** The western path is a **confirmed dead end**. The boulder at (3, 10) is immovable, and the defeated trainer at (7, 11) is an impassable obstacle. The game state's claim that the ladder was reachable was a red herring.
 - **Eastern Path Conclusion:** The eastern boulder puzzle is the only remaining viable path to progress to Victory Road 2F.
 - **New Plan:** Solve the eastern boulder puzzle to proceed.
+
+# VII. New Discoveries & Ideas
+
+- **Victory Road 2F - Western Trap:** Pushing the boulder onto the switch at (2, 17) primes a trap. After leaving and re-entering the floor, the barrier at (8, 9) and (8, 10) opens.
+- `puzzle_execution_agent`: An agent to interpret the output of `boulder_puzzle_solver` and break it down into smaller, more manageable steps for execution.
