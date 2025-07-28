@@ -69,3 +69,4 @@
 
 # VIII. Specific Impassable Tiles
 *   The `WALL` tile at Route 32 (4, 36) is confirmed impassable, blocking the path directly south from (4, 35).
+*   **FLOOR_UP_WALL (Confirmed):** Cannot be traversed downwards. My attempt to move from (5, 35) to (5, 36) was blocked, confirming it's a one-way tile that can only be jumped up.
