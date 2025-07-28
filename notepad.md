@@ -61,7 +61,7 @@
 
 ## A. Untested Hypotheses
 *   **Union Cave Connectivity:** An alternative hypothesis for the disconnected nature of the cave is that a hidden switch or event must be triggered to open a new path. This is currently untestable without full exploration.
-*   **Route 32 North Path:** The path north is blocked by trees and walls. An alternative hypothesis is that there is a hidden switch or event that clears this path. This is untestable until I have HMs like Cut.
+*   **Route 32 North Path (Confirmed Blocked):** My verified `pathfinder` tool has confirmed that the path north on Route 32 is completely blocked by a combination of `CUT_TREE`s and walls. This path is not viable until I acquire the Cut HM.
 *   **Ruins of Alph East Entrance:** My current assumption is that the east entrance is the correct path forward. An alternative hypothesis is that this entrance is also a dead end or requires a key item, and the true path forward is to continue south on Route 32. I will test this by attempting to enter the east entrance. If it fails, I will systematically explore south.
 
 # VI. Key Items & HMs
