@@ -14,7 +14,7 @@
 - `grass`: Wild Pokémon encounters.
 - `water`: Requires SURF.
 - `impassable`: Wall.
-- `elevated_ground`: Walkable, different elevation. Movement to a lower elevation is *only* possible via `steps` tiles or by stepping down onto a `cleared_boulder_barrier` tile. Direct movement to a lower `ground` tile is not possible.
+- `elevated_ground`: Walkable, different elevation. Movement to a lower elevation is *only* possible via `steps` tiles. Direct movement to a lower `ground` tile is not possible unless it is a `cleared_boulder_barrier` tile.
 - `steps`: Allows movement between elevations.
 - `boulder_switch`: Floor switch for boulders.
 - `boulder_barrier`: Impassable barrier linked to a boulder switch.
