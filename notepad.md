@@ -69,3 +69,8 @@
 *   **Hypothesis:** `LEDGE_HOP_DOWN` tiles are one-way and cannot be traversed from below (i.e., by moving up).
 *   **Test:** Stood at Route 33 (12, 14) and attempted to move up to the `LEDGE_HOP_DOWN` tile at (12, 13).
 *   **Conclusion:** Movement was blocked. The hypothesis is confirmed. This tile type is impassable from below.
+
+## Route 33 Layout
+*   **Hypothesis:** Route 33 is a one-way path from east to west.
+*   **Evidence:** The entrance from Union Cave is at (11, 9). The path leads west over a series of `LEDGE_HOP_LEFT` and `LEDGE_HOP_DOWN` tiles. My own testing confirms these are one-way. It is impossible to travel east along the northern path from Azalea Town.
+*   **Conclusion:** The northern unseen tiles flagged by the system are unreachable from the southern half of the route. The alerts can be safely ignored when entering from Azalea Town.
