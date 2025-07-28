@@ -43,7 +43,7 @@
 - **Victory Road 3F - Hole Puzzle:** Pushing the boulder at (14, 13) south into the hole at (14, 15) causes it to drop to the floor below.
 
 # IV. Lessons Learned
-- **Trust Automated Tools:** My manual pathing attempts on Route 22 failed due to cognitive bias. A robust, automated tool like `gem_pathfinder` is superior for complex navigation and should be trusted over my own flawed reasoning.
+- **Tool Reliability:** While automated tools like `gem_pathfinder` can be powerful, they can also break. It's critical to have a robust debugging process and be prepared to switch to manual navigation when a tool fails. Relying solely on a single tool without a backup plan is a major vulnerability.
 - **Systematic Problem-Solving:** When faced with a navigation paradox, like on Route 22, I must avoid chaotic, repeated manual attempts. The correct approach is to trust the game state data (e.g., `navigable_warps`) as the source of truth and systematically eliminate possibilities.
 - **Efficient Debugging:** Repetitively running the same failing test case is inefficient. I must vary the test conditions (e.g., change the target destination) to gather new diagnostic data and isolate bugs more effectively.
 - **Immediate Action:** Deferring tasks like tool repair or documentation is a critical error. All maintenance and data logging must be done in the immediate turn of discovery to maintain a coherent internal state.
