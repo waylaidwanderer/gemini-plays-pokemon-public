@@ -89,4 +89,4 @@
 # IX. Current Strategy & Tool Status
 *   **Tool Deprecation:** The `find_reachable_unseen_tiles` tool has been deleted due to redundant and faulty logic. All navigation and reachability checks now rely solely on the verified `pathfinder` tool.
 *   **Pathfinder Status:** The `pathfinder` tool is now considered fully reliable. Any failure to find a path will be treated as confirmation that the destination is genuinely unreachable from the current location.
-*   **Current Investigation (Ruins of Alph):** After determining the first gatehouse led to dead ends, my new strategy is to investigate the east entrance to the Ruins of Alph, located on Route 32.
+*   **Current Strategy:** All northern paths on Route 32 have been confirmed as dead ends. The only remaining path is south. The Youngster at (3, 45) is blocking the direct path, so I must navigate around him to continue towards Union Cave.
