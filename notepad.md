@@ -15,7 +15,7 @@
     *   LEDGE_HOP_DOWN: Can only be entered from above.
     *   LEDGE_HOP_RIGHT: Can only be entered from the left.
     *   LEDGE_HOP_LEFT: Can only be entered from the right.
-    *   FLOOR_UP_WALL: Can only be entered from below (upward).
+    *   FLOOR_UP_WALL: Can be entered from below (moving up) and traversed sideways. Cannot be entered from above (moving down).
 *   **Special Interaction (Warp):**
     *   **CAVE:** Can act as a one-way warp. The tile at Route 33 (11, 9) is a confirmed one-way entrance to Union Cave (17, 31). The tile at Route 32 (6, 79) is a confirmed one-way entrance to Union Cave (17, 3). Should be treated as impassable for pathfinding.
 *   **Special Interaction (Fishing):**
