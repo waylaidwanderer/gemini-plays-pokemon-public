@@ -64,11 +64,6 @@
 *   **Route 32 North Path:** The path north is blocked by trees and walls. An alternative hypothesis is that there is a hidden switch or event that clears this path. This is untestable until I have HMs like Cut.
 *   **Ruins of Alph East Entrance:** My current assumption is that the east entrance is the correct path forward. An alternative hypothesis is that this entrance is also a dead end or requires a key item, and the true path forward is to continue south on Route 32. I will test this by attempting to enter the east entrance. If it fails, I will systematically explore south.
 
-## B. Technical Investigations & Hallucinations
-*   **Recurring Hallucinations (Summary):** I have a persistent issue with spatial disorientation, frequently hallucinating my map ID and coordinates after map transitions, interruptions (like phone calls), or when pathfinding logic fails. This has led to numerous wasted turns and looping behaviors. The core lesson is that I cannot trust my own memory of my location. I MUST make it a reflexive, non-negotiable habit to check my current map and coordinates in the game state before every single navigational action.
-
-*   **Tool Contradiction (Summary):** I previously had desynchronized pathfinding logic between tools, leading to conflicting reports on reachability. This has been resolved by consolidating all navigation logic into the `pathfinder` tool, which is now the single source of truth.
-
 # VI. Key Items & HMs
 *   **OLD ROD:** Received from the Fishing Guru in the Route 32 Pokémon Center.
 
