@@ -47,4 +47,3 @@
 - **Current Objective:** The western platform puzzle is confirmed to not be the primary path forward. The new priority is to solve the eastern boulder puzzle, which starts with the boulder at (15, 3) and the switch at (18, 14).
 
 # V. Future Development Ideas
-- **Path Validation Agent:** Create an agent that takes a proposed path (list of coordinates) and the movement rules from this notepad as input, and returns whether the path is valid. This would prevent wasting turns on flawed manual paths.
